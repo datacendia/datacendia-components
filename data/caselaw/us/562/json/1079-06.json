@@ -1,0 +1,61 @@
+{
+  "id": 6021163,
+  "name": "Daniels v. United States",
+  "name_abbreviation": "Daniels v. United States",
+  "decision_date": "2010-11-29",
+  "docket_number": "No. 09-9754",
+  "first_page": "1079",
+  "last_page": "1079",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1079"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 152,
+    "ocr_confidence": 0.572,
+    "sha256": "4e70eceb8ef0bcd3ea2213fd1abaaa0af815472a3082a83f8eaf5ebeda0d44fc",
+    "simhash": "1:8d13da02058ed8c2",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Daniels v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-9754.\nDaniels v. United States."
+  },
+  "file_name": "1079-06",
+  "first_page_order": 1101,
+  "last_page_order": 1101
+}

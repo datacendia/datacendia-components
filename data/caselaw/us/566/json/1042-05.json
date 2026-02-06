@@ -1,0 +1,59 @@
+{
+  "id": 12226341,
+  "name": "Cox v. United States",
+  "name_abbreviation": "Cox v. United States",
+  "decision_date": "2012-06-04",
+  "docket_number": "No. 11-10168",
+  "first_page": "1042",
+  "last_page": "1042",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 1042"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.647,
+    "sha256": "2123dd39c751f51966cb3291da7cab601f3058e01406536437acaaf82945bc0f",
+    "simhash": "1:b5ab8a53de8f311b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cox v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10168.\nCox v. United States."
+  },
+  "file_name": "1042-05",
+  "first_page_order": 918,
+  "last_page_order": 918
+}

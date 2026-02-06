@@ -1,0 +1,82 @@
+{
+  "id": 12224434,
+  "name": "Downs v. California Board of Prison Terms II et al.",
+  "name_abbreviation": "Downs v. California Board of Prison Terms II",
+  "decision_date": "2012-06-04",
+  "docket_number": "No. 11-9632",
+  "first_page": "1032",
+  "last_page": "1032",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 1032"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "506 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11924825
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/506/0001-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 75,
+    "char_count": 559,
+    "ocr_confidence": 0.556,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.24764918726921917
+    },
+    "sha256": "d07b2c7a41fa7478a81bc983618d11c8d126cab0115711ffcf2e8b4a268ca165",
+    "simhash": "1:e5a2348d456cd67f",
+    "word_count": 95
+  },
+  "last_updated": "2024-02-27T23:45:15.365324+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Downs v. California Board of Prison Terms II et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Motion of petitioner for leave to proceed in forma pauperis denied, and certiorari dismissed. See this Court\u2019s Rule 39.8. As petitioner has repeatedly abused this Court\u2019s process, the Clerk is directed not to accept any further petitions in noncriminal matters from petitioner unless the docketing fee required by Rule 38(a) is paid and the petition is submitted in compliance with Rule 33.1. See Martin v. District of Columbia Court of Appeals, 506 U. S. 1 (1992) (per curiam).",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9632.\nDowns v. California Board of Prison Terms II et al."
+  },
+  "file_name": "1032-04",
+  "first_page_order": 908,
+  "last_page_order": 908
+}

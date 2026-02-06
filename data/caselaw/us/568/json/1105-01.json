@@ -1,0 +1,59 @@
+{
+  "id": 12428591,
+  "name": "Benson v. United States",
+  "name_abbreviation": "Benson v. United States",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-7109",
+  "first_page": "1105",
+  "last_page": "1105",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1105"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.648,
+    "sha256": "ba4f3862d168ec942184d8631bf292b7ae10368824f733b08e748e7cc6d74707",
+    "simhash": "1:168be3874ebd1444",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Benson v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7109.\nBenson v. United States."
+  },
+  "file_name": "1105-01",
+  "first_page_order": 1181,
+  "last_page_order": 1181
+}

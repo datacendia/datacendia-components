@@ -1,0 +1,59 @@
+{
+  "id": 12413851,
+  "name": "Accardi v. United States",
+  "name_abbreviation": "Accardi v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10699",
+  "first_page": "857",
+  "last_page": "857",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 857"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.686,
+    "sha256": "9ab55747aee753bf953faedde68e3798fdb855778e3de1bbd36a291bd9c5a8a5",
+    "simhash": "1:47cac3030a2da040",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Accardi v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. D. C. Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10699.\nAccardi v. United States."
+  },
+  "file_name": "0857-04",
+  "first_page_order": 933,
+  "last_page_order": 933
+}

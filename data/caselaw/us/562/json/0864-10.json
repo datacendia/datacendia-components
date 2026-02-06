@@ -1,0 +1,59 @@
+{
+  "id": 5975162,
+  "name": "Sarwar v. United States",
+  "name_abbreviation": "Sarwar v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11154",
+  "first_page": "864",
+  "last_page": "864",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 864"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.596,
+    "sha256": "721b6d6ee45ce958dc9b219ccac68f410fc632bc70ab625c8eb17c0cc2bc198e",
+    "simhash": "1:367b4b0307ef951c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sarwar v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11154.\nSarwar v. United States."
+  },
+  "file_name": "0864-10",
+  "first_page_order": 886,
+  "last_page_order": 886
+}

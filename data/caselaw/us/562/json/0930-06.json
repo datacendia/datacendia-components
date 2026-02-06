@@ -1,0 +1,59 @@
+{
+  "id": 5982266,
+  "name": "Owens v. Marshall, Warden",
+  "name_abbreviation": "Owens v. Marshall",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5589",
+  "first_page": "930",
+  "last_page": "930",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 930"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.596,
+    "sha256": "f6fe5e4601536a6a1420e11b8be2872a40763746aa9d73ce94cb29acb1ecd89f",
+    "simhash": "1:14af23623daf0172",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Owens v. Marshall, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5589.\nOwens v. Marshall, Warden."
+  },
+  "file_name": "0930-06",
+  "first_page_order": 952,
+  "last_page_order": 952
+}

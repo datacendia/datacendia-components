@@ -1,0 +1,59 @@
+{
+  "id": 5916925,
+  "name": "Simmons v. United States",
+  "name_abbreviation": "Simmons v. United States",
+  "decision_date": "2011-06-06",
+  "docket_number": "No. 10-10346",
+  "first_page": "1040",
+  "last_page": "1040",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1040"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.603,
+    "sha256": "577ddf13fe613349e82d470c8ff0874066fd268c12a4e75cf011ab12db5b944f",
+    "simhash": "1:953ae6360f3d964b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Simmons v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10346.\nSimmons v. United States."
+  },
+  "file_name": "1040-03",
+  "first_page_order": 1066,
+  "last_page_order": 1066
+}

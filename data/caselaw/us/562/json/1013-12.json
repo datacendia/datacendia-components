@@ -1,0 +1,59 @@
+{
+  "id": 6006450,
+  "name": "McCoin v. Fickle",
+  "name_abbreviation": "McCoin v. Fickle",
+  "decision_date": "2010-11-01",
+  "docket_number": "No. 10-6294",
+  "first_page": "1013",
+  "last_page": "1013",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1013"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 65,
+    "ocr_confidence": 0.64,
+    "sha256": "6412303367d732cfcc52b7b6d4ca810294c1acb27a28d60a269d3641e623663f",
+    "simhash": "1:1033e42029a32248",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McCoin v. Fickle."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6294.\nMcCoin v. Fickle."
+  },
+  "file_name": "1013-12",
+  "first_page_order": 1035,
+  "last_page_order": 1035
+}

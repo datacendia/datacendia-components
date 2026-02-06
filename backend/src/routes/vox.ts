@@ -13,6 +13,53 @@ const router = Router();
 router.use(devAuth);
 
 // ===========================================================================
+// STATUS / HEALTH
+// ===========================================================================
+
+/**
+ * GET /vox/status
+ * Service health and status
+ */
+router.get('/status', async (req: Request, res: Response) => {
+  try {
+    const orgId = (req as any).organizationId;
+
+    // Get counts for metrics
+    const [stakeholderCount, vetoCount] = await Promise.all([
+      cendiaVoxService.getStakeholders(orgId).then((s: any[]) => s.length).catch(() => 0),
+      cendiaVoxService.getAllVetoes(orgId, 100).then((v: any[]) => v.length).catch(() => 0),
+    ]);
+
+    res.json({
+      success: true,
+      data: {
+        service: 'CendiaVox',
+        status: 'operational',
+        version: '1.0.0',
+        description: 'Stakeholder Voice Assembly',
+        capabilities: [
+          'Stakeholder sentiment tracking',
+          'Impact assessment for decisions',
+          'Democratic vote collection',
+          'Assembly coordination',
+          'Veto power management',
+          'Signal ingestion from multiple sources',
+        ],
+        metrics: {
+          trackedStakeholders: stakeholderCount,
+          activeVetoes: vetoCount,
+        },
+        stakeholderTypes: ['employee', 'customer', 'investor', 'regulator', 'partner', 'community'],
+        signalTypes: ['survey', 'feedback', 'social', 'support', 'nps', 'review'],
+        lastCheck: new Date().toISOString(),
+      }
+    });
+  } catch (error) {
+    res.status(500).json({ success: false, error: { message: String(error) } });
+  }
+});
+
+// ===========================================================================
 // STAKEHOLDERS
 // ===========================================================================
 

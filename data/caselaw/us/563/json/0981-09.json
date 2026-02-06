@@ -1,0 +1,59 @@
+{
+  "id": 4225362,
+  "name": "Fermin v. United States",
+  "name_abbreviation": "Fermin v. United States",
+  "decision_date": "2011-05-02",
+  "docket_number": "No. 10-9814",
+  "first_page": "981",
+  "last_page": "981",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 981"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.558,
+    "sha256": "20749b476b69d627320602eaae107f0657fac8acb58c29548888d319436b951c",
+    "simhash": "1:152bc8db0b15140e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Fermin v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9814.\nFermin v. United States."
+  },
+  "file_name": "0981-09",
+  "first_page_order": 1007,
+  "last_page_order": 1007
+}

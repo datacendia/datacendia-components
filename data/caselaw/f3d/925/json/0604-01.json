@@ -1,0 +1,116 @@
+{
+  "id": 12521322,
+  "name": "EVANSTON INSURANCE COMPANY, Plaintiff-Appellant, v. WILLIAM KRAMER & ASSOCIATES, LLC, Defendant-Appellee.",
+  "name_abbreviation": "Evanston Ins. Co. v. William Kramer & Assocs., LLC",
+  "decision_date": "2019-06-11",
+  "docket_number": "Docket No. 16-2082; August Term, 2017",
+  "first_page": "604",
+  "last_page": "605",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "925 F.3d 604"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "2nd Cir.",
+    "id": 9993,
+    "name": "United States Court of Appeals for the Second Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "331 Conn. 493",
+      "category": "reporters:state",
+      "reporter": "Conn.",
+      "case_ids": [
+        12508379
+      ],
+      "weight": 2,
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "497"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/a3d/205/0534-01"
+      ]
+    },
+    {
+      "cite": "2016 WL 3198190",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "*7"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "890 F.3d 40",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516954
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "51"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/890/0040-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 255,
+    "char_count": 3576,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25933461757809045
+    },
+    "sha256": "201f2fd1beb3d1be7effd7f5a2885aeb971b0a3975efb90760d3ce020a4c8812",
+    "simhash": "1:864a6ec65b193724",
+    "word_count": 561
+  },
+  "last_updated": "2024-02-27T18:46:49.974673+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "EVANSTON INSURANCE COMPANY, Plaintiff-Appellant,\nv.\nWILLIAM KRAMER & ASSOCIATES, LLC, Defendant-Appellee."
+    ],
+    "opinions": [
+      {
+        "text": "PER CURIAM:\nPlaintiff Evanston Insurance Company (hereinafter the \"Plaintiff\" or the \"Insurer\") appeals from the entry of judgment by the United States District Court for the District of Connecticut (Michael P. Shea, J .) in favor of defendant William Kramer & Associates, LLC (hereinafter the \"Defendant\" or the \"Adjuster\"), which served as the Insurer's adjuster on a claim for hurricane damage. The sole issue on appeal is whether the district court erred in overturning the jury verdict and granting judgment as a matter of law in favor of Adjuster on the basis of insufficiency of the evidence to support the jury's conclusion that the statute of limitations was tolled such that Insurer's claim was timely filed. We assume the parties' familiarity with our earlier opinion in this matter, which discusses at length the underlying facts, procedural history, and arguments presented on appeal. Evanston Ins. Co. v. William Kramer & Assocs., LLC , 890 F.3d 40 (2d Cir. 2018). We repeat them here only insofar as we think it necessary to understand the discussion that follows.\nAfter a jury trial, the jury found that the Adjuster had \"engaged in a continuing course of conduct such that [its] duty to [the Insurer] continued in a manner that tolled the statute of limitations for enough time that [the Insurer's] claim is not time-barred.\" Essex Ins. Co. v. William Kramer & Assocs., Inc. , No. 3:13-CV-1537 (MPS), 2016 WL 3198190, at *7 (D. Conn. June 8, 2016). The jury awarded the Insurer damages for negligence in the amount of $ 1,250,002.89. Id. at *1.\nThe Adjuster then moved for judgment as a matter of law pursuant to Federal Rule of Civil Procedure 50(b), arguing that the record contained insufficient evidence to support the jury's finding that a continuing course of conduct had tolled the statute of limitations. The district court ruled that \"no reasonable jury could find, based on the evidence presented at trial, that the continuing course of conduct doctrine renders [Evanston's] claim timely,\" id. at *7, and entered judgment for the Adjuster. The Insurer timely appealed.\nWe found that Connecticut law was unclear as to the contours of the doctrine that tolls a limitation period because of a continuing course of conduct. Having the consent of the parties for certification of the controlling question to the Connecticut Supreme Court, we asked for that Court's guidance on whether, under Connecticut law, the trial evidence was legally sufficient to support the tolling of the limitation period through October 21, 2010, so as to render the Insurer's claim timely. Evanston Ins. Co. , 890 F.3d at 51.\nThe Connecticut Supreme Court accepted the certification, and on April 23, 2019, responded that \"the evidence is not legally sufficient to toll the statute of limitations on this factual record.\" Essex Ins. Co. v. William Kramer & Assocs., LLC , 331 Conn. 493, 497, 205 A.3d 534 (2019).\nThe Connecticut Supreme Court's decision resolves the controlling question of Connecticut law. We therefore AFFIRM the judgment of the district court.",
+        "type": "majority",
+        "author": "PER CURIAM:"
+      }
+    ],
+    "attorneys": [
+      "MARY MASSARON, Plunkett Cooney, Bloomfield Hills, MI, for Plaintiff-Appellant.",
+      "RICHARD A. SIMPSON (Kimberly A. Ashmore, on the brief), Wiley Rein LLP, Washington, DC, for Defendant-Appellee."
+    ],
+    "corrections": "",
+    "head_matter": "EVANSTON INSURANCE COMPANY, Plaintiff-Appellant,\nv.\nWILLIAM KRAMER & ASSOCIATES, LLC, Defendant-Appellee.\nDocket No. 16-2082\nAugust Term, 2017\nUnited States Court of Appeals, Second Circuit.\nArgued: August 18, 2017\nDecided: June 11, 2019\nMARY MASSARON, Plunkett Cooney, Bloomfield Hills, MI, for Plaintiff-Appellant.\nRICHARD A. SIMPSON (Kimberly A. Ashmore, on the brief), Wiley Rein LLP, Washington, DC, for Defendant-Appellee.\nBefore: PIERRE N. LEVAL, REENA RAGGI, and RAYMOND J. LOHIER, JR., Circuit Judges."
+  },
+  "file_name": "0604-01",
+  "first_page_order": 604,
+  "last_page_order": 605
+}

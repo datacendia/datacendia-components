@@ -1,0 +1,59 @@
+{
+  "id": 12225375,
+  "name": "Davis v. Indiana",
+  "name_abbreviation": "Davis v. Indiana",
+  "decision_date": "2012-06-04",
+  "docket_number": "No. 11-9586",
+  "first_page": "1037",
+  "last_page": "1037",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 1037"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 64,
+    "ocr_confidence": 0.62,
+    "sha256": "3b55bfcfe9fa7551d5dc2ec83fdad43121d92fd93fa0384578bac02ae86d8384",
+    "simhash": "1:9b91e9bc241b9c8f",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Davis v. Indiana."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Ind. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9586.\nDavis v. Indiana."
+  },
+  "file_name": "1037-11",
+  "first_page_order": 913,
+  "last_page_order": 913
+}

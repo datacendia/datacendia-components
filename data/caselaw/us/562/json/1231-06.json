@@ -1,0 +1,59 @@
+{
+  "id": 5988304,
+  "name": "Farris v. Ryan, Warden",
+  "name_abbreviation": "Farris v. Ryan",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-7993",
+  "first_page": "1231",
+  "last_page": "1231",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1231"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.593,
+    "sha256": "6ca275b31acac8a81a613ba40e029af48a3c181292c10b52ca41a715b0eee131",
+    "simhash": "1:16a1a098299b00c6",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Farris v. Ryan, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7993.\nFarris v. Ryan, Warden."
+  },
+  "file_name": "1231-06",
+  "first_page_order": 1253,
+  "last_page_order": 1253
+}

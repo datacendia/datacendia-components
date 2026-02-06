@@ -1,0 +1,59 @@
+{
+  "id": 12429803,
+  "name": "Valencia Mendoza v. United States",
+  "name_abbreviation": "Valencia Mendoza v. United States",
+  "decision_date": "2013-01-14",
+  "docket_number": "No. 12-7732",
+  "first_page": "1137",
+  "last_page": "1137",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1137"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 82,
+    "ocr_confidence": 0.642,
+    "sha256": "04a63793be67ebe857d7107ac08f58c9d62069976bc63646728fd90fa71e85af",
+    "simhash": "1:072ac2234e1d1203",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Valencia Mendoza v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7732.\nValencia Mendoza v. United States."
+  },
+  "file_name": "1137-04",
+  "first_page_order": 1213,
+  "last_page_order": 1213
+}

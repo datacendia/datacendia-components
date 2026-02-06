@@ -1,0 +1,59 @@
+{
+  "id": 6003057,
+  "name": "Bernard v. United States",
+  "name_abbreviation": "Bernard v. United States",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8632",
+  "first_page": "1249",
+  "last_page": "1249",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1249"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.625,
+    "sha256": "be82b00ba7b24ec0b2105545ff0881cbd0bab7c6980516df20943640bb684928",
+    "simhash": "1:d51bdfd267d59839",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bernard v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8632.\nBernard v. United States."
+  },
+  "file_name": "1249-07",
+  "first_page_order": 1271,
+  "last_page_order": 1271
+}

@@ -1,0 +1,86 @@
+{
+  "id": 12417547,
+  "name": "In re Disbarment of Hall",
+  "name_abbreviation": "In re Disbarment of Hall",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. D-2680",
+  "first_page": "938",
+  "last_page": "938",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 938"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "567 U. S. 955",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12412897,
+        12412933,
+        12412905,
+        12412941,
+        12412910,
+        12412947,
+        12412918,
+        12412926
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/567/0955-01",
+        "/us/567/0955-06",
+        "/us/567/0955-02",
+        "/us/567/0955-07",
+        "/us/567/0955-03",
+        "/us/567/0955-08",
+        "/us/567/0955-04",
+        "/us/567/0955-05"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 105,
+    "ocr_confidence": 0.694,
+    "sha256": "47db5ee3b7621e4c48aa430aa0c41d3220418209c0f8520d520c4e591deca7e8",
+    "simhash": "1:68fd76a14f52bbe5",
+    "word_count": 18
+  },
+  "last_updated": "2024-02-27T23:44:49.194693+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Hall."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2680.\nIn re Disbarment of Hall.\n[For earlier order herein, see 567 U. S. 955.]"
+  },
+  "file_name": "0938-03",
+  "first_page_order": 1014,
+  "last_page_order": 1014
+}

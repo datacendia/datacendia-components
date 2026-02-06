@@ -1,0 +1,59 @@
+{
+  "id": 6022712,
+  "name": "LaGarde v. Cain, Warden",
+  "name_abbreviation": "LaGarde v. Cain",
+  "decision_date": "2011-03-21",
+  "docket_number": "No. 10-8749",
+  "first_page": "1296",
+  "last_page": "1296",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1296"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.578,
+    "sha256": "6fc1aa3d716d36e1307fb58302233362236d73bc4dd254b1290ddaaafffad382",
+    "simhash": "1:25a0de827a2ab2e7",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "LaGarde v. Cain, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8749.\nLaGarde v. Cain, Warden."
+  },
+  "file_name": "1296-04",
+  "first_page_order": 1318,
+  "last_page_order": 1318
+}

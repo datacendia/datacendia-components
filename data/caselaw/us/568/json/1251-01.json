@@ -1,0 +1,59 @@
+{
+  "id": 12433893,
+  "name": "MyMail, Ltd. v. Commissioner of Internal Revenue",
+  "name_abbreviation": "MyMail, Ltd. v. Commissioner",
+  "decision_date": "2013-03-25",
+  "docket_number": "No. 12-983",
+  "first_page": "1251",
+  "last_page": "1251",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1251"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 96,
+    "ocr_confidence": 0.606,
+    "sha256": "7f1c79c300157a8198587417e3ba6a2abdc5ab345e29b5bce81a39a466a4296d",
+    "simhash": "1:10c2d18a0d2a464e",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "MyMail, Ltd. v. Commissioner of Internal Revenue."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-983.\nMyMail, Ltd. v. Commissioner of Internal Revenue."
+  },
+  "file_name": "1251-01",
+  "first_page_order": 1327,
+  "last_page_order": 1327
+}

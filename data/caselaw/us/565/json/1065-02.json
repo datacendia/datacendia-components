@@ -1,0 +1,59 @@
+{
+  "id": 12235637,
+  "name": "Windsor v. Prince, Warden",
+  "name_abbreviation": "Windsor v. Prince",
+  "decision_date": "2011-11-28",
+  "docket_number": "No. 11-6483",
+  "first_page": "1065",
+  "last_page": "1065",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1065"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.657,
+    "sha256": "9b564416c95d8f66c101e745392f528d4bd37be76c2108b1bc4974dd3fc28cc2",
+    "simhash": "1:9ecad392996e3c77",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Windsor v. Prince, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6483.\nWindsor v. Prince, Warden."
+  },
+  "file_name": "1065-02",
+  "first_page_order": 1147,
+  "last_page_order": 1147
+}

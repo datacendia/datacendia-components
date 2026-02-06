@@ -1,0 +1,59 @@
+{
+  "id": 12214936,
+  "name": "Davis v. McKinney et al.",
+  "name_abbreviation": "Davis v. McKinney",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-152",
+  "first_page": "884",
+  "last_page": "884",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 884"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 72,
+    "ocr_confidence": 0.675,
+    "sha256": "14726e933fdf90ea35efd52f5410ae1a0834cb9bfd8ce9cbb4a3c612c7a92a99",
+    "simhash": "1:e2ec202edbd799dc",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Davis v. McKinney et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-152.\nDavis v. McKinney et al."
+  },
+  "file_name": "0884-03",
+  "first_page_order": 966,
+  "last_page_order": 966
+}

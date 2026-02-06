@@ -1,0 +1,117 @@
+version: '3.8'
+
+services:
+  # =============================================================================
+  # POSTGRESQL PRIMARY - Master Database
+  # =============================================================================
+  postgres-primary:
+    image: postgres:16-alpine
+    container_name: datacendia-postgres-primary
+    environment:
+      POSTGRES_USER: cendia
+      POSTGRES_PASSWORD: cendia_sovereign_2025
+      POSTGRES_DB: datacendia
+      POSTGRES_INITDB_ARGS: "-E UTF8"
+    ports:
+      - "5434:5432"
+    volumes:
+      - postgres-primary-data:/var/lib/postgresql/data
+      - ./infrastructure/postgres/init-replication.sh:/docker-entrypoint-initdb.d/init-replication.sh
+    command: |
+      postgres
+      -c wal_level=replica
+      -c max_wal_senders=3
+      -c max_replication_slots=3
+      -c hot_standby=on
+      -c archive_mode=on
+      -c archive_command='cp %p /var/lib/postgresql/wal_archive/%f'
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U cendia"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - datacendia-ha
+
+  # =============================================================================
+  # POSTGRESQL REPLICA - Standby Database
+  # =============================================================================
+  postgres-replica:
+    image: postgres:16-alpine
+    container_name: datacendia-postgres-replica
+    environment:
+      POSTGRES_USER: cendia
+      POSTGRES_PASSWORD: cendia_sovereign_2025
+      POSTGRES_DB: datacendia
+      PGDATA: /var/lib/postgresql/data
+    ports:
+      - "5435:5432"
+    volumes:
+      - postgres-replica-data:/var/lib/postgresql/data
+    command: |
+      bash -c "
+      if [ ! -s /var/lib/postgresql/data/PG_VERSION ]; then
+        until pg_basebackup -h postgres-primary -D /var/lib/postgresql/data -U cendia -v -P -W; do
+          echo 'Waiting for primary to be ready...'
+          sleep 5
+        done
+        echo 'standby_mode = on' > /var/lib/postgresql/data/standby.signal
+        echo \"primary_conninfo = 'host=postgres-primary port=5432 user=cendia password=cendia_sovereign_2025'\" >> /var/lib/postgresql/data/postgresql.auto.conf
+      fi
+      postgres -c hot_standby=on
+      "
+    depends_on:
+      - postgres-primary
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U cendia"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - datacendia-ha
+
+  # =============================================================================
+  # PGPOOL - Connection Pooling and Load Balancing
+  # =============================================================================
+  pgpool:
+    image: bitnami/pgpool:4
+    container_name: datacendia-pgpool
+    environment:
+      - PGPOOL_BACKEND_NODES=0:postgres-primary:5432,1:postgres-replica:5432
+      - PGPOOL_SR_CHECK_USER=cendia
+      - PGPOOL_SR_CHECK_PASSWORD=cendia_sovereign_2025
+      - PGPOOL_ENABLE_LDAP=no
+      - PGPOOL_POSTGRES_USERNAME=cendia
+      - PGPOOL_POSTGRES_PASSWORD=cendia_sovereign_2025
+      - PGPOOL_ADMIN_USERNAME=admin
+      - PGPOOL_ADMIN_PASSWORD=datacendia2024
+      - PGPOOL_ENABLE_LOAD_BALANCING=yes
+      - PGPOOL_MAX_POOL=20
+      - PGPOOL_CHILD_LIFE_TIME=300
+      - PGPOOL_CONNECTION_LIFE_TIME=600
+    ports:
+      - "5432:5432"
+      - "9999:9999"
+    depends_on:
+      - postgres-primary
+      - postgres-replica
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "/opt/bitnami/scripts/pgpool/healthcheck.sh"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - datacendia-ha
+
+volumes:
+  postgres-primary-data:
+    driver: local
+  postgres-replica-data:
+    driver: local
+
+networks:
+  datacendia-ha:
+    driver: bridge

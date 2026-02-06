@@ -1,0 +1,656 @@
+{
+  "id": 3641858,
+  "name": "CITY OF ONTARIO, CALIFORNIA, et al. v. QUON et al.",
+  "name_abbreviation": "City of Ontario v. Quon",
+  "decision_date": "2010-06-17",
+  "docket_number": "No. 08-1332",
+  "first_page": "746",
+  "last_page": "769",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "560 U.S. 746"
+    },
+    {
+      "type": "parallel",
+      "cite": "177 L. Ed. 2d 216"
+    },
+    {
+      "type": "parallel",
+      "cite": "130 S. Ct. 2619"
+    },
+    {
+      "type": "vendor",
+      "cite": "2010 U.S. LEXIS 4972"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2009-074"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "9th Cir.",
+    "id": 8826,
+    "name": "United States Court of Appeals for the Ninth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "486 U. S. 35",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6209906
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "43",
+          "parenthetical": "rejecting argument that if state law forbade police search of individual's garbage the search would violate the Fourth Amendment"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/486/0035-01"
+      ]
+    },
+    {
+      "cite": "553 U. S. 164",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3674054
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "168",
+          "parenthetical": "search incident to an arrest that was illegal under state law was reasonable"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/553/0164-01"
+      ]
+    },
+    {
+      "cite": "428 U. S. 543",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6178901
+      ],
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "557, n. 12"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/428/0543-01"
+      ]
+    },
+    {
+      "cite": "462 U. S. 640",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6192095
+      ],
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "647"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/462/0640-01"
+      ]
+    },
+    {
+      "cite": "536 U. S. 822",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1254855
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "837"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/536/0822-01"
+      ]
+    },
+    {
+      "cite": "515 U. S. 646",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1564392
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "654-657"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/515/0646-01"
+      ]
+    },
+    {
+      "cite": "Conn. Gen. Stat. Ann. \u00a731",
+      "category": "laws:leg_statute",
+      "reporter": "Conn. Gen. Stat. Ann.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "389 U. S. 347",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11339173
+      ],
+      "weight": 3,
+      "year": 1967,
+      "pin_cites": [
+        {
+          "page": "353"
+        },
+        {
+          "page": "360-361",
+          "parenthetical": "Harlan, J., concurring"
+        },
+        {
+          "page": "357"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/389/0347-01"
+      ]
+    },
+    {
+      "cite": "277 U. S. 438",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3903035
+      ],
+      "year": 1928,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/277/0438-01"
+      ]
+    },
+    {
+      "cite": "469 U. S. 325",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11959437
+      ],
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "351",
+          "parenthetical": "Blackmun, J., concurring in judgment"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/469/0325-01"
+      ]
+    },
+    {
+      "cite": "489 U. S. 656",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12032996
+      ],
+      "weight": 3,
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "665"
+        },
+        {
+          "page": "666-667"
+        },
+        {
+          "page": "671"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/489/0656-01"
+      ]
+    },
+    {
+      "cite": "489 U. S. 602",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12032926
+      ],
+      "weight": 2,
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "613-614"
+        },
+        {
+          "page": "629, n. 9",
+          "parenthetical": "internal quotation marks and brackets omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/489/0602-01"
+      ]
+    },
+    {
+      "cite": "387 U. S. 523",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11338823
+      ],
+      "year": 1967,
+      "pin_cites": [
+        {
+          "page": "530"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/387/0523-01"
+      ]
+    },
+    {
+      "cite": "558 U. S. 1091",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "year": 2009,
+      "opinion_index": 0
+    },
+    {
+      "cite": "558 U. S. 1090",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "year": 2009,
+      "opinion_index": 0
+    },
+    {
+      "cite": "554 F. 3d 769",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3684571
+      ],
+      "weight": 3,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "774-779"
+        },
+        {
+          "page": "769-774"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/554/0769-01"
+      ]
+    },
+    {
+      "cite": "529 F. 3d 892",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3626031
+      ],
+      "weight": 7,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "908"
+        },
+        {
+          "page": "908-909"
+        },
+        {
+          "page": "909"
+        },
+        {
+          "page": "908"
+        },
+        {
+          "page": "909"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/529/0892-01"
+      ]
+    },
+    {
+      "cite": "480 U. S. 709",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1131361
+      ],
+      "weight": 23,
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "711"
+        },
+        {
+          "page": "717",
+          "parenthetical": "plurality opinion"
+        },
+        {
+          "page": "731",
+          "parenthetical": "Scalia, J., concurring in judgment"
+        },
+        {
+          "page": "737",
+          "parenthetical": "Black-mun, J., dissenting"
+        },
+        {
+          "page": "725",
+          "parenthetical": "plurality opinion"
+        },
+        {
+          "page": "732",
+          "parenthetical": "opinion of Scalia, J."
+        },
+        {
+          "page": "718"
+        },
+        {
+          "page": "717"
+        },
+        {
+          "page": "718"
+        },
+        {
+          "page": "725-726"
+        },
+        {
+          "page": "731"
+        },
+        {
+          "page": "732"
+        },
+        {
+          "page": "717",
+          "parenthetical": "plurality opinion"
+        },
+        {
+          "page": "730-731",
+          "parenthetical": "opinion of Scalia, J."
+        },
+        {
+          "page": "737-738",
+          "parenthetical": "Blaekmun, J., dissenting"
+        },
+        {
+          "page": "715"
+        },
+        {
+          "page": "725",
+          "parenthetical": "plurality opinion"
+        },
+        {
+          "page": "732",
+          "parenthetical": "Scalia, J., concurring in judgment"
+        },
+        {
+          "page": "725-726"
+        },
+        {
+          "page": "726"
+        },
+        {
+          "page": "726",
+          "parenthetical": "plurality opinion"
+        },
+        {
+          "page": "726"
+        },
+        {
+          "page": "732"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/480/0709-01"
+      ]
+    },
+    {
+      "cite": "445 F. Supp. 2d 1116",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        3701621
+      ],
+      "weight": 2,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "1146"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/445/1116-01"
+      ]
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 2701",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 U. S. C. \u00a7 1983",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "367 U. S. 643",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1785580
+      ],
+      "year": 1961,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/367/0643-01"
+      ]
+    },
+    {
+      "cite": "430 U. S. 188",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12122537
+      ],
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "193"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/430/0188-01"
+      ]
+    },
+    {
+      "cite": "480 U. S. 709",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1131361
+      ],
+      "weight": 9,
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "737"
+        },
+        {
+          "page": "739"
+        },
+        {
+          "page": "738"
+        },
+        {
+          "page": "741"
+        },
+        {
+          "page": "718",
+          "parenthetical": "plurality opinion"
+        },
+        {
+          "page": "732",
+          "parenthetical": "dissenting opinion"
+        },
+        {
+          "page": "722, 725",
+          "parenthetical": "plurality opinion"
+        },
+        {
+          "page": "732",
+          "parenthetical": "Scalia, J., concurring in judgment"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/480/0709-01"
+      ]
+    },
+    {
+      "cite": "430 U. S. 188",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12122537
+      ],
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "193"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/430/0188-01"
+      ]
+    },
+    {
+      "cite": "480 U. S. 709",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1131361
+      ],
+      "weight": 5,
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "717"
+        },
+        {
+          "page": "729-732",
+          "parenthetical": "Scalia, J., concurring in judgment"
+        },
+        {
+          "page": "731"
+        },
+        {
+          "page": "726",
+          "parenthetical": "plurality opinion"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/480/0709-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1552,
+    "char_count": 40302,
+    "ocr_confidence": 0.609,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.10493951577871914
+    },
+    "sha256": "0e87e1a902069fde5cc289142e2369562d4e3f2b1a83bcb3c622eb20fb3bc064",
+    "simhash": "1:514f66b31f8fc76b",
+    "word_count": 6449
+  },
+  "last_updated": "2024-02-27T22:21:48.731632+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "CITY OF ONTARIO, CALIFORNIA, et al. v. QUON et al."
+    ],
+    "opinions": [
+      {
+        "text": "Justice Kennedy\ndelivered the opinion of the Court.\nThis case involves the assertion by a government employer of the right, in circumstances to be described, to read text messages sent and received on a pager the employer owned and issued to an employee. The employee contends that the privacy of the messages is protected by the ban on \u201cunreasonable searches and seizures\u201d found in the Fourth Amendment to the United States Constitution, made applicable to the States by the Due Process Clause of the Fourteenth Amendment. Mapp v. Ohio, 367 U. S. 643 (1961). Though the case touches issues of far-reaching significance, the Court concludes it can be resolved by settled principles determining when a search is reasonable.\nI\nA\nThe city of Ontario (City) is a political subdivision of the State of California. The case arose out of incidents in 2001 and 2002 when respondent Jeff Quon was employed by the Ontario Police Department (OPD). He was a police sergeant and member of OPD\u2019s Special Weapons and Tactics (SWAT) Team. The City, OPD, and OPD\u2019s Chief, Lloyd Scharf, are petitioners here. As will be discussed, two respondents share the last name Quon. In this opinion \u201cQuon\u201d refers to Jeff Quon, for the relevant events mostly revolve around him.\nIn October 2001, the City acquired 20 alphanumeric pagers capable of sending and receiving text messages. Arch Wireless Operating Company provided wireless service for the pagers. Under the City\u2019s service contract with Arch Wireless, each pager was allotted a limited number of characters sent or received each month. Usage in excess of that amount would result in an additional fee. The City issued pagers to Quon and other SWAT Team members in order to help the SWAT Team mobilize and respond to emergency situations.\nBefore acquiring the pagers, the City announced a \u201cComputer Usage, Internet and E-Mail Policy\u201d (Computer Policy) that applied to all employees. Among other provisions, it specified that the City \u201creserves the right to monitor and log all network activity including e-mail and Internet use, with or without notice. Users should have no expectation of privacy or confidentiality when using these resources.\u201d App. to Pet. for Cert. 151, 152. In March 2000, Quon signed a statement acknowledging that he had read and understood the Computer Policy.\nThe Computer Policy did not apply, on its face, to text messaging. Text messages share similarities with e-mails, but the two differ in an important way. In this ease, for instance, an e-mail sent on a City computer was transmitted through the City\u2019s own data servers, but a text message sent on one of the City\u2019s pagers was transmitted using wireless radio frequencies from an individual pager to a receiving station owned by Arch Wireless. It was routed through Arch Wireless\u2019 computer network, where it remained until the recipient\u2019s pager or cellular telephone was ready to receive the message, at which point Arch Wireless transmitted the message from the transmitting station nearest to the recipient. After delivery, Arch Wireless retained a copy on its computer servers. The message did not pass through computers owned by the City.\nAlthough the Computer Policy did not cover text messages by its explicit terms, the City made clear to employees, including Quon, that the City would treat text messages the same way as it treated e-mails. At an April 18, 2002, staff meeting at which Quon was present, Lieutenant Steven Duke, the OPD officer responsible for the City\u2019s contract with Arch Wireless, told officers that messages sent on the pagers \u201care considered e-mail messages. This means that [text] messages would fall under the City\u2019s policy as public information and [would be] eligible for auditing.\u201d App. 30. Duke\u2019s comments were put in writing in a memorandum sent on April 29, 2002, by Chief Scharf to Quon and other City personnel.\nWithin the first or second billing cycle after the pagers were distributed, Quon exceeded his monthly text message character allotment. Duke told Quon about the overage, and reminded him that messages sent on the pagers were \u201cconsidered e-mail and could be audited.\u201d Id., at 40. Duke said, however, that \u201cit was not his intent to audit [an] employee\u2019s text messages to see if the overage [was] due to work related transmissions.\u201d Ibid. Duke suggested that Quon could reimburse the City for the overage fee rather than have Duke audit the messages. Quon wrote a check to the City for the overage. Duke offered the same arrangement to other employees who incurred overage fees.\nOver the next few months, Quon exceeded his character limit three or four times. Each time he reimbursed the City. Quon and another officer again incurred overage fees for their pager usage in August 2002. At a meeting in October, Duke told Scharf that he had become \u201c\u2018tired of being a bill collector.\u2019\u201d Id., at 91. Scharf decided to determine whether the existing character limit was too low \u2014 that is, whether officers such as Quon were having to pay fees for sending work-related messages \u2014 or if the overages were for personal messages. Scharf told Duke to request transcripts of text messages sent in August and September by Quon and the other employee who had exceeded the character allowance.\nAt Duke\u2019s request, an administrative assistant employed by OPD contacted Arch Wireless. After verifying that the City was the subscriber on the accounts, Arch Wireless provided the desired transcripts. Duke reviewed the transcripts and discovered that many of the messages sent and received on Quon\u2019s pager were not work related, and some were sexually explicit. Duke reported his findings to Scharf, who, along with Quon\u2019s immediate supervisor, reviewed the transcripts himself. After his review, Scharf referred the matter to OPD\u2019s internal affairs division for an investigation into whether Quon was violating OPD rules by pursuing personal matters while on duty.\nThe officer in charge of the internal affairs review was Sergeant Patrick McMahon. Before conducting a review, McMahon used Quon\u2019s work schedule to redact the transcripts in order to eliminate any messages Quon sent while off duty. He then reviewed the content of the messages Quon sent during work hours. McMahon\u2019s report noted that Quon sent or received 456 messages during work hours in the month of August 2002, of which no more than 57 were work related; he sent as many as 80 messages during a single day at work; and on an average workday, Quon sent or received 28 messages, of which only 3 were related to police business. The report concluded that Quon had violated OPD rules. Quon was allegedly disciplined.\nB\nRaising claims under Rev. Stat. \u00a7 1979, 42 U. S. C. \u00a7 1983; 18 U. S. C. \u00a7 2701 et seq., popularly known as the Stored Communications Act (SCA); and California law, Quon filed suit against petitioners in the United States District Court for the Central District of California. Arch Wireless and an individual not relevant here were also named as defendants. Quon was joined in his suit by another plaintiff who is not a party before this Court and by the other respondents, each of whom exchanged text messages with Quon during August and September 2002: Jerilyn Quon, Jeff Quon\u2019s then-wife, from whom he was separated; April Florio, an OPD employee with whom Jeff Quon was romantically involved; and Steve Trujillo, another member of the OPD SWAT Team. Among the allegations in the complaint was that petitioners violated respondents\u2019 Fourth Amendment rights and the SCA by obtaining and reviewing the transcript of Jeff Quon\u2019s pager messages and that Arch Wireless had violated the SCA by turning over the transcript to the City.\nThe parties filed cross-motions for summary judgment. The District Court granted Arch Wireless\u2019 motion for summary judgment on the SCA claim but denied petitioners\u2019 motion for summary judgment on the Fourth Amendment claims. Quon v. Arch Wireless Operating Co., 445 F. Supp. 2d 1116 (CD Cal. 2006). Relying on the plurality opinion in O\u2019Connor v. Ortega, 480 U. S. 709, 711 (1987), the District Court determined that Quon had a reasonable expectation of privacy in the content of his text messages. Whether the audit of the text messages was nonetheless reasonable, the District Court concluded, turned on Chief Scharf\u2019s intent: \u201c[I]f the purpose for the audit was to determine if Quon was using his pager to \u2018play games\u2019 and \u2018waste time,\u2019 then the audit was not constitutionally reasonable\u201d; but if the audit\u2019s purpose \u201cwas to determine the efficacy of the existing character limits to ensure that officers were not paying hidden work-related costs,... no constitutional violation occurred.\u201d 445 F. Supp. 2d, at 1146.\nThe District Court held a jury trial to determine the purpose of the audit. The jury concluded that Scharf ordered the audit to determine the efficacy of the character limits. The District Court accordingly held that petitioners did not violate the Fourth Amendment. It entered judgment in their favor.\nThe United States Court of Appeals for the Ninth Circuit reversed in part. Quon v. Arch Wireless Operating Co., 529 F. 3d 892 (2008). The panel agreed with the District Court that Jeff Quon had a reasonable expectation of privacy in his text messages but disagreed with the District Court about whether the search was reasonable. Even though the search was conducted for \u201ca legitimate work-related rationale,\u201d the Court of Appeals concluded, it \u201cwas not reasonable in scope.\u201d Id., at 908. The panel disagreed with the District Court\u2019s observation that \u201cthere were no less-intrusive means\u201d that Chief Scharf could have used \u201cto verify the efficacy of the 25,000 character limit . . . without intruding on [respondents\u2019] Fourth Amendment rights.\u201d Id., at 908-909. The opinion pointed to a \u201chost of simple ways\u201d that the chief could have used instead of the audit, such as warning Quon at the beginning of the month that his future messages would be audited, or asking Quon himself to redact the transcript of his messages. Id., at 909. The Court of Appeals further concluded that Arch Wireless had violated the SCA by turning over the transcript to the City.\nThe Ninth Circuit denied a petition for rehearing en banc. Quon v. Arch Wireless Operating Co., 554 F. 3d 769 (2009). Judge Ikuta, joined by six other Circuit Judges, dissented. Id., at 774-779. Judge Wardlaw concurred in the denial of rehearing, defending the panel\u2019s opinion against the dissent. Id., at 769-774.\nThis Court granted the petition for certiorari filed by the City, OPD, and Chief Scharf challenging the Court of Appeals\u2019 holding that they violated the Fourth Amendment. 558 U. S. 1090 (2009). The petition for certiorari filed by Arch Wireless challenging the Ninth Circuit\u2019s ruling that Arch Wireless violated the SCA was denied. USA Mobility Wireless, Inc. v. Quon, 558 U. S. 1091 (2009).\nII\nThe Fourth Amendment states: \u201cThe right of the people to be secure in their persons, houses, papers, and effects, against unreasonable searches and seizures, shall not be violated . . . .\u201d It is well settled that the Fourth Amendment\u2019s protection extends beyond the sphere of criminal investigations. Camara v. Municipal Court of City and County of San Francisco, 387 U. S. 523, 530 (1967). \u201cThe Amendment guarantees the privacy, dignity, and security of persons against certain arbitrary and invasive acts by officers of the Government,\u201d without regard to whether the government actor is investigating crime or performing another function. Skinner v. Railway Labor Executives\u2019 Assn., 489 U. S. 602, 613-614 (1989). The Fourth Amendment applies as well when the Government acts in its capacity as an employer. Treasury Employees v. Von Raab, 489 U. S. 656, 665 (1989).\nThe Court discussed this principle in O\u2019Connor. There a physician employed by a state hospital alleged that hospital officials investigating workplace misconduct had violated his Fourth Amendment rights by searching his office and seizing personal items from his desk and filing cabinet. All Members of the Court agreed with the general principle that \u201c[individuals do not lose Fourth Amendment rights merely because they work for the government instead of a private employer.\u201d 480 U. S., at 717 (plurality opinion); see also id., at 731 (Scalia, J., concurring in judgment); id., at 737 (Black-mun, J., dissenting). A majority of the Court further agreed that \u201c \u2018special needs, beyond the normal need for law enforcement,\u2019\u201d make the warrant and probable-cause requirement impracticable for government employers. Id., at 725 (plurality opinion) (quoting New Jersey v. T. L. O., 469 U. S. 325, 351 (1985) (Blackmun, J., concurring in judgment)); 480 U. S., at 732 (opinion of Scalia, J.) (quoting same).\nThe O\u2019Connor Court did disagree on the proper analytical framework for Fourth Amendment claims against government employers. A four-justice plurality concluded that the correct analysis has two steps. First, because \u201csome government offices may be so open to fellow employees or the public that no expectation of privacy is reasonable,\u201d id., at 718, a court must consider \u201c[t]he operational realities of the workplace\u201d in order to determine whether an employee's Fourth Amendment rights are implicated, id., at 717. On this view, \u201cthe question whether an employee has a reasonable expectation of privacy must be addressed on a case-by-case basis.\u201d Id., at 718. Next, where an employee has a legitimate privacy expectation, an employer\u2019s intrusion on that expectation \u201cfor noninvestigatory, work-related purposes, as well as for investigations of work-related misconduct, should be judged by the standard of reasonableness under all the circumstances.\u201d Id., at 725-726.\nJustice Scalia, concurring in the judgment, outlined a different approach. His opinion would have dispensed with an inquiry into \u201coperational realities\u201d and would conclude \u201cthat the offices of government employees . . . are covered by Fourth Amendment protections as a general matter.\u201d Id., at 731. But he would also have held \u201cthat government searches to retrieve work-related materials or to investigate violations of workplace rules \u2014 searches of the sort that are regarded as reasonable and normal in the private-employer context \u2014 do not violate the Fourth Amendment.\u201d Id., at 732.\nLater, in the Von Raab decision, the Court explained that \u201coperational realities\u201d could diminish an employee\u2019s privacy expectations, and that this diminution could be taken into consideration when assessing the reasonableness of a workplace search. 489 U. S., at 671. In the two decades since O\u2019Connor, however, the threshold test for determining the scope of an employee\u2019s Fourth Amendment rights has not been clarified further. Here, though they disagree on whether Quon had a reasonable expectation of privacy, both petitioners and respondents start from the premise that the O\u2019Connor plurality controls. See Brief for Petitioners 22-28; Brief for Respondents 25-32. It is not necessary to resolve whether that premise is correct. The case can be decided by determining that the search was reasonable even assuming Quon had a reasonable expectation of privacy. The two O\u2019Connor approaches \u2014 the plurality\u2019s and Justice Scalia\u2019s \u2014 therefore lead to the same result here.\nIII\nA\nBefore turning to the reasonableness of the search, it is instructive to note the parties\u2019 disagreement over whether Quon had a reasonable expectation of privacy. The record does establish that OPD, at the outset, made it clear that pager messages were not considered private. The City\u2019s Computer Policy stated that \u201c[u]sers should have no expectation of privacy or confidentiality when using\u201d City computers. App. to Pet. for Cert. 152. Chief Scharf\u2019s memo and Duke\u2019s statements made clear that this official policy extended to text messaging. The disagreement, at least as respondents see the case, is over whether Duke\u2019s later statements overrode the official policy. Respondents contend that because Duke told Quon that an audit would be unnecessary if Quon paid for the overage, Quon reasonably could expect that the contents of his messages would remain private.\nAt this point, were we to assume that inquiry into \u201coperational realities\u201d were called for, compare O\u2019Connor, 480 U. S., at 717 (plurality opinion), with id., at 730-731 (opinion of Scalia, J.); see also id., at 737-738 (Blaekmun, J., dissenting), it would be necessary to ask whether Duke\u2019s statements could be taken as announcing a change in OPD policy, and if so, whether he had, in fact or appearance, the authority to make such a change and to guarantee the privacy of text messaging. It would also be necessary to consider whether a review of messages sent on police pagers, particularly those sent while officers are on duty, might be justified for other reasons, including performance evaluations, litigation concerning the lawfulness of police actions, and perhaps compliance with state open records laws. See Brief for Petitioners 35-40 (citing Cal. Public Records Act, Cal. Govt. Code Ann. \u00a76250 et seq. (West 2008)). These matters would all bear on the legitimacy of an employee\u2019s privacy expectation.\nThe Court must proceed with care when considering the whole concept of privacy expectations in communications made on electronic equipment owned by a government employer. The judiciary risks error by elaborating too fully on the Fourth Amendment implications of emerging technology before its role in society has become clear. See, e. g., Olm-stead v. United States, 277 U. S. 438 (1928), overruled by Katz v. United States, 389 U. S. 347, 353 (1967). In Katz, the Court relied on its own knowledge and experience to conclude that there is a reasonable expectation of privacy in a telephone booth. See id., at 360-361 (Harlan, J., concurring). It is not so clear that courts at present are on so sure a ground. Prudence counsels caution before the facts in the instant case are used to establish far-reaching premises that define the existence, and extent, of privacy expectations enjoyed by employees when using employer-provided communication devices.\nRapid changes in the dynamics of communication and information transmission are evident not just in the technology itself but in what society accepts as proper behavior. As one amici brief notes, many employers expect or at least tolerate personal use of such equipment by employees because it often increases worker efficiency. See Brief for Electronic Frontier Foundation et al. 16-20. Another ami-cus points out that the law is beginning to respond to these developments, as some States have recently passed statutes requiring employers to notify employees when monitoring their electronic communications. See Brief for New York Intellectual Property Law Association 22 (citing Del. Code Ann., Tit. 19, \u00a7705 (2005); Conn. Gen. Stat. Ann. \u00a731-48d (West 2003)). At present, it is uncertain how workplace norms, and the law\u2019s treatment of them, will evolve.\nEven if the Court were certain that the O\u2019Connor plurality\u2019s approach were the right one, the Court would have difficulty predicting how employees\u2019 privacy expectations will be shaped by those changes or the degree to which society will be prepared to recognize those expectations as reasonable. See 480 U. S., at 715. Cell phone and text message communications are so pervasive that some persons may consider them to be essential means or necessary instruments for self-expression, even self-identification. That might strengthen the case for an expectation of privacy. On the other hand, the ubiquity of those devices has made them generally affordable, so one could counter that employees who need cell phones or similar devices for personal matters can purchase and pay for their own. And employer policies concerning communications will of course shape the reasonable expectations of their employees, especially to the extent that such policies are clearly communicated.\nA broad holding concerning employees\u2019 privacy expectations vis-\u00e1-vis employer-provided technological equipment might have implications for future cases that cannot be predicted. It is preferable to dispose of this case on narrower grounds. For present purposes we assume several propositions, arguendo: First, Quon had a reasonable expectation of privacy in the text messages sent on the pager provided to him by the City; second, petitioners\u2019 review of the transcript constituted a search within the meaning of the Fourth Amendment; and third, the principles applicable to a government employer\u2019s search of an employee\u2019s physical office apply with at least the same force when the employer intrudes on the employee\u2019s privacy in the electronic sphere.\nB\nEven if Quon had a reasonable expectation of privacy in his text messages, petitioners did not necessarily violate the Fourth Amendment by obtaining and reviewing the transcripts. Although as a general matter, warrantless searches \u201care per se unreasonable under the Fourth Amendment,\u201d there are \u201ca few specifically established and well-delineated exceptions\u201d to that general rule. Katz, supra, at 357. The Court has held that the \u201c \u2018special needs\u2019 \u201d of the workplace justify one such exception. O\u2019Connor, 480 U. S., at 725 (plurality opinion); id., at 732 (Scalia, J., concurring in judgment); Von Raab, 489 U. S., at 666-667.\nUnder the approach of the O\u2019Connor plurality, when conducted for a \u201cnoninvestigatory, work-related purpos[e]\u201d or for the \u201cinvestigatio[n] of work-related misconduct,\u201d a government employer\u2019s warrantless search is reasonable if it is \u201c \u2018justified at its inception\u2019 \u201d and if \u201c \u2018the measures adopted are reasonably related to the objectives of the search and not excessively intrusive in light of\u2019 \u201d the circumstances giving rise to the search. 480 U. S., at 725-726. The search here satisfied the standard of the O\u2019Connor plurality and was reasonable under that approach.\nThe search was justified at its inception because there were \u201creasonable grounds for suspecting that the search [was] necessary for a noninvestigatory work-related purpose.\u201d Id., at 726. As a jury found, Chief Scharf ordered the search in order to determine whether the character limit on the City\u2019s contract with Arch Wireless was sufficient to meet the City\u2019s needs. This was, as the Ninth Circuit noted, a \u201clegitimate work-related rationale.\u201d 529 F. 3d, at 908. The City and OPD had a legitimate interest in ensuring that employees were not being forced to pay out of their own pockets for work-related expenses, or on the other hand that the City was not paying for extensive personal communications.\nAs for the scope of the search, reviewing the transcripts was reasonable because it was an efficient and expedient way to determine whether Quon\u2019s overages were the result of work-related messaging or personal use. The review was also not \u201c\u2018excessively intrusive.\u2019\u201d O\u2019Connor, supra, at 726 (plurality opinion). Although Quon had gone over his monthly allotment a number of times, OPD requested transcripts for only the months of August and September 2002. While it may have been reasonable as well for OPD to review transcripts of all the months in which Quon exceeded his allowance, it was certainly reasonable for OPD to review messages for just two months in order to obtain a large enough sample to decide whether the character limits were efficacious. And it is worth noting that during his internal affairs investigation, McMahon redacted all messages Quon sent while off duty, a measure which reduced the intrusiveness of any further review of the transcripts.\nFurthermore, and again on the assumption that Quon had a reasonable expectation of privacy in the contents of his messages, the extent of an expectation is relevant to assessing whether the search was too intrusive. See Von Raab, supra, at 671; cf. Vernonia School Dist. 47J v. Acton, 515 U. S. 646, 654-657 (1995). Even if he could assume some level of privacy would inhere in his messages, it would not have been reasonable for Quon to conclude that his messages were in all circumstances immune from scrutiny. Quon was told that his messages were subject to auditing. As a law enforcement officer, he would or should have known that his actions were likely to come under legal scrutiny, and that this might entail an analysis of his on-the-job communications. Under the circumstances, a reasonable employee would be aware that sound management principles might require the audit of messages to determine whether the pager was being appropriately used. Given that the City issued the pagers to Quon and other SWAT Team members in order to help them more quickly respond to crises \u2014 and given that Quon had received no assurances of privacy \u2014 Quon could have anticipated that it might be necessary for the City to audit pager messages to assess the SWAT Team\u2019s performance in particular emergency situations.\nFrom OPD's perspective, the fact that Quon likely had only a limited privacy expectation, with boundaries that we need not here explore, lessened the risk that the review would intrude on highly private details of Quon\u2019s life. OPD\u2019s audit of messages on Quon\u2019s employer-provided pager was not nearly as intrusive as a search of his personal e-mail account or pager, or a wiretap on his home phone line, would have been. That the search did reveal intimate details of Quon\u2019s life does not make it unreasonable, for under the circumstances a reasonable employer would not expect that such a review would intrude on such matters. The search was permissible in its scope.\nThe Court of Appeals erred in finding the search unreasonable. It pointed to a \u201chost of simple ways to verify the efficacy of the 25,000 character limit . . . without intruding on [respondents\u2019] Fourth Amendment rights.\u201d 529 F. 3d, at 909. The panel suggested that Scharf \u201ccould have warned Quon that for the month of September he was forbidden from using his pager for personal communications, and that the contents of all of his messages would be reviewed to ensure the pager was used only for work-related purposes during that timeframe. Alternatively, if [OPD] wanted to review past usage, it could have asked Quon to count the characters himself, or asked him to redact personal messages and grant permission to [OPD] to review the redacted transcript.\u201d Ibid.\nThis approach was inconsistent with controlling precedents. This Court has \u201crepeatedly refused to declare that only the \u2018least intrusive\u2019 search practicable can be reasonable under the Fourth Amendment.\u201d Vernonia, supra, at 663; see also, e.g., Board of Ed. of Independent School Dist. No. 92 of Pottawatomie Cty. v. Earls, 536 U. S. 822, 837 (2002); Illinois v. Lafayette, 462 U. S. 640, 647 (1983). That rationale \u201ccould raise insuperable barriers to the exercise of virtually all search-and-seizure powers,\u201d United States v. Martinez-Fuerte, 428 U. S. 543, 557, n. 12 (1976), because \u201cjudges engaged in post hoc evaluations of government conduct can almost always imagine some alternative means by which the objectives of the government might have been accomplished,\u201d Skinner, 489 U. S., at 629, n. 9 (internal quotation marks and brackets omitted). The analytic errors of the Court of Appeals in this case illustrate the necessity of this principle. Even assuming there were ways that OPD could have performed the search that would have been less intrusive, it does not follow that the search as conducted was unreasonable.\nRespondents argue that the search was per se unreasonable in light of the Court of Appeals\u2019 conclusion that Arch Wireless violated the SCA by giving the City the transcripts of Quon\u2019s text messages. The merits of the SCA claim are not before us. But even if the Court of Appeals was correct to conclude that the SCA forbade Arch Wireless from turning over the transcripts, it does not follow that petitioners\u2019 actions were unreasonable. Respondents point to no authority for the proposition that the existence of statutory protection renders a search per se unreasonable under the Fourth Amendment. And the precedents counsel otherwise. See Virginia v. Moore, 553 U. S. 164, 168 (2008) (search incident to an arrest that was illegal under state law was reasonable); California v. Greenwood, 486 U. S. 35, 43 (1988) (rejecting argument that if state law forbade police search of individual\u2019s garbage the search would violate the Fourth Amendment). Furthermore, respondents do not maintain that any OPD employee either violated the law himself or herself or knew or should have known that Arch Wireless, by turning over the transcript, would have violated the law. The otherwise reasonable search by OPD is not rendered unreasonable by the assumption that Arch Wireless violated the SCA by turning over the transcripts.\nBecause the search was motivated by a legitimate work-related purpose, and because it was not excessive in scope, the search was reasonable under the approach of the O\u2019Con-nor plurality. 480 U. S., at 726. For these same reasons\u2014 that the employer had a legitimate reason for the search, and that the search was not excessively intrusive in light of that justification \u2014 the Court also concludes that the search would be \u201cregarded as reasonable and normal in the private-employer context\u201d and would satisfy the approach of Justice Scalia\u2019s concurrence. Id., at 732. The search was reasonable, and the Court of Appeals erred by holding to the contrary. Petitioners did not violate Quon\u2019s Fourth Amendment rights.\nC\nFinally, the Court must consider whether the search violated the Fourth Amendment rights of Jerilyn Quon, Florio, and Trujillo, the respondents who sent text messages to Jeff Quon. Petitioners and respondents disagree whether a sender of a text message can have a reasonable expectation of privacy in a message he knowingly sends to someone\u2019s employer-provided pager. It is not necessary to resolve this question in order to dispose of the case, however. Respondents argue that because \u201cthe search was unreasonable as to Sergeant Quon, it was also unreasonable as to his correspondents.\u201d Brief for Respondents 60 (some capitalization omitted; boldface deleted). They make no corollary argument that the search, if reasonable as to Quon, could nonetheless be unreasonable as to Quon\u2019s correspondents. See id., at 65-66. In light of this litigating position and the Court\u2019s conclusion that the search was reasonable as to Jeff Quon, it necessarily follows that these other respondents cannot prevail.\n* * *\nBecause the search was reasonable, petitioners did not violate respondents\u2019 Fourth Amendment rights, and the court below erred by concluding otherwise. The judgment of the Court of Appeals for the Ninth Circuit is reversed, and the ease is remanded for further proceedings consistent with this opinion.\nIt is so ordered.",
+        "type": "majority",
+        "author": "Justice Kennedy"
+      },
+      {
+        "text": "Justice Stevens,\nconcurring.\nAlthough I join the Court\u2019s opinion in full, I write separately to highlight that the Court has sensibly declined to resolve whether the plurality opinion in O\u2019Connor v. Ortega, 480 U. S. 709 (1987), provides the correct approach to determining an employee\u2019s reasonable expectation of privacy. See ante, at 757. Justice Blackmun, writing for the four dissenting Justices in O\u2019Connor, agreed with Justice Scalia that an employee enjoys a reasonable expectation of privacy in his office. 480 U. S., at 737. But he advocated a third approach to the reasonable expectation of privacy inquiry, separate from those proposed by the O\u2019Connor plurality and by Justice Scalia, see ante, at 756-757. Recognizing that it is particularly important to safeguard \u201ca public employee\u2019s expectation of privacy in the workplace\u201d in light of the \u201creality of work in modern time,\u201d 480 U. S., at 739, which lacks \u201ctidy distinctions\u201d between workplace and private activities, ibid., Justice Blackmun argued that \u201cthe precise extent of an employee\u2019s expectation of privacy often turns on the nature of the search,\u201d id., at 738. And he emphasized that courts should determine this expectation in light of the specific facts of each particular search, rather than by announcing a categorical standard. See id., at 741.\nFor the reasons stated at page 762 of the Court\u2019s opinion, it is clear that respondent Jeff Quon, as a law enforcement officer who served on a SWAT Team, should have understood that all of his work-related actions \u2014 including all of his communications on his official pager \u2014 were likely to be subject to public and legal scrutiny. He therefore had only a limited expectation of privacy in relation to this particular audit of his pager messages. Whether one applies the reasoning from Justice O\u2019Connor\u2019s opinion, Justice Scalia\u2019s concurrence, or Justice Blackmun\u2019s dissent in O\u2019Connor, the result is the same: The judgment of the Court of Appeals in this ease must be reversed.\n1 do not contend that Justice Blackmun\u2019s opinion is controlling under Marks v. United States, 430 U. S. 188, 193 (1977), but neither is his approach to evaluating a reasonable expectation of privacy foreclosed by O\u2019Connor. Indeed, his approach to that inquiry led to the conclusion, shared by Justice Scalia but not adopted by the O\u2019Connor plurality, that an employee had a reasonable expectation of privacy in his office. See O\u2019Connor v. Ortega, 480 U. S. 709, 718 (1987) (plurality opinion). But Justice Blackmun would have applied the Fourth Amendment\u2019s warrant and probable-cause requirements to workplace investigatory searches, id., at 732 (dissenting opinion), whereas a majority of the Court rejected that view, see id., at 722, 725 (plurality opinion); id., at 732 (Scalia, J., concurring in judgment). It was that analysis \u2014 regarding the proper standard for evaluating a search when an employee has a reasonable expectation of privacy \u2014 that produced the opposite result in the case. This case does not implicate that debate because it does not involve an investigatory search. The jury concluded that the purpose of the audit was to determine whether the character limits were sufficient for work-related messages. See ante, at 754.",
+        "type": "concurrence",
+        "author": "Justice Stevens,"
+      },
+      {
+        "text": "Justice Scalia,\nconcurring in part and concurring in the judgment.\nI join the Court\u2019s opinion except for Part III-A. I continue to believe that the \u201coperational realities\u201d rubric for determining the Fourth Amendment\u2019s application to public employees invented by the plurality in O\u2019Connor v. Ortega, 480 U. S. 709, 717 (1987), is standardless and unsupported. Id., at 729-732 (Scalia, J., concurring in judgment). In this case, the proper threshold inquiry should be not whether the Fourth Amendment applies to messages on public employees\u2019 employer-issued pagers, but whether it applies in general to such messages on employer-issued pagers. See id., at 731.\nHere, however, there is no need to answer that threshold question. Even accepting at face value Quon\u2019s and his co-plaintiffs\u2019 claims that the Fourth Amendment applies to their messages, the city\u2019s search was reasonable, and thus did not violate the Amendment. See id., at 726 (plurality opinion); id., at-732 (Scalia, J., concurring in judgment). Since it is unnecessary to decide whether the Fourth Amendment applies, it is unnecessary to resolve which approach in O\u2019Connor controls: the plurality\u2019s or mine. That should end the matter.\nThe Court concedes as much, ante, at 757, 760-765, yet it inexplicably interrupts its analysis with a recitation of the parties\u2019 arguments concerning, and an excursus on the complexity and consequences of answering, that admittedly irrelevant threshold question, ante, at 758-760. That discussion is unnecessary. (To whom do we owe an additional explanation for declining to decide an issue, once we have explained that it makes no difference?) It also seems to me exaggerated. Applying the Fourth Amendment to new technologies may sometimes be difficult, but when it is necessary to decide a case we have no choice. The Court\u2019s implication, ante, at 759, that where electronic privacy is concerned we should decide less than we otherwise would (that is, less than the principle of law necessary to resolve the case and guide private action) \u2014 or that we should hedge our bets by concocting case-specific standards or issuing opaque opinions \u2014 is in my view indefensible. The-times-they-area-changin\u2019 is a feeble excuse for disregard of duty.\nWorse still, the digression is self-defeating. Despite the Court\u2019s insistence that it is agnostic about the proper test, lower courts will likely read the Court\u2019s self-described \u201cinstructive\u201d expatiation on how the O\u2019Connor plurality's approach would apply here (if it applied), ante, at 758-760, as a heavy-handed hint about how they should proceed. Litigants will do likewise, using the threshold question whether the Fourth Amendment is even implicated as a basis for bombarding lower courts with arguments about employer policies, how they were communicated, and whether they were authorized, as well as the latest trends in employees\u2019 use of electronic media. In short, in saying why it is not saying more, the Court says much more than it should.\nThe Court\u2019s inadvertent boosting of the O\u2019Connor plurality\u2019s standard is all the more ironic because, in fleshing out its fears that applying that test to new technologies will be too hard, the Court underscores the unworkability of that standard. Any rule that requires evaluating whether a given gadget is a \u201cnecessary instrumen[t] for self-expression, even self-identification,\u201d on top of assessing the degree to which \u201cthe law\u2019s treatment of [workplace norms has] evolve[d],\u201d ante, at 759-760, is (to put it mildly) unlikely to yield objective answers.\nI concur in the Court\u2019s judgment.\nDespite his disclaimer, ante, at 766 and this page, n. (concurring opinion), Justice Stevens\u2019 concurrence implies, ante, at 765-766 and this page, that it is also an open question whether the approach advocated by Justice Blackmun in his dissent in O\u2019Connor is the proper standard. There is room for reasonable debate as to which of the two approaches advocated by Justices whose votes supported the judgment in O\u2019Connor \u2014 the plurality\u2019s and mine \u2014 is controlling under Marks v. United States, 430 U. S. 188, 193 (1977). But unless O\u2019Connor is overruled, it is assuredly false that a test that would have produced the opposite result in that case is still in the running.",
+        "type": "concurrence",
+        "author": "Justice Scalia,"
+      }
+    ],
+    "attorneys": [
+      "Kent L. Richland argued the cause for petitioners. With him on the briefs were Kent J. Bullard and Dimitrios C. Rinos.",
+      "Deputy Solicitor General Katyal argued the cause for the United States as amicus curiae urging reversal. With him on the brief were Solicitor General Kagan, Assistant Attorney General Breuer, William M. Jay, Josh Goldfoot, and Vijay Shanker.",
+      "Dieter C. Dammeier argued the cause for respondents. With him on the brief was Michael A. McGill."
+    ],
+    "corrections": "",
+    "head_matter": "CITY OF ONTARIO, CALIFORNIA, et al. v. QUON et al.\nCERTIORARI TO THE UNITED STATES COURT OF APPEALS FOR THE NINTH CIRCUIT\nNo. 08-1332.\nArgued April 19, 2010 \u2014\nDecided June 17, 2010\nKennedy, J., delivered the opinion of the Court, in which Roberts, C. J., and Stevens, Thomas, Ginsburg, Breyer, Altto, and Sotomayor, JJ., joined, and in which Scalia, J., joined except for Part III-A. Stevens, J., filed a concurring opinion, post, p. 765. Scalia, J., filed an opinion concurring in part and concurring in the judgment, post, p. 767.\nKent L. Richland argued the cause for petitioners. With him on the briefs were Kent J. Bullard and Dimitrios C. Rinos.\nDeputy Solicitor General Katyal argued the cause for the United States as amicus curiae urging reversal. With him on the brief were Solicitor General Kagan, Assistant Attorney General Breuer, William M. Jay, Josh Goldfoot, and Vijay Shanker.\nDieter C. Dammeier argued the cause for respondents. With him on the brief was Michael A. McGill.\nBriefs of amici curiae urging reversal were filed for the League of California Cities et al. by Nancy B. Thorington and Joseph M. Quinn; for Los Angeles Times Communications LLC et al. by Kelli L. Sager and Jeffrey L. Fisher; for the National League of Cities et al. by Richard Ruda, Robert A Long, Jr., and Joshua H. Whitman; and for the National School Boards Association et al. by Francisco M. Negron, Jr., Naomi E. Gittins, Lisa E. Soronen, and Sonja H. Trainor.\nBriefs of amici curiae urging affirmance were filed for the American Federation of Labor and Congress of Industrial Organizations by Lynn K. Rhinehart, James B. Coppess, and Laurence Stephen Gold; for the Electronic Frontier Foundation et al. by Andrew J. Pincus, Charles Roth-feld, Dan M. Kahan, Scott L. Shuchart, and Steven R. Shapiro; for the Electronic Privacy Information Center et al. by Marc Rotenberg; for the New York Intellectual Property Law Association by Jonathan E. Moskin and Mark J. Abate; and for The Rutherford Institute by John W. Whitehead."
+  },
+  "file_name": "0746-01",
+  "first_page_order": 794,
+  "last_page_order": 817
+}

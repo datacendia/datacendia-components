@@ -1,0 +1,59 @@
+{
+  "id": 5960437,
+  "name": "Ludwig v. Wisconsin",
+  "name_abbreviation": "Ludwig v. Wisconsin",
+  "decision_date": "2011-05-31",
+  "docket_number": "No. 10-1245",
+  "first_page": "1022",
+  "last_page": "1022",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1022"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 67,
+    "ocr_confidence": 0.636,
+    "sha256": "9f883893560cc5f2482727bc6ff9c126ee05db4a026c008fc53c909b9fb6cdca",
+    "simhash": "1:cc37b790fdc00c85",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ludwig v. Wisconsin."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Wis. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1245.\nLudwig v. Wisconsin."
+  },
+  "file_name": "1022-04",
+  "first_page_order": 1048,
+  "last_page_order": 1048
+}

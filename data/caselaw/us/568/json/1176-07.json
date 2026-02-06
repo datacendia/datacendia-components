@@ -1,0 +1,59 @@
+{
+  "id": 12431233,
+  "name": "Mooney v. California",
+  "name_abbreviation": "Mooney v. California",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-7890",
+  "first_page": "1176",
+  "last_page": "1176",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1176"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 84,
+    "ocr_confidence": 0.64,
+    "sha256": "0d3fdc5b1fed1481331c339b69faef9df098d866ebee78bd7e010186a95f38af",
+    "simhash": "1:2ca0b64435435801",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mooney v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 1st App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7890.\nMooney v. California."
+  },
+  "file_name": "1176-07",
+  "first_page_order": 1252,
+  "last_page_order": 1252
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5978899,
+  "name": "Hefley v. Delaware",
+  "name_abbreviation": "Hefley v. Delaware",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5338",
+  "first_page": "916",
+  "last_page": "916",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 916"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 66,
+    "ocr_confidence": 0.632,
+    "sha256": "1722d8c641279fbd2b238bd00e87add9bdebb6976dedf60fe89f4edc37ca93cb",
+    "simhash": "1:98f7b44e04ac04b0",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hefley v. Delaware."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Del. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5338.\nHefley v. Delaware."
+  },
+  "file_name": "0916-04",
+  "first_page_order": 938,
+  "last_page_order": 938
+}

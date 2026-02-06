@@ -1,0 +1,85 @@
+{
+  "id": 12705963,
+  "name": "Brian K. ROGERS, petitioner, v. UNITED STATES.",
+  "name_abbreviation": "Rogers v. United States",
+  "decision_date": "2014-04-28",
+  "docket_number": "No. 13\u20135023.",
+  "first_page": "1084",
+  "last_page": "1084",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "572 U.S. 1084"
+    },
+    {
+      "type": "parallel",
+      "cite": "188 L. Ed. 2d 956"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 1933"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "134 S.Ct. 1710",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12706995,
+        12579853
+      ],
+      "weight": 2,
+      "year": 2014,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/572/0434-01",
+        "/s-ct/134/1710-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 49,
+    "char_count": 529,
+    "sha256": "1a0ec77006d2d4eae28a8a516668e5c4df6beb5937b8c036795d2bd450bb865e",
+    "simhash": "1:66a562c42f070618",
+    "word_count": 87
+  },
+  "last_updated": "2024-02-27T18:41:28.401677+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Brian K. ROGERS, petitioner,\nv.\nUNITED STATES."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "On petition for writ of certiorari to the United States Court of Appeals for the First Circuit. Motion of petitioner for leave to proceed in forma pauperis and petition for writ of certiorari granted. Judgment vacated, and case remanded to the United States Court of Appeals for the First Circuit for further consideration in light of Paroline v. United States, 572 U.S. ----, 134 S.Ct. 1710, 188 L.Ed.2d 714 (2014)."
+    ],
+    "corrections": "",
+    "head_matter": "Brian K. ROGERS, petitioner,\nv.\nUNITED STATES.\nNo. 13-5023.\nSupreme Court of the United States\nApril 28, 2014.\nOn petition for writ of certiorari to the United States Court of Appeals for the First Circuit. Motion of petitioner for leave to proceed in forma pauperis and petition for writ of certiorari granted. Judgment vacated, and case remanded to the United States Court of Appeals for the First Circuit for further consideration in light of Paroline v. United States, 572 U.S. ----, 134 S.Ct. 1710, 188 L.Ed.2d 714 (2014)."
+  },
+  "file_name": "1084-02",
+  "first_page_order": 1084,
+  "last_page_order": 1084
+}

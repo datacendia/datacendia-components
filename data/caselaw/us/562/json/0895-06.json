@@ -1,0 +1,59 @@
+{
+  "id": 5999495,
+  "name": "Carey v. United States",
+  "name_abbreviation": "Carey v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-140",
+  "first_page": "895",
+  "last_page": "895",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 895"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.681,
+    "sha256": "35cac3cc1ba71c0aa5444f59fe708c736c99d1c689668d30c6eff91d3a705bf6",
+    "simhash": "1:870b32074e3f1c40",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Carey v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-140.\nCarey v. United States."
+  },
+  "file_name": "0895-06",
+  "first_page_order": 917,
+  "last_page_order": 917
+}

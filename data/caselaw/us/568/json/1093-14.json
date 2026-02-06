@@ -1,0 +1,59 @@
+{
+  "id": 12428141,
+  "name": "Grandison v. Maryland",
+  "name_abbreviation": "Grandison v. Maryland",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-6584",
+  "first_page": "1093",
+  "last_page": "1093",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1093"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 69,
+    "ocr_confidence": 0.629,
+    "sha256": "1ab214b669007491d7cdc150bd9042adb132270ac7b86077e349d48ee3e4746e",
+    "simhash": "1:028c404480b852d6",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Grandison v. Maryland."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Md. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6584.\nGrandison v. Maryland."
+  },
+  "file_name": "1093-14",
+  "first_page_order": 1169,
+  "last_page_order": 1169
+}

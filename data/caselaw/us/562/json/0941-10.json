@@ -1,0 +1,59 @@
+{
+  "id": 6029563,
+  "name": "Kennedy v. Washington et al.",
+  "name_abbreviation": "Kennedy v. Washington",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5912",
+  "first_page": "941",
+  "last_page": "941",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 941"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 76,
+    "ocr_confidence": 0.611,
+    "sha256": "968bb58d88b9db9004b3dfe6ae48b3c79b8c2104673de6e032eaaabcbac1efc0",
+    "simhash": "1:157120a86d8d9032",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Kennedy v. Washington et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5912.\nKennedy v. Washington et al."
+  },
+  "file_name": "0941-10",
+  "first_page_order": 963,
+  "last_page_order": 963
+}

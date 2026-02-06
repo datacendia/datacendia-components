@@ -12,6 +12,7 @@ import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 
 // Load workflow scenarios from JSON file
+// @ts-ignore TS1470: import.meta used with CommonJS output (runtime uses tsx/ESM)
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 let workflowScenarios: any[] = [];
@@ -344,6 +345,43 @@ router.post('/:id/execute', async (req: Request, res: Response, next: NextFuncti
         data: completed,
       });
     }
+  } catch (error) {
+    next(error);
+  }
+});
+
+/**
+ * GET /api/v1/workflows/executions
+ * Get all workflow executions for the organization
+ */
+router.get('/executions', async (req: Request, res: Response, next: NextFunction) => {
+  try {
+    const { status, page = 1, limit = 20 } = req.query;
+    const orgId = req.organizationId!;
+
+    const where: any = {
+      workflows: { organization_id: orgId },
+    };
+    if (status) where.status = status;
+
+    const [executions, total] = await Promise.all([
+      prisma.workflow_executions.findMany({
+        where,
+        include: {
+          workflows: { select: { name: true } },
+        },
+        orderBy: { created_at: 'desc' },
+        skip: (Number(page) - 1) * Number(limit),
+        take: Number(limit),
+      }),
+      prisma.workflow_executions.count({ where }),
+    ]);
+
+    res.json({
+      success: true,
+      data: executions,
+      pagination: { page: Number(page), limit: Number(limit), total },
+    });
   } catch (error) {
     next(error);
   }

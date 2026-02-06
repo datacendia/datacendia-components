@@ -1,0 +1,66 @@
+{
+  "id": 12704650,
+  "name": "In the Matter of DISCIPLINE OF Kenneth Allen MARTIN.",
+  "name_abbreviation": "In re Martin",
+  "decision_date": "2013-11-04",
+  "docket_number": "No. D\u20132741.",
+  "first_page": "988",
+  "last_page": "988",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 988"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 397"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 555"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 45,
+    "char_count": 359,
+    "sha256": "b1913e79dc94eaf4c89486ce1891bd53383c831a2818b4951538977d3c0f78a1",
+    "simhash": "1:7a837536bbde37e3",
+    "word_count": 64
+  },
+  "last_updated": "2021-08-27T20:47:23.363448+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In the Matter of DISCIPLINE OF Kenneth Allen MARTIN."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "In the Matter of DISCIPLINE OF Kenneth Allen MARTIN.\nNo. D-2741.\nSupreme Court of the United States\nNov. 4, 2013.\nKenneth Allen Martin, of McLean, Virginia, is suspended from the practice of law in this Court and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court."
+  },
+  "file_name": "0988-02",
+  "first_page_order": 988,
+  "last_page_order": 988
+}

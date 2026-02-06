@@ -1,0 +1,59 @@
+{
+  "id": 12414721,
+  "name": "Goodwin, aka Ross v. United States",
+  "name_abbreviation": "Goodwin v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-11057",
+  "first_page": "876",
+  "last_page": "876",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 876"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 84,
+    "ocr_confidence": 0.742,
+    "sha256": "8cd17982197b183e01eb8fc18ac96493b671b34884e8870fb7916c4262b39b66",
+    "simhash": "1:a48aead10ea5b115",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Goodwin, aka Ross v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-11057.\nGoodwin, aka Ross v. United States."
+  },
+  "file_name": "0876-15",
+  "first_page_order": 952,
+  "last_page_order": 952
+}

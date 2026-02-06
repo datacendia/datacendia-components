@@ -1,0 +1,59 @@
+{
+  "id": 12250657,
+  "name": "Linley v. Illinois",
+  "name_abbreviation": "Linley v. Illinois",
+  "decision_date": "2012-03-05",
+  "docket_number": "No. 11-8559",
+  "first_page": "1250",
+  "last_page": "1250",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1250"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.646,
+    "sha256": "f3b5b7f5e30b12b399594e43a89605a8e3228b1a1812e71b1ba4d9e759bf3de3",
+    "simhash": "1:518ede48b0147077",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Linley v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Ill., 3d Dist. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8559.\nLinley v. Illinois."
+  },
+  "file_name": "1250-15",
+  "first_page_order": 1332,
+  "last_page_order": 1332
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12424833,
+  "name": "Sharp v. Cain, Warden",
+  "name_abbreviation": "Sharp v. Cain",
+  "decision_date": "2012-11-26",
+  "docket_number": "No. 12-6381",
+  "first_page": "1033",
+  "last_page": "1033",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1033"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.68,
+    "sha256": "0c0b1f65db090db4620288d754dd4bfe8ed2a7fffc90f29ace61b5bdb7b2f4bf",
+    "simhash": "1:80189f9239088662",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sharp v. Cain, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6381.\nSharp v. Cain, Warden."
+  },
+  "file_name": "1033-07",
+  "first_page_order": 1109,
+  "last_page_order": 1109
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12415053,
+  "name": "Damato v. United States",
+  "name_abbreviation": "Damato v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-77",
+  "first_page": "886",
+  "last_page": "886",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 886"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.676,
+    "sha256": "7ae009ed42595034c106034bce32707ae0ba2c8519dd92d86cb70da904fd20f7",
+    "simhash": "1:0088191faab6d928",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Damato v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-77.\nDamato v. United States."
+  },
+  "file_name": "0886-06",
+  "first_page_order": 962,
+  "last_page_order": 962
+}

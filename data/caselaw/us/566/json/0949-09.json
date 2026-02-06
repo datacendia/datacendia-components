@@ -1,0 +1,59 @@
+{
+  "id": 12206919,
+  "name": "Wright v. Bondi, Attorney General of Florida, et al.",
+  "name_abbreviation": "Wright v. Bondi",
+  "decision_date": "2012-04-16",
+  "docket_number": "No. 11-9093",
+  "first_page": "949",
+  "last_page": "949",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 949"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 101,
+    "ocr_confidence": 0.544,
+    "sha256": "8ad5185bf134aef87c6a13631de28397812b0c5f60d6c70e10e0df3861314925",
+    "simhash": "1:166808abd92f9112",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wright v. Bondi, Attorney General of Florida, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9093.\nWright v. Bondi, Attorney General of Florida, et al."
+  },
+  "file_name": "0949-09",
+  "first_page_order": 825,
+  "last_page_order": 825
+}

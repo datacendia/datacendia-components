@@ -1,0 +1,59 @@
+{
+  "id": 4334022,
+  "name": "Reynolds v. Holder, Attorney General",
+  "name_abbreviation": "Reynolds v. Holder",
+  "decision_date": "2011-06-27",
+  "docket_number": "No. 10-1321",
+  "first_page": "1039",
+  "last_page": "1039",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1039"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 84,
+    "ocr_confidence": 0.567,
+    "sha256": "ef966ee53e21c37547b3251e451695c3090515e8f8e0d48666c2373fc3accf80",
+    "simhash": "1:510350b829313442",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Reynolds v. Holder, Attorney General."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1321.\nReynolds v. Holder, Attorney General."
+  },
+  "file_name": "1039-05",
+  "first_page_order": 1033,
+  "last_page_order": 1033
+}

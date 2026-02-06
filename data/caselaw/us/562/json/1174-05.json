@@ -1,0 +1,61 @@
+{
+  "id": 6027641,
+  "name": "Foster v. Texas",
+  "name_abbreviation": "Foster v. Texas",
+  "decision_date": "2011-01-11",
+  "docket_number": "No. 10A688 (10-8317)",
+  "first_page": "1174",
+  "last_page": "1174",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1174"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 53,
+    "char_count": 576,
+    "ocr_confidence": 0.592,
+    "sha256": "5007af5ff7ecc8155c452610d01f92bb63589ad8dd3d1a34bdd2aeac47852ddf",
+    "simhash": "1:280b3235d2d301f4",
+    "word_count": 94
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Scalia and Justice Alito would deny the application for stay of execution."
+    ],
+    "parties": [
+      "Foster v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Tex. Application for stay of execution of sentence of death, presented to Justice Scalia, and by him referred to the Court, granted pending disposition of the petition for writ of certiorari. Should the petition for writ of certiorari be denied, this stay shall terminate automatically. In the event the petition for writ of certio-rari is granted, the stay shall terminate upon the issuance of the mandate of this Court.\nJustice Scalia and Justice Alito would deny the application for stay of execution.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "January 11, 2011\nNo. 10A688 (10-8317).\nFoster v. Texas."
+  },
+  "file_name": "1174-05",
+  "first_page_order": 1196,
+  "last_page_order": 1196
+}

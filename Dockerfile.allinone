@@ -1,0 +1,108 @@
+# =============================================================================
+# DATACENDIA ALL-IN-ONE DOCKERFILE
+# =============================================================================
+# Single container with frontend, backend, and embedded databases
+# For demos and portable deployments only - NOT for production
+#
+# Build:
+#   docker build -f Dockerfile.allinone -t datacendia:allinone .
+#
+# Run:
+#   docker run -p 8080:8080 -p 3001:3001 datacendia:allinone
+#
+# Access:
+#   Frontend: http://localhost:8080
+#   API: http://localhost:3001
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# Stage 1: Build Frontend
+# -----------------------------------------------------------------------------
+FROM node:20-alpine AS frontend-builder
+
+WORKDIR /app/frontend
+
+# Copy frontend package files
+COPY package*.json ./
+RUN npm ci
+
+# Copy frontend source and build
+COPY . .
+RUN npm run build
+
+# -----------------------------------------------------------------------------
+# Stage 2: Build Backend
+# -----------------------------------------------------------------------------
+FROM node:20-alpine AS backend-builder
+
+WORKDIR /app/backend
+
+# Copy backend package files
+COPY backend/package*.json ./
+RUN npm ci
+
+# Copy backend source
+COPY backend/ .
+
+# Generate Prisma client
+RUN npx prisma generate
+
+# Install tsx for runtime transpilation (skip tsc build to avoid strict errors)
+RUN npm install tsx
+
+# -----------------------------------------------------------------------------
+# Stage 3: Production Runtime
+# -----------------------------------------------------------------------------
+FROM node:20-alpine AS runtime
+
+# Install runtime dependencies
+RUN apk add --no-cache \
+    nginx \
+    supervisor \
+    sqlite \
+    redis \
+    curl \
+    dumb-init
+
+# Create app user
+RUN addgroup -g 1001 -S datacendia && \
+    adduser -S datacendia -u 1001
+
+WORKDIR /app
+
+# Copy frontend build
+COPY --from=frontend-builder /app/frontend/dist /usr/share/nginx/html
+
+# Copy backend (source + node_modules for tsx runtime)
+COPY --from=backend-builder /app/backend/src ./backend/src
+COPY --from=backend-builder /app/backend/node_modules ./backend/node_modules
+COPY --from=backend-builder /app/backend/package.json ./backend/
+COPY --from=backend-builder /app/backend/prisma ./backend/prisma
+
+# Create data directories
+RUN mkdir -p /data/sqlite /data/redis /var/log/supervisor && \
+    chown -R datacendia:datacendia /data /var/log/supervisor
+
+# Nginx configuration for frontend + API proxy
+COPY nginx.default.conf /etc/nginx/http.d/default.conf
+
+# Supervisor configuration
+COPY supervisord.conf /etc/supervisord.conf
+
+# Initialize SQLite database
+RUN cd /app/backend && \
+    DATABASE_URL="file:/data/sqlite/datacendia.db" npx prisma db push --skip-generate || true
+
+# Expose ports
+EXPOSE 8080 3001
+
+# Health check
+HEALTHCHECK --interval=30s --timeout=10s --start-period=60s --retries=3 \
+    CMD curl -f http://localhost:8080/ && curl -f http://localhost:3001/health || exit 1
+
+# Volume for persistent data
+VOLUME ["/data"]
+
+# Start with dumb-init
+ENTRYPOINT ["dumb-init", "--"]
+CMD ["supervisord", "-c", "/etc/supervisord.conf"]

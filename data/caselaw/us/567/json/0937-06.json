@@ -1,0 +1,59 @@
+{
+  "id": 12411529,
+  "name": "Mr. S. v. United States",
+  "name_abbreviation": "Mr. S. v. United States",
+  "decision_date": "2012-06-25",
+  "docket_number": "No. 11-1387",
+  "first_page": "937",
+  "last_page": "937",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 937"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 72,
+    "ocr_confidence": 0.683,
+    "sha256": "b68c8f852605585770f2c48757dcd4692449fea12d585228563b27d0824391ae",
+    "simhash": "1:850ad61207911462",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mr. S. v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1387.\nMr. S. v. United States."
+  },
+  "file_name": "0937-06",
+  "first_page_order": 841,
+  "last_page_order": 841
+}

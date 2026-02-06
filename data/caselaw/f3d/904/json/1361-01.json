@@ -1,0 +1,828 @@
+{
+  "id": 12518641,
+  "name": "Gilbert P. HYATT, American Association for Equitable Treatment, Inc., Plaintiffs-Appellants v. UNITED STATES PATENT AND TRADEMARK OFFICE, Andrei Iancu, in his Official Capacity as Under Secretary of Commerce for Intellectual Property and Director of the United States Patent and Trademark Office, Defendants-Appellees",
+  "name_abbreviation": "Hyatt v. U.S. Patent & Trademark Office",
+  "decision_date": "2018-09-24",
+  "docket_number": "2017-1722",
+  "first_page": "1361",
+  "last_page": "1375",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "904 F.3d 1361"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Fed. Cir.",
+    "id": 8955,
+    "name": "United States Court of Appeals for the Federal Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "37 C.F.R. \u00a7 41.37",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(c)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "375 F.3d 1106",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        2201698,
+        9377012
+      ],
+      "weight": 3,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "1110"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/fed-cl/61/1106-01",
+        "/f3d/375/1106-01"
+      ]
+    },
+    {
+      "cite": "35 U.S.C. \u00a7 134",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "78 Fed. Reg. 4,230",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "year": 2013,
+      "opinion_index": 0
+    },
+    {
+      "cite": "76 Fed. Reg. 72,287",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "year": 2011,
+      "opinion_index": 0
+    },
+    {
+      "cite": "846 F.2d 1465",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        5656005,
+        1788287
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "1473"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/270/0006-01",
+        "/f2d/846/1465-01"
+      ]
+    },
+    {
+      "cite": "754 F.3d 1002",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4329249,
+        4280149
+      ],
+      "weight": 2,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "1019-20"
+        },
+        {
+          "page": "1019-20"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/754/1002-01",
+        "/us-app-dc/410/0210-01"
+      ]
+    },
+    {
+      "cite": "537 F.3d 1006",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4130008
+      ],
+      "weight": 2,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "1019"
+        },
+        {
+          "page": "1019"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/537/1006-01"
+      ]
+    },
+    {
+      "cite": "901 F.2d 147",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10528345,
+        3482666
+      ],
+      "weight": 2,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "152"
+        },
+        {
+          "page": "150"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/901/0147-01",
+        "/us-app-dc/284/0041-01"
+      ]
+    },
+    {
+      "cite": "946 F.2d 710",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10523810
+      ],
+      "weight": 4,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "714-15"
+        },
+        {
+          "page": "715"
+        },
+        {
+          "page": "715"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/946/0710-01"
+      ]
+    },
+    {
+      "cite": "517 F.3d 1299",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5871879
+      ],
+      "weight": 3,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "1307"
+        },
+        {
+          "page": "1307"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/517/1299-01"
+      ]
+    },
+    {
+      "cite": "776 F.3d 832",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6890789
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "835"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/776/0832-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 2401",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "947 F.2d 469",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10521866
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "478"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/947/0469-01"
+      ]
+    },
+    {
+      "cite": "223 F.3d 1360",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11243897
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "1362"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/223/1360-01"
+      ]
+    },
+    {
+      "cite": "767 F.2d 622",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        349104
+      ],
+      "weight": 3,
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "624-25"
+        },
+        {
+          "page": "625-26"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/767/0622-01"
+      ]
+    },
+    {
+      "cite": "645 F.3d 400",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5651600,
+        3557176
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "405"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/645/0400-01",
+        "/us-app-dc/396/0079-01"
+      ]
+    },
+    {
+      "cite": "750 F.2d 70",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        3805818,
+        6561307,
+        628886
+      ],
+      "weight": 4,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "parenthetical": "\" TRAC \""
+        },
+        {
+          "page": "76, 78-79"
+        },
+        {
+          "page": "72"
+        },
+        {
+          "page": "75, 77"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/242/0222-01",
+        "/br/44/0070-01",
+        "/f2d/750/0070-01"
+      ]
+    },
+    {
+      "cite": "35 U.S.C. \u00a7 145",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 U.S.C. \u00a7 141",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "209 F.3d 1328",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11456994
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "1334"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/209/1328-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1338",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "430 U.S. 99",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12121882
+      ],
+      "weight": 3,
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "105-07"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/430/0099-01"
+      ]
+    },
+    {
+      "cite": "5 U.S.C. \u00a7 702",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1331",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "632 F.3d 1345",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4087754
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "1353"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/632/1345-01"
+      ]
+    },
+    {
+      "cite": "542 F.3d 463",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3841142
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "468"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/542/0463-01"
+      ]
+    },
+    {
+      "cite": "101 F.3d 675",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7638025,
+        401802,
+        783956
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "677"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/101/0675-01",
+        "/fed-cl/37/0675-01",
+        "/fed-cl/36/1090-01"
+      ]
+    },
+    {
+      "cite": "256 F.3d 1290",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11090660
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "1294"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/256/1290-01"
+      ]
+    },
+    {
+      "cite": "525 F.3d 1319",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3584446
+      ],
+      "weight": 2,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "1323",
+          "parenthetical": "quoting Hallco Mfg. Co. v. Foster , 256 F.3d 1290, 1294 (Fed. Cir. 2001) "
+        },
+        {
+          "page": "1323"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/525/1319-01"
+      ]
+    },
+    {
+      "cite": "177 F.3d 834",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        727175
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "835"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/177/0834-01"
+      ]
+    },
+    {
+      "cite": "205 F.3d 1168",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11463088
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "1170",
+          "parenthetical": "quoting Central Green Co. v. United States , 177 F.3d 834, 835 (9th Cir. 1999) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/205/1168-01"
+      ]
+    },
+    {
+      "cite": "345 F.3d 742",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9089577
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "746"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/345/0742-01"
+      ]
+    },
+    {
+      "cite": "363 F.3d 1013",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9271047
+      ],
+      "weight": 2,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "1019"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/363/1013-01"
+      ]
+    },
+    {
+      "cite": "641 F.3d 1352",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4207071
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "1358"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/641/1352-01"
+      ]
+    },
+    {
+      "cite": "661 F.3d 1378",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3847100
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "1381",
+          "parenthetical": "quoting Lexion Med., LLC v. Northgate Techs., Inc. , 641 F.3d 1352, 1358 (Fed. Cir. 2011) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/661/1378-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1295",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "5 U.S.C. \u00a7\u00a7 701",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 U.S.C. \u00a7 6",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(b)(1)"
+        },
+        {
+          "page": "(b)(1)"
+        },
+        {
+          "page": "(b)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "5 U.S.C. \u00a7 553",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(e)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "146 F. Supp. 3d 771",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "case_ids": [
+        4265329
+      ],
+      "weight": 6,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "787"
+        },
+        {
+          "page": "773"
+        },
+        {
+          "page": "773, 780"
+        },
+        {
+          "page": "780"
+        },
+        {
+          "page": "787"
+        },
+        {
+          "page": "785-86"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-3d/146/0771-01"
+      ]
+    },
+    {
+      "cite": "2014 WL 4829538",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 2,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "*1"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "797 F.3d 1374",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4330513
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1385"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/797/1374-01"
+      ]
+    },
+    {
+      "cite": "37 C.F.R. \u00a7 41.35",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "37 C.F.R. \u00a7 41.39",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1178,
+    "char_count": 32474,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2590676135944605
+    },
+    "sha256": "e3292860007f509f6f735c1814d77a35902b97bbcd3512dd62424d4d91087ecd",
+    "simhash": "1:34e9e3a7270e1e01",
+    "word_count": 5250
+  },
+  "last_updated": "2024-02-27T18:45:53.632327+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Reyna, Wallach, and Hughes, Circuit Judges."
+    ],
+    "parties": [
+      "Gilbert P. HYATT, American Association for Equitable Treatment, Inc., Plaintiffs-Appellants\nv.\nUNITED STATES PATENT AND TRADEMARK OFFICE, Andrei Iancu, in his Official Capacity as Under Secretary of Commerce for Intellectual Property and Director of the United States Patent and Trademark Office, Defendants-Appellees"
+    ],
+    "opinions": [
+      {
+        "text": "Hughes, Circuit Judge.\nGilbert Hyatt sued the United States Patent and Trademark Office alleging that the PTO acted unlawfully in denying his petition for rulemaking. Mr. Hyatt now appeals from the district court's grant of the PTO's motion for summary judgment and dismissal of his claims for lack of subject matter jurisdiction. We reverse the district court's dismissal for lack of subject matter jurisdiction. Because Mr. Hyatt's claims are either time-barred or reliant on mistaken statutory interpretation, however, we affirm on alternate grounds the district court's grant of summary judgment.\nI\nMr. Hyatt is the named inventor on more than 70 issued patents and approximately 400 pending patent applications, all of which were filed before June 8, 1995. Due to Mr. Hyatt's numerous amendments, those pending applications contained approximately 115,000 total claims as of August 2015. Each of these applications incorporates by reference, and claims priority from, numerous previously-filed applications dating back to the early 1970s. In October 2012, the PTO dedicated twelve full-time patent examiners to the sole task of examining Mr. Hyatt's applications. By 2015, that number had increased to fourteen.\nThe PTO's examination of these patents has proven slow going. Beginning in the mid-2000s, the PTO started issuing final rejections for some applications, prompting Mr. Hyatt to appeal the rejections to the Patent Trial and Appeal Board (PTAB). Upon an applicant's filing of an appeal brief before the Board, the patent examiner may file an examiner's answer setting forth the grounds on which the patent was rejected or adding a new ground of rejection. 37 C.F.R. \u00a7 41.39(a). But there is no statutory or regulatory deadline for filing an answer. In Mr. Hyatt's case, the examiners never filed answers to his briefs, which prevented the PTAB from acquiring jurisdiction over his appeals. See 37 C.F.R. \u00a7 41.35(a).\nIn 2013, the PTO issued a series of formal office actions, called \"Requirements,\" intended to accelerate examination of Mr. Hyatt's claims. These Requirements instructed Mr. Hyatt to limit the number of claims from each patent family to 600 absent a showing that more claims were necessary, identify the earliest possible priority date and supporting disclosure for each selected claim, and present a copy of the selected claims to the PTO. Although Mr. Hyatt challenged the PTO's authority to issue these Requirements, we held that the special circumstances of Mr. Hyatt's applications justified the unique disclosure requirements. Hyatt v. U.S. Patent & Trademark Office , 797 F.3d 1374, 1385 (Fed. Cir. 2015). Following issuance of the Requirements, the PTO reopened prosecution of 80 applications that its examiners had previously rejected.\nIn February 2014, Mr. Hyatt responded to the reopening of his 80 applications with a suit in the U.S. District Court for the District of Nevada alleging the PTO unreasonably delayed examination of his applications by reopening prosecution rather than letting the PTAB hear his appeals. See Hyatt v. U.S. Patent & Trademark Office , No. 2:14-CV-00311-LDG, 2014 WL 4829538, at *1 (D. Nev. Sept. 30, 2014). The Nevada district court determined that it lacked jurisdiction over Mr. Hyatt's claims and transferred his case to the U.S. District Court for the Eastern District of Virginia. Id. In November 2015, the Eastern Virginia district court granted summary judgment for the PTO. Hyatt v. U.S. Patent & TrademarkOffice , 146 F. Supp. 3d 771, 787 (E.D. Va. 2015). Mr. Hyatt did not appeal the court's decision.\nWhile his unreasonable delay case was pending before the Nevada district court, Mr. Hyatt filed a petition for rulemaking with the PTO pursuant to 5 U.S.C. \u00a7 553(e). His petition requested that the PTO either promulgate a rule repealing Manual of Patent Examining Procedure ( MPEP) \u00a7 1207.04 or declare that MPEP provision unenforceable. Section 1207.04 describes an examiner's ability to, \"with approval from the supervisory patent examiner, reopen prosecution to enter a new ground of rejection in response to appellant's brief.\" This section provides an alternative to MPEP \u00a7 1207.03, which allows examiners to include new grounds of rejection in their answers to an applicant's appeal brief. To avoid abandonment of an application following a reopening of prosecution, the applicant must file a reply to the office action reopening prosecution or initiate a new appeal to the PTAB by filing a new notice of appeal. MPEP \u00a7 1207.04.\nMr. Hyatt's petition raised three arguments in support of repealing MPEP \u00a7 1207.04. He argued that MPEP \u00a7 1207.04 (1) conflicts with 35 U.S.C. \u00a7 6(b)(1) 's creation of a right for applicants to appeal rejections; (2) conflicts with 37 C.F.R. \u00a7 41.39 's implicit disallowance of prosecution reopening after an applicant's filing of an appeal brief; and (3) was improperly adopted without notice-and-comment rulemaking. In September 2014, the PTO denied Mr. Hyatt's petition. He subsequently requested reconsideration of that denial, which the PTO denied in December 2015.\nIn June 2016, Mr. Hyatt filed this suit challenging the denial of his petition for rulemaking in Nevada district court under the Administrative Procedure Act. See 5 U.S.C. \u00a7\u00a7 701 - 706. Mr. Hyatt's complaint primarily alleges, for the same reasons raised in his petition for rulemaking, that the PTO's adoption of MPEP \u00a7 1207.04 was arbitrary and capricious, in excess of statutory authority, and without observance of procedure required by law. Accordingly, he alleges that the PTO's denial of his request to rescind MPEP \u00a7 1207.04 was similarly arbitrary and capricious, an abuse of discretion, or otherwise not in accordance with law.\nThe district court granted summary judgment to the PTO and dismissed all of Mr. Hyatt's claims, determining that it lacked subject matter jurisdiction over them. In choosing to dismiss the case rather than transfer it to a court with the requisite jurisdiction, the district court reasoned that Mr. Hyatt's challenges to MPEP \u00a7 1207.04 were \"likely precluded\" because he could have raised the same arguments in his prior unreasonable delay suit. J.A. 4. Mr. Hyatt now appeals. We have jurisdiction under 28 U.S.C. \u00a7 1295(a)(1).\nII\nWe review a district court's grant of summary judgment according to the law of the regional circuit. Teva Pharm. Indus. Ltd. v. AstraZeneca Pharm. LP , 661 F.3d 1378, 1381 (Fed. Cir. 2011) (quoting Lexion Med., LLC v. Northgate Techs., Inc. , 641 F.3d 1352, 1358 (Fed. Cir. 2011) ). The Ninth Circuit reviews such grants de novo. Universal Health Servs., Inc. v. Thompson , 363 F.3d 1013, 1019 (9th Cir. 2004). Following the Ninth Circuit, \"[w]e must determine, viewing the evidence in the light most favorable to the nonmoving party, whether there are any genuine issues of material fact and whether the district court correctly applied the relevant substantive law.\" Id. (quoting EEOC v. Luce, Forward, Hamilton & Scripps , 345 F.3d 742, 746 (9th Cir. 2003) ).\n\"The district court's conclusion that it lacks subject matter jurisdiction is subject to de novo review.\" Ip v. United States , 205 F.3d 1168, 1170 (9th Cir. 2000) (quoting Central Green Co. v. United States , 177 F.3d 834, 835 (9th Cir. 1999) ). When an issue of claim preclusion is \"particular to patent law,\" we analyze it under our own law. Acumed LLC v. Stryker Corp. , 525 F.3d 1319, 1323 (Fed. Cir. 2008) (quoting Hallco Mfg. Co. v. Foster , 256 F.3d 1290, 1294 (Fed. Cir. 2001) ). We review de novo whether claim preclusion bars a plaintiff's claim. Faust v. United States , 101 F.3d 675, 677 (Fed. Cir. 1996). Whether a claim is barred by a statute of limitations is also a legal question subject to de novo review. Newby v. Enron Corp. , 542 F.3d 463, 468 (Fed. Cir. 2008). An agency's denial of a petition for rulemaking is reviewed for whether it is arbitrary and capricious. Preminger v. Sec'y of Veterans Affairs , 632 F.3d 1345, 1353 (Fed. Cir. 2011).\nA\nAs an initial matter, the district court had subject matter jurisdiction over Mr. Hyatt's challenge to the PTO's denial of his petition for rulemaking. Under 28 U.S.C. \u00a7 1331, district courts have \"original jurisdiction of all civil actions arising under the Constitution, laws, or treaties of the United States.\" The APA is a federal statute that provides a cause of action for persons \"suffering legal wrong because of agency action.\" 5 U.S.C. \u00a7 702. Subject to some exceptions inapplicable in this case, APA challenges to federal agency actions usually fall within the district courts' \u00a7 1331 jurisdiction. See Califano v. Sanders , 430 U.S. 99, 105-07, 97 S.Ct. 980, 51 L.Ed.2d 192 (1977). In addition, if a plaintiff's APA challenge raises a substantial question of patent law, district courts have jurisdiction under 28 U.S.C. \u00a7 1338(a). Helfgott & Karas, P.C. v. Dickinson , 209 F.3d 1328, 1334 (Fed. Cir. 2000). Here, Mr. Hyatt challenges the validity of a PTO rule, in part on the basis that it conflicts with statutes and regulations governing the patent application process. We have held that \"the question of whether the [PTO] has violated the APA in applying ... its own regulations ... raises a substantial question under the patent laws sufficient to vest jurisdiction with the district court based in part upon 28 U.S.C. \u00a7 1338(a).\" Id. Thus, the district court had original jurisdiction over Mr. Hyatt's case.\nAlthough Congress has granted this court and the Eastern Virginia district court exclusive jurisdiction to review final PTAB application decisions, this grant does not displace the district court's jurisdiction in this case. Under 35 U.S.C. \u00a7 141(a), if the PTAB affirms an examiner's final rejection, the applicant may appeal the PTAB's final decision to this court. Under 35 U.S.C. \u00a7 145, an applicant may alternatively challenge the PTAB's decision by instituting a civil action against the PTO Director in the Eastern Virginia district court. But here, Mr. Hyatt's petition for rulemaking was not an appeal from an examiner's rejection of his applications. Relatedly, the PTO Director's denial of Mr. Hyatt's petition is not a PTAB decision. Thus, Mr. Hyatt's challenge to the denial of his petition falls outside the exclusive zone of jurisdiction created by \u00a7 141 and \u00a7 145.\nThe district court reasoned that, even though the denial of Mr. Hyatt's petition for rulemaking was not itself a final PTAB decision within the scope of \u00a7 141 and \u00a7 145, it lacked jurisdiction because an order invalidating MPEP \u00a7 1207.04 would indirectly affect our jurisdiction over appeals from final PTAB decisions. This reasoning reflected the district court's interpretation of Telecommunications Research & Action Center v. FCC , 750 F.2d 70 (D.C. Cir. 1984) (\" TRAC \"), a case in which the D.C. Circuit noted a \"well settled\" rule that \"where a statute commits review of agency action to the Court of Appeals, any suit seeking relief that might affect the Circuit Court's future jurisdiction is subject to the exclusive review of the Court of Appeals.\" Id. at 76, 78-79.\nThe district court, however, read the TRAC rule too broadly. The rule applies to cases concerning interlocutory challenges to agency proceedings that will culminate in final agency actions exclusively reviewable by certain courts. In those cases, the court with jurisdiction over the final agency action also has exclusive jurisdiction over the interlocutory challenges in order to \"protect its future jurisdiction.\" In re Nat. Res. Def. Council , 645 F.3d 400, 405 (D.C. Cir. 2011). For example, in TRAC , public interest groups petitioned the D.C. Circuit for a writ of mandamus to compel the Federal Communications Commission to resolve several matters pending before the agency. 750 F.2d at 72. The court determined that district courts would lack jurisdiction over this type of unreasonable delay challenge because the final agency action that the petitioners sought to compel would be exclusively reviewable in the courts of appeals. Id. at 75, 77. Similarly, in Public Utility Commissioner of Oregon v. Bonneville Power Administrator , 767 F.2d 622 (9th Cir. 1985), utility companies sued the Bonneville Power Administration in district court to challenge the constitutionality of the agency's process for adjusting the way in which it calculated certain electricity prices. Id. at 624-25. The court determined that, because the agency's final decision on rate calculations would be exclusively reviewable in the court of appeals, an interlocutory challenge to the process of making that decision could not be brought in the district courts. Id. at 625-26.\nIn contrast to the agency actions challenged in those cases, the PTO's denial of Mr. Hyatt's petition was not an intermediate action taken in the course of proceedings that would culminate in a final agency action exclusively reviewable by this court and the Eastern Virginia district court. The process for petitioning the PTO for rulemaking is completely separate from the patent application examination process that culminates in final PTAB decisions. Thus, we do not need to exercise exclusive jurisdiction over denials of petitions for rulemaking in order to protect our future jurisdiction. If another court granted Mr. Hyatt's requested relief and prohibited PTO examiners from reopening prosecution of applications after an appeal brief has been filed, the prosecution process would change, but our ability to review final PTAB decisions would remain unaffected.\nAccordingly, the exclusive jurisdiction of this court and the Eastern Virginia district court to review final PTAB decisions under \u00a7 141 and \u00a7 145 does not displace the district court's jurisdiction over APA challenges to the PTO's denial of a petition for rulemaking.\nB\nThe PTO argues that the judgment in Mr. Hyatt's prior unreasonable delay case bars his present claims under the doctrine of claim preclusion. In his prior suit, Mr. Hyatt challenged the PTO's reopening of prosecution for 80 of his pending applications. Hyatt , 146 F. Supp. 3d at 773. He alleged that the prosecution reopenings formed part of a pattern of unreasonable delay by the PTO that included issuing repeated examination suspensions and raising new grounds of rejection. Id. at 773, 780. He sought a declaration that the PTO had \"unreasonably delayed final agency action on the 80 patent applications in issue\" and injunctive relief \"barring the PTO from reopening prosecution on the PTO's own initiative once plaintiff files ... an appeal brief.\" Id. at 780. The Eastern Virginia district court granted summary judgment for the PTO on the grounds that Mr. Hyatt lacked a remedy because the PTO had recommenced examination of his applications. Id. at 787. Mr. Hyatt does not dispute that he could have argued in his prior suit that MPEP \u00a7 1207.04 is invalid.\nFor general principles of claim preclusion, we apply the law of the regional circuit. But, for claim preclusion issues \"particular to patent law,\" as is the case here which requires an analysis of issues related to the prosecution and examination of patents, we apply our own law. Acumed LLC , 525 F.3d at 1323. Claim preclusion applies when \"(1) there is identity of parties (or their privies); (2) there has been an earlier final judgment on the merits of a claim; and (3) the second claim is based on the same set of transactional facts as the first.\" Jet, Inc. v. Sewage Aeration Sys. , 223 F.3d 1360, 1362 (Fed. Cir. 2000). Both parties agree that the prior unreasonable delay case involved identical parties and reached a final judgment on the merits. They only dispute whether the prior case involved the same set of transactional facts.\nTo determine whether there is an identity of claims, this court is guided by the Restatement (Second) of Judgments. Foster v. Hallco Mfg. Co. , 947 F.2d 469, 478 (Fed. Cir. 1991). Under the Restatement approach, what constitutes the same transaction of facts is \"to be determined pragmatically,\" considering \"whether the facts are related in time, space, origin, or motivation, whether they form a convenient trial unit, and whether their treatment as a unit conforms to the parties' expectations or business understanding or usage.\" Restatement (Second) of Judgments, \u00a7 24 (Am. Law Inst. 1982).\nConsideration of these factors makes clear that Mr. Hyatt's claims in this case do not share an identity with his unreasonable delay claims. First, the two sets of claims relate to different sets of facts. Mr. Hyatt's unreasonable delay claims arose from the PTO's reopening of prosecution for 80 of his applications in 2013. In contrast, his present claims arose from the PTO's denial of his petition for rulemaking in December 2015. This petitioning process is completely independent of the PTO's application examination process. In addition, the two sets of claims could not have been conveniently tried together. Mr. Hyatt's petition for rulemaking was not denied until December 2015, more than two years after the reopenings of his applications and a month after the final decision in his unreasonable delay case. Thus, even though Mr. Hyatt could have raised the same arguments concerning MPEP \u00a7 1207.04 's validity in his prior suit, his present claims arise from a different set of facts unrelated in time, origin, or motivation to his prior unreasonable delay claims. Accordingly, claim preclusion does not bar his present claims.\nThe PTO's argument that the two sets of claims arise from the same set of transactional facts relies on a misunderstanding of Mr. Hyatt's claims. The PTO frames Mr. Hyatt's suit as a collateral attack on the agency's reopening prosecution for the 80 applications at issue in his unreasonable delay case. But Mr. Hyatt's present suit does not seek any relief related to those 80 applications. His claims challenge the PTO's denial of his petition for rulemaking and his complaint only seeks forward-looking relief such as \"[a] declaration that MPEP \u00a7 1207.04 is unlawful,\" \"[a] declaration that the PTO ... unlawfully denied the Director Petition,\" and \"[a]n order enjoining the PTO ... from enforcing MPEP \u00a7 1207.04.\" J.A. 23-24. The requested relief makes clear that Mr. Hyatt is not collaterally attacking the PTO's prior prosecution reopenings.\nC\nThe PTO next argues that Mr. Hyatt's claims are time-barred. In the absence of a specific statutory limitations period, actions for judicial review against the United States under the APA are subject to the statute of limitations in 28 U.S.C. \u00a7 2401(a). See Schwalier v. Hagel , 776 F.3d 832, 835 (Fed. Cir. 2015) ; Preminger v. Sec'y of Veterans Affairs , 517 F.3d 1299, 1307 (Fed. Cir. 2008). Section 2401(a) provides that \"every civil action commenced against the United States shall be barred unless the complaint is filed within six years after the right of action first accrues.\"\nA procedural challenge to an agency rulemaking under the APA accrues at the time of final agency action. Preminger , 517 F.3d at 1307. The promulgation of a regulation is a final agency action. Id. Although the issue has not been directly addressed by this court, other circuits apply a separate standard to accrual for substantive challenges to agency rulemaking. See Wind River Min. Corp. v. United States , 946 F.2d 710, 714-15 (9th Cir. 2001) ; see also Pub. Citizen v. Nuclear Regulatory Comm'n , 901 F.2d 147, 152 (D.C. Cir. 1990). A substantive challenge alleges that the agency acted in excess of its constitutional or statutory authority. Wind River Min. Corp. , 946 F.2d at 715. For substantive challenges, the right of action accrues either when the agency makes its initial decision or at the time of an adverse application of the decision against the plaintiff, whichever comes later. Id. An agency's denial of a plaintiff's petition for rulemaking qualifies as an adverse application of the existing rule against the plaintiff. Nw. Envtl. Advocates v. EPA , 537 F.3d 1006, 1019 (9th Cir. 2008). We see no reason to depart from this precedent regarding the accrual date for a substantive challenge.\nHere, Mr. Hyatt's challenge to the PTO's denial of his petition for rulemaking is based on three challenges to MPEP \u00a7 1207.04, two of which are time-barred. First, Mr. Hyatt argues that the PTO promulgated MPEP \u00a7 1207.04 without providing public notice and an opportunity to comment. Because this challenge alleges a procedural irregularity in the PTO's adoption of the rule, this right of action accrued at the time the agency made its initial decision to adopt MPEP \u00a7 1207.04. The PTO added MPEP \u00a7 1207.04 to the MPEP in 2005. See MPEP \u00a7 1207.04 (8th ed., rev. 3, Aug. 2005). Mr. Hyatt filed his complaint in 2016. Thus, his notice-and-comment claim was filed outside of the six-year statute of limitations period and is time-barred.\nMr. Hyatt argues that, although the PTO added MPEP \u00a7 1207.04 to the MPEP in 2005, the PTO's subsequent amendments to MPEP \u00a7 1207.04 in 2014 restarted the statute of limitations. This court has not addressed the impact of rule amendments on the statute of limitations for procedural challenges to a rule. Mr. Hyatt urges the adoption of the D.C. Circuit's rule that treats an amendment that \"substantively alter[s]\" the rule in a way that \"alter[s] the rights and obligations\" of regulated persons as restarting the statute of limitations. Mendoza v. Perez , 754 F.3d 1002, 1019-20 (D.C. Cir. 2014).\nEven under the D.C. Circuit's rule, however, the statute of limitations would not be reset by the PTO's 2014 amendment to \u00a7 1207.04 because the amendment did not substantively alter the rule. In Mendoza , the D.C. Circuit determined that the Department of Labor substantively altered the foreign worker visa process by altering substantive rights (e.g., minimum wage rates for sheep herders) as well as procedural rules governing the visa application process. Id. at 1019-20. Here, the PTO added language to MPEP \u00a7 1207.04 providing that a new ground of rejection raised by the examiner to reopen prosecution could \"include[ ] both a new ground that would not be proper in the examiner's answer as described in MPEP \u00a7 1207.03, subsection II and a new ground that would be proper.\" Compare MPEP \u00a7 1207.04 (8th ed., rev. 9, Aug. 2012), with MPEP \u00a7 1207.04 (9th ed., rev. 1, Mar. 2014). These changes clarified the meaning of a term that already appeared in the original rule. They did not alter the procedures by which an examiner reopened prosecution or alter the substantive rights of the applicant. Thus, the PTO's amendments to MPEP \u00a7 1207.04 did not restart the statute of limitations for Mr. Hyatt's procedural challenges.\nMr. Hyatt also argues that the PTO's reconsideration of the issue of reopening prosecution in 2011 and 2013 restarted the statute of limitations. When \"an agency's actions show that it has not merely republished an existing rule ..., but has reconsidered the rule and decided to keep it in effect,\" the agency's \"renewed adherence\" to the rule is \"substantively reviewable\" even if a challenge to the agency's original adoption of the rule would be time-barred. See Pub. Citizen , 901 F.2d at 150 (quoting Ass'n of Am. R.Rs. v. ICC , 846 F.2d 1465, 1473 (D.C. Cir. 1988) ). Here, the PTO's actions do not show any reconsideration of the practices codified in MPEP \u00a7 1207.04. In 2011, the PTO declined to alter the level of supervisory approval necessary for an examiner to reopen prosecution. Rules of Practice Before the Board of Patent Appeals and Interferences in Ex Parte Appeals, 76 Fed. Reg. 72,287 (Nov. 22, 2011). In 2013, the PTO adjusted its appeal fee structures to limit fees when an examiner reopens prosecution after an appeal brief has been filed. Setting and Adjusting Patent Fees, 78 Fed. Reg. 4,230 -31 (Jan. 18, 2013). While these issues tangentially relate to prosecution reopening, the PTO's discussion of them does not suggest that it reconsidered whether examiners should be able to reopen prosecution of an application after an applicant files an appeal brief before the PTAB. Accordingly, the PTO's 2011 and 2013 discussions of related issues did not restart the statute of limitations for Mr. Hyatt's challenges to MPEP \u00a7 1207.04.\nMr. Hyatt's argument that MPEP \u00a7 1207.04 conflicts with 37 C.F.R. \u00a7 41.39 is also time-barred. This challenge is not \"substantive\" because an agency can violate its own regulations while remaining within its statutory and constitutional authority. Nor is the challenge \"procedural\" because an argument that two rules substantively conflict does not challenge how the agency adopted the rules. Thus, for the purpose of determining when a right of action accrues under \u00a7 2401(a), we view a claim that an agency's action conflicts with a preexisting regulation as a policy-based challenge. Because the right of action for a policy-based challenge to an agency action accrues at the same time as the right of action for a procedural challenge, see Wind River Min. Corp. , 946 F.2d at 715, the latest that this right of action could have accrued was also 2005, outside the six-year statute of limitations period. Thus, Mr. Hyatt's claim that MPEP \u00a7 1207.04 conflicts with 37 C.F.R. \u00a7 41.39 is also time-barred.\nMr. Hyatt's argument that MPEP \u00a7 1207.04 violates 35 U.S.C. \u00a7 6(b)(1), however, is timely. This claim concerns the statutory authority of the PTO to adopt MPEP \u00a7 1207.04, which makes it a substantive challenge. The PTO denied Mr. Hyatt's petition for rulemaking in 2015, which qualifies as an adverse application of MPEP \u00a7 1207.04 against him. See Nw. Envtl. Advocates , 537 F.3d at 1019. As a result, his right of action accrued in 2015, well within the limitations period.\nD\nBecause his other claims are time-barred, we only consider the merits of Mr. Hyatt's claim that the PTO unlawfully denied his petition for rulemaking because MPEP \u00a7 1207.04 violates 35 U.S.C. \u00a7 6(b)(1). Section 6(b)(1) requires that the PTAB \"shall - (1) on written appeal of an applicant, review adverse decisions of examiners upon applications for patents pursuant to section 134(a).\" Under 35 U.S.C. \u00a7 134(a), \"[a]n applicant for a patent, any of whose claims has been twice rejected, may appeal from the decision of the primary examiner to the Patent Trial and Appeal Board, having once paid the fee for such appeal.\" Mr. Hyatt argues that an examiner's ability to reopen prosecution after an appeal brief has been filed deprives applicants of their right to maintain an appeal under \u00a7 6(b)(1). He contends that the statute's use of the term \"shall\" unambiguously requires the Board to hear an appeal if an applicant files an appeal brief after his claims have been twice rejected. He also contends that the term \"appeal\" precludes PTO examiners from unilaterally preventing review of their rejections.\n\"Statutory interpretation begins with the language of the statute.\" Norfolk Dredging Co. v. United States , 375 F.3d 1106, 1110 (Fed. Cir. 2004). \"A court derives the plain meaning of the statute from its text and structure.\" Id. When the language of the statute is clear and unambiguous, the plain meaning of the statute is conclusive absent special circumstances. Id.\nHere, the plain meaning of \u00a7 6(b)(1) 's text refutes Mr. Hyatt's arguments. Section 6(b) outlines the PTAB's duties. The statute's mandatory language indicates that the PTAB does not have discretion over whether to review an examiner's rejection of an application. But the text does not require the PTAB to reach the merits of every appeal that is filed. Section 134(a) explicitly conditions an applicant's ability to appeal on the payment of a fee. Mr. Hyatt does not question the PTO's authority to impose procedural conditions that must be satisfied prior to PTAB review, such as time limits and content restrictions for the filing of an appeal brief. See 37 C.F.R. \u00a7 41.37. Failure to comply with these procedural requirements can result in dismissal of an appeal even after the applicant has filed the written notice of appeal contemplated by \u00a7 6(b)(1). 37 C.F.R. \u00a7 41.37(c). Under current examination rules, an examiner's decision not to reopen prosecution is another condition that must be satisfied before an appeal reaches the Board. These conditions on the PTAB reaching the merits of an appeal do not conflict with \u00a7 6(b)(1) 's requirement that the PTAB review rejections.\nThe inclusion of the term \"appeal\" in \u00a7 6(b)(1) does not alter this analysis. Mr. Hyatt asserts that \"appeal\" is a term of art that connotes an adverse party, here the PTO examiner, cannot unilaterally prevent review. He cites Black's Law Dictionary, which defines \"appeal\" as \"[a] proceeding undertaken to have a decision reconsidered by a higher authority; esp., the submission of a lower court's or agency's decision to a higher court for review and possible reversal.\" Black's Law Dictionary (10th ed. 2014). Even assuming Congress intended to adopt this definition for \u00a7 6(b)(1), it does not support Mr. Hyatt's inference. The PTO's rules allow applicants to seek review of examiners' final rejections before a higher authority, the PTAB. Nothing in this definition of appeal suggests the PTO cannot impose conditions on the PTAB's ability to reach the merits of an appeal or delay the appeal. Allowing examiners to reopen prosecution does not deprive applicants of their right to appeal final examiner rejections because reopening prosecution cannot circumvent PTAB review. Once the examiner adds a new ground of rejection, the applicant may immediately appeal it along with the old grounds. MPEP \u00a7 1207.04.\nMr. Hyatt expresses concern that examiners could use repeated prosecution reopenings to prevent the PTAB from ever reviewing application rejections. But the prospect that prosecution reopenings after the filing of an appeal brief might be used abusively cannot override the plain meaning of \u00a7 6(b)(1). Moreover, as Mr. Hyatt knows, the APA offers a remedy for such situations by enabling reviewing courts to compel agency actions unlawfully withheld or unreasonably delayed without adequate reason or justification. 5 U.S.C. \u00a7\u00a7 702, 706(1). Mr. Hyatt's prior petition for a writ of mandamus on the basis of unreasonable delay failed because the PTO had already recommenced its examination of his applications by the time the district court reached the case's merits. Hyatt , 146 F. Supp. 3d at 785-86. There is no evidence in the record that, in the wake of that decision, PTO examiners have repeatedly reopened prosecution of Mr. Hyatt's applications for the purpose of further delaying PTAB review.\nIII\nMr. Hyatt's petition for rulemaking relied on two time-barred challenges to MPEP \u00a7 1207.04 and an erroneous interpretation of \u00a7 6(b)(1). The PTO's denial of this petition was not arbitrary and capricious. Therefore, we affirm the district court's grant of the PTO's motion for summary judgment. Because the district court had jurisdiction over Mr. Hyatt's claims, however, we reverse the district court's dismissal of Mr. Hyatt's action for lack of subject matter jurisdiction and remand for the court to enter judgment in favor of the PTO consistent with this opinion.\nAFFIRMED-IN-PART AND REVERSED-IN-PART\nCOSTS\nNo costs.\nAlthough claim preclusion does not bar Mr. Hyatt's challenge to MPEP \u00a7 1207.04 in this challenge to the PTO's denial of his petition for rulemaking, he does not have free reign to raise similar challenges in any future proceeding. Because Mr. Hyatt undoubtedly could have challenged the validity of MPEP \u00a7 1207.04 in his unreasonable delay suit, claim preclusion would bar him from doing so in any future case arising from the PTO's reopening of prosecution for the 80 applications at issue in his prior case.",
+        "type": "majority",
+        "author": "Hughes, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Andrew M. Grossman, Baker & Hostetler LLP, Washington, DC, argued for plaintiffs-appellants. Also represented by Mark W. DeLaquil.",
+      "Molly R. Silfen, Office of the Solicitor, United States Patent and Trademark Office, Alexandria, VA, argued for defendants-appellees. Also represented by Thomas W. Krause, Robert J. McManus."
+    ],
+    "corrections": "",
+    "head_matter": "Gilbert P. HYATT, American Association for Equitable Treatment, Inc., Plaintiffs-Appellants\nv.\nUNITED STATES PATENT AND TRADEMARK OFFICE, Andrei Iancu, in his Official Capacity as Under Secretary of Commerce for Intellectual Property and Director of the United States Patent and Trademark Office, Defendants-Appellees\n2017-1722\nUnited States Court of Appeals, Federal Circuit.\nDecided: September 24, 2018\nAndrew M. Grossman, Baker & Hostetler LLP, Washington, DC, argued for plaintiffs-appellants. Also represented by Mark W. DeLaquil.\nMolly R. Silfen, Office of the Solicitor, United States Patent and Trademark Office, Alexandria, VA, argued for defendants-appellees. Also represented by Thomas W. Krause, Robert J. McManus.\nBefore Reyna, Wallach, and Hughes, Circuit Judges."
+  },
+  "file_name": "1361-01",
+  "first_page_order": 1361,
+  "last_page_order": 1375
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12411042,
+  "name": "Comcast Corp. et al. v. Behrend et al.",
+  "name_abbreviation": "Comcast Corp. v. Behrend",
+  "decision_date": "2012-06-25",
+  "docket_number": "No. 11-864",
+  "first_page": "933",
+  "last_page": "933",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 933"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 46,
+    "char_count": 363,
+    "ocr_confidence": 0.661,
+    "sha256": "ecc61ff3129c4673412bf018baf38eeb209a34d6fa543544306b3336baded8cc",
+    "simhash": "1:881e7e3bb27c3ba6",
+    "word_count": 57
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Comcast Corp. et al. v. Behrend et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari granted limited to the following question: \u2018Whether a district court may certify a class action without resolving whether the plaintiff class has introduced admissible evidence, including expert testimony, to show that the case is susceptible to awarding damages on a class-wide basis.\u201d",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-864.\nComcast Corp. et al. v. Behrend et al."
+  },
+  "file_name": "0933-08",
+  "first_page_order": 837,
+  "last_page_order": 837
+}

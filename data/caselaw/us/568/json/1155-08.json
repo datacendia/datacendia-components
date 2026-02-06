@@ -1,0 +1,59 @@
+{
+  "id": 12430391,
+  "name": "In re Dunbar",
+  "name_abbreviation": "In re Dunbar",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-6733",
+  "first_page": "1155",
+  "last_page": "1155",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1155"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 21,
+    "char_count": 144,
+    "ocr_confidence": 0.598,
+    "sha256": "e117ef83b7801f40ef180c28bee567f6d77d5cdb44e81855d0e7c3bb3a89c43b",
+    "simhash": "1:62f014aa4126a799",
+    "word_count": 23
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Dunbar."
+    ],
+    "opinions": [
+      {
+        "text": "Motion of petitioner for reconsideration of order denying leave to proceed in forma pauperis [ante, p. 1084] denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6733.\nIn re Dunbar."
+  },
+  "file_name": "1155-08",
+  "first_page_order": 1231,
+  "last_page_order": 1231
+}

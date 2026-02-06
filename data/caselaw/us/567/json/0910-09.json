@@ -1,0 +1,59 @@
+{
+  "id": 12408691,
+  "name": "Coulter v. Roddy",
+  "name_abbreviation": "Coulter v. Roddy",
+  "decision_date": "2012-06-11",
+  "docket_number": "No. 11-9969",
+  "first_page": "910",
+  "last_page": "910",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 910"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 65,
+    "ocr_confidence": 0.658,
+    "sha256": "c2db2033ed6b1b2726c0b89bbc640589076f1c5a8045365d4f88b0d40ad30257",
+    "simhash": "1:10b5400975a92170",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Coulter v. Roddy."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9969.\nCoulter v. Roddy."
+  },
+  "file_name": "0910-09",
+  "first_page_order": 814,
+  "last_page_order": 814
+}

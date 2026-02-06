@@ -187,7 +187,7 @@ export interface PacketStats {
 // API SERVICE
 // =============================================================================
 
-const BASE_URL = '/api/v1/evidence-vault';
+const BASE_URL = '/evidence-vault';
 
 export const evidenceVaultApi = {
   // Packet retrieval

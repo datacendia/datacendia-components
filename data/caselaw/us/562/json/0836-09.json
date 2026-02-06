@@ -1,0 +1,59 @@
+{
+  "id": 6013585,
+  "name": "Jordan v. United States",
+  "name_abbreviation": "Jordan v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-1484",
+  "first_page": "836",
+  "last_page": "836",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 836"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.639,
+    "sha256": "fcc49ce3e8397b6fecdfe4ca4c6a277d2162f09bbc4ee92605d861e8c8ac652f",
+    "simhash": "1:463ba6032ffd490a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jordan v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-1484.\nJordan v. United States."
+  },
+  "file_name": "0836-09",
+  "first_page_order": 858,
+  "last_page_order": 858
+}

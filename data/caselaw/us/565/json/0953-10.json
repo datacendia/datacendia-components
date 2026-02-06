@@ -1,0 +1,59 @@
+{
+  "id": 12228085,
+  "name": "Glenmore v. United States",
+  "name_abbreviation": "Glenmore v. United States",
+  "decision_date": "2011-10-11",
+  "docket_number": "No. 11-6035",
+  "first_page": "953",
+  "last_page": "953",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 953"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.597,
+    "sha256": "83e2e5c4906826cf5627acce8e366d4052fc04cab7e7eb8981c83d8bb072948b",
+    "simhash": "1:660ac722ab6b9356",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Glenmore v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. D. C. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6035.\nGlenmore v. United States."
+  },
+  "file_name": "0953-10",
+  "first_page_order": 1035,
+  "last_page_order": 1035
+}

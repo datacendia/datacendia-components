@@ -1,0 +1,59 @@
+{
+  "id": 5991143,
+  "name": "Code v. Cain, Warden",
+  "name_abbreviation": "Code v. Cain",
+  "decision_date": "2011-03-07",
+  "docket_number": "No. 10-8264",
+  "first_page": "1275",
+  "last_page": "1275",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1275"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 68,
+    "ocr_confidence": 0.595,
+    "sha256": "e1b0278a89d6f53b4602cd0e8950385db855135e3e3438ece8146f230b240e20",
+    "simhash": "1:213f0e21d7e8d7fa",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Code v. Cain, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. La. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8264.\nCode v. Cain, Warden."
+  },
+  "file_name": "1275-11",
+  "first_page_order": 1297,
+  "last_page_order": 1297
+}

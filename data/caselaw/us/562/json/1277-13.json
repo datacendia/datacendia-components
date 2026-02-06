@@ -1,0 +1,59 @@
+{
+  "id": 6031429,
+  "name": "Boyd v. United States",
+  "name_abbreviation": "Boyd v. United States",
+  "decision_date": "2011-03-07",
+  "docket_number": "No. 10-8797",
+  "first_page": "1277",
+  "last_page": "1277",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1277"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.593,
+    "sha256": "d0d571d7398c69514f3caa44f816850783d30ade1e64fadb3f536dd0e69bb82d",
+    "simhash": "1:05af4b030419dd88",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Boyd v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8797.\nBoyd v. United States."
+  },
+  "file_name": "1277-13",
+  "first_page_order": 1299,
+  "last_page_order": 1299
+}

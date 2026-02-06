@@ -1,0 +1,59 @@
+{
+  "id": 5943702,
+  "name": "West v. Palmer, Warden, et al.",
+  "name_abbreviation": "West v. Palmer",
+  "decision_date": "2011-03-28",
+  "docket_number": "No. 10-8725",
+  "first_page": "909",
+  "last_page": "909",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 909"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 78,
+    "ocr_confidence": 0.549,
+    "sha256": "781825b35702f6768d6f307341e4d7cba6ebe71696a0bda2f74fec471dd6e615",
+    "simhash": "1:509c23a97f8d8076",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "West v. Palmer, Warden, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8725.\nWest v. Palmer, Warden, et al."
+  },
+  "file_name": "0909-08",
+  "first_page_order": 935,
+  "last_page_order": 935
+}

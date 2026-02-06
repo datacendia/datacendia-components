@@ -1,0 +1,59 @@
+{
+  "id": 6000635,
+  "name": "Grajeda v. United States",
+  "name_abbreviation": "Grajeda v. United States",
+  "decision_date": "2010-11-08",
+  "docket_number": "No. 10-6875",
+  "first_page": "1035",
+  "last_page": "1035",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1035"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.557,
+    "sha256": "7ff0a1dc8a2d7c107abb041abe75c349d8fff63711b33fa3b8f83d4f16c25d43",
+    "simhash": "1:968be7836f96410c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Grajeda v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6875.\nGrajeda v. United States."
+  },
+  "file_name": "1035-16",
+  "first_page_order": 1057,
+  "last_page_order": 1057
+}

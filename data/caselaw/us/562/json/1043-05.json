@@ -1,0 +1,59 @@
+{
+  "id": 6002003,
+  "name": "In re Jones",
+  "name_abbreviation": "In re Jones",
+  "decision_date": "2010-11-15",
+  "docket_number": "No. 10-7069",
+  "first_page": "1043",
+  "last_page": "1043",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1043"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 67,
+    "ocr_confidence": 0.57,
+    "sha256": "2740c65700dbd05fe18ea59d78c8c8b2fb8f17f610775e25e5a8a7b6b4ecf014",
+    "simhash": "1:4449e41068404059",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Jones."
+    ],
+    "opinions": [
+      {
+        "text": "Petition for writ of prohibition denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7069.\nIn re Jones."
+  },
+  "file_name": "1043-05",
+  "first_page_order": 1065,
+  "last_page_order": 1065
+}

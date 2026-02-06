@@ -1,0 +1,59 @@
+{
+  "id": 12214048,
+  "name": "Richards v. JRK Property Holdings",
+  "name_abbreviation": "Richards v. JRK Property Holdings",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-51",
+  "first_page": "880",
+  "last_page": "880",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 880"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 80,
+    "ocr_confidence": 0.631,
+    "sha256": "7788851d79b489bd38ce4c506b2eb3d0f38b705017de27cd9581a5082e0a2ede",
+    "simhash": "1:86688382480bb462",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Richards v. JRK Property Holdings."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-51.\nRichards v. JRK Property Holdings."
+  },
+  "file_name": "0880-06",
+  "first_page_order": 962,
+  "last_page_order": 962
+}

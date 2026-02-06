@@ -1,0 +1,59 @@
+{
+  "id": 12420435,
+  "name": "Jerrell v. Texas",
+  "name_abbreviation": "Jerrell v. Texas",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 12-5881",
+  "first_page": "983",
+  "last_page": "983",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 983"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.608,
+    "sha256": "53e26c0b78c4830a899947e74007d1d45edbbd9fbad21a5ac32f9e63392a8111",
+    "simhash": "1:41c18b506e4ca613",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jerrell v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Tex., 7th Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5881.\nJerrell v. Texas."
+  },
+  "file_name": "0983-05",
+  "first_page_order": 1059,
+  "last_page_order": 1059
+}

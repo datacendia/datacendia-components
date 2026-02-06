@@ -1,0 +1,59 @@
+{
+  "id": 12227716,
+  "name": "Butts v. Virginia",
+  "name_abbreviation": "Butts v. Virginia",
+  "decision_date": "2011-10-11",
+  "docket_number": "No. 11-5747",
+  "first_page": "950",
+  "last_page": "950",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 950"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 64,
+    "ocr_confidence": 0.677,
+    "sha256": "0f0d895816bc3b8951e68e012eec735c236df48d7fb4833d767dad5c097a2ca0",
+    "simhash": "1:aa7b80af3ff866cb",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Butts v. Virginia."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Va. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5747.\nButts v. Virginia."
+  },
+  "file_name": "0950-04",
+  "first_page_order": 1032,
+  "last_page_order": 1032
+}

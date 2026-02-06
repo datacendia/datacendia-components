@@ -1,0 +1,59 @@
+{
+  "id": 12217399,
+  "name": "Boulding v. United States",
+  "name_abbreviation": "Boulding v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5158",
+  "first_page": "892",
+  "last_page": "892",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 892"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.708,
+    "sha256": "22a8c287150798790e09147edf96ed93ed3177390077a2dc89d84951e437158a",
+    "simhash": "1:c20af6034f1b1954",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Boulding v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5158.\nBoulding v. United States."
+  },
+  "file_name": "0892-12",
+  "first_page_order": 974,
+  "last_page_order": 974
+}

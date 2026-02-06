@@ -1,0 +1,762 @@
+{
+  "id": 12519391,
+  "name": "UNITED STATES of America, Plaintiff - Appellee, v. Deon Raymond MARTINEZ, Defendant - Appellant.",
+  "name_abbreviation": "United States v. Martinez",
+  "decision_date": "2018-12-18",
+  "docket_number": "No. 17-4131",
+  "first_page": "1309",
+  "last_page": "1320",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "910 F.3d 1309"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "10th Cir.",
+    "id": 8771,
+    "name": "United States Court of Appeals for the Tenth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "169 F.3d 666",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11765064,
+        11764881,
+        8166236,
+        11764953
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "671-72"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/169/0666-03",
+        "/f3d/169/0666-01",
+        "/am-tribal-law/2/0666-01",
+        "/f3d/169/0666-02"
+      ]
+    },
+    {
+      "cite": "519 F.3d 1208",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3551648
+      ],
+      "pin_cites": [
+        {
+          "page": "1212-13"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/519/1208-01"
+      ]
+    },
+    {
+      "cite": "776 F.2d 1441",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1516329,
+        1516371
+      ],
+      "pin_cites": [
+        {
+          "page": "1449"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/776/1441-02",
+        "/f2d/776/1441-01"
+      ]
+    },
+    {
+      "cite": "506 F.3d 1241",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3167817
+      ],
+      "pin_cites": [
+        {
+          "page": "1247"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/506/1241-01"
+      ]
+    },
+    {
+      "cite": "799 F.2d 704",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1605614
+      ],
+      "pin_cites": [
+        {
+          "page": "708"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/799/0704-01"
+      ]
+    },
+    {
+      "cite": "92 L.Ed. 210",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "year": 1948,
+      "opinion_index": 0
+    },
+    {
+      "cite": "332 U.S. 581",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        365313
+      ],
+      "weight": 2,
+      "year": 1948,
+      "pin_cites": [
+        {
+          "page": "595"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/332/0581-01"
+      ]
+    },
+    {
+      "cite": "908 F.3d 1219",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12519119
+      ],
+      "pin_cites": [
+        {
+          "page": "1232-33"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/908/1219-01"
+      ]
+    },
+    {
+      "cite": "473 U.S. 531",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6203102
+      ],
+      "weight": 3,
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "541, 544"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/473/0531-01"
+      ]
+    },
+    {
+      "cite": "462 U.S. 213",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6187462
+      ],
+      "weight": 3,
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "238"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/462/0213-01"
+      ]
+    },
+    {
+      "cite": "466 U.S. 210",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6196728
+      ],
+      "weight": 4,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "217"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/466/0210-01"
+      ]
+    },
+    {
+      "cite": "449 U.S. 411",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11716341
+      ],
+      "weight": 3,
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "417-18"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/449/0411-01"
+      ]
+    },
+    {
+      "cite": "134 S.Ct. 1683",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12579832,
+        12706993
+      ],
+      "weight": 4,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "parenthetical": "quoting United States v. Cortez , 449 U.S. 411, 417-18, 101 S.Ct. 690, 66 L.Ed.2d 621 (1981) "
+        },
+        {
+          "parenthetical": "quoting United States v. Cortez , 449 U.S. 411, 417-18, 101 S.Ct. 690, 66 L.Ed.2d 621 (1981) "
+        },
+        {
+          "parenthetical": "assuming that 911 call was anonymous because government introduced no evidence to suggest otherwise"
+        },
+        {
+          "parenthetical": "assuming that 911 call was anonymous because government introduced no evidence to suggest otherwise"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/134/1683-01",
+        "/us/572/0393-01"
+      ]
+    },
+    {
+      "cite": "572 U.S. 393",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12706993
+      ],
+      "weight": 2,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "396",
+          "parenthetical": "quoting United States v. Cortez , 449 U.S. 411, 417-18, 101 S.Ct. 690, 66 L.Ed.2d 621 (1981) "
+        },
+        {
+          "parenthetical": "assuming that 911 call was anonymous because government introduced no evidence to suggest otherwise"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/572/0393-01"
+      ]
+    },
+    {
+      "cite": "94 F.3d 1465",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11346878
+      ],
+      "pin_cites": [
+        {
+          "page": "1469-70"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/94/1465-01"
+      ]
+    },
+    {
+      "cite": "551 F.3d 1196",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5751551
+      ],
+      "pin_cites": [
+        {
+          "page": "1202"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/551/1196-01"
+      ]
+    },
+    {
+      "cite": "532 F.2d 1335",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10601448
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "1338"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/532/1335-01"
+      ]
+    },
+    {
+      "cite": "1992 WL 401580",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "*1"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "998 F.2d 883",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10515672
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "885"
+        },
+        {
+          "page": "884-85",
+          "parenthetical": "finding no reasonable suspicion for traffic stop based solely on make and color of car and presence of two black men in car"
+        },
+        {
+          "page": "885"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/998/0883-01"
+      ]
+    },
+    {
+      "cite": "214 F. App'x 809",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        3970963
+      ],
+      "pin_cites": [
+        {
+          "page": "813"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/214/0809-01"
+      ]
+    },
+    {
+      "cite": "25 F.3d 1481",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10516670
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "1485-87"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/25/1481-01"
+      ]
+    },
+    {
+      "cite": "422 U.S. 873",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9550
+      ],
+      "weight": 5,
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "884-85"
+        },
+        {
+          "page": "886-87"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/422/0873-01"
+      ]
+    },
+    {
+      "cite": "609 F.3d 1140",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3691276
+      ],
+      "pin_cites": [
+        {
+          "page": "1146"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/609/1140-01"
+      ]
+    },
+    {
+      "cite": "358 F.3d 1257",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9298149
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "1261"
+        },
+        {
+          "page": "1261"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/358/1257-01"
+      ]
+    },
+    {
+      "cite": "557 F.3d 1129",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3384105
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "1134"
+        },
+        {
+          "page": "1134"
+        },
+        {
+          "page": "1134"
+        },
+        {
+          "page": "1134"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/557/1129-01"
+      ]
+    },
+    {
+      "cite": "364 F.3d 1185",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9275992
+      ],
+      "pin_cites": [
+        {
+          "page": "1194"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/364/1185-01"
+      ]
+    },
+    {
+      "cite": "785 F.3d 1374",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4183221
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "1379-80"
+        },
+        {
+          "page": "1379-80",
+          "parenthetical": "requiring a particularized basis for suspecting an individual of criminal activity"
+        },
+        {
+          "page": "1379-80"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/785/1374-01"
+      ]
+    },
+    {
+      "cite": "490 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        605100
+      ],
+      "weight": 10,
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "7"
+        },
+        {
+          "page": "7"
+        },
+        {
+          "page": "7"
+        },
+        {
+          "page": "7",
+          "parenthetical": "quoting Terry , 392 U.S. at 27, 88 S.Ct. 1868 "
+        },
+        {
+          "parenthetical": "quoting Terry , 392 U.S. at 27, 88 S.Ct. 1868 "
+        },
+        {
+          "parenthetical": "quoting Terry , 392 U.S. at 27, 88 S.Ct. 1868 "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/490/0001-01"
+      ]
+    },
+    {
+      "cite": "680 F.3d 1227",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3881784
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "1233"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/680/1227-01"
+      ]
+    },
+    {
+      "cite": "71 F.3d 783",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7415125
+      ],
+      "pin_cites": [
+        {
+          "page": "787"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/71/0783-01"
+      ]
+    },
+    {
+      "cite": "392 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6167798
+      ],
+      "weight": 17,
+      "year": 1968,
+      "pin_cites": [
+        {
+          "page": "21"
+        },
+        {
+          "page": "21"
+        },
+        {
+          "page": "21"
+        },
+        {
+          "page": "21"
+        },
+        {
+          "page": "27"
+        },
+        {
+          "page": "19-20"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/392/0001-01"
+      ]
+    },
+    {
+      "cite": "496 F.3d 1157",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5706092
+      ],
+      "pin_cites": [
+        {
+          "page": "1161"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/496/1157-01"
+      ]
+    },
+    {
+      "cite": "379 F.3d 1203",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        2180285
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "1205"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/379/1203-01"
+      ]
+    },
+    {
+      "cite": "795 F.3d 1224",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4290122
+      ],
+      "weight": 9,
+      "pin_cites": [
+        {
+          "page": "1228"
+        },
+        {
+          "page": "1228"
+        },
+        {
+          "page": "1229"
+        },
+        {
+          "page": "1229"
+        },
+        {
+          "page": "1229"
+        },
+        {
+          "page": "1229"
+        },
+        {
+          "page": "1229"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/795/1224-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1366,
+    "char_count": 35900,
+    "pagerank": {
+      "raw": 5.807366253629069e-08,
+      "percentile": 0.36168942668086057
+    },
+    "sha256": "794c555260595f2ef5ba467e7f3ad18c5dc71fa3edac9f21743aea978023d374",
+    "simhash": "1:b79622bc5600879b",
+    "word_count": 5744
+  },
+  "last_updated": "2024-02-27T18:46:13.639075+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before PHILLIPS, EBEL, and MORITZ, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff - Appellee,\nv.\nDeon Raymond MARTINEZ, Defendant - Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "MORITZ, Circuit Judge.\nDuring a traffic stop in Arizona, law enforcement discovered evidence linking Deon Martinez to a bank robbery in Utah. Martinez argues that the state trooper who pulled him over lacked reasonable suspicion to do so. For the reasons discussed below, we agree. We therefore reverse the district court's order denying Martinez's motion to suppress this evidence.\nBackground\nThe relevant facts unfold along a 130-mile stretch of the Interstate 40 (I-40) corridor in Arizona. At 11:41 one morning, a state police dispatcher reported a robbery at a Wells Fargo in Winslow, Arizona. Christian Phillips, an Arizona State Trooper, heard this report while patrolling I-40 about an hour east of Winslow. The dispatcher identified two suspects: (1) a man wearing a Bud Light hat and (2) a man running \"from the bank in the alley wearing a blue-and-white checkered shirt[ and] blue jeans.\" R. vol. 2, 16. The dispatcher didn't identify any vehicle the thieves might have used to make their escape. Nor did the dispatcher identify the race, ethnicity, or physical features of either of the two robbery suspects.\nAt 12:13 p.m. that same day, Phillips heard a second report of activity along the I-40 corridor, this time in Flagstaff, Arizona. This second report described an event that took place before the Winslow robbery and was far less serious; no robbery, or any other crime for that matter, occurred in Flagstaff. Instead, the second report alerted officers about a \"suspicious\" white Cadillac spotted outside a Wells Fargo branch earlier that morning. Id. at 36. The report also described the Cadillac's driver: a Native American man wearing \"a light blue checkered hoodie\" and a Bud Light hat. Id. at 17. And it said that the Cadillac headed east from Flagstaff at 11:00 a.m. The only other identifying detail Phillips recalled was that one of these reports (though he couldn't say which one) relayed that one of the suspects was wearing glasses.\nOnce he heard the second report, Phillips ventured west on I-40 toward Winslow. Fewer than fifteen minutes later, Phillips saw a white Cadillac-a rare sight on that stretch of I-40, he later testified-driving east on the other side of the highway. He turned around to pursue it and asked dispatch to run its license plate. Phillips caught up to the Cadillac and pulled alongside to look into the driver's window. Although Phillips later explained that the windows \"were excessively tinted ... to the point that [he] could not see into the vehicle,\" he testified that he \"was able to make out the outline of the driver.\" Id. at 23-24. From this outline, Phillips saw that the driver was wearing glasses and \"had facial features that led [him] to believe\" that the driver \"was a Native American male.\" Id. After conducting this reconnaissance, Phillips dropped back to tail the Cadillac and called for an additional officer.\nBut before Phillips's colleague could arrive and before Phillips received the result of the license-plate check, the Cadillac engaged its right turn signal, announcing its imminent exit from the highway and prompting Phillips to pull it over. In explaining his decision to stop the Cadillac, Phillips later testified that he did so solely because he believed it was involved in the Winslow robbery. Indeed, he specifically testified that the driver didn't commit any traffic violations. And he said that he stopped the Cadillac when he did because he didn't want to lose it in the dirt roads and small communities located off that part of the highway. Nor did he want to endanger innocent bystanders if the encounter took a violent turn.\nThe Cadillac stopped for Phillips without incident. Phillips approached and asked the driver to get out. When the driver opened the car door, Phillips noted the overwhelming scent of marijuana. He further observed that the driver was a woman who, although wearing glasses, might not have been Native American; Phillips testified that he did \"not know what her nationality or ethnicity was.\" Id. at 34.\nMartinez was seated in the front passenger seat, and Phillips detained him as well. A subsequent search of the Cadillac revealed evidence linking Martinez to an entirely different bank robbery-one that occurred in Utah.\nA federal grand jury indicted Martinez for that Utah bank robbery, and Martinez moved to suppress the evidence seized from the Cadillac. The district court conducted an evidentiary hearing at which Phillips testified as described above. It then found that Phillips had reasonable suspicion to stop the Cadillac and accordingly denied Martinez's motion to suppress. Martinez entered a conditional guilty plea that preserved his right to challenge the district court's suppression ruling on appeal. He makes that challenge here.\nAnalysis\nMartinez argues that the district court wrongly concluded Phillips had reasonable suspicion to stop the car. \" 'When reviewing the denial of a motion to suppress, we view the evidence in the light most favorable to the government,' and 'accept the district court's findings of fact unless clearly erroneous.' \" United States v. Moore , 795 F.3d 1224, 1228 (10th Cir.2015) (quoting United States v. Katoa , 379 F.3d 1203, 1205 (10th Cir.2004) ). Nevertheless, we independently review \"the ultimate determination of reasonableness under the Fourth Amendment.\" Id.\nThe Fourth Amendment prohibits \"unreasonable searches and seizures.\" U.S. Const. amend. IV. Because \"[a] routine traffic stop is considered a seizure within the meaning of the Fourth Amendment,\" all traffic stops must be reasonable. Moore , 795 F.3d at 1228. And \"[a] traffic stop is reasonable if it is (1) justified at its inception and (2) reasonably related in scope to the circumstances [that] justified the interference in the first place.\" Id. (quoting United States v. Karam , 496 F.3d 1157, 1161 (10th Cir.2007) ); see also Terry v. Ohio , 392 U.S. 1, 88 S.Ct. 1868, 20 L.Ed.2d 889 (1968). Here, Martinez only challenges the initial justification for the traffic stop, not its scope.\nTypically, a traffic stop is justified if the officer observes or reasonably suspects a traffic or equipment violation. See United States v. Botero-Ospina , 71 F.3d 783, 787 (10th Cir.1995) (en banc). Here, of course, Phillips didn't see the Cadillac's driver commit any traffic or equipment violations. Nor did he reasonably suspect the driver had done so. But a law-enforcement officer may also stop a vehicle if the officer harbors \"a reasonable suspicion that [other] criminal activity may be afoot.\" United States v. Whitley , 680 F.3d 1227, 1233 (10th Cir.2012). Thus, our analysis turns on whether Phillips could reasonably suspect that the Cadillac's occupants were involved in criminal activity. See id.\n\"For reasonable suspicion to exist, an officer must 'articulate something more than an inchoate and unparticularized suspicion or hunch.' \" Moore , 795 F.3d at 1229 (quoting United States v. Sokolow , 490 U.S. 1, 7, 109 S.Ct. 1581, 104 L.Ed.2d 1 (1989) ). Stated differently, before initiating an investigatory stop, an officer must have \"a particularized and objective basis for suspecting an individual may be involved in criminal activity.\" United States v. Pettit , 785 F.3d 1374, 1379-80 (10th Cir.2015) (quoting United States v. Johnson , 364 F.3d 1185, 1194 (10th Cir.2004) ). At the same time, \"an officer 'need not rule out the possibility of innocent conduct;' he or she simply must possess 'some minimal level of objective justification' for making the stop.\" United States v. Winder , 557 F.3d 1129, 1134 (10th Cir.2009) (quoting United States v. Vercher , 358 F.3d 1257, 1261 (10th Cir.2004) ). Ultimately, \"[w]hether an investigative detention is supported by reasonable suspicion 'does not depend upon any one factor, but on the totality of the circumstances.' \" Moore , 795 F.3d at 1229 (quoting United States v. Simpson , 609 F.3d 1140, 1146 (10th Cir.2010) ).\nHere, the district court relied on four facts to conclude that Phillips had reasonable suspicion to stop the Cadillac. First, it noted the similarities between the Winslow robbery suspects and the person driving the reportedly suspicious white Cadillac in Flagstaff. Second, it credited Phillips's testimony that white Cadillacs aren't an ordinary part of the automotive ecosystem on this particular stretch of road. Third, it concluded that (1) the travel time from Flagstaff to Winslow was generally consistent with the gap in time between the suspicious-vehicle sighting in Flagstaff and the robbery in Winslow and (2) the travel time from Winslow to the site of the traffic stop was generally consistent with the gap in time between the robbery and the stop. Fourth, the district court found that Phillips's impression of the driver through the Cadillac's tinted window matched the general description of a Winslow robbery suspect.\nOn appeal, Martinez contends that these facts don't give rise to reasonable suspicion. The government disagrees. As we explain below, Martinez has the better of this argument. Phillips's belief that the Cadillac he saw was carrying the outlaws who held up the Winslow bank rested on two key inferences. As we explain more fully below, the first inference (connecting the Flagstaff Cadillac to the Winslow robbery) was reasonable. But the second inference (assuming that the Cadillac he stopped was the very same Cadillac) simply wasn't backed by the kind of \"specific and articulable facts\" required to support reasonable suspicion. Terry , 392 U.S. at 21, 88 S.Ct. 1868.\nAs for the first inference, recall that no one reported seeing a white Cadillac-or any other vehicle-at the Winslow robbery. Instead, \"a suspicious vehicle\" of that color and make reportedly left a parking lot of a Wells Fargo in a different city-Flagstaff-some 41 minutes before the Winslow robbery. R. vol. 2, 36. So to reasonably suspect that the white Cadillac he stopped was carrying bank-robbery suspects, Phillips had to first infer that the reportedly suspicious white Cadillac from Flagstaff was also involved in the Winslow robbery. The government urges us to make this leap based on the overlapping descriptions of the clothing worn by the man in Flagstaff and the men in Winslow: a Bud Light hat featured in both descriptions, as did a blue checkered shirt. We agree that these clothing consistencies provided Phillips with a basis to connect the Cadillac in Flagstaff with the robbery.\nBut that connection stopped in Winslow. It provided Phillips no basis to believe that the Cadillac he pulled over some 130 miles away was in fact the very same Cadillac. That is, to satisfy the Fourth Amendment's reasonableness requirement, Phillips needed to do more than connect the Flagstaff Cadillac to the Winslow robbery. He also needed \"specific and articulable facts\" to support his suspicion that the Cadillac he saw 130 miles away from Flagstaff and 65 miles away from Winslow was the Flagstaff Cadillac. Terry , 392 U.S. at 21, 88 S.Ct. 1868 ; see also Moore , 795 F.3d at 1229 (noting that reasonable suspicion requires \"more than an inchoate and unparticularized suspicion or hunch\" (quoting Sokolow , 490 U.S. at 7, 109 S.Ct. 1581 ) ).\nThe government argues that Phillips had such facts. In support, it points to Phillips's testimony that white Cadillacs are rare on this part of I-40. Further, the government cites several cases involving traffic stops in border areas for the general proposition that \"the uniqueness of a vehicle or its rarity at a particular location\" can be a factor supporting reasonable suspicion. Aplee. Br. 29. But at most, these cases stand for the unremarkable assertion that specific facts about a situation, including \"the usual patterns of traffic\" and \"[a]spects of the vehicle itself,\" are relevant to reasonable suspicion. United States v. Brignoni-Ponce , 422 U.S. 873, 884-85, 95 S.Ct. 2574, 45 L.Ed.2d 607 (1975).\nFor example, in one of the cases the government cites, an officer conducted a 10:00 a.m. stop to investigate illegal entry and smuggling. See United States v. Lopez-Martinez , 25 F.3d 1481, 1485-87 (10th Cir.1994). We found reasonable suspicion to support that stop, in part because the officer knew that (1) traffic on the road where the stop occurred was \"nearly nonexistent\" at that time of day; (2) the vehicle was a \"van [that] could transport several passengers hidden from passersby\"; (3) the vehicle was within 60 miles of the Mexican border; and (4) the driver exited the interstate in favor of \"a less direct northbound route\" that was \"a well-documented means of circumventing\" an immigration checkpoint. Id. ; see also United States v. Rodriguez-Reyes , 214 F. App'x 809, 813 (10th Cir.2007) (unpublished) (finding reasonable suspicion for traffic stop near Mexican border in part because vehicle was only one in area and was driving away from location where sensor indicated that vehicle had crossed border).\nThe specific details that swayed us in those border cases are far removed from the first detail that Phillips articulated here: that he didn't see many white Cadillacs on this stretch of I-40. The alleged rarity of white Cadillacs on this stretch of I-40 is simply not specific or particularized enough to support a reasonable inference that the Cadillac Phillips saw was the Flagstaff Cadillac. See United States v. Jones , 998 F.2d 883, 885 (10th Cir.1993) (finding no reasonable suspicion for traffic stop in part because \"officers singled out this car, out of all the cars in the area, for a massive intrusion based solely on the color and manufacturer of the car\"). Thus, although it may have been reasonable for Phillips to suspect that, somewhere in Arizona, two bank robbers were travelling in a white Cadillac, the mere rarity of white Cadillacs along Phillips's patrol route didn't give him reasonable suspicion to pull over the first one he saw.\nNevertheless, the government argues, Phillips didn't just pull over any white Cadillac. Instead, he pulled over a white Cadillac with a driver who the government claims \"[m]atched\" the description of the Winslow robbery suspect. Aplee. Br. 23. But this is a significant mischaracterization of the facts. When we examine the details that actually \"[m]atched,\" it becomes clear that Phillips's observation lacked the specificity required to satisfy the reasonable-suspicion standard. Id.\nRecall that Phillips saw only \"the outline of the driver\" through an \"excessively tinted\" window. R. vol. 2, 23-24. Even so, he testified that he could see the driver was wearing glasses and \"had facial features that led [him] to believe [the driver] ... was a Native American male.\" Id. at 24. Thus, Phillips's generic description of the driver \"match[ed]\" only the equally generic aspects of the individual described in connection with the Flagstaff Cadillac: both drivers were described as Native American men wearing glasses. Aplee. Br. 24. And like the white Cadillac, the outline of a possibly Native American man with glasses isn't specific and particularized enough to give Phillips reasonable suspicion that the Cadillac's driver was the Winslow robbery suspect. See Pettit , 785 F.3d at 1379-80 (requiring a particularized basis for suspecting an individual of criminal activity); cf. Jones , 998 F.2d at 884-85 (finding no reasonable suspicion for traffic stop based solely on make and color of car and presence of two black men in car). Most notably, the only aspects of the robbery-suspect descriptions that were at least somewhat particularized-the Bud Light hat and the blue checkered shirt-didn't feature anywhere in Phillips's description of what he saw through the heavily tinted window.\nThe government relies on United States v. Young , No. 92-2066, 1992 WL 401580 (10th Cir.1992) (unpublished), to argue that matching a general suspect description can be sufficient to support reasonable suspicion. In Young , we said that matching the \"general description of either the getaway car or the suspects is a sufficient basis for the existence of\" reasonable suspicion. 1992 WL 401580, at *1 (quoting United States v. Miller , 532 F.2d 1335, 1338 (10th Cir.1976) ). And we concluded that reasonable suspicion supported stopping the defendant because he matched the \"[g]eneral description\" of the suspect, who was described as \"a clean-shaven black male, medium build, approximately 5'9? to 5'11? with long, shoulder-length, black hair [that] was slicked back.\" Id. at *1-2.\nBut as is clear from this quoted language, the so-called \"general description\" at issue in Young was substantially more particularized than the \"general description\" in this case. Id. at *1 (quoting Miller , 532 F.2d at 1338 ). For instance, unlike the description in Young , the description here-a Native American man driving a white Cadillac-made no mention of the suspect's facial hair (or lack thereof), his height, his build, or the length, style, or color of his hair.\nAs such, we find little guidance in Young . General descriptions are relevant to the reasonable-suspicion inquiry. But they are insufficient, \"standing alone,\" to \"support a finding of reasonable suspicion.\" United States v. Clarkson , 551 F.3d 1196, 1202 (10th Cir.2009). And this case involves nothing but general descriptions: (1) a car the same make and color as one possibly involved in a robbery that occurred approximately 65 miles away; and (2) a potentially Native American man wearing glasses, which surely describes a large swath of the population of Arizona. Cf. Brignoni-Ponce , 422 U.S. at 886-87, 95 S.Ct. 2574 (noting that \"[t]he likelihood that any given person of Mexican ancestry is an alien is high enough to make Mexican appearance a relevant factor, but standing alone it does not justify stopping all Mexican-Americans to ask if they are aliens\").\nIn addition to these general descriptions, the government offers a third reason to find that Phillips reasonably suspected the Cadillac he stopped was the same Cadillac that was spotted in Flagstaff and (theoretically, at least) involved in the Winslow robbery: the timeline. Specifically, the government points out that \"[t]he distance[ ] and timeline[ ] between ... the Winslow bank robbery and [Phillips's] observation of the white Cadillac are consistent.\" Aplee. Br. 30. That is, the government contends that it would be possible for an individual to leave Winslow around the time of the robbery and arrive at the location where Phillips saw the Cadillac at or near the moment he saw it.\nBut at oral argument, the government acknowledged that the timeline is an estimate. Indeed, our calculations indicate that for the timeline to be completely consistent, an individual would need to infer that either (1) the timestamp for the Winslow robbery is incorrect or (2) the Cadillac traveled well over the speed limit-over 90 miles per hour-between Winslow and the traffic-stop location, but was never stopped for speeding.\nThe dissent argues we should allow for some \"play in the joints\" and accept that it's possible for an individual to drive between the relevant locations in the available timeframe. Dissent 3. But even if we do so, it wouldn't change our reasonable-suspicion analysis. That's because the theoretically consistent timeframe doesn't add any \"specific and articulable facts\" to Phillips's suspicion. Terry , 392 U.S. at 21, 88 S.Ct. 1868. For example, Phillips knew from the second dispatch report that the suspicious Cadillac left Flagstaff and drove east, toward Winslow. But he lacked any similar information about the car's direction of travel after it left Winslow. That is, Phillips had no particular reason to think that the Cadillac left Winslow and continued driving east on I-40, rather than heading off in some other direction.\nFurther, although neither the government nor the dissent acknowledges as much, this consistent-timeline theory has broad implications. Under it, law enforcement would have reasonable suspicion to stop any vehicle on any road, so long as two things are true: (1) the vehicle matches a general make-and-color description of a vehicle involved in criminal activity, and (2) it's theoretically possible for the vehicle to have been driven to the location where it's spotted by law enforcement in the time that's passed since the criminal activity took place. Reasonable suspicion might require only a \"minimal level of objective justification.\" Winder , 557 F.3d at 1134 (quoting Vercher , 358 F.3d at 1261 ). But it also requires \"specific and articulable facts.\" Terry , 392 U.S. at 21, 88 S.Ct. 1868. And there's simply nothing specific about this timeline.\nTo summarize, \"[a]n investigative detention will be countenanced only if the officers have a specific, articulable[,] and objective factual basis to believe that the person stopped is engaged in criminal activity.\" United States v. Davis , 94 F.3d 1465, 1469-70 (10th Cir.1996). Considering the totality of the circumstances in this case, the government fails to show any specific or particularized factual basis for suspecting that the occupants of the white Cadillac committed a crime. True, the consistencies in the clothing descriptions between the Flagstaff event and the Winslow robbery provide some basis to connect the Cadillac in Flagstaff with the robbery in Winslow. But those consistencies were entirely irrelevant to Phillips's ultimate decision to stop the Cadillac because Phillips didn't see the driver or passenger wearing the described clothing items.\nAnd as we've explained, Phillips had no other particularized basis to believe that the Cadillac he passed on I-40 was the same Cadillac reported as suspicious in Flagstaff and possibly involved in the robbery in Winslow. A white Cadillac on an interstate highway isn't specific; nor is a driver with Native American \"facial features\"-especially in Arizona. R. vol. 2, 24; see also Jones , 998 F.2d at 885 (concluding that in absence of \"strong showing, on the record and based on objective statistics, that the sight of two African-Americans in a black Mercedes was a highly unusual event, we\" couldn't \"sanction the officers' claim that this flimsy evidence provided them with a reasonable suspicion\"). Additionally, although the timeline connecting the Flagstaff Cadillac to the Cadillac that Phillips pulled over isn't impossible, the imprecision of that timeline negates any particularity or specificity it might otherwise provide. As such, we conclude that Phillips had nothing more than an \"unparticularized suspicion or hunch\" about the white Cadillac. Moore , 795 F.3d at 1229 (quoting Sokolow , 490 U.S. at 7, 109 S.Ct. 1581 ). He therefore lacked reasonable suspicion to detain Martinez, and the district court erred in concluding otherwise.\nConclusion\nFor the reasons explained above, we reverse the district court's order denying Martinez's motion to suppress and remand for further proceedings.\nI agree with the district court that Trooper Phillips had reasonable suspicion to justify the traffic stop, so I would affirm.\nFor me, the analysis is straightforward-credit the facts found by the district court and testified to by the trooper, give the government the benefit of the rational inferences from those facts, consider the totality of that information, and decide whether it meets the minimal showing necessary to provide reasonable suspicion under the Fourth Amendment.\nHere, the trooper had learned much information before he stopped the Cadillac. From reports on his patrol radio, he knew (1) that on October 30, 2015, sometime around 11 a.m., a person called the Flagstaff police to report suspicions about a white Cadillac near a Wells Fargo Bank; (2) that the caller described the Cadillac's driver as a Native American male in a Bud Light hat and a light-blue-checkered hoodie; and (3) that the caller said the white Cadillac had left the bank area and was headed east. The trooper also knew (4) that sometime before 11:41 a.m., the Winslow Wells Fargo bank was robbed; (5) that soon after the robbery a man in a Bud Light hat and a second man in a white-and-blue-checkered shirt were seen running down an alley away from the bank; and (6) that someone in Flagstaff or in Winslow had described the man in the Bud Light hat as a Native American male wearing glasses.\nAt about 12:13 p.m., having heard all this, the trooper grew concerned about the next Wells Fargo bank in line, one in Holbrook (east of Winslow on Interstate 40). So at milepost 330 the trooper headed west toward Holbrook. At milepost 319 (about nine minutes later if traveling 75 m.p.h.), the trooper passed a white Cadillac coming east on Interstate 40. The trooper circled back, taking about two minutes to catch up with the Cadillac. He then called in the Cadillac's New Mexico license-plate number before pulling his patrol car alongside the Cadillac to try to see its occupants. Through the Cadillac's heavily tinted window, the trooper saw an outline of the driver, who appeared to him to be a Native American man wearing glasses. Then the trooper returned to his position behind the Cadillac, awaiting his requested backup. But the Cadillac soon signaled right and exited the highway before the trooper's backup arrived. Concerned about losing the white Cadillac on dirt roads and about safety risks to bystanders (the Navajo Travel Center was nearby), the trooper stopped the Cadillac soon after it exited.\nThe majority recognizes that the reasonable-suspicion inquiry considers the totality of circumstances, maj. op. at 1313 (quoting United States v. Moore , 795 F.3d 1224, 1229 (10th Cir.2015) ); that investigative stops are justified at their inception if the officer has \"a particularized and objective basis for suspecting an individual may be involved in criminal activity,\" id. (quoting United States v. Pettit , 785 F.3d 1374, 1379-80 (10th Cir.2015) ); and that \"an officer 'need not rule out the possibility of innocent conduct'; he or she must simply possess 'some minimal level of objective justification' for making the stop,\" id. (quoting United States v. Winder , 557 F.3d 1129, 1134 (10th Cir.2009) ). But having identified the controlling legal principles, the majority requires far more than reasonable suspicion.\nIn my view, the trooper had reasonable suspicion to justify the traffic stop. For starters, the similar clothing descriptions from Flagstaff and Winslow provided at least a \"minimal level of objective justification\" to believe that the man observed in Flagstaff had robbed the Winslow bank. Winder , 557 F.3d at 1134 (quoting United States v. Vercher , 358 F.3d 1257, 1261 (10th Cir.2004) ). The majority agrees. Maj. op. at 1313 (\"[T]he first inference (connecting the Cadillac to the [Winslow] robbery was reasonable.\") ).\nFrom this, I gather that the majority necessarily agrees that the trooper could reasonably infer that Martinez did travel from Flagstaff to Winslow in time to rob the bank there. I agree. This view sensibly acknowledges that we should not lock tight on an 11 a.m. departure from Flagstaff. Instead, we should allow some play in the joints. A trooper could reasonably interpret the radio report to mean that the Flagstaff call had been made at 11 a.m. and described earlier events. And we shouldn't expect the trooper, focused on his job tasks, to calculate in his head the white Cadillac's possible distances traveled with varying departure times and speeds. Even if the 11 a.m. departure time had a firmer basis, the trooper could still question its accuracy in view of the similar clothing worn at the two locations. Reported times can be ambiguous or wrong. This case shows how. The record doesn't disclose whether officers found evidence of the Winslow bank robbery in the white Cadillac-perhaps because this prosecution is for a Utah bank robbery. But we do know that Martinez was charged with that bank robbery. I raise this not as support for the trooper's reasonable suspicion, but instead to show the need to give eyewitness time reports a margin of error.\nBecause the trooper had reasonable suspicion that the man seen in Flagstaff wearing a Bud Light hat had robbed the Winslow bank, the trooper also could reasonably believe that the bank robbers would be riding in a white Cadillac. The Winslow bank robbers would have had no time to go car shopping along the way. After all, the robbers hit the Winslow bank sometime before 11:41 a.m., and at about 12:22 p.m., the trooper saw the approaching white Cadillac at milepost 319, which is about 65 miles east of Winslow. The trooper knew that this white Cadillac was in the right place at the right time to be carrying fleeing bank robbers. And because the trooper had reasonable suspicion that the bank robbers were in the white Cadillac, he also had reasonable suspicion to stop that car.\nHere, the trooper had \"a particularized and objective basis for suspecting the particular person stopped of criminal activity.\" Navarette v. California , 572 U.S. 393, 396, 134 S.Ct. 1683, 188 L.Ed.2d 680 (2014) (quoting United States v. Cortez , 449 U.S. 411, 417-18, 101 S.Ct. 690, 66 L.Ed.2d 621 (1981) ). Otherwise stated, the trooper was able to \"articulate something more than an 'inchoate and unparticularized suspicion or \"hunch.\" ' \" United States v. Sokolow , 490 U.S. 1, 7, 109 S.Ct. 1581, 104 L.Ed.2d 1 (1989) (quoting Terry , 392 U.S. at 27, 88 S.Ct. 1868 ). His stop satisfied the Fourth Amendment, because the trooper provided at least \" 'some minimal level of objective justification' for making the stop.\" Id. (quoting INS v. Delgado , 466 U.S. 210, 217, 104 S.Ct. 1758, 80 L.Ed.2d 247 (1984) ). The required level of suspicion is considerably less than a preponderance of the evidence or probable cause. Id. (quoting Illinois v. Gates , 462 U.S. 213, 238, 103 S.Ct. 2317, 76 L.Ed.2d 527 (1983) ; and citing United States v. Montoya de Hernandez , 473 U.S. 531, 541, 544, 105 S.Ct. 3304, 87 L.Ed.2d 381 (1985) ). Because I think what the trooper knew would have established by a preponderance that he had indeed found the bank robbers, I have no trouble agreeing with the district court that the trooper had reasonable suspicion for the stop.\nThe dissent points out that we don't know whether the Cadillac contained evidence of the Winslow robbery; we only know for sure that it contained evidence of the Utah robbery. And it also points out that the government eventually charged Martinez for the Winslow robbery. We fail to see how either of these points is relevant to the issue on appeal, which is whether Phillips had reasonable suspicion for this traffic stop. See United States v. Shrum , 908 F.3d 1219, 1232-33 (10th Cir.2018) (\"[A] Fourth Amendment seizure unlawful at its inception 'does not change character from its success.' \" (quoting United States v. Di Re , 332 U.S. 581, 595, 68 S.Ct. 222, 92 L.Ed. 210 (1948) ) ); United States v. Smith , 799 F.2d 704, 708 (11th Cir.1986) (\"That [the officer's] 'hunch' about the appellants proved correct is perhaps a tribute to his policeman's intuition, but it is not sufficient to justify, ex post facto , a seizure that was not objectively reasonable at its inception.\").\nThe record contains no information about the source or reliability of this information. In the absence of such information, we assume the tip was anonymous. See Navarette v. California , 572 U.S. 393, 396 n.1, 134 S.Ct. 1683, 188 L.Ed.2d 680 (2014) (assuming that 911 call was anonymous because government introduced no evidence to suggest otherwise). And we note that we typically place little weight on uncorroborated anonymous tips. See United States v. Copening , 506 F.3d 1241, 1247 (10th Cir.2007) (explaining that we \"[e]xercis[e] ... significant 'skepticism and careful scrutiny' \" when reviewing whether anonymous tip supports reasonable suspicion (quoting Easton v. City of Boulder , 776 F.2d 1441, 1449 (10th Cir.1985) ) ).\nPhillips didn't specify what it was about the outline of the driver's \"facial features\" that made the driver appear Native American. R. vol. 2, 24.\nUpon smelling marijuana, the trooper had authority to search the car and to arrest its occupants. So our case involves the first Terry prong-was the stop justified at its inception?-but not the second-was the scope and manner of the stop justified? United States v. Sanchez , 519 F.3d 1208, 1212-13 (10th Cir.2008) ; see also Terry v. Ohio , 392 U.S. 1, 19-20, 88 S.Ct. 1868, 20 L.Ed.2d 889 (1968).\nHere, the trooper misjudged the mileage between Flagstaff and Winslow, saying it would take about an hour to travel between the two locations at 75 miles per hour. The trooper's assigned segment of Interstate 40 didn't include the Flagstaff to Winslow piece, but instead covered the stretch from Holbrook east to the New Mexico state line. In fact, according to a map of the interstate, Flagstaff is about 60 miles from Winslow. Driving Directions from Winslow to Flagstaff, Ariz., Google Maps, https://goo.gl/maps/jmuKS3AQrHC2; see also Rand McNally, The Road Atlas '06 8. Even on appeal, we can take judicial notice of that fact. See United States v. Burch , 169 F.3d 666, 671-72 (10th Cir.1999) (\"Whether an offense occurred within particular geographical boundaries is an appropriate subject for judicial notice.\"); see also Fed. R. Evid. 201(b)(2) (permitting judicial notice of an indisputable fact that \"can be accurately and readily determined from sources whose accuracy cannot reasonably be questioned\").\nAt oral argument, counsel for Martinez contended that the white Cadillac in Flagstaff would have had to travel 150 miles per hour to be in Winslow when the bank was robbed. Oral Argument at 6:40 to 7:26. This led a panelist to ask whether Martinez in fact did rob the Winslow bank. Martinez's counsel candidly stated that Martinez was later charged for the Winslow bank robbery, partly based on surveillance video from the bank. Id. at 7:26 to 8:58.\nThe majority suggests that I'm mentioning the Arizona bank-robbery charge to support reasonable suspicion in this case, see maj. op. at 1312 n.1, but I am not. Instead, I mention the Arizona charge to illustrate the danger of inaccuracies if we treat time estimates as conclusive.\nOn cross-examination at the suppression hearing, defense counsel asked the trooper whether \"the Winslow bank robbery was called in, what, 11:26 or so?\" R. vol. 2 at 42:15-16. The trooper responded that he didn't know when the Winslow police department had been notified of the bank robbery, just that its dispatch had reached out to his dispatch at 11:41 a.m.\nI disagree with the majority that affirming here would authorize law enforcement \"to stop any vehicle on any road\" if the vehicle's make and color matches a description of a vehicle involved in a crime and if it's \"theoretically possible\" for the vehicle to have completed the crime and have reached the spot where stopped. Maj. op. at 1317. Quite simply, that position ignores the importance of the timing of key events in this case. Lining up the elapsed time between the Winslow bank robbery and the traffic stop and the distance traveled between those two points, the white Cadillac was just where it would be if carrying the fleeing bank robbers. This is not a case in which a trooper stopped a white Cadillac hours or days later. And, perhaps unlike the majority, I think the trooper could reasonably suspect that the bank robbers would flee in their same known direction of travel-easterly. See id. at 13-14.",
+        "type": "majority",
+        "author": "MORITZ, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "J. Edward Jones, Heber City, Utah, for Defendant-Appellant.",
+      "Felice John Viti, Assistant United States Attorney (John W. Huber, United States Attorney, with him on the brief), Salt Lake City, Utah, for Plaintiff-Appellee."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff - Appellee,\nv.\nDeon Raymond MARTINEZ, Defendant - Appellant.\nNo. 17-4131\nUnited States Court of Appeals, Tenth Circuit.\nFILED December 18, 2018\nJ. Edward Jones, Heber City, Utah, for Defendant-Appellant.\nFelice John Viti, Assistant United States Attorney (John W. Huber, United States Attorney, with him on the brief), Salt Lake City, Utah, for Plaintiff-Appellee.\nBefore PHILLIPS, EBEL, and MORITZ, Circuit Judges."
+  },
+  "file_name": "1309-01",
+  "first_page_order": 1309,
+  "last_page_order": 1320
+}

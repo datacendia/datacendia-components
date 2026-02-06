@@ -1,0 +1,59 @@
+{
+  "id": 5902081,
+  "name": "Naves v. Turley, Warden",
+  "name_abbreviation": "Naves v. Turley",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11537",
+  "first_page": "886",
+  "last_page": "886",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 886"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.607,
+    "sha256": "ec92cc44e7646448201aa0af70a1c98331ced0a45101e077e40d25172951b78a",
+    "simhash": "1:959c4f8293a3f276",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Naves v. Turley, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11537.\nNaves v. Turley, Warden."
+  },
+  "file_name": "0886-11",
+  "first_page_order": 908,
+  "last_page_order": 908
+}

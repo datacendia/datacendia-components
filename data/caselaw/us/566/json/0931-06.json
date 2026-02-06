@@ -1,0 +1,59 @@
+{
+  "id": 12202926,
+  "name": "In re Discipline of McAllister",
+  "name_abbreviation": "In re Discipline of McAllister",
+  "decision_date": "2012-04-16",
+  "docket_number": "No. D-2635",
+  "first_page": "931",
+  "last_page": "931",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 931"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 39,
+    "char_count": 286,
+    "ocr_confidence": 0.588,
+    "sha256": "5434f8d20ea24be032ff9eb759e295e951d4068705927df117626461ce8904a9",
+    "simhash": "1:6e8a21363fcaa76e",
+    "word_count": 51
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of McAllister."
+    ],
+    "opinions": [
+      {
+        "text": "Robert T. McAllister, of Denver, Colo., is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2635.\nIn re Discipline of McAllister."
+  },
+  "file_name": "0931-06",
+  "first_page_order": 807,
+  "last_page_order": 807
+}

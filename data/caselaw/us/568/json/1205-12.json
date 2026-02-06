@@ -1,0 +1,59 @@
+{
+  "id": 12432407,
+  "name": "Nelson et al. v. City of Rochester, New York",
+  "name_abbreviation": "Nelson v. City of Rochester",
+  "decision_date": "2013-02-25",
+  "docket_number": "No. 12-646",
+  "first_page": "1205",
+  "last_page": "1205",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1205"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 42,
+    "char_count": 289,
+    "ocr_confidence": 0.611,
+    "sha256": "52c25b3c86041289ccf31b4e2ac4ff38bf94a72f146e17d0ce16221995111d67",
+    "simhash": "1:5d65d9fc43f8f029",
+    "word_count": 50
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Nelson et al. v. City of Rochester, New York."
+    ],
+    "opinions": [
+      {
+        "text": "App. Div., Sup. Ct. N. Y., 4th Jud. Dept. Motions of New York State Coalition of Property Owners and Businesses, Cato Institute et al., and Institute for Justice for leave to file briefs as amici curiae granted. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-646.\nNelson et al. v. City of Rochester, New York."
+  },
+  "file_name": "1205-12",
+  "first_page_order": 1281,
+  "last_page_order": 1281
+}

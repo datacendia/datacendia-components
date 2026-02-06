@@ -1,0 +1,86 @@
+{
+  "id": 12419900,
+  "name": "Levin v. United States et al.",
+  "name_abbreviation": "Levin v. United States",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 11-1351",
+  "first_page": "976",
+  "last_page": "976",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 976"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "567 U. S. 968",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12413251,
+        12413255,
+        12413259,
+        12413260,
+        12413265,
+        12413239,
+        12413241,
+        12413247
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/567/0968-04",
+        "/us/567/0968-05",
+        "/us/567/0968-06",
+        "/us/567/0968-07",
+        "/us/567/0968-08",
+        "/us/567/0968-01",
+        "/us/567/0968-02",
+        "/us/567/0968-03"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 33,
+    "char_count": 214,
+    "ocr_confidence": 0.617,
+    "sha256": "2b752ef58aa255023ec60546046dfb95d79203643a7fd51b108c928e8cc0a8c1",
+    "simhash": "1:880344c36db354ba",
+    "word_count": 35
+  },
+  "last_updated": "2024-02-27T23:44:49.194693+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Levin v. United States et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. [Certiorari granted, 567 U. S. 968.] Motion of the Court-appointed amicus curiae in support of petitioner to dispense with printing joint appendix granted.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1351.\nLevin v. United States et al."
+  },
+  "file_name": "0976-01",
+  "first_page_order": 1052,
+  "last_page_order": 1052
+}

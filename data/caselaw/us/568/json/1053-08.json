@@ -1,0 +1,59 @@
+{
+  "id": 12426954,
+  "name": "Santiago v. Anderson et al.",
+  "name_abbreviation": "Santiago v. Anderson",
+  "decision_date": "2012-12-03",
+  "docket_number": "No. 12-6808",
+  "first_page": "1053",
+  "last_page": "1053",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1053"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 75,
+    "ocr_confidence": 0.595,
+    "sha256": "d5011a0ec91a5b5417c987821fa899f66e757f4bae8d0417f873e7006e637ef8",
+    "simhash": "1:904b04a902459020",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Santiago v. Anderson et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6808.\nSantiago v. Anderson et al."
+  },
+  "file_name": "1053-08",
+  "first_page_order": 1129,
+  "last_page_order": 1129
+}

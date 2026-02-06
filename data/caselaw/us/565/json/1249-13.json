@@ -1,0 +1,59 @@
+{
+  "id": 12250535,
+  "name": "Lyons v. Brandly et al.",
+  "name_abbreviation": "Lyons v. Brandly",
+  "decision_date": "2012-03-05",
+  "docket_number": "No. 11-8243",
+  "first_page": "1249",
+  "last_page": "1249",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1249"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 72,
+    "ocr_confidence": 0.54,
+    "sha256": "23c0992dff3eabeca2682c7507d3b16799be3a677424069d0d9d3d2e7ce80e98",
+    "simhash": "1:e2c938a8db5c9918",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lyons v. Brandly et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8243.\nLyons v. Brandly et al."
+  },
+  "file_name": "1249-13",
+  "first_page_order": 1331,
+  "last_page_order": 1331
+}

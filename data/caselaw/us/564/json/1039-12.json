@@ -1,0 +1,59 @@
+{
+  "id": 5920907,
+  "name": "Dearborn v. Wisconsin",
+  "name_abbreviation": "Dearborn v. Wisconsin",
+  "decision_date": "2011-06-27",
+  "docket_number": "No. 10-7057",
+  "first_page": "1039",
+  "last_page": "1039",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1039"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 69,
+    "ocr_confidence": 0.646,
+    "sha256": "9b08e756e31ffde5675599aab917e254fd2f6e58c6fdf4ec0debfcf318e037cd",
+    "simhash": "1:8a0ed83a0c175885",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dearborn v. Wisconsin."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Wis. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7057.\nDearborn v. Wisconsin."
+  },
+  "file_name": "1039-12",
+  "first_page_order": 1033,
+  "last_page_order": 1033
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12204740,
+  "name": "Hodges v. Florida",
+  "name_abbreviation": "Hodges v. Florida",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10722",
+  "first_page": "846",
+  "last_page": "846",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 846"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 66,
+    "ocr_confidence": 0.649,
+    "sha256": "26ffa600e1b4f00bd554d955cf1c629a36ea17ffc06e981a97990f71bf9c55f1",
+    "simhash": "1:225bd246756ad23f",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hodges v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Fla. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10722.\nHodges v. Florida."
+  },
+  "file_name": "0846-06",
+  "first_page_order": 928,
+  "last_page_order": 928
+}

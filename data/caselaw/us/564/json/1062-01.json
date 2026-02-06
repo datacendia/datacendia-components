@@ -1,0 +1,59 @@
+{
+  "id": 4334269,
+  "name": "Zangara v. Somerset Medical Center",
+  "name_abbreviation": "Zangara v. Somerset Medical Center",
+  "decision_date": "2011-09-02",
+  "docket_number": "No. 11A85",
+  "first_page": "1062",
+  "last_page": "1062",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1062"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 19,
+    "char_count": 135,
+    "ocr_confidence": 0.542,
+    "sha256": "ec2365e8f2572ebf0c03c9326b447c7e7a9e381954b3cdc7681f07d27d0cc6d5",
+    "simhash": "1:2f8eae8ba1d228b1",
+    "word_count": 21
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Zangara v. Somerset Medical Center."
+    ],
+    "opinions": [
+      {
+        "text": "Application for stay, addressed to The Chief Justice and referred to the Court, denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11A85.\nZangara v. Somerset Medical Center."
+  },
+  "file_name": "1062-01",
+  "first_page_order": 1056,
+  "last_page_order": 1056
+}

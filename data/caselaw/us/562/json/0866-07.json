@@ -1,0 +1,59 @@
+{
+  "id": 6029577,
+  "name": "Tucker v. United States",
+  "name_abbreviation": "Tucker v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11187",
+  "first_page": "866",
+  "last_page": "866",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 866"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.628,
+    "sha256": "728e67f8a07c178f63e01094675fa459f3cf96a5132d8939466deb46856218f4",
+    "simhash": "1:d79cd7a36725db3c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Tucker v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11187.\nTucker v. United States."
+  },
+  "file_name": "0866-07",
+  "first_page_order": 888,
+  "last_page_order": 888
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5899935,
+  "name": "McKoy v. United States",
+  "name_abbreviation": "McKoy v. United States",
+  "decision_date": "2011-03-07",
+  "docket_number": "No. 10-8858",
+  "first_page": "1279",
+  "last_page": "1279",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1279"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.635,
+    "sha256": "0a9383fb591576edc8a5036ffaa166d8b2fa7e402076b4e2b58d053e50eee652",
+    "simhash": "1:a59af7bb2fad14eb",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McKoy v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8858.\nMcKoy v. United States."
+  },
+  "file_name": "1279-02",
+  "first_page_order": 1301,
+  "last_page_order": 1301
+}

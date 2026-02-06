@@ -1,0 +1,88 @@
+{
+  "id": 12657699,
+  "name": "Reggie OLIPHANT, Movant-Appellant, v. STATE of Missouri, Respondent-Respondent.",
+  "name_abbreviation": "Oliphant v. State",
+  "decision_date": "2018-10-15",
+  "docket_number": "No. SD 35397",
+  "first_page": "541",
+  "last_page": "541",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "557 S.W.3d 541"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Mo. App. Ct.",
+    "id": 30103,
+    "name": "Missouri Court of Appeals, Southern District, Division Two"
+  },
+  "jurisdiction": {
+    "id": 37,
+    "name_long": "Missouri",
+    "name": "Mo."
+  },
+  "cites_to": [
+    {
+      "cite": "458 S.W.3d 822",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6876396
+      ],
+      "weight": 3,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "825"
+        },
+        {
+          "page": "826"
+        },
+        {
+          "page": "825"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/458/0822-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 149,
+    "char_count": 1881,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.264862546040329
+    },
+    "sha256": "13ab40b3f75dc62fe09247ce7893ba33619351513dceff388b8764c96ac7d43a",
+    "simhash": "1:196208764a57fdd9",
+    "word_count": 276
+  },
+  "last_updated": "2024-02-27T16:14:09.227334+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Reggie OLIPHANT, Movant-Appellant,\nv.\nSTATE of Missouri, Respondent-Respondent."
+    ],
+    "opinions": [
+      {
+        "text": "WILLIAM W. FRANCIS, JR., P.J.\nReggie Oliphant (\"Oliphant\"), appeals from the judgment of the motion court denying his Rule 24.035 motion to set aside his convictions for two counts of distribution, delivery, manufacture, or production of a controlled substance; and one count of keeping or maintaining a public nuisance. Because the record is insufficient to demonstrate that the motion court conducted the required Moore abandonment inquiry following appointed counsel's untimely amended motion, we reverse and remand.\nMotion Court Failed to Conduct Moore Abandonment Inquiry\nThe record reflects (and both parties agree) that appointed counsel filed an untimely amended motion. An untimely amended motion raises the presumption of abandonment, which the motion court must resolve after inquiry. Moore v. State , 458 S.W.3d 822, 825 (Mo. banc 2015). \"The result of the inquiry into abandonment determines which motion-the initial motion or the amended motion-the court should adjudicate.\" Id. at 826.\nAs the State correctly indicates, \"there is an insufficient record to establish that the motion court made an inquiry in to whether [Oliphant] was abandoned[.]\"\nWe reverse and remand with directions that the motion court conduct a Moore abandonment inquiry, and for such further proceedings as appropriate pursuant to Rule 24.035.\nDANIEL E. SCOTT, J. - CONCURS\nMARY W. SHEFFIELD, J. - CONCURS\nAll rule references are to Missouri Court Rules (2018).\nMoore v. State , 458 S.W.3d 822, 825 (Mo. banc 2015).",
+        "type": "majority",
+        "author": "WILLIAM W. FRANCIS, JR., P.J."
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "Reggie OLIPHANT, Movant-Appellant,\nv.\nSTATE of Missouri, Respondent-Respondent.\nNo. SD 35397\nMissouri Court of Appeals, Southern District, Division Two.\nFiled: October 15, 2018\nAppellant's Attorney: Casey A. Taylor, of Columbia, Missouri.\nRespondent's Attorneys: Joshua Hawley, Attorney General, and Julia E. Neidhardt, Assistant Attorney General, of Jefferson City, Missouri."
+  },
+  "file_name": "0541-01",
+  "first_page_order": 541,
+  "last_page_order": 541
+}

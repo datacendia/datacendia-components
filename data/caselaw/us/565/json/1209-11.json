@@ -1,0 +1,59 @@
+{
+  "id": 12246812,
+  "name": "Southward v. Warren, Warden",
+  "name_abbreviation": "Southward v. Warren",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-7754",
+  "first_page": "1209",
+  "last_page": "1209",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1209"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.614,
+    "sha256": "235576e2989d0a058740231540dfbd063bff6e4dd0d49e0fd638d1ff2cffe8f4",
+    "simhash": "1:a3c112e33f5f1564",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Southward v. Warren, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7754.\nSouthward v. Warren, Warden."
+  },
+  "file_name": "1209-11",
+  "first_page_order": 1291,
+  "last_page_order": 1291
+}

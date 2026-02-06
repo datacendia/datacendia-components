@@ -1,0 +1,59 @@
+{
+  "id": 5938080,
+  "name": "Sandstrom v. United States",
+  "name_abbreviation": "Sandstrom v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11458",
+  "first_page": "881",
+  "last_page": "881",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 881"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.659,
+    "sha256": "7cc884c947da1cc17216eb1be60d10ff7bccfd7f0a3a22a3014f6e3ba2117c61",
+    "simhash": "1:859a6657cebd1843",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sandstrom v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11458.\nSandstrom v. United States."
+  },
+  "file_name": "0881-16",
+  "first_page_order": 903,
+  "last_page_order": 903
+}

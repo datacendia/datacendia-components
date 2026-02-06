@@ -1,0 +1,59 @@
+{
+  "id": 12222516,
+  "name": "Champion v. United States",
+  "name_abbreviation": "Champion v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5586",
+  "first_page": "915",
+  "last_page": "915",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 915"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.7,
+    "sha256": "45eeece60269459b4ee018b4e371b136e460a2dfc4b9e4d9fa2f7a64f6ff187d",
+    "simhash": "1:2619e6642a7b1717",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Champion v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. D. C. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5586.\nChampion v. United States."
+  },
+  "file_name": "0915-07",
+  "first_page_order": 997,
+  "last_page_order": 997
+}

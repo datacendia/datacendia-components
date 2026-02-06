@@ -1,0 +1,490 @@
+{
+  "id": 12521068,
+  "name": "Johnny WEBBER and Debora Webber, Plaintiffs-Appellants, v. Roger BUTNER, Defendant-Appellee.",
+  "name_abbreviation": "Webber v. Butner",
+  "decision_date": "2019-05-03",
+  "docket_number": "No. 18-2866",
+  "first_page": "479",
+  "last_page": "485",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "923 F.3d 479"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "7th Cir.",
+    "id": 9010,
+    "name": "United States Court of Appeals for the Seventh Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "55 N.E.3d 325",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.3d",
+      "case_ids": [
+        6781141
+      ],
+      "weight": 4,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "329-32"
+        },
+        {
+          "page": "337"
+        },
+        {
+          "page": "337"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ne3d/55/0325-01"
+      ]
+    },
+    {
+      "cite": "659 N.E.2d 498",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "case_ids": [
+        10921174
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "504",
+          "parenthetical": "assumption of risk \"is subsumed by the concept of fault in [Indiana's] comparative fault scheme.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ne2d/659/0498-01"
+      ]
+    },
+    {
+      "cite": "768 F.Supp. 183",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        11328613
+      ],
+      "weight": 3,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "188"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/768/0183-01"
+      ]
+    },
+    {
+      "cite": "427 N.E.2d 444",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "case_ids": [
+        11057534
+      ],
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "448"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ne2d/427/0444-01"
+      ]
+    },
+    {
+      "cite": "762 N.E.2d 104",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "case_ids": [
+        9399104
+      ],
+      "weight": 3,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "109"
+        },
+        {
+          "page": "107-10"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ne2d/762/0104-01"
+      ]
+    },
+    {
+      "cite": "Ind. Code \u00a7 34-51-2-3",
+      "category": "laws:leg_statute",
+      "reporter": "Ind. Code",
+      "opinion_index": 0
+    },
+    {
+      "cite": "824 N.E.2d 671",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "case_ids": [
+        8975968,
+        8975927
+      ],
+      "weight": 4,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "674"
+        },
+        {
+          "page": "674-75"
+        },
+        {
+          "page": "675"
+        },
+        {
+          "page": "675",
+          "parenthetical": "alteration in original"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ne2d/824/0671-02",
+        "/ne2d/824/0671-01"
+      ]
+    },
+    {
+      "cite": "Ind. Code \u00a7 34-6-2-45",
+      "category": "laws:leg_statute",
+      "reporter": "Ind. Code",
+      "opinion_index": 0
+    },
+    {
+      "cite": "546 N.E.2d 1188",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "case_ids": [
+        10951810
+      ],
+      "year": 1989,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ne2d/546/1188-01"
+      ]
+    },
+    {
+      "cite": "578 N.E.2d 669",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "case_ids": [
+        10982659
+      ],
+      "year": 1991,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ne2d/578/0669-01"
+      ]
+    },
+    {
+      "cite": "728 N.E.2d 140",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "case_ids": [
+        11511482
+      ],
+      "weight": 3,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "142"
+        },
+        {
+          "page": "142"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ne2d/728/0140-01"
+      ]
+    },
+    {
+      "cite": "926 N.E.2d 43",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "case_ids": [
+        7185838
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "48"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ne2d/926/0043-01"
+      ]
+    },
+    {
+      "cite": "977 N.E.2d 341",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "case_ids": [
+        7108953
+      ],
+      "weight": 2,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "344"
+        },
+        {
+          "page": "344"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ne2d/977/0341-01"
+      ]
+    },
+    {
+      "cite": "285 F.3d 630",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9446224
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "635"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/285/0630-01"
+      ]
+    },
+    {
+      "cite": "965 F.2d 195",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10521044
+      ],
+      "weight": 2,
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "198-200",
+          "parenthetical": "discussing considerations to determine whether state rule is procedural rule of evidence or substantive rule to be used under the Erie Railroad doctrine in a federal court hearing a case under diversity jurisdiction"
+        },
+        {
+          "page": "199",
+          "parenthetical": "\"Wearing a seatbelt does not make it less likely that you will have an accident.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/965/0195-01"
+      ]
+    },
+    {
+      "cite": "632 F.3d 971",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4088568
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "976"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/632/0971-01"
+      ]
+    },
+    {
+      "cite": "796 F.3d 656",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5770007
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "662"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/796/0656-01"
+      ]
+    },
+    {
+      "cite": "496 U.S. 384",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12123482
+      ],
+      "weight": 3,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "402"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/496/0384-01"
+      ]
+    },
+    {
+      "cite": "635 F.3d 870",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4029451
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "874"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/635/0870-01"
+      ]
+    },
+    {
+      "cite": "942 N.E.2d 791",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "case_ids": [
+        7174117
+      ],
+      "weight": 5,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "795-96"
+        },
+        {
+          "page": "795",
+          "parenthetical": "\"the legislature employed expansive language to describe the breadth of causative conduct that may be considered in determining and allocating fault\""
+        },
+        {
+          "page": "795"
+        },
+        {
+          "page": "796"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ne2d/942/0791-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1332",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "832 N.E.2d 537",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "case_ids": [
+        8923863
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "542",
+          "parenthetical": "\"The Indiana statute is a type of modified fifty percent comparative fault law. ... Thus, if a claimant is deemed to be more than fifty percent at fault, then the claimant is barred from recovery.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ne2d/832/0537-01"
+      ]
+    },
+    {
+      "cite": "Ind. Code \u00a7\u00a7 34-51-2-7",
+      "category": "laws:leg_statute",
+      "reporter": "Ind. Code",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(b)(2)"
+        },
+        {
+          "page": "(b)(1)"
+        },
+        {
+          "page": "(b)(1)",
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 911,
+    "char_count": 20070,
+    "pagerank": {
+      "raw": 4.5330875625009783e-08,
+      "percentile": 0.28449303414986743
+    },
+    "sha256": "5adea61f9ae15d89184550a42aa8a37ce296beab45ce362204e3842fb94c6056",
+    "simhash": "1:fbf79c571db41ad6",
+    "word_count": 3284
+  },
+  "last_updated": "2024-02-27T18:46:40.961150+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Bauer, Rovner, and Hamilton, Circuit Judges."
+    ],
+    "parties": [
+      "Johnny WEBBER and Debora Webber, Plaintiffs-Appellants,\nv.\nRoger BUTNER, Defendant-Appellee."
+    ],
+    "opinions": [
+      {
+        "text": "Hamilton, Circuit Judge.\nPlaintiff Johnny Webber was cutting down a tree on defendant Roger Butner's property when a branch fell and hit Webber on the head, causing severe injuries. Webber and his wife Debora sued Butner for negligence. Webber was not wearing a hardhat when he was cutting the tree. The only issue on appeal is whether the district court erred by admitting evidence at trial that Webber was not using a hardhat and instructing the jury about considering that evidence.\nThe district court ruled that the evidence that Webber was not using a hardhat could not be admitted to support a defense of failure to mitigate damages. The court held, however, that the evidence could be admitted to show Webber's assumption of risk and comparative fault, and whether Webber acted as a reasonably careful person. This ruling was reflected in an instruction to the jury. The jury returned a verdict apportioning 51% of fault to plaintiff Webber and 49% to defendant Butner. Under Indiana's modified comparative fault statute, that meant Webber recovered nothing. See Ind. Code \u00a7\u00a7 34-51-2-7(b)(2) & 34-51-2-6 ; Hockema v. J.S. , 832 N.E.2d 537, 542 (Ind. App. 2005) (\"The Indiana statute is a type of modified fifty percent comparative fault law. ... Thus, if a claimant is deemed to be more than fifty percent at fault, then the claimant is barred from recovery.\").\nThis case is in federal court under diversity jurisdiction, see 28 U.S.C. \u00a7 1332, so we apply Indiana substantive tort law, which governs whether this evidence was relevant. In determining fault, Indiana law bars admission of evidence that an injured plaintiff was not using safety equipment unless the failure to use the equipment contributed to causing the injury. See Ind. Code \u00a7\u00a7 34-51-2-7(b)(1) & 34-51-2-3 ; Green v. Ford Motor Co. , 942 N.E.2d 791, 795-96 (Ind. 2011). The fact that Webber was not wearing a hardhat did not cause the branch to fall and hit him on the head. The district court nevertheless admitted this evidence for the purpose of apportioning fault. The admission of this evidence was an error, as was the instruction about considering the evidence. We cannot say these errors were harmless because the jury decided on a razor-thin split when apportioning fault. The Webbers are entitled to a new trial.\nI. Factual & Procedural Background\nOn April 18, 2014, Johnny Webber was helping his friend Roger Butner cut down trees on Butner's property in southeastern Indiana. Webber was not a professional logger, and he was not wearing a hardhat while cutting down the trees. According to plaintiffs' evidence, the pair agreed that Webber would operate the chainsaw while Butner would assist by watching out for hazards. Unfortunately, while Webber and Butner were cutting one of the trees, an apparently dead branch fell on Webber's head, causing severe and nearly fatal injuries.\nThe Webbers filed this suit in state court. (Mrs. Webber's claim is derivative from her husband's and requires no separate consideration here.) They alleged that Butner, as owner of the property, had a duty to take reasonable steps to protect Webber's safety. They also alleged that Butner took on a specific duty to Webber when he agreed to look out for hazards and failed to warn Butner of the falling branch. Webber claims that his injuries were a proximate result of Butner's breaches of duties.\nButner removed the case to federal court, and the case was tried to a jury. After jury selection but before opening arguments, the Webbers presented an oral motion in limine to exclude evidence that Webber was not using a hardhat while he was cutting down the trees. Following argument, the district court ruled that the evidence could be introduced \"to show assumption of risk, comparative fault, and whether Johnny Webber acted as a reasonably careful person.\" Butner then presented evidence that Webber had not been using a hardhat. That evidence was highlighted in Butner's closing argument, reminding the jury that Webber cut the trees \"without wearing any safety helmets, any safety equipment,\" and that \"you can consider that testimony that he didn't wear a hardhat, so he basically-he assumed the risk of that danger.\" The court instructed the jury: \"Evidence relating to the use of a hardhat is offered to show assumption of risk, comparative fault, and whether Johnny Webber acted as a reasonably careful person. You may not consider it to show whether it would have prevented or altered the extent of Johnny Webber's injuries.\"\nAs noted, the jury apportioned 51% of fault to Webber and 49% of fault to Butner. The district court entered judgment for Butner. On appeal, the Webbers challenge two related rulings: (1) the admission of evidence that Webber was not using a hardhat, and (2) the jury instruction on that evidence.\nII. Analysis\nWe review a district court's evidentiary rulings for an abuse of discretion. E.g., Aldridge v. Forest River, Inc. , 635 F.3d 870, 874 (7th Cir. 2011). A district court may abuse its discretion, however, if it exercises that discretion based on a mistaken view of the law. E.g., Cooter & Gell v. Hartmarx Corp ., 496 U.S. 384, 402, 110 S.Ct. 2447, 110 L.Ed.2d 359 (1990) ; Turnell v. CentiMark Corp ., 796 F.3d 656, 662 (7th Cir. 2015) ; Ervin v. OS Restaurant Services, Inc ., 632 F.3d 971, 976 (7th Cir. 2011).\nSince we are hearing this case under diversity jurisdiction, substantive Indiana tort law governs the relevance, and thus the admissibility, of this evidence of the failure to use safety equipment. See, e.g., Barron v. Ford Motor Co. , 965 F.2d 195, 198-200 (7th Cir. 1992) (discussing considerations to determine whether state rule is procedural rule of evidence or substantive rule to be used under the Erie Railroad doctrine in a federal court hearing a case under diversity jurisdiction); id . at 202 (Ripple, J., concurring). As shown below, Indiana cases on evidence that an injured plaintiff failed to use safety equipment are driven by substantive policy determinations stemming from state legislation. We must apply Indiana law by doing our best to predict how the Indiana Supreme Court would decide about the relevance of this evidence. See, e.g., Allstate Ins. Co. v. Menards, Inc ., 285 F.3d 630, 635 (7th Cir. 2002).\nA. The Indiana Comparative Fault Act\nTo prove that Butner was at fault for the injury, the Webbers had to show: (1) a duty owed to the plaintiff by the defendant; (2) a breach of duty by allowing conduct to fall below the applicable standard of care; and (3) an injury proximately caused by the defendant's breach. See Robertson v. B.O. , 977 N.E.2d 341, 344 (Ind. 2012) ; Nasser v. St. Vincent Hosp. & Health Servs. , 926 N.E.2d 43, 48 (Ind. App. 2010). If a plaintiff proves each of these elements, the defendant is liable and all that remains is a determination of the amount of damages. See Robertson , 977 N.E.2d at 344.\nThe Indiana Comparative Fault Act applies generally to damages actions based in fault. See Mendenhall v. Skinner & Broadbent Co. , 728 N.E.2d 140, 142 (Ind. 2000). The Act replaced the common law rule of contributory negligence, under which a plaintiff who was even slightly negligent was barred from any recovery.\nSee id. , citing Indianapolis Power & Light Co. v. Brad Snodgrass, Inc. , 578 N.E.2d 669 (Ind. 1991). The Act allocates fault proportionally, \"ensuring that each person whose fault contributed to cause injury bears his or her proportionate share of the total fault contributing to the injury.\" Mendenhall , 728 N.E.2d at 142, citing Bowles v. Tatom , 546 N.E.2d 1188 (Ind. 1989).\nFor the section of the Act at issue here, \"fault\" is defined to include:\nany act or omission that is negligent, willful, wanton, reckless, or intentional toward the person or property of others. The term also includes unreasonable assumption of risk not constituting an enforceable express consent, incurred risk, and unreasonable failure to avoid an injury or to mitigate damages.\nInd. Code \u00a7 34-6-2-45.\nThe phrase \"unreasonable failure to avoid an injury or to mitigate damages\" applies only to a plaintiff's conduct before an accident or initial injury. Kocher v. Getz , 824 N.E.2d 671, 674 (Ind. 2005). In dicta in Kocher v. Getz , the Indiana Supreme Court gave an example of such conduct: \"failing to exercise reasonable care in using appropriate safety devices, e.g., wearing safety goggles while operating machinery that presents a substantial risk of eye damage.\" Id. at 674-75. A plaintiff's post-accident conduct that constitutes an unreasonable failure to mitigate damages is not to be considered in the assessment of fault. Id. at 675.\nUnder the Act, the jury assesses percentage of fault by considering \"the fault of all persons who caused or contributed to cause the alleged injury.\" Ind. Code \u00a7 34-51-2-7(b)(1) (emphasis added). The Indiana Supreme Court has characterized this language as \"expansive.\" Green v. Ford Motor Co. , 942 N.E.2d 791, 795 (Ind. 2011) (\"the legislature employed expansive language to describe the breadth of causative conduct that may be considered in determining and allocating fault\"). But in Green the Indiana Supreme Court also emphasized that causation remains central in assessing fault:\nThe Comparative Fault Act, however, further specifies that, in comparative fault actions, the \"legal requirements of causal relation apply.\" Ind. Code \u00a7 34-51-2-3. This requirement of proximate cause to establish liability was preserved in the Indiana comparative fault scheme. Control Techniques, Inc. v. Johnson, 762 N.E.2d 104, 109 (Ind. 2002).\nThe legislature has thus directed that a broad range of potentially causative conduct initially may be considered by the fact-finder but that the jury may allocate comparative fault only to those actors whose fault was a proximate cause of the claimed injury.\nId.\nEssentially, the fact-finder may consider \"evidence of all relevant conduct of the plaintiff reasonably alleged to have contributed to cause the injuries. From that evidence, the jury must then, following argument of counsel and proper instructions from the court, determine whether such conduct satisfies the requirement of proximate cause.\" Green , 942 N.E.2d at 795. The jury \"may allocate as comparative fault only such fault that it finds to have been a proximate cause of the claimed injuries.\" Id. at 796. Further, the jury\nshall apportion fault to the injured person only if the fact-finder concludes that the fault of the injured person is a proximate cause of (not merely \"relates to\") the injuries for which damages are sought (not merely the \"underlying accident\"). Otherwise, any alleged fault of the injured person is not fault for the purposes of the ... Comparative Fault Act[ ] and shall not be apportioned.\nId.\nCausation thus is the key. The Comparative Fault Act requires a causal connection between evidence of fault and the injury-causing event. In Kocher v. Getz , immediately following the mention of safety devices, the Indiana Supreme Court wrote: \"a plaintiff 'may not recover for any item of damage that [the plaintiff] could have avoided through the use of reasonable care.' \" Kocher , 824 N.E.2d at 675 (alteration in original), citing Indiana Pattern Jury Instruction No. 11.120 (2003); see Indiana Model Civil Jury Instruction 1137 (2018). As Kocher explained, to be considered in apportioning fault, the plaintiff's failure to use the safety device must have a causal nexus to his injury.\nB. Webber's Lack of a Hardhat\nHere, Butner has not argued that Webber's failure to use a hardhat caused the tree branch to fall on his head, resulting in his injuries. During oral argument, Butner correctly acknowledged that there is no evidence that the absence of a hardhat caused this accident. The reason the branch fell and struck Webber had nothing to do with whether he wore a hardhat. Nor was there any expert testimony or other evidence that Webber's injuries would have been any different if he had been wearing a hardhat.\nSince there was no causal relationship between Webber's lack of a hardhat before the injury and the injury-causing event or the injuries themselves, Indiana law did not provide a basis for admitting this evidence. A couple of hypotheticals illustrate the point.\nFirst, suppose a person does not wear safety goggles while cutting down a tree. That person is then hit on the head by a falling branch, suffering injury. The absence of goggles has nothing to do with the falling branch and the injury he suffered. This arguable \"fault\" did not contribute to the accident or injury. Under Green , therefore, evidence and argument to attribute fault for not using safety goggles would be irrelevant.\nSecond, suppose another person does not wear safety goggles while cutting down a tree. A splinter of wood flies off the chainsaw blade and hits him in the eye. In that case, the failure to wear safety goggles would have been a proximate cause of his injury. If he had been wearing safety goggles, the splinter of wood would not have been able to injure his eye. The injury-causing event and the injury would never have occurred. In that case, evidence of the failure to use safety goggles would be admissible to show fault.\nIndiana's focus on causation is important to prevent opening floodgates for admission of every arguably irresponsible thing a plaintiff might have done. Suppose a person was cutting down a tree without wearing safety glasses, hearing protection, steel-toed boots, or gloves. These safety measures would have had nothing to do with being crushed by a falling tree branch. The lack of a causal relationship to the injury should bar their admission under the Comparative Fault Act as evidence of fault in such a case.\nWebber has referred us to the so-called \"seatbelt cases\" that address whether to allow evidence that an injured plaintiff was not wearing a seatbelt during a car crash. We do not find these cases to be directly applicable here because they focus largely on the post-injury mitigation of damages rather than causation. See State v. Ingram , 427 N.E.2d 444, 448 (Ind. 1981) (evidence that plaintiff had not worn seatbelt in car accident could not be used to limit that plaintiff's damages on the basis that plaintiff had failed to mitigate his or her injuries: \"The act of buckling or not buckling a seat belt is an act the injured party must perform before the injury causing the act occurs,\" and \"the question of whether mitigation of damages has occurred looks to the acts of the injured party only after the injury has occurred.\"). However, we agree with the more limited point Webber makes: \"Just as nonuse of seatbelts does not cause crashes, nonuse of a hardhat in this case did not cause a dead branch to fall and strike Mr. Webber in the head.\" We have previously acknowledged as much. See Barron v. Ford Motor Co. , 965 F.2d 195, 199 (7th Cir. 1992) (\"Wearing a seatbelt does not make it less likely that you will have an accident.\").\nA case that bears many similarities to this one is a hardhat case from Virginia where a man cutting trees was also struck by a falling limb. Musick v. United States , 768 F.Supp. 183 (W.D. Va. 1991). There, an Air Force plane flew at such a low altitude that it caused a large limb to fall from a tree and severely injure the plaintiff. The court explained: \"While [plaintiff's] injuries might have been less severe had he been wearing a hard hat at the time the limb fell on him, his wearing of a hard hat would have done nothing to stop the 'event' (i.e., the plane's low altitude flight) that caused the branch to fall.\" Id. at 188. The court held that the plaintiff was not at fault by not wearing a hardhat at the time of the accident because \"nothing [plaintiff] did or failed to do caused or contributed to the act that led to his injury[.]\" Id.\nSo too here. The fact that Webber was not wearing a hardhat did not cause the tree branch to fall and hit him. Admitting this evidence and submitting an instruction to the jury that allowed them to consider it in apportioning fault were legal errors. The jury's apportionment of fault between the parties was so close that we cannot treat the errors as harmless.\nThe district court's judgment for the defendant is VACATED, and the case is REMANDED for a new trial.\nThe Webbers later discovered and presented evidence at trial that a professional logger had warned Butner that the trees were \"very dangerous\" and should be cut down by a professional logger because they were \"dead in the butts\" and \"hollow in the butts.\" Butner testified that he did not recall the conversation but that it was possible it happened.\nWhile the district court identified three admissible bases here-assumption of risk, comparative fault, and failure to act as a reasonably careful person-we see no distinction for these purposes because each is a means of apportioning fault to the plaintiff. See Indiana Model Civil Jury Instruction 909 (2018) (\"A person is negligent if he or she does something a reasonably careful person would not do in the same situation, or fails to do something a reasonably careful person would do in the same situation.\"); Heck v. Robey , 659 N.E.2d 498, 504 (Ind. 1995) (assumption of risk \"is subsumed by the concept of fault in [Indiana's] comparative fault scheme.\"), abrogated on other grounds by Control Techniques, Inc. v. Johnson , 762 N.E.2d 104, 107-10 (Ind. 2002) ; Indiana Model Civil Jury Instruction 921 (2018) (To prove plaintiff assumed the risk, defendant must prove by the greater weight of the evidence that plaintiff knew and appreciated the risk and plaintiff voluntarily accepted the risk. If you decide that plaintiff assumed the risk, then that conduct is fault that you should assess against plaintiff.). For the reasons discussed below, no matter which way the \"fault\" is framed, these theories all require a causal connection to the injury.\nKimbrough v. Anderson , which cited Kocher , illustrates the point. 55 N.E.3d 325 (Ind. App. 2016). There, the plaintiff sued his neighbor for causing water damage to plaintiff's house. Id. at 329-32. Due to mold damage, the value of plaintiff's residence decreased by about 90%. But there had already been severe mold caused by previous water damage incidents. Id. at 337 (\"Expert hydrogeologist Dr. Letsinger also attributed the cause of damage to the Residence to poorly installed drains around the perimeter or foundation of the house, lack of a sump pump, poor grading, or poorly maintained gutters. This evidence establishes that [plaintiff's] omission before the alleged watering incidents occurred could have caused water intrusion in the lower level of the Residence.\"). The Indiana Court of Appeals ruled that the prior instances of water damage-which were plaintiff's fault-were an appropriate basis for apportioning fault because there was a causal connection between the prior water damage and the resulting mold. Id. at 337.\nThe district court noted here: \"The parties agreed that evidence related to wearing a hard hat is not admissible to support a defense of failure to mitigate damages. Defendant indicated that he does not intend to present expert testimony regarding whether wearing a hard hat would have made any difference with regard to Johnny Webber's injuries. Instead, he wishes to offer this evidence to show assumption of risk, comparative fault, and whether Johnny Webber acted as a reasonably careful person. The Court determines that this evidence is admissible for these purposes only, not for mitigation of damages or determining any effect on the severity of the injuries.\"",
+        "type": "majority",
+        "author": "Hamilton, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Eric Stephen Pavlack, Attorney, PAVLACK LAW LLC, Indianapolis, IN, for Plaintiffs-Appellants.",
+      "Benjamin G. Stevenson, Attorney, W. Brent Threlkeld, Attorney, THRELKELD & ASSOCIATES, Indianapolis, IN, for Defendant-Appellee."
+    ],
+    "corrections": "",
+    "head_matter": "Johnny WEBBER and Debora Webber, Plaintiffs-Appellants,\nv.\nRoger BUTNER, Defendant-Appellee.\nNo. 18-2866\nUnited States Court of Appeals, Seventh Circuit.\nArgued January 16, 2019\nDecided May 3, 2019\nEric Stephen Pavlack, Attorney, PAVLACK LAW LLC, Indianapolis, IN, for Plaintiffs-Appellants.\nBenjamin G. Stevenson, Attorney, W. Brent Threlkeld, Attorney, THRELKELD & ASSOCIATES, Indianapolis, IN, for Defendant-Appellee.\nBefore Bauer, Rovner, and Hamilton, Circuit Judges."
+  },
+  "file_name": "0479-01",
+  "first_page_order": 479,
+  "last_page_order": 485
+}

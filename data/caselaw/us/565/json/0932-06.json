@@ -1,0 +1,61 @@
+{
+  "id": 12226314,
+  "name": "Matherly v. Johns, Warden",
+  "name_abbreviation": "Matherly v. Johns",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10934",
+  "first_page": "932",
+  "last_page": "932",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 932"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 153,
+    "ocr_confidence": 0.658,
+    "sha256": "f908c2a6035b3b227ca8b417dfd7c1bb3c160e67cbb64c497b93871cc513ca6b",
+    "simhash": "1:99935a806e0ef886",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Matherly v. Johns, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10934.\nMatherly v. Johns, Warden."
+  },
+  "file_name": "0932-06",
+  "first_page_order": 1014,
+  "last_page_order": 1014
+}

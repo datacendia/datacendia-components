@@ -1,0 +1,59 @@
+{
+  "id": 5947926,
+  "name": "In re Discipline of Davis",
+  "name_abbreviation": "In re Discipline of Davis",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. D-2531",
+  "first_page": "813",
+  "last_page": "813",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 813"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 41,
+    "char_count": 288,
+    "ocr_confidence": 0.577,
+    "sha256": "3762c77ea01eace6e99d6c7f58e98307ae882d0a2539cf32a39dfb65b1bb7758",
+    "simhash": "1:658a63b63ef6a702",
+    "word_count": 53
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of Davis."
+    ],
+    "opinions": [
+      {
+        "text": "Carleton Wayne Keith Davis, of St. Louis, Mo., is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2531.\nIn re Discipline of Davis."
+  },
+  "file_name": "0813-02",
+  "first_page_order": 835,
+  "last_page_order": 835
+}

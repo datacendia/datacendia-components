@@ -1,0 +1,76 @@
+{
+  "id": 12251440,
+  "name": "China Minmetals Corp. et al. v. Animal Science Products, Inc.; and Sinosteel Corp. et al. v. Animal Science Products, Inc., et al.",
+  "name_abbreviation": "China Minmetals Corp. v. Animal Science Products, Inc.",
+  "decision_date": "2012-03-19",
+  "docket_number": "No. 11-846; No. 11-847",
+  "first_page": "1260",
+  "last_page": "1260",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1260"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "654 F. 3d 462",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3825518
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/654/0462-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 26,
+    "char_count": 219,
+    "ocr_confidence": 0.686,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.24765806809586197
+    },
+    "sha256": "34f5e8f8407e05929f34cc9835eabd7d68cbcaafafd75d6f642f8df77139bb7d",
+    "simhash": "1:195871b1ab669424",
+    "word_count": 38
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "China Minmetals Corp. et al. v. Animal Science Products, Inc.; and Sinosteel Corp. et al. v. Animal Science Products, Inc., et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied. Reported below: 654 F. 3d 462.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-846.\nNo. 11-847.\nChina Minmetals Corp. et al. v. Animal Science Products, Inc.; and Sinosteel Corp. et al. v. Animal Science Products, Inc., et al."
+  },
+  "file_name": "1260-06",
+  "first_page_order": 1342,
+  "last_page_order": 1342
+}

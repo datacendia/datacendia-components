@@ -1,0 +1,59 @@
+{
+  "id": 12411889,
+  "name": "Clark v. Illinois",
+  "name_abbreviation": "Clark v. Illinois",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10177",
+  "first_page": "835",
+  "last_page": "835",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 835"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.704,
+    "sha256": "f8006b5471f0cd96dc95f584bdc0c6873c29c2d7558199fd495bbfc33b3e9cd5",
+    "simhash": "1:2839b6d71db9fd2f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Clark v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Ill., 1st Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10177.\nClark v. Illinois."
+  },
+  "file_name": "0835-10",
+  "first_page_order": 911,
+  "last_page_order": 911
+}

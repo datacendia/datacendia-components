@@ -1,0 +1,59 @@
+{
+  "id": 5975821,
+  "name": "Jones v. United States",
+  "name_abbreviation": "Jones v. United States",
+  "decision_date": "2010-10-18",
+  "docket_number": "No. 09-11346",
+  "first_page": "981",
+  "last_page": "981",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 981"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.628,
+    "sha256": "10770b3f1db6448224f2b749e1814a9b51c66b24c9ea81b8009ab00feaf699a8",
+    "simhash": "1:060bdf834caf9e0a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jones v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11346.\nJones v. United States."
+  },
+  "file_name": "0981-05",
+  "first_page_order": 1003,
+  "last_page_order": 1003
+}

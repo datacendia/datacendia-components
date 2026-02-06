@@ -1,0 +1,59 @@
+{
+  "id": 12433445,
+  "name": "Craig v. Craig",
+  "name_abbreviation": "Craig v. Craig",
+  "decision_date": "2013-03-18",
+  "docket_number": "No. 12-8285",
+  "first_page": "1238",
+  "last_page": "1238",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1238"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 78,
+    "ocr_confidence": 0.549,
+    "sha256": "97dfdc73d6fc59df74a946300350ad6e5288a89a6163aa7bf56efdbaa76c02a4",
+    "simhash": "1:40a00502c6756283",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Craig v. Craig."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 3d Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8285.\nCraig v. Craig."
+  },
+  "file_name": "1238-05",
+  "first_page_order": 1314,
+  "last_page_order": 1314
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12415486,
+  "name": "Widi v. New Hampshire",
+  "name_abbreviation": "Widi v. New Hampshire",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5213",
+  "first_page": "901",
+  "last_page": "901",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 901"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 92,
+    "ocr_confidence": 0.719,
+    "sha256": "2b5a206f1a86f7027f4aab5cb820b694a6d54d0108f1f6e6c37756086b42a40f",
+    "simhash": "1:36aa2dbdf0e3b54e",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Widi v. New Hampshire."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. N. H., Rockingham County. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5213.\nWidi v. New Hampshire."
+  },
+  "file_name": "0901-01",
+  "first_page_order": 977,
+  "last_page_order": 977
+}

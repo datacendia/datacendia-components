@@ -1,0 +1,59 @@
+{
+  "id": 12239361,
+  "name": "Jackson v. United Parcel Service, Inc.",
+  "name_abbreviation": "Jackson v. United Parcel Service, Inc.",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-612",
+  "first_page": "1114",
+  "last_page": "1114",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1114"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 85,
+    "ocr_confidence": 0.669,
+    "sha256": "a36e9beeed38c7a01111c87a4d3d726c6996e2e1594fb124b169e2bc6b094d4a",
+    "simhash": "1:ba45a2e6ed3d1457",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jackson v. United Parcel Service, Inc."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-612.\nJackson v. United Parcel Service, Inc."
+  },
+  "file_name": "1114-14",
+  "first_page_order": 1196,
+  "last_page_order": 1196
+}

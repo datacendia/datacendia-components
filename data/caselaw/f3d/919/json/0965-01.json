@@ -1,0 +1,751 @@
+{
+  "id": 12520612,
+  "name": "UNITED STATES of America, Plaintiff-Appellee, v. William Shawn STEELE, Defendant-Appellant.",
+  "name_abbreviation": "U.S. v. Steele",
+  "decision_date": "2019-03-26",
+  "docket_number": "No. 18-1146",
+  "first_page": "965",
+  "last_page": "975",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "919 F.3d 965"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "6th Cir.",
+    "id": 21296,
+    "name": "United States Court of Appeals for the Six Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "530 U.S. 120",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9413316
+      ],
+      "weight": 3,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "131"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/530/0120-01"
+      ]
+    },
+    {
+      "cite": "389 F.3d 662",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9148608
+      ],
+      "year": 2004,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/389/0662-01"
+      ]
+    },
+    {
+      "cite": "431 F.3d 976",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1618157
+      ],
+      "weight": 4,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "982"
+        },
+        {
+          "page": "982"
+        },
+        {
+          "page": "982"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/431/0976-01"
+      ]
+    },
+    {
+      "cite": "258 F.3d 548",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11082077
+      ],
+      "weight": 3,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "556"
+        },
+        {
+          "page": "556"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/258/0548-01"
+      ]
+    },
+    {
+      "cite": "560 F.3d 461",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3428871
+      ],
+      "weight": 2,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "466"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/560/0461-01"
+      ]
+    },
+    {
+      "cite": "423 F.2d 904",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        5872854
+      ],
+      "weight": 2,
+      "year": 1970,
+      "pin_cites": [
+        {
+          "page": "908"
+        },
+        {
+          "page": "908",
+          "parenthetical": "\"[A] defendant must make a choice, and he should not be permitted to manipulate his choice so that he can claim reversible error on appeal no matter which alternative he apparently chose in the District Court.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/423/0904-01"
+      ]
+    },
+    {
+      "cite": "906 F.2d 1122",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1811872
+      ],
+      "weight": 2,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "1130"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/906/1122-01"
+      ]
+    },
+    {
+      "cite": "241 F.3d 460",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11137442
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "469",
+          "parenthetical": "finding that juries are presumed to follow a judge's instructions"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/241/0460-01"
+      ]
+    },
+    {
+      "cite": "501 U.S. 624",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1108013
+      ],
+      "weight": 3,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "651",
+          "parenthetical": "Scalia, J., concurring"
+        },
+        {
+          "parenthetical": "Scalia, J., concurring"
+        },
+        {
+          "parenthetical": "Scalia, J., concurring"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/501/0624-01"
+      ]
+    },
+    {
+      "cite": "6 F.3d 1070",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10514024
+      ],
+      "weight": 2,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "1086-87",
+          "parenthetical": "providing extensive analysis of \u00a7 924(c), its legislative history, and relevant precedent, and \"find[ing] that a specific unanimity instruction [is] not required with respect to the identity of the firearm 'used' or 'carried' by Correa\""
+        },
+        {
+          "page": "1087"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/6/1070-01"
+      ]
+    },
+    {
+      "cite": "33 F.3d 1351",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10533278
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "1353-54",
+          "parenthetical": "\"[T]o obtain a conviction under 18 U.S.C. \u00a7 924(c), the government needs to prove only that the defendant used one of the guns in relation to the drug trafficking... [and] the jury is not required to reach a unanimous verdict as to which gun the defendant used.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/33/1351-01"
+      ]
+    },
+    {
+      "cite": "177 F.3d 33",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        727221
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "40",
+          "parenthetical": "holding that \"the jury need not reach unanimous agreement on the identity of the weapon when the defendant is charged with violating \u00a7 924(c) due to possession of more than one firearm,\" so long as \"none of the weapons justifies more than the statutory minimum sentence\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/177/0033-01"
+      ]
+    },
+    {
+      "cite": "560 F.3d 246",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3428412
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "258"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/560/0246-01"
+      ]
+    },
+    {
+      "cite": "720 F.3d 1245",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4058821
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "1255-56",
+          "parenthetical": "holding that the district court did not err when it did not provide the jury with a unanimity instruction for the defendant's \u00a7 924(c) charge"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/720/1245-01"
+      ]
+    },
+    {
+      "cite": "196 F.3d 294",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11554481
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "298-301"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/196/0294-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 922",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(g)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "368 F.3d 533",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9244663
+      ],
+      "weight": 2,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "541"
+        },
+        {
+          "page": "541-42"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/368/0533-01"
+      ]
+    },
+    {
+      "cite": "526 U.S. 813",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11133882
+      ],
+      "weight": 8,
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "817"
+        },
+        {
+          "parenthetical": "\"[A] disagreement about means [ ] would not matter as long as all 12 jurors unanimously concluded that the Government had proved the necessary related element, namely, that the defendant had threatened force.\""
+        },
+        {
+          "page": "820"
+        },
+        {
+          "parenthetical": "\"We would not permit an indictment charging that the defendant assaulted either X on Tuesday or Y on Wednesday.\" (ellipses omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/526/0813-01"
+      ]
+    },
+    {
+      "cite": "734 F.3d 530",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3718694
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "538"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/734/0530-01"
+      ]
+    },
+    {
+      "cite": "784 F.3d 298",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4181999
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "307",
+          "parenthetical": "quoting United States v. Miller , 734 F.3d 530, 538 (6th Cir. 2013) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/784/0298-01"
+      ]
+    },
+    {
+      "cite": "729 F.3d 517",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3700094
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "530"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/729/0517-01"
+      ]
+    },
+    {
+      "cite": "440 F.3d 832",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        81990
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "839"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/440/0832-01"
+      ]
+    },
+    {
+      "cite": "473 F.3d 660",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        2537442
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "669-70",
+          "parenthetical": "quoting United States v. Johnson , 440 F.3d 832, 839 (6th Cir. 2006) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/473/0660-01"
+      ]
+    },
+    {
+      "cite": "927 F.2d 1361",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1797428
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "1366",
+          "parenthetical": "\"[A] rational trier of fact could find beyond a reasonable doubt that ... Swanson, armed with a sawed-off shotgun, was there to protect the drugs and the transactions.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/927/1361-01"
+      ]
+    },
+    {
+      "cite": "248 F.3d 489",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11103092
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "500",
+          "parenthetical": "\"In the instant case the fortress analogy fits the scenario: large stash of cocaine, and a readily available 9MM semi-automatic gun to protect the stash. It 'reasonably appears' that the gun was there to be used, inter alia , to protect the cocaine.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/248/0489-01"
+      ]
+    },
+    {
+      "cite": "385 F.3d 1026",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1319257
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "1029",
+          "parenthetical": "citation and internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/385/1026-01"
+      ]
+    },
+    {
+      "cite": "265 F.3d 457",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9482418
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "461-62"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/265/0457-01"
+      ]
+    },
+    {
+      "cite": "443 U.S. 307",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6182418
+      ],
+      "weight": 5,
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "319",
+          "parenthetical": "emphasis in original"
+        },
+        {
+          "parenthetical": "emphasis in original"
+        },
+        {
+          "parenthetical": "emphasis in original"
+        },
+        {
+          "page": "319"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/443/0307-01"
+      ]
+    },
+    {
+      "cite": "544 F.3d 656",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3842193
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "670",
+          "parenthetical": "quoting Price , 134 F.3d at 350 "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/544/0656-01"
+      ]
+    },
+    {
+      "cite": "714 F.3d 951",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5865502
+      ],
+      "year": 2013,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/714/0951-01"
+      ]
+    },
+    {
+      "cite": "134 F.3d 340",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11586344
+      ],
+      "weight": 2,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "350"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/134/0340-01"
+      ]
+    },
+    {
+      "cite": "382 F.3d 598",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        2190377,
+        9205317
+      ],
+      "weight": 2,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "parenthetical": "quoting United States v. Price , 134 F.3d 340, 350 (6th Cir. 1998) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/382/0598-01",
+        "/br/314/0598-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 924",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 10,
+      "pin_cites": [
+        {
+          "page": "(c)"
+        },
+        {
+          "page": "(c)"
+        },
+        {
+          "page": "(c)"
+        },
+        {
+          "page": "(c)"
+        },
+        {
+          "page": "(c)"
+        },
+        {
+          "page": "(c)"
+        },
+        {
+          "page": "(c)"
+        },
+        {
+          "page": "(c)"
+        },
+        {
+          "page": "(c)"
+        },
+        {
+          "page": "(c)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 1962",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(d)"
+        },
+        {
+          "page": "(d)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1142,
+    "char_count": 27092,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.259243878697175
+    },
+    "sha256": "ecef1dd933a1537a402f00cbb8eaf6069dabc645db9ad12e76ea83dd98d74c6d",
+    "simhash": "1:904ac72578032658",
+    "word_count": 4460
+  },
+  "last_updated": "2024-02-27T18:46:33.646602+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before: KEITH, STRANCH, and DONALD, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff-Appellee,\nv.\nWilliam Shawn STEELE, Defendant-Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "DAMON J. KEITH, Circuit Judge.\nAfter ten days of trial, a jury convicted Defendant William S. Steele (\"Steele\") of (1) Racketeering Conspiracy (\"RICO Conspiracy\") under 18 U.S.C. \u00a7 1962(d), and (2) Possession of a Firearm in Furtherance of a Drug Trafficking Crime under 18 U.S.C. \u00a7 924(c). Steele contends that (1) he should have been acquitted of the \u00a7 924(c) charge because there is insufficient evidence to support the conviction, (2) the jury instruction for that charge was erroneous, and (3) he should have been allowed to substitute his counsel mid-trial. The record does not support any of the errors Steele alleges. For the following reasons, we AFFIRM.\nBACKGROUND\nIn 2016, a grand jury indicted Steele and eleven other suspected members of the Detroit chapter of the Rollin 60s Crips street gang on charges including RICO Conspiracy, in violation of 18 U.S.C. \u00a7 1962(d). During the time period between indictment and trial, all but two of the co-conspirators pleaded guilty. The remaining co-conspirator pleaded guilty shortly after trial commenced, leaving Steele as the sole defendant at trial.\nAlthough Steele denied any gang affiliation, during trial the Government presented seven current and former Rollin 60s Crips members who testified that Steele was a member of the Rollin 60s Crips street gang during the relevant time period. The jury saw photographs of Steele's tattoos which demonstrated participation in the gang, and were read his social media messages that demonstrated his fluency in the gang's jargon. The jury saw a photograph of Steele posed next to other Rollin 60s Crips members, one of whom held a sawed-off shotgun. The jury also heard testimony from Rollin 60's Crips members who witnessed Steele store guns to protect his drug and weapon stash, and who witnessed Steele sell marijuana while armed with a weapon. They also heard from multiple officers who either arrested or processed Steele for various gun or drug charges. The jury returned a guilty verdict.\nDISCUSSION\nSteele brings this appeal alleging the district court erred on three occasions: First, when it denied his motion for judgment of acquittal; second, when it did not provide an unanimity jury instruction on his \u00a7 924(c) charge; and third, when it denied his mid-trial motion to substitute his appointed counsel. We address each in turn.\nI. Motion for Judgment of Acquittal\nA. Standard of Review\nFederal Rule of Criminal Procedure 29(a) states that \"[a]fter the government closes its evidence or after the close of all the evidence, the court on the defendant's motion must enter a judgment of acquittal of any offense for which the evidence is insufficient to sustain a conviction.\" On appeal, Steele requests this court to utilize a de novo review standard. However, that standard would be inappropriate under the factual scenario of his case. Steele's trial counsel moved for a judgment of acquittal for Count Four ( \u00a7 924(c) charge) during the Government's case, and the motion was denied. The trial court allowed the Government to continue its case, and then Steele presented evidence in his own defense by taking the stand. Steele's trial counsel did not renew that motion upon the close of all evidence, so we consider his objection to the sufficiency of the evidence waived, and subject to heightened deference to the trial court. This is not the first time our court has addressed this scenario:\nWhen a court denies a defendant's motion for judgment of acquittal at the close of the government's case-in-chief and the defendant then puts on evidence in his or her own defense without renewing the Rule 29 motion, the defendant \"waives objection to the denial of his earlier motion, absent a showing of a manifest miscarriage of justice.\"\nUnited States v. Wagner , 382 F.3d 598, 611 n.2 (6th Cir. 2004) (quoting United States v. Price , 134 F.3d 340, 350 (6th Cir. 1998) ); see also U.S. v. Kennedy , 714 F.3d 951 (6th Cir. 2013). \"A miscarriage of justice exists only if the record is devoid of evidence pointing to guilt.\" United States v. Jordan , 544 F.3d 656, 670 (6th Cir. 2008) (quoting Price , 134 F.3d at 350 ).\nAnd even if Steele had preserved the claim, we would ask only whether, \"after viewing the evidence in the light most favorable to the prosecution, any rational trier of fact could have found the essential elements of [Count Four] beyond a reasonable doubt.\" Jackson v. Virginia , 443 U.S. 307, 319, 99 S.Ct. 2781, 61 L.Ed.2d 560 (1979) (emphasis in original). As detailed below, upon review of the record, Steele is unable to succeed using either standard.\nB. Sufficiency of the Evidence\nIn Count Four of the Second Superseding Indictment, a grand jury charged Steele with possession of a firearm in furtherance of a drug trafficking crime in violation of 18 U.S.C. \u00a7 924(c). To convict a defendant of possessing a firearm in furtherance of a drug trafficking crime in violation of 18 U.S.C. \u00a7 924(c), the government must show \"a specific nexus between the gun and the crime charged,\" such as using the gun \"to promote or facilitate the crime.\" United States v. Mackey , 265 F.3d 457, 461-62 (6th Cir. 2001). \"[A]lthough possession of a firearm in the same premises as the drug trafficking activities alone is insufficient to support a conviction under section 924(c), a jury can reasonably infer that firearms which are strategically located so as to provide defense or deterrence in furtherance of the drug trafficking are used in furtherance of a drug trafficking crime.\" United States v. Swafford , 385 F.3d 1026, 1029 (6th Cir. 2004) (citation and internal quotation marks omitted).\nAt Steele's trial, one witness testified that Steele stored a sawed-off shotgun in the house to protect Steele's drug stash from a potential home invasion and robbery. Another witness testified to the following while being questioned by the Government:\nQ: [D]id you ever discuss the sale of drugs with Mr. Steele?\nA: Yes.\nQ: And did you ever discuss the sale of drugs and any concerns Mr. Steele may have had?\nA: Yes.\nQ: Can you explain, please?\nA: He would keep guns in the house in case somebody tried to rob the house, or run in the house and steal the drugs or any type of weapons that were in the house at the time.\nR. 482, Trial Tr. at 76:16-25.\nImportantly, the jury heard the testimony of Steele's former roommate. His former roommate testified that in July 2012, Steele temporarily moved into his home and sold marijuana there. He described the process by which Steele would go about these sales. When Steele would receive a call regarding a potential sale, the former roommate witnessed Steele go to Steele's bedroom and retrieve the requested quantity of marijuana, and then walk out to the vehicle parked outside of his home to complete the sale. The former roommate witnessed Steele return to the home, disarm himself by removing the handgun with an extended magazine from his person, and then count the money received from the transaction. An officer testified that he arrested Steele in possession of a handgun with an extended magazine in late July 2012.\nBased on these facts, a rational juror could conclude that the evidence established a sufficient nexus between Steele's firearms and his drug trafficking offenses. The jury could have convicted Steele based on the testimony that he stored guns in the house to protect his drug stash. See United States v. Hardin , 248 F.3d 489, 500 (6th Cir. 2001) (\"In the instant case the fortress analogy fits the scenario: large stash of cocaine, and a readily available 9MM semi-automatic gun to protect the stash. It 'reasonably appears' that the gun was there to be used, inter alia , to protect the cocaine.\"). The jury also could have convicted Steele based on the testimony from his former roommate that he conducted drug sales while armed with a Glock handgun with an extended magazine. See United States v. Head , 927 F.2d 1361, 1366 (6th Cir. 1991) (\"[A] rational trier of fact could find beyond a reasonable doubt that ... Swanson, armed with a sawed-off shotgun, was there to protect the drugs and the transactions.\"). Steele was arrested with that style of Glock later that month. While Steele challenges all evidence presented during trial as insufficient, \"we are bound to make all reasonable inferences and credibility choices in support of the jury's verdict.\" United States. v. Jackson , 473 F.3d 660, 669-70 (6th Cir. 2007) (quoting United States v. Johnson , 440 F.3d 832, 839 (6th Cir. 2006) ). The two above-mentioned specific instances form a sufficient basis for a conviction of violating 18 U.S.C. \u00a7 924(c).\nAccordingly, Steele has not shown that a manifest miscarriage of justice took place because the record includes evidence that points to his guilt. Wagner , 382 F.3d at 611 n.2. Alternatively, even if Steele had properly preserved his insufficient-evidence challenge, we would still conclude that the evidence was sufficient for a rational juror to conclude that Steele possessed a firearm to advance or promote a drug trafficking crime. Jackson , 443 U.S. at 319, 99 S.Ct. 2781. Therefore, the district court did not err when it denied Steele's motion for acquittal from Count Four of the Second Superseding Indictment.\nII. Unanimity Jury Instruction\nOn appeal, Steele argues that the district court should have provided a specific jury instruction requiring unanimity on Count Four, 18 U.S.C. \u00a7 924(c). Appellant Br. at 34 (\"Without the proper instruction, there exists a significant possibility that Steele's conviction was the result of only six jurors finding Steele possessed only the Glock in furtherance of a drug trafficking crime, and the other six jurors finding he only possessed the shotgun in furtherance of a drug trafficking crime.\"). He did not object to the jury instructions during trial. Therefore, we review for plain error. United States v. Stewart , 729 F.3d 517, 530 (6th Cir. 2013). In the context of jury instructions, plain error review requires an inquiry of whether the jury instructions were \"so clearly wrong as to produce a grave miscarriage of justice.\" United States v. Eaton , 784 F.3d 298, 307 (6th Cir. 2015) (quoting United States v. Miller , 734 F.3d 530, 538 (6th Cir. 2013) ).\nThe district court provided the following instruction:\nThe Government does not have to prove that a particular firearm was possessed in furtherance of a drug trafficking crime, but in order to return a guilty verdict, all 12 of you must unanimously agree as to at least one specific occurrence on which Defendant William Steele personally possessed a firearm in furtherance of a conspiracy to distribute a controlled substance.\nR. 608, Trial Tr. at 51:19-25.\nA federal jury must return a unanimous verdict in order to convict a criminal defendant. Fed. R. Crim. P. 31(a). However, \"a federal jury need not always decide unanimously which of several possible sets of underlying brute facts make up a particular element, say, which of several possible means the defendant used to commit an element of the crime.\" Richardson v. United States , 526 U.S. 813, 817, 119 S.Ct. 1707, 143 L.Ed.2d 985 (1999). To further explain this point, the Richardson court used the crime of robbery as an example. The Court noted that an element of robbery is whether the defendant used \"force or the threat of force.\" Id. Even though there are different means by which \"force or the threat of force\" can be achieved, for example using a knife or a gun, the Court advised that the jury should focus on whether the element itself is satisfied, not the means utilized. Id. (\"[A] disagreement about means [ ] would not matter as long as all 12 jurors unanimously concluded that the Government had proved the necessary related element, namely, that the defendant had threatened force.\")\nLike the analogy used in Richardson , an element of 18 U.S.C. \u00a7 924(c) is the possession of \"a firearm.\" Steele conflates the facts that may establish this element with the element itself when he stated, \"the type of firearm underlying a \u00a7 924(c) charge constitutes an element of the offense.\" Appellant Br. at 34. We have not directly addressed whether the jury must be unanimous as to a specific gun that the defendant possessed under \u00a7 924(c). However, relying on relevant precedent within and outside of this circuit, we now find that the jury need not unanimously decide which specific gun a defendant possessed in order to convict him or her under 18 U.S.C. \u00a7 924(c). See United States v. DeJohn , 368 F.3d 533, 541 (6th Cir. 2004).\nIn DeJohn , we discussed the element of possession, albeit in the context of a felon in possession of a firearm under 18 U.S.C. \u00a7 922(g)(1). 368 F.3d at 541-42. We adopted the First Circuit's analysis in United States v. Verrecchia , 196 F.3d 294, 298-301 (1st Cir. 1999), where it held that the particular firearm possessed by a defendant is a means and not an element of the crime of being a felon in possession. Although \u00a7 922(g) utilizes the term \"any\" firearm, we find that to be analogous to the term \"a\" firearm as utilized in \u00a7 924(c). As such, the possession contemplated in \u00a7 922(g) is sufficiently similar to the possession contemplated here.\nAdditionally, our sister circuits have uniformly held that a jury need not be unanimous as to a specific gun that a defendant possessed, used, or carried in violating \u00a7 924(c). See United States v. Renteria , 720 F.3d 1245, 1255-56 (10th Cir. 2013) (holding that the district court did not err when it did not provide the jury with a unanimity instruction for the defendant's \u00a7 924(c) charge); United States v. Perry , 560 F.3d 246, 258 (4th Cir. 2009) (\"Because juror unanimity was not required as to the specific firearm possessed and the jury unanimously convicted Perry only of the marijuana-trafficking offense, there is no possibility of jury disagreement creating 'a reasonable doubt that [the defendant] used a firearm in committing a drug trafficking crime.' \" (alteration in original) (citation omitted)); United States v. Hernandez-Albino , 177 F.3d 33, 40 (1st Cir. 1999) (holding that \"the jury need not reach unanimous agreement on the identity of the weapon when the defendant is charged with violating \u00a7 924(c) due to possession of more than one firearm,\" so long as \"none of the weapons justifies more than the statutory minimum sentence\"); United States v. Morin , 33 F.3d 1351, 1353-54 (11th Cir. 1994) (\"[T]o obtain a conviction under 18 U.S.C. \u00a7 924(c), the government needs to prove only that the defendant used one of the guns in relation to the drug trafficking... [and] the jury is not required to reach a unanimous verdict as to which gun the defendant used.\"); United States v. Correa-Ventura , 6 F.3d 1070, 1086-87 (5th Cir. 1993) (providing extensive analysis of \u00a7 924(c), its legislative history, and relevant precedent, and \"find[ing] that a specific unanimity instruction [is] not required with respect to the identity of the firearm 'used' or 'carried' by Correa\"). We agree and hold that 18 U.S.C. \u00a7 924(c) generally does not require jury unanimity as to a specific gun that a defendant possessed, used, or carried in violating \u00a7 924(c).\nThere may be exceptions to this general rule. The court in Correa-Ventura warned that some violations of \u00a7 924(c) may require that the jury reach a unanimous decision on the gun used. See Correa-Ventura , 6 F.3d at 1087. Similarly, the Court in Richardson warned that \"the Constitution itself limits a State's power to define crimes in ways that would permit juries to convict while disagreeing about means, at least where that definition risks serious unfairness and lacks support in history or tradition.\" 526 U.S. at 820, 119 S.Ct. 1707 ; see also id. (\"We would not permit an indictment charging that the defendant assaulted either X on Tuesday or Y on Wednesday.\" (ellipses omitted) (quoting Schad v. Arizona , 501 U.S. 624, 651, 111 S.Ct. 2491, 115 L.Ed.2d 555 (1991) (Scalia, J., concurring))). In this case, however, the district court appropriately addressed that concern by tasking the jury with deciding unanimously on one instance of firearm possession in furtherance of a drug trafficking crime, not one specific gun, and we assume they followed this instruction. See United States v. Neuhausser , 241 F.3d 460, 469 (6th Cir. 2001) (finding that juries are presumed to follow a judge's instructions). The district court provided the proper jury instruction on \u00a7 924(c), and did not commit plain error. Accordingly, we affirm.\nIII. Substitution of Counsel\nA defendant who is unable to obtain counsel is entitled to have counsel appointed to represent him or her at every stage of the proceeding, unless the defendant chooses to waive that right. See Fed. R. Crim. P. 44(a). However, an indigent defendant's right to counsel of choice is not an absolute right and is subject to limitations. United States v. Iles , 906 F.2d 1122, 1130 (6th Cir. 1990). One limitation involves the defendant's ability to substitute their appointed counsel. Id. Another regards this circuit's restrictions on hybrid representation. United States v. Conder , 423 F.2d 904, 908 (6th Cir. 1970). We find that the district court did not err in its handling of Steele's counsel-related requests, and we discuss each in turn.\nSteele first claims that the district court erred when it denied his mid-trial motion to substitute his appointed counsel. We review an indigent defendant's motion to substitute counsel for abuse of discretion. United States v. Vasquez , 560 F.3d 461, 466 (6th Cir. 2009). In this circuit, a district court is \"obliged to conduct an inquiry into the defendant's complaint to determine whether there is good cause for substitution of counsel.\" Id. When analyzing whether the trial court abused its discretion in denying a motion to substitute counsel, we consider:\n(1) the timeliness of the motion, (2) the adequacy of the court's inquiry into the matter, (3) the extent of the conflict between the attorney and client and whether it was so great that it resulted in a total lack of communication preventing an adequate defense, and (4) balancing the factors with the public's interest in the prompt and efficient administration of justice.\nUnited States v. Mack , 258 F.3d 548, 556 (6th Cir. 2001).\nAlthough he had been represented by counsel for a year and a half, Steele moved to substitute his counsel for the first time on the seventh day of trial, alleging that there was a complete breakdown in his attorney-client relationship. He claimed that he was not receiving adequate representation because of his counsel's age and alleged physical ailments, and his counsel's failure to request a continuance once the Government added another count to his indictment. When the district court asked for Steele's counsel's opinion on the matter, he agreed that there had been a breakdown in communications and acquiesced to Steele's request for substitute counsel. Upon weighing the above factors, the district court did not abuse its discretion in denying Steele's motion to substitute his appointed counsel, and we find nothing in the record to support reversing the district court's action.\nFirst, it is undisputed that Steele's motion to substitute was not timely, as he made it seven days into trial, and without sufficient justification as to why he could not have voiced his concerns earlier. Steele's stated reason-that he \"wanted to give [his attorney] a chance before [he] actually made a decision\"-does not suffice. A defendant may not use trial as an audition for counsel.\nSecond, the district court adequately inquired into Steele's concerns. For example, it considered Steele's statements that his trial counsel \"hasn't been real effective ... and at times can't hear [him].\" The district court took a thirty-minute recess to research and analyze the matter. When it returned, it discussed the limitations of courtroom acoustics, trial counsel's pointed objections to evidence proffered by the Government, and the fact that hearing issues alone are insufficient to sustain his motion.\nBoth at the time of Steele's original motion and when the objection was later renewed, the district court went further and addressed Steele's claims that there was an overall breakdown in communication. Steele admitted that he missed meetings and pre-trial court proceedings with his counsel because he was either late or chose not to attend when he had the right to, and that he chose to live out of state during the course of his case before trial began. The district court noted that his affirmative choices were at least partially to blame for communication difficulties. The district court also addressed Steele's allegations that his trial counsel exhibited signs of dementia that he witnessed his grandfather experience. The district court noted that Steele was not in the position to diagnose anything and that age itself did not prove dementia. When the district court asked if either side had further argument, neither side had anything to add. We find that the district court adequately addressed Steele's concerns and afforded him the opportunity to be heard.\nAs to the third factor, there was not a total lack of communication between Steele and his counsel. The district court discussed the extent of Steele's conflict with his counsel and stated that Steele's reasons for wanting new counsel \"have [not] resulted in a complete breakdown of communication, or an irreconcilable conflict preventing [Steele] from proceeding [in] trial.\" We agree. The record demonstrates that Steele's counsel requested that if Steele had a question or comment during trial, Steele was to write it down for the counsel to evaluate. This is exactly what occurred during trial, and his counsel's decision not to address each and every one of Steele's comments is not a breakdown in communication. It is a matter of trial strategy, which is largely in the discretion of the trial attorney. Steele mentioned that his concern was not with his counsel's trial strategy or legal abilities, but instead was with his counsel's age and the amount of communication between them. As noted above, Steele contributed to the lack of communication with his counsel, as he was late to at least one meeting and purposefully lived out of state during the time leading up to trial.\nWe do not make light of a scenario where a defendant has a conflict with his or her attorney that would prevent a constitutional representation. However, we must be careful to avoid the situation where a defendant's discomfort with how trial is progressing becomes sufficient legal justification for substitution of counsel mid-trial. See United States v. Sullivan , 431 F.3d 976, 982 (6th Cir. 2005). And in this case, the district court addressed each of Steele's concerns, including those related to his counsel's age and alleged physical ailments, finding that although the district court was not in a position to diagnose counsel's alleged mental condition, counsel's performance during trial exemplified zealous advocacy on Steele's behalf. Accordingly, Steele's particular concerns with his trial counsel did not prevent an adequate defense.\nTurning to the last factor, \"the public's interest in the prompt and efficient administration of justice\" weighed in favor of proceeding with the trial for several reasons. Mack , 258 F.3d at 556. First, Steele did not request substitute counsel until seven days into trial, when the Government was nearly finished presenting its case. None of the rationale Steele presented to justify his request for substitute counsel were urgent, and they all could have been made prior to the start of trial. Granting his motion in the middle of trial would clearly upset the district court's ability to promptly and efficiently conduct trial. See Sullivan , 431 F.3d at 982. Second, Steele's attorney was up-to-date with the nuances of Steele's case, and up to that point - and afterwards - zealously defended Steele during trial. See id. Third, the replacement of Steele's counsel would have required significant costs and efforts related to reconvening a jury trial. Finding that each of the four Mack factors weigh in favor of Steele's continued representation by his trial counsel, we find no abuse of discretion and affirm the district court's denial of Steele's motion. See Mack , 258 F.3d at 556 ; Sullivan , 431 F.3d at 982. The same analysis adheres with regard to Steele's later renewal of his motion, involving similar concerns and a similar reaction by the district court.\nNext we address Steele's second claim regarding the district court's denial to allow him to question witnesses and otherwise represent himself at trial. \"It is well settled that there is no constitutional right to hybrid representation.\" United States v. Cromer , 389 F.3d 662, 681 n.1 (6th Cir. 2004). As such, the district court acted within its discretion when it denied Steele's requests to question witnesses, and otherwise represent himself while he was still appointed by counsel. He did not unequivocally waive his right to counsel, and as such could not assert his right to self-representation. See Conder , 423 F.2d at 908 (\"[A] defendant must make a choice, and he should not be permitted to manipulate his choice so that he can claim reversible error on appeal no matter which alternative he apparently chose in the District Court.\").\nCONCLUSION\nFor the reasons stated above, the district court did not err when it (1) denied Steele's motion for acquittal, (2) did not provide an unanimity instruction for Steele's 18 U.S.C. \u00a7 924(c) charge, and (3) denied Steele's mid-trial motion to substitute his appointed counsel. Accordingly, we AFFIRM the judgment of the district court.\nSteele also could have preserved a sufficiency challenge after the trial verdict if he filed a motion for a judgment of acquittal within fourteen days. See Fed. R. Crim. P. 29(c)(1). Although he brought a pro se motion for a retrial, the district court struck that motion as untimely (93 days late) and as an improper attempt at hybrid representation, as he was still represented by counsel.\nSteele urges us to rely instead on Castillo v. United States , in which the Supreme Court held that \"the firearm type-related words\" used in one subsection of \u00a7 924(c)\"refer to an element of a separate, aggravated crime.\" 530 U.S. 120, 131, 120 S.Ct. 2090, 147 L.Ed.2d 94 (2000). Castillo interpreted provisions now codified in an amended form in \u00a7 924(c)(1)(B), assigning harsher penalties for possession of particular types of weapons, such as short-barreled rifles or machine guns. Steele was not subjected to an increased penalty triggered by firearm type.",
+        "type": "majority",
+        "author": "DAMON J. KEITH, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "ON BRIEF: Jeffrey B. Lazarus, FEDERAL PUBLIC DEFENDER, Cleveland, Ohio, for Appellant. Shane Cralle, UNITED STATES ATTORNEY'S OFFICE, Detroit, Michigan, for Appellee."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff-Appellee,\nv.\nWilliam Shawn STEELE, Defendant-Appellant.\nNo. 18-1146\nUnited States Court of Appeals, Sixth Circuit.\nDecided and Filed: March 26, 2019\nON BRIEF: Jeffrey B. Lazarus, FEDERAL PUBLIC DEFENDER, Cleveland, Ohio, for Appellant. Shane Cralle, UNITED STATES ATTORNEY'S OFFICE, Detroit, Michigan, for Appellee.\nBefore: KEITH, STRANCH, and DONALD, Circuit Judges."
+  },
+  "file_name": "0965-01",
+  "first_page_order": 965,
+  "last_page_order": 975
+}

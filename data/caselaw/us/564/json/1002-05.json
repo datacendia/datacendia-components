@@ -1,0 +1,98 @@
+{
+  "id": 4334528,
+  "name": "In re Disbarment of Cervizzi",
+  "name_abbreviation": "In re Disbarment of Cervizzi",
+  "decision_date": "2011-06-13",
+  "docket_number": "No. D-2582",
+  "first_page": "1002",
+  "last_page": "1002",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1002"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "562 U. S. 1040",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6010144,
+        6032320,
+        5915594,
+        5953834,
+        5965003,
+        5957998,
+        5948689,
+        12438967,
+        12438968,
+        12438969,
+        12438970,
+        12438971,
+        12438972,
+        12438973
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/562/1040-01",
+        "/us/562/1040-06",
+        "/us/562/1040-05",
+        "/us/562/1040-04",
+        "/us/562/1040-07",
+        "/us/562/1040-02",
+        "/us/562/1040-03",
+        "/l-ed-2d/178/0457-06",
+        "/l-ed-2d/178/0457-07",
+        "/l-ed-2d/178/0458-01",
+        "/l-ed-2d/178/0458-02",
+        "/l-ed-2d/178/0458-03",
+        "/l-ed-2d/178/0458-04",
+        "/l-ed-2d/178/0458-05"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 110,
+    "ocr_confidence": 0.613,
+    "sha256": "4454a14971d622d61d30b3e209c48f1cb221f849df31f44665087306e4a9ebcb",
+    "simhash": "1:2b6e9d8b8b54a8e5",
+    "word_count": 18
+  },
+  "last_updated": "2024-02-27T23:47:04.462735+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Cervizzi."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered. [For earlier order herein, see 562 U. S. 1040.]",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2582.\nIn re Disbarment of Cervizzi."
+  },
+  "file_name": "1002-05",
+  "first_page_order": 996,
+  "last_page_order": 996
+}

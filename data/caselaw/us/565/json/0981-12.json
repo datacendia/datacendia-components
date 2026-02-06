@@ -1,0 +1,59 @@
+{
+  "id": 12230684,
+  "name": "Law v. Ochoa, Warden",
+  "name_abbreviation": "Law v. Ochoa",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. 11-5974",
+  "first_page": "981",
+  "last_page": "981",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 981"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.671,
+    "sha256": "9635ad4bf2d9967a407b07b97335109be13ea28a64e45ba5da1e9e943e0a3b07",
+    "simhash": "1:90a3b449bab928d2",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Law v. Ochoa, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5974.\nLaw v. Ochoa, Warden."
+  },
+  "file_name": "0981-12",
+  "first_page_order": 1063,
+  "last_page_order": 1063
+}

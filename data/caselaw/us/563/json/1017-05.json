@@ -1,0 +1,128 @@
+{
+  "id": 5933965,
+  "name": "Mann v. Buss, Secretary, Florida Department of Corrections",
+  "name_abbreviation": "Mann v. Buss",
+  "decision_date": "2011-05-23",
+  "docket_number": "No. 10-7328",
+  "first_page": "1017",
+  "last_page": "1017",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1017"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "562 U. S. 1151",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5958535,
+        12440073,
+        6027146,
+        12440074,
+        12440076,
+        12440077,
+        12440075,
+        12440079,
+        12440080,
+        12440078,
+        12440081,
+        12440082,
+        6030740,
+        12440085,
+        12440084,
+        4126615,
+        6026904,
+        12440083,
+        12440087,
+        5964444,
+        6030509,
+        5982132,
+        5931085,
+        5928526,
+        6019051,
+        5969004,
+        6017516,
+        5986428,
+        5980669
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/562/1151-09",
+        "/l-ed-2d/178/0776-05",
+        "/us/562/1151-05",
+        "/l-ed-2d/178/0776-06",
+        "/l-ed-2d/178/0776-08",
+        "/l-ed-2d/178/0777-01",
+        "/l-ed-2d/178/0776-07",
+        "/l-ed-2d/178/0777-03",
+        "/l-ed-2d/178/0777-04",
+        "/l-ed-2d/178/0777-02",
+        "/l-ed-2d/178/0777-05",
+        "/l-ed-2d/178/0777-06",
+        "/us/562/1151-08",
+        "/l-ed-2d/178/0778-01",
+        "/l-ed-2d/178/0777-08",
+        "/us/562/1151-12",
+        "/us/562/1151-02",
+        "/l-ed-2d/178/0777-07",
+        "/l-ed-2d/178/0778-03",
+        "/us/562/1151-03",
+        "/us/562/1151-14",
+        "/us/562/1151-06",
+        "/us/562/1151-11",
+        "/us/562/1151-07",
+        "/us/562/1151-15",
+        "/us/562/1151-01",
+        "/us/562/1151-04",
+        "/us/562/1151-10",
+        "/us/562/1151-13"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 22,
+    "char_count": 144,
+    "ocr_confidence": 0.692,
+    "sha256": "30b17c8cd2bbd4fb3cfd7872aaefa2b62771641a10daaa2ce3f03db21c4e65cd",
+    "simhash": "1:4fc558b213c0083d",
+    "word_count": 23
+  },
+  "last_updated": "2024-02-27T23:44:09.189648+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mann v. Buss, Secretary, Florida Department of Corrections"
+    ],
+    "opinions": [
+      {
+        "text": "562 U. S. 1151. Motion for leave to file petition for rehearing denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7328.\nMann v. Buss, Secretary, Florida Department of Corrections"
+  },
+  "file_name": "1017-05",
+  "first_page_order": 1043,
+  "last_page_order": 1043
+}

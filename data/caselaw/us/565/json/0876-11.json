@@ -1,0 +1,59 @@
+{
+  "id": 12213140,
+  "name": "Hunt v. Sandhir et al.",
+  "name_abbreviation": "Hunt v. Sandhir",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-11276",
+  "first_page": "876",
+  "last_page": "876",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 876"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 72,
+    "ocr_confidence": 0.68,
+    "sha256": "6ba6f05137e91808c724b7b0b52a08cbf4fdfbb89505aa05f5c647b6fd027202",
+    "simhash": "1:a0c328f9fbc4f3b1",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hunt v. Sandhir et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-11276.\nHunt v. Sandhir et al."
+  },
+  "file_name": "0876-11",
+  "first_page_order": 958,
+  "last_page_order": 958
+}

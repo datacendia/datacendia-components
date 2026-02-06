@@ -1,0 +1,110 @@
+{
+  "id": 12229934,
+  "name": "Setser v. United States",
+  "name_abbreviation": "Setser v. United States",
+  "decision_date": "2011-10-28",
+  "docket_number": "No. 10-7387",
+  "first_page": "972",
+  "last_page": "972",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 972"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "564 U. S. 1004",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        4337284,
+        5923085,
+        5921303,
+        4336281,
+        4336539,
+        5932062,
+        4336297,
+        5921354,
+        12450521,
+        4335450,
+        12450523,
+        12450524,
+        12450525,
+        12450526,
+        12450527,
+        12450528,
+        12450529,
+        12450530,
+        12450522,
+        4331760
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/564/1004-01",
+        "/us/564/1004-04",
+        "/us/564/1004-02",
+        "/us/564/1004-09",
+        "/us/564/1004-05",
+        "/us/564/1004-03",
+        "/us/564/1004-08",
+        "/us/564/1004-06",
+        "/l-ed-2d/180/0821-01",
+        "/us/564/1004-10",
+        "/l-ed-2d/180/0821-03",
+        "/l-ed-2d/180/0821-04",
+        "/l-ed-2d/180/0821-05",
+        "/l-ed-2d/180/0821-06",
+        "/l-ed-2d/180/0821-07",
+        "/l-ed-2d/180/0821-08",
+        "/l-ed-2d/180/0822-01",
+        "/l-ed-2d/180/0822-02",
+        "/l-ed-2d/180/0821-02",
+        "/us/564/1004-07"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 153,
+    "ocr_confidence": 0.652,
+    "sha256": "fbf1b918b009a631bc83e8156d25e5f01681924b5c5beabecb3ba9f891b56243",
+    "simhash": "1:8380c3c2c84b966c",
+    "word_count": 25
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Setser v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. [Certiorari granted, 564 U. S. 1004.] Motion of the Solicitor General for divided argument granted.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7387.\nSetser v. United States."
+  },
+  "file_name": "0972-06",
+  "first_page_order": 1054,
+  "last_page_order": 1054
+}

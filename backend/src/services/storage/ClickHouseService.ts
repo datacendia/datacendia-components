@@ -11,9 +11,9 @@ import { createClient, ClickHouseClient } from '@clickhouse/client';
 // ClickHouse connection config
 const CLICKHOUSE_CONFIG = {
   host: process.env.CLICKHOUSE_HOST || 'http://localhost:8123',
-  username: process.env.CLICKHOUSE_USER || 'cendia',
-  password: process.env.CLICKHOUSE_PASSWORD || 'cendia_sovereign_2025',
-  database: process.env.CLICKHOUSE_DB || 'cendia',
+  username: process.env.CLICKHOUSE_USER || 'datacendia',
+  password: process.env.CLICKHOUSE_PASSWORD || 'datacendia_secure_2024',
+  database: process.env.CLICKHOUSE_DB || 'datacendia',
 };
 
 // Table names (equivalent to Druid datasources)

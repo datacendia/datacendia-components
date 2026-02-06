@@ -1,0 +1,68 @@
+{
+  "id": 12705005,
+  "name": "Jane DOE, petitioner, v. VIRGINIA DEPARTMENT OF STATE POLICE, et al.",
+  "name_abbreviation": "Jane Doe v. Va. Dep't of State Police",
+  "decision_date": "2014-03-24",
+  "docket_number": "No. 13\u2013385.",
+  "first_page": "1015",
+  "last_page": "1015",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "572 U.S. 1015"
+    },
+    {
+      "type": "parallel",
+      "cite": "188 L. Ed. 2d 556"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 1538"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 30,
+    "char_count": 234,
+    "sha256": "393a55416b7f0c7e06e02cf6b100855cd2b3b3bd48e552a242884b3184fb73ef",
+    "simhash": "1:706f845c3ac8810b",
+    "word_count": 39
+  },
+  "last_updated": "2021-08-27T20:44:00.426858+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jane DOE, petitioner,\nv.\nVIRGINIA DEPARTMENT OF STATE POLICE, et al."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of certiorari to the United States Court of Appeals for the Fourth Circuit denied."
+    ],
+    "corrections": "",
+    "head_matter": "Jane DOE, petitioner,\nv.\nVIRGINIA DEPARTMENT OF STATE POLICE, et al.\nNo. 13-385.\nSupreme Court of the United States\nMarch 24, 2014.\nPetition for writ of certiorari to the United States Court of Appeals for the Fourth Circuit denied."
+  },
+  "file_name": "1015-05",
+  "first_page_order": 1015,
+  "last_page_order": 1015
+}

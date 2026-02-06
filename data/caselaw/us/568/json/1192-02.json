@@ -1,0 +1,59 @@
+{
+  "id": 12431818,
+  "name": "Brown v. Bobby, Warden",
+  "name_abbreviation": "Brown v. Bobby",
+  "decision_date": "2013-02-25",
+  "docket_number": "No. 11-807",
+  "first_page": "1192",
+  "last_page": "1192",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1192"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.649,
+    "sha256": "3293b6c2b55210f255fb83f4141fe207d64f9b389f324794b86cb9612accf71a",
+    "simhash": "1:80881bcab8540010",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Brown v. Bobby, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-807.\nBrown v. Bobby, Warden."
+  },
+  "file_name": "1192-02",
+  "first_page_order": 1268,
+  "last_page_order": 1268
+}

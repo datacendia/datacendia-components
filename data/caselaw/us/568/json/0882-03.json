@@ -1,0 +1,59 @@
+{
+  "id": 12414913,
+  "name": "Clutter v. United States",
+  "name_abbreviation": "Clutter v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-11150",
+  "first_page": "882",
+  "last_page": "882",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 882"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.664,
+    "sha256": "856168e131fff304b9540bcc8d93255344d2a41cd5202acab503583997e9b2aa",
+    "simhash": "1:073be6232d35140d",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Clutter v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-11150.\nClutter v. United States."
+  },
+  "file_name": "0882-03",
+  "first_page_order": 958,
+  "last_page_order": 958
+}

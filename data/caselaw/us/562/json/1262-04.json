@@ -1,0 +1,59 @@
+{
+  "id": 6006542,
+  "name": "Ballard v. United States",
+  "name_abbreviation": "Ballard v. United States",
+  "decision_date": "2011-02-28",
+  "docket_number": "No. 10-8674",
+  "first_page": "1262",
+  "last_page": "1262",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1262"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.629,
+    "sha256": "cea6a313bc629d42393774caab394b061c8eddf4ce41fb378d3d7c8b1146cc19",
+    "simhash": "1:95abc70109bd107c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ballard v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8674.\nBallard v. United States."
+  },
+  "file_name": "1262-04",
+  "first_page_order": 1284,
+  "last_page_order": 1284
+}

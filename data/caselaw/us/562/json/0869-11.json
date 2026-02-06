@@ -1,0 +1,59 @@
+{
+  "id": 5915031,
+  "name": "Chase v. United States",
+  "name_abbreviation": "Chase v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11246",
+  "first_page": "869",
+  "last_page": "869",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 869"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.533,
+    "sha256": "1e09af21650113199176c33058d7c7de7cbdfd32fa8e8df322f51f25527d752a",
+    "simhash": "1:1f7bce3267d9b018",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Chase v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11246.\nChase v. United States."
+  },
+  "file_name": "0869-11",
+  "first_page_order": 891,
+  "last_page_order": 891
+}

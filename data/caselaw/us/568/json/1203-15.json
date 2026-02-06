@@ -1,0 +1,59 @@
+{
+  "id": 12432323,
+  "name": "Bartel v. United States",
+  "name_abbreviation": "Bartel v. United States",
+  "decision_date": "2013-02-25",
+  "docket_number": "No. 12-8382",
+  "first_page": "1203",
+  "last_page": "1203",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1203"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.567,
+    "sha256": "22a0a8b73202b6562b61d6cd0569a5075f1e6d080db301e519f61ff56f819ba3",
+    "simhash": "1:053be6838ebd146a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bartel v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8382.\nBartel v. United States."
+  },
+  "file_name": "1203-15",
+  "first_page_order": 1279,
+  "last_page_order": 1279
+}

@@ -1,0 +1,84 @@
+{
+  "id": 12410737,
+  "name": "In re Disbarment of Barley",
+  "name_abbreviation": "In re Disbarment of Barley",
+  "decision_date": "2012-06-25",
+  "docket_number": "No. D-2662",
+  "first_page": "931",
+  "last_page": "931",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 931"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "566 U. S. 959",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12209442,
+        12209475,
+        12209413,
+        12209426,
+        12209396,
+        12209461,
+        12209403
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/566/0959-05",
+        "/us/566/0959-07",
+        "/us/566/0959-03",
+        "/us/566/0959-04",
+        "/us/566/0959-01",
+        "/us/566/0959-06",
+        "/us/566/0959-02"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 107,
+    "ocr_confidence": 0.683,
+    "sha256": "41eb1d5a57ff83eee9ef012fe5868a66a17ac8b1cbc598686f6e633a3150f19f",
+    "simhash": "1:103dd88adf9242e6",
+    "word_count": 18
+  },
+  "last_updated": "2024-02-27T23:46:21.325002+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Barley."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered. [For earlier order herein, see 566 U. S. 959.]",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2662.\nIn re Disbarment of Barley."
+  },
+  "file_name": "0931-02",
+  "first_page_order": 835,
+  "last_page_order": 835
+}

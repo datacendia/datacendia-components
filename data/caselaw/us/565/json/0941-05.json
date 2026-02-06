@@ -1,0 +1,59 @@
+{
+  "id": 12226873,
+  "name": "Blueford v. Arkansas",
+  "name_abbreviation": "Blueford v. Arkansas",
+  "decision_date": "2011-10-11",
+  "docket_number": "No. 10-1320",
+  "first_page": "941",
+  "last_page": "941",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 941"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 70,
+    "ocr_confidence": 0.668,
+    "sha256": "371792c2f8f2e6e55de57dd5e7bff25cc69bf69ccc268936abdd9a68646f3798",
+    "simhash": "1:d252d30610a86cc5",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Blueford v. Arkansas."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ark. Cer-tiorari granted.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1320.\nBlueford v. Arkansas."
+  },
+  "file_name": "0941-05",
+  "first_page_order": 1023,
+  "last_page_order": 1023
+}

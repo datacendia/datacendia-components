@@ -1,0 +1,906 @@
+{
+  "id": 12659578,
+  "name": "In the INTEREST OF L.M., a Child",
+  "name_abbreviation": "In re L.M.",
+  "decision_date": "2019-04-09",
+  "docket_number": "NO. 14-18-01047-CV",
+  "first_page": "823",
+  "last_page": "838",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "572 S.W.3d 823"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex. App. Ct.",
+    "id": 30078,
+    "name": "Court of Appeals of Texas, Houston (14th Dist.)"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "171 S.W.3d 472",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8922890
+      ],
+      "pin_cites": [
+        {
+          "page": "479"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/171/0472-01"
+      ]
+    },
+    {
+      "cite": "99 S.W.3d 841",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9360671
+      ],
+      "pin_cites": [
+        {
+          "page": "845"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/99/0841-01"
+      ]
+    },
+    {
+      "cite": "25 S.W.3d 315",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        11239476
+      ],
+      "pin_cites": [
+        {
+          "page": "325"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/25/0315-01"
+      ]
+    },
+    {
+      "cite": "105 S.W.3d 222",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9119573
+      ],
+      "pin_cites": [
+        {
+          "page": "234"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/105/0222-01"
+      ]
+    },
+    {
+      "cite": "389 S.W.3d 483",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7094996
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "492"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/389/0483-01"
+      ]
+    },
+    {
+      "cite": "349 S.W.3d 548",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7318431
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "554"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/349/0548-01"
+      ]
+    },
+    {
+      "cite": "332 S.W.3d 687",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7321264
+      ],
+      "pin_cites": [
+        {
+          "page": "693"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/332/0687-01"
+      ]
+    },
+    {
+      "cite": "2016 WL 3944823",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "pin_cites": [
+        {
+          "page": "*3"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "Tex. Fam. Code Ann. \u00a7 107.013",
+      "category": "laws:leg_statute",
+      "reporter": "Tex. Code Ann.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "108 S.W.3d 508",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9111876
+      ],
+      "pin_cites": [
+        {
+          "page": "513-14"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/108/0508-01"
+      ]
+    },
+    {
+      "cite": "2018 WL 2106669",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "pin_cites": [
+        {
+          "page": "*12"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "389 S.W.3d 896",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7095947
+      ],
+      "pin_cites": [
+        {
+          "page": "902"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/389/0896-01"
+      ]
+    },
+    {
+      "cite": "168 S.W.3d 197",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8934823
+      ],
+      "pin_cites": [
+        {
+          "page": "211"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/168/0197-01"
+      ]
+    },
+    {
+      "cite": "Tex. Fam. Code Ann. \u00a7 263.307",
+      "category": "laws:leg_statute",
+      "reporter": "Tex. Code Ann.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(b)",
+          "parenthetical": "listing factors to consider in evaluating parents' willingness and ability to provide the child with a safe environment"
+        },
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(b)(11)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "528 S.W.3d 251",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12385904
+      ],
+      "pin_cites": [
+        {
+          "page": "266"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/528/0251-01"
+      ]
+    },
+    {
+      "cite": "544 S.W.2d 367",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9936354
+      ],
+      "weight": 2,
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "371-72"
+        },
+        {
+          "page": "371-72"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/544/0367-01"
+      ]
+    },
+    {
+      "cite": "113 S.W.3d 355",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9096794
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "362"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/113/0355-01"
+      ]
+    },
+    {
+      "cite": "2018 WL 358480",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "pin_cites": [
+        {
+          "page": "*6"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "312 S.W.3d 608",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7324471
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "617-18"
+        },
+        {
+          "page": "617"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/312/0608-01"
+      ]
+    },
+    {
+      "cite": "498 S.W.3d 195",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12186060
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "204"
+        },
+        {
+          "page": "204"
+        },
+        {
+          "page": "205"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/498/0195-01"
+      ]
+    },
+    {
+      "cite": "2010 WL 520774",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "opinion_index": 0
+    },
+    {
+      "cite": "2014 WL 5795484",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "pin_cites": [
+        {
+          "page": "*5"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "715 S.W.2d 387",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9975933
+      ],
+      "pin_cites": [
+        {
+          "page": "389-91"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/715/0387-01"
+      ]
+    },
+    {
+      "cite": "542 S.W.3d 752",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12656017
+      ],
+      "pin_cites": [
+        {
+          "page": "764"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/542/0752-01"
+      ]
+    },
+    {
+      "cite": "129 S.W.3d 732",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9275959
+      ],
+      "pin_cites": [
+        {
+          "page": "738-39"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/129/0732-01"
+      ]
+    },
+    {
+      "cite": "727 S.W.2d 531",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9977804
+      ],
+      "weight": 2,
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "533"
+        },
+        {
+          "page": "533-34"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/727/0531-01"
+      ]
+    },
+    {
+      "cite": "515 S.W.3d 60",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12374225
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "91"
+        },
+        {
+          "page": "92"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/515/0060-01"
+      ]
+    },
+    {
+      "cite": "452 S.W.3d 351",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6888660
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "361"
+        },
+        {
+          "page": "361"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/452/0351-01"
+      ]
+    },
+    {
+      "cite": "917 S.W.2d 268",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10006660
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "269"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/917/0268-01"
+      ]
+    },
+    {
+      "cite": "542 S.W.3d 724",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12656015
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "737"
+        },
+        {
+          "page": "737"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/542/0724-01"
+      ]
+    },
+    {
+      "cite": "402 S.W.3d 239",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7092544
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "248"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/402/0239-01"
+      ]
+    },
+    {
+      "cite": "35 S.W.3d 608",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        11076535
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "617"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/35/0608-01"
+      ]
+    },
+    {
+      "cite": "2018 WL 1220894",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "*5"
+        },
+        {
+          "page": "*5"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "302 S.W.3d 866",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7300707
+      ],
+      "weight": 2,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "870"
+        },
+        {
+          "page": "870"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/302/0866-01"
+      ]
+    },
+    {
+      "cite": "2012 WL 2923132",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "pin_cites": [
+        {
+          "page": "*5"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "205 S.W.3d 625",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8449290
+      ],
+      "pin_cites": [
+        {
+          "page": "629"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/205/0625-01"
+      ]
+    },
+    {
+      "cite": "163 S.W.3d 79",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8951141
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "84"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/163/0079-01"
+      ]
+    },
+    {
+      "cite": "209 S.W.3d 105",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8442360
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "108"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/209/0105-01"
+      ]
+    },
+    {
+      "cite": "444 S.W.3d 46",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6905831
+      ],
+      "pin_cites": [
+        {
+          "page": "52"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/444/0046-01"
+      ]
+    },
+    {
+      "cite": "283 S.W.3d 336",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7301947
+      ],
+      "weight": 5,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "344"
+        },
+        {
+          "page": "345"
+        },
+        {
+          "page": "345"
+        },
+        {
+          "page": "345"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/283/0336-01"
+      ]
+    },
+    {
+      "cite": "273 S.W.3d 862",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8172596
+      ],
+      "pin_cites": [
+        {
+          "page": "873"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/273/0862-01"
+      ]
+    },
+    {
+      "cite": "Tex. Fam. Code Ann. \u00a7 101.007",
+      "category": "laws:leg_statute",
+      "reporter": "Tex. Code Ann.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "96 S.W.3d 256",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9359530
+      ],
+      "weight": 3,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "265-66"
+        },
+        {
+          "page": "264"
+        },
+        {
+          "page": "n.39",
+          "parenthetical": "mother endangered children by allowing access to medication that could have killed them if ingested"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/96/0256-01"
+      ]
+    },
+    {
+      "cite": "89 S.W.3d 17",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9318292
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "26",
+          "parenthetical": "\"Just as it is imperative for courts to recognize the constitutional underpinnings of the parent-child relationship, it is also essential that emotional and physical interests of the child not be sacrificed merely to preserve that right.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/89/0017-01"
+      ]
+    },
+    {
+      "cite": "560 S.W.3d 624",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12658075
+      ],
+      "weight": 4,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "629"
+        },
+        {
+          "page": "631"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/560/0624-01"
+      ]
+    },
+    {
+      "cite": "374 S.W.3d 528",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7131255
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "531"
+        },
+        {
+          "page": "531"
+        },
+        {
+          "page": "531"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/374/0528-01"
+      ]
+    },
+    {
+      "cite": "685 S.W.2d 18",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9925381
+      ],
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "20"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/685/0018-01"
+      ]
+    },
+    {
+      "cite": "Tex. Fam. Code Ann. \u00a7 161.001",
+      "category": "laws:leg_statute",
+      "reporter": "Tex. Code Ann.",
+      "weight": 6,
+      "pin_cites": [
+        {
+          "page": "(b)(1)(D)"
+        },
+        {
+          "page": "(b)(1)(D)"
+        },
+        {
+          "page": "(b)(1)(E)"
+        },
+        {
+          "page": "(b)(2)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1417,
+    "char_count": 38970,
+    "pagerank": {
+      "raw": 4.296287805729208e-08,
+      "percentile": 0.27102178544000055
+    },
+    "sha256": "503f2c52ba61d3bc8990481ef4b26cb56b6208ed91cb9c3c3e27db960b43725e",
+    "simhash": "1:1948182e028b5fa6",
+    "word_count": 6214
+  },
+  "last_updated": "2024-02-27T17:35:43.745301+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Panel consists of Chief Justice Frost and Justices Jewell and Bourliot."
+    ],
+    "parties": [
+      "In the INTEREST OF L.M., a Child"
+    ],
+    "opinions": [
+      {
+        "text": "Kevin Jewell, Justice\nAppellant E.A.M. (\"Father\") appeals the trial court's final decree terminating parental rights to his child L.M. (\"Louise\") and appointing the Department of Family and Protective Services as the child's sole managing conservator. The trial court terminated Father's parental rights on predicate grounds of endangerment, constructive abandonment, and failure to complete a family service plan. See Tex. Fam. Code Ann. \u00a7 161.001(b)(1)(D), (E), (N), and (O). The trial court further found that termination of Father's rights was in the child's best interest. In four issues Father challenges the legal and factual sufficiency of the evidence to support the trial court's findings on the predicate grounds and that termination was in the child's best interest. Because we conclude the evidence is legally and factually sufficient to support the trial court's findings, we affirm.\nMaternal relatives C.M. and J.M. (\"Intervenors\") appealed the trial court's order striking their petition in intervention. However, Intervenors did not file a brief. On January 22, 2019, this court ordered intervenors to file a brief on or before January 28, 2019, or risk dismissal of their appeal for want of prosecution. Intervenors filed no brief. We therefore dismiss Intervenors' appeal.\nI. FACTUAL AND PROCEDURAL BACKGROUND\nA. Pretrial Proceedings\n1. The initial referral and investigation\nThe Department received a referral alleging neglectful supervision of Louise. Events leading to the referral began with a response to a domestic disturbance call at the parents' home by Humble Police Department Officer Andrew Knight. M.R.H. (\"Mother\") answered the door with bruises on her forehead \"in a hysterical state.\" Knight observed multiple tents containing growing marijuana plants in the apartment and a marijuana pipe on the floor. Knight observed Louise-one year old at the time-walking around the apartment holding a container of Xanax. Both parents were arrested for endangering a child and Father also was charged with assault of a family member and possession of marijuana. Louise was released to a family friend.\nThe Department investigated. Mother denied knowledge of the marijuana plants. According to the investigator's report, Mother \"admitted to domestic violence in her relationship with [Father].\" The investigator further noted that Mother \"was observed with multiple lumps and bruises on her face during the interview.\" Mother signed a safety plan and agreed to work with the Department.\nFather denied any domestic violence stating, \"everybody gets into it.\" When the caseworker asked Father about Mother's bruises Father began crying and asked if Mother was going to leave him. Father denied having multiple marijuana plants and claimed he had only two plants for personal use. Father also signed a safety plan and agreed to work with the Department.\nThree days after the arrest Mother called the caseworker and informed her that Mother and Father had been released from jail and the endangerment charges had been dropped.\nApproximately two weeks after Louise's removal, Father tested positive for marijuana. One week later, neither parent appeared for requested drug testing, and Mother informed the caseworker that she would not speak with the caseworker until speaking with her attorney. For several months the caseworker attempted to contact Mother, Father, and the caregiver who was caring for Louise. The caseworker was unable to contact Mother and Father. Louise was placed with a friend of Mother's who cared for Louise for approximately one month, after which the caregiver no longer wanted to care for Louise. The caregiver expressed the belief that only the parents had \"legal rights to the child\" and that it was inappropriate for either the caregiver or the Department to care for Louise.\nSeveral months later, not knowing where Louise was, the caseworker requested a welfare check on Louise by the Humble Police Department. A police officer went to the residence, but Mother refused to open the door. The officer smelled the odor of marijuana emanating from inside the house and could see a child through the window that appeared to be the same age as Louise.\n2. Father's criminal history\nListed on the removal affidavit is Father's criminal history dating from 1995 through 1999. In 1995 Father was convicted of burglary of a habitation and sentenced to four years' confinement. In 1997 he was convicted of unlawfully carrying a weapon and sentenced to 90 days' confinement. In January 1999 Father was again convicted of unlawfully carrying a weapon and sentenced to 120 days' confinement. In November 1999 Father was convicted of aggravated assault with a deadly weapon and sentenced to eight years' confinement. No criminal convictions occurring after 1999 are listed in the record.\n3. Family service plan\nThe Department created a family service plan for Father, which the court incorporated into an order. Father was served with the Department's petition for termination and was made aware of the Department's involvement and his need to complete services to obtain the return of his child.\nB. Trial\nTrial began in November 2018. At the beginning of trial the court admitted into evidence copies of Louise's birth certificate, DNA results establishing Father's paternity, the removal affidavit summarizing the above facts, the trial court's protection order and temporary orders, the status hearing order, family service plans, both parents' drug test results and criminal records, a police report involving a domestic violence incident, Louise's therapist's notes, the Child Advocate's report, the permanency plan and progress report, and the reporters' record from a pre-trial hearing held the previous April. Father objected to the removal affidavit as hearsay, and he objected to the temporary orders without stating a basis. The trial court overruled Father's objections and admitted the evidence. The trial court also admitted a child caregiver resource form, a letter from one of Mother's former employers, and a letter from Louise's play therapist.\nThe caseworker testified that Louise was two years old at the time of trial and was placed with adoptive foster parents who were meeting all of Louise's physical and emotional needs. The foster parents are married and have no other children. They live in a three-bedroom home that has been child-proofed. Louise had her own room and was \"very comfortable\" in the home. Louise was \"very bonded\" with her foster parents and had been bonded with them from the beginning. Louise knows them as \"Mommy and Daddy\" and knows their extended family members.\nAs the caseworker explained, Louise first came into the Department's care when her parents were arrested for endangering her. Both parents were ordered to submit to random drug tests, but Father never appeared. Mother confirmed to the caseworker that Father had committed domestic violence against her and that Mother moved to California in part to escape Father.\nThe caseworker testified that it was in Louise's best interest to remain with the foster parents. She testified that Father \"barely had a relationship\" with Louise. Father did not participate in any services. The caseworker had a contact number for Father, but Father never answered the phone or otherwise responded to efforts of the Department to contact him. The caseworker confirmed the police report, which detailed evidence of domestic violence at the time of removal and several marijuana plants found growing in the apartment.\nAccording to the caseworker, Father was made aware that a parental termination case was pending and that the case was a \"participation of services\" case-meaning his participation was required to preserve his parental rights over Louise. The parents were offered an opportunity to complete services but declined to do so.\nThe caseworker called Father several times and left messages, but Father never returned her calls.\nThe Child Advocate testified that it would be in Louise's best interest to remain with the foster parents. Louise called them \"Mommy\" and \"Daddy,\" had bonded with them, and had developed social skills she did not have when she was with Mother. The Child Advocate attempted to contact Father but was unable to reach him.\nAccording to Louise's therapist's notes, Louise's school reported Louise being aggressive toward peers in her class. The school described Louise as demanding. The school later reported that Louise was isolating herself and experiencing signs of anxiety at school; the foster mother reported Louise did not exhibit signs of anxiety at home. The therapist conducted an assessment on Louise and noted that she appeared attached to her foster mother. In therapy Louise demonstrated awareness of the difference between behaviors considered appropriate and those considered inappropriate. The therapist noted that it would be traumatic for Louise to leave her foster home because her foster parents are the only parents she has truly known.\nDuring a court hearing several months before trial, Mother testified that she had moved to California and was making approximately $ 3,500 per month working at an eyelash salon. Mother acknowledged that at the time Louise was taken into care it appeared Louise was \"living in a facility that was growing marijuana.\" Mother denied growing marijuana herself or participating in any aspect of it but admitted living in the house. Mother testified that Father prevented her from accessing the top floor, where much of the marijuana plants were cultivated. The last time Mother had seen Father was the previous December and she thought he was living in Colorado. Mother described Father as a marijuana user, but she did not know how frequently he used marijuana.\nIncluded in the documentary evidence admitted at trial was the probable cause affidavit connected to Father's charge of assault of a family member committed near the time of Louise's removal. According to the affidavit, Mother reported to police that Father broke a coffee table by stomping it with his feet. Father then turned around, grabbed Mother by her shoulders and threw her onto her left side causing her to fall on the broken coffee table. Mother was able to stand up and saw Father walking toward the door. Mother followed Father toward the door and Father turned around and punched Mother in the left eye causing Mother pain and bruising. The investigating officer observed the broken coffee table and Mother's black eye.\nMother was killed in California in August 2018, and Father was charged with her murder. At the time of trial, the murder charge remained pending.\nC. The Intervention\nSeveral months after Mother's death and twenty days before trial, Mother's sister and brother-in-law filed a petition in intervention seeking to be named Louise's joint managing conservators. At the time Intervenors filed their petition, Louise had been living with foster parents for approximately ten months. Louise has never lived with Intervenors.\nLouise's attorney ad litem filed a motion to strike the petition in intervention on the ground that Intervenors lacked standing. The trial court granted the motion and struck Intervenors' petition. Intervenors filed a notice of appeal challenging the trial court's decision to strike their petition in intervention but they failed to file a brief on appeal.\nThe trial court terminated Father's parental rights on the predicate grounds of endangerment, constructive abandonment, and failure to comply with a family service plan. See Tex. Fam. Code Ann. \u00a7 161.001(b)(1)(D), (E), (N), & (O). The court further found that termination of Father's rights was in Louise's best interest.\nII. ANALYSIS\nA. Standards of Review\nInvoluntary termination of parental rights is a serious matter implicating fundamental constitutional rights. Holick v. Smith , 685 S.W.2d 18, 20 (Tex. 1985) ; In re D.R.A. , 374 S.W.3d 528, 531 (Tex. App.-Houston [14th Dist.] 2012, no pet.). Although parental rights are of constitutional magnitude, they are not absolute. In re A.C. , 560 S.W.3d 624, 629 (Tex. 2018) ; In re C.H. , 89 S.W.3d 17, 26 (Tex. 2002) (\"Just as it is imperative for courts to recognize the constitutional underpinnings of the parent-child relationship, it is also essential that emotional and physical interests of the child not be sacrificed merely to preserve that right.\").\nDue to the severity and permanency of terminating the parental relationship, Texas requires clear and convincing evidence to support such an order. See Tex. Fam. Code Ann. \u00a7 161.001 ; In re J.F.C. , 96 S.W.3d 256, 265-66 (Tex. 2002). \"Clear and convincing evidence\" means \"the measure or degree of proof that will produce in the mind of the trier of fact a firm belief or conviction as to the truth of the allegations sought to be established.\" Tex. Fam. Code Ann. \u00a7 101.007 ; In re J.F.C. , 96 S.W.3d at 264. This heightened burden of proof results in a \"correspondingly searching standard of appellate review.\" In re A.C. , 560 S.W.3d at 630 ; see In re C.M.C. , 273 S.W.3d 862, 873 (Tex. App.-Houston [14th Dist.] 2008, no pet.).\nIn reviewing legal sufficiency of the evidence in a parental termination case, we must consider all evidence in the light most favorable to the finding to determine whether a reasonable fact finder could have formed a firm belief or conviction that its finding was true. In re J.O.A. , 283 S.W.3d 336, 344 (Tex. 2009). We assume that the fact finder resolved disputed facts in favor of its finding if a reasonable fact finder could do so, and we disregard all evidence that a reasonable fact finder could have disbelieved. Id. ; In re G.M.G. , 444 S.W.3d 46, 52 (Tex. App.-Houston [14th Dist.] 2014, no pet.). However, this does not mean that we must disregard all evidence that does not support the finding. In re D.R.A. , 374 S.W.3d at 531. Because of the heightened standard, we also must be mindful of any undisputed evidence contrary to the finding and consider that evidence in our analysis. Id.\nIn reviewing the factual sufficiency of the evidence under the clear-and-convincing standard, we consider and weigh disputed evidence contrary to the finding against all the evidence favoring the finding. In re A.C. , 560 S.W.3d at 631 ; see In re J.O.A. , 283 S.W.3d at 345. \"If, in light of the entire record, the disputed evidence that a reasonable fact finder could not have credited in favor of the finding is so significant that a fact finder could not reasonably have formed a firm belief or conviction, then the evidence is factually insufficient.\" In re J.O.A. , 283 S.W.3d at 345. We give due deference to the fact finder's findings and we cannot substitute our own judgment for that of the fact finder. In re H.R.M. , 209 S.W.3d 105, 108 (Tex. 2006).\nIn a proceeding to terminate the parent-child relationship brought under section 161.001 of the Texas Family Code, the petitioner must establish, by clear and convincing evidence, one or more acts or omissions enumerated under subsection (1) of section 161.001(b) and that termination is in the best interest of the child under subsection (2). Tex. Fam. Code Ann. \u00a7 161.001 ; In re J.L. , 163 S.W.3d 79, 84 (Tex. 2005).\nB. Predicate Grounds\nIn three issues, Father argues the evidence was legally and factually insufficient to support termination under section 161.001(b)(1)(D), (E), (N), and (O) of the Texas Family Code. If multiple predicate violations are found by the trial court as a basis for termination, we will affirm on any one violation that is established by clear and convincing evidence. See In re T.N.F. , 205 S.W.3d 625, 629 (Tex. App.-Waco 2006, pet. denied). We will address the trial court's finding of endangerment under subsection E.\n1. Alleged erroneous admission of evidence\nInitially, Father argues the trial court should not have admitted the removal affidavit over his hearsay objection. Father's counsel's objection was: \"I object to P3, which is the removal affidavit on the basis of hearsay.\" The trial court overruled the objection without requesting a response from the Department. On appeal the Department argues Father's \"blanket hearsay objection\" was not sufficient to preserve error with regard to the discrete portions of the document that contained hearsay. A hearsay objection that does not identify which parts of a document contain hearsay is not sufficiently specific to preserve error with respect to those parts. L.M. v. Dep't of Family & Protective Services , No. 01-11-00137-CV, 2012 WL 2923132, at *5 (Tex. App.-Houston [1st Dist.] July 12, 2012, pet. denied) (mem. op.).\nEven if Father preserved error, he cannot obtain reversal of the judgment unless he shows that the error amounted to such a denial of his rights as was reasonably calculated to cause and probably did cause the rendition of an improper judgment. See State v. Central Expressway Sign Assocs. , 302 S.W.3d 866, 870 (Tex. 2009). \"To put it another way, a successful challenge to evidentiary rulings usually requires the complaining party to show that the judgment turns on the particular evidence excluded or admitted.\" A.B. v. Texas Dep't of Family & Protective Services , No. 03-17-00658-CV, 2018 WL 1220894, at *5 (Tex. App.-Austin Mar. 9, 2018, no pet.) (mem. op.) quoting Texas Dep't of Transp. v. Able , 35 S.W.3d 608, 617 (Tex. 2000). In making this determination, the court must review the entire record. Central Expressway Sign Assocs. , 302 S.W.3d at 870. The erroneous exclusion or admission of evidence \"is likely harmless if the evidence was cumulative, or the rest of the evidence was so one-sided that the error likely made no difference in the judgment.\" A.B. , 2018 WL 1220894, at *5.\nThe removal affidavit is an eight-page document containing several statements by the Department's representative concerning (1) the reason for the child's removal, (2) the birthdates of Mother, Father, and Louise, (3) a summary of the Department's investigation, (4) a summary of the parents'\nhistory with the Department, (5) a summary of the parents' criminal history, and (6) the Department's request for temporary managing conservatorship of the child. At trial Father did not specify the portion or portions of the affidavit to which he objected.\nThe removal affidavit is primarily relied on to determine whether removal for abuse or neglect under Chapter 262 of the Family Code was justified. See In re E.C.R. , 402 S.W.3d 239, 248 (Tex. 2013). Father has not challenged whether Louise was removed for abuse or neglect in this appeal. The substance of the removal affidavit allegations reviewed in this appeal was admitted through testimony of the caseworker and other documentary evidence.\nUnder the sub-heading of \"Present Referral/Allegation,\" the affidavit states:\nOn July 15, 2017, the Department of Family and Protective Services received a referral alleging neglectful supervision of 1 year old girl [Louise]. There are allegations that mom answered the door with bruises on her forehead. that there were multiple tents in the home with marijuana plants, and that [Louise] was walking around with a container that had Xanax.\nAt trial the caseworker testified without objection to each of those facts. The police report also detailed the events of the referral, identifying the referral source as a neighbor. The neighbor reported to the police that he could hear a \"female in distress across from\" the parents' house. The neighbor also heard a male telling the female to \"be quiet.\" The police report also noted that an officer found a tent next to a bed \"that had children[']s bedding and toys next to the bed.\" Thinking a child might be sleeping in the tent the officer unzipped the tent where he found marijuana plants being grown inside the tent. The officer also saw the child walking with a \"blue case,\" which contained Xanax pills. The officer noted that Mother \"did not seem alarmed that [t]he child was in possession of the pills.\" Father's criminal records were admitted without objection.\nIn reviewing the entire record, we hold that any error in admitting hearsay statements in the removal affidavit was harmless. See In re R.H.W. III , 542 S.W.3d 724, 737 (Tex. App.-Houston [14th Dist.] 2018, no pet.) (holding any error in admission of hearsay was harmless when evidence included unobjected-to evidence containing same or similar information). Statements made in the affidavit by the caseworker were cumulative of the caseworker's testimony, documentary evidence of Father's criminal records, and the police report. Moreover, the trial court's judgment in this case did not turn on the allegations in the removal affidavit.\nFather also complains that the court erroneously admitted the police report because the police officer was not present at trial to substantiate his findings and conclusions and was not subjected to cross examination. Father failed to preserve this point by failing to object to its admission at trial. See Tex. R. App. P. 33.1. Moreover, as detailed below, evidence contained within the police report was otherwise admitted through witness testimony and thus any error in admitting the report is harmless. See In re R.H.W. III , 542 S.W.3d at 737.\n2. Father's challenge to the endangerment finding\nTermination of parental rights is warranted if the fact finder finds by clear and convincing evidence, in addition to the best-interest finding, that the parent has, \"engaged in conduct or knowingly placed the child with persons who engaged in conduct which endangers the physical or emotional well-being of the child.\" Tex. Fam. Code Ann. \u00a7 161.001(b)(1)(E). \"To endanger\" means to expose a child to loss or injury or to jeopardize a child's emotional or physical health. See In re M.C. , 917 S.W.2d 268, 269 (Tex. 1996). A finding of endangerment under subsection E requires evidence that the endangerment was the result of the parent's conduct, including acts, omissions, or failures to act. In re S.R. , 452 S.W.3d 351, 361 (Tex. App.-Houston [14th Dist.] 2014, pet. denied). Termination under subsection E must be based on more than a single act or omission; the statute requires a voluntary, deliberate, and conscious course of conduct by the parent. Id. A court properly may consider actions and inactions occurring both before and after a child's birth to establish a course of conduct. In re A.L.H. , 515 S.W.3d 60, 91 (Tex. App.-Houston [14th Dist.] 2017, pet. denied).\nWhile endangerment often involves physical endangerment, the statute does not require that conduct be directed at a child or that the child actually suffer injury; rather, the specific danger to the child's well-being may be inferred from the parent's misconduct alone. Tex. Dep't of Human Servs. v. Boyd , 727 S.W.2d 531, 533 (Tex. 1987) ; In re R.W. , 129 S.W.3d 732, 738-39 (Tex. App.-Fort Worth 2004, pet. denied). A parent's conduct that subjects a child to a life of uncertainty and instability endangers the child's physical and emotional well-being. In re F.E.N. , 542 S.W.3d 752, 764 (Tex. App.-Houston [14th Dist.] 2018, no pet.) ; In re A.L.H. , 515 S.W.3d at 92. Among the types of actions or omissions constituting evidence meeting this standard are criminal activity, convictions, and incarceration; drug abuse, and knowledge that a child's parent abused drugs; permitting a child's access to harmful medication; and domestic violence and propensity for violence.\nThis case began with the parents' arrest for child endangerment, and Father's arrest for assault of a family member. Father argues that we should not consider the arrest for endangerment because those charges were dismissed due to the lack of corroborating evidence. Father also discounts his criminal history due to the remote temporal proximity between some of his convictions and Louise's birth and removal. We agree in part that the record does not reflect that Father's distant-past convictions necessarily posed a present or future danger to Louise to the extent they involved conduct unrelated to the reasons prompting Louise's removal. See Wetzel v. Wetzel , 715 S.W.2d 387, 389-91 (Tex. App.-Dallas 1986, no writ) (holding that, in termination suit, acts done in the distant past are insufficient to support termination unless the evidence proves a present or future danger to the child).\nRegarding the more recent charges, Father argues, \"there was no evidence of the father engaging in any criminal activity at any time during the child's life.\" Father argues that the only evidence relating to allegations of domestic violence, drugs, and the child's access to drugs are from the removal affidavit and the police report. To the contrary, despite the fact that criminal endangerment charges were dismissed, ample evidence supports a firm belief or conviction that Father physically abused Mother, cultivated marijuana plants on a large scale, used marijuana in Louise's presence, and permitted Louise access to prescription medication.\nFather also denied falsely that he was growing several marijuana plants and that he engaged in domestic violence. A parent's unwillingness to admit he has a substance-abuse problem suggests he will continue to engage in the same behaviors that endangered his child. See In re A.J.E.M.-B. , Nos. 14-14-00424-CV, 14-14-00444-CV, 2014 WL 5795484, at *5 (Tex. App.-Houston [14th Dist.] Nov. 6, 2014, no pet.) (mem. op.) (considering evidence that parents \"minimized concerns and were in denial of the impact that substance use has on their ability to sufficiently be in tune to the needs of their child.\"); In re E.H. , No. 02-09-00134-CV, 2010 WL 520774, at *4-*5 (Tex. App.-Fort Worth Feb. 11, 2010, no pet.) (mem. op.) (considering father's denial that his drug use and drug dealing harmed his children as factor in endangerment analysis). Cultivating large quantities of marijuana in a residence where a child is living is an endangering course of conduct to the child. A parent's continuing drug-related conduct can qualify as a voluntary, deliberate, and conscious course of conduct endangering the child's well-being. See In re J.O.A. , 283 S.W.3d 336, 345 (Tex. 2009) ; In re L.G.R. , 498 S.W.3d 195, 204 (Tex. App.-Houston [14th Dist.] 2016, pet. denied). A parent's drug use exposes the child to the possibility the parent may be impaired or imprisoned and, thus, unable to take care of the child. Walker v. Tex. Dep't of Family & Protective Servs. , 312 S.W.3d 608, 617-18 (Tex. App.-Houston [1st Dist.] 2009, pet. denied). Father never appeared for court-ordered drug tests, which the Department explained in the service plan would be considered to be a positive test result. The fact finder may give \"great weight\" to the \"significant factor\" of drug-related conduct. In re L.G.R. , 498 S.W.3d at 204.\nThe record further reflects Father's wholesale absence from Louise's life and Father's lack of parenting. The caseworker made numerous attempts throughout the case to contact Father, but Father never returned her calls. The only contact information the caseworker had for Father was the phone number he provided. Mother testified at the pre-trial hearing introduced into evidence that she last spoke to Father in late 2017, the same day he was charged with assaulting her. Mother presumed that Father had moved to Colorado to live with a previous girlfriend. By the time of trial the caseworker had been unable to make any contact with Father. Father failed to appear or respond to efforts to contact him during the pendency of the case. In terminating Father's parental rights, the trial court reasonably credited the evidence of the parenting void in Louise's life and Father's inability or unwillingness to safeguard the child's physical and emotional well-being. A lack of all contact with a child without any proffered excuse and no effort to ensure her well-being-coupled with multiple episodes of incarceration, the potential for future incarceration due to drug-related activity, and violence against the mother-is sufficient to support a termination finding based on endangerment. See In re Z.N.M. , No. 14-17-00650-CV, 2018 WL 358480 at *6 (Tex. App.-Houston [14th Dist.] Jan. 11, 2018, no pet.) (mem. op.). Father did not participate substantially in the child safety plan despite his knowledge that failing to do so risked termination of his parental rights.\nConsidered in the light most favorable to the trial court's finding, the evidence is legally sufficient to support the trial court's determination that termination of Father's parental rights was justified under Family Code section 161.001(b)(1)(E). Further, in view of the entire record, we conclude the disputed evidence is not so significant as to prevent the trial court from forming a firm belief or conviction that termination was warranted under section 161.001(b)(1)(E). Accordingly, we conclude the evidence is legally and factually sufficient to support the subsection E finding.\nHaving concluded the evidence is legally and factually sufficient to support the trial court's finding under subsection E, we need not review the sufficiency of the evidence to support the subsections D, N, and O findings. See In re A.V. , 113 S.W.3d 355, 362 (Tex. 2003). We overrule Father's first three issues.\nC. Best Interest of the Child\nWe turn to Father's legal and factual sufficiency challenges to the trial court's best-interest finding.\nThe best-interest inquiry is child-centered and focuses on the child's well-being, safety, and development. In re A.C. , 560 S.W.3d at 631. The trier of fact may consider several factors to determine the child's best interest, including: (1) the desires of the child; (2) the present and future physical and emotional needs of the child; (3) the present and future emotional and physical danger to the child; (4) the parental abilities of the persons seeking custody; (5) the programs available to assist those persons seeking custody in promoting the best interest of the child; (6) the plans for the child by the individuals or agency seeking custody; (7) the stability of the home or proposed placement; (8) acts or omissions of the parent that may indicate the existing parent-child relationship is not appropriate; and (9) any excuse for the parents' acts or omissions. Holley v. Adams , 544 S.W.2d 367, 371-72 (Tex. 1976) ; In re E.R.W. , 528 S.W.3d 251, 266 (Tex. App.-Houston [14th Dist.] 2017, no pet.) ; see also Tex. Fam. Code Ann. \u00a7 263.307(b) (listing factors to consider in evaluating parents' willingness and ability to provide the child with a safe environment).\nCourts apply a strong presumption that the best interest of the child is served by keeping the child with the child's natural parents, and it is the Department's burden to rebut that presumption. In re D.R.A. , 374 S.W.3d at 531. Prompt and permanent placement in a safe environment also is presumed to be in the child's best interest. Tex. Fam. Code Ann. \u00a7 263.307(a). A finding in support of \"best interest\" does not require proof of any unique set of factors, nor does it limit proof to any specific factors. See Holley , 544 S.W.2d at 371-72.\nIn arguing that the trial court's best-interest finding is not supported by legally and factually sufficient evidence Father states, \"[a]fter careful review of the evidence [Father] does not raise any of the aforementioned Holley factor issues.\" Rather than challenge the evidence for or against the Holley factors, Father argues that the Department failed to meet its burden of showing best interest because it failed to make reasonable efforts to locate a potential paternal relative for the child's placement. Father \"does not dispute whether the child's current placement is appropriate or meeting the child's needs but maintains the issue of 'best interest' cannot not [sic] be fully addressed without determining whether there is a potential paternal relative suitable for placement and whether the child would have made similar progress while potentially placed with relatives.\"\nThough the State gives preference to an adult relative over a non-relative if that placement is in the best interest of the child, the overriding consideration for the court in placement decisions is always the child's best interest. See In re S.P. , 168 S.W.3d 197, 211 (Tex. App-Dallas 2005, no pet.). A child's anticipated placement is a factor in determining the child's best interest, but the fact that placement will be with non-relatives is not a bar to termination. See In re A.L. , 389 S.W.3d 896, 902 (Tex. App.-Houston [14th Dist.] 2012, no pet.). That the Department has not considered potential placement with a paternal relative does not bear on whether termination is in the child's best interest. In re K.P.C. , No. 14-17-00993-CV, 2018 WL 2106669, at *12 (Tex. App.-Houston [14th Dist.] May 8, 2018, pet. denied) (mem. op.).\nWe review the Holley factors in light of the evidence at trial. Applying them, we observe that Louise was two years old at the time of trial and too young to testify about her desire. There is no evidence, however, that she has bonded with Father because he has remained consistently absent from her life since her removal. See In re L.G.R. , 498 S.W.3d 195, 205 (Tex. App.-Houston [14th Dist.] 2016, pet. denied) (When children are too young to express their desires, the fact finder may consider that the children have bonded with the foster family, are well cared for by the foster family, and have spent minimal time with a parent). In contrast, Louise was \"very bonded\" with her foster family. The Child Advocate testified that Louise was developing social skills, and \"lights up\" when her foster grandmother is mentioned.\nFather failed to demonstrate the ability to provide Louise with a stable environment and emotional support. He has not demonstrated any desire or ability to be with Louise at all, nor has he sought information about his daughter's well-being, let alone reunification with her. The trial court reasonably could have inferred that Father's consistent, and at times violent, conduct would endanger the physical or emotional well-being of a child in his custody. Father has not contacted the Department or sought services that might assist him in improving his parenting skills, nor has Father offered excuses for his behavior.\nA court may consider whether a parent demonstrated willingness to effect positive environmental and personal changes within a reasonable amount of time. See Tex. Fam. Code Ann. \u00a7 263.307(b)(11). Father failed to demonstrate such a willingness.\nViewing the evidence in the light most favorable to the judgment for our legal-sufficiency analysis and all of the evidence equally for our factual-sufficiency analysis, we conclude that a reasonable fact finder could have formed a firm belief or conviction that termination of Father's parental rights was in the child's best interest. See Tex. Fam. Code Ann. \u00a7 161.001(b)(2). We overrule Father's fourth issue.\nIII. CONCLUSION\nThe evidence is legally and factually sufficient to support the predicate termination finding under subsection E. And, based on the evidence presented, the trial court reasonably could have formed a firm belief or conviction that terminating Father's parental rights was in the child's best interest so that she could promptly achieve permanency through adoption. See In re M.G.D. , 108 S.W.3d 508, 513-14 (Tex. App.-Houston [14th Dist.] 2003, pet. denied).\nWe affirm the decree terminating Father's parental rights and naming the Department managing conservator. We dismiss the Intervenors' appeal.\n\"Louise\" is a pseudonym. Pursuant to Texas Rule of Appellate Procedure 9.8, we use fictitious names to identify the minor and other individuals involved in this case.\nBecause Intervenors were not entitled to appointment of counsel we are not required to order appointment of counsel on their behalf. See Tex. Fam. Code Ann. \u00a7 107.013.\nThe reporters' record of this hearing was the only one of several pre-trial reporters' records admitted at trial. In his brief Father cites records from other pre-trial hearings but we consider only the record admitted into evidence and disregard all references to records not admitted into evidence. See In re J.J.F.R. , No. 04-15-00751-CV, 2016 WL 3944823, at *3 (Tex. App.-San Antonio July 20, 2016, no pet.) (citing Guyton v. Monteau , 332 S.W.3d 687, 693 (Tex. App.-Houston [14th Dist.] 2011, no pet.) ).\nIn re V.V. , 349 S.W.3d 548, 554 (Tex. App.-Houston [1st Dist.] 2010, pet. denied). Evidence of criminal conduct, convictions, imprisonment, and their effects on a parent's life and ability to parent, may establish an endangering course of conduct. In re S.M. , 389 S.W.3d 483, 492 (Tex.App.-El Paso 2012). Routinely subjecting children to the probability that they will be left alone because their parent is in jail endangers children's physical and emotional well-being. See Walker v. Tex. Dep't of Family and Protective Servs. , 312 S.W.3d 608, 617 (Tex. App.-Houston [1st Dist.] 2009, pet. denied). Imprisonment alone is not an endangering course of conduct but is a fact properly considered on the endangerment issue. Boyd , 727 S.W.2d at 533-34.\nIn re U.P. , 105 S.W.3d 222, 234 (Tex. App.-Houston [14th Dist.] 2003, pet. denied) (finding evidence legally sufficient to support endangerment when father knew mother abused drugs while pregnant, but failed to report mother to the department or police).\nSee Leal v. Texas Dep't of Protective & Regulatory Servs. , 25 S.W.3d 315, 325 (Tex. App.-Austin 2000, no pet.), disapproved on other grounds , In re J.F.C. , 96 S.W.3d 256, n.39 (Tex. 2002) (mother endangered children by allowing access to medication that could have killed them if ingested).\n\"Domestic violence, want of self-control, and propensity for violence may be considered as evidence of endangerment.\" In re J.I.T.P. , 99 S.W.3d 841, 845 (Tex. App.-Houston [14th Dist.] 2003, no pet.) ; accord S.R. , 452 S.W.3d at 361. Violence does not have to be directed toward the child or result in a final conviction-\"Texas courts routinely consider evidence of parent-on-parent physical abuse in termination cases without specifically requiring evidence that the conduct resulted in a criminal conviction.\" In re V.V. , 349 S.W.3d at 556 ; see also In re S.M.L. , 171 S.W.3d 472, 479 (Tex. App.-Houston [14th Dist.] 2005, no pet.).\nThe record reflects Father assaulted Mother both on the day Louise came into care and several months later. Father was charged with killing Mother in California where she had moved to escape Father's violence. The murder charge was pending at the time of the termination trial.",
+        "type": "majority",
+        "author": "Kevin Jewell, Justice"
+      }
+    ],
+    "attorneys": [
+      "John R. Millard, Sugar Land, TX, Michael Francis Craig, Houston, TX, for Appellant.",
+      "Robert J. Hazeltine-Shedd, Houston, TX, for Appellee."
+    ],
+    "corrections": "",
+    "head_matter": "In the INTEREST OF L.M., a Child\nNO. 14-18-01047-CV\nCourt of Appeals of Texas, Houston (14th Dist.).\nOpinion filed April 9, 2019\nJohn R. Millard, Sugar Land, TX, Michael Francis Craig, Houston, TX, for Appellant.\nRobert J. Hazeltine-Shedd, Houston, TX, for Appellee.\nPanel consists of Chief Justice Frost and Justices Jewell and Bourliot."
+  },
+  "file_name": "0823-01",
+  "first_page_order": 823,
+  "last_page_order": 838
+}

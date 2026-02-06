@@ -1,0 +1,59 @@
+{
+  "id": 5919476,
+  "name": "Menchaca v. United States",
+  "name_abbreviation": "Menchaca v. United States",
+  "decision_date": "2011-04-18",
+  "docket_number": "No. 10-9506",
+  "first_page": "951",
+  "last_page": "951",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 951"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.619,
+    "sha256": "eb5778b139478ea936c4707f1b9e163e5f9ca545234f6135fd227b7b15b5a7ae",
+    "simhash": "1:97a8d382092c9d6e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Menchaca v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9506.\nMenchaca v. United States."
+  },
+  "file_name": "0951-09",
+  "first_page_order": 977,
+  "last_page_order": 977
+}

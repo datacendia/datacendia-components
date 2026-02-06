@@ -1,0 +1,59 @@
+{
+  "id": 12197672,
+  "name": "Issa v. Commissioner of Internal Revenue",
+  "name_abbreviation": "Issa v. Commissioner",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-1486",
+  "first_page": "824",
+  "last_page": "824",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 824"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 89,
+    "ocr_confidence": 0.61,
+    "sha256": "328b3de8a7d4d79428741e0f619e902074c2ee010b84c43b6acaba7a64f04f1d",
+    "simhash": "1:c683e2a80f2756fe",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Issa v. Commissioner of Internal Revenue."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1486.\nIssa v. Commissioner of Internal Revenue."
+  },
+  "file_name": "0824-06",
+  "first_page_order": 906,
+  "last_page_order": 906
+}

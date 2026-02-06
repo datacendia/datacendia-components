@@ -1,0 +1,59 @@
+{
+  "id": 5998533,
+  "name": "Brown v. Cortez Masto, Attorney General of Nevada, et al.",
+  "name_abbreviation": "Brown v. Cortez Masto",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8199",
+  "first_page": "1238",
+  "last_page": "1238",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1238"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 18,
+    "char_count": 105,
+    "ocr_confidence": 0.616,
+    "sha256": "9bcd341245186fa67aa95b3378ea93324872619aa9e106aae0ffe6fb0188f176",
+    "simhash": "1:e0f8209b4fafb75c",
+    "word_count": 18
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Brown v. Cortez Masto, Attorney General of Nevada, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8199.\nBrown v. Cortez Masto, Attorney General of Nevada, et al."
+  },
+  "file_name": "1238-12",
+  "first_page_order": 1260,
+  "last_page_order": 1260
+}

@@ -1,0 +1,734 @@
+{
+  "id": 3892797,
+  "name": "In re SOTERO GOMEZ on Habeas Corpus",
+  "name_abbreviation": "In re Gomez",
+  "decision_date": "2009-02-02",
+  "docket_number": "No. S155425",
+  "first_page": "650",
+  "last_page": "661",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "45 Cal. 4th 650"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal.",
+    "id": 9021,
+    "name": "Supreme Court of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "546 U.S. 1169",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3811489,
+        5877861,
+        3812422,
+        5937607,
+        5989189,
+        5936143,
+        5894864,
+        6010065,
+        3809523,
+        5981909,
+        5929277,
+        5975070
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/546/1169-06",
+        "/us/546/1169-05",
+        "/us/546/1169-03",
+        "/us/546/1169-02",
+        "/us/546/1169-08",
+        "/us/546/1169-01",
+        "/us/546/1169-10",
+        "/us/546/1169-07",
+        "/us/546/1169-11",
+        "/us/546/1169-04",
+        "/us/546/1169-09",
+        "/us/546/1169-12"
+      ]
+    },
+    {
+      "cite": "129 S.Ct. 767",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "172 L.Ed.2d 763",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "528 F.3d 624",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3579703
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "634-639"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/528/0624-01"
+      ]
+    },
+    {
+      "cite": "397 F.3d 479",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9035886
+      ],
+      "pin_cites": [
+        {
+          "page": "481"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/397/0479-01"
+      ]
+    },
+    {
+      "cite": "398 F.3d 855",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9031615
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "862-863"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/398/0855-01"
+      ]
+    },
+    {
+      "cite": "400 F.3d 864",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9175024
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "867-868"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/400/0864-01"
+      ]
+    },
+    {
+      "cite": "404 F.3d 139",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9012667
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "142-144"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/404/0139-01"
+      ]
+    },
+    {
+      "cite": "407 F.3d 608",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8972734
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "613-616"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/407/0608-01"
+      ]
+    },
+    {
+      "cite": "411 F.3d 1182",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8957303
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "1188"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/411/1182-01"
+      ]
+    },
+    {
+      "cite": "423 F.3d 1119",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8930931
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "1120"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/423/1119-01"
+      ]
+    },
+    {
+      "cite": "543 U.S. 220",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5925862
+      ],
+      "weight": 3,
+      "year": 2005,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/543/0220-01"
+      ]
+    },
+    {
+      "cite": "143 N.M. 7",
+      "category": "reporters:state",
+      "reporter": "N.M.",
+      "case_ids": [
+        3784502
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/nm/143/0007-01"
+      ]
+    },
+    {
+      "cite": "414 F.3d 1025",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8972346
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/414/1025-01"
+      ]
+    },
+    {
+      "cite": "552 U.S. 264",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3675901
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/552/0264-01"
+      ]
+    },
+    {
+      "cite": "475 P.2d 841",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 2008,
+      "opinion_index": 0
+    },
+    {
+      "cite": "90 Cal.Rptr. 569",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 2008,
+      "opinion_index": 0
+    },
+    {
+      "cite": "3 Cal.3d 404",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2313200
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "415"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/3/0404-01"
+      ]
+    },
+    {
+      "cite": "506 U.S. 461",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11925359
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "478"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/506/0461-01"
+      ]
+    },
+    {
+      "cite": "161 P.3d 1146",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "62 Cal.Rptr.3d 588",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "41 Cal.4th 825",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3818842
+      ],
+      "pin_cites": [
+        {
+          "page": "838"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/41/0825-01"
+      ]
+    },
+    {
+      "cite": "486 U.S. 367",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6217594
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/486/0367-01"
+      ]
+    },
+    {
+      "cite": "542 U.S. 406",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5858880
+      ],
+      "weight": 6,
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "416-417"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/542/0406-01"
+      ]
+    },
+    {
+      "cite": "428 U.S. 262",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6177197
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/428/0262-01"
+      ]
+    },
+    {
+      "cite": "438 U.S. 586",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1769215
+      ],
+      "weight": 3,
+      "year": 1976,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/438/0586-01"
+      ]
+    },
+    {
+      "cite": "455 U.S. 104",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11304091
+      ],
+      "weight": 3,
+      "year": 1978,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/455/0104-01"
+      ]
+    },
+    {
+      "cite": "492 U.S. 302",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6214810
+      ],
+      "weight": 4,
+      "year": 1982,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/492/0302-01"
+      ]
+    },
+    {
+      "cite": "446 U.S. 420",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6183794
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/446/0420-01"
+      ]
+    },
+    {
+      "cite": "494 U.S. 738",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5352
+      ],
+      "weight": 3,
+      "year": 1980,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/494/0738-01"
+      ]
+    },
+    {
+      "cite": "503 U.S. 222",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6225374
+      ],
+      "weight": 5,
+      "year": 1990,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/503/0222-01"
+      ]
+    },
+    {
+      "cite": "161 P.3d 1130",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "62 Cal.Rptr.3d 569",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "41 Cal.4th 799",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3818824
+      ],
+      "pin_cites": [
+        {
+          "page": "812"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/41/0799-01"
+      ]
+    },
+    {
+      "cite": "376 F.3d 967",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9376853
+      ],
+      "pin_cites": [
+        {
+          "page": "973"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/376/0967-01"
+      ]
+    },
+    {
+      "cite": "530 U.S. 466",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9413911
+      ],
+      "weight": 4,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/530/0466-01"
+      ]
+    },
+    {
+      "cite": "494 U.S. 407",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5098
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "414"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/494/0407-01"
+      ]
+    },
+    {
+      "cite": "381 U.S. 618",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6172443
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/381/0632-01"
+      ]
+    },
+    {
+      "cite": "406 P.2d 33",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.Rptr. 753",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "63 Cal.2d 400",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2335720
+      ],
+      "pin_cites": [
+        {
+          "page": "405-406"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/63/0400-01"
+      ]
+    },
+    {
+      "cite": "510 U.S. 383",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        230324
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "390"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/510/0383-01"
+      ]
+    },
+    {
+      "cite": "489 U.S. 288",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12032050
+      ],
+      "weight": 4,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/489/0288-01"
+      ]
+    },
+    {
+      "cite": "126 S.Ct. 1329",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "164 L.Ed.2d 47",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "113 P.3d 534",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 Cal.Rptr.3d 740",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.4th 1238",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        873206
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/35/1238-01"
+      ]
+    },
+    {
+      "cite": "542 U.S. 296",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5868041
+      ],
+      "weight": 8,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/542/0296-01"
+      ]
+    },
+    {
+      "cite": "549 U.S. 270",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3553669
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "297-311"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/549/0270-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1031,
+    "char_count": 23670,
+    "ocr_confidence": 0.926,
+    "pagerank": {
+      "raw": 6.427074426659019e-08,
+      "percentile": 0.39706755104255115
+    },
+    "sha256": "28eee7d31b3bba4d55fe0dc5d3a003067cd4f60d73caa8ab6efb910c15361030",
+    "simhash": "1:1828ea066bf084ad",
+    "word_count": 3857
+  },
+  "last_updated": "2024-02-27T22:20:01.435318+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re SOTERO GOMEZ on Habeas Corpus"
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nGEORGE, C. J.\nThis case presents the question whether Cunningham v. California (2007) 549 U.S. 270 [166 L.Ed.2d 856, 127 S.Ct. 856] (Cunningham) applies on collateral review of a judgment that became final before Cunningham was decided but after Blakely v. Washington (2004) 542 U.S. 296 [159 L.Ed.2d 403, 124 S.Ct. 2531] (Blakely) was decided. We conclude that Cunningham does apply in these circumstances, and reverse the contrary decision of the Court of Appeal.\nI.\nPetitioner was convicted of rape and was sentenced to the upper term of eight years in state prison. (Pen. Code, \u00a7 261, subd. (a)(2).) At his sentencing hearing, the trial court cited the following as aggravating circumstances, in support of its decision to impose the upper term: the victim (petitioner\u2019s daughter) was particularly vulnerable, the crime was vicious and callous, petitioner threatened witnesses, petitioner took advantage of a position of trust and confidence, petitioner engaged in a common scheme or plan to use his daughters for sexual purposes, and the victim was under the age of 18 years.\nPetitioner\u2019s sentencing hearing took place on July 29, 2004, five weeks after the United States Supreme Court issued its opinion in Blakely, supra, 542 U.S. 296. Blakely held that a criminal defendant\u2019s Sixth Amendment right to jury trial was violated by a Washington state trial court\u2019s imposition of \u201c \u2018an exceptional sentence\u2019 \u201d beyond the \u201c \u2018standard range\u2019 \u201d provided under Washington\u2019s Sentencing Reform Act, based upon facts that had not been found to be true by a jury beyond a reasonable doubt. (Blakely, supra, 542 U.S. at p. 299.) Petitioner in the present case, both in the trial court and on appeal, argued that the imposition of the upper term sentence violated his Sixth Amendment rights under Blakely because none of the aggravating circumstances had been found true by a jury. On June 16, 2005, during the time petitioner\u2019s appeal was pending, this court decided People v. Black (2005) 35 Cal.4th 1238 [29 Cal.Rptr.3d 740, 113 P.3d 534] (Black I), holding that Blakely did not apply to California\u2019s determinate sentencing law (DSL). Thereafter, in the present proceedings, the Court of Appeal upheld petitioner\u2019s upper term sentence on September 8, 2005, relying upon our decision in Black I. Petitioner did not seek review in this court or in the United States Supreme Court.\nSubsequently, the United States Supreme Court granted certiorari in Cunningham v. California (2006) 546 U.S. 1169 [164 L.Ed.2d 47, 126 S.Ct. 1329], to address the application of Blakely to California\u2019s DSL. Nearly one year later, on January 22, 2007, the United States Supreme Court held that, contrary to this court\u2019s decision in Black I, the Sixth Amendment rights to a jury trial and proof beyond a reasonable doubt apply to aggravating factors that make a defendant eligible for an upper term sentence under the DSL. (Cunningham, supra, 549 U.S. at pp. 288-293.)\nPetitioner filed a petition for writ of habeas corpus in the superior court on February 20, 2007, one month after the Cunningham decision was issued, again challenging imposition of the upper term sentence. The superior court denied relief, concluding that Cunningham applies only to cases not yet final as of the date of the high court\u2019s decision. Petitioner then filed a habeas corpus petition in the Court of Appeal, which issued an order to show cause.\nThe Court of Appeal subsequently denied the petition, concluding that because Cunningham established a \u201cnew rule,\u201d the rule applies only to judgments not yet final at the time Cunningham was decided. The appellate court applied the retroactivity test established in Teague v. Lane (1989) 489 U.S. 288 [103 L.Ed.2d 334, 109 S.Ct. 1060] (Teague), and employed by federal courts in habeas corpus proceedings, in reviewing state court judgments. Under that test, a decision establishing a \u201cnew rule\u201d applies only to state court judgments not yet final at the time of the decision, unless one of two very limited exceptions applies. {Id. at p. 301.) For purposes of the Teague test, a case is final \u201cwhen the availability of direct appeal to the state courts has been exhausted and the time for filing a petition for a writ of certiorari has elapsed or a timely filed petition has been finally denied.\u201d (Caspari v. Bohlen (1994) 510 U.S. 383, 390 [127 L.Ed.2d 236, 114 S.Ct. 948].) Petitioner does not dispute that the judgment in his case was final before Cunningham was decided. The critical question, then, is whether Cunningham established a new rule for purposes of retroactivity analysis. Under the decision in Teague, \u201ca case announces a new rule if the result was not dictated by precedent existing at the time the defendant\u2019s conviction became final.\u201d (Teague, supra, 489 U.S. at p. 301, italics omitted.)\nThe Court of Appeal below reasoned that the result in Cunningham was not dictated by Blakely, because that outcome was susceptible to debate among reasonable jurists, as evidenced by (1) the many pre-Black I opinions in the California Courts of Appeal concluding Blakely did not apply to California\u2019s DSL, (2) this court\u2019s own decision in Black I, and (3) the dissents by three justices of the United States Supreme Court in Cunningham. (See Cunningham, supra, 549 U.S. 270, 297-311 (dis. opn. of Alito, J.).) Accordingly, the Court of Appeal found it \u201creadily apparent\u201d that Cunningham announced a new rule of law. We granted review.\nII.\nOrdinarily, we will provide a remedy on collateral review of a final judgment if that remedy would be available in the federal courts. \u201cWhether or not we are compelled to afford defendants a comparable state collateral remedy [citations], the availability of the federal remedy makes it pointless for us to refuse to do so . . . .\u201d (In re Spencer (1965) 63 Cal.2d 400, 405-406 [46 Cal.Rptr. 753, 406 P.2d 33].) As a matter of practical policy, it would not make sense for our state courts to reject claims grounded upon Cunningham if those claims would be granted in the federal courts. Such a course of action would result in duplicative litigation and greater delay in achieving finality of state court judgments. Consequently, if we conclude that the United States Supreme Court would require the federal courts to afford relief under Cunningham to petitioners in habeas corpus proceedings whose judgments became final after Blakely but before Cunningham, we will apply the high court\u2019s decision in Cunningham in such proceedings as well.* *\nIn Teague, the United States Supreme Court abandoned the approach it previously had employed in determining the retroactive effect of new rules. Under its former approach, the court considered (1) the purpose of the new rule, (2) the reliance of the states on prior law, and (3) the effect on the administration of justice of a retroactive application of the rule. (See Linkletter v. Walker (1965) 381 U.S. 618 [14 L.Ed.2d 601, 85 S.Ct. 1731].) The court in Teague observed that the Linkletter standard \u201chas been used to limit application of certain new rules to cases on direct review, other new rules only to the defendants in the cases announcing such rules, and still other new rules to cases in which trials have not yet commenced.\u201d (Teague, 489 U.S. at p. 302.) The court believed it was inequitable to give the benefit of a new rule to the defendant in the case in which the new rule was announced, but to deny the benefit of that rule to similarly situated defendants whose judgments were not yet final. (Id. at p. 304.) Under the standard announced in Teague, new rules should apply to all cases in which the judgment is not yet final. Conversely, new rules generally should not be applied retroactively to cases in which the judgment was final when the new rule was established. (Id. at pp. 305-310.)\n\u201c[A] case announces a new rule when it breaks new ground or imposes a new obligation on the States or the Federal Government. [Citations.] To put it differently, a case announces a new rule if the result was not dictated by precedent existing at the time the defendant\u2019s conviction became final.\u201d (Teague, supra, 489 U.S. at p. 301, italics omitted.) \u201cTeague's nonretroactivity principle acts as a limitation on the power of federal courts to grant \u2018habeas corpus relief to . . . state prisoners] \u2019 [Citation.]\u201d (Beard v. Banks, supra, 542 U.S. at p. 412.) \u201cThe \u2018new rule\u2019 principle . . . validates reasonable, good-faith interpretations of existing precedents made by state courts even though they are shown to be contrary to later decisions.\u201d (Butler v. McKellar (1990) 494 U.S. 407, 414 [108 L.Ed.2d 347, 110 S.Ct. 1212].)\nWe have little doubt that, if faced with the issue, the United States Supreme Court would conclude that Cunningham did not break new ground and that it was \u201cdictated by\u201d Blakely\u25a0\u2014\u201cprecedent existing at the time [petitioner\u2019s] conviction became final.\u201d (Teague, supra, 489 U.S. at p. 301, italics omitted.) As we previously have explained, \u201cBlakely extended the scope of the high court\u2019s earlier decision in Apprendi v. New Jersey (2000) 530 U.S. 466 [147 L.Ed.2d 435, 120 S.Ct. 2348] (Apprendi), which established that a defendant has a federal constitutional right to a jury trial on sentence enhancements, a right that already was accorded to California defendants by statute. [Citations.]\u201d (Black I, supra, 35 Cal.4th at p. 1248.) Apprendi established the rule that \u201c[o]ther than the fact of a prior conviction, any fact that increases the penalty for a crime beyond the prescribed statutory maximum must be submitted to a jury, and proved beyond a reasonable doubt.\u201d (Apprendi v. New Jersey, supra, 530 U.S. at p. 490.) \u201cSeveral years after the Apprendi decision, Blakely extended the jury trial requirement set forth in Apprendi, redrawing the line between factual findings that require a jury trial, and sentencing factors on which a judge may make findings. In Blakely, the high court held that the prescribed 1 \u201cstatutory maximum\u201d \u2019 for purposes of the right to a jury trial is not necessarily the maximum penalty stated in the statute for the crime; rather, it is \u2018the maximum sentence a judge may impose solely on the basis of the facts reflected in the jury verdict or admitted by the defendant.\u2019 (Blakely, supra, 542 U.S. at p. 303.)\u201d (Black I, supra, 35 Cal.4th at p. 1250, italics omitted.) \u201cWe agree with the assessment of a federal court that \u2018[w]ith its clarification of a defendant\u2019s Sixth Amendment rights, the Blakely court worked a sea change in the body of sentencing law.\u2019 (U.S. v. Ameline (9th Cir. 2004) 376 F.3d 967, 973, fn. omitted.)\u201d (People v. Black (2007) 41 Cal.4th 799, 812 [62 Cal.Rptr.3d 569, 161 P.3d 1130] (Black II).)\nThe Cunningham decision, on the other hand, did not extend or modify the rule established in Blakely, but merely applied it to the California sentencing scheme. The high court\u2019s opinion in Cunningham explains that under the DSL, an upper term sentence may be imposed only if an aggravating circumstance is present, and \u201caggravating circumstances depend on facts found discretely and solely by the judge. In accord with Blakely, therefore, the middle term prescribed in California\u2019s statutes, not the upper term, is the relevant statutory maximum.\u201d (Cunningham, supra, 549 U.S. at p. 288.) The Cunningham opinion rejects the rationale of Black I as inconsistent with Blakely. Cunningham notes that Black I emphasized \u201cthe ample discretion afforded trial judges to identify aggravating facts warranting an upper term sentence\u201d under the DSL. (Cunningham, supra, 549 U.S. at p. 289.) The opinion in Cunningham addresses this point by stating that the high court \u201ccautioned in Blakely, however, that broad discretion to decide what facts may support an enhanced sentence, or to determine whether an enhanced sentence is warranted in any particular case, does not shield a sentencing system from the force of our decisions. If the jury\u2019s verdict alone does not authorize the sentence, if, instead, the judge must find an additional fact to impose the longer term, the Sixth Amendment requirement is not satisfied.\u201d (Cunningham, supra, 549 U.S. at p. 290, citing Blakely, supra, 542 U.S. at p. 305 & fn. 8.)\nCunningham also rejects, as inconsistent with Blakely, the rationale of Black I that \u201cCalifornia\u2019s sentencing system does not implicate significantly the concerns underlying the Sixth Amendment\u2019s jury-trial guarantee.\u201d (Cunningham, supra, 549 U.S. at pp. 290-291.) \u201cAsking whether a defendant\u2019s basic jury-trial right is preserved, though some facts essential to punishment are reserved for determination by the judge, we have said, is the very inquiry Apprendi\u2019s \u2018bright-line rule\u2019 was designed to exclude.\u201d (Id. at p. 291, citing Blakely, supra, 542 U.S. at pp. 307-308.) It seems clear that the United States Supreme Court does not view its application of Blakely to California law as an extension or modification of the constitutional rule it previously established in Blakely, which it viewed as a \u201cbright-line rule.\u201d\nThe Attorney General, like the Court of Appeal below, points to the dissents of three justices in Cunningham, as well as the opinion of this court in Black I, as evidence that Cunningham was not dictated by Blakely. In assessing whether a decision was compelled by precedent, the high court may consider, but does not necessarily find determinative, the existence of contrary views on the issue by dissenting justices or by jurists in other cases. For example, Stringer v. Black (1992) 503 U.S. 222 [117 L.Ed.2d 367, 112 S.Ct. 1130], held that Clemons v. Mississippi (1990) 494 U.S. 738 [108 L.Ed.2d 725, 110 S.Ct. 1441], which applied the holding of Godfrey v. Georgia (1980) 446 U.S. 420 [64 L.Ed.2d 398, 100 S.Ct. 1759] to the Mississippi capital sentencing scheme, did not establish new law. The high court rejected the argument that the application of the Godfrey holding to the Mississippi sentencing process constituted a new rule because of differences between the Mississippi statute at issue in Clemons and the Georgia statute at issue in Godfrey. (Stringer, supra, 503 U.S. at p. 229 [\u201cthose differences could not have been considered a basis for denying relief in light of precedent existing at the time petitioner\u2019s sentence became final\u201d].) In its retroactivity analysis, the high court considered, but did not find determinative, the circumstance that prior to Clemons the United States Court of Appeals for the Fifth Circuit had concluded that Godfrey did not apply to the Mississippi statutory scheme. \u201cReasonableness, in this as in many other contexts, is an objective standard, and the ultimate decision whether Clemons was dictated by precedent is based on an objective reading of the relevant cases.\u201d (Stringer, supra, 503 U.S. at p. 237.)\nSimilarly, in Penry v. Lynaugh (1989) 492 U.S. 302 [106 L.Ed.2d 256, 109 S.Ct. 2934], the United States Supreme Court concluded that its prior decisions in Eddings v. Oklahoma (1982) 455 U.S. 104 [71 L.Ed.2d 1, 102 S.Ct. 869], Lockett v. Ohio (1978) 438 U.S. 586 [57 L.Ed.2d 973, 98 S.Ct. 2954], and Jurek v. Texas (1976) 428 U.S. 262 [49 L.Ed.2d 929, 96 S.Ct. 2950], which were decided before Penry\u2019s conviction became final, compelled the conclusion that the jury at the penalty phase of the trial should have been instructed that it could give mitigating effect to evidence of Penry\u2019s abused background and mental retardation. Although the prior decisions recognized that juries in capital cases must not be prohibited from considering such evidence, these decisions did not address the precise question of whether jury instructions on this point were required. The high court concluded that such instructions must be given, but that this ruling did not establish new law, despite the circumstance that the state court and lower federal courts had ruled against the defendant and three of the high court\u2019s own justices dissented on the merits of that issue. (See Penry, supra, 492 U.S. at pp. 314\u2014319.)\nIn Beard v. Banks, supra, 542 U.S. 406, on the other hand, the high court did point to dissenting opinions as evidence that a decision was not dictated by precedent. The high court in Beard concluded that \u201creasonable jurists could have differed\u201d on the holding in Mills v. Maryland (1988) 486 U.S. 367 [100 L.Ed.2d 384, 108 S.Ct. 1860], which invalidated a sentencing scheme that required the capital sentencing jury to disregard mitigating factors it did not unanimously find to be true. (Beard, supra, 542 U.S. at pp. 414-415.) The opinion in Beard pointed to the circumstance that four justices dissented in Mills. (Beard, supra, 542 U.S. at p. 415.) The court cautioned, however, that \u201c[b]ecause the focus of the inquiry is whether reasonable jurists could differ as to whether precedent compels the sought-for rule, we do not suggest that the mere existence of a dissent suffices to show that the rule is new.\u201d (Id. at p. 416, fn. 5, italics omitted.)\nIn Cunningham, a majority of the United States Supreme Court simply applied to California\u2019s sentencing law what it viewed as a bright-line rule, concluding that all of the arguable grounds identified in Black I for distinguishing the California sentencing scheme from the Washington scheme already had been rejected in Blakely Consequently, we believe that the high court would view the result in Cunningham not as new law, but as one dictated by Blakely, regardless of any previous disagreement among jurists on the merits of the issue.\nAccordingly, Cunningham applies retroactively to any case in which the judgment was not final at the time the decision in Blakely was issued. Those who wish to raise a challenge under Blakely to the imposition of an upper term sentence may do so by filing a petition for writ of habeas corpus in the trial court. In order to obtain relief, any such petitioner will be required to establish, of course, that a violation of the Sixth Amendment occurred in his or her case. Imposition of the upper term violates the Sixth Amendment under Blakely and Cunningham only if no legally sufficient aggravating circumstance has been found to exist by the jury or been established under one of the exceptions to Blakely\u2019s jury trial requirement. (Black II, supra, 41 Cal.4th at p. 816.) Moreover, even if error is established, resentencing is not required if the record demonstrates the error was harmless beyond a reasonable doubt. (See People v. Sandoval (2007) 41 Cal.4th 825, 838 [62 Cal.Rptr.3d 588, 161 P.3d 1146].)\nIII.\nThe decision of the Court of Appeal denying the petition for writ of habeas corpus is reversed, and the case is remanded to that court for further proceedings consistent with this opinion.\nKennard, J., Baxter, J., Werdegar, 1, Chin, J., Moreno, J., and Corrigan, J., concurred.\nAll further statutory references are to the Penal Code, unless otherwise noted.\nTeague's bar on retroactive application of new rules does not apply to those rules \u201cforbidding punishment \u2018of certain primary conduct [or to] rules prohibiting a certain category of punishment for a class of defendants because of their status or offense.\u2019 [Citations.]\u201d (Beard v. Banks (2004) 542 U.S. 406, 416-417 [159 L.Ed.2d 494, 124 S.Ct. 2504].) It also does not apply to \u201c \u2018 \u201cwatershed rules of criminal procedure\u201d implicating the fundamental fairness and accuracy of the criminal proceeding.\u2019 \u201d (Graham v. Collins (1993) 506 U.S. 461, 478 [122 L.Ed.2d 260, 113 S.Ct. 892].)\nOf course, we are \u201cfree to give greater retroactive impact to a decision than the federal courts choose to give.\u201d (In re Johnson (1970) 3 Cal.3d 404, 415 [90 Cal.Rptr. 569, 475 P.2d 841]; see Danforth v. Minnesota (2008) 552 U.S. 264 [169 L.Ed.2d 859, 128 S.Ct. 1029].) Petitioner urges us to apply Cunningham retroactively under state law. Because we conclude that Teague requires the application of Cunningham in the present case, we need not consider the result we would reach under state retroactivity principles.\nSee also Schardt v. Payne (9th Cir. 2005) 414 F.3d 1025 (concluding that Blakely established a new rule that does not apply retroactively to cases that were final when the high court rendered its decision).\nRelying upon a similar theory, the Supreme Court of New Mexico held that its decision holding its state sentencing law unconstitutional under Cunningham would not apply retroactively. (State v. Frawley (2007) 2007 NMSC 57 [143 N.M. 7, 172 P.3d 144].) The New Mexico court concluded that its opinion established new law in overruling a prior decision that had upheld the sentencing scheme against a constitutional challenge raised under Blakely. (Id.., 111 P.3d at pp. 156-157.)\nRespondent observes that the federal appellate courts uniformly have concluded that United States v. Booker (2004) 543 U.S. 220 [160 L.Ed.2d 621, 125 S.Ct. 738], which applied Apprendi and Blakely to the federal sentencing guidelines and found them to be unconstitutional, established a new rule that does not apply retroactively under Teague. (See, e.g., U.S. v. Cruz (9th Cir. 2005) 423 F.3d 1119, 1120; U.S. v. Bellamy (10th Cir. 2005) 411 F.3d 1182, 1188; Lloyd v. U.S. (3d Cir. 2005) 407 F.3d 608, 613-616; Guzman v. U.S. (2d Cir. 2005) 404 F.3d 139, 142-144; Varela v. U.S. (11th Cir. 2005) 400 F.3d 864, 867-868; Humphress v. U.S. (6th Cir. 2005) 398 F.3d 855, 862-863; McReynolds v. U.S. (7th Cir. 2005) 397 F.3d 479, 481.) Even assuming, however, that the United States Supreme Court would agree with these courts that Booker created new law, that decision arguably amounts to a greater extension of Blakely than does Cunningham. In Booker, the high court addressed and rejected two arguments in support of the constitutionality of the federal guidelines that arguably distinguished the federal guidelines from the Washington sentencing scheme addressed in Blakely. (1) those guidelines were promulgated by the sentencing commission, rather than by Congress; consequently, all sentences imposed under the guidelines were within the maximum established by statute, and (2) a number of United States Supreme Court decisions implicitly had upheld the federal guidelines. (Booker, supra, 543 U.S. at pp. 237-243.) Although the high court rejected both of these arguments, their presence in the decision suggests that Booker may not have been \u201cdictated by\u201d Blakely. In contrast, as noted above, the court in Cunningham viewed the issues in that case as having been previously resolved in Blakely.\nIndeed, we recognized in Black I that the difference between the Washington sentencing scheme at issue in Blakely and the California sentencing scheme was only one of degree, in that \u201c[t]he level of discretion afforded to the judge in imposing the upper term rather than the middle term, based on all the circumstances of the case,\u201d under California law was greater than the discretion afforded a judge to impose an exceptional term under Washington law. (Black I, supra, 35 Cal.4th at p. 1258.)\nThe United States Court of Appeals for the Ninth Circuit has come to the same conclusion we reach. (Butler v. Curry (9th Cir. 2008) 528 F.3d 624, 634\u2014639, cert. den. Curry v. Butler (2008)_U.S._[172 L.Ed.2d 763, 129 S.Ct. 767].)",
+        "type": "majority",
+        "author": "GEORGE, C. J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Vincent James Oliver and Joseph Walsh for Petitioner Sotero Gomez.",
+      "Elaine A. Alexander for Appellate Defenders, Inc., as Amicus Curiae on behalf of Petitioner Sotero Gomez.",
+      "Edmund G. Brown, Jr., Attorney General, Dane R. Gillette, Chief Assistant Attorney General, Pamela C. Hamanaka, Assistant Attorney General, Lawrence M. Daniels, Kristofer Jorstad and Carl N. Henry, Deputy Attorneys General, for Respondent State of California."
+    ],
+    "corrections": "",
+    "head_matter": "[No. S155425.\nFeb. 2, 2009.]\nIn re SOTERO GOMEZ on Habeas Corpus\nCounsel\nVincent James Oliver and Joseph Walsh for Petitioner Sotero Gomez.\nElaine A. Alexander for Appellate Defenders, Inc., as Amicus Curiae on behalf of Petitioner Sotero Gomez.\nEdmund G. Brown, Jr., Attorney General, Dane R. Gillette, Chief Assistant Attorney General, Pamela C. Hamanaka, Assistant Attorney General, Lawrence M. Daniels, Kristofer Jorstad and Carl N. Henry, Deputy Attorneys General, for Respondent State of California."
+  },
+  "file_name": "0650-01",
+  "first_page_order": 690,
+  "last_page_order": 701
+}

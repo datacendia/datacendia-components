@@ -1,0 +1,59 @@
+{
+  "id": 5920410,
+  "name": "Adams v. Jacobs, Warden",
+  "name_abbreviation": "Adams v. Jacobs",
+  "decision_date": "2011-05-16",
+  "docket_number": "No. 10-9427",
+  "first_page": "994",
+  "last_page": "994",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 994"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.606,
+    "sha256": "f2a433f4975ba61b437d425483aa7a8bbc62fe63a812911c75de655047c45681",
+    "simhash": "1:9eea4fe3a7d97276",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Adams v. Jacobs, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9427.\nAdams v. Jacobs, Warden."
+  },
+  "file_name": "0994-09",
+  "first_page_order": 1020,
+  "last_page_order": 1020
+}

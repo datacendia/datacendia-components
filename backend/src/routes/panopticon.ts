@@ -13,6 +13,54 @@ const router = Router();
 router.use(devAuth);
 
 // ===========================================================================
+// STATUS / HEALTH
+// ===========================================================================
+
+/**
+ * GET /panopticon/status
+ * Service health and status
+ */
+router.get('/status', async (req: Request, res: Response) => {
+  try {
+    const orgId = (req as any).organizationId;
+    
+    // Get counts for dashboard
+    const [regulationCount, violationCount, gapCount] = await Promise.all([
+      cendiaPanopticonService.getOrganizationRegulations(orgId).then(r => r.length).catch(() => 0),
+      cendiaPanopticonService.getOpenViolations(orgId).then(v => v.length).catch(() => 0),
+      cendiaPanopticonService.getComplianceGaps(orgId).then(g => g.length).catch(() => 0),
+    ]);
+    
+    res.json({
+      success: true,
+      data: {
+        service: 'CendiaPanopticon',
+        status: 'operational',
+        version: '1.0.0',
+        description: 'Global Regulation Engine',
+        capabilities: [
+          'Multi-jurisdiction regulatory tracking',
+          '50+ regulatory framework support',
+          'Real-time violation detection',
+          'AI-powered regulatory forecasting',
+          'Compliance gap analysis',
+          'Obligation mapping',
+        ],
+        supportedFrameworks: Object.keys(REGULATORY_FRAMEWORKS).length,
+        metrics: {
+          activeRegulations: regulationCount,
+          openViolations: violationCount,
+          complianceGaps: gapCount,
+        },
+        lastCheck: new Date().toISOString(),
+      }
+    });
+  } catch (error) {
+    res.status(500).json({ success: false, error: { message: String(error) } });
+  }
+});
+
+// ===========================================================================
 // FRAMEWORKS
 // ===========================================================================
 

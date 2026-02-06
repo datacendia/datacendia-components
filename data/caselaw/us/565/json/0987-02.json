@@ -1,0 +1,59 @@
+{
+  "id": 12231250,
+  "name": "Maxson v. Woods, Warden",
+  "name_abbreviation": "Maxson v. Woods",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. 11-6214",
+  "first_page": "987",
+  "last_page": "987",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 987"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.712,
+    "sha256": "fed0e0c7147998cb4a852517c865d5ac664444edd7b47dc6bda676d4cb6978ee",
+    "simhash": "1:e4ab13f2ee5b0844",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Maxson v. Woods, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6214.\nMaxson v. Woods, Warden."
+  },
+  "file_name": "0987-02",
+  "first_page_order": 1069,
+  "last_page_order": 1069
+}

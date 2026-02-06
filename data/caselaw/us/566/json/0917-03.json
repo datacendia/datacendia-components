@@ -1,0 +1,59 @@
+{
+  "id": 12199086,
+  "name": "Reynolds v. Thomas, Warden",
+  "name_abbreviation": "Reynolds v. Thomas",
+  "decision_date": "2012-04-02",
+  "docket_number": "No. 10-7502",
+  "first_page": "917",
+  "last_page": "917",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 917"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 92,
+    "ocr_confidence": 0.541,
+    "sha256": "db36a5d685e918c06a47a7adb83760cd3a8e71af4cc6c105a0e1e6470288ab91",
+    "simhash": "1:30902188b7d96095",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Reynolds v. Thomas, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari dismissed.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "April 2, 2012\nNo. 10-7502.\nReynolds v. Thomas, Warden."
+  },
+  "file_name": "0917-03",
+  "first_page_order": 793,
+  "last_page_order": 793
+}

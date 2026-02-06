@@ -1,0 +1,686 @@
+{
+  "id": 12520126,
+  "name": "UNITED STATES of America, Appellant v. AT&T, INC., et al., Appellees",
+  "name_abbreviation": "United States v. AT&T, Inc.",
+  "decision_date": "2019-02-26",
+  "docket_number": "No. 18-5214",
+  "first_page": "1029",
+  "last_page": "1047",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "916 F.3d 1029"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "D.C. Cir.",
+    "id": 11448,
+    "name": "Court of Appeals of the District of Columbia"
+  },
+  "jurisdiction": {
+    "id": 56,
+    "name_long": "District of Columbia",
+    "name": "D.C."
+  },
+  "cites_to": [
+    {
+      "cite": "589 F.3d 449",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3546994,
+        3499284
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "453"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/389/0017-01",
+        "/f3d/589/0449-01"
+      ]
+    },
+    {
+      "cite": "405 U.S. 562",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11723036
+      ],
+      "weight": 3,
+      "year": 1972,
+      "pin_cites": [
+        {
+          "page": "567-69, 578"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/405/0562-01"
+      ]
+    },
+    {
+      "cite": "467 U.S. 752",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6207619
+      ],
+      "weight": 7,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "771"
+        },
+        {
+          "page": "770"
+        },
+        {
+          "page": "770"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/467/0752-01"
+      ]
+    },
+    {
+      "cite": "864 F.3d 751",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12275860
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "790"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/864/0751-01"
+      ]
+    },
+    {
+      "cite": "638 F.3d 303",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4200146,
+        3556098
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "309"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/638/0303-01",
+        "/us-app-dc/395/0007-01"
+      ]
+    },
+    {
+      "cite": "47 C.F.R. \u00a7 1.17",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "767 F.3d 1308",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4203704
+      ],
+      "weight": 2,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "1332"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/767/1308-01"
+      ]
+    },
+    {
+      "cite": "415 U.S. 486",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6177997
+      ],
+      "weight": 5,
+      "year": 1974,
+      "pin_cites": [
+        {
+          "page": "498",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "498"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/415/0486-01"
+      ]
+    },
+    {
+      "cite": "14 F.3d 623",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3817513,
+        10527068
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "625"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/304/0325-01",
+        "/f3d/14/0623-01"
+      ]
+    },
+    {
+      "cite": "158 F.3d 1335",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        2338955,
+        11679447
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "1338"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/332/0429-01",
+        "/f3d/158/1335-01"
+      ]
+    },
+    {
+      "cite": "808 F.Supp.2d 145",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        4174862
+      ],
+      "weight": 4,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "147"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/808/0145-01"
+      ]
+    },
+    {
+      "cite": "841 F.3d 460",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12174488
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "464"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/841/0460-01"
+      ]
+    },
+    {
+      "cite": "137 S.Ct. 1455",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12604269
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1465"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/137/1455-01"
+      ]
+    },
+    {
+      "cite": "94 L.Ed. 150",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "year": 1949,
+      "opinion_index": 0
+    },
+    {
+      "cite": "338 U.S. 338",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3943928
+      ],
+      "weight": 2,
+      "year": 1949,
+      "pin_cites": [
+        {
+          "page": "342"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/338/0338-01"
+      ]
+    },
+    {
+      "cite": "470 U.S. 564",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11299693
+      ],
+      "weight": 9,
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "575, 577"
+        },
+        {
+          "page": "574"
+        },
+        {
+          "page": "577"
+        },
+        {
+          "page": "575, 577"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/470/0564-01"
+      ]
+    },
+    {
+      "cite": "92 L.Ed. 746",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "year": 1948,
+      "opinion_index": 0
+    },
+    {
+      "cite": "333 U.S. 364",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6157998
+      ],
+      "weight": 2,
+      "year": 1948,
+      "pin_cites": [
+        {
+          "page": "395"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/333/0364-01"
+      ]
+    },
+    {
+      "cite": "395 U.S. 100",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1771915
+      ],
+      "weight": 3,
+      "year": 1969,
+      "pin_cites": [
+        {
+          "page": "123"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/395/0100-01"
+      ]
+    },
+    {
+      "cite": "246 F.3d 708",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11110250,
+        3677531
+      ],
+      "weight": 2,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "713"
+        },
+        {
+          "page": "718"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/246/0708-01",
+        "/us-app-dc/345/0364-01"
+      ]
+    },
+    {
+      "cite": "855 F.3d 345",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12276807
+      ],
+      "weight": 3,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "349"
+        },
+        {
+          "page": "349"
+        },
+        {
+          "page": "352-53"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/855/0345-01"
+      ]
+    },
+    {
+      "cite": "908 F.2d 981",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10540168,
+        3483296
+      ],
+      "weight": 4,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "982-83"
+        },
+        {
+          "page": "983"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/908/0981-01",
+        "/us-app-dc/285/0222-01"
+      ]
+    },
+    {
+      "cite": "792 F.2d 210",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        3608749,
+        1583447
+      ],
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "220",
+          "parenthetical": "quoting Brown Shoe , 370 U.S. at 318 n.32, 82 S.Ct. 1502 "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/253/0142-01",
+        "/f2d/792/0210-01"
+      ]
+    },
+    {
+      "cite": "370 U.S. 294",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6168106
+      ],
+      "weight": 14,
+      "year": 1962,
+      "pin_cites": [
+        {
+          "page": "323"
+        },
+        {
+          "page": "323"
+        },
+        {
+          "page": "328-29"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/370/0294-01"
+      ]
+    },
+    {
+      "cite": "310 F.Supp.3d 161",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "case_ids": [
+        12525189
+      ],
+      "weight": 47,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "254"
+        },
+        {
+          "page": "196-97"
+        },
+        {
+          "page": "197"
+        },
+        {
+          "page": "194",
+          "parenthetical": "quoting Proposed Conclusions of Law of the United States \u00b6 25"
+        },
+        {
+          "page": "199"
+        },
+        {
+          "page": "216",
+          "parenthetical": "quoting Prof. Carlton, Tr. 2477 (April 12, 2018) "
+        },
+        {
+          "page": "207, 218"
+        },
+        {
+          "page": "214"
+        },
+        {
+          "page": "224"
+        },
+        {
+          "page": "204"
+        },
+        {
+          "page": "241",
+          "parenthetical": "emphasis in original"
+        },
+        {
+          "page": "194"
+        },
+        {
+          "page": "207",
+          "parenthetical": "internal citations omitted"
+        },
+        {
+          "page": "223"
+        },
+        {
+          "page": "224",
+          "parenthetical": "quoting Professor Shapiro"
+        },
+        {
+          "page": "223",
+          "parenthetical": "emphasis in original"
+        },
+        {
+          "page": "204"
+        },
+        {
+          "page": "217"
+        },
+        {
+          "page": "206"
+        },
+        {
+          "page": "206"
+        },
+        {
+          "page": "173"
+        },
+        {
+          "page": "218"
+        },
+        {
+          "page": "222",
+          "parenthetical": "citations omitted"
+        },
+        {
+          "page": "222-23"
+        },
+        {
+          "page": "222"
+        },
+        {
+          "page": "222"
+        },
+        {
+          "page": "211"
+        },
+        {
+          "page": "219"
+        },
+        {
+          "page": "211"
+        },
+        {
+          "page": "219"
+        },
+        {
+          "page": "212"
+        },
+        {
+          "page": "219"
+        },
+        {
+          "page": "241",
+          "parenthetical": "emphasis in original"
+        },
+        {
+          "page": "241"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-3d/310/0161-01"
+      ]
+    },
+    {
+      "cite": "15 U.S.C. \u00a7 18",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1906,
+    "char_count": 62386,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25919368272049836
+    },
+    "sha256": "280e07d94ccbb874bcb51beb42adf1066ac86feaaab60cd75f0a5970f8153b07",
+    "simhash": "1:bde6efbbae9a0f6b",
+    "word_count": 9396
+  },
+  "last_updated": "2024-02-27T16:21:04.146489+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before: Rogers and Wilkins, Circuit Judges, and Sentelle, Senior Circuit Judge."
+    ],
+    "parties": [
+      "UNITED STATES of America, Appellant\nv.\nAT&T, INC., et al., Appellees"
+    ],
+    "opinions": [
+      {
+        "text": "Rogers, Circuit Judge:\nOn October 22, 2016, AT&T Inc. announced a proposed merger with Time Warner Inc. The government sued to enjoin this vertical merger under Section 7 of the Clayton Act, 15 U.S.C. \u00a7 18, and now appeals the denial of its request for a permanent injunction. United States v. AT & T Inc. , 310 F.Supp.3d 161, 254 (D.D.C. 2018). Although it pursued three theories of antitrust violation in the district court, the government on appeal challenges only the district court's findings on its increased leverage theory whereby costs for Turner Broadcasting System's content would increase after the merger, principally through threats of long-term \"blackouts\" during affiliate negotiations.\nAt trial, the government presented expert opinion on the likely anticompetitive effects of the proposed merger on the video programming and distribution industry as forecast by economic principles and a quantitative model. It also presented statements by the defendants in administrative proceedings about the anticompetitive effects of a proposed vertical merger in the industry seven years earlier. The defendants responded with an expert's analysis of real-world data for prior vertical mergers in the industry that showed \"no statistically significant effect on content prices.\" The government offered no comparable analysis of data and its expert opinion and modeling predicting such increases failed to take into account Turner Broadcasting System's post-litigation irrevocable offers of no-blackout arbitration agreements, which a government expert acknowledged would require a new model. Evidence also indicated that the industry had become dynamic in recent years with the emergence, for example, of Netflix and Hulu. In this evidentiary context, the government's objections that the district court misunderstood and misapplied economic principles and clearly erred in rejecting the quantitative model are unpersuasive. Accordingly, we affirm.\nI.\nSection 7 of the Clayton Act prohibits mergers \"where in any line of commerce or in any activity affecting commerce in any section of the country, the effect of such acquisition may be substantially to lessen competition .\" 15 U.S.C. \u00a7 18 (emphasis added). Congress acted out of concern with \"probabilities, not certainties\" inasmuch as \"statutes existed [only] for dealing with clear-cut menaces to competition .... Mergers with a probable anticompetitive effect were to be proscribed by [the Clayton Act].\" Brown Shoe Co. v. United States , 370 U.S. 294, 323, 82 S.Ct. 1502, 8 L.Ed.2d 510 (1962). It left to the courts the difficult task of assessing probabilities in the commercial marketplace in the interest of \"halting 'incipient monopolies and trade restraints outside the scope of the Sherman Act,' \" Rothery Storage & Van Co. v. Atlas Van Lines, Inc. , 792 F.2d 210, 220 (D.C. Cir. 1986) (quoting Brown Shoe , 370 U.S. at 318 n.32, 82 S.Ct. 1502 ). Therefore, Section 7 \"applies a much more stringent test than does the rule-of-reason analysis under section 1 of the Sherman Act.\" Id. Although Section 7 requires more than a \"mere possibility\" of competitive harm, it does not require proof of certain harm. Brown Shoe , 370 U.S. at 323 n.39, 82 S.Ct. 1502. Instead, the government must show that the proposed merger is likely to substantially lessen competition, which encompasses a concept of \"reasonable probability.\" Id .\nNeither the government nor the defendants challenge application of the burden-shifting framework in United States v. Baker Hughes , 908 F.2d 981, 982-83 (D.C. Cir. 1990), for horizontal mergers that the district court applied to consider the effect of the proposed vertical merger of AT&T and Time Warner on competition. Under this framework, the government must first establish a prima facie case that the merger is likely to substantially lessen competition in the relevant market. United States v. Anthem , 855 F.3d 345, 349 (D.C. Cir. 2017). But unlike horizontal mergers, the government cannot use a short cut to establish a presumption of anticompetitive effect through statistics about the change in market concentration, because vertical mergers produce no immediate change in the relevant market share. See Dept. of Justice & Fed. Trade Comm'n, Non-Horizontal Merger Guidelines \u00a7 4.0 (June 14, 1984) (\"1984 Non-Horizontal Merger Guidelines\"). Instead, the government must make a \"fact-specific\" showing that the proposed merger is \"likely to be anticompetitive.\" Joint Statement on the Burden of Proof at Trial at 3-4. Once the prima facie case is established, the burden shifts to the defendant to present evidence that the prima facie case \"inaccurately predicts the relevant transaction's probable effect on future competition,\" Anthem , 855 F.3d at 349 (quoting Baker Hughes , 908 F.2d at 991 ), or to \"sufficiently discredit\" the evidence underlying the prima facie case, id. Upon such rebuttal, \"the burden of producing additional evidence of anticompetitive effects shifts to the government, and merges with the ultimate burden of persuasion, which remains with the government at all times.\" Baker Hughes , 908 F.2d at 983.\nThe relevant market definition is also undisputed by the government and the defendants. (For ease of reference, we refer hereinafter to defendants AT&T Inc., Direct TV Group Holdings, LLC, and Time Warner Inc. as \"AT&T.\") The district court accepted the government's proposal that the product market is the market for multichannel video distribution. Although this market definition excludes distributors of only on-demand content, such as Netflix and Hulu, the district court considered the impact of the increasing presence of these distributors on the multichannel video programming and distribution industry. AT & T , 310 F.Supp.3d at 196-97. The district court also accepted the government's proposed geographic market, which included over 1,100 local multichannel video distribution markets. Id. at 197. The government did not rely on any particular market for enjoining the proposed merger; one of its experts aggregated the alleged harms in the local markets to derive a total measure of nationwide economic harm. See Proposed Findings of Fact of the United States 13 (May 8, 2018).\nAs the government has presented its challenges to the district court's denial of a permanent injunction, the question for this court is whether the district court's factual findings are clearly erroneous. FED. R. CIV. P. 52(a) ; see FTC v. H.J. Heinz Co. , 246 F.3d 708, 713 (D.C. Cir. 2001). This is a deferential standard. Zenith Radio Corp. v. Hazeltine Research, Inc. , 395 U.S. 100, 123, 89 S.Ct. 1562, 23 L.Ed.2d 129 (1969). \"A finding is 'clearly erroneous' when although there is evidence to support it, the reviewing court on the entire evidence is left with the definite and firm conviction that a mistake has been committed.\" United States v. Gypsum Co. , 333 U.S. 364, 395, 68 S.Ct. 525, 92 L.Ed. 746 (1948). Findings that are plausible in light of the entire record are not clearly erroneous, Anderson v. City of Bessemer City, N.C. , 470 U.S. 564, 575, 577, 105 S.Ct. 1504, 84 L.Ed.2d 518 (1985), so \"[w]here there are two permissible views of the evidence, the factfinder's choice between them cannot be clearly erroneous,\" id. at 574, 105 S.Ct. 1504 (citing United States v. Yellow Cab Co. , 338 U.S. 338, 342, 70 S.Ct. 177, 94 L.Ed. 150 (1949) ); see also Cooper v. Harris , --- U.S. ----, 137 S.Ct. 1455, 1465, 197 L.Ed.2d 837 (2017). A finding may be clearly erroneous when it is illogical or implausible, Anderson , 470 U.S. at 577, 105 S.Ct. 1504, rests on internally inconsistent reasoning, Heinz , 246 F.3d at 718, or contains errors of economic logic, FTC v. Advocate Health Care Network , 841 F.3d 460, 464 (7th Cir. 2016).\nThe government contends that it has made the requisite showing of error because the district court's conclusion it had failed to meet its burden of proof \"rests on two fundamental errors: the district court discarded the economics of bargaining, and the district court failed to apply the foundational principle of corporate-wide profit maximization.\" Appellant Br. 29, 37-38. Further, the government contends that the district court used internally inconsistent logic when evaluating industry evidence and clearly erred in rejecting its expert's quantitative model of harm.\nIn Part II, we provide an overview of the video programming and distribution industry. Then, as relevant to the issues on appeal, we summarize the evidence before the district court and its findings. In Part III, we address the government's challenges to the district court's findings.\nII.\nA.\nThe video programming and distribution industry traditionally operates in a three-stage chain of production. Studios or networks create content. Then, programmers package content into networks and license those networks to video distributors. Finally, distributors sell bundles of networks to subscribers. For example, a studio may create a television show and sell it to Turner Broadcasting System (\"Turner Broadcasting\"), a programmer, which would package that television show into one of its networks, such as CNN or TNT. Turner Broadcasting would then license its networks to distributors, such as DirecTV or Comcast.\nProgrammers license their content to distributors through affiliate agreements, and distributors pay \"affiliate fees\" to programmers. Programmers and distributors engage in what are oftentimes referred to as \"affiliate negotiations,\" which, according to evidence before the district court, can be lengthy and complicated. If a programmer and a distributor fail to reach an agreement, then the distributor will lose the rights to display the programmer's content to its customers. This situation, known as a \"blackout\" or \"going dark,\" is generally costly for both the programmer, which loses affiliate fee revenues, and the distributor, which risks losing subscribers. Therefore, blackouts rarely occur, and long-term blackouts are especially rare. The evidence indicated, however, that programmers and distributors often threaten blackouts as a negotiating tactic, and both may perform \"go dark\" analyses to estimate the potential impact of a blackout in preparation for negotiations.\nThe evidence before the district court also showed that the industry has been changing in recent years. Multichannel video programming distributors (\"MVPDs\") offer live television content as well as libraries of licensed content \"on demand\" to subscribers. So-called \"traditional\" MVPDs distribute channels to subscribers on cable or by satellite. Recently, \"virtual\" MVPDs have also emerged. They distribute live videos and on-demand videos to subscribers over the internet and compete with traditional MVPDs for subscribers. Virtual MVPDs, such as DirecTV Now and YouTube TV, have been gaining market share, the evidence showed, because they are easy to use and low-cost, often because they offer subscribers smaller packages of channels, known as \"skinny bundles.\"\nIn addition, subscription video on demand services (\"SVODs\") have also emerged on the market. SVODs, such as Netflix, do not offer live video content but have large libraries of content that a viewer may access on demand. SVODs also offer low-cost subscription plans and have been gaining market share recently. Increasingly, cable customers are \"cutting the cord\" and terminating MVPD service altogether. Often these customers do not exit the entertainment field altogether, but instead switch to SVODs for entertainment service.\nLeading SVODs are vertically integrated, which means they create content and also distribute it. Traditional MVPDs typically are not vertically integrated with programmers. In 2009, however, Comcast Corporation (\"Comcast\") (a distributor and the largest cable company in the United States) announced a $30 billion merger with NBC Universal, Inc. (\"NBCU\") (a content creator and programmer), whereby it would control popular video programming that included the NBC broadcast network and the cable networks of NBC Universal, Inc. The government sued to permanently enjoin the merger under Section 7, alleging that Comcast's \"majority control of highly valued video programming ... would prevent rival video-distribution companies from competing against the post-merger entity.\" United States v. Comcast , 808 F.Supp.2d 145, 147 (D.D.C. 2011). The district court, with the defendants' agreement and at the government's urging, allowed the merger to proceed subject to certain remedies for the alleged anticompetitive conduct post-merger, including remedies ordered in a related proceeding before the Federal Communications Commission (\"FCC\"). Id. One remedy in the Comcast-NBCU merger was an agreement by the defendants to submit, at a distributor's option, to \"baseball style\" arbitration - in which each side makes a final offer and the arbitrator chooses between them - if parties did not reach a renewal agreement. During the arbitration, the distributor would retain access to NBC content, thereby mitigating concerns that Comcast-NBCU may withhold NBC programming during negotiations in order to benefit Comcast's distribution subscriptions. Comcast-NBCU currently operates as a \"vertically integrated\" programmer and distributor.\nNow the government has again sued to halt a proposed vertical merger of a programmer and a distributor in the same industry. On October 22, 2016, AT&T Inc. announced its plan to acquire Time Warner Inc. (\"Time Warner\") as part of a $108 billion transaction. AT&T Inc. is a distribution company with two traditional MVPD products: DirecTV and U-verse. DirecTV transmits programming over satellite, while U-verse transmits programming over cable. Time Warner, by contrast, is a content creator and programmer and has three units: Warner Bros., Turner Broadcasting, and Home Box Office Programming (\"HBO\"). Warner Bros. creates movies, television shows, and other video programs. Turner Broadcasting packages content into various networks, such as TNT, TBS, and CNN, and licenses its networks to third-party MVPDs. HBO is a \"premium\" network that provides on-demand content to subscribers either directly through HBO Now or through licenses with third-party distributors. The merged firm would operate both AT&T MVPDs (DirecTV and U-verse) and Turner Broadcasting networks (which license to other MVPDs). The government alleged that \"the newly combined firm likely would ... use its control of Time Warner's popular programming as a weapon to harm competition.\" Compl. 2.\nA week after the government filed suit to stop the proposed merger, Turner Broadcasting sent letters to approximately 1,000 distributors \"irrevocably offering\" to engage in \"baseball style\" arbitration at any time within a seven-year period, subject to certain conditions not relevant here. According to President of Turner Content Distribution Richard Warren, the offer of arbitration agreements was designed to \"address the government's concern that as a result of being ... commonly owned by AT&T, [Turner Broadcasting] would have an incentive to drive prices higher and go dark with [its] affiliates,\" Tr. 1182 (April 3, 2018). In the event of a failure to agree on renewal terms, Turner Broadcasting agreed that the distributor would have the right to continue carrying Turner networks pending arbitration, subject to the same terms and conditions in the distributor's existing contract.\nB.\nThe government's increased leverage theory is that \"by combining Time Warner's programming and DirecTV's distribution, the merger would give Time Warner increased bargaining leverage in negotiations with rival distributors, leading to higher, supracompetitive prices for millions of consumers.\" Appellant Br. 33. Under this theory, Turner Broadcasting's bargaining position in affiliate negotiations will change after the merger due to its relationship with AT&T because the cost of a blackout will be lower. Prior to the merger, if Turner Broadcasting failed to reach a deal with a distributor and engaged in a long-term blackout, then it would lose affiliate fees and advertising revenues. After the merger, some costs of a blackout would be offset because some customers would leave the rival distributor due to Turner Broadcasting's blackout and a portion of those customers would switch to AT&T distributor services. The merged AT&T-Turner Broadcasting entity would earn a profit margin on these new customers. Because Turner Broadcasting would make a profit from switched customers, the cost of a long-term blackout would decrease after the merger and thereby give it increased bargaining leverage during affiliate negotiations with rival distributors sufficient to enable it to secure higher affiliate fees from distributors, which would result in higher prices for consumers.\nTo support this theory of competitive harm, the government presented evidence purporting to show the real-world effect of the proposed merger. Specifically, it introduced statements in prior FCC filings by AT&T and DirecTV that vertical integration provides an incentive to increase prices and poses a threat to competition. Various internal documents of the defendants were to the same effect. Third-party competitors, such as cable distributors, testified that the merger would increase Turner Broadcasting's bargaining leverage.\nThe government also presented the expert opinion of Professor Carl Shapiro on the likely anticompetitive effect of the proposed merger. He opined, based on the economic theory of bargaining - here, the Nash bargaining theory - that Turner Broadcasting's bargaining leverage would increase after the merger because the cost of a long-term blackout would decrease. His quantitative model predicted net price increases to consumers. Specifically, his model predicted increases in fees paid by rival distributors for Turner Broadcasting content and cost savings for AT&T through elimination of double marginalization (\"EDM\"). The fee increases for rival distributors were based on the expected benefit to AT&T of a Turner Broadcasting blackout after the merger. Professor Shapiro determined the extent to which rival distributors and AT&T would pass on their respective cost increases and cost decreases to consumers. His model predicted: (1) an annual fee increase of $587 million for rival distributors to license Turner Broadcasting content, and cost savings of $352 million for AT&T; and (2) an annual net increase of $286 million in costs passed on to consumers in 2016, with increases in future years.\nAT&T responded by pointing to testimony of executives' past experience in affiliate negotiations, and presenting testimony by its experts critiquing Professor Shapiro's opinion and model. It purported to show through its own experts that the government's prima facie case inaccurately predicted the proposed merger's probable effect on competition. Professor Dennis Carlton's econometric analysis (also known as a regression analysis, Tr. 2473 (April 12, 2018) ), showed that prior instances of vertical integration in the MVPD market had not had a \"statistically significant effect on content prices,\" id. at 2477, pointing to data on the Comcast-NBCU merger in 2011 as well as prior vertical integration between News Corp.-DirecTV and Time Warner Cable-Time Warner Inc., which split in 2008 and 2009, respectively. Professor Carlton and Professor Peter Rossi critiqued the \"inputs\" used by Professor Shapiro in his quantitative model, opining for instance that values he used for subscriber loss rate and diversion rate were not calculated through reliable methods. Professor Carlton also opined that Professor Shapiro's quantitative model overestimated how quickly harm would occur because it failed to consider existing long-term contracts.\nProfessor Shapiro, in turn, critiqued Professor Carlton's econometric analysis as comparing different types of vertical mergers. Regarding the \"inputs\" to his quantitative model, Professor Shapiro conceded that he was unaware the subscriber loss rate percentage he used (from a consultant report for Charter Communications, Inc.) had been changed after the report was presented to Charter executives. He also acknowledged that he had not considered the effects of the arbitration agreements offered by Turner Broadcasting and that to do so would require preparation of a new model. Tr. 2208, 2325 (Apr. 11, 2018).\nThe district court acknowledged the uncertainty regarding the measure of proof for the government's burden because Section 7 does not require proof of certain harm. AT & T , 310 F.Supp.3d at 189-90 n.16. The government and AT&T had used various phrases to describe the government's burden, including that it must show an \"appreciable danger\" of competitive harm, or that it must show that harm is \"likely\" or \"reasonably probable.\" Id. The district court concluded that it need not articulate the differences between these phrases because \"even assuming the 'reasonable probability' or 'appreciable danger' formulations govern here ... [its] conclusions regarding the [g]overnment's failure of proof would remain unchanged.\" Id. Acknowledging also the lack of precedent and the complexity in establishing the correct approach in a Section 7 challenge to a proposed vertical merger, the district court viewed the outcome of the litigation to \"turn[ ] on whether, notwithstanding the proposed merger's conceded procompetitive effects, the [g]overnment has met its burden of establishing, through 'case-specific evidence,' that the merger of AT&T and Time Warner, at this time and in this remarkably dynamic industry, is likely to substantially lessen competition in the manner it predicts.\" Id. at 194 (quoting Proposed Conclusions of Law of the United States \u00b6 25).\nSeveral amici urge this court to speak definitively on the proper legal standard for evaluating vertical mergers. See Amicus Curiae 27 Antitrust Scholars et al. Br. 10-16; Amicus Curiae Chamber of Commerce et al. Br. 5-8; Amicus Curiae Open Markets Institute Br. 16-20. There is a dearth of modern judicial precedent on vertical mergers and a multiplicity of contemporary viewpoints about how they might optimally be adjudicated and enforced. See, e.g. , Amicus Curiae 27 Antitrust Scholars et al. Br. 6-16; Amicus Curiae Chamber of Commerce et al. Br. 17-24. The government's guidelines for non-horizontal mergers were last updated in 1984, over three decades ago. See 1984 Non-Horizontal Merger Guidelines. But there is no need to opine on the proper legal standards for evaluating vertical mergers because, on appeal, neither party challenges the legal standards the district court applied, and no error is apparent in the district court's choices, see Amicus Curiae Open Markets Institute Br. 18-19 (citing cases). See generally Narragansett Indian Tribe v. Nat. Indian Gaming Com'n , 158 F.3d 1335, 1338 (D.C. Cir. 1998) ; Michel v. Anderson , 14 F.3d 623, 625 (D.C. Cir. 1994).\nThe district court found that the government had \"failed to clear the first hurdle of showing that the proposed merger is likely to increase Turner [Broadcasting]'s bargaining leverage in affiliate negotiations.\" AT & T , 310 F.Supp.3d at 199. Although acknowledging, as Professor Shapiro had opined, that the Nash bargaining theory could apply in the context of affiliate fee negotiations, the district court found more probative the real-world evidence offered by AT&T than that offered by the government. The econometric analysis of AT&T's expert had examined real-world data from prior instances of vertical integration in the video programming and distribution industry and concluded that \"the bulk of the results show no significant results at all, but many do show a decrease in content prices.\" Id. at 216 (quoting Prof. Carlton, Tr. 2477 (April 12, 2018) ); see id. at 207, 218. The district court also credited the testimony of several industry executives - e.g. , Madison Bond, lead negotiator for NBCU, and Coleman Breland and Richard Warren, lead negotiators for Turner Broadcasting - that vertical integration had not affected their affiliate negotiations in the past. By contrast, the testimony from third-party competitors that the merger would increase Turner Broadcasting's bargaining leverage was, the district court found, \"speculative, based on unproven assumptions, or unsupported.\" Id. at 214. Although Professor Shapiro's opinion was that the Nash bargaining theory predicted an increase in Turner Broadcasting's post-merger bargaining leverage, leading to an increase in affiliate fees, the district court found, in view of the industry's dynamism in recent years, that Professor Shapiro's opinion (by contrast with Professor Carlton's) had \"not been supported by sufficient real-world evidence.\" Id. at 224.\nSecond, the district court found that Professor Shapiro's quantitative model, which estimated the proposed merger would result in future increases in consumer prices, lacked sufficient reliability and factual credibility to generate probative predictions of future competitive harm. Relying on critiques by Professor Carlton and Professor Rossi, the district court found errors in the model \"inputs,\" for example, the value used for subscriber loss rate was not calculated through a reliable method. Neither the model nor Professor Shapiro's opinion accounted for the effect of the irrevocably-offered arbitration agreements, which the district court stated would have \"real world effects\" on negotiations and characterized \"as extra icing on a cake already frosted,\" id. at 241 n.51, i.e. , another reason the government had not met its first-level burden of proof.\nThe district court therefore concluded that the government failed to present persuasive evidence that Turner Broadcasting's bargaining leverage would \"materially increase\" as a result of the merger, id. at 204, or that the merger would lead to \"any raised costs\" for rival distributors or consumers, id. at 241 (emphasis in original). It therefore did not address the balancing analysis offered by Professor Shapiro's quantitative model, nor the question whether any increased costs would result in a substantial lessening of competition.\nIII.\nOn appeal, the government contends that the district court court (1) misapplied economic principles, (2) used internally inconsistent logic when evaluating industry evidence, and (3) clearly erred in rejecting Professor Shapiro's quantitative model. Undoubtedly the district court made some problematic statements, which the government identifies and this court cannot ignore. And in the probabilistic Section 7 world, uncertainty exists about the future real-world impact of the proposed merger on Turner Broadcasting's post-merger leverage. See Brown Shoe , 370 U.S. at 323, 82 S.Ct. 1502. At this point, however, the issue is whether the district court clearly erred in finding that the government failed to clear the first hurdle in meeting its burden of showing that the proposed merger is likely to increase Turner Broadcasting's bargaining leverage.\n(1) Application of economic principles. The government contends that in evaluating the evidence in support of its increased leverage theory, the district court erroneously discarded or otherwise misapplied two economic principles - the Nash bargaining theory and corporate-wide profit maximization.\n(a) Nash bargaining theory. The Nash bargaining theory is used to analyze two-party bargaining situations, specifically where both parties are ultimately better off by reaching an agreement. John F. Nash, Jr., The Bargaining Problem , 18 Econometrica 155 (1950). The theory posits that an important factor affecting the ultimate agreement is each party's relative loss in the event the parties fail to agree: when a party would have a greater loss from failing to reach an agreement, the other party has increased bargaining leverage. Tr. 2193-94 (Shapiro, April 11, 2018). In other words, the relative loss for each party affects bargaining leverage and when a party has more bargaining leverage, that party is more likely to achieve a favorable price in the negotiation.\nThe district court had to determine whether the economic theory applied to the particular market by considering evidence about the \"structure, history, and probable future\" of the video programming and distribution industry. United States v. General Dynamics , 415 U.S. 486, 498, 94 S.Ct. 1186, 39 L.Ed.2d 530 (1974) (internal quotation marks omitted); see also Brown Shoe , 370 U.S. at 321-22 & n.38, 82 S.Ct. 1502. As one circuit has put it, \"[t]he Nash theorem arrives at a result that follows from a certain set of premises,\" while the theory \"asserts nothing about what situations in the real world fit those premises.\" VirnetX, Inc., v. Cisco Sys. Inc. , 767 F.3d 1308, 1332 (Fed. Cir. 2014). The district court concluded that the government presented insufficient real-world evidence to support the prediction under the Nash bargaining theory of a material increase of Turner Broadcasting's post-merger bargaining leverage in affiliate negotiations by reason of less-costly long-term blackouts. The government's real-world evidence consisted of statements by AT&T Inc. and DirecTV in FCC regulatory filings that vertical integration, such as in the proposed Comcast-NBCU merger, can give distributors an incentive to charge higher affiliate fees and expert opinion and a quantitative model prepared by Professor Shapiro. The expert opinion and model were subject to deficiencies identified by AT&T's experts, some of which Professor Shapiro conceded. By contrast, AT&T's expert's econometric analysis of real-world data showed that content pricing in prior vertical mergers in the industry had not increased as the Nash bargaining theory and the model predicted. Given evidence the industry was now \"remarkably dynamic,\" the district court credited CEO testimony about the null effect of vertical integration on affiliate negotiations. AT & T , 310 F.Supp.3d at 194.\nIn other words, the record shows that the district court accepted the Nash bargaining theory as an economic principle generally but rejected its specific prediction in light of the evidence that the district court credited. The district court explained that its conclusion\ndoes not turn on defendants' protestations that the theory is 'preposterous,' 'ridiculous,' or 'absurd.' ... [but] instead on [its] evaluation of the shortcomings in the proffered third-party competitor testimony, ... the testimony about the complex nature of these negotiations and the low likelihood of a long-term Turner [Broadcasting] blackout, ... and the fact that real-world pricing data and experiences of individuals who have negotiated on behalf of vertically integrated entities all fail to support the [g]overnment's increased-leverage theory.\nId. at 207 (internal citations omitted).\nMore concerning is the government's contention that the district court misapplied the Nash bargaining theory in a manner that negated its acceptance of the economics of bargaining by erroneously focusing on whether long-term blackouts would actually occur after the merger, rather than on the changes in stakes of such a blackout for Turner Broadcasting. The government points to the district court's statements that Professor Shapiro's testimony was undermined by evidence that \"a blackout would be infeasible.\" AT & T , 310 F.Supp.3d at 223. The district court also stated that \"there has never been, and is likely never going to be, an actual long-term blackout of Turner [Broadcasting] content.\" Id. The district court noted that \"Turner [Broadcasting] would not be willing to accept the 'catastrophic' affiliate fee and advertising losses associated with a long-term blackout.\" Id. at 223-24 n.35 (emphasis in original).\nThe question posed by the Nash bargaining theory is whether Turner Broadcasting would be more favorably positioned after the merger to assert its leverage in affiliate negotiations whereby the cost of its content would increase. Considered in isolation, the district court's statements could be viewed as addressing the wrong question. Considered as part of the district court's analysis of whether the stakes for Turner Broadcasting would change and if so by how much, the statements address whether the threat of long-term blackouts would be credible, as posited by the government's increased leverage theory. The district court found that after the merger the stakes for Turner Broadcasting would change only slightly, so its threat of a long-term blackout \"will only be somewhat less incredible.\" Id. at 224 (quoting Professor Shapiro); see generally Brown Shoe , 370 U.S. at 328-29, 82 S.Ct. 1502. Recognizing Professor Shapiro applied the Nash bargaining theory in opining that \"if a party's alternative to striking a deal improves, that party is more willing and able to push harder for a better deal because it faces less downside risk if the deal implodes,\" AT & T , 310 F.Supp.3d at 223 n.35, the district court rejected the assumption underlying the government's theory that Turner Broadcasting would gain increased leverage from this slight change in stakes. It relied on testimony that the small change in bargaining position from a less costly blackout would not cause Turner Broadcasting to take more risks, specifically noting the Time Warner CEO's analogy of the cost difference between having a 1,000-pound weight fall on Turner Broadcasting and a 950-pound weight fall on it - the difference being unlikely to change the risk Turner Broadcasting would be willing to take. Id . at 224 n.36 (Jeff Bewkes, Time Warner CEO, Tr. 3121 (April 18, 2018) ).\nThe district court's statements identified by the government, then, do not indicate that the district court misunderstood or misapplied the Nash bargaining theory but rather, upon considering whether in the context of a dynamic market where a similar merger had not resulted in a \"statistically significant increase in content costs,\" the district court concluded that the theory inaccurately predicted the post-merger increase in content costs during affiliate negotiations.\nOf course, it was not enough for the government merely to prove that after the merger the costs of a long-term blackout would change for Turner Broadcasting. Its theory is that Turner Broadcasting's bargaining leverage would increase sufficiently to enable it to charge higher prices for its content. The district court's focus on the slight change in the cost of a long-term blackout in finding Turner Broadcasting's bargaining leverage would not meaningfully change aligns with determining whether the government's evidence established that a change in the post-merger stakes for Turner Broadcasting would likely allow it to extract higher prices during affiliate negotiations. The district court reasoned that because long-term blackouts are very costly and would therefore be infeasible for Turner Broadcasting even after the merger, there was insufficient evidence that \"a post-merger Turner [Broadcasting] would, or even could, drive up prices by threatening distributors with long-term blackouts.\" Id. at 223 (emphasis in original). In finding the government failed to \"prov[e] that Turner [Broadcasting]'s post-merger negotiating position would materially increase based on its ownership by AT&T,\" id. at 204, the district court reached a fact-specific conclusion based on real-world evidence that, contrary to the Nash bargaining theory and government expert opinion on increased content costs, the post-merger cost of a long-term blackout would not sufficiently change to enable Turner Broadcasting to secure higher affiliate fees. Witnesses such as a Turner Broadcasting president Coleman Breland, AT&T executive John Stankey, and Time Warner CEO Jeff Bewkes, whom the district court credited, testified that after the merger blackouts would remain too costly to risk and that any change in that cost would not affect negotiations as the government's theory predicted.\nNot to be overlooked, the district court also credited the efficacy of Turner Broadcasting's \"irrevocable\" offer of arbitration agreements with a no-blackout guarantee. It characterized the no-blackout agreements as \"extra icing on a cake already frosted.\" AT & T , 310 F.Supp.3d at 241 n.51. In crediting Professor Carlton's econometric analysis, the district court explained that it was appropriate to consider the analysis of the Comcast-NBCU merger because the Comcast-NBCU merger was similar to the proposed merger - a vertical merger in the video programming and distribution industry. There the government had recognized, \" 'especially in vertical mergers, that conduct remedies,' such as the ones proposed [in the Comcast case], 'can be a very useful tool to address the competitive problems while preserving competition and allowing efficiencies' that 'may result from the transaction.' \" AT & T , 310 F.Supp.3d at 169 n.3 (quoting Hr'g Tr. 15:16-21 (July 27, 2011), Comcast , 808 F.Supp.2d 145 ). Like there, the district court concluded the Turner arbitration agreements would have \"real-world effect.\" Id. at 217-18 n.30.\nThe post-merger arbitration agreements would prevent the blackout of Turner Broadcasting content while arbitration is pending. AT & T , 310 F.Supp.3d at 217. As mentioned, Turner Broadcasting \"irrevocably offer[ed]\" approximately 1,000 distributors agreements to engage in baseball style arbitration in the event the parties fail to reach a renewal agreement, and the offered agreement guarantees no blackout of Turner Broadcasting content once arbitration is invoked. AT&T's counsel represented the no-blackout commitment is \"legally enforceable,\" Oral Arg. Tr. 53:7-8, and AT&T \"will honor\" the arbitration agreement offers, Oral Arg. Tr. 55:2, 61:22-25, 62:1-10. Consequently, the government's challenges to the district court's treatment of its economic theories becomes largely irrelevant, at least during the seven-year period. Counsel for Amici Curiae 27 Antitrust Scholars explained that arbitration agreements make the Nash bargaining model premised on two-party negotiations \"substantially more complicated,\" Oral Arg. Tr. 50:10, and Professor Shapiro acknowledged that taking the arbitration agreements into account would require \"a completely different model.\" Tr. 2325 (April 11, 2018).\nFurther, the government's contention that the district court failed to properly weigh the probative force of the defendants' statements in FCC filings is unavailing. During licensing and rulemaking proceedings before the FCC, DirecTV stated \"a standard economic model\" (i.e. , the Nash bargaining theory) predicts that the proposed Comcast-NBCU merger \"would significantly increase the prices other MVPDs pay for NBCU programming,\" and two years later stated, similar to AT&T Inc. comments, that \"vertically integrated MVPDs have an incentive to charge higher license fees for programming that is particularly effective in gaining MVPD subscribers than do non-vertically integrated MVPDs.\" The district court took judicial notice of these statements pursuant to Federal Rule of Evidence 201, explaining it was \"hesitant\" to assign significant evidentiary value to the prior regulatory filings because AT&T and DirecTV made the statements acting as competitors whose positions would be affected by FCC review. AT & T , 310 F.Supp.3d at 206. FCC rules require all regulated parties - whether applicants seeking to transfer licenses in connection with a proposed merger or competitors who oppose the merger - to provide only \"[t]ruthful and accurate statements to the Commission\" in adjudicatory proceedings. 47 C.F.R. \u00a7 1.17 ; see FCC Amicus Curiae Br. 3. The statements were admissible as party admissions pursuant to Federal Rule of Evidence 801(d)(2), see Talavera v. Shah , 638 F.3d 303, 309 (D.C. Cir. 2011), yet even as admissions, the district court had to evaluate their persuasive force in the circumstances before it, and the district court did. See VirnetX , 767 F.3d at 1332 ; cf. General Dynamics , 415 U.S. at 498, 94 S.Ct. 1186 ; Owens v. Republic of Sudan , 864 F.3d 751, 790 (D.C. Cir. 2017).\nThe district court accepted the FCC statements as probative of the proposition that the Nash bargaining theory could apply in the context of affiliate fee negotiations. But it concluded generic statements that vertical integration \"can\" allow an entity to gain an unfair advantage over rivals were \"informed by the state of the market at the time ... and the particular inputs to the models presented to the FCC.\" AT & T , 310 F.Supp.3d at 206. As such the FCC statements were \"not particularly probative of whether [the proposed merger] could do the same with its programming in today's more competitive marketplace,\" with the rising presence of virtual MVPDs and SVODs, like Netflix and Hulu. Id. at 206-07 ; see also id. at 173. The district court also noted that many of the statements in the FCC regulatory filings related to whether a vertically integrated programmer would withhold content, which Professor Shapiro opined would not occur here because it would be profitable for the merged firm to continue to license Turner programming. Id. at 206 ; see also id. at 201 ; Tr. 2218, 2293. Once the district court credited AT&T's expert's opinion based on an econometric analysis that the similar Comcast-NBCU merger had not had a \"statistically significant effect on content costs,\" id. at 218, the district court could understand that the defendants' admissions at the time of the Comcast-NBCU merger offered little probative support for the government's increased leverage theory.\nThus, even viewing the statements to the FCC as supportive of the government, the district court's finding of the efficacy of Turner Broadcasting's irrevocable offers of no-blackout arbitration agreements means the merger is unlikely to afford Turner Broadcasting increased bargaining leverage.\n(b) Corporate-wide profit maximization. Still, the government maintains that the reliance on past negotiation experience indicates that the district court misunderstood, and failed to apply, the principle of corporate-wide profit maximization by treating the principle as a question of fact, when \"[t]he assumption of profit maximization is 'crucial' in predicting business behavior.\" Appellant Br. 50 (citation omitted). This principle posits that a business with multiple divisions will seek to maximize its total profits. It was adopted as a principle of antitrust law in Copperweld Corp. v. Independence Tube Corp. , 467 U.S. 752, 771, 104 S.Ct. 2731, 81 L.Ed.2d 628 (1984), holding that a parent and a wholly-owned subsidiary are not capable of conspiracy against each other under Section 1 of the Sherman Antitrust Act. Companies with multiple divisions must be viewed as a single actor, and each division will act to pursue the common interests of the whole corporation. See id. at 770, 104 S.Ct. 2731.\nThe district court never cited Copperweld in its opinion, which is troubling given the government's competitive harm theories and expert evidence based on economic principles. But the government's position that the district court never accepted this economic principle overlooks that it did \"accept Professor Shapiro's (and the Government's) argument that generally, 'a firm with multiple divisions will act to maximize profits across them.' \" AT & T , 310 F.Supp.3d at 222 (citations omitted). And it ignores that if the merged firm was unable to exert the leverage required by the government's increased leverage theory, then inquiring (as the district court did of Professor Shapiro) about an independent basis to conclude that the firm did have such leverage is not a rejection of the corporate-wide profit maximization principle.\nThe government maintains that the district court's misapplication of the principle of corporate-wide profit maximization is evident from its statement the evidence suggests \"vertically integrated corporations have previously determined that the best way to increase company wide profits is for the programming and distribution components to separately maximize their respective revenues.\" Id. at 222-23. Stating that the programming and distribution divisions would \"separately maximize their respective revenues\" is contrary to the maximization principle to the extent separate units would act against the merged entity's common interest. See Copperweld , 467 U.S. at 770, 104 S.Ct. 2731. At this point in its opinion, however, the district court was explaining why \"that profit-maximization principle is not inconsistent with testimony that the identity of a programmer's owner has not affected affiliate negotiations in real-world instances of vertical integration.\" Id . at 222. The district court can be viewed as conveying its understanding that Turner Broadcasting's interest in spreading its content among distributors, not imposing long-term blackouts, would redound to the merged firm's financial benefit, not that Turner Broadcasting would act in a manner contrary to the merged firm's financial benefit. Industry executives testified that \"the identity of a programmer's owner has not affected affiliate negotiations in real-world instances of vertical integration,\" AT & T , 310 F.Supp.3d at 222. For instance, the Chair of Content Distribution at NBC Universal testified that at Comcast-NBCU, he \"never once took into account the interest of Comcast cable in trying to negotiate a carriage agreement\" for NBC Universal. Tr. 2014 (Madison Bond, NBC Universal, Chairman of Content Distribution (April 10, 2018) ); see also Tr. 1129 (Coleman Breland, Turner Broadcasting President (April 2, 2018) ).\nTo the extent the government maintains this testimony is irreconcilable with the legal principle of corporate-wide profit maximization, it gives no credence to the district court's focus on \"the best way to increase company wide profits,\" referring to the merged firm. AT & T , 310 F.Supp.3d at 222. In other words, the district court was explaining that real-world evidence reflected the profit-maximization principle. Even if the district court could have made clearer that it understood the principle was not a question of fact, the government does not explain how considering how that is done in a particular industry is contrary to the principle of corporate-wide profit maximization.\nNor is the conclusion that the merged firm would not be able to maximize its profits by raising prices during negotiations inconsistent with the principle of corporate-wide profit maximization. Based on the record evidence, the district court could plausibly understand that the proposed merger would not enable the merged entity to exert increased bargaining leverage by means of long-term blackouts and, therefore, would not affect affiliate fee negotiations to raise content costs. See Anderson , 470 U.S. at 575, 577, 105 S.Ct. 1504. Finding the distributor division's interest would not affect Turner Broadcasting's negotiations with other distributors is consistent with the evidence that when a programmer and distributor merge, it is still in the best interests of the merged entity as a profit maximizer to license programming broadly to other distributors. Tr. 1129 (Breland (April 2, 2018) ). That is, instead of withholding content in an attempt to benefit the merged entity, programmers will seek to license their content to other distributors. In this instance, the district court concluded the principle and the real world \"fit.\" Moreover, AT&T's view that the government's claims of fundamental economic errors are ultimately irrelevant in light of Turner Broadcasting's irrevocable arbitration/no blackout commitment is not implausible.\nSimilarly, contrary to the government's position, the district court's findings about post-merger negotiating are not internally inconsistent with its finding on the cost savings of the merger. The district court found, and the government agreed, that the merger would result in cost savings as a result of EDM. Pre-merger, both Turner Broadcasting and AT&T earned margins over cost before their products reached consumers: Turner Broadcasting earned a profit margin when it licensed content to AT&T, and AT&T earned a profit margin when it sold content to consumers. Post-merger, Turner Broadcasting would not earn a profit margin when licensing content to AT&T because the merged entity would eliminate that cost and, according to Professor Shapiro, pass on some of those cost savings to consumers in order to attract additional subscribers. For there to be EDM savings, Professor Shapiro opined, the merged firm must act on its unified interest across divisions. Thus, Turner Broadcasting, instead of maximizing its own revenue, would license its programming to AT&T for a lower price. The government did not contest AT&T's position that a merged entity can maximize its own profits by eliminating cost even if it has no ability to secure higher prices from other companies during negotiations. At most, the government challenged the sufficiency of the evidence for finding the merged entity would not be able to increase prices for Turner Broadcasting content. Reply Br. 13-14. But there is record evidence to support finding that AT&T would be able to eliminate its own costs without gaining the ability to raise Turner Broadcasting content prices.\n(2) Inconsistent reasoning in evaluating trial testimony. The government further maintains that the district court used internally inconsistent reasoning when evaluating testimony from witnesses in the industry.\nAt trial, third-party distributors and executives from Comcast-NBCU and Time Warner testified about negotiations in the video programming and distribution industry. Third-party distributors testified about their concerns, and their reasons, that Turner Broadcasting would gain increased bargaining leverage as a result of the proposed merger. Comcast-NBCU and Time Warner executives testified that the interests of an affiliated distributor did not affect negotiations in their prior experiences negotiating on behalf of vertically integrated companies. The district court concluded that the third-party distributor testimony \"fail[ed] to provide meaningful, reliable support for the [g]overnment's increased leverage theory,\" AT & T , 310 F.Supp.3d at 211, while the executives' testimony \"undermine[d] the persuasiveness of the [g]overnment's proof,\" id. at 219. The district court declined to credit the third-party distributors' testimony because \"there is a threat that [third-party distributor] testimony reflects self-interest,\" id. at 211, yet dismissed the suggestion that testimony from the Time Warner executives should be discounted as potentially biased due to self-interest, id. at 219.\nThe government contends this reasoning was inconsistent because self-interest existed on both sides of the issue of whether the proposed merger would have anticompetitive effects. Even so, the potential for self-interest was not the only reason the district court found third-party distributor testimony of little probative value. Much of the third-party competitor testimony, the district court found, \"consisted of speculative concerns,\" id. at 212, and did not contain any analysis or factual basis to support key assumptions, such as how Turner Broadcasting's bargaining leverage would change and how many subscribers distributors would lose in a blackout. By contrast, the Time Warner executives' testimony did \"not involve promises or speculations about the employees' future, post-merger behavior\" and instead recounted \"what these executives previously experienced when working within a vertically integrated company.\" Id. at 219. Their testimony was uniform among all testifying witnesses and corroborated by that of a Comcast-NBCU executive - a competitor of AT&T. To the extent the government also maintains the district court improperly discounted the third-party distributor testimony because it contradicted Professor Shapiro's opinion that Turner Broadcasting would not actually withhold content from other distributors, any error in that regard does not demonstrate the district court clearly erred in discounting their testimony for the independent reasons that it rested on speculative, future predictions and lacked adequate factual support.\n(3) Rejection of Professor Shapiro's quantitative model. Finally, the government contends that the district court clearly erred in rejecting Professor Shapiro's quantitative bargaining model. Specifically, that the district court erred in finding insufficient evidence to support Professor Shapiro's calculations of fee increases for rival distributors and in finding no proof of any price increase to consumers.\nPreliminarily, the court does not hold that quantitative evidence of price increase is required in order to prevail on a Section 7 challenge. Vertical mergers can create harms beyond higher prices for consumers, including decreased product quality and reduced innovation. See Amicus Curiae Open Markets Institute Br. 4-12. Indeed, the Supreme Court upheld the Federal Trade Commission's Section 7 challenge to Ford Motor Company's proposed vertical merger with a major spark plug manufacturer without quantitative evidence about price increases. Ford Motor Co. v. United States , 405 U.S. 562, 567-69, 578, 92 S.Ct. 1142, 31 L.Ed.2d 492 (1972). Here, however, the government did not present its challenge to the AT&T-Time Warner merger in terms of creating non-price related harms in the video programming and distribution industry, and we turn to the government's challenges to the district court's handling of the quantitative evidence regarding the proposed merger's predicted effect on consumer price.\nProfessor Shapiro presented a quantitative model that predicted an annual net increase of $286 million being passed on to consumers in 2016, with increasing costs in future years. This figure was based on the model's predictions of an annual fee increase of $587 million for rival distributors to license Turner Broadcasting content and cost savings of $352 million for AT&T. The district court accepted Professor Shapiro's testimony about the $352 million cost savings from the merger. But it found that insufficient evidence supported the inputs and assumptions used to estimate the annual costs increases for rival distributors, crediting criticisms by Professor Carlton and Professor Rossi. Indeed, the district court found that the quantitative model as presented through Professor Shapiro's opinion testimony did not provide an adequate basis to conclude that the merger will lead to \"any \" raised costs for distributors or consumers, \"much less consumer harms that outweigh the conceded $350 million in annual cost savings to AT&T's customers.\" AT & T , 310 F.Supp.3d at 241 (emphasis in original).\nWhatever errors the district court may have made in evaluating the inputs for Professor Shapiro's quantitative model, the model did not take into account long-term contracts, which would constrain Turner Broadcasting's ability to raise content prices for distributors. The district court found that the real-world effects of Turner Broadcasting's existing contracts would be \"significant\" until 2021 and that it would be difficult to predict price increases farther into the future, particularly given that the industry is continually changing and experiencing increasing competition. This failure, the district court found, resulted in overestimation of how quickly the harms would occur. Professor Shapiro acknowledged that predictions farther into the future, after the long-term contracts expire, are more difficult. Tr. 2317 (April 11, 2018). Neither Professor Shapiro's opinion testimony nor his quantitative model considered the effect of the post-litigation offer of arbitration agreements, something he acknowledged would require a new model. And the video programming and distribution industry had experienced \"ever-increasing competitiveness\" in recent years. AT & T , 310 F.Supp.3d at 241. Taken together, the government's clear-error contention therefore fails.\nIt is true that the district court misstated that the government had not proven that any price increases would \"outweigh the conceded $350 million in annual cost saving to AT&T's customers. \" Id. Professor Shapiro testified that the merger would result in $352 million cost savings to AT&T and that not all those savings would be passed on to consumers. The $352 million, therefore, was not cost savings to consumers but to AT&T. But the district court did not weigh increased prices for consumers against cost savings for consumers, and instead found that the government had not shown at the first level that the merger was likely to lead to any price increases for consumers because of the failure to show that costs for rival MVPDs would increase as a result of Turner Broadcasting's increased leverage in affiliate negotiations after the merger. Counsel for the government and AT&T agree the error regarding the consumer savings value alone would not require remand because the district court's opinion was not based on balancing any price increases against cost savings to consumers. Oral Arg. Tr. 36-37, 57:1-13. Consequently, because the government failed to meet its burden of proof under its increased leverage theory at the first level, the error regarding cost savings was harmless error, see Czekalski v. LaHood , 589 F.3d 449, 453 (D.C. Cir. 2009) ; FED. R. CIV. P. 61.\nAccordingly, because the district court did not abuse its discretion in denying injunctive relief, see Anthem , 855 F.3d at 352-53, we affirm the district court's order denying a permanent injunction of the merger.\nIn re Matter of Applications of Comcast Corp., General Electric Co. and NBC Universal, Inc., for Consent to Assign Licenses or Transfer Control of Licensees , MB Docket No. 10-56, Reply Comments of DirecTV, Inc., 4 (Aug. 19, 2010); In re Matter of Revision of the Commission's Program Access Rules et al. , MB Docket No. 12-68 et al., Comments of DirecTV, LLC 19 (June 22, 2012); In re Matter of Revision of the Commission's Program Access Rules et al. , MB Docket No. 12-68 et al., Comments of AT&T Inc. 22 (June 22, 2012); In re Matter of Revision of the Commission's Program Access Rules et al. , MB Docket No. 12-68 et al., Reply Comments of AT&T Inc. 2 (July 23, 2012).",
+        "type": "majority",
+        "author": "Rogers, Circuit Judge:"
+      }
+    ],
+    "attorneys": [
+      "Michael F. Murray, Deputy Assistant Attorney General, U.S. Department of Justice, argued the cause for appellant. With him on the briefs were Kristen C. Limarzi, Robert B. Nicholson, Adam D. Chandler, Patrick M. Kuhlmann, Mary Helen Wimberly, and Daniel E. Haar, Attorneys.",
+      "Eric F. Citron argued the cause for amici curiae 27 Antitrust Scholars in support of neither party. With him on the brief was Mary Jean Moltenbrey.",
+      "Laurence M. Sandell was on the brief for amicus curiae Cin\u00e9moi North America in support of appellant United States of America.",
+      "Jeffrey A. Lamken was on the brief for amici curiae Professor William P. Rogerson, et al. in support of appellant.",
+      "Jonathan W. Cuneo, Joel Davidow, and Gene Kimmelman were on the brief for amici curiae American Antitrust Institute, et al. in support of appellant.",
+      "Jonathan E. Taylor was on the brief for amicus curiae Open Markets Institute in support of plaintiff-appellant and vacatur.",
+      "Peter D. Keisler argued the cause for appellees. With him on the brief were Joseph R. Guerra, Richard D. Klingler, Jonathan E. Nuechterlein, C. Frederick Beckner III, Kathleen Moriarty Mueller, William R. Drexel, Daniel M. Petrocelli, M. Randall Oppenheimer, Jonathan D. Hacker, Katrina M. Robson, and David L. Lawson. Aaron M. Panner entered an appearance.",
+      "Andrew J. Pincus argued the cause for amici curiae 37 Economists, Antitrust Scholars, and Former Government Antitrust Officials in support of appellees. With him on the brief were Mark W. Ryan and Michael B. Wimberly.",
+      "Brad D. Schimel, Attorney General, Office of the Attorney General for the State of Wisconsin, Misha Tseytlin, Solicitor General, Jeff Landry, Attorney General, Office of the Attorney General for the State of Louisiana, Elizabeth Baker Murrill, Solicitor General, Hector Balderas, Attorney General, Office of the Attorney General for the State of New Mexico, Tania Maestas, Chief Deputy Attorney General, Mike Hunter, Attorney General, Office of the Attorney General for the State of Oklahoma, Mithun Mansinghani, Solicitor General, Steve Marshall, Attorney General, Office of the Attorney General for the State of Alabama, Robert Tambling, Assistant Attorney General, Christopher M. Carr, Attorney General, Office of the Attorney General for the State of Georgia, Andrew A. Pinson, Solicitor General, Andy Beshear, Attorney General, Office of the Attorney General for the Commonwealth of Kentucky, Sean D. Reyes, Attorney General, Office of the Attorney General for the State of Utah, Tyler R. Green, Solicitor General, Peter F. Kilmartin, Attorney General, Office of the Attorney General for the State of Rhode Island, Michael W. Field, Assistant Attorney General, Alan Wilson, Attorney General, Office of the Attorney General for the State of South Carolina, and James Emory Smith, Jr., Deputy Solicitor General, were on the bipartisan brief for amici curiae the States of Wisconsin, et al. in support of defendants-appellees.",
+      "Donald B. Verrilli, Jr., Justin P. Raphael, Peter C. Tolsdorf, Steven P. Lehotsky, and Daryl Joseffer were on the brief for amici curiae The Chamber of Commerce of the United States of America, et al. in support of defendants-appellees.",
+      "Thomas M. Johnson, Jr., General Counsel, Federal Communications Commission, David M. Gossett, Deputy General Counsel, Richard K. Welch, Deputy Associate General Counsel, and James M. Carr, Counsel, were on the brief for amicus curiae Federal Communications Commission in support of neither party.",
+      "Bruce D. Brown, Katie Townsend, and Gabriel Rottman were on the brief for amicus curiae The Reporters Committee For Freedom of the Press in support of neither party."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Appellant\nv.\nAT&T, INC., et al., Appellees\nNo. 18-5214\nUnited States Court of Appeals, District of Columbia Circuit.\nArgued December 6, 2018\nDecided February 26, 2019\nMichael F. Murray, Deputy Assistant Attorney General, U.S. Department of Justice, argued the cause for appellant. With him on the briefs were Kristen C. Limarzi, Robert B. Nicholson, Adam D. Chandler, Patrick M. Kuhlmann, Mary Helen Wimberly, and Daniel E. Haar, Attorneys.\nEric F. Citron argued the cause for amici curiae 27 Antitrust Scholars in support of neither party. With him on the brief was Mary Jean Moltenbrey.\nLaurence M. Sandell was on the brief for amicus curiae Cin\u00e9moi North America in support of appellant United States of America.\nJeffrey A. Lamken was on the brief for amici curiae Professor William P. Rogerson, et al. in support of appellant.\nJonathan W. Cuneo, Joel Davidow, and Gene Kimmelman were on the brief for amici curiae American Antitrust Institute, et al. in support of appellant.\nJonathan E. Taylor was on the brief for amicus curiae Open Markets Institute in support of plaintiff-appellant and vacatur.\nPeter D. Keisler argued the cause for appellees. With him on the brief were Joseph R. Guerra, Richard D. Klingler, Jonathan E. Nuechterlein, C. Frederick Beckner III, Kathleen Moriarty Mueller, William R. Drexel, Daniel M. Petrocelli, M. Randall Oppenheimer, Jonathan D. Hacker, Katrina M. Robson, and David L. Lawson. Aaron M. Panner entered an appearance.\nAndrew J. Pincus argued the cause for amici curiae 37 Economists, Antitrust Scholars, and Former Government Antitrust Officials in support of appellees. With him on the brief were Mark W. Ryan and Michael B. Wimberly.\nBrad D. Schimel, Attorney General, Office of the Attorney General for the State of Wisconsin, Misha Tseytlin, Solicitor General, Jeff Landry, Attorney General, Office of the Attorney General for the State of Louisiana, Elizabeth Baker Murrill, Solicitor General, Hector Balderas, Attorney General, Office of the Attorney General for the State of New Mexico, Tania Maestas, Chief Deputy Attorney General, Mike Hunter, Attorney General, Office of the Attorney General for the State of Oklahoma, Mithun Mansinghani, Solicitor General, Steve Marshall, Attorney General, Office of the Attorney General for the State of Alabama, Robert Tambling, Assistant Attorney General, Christopher M. Carr, Attorney General, Office of the Attorney General for the State of Georgia, Andrew A. Pinson, Solicitor General, Andy Beshear, Attorney General, Office of the Attorney General for the Commonwealth of Kentucky, Sean D. Reyes, Attorney General, Office of the Attorney General for the State of Utah, Tyler R. Green, Solicitor General, Peter F. Kilmartin, Attorney General, Office of the Attorney General for the State of Rhode Island, Michael W. Field, Assistant Attorney General, Alan Wilson, Attorney General, Office of the Attorney General for the State of South Carolina, and James Emory Smith, Jr., Deputy Solicitor General, were on the bipartisan brief for amici curiae the States of Wisconsin, et al. in support of defendants-appellees.\nDonald B. Verrilli, Jr., Justin P. Raphael, Peter C. Tolsdorf, Steven P. Lehotsky, and Daryl Joseffer were on the brief for amici curiae The Chamber of Commerce of the United States of America, et al. in support of defendants-appellees.\nThomas M. Johnson, Jr., General Counsel, Federal Communications Commission, David M. Gossett, Deputy General Counsel, Richard K. Welch, Deputy Associate General Counsel, and James M. Carr, Counsel, were on the brief for amicus curiae Federal Communications Commission in support of neither party.\nBruce D. Brown, Katie Townsend, and Gabriel Rottman were on the brief for amicus curiae The Reporters Committee For Freedom of the Press in support of neither party.\nBefore: Rogers and Wilkins, Circuit Judges, and Sentelle, Senior Circuit Judge."
+  },
+  "file_name": "1029-01",
+  "first_page_order": 1029,
+  "last_page_order": 1047
+}

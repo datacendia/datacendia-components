@@ -1,0 +1,59 @@
+{
+  "id": 5923195,
+  "name": "Florida v. Valle",
+  "name_abbreviation": "Florida v. Valle",
+  "decision_date": "2011-07-29",
+  "docket_number": "No. 11A117",
+  "first_page": "1057",
+  "last_page": "1057",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1057"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 30,
+    "char_count": 235,
+    "ocr_confidence": 0.509,
+    "sha256": "14513eab2c0f8e7054ac8caf32949e70c44231d5903a1094609339576c50b3dc",
+    "simhash": "1:7453ddb90d098ae3",
+    "word_count": 41
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Florida v. Valle."
+    ],
+    "opinions": [
+      {
+        "text": "Application to vacate the stay of execution of sentence of death entered by the Florida Supreme Court on July 25, 2011, presented to Justice Thomas, and by him referred to the Court, denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "July 29, 2011\nNo. 11A117.\nFlorida v. Valle."
+  },
+  "file_name": "1057-05",
+  "first_page_order": 1051,
+  "last_page_order": 1051
+}

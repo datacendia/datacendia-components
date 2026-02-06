@@ -1,0 +1,59 @@
+{
+  "id": 12234798,
+  "name": "McKinnedy v. Reynolds, Warden",
+  "name_abbreviation": "McKinnedy v. Reynolds",
+  "decision_date": "2011-11-28",
+  "docket_number": "No. 10-10921",
+  "first_page": "1055",
+  "last_page": "1055",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1055"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 27,
+    "char_count": 176,
+    "ocr_confidence": 0.629,
+    "sha256": "2b06f04ad85746e23a51c38e828df1b7e5fad7f168efa1896060bcd487f24618",
+    "simhash": "1:a3e41c7a09f6f39b",
+    "word_count": 28
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McKinnedy v. Reynolds, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Motion of petitioner for reconsideration of order denying leave to proceed in forma pauperis [ante, p. 804] denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10921.\nMcKinnedy v. Reynolds, Warden."
+  },
+  "file_name": "1055-03",
+  "first_page_order": 1137,
+  "last_page_order": 1137
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5913428,
+  "name": "Shamah v. United States",
+  "name_abbreviation": "Shamah v. United States",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8310",
+  "first_page": "1242",
+  "last_page": "1242",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1242"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.562,
+    "sha256": "f24d98d36933f5fcc5d2aea05774941378c9b3daf50be26a1d7e3205eaa0b9df",
+    "simhash": "1:074bce834f8555a8",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Shamah v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8310.\nShamah v. United States."
+  },
+  "file_name": "1242-02",
+  "first_page_order": 1264,
+  "last_page_order": 1264
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5985122,
+  "name": "Lau v. Florida",
+  "name_abbreviation": "Lau v. Florida",
+  "decision_date": "2010-11-29",
+  "docket_number": "No. 10-6768",
+  "first_page": "1071",
+  "last_page": "1071",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1071"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 79,
+    "ocr_confidence": 0.572,
+    "sha256": "e5fd80c4bed9d3e5f7b59d968e86200e9a90222a0a82cd2e1ecf6ff78c85ff05",
+    "simhash": "1:21a8500286616b14",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lau v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 5th Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6768.\nLau v. Florida."
+  },
+  "file_name": "1071-05",
+  "first_page_order": 1093,
+  "last_page_order": 1093
+}

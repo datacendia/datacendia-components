@@ -1,0 +1,59 @@
+{
+  "id": 12408246,
+  "name": "Collick v. Washington",
+  "name_abbreviation": "Collick v. Washington",
+  "decision_date": "2012-06-11",
+  "docket_number": "No. 11-9693",
+  "first_page": "907",
+  "last_page": "907",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 907"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 72,
+    "ocr_confidence": 0.718,
+    "sha256": "5f72dd4e10d340a02675e63d8e30dce1dfe42a0cf597ca44978e06e33d9cd6e4",
+    "simhash": "1:0db4008d08e04a22",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Collick v. Washington."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Wash. Cer-\ntiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9693.\nCollick v. Washington."
+  },
+  "file_name": "0907-12",
+  "first_page_order": 811,
+  "last_page_order": 811
+}

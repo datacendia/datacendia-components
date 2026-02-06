@@ -1,0 +1,59 @@
+{
+  "id": 5955442,
+  "name": "Gonzalez-Diaz v. United States",
+  "name_abbreviation": "Gonzalez-Diaz v. United States",
+  "decision_date": "2011-05-16",
+  "docket_number": "No. 10-10019",
+  "first_page": "1000",
+  "last_page": "1000",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1000"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 80,
+    "ocr_confidence": 0.589,
+    "sha256": "bcc78808299ad0460c0dce3b4688456d728afd6d226ba1182f90cd4eccbd101c",
+    "simhash": "1:91a0468b0f9e0148",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gonzalez-Diaz v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10019.\nGonzalez-Diaz v. United States."
+  },
+  "file_name": "1000-16",
+  "first_page_order": 1026,
+  "last_page_order": 1026
+}

@@ -1,0 +1,68 @@
+{
+  "id": 12705612,
+  "name": "In re Paul ADAMS, petitioner.",
+  "name_abbreviation": "In re Adams",
+  "decision_date": "2014-04-21",
+  "docket_number": "No. 13\u20139371.",
+  "first_page": "1059",
+  "last_page": "1059",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "572 U.S. 1059"
+    },
+    {
+      "type": "parallel",
+      "cite": "188 L. Ed. 2d 949"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 1923"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 22,
+    "char_count": 138,
+    "sha256": "6ff60c88398a68dd37091ca5200f9cbfb09463e4f7502fa75426a9e4364ab758",
+    "simhash": "1:626b02449a914535",
+    "word_count": 23
+  },
+  "last_updated": "2021-08-27T20:44:00.426858+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Paul ADAMS, petitioner."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of habeas corpus denied."
+    ],
+    "corrections": "",
+    "head_matter": "In re Paul ADAMS, petitioner.\nNo. 13-9371.\nSupreme Court of the United States\nApril 21, 2014.\nPetition for writ of habeas corpus denied."
+  },
+  "file_name": "1059-02",
+  "first_page_order": 1059,
+  "last_page_order": 1059
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12244994,
+  "name": "Jones v. United States",
+  "name_abbreviation": "Jones v. United States",
+  "decision_date": "2012-01-23",
+  "docket_number": "No. 11-7940",
+  "first_page": "1183",
+  "last_page": "1183",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1183"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.676,
+    "sha256": "75c3790bd25ae373560b282c140da725067f3fd7a748868b548858d781fa5087",
+    "simhash": "1:a78b8a0acab49808",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jones v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7940.\nJones v. United States."
+  },
+  "file_name": "1183-07",
+  "first_page_order": 1265,
+  "last_page_order": 1265
+}

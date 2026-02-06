@@ -1,0 +1,59 @@
+{
+  "id": 12217971,
+  "name": "Loustau v. California",
+  "name_abbreviation": "Loustau v. California",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5205",
+  "first_page": "895",
+  "last_page": "895",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 895"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 70,
+    "ocr_confidence": 0.664,
+    "sha256": "504bd6c7ca01e7465fb84639526c979b1063387f77936de9c22d1548ce9d1057",
+    "simhash": "1:800f5d678cca513e",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Loustau v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Cal. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5205.\nLoustau v. California."
+  },
+  "file_name": "0895-03",
+  "first_page_order": 977,
+  "last_page_order": 977
+}

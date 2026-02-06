@@ -1,0 +1,479 @@
+{
+  "id": 2333788,
+  "name": "Vira A. Harrell et al v. Ara M. Hickman",
+  "name_abbreviation": "Harrell v. Hickman",
+  "decision_date": "1948-12-08",
+  "docket_number": "No. A-1792",
+  "first_page": "396",
+  "last_page": "404",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "147 Tex. 396"
+    },
+    {
+      "type": "parallel",
+      "cite": "215 S.W.2d 876"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "176 S. W. (2d) 306",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2340300,
+        10207701
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/142/0102-01",
+        "/sw2d/176/0306-01"
+      ]
+    },
+    {
+      "cite": "142 Texas 102",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2340300
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/142/0102-01"
+      ]
+    },
+    {
+      "cite": "115 S. W. (2d) 405",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2324512,
+        10249169
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/131/0287-01",
+        "/sw2d/115/0405-01"
+      ]
+    },
+    {
+      "cite": "131 Texas 287",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2324512
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/131/0287-01"
+      ]
+    },
+    {
+      "cite": "193 S. W. (2d) 165",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2336611,
+        10187691
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/144/0618-01",
+        "/sw2d/193/0165-01"
+      ]
+    },
+    {
+      "cite": "144 Texas 618",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2336611
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/144/0618-01"
+      ]
+    },
+    {
+      "cite": "21 Texas 790",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2119166
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/21/0790-01"
+      ]
+    },
+    {
+      "cite": "17 Texas 80",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2042353
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/17/0080-01"
+      ]
+    },
+    {
+      "cite": "194 S. W. 202",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8250822
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/194/0202-01"
+      ]
+    },
+    {
+      "cite": "158 S. W. (2d) 297",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10214195,
+        2313607
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/158/0297-01",
+        "/tex/138/0206-01"
+      ]
+    },
+    {
+      "cite": "138 Texas 206",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2313607
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/138/0206-01"
+      ]
+    },
+    {
+      "cite": "106 S. W. 1137",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "19 S. W. (2d) 805",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10278270
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/19/0805-01"
+      ]
+    },
+    {
+      "cite": "182 S. W. 10",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8244012
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/182/0010-01"
+      ]
+    },
+    {
+      "cite": "193 S. W. 1074",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10340598
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/193/1074-01"
+      ]
+    },
+    {
+      "cite": "175 S. W. 1100",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8282489
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/175/1100-01"
+      ]
+    },
+    {
+      "cite": "11 S. W. 133",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "73 Texas 37",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2189014
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/73/0037-01"
+      ]
+    },
+    {
+      "cite": "209 S. W. (2d) 671",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10205188
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/209/0671-01"
+      ]
+    },
+    {
+      "cite": "184 S. W. 1042",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8254960
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/184/1042-01"
+      ]
+    },
+    {
+      "cite": "242 S. W. 714",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8263826
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/242/0714-01"
+      ]
+    },
+    {
+      "cite": "107 S. W. (2d) 374",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2290100,
+        10250630
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/130/0173-01",
+        "/sw2d/107/0374-01"
+      ]
+    },
+    {
+      "cite": "130 Texas 173",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2290100
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/130/0173-01"
+      ]
+    },
+    {
+      "cite": "6 S. W. 412",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "69 Texas 227",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2196125
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/69/0227-01"
+      ]
+    },
+    {
+      "cite": "219 S. W. 839",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10339473
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/219/0839-01"
+      ]
+    },
+    {
+      "cite": "198 S. W. 659",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10334544
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/198/0659-01"
+      ]
+    },
+    {
+      "cite": "166 S. W., 395",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8274903
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/166/0395-01"
+      ]
+    },
+    {
+      "cite": "169 A. L. R. 1",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "211 S. W. (2d) 374",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10192974
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "375"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/211/0374-01"
+      ]
+    },
+    {
+      "cite": "176 S. W. (2d) 306",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2340300,
+        10207701
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/142/0102-01",
+        "/sw2d/176/0306-01"
+      ]
+    },
+    {
+      "cite": "142 Texas 102",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2340300
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/142/0102-01"
+      ]
+    },
+    {
+      "cite": "193 S. W. (2d) 165",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2336611,
+        10187691
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/144/0618-01",
+        "/sw2d/193/0165-01"
+      ]
+    },
+    {
+      "cite": "144 Texas 618",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2336611
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/144/0618-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 751,
+    "char_count": 16113,
+    "ocr_confidence": 0.59,
+    "pagerank": {
+      "raw": 1.1867259207182221e-06,
+      "percentile": 0.987439808266814
+    },
+    "sha256": "f694f4b561ca107763ff84698e625572c1bd53fc775947a0f25d2a8c327a39df",
+    "simhash": "1:2b45c46305468d90",
+    "word_count": 2888
+  },
+  "last_updated": "2024-02-27T21:30:02.118491+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Vira A. Harrell et al v. Ara M. Hickman."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Chief Justice Hickman\ndelivered the opinion of the Court.\nThis is a suit by respondent, Mrs. Ara M. Hickman, against the petitioners, Mrs. Vira A. Harrell and others, for the recovery of approximately 400 acres of land in Nueces County. Respondent\u2019s claim of title is based upon the provisions of the joint will of T. M. Harrell and his wife, Maggie Harrell. Petitioner Mrs. Vira A. Harrell\u2019s claim of title rests upon a deed to her executed by T. M. Harrell in 1941 after the death of Mrs. Maggie Harrell. The case, as presented to this Court, turns upon the construction of the will of T. M. and Maggie Harrell. The will was executed in 1936. Mrs. Maggie Harrell died in 1939, and shortly thereafter the will was admitted to probate as her will, and T. M. Harrell qualified as independent executor of the estate. Later he married the petitioner, Mrs. Vira A. Harrell. He died in 1946, and the will was admitted to probate as his last will, the petitioner, his surviving widow, being appointed administratrix of his estate, with the will annexed. After his second marriage T. M. Harrell executed a deed conveying to his then wife, the petitioner Mrs. Vira A. Harrell, the land in suit. Respondent alleged that the deed was fraudulent as to her. It recited a consideration of $10.00 and love and affection, and contained a reservation in favor of the grantor of \u201cthe full possession, benefit, dominion, use and enjoyment of the above described premises, and all of the rents, issues, profits, oil runs, royalties, or bonuses therefrom for and during the natural life of the said Grantor, T. M. Harrell, individually and as independent executor of the estate of Maggie J. Harrell, deceased.\u201d\nThe will is copied in full in the petition and in the opinion of the Court of Civil Appeals, for which see 211 S. W. (2d) 374, 375. In the introductory paragraph it is made to appear that it is the last will and testament of both of the parties. After directing in the first numbered paragraph that all. just debts be paid, it next provides:\n\u2018\u201cSecond\n\u201cWe give, bequeath and devise to the survivor of us, T. M. Harrell or Maggie Harrell, as the case may be, all our property, real, personal and mixed for the sole use and benefit of the survivor of us. In other words if T. M. Harrell survives Maggie Harrell, then and in that event all the property of the said Maggie Harrell shall vest in and become the property of T. M. Harrell, and if the said Maggie Harrell survives T. M. Harrell, then and in that event all the property of T. M. Harrell shall vest in and become the property of Maggie Harrell.\n\u201cThird\n\u201cThe survivor as between us, the said T. M. Harrell and Maggie Harrell, shall be executor or executrix, as the case may be, of this will, and shall not be required to give bond as such, and no action shall be taken in the County Court in the administration of our estates other than to probate this will and return an inventory and appraisement thereof.\n\u201cFourth\n\u201cAfter the death of both of us, and only then and not before, and after the payment of our just debts, the remainder of our property, of which the survivor of us shall die seized and possessed shall be disposed of as follows\nThen follow in that paragraph fifteen specific bequests to various institutions and individuals.\nBy the fifth numbered paragraph the testators devised their home in Corpus Christi to \u201cMethodist Orphanage Home at Waco, Texas.\u201d\nThe sixth numbered paragraph reads as follows :\n\u201cWe give, bequeath and devise to Mrs. Ara M. Hickman all the remainder of our lands in Nueces County, Texas, at this time aggregating about 400 acres subject, however, to the right of H. G. Faubion to the use and possession, free of rent of the one hundred acres of said land which he now lives on, as long as he cultivates and remains on said hundred acres.\u201d\nThe grounds of respondent\u2019s claim, as reflected by her pleadings are correctly stated in the opinion of the Court of Civil Appeals as follows:\n\u201cThat the said will was a joint and mutual will, executed by the testators pursuant to an agreement under which the survivor took only a life estate without power of disposition of the fee, or, in the alternative, that if he had the power to dispose of the fee, that such power was limited to such conveyances that were executed in good faith for his own use and benefit and under no consideration did he have the right to dispose of any part of the land involved for the purpose of defeating the intention of the testators.\u201d\nPetitioners leveled special exceptions to respondent\u2019s pleadings, presenting the theory that by the terms of the will T. M. Harrell, the survivor, was clothed with absolute power to dispose of the land in suit by deed during his lifetime in any manner and upon such terms as he desired, and that his conveyance to his second wife was a valid exercise of that power. The exceptions were sustained and, respondent declining further to amend, the case was dismissed. The Court of Civil Appeals reversed the judgment of the trial court and remanded the case for trial on its merits. 211 S. W. (2d) 374.\nThe will as a whole sets forth a comprehensive plan for the disposition of the property of the testators and was clearly made in pursuance of a contract between them. We agree with respondent that it is contractual as well as testamentary in char-character. Nye v. Bradford, 144 Texas 618, 193 S. W. (2d) 165, 169 A. L. R. 1; Larrabee v. Porter, Texas Civ. App., 166 S. W., 395, writ refused; Moore v. Moore, Texas Civ. App., 198 S. W. 659, writ refused; Sherman v. Goodson\u2019s Heirs, Texas Civ. App., 219 S. W. 839, writ refused. That being the nature of the instrument, it is our duty to construe its provisions to determine what disposition testators made of their estate by their contract.\nBy the second paragraph of the will, copied above, Maggie Harrell bequeathed and devised to her husband, T. M. Harrell, in the event he survived her, the absolute fee simple title to all of her property. That estate was limited, however, in the fourth paragraph by language which had the effect of converting it into a conditional fee or, as it is sometimes called, a defeasible fee, the condition of defeasance being that in the event. T. M. Harrell should die seized and possessed of any of the property, then such property should pass to and vest in the various institutions and individuals named in the will. McMurry v. Stanley, 69 Texas 227, 6 S. W. 412; Federal Land Bank of Houston v. Little, 130 Texas 173, 107 S. W. (2d) 374; Darragh v. Barmore, Com. App., 242 S. W. 714; West v. Glisson, Texas Civ. App., 184 S. W. 1042, writ refused; McClure v. Bailey, Texas Civ. App., 209 S. W. (2d) 671, writ refused, no reversible error. No provision in the will or contract places any limitation whatever upon the right of T. M. Harrell during his lifetime to dispose of the estate in any manner he might see fit. The will evidences that each of the testators reserved in himself or herself, should be or she become the survivor, the absolute right to dispose of the estate as such survivor might desire, with the single exception that the survivor could not make a disposition thereof by will contrary to that made in their joint will. It was clearly the intention of the testators that only the property remaining on hand at the death of the survivor should vest in the named beneficiaries or remaindermen, including respondent. That such beneficiaries should have no rights to or interest in any of the estate, except such portion thereof as remained undisposed of by the survivor at the time of his death, is made free of doubt by the provision in the fourth paragraph that only after the death of both testators, and not before, the remainder of the property of which the survivor should die seized and possessed shall pass to them.\nIt is the position of respondent that T. M. Harrell was restricted in his disposition of the property to what is designated as \u201cgood faith\u201d disposition thereof. The allegation is made that various deeds enumerated in the petition were executed by T. M. Harrell in bad faith and for the purpose of defeating the rights of remaindermen, and with respect to the deed executed by T. M. Harrell to the petitioner Vira A. Harrell the allegation is made that same \u201cwas executed pursuant to a fraudulent scheme concocted by and between said T. M. Harrell and defendant Vira A. Harrell for the purpose of evading, circumventing and avoiding the terms and provisions of said joint and mutual will * * * so far as the rights of this plaintiff were and are concerned ; * * It is not claimed that Harrell did not intend to pass title to petitioner, but only that his purpose in doing so was to defeat the rights of respondent. We are thus confronted with the question which we deem to be controlling in this case, of whether by the terms of the will T. M. Harrell, the survivor, was restricted in the disposition of the property to what is designated in the pleadings as \u201cgood faith\u201d dispositions thereof. Obviously the effect of the deed and at least one of its primary purposes was to make provision for the support of petitioner, the vendor\u2019s wife.\nRespondent places much reliance upon the decision of this Court in Nye v. Bradford, 144 Texas 618, 193 S. W. (2d) 165, 169 A. L. R. 1. In that case the survivor became a life tenant with authority to sell the property. The unrestricted right to dispose of it during her lifetime as she saw fit was not given her, but only the right to sell. It was our holding that a power to sell, and thereby defeat the remaindermen, does not include the power to accomplish that result by a gift. In the instant case there is no limitation placed upon the power of the survivor to dispose of the property. He is not restricted to a sale, but his authority to give it away is conferred as certainly as is his authority to sell it. The phrase \u201cfor the sole use and benefit of the survivor of us,\u201d appearing in paragraph second of the will, is not a restriction or limitation upon the right of the survivor, but, to the contrary, it affirmatively excludes the theory that the survivor should hold for the use and benefit of any other person.\nThe consequences of a holding that after the death of T. M. Harrell the remaindermen could be heard to come into court and inquire into the purposes of deeds made by him during his lifetime are not difficult to perceive. Each conveyance had the effect of reducing the estate which would otherwise have gone to the remaindermen, and it might be that a jury would find that, since it had that effect, it was executed for that purpose and was therefore a fraudulent conveyance. Titles to property should not rest on such uncertain bases. The point need not be labored, for it has been definitely decided by this Court that under wills of similar effect as that before us, where the survivor takes a conditional fee, or even a life estate, with full power of disposition, he may dispose of the property as he sees fit during his lifetime. Hanna v. Ladewig, 73 Texas 37, 11 S. W. 133; Young v. Campbell, Texas Civ. App., 175 S. W. 1100, writ refused; Johnson v. Kirby, Texas Civ. App., 193 S. W. 1074, writ refused; Feegles v. Slaughter, Texas Civ. App., 182 S. W. 10, writ refused; Kilpatrick v. Cassel, Texas Civ. App., 19 S. W. (2d) 805. In the case of Hanna v. Ladewig, supra, wherein unrestricted powers to dispose of the estate during her lifetime were granted a beneficiary under a will, the opinion observed that it would be unprofitable to speculate as to why the testator conferred upon his life such broad powers, and then pronounced the effect thereof in this language:\n\u201cShe having exercised the power conferred upon her, through whatsoever motive or upon whatsoever consideration, their contingent right was forever cut off when it was once exercised, and the fact that the property was reconveyed to her is a matter of no importance.\u201d\nIn the instant case the testators in language free of ambiguity have clothed the survivor with the unqualified right to convey the property during his or her lifetime and have limited the rights of the remaindermen to whatever estate remained in the survivor at his or her death, and we are not authorized to impose a limitation upon that right or by implication to grant any right to the remaindermen other than to acquire that which might remain after the death of the survivor.\nThe case is clearly distinguishable from Littler v. Deilmann, _8 Texas Civ. App. 392, 106 S. W. 1137, writ refused. In that case it was held that a surviving wife could not destroy her children\u2019s rights under the will of their deceased father by giving the property- to a man on May 8th, receiving it back by deed of gift on May 9th, and then marrying this man on May 10th, all in the year 1903. The court concluded that it was not the intention of the surviving wife to convey title to the man, but that he was used merely as a medium through whom she could obtain the property by deed freed of the conditions of the will. The claim is not made in this case that T. M. Harrell did not intend to convey title to petitioner, subject to the reservation by him of a life estate in the property; the theory is that he did intend to do so but that his intention was fraudulent.\n- We are not in agreement with the contention that the effect of the deed from T. M. Harrell to his second wife, in which he retained a life estate, was to make a testamentary disposition of the land in suit. It passed a present interest therein and was not, therefore, testamentary in character. Davis v. Bond, 138 Texas 206, 158 S. W. (2d) 297; Brown v. Payne, 142 Texas 102, 176 S. W. (2d) 306; Jung v. Petermann, Tex. Civ. App., 194 S. W. 202, writ refused; 44 Tex. Jur., p. 546, Sec. 6.\nThe case of Crain v. Crain, 17 Texas 80, Id. 21 Texas 790, is cited as authority for a contrary rule. The opinion in that case construed a statute of the Republic of Texas enacted in 1940 in the light of the Spanish law of forced heirship and \u201cthe custom of London.\u201d It was held that the statute secured substantial benefits to heirs which could not be evaded by \u201cshifts or devices or donations.\u201d In the instant case no rights are claimed by respondent under a statute. Her rights are those, and only those, which are defined in the will. In so far as the opinion in the Crain case seems to hold that to convey land by a deed in which a life estate is reserved by the vendor is to make a testamentary disposition thereof, it cannot be accepted as authority at this time because it is in conflict with many later decisions of this Court as reflected by the authorities next-above cited.\nIt is our view that the trial court correctly sustained the exceptions, and it is accordingly ordered that the judgment of the Court of Civil Appeals be reversed and that of the trial court affirmed.\nOpinion delivered December 8, 1948.\nBrewster, Associate Justice, disqualified and not sitting.\nRehearing overruled January 12, 1949.",
+        "type": "majority",
+        "author": "Mr. Chief Justice Hickman"
+      }
+    ],
+    "attorneys": [
+      "Ray A. Pittman, H. R. Wilson, Blades, Chiles, Moore & Kennerly, and B. F. Whitworth, all of Houston, Kemp, Lewright, Dyer & Sorrell, Kleberg, Eckhart, Mobley & Roberts, McCampbell, Wood & Kirkham, Tarlton, Koch & Hale, and Chas. L. Hale, Jr., all of Corpus Christi, for petitioners.",
+      "Grimes & Owen, of Taylor, for respondents."
+    ],
+    "corrections": "",
+    "head_matter": "Vira A. Harrell et al v. Ara M. Hickman.\nNo. A-1792.\nDecided December 8, 1948.\nRehearing overruled January 12, 1949.\n(215 S. W., 2d Series, 876.)\nRay A. Pittman, H. R. Wilson, Blades, Chiles, Moore & Kennerly, and B. F. Whitworth, all of Houston, Kemp, Lewright, Dyer & Sorrell, Kleberg, Eckhart, Mobley & Roberts, McCampbell, Wood & Kirkham, Tarlton, Koch & Hale, and Chas. L. Hale, Jr., all of Corpus Christi, for petitioners.\nThe Court of Civil Appeals erred in holding that the joint will in controversy did not vest title in the survivors to enable him to manage and dispose of the property as he saw fit and in holding that the trial court improperly sustained the exceptions and the motion to dismiss. Also in holding that the court could inquire into his motives in disposing of the property by deed, and that in making the deed as he did, it was contrary to the terms of the joint will. Nye v. Bradford, 144 Texas 618, 193 S. W. (2d) 165; Lockett v. Wood, (Peden Iron & Steel Co.) 131 Texas 287, 115 S. W. (2d) 405; Brown v. Payne, 142 Texas 102, 176 S. W. (2d) 306.\nGrimes & Owen, of Taylor, for respondents."
+  },
+  "file_name": "0396-01",
+  "first_page_order": 412,
+  "last_page_order": 420
+}

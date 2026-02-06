@@ -1,0 +1,59 @@
+{
+  "id": 6022414,
+  "name": "Peng Thao v. United States",
+  "name_abbreviation": "Peng Thao v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5100",
+  "first_page": "904",
+  "last_page": "904",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 904"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 75,
+    "ocr_confidence": 0.621,
+    "sha256": "1d9b38e50b07759be556d0ab025c162c5a5853875d7f1818d1ca7bafe370d305",
+    "simhash": "1:851be2232d3d100b",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Peng Thao v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5100.\nPeng Thao v. United States."
+  },
+  "file_name": "0904-01",
+  "first_page_order": 926,
+  "last_page_order": 926
+}

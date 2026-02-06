@@ -1,0 +1,59 @@
+{
+  "id": 12237097,
+  "name": "Klein v. Franklin, Warden",
+  "name_abbreviation": "Klein v. Franklin",
+  "decision_date": "2011-12-05",
+  "docket_number": "No. 11-6719",
+  "first_page": "1082",
+  "last_page": "1082",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1082"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.677,
+    "sha256": "1dd33da55b980c6ecb80ed2d862e9458c53b77bdc79f6bfea987c23b1da13545",
+    "simhash": "1:bfa0597593d73af0",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Klein v. Franklin, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6719.\nKlein v. Franklin, Warden."
+  },
+  "file_name": "1082-15",
+  "first_page_order": 1164,
+  "last_page_order": 1164
+}

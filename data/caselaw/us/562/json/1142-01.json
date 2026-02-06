@@ -1,0 +1,59 @@
+{
+  "id": 5936562,
+  "name": "Irby v. Texas",
+  "name_abbreviation": "Irby v. Texas",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-6323",
+  "first_page": "1142",
+  "last_page": "1142",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1142"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 67,
+    "ocr_confidence": 0.651,
+    "sha256": "7a0fae3520b37524a0a40d5d6c22d243e1e5e420d8b708333e477fcc82e1cbc3",
+    "simhash": "1:21129846769f1631",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Irby v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Tex. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6323.\nIrby v. Texas."
+  },
+  "file_name": "1142-01",
+  "first_page_order": 1164,
+  "last_page_order": 1164
+}

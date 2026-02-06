@@ -1,0 +1,59 @@
+{
+  "id": 12213476,
+  "name": "Janto et vir v. Holder, Attorney General",
+  "name_abbreviation": "Janto v. Holder",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-1",
+  "first_page": "878",
+  "last_page": "878",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 878"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 86,
+    "ocr_confidence": 0.704,
+    "sha256": "481b65d2dceaf81f4b3aad174e6bec0a5eac594aadcaddc5588bccd682669414",
+    "simhash": "1:41836078cde4340d",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Janto et vir v. Holder, Attorney General."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1.\nJanto et vir v. Holder, Attorney General."
+  },
+  "file_name": "0878-01",
+  "first_page_order": 960,
+  "last_page_order": 960
+}

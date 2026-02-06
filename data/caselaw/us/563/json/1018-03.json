@@ -1,0 +1,92 @@
+{
+  "id": 5927487,
+  "name": "Bradford v. Thaler Director, Texas Department of Criminal Justice, Correctional Institutions Division",
+  "name_abbreviation": "Bradford v. Thaler",
+  "decision_date": "2011-05-27",
+  "docket_number": "No. 09-11519 (10A1020)",
+  "first_page": "1018",
+  "last_page": "1018",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1018"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "562 U. S. 1177",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5945315,
+        5911565,
+        12440657,
+        12440658,
+        12440659,
+        12440660,
+        12440405,
+        12440406,
+        12440407,
+        5981688,
+        6013882
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/562/1177-01",
+        "/us/562/1177-04",
+        "/l-ed-2d/178/0857-02",
+        "/l-ed-2d/178/0857-03",
+        "/l-ed-2d/178/0857-04",
+        "/l-ed-2d/178/0857-05",
+        "/l-ed-2d/178/0824-05",
+        "/l-ed-2d/178/0825-01",
+        "/l-ed-2d/178/0825-02",
+        "/us/562/1177-02",
+        "/us/562/1177-03"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 43,
+    "char_count": 339,
+    "ocr_confidence": 0.558,
+    "sha256": "1f39b89893aef5d2a868443c3a22f82c84b7aaf043c50c2aa54d34d5af88720e",
+    "simhash": "1:94a30b3090a19ec8",
+    "word_count": 52
+  },
+  "last_updated": "2024-02-27T23:44:09.189648+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bradford v. Thaler Director, Texas Department of Criminal Justice, Correctional Institutions Division,"
+    ],
+    "opinions": [
+      {
+        "text": "562 U. S. 1177. Application for stay of execution of sentence of death, presented to Justice Scalia, and by him referred to the Court, denied. Motion for leave to file petition for rehearing denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "May 27, 2011\nNo. 09-11519 (10A1020).\nBradford v. Thaler Director, Texas Department of Criminal Justice, Correctional Institutions Division,"
+  },
+  "file_name": "1018-03",
+  "first_page_order": 1044,
+  "last_page_order": 1044
+}

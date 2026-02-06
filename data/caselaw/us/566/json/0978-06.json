@@ -1,0 +1,59 @@
+{
+  "id": 12213504,
+  "name": "Chan v. California",
+  "name_abbreviation": "Chan v. California",
+  "decision_date": "2012-04-30",
+  "docket_number": "No. 11-9062",
+  "first_page": "978",
+  "last_page": "978",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 978"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 82,
+    "ocr_confidence": 0.587,
+    "sha256": "109b79fb5c3b02cce26ae1b5f69e484440f5081b0e533dcf2a9d7b78db56b452",
+    "simhash": "1:08a502c41cd33261",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Chan v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 6th App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9062.\nChan v. California."
+  },
+  "file_name": "0978-06",
+  "first_page_order": 854,
+  "last_page_order": 854
+}

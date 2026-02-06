@@ -1,0 +1,59 @@
+{
+  "id": 6004472,
+  "name": "Taylor v. Hinkle, Warden",
+  "name_abbreviation": "Taylor v. Hinkle",
+  "decision_date": "2010-11-29",
+  "docket_number": "No. 10-6712",
+  "first_page": "1070",
+  "last_page": "1070",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1070"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.544,
+    "sha256": "7bd535ccef8a2736ecf5da684d493c72c94fb9385c8ffa57b35d5dd2bf9b8038",
+    "simhash": "1:248026d19fcf346d",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Taylor v. Hinkle, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6712.\nTaylor v. Hinkle, Warden."
+  },
+  "file_name": "1070-06",
+  "first_page_order": 1092,
+  "last_page_order": 1092
+}

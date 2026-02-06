@@ -1,0 +1,59 @@
+{
+  "id": 6022269,
+  "name": "Hall v. United States",
+  "name_abbreviation": "Hall v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5547",
+  "first_page": "928",
+  "last_page": "928",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 928"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.551,
+    "sha256": "bf1c1abfa4e95e02ee362774cb12e787036906960416de08046df4466fff83a5",
+    "simhash": "1:c38a7a8a8a9a1850",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hall v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5547.\nHall v. United States."
+  },
+  "file_name": "0928-07",
+  "first_page_order": 950,
+  "last_page_order": 950
+}

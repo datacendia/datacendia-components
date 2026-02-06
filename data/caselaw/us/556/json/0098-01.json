@@ -1,0 +1,207 @@
+{
+  "id": 3653564,
+  "name": "KANSAS v. COLORADO",
+  "name_abbreviation": "Kansas v. Colorado",
+  "decision_date": "2009-03-09",
+  "docket_number": "No. 105, Orig",
+  "first_page": "98",
+  "last_page": "110",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "556 U.S. 98"
+    },
+    {
+      "type": "parallel",
+      "cite": "173 L. Ed. 2d 245"
+    },
+    {
+      "type": "parallel",
+      "cite": "129 S. Ct. 1294"
+    },
+    {
+      "type": "vendor",
+      "cite": "2009 U.S. LEXIS 1779"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2008-033"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "480 U. S. 421",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1131295
+      ],
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "432",
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/480/0421-01"
+      ]
+    },
+    {
+      "cite": "Colo. Rev. Stat. \u00a737-69-101",
+      "category": "laws:leg_statute",
+      "reporter": "Colo. Rev. Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "421 U. S. 240",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        541055
+      ],
+      "year": 1975,
+      "pin_cites": [
+        {
+          "parenthetical": "the American Rule applies not only to attorney's fees but also other costs of litigation, including expert witness fees and miscellaneous costs such as transcripts and duplication"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/421/0240-01"
+      ]
+    },
+    {
+      "cite": "482 U. S. 437",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6215529
+      ],
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "444"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/482/0437-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 1920",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "543 U. S. 86",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5963304
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "89"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/543/0086-01"
+      ]
+    },
+    {
+      "cite": "533 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9312701
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/533/0001-01"
+      ]
+    },
+    {
+      "cite": "514 U. S. 673",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1339146
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/514/0673-01"
+      ]
+    },
+    {
+      "cite": "63 Stat. 145",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 1821",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 857,
+    "char_count": 21051,
+    "ocr_confidence": 0.667,
+    "pagerank": {
+      "raw": 1.5309252493792326e-07,
+      "percentile": 0.6710829473069665
+    },
+    "sha256": "ee43cc1c1cf77ee2039a9535e373feae906c00e6ff18f75ce8d1a128a31b16f5",
+    "simhash": "1:abae7f84dfe40462",
+    "word_count": 3406
+  },
+  "last_updated": "2024-02-27T20:53:05.274471+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Chief Justice Roberts, with whom Justice Souter joins, concurring."
+    ],
+    "parties": [
+      "KANSAS v. COLORADO"
+    ],
+    "opinions": [
+      {
+        "text": "Justice Alito\ndelivered the opinion of the Court.\nThis is the latest in a line of contested matters that have come before us in this action that was brought in this Court by the State of Kansas against the State of Colorado concerning the Arkansas River. The Special Master has filed a Fifth and Final Report that includes a proposed judgment and decree, and Kansas has filed an exception to the Report, contending that the Special Master erred in concluding that 28 U. S. C. \u00a7 1821, which sets the witness attendance fee for a proceeding in \u201cany court of the United States\u201d at $40 per day, applies to cases within this Court\u2019s original jurisdiction. Assuming for the sake of argument that Kansas is correct in its interpretation of the statutes at issue in this matter and that this Court has the authority to determine the amount that Kansas should recover in expert witness fees, we hold that the fee set out in \u00a7 1821 is nevertheless the appropriate fee. Accordingly, we overrule Kansas\u2019 exception and approve the entry of the proposed judgment and decree.\nI\nKansas filed this original action in 1985, claiming that Colorado had violated the Arkansas River Compact (Compact), 63 Stat. 145, by drilling irrigation wells that depleted water that should have been available for users in Kansas. In 1995, we accepted the recommendation of the Special Master that Colorado\u2019s wells had violated the Compact, and we remanded for further proceedings to determine appropriate remedies. See Kansas v. Colorado, 514 U. S. 673. The Special Master then recommended that monetary damages be awarded as compensation. In 2001, we accepted all but one of the Special Master\u2019s recommendations, modifying the remaining recommendation with respect to the starting date for an award of prejudgment interest. See Kansas v. Colorado, 533 U. S. 1. In 2004, we approved additional recommendations by the Special Master, and the case was again remanded. See Kansas v. Colorado, 543 U. S. 86.\nOn remand, the Special Master approved a schedule to resolve remaining disputed issues. Consistent with our guidance, experts for the States were assigned greater responsibility for discussing and resolving issues. Because of the contributions of expert witnesses and the use of the Hydrologic-Institutional Model to determine compliance with the Compact, the parties resolved most of the disputed issues. See id., at 89.\nThe sole remaining issue concerns Kansas\u2019 application for expert witness fees. After the Special Master determined that Kansas was the prevailing party for purposes of awarding \u201ccosts,\u201d Kansas submitted two alternative proposals for calculating the amount that it was entitled to recover for the costs it had incurred in retaining expert witnesses. The first proposal, which Kansas advocated, was based on the assumption that these fees were not limited by the $40 per day attendance fee set out in \u00a7 1821(b) and called for an award of $9,214,727.81 in expert witness fees. The other calculation, which was based on the assumption that \u00a7 1821(b) did apply, calculated the amount that Kansas was entitled to recover for expert witness fees at $162,927.94.\nAfter hearing argument, the Special Master held that \u00a71821 applies in cases within our original jurisdiction. Based on this holding, the two States entered into a cost settlement agreement that provided for total witness costs of $199,577.19 but preserved the right of the States to file exceptions to the Special Master\u2019s rulings on legal issues regarding costs.\nII\nKansas argues that the Special Master erred in holding that \u00a7 1821(b) applies to cases within our original jurisdiction. Kansas contends that early statutes governing the award of costs in cases in the lower courts did not apply to this Court\u2019s original cases and that this scheme has been carried forward to the present day. Kansas notes that the statutory provision authorizing the taxation of costs, 28 U. S. C. \u00a7 1920, authorizes \u201c[a] judge or clerk of any court of the United States\u201d to tax as costs \u201c[f]ees . . . for . . . witnesses\u201d and that the definition of the term \u201cjudge ... of the United States,\u201d as used in Title 28, does not include a Justice of this Court. In Kansas\u2019 view, \u00a7 1911, which provides that \u201c[t]he Supreme Court may fix the fees to be charged by its clerk,\u201d manifests Congress\u2019 understanding that we should have the authority to determine the fees that may be recovered by a prevailing party in a case brought under our original jurisdiction. Kansas further maintains that \u201c[e]ven if Congress had intended to regulate taxation of costs in the original jurisdiction of this Court, such an act would be subject to the Court\u2019s ultimate authority to regulate procedure within its constitutionally created original jurisdiction.\u201d Kansas\u2019 Exception and Brief 10. Kansas therefore contends that our holding in Crawford Fitting Co. v. J. T. Gibbons, Inc., 482 U. S. 437, 444 (1987), that district courts must adhere to the witness attendance fee limitations set forth in \u00a7 1821(b), is not relevant here.\nColorado disagrees. Citing our decision in Crawford Fitting, Colorado argues that the $40 per day witness attendance fee limitation of \u00a7 1821(b) applies not only to cases in the district courts but also to our original eases. Colorado notes that \u00a7 1821(a)(1) prescribes the witness attendance fee for a proceeding in \u201cany court of the United States\u201d and that \u00a7 1821(a)(2) defines the term \u201c \u2018court of the United States\u2019 \u201d to include this Court. Colorado also contends that there is no precedent to support the argument that the Constitution prohibits Congress from imposing a limit on expert witness fees in cases within our original jurisdiction, and Colorado sees no justification for an award of costs for expert witness fees in excess of the limit in \u00a7 1821(b).\nIll\nWe find it unnecessary to decide whether Congress has attempted to regulate the recovery of expert witness fees by a prevailing party in a case brought under our original jurisdiction. Nor do we decide whether Kansas is correct in contending that Article III of the Constitution does not permit Congress to impose such a restriction. Assuming for the sake of argument that Kansas is correct in arguing that we have the discretion to determine the fees that are recoverable in original actions, we conclude that it is nevertheless appropriate to follow \u00a7 1821(b).\nCongress\u2019 decision not to permit a prevailing party in the lower courts to recover its actual witness fee expenses may be seen as a decision to depart only slightly from the so-called \u201cAmerican Rule,\u201d under which parties generally bear their own expenses. See Alyeska Pipeline Service Co. v. Wilderness Society, 421 U. S. 240 (1975) (the American Rule applies not only to attorney\u2019s fees but also other costs of litigation, including expert witness fees and miscellaneous costs such as transcripts and duplication). While this policy choice is debatable, we see no good reason why the rule regarding the recovery of expert witness fees should differ markedly depending on whether a case is originally brought in a district court or in this Court. Many cases brought in the district courts are no less complex than those brought originally in this Court. And while the parties in our original cases sometimes are required to incur very substantial expert costs, as happened in the present case, the same is frequently true in lower court litigation. Thus, assuming for the sake of argument that the matter is left entirely to our discretion, we conclude that the best approach is to have a uniform rule that applies in all federal cases.\nWe therefore hold that the expert witness attendance fees that are available in cases brought under our original jurisdiction shall be the same as the expert witness attendance fees that would be available in a district court under \u00a7 1821(b). We thus overrule Kansas\u2019 exception to the Report of the Special Master.\nIt is so ordered.\nJUDGMENT\nJudgment is awarded against the State of Colorado in favor of the State of Kansas for violations of the Arkansas River Compact resulting from postcompact well pumping in Colorado. Judgment is awarded in the amount of $34,615,146.00 for damages and prejudgment interest, including the required adjustment for inflation, arising from depletions of usable streamflow of the Arkansas River at the Colorado-Kansas Stateline in the amount of 428,005 acre-feet of water during the period 1950-1996. The damages were paid in full on April 29, 2005. Costs through January 31, 2006, including reallocation of Kansas\u2019 share of the Special Master\u2019s fees and expenses, are awarded to Kansas in the amount of $1,109,946.73. These costs were paid in full on June 29, 2006. By Stipulation, $100,000.00 of the Special Master\u2019s fees and expenses are reallocated from the United States to Kansas.\nKansas\u2019 claims regarding the Winter Water Storage Program and the operation of Trinidad Reservoir and all Colorado Counterclaims are hereby dismissed.\nDECREE\nI. Injunction\nA. General Provisions\n1. It is Ordered, Adjudged, and Decreed that the State of Colorado, its officers, attorneys, agents, and employees are hereby enjoined to comply with Article IV-D of the Arkansas River Compact by not materially depleting the waters of the Arkansas River, as defined in Article III of the Compact, in usable quantity or availability for use to the water users in Kansas under the Compact by Groundwater Pumping, as prescribed in this Decree, and more particularly:\na. To prevent Groundwater Pumping in excess of the precompact pumping allowance of 15,000 acre-feet per year without Replacement of depletions to Usable State-line Flow in accordance with this Decree;\nb. To enforce the Colorado Use Rules with respect to Groundwater Pumping, unless John Martin Reservoir is spilling and Stateline water is passing Garden City, Kansas; and\nc. To enforce the Colorado Measurement Rules with respect to Groundwater Pumping.\n2. Compliance with this Decree shall constitute Compact compliance with respect to Groundwater Pumping.\nB. Determination of Compact Compliance With Respect to Groundwater Pumping\n1. Compact compliance with respect to Groundwater Pumping shall be determined using the results of the H-I Model over a moving ten-year period beginning with 1997, in accordance with the Compact Compliance Procedures described in Appendix A. Any Shortfall shall be made up by Colorado as specified in Section I.C of this Decree.\n2. Annual Calculations of depletions and accretions to Usable Stateline Flow shall be determined using the H-I Model, in accordance with the procedures described in Appendix B and the Durbin usable flow method with the Larson coefficients, which is documented in Appendix C. Annual Calculations shall be done on a calendar year basis unless the States agree to a different year for the calculations. Accumulation of accretions shall be limited as described in Appendix D. The Annual Calculations for each of the years 1997-2006, found in Appendix E, are final, except as set forth in Section III of this Decree. Similarly, the results of Annual Calculations for years after 2006 shall be final for use in the ten-year Compact compliance accounting, when determined as provided in Appendices A and B, subject to the same provisos applicable to the 1997-2006 Annual Calculations.\n3. Colorado shall be entitled to credit for Replacement of depletions to Usable Stateline Flow. The credit for Replacement shall be determined using the H-I Model, except for credit derived from operation of the Offset Account, which shall be determined as set out in Appendix F, and except for credit for direct deliveries of water to the State-line if the Offset Account does not exist, which shall be determined as set out in Appendix A.\n4. The H-I Model may be improved by agreement of the States or pursuant to the Dispute Resolution Procedure contained in Appendix H.\nC. Repayment of Shortfalls\n1. If there is a Shortfall, Colorado shall make up the Shortfall in accordance with the provisions of Appendix A.\n2. Colorado shall make up a Shortfall by delivering water to the Offset Account in John Martin Reservoir to the extent that space is available. To the extent that space is not initially available in the Offset Account, Colorado shall make up the rest of such Shortfall by delivering water to the Offset Account as space becomes available. The timing, accounting, crediting, notice, and other matters related to deliveries of water to make up a Shortfall shall be accomplished pursuant to Appendix A.\nII. Dispute Resolution\nThe States shall work together informally to the maximum extent possible to resolve any disagreements regarding implementation of this Decree. Disagreements that cannot be so resolved shall be submitted to the stipulated Dispute Resolution Procedure contained in Appendix H.\nIII. Modification of Appendices to the Decree\nAppendices A-J may be modified only: (a) by agreement of the States or (b) pursuant to the Dispute Resolution Procedure, provided that the Colorado Measurement Rules and Colorado Use Rules may be amended by Colorado to the extent that Colorado can demonstrate that any such amendments will adequately protect Kansas\u2019 rights under the Compact, and further provided that Appendix E shall not be modified except that it shall be subject to later determinations of Replacement credits to be applied toward Colorado's Compact obligations by the Colorado Division 2 Water Court and any appeals therefrom, and farther subject to the right of Kansas to seek relief from such Colorado Water Court determinations under the Court\u2019s original jurisdiction. Disputes arising under this Section III shall be subject to the Dispute Resolution Procedure.\nIV. Retention of Jurisdiction\nA. The Court retains jurisdiction for a limited period of time after the end of the initial ten-year startup period (ending in 2006) for the purpose of evaluating the sufficiency of the Colorado Use Rules and their administration and whether changes to this Decree are needed to ensure Compact compliance. The procedures to be followed are set out in Appendix B.l, Part VII.\nB. The retained jurisdiction provided in Section IV.A of this Decree shall terminate at the end of 2008, unless, prior to December 31, 2008, either State has notified the Special Master that there is a dispute concerning the sufficiency or administration of the Use Rules that has been submitted to the Dispute Resolution Procedure. If either State notifies the Special Master as provided herein, the retained jurisdiction shall continue, and the States, within 60 days from the conclusion of the Dispute Resolution Procedure, shall request either further proceedings before the Special Master or termination of the retained jurisdiction provided for in Section IV.A of this Decree. The Special Master shall recommend to the Court such action as he deems appropriate. The Special Master shall be discharged upon termination of the retained jurisdiction provided for in Section IV.A of this Decree.\nC. Any of the parties may apply at the foot of this Decree for its amendment or for further relief. The Court retains jurisdiction of this suit for the purpose of any order, direction, or modification of the Decree, or any supplementary decree, that may at any time be deemed proper in relation to the subject matter in controversy.\nD. No application for relief under the retained jurisdiction in this Section IV shall be accepted unless the dispute has first been submitted to the Dispute Resolution Procedure.\nV. Definitions\nWhenever used in this Judgment and Decree, including Appendices, terms defined in the Compact shall have the meaning ascribed to them in the Compact; in addition, the following terms shall mean:\nAcre-foot: The volume of water required to cover one acre of land to a depth of one foot, which is equal to 825,851 gallons;\nAnnual Calculations: The calculation for each year of depletions and accretions to Usable Stateline Flow using the H-I Model, as described in Appendix B;\nAppendix: One of the Appendices listed in Section VI of this Decree and included in Volumes II and III of the Special Master's Fifth and Final Report in this case;\nAcceptable Sources of Water: As defined in Appendix G;\nARCA: The Arkansas River Compact Administration created by Article VIII of the Compact;\nColorado Measurement Rules: Amended Rules Governing the Measurement of Tributary Ground Water Diversions Located in the Arkansas River Basin, revised November 30, 2005, contained in Appendix 1.1, as they may be amended from time to time in accordance with Article III of this Decree;\nColorado Use Rules: Amended Rules and Regulations Governing the Diversion and Use of Tributary Ground Water in the Arkansas River Basin, Colorado, Kan. Exh. 1123, contained in Appendix J.l, as they may be amended from time to time in accordance with Article III of this Decree;\nCompact: The Arkansas River Compact, 63 Stat. 145 (1949); Kan. Stat. Ann. \u00a782a-520; Colo. Rev. Stat. \u00a737-69-101;\nDispute Resolution Procedure: As set out in Appendix H;\nGroundwater Pumping: Pumping of water from wells (other than the Wiley/Sapp Wells) in excess of 50 gallons per minute, from the alluvial and surficial aquifers along the mainstem of the Arkansas River between Pueblo, Colorado, and the Stateline within the domain of the H-I Model described in Appendix C.l;\nH-I Model: The Hydrologic-Institutional Model as described and documented in Appendix C.l;\nJohn Martin Reservoir: The reservoir constructed and operated by the United States Army Corps of Engineers on the mainstem of the Arkansas River approximately 58 miles upstream from the Stateline, as referred to in the Compact;\nOffset Account: The storage account established in John Martin Reservoir and operated in accordance with the ARCA Resolution Concerning an Offset Account in John Martin Reservoir for Colorado Pumping, dated March 17, 1997, as amended twice on March 30, 1998, and contained in Appendix L, as the same may be further amended by the ARCA;\nReplacement: Delivery of water from Acceptable Sources of Water to prevent depletions caused by Groundwater Pumping;\nShortfall: A net depletion to Usable Stateline Flow based on the results of the H-I Model over a ten-year period using the Compact Compliance Accounting Procedures described in Appendix A;\nUsable Stateline Flow: Stateline flow as simulated by the H-I Model and determined to be usable pursuant to the Durbin usable flow method with the Larson coefficients, as set out in Appendix C.2; and\nWiley/Sapp Wells: Wells decreed as alternate points of diversion for precompact surface water rights in Colorado by the District Court, Water Div. 2, State of Colorado, Case Nos. 82CW115 (W-4496), 82CW125 (W-4497), and 89CW82; see App. to Third Report of the Special Master 59-61.\nChief Justice Roberts, with whom Justice Souter joins, concurring.\nI join the opinion of the Court in full. I do so only, however, because the opinion expressly and carefully makes clear that it in no way infringes this Court\u2019s authority to decide on its own, in original cases, whether there should be witness fees and what they should be.\nOur appellate jurisdiction is, under the Constitution, subject to \u201csuch Exceptions, and . . . such Regulations as the Congress shall make.\u201d Art. Ill, \u00a72. Our original jurisdiction is not. The Framers presumably \u201cact[ed] intentionally and purposely in the disparate inclusion or exclusion\u201d of these terms. INS v. Cardoza-Fonseca, 480 U. S. 421, 432 (1987) (internal quotation marks omitted).\nIt is accordingly our responsibility to determine matters related to our original jurisdiction, including the availability and amount of witness fees. For the reasons given by the Court, I agree that $40 is a reasonable choice for the fees at issue here. But the choice is ours.\nThe Compact, which was approved by negotiators for the States of Kansas and Colorado in 1948, allows post-Compact development in Colorado provided that such development does not cause material depletions of usable stateline flows.\nThe recommendations we approved in 2004 were: (1) that the Court not appoint a River Master; (2) that the amount of prejudgment interest be set; (3) that calculations regarding river depletions be made on a 10-year basis in order to even out possible inaccuracies in computer modeling; and (4) that a Colorado Water Court be given the authority to make certain determinations relevant to continuing implementation of agreements reached through this litigation.",
+        "type": "majority",
+        "author": "Justice Alito"
+      }
+    ],
+    "attorneys": [
+      "Stephen N. Six, Attorney General of Kansas, argued the cause for plaintiff. With him on the brief were Michael C. Leitch, Deputy Attorney General, John M. Cassidy, Assistant Attorney General, and Leland E. Rolfs and John B. Draper, Special Assistant Attorneys General.",
+      "John W. Suthers, Attorney General of Colorado, argued the cause for defendant. With him on the brief were David W. Robbins and Dennis M. Montgomery, Special Assistant Attorneys General."
+    ],
+    "corrections": "",
+    "head_matter": "KANSAS v. COLORADO\nNo. 105, Orig.\nArgued December 1, 2008\nDecided March 9, 2009\nStephen N. Six, Attorney General of Kansas, argued the cause for plaintiff. With him on the brief were Michael C. Leitch, Deputy Attorney General, John M. Cassidy, Assistant Attorney General, and Leland E. Rolfs and John B. Draper, Special Assistant Attorneys General.\nJohn W. Suthers, Attorney General of Colorado, argued the cause for defendant. With him on the brief were David W. Robbins and Dennis M. Montgomery, Special Assistant Attorneys General."
+  },
+  "file_name": "0098-01",
+  "first_page_order": 198,
+  "last_page_order": 210
+}

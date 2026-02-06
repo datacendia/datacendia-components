@@ -1,0 +1,59 @@
+{
+  "id": 12214706,
+  "name": "Garcia v. United States",
+  "name_abbreviation": "Garcia v. United States",
+  "decision_date": "2012-05-14",
+  "docket_number": "No. 11-8728",
+  "first_page": "983",
+  "last_page": "983",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 983"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 45,
+    "char_count": 336,
+    "ocr_confidence": 0.53,
+    "sha256": "1979d64d14990c5e53ffc2e5ade43c1565286535e3bd56045b69ea89be8c1369",
+    "simhash": "1:c78e7a2285609e5e",
+    "word_count": 56
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Garcia v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Motion of petitioner for leave to proceed in forma pauperis granted. Certiorari granted, judgment vacated, and case remanded for further consideration in light of the position asserted by the Solicitor General in his brief for the United States filed on April 11, 2012.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "May 14, 2012\nNo. 11-8728.\nGarcia v. United States."
+  },
+  "file_name": "0983-03",
+  "first_page_order": 859,
+  "last_page_order": 859
+}

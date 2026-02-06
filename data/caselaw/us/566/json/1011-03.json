@@ -1,0 +1,59 @@
+{
+  "id": 12220269,
+  "name": "Dunn v. Albany Medical College",
+  "name_abbreviation": "Dunn v. Albany Medical College",
+  "decision_date": "2012-05-21",
+  "docket_number": "No. 11-1217",
+  "first_page": "1011",
+  "last_page": "1011",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 1011"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 78,
+    "ocr_confidence": 0.622,
+    "sha256": "e310e178f3c10303619f10e0d3aa642842792d38f04a0fb001c7f5c43c21b998",
+    "simhash": "1:0d2382890b21e268",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dunn v. Albany Medical College."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1217.\nDunn v. Albany Medical College."
+  },
+  "file_name": "1011-03",
+  "first_page_order": 887,
+  "last_page_order": 887
+}

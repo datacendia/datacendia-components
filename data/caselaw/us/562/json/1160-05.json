@@ -1,0 +1,59 @@
+{
+  "id": 5927384,
+  "name": "McMahan v. United States",
+  "name_abbreviation": "McMahan v. United States",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7741",
+  "first_page": "1160",
+  "last_page": "1160",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1160"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.597,
+    "sha256": "df4fe28b75fbd5d59017e3dc6dd0e4af23f6ededdb94c22c84a5a789ecf2e903",
+    "simhash": "1:978bdd2287271338",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McMahan v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7741.\nMcMahan v. United States."
+  },
+  "file_name": "1160-05",
+  "first_page_order": 1182,
+  "last_page_order": 1182
+}

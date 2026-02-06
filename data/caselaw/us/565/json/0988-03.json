@@ -1,0 +1,59 @@
+{
+  "id": 12231357,
+  "name": "Amerson v. City of Des Moines, Iowa",
+  "name_abbreviation": "Amerson v. City of Des Moines",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. 11-6312",
+  "first_page": "988",
+  "last_page": "988",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 988"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 84,
+    "ocr_confidence": 0.717,
+    "sha256": "e16ea4b493f7c89cce31e2920226299f27caad7490f7e98ff9b949947433e509",
+    "simhash": "1:1bcbd2a9e4a2abc1",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Amerson v. City of Des Moines, Iowa."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Iowa. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6312.\nAmerson v. City of Des Moines, Iowa."
+  },
+  "file_name": "0988-03",
+  "first_page_order": 1070,
+  "last_page_order": 1070
+}

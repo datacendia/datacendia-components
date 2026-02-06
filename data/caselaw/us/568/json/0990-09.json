@@ -1,0 +1,59 @@
+{
+  "id": 12421135,
+  "name": "Colter v. United States",
+  "name_abbreviation": "Colter v. United States",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 12-6346",
+  "first_page": "990",
+  "last_page": "990",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 990"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.716,
+    "sha256": "d72a2f1151689380bece561f9c4a9e5686ec25a82a1b0dd671d387883531d0f7",
+    "simhash": "1:a71b84696bcf1f56",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Colter v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. D. C. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6346.\nColter v. United States."
+  },
+  "file_name": "0990-09",
+  "first_page_order": 1066,
+  "last_page_order": 1066
+}

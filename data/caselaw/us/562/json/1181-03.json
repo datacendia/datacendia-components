@@ -1,0 +1,59 @@
+{
+  "id": 5958975,
+  "name": "Larson et ux. v. United States",
+  "name_abbreviation": "Larson v. United States",
+  "decision_date": "2011-01-18",
+  "docket_number": "No. 10-799",
+  "first_page": "1181",
+  "last_page": "1181",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1181"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 79,
+    "ocr_confidence": 0.639,
+    "sha256": "fccf836e8c293ca9d1a0e8e62128450ba73e8a1003c3245607f3aa3460a7253d",
+    "simhash": "1:859bce460aa7141a",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Larson et ux. v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. Fed. Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-799.\nLarson et ux. v. United States."
+  },
+  "file_name": "1181-03",
+  "first_page_order": 1203,
+  "last_page_order": 1203
+}

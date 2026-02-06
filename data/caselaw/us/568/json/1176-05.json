@@ -1,0 +1,59 @@
+{
+  "id": 12431227,
+  "name": "Petefish v. Ohio",
+  "name_abbreviation": "Petefish v. Ohio",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-7887",
+  "first_page": "1176",
+  "last_page": "1176",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1176"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 82,
+    "ocr_confidence": 0.66,
+    "sha256": "7d57801f97cc35975e0873999539e78704cb1723171fb7dde19e4d14a288e040",
+    "simhash": "1:fd2a27ce9ef867db",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Petefish v. Ohio."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Ohio, Mahoning County. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7887.\nPetefish v. Ohio."
+  },
+  "file_name": "1176-05",
+  "first_page_order": 1252,
+  "last_page_order": 1252
+}

@@ -1,0 +1,66 @@
+{
+  "id": 12706432,
+  "name": "Sara GRIMES, petitioner, v. Kevin BEARY, et al.",
+  "name_abbreviation": "Grimes v. Beary",
+  "decision_date": "2014-05-19",
+  "docket_number": "No. 13\u20139051.",
+  "first_page": "1120",
+  "last_page": "1120",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "572 U.S. 1120"
+    },
+    {
+      "type": "parallel",
+      "cite": "189 L. Ed. 2d 183"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 2298"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 29,
+    "char_count": 211,
+    "sha256": "d3378080cfb81970fbf2addf1626e8c115284d27726a07b5ef25eeea867a7060",
+    "simhash": "1:51eb844eb09050cb",
+    "word_count": 35
+  },
+  "last_updated": "2021-08-27T20:44:00.426858+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sara GRIMES, petitioner,\nv.\nKevin BEARY, et al."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "Sara GRIMES, petitioner,\nv.\nKevin BEARY, et al.\nNo. 13-9051.\nSupreme Court of the United States\nMay 19, 2014.\nPetition for writ of certiorari to the District Court of Appeal of Florida, Fifth District, denied."
+  },
+  "file_name": "1120-01",
+  "first_page_order": 1120,
+  "last_page_order": 1120
+}

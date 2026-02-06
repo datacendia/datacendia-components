@@ -1,0 +1,59 @@
+{
+  "id": 12422498,
+  "name": "Thomas v. City of Staunton, Virginia, et al.",
+  "name_abbreviation": "Thomas v. City of Staunton",
+  "decision_date": "2012-11-13",
+  "docket_number": "No. 12-294",
+  "first_page": "1010",
+  "last_page": "1010",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1010"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 91,
+    "ocr_confidence": 0.691,
+    "sha256": "1445a46dfc6f61de51b03323bf117a87a2b2c200a05387066b0fc6905773a8d9",
+    "simhash": "1:70c14ab8db8bb031",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Thomas v. City of Staunton, Virginia, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-294.\nThomas v. City of Staunton, Virginia, et al."
+  },
+  "file_name": "1010-08",
+  "first_page_order": 1086,
+  "last_page_order": 1086
+}

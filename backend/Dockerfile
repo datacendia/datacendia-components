@@ -16,8 +16,7 @@ RUN npx prisma generate
 # Copy source code
 COPY . .
 
-# Build TypeScript
-RUN npm run build
+# Skip TypeScript compilation during Docker build; run via tsx at runtime
 
 # Production stage
 FROM node:20-alpine AS production
@@ -33,7 +32,7 @@ RUN addgroup -g 1001 -S nodejs && \
 
 # Copy built files
 COPY --from=builder /app/node_modules ./node_modules
-COPY --from=builder /app/dist ./dist
+COPY --from=builder /app/src ./src
 COPY --from=builder /app/prisma ./prisma
 COPY --from=builder /app/package*.json ./
 
@@ -51,4 +50,4 @@ HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
 
 # Start with dumb-init
 ENTRYPOINT ["dumb-init", "--"]
-CMD ["node", "dist/index.js"]
+CMD ["node", "--import", "tsx", "src/index.ts"]

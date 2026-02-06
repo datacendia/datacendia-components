@@ -1,0 +1,68 @@
+{
+  "id": 12706420,
+  "name": "Bernardo COSTA, petitioner, v. MISSOURI.",
+  "name_abbreviation": "Costa v. Mo.",
+  "decision_date": "2014-05-19",
+  "docket_number": "No. 13\u20139001.",
+  "first_page": "1119",
+  "last_page": "1119",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "572 U.S. 1119"
+    },
+    {
+      "type": "parallel",
+      "cite": "189 L. Ed. 2d 181"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 2296"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 25,
+    "char_count": 198,
+    "sha256": "44d2e582d0df84bb63469a11ecd88000968872879a0e073cfa452e9712e1ac58",
+    "simhash": "1:586f5ad6a08384b5",
+    "word_count": 31
+  },
+  "last_updated": "2021-09-08T21:16:17.237805+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bernardo COSTA, petitioner,\nv.\nMISSOURI."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of certiorari to the Court of Appeals of Missouri, Western District denied."
+    ],
+    "corrections": "",
+    "head_matter": "Bernardo COSTA, petitioner,\nv.\nMISSOURI.\nNo. 13-9001.\nSupreme Court of the United States\nMay 19, 2014.\nPetition for writ of certiorari to the Court of Appeals of Missouri, Western District denied."
+  },
+  "file_name": "1119-04",
+  "first_page_order": 1119,
+  "last_page_order": 1119
+}

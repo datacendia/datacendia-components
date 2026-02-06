@@ -1,0 +1,61 @@
+{
+  "id": 5950297,
+  "name": "Lichtenberg v. United States",
+  "name_abbreviation": "Lichtenberg v. United States",
+  "decision_date": "2011-05-16",
+  "docket_number": "No. 10-9989",
+  "first_page": "1003",
+  "last_page": "1003",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1003"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 155,
+    "ocr_confidence": 0.563,
+    "sha256": "b18f180306714d41ac41125a7f031aadd74c09401d8d3b30992f2559e3bfc12c",
+    "simhash": "1:9d23ea80258ee84e",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Lichtenberg v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9989.\nLichtenberg v. United States."
+  },
+  "file_name": "1003-01",
+  "first_page_order": 1029,
+  "last_page_order": 1029
+}

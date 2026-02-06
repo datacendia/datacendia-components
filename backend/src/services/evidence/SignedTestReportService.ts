@@ -15,6 +15,7 @@ import path from 'path';
 import { EventEmitter } from 'events';
 import { logger } from '../../utils/logger.js';
 import { TestEvidenceLedgerService, LedgerEntry, TestSuiteSummary, VerificationResult } from './TestEvidenceLedgerService.js';
+import { pdfGeneratorService, PDFSection } from '../document/PDFGeneratorService.js';
 
 // =============================================================================
 // TYPES
@@ -145,7 +146,7 @@ export class SignedTestReportService extends EventEmitter {
 
   private constructor() {
     super();
-    this.storagePath = process.env.EVIDENCE_REPORTS_PATH || '/var/datacendia/evidence/reports';
+    this.storagePath = process.env['EVIDENCE_REPORTS_PATH'] || '/var/datacendia/evidence/reports';
     this.ledgerService = TestEvidenceLedgerService.getInstance();
     this.ensureDirectories();
     this.initializeKeys();
@@ -225,8 +226,8 @@ export class SignedTestReportService extends EventEmitter {
     toDate?: Date;
   }): Promise<SignedReport> {
     const entries = this.ledgerService.getEntries({
-      fromDate: params.fromDate,
-      toDate: params.toDate,
+      ...(params.fromDate && { fromDate: params.fromDate }),
+      ...(params.toDate && { toDate: params.toDate }),
     });
     
     // Filter entries that have compliance framework tags
@@ -249,8 +250,8 @@ export class SignedTestReportService extends EventEmitter {
     toDate?: Date;
   }): Promise<SignedReport> {
     const entries = this.ledgerService.getEntries({
-      fromDate: params.fromDate,
-      toDate: params.toDate,
+      ...(params.fromDate && { fromDate: params.fromDate }),
+      ...(params.toDate && { toDate: params.toDate }),
     });
     
     const relevantEntries = params.securityControls
@@ -301,7 +302,7 @@ export class SignedTestReportService extends EventEmitter {
       generatedAt: new Date(),
       generatedBy: params.config.preparedBy,
       config: params.config,
-      suiteIds: params.suiteIds,
+      suiteIds: params.suiteIds || [],
       entryIds: params.entries.map(e => e.id),
       contentHash,
       dataHash,
@@ -347,7 +348,7 @@ export class SignedTestReportService extends EventEmitter {
       classification: params.config.classification || 'internal',
       generatedAt: now.toISOString(),
       reportPeriod: {
-        from: params.entries.length > 0 
+        from: params.entries.length > 0 && params.entries[0]
           ? params.entries.reduce((min, e) => e.timestamp < min ? e.timestamp : min, params.entries[0].timestamp).toISOString()
           : now.toISOString(),
         to: now.toISOString(),
@@ -494,27 +495,92 @@ export class SignedTestReportService extends EventEmitter {
       mimeType: 'application/json',
     });
     
-    // Generate PDF (text-based for now - in production use PDFKit or similar)
-    const pdfPath = path.join(this.storagePath, 'pdf', `${reportId}.txt`);
-    const pdfContent = this.generatePDFContent(config, data);
-    await fs.promises.writeFile(pdfPath, pdfContent);
-    
-    outputs.push({
-      format: 'pdf',
-      filename: `${reportId}.pdf`,
-      path: pdfPath,
-      size: Buffer.byteLength(pdfContent),
-      hash: this.hashData(pdfContent),
-      mimeType: 'application/pdf',
-    });
+    // Generate actual PDF using PDFGeneratorService
+    try {
+      const d = data as Record<string, unknown>;
+      const summary = d['summary'] as Record<string, unknown>;
+      const categories = d['categoryBreakdown'] as Record<string, { total: number; passed: number; failed: number }>;
+      
+      const sections: PDFSection[] = [
+        { type: 'heading', content: config.title.toUpperCase(), level: 1 },
+        { type: 'divider' },
+        { type: 'paragraph', content: `Organization: ${config.organization}` },
+        { type: 'paragraph', content: `Prepared By: ${config.preparedBy}` },
+        { type: 'paragraph', content: `Classification: ${(config.classification || 'internal').toUpperCase()}` },
+        { type: 'paragraph', content: `Generated: ${new Date().toISOString()}` },
+        { type: 'spacer' },
+        { type: 'heading', content: 'Executive Summary', level: 2 },
+        {
+          type: 'table',
+          headers: ['Metric', 'Value'],
+          rows: [
+            ['Total Tests', String(summary?.['totalTests'] || 0)],
+            ['Passed', String(summary?.['passed'] || 0)],
+            ['Failed', String(summary?.['failed'] || 0)],
+            ['Skipped', String(summary?.['skipped'] || 0)],
+            ['Pass Rate', `${summary?.['passRate'] || 0}%`],
+          ],
+        },
+        { type: 'spacer' },
+        { type: 'heading', content: 'Category Breakdown', level: 2 },
+        {
+          type: 'table',
+          headers: ['Category', 'Passed', 'Total', 'Pass Rate'],
+          rows: Object.entries(categories || {}).map(([category, stats]) => [
+            category,
+            String(stats.passed),
+            String(stats.total),
+            `${stats.total > 0 ? ((stats.passed / stats.total) * 100).toFixed(1) : '0.0'}%`,
+          ]),
+        },
+      ];
+
+      const generatedPdf = await pdfGeneratorService.generatePDF(sections, {
+        title: config.title,
+        author: config.preparedBy,
+        subject: 'Test Execution Report',
+        keywords: ['test', 'report', 'evidence', reportId],
+      }, {
+        headerText: 'DATACENDIA TEST REPORT - CONFIDENTIAL',
+        footerText: `Report ID: ${reportId}`,
+        pdfaCompliant: true,
+      });
+
+      const pdfPath = path.join(this.storagePath, 'pdf', `${reportId}.pdf`);
+      await fs.promises.writeFile(pdfPath, generatedPdf.buffer);
+      
+      outputs.push({
+        format: 'pdf',
+        filename: `${reportId}.pdf`,
+        path: pdfPath,
+        size: generatedPdf.size,
+        hash: generatedPdf.hash,
+        mimeType: 'application/pdf',
+      });
+    } catch (pdfError) {
+      logger.error('PDF generation failed, falling back to text format:', pdfError);
+      // Fallback to text-based output if PDF generation fails
+      const pdfPath = path.join(this.storagePath, 'pdf', `${reportId}.txt`);
+      const pdfContent = this.generatePDFContent(config, data);
+      await fs.promises.writeFile(pdfPath, pdfContent);
+      
+      outputs.push({
+        format: 'pdf',
+        filename: `${reportId}.pdf`,
+        path: pdfPath,
+        size: Buffer.byteLength(pdfContent),
+        hash: this.hashData(pdfContent),
+        mimeType: 'text/plain',
+      });
+    }
     
     return outputs;
   }
 
   private generatePDFContent(config: ReportConfig, data: object): string {
     const d = data as Record<string, unknown>;
-    const summary = d.summary as Record<string, unknown>;
-    const categories = d.categoryBreakdown as Record<string, { total: number; passed: number; failed: number }>;
+    const summary = d['summary'] as Record<string, unknown>;
+    const categories = d['categoryBreakdown'] as Record<string, { total: number; passed: number; failed: number }>;
     
     const lines = [
       '═'.repeat(80),
@@ -535,12 +601,12 @@ export class SignedTestReportService extends EventEmitter {
       '',
       '                         EXECUTIVE SUMMARY',
       '',
-      `Total Tests:      ${summary.totalTests}`,
-      `Passed:           ${summary.passed}`,
-      `Failed:           ${summary.failed}`,
-      `Skipped:          ${summary.skipped}`,
-      `Errors:           ${summary.errors}`,
-      `Pass Rate:        ${summary.passRate}%`,
+      `Total Tests:      ${summary['totalTests']}`,
+      `Passed:           ${summary['passed']}`,
+      `Failed:           ${summary['failed']}`,
+      `Skipped:          ${summary['skipped']}`,
+      `Errors:           ${summary['errors']}`,
+      `Pass Rate:        ${summary['passRate']}%`,
       '',
       '─'.repeat(80),
       '',
@@ -559,10 +625,10 @@ export class SignedTestReportService extends EventEmitter {
     lines.push('                       CHAIN VERIFICATION');
     lines.push('');
     
-    const chainVerification = d.chainVerification as Record<string, unknown>;
-    lines.push(`Entries Verified:     ${chainVerification.entriesVerified}`);
-    lines.push(`All Signed:           ${chainVerification.allSigned ? 'YES' : 'NO'}`);
-    lines.push(`Merkle Root:          ${chainVerification.merkleRootAvailable ? 'AVAILABLE' : 'NOT AVAILABLE'}`);
+    const chainVerification = d['chainVerification'] as Record<string, unknown>;
+    lines.push(`Entries Verified:     ${chainVerification['entriesVerified']}`);
+    lines.push(`All Signed:           ${chainVerification['allSigned'] ? 'YES' : 'NO'}`);
+    lines.push(`Merkle Root:          ${chainVerification['merkleRootAvailable'] ? 'AVAILABLE' : 'NOT AVAILABLE'}`);
     
     lines.push('');
     lines.push('─'.repeat(80));
@@ -574,7 +640,7 @@ export class SignedTestReportService extends EventEmitter {
     lines.push('');
     lines.push('═'.repeat(80));
     lines.push('');
-    lines.push(`Report ID: ${d.reportType}`);
+    lines.push(`Report ID: ${d['reportType']}`);
     lines.push(`Content Hash: ${this.hashData(data)}`);
     lines.push('');
     lines.push('═'.repeat(80));

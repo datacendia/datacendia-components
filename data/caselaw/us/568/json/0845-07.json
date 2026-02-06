@@ -1,0 +1,59 @@
+{
+  "id": 12413089,
+  "name": "Roberts v. Tifft, Warden",
+  "name_abbreviation": "Roberts v. Tifft",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10470",
+  "first_page": "845",
+  "last_page": "845",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 845"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.686,
+    "sha256": "f91d9bc07f83b60c9d0d528f2c283f885a2e05c85e8026b0f2fd6c353048ed84",
+    "simhash": "1:16608827a7eb507f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Roberts v. Tifft, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10470.\nRoberts v. Tifft, Warden."
+  },
+  "file_name": "0845-07",
+  "first_page_order": 921,
+  "last_page_order": 921
+}

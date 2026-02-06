@@ -1,0 +1,59 @@
+{
+  "id": 12430008,
+  "name": "Pigee v. Quigley, Warden",
+  "name_abbreviation": "Pigee v. Quigley",
+  "decision_date": "2013-01-22",
+  "docket_number": "No. 12-630",
+  "first_page": "1144",
+  "last_page": "1144",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1144"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.609,
+    "sha256": "529e4a9523f3e2e6fc90739a2962d57613baab4f3e73d2fe5c2ecad61e8d87b8",
+    "simhash": "1:b49a72537e5f10ee",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Pigee v. Quigley, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-630.\nPigee v. Quigley, Warden."
+  },
+  "file_name": "1144-06",
+  "first_page_order": 1220,
+  "last_page_order": 1220
+}

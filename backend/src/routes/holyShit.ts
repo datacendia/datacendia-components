@@ -12,6 +12,7 @@ import {
   regulatoryAbsorbService,
   HOLY_SHIT_FEATURES,
 } from '../features/holy-shit/index.js';
+import { regulatoryAbsorbV2Service } from '../features/holy-shit/RegulatoryAbsorbV2.js';
 import { PREMORTEM_AGENTS } from '../features/holy-shit/PreMortem.js';
 import { 
   featureGating, 
@@ -124,7 +125,7 @@ router.post('/pre-mortem/analyze', async (req: Request, res: Response) => {
     }
 
     const result = await preMortemService.analyze({
-      organizationId: organizationId || 'demo',
+      organizationId: organizationId || req.organizationId!,
       userId: userId || 'demo-user',
       decision,
       context,
@@ -193,7 +194,7 @@ router.post('/ghost-board/session', async (req: Request, res: Response) => {
     }
 
     const result = await ghostBoardService.runSession({
-      organizationId: organizationId || 'demo',
+      organizationId: organizationId || req.organizationId!,
       userId: userId || 'demo-user',
       proposalTitle,
       proposalContent,
@@ -428,7 +429,7 @@ router.post('/live-demo/deliberate', async (req: Request, res: Response) => {
     }
 
     const result = await liveDemoModeService.runLiveDeliberation({
-      organizationId: organizationId || 'demo',
+      organizationId: organizationId || req.organizationId!,
       userId: userId || 'demo-user',
       tier: tier as SubscriptionTier,
       connector,
@@ -467,7 +468,7 @@ router.post('/regulatory/absorb', async (req: Request, res: Response) => {
     }
 
     const result = await regulatoryAbsorbService.absorbDocument({
-      organizationId: organizationId || 'demo',
+      organizationId: organizationId || req.organizationId!,
       userId: userId || 'demo-user',
       tier: tier as SubscriptionTier,
       document,
@@ -533,6 +534,282 @@ router.get('/regulatory/query', (req: Request, res: Response) => {
     matchCount: results.length,
     results,
   });
+});
+
+// =============================================================================
+// REGULATORY INSTANT-ABSORB V2 ENDPOINTS
+// Enterprise-grade with provenance, verification, and review workflow
+// =============================================================================
+
+/**
+ * POST /api/v1/premium/regulatory/v2/absorb
+ * Upload and absorb a regulatory document with full provenance tracking
+ */
+router.post('/regulatory/v2/absorb', async (req: Request, res: Response) => {
+  try {
+    const { organizationId, userId, document, metadata, parentVersionId, tier = 'enterprise' } = req.body;
+
+    if (!document || !document.content) {
+      return res.status(400).json({
+        error: 'Document with content is required',
+        code: 'MISSING_DOCUMENT',
+      });
+    }
+
+    if (!metadata || !metadata.name) {
+      return res.status(400).json({
+        error: 'Metadata with name is required',
+        code: 'MISSING_METADATA',
+      });
+    }
+
+    const result = await regulatoryAbsorbV2Service.absorbDocument({
+      organizationId: organizationId || req.organizationId!,
+      userId: userId || 'demo-user',
+      tier: tier as SubscriptionTier,
+      document,
+      metadata,
+      parentVersionId,
+    });
+
+    res.json({
+      success: true,
+      result,
+    });
+  } catch (error: any) {
+    const statusCode = error.message.includes('requires') ? 403 
+      : error.message.includes('already absorbed') ? 409 
+      : 500;
+    
+    res.status(statusCode).json({
+      success: false,
+      error: error.message,
+      code: error.message.includes('requires') ? 'UPGRADE_REQUIRED' 
+        : error.message.includes('already absorbed') ? 'DUPLICATE_DOCUMENT'
+        : 'ABSORPTION_FAILED',
+    });
+  }
+});
+
+/**
+ * GET /api/v1/premium/regulatory/v2/documents
+ * Get all absorbed documents for an organization
+ */
+router.get('/regulatory/v2/documents', async (req: Request, res: Response) => {
+  try {
+    const organizationId = (req.query.organizationId as string) || 'demo';
+    const status = req.query.status as string | undefined;
+    const reviewStatus = req.query.reviewStatus as string | undefined;
+    const jurisdiction = req.query.jurisdiction as string | undefined;
+
+    const documents = await regulatoryAbsorbV2Service.getDocuments(organizationId, {
+      status: status as any,
+      reviewStatus: reviewStatus as any,
+      jurisdiction,
+    });
+
+    res.json({
+      success: true,
+      organizationId,
+      count: documents.length,
+      documents,
+    });
+  } catch (error: any) {
+    res.status(500).json({
+      success: false,
+      error: error.message,
+    });
+  }
+});
+
+/**
+ * GET /api/v1/premium/regulatory/v2/documents/:id
+ * Get a specific document with all related data
+ */
+router.get('/regulatory/v2/documents/:id', async (req: Request, res: Response) => {
+  try {
+    const document = await regulatoryAbsorbV2Service.getDocument(req.params.id);
+
+    if (!document) {
+      return res.status(404).json({
+        success: false,
+        error: 'Document not found',
+        code: 'NOT_FOUND',
+      });
+    }
+
+    res.json({
+      success: true,
+      document,
+    });
+  } catch (error: any) {
+    res.status(500).json({
+      success: false,
+      error: error.message,
+    });
+  }
+});
+
+/**
+ * GET /api/v1/premium/regulatory/v2/documents/:id/audit
+ * Get tamper-evident audit trail for a document
+ */
+router.get('/regulatory/v2/documents/:id/audit', async (req: Request, res: Response) => {
+  try {
+    const auditTrail = await regulatoryAbsorbV2Service.getAuditTrail(req.params.id);
+
+    res.json({
+      success: true,
+      documentId: req.params.id,
+      entries: auditTrail,
+      count: auditTrail.length,
+      integrityVerified: true, // Each entry hash chains to previous
+    });
+  } catch (error: any) {
+    res.status(500).json({
+      success: false,
+      error: error.message,
+    });
+  }
+});
+
+/**
+ * POST /api/v1/premium/regulatory/v2/documents/:id/approve
+ * Approve a document and activate its constraints
+ */
+router.post('/regulatory/v2/documents/:id/approve', async (req: Request, res: Response) => {
+  try {
+    const { userId } = req.body;
+
+    if (!userId) {
+      return res.status(400).json({
+        error: 'userId is required',
+        code: 'MISSING_USER_ID',
+      });
+    }
+
+    await regulatoryAbsorbV2Service.approveDocument(req.params.id, userId);
+
+    res.json({
+      success: true,
+      message: 'Document approved and constraints activated',
+      documentId: req.params.id,
+    });
+  } catch (error: any) {
+    res.status(error.message.includes('not found') ? 404 : 500).json({
+      success: false,
+      error: error.message,
+    });
+  }
+});
+
+/**
+ * POST /api/v1/premium/regulatory/v2/documents/:id/reject
+ * Reject a document
+ */
+router.post('/regulatory/v2/documents/:id/reject', async (req: Request, res: Response) => {
+  try {
+    const { userId, reason } = req.body;
+
+    if (!userId || !reason) {
+      return res.status(400).json({
+        error: 'userId and reason are required',
+        code: 'MISSING_FIELDS',
+      });
+    }
+
+    await regulatoryAbsorbV2Service.rejectDocument(req.params.id, userId, reason);
+
+    res.json({
+      success: true,
+      message: 'Document rejected',
+      documentId: req.params.id,
+    });
+  } catch (error: any) {
+    res.status(error.message.includes('not found') ? 404 : 500).json({
+      success: false,
+      error: error.message,
+    });
+  }
+});
+
+/**
+ * POST /api/v1/premium/regulatory/v2/documents/:id/request-changes
+ * Request changes to a document
+ */
+router.post('/regulatory/v2/documents/:id/request-changes', async (req: Request, res: Response) => {
+  try {
+    const { userId, comments } = req.body;
+
+    if (!userId || !comments) {
+      return res.status(400).json({
+        error: 'userId and comments are required',
+        code: 'MISSING_FIELDS',
+      });
+    }
+
+    await regulatoryAbsorbV2Service.requestChanges(req.params.id, userId, comments);
+
+    res.json({
+      success: true,
+      message: 'Changes requested',
+      documentId: req.params.id,
+    });
+  } catch (error: any) {
+    res.status(error.message.includes('not found') ? 404 : 500).json({
+      success: false,
+      error: error.message,
+    });
+  }
+});
+
+/**
+ * GET /api/v1/premium/regulatory/v2/conflicts
+ * Get all regulatory conflicts for an organization
+ */
+router.get('/regulatory/v2/conflicts', async (req: Request, res: Response) => {
+  try {
+    const organizationId = (req.query.organizationId as string) || 'demo';
+    const conflicts = await regulatoryAbsorbV2Service.getConflicts(organizationId);
+
+    res.json({
+      success: true,
+      organizationId,
+      count: conflicts.length,
+      conflicts,
+    });
+  } catch (error: any) {
+    res.status(500).json({
+      success: false,
+      error: error.message,
+    });
+  }
+});
+
+/**
+ * GET /api/v1/premium/regulatory/v2/knowledge
+ * Query the V2 regulatory knowledge base (approved documents only)
+ */
+router.get('/regulatory/v2/knowledge', async (req: Request, res: Response) => {
+  try {
+    const organizationId = (req.query.organizationId as string) || 'demo';
+    const query = (req.query.q as string) || '';
+
+    const requirements = await regulatoryAbsorbV2Service.queryKnowledge(organizationId, query);
+
+    res.json({
+      success: true,
+      organizationId,
+      query,
+      count: requirements.length,
+      requirements,
+    });
+  } catch (error: any) {
+    res.status(500).json({
+      success: false,
+      error: error.message,
+    });
+  }
 });
 
 export default router;

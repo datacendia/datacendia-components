@@ -1,0 +1,59 @@
+{
+  "id": 12211377,
+  "name": "Gweh v. United States",
+  "name_abbreviation": "Gweh v. United States",
+  "decision_date": "2012-04-23",
+  "docket_number": "No. 11-9476",
+  "first_page": "968",
+  "last_page": "968",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 968"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.635,
+    "sha256": "07d1457ce821fe2602c6bfd8f14666ed440db933e36f45618bd36a1a6b50da30",
+    "simhash": "1:1fcacb03018b981a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gweh v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9476.\nGweh v. United States."
+  },
+  "file_name": "0968-05",
+  "first_page_order": 844,
+  "last_page_order": 844
+}

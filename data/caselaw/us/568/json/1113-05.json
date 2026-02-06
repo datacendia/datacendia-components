@@ -1,0 +1,59 @@
+{
+  "id": 12428978,
+  "name": "Peoples v. United States",
+  "name_abbreviation": "Peoples v. United States",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-7544",
+  "first_page": "1113",
+  "last_page": "1113",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1113"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.646,
+    "sha256": "fd9564f8e6f3fce75810502def55177abde422c97a1e190f4117d92b6f471d75",
+    "simhash": "1:17aa8e3b4ca5b54d",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Peoples v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7544.\nPeoples v. United States."
+  },
+  "file_name": "1113-05",
+  "first_page_order": 1189,
+  "last_page_order": 1189
+}

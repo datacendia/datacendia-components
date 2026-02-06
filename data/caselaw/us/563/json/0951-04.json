@@ -1,0 +1,59 @@
+{
+  "id": 5945657,
+  "name": "Contreras v. United States",
+  "name_abbreviation": "Contreras v. United States",
+  "decision_date": "2011-04-18",
+  "docket_number": "No. 10-9494",
+  "first_page": "951",
+  "last_page": "951",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 951"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.565,
+    "sha256": "617f021691dfc210036d33ebd11421b9a04a665f2845172d7cdb172e508bc251",
+    "simhash": "1:052be2910dad515e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Contreras v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9494.\nContreras v. United States."
+  },
+  "file_name": "0951-04",
+  "first_page_order": 977,
+  "last_page_order": 977
+}

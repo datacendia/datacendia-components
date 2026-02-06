@@ -1,0 +1,59 @@
+{
+  "id": 12249524,
+  "name": "Woods v. Illinois",
+  "name_abbreviation": "Woods v. Illinois",
+  "decision_date": "2012-02-27",
+  "docket_number": "No. 11-8062",
+  "first_page": "1237",
+  "last_page": "1237",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1237"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.689,
+    "sha256": "f8a53ee9f52a5a94a40cd66ee6ccef5a0cc8d5ddca0f45a817ae75f2daba270f",
+    "simhash": "1:008a825d3234bd26",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Woods v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Ill., 1st Dist. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8062.\nWoods v. Illinois."
+  },
+  "file_name": "1237-14",
+  "first_page_order": 1319,
+  "last_page_order": 1319
+}

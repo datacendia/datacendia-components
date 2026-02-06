@@ -1,0 +1,59 @@
+{
+  "id": 6034012,
+  "name": "Patton v. North Carolina",
+  "name_abbreviation": "Patton v. North Carolina",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5404",
+  "first_page": "919",
+  "last_page": "919",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 919"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 18,
+    "char_count": 116,
+    "ocr_confidence": 0.611,
+    "sha256": "12f0e6c14d8dcb9ffd8996d00bd5e741428b89e76e35a731cae6a41317021f8b",
+    "simhash": "1:5533471f8dd19716",
+    "word_count": 18
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Patton v. North Carolina."
+    ],
+    "opinions": [
+      {
+        "text": "Gen. Ct. Justice, Super. Ct. Div., Richmond County, N. C. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5404.\nPatton v. North Carolina."
+  },
+  "file_name": "0919-14",
+  "first_page_order": 941,
+  "last_page_order": 941
+}

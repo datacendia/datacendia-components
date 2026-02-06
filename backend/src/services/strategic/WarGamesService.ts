@@ -205,7 +205,7 @@ class WarGamesService {
             { id: 'quiet', text: 'Quiet transition', consequences: 'Stability' },
             { id: 'board', text: 'Emergency board meeting', consequences: 'Governance' }
           ]},
-          { id: 'e6', triggerTime: 900, type: 'adversarial', title: 'Adversary Escalation', description: 'Attackers release stolen data. Regulators expand inquiry.', adversarialMove: 'Double pressure on all fronts' }
+          { id: 'e6', triggerTime: 900, type: 'curveball' as const, title: 'Adversary Escalation', description: 'Attackers release stolen data. Regulators expand inquiry.', adversarialMove: 'Double pressure on all fronts' }
         ],
         scoringCriteria: [
           { id: 'time', name: 'Response Time', weight: 15, evaluator: 'time' },

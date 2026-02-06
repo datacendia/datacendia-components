@@ -1,0 +1,59 @@
+{
+  "id": 12247152,
+  "name": "Fowler v. Illinois",
+  "name_abbreviation": "Fowler v. Illinois",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-7869",
+  "first_page": "1212",
+  "last_page": "1212",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1212"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.697,
+    "sha256": "d9a0dc593b5921adab0be01a1add60601e912040daf8e5d76d572bbe5eb13506",
+    "simhash": "1:61b990d61631ef2f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Fowler v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Ill., 1st Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7869.\nFowler v. Illinois."
+  },
+  "file_name": "1212-10",
+  "first_page_order": 1294,
+  "last_page_order": 1294
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12217558,
+  "name": "Germain v. Holder, Attorney General",
+  "name_abbreviation": "Germain v. Holder",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5169",
+  "first_page": "893",
+  "last_page": "893",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 893"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 84,
+    "ocr_confidence": 0.697,
+    "sha256": "6745c7dca1269a2252e1444334ae5ef30da46f7c63baa06a22f19662a5f29f48",
+    "simhash": "1:03c068f8ca253070",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Germain v. Holder, Attorney General."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5169.\nGermain v. Holder, Attorney General."
+  },
+  "file_name": "0893-08",
+  "first_page_order": 975,
+  "last_page_order": 975
+}

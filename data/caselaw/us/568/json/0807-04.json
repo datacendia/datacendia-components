@@ -1,0 +1,82 @@
+{
+  "id": 12408294,
+  "name": "In re Disbarment of Reed",
+  "name_abbreviation": "In re Disbarment of Reed",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. D-2673",
+  "first_page": "807",
+  "last_page": "807",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 807"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "566 U. S. 972",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12212166,
+        12212202,
+        12212172,
+        12212180,
+        12212216,
+        12212190
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/566/0972-01",
+        "/us/566/0972-05",
+        "/us/566/0972-02",
+        "/us/566/0972-03",
+        "/us/566/0972-06",
+        "/us/566/0972-04"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 105,
+    "ocr_confidence": 0.601,
+    "sha256": "1d49dfedefa9938be61f7b4b93c154782ec2f73c22c848a37a3833647d195e6c",
+    "simhash": "1:9478d98adbd272e7",
+    "word_count": 18
+  },
+  "last_updated": "2024-02-27T23:44:49.194693+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Reed."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered. [For earlier order herein, see 566 U. S. 972.]",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2673.\nIn re Disbarment of Reed."
+  },
+  "file_name": "0807-04",
+  "first_page_order": 883,
+  "last_page_order": 883
+}

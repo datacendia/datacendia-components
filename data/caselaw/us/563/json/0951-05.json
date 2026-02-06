@@ -1,0 +1,59 @@
+{
+  "id": 5939352,
+  "name": "De Marco v. United States",
+  "name_abbreviation": "De Marco v. United States",
+  "decision_date": "2011-04-18",
+  "docket_number": "No. 10-9495",
+  "first_page": "951",
+  "last_page": "951",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 951"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 75,
+    "ocr_confidence": 0.624,
+    "sha256": "93ed46065ad7c34cd010a43945215d5815d844305832d1cb16c6faccf4b57b07",
+    "simhash": "1:160ace828687904a",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "De Marco v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9495.\nDe Marco v. United States."
+  },
+  "file_name": "0951-05",
+  "first_page_order": 977,
+  "last_page_order": 977
+}

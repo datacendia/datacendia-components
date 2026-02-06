@@ -1,0 +1,59 @@
+{
+  "id": 6018050,
+  "name": "Blocker v. United States",
+  "name_abbreviation": "Blocker v. United States",
+  "decision_date": "2010-11-15",
+  "docket_number": "No. 10-7090",
+  "first_page": "1053",
+  "last_page": "1053",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1053"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.579,
+    "sha256": "5694f81c895150f13baacf304385ac1d0c25e1a79d83095a3df80d72bc0c8d1a",
+    "simhash": "1:83a8d3831bf9177e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Blocker v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7090.\nBlocker v. United States."
+  },
+  "file_name": "1053-10",
+  "first_page_order": 1075,
+  "last_page_order": 1075
+}

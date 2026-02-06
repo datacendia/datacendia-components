@@ -1,0 +1,59 @@
+{
+  "id": 12410383,
+  "name": "Green v. United States",
+  "name_abbreviation": "Green v. United States",
+  "decision_date": "2012-06-18",
+  "docket_number": "No. 11-10399",
+  "first_page": "923",
+  "last_page": "923",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 923"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.713,
+    "sha256": "a173a3badf18eea99a4aab38bb04e59a6151aea697ba1d409504e32d534fab14",
+    "simhash": "1:05aa9383ca109f18",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Green v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10399.\nGreen v. United States."
+  },
+  "file_name": "0923-08",
+  "first_page_order": 827,
+  "last_page_order": 827
+}

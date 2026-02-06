@@ -1,0 +1,59 @@
+{
+  "id": 12212734,
+  "name": "Cooper v. Virginia",
+  "name_abbreviation": "Cooper v. Virginia",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-11256",
+  "first_page": "875",
+  "last_page": "875",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 875"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 66,
+    "ocr_confidence": 0.691,
+    "sha256": "512ea746010ad14cdea0f587e5c6fbf450a2ef22498d2beef316ed6f1e952f0f",
+    "simhash": "1:aab37ea56ecc6f5b",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cooper v. Virginia."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Va. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-11256.\nCooper v. Virginia."
+  },
+  "file_name": "0875-10",
+  "first_page_order": 957,
+  "last_page_order": 957
+}

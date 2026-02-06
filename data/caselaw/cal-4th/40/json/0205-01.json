@@ -1,0 +1,772 @@
+{
+  "id": 3159587,
+  "name": "In re ANDRE BURTON on Habeas Corpus",
+  "name_abbreviation": "In re Burton",
+  "decision_date": "2006-12-18",
+  "docket_number": "No. S034725",
+  "first_page": "205",
+  "last_page": "238",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "40 Cal. 4th 205"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal.",
+    "id": 9021,
+    "name": "Supreme Court of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "83 Cal.Rptr. 715",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "3 Cal.App.3d 514",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4415188
+      ],
+      "pin_cites": [
+        {
+          "page": "528"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/3/0514-01"
+      ]
+    },
+    {
+      "cite": "742 P.2d 1306",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "240 Cal.Rptr. 585",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 Cal.3d 1104",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4627543
+      ],
+      "pin_cites": [
+        {
+          "page": "1147"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/43/1104-01"
+      ]
+    },
+    {
+      "cite": "672 P.2d 862",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "197 Cal.Rptr. 79",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.3d 131",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4472468
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/35/0131-01"
+      ]
+    },
+    {
+      "cite": "941 P.2d 752",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "66 Cal.Rptr.2d 573",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "16 Cal.4th 635",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1217899
+      ],
+      "pin_cites": [
+        {
+          "page": "672"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/16/0635-01"
+      ]
+    },
+    {
+      "cite": "110 P.3d 289",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "27 Cal.Rptr.3d 360",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.4th 646",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        873225
+      ],
+      "pin_cites": [
+        {
+          "page": "683-684"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/35/0646-01"
+      ]
+    },
+    {
+      "cite": "539 U.S. 510",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8898384
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "521-522"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/539/0510-01"
+      ]
+    },
+    {
+      "cite": "492 P.2d 1",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "99 Cal.Rptr, 313",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "6 Cal.3d 441",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2274665
+      ],
+      "pin_cites": [
+        {
+          "page": "457"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/6/0441-01"
+      ]
+    },
+    {
+      "cite": "117 P.3d 476",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "32 Cal.Rptr.3d 759",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "36 Cal.4th 1114",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3122471
+      ],
+      "pin_cites": [
+        {
+          "page": "1199"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/36/1114-01"
+      ]
+    },
+    {
+      "cite": "70 P.3d 313",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "135 Cal.Rptr.2d 315",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "30 Cal.4th 974",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        269748
+      ],
+      "pin_cites": [
+        {
+          "page": "999"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/30/0974-01"
+      ]
+    },
+    {
+      "cite": "106 P.3d 931",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 Cal.Rptr.3d 265",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.4th 140",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        873204
+      ],
+      "pin_cites": [
+        {
+          "page": "151"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/35/0140-01"
+      ]
+    },
+    {
+      "cite": "133 P.3d 1013",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 Cal.Rptr.3d 850",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 Cal.4th 630",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3853250
+      ],
+      "pin_cites": [
+        {
+          "page": "635"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/38/0630-01"
+      ]
+    },
+    {
+      "cite": "911 P.2d 468",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "50 Cal.Rptr.2d 281",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "12 Cal.4th 935",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1957526
+      ],
+      "pin_cites": [
+        {
+          "page": "946"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/12/0935-01"
+      ]
+    },
+    {
+      "cite": "61 R3d 402",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "129 Cal.Rptr.2d 605",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 Cal.4th 783",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        777231
+      ],
+      "pin_cites": [
+        {
+          "page": "824"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/29/0783-01"
+      ]
+    },
+    {
+      "cite": "939 P.2d 259",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "65 Cal.Rptr.2d 145",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "15 Cal.4th 1229",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1005947
+      ],
+      "pin_cites": [
+        {
+          "page": "1332"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/15/1229-01"
+      ]
+    },
+    {
+      "cite": "811 P.2d 757",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "282 Cal.Rptr. 465",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "53 Cal.3d 1115",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2358650
+      ],
+      "pin_cites": [
+        {
+          "page": "1139"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/53/1115-01"
+      ]
+    },
+    {
+      "cite": "753 P.2d 669",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1991,
+      "opinion_index": 0
+    },
+    {
+      "cite": "246 Cal.Rptr. 713",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1991,
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Cal.3d 227",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4529641
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "246"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/45/0227-01"
+      ]
+    },
+    {
+      "cite": "422 U.S. 806",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9431
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/422/0806-01"
+      ]
+    },
+    {
+      "cite": "705 P.2d 396",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "218 Cal.Rptr. 73",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "39 Cal.3d 803",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2011386
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/39/0803-01"
+      ]
+    },
+    {
+      "cite": "771 P.2d 1270",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "258 Cal.Rptr. 184",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "48 Cal.3d 843",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4614972
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/48/0843-01"
+      ]
+    },
+    {
+      "cite": "842 P.2d 1142",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1991,
+      "opinion_index": 1
+    },
+    {
+      "cite": "15 Cal.Rptr.2d 382",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1991,
+      "opinion_index": 1
+    },
+    {
+      "cite": "4 Cal.4th 569",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        2001609
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "582-586"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-4th/4/0569-01"
+      ]
+    },
+    {
+      "cite": "838 P.2d 1222",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "13 Cal.Rptr.2d 269",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "3 Cal.4th 945",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        2008312
+      ],
+      "pin_cites": [
+        {
+          "page": "957"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-4th/3/0945-01"
+      ]
+    },
+    {
+      "cite": "939 P.2d 259",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "65 Cal.Rptr.2d 145",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "15 Cal.4th 1229",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1005947
+      ],
+      "pin_cites": [
+        {
+          "page": "1332"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-4th/15/1229-01"
+      ]
+    },
+    {
+      "cite": "753 P.2d 669",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1991,
+      "opinion_index": 1
+    },
+    {
+      "cite": "246 Cal.Rptr. 713",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1991,
+      "opinion_index": 1
+    },
+    {
+      "cite": "45 Cal.3d 227",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4529641
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "246"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-3d/45/0227-01"
+      ]
+    },
+    {
+      "cite": "422 U.S. 806",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9431
+      ],
+      "weight": 3,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/422/0806-01"
+      ]
+    },
+    {
+      "cite": "705 P.2d 396",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "218 Cal.Rptr. 73",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "39 Cal.3d 803",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2011386
+      ],
+      "pin_cites": [
+        {
+          "page": "815"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-3d/39/0803-01"
+      ]
+    },
+    {
+      "cite": "771 P.2d 1270",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "258 Cal.Rptr. 184",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "48 Cal.3d 843",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4614972
+      ],
+      "pin_cites": [
+        {
+          "page": "858"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-3d/48/0843-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 2224,
+    "char_count": 92138,
+    "ocr_confidence": 0.926,
+    "pagerank": {
+      "raw": 7.409011674775997e-08,
+      "percentile": 0.4431640609162928
+    },
+    "sha256": "85812d9745041fa0404beb006272e54b6ab8e3a9f08232f3984bf412bb4f67cb",
+    "simhash": "1:d26fc1e267e8b24b",
+    "word_count": 15062
+  },
+  "last_updated": "2024-02-27T23:38:15.410825+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re ANDRE BURTON on Habeas Corpus."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nBAXTER, J.\nPetitioner Andre Burton is under sentence of death for the 1983 murder of Gulshakar Khwaja. The murder was committed during the robbery of Gulshakar\u2019s son, Anwar Khwaja. This court affirmed Burton\u2019s convictions and death sentence on automatic appeal (People v. Burton (1989) 48 Cal.3d 843 [258 Cal.Rptr. 184, 771 P.2d 1270]) and denied an earlier petition for writ of habeas corpus in 1988.\nThe present petition was filed in 1993. In October 1997, we issued an order to show cause on claim XIV of the petition, which asserted that Burton was denied the right to present a defense at the guilt phase of his capital trial under People v. Frierson (1985) 39 Cal.3d 803 [218 Cal.Rptr. 73, 705 P.2d 396] (Frierson). After we directed the Presiding Judge of the Los Angeles County Superior Court to select a judge to serve as a referee at an evidentiary hearing, we appointed the Honorable William F. Fahey as our referee to take evidence and make findings of fact on specified allegations.\nOn January 6, 2005, the referee filed a 32-page, single-spaced report in this court. The referee detailed his answers to the reference questions and concluded that Burton had failed to prove (1) that his trial attorney had overridden his clearly expressed desire to present a guilt phase defense, or (2) that, even if Burton had made such a request, there was credible evidence to support a guilt phase defense. After carefully considering the record and the briefing in this court, we agree with the referee that Burton has not sustained his burden of proving that his trial attorney disregarded a clearly expressed desire to present a guilt phase defense under Frierson. We therefore find it unnecessary to consider whether there was credible evidence to support such a defense. The order to show cause is discharged.\nBackground\nA. The Underlying Judgment\nOn the afternoon of February 25, 1983, Anwar Khwaja, the robbery victim and son of the murder victim, was parked in front of his mother\u2019s home waiting for her and other family members to get into his car. Burton approached the vehicle, pointed a gun at Khwaja\u2019s face, and demanded money. Even though Khwaja complied with the demand by telling Burton to take his money\u2014a cloth bag containing $190 in coins he had just picked up from a Long Beach branch of the Bank of America\u2014Burton shot him in the forehead and then through the eye. Khwaja, who remained conscious, saw Burton take the money bag. Burton was smiling or laughing contentedly. When Khwaja\u2019s mother, Gulshakar Khwaja, approached the car, Burton shot her, fatally, in the chest.\nKhwaja identified Burton as the gunman at trial. So did Robert Cordova, a neighbor who looked out the window and saw Burton running down the street carrying a gun and a white canvas bag. Burton, who was arrested two days after the murder, initially denied involvement in the robbery and murder but then admitted that he and his confederate Otis Clements had been looking for someone to rob, had seen Khwaja emerge from a Bank of America branch with the money bag, and had followed him until he parked in front of his mother\u2019s home. While Clements parked his truck in an alley, Burton approached Khwaja\u2019s car and demanded money. He shot Khwaja in the face and grabbed the money. He was running away when Gulshakar Khwaja tried to \u201csnatch him from behind,\u201d so he shot her too. He then drove off with Clements in the truck. Burton said there was about $100 in change in the bag, which he spent on marijuana.\nOn February 28, 1983, when police interrogated Burton a second time, he denied any knowledge of or involvement in the offenses and said that his prior statements were untrue and designed to avoid his being framed.\nAt the penalty phase, the People presented evidence that Burton, as a juvenile, had committed a lewd act on a child in 1976, a residential burglary in 1977, an attempted robbery in 1978, and an attempted grand theft person in 1979. The trial court also took judicial notice of Burton\u2019s adult convictions of two counts of residential burglary and his 16-month prison sentence in 1982. Burton\u2019s mother testified that Burton\u2019s father had been murdered when Burton was five years old, that four of her five boys and one of her three girls had been in trouble with the law, but that Burton was always a good boy at home.\nBurton was convicted of murder with personal use of a firearm, three counts of robbery with personal use of a firearm and, in one instance, with intentional infliction of great bodily injury. The jury also found true the special circumstance allegation that the murder was committed in the course of a robbery. The penalty was fixed at death. (People v. Burton, supra, 48 Cal.3d at pp. 849-851.)\nB. The Habeas Corpus Proceeding\nThe second petition for writ of habeas corpus alleged in claim XIV in relevant part that Burton\u2019s trial attorney, Ronald Slick, had determined early on not to present guilt or special circumstances defenses, that both Slick and the trial court knew the attorney\u2019s actions \u201cwere contrary to Petitioner\u2019s express wishes,\u201d that the defense rested at the guilt phase without presenting any witnesses, and that there were a number of witnesses whose testimony would have provided a viable defense to the robbery and felony-murder charges and the special circumstance allegation. The petition alleged in particular that Michael Stewart was an available eyewitness who had described the shooter \u201cin a way that clearly excluded Petitioner as the assailant,\u201d that eyewitness Susana Camacho had told the police the robber was White (Burton is African-American), and that Burton\u2019s girlfriend Elizabeth \u201cPenny\u201d Black would have testified that Burton had been home with her and two other people at the time of the charged robberies. The petition also alleged that Burton had sought on four occasions during the trial to discharge his attorney and represent himself (see Faretta v. California (1975) 422 U.S. 806 [45 L.Ed.2d 562, 95 S.Ct. 2525]) because of Attorney Slick\u2019s deficiencies.\nOn October 29, 1997, we issued an order to show cause why relief should not be granted on the ground that Burton \u201cwas denied the right to present a defense at the guilt phase of trial.\u201d In the return, the People, represented by the Attorney General, denied the relevant allegations and alleged instead that Attorney Slick had decided, based on the strength of the evidence against Burton and on his own investigation into possible defenses, to concentrate his efforts on saving Burton\u2019s life at the penalty phase. The return also alleged that Attorney Slick had kept Burton apprised of his decisions and strategy, that Burton never requested that certain witnesses be called or that a particular defense be proffered, and that the true reason Burton had asked the trial court four times to be allowed to represent himself \u201cwas to obtain a continuance to avoid going to trial, not because he wanted further investigation conducted.\u201d The People also alleged that the Frierson claim was untimely. In his traverse, Burton did not dispute that Attorney Slick had been aware of potential witnesses Michael Stewart, Susana Camacho, Elizabeth Black, Ora Trimble (Black\u2019s mother), Gloria Burton (Burton\u2019s mother), and Zarina Khwaja, but denied the allegation that Attorney Slick had made objectively reasonable tactical decisions not to call them to testify and denied as well the allegation that these witnesses could not have provided a viable defense. The traverse further denied the allegations that Attorney Slick had kept Burton apprised of his decisions and strategy, that Burton never requested that certain witnesses be called or that a certain defense or defenses be offered, and that his true reason for the Faretta motions was to obtain a continuance to avoid going to trial. The traverse alleged instead that Attorney Slick \u201cunilaterally decided not to present a guilt phase defense without regard for petitioner\u2019s repeated requests that available evidence be presented to establish that petitioner was not guilty, including but not limited to his alibi for both crimes, that the prosecution\u2019s eyewitness identifications were all suspect because they had been obtained under highly prejudicial circumstances, that other eyewitness evidence excluding petitioner as the perpetrator was available, that petitioner\u2019s confession had been fabricated by the police, and that the lack of physical evidence against him was affirmative evidence of his innocence.\u201d Finally, the traverse denied the claim of untimeliness.\nWe thereafter appointed a referee to hear evidence and make findings of fact on these questions:\n\u201c1. Did petitioner give attorney Ron Slick or his investigator the names of witnesses he believed should be interviewed and tell Slick that those witnesses could support a guilt phase defense or defenses? If so, when did petitioner do so, who are those witnesses, and what theory or theories of defense did petitioner tell Slick those witnesses would support? In particular, did petitioner tell Slick that he wanted Slick to present an alibi defense and/or defend on the ground that the eyewitness identification was mistaken or could be undermined by other eyewitnesses?\n\u201c2. Did petitioner tell Slick that petitioner\u2019s purported confession had been falsified? If so, when did he do so, and did Slick have any reason to believe that the officer or officers who reportedly took the confession were not credible?\n\u201c3. If petitioner gave Slick the names of potential guilt phase defense witnesses, did Slick or his investigator interview those witnesses, when did they do so, what information did they obtain from the witnesses, and of what potential prosecution rebuttal or impeachment evidence was Slick aware when he developed his trial strategy? Did Slick have reason to believe that those witnesses would not be credible?\n\u201c4. Did Slick keep petitioner informed of Slick\u2019s trial plans and/or discuss trial strategy with petitioner and, in particular, did he tell petitioner that Slick did not intend to call witnesses or put on a guilt phase defense because Slick believed that a guilt phase defense likely would be unsuccessful and would make the penalty phase defense less credible? If so, when and in what circumstances did Slick advise petitioner of this? If not, did Slick discuss his planned guilt phase defense with petitioner, when did he do so, and what did he tell petitioner?\n\u201c5. If Slick discussed a planned guilt phase strategy of presenting no defense with petitioner, did petitioner then or thereafter object (other than in open court during or before trial) and tell Slick that, notwithstanding Slick\u2019s conclusion about presenting a guilt phase defense, petitioner wanted a guilt phase defense presented? If so, when did petitioner do so and what was Slick\u2019s response?\n\u201c6. Did Slick have reason to believe that petitioner\u2019s in court requests to represent himself were made for the purpose of delaying trial, rather than dissatisfaction with Slick\u2019s trial strategy?\n\u201c7. Was Slick aware of potential witnesses Elizabeth Black, Ora Trimble, Gloria Burton, Michael Stewart, Susan Camacho and Zarina Khwaja, and, as to each, if so did Slick have reason to believe the testimony of each would be incredible or insufficiently probative to justify presenting them at the guilt phase?\n\u201c8. Did petitioner tell or make clear to Slick\u2019s investigator that he wanted to put on a guilt phase defense? If so, when did he do so and did the investigator relay that information to Slick?\n\u201c9. Would the potential witnesses, if any, identified by petitioner, have been credible, would they have enabled Slick to put on a credible defense, and did Slick have reason to believe that any would commit perjury if they testified as suggested by petitioner?\n\u201c10. In particular:\n\u201ca. Did Detective William Collette tell Slick that Elizabeth Black told him that she did not know petitioner\u2019s whereabouts at the time and on the day of the charged homicide?\n\u201cb. Did Black tell Collette that she did not know petitioner\u2019s whereabouts at the time and on the day of the charged homicide?\n\u201cc. Did Collette tell Slick that Ora Trimble told him that petitioner had asked her to provide him with a false alibi for the charged homicide?\n\u201cd. Did Ora Trimble tell Collette that petitioner had asked her to provide him with a false alibi for the charged homicide?\n\u201c11. In sum, did Slick override a clearly expressed desire of petitioner to put on a guilt phase defense, and, if so, would that defense have been credible? (People v. Frierson[, supra,] 39 Cal.3d [at pp.] 814-815.)\u201d\nThe referee heard testimony from 15 witnesses over 14 court days and considered several boxes of documentary exhibits. The referee then rejected Burton\u2019s claim in its entirety and found in particular (1) that Burton never clearly expressed a desire to present a defense at the guilt phase of his trial, and (2) that, even if Burton had done so, there was no credible evidence supporting a guilt phase defense.\nThe parties have filed postreference briefs on the merits. Burton has also filed exceptions to the referee\u2019s report. We address the referee\u2019s individual findings and Burton\u2019s specific exceptions to them only insofar as they are relevant to our analysis of Burton\u2019s claim that he was denied the right to present his desired defense under Frierson.\nDiscussion\nIn Frierson, this court reversed the special circumstance findings and the judgment of death based on appointed counsel\u2019s refusal on the record to comply with his client\u2019s clearly expressed desire to present a particular defense\u2014in that case, a defense of diminished capacity\u2014to the charged murder at the guilt phase of the trial. (Frierson, supra, 39 Cal.3d at p. 805.) The conflict was made manifest when defense counsel indicated, at the close of the People\u2019s case-in-chief, that the defense was resting without putting on any evidence. During an in-chambers conference immediately following this announcement, defense counsel stated that, in his opinion, no defense (including the defense of diminished capacity) should be presented at the guilt phase of the trial but that Frierson himself \u201c \u2018strongly disagree[d]\u2019 \u201d with counsel\u2019s approach and had advised counsel \u201c \u2018several times,\u2019 \u201d including in the past 20 minutes, that he wished to present that defense. (Id. at pp. 810-811.) It was here that the trial court fell into error (id. at pp. 817-818), for it then ruled that under its understanding of the law, \u201c \u2018the final judgment and decision has to be that of the attorney as to how to proceed in a case.\u2019 Accordingly, it concluded that defense counsel had the authority to decline to present a defense, despite defendant\u2019s contrary wishes.\u201d (Id. at p. 811.)\nIn reversing the judgment in part, the plurality opinion emphasized that the defendant had made it \u201cclear\u201d from the outset that he wanted to present a diminished-capacity defense at the guilt phase (Frierson, supra, 39 Cal.3d at p. 811) through an \u201cexpress demand\u201d for the defense (id. at p. 809), that the record \u201cexpressly reflected] a conflict between defendant and counsel over whether a defense was to be presented at the guilt/special circumstance stage\u201d (id. at p. 818, fn. 8), and that counsel\u2019s resolution of this \u201cexpress conflict\u201d (ibid.) eliminated what would have been the defendant\u2019s \u201csole defense to the special circumstance allegations.\u201d (Id. at p. 814.) We explained that even though defense counsel may have had sound reasons for wishing to reserve the evidence underlying this defense for the penalty phase, the decision whether to present any defense at all at the guilt/special circumstance phase of a capital case is so fundamental, and has such serious consequences for a defendant, that counsel could not \u201cproperly refuse to honor defendant\u2019s clearly expressed desire to present a defense\u201d at the guilt phase. (Id. at p. 815.)\nThe plurality opinion also relied substantially on \u201cthe existence of some credible evidence to support the defense.\u201d (Frierson, supra, 39 Cal.3d at p. 812.) We therefore did not need to consider \u201cwhether a defendant has a constitutional right to insist on the presentation of a defense which has no credible evidentiary support or on which no competent counsel would rely\u201d (id. at p. 815, fn. 3), nor did we resolve the nature of the attorney\u2019s obligations when\u2014for ethical reasons\u2014he or she \u201ccannot properly present the defense that the defendant desires to present,\u201d as \u201cwhen counsel has reason to believe that defendant\u2019s alibi witnesses intend to give perjured testimony.\u201d (Id. at p. 817, fn. 6.)\nThus, Frierson means that \u201ca defense counsel\u2019s traditional power to control the conduct of a case does not include the authority to withhold the presentation of any defense at the guilt/special circumstance stage of a capital case when the defendant openly expresses a desire to present a defense at that stage and when there exists credible evidence to support that defense.\u201d (People v. Milner (1988) 45 Cal.3d 227, 246 [246 Cal.Rptr. 713, 753 P.2d 669]; see also People v. Jones (1991) 53 Cal.3d 1115, 1139 [282 Cal.Rptr. 465, 811 P.2d 757].) However, \u201c \u2018it is only in case of an express conflict arising between the defendant and counsel that the defendant\u2019s desires must prevail\u2019 \u201d (People v. Bradford (1997) 15 Cal.4th 1229, 1332 [65 Cal.Rptr.2d 145, 939 P.2d 259]) and, even then, only when the defense requested has \u201c \u2018credible evidentiary support.\u2019 \u201d (People v. Jones, supra, 53 Cal.3d at p. 1139.)\nAs previously indicated, the referee, after hearing the evidence, found that Burton did not clearly or openly express a desire to present a defense at the guilt phase. In particular, the referee credited Attorney Slick\u2019s testimony (1) that he had advised Burton of his intent not to call any witnesses or offer a guilt phase defense so as to make the penalty phase defense more credible, and (2) that Burton had not objected to this strategy. The referee rejected Burton\u2019s testimony to the contrary. The referee also determined that even if Burton had openly expressed his desire to present a guilt phase defense, such a defense lacked credible evidentiary support.\nIn evaluating Burton\u2019s allegations, \u201cthis court gives great weight to those of the referee\u2019s findings that are supported by substantial evidence. [Citations.] \u2018This is especially true for findings involving credibility determinations. The central reason for referring a habeas corpus claim for an evidentiary hearing is to obtain credibility determinations (In re Scott (2003) 29 Cal.4th 783, 824 [129 Cal.Rptr.2d 605, 61 R3d 402]); consequently, we give special deference to the referee on factual questions \u201crequiring resolution of testimonial conflicts and assessment of witnesses\u2019 credibility, because the referee has the opportunity to observe the witnesses\u2019 demeanor and manner of testifying\u201d (In re Malone (1996) 12 Cal.4th 935, 946 [50 Cal.Rptr.2d 281, 911 P.2d 468]).\u2019 \u201d (In re Freeman (2006) 38 Cal.4th 630, 635 [42 Cal.Rptr.3d 850, 133 P.3d 1013].) With that standard in mind, we proceed to consider Burton\u2019s claim.\nA. Whether Attorney Slick Overrode Burton\u2019s Clearly and Openly Expressed Desire to Present a Guilt Phase Defense\nIn Frierson, the defendant alleged and proved the existence of a clear and express conflict between himself and defense counsel as to whether to present a particular guilt phase defense at his capital trial. The record revealed that the defendant \u201c \u2018strongly disagree[d]\u2019 \u201d with counsel\u2019s decision not to present a diminished-capacity defense at the guilt phase, that they had discussed the matter several times, and that the defendant had repeatedly advised counsel of his \u201c \u2018strong, very strong\u2019 \u201d desire to present this defense. (Frierson, supra, 39 Cal.3d at pp. 810-811.) Defense counsel had told the defendant from the outset and \u201c \u2018all along\u2019 \u201d that he was going to present a diminished-capacity defense through testimony from psychiatrists and other witnesses, but then abandoned that plan and rested without calling any witnesses\u2014despite his awareness of the defendant\u2019s clear demand for the defense. (Id. at p. 811.) We determined, \u201cunder the facts of this case\u201d (id. at p. 805), that defense counsel could not properly refuse to honor the defendant\u2019s clearly expressed desire to present the diminished-capacity defense at the guilt phase and that the trial court erred in failing to take steps to safeguard the defendant\u2019s right to present a defense. (Id. at pp. 815-818.)\nPetitioner\u2019s allegations here present a somewhat different situation. Burton does not assert that there was a clear and express conflict over defense strategy in this case, nor does he contend that the trial court erred in failing to intervene to protect his right to present a defense. He claims instead that Slick neglected to meet with him or keep him informed of developments during the representation and that Slick failed in particular to mention that he had settled on a strategy of not presenting a defense at the guilt phase. As a result, Burton claims, he was justifiably ignorant of Slick\u2019s trial strategy and knew only that the investigation into his defense had not been completed at the time of trial. Burton concludes that, under these circumstances, his statements to Slick and to his investigator, Kristina Kleinbauer, denying involvement in the crimes, denying confessing to the police, and asking that particular witnesses be called who could testify as to his whereabouts\u2014in addition to stating in court during his four Faretta hearings that the defense investigation had been inadequate\u2014should have alerted Slick to his desire to present a defense.\nSlick, on the other hand, testified that he did discuss his assessment of the strength of the People\u2019s case and his intent not to present a defense at the guilt phase with Burton and that Burton did not object to it. This strategy had been the product of considerable thought. Slick did not dispute he had been aware that Burton had denied involvement in the crimes, that Burton had denied confessing to the police, and that there were certain discrepancies and potential weaknesses in the eyewitness identifications. He also did not dispute that he had been aware of particular witnesses who (Burton claimed) could have supported a guilt phase defense. Nonetheless, based on his pretrial investigation, Slick had concluded that the prosecution had an extremely strong case with respect to the identification of the murderer. Moreover, Burton\u2019s claim that the police had just made his confession up \u201cout of the blue\u201d seemed ludicrous on its face, especially given that Burton repeatedly and emphatically refused to testify, even at the motion to suppress the confession, and understood that there was no chance of excluding the confession without his testimony. Slick also considered the statements of Burton\u2019s friends and family members, which were inconsistent with each other and did not necessarily account for Burton\u2019s whereabouts during the relevant time period. Slick feared the accounts given by these witnesses would be rejected as mistaken or untruthful. These observations played a significant part in Slick\u2019s decision not to offer any witnesses at the guilt phase.\nSlick shared his intended strategy with Burton not just once, but several times, since the \u201ctopic\u201d was \u201calways there.\u201d Slick told Burton he did not intend to call witnesses or put on a guilt phase defense because not only would such a defense be unsuccessful, it would diminish the credibility of any defense they might offer at the penalty phase. According to Slick, Burton did not object to or oppose this strategy. In particular, Burton did not ask that friends or family members be called to testify or ask that a defense of alibi or mistaken identification be presented. From \u201cearly on\u201d in the representation, however, Burton seemed unhappy with Slick\u2019s assessment of the strength of the People\u2019s case, and Slick believed that his candor negatively affected his relationship with Burton thereafter.\nThere was thus a direct conflict between the account given by Burton and the account given by Slick. The referee had the opportunity to observe both of them testify and to assess their demeanor and their credibility. Based upon those observations and \u201cthe contemporaneous record,\u201d the referee concluded that Slick \u201cdid advise [Burton] of the trial strategy he planned to employ. [Burton] conceded during the Reference Hearing that he had several pre-trial meetings with Mr. Slick and [Burton] cannot posit a credible reason for Mr. Slick not advising him of the trial strategy at one or more of those meetings.\u201d The referee further found that Burton had not objected to this strategy. Indeed, as the referee noted, Burton had not even shown that there were heated conversations over Slick\u2019s failure to keep him informed of the defense strategy\u2014the sort of conversations one would expect if, as Burton now claims, Slick had completely failed to discuss strategy with him.\nAs stated above, \u201c \u2018[djeference to the referee is called for on factual questions, especially those requiring resolution of testimonial conflicts and assessment of witnesses\u2019 credibility, because the referee has the opportunity to observe the witnesses\u2019 demeanor and manner of testifying.\u2019 \u201d (In re Sakarias (2005) 35 Cal.4th 140, 151 [25 Cal.Rptr.3d 265, 106 P.3d 931].) The referee concluded that Burton \u201cdid not seem very persuasive\u201d in his testimony, but that Slick appeared credible and had no reason to have disregarded a direct request by his client concerning the presentation of a defense. We accept the referee\u2019s conclusion, not only because of the special deference accorded to a referee\u2019s findings on matters of credibility when supported by substantial evidence (In re Cox (2003) 30 Cal.4th 974, 999 [135 Cal.Rptr.2d 315, 70 P.3d 313]), but also because Burton, despite offering an array of objections, fails to identify a convincing rationale for rejecting it.\nBurton complains first that Slick\u2019s memory on this issue was \u201cextraordinarily poor\" in that he could not recall precisely when he had informed Burton of his intended strategy, nor could he relate any details of their conversations on the issue, and that Slick\u2019s recollection was rarely, if ever, refreshed by written materials. Yet, as the referee observed at the hearing, it is understandable that Slick would have difficulties reconstructing his thinking and would be unable to recall details of conversations that occurred 20 years earlier. Slick also persuasively explained why, despite his limited memory, he was able to recall that he had kept Burton abreast of his intended strategy: \u201cI wrestled with that specific question in the trial. I mean, it was a serious question. I know that it\u2019s an easy thing to just call witnesses. I know it\u2019s so easy that all[\u2019]s you have to do is call witnesses, pretty much, and we wouldn\u2019t even be having this hearing, [f] And so one of the things that I. . . try to take into consideration is what I think is best for the client versus what I think is best for me, and I remember wrestling with that on whether I should call these witnesses. I viewed them as a total waste of time and should I. . . cover myself or should I do what I think is the right thing, and I came down on what I came down on.\u201d\nBurton claims next that Slick\u2019s testimony cannot be reconciled with a letter he wrote to Slick insisting on his innocence and pointing out weaknesses in the People\u2019s evidence. In this letter, Burton critiqued the testimony of four of the People\u2019s witnesses at the preliminary hearing and said, \u201cNow them are all my witnesses. All but the evil person Mr. Otis [Clements], who must take the fall in this case.\u201d He then claimed the police were trying to frame him and said, with Slick\u2019s help, \u201cwe together can work to fight that they are trying to frame me . . . and I\u2019m willing to fight for my freedom.\u201d Burton ended by talking about himself, telling Slick that \u201cI . . . was at home with my family not afraid for any reason, also not having any weapon at any time within my possession or reach for if I committed such a hideous deranged kind of crime as this, a person would have had some kind of weapon on him. I also believe nervousness would [definitely] be set upon that person, but I know I\u2019m not the person and there\u2019s no guilty feeling. ... I feel if you can get the court to give you a highly educated group of people[] being the jury there\u2019s a good chance that I can get the people to understand I\u2019m not the person.\u201d\nThis letter does not undermine Slick\u2019s account. Although Burton does claim in the letter that he is innocent and that Clements is the guilty party, he does not identify any witnesses\u2014other than the People\u2019s witnesses\u2014to support his claim. Burton also claims that he was \u201cwilling to fight for his freedom\u201d and refers to a number of facts peculiarly within his knowledge, but Slick testified without contradiction at the reference hearing that Burton had announced early on that he would not testify in his own behalf. Moreover, it appears, as Burton\u2019s counsel now concedes, that Burton wrote the letter early on, before being interviewed by Slick. Thus, even if one were to infer from this letter that Burton had at one point wanted to present some kind of a guilt phase defense, it would not indicate whether Burton maintained that view after talking with his attorney and, in particular, after announcing his refusal to testify, nor did Burton ever establish that a \u201chighly educated\u201d jury had been selected, which was the apparent prerequisite to any desire to present a defense.\nBurton relies next on the testimony of Kristina Kleinbauer, who was not yet a licensed private investigator at the time she was assigned to Burton\u2019s trial defense in April 1983, but who was working for a licensed private investigation firm. Slick instructed Kleinbauer to take a statement from Burton to determine his participation in the robberies and murder, and the record supports the referee\u2019s findings that Slick delegated to Kleinbauer the task of identifying and interviewing potential defense witnesses, that Burton provided Kleinbauer with the names of witnesses\u2014Ora Trimble, Hope Black, Penny Black, Gloria Burton and Denise Burton\u2014he believed should be interviewed, and that Burton\u2019s claim that he had been at his girlfriend\u2019s home at the relevant time and had not confessed to the police \u201csuggested] an alibi defense and, further, that the family members and acquaintances named by [Burton] were potential alibi witnesses.\u201d The record also supports Kleinbauer\u2019s testimony that Burton was dissatisfied with Slick.\nKleinbauer\u2019s testimony, however, does not support Burton\u2019s claim that he had openly expressed a desire to present a defense, nor does it undermine Slick\u2019s testimony that he had discussed trial strategy with Burton. Although Kleinbauer testified at the reference hearing that Burton had told her he wanted witnesses to testify in his defense at trial, she had not mentioned this fact in her 1987 and 1993 declarations or in her pretrial investigative report. Nor had she stated in either of those declarations that Burton had wanted to present any specific witness or any particular defense. In her third (2000) declaration, executed 17 years after the trial and seven years after her previous declaration, Kleinbauer instead stated only the following: \u201cI have been asked . . . whether Mr. Burton made it clear that he wanted to present a defense at the guilt phase of the trial. Many years have passed and I no longer recall Mr. Burton\u2019s exact words on the subject. However, from my dealings with him, it was always clear that he did. He consistently told me that he had not committed the charged crimes and that he had not confessed to the Long Beach police. He expressed to me his concern that his trial was scheduled to start although my investigation was far from complete. He made it clear to me that he wanted to finish my investigations before he went to trial. From our conversations, I understood that he wanted to present a defense. Nothing Mr. Burton ever said to me led me to believe that he would have agreed with Mr. Slick\u2019s apparent decision not to present a guilt phase defense.\u201d Yet, as the referee found, Kleinbauer\u2019s recollection of Burton\u2019s statements\u2014as opposed to her recollections of her feelings about them\u2014does not indicate that he clearly expressed a desire to present a defense as opposed to a desire for further investigation before a final tactical decision could be made. We also agree with the referee that little weight can be given to Kleinbauer\u2019s recollection 17 years later (in the case of the declaration) or 20 years later (in the case of her testimony at the reference hearing). The passage of time weighs especially heavily with respect to Kleinbauer\u2019s testimony, inasmuch as she has a history of Alzheimer\u2019s disease in her family and was herself diagnosed with the disease and brain deterioration six months prior to the reference hearing and was being treated for it. We also decline to credit Kleinbauer\u2019s testimony because of the referee\u2019s finding, based on observations of her testimony and demeanor, that Kleinbauer \u201chad no real memory of the events in 1983,\u201d that she \u201cwas substantially biased\u201d in Burton\u2019s favor, and that she \u201ctried to shade her answers in a manner most favorable\u201d to him. We therefore credit as well the referee\u2019s more general finding that Burton never told or made clear to Kleinbauer that he wanted to offer a guilt phase defense.\nBurton refers next to statements he made at trial in the course of his four motions for self-representation. According to Burton, he openly expressed his desire to present a guilt phase defense in these Faretta motions.\nBurton first requested to represent himself on August 10, 1983, after Slick advised the court he was ready for trial. Burton based his request on the \u201clack of interest as far as the investigation is concerned with my case. There isn\u2019t any that should have been taken care of. I haven\u2019t spent or had enough time to communicate with my lawyer because he [hasn\u2019t] given me the time . . . .\u201d Slick represented to the court that he had performed his investigation and was ready to proceed. When the court noted that the 60-day limit (see Pen. Code, \u00a7 1382) had almost run and inquired whether Burton was ready to proceed to trial, Burton admitted he was not ready and asked for a continuance. The court then denied the motion. (See People v. Burton, supra, 48 Cal.3d at pp. 854-855.)\nThe next day, Burton renewed his request, complaining that certain statements in the investigator\u2019s report (prepared by Kleinbauer) were inaccurate, that he had seen a psychiatric expert only once (and \u201c[d]idn\u2019t even get into him trying to find out what kind of person I am\u201d), and that he now \u201cknow[s] for sure that we have a lack of interest\u201d by Slick based on Burton\u2019s own review of the case file. \u201cI haven\u2019t even seen Ron Slick. I see Ron Slick every time I come to the court and I am tellin\u2019 him the real, but all I\u2019m getting\u2019 is the fake, the frame.\u201d He also complained that Clements was trying to frame him for a different crime in the Los Angeles County jail but that Slick told him \u201che don\u2019t want to put it into court. H] Now, it is going to show right there what kind of person Mr. Clements is and it is going to also show that\u2014that I shouldn\u2019t be takin\u2019 a fall, because this guy tried to frame me for attempted murder in L.A. County Jail when I was at Wayside, and I gave Ron Slick the file papers. He pulled them and showed them that he had them, but don\u2019t want to bring them to the court attention.\u201d He reiterated that he wanted to represent himself with Kleinbauer\u2019s assistance. She had told him \u201cthat something is shaky about my case and that Ron is not really on my side for this case and she wanted to be with me, to work with me, because she know that it is something about this case that is very shaky.\u201d\nSlick informed the court that he had prepared for trial, had investigated the allegation that Burton was being framed by his former codefendant, and was \u201cas prepared as I know how to be.\u201d Burton responded that there were inaccuracies in the police reports and that \u201c[t]he investigator that investigated this report constantly was telling me all the things that were shaky about this, about wanting to be rushed into this.\u201d He also asked for an investigation into whether the police officers who claimed to have elicited a confession from him had fabricated confessions in other cases. Finally, Burton complained that Slick had told him at the jail that he did not think Burton was going to win this case and that there was nothing he could do about it.\nThe court advised Burton that Slick was a lawyer, not a magician, and may be correct in his assessment of the case: \u201cI don\u2019t know the answer to that, but even if it is, the stronger the case it is, the more you need a lawyer, and I think that you can\u2019t criticize a lawyer for leveling with you, rather than trying to conceal or hide the facts and have it dropped on you all of a sudden.\u201d The court then denied Burton\u2019s motion for self-representation and for a continuance.\nBurton made a third Faretta motion on August 16, 1983. He admitted again that he was not ready to proceed with trial. The court again denied the motion.\nThe next morning, Burton presented his fourth and final request to represent himself. The court pointed out that Burton\u2019s prior motions had been denied \u201cbecause you have indicated to me that you are not ready to proceed with the trial\u201d and asked whether he had \u201canything new you want to add.\u201d When Burton said he did not, the court denied the motion. The defense then rested without calling any witnesses.\nThese proceedings do not support Burton\u2019s Frierson claim. Rather, they tend to undermine it. As we stated in the direct appeal, \u201cit is far from clear on this record that defendant did insist on presenting any particular defense; his comments were mostly directed to the question whether counsel had adequately investigated. With the exception of some impeachment evidence against Otis Clements, who did not testify, defendant did not allege that there was a particular piece of evidence he wanted presented that counsel refused to present, or even that he wanted to testify himself.\u201d (People v. Burton, supra, 48 Cal.3d at p. 857.) Moreover, Burton does not fault his attorney in this proceeding for failing to present evidence that Clements had tried to frame him for a different crime at the county jail. Indeed, Burton\u2019s statement at trial that Slick was unwilling to present such evidence directly undermines Burton\u2019s more general claim in this proceeding that Slick had refused to keep him informed of his intended trial strategy. Burton\u2019s failure to inform the court of any conflict over the presentation of other defenses suggests that no such conflict existed. (Cf. People v. Carter (2005) 36 Cal.4th 1114, 1199 [32 Cal.Rptr.3d 759, 117 P.3d 476].)\nWe note further that Burton was aware, at the time of his fourth Faretta motion, that Slick had not put on any alibi witnesses (and, in addition, that Slick had not called eyewitness Michael Stewart)\u2014yet Burton failed to mention his disagreement with this strategy when the court asked him whether he had anything new to add to his complaints. Nor did Burton renew his Faretta motion when Slick immediately thereafter announced in open court that the defense was resting without calling any witnesses or otherwise complain that Slick was failing to present his desired defense. Burton\u2019s lack of response is inconsistent with his claim that he had been ignorant of Slick\u2019s trial strategy until the time the defense rested.\nBurton\u2019s effort to turn this omission to his advantage is unconvincing. Burton reasons that Slick could have foreshortened the trial court\u2019s consideration of the Faretta motions by explaining to the court at the outset that he had decided not to present a guilt phase defense, and hypothesizes that Slick was unwilling to bring the conflict to the court\u2019s attention. We are not necessarily convinced that either the trial court or Slick would have understood that a discussion of Slick\u2019s intended trial strategy would be an appropriate response to Burton\u2019s disjointed and wide-ranging complaints during the Faretta hearings. It does seem reasonable to conclude, though, that Slick would have apprised the court of any conflict with his client concerning his intended trial strategy had one existed because, at the time of trial, Slick (like defense counsel in Frierson) believed that the attorney had the right to resolve such conflicts. (Cf. Frierson, supra, 39 Cal.Sd at pp. 810-811 [defense counsel disclosed the existence of a conflict in strategy following the defendant\u2019s request for a new attorney].) Slick thus would have perceived no need to keep such a conflict secret had one existed.\nHowever, Slick likely would have been reticent to inform the court that, as the referee found, Burton invoked and continued to invoke Faretta solely in order to delay the trial. According to Slick, Burton consistently said on multiple occasions that he was not ready to go to trial, but never offered Slick a reason for a delay. In Slick\u2019s experience, it is not unusual for defendants to prefer to delay trial and to give the appearance of being able to \u201cwait it out,\u201d and he believed that Burton, who was facing a capital trial, was such a defendant. Burton thus errs in contending that \u201cthe only reasonable inference to be drawn\u201d from his Faretta motions is that he \u201cwanted to defend against the state\u2019s case.\u201d\nSlick\u2019s assessment of Burton\u2019s motivation was corroborated by other evidence at the hearing. Kleinbauer testified that Burton had told her he was not ready to go to trial and that he was dissatisfied with Slick because \u201cthe trial seemed to be . . . rushing forward.\u201d As a result, Kleinbauer had consulted with another lawyer, Jeffrey Brodey, who had recommended that Burton invoke his right to self-representation if he was not ready for trial and that he not settle for cocounsel status. Tellingly, Kleinbauer\u2019s notes of this conversation nowhere mention Burton\u2019s alleged desire to present a defense but say instead \u201ctell Ron he\u2019s not ready for trial. July 25 too soon\u2014next year some time.\u201d Kleinbauer further stated in a 1993 declaration that she had instructed Burton to tell Slick \u201cthat he was not ready for trial, and that the trial should take place next year some time, after all the investigation was done.\u201d Kleinbauer herself also felt the case \u201cwent to trial maybe sooner than it should have.\u201d\nBurton\u2019s conduct and statements further confirmed his interest in delay. Burton engaged in \u201cgame playing\u201d with Dr. Michael Maloney, who had been retained by Slick to conduct a psychological evaluation of Burton. This lack of cooperation is fully consistent with a defendant who was interested in delay for delay\u2019s sake\u2014a conclusion additionally supported by Burton\u2019s observation in his declaration in support of his motion for new trial that \u201c[i]n my experience in the Los Angeles County Jail, persons with death penalty cases all tended to have their cases continued for longer periods of time.\u201d Finally, we note that even the trial court seemed aware of Burton\u2019s motivation, advising him during the second Faretta motion hearing \u201cthat the trial is going to go ahead. [][] I know you don\u2019t like the idea, but that\u2019s the idea.\u201d We therefore accept the referee\u2019s finding that Burton\u2019s Faretta motions reflected a dissatisfaction with Slick\u2019s failure to delay the trial, not a dissatisfaction with Slick\u2019s trial strategy.\nBurton offers next the testimony of Jeffrey Brodey, who had offered advice to his friend Kleinbauer about Faretta and who subsequently represented Burton in connection with his motion for new trial. According to Brodey, Burton complained that Slick had not called any witnesses, had failed to visit, had expressed his opinion Burton was guilty, and seemed not to be interested in the case. Brodey further testified that Burton said he had told Slick he wanted to present a defense to the charges and call witnesses. Brodey also interviewed Slick and said Slick had admitted that Burton wanted to put on a defense and that he had nonetheless overruled his client\u2019s wishes because he believed the defense would not work. Slick, however, denied telling Brodey that Burton had said he wanted to present defense witnesses.\nAs the referee found, there are a number of reasons to question Brodey\u2019s testimony. First, Brodey had no notes of his interview with Slick and therefore had to rely only on his memory of a single conversation nearly 20 years earlier. Second, the declaration Brodey prepared on Burton\u2019s behalf does not mention Burton\u2019s desire to present a defense or Slick\u2019s disregard of his client\u2019s wishes. Although Frierson had not yet been decided at the time of the new trial motion, Brodey conceded at the reference hearing that Slick\u2019s alleged refusal to accede to a client\u2019s stated demand to present a defense and to call particular witnesses would have been useful to include in the claim for ineffective assistance of counsel that was raised in the motion and was \u201csignificant\u201d evidence for such a motion. Brodey offered no explanation at the hearing for failing to include these facts in Burton\u2019s declaration in support of the new trial motion, other than to say that the declaration was very poorly prepared. But \u201c[s]elf-proclaimed inadequacies on the part of trial counsel in aid of a client... are not persuasive.\u201d (People v. Beagle (1972) 6 Cal.3d 441, 457 [99 Cal.Rptr, 313, 492 P.2d 1].) One might further question Brodey\u2019s recollection on this point, inasmuch as Burton himself testified that he did not tell Brodey that Slick failed to call the witnesses or present the defenses he had told Slick he wanted. We therefore accept the referee\u2019s finding that Brodey\u2019s testimony was entitled to little weight.\nThe referee also accorded little weight to the testimony of L. Marshall Smith, who represented Burton on appeal as well as in his first state habeas corpus proceeding and who continues to represent Burton in his federal habeas corpus proceeding. Smith claimed that Slick, during an interview with Smith and Attorney Samuel Jackson in December 1985, admitted that Burton had wanted to call witnesses in his defense. However, Smith did not take any notes during this interview\u2014although he agreed that it would have been sound practice to document such a statement. Twenty-two months later, Smith drafted a declaration for Slick based on his recollection of his interviews with Slick and Burton and asked Slick to sign it and return it \u201c[i]f you find that it accurately reflects the circumstances . . . .\u201d Slick declined to sign the declaration because it was not accurate, but it was this declaration (prepared without the assistance of any notes) that was used to refresh Smith\u2019s recollection as to whether Slick ever said Burton had wanted to present defense witnesses. Slick, for his part, testified at the reference hearing that he never said to Smith or Jackson that Burton had wanted to present defense witnesses.\nThe referee, who observed both witnesses testify, concluded that Smith, who continues to represent Burton in federal court, had the demeanor \u201cof an advocate for his client\u201d and that Smith\u2019s recollection of Slick\u2019s alleged statement was entitled to little weight. We agree with the referee\u2019s assessment.\nFinally, Burton faults the referee\u2019s report for failing to state that Slick was biased against Burton. He focuses in particular on Slick\u2019s testimony at the hearing, in which Slick said that he feels he is being targeted as the reason Burton is facing a judgment of death and \u201cview[s] [him]self as the now defendant.\u201d It is, of course, beyond dispute that Slick\u2019s conduct during the representation is under scrutiny in this proceeding. The referee was aware of the situation and, indeed, included this portion of Slick\u2019s testimony in his report. But the fact that Slick was an interested party does not necessarily undermine his credibility, especially when he explained the basis for his perception that he was the defendant in this proceeding: Although he had been open and forthright with current state habeas corpus counsel from the beginning, they had asked him to sign a declaration that was not accurate and had \u201cpounded\u201d on him for not giving an immediate response. We are also aware, as was the referee, that many of the witnesses who testified at the reference hearing had previously or were currently representing Burton and thus had an interest in advancing his claim. Most importantly, Burton himself had an obvious interest in the proceeding, and any evaluation of his testimony had to consider that bias as well as his prior criminal conduct\u2014a residential burglary in 1977, an attempted robbery in 1978, an attempted robbery in 1979, and another burglary in 1982.\nThus, after a full and careful review of the record, we agree with the referee that Burton failed to rebut, by a preponderance of the evidence, Slick\u2019s testimony that he had discussed his trial strategy at the guilt phase with Burton and that Burton did not object to it. The record shows that while Burton steadfastly maintained his innocence throughout and denied making a confession to police, he never expressed a desire to Slick that any particular defense be presented\u2014other than a defense based on Clements\u2019s alleged pattern of framing him for violent crimes. Burton instead seemed focused on investigating all possible avenues of defense, including defenses of alibi and mistaken identification, but clearly and openly expressed a desire only that all of these investigations be completed before trial. Frierson, however, does not require that an attorney defer to a client\u2019s wishes as to the scope or duration of pretrial investigation. The reasonableness of the attorney\u2019s investigation is an issue of ineffective assistance of counsel (see Wiggins v. Smith (2003) 539 U.S. 510, 521-522 [156 L.Ed.2d 471, 123 S.Ct. 2527]) and, as the parties concede, beyond the scope of the order to show cause.\nAdditionally, we reiterate that a defendant must clearly and openly\u2014 and, thus, unequivocally\u2014express a desire to present a particular defense in order to establish a violation of Frierson. It is by no means uncommon for a capital defendant to make protestations of innocence during interviews with defense counsel or investigators, nor is it unusual for a capital defendant to suggest during an interview that certain evidence or witnesses may merit further investigation. But unless the defendant clearly, openly, and unequivocally requests that a particular defense be presented, it is for counsel to assess the value of the evidence, witnesses, and theories identified by the defendant and to decide whether to offer a guilt phase defense. This straightforward rule protects both the defendant and the integrity of the trial. If defense counsel must guess whether a defendant\u2019s statements and conduct constitute a request to present a defense, then counsel will likely err on the side of presenting the defense\u2014notwithstanding counsel\u2019s justifiable doubts as to the wisdom of pursuing such a strategy and even though the defendant had intended merely to express curiosity about a possible defense. In such circumstances, the defendant will be erroneously deprived of counsel\u2019s best judgment as to strategy, thereby diminishing the quality and value of counsel\u2019s assistance. Furthermore, clever defendants could rely on equivocal requests, whether granted or denied, as a ground for reversal on appeal. (Cf. People v. Roldan (2005) 35 Cal.4th 646, 683-684 [27 Cal.Rptr.3d 360, 110 P.3d 289] [discussing equivocal Faretta requests].) A clear, open, and unequivocal request, on the other hand, provides counsel with the necessary signal of the defendant\u2019s wishes concerning his or her defense and reduces the likelihood of extensive after-the-fact debate as to what those wishes might have been.\nIn short, it not sufficient for a defendant merely to proclaim his or her innocence or to suggest that certain avenues of inquiry merit further investigation. For purposes of a Frierson claim, the defendant must\u2014as a first step\u2014clearly, openly, and unequivocally request that a defense be presented at the guilt phase. The defendant must then show that there was some credible evidence to support the particular defense he or she requested.\nThe view of the dissent that Burton clearly and openly expressed his desire to present a defense rests on its repeated assertion that Burton had \u201creacted negatively\u201d to Slick\u2019s decision not to present a defense and that thereafter this strategic \u201cissue\u201d was \u201c \u2018always there\u2019 between\u201d them. (Dis. opn., post, at p. 231.) The dissent has misapprehended the record, which reveals that Burton reacted negatively to Slick\u2019s statement, early on in the representation, that the prosecution had \u201can extremely strong case\u201d with respect to identity. (Italics added.) It was only later, after considering the strength of the prosecution case, consulting with other attorneys, and wrestling with how best to defend Burton, that Slick decided not to present a guilt phase defense and so informed Burton. Neither Burton nor Slick testified that Burton reacted negatively to this strategic decision\u2014in fact, Slick testified repeatedly that Burton \u201cdid never one time object or tell me that, no, I don\u2019t want you to do this.\u201d The record likewise does not support the dissent\u2019s repeated assertion that Slick\u2019s intended strategy created an \u201cissue\u201d that came \u201cbetween\u201d him and his client. (Dis. opn., post, at pp. 228, 229, 230, 231, 235-236.) In particular, neither Slick nor Burton made such a claim at the hearing. Slick testified instead that while he could not recall the precise date when he informed Burton of his intended strategy, he was \u201csure\u201d he had done so, since the \u201ctopic\u201d came up \u201cmore than one time.\u201d\nThe dissent also misapprehends a defendant\u2019s burden in establishing a Frierson claim. The issue is not, as the dissent suggests, whether Slick could have \u201creasonably understood petitioner\u2019s comments as indicating agreement with an immediate no-defense trial.\u201d (Dis. opn., post, at p. 236, italics omitted.) As demonstrated above, Burton plainly was dissatisfied with the imminent approach of his capital trial, and Slick was aware of the fact his client was dissatisfied. But, as recounted above, Burton expressed dissatisfaction clearly and openly with the strength of the prosecution case, with the speed at which he was brought to trial, and with the general predicament in which he found himself\u2014not with his attorney\u2019s failure to offer the guilt phase defense he has now identified.\nBecause we find that Burton did not clearly, openly, and unequivocally express a desire to present a guilt phase defense, and Slick therefore did not override Burton\u2019s clearly expressed desire to do so, the Frierson claim must be rejected.\nB. Whether the Reference Hearing Was Fair and Adequate\nWe have already discussed and disposed of many of Burton\u2019s exceptions to the referee\u2019s report as well as his objections to the conduct of the hearing in the preceding section. Burton\u2019s remaining exceptions and objections likewise lack merit.\nBurton argues first that the referee erred in refusing to designate Slick a hostile witness, which precluded counsel from conducting Slick\u2019s examination with leading questions. (Evid. Code, \u00a7 767.) The referee had broad discretion to decide whether, under the circumstances, Slick should have been declared a hostile witness. (People v. Williams (1997) 16 Cal.4th 635, 672 [66 Cal.Rptr.2d 573, 941 P.2d 752].) We need not decide whether an abuse of that discretion occurred, however, because Burton does not claim that he was precluded from introducing any evidence by the limitation of the examination to nonleading questions or that he was prejudiced in any other way.\nBurton objects next that the referee discounted Brodey\u2019s and Smith\u2019s testimony that Slick had admitted overriding his client\u2019s desire to present a defense because neither one had contemporaneous notes of the interview, but did not discount Slick\u2019s testimony, even though he too failed to take notes of the interview. As the Attorney General points out, though, Brodey and Smith each met with Slick for the purpose of developing information to support further litigation on Burton\u2019s behalf; the motion for new trial, in Brodey\u2019s case, and the direct appeal and habeas corpus petition, in Smith\u2019s case. It would thus be reasonable to expect Brodey and Smith to take notes of any useful facts elicited in the interview. Slick, by contrast, had no similar reason to document his conversation with either attorney or, indeed, to take notes of his own oral statements. The referee thus properly took account of the fact that Brodey\u2019s testimony about Slick\u2019s statements was based not on his notes but simply on his recollection of an interview nearly 20 years earlier and that Smith, similarly without notes, did not begin to prepare a declaration purporting to recount Slick\u2019s statements until 22 months after their interview.\nFinally, Burton points out, correctly, that the referee erred in relying on exhibits that had not been admitted into evidence. In discussing Slick\u2019s belief that Burton\u2019s four Faretta motions had been based not on his dissatisfaction with Slick\u2019s trial strategy but instead on his desire to delay the trial, the referee cited at one point to Slick\u2019s 1987 declaration, in which Slick said that Burton had \u201cwanted a delay because he was not ready to go to trial\u201d and explained \u201cthat what he meant was that he was not emotionally ready to go to trial at the time,\u201d and to Slick\u2019s 1998 declaration, in which Slick said that the reason Burton provided for his Faretta motion \u201cwas that he wanted a delay because he was not ready to go to trial.\u201d We agree with Burton that the referee erred in citing these declarations, in that neither declaration had been admitted into evidence, but the error was plainly harmless, in that Slick also testified at the hearing that he believed Burton\u2019s Faretta motions were an attempt to delay the trial.\nDisposition\nOur order to show cause was limited to the claim that Burton was denied his right to present a defense under Frierson. Burton\u2019s other claims and his petition for writ of habeas corpus will be resolved by a separate order, as is our practice. (See In re Freeman, supra, 38 Cal.4th at p. 652.) The order to show cause is discharged.\nGeorge, C. J., Kennard, J., Chin, J., and Corrigan, J., concurred.\nBurton also admitted he and Clements had robbed at gunpoint two women who were seated in a pickup truck in a Kmart parking lot in Long Beach a short time earlier.\nAfter the jury returned a verdict of death, Burton moved for a new trial on the special circumstance and the penalty on the basis of our opinion in Carlos v. Superior Court (1983) 35 Cal.3d 131 [197 Cal.Rptr. 79, 672 P.2d 862] (overruled by People v. Anderson (1987) 43 Cal.3d 1104, 1147 [240 Cal.Rptr. 585, 742 P.2d 1306]), since his jury had not been instructed on the intent-to-kill element of the felony-murder special circumstance. The trial court granted a limited new trial on the issue of intent to kill; the special circumstance finding and the death verdict were not disturbed. The new jury returned a finding that Burton had intended to kill the victim. (People v. Burton, supra, 48 Cal.3d at pp. 851-852.)\nBurton complains also that there were no notes of this conversation in Slick\u2019s file. But, inasmuch as there were no notes from any of Slick\u2019s conversations with Burton in the file, the omission is not significant.\nOtis Clements was originally charged as a codefendant, but his trial was severed on May 9, 1983.\nBurton contends that the referee erred in discounting Kleinbauer\u2019s testimony. He points out that Kleinbauer\u2019s medical condition caused her \u201cmemory problems\u201d and \u201cdifficulties testifying\" as well as the \u201cconfusion or distraction observed by the Referee.\" We perceive no error. (See People v. Lee (1970) 3 Cal.App.3d 514, 528 [83 Cal.Rptr. 715].)\nClements\u2019s case had been severed three months earlier, and Clements did not testify at Burton\u2019s trial.\nBurton\u2019s declaration in support of the motion for new trial, which was prepared by Brodey, did recite that Burton knew \u201cfrom our investigator that a witness had been located who gave a different description of the person who did the shooting of MR. AND MRS. KHWAJA, and I wanted to know why that witness had not been subp[o]enaed to come to court.\u201d The declaration, however, does not indicate whether Burton expressed his concern to Slick or to anyone else and, if he did, when he did so. Nor does it indicate whether Burton was provided an answer to his concern and, if so, whether he found the answer satisfactory. Indeed, the declaration does not indicate that Burton actually wanted the witness to testify, only that he wanted to know why the witness had not been called. In short, the declaration, even assuming its truth, provides scant support for Burton\u2019s Frierson claim\u2014although it does, once again, imply that Burton was kept abreast of developments in the case, including Slick\u2019s trial strategy.\nWe note also that the parties have engaged in a lively dispute as to the identity of the witness mentioned in the declaration. Burton\u2019s counsel asserts that the declaration refers to Michael Stewart; the Attorney General asserts that it must refer to Susana Camacho. Our determination that Burton failed to establish the first prong of a Frierson claim makes it unnecessary to resolve the conflict.\nBurton further testified that he had been aware the declaration Brodey prepared for the new trial motion omitted the discussions he had with Slick concerning his desire to present a defense but that he never pointed out the omission to Brodey.\nSmith also testified that Kleinbauer had told him Burton had expressed to Slick his desire to present an alibi defense. However, there is no reference to this alleged desire in Kleinbauer\u2019s declaration in support of the habeas corpus petition Smith filed on Burton\u2019s behalf, which raised a Frierson claim, and Smith admitted that he would have wanted the petition to include the most \u201cpowerful\u201d information available.",
+        "type": "majority",
+        "author": "BAXTER, J."
+      },
+      {
+        "text": "WERDEGAR, J., Dissenting.\nIn this case we are concerned not with petitioner\u2019s guilt or innocence or with the competence of his counsel, but with petitioner\u2019s fundamental constitutional right to put on a defense at trial.\nThe majority holds petitioner was not denied this fundamental constitutional right. I respectfully dissent. In my view, a defendant who has repeatedly told his attorney he did not commit the crime and wants to contest the charges; who has asserted his confession was false; who has provided the attorney, through the defense investigator, with names of alibi witnesses and eyewitnesses to support his innocence claim; who has responded negatively to his attorney\u2019s suggestion that the guilt phase trial could not be won, thereby creating an issue of strategy that the attorney acknowledges was constantly present between them; and who before trial moved four times to have the attorney relieved, complaining in open court, with the attorney present, that the attorney had accepted the prosecution allegations as incontestable and had no interest in investigating the defendant\u2019s alibi, is a defendant who has \u201cclearly expressed [his] desire to present a defense\u201d at the guilt phase of trial. (People v. Frierson (1985) 39 Cal.3d 803, 815 [218 Cal.Rptr. 73, 705 P.2d 396] (Frierson).)\nIn Frierson, we held that a criminal defense attorney\u2019s ordinary authority to decide strategy and tactics does not extend, in a capital case, to the fundamental decision of whether to attempt a defense to guilt or reserve the defense efforts for the penalty phase. We agreed with the defendant that \u201cthe decision whether to present any defense at all at the guilt/special circumstance phase of a capital case is so fundamental, and has such serious consequences for a defendant, that it is one that cannot properly be taken from him by his counsel.\u201d (Frierson, supra, 39 Cal.3d at p. 812.) In light of that principle, this court concluded, \u201cwe do not think counsel could properly refuse to honor defendant\u2019s clearly expressed desire to present a defense.\u201d (Id. at p. 815.)\nNeither Frierson nor our more recent cases discussing this principle articulate how \u201cclearly\u201d or \u201copenly\u201d (People v. Milner (1988) 45 Cal.3d 227, 246 [246 Cal.Rptr. 713, 753 P.2d 669]) the defendant\u2019s objection to his attorney\u2019s no-defense strategy must be expressed. But as the attorney\u2019s obligation is to refrain from \u201coverrid[ing] defendant\u2019s decision to present a defense\u201d (Frierson, supra, 39 Cal.3d at p. 817, fn. 7), the principle logically applies whenever defense counsel would reasonably know, from the defendant\u2019s statements understood in light of the circumstances known to counsel, that the defendant has decided in favor of presenting a defense. At oral argument in this case, both parties agreed with this \u201creasonable trial attorney\u201d standard.\nThe present habeas corpus record shows that from the statements petitioner made in open court with his attorney, Ronald Slick, present\u2014understood in light of the circumstances known to Slick\u2014no reasonable attorney in Slick\u2019s position could have failed to understand that petitioner opposed Slick\u2019s strategy of presenting no defense to the charges. I discuss this evidence in detail below.\nIn an undated letter, apparently written soon after Slick\u2019s appointment, petitioner informed Slick of his insistence he was innocent, his belief he was being framed, and his expectation of being exonerated at trial. From the subsequent report of his investigator, Kristina Kleinbauer, Slick learned petitioner had provided the investigator with a detailed alibi and the names of pertinent witnesses, some of whom Kleinbauer had interviewed. Slick testified that on review of the prosecution\u2019s likely evidence and investigation of the potential defense witnesses (which included misidentification as well as alibi witnesses) he determined the defense of innocence would not persuade a jury and was not strategically smart, and he \u201cbelieve[dj\u201d that he so informed petitioner. Slick further testified he \u201ccan\u2019t tell [petitioner\u2019s current attorney]\u201d what petitioner\u2019s reaction was to this information about his strategic choice. However, he did remember that when he told petitioner \u201cwe\u2019re going to lose the thing\u201d (apparently referring to the guilt phase trial), petitioner reacted negatively, becoming uncooperative; after that the two never had a \u201cgood conversation.\u201d Although Slick had made no notes of their discussions and could not remember when or how many times they discussed the issue of a guilt phase defense, the issue was, in his words, \u201calways there\u201d between him and petitioner.\nWith that factual background\u2014all of it known to Slick\u2014petitioner\u2019s in-court comments clearly expressed his opposition to Slick\u2019s no-defense strategy. Though petitioner, as he had been advised, framed his complaints within a repeated request for self-representation, Slick could not reasonably have failed to understand that petitioner continued to object to his chosen strategy; the issue that was \u201calways there\u201d between them clearly had not disappeared.\nIn court, shortly before jury selection, petitioner began by complaining Slick had shown a \u201clack of interest as far as the investigation is concerned\u201d because \u201cit is not worth it to him,\u201d though petitioner insisted that \u201cto me it is worth it\u201d because \u201cI don\u2019t want to take the fall for the real person in this crime.\u201d The next day, petitioner explained that the investigation he had seen did not reflect \u201cthe realness about my alibi.\u201d Slick, petitioner asserted, \u201cdon\u2019t want to inform the court and let the people see\u201d that petitioner was being framed and that he was \u201cnot the person who should be takin\u2019 the fall.\u201d Petitioner accused Slick of disloyalty (he and the district attorney \u201cis up to somethin\u2019 \u201d); as evidence, petitioner observed that Slick continued to articulate only the prosecution version of events: \u201cI see Ron Slick every time I come to the court and I am tellin\u2019 him the real, but all I am gettin\u2019 is the fake, the frame. And I know for sure that I shouldn\u2019t take the fall in this case.\u201d Petitioner recounted Slick\u2019s having told him, in a brief meeting at the county jail, \u201c T don\u2019t think you are going to win this case and there is nothing I can do about it.\u2019 \u201d Petitioner then expressly, clearly and succinctly indicated his continued dissatisfaction with this approach: \u201cI don\u2019t need a lawyer like that.\u201d\nIn short, on the first two days of trial Slick heard petitioner say, in court, that he was innocent; that he had told his lawyer so, but his lawyer did not believe him and did not consider the case worth his time; that the lawyer consequently had not truly investigated the case, including petitioner\u2019s alibi; that the lawyer repeatedly displayed his disloyalty by echoing the prosecution\u2019s version of the facts and by refusing to bring the truth out in court; that the lawyer had told him they could not win the case and there was nothing the lawyer could do; and, finally, that petitioner preferred going to trial without a lawyer to being represented by a lawyer who took for granted petitioner\u2019s conviction. Slick heard all this while knowing, consistent with it, that he had indeed told petitioner they could not win at the guilt phase and he did not intend to put on a defense, that petitioner had reacted negatively, and . that the issue had remained \u201calways there\u201d between them. Given their past conversations, I am at a loss to comprehend how Slick could reasonably have understood petitioner\u2019s in-court comments to reflect agreement with his planned no-defense strategy. To the contrary, they could reasonably have been understood only as a clear statement that petitioner had not acceded to Slick\u2019s strategic plan.\nThe majority insists that the issue Slick testified was \u201calways there\u201d between him and his client was not whether Slick should forgo a guilt phase defense, but only whether the defense had any chance of success in light of the strong prosecution case on guilt. The record does not support the majority\u2019s view. Slick testified expressly that his decision not to call guilt phase witnesses was a \u201ctopic\u201d that \u201ccame up more than one time\u201d and indeed was \u201calways there\u201d between him and petitioner. And while Slick stated he \u201cstruggled\u201d with whether or not to call witnesses, the record does not support the majority\u2019s claim that the decision not to do so came later than, and was separate from, Slick\u2019s determination that the People\u2019s case on guilt could not be effectively opposed. (Maj. opn., ante, at p. 226.) Slick testified the two points were linked in Ms tMnking about the case. Indeed, the strength of the People\u2019s case was, according to Slick, the \u201creason\u201d for his strategic choice not to present a defense. Moreover, Slick was unable to recall when he told petitioner of his strategic decision, including whether it was before or after receiving the results of the defense investigator\u2019s work. (See fin. 3, ante.) The majority\u2019s view that while preparing for trial Slick and petitioner were in conflict only over the strength of the prosecution case, and that only later did the two discuss trial strategy, is thus contradicted in several respects by Slick\u2019s own testimony.\nThe referee found Slick had reason to understand petitioner\u2019s in-court remarks as intended only to delay trial, rather than reflecting dissatisfaction with Slick\u2019s intended trial strategy. The majority accepts this assessment. (Maj. opn., ante, at p. 222.) In contrast, I would reject this finding as plainly inconsistent with the trial record. WMle petitioner certainly indicated in connection with Ms four Faretta motions on August 10 tMough 17 that he was not ready to go to trial in propria persona and did not believe the defense case had yet been fully investigated, to read Ms comments as reflecting only a desire to delay trial, unrelated to any concern over the nature and quality of the representation Slick was providing, is objectively unreasonable. As discussed above, petitioner clearly and repeatedly stated that he wanted to dismiss Ms attorney because Slick was committed to the prosecution version of events and therefore would not defend Mm properly. Slick, who knew he had told petitioner they could not win the guilt phase, who knew that petitioner had objected, and who acknowledged that from that point on the issue of whether to defend was \u201calways there\u201d when he talked to petitioner, could not have failed to understand the dissatisfaction with his trial strategy expressed in petitioner\u2019s Faretta-hearing comments.\nThe majority reasons that Slick\u2019s failure to inform the trial court, during the Faretta hearings, of a conflict with his client over strategy tends to show that no such conflict existed. (Maj. opn., ante, at pp. 221-222.) As the majority points out, the defense attorney in Frierson conscientiously disclosed the existence of a conflict when Frierson asked for a new attorney. (Frierson, supra, 39 Cal.3d at pp. 810-811.)\nBut Frierson\u2019s attorney was not Ron Slick. Slick\u2019s performance as counsel in this case suggests he was less concerned with assuring petitioner zealous representation than with expeditiously concluding the trial. His no-defense strategy, for example, went beyond declining to call witnesses in the guilt phase trial; Slick also made no meaningful argument to the jury against conviction on all charges. Instead, he simply shared some very brief (four transcript pages long) thoughts about reasonable doubt in general, making absolutely no reference to the facts or evidence in the case. He urged the jury to \u201cpile the evidence up\u201d and see whether it could be viewed as showing petitioner not to be guilty. \u201cBut see if you can do that. And if you can\u2019t do that, so be it. You can\u2019t do it.\u201d He made no effort whatsoever to even so much as suggest how the evidence could be viewed to reach a not guilty verdict; indeed, he did not discuss the evidence at all. While a desire to maintain credibility with the jury may justify counsel\u2019s forgoing the presentation of a vigorous guilt phase defense of misidentification and alibi, it is difficult to see how merely pointing to the weaker points of the prosecution case and urging the jury to consider whether that evidence raises reasonable doubts risks a loss of credibility with the jury.\nMoreover, having effectively admitted his client\u2019s guilt in order, as he asserts, to retain credibility for the penalty phase, Slick actually presented only the bare minimum of a defense on penalty. He called petitioner\u2019s mother, who testified that she had had difficulty providing for her nine children, that petitioner\u2019s father had died when petitioner was five, that petitioner was well behaved at home and got along with his siblings but got into trouble at school for fighting, and that she loved petitioner. The only other defense witness was a deputy sheriff from the Los Angeles County jail who testified that petitioner was a backup trusty on his cell row and, as far as the witness knew, had not been involved in any negative incidents at the jail. Slick did not investigate or present to the jury any information regarding petitioner\u2019s neglectful and abusive family background, even though several members of petitioner\u2019s family were prepared to testify to the violence, alcoholism and drug use rampant in petitioner\u2019s childhood environment. The defense investigator, whom Slick had initially directed to interview petitioner\u2019s family members, had not yet done so when she learned that Slick had already taken petitioner to trial, conviction and a death sentence. (The entire trial, guilt, special circumstances and penalty phases together, was conducted over portions of four days; the proceedings occupy only one volume [348 pages] of reporter\u2019s transcript.) This record does not suggest Slick was such a conscientious guardian of his client\u2019s interests that, like counsel in Frierson, he would voluntarily reveal to the court petitioner\u2019s dissatisfaction with his chosen strategy.\nThe majority views the Frierson issue as turning on a credibility contest between Slick and petitioner\u2014or, more exactly, between Slick, on the one hand, and petitioner, petitioner\u2019s two later attorneys and the defense trial investigator, on the other. In particular, the majority, like the referee, focuses on the question whether the evidence at the hearing shows petitioner objected, during pretrial private meetings with Slick, to Slick\u2019s intended no-defense strategy. (See maj. opn., ante, at pp. 215-219, 223-224.) But in my view no such credibility contest need be resolved, because petitioner\u2019s on the record remarks at trial, understood in light of circumstances admittedly known to Slick, clearly articulated petitioner\u2019s disagreement with Slick\u2019s no-defense strategy. Nevertheless, I note two significant reasons for doubting Slick\u2019s credibility as to the details of his interactions with petitioner. First, Slick understood that his performance as trial counsel was under significant scrutiny in these proceedings; indeed, he admitted he felt he was the \u201cdefendant\u201d here. Second, while he generally disclaimed any memory about most events of the period, he simultaneously professed the ability to remember certain details favorable to his version of events. Together with the long passage of time since the events in question and the absence of recordings or notes of the private conversations between attorney and client, the evident bias of both petitioner and Slick militates in favor of resolving this case primarily by reference to practically the only thing that is certain: petitioner\u2019s on the record remarks at the Faretta hearings.\nThe majority, quoting dictum from our decision in petitioner\u2019s automatic appeal, reasons that in his Faretta hearing comments petitioner did not \u201c \u2018insist on presenting any particular defense\u2019 \u201d or \u201c \u2018allege that there was a particular piece of evidence he wanted presented that counsel refused to present.\u2019 \u201d (Maj. opn., ante, at p. 221.) Given what we now know from the habeas corpus record, I disagree that Slick could reasonably have dismissed petitioner\u2019s explanation of his desires as insufficiently specific. Again, Slick knew not only that petitioner maintained his innocence of the shootings, but also that he had provided the defense investigator with alibi witnesses. Slick was also aware the investigator had interviewed other witnesses who might have cast doubt on the eyewitness identifications. How Slick, other than through willful blindness, could have failed to understand petitioner\u2019s in-court insistence that his lawyer should present \u201cthe realness about my alibi\u201d and \u201cinform the court and let the people see\u201d that petitioner was \u201cnot the person who should be takin\u2019 the fall\u201d as not referring to a defense of innocence, including at least the presentation of alibi witnesses, is incomprehensible.\nTo the extent the majority implies that Frierson required petitioner to use correct legal labels or to state in open court the exact parameters of the defense he wanted presented, I disagree. Petitioner was a poorly educated 20 year old whose verbal IQ has been measured as 74, in the borderline mentally retarded range. Moreover, even if he were of exceptional intelligence and trained in the law, he could not have known of his right to demand that a guilt phase defense be presented, as at the time of his trial that right had not yet been recognized by Frierson. I would not hold Frierson requires greater specificity of petitioner under these circumstances.\nI agree with the majority (maj. opn., ante, at p. 225) that a general \u201cprotestation[] of innocence\u201d during an interview with defense counsel should not be sufficient to make a Frierson claim. But petitioner did much more. While petitioner consistently maintained his innocence, i.e., that he was not responsible for killing Gulshakar Khwaja, he also provided names of witnesses to support his alibi. Having privately responded negatively to Slick\u2019s assertion that the prosecutor\u2019s charges could not be contested, which Slick acknowledged created an issue that was \u201calways there\u201d between attorney and client, petitioner then repeatedly renewed his objections in court up to and during the trial itself.\nNor does the fact petitioner complained, inter alia, of inadequate investigation (maj. opn., ante, at p. 225) tend to negate his claim. His disagreement with Slick\u2019s intended course of going to trial immediately with no defense to the charges was no less clear simply because he expressed himself in terms of the belief his defense had not yet been fully investigated. Slick could, perhaps, have believed from petitioner\u2019s in-court comments that petitioner would prefer further investigation to an immediate trial with only the defense witnesses who had already been interviewed (though in fact Slick professes to believe simply that petitioner wanted to delay the trial for emotional reasons). In no way, however, could Slick have reasonably understood petitioner\u2019s comments as indicating agreement with an immediate no-defense trial. Petitioner\u2019s objection to that course should, especially given the prior dealings between them, have been amply clear to Slick.\nBecause the majority concludes petitioner has not shown he clearly expressed his desire to present an identifiable guilt phase defense, the majority does not address whether \u201csome credible evidence to support the defense\u201d existed. (Frierson, supra, 39 Cal.3d at p. 812.) Below, I briefly explain why I would find there was some credible evidence of misidentification and alibi. In so doing, I do not suggest this evidence would necessarily have altered the outcome, a conclusion irrelevant to a Frierson inquiry.\nKleinbauer\u2019s pretrial defense investigation identified three potential alibi witnesses and two eyewitnesses (one a former police officer) whose descriptions of the gunman were inconsistent with petitioner\u2019s appearance. To be sure, these witnesses\u2019 potential testimony was open to impeachment and qualification in various ways: the alibi witnesses bore probable biases for petitioner, and the times at which they remembered seeing him were approximate; the eyewitnesses had limited opportunity to observe the shooter, and, in one case, the pertinent description did not appear in the police report of the witness\u2019s initial interview. But nothing about the information these witnesses could have provided was inherently unbelievable or implausible. This is not a case in which petitioner claims he had a right \u201cto insist on the presentation of a defense which has no credible evidentiary support or on which no competent counsel would rely.\u201d (Frierson, supra, 39 Cal.3d at p. 815, fn. 3.)\nThe referee found this evidence \u201cwould not have been sufficiently credible or probative to call into question the tactical decision of Mr. Slick to focus on the penalty phase of the trial.\u201d But the supportability of counsel\u2019s tactical decision is not the standard. To make a Frierson claim, the petitioner need not show trial counsel acted incompetently in failing to present a defense; indeed, this court in Frierson noted counsel there \u201cmay well have had sound reasons\u201d for his strategic choice. (Frierson, supra, 39 Cal.3d at p. 814.) Rather, a Frierson claim requires only that the defense have been supported by \u201csome credible evidence\u201d (id. at p. 812), evidence that was not so weak that \u201cno competent counsel would rely\u201d on it (id. at p. 815, fn. 3).\nAt the reference hearing, Slick testified he thought alibi evidence would not be credited in light of the full confession petitioner had made to police. Slick also observed that he would have been hampered in any attempt to attack the confession as fabricated by petitioner\u2019s general disinclination to take the stand. Without petitioner\u2019s testimony and with no evidence of a motive for detectives to have fabricated a confession from petitioner, Slick believed, he could not effectively challenge the confession.\nI agree the strong evidence of petitioner\u2019s guilt, prominently including his confession, made an acquittal unlikely even if Slick had presented a defense at the guilt phase. Frierson itself did not expressly consider the strength of the prosecution case in concluding that credible evidence existed to support a diminished-capacity defense. (See Frierson, supra, 39 Cal.3d at pp. 814\u2014815.) But even assuming it is relevant, the strong prosecution evidence against petitioner does not warrant a conclusion that \u201cno competent counsel\u201d {id. at p. 815, fn. 3) would have presented a guilt phase defense in this case. The confession was not recorded and, according to the police witnesses, petitioner recanted it within a few days of making it, facts Slick could have used to argue the confession was, if not fabricated, then partly or wholly false. (See People v. Burton, supra, 48 Cal.3d at p. 851.) Even if, as was very likely, petitioner was nonetheless convicted, Slick would have been in a reasonable position to argue at the penalty phase for residual or lingering doubt as a factor in mitigation. That the choice not to present a guilt phase defense may have been a competent one does not mean the choice to present a defense would have been incompetent.\nFor the reasons explained above, I would grant the petition for writ of habeas corpus on the ground that petitioner was denied his right to present a defense at the guilt phase trial.\nMoreno, J., concurred.\nThe majority (maj. opn., ante, at p. 213) cites People v. Bradford (1997) 15 Cal.4th 1229, 1332 [65 Cal.Rptr.2d 145, 939 P.2d 259], as holding that Frierson applies only in the case of an \u201cexpress\u201d conflict between the defendant and his or her attorney. Both the discussion in Bradford and the footnote in Frierson on which it draws (Frierson, supra, 39 Cal.3d at p. 818, fn. 8), however, concern the trial court\u2019s obligation to inquire or advise the defendant regarding his or her right to testify or to put on a defense, not counsel\u2019s obligation to refrain from overriding a decision by the defendant that has been clearly conveyed to counsel. (See People v. Burton (1989) 48 Cal.3d 843, 858 [258 Cal.Rptr. 184, 771 P.2d 1270] [\u201cIndeed, in Frierson itself we emphasized that in the absence of an explicit indication of a conflict over whether to present a defense, the court has no duty to inquire into the defendant\u2019s concurrence with his attorney\u2019s actions\u201d].)\nAccording to Kleinbauer\u2019s uncontradicted account, she (relying on advice from an attorney with whom she was acquainted) had recommended a motion for self-representation as the best way for petitioner to get the court\u2019s attention for his complaints about Slick\u2019s approach to the case.\nSlick\u2019s testimony, on questioning by petitioner\u2019s attorney, was as follows: \u201cQ: Did you tell petitioner at any point in time that you were not going to call any witnesses at the guilt phase? [ID A: I\u2019m sure I did. [1] Q: Okay. And, again, we don\u2019t have any notes that would help us pin down the time, [ft] A: Correct, [ft] Q: And we don\u2019t know whether or not you told him this before or after the investigation by Ms. Kleinbauer was received? [ft] A: Correct. The topic, I\u2019m sure, came up more than one time. The topic was a\u2014was always there.\u201d (Italics added.)\n\u201cQ [by petitioner\u2019s attorney]: And did your assessment of the prosecution\u2019s case play a part in your decision not to put on any of the witnesses that are mentioned in the report. . . ? []\u25a1 A: Yes.\u201d\nThe link between these topics was apparently so strong that Slick sometimes conflated them. Asked by petitioner\u2019s attorney to recall petitioner\u2019s \u201creaction ... to your informing him of your intending not to call witnesses or put on a guilt-phase defense,\u201d Slick answered he recalled only petitioner\u2019s \u201creaction ... in general during the entire time I represented him.\u201d Following up, the attorney asked Slick to describe petitioner\u2019s \u201cresponse to your defense during the whole time you represented him.\u201d Slick answered by recounting his having told petitioner that they were \u201cgoing to lose\u201d the guilt trial and petitioner having reacted negatively.\n\u201cThe Court [Referee]: You indicated that your assessment of the case in 1983, as best as you can reconstruct it, was that the People had a strong case. [][] The Witness: Yes. [][] The Court: And for that reason, you decided that the strategic choice that would best suit your client, Mr. Burton, would be to put on a defense at the penalty phase instead of the guilt phase. [$ The Witness: Yes.\u201d\nFaretta v. California (1975) 422 U.S. 806 [45 L.Ed.2d 562, 95 S.Ct. 2525],\nIn these respects, Slick\u2019s performance was of a piece with his representation of other capital and noncapital murder defendants, which has been deemed incompetent in several cases. Representing Robert Paul Wilson on capital murder charges, Slick failed to object to admission of conversations with a government agent that constituted \u201cthe strongest evidence\u201d against Wilson. (In re Wilson (1992) 3 Cal.4th 945, 957 [13 Cal.Rptr.2d 269, 838 P.2d 1222].) On habeas corpus, we determined that this failure \u201cwas not based on an informed and considered tactical determination but resulted instead from ignorance or an erroneous interpretation\u201d of precedent. (Id. at p. 955.) Representing Paul Tuilaepa on capital murder charges, Slick failed to present available evidence that an accomplice, rather than Tuilaepa, was the gunman and did not object to having his client shackled during trial. (People v. Tuilaepa (1992) 4 Cal.4th 569, 582-586 [15 Cal.Rptr.2d 382, 842 P.2d 1142]; Rohrlich, The Case of the Speedy Attorney, L.A. Times (Sept. 26, 1991) p. A1.) On automatic appeal, the majority in this court held only that Tuilaepa had not shown Slick\u2019s decision not to challenge his shackling was prejudicial (Tuilaepa, at pp. 583-584), but Justice Mosk added that \u201ccounsel\u2019s performance . . . failed to satisfy an objective standard of professional reasonableness\u201d (id. at p. 596 (conc. opn. of Mosk, J.)). Representing Robert Glover on noncapital murder charges, Slick gave his client what the trial court characterized as \u201ca shabby defense,\u201d in particular by failing to call available exculpatory witnesses. In an unpublished decision included in the present habeas corpus record, the Court of Appeal affirmed the trial court\u2019s grant of a new trial on grounds of Slick\u2019s ineffective assistance of counsel. These practices have, to Slick\u2019s critics at least, made his name virtually a byword for haste and indifference. (See Mintz, Lawyer Noted for Speedy Defense, S.J. Mercury News (Apr. 22, 2002) p. A12; Barbieri, Death Row Suicide Puts Trial Counsel on Spot, S.F. Recorder (July 22, 1992) p. 1; Rohrlich, The Case of the Speedy Attorney, L.A. Times, supra, at p. A1.)\nWhen Slick was asked how he could remember specifically that petitioner never said he wanted Slick to call the alibi witnesses Kleinbauer interviewed, when he was unable to recall other events even after his memory was refreshed with records, Slick responded, implausibly, that \u201cit\u2019s easier to remember something that didn\u2019t happen than something that did.\u201d\nIn that sense, petitioner did specify the \u201cparticular defense\u201d (maj. opn., ante, at p. 221) he wanted presented: noninvolvement in the killing, as opposed, for example, to self-defense, provocation, or lack of the alleged mental state.",
+        "type": "dissent",
+        "author": "WERDEGAR, J., Dissenting."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Marcia A. Morrissey and Lisa M. Romo, under appointments by the Supreme Court, for Petitioner Andre Burton.",
+      "Bill Lockyer, Attorney General, Robert R. Anderson, Chief Assistant Attorney General, Pamela C. Hamanaka, Assistant Attorney General, Sharlene A. Honnaka and Chung L. Mar, Deputy Attorneys General, for Respondent the People."
+    ],
+    "corrections": "",
+    "head_matter": "[No. S034725.\nDec. 18, 2006.]\nIn re ANDRE BURTON on Habeas Corpus.\nCounsel\nMarcia A. Morrissey and Lisa M. Romo, under appointments by the Supreme Court, for Petitioner Andre Burton.\nBill Lockyer, Attorney General, Robert R. Anderson, Chief Assistant Attorney General, Pamela C. Hamanaka, Assistant Attorney General, Sharlene A. Honnaka and Chung L. Mar, Deputy Attorneys General, for Respondent the People."
+  },
+  "file_name": "0205-01",
+  "first_page_order": 243,
+  "last_page_order": 276
+}

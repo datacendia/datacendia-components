@@ -1,0 +1,59 @@
+{
+  "id": 12210109,
+  "name": "Shaw v. Alabama",
+  "name_abbreviation": "Shaw v. Alabama",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-11079",
+  "first_page": "865",
+  "last_page": "865",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 865"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 70,
+    "ocr_confidence": 0.692,
+    "sha256": "f12d9058601f2b406c2a0fd0014432150635bdbc6682c0ef05cb097de4df3587",
+    "simhash": "1:03720116710ba044",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Shaw v. Alabama."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Ala. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-11079.\nShaw v. Alabama."
+  },
+  "file_name": "0865-15",
+  "first_page_order": 947,
+  "last_page_order": 947
+}

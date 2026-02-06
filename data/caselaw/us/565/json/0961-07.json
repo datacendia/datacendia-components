@@ -1,0 +1,59 @@
+{
+  "id": 12228921,
+  "name": "In re Peters",
+  "name_abbreviation": "In re Peters",
+  "decision_date": "2011-10-17",
+  "docket_number": "No. 11-5868",
+  "first_page": "961",
+  "last_page": "961",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 961"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 65,
+    "ocr_confidence": 0.654,
+    "sha256": "75e63be55c371454efdf178eb520737688d38c9f4e10d1f15798c5a2450932d3",
+    "simhash": "1:1d47067d3149b191",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Peters."
+    ],
+    "opinions": [
+      {
+        "text": "Petition for writ of mandamus denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5868.\nIn re Peters."
+  },
+  "file_name": "0961-07",
+  "first_page_order": 1043,
+  "last_page_order": 1043
+}

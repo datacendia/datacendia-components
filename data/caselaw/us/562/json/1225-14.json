@@ -1,0 +1,59 @@
+{
+  "id": 5931852,
+  "name": "Trease v. Florida et al.",
+  "name_abbreviation": "Trease v. Florida",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-7730",
+  "first_page": "1225",
+  "last_page": "1225",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1225"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.615,
+    "sha256": "e01cc1ad84c9bab939f48cb6fd1dc4ad8f5b13e226074408866e7c1ad4686a16",
+    "simhash": "1:747c1ed040789b32",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Trease v. Florida et al."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Fla. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7730.\nTrease v. Florida et al."
+  },
+  "file_name": "1225-14",
+  "first_page_order": 1247,
+  "last_page_order": 1247
+}

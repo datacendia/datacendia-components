@@ -1,0 +1,82 @@
+{
+  "id": 6016909,
+  "name": "Bishop v. Grievance Committee for the United States District Court for the Eastern District of New York",
+  "name_abbreviation": "Bishop v. Grievance Committee",
+  "decision_date": "2010-10-12",
+  "docket_number": "No. 10-5710",
+  "first_page": "957",
+  "last_page": "957",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 957"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "506 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11924825
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/506/0001-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 75,
+    "char_count": 611,
+    "ocr_confidence": 0.542,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.17199651408248126
+    },
+    "sha256": "8d3ad09f87544134bbb4c6fac5fb648b7f78a5612e5e06006dc9fc97e520261c",
+    "simhash": "1:652a5fce054ddfef",
+    "word_count": 102
+  },
+  "last_updated": "2024-02-27T22:51:28.129297+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bishop v. Grievance Committee for the United States District Court for the Eastern District of New York."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Motion of petitioner for leave to proceed in forma pauperis denied, and certiorari dismissed. See this Court\u2019s Rule 39.8. As petitioner has repeatedly abused this Court\u2019s process, the Clerk is directed not to accept any further petitions in noncriminal matters from petitioner unless the docketing fee required by Rule 38(a) is paid and the petition is submitted in compliance with Rule 33.1. See Martin v. District of Columbia Court of Appeals, 506 U. S. 1 (1992) (per curiam).",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5710.\nBishop v. Grievance Committee for the United States District Court for the Eastern District of New York."
+  },
+  "file_name": "0957-01",
+  "first_page_order": 979,
+  "last_page_order": 979
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5985373,
+  "name": "Lake v. United States",
+  "name_abbreviation": "Lake v. United States",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7756",
+  "first_page": "1160",
+  "last_page": "1160",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1160"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.575,
+    "sha256": "4e172e8ae36b14de89729345b6523132cdecdc7f1ee903b7660fcb4a390c3b49",
+    "simhash": "1:5409cd434a81b106",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lake v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7756.\nLake v. United States."
+  },
+  "file_name": "1160-13",
+  "first_page_order": 1182,
+  "last_page_order": 1182
+}

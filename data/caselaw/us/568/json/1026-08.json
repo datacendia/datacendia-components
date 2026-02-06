@@ -1,0 +1,59 @@
+{
+  "id": 12423974,
+  "name": "Tucker v. Commissioner of Internal Revenue",
+  "name_abbreviation": "Tucker v. Commissioner",
+  "decision_date": "2012-11-26",
+  "docket_number": "No. 12-49",
+  "first_page": "1026",
+  "last_page": "1026",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1026"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 91,
+    "ocr_confidence": 0.68,
+    "sha256": "5c32665942282ee29c995fadc465bbeb35e341b937ef9753a80e6bf2427c74f4",
+    "simhash": "1:c7c365e0063ee26f",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Tucker v. Commissioner of Internal Revenue."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. D. C. Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-49.\nTucker v. Commissioner of Internal Revenue."
+  },
+  "file_name": "1026-08",
+  "first_page_order": 1102,
+  "last_page_order": 1102
+}

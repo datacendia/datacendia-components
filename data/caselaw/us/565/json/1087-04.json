@@ -1,0 +1,59 @@
+{
+  "id": 12237611,
+  "name": "Flores-Santos v. United States",
+  "name_abbreviation": "Flores-Santos v. United States",
+  "decision_date": "2011-12-05",
+  "docket_number": "No. 11-7226",
+  "first_page": "1087",
+  "last_page": "1087",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1087"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 80,
+    "ocr_confidence": 0.709,
+    "sha256": "36b250cf6b780dd79004a642fc1c8f2e83707ea9730ea5680270e6c75e52cdf3",
+    "simhash": "1:068890038ba7903c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Flores-Santos v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7226.\nFlores-Santos v. United States."
+  },
+  "file_name": "1087-04",
+  "first_page_order": 1169,
+  "last_page_order": 1169
+}

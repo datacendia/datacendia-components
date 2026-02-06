@@ -1,0 +1,61 @@
+{
+  "id": 12427645,
+  "name": "Rudaj v. United States",
+  "name_abbreviation": "Rudaj v. United States",
+  "decision_date": "2012-12-10",
+  "docket_number": "No. 12-7073",
+  "first_page": "1076",
+  "last_page": "1076",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1076"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 26,
+    "char_count": 171,
+    "ocr_confidence": 0.584,
+    "sha256": "74845c2f04345e5078fb1e25dbeec806b4abd52b405a03e413044446081fb87f",
+    "simhash": "1:8921fa0a53fc5e58",
+    "word_count": 28
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Sotomayor and Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Rudaj v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Cer-tiorari denied.\nJustice Sotomayor and Justice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7073.\nRudaj v. United States."
+  },
+  "file_name": "1076-09",
+  "first_page_order": 1152,
+  "last_page_order": 1152
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12225720,
+  "name": "Wheeler v. United States",
+  "name_abbreviation": "Wheeler v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-6056",
+  "first_page": "928",
+  "last_page": "928",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 928"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.608,
+    "sha256": "08564acf0952e32b5aeec836f9f039b60a1e323e29fb23bd57fed838d8f364bd",
+    "simhash": "1:879ac2826e3e1c4a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wheeler v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6056.\nWheeler v. United States."
+  },
+  "file_name": "0928-02",
+  "first_page_order": 1010,
+  "last_page_order": 1010
+}

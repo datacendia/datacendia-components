@@ -1,0 +1,59 @@
+{
+  "id": 4334212,
+  "name": "Williams v. Hooks, Warden",
+  "name_abbreviation": "Williams v. Hooks",
+  "decision_date": "2011-06-27",
+  "docket_number": "No. 10-10187",
+  "first_page": "1042",
+  "last_page": "1042",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1042"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.613,
+    "sha256": "ef1bf5cf6d6d5ecd5d91110c58969be32a15ff65c2cdb9241d646dd650ab125c",
+    "simhash": "1:bec98e33c2bb9095",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Williams v. Hooks, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10187.\nWilliams v. Hooks, Warden."
+  },
+  "file_name": "1042-10",
+  "first_page_order": 1036,
+  "last_page_order": 1036
+}

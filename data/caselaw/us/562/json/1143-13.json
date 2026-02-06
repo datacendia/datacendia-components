@@ -1,0 +1,59 @@
+{
+  "id": 5998690,
+  "name": "Adams v. City of Federal Way, Washington, et al.",
+  "name_abbreviation": "Adams v. City of Federal Way",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7000",
+  "first_page": "1143",
+  "last_page": "1143",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1143"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 96,
+    "ocr_confidence": 0.563,
+    "sha256": "dd6dafed973c7ea075d6443a5f12948af547142851dbc9b5eb551f531583a999",
+    "simhash": "1:10e360a8490aa13e",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Adams v. City of Federal Way, Washington, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7000.\nAdams v. City of Federal Way, Washington, et al."
+  },
+  "file_name": "1143-13",
+  "first_page_order": 1165,
+  "last_page_order": 1165
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12418614,
+  "name": "Phillips v. United States et al.",
+  "name_abbreviation": "Phillips v. United States",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 12-5900",
+  "first_page": "952",
+  "last_page": "952",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 952"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 80,
+    "ocr_confidence": 0.673,
+    "sha256": "570e03b28d0a2ffdf9cc19ab08c3112e3f6f86b6e54c8dd86af6871f0981dd17",
+    "simhash": "1:154a74eb51b7c054",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Phillips v. United States et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5900.\nPhillips v. United States et al."
+  },
+  "file_name": "0952-07",
+  "first_page_order": 1028,
+  "last_page_order": 1028
+}

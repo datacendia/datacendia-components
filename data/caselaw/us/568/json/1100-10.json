@@ -1,0 +1,59 @@
+{
+  "id": 12428425,
+  "name": "Middleton v. Georgia",
+  "name_abbreviation": "Middleton v. Georgia",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-6933",
+  "first_page": "1100",
+  "last_page": "1100",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1100"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 68,
+    "ocr_confidence": 0.608,
+    "sha256": "f3afeca05068de19b9f27a46673f2b9ecc3bf6d4bc85b03fc8c1fa777241d925",
+    "simhash": "1:121a41b6784260a6",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Middleton v. Georgia."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Ga. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6933.\nMiddleton v. Georgia."
+  },
+  "file_name": "1100-10",
+  "first_page_order": 1176,
+  "last_page_order": 1176
+}

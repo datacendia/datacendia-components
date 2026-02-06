@@ -1,0 +1,922 @@
+{
+  "id": 12658628,
+  "name": "TEXAS ASSOCIATION OF BUSINESS; National Federation of Independent Business, American Staffing Association; LeadingEdge Personnel, Ltd. ; Staff Force, Inc.; HT Staffing Ltd. d/b/a The HT Group; The Burnett Companies Consolidated, Inc., d/b/a Burnett Specialists; Society for Human Resource Management; Texas State Council of The Society for Human Resource Management; Austin Human Resource Management Association ; Strickland School, LLC ; and The State of Texas, Appellants, City of Austin, Texas; and Spencer Cronk, City Manager of The City of Austin, Cross-Appellants. v. CITY OF AUSTIN, TEXAS; Steve Adler, Mayor of The City of Austin; and Spencer Cronk, City Manager of The City of Austin, Appellees, Texas Association of Business; National Federation of Independent Business, American Staffing Association; Leading Edge Personnel, Ltd.; Staff Force, Inc.; HT Staffing Ltd. d/b/a The HT Group; The Burnett Companies Consolidated, Inc., d/b/a Burnett Specialists; Society for Human Resource Management; Texas State Council of The Society for Human Resource Management; Austin Human Resource Management Association ; Strickland School, LLC ; and The State of Texas, Cross-Appellees.",
+  "name_abbreviation": "Tex. Ass'n of Bus. v. City of Austin",
+  "decision_date": "2018-11-16",
+  "docket_number": "NO. 03-18-00445-CV",
+  "first_page": "425",
+  "last_page": "442",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 S.W.3d 425"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex. App. Ct.",
+    "id": 30135,
+    "name": "Court of Appeals of Texas, Austin"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "29 U.S.C. \u00a7\u00a7 206",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)",
+          "parenthetical": "setting minimum wage for enterprises \"engage[d] in commerce\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "138 S.Ct. 2305",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12612979
+      ],
+      "weight": 2,
+      "year": 2018,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/2305-01"
+      ]
+    },
+    {
+      "cite": "356 S.W.3d 407",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7316935
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "411",
+          "parenthetical": "\"The plain meaning of the text is the best expression of legislative intent unless a different meaning is apparent from the context or the plain meaning leads to absurd or nonsensical results.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/356/0407-01"
+      ]
+    },
+    {
+      "cite": "496 S.W.3d 1",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6772986
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "7",
+          "parenthetical": "citing Tex. Loc. Gov't Code \u00a7 51.072(a) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/496/0001-01"
+      ]
+    },
+    {
+      "cite": "571 S.W.2d 859",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9952525
+      ],
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "861-62"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/571/0859-01"
+      ]
+    },
+    {
+      "cite": "827 S.W.2d 833",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9988524
+      ],
+      "weight": 2,
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "840",
+          "parenthetical": "orig. proceeding"
+        },
+        {
+          "page": "840",
+          "parenthetical": "observing that a court has no \"discretion\" to misinterpret or misapply the law"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/827/0833-01"
+      ]
+    },
+    {
+      "cite": "358 S.W.2d 589",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10168209,
+        2263575
+      ],
+      "year": 1962,
+      "pin_cites": [
+        {
+          "page": "589"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/358/0589-01",
+        "/tex/163/0616-01"
+      ]
+    },
+    {
+      "cite": "163 Tex. 616",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2263575
+      ],
+      "year": 1962,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/163/0616-01"
+      ]
+    },
+    {
+      "cite": "146 S.W.3d 648",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9152729
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "651",
+          "parenthetical": "orig. proceeding"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/146/0648-01"
+      ]
+    },
+    {
+      "cite": "84 S.W.3d 198",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        11394696
+      ],
+      "weight": 10,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "204"
+        },
+        {
+          "page": "204"
+        },
+        {
+          "page": "204"
+        },
+        {
+          "page": "204"
+        },
+        {
+          "page": "204"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/84/0198-01"
+      ]
+    },
+    {
+      "cite": "869 S.W.2d 941",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10021954
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "943-44",
+          "parenthetical": "to overcome general prohibition against civil challenge to penal statute, litigant must allege that penal statute is unconstitutional and \"threatens irreparable injury to vested property rights\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/869/0941-01"
+      ]
+    },
+    {
+      "cite": "135 S.Ct. 2443",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12590955
+      ],
+      "weight": 2,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "2453",
+          "parenthetical": "\"The Court has held that absent consent, exigent circumstances, or the like, in order for an administrative search to be constitutional, the subject of the search must be afforded an opportunity to obtain precompliance review before a neutral decisionmaker.\""
+        },
+        {
+          "parenthetical": "\"The Court has held that absent consent, exigent circumstances, or the like, in order for an administrative search to be constitutional, the subject of the search must be afforded an opportunity to obtain precompliance review before a neutral decisionmaker.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/135/2443-01"
+      ]
+    },
+    {
+      "cite": "505 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1481159
+      ],
+      "weight": 3,
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "10"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/505/0001-01"
+      ]
+    },
+    {
+      "cite": "258 S.W.3d 627",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8178703
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "639",
+          "parenthetical": "\"[U]nless a classification 'jeopardizes exercise of a fundamental right or categorizes on the basis of an inherently suspect characteristic,' the law will be upheld as long as it is rationally related to a legitimate state interest.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/258/0627-01"
+      ]
+    },
+    {
+      "cite": "469 S.W.3d 69",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6839420
+      ],
+      "weight": 2,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "87",
+          "parenthetical": "establishing standard for as-applied challenge to economic regulation under due-course-of-law provision"
+        },
+        {
+          "page": "87"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/469/0069-01"
+      ]
+    },
+    {
+      "cite": "345 S.W.3d 1",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7317336
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "11",
+          "parenthetical": "sovereign immunity retained unless plaintiff has pleaded viable claim of violation of constitutional right"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/345/0001-01"
+      ]
+    },
+    {
+      "cite": "555 S.W.3d 54",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12657478
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "61-68",
+          "parenthetical": "affirming dismissal of constitutional claim on sovereign-immunity grounds where parties asserting a claimant lacked vested property rights"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/555/0054-01"
+      ]
+    },
+    {
+      "cite": "375 S.W.3d 464",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7125102
+      ],
+      "pin_cites": [
+        {
+          "page": "473"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/375/0464-01"
+      ]
+    },
+    {
+      "cite": "506 S.W.3d 607",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12178358
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/506/0607-01"
+      ]
+    },
+    {
+      "cite": "355 S.W.3d 618",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7317761
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "622",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/355/0618-01"
+      ]
+    },
+    {
+      "cite": "271 S.W.3d 238",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8162311
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "256",
+          "parenthetical": "\"The Court must not interpret the statute in a manner that renders any part of the statute meaningless or superfluous.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/271/0238-01"
+      ]
+    },
+    {
+      "cite": "325 S.W.3d 628",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7322096
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "635",
+          "parenthetical": "\"We presume the Legislature selected language in a statute with care and that every word or phrase was used with a purpose in mind.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/325/0628-01"
+      ]
+    },
+    {
+      "cite": "46 S.W.3d 857",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        11093917
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "859-61"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/46/0857-01"
+      ]
+    },
+    {
+      "cite": "157 S.W.3d 911",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9183666
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "915"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/157/0911-01"
+      ]
+    },
+    {
+      "cite": "521 U.S. 811",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        915902
+      ],
+      "weight": 3,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "818",
+          "parenthetical": "\"The standing inquiry focuses on whether the plaintiff is the proper party to bring this suit, ... although that inquiry 'often turns on the nature and source of the claim asserted' ....\""
+        },
+        {
+          "parenthetical": "\"The standing inquiry focuses on whether the plaintiff is the proper party to bring this suit, ... although that inquiry 'often turns on the nature and source of the claim asserted' ....\""
+        },
+        {
+          "parenthetical": "\"The standing inquiry focuses on whether the plaintiff is the proper party to bring this suit, ... although that inquiry 'often turns on the nature and source of the claim asserted' ....\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/521/0811-01"
+      ]
+    },
+    {
+      "cite": "550 S.W.3d 586",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12656914
+      ],
+      "weight": 11,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "590",
+          "parenthetical": "considering and resolving constitutional preemption challenge to city ordinance where suit was filed before ordinance's effective date"
+        },
+        {
+          "page": "593-94",
+          "parenthetical": "discussing review of challenged ordinance"
+        },
+        {
+          "page": "592"
+        },
+        {
+          "page": "592"
+        },
+        {
+          "parenthetical": "cleaned up"
+        },
+        {
+          "parenthetical": "cleaned up"
+        },
+        {
+          "page": "594",
+          "parenthetical": "\"To decide [preemption issue], we look, as usual, to the statutory text and the ordinary meaning of words.\""
+        },
+        {
+          "page": "593",
+          "parenthetical": "discussing constitutional prohibition against ordinances that are inconsistent with constitution or state law-i.e., preemption-and noting that Legislature has authority to preempt local laws"
+        },
+        {
+          "page": "593"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/550/0586-01"
+      ]
+    },
+    {
+      "cite": "485 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        13427
+      ],
+      "weight": 5,
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "7-8",
+          "parenthetical": "to have standing to challenge a statute, a plaintiff \"must demonstrate a realistic danger of sustaining a direct injury as a result of the statute's operation or enforcement\""
+        },
+        {
+          "parenthetical": "to have standing to challenge a statute, a plaintiff \"must demonstrate a realistic danger of sustaining a direct injury as a result of the statute's operation or enforcement\""
+        },
+        {
+          "parenthetical": "to have standing to challenge a statute, a plaintiff \"must demonstrate a realistic danger of sustaining a direct injury as a result of the statute's operation or enforcement\""
+        },
+        {
+          "page": "7-8"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/485/0001-01"
+      ]
+    },
+    {
+      "cite": "893 S.W.2d 504",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10007586
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "517-18",
+          "parenthetical": "discussing the related concept of standing and citing Pennell v. City of San Jose , 485 U.S. 1, 7-8, 108 S.Ct. 849, 99 L.Ed.2d 1 (1988"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/893/0504-01"
+      ]
+    },
+    {
+      "cite": "42 L.Ed.2d 320",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "year": 1974,
+      "opinion_index": 0
+    },
+    {
+      "cite": "95 S.Ct. 335",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "year": 1974,
+      "opinion_index": 0
+    },
+    {
+      "cite": "419 U.S. 102",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6173696
+      ],
+      "year": 1974,
+      "pin_cites": [
+        {
+          "page": "140"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/419/0102-01"
+      ]
+    },
+    {
+      "cite": "66 S.W.3d 239",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9392511
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "249-51",
+          "parenthetical": "quoting Regional Rail Reorganization Act Cases , 419 U.S. 102, 140, 95 S.Ct. 335, 42 L.Ed.2d 320 (1974) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/66/0239-01"
+      ]
+    },
+    {
+      "cite": "640 S.W.2d 778",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9950725
+      ],
+      "pin_cites": [
+        {
+          "page": "779-80"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/640/0778-01"
+      ]
+    },
+    {
+      "cite": "907 S.W.2d 465",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10011575
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "467",
+          "parenthetical": "quoting Bexar-Medina-Atascosa Ctys. Water Control & Improvement Dist. No. 1 v. Medina Lake Prot. Ass'n , 640 S.W.2d 778, 779-80 (Tex. App.-San Antonio 1982, writ ref'd n.r.e) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/907/0465-01"
+      ]
+    },
+    {
+      "cite": "971 S.W.2d 439",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        11812395
+      ],
+      "weight": 4,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "442-43",
+          "parenthetical": "observing that ripeness and other justiciability doctrines derive in part from separation-of-powers principles and the constitutional prohibition against advisory opinions"
+        },
+        {
+          "page": "442"
+        },
+        {
+          "page": "442"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/971/0439-01"
+      ]
+    },
+    {
+      "cite": "80 S.W.3d 549",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        11446647
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "555"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/80/0549-01"
+      ]
+    },
+    {
+      "cite": "74 S.W.3d 849",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9436977
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "855"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/74/0849-01"
+      ]
+    },
+    {
+      "cite": "133 S.W.3d 217",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9256802
+      ],
+      "weight": 12,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "226-28"
+        },
+        {
+          "page": "226"
+        },
+        {
+          "page": "226-27"
+        },
+        {
+          "page": "226",
+          "parenthetical": "directing that, in considering plea to jurisdiction, we construe pleadings liberally in favor of plaintiffs, look to pleaders' intent, and accept as true factual allegations in pleadings"
+        },
+        {
+          "page": "226-27",
+          "parenthetical": "holding that in review of plea to jurisdiction challenging the pleadings, courts must determine whether pleader alleged facts affirmatively demonstrating trial court's subject-matter jurisdiction"
+        },
+        {
+          "page": "226-27"
+        },
+        {
+          "page": "226-27"
+        },
+        {
+          "page": "226-27"
+        },
+        {
+          "parenthetical": "\"If the pleadings do not contain sufficient facts to affirmatively demonstrate the trial court[']s jurisdiction but do not affirmatively demonstrate incurable defects in jurisdiction, the issue is one of pleading sufficiency and the plaintiffs should be afforded the opportunity to amend.\""
+        },
+        {
+          "page": "226-27"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/133/0217-01"
+      ]
+    },
+    {
+      "cite": "284 S.W.3d 839",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7303723
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "840",
+          "parenthetical": "noting that jurisdictional questions must be addressed before merits"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/284/0839-01"
+      ]
+    },
+    {
+      "cite": "95 L.Ed.2d 697",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        6222105,
+        1148012
+      ],
+      "year": 1987,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/481/0739-01",
+        "/us/341/0001-01"
+      ]
+    },
+    {
+      "cite": "481 U.S. 739",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6222105
+      ],
+      "weight": 2,
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "745"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/481/0739-01"
+      ]
+    },
+    {
+      "cite": "445 S.W.3d 698",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6909449
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "702",
+          "parenthetical": "\"A facial challenge claims that a statute, by its terms, always operates unconstitutionally.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/445/0698-01"
+      ]
+    },
+    {
+      "cite": "2018 WL 3967045",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "pin_cites": [
+        {
+          "page": "*1"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1545,
+    "char_count": 45823,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2649671853455549
+    },
+    "sha256": "113fde69b990fc87b63bc12f415d064af8eecfd8082a368d98073b05bc1b0349",
+    "simhash": "1:1b68e25360cd53a5",
+    "word_count": 7181
+  },
+  "last_updated": "2024-02-27T18:26:05.439767+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Chief Justice Rose, Justices Puryear and Field OPINION"
+    ],
+    "parties": [
+      "TEXAS ASSOCIATION OF BUSINESS; National Federation of Independent Business, American Staffing Association; LeadingEdge Personnel, Ltd. ; Staff Force, Inc.; HT Staffing Ltd. d/b/a The HT Group; The Burnett Companies Consolidated, Inc., d/b/a Burnett Specialists; Society for Human Resource Management; Texas State Council of The Society for Human Resource Management; Austin Human Resource Management Association ; Strickland School, LLC ; and The State of Texas, Appellants, City of Austin, Texas; and Spencer Cronk, City Manager of The City of Austin, Cross-Appellants.\nv.\nCITY OF AUSTIN, TEXAS; Steve Adler, Mayor of The City of Austin; and Spencer Cronk, City Manager of The City of Austin, Appellees, Texas Association of Business; National Federation of Independent Business, American Staffing Association; Leading Edge Personnel, Ltd.; Staff Force, Inc.; HT Staffing Ltd. d/b/a The HT Group; The Burnett Companies Consolidated, Inc., d/b/a Burnett Specialists; Society for Human Resource Management; Texas State Council of The Society for Human Resource Management; Austin Human Resource Management Association ; Strickland School, LLC ; and The State of Texas, Cross-Appellees."
+    ],
+    "opinions": [
+      {
+        "text": "Jeff Rose, Chief Justice\nThis is an interlocutory appeal from district court orders in a suit challenging the City of Austin's paid-sick-leave ordinance. The Texas Association of Business, et al. (collectively, the \"Private Parties\"), and later the State of Texas as intervenor, sued the City of Austin and its city manager, Spencer Cronk (collectively, the \"City\"), asserting that the paid-sick-leave ordinance is unconstitutional and seeking temporary and permanent injunctive relief. The City challenged the district court's jurisdiction, arguing that the claims against it are neither ripe nor viable and that the State lacks standing to intervene. The district court denied both the application for a temporary injunction and the City's jurisdictional challenges. Based on our determination that the district court has jurisdiction over the claims asserted against the City and our holding that the City's paid-sick-leave ordinance violates the Texas Constitution because it is preempted by The Texas Minimum Wage Act, we will reverse and remand for issuance of the requested temporary injunction and for further proceedings consistent with this opinion.\nBackground\nIn February 2018, the City of Austin enacted an ordinance that would, stated generally, require private employers to provide paid sick leave to their employees. See Austin, Tex. Ordinance No. 20180215-049 (Ordinance). Under the Ordinance, Austin employers must \"grant an employee one hour of earned sick time for every 30 hours worked.\" Id. \u00a7 4-19-2(A). The sick leave accrues as soon as the employee begins working and must be made available for use either immediately or after 60 days of employment, depending on certain circumstances of employment. See id. \u00a7 4-19-2(B-D). An employer must pay the \"earned sick leave in an amount equal to what the employee would have earned if the employee had worked.\" Id. \u00a7 4-19-2(J). The Ordinance caps the sick leave an employee may accrue at either 48 or 64 hours per year, depending on the employer's size. See id. \u00a7 4-19-2(F-G). The Ordinance purports to give the City the authority to subpoena employers' records for compliance purposes, see id. \u00a7 4-19-7(a), and employers that violate the Ordinance face civil and criminal penalties, see id. \u00a7\u00a7 4-19-6(C)(1) (up to $500 fine for each violation), 4-19-7(B) (Class C misdemeanor). The Ordinance was scheduled to take effect on October 1, 2018, but this Court granted a temporary stay pending resolution of this appeal. See Texas Ass'n of Bus. v. City of Austin , No. 03-18-445-CV, 2018 WL 3967045, at *1 (Tex. App.-Austin Aug. 17, 2018, no pet.) (mem. op.).\nThe Private Parties-five companies with Austin employees and six business associations-filed a declaratory-judgment action against the City asserting that the Ordinance was facially unconstitutional-i.e., that the Ordinance, by its terms, always operates unconstitutionally-because it is preempted by the Texas Minimum Wage Act (sometimes TMWA), and because it violates the Texas Constitution's due-course-of-law, equal-protection, association, and warrantless-search clauses. See Tex. Const. arts. XI, \u00a7 5 (mandating that no city ordinance \"shall contain any provision inconsistent with the Constitution of the State, or of the general laws enacted by the Legislature of this State\"); \u00a7 3 (guaranteeing equal rights to all), 9 (prohibiting \"unreasonable searches or seizures\"), \u00a7 19 (prohibiting deprivation of \"life, liberty, property, privileges or immunities ... except by the due course of the law\"), \u00a7 27 (guaranteeing \"right, in peaceable manner, to assemble together for their common good\"); Tex. Labor Code \u00a7\u00a7 62.001 -.205 (the TMWA); see also Tenet Hosps. Ltd. v. Rivera , 445 S.W.3d 698, 702 (Tex. 2014) (\"A facial challenge claims that a statute, by its terms, always operates unconstitutionally.\") (citing United States v. Salerno , 481 U.S. 739, 745, 107 S.Ct. 2095, 95 L.Ed.2d 697 (1987) ). As relief, the Private Parties sought temporary and permanent injunctions prohibiting the City from enforcing the Ordinance.\nThe State intervened in the Private Parties' suit, asserting only a preemption claim. As relief, the State asked for a declaration that the Ordinance is preempted by the TMWA and a permanent injunction against the Ordinance's enforcement. The State also joined the Private Parties' application for a temporary injunction.\nThe City responded by filing, among other pleadings, a plea to the jurisdiction as to the Private Parties and a motion to strike the State's intervention. In support of its plea to the jurisdiction, the City asserted that the Private Parties lacked standing and that their claims were not ripe for adjudication because they had not yet suffered any injury from an Ordinance that was not yet in effect. The City also argued that governmental immunity barred the Private Parties' claims because the claims were not viable as a matter of law. Specifically, the City argued that the preemption claim is invalid because the Ordinance is consistent with minimum-wage laws. Similarly, in its motion to strike the State's intervention, the City argued that the State lacked standing and that its claims were not yet ripe for adjudication because the State had not suffered an injury. The City also argued that the State's preemption claim was not viable as a matter of law because the Ordinance did not conflict with the TMWA and, thus, was barred by governmental immunity.\nAfter a hearing on the competing motions, the district court denied the application for temporary injunction. It is from this interlocutory order that the Private Parties and the State now appeal. The district court also denied the City's plea to the jurisdiction and motion to strike, and the City cross-appeals from these interlocutory orders.\nThe City's Cross-Appeal\nWe begin, as we must, with the City's cross-appeal because it challenges the district court's subject-matter jurisdiction. See Crites v. Collins , 284 S.W.3d 839, 840 (Tex. 2009) (noting that jurisdictional questions must be addressed before merits). In its first cross-issue, the City argues that it was error for the district court to deny its plea to the jurisdiction because the Private Parties' claims are not ripe for adjudication and because the Private Parties pleaded facially invalid claims that are, as a result, barred by governmental immunity. In its second cross-issue, the City challenges the district court's failure to grant its motion to strike the State's intervention, arguing that the State's preemption claim, like the Private Parties' preemption claim, is not viable and that, even if it were, the State lacks standing to join in the Private Parties' claim.\nStandard of review\nWhether a trial court has subject-matter jurisdiction is a matter of law that we review de novo. See Texas Dep't of Parks & Wildlife v. Miranda , 133 S.W.3d 217, 226-28 (Tex. 2004) ; Texas Nat. Res. Conservation Comm'n v. IT-Davy , 74 S.W.3d 849, 855 (Tex. 2002). In performing this review, an appellate court does not look to the merits of the case, but considers only the pleadings and evidence relevant to the jurisdictional inquiry.\nSee Miranda , 133 S.W.3d at 227 ; County of Cameron v. Brown , 80 S.W.3d 549, 555 (Tex. 2002). When a plea to the jurisdiction challenges the pleadings, as it does here, the trial court must construe the pleadings liberally in favor of the pleader. Miranda , 133 S.W.3d at 226. If the pleadings do not allege facts sufficient to affirmatively demonstrate jurisdiction, but the pleading defects are curable by amendment, the issue is one of pleading sufficiency and the pleader should be afforded an opportunity to amend. Id. at 226-27.\nRipeness of Private Parties' claims\nThe Private Parties have raised facial challenges to the Ordinance's constitutionality, arguing specifically that the Ordinance is preempted by the TMWA; that it violates the due-course-of-law, equal-protection, and association clauses; and that it constitutes a unconstitutional warrantless search. On cross-appeal, the City argues that because the Ordinance has not yet gone into effect, the Private Parties' claims are not ripe. We disagree.\nRipeness is an aspect of the justiciable controversy that is required before the judicial branch is constitutionally empowered to resolve a dispute. See Patterson v. Planned Parenthood of Hous. & Se. Tex., Inc. , 971 S.W.2d 439, 442-43 (Tex. 1998) (observing that ripeness and other justiciability doctrines derive in part from separation-of-powers principles and the constitutional prohibition against advisory opinions). \"To constitute a justiciable controversy, there must exist a real and substantial controversy involving genuine conflict of tangible interests and not merely a theoretical dispute.\" Bonham State Bank v. Beadle , 907 S.W.2d 465, 467 (Tex. 1995) (quoting Bexar-Medina-Atascosa Ctys. Water Control & Improvement Dist. No. 1 v. Medina Lake Prot. Ass'n , 640 S.W.2d 778, 779-80 (Tex. App.-San Antonio 1982, writ ref'd n.r.e) ). Ripeness is \"peculiarly a question of timing\"-specifically, whether the facts have developed sufficiently that a plaintiff has incurred or is likely to incur a concrete injury. Perry v. Del Rio , 66 S.W.3d 239, 249-51 (Tex. 2001) (quoting Regional Rail Reorganization Act Cases , 419 U.S. 102, 140, 95 S.Ct. 335, 42 L.Ed.2d 320 (1974) ). Ripeness is thus said to be lacking where the case involves \"uncertain or contingent future events that may not occur as anticipated, or indeed may not occur at all.\" Patterson , 971 S.W.2d at 442 (quoting 13A Charles A. Wright et al., Federal Practice & Procedure \u00a7 3532, at 112 (2d ed. 1984) ). A justiciable interest in an ordinance requires \"some actual or threatened restriction under that statute.\" Texas Workers' Comp. Comm'n v. Garcia , 893 S.W.2d 504, 517-18 (Tex. 1995) (discussing the related concept of standing and citing Pennell v. City of San Jose , 485 U.S. 1, 7-8, 108 S.Ct. 849, 99 L.Ed.2d 1 (1988) (to have standing to challenge a statute, a plaintiff \"must demonstrate a realistic danger of sustaining a direct injury as a result of the statute's operation or enforcement\") ).\nA justiciable controversy exists in this case. The Private Parties allege that Austin's City Council has passed an Ordinance, that the Ordinance imposes paid-sick-leave requirements on certain employers in Austin, and that the Private Parties include Austin employers that will be subject to the terms of the Ordinance. Accepting the truth of these statements, which the City does not dispute, the Private Parties would be required by law to grant their employees paid sick leave as specified by the Ordinance immediately upon its effectiveness, and the City would likely enforce the Ordinance against the Private Parties. See Miranda , 133 S.W.3d at 226 (directing that, in considering plea to jurisdiction, we construe pleadings liberally in favor of plaintiffs, look to pleaders' intent, and accept as true factual allegations in pleadings). The likelihood of the Ordinance being enforced once effective, along with the probability that the Private Parties would comply by granting paid sick leave to their employees, is a sufficient threat of actual injury to satisfy the justiciability requirement for challenging a statute or ordinance-i.e., demonstration of a realistic danger of sustaining a direct injury as a result of the statute's operation or enforcement. See Pennell , 485 U.S. at 7-8, 108 S.Ct. 849 (concluding that plaintiff's pleadings established that members would likely be harmed by operation and enforcement of ordinance); see also City of Laredo v. Laredo Merchants Ass'n , 550 S.W.3d 586, 590 (Tex. 2018) (considering and resolving constitutional preemption challenge to city ordinance where suit was filed before ordinance's effective date). Accordingly, we hold that the claims are ripe for adjudication.\nState's standing\nThe State intervened in the Private Parties' suit to claim that the Ordinance is unconstitutional because it is preempted by the Texas Minimum Wage Act. On cross-appeal, the City contends that the district court lacked jurisdiction over the State's suit because the State lacks standing to sue the City on this issue. We disagree.\nStanding, like ripeness, is a threshold issue that implicates subject-matter jurisdiction and, like ripeness, emphasizes the need for a concrete injury for a justiciable claim to be presented. See Patterson , 971 S.W.2d at 442. Unlike ripeness, which examines when an action may be brought, standing focuses on the question of who may bring an action. See id. ; see also Raines v. Byrd , 521 U.S. 811, 818, 117 S.Ct. 2312, 138 L.Ed.2d 849 (1997) (\"The standing inquiry focuses on whether the plaintiff is the proper party to bring this suit, ... although that inquiry 'often turns on the nature and source of the claim asserted' ....\"). Judge-made criteria regarding standing do not apply when, as here, the Texas Legislature has conferred standing through statute. See In re Sullivan , 157 S.W.3d 911, 915 (Tex. App.-Houston [14th Dist.] 2005, orig. proceeding) (examining standing conferred by Family Code). In statutory-standing cases, the analysis is a straight statutory construction of the relevant statute to determine upon whom the Texas Legislature conferred standing. Id. (citing Texas Dep't of Protective & Regulatory Servs. v. Sherry , 46 S.W.3d 857, 859-61 (Tex. 2001) ).\nThe State asserts that the plain language of the UDJA entitles it to intervene in the Private Parties' declaratory-judgment action:\nIn any proceeding that involves the validity of a municipal ordinance or franchise, the municipality must be made a party and is entitled to be heard, and if the statute, ordinance , or franchise is alleged to be unconstitutional , the attorney general of the state must also be served with a copy of the proceeding and is entitled to be heard.\nTex. Civ. Prac. & Rem. Code \u00a7 37.006(b) (emphases added). There is no dispute that the Private Parties' suit \"involves the validity of a municipal ordinance\"-it asserts that the Ordinance is invalid because it is preempted by the TMWA-and that the Private Parties' pleadings allege that the Ordinance is unconstitutional on various grounds, including preemption. Thus, as even the City concedes, the State, through the attorney general, is \"entitled to be heard\" in this proceeding.\nEven so, the City argues that \"entitled to be heard\" does not grant the State standing to intervene is such cases, but instead allows the State to file an amicus brief. But anyone who follows the applicable procedural rules can file an amicus brief with a court. See Tex. R. App. P. 11 (requirements for submitting amicus brief to appellate court). To that extent, the City's proposed construction renders the phrase \"entitled to be heard\" meaningless. See Texas Lottery Comm'n v. First State Bank of DeQueen , 325 S.W.3d 628, 635 (Tex. 2010) (\"We presume the Legislature selected language in a statute with care and that every word or phrase was used with a purpose in mind.\"); Columbia Med. Ctr. of Los Colinas, Inc. v. Hogue , 271 S.W.3d 238, 256 (Tex. 2008) (\"The Court must not interpret the statute in a manner that renders any part of the statute meaningless or superfluous.\"). More importantly, however, when used in a legal context as it is here, the word \"heard\" does not simply mean \"to [be] listen[ed] to and consider[ed],\" American Heritage Dictionary of the English Language 810 (5th ed. 2011) (defining \"hear\"), it suggests the ability to appear in court and present evidence and argument-i.e., to be a party, see, e.g. , Black's Law Dictionary 481, 836 1267, 1398, 1625, 1736 (10th ed. 2014) (defining \"day in court\" as \"right and opportunity, in a judicial tribunal, to litigate a claim, seek relief, or defend one's rights ... [and the] right to be notified and given an opportunity to appear and be heard when one's case is called\"; defining \"heard and determined\" as \"(of a case) having been presented to a court that rendered judgment\"; defining \"ex parte trial,\" under entry \"proceeding,\" as \"trial in which only one side of the case is heard, usu. because the opposing party is not present\"; defining \"opportunity to be heard\" as \"chance to appear in a court or other tribunal and present evidence and argument before being deprived of a right by governmental authority\"; in definition of \"standing\" referencing \"no authority that I have found introduces the term [standing] with proper explanations and apologies and announces that henceforth standing should be used to describe who may be heard by a judge\" (quoting Joseph Vining, Legal Identity 55 (1978) ); defining \"ex parte proceeding,\" under \"trial\" entry, as \"proceeding in which not all parties are present or given the opportunity to be heard\"). And consistent with this notion, courts have consistently understood the State's \"entitle[ment] to be heard\" to mean the right to intervene in the litigation as a party. See Texas Dep't of Trans. v. Sefzik , 355 S.W.3d 618, 622 (Tex. 2011) (per curiam) (citing section 37.006(b) for proposition that \"the state may be a proper party to a declaratory judgment action that challenges the validity of a statute\"); City of Austin v. Travis Cent. Appraisal Dist. , 506 S.W.3d 607, 612 n.3 (Tex. App.-Austin 2016, no pet.) (State intervened as a defendant under section 37.006(b) ); Texas Bd. of Chiropractic Exam'rs v. Texas Med. Ass'n , 375 S.W.3d 464, 473 (Tex. App.-Austin 2012, pet. denied) (\"[T]he Attorney General ... intervened on behalf of the State of Texas to defend against each side's alternative constitutional claims\" and \"filed pleadings attacking those claims.\") (citing Tex. Civ. Prac. & Rem. Code \u00a7 37.006(b) ). Accordingly, we hold that the State had standing to intervene in this proceeding.\nViability of claims\nAs noted, both the Private Parties and the State pleaded that the City's Ordinance violates the Texas Constitution because the TMWA preempts the Ordinance. The Private Parties also pleaded violations of the due-course-of-law, equal-protection, right-of-association, and warrantless-search clauses. According to the City, which does not dispute any of the underlying factual assertions, the district court lacks jurisdiction over these claims because they are not viable as a matter of law and, as such, are barred by governmental immunity. See Honors Acad., Inc. v. Texas Educ. Agency , 555 S.W.3d 54, 61-68 (Tex. 2018) (affirming dismissal of constitutional claim on sovereign-immunity grounds where parties asserting a claimant lacked vested property rights); Andrade v. NAACP of Austin , 345 S.W.3d 1, 11 (Tex. 2011) (sovereign immunity retained unless plaintiff has pleaded viable claim of violation of constitutional right). We disagree.\nPreemption claims\nThe preemption claims are viable for the reasons explained below in our analysis of the district court's denial of the application for temporary injunction.\nDue-course-of-law claim\nThe City argues that the Private Parties' due-course-of-law claim is not viable, and thus barred by governmental immunity, because the Private Parties \"did not allege they are unable to pursue their occupation owing to the Ordinance\" and because the Private Parties \"failed to plead that the Ordinance was not arguably rationally related to a legitimate governmental interest.\" See Patel v. Texas Dep't of Licensing & Regulation , 469 S.W.3d 69, 87 (Tex. 2015) (establishing standard for as-applied challenge to economic regulation under due-course-of-law provision); Miranda , 133 S.W.3d at 226-27 (holding that in review of plea to jurisdiction challenging the pleadings, courts must determine whether pleader alleged facts affirmatively demonstrating trial court's subject-matter jurisdiction). But in their pleadings, the Private Parties asserted that Patel requires consideration of whether a statute \"is so burdensome as to be oppressive,\" see Patel , 469 S.W.3d at 87, and they also allege that they will suffer burdens under the Ordinance, including incurring significant extra costs, scheduling problems, budget implications, and loss of competitiveness. Further, the Private Parties asserted in their pleadings that \"the City has no governmental interest in mandating paid sick leave,\" and in support of that assertion, the Private Parties explained that although the City had made several \"findings\" in support of adopting the Ordinance, none of the purported interests are legitimate as to the City because the FLSA and the TMWA already address those interests. Construing their pleadings liberally in their favor and looking toward their intent, we hold that the Private Parties have alleged sufficient facts to affirmatively demonstrate the district court's jurisdiction. See Miranda , 133 S.W.3d at 226-27.\nEqual-protection claim\nThe City argues that the Private Parties' equal-protection claim is not viable because they \"failed to plead allegations showing that the Ordinance\" is not rationally related to a legitimate government purpose. See First Am. Title Ins. Co. v. Combs , 258 S.W.3d 627, 639 (Tex. 2008) (\"[U]nless a classification 'jeopardizes exercise of a fundamental right or categorizes on the basis of an inherently suspect characteristic,' the law will be upheld as long as it is rationally related to a legitimate state interest.\") (quoting Nordlinger v. Hahn , 505 U.S. 1, 10, 112 S.Ct. 2326, 120 L.Ed.2d 1 (1992) ). But as noted above in our discussion of their due-course-of-law claim, the Private Parties asserted in their pleadings that \"the City has no governmental interest in mandating paid sick leave,\" and in support of that assertion, they explained that, despite the City's \"findings,\" none of the purported interests is legitimate as to the City because the FLSA and the TMWA already address those interests. Construing the pleadings liberally in the Private Parties' favor and looking toward their intent, we hold that the Private Parties have alleged sufficient facts to affirmatively demonstrate the district court's jurisdiction. See Miranda , 133 S.W.3d at 226-27.\nWarrantless-search claim\nThe City argues that the Private Parties' warrantless-search claim is facially invalid because they \"failed to allege that an administrative subpoena issued under the Ordinance was not subject to pre-compliance review,\" see City of Los Angeles v. Patel , --- U.S. ----, 135 S.Ct. 2443, 2453, 192 L.Ed.2d 435 (2015) (\"The Court has held that absent consent, exigent circumstances, or the like, in order for an administrative search to be constitutional, the subject of the search must be afforded an opportunity to obtain precompliance review before a neutral decisionmaker.\"), and because the Private Parties \"failed to sufficiently allege that the [subpoena provision of the] threatened irreparable injury to vested property rights,\" see State v. Morales , 869 S.W.2d 941, 943-44 (Tex. 1994) (to overcome general prohibition against civil challenge to penal statute, litigant must allege that penal statute is unconstitutional and \"threatens irreparable injury to vested property rights\"). A review of their pleadings, however, shows that the Private Parties have alleged that the Ordinance is not subject to precompliance review, and they support that claim by asserting that the Ordinance does not provide the means or opportunity to challenge a subpoena issued under the Ordinance because it does not allow for a judicial challenge or judicial oversight. Relatedly, the Private Parties also emphasize that the Ordinance creates a criminal offense if a person fails to comply with a subpoena issued under the Ordinance. Construing their pleadings liberally in their favor and looking toward their intent, we hold that the Private Parties have alleged sufficient facts to affirmatively demonstrate the district court's jurisdiction. See Miranda , 133 S.W.3d at 226-27.\nRegarding the irreparable-harm issue, we note initially that the Private Parties argue in their pleadings that the Ordinance is not a penal statute because the City has filed documents that make clear that the provisions of the Ordinance will not be enforced by criminal prosecution but by agency adjudication. To that extent, they did not need to \"allege\" irreparable injury to vested property rights. See id. If, however, the Private Parties are seeking to challenge the Ordinance as a penal statute, we agree that they have failed to assert sufficient facts to affirmatively demonstrate the district court's jurisdiction on this matter, but because their pleadings do not affirmatively negate jurisdiction, the Private Parties must be given the opportunity to replead if they so choose. See id. (\"If the pleadings do not contain sufficient facts to affirmatively demonstrate the trial court[']s jurisdiction but do not affirmatively demonstrate incurable defects in jurisdiction, the issue is one of pleading sufficiency and the plaintiffs should be afforded the opportunity to amend.\").\nRight-of-association claim\nThe Private Parties alleged in their pleadings that the Ordinance violates their constitutional right of association because it conditions a government benefit-the ability to modify the sick-leave cap under a collective-bargaining agreement-on a business's and employee's exercise of their right to associate-or, in this case, right to not associate by not joining a union. The City, in its final viability issue, argues that the Private Parties' freedom-of-association claim is facially invalid because (1) \"the activity that they claim implicates a right of freedom of association-the right not to permit a unionized work force-is insufficiently expressive to trigger\" constitutional concerns; (2) the Private Parties failed to assert in their pleadings that they were relying on their employees' associational rights rather than their own; (3) even if the Private Parties had done so, the Private Parties lacked standing to raise the rights of their employees; and (4) the Private Parties \"have not pleaded that the Ordinance burdens their associational rights.\" We disagree.\nThe Private Parties' pleadings specifically assert that the Ordinance violates their freedom of association under the Texas Constitution, see Tex. Const. art. I, \u00a7 27, because the Ordinance discriminates between unionized employees and the Private Parties' employees. In support of their claim, the Private Parties asserted in their pleadings that they have the right under the Texas Constitution not to associate-i.e., not to be a unionized employer operating with a collective-bargaining agreement-but that the Ordinance violates this right because it allows only unionized employers operating with a collective-bargaining agreement to \"modify the yearly cap\" of paid sick leave, while denying this right to non-unionized employers. The Private Parties' pleadings also assert that their employees are not subject to a collective-bargaining agreement. Construing their pleadings liberally in their favor and looking toward their intent, we hold that the Private Parties have alleged sufficient facts to affirmatively demonstrate the district court's jurisdiction. See Miranda , 133 S.W.3d at 226-27.\nExcept for its challenge to the Private Parties' failure to allege irreparable harm in connection with its warrantless-search claim, which we remand to give the Private Parties an opportunity to replead, we overrule the City's cross-issues.\nThe Private Parties' and the State's Appeals\nThe Private Parties and the State appeal from the district court's denial of their request for a temporary injunction, arguing that the district court abused its discretion in denying the injunctive relief because the Ordinance is preempted by the TMWA as a matter of law and because the Ordinance will irreparably harm the Private Parties and the State.\nStandard of review\nThe purpose of a temporary injunction is to preserve the status quo pending trial on the merits. Butnaru v. Ford Motor Co. , 84 S.W.3d 198, 204 (Tex. 2002). The \"status quo\" is the \"last, actual, peaceable, noncontested status which preceded the pending controversy.\" In re Newton , 146 S.W.3d 648, 651 (Tex. 2004) (orig. proceeding) (quoting Janus Films, Inc. v. City of Fort Worth , 163 Tex. 616, 358 S.W.2d 589, 589 (1962) ). \"To obtain a temporary injunction, the applicant must plead and prove three specific elements: (1) a cause of action against the defendant; (2) a probable right to the relief sought; and (3) a probable, imminent, and irreparable injury in the interim.\" Butnaru , 84 S.W.3d at 204.\nWhether to grant or deny a temporary injunction is within the trial court's sound discretion. Id. A reviewing court should reverse an order granting injunctive relief only if the trial court abused that discretion. Id. The reviewing court must not substitute its judgment for the trial court's judgment unless the trial court's action was so arbitrary that it exceeded the bounds of reasonable discretion. Id. However, to the extent the district court's ruling rests on questions of law, whether in the context of an abuse-of-discretion analysis or otherwise, we review those determinations de novo. Walker v. Packer , 827 S.W.2d 833, 840 (Tex. 1992) (orig. proceeding) (observing that a court has no \"discretion\" to misinterpret or misapply the law).\nCause of action\nThe first requirement to be entitled to a temporary injunction is to plead and prove a cause of action against the defendant. See Butnaru , 84 S.W.3d at 204. The City contends that the Private Parties and the State cannot meet this requirement because their claims are not ripe, they lack standing to sue, and they cannot overcome the City's governmental immunity. But we resolved these same jurisdictional issues against the City in our discussion above of the City's cross-appeal. As such, there is no jurisdictional bar to this temporary-injunction element. Further, because we conclude, as explained below, that the TMWA preempts the Ordinance, the Private Parties and the State have conclusively established that they have a cause of action against the City.\nProbable right to relief sought\nThe second requirement for a temporary injunction is to plead and prove a probable right to relief. See id. The State and the Private Parties argue that they meet this requirement because the TMWA preempts the Ordinance as a matter of law. The City contends that we cannot analyze the preemption issue on appeal because it goes to the merits of the underlying claims. See Davis v. Huey , 571 S.W.2d 859, 861-62 (Tex. 1978) (\"[T]he merits of the underlying case are not presented for appellate review. Appellate review of an order granting or denying a temporary injunction is strictly limited to determination of whether there has been a clear abuse of discretion by the trial court in granting or denying the interlocutory order.\"). But in the case before us, resolution of the question of whether the Private Parties and the State have met the probable-right-to-relief requirement as to their statutory-preemption claim depends solely on questions of law-i.e., the statutory-construction questions of whether the TMWA expressly preempts municipal action and whether the municipal action at issue, here the Ordinance, falls within the TMWA's ambit. See City of Laredo , 550 S.W.3d at 593-94 (discussing review of challenged ordinance). Stated differently, for the district court to determine that the Private Parties and the State failed to plead and prove that they have a probable right to recovery on their statutory-preemption claim, the district court must have concluded that the TMWA does not preempt the Ordinance. That is a legal question that the district court has no discretion to get wrong. See Walker , 827 S.W.2d at 840 (observing that a court has no \"discretion\" to misinterpret or misapply the law). Accordingly, we must address the merits of the statutory-preemption claim to determine whether the district court abused its discretion in denying the temporary injunction.\nHome-rule municipalities, such as the City of Austin, possess the \"full power of local self-government\" and look to the Legislature not for grants of authority, but only for limitations on their authority. BCCA Appeal Grp., Inc. v. City of Houston , 496 S.W.3d 1, 7 (Tex. 2016) (citing Tex. Loc. Gov't Code \u00a7 51.072(a) ). But the Texas Constitution prohibits city ordinances from \"contain[ing] any provision inconsistent with the Constitution of the State, or of the general laws enacted by the Legislature of the State.\"\nTex. Const. art. XI, \u00a7 5 (a); City of Laredo , 550 S.W.3d at 592. While home-rule cities have all power not denied by the Constitution or state law, and thus need not look to the Legislature for grants of authority, the Legislature can limit or withdraw that power by general law. City of Laredo , 550 S.W.3d at 592. The mere \"entry of the state into a field of legislation ... does not automatically preempt that field from city regulation.\" Id. (cleaned up). Rather, \"local regulation, ancillary to and in harmony with the general scope and purpose of the state enactment, is acceptable.\" Id. (cleaned up). Absent an express limitation, if the general law and local regulation can coexist peacefully without stepping on each other's toes, both will be given effect or the latter will be invalid only to the extent of any inconsistency. Id.\nIn this case, legislative intent in the TMWA to preempt local law is clear. First, the TMWA expressly prohibits municipalities from regulating the wages of employers that are subject to the federal minimum-wage requirements of the Fair Labor Standards Act (FLSA) : \"Th[e TMWA] and a municipal ordinance or charter provision governing wages in private employment ... do not apply to a person covered by the [FLSA].\" Tex. Labor Code \u00a7 62.151. Further, and of more significance to this appeal, the TMWA explicitly provides that \"the minimum wage provided by [the TMWA] supersedes a wage established in an ordinance ... governing wages in private employment.\" Id. \u00a7 62.0515(a) (emphasis added). The issue for us then is to determine whether the City's Ordinance falls within the TMWA's ambit; specifically, whether the Ordinance establishes a \"wage.\" To decide that, we look to the statutory text and the ordinary meaning of its words. See, e.g. , Molinet v. Kimbrell , 356 S.W.3d 407, 411 (Tex. 2011) (\"The plain meaning of the text is the best expression of legislative intent unless a different meaning is apparent from the context or the plain meaning leads to absurd or nonsensical results.\").\nThe TMWA does not define \"wage\" so we must give that word its ordinary meaning. See City of Laredo , 550 S.W.3d at 594 (\"To decide [preemption issue], we look, as usual, to the statutory text and the ordinary meaning of words.\"). \"Wage\" refers to a \"payment to a person for service rendered.... The amount paid periodically, esp. by the day or week or month, for the labour or service of an employee, worker, or servant.\" Compact Oxford English Dictionary 693 (2d. ed. 1989); see Webster's Third New Int'l Dictionary 2568 (2002) (defining \"wage\" as \"a pledge or payment of usu. monetary remuneration by an employer esp. for labor or services\"). Thus, under the plain language of the TMWA, the City's Ordinance falls under the TMWA's ambit if it establishes the payments a person receives for services rendered.\nThe Ordinance establishes the payment that a person receives for services rendered to an employer. The Ordinance requires that employers provide one hour of paid sick leave for \"every 30 hours worked.\" Ordinance \u00a7 4-19-2(A). This means that an employer subject to the Ordinance must pay employees who use sick leave for hours that they did not actually work. The effective result is that employees who take sick leave are paid the same wage for fewer hours worked or, stated differently, that employees who take sick leave are paid more per hour for the hours actually worked. This is best illustrated using an example offered by the State in its appellate brief:\nA part-time, hourly employee, who makes $10 per hour and who works an average of 15 hours a week for 50 weeks (a total of 750 hours) earns $750 for that work. Under the Ordinance, that employee will have earned 25 hours of sick leave over the course of the 50 weeks. If that employee uses all that earned sick leave, she will have earned $250 for time she did not work, making her actual hourly wage $10.33 (total yearly pay with paid sick leave of $7,750 divided by 750 total hours worked). Stated differently, she will receive $250 more than she would have received without the Ordinance for the same number of hours work.\nIn sum, the Ordinance increases the pay of those employees who use paid sick leave. Thus, under the plain language of the TMWA, the Ordinance establishes a wage.\nThe City argues that the Ordinance does not establish a wage because \"wage\" means only compensation for services and it cannot include fringe benefits such as paid vacation and paid sick leave. In support of its argument, the City cites to the 1969 edition of the American Heritage Dictionary of the English Language -purportedly the current edition at the time of the Legislature's 1970 adoption of the TMWA-which defined \"wage\" as \"payment for services to a workman; usually remuneration on an hourly, daily, or weekly basis or by the piece.\" American Heritage Dictionary of the English Language 1440 (1st ed. 1969). The City also points to the 1933 edition of Black's Law Dictionary -purportedly the current edition at the time of Congress's adoption of the FLSA-which defined \"wage\" as \"compensation given to a hired person for his or her services.... Agreed compensation for services by workmen, clerks or servants ... whether they be paid by the hour, the day, the week, the month, the job or the piece.\" Wage , Black's Law Dictionary (3d ed. 1933). According to the City, these definitions establish that \"wage\" means a payment regularly made to compensate the worker for his or her services or labor but not the type of paid sick leave granted by the Ordinance. But these definitions simply establish, as we conclude above, that \"wage\" generally refers to payment or compensation for work done or services rendered. These definitions do not, however, necessarily preclude the inclusion of paid sick leave in the meaning of \"wage.\" More importantly, under the terms of the Ordinance, employees who earn and take paid sick leave will be paid more than employees who work the same hours without paid sick leave. Stated differently, employees who take sick leave will receive more pay per hour than actually worked. Thus, the Ordinance establishes a wage.\nThe City also argues that one of the Private Parties has \"implicitly conceded\" that the Ordinance is not preempted by the TMWA. Whether that is true or not, only the Texas Legislature, not a private party in a lawsuit, controls preemption. See City of Laredo , 550 S.W.3d at 593 (discussing constitutional prohibition against ordinances that are inconsistent with constitution or state law-i.e., preemption-and noting that Legislature has authority to preempt local laws).\nWe hold that the Texas Minimum Wage Act preempts local regulations that establish a wage, that the Ordinance establishes a wage, and that, accordingly, the TMWA preempts the City's Ordinance as a matter of law, thus making the Ordinance unconstitutional. See Tex. Const. art. XI, \u00a7 5 (mandating that no city ordinance \"shall contain any provision inconsistent with the Constitution of the State, or of the general laws enacted by the Legislature of this State\"); see also City of Laredo , 550 S.W.3d at 593. As such, the Private Parties and the State have conclusively established a probable right to the relief sought on their preemption claim.\nProbable, imminent, and irreparable injury in the interim\nThe final requirement to be entitled to a temporary injunction is to show \"a probable, imminent, and irreparable injury in the interim.\" Butnaru , 84 S.W.3d at 204. An injury is irreparable if the injured party cannot be adequately compensated in damages or if the damages cannot be measured by any certain pecuniary standard. Id.\nThe State asserts that its sovereignty will be irreparably harmed if the Ordinance is allowed to go into effect. We agree. The plain language of the TMWA preempts the Ordinance and, as result, the Ordinance violates the Texas Constitution's mandate that no city ordinance \"shall contain any provision inconsistent with the ... general laws enacted by the Legislature of this State.\" Tex. Const. art. XI, \u00a7 5. The \"inability [of a state] to enforce its duly enacted [laws] clearly inflicts irreparable harm on the State.\" Abbott v. Perez , --- U.S. ----, 138 S.Ct. 2305, 2324 n.17, 201 L.Ed.2d 714 (2018).\nThe Private Parties contend that they will be irreparably harmed if the Ordinance goes into effect because they will incur costs that cannot be recovered. Specifically, the Private Parties contend, and the City has conceded, that they will have to expend time, effort, and money to prepare for the Ordinance going into effect. And once the Ordinance goes into effect, the Private Parties will have to grant the paid sick leave and, when employees use that sick leave, will have to operate their businesses with fewer employees at times while paying higher wages. But if the Private Parties are successful in their challenge to the Ordinance, they cannot recover damages from the City because of governmental immunity from liability and there are no other sources of recovery for these costs.\nWe hold that both the Private Parties and the State have established that they will suffer irreparable harm from the Ordinance.\nBased on our determination that the Private Parties and the State pleaded and proved a preemption cause of action against the City, a probable right to the relief sought under that preemption claim, and a probable, imminent, and irreparable injury in the interim, we hold that the district court abused its discretion in denying the parties' application for temporary injunction. See Butnaru , 84 S.W.3d at 204. Accordingly, we sustain the Private Parties' first issue and the State's first and second issues. Having done so, we need not address the Private Parties' second issue, which challenges to the district court's admission of certain evidence.\nConclusion\nWe reverse that part of the district court's order denying the City's plea to the jurisdiction with respect to the Private Parties' warrantless-search claim, remand to give the Private Parties the opportunity to replead that claim, and affirm the remainder of the order denying the City's plea to the jurisdiction. We affirm the district court's denial of the City's motion to strike the State's intervention. We reverse the district court's order denying the Private Parties' and the State's application for a temporary injunction and remand this case to the district court with the instruction that it grant the requested temporary injunction and for further proceedings consistent with this opinion.\nThe Private Parties also challenge the denial in connection with their other constitutional claims, but we need not address those claims given our resolution of the preemption claim in their favor. See Tex. R. App. P. 42.1.\nThe FLSA applies, stated generally, to employers whose \"annual gross volume of sales made or business done\" is greater than $500,000. See 29 U.S.C. \u00a7\u00a7 206(a) (setting minimum wage for enterprises \"engage[d] in commerce\"), 203(s)(1)(A)(ii) (enterprise is \"engaged in commerce\" if its \"annual gross volume of sales made or business done\" is greater than $500,000).",
+        "type": "majority",
+        "author": "Jeff Rose, Chief Justice"
+      }
+    ],
+    "attorneys": [
+      "Mr. Paul Matula, Mr. Peter M. Kelly, Ms. Dana Levy, for Appellees City of Austin, Texas, Spencer Cronk, City Manager of The City of Austin, Steve Adler, Mayor of The City of Austin.",
+      "Mr. Ryan Walters, Mr. Robert E. Henneke, Kerrville, Mr. Munera Al-Fuhaid, for Appellants National Federation of Independent Business, The Burnett Companies Consolidated, Inc., d/b/a Burnett Specialists, Staff Force, Inc., Texas Association of Business, Austin Human Resource Management Association, American Staffing Association, LeadingEdge Personnel, Ltd., Society for Human Resource Management, Texas State Council of The Society for Human Resource Management, Strickland School, LLC, HT Staffing Ltd. d/b/a The HT Group.",
+      "Mr. David J. Hacker, Mr. Andrew B. Davis, for Appellants The State of Texas."
+    ],
+    "corrections": "",
+    "head_matter": "TEXAS ASSOCIATION OF BUSINESS; National Federation of Independent Business, American Staffing Association; LeadingEdge Personnel, Ltd. ; Staff Force, Inc.; HT Staffing Ltd. d/b/a The HT Group; The Burnett Companies Consolidated, Inc., d/b/a Burnett Specialists; Society for Human Resource Management; Texas State Council of The Society for Human Resource Management; Austin Human Resource Management Association ; Strickland School, LLC ; and The State of Texas, Appellants, City of Austin, Texas; and Spencer Cronk, City Manager of The City of Austin, Cross-Appellants.\nv.\nCITY OF AUSTIN, TEXAS; Steve Adler, Mayor of The City of Austin; and Spencer Cronk, City Manager of The City of Austin, Appellees, Texas Association of Business; National Federation of Independent Business, American Staffing Association; Leading Edge Personnel, Ltd.; Staff Force, Inc.; HT Staffing Ltd. d/b/a The HT Group; The Burnett Companies Consolidated, Inc., d/b/a Burnett Specialists; Society for Human Resource Management; Texas State Council of The Society for Human Resource Management; Austin Human Resource Management Association ; Strickland School, LLC ; and The State of Texas, Cross-Appellees.\nNO. 03-18-00445-CV\nCourt of Appeals of Texas, Austin.\nFiled: November 16, 2018\nRehearing En Banc Denied December 13, 2018\nMr. Paul Matula, Mr. Peter M. Kelly, Ms. Dana Levy, for Appellees City of Austin, Texas, Spencer Cronk, City Manager of The City of Austin, Steve Adler, Mayor of The City of Austin.\nMr. Ryan Walters, Mr. Robert E. Henneke, Kerrville, Mr. Munera Al-Fuhaid, for Appellants National Federation of Independent Business, The Burnett Companies Consolidated, Inc., d/b/a Burnett Specialists, Staff Force, Inc., Texas Association of Business, Austin Human Resource Management Association, American Staffing Association, LeadingEdge Personnel, Ltd., Society for Human Resource Management, Texas State Council of The Society for Human Resource Management, Strickland School, LLC, HT Staffing Ltd. d/b/a The HT Group.\nMr. David J. Hacker, Mr. Andrew B. Davis, for Appellants The State of Texas.\nBefore Chief Justice Rose, Justices Puryear and Field OPINION"
+  },
+  "file_name": "0425-01",
+  "first_page_order": 425,
+  "last_page_order": 442
+}

@@ -1,0 +1,76 @@
+{
+  "id": 12235016,
+  "name": "Spansion, Inc., et al. v. International Trade Commission et al.; and Qualcomm Inc. v. International Trade Commission et al.",
+  "name_abbreviation": "Spansion, Inc. v. International Trade Commission",
+  "decision_date": "2011-11-28",
+  "docket_number": "No. 11-127; No. 11-128",
+  "first_page": "1058",
+  "last_page": "1058",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1058"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "629 F. 3d 1331",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4078975
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/629/1331-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 25,
+    "char_count": 215,
+    "ocr_confidence": 0.598,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.24765362768254057
+    },
+    "sha256": "3e3262a05963a5b2821b2727421f1c1ef49a666c00582bf9b4de1ceaa4206d3e",
+    "simhash": "1:89c302993c5f35b0",
+    "word_count": 35
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Spansion, Inc., et al. v. International Trade Commission et al.; and Qualcomm Inc. v. International Trade Commission et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. Fed. Cir. Certiorari denied. Reported below: 629 F. 3d 1331.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-127.\nNo. 11-128.\nSpansion, Inc., et al. v. International Trade Commission et al.; and Qualcomm Inc. v. International Trade Commission et al."
+  },
+  "file_name": "1058-13",
+  "first_page_order": 1140,
+  "last_page_order": 1140
+}

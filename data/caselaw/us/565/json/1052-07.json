@@ -1,0 +1,59 @@
+{
+  "id": 12234720,
+  "name": "In re Discipline of Thompson",
+  "name_abbreviation": "In re Discipline of Thompson",
+  "decision_date": "2011-11-28",
+  "docket_number": "No. D-2607",
+  "first_page": "1052",
+  "last_page": "1053",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1052"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 40,
+    "char_count": 285,
+    "ocr_confidence": 0.663,
+    "sha256": "05ddff294798ed6776cc3b935616cf46192c159e374149065d89e01871c4cc15",
+    "simhash": "1:748a63bcbfeaa76e",
+    "word_count": 52
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of Thompson."
+    ],
+    "opinions": [
+      {
+        "text": "Theodore Q. Thompson, of Blue Bell, Pa., is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2607.\nIn re Discipline of Thompson."
+  },
+  "file_name": "1052-07",
+  "first_page_order": 1134,
+  "last_page_order": 1135
+}

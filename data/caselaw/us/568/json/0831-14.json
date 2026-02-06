@@ -1,0 +1,59 @@
+{
+  "id": 12411301,
+  "name": "Little v. Tommy Guns Garage, Inc.",
+  "name_abbreviation": "Little v. Tommy Guns Garage, Inc.",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10057",
+  "first_page": "831",
+  "last_page": "831",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 831"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 92,
+    "ocr_confidence": 0.655,
+    "sha256": "5454efac7345f1aa38ceb5b527fc87bcab61eca25d900fdd56c1e1c0dd8dd6c9",
+    "simhash": "1:629882440cb1e52c",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Little v. Tommy Guns Garage, Inc."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Ill., 1st Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10057.\nLittle v. Tommy Guns Garage, Inc."
+  },
+  "file_name": "0831-14",
+  "first_page_order": 907,
+  "last_page_order": 907
+}

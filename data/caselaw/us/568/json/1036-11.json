@@ -1,0 +1,59 @@
+{
+  "id": 12425250,
+  "name": "McCreary v. United States",
+  "name_abbreviation": "McCreary v. United States",
+  "decision_date": "2012-11-26",
+  "docket_number": "No. 12-6803",
+  "first_page": "1036",
+  "last_page": "1036",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1036"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.672,
+    "sha256": "6a27d8b18ec94d5bb45e022e8a3e723ed59aea0ba99808f630ee9b0ee6dd81fd",
+    "simhash": "1:862ad6058a9f0d56",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McCreary v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6803.\nMcCreary v. United States."
+  },
+  "file_name": "1036-11",
+  "first_page_order": 1112,
+  "last_page_order": 1112
+}

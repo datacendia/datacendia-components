@@ -1,0 +1,59 @@
+{
+  "id": 12220625,
+  "name": "Hollinquest v. California",
+  "name_abbreviation": "Hollinquest v. California",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5432",
+  "first_page": "907",
+  "last_page": "907",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 907"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 89,
+    "ocr_confidence": 0.68,
+    "sha256": "56969b1e73e1887cab32c014669f53006f518edb0a8f1bdc8590bbfea76847c2",
+    "simhash": "1:ac95e24405831843",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hollinquest v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 1st App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5432.\nHollinquest v. California."
+  },
+  "file_name": "0907-04",
+  "first_page_order": 989,
+  "last_page_order": 989
+}

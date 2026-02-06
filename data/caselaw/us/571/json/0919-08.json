@@ -1,0 +1,66 @@
+{
+  "id": 12703713,
+  "name": "Jamel DAVIS, petitioner, v. PENNSYLVANIA.",
+  "name_abbreviation": "Davis v. Pa.",
+  "decision_date": "2013-10-07",
+  "docket_number": "No. 13\u20135500.",
+  "first_page": "919",
+  "last_page": "919",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 919"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 214"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 300"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 25,
+    "char_count": 205,
+    "sha256": "b6cf4131842df0fcc9304754793adedfa7c823266fd4a2d941fb16bd0f027be6",
+    "simhash": "1:e96b547c629a87f2",
+    "word_count": 30
+  },
+  "last_updated": "2021-09-08T21:16:17.237805+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jamel DAVIS, petitioner,\nv.\nPENNSYLVANIA."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "Jamel DAVIS, petitioner,\nv.\nPENNSYLVANIA.\nNo. 13-5500.\nSupreme Court of the United States\nOct. 7, 2013.\nPetition for writ of certiorari to the Superior Court of Pennsylvania, Philadelphia Office, denied."
+  },
+  "file_name": "0919-08",
+  "first_page_order": 919,
+  "last_page_order": 919
+}

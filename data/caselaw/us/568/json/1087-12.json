@@ -1,0 +1,59 @@
+{
+  "id": 12427889,
+  "name": "Morgan v. Harry et al.",
+  "name_abbreviation": "Morgan v. Harry",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-471",
+  "first_page": "1087",
+  "last_page": "1087",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1087"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 68,
+    "ocr_confidence": 0.585,
+    "sha256": "1cc5973ac7e1949dd47467109894aa2cdbac2925eb4c446f8809d04c55703cec",
+    "simhash": "1:9428819191ea2290",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Morgan v. Harry et al."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Va. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-471.\nMorgan v. Harry et al."
+  },
+  "file_name": "1087-12",
+  "first_page_order": 1163,
+  "last_page_order": 1163
+}

@@ -1,0 +1,63 @@
+{
+  "id": 6028575,
+  "name": "Mosley v. Florida; Greene v. Lee's Maintenance Services et al.; Qazza v. Kane, Warden; Greene v. Kelly Services, Inc.; Greene v. California State Prison et al.",
+  "name_abbreviation": "Mosley v. Florida",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 09-11555; No. 10-6022; No. 10-6231; No. 10-6490; No. 10-6915",
+  "first_page": "1253",
+  "last_page": "1254",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1253"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 39,
+    "char_count": 362,
+    "ocr_confidence": 0.623,
+    "pagerank": {
+      "raw": 4.373766679880339e-06,
+      "percentile": 0.9983553773581256
+    },
+    "sha256": "c6d99dcdbd6c099597a906c35d4d3e601005bb607c2b3c2a486eeceb117e286b",
+    "simhash": "1:59f22f9626fe701c",
+    "word_count": 61
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mosley v. Florida, Greene v. Lee\u2019s Maintenance Services et al., Qazza v. Kane, Warden, Greene v. Kelly Services, Inc., Greene v. California State Prison et al.,"
+    ],
+    "opinions": [
+      {
+        "text": "ante, p. 887;\nante, p. 970;\nante, p. 1013;\nNo. 10-6490.\nNo. 10-6915.\nante, p. 1083; and\nante, p. 1113. Motions for leave to file petitions for rehearing denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11555.\nNo. 10-6022.\nNo. 10-6231.\nMosley v. Florida, Greene v. Lee\u2019s Maintenance Services et al., Qazza v. Kane, Warden, Greene v. Kelly Services, Inc., Greene v. California State Prison et al.,"
+  },
+  "file_name": "1253-01",
+  "first_page_order": 1275,
+  "last_page_order": 1276
+}

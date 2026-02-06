@@ -1,0 +1,59 @@
+{
+  "id": 5984297,
+  "name": "In re Ruston",
+  "name_abbreviation": "In re Ruston",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5312",
+  "first_page": "826",
+  "last_page": "826",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 826"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 25,
+    "char_count": 168,
+    "ocr_confidence": 0.597,
+    "sha256": "e8a1aa20e1e7b76ae3ead09214522e12a8e9b73b21709c36d176ea35c8b4c915",
+    "simhash": "1:68894d784a71a738",
+    "word_count": 28
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Ruston."
+    ],
+    "opinions": [
+      {
+        "text": "Motion of petitioner for leave to proceed in forma pauperis denied, and petition for writ of mandamus dismissed. See this Court\u2019s Rule 39.8.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5312.\nIn re Ruston."
+  },
+  "file_name": "0826-04",
+  "first_page_order": 848,
+  "last_page_order": 848
+}

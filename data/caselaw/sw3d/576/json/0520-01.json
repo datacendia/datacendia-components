@@ -1,0 +1,632 @@
+{
+  "id": 12660026,
+  "name": "Karen SOSSAMON, Appellant v. STATE of Arkansas, Appellee",
+  "name_abbreviation": "Sossamon v. State",
+  "decision_date": "2019-05-08",
+  "docket_number": "No. CR-18-930",
+  "first_page": "520",
+  "last_page": "530",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "576 S.W.3d 520"
+    },
+    {
+      "type": "parallel",
+      "cite": "2019 Ark. App. 262"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Ark. App. Ct.",
+    "id": 30086,
+    "name": "Court of Appeals of Arkansas, DIVISION IV"
+  },
+  "jurisdiction": {
+    "id": 34,
+    "name_long": "Arkansas",
+    "name": "Ark."
+  },
+  "cites_to": [
+    {
+      "cite": "262 Ark. 783",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1675967
+      ],
+      "weight": 2,
+      "year": 1978,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/262/0783-01"
+      ]
+    },
+    {
+      "cite": "26 Ark. App. 62",
+      "category": "reporters:state",
+      "reporter": "Ark. App.",
+      "case_ids": [
+        6137271
+      ],
+      "weight": 2,
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "65-66"
+        },
+        {
+          "page": "73"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark-app/26/0062-01"
+      ]
+    },
+    {
+      "cite": "2010 Ark. App. 30",
+      "category": "reporters:state",
+      "reporter": "Ark. App.",
+      "case_ids": [
+        7125434
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "5"
+        },
+        {
+          "page": "395"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/373/0392-01"
+      ]
+    },
+    {
+      "cite": "2018 WL 4212255",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "opinion_index": 0
+    },
+    {
+      "cite": "2018 Ark. App. 391",
+      "category": "reporters:state",
+      "reporter": "Ark. App.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "340 Ark. 657",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1365307
+      ],
+      "weight": 2,
+      "year": 2000,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/340/0657-01"
+      ]
+    },
+    {
+      "cite": "444 U.S. 85",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11304934
+      ],
+      "weight": 3,
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "91"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/444/0085-01"
+      ]
+    },
+    {
+      "cite": "304 Ark. 128",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1881030
+      ],
+      "weight": 4,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "132"
+        },
+        {
+          "page": "31"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/304/0128-01"
+      ]
+    },
+    {
+      "cite": "140 Md.App. 696",
+      "category": "reporters:state",
+      "reporter": "Md. App.",
+      "case_ids": [
+        670656
+      ],
+      "weight": 3,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "394"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/md-app/140/0696-01"
+      ]
+    },
+    {
+      "cite": "275 Kan. 271",
+      "category": "reporters:state",
+      "reporter": "Kan.",
+      "case_ids": [
+        861206
+      ],
+      "weight": 2,
+      "year": 2003,
+      "opinion_index": 0,
+      "case_paths": [
+        "/kan/275/0271-01"
+      ]
+    },
+    {
+      "cite": "2014 Ark. 443",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        6903215
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/446/0182-01"
+      ]
+    },
+    {
+      "cite": "456 U.S. 798",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6191830
+      ],
+      "weight": 3,
+      "year": 1982,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/456/0798-01"
+      ]
+    },
+    {
+      "cite": "526 U.S. 295",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11133135
+      ],
+      "weight": 12,
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "298"
+        },
+        {
+          "page": "302"
+        },
+        {
+          "parenthetical": "emphasis in original"
+        },
+        {
+          "page": "307"
+        },
+        {
+          "page": "308"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/526/0295-01"
+      ]
+    },
+    {
+      "cite": "267 U.S. 132",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6137701
+      ],
+      "weight": 3,
+      "year": 1925,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/267/0132-01"
+      ]
+    },
+    {
+      "cite": "935 F.2d 982",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10540417
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "984"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/935/0982-01"
+      ]
+    },
+    {
+      "cite": "764 F.3d 455",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4184280
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "462",
+          "parenthetical": "\"[P]assengers have standing to challenge searches to their luggage.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/764/0455-01"
+      ]
+    },
+    {
+      "cite": "468 N.W.2d 893",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "year": 1991,
+      "pin_cites": [
+        {
+          "parenthetical": "passenger who had no standing to challenge search of automobile did have standing to challenge search of his own personal effects in automobile"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "188 Mich.App. 61",
+      "category": "reporters:state",
+      "reporter": "Mich. App.",
+      "case_ids": [
+        2330761
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "parenthetical": "passenger who had no standing to challenge search of automobile did have standing to challenge search of his own personal effects in automobile"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich-app/188/0061-01"
+      ]
+    },
+    {
+      "cite": "13 F.3d 498",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1834576
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "parenthetical": "passenger had standing to challenge search of his own briefcase stored in the locked trunk of car"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/13/0498-01"
+      ]
+    },
+    {
+      "cite": "327 Ark. 105",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        922675
+      ],
+      "weight": 2,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "111",
+          "parenthetical": "citing United States v. Infante-Ruiz , 13 F.3d 498 (1st Cir. 1994) (passenger had standing to challenge search of his own briefcase stored in the locked trunk of car); People v. Armendarez , 188 Mich.App. 61, 468 N.W.2d 893 (1991"
+        },
+        {
+          "page": "645-46",
+          "parenthetical": "citing United States v. Infante-Ruiz , 13 F.3d 498 (1st Cir. 1994) (passenger had standing to challenge search of his own briefcase stored in the locked trunk of car); People v. Armendarez , 188 Mich.App. 61, 468 N.W.2d 893 (1991"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/327/0105-01"
+      ]
+    },
+    {
+      "cite": "342 Ark. 213",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1342449
+      ],
+      "weight": 2,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "220"
+        },
+        {
+          "page": "431"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/342/0213-01"
+      ]
+    },
+    {
+      "cite": "500 U.S. 248",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6221328
+      ],
+      "weight": 5,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "252",
+          "parenthetical": "\"A suspect may of course delimit as he chooses the scope of the search to which he consents.\""
+        },
+        {
+          "parenthetical": "\"A suspect may of course delimit as he chooses the scope of the search to which he consents.\""
+        },
+        {
+          "parenthetical": "\"A suspect may of course delimit as he chooses the scope of the search to which he consents.\""
+        },
+        {
+          "page": "251"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/500/0248-01"
+      ]
+    },
+    {
+      "cite": "87 Ark. App. 327",
+      "category": "reporters:state",
+      "reporter": "Ark. App.",
+      "case_ids": [
+        6140953
+      ],
+      "weight": 2,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "334"
+        },
+        {
+          "page": "212"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark-app/87/0327-01"
+      ]
+    },
+    {
+      "cite": "347 Ark. 788",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        683367
+      ],
+      "weight": 2,
+      "year": 2002,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/347/0788-01"
+      ]
+    },
+    {
+      "cite": "60 Ark. App. 135",
+      "category": "reporters:state",
+      "reporter": "Ark. App.",
+      "case_ids": [
+        6138164
+      ],
+      "weight": 2,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "137",
+          "parenthetical": "\"Consent is a justification for a warrantless search.\""
+        },
+        {
+          "page": "74",
+          "parenthetical": "\"Consent is a justification for a warrantless search.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark-app/60/0135-01"
+      ]
+    },
+    {
+      "cite": "95 Ark. App. 108",
+      "category": "reporters:state",
+      "reporter": "Ark. App.",
+      "case_ids": [
+        6138329
+      ],
+      "weight": 2,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "111"
+        },
+        {
+          "page": "319"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark-app/95/0108-01"
+      ]
+    },
+    {
+      "cite": "76 Ark. App. 169",
+      "category": "reporters:state",
+      "reporter": "Ark. App.",
+      "case_ids": [
+        6139164
+      ],
+      "weight": 2,
+      "year": 2001,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark-app/76/0169-01"
+      ]
+    },
+    {
+      "cite": "2014 Ark. App. 431",
+      "category": "reporters:state",
+      "reporter": "Ark. App.",
+      "case_ids": [
+        6920649
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "7"
+        },
+        {
+          "page": "710"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/439/0705-01"
+      ]
+    },
+    {
+      "cite": "389 U.S. 347",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11339173
+      ],
+      "weight": 3,
+      "year": 1967,
+      "pin_cites": [
+        {
+          "page": "357"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/389/0347-01"
+      ]
+    },
+    {
+      "cite": "2012 Ark. 37",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        7095206
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/386/0451-01"
+      ]
+    },
+    {
+      "cite": "2013 Ark. 201",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        6959841
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "5-6"
+        },
+        {
+          "page": "9"
+        },
+        {
+          "page": "613"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/427/0607-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1087,
+    "char_count": 27510,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2651565786267848
+    },
+    "sha256": "98cd82feaeab3c12723dc805284d66e93ac2182ebc679571e0a03e4d12f63d7b",
+    "simhash": "1:2e0db6f2afe2771b",
+    "word_count": 4618
+  },
+  "last_updated": "2024-02-27T16:13:40.523430+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Karen SOSSAMON, Appellant\nv.\nSTATE of Arkansas, Appellee"
+    ],
+    "opinions": [
+      {
+        "text": "PHILLIP T. WHITEAKER, Judge\nAppellant Karen Sossamon was charged with three counts of possession of controlled substances with intent to deliver, one count of possession of drug paraphernalia, and one count of obstructing governmental operations. Before trial, Sossamon filed a motion to suppress the evidence. The circuit court held a hearing on her suppression motion and denied it. A Sevier County jury subsequently convicted Sossamon on all five counts and sentenced her to a total of seventy-three years and one month in the Arkansas Department of Correction. On appeal, Sossamon does not challenge the sufficiency of the evidence supporting her convictions; rather, she argues that the circuit court erred in denying her motion to suppress. We find merit to her arguments, and we reverse and remand.\nI. Background Facts\nWe begin by examining the facts underlying Sossamon's motion. Sossamon was pulled over for speeding by officer Justin Gentry at approximately 2:30 a.m. She was driving a vehicle that belonged to Selah Dyer, who was a passenger in the back seat. A third woman, Angela Kush, was the front-seat passenger. After initiating the stop, Gentry called for backup.\nGentry approached the driver's-side window and asked Sossamon for her name and driver's license. Sossamon provided a false name, \"Tonya Adams,\" and a birth date and told Gentry that she did not have her driver's license. Gentry ran a search on the name \"Tonya Adams\" and the birth date Sossamon gave him, and they came back to a valid license; he was thus unaware that Sossamon had provided false information and believed he was dealing with Tonya Adams. Gentry then obtained identification from the other two passengers in the car. He ran Dyer's and Kush's information through the system and discovered that Dyer had a felony drug history on her criminal record. Gentry asked Sossamon, Dyer, and Kush what they were doing and where they were going. They responded that they were on their way to the casino. Gentry was suspicious of this answer because, in his experience, people were generally leaving the casino at 2:30 a.m., not going to the casino, and Kush was wearing pajama bottoms.\nWhile Gentry was gathering information, Dyer told Gentry that she was the owner of the vehicle. Gentry asked Dyer if she had anything illegal in the vehicle, and she replied that she did not. He then asked Dyer if she would consent to a search of the vehicle, and she agreed. Gentry asked Sossamon and Kush to step out of the vehicle and advised them that Dyer had given consent to search. Sossamon immediately became agitated and yelled that she did not want Gentry searching her bags. Gentry told her that she was free to tell him which bags belonged to her, and he would remove them from the car for her. Sossamon pointed out two bags in the back seat, and Gentry allowed her to retrieve them.\nAfter Sossamon got her bags out of the car, Gentry began his search of Dyer's car and its contents. He searched a purse in the back seat that contained a makeup bag. Inside the makeup bag, Gentry found what he believed was some type of pipe inside a \"bunch of wadded up tissue paper.\" In addition to the pipe, he found a bag containing a substance he believed to be methamphetamine. Gentry asked all three women who owned the purse, and Dyer answered that it was hers. Gentry found nothing further in his search of Dyer's car or its contents.\nBecause of his discovery of the drugs inside Dyer's purse within her vehicle, Gentry called his sergeant and asked if he was allowed to search the bags that previously had been taken out of the car. The sergeant advised him that he had probable cause to search the other bags that had already been removed from the car. Gentry went to Sossamon and told her what he had found in the car, and he asked her if she had anything illegal in her bags that she had taken out of the car. Sossamon replied that she did not, and Gentry advised her that he was going to search them anyway on the basis of what he had found in the car. Gentry then proceeded to search Sossamon's bags and discovered marijuana, hydrocodone, methamphetamine, scales, baggies, and other paraphernalia. At the time of his search of Sossamon's bags, Gentry was still unaware that the name and information that she had previously provided were false.\nSossamon filed a motion to suppress the drugs and paraphernalia seized from her bags, arguing that Gentry lacked probable cause to conduct the warrantless search of her possessions. After a hearing, the court denied Sossamon's motion, stating from the bench that \"as soon as the officer found contraband in that car, he had probable cause to proceed and search the other items that were within reach of any of the other occupants, and they did not have an unreasonable right to deny their search in violation of the Fourth Amendment.\" The matter subsequently proceeded to trial, and as noted above, Sossamon was convicted on all counts. She timely appealed.\nII. Standard of Review\nIn reviewing a circuit court's denial of a motion to suppress evidence, we conduct a de novo review based on the totality of the circumstances, reviewing findings of historical facts for clear error and determining whether those facts give rise to reasonable suspicion or probable cause, giving due weight to inferences drawn by the circuit court and proper deference to the circuit court's findings. Jackson v. State , 2013 Ark. 201, at 5-6, 427 S.W.3d 607, 611-12 ; Menne v. State , 2012 Ark. 37, 386 S.W.3d 451. A finding is clearly erroneous, even if there is evidence to support it, when the appellate court, after review of the entire evidence, is left with the definite and firm conviction that a mistake has been made. Jackson , supra.\nIII. Discussion\nOn appeal, Sossamon argues that the warrantless search of her bags was unconstitutional, asserting that the owner's consent to search the vehicle did not include her bags, nor did the police have probable cause to search her bags. We therefore examine the law surrounding warrantless searches.\nThe United States Supreme Court has held that a warrantless search or seizure is per se unreasonable unless it falls under a recognized exception to the warrant requirement. Katz v. United States , 389 U.S. 347, 357, 88 S.Ct. 507, 19 L.Ed.2d 576 (1967). We have followed this precedent in our own opinions. Tiller v. State , 2014 Ark. App. 431, at 7, 439 S.W.3d 705, 710. Here, Officer Gentry's search of Sossamon's bags was without a warrant and was thus per se unreasonable unless it fell under a recognized exception to the warrant requirement. Our court has stated that the burden of proof is on the State to justify the search. Mays v. State , 76 Ark. App. 169, 61 S.W.3d 919 (2001). On appeal, we make an independent determination based on the totality of the circumstances to ascertain whether the State has met its burden of justifying the warrantless search. Henley v. State , 95 Ark. App. 108, 111, 234 S.W.3d 316, 319 (2006). With these standards in mind, we now consider whether this warrantless search falls under a recognized exception.\nA. Consent\nWe recognize the consent of the subject of the search as an exception to the warrant requirement. See Lobania v. State , 60 Ark. App. 135, 137, 959 S.W.2d 72, 74 (1998) (\"Consent is a justification for a warrantless search.\"); see also Ark. R. Crim. P. 11.1(a) (\"An officer may conduct searches and make seizures without a search warrant or other color of authority if consent is given to the search.\"). The State must prove by clear and positive testimony that consent to search was freely and voluntarily given. Griffin v. State , 347 Ark. 788, 67 S.W.3d 582 (2002).\nIn this case, Dyer undisputedly gave her consent to search the vehicle that belonged to her. Sossamon, however, undisputedly refused to grant-and indeed withheld-her consent to the search of her personal belongings. Gentry clearly understood that Sossamon was withholding her consent to a search of her bags, and he allowed Sossamon to remove her bags from the vehicle because of her refusal to consent. The State therefore clearly failed to prove that Sossamon consented to a search of her possessions.\nWe must then consider whether Dyer's consent to the search of the vehicle somehow extended to Sossamon's belongings. This court has noted that \"where there are no limits placed on the search [of a vehicle], the consent to search includes any containers found inside the vehicle.\" Flores v. State , 87 Ark. App. 327, 334, 194 S.W.3d 207, 212 (2004). This does not mean, however, that a suspect cannot place limits on consent to search. See Florida v. Jimeno , 500 U.S. 248, 252, 111 S.Ct. 1801, 114 L.Ed.2d 297 (1991) (\"A suspect may of course delimit as he chooses the scope of the search to which he consents.\"). Our standard for measuring the scope of a suspect's consent under the Fourth Amendment is that of \"objective\" reasonableness-what would the typical reasonable person have understood by the exchange between the officer and the suspect. Id. at 251, 111 S.Ct. 1801 ; see also Miller v. State , 342 Ark. 213, 220, 27 S.W.3d 427, 431 (2000). Applying this standard to the facts herein, we hold that Dyer's consent did not extend to a search of Sossamon's personal belongings.\nHere, Dyer provided consent to search her car, but Sossamon withheld consent to search her personal belongings that had already been removed from the vehicle at the time of the initial search. Clearly, Sossamon had the right to withhold consent to a search of her belongings. A passenger in another's vehicle has standing to contest the search of his or her own personal belongings inside the vehicle. See Dixon v. State , 327 Ark. 105, 111, 937 S.W.2d 642, 645-46 (1997) (citing United States v. Infante-Ruiz , 13 F.3d 498 (1st Cir. 1994) (passenger had standing to challenge search of his own briefcase stored in the locked trunk of car); People v. Armendarez , 188 Mich.App. 61, 468 N.W.2d 893 (1991) (passenger who had no standing to challenge search of automobile did have standing to challenge search of his own personal effects in automobile)); see also United States v. Iraheta , 764 F.3d 455, 462 (5th Cir. 2014) (\"[P]assengers have standing to challenge searches to their luggage.\").\nWe acknowledge that the citations provided above relate to a passenger's standing to contest the search of personal belongings located within or inside the vehicle of another and that Sossamon's belongings were located outside the vehicle. Sossamon, however, very definitely placed a limit on the scope of the search. Any reasonable person would have understood her statements as limiting the scope of Gentry's search-and indeed expressly denying him the ability to search. Dyer's consent did not somehow abrogate Sossamon's right to refuse to consent. The Eighth Circuit has held that police may not rely on third-party consent if a person with a higher expectation of privacy is present and actively objects to the search. United States v. Ruiz , 935 F.2d 982, 984 (8th Cir. 1991). The State does not dispute that Sossamon had a higher expectation of privacy in her bags. As such, Dyer's consent to a search of the vehicle did not automatically extend to Sossamon's bags. Because there was no consent to search Sossamon's possessions, we then consider whether any other exception to the warrant requirement applies.\nB. Automobile/Probable Cause\nThe United States Supreme Court established another exception to the warrant requirement-the \"automobile exception\"-in Carroll v. United States , 267 U.S. 132, 45 S.Ct. 280, 69 L.Ed. 543 (1925), recognizing that the mobile nature of automobiles justifies a search, based on probable cause, even when a warrant has not yet been obtained. Arkansas has adopted guidelines for warrantless searches of vehicles in Rule 14.1 of the Arkansas Rules of Criminal Procedure, which provides in relevant part that a police officer\nwho has reasonable cause to believe that a moving ... vehicle ... contains things subject to seizure may, without a search warrant, stop, detain, and search the vehicle and may seize things subject to seizure discovered in the course of the search where the vehicle is:\n(i) on a public way.\nReasonable cause, as required by this rule, exists when officers have trustworthy information that rises to more than mere suspicion that the vehicle contains evidence subject to seizure and a person of reasonable caution would be justified in believing an offense has been committed or is being committed. Jackson , 2013 Ark. 201, at 9, 427 S.W.3d at 613.\nThe State concedes that Gentry's initial search that led to the discovery of drugs in Dyer's purse was not based on probable cause. Nonetheless, citing Wyoming v. Houghton , 526 U.S. 295, 119 S.Ct. 1297, 143 L.Ed.2d 408 (1999), the State urges us to conclude that once the consent-based search of the vehicle uncovered the drugs in Dyer's purse, Gentry developed probable cause to search Sossamon's personal belonging. We are not persuaded that Houghton is applicable.\nIn Houghton , a law-enforcement officer pulled a car over for speeding and driving with a faulty brake light. As he approached the vehicle, the officer saw a hypodermic syringe in the driver's pocket. The officer asked the driver to step out of the vehicle and asked him what the syringe was for, and the driver replied that he used it to take drugs. The officer then asked the two female passengers, one of whom was Sandra Houghton, to step out of the car. Houghton did so, leaving her purse in the back seat of the vehicle. Given the driver's admission to using the syringe for drugs, the officer searched the passenger compartment of the car for contraband. Houghton's purse was among the items searched, and the officer found drug paraphernalia and methamphetamine in it. Houghton , 526 U.S. at 298, 119 S.Ct. 1297.\nThe Wyoming trial court denied Houghton's motion to suppress the drugs found in her purse, and a jury convicted her on drug charges. The Wyoming Supreme Court reversed her conviction, holding that there had been no probable cause to search a passenger's personal effects and no reason to believe that contraband had been placed in her purse. The United States Supreme Court disagreed, however, relying on United States v. Ross , 456 U.S. 798, 102 S.Ct. 2157, 72 L.Ed.2d 572 (1982), which held that the permissible scope of a warrantless car search is defined by the object of the search and the places in which there is probable cause to believe that it may be found. Houghton , 526 U.S. at 302, 119 S.Ct. 1297. The Court declined to provide additional protection for a passenger's belongings, noting that \"[a] passenger's personal belongings, just like the driver's belongings or containers attached to the car like a glove compartment, are 'in' the car, and the officer has probable cause to search for contraband in the car.\" Id. (emphasis in original). The Supreme Court therefore concluded that police officers with probable cause to search a car may inspect a passenger's belongings found in the car that are capable of concealing the object of the search. Id. at 307, 119 S.Ct. 1297.\nWe find Houghton to be distinguishable in several respects. First, Houghton involved a search based on probable cause that was developed at the moment the officer pulled the vehicle over. In the instant case, Gentry's search was based on Dyer's consent to search the vehicle, which, as addressed above, did not extend to a search of Sossamon's bags. Indeed, Gentry testified that he did not have probable cause to search Sossamon's bags when she removed them from the vehicle: \"She took her bags out of the back seat. I did not take them out. They were in the back seat and she took them out. At that time, I didn't have probable cause to search her bags without her consent. After I found the drugs and paraphernalia in Ms. Dyer's bag, that is when I had probable cause to search Ms. Sossamon's bag. Before that, I did not have probable cause to search her bag.\"\nSecond, Houghton involved a search of personal belongings inside the vehicle. Here, Sossamon's bags were not inside the vehicle; they had been removed before the search of the vehicle even began. This second point of distinction is not just about location or distance. As seen in the quoted language above, the Houghton Court emphasized that an officer's probable cause extends to searches of containers in the car. In a concurring opinion, Justice Breyer clarified that \"the rule applies only to automobile searches. Equally obviously, the rule applies only to containers found within automobiles. \" Houghton , 526 U.S. at 308, 119 S.Ct. 1297 (Breyer, J., concurring) (emphasis added).\nArkansas has not specifically addressed the issue involved in this appeal. To that extent, it appears to be an issue of first impression, although our supreme court has held that if probable cause justifies the search of a lawfully stopped vehicle, it justifies the search of every part of the vehicle and its contents that may conceal the object of the search. State v. Crane , 2014 Ark. 443, 446 S.W.3d 182 (citing Ross , supra ).\nOther jurisdictions, however, have distinguished Houghton , often citing Justice Breyer's concurring opinion. For example, in State v. Boyd , 275 Kan. 271, 64 P.3d 419 (2003), the driver of a vehicle stopped for a traffic violation consented to a search of the vehicle. Boyd, a passenger in the vehicle, was ordered out of the car and was also ordered to leave her purse in the car when she exited, although she had attempted to take the purse with her. The police asked for Boyd's consent to search her purse, but she refused to consent. Police searched the purse anyway and found drugs. The Kansas trial court denied Boyd's motion to suppress the drugs, and on appeal, Boyd argued that Houghton was not controlling. The Kansas Court of Appeals agreed with her, and the State appealed to the Kansas Supreme Court. Id. at 422.\nThe Kansas court framed the question as whether Boyd's attempt to take her purse with her when she got out of the vehicle, which happened before the officers developed probable cause to search the vehicle, sufficiently distinguished the case from Houghton . Id. at 423. The court determined that it did. The court concluded that Boyd's purse was her personal property and under her control, and the officer had no right to order her to leave her personal belongings in the car. Moreover, at the time the officer ordered her out of the vehicle, he did not have probable cause to search her or her purse. Therefore, the search of Boyd's purse-even though it was inside the vehicle-violated her Fourth Amendment right against unreasonable searches. Id. at 427.\nLikewise, in State v. Funkhouser , 140 Md.App. 696, 782 A.2d 387 (2001), the Court of Special Appeals of Maryland held invalid the search of a \"fanny pack\" that the driver of the vehicle was wearing after he was ordered out of his vehicle. There, the defendant had been pulled over for an ostensible traffic violation and subsequently refused to consent to a search of his vehicle. Funkhouser , 782 A.2d at 394. The officers nonetheless searched the interior of the vehicle as well as the fanny pack. In upholding the lower court's suppression of the drugs that were subsequently found, the Maryland court noted that in Houghton , there was probable cause to search an automobile for contraband, and the purse that officers searched in that case was not attached to its owner's person. \"It was searched just as the rest of the automobile was searched.\" Id. at 398. The court continued:\nThe holding of Wyoming v. Houghton is that a container (1) sitting on its own (2) in an automobile is just as vulnerable to a warrantless automobile search as any other part of the automobile in which the suspected evidence might be lurking. The first requirement, clearly not satisfied in the case now before us, is that the container, in fact, be inside the automobile when the automobile is searched.\nId. The court went on to place special emphasis on numerous instances both in the Houghton opinion and in other Supreme Court opinions in which the Supreme Court emphasized that it was considering the search of a passenger's personal belongings inside an automobile. The court concluded:\nThe \"fanny pack\" in this case was not inside the Jeep Wrangler during the ... search of the Wrangler. Had it been and had it not been attached to the body of Funkhouser, it would unquestionably have been vulnerable to a warrantless search under Wyoming v. Houghton and United States v. Ross . Neither of those criteria, however, was satisfied.\nId. at 398. Accordingly, the court held that the warrantless search of the fanny pack was unreasonable. Id. at 399.\nHere, Officer Gentry conceded that he did not have probable cause to search the vehicle when he pulled it over; his search was based on Dyer's consent. He also conceded that at the time he pulled the vehicle over, he did not have probable cause to search Sossamon's personal belongings. Moreover, by the time Gentry discovered the drugs in Dyer's purse, Sossamon's bags were no longer inside the vehicle.\nGentry did not articulate any basis for searching Sossamon's bags other than his discovery of drugs inside Dyer's purse. The question then becomes whether the discovery of drugs in Dyer's purse gave rise to probable cause to search Sossamon's bags.\nWe cannot conclude that it did. In State v. Villines , 304 Ark. 128, 801 S.W.2d 29 (1990), the supreme court held that the mere presence of a marijuana cigarette and marijuana seeds in the passenger compartment of a vehicle did not supply the probable cause required for the search of a container found in the locked trunk of the car. There, the court noted that \"the presence of cigarette butts or marijuana seeds, without more, is just as consistent, or perhaps more so, with having only that small amount for personal use as it is with having a cache of marijuana; there is simply no articulable fact to indicate a cache is located in the trunk.\" Villines , 304 Ark. at 132, 801 S.W.2d at 31.\nSimilarly, here, the mere fact that Dyer had drugs in her purse, without more, does not provide a basis for assuming that Sossamon had drugs in her bags. See Ybarra v. Illinois , 444 U.S. 85, 91, 100 S.Ct. 338, 62 L.Ed.2d 238 (1979) (\"[A] person's mere propinquity to others independently suspected of criminal activity does not, without more, give rise to probable cause to search that person. Where the standard is probable cause, a search or seizure of a person must be supported by probable cause particularized with respect to that person.\") (internal citation omitted). Accordingly, we conclude the circuit court clearly erred in finding that Gentry had probable cause to search Sossamon's bags based on his finding of drugs in Dyer's purse.\nC. Inevitable Discovery\nDespite the illegality of the search, the State nonetheless contends that we can affirm the circuit court's decision pursuant to the doctrine of inevitable discovery. The inevitable-discovery rule provides that evidence otherwise subject to suppression can be admissible if the State proves by a preponderance of the evidence that the police would have inevitably discovered the evidence by lawful means. See Colbert v. State , 340 Ark. 657, 13 S.W.3d 162 (2000).\nThe State suggests that the drugs in Sossamon's bags would have been inevitably discovered \"because it is undisputed she was driving without a license. She could have been arrested for that offense and, pursuant to a search incident to that arrest, the drugs in her bags would have been discovered.\" The State's argument is belied by Officer Gentry's own testimony. He explained that he had no idea that Sossamon was not Tonya Adams until he took her to the police station following her arrest for the drugs in her bags. He also conceded that lying about one's name to a police officer in an investigation \"is a misdemeanor. Kind of like a speeding ticket. You just get a fine and a slap on the hand.\" Notably, however, he did not testify that he would have arrested her for giving false information about her identity.\nTo apply the inevitable-discovery rule, the State must prove that the police would have inevitably discovered the evidence by lawful means. Here, at best, the State presents argument of what \"could have\" happened and not what \"would have\" happened. The evidence offered by the State at both the suppression hearing and at the trial fell short of this standard. We therefore decline to affirm the circuit court's decision on this alternative basis.\nIV. Conclusion\nOfficer Gentry's search of Sossamon's personal belongings, conducted after they were removed from the vehicle and without individualized probable cause, was unreasonable. The circuit court clearly erred in denying Sossamon's motion to suppress the drugs.\nReversed and remanded.\nVirden and Gladwin, JJ., agree.\nIn reviewing the facts that led to the circuit court's ruling on Sossamon's motion to suppress, we consider the testimony from both the suppression hearing and Sossamon's subsequent trial. We have frequently noted that the suppression-hearing testimony is not the only evidence we consider when reviewing the denial of a motion to suppress. See Wells v. State , 2018 Ark. App. 391, 2018 WL 4212255 ; Cain v. State , 2010 Ark. App. 30, at 5, 373 S.W.3d 392, 395 (\"We review the entire record ..., not just the record of the suppression hearing.\").\nOfficer Gentry also observed that the car did not have a functioning license-plate light.\nAt the suppression hearing, Gentry testified that he did not remember whether he took the bags out of the car or if Sossamon did; at trial, he testified that he told Sossamon he would not look in the bags, and he then let her remove them from the car \"just to avoid the issue.\"\nGentry did not discover the false information until after Sossamon had been arrested as a result of the search and taken to the police station.\nJustice Breyer noted that the automobile exception \"does not extend to the search of a person found in that automobile.\" He further commented that \"[p]urses are special containers. They are repositories of especially personal items that people generally like to keep with them at all times. So I am tempted to say that a search of a purse involves an intrusion so similar to a search of one's person that the same rule should govern both.\" Id.\nIn its brief, the State takes the position that \"[i]t should not be that a citizen can defeat a right to search simply by taking or attempting to remove personal property from an automobile.\" (Emphasis added.) The State is mistaken in its contention. A police officer's \"right to [conduct a warrantless] search and the validity of the search are dependent upon the reasonableness of the cause the searching officer has for believing that the contents of the automobile offend against the law.\" Williams v. State , 26 Ark. App. 62, 65-66, 760 S.W.2d 71, 73 (1988) ; Rowland v. State , 262 Ark. 783, 561 S.W.2d 304 (1978). As discussed herein, Gentry had no reasonable cause to believe that the contents of Sossamon's bags might \"offend against the law.\"",
+        "type": "majority",
+        "author": "PHILLIP T. WHITEAKER, Judge"
+      }
+    ],
+    "attorneys": [
+      "Brett D. Watson, Attorney at Law, PLLC, by: Brett D. Watson, for appellant.",
+      "Leslie Rutledge, Att'y Gen., by: Pamela Rumpz, Ass't Att'y Gen., for appellee."
+    ],
+    "corrections": "",
+    "head_matter": "Karen SOSSAMON, Appellant\nv.\nSTATE of Arkansas, Appellee\nNo. CR-18-930\nCourt of Appeals of Arkansas, DIVISION IV.\nOpinion Delivered May 8, 2019\nBrett D. Watson, Attorney at Law, PLLC, by: Brett D. Watson, for appellant.\nLeslie Rutledge, Att'y Gen., by: Pamela Rumpz, Ass't Att'y Gen., for appellee."
+  },
+  "file_name": "0520-01",
+  "first_page_order": 520,
+  "last_page_order": 530
+}

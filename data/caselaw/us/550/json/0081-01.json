@@ -1,0 +1,813 @@
+{
+  "id": 3556045,
+  "name": "ZUNI PUBLIC SCHOOL DISTRICT NO. 89 et al. v. DEPARTMENT OF EDUCATION et al.",
+  "name_abbreviation": "Zuni Public School District No. 89 v. Department of Education",
+  "decision_date": "2007-04-17",
+  "docket_number": "No. 05-1508",
+  "first_page": "81",
+  "last_page": "123",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "550 U.S. 81"
+    },
+    {
+      "type": "parallel",
+      "cite": "167 L. Ed. 2d 449"
+    },
+    {
+      "type": "parallel",
+      "cite": "127 S. Ct. 1534"
+    },
+    {
+      "type": "vendor",
+      "cite": "2007 U.S. LEXIS 4335"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2006-030"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "467 U. S. 837",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6209106
+      ],
+      "weight": 3,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "842-843"
+        },
+        {
+          "page": "842-843"
+        },
+        {
+          "page": "842-843"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/467/0837-01"
+      ]
+    },
+    {
+      "cite": "20 U. S. C. \u00a7 7709",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "(b)(2)(B)(i)",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "(b)(2)(A)"
+        },
+        {
+          "page": "(b)(2)(B)(iMii)"
+        },
+        {
+          "page": "(b)(2)(A)"
+        },
+        {
+          "parenthetical": "2000 ed. and Supp. IV"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "108 Stat. 3749",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "20 U. S. C. \u00a7 7701",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "393 F. 3d 1158",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9174462
+      ],
+      "year": 2004,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/393/1158-01"
+      ]
+    },
+    {
+      "cite": "437 F. 3d 1289",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        969617,
+        969615
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/437/1289-01",
+        "/f3d/437/1289-02"
+      ]
+    },
+    {
+      "cite": "529 U. S. 576",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9508888
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "589"
+        },
+        {
+          "page": "589"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/529/0576-01"
+      ]
+    },
+    {
+      "cite": "534 U. S. 438",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9108314
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "450"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/534/0438-01"
+      ]
+    },
+    {
+      "cite": "533 U. S. 218",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9313070
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "234"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/533/0218-01"
+      ]
+    },
+    {
+      "cite": "512 U. S. 218",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        39341
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "231"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/512/0218-01"
+      ]
+    },
+    {
+      "cite": "20 U. S. C. \u00a7 240",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(d)(2)(B)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "41 Fed. Reg. 26320",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "weight": 2,
+      "year": 1976,
+      "pin_cites": [
+        {
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "41 Fed. Reg. 26324",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "weight": 6,
+      "opinion_index": 0
+    },
+    {
+      "cite": "34 CFR \u00a7 222.162",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 3,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "(b)(1)",
+          "parenthetical": "authorizing such a system"
+        },
+        {
+          "parenthetical": "What disparity standard must a State meet in order to be certified, and how are disparities in current expenditures or revenues per pupil measured?"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "20 U.S.C. \u00a76311",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(b)(2)(E)(ii)",
+          "parenthetical": "2000 ed., Supp. IV"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "513 U. S. 115",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1332238
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "118"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/513/0115-01"
+      ]
+    },
+    {
+      "cite": "529 U. S. 120",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9508268
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "132-133",
+          "parenthetical": "\"[mjeaning - or ambiguity - of certain words or phrases may only become evident when placed in context\" (emphasis added)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/529/0120-01"
+      ]
+    },
+    {
+      "cite": "20 U. S. C. \u00a7 7709",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(b)(2)(B)(i)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "467 U. S. 837",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6209106
+      ],
+      "weight": 3,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "842"
+        },
+        {
+          "page": "843, n. 9"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/467/0837-01"
+      ]
+    },
+    {
+      "cite": "458 U. S. 564",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        636708
+      ],
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "571"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/458/0564-01"
+      ]
+    },
+    {
+      "cite": "489 U. S. 235",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12031939
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "242"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/489/0235-01"
+      ]
+    },
+    {
+      "cite": "501 U. S. 597",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1107682
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "610, n. 4"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/501/0597-01"
+      ]
+    },
+    {
+      "cite": "443 U. S. 193",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6181734
+      ],
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "230-253",
+          "parenthetical": "Rehnquist, J., dissenting"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/443/0193-01"
+      ]
+    },
+    {
+      "cite": "143 U. S. 457",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6140418
+      ],
+      "year": 1892,
+      "pin_cites": [
+        {
+          "page": "459",
+          "parenthetical": "\"It is a familiar rule, that a thing may be within the letter of the statute and yet not within the statute, because not within its spirit, nor within the intention of its makers\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/143/0457-01"
+      ]
+    },
+    {
+      "cite": "467 U. S. 837",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6209106
+      ],
+      "weight": 4,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "842"
+        },
+        {
+          "page": "843"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/467/0837-01"
+      ]
+    },
+    {
+      "cite": "20 U. S. C. \u00a7 7709",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 8,
+      "pin_cites": [
+        {
+          "page": "(b)(2)(B)(i)",
+          "parenthetical": "Secretary shall \"disregard local educational agencies with per-pupil expenditures or revenues above the 95th percentile or below the 5th percentile of such expenditures or revenues in the State\" (emphasis added)"
+        },
+        {
+          "page": "36",
+          "parenthetical": "\"Each and every student in an LEA and in a [S]tate may be treated as having his or her own 'per-pupil' expenditure or revenue amount\""
+        },
+        {
+          "page": "(b)(2)(B)(i)"
+        },
+        {
+          "page": "(b)(2)(A)",
+          "parenthetical": "referring to \"a program of State aid [that] equalizes expenditures among local educational agencies\""
+        },
+        {
+          "page": "(b)(1)",
+          "parenthetical": "2000 ed., Supp. IV"
+        },
+        {
+          "page": "53"
+        }
+      ],
+      "opinion_index": 3
+    },
+    {
+      "cite": "20 U. S. C. \u00a7 7701",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "et seq.",
+          "parenthetical": "2000 ed. and Supp. IV"
+        }
+      ],
+      "opinion_index": 3
+    },
+    {
+      "cite": "393 F. 3d 1158",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9174462
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "1172",
+          "parenthetical": "O'Brien, J., dissenting"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/f3d/393/1158-01"
+      ]
+    },
+    {
+      "cite": "437 F. 3d 1289",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        969617,
+        969615
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "1290",
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/f3d/437/1289-01",
+        "/f3d/437/1289-02"
+      ]
+    },
+    {
+      "cite": "467 U. S. 837",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6209106
+      ],
+      "year": 1984,
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/467/0837-01"
+      ]
+    },
+    {
+      "cite": "458 U. S. 564",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        636708
+      ],
+      "weight": 7,
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "570"
+        },
+        {
+          "page": "574"
+        },
+        {
+          "page": "575"
+        },
+        {
+          "page": "576"
+        },
+        {
+          "page": "571"
+        },
+        {
+          "page": "586",
+          "parenthetical": "Stevens, J., dissenting"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/458/0564-01"
+      ]
+    },
+    {
+      "cite": "143 U. S. 457",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6140418
+      ],
+      "weight": 3,
+      "year": 1892,
+      "pin_cites": [
+        {
+          "page": "459"
+        },
+        {
+          "page": "471"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/143/0457-01"
+      ]
+    },
+    {
+      "cite": "533 U. S. 167",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9312991
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "172"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/533/0167-01"
+      ]
+    },
+    {
+      "cite": "520 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11650897
+      ],
+      "weight": 2,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "6"
+        },
+        {
+          "page": "4"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/520/0001-01"
+      ]
+    },
+    {
+      "cite": "46 U. S. C. \u00a7596",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "parenthetical": "1976 ed."
+        }
+      ],
+      "opinion_index": 3
+    },
+    {
+      "cite": "489 U. S. 285",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "year": 1989,
+      "opinion_index": 3
+    },
+    {
+      "cite": "242 U. S. 470",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3934939
+      ],
+      "year": 1917,
+      "pin_cites": [
+        {
+          "page": "485"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/242/0470-01"
+      ]
+    },
+    {
+      "cite": "501 U. S. 380",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1107846
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "417",
+          "parenthetical": "Scalia, J., dissenting"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/501/0380-01"
+      ]
+    },
+    {
+      "cite": "108 Stat. 3575",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 3
+    },
+    {
+      "cite": "20 U.S.C. \u00a7 6337",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(b)(1)(A)"
+        }
+      ],
+      "opinion_index": 3
+    },
+    {
+      "cite": "543 U.S. 50",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5956351
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "73-74",
+          "parenthetical": "Scalia, J., dissenting"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/543/0050-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 2116,
+    "char_count": 77829,
+    "ocr_confidence": 0.673,
+    "pagerank": {
+      "raw": 5.950566350813515e-07,
+      "percentile": 0.9535372525579676
+    },
+    "sha256": "6d15c2ae36f5c7a892c93846c1d68f232cca5fb224238f026a9abbb3e215d787",
+    "simhash": "1:8355a6f8fb372648",
+    "word_count": 12511
+  },
+  "last_updated": "2024-02-27T16:14:56.834045+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Breyer, J., delivered the opinion of the Court, in which Stevens, Kennedy, Ginsburg, and Auto, JJ., joined. Stevens, J., filed a concurring opinion, post, p. 104. Kennedy, J., filed a concurring opinion, in which Auto, J., joined, post, p. 107. Scaua, J., filed a dissenting opinion, in which Roberts, C. J., and Thomas, J., joined, and in which Souter, J., joined as to Part I, post, p. 108. Souter, J., filed a dissenting opinion, post, p. 123.",
+      "Justice Alito joins, concurring.",
+      "The Chief Justice and Justice Thomas join, and with whom Justice Souter joins as to Part I, dissenting."
+    ],
+    "parties": [
+      "ZUNI PUBLIC SCHOOL DISTRICT NO. 89 et al. v. DEPARTMENT OF EDUCATION et al."
+    ],
+    "opinions": [
+      {
+        "text": "Justice Breyer\ndelivered the opinion of the Court.\nA federal statute sets forth a method that the Secretary of Education is to use when determining whether a State\u2019s public school funding program \u201cequalizes expenditures\u201d throughout the State. The statute instructs the Secretary to calculate the disparity in per-pupil expenditures among local school districts in the State. But, when doing so, the Secretary is to \u201cdisregard\u201d school districts \u201cwith per-pupil expenditures . . . above the. 95th percentile or below the 5th percentile of such expenditures. ..in the State.\u201d 20 U. S. C. \u00a7 7709(b)(2)(B)(i) (emphasis added).\nThe question before us is whether the emphasized statutory language permits the Secretary to identify the school districts that should be \u201cdisregardfed]\u201d by looking to the number of the district\u2019s pupils as well as to the size of the district\u2019s expenditures per pupil. We conclude that it does.\nI\nA\nThe federal Impact Aid Act, 108 Stat. 3749, as amended, 20 U. S. C. \u00a7 7701 et seq., provides financial assistance to local school districts whose ability to finance public school education is adversely affected by a federal presence. Federal aid is available to districts, for example, where a significant amount of federal land is exempt from local property taxes, or where the federal presence is responsible for an increase in school-age children (say, of armed forces personnel) whom local schools must educate. See \u00a7 7701 (2000 ed. and Supp. IV). The statute typically prohibits a State from offsetting this federal aid by reducing its own state aid to the local district. If applied without exceptions, however, this prohibition might unreasonably interfere with a state program that seeks to equalize per-pupil expenditures throughout the State, for instance, by preventing the state program from taking account of a significant source of federal funding that some local school districts receive. The statute consequently contains an exception that permits a State to compensate for federal impact aid where \u201cthe Secretary [of Education] determine^] and certifies . . . that the State has in effect a program of State aid that equalizes expenditures for free public education among local [school districts] in the State.\u201d \u00a7 7709(b)(1) (2000 ed., Supp. IV) (emphasis added).\nThe statute sets out a formula that the Secretary of Education must use to determine whether a state aid program satisfies the federal \u201cequalization]\u201d requirement. The formula instructs the Secretary to compare the local school district with the greatest per-pupil expenditures to the school district with the smallest per-pupil expenditures to see whether the former exceeds the latter by more than 25 percent. So long as it does not, the state aid program qualifies as a program that \u201cequalizes expenditures.\u201d More specifically the statute provides that \u201ca program of state aid\u201d qualifies, i. e., it \u201cequalizes expenditures\u201d among local school districts if,\n\u201cin the second fiscal year preceding the fiscal year for which the determination is made, the amount of per-pupil expenditures made by [the local school district] with the highest such per-pupil expenditures . . . did not exceed the amount of such per-pupil expenditures made by [the local school district] with the lowest such expenditures ... by more than 25 percent.\u201d \u00a7 7709(b)(2)(A) (2000 ed.).\nThe statutory provision goes on to set forth what we shall call the \u201cdisregard\u201d instruction. It states that, when \u201cmaking\u201d this \u201cdetermination,\u201d the \u201cSecretary shall... disregard [school districts] with per-pupil expenditures ... above the 95th percentile or below the 5th percentile of such expenditures.\u201d \u00a7 7709(b)(2)(B)(i) (emphasis added). It adds that the Secretary shall further\n\u201ctake into account the extent to which [the state program reflects the special additional costs that some school districts must bear when they are] geographically isolated [or when they provide education for] particular types of students, such as children with disabilities.\u201d \u00a7 7709(b)(2)(B)(ii).\nB\nThis case requires us to decide whether the Secretary\u2019s present calculation method is consistent with the federal statute\u2019s \u201cdisregard\u201d instruction. The method at issue is contained in a set of regulations that the Secretary first promulgated 30 years ago. Those regulations essentially state the following:\nWhen determining whether a state aid program \u201cequalizes expenditures\u201d (thereby permitting the State to reduce its own local funding on account of federal impact aid), the Secretary will first create a list of school districts ranked in order of per-pupil expenditure. The Secretary will then identify the relevant percentile cutoff point on that list on the basis of a specific (95th or 5th) percentile of student population \u2014 essentially identifying those districts whose students account for the 5 percent of the State\u2019s total student population that lies at both the high and low ends of the spending distribution. Finally the Secretary will compare the highest spending and lowest spending school districts of those that remain to see whether they satisfy the statute\u2019s requirement that the disparity between them not exceed 25 percent.\nThe regulations set forth this calculation method as follows:\n\u201c [D]eterminations of disparity in current expenditures ... per-pupil are made by\u2014\n\u201c(i) Ranking all [of the State\u2019s school districts] on the basis of current expenditures .. . per pupil [in the relevant statutorily determined year];\n\u201c(ii) Identifying those [school districts] that fall at the 95th and 5th percentiles of the total number of pupils in attendance [at all the State\u2019s school districts taken together]; and\n\u201c(iii) Subtracting the lower current expenditure . . . per pupil figure from the higher for those [school districts] identified in paragraph (ii) and dividing the difference by the lower figure.\u201d 34 CFR pt. 222, subpt. K, App., \u00b6 1 (2006).\nThe regulations also provide an illustration of how to perform the calculation:\n\u201cIn State X, after ranking all [school districts] in order of the expenditures per pupil for the [statutorily determined] fiscal year in question, it is ascertained by counting the number of pupils in attendance in those [school districts] in ascending order of expenditure that the 5th percentile of student population is reached at [school district A] with a per pupil expenditure of $820, and that the 95th percentile of student population is reached at [school district B] with a per pupil expenditure of $1,000. The percentage disparity between the 95th percentile and the 5th percentile [school districts] is 22 percent ($1000 - $820 = $180/$820).\u201d Ibid.\nBecause 22 percent is less than the statutory \u201c25 percent\u201d requirement, the state program in the example qualifies as a program that \u201cequalizes expenditures.\u201d\nc\nThis case concerns the Department of Education\u2019s application of the Secretary\u2019s regulations to New Mexico\u2019s local district aid program in respect to fiscal year 2000. As the regulations require, Department officials listed each of New Mexico\u2019s 89 local school districts in order of per-pupil spending for fiscal year 1998. (The calculation in New Mexico\u2019s case was performed, as the statute allows, on the basis of per-pupil revenues, rather than per-pupil expenditures. See 20 U. S. C. \u00a7 7709(b)(2)(A). See also Appendix B, infra. For ease of reference we nevertheless refer, in respect to New Mexico\u2019s figures and throughout the opinion, only to \u201cper-pupil expenditures.\u201d) After ranking the districts, Department officials excluded 17 school districts at the top of the list because those districts contained (cumulatively) less than 5 percent of the student population; for the same reason, they excluded an additional 6 school districts at the bottom of the list.\nThe remaining 66 districts accounted for approximately 90 percent of the State\u2019s student population. Of those, the highest ranked district spent $3,259 per student; the lowest ranked district spent $2,848 per student. The difference, $411, was less than 25 percent of the lowest per-pupil figure, namely, $2,848. Hence, the officials found that New Mexico\u2019s local aid program qualifies as a program that \u201cequalizes expenditures.\u201d New Mexico was therefore free to offset federal impact aid to individual districts by reducing state aid to those districts.\nTwo of New Mexico\u2019s public school districts, Zuni Public School District and Gallup-McKinley County Public School District (whom we shall collectively call Zuni), sought further agency review of these findings. Zuni conceded that the Department\u2019s calculations were correct in terms of the Department\u2019s own regulations. Zuni argued, however, that the regulations themselves are inconsistent with the authorizing statute. That statute, in its view, requires the Department to calculate the 95th and 5th percentile cutoffs solely on the basis of the number of school districts (ranked by their per-pupil expenditures), without any consideration of the number of pupils in those districts. If calculated as Zuni urges, only 10 districts (accounting for less than 2 percent of all students) would have been identified as the outliers that the statute instructs the Secretary to disregard. The difference, as a result, between the highest and lowest per-pupil expenditures of the remaining districts (26.9 percent) would exceed 25 percent. Consequently, the statute would forbid New Mexico to take account of federal impaet aid as it decides how to equalize school funding across the State. See N. M. Stat. Ann. \u00a7 22-8-1 et seq. (2006).\nA Department of Education Administrative Law Judge rejected Zuni\u2019s challenge to the regulations. The Secretary of Education did the same. Zuni sought review of the Secretary\u2019s decision in the Court of Appeals for the Tenth Circuit. 393 F. 3d 1158 (2004). Initially, a Tenth Circuit panel affirmed the Secretary\u2019s determination by a split vote (2 to 1). Subsequently, the full Court of Appeals vacated the panel\u2019s decision and heard the matter en banc. The 12-member en banc court affirmed the Secretary but by an evenly divided court (6 to 6). 437 F. 3d 1289 (2006) (per curiam). Zuni sought certiorari. We agreed to decide the matter.\nII\nA\nZuni\u2019s strongest argument rests upon the literal language of the statute. Zuni concedes, as it must, that if the language of the statute is open or ambiguous \u2014 that is, if Congress left a \u201cgap\u201d for the agency to fill \u2014 then we must uphold the Secretary\u2019s interpretation as long as it is reasonable. See Chevron U. S. A Inc. v. Natural Resources Defense Council, Inc., 467 U. S. 837, 842-843 (1984). See also Christensen v. Harris County, 529 U. S. 576, 589, n. (Scalia, J., concurring in part and concurring in judgment). For purposes of exposition, we depart from a normal order of discussion, namely, an order that first considers Zuni\u2019s statutory language argument. See Barnhart v. Sigmon Coal Co., 534 U. S. 438, 450 (2002). Instead, because of the technical nature of the language in question, we shall first examine the provision\u2019s background and basic purposes. That discussion will illuminate our subsequent analysis in Part II-B, infra. It will also reveal why Zuni concentrates its argument upon language alone.\nConsiderations other than language provide us with unusually strong indications that Congress intended to leave the Secretary free to use the calculation method before us and that the Secretary\u2019s chosen method is a reasonable one. For one thing, the matter at issue \u2014 i. e., the calculation method for determining whether a state aid program \u201cequalizes expenditures\u201d \u2014 is the kind of highly technical, specialized interstitial matter that Congress often does not decide itself, but delegates to specialized agencies to decide. See United States v. Mead Corp., 533 U. S. 218, 234 (2001); cf. MCI Telecommunications Corp. v. American Telephone & Telegraph Co., 512 U. S. 218, 231 (1994); Christensen, supra, at 589, n. (opinion of Scalia, J.).\nFor another thing, the history of the statute strongly supports the Secretary. Congress first enacted an impact aid \u201cequalization\u201d exception in 1974. The exception originally provided that the \u201cter[m]... \u2018equalizing] expenditures\u2019 . . . shall be defined by the [Secretary].\u201d 20 U. S. C. \u00a7 240(d)(2)(B) (1970 ed., Supp. IV). Soon thereafter, in 1976, the Secretary promulgated the regulation here at issue defining the term \u201cequalizing expenditures\u201d in the manner now before us. See Part I-B, supra. As far as we can tell, no Member of Congress has ever criticized the method the 1976 regulation sets forth nor suggested at any time that it be revised or reconsidered.\nThe present statutory language originated in draft legislation that the Secretary himself sent to Congress in 1994. With one minor change (irrelevant to the present calculation controversy), Congress adopted that language without comment or clarification. No one at the time \u2014 no Member of Congress, no Department of Education official, no school district or State \u2014 expressed the view that this statutory language (which, after all, was supplied by the Secretary) was intended to require, or did require, the Secretary to change the Department\u2019s system of calculation, a system that the Department and school districts across the Nation had followed for nearly 20 years, without (as far as we are told) any adverse effect.\nFinally, viewed in terms of the purpose of the statute\u2019s disregard instruction, the Secretary\u2019s calculation method is reasonable, while the reasonableness of a method based upon the number of districts alone (Zuni\u2019s proposed method) is more doubtful. When the Secretary (then Commissioner) of Education considered the matter in 1976, he explained why that is so.\nInitially the Secretary pointed out that the \u201cexclusion of the upper and bottom 5 percentile school districts is based upon the accepted principle of statistical evaluation that such percentiles usually represent unique or noneharacteristic situations.\u201d 41 Fed. Reg. 26320 (1976) (emphasis added). That purpose, a purpose to exclude statistical outliers, is evident in the language of the present statute. The provision uses the technical term \u201cpercentile\u201d; it refers to cutoff numbers (\u201c95th\u201d and \u201c5th\u201d) often associated with scientific calculations; and it directly precedes another statutory provision that tells the Secretary to account for those districts, from among the middle 5th to 95th percentile districts, that remain \u201cnoncharacteristic\u201d in respect to geography or the presence of special students (such as disabled students). See 20 U. S. C. \u00a7\u00a77709(b)(2)(B)(iMii) (2000 ed.).\nThe Secretary added that under the regulation\u2019s calculation system the \u201cpercentiles\u201d would be \u201cdetermined on the basis of numbers of pupils and not on the basis of numbers of districts.\u201d 41 Fed. Reg. 26324. He said that to base \u201can exclusion on numbers of districts\u201d alone \u201cwould act to apply the disparity standard in an unfair and inconsistent manner among States.\u201d Ibid. He then elaborated upon his concerns:\n\u201cThe purpose of the exclusion is to eliminate those anomalous characteristics of a distribution of expenditures. In States with a small number of large districts, an exclusion based on percentage of school districts might exclude from the measure of disparity a substantial percentage of the pupil population in those States. Conversely, in States with large numbers of small districts, such an approach might exclude only an insignificant fraction of the pupil population and would not exclude anomalous characteristics.\u201d Ibid.\nTo understand the Secretary\u2019s first problem, consider an exaggerated example, say, a State with 80 school districts of unequal size. Suppose 8 of the districts include urban areas and together account for 70 percent of the State\u2019s students, while the remaining 72 districts include primarily rural areas and together account for 30 percent of the State\u2019s students. If the State\u2019s greatest funding disparities are among the 8 urban districts, Zuni\u2019s calculation method (which looks only at the number of districts and ignores their size) would require the Secretary to disregard the system\u2019s 8 largest districts (i. e., 10 percent of the number 80) even though those 8 districts (because they together contain 70 percent of the State\u2019s pupils) are typical of, indeed characterize, the State\u2019s public school system. It would require the Secretary instead to measure the system\u2019s expenditure equality by looking only to noncharacteristic districts that are not representative of the system as a whole, indeed districts accounting for only 30 percent of the State\u2019s pupils. Thus, according to Zuni\u2019s method, the Secretary would have to certify a state aid program as one that \u201cequalizes expenditures\u201d even if there were gross disparities in per-pupil expenditures among urban districts accounting for 70 percent of the State\u2019s students. By way of contrast, the Secretary\u2019s method, by taking into account a district\u2019s size as well as its expenditures, would avoid a calculation that would produce results so contrary to the statute\u2019s objective.\nTo understand the Secretary\u2019s second problem consider this very case. New Mexico\u2019s 89 school districts vary significantly in respect to the number of pupils each contains. Zuni\u2019s calculation system nonetheless forbids the Secretary to discount more than 10 districts \u2014 10 percent of the total number of districts (rounded up). But these districts taken together account for only 1.8 percent of the State\u2019s pupils. To eliminate only those districts, instead of eliminating districts that together account for 10 percent of the State\u2019s pupils, risks resting the \u201cdisregard\u201d calculation upon a few particularly extreme noncharacteristic districts, yet again contrary to the statute\u2019s intent.\nThus, the history and purpose of the disregard instruction indicate that the Secretary\u2019s calculation formula is a reasonable method that carries out Congress\u2019 likely intent in enacting the statutory provision before us.\nB\nBut what of the provision\u2019s literal language? The matter is important, for normally neither the legislative history nor the reasonableness of the Secretary\u2019s method would be determinative if the plain language of the statute unambiguously indicated that Congress sought to foreclose the Secretary\u2019s interpretation. And Zuni argues that the Secretary\u2019s formula could not possibly effectuate Congress\u2019 intent since the statute\u2019s language literally forbids the Secretary to use such a method. Under this Court\u2019s precedents, if the intent of Congress is clear and unambiguously expressed by the statutory language at issue, that would be the end of our analysis. See Chevron, 467 U. S., at 842-843. A customs statute that imposes a tariff on \u201cclothing\u201d does not impose a tariff on automobiles, no matter how strong the policy arguments for treating the two kinds of goods alike. But we disagree with Zuni\u2019s conclusion, for we believe that the Secretary\u2019s method falls within the scope of the statute\u2019s plain language.\nThat language says that, when the Secretary compares (for a specified fiscal year) \u201cthe amount of per-pupil expenditures made by\u201d (1) the highest-per-pupil-expenditure district and (2) the lowest-per-pupil-expenditure district, \u201cthe Secretary shall... disregard\u201d local school districts \u201cwith per-pupil expenditures . . . above the 95th percentile or below the 5th percentile of such expenditures in the State.\u201d 20 U. S. C. \u00a7\u00a7 7709(b)(2)(A), (B)(i). The word \u201csuch\u201d refers to \u201cper-pupil expenditures\u201d (or more precisely to \u201cper-pupil expenditures\u201d in the test year specified by the statute). The question then is whether the phrase \u201cabove the 95th percentile ... of.. . [per pupil] expenditures\u201d permits the Secretary to calculate percentiles by (1) ranking local districts, (2) noting the student population of each district, and (3) determining the cutoff point on the basis of districts containing 95 percent (or 5 percent) of the State\u2019s students.\nOur answer is that this phrase, taken with absolute literalness, limits the Secretary to calculation methods that involve \u201cper-pupil expenditures.\u201d But it does not tell the Secretary which of several different possible methods the Department must use. Nor does it rule out the present formula, which distributes districts in accordance with per-pupil expenditures, while essentially weighting each district to reflect the number of pupils it contains.\nBecause the statute uses technical language (e. g., \u201cpercentile\u201d) and seeks a technical purpose (eliminating uncharacteristic, or outlier, districts), we have examined dictionary definitions of the term \u201cpercentile.\u201d See 41 Fed. Reg. 26320 (Congress intended measurements based upon an \u201caccepted principle of statistical evaluation\u201d (emphasis added)). Those definitions make clear that \u201cpercentile\u201d refers to a division of a distribution of some population into 100 parts. Thus, Webster\u2019s Third New International Dictionary 1675 (1961) (Webster\u2019s Third) defines \u201cpercentile\u201d as \u201cthe value of the statistical variable that marks the boundary between any two consecutive intervals in a distribution of 100 intervals each containing one percent of the total population.\u201d A standard economics dictionary gives a similar definition for \u201cpercentiles\u201d:\n\u201cThe values separating hundredth parts of a distribution, arranged in order of size. The 99th percentile of the income distribution, for example, is the income level such that only one per cent of the population have larger incomes.\u201d J. Black, A Dictionary of Economics 348-349 (2d ed. 2002).\nA dictionary of mathematics states: \u201cThe n-th percentile is the value Xniiw such that n per cent of the population is less than or equal to XnJioo\u201d It adds that \u201c[t]he terms can be modified, though not always very satisfactorily, to be applicable to a discrete random variable or to a large sample ranked in ascending order.\u201d C. Clapham & J. Nicholson, The Concise Oxford Dictionary of Mathematics 378-379 (3d ed. 2005) (emphasis deleted). The American Heritage Science Dictionary 468 (2005) explains that a percentile is \u201c[a]ny of the 100 equal parts into which the range of the values of a set of data can be divided in order to show the distribution of those values.\u201d And Merriam-Webster\u2019s Medical Desk Dictionary 612 (2002) describes percentile as \u201ca value on a scale of one hundred that indicates the percent of a distribution that is equal to or below it.\u201d\nThese definitions, mainstream and technical, all indicate that, in order to identify the relevant percentile cutoffs, the Secretary must construct a distribution of values. That distribution will consist of a \u201cpopulation\u201d ranked according to a characteristic. That characteristic takes on a \u201cvalue\u201d for each member of the relevant population. The statute\u2019s instruction to identify the 95th and 5th \u201cpercentile of such expenditures\u201d makes clear that the relevant characteristic for ranking purposes is per-pupil expenditure during a particular year. But the statute does not specify precisely what population is to be \u201cdistributed\u201d (i. e., ranked according to the population\u2019s corresponding values for the relevant characteristic). Nor does it set forth various details as to how precisely the distribution is to be constructed (as long as it is ranked according to the specified characteristic).\nBut why is Congress\u2019 silence in respect to these matters significant? Are there several different populations, relevant here, that one might rank according to \u201cper-pupil expenditures\u201d (and thereby determine in several different ways a cutoff point such that \u201cn percent of [that] population\u201d falls, say, below the percentile cutoff)? We are not experts in statistics, but a statistician is not needed to see what the dictionary does not say. No dictionary definition we have found suggests that there is any single logical, mathematical, or statistical link between, on the one hand, the characterizing data (used for ranking purposes) and, on the other hand, the nature of the relevant population or how that population might be weighted for purposes of determining a percentile cutoff.\nHere, the Secretary has distributed districts, ranked them according to per-pupil expenditure, but compared only those that account for 90 percent of the State\u2019s pupils. Thus, the Secretary has used \u2014 as her predecessors had done for a quarter century before her \u2014 the State\u2019s students as the relevant population for calculating the specified percentiles. Another Secretary might have distributed districts, ranked them by per-pupil expenditure, and made no reference to the number of pupils (a method that satisfies the statute\u2019s language but threatens the problems the Secretary long ago identified, see 41 Fed. Reg. 26324; supra, at 91-93). A third Secretary might have distributed districts, ranked them by per-pupil expenditure, but compared only those that account for 90 percent of total pupil expenditures in the State. A fourth Secretary might have distributed districts, ranked them by per-pupil expenditure, but calculated the 95th and 5th percentile cutoffs using the per-pupil expenditures of all the individual schools in the State. See 41 Fed. Reg. 26324 (considering this system of calculation). A fifth Secretary might have distributed districts, ranked them by per-pupil expenditure, but accounted in his disparity calculation for the sometimes significant differences in per-pupil spending at different grade levels. See 34 CFR \u00a7 222.162(b)(1) (2006) (authorizing such a system); id., pt. 222, subpt. K, App. See also Appendix B, infra.\nEach of these methods amounts to a different way of determining which districts fall between the 5th and 95th \u201cpercentile of per-pupil expenditures.\u201d For purposes of that calculation, they each adopt different populations \u2014 students, districts, schools, and grade levels. Yet, linguistically speaking, one may attribute the characteristic of per-pupil expenditure to each member of any such population (though the values of that characteristic may be more or less readily available depending on the chosen population, see 41 Fed. Reg. 26324). Hence, the statute\u2019s literal language covers any or all of these methods. That language alone does not tell us (or the Secretary of Education), however, which method to use.\nJustice Scalia\u2019s claim that this interpretation \u201cdefies any semblance of normal English\u201d depends upon its own definition of the word \u201cper.\u201d That word, according to the dissent, \u201cconnotes ... a single average figure assigned to a unit the composite members of which are individual pupils.\u201d Post, at 113 (emphasis deleted). In fact, the word \u201cper\u201d simply means \u201c[f]or each\u201d or \u201cfor every.\u201d Black\u2019s Law Dictionary 1171 (8th ed. 1999); see Webster\u2019s Third 1674. Thus, nothing in the English language prohibits the Secretary from considering expenditures for each individual pupil in a district when instructed to look at a district\u2019s \u201cper-pupil expenditures.\u201d The remainder of the dissent\u2019s argument, colorful language to the side, rests upon a reading of the statutory language that ignores its basic purpose and history.\nWe find additional evidence for our understanding of the language in the fact that Congress, in other statutes, has clarified the matter here at issue thereby avoiding comparable ambiguity. For example, in a different education-related statute, Congress refers to \u201cthe school at the 20th percentile in the State, based on enrollment, among all schools ranked by the percentage of students at the proficient level.\u201d 20 U.S.C. \u00a76311(b)(2)(E)(ii) (2000 ed., Supp. IV) (emphasis added). In another statute fixing charges for physicians services, Congress specified that the maximum charge \u201cshall be the 50th percentile of the customary charges for the service (weighted by the frequency of the service) performed by nonparticipating physicians in the locality during the [prior] 12-month period.\u201d 42 U. S. C. \u00a7 1395u(j)(l)(C)(v) (2000 ed.) (emphasis added). In these statutes Congress indicated with greater specificity how a percentile should be determined by stating precisely not only which data values are of interest, but also (in the first) the population that is to be distributed and (in the second) the weightings needed to make the calculation meaningful and to avoid counterproductive results. In the statute at issue here, however, Congress used more general language (drafted by the Secretary himself), which leaves the Secretary with the authority to resolve such subsidiary matters at the administrative level.\nWe also find support for our view of the language in the more general circumstance that statutory \u201c[a]mbiguity is a creature not [just] of definitional possibilities but [also] of statutory context.\u201d Brown v. Gardner, 513 U. S. 115, 118 (1994). See also FDA v. Brown & Williamson Tobacco Corp., 529 U. S. 120, 132-133 (2000) (\u201c[mjeaning \u2014 or ambiguity \u2014 of certain words or phrases may only become evident when placed in context\u201d (emphasis added)). That may be so even if statutory language is highly technical. After all, the scope of what seems a precise technical chess instruction, such as \u201cyou must place the queen next to the king,\u201d varies with context, depending, for example, upon whether the instructor is telling a beginner how to set up the board or telling an advanced player how to checkmate an opponent. The dietionary acknowledges that, when interpreting technical statistical language, the purpose of the exercise matters, for it says that \u201cquantile,\u201d \u201cpercentile,\u201d \u201cquartile,\u201d and \u201cdecile\u201d are \u201cterms [that] can be modified, though not always very satisfactorily, to be applicable to ... a large sample ranked in ascending order.\u201d Oxford Dictionary of Mathematics, at 378-379.\nThus, an instruction to \u201cidentify schools with average scholastic aptitude test scores below the 5th percentile of such scores\u201d may vary as to the population to be distributed, depending upon whether the context is one of providing additional counseling and support to students at low-performing schools (in which ease the relevant population would likely consist of students), or one of identifying unsuccessful learning protocols at low-performing schools (in which case the appropriate population may well be the schools themselves). Context here tells us that the instruction to identify school districts with \u201cper-pupil expenditures\u201d above the 95th percentile \u201cof such expenditures\u201d is similarly ambiguous, because both students and school districts are of concern to the statute. Accordingly, the disregard instruction can include within its scope the distribution of a ranked population that consists of pupils (or of school districts weighted by pupils) and not just a ranked distribution of unweighted school districts alone.\nFinally, we draw reassurance from the fact that no group of statisticians, nor any individual statistician, has told us directly in briefs, or indirectly through citation, that the language before us cannot be read as we have read it. This circumstance is significant, for the statutory language is technical, and we are not statisticians. And the views of experts (or their absence) might help us understand (though not control our determination of) what Congress had in mind.\nThe upshot is that the language of the statute is broad enough to permit the Secretary\u2019s reading. That fact requires us to look beyond the language to determine whether the Secretary\u2019s interpretation is a reasonable, hence permissible, implementation of the statute. See Chevron, 467 U. S., at 842-843. For the reasons set forth in Part II-A, supra, we conclude that the Secretary\u2019s reading is a reasonable reading. We consequently find the Secretary\u2019s method of calculation lawful.\nThe judgment of the Tenth Circuit is affirmed.\nIt is so ordered.\nAPPENDIXES TO OPINION OF THE COURT\nA\nWe set out the relevant statutory provisions and accompanying regulations in full. The reader will note that in the text of our opinion, for purposes of exposition, we use the term \u201clocal school districts\u201d where the statute refers to \u201clocal educational agencies.\u201d We also disregard the statute\u2019s frequent references to local \u201crevenues\u201d because those references do not raise any additional considerations germane to this case.\nImpact Aid Program, 20 U. S. C. \u00a7 7709 (2000 ed. and Supp. IV) (state consideration of payments in providing state aid):\n\u201c(a) General prohibition\n\u201cExcept as provided in subsection (b) of this section, a State may not\u2014\n\u201c(1) consider payments under this subchapter in determining for any fiscal year\u2014\n\u201c(A) the eligibility of a local educational agency for State aid for free public education; or\n\u201c(B) the amount of such aid; or\n\u201c(2) make such aid available to local educational agencies in a manner that results in less State aid to any local educational agency that is eligible for such payment than such agency would receive if such agency were not so eligible.\n\u201c(b) State equalization plans\n\u201c(1) In general\n\u201cA State may reduce State aid to a local educational agency that receives a payment under section 7702 or 7703(b) of this title (except the amount calculated in excess of 1.0 under section 7703(a)(2)(B) of this title and, with respect to a local educational agency that receives a payment under section 7703(b)(2) of this title, the amount in excess of the amount that the agency would receive if the agency were deemed to be an agency eligible to receive a payment under section 7703(b)(1) of this title and not section 7703(b)(2) of this title) for any fiscal year if the Secretary determines, and certifies under subsection (c)(3)(A) of this section, that the State has in effect a program of State aid that equalizes expenditures for free public education among local educational agencies in the State.\n\u201c(2) Computation\n\u201c(A) In general\n\u201cFor purposes of paragraph (1), a program of State aid equalizes expenditures among local educational agencies if, in the second fiscal year preceding the fiscal year for which the determination is made, the amount of per-pupil expenditures made by, or per-pupil revenues available to, the local educational agency in the State with the highest such per-pupil expenditures or revenues did not exceed the amount of such per-pupil expenditures made by, or per-pupil revenues available to, the local educational agency in the State with the lowest such expenditures or revenues by more than 25 percent. \u201c(B) Other factors\n\u201cIn making a determination under this subsection, the Secretary shall\u2014\n\u201c(i) disregard local educational agencies with per-pupil expenditures or revenues above the 95th percentile or below the 5th percentile of such expenditures or revenues in the State; and \u201c(ii) take into account the extent to which a program of State aid reflects the additional cost of providing free public education in particular types of local educational agencies, such as those that are geographically isolated, or to particular types of students, such as children with disabilities.\u201d\nB\n34 CFR \u00a7222.162 (2006) (What disparity standard must a State meet in order to be certified, and how are disparities in current expenditures or revenues per pupil measured?):\n\u201c(a) Percentage disparity limitation. The Secretary considers that a State aid program equalizes expenditures if the disparity in the amount of current expenditures or revenues per pupil for free public education among LEAs in the State is no more than 25 percent. In determining the disparity percentage, the Secretary disregards LEAs with per pupil expenditures or revenues above the 95th or below the 5th percentile of those expenditures or revenues in the State. The method for calculating the percentage of disparity in a State is in the appendix to this subpart.\n\u201c(b)(1) Weighted average disparity for different grade level groups. If a State requests it, the Secretary will make separate disparity computations for different groups of LEAs in the State that have similar grade levels of instruction.\n\u201c(2) In those cases, the weighted average disparity for all groups, based on the proportionate number of pupils in each group, may not be more than the percentage provided in paragraph (a) of this section. The method for calculating the weighted average disparity percentage is set out in the appendix to this subpart.\n\u201c(c) Per pupil figure computations. In calculating the current expenditures or revenue disparities under this section, computations of per pupil figures are made on one of the following bases:\n\u201c(1) The per pupil amount of current expenditures or revenue for an LEA is computed on the basis of the total number of pupils receiving free public education in the schools of the agency. The total number of pupils is determined in accordance with whatever standard measurement of pupil count is used in the State.\u201d\n34 CFR pt. 222, subpt. K, App. (2006) (Methods of Calculations for Treatment of Impact Aid Payments Under State Equalization Programs):\n\u201cThe following paragraphs describe the methods for making certain calculations in conjunction with determinations made under the regulations in this subpart. Except as otherwise provided in the regulations, these methods are the only methods that may be used in making these calculations.\n\u201c1. jDeterminations of disparity standard compliance under \u00a7222.162(b)(1).\n\u201c(a) The determinations of disparity in current expenditures or revenue per pupil are made by\u2014\n\u201c(i) Ranking all LEAs having similar grade levels within the State on the basis of current expenditures or revenue per pupil for the second preceding fiscal year before the year of determination;\n\u201c(ii) Identifying those LEAs in each ranking that fall at the 95th and 5th percentiles of the total number of pupils in attendance in the schools of those LEAs; and \u201c(iii) Subtracting the lower current expenditure or revenue per pupil figure from the higher for those agencies identified in paragraph (ii) and dividing the difference by the lower figure.\n\u201c(b) In cases under \u00a7 222.162(b), where separate computations are made for different groups of LEAs, the disparity percentage for each group is obtained in the manner described in paragraph (a) above. Then the weighted average disparity percentage for the State as a whole is determined by\u2014\n\u201c(i) Multiplying the disparity percentage for each group by the total number of pupils receiving free public education in the schools in that group;\n\u201c(ii) Summing the figures obtained in paragraph (b)(i); and\n\u201c(iii) Dividing the sum obtained in paragraph (b)(ii) by the total number of pupils for all the groups.\nEXAMPLE\nGroup 1 (grades 1-6), 80,000 pupils x 18% = 14,400\nGroup 2 (grades 7-12), 100,000 pupils x 22% = 22,000\nGroup 3 (grades 1-12), 20,000 pupilsX35% = 7,000\nTotal 200,000 pupils.................................................... 43,400\n43,400/200,000=21.70% Disparity \u201e",
+        "type": "majority",
+        "author": "Justice Breyer"
+      },
+      {
+        "text": "Justice Stevens,\nconcurring.\nIn his oft-cited opinion for the Court in Griffin v. Oceanic Contractors, Inc., 458 U. S. 564, 571 (1982), then-Justice Rehnquist wisely acknowledged that \u201cin rare cases the literal application of a statute will produce a result demonstrably at odds with the intentions of its drafters, and those intentions must be controlling.\u201d And in United States v. Ron Pair Enterprises, Inc., 489 U. S. 235, 242 (1989), the Court began its analysis of the question of statutory construction by restating the proposition that \u201c[i]n such cases, the intention of the drafters, rather than the strict language, controls.\u201d Justice Scalia provided the decisive fifth vote for the majority in that case.\nToday he correctly observes that a judicial decision that departs from statutory text may represent \u201cpolicy-driven interpretation.\u201d Post, at 109 (dissenting opinion). As long as that driving policy is faithful to the intent of Congress (or, as in this case, aims only to give effect to such intent)\u2014 which it must be if it is to override a strict interpretation of the text \u2014 the decision is also a correct performance of the judicial function. Justice Scalia\u2019s argument today rests on the incorrect premise that every policy-driven interpretation implements a judge\u2019s personal view of sound policy, rather than a faithful attempt to carry out the will of the legislature. Quite the contrary is true of the work of the judges with whom I have worked for many years. If we presume that our judges are intellectually honest \u2014 as I do\u2014 there is no reason to fear \u201cpolicy-driven interpretation[s]\u201d of Acts of Congress.\nIn Chevron U. S. A. Inc. v. Natural Resources Defense Council, Inc., 467 U. S. 837, 842 (1984), we acknowledged that when \u201cthe intent of Congress is clear [from the statutory text], that is the end of the matter.\u201d But we also made quite clear that \u201cadministrative constructions which are contrary to clear congressional intent\u201d must be rejected. Id., at 843, n. 9. In that unanimous opinion, we explained: Analysis of legislative history is, of course, a traditional tool of statutory construction. There is no reason why we must confine ourselves to, or begin our analysis with, the statutory text if other tools of statutory construction provide better evidence of congressional intent with respect to the precise point at issue.\n\u201cIf a court, employing traditional tools of statutory construction, ascertains that Congress had an intention on the precise question at issue, that intention is the law and must be given effect.\u201d Ibid.\nAs the Court\u2019s opinion demonstrates, this is a quintessential example of a case in which the statutory text was obviously enacted to adopt the rule that the Secretary administered both before and after the enactment of the rather confusing language found in 20 U. S. C. \u00a7 7709(b)(2)(B)(i). See ante, at 90-91. That text is sufficiently ambiguous to justify the Court\u2019s exegesis, but my own vote is the product of a more direct route to the Court\u2019s patently correct conclusion. This happens to be a case in which the legislative history is pellucidly clear and the statutory text is difficult to fathom. Moreover, it is a case in which I cannot imagine anyone accusing any Member of the Court of voting one way or the other because of that Justice\u2019s own policy preferences.\nGiven the clarity of the evidence of Congress\u2019 \u201cintention on the precise question at issue,\u201d I would affirm the judgment of the Court of Appeals even if I thought that petitioners\u2019 literal reading of the statutory text was correct. The only \u201cpolicy\u201d by which I have been driven is that which this Court has endorsed on repeated occasions regarding the importance of remaining faithful to Congress\u2019 intent.\nSee, e. g., Wisconsin Public Intervenor v. Mortier, 501 U. S. 597, 610, n. 4 (1991); Steelworkers v. Weber, 443 U. S. 193, 230-253 (1979) (Rehnquist, J., dissenting).\nContrary to Justice Scalia, I find it far more likely that the Congress that voted \u201cwithout comment or clarification,\u201d ante, at 91 (majority opinion), to adopt the 1994 statutory language relied on the endorsement of its sponsors, who introduced the legislation \u201con behalf of the administration,\u201d see 139 Cong. Rec. 23416 (1993) (remarks of Sen. Kennedy) and id., at 23514 (remarks of Sen. Jeffords), and the fact that such language was drafted and proposed by the U. S. Department of Education, rather than a parsing of its obscure statutory text.\nMoreover, I assume that, regardless of the statutory language\u2019s supposed clarity, any competent counsel challenging the validity of a presumptively valid federal regulation would examine the legislative history of its authorizing statute before filing suit.\nSee Church of Holy Trinity v. United States, 143 U. S. 457, 459 (1892) (\u201cIt is a familiar rule, that a thing may be within the letter of the statute and yet not within the statute, because not within its spirit, nor within the intention of its makers\u201d).",
+        "type": "concurrence",
+        "author": "Justice Stevens,"
+      },
+      {
+        "text": "Justice Kennedy,\nwith whom\nJustice Alito joins, concurring.\nThe district courts and courts of appeals, as well as this Court, should follow the framework set forth in Chevron U. S. A. Inc. v. Natural Resources Defense Council, Inc., 467 U. S. 837 (1984), even when departure from that framework might serve purposes of exposition. When considering an administrative agency\u2019s interpretation of a statute, a court first determines \u201cwhether Congress has directly spoken to the precise question at issue.\u201d Id., at 842. If so, \u201cthat is the end of the matter.\u201d Ibid. Only if \u201cCongress has not directly addressed the precise question at issue\u201d should a court consider \u201cwhether the agency\u2019s answer is based on a permissible construction of the statute.\u201d Id., at 843.\nIn this case, the Court is correct to find that the plain language of the statute is ambiguous. It is proper, therefore, to invoke Chevron\u2019s rule of deference. The opinion of the Court, however, inverts Chevron\u2019s logical progression. Were the inversion to become systemic, it would create the impression that agency policy concerns, rather than the traditional tools of statutory construction, are shaping the judicial interpretation of statutes. It is our obligation to set a good example; and so, in my view, it would have been preferable, and more faithful to Chevron, to arrange the opinion differently. Still, we must give deference to the author of an opinion in matters of exposition; and because the point does not affect the outcome, I join the Court\u2019s opinion.",
+        "type": "concurrence",
+        "author": "Justice Kennedy,"
+      },
+      {
+        "text": "Justice Scalia,\nwith whom\nThe Chief Justice and Justice Thomas join, and with whom Justice Souter joins as to Part I, dissenting.\nIn Church of the Holy Trinity v. United States, 143 U. S. 457 (1892), this Court conceded that a church\u2019s act of contracting with a prospective rector fell within the plain meaning of a federal labor statute, but nevertheless did not apply the statute to the church: \u201cIt is a familiar rule,\u201d the Court pronounced, \u201cthat a thing may be within the letter of the statute and yet not within the statute, because not within its spirit, nor within the intention of its makers.\u201d Id., at 459. That is a judge-empowering proposition if there ever was one, and in the century since, the Court has wisely retreated from it, in words if not always in actions. But today Church of the Holy Trinity arises, Phoenix-like, from the ashes. The Court\u2019s contrary assertions aside, today\u2019s decision is nothing other than the elevation of judge-supposed legislative intent over clear statutory text. The plain language of the federal Impact Aid statute clearly and unambiguously forecloses the Secretary of Education\u2019s preferred methodology for determining whether a State\u2019s school-funding system is equalized. Her selection of that methodology is therefore entitled to zero deference under Chevron U. S. A. Inc. v. Natural Resources Defense Council, Inc., 467 U. S. 837 (1984).\nI\nThe very structure of the Court\u2019s opinion provides an obvious clue as to what is afoot. The opinion purports to place a premium on the plain text of the Impact Aid statute, ante, at 93-94, but it first takes us instead on a roundabout tour of \u201c[cjonsiderations other than language,\u201d ante, at 90 (emphasis added) \u2014 page after page of unenacted congressional intent and judicially perceived statutory purpose, Part II-A, ante. Only after we are shown \u201cwhy Zuni concentrates its argument upon language alone,\u201d ante, at 90 (impliedly a shameful practice, or at least indication of a feeble case), are we informed how the statute\u2019s plain text does not unambiguously preclude the interpretation the Court thinks best. Part II-B, ante (beginning \u201cBut what of the provision\u2019s literal language? The matter is important . . . \u201d). This is a most suspicious order of proceeding, since our case law is full of statements such as \u201cWe begin, as always, with the language of the statute,\u201d Duncan v. Walker, 533 U. S. 167, 172 (2001), and replete with the affirmation that, when \u201c[g]iven [a] straightforward statutory command, there is no reason to resort to legislative history,\u201d United States v. Gonzales, 520 U. S. 1, 6 (1997). Nor is this cart-before-the-horse approach justified by the Court\u2019s excuse that the statute before us is, after all, a technical one, ante, at 90. This Court, charged with interpreting, among other things, the Internal Revenue Code, the Employee Retirement Income Security Act of 1974, and the Clean Air Act, confronts technical language all the time, but we never see fit to pronounce upon what we think Congress meant a statute to say, and what we think sound policy would counsel it to say, before considering what it does say. As almost a majority of today\u2019s majority worries, \u201c[w]ere the inversion [of inquiry] to become systemic, it would create the impression that agency policy concerns, rather than the traditional tools of statutory construction, are shaping the judicial interpretation of statutes.\u201d Ante, at 107 (Kennedy, J., joined by Alito, J., concurring). True enough \u2014 except I see no reason to wait for the distortion to become systemic before concluding that that is precisely what is happening in the present case. For some, policy-driven interpretation is apparently just fine. See ante, at 105 (Stevens, J., concurring). But for everyone else, let us return to Statutory Interpretation 101.\nWe must begin, as we always do, with the text. See, e. g., Gonzales, supra, at 4. Under the federal Impact Aid program, 20 U. S. C. \u00a7 7701 et seq. (2000 ed. and Supp. IV), States distributing state aid to local school districts (referred to in the statute as \u201clocal educational agencies,\u201d or \u201cLEAs\u201d ) may not take into account the amount of federal Impact Aid that its LEAs receive. See \u00a7 7709(a). But the statute makes an exception if the Secretary of Education certifies that a State \u201chas in effect a program of State aid that equalizes expenditures for free public education among local educational agencies in the State.\u201d \u00a7 7709(b)(1) (2000 ed., Supp. IV). Congress has specified a formula for the Secretary to use when making this equalization determination:\n\u201c[A] program of State aid equalizes expenditures among local educational agencies if... the amount of per-pupil expenditures made by, or per-pupil revenues available to, the local educational agency in the State with the highest such per-pupil expenditures or revenues did not exceed the amount of such per-pupil expenditures made by, or per-pupil revenues available to, the local educational agency in the State with the lowest such expenditures or revenues by more than 25 percent.\u201d \u00a7 7709(b)(2)(A).\nThe Secretary is further instructed, however, that when making this determination, she shall \u201cdisregard local educational agencies with per-pupil expenditures or revenues above the 95th percentile or below the 5th percentile of such expenditures or revenues in the State.\u201d \u00a7 7709(b)(2)(B)(i). It is this latter subsection which concerns us here.\nThe casual observer will notice that the Secretary\u2019s implementing regulations do not look much like the statute. The regulations first require the Secretary to rank all of the LEAs in a State (New Mexico has 89) according to their per-pupil expenditures or revenues. 34 CFR pt. 222, subpt. K, App., \u00b6 (1)(a)(i) (2006). So far so good. But critically here, the Secretary must then \u201c[i]dentif[y] those LEAs . . . that fall at the 95th and 5th percentiles of the total number of pupils in attendance in the schools of those LEAs.\u201d Id., \u00b6 (1)(a)(ii) (emphasis added). Finally, the Secretary compares the per-pupil figures of those two LEAs for the purpose of assessing whether a State exceeds the 25% disparity measure. Id., \u00b6 (1)(a)(iii). The majority concludes that this method of calculation, with its focus on student population, is a permissible interpretation of the statute.\nIt most assuredly is not. To understand why, one first must look beyond the smokescreen that the Court lays down with its repeated apologies for inexperience in statistics, and its endless recitation of technical mathematical definitions of the word \u201cpercentile.\u201d See, e. g., ante, at 95 (\u201c \u2018The n-th percentile is the value xwioo such that n per cent of the population is less than or equal to Xw/ioo\u2019 \u201d (quoting C. Clapham & J. Nicholson, The Concise Oxford Dictionary of Mathematics 378 (3d ed. 2005))). This case is not a scary math problem; it is a straightforward matter of statutory interpretation. And we do not need the Court\u2019s hypothetical cadre of number-crunching amici, ante, at 99-100, to guide our way.\nThere is no dispute that for purposes relevant here \u201c \u2018percentile\u2019 refers to a division of a distribution of some population into 100 parts.\u2019 \u201d Ante, at 95. And there is further no dispute that the statute concerns the percentile of \u201cper-pupil expenditures or revenues,\u201d for that is what the word \u201csuch\u201d refers to. See 20 U. S. C. \u00a7 7709(b)(2)(B)(i) (Secretary shall \u201cdisregard local educational agencies with per-pupil expenditures or revenues above the 95th percentile or below the 5th percentile of such expenditures or revenues in the State\u201d (emphasis added)). The question is: Whose per-pupil expenditures or revenues? Or, in the Court\u2019s terminology, what \u201cpopulation\u201d is assigned the \u201ccharacteristic\u201d \u201cper-pupil expenditure\u201d or revenue? Ante, at 95-96. At first blush, second blush, or twenty-second blush, the answer is abundantly clear: local educational agencies. The statute requires the Secretary to \u201cdisregard local educational agencies with\u201d certain per-pupil figures above or below specified percentiles of those per-pupil figures. \u00a7 7709(b)(2)(B)(i). The attribute \u201cper-pupil expenditure] or revenu[e]\u201d is assigned to LEAs \u2014 there is no mention of student population whatsoever. And thus under the statute, \u201cper-pupil expenditures or revenues\u201d are to be arrayed using a population consisting of LEAs, so that percentiles are determined from a list of (in New Mexico) 89 per-pupil expenditures or revenues representing the 89 LEAs in the State. It is just that simple.\nThe Court makes little effort to defend the regulations as they are written. Instead, relying on a made-for-litigation theory that bears almost no relationship to the regulations themselves, the Court believes it has found a way to shoehorn those regulations into the statute. The Impact Aid statute is ambiguous, the Court says, because it \u201cdoes not specify precisely what population is to be \u2018distributed\u2019 (i. e., ranked according to the population\u2019s corresponding values for the relevant characteristic).\u201d Ante, at 96. Thus the Court finds that it is permissible for the Secretary to attribute the characteristic \u201cper-pupil expenditure or revenue\u201d to pupils, with the result that the Secretary may \u201cus[e]... the State\u2019s students as the relevant population for calculating the specified percentiles.\u201d Ibid. Under that interpretation, as the State manages to explain with a straight face, \u201c[i]n New Mexico, during the time at issue, there were approximately 317,777 pupils in the [S]tate and thus there were 317,777 per-pupil revenues in the [S]tate.\u201d Brief for Respondent New Mexico Public Education Department 37; see also id., at 36 (\u201cEach and every student in an LEA and in a [S]tate may be treated as having his or her own \u2018per-pupil\u2019 expenditure or revenue amount\u201d). The Court consequently concludes that \u201clinguistically speaking, one may attribute the characteristic of per-pupil expenditure to each [student].\u201d Ante, at 97.\nThe sheer applesauce of this statutory interpretation should be obvious. It is of course true that every student in New Mexico causes an expenditure or produces a revenue that his LEA either enjoys (in the case of revenues) or is responsible for (in the case of expenditures). But it simply defies any semblance of normal English usage to say that every pupil has a \u201cper-pupil expenditure or revenue.\u201d The word \u201cper\u201d connotes that the expenditure or revenue is a single average figure assigned to a unit the composite members of which are individual pupils. And the only such unit mentioned in the statute is the local educational agency. See 20 U. S. C. \u00a7 7709(b)(2)(B)(i). It is simply irrelevant that \u201c[n]o dictionary definition ... suggests that there is any single logical, mathematical, or statistical link between [per-pupil expenditures or revenues] and . . . the nature of the relevant population.\u201d Ante, at 96. Of course there is not. It is the text at issue which must identify the relevant population, and it does so here quite unambiguously: \u201clocal educational agencies with per-pupil expenditures or revenues.\u201d \u00a7 7709(b)(2)(B)(i) (emphasis added). That same phrase shows the utter irrelevance of the Court\u2019s excursus upon the meaning of the word \u201cper.\u201d See ante, at 97. It does indeed mean \u201c \u2018for each, or \u2018for every\u2019 \u201d \u2014 and when it is contained in a clause that reads \u201clocal educational agencies with per-pupil expenditures or revenues\u201d it refers to (and can only refer to) the average expenditure or revenue \u201cfor each\u201d or \u201cfor every\u201d student out of the total expenditures or revenues of the LEA.\nThe violence done to this statute would be severe enough if the Secretary used the actual expenditure or revenue for each individual pupil. But in fact the Secretary determines the per-pupil expenditure or revenue for each individual student by (guess what) computing the per-pupil expenditure or revenue of each LEA! As the New Mexico brief explains:\n\u201c[A] per-pupil expenditure or revenue is an average number. It is not the amount actually spent on any given pupil, an amount which would be impossible to calculate in any meaningful way. It is roughly the total amount expended by an LEA divided by the number of pupils in that LEA.\u201d Brief for Respondent New Mexico Public Education Department 36.\nThe Secretary thus assigns an artificial number to each student that corresponds exactly to his LEA\u2019s per-pupil expenditure or revenue. In other words, at the end of the day the Secretary herself acknowledges that \u201cper-pupil expenditures or revenues\u201d pertains to LEAs, and not students. And she is interpreting \u201cper-pupil expenditure or revenue\u201d not as the Court suggests (an amount attributable to each student), but rather as I suggest (an average amount for the pupils in a particular LEA). But she then proceeds to take a step not at all permitted by the statutory formula \u2014 in effect applying \u201cper-pupil expenditure or revenue\u201d a second time (this time according to the Court\u2019s fanciful interpretation of \u201cper-pupil\u201d) in order to reach the result she desires. Of course, if the Secretary did apply the \u201cper-pupil expenditure or revenue\u201d only once, arraying students by their actual expenditures or revenues, her entire system would collapse. Students from the same LEA, rather than appearing on the list with the same per-pupil figure, would be located at various points on the spectrum. And so long as an LEA had at least one student above the 95th or below the 5th percentile of pupil \u201cper-pupil expenditures or revenues,\u201d that LEA would have to be excluded from the disparity analysis. The result would be a serious distortion of the disparity determination, excluding many more LEAs (in fact, perhaps all of them) from the disparity calculation. This would render the 25% disparity measure in \u00a7 7709(b)(2)(A) all but meaningless.\nThe Court makes one final attempt to rescue the Secretary\u2019s interpretation, appealing to \u201cstatutory context.\u201d \u201cContext here tells us,\u201d it says, \u201cthat the instruction to identify school districts with \u2018per-pupil expenditures\u2019 above the 95th percentile \u2018of such expenditures\u2019 is . . . ambiguous, because both students and school districts are of concern to the statute.\u201d Ante, at 99. This is a complete non sequitur. Of course students are a concern to a statute dealing with school funding. But that does not create any ambiguity with respect to whether, under this statute, pupils can reasonably be said to have their own \u201cper-pupil expenditures or revenues.\u201d It is simply irrational to say that the clear dispositions of a statute with regard to the entities that it regulates (here LEAs) are rendered ambiguous when those entities contain subunits that are the ultimate beneficiaries of the regulation (here students). Such a principle of interpretation \u2014 if it could be called that \u2014 would inject ambiguity into many statutes indeed.\nThe Court\u2019s reliance on statutory context is all the more puzzling since the context obviously favors petitioners. \u201cThe focus [of the Impact Aid statute] is upon LEAs, not upon the number of pupils.\u201d 393 F. 3d 1158, 1172 (CA10 2004) (O\u2019Brien, J., dissenting), opinion vacated, 437 F. 3d 1289, 1290 (2006) (en banc) (per curiam). In fact, the provisions at issue here make not the slightest mention of students. That is both sensible and predictable, since the Impact Aid program\u2019s equalization formula is designed to address funding disparities between LEAs, not between students. See 20 U. S. C. \u00a7 7709(b)(2)(A) (referring to \u201ca program of State aid [that] equalizes expenditures among local educational agencies\u201d); see also \u00a7 7709(d)(1). Indeed, the whole point of the equalization determination is to figure out whether States may reduce state aid to LEAs. See \u00a7 7709(a).\nIn sum, the plain language of the Impact Aid statute compels the conclusion that the Secretary\u2019s method of calculation is ultra vires. Employing the formula that the statute requires, New Mexico is not equalized. Ante, at 89.\nII\nHow then, if the text is so clear, are respondents managing to win this case? The answer can only be the return of that miraculous redeemer of lost causes, Church of the Holy Trinity. In order to contort the statute\u2019s language beyond recognition, the Court must believe Congress\u2019s intent so crystalline, the spirit of its legislation so glowingly bright, that the statutory text should simply not be read to say what it says. See Part II-A, ante. Justice Stevens is quite candid on the point: He is willing to contradict the text. See ante, at 106-107 (concurring opinion). But Justice Stevens\u2019 candor should not make his philosophy seem unassuming. He maintains that it is \u201ca correct performance of the judicial function\u201d to \u201coverride a strict interpretation of the text\u201d so long as policy-driven interpretation \u201cis faithful to the intent of Congress.\u201d Ante, at 105. But once one departs from \u201cstrict interpretation of the text\u201d (by which Justice Stevens means the actual meaning of the text) fidelity to the intent of Congress is a chancy thing. The only thing we know for certain both Houses of Congress (and the President, if he signed the legislation) agreed upon is the text. Legislative history can never produce a \u201cpellucidly clear\u201d picture, ante, at 106 (Stevens, J., concurring), of what a law was \u201cintended\u201d to mean, for the simple reason that it is never voted upon \u2014 or ordinarily even seen or heard \u2014 by the \u201cintending\u201d lawgiving entity, which consists of both Houses of Congress and the President (if he did not veto the bill). See U. S. Const., Art. I, \u00a7\u00a7 1, 7. Thus, what judges believe Congress \u201cmeant\u201d (apart from the text) has a disturbing but entirely unsurprising tendency to be whatever judges think Congress must have meant, i. e., should have meant. In Church of the Holy Trinity, every Justice on this Court disregarded the plain language of a statute that forbade the hiring of a clergyman from abroad because, after all (they thought), \u201cthis is a Christian nation,\u201d 143 U. S., at 471, so Congress could not have meant what it said. Is there any reason to believe that those Justices were lacking that \u201cintellectual!] honestly]\u201d that Justice Stevens \u201cpresume[s]\u201d all our judges possess, ante, at 105? Intellectual honesty does not exclude a blinding intellectual bias. And even if it did, the system of judicial amendatory veto over texts duly adopted by Congress bears no resemblance to the system of lawmaking set forth in our Constitution.\nJustice Stevens takes comfort in the fact that this is a case in which he \u201ccannot imagine anyone accusing any Member of the Court of voting one way or the other because of that Justice\u2019s own policy preferences.\u201d Ante, at 106. I can readily imagine it, given that the Court\u2019s opinion begins with a lengthy description of why the system its judgment approves is the better one. But even assuming that, in this rare case, the Justices\u2019 departure from the enacted law has nothing to do with their policy view that it is a bad law, nothing in Justice Stevens\u2019 separate opinion limits his approach to such rarities. Why should we suppose that in matters more likely to arouse the judicial libido \u2014 voting rights, antidiscrimination laws, or environmental protection, to name only a few \u2014 a judge in the School of Textual Subversion would not find it convenient (yea, righteous!) to assume that Congress must have meant, not what it said, but what he knows to be best?\nLest there be any confusion on the point, I must discuss briefly the two cases Justice Stevens puts forward, ante, at 104-105, as demonstrating this Court\u2019s recent endorsement of his unorthodox views. They demonstrate just the opposite. Griffin v. Oceanic Contractors, Inc., 458 U. S. 564 (1982), involved a maritime statute that required the master of a vessel to furnish unpaid wages to a seaman within a specified period after the seaman\u2019s discharge, and further provided that a master who failed to do so without sufficient cause \u201c \u2018shall pay to the seaman a sum equal to two days\u2019 pay for each and every day during which payment is delayed.\u2019 \u201d Id., at 570 (quoting 46 U. S. C. \u00a7596 (1976 ed.)). We explained that \u201cCongress intended the statute to mean exactly what its plain language says,\u201d 458 U. S., at 574, and held that the seaman was entitled to double wages for every day during which payment was delayed, even for the period in which he had obtained alternative employment. The result was that the seaman would receive approximately $300,000 for his master\u2019s improper withholding of $412.50, id., at 575, even though \u201c[i]t [was] probably true that Congress did not precisely envision the grossness of the difference . . . between the actual wages withheld and the amount of the award required by the statute,\u201d id., at 576. We suggested in dicta that there might be a \u201crare cas[e]\u201d in which the Court could relax its steadfastness to statutory text, id., at 571, but if Griffin itself did not qualify, it is hard to imagine what would. The principle Justice Stevens would ascribe to Griffin is in fact the one he advocated in dissent. \u201c[T]his is one of the cases in which the exercise of judgment dictates a departure from the literal text in order to be faithful to the legislative will.\u201d Id., at 586 (Stevens, J., dissenting).\nThe second case Justice Stevens relies upon, United States v. Ron Pair Enterprises, Inc., 489 U. S. 285 (1989), is equally inapt. The Court\u2019s opinion there (unlike the one here) explained that our analysis \u201cmust begin . . . with the language of the statute itself,\u201d and concluded that that was \u201calso where the inquiry should end, for where . . . the statute\u2019s language is plain, \u2018the sole function of the courts is to enforce it according to its terms.\u2019\u201d Id., at 241 (quoting Caminetti v. United States, 242 U. S. 470, 485 (1917)). My \u201cfifth vote\u201d in Ron Pair was thus only \u201cdecisive,\u201d ante, at 105 (Stevens, J., concurring), in reaffirming this Court\u2019s adherence to statutory text, decisively preventing it from falling off the precipice it plunges over today.\nContrary to the Court and Justice Stevens, I do not believe that what we are sure the Legislature meant to say can trump what it did say. Citizens arrange their affairs not on the basis of their legislators\u2019 unexpressed intent, but on the basis of the law as it is written and promulgated. I think it terribly unfair to expect that the two rural school districts that are petitioners here should have pored over some 30 years of regulatory history to divine Congress\u2019s \u201creal\u201d objective (and with it the \u201creal\u201d intent that a majority of Justices would find honest and true). To be governed by legislated text rather than legislators\u2019 intentions is what it means to be \u201ca Government of laws, not of men.\u201d And in the last analysis the opposite approach is no more beneficial to the governors than it is to the governed. By \u201cdepriving legislators of the assurance that ordinary terms, used in an ordinary context, will be given a predictable meaning,\u201d we deprive Congress of \u201ca sure means by which it may work the people\u2019s will.\u201d Chisom v. Roemer, 501 U. S. 380, 417 (1991) (Scalia, J., dissenting).\nI do not purport to know what Congress thought it was doing when it amended the Impact Aid program in 1994. But even indulging Justice Stevens\u2019 erroneous premise that there exists a \u201clegislative intent\u201d separate and apart from the statutory text, ante, at 105 (concurring opinion), I do not see how the Court can possibly say, with any measure of confidence, that Congress wished one thing rather than another. There is ample evidence, for example, that at the time it amended the Impact Aid statute, Congress knew exactly how to incorporate student population into a disparity calculation. Most prominently, in the very same Act that added \u00a7 7709(b)(2)(B)(i) to the Impact Aid program, Congress established the Education Finance Incentive Program, known as EFIG. See Improving America\u2019s Schools Act of 1994,108 Stat. 3575. That statute allocates grants to States based in part on an \u201cequity factor\u201d which requires a disparity calculation similar to that in the Impact Aid statute. See 20 U.S.C. \u00a7 6337(b)(1)(A) (2000 ed\u201e Supp. IV). In EFIG, however, Congress specifically required the Secretary to take student population into account: \u201c[TJhe Secretary shall weigh the variation between per-pupil expenditures in each local educational agency . . . according to the number of pupils served by the local educational agency.\u201d \u00a7 6337(b)(3)(A)(ii)(II) (emphasis added); see also Brief for Federal Respondent 28-29. And there is more. In EFIG, Congress expressly provided that a State would be accorded a favorable \u201cequity factor\u201d rating if it was considered equalized under the Secretary\u2019s Impact Aid regulations. See \u00a7 6337(b)(3)(B) (2000 ed., Supp. IV). Congress thus explicitly incorporated the Impact Aid regulations into EFIG, but did no such thing with respect to the Impact Aid statute itself. All this on the very same day.\nNor do I see any significance in the fact that no legislator in 1994 expressed the view that \u00a7 7709(b)(2)(B)(i) was designed to upend the Secretary\u2019s equalization formula. Ante, at 91 (majority opinion). It is quite plausible \u2014 indeed, eminently plausible \u2014 that the Members of Congress took the plain meaning of the language whick the Secretary himself had proposed to be what the Secretary himself had previously been doing. It is bad enough for this Court to consider legislative materials beyond the statutory text in aid of resolving ambiguity, but it is truly unreasonable to require such extratextual evidence as a precondition for enforcing an unambiguous congressional mandate. See Koons Buick Pontiac GMC, Inc. v. Nigh, 543 U.S. 50, 73-74 (2004) (Scalia, J., dissenting). The Court points to the fact that \u201cno Member of Congress has ever criticized the method the [Secretary\u2019s] regulation^] sets forth.\u201d Ante, at 90. But can it really be that this case turns, in the Court\u2019s view, on whether a freshman Congressman from New Mexico gave a floor speech that only late-night C-SPAN junkies would witness? The only fair inference from Congress\u2019s silence is that Congress had nothing further to say, its statutory text doing all of the talking.\nFinally, the Court expresses its belief that Congress must have intended to adopt the Secretary\u2019s pre-1994 disparity test because that test is the more reasonable one, better able to account for States with small numbers of large LEAs, or large numbers of small ones. See ante, at 91-93. This, to tell the truth, is the core of the opinion. As I have suggested, it is no accident that the countertextual legislative intent judges perceive invariably accords with what judges think best. It seems to me, however, that this Court is no more capable of saying with certainty what is best in this area than it is of saying with certainty (apart from the text) what Congress intended. There is good reason to be concerned \u2014 in the implementation of a statute that makes a limited exception for States that have \u201cin effect a program of State aid that equalizes expenditures for free public education among local educational agencies,\u201d 20 U. S. C. \u00a7 7709(b)(1) (2000 ed., Supp. IV) (emphasis added) \u2014 that the Secretary\u2019s methodology eliminates from the disparity calculation too many LEAs. In the certification at issue in this very case, the Secretary excluded 23 of New Mexico\u2019s 89 LEAs, approximately 26%. Is this Court such an expert in school finance that it can affirm the desirability of excluding one in four of New Mexico\u2019s LEAs from consideration?\nAs for the Secretary\u2019s concerns about the discrepancy between large and small LEAs, does the Court have any basis for its apparent confidence that other parts of the Impact Aid statute do not adequately address the problem? Immediately after setting forth the 95th and 5th percentile cutoffs, \u00a77709(b)(2)(B)(i), the statute instructs the Secretary to \u201ctake into account the extent to which a program of State aid reflects the additional cost of providing free public education in particular types of local educational agencies, such as those that are geographically isolated, or to particular types of students, such as children with disabilities.\u201d \u00a7 7709(b)(2)(B)(ii). Respondents do not explain why the Secretary could not use \u00a7 7709(b)(2)(B)(ii) to temper any unintended effects of \u00a7 7709(b)(2)(B)(i). Respondents further maintain that States could take advantage of the statute\u2019s plain meaning by subdividing their LEAs. But again, the statute itself contains a remedy. Under \u00a7 7713(9)(B)(ii), \u201c[t]he term \u2018local educational agency\u2019 does not include any agency or school authority that the Secretary determines on a case-by-case basis ... is not constituted or reconstituted for legitimate educational purposes.\u201d\n* * *\nThe only sure indication of what Congress intended is what Congress enacted; and even if there is a difference between the two, the rule of law demands that the latter prevail. This case will live with Church of the Holy Trinity as an exemplar of judicial disregard of crystal-clear text. We must interpret the law as Congress has written it, not as we would wish it to be. I would reverse the judgment of the Court of Appeals.\nThe Court\u2019s opinion has replaced the phrase \u201c\u2018local educational agencies\u2019 \u201d with \u201c \u2018local school districts.\u2019 \u201d See ante, at 100. While I have no objection to that terminology, I will instead use \u201clocal educational agencies\u201d and \u201cLEAs.\u201d\nThe Court maintains that the phrase \u201cper-pupil expenditures\u201d or revenues may also be attributed to schools or grade levels. Ante, at 97. Standing alone and abstracted from the rest of the statute, indeed it may. But not when it appears in the phrase \u201clocal educational agencies with per-pupil expenditures or revenues.\u201d (Emphasis added.) In any case, the fact that \u201cper-pupil expenditures or revenues\u201d could be applied to composite entities other than LEAs does not establish that speaking of the \u201cper-pupil expenditure or revenue\u201d of an individual student makes any sense (it does not).\nLike Justice Stevens, respondents themselves were aboveboard when they litigated this case at the administrative level. After hearing argument from the Department of Education, the Administrative Law Judge (ALJ) protested: \u201cThe problem is I don\u2019t see the ambiguity of the statute.\u201d App. 29. To this the Department\u2019s counsel responded: \u201cThe only way I can do that is by reference to the statutory purpose.\u201d Ibid. Later in the hearing, the ALJ similarly asked the State of New Mexico how its interpretation was consistent with the statute. The State answered: \u201cLiterally, on the face of the words, perhaps not, probably not.\" Id., at 53. Despite his misgivings, the ALJ ultimately decided that he did not possess the authority to invalidate the regulations. App. to Pet. for Cert. 38a, 51a.",
+        "type": "dissent",
+        "author": "Justice Scalia,"
+      },
+      {
+        "text": "Justice Souter,\ndissenting.\nI agree with the Court that Congress probably intended, or at least understood, that the Secretary would continue to follow the methodology devised prior to passage of the current statute in 1994, see ante, at 90-91. But for reasons set out in Justice Scalia\u2019s dissent, I find the statutory language unambiguous and inapt to authorize that methodology, and I therefore join Part I of his dissenting opinion.",
+        "type": "dissent",
+        "author": "Justice Souter,"
+      }
+    ],
+    "attorneys": [
+      "Ronald J. VanAmberg argued the cause for petitioners. With him on the briefs were C. Bryant Rogers and George W. Kozeliski.",
+      "Sri Srinivasan argued the cause for the federal respondent. With him on the brief were Solicitor General Clement, Assistant Attorney General Keisler, Deputy Solicitor General Kneedler, Peter R. Maier, Kent D. Talbert, and Stephen H. Freid.",
+      "Leigh M. Manasevit, Special Assistant Attorney General of New Mexico, argued the cause for the state respondent. With him on the brief was Willie R. Brown"
+    ],
+    "corrections": "",
+    "head_matter": "ZUNI PUBLIC SCHOOL DISTRICT NO. 89 et al. v. DEPARTMENT OF EDUCATION et al.\nNo. 05-1508.\nArgued January 10, 2007\nDecided April 17, 2007\nBreyer, J., delivered the opinion of the Court, in which Stevens, Kennedy, Ginsburg, and Auto, JJ., joined. Stevens, J., filed a concurring opinion, post, p. 104. Kennedy, J., filed a concurring opinion, in which Auto, J., joined, post, p. 107. Scaua, J., filed a dissenting opinion, in which Roberts, C. J., and Thomas, J., joined, and in which Souter, J., joined as to Part I, post, p. 108. Souter, J., filed a dissenting opinion, post, p. 123.\nRonald J. VanAmberg argued the cause for petitioners. With him on the briefs were C. Bryant Rogers and George W. Kozeliski.\nSri Srinivasan argued the cause for the federal respondent. With him on the brief were Solicitor General Clement, Assistant Attorney General Keisler, Deputy Solicitor General Kneedler, Peter R. Maier, Kent D. Talbert, and Stephen H. Freid.\nLeigh M. Manasevit, Special Assistant Attorney General of New Mexico, argued the cause for the state respondent. With him on the brief was Willie R. Brown\nBriefs of amici curiae were filed for the State of Alaska by Craig J. Tillery, Acting Attorney General, and Kathleen Strasbaugh, Assistant Attorney General; and for New Mexico Public School Districts by Thomas C Bird."
+  },
+  "file_name": "0081-01",
+  "first_page_order": 131,
+  "last_page_order": 173
+}

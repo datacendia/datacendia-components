@@ -1,0 +1,59 @@
+{
+  "id": 12249219,
+  "name": "Allen v. United States",
+  "name_abbreviation": "Allen v. United States",
+  "decision_date": "2012-02-27",
+  "docket_number": "No. 10-999",
+  "first_page": "1234",
+  "last_page": "1234",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1234"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.698,
+    "sha256": "590729473128b8c6cefc007a0d9aaff1f48cac173bb8a317d97337e64008b28f",
+    "simhash": "1:85b8c383091abc63",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Allen v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-999.\nAllen v. United States."
+  },
+  "file_name": "1234-05",
+  "first_page_order": 1316,
+  "last_page_order": 1316
+}

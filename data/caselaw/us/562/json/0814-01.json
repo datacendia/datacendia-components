@@ -1,0 +1,59 @@
+{
+  "id": 5901847,
+  "name": "In re Discipline of Ziegler",
+  "name_abbreviation": "In re Discipline of Ziegler",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. D-2538",
+  "first_page": "814",
+  "last_page": "814",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 814"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 40,
+    "char_count": 294,
+    "ocr_confidence": 0.568,
+    "sha256": "6ae99a984af6f42f515ec2d8d2b599d119c724d8580c6c46cd1c62cf6784811a",
+    "simhash": "1:678239b23feef7ea",
+    "word_count": 52
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of Ziegler."
+    ],
+    "opinions": [
+      {
+        "text": "Stephen Leonard Ziegler, of Fort Lauderdale, Fla., is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2538.\nIn re Discipline of Ziegler."
+  },
+  "file_name": "0814-01",
+  "first_page_order": 836,
+  "last_page_order": 836
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12215921,
+  "name": "Wozniak v. Graham et al.",
+  "name_abbreviation": "Wozniak v. Graham",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5055",
+  "first_page": "887",
+  "last_page": "887",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 887"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.674,
+    "sha256": "3e810970fbdd85eefb82de4d5b237628c48310643a1dbd1cb45d40c075a3d522",
+    "simhash": "1:567be775fb481cca",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wozniak v. Graham et al."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ohio. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5055.\nWozniak v. Graham et al."
+  },
+  "file_name": "0887-12",
+  "first_page_order": 969,
+  "last_page_order": 969
+}

@@ -1,0 +1,68 @@
+{
+  "id": 12702194,
+  "name": "In re Jessie Wayne PILLETTE, petitioner.",
+  "name_abbreviation": "In re Pillette",
+  "decision_date": "2013-10-07",
+  "docket_number": "No. 13\u20135339.",
+  "first_page": "815",
+  "last_page": "815",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 815"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 272"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 273"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 161,
+    "sha256": "f16ea2b27ac94bcd72a15da3a79b5b7c68e9880a2ac1af85eca64da538c80cbf",
+    "simhash": "1:f8a2461dfeb0261f",
+    "word_count": 25
+  },
+  "last_updated": "2021-08-27T20:47:23.363448+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Jessie Wayne PILLETTE, petitioner."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of mandamus and/or prohibition denied."
+    ],
+    "corrections": "",
+    "head_matter": "In re Jessie Wayne PILLETTE, petitioner.\nNo. 13-5339.\nSupreme Court of the United States\nOct. 7, 2013.\nPetition for writ of mandamus and/or prohibition denied."
+  },
+  "file_name": "0815-01",
+  "first_page_order": 815,
+  "last_page_order": 815
+}

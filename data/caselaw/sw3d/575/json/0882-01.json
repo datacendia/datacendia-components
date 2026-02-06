@@ -1,0 +1,602 @@
+{
+  "id": 12659951,
+  "name": "Skeet PHILLIPS, Appellant v. Ray CLARK, Appellee",
+  "name_abbreviation": "Phillips v. Clark",
+  "decision_date": "2019-05-03",
+  "docket_number": "No. 05-18-00556-CV",
+  "first_page": "882",
+  "last_page": "892",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "575 S.W.3d 882"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex. App. Ct.",
+    "id": 30114,
+    "name": "Court of Appeals of Texas, Dallas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "426 S.W.3d 861",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6948027
+      ],
+      "pin_cites": [
+        {
+          "page": "865"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/426/0861-01"
+      ]
+    },
+    {
+      "cite": "348 S.W.3d 381",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7318376
+      ],
+      "pin_cites": [
+        {
+          "page": "387"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/348/0381-01"
+      ]
+    },
+    {
+      "cite": "361 S.W.3d 707",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7317215
+      ],
+      "pin_cites": [
+        {
+          "page": "711-12"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/361/0707-01"
+      ]
+    },
+    {
+      "cite": "291 S.W.3d 130",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7299605
+      ],
+      "pin_cites": [
+        {
+          "page": "142"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/291/0130-01"
+      ]
+    },
+    {
+      "cite": "415 S.W.3d 387",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7088130
+      ],
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "395"
+        },
+        {
+          "page": "398"
+        },
+        {
+          "page": "402"
+        },
+        {
+          "page": "403"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/415/0387-01"
+      ]
+    },
+    {
+      "cite": "302 S.W.3d 542",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7299482
+      ],
+      "pin_cites": [
+        {
+          "page": "546"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/302/0542-01"
+      ]
+    },
+    {
+      "cite": "2019 WL 1090771",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "*4"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "571 S.W.3d 753",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12659444
+      ],
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "759-60"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/571/0753-01"
+      ]
+    },
+    {
+      "cite": "233 S.W.3d 835",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8350528
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "840"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/233/0835-01"
+      ]
+    },
+    {
+      "cite": "401 S.W.3d 623",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7093485
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "630"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw3d/401/0623-01"
+      ]
+    },
+    {
+      "cite": "264 S.W.3d 160",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8203632
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "167"
+        },
+        {
+          "page": "176-77"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw3d/264/0160-01"
+      ]
+    },
+    {
+      "cite": "180 S.W. 597",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8251980
+      ],
+      "year": 1915,
+      "pin_cites": [
+        {
+          "page": "601",
+          "parenthetical": "statute should be read to make no part superfluous \"when possible to do so\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw/180/0597-01"
+      ]
+    },
+    {
+      "cite": "107 Tex. 443",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2251616
+      ],
+      "year": 1915,
+      "pin_cites": [
+        {
+          "parenthetical": "statute should be read to make no part superfluous \"when possible to do so\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/107/0443-01"
+      ]
+    },
+    {
+      "cite": "462 S.W.3d 507",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6864494
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "508",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw3d/462/0507-01"
+      ]
+    },
+    {
+      "cite": "916 S.W.2d 42",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9999233
+      ],
+      "pin_cites": [
+        {
+          "page": "46"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/916/0042-01"
+      ]
+    },
+    {
+      "cite": "421 Md. 227",
+      "category": "reporters:state",
+      "reporter": "Md.",
+      "case_ids": [
+        3700368
+      ],
+      "weight": 2,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "857"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/md/421/0227-01"
+      ]
+    },
+    {
+      "cite": "20 So.3d 1047",
+      "category": "reporters:state_regional",
+      "reporter": "So. 3d",
+      "case_ids": [
+        7058053
+      ],
+      "year": 2009,
+      "opinion_index": 1,
+      "case_paths": [
+        "/so3d/20/1047-01"
+      ]
+    },
+    {
+      "cite": "359 F.2d 318",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        829160
+      ],
+      "year": 1966,
+      "pin_cites": [
+        {
+          "page": "335"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/359/0318-01"
+      ]
+    },
+    {
+      "cite": "419 N.Y.S.2d 87",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.2d",
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "91"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "69 A.D.2d 632",
+      "category": "reporters:state",
+      "reporter": "A.D.2d",
+      "case_ids": [
+        3152815
+      ],
+      "year": 1979,
+      "opinion_index": 1,
+      "case_paths": [
+        "/ad2d/69/0632-01"
+      ]
+    },
+    {
+      "cite": "220 S.W. 66",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        2286408,
+        10297861
+      ],
+      "year": 1920,
+      "pin_cites": [
+        {
+          "page": "70"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/110/0309-01",
+        "/sw/220/0066-01"
+      ]
+    },
+    {
+      "cite": "110 Tex. 309",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2286408
+      ],
+      "year": 1920,
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/110/0309-01"
+      ]
+    },
+    {
+      "cite": "406 S.W.3d 177",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7089896
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "180",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw3d/406/0177-01"
+      ]
+    },
+    {
+      "cite": "463 S.W.3d 42",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6861652
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "46",
+          "parenthetical": "citations and internal quotations omitted"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw3d/463/0042-01"
+      ]
+    },
+    {
+      "cite": "111 S.W.3d 22",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9099668
+      ],
+      "weight": 4,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "25"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw3d/111/0022-01"
+      ]
+    },
+    {
+      "cite": "361 S.W.3d 707",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7317215
+      ],
+      "pin_cites": [
+        {
+          "page": "711-12"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw3d/361/0707-01"
+      ]
+    },
+    {
+      "cite": "291 S.W.3d 130",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7299605
+      ],
+      "pin_cites": [
+        {
+          "page": "137-43"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw3d/291/0130-01"
+      ]
+    },
+    {
+      "cite": "415 S.W.3d 387",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7088130
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "389"
+        },
+        {
+          "page": "394-95"
+        },
+        {
+          "page": "402-03",
+          "parenthetical": "analyzing non-members class as a separate possibility from the \"member\" class"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw3d/415/0387-01"
+      ]
+    },
+    {
+      "cite": "2019 WL 1090771",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 2,
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "*3-4"
+        },
+        {
+          "page": "*3-4"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "571 S.W.3d 753",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12659444
+      ],
+      "weight": 2,
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "757-58"
+        },
+        {
+          "page": "757-58"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw3d/571/0753-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1262,
+    "char_count": 33651,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.26514499493985944
+    },
+    "sha256": "9bf9d09406a5893b7c98d952cac94676f6db7c7ca12ae7f2d2a7c319e396b9ef",
+    "simhash": "1:3319b2041c47105f",
+    "word_count": 5387
+  },
+  "last_updated": "2024-02-27T19:43:17.042952+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Skeet PHILLIPS, Appellant\nv.\nRay CLARK, Appellee"
+    ],
+    "opinions": [
+      {
+        "text": "Opinion by Justice Reichek\nIn this suit for libel and defamation, Skeet Phillips appeals the trial court's denial of his motion for traditional and no-evidence partial summary judgment. Because we conclude Phillips has failed to demonstrate his entitlement to bring an interlocutory appeal under section 51.014(a)(6) of the Texas Civil Practice and Remedies Code, we dismiss this appeal for lack of jurisdiction.\nProcedural Background\nRay Clark brought this suit against Phillips and others asserting claims for defamation/libel per se, defamation/libel per quod, and conspiracy. According to Clark's live pleading, in March 2014, he was the incumbent candidate for the office of County Commissioner of Precinct 2 in Kaufman County, Texas. Phillips was one of Clark's challengers in the Republican primary election. Clark asserted that Phillips hired his co-defendants Michael Hendrix, Ben Campbell, and John Knox, along with their organizations, The Precise Agency, The Precise Agency Group, My Right to Know, and Your Right to Know, to advertise for his campaign.\nOn March 1, 2014, three days before the election, many residents of Precinct 2 received a mailer purportedly sent by My Right to Know. Clark asserted the mailer contained numerous false statements of fact that unambiguously associated him with corruption in connection with the prosecution of an alleged child molester, Stoney Adams. The next day, an article appeared on myrighttoknow.org containing substantially similar statements about Clark's association with Stoney. Clark alleged that \"My Right to Know\" was an assumed name of Hendrix, Campbell, and Your Right to Know, and that Phillips provided them with all or part of the information contained in the article.\nPhillips filed a motion for partial summary judgment on Clark's claims for defamation/libel per quod and conspiracy asserting both traditional and no-evidence grounds. In the motion, Phillips argued Clark could not establish damages caused by the allegedly false statements in the mailer and on the website or a meeting of the minds to defame him. The trial court denied the motion, and Phillips filed this interlocutory appeal.\nIn his notice of appeal, Phillips relies on section 51.014(a)(6) of the Texas Civil Practice and Remedies Code as the basis for this Court's jurisdiction. Section 51.014(a)(6) permits an interlocutory appeal from an order that\ndenies a motion for summary judgment that is based in whole or in part upon a claim against or a defense by a member of the electronic or print media, acting in such capacity, or a person whose communication appears in or is published by the electronic or print media, arising under the free speech or free press clause of the First Amendment to the United States Constitution, or Article I, Section 8, of the Texas Constitution, or Chapter 73.\nTEX. CIV. PRAC. & REM. CODE ANN . \u00a7 51.014(a)(6). Phillips further states in the notice, \"For purposes of appellate jurisdiction, Defendant attaches and incorporates by reference the Affidavit of Ben Campbell dated May 27, 2014 (Exhibit A), and two inForney.com news articles dated March 3, 2014 and March 25, 2014 (Exhibit B).\"\nIn Campbell's affidavit he states that Your Right to Know is a Texas nonprofit corporation of which he is one of three directors. The corporation's statement of purpose is \"for charitable, religious, education, and scientific purposes under 501(c)(3) of the Internal Revenue Code.\" Campbell also states Your Right to Know created the website myrighttoknow.org and, prior to March 2014, the website addressed \"the need for transparency in healthcare matters.\"\nAccording to Campbell, Lacie Adams, Stoney's ex-wife, wanted to have her \"strong opinion\" on the matter of Stoney's prosecution posted in an article on the myrighttoknow.org website. Your Right to Know \"hired an individual who had investigative reporting experience\" to write the article, but the content of the article \"did not contain anything that was a substantive change from what Lacie had provided to be posted on the website.\" The mailer sent out to some of the residents of Precinct 2 prior to the election referenced the myrighttoknow.org website.\nExhibit B to Phillips's notice of appeal is two articles printed from inForney.com. The first is entitled \"Will Precinct 2 voters reject negative political mailers?\" The second is entitled \"Commissioner Clark files defamation suit against Skeet Phillips, wife, and others.\" On May 16, 2018, Phillips filed in this Court an affidavit by Mathew Richards, a journalist working with inForney.com. Richards states \"inForney is an online news publication that publishes stories/news on a variety of topics which include, but are not limited to, Local News, Business, Crime, Education, Sports, Politics, and Entertainment.\" Richards further states that the articles published on the inForney website contained quotes from the mailer and/or the article published on myrighttoknow.org.\nIn his brief on appeal, Phillips does not address this Court's jurisdiction over his appeal other than to cite section 51.014 of the Texas Civil Practice and Remedies Code and refer to Richards's affidavit. Clark asserts in his responsive brief that we have no jurisdiction because Phillips is not a media defendant and has not asserted any defenses based on free speech, freedom of the press, or Chapter 73. Although Phillips filed a reply brief, he did not address Clark's jurisdictional arguments.\nJurisdiction Under Section 51.014(a)(6)\nAppellate courts have jurisdiction to consider immediate appeals from interlocutory orders only if a statute explicitly provides such jurisdiction. Tex. A & M Univ. Sys. v. Koseoglu , 233 S.W.3d 835, 840 (Tex. 2007). In this case, Phillips relies solely on section 51.014(a)(6) of the civil practice and remedies code. For an interlocutory appeal under section 51.014(a)(6), there must be: (1) an order (2) that denies a motion for summary judgment (3) that is based in whole or in part upon a claim against or defense by (4) a member of the media or a person quoted in the media (5) arising under constitutional free speech guarantees or Texas libel statutes. TEX. CIV. PRAC. & REM. CODE ANN. \u00a7 51.014(a)(6) ; see also Dallas Symphony Ass'n, Inc. v. Reyes , 571 S.W.3d 753, 759-60, 2019 WL 1090771, at *4 (Tex. 2019). The order from which Phillips appeals denies his motion for summary judgment challenging Clark's claims against him arising under the Texas libel statutes. However, unless the record affirmatively shows Phillips was either a member of the media, or his statements appeared in the media, we must dismiss the appeal. See Brashear v. Victoria Gardens of McKinney, L.L.C., 302 S.W.3d 542, 546 (Tex. App.-Dallas 2009, no pet.).\nAssuming the communications at issue are attributable to Phillips, which he denies, not everyone who comments on the news or political or social issues is a \"member of the media.\" Serv. Emps. Int'l Union Local 5 v. Prof'l Janitorial Serv. of Houston, Inc. , 415 S.W.3d 387, 395 (Tex. App.-Houston [1st Dist.] 2013, pet. denied). The distinction between media defendants and those who merely opine on the issues of the day is particularly important today when every person with an internet connection has the ability to publish his or her comments to a broad audience. If the entirety of the internet and those who communicate on it were considered the \"media,\" the limiting language of section 51.014(a)(6) would be rendered meaningless. Id.\nSeveral courts have addressed the application of section 51.014(a)(6) 's media defendant requirement in this age of easy mass communication. Each of these cases has recognized that the term \"media\" must be interpreted in such a way as to limit the applicability of the section to the class of persons it was intended to benefit. In Service Employees International Union Local 5 v. Professional Service of Houston, Inc. , the Houston First Court of Appeals held that a person is a \"member of the media\" when \"the person's primary business is reporting the news and they are ... acting in such capacity.\" Id. at 398. In Kaufman v. Islamic Society of Arlington , the Fort Worth Court of Appeals set out a number of factors to be considered, including the \"circumstances relating to the character and text of the communication itself, its editorial process, its volume of dissemination, the communicator's extrinsic notoriety unconnected to the communication, [and] the communicator's compensation for or professional relationship to making the communication.\" 291 S.W.3d 130, 142 (Tex. App.-Fort Worth 2009, pet. denied). Finally, in Hotze v. Miller , the Tyler Court of Appeals concluded the appellant was a \"media defendant\" based, in part, on the record showing he had been a political writer and journalist for thirty years, his editorials were published in a weekly newspaper, and he hosted a radio broadcast and website that published his articles. 361 S.W.3d 707, 711-12 (Tex. App.-Tyler 2012, pet. denied). A common thread through all of these holdings is that the appellant's communications must be made in the context of professional news reporting or professional investigation and commentary on matters of public concern. See also Main v. Royall , 348 S.W.3d 381, 387 (Tex. App.-Dallas 2011, no pet.) (writer and publisher of traditional book criticizing government's use of eminent domain power were \"members of the electronic or print media\" for purposes of section 51.014(a)(6) ).\nThe record before us shows that Phillips was a candidate for public office who allegedly provided information that was published in mailers and on a website. Nothing in the record shows Phillips has ever engaged in professional news reporting or any other form of journalism or professional investigation and commentary about matters of public concern. Accordingly, Phillips does not qualify as a \"member of the media.\"\nWe recognize that section 51.014(a)(6) contains a second, independent basis to bring an interlocutory appeal if the appellant's communications appeared in the media. Hotze , at 712. There is no suggestion in the statute, however, that the \"media\" in which the appellant's communications must appear is any different than the \"media\" of which the appellant must be a member. Accordingly, not every publication falls within the scope of section 51.014(a)(6). For example, although the internet has been recognized as a type of \"nontraditional electronic media,\" not every website will qualify as \"media\" for purposes of section 51.014(a)(6). See Serv. Emps. , 415 S.W.3d at 402. To conclude otherwise would lead to the absurd result that a person who was not a member of the media could become a \"media defendant\" simply by having his statements appear somewhere on the internet regardless of the context in which they appeared. The media in which the appellant's communications appear, therefore, must also be in the business of news reporting or professional investigation and commentary on matters of public concern.\nIn this case, Phillips's alleged communications appeared in mailers and a website article published by myrighttoknow.org. According to the affidavit testimony submitted by Phillips, myrighttoknow.org was a website created by Your Right to Know, a Texas nonprofit corporation established \"for charitable, religious, education, and scientific purposes.\" Although Phillips's co-defendant Campbell testified that Your Right to Know hired an individual with \"investigative reporting experience\" to write the article about which Clark complains, Campbell also stated the content of the article came entirely from a non-media source provided to the writer. There is no indication that investigative reporting played any role in the creation of the article.\nClark has alleged that Hendrix, another co-defendant, is the registered owner of myrighttoknow.org and that Hendrix \"does business as My Right to Know, Your Right to Know, The Precise Agency, LLC, and The Precise Agency Group LLC.\" Hendrix testified by affidavit that Phillips retained the Precise Agency as a consultant for his campaign and to provide campaign advertising and maintenance and monitoring of social media. On this record, there is nothing to suggest that myrighttoknow.org, or any of the persons associated with it, is in the business of news reporting or professional investigation and commentary. Because of this, we conclude their publications do not qualify as \"media\" for the purposes of section 51.014(a)(6).\nFinally, Phillips appears to rely on the news articles appearing on inForney.com to bring him within the scope of section 51.014(a)(6). The articles on inForney.com were written by a professional journalist and discuss the mailers sent prior to the election and the subsequent lawsuit brought by Clark. But Clark has not pleaded any claims based on the publication of those articles, nor does he allege that they are defamatory. Phillips cannot, therefore, rely on those articles to establish his standing as a media defendant. Id. at 403.\nBased on the foregoing, we conclude the record fails to affirmatively show that Phillips falls within the class of persons to which section 51.014(a)(6) applies. Accordingly, we dismiss this appeal for want of jurisdiction.\nTex. Gov't Code Ann . \u00a7 22.220(c) (court of appeals may, on affidavit or otherwise, ascertain matters of fact necessary to proper exercise of jurisdiction); Greystar, LLC v. Adams , 426 S.W.3d 861, 865 (Tex. App.-Dallas 2014, no pet.) (we may consider submitted documents outside the record for limited purpose of determining our own jurisdiction).\nWe disagree with the concurrence's conclusion that a motion challenging a claim under the Texas libel statutes is not a motion \"based upon\" the challenged claim.",
+        "type": "majority",
+        "author": "Opinion by Justice Reichek"
+      },
+      {
+        "text": "Whitehill, J., concurring.\nCONCURRING OPINION\nBILL WHITEHILL, JUSTICE\nI agree that we lack jurisdiction over this appeal but disagree with the majority opinion's reasoning.\nIn short, whether we have jurisdiction over Phillips's appeal from the denial of his summary judgment motion in this defamation case depends on whether he asserted a ground based on the First Amendment, its Texas equivalent, or Civil Practice and Remedies Code Chapter 73. He didn't. Enough said. That should end the appeal.\nBut instead of following this straightforward path to its logical end, the majority opinion unnecessarily explores the boundaries of what constitutes \"electronic media\" and being a member thereof in this era of burgeoning public dissemination of news and debate on the Internet. And then the majority opinion errs in its analysis. The majority opinion even disagrees with its principal authority on what constitutes electronic media. And even that authority is suspect in light of an intervening case.\nWe should not reach issues we do not need to reach to decide a case. Because there is a straightforward answer to this case without exploring in the first instance the boundaries of what constitutes the electronic media, we should follow the straightforward path and wait until when defining the electronic media is necessary to decide the case then before us.\nI. ANALYSIS\nA. Statutory Interpretation Principles\nThe supreme court in Dallas Symphony Ass'n, Inc. v. Reyes held that we are no longer to narrowly construe Civil Practice and Remedies Code \u00a7 51.014(a)(6). 571 S.W.3d 753, 757-58, 2019 WL 1090771, at *3-4 (Tex. 2019). Thus, we should interpret that statute according to normal statutory construction principles.\nWhen construing a statute, we attempt to ascertain and effect the legislature's intent. City of San Antonio v. City of Boerne , 111 S.W.3d 22, 25 (Tex. 2003). Our starting point is the statutory words' plain and ordinary meaning. Id. If a statute's meaning is unambiguous, we generally enforce it according to its plain meaning. Id. We read the statute as a whole and interpret it so as to give effect to every part. Id.\nWe look to the plain meaning of the words in a statute as an expression of legislative intent. If the statute is clear and unambiguous, we must read the language according to its common meaning without resort to rules of construction or extrinsic aids. Thus, we initially limit our statutory review to the plain meaning of the text as the sole expression of legislative intent, unless the Legislature has supplied a different meaning by definition, a different meaning is apparent from the context, or applying the plain meaning would lead to absurd results.\nAbutahoun v. Dow Chem. Co. , 463 S.W.3d 42, 46 (Tex. 2015) (citations and internal quotations omitted).\n\"Undefined terms in a statute are typically given their ordinary meaning.\" State v. $ 1,760.00 in U.S. Currency , 406 S.W.3d 177, 180 (Tex. 2013) (per curiam).\nCourts must take statutes as they find them. More than that, they should be willing to take them as they find them. They should search out carefully the intendment of a statute, giving full effect to all of its terms. But they must find its intent in its language, and not elsewhere. They are not the law-making body. They are not responsible for omissions in legislation. They are responsible for a true and fair interpretation of the written law. It must be an interpretation which expresses only the will of the makers of the law, not forced nor strained, but simply such as the words of the law in their plain sense fairly sanction and will clearly sustain.\nSimmons v. Arnim , 110 Tex. 309, 220 S.W. 66, 70 (1920).\nFurthermore, Occam's Razor is the principle that the simplest of competing theories should be preferred to the more complex and subtle. Swierupski v. Korn , 69 A.D.2d 632, 419 N.Y.S.2d 87, 91 (1979). Stated differently, the simplest answer is usually the best answer. Courts often cite this principle in reaching logical results. See, e.g. , Alabama-Tennessee Nat. Gas Co. v. Fed. Power Comm'n, 359 F.2d 318, 335 (5th Cir. 1966) ; La. Workers' Comp. Corp. v. La. Ins. Guar. Ass'n , 20 So.3d 1047, 1059 n.13 (La. Ct. App. 2009).\nOccam's Razor's wisdom is a reason why a statute's plain language is the first (and often only) tool we use in statutory construction. Guttman v. Wells Fargo Bank , 421 Md. 227, 26 A.3d 856, 857 (2011). That wisdom applies well here.\nB. What does the relevant statute say?\nThe relevant statute is Civil Practice and Remedies Code \u00a7 51.014(a)(6), which provides:\n(a) A person may appeal from an interlocutory order ... that:\n...\n(6) denies a motion for summary judgment that is based in whole or in part upon a claim against or defense by a member of the electronic or print media, acting in such capacity, or a person whose communication appears in or is published by the electronic or print media, arising under the free speech or free press clause of the First Amendment to the United States Constitution, or Article I, Section 8, of the Texas Constitution, or Chapter 73 ....\nTEX. CIV. PRAC. & REM. CODE \u00a7 51.014(a)(6) (emphasis added).\nThe majority opinion reiterates the statute's five elements that the supreme court identified in Dallas Symphony Ass'n . One of our sister courts summarized those elements thusly:\nThe legislature in 1993 provided for an interlocutory appeal from the denial of a motion for summary judgment by members of the electronic or print media when the grounds for the motion for summary judgment are based on (1) the free speech or free press clause of the First Amendment, (2) the Texas Constitution article I, section 8, or (3) Civil Practice and Remedies Code chapter 73.\nGrant v. Wood , 916 S.W.2d 42, 46 (Tex. App-Houston [1st Dist.] 1995, orig. proceeding).\nAlthough the statute is no model of clarity, its elements comprise three conjunctive components:\n1. there is an interlocutory appeal from the grant or denial of a summary judgment motion (the procedural component);\n2. by (a) a member of the electronic or print media acting in that capacity or (b) a person whose communication appears in or is published by the electronic or print media (the media component); and\n3. the summary judgment motion is based at least in part upon a claim or defense arising under the First Amendment's free speech or free press clauses, the Texas equivalents, or Chapter 73 (the arises under component).\nThe procedural component describes the trial court event that triggers the appellant's right to an interlocutory appeal. This statute's trigger is a summary judgment denial.\nThe media component identifies two classes of parties who may invoke the right to pursue the appeal. One class is the \"members class.\" Common sense, obvious examples of this class include Walter Cronkite or CBS News. The other class is the \"non-members class,\" which includes a person who is otherwise not a member of the media but whose communication appears in or is published by the electronic or print media. A common sense, obvious example of this class would be an average person who writes a letter to the editor or is interviewed by a reporter and her comments get published by that media platform.\nThe arises under component defines the required nature of an asserted summary judgment ground that was denied.\nThus, to be entitled to an interlocutory appeal via \u00a7 51.014(a)(6), the appellant must be a media component party whose denied summary judgment motion asserted a ground arising under one of the specified constitutional or statutory provisions.\nBecause Phillips appeals a summary judgment denial, the focus is whether his appeal meets the media and arises under components. The majority opinion ignores the arises under component and focuses solely on the media component. But not only is it simpler to first ask whether Phillips's appeal passes the arises under test, but the majority opinion also misconstrues and thus misapplies the media test.\nC. Was Phillips's summary judgment motion based at least in part on the specified constitutional provisions or Chapter 73?\nNo.\nTo begin, Phillips's motion is not based upon a claim. Instead, it attacks Clark's claims. But the statute says the motion must be \"based upon\" a claim or defense. The verb \"base\" means \"to make or form a base or foundation for\" or \"to establish, as a fact or conclusion (usually followed by on or upon ).\" Base , http://www.dictionary.com (last visited May 3, 2019). Thus, only a claimant's motion can be \"based upon\" a claim.\nHere, Phillips's motion was based on these defensive grounds:\n\u2022 the evidence established that Clark suffered no damages from the alleged defamation and libel per quod;\n\u2022 Clark had no evidence that he suffered any damages from the alleged defamation and libel per quod;\n\u2022 the evidence established that Phillips did not participate in any meeting of the minds to defame Clark, thus defeating the conspiracy claim;\n\u2022 the evidence established that Clark suffered no damages from the alleged conspiracy; and\n\u2022 Clark had no evidence that Phillips participated in any meeting of minds to defame Clark or that he suffered any damages from the alleged conspiracy.\nBut, none of these defensive grounds is based even in part on the federal or Texas constitutions or Chapter 73. Accordingly, we lack jurisdiction over Phillips' interlocutory appeal.\nThis plain text result occurs without having to consider whether Phillips is a member of the electronic media. Because the majority opinion focuses on whether only the electronic media is involved here without addressing the print media, I focus on only the electronic media part of the media component. Since we can resolve the case on this straightforward basis, we should do so without broaching what constitutes electronic media in the Internet era.\nD. Is Phillips a person whose communication appeared in or was published by electronic media?\nYes.\nI agree that the record does not show that Phillips is a member of the electronic media. The statute does not define the phrase \"member of the electronic or print media.\" But whatever that phrase means, the word \"member\" must mean at least that the litigant has a more substantial connection to the electronic media than the ordinary person does. See Member , THE NEW OXFORD AMERICAN DICTIONARY (2001) (\"an individual belonging to a group such as a society or team\"). Nothing in the record shows that Phillips is part of a media group or has any unusual connection to the electronic or print media. Thus, the record does not affirmatively show that he satisfies this prong of the media component.\nHowever, concluding that Phillips is not a member of the electronic media is only half of the analysis. Conceptually, he could still satisfy the media component if his communications appeared in or were published by the electronic media. Because there is some summary judgment evidence that Phillips's communications appeared in or were published on myrighttoknow.org, the question remains whether that website constitutes electronic media.\nRather than addressing that question directly, the majority opinion concludes that Phillips's communications weren't published on or by the media because \"media\" in that context means the same thing as \"member of the media\" and there's no evidence that myrighttoknow.org was a member of the media. That is, according to the majority opinion, that website was not in the business of news reporting or professional investigation and commentary on matters of public concern. In so doing, the majority opinion errs in several ways.\nFirst, the majority opinion ignores the common understanding that electronic media includes the Internet. Specifically, a \"medium\" (as opposed to a member of the media) is simply \"a means by which something is communicated or expressed.\" Medium , THE NEW OXFORD AMERICAN DICTIONARY (2001). Moreover, dictionaries define \"media\" to include Internet websites:\n... the main means of mass communication (esp. television, radio, newspapers, and the Internet)....\nMedia , THE NEW OXFORD AMERICAN DICTIONARY . Similarly,\nCommunication channels through which news, entertainment, education, data, or promotional messages are disseminated. Media includes every broadcasting and narrowcasting medium such as newspapers, magazines, TV, radio, billboards, direct mail, telephone, fax, and internet.\nMedia , http://www.businessdictionary.com/definition/media.html (last visited May 3, 2019). Thus, according to plain text and common understanding, electronic media includes Internet websites.\nSecond, the lead case in the majority opinion's analysis, SEIU Local 5 v. Professional Janitorial Service of Houston, Inc. , defines electronic media to include websites. See 415 S.W.3d 387, 389 (Tex. App-Houston [1st Dist.] 2013, pet denied). Furthermore, SEIU 's restrictive approach to \u00a7 51.014(a)(6) 's scope, id. at 394-95, is no longer valid after the supreme court rejected that approach in Dallas Symphony Ass'n , 571 S.W.3d at 757-58, 2019 WL 1090771, at *3-4.\nThird, the majority opinion interjects the \"member of\" requirement into the media component's non-members class of potential appellants when that class contains no such membership restriction. It is wrong to conflate \"member of the media\" and \"media\" in these separate statutory clauses. In so doing, the majority opinion essentially rewrites the relevant language to read \"a person whose communication appears in or is published by a member of the electronic or print media.\" But the words \"a member of\" do not exist in that clause-and we are not allowed to rewrite a statute. See Lippincott v. Whisenhunt , 462 S.W.3d 507, 508 (Tex. 2015) (per curiam).\nFourth, two of the three cases discussed by the majority treat and analyze the two media component classes separately, without reading a \"member of the media\" requirement into the non-members class. See SEIU , 415 S.W.3d at 402-03 (analyzing non-members class as a separate possibility from the \"member\" class); Hotze v. Miller , 361 S.W.3d 707, 711-12 (Tex. App.-Tyler 2012, pet. denied) (treating the two classes as separate inquiries and concluding that Hotze satisfied both). The third case held that the appellant met the members class requirement and so did not consider the non-members class. Kaufman v. Islamic Soc'y of Arlington , 291 S.W.3d 130, 137-43 (Tex. App.-Fort Worth 2009, pet. denied).\nThe majority argues that we cannot give the \"non-members class\" a plain language interpretation because it makes the class so large as to make the \"members class\" meaningless surplusage. However, it is well-settled that the anti-surplusage canon of construction is not an inflexible and ironclad rule. See Spence v. Fenchler , 107 Tex. 443, 180 S.W. 597, 601 (1915) (statute should be read to make no part superfluous \"when possible to do so\"); cf. U.S. Fire Ins. Co. v. Scottsdale Ins. Co. , 264 S.W.3d 160, 167 (Tex. App.-Dallas 2008, no pet.) (in contract interpretation, the anti-surplusage canon is not an \"ironclad rule\"). \"Put to a choice, ... a court may well prefer ordinary meaning to an unusual meaning that will avoid surplusage.\" ANTONIN SCALIA & BRYAN A. GARNER , READING LAW: THE INTERPRETATION OF LEGAL TEXTS 176 (2012). \"Sometimes drafters do repeat themselves and do include words that add nothing of substance, either out of a flawed sense of style or to engage in the ill-conceived but lamentably common belt-and-suspenders approach.\" Id. at 176-77. That is the case here. Perhaps every appellant within the members class also comes within the plain meaning of the terms of the non-members class. Nevertheless, the non-members class has a plain meaning, and that's how we should interpret it.\nFurthermore, there is a logical reason for including both classes. For example, assume Walter Cronkite had been sued for something he said in a broadcast while reporting about a public figure. In that instance, (i) referring to a member of the media acting in that capacity as well as (ii) including the First Amendment freedom of speech and of the press principles in the arises under component would ensure that Cronkite could appeal from the denial of a summary judgment asserting First Amendment based defenses. Whereas, the second clause ensures that an average person, who is not a member of the media, has the same rights in a pure Chapter 73 libel suit based on her letter to the editor. The legislature could reasonably conclude that it wanted to make doubly sure that this interlocutory appeal right was available in both instances and so provided.\nSimilarly, another plausible reading of the second clause could be that the legislature specifically wanted to expand this statutory benefit to a non-media party whose communication was republished by a wider array of communication outlets than traditional, well-recognized media platforms. That is, the legislature may well have intended to ensure that an average person gets the same benefit if someone overhears her comments and then spreads them on the Internet.\nOf course, all of this discussion would be unnecessary if we simply decided the case under the arises under component.\nE. Does the absurdity rule apply here?\nNo.\nThe majority opinion improperly invokes the absurd results rule because \"[t]he absurdity safety valve is reserved for truly exceptional cases, and mere oddity does not equal absurdity.\" Combs v. Health Care Servs. Corp. , 401 S.W.3d 623, 630 (Tex. 2013). We should be very slow to invoke that safety valve.\nFurthermore, the results of the plain meaning interpretation are neither odd nor absurd. The majority opinion posits that it is absurd to read the statute to give an interlocutory appeal to an ordinary person simply because her statements appear somewhere on the Internet, regardless of whether the subject website is a recognized journalistic platform. Why is this absurd? The majority opinion does not explain.\nSection 51.014(a)(6) gives some litigants an interlocutory appeal when a summary judgment motion is based on certain constitutional rights or Chapter 73. The majority opinion, however, limits that benefit to, essentially, professional journalists and people published by professional journalists. But there is no absurdity in extending the right to ordinary citizens, the \"little guys,\" who get sued because their communications are published on a \"non-journalist\" website and then try to vindicate their constitutional or statutory rights via summary judgment.\nSuppose an ordinary person is sued for being quoted on the internet and she invokes a First Amendment defense. Why should she get the benefit of \u00a7 51.014(a)(6) if she was quoted on CNN's website but not if she was quoted on myrighttoknow.org? Either way, she has been sued, potentially in violation of her constitutional rights. It is not absurd to think the legislature might have wanted to give her an interlocutory appeal in both scenarios. The majority opinion's distinction is both arbitrary and unsupported by the statutory language.\nIt is the legislature's job to narrow the statute's reach, if that is what the legislature wants.\nIV. CONCLUSION\nIn this case, not only is the analysis based on Phillips's inability to meet the arises under component the simpler and thus preferred approach, it is the only correct approach on this record and \u00a7 51.014(a)(6) 's unambiguous terms. Therefore, we should base our opinion on that reasoning and reserve our opinion on what constitutes electronic media in this context for when it is necessary for us to so.\nAccordingly, I concur in the Court's judgment.\nTo cover all bases, the majority opinion needs to address the printed mailers but doesn't. I don't address it either because the arises under component fails.",
+        "type": "concurrence",
+        "author": "Whitehill, J., concurring."
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "Skeet PHILLIPS, Appellant\nv.\nRay CLARK, Appellee\nNo. 05-18-00556-CV\nCourt of Appeals of Texas, Dallas.\nOpinion Filed May 3, 2019"
+  },
+  "file_name": "0882-01",
+  "first_page_order": 882,
+  "last_page_order": 892
+}

@@ -1,0 +1,63 @@
+{
+  "id": 12234638,
+  "name": "Rhoades v. Blades, Warden",
+  "name_abbreviation": "Rhoades v. Blades",
+  "decision_date": "2011-11-17",
+  "docket_number": "No. 11-7466 (11A497)",
+  "first_page": "1048",
+  "last_page": "1048",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1048"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 30,
+    "char_count": 211,
+    "ocr_confidence": 0.635,
+    "pagerank": {
+      "raw": 2.1995933875888662e-07,
+      "percentile": 0.7701240257641937
+    },
+    "sha256": "e5ee1b822990d0567532b35109d07b82f1b62b6b53b6aa45ff3be6919d8678b2",
+    "simhash": "1:74ede92b2eef18f9",
+    "word_count": 34
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rhoades v. Blades, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Application for stay of execution of sentence of death, presented to Justice Kennedy, and by him referred to the Court, denied. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7466 (11A497).\nRhoades v. Blades, Warden."
+  },
+  "file_name": "1048-01",
+  "first_page_order": 1130,
+  "last_page_order": 1130
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12408799,
+  "name": "Caparotta v. United States",
+  "name_abbreviation": "Caparotta v. United States",
+  "decision_date": "2012-06-11",
+  "docket_number": "No. 11-10207",
+  "first_page": "911",
+  "last_page": "911",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 911"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.702,
+    "sha256": "20d6e8ee29912a20f159d2245b7aa26846ed901a91087eab033713a3ec0df65d",
+    "simhash": "1:051afe024f91962c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Caparotta v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir.\nCertiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10207.\nCaparotta v. United States."
+  },
+  "file_name": "0911-04",
+  "first_page_order": 815,
+  "last_page_order": 815
+}

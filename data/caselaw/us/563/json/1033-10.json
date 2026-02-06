@@ -1,0 +1,59 @@
+{
+  "id": 5920236,
+  "name": "Flint v. Armstrong, Judge, District Court of Kentucky, Jefferson County",
+  "name_abbreviation": "Flint v. Armstrong",
+  "decision_date": "2011-06-06",
+  "docket_number": "No. 10-1278",
+  "first_page": "1033",
+  "last_page": "1033",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1033"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 18,
+    "char_count": 120,
+    "ocr_confidence": 0.626,
+    "sha256": "a8dbb299e2009d99f4e9b18f987ba7b1b30965d86c79e11daa08dbea477eb5c7",
+    "simhash": "1:b75b9ea3ae61b8a2",
+    "word_count": 18
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Flint v. Armstrong, Judge, District Court of Kentucky, Jefferson County."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1278.\nFlint v. Armstrong, Judge, District Court of Kentucky, Jefferson County."
+  },
+  "file_name": "1033-10",
+  "first_page_order": 1059,
+  "last_page_order": 1059
+}

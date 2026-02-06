@@ -1,0 +1,59 @@
+{
+  "id": 5915466,
+  "name": "Mullins v. United States",
+  "name_abbreviation": "Mullins v. United States",
+  "decision_date": "2010-11-08",
+  "docket_number": "No. 10-6862",
+  "first_page": "1035",
+  "last_page": "1035",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1035"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.583,
+    "sha256": "d10fb32d70826bf0fad91d3326a85b8f18b5a074bb1fb2e6cf9a09183eb253c6",
+    "simhash": "1:d799f3270b97133a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mullins v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6862.\nMullins v. United States."
+  },
+  "file_name": "1035-14",
+  "first_page_order": 1057,
+  "last_page_order": 1057
+}

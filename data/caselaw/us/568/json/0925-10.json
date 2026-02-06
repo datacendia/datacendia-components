@@ -1,0 +1,59 @@
+{
+  "id": 12416882,
+  "name": "Avant v. United States",
+  "name_abbreviation": "Avant v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5862",
+  "first_page": "925",
+  "last_page": "925",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 925"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.643,
+    "sha256": "02534310e645ebf732757ca6b3c771bec7e8310aeb8f5defa496b63c96ff24f4",
+    "simhash": "1:a32a83068ad49818",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Avant v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5862.\nAvant v. United States."
+  },
+  "file_name": "0925-10",
+  "first_page_order": 1001,
+  "last_page_order": 1001
+}

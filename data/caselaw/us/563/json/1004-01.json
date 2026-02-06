@@ -1,0 +1,59 @@
+{
+  "id": 5935106,
+  "name": "Bedford v. Bobby, Warden",
+  "name_abbreviation": "Bedford v. Bobby",
+  "decision_date": "2011-05-17",
+  "docket_number": "No. 10-10460 (10A1117)",
+  "first_page": "1004",
+  "last_page": "1004",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1004"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 33,
+    "char_count": 223,
+    "ocr_confidence": 0.609,
+    "sha256": "b8315f3b97f5f9159fc9519d115094860189598450fe01023018c75a1cbd2bae",
+    "simhash": "1:e21b5f28e6f508b6",
+    "word_count": 37
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bedford v. Bobby, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Application for stay of execution of sentence of death, presented to Justice Kagan, and by her referred to the Court, denied. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "May 17, 2011\nNo. 10-10460 (10A1117).\nBedford v. Bobby, Warden."
+  },
+  "file_name": "1004-01",
+  "first_page_order": 1030,
+  "last_page_order": 1030
+}

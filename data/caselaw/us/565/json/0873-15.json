@@ -1,0 +1,59 @@
+{
+  "id": 12212353,
+  "name": "Hernandez v. Florida",
+  "name_abbreviation": "Hernandez v. Florida",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-11230",
+  "first_page": "873",
+  "last_page": "873",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 873"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 85,
+    "ocr_confidence": 0.683,
+    "sha256": "795dbd47557f5bf77c1875bac9140d7904a94eb3dab44e39b0c62b2323a42951",
+    "simhash": "1:2121112ac4652b03",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hernandez v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 3d Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-11230.\nHernandez v. Florida."
+  },
+  "file_name": "0873-15",
+  "first_page_order": 955,
+  "last_page_order": 955
+}

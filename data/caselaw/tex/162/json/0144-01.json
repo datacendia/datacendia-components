@@ -1,0 +1,984 @@
+{
+  "id": 2261865,
+  "name": "Agnes Kirk et al v. Lucille Beard et al",
+  "name_abbreviation": "Kirk v. Beard",
+  "decision_date": "1961-03-29",
+  "docket_number": "No. A-7857",
+  "first_page": "144",
+  "last_page": "156",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "162 Tex. 144"
+    },
+    {
+      "type": "parallel",
+      "cite": "345 S.W.2d 267"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "154 Tex. 35",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2249224
+      ],
+      "pin_cites": [
+        {
+          "page": "273"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/154/0035-01"
+      ]
+    },
+    {
+      "cite": "188 S.W. 187",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "301 S.W. 2d 621",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2254030,
+        10181030
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/157/0240-01",
+        "/sw2d/301/0621-01"
+      ]
+    },
+    {
+      "cite": "157 Tex. 240",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2254030
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/157/0240-01"
+      ]
+    },
+    {
+      "cite": "299 S.W. 889",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10310579
+      ],
+      "pin_cites": [
+        {
+          "page": "893"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/299/0889-01"
+      ]
+    },
+    {
+      "cite": "241 S.W. 2d 666",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10208719
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/241/0666-01"
+      ]
+    },
+    {
+      "cite": "272 S.W. 2d 746",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10210174
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/272/0746-01"
+      ]
+    },
+    {
+      "cite": "24 Tex. 652",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "139 S.W. 36",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8271846
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/139/0036-01"
+      ]
+    },
+    {
+      "cite": "45 S. W. 2d 148",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10231935
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/45/0148-01"
+      ]
+    },
+    {
+      "cite": "132 S.W. 2d 295",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10231768
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/132/0295-01"
+      ]
+    },
+    {
+      "cite": "239 S.W. 2d. 188",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10195108
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/239/0188-01"
+      ]
+    },
+    {
+      "cite": "231 S.W. 1082",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8272096
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/231/1082-01"
+      ]
+    },
+    {
+      "cite": "209 S.W. 2d 671",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10205188
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/209/0671-01"
+      ]
+    },
+    {
+      "cite": "36 S.W. 2d 198",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10252539
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/36/0198-01"
+      ]
+    },
+    {
+      "cite": "29 S.W. 409",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "249 S.W. 2d 927",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10222832,
+        10222937
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/249/0927-01",
+        "/sw2d/249/0927-02"
+      ]
+    },
+    {
+      "cite": "225 S.W. 61",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10299941
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/225/0061-01"
+      ]
+    },
+    {
+      "cite": "61 S.W. 815",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "161 Mo. 566",
+      "category": "reporters:state",
+      "reporter": "Mo.",
+      "case_ids": [
+        1421058
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mo/161/0566-01"
+      ]
+    },
+    {
+      "cite": "346 Mo. 45",
+      "category": "reporters:state",
+      "reporter": "Mo.",
+      "case_ids": [
+        1328569
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/mo/346/0045-01"
+      ]
+    },
+    {
+      "cite": "23 S.E. 2d 656",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "125 W. Va. 254",
+      "category": "reporters:state",
+      "reporter": "W. Va.",
+      "case_ids": [
+        8583031
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/w-va/125/0254-01"
+      ]
+    },
+    {
+      "cite": "137 Ore. 208",
+      "category": "reporters:state",
+      "reporter": "Or.",
+      "case_ids": [
+        2009008
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/or/137/0208-01"
+      ]
+    },
+    {
+      "cite": "199 N.W. 682",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "228 Mich. 76",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1687005
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/228/0076-01"
+      ]
+    },
+    {
+      "cite": "142 S.W. 2d 61",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "169 Ore. 206",
+      "category": "reporters:state",
+      "reporter": "Or.",
+      "case_ids": [
+        4981200
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/or/169/0206-01"
+      ]
+    },
+    {
+      "cite": "134 N.W. 185",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "90 Neb. 591",
+      "category": "reporters:state",
+      "reporter": "Neb.",
+      "case_ids": [
+        2860812
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/neb/90/0591-01"
+      ]
+    },
+    {
+      "cite": "35 S.E. 757",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "57 S.C. 559",
+      "category": "reporters:state",
+      "reporter": "S.C.",
+      "case_ids": [
+        4411855
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sc/57/0559-01"
+      ]
+    },
+    {
+      "cite": "16 A. 464",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "81 Me. 137",
+      "category": "reporters:state",
+      "reporter": "Me.",
+      "case_ids": [
+        651017
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/me/81/0137-01"
+      ]
+    },
+    {
+      "cite": "33 Wyo. 439",
+      "category": "reporters:state",
+      "reporter": "Wyo.",
+      "case_ids": [
+        8515386
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/wyo/33/0439-01"
+      ]
+    },
+    {
+      "cite": "96 A. 2d 426",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 N.J.S. 376",
+      "category": "reporters:state",
+      "reporter": "N.J. Super.",
+      "case_ids": [
+        457926
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nj-super/25/0376-01"
+      ]
+    },
+    {
+      "cite": "43 N.M. 209",
+      "category": "reporters:state",
+      "reporter": "N.M.",
+      "case_ids": [
+        1568299
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/nm/43/0209-01"
+      ]
+    },
+    {
+      "cite": "77 N.D. 346",
+      "category": "reporters:state",
+      "reporter": "N.D.",
+      "case_ids": [
+        2290421
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/nd/77/0346-01"
+      ]
+    },
+    {
+      "cite": "194 Pac. 943",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "case_ids": [
+        409868
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/okla-crim/1/0135-01"
+      ]
+    },
+    {
+      "cite": "69 Colo. 400",
+      "category": "reporters:state",
+      "reporter": "Colo.",
+      "case_ids": [
+        2706078
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/colo/69/0400-01"
+      ]
+    },
+    {
+      "cite": "102 A.L.R. 485",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "182 S.E. 539",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "116 W. Va. 554",
+      "category": "reporters:state",
+      "reporter": "W. Va.",
+      "case_ids": [
+        8638129
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/w-va/116/0554-01"
+      ]
+    },
+    {
+      "cite": "153 Kan. 248",
+      "category": "reporters:state",
+      "reporter": "Kan.",
+      "case_ids": [
+        8859398
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/kan/153/0248-01"
+      ]
+    },
+    {
+      "cite": "224 Ark. 116",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1646601
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/224/0116-01"
+      ]
+    },
+    {
+      "cite": "115 S.W. 2d 1000",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10274179
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/115/1000-01"
+      ]
+    },
+    {
+      "cite": "198 S.W. 659",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10334544
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/198/0659-01"
+      ]
+    },
+    {
+      "cite": "166 S.W. 395",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8274903
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/166/0395-01"
+      ]
+    },
+    {
+      "cite": "280 S.W. 2d 588",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2249233,
+        10184070
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/154/0511-01",
+        "/sw2d/280/0588-01"
+      ]
+    },
+    {
+      "cite": "154 Tex. 511",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2249233
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/154/0511-01"
+      ]
+    },
+    {
+      "cite": "226 S.W. 2d 876",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10213949
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/226/0876-01"
+      ]
+    },
+    {
+      "cite": "219 S.W. 839",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10339473
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/219/0839-01"
+      ]
+    },
+    {
+      "cite": "169 A.L.R. 1",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "193 S.W. 2d 165",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2336611,
+        10187691
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/144/0618-01",
+        "/sw2d/193/0165-01"
+      ]
+    },
+    {
+      "cite": "144 Tex. 618",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2336611
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/144/0618-01"
+      ]
+    },
+    {
+      "cite": "137 N.Y.S. 77",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.",
+      "case_ids": [
+        7655247
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nys/137/0077-01"
+      ]
+    },
+    {
+      "cite": "19 S.E. 739",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.",
+      "case_ids": [
+        4441322
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/va-dec/1/0817-01"
+      ]
+    },
+    {
+      "cite": "90 Va. 728",
+      "category": "reporters:state",
+      "reporter": "Va.",
+      "case_ids": [
+        11282682
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/va/90/0728-01"
+      ]
+    },
+    {
+      "cite": "137 Pac. 479",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "77 Wash. 138",
+      "category": "reporters:state",
+      "reporter": "Wash.",
+      "case_ids": [
+        615428
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/wash/77/0138-01"
+      ]
+    },
+    {
+      "cite": "299 N.Y.S. 945",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "186 N.E. 853",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Ohio App. 249",
+      "category": "reporters:state",
+      "reporter": "Ohio App.",
+      "case_ids": [
+        1336682
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ohio-app/45/0249-01"
+      ]
+    },
+    {
+      "cite": "56 S.W. 2d 985",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "247 Ky. 228",
+      "category": "reporters:state",
+      "reporter": "Ky.",
+      "case_ids": [
+        8514182
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ky/247/0228-01"
+      ]
+    },
+    {
+      "cite": "80 S.W. 2d 611",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "258 Ky. 567",
+      "category": "reporters:state",
+      "reporter": "Ky.",
+      "case_ids": [
+        5792675
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ky/258/0567-01"
+      ]
+    },
+    {
+      "cite": "30 Ariz. 522",
+      "category": "reporters:state",
+      "reporter": "Ariz.",
+      "case_ids": [
+        4984898
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ariz/30/0522-01"
+      ]
+    },
+    {
+      "cite": "72 Nev. 237",
+      "category": "reporters:state",
+      "reporter": "Nev.",
+      "case_ids": [
+        2412934
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/nev/72/0237-01"
+      ]
+    },
+    {
+      "cite": "40 N.W. 173",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "72 Mich. 76",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1364276
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/72/0076-01"
+      ]
+    },
+    {
+      "cite": "132 P. 2d 998",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "16 Wash. 2d 88",
+      "category": "reporters:state",
+      "reporter": "Wash. 2d",
+      "case_ids": [
+        2578352
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/wash-2d/16/0088-01"
+      ]
+    },
+    {
+      "cite": "81 P. 2d 836",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "196 Wash. 41",
+      "category": "reporters:state",
+      "reporter": "Wash.",
+      "case_ids": [
+        1348481
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/wash/196/0041-01"
+      ]
+    },
+    {
+      "cite": "282 Pac. 920",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "154 Wash. 675",
+      "category": "reporters:state",
+      "reporter": "Wash.",
+      "case_ids": [
+        820203
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/wash/154/0675-01"
+      ]
+    },
+    {
+      "cite": "163 Ala. 620",
+      "category": "reporters:state",
+      "reporter": "Ala.",
+      "case_ids": [
+        3552592
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ala/163/0620-01"
+      ]
+    },
+    {
+      "cite": "15 A.L.R. 216",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "229 S.W. 1114",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10341378,
+        2284671
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/229/1114-01",
+        "/tex/111/0122-01"
+      ]
+    },
+    {
+      "cite": "111 Tex. 122",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2284671
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/111/0122-01"
+      ]
+    },
+    {
+      "cite": "103 S.W. 2d 147",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2291481,
+        10246766
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/129/0211-01",
+        "/sw2d/103/0147-01"
+      ]
+    },
+    {
+      "cite": "129 Tex. 211",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2291481
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/129/0211-01"
+      ]
+    },
+    {
+      "cite": "334 S.W. 2d 531",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10162488
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/334/0531-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1164,
+    "char_count": 26525,
+    "ocr_confidence": 0.594,
+    "pagerank": {
+      "raw": 4.3043786538191495e-07,
+      "percentile": 0.9168370433951941
+    },
+    "sha256": "c276c7010dac81f52aedc0a2c2f20ddef27d780532cda57d8d70ed093614b0dd",
+    "simhash": "1:bb13e6d47c819a28",
+    "word_count": 4788
+  },
+  "last_updated": "2024-02-27T23:04:29.645629+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Agnes Kirk et al V. Lucille Beard et al"
+    ],
+    "opinions": [
+      {
+        "text": "MR. JUSTICE CULVER\ndelivered the opinion of the Court.\nThe respondents, Lucille Beard, Loanna Silvey Jacobs and Ira Kate Silvey Murphy and Mosell Silvew Pitner, are nieces of J. E. Sexton, deceased. They brought this suit to establish their claim to all of the estate, both real and personal, owned by J. E. Sexton at the time of his death. Their claim is based on a contract alleged to have been made between J. E. Sexton and his brother, W. H. Sexton, whereby these brothers orally agreed that they would make mutual and reciprocal wills; that J. E. and W. H. Sexton each executed identical wills devising each to the other his undivided half interest in all lands owned by them in Johnson, Hill and Somervell Counties, together with all personal property situated thereon; and leaving to the nieces, share and share alike, the remainder of his property, both real and personal.\nThe brothers on the 23rd of November, 1948, did execute separate wills containing the foregoing provisions. W. H. Sexton died on October 30, 1952. His will was probated and his estate distributed according to the terms of the will. J. E. Sexton died March 1, 1958.\nOn the trial the jury found (1) that W. H. Sexton and J. E. Sexton executed their wills pursuant to an agreement between them to dispose of their property in the manner set out in such wills; (2) that the Sexton Brothers on or about November 23, 1948, and before the execution of their respective wills, agreed that the survivor of them would leave all of his properties to their four nieces. On this verdict judgment was rendered in favor of the nieces that they have and recover all of the property, both real and personal, belonging to J. E. Sexton at the time of his death, wheresoever situated, and that the title to the properties be vested in them. The Court of Civil Appeals has affirmed. 334 S.W. 2d 531. The wills are set out in full in that opinion.\nThe principal contentions asserted by petitioners are these: (1) That recovery upon the alleged oral contract to devise is barred by the Statute of Frauds, Art. 3995, subd. 4, Vernon\u2019s Ann. Civ. Stat., since much or most of the estate of J. E. Sexton consists of real property; (2) that there is no evidence to support the jury finding that the brothers agreed to make and did make mutual or reciprocal wills; (3) that there is no evidence to support the jury finding that the brothers agreed that the survivor of them would leave all of his property to the nieces, including the lands devised to each other.\nTo sustain their theory that the Statute of Frauds bars recovery petitioners cite a number of Texas decisions but these do not directly deal with the fact situations here where mutual wills have been executed in accordance with an oral contract and one party has taken the benefits provided under the will of the deceased party. Illustrative of these cases are Upson v. Fitzgerald, 129 Tex. 211, 103 S.W. 2d 147, and Hooks v. Bridgewater, 111 Tex. 122, 229 S.W. 1114, 15 A.L.R. 216.\nIn Upson v. Fitzgerald the basis of Upson\u2019s claim was an oral contract alleged to have been made by him with his grandparents to the effect that if he would qualify himself educationally and otherwise and would superintend the grandparents\u2019 ranch properties they would leave to him at their death one-half of their entire estate. Recovery was denied on the ground that this was but a contract for the sale of real property and contravened the Statute of Frauds. The grandparents at first made wills embracing the devise to the grandson but those wills were later revoked. The court concluded that the making of a will pursuant to an agreement to devise is not a sufficient memorandum of the agreement where the testator afterwards makes another will revoking the prior one. The court observed that the element of revocability is inherent in a will and to read into the will a contract not to revoke it when no mention of such contract is made therein is not warranted. It is further pointed out that where a consideration has been paid but nothing more, a fraud is not worked by refusal to enforce the oral contract for the sale of land since the remedy of quantum meruit is available. Here of course that relief cannot be had.\nGenerally speaking the decision in Hooks v. Bridgewater is to the same effect. There we likewise held that a parol agreement, whereby in consideration of the father\u2019s surrender of the custody of his son to live with a foster father, the foster father\u2019s lands owned at the time of his death should become the son\u2019s property, was but in effect a parol sale of the lands to be performed in the future and is within the Statute of Frauds. To this contract the court applied the rule that to relieve a parol sale of land from the operation of the statute three requirements were essential, (1) payment of the consideration; (2) possession by the vendee, and (3) valuable and permanent improvements upon the land by the vendee. In this case no will was executed by the foster father.\nThe law announced by the above cases is too well established to be questioned but it may not be applied to the facts of this case. We have here considerably more than a parol promise to devise land for a paid consideration. Mutual wills have been executed pursuant to an oral contract plus the acceptance by the survivor of the benefits provided by the will of the deceased. The deceased party to the contract has fully and completely performed.\nHooks v. Bridgewater recognized an exception to the Statute where a fraud would result if repudiation of the oral contract were permitted where the case is such that \u201cthe nonenforcement of the contract \u2014 or the enforcement of the statute \u2014 would, itself, plainly amount to a fraud.\u201d What the court says is that there should exist some positive rule which will insure that an exception to the statute will be permitted only for the prevention of an actual fraud distinguished from a mere wrong. We think the allowance of an exception in this case does not subvert that principle since the rule we adopt is clear and positive.\nPetitioners quote from 49 Am. Jur., Statute of Frauds, \u00a7 215, as follows:\n\u201cThe rule that an oral agreement to devise land is invalid includes an agreement that each of the parties shall make a will devising land in favor of the other to a third person, as well as an agreement to devise land in consideration of services to be rendered to the promisor.\u201d\nThis, however, is no more than the rule adhered to in Hooks v. Bridgewater. It does not comprehend or control the situation here.\nThe petitioners cite and rely on a number of cases, but a careful review discloses that only in Alabama and Washington does their contention find any solid support. Allen v. Bromberg, 163 Ala. 620, 50 So. 884; In re Gulstine\u2019s Estate, 154 Wash. 675, 282 Pac. 920. But see In re Fischer\u2019s Estates, 196 Wash. 41, 81 P. 2d 836 and Cummings v. Sherman, 16 Wash. 2d 88, 132 P. 2d 998.\nThe Alabama Court, while recognizing that in such cases as Carmichael v. Carmichael, 72 Mich. 76, 40 N.W. 173, where the contract is fully performed on the part of the husband and the benefits received and accepted by the wife, the agreement is taken out of the Statute of Frauds and equity will prevent the wife from violating her part of the contract in fraud of interested parties, nevertheless applies the statute strictly on the ground that it expressly provides that parol contracts relating to the sale of lands are void unless the purchase money be paid and the purchaser placed in possession. All of the other cases cited by petitioners are easily distinguished on the facts and haye little application to our problem. First National Bank of Nevada v. Friednash, 72 Nev. 237, 302 P. 2d 281; Brought v. Howard, 30 Ariz. 522, 249 Pac. 76; Maloney v. Maloney, 258 Ky. 567, 80 S.W. 2d 611; Gilson v. Crawford, 247 Ky. 228, 56 S.W. 2d 985; Kenney v. Kenney, 45 Ohio App. 249, 186 N.E. 853; In re Wheeler\u2019s Estate, 299 N.Y.S. 945; McClanahan v. McClanahan, 77 Wash. 138, 137 Pac. 479. In none of these cases was there such part performance as we have here, namely, where one of the contracting parties died leaving unrevoked a mutual and reciprocal will and the survivor took under the mutual will of the deceased. Hale v. Hale, 90 Va. 728, 19 S.E. 739, was disposed of on statutory grounds that rendered void all wills executed prior to marriage. To the same effect in Near et al v. Shaw et al, 137 N.Y.S. 77.\nWe hold that recovery in this case upon the oral contract to devise is not barred by the Statute of Frauds. Although we have found no Texas decision passing directly on this question, recovery has been allowed under similar facts. Nye v. Bradford, 144 Tex. 618, 193 S.W. 2d 165, 169 A.L.R. 1; Sherman et al v. Goodson\u2019s Heirs et al, Tex. Civ. App., 219 S.W. 839 wr. ref.; Pullen v. Russ, Tex. Civ. App., 226 S.W. 2d 876, wr. ref. n.r.e.; Hamilton v. Hamilton, 154 Tex. 511, 280 S.W. 2d 588; Larrabee v. Porter, Tex. Civ. App., 166 S.W. 395, wr. ref.; Moore v. Moore, Tex. Civ. App., 198 S.W. 659, wr. ref.; Johnson et al v. Durst, Tex. Civ. App., 115 S.W. 2d 1000, wr. dism. In none of these cases, however, was the effect of the Statute of Frauds determined. However, in Larrabee v. Porter, the court in passing upon a similar state of facts, although observing that the Statute of Frauds defense had not been invoked, took occasion to say that the undisputed evidence showed such part performance as to take the case out of the statute.\nThe general and majority rule is stated in 97 C.J.S., Wills, \u00a7 1367, p. 313, thus: \"An oral agreement to make mutual wills may be taken out of the Statute of Frauds by part performance, as by the death of one party, leaving a will in accordance with the agreement, and the acceptance of benefits under such will, by the survivor.\u201d\nJanes v. Rogers, 224 Ark. 116, 271 S.W. 2d 930, approves and adopts the rule worded somewhat differently in 169 A.L.R., Annotations, at page 44 as follows:\n\" \u2018If two parties verbally agree, each in consideration of the other doing likewise, to make their wills disposing of their properties in a specified manner and one dies leaving a will which complies with the contract, and the survivor accepts benefits under the will, noncompliance with the agreement by the survivor would operate as a fraud which equity will prevent, and in such a case the acts done are a sufficient part performance to take the case out of the statute of frauds or to estop the survivor to plead the statute.\u2019 \u201d\nSome representative decisions from other jurisdictions in agreement with this rule are as follows: West v. Sims, 153 Kan. 248, 109 P. 2d 479; Wilson v. Starbuck, 116 W. Va. 554, 182 S.E. 539, 102 A.L.R. 485; Brown et al v. Johanson et al, 69 Colo. 400, 194 Pac. 943; Carmichael v. Carmichael, 72 Mich. 76, 40 N.W. 173; O\u2019Connor v. Immele, 77 N.D. 346, 43 N.W. 2d 649; Schauer v. Schauer, 43 N.M. 209, 89 P. 2d 521; Minogue v. Lipman, 25 N.J.S. 376, 96 A. 2d 426; Canada v. Ihmsen, 33 Wyo. 439, 240 Pac. 927; Gilpatrick v. Glidden, 81 Me. 137, 16 A. 464; Turnipseed v. Sirrine, 57 S.C. 559, 35 S.E. 757; Brown v. Webster, 90 Neb. 591, 134 N.W. 185; Ankeny v. Lieuallen, 169 Ore. 206, 113 P. 2d 1113; Findley v. Johnson, 142 S.W. 2d 61, 1940 Mo.; Iugauer v. Husted, 228 Mich. 76, 199 N.W. 682; Schramm v. Burkhart, 137 Ore. 208, 2 P. 2d 14; Stump v. Harold, 125 W. Va. 254, 23 S.E. 2d 656.\nWith petitioners\u2019 second point we have little difficulty. There is evidence to support the jury finding that the brothers agreed to make and did make mutual and reciprocal wills. The two wills are identical in form and substance. They were drawn by the same attorney, and executed at the same time and attested by the same witnesses. This attorney related the conversation and the incidents that took place on that occasion. J. E. (Jim) and W. Henry Sexton came to his office and desired to talk with him about changing their wills. Henry said \u201cWe have been to see Sister Mary at Overt on and we have talked this whole thing over and we agreed on what we want to do.\u201d Henry further said that \u201cAfter talking it over with Sister Mary she didn\u2019t want anything we had; that it would be all right not to will her anything; that she wouldn\u2019t complain, but whatever they might will to her, instead of willing it to her to give it to her daughters.\u201d Henry said: \u201cI want to change my will and I want to will my half of the ranch property to my brother, Jim Sexton, and I want to will all the rest of my property to the four nieces.\u201d The matter of inheritance taxes was discussed and the naming of a second executor, and Henry said \u201cI want Moselle.\u201d Jim wasn\u2019t as talkative as Henry and the attorney said to him: \u201cNow, you have heard what Henry said, do you understand it like he stated it? In other words, do you want to make your will now to will your half of the ranch property to your brother, Henry here, and take care of the inheritance tax and will the rest of the property to the four nieces?\u201d He said \u201cYes, sir, that is the way I want mine.\u201d The attorney then drew up wills, which were executed by each of the brothers with the same two attesting witnesses. The attorney further testified as follows:\n\u201cA. I reminded them of the situation back when the three brothers made wills in \u201934, and I reminded them that they shouldn\u2019t change it without consulting with each other, and I also reminded them of the fact that under the terms of the will there, well, they couldn\u2019t sell the ranch without both of them signing it. I said, \u2018If you all want to sell the ranch you can both sign a deed and sell it, but one of you can\u2019t sell your half interest without consulting the other nor revoking this will with the consent of the other party.\u2019\n\u201cQ. All right. Now, after you explained to them the legal effects there to Henry and to Jim, what I am inquiring now did Henry Sexton tell you whether or not that was what he wanted ?\n\u201cA. He told me what he wanted when he explained it to me.\n\u201cQ. Yes, sir, and did Jim Sexton tell you that was what he wanted?\n\u201cA. I will say this, after the wills were prepared they were read over. I read them over to them in their presence and then is when they said it was all right, that was what they wanted.\n\u201cQ. Mr. McDavid, after you explained to them there the legal effect of what they were doing and the effect upon their ranch, did they tell you that was what they wanted, or did they have any objectition to it?\n\u201cA. They didn\u2019t voice any objection to it. Henry told me what he wanted.\n\u201cQ. Yes, sir.\n\u201cA. And I turned to Jim and explained it over to him what Henry had told me and I said, \u2018Now,\u2019 what the effect of his will will be if drawn like Henry told me.\n\u201cQ. Yes.\n\u201cA. And he said that was the way he wanted it.\u201d\nAlbert Bowman testified that J. E. Sexton told him in December, 1948, that he had come to an agreement with his brother, W. H. Sexton, about their property and they had drawn up wills alike.\nWalter M. Landers testified that in April or May, 1949, J. E. Sexton told him that \u201cBrother and I have made wills to each other of this property that we have, at our death that it will go into four nieces of ours.\u201d In December of 1950 J. E. Sexton told him \u201cI cannot sell the ranch land, I couldn\u2019t sell it if I wanted to. Brother and I have had an agreement to that effect. We have also prepared wills according to that. I have just come from seeing Brother, he is just as bad as can be. I am looking for him to pass out at any time.\u201d All of these recitations, coupled with the further facts that the wills were identical in form and substance, drawn and witnessed contemporaneously, constituted evidence that the brothers agreed to and did make mutual and reciprocal wills. Plemmons v. Pemberton, 346 Mo. 45, 139 S.W. 2d 910; Pullen v. Russ, Tex. Civ. App., 226 S.W. 2d 876, ref. n.r.e. Nye v. Broadford, supra; Janes v. Rogers, supra.\nThe petitioners say that the evidence is not so clear, convincing and satisfactory as required by law to establish an oral contract between the Sexton Brothers in favor of their nieces, citing a number of cases among them Steele v. Steele, 161 Mo. 566, 61 S.W. 815; Ivey v. Lane, 225 S.W. 61, wr. ref.; Harrell v. Walsh, Tex. Civ. App., 249 S.W. 2d 927, ref. n.r.e.; Munk v. Weidner, Tex. Civ. App., 29 S.W. 409; Mulkey v. Allen, 36 S.W. 2d 198, Comm. App.; McClure v. Bailey, Tex. Civ. App., 209 S.W. 2d 671, ref. n.r.e. These cases hold that contracts of this nature are viewed with caution and can only be established by full and satisfactory proof and no presumptions and inferences will be indulged in favor of them. This rule is generally followed not only in Texas but in all other jurisdictions although possibly applied with varying degrees of strictness. See 94 C. J. S., Wills, \u00a7 111, p. 863. In Texas the rule has been interpreted to require only that the terms of the contract essential to recovery be supported by evidence sufficiently clear for the court to determine what those terms are without resort to inference or conjecture. It does not conflict with the general rule that the evidence must be viewed most favorably in support of the trial court\u2019s judgment, nor with the rule that the credibility of the witness and the weight to be accorded his testimony are matters for the consideration by the jury subject to be revised by the trial court and the Court of Civil Appeals. Briscoe v. Bright\u2019s Adm\u2019r., 231 S.W. 1082, Comm. App.; Johnson et al v. Durst et al, Tex. Civ. App., 115 S.W. 2d 1000, wr. dism. We think the evidence in this case is clear and convincing as to the oral agreement to make mutual and reciprocal wills.\nTurning now to the third point, we are of the opinion that nowhere in the record is there to be found evidence to support the jury\u2019s finding that the brothers agreed that the survivor would leave all of his property to the four nieces. Nothing to that effect is borne out by the testimony of the attorney. He did tell the brothers \u201cthat neither could sell his half interest without consulting the other nor revoke the will without the consent of the other party.\u201d What the brothers orally agreed to do was to make mutual and reciprocal wills. The statement made to them by the lawyer that they could not revoke merely was a statement of what he thought the law to be.\nAs said in Shawver et al v. Parks et al, Tex. Civ. App., 239 S.W. 2d. 188, wr. ref., it is the contractual portion of the will and not the will itself which is irrevocable. See also 97 C.J.S., Wills, \u00a7 1366, p. 296. The contractual provisons, carried over into the wills, were that each brother devised to the other the ranch lands in which each owned a half interest and the remainder of his property to the nieces. Even assuming that the brothers agreed not to revoke the wills, yet the wills did not devise the ranch lands to the nieces. The wills gave the nieces everything except the lands. The testimony of Walter M. Landers is relied on by the nieces as evidence tending to show that the oral agreement between the brothres included an agreement that the survivor would leave everything that he owned at his death to the nieces. We think this cannot be sustained. Mr. Landers testified that J. E. Sexton told him that \u201cBrother and I have made wills to each other of this property that we have, at our death that it will go into four nieces of ours.\u201d That falls short of indicating any agreement that the survivor would leave this property to the nieces. J. E. Sexton in this conversation expressly refers to the wills that he and his brother havfe made and by the terms of the wills the nieces would take the property.\nProbably J. E. Sexton\u2019s statement was correct. As the mutual wills were drawn, upon the death of the surviving brother the lapsed devise might be said to fall into the residuary estate and thus pass to the nieces if that was the last will of the surviving brother and was relied upon and admitted to probate. Kuehn et al v. Bremer, Tex. Civ. App., 132 S.W. 2d 295, wr. ref.; Bittner v. Bittner, 45 S. W. 2d 148, Comm. App. In fact this seems to be the principal ground upon which the nieces rely to say that the brothers contracted between themselves that the survivor would leave all of his property, including the ranch lands, to them.\nThe nieces say that Special Issue No. 2 was submitted to the jury not for the purpose of inquiring whether J. E. Sexton and W. H. Sexton entered into an agreement to make further wills other than those of November 23, 1948, but rather for the purpose of ascertaining the intent of these brothers as to what they meant in the wills that were executed. They say further that this inquiry is clearly authorized by the decisions of our courts such as Winfree v. Winfree, Tex. Civ. App., 139 S.W. 36, wr. ref.; Hunt v. White, 24 Tex. 652; Waxler v. Klingemann, Tex. Civ. App., 272 S.W. 2d 746, wr. ref.; Bogard v. Stirm, Tex. Civ. App., 241 S.W. 2d 666. These cases hold that extrinsic evidence may be admitted to explain what the testator wrote as to the disposition of his property where the language used in the will is uncertain or creates an ambiguity, either latent or patent. The question is not what the testator intended to write but what is the meaning of the words he actually used. Here there is no extrinsic evidence offered to the effect that the words meant anything contrary to their clear import. As said in Russell v. Adams, Comm. App., 299 S.W. 889, 893, \u201cIf the will itself, considered from its four corners, * * * left the intention of the testator of doubtful construction, then outside circumstances would be admissible in evidence.\u201d\nNo extrinsic testimony would be admissible to show an intention otherwise than as plainly expressed. The proposition argued by respondents seems to be that since ultimately the devise to one or the other brother would lapse and that the brothers contracted in the light of the law that a lapsed legacy or devise will fall into the residuary estate it is therefore to be implied that the survivor contracted to leave all of this property to the nieces. That proposition is not tenable. As said before, the will devised to each brother the ranch lands without any restrictions or conditions and only the remainder of their estate to the nieces. They stand to recover here not on the will of their uncle, but on the oral contract made between their two uncles, as that contract has been incorporated in the will. The contract did not provide that the survivor would leave the land to the nieces. The will has not been probated and may have been revoked. The question, as to whether the devise would have passed into the residuary estate had the will of the surviving brother been probated and become effective, is not material, we think, to the determination of the provisions of the oral contract.\nThe respondents say that \u201cthe wills themselves show that each of the brothers presumed that the other would predecease him; that when the last survivor died all of the remaining property of each of them which they might be seized and possessed of would go to their four nieces.\u201d In support of that position they cite Weidner v. Crowther, 157 Tex. 240, 301 S.W. 2d 621, where we said:\n\u201c* * * When the will is thus interpreted the contract between the parties, incorporated in and evidenced by the will, appears clearly to have been that if the first to die would devise to the survivor the fee simple title to all property, separate and community, owned at death, the survivor would devise in fee simple to the three children equally all property, separate and community, owned at death. In carrying that contract into effect each of the parties expressed in the will in \u2018plain, specific and unambiguous language\u2019 the intention that all property, separate and community, owned by the survivor at death, which necessarily included after-acquired property, should be inherited by the three children in equal shares. * * *\u201d\nThe distinction is clearly pointed out in the quoted statement for in the Weidner case the joint will expressly provided \u201cthat after the death of the last survivor of us, all our property and estate, real, personal or mixed, common or separate, shall be inherited and divided equally, share and share alike, among our three children.\u201d\nIn Burt v. McKibbin, 188 S.W. 187, 1916 Mo., it is said that the husband and wife may have intended that the survivor leave the property to certain heirs, but the intention alone will not suffice, it must have been embodied in the contract. Under the provisions of W. H. Sexton\u2019s will J. E. Sexton took a fee simple title to the lands in the named counties and not merely a life estate. There is shown no contractual provision to the contrary.\nIn Murphy v. Slaton, 154 Tex. 35, 273, S.W. 2d 588, we said that while the makers of mutual wills have the right to provide that all property owned by the survivor at his death should pass under the terms of his will, nevertheless that effect should not be given to mutual wills unless the intention to do so is set forth therein by plain and unambiguous language. Obviously this ruling would apply with equal force to the terms of an oral contract.\nWe hold that there is no testimony that would support the jury finding in answering Special Issue No. 2 that the brothers agreed that the survivor would leave all of his property to the nieces.\nPetitioners\u2019 remaining points have been considered and are overruled.\nWe therefore hold that title to all of the property owned by J. E. Sexton at the time of his death except the lands in Johnson, Hill and Somervell Counties, together with the personal property situated thereon, being the property described in the mutual wills of J. E. and W. H. Sexton and devised to each other respectively, is owned by and vested in the four nieces but that their claim to the above lands in the said counties and personal property thereon is not established.\nThe judgments of the trial court and the Court of Civil Appeals are therefore modified and as modified are affirmed.\nASSOCIATE JUSTICES WALKER and STEAKLEY not sitting.",
+        "type": "majority",
+        "author": "MR. JUSTICE CULVER"
+      }
+    ],
+    "attorneys": [
+      "Fred Erisman, of Longview, Robert M. Mahaney and Glen B. Turner of Cleburne, and Strasburger, Price, Kelton, Miller & Martin and Royal H. Brin, Jr., of Dallas, for petitioners.",
+      "Gordon R. Wellborn and Rex Houston, of Henderson, Roberts & Smith, of Longview, and Wynne & Wynne and Clarence A. Abramsom, of Dallas, for respondents."
+    ],
+    "corrections": "",
+    "head_matter": "Agnes Kirk et al V. Lucille Beard et al\nNo. A-7857.\nDecided March 29, 1961\nRehearing overruled April 26, 1961\n(345 S. W. 2d Series 267)\nFred Erisman, of Longview, Robert M. Mahaney and Glen B. Turner of Cleburne, and Strasburger, Price, Kelton, Miller & Martin and Royal H. Brin, Jr., of Dallas, for petitioners.\nGordon R. Wellborn and Rex Houston, of Henderson, Roberts & Smith, of Longview, and Wynne & Wynne and Clarence A. Abramsom, of Dallas, for respondents."
+  },
+  "file_name": "0144-01",
+  "first_page_order": 152,
+  "last_page_order": 164
+}

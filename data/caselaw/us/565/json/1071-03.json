@@ -1,0 +1,59 @@
+{
+  "id": 12236314,
+  "name": "Olson v. United States",
+  "name_abbreviation": "Olson v. United States",
+  "decision_date": "2011-11-28",
+  "docket_number": "No. 11-7015",
+  "first_page": "1071",
+  "last_page": "1071",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1071"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.671,
+    "sha256": "f4cdc36cfa78bc2759207021cbd00c5b882470a736db6d49d4db0b5a71d091ab",
+    "simhash": "1:002ad24b0f311f18",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Olson v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7015.\nOlson v. United States."
+  },
+  "file_name": "1071-03",
+  "first_page_order": 1153,
+  "last_page_order": 1153
+}

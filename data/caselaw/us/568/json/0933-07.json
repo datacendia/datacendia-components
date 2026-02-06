@@ -1,0 +1,61 @@
+{
+  "id": 12417360,
+  "name": "Frankel, aka Stevens, aka King v. United States",
+  "name_abbreviation": "Frankel v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5370",
+  "first_page": "933",
+  "last_page": "933",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 933"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 29,
+    "char_count": 195,
+    "ocr_confidence": 0.625,
+    "sha256": "e91319a79811c6c344f7dad23bf323f42b48c1e4619e512ec9aab110cbaadd36",
+    "simhash": "1:9f31ea82572dfd4e",
+    "word_count": 32
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Sotomayor and Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Frankel, aka Stevens, aka King v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.\nJustice Sotomayor and Justice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5370.\nFrankel, aka Stevens, aka King v. United States."
+  },
+  "file_name": "0933-07",
+  "first_page_order": 1009,
+  "last_page_order": 1009
+}

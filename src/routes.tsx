@@ -68,6 +68,7 @@ import {
 import ModeAnalytics from './pages/admin/ModeAnalytics';
 import { RDLabPage } from './pages/admin/RDLabPage';
 import CorePage from './pages/admin/CorePage';
+import SchemaMappingPage from './pages/admin/SchemaMappingPage';
 import { ControlCenterPage } from './pages/admin/ControlCenterPage';
 import { AdminAIPage } from './pages/admin/AdminAIPage';
 
@@ -79,7 +80,6 @@ import { DashboardPage } from './pages/cortex/DashboardPage';
 import { GraphExplorerPage } from './pages/cortex/graph/GraphExplorerPage';
 import { CouncilPage } from './pages/cortex/council/CouncilPage';
 import { PulsePage } from './pages/cortex/pulse/PulsePage';
-import { LensPage } from './pages/cortex/lens/LensPage';
 import { BridgePage } from './pages/cortex/bridge/BridgePage';
 
 // Cortex Sub-Pages
@@ -87,11 +87,6 @@ import { LineageViewPage, EntityDetailsPage } from './pages/cortex/graph/subpage
 import { DeliberationViewPage, AgentProfilePage } from './pages/cortex/council/subpages';
 import { DecisionsPage } from './pages/cortex/council/DecisionsPage';
 import { AlertsPage, MetricsPage } from './pages/cortex/pulse/subpages';
-import {
-  ForecastDetailsPage,
-  ScenarioDetailsPage,
-  ScenarioBuilderPage,
-} from './pages/cortex/lens/subpages';
 import {
   WorkflowsListPage,
   WorkflowBuilderPage,
@@ -118,9 +113,13 @@ import {
   DecisionDebtPage,
   LiveDemoPage,
   RegulatoryAbsorbPage,
+  RegulatoryAbsorbPageV2,
   DecisionDNAPage,
   ChronosPage,
 } from './pages/cortex/intelligence';
+
+// Walkthroughs
+import WalkthroughsPage from './pages/cortex/walkthroughs/WalkthroughsPage';
 
 // Enterprise Suite Pages (High-Value Features)
 import {
@@ -137,6 +136,10 @@ import {
   UnionPage,
   LedgerPage,
   EvidenceVaultPage,
+  DissentPage,
+  ApotheosisPage,
+  ROIMetricsPage,
+  ResponsibilityPage,
 } from './pages/cortex/enterprise';
 
 // Decision Consequence Engineering
@@ -149,12 +152,46 @@ import { AegisPage } from './pages/sovereign/AegisPage';
 import { EternalPage } from './pages/sovereign/EternalPage';
 import { SymbiontPage } from './pages/sovereign/SymbiontPage';
 import { VoxPage } from './pages/sovereign/VoxPage';
+import HorizonPage from './pages/sovereign/HorizonPage';
+import SGASPage from './pages/cortex/sovereign/SGASPage';
 
 // Crown Jewels - Premium Enterprise Services
 import { EchoPage, RedTeamPage, GnosisPage } from './pages/cortex/crown';
 
 // Admin Pages
 import { VerticalConfigPage } from './pages/cortex/admin';
+
+// Industry Verticals - 24 Vertical Landing Pages
+import {
+  HealthcarePage,
+  FinancialServicesPage,
+  GovernmentLegalPage,
+  LegalPage,
+  InsurancePage,
+  PharmaceuticalPage,
+  ManufacturingPage,
+  EnergyUtilitiesPage,
+  TechnologyPage,
+  RetailHospitalityPage,
+  RealEstateConstructionPage,
+  TransportationLogisticsPage,
+  MediaEntertainmentPage,
+  ProfessionalServicesPage,
+  HigherEducationPage,
+  SportsPage,
+  TelecommunicationsPage,
+  AerospacePage,
+  AgriculturePage,
+  AutomotivePage,
+  ConstructionPage,
+  HospitalityPage,
+  NonProfitPage,
+  SmartCityPage,
+  VerticalsHubPage,
+} from './pages/verticals';
+
+// Demo Pages
+import { DemoLauncherPage } from './pages/cortex/demo/DemoLauncherPage';
 
 // Data Pages
 import {
@@ -438,28 +475,6 @@ export const router = createBrowserRouter([
         element: <MetricsPage />,
       },
 
-      // Lens
-      {
-        path: 'lens',
-        element: <LensPage />,
-      },
-      {
-        path: 'lens/forecast/:forecastId',
-        element: <ForecastDetailsPage />,
-      },
-      {
-        path: 'lens/scenarios/:scenarioId',
-        element: <ScenarioDetailsPage />,
-      },
-      {
-        path: 'lens/scenarios/:scenarioId/edit',
-        element: <ScenarioBuilderPage />,
-      },
-      {
-        path: 'lens/scenarios/new',
-        element: <ScenarioBuilderPage />,
-      },
-
       // Bridge
       {
         path: 'bridge',
@@ -512,12 +527,22 @@ export const router = createBrowserRouter([
         element: <RegulatoryAbsorbPage />,
       },
       {
+        path: 'intelligence/regulatory-v2',
+        element: <RegulatoryAbsorbPageV2 />,
+      },
+      {
         path: 'intelligence/decision-dna',
         element: <DecisionDNAPage />,
       },
       {
         path: 'intelligence/chronos',
         element: <ChronosPage />,
+      },
+
+      // Walkthroughs
+      {
+        path: 'walkthroughs',
+        element: <WalkthroughsPage />,
       },
 
       // Enterprise Suite (High-Value Features)
@@ -580,6 +605,24 @@ export const router = createBrowserRouter([
         element: <CascadePage />,
       },
 
+      // Governance & Accountability
+      {
+        path: 'enterprise/dissent',
+        element: <DissentPage />,
+      },
+      {
+        path: 'enterprise/responsibility',
+        element: <ResponsibilityPage />,
+      },
+      {
+        path: 'enterprise/apotheosis',
+        element: <ApotheosisPage />,
+      },
+      {
+        path: 'enterprise/roi-metrics',
+        element: <ROIMetricsPage />,
+      },
+
       // Sovereign Tier (Premium Enterprise)
       {
         path: 'sovereign/crucible',
@@ -605,11 +648,132 @@ export const router = createBrowserRouter([
         path: 'sovereign/vox',
         element: <VoxPage />,
       },
+      {
+        path: 'sovereign/horizon',
+        element: <HorizonPage />,
+      },
+      {
+        path: 'sgas',
+        element: <SGASPage />,
+      },
 
       // Admin Pages
       {
         path: 'admin/vertical-config',
         element: <VerticalConfigPage />,
+      },
+
+      // =========================================================================
+      // INDUSTRY VERTICALS - 24 Vertical Landing Pages
+      // =========================================================================
+      {
+        path: 'verticals',
+        element: <VerticalsHubPage />,
+      },
+      // Tier 1: Priority Verticals
+      {
+        path: 'verticals/healthcare',
+        element: <HealthcarePage />,
+      },
+      {
+        path: 'verticals/financial',
+        element: <FinancialServicesPage />,
+      },
+      {
+        path: 'verticals/government',
+        element: <GovernmentLegalPage />,
+      },
+      {
+        path: 'verticals/legal',
+        element: <LegalPage />,
+      },
+      {
+        path: 'verticals/insurance',
+        element: <InsurancePage />,
+      },
+      {
+        path: 'verticals/pharmaceutical',
+        element: <PharmaceuticalPage />,
+      },
+      // Tier 2: Growth Verticals
+      {
+        path: 'verticals/manufacturing',
+        element: <ManufacturingPage />,
+      },
+      {
+        path: 'verticals/energy',
+        element: <EnergyUtilitiesPage />,
+      },
+      {
+        path: 'verticals/technology',
+        element: <TechnologyPage />,
+      },
+      {
+        path: 'verticals/retail',
+        element: <RetailHospitalityPage />,
+      },
+      {
+        path: 'verticals/real-estate',
+        element: <RealEstateConstructionPage />,
+      },
+      {
+        path: 'verticals/transportation',
+        element: <TransportationLogisticsPage />,
+      },
+      {
+        path: 'verticals/media',
+        element: <MediaEntertainmentPage />,
+      },
+      {
+        path: 'verticals/professional-services',
+        element: <ProfessionalServicesPage />,
+      },
+      {
+        path: 'verticals/education',
+        element: <HigherEducationPage />,
+      },
+      {
+        path: 'verticals/sports',
+        element: <SportsPage />,
+      },
+      {
+        path: 'verticals/telecommunications',
+        element: <TelecommunicationsPage />,
+      },
+      // Tier 3: Specialized Verticals
+      {
+        path: 'verticals/aerospace',
+        element: <AerospacePage />,
+      },
+      {
+        path: 'verticals/agriculture',
+        element: <AgriculturePage />,
+      },
+      {
+        path: 'verticals/automotive',
+        element: <AutomotivePage />,
+      },
+      {
+        path: 'verticals/construction',
+        element: <ConstructionPage />,
+      },
+      {
+        path: 'verticals/hospitality',
+        element: <HospitalityPage />,
+      },
+      {
+        path: 'verticals/nonprofit',
+        element: <NonProfitPage />,
+      },
+      {
+        path: 'verticals/smart-city',
+        element: <SmartCityPage />,
+      },
+
+      // Demo Studio
+      {
+        path: 'demo',
+        element: <DemoLauncherPage />,
       },
 
       // Crown Jewels - Premium Enterprise Services ($5M-$150M tier)
@@ -704,6 +868,12 @@ export const router = createBrowserRouter([
         element: <SecurityPoliciesPage />,
       },
 
+      // Help redirect to docs
+      {
+        path: 'help',
+        element: <Navigate to="/docs" replace />,
+      },
+
       // Settings (nested under Cortex)
       {
         path: 'settings',
@@ -794,6 +964,10 @@ export const router = createBrowserRouter([
         element: <AdminDataSourcesPage />,
       },
       {
+        path: 'schema-mapping',
+        element: <SchemaMappingPage />,
+      },
+      {
         path: 'mode-analytics',
         element: <ModeAnalytics />,
       },
@@ -881,13 +1055,6 @@ export const routes = {
   pulse: '/cortex/pulse',
   alerts: '/cortex/pulse/alerts',
   metrics: '/cortex/pulse/metrics',
-
-  // Lens
-  lens: '/cortex/lens',
-  forecast: (id: string) => `/cortex/lens/forecast/${id}`,
-  scenario: (id: string) => `/cortex/lens/scenarios/${id}`,
-  scenarioEdit: (id: string) => `/cortex/lens/scenarios/${id}/edit`,
-  newScenario: '/cortex/lens/scenarios/new',
 
   // Bridge
   bridge: '/cortex/bridge',

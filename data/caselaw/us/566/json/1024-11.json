@@ -1,0 +1,59 @@
+{
+  "id": 12222740,
+  "name": "Lomax v. City of Miami Police Department et al.",
+  "name_abbreviation": "Lomax v. City of Miami Police Department",
+  "decision_date": "2012-05-29",
+  "docket_number": "No. 11-9493",
+  "first_page": "1024",
+  "last_page": "1024",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 1024"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 97,
+    "ocr_confidence": 0.636,
+    "sha256": "ae5c147cc781be2a0ff159b3b6d9ffc1c485d17a526c6b4bd7f4ec74289573be",
+    "simhash": "1:0bd84223fdadb0bd",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lomax v. City of Miami Police Department et al ."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9493.\nLomax v. City of Miami Police Department et al ."
+  },
+  "file_name": "1024-11",
+  "first_page_order": 900,
+  "last_page_order": 900
+}

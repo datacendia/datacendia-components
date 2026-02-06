@@ -1,0 +1,68 @@
+{
+  "id": 12702169,
+  "name": "In re Kenneth C. SMITH, petitioner.",
+  "name_abbreviation": "In re Smith",
+  "decision_date": "2013-10-07",
+  "docket_number": "No. 13\u20135559.",
+  "first_page": "814",
+  "last_page": "814",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 814"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 267"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 310"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 23,
+    "char_count": 142,
+    "sha256": "f151553285319507200e775a99660571d3710eb770b1145fe2cfa9ad6c796d95",
+    "simhash": "1:6abf307f3bd04471",
+    "word_count": 24
+  },
+  "last_updated": "2021-08-27T20:47:23.363448+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Kenneth C. SMITH, petitioner."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of habeas corpus denied."
+    ],
+    "corrections": "",
+    "head_matter": "In re Kenneth C. SMITH, petitioner.\nNo. 13-5559.\nSupreme Court of the United States\nOct. 7, 2013.\nPetition for writ of habeas corpus denied."
+  },
+  "file_name": "0814-01",
+  "first_page_order": 814,
+  "last_page_order": 814
+}

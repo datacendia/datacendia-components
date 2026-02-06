@@ -1,0 +1,59 @@
+{
+  "id": 12413463,
+  "name": "Taylor v. Utah",
+  "name_abbreviation": "Taylor v. Utah",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10598",
+  "first_page": "851",
+  "last_page": "851",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 851"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 9,
+    "char_count": 64,
+    "ocr_confidence": 0.725,
+    "sha256": "bc0a08a033af9bcb63563eb394143fed50c0a634bbe87de225078bda562a2f16",
+    "simhash": "1:4c1a591891d464df",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Taylor v. Utah."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Utah. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10598.\nTaylor v. Utah."
+  },
+  "file_name": "0851-05",
+  "first_page_order": 927,
+  "last_page_order": 927
+}

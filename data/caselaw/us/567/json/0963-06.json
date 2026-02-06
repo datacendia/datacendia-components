@@ -1,0 +1,59 @@
+{
+  "id": 12413157,
+  "name": "In re Quinn",
+  "name_abbreviation": "In re Quinn",
+  "decision_date": "2012-08-31",
+  "docket_number": "No. D-2682",
+  "first_page": "963",
+  "last_page": "964",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 963"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 48,
+    "char_count": 322,
+    "ocr_confidence": 0.583,
+    "sha256": "768d1da006bdd2b72327fcfbfc2d33e957d8c1d590d103005e43a46600b18867",
+    "simhash": "1:1a6c11760f85b05b",
+    "word_count": 61
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Quinn."
+    ],
+    "opinions": [
+      {
+        "text": "Brian S. Quinn, of Havertown, Pa., having requested to resign as a member of the Bar of this Court, it is ordered that his name be stricken from the roll of attorneys admitted to the practice of law before this Court. The rule to show cause, issued on July 23, 2012 [ante, p. 955], is discharged.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2682.\nIn re Quinn."
+  },
+  "file_name": "0963-06",
+  "first_page_order": 867,
+  "last_page_order": 868
+}

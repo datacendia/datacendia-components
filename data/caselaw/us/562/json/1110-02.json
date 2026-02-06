@@ -1,0 +1,59 @@
+{
+  "id": 6006276,
+  "name": "McGuire v. Wisconsin",
+  "name_abbreviation": "McGuire v. Wisconsin",
+  "decision_date": "2010-12-13",
+  "docket_number": "No. 10-536",
+  "first_page": "1110",
+  "last_page": "1110",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1110"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 68,
+    "ocr_confidence": 0.583,
+    "sha256": "8c0315b60c817a912179e8f122dfd6ceab488a7d4d3f27052ae564a8d2daab7f",
+    "simhash": "1:8d0745613ad0cd08",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McGuire v. Wisconsin."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Wis. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-536.\nMcGuire v. Wisconsin."
+  },
+  "file_name": "1110-02",
+  "first_page_order": 1132,
+  "last_page_order": 1132
+}

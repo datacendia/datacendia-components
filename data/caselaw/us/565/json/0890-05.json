@@ -1,0 +1,59 @@
+{
+  "id": 12216674,
+  "name": "Canty v. United States",
+  "name_abbreviation": "Canty v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5110",
+  "first_page": "890",
+  "last_page": "890",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 890"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.701,
+    "sha256": "cee44382f54087744574b449478ee9637c0d3d27a51d3657a80839f5ee2fb6a3",
+    "simhash": "1:a50a3b8a88159108",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Canty v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5110.\nCanty v. United States."
+  },
+  "file_name": "0890-05",
+  "first_page_order": 972,
+  "last_page_order": 972
+}

@@ -1,0 +1,59 @@
+{
+  "id": 6027606,
+  "name": "Turpin v. United States",
+  "name_abbreviation": "Turpin v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5131",
+  "first_page": "905",
+  "last_page": "905",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 905"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.586,
+    "sha256": "7aa27be203bf00f4da63ba97ed5af6c1f3f7245ec6ab86deacf938b0a5326e5b",
+    "simhash": "1:87bbceb72e751451",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Turpin v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5131.\nTurpin v. United States."
+  },
+  "file_name": "0905-08",
+  "first_page_order": 927,
+  "last_page_order": 927
+}

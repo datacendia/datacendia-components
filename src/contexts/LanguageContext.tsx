@@ -904,8 +904,19 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
   const languageInfo = languages.find((l) => l.code === language) || null;
   const isRTL = languageInfo?.rtl || false;
 
-  // Load available languages on mount
+  // Load available languages only when authenticated (defer API calls)
   useEffect(() => {
+    const token = localStorage.getItem('accessToken');
+    if (!token) {
+      // Use fallback languages immediately without API call
+      setLanguages([
+        { code: 'en', name: 'English', nativeName: 'English', rtl: false },
+        { code: 'es', name: 'Spanish', nativeName: 'Español', rtl: false },
+        { code: 'fr', name: 'French', nativeName: 'Français', rtl: false },
+      ]);
+      return;
+    }
+    
     const loadLanguages = async () => {
       try {
         const response = await apiClient.api.get<{ languages: Language[] }>('/i18n/languages');

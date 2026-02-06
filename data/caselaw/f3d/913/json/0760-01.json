@@ -1,0 +1,199 @@
+{
+  "id": 12519824,
+  "name": "IOWA GREAT LAKES SANITARY DISTRICT, Plaintiff - Appellant v. TRAVELERS CASUALTY AND SURETY COMPANY OF AMERICA; Evoqua Water Technologies, Defendants - Appellees",
+  "name_abbreviation": "Iowa Great Lakes Sanitary Dist. v. Travelers Cas. & Sur. Co. of Am.",
+  "decision_date": "2019-01-11",
+  "docket_number": "No. 17-2732",
+  "first_page": "760",
+  "last_page": "765",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "913 F.3d 760"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "8th Cir.",
+    "id": 8821,
+    "name": "United States Court of Appeals for the Eighth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "227 F.Supp. 858",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        1503618
+      ],
+      "year": 1964,
+      "pin_cites": [
+        {
+          "page": "862"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/227/0858-01"
+      ]
+    },
+    {
+      "cite": "494 N.W.2d 224",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "case_ids": [
+        10609382
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "226",
+          "parenthetical": "quotation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nw2d/494/0224-01"
+      ]
+    },
+    {
+      "cite": "60 F.3d 1336",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12051372
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "1344-45"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/60/1336-01"
+      ]
+    },
+    {
+      "cite": "477 U.S. 317",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6207800
+      ],
+      "weight": 3,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "322"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/477/0317-01"
+      ]
+    },
+    {
+      "cite": "652 N.W.2d 159",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "case_ids": [
+        11345951
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "182"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nw2d/652/0159-01"
+      ]
+    },
+    {
+      "cite": "589 F.Supp.2d 1108",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        3175115
+      ],
+      "weight": 2,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "1118"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/589/1108-01"
+      ]
+    },
+    {
+      "cite": "735 F.3d 750",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3722494
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "753",
+          "parenthetical": "standard of review"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/735/0750-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 741,
+    "char_count": 14061,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2591649165646337
+    },
+    "sha256": "3c80310751fda738cfb4ddeb7b78d8e558e30a706caf98ec3c5d0e423b8648f5",
+    "simhash": "1:12124781314d8f6b",
+    "word_count": 2189
+  },
+  "last_updated": "2024-02-27T18:46:17.308091+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before SMITH, Chief Judge, LOKEN and GRUENDER, Circuit Judges."
+    ],
+    "parties": [
+      "IOWA GREAT LAKES SANITARY DISTRICT, Plaintiff - Appellant\nv.\nTRAVELERS CASUALTY AND SURETY COMPANY OF AMERICA; Evoqua Water Technologies, Defendants - Appellees"
+    ],
+    "opinions": [
+      {
+        "text": "LOKEN, Circuit Judge.\nThis is a diversity action removed from state court in December 2015. Iowa Great Lakes Sanitary District (IGLSD) alleges that an Ultraviolet Wastewater Disinfectant System (UV System) installed at IGLSD's Dickinson County Wastewater Treatment Facility \"has consistently failed to function in any working capacity.\" IGLSD asserts a claim against Travelers Casualty and Surety Company of America (Travelers) under the Performance and Maintenance Bond issued to guarantee performance by the project's contractor, and breach of warranty claims against the UV System vendor, Evoqua Water Technologies, f/k/a Siemens Water Technologies (Evoqua). IGLSD appeals the District Court's grant of summary judgment dismissing these claims. Reviewing the grant of summary judgment de novo , we affirm. Bruce Martin Const., Inc. v. CTB, Inc., 735 F.3d 750, 753 (8th Cir. 2013) (standard of review).\nI. Background.\nIn 2007, IGLSD contracted with McHan Construction, Inc., to complete a $14,593,000 addition to the Wastewater Treatment Facility, including installation of a UV System. McHan procured a Performance and Maintenance Bond from Travelers fully guaranteeing McHan's \"faithful performance of the contract\" with IGLSD. After the contract was in effect, McHan purchased a vertical open channel UV System from Evoqua for $132,000. The purchase agreement included an express two-year limited warranty \"that the equipment or material ... is free from defects in workmanship and materials.\" The two-year warranty period would commence on the date the equipment successfully completed a required sixty-day performance test.\nAfter McHan defaulted in late 2009, Travelers and IGLSD entered into a \"Take Over Agreement\" whereby Travelers agreed \"to complete the Project pursuant to the terms of the Contract,\" with its Performance and Maintenance Bond \"in full force and effect.\" Start-up problems plagued installation of the UV System, causing further delays in completing the contract. When the installed UV equipment eventually completed the sixty-day performance testing, IGLSD's project engineer, James Rasmussen, advised the parties on November 8, 2011: \"With the latest Performance Test on Module No. 2 the UV disinfection equipment is now Substantially Completed and the project can be finally accepted. The Warranty Period for the equipment will be considered to be started on November 1, 2011.\"\nSubstantial Completion did not end the parties' problems with the UV System, which IGLSD alleges was often nonoperational. In June 2012, an electrical fire damaged one of the modules; it was returned to Evoqua's factory for repairs. In May 2013, IGLSD complained there was soot in the system, it was malfunctioning, and warranty issues had not been addressed. In a July 2013 letter to Travelers, Engineer Rasmussen noted the equipment warranty would expire November 1, 2013, expressed concern that Siemens and Evoqua were not supporting the equipment, summarized numerous items needing repair, and asked Travelers to \"develop a plan to repair/replace the equipment by the end of the Warranty date.\"\nAlerted to these complaints, Evoqua sent a technician to assess the equipment in September 2013. Based on his report, in April 2014 Evoqua proposed that the two UV modules undergo a substantial rehab, with IGLSD and Evoqua splitting the $75,000.00 cost. In a May 12, 2014 letter, Engineer Rasmussen responded that IGLSD \"does not wish to go any further to repair the failed equipment\" and requested that the UV System \"be removed from the project and the cost of the initial purchase of the equipment be refunded.\" This lawsuit followed.\nIn its summary judgment Order, the district court noted that Chief Magistrate Judge C.J. Williams had entered an order that \"prohibited IGLSD from proffering expert testimony as a sanction for IGLSD's failure to comply with the court's deadlines.\" The district court also ruled that IGLSD had violated Local Rule 56(b) by failing to respond to the Statements of Undisputed Material Facts submitted by Evoqua and Travelers in support of their summary judgment motions, and therefore those facts \"are deemed to have been admitted by IGLSD.\" IGLSD does not challenge these significant procedural rulings on appeal.\nII. The Breach of Warranty Claim Against Evoqua.\nIGLSD claims that Evoqua breached its limited two-year express warranty that the UV System equipment \"is free from defects in workmanship and materials.\"\nA breach of express warranty claim under Iowa law \"requires proof of a product defect as defined in Products Restatement section 2.\" Cummings v. Deere & Co., 589 F.Supp.2d 1108, 1118 n.22 (S.D. Iowa 2008), quoting Wright v. Brooke Group, Ltd., 652 N.W.2d 159, 182 (Iowa 2002). Summary judgment is mandated \"against a party who fails to make a showing sufficient to establish the existence of an element essential to that party's case, and on which that party will bear the burden of proof at trial.\" Celotex Corp. v. Catrett, 477 U.S. 317, 322, 106 S.Ct. 2548, 91 L.Ed.2d 265 (1986). \"Evidence of a defect is an indispensable element of any express or implied warranty claim.\" Coop. Power Ass'n v. Westinghouse Elec. Corp., 60 F.3d 1336, 1344-45 (8th Cir. 1995).\nIn cases involving \"complicated technical and scientific issues ... expert testimony is required to submit the issue of a product defect under Iowa law.\" Cummings, 589 F.Supp.2d at 1118. \"Whether expert testimony is required ultimately depends on whether it is a fact issue upon which the jury needs assistance to reach an intelligent or correct decision.\" Reed v. Chrysler Corp. 494 N.W.2d 224, 226 (Iowa 1992) (quotation omitted). Here, with IGLSD precluded from presenting expert testimony, the district court concluded that IGLSD could not prove that the UV system was defective, an essential element of its warranty claim, because the issue \"involves sophisticated technology that kills bacteria in waste water through the use of light that is literally invisible to the naked eye. Such technology is far beyond the common knowledge and experience of the average layperson.\" On appeal, IGLSD argues that the court erred in granting summary judgment because it can present a submissible case of equipment defect with lay witness testimony that \"the UV equipment failed to function frequently and in so many ways that it clearly was defective and it wasn't necessary for an expert to explain the obvious.\"\nViewed in the light most favorable to IGLSD, the summary judgment record reflects that the UV System often malfunctioned. However, the question is whether, without expert testimony, IGLSD can establish that the UV System's on-going operational issues, such as the 2012 fire in Module No. 2, were caused by equipment defects that breached the express warranty, rather than by improper operation and maintenance of the complex system, improper storage during the winter, or other possible causes.\nEven more significantly, the express warranty provided that IGLSD's exclusive remedy \"is the replacement f.o.b. shipping point of the defective part or parts of the material or equipment.\" Evoqua's Statement of Undisputed Material Facts, deemed admitted by the district court, recited that \"Evoqua was ready and able to address the few remaining warranty issues on the punch list\" but \"IGLSD did not allow Evoqua to repair or replace the few remaining warranty items.\" This is confirmed by Engineer Rasmussen's May 2014 response to Evoqua's rehab proposal in which he advised that IGLSD \"does not wish to go any further to repair the failed equipment.\" Buyer's remorse, however justifiable, is not proof that the equipment had such serious \"defects in workmanship and materials\" that IGLSD was justified in refusing Evoqua's offer to repair and replace, the exclusive remedy provided in the warranty, and bringing an action seeking refund of the entire purchase price. Only expert testimony could possibly justify IGLSD's warranty claim for a remedy excluded by the warranty. We conclude the district court properly granted summary judgment dismissing IGLSD's breach of warranty claim against Evoqua.\nIII. The Bond Claim Against Travelers.\nIGLSD also appeals the dismissal of its claim against Travelers under its Performance and Maintenance Bond. The bond guaranteed the contractor's full performance of its obligations under its contract with IGLSD. Section 13.07 of the contract obligated the contractor to correct, at no cost to IGLSD, \"any Work [that] is found to be defective\" within one year after the date of Substantial Completion or any longer period prescribed \"by the terms of any applicable special guarantee required by the Contract Documents.\" If IGLSD had established that Evoqua's UV System was \"defective,\" the contractor and its bonding company would be obligated by \u00a7 13.07 to correct or repair or replace the defective work. But we have affirmed the grant of summary judgment dismissing the claim of defective work.\nIGLSD argued an additional theory to the district court that became the focus of its appeal. As the district court explained, quoting IGLSD's contention:\nIGLSD [argues] that recovery against Travelers is [not] dependent on and/or limited to a breach of warranty claim[ ] against a supplier of materials for the project. The [contract] provides that the project engineer and the owner have the authority to reject work that they believe to be defective or that the Engineer believes will not produce a completed project. On May 12, 2014 the engineer and the owner rejected the UV equipment and ordered that it be replaced or that the cost be reimbursed. The contractor hired by Travelers did not comply nor did Evoqua or Travelers which Plaintiff alleges is a breach of the terms of the contract and the Bond.\nThe district court rejected this theory, concluding that Engineer Rasmussen's authority to reject work applied during \"the actual construction phase,\" which ended when Rasmussen declared the project substantially completed on November 1, 2011. Although \u00a7 13.07 extended the contractor's obligation to repair or replace defective work after Substantial Completion, the court reasoned that \u00a7 13.07 did not \"extend the project engineer's ability to reject work indefinitely beyond completion.\" Rather, the court concluded, \"[t]o make a proper claim regarding completed work, IGLSD must establish a construction, installation or equipment defect.\" We agree.\nEngineer Rasmussen's authority to reject work he \"believes to be defective, or ... will not produce a completed project\" is found in \u00a7 9.06 of the contract, part of Article 9 entitled \"ENGINEER'S STATUS DURING CONSTRUCTION.\" Rasmussen's May 12, 2014 letter to Evoqua and Travelers was a response to Evoqua's proposal to complete warranty repairs with a substantial rehab of the two UV modules. The letter did not state that the UV System was \"rejected\" and did not cite \u00a7 9.06 of the contract; rather, it requested that the system \"be removed from the project and the cost of the initial purchase of the equipment be refunded to the District.\" IGLSD argues on appeal that the letter was a proper exercise of the engineer's power to reject work, a power limited only by his professional duty of care and reasonableness. But that characterization is contrary to the plain meaning of \u00a7 9.06 and the letter itself. And the argument ignores the fact that the letter was not sent until May 2014, months after expiration of Evoqua's warranty and expiration of the contractor's two-year \"guarantee and maintenance period\" that is referenced in IGLSD's Notice To Bidders and the Travelers bond, but is not otherwise to be found in the Contract Documents IGLSD placed in the record on appeal.\nThe summary judgment record established that IGLSD considered rejecting the UV system in 2010, well before the engineer certified Substantial Completion, but chose not to do so. On November 17, 2010, Travelers and IGLSD sent Evoqua an email warning that they were considering rejection due to installation delays. A July 2011 internal Travelers email reported that IGLSD's engineer was \"mumbling about rejecting the system.\" Instead, on November 1, 2011, Engineer Rasmussen certified that \"the UV disinfection equipment is now Substantially Completed and the project can be finally accepted.\" Under Iowa law, it is a \"general rule that as to known defects, acceptance of the work in the absence of fraud or mistake is a complete bar to recovery on the construction bond.\" Elliott Consol. Sch. Dist. v. Busboom, 227 F.Supp. 858, 862 (S.D. Iowa 1964). In these circumstances, we agree with the district court that \"IGLSD is unable to contort the contract/bond language to such an extent that it could unilaterally reject the UV unit in 2014, without showing (through expert testimony) some type of defect.\"\nThe judgment of the district court is affirmed.\nThe Honorable Leonard T. Strand, Chief Judge of the United States District Court for the Northern District of Iowa.\nThe Wastewater Treatment Facility only operated disinfection equipment during warm weather months, so IGLSD's conclusory assertion that the UV System was nonoperational 57% of the time was not adequately explained and supported.",
+        "type": "majority",
+        "author": "LOKEN, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Willis J. Hamilton, HAMILTON LAW FIRM, Storm Lake, IA, Abby Lynn Walleck, MAAHS & WALLECK, Spirit Lake, IA, for Plaintiff-Appellant.",
+      "Michael W. Thrall, NYEMASTER GOODE, P.C., Des Moines, IA, Brian J. Humke, NYEMASTER GOODE, P.C., Ames, IA, for Defendant-Appellee Evoqua Water Technologies.",
+      "David Duane Hammargren, Inga K. Schuchard, Gary Arthur Van Cleve, LARKIN & HOFFMAN, Minneapolis, MN, Paul T. Meyer, HAMMARGREN & MEYER, Bloomington, MN, for Defendant-Appellee Travelers Casualty and Surety Company of America."
+    ],
+    "corrections": "",
+    "head_matter": "IOWA GREAT LAKES SANITARY DISTRICT, Plaintiff - Appellant\nv.\nTRAVELERS CASUALTY AND SURETY COMPANY OF AMERICA; Evoqua Water Technologies, Defendants - Appellees\nNo. 17-2732\nUnited States Court of Appeals, Eighth Circuit.\nSubmitted: October 16, 2018\nFiled: January 11, 2019\nWillis J. Hamilton, HAMILTON LAW FIRM, Storm Lake, IA, Abby Lynn Walleck, MAAHS & WALLECK, Spirit Lake, IA, for Plaintiff-Appellant.\nMichael W. Thrall, NYEMASTER GOODE, P.C., Des Moines, IA, Brian J. Humke, NYEMASTER GOODE, P.C., Ames, IA, for Defendant-Appellee Evoqua Water Technologies.\nDavid Duane Hammargren, Inga K. Schuchard, Gary Arthur Van Cleve, LARKIN & HOFFMAN, Minneapolis, MN, Paul T. Meyer, HAMMARGREN & MEYER, Bloomington, MN, for Defendant-Appellee Travelers Casualty and Surety Company of America.\nBefore SMITH, Chief Judge, LOKEN and GRUENDER, Circuit Judges."
+  },
+  "file_name": "0760-01",
+  "first_page_order": 760,
+  "last_page_order": 765
+}

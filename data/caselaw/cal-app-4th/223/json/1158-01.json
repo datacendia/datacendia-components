@@ -1,0 +1,570 @@
+{
+  "id": 6052533,
+  "name": "THE PEOPLE, Plaintiff and Respondent, v. JUAN CARLOS RODARTE, Defendant and Appellant",
+  "name_abbreviation": "People v. Rodarte",
+  "decision_date": "2014-02-13",
+  "docket_number": "No. B239963",
+  "first_page": "1158",
+  "last_page": "1172",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "223 Cal. App. 4th 1158"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "154 Cal.Rptr.3d 341",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "214 Cal.App.4th 1033",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4264442
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/214/1033-01"
+      ]
+    },
+    {
+      "cite": "12 Cal.Rptr.2d 825",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "10 Cal.App.4th 815",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        2326629
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/10/0815-01"
+      ]
+    },
+    {
+      "cite": "74 Cal.Rptr.3d 416",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "161 Cal.App.4th 823",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3995940
+      ],
+      "pin_cites": [
+        {
+          "page": "836"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/161/0823-01"
+      ]
+    },
+    {
+      "cite": "37 Cal.Rptr.3d 884",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "135 Cal.App.4th 1152",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        5290468
+      ],
+      "pin_cites": [
+        {
+          "page": "1167"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/135/1152-01"
+      ]
+    },
+    {
+      "cite": "162 Cal.Rptr. 748",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "102 Cal.App.3d 1018",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        1981610
+      ],
+      "pin_cites": [
+        {
+          "page": "1028-1029"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/102/1018-01"
+      ]
+    },
+    {
+      "cite": "15 Cal.Rptr.3d 884",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "120 Cal.App.4th 796",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1109265
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "803-804"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/120/0796-01"
+      ]
+    },
+    {
+      "cite": "603 P.2d 1",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "160 Cal.Rptr. 84",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 Cal.3d 668",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2270569
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/25/0668-01"
+      ]
+    },
+    {
+      "cite": "239 Cal.Rptr. 782",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "194 Cal.App.3d 694",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2216131
+      ],
+      "weight": 4,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/194/0694-01"
+      ]
+    },
+    {
+      "cite": "32 Cal.Rptr.2d 606",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "27 Cal.App.4th 443",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4580311
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "457"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/27/0443-01"
+      ]
+    },
+    {
+      "cite": "49 P.3d 1032",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "122 Cal.Rptr.2d 285",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 Cal.4th 486",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        947649
+      ],
+      "pin_cites": [
+        {
+          "page": "529"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/28/0486-01"
+      ]
+    },
+    {
+      "cite": "906 P.2d 531",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 2002,
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.Rptr.2d 569",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 2002,
+      "opinion_index": 0
+    },
+    {
+      "cite": "12 Cal.4th 186",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1957548
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "200-201"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/12/0186-01"
+      ]
+    },
+    {
+      "cite": "872 P.2d 574",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "30 Cal.Rptr.2d 33",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "7 Cal.4th 768",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1981835
+      ],
+      "pin_cites": [
+        {
+          "page": "783"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/7/0768-01"
+      ]
+    },
+    {
+      "cite": "245 P.3d 366",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "119 Cal.Rptr.3d 722",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "51 Cal.4th 141",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3914846
+      ],
+      "pin_cites": [
+        {
+          "page": "182"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/51/0141-01"
+      ]
+    },
+    {
+      "cite": "133 Cal.Rptr.3d 196",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "199 Cal.App.4th 1214",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6054132
+      ],
+      "pin_cites": [
+        {
+          "page": "1227"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/199/1214-01"
+      ]
+    },
+    {
+      "cite": "111 P.3d 987",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 Cal.Rptr.3d 725",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.4th 987",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        873196
+      ],
+      "pin_cites": [
+        {
+          "page": "994"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/35/0987-01"
+      ]
+    },
+    {
+      "cite": "18 P.3d 660",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "104 Cal.Rptr.2d 738",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 Cal.4th 76",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        265427
+      ],
+      "pin_cites": [
+        {
+          "page": "85-86"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/25/0076-01"
+      ]
+    },
+    {
+      "cite": "159 P.3d 507",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2001,
+      "opinion_index": 0
+    },
+    {
+      "cite": "60 Cal.Rptr.3d 31",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2001,
+      "opinion_index": 0
+    },
+    {
+      "cite": "41 Cal.4th 362",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3819459
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "366"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/41/0362-01"
+      ]
+    },
+    {
+      "cite": "105 Cal.Rptr.3d 597",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "181 Cal.App.4th 1494",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4214438
+      ],
+      "pin_cites": [
+        {
+          "page": "1501"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/181/1494-01"
+      ]
+    },
+    {
+      "cite": "999 P.2d 675",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "96 Cal.Rptr.2d 451",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "23 Cal.4th 82",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        277028
+      ],
+      "pin_cites": [
+        {
+          "page": "92"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/23/0082-01"
+      ]
+    },
+    {
+      "cite": "31 Cal.Rptr.2d 475",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 2000,
+      "opinion_index": 0
+    },
+    {
+      "cite": "26 Cal.App.4th 78",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6043108
+      ],
+      "weight": 2,
+      "year": 2000,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/26/0078-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1187,
+    "char_count": 32110,
+    "ocr_confidence": 0.903,
+    "pagerank": {
+      "raw": 4.895391190361787e-08,
+      "percentile": 0.3068155711008634
+    },
+    "sha256": "d33620ef940080a71b895fe31127e11b92444ea6c2e600de2df10b5d36e196fd",
+    "simhash": "1:a8d44fa17ccb9322",
+    "word_count": 5407
+  },
+  "last_updated": "2024-02-27T17:28:17.516481+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE, Plaintiff and Respondent, v. JUAN CARLOS RODARTE, Defendant and Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nJOHNSON, J.\nJuan Carlos Rodarte appeals his conviction of one count of attempted murder (Pen. Code, \u00a7\u00a7 664, 187, subd. (a)), with a true finding that he inflicted great bodily injury on his victim (\u00a7 12022.7, subd. (b)), one count of shooting from a motor vehicle (former \u00a7 12034, subd. (c), now \u00a7 26100, subd. (c)), with true findings on both counts that defendant personally discharged a firearm causing great bodily injury to his victim (\u00a7 12022.53, subd. (d)), and that defendant\u2019s discharge of a firearm came within the meaning of section 12022.53, subdivisions (b) and (c).\nDefendant argues the trial court erred in failing to instruct on the defense of imperfect self-defense on count 2 charging him with shooting from a motor vehicle under section 26100, subdivision (c). We disagree, and affirm.\nFACTUAL BACKGROUND AND PROCEDURAL HISTORY\nDefendant and the victim, Jesus Ayala, were both involved with Sonia Manzo at different times. Manzo had two children, a son, Raymond, who is defendant\u2019s child, and a daughter, Maritza, who is Ayala\u2019s child. On the night of December 23, 2008, defendant shot Ayala from his car, seriously injuring Ayala. Defendant claimed that he was afraid Ayala had a weapon and was going to harm him.\nIn an information filed November 22, 2010, and amended September 22, 2011, and December 7, 2011, defendant was charged with one count of attempted murder (\u00a7\u00a7 664, 187, subd. (a); count 1), one count of shooting from a motor vehicle (\u00a7 26100, subd. (c); count 2), and one count of discharging a firearm from a motor vehicle (\u00a7 26100, subd. (d); count 3). The information also alleged on count 1 that defendant personally inflicted great bodily injury under section 12022.7, subdivision (b) causing Ayala to become comatose and paralyzed. On all three counts the information charged that defendant personally discharged a firearm, causing great bodily injury (\u00a7 12022.53, subd. (d)), and that defendant\u2019s discharge of a firearm came within the meaning of section 12022.53, subdivisions (b) and (c). A prior conviction of assault was alleged as a strike (\u00a7 1170.12, subds. (a)-(d)) and as a serious or violent felony (\u00a7 667, subd. (a)(1)).\n1. The Shooting\nAlfredo Martinez has known the victim, Ayala, since high school and considered Ayala to be a good friend. Next to Ayala\u2019s house is an alleyway. At 7:00 p.m. on December 23, 2008, Martinez was with Ayala in Ayala\u2019s car with Manzo and her sister Ericka. The car had no front passenger seat, so Martinez, Manzo, and Ericka were all in the backseat. Ayala drove his car into the alley and parked it. Ayala went into the house, leaving the three seated in the backseat in the car.\nA white car pulled up next to the car. Defendant was the driver. Defendant, who was \u201cfurious,\u201d told Manzo to get out of the car. Defendant was waving a gun. Martinez got out of the car. Ayala came out of his house and walked up to defendant\u2019s car. Ayala did not say anything. Ayala\u2019s hand touched the window. Defendant shot once at Ayala. Ayala fell to the ground, and defendant drove off.\nMartinez drove Ayala to the hospital. Martinez did not know defendant.\n2. Ayala\nAyala testified that he became involved with Manzo in October 2006. He knew Manzo had a baby boy, Raymond, with defendant. He was in a relationship with her until April 2007. They had problems with defendant. During this time, Ayala saw Raymond nearly every day because Raymond would be with Manzo. Defendant told Ayala to \u201cback away\u201d from Manzo because she was the mother of defendant\u2019s child. Manzo went back and forth between defendant and Ayala. As a result, Ayala ended his relationship with Manzo. Ayala found out that right after they broke up, Manzo was back with defendant.\nAyala was not present for his daughter\u2019s birth because at the time he did not believe the child was his. Manzo was asking for his help with the child, so he had a paternity test and found out the child was his. As a result, Ayala wanted more visitation with his daughter. On one occasion, he went to defendant\u2019s house, where Manzo was living, to visit his daughter when she was about four or five months old. Ayala took his grandmother with him to avoid problems. Before this visit, Ayala had not had any in-person contact with defendant. His grandmother got out of the car to speak to defendant. Ayala did not go in to avoid problems with defendant.\nIn early 2008, he began a \u201cvisitation custody battle\u201d with Manzo. From January to May of 2008, Manzo would bring Maritza to Ayala\u2019s house to visit. Their relationship was friendly, and he also saw Raymond during this time. In July 2008, Manzo brought Maritza to Ayala\u2019s house and began to stay with him. However, she would go away for a few weeks and then come back. At times, Manzo lived in a domestic violence shelter. When Ayala served Manzo with the custody papers, she did not take it well. She would not let him see Maritza. Ayala obtained visitation rights and visited Maritza during the period she resided at defendant\u2019s house. Ayala and Manzo would meet in a public place so that Ayala could avoid defendant.\nSometime after Maritza was bom, Manzo and Ayala had an argument because she came to his house and told him that defendant had hit her. Manzo wanted to go back to defendant\u2019s house, and Ayala burned her with an iron. This was the only time Ayala physically attacked Manzo.\nOn Ayala\u2019s 21st birthday in October 2008, defendant\u2019s family (defendant and his aunt and uncle) came to his house and tried to take Raymond, but Ayala told them that Manzo did not want them to take him. Ayala stated it was his birthday and he did not want any problems.\nOn December 23, 2008, in the afternoon, Ayala spoke with Manzo at his house concerning the upcoming holidays. In the late afternoon or early evening, one of Ayala\u2019s friends needed a ride home. There were several other friends at Ayala\u2019s house, as well as his mother. Ayala took his friend home. When he returned, he had his friend Martinez with him. They went to Ericka\u2019s foster home. Ayala stopped by the curb and stepped out of the car to speak to Ericka. Manzo came out of the house and told him to leave because defendant was there. Ayala responded that Manzo was his girlfriend and he was not going to leave. Manzo told him that defendant was there and she did not want any problems at her sister\u2019s house. Ayala waited outside and told Manzo he would not leave. Manzo told him she would try to get defendant to leave. Shortly afterwards, Ericka, Manzo, defendant and Raymond came out of the house.\nDefendant was \u201cyapping\u201d at Ayala, who \u201cyapp[ed]\u201d back at defendant. Defendant left driving a white car. Usually defendant drove a black Lincoln. Ayala, Martinez, Manzo and Ericka left for Ayala\u2019s house. Their plan was to smoke some marijuana and get high. Ayala went inside, but the others remained in the car.\nBefore he went back outside, he heard arguing from afar, but he could not tell who it was. When he reached the alley, he was approached by defendant, who was driving a white car. Defendant put out his arm, said, \u201cWhat\u2019s up, homey?,\u201d and pulled the trigger. Ayala was not holding anything, nor was he with anybody. Ayala felt the \u201clife getting sucked out of [him].\u201d Defendant never got out of the vehicle before he drove away. Ayala fell to the ground, but he could not get back up. He denied telling defendant to \u201cget the fuck out of here.\u201d Instead, he said, \u201cWhat are you doing here?\u201d in a surprised fashion. Ayala denied threatening defendant at any time. The only time he challenged defendant to a fight was when Manzo came to his house \u201cbeat up.\u201d Ayala told defendant, \u201cYou like to hit girls, you know. Well I\u2019m not a girl. I\u2019m a guy. Why don\u2019t you hit me?\u201d\nAyala denied he used to drive by defendant\u2019s house \u201ca lot\u201d to see if his daughter was there so he could pick her up. He never went up to defendant\u2019s front door.\nIn 2007, he drove on defendant\u2019s street three times. He was taking Manzo to pick up her clothes and baby things. In 2008, he drove by defendant\u2019s house once to pick up clothes.\nAs a result of the shooting, Ayala was in the hospital a month and a half and is not able to walk. He was in a coma for about 10 days.\n3. Defendant\nDefendant testified on his own behalf. Defendant began a relationship with Manzo in October 2004. Raymond was bom in March 2006. Around October 2006, Manzo stopped seeing defendant and began to see Ayala. When Ayala\u2019s daughter was bom, defendant was still seeing Manzo. They planned to get married. At first, he thought Maritza was his child.\nDefendant did not know Ayala outside of his relationship with Manzo. He learned about Ayala after his parents followed Manzo to Ayala\u2019s house. Problems began with Ayala when Maritza was bom and Ayala came to defendant\u2019s house with his grandmother. Ayala did not make any threats to defendant at this time. The first time Ayala threatened him was when he went to Ericka\u2019s house to pick up some clothes. While defendant was waiting outside, Ayala pulled up with a friend and parked right next to defendant. Ayala\u2019s friend approached defendant with a bat. Ayala said, \u201cB and G gang.\u201d Defendant understood this to mean that Ayala was from a gang. When defendant saw the bat, he left.\nThe second incident occurred at the burger stand around the comer from Ayala\u2019s house. Defendant had come to pick up Manzo from a visit with Ayala and Maritza, and after Manzo got in defendant\u2019s car, Ayala came up to the car and started hitting the window. Defendant drove off. Defendant\u2019s sister told him Ayala had threatened her and told her he would put a bullet through her head. Ayala told Manzo he wanted to kill defendant. Defendant was scared. Manzo told him Ayala had a gun, although defendant never saw Ayala with a gun. Defendant\u2019s sister had seen Ayala point a gun at their house.\nManzo told defendant that Ayala had kidnapped her. One time she came back and her hand was burned, she was braised, and her front hair was cut off. Ayala would drive by defendant\u2019s house and throw gang signs. As a result of Ayala\u2019s threats, defendant went and got a gun.\nOn December 23, 2008, Manzo was living with defendant. Raymond lived with them, but Maritza lived with Ayala. In the evening, defendant was at Ericka\u2019s house with Manzo. Ayala arrived, but Manzo did not want to see him so they did not let Ayala in. Ayala kept ringing the doorbell, and Manzo went outside to talk to Ayala. When she came back in, defendant told her he was not going to leave. Ericka suggested that defendant leave because it was Ericka\u2019s foster home and she did not want trouble. Manzo told defendant that Ayala would not let her leave with defendant, and told defendant to take Raymond and leave. Manzo told defendant she would call him after Ayala left. As defendant walked toward his car, he saw Ayala laughing and saying, \u201cB and G gang.\u201d Defendant was afraid and felt disrespected. Defendant did not say anything but got into his car and went home and put Raymond to bed. Defendant waited for Manzo\u2019s call, but she did not call. He called her, but she did not answer. Defendant became worried about Manzo because of Ayala\u2019s past treatment of her. Manzo had told him that Ayala hit her.\nDefendant decided to return for Manzo. Defendant took his sister\u2019s car. He was afraid so he took his gun. He went to Ericka\u2019s house but she was not home. He went to Ayala\u2019s house and drove through the alley. No one was there, so he drove around and went through the alley again. He saw Ayala pull up in the alley. Earlier that day, Ayala had chased defendant and Manzo for several blocks as they were driving around. Ayala and the friend he was with were throwing gang signs. When he drove through the alley the second time, Ayala was not there. Defendant tried to get Manzo out of the car, and said, \u201cCome on. Let\u2019s go.\u201d Defendant did not yell at her. Manzo started to get out of the car. Ericka said, \u201cNo. I want to smoke weed.\u201d Martinez got out of the car and approached defendant, saying, \u201cWhat\u2019s up?\u201d \u201cYou going to do something?\u201d Defendant reached for the glove box, which contained his gun. The gun would have been visible to someone outside the car, and Martinez saw the gun and pulled back. Defendant left the gun in the glove box, and did not take it out or wave it around. Defendant asked Martinez who he was and where he was from.\nDefendant believed Ayala had gone to get a gun and stated, \u201cBecause I knew. Because like I said, when I came back [to the alley again] and I didn\u2019t see him .... I know he [saw] me because I was at the end of the alley, [f] If I [saw] him through my rearview mirror, I knew he [saw] me coming. He was coming towards me. So I know\u2014he knows all of the cars.\u201d Defendant believed Ayala knew all of the cars that defendant drove. Defendant shook Martinez\u2019s hand, and heard the door to Ayala\u2019s home slam. Defendant started driving and by the time he got to the curb Ayala was close by and coming towards defendant with his hands under his shirt and down his pants. Ayala said aggressively, \u201cOh you and me, homeboy. What\u2019s up? What\u2019s up?\u201d Defendant thought Ayala was going to shoot him. When Ayala got close, defendant grabbed the gun and shot him. Ayala fell to the ground, and defendant, who was scared, left.\nDefendant denied throwing gang signs at Ayala.\nIn August or September 2008, Ayala allegedly kidnapped Manzo. At that time, she was living at the domestic violence shelter. Defendant denied hitting Manzo or kicking her. Defendant did not call the police even though he had a cell phone with him because he did not think they could arrive soon enough and also because he thought Ayala was chasing him as a joke and defendant was not playing his games. Defendant admitted that Ayala did not threaten to kill him as he approached the car.\n4. Manzo\nManzo met defendant when she was 17. Maritza was bom in 2007. Ayala had threatened to kill defendant the time Ayala burned her with the iron. She told defendant almost everything Ayala did to her, and told him about the threat to kill him. Ayala would beat her and have sex with her when she did not want to. When Ayala kidnapped her in 2007, he grabbed her at defendant\u2019s house, shoved her in the car, and took her to his house. Ayala also cut her hair against her will. Manzo told defendant that Ayala had a gun that she had seen in Ayala\u2019s closet.\nWhile waiting in the alley for Ayala to come back outside with a joint, she saw defendant\u2019s sister\u2019s car pull up. Defendant started talking to Martinez. The two men did not seem angry. Manzo did not see a gun. Ayala came out of the house with his hands in his pants pockets. Ayala said, \u201cWhat\u2019s up?\u201d to defendant, but defendant did not respond. She ducked and heard a shot fired. She looked up, defendant drove off, and Ayala was on the ground.\nDefendant\u2019s sisters and brothers also testified concerning threats Ayala made to defendant.\nThe jury convicted defendant of all three counts, and found the gun use allegations tme. The trial court sentenced defendant to 30 years to life, plus life, consisting of life on count 1, plus a 25-year-to-life gun enhancement under section 12022.53, subdivision (d), and five years for the great bodily injury enhancement. The court imposed the midterm on count 2 of four years, plus a 25-year-to-life gun use enhancement under section 12022.53, subdivision (d). The sentence on count 2 was stayed under section 654. The court imposed and stayed additional gun use enhancements on counts 1 and 2 under section 12022.53, subdivisions (b) and (c). The court dismissed the conviction on count 3 as a lesser included offense of count 2.\nDISCUSSION\nDefendant argues the trial court erred in refusing to instruct on imperfect self-defense as a defense to the charges of shooting from a vehicle (\u00a7 26100). He contends that whenever self-defense instructions are given, imperfect self-defense instmctions must be given because imperfect self-defense is a lesser included defense to perfect self-defense, relying on People v. Ceja (1994) 26 Cal.App.4th 78 [31 Cal.Rptr.2d 475], disapproved on other grounds in People v. Blakeley (2000) 23 Cal.4th 82, 92 [96 Cal.Rptr.2d 451, 999 P.2d 675]. Further, he argues there is no reason in law or logic why imperfect self-defense should not apply to negate the malice element of section 26100, subdivision (c). For these reasons, because there was substantial evidence of both perfect self-defense and imperfect self-defense, the trial court erred in failing to instruct on imperfect self-defense as applied to shooting from a vehicle. Finally, the error was prejudicial because the jury sent a note after deliberating for two days, expressing confusion about the doctrine and its applicability to counts 2 and 3. Once the trial court erroneously informed them it did not apply to those counts, this affected the jury\u2019s deliberations with respect to all charged counts.\nA. Factual Background\nDefendant requested a jury instruction on imperfect self-defense as applied to shooting from a motor vehicle (counts 2 and 3). Defendant requested the court to modify CALCRIM No. 968 to include the definition of imperfect self-defense, stating he did not have a lesser included offense instruction to propose. The court denied the request.\nThe jury was instructed on perfect self-defense and imperfect self-defense on count 1.\nDuring deliberations, the jury asked whether they had to reach a verdict on counts 2 and 3 if they could not reach a verdict on count 1. They also asked for clarification of the difference between perfect and imperfect self-defense. The court referred them to the jury instructions already given, and advised them that imperfect self-defense did not apply to counts 2 and 3. Defendant objected, contending that imperfect self-defense applied to counts 2 and 3.\nB. Analysis\nSection 26100 provides at subdivision (c) that \u201cAny person who willfully and maliciously discharges a firearm from a motor vehicle at another person other than an occupant of a motor vehicle is guilty of a felony punishable by imprisonment in state prison for three, five, or seven years.\u201d \u201c[T]he elements of a violation of section [26100], subdivision (c) are (1) acting willfully and maliciously, and (2) shooting from a motor vehicle at a person outside a motor vehicle.\u201d (People v. Hernandez (2010) 181 Cal.App.4th 1494, 1501 [105 Cal.Rptr.3d 597].) (2) \u201cConviction under a statute proscribing conduct done \u2018willfully and maliciously\u2019 does not require proof of a specific intent. [Citation.]\u201d (.People v. Licas (2007) 41 Cal.4th 362, 366 [60 Cal.Rptr.3d 31, 159 P.3d 507]; see People v. Atkins (2001) 25 Cal.4th 76, 85-86 [104 Cal.Rptr.2d 738, 18 P.3d 660].) \u201c \u2018When the definition of a crime consists of only the description of a particular act, without reference to intent to do a further act or achieve a future consequence, we ask whether the defendant intended to do the proscribed act. This intent is deemed to be a general criminal intent. . . . The only intent required for a general intent offense is the purpose or willingness to do the act or omission. [Citation.]\u2019 \u201d (Hernandez, at p. 1500.) As provided by CALCRIM No. 968, given to the jury here, where relevant, the prosecution must establish that the defendant did not act in self-defense. (CALCRIM No. 968.)\nThe doctrine of self-defense embraces two types: perfect and imperfect. (People v. Randle (2005) 35 Cal.4th 987, 994 [28 Cal.Rptr.3d 725, 111 P.3d 987].) Perfect self-defense requires that a defendant have an honest and reasonable belief in the need to defend himself or herself. (People v. Valenzuela (2011) 199 Cal.App.4th 1214, 1227 [133 Cal.Rptr.3d 196].) \u201cImperfect self-defense is the killing of another human being under the actual but unreasonable belief that the killer was in imminent danger of death or great bodily injury.\u201d (People v. Booker (2011) 51 Cal.4th 141, 182 [119 Cal.Rptr.3d 722, 245 P.3d 366].) \u201c \u2018One acting in imperfect self-defense . . . actually believes he must defend himself from imminent danger of death or great bodily injury; however, his belief is unreasonable. [Citations.]\u2019 \u201d (Randle, at p. 994.) However, the doctrine \u201crequires without exception that the defendant must have had an actual belief in the need for self-defense. . . . Fear of future harm\u2014no matter how great the fear and no matter how great the likelihood of the harm\u2014will not suffice. The defendant\u2019s fear must be of imminent danger to life or great bodily injury.\u201d (In re Christian S. (1994) 7 Cal.4th 768, 783 [30 Cal.Rptr.2d 33, 872 P.2d 574].) In the case of imperfect self-defense, the killing is without malice and therefore is not murder, but manslaughter. (Randle, at p. 994.) Some courts have described imperfect self-defense as not being a true defense; \u201crather, it is a shorthand description of one form of voluntary manslaughter. And voluntary manslaughter, whether it arises from unreasonable self-defense or from a killing during a sudden quarrel or heat of passion, is not a defense but a crime; more precisely, it is a lesser offense included in the crime of murder.\u201d (People v. Barton (1995) 12 Cal.4th 186, 200-201 [47 Cal.Rptr.2d 569, 906 P.2d 531]; see People v. Michaels (2002) 28 Cal.4th 486, 529 [122 Cal.Rptr.2d 285, 49 P.3d 1032] [\u201cimperfect self-defense is not an affirmative defense, but a description of one type of voluntary manslaughter\u201d].)\nThis doctrine is limited to the negation of the malice element of murder. Thus, for example, imperfect self-defense does not apply to mayhem, a crime that also has a \u201cmalice\u201d element. (People v. Sekona (1994) 27 Cal.App.4th 443, 457 [32 Cal.Rptr.2d 606].) Section 203 provides, \u201cEvery person who unlawfully and maliciously deprives a human being of a member of his body ... or puts out an eye, ... is guilty of mayhem.\u201d As applicable to mayhem, \u201c \u2018maliciously\u2019 \u201d is defined as \u201ca wish to vex, annoy, or injure another person, or an intent to do a wrongful act, established either by proof or presumption of law.\u201d (\u00a7 7, subd. 4; see Sekona, at p. 448.) In People v. McKelvy (1987) 194 Cal.App.3d 694 [239 Cal.Rptr. 782], the lead opinion evaluated whether the doctrine of imperfect self-defense operated as a defense to mayhem. McKelvy noted that \u201c[mjayhem, unlike murder, is a general intent crime\u201d and did not require the intent to disfigure or maim. (Id. at p. 702.) \u201cNo specific intent to maim or disfigure is required, the necessary intent being inferable from the types of injuries resulting from certain intentional acts; one who unlawfully strikes another without the specific intent to commit the crime of mayhem is still guilty of that crime if the blow results in the loss or disfigurement of a member of the body or putting out of the eye of the victim.\u201d (Ibid.) But, McKelvy reasoned, because \u201cthe inclusion of the word \u2018maliciously\u2019 \u201d in the statute required proof of something more than the mere commission of the act, and \u201c[although the \u2018malice\u2019 ... for [purposes] of mayhem differed] from the \u2018malice aforethought\u2019 [of murder], it is equally true in both cases that the requisite state of mind is inconsistent with a genuine belief in the need for self-defense, [f] One who truly believes there is a need for self-defense cannot be said to act with intent to \u2018vex, injure or annoy\u2019 and may be found guilty of no more than assault or battery.\u201d (Ibid., fn. omitted.) As a result, McKelvy held that courts had a sua sponte duty to instruct on imperfect self-defense in mayhem cases. (Id. at pp. 703-704.)\nHowever, People v. McKelvy, supra, 194 Cal.App.3d 694 has been uniformly rejected. In People v. Sekona, supra, 27 Cal.App.4th 443, the court rejected McKelvy\u2019s analysis as applied to mayhem. (Id. at p. 450.) Primarily, Sekona found the concept of malice under section 7, subdivision 4 distinguishable from malice aforethought, concluding, \u201cthe concepts are distinct and no specific intent is required to commit mayhem, the necessary intent being inferable from the types of injuries resulting from intentional acts, defendant\u2019s conduct in kicking [the victim] in the eye which resulted in an inability to see out of that eye was sufficient to constitute the crime of mayhem. [Citations.] Unlike the situation in [People v.] Flannel [(1979) 25 Cal.3d 668 [160 Cal.Rptr. 84, 603 P.2d 1]] where the imperfect self-defense rule was grounded in part on \u2018both well-developed common law and in the statutory requirement of malice\u2019 aforethought (In re Christian S., supra, 7 Cal.4th at p. 777), mayhem involves a different requisite mental state and has no statutory history recognizing a malice aforethought element or the availability of the Flannel defense.\u201d (Sekona, at p. 457; see People v. Hayes (2004) 120 Cal.App.4th 796, 803-804 [15 Cal.Rptr.3d 884].)\nPeople v. McKelvy, supra, 194 Cal.App.3d 694 alluded to the fact that murder, a specific intent crime, differed from mayhem, a general intent crime. (Id. at p. 702.) However, generally, whether a crime is a general or specific intent crime is resolved by the use of the words \u201c \u2018willfully,\u2019 \u201d \u201c \u2018knowingly,\u2019 \u201d and \u201c \u2018maliciously,\u2019 \u201d which are usually words of general criminal intent when used in a penal statute. (\u00a7 7, subds. 1, 5, 4; see People v. Williams (1980) 102 Cal.App.3d 1018, 1028-1029 [162 Cal.Rptr. 748].) As explained in People v. Hayes, supra, 120 Cal.App.4th 796, \u201c \u2018the term \u201cmalicious,\u201d as used in section 7, subdivision 4, does not transform an offense into a specific intent crime. [Citations.]\u2019 [Citation.] Rather, the requirement of malice functions to ensure that the proscribed conduct was \u2018a deliberate and intentional act, as distinguished from an accidental or unintentional\u2019 one. [Citation.]\u201d (Id. at p. 805.) Mayhem requires no specific intent to maim or disfigure; thus, \u201c[s]o long as general criminal intent is present, the requisite malice may inferred from the fact of the injury.\u201d (Ibid, [rejecting applicability of imperfect self-defense to mayhem].) Further, as explained in Hayes, the unreasonable self-defense theory for murder is based on the principle that a person who believes in the need for self-defense \u201clacks the crucial characteristic of \u2018malice aforethought\u2019 [which is the] awareness that one\u2019s conduct does not conform to the expectations of society.\u201d (Id. at p. 802.) In contrast, the wish to \u201cvex, injure, or annoy\u201d connotes a knowing violation of social norms, and is likely to be present even when one acts in reasonable self-defense. (Id. at p. 803, fn. omitted.)\nHowever, in People v. Quintero (2006) 135 Cal.App.4th 1152, 1167 [37 Cal.Rptr.3d 884], the court held that imperfect self-defense does not apply to aggravated mayhem, a specific intent crime. \u201cEven though aggravated mayhem requires proof of a specific intent to maim the victim, it still requires proof that the person who had such specific intent to inflict the maiming injury did so \u2018maliciously, that is, with an unlawful intent to vex, annoy, or injure another person.\u2019 \u201d Nonetheless, although the same malice element is required for mayhem and aggravated mayhem, it is \u201cstill different from the malice aforethought required for murder.\u201d (Ibid.-, see People v. Szadziewicz (2008) 161 Cal.App.4th 823, 836 [74 Cal.Rptr.3d 416] [doctrine of imperfect self-defense does not apply to aggravated mayhem].)\nIn People v. Ceja, supra, 26 Cal.App.4th 78, Justice Earl Johnson\u2019s concurring opinion, relying on a concurring opinion in People v. De Leon (1992) 10 Cal.App.4th 815 [12 Cal.Rptr.2d 825], stated, \u201cIn one sense, imperfect self-defense is a \u2018lesser included\u2019 defense of perfect self-defense. They share common elements\u2014the defendant killed because of an \u2018actual\u2019 belief he was in imminent danger of death or great bodily injury. Perfect self-defense, however, requires proof of an additional element\u2014the defendant\u2019s belief was reasonable. For this reason, one cannot establish the elements of perfect self-defense without proving imperfect self-defense. For this same reason, if there is sufficient evidence of all the elements required to justify a perfect self-defense instruction, by definition there is sufficient evidence supporting an instruction for the \u2018lesser included\u2019 defense of imperfect self-defense.\u201d (Ceja, at p. 90 (conc. opn. of Johnson, J.).) No case besides De Leon or Ceja has adopted this view. (People v. Valenzuela, supra, 199 Cal.App.4th at p. 1231.) In Valenzuela, we rejected Justice Johnson\u2019s analysis in his concurring opinion in Ceja that imperfect self-defense is a lesser included defense of perfect self-defense in the context of a charge of murder and found no sua sponte duty to instruct on imperfect self-defense merely because the jury was instructed on perfect self-defense. (Valenzuela, at p. 1231.) \u201c \u2018Rather, the need to [instruct on imperfect self-defense] arises only where there is substantial evidence that the defendant killed in unreasonable self-defense, not when the evidence is \u201cminimal and insubstantial.\u201d [Citation.]\u2019 \u201d (Id. at p. 1232.)\nIn People v. Vallejo (2013) 214 Cal.App.4th 1033 [154 Cal.Rptr.3d 341], the court rejected the reasoning of People v. McKelvy, supra, 194 Cal.App.3d 694 as applied to shooting from a motor vehicle, following People v. Hayes, supra, 120 Cal.App.4th 796 and People v. Sekona, supra, 27 Cal.App.4th 443, stating: \u201cIt follows that the trial court had no duty to instruct sua sponte that an honest but unreasonable belief in the need for self-defense is a defense to the crime of shooting from a vehicle.\u201d (Vallejo, at p. 1041.)\nWe agree with People v. Vallejo, supra, 214 Cal.App.4th 1033. The \u201cmalice\u201d required for mayhem as well as a section 26100, subdivision (c) offense is the \u201cwish to vex, annoy, or injure another person.\u201d (\u00a7 7, subd. 4.) The unreasonable self-defense theory for murder is based on the principle that a person who believes in the need for self-defense \u201clacks the crucial characteristic of \u2018malice aforethought\u2019 [which is the] awareness that one\u2019s conduct does not conform to the expectations of society.\u201d (People v. Hayes, supra, 120 Cal.App.4th at p. 802.) In contrast, the wish to \u201cvex, injure, or annoy\u201d connotes a knowing violation of social norms, and is likely to be present even when one acts in reasonable self-defense. (Id. at p. 803, fin. omitted.) As a result, unreasonable self-defense simply has no application to the malicious discharge of a firearm from a motor vehicle. Because the jury was not asked to find defendant harbored \u201cmalice aforethought\u201d in his shooting from a motor vehicle, instruction with CALCRIM No. 604 would have been inappropriate. Shooting from a motor vehicle requires only the general concept of malice as defined in section 7; therefore, instruction with imperfect self-defense would have been inappropriate.\nDISPOSITION\nThe judgment is affirmed.\nRothschild, Acting P. J., and Chaney, J., concurred.\nAppellant\u2019s petition for review by the Supreme Court was denied May 21, 2014, S217352.\nAll statutory references are to the Penal Code unless otherwise indicated.\nFormer section 12034 was repealed and continued without substantive change as section 26100. (Stats. 2010, ch. 711, \u00a7 4, operative Jan. 1, 2012.) We refer to the new code section.\nIn 2008, at the time of the shooting, Martinez told police that Ayala said to defendant, \u201c \u2018What the fuck are you doing here?\u2019 \u201d He also told police in 2008 that Manzo slid down in her seat.\nSection 26100, subdivision (d) provides, \u201cExcept as provided in Section 3002 of the Fish and Game Code, any person who willfully and maliciously discharges a firearm from a motor vehicle is guilty of a public offense punishable by imprisonment in the county jail for not more than one year or in the state prison.\u201d",
+        "type": "majority",
+        "author": "JOHNSON, J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Meredith J. Watts, under appointment by the Court of Appeal, for Defendant and Appellant.",
+      "Kamala D. Harris, Attorney General, Dane R. Gillette, Chief Assistant Attorney General, Lance E. Winters, Assistant Attorney General, Paul M. Roadarmel, Jr., and David F. Glassman, Deputy Attorneys General, for Plaintiff and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. B239963.\nSecond Dist., Div. One.\nFeb. 13, 2014.]\nTHE PEOPLE, Plaintiff and Respondent, v. JUAN CARLOS RODARTE, Defendant and Appellant.\nCounsel\nMeredith J. Watts, under appointment by the Court of Appeal, for Defendant and Appellant.\nKamala D. Harris, Attorney General, Dane R. Gillette, Chief Assistant Attorney General, Lance E. Winters, Assistant Attorney General, Paul M. Roadarmel, Jr., and David F. Glassman, Deputy Attorneys General, for Plaintiff and Respondent."
+  },
+  "file_name": "1158-01",
+  "first_page_order": 1062,
+  "last_page_order": 1076
+}

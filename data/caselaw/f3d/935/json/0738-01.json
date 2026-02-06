@@ -1,0 +1,911 @@
+{
+  "id": 12522563,
+  "name": "Courtney BIRD, Plaintiff-Appellant, v. State of Hawai'i; DEPARTMENT OF HUMAN SERVICES; DHS, Social Services Division, Child Welfare Services Branch; Pankaj Bhanot, Department of Human Services Director; Jeffrey R. Woodland; Does, Defendants-Appellees.",
+  "name_abbreviation": "Bird v. Hawai'i",
+  "decision_date": "2019-08-23",
+  "docket_number": "No. 17-16076",
+  "first_page": "738",
+  "last_page": "752",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "935 F.3d 738"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "9th Cir.",
+    "id": 18869,
+    "name": "United States Court of Appeals for the Ninth"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "852 F.3d 936",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12277680
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "939"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/852/0936-01"
+      ]
+    },
+    {
+      "cite": "512 F.3d 522",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4071886
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "532"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/512/0522-01"
+      ]
+    },
+    {
+      "cite": "629 F.3d 876",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4079214
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "893",
+          "parenthetical": "quoting Leadsinger, Inc. v. BMG Music Publ'g , 512 F.3d 522, 532 (9th Cir. 2008) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/629/0876-01"
+      ]
+    },
+    {
+      "cite": "704 F.3d 568",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3654607
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "581"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/704/0568-01"
+      ]
+    },
+    {
+      "cite": "449 U.S. 250",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11715909
+      ],
+      "weight": 3,
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "252-54, 258",
+          "parenthetical": "holding that a professor's eventual termination was merely the continuing effect of the original decision to deny tenure and not a new violation"
+        },
+        {
+          "parenthetical": "holding that a professor's eventual termination was merely the continuing effect of the original decision to deny tenure and not a new violation"
+        },
+        {
+          "parenthetical": "holding that a professor's eventual termination was merely the continuing effect of the original decision to deny tenure and not a new violation"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/449/0250-01"
+      ]
+    },
+    {
+      "cite": "307 F.3d 1092",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11357566
+      ],
+      "weight": 2,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "1107"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/307/1092-01"
+      ]
+    },
+    {
+      "cite": "613 F.2d 757",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1406600
+      ],
+      "weight": 3,
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "759-60",
+          "parenthetical": "\"[E]ach day without promotion constituted a new violation of Title VII ....\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/613/0757-01"
+      ]
+    },
+    {
+      "cite": "344 F.3d 822",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        781073
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "829",
+          "parenthetical": "\"Although Morgan was a Title VII case ... we have applied Morgan to bar \u00a7 1983 claims predicated on discrete time-barred acts, not-withstanding that those acts are related to timely-filed claims.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/344/0822-01"
+      ]
+    },
+    {
+      "cite": "536 U.S. 101",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1254428
+      ],
+      "weight": 9,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "114",
+          "parenthetical": "\" Morgan II \""
+        },
+        {
+          "parenthetical": "\" Morgan II \""
+        },
+        {
+          "parenthetical": "\" Morgan II \""
+        },
+        {
+          "page": "113"
+        },
+        {
+          "page": "115-17"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/536/0101-01"
+      ]
+    },
+    {
+      "cite": "232 F.3d 1008",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11159570
+      ],
+      "weight": 2,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "parenthetical": "\" Morgan I \" "
+        },
+        {
+          "page": "1016"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/232/1008-01"
+      ]
+    },
+    {
+      "cite": "883 F.2d 1472",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10537812
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "1480"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/883/1472-01"
+      ]
+    },
+    {
+      "cite": "108 F.3d 256",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7628016
+      ],
+      "weight": 2,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "259",
+          "parenthetical": "quoting Green v. L.A. Cty. Superintendent of Schs. , 883 F.2d 1472, 1480 (9th Cir. 1989) "
+        },
+        {
+          "page": "260"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/108/0256-01"
+      ]
+    },
+    {
+      "cite": "927 F.2d 1283",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1797049
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "1295"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/927/1283-01"
+      ]
+    },
+    {
+      "cite": "665 F.2d 918",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        472246
+      ],
+      "weight": 3,
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "924",
+          "parenthetical": "internal quotation omitted"
+        },
+        {
+          "page": "924"
+        },
+        {
+          "page": "924"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/665/0918-01"
+      ]
+    },
+    {
+      "cite": "330 F.3d 1243",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9126577
+      ],
+      "weight": 4,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "parenthetical": "\"[T]he Supreme Court's analysis of the continuing violations doctrine is not limited to Title VII actions. It applies with equal force to ... actions arising under other civil rights laws.\""
+        },
+        {
+          "page": "1246"
+        },
+        {
+          "page": "1247"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/330/1243-01"
+      ]
+    },
+    {
+      "cite": "370 F.3d 945",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9243785
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "955-56",
+          "parenthetical": "\"[W]hether a statute of limitations for \u00a7 1983 actions can bar a facial challenge under the First Amendment to a state statute appears to be a question that has not been conclusively resolved by any Circuit court ... but we need not resolve the ... question here ....\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/370/0945-01"
+      ]
+    },
+    {
+      "cite": "468 U.S. 42",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11336973
+      ],
+      "weight": 3,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "47-48"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/468/0042-01"
+      ]
+    },
+    {
+      "cite": "756 F.3d 232",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5900544
+      ],
+      "weight": 8,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "234"
+        },
+        {
+          "page": "236"
+        },
+        {
+          "page": "237-40"
+        },
+        {
+          "page": "238"
+        },
+        {
+          "page": "238"
+        },
+        {
+          "page": "238-39",
+          "parenthetical": "alterations in original"
+        },
+        {
+          "page": "239"
+        },
+        {
+          "page": "236"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/756/0232-01"
+      ]
+    },
+    {
+      "cite": "998 F.2d 680",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10514274
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "688"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/998/0680-01"
+      ]
+    },
+    {
+      "cite": "103 F.3d 516",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1051
+      ],
+      "weight": 6,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "518, 522"
+        },
+        {
+          "page": "522",
+          "parenthetical": "explaining that a statute \"does not become immunized from legal challenge for all time merely because no one challenges it within two years of its enactment\""
+        },
+        {
+          "page": "521-22"
+        },
+        {
+          "page": "521"
+        },
+        {
+          "page": "520-23"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/103/0516-01"
+      ]
+    },
+    {
+      "cite": "42 U.S.C. \u00a7 1396",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "et seq."
+        },
+        {
+          "page": "663"
+        },
+        {
+          "parenthetical": "alteration in original"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "868 F.2d 653",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10528774
+      ],
+      "weight": 4,
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "656",
+          "parenthetical": "\" VHA \""
+        },
+        {
+          "page": "663",
+          "parenthetical": "explaining that the parties agreed that VHA's cause of action accrued \"when Virginia enacted its current reimbursement plan\""
+        },
+        {
+          "page": "663"
+        },
+        {
+          "page": "663"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/868/0653-01"
+      ]
+    },
+    {
+      "cite": "174 F.3d 987",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11625839
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "992"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/174/0987-01"
+      ]
+    },
+    {
+      "cite": "214 F.3d 1151",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9975183
+      ],
+      "weight": 2,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "1153-54"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/214/1151-01"
+      ]
+    },
+    {
+      "cite": "Haw. Rev. Stat. \u00a7 657-7",
+      "category": "laws:leg_statute",
+      "reporter": "Haw. Rev. Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "471 U.S. 261",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6201048
+      ],
+      "weight": 3,
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "276"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/471/0261-01"
+      ]
+    },
+    {
+      "cite": "260 F.3d 1009",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9498920
+      ],
+      "weight": 5,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "1012-13",
+          "parenthetical": "citing Wilson v. Garcia , 471 U.S. 261, 276, 105 S.Ct. 1938, 85 L.Ed.2d 254 (1985) "
+        },
+        {
+          "page": "1013"
+        },
+        {
+          "page": "1013"
+        },
+        {
+          "page": "1013",
+          "parenthetical": "holding that repeated denials of prison visitation rights did not constitute a continuing due process violation because each of the subsequent denials merely implemented the original suspension and did not represent an independent violation"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/260/1009-01"
+      ]
+    },
+    {
+      "cite": "2017 Haw. Sess. Laws 60",
+      "category": "laws:leg_session",
+      "reporter": "Haw. Sess. Laws",
+      "weight": 4,
+      "opinion_index": 0
+    },
+    {
+      "cite": "Haw. Rev. Stat. \u00a7 350-2",
+      "category": "laws:leg_statute",
+      "reporter": "Haw. Rev. Stat.",
+      "weight": 12,
+      "pin_cites": [
+        {
+          "page": "(d)",
+          "parenthetical": "\"The department shall maintain a central registry of reported child abuse or neglect cases ....\""
+        },
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(d)(2)"
+        },
+        {
+          "page": "(d)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 U.S.C. \u00a7 1983",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 4,
+      "opinion_index": 0
+    },
+    {
+      "cite": "321 U.S. 342",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        302085
+      ],
+      "weight": 3,
+      "year": 1944,
+      "pin_cites": [
+        {
+          "page": "348-49"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/321/0342-01"
+      ]
+    },
+    {
+      "cite": "134 S.Ct. 2175",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12581203
+      ],
+      "weight": 2,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "parenthetical": "alteration in original"
+        },
+        {
+          "parenthetical": "alteration in original"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/s-ct/134/2175-01"
+      ]
+    },
+    {
+      "cite": "573 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "8",
+          "parenthetical": "alteration in original"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "397 F.3d 493",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9036006
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "497-98",
+          "parenthetical": "describing how Illinois law requires licensed facilities in childcare to check the state's child abuse registry"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/397/0493-01"
+      ]
+    },
+    {
+      "cite": "422 F.3d 1255",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8938439
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "1257",
+          "parenthetical": "describing how plaintiff was unable to adopt another child after inaccurate listing on Florida's child abuse registry"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/422/1255-01"
+      ]
+    },
+    {
+      "cite": "706 F.3d 769",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6048664
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "771",
+          "parenthetical": "describing how Tennessee law prohibits people listed on the state's child abuse registry from working in child-care agencies, child-care programs, and adult-daycare centers"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/706/0769-01"
+      ]
+    },
+    {
+      "cite": "562 U.S. 29",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5970928,
+        12438978
+      ],
+      "weight": 3,
+      "year": 2010,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/562/0029-01",
+        "/l-ed-2d/178/0460-01"
+      ]
+    },
+    {
+      "cite": "554 F.3d 1170",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3684083
+      ],
+      "weight": 10,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "1185, 1188"
+        },
+        {
+          "page": "1186"
+        },
+        {
+          "page": "1188"
+        },
+        {
+          "page": "1177-78",
+          "parenthetical": "describing consequences of being listed on California's CACI"
+        },
+        {
+          "page": "1195"
+        },
+        {
+          "page": "1195-1200"
+        },
+        {
+          "page": "1201"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/554/1170-01"
+      ]
+    },
+    {
+      "cite": "490 U.S. 454",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        605334
+      ],
+      "weight": 6,
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "460"
+        },
+        {
+          "page": "460"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/490/0454-01"
+      ]
+    },
+    {
+      "cite": "Haw. Rev. Stat. \u00a7 350-2",
+      "category": "laws:leg_statute",
+      "reporter": "Haw. Rev. Stat.",
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(d)(1)"
+        },
+        {
+          "page": "(d)(2)"
+        },
+        {
+          "page": "(d)"
+        },
+        {
+          "page": "(d)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "42 U.S.C. \u00a7 1983",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 1
+    }
+  ],
+  "analysis": {
+    "cardinality": 1783,
+    "char_count": 49576,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25955142558504374
+    },
+    "sha256": "2177b88fea4357f8cd01b8ecadcb9ae064b26e9e8fd801847e1705fd6610ddbf",
+    "simhash": "1:93ab6b7721862608",
+    "word_count": 8034
+  },
+  "last_updated": "2024-02-27T18:47:13.464613+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Courtney BIRD, Plaintiff-Appellant,\nv.\nState of Hawai'i; DEPARTMENT OF HUMAN SERVICES; DHS, Social Services Division, Child Welfare Services Branch; Pankaj Bhanot, Department of Human Services Director; Jeffrey R. Woodland; Does, Defendants-Appellees."
+    ],
+    "opinions": [
+      {
+        "text": "PER CURIAM:\nOn March 28, 2007, plaintiff-appellant Courtney Bird returned home from a dentist appointment to find her then-husband administering CPR to their seven-week-old baby, who later died at the hospital of cardiac arrest. As a result of the infant's death, the Hawai'i Department of Human Services (\"DHS\") listed both Bird and her husband on the state's Central Child Abuse Registry (\"CCAR\"). Bird's husband later confessed to killing their infant baby and the criminal investigation concluded that Bird was not a suspect. DHS, however, did not remove Bird's name from the CCAR. Throughout this time, DHS never told Bird that she was listed on the registry.\nBird did not learn that she had been listed on the CCAR until June 2012-more than five years later-when the report turned up on a background check. When a request for a hearing and various communications with DHS failed to result in Bird's removal from the CCAR, Bird's attorney threatened DHS in May 2013 with suit in federal court. Bird did not file suit, however, until July 20, 2015-more than two years after her extensive communications with DHS and previous threat to sue. The district court determined that Bird's claims brought under 42 U.S.C. \u00a7 1983 were untimely and granted summary judgment in favor of the State.\nBecause Bird's complaint is not subject to any exception from the normal discovery rule of accrual, we agree that Bird's claim accrued no later than May 2013, when Bird threatened to sue DHS if she was not removed from the CCAR. We affirm.\nI. FACTS AND PROCEEDINGS BELOW\nA. Statutory Background\nLike most states, Hawai'i law requires DHS to maintain a central registry for reports of child abuse or neglect. See Haw. Rev. Stat. \u00a7 350-2(d) (\"The department shall maintain a central registry of reported child abuse or neglect cases ....\"). \"Central registry reports are typically used to aid agencies in the investigation, treatment, and prevention of child abuse cases .... Central registry records also are used to screen persons who will be entrusted with the care of children,\" such as \"individuals [who] apply[ ] to be foster or adoptive parents or child or youth care providers.\" Establishment and Maintenance of Central Registrations for Child Abuse or Neglect Reports at 2, Child Welfare Information Gateway: U.S. Dep't of Health & Human Serv., Children's Bureau (2018).\nAt times relevant to this suit, \u00a7 350-2 further provided that reports maintained in the central registry \"shall [be] promptly expunge[d] ... if: (1) The department has found the reports to be unsubstantiated; or (2) The petition arising from the report has been dismissed by order of the family court after an adjudicatory hearing on the merits.\" Act of May 18, 2017, sec. 3, \u00a7 350-2(d), 2017 Haw. Sess. Laws 60, 61-62. The statute stated that \"a report is unsubstantiated only when the department has found the allegations to be frivolous or to have been made in bad faith.\" Id. The statute provided, and continues to provide, however, no procedures by which DHS should investigate, record, or expunge reports in the CCAR. Such procedures are left to \"the department's rules.\" Haw. Rev. Stat. \u00a7 350-2(a).\nThe Hawai'i Administrative Rules require DHS to record accused individuals in the CCAR whenever it receives a report of serious child abuse. Haw. Admin. R. \u00a7 17-1610-18. DHS is simultaneously required to commence an investigation. Id. At the conclusion of its investigation, DHS will declare the report \"confirmed,\" \"not confirmed,\" or \"unsubstantiated.\" Id. \u00a7 17-1610-19(a)(1)-(3). Only a report declared \"unsubstantiated\" will be expunged from the CCAR. Id. \u00a7 17-1610-19(a)(1). In cases where the report is declared \"confirmed\" or \"not confirmed,\" the individuals subject to the allegations remain on the CCAR. See id. \u00a7 17-1610-19(a)(2), (4). The regulations specify that DHS \"shall comply with requests from other states to check its central registry for the purpose of conducting background checks in foster or adoptive placement cases.\" Id. \u00a7 17-1610-19(a)(5).\nOnce DHS has completed its investigation and determined that an accused individual should remain on the CCAR, state regulations require DHS to give written notice to the \"identified perpetrator or maltreater.\" Id. \u00a7 17-1610-11(c). Anyone \"dissatisfied with the disposition of the department's assessment or action taken by the department\" has two routes for challenging his or her inclusion in the CCAR. Id. \u00a7 17-1610-12(b). First, if DHS has not yet commenced any proceeding against the listed individual in family court, he or she may file an administrative appeal. Id . At the appeal, however, the listed individual remains subject to the requirements for expungement laid out in Hawai'i Revised Statutes \u00a7 350-2, which at all relevant times in this case required the listed individual to prove that the report was \"unsubstantiated,\" in other words, that it was \"frivolous or ... made in bad faith.\" Act of May 18, 2017, sec. 3, \u00a7 350-2(d), 2017 Haw. Sess. Laws 60, 61-62. If the listed individual was unable to meet this exacting standard, he or she remained on the registry.\nAlternatively, if DHS has petitioned the family court for custody of the listed individual's child(ren), the listed individual is not permitted to seek administrative review. Haw. Admin. R. \u00a7 17-1610-12(c). Instead, the listed individual's exclusive means by which to expunge his or her listing in the CCAR is to prevail at an adjudicatory hearing before the family court. Haw. Rev. Stat. \u00a7 350-2(d)(2). At the adjudicatory hearing, the family court will determine \"[w]hether the child's physical or psychological health or welfare has been harmed or is subject to threatened harm by the acts or omissions of the [listed individual].\" Haw. Rev. Stat. \u00a7 587A-28(d)(1). Significantly, if DHS returns custody of the child and settles the family court proceeding before it reaches the adjudicatory phase, the statutory scheme leaves listed individuals who are wrongfully listed in the CCAR with no recourse for expunging their names. See id.\nB. Factual Background\nIn 2003, Bird married Frank Fontana and two years later gave birth to a daughter, T.F. Fontana, who worked for the Navy, was subsequently transferred to Hawai'i. Bird and their daughter accompanied him to Hawai'i to live in base housing.\nShortly after their arrival, in February 2007, Bird gave birth to a second daughter, C.F. Over the next six weeks, between early February and March 20, C.F. was examined by over thirty healthcare personnel in multiple well-child checks, and as she was treated for jaundice, wheezing, apnea induced by acid reflux, and a fever. Over the course of this treatment, C.F. underwent two chest x-rays, neither of which showed any injuries. None of the doctors and nurses that treated C.F. ever noted any signs of abuse or neglect.\nOn March 28, Bird returned home from a dentist appointment to find Fontana administering CPR to C.F. C.F. was transported by ambulance to Tripler Army Medical Center, where she died of cardiac arrest. The doctors and nurses who examined C.F. noted multiple bruises on her body, evidence of a fractured rib, and evidence of possible fractures in her femurs. As a result, an emergency department nurse at the hospital called the Child Welfare Services branch (\"CWS\") of DHS to report a case of possible child abuse.\nIn accordance with its regulations, DHS listed both Bird and Fontana on the CCAR and initiated an investigation. On April 2, an investigative multidisciplinary team concluded that C.F.'s death was likely due to child maltreatment, and recommended that DHS seek custody of Bird and Fontana's remaining daughter, T.F. On the basis of this report, CWS concluded on April 5 that the alleged physical abuse of C.F. by her parents, Fontana and Bird, was \"confirmed.\" DHS then filed a Petition for Foster Custody of their remaining daughter, T.F., with the family court. DHS, however, failed to give Bird notice that she was now listed on the CCAR as a \"perpetrator or maltreater.\"\nAt the same time, Naval Criminal Investigative Services (\"NCIS\") initiated an investigation into the death of C.F. In July 2007, Fontana \"confessed [to Navy investigators] to harming [C.F.] with actions that caused [her] death.\" Fontana was charged with first degree murder and subsequently pled guilty to the crime. In November 2007, NCIS reported to DHS that \"[Bird was] not a suspect\" in their on-going investigation. Nevertheless, because DHS did not conclude that its initial assessment was \"frivolous or in bad faith,\" DHS took no action and Bird remained on the CCAR as a \"confirmed\" child abuser.\nMeanwhile, Bird was still engaged with the family court in an attempt to regain custody of T.F. \"After months of home checks, supervised visits, and evaluations by various medical and social work professionals,\" Bird was granted physical custody of T.F. in November 2007. In December, the family court authorized Bird to leave Hawai'i with T.F. and return to Tennessee where she could live with her father on the condition \"that Tennessee DHS approves the ... placement, and Tennessee DHS puts in writing that services for [Bird] and [T.F.] will be in place when mother and daughter arrive in Tennessee, and both are received by the Court.\" In June 2008, the Hawai'i family court terminated its jurisdiction and revoked the prior order of family supervision. Although the family court entered no findings with respect to Bird's alleged mistreatment of C.F., it found that \"[T.F.'s] family can provide a safe family home without the assistance of a service plan.\"\nBird alleges that throughout these events, she was never given notice, written or otherwise, of her listing on the CCAR and that she \"did not have any knowledge that a child abuse registry even existed.\" Without that notice, Bird believed that an adjudicatory trial before the family court concerned only her custody of her surviving daughter, T.F. She did not know that obtaining a finding or ruling from the family court would be the only way for her to get her name removed from a registry she did not know existed. Bird had rejected an adjudicatory trial before the family court, opting instead to work with DHS to drop the case. Bird contends that without notice, she did not know \"that failure to adjudicate [her] claim through the Family Court would result in [her] being on a list of confirmed child abusers for the rest of [her] life.\"\nAfter returning to Tennessee, Bird eventually remarried. Bird and her new husband decided that they wanted to adopt a child from Africa, \"[p]referably ... an older child who was HIV positive so that [they] could provide him or her with the kind of medical and family care that [he or she was] lacking.\" During the adoption process, the adoption agency conducted background checks with each of the states where Bird had previously lived, and discovered in June 2012 that she was listed on Hawai'i's Central Child Abuse Registry. This report rendered Bird ineligible to adopt.\nBird contacted DHS in June 2012 and requested an administrative hearing before the agency. DHS initially refused to give Bird a hearing, explaining that jurisdiction had been turned over to the family court five years prior in connection with the custody dispute over T.F. After further correspondence with Bird and her attorney, DHS offered Bird an administrative hearing limited to determining \"whether DHS properly confirmed (i) abuse of a minor and (ii) threat of abuse of a minor.\" Bird rejected this hearing, deeming the evidentiary standard impossible to meet. In a letter dated May 14, 2013, Bird's attorney indicated to DHS that Bird would \"proceed with litigation\" if she was not removed from the registry.\nC. Procedural Background\nIn July 2015, Bird filed a complaint in the First Circuit Court, State of Hawai'i, seeking both injunctive and monetary relief against the State of Hawai'i, DHS and various state officials, in both their official and individual capacities. She alleged violations of her state constitutional right to due process and her federal constitutional rights, a claim brought under 42 U.S.C. \u00a7 1983. The defendants timely removed the action to federal court, and sought summary judgment on the ground that Bird's claims fail as a matter of law. At the hearing on the motion, the district court raised sua sponte the issue of whether Bird's \u00a7 1983 claim is barred by the applicable statute of limitations. In response, Bird's attorney requested leave to amend the complaint.\nAfter supplemental briefing, the district court granted the defendants' motion for summary judgment, finding that Bird's \u00a7 1983 claim was untimely. The court concluded that a two-year statute of limitations applies to Bird's \u00a7 1983 claim, and that her claim had accrued \"at the very latest-by May 2013, more than two years before Bird filed her July 20, 2015 Complaint.\" The court rejected Bird's argument that her complaint was protected by the continuing violation doctrine and denied Bird leave to amend. Having dismissed Bird's \u00a7 1983 claim, the court declined to exercise supplemental jurisdiction over Bird's remaining state law claim, and remanded the case to state court. This appeal followed.\nII. DISCUSSION\nBecause 42 U.S.C. \u00a7 1983 does not contain its own statute of limitations, \"[a]ctions brought pursuant to 42 U.S.C. \u00a7 1983 are governed by the forum state's statute of limitations for personal injury actions.\" Knox v. Davis , 260 F.3d 1009, 1012-13 (9th Cir. 2001) (citing Wilson v. Garcia , 471 U.S. 261, 276, 105 S.Ct. 1938, 85 L.Ed.2d 254 (1985) ). In Hawai'i, the statute of limitations for personal injury actions is two years. See Haw. Rev. Stat. \u00a7 657-7.\nHere, the parties disagree over when the statute of limitations commenced to run. \"Although state law determines the length of the limitations period, federal law determines when a civil rights claim accrues.\" Knox , 260 F.3d at 1013 (quoting Morales v. City of Los Angeles , 214 F.3d 1151, 1153-54 (9th Cir. 2000) ). Under federal law, the \"discovery rule\" typically governs the accrual of \u00a7 1983 claims so that \"a claim accrues when the plaintiff knows or has reason to know of the injury which is the basis of the action.\" Id. (quoting TwoRivers v. Lewis , 174 F.3d 987, 992 (9th Cir. 1999) ).\nBecause Bird learned in June 2012 that she had been placed on the CCAR, requested and was denied a hearing that fall, rejected a proffered hearing in February 2013, and then sent a letter in May 2013 to DHS threatening to \"proceed with litigation,\" the district court concluded that Bird was aware that she had been placed on the registry, felt this placement was unjustified, and was contemplating her legal options \"at the very latest\" by May 2013.\nBird does not seriously dispute that she had knowledge of the injury giving rise to her claims by May 2013. Instead, she raises two arguments against applying the normal discovery rule of accrual. First, Bird argues that \"[w]here a plaintiff challenges the constitutionality of a statutory or regulatory scheme, the plaintiff's claim does not accrue until the offending law is repealed.\" Second, Bird argues that her complaint alleges a \"continuing violation\"-an exception to the usual discovery rule of accrual. Because neither argument prevails, we conclude that the normal discovery rule of accrual applies. We agree with the district court's conclusion that Bird knew of her injury no later than May 2013, and affirm the district court's order dismissing Bird's complaint as time-barred.\nA\nBird first contends that a facial challenge to an allegedly unconstitutional statute is exempt from the traditional rules of accrual. More specifically, Bird asserts that a claim seeking \"injunctive relief to invalidate an [ongoing] unconstitutional statutory and regulatory scheme\" does not accrue until the statute is repealed. In essence, Bird's proposed rule would mean that a person who has been harmed by an allegedly unconstitutional statute can bring suit at any time so long as the statute remains in operation.\nBird acknowledges that \"[t]he Ninth Circuit has not yet addressed\" the issue, and relies on several out-of-circuit cases to support her position. First, Bird points to Virginia Hospital Ass'n v. Baliles , 868 F.2d 653, 656 (4th Cir. 1989) (\" VHA \"), where the plaintiffs-a nonprofit association of hospitals and other healthcare providers-sought to enjoin the procedures that Virginia used to determine Medicare reimbursements as violative of the Medicaid Act, 42 U.S.C. \u00a7 1396 et seq. , and the due process clause, U.S. CONST. amend. XIV. When the defendants argued that the plaintiffs' claim was barred by the applicable statute of limitations, the district court concluded that \"VHA had alleged an ongoing constitutional violation, and ... the statute [of limitations] would not have begun to run until the violation ended.\" Id. at 663. The Fourth Circuit agreed, concluding that \"[t]he continued enforcement of an unconstitutional statute cannot be insulated by the statute of limitations.\" Id. (alteration in original). Bird highlights the same language in Kuhnle Brothers, Inc. v. County of Geauga , 103 F.3d 516, 518, 522 (6th Cir. 1997), where the Sixth Circuit quoted VHA 's assertion that \"[t]he continued enforcement of an unconstitutional statute cannot be insulated by the statute of limitations\" and concluded that a trucking company's challenge to a county resolution that banned through traffic on certain roads was not time-barred.\nBird's reliance on this language in VHA and Kuhnle exceeds the context of both cases. In both VHA and Kuhnle , the defendants had argued that the plaintiff's facial challenges had accrued when the statute was enacted as opposed to when the statute was enforced against the plaintiff. See Kuhnle , 103 F.3d at 522 (explaining that a statute \"does not become immunized from legal challenge for all time merely because no one challenges it within two years of its enactment\"); VHA , 868 F.2d at 663 (explaining that the parties agreed that VHA's cause of action accrued \"when Virginia enacted its current reimbursement plan\"). Faced with the unsavory prospect of denying recovery to plaintiffs who had actually been injured within the limitations period merely because the statute had been enacted outside the limitations period, the courts responded by allowing the suit to proceed. Thus, VHA and Kuhnle did nothing more than bring the Fourth and Sixth Circuits into alignment with our own view that a facial challenge to a statute generally accrues when \"the statute is enforced-in other words, [when] it is applied.\" Levald, Inc. v. City of Palm Desert , 998 F.2d 680, 688 (9th Cir. 1993).\nAlthough the courts used broader language in reaching their holdings, see Kuhnle , 103 F.3d at 522 ; VHA , 868 F.2d at 663, we do not believe the cases stand for the broad proposition advocated by Bird. Bird's argument goes far beyond the actual outcomes in both cases; here, Bird argues that her claim did not accrue at the time of her injury, but rather continues ad infinitum until the statute is repealed. Although Bird frames her argument in terms of accrual, such a position would essentially \"nullify all statutes of limitations with respect to statutory challenges.\" VHA , 868 F.2d at 663.\nBird cites only one case that arguably supports such a broad definition of accrual. In Tearpock-Martini v. Borough of Shickshinny , 756 F.3d 232, 234 (3d Cir. 2014), the plaintiff brought a \u00a7 1983 suit to enjoin a religious sign that the municipality approved to be installed on public grounds near the plaintiff's property. While the plaintiff conceded that a time period greater than the statutory limitations period had elapsed since the sign was installed, she argued that her claims were nevertheless timely under the continuing violations doctrine. Id. at 236. The Third Circuit rejected application of the continuing violations doctrine-a holding discussed in greater detail in Part II.B, infra- and instead considered whether the plaintiff's claims were entirely exempt from the traditional statute of limitations. Id. at 237-40. The court first concluded that a federal court should apply the state-law statute of limitations to a \u00a7 1983 claim \"only if it is not 'inconsistent with the Constitution and laws of the United States.' \" Id. at 238 (quoting Burnett v. Grattan , 468 U.S. 42, 47-48, 104 S.Ct. 2924, 82 L.Ed.2d 36 (1984) ). The court went on to \"consider the significance of the federal rights implicated by an Establishment Clause claim\" and concluded that \"the traditional rationales justifying a limitations period ... simply have no persuasive force in this context.\" Id. at 238-39.\nEven if this general exemption from the statute of limitations is justified in the Establishment Clause context-a question that we have not decided, see Maldonado v. Harris , 370 F.3d 945, 955-56 (9th Cir. 2004) (\"[W]hether a statute of limitations for \u00a7 1983 actions can bar a facial challenge under the First Amendment to a state statute appears to be a question that has not been conclusively resolved by any Circuit court ... but we need not resolve the ... question here ....\"), and which is not before us today-such a departure from the discovery rule of accrual is not warranted here. The court in Tearpock-Martini expressly limited its holding to the \"federal rights implicated by an Establishment Clause claim.\" 756 F.3d at 238. Here, Bird asserts a due process claim and the \"traditional rationales justifying a limitations period-'to protect defendants against stale or unduly delayed claims,' 'facilitat[e] the administration of claims,' and 'promot[e] judicial efficiency' \"-are applicable to a due process claim. See id. at 238-39 (alterations in original). Unlike \"a still-existing monument that communicates anew an allegedly unconstitutional endorsement of religion by the government each time it is viewed,\" see id. at 239, a due process violation is a discrete event for which evidence and memory will fade over time. The traditional interests of protecting defendants and facilitating the administration of such claims are thus applicable to a due process claim and justify enforcing a limitations period through the discovery rule of accrual. Although enforcing the statute of limitations here will make Bird's alleged losses permanent, such a cost is present in every case where a plaintiff's claim is denied on statute of limitations grounds and is alone insufficient to justify departing from the normal discovery rule of accrual.\nMoreover, Bird's assertion that applying the discovery rule of accrual to her case will forever immunize an unconstitutional state statute is untrue. The only way for the state to immunize itself from further suit by future plaintiffs would be to stop enforcing its statute. As long as Hawai'i continues to enforce its statute, it is subject to a facial challenge by every individual it affects. Enforcing the statute of limitations in the case of a facial challenge to an allegedly unconstitutional statute, thus, does not render the statute immune from challenge; it merely requires that such challenges be brought in a timely manner. For these reasons, we decline to adopt Bird's proposed rule exempting claims seeking \"injunctive relief to invalidate an [ongoing] unconstitutional statutory ... scheme\" from the discovery rule of accrual.\nB\nWe next consider whether Bird's claim qualifies as a continuing violation. The continuing violations doctrine functions as an exception to the discovery rule of accrual \"allowing a plaintiff to seek relief for events outside of the limitations period.\" Knox , 260 F.3d at 1013. Although the continuing violations doctrine is most frequently seen in the context of employment discrimination suits, we have held that the continuing violations doctrine also applies to \u00a7 1983 claims. See id. (\"The continuing violation theory applies to \u00a7 1983 actions.\"); Cherosky v. Henderson , 330 F.3d 1243, 1246 n.3 (9th Cir. 2003) (\"[T]he Supreme Court's analysis of the continuing violations doctrine is not limited to Title VII actions. It applies with equal force to ... actions arising under other civil rights laws.\").\n\"The doctrine of continuing violations ... is actually a conglomeration of several different ideas,\" Williams v. Owens-Illinois, Inc. , 665 F.2d 918, 924 (9th Cir. 1982) (internal quotation omitted), the essence of which is that \"when a defendant's conduct is part of a continuing practice, an action is timely so long as the last act evidencing the continuing practice falls within the limitations period,\" Tearpock-Martini , 756 F.3d at 236 (quoting Brenner v. Local 514, United Bhd. of Carpenters & Joiners of Am. , 927 F.2d 1283, 1295 (3d Cir. 1991) ). We have recognized two applications of the continuing violations doctrine: first, to \"a series of related acts, one or more of which falls within the limitations period,\" and second, to \"the maintenance of a discriminatory system both before and during [the limitations] period.\" Gutowsky v. County of Placer , 108 F.3d 256, 259 (9th Cir. 1997) (quoting Green v. L.A. Cty. Superintendent of Schs. , 883 F.2d 1472, 1480 (9th Cir. 1989) ).\nPrior to 2002, we applied the serial acts branch of the continuing violations doctrine when the defendant committed a series of acts directed against a single plaintiff. See Morgan v. Nat'l R.R. Passenger Corp. , 232 F.3d 1008 (9th Cir. 2000) (\" Morgan I \" ); Kyle Graham, The Continuing Violations Doctrine , 43 GONZ. L. REV. 271, 304 (2008). As long as the plaintiff could show that acts preceding the limitations period were \"sufficiently related\" to acts that occurred within the limitations period, the plaintiff could recover damages for all of the related acts-even those that would otherwise be barred by the statute of limitations. See Morgan I , 232 F.3d at 1016. In 2002, however, the Supreme Court reversed our decision in Morgan I and limited the serial acts branch of the continuing violations doctrine.\nNat'l R.R. Passenger Corp. v. Morgan , 536 U.S. 101, 114, 122 S.Ct. 2061, 153 L.Ed.2d 106 (2002) (\" Morgan II \"). The Court held that \"discrete ... acts are not actionable if time barred, even when they are related to acts alleged in timely filed charges\" because \"[e]ach discrete ... act starts a new clock for filing charges alleging that act.\" Id. at 113, 122 S.Ct. 2061.\nAlthough Morgan II applied Title VII of the Civil Rights Act of 1964, we have relied on Morgan II to abrogate the serial acts branch of the continuing violations doctrine for \u00a7 1983 claims as well. See Carpinteria Valley Farms, Ltd. v. County of Santa Barbara , 344 F.3d 822, 829 (9th Cir. 2003) (\"Although Morgan was a Title VII case ... we have applied Morgan to bar \u00a7 1983 claims predicated on discrete time-barred acts, not-withstanding that those acts are related to timely-filed claims.\"); Cherosky , 330 F.3d at 1246 n.3 (concluding that the Supreme Court's holding in Morgan II \"applies with equal force ... to actions arising under other civil rights laws\").\nUnlike the serial acts branch, the systematic branch does not require the plaintiff to allege specific acts that occurred within the statute of limitations period. Originally, the systematic branch allowed the plaintiff to recover for acts that occurred prior to the limitations period as long as (1) those acts were conducted pursuant to a policy or practice that remained in effect within the statute of limitations period and (2) the plaintiff remained subject or susceptible to the policy within the limitations period. See Gutowsky , 108 F.3d at 260 (applying the systematic branch of the continuing violations doctrine where the plaintiff's \"specific examples\" of discrimination occurred prior to the limitations period, but where the \"widespread policy and practices of discrimination of which [the plaintiff] complain[ed] continued every day of her employment, including days that fall within the limitation period\"); Graham, 43 GONZ . L. REV . at 303-04. The theory behind the systematic branch was that every day the plaintiff was subject to the policy or practice \"constituted a new violation\" sufficient to extend the statute of limitations period. See Reed v. Lockheed Aircraft Corp. , 613 F.2d 757, 759-60 (9th Cir. 1980) (\"[E]ach day without promotion constituted a new violation of Title VII ....\").\nAlthough the Supreme Court in Morgan II addressed only the serial acts branch of the continuing violations doctrine, see 536 U.S. at 115 & n.9, 122 S.Ct. 2061, we have applied Morgan II to abrogate the systematic branch of the continuing violations doctrine as well. For example, in Lyons v. England , 307 F.3d 1092, 1107 (9th Cir. 2002), we reasoned from Morgan II that a plaintiff's \"assertion that [a] series of discrete acts flows from a company-wide, or systematic, discriminatory practice will not succeed in establishing the employer's liability for acts occurring outside the limitations period.\" Similarly, in Cherosky , the plaintiffs sought to avoid Morgan II 's unfavorable holding by arguing under the systematic branch of the continuing violations doctrine; the plaintiffs contended that they could still recover damages for acts of employment discrimination that had occurred prior to the statute of limitations period as long as those acts had been conducted pursuant to a discriminatory company policy. 330 F.3d at 1246. We rejected that argument, concluding instead that \"[t]he allegation that ... discrete acts were undertaken pursuant to a discriminatory policy does not extend the statutory limitations period.\" 330 F.3d at 1247.\nThus, after Morgan II , little remains of the continuing violations doctrine. Except for a limited exception for hostile work environment claims-not at issue here-the serial acts branch is virtually non-existent. Moreover, while we have left room for the systematic branch to apply to class-wide pattern-or-practice claims, see Lyons , 307 F.3d at 1107 n.8 (emphasizing that its holding did not \"suggest that after Morgan the same plaintiff would be precluded from bringing a class-wide pattern-or-practice claim\"), we have consistently refused to apply the systematic branch to rescue individualized claims that are otherwise time-barred.\nIn this light, the district court's conclusion that Bird is time-barred from seeking damages for her placement on the CCAR in 2007 is correct. Because \"the violation Bird alleges is the placement of her name on the Registry without constitutionally required due process,\" she has brought only an individualized claim. As such, the systematic branch of the continuing violations doctrine is inapplicable here, and the discovery rule of accrual applies.\nBird raises several arguments to the contrary. First, she likens her case to that of Kuhnle , where the Seventh Circuit held that a county resolution which barred the plaintiff from using certain roads for truck travel \"deprived [the plaintiff] of liberty interests ... created by a fundamental constitutional right to intrastate travel ... every day that it remained in effect\" and thus constituted a continuing violation. 103 F.3d at 521-22. Bird argues that \"[s]imilar to the plaintiff in Kuhnle ... [her] \u00a7 1983 claim arises from a continued deprivation of liberty interests caused by an unconstitutional rule or statute.\" This argument is, in essence, an attempt to recast Bird's claim as a substantive due process claim for deprivation of liberty interests in working with and adopting children.\nBird's case, however, is distinguishable from that of Kuhnle . In Kuhnle , the resolution directly forbade the plaintiff from driving on certain roads, thereby depriving him every day of his \"fundamental constitutional right to intrastate travel.\" 103 F.3d at 521. By comparison, the deprivation of liberty that Bird continues to suffer is best understood as the \"continuing impact from [a] past violation[ ].\" Williams , 665 F.2d at 924 (quoting Reed , 613 F.2d at 760 ); see Del. State Coll. v. Ricks , 449 U.S. 250, 252-54, 258, 101 S.Ct. 498, 66 L.Ed.2d 431 (1980) (holding that a professor's eventual termination was merely the continuing effect of the original decision to deny tenure and not a new violation); Knox , 260 F.3d at 1013 (holding that repeated denials of prison visitation rights did not constitute a continuing due process violation because each of the subsequent denials merely implemented the original suspension and did not represent an independent violation). Although Bird's injuries resulting from the 2007 act of placing her on the CCAR continue to the present day, continuing effect is insufficient to constitute a continuing violation. See Williams , 665 F.2d at 924 (\"[C]ontinuing impact from past violations is not actionable.\" (quoting Reed , 613 F.2d at 760 )).\nSecond, Bird argues that her claim is not confined to the denial of pre-deprivation process; rather, Bird believes that the continual lack of a post-deprivation process by which she can challenge her placement on the CCAR constitutes an ongoing deprivation of due process. Bird is unable to identify, however, any specific instance within the limitations period where she sought and was denied post-deprivation process. See Pouncil v. Tilton , 704 F.3d 568, 581 (9th Cir. 2012) (holding that constitutional and statutory claims for religious discrimination were not barred by the statute of limitations where the defendant allegedly committed an independently wrongful, discrete act within the limitations period, even if the discrete act was related to a preexisting policy of which the plaintiff was aware and subject to outside the limitations period). The only instance Bird has identified where she sought and was denied a post-deprivation hearing occurred prior to May 2013.\n* * *\nBecause Bird has alleged only individualized claims for deprivation of procedural due process, the normal discovery rule of accrual applies. Based on the correspondence between Bird and DHS, we agree with the district court that Bird had knowledge of the injury giving rise to her claims by May 2013. Accordingly, her suit, filed in July 2015, was outside the two-year statute of limitations. Because \"the complaint would not [have been] saved by any amendment,\" Carvalho v. Equifax Info. Servs., LLC , 629 F.3d 876, 893 (9th Cir. 2010) (quoting Leadsinger, Inc. v. BMG Music Publ'g , 512 F.3d 522, 532 (9th Cir. 2008) ), the district court did not err in denying Bird leave to amend.\nIII. CONCLUSION\nWe AFFIRM the judgment of the district court.\nHaw. Rev. Stat. \u00a7 350-2(d) was amended effective May 29, 2017, so that \"not confirmed\" reports of child abuse are also expunged from the registry. Act of May 18, 2017, sec. 3, \u00a7 350-2(d), 2017 Haw. Sess. Laws 60, 61-62.\nWe note that while the Hawai'i statute governing the CCAR has been amended to expunge \"not confirmed\" reports of child abuse, the regulations have not kept pace and still require that \"not confirmed\" reports of child abuse remain on the registry. See Haw. Admin. R. \u00a7 17-1610-19.\nBird was given official notice that she had been placed on the registry for the first time in September 2012 when DHS mailed and emailed her a \"Notice to Perpetrator.\"\nBird's complaint does not actually specify which constitutional rights the State violated. Bird's parallel state constitutional claim, however, focuses on a violation of due process, and the injunctive relief that Bird seeks under her \u00a7 1983 claim would require the State to \"provide immediate notice to all individuals who have been reported to the Registry\" and \"provide procedures for previously reported individuals to seek to correct false reports.\" Thus, Bird's claim is most aptly characterized as a procedural due process claim.\nWe review de novo the district court's conclusion that a claim is barred by a statute of limitations. Avila v. Spokane Sch. Dist. 81 , 852 F.3d 936, 939 (9th Cir. 2017).\nThe Kuhnle court's discussion relies primarily on the continuing violations doctrine, see 103 F.3d at 520-23, and is discussed below in Part II.B.\nThe Court carved out one exception for hostile work environment claims, because \"[s]uch claims are based on the cumulative effect of individual acts\" that \"cannot be said to occur on any particular day.\" Morgan II , 536 U.S. at 115-17, 122 S.Ct. 2061.\nBird did style her complaint as a class action, but \"there has been no class certification granted, or even sought\" and \"the parties have identified no potential class member plaintiffs.\" At oral argument, Bird's counsel conceded that Bird had not pursued her class action claim.",
+        "type": "majority",
+        "author": "PER CURIAM:"
+      },
+      {
+        "text": "BYBEE, Circuit Judge, concurring:\nI fully concur in the per curiam opinion of the court that Ms. Bird's complaint is barred by the applicable statute of limitations. I regret that result, however, and write separately because I fear that a great injustice may have been done. Ms. Bird alleges that the State of Hawai'i has violated her Fourteenth Amendment right to procedural due process when, without giving her notice and an opportunity for a hearing, the state placed her on its Central Child Abuse Registry (\"CCAR\"). Were we permitted to reach the merits of her argument, Ms. Bird has assuredly stated a plausible due process claim. Regrettably, if Ms. Bird was erroneously listed on the CCAR, she may suffer the effects of the state's error for the remainder of her life.\nWe analyze procedural due process claims in two familiar steps: we first ask \"whether there exists a liberty or property interest which has been interfered with by the State.\" Ky. Dep't of Corr. v. Thompson , 490 U.S. 454, 460, 109 S.Ct. 1904, 104 L.Ed.2d 506 (1989). We then ask \"whether the procedures attendant upon that deprivation were constitutionally sufficient.\" Id.\nUnfortunately, this is not a case of first impression. We previously addressed the adequacy of state procedures for listing and maintaining names on child abuse registries in Humphries v. County of Los Angeles , 554 F.3d 1170 (9th Cir. 2009), overruled on other grounds by Los Angeles County v. Humphries , 562 U.S. 29, 131 S.Ct. 447, 178 L.Ed.2d 460 (2010). There, we addressed a challenge to California's Child Abuse Central Index (\"CACI\") and held at step one of the due process inquiry that an individual's liberty interest has been \"interfered with by the State\" where \"a state statute creates both a stigma and a tangible burden on an individual's ability to obtain a right or status recognized by state law.\" 554 F.3d at 1185, 1188. We recognized that \"being labeled a child abuser by being placed on [a child abuse registry] is 'unquestionably stigmatizing.' \" Id. at 1186. Moreover, \"a tangible burden ... exists where the plaintiff can show that, as a practical matter, the law creates a framework under which agencies reflexively check the stigmatizing listing-whether by internal regulation or custom-prior to conferring a legal right or benefit.\" Id. at 1188. In this case, there is no question that by listing Ms. Bird on its CCAR-irrespective of whether she is \"confirmed\" or \"not confirmed\"-Hawai'i has placed a stigmatizing label on Ms. Bird. Indeed, there is perhaps no name more deserving of our opprobrium than to be called a child abuser-or, as Hawai'i euphemistically refers to them: a \"perpetrator\" or \"maltreater.\" Haw. Admin. R. \u00a7 17-1610-11(c).\nThere are real consequences for those who find themselves on a state registry. State-created child abuse registries form an organic network of accusations from which consequences flow: those listed may be denied the privilege of teaching or working with children, adopting, fostering, and coaching youth sports or other activities. See Wright v. O'Day , 706 F.3d 769, 771 (6th Cir. 2013) (describing how Tennessee law prohibits people listed on the state's child abuse registry from working in child-care agencies, child-care programs, and adult-daycare centers); Humphries , 554 F.3d at 1177-78 (describing consequences of being listed on California's CACI); Behrens v. Regier , 422 F.3d 1255, 1257 (11th Cir. 2005) (describing how plaintiff was unable to adopt another child after inaccurate listing on Florida's child abuse registry); Dupuy v. Samuels , 397 F.3d 493, 497-98 (7th Cir. 2005) (describing how Illinois law requires licensed facilities in childcare to check the state's child abuse registry).\nWhen a state places legal disabilities on its citizens, we ask \"whether the procedures attendant upon that deprivation were constitutionally sufficient.\" See Thompson , 490 U.S. at 460, 109 S.Ct. 1904. The answer here is a resounding \"NO.\" Hawai'i offers little process-pre-listing or post-listing-for persons it lists on its CCAR. In the same provision that creates the CCAR, Hawai'i requires DHS to notify police and prosecutors of any reports DHS receives. Haw. Rev. Stat. \u00a7 350-2(a), (b). Although nothing in the statute requires DHS to notify the individual who has been branded a perpetrator or maltreater, DHS's regulations require it to give notice of the listing and the right to an administrative appeal. Haw. Admin. R. \u00a7 17-1610-11(c). In this case, however, DHS did not follow its regulations; Ms. Bird received no notice. She had no way of knowing that she was on the registry until years later, after her ex-husband had been convicted of killing their daughter, Hawai'i family court restored her older daughter to her custody, she had left Hawai'i for her family's home in Tennessee, she remarried, and she and her new husband sought to adopt a special-needs child from a third-world country. By the time Ms. Bird learned that she was on Hawai'i's CCAR, the damage had been done. She was disqualified by Tennessee from adoption (and probably many other things she hadn't figured out yet), and her only recourse was to go back to Hawai'i five years after the incident and try to persuade an agency that didn't want to deal with her to give her a hearing. In the end, DHS begrudgingly offered her \"an administrative hearing for the sole purpose of deciding whether DHS properly confirmed (i) abuse of a minor and (ii) threat of abuse of a minor.\"\nWe have seen this bad movie before. In Humphries , we concluded that California's procedures for listing and maintaining individuals on the CACI were constitutionally deficient because they created a high likelihood that innocent names would remain on the registry. We first emphasized that the statutory standard for inclusion on the CACI was \"a very low threshold\" that created a high likelihood of \"false positives.\" 554 F.3d at 1195. We observed that California law essentially \"reverse[d] ... the presumption of innocence in our criminal justice system: the accused [was] presumed to be a child abuser and listed [on the registry] unless the investigator [affirmatively] determine[d] that the report [was] false, improbable, or accidental.\" Id. The danger of an erroneous listing was further compounded by the lack of any statutory procedure by which an individual could challenge his or her inclusion on the CACI. Id. at 1195-1200. Rather than decide for ourselves what procedures California should adopt, we ordered California to \"provide 'some kind of hearing' by which [an accused individual] can challenge his inclusion.\" Id. at 1201.\nHawai'i's procedures for creating and maintaining its registry perpetuate some of the same problems we identified in Humphries . First, Hawai'i regulations require that even \"not confirmed\" reports of child abuse be listed on the CCAR, thereby creating a high likelihood of \"false positives.\" Haw. Admin. R. \u00a7 17-1610-19(a)(1)(A). The danger of erroneous listings in the CCAR is magnified by inadequate procedures by which an individual can challenge his or her inclusion in the CCAR. Unlike the statutory scheme at issue in Humphries , Hawai'i regulations do require notice and do allow for administrative review of CCAR listings in some circumstances. At least one of the two means for review occurs on DHS's initiative and can be terminated on DHS's initiative. See Haw. Rev. Stat. \u00a7 350-2(d)(1). If DHS petitions for a separate family court proceeding in which it claims custody of the listed individual's child, the listed individual is not permitted to seek administrative review of his or her registry listing. See Haw. Admin. R. \u00a7 17-1610-12. Instead, the listed individual must prevail at an adjudicatory hearing before the family court can expunge the report. Haw. Rev. Stat. \u00a7 350-2(d)(2).\nAt first blush, this statutory scheme appears more protective than the scheme at issue in Humphries , where listed individuals were offered neither administrative review nor a court hearing capable of expunging the listing. Ms. Bird's unfortunate situation, however, highlights a glaring hole in Hawai'i's regulations: In cases where DHS chooses to return a child to his or her parents rather than pursue the family court proceeding to the adjudicatory phase, listed individuals are denied access to both an administrative hearing and a court adjudication. See Haw. Rev. Stat. \u00a7 350-2(d) ; Haw. Admin. R. \u00a7 17-1610-12(c). In other words, under Hawai'i procedures, DHS can both return a child to the parents and keep the parent's names on the CCAR. In that circumstance, the only way the parent can get a hearing on the CCAR listing is to decline the opportunity to get the child back and pursue litigation in the family court to a full adjudication. This makes no sense. The parents who settle with DHS and thus forego adjudication get their child back, but may be barred forever from teaching school or coaching Little League. See , e.g. , Humphries , 554 F.3d at 1183 & n.9. Persons such as Ms. Bird have no recourse for expunging their names from the CCAR, except to file a civil rights action under 42 U.S.C. \u00a7 1983.\nThe state suggests that the hole in its regulations, by which certain individuals are offered neither administrative review nor a court adjudication, is immaterial because parents who are listed on the CCAR should know better than to regain custody of their children from DHS without enduring a court adjudication. According to the State, the onus lies on the parents to insist that the district court proceed to an adjudication where it would otherwise be unnecessary.\nThe flaw in the state's procedures is compounded in this case by the fact that it never told Ms. Bird she was listed on the CCAR. The state's position that it was, nevertheless, Ms. Bird's burden to insist on an adjudication is just astounding. Even worse, the State argues that the lack of notice in this case is also immaterial because Ms. Bird was represented by counsel in the dependency proceeding before the family court and thus should have \"just known\" that she was listed on the CCAR and that the only way for her to get off was to insist on proceeding to an adjudicatory hearing in spite of the fact that DHS had effectively mooted the family court proceeding by agreeing that Bird's daughter could be safely returned home.\nI don't understand how the State of Hawai'i can maintain such arguments with a straight face. Ms. Bird was plainly denied due process of law. And, if the facts are as she alleges them, not only was she denied notice and an opportunity to contest her placement on the CCAR, she was erroneously listed in the first place. The state has twice wronged her: first, by listing her at all; second, by denying her an opportunity to prove that she didn't deserve to be blacklisted.\nHawai'i prevails here only because of a statute of limitations. Statutes of limitations are important to the search for truth. They \" 'promote justice by preventing surprises through [plaintiffs'] revival of claims that have been allowed to slumber until evidence has been lost, memories have faded, and witnesses have disappeared.' \" CTS Corp. v. Waldburger , 573 U.S. 1, 8, 134 S.Ct. 2175, 189 L.Ed.2d 62 (2014) (alteration in original) (quoting R.R. Telegraphers v. Ry. Express Agency, Inc. , 321 U.S. 342, 348-49, 64 S.Ct. 582, 88 L.Ed. 788 (1944) ). The state gets the benefit of that rule today, because Ms. Bird filed her suit just outside the two-year statute of limitations. The irony is that while Ms. Bird filed her suit just two months late, she didn't even learn of the CCAR-and her cause of action-until five years after the state listed her. Hawai'i will not be compelled by law-at least not by us-to give Ms. Bird an opportunity to show she doesn't deserve to be on its CCAR, but it can always choose to do the right thing voluntarily. In any event, DHS should not interpret our decision today as in any way condoning the blatantly insufficient procedures by which it maintains Ms. Bird's name in its Central Child Abuse Registry.\nI recognize that on May 29, 2017, the statute governing listings on the Registry, Haw. Rev. Stat. \u00a7 350-2(d), was amended so that \"not confirmed\" reports of child abuse may be expunged from the CCAR. See 2017 Haw. Laws Act 16 (H.B. 1099) (May 18, 2017). As our per curiam opinion notes, the regulations governing listings in the CCAR, however, still require that \"not confirmed\" reports remain on the CCAR. Haw. Admin. R. \u00a7 17-1610-19 ; see Panel Op. at 6 n.2.",
+        "type": "concurrence",
+        "author": "BYBEE, Circuit Judge, concurring:"
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "Courtney BIRD, Plaintiff-Appellant,\nv.\nState of Hawai'i; DEPARTMENT OF HUMAN SERVICES; DHS, Social Services Division, Child Welfare Services Branch; Pankaj Bhanot, Department of Human Services Director; Jeffrey R. Woodland; Does, Defendants-Appellees.\nNo. 17-16076\nUnited States Court of Appeals, Ninth Circuit.\nArgued and Submitted February 12, 2019\nSubmission Vacated February 26, 2019\nFiled August 23, 2019"
+  },
+  "file_name": "0738-01",
+  "first_page_order": 738,
+  "last_page_order": 752
+}

@@ -1,0 +1,696 @@
+{
+  "id": 12451499,
+  "name": "THE PEOPLE, Plaintiff and Respondent, v. EDDIE DUNLEY, Defendant and Appellant",
+  "name_abbreviation": "People v. Dunley",
+  "decision_date": "2016-06-10",
+  "docket_number": "No. E062656",
+  "first_page": "1438",
+  "last_page": "1454",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "247 Cal. App. 4th 1438"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "18 P.3d 2",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "104 Cal.Rptr.2d 572",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 Cal.4th 19",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        265454
+      ],
+      "pin_cites": [
+        {
+          "page": "29"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/25/0019-01"
+      ]
+    },
+    {
+      "cite": "299 P.2d 243",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.2d 818",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4370142
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/46/0818-01"
+      ]
+    },
+    {
+      "cite": "499 U.S. 279",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11318776
+      ],
+      "weight": 5,
+      "year": 1956,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/499/0279-01"
+      ]
+    },
+    {
+      "cite": "369 P.2d 937",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "20 Cal.Rptr. 321",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "57 Cal.2d 450",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4375244
+      ],
+      "pin_cites": [
+        {
+          "page": "455"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/57/0450-01"
+      ]
+    },
+    {
+      "cite": "584 P.2d 1097",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "149 Cal.Rptr. 491",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "22 Cal.3d 457",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2282076
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/22/0457-01"
+      ]
+    },
+    {
+      "cite": "158 P.3d 731",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "59 Cal.Rptr.3d 157",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "41 Cal.4th 139",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3818991
+      ],
+      "pin_cites": [
+        {
+          "page": "154-155"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/41/0139-01"
+      ]
+    },
+    {
+      "cite": "616 P.2d 836",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "167 Cal.Rptr. 854",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 Cal.3d 161",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2259846
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/28/0161-01"
+      ]
+    },
+    {
+      "cite": "178 P.3d 446",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "73 Cal.Rptr.3d 469",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 Cal.4th 1251",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3673249
+      ],
+      "pin_cites": [
+        {
+          "page": "1263"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/42/1251-01"
+      ]
+    },
+    {
+      "cite": "599 P.2d 92",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "157 Cal.Rptr. 897",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 Cal.3d 223",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2270579
+      ],
+      "pin_cites": [
+        {
+          "page": "228-229"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/25/0223-01"
+      ]
+    },
+    {
+      "cite": "969 P.2d 584",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "81 Cal.Rptr.2d 492",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "19 Cal.4th 1138",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1709364
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "1153, fn. 20"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/19/1138-01"
+      ]
+    },
+    {
+      "cite": "281 P.3d 464",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "144 Cal.Rptr.3d 489",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "55 Cal.4th 62",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3931975
+      ],
+      "pin_cites": [
+        {
+          "page": "74"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/55/0062-01"
+      ]
+    },
+    {
+      "cite": "252 Cal.Rptr. 56",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "204 Cal.App.3d 1425",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2348513
+      ],
+      "pin_cites": [
+        {
+          "page": "1436"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/204/1425-01"
+      ]
+    },
+    {
+      "cite": "88 Cal.Rptr.2d 696",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1988,
+      "opinion_index": 0
+    },
+    {
+      "cite": "74 Cal.App.4th 1149",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        245376
+      ],
+      "weight": 2,
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "1156"
+        },
+        {
+          "page": "1155"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/74/1149-01"
+      ]
+    },
+    {
+      "cite": "18 Cal.Rptr.3d 315",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "121 Cal.App.4th 1315",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1204722
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/121/1315-01"
+      ]
+    },
+    {
+      "cite": "223 P.3d 566",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "104 Cal.Rptr.3d 427",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.4th 1172",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3899583
+      ],
+      "weight": 7,
+      "pin_cites": [
+        {
+          "page": "1202"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/47/1172-01"
+      ]
+    },
+    {
+      "cite": "954 P.2d 511",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "74 Cal.Rptr.2d 248",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 Cal.4th 1",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        344179
+      ],
+      "pin_cites": [
+        {
+          "page": "6"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/18/0001-01"
+      ]
+    },
+    {
+      "cite": "40 Cal.Rptr.3d 789",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "137 Cal.App.4th 1099",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3819178
+      ],
+      "pin_cites": [
+        {
+          "page": "1106-1116"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/137/1099-01"
+      ]
+    },
+    {
+      "cite": "354 P.3d 268",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "191 Cal.Rptr.3d 458",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "61 Cal.4th 1113",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6054541
+      ],
+      "pin_cites": [
+        {
+          "page": "1131"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/61/1113-01"
+      ]
+    },
+    {
+      "cite": "103 Cal.Rptr.2d 579",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 2015,
+      "opinion_index": 0
+    },
+    {
+      "cite": "86 Cal.App.4th 825",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1282207
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "830"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/86/0825-01"
+      ]
+    },
+    {
+      "cite": "93 Cal.Rptr.2d 180",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 2001,
+      "opinion_index": 0
+    },
+    {
+      "cite": "78 Cal.App.4th 776",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        196716
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "789-793"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/78/0776-01"
+      ]
+    },
+    {
+      "cite": "135 Cal.Rptr.3d 188",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "202 Cal.App.4th 306",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4245770
+      ],
+      "pin_cites": [
+        {
+          "page": "321"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/202/0306-01"
+      ]
+    },
+    {
+      "cite": "24 P.3d 1204",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2011,
+      "opinion_index": 0
+    },
+    {
+      "cite": "108 Cal.Rptr.2d 181",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 2011,
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 Cal.4th 894",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        265411
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "897-898"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/25/0894-01"
+      ]
+    },
+    {
+      "cite": "188 Cal.Rptr.3d 421",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "237 Cal.App.4th 709",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6055506
+      ],
+      "weight": 6,
+      "pin_cites": [
+        {
+          "page": "716-722"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/237/0709-01"
+      ]
+    },
+    {
+      "cite": "339 P.3d 998",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "181 Cal.Rptr.3d 748",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "60 Cal.4th 815",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3991264
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "832"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/60/0815-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1229,
+    "char_count": 33782,
+    "ocr_confidence": 0.929,
+    "pagerank": {
+      "raw": 7.106740792724647e-08,
+      "percentile": 0.42693859757846886
+    },
+    "sha256": "504cc30d594048ad78fa8aa1a5a88f71d889316f0943e5755ee560c6e847fed9",
+    "simhash": "1:3a74203639228ff8",
+    "word_count": 5396
+  },
+  "last_updated": "2024-02-27T21:43:19.580264+00:00",
+  "provenance": {
+    "date_added": "2019-05-21",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Ramirez, P. J., and Hollenhorst, J., concurred."
+    ],
+    "parties": [
+      "THE PEOPLE, Plaintiff and Respondent, v. EDDIE DUNLEY, Defendant and Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nMcKINSTER, J.\nThe Mentally Disordered Offenders Act (Pen. Code, \u00a7 2960 et seq.) provides for involuntary civil commitment as a condition of parole for prisoners who are found to have \u201ca severe mental disorder\u201d if certain conditions are met. (\u00a7 2962, subds. (a)-(l).) The commitment is for a term of one year and may be extended annually for an additional year on petition of the district attorney. (\u00a7 2972, subds. (a), (b).)\nAppellant Eddie Dunley appeals from a judgment extending his commitment as a mentally disordered offender (MDO). He contends that because persons subject to civil commitment after being found not guilty by reason of insanity (NGI) have a statutory right, pursuant to section 1026.5, subdivision (b)(7) (hereafter section 1026.5(b)(7)), not to be compelled to testify in proceedings to extend their commitments (Hudec v. Superior Court (2015) 60 Cal.4th 815, 832 [181 Cal.Rptr.3d 748, 339 P.3d 998]), so should a person facing commitment as an MDO. He points out that this right has been extended to commitment proceedings for sexually violent predators (SVP) by application of equal protection principles. (People v. Curlee (2015) 237 Cal.App.4th 709, 716-722 [188 Cal.Rptr.3d 421].) He contends that NGI\u2019s, SVP\u2019s and MDO\u2019s are all similarly situated with respect to civil commitment procedures.\nWe hold that MDO\u2019s, SVP\u2019s and NGI\u2019s are all similarly situated with respect to the testimonial privilege provided for in section 1026.5(b)(7). However, as we will discuss, this appeal is moot because a subsequent petition for recommitment was denied by the trial court on or about March 7, 2016, based on the court\u2019s finding that appellant no longer met the criteria for commitment as an MDO. Accordingly, although we will decide the threshold issue, which is purely a legal question and will surely reoccur in MDO proceedings in light of People v. Curlee, supra, 237 Cal.App.4th 709, we will dismiss the appeal as moot. (People v. Cheek (2001) 25 Cal.4th 894, 897-898 [108 Cal.Rptr.2d 181, 24 P.3d 1204]; People v. Gregerson (2011) 202 Cal.App.4th 306, 321 [135 Cal.Rptr.3d 188].)\nPROCEDURAL HISTORY\nOn June 9, 2014, the San Bernardino County District Attorney filed a petition pursuant to section 2972 to extend appellant\u2019s involuntary commitment as an MDO.\nOn December 17, 2014, a jury found that appellant met the criteria for commitment as an MDO. Accordingly, the court granted the petition and extended appellant\u2019s commitment until January 20, 2016. Appellant filed a timely notice of appeal.\nFACTS\nWhile serving a prison term for robbery, appellant had several incidents of battery on correctional officers. A mental health evaluation was done after each incident. Both evaluations reported that appellant was disorganized and confused. One evaluation concluded that appellant showed severely impaired judgment. The other concluded that he showed psychosis. In 2008, he was committed to Atascadero State Hospital as an MDO. He had previously been admitted to Atascadero in 2001.\nDr. Joe Debruin, a forensic psychologist at Atascadero, evaluated appellant to determine whether he met the criteria for recommitment as an MDO. Dr. Debruin reviewed appellant\u2019s treatment plan, interdisciplinary and psychiatric progress notes, previous MDO evaluation reports, and the police report concerning his prior offense. He also interviewed appellant.\nDr. Debruin diagnosed appellant with schizoaffective disorder, bipolar type, which, he testified, is a severe mental disorder that persists over a period of time. He testified that appellant had consistently exhibited symptoms of schizoaffective disorder since he was committed to Atascadero in 2008. Appellant displayed a belief that he was God or \u201cGod\u2019s son in the flesh,\u201d and reported hallucinations and hearing voices, which sometimes commanded him to be aggressive. He had manic episodes during which he spoke in a rapid, disorganized and incoherent manner. He had mood control difficulties and would fluctuate from being very agitated to being depressed. He had paranoid episodes in which he thought people were \u201cmessing with his body organs\u201d and that hospital staff were \u201ctelling lies and being corrupt.\u201d These symptoms continued to occur in the months preceding the hearing. During his current confinement at Atascadero, appellant had 60 violent episodes. The most recent was in December 2013, when appellant repeatedly punched a fellow patient.\nDr. Debruin testified that appellant lacked insight into his condition, i.e., that he did not believe he was mentally ill or that he needed medication. Appellant did not follow his treatment plan or participate in groups, and he was often unwilling to take his medication. Dr. Debruin opined that if appellant were released into the community, he would not take his medication and that his symptoms would escalate as a result.\nBased on appellant\u2019s prior offenses, violent behavior, delusional statements and lack of insight into his illness, Dr. Debruin opined that appellant\u2019s mental disorder was not in remission and, as a result of the disorder, he posed a substantial danger for violence if he were released into the community.\nDr. Martin Steed, appellant\u2019s treating psychiatrist for the year and a half preceding the hearing, testified to the same effect. He diagnosed appellant with schizoaffective disorder, bipolar type, which he characterized as a severe mental disorder. He testified that appellant displayed \u201cextensive irritable mood, grandiosity, increase in self-esteem, in risky behaviors, as well as hyperreligiosity and hypersexuality.\u201d He noted that as recently as two weeks before coming to San Bernardino for the hearing, appellant \u2018\u201cthought he was God, as he usually does.\u201d He testified that appellant\u2019s condition was not in remission and that he had no doubt that appellant would stop taking his medications as soon as he was released and that he would pose a danger to the public. Although he acknowledged that appellant\u2019s violent behavior had decreased since he had been placed on lithium, he was still symptomatic. Dr. Steed concluded that appellant posed a substantial danger to others as a result of his mental disorder.\nThe prosecution called appellant to testify. Much of his testimony was confused or nonresponsive, but he ultimately admitted that he had a mental disorder and that his disorder made him dangerous.\nLEGAL ANALYSIS\n1.\nTHE APPEAL IS MOOT\nA case becomes moot when a court ruling can have no practical effect or cannot provide the parties with effective relief. (People v. Gregerson, supra, 202 Cal.App.4th at p. 321.) By the nature of MDO proceedings, in which a new commitment order must be sought every year, issues arising in such proceedings can most often not be decided on appeal quickly enough to provide any relief to the person committed. That is the case here. Appellant\u2019s current commitment order expired on January 20, 2016, while this appeal was pending. A new petition for recommitment was filed on June 22, 2015, and was denied on March 7, 2016, based on the trial court\u2019s finding that appellant no longer meets the criteria for commitment as an MDO. A reversal of appellant\u2019s current commitment order would have no effect on the pending petition. However, it is appropriate to address the issues raised in this appeal because they are important legal issues that are likely to reoccur \u201c \u2018while evading appellate review.\u2019 \u201d (People v. Gregerson, at p. 321.) Accordingly, we have chosen to address these issues, but we will dismiss the appeal as moot. {Ibid.)\n2.\nEQUAL PROTECTION\nBackground.\nUnder both the United States and California Constitutions, a person has the right to refuse to answer potentially incriminating questions put to him or her in any proceeding; in addition, the defendant in a criminal proceeding enjoys the right to refuse to testify at all. (U.S. Const., 5th Amend.; Cal. Const., art. I, \u00a7 15.) Commitment proceedings involving NGI\u2019s, SVP\u2019s and MDO\u2019s are all civil in nature. (Hudec v. Superior Court, supra, 60 Cal.4th at p. 819 (Hudec) [NGI]; People v. Leonard (2000) 78 Cal.App.4th 776, 789-793 [93 Cal.Rptr.2d 180] [SVP]; People v. Montoya (2001) 86 Cal.App.4th 825, 830 [103 Cal.Rptr.2d 579] [MDO], disapproved on another point in People v. Blackburn (2015) 61 Cal.4th 1113, 1131 [191 Cal.Rptr.3d 458, 354 P.3d 268]; \u00a7 2972, subd. (a) [MDO commitment hearing is a civil hearing].) Accordingly, none of the three groups has a right emanating from the Fifth Amendment or article I, section 15 of the California Constitution to refuse to testify in commitment proceedings. (See Hudec, at p. 819 & fn. 2.)\nIn Hudec, supra, 60 Cal.4th 815, the California Supreme Court resolved a split of authority as to whether NGI\u2019s have a statutory right not to be compelled to testify. The court held that section 1026.5(b)(7), which incorporates into an NGI commitment extension proceeding \u201c \u2018the rights guaranteed under the federal and State Constitutions for criminal proceedings,\u2019 \u201d provides that a defendant may not be compelled to testify in NGI commitment proceedings. (Hudec, at pp. 819-832.)\nIn People v. Curlee, supra, 237 Cal.App.4th 709 (Curlee), the court concluded that SVP\u2019s and NGI\u2019s are similarly situated \u201cfor purposes of whether they may be compelled to testify at their commitment hearings.\u201d (Curlee, at pp. 720-721.) Accordingly, it held, unless the People can justify disparate treatment, equal protection principles mandate that the statutory right not to testify in a commitment proceeding provided for in section 1026.5(b)(7) applies to SVP\u2019s as well as to NGI\u2019s. It remanded the matter for an evidentiary hearing for the purpose of allowing the People to show that differential treatment of NGI\u2019s and SVP\u2019s is justified. (Curlee, at pp. 721-723.) Relying in part on Curlee, appellant contends that MDO\u2019s are similarly situated with respect to NGI\u2019s and SVP\u2019s for the purpose of the testimonial privilege.\nThe Claim Is Not Forfeited.\nWe first address the Attorney General\u2019s contention that review of the issue is forfeited because at the hearing, appellant did not assert a right not to testify. We acknowledge that an equal protection claim may be forfeited if it is raised for the first time on appeal. (Curlee, supra, 237 Cal.App.4th at p. 714.) However, we will exercise our discretion to address the issue because at the time of the hearing, in December 2014, published authority from this court held that section 1026.5(b)(7) does not confer a testimonial privilege on NGI\u2019s and, therefore, also rejected a contention that equal protection mandates extension of that right to MDO\u2019s. (People v. Lopez (2006) 137 Cal.App.4th 1099, 1106-1116 [40 Cal.Rptr.3d 789], disapproved in part in Hudec, supra, 60 Cal.4th at p. 832, fn. 5.) Other appellate courts had held that NGI\u2019s do have a statutory right to refuse to testify and, in January 2015, one month after appellant\u2019s hearing, the California Supreme Court resolved the issue as described above. (Hudec, at pp. 822-25.) However, in December 2014, it would not have been unreasonable to assume that an objection would have been futile, based on People v. Lopez. We do not require parties to make futile objections. (Curlee, at p. 715.) Moreover, the threshold equal protection issue we decide in this appeal is a question of law and does not require resolution of disputed factual issues. Such an issue can be raised for the first time on appeal. (Cedars-Sinai Medical Center v. Superior Court (1998) 18 Cal.4th 1, 6 [74 Cal.Rptr.2d 248, 954 P.2d 511].)\nMDO\u2019s, SVP\u2019s and NGI\u2019s Are Similarly Situated for Purposes of the Testimonial Privilege Under Section 1026.5(b)(7).\n\u201c \u2018 \u201cThe first prerequisite to a meritorious claim under the equal protection clause is a showing that the state has adopted a classification that affects two or more similarly situated groups in an unequal manner.\u201d [Citations.] This initial inquiry is not whether persons are similarly situated for all purposes, but \u201cwhether they are similarly situated for purposes of the law challenged.\u201d \u2019 [Citation.] In other words, we ask at the threshold whether two classes that are different in some respects are sufficiently similar with respect to the laws in question to require the government to justify its differential treatment of these classes under those laws.\u201d (People v. McKee (2010) 47 Cal.4th 1172, 1202 [104 Cal.Rptr.3d 427, 223 P.3d 566] (McKee).)\nIn contexts other than the testimonial privilege, NGI\u2019s, SVP\u2019s and MDO\u2019s have been found similarly situated for purposes of the application of the three commitment schemes, thus requiring justification for any differential treatment. In McKee, supra, 47 Cal.4th 1172, the court addressed the contention that the SVP scheme then in effect, which imposed indefinite commitments and required SVP\u2019s to bear the burden of proving at periodic review hearings that they should be released, violated equal protection because it placed a greater burden on SVP\u2019s than on MDO\u2019s. Under the MDO commitment scheme, the state bears the burden of proving beyond a reasonable doubt that the person should be recommitted for another year. (McKee, at pp. 1183-1184, 1202.)\nAfter noting the \u201cincontrovertible point that SVP\u2019s and MDO\u2019s do not share identical characteristics,\u201d the McKee court held: \u201cWe conclude that MDO\u2019s and SVP\u2019s are similarly situated for our present purposes. As was stated in In re Calhoun (2004) 121 Cal.App.4th 1315 [18 Cal.Rptr.3d 315], in which the court struck down a policy that granted to SVP\u2019s a more restricted right to refuse antipsychotic medication than MDO\u2019s, both MDO\u2019s and SVP\u2019s \u2018have been found, beyond a reasonable doubt, to suffer from mental disorders that render them dangerous to others. The dangerous finding requires only an assessment of future dangerousness. It does not require proof of a recent overt act. Both have been convicted of a serious or violent felony. At the end of their prison terms, both have been civilly committed to the Department of Mental Health[] for treatment of their disorders. Furthermore, the purpose of the MDO Act and the SVPA is the same: to protect the public from dangerous felony offenders with mental disorders and to provide mental health treatment for their disorders.\u2019 ([Calhoun) at pp. 1351-1352; accord, People v. Buffington (1999) 74 Cal.App.4th 1149, 1156 [88 Cal.Rptr.2d 696] {Buffington) [concluding that SVP\u2019s and MDO\u2019s are similarly situated because \u2018they are currently suffering from a mental disorder that renders them dangerous\u2019]; People v. Gibson (1988) 204 Cal.App.3d 1425, 1436 [252 Cal.Rptr. 56] [an MDO is similarly situated to other adult persons involuntarily committed because \u2018[o]ne purpose of all of these pertinent involuntary commitment schemes is the protection of the public from the dangerous mentally ill and their involuntary commitment for treatment\u2019].) We agree that these common features make SVP\u2019s and MDO\u2019s similarly situated. Therefore, when the state makes the terms of commitment or recommitment substantially less favorable for one group than the other, the case law reviewed above teaches that it is required to give some justification for this differential treatment.\u201d {McKee, supra, 47 Cal.4th at p. 1203, italics added.)\nThe McKee court went on to hold that NGI\u2019s and SVP\u2019s are also similarly situated for purposes of the civil commitment schemes. The court stated: \u201cMcKee argues that NGI\u2019s and SVP\u2019s are also similarly situated and that a comparison of the two commitment regimes raises similar equal protection problems as discussed above. His argument has merit. NGI\u2019s as discussed are those who have committed criminal acts but have been civilly committed rather than criminally penalized because of their severe mental disorder. Under the current statutory scheme they may not be in civil custody longer than the maximum state prison term to which they could have been sentenced for the underlying offense [citations] unless at the end of that period the district attorney extends the commitment for two years by proving in a jury trial beyond a reasonable doubt that the person presents a substantial danger of physical harm to others because of a mental disease, defect, or disorder. [Citations.] We agree that, as with MDO\u2019s, the People have not yet carried their burden of justifying the differences between the SVP and NGI commitment statutes.\u201d (McKee, supra, 47 Cal.4th at p. 1207.)\nIn Curlee, supra, 237 Cal.App.4th 709, the court held that for purposes of the testimonial privilege in commitment proceedings, SVP\u2019s and NGI\u2019s are similarly situated. Citing, inter alia, McKee, supra, 47 Cal.4th 1172, the court stated: \u201cThe preconditions to commitment are similar: Both groups have committed a criminal act and have been found to suffer from a mental condition that might present a danger to others. [Citation.] At the end of the SVP\u2019s prison term, and at the end of the term for which an NGI could have been imprisoned, each is committed to the state hospital for treatment if, at the end of that period, the district attorney proves in a jury trial beyond a reasonable doubt that the person presents a danger to others as a result of a mental disease, defect, or disorder. [Citations.] The purpose of the commitment is the same: To protect the public from those who have committed criminal acts and have mental disorders and to provide mental health treatment for the disorders. [Citations.]\u201d {Curlee, at p. 720.)\nIn this case, the Attorney General contends that NGI\u2019s are not similarly situated with respect to MDO\u2019s or SVP\u2019s because an NGI defendant asserts his mental disorder as an affirmative defense in his criminal trial and is, therefore, found not culpable as a result of the disorder. She notes that a defendant bears the burden of proof on the NGI defense. (See \u00a7 25, subd. (b).) In contrast, in both MDO and SVP proceedings, a defendant has been found guilty of a qualifying offense and after having served his or her sentence, is found to qualify for civil commitment in a proceeding in which the prosecution bears the burden of proof as to the existence of a mental disorder that renders that defendant a danger to the public. We fail to see how these distinctions are relevant to the determination as to whether the three groups are similarly situated for purposes of the testimonial privilege, however. Based on the reasoning of McKee, supra, 47 Cal.4th at page 1202, and Curlee, supra, 237 Cal.App.4th at pages 720 through 721, we can see no distinction between MDO\u2019s and either SVP\u2019s or NGI\u2019s for purposes of the testimonial privilege. Accordingly, we hold that for that purpose, MDO\u2019s, NGI\u2019s and SVP\u2019s are similarly situated.\nDisparate Treatment.\nIf two groups are found to be similarly situated for the purposes of the law in question, the next inquiry is whether the state can justify the disparate treatment. (People v. Buffington, supra, 74 Cal.App.4th 1149, 1155.) One of two tests applies in a given case: either the rational basis test or the strict scrutiny test. The rational basis test applies when the statute involves neither a suspect class nor a fundamental right. That test requires only that there is \u201c \u2018 \u201cany reasonably conceivable state of facts that could provide a rational basis for the classification.\u201d \u2019 [Citation.]\u201d (People v. Turnage (2012) 55 Cal.4th 62, 74 [144 Cal.Rptr.3d 489, 281 P.3d 464].) If the statute does affect a fundamental right, strict scrutiny applies. (Hubbart v. Superior Court (1999) 19 Cal.4th 1138, 1153, fn. 20 [81 Cal.Rptr.2d 492, 969 P.2d 584] (Hubbart).) \u201c \u2018[0]nce it is determined that [a] classification scheme affects a fundamental interest or right the burden shifts; thereafter the state must first establish that it has a compelling interest which justifies the law and then demonstrate that the distinctions drawn by the law are necessary to further that purpose.\u2019 [Citations.]\u201d (People v. Saffell (1979) 25 Cal.3d 223, 228-229 [157 Cal.Rptr. 897, 599 P.2d 92].)\nThe Attorney General contends that the rational basis test applies in this case. In our original opinion, we held that, on the contrary, the proper standard is strict scrutiny. We based this holding on Hubbart, supra, 19 Cal.4th 1138, and other cases in which the California Supreme Court has held that strict scrutiny applies to equal protection challenges to civil commitment schemes because those schemes affect the individual\u2019s fundamental liberty interest. (Id. at p. 1153, fn. 20; McKee, supra, 47 Cal.4th at pp. 1203 [involuntary commitment schemes impact individual\u2019s fundamental liberty interest], 1210 [strict scrutiny applies].) In a petition for rehearing, the Attorney General contended that this conclusion is erroneous and that we \u201cunwarrantedly expanded] McKee\u2019s holding.\u201d She contends that McKee holds that strict scrutiny does not apply to \u201cevery detail\u201d of civil commitment schemes. She contends that the testimonial privilege is merely a statutory trial right and not a matter affecting a fundamental interest, and that strict scrutiny therefore does not apply. We granted rehearing to address these contentions.\nThe California Supreme Court has long held that under California law, equal protection challenges to involuntary civil commitment schemes are reviewed under the strict scrutiny test because such schemes affect the committed person\u2019s fundamental interest in liberty. (Hubbart, supra, 19 Cal.4th at p. 1153, fn. 20, and cases cited therein.) The court reiterated that holding in In re Smith (2008) 42 Cal.4th 1251, 1263 [73 Cal.Rptr.3d 469, 178 P.3d 446]: \u201cUnder California law, \u2018 \u201c[sjtrict scrutiny is the appropriate standard against which to measure [equal protection] claims of disparate treatment in civil commitment. [Citations.]\u201d \u2019 [Citation.]\u201d Up to that point, the court had never, in any case of which we are aware, stated any limitations on that rule. The Attorney General contends that in McKee, supra, 47 Cal.4th 1172, however, the court did hold that equal protection challenges to some minor aspects of a civil commitment scheme are not subject to strict scrutiny.\nIn McKee, supra, 47 Cal.4th 1172, in an equal protection challenge to amendments to the SVP act, the court rejected in a footnote the suggestion by the concurring and dissenting justice that it was holding that strict scrutiny applies to \u201c \u2018every detail of every civil commitment program.\u2019 \u201d {McKee, at p. 1210, fn. 13.) In the same footnote, however, the court went on to say, \u201cNor do we agree with the concurring and dissenting opinion inasmuch as it means to imply that the change from a short-term commitment, renewable only if the state carries its burden beyond a reasonable doubt, to an indefinite commitment in which the person committed has the burden of proof is merely an alteration of a minor detail of the commitment scheme.\u201d {Ibid.) Thus, the court referred to the concurrence and dissent only for the purpose of rejecting any implication that the issues before it in that case could be deemed to be mere \u201cdetails\u201d of the SVP Act. The court\u2019s rejection of the concurring and dissenting justice\u2019s characterization of its holding, is not, of course, the equivalent of actually holding that strict scrutiny does not apply to some details of the SVP Act or other involuntary civil commitment statutes. Moreover, in McKee, the court reiterated its earlier holding in Conservatorship of Hofferber (1980) 28 Cal.3d 161 [167 Cal.Rptr. 854, 616 P.2d 836] (Hofferber) that \u201cfundamental distinctions between classes of individuals subject to civil commitment are subject to strict scrutiny.\u201d (McKee, at p. 1210, citing Hofferber, at p. 171, fn. 8.) Accordingly, the Attorney General\u2019s contention is simply erroneous.\nWe also reject the Attorney General\u2019s assertion that in McKee, the court held that \u201cbecause\u201d the challenged law increased the length of an SVP\u2019s commitment and placed the burden on the SVP to prove eligibility for release, strict scrutiny applies. Nowhere does McKee state that strict scrutiny applies for any reason other than because the challenged law affects the liberty interests of the individuals who are subject to it. (McKee, supra, 47 Cal.4th at pp. 1203-1204 [liberty interest], 1210 [strict scrutiny].) Opinions are not authority for propositions that were not raised and decided. (People v. Knoller (2007) 41 Cal.4th 139, 154-155 [59 Cal.Rptr.3d 157, 158 P.3d 731].)\nThe Attorney General asserts that in other cases, the Supreme Court has held that only challenges to \u201cthe duration of an MDO\u2019s commitment such that it infringes upon either his liberty or freedom [and] substantive definitional standards and burdens of proof, which affect the criteria used to determine whether a person is subject to commitment\u201d are subject to strict scrutiny review. The cases she cites are In re Moye (1978) 22 Cal.3d 457 [149 Cal.Rptr. 491, 584 P.2d 1097] (Moye), Hofferber, supra, 28 Cal.3d 161, and Hubbart, supra, 19 Cal.4th 1138. This contention, too, is erroneous.\nIn Moye, supra, 22 Cal.3d 457, the issue was whether a person who is committed to the Department of Health following his acquittal of criminal charges because of insanity can be held in the department\u2019s custody for a period in excess of the maximum term provided for the underlying offense of which he was acquitted. {Id. at p. 460.) In Hofferber, supra, 28 Cal.3d 161, the issue was whether a person who had been charged with a violent crime but found incompetent to stand trial was subject to civil commitment \u201cfor reasons and under procedures that differ from those applicable to other mentally disordered persons.\u201d (Hofferber, at p. 167.) In Hubbart, supra, 19 Cal.4th 1138, the issue was whether the criteria used for determining eligibility for civil commitment under the SVP Act violated due process or equal protection. (Hubbart, at pp. 1151-1167 [due process], 1168-1170 [equal protection].) However, in none of those cases did the court address a contention that strict scrutiny applied because of the particular aspect of the civil commitment scheme that was at issue, nor did it so hold. In Moye, the court merely stated, \u201cBecause petitioner\u2019s personal liberty is at stake, the People concede that the applicable standard for measuring the validity of the statutory scheme now before us requires application of the strict scrutiny standard of equal protection analysis. Accordingly, the state must establish both that it has a \u2018compelling interest\u2019 which justifies the challenged procedure and that the distinctions drawn by the procedure are necessary to further that interest. [Citation.]\u201d (Moye, at p. 465.) Similarly, in Hofferber, the applicable standard was not in issue. The sole reference to it is in a footnote, where the court stated, \u2018\u201cThe conservator concedes that, because a fundamental liberty interest is at stake, strict scrutiny is the correct standard of review.\u201d (Hofferber, at p. 171, fn. 8.) In Hubbart, the court merely noted in a footnote that it \u2018\u201chas traditionally subjected involuntary civil commitment statutes to the most rigorous form of constitutional review.\u201d (Hubbart, at p. 1153, fn. 20.) Accordingly, we reject the suggestion that those cases stand for the proposition that only certain types of issues arising through equal protection challenges to civil commitment statutes are subject to strict scrutiny. The dictum in McKee, supra, 47 Cal.4th 1172, on which the Attorney General relies, does not affect the court\u2019s existing holdings. We, of course, are bound by the court\u2019s directly applicable holdings. (Auto Equity Sales, Inc. v. Superior Court (1962) 57 Cal.2d 450, 455 [20 Cal.Rptr. 321, 369 P.2d 937].)\nFor the same reason, we reject the Attorney General\u2019s assertion that denial of the statutory right not to be compelled to testify is not subject to strict scrutiny because it \u2018\u201ctouches on only a single procedural aspect of the trial,\u201d and is therefore merely a trial error, as opposed to structural error, within the meaning of Arizona v. Fulminante (1991) 499 U.S. 279 [113 L.Ed.2d 302, 111 S.Ct. 1246], She is correct that denial of a purely statutory trial right is subject to the least stringent standard of reversal, i.e., that of People v. Watson (1956) 46 Cal.2d 818 [299 P.2d 243], (People v. Epps (2001) 25 Cal.4th 19, 29 [104 Cal.Rptr.2d 572, 18 P.3d 2].) That is not, however, relevant to the question of what standard of review applies for purposes of equal protection. In the context of equal protection, the test for the application of strict scrutiny is whether the civil commitment scheme itself affects personal liberty, not whether a particular aspect of the act is the equivalent of structural error.\nFor these reasons, we reject the Attorney General\u2019s contentions on rehearing and reiterate that strict scrutiny applies to the determination whether the testimonial privilege provided for in section 1026.5(b)(7) applies to MDO proceedings.\n3.\nREVIEW OF THE ASSERTED INSTRUCTIONAL ERROR IS FORFEITED\nDISPOSITION\nThe appeal is dismissed.\nRamirez, P. J., and Hollenhorst, J., concurred.\nAll further statutory citations refer to the Penal Code unless another code is cited.\nThe conditions include the following: That the prisoner has a severe mental disorder, that the disorder is not in remission or cannot be kept in remission without treatment, that the severe mental disorder was one of the causes or was an aggravating factor in the prisoner\u2019s criminal behavior, that the prisoner has been in treatment for the severe mental disorder for 90 days or more within the year prior to his or her parole release day, and that by reason of his or her severe mental disorder, the prisoner represents a substantial danger of physical harm to others. (\u00a7 2962, subd. (d)(1).) The act applies only to prisoners who have been convicted of specified offenses. (\u00a7 2962, subd. (e).)\nSee the Sexually Violent Predators Act (SVP Act; Welf. & Inst. Code, \u00a7 6600 et seq.).\nWe will also address appellant\u2019s claim of instructional error because it appears to involve the impermissible shifting of the burden of proof to appellant.\n\u201cIf the court or jury finds that the patient has a severe mental disorder, that the patient\u2019s severe mental disorder is not in remission or cannot be kept in remission without treatment, and that by reason of his or her severe mental disorder, the patient represents a substantial danger of physical harm to others, the court shall order the patient recommitted 2972, subd. (c).)\nWe take judicial notice of the petition in People v. Dunley. filed June 22, 2015, in the Superior Court of San Bernardino County, case No. FELJS1502150. (Evid. Code, \u00a7 452, subd. (d).) By separate order, we have also taken judicial notice of the trial court\u2019s minutes dated March 7, 2016, denying the petition.\nAs in Hudec. supra. 60 Cal.4th 815, appellant does not contend that he has such a right. He relies entirely on section 1026.5(b)(7) and equal protection principles.\nCurlee. supra. 237 Cal.App.4th 709, was decided in May 2015, very shortly after appellant filed his opening brief in this case. The Attorney General, whose brief was filed six months later, in November 2015, does not address Curlee. Appellant discussed Curlee in his reply brief. The Attorney General has not sought to provide supplemental briefing concerning the effect of Curlee on this case.\nNow the State Department of State Hospitals. (Curlee, supra. 237 Cal.App.4th at p. 712, fn. 2.)\nThe court distinguished federal law in this respect, noting that the United States Supreme Court has \u201csuggested] a willingness\u201d to accord substantial deference to involuntary civil commitment laws challenged under the federal Constitution. (Hubbart. supra. 19 Cal.4th at p. 1153, fn. 20.) The court then stated that in contrast, California \u201chas traditionally subjected involuntary civil commitment statutes to the most rigorous form of constitutional review.\u201d (Ibid.) Here, appellant relies on both the Sixth and Fourteenth Amendments to the United States Constitution and article I, section 15 of the California Constitution.\nMoye, supra. 22 Cal.3d 457, was superseded in part by the enactment of section 1026.5. (Hudec. supra. 60 Cal.4th at pp. 821-822.)\nThe former Mentally Disordered Sex Offenders Act (Welf. & Inst. Code, former \u00a7 6300 et seq.) is the forerunner of the current SVP act. (McKee, supra. 47 Cal.4th at p. 1196.)\nIn Arizona v. Fulminante, supra. 499 U.S. 279, the court distinguished between federal constitutional errors that are \u201cstructural\u201d and require automatic reversal of a criminal conviction because they affect the \u201cframework within which the trial proceeds,\u201d from \u201c \u2018trial errors\u2019 \u201d occurring during the trial. Trial errors are subject to harmless error analysis. (Id, at pp. 306-310.)\nThe Attorney General has not identified a compelling state interest which would support different treatment for MDO\u2019s with respect to the testimonial privilege. In both McKee, supra. 47 Cal.4th 1172 and Curlee. supra. 237 Cal.App.4th 709, the courts remanded the matters for an evidentiary hearing to allow the state the opportunity to establish a factual basis justifying the disparate treatment of the affected groups. (McKee, at pp. 1208-1211; Curlee, at pp. 722-723.) Because we are dismissing the instant appeal as moot, however, that issue must be litigated in some future case.\nSee footnote, ante, page 1438.",
+        "type": "majority",
+        "author": "McKINSTER, J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Michele Anne Celia, under appointment by the Court of Appeal, for Defendant and Appellant.",
+      "Kamala D. Harris, Attorney General, Gerald A. Engler, Chief Assistant Attorney General, Julie L. Garland, Assistant Attorney General, Eric A. Swenson and Joy Utomi, Deputy Attorneys General, for Plaintiff and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. E062656.\nFourth Dist., Div. Two.\nJune 10, 2016.]\nTHE PEOPLE, Plaintiff and Respondent, v. EDDIE DUNLEY, Defendant and Appellant.\nCounsel\nMichele Anne Celia, under appointment by the Court of Appeal, for Defendant and Appellant.\nKamala D. Harris, Attorney General, Gerald A. Engler, Chief Assistant Attorney General, Julie L. Garland, Assistant Attorney General, Eric A. Swenson and Joy Utomi, Deputy Attorneys General, for Plaintiff and Respondent."
+  },
+  "file_name": "1438-01",
+  "first_page_order": 1245,
+  "last_page_order": 1261
+}

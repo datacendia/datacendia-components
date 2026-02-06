@@ -1,0 +1,59 @@
+{
+  "id": 12425127,
+  "name": "Merriett v. Arizona",
+  "name_abbreviation": "Merriett v. Arizona",
+  "decision_date": "2012-11-26",
+  "docket_number": "No. 12-6646",
+  "first_page": "1035",
+  "last_page": "1035",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1035"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 69,
+    "ocr_confidence": 0.67,
+    "sha256": "26905e686e102e903e9d1191368ef6d7a30124bb41c770f17260c5627c31f46b",
+    "simhash": "1:0c0b0c8211ad3524",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Merriett v. Arizona."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Ariz. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6646.\nMerriett v. Arizona."
+  },
+  "file_name": "1035-13",
+  "first_page_order": 1111,
+  "last_page_order": 1111
+}

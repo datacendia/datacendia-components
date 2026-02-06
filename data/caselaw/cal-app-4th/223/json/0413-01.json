@@ -1,0 +1,988 @@
+{
+  "id": 5758468,
+  "name": "JOHN COLEMAN, Plaintiff and Appellant, v. MEDTRONIC, INC., et al., Defendants and Respondents",
+  "name_abbreviation": "Coleman v. Medtronic, Inc.",
+  "decision_date": "2014-01-27",
+  "docket_number": "No. B243609",
+  "first_page": "413",
+  "last_page": "437",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "223 Cal. App. 4th 413"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "311 F.3d 1272",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9305953,
+        1113515,
+        9306067
+      ],
+      "year": 2012,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/311/1272-01",
+        "/br/286/1272-01",
+        "/f3d/311/1272-02"
+      ]
+    },
+    {
+      "cite": "187 L.Ed.2d 15",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12583616,
+        12702081,
+        12583617,
+        12583618,
+        12583619,
+        12583620,
+        12583621,
+        12702089,
+        12702090,
+        12702093,
+        12702094,
+        12702095,
+        12702096,
+        12702097,
+        12583614,
+        12583615
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/134/0375-01",
+        "/us/571/0809-01",
+        "/s-ct/134/0375-02",
+        "/s-ct/134/0375-03",
+        "/s-ct/134/0375-04",
+        "/s-ct/134/0375-05",
+        "/s-ct/134/0375-06",
+        "/us/571/0809-10",
+        "/us/571/0810-03",
+        "/us/571/0810-04",
+        "/us/571/0810-05",
+        "/us/571/0810-06",
+        "/us/571/0810-07",
+        "/us/571/0810-08",
+        "/s-ct/134/0374-05",
+        "/s-ct/134/0374-06"
+      ]
+    },
+    {
+      "cite": "134 S.Ct. 375",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12583616,
+        12583617,
+        12583618,
+        12583619,
+        12583620,
+        12583621,
+        12702081,
+        12702093,
+        12702094,
+        12702095,
+        12702096,
+        12702097
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/134/0375-01",
+        "/s-ct/134/0375-02",
+        "/s-ct/134/0375-03",
+        "/s-ct/134/0375-04",
+        "/s-ct/134/0375-05",
+        "/s-ct/134/0375-06",
+        "/us/571/0809-01",
+        "/us/571/0810-04",
+        "/us/571/0810-05",
+        "/us/571/0810-06",
+        "/us/571/0810-07",
+        "/us/571/0810-08"
+      ]
+    },
+    {
+      "cite": "669 F.3d 501",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3722622
+      ],
+      "pin_cites": [
+        {
+          "page": "512"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/669/0501-01"
+      ]
+    },
+    {
+      "cite": "102 P.3d 915",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "22 Cal.Rptr.3d 530",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "34 Cal.4th 915",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        633037
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/34/0915-01"
+      ]
+    },
+    {
+      "cite": "970 F.Supp.2d 1069",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        4129240
+      ],
+      "pin_cites": [
+        {
+          "page": "1103-1104"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/970/1069-01"
+      ]
+    },
+    {
+      "cite": "960 P.2d 513",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "77 Cal.Rptr.2d 709",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "19 Cal.4th 26",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1709349
+      ],
+      "pin_cites": [
+        {
+          "page": "38"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/19/0026-01"
+      ]
+    },
+    {
+      "cite": "234 Cal.Rptr. 717",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "189 Cal.App.3d 950",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2205768
+      ],
+      "pin_cites": [
+        {
+          "page": "954"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/189/0950-01"
+      ]
+    },
+    {
+      "cite": "34 Cal.Rptr.2d 852",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 Cal.App.4th 779",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "791-792"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "52 Cal.Rptr.2d 128",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1994,
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 Cal.App.4th 799",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4771956
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "808"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/44/0799-01"
+      ]
+    },
+    {
+      "cite": "944 F.Supp.2d 1193",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        4229930
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/944/1193-01"
+      ]
+    },
+    {
+      "cite": "718 F.3d 1209",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4050497
+      ],
+      "pin_cites": [
+        {
+          "page": "1210"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/718/1209-01"
+      ]
+    },
+    {
+      "cite": "2013 OK 17",
+      "category": "reporters:neutral",
+      "reporter": "OK",
+      "case_ids": [
+        6973649
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "471-472"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/p3d/299/0463-01"
+      ]
+    },
+    {
+      "cite": "231 F.3d 216",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11175810
+      ],
+      "pin_cites": [
+        {
+          "page": "236"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/231/0216-01"
+      ]
+    },
+    {
+      "cite": "265 Cal.Rptr. 773",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "217 Cal.App.3d 168",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4422159
+      ],
+      "pin_cites": [
+        {
+          "page": "178"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/217/0168-01"
+      ]
+    },
+    {
+      "cite": "920 P.2d 1347",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "56 Cal.Rptr.2d 162",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "13 Cal.4th 1104",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1965969
+      ],
+      "pin_cites": [
+        {
+          "page": "1116"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/13/1104-01"
+      ]
+    },
+    {
+      "cite": "257 Cal.Rptr. 762",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "209 Cal.App.3d 1028",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4444819
+      ],
+      "pin_cites": [
+        {
+          "page": "1034"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/209/1028-01"
+      ]
+    },
+    {
+      "cite": "810 P.2d 549",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1998,
+      "opinion_index": 0
+    },
+    {
+      "cite": "281 Cal.Rptr. 528",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1998,
+      "opinion_index": 0
+    },
+    {
+      "cite": "53 Cal.3d 987",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2358707
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "1002"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/53/0987-01"
+      ]
+    },
+    {
+      "cite": "954 P.2d 511",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "74 Cal.Rptr.2d 248",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 Cal.4th 1",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        344179
+      ],
+      "pin_cites": [
+        {
+          "page": "6"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/18/0001-01"
+      ]
+    },
+    {
+      "cite": "957 F.Supp.2d 1166",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        3828188
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/957/1166-01"
+      ]
+    },
+    {
+      "cite": "623 F.3d 1200",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3789842
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "1205-1206"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/623/1200-01"
+      ]
+    },
+    {
+      "cite": "630 F.3d 546",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6052562
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "556-557"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/630/0546-01"
+      ]
+    },
+    {
+      "cite": "106 Cal.Rptr.3d 277",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "182 Cal.App.4th 974",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4215577
+      ],
+      "pin_cites": [
+        {
+          "page": "984-985"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/182/0974-01"
+      ]
+    },
+    {
+      "cite": "531 U.S. 341",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9505666
+      ],
+      "weight": 6,
+      "pin_cites": [
+        {
+          "page": "353"
+        },
+        {
+          "page": "350"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/531/0341-01"
+      ]
+    },
+    {
+      "cite": "442 F.3d 919",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1063995
+      ],
+      "pin_cites": [
+        {
+          "page": "931"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/442/0919-01"
+      ]
+    },
+    {
+      "cite": "631 F.3d 762",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4085490
+      ],
+      "weight": 7,
+      "pin_cites": [
+        {
+          "page": "769"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/631/0762-01"
+      ]
+    },
+    {
+      "cite": "921 F.Supp.2d 1206",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        4324029
+      ],
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "1219"
+        },
+        {
+          "page": "1210-1211"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/921/1206-01"
+      ]
+    },
+    {
+      "cite": "421 F.3d 482",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8931359
+      ],
+      "pin_cites": [
+        {
+          "page": "489"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/421/0482-01"
+      ]
+    },
+    {
+      "cite": "634 F.3d 1296",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4094066
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "1300"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/634/1296-01"
+      ]
+    },
+    {
+      "cite": "518 U.S. 470",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1730146
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "495"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/518/0470-01"
+      ]
+    },
+    {
+      "cite": "961 F.Supp.2d 911",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "625 F.Supp.2d 769",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        5912415
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "781-784"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/625/0769-01"
+      ]
+    },
+    {
+      "cite": "21 C.F.R. \u00a7 814.80",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 2,
+      "year": 2013,
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 C.F.R. \u00a7\u00a7 801.4",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 C.F.R. \u00a7 814.39",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 C.F.R. \u00a7 803.50",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 2,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "552 U.S. 312",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3675984
+      ],
+      "weight": 11,
+      "pin_cites": [
+        {
+          "page": "316-317"
+        },
+        {
+          "page": "pp. 318-319"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/552/0312-01"
+      ]
+    },
+    {
+      "cite": "158 Cal.Rptr.3d 150",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "217 Cal.App.4th 96",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4266870
+      ],
+      "pin_cites": [
+        {
+          "page": "102"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/217/0096-01"
+      ]
+    },
+    {
+      "cite": "151 Cal.Rptr.3d 683",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "212 Cal.App.4th 1136",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3701901
+      ],
+      "pin_cites": [
+        {
+          "page": "1141-1142"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/212/1136-01"
+      ]
+    },
+    {
+      "cite": "175 P.3d 1170",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "72 Cal.Rptr.3d 112",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 Cal.4th 1077",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3673080
+      ],
+      "weight": 7,
+      "pin_cites": [
+        {
+          "page": "1089, fn. 10"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/42/1077-01"
+      ]
+    },
+    {
+      "cite": "104 Cal.Rptr.2d 197",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "86 Cal.App.4th 1366",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1282225
+      ],
+      "pin_cites": [
+        {
+          "page": "1371"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/86/1366-01"
+      ]
+    },
+    {
+      "cite": "21 P.3d 1189",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "106 Cal.Rptr.2d 271",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 Cal.4th 412",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        265408
+      ],
+      "pin_cites": [
+        {
+          "page": "415"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/25/0412-01"
+      ]
+    },
+    {
+      "cite": "704 F.3d 1224",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3655701
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/704/1224-01"
+      ]
+    },
+    {
+      "cite": "686 F.3d 1121",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3904603,
+        6051797
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/686/1121-02",
+        "/f3d/686/1121-01"
+      ]
+    },
+    {
+      "cite": "676 F.3d 1159",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3756230
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/676/1159-01"
+      ]
+    },
+    {
+      "cite": "90 Stat. 539",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 U.S.C. \u00a7 301",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1592,
+    "char_count": 50799,
+    "ocr_confidence": 0.913,
+    "pagerank": {
+      "raw": 1.17046472034647e-07,
+      "percentile": 0.5862627512260368
+    },
+    "sha256": "f738b2e832c1d70cacca9628224bd7389f2bf520b4bbe47066d050a84bda6f23",
+    "simhash": "1:f62d6e307f6225fc",
+    "word_count": 8054
+  },
+  "last_updated": "2024-02-27T17:28:17.516481+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "JOHN COLEMAN, Plaintiff and Appellant, v. MEDTRONIC, INC., et al., Defendants and Respondents."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nKRIEGLER, J.\nPlaintiff and appellant John Coleman sued defendants and respondents Medtronic, Inc., and Medtronic Sofamor Danek USA, Inc. (collectively, Medtronic), alleging he suffered painful complications after a spinal surgery in which Infuse, Medtronic\u2019s federally approved bone fusion medical device, was used in an \u201coff-label\u201d manner. Coleman\u2019s seven causes of action are generally based upon allegations that Medtronic defectively manufactured Infuse, promoted off-label uses of Infuse without adequately warning of the associated risks, and failed to take available steps to warn Coleman of the risks of such uses. The trial court sustained Medtronic\u2019s demurrer to Coleman\u2019s third amended complaint without leave to amend on the grounds that each cause of action was preempted by federal law. We conclude that Coleman may allege causes of action for negligence and strict liability in a manner that avoids federal preemption but has waived any claim of error with respect to the remaining causes of action. We therefore affirm in part, reverse in part, and remand to the trial court for further proceedings.\nFACTUAL AND PROCEDURAL BACKGROUND\nMedtronic manufactures and sells Infuse, a medical device used in surgery to strengthen the spines of individuals with degenerated vertebral discs. Infuse consists of an absorbable collagen sponge, rhBMP-2 (a manufactured version of a protein found in small quantities in the human body), and a titanium threaded fusion cage. During surgery, the doctor infuses the collagen sponge with liquid rhBMP-2 and inserts the sponge into the cage to both stabilize the spine and maintain spacing between the vertebrae during the fusion process.\nUnder the Federal Food, Drug, and Cosmetic Act of 1938 (FDCA; 21 U.S.C. \u00a7 301 et seq.), as amended by the Medical Device Amendments of 1976 (MDA; Pub.L. No. 94-295 (May 28, 1976) 90 Stat. 539), the U.S. Food and Drug Administration (FDA) granted Infuse premarket approval for use in certain types of spinal fusion surgeries, including anterior lumbar interbody fusion (Anterior Fusion), where the surgical incision is on the patient\u2019s abdomen. Posterior lumbar interbody fusion (Posterior Fusion) is an alternate form of spinal fusion surgery that approaches the spine through an incision in the patient\u2019s back. Posterior Fusion is considered an off-label use of Infuse because the FDA has only approved Infuse for use in Anterior Fusion.\nColeman\u2019s third amended complaint alleges Medtronic promoted the off-label use of Infuse while downplaying the risk of complications, violating both state and federal laws. Medtronic sponsored a clinical trial in 1999 to explore the use of Infuse in Posterior Fusion but halted the trial because early results showed unwanted and uncontrolled bone growth in more than 70 percent of patients. Between 1998 and 2011, Medtronic entered into consulting and royalty agreements with \u201cKey Opinion Leaders\u201d who were physicians touting Infuse through presentations and medical journal articles. Studies funded by Medtronic omitted discussion of bone growth in the spinal canal as an adverse event and instead reported no adverse events. Medtronic, however, was aware that adverse events or complications had been reported in between 20 and 70 percent of cases where Infuse was used in Posterior Fusion. Medtronic also provided information and instructions for off-label surgeries by placing sales personnel in hospital operating rooms. Medtronic\u2019s promotional activities increased the use of Infuse in Posterior Fusion. At the same time, various investigations by media, the Department of Justice, and the Congress raised questions about the safety of Infuse and about payments from Medtronic to physicians.\nIn April 2009, Coleman underwent Posterior Fusion surgery of his L3 through L5 vertebrae. His surgeon used Infuse in an off-label manner. Coleman began suffering numbness and pain after the surgery. CT scans showed the collagen sponge had leaked rhBMP-2 and unwanted bone growth had encased the nerves in Coleman\u2019s spine.\nIn April 2011, Coleman filed suit against Medtronic. The trial court sustained Medtronic\u2019s demurrers to Coleman\u2019s complaint and first amended complaint with leave to amend. Medtronic filed a demurrer to Coleman\u2019s second amended complaint. Coleman\u2019s opposition to the demurrer attached a third amended complaint. On April 12, 2012, the court sustained the demurrer to the second amended complaint but found the proposed third amended complaint sufficient, with the exception of Coleman\u2019s manufacturing defect claim. The court ordered Coleman to file a third amended complaint without the manufacturing defect claim and ordered Medtronic to file an answer.\nFour days later, a three-judge panel of the Ninth Circuit Court of Appeals held that a state law negligence cause of action based on a failure to report adverse information about an FDA-approved medical device as required by federal regulations was preempted by federal law. (Stengel v. Medtronic, Inc. (9th Cir. 2012) 676 F.3d 1159 (Stengel I).) Based on the decision in Stengel I, Medtronic demurred to Coleman\u2019s third amended complaint. The trial court sustained Medtronic\u2019s demurrer without leave to amend on June 13, 2012.\nOn July 25, 2012, the Ninth Circuit agreed to rehear Stengel I en banc. (Stengel v. Medtronic, Inc. (9th Cir. 2012) 686 F.3d 1121 (Stengel II).) On August 27, 2012, Coleman filed a timely notice of appeal. On January 10, 2013, the Ninth Circuit issued a unanimous 11-judge en banc decision holding that the plaintiff\u2019s state law negligence claims for failure to warn were not preempted by federal law. (Stengel v. Medtronic, Inc. (9th Cir. 2013) 704 F.3d 1224 (Stengel III).)\nMedtronic petitioned the United States Supreme Court for a writ of certiorari in Stengel III on May 10, 2013. On October 7, 2013, the Supreme Court issued an order stating: \u201cThe Solicitor General is invited to file a brief in this case expressing the views of the United States.\u201d (Medtronic, Inc. v. Stengel (2013) 571 U.S._[134 S.Ct. 375, 187 L.Ed.2d 15].)\nDISCUSSION\nIn his timely appeal, Coleman contends his failure to warn, negligence, and manufacturing defect claims are not preempted because they are based on state law duties that parallel requirements under federal law. Medtronic contends that Coleman\u2019s state law claims cannot survive preemption, and to the extent they do, they are inadequately pleaded.\nA. Standard of Review\n\u201cWe apply a de novo standard of review because this case was resolved on demurrer (McCall v. PacifiCare of Cal., Inc. (2001) 25 Cal.4th 412, 415 [106 Cal.Rptr.2d 271, 21 P.3d 1189]) and because federal preemption presents a pure question of law (Spielholz v. Superior Court (2001) 86 Cal.App.4th 1366, 1371 [104 Cal.Rptr.2d 197]).\u201d (Farm Raised Salmon Cases (2008) 42 Cal.4th 1077, 1089, fn. 10 [72 Cal.Rptr.3d 112, 175 P.3d 1170] (Farm Raised Salmon).) \u201cIn ruling on a demurrer, the \u2018allegations [of the complaint] must be liberally construed, with a view to substantial justice between the parties.\u2019 (Code Civ. Proc., \u00a7 452; see Rickley v. Goodfriend (2013) 212 Cal.App.4th 1136, 1141-1142 [151 Cal.Rptr.3d 683] [court must liberally construe complaint, and draw all reasonable inferences in favor of its allegations].)\u201d (Teva Pharmaceuticals USA, Inc. v. Superior Court (2013) 217 Cal.App.4th 96, 102 [158 Cal.Rptr.3d 150].)\nB. Federal Regulation of Class III Medical Devices\nThe MDA \u201cimposed a regime of detailed federal oversight\u201d including a \u201crigorous regime of premarket approval\u201d for class III medical devices. (Riegel v. Medtronic, Inc. (2008) 552 U.S. 312, 316-317 [169 L.Ed.2d 892, 128 S.Ct. 999] (Riegel).) Before the FDA will grant premarket approval to a class III medical device, it must be reasonably assured of the device\u2019s safety and effectiveness. (21 U.S.C. \u00a7 360e(d).) The premarket approval process is very involved, and applicants, usually the device manufacturers, must meet many requirements both before and after the FDA grants premarket approval. (Riegel, supra, at pp. 318-319.) The agency must \u201cweigh[] any probable benefit to health from the use of the device against any probable risk of injury or illness from such use.\u201d (\u00a7 360c(a)(2)(C).) The FDA also reviews the device\u2019s proposed labeling as part of the premarket approval process, evaluating safety and effectiveness under the conditions of use set forth on the label (\u00a7 360c(a)(2)(B)), and determining that the proposed labeling is neither false nor misleading (\u00a7 360e(d)(l)(A)). After this review process, the FDA decides whether to grant or deny premarket approval to a given device. (\u00a7 360e(d).)\nAfter premarket approval, applicants must report \u201cadverse events\u201d to the FDA. These are incidents in which the device may have caused or contributed to death or serious injury, or malfunctioned in a manner that would likely cause or contribute to death or serious injury if it recurred. (21 C.F.R. \u00a7 803.50(a) (2013).) Applicants must also report new clinical investigations or scientific studies concerning the device of which the applicant knows or reasonably should have known. (Id., \u00a7 814.84(b)(2) (2013).) The FDA may withdraw premarket approval based on newly reported data or existing information; it must withdraw approval if it determines that a device is unsafe or ineffective under the conditions in its labeling. (\u00a7 360e(e)(l); see Riegel, supra, 552 U.S. at pp. 319-320.)\nThe manufacturer cannot make any changes to the design, manufacturing, or labeling of approved devices without first obtaining additional approval from the FDA. (\u00a7 360e(d)(6); Riegel, supra, 552 U.S. at p. 319.) The FDA has an established procedure a manufacturer must follow if it wants to change the intended use for a device. (See \u00a7 360e(d)(6); 21 C.F.R. \u00a7 814.39(a) (2013).)\nNothing in the MDA prevents a doctor from using a medical device in an off-label manner. (\u00a7 396.) But the MDA and its implementing regulations place restrictions on manufacturers that know or have reason to know of uses other than those approved by the FDA. (See \u00a7 352(f); 21 C.F.R. \u00a7\u00a7 801.4, 801.5, 801.109 (2013).) FDA regulations prohibit a device manufacturer from promoting the use of a device in a manner inconsistent with premarket approval. (\u00a7 331(a); see 21 C.F.R. \u00a7 814.80 (2013) [providing that a \u201cdevice may not be . . . advertised in a manner that is inconsistent with any conditions to approval specified in the [premarket approval] order for the device\u201d]; Riley v. Cordis (D.Minn. 2009) 625 F.Supp.2d 769, 781-784 (Riley) [discussing federal regulations on promoting off-label uses].) \u201cThe FDA forbids this practice because the FDA\u2019s review of a device\u2019s safety and effectiveness was not universal; it focused only on the intended use specified by a manufacturer. See 21 U.S.C. \u00a7\u00a7 360c(a)(2), 360e(c)(l).\u201d (Ramirez v. Medtronic, Inc. (D.Ariz., 2013) 961 F.Supp.2d 911 (Ramirez).)\nC. Preemption of State Law Claims\n1. Express Preemption\nThe MDA expressly preempts any state law that imposes \u201cwith respect to a device intended for human use any requirement\u2014[f] (1) which is different from, or in addition to, any requirement applicable under this chapter to the device, and H] (2) which relates to the safety or effectiveness of the device or to any other matter included in a requirement applicable to the device under this chapter.\u201d (\u00a7 360k(a).)\nIn Riegel, the United States Supreme Court established a two-step framework for determining whether section 360k(a) expressly preempts a state law claim. First, the FDA must have established \u201crequirements\u201d applicable to the particular medical device at issue. (Riegel, supra, 552 U.S. at p. 321.) The premarket approval requirements applicable to class III medical devices satisfy this first prong. (Id. at pp. 322-323.) Next, state law claims are preempted if they impose requirements that relate to safety and effectiveness and are \u201c \u2018different from, or in addition to\u2019 \u201d the requirements under federal law. (Id. at pp. 321-322; see Farm Raised Salmon, supra, 42 Cal.4th at p. 1094.) State law requirements can be established by either statute or common law. (Riegel, supra, 552 U.S. at pp. 324-325.)\nState law causes of action that provide \u201ca damages remedy for claims premised on a violation of FDA regulations\u201d are not expressly preempted if they \u201c \u2018parallel,\u2019 rather than add to, federal requirements.\u201d (Riegel, supra, 552 U.S. at p. 330, quoting Medtronic, Inc. v. Lohr (1996) 518 U.S. 470, 495 [135 L.Ed.2d 700, 116 S.Ct. 2240]; see Stengel III, supra, 704 F.3d at pp. 1228-1232 (en banc).) \u201c \u2018In order for a state requirement to be parallel to a federal requirement, and thus not expressly preempted under [section] 360k(a), the plaintiff must show that the requirements are \u201cgenuinely equivalent.\u201d State and federal requirements are not genuinely equivalent if a manufacturer could be held liable under the state law without having violated the federal law.\u2019 \u201d (Wolicki-Gables v. Arrow Internat. Inc. (11th Cir. 2011) 634 F.3d 1296, 1300 ('Wolicki-Gables), quoting McMullen v. Medtronic, Inc. (7th Cir. 2005) 421 F.3d 482, 489.) The California Supreme Court applied the same approach in permitting the plaintiffs to proceed on claims based on state law food labeling requirements that were identical to federal requirements. (Farm Raised Salmon, supra, 42 Cal.4th at p. 1094 [states are free to provide for private remedies under state law, so long as state law requirements are identical to federal law requirements].)\nA state law claim that the FDA-approved warnings on a class III medical device are inadequate, or that a device manufacturer failed to give additional warnings regarding use of the device, would be expressly preempted because the claim would impose a requirement under state law that is different than or in addition to what is required under federal law. (See Caplinger v. Medtronic, Inc. (W.D.Okla. 2013) 921 F.Supp.2d 1206, 1219 (Caplinger) [plaintiff\u2019s fraudulent misrepresentation claim expressly preempted because it would \u201cestablish labeling and warning requirements different from, or in addition to, federal requirements\u201d].) \u201c \u2018To permit a jury to decide [a plaintiff\u2019s] claims that the information, warnings, and training material the FDA required and approved through [premarket approval] process were inadequate under state law would displace the FDA\u2019s exclusive role and expertise in this area and risk imposing inconsistent obligations on [the defendant].\u2019 \u201d (Hughes v. Boston Scientific Corp. (5th Cir. 2011) 631 F.3d 762, 769 (Hughes), quoting Gomez v. St. Jude Medical Daig Division Inc. (5th Cir. 2006) 442 F.3d 919, 931.)\nIn contrast, if a plaintiff\u2019s state law claims are based on requirements that parallel federal law, they are not expressly preempted. In Stengel III, supra, 704 F.3d 1224, the plaintiffs alleged a negligence (failure to warn) claim under Arizona law, claiming the device manufacturer breached its duty of reasonable care by failing to report to the FDA adverse events associated with a class HI medical device. The en banc opinion from the Ninth Circuit held that the plaintiff\u2019s state law claim was not expressly preempted because it relied on a state law requirement (duty to warn the FDA of adverse outcomes) that paralleled requirements under federal law. (Id. at p. 1233.) The concurring opinion, signed by seven of the 11 judges on the panel, explains: \u201cthe [plaintiffs\u2019] negligence claim is not expressly preempted because it seeks to hold Medtronic accountable only for failing to do what federal law mandated\u2014nothing more. The state law duty, as alleged by the [plaintiffs], is precisely parallel to the duties imposed by federal law.\u201d (Id. at p. 1234 (conc. opn. of Watford, J.).) In Hughes, supra, 631 F.3d at pages 769-771, the Fifth Circuit reached a similar conclusion, holding that the plaintiff\u2019s state law claim is not expressly preempted when it \u201cdoes not impose additional or different requirements to the federal regulations, but is parallel to the federal requirements.\u201d\n2. Implied Preemption\nA state law cause of action for violation of the FDCA is barred under the doctrine of implied preemption if it is cognizable only by virtue of the provisions of the FDCA itself, rather than traditional state tort law. (Buckman Co. v. Plaintiffs\u2019 Legal Comm. (2001) 531 U.S. 341, 353 [148 L.Ed.2d 854, 121 S.Ct. 1012] (Buckman).) Subdivision (a) of section 337 states all actions to enforce FDCA requirements, including requirements under the MDA, \u201cshall be by and in the name of the United States.\u201d The Buckman court interpreted section 337(a) to mean that \u201cthe Federal Government rather than private litigants . . . [is] authorized to file suit for noncompliance with the medical device provisions . . . .\u201d (Buckman, supra, at p. 349, fn. 4.) The plaintiffs in Buckman sought to pursue a state law fraud claim based on purported misrepresentations the defendants made to the FDA during the premarket approval process. Because the plaintiffs\u2019 fraud-on-the-FDA claim \u201cexist[ed] solely by virtue\u201d of federal requirements, it was impliedly preempted under section 337. (Buckman, at p. 353.) The court recognized that plaintiffs pursuing state law claims relying on \u201ctraditional state tort law which had predated the federal enactments in question[]\u201d would not be subject to implied preemption, but the claims before them did not meet that criteria. (Id. at pp. 352-353.) To survive implied preemption, the conduct on which the plaintiffs\u2019 claim is based \u201cmust be the type of conduct that would traditionally give rise to liability under state law\u2014and that would give rise to liability under state law even if the FDCA had never been enacted.\u201d (Riley, supra, 625 F.Supp.2d at p. 777.)\nThe California Supreme Court briefly mentioned Buckman when discussing the preemptive effect of section 337 on the plaintiff\u2019s efforts to privately enforce a California statute regulating food labeling that was identical to FDCA regulations. (Farm Raised Salmon, supra, 42 Cal.4th at p. 1087.) The court rejected the argument that section 337 bars such a suit, reasoning that the \u201c[pjlaintiffs do not seek to enforce the FDCA; rather, their . . . claims are predicated on violations of obligations imposed by [state law] . . . .\u201d (Farm Raised Salmon, at p. 1095.) \u201cSection 337 does not apply to the state law claims presented here. The statute, by its very terms, only implicates efforts to enforce federal law. What section 337 does not do is limit, prohibit, or affect private claims predicated on state laws.\u201d (Id. at pp. 1095-1096.) Also, in McGuan v. Endovascular Technologies, Inc. (2010) 182 Cal.App.4th 974, 984-985 [106 Cal.Rptr.3d 277], the court found the plaintiff\u2019s state law fraud claims to be impliedly preempted under Buckman, where the plaintiff alleged the defendant made fraudulent statements to the FDA.\nSeveral federal courts, including the Ninth Circuit, have interpreted Buckman narrowly, concluding that state law causes of action that refer to federal statutes and regulations as providing the basis for state law liability are not impliedly preempted because they remain based in traditional state tort law. (See, e.g., Stengel III, supra, 704 F.3d at pp. 1228-1232 [no preemption of a state law claim based on a state law duty that parallels a federal requirement]; Hughes, supra, 631 F.3d at p. 775 [negligence claim not impliedly preempted based on Buckman\u2019s distinction between \u201c \u2018fraud-on-the-FDA\u2019 \u201d claims and claims relying on traditional state tort law]; Bausch v. Stryker Corp. (7th Cir. 2010) 630 F.3d 546, 556-557 (Bausch) [the plaintiff\u2019s manufacturing defect claims are not impliedly preempted because they are tort law claims, not fraud on a federal agency].)\nOther courts have taken a broader approach, focusing on Buckman\u2019s reasoning that a state law claim could survive implied preemption only if it relied \u201con traditional state tort law which had predated the federal enactment in question.\u201d (See, e.g., In re Medtronic, Inc., Sprint Fidelis Leads Products Liability Litigation (8th Cir. 2010) 623 F.3d 1200, 1205-1206 (Sprint Fidelis) [claims based on failure to file adverse event reports \u201care simply an attempt by private parties to enforce the MDA\u201d foreclosed by implied preemption]; Houston v. Medtronic, Inc. (C.D.Cal., 2013) 957 F.Supp.2d 1166 (Houston) [\u201cany negligence claim based solely on illegal off-label promotion is impliedly preempted under Buckman and \u00a7 337(a)\u201d (italics added)]; Caplinger, supra, 921 F.Supp.2d at p. 1219 [negligence claim based on off-label promotion impliedly preempted because it \u201cis not based on. conduct that would give rise to a recovery under state law even in the absence of the FDCA\u201d].)\nThe panel opinion in Stengel I that preceded the en banc opinion in Stengel III interpreted Buckman broadly, reasoning that there was \u201cno meaningful distinction between the [plaintiffs\u2019] failure-to-wam claims and the \u2018fraud-on-the-FDA\u2019 claims held to be preempted in Buckman.\u201d (Stengel I, supra, 676 F.3d at p. 1164.) The en banc panel in Stengel III came to a different conclusion, finding neither express nor implied preemption where the plaintiffs\u2019 proposed complaint alleged (1) a \u201c \u2018continuing duty to monitor the product after premarket approval and to discover and report to the FDA any complaints about the product\u2019s performance and any adverse health consequences of which it became aware and that are or may be attributable to the product,\u2019 \u201d (2) that \u201cMedtronic failed to perform its duty under federal law to warn the FDA,\u201d and (3) \u201cbecause Medtronic failed to comply with its duty under federal law, it breached its \u2018duty to use reasonable care\u2019 under Arizona negligence law.\u201d (Stengel III, supra, 704 F.3d at p. 1232.)\n3. Permissible State Law Claims Are Not Subject to Express or Implied Preemption\nIn order to state a claim that avoids both express and implied preemption, a plaintiff \u201c \u2018must be suing for conduct that violates the FDCA (or else his claim is expressly preempted by \u00a7 360k(a)), but the plaintiff must not be suing because the conduct violates the FDCA (such a claim would be impliedly preempted under Buckman).\u2019 \u201d (Sprint Fidelis, supra, 623 F.3d at p. 1204, quoting Riley, supra, 625 F.Supp.2d at p. Ill) Stated differently, to survive both express and implied preemption, a state law cause of action \u201cmust be premised on conduct that both (1) violates the FDCA and (2) would give rise to a recovery under state law even in the absence of the FDCA.\u201d (Riley, supra, 625 F.Supp.2d at p. 111.)\nD. Failure to Warn\nColeman\u2019s state law claim for failure to warn is expressly preempted to the extent it is based on the theory that Medtronic should have given warnings different than those approved by the FDA. Allowing Coleman to proceed on such a claim would impose requirements \u201cdifferent from, or in addition to\u201d federal requirements. (\u00a7 360k(a); see Riegel, supra, 552 U.S. at pp. 321-322.) However, Coleman focuses on two other theories of liability for failure to warn. He contends Medtronic violated state common law and parallel federal requirements by (1) failing to report adverse information about Infuse to the FDA after FDA approval and (2) promoting the offTlabel use of Infuse in Posterior Fusion. We address the two theories separately.\n1. Failure to Warn the FDA\nMedtronic initially contends that Coleman forfeited the argument that his failure to warn claims should survive preemption based on Medtronic\u2019s failure to file adverse event reports by conceding that issue before the trial court. We disagree. Coleman opposed Medtronic\u2019s demurrer, arguing he adequately alleged a cause of action for failure to warn. At the hearing on the demurrer, Coleman did not concede he failed to state a cause of action. Coleman did acknowledge the existence of the original Stengel I opinion, but never stated it had been correctly decided. Given the de novo standard of review, and the state of the record on appeal, we find that Coleman did not forfeit the issue. Even if he did, we have discretion to permit parties to propose new theories in appellate briefing \u201c 1 \u201cwhen the issue posed is purely a question of law based on undisputed facts, and involves important questions of public policy.\u201d \u2019 [Citation.]\u201d (Farm Raised Salmon, supra, 42 Cal.4th at p. 1090, fn. 11, quoting Cedars-Sinai Medical Center v. Superior Court (1998) 18 Cal.4th 1, 6 [74 Cal.Rptr.2d 248, 954 P.2d 511].)\nColeman\u2019s failure to warn claim based on Medtronic\u2019s failure to file adverse event reports with the FDA is not subject to express or implied preemption. (Stengel III, supra, 704 F.3d at p. 1233; Hughes, supra, 631 F.3d at p. 771.) Federal law requires manufacturers of class III devices to file adverse event reports whenever the device may have caused or contributed to death or serious injury, or malfunctioned in a manner that would likely cause or contribute to death or serious injury if it recurred. (\u00a7 360i; 21 C.F.R. \u00a7 803.50(a) (2013).) California law imposes a parallel requirement under the common law strict liability tort of failure to warn. The device manufacturer can be found liable if it \u201cdid not adequately warn of a particular risk that was known or knowable in light of the generally recognized and prevailing best scientific and medical knowledge available at the time of manufacture and distribution.\u201d (Anderson v. Owens-Coming Fiberglas Corp. (1991) 53 Cal.3d 987, 1002 [281 Cal.Rptr. 528, 810 P.2d 549]; see Rest.3d Torts, Products Liability (1998) \u00a7 6, subds. (b) & (d).)\nWe conclude Stengel III provides the correct framework for analysis, and we are not persuaded by Medtronic\u2019s argument that Stengel III is wrongly decided. We recognize, of course, that Stengel III is not binding on this court, but it is persuasive authority that we elect to follow. (Elliott v. Albright (1989) 209 Cal.App.3d 1028, 1034 [257 Cal.Rptr. 762].) The Fifth and Ninth Circuits have now determined that state law claims based on failure to file adverse event reports with the FDA are not subject to preemption. (Stengel III, supra, 704 F.3d at p. 1233; Hughes, supra, 631 F.3d at p. 771.) We see no distinction between the present case and the allegations at issue in Stengel III, other than the fact that Coleman\u2019s claim is a strict liability failure to warn claim under California law, while the plaintiff in Stengel III alleged a negligence claim under Arizona law.\nThe Eighth Circuit has taken a different approach to similar allegations, holding that to the extent a state law claim is premised upon a manufacturer\u2019s failure to follow an FDA regulation, such a claim is impliedly preempted under Buckman. The \u201c[pjlaintiffs alleged that Medtronic failed to provide the FDA with sufficient information and did not timely file adverse event reports, as required by federal regulations. As the district court concluded, [citation], these claims are simply an attempt by private parties to enforce the MDA, claims foreclosed by [section] 337(a) as construed in Buckman, 531 U.S. at [page] 353. [Citation.]\u201d (Sprint Fidelis, supra, 623 F.3d at pp. 1205-1206.) We believe such a broad interpretation of Buckman is unwarranted, as it would preempt almost any state law claim that references a federal requirement, even though the plaintiff is relying on state law, not federal law, to state a cause of action. (See, e.g., Farm Raised Salmon, supra, 42 Cal.4th at p. 1093 [\u00a7 337 bars private enforcement of the FDCA, but it does not bar private enforcement of state law requirements that are identical to FDCA provisions].)\nMedtronic contends failure to warn the FDA is not a cognizable claim under California law because a device manufacturer only has a duty to warn doctors, who then convey the warnings as appropriate to their patients. (Carlin v. Superior Court (1996) 13 Cal.4th 1104, 1116 [56 Cal.Rptr.2d 162, 920 P.2d 1347] (Carlin)) Coleman responds by pointing out that Medtronic does not explain why the duty to warn the medical profession would not include the duty to warn the FDA, if that is the sole permissible mechanism for publicizing the additional risks associated with a medical device. Such a duty to convey warnings to a third party that can reasonably be expected to warn the consumer is recognized in other contexts. (See, e.g., Persons v. Salomon North America, Inc. (1990) 217 Cal.App.3d 168, 178 [265 Cal.Rptr. 773].) We agree with Coleman that the duty to warn should not be so narrowly defined as to exclude a requirement to file adverse event reports with the FDA if that is the only available method to warn doctors and consumers. As the concurrence pointed out in Stengel III, construing this duty in that way creates a causation hurdle that plaintiffs would not otherwise face. \u201cTo prevail, they will ultimately have to prove that if Medtronic had properly reported the adverse events to the FDA as required under federal law, that information would have reached [the plaintiff\u2019s] doctors in time to prevent his injuries.\u201d (Stengel III, supra, 704 F.3d at p. 1234 (conc. opn. of Watford, J.).) However, at this stage of the proceedings, taking the allegations of the complaint as true, Coleman has alleged facts sufficient to state causes of action in strict liability and negligence based on Medtronic\u2019s failure to warn.\n2. Off-label Promotion\nA separate theory for Coleman\u2019s failure to warn claim is grounded in Medtronic\u2019s alleged practice of promoting off-label uses for Infuse, specifically its use in Posterior Fusion. Here, the preemption analysis is slightly different and leads us to the conclusion that, to the extent Coleman\u2019s failure to warn claim is based on Medtronic\u2019s promotion of off-label use, it is expressly preempted.\nStengel III only involved a failure to warn claim based on a manufacturer\u2019s failure to provide adverse event reports to the FDA; the court did not consider any allegations of off-label promotion. (Stengel III, supra, 704 F.3d 1224.) In our view, Coleman\u2019s failure to warn claim cannot include a theory of off-label promotion because he would essentially be claiming that by promoting the off-label use of Infuse, Medtronic incurred a duty to warn plaintiff and his doctors about the risks of such use. Because Medtronic has already complied with federal requirements for warnings and labeling, any state law requirement to provide additional warnings would be different from, and in addition to, federal requirements. (Riegel, supra, 552 U.S. at p. 319; see Caplinger, supra, 921 F.Supp.2d at p. 1218, fn. 4 [\u201cthe federal requirement that manufacturers not promote devices for off-label uses is not genuinely equivalent to the state law requirements that a manufacturer provide adequate warnings to physicians about the risks of its medical device . . . .\u201d].)\nColeman contends that his state law claim parallels the federal prohibition against manufacturers promoting off-label use because federal regulations prohibit \u201cadulteration\u201d and \u201cmisbranding.\u201d However, we do not consider the state and federal requirements to be \u201cgenuinely equivalent.\u201d Federal regulations prevent device manufacturers from promoting off-label use of FDA-approved devices. (See Ramirez, supra, 961 F.Supp.2d at p. 982.) Those requirements are substantively different than the requirements imposed by California common law in the failure to warn context. Strict liability failure to warn under California law imposes a requirement to \u201cwarn of a particular risk that was known or knowable in light of the generally recognized and prevailing best scientific and medical knowledge available at the time of manufacture and distribution.\u201d (Carlin, supra, 13 Cal.4th at p. 1112.) We are unaware of any case law recognizing a state law claim for failure to warn based upon allegations that the manufacturer had a duty to refrain from marketing altogether, rather than marketing with adequate warnings. Because the federal and state requirements are not genuinely equivalent, Coleman\u2019s failure to warn claim is expressly preempted under section 360k.\nAt least one recent case involving Infuse used in Posterior Fusion takes a different approach, concluding that state law claims based on off-label promotion are not subject to a preemption analysis because off-label promotion takes manufacturers outside the protection of the statutory scheme, including the protection afforded by preemption. (Ramirez, supra, 961 F.Supp.2d at pp. 991-993.) The starting premise in Ramirez is that \u201cthe FDA reviewed Infuse\u2019s safety and effectiveness only for the uses Medtronic specified in its [premarket approval] application, and the regulations are premised on that review. [Citations.]\u201d (Id. at p. 988.) Examining whether plaintiff\u2019s claims based on Medtronic\u2019s off-label promotion were expressly preempted, the court noted that the fundamental purpose of express preemption \u201cis to avoid having another entity (jury, state regulators, or state legislatures) arrive at a determination regarding a device\u2019s safety that conflicts with the conclusion the FDA made after the rigorous [premarket approval] process.\u201d (Id. at p. 991.) When a plaintiff brings a claim against a manufacturer \u201cthat arises out of a use that has not been reviewed by the FDA but has been promoted by the manufacturer\u201d the purpose of express preemption is not served by preempting the claim. (Ibid.) \u201cIt would make little sense to allow Medtronic to receive the protection of preemption when it is actively promoting off-label uses that have not been reviewed by the FDA.\u201d (Id. at p. 992.) The Ramirez court concluded that the shield provided by express preemption drops when the manufacturer violates the prohibitions against off-label promotion. The court also found the plaintiff\u2019s claims were not subject to implied preemption because they are not \u201cwholly derivative\u201d of federal law, like the claims at issue in Buckman. (Id. at p. 994.) It held that the plaintiff could bring a state law claim \u201cfor knowingly concealing information in off-label promotion even if off-label promotion was legal under federal law. The core of her claim under state law does not turn on the existence of a federal infraction, and is therefore permissible under Buckman.\u201d (Id. at pp. 994-995.)\nWe find the approach taken in Ramirez unpersuasive. To avoid preemption, a plaintiff must state a cause of action based on state law that parallels a federal requirement. (Riegel, supra, 552 U.S. at p. 330.) Here, because the requirements imposed by state law do not parallel the federal requirements, Coleman\u2019s off-label promotion failure to warn claim is expressly preempted by section 360k(a).\nE. Negligence\nColeman\u2019s negligence claim is based on the same two theories as his failure to warn claim: failure to submit adverse event reports to the FDA and off-label promotion. We address each theory separately.\n1. Failure to Warn the FDA\nFor the same reasons discussed with respect to Coleman\u2019s failure to warn claim, the negligence cause of action based on Medtronic\u2019s failure to report adverse events to the FDA is not preempted, and is adequately pleaded to survive demurrer.\n(12) Medtronic contends that Coleman\u2019s allegation of negligence per se is insufficient to save the claim from preemption because section 337(a) constrains \u201c \u2018[a] state\u2019s ability to use a federal statute violation as a basis for state tort liability.\u2019 \u201d (Kemp v. Medtronic, Inc. (6th Cir. 2000) 231 F.3d 216, 236 (Kemp).) But Kemp predates both Buckman and Riegel, and the cases are divided on whether a claim based on negligence per se is subject to preemption. \u201cThere is no unanimity in the courts which have addressed the issue of whether negligence per se claims should be allowed to proceed under the FDCA. . . . While a substantial number of jurisdictions allow claims based on the violation of federal requirements denoted as \u2018parallel claims,\u2019 others determine that even those claims are preempted.\u201d (Howard v. Zimmer, Inc. (2013) 2013 OK 17 & fns. 35 & 36 [299 P.3d 463, 471-472], fns. omitted [listing cases permitting parallel state law claims and cases finding preemption of state law claims].) We agree with the cases finding no preemption of state law claims based on negligence per se. (See, e.g., Howard v. Zimmer, Inc. (10th Cir. 2013) 718 F.3d 1209, 1210 [negligence per se claim for violation of federal regulation is recognized under Okla. law and is not preempted]; Hughes, supra, 631 F.3d 762 [invoking negligence per se to support state negligence claim parallel to federal requirements is not expressly or impliedly preempted]; Ellis v. C.R. Bard, Inc. (11th Cir. 2002) 311 F.3d 1272 [Ga. law permits a claim for negligence per se for violation of the FDCA].) The only convincing reason to dismiss a cause of action based on negligence per se is if such a claim is not cognizable under state law. (See, e.g., McClelland v. Medtronic, Inc. (M.D.Fla. 2012) 944 F.Supp.2d 1193 [dismissing a plaintiff\u2019s claim because Fla. does not recognize violation of federal laws or regulations as a basis for a state law cause of action].)\nCalifornia recognizes the applicability of negligence per se in a broad range of scenarios, including violation of federal law. \u201cThere is no doubt in [California] that a federal statute or regulation may be adopted as a standard of care. [Citation.] More to the point, a federal standard in the [FDCA] has been adopted as the standard of care in a negligence action. [Citation.]\u201d (DiRosa v. Showa Denko K.K. (1996) 44 Cal.App.4th 799, 808 [52 Cal.Rptr.2d 128]; see Evraets v. Intermedies Intraocular, Inc. (1994) 29 Cal.App.4th 779, 791-792 [34 Cal.Rptr.2d 852] (Evraets) [a claim resting on the doctrine of negligence per se is not preempted by the FDCA].) The primary limitation on the applicability of negligence per se is that injury must result from \u201can occurrence of the nature which the . . . regulation was designed to prevent\u201d and the person suffering the injury \u201cwas one of the class of persons for whose protection the . . . regulation was adopted.\u201d (Evid. Code, \u00a7 669, subd. (a)(3) & (4).) Here, the FDA\u2019s regulations are designed to limit risk inherent in class III medical devices, and as a recipient of one of those devices, Coleman is in the class of persons the regulations are meant to protect. Medtronic does not present a persuasive argument as to why a negligence claim resting on a theory of negligence per se would be subject to preemption. Because Coleman\u2019s negligence claim based on Medtronic\u2019s failure to file adverse event reports is cognizable under California law and is parallel to federal requirements, he may proceed on this theory.\n2. Off-label Promotion\nOur analysis of Coleman\u2019s negligence cause of action based on the theory of off-label promotion is again slightly different. \u201cA complaint in an action for negligence must allege (1) the defendant\u2019s legal duty of care towards the plaintiff, (2) the defendant\u2019s breach of that duty, (3) injury to the plaintiff as a proximate result of the breach, and (4) damage to the plaintiff.\u201d (Jones v. Grewe (1987) 189 Cal.App.3d 950, 954 [234 Cal.Rptr. 717].) (14) In establishing a duty of care, Coleman alleges Medtronic violated federal regulations by promoting off-label uses of Infuse. Many of the citations to federal law appear as part of Coleman\u2019s failure to warn cause of action, rather than his negligence cause of action, but we review the complaint as a whole. (Quelimane Co. v. Stewart Title Guaranty Co. (1998) 19 Cal.4th 26, 38 [77 Cal.Rptr.2d 709, 960 P.2d 513].) Medtronic argues that the facts alleged in Coleman\u2019s complaint do not establish a causal connection between Medtronic\u2019s off-label promotion and Coleman\u2019s injuries, because the FDA-approved warnings already warn of potential bone growth and nerve damage. However, we find that the factual allegations are sufficient at the pleading stage, because the complaint alleges that Medtronic\u2019s promotional activities misrepresented the risks associated with off-label use.\nAssuming the truth of Coleman\u2019s factual allegations, his negligence claim based on the theory of off-label promotion is neither expressly nor impliedly preempted, because it \u201cparallels\u201d the federal requirements prohibiting misbranding and adulteration. (See, e.g., \u00a7 331(a), 21 C.F.R. \u00a7 814.80 (2013).) The complaint includes citations to a number of federal regulations Medtronic allegedly violated, including those that prohibit adulteration or misbranding of devices. Unlike his failure to warn claim, Coleman\u2019s negligence claim is premised on a state requirement that is parallel to the federal requirement to refrain from off-label marketing. In pursuit of a state negligence claim, Coleman is arguing that Medtronic violated its duty of reasonable care, which would parallel the federal duty to comply with the regulations prohibiting misbranding and adulteration.\nIn concluding that Coleman\u2019s negligence claim based on off-label promotion is not preempted, we recognize that the district courts have recently been divided on the issue. In a recent decision from the Central District of California, the court explained its finding of implied preemption as follows: \u201c[A]ny negligence claim based solely on - illegal off-label promotion is impliedly preempted under Buckman and [section] 337(a). Like the \u2018fraud on the FDA\u2019 claim in Buckman, the instant claim that Defendants engaged in illegal off-label marketing of the Infuse Device \u2018exist[s] solely by virtue\u2019 of federal regulations, and is not rooted in any traditional state tort law. Permitting this claim to proceed would essentially allow a private litigant to attempt to enforce the FDCA.\u201d (Houston, supra, 957 F.Supp.2d at p. 1178, italics added; see Caplinger, supra, 921 F.Supp.2d at p. 1223; but see Alton v. Medtronic, Inc. (D.Or. 2013) 970 F.Supp.2d 1069, 1103-1104 [concluding negligence claim involving off-label promotion is not preempted].)\nWe conclude that Coleman\u2019s negligence claim is not preempted. The claim is rooted in traditional state tort law and exists regardless of the FDCA and its regulations because the manufacturer of a medical device owes a duty of reasonable care to the consumer of such a device even in the absence of FDA regulations. In Buckman, the plaintiff\u2019s fraud claims were impliedly preempted because they existed \u201csolely by virtue of the FDCA disclosure requirements.\u201d (Buckman, supra, 531 U.S. at p. 353.) The doctrine of negligence per se simply directs the trier of fact to the federal requirements to establish the applicable standard of care. (Eisner v. Uveges (2004) 34 Cal.4th 915, 927-928 & fn. 8 [22 Cal.Rptr.3d 530, 102 P.3d 915] [negligence per se borrows statutes to establish a duty or standard of care].) Coleman uses the negligence per se doctrine, well recognized in California tort law, to ensure that the state law duty he alleges directly parallels federal law; however, he is pursuing a remedy under state law, not federal law. (See Farm Raised Salmon, supra, 42 Cal.4th at p. 1093.)\nF. Manufacturing Defect\n\u201c[I]f a plaintiff pleads that a manufacturer of a Class III medical device failed to comply with either the specific processes and procedures that were approved by the FDA or the [Current Good Manufacturing Practices] themselves and that this failure caused the injury, the plaintiff will have pleaded a parallel claim.\u201d (Bass v. Stryker Corp. (5th Cir. 2012) 669 F.3d 501, 512.) Coleman\u2019s second amended complaint alleged that the Infuse device implanted in him was defective because it failed to \u201ccomply with the manufacturing specifications required by Infuse\u2019s Premarket Approval and Current Good Manufacturing Practices under the FDCA as they related to the leakage of rhBMP-2 into the surgical site.\u201d In ruling on Medtronic\u2019s demurrer to the second amended complaint, the trial court directed this claim dismissed without leave to amend because the complaint did not identify a specific requirement of the premarket approval process which Coleman alleges Medtronic violated.\nColeman contends that at the pleading stage he is not required to identify the specific manner in which Medtronic violated the federal requirements. He argues his general allegation that Medtronic failed to comply with those requirements is sufficient to determine that his manufacturing defect claim is not subject to preemption.\nMedtronic responds by citing several cases, including one from the Eleventh Circuit, for the proposition that the \u201c \u2018[p]laintiffs cannot simply incant the magic words \u201c[the defendants] violated FDA regulations\u201d in order to avoid preemption.\u2019 [Citation.]\u201d (Wolicki-Gables, supra, 634 F.3d at pp. 1301-1302.) The court in Wolicki-Gables concluded that the plaintiffs did not allege a manufacturing defect cause of action with enough specificity to preclude a finding that the claim was expressly preempted, because the state law claim was potentially \u201cdifferent from, or in addition to\u201d the federal requirements. In Evraets, supra, 29 Cal.App.4th 779, a different division of this court considered a negligence cause of action in which plaintiffs used the doctrine of negligence per se to allege liability based on a lens manufacturer\u2019s failure to comply with extensive protocols for such lenses, as specified in the Code of Federal Regulations. The court sustained the demurrer with leave to amend, because the \u201ccomplaint fails to illuminate which of the innumerable regulatory requirements respondents failed to satisfy. In this regard, his pleading is inadequate. Evraets must specify which of the protocols respondents violated. He cannot make respondents and the court guess at which law was violated.\u201d (Evraets, at p. 794.)\nHowever, the Eighth Circuit has expressed concern with the concept of dismissing a claim on preemption grounds without at least providing a plaintiff with some opportunity for discovery. (Sprint Fidelis, supra, 623 F.3d at pp. 1206-1207.) In that case, the plaintiffs argued that without discovery, it would be impossible to meet a pleading standard requiring them to identify a specific federal requirement of the premarket approval process, because the information is only available to the manufacturer and the FDA. The court stated the plaintiffs\u2019 \u201cargument\u2014which focuses on the timing of the preemption ruling\u2014would have considerable force in a case where a specific defective Class III device injured a consumer, and the plaintiff did not have access to the specific federal requirements in [premarket approval] prior to commencing the lawsuit.\u201d (Id. at p. 1206.) In that case, plaintiffs made a deliberate decision to not seek discovery, and so the court affirmed dismissal of the claim \u201cas pleaded and argued.\u201d (Id. at p. 1207, italics omitted.) The Seventh Circuit has also concluded that claims of negligence and strict liability for a defective product can survive preemption based on general allegations that the company violated federal law. (Bausch, supra, 630 F.3d at p. 554 [agreeing with dissent in Sprint Fidelis that the \u201cplaintiffs could not be expected to plead their claims with greater specificity without discovery to obtain access to confidential government and company documents\u201d].)\nIn light of the reasoning in Sprint Fidelis and Bausch, we conclude that it is premature to determine whether Coleman has alleged a state law requirement that is parallel to federal requirements so as to survive preemption. At the pleading stage, we can only conclude that the complaint alleges sufficient facts to state a cause of action for manufacturing defect; the issue of preemption will necessarily be addressed after Coleman has some opportunity to conduct discovery.\nDISPOSITION\nThe judgment is affirmed to the extent the trial court sustained the demurrer to the third amended complaint without leave to amend as to the causes of action for fraud, intentional misrepresentation, violation of Business and Professions Code section 17200, concealment, and strict liability failure to warn on a theory of off-label promotion. The judgment is reversed to the extent the trial court sustained the demurrer to the third amended complaint without leave to amend as to the causes of action for (1) strict liability failure to warn based on a failure to warn the FDA theory, (2) negligence, and (3) manufacturing defect. We remand the case for further proceedings. Costs on appeal are awarded to Coleman.\nTurner, P. J., and Ferns, J., concurred.\n\u201c \u2018[0]ff-label usage of medical devices (use of a device for some other purpose than that for which it has been approved by the FDA) is an accepted and necessary corollary of the FDA\u2019s mission to regulate in this area without directly interfering with the practice of medicine. [Citation].\u201d (Bucknan Co. v. Plaintiffs\u2019 Legal Comm.. (2001) 531 U.S. 341, 350 [148 L.Ed.2d 854, 121 S.Ct. 1012].)\nColeman\u2019s opening brief does not argue that his causes of action for fraud, intentional misrepresentation, unfair competition (Bus. & Prof. Code, \u00a717200 et seq.), and concealment survive Medtronic\u2019s demurrer. Because no argument of error is presented, we conclude that Coleman has waived any such argument, and we do not address those causes of action.\nCase law states that Infuse is a class HI medical device, but the complaint does not allege that fact. (See, e.g., Caplinger v. Medtronic, Inc. (W.D.Okla. 2013) 921 F.Supp.2d 1206, 1210-1211.)\nAll further statutory references are to title 21 of the United States Code, unless otherwise stated.\nThe full text reads: \u201cExcept as provided in subsection (b) of this section, all such proceedings for the enforcement, or to restrain violations, of this chapter shall be by and in the name of the United States. Subpoenas for witnesses who are required to attend a court of the United States, in any district, may run into any other district in any proceeding under this section.\u201d (\u00a7 337(a).)\nCalifornia Rules of Court, rule 8.1115, prohibiting citation of unpublished opinions, does not prevent the citation of unpublished federal opinions. (Farm Raised Salmon, supra, 42 Cal.4th at p. 1096, fn. 18.)\nJudge of the Los Angeles Superior Court, assigned by the Chief Justice pursuant to article VI, section 6 of the California Constitution.",
+        "type": "majority",
+        "author": "KRIEGLER, J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Law Offices of Martin N. Buchanan, Martin N. Buchanan; Girardi & Keese and James G. O\u2019Callahan for Plaintiff and Appellant.",
+      "Mayer Brown, Andrew E. Tauber, Scott M. Noveck; Reed Smith, Michael K. Brown, James C. Martin and Lisa M. Baird for Defendants and Respondents."
+    ],
+    "corrections": "",
+    "head_matter": "[No. B243609.\nSecond Dist., Div. Five.\nJan. 27, 2014.]\nJOHN COLEMAN, Plaintiff and Appellant, v. MEDTRONIC, INC., et al., Defendants and Respondents.\nCounsel\nLaw Offices of Martin N. Buchanan, Martin N. Buchanan; Girardi & Keese and James G. O\u2019Callahan for Plaintiff and Appellant.\nMayer Brown, Andrew E. Tauber, Scott M. Noveck; Reed Smith, Michael K. Brown, James C. Martin and Lisa M. Baird for Defendants and Respondents.\nReview granted April 30, 2014. On August 20, 2014, review dismissed and cause remanded to Court of Appeal, Second Appellate District, Division Five. Opinion directed to be published by the Supreme Court August 20, 2014."
+  },
+  "file_name": "0413-01",
+  "first_page_order": 377,
+  "last_page_order": 401
+}

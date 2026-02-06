@@ -1,0 +1,59 @@
+{
+  "id": 12430712,
+  "name": "Valentin v. United States",
+  "name_abbreviation": "Valentin v. United States",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-6745",
+  "first_page": "1164",
+  "last_page": "1164",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1164"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.645,
+    "sha256": "53c702f7acc97cb13262423683a2505c18455dbd082650f0143fc0bd8b49fa4f",
+    "simhash": "1:655beec76fc1906c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Valentin v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6745.\nValentin v. United States."
+  },
+  "file_name": "1164-05",
+  "first_page_order": 1240,
+  "last_page_order": 1240
+}

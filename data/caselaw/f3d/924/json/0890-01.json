@@ -1,0 +1,936 @@
+{
+  "id": 12521227,
+  "name": "IN RE: CAPITAL CONTRACTING COMPANY, Debtor. Carl F. Schier PLC, Appellant, v. Kenneth A. Nathan, Trustee, Appellee.",
+  "name_abbreviation": "PLC v. Nathan (In re Capital Contracting Co.)",
+  "decision_date": "2019-05-21",
+  "docket_number": "No. 18-2219",
+  "first_page": "890",
+  "last_page": "899",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "924 F.3d 890"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "6th Cir.",
+    "id": 21296,
+    "name": "United States Court of Appeals for the Six Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "719 F. App'x 502",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "506"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "823 F.3d 872",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5917139
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "886"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/823/0872-01"
+      ]
+    },
+    {
+      "cite": "454 U.S. 464",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6189548
+      ],
+      "weight": 3,
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "473",
+          "parenthetical": "citation omitted"
+        },
+        {
+          "parenthetical": "citation omitted"
+        },
+        {
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/454/0464-01"
+      ]
+    },
+    {
+      "cite": "490 U.S. 605",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        605746
+      ],
+      "weight": 5,
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "617-18"
+        },
+        {
+          "page": "617"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/490/0605-01"
+      ]
+    },
+    {
+      "cite": "292 F.3d 895",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3699384,
+        9418085
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "899"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/352/0191-01",
+        "/f3d/292/0895-01"
+      ]
+    },
+    {
+      "cite": "753 F.3d 1258",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5918243
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "1261",
+          "parenthetical": "citing Sierra Club v. EPA , 292 F.3d 895, 899 (D.C. Cir. 2002) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/753/1258-01"
+      ]
+    },
+    {
+      "cite": "476 U.S. 54",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12645
+      ],
+      "weight": 5,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "62"
+        },
+        {
+          "page": "62"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/476/0054-01"
+      ]
+    },
+    {
+      "cite": "570 U.S. 693",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12698480
+      ],
+      "weight": 7,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "705",
+          "parenthetical": "quoting Arizonans for Official English , 520 U.S. at 64, 117 S.Ct. 1055 "
+        },
+        {
+          "parenthetical": "quoting Arizonans for Official English , 520 U.S. at 64, 117 S.Ct. 1055 "
+        },
+        {
+          "parenthetical": "quoting Arizonans for Official English , 520 U.S. at 64, 117 S.Ct. 1055 "
+        },
+        {
+          "page": "704"
+        },
+        {
+          "page": "704"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/570/0693-01"
+      ]
+    },
+    {
+      "cite": "828 F.3d 602",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4337417,
+        4343436
+      ],
+      "weight": 3,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "605"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/828/0602-01",
+        "/br/555/0602-01"
+      ]
+    },
+    {
+      "cite": "754 F. App'x 590",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "591"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2017 WL 8236168",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "*1"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "851 F.3d 619",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12272942,
+        12277479
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "623-24"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/566/0619-01",
+        "/f3d/851/0619-01"
+      ]
+    },
+    {
+      "cite": "532 U.S. 275",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9301210
+      ],
+      "weight": 3,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "286-87"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/532/0275-01"
+      ]
+    },
+    {
+      "cite": "5 L.Ed. 257",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "case_ids": [
+        11730243
+      ],
+      "year": 1821,
+      "pin_cites": [
+        {
+          "parenthetical": "Marshall, C.J."
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/19/0264-01"
+      ]
+    },
+    {
+      "cite": "707 F.2d 441",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1861908,
+        6124573
+      ],
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "443"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/707/0441-01",
+        "/br/30/0441-01"
+      ]
+    },
+    {
+      "cite": "1986 WL 17769",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "*2"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 158",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "286 F.3d 359",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9425962,
+        940851
+      ],
+      "weight": 2,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "364"
+        },
+        {
+          "page": "364-65"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/276/0359-01",
+        "/f3d/286/0359-01"
+      ]
+    },
+    {
+      "cite": "351 F.2d 139",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        808027
+      ],
+      "year": 1965,
+      "pin_cites": [
+        {
+          "page": "143"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/351/0139-01"
+      ]
+    },
+    {
+      "cite": "304 F.2d 429",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        6810863
+      ],
+      "year": 1962,
+      "pin_cites": [
+        {
+          "page": "431"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/304/0429-01"
+      ]
+    },
+    {
+      "cite": "514 U.S. 122",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1339840
+      ],
+      "weight": 3,
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "126"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/514/0122-01"
+      ]
+    },
+    {
+      "cite": "52 Stat. 840",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "11 U.S.C. \u00a7 67",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "(c)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "527 U.S. 815",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1248131
+      ],
+      "weight": 3,
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "831"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/527/0815-01"
+      ]
+    },
+    {
+      "cite": "863 F.3d 521",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12270320,
+        12275886
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "525-27"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/570/0521-01",
+        "/f3d/863/0521-01"
+      ]
+    },
+    {
+      "cite": "803 F.3d 450",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4346600,
+        4350045
+      ],
+      "year": 2015,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/803/0450-01",
+        "/br/540/0450-01"
+      ]
+    },
+    {
+      "cite": "645 F.3d 201",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5652513,
+        4180308
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "211"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/645/0201-01",
+        "/br/453/0201-02"
+      ]
+    },
+    {
+      "cite": "293 F.3d 1332",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9420956,
+        9415534
+      ],
+      "weight": 3,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "1337"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/293/1332-01",
+        "/br/280/1332-01"
+      ]
+    },
+    {
+      "cite": "11 U.S.C. \u00a7 1109",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "750 F.3d 659",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4300059,
+        4066229
+      ],
+      "weight": 2,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "660"
+        },
+        {
+          "page": "661"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/511/0659-01",
+        "/f3d/750/0659-01"
+      ]
+    },
+    {
+      "cite": "896 F.3d 382",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12517731
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "385"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/896/0382-01"
+      ]
+    },
+    {
+      "cite": "520 U.S. 43",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11651034
+      ],
+      "weight": 5,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "64"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/520/0043-01"
+      ]
+    },
+    {
+      "cite": "504 U.S. 555",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11730070
+      ],
+      "weight": 5,
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "560"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/504/0555-01"
+      ]
+    },
+    {
+      "cite": "698 F. App'x 300",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        12269468,
+        12396870
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "303"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/576/0300-01",
+        "/f-appx/698/0300-01"
+      ]
+    },
+    {
+      "cite": "439 B.R. 761",
+      "category": "reporters:specialty",
+      "reporter": "B.R.",
+      "case_ids": [
+        3780929
+      ],
+      "year": 2010,
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/439/0761-01"
+      ]
+    },
+    {
+      "cite": "131 S.Ct. 2594",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12450496,
+        6049563,
+        4332163
+      ],
+      "weight": 2,
+      "year": 2011,
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/180/0475-01",
+        "/br/449/2594-01",
+        "/us/564/0462-01"
+      ]
+    },
+    {
+      "cite": "564 U.S. 462",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12450496,
+        4332163
+      ],
+      "weight": 3,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "469"
+        },
+        {
+          "page": "500-01"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/180/0475-01",
+        "/us/564/0462-01"
+      ]
+    },
+    {
+      "cite": "468 U.S. 737",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11340114
+      ],
+      "weight": 7,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "751"
+        },
+        {
+          "page": "751"
+        },
+        {
+          "page": "754"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/468/0737-01"
+      ]
+    },
+    {
+      "cite": "136 S. Ct. 1540",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12596653
+      ],
+      "weight": 4,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1547"
+        },
+        {
+          "page": "1548"
+        },
+        {
+          "page": "1548",
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/136/1540-01"
+      ]
+    },
+    {
+      "cite": "523 U.S. 83",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11503308
+      ],
+      "weight": 9,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "101-04"
+        },
+        {
+          "page": "93-101"
+        },
+        {
+          "page": "106"
+        },
+        {
+          "page": "107"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/523/0083-01"
+      ]
+    },
+    {
+      "cite": "2018 WL 4492240",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 4,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "*2",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "*2"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "737 F.3d 372",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3667248,
+        3732115
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "376-77"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/503/0372-01",
+        "/f3d/737/0372-01"
+      ]
+    },
+    {
+      "cite": "11 U.S.C. \u00a7 704",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(9)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "134 S.Ct. 1377",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12706985,
+        12579076
+      ],
+      "weight": 11,
+      "year": 2014,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/572/0118-01",
+        "/s-ct/134/1377-01"
+      ]
+    },
+    {
+      "cite": "572 U.S. 118",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12706985
+      ],
+      "weight": 5,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "125"
+        },
+        {
+          "page": "128"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/572/0118-01"
+      ]
+    },
+    {
+      "cite": "546 U.S. 500",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5937941
+      ],
+      "weight": 5,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "510",
+          "parenthetical": "citation omitted"
+        },
+        {
+          "parenthetical": "citation omitted"
+        },
+        {
+          "parenthetical": "citation omitted"
+        },
+        {
+          "page": "510-12"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/546/0500-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1177,
+    "char_count": 22814,
+    "pagerank": {
+      "raw": 4.947487136851577e-08,
+      "percentile": 0.31224175617960737
+    },
+    "sha256": "8275201bb48213c296d6199e6483df711959508f8cc8032aa294a1a24cda0621",
+    "simhash": "1:73518f0a8a8898c6",
+    "word_count": 3718
+  },
+  "last_updated": "2024-02-27T18:46:58.656971+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before: MOORE, SUTTON, and MURPHY, Circuit Judges."
+    ],
+    "parties": [
+      "IN RE: CAPITAL CONTRACTING COMPANY, Debtor."
+    ],
+    "opinions": [
+      {
+        "text": "MURPHY, Circuit Judge.\nExplaining that \"jurisdiction\" \"is a word of many, too many, meanings,\" the Supreme Court in recent years has criticized the cavalier way in which earlier cases invoked the term. Arbaugh v. Y&H Corp. , 546 U.S. 500, 510, 126 S.Ct. 1235, 163 L.Ed.2d 1097 (2006) (citation omitted). The Court has sought to clarify the divide between truly jurisdictional requirements (those that concern whether a court has the power to resolve a dispute) and non-jurisdictional merits requirements (those that concern whether a party has asserted a valid claim). Id. at 510-12, 126 S.Ct. 1235. The decision in Lexmark International, Inc. v. Static Control Components, Inc. , 572 U.S. 118, 134 S.Ct. 1377, 188 L.Ed.2d 392 (2014) -which jettisoned the label \"prudential standing\"-suggests that the Court has started down the same path for the word \"standing.\" Id. at 125, 134 S.Ct. 1377. In this case, a bankruptcy court held that a law firm lacked standing to object to a trustee's final report in a Chapter 7 bankruptcy case, and the district court held that the firm also lacked standing to appeal under a test tailored to bankruptcy appeals. Given the post- Lexmark uncertainty about various standing concepts, we hold that the firm lacked the one type of standing that Lexmark undoubtedly does not affect: Article III standing. We affirm the district court's order dismissing the appeal on that basis.\nI\nCarl F. Schier PLC represented Capital Contracting Co. in a suit filed by Longhorn Estates, LLC, in Michigan state court. The litigation did not turn out well for Capital Contracting. It was hit with over a $ 5-million judgment and landed in bankruptcy a month later. Its proceedings under Chapter 7 of the Bankruptcy Code stayed its litigation against Longhorn with post-trial motions pending. But that state-court judgment turned Longhorn into Capital Contracting's biggest creditor, so Longhorn filed a claim in the bankruptcy proceedings. When Schier also filed a claim for unpaid legal fees owed by Capital Contracting, the trustee representing the estate countered with a malpractice suit against Schier for its handling of the Longhorn litigation. The trustee and Schier eventually settled. Schier agreed to pay the estate $ 600,000 and to withdraw its attorney's fees claim; the trustee released Schier of further malpractice liability. The bankruptcy court approved this settlement, and Schier formally withdrew its claim. All's well that ends well.\nOr so it seemed. When the trustee filed a final report detailing the distribution of Capital Contracting's assets, 11 U.S.C. \u00a7 704(a)(9), Schier reemerged with an objection. The firm alleged that Capital Contracting's right to appeal the state-court judgment in the Longhorn suit qualified as an \"asset\" of the estate that the trustee should have administered or abandoned. Cf. Croft v. Lowry (In re Croft ), 737 F.3d 372, 376-77 (5th Cir. 2013). The bankruptcy court overruled Schier's objection and approved the final report. It explained that Schier should have raised this issue by objecting to Longhorn's claim when Schier had a pending fees request-a point in time at which Schier remained a \"creditor\" with \"standing.\" Because Schier had withdrawn its claim for attorney's fees, the bankruptcy court continued, the firm failed to qualify as a \"party in interest\" with a \"pecuniary interest or stake in the outcome,\" and did not \"have standing to object to the trustee's final report and account.\"\nSchier appealed to the district court. The district court dismissed its appeal on a related but distinct \"standing\" ground-that Schier lacked standing to appeal . \"It is well-established law,\" the district court reasoned, that \"[i]n order to have standing to appeal a bankruptcy court order, an appellant must have been directly and adversely affected pecuniarily by the order.\" Carl F. Schier, PLC v. Nathan (In re Capital Contracting Co. ), No. 18-11227, 2018 WL 4492240, at *2 (E.D. Mich. Sept. 19, 2018) (internal quotation marks omitted). This \"person-aggrieved\" test for appeals, the district court continued, demands more than Article III standing. Id. The court concluded that Schier could not meet that test because its \"direct and immediate interest in the bankruptcy proceeding ceased when\" it withdrew its attorney's fees claim. Id.\nII\nThis case's many \"standing\"-related issues would make it worthy of inclusion in a final exam for a federal-courts class. As a refresher, Article III of the Constitution delegates the \"judicial Power\" to the Supreme Court and any \"inferior Courts\" that Congress may create, and it allows these courts to decide \"Cases\" or \"Controversies.\" U.S. Const. art. III, \u00a7\u00a7 1 -2. For a suit to qualify as a \"case\" falling within Article III, the party who seeks relief must have standing. Steel Co. v. Citizens for a Better Env't , 523 U.S. 83, 101-04, 118 S.Ct. 1003, 140 L.Ed.2d 210 (1998). This Article III standing requires a party to have \"(1) suffered an injury in fact, (2) that is fairly traceable to the challenged conduct of the defendant, and (3) that is likely to be redressed by a favorable judicial decision.\" Spokeo, Inc. v. Robins , --- U.S. ----, 136 S. Ct. 1540, 1547, 194 L.Ed.2d 635 (2016). In addition to Article III's standing floor, the Supreme Court also once adopted \"judicially self-imposed limits on the exercise of federal jurisdiction\" that Article III otherwise would permit. Allen v. Wright , 468 U.S. 737, 751, 104 S.Ct. 3315, 82 L.Ed.2d 556 (1984). While the Court used to refer to these limits collectively as the \" 'prudential' branch of standing,\" it has since called that generic label \"misleading\" because each of these limits raises distinct questions. Lexmark Int'l, Inc. v. Static Control Components, Inc. , 572 U.S. 118, 125-28 & nn.3-4, 134 S.Ct. 1377, 188 L.Ed.2d 392 (2014). In this case, the differing rationales of the bankruptcy court and the district court implicate these varied \"standing\" doctrines.\n1. Schier's Standing To Object. The bankruptcy court found that Schier lacked \"standing\" to object to the trustee's report. Did it mean Article III standing? Bankruptcy courts are not Article III courts, Stern v. Marshall , 564 U.S. 462, 469, 131 S.Ct. 2594, 180 L.Ed.2d 475 (2011), so that conclusion would raise an interesting question addressed by few cases: Must parties who appear in non-Article III bankruptcy courts meet the justiciability requirements that apply in Article III courts?\nSome have said that the Constitution imposes Article III's rules on bankruptcy courts because they are \"adjunct[s]\" of district courts. Bucchino v. Wells Fargo Bank, N.A. (In re Bucchino ), 439 B.R. 761, 768 n.10 (Bankr. D.N.M. 2010) ; see also Rosenfeld v. Rosenfeld (In re Rosenfeld ), 698 F. App'x 300, 303 (6th Cir. 2017) ; but cf. Stern , 564 U.S. at 500-01, 131 S.Ct. 2594. This constitutional view of the bankruptcy court's use of the word \"standing\" would raise other subsidiary questions. What time should a court examine when assessing whether Schier has suffered an Article III injury-when it filed a proof of claim (for attorney's fees) or when it made the relevant objection (to the final report)? Cf. Lujan v. Defenders of Wildlife , 504 U.S. 555, 569 n.4, 112 S.Ct. 2130, 119 L.Ed.2d 351 (1992). And because Schier settled in between those events, has this constitutional standing inquiry really turned into a constitutional mootness inquiry? See Arizonans for Official English v. Arizona , 520 U.S. 43, 68 n.22, 117 S.Ct. 1055, 137 L.Ed.2d 170 (1997).\nOthers have stated that \"[b]ankruptcy courts are not Article III creatures bound by traditional standing requirements,\" which means that courts should ask only whether a party has satisfied the standing-esque requirements that the Bankruptcy Code codifies as a statutory matter. Furlough v. Cage (In re Technicool Sys., Inc. ), 896 F.3d 382, 385 (5th Cir. 2018). Lexmark shunned the label \"prudential standing,\" so it may be a \"misnomer\" to lump these statutory requirements together under the rubric \"bankruptcy standing.\" In re C.P. Hall Co. , 750 F.3d 659, 660 (7th Cir. 2014). Instead of creating a jurisdictional question (about the power of the court to decide an issue), these requirements may create a merits question (about whether the Bankruptcy Code's text gives the specific party a right to raise the specific objection). Id. at 661. The bankruptcy court's reasoning in this case could be read this way. It suggested that Schier did not qualify as a \"party in interest,\" and a bankruptcy rule notes that the final report in a Chapter 7 case creates a presumption that the estate has been fully administered if \"no objection has been filed by ... a party in interest\" within 30 days. Fed. R. Bankr. P. 5009(a).\nYet this statutory view of the bankruptcy court's use of the word \"standing\" also raises tricky issues. For one thing, we have not located a specific statutory provision (apart from the non-substantive rule) indicating that a \"party in interest\" (or anyone else) may object to final reports in Chapter 7 cases. Nor have we found a general statutory provision allowing \"parties in interest\" to make universal objections. The Bankruptcy Code instead uses the phrase \"party in interest\" at distinct places, including in a statutory list of \"parties in interest\" who may appear and raise an issue in Chapter 11 proceedings, 11 U.S.C. \u00a7 1109(b), a provision identifying who may object to a claim, id. \u00a7 502(a), and a provision identifying who may ask the court to convert a Chapter 7 case into a Chapter 11 case, id. \u00a7 706(b). While some have read the Chapter 11 catch-all in \u00a7 1109(b) as impliedly applicable to Chapter 7, Westwood Cmty. Two Ass'n v. Barbee (In re Westwood Cmty. Two Ass'n ), 293 F.3d 1332, 1337 (11th Cir. 2002), we have yet to cross that Rubicon.\nFor another, courts have debated whether this party-in-interest language demands only Article III standing, In re Global Indus. Techs., Inc. , 645 F.3d 201, 211 (3d Cir. 2011), or a more direct interest, Hughes v. Tower Park Props., LLC (In re Tower Park Props., LLC ), 803 F.3d 450, 457 & n.6 (9th Cir. 2015). Our court has given little analysis on the meaning of this phrase. See Jahn v. Burke (In re Burke ), 863 F.3d 521, 525-27 (6th Cir. 2017).\nFor a third, if the question whether the Bankruptcy Code allows Schier to object to the report raises a merits issue, Article III courts may not be able to answer the question on appeal without first confirming their own jurisdiction , including Article III standing. Steel Co. , 523 U.S. at 93-101, 118 S.Ct. 1003 ; compare Lexmark , 572 U.S. at 128 n.4, 134 S.Ct. 1377, with Ortiz v. Fibreboard Corp. , 527 U.S. 815, 831, 119 S.Ct. 2295, 144 L.Ed.2d 715 (1999).\n2. Schier's Bankruptcy Standing To Appeal . We could avoid these questions over the bankruptcy court's use of the word \"standing\" by taking the district court's route to this case's resolution. It dismissed Schier's appeal because the firm lacked standing under the person-aggrieved test governing bankruptcy appeals.\nSchier , 2018 WL 4492240, at *2. That test once followed the Bankruptcy Code's text. In 1898, Congress gave duties to bankruptcy \"referees\" (predecessors to bankruptcy judges) and later allowed a \"person aggrieved\" to petition for judicial review of a referee's order. 11 U.S.C. \u00a7 67(c) (1976); Bankruptcy Act of 1938, Pub. L. 75-696, 52 Stat. 840, 858 (1938). A phrase like \"person aggrieved\" has long been a \"term of art\" signifying who may challenge agency actions. Director, Office of Workers' Comp. Programs, Dep't of Labor v. Newport News Shipbuilding & Dry Dock Co. , 514 U.S. 122, 126, 115 S.Ct. 1278, 131 L.Ed.2d 160 (1995). In the bankruptcy context, courts read the phrase to require a party to \"be directly and adversely affected pecuniarily by the order of the referee which is challenged.\" Hartman Corp. of Am. v. United States , 304 F.2d 429, 431 (8th Cir. 1962) ; see Miller v. Gosline (In re Sunningdale Country Club ), 351 F.2d 139, 143 (6th Cir. 1965). That test has teeth. \"Appellate standing in bankruptcy cases is more limited than Article III standing or the prudential requirements associated therewith.\" Harker v. Troutman (In re Troutman Enters., Inc. ), 286 F.3d 359, 364 (6th Cir. 2002).\nIn 1978, however, Congress's rewrite of the Bankruptcy Code deleted the person-aggrieved text from the statute authorizing appeals. See 28 U.S.C. \u00a7 158(a). Despite this change, federal courts (including our own) have continued to apply the person-aggrieved test \"as a matter of judge-made law.\" Gen. Elec. Credit Corp. v. L.T. Ruth Coal Co. (In re L.T. Ruth Coal Co.) , No. 85-5990, 1986 WL 17769, at *2 (6th Cir. Sept. 17, 1986) ; Westwood , 293 F.3d at 1334-35 (citing cases); In re Troutman Enters. , 286 F.3d at 364-65. What is the source of authority for courts to apply this gloss on \u00a7 158(a) ? Courts have characterized the test as \"a prudential prerequisite to standing,\" Westwood , 293 F.3d at 1335 n.3, resting on the \"need for an explicit limitation on standing to appeal in bankruptcy proceedings,\" Fondiller v. Robertson (In re Fondiller ), 707 F.2d 441, 443 (9th Cir. 1983). At one time, this reasoning might have been viewed as a garden-variety application of the Supreme Court's cases authorizing \"judicially self-imposed limits\" on jurisdiction. Allen , 468 U.S. at 751, 104 S.Ct. 3315.\nThen came Lexmark . Interpreting the Lanham Act's cause of action for parties harmed by false advertising, the Court distanced itself from prudential standing. 572 U.S. at 125, 134 S.Ct. 1377. In that case, the plaintiff's lost commercial sales qualified as an Article III injury, so the defendant argued that the Court \"should decline to adjudicate [the plaintiff's] claim on grounds that are 'prudential,' rather than constitutional.\" Id. at 125-26, 134 S.Ct. 1377. Lexmark rejected the request. It recalled the duty of federal courts to decide cases within their jurisdiction. Id. at 126, 134 S.Ct. 1377 ; Cohens v. Virginia , 19 U.S. (6 Wheat.) 264, 404, 5 L.Ed. 257 (1821) (Marshall, C.J.). And it clarified that prior decisions invoking the \"prudential standing\" label had really asked a statutory-interpretation question: Does the specific statute give the specific plaintiff a right to bring the specific suit? Lexmark , 572 U.S. at 128, 134 S.Ct. 1377. If the statute does so, courts lack discretion to decline to hear the claim: Just as courts do not have a \"prudential\" license to open the courthouse doors when the statutory text has closed them, Lexmark reasoned, so too they lack a \"prudential\" license to close the courthouse doors when the statutory text has opened them. Id. (citing Alexander v. Sandoval , 532 U.S. 275, 286-87, 121 S.Ct. 1511, 149 L.Ed.2d 517 (2001) ).\nOur court has yet to consider Lexmark 's effect, if any, on the person-aggrieved test governing prudential standing in bankruptcy appeals. Without citing Lexmark , we have found that test met in one case (so Lexmark likely did not matter to the outcome), Brown v. Ellmann (In re Brown ), 851 F.3d 619, 623-24 (6th Cir. 2017), and we have found the test unsatisfied in an unpublished case, Cotter v. Stevenson (In re Cotter ), No. 16-1449, 2017 WL 8236168, at *1 (6th Cir. Mar. 1, 2017). Looking outside our circuit, one court has said that the person-aggrieved test comports with Lexmark , albeit with limited explanation. U.S. Bank v. SFR Investments Pool 1, LLC (In re Petrone ), 754 F. App'x 590, 591 (9th Cir. 2019). Another has flagged this issue, but sidestepped it by resolving the appeal on Article III grounds. Arlington Capital, LLC v. Bainton McCarthy LLC (In re GT Automation Grp., Inc. ), 828 F.3d 602, 604-05 & n.1 (7th Cir. 2016).\n3. Schier's Article III Standing To Appeal . These questions concerning \"standing\" in bankruptcy courts and bankruptcy appeals may eventually need answers. But this is not the case to provide them. We take a third route to the case's resolution-the route taken by the Seventh Circuit in GT Automation . Whether or not parties must satisfy Article III rules in non-Article III courts and whether or not they must satisfy even stricter standing rules in appeals to Article III courts, parties must at least satisfy Article III rules in appeals to Article III courts. As the Supreme Court has explained, Article III \"standing 'must be met by persons seeking appellate review, just as it must be met by persons appearing in courts of first instance.' \" Hollingsworth v. Perry , 570 U.S. 693, 705, 133 S.Ct. 2652, 186 L.Ed.2d 768 (2013) (quoting Arizonans for Official English , 520 U.S. at 64, 117 S.Ct. 1055 ); Diamond v. Charles , 476 U.S. 54, 62, 106 S.Ct. 1697, 90 L.Ed.2d 48 (1986). By way of analogy, parties that file \"appeals from administrative agencies\" must satisfy Article III standing when entering Article III courts. Consumer Watchdog v. Wis. Alumni Research Found. , 753 F.3d 1258, 1261 (Fed. Cir. 2014) (citing Sierra Club v. EPA , 292 F.3d 895, 899 (D.C. Cir. 2002) ). Parties that file appeals from bankruptcy courts must do the same. See GT Automation , 828 F.3d at 604-05 & n.1.\nAn Article III injury includes well-known ingredients. \"To establish injury in fact, a plaintiff must show that he or she suffered 'an invasion of a legally protected interest' that is 'concrete and particularized' and 'actual or imminent, not conjectural or hypothetical.' \" Spokeo , 136 S. Ct. at 1548 (quoting Lujan , 504 U.S. at 560, 112 S.Ct. 2130 ). A particularized injury affects the party in a specific way (in contrast to a generalized grievance), and a concrete injury affects the party in a real way (in contrast to an abstract grievance). Id. at 1548-49. On appeal, moreover, \"the focus shifts to injury caused by the judgment rather than injury caused by the underlying facts.\" 15A Charles Alan Wright et al., Federal Practice and Procedure \u00a7 3902 (2d ed.), Westlaw (database updated Apr. 2019); see ASARCO Inc. v. Kadish , 490 U.S. 605, 617-18, 109 S.Ct. 2037, 104 L.Ed.2d 696 (1989).\nHere, Schier has not shown that it suffered an Article III injury from the bankruptcy court's order approving the trustee's final report, despite the report's failure to list Capital Contracting's appeal rights in the Longhorn litigation. To begin with, the failure to list those rights could not financially harm Schier. By that point, Schier had settled with the trustee and withdrawn its attorney's fees claim. Even assuming, for example, that the proposed appeal would reduce Longhorn's state-court judgment to zero, that reversal could not provide Schier with one cent more in attorney's fees. The order thus did not affect Schier in a \" 'personal and individual way.' \" Spokeo , 136 S. Ct. at 1548 (citation omitted).\nThat leaves Schier-the law firm for the losing party in the state-court litigation-with the strong feelings that it developed over the validity of its proposed appeal. But \" '[t]he presence of a disagreement, however sharp and acrimonious it may be, is insufficient by itself to meet [Article] III's requirements.' \" Hollingsworth , 570 U.S. at 704, 133 S.Ct. 2652 (quoting Diamond , 476 U.S. at 62, 106 S.Ct. 1697 ). The Supreme Court has taught that Article III courts are not the place for \" 'concerned bystanders' \" to vindicate \" 'value interests.' \" Valley Forge Christian Coll. v. Ams. United for Separation of Church & State, Inc. , 454 U.S. 464, 473, 102 S.Ct. 752, 70 L.Ed.2d 700 (1982) (citation omitted). If that principle is broad enough to rebut private parties who desire to defend the constitutionality of a state's laws, Hollingsworth , 570 U.S. at 704, 133 S.Ct. 2652, it is broad enough to rebut Schier's attempt to vindicate its understanding of the state laws that would be at issue in the state-court appeal.\nSchier's responses do not change things. The firm initially presents a full-throated argument on the merits, claiming that it need not establish standing because the Bankruptcy Code required the trustee and the bankruptcy court to fix the final report's purported error on their own initiative. This does nothing to exempt Schier from the Article III injury requirement. Schier may not assert merely the \"vindication of the rule of law\" as its basis for harm without alleging an actual injury from the purported violation. Steel Co. , 523 U.S. at 106, 118 S.Ct. 1003. Or, to look at the question from the remedy side, Schier's \"psychic satisfaction\" that the bankruptcy \"laws are faithfully enforced\" \"is not an acceptable Article III remedy because it does not redress a cognizable Article III injury.\" Id. at 107, 118 S.Ct. 1003. In short, \"an asserted right to have the Government act in accordance with law is not sufficient, standing alone, to confer jurisdiction on a federal court.\" Allen , 468 U.S. at 754, 104 S.Ct. 3315. That rule covers the alleged violation that Schier claims here.\nSchier next asserts that the justiciability rules in Michigan state court would allow it to pursue the appeal under a public-rights theory of standing given the type of claims that it seeks to raise in the state appellate courts. That is beside the point. \"[T]he constraints of Article III do not apply to state courts, and accordingly the state courts are not bound by the limitations of a case or controversy or other federal rules of justiciability.\" ASARCO , 490 U.S. at 617, 109 S.Ct. 2037. Even assuming that Schier could bring a claim or pursue an appeal in state court without the need to show a concrete and particularized injury, that claim does nothing to establish such an injury in an Article III court. Cf. GT Automation , 828 F.3d at 605. The purported loss of a generalized grievance is still just a generalized grievance.\nIndeed, the trustee argues that Schier's allegations of injury are so lacking that we should find this appeal frivolous and award damages under Federal Rule of Appellate Procedure 38. We decline the invitation. See Hogan v. Jacobson , 823 F.3d 872, 886 (6th Cir. 2016). We add that the rule requires \"a separately filed motion\" by an appellee seeking damages for a frivolous appeal, \"or notice from the court and reasonable opportunity to respond.\" Fed. R. App. P. 38. Statements made in an appellee's brief do not provide sufficient notice to the appellant. See Jodway v. Fifth Third Bank (In re Jodway ), 719 F. App'x 502, 506 (6th Cir. 2018).\nWe affirm the district court's judgment dismissing Schier's appeal.",
+        "type": "majority",
+        "author": "MURPHY, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "ON BRIEF: Carl F. Schier, CARL F. SCHIER PLC, Ypsilanti, Michigan, for Appellant. Howard S. Sher, JACOB & WEINGARTEN, P.C., Southfield, Michigan, for Appellee."
+    ],
+    "corrections": "",
+    "head_matter": "IN RE: CAPITAL CONTRACTING COMPANY, Debtor.\nCarl F. Schier PLC, Appellant,\nv.\nKenneth A. Nathan, Trustee, Appellee.\nNo. 18-2219\nUnited States Court of Appeals, Sixth Circuit.\nDecided and Filed: May 21, 2019\nON BRIEF: Carl F. Schier, CARL F. SCHIER PLC, Ypsilanti, Michigan, for Appellant. Howard S. Sher, JACOB & WEINGARTEN, P.C., Southfield, Michigan, for Appellee.\nBefore: MOORE, SUTTON, and MURPHY, Circuit Judges."
+  },
+  "file_name": "0890-01",
+  "first_page_order": 890,
+  "last_page_order": 899
+}

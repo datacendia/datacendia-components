@@ -1,0 +1,59 @@
+{
+  "id": 12201133,
+  "name": "Linnen v. New York",
+  "name_abbreviation": "Linnen v. New York",
+  "decision_date": "2012-04-02",
+  "docket_number": "No. 11-8567",
+  "first_page": "924",
+  "last_page": "924",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 924"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 94,
+    "ocr_confidence": 0.619,
+    "sha256": "bc954db96e289f419b689eea8e8802fe36e3933ba9d64f4b3417e2f1a8bf5edc",
+    "simhash": "1:2280f23c21b59122",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Linnen v. New York."
+    ],
+    "opinions": [
+      {
+        "text": "App. Div., S\u00fcp. Ct. N. Y., 4th Jud. Dept. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8567.\nLinnen v. New York."
+  },
+  "file_name": "0924-15",
+  "first_page_order": 800,
+  "last_page_order": 800
+}

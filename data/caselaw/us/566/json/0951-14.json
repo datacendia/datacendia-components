@@ -1,0 +1,59 @@
+{
+  "id": 12207648,
+  "name": "Freeman v. United States",
+  "name_abbreviation": "Freeman v. United States",
+  "decision_date": "2012-04-16",
+  "docket_number": "No. 11-9203",
+  "first_page": "951",
+  "last_page": "951",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 951"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.624,
+    "sha256": "cb60a71c64654c13378d3590bed0a64d1257ab9368619e386bcc806cae55a561",
+    "simhash": "1:950a9b028d2c9e76",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Freeman v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9203.\nFreeman v. United States."
+  },
+  "file_name": "0951-14",
+  "first_page_order": 827,
+  "last_page_order": 827
+}

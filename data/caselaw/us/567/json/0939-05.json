@@ -1,0 +1,59 @@
+{
+  "id": 12411859,
+  "name": "Walker v. Smith, Warden",
+  "name_abbreviation": "Walker v. Smith",
+  "decision_date": "2012-06-25",
+  "docket_number": "No. 11-9924",
+  "first_page": "939",
+  "last_page": "939",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 939"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.701,
+    "sha256": "593cdc8758ffbb2672d4a15759cec79cd807aff16ebe56933dbe68f246d0683f",
+    "simhash": "1:868a2382ee1f98a6",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Walker v. Smith, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9924.\nWalker v. Smith, Warden."
+  },
+  "file_name": "0939-05",
+  "first_page_order": 843,
+  "last_page_order": 843
+}

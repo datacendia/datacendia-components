@@ -1,0 +1,61 @@
+{
+  "id": 12228851,
+  "name": "LaFreniere v. Regents of the University of California",
+  "name_abbreviation": "LaFreniere v. Regents of the University of California",
+  "decision_date": "2011-10-11",
+  "docket_number": "No. 11-5790",
+  "first_page": "960",
+  "last_page": "960",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 960"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 25,
+    "char_count": 181,
+    "ocr_confidence": 0.625,
+    "sha256": "4db71226a9094d768457d62ac932abd1b899cb1388a1d8c6db8d7a054d08323d",
+    "simhash": "1:98f32080610fc0c6",
+    "word_count": 29
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Breyer took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "LaFreniere v. Regents of the University of California."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.\nJustice Breyer took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5790.\nLaFreniere v. Regents of the University of California."
+  },
+  "file_name": "0960-04",
+  "first_page_order": 1042,
+  "last_page_order": 1042
+}

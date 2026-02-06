@@ -1,0 +1,113 @@
+{
+  "id": 4335287,
+  "name": "FLORES-VILLAR v. UNITED STATES",
+  "name_abbreviation": "Flores-Villar v. United States",
+  "decision_date": "2011-06-13",
+  "docket_number": "No. 09-5801",
+  "first_page": "210",
+  "last_page": "210",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 210"
+    },
+    {
+      "type": "parallel",
+      "cite": "180 L. Ed. 2d 222"
+    },
+    {
+      "type": "parallel",
+      "cite": "131 S. Ct. 2312"
+    },
+    {
+      "type": "vendor",
+      "cite": "2011 U.S. LEXIS 4378"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2010-061"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "559 U. S. 1105",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12449007,
+        12449009,
+        12449010,
+        12449011,
+        12449012,
+        12449013,
+        12449169,
+        12449170,
+        12449171,
+        12449172
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/l-ed-2d/176/0921-04",
+        "/l-ed-2d/176/0921-06",
+        "/l-ed-2d/176/0921-07",
+        "/l-ed-2d/176/0922-01",
+        "/l-ed-2d/176/0922-02",
+        "/l-ed-2d/176/0922-03",
+        "/l-ed-2d/176/0942-01",
+        "/l-ed-2d/176/0942-02",
+        "/l-ed-2d/176/0942-03",
+        "/l-ed-2d/176/0942-04"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 155,
+    "char_count": 1417,
+    "ocr_confidence": 0.529,
+    "pagerank": {
+      "raw": 2.826699014468477e-07,
+      "percentile": 0.8342767294957176
+    },
+    "sha256": "3a0c33e55137e0637bd16ba4300a46849716918915624588b6c3bc6731606a3b",
+    "simhash": "1:a7cc59437cdeb288",
+    "word_count": 236
+  },
+  "last_updated": "2024-02-27T23:47:04.462735+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "FLORES-VILLAR v. UNITED STATES"
+    ],
+    "opinions": [
+      {
+        "text": "Per Curiam.\nThe judgment is affirmed by an equally divided Court.\nJustice Kagan\ntook no part in the consideration or decision of this case.",
+        "type": "majority",
+        "author": "Per Curiam. Justice Kagan"
+      }
+    ],
+    "attorneys": [
+      "Steven F. Hubachek, by appointment of the Court, 559 U. S. 1105, argued the cause for petitioner. With him on the briefs were Elizabeth M. Barros and Vincent J. Brunkow.",
+      "Deputy Solicitor General Kneedler argued the cause for the United States. With him on the brief were Acting Solicitor General Katyal, Assistant Attorneys General West and Breuer, Sarah E. Harrington, Donald E. Keener, Carol Federighi, Robert N Markle, and William C. Brown."
+    ],
+    "corrections": "",
+    "head_matter": "FLORES-VILLAR v. UNITED STATES\nNo. 09-5801.\nArgued November 10, 2010\nDecided June 13, 2011\nSteven F. Hubachek, by appointment of the Court, 559 U. S. 1105, argued the cause for petitioner. With him on the briefs were Elizabeth M. Barros and Vincent J. Brunkow.\nDeputy Solicitor General Kneedler argued the cause for the United States. With him on the brief were Acting Solicitor General Katyal, Assistant Attorneys General West and Breuer, Sarah E. Harrington, Donald E. Keener, Carol Federighi, Robert N Markle, and William C. Brown.\nBriefs of amici curiae urging reversal were filed for the American Civil Liberties Union et al. by Sandra S. Park, Steven R. Shnpiro, T.enma M. Lapidus, Lee Gelernt, Lucas Guttentag, Jennifer Chang Newell, and David Blair Loy; for Equality Now et al. by Martha F. Davis; for the National Immigrant Justice Center et al. by Brian J. Murray, Charles Roth, and Stephen W. Manning; for the National Women\u2019s Law Center et al. by Deanne E. Maynard, Brian R. Matsui, Seth M. Galanter, Marcia D. Croenberger, and Dina R. Lrnsow; for Profceoors of History ot al. by Lorclie S. Masters and Lindsay C. Harrison; and for Scholars on Statelessness by Max Gitter.\nMichael M. Hethmon filed a brief for the Immigration Reform Law Institute as amicus curiae."
+  },
+  "file_name": "0210-01",
+  "first_page_order": 254,
+  "last_page_order": 254
+}

@@ -1,0 +1,837 @@
+{
+  "id": 5925792,
+  "name": "BOARD OF TRUSTEES OF THE LELAND STANFORD JUNIOR UNIVERSITY v. ROCHE MOLECULAR SYSTEMS, INC., et al.",
+  "name_abbreviation": "Board of Trustees of the Leland Stanford Junior University v. Roche Molecular Systems, Inc.",
+  "decision_date": "2011-06-06",
+  "docket_number": "No. 09-1159",
+  "first_page": "776",
+  "last_page": "803",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 776"
+    },
+    {
+      "type": "parallel",
+      "cite": "180 L. Ed. 2d 1"
+    },
+    {
+      "type": "parallel",
+      "cite": "131 S. Ct. 2188"
+    },
+    {
+      "type": "vendor",
+      "cite": "2011 U.S. LEXIS 4183"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2010-055"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "545 U. S. 75",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8208840
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "104",
+          "parenthetical": "interpreting the phrase \" 'the United States shall retain title to all property'\" to mean that \"[t]he United States . . . retained title to its property located within Alaska's borders\" (emphasis added)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/545/0075-01"
+      ]
+    },
+    {
+      "cite": "35 U. S. C. \u00a7\u00a7 210",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "531 U. S. 457",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9505769
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "468",
+          "parenthetical": "\"Congress ... does not alter the fundamental details of a regulatory scheme in vague terms or ancillary provisions\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/531/0457-01"
+      ]
+    },
+    {
+      "cite": "35 U. S. C. \u00a7\u00a7 201",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(e)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "85 U. S. C. \u00a7 210",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "206 U. S. 246",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6931376
+      ],
+      "year": 1907,
+      "pin_cites": [
+        {
+          "page": "259",
+          "parenthetical": "interpreting the phrase \"works of the United States\" to mean \"works . . . belonging to the United States\" (internal quotation marks omitted)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/206/0246-01"
+      ]
+    },
+    {
+      "cite": "556 U. S. 646",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3653462
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "647, 657",
+          "parenthetical": "treating the phrase \"identification [papers] of another person\" as meaning such items belonging to another person (internal quotation marks omitted)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/556/0646-01"
+      ]
+    },
+    {
+      "cite": "282 U. S. 101",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6931648
+      ],
+      "year": 1930,
+      "pin_cites": [
+        {
+          "page": "109"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/282/0101-01"
+      ]
+    },
+    {
+      "cite": "533 U. S. 167",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9312991
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "174",
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/533/0167-01"
+      ]
+    },
+    {
+      "cite": "35 U. S. C. \u00a7 202",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)",
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 U. S. C. \u00a7 5908",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "51 U. S. C. \u00a7 20135",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(b)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "124 Stat. 3339",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 U. S. C. \u00a72182",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "289 U. S. 178",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3917708
+      ],
+      "weight": 5,
+      "year": 1933,
+      "pin_cites": [
+        {
+          "page": "188",
+          "parenthetical": "an inventor owns \"the product of [his] original thought\""
+        },
+        {
+          "page": "187",
+          "parenthetical": "\"A patent is property and title to it can pass only by assignment\""
+        },
+        {
+          "page": "189"
+        },
+        {
+          "page": "187",
+          "parenthetical": "\"The respective rights and obligations of employer and employee, touching an invention conceived by the latter, spring from the contract of employment\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/289/0178-01"
+      ]
+    },
+    {
+      "cite": "137 U. S. 342",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3547421
+      ],
+      "year": 1890,
+      "pin_cites": [
+        {
+          "page": "346",
+          "parenthetical": "\"whatever invention [an inventor] may thus conceive and perfect is his individual property\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/137/0342-01"
+      ]
+    },
+    {
+      "cite": "10 How. 477",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        3358699
+      ],
+      "year": 1851,
+      "pin_cites": [
+        {
+          "page": "498",
+          "parenthetical": "\"the discoverer of a new and useful improvement is vested by law with an inchoate right to its exclusive use, which he may perfect and make absolute by proceeding in the manner which the law requires\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/51/0477-01"
+      ]
+    },
+    {
+      "cite": "35 U. S. C. \u00a7 101",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "1 Stat. 109",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "562 U. S. 1001",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6020481,
+        6016795,
+        12438301,
+        12438302,
+        12438303,
+        12438304,
+        5972149,
+        12438587,
+        12438588,
+        12438589,
+        12438590,
+        12438591,
+        12438592,
+        12438593,
+        12438594,
+        12438595,
+        12438596,
+        12438597,
+        5947986,
+        5939575,
+        5937406
+      ],
+      "year": 2010,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/562/1001-06",
+        "/us/562/1001-05",
+        "/l-ed-2d/178/0368-02",
+        "/l-ed-2d/178/0368-03",
+        "/l-ed-2d/178/0368-04",
+        "/l-ed-2d/178/0368-05",
+        "/us/562/1001-04",
+        "/l-ed-2d/178/0408-06",
+        "/l-ed-2d/178/0408-07",
+        "/l-ed-2d/178/0409-01",
+        "/l-ed-2d/178/0409-02",
+        "/l-ed-2d/178/0409-03",
+        "/l-ed-2d/178/0409-04",
+        "/l-ed-2d/178/0409-05",
+        "/l-ed-2d/178/0409-06",
+        "/l-ed-2d/178/0409-07",
+        "/l-ed-2d/178/0409-08",
+        "/l-ed-2d/178/0409-09",
+        "/us/562/1001-03",
+        "/us/562/1001-02",
+        "/us/562/1001-01"
+      ]
+    },
+    {
+      "cite": "583 F. 3d 832",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5757090
+      ],
+      "weight": 5,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "841-842"
+        },
+        {
+          "page": "844-845"
+        },
+        {
+          "page": "836-837"
+        },
+        {
+          "page": "849"
+        },
+        {
+          "page": "838"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/583/0832-01"
+      ]
+    },
+    {
+      "cite": "487 F. Supp. 2d 1099",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        4080374
+      ],
+      "weight": 5,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "1111, 1115"
+        },
+        {
+          "page": "1117"
+        },
+        {
+          "page": "1117, 1119"
+        },
+        {
+          "page": "1118"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/487/1099-01"
+      ]
+    },
+    {
+      "cite": "85 U. S. C. \u00a7200",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "939 F. 2d 1568",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10532644
+      ],
+      "year": 1991,
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/939/1568-01"
+      ]
+    },
+    {
+      "cite": "487 F. Supp. 2d 1099",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        4080374
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "1118",
+          "parenthetical": "\"[A]l-though title still vests in the named inventor, the inventor remains under a legal obligation to assign his interest either to the government or the nonprofit contractor unless the inventor acts within the statutory framework to retain title\""
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/f-supp-2d/487/1099-01"
+      ]
+    },
+    {
+      "cite": "28 Fed. Cl. 354",
+      "category": "reporters:specialty",
+      "reporter": "Fed. Cl.",
+      "case_ids": [
+        758445
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "364"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/fed-cl/28/0354-01"
+      ]
+    },
+    {
+      "cite": "164 F. 3d 267",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1381207
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "269",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/f3d/164/0267-01"
+      ]
+    },
+    {
+      "cite": "545 F. 2d 1073",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1014796
+      ],
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "1076-1077"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/f2d/545/1073-01"
+      ]
+    },
+    {
+      "cite": "67 Yale L. J. 847",
+      "category": "journals:journal",
+      "reporter": "Yale L.J.",
+      "year": 1958,
+      "pin_cites": [
+        {
+          "page": "854, n. 27",
+          "parenthetical": "\"The rule generally applicable grants equitable enforcement to an assignment of an expectancy but demands a further act, either reduction to possession or further assignment of the right when it comes into existence\""
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "35 U. S. C. \u00a7 200",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "opinion_index": 2
+    },
+    {
+      "cite": "45 CFR \u00a7 650.4",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "(b)",
+          "parenthetical": "National Science Foundation regulations providing that Foundation would \"determine the disposition of the invention [made under the grant] and title to and rights under any patent application\""
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "88 Stat. 1887",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "124 Stat. 3444",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "42 U. S. C. \u00a72457",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "72 Stat. 435",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "68 Stat. 944",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "796 F. 2d 451",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1619813,
+        3508302
+      ],
+      "weight": 2,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "455-456",
+          "parenthetical": "holding Executive Order constitutional and finding \"no 'taking' because the invention was not the property of Heinemann\""
+        },
+        {
+          "page": "455-456"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/f2d/796/0451-01",
+        "/cl-ct/10/0451-01"
+      ]
+    },
+    {
+      "cite": "37 CFR \u00a7 501.6",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "year": 2010,
+      "pin_cites": [
+        {
+          "parenthetical": "codifying, as amended, Exec. Order No. 10096, 3 CFR 292 (1949-1953 Comp.)"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "548 U. S. 124",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3500354
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "128",
+          "parenthetical": "Breyer, J., dissenting from dismissal of certiorari as improvidently granted"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/548/0124-01"
+      ]
+    },
+    {
+      "cite": "561 U. S. 593",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3644410,
+        12455287
+      ],
+      "weight": 2,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "601"
+        },
+        {
+          "page": "622",
+          "parenthetical": "Stevens, J., concurring in judgment"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/561/0593-01",
+        "/l-ed-2d/177/0792-01"
+      ]
+    },
+    {
+      "cite": "347 U. S. 201",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11300002
+      ],
+      "year": 1954,
+      "pin_cites": [
+        {
+          "page": "219"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/347/0201-01"
+      ]
+    },
+    {
+      "cite": "35 U. S. C. \u00a7\u00a7 202-203",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "35 U. S. C. \u00a7\u00a7200-212",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "939 F. 2d 1568",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10532644
+      ],
+      "weight": 2,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "1572"
+        },
+        {
+          "page": "1572"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/f2d/939/1568-01"
+      ]
+    },
+    {
+      "cite": "42 U. S. C. \u00a7 5908",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "42 U. S. C. \u00a72182",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "289 U. S. 178",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3917708
+      ],
+      "weight": 6,
+      "year": 1933,
+      "pin_cites": [
+        {
+          "page": "187"
+        },
+        {
+          "page": "188"
+        },
+        {
+          "page": "189-190"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/289/0178-01"
+      ]
+    },
+    {
+      "cite": "583 F. 3d 832",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5757090
+      ],
+      "weight": 3,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "841-842"
+        },
+        {
+          "page": "842"
+        },
+        {
+          "page": "841-842"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/f3d/583/0832-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1797,
+    "char_count": 49109,
+    "ocr_confidence": 0.587,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.17192025481022252
+    },
+    "sha256": "7b23652120be9785e8af5b6cda695936f8625ba3bf332d5638ebf23122518c30",
+    "simhash": "1:b2c325d32c07d18c",
+    "word_count": 7806
+  },
+  "last_updated": "2024-02-27T23:44:09.189648+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Roberts, C. J., delivered the opinion of the Court, in which Scalia, Kennedy, Thomas, Alito, Sotomayor, and Kagan, JJ., joined. Soto-mayor, J., filed a concurring opinion, post, p. 794. Breyer, J., filed a dissenting opinion, in which Ginsburg, J., joined, post, p. 794."
+    ],
+    "parties": [
+      "BOARD OF TRUSTEES OF THE LELAND STANFORD JUNIOR UNIVERSITY v. ROCHE MOLECULAR SYSTEMS, INC., et al."
+    ],
+    "opinions": [
+      {
+        "text": "Chief Justice Roberts\ndelivered the opinion of the Court.\nSince 1790, the patent law has operated on the premise that rights in an invention belong to the inventor. The question here is whether the University and Small Business Patent Procedures Act of 1980 \u2014 commonly referred to as the Bayh-Dole Act \u2014 displaces that norm and automatically vests title to federally funded inventions in federal contractors. We hold that it does not.\nI\nA\nIn 1985, a small California research company called Cetus began to develop methods for quantifying blood-borne levels of human immunodeficiency virus (HIV), the virus that causes AIDS. A Nobel Prize winning technique developed at Cetus \u2014 polymerase chain reaction, or PCR \u2014 was an integral part of these efforts. PCR allows billions of copies of DNA sequences to be made from a small initial blood sample.\nIn 1988, Cetus began to collaborate with scientists at Stanford University\u2019s Department of Infectious Diseases to test the efficacy of new AIDS drugs. Dr. Mark Holodniy joined Stanford as a research fellow in the department around that time. When he did so, he signed a Copyright and Patent Agreement (CPA) stating that he \u201cagree[d] to assign\u201d to Stanford his \u201cright, title and interest in\u201d inventions resulting from his employment at the University. App. to Pet. for Cert. 118a-119a.\nAt Stanford Holodniy undertook to develop an improved method for quantifying HIV levels in patient blood samples, using PCR. Because Holodniy was largely unfamiliar with PCR, his supervisor arranged for him to conduct research at Cetus. As a condition of gaining access to Cetus, Holodniy signed a Visitor\u2019s Confidentiality Agreement (VCA). That agreement stated that Holodniy \u201cwill assign and do[es] hereby assign\u201d to Cetus his \u201cright, title, and interest in each of the ideas, inventions and improvements\u201d made \u201cas a consequence of [his] access\u201d to Cetus. Id., at 122a-124a.\nFor the next nine months, Holodniy conducted research at Cetus. Working with Cetus employees, Holodniy devised a PCR-based procedure for calculating the amount of HIV in a patient\u2019s blood. That technique allowed doctors to determine whether a patient was benefiting from HIV therapy.\nHolodniy then returned to Stanford where he and other University employees tested the HIV measurement technique. Over the next few years, Stanford obtained written assignments of rights from the Stanford employees involved in refinement of the technique, including Holodniy, and filed several patent applications related to the procedure. Stanford secured three patents to the HIV measurement process.\nIn 1991, Roche Molecular Systems, a company that specializes in diagnostic blood screening, acquired Cetus\u2019s PCR-related assets, including all rights Cetus had obtained through agreements like the VC A signed by Holodniy. After conducting clinical trials on the HIV quantification method developed at Cetus, Roche commercialized the procedure. Today, Roche\u2019s HIV test \u201ckits are used in hospitals and AIDS clinics worldwide.\u201d Brief for Respondents 10-11.\nB\nIn 1980, Congress passed the Bayh-Dole Act to \u201cpromote the utilization of inventions arising from federally supported research,\u201d \u201cpromote collaboration between commercial concerns and nonprofit organizations,\u201d and \u201censure that the Government obtains sufficient rights in federally supported inventions.\u201d 85 U. S. C. \u00a7200. To achieve these aims, the Act allocates rights in federally funded \u201csubject invention[s]\u201d between the Federal Government and federal contractors (\u201cany person, small business firm, or nonprofit organization that is a party to a funding agreement\u201d). \u00a7\u00a7 201(e), (c), 202(a). The Act defines \u201csubject invention\u201d as \u201cany invention of the contractor conceived or first actually reduced to practice in the performance of work under a funding agreement.\u201d \u00a7 201(e).\nThe Bayh-Dole Act provides that contractors may \u201celect to retain title to any subject invention.\u201d \u00a7 202(a). To be able to retain title, a contractor must fulfill a number of obligations imposed by the statute. The contractor must \u201cdisclose each subject invention to the [relevant] Federal agency within a reasonable time\u201d; it must \u201cmake a written election within two years after disclosure\u201d stating that the contractor opts to retain title to the invention; and the contractor must \u201cfile a patent application prior to any statutory bar date.\u201d \u00a7\u00a7202(c)(l)-(3). The \u201cFederal Government may receive title\u201d to a subject invention if a contractor fails to comply with any of these obligations. Ibid.\nThe Government has several rights in federally funded subject inventions under the Bayh-Dole Act. The agency that granted the federal funds receives from the contractor \u201ca nonexclusive, nontransferrable, irrevocable, paid-up license to practice . . . [the] subject invention.\u201d \u00a7 202(c)(4). The agency also possesses \u201c[m]arch-in rights,\u201d which permit the agency to grant a license to a responsible third party under certain circumstances, such as when the contractor fails to take \u201ceffective steps to achieve practical application\u201d of the invention. \u00a7203. The Act further provides that when the contractor does not elect to retain title to a subject invention, the Government \u201cmay consider and after consultation with the contractor grant requests for retention of rights by the inventor.\u201d \u00a7 202(d).\nSome of Stanford\u2019s research related to the HIV measurement technique was funded by the National Institutes of Health (NIH), thereby subjecting the invention to the BayhDole Act. Accordingly, Stanford disclosed the invention, conferred on the Government a nonexclusive, nontransferable, paid-up license to use the patented procedure, and formally notified NIH that it elected to retain title to the invention.\nC\nIn 2005, the Board of Trustees of Stanford University filed suit against Roche Molecular Systems, Inc., Roche Diagnostics Corporation, and Roche Diagnostics Operations, Inc. (collectively Roche), contending that Roche\u2019s HIV test kits infringed Stanford\u2019s patents. As relevant here, Roche responded by asserting that it was a eo-owner of the HIV quantification procedure, based on Holodniy\u2019s assignment of his rights in the VCA. As a result, Roche argued, Stanford lacked standing to sue it for patent infringement. 487 F. Supp. 2d 1099, 1111, 1115 (ND Cal. 2007). Stanford claimed that Holodniy had no rights to assign because the University\u2019s HIV research was federally funded, giving the school superior rights in the invention under the Bayh-Dole Act. Ibid.\nThe District Court held that the \u201cVCA effectively assigned any rights that Holodniy had in the patented invention to Cetus,\u201d and thus to Roche. Id., at 1117. But because of the operation of the Bayh-Dole Act, \u201cHolodniy had no interest to assign.\u201d Id., at 1117, 1119. The court concluded that the Bayh-Dole Act \u201cprovides that the individual inventor may obtain title\u201d to a federally funded invention \u201conly after the government and the contracting party have declined to do so.\u201d Id., at 1118.\nThe Court of Appeals for the Federal Circuit disagreed. First, the court concluded that Holodniy\u2019s initial agreement with Stanford in the CPA constituted a mere promise to assign rights in the future, unlike Holodniy\u2019s agreement with Cetus in the VCA, which itself assigned Holodniy\u2019s rights in the invention to Cetus. See 583 F. 3d 832, 841-842 (2009). Therefore, as a matter of contract law, Cetus obtained Holodniy\u2019s rights in the HIV quantification technique through the VCA. Next, the court explained that the Bayh-Dole Act \u201cdoes not automatically void ab initio the inventors\u2019 rights in government-funded inventions\u201d and that the \u201cstatutory scheme did not automatically void the patent rights that Cetus received from Holodniy.\u201d Id., at 844-845. The court held that \u201cRoche possesse[d] an ownership interest in the patents-in-suit\u201d that was not extinguished by the Bayh-Dole Act, \u201cdepriv[ing] Stanford of standing.\u201d Id., at 836-837. The Court of Appeals then remanded the case with instructions to dismiss Stanford\u2019s infringement claim. Id., at 849.\nWe granted certiorari. 562 U. S. 1001 (2010).\nII\nA\nCongress has the authority \u201c[t]o promote the Progress of Science and useful Arts, by securing ... to Authors and Inventors the exclusive Right to their respective Writings and Discoveries.\u201d U. S. Const., Art. I, \u00a78, cl. 8. The First Congress put that power to use by enacting the Patent Act of 1790. That Act provided \u201c[t]hat upon the petition of any person or persons . . . setting forth, that he, she, or they, hath or have invented or discovered\u201d an invention, a patent could be granted to \u201csuch petitioner or petitioners\u201d or \u201ctheir heirs, administrators or assigns.\u201d Act of Apr. 10, 1790, \u00a7 1, 1 Stat. 109-110. Under that law, the first patent was granted in 1790 to Samuel Hopkins, who had devised an improved method for making potash, America\u2019s first industrial chemical. U. S. Patent No. XI (issued July 81, 1790).\nAlthough much in intellectual property law has changed in the 220 years sinee the first Patent Act, the basic idea that inventors have the right to patent their inventions has not. Under the law in its current form, \u201c[wjhoever invents or discovers any new and useful process, machine, manufacture, or composition of matter... may obtain a patent therefor.\u201d 35 U. S. C. \u00a7 101. The inventor must attest that \u201che believes himself to be the original and first inventor of the [invention] for which he solicits a patent.\u201d \u00a7 115. In most cases, a patent may be issued only to an applying inventor, or \u2014 because an inventor\u2019s interest in his invention is \u201cassignable in law by an instrument in writing\u201d \u2014 an inventor\u2019s assignee. \u00a7\u00a7151,152, 261.\nOur precedents confirm the general rule that rights in an invention belong to the inventor. See, e. g., Gayler v. Wilder, 10 How. 477, 498 (1851) (\u201cthe discoverer of a new and useful improvement is vested by law with an inchoate right to its exclusive use, which he may perfect and make absolute by proceeding in the manner which the law requires\u201d); Solo mons v. United States, 137 U. S. 342, 346 (1890) (\u201cwhatever invention [an inventor] may thus conceive and perfect is his individual property\u201d); United States v. Dubilier Condenser Corp., 289 U. S. 178, 188 (1933) (an inventor owns \u201cthe product of [his] original thought\u201d). The treatises are to the same effect. See, e. g., 8 D. Chisum, Patents \u00a722.01, p. 22-2 (2011) (\u201cThe presumptive owner of the property right in a patentable invention is the single human inventor\u201d).\nIt is equally well established that an inventor can assign his rights in an invention to a third party. See Dubilier Condenser Corp., supra, at 187 (\u201cA patent is property and title to it can pass only by assignment\u201d); 8 Chisum, supra, \u00a722.01, at 22-2 (\u201cThe inventor . . . [may] transfer ownership interests by written assignment to anyone\u201d). Thus, although others may acquire an interest in an invention, any such interest \u2014 as a general rule \u2014 must trace back to the inventor.\nIn accordance with these principles, we have recognized that unless there is an agreement to the contrary, an employer does not have rights in an invention \u201cwhich is the original conception of the employee alone.\u201d Dubilier Condenser Corp., 289 U. S., at 189. Such an invention \u201cremains the property of him who conceived it.\u201d Ibid. In most circumstances, an inventor must expressly grant his rights in an invention to his employer if the employer is to obtain those rights. See id., at 187 (\u201cThe respective rights and obligations of employer and employee, touching an invention conceived by the latter, spring from the contract of employment\u201d).\nB\nStanford and the United States as amicus curiae contend that the Bayh-Dole Act reorders the normal priority of rights in an invention when the invention is conceived or first reduced to practice with the support of federal funds. In their view, the Act moves inventors from the front of the line to the back by vesting title to federally funded inventions in the inventor\u2019s employer \u2014 the federal contractor. See Brief for Petitioner 26-27; Brief for United States as Amicus Curiae 6.\nCongress has in the past divested inventors of their rights in inventions by providing unambiguously that inventions created pursuant to specified federal contracts become the property of the United States. For example, with respect to certain contracts dealing with nuclear material and atomic energy, Congress provided that title to such inventions \u201cshall be vested in, and be the property of, the [Atomic Energy] Commission.\u201d 42 U. S. C. \u00a72182. Congress has also enacted laws requiring that title to certain inventions made pursuant to contracts with the National Aeronautics and Space Administration \u201cshall be the exclusive property of the United States,\u201d Pub. L. 111-314, \u00a73, 124 Stat. 3339, 51 U. S. C. \u00a7 20135(b)(1), and that title to certain inventions under contracts with the Department of Energy \u201cshall vest in the United States,\u201d 42 U. S. C. \u00a7 5908.\nSuch language is notably absent from the Bayh-Dole Act. Nowhere in the Act is title expressly vested in contractors or anyone else; nowhere in the Act are inventors expressly deprived of their interest in federally funded inventions. Instead, the Act provides that contractors may \u201celect to retain title to any subject invention.\u201d 35 U. S. C. \u00a7 202(a). A \u201csubject invention\u201d is defined as \u201cany invention of the contractor conceived or first actually reduced to practice in the performance of work under a funding agreement.\u201d \u00a7 201(e).\nStanford asserts that the phrase \u201cinvention of the contractor\u201d in this provision \u201cis naturally read to include all inventions made by the contractor\u2019s employees with the aid of federal funding.\u201d Brief for Petitioner 32 (footnote omitted). That reading assumes that Congress subtly set aside two centuries of patent law in a statutory definition. It also renders the phrase \u201cof the contractor\u201d superfluous. If the phrase \u201cof the contractor\u201d were deleted from the definition of \u201csubject invention,\u201d the definition would cover \u201cany invention ... conceived or first actually reduced to practice in the performance of work under a funding agreement.\u201d Reading \u201cof the contractor\u201d to mean \u201call inventions made by the contractor\u2019s employees with the aid of federal funding,\u201d as Stanford would, adds nothing that is not already in the definition, since the definition already covers inventions made under the funding agreement. That is contrary to our general \u201creluctan[ce] to treat statutory terms as surplusage.\u201d Duncan v. Walker, 533 U. S. 167, 174 (2001) (internal quotation marks omitted).\nConstruing the phrase to refer instead to a particular category of inventions conceived or reduced to practice under a funding agreement \u2014 inventions \u201cof the contractor,\u201d that is, those owned by or belonging to the contractor \u2014 makes the phrase meaningful in the statutory definition. And \u201cinvention owned by the contractor\u201d or \u201cinvention belonging to the contractor\u201d are natural readings of the phrase \u201cinvention of the contractor.\u201d As we have explained, \u201c[t]he use of the word \u2018of\u2019 denotes ownership.\u201d Poe v. Seaborn, 282 U. S. 101, 109 (1930); see Flores-Figueroa v. United States, 556 U. S. 646, 647, 657 (2009) (treating the phrase \u201cidentification [papers] of another person\u201d as meaning such items belonging to another person (internal quotation marks omitted)); Ellis v. United States, 206 U. S. 246, 259 (1907) (interpreting the phrase \u201cworks of the United States\u201d to mean \u201cworks . . . belonging to the United States\u201d (internal quotation marks omitted)).\nThat reading follows from a common definition of the word \u201cof.\u201d See Webster\u2019s Third New International Dictionary 1565 (2002) (\u201cof\u201d can be \u201cused as a function word indicating a possessive relationship\u201d); New Oxford American Dictionary 1180 (2d ed. 2005) (defining \u201cof\u201d as \u201cindicating an association between two entities, typically one of belonging\u201d); Webster\u2019s New Twentieth Century Dictionary 1241 (2d ed. 1979) (defining \u201cof\u201d as \u201cbelonging to\u201d).\nStanford\u2019s reading of the phrase \u201cinvention of the contractor\u201d to mean \u201call inventions made by the contractor\u2019s employees\u201d is plausible enough in the abstract; it is often the ease that whatever an employee produces in the course of his employment belongs to his employer. No one would claim that an autoworker who builds a car while working in a factory owns that car. But, as noted, patent law has always been different: We have rejected, the idea that mere employment is sufficient to vest title to an employee\u2019s invention in the employer. Against this background, a contractor\u2019s invention \u2014 an \u201cinvention of the contractor\u201d \u2014 does not automatically include inventions made by the contractor\u2019s employees.\nThe Bayh-Dole Act\u2019s provision stating that contractors may \u201celect to retain title\u201d confirms that the Act does not vest title. 35 U. S. C. \u00a7 202(a) (emphasis added). Stanford reaches the opposite conclusion, but only because it reads \u201cretain\u201d to mean \u201cacquire\u201d and \u201creceive.\u201d Brief for Petitioner 36 (internal quotation marks omitted). That is certainly not the common meaning of \u201cretain.\u201d \u201c[Rjetain\u201d means \u201cto hold or continue to hold in possession or use.\u201d Webster\u2019s Third, supra, at 1938; see Webster\u2019s New Collegiate Dictionary 980 (1980) (\u201cto keep in possession or use\u201d); American Heritage Dictionary 1109 (1969) (\u201c[t]o keep or hold in one\u2019s possession\u201d). You cannot retain something unless you already have it. See Alaska v. United States, 545 U. S. 75, 104 (2005) (interpreting the phrase \u201c 'the United States shall retain title to all property\u2019\u201d to mean that \u201c[t]he United States . . . retained title to its property located within Alaska\u2019s borders\u201d (emphasis added)). The Bayh-Dole Act does not confer title to federally funded inventions on contractors or authorize contractors to unilaterally take title to those inventions; it simply assures contractors that they may keep title to whatever it is they already have. Such a provision makes sense in a statute specifying the respective rights and responsibilities of federal contractors and the Government.\nThe Bayh-Dole Act states that it \u201ctake[s] precedence over any other Act which would require a disposition of rights in subject inventions ... that is inconsistent with\u201d the Act. 85 U. S. C. \u00a7 210(a). The United States as amicus curiae argues that this provision operates to displace the basic principle, codified in the Patent Act, that an inventor owns the rights to his invention. See Brief for United States 21. But because the Bayh-Dole Act, including \u00a7 210(a), applies only to \u201csubject inventions\u201d \u2014 \u201cinvention[s] of the contractor\u201d \u2014 it does not displace an inventor\u2019s antecedent title to his invention. Only when an invention belongs to the contractor does the Bayh-Dole Act come into play. The Act\u2019s disposition of rights \u2014 like much of the rest of the Bayh-Dole Act \u2014 serves to clarify the order of priority of rights between the Federal Government and a federal contractor in a federally funded invention that already belongs to the contractor. Nothing more.\nThe isolated provisions of the Bayh-Dole Act dealing with inventors\u2019 rights in subject inventions are consistent with our construction of the Act. Under the Act, a federal agency may \u201cgrant requests for retention of rights by the inventor\u201d \u201c[i]f a contractor does not elect to retain title to a subject invention.\u201d \u00a7 202(d). If an employee inventor never had title to his invention because title vested in the contractor by operation of law \u2014 as Stanford submits \u2014 it would be odd to allow the Government to grant \u201crequests for retention of rights by the inventor.\u201d By using the word \u201cretention,\u201d \u00a7 202(d) assumes that the inventor had rights in the subject invention at some point, undermining the notion that the Act automatically vests title to federally funded inventions in federal contractors.\nThe limited scope of the Act\u2019s procedural protections also bolsters our conclusion. The Bayh-Dole Act expressly confers on contractors the right to challenge a Government-imposed impediment to retaining title to a subject invention. \u00a7 202(b)(3) (2006 ed., Supp. III). As Roche correctly notes, however, \u201cthe Act contains not a single procedural protection for third parties that have neither sought nor received federal funds,\u201d such as cooperating private research institutions. Brief for Respondents 29. Nor does the Bayh-Dole Act allow inventors employed by federal .contractors to contest their employer\u2019s claim to a subject invention. The Act, for example, does not expressly permit an interested third party or an inventor to challenge a claim that a particular invention was supported by federal funding. In a world in which there is frequent collaboration between private entities, inventors, and federal contractors, see Brief for Pharmaceutieal Research and Manufacturers of America as Amicus Curiae 22-23, that absence would be deeply troubling. But the lack of procedures protecting inventor and third-party rights makes perfect sense if the Act applies only when a federal contractor has already acquired title to an inventor\u2019s interest. In that case, there is no need to protect inventor or third-party rights, because the only rights at issue are those of the contractor and the Government.\nThe Bayh-Dole Act applies to subject inventions \u201cconceived or first actually reduced to practice in the performance of work\u201d \u201cfunded in whole or in part by the Federal Government.\u201d 35 U. S. C. \u00a7\u00a7 201(e), 201(b) (2006 ed.) (emphasis added). Under Stanford\u2019s construction of the Act, title to one of its employee\u2019s inventions could vest in the University even if the invention was conceived before the inventor became a University employee, so long as the invention\u2019s reduction to practice was supported by federal funding. What is more, Stanford\u2019s reading suggests that the school would obtain title to one of its employee's inventions even if only one dollar of federal funding was applied toward the invention\u2019s conception or reduction to practice.\nIt would be noteworthy enough for Congress to supplant one of the fundamental precepts of patent law and deprive inventors of rights in their own inventions. To do so under such unusual terms would be truly surprising. We are confident that if Congress had intended such a sea change in intellectual property rights it would have said so clearly\u2014 not obliquely through an ambiguous definition of \u201csubject invention\u201d and an idiosyncratic use of the word \u201cretain.\u201d Cf. Whitman v. American Trucking Assns., Inc., 531 U. S. 457, 468 (2001) (\u201cCongress ... does not alter the fundamental details of a regulatory scheme in vague terms or ancillary provisions\u201d).\nThough unnecessary to our conclusion, it is worth noting that our construction of the Bayh-Dole Act is reflected in the common practice among parties operating under the Act. Contractors generally institute policies to obtain assignments from their employees. See Brief for Respondents 34; Brief for Pharmaceutical Research and Manufacturers of America as Amicus Curiae 13-18. Agencies that grant funds to federal contractors typically expect those contractors to obtain assignments. So it is with NIH, the agency that granted the federal funds at issue in this case. In guidance documents made available to contractors, NIH has made clear that \u201c[b]y law, an inventor has initial ownership of an invention\u201d and that contractors should therefore \u201chave in place employee agreements requiring an inventor to \u2018assign\u2019 or give ownership of an invention to the organization upon acceptance of Federal funds.\u201d NIH Policies, Procedures, and Forms, A \u201c20-20\u201d View of Invention Reporting to the National Institutes of Health (Sept. 22, 1995). Such guidance would be unnecessary if Stanford\u2019s reading of the statute were correct.\nStanford contends that reading the Bayh-Dole Act as not vesting title to federally funded inventions in federal contractors \u201cfundamentally undermin[es]\u201d the Act\u2019s framework and severely threatens its continued \u201csuccessful application.\u201d Brief for Petitioner 45. We do not agree. As just noted, universities typically enter into agreements with their employees requiring the assignment to the university of rights in inventions. With an effective assignment, those inventions \u2014 if federally funded \u2014 become \u201csubject inventions\u201d under the Act, and the statute as a practical matter works pretty much the way Stanford says it should. The only significant difference is that it does so without violence to the basic principle of patent law that inventors own their inventions.\nThe judgment of the Court of Appeals for the Federal Circuit is affirmed.\nIt is so ordered.\nRoche submitted a host of other claims to the District Court, including that it had \u201cshop rights\u201d to the patents and was entitled to a license to use the patents. See 583 F. 3d 832, 838 (CA Fed. 2009). None of those claims is now before us; we deal only with Roche\u2019s claim to co-ownership to rebut Stanford\u2019s standing to bring an infringement action.\nBecause the Federal Circuit\u2019s interpretation of the relevant assignment agreements is not an issue on which we granted certiorari, we have no occasion to pass on the validity of the lower court\u2019s construction of those agreements.\nThe patent was signed by President George Washington, Secretary of State Thomas Jefferson, and Attorney General Edmund Randolph. See Maxey, Samuel Hopkins, The Holder of the First U. S. Patent: A Study of Failure, 122 Pa. Magazine of Hist, and Biography 3, 6 (1998).\nThe dissent suggests that \u201cwe could interpret the Bayh-Dole Act as ordinarily assuming, and thereby ordinarily requiring, an assignment of patent rights by the federally funded employee to the federally funded employer.\u201d Post, at 801 (opinion of Breyer, J.). That suggestion is based in large part on Executive Order No. 10096, which \u201cgoverns Federal Government employee-to-employer patent right assignments.\u201d Post, at 802. Lest there be any doubt, employees of nonfederal entities that have federal funding contracts \u2014 like Holodniy \u2014 are not federal employees. And there is no equivalent Executive Order governing invention rights with respect to federally funded research; that issue is of course addressed by the Bayh-Dole Act.\nFar from superseding the Patent Act in such a backhanded way, it is clear that \u00a7210(a)\u2019s concern is far narrower. That provision specifies 21 different statutory provisions that the Bayh-Dole Act \u201ctake[s] precedence over,\u201d the vast majority of which deal with the division of ownership in certain inventions between a contractor and the Government. 35 U. S. C. \u00a7\u00a7 210(a)<l) \u2014 (21); see, e.g., \u00a7\u00a7210(a)(19)-(20) (the Bayh-Dole Act takes precedence over \u201csection 6(b) of the Solar Photovoltaic Energy Research Development and Demonstration Act\u201d and \u201csection 12 of the Native Latex Commercialization and Economic Development Act\u201d).\nStanford contends that it cannot be the case \u201cthat the contractor can only \u2018retain title\u2019 to an invention that it already owns, while an inventor may be considered for \u2018retention\u2019 of title only when he has assigned title away.\u201d Reply Brief for Petitioner 8. That argument has some force. But there may be situations where an inventor, by the terms of an assignment, has subsidiary rights in an invention to which a contractor has title, as \u00a7 202(d) suggests. Compare \u00a7 202(d) (\u201cretention of rights\u201d) with \u00a7 202(a) (\u201cretain title\u201d) (emphasis added). And at the end of the day, it is Stanford\u2019s contention that \u201cretain\u201d must be \u201cread as a synonym for \u2018acquire\u2019 or \u2018receive\u2019\u201d that dooms its argument on this point. Brief for Petitioner 37.",
+        "type": "majority",
+        "author": "Chief Justice Roberts"
+      },
+      {
+        "text": "Justice Sotomayor,\nconcurring.\nI agree with the Court\u2019s resolution of this case and with its reasoning. I write separately to note that I share Justice Breyer\u2019s concerns as to the principles adopted by the Court of Appeals for the Federal Circuit in FilmTec Corp. v. Allied-Signal Inc., 939 F. 2d 1568 (1991), and the application of those principles to agreements that implicate the BayhDole Act. See post, at 799-803 (dissenting opinion). Because Stanford failed to challenge the decision below on these grounds, I agree that the appropriate disposition is to affirm. Like the dissent, however, I understand the majority opinion to permit consideration of these arguments in a future ease. See ante, at 784, n. 2.",
+        "type": "concurrence",
+        "author": "Justice Sotomayor,"
+      },
+      {
+        "text": "Justice Breyer,\nwith whom Justice Ginsburg joins, dissenting.\nThe question presented in this case is:\n\u201cWhether a federal contractor university\u2019s statutory right under the Bayh-Dole Act, 35 U. S. C. \u00a7\u00a7200-212, in inventions arising from federally funded research can be terminated unilaterally by an individual inventor through a separate agreement purporting to assign the inventor\u2019s rights to a third party.\u201d Brief for Petitioner i.\nIn my view, the answer to this question is likely no. But because that answer turns on matters that have not been fully briefed (and are not resolved by the opinion of the Court), I would return this case to the Federal Circuit for further argument.\nI\nThe Bayh-Dole Act creates a three-tier system for patent rights ownership applicable to federally funded research conducted by nonprofit organizations, such as universities, and small businesses. It sets forth conditions that mean (1) the funded firm; (2) failing that, the United States Government; and (3) failing that, the employee who made the invention, will likely obtain (or retain) any resulting patent rights (normally in that just-listed order). 35 U. S. C. \u00a7\u00a7 202-203. The statute applies to \u201csubject invention[s]\u201d defined as \u201cany invention of the contractor conceived or first actually reduced to practice in the performance of work under a funding agreement.\u201d \u00a7 201(e) (emphasis added). Since the \u201ccontractor\u201d (e. g., a university or small business) is unlikely to \u201cconceiv[e]\u201d of an idea or \u201credue[e]\u201d it \u201cto practice\u201d other than through its employees, the term \u201cinvention of the contractor\u201d must refer to the work and ideas of those employees. We all agree that the term covers those employee inventions that the employee properly assigns to the contractor, i. e., his or her employer. But does the term \u201csubject invention\u201d also include inventions that the employee fails to assign properly?\nII\nCongress enacted this statute against a background norm that often, but not always, denies individual inventors patent rights growing out of research for which the public has already paid. This legal norm reflects the fact that patents themselves have both benefits and costs. Patents, for example, help to elicit useful inventions and research and to ensure public disclosure of technological advances. See, e. g., Mazer v. Stein, 347 U. S. 201, 219 (1954); Bilski v. Kappos, 561 U. S. 593, 601 (2010); id., at 622 (Stevens, J., concurring in judgment). But patents sometimes mean unnecessarily high prices or restricted dissemination; and they sometimes discourage further innovation and competition by requiring costly searches for earlier, related patents or by tying up ideas, which, were they free, would more effectively spur research and development. See, e. g., Laboratory Corp. of America Holdings v. Metabolite Laboratories, Inc., 548 U. S. 124, 128 (2006) (Breyer, J., dissenting from dismissal of certiorari as improvidently granted); Heller & Eisenberg, Can Patents Deter Innovation? The Anticommons in Biomedical Research, 280 Science 698 (1998).\nThus, Thomas Jefferson wrote of \u201cthe difficulty of drawing a line between the things which are worth to the public the embarrassment of an exclusive patent, and those which are not.\u201d Letter to Isaac McPherson (Aug. 13, 1813), in 6 Writings of Thomas Jefferson 181 (H. Washington ed. 1854). And James Madison favored the patent monopoly because it amounted to \u201ccompensation for\u201d a community \u201cbenefit.\u201d Monopolies. Perpetuities. Corporations. Ecclesiastical Endowments., in J. Madison, Writings 756 (J. Rakove ed. 1999).\nThe importance of ensuring this community \u201cbenefit\u201d is reflected in legal rules that may deny or limit the award of patent rights where the public has already paid to produce an invention, lest the public bear the potential costs of patent protection where there is no offsetting need for such protection to elicit that invention. Why should the public have to pay twice for the same invention?\nLegal rules of this kind include an Executive Order that ordinarily gives to the Government \u201cthe entire right, title and interest\u201d to inventions made by Government employees who \u201cconduct or perform research, development work, or both.\u201d 37 CFR \u00a7 501.6 (2010) (codifying, as amended, Exec. Order No. 10096, 3 CFR 292 (1949-1953 Comp.)). See also Heinemann v. United States, 796 F. 2d 451, 455-456 (CA Fed. 1986) (holding Executive Order constitutional and finding \u201cno 'taking\u2019 because the invention was not the property of Heinemann\u201d). They also include statutes, which, in specific research areas, give the Government title to inventions made pursuant to Government contracts. See Atomic Energy Act of 1954, \u00a7 152, 68 Stat. 944 (codified as amended at 42 U. S. C. \u00a72182); National Aeronautics and Space Act of 1958, \u00a7305, 72 Stat. 435 (codified at 42 U. S. C. \u00a72457), repealed by \u00a76, 124 Stat. 3444; Federal Nonnuclear Energy Research and Development Act of 1974, \u00a79, 88 Stat. 1887 (codified as amended at 42 U. S. C. \u00a7 5908(a)). And they have included Government regulations, established prior to the Bayh-Dole Act\u2019s enactment, that work in roughly similar ways. See, e.g., 45 CFR \u00a7 650.4(b) (1977) (National Science Foundation regulations providing that Foundation would \u201cdetermine the disposition of the invention [made under the grant] and title to and rights under any patent application\u201d); \u00a7\u00a7 8.1(a), 8.2(d) (Department of Health, Education, and Welfare regulations providing that inventions made under Department grants \u201cshall be subject to determination\u201d by the agency and that the Department may \u201crequire that all domestic rights in the invention shall be assigned to the United States\u201d).\nThese legal rules provide the basic background against which Congress passed the Bayh-Dole Act. And the Act\u2019s provisions reflect a related effort to ensure that rights to inventions arising out of research for which the public has paid are distributed and used in ways that further specific important public interests. I agree with the majority that the Act does not simply take the individual inventors\u2019 rights and grant them to the Government. Rather, it assumes that the federal funds\u2019 recipient, say, a university or small business, will possess those rights. The Act leaves those rights in the hands of that recipient, not because it seeks to make the public pay twice for the same invention, but for a special public policy reason. In doing so, it seeks to encourage those institutions to commercialize inventions that otherwise might not realize their potentially beneficial public use. 35 U. S. C. \u00a7 200. The Act helps ensure that commercialization (while \u201cpromot[ing] free competition\u201d and \u201cprotecting] the public,\u201d ibid.) by imposing a set of conditions upon the federal funds recipient, by providing that sometimes the Government will take direct control of the patent rights, and by adding that on occasion the Government will permit the individual inventor to retain those rights. \u00a7\u00a7202-203.\nGiven this basic statutory objective, I cannot so easily accept the majority\u2019s conclusion \u2014 that the individual inventor can lawfully assign an invention (produced by public funds) to a third party, thereby taking that invention out from under the Bayh-Dole Act\u2019s restrictions, conditions, and allocation rules. That conclusion, in my view, is inconsistent with the Act\u2019s basic purposes. It may significantly undercut the Act\u2019s ability to achieve its objectives. It allows individual inventors, for whose invention the public has paid, to avoid the Act\u2019s corresponding restrictions and conditions. And it makes the commercialization and marketing of such an invention more difficult: A potential purchaser of rights from the contractor, say, a university, will not know if the university itself possesses the patent right in question or whether, as here, the individual, inadvertently or deliberately, has previously assigned the title to a third party.\nMoreover, I do not agree that the language to which the majority points \u2014 the words \u201cinvention of the contractor\u201d and \u201cretain\u201d \u2014 requires its result. As the majority concedes, Stanford\u2019s alternative reading of the phrase \u201c\u2018invention of the contractor\u2019 \u201d is \u201cplausible enough in the abstract.\u201d Ante, at 788-789. Nor do I agree that the Act\u2019s lack of an explicit provision for \u201can interested third party\u201d to claim that an invention was not the result of federal funding \u201cbolsters\u201d the majority\u2019s interpretation. Ante, at 791. In any event, universities and businesses have worked out ways to protect the various participants to research. See Brief for Association of American Universities et al. as Amici Curiae 22-24 (hereinafter AAU Brief); App. 118-124 (Materials Transfer Agreement between Cetus and Stanford University).\nUltimately, the majority rejects Stanford\u2019s reading (and the Government\u2019s reading) of the Act because it believes that it is inconsistent with certain background norms of patent law, norms that ordinarily provide an individual inventor with full patent rights. Ante, at 789. But in my view, the competing norms governing rights in inventions for which the public has already paid, along with the Bayh-Dole Act\u2019s objectives, suggest a different result.\nIII\nThere are two different legal routes to what I consider an interpretation more consistent with the statute\u2019s objectives. First, we could set aside the Federal Circuit\u2019s interpretation of the licensing agreements and its related licensing doctrine. That doctrine governs interpretation of licensing agreements made before an invention is conceived or reduced to practice. Here, there are two such agreements. In the earlier agreement \u2014 that between Dr. Holodniy and Stanford University \u2014 Dr. Holodniy said, \u201cI agree to assign... to Stanford . . . that right, title and interest in and to . . . such inventions as required by Contracts or Grants.\u201d App. to Pet. for Cert. 119a (emphasis added). In the later agreement \u2014 that between Dr. Holodniy and the private research firm Cetus \u2014 Dr. Holodniy said, \u201cI will assign and do hereby assign to Cetus, my right, title, and interest in\u201d here relevant \u201cideas\u201d and \u201cinventions.\u201d Id., at 123a (emphasis added; capitalization omitted).\nThe Federal Circuit held that the earlier Stanford agreement\u2019s use of the words \u201cagree to assign,\u201d when compared with the later Cetus agreement\u2019s use of the words \u201cdo hereby assign,\u201d made all the difference. It concluded that, once the invention came into existence, the latter words meant that the Cetus agreement trumped the earlier, Stanford agreement. 583 F. 3d 832, 841-842 (2009). That, in the Circuit\u2019s view, is because the latter words operated upon the invention automatically, while the former did not. Quoting its 1991 opinion in FilmTec Corp. v. Allied-Signal Inc., 939 F. 2d 1568, 1572, the Circuit declared that \u201c \u2018[ojnce the invention is made and [the] application for [a] patent is filed, . . . legal title to the rights accruing thereunder would be in the assignee [i e., Cetus] . . . , and the assignor-inventor would have nothing remaining to assign.\u2019 \u201d 583 F. 3d, at 842.\nGiven what seem only slight linguistic differences in the contractual language, this reasoning seems to make too much of too little. Dr. Holodniy executed his agreement with Stanford in 1988. At that time, patent law appears to have long specified that a present assignment of future inventions (as in both contracts here) conveyed equitable, but not legal, title. See, e. g., G. Curtis, A Treatise on the Law of Patents for Useful Inventions \u00a7 170, p. 155 (3d ed. 1867) (\u201cA contract to convey a future invention . . . cannot alone authorize a patent to be taken by the party in whose favor such contract was intended to operate\u201d); Comment, Contract Rights as Commercial Security: Present and Future Intangibles, 67 Yale L. J. 847, 854, n. 27 (1958) (\u201cThe rule generally applicable grants equitable enforcement to an assignment of an expectancy but demands a further act, either reduction to possession or further assignment of the right when it comes into existence\u201d).\nUnder this rule, both the initial Stanford and later Cetus agreements would have given rise only to equitable interests in Dr. Holodniy\u2019s invention. And as between these two claims in equity, the facts that Stanford\u2019s contract came first and that Stanford subsequently obtained a postinvention assignment as well should have meant that Stanford, not Cetus, would receive the rights its contract conveyed.\nIn 1991, however, the Federal Circuit, in FilmTec, adopted the new rule quoted above \u2014 a rule that distinguishes between these equitable claims and, in effect, says that Cetus must win. The Federal Circuit provided no explanation for what seems a significant change in the law. See 939 F. 2d, at 1572. Nor did it give any explanation for that change in its opinion in this case. See 583 F. 3d, at 841-842. The Federal Circuit\u2019s FilmTec rule undercuts the objectives of the Bayh-Dole Act. While the cognoscenti may be able to meet the FilmTec rule in future contracts simply by copying the precise words blessed by the Federal Circuit, the rule nonetheless remains a technical drafting trap for the unwary. See AAU Brief 35-36. But cf. ante, at 793 (assuming ease of obtaining effective assignments). It is unclear to me why, where the Bayh-Dole Act is at issue, we should prefer the Federal Circuit\u2019s FilmTec rule to the rule, of apparently much longer vintage, that would treat both agreements in this case as creating merely equitable rights.\nAt the same time, the Federal Circuit\u2019s reasoning brings about an interpretation contrary to the intention of the parties to the earlier, Stanford, contract. See App. to Pet. for Cert. 120a (provision in Stanford contract promising that Dr. Holodniy \u201cwill not enter into any agreement creating copyright or patent obligations in conflict with this agreement\u201d). And it runs counter to what may well have been the drafters\u2019 reasonable expectations of how courts would interpret the relevant language.\nSecond, we could interpret the Bayh-Dole Act as ordinarily assuming, and thereby ordinarily requiring, an assignment of patent rights by the federally funded employee to the federally funded employer. I concede that this interpretation would treat federally funded employees of contractors (subject to the Act) differently than the law ordinarily treats private sector employees. The Court long ago described the latter, private sector principles. In United States v. Dubilier Condenser Corp., 289 U. S. 178 (1933), the Court explained that a \u201cpatent is property and title to it can pass only by assignment.\u201d Id., at 187. It then described two categories of private sector employee-to-employer assignments as follows: First, a person who is\n\u201cemployed to make an invention, who succeeds, during his term of service, in accomplishing that task, is bound to assign to his employer any patent obtained.\u201d Ibid.\nBut, second,\n\u201cif the employment be general, albeit it cover a field of labor and effort in the performance of which the employee conceived the invention for which he obtained a patent, the contract is not so broadly construed as to require an assignment of the patent.\u201d Ibid.\nThe Court added that, because of \u201cthe peculiar nature of the act of invention,\u201d courts are \u201creluctan[t]... to imply or infer an agreement by the employee to assign his patent.\u201d Id., at 188. And it applied these same principles governing assignment to inventions made by employees of the United States. Id., at 189-190.\nSubsequently, however, the President promulgated Executive Order No. 10096. Courts have since found that this Executive Order, not Dubilier, governs Federal Government employee-to-employer patent right assignments. See, e. g., Kaplan v. Corcoran, 545 F. 2d 1073, 1076-1077 (CA7 1976); Heinemann, 796 F. 2d, at 455-456; Wright v. United States, 164 F. 3d 267, 269 (CA5 1999) (per curiam); Halas v. United States, 28 Fed. Cl. 354, 364 (1993). The Bayh-Dole Act seeks objectives roughly analogous to the objectives of the Executive Order. At least one agency has promulgated regulations that require Bayh-Dole contractors to insist upon similar assignments. See NIH Policies, Procedures, and Forms, A \u201c20-20\" View of Invention Reporting to the National Institutes of Health (Sept. 22, 1995) (available in the Clerk of Court\u2019s case file) (requiring a Government contractor, such as Stanford University, to \u201chave in place employee agreements requiring an inventor to \u2018assign\u2019 or give ownership of an invention to the organization upon acceptance of Federal funds,\u201d as the Bayh-Dole Act \u201crequire[sj\u201d). And an amicus brief, filed by major associations of universities, scientists, medical researchers, and others, argues that we should interpret the rules governing assignments of the employees at issue here (and consequently the Act\u2019s reference to \u201cinvention[s] of the contractor\u201d) in a similar way. AAU Brief 5-14.\nThe District Court in this case adopted roughly this approach. 487 F. Supp. 2d 1099, 1118 (ND Cal. 2007) (\u201c[A]l-though title still vests in the named inventor, the inventor remains under a legal obligation to assign his interest either to the government or the nonprofit contractor unless the inventor acts within the statutory framework to retain title\u201d). And since a university often enters into a grant agreement with the Government for a researcher\u2019s benefit and at his request, see J. Hall, Grant Management 205 (2010), implying such a presumption in favor of compliance with the grant agreement, and thus with the Bayh-Dole Act, would ordinarily be equitable.\nIV\nAs I have suggested, these views are tentative. That is because the parties have not fully argued these matters (though one amicus brief raises the license interpretation question, see Brief for Alexander M. Shukh 18-24, and at least one other can be read as supporting something like the equitable presumption I have described, see AAU Brief 5-14). Cf. ante, at 784, n. 2. While I do not understand the majority to have foreclosed a similarly situated party from raising these matters in a future case, see ibid., I believe them relevant to our efforts to answer the question presented here. Consequently, I would vacate the judgment of the Federal Circuit and remand this case to provide the parties with an opportunity to argue these, or related, matters more fully.\nBecause the Court decides otherwise, with respect, I dissent.",
+        "type": "dissent",
+        "author": "Justice Breyer,"
+      }
+    ],
+    "attorneys": [
+      "Donald B. Ayer argued the cause for petitioner. With him on the briefs were Lawrence D. Rosenberg, Christian G. Vergonis, Jennifer L. Swize, Pamela S. Karlan, Ricardo Rodriguez, Stephen C. Neal, Lori R. E. Ploeger, Michelle S. Rhyu, Benjamin G. Damstedt, Debra L. Zumwalt, and Patrick H. Dunkley.",
+      "Deputy Solicitor General Stewart argued the cause for the United States as amicus curiae urging reversal. With him on the brief were Acting Solicitor General Katyal, Assistant Attorney General West, Deputy Assistant Attorney General Brinkmann, Nicole A. Saharsky, and Teal Luthy Miller.",
+      "Mark C. Fleming argued the cause for respondents. With him on the brief were Adrian M. Pruetz, Brian C. Cannon, and Paul R. Q. Wolf son."
+    ],
+    "corrections": "",
+    "head_matter": "BOARD OF TRUSTEES OF THE LELAND STANFORD JUNIOR UNIVERSITY v. ROCHE MOLECULAR SYSTEMS, INC., et al.\nNo. 09-1159.\nArgued February 28, 2011 \u2014\nDecided June 6, 2011\nRoberts, C. J., delivered the opinion of the Court, in which Scalia, Kennedy, Thomas, Alito, Sotomayor, and Kagan, JJ., joined. Soto-mayor, J., filed a concurring opinion, post, p. 794. Breyer, J., filed a dissenting opinion, in which Ginsburg, J., joined, post, p. 794.\nDonald B. Ayer argued the cause for petitioner. With him on the briefs were Lawrence D. Rosenberg, Christian G. Vergonis, Jennifer L. Swize, Pamela S. Karlan, Ricardo Rodriguez, Stephen C. Neal, Lori R. E. Ploeger, Michelle S. Rhyu, Benjamin G. Damstedt, Debra L. Zumwalt, and Patrick H. Dunkley.\nDeputy Solicitor General Stewart argued the cause for the United States as amicus curiae urging reversal. With him on the brief were Acting Solicitor General Katyal, Assistant Attorney General West, Deputy Assistant Attorney General Brinkmann, Nicole A. Saharsky, and Teal Luthy Miller.\nMark C. Fleming argued the cause for respondents. With him on the brief were Adrian M. Pruetz, Brian C. Cannon, and Paul R. Q. Wolf son.\nBriefs of amici curiae urging reversal were filed for BayhDole25, Inc., by Douglas D. Salyers, Jeffrey C. Morgan, and Susan Finston; for the National Venture Capital Association by Sri Srinivasan; and for Alexander M. Shukh by Constantine John Gekas. Briefs of amici curiae urging vacation were filed for the Association of American Universities et al. by Douglas Hallward-Driemeier and James R. Myers; and for John P. Sutton by Mr. Sutton, pro se.\nBriefs of amici curiae' urging affirmance were filed for the American Association of University Professors et al. by David P. Swenson; for the Biotechnology Industry Organization by Carter G. Phillips, Jeffrey P. Rushan, and Rachel H. Townsend; for Intel Corp. et al. by Theodore B. Olson, Matthew D. McGill, William G. Jenks, Tina Chappell, Philip S. Johnson, Robert A. Armitage, and Alan Hammond; and for the Pharmaceutical Research and Manufacturers of America by Robert A. Long, Jr., and Alan Pemberton.\nBriefs of amici curiae were filed for the American Intellectual Property Law Association by David W. Hill; for the Intellectual Property Owners Association by George L. Graff, Victoria A Cundiff, Douglas K. Norman, and Kevin H. Rhodes; and for Birch Bayh by William D. Coston, John F. Cooney, and Michael A. Gollin."
+  },
+  "file_name": "0776-01",
+  "first_page_order": 858,
+  "last_page_order": 885
+}

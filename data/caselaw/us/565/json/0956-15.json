@@ -1,0 +1,59 @@
+{
+  "id": 12228492,
+  "name": "Martinez-Sosa v. United States",
+  "name_abbreviation": "Martinez-Sosa v. United States",
+  "decision_date": "2011-10-11",
+  "docket_number": "No. 11-6213",
+  "first_page": "956",
+  "last_page": "956",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 956"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 79,
+    "ocr_confidence": 0.698,
+    "sha256": "4640659481e35cb4f11c1b3f368f59f036692f91500d2317e3693601a2c16cd4",
+    "simhash": "1:132ed202090e9756",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Martinez-Sosa v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6213.\nMartinez-Sosa v. United States."
+  },
+  "file_name": "0956-15",
+  "first_page_order": 1038,
+  "last_page_order": 1038
+}

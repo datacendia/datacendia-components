@@ -1,0 +1,61 @@
+{
+  "id": 5972530,
+  "name": "Skinner v. Department of Justice et al.",
+  "name_abbreviation": "Skinner v. Department of Justice",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-1188",
+  "first_page": "946",
+  "last_page": "946",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 946"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 25,
+    "char_count": 167,
+    "ocr_confidence": 0.604,
+    "sha256": "fc2b39e52a89cb62fe1c3e4874264d325b8c01dd94318fb7c4c27085441872bf",
+    "simhash": "1:d9b2e880632e8ae0",
+    "word_count": 29
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Skinner v. Department of Justice et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. D. C. Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-1188.\nSkinner v. Department of Justice et al."
+  },
+  "file_name": "0946-04",
+  "first_page_order": 968,
+  "last_page_order": 968
+}

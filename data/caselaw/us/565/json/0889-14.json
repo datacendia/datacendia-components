@@ -1,0 +1,59 @@
+{
+  "id": 12216616,
+  "name": "Knox v. Workman, Warden",
+  "name_abbreviation": "Knox v. Workman",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5104",
+  "first_page": "889",
+  "last_page": "889",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 889"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.7,
+    "sha256": "1af788fd54883288b9c39e2f7089aefbbe5f3e2603d0b308c35ebd4da7c9bfda",
+    "simhash": "1:b79cddf19ea7b3f0",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Knox v. Workman, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5104.\nKnox v. Workman, Warden."
+  },
+  "file_name": "0889-14",
+  "first_page_order": 971,
+  "last_page_order": 971
+}

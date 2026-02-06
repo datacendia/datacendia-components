@@ -1,0 +1,59 @@
+{
+  "id": 12422939,
+  "name": "Alvarado v. Texas",
+  "name_abbreviation": "Alvarado v. Texas",
+  "decision_date": "2012-11-13",
+  "docket_number": "No. 12-6227",
+  "first_page": "1014",
+  "last_page": "1014",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1014"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 72,
+    "ocr_confidence": 0.651,
+    "sha256": "28224340488a5a9a9d61da48665ab64482f2488992794283556bb80e007fc9ba",
+    "simhash": "1:88e3f8c65e887750",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Alvarado v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Tex. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6227.\nAlvarado v. Texas."
+  },
+  "file_name": "1014-13",
+  "first_page_order": 1090,
+  "last_page_order": 1090
+}

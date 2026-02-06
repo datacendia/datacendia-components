@@ -1,0 +1,59 @@
+{
+  "id": 5953946,
+  "name": "Bell v. United States",
+  "name_abbreviation": "Bell v. United States",
+  "decision_date": "2011-04-18",
+  "docket_number": "No. 10-9409",
+  "first_page": "948",
+  "last_page": "948",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 948"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.61,
+    "sha256": "fff41d12f80c9c06bf3cbd052c96eaa3f67b7b4c0248249e700267be1a7ae9ab",
+    "simhash": "1:064ad68b0f8f0520",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bell v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9409.\nBell v. United States."
+  },
+  "file_name": "0948-11",
+  "first_page_order": 974,
+  "last_page_order": 974
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12240103,
+  "name": "Kelley v. Ritter et al.",
+  "name_abbreviation": "Kelley v. Ritter",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-7041",
+  "first_page": "1121",
+  "last_page": "1121",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1121"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 72,
+    "ocr_confidence": 0.698,
+    "sha256": "3500e97d61af644c99320b7241f6cf89803e00205eeeb9bda3829d3319c7bdfc",
+    "simhash": "1:aaca222cdc8e9f08",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Kelley v. Ritter et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7041.\nKelley v. Ritter et al."
+  },
+  "file_name": "1121-12",
+  "first_page_order": 1203,
+  "last_page_order": 1203
+}

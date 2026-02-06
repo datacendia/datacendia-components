@@ -1,0 +1,59 @@
+{
+  "id": 12428873,
+  "name": "Baradji v. United States",
+  "name_abbreviation": "Baradji v. United States",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-7443",
+  "first_page": "1111",
+  "last_page": "1111",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1111"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.594,
+    "sha256": "aad3e00f623c5d421d7c1a8655377f7d62e4ab9dd353a3b9b6173ad2c9e6dc1f",
+    "simhash": "1:1648ca23e78b947e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Baradji v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7443.\nBaradji v. United States."
+  },
+  "file_name": "1111-02",
+  "first_page_order": 1187,
+  "last_page_order": 1187
+}

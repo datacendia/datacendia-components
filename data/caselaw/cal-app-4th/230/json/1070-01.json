@@ -1,0 +1,542 @@
+{
+  "id": 4084336,
+  "name": "THE PEOPLE, Plaintiff and Respondent, v. GIOVANNI ROMMEL ROSSETTI, Defendant and Appellant",
+  "name_abbreviation": "People v. Rossetti",
+  "decision_date": "2014-10-22",
+  "docket_number": "No. A139041",
+  "first_page": "1070",
+  "last_page": "1080",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "230 Cal. App. 4th 1070"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "131 S.Ct. 2419",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        5928256,
+        12450488
+      ],
+      "pin_cites": [
+        {
+          "page": "2434"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/564/0229-01",
+        "/l-ed-2d/180/0285-01"
+      ]
+    },
+    {
+      "cite": "180 L.Ed.2d 285",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12450488,
+        5928256
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/180/0285-01",
+        "/us/564/0229-01"
+      ]
+    },
+    {
+      "cite": "185 L.Ed.2d 696",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12697040
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "1563"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/569/0141-01"
+      ]
+    },
+    {
+      "cite": "35 Cal.Rptr. 571",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "222 Cal.App.2d 774",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2119748
+      ],
+      "pin_cites": [
+        {
+          "page": "780"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/222/0774-01"
+      ]
+    },
+    {
+      "cite": "176 Cal.Rptr.3d 652",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "229 Cal.App.4th 571",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4341378
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/229/0571-01"
+      ]
+    },
+    {
+      "cite": "476 U.S. 79",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12787
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "106"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/476/0079-01"
+      ]
+    },
+    {
+      "cite": "367 U.S. 643",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1785580
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "646, fn. 4"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/367/0643-01"
+      ]
+    },
+    {
+      "cite": "84 Cal.Rptr. 280",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "3 Cal.App.3d 890",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4415538
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/3/0890-01"
+      ]
+    },
+    {
+      "cite": "171 Cal.Rptr. 854",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "116 Cal.App.3d 168",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2055661
+      ],
+      "pin_cites": [
+        {
+          "page": "183"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/116/0168-01"
+      ]
+    },
+    {
+      "cite": "216 Cal.Rptr. 890",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "170 Cal.App.3d 1182",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2135777
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/170/1182-01"
+      ]
+    },
+    {
+      "cite": "490 U.S. 386",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        605535
+      ],
+      "weight": 3,
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "397"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/490/0386-01"
+      ]
+    },
+    {
+      "cite": "533 U.S. 27",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9312742
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "33"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/533/0027-01"
+      ]
+    },
+    {
+      "cite": "407 U.S. 297",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9138083
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "313"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/407/0297-01"
+      ]
+    },
+    {
+      "cite": "135 P.3d 3",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 Cal.Rptr.3d 750",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 Cal.4th 811",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3852837
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/38/0811-01"
+      ]
+    },
+    {
+      "cite": "453 U.S. 454",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11722898
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/453/0454-01"
+      ]
+    },
+    {
+      "cite": "556 U.S. 332",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3653882
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/556/0332-01"
+      ]
+    },
+    {
+      "cite": "479 U.S. 314",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6215700
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "328"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/479/0314-01"
+      ]
+    },
+    {
+      "cite": "436 U.S. 499",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1490288
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "509"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/436/0499-01"
+      ]
+    },
+    {
+      "cite": "384 U.S. 757",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12047531
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/384/0757-01"
+      ]
+    },
+    {
+      "cite": "170 Cal.Rptr.3d 729",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "225 Cal.App.4th Supp. 1",
+      "category": "reporters:state",
+      "reporter": "Cal. App. Supp. 4th",
+      "case_ids": [
+        6053890
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/225/Supp. 1-01"
+      ]
+    },
+    {
+      "cite": "493 P.2d 1145",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 2014,
+      "opinion_index": 0
+    },
+    {
+      "cite": "100 Cal.Rptr. 281",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 2014,
+      "opinion_index": 0
+    },
+    {
+      "cite": "6 Cal.3d 757",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2274610
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "761-765"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/6/0757-01"
+      ]
+    },
+    {
+      "cite": "5 Cal.Rptr.2d 189",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "4 Cal.App.4th 32",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        2309435
+      ],
+      "pin_cites": [
+        {
+          "page": "35-36"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/4/0032-01"
+      ]
+    },
+    {
+      "cite": "939 P.2d 259",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "65 Cal.Rptr.2d 145",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "15 Cal.4th 1229",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1005947
+      ],
+      "pin_cites": [
+        {
+          "page": "1291"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/15/1229-01"
+      ]
+    },
+    {
+      "cite": "282 P.3d 173",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "145 Cal.Rptr.3d 146",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 Cal.4th 952",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        5720874
+      ],
+      "pin_cites": [
+        {
+          "page": "979"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/54/0952-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1064,
+    "char_count": 21311,
+    "ocr_confidence": 0.906,
+    "pagerank": {
+      "raw": 6.6164480032281e-08,
+      "percentile": 0.40400753094099306
+    },
+    "sha256": "1034693505275b14e73fdae4a02ada6058b24a0da4ecf0ab20917ced80926482",
+    "simhash": "1:71faaf02494f9bb2",
+    "word_count": 3396
+  },
+  "last_updated": "2024-02-27T18:12:18.575425+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE, Plaintiff and Respondent, v. GIOVANNI ROMMEL ROSSETTI, Defendant and Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nRUVOLO, P. J.\nI.\nINTRODUCTION\nAppellant Giovanni Rommel Rossetti appeals after entering a plea of no contest to driving with 0.08 percent or higher blood-alcohol content. He also admitted he had three prior convictions for driving under the influence (DUI). (Veh. Code, \u00a7\u00a7 23152, subd. (a), 23550.) He claims the court erred in denying his motion to suppress (Pen. Code, \u00a7 1538.5), contending that the nonconsensual blood draw taken after his DUI arrest without first obtaining a search warrant violated his rights under the Fourth Amendment of the United States Constitution. He also argues that the blood draw was not performed in a constitutionally reasonable manner. We reject these arguments and affirm the trial court\u2019s denial of appellant\u2019s motion to suppress.\nII.\nFACTS AND PROCEDURAL HISTORY\nThe statement of facts is taken from the evidence introduced at the hearing on appellant\u2019s suppression motion which, as appellant concedes, \u201cis essentially undisputed.\u201d About 1:50 a.m. on November 9, 2011, California Highway Patrol Officer Jason Tyhurst was driving north on Highway 242 in Contra Costa County when he saw a car traveling at an estimated 90 miles per hour in a 65-mile-per-hour zone. The car was weaving out of its lane and crossing into other lanes. After pacing the car for about one-quarter mile to determine its speed, Officer Tyhurst activated his emergency lights.\nAfter the vehicle was stopped, Officer Tyhurst approached the driver, who was later identified as appellant. The officer observed that appellant\u2019s eyes were bloodshot and watery, and his speech was thick and slurred. The officer could smell alcohol emanating from the passenger compartment. Officer Tyhurst explained the reason for the stop, requested identification, and asked appellant whether he had been drinking that evening. When appellant was unable to produce identification, Officer Tyhurst directed him to get out of the car.\nOfficer Tyhurst conducted a series of field sobriety tests. Appellant\u2019s performance on these tests was consistent with alcohol impairment. Officer Tyhurst concluded that appellant had been driving while intoxicated and placed him under arrest.\nAfter Officer Tyhurst drove appellant to the California Highway Patrol area office, he advised appellant that state law required a person arrested for DUI to submit to a chemical test, either blood or breath. Appellant refused to take either test. Appellant was then restrained by Officer Tyhurst and three other officers, and his blood was drawn without his consent at 2:38 a.m. by Jonathan Young, a lab technician both state and nationally certified in phlebotomy. Young executed a declaration under penalty of perjury that he drew the blood in a medically approved manner. Officer Tyhurst did not obtain a warrant for the blood draw, even though there was a judge on call, based on his understanding \u201c[w]e\u2019re not required to.\u201d The results of the blood-alcohol test showed appellant had a 0.19 percent blood-alcohol level, well above the 0.08 percent legal limit.\nAppellant moved to suppress the blood sample taken from him, as well as the observations of and statements stemming from the forcible blood draw and any related evidence. The People filed opposition. On June 10, 2013, the superior court heard and denied appellant\u2019s motion. On June 12, 2013, appellant entered a plea of no contest to count two, alleging that he drove with a 0.08 percent or higher blood-alcohol level, and he admitted three prior convictions. Count one was dismissed. The court placed appellant on probation for five years with the condition that he serve 365 days in county jail. On June 20, 2013, appellant filed a timely notice of appeal.\nIII.\nDISCUSSION\nA. Suppression of Blood Test Results\nAppellant claims the court erred in denying his motion to suppress because \u201cthere was no constitutional justification for the warrantless, forcible draw of blood in this case, when the officer was aware that a magistrate was available to issue a warrant if he applied for one.\u201d\n\u201c \u2018In reviewing a suppression ruling, \u201cwe defer to the superior court\u2019s express and implied factual findings if they are supported by substantial evidence, [but] we exercise our independent judgment in determining the legality of a search on the facts so found.\u201d \u2019 [Citation.] [f] Thus, while we ultimately exercise our independent judgment to determine the constitutional propriety of a search or seizure, we do so within the context of historical facts determined by the trial court.\u201d (People v. Tully (2012) 54 Cal.4th 952, 979 [145 Cal.Rptr.3d 146, 282 P.3d 173].) We review issues relating to the suppression of evidence derived from police searches and seizures under federal constitutional standards. (People v. Bradford (1997) 15 Cal.4th 1229, 1291 [65 Cal.Rptr.2d 145, 939 P.2d 259].)\nAt the time of appellant\u2019s arrest on November 9, 2011, long-standing California law permitted blood testing without a warrant, and without the consent of the person tested, so long as \u201cthe procedure (1) is done in a reasonable, medically approved manner, (2) is incident to a lawful arrest, and (3) is based upon reasonable belief the arrestee is intoxicated. [Citations.]\u201d (People v. Ford (1992) 4 Cal.App.4th 32, 35-36 [5 Cal.Rptr.2d 189].) California courts, including our Supreme Court, regularly approved warrant-less blood draws where these factors were satisfied. (People v. Superior Court (1972) 6 Cal.3d 757, 761-765 [100 Cal.Rptr. 281, 493 P.2d 1145]; People v. Harris (2014) 225 Cal.App.4th Supp. 1 [170 Cal.Rptr.3d 729] (Harris) [citing numerous Cal. cases for the proposition that a warrant was not required in order for police to conduct a blood draw of a suspect arrested for drunk driving].)\nThese California cases were derived from Schmerber v. California (1966) 384 U.S. 757 [16 L.Ed.2d 908, 86 S.Ct. 1826] (Schmerber), and were based on the presumed exigency created by the dissipation of alcohol levels in the bloodstream. In Schmerber, the court upheld a warrantless blood test of an individual arrested for drunk driving. The court did so because the police officer \u201cmight reasonably have believed that he was confronted with an emergency, in which the delay necessary to obtain a warrant, under the circumstances, threatened \u2018the destruction of evidence,\u2019 [citation].\u201d (Id. at p. 770.) Following Schmerber, many courts, including those in California, believed a warrant was virtually never required in order for police to conduct a blood draw of a suspect arrested for drunk driving, due to the exigency of the loss of incriminating evidence. (Harris, supra, 225 Cal.App.4th at p. Supp. 5 [\u201c. . . California courts uniformly interpreted Schmerber to mean that no exigency beyond the natural evanescence of intoxicants in the bloodstream, present in every DUI case, was needed to establish an exception to the warrant requirement. [Citations.]\u201d].)\nHowever, in 2013, over a year after appellant\u2019s arrest, the United States Supreme Court clarified Schmerber\u2014and dramatically changed the legal landscape in California and many other states\u2014by holding that the natural dissipation of alcohol in the bloodstream does not establish a per se exigency that suffices on its own to justify a warrantless blood draw in every DUI case. In Missouri v. McNeely (2013) 569 U.S._[185 L.Ed.2d 696, 133 S.Ct. 1552, 1563] (McNeely), the court indicated, \u201cwhile the natural dissipation of alcohol in the blood may support a finding of exigency in a specific case, ... it does not do so categorically.\u201d (Italics added.) Instead, \u201cthe metabolization of alcohol in the bloodstream and the ensuing loss of evidence are among the factors that must be considered in deciding whether a warrant is required.\u201d (569 U.S. at p. _ [133 S.Ct. at p. 1568].) The McNeely decision concluded that every case involving a warrantless blood draw must be examined on its own facts in light of the totality of the circumstances to determine whether exigent circumstances existed that would justify an exception to the warrant requirement. (569 U.S. at p._[133 S.Ct. at p. 1556].) The prosecution must prove there was \u201c \u2018compelling need for official action and no time to secure a warrant\u2019 \u201d in order to justify a warrantless blood draw. (569 U.S. at p._[133 S.Ct. at p. 1559], quoting Michigan v. Tyler (1978) 436 U.S. 499, 509 [56 L.Ed.2d 486, 98 S.Ct. 1942].)\nIt has been recognized that \u201cMcNeely thus repudiated the long-standing California interpretation of Schmerber.\u201d (Harris, supra, 225 Cal.App.4th at p. Supp. 6.) Generally, the Supreme Court\u2019s new interpretation of the federal constitution must be given retroactive application to pending cases. (Griffith v. Kentucky (1987) 479 U.S. 314, 328 [93 L.Ed.2d 649, 107 S.Ct. 708] [\u201cWe therefore hold that a new rule for the conduct of criminal prosecutions is to be applied retroactively to all cases, state or federal, pending on direct review or not yet final, with no exception for cases in which the new rule constitutes a \u2018clear break\u2019 with the past.\u201d].)\nHowever, the United States Supreme Court also has recognized an exception for Fourth Amendment search and seizures cases, and will not apply the exclusionary rule as a remedy where the police conducted a search in good faith reliance on binding legal precedent in the jurisdiction where the search occurred. (See Davis v. United States (2011) 564 U.S. __, _ [180 L.Ed.2d 285, 131 S.Ct. 2419, 2434] (Davis).) Davis addressed searches conducted prior to Arizona v. Gant (2009) 556 U.S. 332 [173 L.Ed.2d 485, 129 S.Ct. 1710], a case holding that police could not automatically search the passenger compartment of a vehicle whenever an occupant was arrested. (Davis, supra, 564 U.S. at pp. - [131 S.Ct. at pp. 2424-2425].) Recognizing that its prior holding in New York v. Belton (1981) 453 U.S. 454 [69 L.Ed.2d 768, 101 S.Ct. 2860] had been widely understood as permitting such searches, the court concluded that the exclusionary rule was not an appropriate remedy for pre-Gant searches. (Davis, supra, 564 U.S. at pp. __-__ [131 S.Ct. at pp. 2428-2429].) The court reasoned that, where the police act in reliance on established legal precedent, suppressing evidence would not serve the purpose of the exclusionary rule, which is to deter lawless police conduct. (564 U.S. at p._[131 S.Ct. at p. 2426].) The court stated that \u201c[excluding evidence in such cases deters no police misconduct and imposes substantial social costs. We therefore hold that when the police conduct a search in objectively reasonable reliance on binding appellate precedent, the exclusionary rule does not apply.\u201d (564 U.S. at p. _ [131 S.Ct. at p. 2434].)\nBased on the foregoing, the police conduct in this case falls within the parameters of the \u201cgood faith\u201d exception to the exclusionary rule. Appellant does not identify any pre-McNeely California decision suggesting that, in the circumstances before us, the warrantless nonconsensual blood draw was legally impermissible. As the trial court found, Officer Tyhurst acted in accordance with existing legal precedent and with a reasonable, good faith belief that his actions were consistent with the law because \u201cthe applicable law at the time of the arrest [was] that a warrant wasn\u2019t necessary for a blood draw.\u201d Consequently, despite the change in the law, no \u201c \u2018appreciable deterrence\u2019 \u201d would result from suppressing the results of the blood draw in this case, and the trial court properly ruled this evidence was admissible. (Davis, supra, 564 U.S. at p._[131 S.Ct. at p. 2426].)\nIn so concluding we reject appellant\u2019s claim that People v. Thompson (2006) 38 Cal.4th 811 [43 Cal.Rptr.3d 750, 135 P.3d 3], which was the law in California at the time of appellant\u2019s arrest, mandates the conclusion that the police officers\u2019 actions in this case \u201cwere inconsistent with [existing] California law . . . .\u201d In Thompson, our Supreme Court upheld a warrantless entry into a residence to arrest the defendant for DUI because his \u201cblood-alcohol level would have diminished while the police sought a warrant. . . .\u201d (Id. at p. 825.) However, the Thompson court emphasized that it was not holding in every case \u201cthat the police may enter a home without a warrant to effect an arrest of a DUI suspect. . . .\u201d (Id. at p. 827.) It reaffirmed it was considering the totality of the circumstances to determine whether the police conduct was reasonable. (Ibid.) Appellant relies on Thompson to argue that binding precedent at the time of his arrest required a \u201ctotality of the circumstances\u201d approach in assessing the \u201cjustification for the warrantless, forcible draw of blood\u201d in this case.\nWe disagree, and find Thompson to be readily distinguishable. Thompson involved circumstances where officers entered the defendant\u2019s home without a warrant to arrest him. \u201c[P]hysical entry of the home is the chief evil against which the wording of the Fourth Amendment is directed . . . .\u201d (United States v. United States District Court (1972) 407 U.S. 297, 313 [32 L.Ed.2d 752, 92 S.Ct. 2125].) \u201c \u2018[A] private home [is] where privacy expectations are most heightened,\u2019 [citation].\u201d (Kyllo v. United States (2001) 533 U.S. 27, 33 [150 L.Ed.2d 94, 121 S.Ct. 2038].) Consequently, Thompson did not involve what standard applies to government intrusions taking place outside the home, and does not call into question the unbroken line of pr&-McNeely authority in California authorizing the officers\u2019 actions in this case.\nB. Excessive Force\nAppellant also claims his constitutional rights were violated because the officers used excessive force in obtaining the blood sample. He argues that the manner in which the blood was taken by the police violated his due process rights and, by extension, his Fourth Amendment rights.\nWith or without a warrant, the police may not use unreasonable force to perform a search or seizure of a person. (See Graham v. Connor (1989) 490 U.S. 386, 397 [104 L.Ed.2d 443, 109 S.Ct. 1865].) In Carleton v. Superior Court (1985) 170 Cal.App.3d 1182 [216 Cal.Rptr. 890] (Carleton), the court stated: \u201cLaw enforcement must act reasonably and use only that degree of force which is necessary to overcome a defendant\u2019s resistance in taking a blood sample. Even where necessary to obtain a blood sample police may not act in a manner which will \u2018shock the conscience.\u2019 A defendant\u2019s arbitrary refusal to submit to a blood test will not excuse unlawful police conduct.\u201d (Id. at pp. 1187-1188, fn. omitted.)\nThe evidence adduced at the suppression hearing reveals that at 2:38 a.m., Officer Tyhurst and three other officers restrained appellant, whom Officer Tyhurst could not subdue alone because appellant was \u201ckicking around and not doing what [he was] told to do.\u201d Appellant, who was handcuffed, was forced down on the floor while lab technician Jonathan Young, state and nationally certified in phlebotomy, drew two vials of blood and gave them to Officer Tyhurst. The entire process was videotaped, and took \u201cprobably less than 10 minutes, might have even been less than five minutes.\u201d\nDefense counsel asked the court to review the videotape of the forced blood draw, claiming \u201c[t]his is excessive force.\u201d After reviewing the videotape, the court found the police did not use more force than necessary to overcome appellant\u2019s resistance. The court indicated, \u201cAnd I think the video reveals that officer safety was an issue in this case.\u201d\nThe reasonableness of the officers\u2019 conduct in this case is demonstrated by comparing it to the forcible blood draw judicially approved in Carleton, supra, 170 Cal.App.3d 1182. In that case, police also had to obtain blood from a suspect who was resisting. (Id. at p. 1190.) The Carleton court noted that the use of six officers to restrain Carleton was necessary because he was a threat to the officers\u2019 own security. (Ibid.) Consequently, in order to draw blood, he was held in a \u201ctemporary carotid restraint\u201d position facedown on the floor. (Id. at p. 1190.) The officers held Carleton\u2019s extremities while a registered nurse withdrew his blood. (Id. at pp. 1189-1190.) The court held this to be a reasonable blood draw performed in a medically approved fashion. (Id. at p. 1191; People v. Ryan (1981) 116 Cal.App.3d 168, 183 [171 Cal.Rptr. 854] [evidence that \u201c[defendant] was restrained by five police officers while a technician removed the blood sample from his left arm\u201d without any showing the officers \u201cintroduced any wantonness, violence or beatings\u201d constituted valid use of necessary force \u201cto overcome [defendant]\u2019s resistance\u201d].)\nBy contrast, suppression was ordered in People v. Kraft (1970) 3 Cal.App.3d 890 [84 Cal.Rptr. 280], where the defendant refused to submit to a blood test and resisted being taken into the hospital. (Id. at p. 895.) Without provocation, one of the officers struck the defendant on the cheek with a closed fist. (Id. at p. 896.) Later, as officers tried to carry or lead the defendant to a bed in an examination room, the defendant fell or was pushed to the floor. (Ibid.) On the floor, police immobilized him while a physician withdrew blood. (Ibid.) One officer testified that he held the defendant\u2019s arm while also holding a scissor lock on the defendant\u2019s legs. (Id. at p. 898.) An officer acknowledged that the defendant\u2019s behavior had not been aggressive but was \u201cdefensive.\u201d (Id. at p. 899.) The court concluded that the officers\u2019 \u201cstrong arm\u201d tactics were \u201caggressive beyond all need,\u201d and exceeded the limits of permissible force. (Ibid.)\nThe present case bears more resemblance to Carleton, supra, 170 Cal.App.3d 1182, than it does to Kraft, supra, 3 Cal.App.3d 890. Appellant was described as \u201ckicking around,\u201d so some amount of force was necessary to overcome his resistance and to obtain the blood sample safely. However, unlike in Kraft, the police did not gratuitously strike appellant or otherwise engage in unnecessary physical abuse. The officers used no more force than necessary to hold appellant still so the officers would not be endangered while his blood was being drawn. The blood sample was taken by a phlebotomist in a medically reasonable manner. As the Supreme Court stated in Schmerber, supra, 384 U.S. at page 760, footnote 4, \u201c[i]t would be a different case if the police initiated the violence, refused to respect a reasonable request to undergo a different form of testing, or responded to resistance with inappropriate force. [Citation.]\u201d\nUnder these circumstances, there is substantial evidence supporting the superior court\u2019s conclusion that the force used was reasonable. (See Carleton, supra, 170 Cal.App.3d at p. 1188 [appellate court \u201cmust determine whether there is substantial evidence to support the court\u2019s findings the police acted lawfully\u201d].)\nIV.\nDISPOSITION\nThe order denying appellant\u2019s motion to suppress is affirmed.\nReardon, J., and Rivera, J., concurred.\nA petition for a rehearing was denied November 9, 2014, and appellant\u2019s petition for review by the Supreme Court was denied January 14, 2015, S222800.\nIn relevant part, the Fourth Amendment states, \u201c \u2018The right of the people to be secure in their persons, houses, papers, and effects, against unreasonable searches and seizures, shall not be violated ....\u2019\u201d (Mapp v. Ohio (1961) 367 U.S. 643, 646, fn. 4 [6 L.Ed.2d 1081, 81 S.Ct. 1684].) The purpose of this provision is to protect people from unreasonable search and seizure, and it applies to the states through the Fourteenth Amendment. (367 U.S. at p. 650.) The remedy for a violation of the Fourth Amendment is to render inadmissible any evidence seized during the illegal search. (367 U.S. at pp. 654-655.)\nGriffith held that the Supreme Court\u2019s holding in Batson v. Kentucky (1986) 476 U.S. 79, 106 [90 L.Ed.2d 69, 106 S.Ct. 1712] (conc. opn. of Marshall, J.), pertaining to the discriminatory use of peremptory challenges, must be given retroactive application.\nQuite recently, the court in People v. Youn (2014) 229 Cal.App.4th 571 [176 Cal.Rptr.3d 652] reached the same conclusion, finding the police \u201cacted in \u2018objectively reasonable reliance\u2019 on binding California precedent\u201d in conducting a warrantless blood draw, and \u201cthere was no police culpability.\u201d (Id. at p. 579.)\nAlthough the videotape was marked for identification and was viewed by the trial court prior to making its ruling, it was never formally received into evidence at the suppression hearing. However, it is obvious the videotape was intended by both counsel to be considered as part of the evidence before the trial court in ruling upon the suppression motion and \u201cwe do not consider the technical oversight [in failing to formally offer it into evidence] sufficient to disregard\u201d this evidence. (People v. White (1963) 222 Cal.App.2d 774, 780 [35 Cal.Rptr. 571].) In this regard, we have reviewed the video and conclude it is consistent with the trial court\u2019s findings.",
+        "type": "majority",
+        "author": "RUVOLO, P. J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Paul Kleven, under appointment by the Court of Appeal, for Defendant and Appellant.",
+      "Kamala D. Harris, Attorney General, Dane R. Gillette, Chief Assistant Attorney General, Gerald A. Engler, Assistant Attorney General, Catherine A. Rivlin and Ronald E. Niver, Deputy Attorneys General, for Plaintiff and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. A139041.\nFirst Dist., Div. Four.\nOct. 22, 2014.]\nTHE PEOPLE, Plaintiff and Respondent, v. GIOVANNI ROMMEL ROSSETTI, Defendant and Appellant.\nCounsel\nPaul Kleven, under appointment by the Court of Appeal, for Defendant and Appellant.\nKamala D. Harris, Attorney General, Dane R. Gillette, Chief Assistant Attorney General, Gerald A. Engler, Assistant Attorney General, Catherine A. Rivlin and Ronald E. Niver, Deputy Attorneys General, for Plaintiff and Respondent."
+  },
+  "file_name": "1070-01",
+  "first_page_order": 950,
+  "last_page_order": 960
+}

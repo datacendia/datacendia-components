@@ -1,0 +1,84 @@
+{
+  "id": 12413032,
+  "name": "In re Disbarment of McAllister",
+  "name_abbreviation": "In re Disbarment of McAllister",
+  "decision_date": "2012-08-13",
+  "docket_number": "No. D-2635",
+  "first_page": "959",
+  "last_page": "959",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 959"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "566 U. S. 931",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12202822,
+        12202889,
+        12202926,
+        12202866,
+        12202937,
+        12202842,
+        12202906
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/566/0931-01",
+        "/us/566/0931-04",
+        "/us/566/0931-06",
+        "/us/566/0931-03",
+        "/us/566/0931-07",
+        "/us/566/0931-02",
+        "/us/566/0931-05"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 111,
+    "ocr_confidence": 0.649,
+    "sha256": "3af60defc80591bfadd34625b554cef95c611852fb4dd8d13b7a9e211c180325",
+    "simhash": "1:907cd0cbffd2daa7",
+    "word_count": 18
+  },
+  "last_updated": "2024-02-27T23:46:21.325002+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of McAllister."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered. [For earlier order herein, see 566 U. S. 931.]",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2635.\nIn re Disbarment of McAllister."
+  },
+  "file_name": "0959-03",
+  "first_page_order": 863,
+  "last_page_order": 863
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5907403,
+  "name": "Walsh v. Krantz et al.",
+  "name_abbreviation": "Walsh v. Krantz",
+  "decision_date": "2010-12-06",
+  "docket_number": "No. 10-455",
+  "first_page": "1092",
+  "last_page": "1092",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1092"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 69,
+    "ocr_confidence": 0.623,
+    "sha256": "a06bf51c2c7457d41d07a7a85a01cb1652d1d88af7b2318d944c677e962fd719",
+    "simhash": "1:d82dad20ffddb3a6",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Walsh v. Krantz et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-455.\nWalsh v. Krantz et al."
+  },
+  "file_name": "1092-01",
+  "first_page_order": 1114,
+  "last_page_order": 1114
+}

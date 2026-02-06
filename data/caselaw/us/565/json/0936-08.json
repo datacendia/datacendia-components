@@ -1,0 +1,61 @@
+{
+  "id": 12226746,
+  "name": "Neston v. United States",
+  "name_abbreviation": "Neston v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5846",
+  "first_page": "936",
+  "last_page": "936",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 936"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 151,
+    "ocr_confidence": 0.647,
+    "sha256": "3d27044ac93198d7ca24ace55f6cb50633588a1d4b059e02c1ff835ddbd83530",
+    "simhash": "1:9933ca02068ef84a",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Neston v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5846.\nNeston v. United States."
+  },
+  "file_name": "0936-08",
+  "first_page_order": 1018,
+  "last_page_order": 1018
+}

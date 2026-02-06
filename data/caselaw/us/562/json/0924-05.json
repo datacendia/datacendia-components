@@ -1,0 +1,59 @@
+{
+  "id": 6022498,
+  "name": "Rodriguez v. United States",
+  "name_abbreviation": "Rodriguez v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5478",
+  "first_page": "924",
+  "last_page": "924",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 924"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.604,
+    "sha256": "2262b13da3442ce5c7e5d3969109b77ce5dedee0c1becfa669565196725f8cef",
+    "simhash": "1:1683e2830db10049",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rodriguez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5478.\nRodriguez v. United States."
+  },
+  "file_name": "0924-05",
+  "first_page_order": 946,
+  "last_page_order": 946
+}

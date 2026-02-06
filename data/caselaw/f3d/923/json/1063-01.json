@@ -1,0 +1,682 @@
+{
+  "id": 12521004,
+  "name": "BTG INTERNATIONAL LIMITED, Janssen Biotech, Inc., Janssen Oncology, Inc., Janssen Research & Development, LLC, Plaintiffs-Appellants v. AMNEAL PHARMACEUTICALS LLC, Amneal Pharmaceuticals of New York, LLC, Dr. Reddy's Laboratories, Inc., Dr. Reddy's Laboratories, Ltd., Wockhardt Bio AG, Wockhardt USA LLC, Wockhardt Ltd., Mylan Pharmaceuticals Inc., Mylan Inc., West-Ward Pharmaceuticals Corp., nka Hikma Pharmaceuticals USA Inc., Hikma Pharmaceuticals LLC, Teva Pharmaceuticals USA, Inc., Defendants-Appellees Par Pharmaceutical, Inc., Par Pharmaceutical Companies, Inc., Rising Pharmaceuticals, Inc., Defendants BTG International Limited, Janssen Biotech, Inc., Janssen Oncology, Inc., Janssen Research & Development, LLC, Plaintiffs-Appellants v. Amerigen Pharmaceuticals, Inc., Amerigen Pharmaceuticals Limited, Defendants-Appellees Janssen Oncology, Inc., Appellant v. Amerigen Pharmaceuticals Limited, Argentum Pharmaceuticals LLC, Appellees Janssen Oncology, Inc., Appellant v. Mylan Pharmaceuticals Inc., Amneal Pharmaceuticals LLC, Amneal Pharmaceuticals of New York, LLC, Dr. Reddy's Laboratories, Inc., Dr. Reddy's Laboratories, Ltd., Teva Pharmaceuticals USA, Inc., West-Ward Pharmaceutical Corporation, Hikma Pharmaceuticals LLC, Appellees Janssen Oncology, Inc., Appellant v. Wockhardt Bio AG, Appellee",
+  "name_abbreviation": "BTG Int'l Ltd. v. Amneal Pharm. LLC",
+  "decision_date": "2019-05-14",
+  "docket_number": "2019-1147; 2019-1148; 2019-1323; 2019-1324; 2019-1325",
+  "first_page": "1063",
+  "last_page": "1077",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "923 F.3d 1063"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Fed. Cir.",
+    "id": 8955,
+    "name": "United States Court of Appeals for the Federal Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "35 U.S.C. \u00a7 315",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(e)(2)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "415 F.3d 1303",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8948489
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "1317",
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/415/1303-01"
+      ]
+    },
+    {
+      "cite": "37 C.F.R. \u00a7 42.71",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "(d)",
+          "parenthetical": "\"A party dissatisfied with a decision may file a single request for rehearing without prior authorization from the [PTAB].\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "812 F.3d 1076",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4086386
+      ],
+      "weight": 3,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1077"
+        },
+        {
+          "page": "1077"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/812/1076-01"
+      ]
+    },
+    {
+      "cite": "525 U.S. 316",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11076553
+      ],
+      "weight": 3,
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "344",
+          "parenthetical": "explaining that by \"affirm[ing] the judgment of the District Court ... this decision also resolves the substantive issues presented by\" the other companion case and, therefore, the \"appeal in that case is therefore dismissed\""
+        },
+        {
+          "parenthetical": "explaining that by \"affirm[ing] the judgment of the District Court ... this decision also resolves the substantive issues presented by\" the other companion case and, therefore, the \"appeal in that case is therefore dismissed\""
+        },
+        {
+          "parenthetical": "explaining that by \"affirm[ing] the judgment of the District Court ... this decision also resolves the substantive issues presented by\" the other companion case and, therefore, the \"appeal in that case is therefore dismissed\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/525/0316-01"
+      ]
+    },
+    {
+      "cite": "35 U.S.C. \u00a7\u00a7 120",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "125 Stat. 284",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "903 F.3d 1310",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12518526
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1339"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/903/1310-01"
+      ]
+    },
+    {
+      "cite": "882 F.3d 1056",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12515902
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1072",
+          "parenthetical": "explaining that \"objective evidence of nonobviousness must be commensurate in scope with the claims\" (internal quotation marks and citation omitted)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/882/1056-01"
+      ]
+    },
+    {
+      "cite": "480 F.3d 1348",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3895501
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "1364",
+          "parenthetical": "\"[T]he expectation of success need only be reasonable, not absolute\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/480/1348-01"
+      ]
+    },
+    {
+      "cite": "832 F.3d 1327",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4349936
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1333",
+          "parenthetical": "internal quotation marks, brackets, and citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/832/1327-01"
+      ]
+    },
+    {
+      "cite": "383 U.S. 39",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6167032
+      ],
+      "weight": 3,
+      "year": 1966,
+      "pin_cites": [
+        {
+          "page": "50-52"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/383/0039-01"
+      ]
+    },
+    {
+      "cite": "383 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6166987
+      ],
+      "weight": 3,
+      "year": 1966,
+      "pin_cites": [
+        {
+          "page": "17"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/383/0001-01"
+      ]
+    },
+    {
+      "cite": "203 F.3d 1305",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11491052
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "1316"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/203/1305-01"
+      ]
+    },
+    {
+      "cite": "881 F.3d 1354",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12275485
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1356",
+          "parenthetical": "internal quotation marks, brackets, and citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/881/1354-01"
+      ]
+    },
+    {
+      "cite": "842 F.3d 1376",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12144010
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1380",
+          "parenthetical": "internal quotation marks and citations omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/842/1376-01"
+      ]
+    },
+    {
+      "cite": "811 F.3d 435",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4081628
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "449",
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/811/0435-01"
+      ]
+    },
+    {
+      "cite": "886 F.3d 1369",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516414
+      ],
+      "weight": 3,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1373",
+          "parenthetical": "discussing the relevance of prosecution history in claim construction"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/886/1369-01"
+      ]
+    },
+    {
+      "cite": "366 F.3d 1348",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9262027
+      ],
+      "weight": 5,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "1353-54",
+          "parenthetical": "explaining the claim term \"inhibitor or activator of a protein\" was \"not limited\" to the narrow meaning because \"the specification and prosecution history affirmatively demonstrate that [the appellant] intended the broader meaning\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/366/1348-01"
+      ]
+    },
+    {
+      "cite": "811 F.3d 1359",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4081822
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1363",
+          "parenthetical": "\"[T]he specification is always highly relevant to the claim construction analysis and is, in fact, the single best guide to the meaning of a disputed term.\" (internal quotation marks and citation omitted)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/811/1359-01"
+      ]
+    },
+    {
+      "cite": "884 F.3d 1370",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516160
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1376",
+          "parenthetical": "\"[C]laim construction must begin with the words of the claims themselves.\" (citation omitted)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/884/1370-01"
+      ]
+    },
+    {
+      "cite": "883 F.3d 1358",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516062
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1361-62",
+          "parenthetical": "citation omitted"
+        },
+        {
+          "page": "1362"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/883/1358-01"
+      ]
+    },
+    {
+      "cite": "751 F.3d 1307",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4070450
+      ],
+      "year": 2014,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/751/1307-01"
+      ]
+    },
+    {
+      "cite": "37 C.F.R. \u00a7 42.100",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "pin_cites": [
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2018 WL 6317975",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "*2"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2018 WL 6317965",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "*3"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2018 WL 6317959",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "*3"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "U.S. Patent No. 5,604,213",
+      "category": "laws:admin_filing",
+      "reporter": "U.S. Patent",
+      "pin_cites": [
+        {
+          "parenthetical": "\"Barrie\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1295",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 6,
+      "pin_cites": [
+        {
+          "page": "(a)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "352 F. Supp. 3d 352",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "case_ids": [
+        12528922
+      ],
+      "weight": 4,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "384-90"
+        },
+        {
+          "page": "374"
+        },
+        {
+          "page": "400"
+        },
+        {
+          "page": "359",
+          "parenthetical": "explaining that claims 4, 8, 11, 19, and 20 of the '438 patent are at issue"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-3d/352/0352-01"
+      ]
+    },
+    {
+      "cite": "2018 WL 456328",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 12,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "*21"
+        },
+        {
+          "page": "*2"
+        },
+        {
+          "page": "*19"
+        },
+        {
+          "page": "*14"
+        },
+        {
+          "page": "*14, *19"
+        },
+        {
+          "page": "*15-16"
+        },
+        {
+          "page": "*18"
+        },
+        {
+          "page": "*19"
+        },
+        {
+          "page": "*1"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2018 WL 456305",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 3,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "*20"
+        },
+        {
+          "page": "*1"
+        },
+        {
+          "page": "*18"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2018 WL 454509",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 6,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "*20"
+        },
+        {
+          "page": "*11"
+        },
+        {
+          "page": "*3"
+        },
+        {
+          "page": "*1"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 U.S.C. \u00a7 103",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "U.S. Patent No. 8,822,438",
+      "category": "laws:admin_filing",
+      "reporter": "U.S. Patent",
+      "pin_cites": [
+        {
+          "parenthetical": "\"the '438 patent\""
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1532,
+    "char_count": 45154,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2592907926292228
+    },
+    "sha256": "8447b3f01603e1ee1e9dcfa91a0150c942835f41be7dfa628ee6acf8794dea93",
+    "simhash": "1:bfb3aef0de011302",
+    "word_count": 6712
+  },
+  "last_updated": "2024-02-27T18:46:40.961150+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Moore, Wallach, and Chen, Circuit Judges."
+    ],
+    "parties": [
+      "BTG INTERNATIONAL LIMITED, Janssen Biotech, Inc., Janssen Oncology, Inc., Janssen Research & Development, LLC, Plaintiffs-Appellants\nv.\nAMNEAL PHARMACEUTICALS LLC, Amneal Pharmaceuticals of New York, LLC, Dr. Reddy's Laboratories, Inc., Dr. Reddy's Laboratories, Ltd., Wockhardt Bio AG, Wockhardt USA LLC, Wockhardt Ltd., Mylan Pharmaceuticals Inc., Mylan Inc., West-Ward Pharmaceuticals Corp., nka Hikma Pharmaceuticals USA Inc., Hikma Pharmaceuticals LLC, Teva Pharmaceuticals USA, Inc., Defendants-Appellees"
+    ],
+    "opinions": [
+      {
+        "text": "Wallach, Circuit Judge.\nAppellants BTG International Limited et al. (\"Appellants\") sued Appellees Amneal Pharmaceuticals LLC et al. (\"Appellees\") in the U.S. District Court for the District of New Jersey (\"District Court\"), asserting that Appellees' Abbreviated New Drug Applications (\"ANDA\") for the generic version of Appellants' abiraterone product ZYTIGA\u00ae infringes claims 1-20 (\"Asserted Claims\") of U.S. Patent No. 8,822,438 (\"the '438 patent\"). Subsequently, Appellees Amerigen Pharmaceuticals, Inc. and Amerigen Pharmaceuticals Limited (collectively, \"Amerigen\"); Appellees Mylan Pharmaceuticals Inc. and Mylan Inc. (collectively, \"Mylan\"); and Appellees Wockhardt Bio AG, Wockhardt USA LLC, and Wockhardt Ltd. (collectively, \"Wockhardt\") filed three, separate inter partes review (\"IPR\") petitions with the U.S. Patent and Trademark Office (\"USPTO\"). They alleged that the Asserted Claims would have been obvious under 35 U.S.C. \u00a7 103 (2006).\nIn all three IPRs, the USPTO's Patent Trial and Appeal Board (\"PTAB\") issued claim construction orders adverse to Appellants, as well as final written decisions finding the Asserted Claims obvious. Amerigen Pharm. Ltd. v. Janssen Oncology, Inc ., No. IPR2016-00286, 2018 WL 454509, at *20 (P.T.A.B. Jan. 17, 2018) ; Mylan Pharm. Inc. v. Janssen Oncology, Inc. , No. IPR2016-01332, 2018 WL 456305, at *20 (P.T.A.B. Jan. 17, 2018) ; Wockhardt Bio AG v. Janssen Oncology, Inc. , No. IPR2016-01582, 2018 WL 456328, at *21 (P.T.A.B. Jan. 17, 2018). Similarly, following a bench trial, the District Court concluded that the Asserted Claims would have been obvious in light of its claim construction and the same combination of prior art relied on by the PTAB. BTG Int'l Ltd. v. Amneal Pharm. LLC , 352 F. Supp. 3d 352, 384-90 (D.N.J. 2018) ; see J.A. 146-48 (Final Judgment).\nAppellants appeal the PTAB's Final Written Decisions and the District Court's Final Judgment. We consolidated the appeals. We have jurisdiction pursuant to 28 U.S.C. \u00a7 1295(a)(1) and 1295(a)(4)(A) (2012). We affirm the PTAB's Final Written Decision in Wockhardt . Because our affirmance renders the remaining issues on appeal moot, we dismiss the appeals of Amerigen , Mylan , and BTG .\nBACKGROUND\nI. The '438 Patent\nEntitled \"Methods and Compositions for Treating Cancer,\" the '438 patent teaches a method \"compris[ing] administering a 17a-hydroxylase/C17,20-lyase [ ('CYP17') ] inhibitor, such as abiraterone acetate [ ('abiraterone') ] (i.e., 3\u00df-acetoxy-17-(3-pyridyl)androsta-5,16-diene), in combination with at least one additional therapeutic agent such as an anti-cancer agent or a steroid.\" '438 patent col. 1 ll. 8-12. Specifically, the '438 patent discloses the administration of a therapeutically effective amount of a CYP17 inhibitor, such as abiraterone, with a therapeutically effective amount of at least one additional therapeutic anti-cancer agent. Id. col. 2. l. 9-col. 3 l. 27. This combination therapy seeks to provide \"more effective ways to treat cancer such as, but not limited to, prostate and breast cancer,\" id . col. 1 ll. 65-67, in addition to providing \"effective anti-cancer treatment options for patients who are not responding to current anti-cancer treatments\" and those \"whose cancer has recurred,\" id. col. 2 ll. 1-5. The '438 patent defines an \"anti-cancer agent\" as \"any therapeutic agent that directly or indirectly kills cancer cells or directly or indirectly prohibits[,] stops[,] or reduces the proliferation of cancer cells.\" Id. col. 4 ll. 8-11. The '438 patent lists acceptable forms of anti-cancer agents, including, inter alia, prednisone. Id. col. 3 ll. 16, 19.\nIndependent claim 1 is representative and recites: \"[a] method for the treatment of a prostate cancer in a human comprising administering to said human a therapeutically effective amount of abiraterone acetate or a pharmaceutically acceptable salt thereof and a therapeutically effective amount of prednisone.\" Id. col. 16 ll. 16-20 (emphasis added).\nII. The Relevant Prior Art\nA. Gerber\nGerber, G.S. & Chodak, G.W., Prostate Specific Antigen for Assessing Response to Ketoconazole and Prednisone in Patients with Hormone Refractory Metastatic Prostate Cancer , 144 J. Urology 1177-79 (1990) (\"Gerber\") (J.A. 23053-55) is a study that evaluates prostate specific antigen (\"PSA\") level changes, which Gerber identifies as a \"good indicator of disease activity,\" with \"increasing PSA levels\" being associated with \"evidence of progressive disease.\" J.A. 23053. This study evaluated PSA level changes in \"[a] total of [fifteen] patients with hormone refractory metastatic prostate cancer [that were] treated with [a combination of] ketoconazole[ ] and prednisone.\" J.A. 23053. It defined \"[u]nresponsiveness to the initial hormone therapy ... as an increasing PSA level on [two] consecutive determinations that were at least [one] month apart.\" J.A. 23053. Gerber explains that patients exhibiting \"progressively increasing PSA levels had a decrease in PSA in response to treatment with ketoconazole and prednisone.\" J.A. 23055. More specifically, Gerber explains that \"PSA levels may be useful to define the small subgroup of men failing standard hormonal therapy who will benefit from the combination of ketoconazole and prednisone.\" J.A. 23055. Therefore, Gerber concludes that \"there appears to be a small subgroup of patients with progressive prostate cancer despite hormonal therapy who will derive significant benefit from the combination of ketoconazole and glucocorticoid [such as prednisone ] replacement therapy.\" J.A. 23055.\nB. O'Donnell\nO'Donnell, A., et al., Hormonal Impact of the 17a-hydroxylase/C17,20-lyase Inhibitor Abiraterone Acetate (CB7630) in Patients with Prostate Cancer , 90 Brit. J. of Cancer 2317-25 (2004) (\"O'Donnell\") (J.A. 23171-79) is an article publishing the results of three clinical studies, see J.A. 23171-79, and discloses the treatment of prostate cancer with abiraterone at dosages between 500-800 milligrams (\"mg\"), J.A. 23171. A daily dose of abiraterone between 500-800 mg resulted in suppression of testosterone levels to the castrate range in non-castrate males. J.A. 23171. O'Donnell explains that \"abiraterone acetate ... was developed ... [to be] selectiv[e and it is] ... a potent inhibitor of the [CYP17] enzyme.\" J.A. 23172. O'Donnell states that \"it is common practice to administer supplementary hydrocortisone[ ] and this may prove necessary with ... abiraterone acetate.\" J.A. 23177. Finally, O'Donnell shows that abiraterone was safe; as such, O'Donnell explains that \"[i]n addition to ketoconazole... and abiraterone, other compounds designed to inhibit general androgen production have been developed and show promise.\" J.A. 23178. On the basis of the clinical evidence, O'Donnell reports that \"further studies with abiraterone acetate will be required to ascertain if concomitant therapy with glucocorticoid is required on a continuous basis.\" J.A. 23177.\nC. Sartor\nSartor, O., et al., Effect of Prednisone on Prostate-Specific Antigen in Patients with Hormone-Refractory Prostate Cancer , 52 Urology 252-56 (1998) (\"Sartor\") (J.A. 23087-91) evaluates the effects of prednisone on PSA levels in patients with hormone-refractory prostate cancer. J.A. 23087. Sartor discloses a trial in which \"[twenty-nine] consecutive patients with hormone-refractory progressive prostate cancer,\" J.A. 23087, who were not receiving any concomitant anti-cancer therapies, \"or any other known confounding variables such as ketoconazole, suramin, aminoglutethimide, or chemotherapy,\" J.A. 23088, \"were treated with 10 mg of oral prednisone prescribed two times a day,\" J.A. 23087. Sartor also discloses that administration of prednisone alone led to \"the average PSA decline compared with [the] baseline [of] 33%\" in PSA responses after initiating prednisone treatment; a majority of patients had PSA progression-free survival for a matter of months following treatment. J.A. 23089. Sartor concludes that \"[p]rednisone (10 mg orally two times a day) can decrease PSA by more than 50% in approximately one third of patients\" and hypothesizes that \"a dose-respons[ive] relationship between glucocorticoid dose and PSA decline\" exists. J.A. 23087.\nIII. Procedural History\nFrom July 2015 to August 2017, Appellants filed multiple complaints in the District Court alleging infringement of the '438 patent based on various ANDAs filed by Appellees, which sought approval to market generic abiraterone in 250 mg tablets. See J.A. 432, 437, 461-62. Appellants later amended their complaints to add additional claims against two new parties, Amerigen in May 2016 and Appellee Teva Pharmaceuticals, USA, Inc. (\"Teva\") in August 2017, after those parties filed their respective ANDAs. See J.A. 5. In January 2018, the District Court consolidated the cases involving Amerigen and Teva. See J.A. 475. Prior to trial, Amerigen, Mylan, and Wockhardt timely petitioned the USPTO for IPRs of the '438 patent. See J.A. 29276-348 (Amerigen Petition), 35051-126 (Mylan Petition), 41321-400 (Wockhardt Petition).\nAmerigen and Mylan's Petitions seeking IPR argued that the Asserted Claims would have been obvious over a combination of three prior art references: (1) O'Donnell; (2) Gerber; and (3) U.S. Patent No. 5,604,213 (\"Barrie\"). See J.A. 29279, 35101. The central issue before the PTAB was whether a person having ordinary skill in the relevant art (\"PHOSITA\") would have known from the references that prednisone could be used as a cancer\"treatment,\" which Appellants argued meant that it would have an anti-cancer effect on its own. Amerigen , 2018 WL 454509, at *11. The PTAB determined that, under the then-governing broadest reasonable interpretation (\"BRI\") standard, the terms \"treat,\" \"treating,\" and \"treatment\" required \"the eradication, removal, modification, management or control of a tumor or primary, regional, or metastatic cancer cells or tissue and the minimization or delay of the spread of cancer.\" Id. The PTAB also explained that, under the BRI standard, its understanding of \"treatment\" means that a drug could \"treat\" cancer\"perhaps by an anti-cancer effect, or perhaps by some other mechanism.\" Id. at *12. The PTAB held that, under its construction, the Asserted Claims would be obvious because the use of \"comprising\" in the claim demonstrates that \"treatment\" \"can include eradication of a tumor, as would be expected of an anti-cancer agent\" and that \"[t]reatment by steroids can also refer to the other treatments that are 'included' in the construction.\" Id.\nSimilarly, Wockhardt's Petition asserted that the Asserted Claims would have been obvious over a combination of Gerber, O'Donnell, and Sartor. Wockhardt , 2018 WL 456328, at *2. For similar reasons the PTAB determined the claims were obvious in Amerigen and Mylan , it determined the Asserted Claims were obvious in Wockhardt . Id. at *19. All three Final Written Decisions were issued prior to the conclusion of the District Court's bench trial. See BTG , 352 F. Supp. 3d at 374.\nThe District Court denied Appellants' motion to stay the litigation pending the result of the IPRs. Id . at 374 n.13. Following a bench trial, and after the IPR proceedings concluded, the District Court issued its opinion finding all Asserted Claims invalid as obvious. Id. at 400. In determining that the Asserted Claims were obvious, the District Court explained that \"abiraterone had been identified in the prior art as a second-line prostate cancer treatment,\" and that \"it was regarded as a superior swap for ketoconazole, in that it performed a parallel function in a more targeted manner.\" Id . at 384. The District Court also explained that, \"to the [PHOSITA], the prior art would suggest that abiraterone could be combined with prednisone with a reasonable probability of success.\" Id . at 386.\nBTG filed separate requests for rehearing against Amerigen, Mylan, and Wockhardt on all three Final Written Decisions, asserting that the PTAB misconstrued the term \"treatment\" in claim 1 of the '438 patent and improperly determined that the Asserted Claims were obvious. J.A. 29448, 30135, 35725 (Requests for Rehearing). In December 2018, ten months after the filing, the PTAB denied the Requests for Rehearing and explained that the Requests for Rehearing were used \"as an opportunity to argue positions with which we disagreed in our Final Written Decision. Merely disagreeing with our analysis or conclusions does not serve as a proper basis for a request for rehearing.\" Amerigen Pharm. Ltd. v. Janssen Oncology, Inc. , No. IPR2016-00286, 2018 WL 6317959, at *3 (P.T.A.B. Dec. 3, 2018) ; Mylan Pharm. Inc. v. Janssen Oncology, Inc. , No. IPR2016-01332, 2018 WL 6317965, at *3 (P.T.A.B. Dec. 3, 2018) ; Wockhardt Bio AG v. Janssen Oncology, Inc ., No. IPR2016-01582, 2018 WL 6317975, at *2 (P.T.A.B. Dec. 3, 2018).\nDISCUSSION\nAppellants assert that the PTAB erred by (1) improperly construing the term \"treatment\" by not requiring prednisone to have an anti-cancer effect, see Appellants' Br. 29, and (2) relying on that incorrect construction to find that the Asserted Claims would have been obvious over a combination of Gerber, O'Donnell, and Sartor, see id. at 35. After discussing the applicable standards, we address each of Appellants' arguments.\nI. Claim Construction\nA. Standard of Review and Legal Standard\nAt the time the Final Written Decisions issued, the PTAB gave \"[a] claim ... its broadest reasonable construction in light of the specification of the patent in which it appears.\" 37 C.F.R. \u00a7 42.100(b). A specification \"includes both the written description and the claims\" of the patent. In re Packard , 751 F.3d 1307, 1320 n.11 (Fed. Cir. 2014). \"A patent's specification, together with its prosecution history,[ ] constitutes intrinsic evidence to which the PTAB gives priority when it construes claims.\" Knowles Elecs. LLC v. Cirrus Logic, Inc. , 883 F.3d 1358, 1361-62 (Fed. Cir. 2018) (citation omitted). We review the PTAB's assessment of the intrinsic evidence de novo. See id. at 1362.\nB. The PTAB Properly Construed the Treatment Limitation of the Asserted Claims\nThe PTAB construed the Asserted Claims' use of \"treatment\" as \"includ[ing] the eradication, removal, modification, management or control of a tumor or primary, regional, or metastatic cancer cells or tissue and the minimization or delay of the spread of cancer.\" Wockhardt , 2018 WL 456328, at *3 ; Amerigen , 2018 WL 454509, at *3. Appellants assert that \"[t]he [PTAB]'s decisions rest on an erroneous claim construction\" because the term \" 'treatment' requires an anti-cancer effect.\" Appellants' Br. 28-29 (capitalization modified). Specifically, Appellants aver that the PTAB erred in construing \"treating\" prostate cancer to include palliative effects and reducing side effects of co-administered abiraterone because the claims only require \"hav[ing] at least one anti-cancer effect.\" Id. at 30-32. We disagree with Appellants.\nThe '438 patent 's claims, specification, and prosecution history teach that \"treatment\" includes both anti-cancer effects and palliation or reduction in side effects of a different anti-cancer drug. We begin our analysis with the claim language and the specification. In re Power Integrations, Inc., 884 F.3d 1370, 1376 (Fed. Cir. 2018) (\"[C]laim construction must begin with the words of the claims themselves.\" (citation omitted)); see Trs. of Columbia Univ. v. Symantec Corp., 811 F.3d 1359, 1363 (Fed. Cir. 2016) (\"[T]he specification is always highly relevant to the claim construction analysis and is, in fact, the single best guide to the meaning of a disputed term.\" (internal quotation marks and citation omitted)). Independent claim 1 of the '438 patent discloses \"a method for the treatment of a prostate cancer in a human comprising administering to said human a therapeutically effective amount of\" prednisone, along with abiraterone. '438 patent col. 16 ll. 16-20. The specification defines a \"therapeutically effective amount\" of a \"therapeutic agent\" as an amount \"effective for treating a disease or disorder ... such as cancer.\" Id . col. 4 ll. 17-22 (emphasis added). Therefore, any definition of \"treatment\" must encompass the full range of the therapeutic agent's effects disclosed in the specification. Prednisone is one such disclosed therapeutic agent.\nThe specification states that a \"therapeutic agent\" may be either \"an anti-cancer agent or a steroid.\" Id. col. 10 ll. 54-55 (emphasis added). As such, the use of \"or\" in between \"anti-cancer agent\" and \"steroid\" suggests that a steroid is not necessarily the same thing as an anti-cancer agent. See Housey Pharm., Inc. v. Astrazeneca UK Ltd ., 366 F.3d 1348, 1353-54 (Fed. Cir. 2004) (explaining the claim term \"inhibitor or activator of a protein\" was \"not limited\" to the narrow meaning because \"the specification and prosecution history affirmatively demonstrate that [the appellant] intended the broader meaning\"). Importantly, the specification identifies prednisone as a glucocorticoid, see '438 patent col. 3 ll. 9-11 (\"[A] glucocorticoid includ[es], but [is] not limited to, hydrocortisone, prednisone [,] or dexamethasone\"), and glucocorticoid as a steroid, see id. col. 5 ll. 9-11 (explaining that \"one therapeutic agent, such as an anti-cancer agent or steroid, particularly [is] a glucocorticoid\"). Prednisone is similarly listed as an example of an antibiotic agent. See id. col. 9 ll. 30-44 (\"Suitable antibiotic agents ... [include] prednisone.\"). The specification states that antibiotic agents are one example of anti-cancer agents. Id. col. 7 l. 46 (providing that \"anti-cancer agent[s] include ... antibiotic agents\"). Therefore, the specification explains that prednisone may be used as both a steroid and an anti-cancer agent.\nIf the patentee intended to limit \"treating\" and \"therapeutic agents\" to anti-cancer agents, the patentee neither would have identified steroids separately as an agent for reducing adverse side effects of CYP17 inhibitors, nor described prednisone repeatedly in the specification as a steroid without mentioning any anti-cancer effect. See, e.g., id. col. 10 ll. 15-21, 25-41. Because the specification explains that prednisone is an anti-cancer agent and a steroid, id . col. 3 ll. 16-19, \"treating\" with prednisone must logically include more than just anti-cancer effects and should include the long-familiar steroid effects of palliation and reduction of side effects, see J.A. 23087 (Sartor) (\"Glucocorticoids [which are steroids] have significant palliative activity in patients with metastatic prostate cancer [,] initially recognized in the 1950s.\"). Thus, the specification supports the PTAB's construction that prednisone may \"treat\" cancer by having anti-cancer effects or by producing familiar steroid effects of palliation and the reduction of side effects caused by the co-administration of arbiraterone.\nThe prosecution history does not detract from, and if anything, supports the PTAB's construction. See Knowles Elecs., LLC v. Iancu , 886 F.3d 1369, 1373 (Fed. Cir. 2018) (discussing the relevance of prosecution history in claim construction). During prosecution, an examiner allowed the initially rejected claims after Appellants showed commercial success of a combination of abiraterone and prednisone \"for the treatment of patients.\" J.A. 26048; see J.A. 26505-07 (Notice of Allowability). The Examiner rejected the claims of the '438 patent over a combination of O'Donnell, which discusses abiraterone's anti-cancer effects, and a prior art reference entitled \"Chemotherapy with Mitoxantrone Plus Prednisone or Prednisone Alone for Symptomatic Hormone-Resistant Prostate Cancer : A Canadian Randomized Trial With Palliative End Points\" 14 J. Clin. Oncology 1756 (1996) (\"Tannock\") (J.A. 23063-73). See J.A. 25985 (Examiner's Rejection). As described by the Examiner, Tannock teaches treating refractory prostate cancer by co-administering \"10mg of prednisone in combination with other [anti]-cancer drugs.\" J.A. 25941-42. Tannock states that \"the goal of treatment is palliation\" and describes prednisone as providing palliation and relief from the toxicity of other anti-cancer drugs. J.A. 23065. It further explains that \"some anti[-]cancer drugs have biologic activity as assessed by decrease in the [PSA] level, but these agents are often given with corticosteroids, which provide palliation to some patients when used alone.\" J.A. 23065 (footnotes omitted).\nAppellants did not distinguish Tannock from the application that led to the '438 patent, but rather just stated that neither Tannock nor O'Donnell \"teach or suggest combining prednisone and abiraterone to treat prostate cancer.\" J.A. 26006. Instead, the Examiner allowed the claims based on Appellants' assertion that their FDA approved abiraterone product was commercially successful, J.A. 26505-07, and the Examiner's finding that \"the unexpected commercial success of the launch of the drug [combining abiraterone and prednisone] obviates the\" \u00a7 103 rejection, J.A. 26113; see J.A. 26047 (explaining, by the Examiner, that \"the present invention possesses unexpected results and is non-obvious over the cited art\" because, inter alia, a PHOSITA \"reading Tannock[ ] would expect there to be no difference in survival between one cancer agent alone, and that same cancer agent in combination with prednisone\"). As such, the prosecution history is consistent with the understanding that the claimed \"treatment\" requires the use of abiraterone coincidingly with prednisone because the claims were not allowable otherwise. We conclude that the PTAB, in light of intrinsic evidence and under the BRI standard, correctly construed \"treatment\" to mean \"the eradication, removal, modification, management or control of a tumor or primary, regional, or metastatic cancer cells or tissue and the minimization or delay of the spread of cancer.\"\nAppellants' primary counterargument is unavailing. Appellants suggest that, under the \"[PTAB's] erroneous construction,\" of \"treatment,\" a PHOSITA could practice the invention \"without having any effect on the cancer itself.\" Appellants' Br. 36. Appellants assert that based on this construction, the PTAB concluded that the claims would cover \"a therapy in which only abiraterone treats cancer,\" which is \"the wrong invention.\" Id. The claims, however, recite administering a combination of abiraterone, which was known to have an anti-cancer effect, and prednisone. '438 patent col. 16 ll. 16-20; see also J.A. 45579 (explaining, by Appellees' expert, that \"[i]t was also well-know that glucocorticoids [like prednisone ] had an anti-cancer effect\"). The claims do not specify that abiraterone and prednisone must have the same treatment effect, and as explained above, the patent specification discloses treatment effects other than anti-cancer effects. Therefore, the PTAB correctly concluded that the Asserted Claims cover a therapy in which abiraterone has an anti-cancer effect, while prednisone either has its own anti-cancer effect or has a palliative/side-effect reduction effect.\nII. Obviousness\nA. Standard of Review and Legal Standard\n\"We review the PTAB's factual findings for substantial evidence and its legal conclusions de novo.\" Redline Detection, LLC v. Star Envirotech, Inc. , 811 F.3d 435, 449 (Fed. Cir. 2015) (citation omitted). Substantial evidence \"is such relevant evidence as a reasonable mind might accept as adequate to support a conclusion.\" In re NuVasive, Inc. , 842 F.3d 1376, 1380 (Fed. Cir. 2016) (internal quotation marks and citations omitted). \"If two inconsistent conclusions may reasonably be drawn from the evidence in record, the PTAB's decision to favor one conclusion over the other is the epitome of a decision that must be sustained upon review for substantial evidence.\" Elbit Sys. of Am., LLC v. Thales Visionix, Inc. , 881 F.3d 1354, 1356 (Fed. Cir. 2018) (internal quotation marks, brackets, and citation omitted).\nA patent claim is invalid \"if the differences between the subject matter sought to be patented and the prior art are such that the subject matter as a whole would have been obvious at the time the invention was made to a [PHOSITA].\" 35 U.S.C. \u00a7 103(a). Obviousness is a question of law based on underlying findings of fact. See In re Gartside , 203 F.3d 1305, 1316 (Fed. Cir. 2000). Those underlying findings of fact include (1) \"the scope and content of the prior art,\" (2) the \"differences between the prior art and the claims at issue,\" (3) \"the level of ordinary skill in the pertinent art,\" and (4) the presence of objective indicia of nonobviousness such \"as commercial success, long felt but unsolved needs, failure of others,\" and unexpected results. Graham v. John Deere Co. of Kan. City , 383 U.S. 1, 17, 86 S.Ct. 684, 15 L.Ed.2d 545 (1966) ; see United States v. Adams , 383 U.S. 39, 50-52, 86 S.Ct. 708, 15 L.Ed.2d 572 (1966). In assessing the prior art, the PTAB also \"consider[s] whether a PHOSITA would have been motivated to combine the prior art to achieve the claimed invention and whether there would have been a reasonable expectation of success in doing so.\" In re Warsaw Orthopedic, Inc. , 832 F.3d 1327, 1333 (Fed. Cir. 2016) (internal quotation marks, brackets, and citation omitted).\nB. Substantial Evidence Supports the PTAB's Findings Regarding Obviousness\nIn Wockhardt , the PTAB held that the Asserted Claims would have been obvious over a combination of Gerber, O'Donnell, and Sartor. 2018 WL 456328, at *19. Specifically, the PTAB determined that the \"prior art provides a reasonable expectation that prednisone could be used as a therapeutic agent in the treatment of prostate cancer.\" Id. at *14. Appellants do not contest either that the prior art teaches each limitation of the Asserted Claims or that a PHOSITA would have been motivated to combine abiraterone and prednisone. See generally Appellants' Br. Rather, Appellants assert that the PTAB failed to find that a PHOSITA would have \"reasonab[ly] expect[ed] ... success in achieving the invention as claimed\" by developing a combination therapy where both abiraterone and prednisone produce an anti-cancer effect in combination. Id. at 36. We disagree with Appellants.\nSubstantial evidence supports the PTAB's finding that a PHOSITA would have a reasonable expectation of success in combining Gerber, O'Donnell, and Sartor to arrive at the invention of the Asserted Claims. First, under our claim construction, there is no requirement that prednisone must have an anti-cancer effect. See supra Section I.B. Appellants make no reasonable expectation of success arguments under this construction. Appellants' Br. 38 (arguing only that \"[u]nder a [claim construction where prednisone must have an anti-cancer effect], the [PTAB] could not have found the required expectation of success\").\nSecond, even under Appellants' construction, the record shows that a PHOSITA would have a reasonable expectation of success in combining abiraterone and prednisone because they were both together and individually considered promising prostate cancer treatments at the time. See J.A. 45665-69. The PTAB found as much when it stated that in the Wockhardt IPR, \"in which [Wockhardt] relies on Sartor to demonstrate that prednisone has its own anti-cancer effect, ... prednisone would 'treat' prostate cancer\" even under Appellants' preferred construction. 2018 WL 456328, at *14. Wockhardt's expert recounted that the use of \"prednisone and hydrocortisone... specifically, were known to have activity in treating prostate cancer.\" J.A. 45580; see J.A. 45580 (explaining, by Wockhardt's expert, that \"Sartor reported a = 50% reduction in PSA in 34% of patients dosed with 20 mg/day of prednisone [,]\" which demonstrates prednisone and hydrocortisone were known to treat prostate cancer ). Wockhardt's expert explained that \"a [PHOSITA] would have known that prednisone had been part of the standard of care for hormone refractory prostate cancer well before August 25, 2006,\" because prednisone and another drug \"had been the standard regimen for hormone refractory prostate cancer.\" J.A. 45572; see J.A. 45578 (explaining that by 2006 \"abiraterone acetate was known to be a potent and highly selective CYP17 inhibitor and anti-prostate cancer agent\"). Similarly, Gerber indicates that \"a small subgroup of patients with progressive prostate cancer... will benefit from ketoconazole and [prednisone ] treatment.\" J.A. 23053; see J.A. 45581 (explaining, by Appellees' expert, that to address the toxicity of ketoconazole\"it was standard practice in the art to co-administer a glucocorticoid,\" such as prednisone, because it was \"safe and effective in patients\"). O'Donnell confirms Gerber's findings and explains that it is \"common practice to administer supplementary hydrocortisone\" and that abiraterone is a more selective inhibitor of CYP17 than ketoconazole. J.A. 23177. Sartor taught that prednisone could be prescribed for palliative treatment and that prednisone\"can decrease PSA by more than 50% in approximately one third of patients.\" J.A. 23087. Wockhardt's expert explained that \"decreasing levels of PSA correlate with a response to treatment.\" J.A. 45573. Thus, based on Sartor, a PHOSITA would know that prednisone alone could treat prostate cancer. Further, because Gerber teaches that it is safe and effective to treat prostate cancer with \"the CYP17 inhibitor ketoconazole\" in combination with prednisone and O'Donnell teaches that abiraterone is a more selective inhibitor of CYP17 than ketoconazole and effectively suppresses testosterone levels, a PHOSITA would have had a reasonable expectation of success in using prednisone, in combination with abiraterone, to treat prostate cancer. Therefore, substantial evidence supports the PTAB's conclusion that a PHOSITA would have a reasonable expectation of success that prednisone could be therapeutically effective in the treatment of prostate cancer when combining Gerber, O'Donnell, and Sartor.\nAppellants' counterarguments are unavailing. First, Appellants' assertion that the PTAB \"did not even consider whether a [PHOSITA] would have had a reasonable expectation of success in achieving the inventions of the '438 patentas claimed because the [PTAB] did not have the right claimed invention in mind\" lacks merit. Appellants' Br. 22. More specifically, Appellants assert that \"[i]n each case, the [PTAB]'s findings on expectation of success concerned something other than the claimed invention because of its erroneous claim construction,\" id. at 37, and that \"[u]nder a proper claim construction, the [PTAB] could not have found the required expectation of success,\" id. at 38. Appellants argue that because, by 2006, Sartor had \"acknowledged that glucocorticoids such as prednisone had not 'demonstrated a survival advantage,' \" there was no reasonable expectation of success. Id. (citation omitted). The Asserted Claims, however, do not require a survival advantage, see '438 patent col. 16 ll. 16-20, and Sartor states that \"because no study with [secondary hormonal manipulations] has demonstrated a survival advantage, their potential role is not agreed upon by all,\" J.A. 44462. While prednisone's effect in combination may have been uncertain at the time, the law only requires a reasonable expectation of success. See Pfizer, Inc. v. Apotex, Inc. , 480 F.3d 1348, 1364 (Fed. Cir. 2007) (\"[T]he expectation of success need only be reasonable, not absolute\"); see also Wockhardt , 2018 WL 456328, at *14, *19 (explaining that \"the evidence of record supports that it would have been obvious\" to a PHOSITA \"to combine Gerber, O'Donnell, and Sartor with a reasonable expectation of success of achieving the method of challenged claim 1\"). Because the PTAB considered the entirety of the record as well as all of the parties' arguments, Appellants have failed to demonstrate error in the PTAB's reasonable expectation of success finding on this basis.\nSecond, Appellants assert that the \"[PTAB's] erroneous [claim] construction also infected its analysis of objective indicia of non-obviousness.\" Appellants' Br. 39. Specifically, Appellants assert that \"[t]hese [objective] indicia cannot be assessed without a clear and correct understanding of the scope of the claims,\" which it lacked due to an allegedly improper claim construction. Id. at 40. Here, however, the PTAB properly construed the claim terms and, therefore, properly understood the scope of the claims. See Polaris Indus., Inc. v. Arctic Cat, Inc. , 882 F.3d 1056, 1072 (Fed. Cir. 2018) (explaining that \"objective evidence of nonobviousness must be commensurate in scope with the claims\" (internal quotation marks and citation omitted)). Nevertheless, the PTAB also considered evidence of objective indicia relating to unexpected results, Wockhardt , 2018 WL 456328, at *15-16, the skepticism and the failure of others, id . at *16, long-felt need, id . at *16-17, and commercial success, id . at *17-19, in making its ultimate obviousness decision. The Asserted Claims only require an effective treatment for prostate cancer. As such, because the use of abiraterone and prednisone to treat prostate cancer was well-known and did not provide unexpectedly superior results, and because other treatments for prostate cancer were available, the evidence presented here does not establish that there was a specific unsolved, long-felt need for the treatment. J.A. 45572. Similarly, the skepticism and failure of others factor did not demonstrate that abiraterone was \"relegated to the back-burner\" as Appellants suggest. See J.A. 41696-97. Rather, the evidence at most demonstrated that some researchers were simply unenthusiastic about abiraterone in combination with a glucocorticoid. See J.A. 41696 (citing one company's termination of clinical development of abiraterone in 1996 and initial resistance to O'Donnell's publication). However, lack of enthusiasm by a few is not equivalent to skepticism or failure of others such that the combination would not have been obvious to a PHOSITA. Finally, with regard to commercial success, the PTAB determined that \"[t]here is no real dispute that [the commercial product] is commercially successful in terms of dollar figures.\" Wockhardt , 2018 WL 456328, at *18. The PTAB, however, acknowledged that Appellants also owned a blocking patent (the Barrie patent covering methods of use of abiraterone for the treatment of prostate cancer ) that \"would have deterred others from exploring the commercial potential of abiraterone.\" Id. While the mere existence of a blocking patent does not necessarily detract from evidence of commercial success, see Acorda Therapeutics, Inc. v. Roxane Labs., Inc. , 903 F.3d 1310, 1339 (Fed. Cir. 2018), substantial evidence supports the PTAB's finding that here \"the record evidence does not indicate that [BTG's asserted licensing efforts] remove the deterrent effect of the blocking patent,\" J.A. 369. As such, the PTAB properly considered the objective indicia of nonobviousness under the accurate claim scope and determined that they were \"neutral or not in favor of the patent-ability of the [Asserted C]laims, and do not outweigh the other Graham factors in [its] obviousness analysis.\" Wockhardt , 2018 WL 456328, at *19. We conclude the PTAB properly found the Asserted Claims would have been obvious.\nBecause we conclude that the Asserted Claims are unpatentable as obvious, as the PTAB found in Wockhardt , we need not reach the remaining issues on appeal. Appellants challenge to the PTAB's decision in Amerigen and Mylan , as well as their challenge to the District Court's Final Judgment relating to BTG , all pertain to the same Asserted Claims in Wockhardt that we have affirmed as unpatentable. Compare Wockhardt , 2018 WL 456328, at *1 (explaining that claims 1-20 of the '438 patent are at issue), with Amerigen , 2018 WL 454509, at *1 (explaining that claims 1-20 of the '438 patent are at issue); Mylan , 2018 WL 456305, at *1 (explaining that claims 1-20 of the '438 patent are at issue); BTG , 352 F. Supp. 3d at 359 (explaining that claims 4, 8, 11, 19, and 20 of the '438 patent are at issue). Given that we have resolved the patentability of the Asserted Claims, this renders moot the other appeals. See Synopsys , 812 F.3d at 1077.\nCONCLUSION\nWe have considered Appellants' remaining arguments and find them unpersuasive. We dismiss as moot the appeals relating to Amerigen , Mylan , and BTG . Accordingly, the Wockhardt Final Written Decision of the U.S. Patent and Trademark Office's Patent Trial and Appeal Board is\nAFFIRMED; APPEAL NOS. 2019-1147, 2019-1148, 2019-1323, 2019-1324 DISMISSED\nCongress amended \u00a7 103 when it enacted the Leahy-Smith America Invents Act (\"AIA\"). Pub. L. No. 112-29, \u00a7 3(c), 125 Stat. 284, 287 (2011). However, because the application that led to the '438 patent has never contained (1) a claim having an effective filing date on or after March 16, 2013, or (2) a reference under 35 U.S.C. \u00a7\u00a7 120, 121, or 365(c) to any patent or application that ever contained such a claim, the pre-AIA \u00a7 103 applies. See AIA, \u00a7 3(n)(1), 125 Stat. at 293.\nWhen a party challenging the actions taken by an agency in separate appeals and \"the decision [in one case] resolves the substantive issues appealed\" in the other cases, the other cases are moot. See Dep't of Commerce v. U.S. House of Representatives , 525 U.S. 316, 344, 119 S.Ct. 765, 142 L.Ed.2d 797 (1999) (explaining that by \"affirm[ing] the judgment of the District Court ... this decision also resolves the substantive issues presented by\" the other companion case and, therefore, the \"appeal in that case is therefore dismissed\"); see also Synopsys, Inc. v. Lee , 812 F.3d 1076, 1077 (Fed. Cir. 2016) (dismissing an appeal of a district court opinion as \"moot\" because \"[o]ur decision in the companion [PTAB appeal] resolves all of the substantive issues presented in this [district court appeal]; nothing remains to be decided\" and \"this [district court appeal] no longer presents a 'sufficient prospect that the decision will have an impact on the parties' \" (citation omitted)).\nCYP17 is involved in testosterone synthesis and is a key enzyme for both testicular and adrenal synthesis of androgens. '438 patent col. 3. l. 66-col. 4 l. 1; see J.A. 27911 (explaining, in the British Journal of Urology International, that \"[t]he two sites thought to produce most of the androgenic steroids in humans are the testis and the adrenal cortex\").\nPrednisone is a glucocorticoid. '438 patent col. 13 ll. 20-21. \"Glucocorticoids are adrenocortical steroids, both naturally occurring and synthetic[.]\" J.A. 28072 (Predni-SONE\u00ae Prescribing Information).\n\"Ketoconazole was originally developed as an anti-fungal agent effective against a wide variety of pathogenic fungi.\" J.A. 23053. It was also discovered, however, that \"this drug is a potent inhibitor of gonadal and adrenocortical steroid synthesis.\" J.A. 23053.\nThe '438 patent explains that hydrocortisone, like prednisone, is a glucocorticoid, see '438 patent col. 3 ll. 9-10, and a steroid, see id. col. 3 ll. 18-19.\nAmerigen and Mylan raised the same obviousness challenges and the PTAB ultimately made identical or substantially similar obviousness determinations in both IPRs. See Amerigen , 2018 WL 454509, at *18 ; Mylan , 2018 WL 456305, at *18. Unless otherwise noted, we will cite to the determination in Amerigen ; yet, our holdings apply equally to Amerigen and Mylan .\nAppellants first raised the claim construction dispute in their Requests for Rehearing. See, e.g., J.A. 30135-51; see also 37 C.F.R. \u00a7 42.71(d) (2016) (\"A party dissatisfied with a decision may file a single request for rehearing without prior authorization from the [PTAB].\").\nA patent's prosecution history \"consists of the complete record of the proceedings before the [US]PTO,\" which provides \"evidence of how the [US]PTO and the inventor understood the patent.\" Phillips v. AWH Corp. , 415 F.3d 1303, 1317 (Fed. Cir. 2005) (en banc) (citations omitted).\nThe PTAB recognized, and Appellants do not contest, that a \"therapeutically effective\" amount is an amount that is \"effective for treating prostate cancer.\" See Wockhardt , 2018 WL 456328, at *3 ; Appellants' Br. 28.\nBecause Appellants predicate their obviousness arguments upon their assertion that the \"PTAB's erroneous construction infected its analysis of obviousness,\" Appellants' Br. 35, we need not separately address Appellants' conditional invalidity arguments, see Knowles , 886 F.3d at 1373 n.3 (\"Because we conclude that the PTAB did not err in its construction of the disputed limitation, we need not address the appellants' conditional arguments as to the PTAB's unpatentability determinations.\"(internal quotation marks and citation omitted)). However, for purposes of this appeal, we address these arguments as an independent basis for affirming the PTAB's findings.\nEven if we considered the Appellants' assertion that the District Court erred by considering an obviousness challenge that was barred by 35 U.S.C. \u00a7 315(e)(2), Appellants' Br. 45, because we find the PTAB did not err in determining that the claims were obvious, we need not reach the merits of the District Court appeal. See Synopsys , 812 F.3d at 1077.",
+        "type": "majority",
+        "author": "Wallach, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Constantine L. Trela, Jr., Sidley Austin LLP, Chicago, IL, argued for all plaintiffs-appellants. Plaintiffs-appellants Janssen Biotech, Inc., Janssen Oncology, Inc., Janssen Research & Development, LLC also represented by Steven J. Horowitz, David T. Pritikin, Thomas D. Rein ; Alyssa B. Hjemdahl-Monsen, New York, NY; Ryan C. Morris, Carter Glasgow Phillips, Paul Zegger, Washington, DC.",
+      "Anthony C. Tridico, Finnegan, Henderson, Farabow, Garrett & Dunner, LLP, Washington, DC, for plaintiff-appellant BTG International Limited. Also represented by Jennifer Howe Roscetti.",
+      "Nathan K. Kelley, Perkins Coie, LLP, Washington, DC, argued for all defendants-appellees. Defendants-appellees Mylan Inc., Mylan Pharmaceuticals Inc. also represented by Shannon Bloodworth, Brandon Michael White ; Dan L. Bagatell, Hanover, NH; David Lee Anstaett, Andrew Dufresne, Madison, WI.",
+      "Charles B. Klein, Winston & Strawn LLP, Washington, DC, for defendants-appellees Amneal Pharmaceuticals LLC, Amneal Pharmaceuticals of New York, LLC, Dr. Reddy's Laboratories, Inc., Dr. Reddy's Laboratories, Ltd., Hikma Pharmaceuticals LLC, Teva Pharmaceuticals USA, Inc., West-Ward Pharmaceuticals Corp. Also represented by Andrew Curtis Nichols, Jovial Wong ; Ryan Hauer, Chicago, IL.",
+      "Dennies Varughese, Sterne Kessler Goldstein & Fox, PLLC, Washington, DC, for defendants-appellees Wockhardt Bio AG, Wockhardt USA LLC, Wockhardt Ltd. Also represented by Daniel Ritterbeck, Jon Wright.",
+      "William Hare, McNeely, Hare & War, LLP, Washington, DC, for defendants-appellees Amerigen Pharmaceuticals, Inc., Amerigen Pharmaceuticals Limited. Also represented by Christopher Casieri, Princeton, NJ.",
+      "Teresa Stanek Rea, Crowell & Moring, LLP, Washington, DC, for appellee Argentum Pharmaceuticals LLC.",
+      "Thomas W. Krause, Office of the Solicitor, United States Patent and Trademark Office, Alexandria, VA, argued for amicus curiae Andrei Iancu. Also represented by Frances Lynch, Joseph Matal, Robert J. McManus, Farheena Yasmeen Rasheed ; Mark R. Freeman, Scott R. McIntosh, Jennifer Utrecht, Appellate Staff, Civil Division, United States Department of Justice, Washington, DC.",
+      "William M. Jay, Goodwin Procter LLP, Washington, DC, for amicus curiae Association for Accessible Medicines. Also represented by Joshua James Bone, Boston, MA; Jeffrey Francer, The Association for Accessible Medicines, Washington, DC."
+    ],
+    "corrections": "",
+    "head_matter": "BTG INTERNATIONAL LIMITED, Janssen Biotech, Inc., Janssen Oncology, Inc., Janssen Research & Development, LLC, Plaintiffs-Appellants\nv.\nAMNEAL PHARMACEUTICALS LLC, Amneal Pharmaceuticals of New York, LLC, Dr. Reddy's Laboratories, Inc., Dr. Reddy's Laboratories, Ltd., Wockhardt Bio AG, Wockhardt USA LLC, Wockhardt Ltd., Mylan Pharmaceuticals Inc., Mylan Inc., West-Ward Pharmaceuticals Corp., nka Hikma Pharmaceuticals USA Inc., Hikma Pharmaceuticals LLC, Teva Pharmaceuticals USA, Inc., Defendants-Appellees\nPar Pharmaceutical, Inc., Par Pharmaceutical Companies, Inc., Rising Pharmaceuticals, Inc., Defendants\nBTG International Limited, Janssen Biotech, Inc., Janssen Oncology, Inc., Janssen Research & Development, LLC, Plaintiffs-Appellants\nv.\nAmerigen Pharmaceuticals, Inc., Amerigen Pharmaceuticals Limited, Defendants-Appellees\nJanssen Oncology, Inc., Appellant\nv.\nAmerigen Pharmaceuticals Limited, Argentum Pharmaceuticals LLC, Appellees\nJanssen Oncology, Inc., Appellant\nv.\nMylan Pharmaceuticals Inc., Amneal Pharmaceuticals LLC, Amneal Pharmaceuticals of New York, LLC, Dr. Reddy's Laboratories, Inc., Dr. Reddy's Laboratories, Ltd., Teva Pharmaceuticals USA, Inc., West-Ward Pharmaceutical Corporation, Hikma Pharmaceuticals LLC, Appellees\nJanssen Oncology, Inc., Appellant\nv.\nWockhardt Bio AG, Appellee\n2019-1147\n2019-1148\n2019-1323\n2019-1324\n2019-1325\nUnited States Court of Appeals, Federal Circuit.\nDecided: May 14, 2019\nConstantine L. Trela, Jr., Sidley Austin LLP, Chicago, IL, argued for all plaintiffs-appellants. Plaintiffs-appellants Janssen Biotech, Inc., Janssen Oncology, Inc., Janssen Research & Development, LLC also represented by Steven J. Horowitz, David T. Pritikin, Thomas D. Rein ; Alyssa B. Hjemdahl-Monsen, New York, NY; Ryan C. Morris, Carter Glasgow Phillips, Paul Zegger, Washington, DC.\nAnthony C. Tridico, Finnegan, Henderson, Farabow, Garrett & Dunner, LLP, Washington, DC, for plaintiff-appellant BTG International Limited. Also represented by Jennifer Howe Roscetti.\nNathan K. Kelley, Perkins Coie, LLP, Washington, DC, argued for all defendants-appellees. Defendants-appellees Mylan Inc., Mylan Pharmaceuticals Inc. also represented by Shannon Bloodworth, Brandon Michael White ; Dan L. Bagatell, Hanover, NH; David Lee Anstaett, Andrew Dufresne, Madison, WI.\nCharles B. Klein, Winston & Strawn LLP, Washington, DC, for defendants-appellees Amneal Pharmaceuticals LLC, Amneal Pharmaceuticals of New York, LLC, Dr. Reddy's Laboratories, Inc., Dr. Reddy's Laboratories, Ltd., Hikma Pharmaceuticals LLC, Teva Pharmaceuticals USA, Inc., West-Ward Pharmaceuticals Corp. Also represented by Andrew Curtis Nichols, Jovial Wong ; Ryan Hauer, Chicago, IL.\nDennies Varughese, Sterne Kessler Goldstein & Fox, PLLC, Washington, DC, for defendants-appellees Wockhardt Bio AG, Wockhardt USA LLC, Wockhardt Ltd. Also represented by Daniel Ritterbeck, Jon Wright.\nWilliam Hare, McNeely, Hare & War, LLP, Washington, DC, for defendants-appellees Amerigen Pharmaceuticals, Inc., Amerigen Pharmaceuticals Limited. Also represented by Christopher Casieri, Princeton, NJ.\nTeresa Stanek Rea, Crowell & Moring, LLP, Washington, DC, for appellee Argentum Pharmaceuticals LLC.\nThomas W. Krause, Office of the Solicitor, United States Patent and Trademark Office, Alexandria, VA, argued for amicus curiae Andrei Iancu. Also represented by Frances Lynch, Joseph Matal, Robert J. McManus, Farheena Yasmeen Rasheed ; Mark R. Freeman, Scott R. McIntosh, Jennifer Utrecht, Appellate Staff, Civil Division, United States Department of Justice, Washington, DC.\nWilliam M. Jay, Goodwin Procter LLP, Washington, DC, for amicus curiae Association for Accessible Medicines. Also represented by Joshua James Bone, Boston, MA; Jeffrey Francer, The Association for Accessible Medicines, Washington, DC.\nBefore Moore, Wallach, and Chen, Circuit Judges."
+  },
+  "file_name": "1063-01",
+  "first_page_order": 1063,
+  "last_page_order": 1077
+}

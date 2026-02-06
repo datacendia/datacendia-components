@@ -1,0 +1,98 @@
+{
+  "id": 12190785,
+  "name": "Williams v. Wright, Judge, United States District Court for the Eastern District of Arkansas, et al.; Williams v. Johnson et al.; Williams v. Crouch et al.",
+  "name_abbreviation": "Williams v. Wright",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10158; No. 10-10159; No. 10-10160",
+  "first_page": "811",
+  "last_page": "811",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 811"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "564 U. S. 1033",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12450912,
+        12450913,
+        12450914,
+        12450915,
+        12450916,
+        4333770,
+        5928911,
+        5922800,
+        5929809,
+        12451090,
+        4336308,
+        12450909,
+        5929758,
+        12450911
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/180/0882-01",
+        "/l-ed-2d/180/0882-02",
+        "/l-ed-2d/180/0882-03",
+        "/l-ed-2d/180/0882-04",
+        "/l-ed-2d/180/0883-01",
+        "/us/564/1033-04",
+        "/us/564/1033-03",
+        "/us/564/1033-01",
+        "/us/564/1033-05",
+        "/l-ed-2d/180/0908-03",
+        "/us/564/1033-06",
+        "/l-ed-2d/180/0881-03",
+        "/us/564/1033-02",
+        "/l-ed-2d/180/0881-05"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 42,
+    "char_count": 366,
+    "ocr_confidence": 0.661,
+    "sha256": "ed6a122127d72e61eae4a6c63f78b2d2262d657d46e1abb9b26c7167ff537e07",
+    "simhash": "1:60f82ea2e96c9af3",
+    "word_count": 64
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Williams v. Wright, Judge, United States District Court for the Eastern District of Arkansas, et al. Williams v. Johnson et al. Williams v. Crouch et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir.;\nC. A. 8th Cir.; and\nC. A. 8th Cir. Motions of petitioner for reconsideration of order denying leave to proceed in forma pauperis [564 U. S. 1033] denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10158.\nNo. 10-10159.\nNo. 10-10160.\nWilliams v. Wright, Judge, United States District Court for the Eastern District of Arkansas, et al. Williams v. Johnson et al. Williams v. Crouch et al."
+  },
+  "file_name": "0811-01",
+  "first_page_order": 893,
+  "last_page_order": 893
+}

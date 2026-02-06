@@ -1,0 +1,59 @@
+{
+  "id": 5983746,
+  "name": "Knight v. Yates, Warden",
+  "name_abbreviation": "Knight v. Yates",
+  "decision_date": "2010-10-12",
+  "docket_number": "No. 10-5766",
+  "first_page": "966",
+  "last_page": "966",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 966"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.612,
+    "sha256": "5b2375bfadb62d9ec1f6de5e35a74e0df2c43994acff1e655bbb123093520c7a",
+    "simhash": "1:96f574c90bf63577",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Knight v. Yates, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5766.\nKnight v. Yates, Warden."
+  },
+  "file_name": "0966-13",
+  "first_page_order": 988,
+  "last_page_order": 988
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5923300,
+  "name": "Flores v. Holder, Attorney General, et al.",
+  "name_abbreviation": "Flores v. Holder",
+  "decision_date": "2011-03-28",
+  "docket_number": "No. 10-8787",
+  "first_page": "913",
+  "last_page": "913",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 913"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 106,
+    "ocr_confidence": 0.606,
+    "sha256": "c6d3fb3aa6adde578a2c2bdbceb1368143538d40e51600d8664b8d9370af9dbf",
+    "simhash": "1:90845088cd049c2f",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Flores v. Holder, Attorney General, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari before judgment denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8787.\nFlores v. Holder, Attorney General, et al."
+  },
+  "file_name": "0913-03",
+  "first_page_order": 939,
+  "last_page_order": 939
+}

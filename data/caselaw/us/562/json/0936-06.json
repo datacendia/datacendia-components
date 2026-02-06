@@ -1,0 +1,59 @@
+{
+  "id": 5929120,
+  "name": "Boyd v. United States",
+  "name_abbreviation": "Boyd v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5735",
+  "first_page": "936",
+  "last_page": "936",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 936"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.597,
+    "sha256": "ae1fe28745dcfa36cb6f526eb91801ef4191cdac359d77be924071b570217b2d",
+    "simhash": "1:158aca814e05f911",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Boyd v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5735.\nBoyd v. United States."
+  },
+  "file_name": "0936-06",
+  "first_page_order": 958,
+  "last_page_order": 958
+}

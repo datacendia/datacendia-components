@@ -1,0 +1,622 @@
+{
+  "id": 12519730,
+  "name": "AMERIGEN PHARMACEUTICALS LIMITED, Appellant v. UCB PHARMA GMBH, Appellee",
+  "name_abbreviation": "Amerigen Pharm. Ltd. v. UCB Pharma GMBH",
+  "decision_date": "2019-01-11",
+  "docket_number": "2017-2596",
+  "first_page": "1076",
+  "last_page": "1089",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "913 F.3d 1076"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Fed. Cir.",
+    "id": 8955,
+    "name": "United States Court of Appeals for the Federal Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "125 Stat. 284",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "year": 2011,
+      "opinion_index": 0
+    },
+    {
+      "cite": "117 Stat. 2066",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "year": 2003,
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 C.F.R. \u00a7 314.94",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "pin_cites": [
+        {
+          "page": "(a)(12)(viii)(A)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2016 WL 1611377",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "*6, *10"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 U.S.C. \u00a7 271",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(e)(2)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "549 U.S. 497",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3553859
+      ],
+      "weight": 3,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "517-18"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/549/0497-01"
+      ]
+    },
+    {
+      "cite": "51 F.3d 1552",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11367997
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "1558"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/51/1552-01"
+      ]
+    },
+    {
+      "cite": "492 F.3d 1350",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3506371
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "1356",
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/492/1350-01"
+      ]
+    },
+    {
+      "cite": "35 U.S.C. \u00a7 316",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 15,
+      "pin_cites": [
+        {
+          "page": "(e)"
+        },
+        {
+          "page": "28",
+          "parenthetical": "\"Petitioner argues that 'a person of ordinary skill in the art would have appreciated that 5-HMT was [too hydrophilic] and needed to be modified in a way to improve bioavailability....' \" (alteration in original) "
+        },
+        {
+          "page": "29-30"
+        },
+        {
+          "page": "31"
+        },
+        {
+          "page": "31-32"
+        },
+        {
+          "page": "40"
+        },
+        {
+          "page": "39"
+        },
+        {
+          "page": "40"
+        },
+        {
+          "page": "42"
+        },
+        {
+          "page": "42"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "829 F.3d 1317",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4339368
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1327"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/829/1317-01"
+      ]
+    },
+    {
+      "cite": "383 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6166987
+      ],
+      "weight": 3,
+      "year": 1966,
+      "pin_cites": [
+        {
+          "page": "17-18"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/383/0001-01"
+      ]
+    },
+    {
+      "cite": "35 U.S.C. \u00a7 103",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "year": 2006,
+      "opinion_index": 0
+    },
+    {
+      "cite": "305 U.S. 197",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6139848
+      ],
+      "weight": 3,
+      "year": 1938,
+      "pin_cites": [
+        {
+          "page": "229"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/305/0197-01"
+      ]
+    },
+    {
+      "cite": "203 F.3d 1305",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11491052
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "1316"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/203/1305-01"
+      ]
+    },
+    {
+      "cite": "381 F.3d 1125",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9202753
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "1127"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/381/1125-01"
+      ]
+    },
+    {
+      "cite": "678 F.3d 1357",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3874438
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "1361"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/678/1357-01"
+      ]
+    },
+    {
+      "cite": "35 U.S.C. \u00a7 311",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "540 F.3d 1353",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4234261
+      ],
+      "weight": 3,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "1358-60"
+        },
+        {
+          "page": "1361"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/540/1353-01"
+      ]
+    },
+    {
+      "cite": "781 F.3d 1356",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4076481
+      ],
+      "weight": 5,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1359-61"
+        },
+        {
+          "page": "1360"
+        },
+        {
+          "page": "1361-62"
+        },
+        {
+          "page": "1367-68"
+        },
+        {
+          "page": "1363"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/781/1356-01"
+      ]
+    },
+    {
+      "cite": "904 F.3d 996",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12518724
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1004"
+        },
+        {
+          "page": "1004"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/904/0996-01"
+      ]
+    },
+    {
+      "cite": "549 U.S. 118",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3553591
+      ],
+      "weight": 7,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "127"
+        },
+        {
+          "page": "127"
+        },
+        {
+          "page": "127"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/549/0118-01"
+      ]
+    },
+    {
+      "cite": "21 C.F.R. \u00a7 314.53",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(f)(2)(i)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 U.S.C. \u00a7 355",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "(j)(5)(B)(ii)"
+        },
+        {
+          "page": "(j)(2)(A)(vii)(IV)"
+        },
+        {
+          "page": "(j)(5)(D)(i)(I)(bb)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "804 F.3d 1193",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4356753,
+        12309940
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1197"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/804/1193-01",
+        "/us-app-dc/420/0037-01"
+      ]
+    },
+    {
+      "cite": "887 F.3d 1368",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516530
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1372"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/887/1368-01"
+      ]
+    },
+    {
+      "cite": "422 U.S. 490",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9528
+      ],
+      "weight": 3,
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "501"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/422/0490-01"
+      ]
+    },
+    {
+      "cite": "845 F.3d 1168",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12178432
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1171"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/845/1168-01"
+      ]
+    },
+    {
+      "cite": "136 S.Ct. 1540",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12596653
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1547"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/136/1540-01"
+      ]
+    },
+    {
+      "cite": "753 F.3d 1258",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5918243
+      ],
+      "weight": 2,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "1261"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/753/1258-01"
+      ]
+    },
+    {
+      "cite": "504 U.S. 555",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11730070
+      ],
+      "weight": 3,
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "560"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/504/0555-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1295",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(4)(A)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2017 WL 3085867",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "parenthetical": "\" Decision \""
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1488,
+    "char_count": 40180,
+    "pagerank": {
+      "raw": 5.3233794276779046e-08,
+      "percentile": 0.33552902119003847
+    },
+    "sha256": "7cb19194a1d0525c844e0e2987457b70a51231984298e4d615e3aa8749b46a4b",
+    "simhash": "1:c1aec1a0021612e6",
+    "word_count": 6325
+  },
+  "last_updated": "2024-02-27T18:46:17.308091+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Lourie, Chen, and Stoll, Circuit Judges."
+    ],
+    "parties": [
+      "AMERIGEN PHARMACEUTICALS LIMITED, Appellant\nv.\nUCB PHARMA GMBH, Appellee"
+    ],
+    "opinions": [
+      {
+        "text": "Lourie, Circuit Judge.\nAmerigen Pharmaceuticals Limited (\"Amerigen\") appeals from the decision of the United States Patent and Trademark Office Patent Trial and Appeal Board (the \"Board\") in an inter partes review (\"IPR\") holding that claims 1-5 and 21-24 of U.S. Patent 6,858,650 (the \" '650 patent\") are not unpatentable as obvious. Mylan Pharm. Inc. v. UCB Pharma GmbH , No. 2016-00510, 2017 WL 3085867 (P.T.A.B. July 19, 2017) (\" Decision \"). We conclude that the Board did not err in its conclusions and affirm.\nI. BACKGROUND\nA.\nUCB Pharma GmbH (\"UCB\") owns the '650 patent, which covers certain chemical derivatives of 3,3-diphenylpropylamines, including a compound called fesoterodine. Fesoterodine is an antimuscarinic drug marketed as Toviaz\u00ae to treat urinary incontinence.\nThe chemical structure of fesoterodine is depicted below:\nOn the upper left hand benzene ring above, we will refer to the position of the hydroxymethyl group as the 5-position, and the position of the isobutyryl ester as the 2-position.\nFesoterodine is a prodrug. Unlike a typical drug, a prodrug is an inactive molecule as-delivered and requires transformation within the body into its active therapeutic form. A prodrug may be employed when administering the active molecule itself is infeasible because of poor bioavailability (i.e. , the fraction of a drug dose that is absorbed into the bloodstream) or other drug delivery problems.\nFesoterodine is a prodrug of the active compound 5-hydroxymethyl tolterodine (\"5-HMT\"). 5-HMT is a metabolite of the compound tolterodine, an older antimuscarinic drug sold under the trade name Detrol \u00ae to treat overactive bladder. In the body, tolterodine is converted to 5-HMT by cytochrome P450 2D6 (\"CYP2D6\"). The metabolite 5-HMT, like tolterodine, has antimuscarinic activity and thus contributes to the therapeutic effect of tolterodine. Such metabolites are known as active metabolites. The chemical structures of tolterodine and 5-HMT are shown below:\nAs depicted, CYP2D6 converts the methyl group at the 5-position of tolterodine to a hydroxymethyl group in 5-HMT. Fesoterodine, on the other hand, differs from 5-HMT at the 2-position: 5-HMT has a hydroxy group, while fesoterodine has an isobutyryl ester. The issue before us is whether it would have been obvious to modify the 2-position hydroxy group of 5-HMT to an alkyl ester of six carbons or less as in fesoterodine.\nB.\nMylan Pharmaceuticals Inc. petitioned for IPR of the '650 patent, and the Board instituted review of claims 1-5 and 21-24 on two grounds: (1) obviousness over the Detrol Label, Postlind, Bundgaard, Bundgaard PCT, and Berge ; and (2) obviousness over Brynne, Bundgaard, Bundgaard PCT, and Johansson. After institution, Amerigen and two other companies were joined as parties to the proceeding. Only Amerigen has appealed.\n1.\nThe references fall into three general categories. First, the Detrol Label, Postlind, and Brynne discuss tolterodine and its metabolism and pharmacokinetics. Second, Bundgaard and Bundgaard PCT focus on prodrug design principles. Third, Berge and Johansson relate to pharmaceutical salts. We will summarize each group in turn.\nThe Detrol Label discloses the structure of tolterodine and its metabolism to 5-HMT via the enzyme CYP2D6. The metabolite 5-HMT is reported to have antimuscarinic activity similar to tolterodine and contribute to tolterodine's therapeutic effect. The Detrol Label taught that a subset of the population (known as \"poor metabolizers\") lacks CYP2D6 activity and instead metabolizes tolterodine by means of the enzyme CYP34A. Since the CYP34A pathway metabolizes tolterodine more slowly than CYP2D6, poor metabolizers have higher concentrations of tolterodine and negligible concentrations of 5-HMT. However, because the sum of unbound tolterodine and 5-HMT concentrations is similar in extensive (i.e. , patients with normal CYP2D6 activity) and poor metabolizers, the Detrol Label teaches that the net therapeutic activity of tolterodine would be similar between both groups.\nBrynne is a research paper that describes the influence of patients' varying CYP2D6 activity on tolterodine activity. Like the Detrol Label, Brynne posits that \"the CYP2D6 polymorphism does not appear to be of great importance in the antimuscarinic effect, probably because of the additive action of parent drug and active metabolite.\" J.A. 301. However, Brynne did observe that \"[t]olterodine is tenfold more lipophilic than 5-HM[T], and consequently tolterodine penetrates membranes more rapidly.\" J.A. 310. The reference suggests that this difference might contribute to poor metabolizers experiencing a slightly worse side effect than extensive metabolizers. But ultimately, Brynne concludes that the variation in CYP2D6 activity between poor and extensive metabolizers \"does not appear to be of great pharmacodynamic importance.\" Id.\nPostlind, another published research paper, focuses on tolterodine metabolism. J.A. 296. Postlind cautions that tolterodine has a potential for drug-drug interactions because other drugs are metabolized by CYP2D6 and that CYP2D6 poor metabolizers could be particularly affected by such interactions.\nBundgaard describes prodrugs and their design principles. The reference defines a prodrug as \"a pharmacologically inactive derivative of a parent drug molecule that requires spontaneous or enzymatic transformation within the body in order to release the active drug, and that has improved delivery properties over the parent drug molecule.\" J.A. 316. Thus, \"[t]he prodrug per se is an inactive species, and therefore, once its job is completed, intact prodrug represents unavailable drug.\" J.A. 319. Esters are listed as common prodrug substituents. Specifically, \"[a]ctive drug species containing hydroxyl or carboxyl groups can often be converted to prodrug esters from which the active forms are regenerated by esterases within the body.\" J.A. 319; see J.A. 320 (listing ester prodrugs). Bundgaard further states that esters can be used to improve aqueous solubility of drugs containing a hydroxy group and that with esterification \"it is feasible to obtain derivatives with almost any desirable hydrophilicity or lipophilicity.\" J.A. 321. Relatedly, Bundgaard PCT discloses an ester prodrug of morphine that improves transdermal delivery and is more lipophilic than the parent drug.\nBerge and Johansson both disclose pharmaceutical salts including fumarate salts.\n2.\nIn its obviousness analysis, the Board accepted that a person of ordinary skill would have chosen 5-HMT as a lead compound for development in order to reduce the number of potential metabolic steps and to avoid CYP2D6-related drug-drug interactions. Decision , slip op. at 22. However, after considering expert testimony from both the petitioners and UCB, the Board found that a person of ordinary skill would not have been motivated to modify 5-HMT to make a prodrug by replacing the 2-position hydroxy group with an alkyl ester of six or fewer carbons. Id. at 34-35, 40-41. This factual determination was premised on several subsidiary findings that Amerigen challenges on appeal. We summarize these findings here.\nThe Board found that a person of ordinary skill would not have been motivated to modify 5-HMT to improve its bioavailability. Decision , slip op. at 32-33. Petitioners' expert, Dr. Patterson, testified that 5-HMT was insufficiently lipophilic because of its two hydroxy groups, and that its lipophilicity would cause bioavailability problems. In support, Dr. Patterson pointed to Brynne's statement that tolterodine is 10-fold more lipophilic than 5-HMT and could penetrate cell membranes more rapidly. UCB responded that no prior art reference suggested that 5-HMT would not be well-absorbed, and that the lipophilicity of 5-HMT relative to tolterodine, a known, well-absorbed drug, did not show that 5-HMT had a bioavailability problem.\nFurthermore, UCB's expert, Dr. Roush, conducted an analysis of 5-HMT using the \"Rule of 5\" discussed in a research article on drug delivery by Lipinski. Dr. Patterson agreed that a person of ordinary skill would consider the Rule of 5. The Rule of 5 assesses four inherent properties of a compound that may help to predict whether it will have a bioavailability problem. Dr. Roush considered these properties as they pertained to 5-HMT and concluded that none of them indicated that 5-HMT had a bioavailability problem. Dr. Patterson did not rebut this analysis. The Board thus credited Dr. Roush and determined that a person of ordinary skill would not have been motivated to modify 5-HMT because of bioavailability concerns. Decision , slip op. at 32-33.\nGiven its determination that 5-HMT did not have a bioavailability problem, the Board found that a person of ordinary skill would not have made a 5-HMT prodrug to solve a bioavailability problem that did not exist. Decision , slip op. at 35. Designing a prodrug was a complex endeavor, the Board found, as toxicity, bioavailability, and other drug characteristics must be monitored for two compounds rather than just one. Id. The Board also found that Bundgaard defined the prodrug form of a compound as inactive, but the petitioners did not demonstrate that esters of 5-HMT would be inactive. Id. at 36. Moreover, the petitioners did not point to any prodrugs analogous to fesoterodine, for example, prodrugs in the same chemical class, with the same mechanism of action, or in the same field of treatment. Id. at 36-37. The Board thus found that a person of ordinary skill would not have been motivated to develop a prodrug of 5-HMT.\nEven assuming that a person of ordinary skill would have been motivated to modify 5-HMT, the Board found that producing the specific claimed compounds would not have been a matter of routine optimization. Id. at 40-43. No prior art reference disclosed the molecule fesoterodine. Id. at 38, 40. Considering competing expert testimony, the Board determined that there were many possible molecular modifications of 5-HMT consistent with a prodrug design. Id. at 40. For example, Bundgaard explained that diesters could be used in a prodrug. Id. The Board credited Dr. Roush's testimony that a person of ordinary skill would have considered esterifying the hydroxy groups at both the 2- and 5-positions. Id. at 42. And even if a person of ordinary skill only considered esterifying the 2-position hydroxy group, the Board credited Dr. Roush's testimony that there was no scientific justification to limit the ester to six carbons or fewer. Id. at 43. Finally, even if the universe of possible esters was limited to alkyl esters of six carbons or fewer at the 2-position, that still left 86 possible monoesters. The Board found that it would not have been routine to test each one. Id. at 41. Altogether, the Board held that the prior art did not suggest modifying 5-HMT to make the specific claimed compounds. Id. at 40.\nRegarding the dependent claims, the Board held that it would not have been obvious to make the R-enantiomer or a fumarate salt of the claimed compounds. Id. at 45, 47. As we resolve this appeal with respect to independent claim 1, we do not further discuss the Board's findings on the dependent claims.\nPetitioners also argued, in a footnote in the petition, that a person of ordinary skill would have been motivated to modify 5-HMT because at the time of the invention 5-HMT was covered by a patent. Id. at 23. The Board gave little weight to this argument. Id. at 24. Based on the above findings, the Board concluded that the petitioners did not sustain their burden to prove any of the instituted claims unpatentable as obvious over the references in either ground. Id. at 48-50.\nAmerigen appealed. UCB moved to dismiss for lack of standing, which we denied without prejudice to UCB raising its standing arguments at the merits stage. Amerigen Pharm. Ltd. v. UCB Pharma GmbH , No. 17-2596, ECF No. 23 (Fed. Cir. Mar. 15, 2018). As UCB's standing challenge implicates our jurisdiction, we begin with standing and then turn to the merits.\nII. DISCUSSION\nA. Standing\nUCB argues that Amerigen lacks standing to appeal from the Board's decision because the Food and Drug Administration (\"FDA\") will not approve Amerigen's abbreviated new drug application (\"ANDA\") until the expiration of the '650 patent, previously upheld in a separate suit in the District of Delaware, in 2022. Accordingly, UCB contends that Amerigen is foreclosed from infringing the '650 patent, and without a possibility of infringement there can be no justiciable dispute. Separately, UCB argues any alleged injury is traceable to Amerigen's own conduct, not UCB's, because Amerigen acquiesced to the Delaware district court's infringement and validity holdings.\nAmerigen responds that its ANDA product has already secured tentative approval from the FDA, that the '650 patent delays entry of its competing product, and that invalidating the claims of the '650 patent would advance the launch of its product. By blocking its release of a competing drug, Amerigen argues that the '650 patent imposes a concrete injury sufficient for Article III standing.\nAlthough we have jurisdiction to review final decisions of the Board under 28 U.S.C. \u00a7 1295(a)(4)(A), an appellant must meet \"the irreducible constitutional minimum of standing,\" Lujan v. Defenders of Wildlife , 504 U.S. 555, 560, 112 S.Ct. 2130, 119 L.Ed.2d 351 (1992), even if there is no such requirement in order to appear before the administrative agency being reviewed, Consumer Watchdog v. Wis. Alumni Research Found. , 753 F.3d 1258, 1261 (Fed. Cir. 2014). Standing requires an appellant to have \"(1) suffered an injury in fact, (2) that is fairly traceable to the challenged conduct of the defendant, and (3) that is likely to be redressed by a favorable judicial decision.\" Spokeo, Inc. v. Robins , --- U.S. ----, 136 S.Ct. 1540, 1547, 194 L.Ed.2d 635 (2016). As the party seeking judicial review, the appellant bears the burden of proving that it has standing. Phigenix, Inc. v. Immunogen, Inc. , 845 F.3d 1168, 1171 (Fed. Cir. 2017). We accept as true Amerigen's material representations of fact for purposes of assessing its standing. See Warth v. Seldin , 422 U.S. 490, 501, 95 S.Ct. 2197, 45 L.Ed.2d 343 (1975) ; James v. J2 Cloud Servs., LLC , 887 F.3d 1368, 1372 (Fed. Cir. 2018) ; see also Am. Inst. of Certified Pub. Accountants v. IRS , 804 F.3d 1193, 1197 (D.C. Cir. 2015).\nWe agree with Amerigen that it has standing to appeal from the Board's decision because the launch of its tentatively approved drug is blocked by the '650 patent, and invalidation of the patent would advance its drug's launch. The '650 patent is listed in the FDA's \"Orange Book\" entry for Toviaz\u00ae. Amerigen has a Paragraph III certification for the '650 patent, which means that the FDA will only approve Amerigen's ANDA after the '650 patent has expired. 21 U.S.C. \u00a7 355(j)(5)(B)(ii). However, if the '650 patent is held unpatentable through reversal of the Board's decision, then the New Drug Application (\"NDA\") holder must \"promptly notify\" the FDA that the patent \"no longer meet[s] the statutory requirements for listing.\" 21 C.F.R. \u00a7 314.53(f)(2)(i). And \u00a7 314.53 expressly states that a patent does not meet the requirements for listing \"if there has been a judicial finding of invalidity for a listed patent, from which no appeal has been or can be taken.\" Id. After a notification from the NDA holder that a patent may no longer be listed, the FDA \"will remove a patent ... from the list if there is no first applicant eligible for 180-day exclusivity based on a paragraph IV certification to that patent or after the 180-day exclusivity period of a first applicant based on that patent has expired or has been extinguished.\" Id.\nAmerigen has represented that its \"ANDA has already received tentative approval and would be able to obtain final approval for launch in 2019 if the '650 patent is invalidated.\" Reply Br. 13. The '650 patent expires on July 3, 2022. UCB's other earlier-expiring patents listed in the Orange Book, which are not at issue in this appeal, expire on May 11, 2019. Consequently, there would be a roughly three-year period beginning in May 2019 during which Amerigen's sales would be blocked by the '650 patent. The record is unclear whether a different company's generic product is eligible for the 180-day exclusivity period. However, even assuming that another generic product is entitled to 180-day exclusivity, a conclusion from this court that the instituted claims of the '650 patent are unpatentable and the FDA's consequent delisting of the patent would enable Amerigen to launch its competing product substantially earlier than it otherwise could upon the patent's expiration. We thus conclude that Amerigen has a concrete, economic interest in the sales of its tentatively approved drug obstructed by the listing of the '650 patent, and has thereby demonstrated a controversy \"of sufficient immediacy and reality\" for Article III standing. MedImmune, Inc. v. Genentech, Inc. , 549 U.S. 118, 127, 127 S.Ct. 764, 166 L.Ed.2d 604 (2007) ; see E.I. DuPont de Nemours & Co. v. Synvina C.V. , 904 F.3d 996, 1004 (Fed. Cir. 2018).\nUCB's arguments that Amerigen lacks standing are largely premised on the theory that under the Hatch-Waxman Act, 21 U.S.C. \u00a7\u00a7 355, 360 (2012), a \"Paragraph IV certification is the fundamental, jurisdictional basis enabling parties to litigate Orange Book-listed patents in the Article III courts,\" and without that basis there can be no injury in fact. Appellee's Br. 27. But this case does not arise under the Hatch-Waxman Act, and the causes of action available under that Act do not necessarily control the standing inquiry in an appeal from an IPR decision. They do not control here because Amerigen does not rely on a risk of infringement liability as a basis for injury in fact; rather, it contends that the mere listing of the '650 patent in the Orange Book inflicts a concrete commercial injury redressable by this court.\nWe have previously recognized that listing a patent in the Orange Book may create a cognizable injury independent of the prospect of infringement liability. In Apotex, Inc. v. Daiichi Sankyo, Inc. , one generic company, Apotex, sought to cause the forfeiture of a third-party generic company's 180-day exclusivity period by securing a declaratory judgment of noninfringement of Daiichi's patent that had been disclaimed. 781 F.3d 1356, 1359-61 (Fed. Cir. 2015). Apotex could not show harm via infringement because the disclaimed patent could not be infringed. But Apotex could show harm from the fact that the patent was still listed in the Orange Book, because the listing delayed the start of the third party's 180-day exclusivity period, which in turn delayed the date on which Apotex could market its drug. Apotex argued that a declaratory judgment of noninfringement, in accelerating the end of the third party's exclusivity period, \"would allow it to enter the market earlier than it could without the judgment.\" Id. at 1360. We agreed that Apotex demonstrated a controversy \"of sufficient immediacy and reality\" for Article III standing. Id. at 1361-62 (quoting MedImmune , 549 U.S. at 127, 127 S.Ct. 764 ). That controversy originated from the \"listing of [a] patent, with its current consequence of preventing FDA approval\" of Apotex's proposed drug during the other generic company's exclusivity period. Id. at 1362.\nThis case presents the same essential scenario, where the listing of a drug company's patent delays the launch of a competing generic product. If Amerigen succeeds in invalidating the '650 patent here and having the patent delisted, then it, like Apotex, could launch its proposed drug substantially earlier than it otherwise could. Consequently, \"by any common-sense measure,\" Amerigen has a \"substantial, concrete stake [ ] in whether\" it succeeds in proving the invalidity of the '650 patent. Id. at 1363.\nUCB contends that this case is controlled by Janssen Pharmaceutica, N.V. v. Apotex, Inc. , 540 F.3d 1353 (Fed. Cir. 2008), not Daiichi . Similar to Daiichi , Janssen involved one generic company, coincidentally also Apotex, seeking a declaratory judgment of noninfringement of Janssen's listed patent in order to trigger another generic company's 180-day exclusivity period, thereby advancing the launch of Apotex's drug. 540 F.3d at 1358-60. However, unlike Daiichi , Janssen applied the pre-MMA version of the Hatch-Waxman Act that did not provide an express path for one generic firm to trigger the forfeiture of the first filer's 180-day exclusivity period. Daiichi , 781 F.3d at 1367-68. Janssen thus concluded that the inability of the later filing generic company \"to promptly launch its generic [product] because of [the first filer's] 180-day exclusivity period is not a cognizable Article III controversy, but a result envisioned by the Hatch-Waxman Act.\" 540 F.3d at 1361.\nThe America Invents Act (\"AIA\") and its provisions governing IPRs do not support an analogous statutory implication. Congress granted parties broad access to challenge patents through the IPR procedure. Any \"person who is not the owner of a patent may file with the [Patent] Office a petition to institute an [IPR] of the patent.\" 35 U.S.C. \u00a7 311. Likewise, any \"party dissatisfied with the final written decision of the [Board] ... may appeal the decision....\" Id. \u00a7 319. The AIA thus provides no basis for us to premise standing in an appeal from an IPR decision on the availability of particular causes of action under the Hatch-Waxman Act. Rather, an appellant must demonstrate an injury consistent with the generally applicable requirements of Article III, i.e. , a controversy \"of sufficient immediacy and reality\" to warrant the requested judicial relief. MedImmune , 549 U.S. at 127, 127 S.Ct. 764 ; DuPont , 904 F.3d at 1004. Because Amerigen has demonstrated such a controversy traceable to UCB's '650 patent and redressable by this court, it has standing to appeal from the Board's decision even though it may be incapable (as a Paragraph III filer) of maintaining a parallel Hatch-Waxman suit.\nWe are not persuaded by UCB's remaining arguments. UCB contends that any delisting-based relief would be too speculative to support standing. However, as Amerigen has already been granted tentative approval for its proposed drug, the only uncertainty is whether Amerigen would have to wait for another generic company's potential 180-day exclusivity period to expire. As we have explained, Amerigen's launch would be substantially advanced even if another generic company has 180 days of exclusivity.\nUCB additionally disputes whether Amerigen's alleged injury is traceable to UCB. The injury plainly is caused by UCB's listing of the '650 patent ; absent that entry barrier, approval of Amerigen's proposed drug would be advanced. See Daiichi , 781 F.3d at 1363.\nFor the foregoing reasons, we conclude that Amerigen has standing to appeal from the Board's decision. We therefore proceed to the merits.\nB. Obviousness\nAmerigen argues that the Board did not properly consider the evidence in support of obviousness. In particular, Amerigen alleges that: (1) the Board misunderstood Amerigen's arguments concerning lipophilicity, and it should have recognized that a person of ordinary skill would have increased the lipophilicity of 5-HMT for its own sake; (2) the Board placed an excessive burden on Amerigen to show a motivation to make a 5-HMT prodrug; and (3) the Board failed to recognize that arriving at the specific claimed compounds would have been routine optimization. Amerigen additionally contends that the Board ignored its argument concerning the effect of the patent covering 5-HMT.\nUCB responds that Amerigen points to no legal error and that substantial evidence supports the Board's findings.\nOur review of a Board decision is limited. In re Baxter Int'l, Inc. 678 F.3d 1357, 1361 (Fed. Cir. 2012). While we review the Board's legal determinations de novo , In re Elsner , 381 F.3d 1125, 1127 (Fed. Cir. 2004), we review the Board's factual findings underlying those determinations for substantial evidence, In re Gartside , 203 F.3d 1305, 1316 (Fed. Cir. 2000). A finding is supported by substantial evidence if a reasonable mind might accept the evidence as adequate to support the finding. Consol. Edison Co. v. NLRB , 305 U.S. 197, 229, 59 S.Ct. 206, 83 L.Ed. 126 (1938).\nUnder 35 U.S.C. \u00a7 103 (2006),\n[a] patent may not be obtained ... if the differences between the subject matter sought to be patented and the prior art are such that the subject matter as a whole would have been obvious at the time the invention was made to a person having ordinary skill in the art to which said subject matter pertains.\nObviousness is a question of law based on underlying facts, including the scope and content of the prior art, differences between the prior art and the claims at issue, the level of ordinary skill, and relevant evidence of secondary considerations. Graham v. John Deere Co. , 383 U.S. 1, 17-18, 86 S.Ct. 684, 15 L.Ed.2d 545 (1966). Whether a person of ordinary skill would have been motivated to modify the teachings of a reference is a question of fact. WBIP, LLC v. Kohler Co. , 829 F.3d 1317, 1327 (Fed. Cir. 2016). In an IPR, the petitioner has the burden of proving unpatentability by a preponderance of the evidence. 35 U.S.C. \u00a7 316(e).\nWe agree with UCB that the Board did not legally err and that substantial evidence supports the Board's findings. We address Amerigen's arguments in turn.\nAmerigen argues that a person of ordinary skill would have been motivated to modify 5-HMT to increase its lipophilicity. Based on the analysis of UCB's expert, Dr. Roush, the Board disagreed. Decision , slip op. at 31-33. Petitioners argued that 5-HMT's lower lipophilicity compared to tolterodine suggested that 5-HMT had a bioavailability problem. Id. at 28 (\"Petitioner argues that 'a person of ordinary skill in the art would have appreciated that 5-HMT was [too hydrophilic] and needed to be modified in a way to improve bioavailability....' \" (alteration in original) ). Dr. Roush, however, testified that since 5-HMT did not violate any of the Lipinski rules, a person of ordinary skill would not have thought 5-HMT had a bioavailability problem. Id. at 29-30. Specifically, Dr. Roush testified that Lipinski predicts a potential bioavailability problem if a compound meets two of the following four factors: (1) more than 5 hydrogen bond donors; (2) a molecular weight over 500; (3) a logP over 5; and (4) more than 10 hydrogen bond acceptors. According to Dr. Roush, 5-HMT had: (1) 2 hydrogen bond donors; (2) a molecular weight of 341.5; (3) a logP of 3.7; and (4) 3 hydrogen bond acceptors. As 5-HMT satisfied none of the Lipinski factors, Dr. Roush found that \"there would have been no reason to suspect that 5-HMT would possess poor oral absorption.\" J.A. 1295. Petitioners' expert, Dr. Patterson, agreed that a person of ordinary skill would have considered Lipinski in assessing bioavailability and did not rebut Dr. Roush's analysis. Decision , slip op. at 30.\nThe Board weighed the unrebutted testimony of Dr. Roush against petitioners' argument based on the relative lipophilicity of 5-HMT to tolterodine and Dr. Patterson's testimony that 5-HMT's two hydroxy groups suggested a bioavailability problem. Id. at 31. The Board found that Dr. Roush better addressed the bioavailability issue and that the lipophilicity of 5-HMT relative to tolterodine did not demonstrate a bioavailability problem. Id. at 31-32. We agree with UCB that a reasonable fact finder could have weighed Dr. Roush's testimony over Dr. Patterson's. Based on the record before us, we conclude that substantial evidence supports the Board's finding that a person of ordinary skill would not have been motivated to modify 5-HMT to increase its lipophilicity.\nOn appeal, Amerigen does not point to a specific error in the Board's findings, but generally argues that \"there need not be a specific problem with bioavailability of 5-HMT for one of ordinary skill in the art to be motivated to modify 5-HMT to further improve its bioavailability.\" Appellant's Br. 33. While that may be true in some cases, Amerigen's conclusory argument is not sufficient to overcome the substantial evidence to the contrary underpinning the Board's analysis. The Board found that a person of ordinary skill would have considered prodrug development to involve tradeoffs, including having to monitor \"the toxicity, bioavailability, receptor affinity, pharmacokinetics, and pharmacodynamics of\" two compounds: the prodrug and the active compound. Decision , slip op. at 35. Given such complexities, the Board determined that a person of ordinary skill would not have turned to a prodrug approach \"to solve an undefined problem.\" Id. We see no reversible error in the Board's findings.\nAmerigen then argues that increasing lipophilicity \"in and of itself\" (i.e. , independent of bioavailability concerns) would have motivated a person of ordinary skill to modify 5-HMT. Appellant's Br. 32. However, Amerigen did not present this theory to the Board, points us to no evidence in the record in support of it, and does not explain why a skilled artisan would modify a drug to increase its lipophilicity independent of bioavailability. We thus do not consider Amerigen's argument persuasive.\nEven assuming that a person of ordinary skill would have had some motivation to modify 5-HMT, the Board additionally found that the petitioners did not prove that a skilled artisan would have made the specific modifications leading to the claimed compounds. Amerigen argues that the Board erred in its findings. We disagree.\nThe Board held that the petitioners did not sustain their burden of proof for primarily three reasons. First, the Board considered Bundgaard's teaching that the prodrug form of a drug is inactive. Decision , slip op. at 35-36 ; see J.A. 316 (defining a prodrug as \"a pharmacologically inactive derivative of a parent drug molecule that requires spontaneous or enzymatic transformation within the body in order to release the active drug, and that has improved delivery properties over the parent drug molecule.\"); J.A. 319 (\"The prodrug per se is an inactive species, and therefore, once its job is completed, intact prodrug represents unavailable drug.\"). Petitioners presented no evidence that an ester of 5-HMT would be inactive, and the Board thus found that this deficiency supported nonobviousness. Decision , slip op. at 36. Amerigen argues that the Board imposed an \"insurmountable burden\" on petitioners, Appellant's Br. 38, but we disagree. The Board sensibly found that a skilled artisan would \"seek some degree of certainty that a prodrug of a particular molecule would be inactive before embarking on the process of attempting to create the prodrug,\" and the petitioners failed to provide any such certainty. Decision , slip op. at 36.\nThis deficiency is compounded by the Board's second finding that the petitioners did not point to any prodrugs analogous to 5-HMT. Specifically, the Board found no evidence of prodrugs in the same chemical class, with the same mechanism of action, or in the same field of treatment. Id. Again, Amerigen argues that the Board imposed too high a burden on petitioners, effectively a \"[r]equirement for a [p]rior [t]eaching of a 5-HMT [a]nalog [p]rodrug.\" Appellant's Br. 39. But the Board did not require such evidence, Decision , slip op. at 37 (\"Petitioner does not have to demonstrate explicitly that there were prodrug examples analogous to 5-HMT....\"); it just found that the absence of such evidence supported UCB's argument that at the time of the invention skilled artisans had not considered \"a prodrug of an antimuscarinic drug or any sort of overactive bladder drug.\" Id. Although not dispositive, the Board did not err in inquiring whether there existed at the time of the invention prodrugs similar to the claimed compounds.\nThird, the Board found that it would not have been routine to make the claimed molecular modifications to 5-HMT to produce the claimed compounds. Citing Dr. Roush, the Board found: (1) that a skilled artisan would have considered diester substitutions as well as other prodrug moieties taught in Bundgaard, id. at 40 ; (2) that a person of ordinary skill would have considered modifying the 5-position in addition to the 2-position, id. at 41-42 ; and (3) that Bundgaard did not specifically teach the isobutyryl ester of fesoterodine, id. at 40.\nAmerigen argues that Bundgaard disclosed esters as prototypical prodrug moieties and that modifying the 2-position alone would have been the most obvious choice. While the Board considered Bundgaard's disclosure of ester prodrugs, id. at 39, the Board also observed, citing Dr. Roush, that Bundgaard taught many other prodrug substitutions that a person of ordinary skill would have considered, id. at 40. Dr. Roush testified that these additional substitutions included ethers, carbamates, carbonates, phosphate esters, Mannich bases, and macromolecular prodrugs. Moreover, the Board also found that a person of ordinary skill would have considered modifications at the 5-position because the prior art did not indicate a preference for either the 2- or 5-position, and the inventors themselves considered modifying the 5-position. Id. at 42. The Board did not consider the contrary evidence persuasive: Dr. Patterson argued that modifying only the 5-position would pose a risk of transesterification, but did not sufficiently explain that risk, and petitioners primarily relied on a separate theory altogether regarding possible metabolic complications at the 5-position that was devoid of evidentiary support, id. at 42. Amerigen has demonstrated no discernible error in the Board's technical analysis, and asks this court to reweigh these matters on appeal. We conclude that substantial evidence supports the Board's determination that the prior art did not suggest making the claimed monoester substitutions solely at the 2-position.\nAltogether, the Board found that the petitioners neither established a general motivation to make a 5-HMT prodrug nor proved that the specific claimed modifications would have been obvious. We conclude that Amerigen's factual challenges to the Board's decision are without merit and that substantial evidence supports the Board's findings.\nAmerigen additionally contends that the Board did not give sufficient weight to its theory-presented in a single-sentence footnote to its argument about salt forms of fesoterodine-that a skilled artisan would have been motivated to modify 5-HMT because 5-HMT was patented at the time of invention. However, even accepting, for the sake of discussion, that a patent on 5-HMT would provide a commercial motivation for a skilled artisan to modify 5-HMT, such a motivation would not be sufficient to prove that the claimed compounds would have been obvious. It was Amerigen's burden to show that the \"prior art would have suggested making the specific molecular modifications necessary to achieve the claimed invention.\" Takeda Chem. Indus., Ltd. v. Alphapharm Pty., Ltd. , 492 F.3d 1350, 1356 (Fed. Cir. 2007) (emphasis added) (quoting In re Deuel , 51 F.3d 1552, 1558 (Fed. Cir. 1995) ). A general motivation to modify 5-HMT based on a prior patent would not suffice, and as we have already explained, Amerigen did not otherwise meet its burden to prove that the specific claimed modifications to 5-HMT would have been obvious. Any compound may look obvious once someone has made it and found it to be useful, but working backwards from that compound, with the benefit of hindsight, once one is aware of it does not render it obvious.\nAmerigen also challenges the Board's findings concerning whether it would have been routine to optimize the possible monoesters at the 2-position and whether the particular salts and enantiomer claimed in the dependent claims would have been obvious. The Board held in UCB's favor for each issue. Decision , slip op. at 42-47. However, we conclude that these findings were not necessary to the Board's judgment, and we do not rely on them for ours.\nCONCLUSION\nWe have considered Amerigen's remaining arguments but do not find them persuasive. For the foregoing reasons, we affirm the Board's decision.\nAFFIRMED\nClaim 1, the broadest of the challenged claims, encompasses a genus of esters including \"C1-C6-alkyl, C3-C10-cycloalkyl, [and] substituted or unsubstituted phenyl.\" '650 patent col. 23 ll. 30-31. The parties and the Board focused on the motivation to make the claimed alkyl ester, which we do as well.\nDetrol \u00ae Prescribing Information (1998).\nHans Postlind et al., Tolterodine, a New Muscarinic Receptor Antagonist, Is Metabolized by Cytochromes P450 2D6 and 3A in Human Liver Microsomes , 26 Drug Metabolism & Disposition 289 (1998).\nHans Bundgaard, Design of Prodrugs (1985).\nInternational Application WO 92/08459.\nStephen M. Berge et al., Pharmaceutical Salts , 66 J. Pharm. Sci. 1 (1977).\nNiclas Brynne et al., Influence of CYP2D6 Polymorphism on the Pharmacokinetics and Pharmacodynamics of Tolterodine , 63 Clinical Pharmacology & Therapeutics 529 (1998).\nInternational Application WO 94/11337.\nChristopher Lipinski et al., Experimental and Computational Approaches to Estimate Solubility and Permeability in Drug Discovery and Development Settings , 23 Advanced Drug Delivery Reviews 3 (1997).\nSpecifically, poor absorption is more likely under the Rule of 5 if: (1) there are more than 5 hydrogen-bond donors; (2) there are more than 10 hydrogen-bond acceptors; (3) the molecular weight is greater than 500; and (4) the calculated log P is greater than 5.\nHowever, \"where Congress has accorded a procedural right to a litigant, such as the right to appeal an administrative decision, certain requirements of standing-namely immediacy and redressability, as well as prudential aspects that are not part of Article III-may be relaxed.\" Consumer Watchdog , 753 F.3d at 1261 (citing Massachusetts v. EPA , 549 U.S. 497, 517-18, 127 S.Ct. 1438, 167 L.Ed.2d 248 (2007) ).\nThis publication is formally entitled \"Approved Drug Products with Therapeutic Equivalence Evaluations.\"\nAmerigen had initially filed a Paragraph IV certification against the '650 patent. See 21 U.S.C. \u00a7 355(j)(2)(A)(vii)(IV). Pfizer and UCB then sued Amerigen for patent infringement under 35 U.S.C. \u00a7 271(e)(2), Amerigen stipulated to infringement, and the district court held the '650 patent not invalid. Pfizer v. Sandoz , No. 12-1110-GMS, 2016 WL 1611377, at *6, *10 (D. Del. Apr. 20, 2016). Amerigen waived its right to appeal. The district court's holding that the '650 patent was not invalid and was infringed resulted in the conversion of Amerigen's Paragraph IV certification to a Paragraph III. See 21 C.F.R. \u00a7 314.94(a)(12)(viii)(A).\nThe NDA holder is Pfizer Inc., which holds a license to UCB's '650 patent.\nThe Hatch-Waxman Act, as amended by the Medicare Modernization Act (\"MMA\"), Pub. L. No. 108-173, 117 Stat. 2066 (2003), provides for forfeiture of a first filer's 180-day exclusivity under certain conditions, including via a declaratory judgment of non-infringement in favor of a different generic company. 21 U.S.C. \u00a7 355(j)(5)(D)(i)(I)(bb). Such a judgment triggers a 75-day period for the first filer to market its drug-and start its 180 days of exclusivity-or otherwise lose its period of exclusivity. Id.\nBecause the application of the '650 patent was filed before March 16, 2013, the pre-Leahy-Smith America Invents Act version of \u00a7 103 applies. See Pub L. No. 112-29, 125 Stat. 284 (2011).",
+        "type": "majority",
+        "author": "Lourie, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "William Hare, McNeely Hare & War LLP, Princeton, NJ, argued for appellant. Also represented by Shyam Dixit, Dixit Law Firm, Tampa, FL.",
+      "Jeffrey J. Oelke, Fenwick & West, New York, NY, argued for appellee. Also represented by Ryan Johnson, Laura Moran, James Trainor."
+    ],
+    "corrections": "",
+    "head_matter": "AMERIGEN PHARMACEUTICALS LIMITED, Appellant\nv.\nUCB PHARMA GMBH, Appellee\n2017-2596\nUnited States Court of Appeals, Federal Circuit.\nDecided: January 11, 2019\nWilliam Hare, McNeely Hare & War LLP, Princeton, NJ, argued for appellant. Also represented by Shyam Dixit, Dixit Law Firm, Tampa, FL.\nJeffrey J. Oelke, Fenwick & West, New York, NY, argued for appellee. Also represented by Ryan Johnson, Laura Moran, James Trainor.\nBefore Lourie, Chen, and Stoll, Circuit Judges."
+  },
+  "file_name": "1076-01",
+  "first_page_order": 1076,
+  "last_page_order": 1089
+}

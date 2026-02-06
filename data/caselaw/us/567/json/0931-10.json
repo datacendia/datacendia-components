@@ -1,0 +1,88 @@
+{
+  "id": 12410822,
+  "name": "In re Disbarment of Hackett",
+  "name_abbreviation": "In re Disbarment of Hackett",
+  "decision_date": "2012-06-25",
+  "docket_number": "No. D-2672",
+  "first_page": "931",
+  "last_page": "931",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 931"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "566 U. S. 961",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12209633,
+        12209672,
+        12209642,
+        12209707,
+        12209617,
+        12209627,
+        12209688,
+        12209659,
+        12209726
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/566/0961-03",
+        "/us/566/0961-06",
+        "/us/566/0961-04",
+        "/us/566/0961-08",
+        "/us/566/0961-01",
+        "/us/566/0961-02",
+        "/us/566/0961-07",
+        "/us/566/0961-05",
+        "/us/566/0961-09"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 108,
+    "ocr_confidence": 0.722,
+    "sha256": "23075e36aade763cb69893683e5ec372996886d244848b54f8c69384d85b28b4",
+    "simhash": "1:a4fcc882ebd2d2c6",
+    "word_count": 18
+  },
+  "last_updated": "2024-02-27T23:46:21.325002+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Hackett."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered. [For earlier order herein, see 566 U. S. 961.]",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2672.\nIn re Disbarment of Hackett."
+  },
+  "file_name": "0931-10",
+  "first_page_order": 835,
+  "last_page_order": 835
+}

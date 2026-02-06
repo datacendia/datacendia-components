@@ -1,0 +1,59 @@
+{
+  "id": 12243938,
+  "name": "Garcia-Fierro v. United States",
+  "name_abbreviation": "Garcia-Fierro v. United States",
+  "decision_date": "2012-01-17",
+  "docket_number": "No. 11-7819",
+  "first_page": "1170",
+  "last_page": "1170",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1170"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 79,
+    "ocr_confidence": 0.632,
+    "sha256": "dfd33fdc3634144044806ce68751845d5633479c6ef95e726276b18022bcf480",
+    "simhash": "1:870ad302094e3478",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Garcia-Fierro v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7819.\nGarcia-Fierro v. United States."
+  },
+  "file_name": "1170-15",
+  "first_page_order": 1252,
+  "last_page_order": 1252
+}

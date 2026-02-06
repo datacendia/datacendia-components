@@ -1,0 +1,86 @@
+{
+  "id": 5998587,
+  "name": "Kentucky v. King",
+  "name_abbreviation": "Kentucky v. King",
+  "decision_date": "2011-01-07",
+  "docket_number": "No. 09-1272",
+  "first_page": "1126",
+  "last_page": "1126",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1126"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "561 U. S. 1057",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12456032,
+        12456033,
+        12456034,
+        12456035,
+        12456036,
+        12456037,
+        12456038,
+        12456031
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/177/1150-04",
+        "/l-ed-2d/177/1150-05",
+        "/l-ed-2d/177/1150-06",
+        "/l-ed-2d/177/1150-07",
+        "/l-ed-2d/177/1151-01",
+        "/l-ed-2d/177/1151-02",
+        "/l-ed-2d/177/1151-03",
+        "/l-ed-2d/177/1150-03"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 32,
+    "char_count": 214,
+    "ocr_confidence": 0.582,
+    "sha256": "140398b02009b409e5f63dcefa2f564d6ebf30c5116bfb00a555583a166ffbd6",
+    "simhash": "1:8180a0e38a85cc55",
+    "word_count": 35
+  },
+  "last_updated": "2024-02-27T22:51:28.129297+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Kentucky v. King."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ky. [Certiorari granted, 561 U. S. 1057.] Motion of the Acting Solicitor General for leave to participate in oral argument as amicus curiae and for divided argument granted.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-1272.\nKentucky v. King."
+  },
+  "file_name": "1126-05",
+  "first_page_order": 1148,
+  "last_page_order": 1148
+}

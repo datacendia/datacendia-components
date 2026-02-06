@@ -1,0 +1,916 @@
+{
+  "id": 12520954,
+  "name": "Angie WALLER, Individually and in her Capacity as Independent Executrix of the Estate of Kathleen Margaret Waller; Chris Waller, Plaintiffs - Appellees Terry Wayne Springer; Gayla Wynell Kimbrough, Intervenor Plaintiffs - Appellees v. Benjamin B. HANLON; Richard Hoeppner; B. S. Hardin, Defendants - Appellants",
+  "name_abbreviation": "Waller v. Hanlon",
+  "decision_date": "2019-04-24",
+  "docket_number": "No. 18-10561",
+  "first_page": "590",
+  "last_page": "604",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "922 F.3d 590"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "5th Cir.",
+    "id": 8820,
+    "name": "United States Court of Appeals for the Fifth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "617 F.3d 336",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3771866
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "341"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/617/0336-01"
+      ]
+    },
+    {
+      "cite": "635 F.3d 796",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4031355
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "802"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/635/0796-01"
+      ]
+    },
+    {
+      "cite": "431 U.S. 171",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1828
+      ],
+      "weight": 3,
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "172",
+          "parenthetical": "per curiam"
+        },
+        {
+          "parenthetical": "per curiam"
+        },
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/431/0171-01"
+      ]
+    },
+    {
+      "cite": "341 F.3d 352",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9099130
+      ],
+      "weight": 2,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "358"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/341/0352-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 2201",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "452 F.3d 401",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6047279
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "403",
+          "parenthetical": "quoting 28 U.S.C. \u00a7 2201 "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/452/0401-01"
+      ]
+    },
+    {
+      "cite": "833 F.2d 583",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10546878
+      ],
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "587"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/833/0583-01"
+      ]
+    },
+    {
+      "cite": "691 F.3d 710",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3510232
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "715",
+          "parenthetical": "\"[A] case is not ripe if further factual development is required.\" (quoting New Orleans Pub. Serv., Inc. v.Council , 833 F.2d 583, 587 (5th Cir. 1987) )"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/691/0710-01"
+      ]
+    },
+    {
+      "cite": "703 F.3d 1153",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5869818
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "1157",
+          "parenthetical": "concluding denial-of-access claim ripened once plaintiff lost underlying lawsuit"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/703/1153-01"
+      ]
+    },
+    {
+      "cite": "839 F.2d 621",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10544828
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "625",
+          "parenthetical": "\"Because the ultimate resolution of the present suit remains in doubt, Karim-Panahi's cover-up claim is not ripe for judicial consideration.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/839/0621-01"
+      ]
+    },
+    {
+      "cite": "119 F.3d 1259",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        199764
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "1264"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/119/1259-01"
+      ]
+    },
+    {
+      "cite": "143 F.3d 1219",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        268697
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "1222-23"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/143/1219-01"
+      ]
+    },
+    {
+      "cite": "496 U.S. 128",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12122066
+      ],
+      "weight": 3,
+      "year": 1990,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/496/0128-01"
+      ]
+    },
+    {
+      "cite": "884 F.2d 804",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        11356078
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "812",
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/884/0804-01"
+      ]
+    },
+    {
+      "cite": "702 F.3d 806",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3645907
+      ],
+      "weight": 2,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "830-31"
+        },
+        {
+          "page": "831"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/702/0806-01"
+      ]
+    },
+    {
+      "cite": "536 U.S. 403",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1254643
+      ],
+      "weight": 7,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "413-14",
+          "parenthetical": "citations omitted"
+        },
+        {
+          "parenthetical": "citations omitted"
+        },
+        {
+          "parenthetical": "citations omitted"
+        },
+        {
+          "page": "414"
+        },
+        {
+          "page": "415"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/536/0403-01"
+      ]
+    },
+    {
+      "cite": "708 F.2d 967",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1123503
+      ],
+      "weight": 2,
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "971-73"
+        },
+        {
+          "page": "974"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/708/0967-01"
+      ]
+    },
+    {
+      "cite": "246 F.3d 481",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11108888
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "493"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/246/0481-01"
+      ]
+    },
+    {
+      "cite": "564 F.3d 379",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4238062
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "383",
+          "parenthetical": "explaining that plaintiffs were \"attempting to use ... undisputed facts to imply a speculative scenario that ha[d] no factual support\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/564/0379-01"
+      ]
+    },
+    {
+      "cite": "585 F.3d 839",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3480605
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "844"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/585/0839-01"
+      ]
+    },
+    {
+      "cite": "595 F. App'x 378",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        5750882
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "382",
+          "parenthetical": "unpublished"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/595/0378-01"
+      ]
+    },
+    {
+      "cite": "622 F. App'x 378",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        4362549
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "382-83",
+          "parenthetical": "unpublished"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/622/0378-01"
+      ]
+    },
+    {
+      "cite": "355 F.3d 370",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9059211
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "377"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/355/0370-01"
+      ]
+    },
+    {
+      "cite": "903 F.3d 522",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12518561
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "528",
+          "parenthetical": "\"[W]hen an 'allegation is contradicted by the contents of an exhibit attached to the pleading, then indeed the exhibit and not the allegation controls.' \" (quoting United States ex rel. Riley v. St. Luke's Episcopal Hosp. , 355 F.3d 370, 377 (5th Cir. 2004) )"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/903/0522-01"
+      ]
+    },
+    {
+      "cite": "878 F.2d 871",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10538718
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "874"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/878/0871-01"
+      ]
+    },
+    {
+      "cite": "903 F.3d 534",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12518562
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "542",
+          "parenthetical": "quoting Brown v. Glossip , 878 F.2d 871, 874 (5th Cir. 1989) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/903/0534-01"
+      ]
+    },
+    {
+      "cite": "874 F.3d 833",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12266001
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "847"
+        },
+        {
+          "page": "847-48"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/874/0833-01"
+      ]
+    },
+    {
+      "cite": "550 U.S. 544",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3556136
+      ],
+      "weight": 3,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "570"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/550/0544-01"
+      ]
+    },
+    {
+      "cite": "556 U.S. 662",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3653744
+      ],
+      "weight": 12,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "678",
+          "parenthetical": "quoting Bell Atl. Corp. v. Twombly , 550 U.S. 544, 570, 127 S.Ct. 1955, 167 L.Ed.2d 929 (2007) "
+        },
+        {
+          "parenthetical": "quoting Bell Atl. Corp. v. Twombly , 550 U.S. 544, 570, 127 S.Ct. 1955, 167 L.Ed.2d 929 (2007) "
+        },
+        {
+          "parenthetical": "quoting Bell Atl. Corp. v. Twombly , 550 U.S. 544, 570, 127 S.Ct. 1955, 167 L.Ed.2d 929 (2007) "
+        },
+        {
+          "page": "678-79"
+        },
+        {
+          "page": "678"
+        },
+        {
+          "page": "679"
+        },
+        {
+          "page": "678"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/556/0662-01"
+      ]
+    },
+    {
+      "cite": "528 F.3d 413",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3581147
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "418"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/528/0413-01"
+      ]
+    },
+    {
+      "cite": "860 F.3d 287",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12276179
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "291"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/860/0287-01"
+      ]
+    },
+    {
+      "cite": "555 U.S. 223",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3679212
+      ],
+      "weight": 3,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "231"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/555/0223-01"
+      ]
+    },
+    {
+      "cite": "875 F.3d 256",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12264080
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/875/0256-01"
+      ]
+    },
+    {
+      "cite": "895 F.3d 387",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12517616
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "392-93",
+          "parenthetical": "footnotes omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/895/0387-01"
+      ]
+    },
+    {
+      "cite": "659 F.3d 359",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6050015
+      ],
+      "weight": 2,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/659/0359-01"
+      ]
+    },
+    {
+      "cite": "751 F.3d 383",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4070301
+      ],
+      "weight": 7,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "386-87"
+        },
+        {
+          "page": "388, 390"
+        },
+        {
+          "page": "388"
+        },
+        {
+          "page": "390"
+        },
+        {
+          "page": "389"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/751/0383-01"
+      ]
+    },
+    {
+      "cite": "918 F.3d 414",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12520427
+      ],
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "416"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/918/0414-01"
+      ]
+    },
+    {
+      "cite": "796 F.3d 435",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5768152
+      ],
+      "weight": 2,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "439"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/796/0435-01"
+      ]
+    },
+    {
+      "cite": "666 F.3d 325",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6050407
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "331"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/666/0325-01"
+      ]
+    },
+    {
+      "cite": "722 F.3d 725",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4063358
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "731",
+          "parenthetical": "quoting Juarez v. Aguilar , 666 F.3d 325, 331 (5th Cir. 2011) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/722/0725-01"
+      ]
+    },
+    {
+      "cite": "807 F.3d 657",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4362019
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "663"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/807/0657-01"
+      ]
+    },
+    {
+      "cite": "93 L.Ed. 1528",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "year": 1949,
+      "opinion_index": 0
+    },
+    {
+      "cite": "337 U.S. 541",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        572420
+      ],
+      "weight": 2,
+      "year": 1949,
+      "pin_cites": [
+        {
+          "page": "546"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/337/0541-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1291",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 U.S.C. \u00a7 1983",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1457,
+    "char_count": 34379,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25928461466286257
+    },
+    "sha256": "a72be86201de7b217ab56cecac06e8d3fdf92339ea66886d9ee8cdd96186fa9d",
+    "simhash": "1:be0ecf34e89a5276",
+    "word_count": 5432
+  },
+  "last_updated": "2024-02-27T18:46:53.504629+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before KING, SMITH, and WILLETT, Circuit Judges."
+    ],
+    "parties": [
+      "Angie WALLER, Individually and in her Capacity as Independent Executrix of the Estate of Kathleen Margaret Waller; Chris Waller, Plaintiffs - Appellees"
+    ],
+    "opinions": [
+      {
+        "text": "KING, Circuit Judge:\nFort Worth Police Officer Richard Hoeppner fatally shot 72-year old Jerry Waller in Waller's own garage. Hoeppner insists he did so only out of reasonable fear for his life. Seeking recompense for Waller's death, Waller's survivors came to the district court alleging that forensic evidence substantially undermines Hoeppner's version of events. The district court concluded that the plaintiffs pleaded enough facts to plausibly allege that Hoeppner did not reasonably fear for his safety when he shot Waller. It likewise concluded they pleaded enough facts to allege that defendant police officers Benjamin Hanlon and B. S. Hardin conspired with Hoeppner to veil the true circumstances of Waller's death. It accordingly denied the defendants' motions for a judgment on the pleadings.\nThe defendants appeal that ruling. Exercising appellate jurisdiction under the collateral-order doctrine, we AFFIRM in part and REVERSE in part. We agree with the district court that the plaintiffs plausibly allege Waller was unarmed-and thus posed no reasonably perceivable threat-when Hoeppner killed him. But we conclude the plaintiffs' claims alleging the defendants denied them access to the courts are currently unripe. We also conclude the plaintiffs do not have standing to seek declaratory (as opposed to retrospective) relief for the past injury to Waller.\nI.\nA.\nWe draw the following facts from the plaintiffs' pleadings and the attachments thereto.\nDefendants Richard Hoeppner and Benjamin Hanlon, both Fort Worth police officers on patrol during the early morning of May 28, 2013, were dispatched to 409 Havenwood Lane North to investigate a residential burglary alarm. Hoeppner and Hanlon arrived in separate vehicles and parked down the street from 409 Havenwood Lane North, so they could approach surreptitiously. The officers proceeded on foot to 404 Havenwood Lane North, erroneously believing it was 409 Havenwood Lane North, which was across the street. The officers looked around the outside of the house and noticed the garage door was open. Hanlon then went to knock on the front door while Hoeppner stayed by the open garage. Meanwhile, the officers' flashlights roused Jerry and Kathleen Waller, the residents of 404 Havenwood Lane North. Jerry Waller attributed the lights to his car alarm, so he went out to the garage to investigate.\nWhat happened next is the subject of dispute. Hoeppner and Hanlon, the only surviving witnesses to the encounter, recounted the following version of events in a series of statements to investigators. Holding a small gun, Waller entered the garage through a door that led in from the house. Hoeppner shined his 600-lumen flashlight in Waller's eyes specifically to conceal himself, drew his service weapon, and repeatedly ordered Waller to drop the gun. Hoeppner did not identify himself as a police officer, but Hanlon, upon hearing Hoeppner shouting in the garage, rushed to the garage while yelling \"Fort Worth PD.\"\nWaller ignored Hoeppner's repeated commands to drop his gun. Instead, Waller became combative and demanded that Hoeppner get the light out of his eyes. Waller eventually did put the gun down on the back of a car parked in the garage. Hoeppner moved toward the gun, but Waller suddenly lunged for the gun, retrieved it, and pointed it at Hoeppner. Fearing for his life, Hoeppner shot Waller five or six times, and Waller fell forward on top of the gun. Hanlon did not fire his weapon.\nThe plaintiffs accuse Hoeppner and Hanlon of fabricating this story to cover up an unjustified use of force. They allege that physical evidence shows that Waller could not have been holding a gun when he was shot. Rather, they say the autopsy report and blood-splatter patterns suggest that Waller was holding both his hands over his face when he was shot.\nThe autopsy report, which the plaintiffs attach to their pleadings, shows that one of Hoeppner's bullets went through Waller's left thumb and struck several of his fingers on his left hand. The plaintiffs maintain that the bullet's path through Waller's fingers and the blood on the palm of his left hand suggest that he could not have been gripping a gun with his left hand when it was struck. Further, they say that Waller's gun was not damaged in the shooting and crime-scene photographs do not reveal any blood on the gun's handle, making it unlikely it was in Waller's left hand when he was struck.\nLikewise, Waller had blood splatter on the palm of his right hand, which the plaintiffs cite as evidence that when he was shot, he was not holding anything in his right hand either. Waller also had blood splatter around his left ear, which, the plaintiffs posit, means he must have been holding his left hand above his face when the bullet hit it, likely because he was trying to shield the light from his eyes. And if the blood splatter on his right hand also came from the wound on his left hand, then his right hand must have also been at eye level when he was shot.\nThe events that allegedly followed further animate the plaintiffs' suspicions. They allege that defendant B. S. Hardin, another Fort Worth officer, arrived at the scene a few minutes after the shooting and conspired with Hoeppner and Hanlon to cover up Hoeppner's culpability. Hardin told investigators that he went to administer aid to Waller when he arrived on scene because he had prior experience as an EMT. Hardin said that Hoeppner told him there was a gun underneath Waller, so he lifted Waller's body and laid the gun off to the side before administering aid in case Waller could still fire the weapon. It was not until after removing the gun, Hardin said, that he discovered Waller did not have a pulse.\nThe plaintiffs allege that Hardin lied about finding a gun under Waller's body. The plaintiffs assert that Hardin had no legitimate reason to move the gun from underneath Waller to about a foot from Waller's head, where it is later depicted in crime-scene photographs. They also point to inconsistent statements about the positioning of Waller's arms as evidence that Hardin fabricated his story. Hardin told investigators that Waller's arms were tucked underneath his chest when Hardin found him. But Kathleen Waller, who, according to Hardin, entered the garage around the same time as he arrived (and thus before he removed the gun), recalled that Jerry Waller's hands were at his sides in a \"pushup\"-like position. Subsequent crime-scene photographs show Waller with his left arm stretched perpendicular to his body and his right arm laying parallel at his side.\nThe plaintiffs additionally allege several procedural irregularities in the early stages of the investigation, which they contend to be further evidence of a conspiracy. They allege that the defendants took more than five hours to call the medical examiner in violation of a state law that requires police officers to report an unnatural death to the medical examiner \"immediately\"\nupon its discovery. Tex. Code Crim. Proc. Ann. art. 49.25 \u00a7 7(a). They likewise argue that one of the officers violated state law by moving Waller's body without permission from the medical examiner. See id. \u00a7 8. And they allege someone stepped in Waller's blood and tracked it throughout the garage, further contaminating the crime scene.\nB.\nWaller's survivors brought 42 U.S.C. \u00a7 1983 claims against Hoeppner, Hanlon, Hardin, the City of Fort Worth, and several officers involved in the investigation into Waller's death. As relevant to this appeal, they alleged that Hoeppner used excessive force against Waller in violation of his Fourth and Fourteenth Amendment rights to be free from unreasonable seizures. They also claimed that Hoeppner, Hanlon, and Hardin conspired to cover up Hoeppner's use of excessive force in violation of their constitutional right to access the courts. And they sought declaratory relief for violations of analogous rights under the Texas Constitution.\nHoeppner, Hanlon, and Hardin each answered with a qualified-immunity defense to the \u00a7 1983 claims. On the district court's order, the plaintiffs then filed a reply addressing qualified immunity. Hoeppner, Hanlon, and Hardin subsequently moved for judgment on the pleadings, arguing that the plaintiffs' pleadings were insufficient to overcome their qualified-immunity defenses. The district court determined that the defendants were not entitled to qualified immunity based on the plaintiffs' well-pleaded allegations and thus denied the defendants' motions in relevant part. Specifically, it concluded that the plaintiffs' allegations, taken as true, established that Waller was not holding a weapon when Hoeppner shot him. Thus, it ruled that the plaintiffs plausibly alleged Hoeppner did not reasonably perceive a threat when he shot Waller in violation of clearly established law. The district court also concluded that the plaintiffs plausibly alleged the defendants conspired to tamper with the crime scene and give false statements in a manner that could prove fatally detrimental to the plaintiffs' claims against Hoeppner. These acts, the district court explained, violated the plaintiffs' clearly established rights to access the courts. Lastly, the district court ruled that state law authorized the plaintiffs to pursue declaratory relief for violations of the Texas Constitution. The defendants appeal these rulings.\nII.\nBefore turning to the merits of the defendants' appeal, we must assure ourselves of our appellate jurisdiction. Congress has granted us jurisdiction over \"final decisions of the district courts\" within this circuit. 28 U.S.C. \u00a7 1291. Under the collateral-order doctrine, the Supreme Court has interpreted \"final decisions\" to include certain decisions that \"finally determine claims of right separable from, and collateral to, rights asserted in the action, too important to be denied review and too independent of the cause itself to require that appellate consideration be deferred until the whole case is adjudicated.\" Cohen v. Beneficial Indus. Loan Corp. , 337 U.S. 541, 546, 69 S.Ct. 1221, 93 L.Ed. 1528 (1949). An order denying an officer's qualified-immunity defense is generally a collateral order subject to immediate appeal. See Hinojosa v. Livingston , 807 F.3d 657, 663 (5th Cir. 2015).\nDespite the general rule, the plaintiffs argue that we do not have jurisdiction to review the district court's order denying the defendants' motions for a judgment on the pleadings because, in denying those motions, the district court determined that \"genuine issues of material fact\" precluded dismissal. This argument confuses the procedural posture of this case. In hearing an appeal from an order denying summary judgment on qualified-immunity grounds, we have jurisdiction to \"review the materiality of any factual disputes, but not their genuineness.\" Hogan v. Cunningham , 722 F.3d 725, 731 (5th Cir. 2013) (quoting Juarez v. Aguilar , 666 F.3d 325, 331 (5th Cir. 2011) ). But this appeal comes to us on the defendants' motions for judgment on the pleadings, not summary judgment. In reviewing the defendants' motions for judgment on the pleadings, the district court did not (and could not) consider whether the evidence created a genuine factual dispute. See Bosarge v. Miss. Bureau of Narcotics , 796 F.3d 435, 439 (5th Cir. 2015). We possess-and routinely exercise-jurisdiction to review a district court's determination at the pleadings stage that a plaintiff has alleged sufficient facts to overcome a qualified-immunity defense. Id. at 438-39 ; see also, e.g. , Shaw v. Villanueva , 918 F.3d 414, 416 (5th Cir. 2019) ; Doe v. Robertson , 751 F.3d 383, 386-87 (5th Cir. 2014). Accordingly, we have jurisdiction to review the district court's rulings on the defendants' qualified-immunity defenses to the plaintiffs' \u00a7 1983 claims.\nWhether we have jurisdiction to review the portion of the district court's order addressing the plaintiffs' state-law declaratory-judgment claims is a separate question. As the plaintiffs point out, the defendants do not assert immunity from these claims-nor could they because qualified immunity applies only to claims for money damages. See Morgan v. Swanson , 659 F.3d 359, 365 n.3 (5th Cir. 2011) (en banc). We thus agree with the plaintiffs that, normally, the denial of a motion to dismiss a declaratory-judgment claim is not immediately appealable. But we may exercise pendent jurisdiction over interlocutory orders when, inter alia, \"addressing the pendent claim will further the purpose of officer-immunities by helping the officer avoid trial\" or \"the claims involve precisely the same facts and elements.\" Escobar v. Montee , 895 F.3d 387, 392-93 (5th Cir. 2018) (footnotes omitted). Both situations are present here. It would undermine the purpose of qualified immunity if the defendants here were subject to trial on the declaratory-judgment claims despite immunity from the \u00a7 1983 claims. Cf. Melton v. Phillips , 875 F.3d 256, 265 n.9 (5th Cir. 2017) (en banc) (\"[Q]ualified immunity is an immunity from suit that 'is effectively lost if a case is erroneously permitted to go to trial.' \" (quoting Pearson v. Callahan , 555 U.S. 223, 231, 129 S.Ct. 808, 172 L.Ed.2d 565 (2009) )). Further, the plaintiffs identify no differences between the facts or elements needed to prove their declaratory-judgment claims and those needed to prove their \u00a7 1983 claims. Accordingly, we have jurisdiction to review the district court's rulings on the plaintiffs' declaratory-judgment claims.\nIII.\nWe review the defendants' motions for judgment on the pleadings de novo. Edionwe v. Bailey , 860 F.3d 287, 291 (5th Cir. 2017). The standard for Rule 12(c) motions for judgment on the pleadings is identical to the standard for Rule 12(b)(6) motions to dismiss for failure to state a claim. See Doe v. MySpace, Inc. , 528 F.3d 413, 418 (5th Cir. 2008). To survive a motion for a judgment on the pleadings, \"a complaint must contain sufficient factual matter, accepted as true, to 'state a claim to relief that is plausible on its face.' \" Ashcroft v. Iqbal , 556 U.S. 662, 678, 129 S.Ct. 1937, 173 L.Ed.2d 868 (2009) (quoting Bell Atl. Corp. v. Twombly , 550 U.S. 544, 570, 127 S.Ct. 1955, 167 L.Ed.2d 929 (2007) ). This involves a two-step inquiry. See Robertson , 751 F.3d at 388, 390. First, we must identify the complaint's well-pleaded factual content. See id. at 388. In doing so, we set aside \"any unsupported legal conclusions,\" the truth of which \"we cannot assume.\" Id. ; see also Iqbal , 556 U.S. at 678-79, 129 S.Ct. 1937. Second, we ask whether the remaining allegations \"are sufficient to nudge the [plaintiff's] claim across the 'plausibility' threshold.\" Robertson , 751 F.3d at 390 (quoting Iqbal , 556 U.S. at 678, 129 S.Ct. 1937 ). In other words, we ask whether we can reasonably infer from the complaint's well-pleaded factual content \"more than the mere possibility of misconduct.\" Iqbal , 556 U.S. at 679, 129 S.Ct. 1937. This is \"a context-specific task that requires the reviewing court to draw on its judicial experience and common sense.\" Id.\nSection 1983 provides a cause of action to an individual harmed by a state official's violation of federal law. A state official sued under \u00a7 1983 is entitled to qualified immunity from damages, which protects the official from liability for any act that was not objectively unreasonable at the time of the act. See Lincoln v. Turner , 874 F.3d 833, 847 (5th Cir. 2017). \"The basic steps of our qualified-immunity inquiry are well-known: a plaintiff seeking to defeat qualified immunity must show: '(1) that the official violated a statutory or constitutional right, and (2) that the right was \"clearly established\" at the time of the challenged conduct.' \" Id. at 847-48 (quoting Morgan , 659 F.3d at 371 ). When confronted with a qualified-immunity defense at the pleadings stage, the plaintiff must plead \"facts which, if proved, would defeat [the] claim of immunity.\" Westfall v. Luna , 903 F.3d 534, 542 (5th Cir. 2018) (quoting Brown v. Glossip , 878 F.2d 871, 874 (5th Cir. 1989) ).\nA.\nWe first consider whether the plaintiffs allege sufficient facts to overcome Hoeppner's qualified-immunity defense to their excessive-force claim. The parties appear to agree that that Hoeppner did not violate Waller's rights if Waller was holding the gun at the time he was shot but did violate Waller's clearly established rights if Waller was not holding the gun. Neither party makes an argument under the second prong of the qualified-immunity test. Thus, only the first prong is at issue here, and the sole question is whether the plaintiffs' pleadings plausibly allege that Waller was unarmed when Hoeppner shot him.\nWe conclude the plaintiffs' claim is plausible based on the specific and detailed factual allegations they advance in support of their theory of events. Most notably, the plaintiffs' allegations about Waller's left-hand wounds and blood-spatter patterns support the reasonable inference that Waller was unarmed when he was shot. The path of the bullet through Waller's fingers appears to suggest his hand was not clenched, as it would have been if he had been holding a gun. Further, if Waller was holding a gun when the bullet struck his left hand, it seems unlikely the bullet would have hit three of his fingers without at all damaging the gun. Moreover, it is not clear how unsmeared blood splatter could have ended up on Waller's right palm if Waller was holding a gun in his right hand.\nHoeppner raises two specific challenges to the sufficiency of these allegations. First, he insists that the plaintiffs pleaded themselves out of court by attaching the autopsy report to their pleadings. On the face of their pleadings, the plaintiffs allege that the autopsy report shows Waller could not have been holding a gun when he was shot. But Hoeppner observes that the autopsy report does not opine on whether Waller could have been holding a gun when he was shot. Therefore, Hoeppner says, the autopsy report conflicts with the plaintiffs' pleadings and takes precedence over the pleadings. Cf. Smit v. SXSW Holdings, Inc. , 903 F.3d 522, 528 (5th Cir. 2018) (\"[W]hen an 'allegation is contradicted by the contents of an exhibit attached to the pleading, then indeed the exhibit and not the allegation controls.' \" (quoting United States ex rel. Riley v. St. Luke's Episcopal Hosp. , 355 F.3d 370, 377 (5th Cir. 2004) )).\nWe disagree. Hoeppner misunderstands the plaintiffs' reliance on the autopsy report. The plaintiffs do not allege that the autopsy report itself concluded that Waller could not have been holding a gun at the time he was shot. Rather, they allege that such an inference can be drawn from the information contained within the autopsy report-specifically, the descriptions of Waller's left-hand wounds. The contents of the autopsy report are consistent with the plaintiffs' allegations, so at this stage of the litigation, we accept those allegations as true.\nSecond, Hoeppner argues that these allegations raise only the possibility that he was not justified in shooting Waller. He asserts the plaintiffs' allegations about Waller's left-hand wounds and right-hand unsmeared blood spatter only show Waller was unarmed when he was hit by one of Hoeppner's five bullets. If Waller was armed when Hoeppner began to fire but dropped the gun sometime between being struck by Hoeppner's first and final shots, then Hoeppner argues his use of force would have been reasonable. In making this argument, Hoeppner ignores his own statement to investigators-attached to and quoted verbatim in the plaintiffs' pleadings-that he fired multiple shots specifically because Waller did not drop the gun and thus remained a threat. He explained:\nI know there was one delayed shot [be]cause I put rounds on him at first I kind of noticed he kind of ... I mean, like he was taking them like that and then he kind ... kind of hunched over. And I'm not sure if he was falling over or if he was bending over [be]cause it hurt so ... and I saw he still had the gun in his hand and so I ... so I ... I put ... I put one more round on him and that's when he fell forward.\n(ellipses in original) (emphasis added).\nFurthermore, even if Waller might have dropped the gun at some point during the shooting, this possibility, when weighed against the plaintiffs' detailed and specific factual pleadings, does not render implausible their allegation that Waller was unarmed when shot. Hoeppner demands too much at the pleadings stage; allegations need \"not conclusively establish\" the plaintiffs' theory of the case. Robertson , 751 F.3d at 389. For now, it suffices that the plaintiffs' allegations \"are not 'naked assertions devoid of further factual enhancement.' \" Id. (quoting Iqbal , 556 U.S. at 678, 129 S.Ct. 1937 ).\nHoeppner tries to compare the present facts to those in several police-shooting cases in which we held for the officers because the plaintiffs' evidence only permitted us to speculate about whether the officers' descriptions of events leading up to the shootings were untruthful. None of these cases is an apt comparison. In each case, the plaintiffs sought to rely on certain circumstantial evidence to create a genuine factual dispute on summary judgment, but the court in each instance found that the plaintiffs' evidence was consistent with the officers' versions of events. See Small ex rel. R.G. v. City of Alexandria , 622 F. App'x 378, 382-83 (5th Cir. 2015) (unpublished) (per curiam) (affirming summary judgment for officer because \"no record evidence call[ed] into question [the officer's] testimony about [the decedent's] behavior immediately prior to the shooting\"); Thomas v. Baldwin , 595 F. App'x 378, 382 (5th Cir. 2014) (unpublished) (explaining that autopsy report suggesting decedent was shot in his side did not support plaintiffs' \"bare assertion that [the decedent] was fleeing at the time he was shot\"); Manis v. Lawson , 585 F.3d 839, 844 (5th Cir. 2009) (reversing denial of qualified immunity on summary judgment because plaintiffs did \"not dispute the only fact material to whether [the officer] was justified in using deadly force: that [the decedent] reached under the seat of his vehicle and then moved as if he had obtained the object he sought\"); Ontiveros v. City of Rosenberg , 564 F.3d 379, 383 (5th Cir. 2009) (explaining that plaintiffs were \"attempting to use ... undisputed facts to imply a speculative scenario that ha[d] no factual support\"). Here, by contrast, the hand wounds and blood splatter provide at least some support for the plaintiffs' allegation that Waller was not holding a gun, which, if true, contradicts Hoeppner's and Hanlon's explanations for the shooting.\nIn sum, the plaintiffs' specific and detailed factual pleadings about the crime-scene evidence make plausible their allegation that Waller followed Hoeppner's commands, put down his weapon, and was unarmed when Hoeppner shot him. If this allegation is true, then qualified immunity would not shield Hoeppner from the plaintiffs' excessive-force claim. See, e.g. , Bazan ex rel. Bazan v. Hidalgo County , 246 F.3d 481, 493 (5th Cir. 2001). Accordingly, we affirm the district court's order denying Hoeppner's motion for judgment on the pleadings on the plaintiffs' excessive-force claim.\nB.\nWe next consider whether the plaintiffs sufficiently allege that Hoeppner, Hanlon, and Hardin conspired to cover up the true circumstances of Waller's death in violation of the plaintiffs' clearly established right to access the courts. We have recognized a right of access to the courts, which is founded in the Article IV Privileges and Immunities Clause, the First Amendment Petition Clause, and the Fifth and Fourteenth Amendment Due Process Clauses. See Ryland v. Shapiro , 708 F.2d 967, 971-73 (5th Cir. 1983). Denial-of-access claims take one of two forms: forward-looking claims alleging \"that systemic official action frustrates a plaintiff or plaintiff class in preparing and filing suits at the present time,\" and backward-looking claims alleging that an official action has \"caused the loss or inadequate settlement of a meritorious case, the loss of an opportunity to sue, or the loss of an opportunity to seek some particular order of relief.\" Christopher v. Harbury , 536 U.S. 403, 413-14, 122 S.Ct. 2179, 153 L.Ed.2d 413 (2002) (citations omitted). The plaintiffs alleged both forward- and backward-looking denial-of-access claims against each of the defendants, but only the backward-looking claims are at issue on this appeal.\n\"To maintain a backward-looking claim, a plaintiff must identify (1) a nonfrivolous underlying claim; (2) an official act that frustrated the litigation of that claim; and (3) a remedy that is not otherwise available in another suit that may yet be brought.\" United States v. McRae , 702 F.3d 806, 830-31 (5th Cir. 2012). From our conclusion above that the plaintiffs state a claim against Hoeppner for excessive force, it follows that the plaintiffs have satisfied the first of these elements. For present purposes, although disputed, we will assume the plaintiffs' allegations satisfy the second element as well by alleging that the defendants conspired to sabotage the crime scene and lie to investigators to cover up the fact that Waller was unarmed when Hoeppner shot him. Nevertheless, the plaintiffs' claims fail on the third element: they have not explained what relief the defendants' alleged misdeeds have cost them. The plaintiffs premise their backward-looking denial-of-access claims on the theory that the defendants' alleged coverup frustrated their excessive-force claim against Hoeppner. Yet the plaintiffs are actively-and, so far, successfully-litigating that claim. They filed hundreds of pages of pleadings in the district court supported by dozens of exhibits containing detailed forensic evidence in support of their claim. They survived Hoeppner's pleadings-stage assertion of qualified immunity first in the district court and now on appeal. In short, there is no reason to believe the remedy the plaintiffs seek \"is not otherwise available\" in their active lawsuit against Hoeppner. Id. at 831.\nIn reaching the contrary conclusion, the district court explained that the plaintiffs' \"ability to prove their [excessive-force claim] may have been permanently compromised.\" That might turn out to be the case, but it is too early to say. See Christopher , 536 U.S. at 414, 122 S.Ct. 2179 (\"These cases do not look forward to a class of future litigation, but backward to a time when specific litigation ended poorly, or could not have commenced, or could have produced a remedy subsequently unobtainable.\" (footnotes omitted)). Unless and until the plaintiffs' claim against Hoeppner suffers some concrete setback traceable to the defendants' alleged coverup, their allegation that the defendants impaired their effort to bring that claim is no more than speculation about an event that may or may not come to pass. See id. at 415, 122 S.Ct. 2179 (\"There is, after all, no point in spending time and money to establish the facts constituting denial of access when a plaintiff would end up just as well off after litigating a simpler case without the denial-of-access element.\").\nThe plaintiffs argue that their delay in bringing this lawsuit can, on its own, constitute the prejudice necessary to state their denial-of-access claims. We disagree. True, we have suggested in dicta that \"[c]onduct by state officers which results in delay in the prosecution of an action in state court may cause such prejudice.\" Ryland , 708 F.2d at 974. But as we later clarified:\nRyland stands for the proposition that if state officials wrongfully and intentionally conceal information crucial to a person's ability to obtain redress through the courts, and do so for the purpose of frustrating that right, and that concealment and the delay engendered by it substantially reduce the likelihood of one's obtaining the relief to which one is otherwise entitled, they may have committed a constitutional violation.\nCrowder v. Sinyard , 884 F.2d 804, 812 (5th Cir. 1989) (emphasis added), abrogated on other grounds by Horton v. California , 496 U.S. 128, 110 S.Ct. 2301, 110 L.Ed.2d 112 (1990). Thus, showing delay alone is not enough; the plaintiffs must likewise show the delay caused some further harm to their cause of action. And here the plaintiffs run into a familiar problem-any harm caused by the delay in filing their excessive-force claim has yet to manifest.\nTherefore, the plaintiffs are left with pleadings that do not adequately allege a necessary element of their backward-looking denial-of-access claims. But the possibility remains that they will be able to state such claims in the future if their excessive-force claim goes south in later stages of this litigation. Faced with similar facts, the Ninth Circuit has repeatedly ordered backward-looking denial-of-access claims dismissed without prejudice as unripe. See Delew v. Wagner , 143 F.3d 1219, 1222-23 (9th Cir. 1998) (\"To prevail on their claim, the Delews must demonstrate that the defendants' cover-up violated their right of access to the courts by rendering 'any available state court remedy ineffective.' However, because the Delews' wrongful death action remains pending in state court, it is impossible to determine whether this has in fact occurred.\" (citation omitted) (quoting Swekel v. City of River Rouge , 119 F.3d 1259, 1264 (6th Cir. 1997) )); Karim-Panahi v. L.A. Police Dep't , 839 F.2d 621, 625 (9th Cir. 1988) (\"Because the ultimate resolution of the present suit remains in doubt, Karim-Panahi's cover-up claim is not ripe for judicial consideration.\"); cf. Lynch v. Barrett , 703 F.3d 1153, 1157 (10th Cir. 2013) (concluding denial-of-access claim ripened once plaintiff lost underlying lawsuit). We agree this is the proper resolution. See Choice Inc. of Tex. v. Greenstein , 691 F.3d 710, 715 (5th Cir. 2012) (\"[A] case is not ripe if further factual development is required.\" (quoting New Orleans Pub. Serv., Inc. v.Council , 833 F.2d 583, 587 (5th Cir. 1987) )). Accordingly, we reverse the district court's order declining to dismiss the plaintiffs' denial-of-access claims and remand with instruction to dismiss those claims without prejudice.\nIV.\nLastly, we conclude the plaintiffs do not have standing to seek declaratory relief for violations of Waller's rights under the Texas Constitution. \" 'In a case of actual controversy within its jurisdiction,' the Declaratory Judgment Act allows a federal court to 'declare the rights and other legal relations of any interested party seeking such declaration.' \" Hosein v. Gonzales , 452 F.3d 401, 403 (5th Cir. 2006) (quoting 28 U.S.C. \u00a7 2201 ). But the Declaratory Judgment Act does not vest the federal courts with jurisdiction broader than Article III's \"case or controversy\" limitation. Id. \"In order to demonstrate that a case or controversy exists to meet the Article III standing requirement when a plaintiff is seeking injunctive or declaratory relief, a plaintiff must allege facts from which it appears there is a substantial likelihood that he will suffer injury in the future.\" Bauer v. Texas , 341 F.3d 352, 358 (5th Cir. 2003). \"To obtain [declaratory] relief for past wrongs, a plaintiff must demonstrate either continuing harm or a real and immediate threat of repeated injury in the future.\" Id.\nThe plaintiffs here allege only past injury to Waller. Faced with similar circumstances, the Supreme Court ruled that a plaintiff had no standing to seek declaratory relief finding his son was fatally shot by police in violation of the Fourth Amendment. See Ashcroft v. Mattis , 431 U.S. 171, 172, 97 S.Ct. 1739, 52 L.Ed.2d 219 (1977) (per curiam). Accordingly, we reverse the portion of the district court's order declining to dismiss the plaintiffs' claims for declaratory relief and remand with instruction to dismiss those claims without prejudice.\nV.\nFor the foregoing reasons, we AFFIRM the portion of the district court's order denying Hoeppner's qualified-immunity defense against the plaintiffs' excessive-force claim, but we otherwise REVERSE and REMAND with instructions to dismiss the plaintiffs' denial-of-access and declaratory-judgment claims without prejudice.\nThe plaintiffs attach these statements to their pleadings but disavow their accuracy.\nIn contrast, the plaintiffs allege that a police-union attorney was \"on the scene within minutes\" of Waller's death.\nThe original plaintiffs consist of Waller's two children, one of whom is acting in a dual capacity as the executrix of Kathleen Waller's estate, who died while this case was pending below. Waller's two additional children joined as intervenors. We refer to the plaintiffs and intervenors collectively as the \"plaintiffs\" throughout this opinion.\nThe district court granted the motions as to several claims not at issue in this appeal and granted Officer A. Chambers's motion in its entirety.\nThe parties do not address this issue in terms of ripeness. But because ripeness implicates the district court's subject-matter jurisdiction, we raise it sua sponte. See Elam v. Kan. City S. Ry. Co. , 635 F.3d 796, 802 (5th Cir. 2011) ; Lopez v. City of Houston , 617 F.3d 336, 341 (5th Cir. 2010).",
+        "type": "majority",
+        "author": "KING, Circuit Judge:"
+      }
+    ],
+    "attorneys": [
+      "Arthur John Brender, Law Offices of Art Brender, Fort Worth, TX, for Plaintiffs-Appellees ANGIE WALLER, CHRIS WALLER.",
+      "Michael Ware, Fort Worth, TX, for Intervenor Plaintiff-Appellee TERRY WAYNE SPRINGER, GAYLA WYNELL KIMBROUGH.",
+      "James Thomas Jeffrey, Jr., Esq., Law Offices of Jim Jeffrey, Arlington, TX, for Defendant-Appellant BENJAMIN B. HANLON.",
+      "Kenneth E. East, Esq., Foster & East, North Richland Hills, TX, Dee Lee Thomas, Jr., Law Office of D. Lee Thomas, Fort Worth, TX, for Defendant-Appellant RICHARD HOEPPNER.",
+      "Stephen Chamberlain Maxwell, Bailey & Galyen, Fort Worth, TX, for Defendant-Appellant B. S. HARDIN."
+    ],
+    "corrections": "",
+    "head_matter": "Angie WALLER, Individually and in her Capacity as Independent Executrix of the Estate of Kathleen Margaret Waller; Chris Waller, Plaintiffs - Appellees\nTerry Wayne Springer; Gayla Wynell Kimbrough, Intervenor Plaintiffs - Appellees\nv.\nBenjamin B. HANLON; Richard Hoeppner; B. S. Hardin, Defendants - Appellants\nNo. 18-10561\nUnited States Court of Appeals, Fifth Circuit.\nFILED April 24, 2019\nArthur John Brender, Law Offices of Art Brender, Fort Worth, TX, for Plaintiffs-Appellees ANGIE WALLER, CHRIS WALLER.\nMichael Ware, Fort Worth, TX, for Intervenor Plaintiff-Appellee TERRY WAYNE SPRINGER, GAYLA WYNELL KIMBROUGH.\nJames Thomas Jeffrey, Jr., Esq., Law Offices of Jim Jeffrey, Arlington, TX, for Defendant-Appellant BENJAMIN B. HANLON.\nKenneth E. East, Esq., Foster & East, North Richland Hills, TX, Dee Lee Thomas, Jr., Law Office of D. Lee Thomas, Fort Worth, TX, for Defendant-Appellant RICHARD HOEPPNER.\nStephen Chamberlain Maxwell, Bailey & Galyen, Fort Worth, TX, for Defendant-Appellant B. S. HARDIN.\nBefore KING, SMITH, and WILLETT, Circuit Judges."
+  },
+  "file_name": "0590-01",
+  "first_page_order": 590,
+  "last_page_order": 604
+}

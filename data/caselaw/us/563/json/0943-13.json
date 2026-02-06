@@ -1,0 +1,59 @@
+{
+  "id": 5956621,
+  "name": "Hamilton v. Berghuis, Warden",
+  "name_abbreviation": "Hamilton v. Berghuis",
+  "decision_date": "2011-04-18",
+  "docket_number": "No. 10-9006",
+  "first_page": "943",
+  "last_page": "943",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 943"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.584,
+    "sha256": "096e436b4723998b5cfa9c9eb1a0ed963a11201df05bcff2bbb63433cd758c05",
+    "simhash": "1:a70e6288bf1d8a87",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hamilton v. Berghuis, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9006.\nHamilton v. Berghuis, Warden."
+  },
+  "file_name": "0943-13",
+  "first_page_order": 969,
+  "last_page_order": 969
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12230428,
+  "name": "Brown v. North Carolina",
+  "name_abbreviation": "Brown v. North Carolina",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. 11-330",
+  "first_page": "979",
+  "last_page": "979",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 979"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 18,
+    "char_count": 110,
+    "ocr_confidence": 0.699,
+    "sha256": "db1023da553f90f83641ffbeb57113107187928f38fc93861800ee77fb3d7d58",
+    "simhash": "1:fbab46efed519406",
+    "word_count": 18
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Brown v. North Carolina."
+    ],
+    "opinions": [
+      {
+        "text": "Gen. Ct. Justice, Super. Ct. Div., Wake County, N. C. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-330.\nBrown v. North Carolina."
+  },
+  "file_name": "0979-07",
+  "first_page_order": 1061,
+  "last_page_order": 1061
+}

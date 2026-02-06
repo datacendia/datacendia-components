@@ -1,0 +1,59 @@
+{
+  "id": 5935970,
+  "name": "Price v. United States",
+  "name_abbreviation": "Price v. United States",
+  "decision_date": "2011-02-28",
+  "docket_number": "No. 10-8747",
+  "first_page": "1263",
+  "last_page": "1263",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1263"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.636,
+    "sha256": "e5a92be6c66b62c0ff6793fbf60107a56bdfed16781993b6e068bfc004a40598",
+    "simhash": "1:942d49130f03d6b0",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Price v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8747.\nPrice v. United States."
+  },
+  "file_name": "1263-16",
+  "first_page_order": 1285,
+  "last_page_order": 1285
+}

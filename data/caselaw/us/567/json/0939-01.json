@@ -1,0 +1,59 @@
+{
+  "id": 12411808,
+  "name": "Rojas v. Adams, Warden",
+  "name_abbreviation": "Rojas v. Adams",
+  "decision_date": "2012-06-25",
+  "docket_number": "No. 11-9902",
+  "first_page": "939",
+  "last_page": "939",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 939"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.699,
+    "sha256": "1f482f820f521e7156b05670afb3292c3685fa344eb8b317cd518e39503b8302",
+    "simhash": "1:96f105896beb20ff",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rojas v. Adams, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9902.\nRojas v. Adams, Warden."
+  },
+  "file_name": "0939-01",
+  "first_page_order": 843,
+  "last_page_order": 843
+}

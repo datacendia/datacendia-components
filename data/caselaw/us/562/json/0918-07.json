@@ -1,0 +1,59 @@
+{
+  "id": 5975526,
+  "name": "West v. United States",
+  "name_abbreviation": "West v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5376",
+  "first_page": "918",
+  "last_page": "918",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 918"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.553,
+    "sha256": "0f803b3ab6b91c1f219b14d4d4907378d325cc045944b46183ab17b5f8512e77",
+    "simhash": "1:b788b70beebe1802",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "West v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5376.\nWest v. United States."
+  },
+  "file_name": "0918-07",
+  "first_page_order": 940,
+  "last_page_order": 940
+}

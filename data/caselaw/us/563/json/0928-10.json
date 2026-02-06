@@ -1,0 +1,59 @@
+{
+  "id": 5944081,
+  "name": "Heyward v. United States",
+  "name_abbreviation": "Heyward v. United States",
+  "decision_date": "2011-04-04",
+  "docket_number": "No. 10-9375",
+  "first_page": "928",
+  "last_page": "928",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 928"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.539,
+    "sha256": "a647978c4e5d6a4b3ce09a6252438c0112ad5e5fc0ebf7ab6535a8a76ab60f3a",
+    "simhash": "1:07dbc203478f901a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Heyward v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9375.\nHeyward v. United States."
+  },
+  "file_name": "0928-10",
+  "first_page_order": 954,
+  "last_page_order": 954
+}

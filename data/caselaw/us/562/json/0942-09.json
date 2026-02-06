@@ -1,0 +1,59 @@
+{
+  "id": 5967594,
+  "name": "Whitley v. United States",
+  "name_abbreviation": "Whitley v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5951",
+  "first_page": "942",
+  "last_page": "942",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 942"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.509,
+    "sha256": "be2b1a48917112e4aa2985f6bb9414f79a272930280d55dfcf263810b16100d5",
+    "simhash": "1:801ad7834c089d2f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Whitley v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5951.\nWhitley v. United States."
+  },
+  "file_name": "0942-09",
+  "first_page_order": 964,
+  "last_page_order": 964
+}

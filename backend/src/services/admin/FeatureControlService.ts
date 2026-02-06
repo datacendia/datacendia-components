@@ -1,9 +1,13 @@
 // =============================================================================
 // FEATURE CONTROL SERVICE - Master Service/Agent/Suite Management
 // Toggle visibility, enable/disable, manage routes, and control public access
+// ENTERPRISE PLATINUM STANDARD - Uses Prisma for dynamic feature flags
 // =============================================================================
 
-import { config } from '../../config/index.js';
+import { logger } from '../../utils/logger.js';
+import { PrismaClient } from '@prisma/client';
+
+const prisma = new PrismaClient();
 
 // =============================================================================
 // TYPES
@@ -102,12 +106,218 @@ class FeatureControlService {
   private agents: Map<string, AgentConfig> = new Map();
   private suites: Map<string, SuiteConfig> = new Map();
   private pricing: Map<string, PricingTier> = new Map();
+  private initialized = false;
 
   constructor() {
     this.initializeFeatures();
     this.initializeAgents();
     this.initializeSuites();
     this.initializePricing();
+    this.syncFeatureFlagsToDb().catch(err => {
+      logger.warn('FeatureControlService: Failed to sync feature flags to DB', err);
+    });
+  }
+
+  // ===========================================================================
+  // DATABASE SYNC - Sync in-memory features with database feature_flags
+  // ===========================================================================
+
+  private async syncFeatureFlagsToDb(): Promise<void> {
+    if (this.initialized) return;
+    
+    try {
+      // Load any database overrides for features
+      const dbFlags = await prisma.feature_flags.findMany();
+      const dbFlagMap = new Map(dbFlags.map(f => [f.key, f]));
+
+      // Apply database overrides to in-memory features
+      for (const [id, feature] of this.features) {
+        const dbFlag = dbFlagMap.get(id);
+        if (dbFlag) {
+          feature.enabled = dbFlag.enabled;
+          if (dbFlag.value && typeof dbFlag.value === 'object') {
+            feature.config = { ...feature.config, ...(dbFlag.value as Record<string, unknown>) };
+          }
+        }
+      }
+
+      // Apply to agents
+      for (const [id, agent] of this.agents) {
+        const dbFlag = dbFlagMap.get(id);
+        if (dbFlag) {
+          agent.enabled = dbFlag.enabled;
+        }
+      }
+
+      this.initialized = true;
+      logger.info('FeatureControlService: Synced feature flags from database');
+    } catch (error) {
+      logger.warn('FeatureControlService: Database not available, using defaults', error);
+      this.initialized = true;
+    }
+  }
+
+  // ===========================================================================
+  // DATABASE FEATURE FLAGS - CRUD Operations
+  // ===========================================================================
+
+  async listDbFeatureFlags(filters?: { category?: string; enabled?: boolean }): Promise<any[]> {
+    try {
+      const where: any = {};
+      if (filters?.category) where.category = filters.category;
+      if (filters?.enabled !== undefined) where.enabled = filters.enabled;
+
+      return await prisma.feature_flags.findMany({
+        where,
+        orderBy: { created_at: 'desc' },
+      });
+    } catch (error) {
+      logger.error('FeatureControlService: Failed to list feature flags', error);
+      return [];
+    }
+  }
+
+  async getDbFeatureFlag(key: string): Promise<any | null> {
+    try {
+      return await prisma.feature_flags.findUnique({ where: { key } });
+    } catch (error) {
+      logger.error(`FeatureControlService: Failed to get feature flag ${key}`, error);
+      return null;
+    }
+  }
+
+  async createDbFeatureFlag(data: {
+    key: string;
+    name: string;
+    description?: string;
+    enabled?: boolean;
+    category?: string;
+    environment?: string;
+    rolloutPercentage?: number;
+  }): Promise<any> {
+    try {
+      const flag = await prisma.feature_flags.create({
+        data: {
+          key: data.key,
+          name: data.name,
+          description: data.description,
+          enabled: data.enabled ?? false,
+          category: data.category || 'custom',
+          environment: data.environment || 'all',
+          rollout_percentage: data.rolloutPercentage,
+          type: 'BOOLEAN',
+        },
+      });
+      logger.info(`FeatureControlService: Created feature flag ${data.key}`);
+      return flag;
+    } catch (error) {
+      logger.error('FeatureControlService: Failed to create feature flag', error);
+      throw error;
+    }
+  }
+
+  async updateDbFeatureFlag(key: string, updates: {
+    name?: string;
+    description?: string;
+    enabled?: boolean;
+    value?: any;
+    rolloutPercentage?: number;
+  }): Promise<any | null> {
+    try {
+      const updateData: any = { updated_at: new Date() };
+      if (updates.name) updateData.name = updates.name;
+      if (updates.description) updateData.description = updates.description;
+      if (updates.enabled !== undefined) {
+        updateData.enabled = updates.enabled;
+        updateData.last_toggled_at = new Date();
+      }
+      if (updates.value !== undefined) updateData.value = updates.value;
+      if (updates.rolloutPercentage !== undefined) updateData.rollout_percentage = updates.rolloutPercentage;
+
+      const flag = await prisma.feature_flags.update({
+        where: { key },
+        data: updateData,
+      });
+
+      // Also update in-memory if it's a platform feature
+      if (this.features.has(key)) {
+        const feature = this.features.get(key)!;
+        if (updates.enabled !== undefined) feature.enabled = updates.enabled;
+      }
+      if (this.agents.has(key)) {
+        const agent = this.agents.get(key)!;
+        if (updates.enabled !== undefined) agent.enabled = updates.enabled;
+      }
+
+      logger.info(`FeatureControlService: Updated feature flag ${key}`);
+      return flag;
+    } catch (error) {
+      logger.error(`FeatureControlService: Failed to update feature flag ${key}`, error);
+      return null;
+    }
+  }
+
+  async toggleDbFeatureFlag(key: string, enabled: boolean): Promise<any | null> {
+    return this.updateDbFeatureFlag(key, { enabled });
+  }
+
+  async deleteDbFeatureFlag(key: string): Promise<boolean> {
+    try {
+      await prisma.feature_flags.delete({ where: { key } });
+      logger.info(`FeatureControlService: Deleted feature flag ${key}`);
+      return true;
+    } catch (error) {
+      logger.error(`FeatureControlService: Failed to delete feature flag ${key}`, error);
+      return false;
+    }
+  }
+
+  // ===========================================================================
+  // TENANT-SPECIFIC FEATURE FLAGS
+  // ===========================================================================
+
+  async getTenantFeatureFlags(tenantId: string): Promise<Map<string, boolean>> {
+    try {
+      const overrides = await prisma.tenant_feature_flags.findMany({
+        where: { tenant_id: tenantId },
+        include: { feature_flag: true },
+      });
+
+      const flags = new Map<string, boolean>();
+      
+      // Start with global defaults
+      const globalFlags = await prisma.feature_flags.findMany();
+      globalFlags.forEach(f => flags.set(f.key, f.enabled));
+
+      // Apply tenant overrides
+      overrides.forEach(o => flags.set(o.feature_flag.key, o.enabled));
+
+      return flags;
+    } catch (error) {
+      logger.error(`FeatureControlService: Failed to get tenant flags for ${tenantId}`, error);
+      return new Map();
+    }
+  }
+
+  async setTenantFeatureFlag(tenantId: string, flagKey: string, enabled: boolean): Promise<boolean> {
+    try {
+      const flag = await prisma.feature_flags.findUnique({ where: { key: flagKey } });
+      if (!flag) return false;
+
+      await prisma.tenant_feature_flags.upsert({
+        where: {
+          tenant_id_feature_flag_id: { tenant_id: tenantId, feature_flag_id: flag.id },
+        },
+        update: { enabled, updated_at: new Date() },
+        create: { tenant_id: tenantId, feature_flag_id: flag.id, enabled },
+      });
+
+      logger.info(`FeatureControlService: Set tenant ${tenantId} flag ${flagKey} = ${enabled}`);
+      return true;
+    } catch (error) {
+      logger.error(`FeatureControlService: Failed to set tenant flag`, error);
+      return false;
+    }
   }
 
   // ===========================================================================

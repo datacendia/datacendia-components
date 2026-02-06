@@ -1,0 +1,61 @@
+{
+  "id": 12226138,
+  "name": "Buford v. United States",
+  "name_abbreviation": "Buford v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-9855",
+  "first_page": "931",
+  "last_page": "931",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 931"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 151,
+    "ocr_confidence": 0.659,
+    "sha256": "53c039beee5eca502b4299d214698e7a5370199e91fcbaddf8e3050b438035ca",
+    "simhash": "1:ab83ba0aebbedb5a",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Buford v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Cer-tiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9855.\nBuford v. United States."
+  },
+  "file_name": "0931-02",
+  "first_page_order": 1013,
+  "last_page_order": 1013
+}

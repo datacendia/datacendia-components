@@ -1,0 +1,178 @@
+{
+  "id": 12518213,
+  "name": "UNITED STATES of America, Plaintiff-Appellee, v. Jaboree WILLIAMS, Defendant-Appellant.",
+  "name_abbreviation": "United States v. Williams",
+  "decision_date": "2018-08-15",
+  "docket_number": "No. 18-1002",
+  "first_page": "486",
+  "last_page": "491",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "900 F.3d 486"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "7th Cir.",
+    "id": 9010,
+    "name": "United States Court of Appeals for the Seventh Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "149 F.3d 634",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1362749
+      ],
+      "weight": 6,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "638"
+        },
+        {
+          "page": "636"
+        },
+        {
+          "page": "638"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/149/0634-01"
+      ]
+    },
+    {
+      "cite": "189 F.3d 576",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1733426
+      ],
+      "weight": 3,
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "587",
+          "parenthetical": "quoting United States v. Doe , 149 F.3d 634, 638 (7th Cir. 1998) "
+        },
+        {
+          "page": "587"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/189/0576-01"
+      ]
+    },
+    {
+      "cite": "826 F.3d 363",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4326501
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "370"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/826/0363-01"
+      ]
+    },
+    {
+      "cite": "642 F.3d 599",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3383519
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "606",
+          "parenthetical": "holding that a defendant was not prejudiced by an inadequate Rule 16 disclosure where he \"ha[d] not demonstrated, for example, that he was unduly surprised or lacked an adequate opportunity to prepare a defense\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/642/0599-01"
+      ]
+    },
+    {
+      "cite": "272 F.3d 825",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1953098
+      ],
+      "weight": 4,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "828-29"
+        },
+        {
+          "page": "828"
+        },
+        {
+          "page": "829"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/272/0825-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 703,
+    "char_count": 15381,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25904000580728836
+    },
+    "sha256": "573eff795bc2060e0c5b6357d0e1d6ca7a252e3202213294edc5b0fbcd9076ae",
+    "simhash": "1:b48abe02c65442cf",
+    "word_count": 2432
+  },
+  "last_updated": "2024-02-27T18:45:52.975388+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Manion and Barrett, Circuit Judges, and Gettleman, District Judge."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff-Appellee,\nv.\nJaboree WILLIAMS, Defendant-Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Barrett, Circuit Judge.\nJaboree Williams argues that his conviction was tainted by improperly admitted expert testimony. He maintains that the government violated the expert disclosure rules by giving him inadequate notice of what its expert planned to say at trial. Moreover, he says that the government used the expert's testimony to make an argument that the Federal Rules of Evidence prohibit: that he had the character of a sex trafficker and was therefore likely to have committed sex-trafficking crimes.\nWhile the government did not violate the rules prohibiting the use of character evidence, it probably did violate the expert disclosure requirement. Nonetheless, we affirm Williams' conviction because any error was harmless. The evidence of his guilt was so overwhelming that the jury would surely have convicted him even if the government's expert had not testified.\nI.\nJaboree Williams was accused of myriad offenses relating primarily to a wide-ranging sex-trafficking scheme. We won't recount every sordid detail of Williams' scheme; suffice it to say that he lured women in desperate circumstances into prostitution by convincing them that he would take care of them. He then maintained control over these women through brutal physical abuse. He was indicted on numerous charges relating to sex trafficking, prostitution, heroin, obstruction of justice, and extortion.\nBefore trial, the government filed a notice of its intent to call Amy Mentzel, an FBI agent, as an expert witness. The notice adequately described Mentzel's credentials and her career with the FBI. But its summary of her anticipated testimony was sparse: it listed a series of broad topics without any explanation of what she would say about each. For example, it stated that she would testify about \"the recruiting processes used by pimps,\" \"the methods pimps and those they prostitute use to advertise their services and acquire customers,\" and \"other aspects of human sex trade involving adults and juveniles.\" It offered no detail about what Mentzel would say about recruiting, advertising, or any other aspect of the sex trade.\nWilliams moved to exclude Mentzel from testifying on the ground that the expert disclosure was inadequate and her testimony would not help the jury. The district court deferred consideration of that motion, and when the government introduced Mentzel as a witness at trial, Williams renewed his objections. He repeated his argument that the expert disclosure had been inadequate under Federal Rule of Criminal Procedure 16(a)(1)(G), which requires that the disclosure contain \"a written summary of any [expert] testimony that the government intends to use\" in its case-in-chief. And he again insisted that Mentzel's testimony would not help the jury-the court's jury instructions would define the crime of human trafficking for the jurors, so he said that they would need no additional guidance on that point. He also referred the district court back to the motion he had originally filed to exclude Mentzel on the ground that her testimony would be impermissible character evidence.\nThe court overruled these objections, and Mentzel testified. She told the jury about how a human trafficker preys on vulnerable young women and makes them think that they're in a \"boyfriend/girlfriend type of relationship\" before having them go on prostitution \"dates.\" She talked about how pimps coerce their victims through fraud and force, how they handle money, how they punish their victims to ensure obedience, how they organize their operations, what certain terminology means (like \"trick\" and \"incall\"), and the sorts of rules they set for their victims. Mentzel did not testify about Williams or his actions, as she had not been involved in his case.\nMentzel's expert testimony was a small part of a trial in which the lay testimony was substantial. Three of Williams' victims testified about how Williams recruited them to prostitution, set up prostitution \"dates\" in numerous states, laid down rules for those \"dates,\" controlled and kept any payment, violently punished them for breaking any of his rules, and threatened them to ensure obedience. One victim testified that Williams knew about her addiction to Percocet and withheld the drug as a means of controlling her. There was also testimony that Williams choked one victim to the point of unconsciousness, stomped on one in a bathtub, beat one with a belt, punched one in the face, broke one victim's nose, and more. A woman named Heller, who was romantically linked to Williams but did not engage in prostitution, testified that Williams admitted to prostituting several of the testifying victims. Heller often picked Williams and his victims up from hotels where Williams had forced them to service his clients. She also listened as Williams physically abused one of his victims. Another witness, one of Williams' longtime friends, told the jury that Williams had both introduced one of the testifying victims as his prostitute and bragged about his pimping activities.\nThe documentary evidence was similarly ample. There were pictures of injuries that Williams had inflicted on his victims. There were online prostitution ads for each of the testifying victims, all linked to Williams' email addresses. There were text messages and Facebook messages in which Williams admitted that he was a pimp and referred to the same victims who later testified at his trial. In short, the evidence against Williams was overwhelming.\nThe jury convicted Williams of almost all of the charged crimes, and he now appeals that conviction.\nII.\nWilliams argues that the court should have excluded Mentzel's testimony, because the government's expert disclosure was insufficient. Federal Rule of Criminal Procedure 16(a)(1)(G) requires the government to provide a \"written summary\"\nof the expert testimony it intends to introduce, and the government cannot satisfy that obligation by merely providing a \"list of topics.\" United States v. Duvall , 272 F.3d 825, 828-29 (7th Cir. 2001). To help the defendant prepare for trial, the disclosure must summarize what the expert will actually say about those topics. Id. The government's disclosure of Mentzel's testimony was plainly inadequate under that standard, because it did no more than list a series of topics that she planned to cover.\nThe government, however, argues that this standard does not apply. According to the government, a written summary must include more than a list of topics only when an expert provides opinion testimony. And Mentzel did not provide opinion testimony; she provided \"background, educational testimony.\" Thus, the government says, the list it provided was enough to satisfy Rule 16(a)(1)(G).\nThere are serious reasons to doubt the government's position. The \"written summary\" requirement of Rule 16(a)(1)(G) applies to \"any testimony that the government intends to use under Rule[ ] 702,\" and Rule 702 governs both experts who offer an opinion and those who don't. And in defining the phrase \"written summary,\" we have stated broadly and unequivocally that Rule 16(a)(1)(G)\"requires a summary of the expected testimony, not a list of topics.\" Duvall , 272 F.3d at 828. Neither the rule nor our interpretation of it suggests that \"written summary\" means something different for non-opinion experts.\nThat said, any deficiency in the written summary was harmless. As an initial matter, Williams has not shown that the lack of detail affected his ability to present a defense. For example, he has not shown that he was \"unduly surprised\" by Mentzel's testimony. United States v. Thornton , 642 F.3d 599, 606 (7th Cir. 2011) (holding that a defendant was not prejudiced by an inadequate Rule 16 disclosure where he \"ha[d] not demonstrated, for example, that he was unduly surprised or lacked an adequate opportunity to prepare a defense\"). His opening brief does say in passing that the vague notice made it impossible for him to evaluate whether he needed an expert witness of his own to rebut Mentzel's testimony. But he does not assert, let alone show, that he actually would have considered having his own expert testify had the notice been more detailed. He also argues that the sparse notice made it difficult for him to make, and for the district court to assess, other arguments against the admission of the testimony. Yet his substantive objection to the testimony is meritless-we will say more about that below-so any impediment to making that objection was harmless.\nMoreover, any error in admitting Mentzel's testimony \"could not have made any difference\" to the outcome. Duvall , 272 F.3d at 829. To evaluate whether an error was harmless, we consider \"whether the prosecution's case would have been significantly less persuasive in the mind of the average juror if the erroneously admitted evidence had been excluded.\" United States v. Saunders , 826 F.3d 363, 370 (7th Cir. 2016). Williams has conceded that the testimony of his victims was more than adequate to convince the jury that he was guilty of the charges for which he was convicted, and \"[t]he question for the trial was whether the women should be believed.\" Nothing in Mentzel's testimony bore on whether the women who testified should be believed, and we see no reason that an average juror would find the prosecution's case less compelling without Mentzel's description of how sex trafficking works.\nIII.\nWilliams objects to Mentzel's testimony for another reason: he says that it should have been excluded as evidence of a \"group character trait.\" The prosecution ordinarily cannot introduce \"[e]vidence of a person's character or character trait ... to prove that on a particular occasion the person acted in accordance with the character trait.\" Fed. R. Evid. 404(a)(1). Williams argues that the government used Mentzel's testimony to show that he had the character of a typical sex trafficker and was therefore likely to have engaged in sex trafficking.\nThis argument fails, because Mentzel's testimony was not designed to illustrate the \"character\" of a typical sex trafficker. Although it is difficult to give a comprehensive definition of \"character evidence,\" we generally interpret it as \"evidence that 'refers to elements of one's disposition, such as honesty, temperance, or peacefulness,' which shows a propensity to act a certain way in a certain situation.\" United States v. Romero , 189 F.3d 576, 587 (7th Cir. 1999) (quoting United States v. Doe , 149 F.3d 634, 638 (7th Cir. 1998) ). Rule 404 prohibits \"an attempt to use a person's personality or psychological propensity to prove what the person did.\" Id.\nBecause of this rule, Mentzel could not have testified about the character of sex traffickers to raise the forbidden inference that Williams' similar character made him likely to engage in sex trafficking. For example, she could not have testified that sex traffickers are violent people likely to brutalize women so that the government could then argue that Williams was also violent and thus likely to brutalize women. Nor could the government have used Mentzel's testimony to make the same point indirectly by relying on the acts of both sex traffickers and Williams to raise the forbidden inference about how people with a certain character trait are likely to behave. Rule 404(b)(1) (\"Evidence of a crime, wrong, or other act is not admissible to prove a person's character in order to show that on a particular occasion the person acted in accordance with the character.\") For example, the government could not have used Mentzel's testimony about what sex traffickers do as proof that they are violent people likely to act in accordance with that violent character, and that Williams' behavior shows that he too is violent and therefore also likely to act in accordance with that violent character.\nBut that is not what the government did. Mentzel's testimony was not about the propensity of people with a certain disposition to commit sex-trafficking crimes. Nor did the government use Mentzel's testimony to illustrate that the acts of sex traffickers revealed that they had a certain disposition that made them likely to commit sex-trafficking crimes. Nor did the government use that evidence to argue that Williams had the disposition of a sex trafficker and was therefore likely to have committed sex-trafficking crimes. The government used Mentzel's testimony about the acts of sex traffickers to illustrate their modus operandi, not their character; it suggested that because Williams employed similar techniques, his behavior was evidence that he too was engaged in a sex-trafficking operation. Rule 404 's prohibition on character evidence is inapplicable, because there were no arguments about character at play.\nWe have repeatedly rejected essentially the same argument that Williams makes now. For example, in United States v. Romero , the defendant was a pedophile accused of using the internet to lure underage boys away from their homes, and the government introduced an expert witness who discussed the actions of sex offenders to \"explain their techniques or modus operandi.\" 189 F.3d at 587. We rejected the defendant's argument that the expert's testimony was impermissible character evidence under Rule 404. The government did not use that testimony to argue that the defendant's poor character made him likely to sexually abuse children. It used that testimony to show that his actions were consistent with common tactics that pedophiles used to lure their victims. Id.\nUnited States v. Doe is another example. 149 F.3d 634 (7th Cir. 1998). There, the defendant was accused of being part of a Nigerian smuggling operation that trafficked heroin from Southeast Asia to the United States. Id. at 636. The government introduced an expert witness who testified about the practices of such Nigerian drug-smuggling operations and how they get their drugs into the country. Id. We held that this testimony was not impermissible group character evidence, because it did not \"suggest[ ] that [the defendant] had a 'propensity' to import or distribute drugs.\" It \"served only to illuminate the modus operandi of Nigerian importers of Southeast Asian heroin\" so that the jury would have useful context \"in evaluating proposed explanations of [the defendant's] observed behaviors.\" Id. at 638.\nThe same is true here. The government did not introduce Mentzel's testimony to show that Williams' flawed character predisposed him to human trafficking. Instead, the point of the evidence was to show that Williams' actions were consistent with the management of a sex-trafficking scheme.\n* * *\nAny deficiency in the government's notice was harmless, and Mentzel's expert evidence was not inadmissible character evidence. The district court's judgment is AFFIRMED.",
+        "type": "majority",
+        "author": "Barrett, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Jonathan H. Koenig, Attorney, Laura S. Kwaterski, Attorney, Karine Moreno-Taxman, Attorney, OFFICE OF THE UNITED STATES ATTORNEY, Milwaukee, WI, for Plaintiff-Appellee.",
+      "Jeffrey W. Jensen, Sr., Attorney, Milwaukee, WI, for Defendant-Appellant."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff-Appellee,\nv.\nJaboree WILLIAMS, Defendant-Appellant.\nNo. 18-1002\nUnited States Court of Appeals, Seventh Circuit.\nArgued May 24, 2018\nDecided August 15, 2018\nJonathan H. Koenig, Attorney, Laura S. Kwaterski, Attorney, Karine Moreno-Taxman, Attorney, OFFICE OF THE UNITED STATES ATTORNEY, Milwaukee, WI, for Plaintiff-Appellee.\nJeffrey W. Jensen, Sr., Attorney, Milwaukee, WI, for Defendant-Appellant.\nBefore Manion and Barrett, Circuit Judges, and Gettleman, District Judge.\nOf the Northern District of Illinois, sitting by designation."
+  },
+  "file_name": "0486-01",
+  "first_page_order": 486,
+  "last_page_order": 491
+}

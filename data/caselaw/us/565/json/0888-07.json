@@ -1,0 +1,59 @@
+{
+  "id": 12216135,
+  "name": "Spencer v. United States",
+  "name_abbreviation": "Spencer v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5071",
+  "first_page": "888",
+  "last_page": "888",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 888"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.648,
+    "sha256": "18181f2110e1b8f727d292ed262b1302964ffa58572ec773047bc47fffaf5801",
+    "simhash": "1:258aca796e8db11d",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Spencer v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5071.\nSpencer v. United States."
+  },
+  "file_name": "0888-07",
+  "first_page_order": 970,
+  "last_page_order": 970
+}

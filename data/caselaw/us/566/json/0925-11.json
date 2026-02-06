@@ -1,0 +1,59 @@
+{
+  "id": 12201366,
+  "name": "Dye v. DeAngelo et al.",
+  "name_abbreviation": "Dye v. DeAngelo",
+  "decision_date": "2012-04-02",
+  "docket_number": "No. 11-8606",
+  "first_page": "925",
+  "last_page": "925",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 925"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 71,
+    "ocr_confidence": 0.624,
+    "sha256": "ddf50035f097d3ee3fb1eb3da541c669e0220ad24662b84c02cb5010f41888a1",
+    "simhash": "1:a1ca3ba8d8968148",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dye v. DeAngelo et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8606.\nDye v. DeAngelo et al."
+  },
+  "file_name": "0925-11",
+  "first_page_order": 801,
+  "last_page_order": 801
+}

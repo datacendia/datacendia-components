@@ -1,0 +1,59 @@
+{
+  "id": 12212326,
+  "name": "Perkins v. McKee, Warden",
+  "name_abbreviation": "Perkins v. McKee",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-11229",
+  "first_page": "873",
+  "last_page": "873",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 873"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.651,
+    "sha256": "b8632cdbe588b5f387653947566d4f7a1863f8314dc56ec9582178b3f8be7492",
+    "simhash": "1:92ea0296aa1f10b6",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Perkins v. McKee, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-11229.\nPerkins v. McKee, Warden."
+  },
+  "file_name": "0873-14",
+  "first_page_order": 955,
+  "last_page_order": 955
+}

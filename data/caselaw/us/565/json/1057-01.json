@@ -1,0 +1,59 @@
+{
+  "id": 12234878,
+  "name": "Southern Union Co. v. United States",
+  "name_abbreviation": "Southern Union Co. v. United States",
+  "decision_date": "2011-11-28",
+  "docket_number": "No. 11-94",
+  "first_page": "1057",
+  "last_page": "1057",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1057"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 83,
+    "ocr_confidence": 0.664,
+    "sha256": "2c4f138e16b8e17e92ac41d38619c8838852226877e10caec82b20a7489b9f22",
+    "simhash": "1:8d0aeee28ea5133a",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Southern Union Co. v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari granted.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-94.\nSouthern Union Co. v. United States."
+  },
+  "file_name": "1057-01",
+  "first_page_order": 1139,
+  "last_page_order": 1139
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12220100,
+  "name": "Snelling v. Evans et al.",
+  "name_abbreviation": "Snelling v. Evans",
+  "decision_date": "2012-05-21",
+  "docket_number": "No. 11-1147",
+  "first_page": "1010",
+  "last_page": "1010",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 1010"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 73,
+    "ocr_confidence": 0.572,
+    "sha256": "cb35d17ddef7575eb313f097f7eca4be7ef6d6ff479f6f98522f529982aa4304",
+    "simhash": "1:a0fa29ae89159438",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Snelling v. Evans et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1147.\nSnelling v. Evans et al."
+  },
+  "file_name": "1010-04",
+  "first_page_order": 886,
+  "last_page_order": 886
+}

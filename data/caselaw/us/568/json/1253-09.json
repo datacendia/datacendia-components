@@ -1,0 +1,59 @@
+{
+  "id": 12434007,
+  "name": "Samuel v. Texas (two judgments)",
+  "name_abbreviation": "Samuel v. Texas",
+  "decision_date": "2013-03-25",
+  "docket_number": "No. 12-8337",
+  "first_page": "1253",
+  "last_page": "1253",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1253"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 85,
+    "ocr_confidence": 0.608,
+    "sha256": "fc4dd47cac62eb938a90078815ee7919cc86242e1c16b112199ef345aab39fd8",
+    "simhash": "1:51128c12c28b8476",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Samuel v. Texas (two judgments)."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Tex. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8337.\nSamuel v. Texas (two judgments)."
+  },
+  "file_name": "1253-09",
+  "first_page_order": 1329,
+  "last_page_order": 1329
+}

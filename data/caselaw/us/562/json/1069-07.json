@@ -1,0 +1,59 @@
+{
+  "id": 6030163,
+  "name": "Griggs v. Missouri et al.",
+  "name_abbreviation": "Griggs v. Missouri",
+  "decision_date": "2010-11-29",
+  "docket_number": "No. 10-6673",
+  "first_page": "1069",
+  "last_page": "1069",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1069"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 74,
+    "ocr_confidence": 0.583,
+    "sha256": "6eb2829f272d9ab9be20cce18c07ea48e5be6836976b1acdb123fc063620bfc3",
+    "simhash": "1:80fc20b8d92d92bd",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Griggs v. Missouri et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6673.\nGriggs v. Missouri et al."
+  },
+  "file_name": "1069-07",
+  "first_page_order": 1091,
+  "last_page_order": 1091
+}

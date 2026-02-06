@@ -1,0 +1,59 @@
+{
+  "id": 5973313,
+  "name": "Soto v. California",
+  "name_abbreviation": "Soto v. California",
+  "decision_date": "2010-11-15",
+  "docket_number": "No. 10-6455",
+  "first_page": "1048",
+  "last_page": "1048",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1048"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 82,
+    "ocr_confidence": 0.65,
+    "sha256": "cf92412960bc43d1bf1850a37b18b2f6aeb1a6c0ad8038ba8fba801695441459",
+    "simhash": "1:a505218111d13803",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Soto v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 5th App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6455.\nSoto v. California."
+  },
+  "file_name": "1048-02",
+  "first_page_order": 1070,
+  "last_page_order": 1070
+}

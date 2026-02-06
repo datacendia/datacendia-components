@@ -1,0 +1,59 @@
+{
+  "id": 12225429,
+  "name": "Hite v. United States",
+  "name_abbreviation": "Hite v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-6003",
+  "first_page": "926",
+  "last_page": "926",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 926"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.674,
+    "sha256": "76cdaca37558d7a98bb1e740d8e2b8f0367314314dcd06af48fe61412c8a9d0c",
+    "simhash": "1:900883860453c73a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hite v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6003.\nHite v. United States."
+  },
+  "file_name": "0926-15",
+  "first_page_order": 1008,
+  "last_page_order": 1008
+}

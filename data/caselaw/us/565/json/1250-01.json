@@ -1,0 +1,59 @@
+{
+  "id": 12250552,
+  "name": "Purcell v. Union Pacific Railroad",
+  "name_abbreviation": "Purcell v. Union Pacific Railroad",
+  "decision_date": "2012-03-05",
+  "docket_number": "No. 11-8326",
+  "first_page": "1250",
+  "last_page": "1250",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1250"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 82,
+    "ocr_confidence": 0.63,
+    "sha256": "ef68f8709f1cf83723b0ffb6c931e45d82b25fc1df2bf7310fad1589592de0c1",
+    "simhash": "1:00b866e30b2c9657",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Purcell v. Union Pacific Railroad."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8326.\nPurcell v. Union Pacific Railroad."
+  },
+  "file_name": "1250-01",
+  "first_page_order": 1332,
+  "last_page_order": 1332
+}

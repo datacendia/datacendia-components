@@ -1,0 +1,59 @@
+{
+  "id": 12227302,
+  "name": "Seaton v. Caperton",
+  "name_abbreviation": "Seaton v. Caperton",
+  "decision_date": "2011-10-11",
+  "docket_number": "No. 11-5561",
+  "first_page": "946",
+  "last_page": "946",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 946"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.677,
+    "sha256": "76899f46ee1930cc69f29e3bee968a4930b6bec54784e39a7ff11f5e68f0733e",
+    "simhash": "1:bb8de69f9f886339",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Seaton v. Caperton."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. App. W. Va. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5561.\nSeaton v. Caperton."
+  },
+  "file_name": "0946-08",
+  "first_page_order": 1028,
+  "last_page_order": 1028
+}

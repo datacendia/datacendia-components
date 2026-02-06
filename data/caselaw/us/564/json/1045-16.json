@@ -1,0 +1,59 @@
+{
+  "id": 4337699,
+  "name": "Aguilar-Arraiza v. United States",
+  "name_abbreviation": "Aguilar-Arraiza v. United States",
+  "decision_date": "2011-06-27",
+  "docket_number": "No. 10-10773",
+  "first_page": "1045",
+  "last_page": "1045",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1045"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 83,
+    "ocr_confidence": 0.589,
+    "sha256": "b3241d2200bd5476418cb8e3e660a4e39344ac26a36140e2f8a0ac5341d2a372",
+    "simhash": "1:16ab4b030fee9018",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Aguilar-Arraiza v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10773.\nAguilar-Arraiza v. United States."
+  },
+  "file_name": "1045-16",
+  "first_page_order": 1039,
+  "last_page_order": 1039
+}

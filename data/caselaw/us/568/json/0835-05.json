@@ -1,0 +1,59 @@
+{
+  "id": 12411843,
+  "name": "Cooper v. Denney, Warden",
+  "name_abbreviation": "Cooper v. Denney",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10171",
+  "first_page": "835",
+  "last_page": "835",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 835"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.715,
+    "sha256": "071916c36ddc8176b544287ae272dbed728caaed5502cdf350d1e0f98be45e22",
+    "simhash": "1:a4db45a72f6f10eb",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cooper v. Denney, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10171.\nCooper v. Denney, Warden."
+  },
+  "file_name": "0835-05",
+  "first_page_order": 911,
+  "last_page_order": 911
+}

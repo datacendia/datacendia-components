@@ -1,0 +1,59 @@
+{
+  "id": 12232821,
+  "name": "Borgersen v. United States",
+  "name_abbreviation": "Borgersen v. United States",
+  "decision_date": "2011-11-07",
+  "docket_number": "No. 11-6730",
+  "first_page": "1019",
+  "last_page": "1019",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1019"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.643,
+    "sha256": "b1a3ae4419f41d5b57282ddac4c302d9fbb5ac8fe1195b986e48ef52bb29f051",
+    "simhash": "1:1559ce2307ad954a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Borgersen v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6730.\nBorgersen v. United States."
+  },
+  "file_name": "1019-04",
+  "first_page_order": 1101,
+  "last_page_order": 1101
+}

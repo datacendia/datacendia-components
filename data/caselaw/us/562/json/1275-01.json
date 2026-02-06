@@ -1,0 +1,59 @@
+{
+  "id": 5903721,
+  "name": "Palmer v. Trent et al.",
+  "name_abbreviation": "Palmer v. Trent",
+  "decision_date": "2011-03-07",
+  "docket_number": "No. 10-8209",
+  "first_page": "1275",
+  "last_page": "1275",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1275"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 71,
+    "ocr_confidence": 0.557,
+    "sha256": "6fc05d679aa3e1c298cd4a8780ff864222cdee1780dcd3a351e7f9fddd6a6ccc",
+    "simhash": "1:a0ea28f9d39df7fa",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Palmer v. Trent et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8209.\nPalmer v. Trent et al."
+  },
+  "file_name": "1275-01",
+  "first_page_order": 1297,
+  "last_page_order": 1297
+}

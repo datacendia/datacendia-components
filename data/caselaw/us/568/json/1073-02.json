@@ -1,0 +1,59 @@
+{
+  "id": 12427477,
+  "name": "Fuentes v. United States",
+  "name_abbreviation": "Fuentes v. United States",
+  "decision_date": "2012-12-10",
+  "docket_number": "No. 12-7064",
+  "first_page": "1073",
+  "last_page": "1073",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1073"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.598,
+    "sha256": "015a304c629ec36d7f4526431fd4c46fa500debd3f45fc870e86630a2a3d3d3c",
+    "simhash": "1:962ace33278b9458",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Fuentes v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7064.\nFuentes v. United States."
+  },
+  "file_name": "1073-02",
+  "first_page_order": 1149,
+  "last_page_order": 1149
+}

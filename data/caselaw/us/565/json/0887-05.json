@@ -1,0 +1,76 @@
+{
+  "id": 12215802,
+  "name": "Kamerud v. United States; and Kamerud v. United States",
+  "name_abbreviation": "Kamerud v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5046; No. 11-5083",
+  "first_page": "887",
+  "last_page": "887",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 887"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "629 F. 3d 790",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4078324
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/629/0790-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 20,
+    "char_count": 147,
+    "ocr_confidence": 0.71,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2476482219619754
+    },
+    "sha256": "86a3c837e67867ae271bdcee32542cc26167232b27005a2eeaca12d69b439d5c",
+    "simhash": "1:9689d743efb95428",
+    "word_count": 25
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Kamerud v. United States; and Kamerud v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied. Reported below: 629 F. 3d 790.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5046.\nNo. 11-5083.\nKamerud v. United States; and Kamerud v. United States."
+  },
+  "file_name": "0887-05",
+  "first_page_order": 969,
+  "last_page_order": 969
+}

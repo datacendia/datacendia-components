@@ -1,0 +1,59 @@
+{
+  "id": 12432791,
+  "name": "Gorosave v. United States",
+  "name_abbreviation": "Gorosave v. United States",
+  "decision_date": "2013-03-04",
+  "docket_number": "No. 12-8512",
+  "first_page": "1219",
+  "last_page": "1219",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1219"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.635,
+    "sha256": "e2c63db8aa8f3b9dcf02a0b96746bb07666a4eabc8c424900fe074324d5afbec",
+    "simhash": "1:948bc7832ba5097c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gorosave v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8512.\nGorosave v. United States."
+  },
+  "file_name": "1219-09",
+  "first_page_order": 1295,
+  "last_page_order": 1295
+}

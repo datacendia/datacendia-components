@@ -1,0 +1,558 @@
+{
+  "id": 2244707,
+  "name": "Sam Gann et al v. W. O. Murray et al",
+  "name_abbreviation": "Gann v. Murray",
+  "decision_date": "1952-02-27",
+  "docket_number": "No. A-3315",
+  "first_page": "130",
+  "last_page": "139",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "151 Tex. 130"
+    },
+    {
+      "type": "parallel",
+      "cite": "246 S.W.2d 616"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "67 S. W. 2d 1076",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10274570
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/67/1076-01"
+      ]
+    },
+    {
+      "cite": "108 S. W. 649",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "52 Texas Crim. Rep. 613",
+      "category": "reporters:state",
+      "reporter": "Tex. Crim.",
+      "case_ids": [
+        4563365
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex-crim/52/0613-01"
+      ]
+    },
+    {
+      "cite": "115 S. W. 48",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "55 Texas Crim. Rep. 27",
+      "category": "reporters:state",
+      "reporter": "Tex. Crim.",
+      "case_ids": [
+        4574193
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex-crim/55/0027-01"
+      ]
+    },
+    {
+      "cite": "113 S. W. 281",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 Texas Crim. Rep. 436",
+      "category": "reporters:state",
+      "reporter": "Tex. Crim.",
+      "case_ids": [
+        182639
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex-crim/54/0436-01"
+      ]
+    },
+    {
+      "cite": "101 S. W. 1008",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "51 Texas Crim. Rep. 159",
+      "category": "reporters:state",
+      "reporter": "Tex. Crim.",
+      "case_ids": [
+        4556387
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex-crim/51/0159-01"
+      ]
+    },
+    {
+      "cite": "279 S. W. 837",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10313803
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/279/0837-01"
+      ]
+    },
+    {
+      "cite": "103 Texas Crim. Rep. 35",
+      "category": "reporters:state",
+      "reporter": "Tex. Crim.",
+      "case_ids": [
+        5115408
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex-crim/103/0035-01"
+      ]
+    },
+    {
+      "cite": "231 S. W. 391",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8265292
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/231/0391-01"
+      ]
+    },
+    {
+      "cite": "89 Texas Crim Rep. 393",
+      "category": "reporters:state",
+      "reporter": "Tex. Crim.",
+      "case_ids": [
+        4806491
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex-crim/89/0393-01"
+      ]
+    },
+    {
+      "cite": "99 S. W. 95",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "90 S. W. 636",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "49 S.W. 100",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "40 Texas Crim. Rep. 154",
+      "category": "reporters:state",
+      "reporter": "Tex. Crim.",
+      "case_ids": [
+        163883
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex-crim/40/0154-01"
+      ]
+    },
+    {
+      "cite": "11 S. W. 33",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "168 S. W. 2d. 681",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10219340
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/168/0681-01"
+      ]
+    },
+    {
+      "cite": "95 S. W. 2d 1300",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2294858,
+        10279245
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/127/0633-01",
+        "/sw2d/95/1300-01"
+      ]
+    },
+    {
+      "cite": "127 Texas 633",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2294858
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/127/0633-01"
+      ]
+    },
+    {
+      "cite": "229 S. W. 2d. 366",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10195789
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/229/0366-01"
+      ]
+    },
+    {
+      "cite": "214 S. W. 2d. 303",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10222206
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/214/0303-01"
+      ]
+    },
+    {
+      "cite": "245 S. W. 2d 245",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10193006
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/245/0245-01"
+      ]
+    },
+    {
+      "cite": "18 S. W. 437",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "83 Texas 351",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2211527
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/83/0351-01"
+      ]
+    },
+    {
+      "cite": "155 S. W. 2d. 817",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10225306
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/155/0817-01"
+      ]
+    },
+    {
+      "cite": "88 S. W. 2d. 91",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2296174,
+        10241286
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/126/0232-01",
+        "/sw2d/88/0091-01"
+      ]
+    },
+    {
+      "cite": "126 Texas 232",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2296174
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/126/0232-01"
+      ]
+    },
+    {
+      "cite": "157 S. W. 2d. 1018",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10226692
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/157/1018-01"
+      ]
+    },
+    {
+      "cite": "240 S. W. 2d. 822",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10216260
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/240/0822-01"
+      ]
+    },
+    {
+      "cite": "231 S. W. 2d 774",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10208246
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/231/0774-01"
+      ]
+    },
+    {
+      "cite": "230 S. W. 2d 313",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10194518
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/230/0313-01"
+      ]
+    },
+    {
+      "cite": "226 S. W. 2d 241",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10193082
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/226/0241-01"
+      ]
+    },
+    {
+      "cite": "233 S. W. 2d 897",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10218705
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/233/0897-01"
+      ]
+    },
+    {
+      "cite": "211 S. W. 2d 1005",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10212545
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/211/1005-01"
+      ]
+    },
+    {
+      "cite": "192 S. W. 2d 780",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10204417,
+        10204540
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/192/0780-01",
+        "/sw2d/192/0780-02"
+      ]
+    },
+    {
+      "cite": "170 S. W. 2d 644",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10216808
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/170/0644-01"
+      ]
+    },
+    {
+      "cite": "168 S. W. 2d. 681",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10219340
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "686"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/168/0681-01"
+      ]
+    },
+    {
+      "cite": "155 S. W. 2d. 817",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10225306
+      ],
+      "pin_cites": [
+        {
+          "page": "819"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/155/0817-01"
+      ]
+    },
+    {
+      "cite": "88 S. W. 2d. 91",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2296174,
+        10241286
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/126/0232-01",
+        "/sw2d/88/0091-01"
+      ]
+    },
+    {
+      "cite": "126 Texas 232",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2296174
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/126/0232-01"
+      ]
+    },
+    {
+      "cite": "157 S. W. 2d. 1018",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10226692
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/157/1018-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 867,
+    "char_count": 21039,
+    "ocr_confidence": 0.611,
+    "pagerank": {
+      "raw": 1.489159507663417e-07,
+      "percentile": 0.6627067832912267
+    },
+    "sha256": "6855c28142d41a92ca8ecde4e775ae6d46d97cfdedb920161cfa18b26ca31727",
+    "simhash": "1:5b9bc7e635cf259c",
+    "word_count": 3664
+  },
+  "last_updated": "2024-02-27T19:52:08.570687+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sam Gann et al v. W. O. Murray et al"
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Wilson\ndelivered the opinion of the Court.\nThis is a mandamus prpoceeding to compel certification of questions of venue involving Sec. 9, Art. 1995, R. C. S. Our jurisdiction is invoked upon an alleged conflict between the Court of Civil Appeals opinion in the case at bar, 240 S. W. 2d. 822, and Hurley v. Reynolds, 157 S. W. 2d. 1018.\nThe parties will be referred to as in the trial court.\nPlaintiffs sued for damages resulting from personal injuries and death caused when their car ran into defendants\u2019 truck parked at night beside a highway. They alleged that defendants failed to have flares the required distance from the parked truck as required by Sec. 9-a of Art. 827a, Penal Code. They alleged another offense which we need not discuss. Defendant filed pleas of privilege which were sustained by the trial court whose action has been affirmed on appeal.\nWe must determine whether or not there is a conflict and, in the event of a conflict, determine the law.\nWe hold that the two cases are in conflict because the opinion under attack in the case at bar holds that for plaintiff to retain venue in the county of suit under Sec. 9, where the suit is based upon a crime, it is necessary for him to prove that his injuries were proximately caused by the crime. The case of Hurley v. Reynolds, supra, holds to the contrary that it is not necessary for plaintiff to prove that his injuries were proximately caused by the crime.\nThis problem is raised here because although plaintiffs plead that their injuries were the result of defendants\u2019 failure to have flares out from the parked vehicle the statutory distance, the trial court found, on proof, that flares were out a distance of 80 feet (instead of 150 feet as required by Sec. 9-a, Art. 827a) and under the circumstances (straight level road and moonlight night) could be seen by a vehicle approaching from the rear in plenty of time to avoid hitting the parked truck. The trial court then made a fact finding that the injuries were not proximately caused by the alleged offenses and sustained the pleas of privilege to change the venue to defendants\u2019 home county.\nAs one of the exceptions to the general statute on venue, Sec. 9, provides that where a suit is \u201cbased upon a crime, offense or trespass\u201d it may b\u00e9 brought in the county where the crime is committed. In the case of Compton v. Elliott, 126 Texas 232, 88 S. W. 2d. 91, this Court said:\n\u201cThe venus facts which a plaintiff is required to plead and prove under exception 9 are that the crime, offense, or trespass was in fact committed and that it was committed in the county where the suit is pending.\u201d\nSome of the cases discussing the word trespass in this act bring proximate cause into a venue hearing by holding proximate cause to be an element of the definition of trespass. See Heard v. Kuhnert, CCA, 155 S. W. 2d. 817. We do not here pass upon the meaning of the word trespass.\nThe words crime and offense as used in this section can apply only to a set of facts denominated and defined as a crime or offense for which the defendant is liable to punishment. Austin v. Cameron, 83 Texas 351, 18 S. W. 437. Therefore, the elements of a particular crime necessarily have to be determined from the definition of that crime in the Penal Code and related legislation as judicially construed. The approach to causation in civil negligence actions through the concept of proximate cause is not the same as the approach to causation in criminal cases, although both a civil and criminal action may rest upon the same facts. In the case of Pope v. State, 245 S. W. 2d 245, our Court of Criminal Appeals said:\n\"The trial court in his charge fully protected the rights of appellant with reference to the required causal connection between the alleged intoxication and the collision. Also, the particular facts with reference to the act of Harris in driving in front of appellant\u2019s automobile were expressly required to be negatived as the sole causal factor in bringing about the collision.\n\u201cWe are constrained to agree that the charge, as given, accorded to appellant his full defensive rights and those that were due him under what is referred to as an \u2018unavoidable accident.\u2019\n\u201cIt must be remembered that the definition given to the terms, \u2018proximate cause,\u2019 \u2018contributory negligence,\u2019 and \u2018unavoidable accident,\u2019 as known to and applied to civil cases, does not apply to criminal cases.\u201d\nSee Long v. State, 214 S. W. 2d. 303, on second appeal 229 S. W. 2d. 366.\nTherefore it cannot be said that proximate cause is an element in the definition of a crime.\n2 In determining venue under Sec. 9, supra, it is neither necessary nor desirable that plaintiff be required to prove his entire cause of action. By the use of the words based upon, Sec. 9 requires a causal connection between the injury suffered and the\ncrime committed, but this is determined on a venue hearing as a matter of law from the pleadings. If it can be determined as a matter of law from the face of the pleadings that the crime was not the proximate cause of the injuries alleged it would follow that plaintiffs\u2019 suit is not \u201cbased upon\u201d the crime alleged. The causal connection between the crime and the injury is not a \u201cvenue fact\u201d requiring proof. Compton v. Elliott, supra. 9 offers a defendant no protection against unfounded factual allegations that the crime was the proximate cause of the In Stockyards Nat. Bank v. Maples, 127 Texas 633, 95 S. W. 2d 1300, this Court said:\n\u201c* * * The statutory provisions as to the defendant\u2019s privilege and the plea of privilege were not intended to protect defendants from unfounded suits.\u201d\nWe have considered the well-reasoned case of Thomas v. Meyer, CCA 1943, 168 S. W. 2d. 681, but have concluded that on the point of proximate cause it is not correctly decided.. The argument that the Legislature has not changed the act since this construction was announced has no weight where the case is in conflict with a decision by another Court of Civil Appeals during the time when it might have been considered by the Legislature.\n3 In deciding this case the Court of Civil Appeals expressly stated that it assumed for the purposes of its opinion that an had been alleged and proved under a valid statute. Our\njurisdiction in this type of proceeding is limited to answering the very question either certified or requested certified. We do not have before us either the record or the briefs filed in the Court of Civil Appeals. In any mandamus proceeding there may be questions which the Court of Civil Appeals did not reach under its view of the law, but which it will need to consider after this Court has answered the certified question. Therefore, we do not decide whether Sec. 137 of Art. 6701-d, V.A.C.S. repeals Penal Code, Art. 827a, Sec. 9, and we expressly refrain from passing upon the question of whether an offense was alleged and proved in the case at bar, and if so, whether or not the pleadings establish that plaintiffs\u2019 suit is \u201cbased upon\u201d this offense.\nThe question plaintiffs wish certified is as follows:\n\u201cWhen on the trial of the pleas of privilege filed by the appellees, Raymond Earl Mabra and Ben E. Keith, appellants proved commission of two crimes in Wilson County, Texas, by the appellee, Raymond Earl Mabra, while acting in the course of his employment for said appellee, Ben E. Keith, both of which crimes were negligence as a matter of law, was it necessary for appellants to prove that at least one of such crimes was the proximate cause of their injuries in order to establish venue in Wilson County, Texas, under Exception 9 of Article 1995, Vernon\u2019s Annotated Civil Statutes of Texas?\u201d\n4 This question is answered in the negative. Plaintiffs were required to prove \u201cthat the crime was in fact committed and that it was committed in the county where the suit is pending.\u201d Compton v. Elliott, supra. The pleadings will determine as a matter of law for purposes of venue whether or not their suit is based upon that crime.\nUnder Rule 475, T.R.C.P., the Honorable Court of Civil Appeals for the Fourth Supreme Judicial District of Texas is directed to conform its ruling and decision to this opinion. Costs are taxed against respondents.\nOpinion delivered February 27, 1952.\nSec. 9-a. \u201cWhenever any * * * truck, * * * shall during the period from one-half hour after sunset to one-half hour before sunrise, and at any other time when there is not sufficient light to render clearly discernible any person on the highway at a distance of two hundred (200) feet, be stopped upon the main traveled portion of any highway in this State for as long as fifteen minutes, the driver or operator thereof shall place a warning signal upon the highway on the roadway side of such vehicle, at a distance not less than one hundred and fifty (150) feet, nor more than two hundred (200) feet, from such parked vehicle near the edge of the roadway in every direction from which a vehicle may approach; * * * and said flare, electrical devise or reflector shall be placed in such a way as to be plainly observed as a signal by the driver of any approaching vehicle for a distance of five hundred (500) feet.\u201d\nArt. 1995. \u201cNo person who is an inhabitant of this state shall be sued out of the county in which he has his domicile except in the following cases:\n* * * *\n\u201c9. Crime or trespass. \u2014 A suit based upon a crime, offense or trespass may be brought in the county where such crime, offense, or trespass was committed, whether committed by defendant or by his agent or representative, or in the county where the defendant has his domicile. As amended Acts 1947, 50th Leg., p. 739, ch. 366, Sec. 1.\u201d\nWharton, Criminal Law, Vol. 1, Chap. VII, Clark and Marshall, Crimes, Chap. 3; Sayre, Mens Rea, 45 Harvard Law Review 974; Perkins, A Rationale of Mens Rea, 52 Harvard Law Review, 905; Greene, Proximate Cause in Texas Negligence Law, 28 Texas Law Review, 471, 621, 755; Carpenter, Proximate cause, 14 Southern California Law Review 1, 115, 416; Anderson v. State, 27 Texas App. 177, 11 S. W. 33; Blalock v. State, 40 Texas Crim. Rep. 154, 49 S.W. 100, Gorden v. State, 90 S. W. 636; Outley v. State, 99 S. W. 95; Worley v. State, 89 Texas Crim Rep. 393, 231 S. W. 391; Brown v. State, 103 Texas Crim. Rep. 35, 279 S. W. 837; Lahue v. State, 51 Texas Crim. Rep. 159, 101 S. W. 1008; Noble v. State, 54 Texas Crim. Rep. 436, 113 S. W. 281; Holland v. State, 55 Texas Crim. Rep. 27, 115 S. W. 48; Combs v. State, 52 Texas Crim. Rep. 613, 108 S. W. 649\nThis case arose from an automobile accident. The conviction was under the second count in the indictment which was for a killing by accident and mistake in the operation of an automobile while intoxicated. The following excerpts from several paragraphs of the court\u2019s charge (taken from the transcript) illustrate the approach to causation:\n7.\n\u201cNow, if you believe ** * * that the defendant * * *, while intoxicated, * * * did drive * * * an automobile, upon a public highway * * * and did * * * through mistake and accident kill Mrs. F. G. Harris, by * * * driving * * * into an automobile occupied by the said Mrs. F. G. Harris, thereby and therewith causing her death and that said automobile so driven by the said defendant, considering the manner of its use, was a deadly weapon, * * * you will find said defendant guilty of murder without malice under the second count of the indictment, * *\n10.\n\u201cYou are further instructed that * * * the defendant would not be guilty, if said defendant\u2019s automobile was at said time and place operated in the manner that it should be operated by one not intoxicated or not under the influence of intoxicating liquor.\u201d\n11.\n\u201c* * * Even though you believe * * * that * * * the defendant, * * * did * * * drive * * * his * * * automobile while he * * * was * * * intoxicated * * * and * * * collide with the automobile occupied by the said Mrs. F. G. Harris, you cannot convict the defendant unless you further find from the evidence * * * that such intoxication * * * caused the collision * * * or contributed to same, or was a causal factor in causing the death of the said Mrs. F. G. Harris, * *\n12-A.\n\u201cYou are charged that if F. G. Harris drove his Model A Ford car out on the * * * highway in front of the approaching automobile of defendant in such that the intoxication, * * * did not contribute or was not a causal factor of the collision * * you will acquit * * *.\u201d\n15.\n\u201cTo constitute this offense there must be an apparent danger of causing the death of the person killed or some other. The want of proper care and caution distinguishes this offense from excusable homicide. The degree of care and caution is such as a man of ordinary prudence would use under like circumstances. To bring the offense within the definition of negligent homicide of the second degree, there must be no apparent intention to kill. The homicide must be the conseqeunce of the act done or attempted to be done.\u201d\nIn Sproles v. Copeland, CCA 1933, 67 S. W. 2d 1076, it was held that the fact that the entire civil cause of action included not only the crime but also a finding that the commission of the crime was negligence proximately the damages did not in itself keep the suit from being \u201cbased upon\u201d a crime even though it was at the same time a cause of action for negligence.",
+        "type": "majority",
+        "author": "Mr. Justice Wilson"
+      },
+      {
+        "text": "Mr. Justice Sharp,\ndissenting.\nThis is a personal injury suit, filed in Wilson County. The venue thereof was based upon Section 9 of Article 1995, Vernon\u2019s Annotated Civil Statutes. The relators\u2019 petition filed in the trial court alleged certain violations of the provisions of Section 9a of article 827a, Vernon\u2019s Annotated Penal Code of Texas, and Section 121 of Article 6701d, Vernon\u2019s Annotated Civil Statutes of Texas. Each of said acts was alleged to have constituted an \u201cact of negligence\u201d and to be a \u201cproximate cause\u201d of relators\u2019 injuries. The defendants in the trial court, who are respondents here, filed a plea of privilege, and the trial court heard the evidence and sustained the plea, and ordered the suit transferred to Tarrant County. The trial court filed findings of fact and conclusions of law, and held \u201cthat the sole proximate cause of the collision in question was the failure of the driver of said pickup to see and avoid striking said trailer.\u201d\nThe Court of Civil Appeals sustained the judgment of the trial court. At the time this suit was filed and the plea of privilege was sustained, the precise question presented here, that proximate cause in connection with the suit could not be considered in passing upon the venue question, had not been passed upon by this Court. That the trial court and the Court of Civil Appeals were amply justified in assuming that the question of proximate cause could be considered in connection with the venue question is shown by many decisions. See Thomas v. Meyer, 168 S. W. 2d 681; Bates v. Stinnett, 170 S. W. 2d 644; Braslau v. Moon, 192 S. W. 2d 780; Grimes v. McCrary, 211 S. W. 2d 1005; Gunstream v. Oil Well Remedial Service, 233 S. W. 2d 897; Wash v. Buster, 226 S. W. 2d 241; Yearwood v. Nichols, 230 S. W. 2d 313; Simmons v. Germany, 231 S. W. 2d 774.\nThe majority opinion is based upon Hurley v. Reynolds, 157 S. W. 2d 1018, Tex. Civ. App., and cities Compton v. Elliott, 126 Texas 232, 88 S. W. 2d 91, to sustain the decision in this case. Section 9 of Article 1995 was construed in Hurley v. Reynolds, and in that case it was held that in order to fix venue in the county where the alleged crime or offense was committed, it was essential to prove \u201cthat the crime, offense or trespass, if any, upon which the suit is based was, in fact, committed.\u201d Many cases have been decided since the decision in Hurley v. Reynolds. That opinion, until now, was never cited with approval by this Court. As showing the construction given Section 9 of Article 1995 by many of the courts, we quote from Thomas v. Meyer, 168 S. W. 2d 681, 686, the following; \u201cThe character of the suit and the applicability of the exception being thus established, the burden then devolves upon the plaintiff to plead (in the controverting affidavit) and prove (by a preponderance of the evidence) that (1) a crime or offense was in fact committed, (2) by the defendant (the party asserting his privilege) as a principal, accomplice or accessory, as defined by the Penal Code, (3) in the county wherein venue is sought to be maintained, and (4) that there is a casual connection between the act or omission constituting the crime and the plaintiff\u2019s injuries (as in the case of a trespass. Heard & Heard v. Kuhnert, Tex. Civ. App., 155 S. W. 2d 817, 819).\u201d\nIt is undisputed that the question of proximate cause was not involved nor passed upon in Compton v. Elliott. Independent of the issue of proximate cause, it is necessary that a crime or offense must be alleged and proved in order to fix venue in the county where such crime or offense was committed. This record fails to show that a crime or offense, as required by Section 9 of Article 1995, was committed in Wilson County. This Court is called upon by mandamus proceedings to compel the Court of Civil Appeals to certify something merely assumed by that court for the purpose of reaching a decision, that relators proved the commission of two crimes in Wilson County. It is quite manifest from the record that the trial court and the Court of Civil Appeals did not find that an offense or crime had been committed independent of the issue of proximate cause. Based upon such assumption the majority opinion answers the question, and directs the Court of Civil Appeals to conform its ruling and decision with the majority opinion. It will be noted that relators alleged that two different crimes were committed in Wilson County by violating the provisions of Section 9a of Article 827a of Vernon's Annotated Penal Code of Texas, and Section 121 of Article 6701d of Vernon\u2019s Annotated Civil Statutes of Texas. Respondents in the Court of Civil Appeals contended that the trial court sustained the plea of privilege because relators wholly failed to prove that any crime was committed upon which relators could base an action for civil liability. Respondents also contended that to hold that there was a violation of Section 9a of Article 827a, which defines a crime, it would have been necessary to hold that Section 138 of Article 6701d was unconstitutional, and that Section 9a of Article 827a was not repealed by the passage of the Uniform Traffic Code.\nThis record is not, accompanied by the pleadings of the parties and the evidence introduced, and only excerpts from the findings of fact and conclusions of law filed by the trial court are presented. The Court of Civil Appeals did not make a fact finding that there were violations of the Penal Code which constituted crimes within the meaning of Section 9 of Article 1995. That court took the position that the finding of the trial court, which was not challenged, and which was amply supported by the evidence, to the effect that the acts of Mabra did not constitute a proximate cause of the accident, was correct; and that the sole proximate cause of the accident was the failure of the driver of the pickup truck to see the large truck and avoid hitting same, and that the causal connection between the alleged crime and relators\u2019 injuries was a necessary fact to be proved by the plaintiff.\nThis Court should not by mandamus proceedings be compelled to answer a question that has not been positively established in the trial court and the Court of Civil Appeals. Since the trial court and the Court of Civil Appeals believed that the issue of proximate cause must be considered in connection with the offense or crime, if this Court holds that proximate cause should not be so considered, then the question should be remanded to the Court of Civil Appeals, for that court to determine from the evidence and the record whether the respondents had committed a crime or offense in Wilson County, before fixing the venue in that county. The record comes to this Court incomplete. Before parties can resort to mandamus proceedings, they must have a positive and clear-cut issue to present to this Court for decision. This is not furnished by the record, and I disagree with the majority\u2019s decision which compels the Court of Civil Appeals to conform its ruling and decision to the majority\u2019s answer to a question the basis for which has not yet been established in the trial court and the Court of Civil Appeals. In my opinion, by answering this question under mandamus proceedings at this time, there will be established an unusual and erroneous precedent for this Court to follow in the future.\nOpinion delivered February 27, 1952.\nRehearing overruled March 26, 1952.",
+        "type": "dissent",
+        "author": "Mr. Justice Sharp,"
+      }
+    ],
+    "attorneys": [
+      "Murray & Murray, of Floresville, and Charles J. Lieck, of San Antonio, for relators.",
+      "Carl Wright Johnson and Nat L. Hardy, of San Antonio, for respondents."
+    ],
+    "corrections": "",
+    "head_matter": "Sam Gann et al v. W. O. Murray et al\nNo. A-3315.\nDecided February 27, 1952.\nRehearing overruled March 26, 1952.\n(246 S. W., 2d Series, 616.)\nMurray & Murray, of Floresville, and Charles J. Lieck, of San Antonio, for relators.\nCarl Wright Johnson and Nat L. Hardy, of San Antonio, for respondents."
+  },
+  "file_name": "0130-01",
+  "first_page_order": 146,
+  "last_page_order": 155
+}

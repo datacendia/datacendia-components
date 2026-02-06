@@ -1,0 +1,59 @@
+{
+  "id": 12418442,
+  "name": "Childers v. Ohio",
+  "name_abbreviation": "Childers v. Ohio",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 12-5716",
+  "first_page": "950",
+  "last_page": "950",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 950"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 83,
+    "ocr_confidence": 0.645,
+    "sha256": "7698ec2a8b37420a844b83033133a5809d2f789be50d5ea946dece763e17f242",
+    "simhash": "1:f25a7f8f0d7afb7b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Childers v. Ohio."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Ohio, Fairfield County. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5716.\nChilders v. Ohio."
+  },
+  "file_name": "0950-04",
+  "first_page_order": 1026,
+  "last_page_order": 1026
+}

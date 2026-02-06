@@ -1,0 +1,59 @@
+{
+  "id": 12206266,
+  "name": "Gutierrez v. California",
+  "name_abbreviation": "Gutierrez v. California",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10826",
+  "first_page": "851",
+  "last_page": "851",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 851"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 73,
+    "ocr_confidence": 0.732,
+    "sha256": "054bf77d16e17e801da797e507f71dd593a397c99cade6f04aa7a298eafa60a5",
+    "simhash": "1:5693e2a8093b0044",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gutierrez v. California."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10826.\nGutierrez v. California."
+  },
+  "file_name": "0851-13",
+  "first_page_order": 933,
+  "last_page_order": 933
+}

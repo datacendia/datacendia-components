@@ -1,0 +1,59 @@
+{
+  "id": 6010216,
+  "name": "Price v. Nooth, Superintendent, Snake River Correctional Institution",
+  "name_abbreviation": "Price v. Nooth",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5573",
+  "first_page": "929",
+  "last_page": "929",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 929"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 117,
+    "ocr_confidence": 0.568,
+    "sha256": "2fb9a7f1af6ebec8c2d7ad46afff306ef78f4965ed98c05bfa731de35a7d5697",
+    "simhash": "1:5bc752a32c7e61f6",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Price v. Nooth, Superintendent, Snake River Correctional Institution."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5573.\nPrice v. Nooth, Superintendent, Snake River Correctional Institution."
+  },
+  "file_name": "0929-10",
+  "first_page_order": 951,
+  "last_page_order": 951
+}

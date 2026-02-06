@@ -1,0 +1,61 @@
+{
+  "id": 12425846,
+  "name": "Honesto v. Fogel, Judge, United States District Court for the Northern District of California, et al.",
+  "name_abbreviation": "Honesto v. Fogel",
+  "decision_date": "2012-11-26",
+  "docket_number": "No. 11-10049",
+  "first_page": "1045",
+  "last_page": "1045",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1045"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 32,
+    "char_count": 241,
+    "ocr_confidence": 0.647,
+    "sha256": "d99acf556e60e880ff29db922f3e5a5f253e80094eb79b0d4e141d7e83574097",
+    "simhash": "1:001b1a62f5eef6ce",
+    "word_count": 38
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Breyer took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Honesto v. Fogel, Judge, United States District Court for the Northern District of California, et al.,"
+    ],
+    "opinions": [
+      {
+        "text": "ante, p. 929. Petition for rehearing denied.\nJustice Breyer took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10049.\nHonesto v. Fogel, Judge, United States District Court for the Northern District of California, et al.,"
+  },
+  "file_name": "1045-01",
+  "first_page_order": 1121,
+  "last_page_order": 1121
+}

@@ -1,0 +1,1332 @@
+{
+  "id": 12407588,
+  "name": "AMGEN INC. et al. v. CONNECTICUT RETIREMENT PLANS AND TRUST FUNDS",
+  "name_abbreviation": "Amgen Inc. v. Connecticut Retirement Plans & Trust Funds",
+  "decision_date": "2013-02-27",
+  "docket_number": "No. 11-1085",
+  "first_page": "455",
+  "last_page": "502",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 455"
+    },
+    {
+      "type": "parallel",
+      "cite": "185 L. Ed. 2d 308"
+    },
+    {
+      "type": "parallel",
+      "cite": "133 S. Ct. 1184"
+    },
+    {
+      "type": "vendor",
+      "cite": "2013 U.S. LEXIS 1862"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2012-023"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "529 U. S. 217",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9508355
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "226"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/529/0217-01"
+      ]
+    },
+    {
+      "cite": "561 U. S. 661",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12455288,
+        3644465
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "677",
+          "parenthetical": "\"This Court has . . . refused to consider a party's argument that contradicted a joint 'stipulation [entered] at the outset of th[e] litigation.'\" (quoting Board of Regents of Univ. of Wis. System v. Southworth, 529 U. S. 217, 226 (2000))"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/177/0838-01",
+        "/us/561/0661-01"
+      ]
+    },
+    {
+      "cite": "861 F. 2d 224",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10526121
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "226",
+          "parenthetical": "\"Factual assertions in pleadings and pretrial orders, unless amended, are considered judicial admissions conclusively binding on the party who made them.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/861/0224-01"
+      ]
+    },
+    {
+      "cite": "28 J. Corp. L. 635",
+      "category": "journals:journal",
+      "reporter": "J. Corp. L.",
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "653-656"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 Stan. L. Rev. 1059",
+      "category": "journals:journal",
+      "reporter": "Stan. L. Rev.",
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "1083-1087"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "69 Fed. Reg. 16582",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "year": 2004,
+      "opinion_index": 0
+    },
+    {
+      "cite": "477 U. S. 242",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6206897
+      ],
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "248",
+          "parenthetical": "\"[Sjummary judgment will not lie if . . . the evidence is such that a reasonable jury could return a verdict for the nonmoving party.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/477/0242-01"
+      ]
+    },
+    {
+      "cite": "109 F. 3d 338",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        833947
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "344"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/109/0338-01"
+      ]
+    },
+    {
+      "cite": "551 U. S. 308",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3573048
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "313"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/551/0308-01"
+      ]
+    },
+    {
+      "cite": "421 U. S. 723",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        541651
+      ],
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "739"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/421/0723-01"
+      ]
+    },
+    {
+      "cite": "564 U. S. 299",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12450490,
+        4335674
+      ],
+      "weight": 2,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "317-318",
+          "parenthetical": "\"Congress's decision to address the relitigation concerns associated with class actions through the mechanism of removal provides yet another reason for federal courts to adhere in this context to longstanding principles of preclusion.\""
+        },
+        {
+          "page": "312-318"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/180/0341-01",
+        "/us/564/0299-01"
+      ]
+    },
+    {
+      "cite": "2009 Wis. L. Rev. 151",
+      "category": "journals:journal",
+      "reporter": "Wis. L. Rev.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "153"
+        },
+        {
+          "page": "167"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "112 Stat. 3227",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "547 U. S. 71",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3275615
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "81-82"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/547/0071-01"
+      ]
+    },
+    {
+      "cite": "109 Stat. 737",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "563 U. S. 333",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5939512,
+        12458766
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "350",
+          "parenthetical": "class actions can entail a \"risk of 'in terrorem' settlements\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/563/0333-01",
+        "/l-ed-2d/179/0742-01"
+      ]
+    },
+    {
+      "cite": "84 N. Y. U. L. Rev. 97",
+      "category": "journals:journal",
+      "reporter": "N.Y.U. L. Rev.",
+      "weight": 3,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "107"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "521 U. S. 591",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        915571
+      ],
+      "weight": 2,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "623"
+        },
+        {
+          "page": "617"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/521/0591-01"
+      ]
+    },
+    {
+      "cite": "426 U. S. 438",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6178202
+      ],
+      "weight": 2,
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "445"
+        },
+        {
+          "page": "445",
+          "parenthetical": "materiality is judged by an objective standard"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/426/0438-01"
+      ]
+    },
+    {
+      "cite": "417 U. S. 156",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1519371
+      ],
+      "year": 1974,
+      "pin_cites": [
+        {
+          "page": "177"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/417/0156-01"
+      ]
+    },
+    {
+      "cite": "564 U. S. 338",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5930529,
+        12450492
+      ],
+      "weight": 5,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "351",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "351, n. 6"
+        },
+        {
+          "page": "351, n. 6",
+          "parenthetical": "\"[P]laintiffs seeking 23(b)(3) certification [of a securities-fraud class action] must prove that their shares were traded on an efficient market.\""
+        },
+        {
+          "page": "350"
+        },
+        {
+          "page": "350"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/564/0338-01",
+        "/l-ed-2d/180/0374-01"
+      ]
+    },
+    {
+      "cite": "639 F. 3d 623",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4201894
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "631-632, 637-638",
+          "parenthetical": "plaintiff need not prove materiality before class certification, but defendant may present rebuttal evidence on the issue"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/639/0623-01"
+      ]
+    },
+    {
+      "cite": "544 F. 3d 474",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3841899
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "484-485, 486, n. 9",
+          "parenthetical": "plaintiff must prove, and defendant may present evidence rebutting, materiality before class certification"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/544/0474-01"
+      ]
+    },
+    {
+      "cite": "618 F. 3d 679",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3775894
+      ],
+      "weight": 4,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "687",
+          "parenthetical": "materiality need not be proved at the class-certification stage"
+        },
+        {
+          "page": "687",
+          "parenthetical": "\"[WJhether a statement is materially false is a question common to all class members and therefore may be resolved on a class-wide basis after certification.\""
+        },
+        {
+          "page": "685",
+          "parenthetical": "falsity of alleged misstatements need not be proved before certification of a securities-fraud class action"
+        },
+        {
+          "page": "686"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/618/0679-01"
+      ]
+    },
+    {
+      "cite": "567 U. S. 905",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12407840,
+        12407969,
+        12407872,
+        12407911,
+        12407848,
+        12407977,
+        12407951,
+        12407887,
+        12407862,
+        12407990,
+        12407897,
+        12407933
+      ],
+      "year": 2012,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/567/0905-01",
+        "/us/567/0905-10",
+        "/us/567/0905-04",
+        "/us/567/0905-07",
+        "/us/567/0905-02",
+        "/us/567/0905-11",
+        "/us/567/0905-09",
+        "/us/567/0905-05",
+        "/us/567/0905-03",
+        "/us/567/0905-12",
+        "/us/567/0905-06",
+        "/us/567/0905-08"
+      ]
+    },
+    {
+      "cite": "660 F. 3d 1170",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3842966
+      ],
+      "weight": 9,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "1175"
+        },
+        {
+          "page": "1177"
+        },
+        {
+          "page": "1175"
+        },
+        {
+          "page": "1177",
+          "parenthetical": "characterizing Amgen's rebuttal evidence as an attempt to present a \" 'truth-on-the-market' defense,\" which the Court of Appeals explained \"is a method of refuting an alleged misrepresentation's materiality\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/660/1170-01"
+      ]
+    },
+    {
+      "cite": "524 F. 2d 891",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1100485
+      ],
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "908"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/524/0891-01"
+      ]
+    },
+    {
+      "cite": "418 F. 3d 203",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8932108
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "209"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/418/0203-01"
+      ]
+    },
+    {
+      "cite": "563 U. S. 27",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12457891,
+        5941206
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "37-38",
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/179/0398-01",
+        "/us/563/0027-01"
+      ]
+    },
+    {
+      "cite": "17 CFR \u00a7240",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "48 Stat. 891",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "563 U. S. 804",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12450129,
+        5918078
+      ],
+      "weight": 5,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "810",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "811"
+        },
+        {
+          "page": "809",
+          "parenthetical": "loss causation need not be proved at the class-certification stage"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/180/0024-01",
+        "/us/563/0804-01"
+      ]
+    },
+    {
+      "cite": "485 U. S. 224",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        14213
+      ],
+      "weight": 30,
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "245"
+        },
+        {
+          "page": "241-249"
+        },
+        {
+          "page": "246"
+        },
+        {
+          "page": "245-247"
+        },
+        {
+          "page": "245"
+        },
+        {
+          "page": "248-249",
+          "parenthetical": "providing examples of showings that would rebut the fraud-on-the-market presumption"
+        },
+        {
+          "page": "242"
+        },
+        {
+          "page": "247",
+          "parenthetical": "\"[W]here materially misleading statements have been disseminated into an impersonal, well-developed market for securities, the reliance of individual plaintiffs on the integrity of the market price may be presumed.\" (emphasis added)"
+        },
+        {
+          "page": "246-247"
+        },
+        {
+          "page": "242"
+        },
+        {
+          "page": "242",
+          "parenthetical": "listing \"materiality\" as one of the questions common to the Basic class members"
+        },
+        {
+          "page": "248, n. 27"
+        },
+        {
+          "page": "248, n. 27"
+        },
+        {
+          "page": "242"
+        },
+        {
+          "page": "242",
+          "parenthetical": "\"the falsity or misleading nature of the . . . public statements\" allegedly made by the defendant is a \"common questio[n]\""
+        },
+        {
+          "page": "230-241, 250",
+          "parenthetical": "\"Materiality in the merger context depends on the probability that the transaction will be consummated, and its significance to the issuer of the securities.\""
+        },
+        {
+          "page": "228"
+        },
+        {
+          "page": "228-229"
+        },
+        {
+          "page": "229"
+        },
+        {
+          "page": "240-241, 250"
+        },
+        {
+          "page": "250"
+        },
+        {
+          "page": "282"
+        },
+        {
+          "page": "248-249"
+        },
+        {
+          "page": "249, n. 29"
+        },
+        {
+          "page": "250"
+        },
+        {
+          "page": "249, n. 29",
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/485/0224-01"
+      ]
+    },
+    {
+      "cite": "2009 Wis. L. Rev. 151",
+      "category": "journals:journal",
+      "reporter": "Wis. L. Rev.",
+      "pin_cites": [
+        {
+          "page": "175-176"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "485 U. S. 224",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        14213
+      ],
+      "year": 1988,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/485/0224-01"
+      ]
+    },
+    {
+      "cite": "564 U. S. 338",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5930529,
+        12450492
+      ],
+      "weight": 2,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "350"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/564/0338-01",
+        "/l-ed-2d/180/0374-01"
+      ]
+    },
+    {
+      "cite": "485 U. S. 224",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        14213
+      ],
+      "weight": 4,
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "230",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "250"
+        },
+        {
+          "page": "230",
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/485/0224-01"
+      ]
+    },
+    {
+      "cite": "663 F. 2d 365",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1171242
+      ],
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "368",
+          "parenthetical": "\"Blackie held that the materiality of a fraud creates a presumption of reliance through its presumed effect on the market. ... Our holding is no more than an extension of Blackie\""
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/f2d/663/0365-01"
+      ]
+    },
+    {
+      "cite": "256 U. S. 345",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3678530
+      ],
+      "year": 1921,
+      "pin_cites": [
+        {
+          "page": "349",
+          "parenthetical": "majority opinion of Holmes, J."
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/256/0345-01"
+      ]
+    },
+    {
+      "cite": "786 F. 2d 741",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1556403
+      ],
+      "weight": 4,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "750"
+        },
+        {
+          "page": "750",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "750"
+        },
+        {
+          "page": "248, n. 27"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/f2d/786/0741-01"
+      ]
+    },
+    {
+      "cite": "95 Harv. L. Rev. 1143",
+      "category": "journals:journal",
+      "reporter": "Harv. L. Rev.",
+      "year": 1982,
+      "pin_cites": [
+        {
+          "parenthetical": "hereinafter Harv. L. Rev. Note"
+        }
+      ],
+      "opinion_index": 3
+    },
+    {
+      "cite": "429 U. S. 816",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6048,
+        7911,
+        7850,
+        5771,
+        6447,
+        8111,
+        6835,
+        7093,
+        6300,
+        6559
+      ],
+      "year": 1976,
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/429/0816-10",
+        "/us/429/0816-03",
+        "/us/429/0816-07",
+        "/us/429/0816-05",
+        "/us/429/0816-09",
+        "/us/429/0816-06",
+        "/us/429/0816-02",
+        "/us/429/0816-01",
+        "/us/429/0816-08",
+        "/us/429/0816-04"
+      ]
+    },
+    {
+      "cite": "806 F. 2d 1154",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1656266
+      ],
+      "weight": 4,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "1160-1161"
+        },
+        {
+          "page": "1163, n. 16"
+        },
+        {
+          "page": "1160"
+        },
+        {
+          "page": "1161"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/f2d/806/1154-01"
+      ]
+    },
+    {
+      "cite": "544 U. S. 336",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5891157
+      ],
+      "weight": 2,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "343-344",
+          "parenthetical": "discussing common-law roots of securities-fraud actions"
+        },
+        {
+          "page": "341-342"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/544/0336-01"
+      ]
+    },
+    {
+      "cite": "552 U. S. 148",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3675633
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "157"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/552/0148-01"
+      ]
+    },
+    {
+      "cite": "404 U. S. 6",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6169542
+      ],
+      "year": 1971,
+      "pin_cites": [
+        {
+          "page": "13, n. 9",
+          "parenthetical": "\"It is now established that a private right of action is implied under \u00a7 10(b)\""
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/404/0006-01"
+      ]
+    },
+    {
+      "cite": "2009 Wis. L. Rev. 151",
+      "category": "journals:journal",
+      "reporter": "Wis. L. Rev.",
+      "pin_cites": [
+        {
+          "page": "167"
+        }
+      ],
+      "opinion_index": 3
+    },
+    {
+      "cite": "109 Stat. 737",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 3
+    },
+    {
+      "cite": "84 N. Y. U. L. Rev. 97",
+      "category": "journals:journal",
+      "reporter": "N.Y.U. L. Rev.",
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "132"
+        }
+      ],
+      "opinion_index": 3
+    },
+    {
+      "cite": "426 U. S. 438",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6178202
+      ],
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "449"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/426/0438-01"
+      ]
+    },
+    {
+      "cite": "417 U. S. 156",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1519371
+      ],
+      "weight": 2,
+      "year": 1974,
+      "pin_cites": [
+        {
+          "page": "177"
+        },
+        {
+          "page": "177"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/417/0156-01"
+      ]
+    },
+    {
+      "cite": "564 U. S. 338",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5930529,
+        12450492
+      ],
+      "weight": 4,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "351, n. 6",
+          "parenthetical": "\"[Plaintiffs seeking 23(b)(3) certification must prove that their shares were traded on an efficient market,\" an element of the fraud-on-the-market theory (emphasis added)"
+        },
+        {
+          "page": "350"
+        },
+        {
+          "page": "351, n. 6"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/564/0338-01",
+        "/l-ed-2d/180/0374-01"
+      ]
+    },
+    {
+      "cite": "660 F. 3d 1170",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3842966
+      ],
+      "weight": 2,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "1175",
+          "parenthetical": "same"
+        },
+        {
+          "page": "1175"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/f3d/660/1170-01"
+      ]
+    },
+    {
+      "cite": "524 F. 2d 891",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1100485
+      ],
+      "weight": 7,
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "907"
+        },
+        {
+          "page": "894"
+        },
+        {
+          "page": "906",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "906"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/f2d/524/0891-01"
+      ]
+    },
+    {
+      "cite": "563 U. S. 27",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12457891,
+        5941206
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "37"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/l-ed-2d/179/0398-01",
+        "/us/563/0027-01"
+      ]
+    },
+    {
+      "cite": "17 CFR \u00a7240",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "opinion_index": 3
+    },
+    {
+      "cite": "563 U. S. 804",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12450129,
+        5918078
+      ],
+      "weight": 2,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "810",
+          "parenthetical": "quoting Basic, supra, at 243"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/l-ed-2d/180/0024-01",
+        "/us/563/0804-01"
+      ]
+    },
+    {
+      "cite": "485 U. S. 224",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        14213
+      ],
+      "weight": 16,
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "241-250"
+        },
+        {
+          "page": "241"
+        },
+        {
+          "page": "241-242"
+        },
+        {
+          "page": "247",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "248, n. 27"
+        },
+        {
+          "page": "242",
+          "parenthetical": "\"Requiring proof of individualized reliance from each member of the proposed plaintiff class effectively would have prevented respondents from proceeding with a class action, since individual issues then would have overwhelmed the common ones\""
+        },
+        {
+          "page": "241-250"
+        },
+        {
+          "page": "250-251, n. 1",
+          "parenthetical": "White, J., concurring in part and dissenting in part"
+        },
+        {
+          "page": "245",
+          "parenthetical": "majority opinion"
+        },
+        {
+          "page": "242"
+        },
+        {
+          "page": "248-249"
+        },
+        {
+          "page": "252-253",
+          "parenthetical": "concurring in part and dissenting in part"
+        },
+        {
+          "page": "232"
+        },
+        {
+          "page": "231"
+        },
+        {
+          "page": "231-232"
+        },
+        {
+          "page": "248, n. 27"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/485/0224-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 2422,
+    "char_count": 96538,
+    "ocr_confidence": 0.625,
+    "pagerank": {
+      "raw": 2.265825991157077e-06,
+      "percentile": 0.9959383732410654
+    },
+    "sha256": "efe0d23e6ded1247d82e8fb94e7a12924ace26e9fa3ea3b183032ad9b12168d4",
+    "simhash": "1:a907c9112e7723de",
+    "word_count": 15126
+  },
+  "last_updated": "2024-02-27T23:44:49.194693+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Ginsburg, J., delivered the opinion of the Court, in which Roberts, C. J., and Breyer, Alito, Sotomayor, and Kagan, JJ., joined. Abito, J., filed a concurring opinion, post, p. 482. Scalia, J., filed a dissenting opinion, post, p. 483. Thomas, J., filed a dissenting opinion, in which Kennedy, J., joined, and in which Scalia, J., joined except for Part I-B, post, p. 486."
+    ],
+    "parties": [
+      "AMGEN INC. et al. v. CONNECTICUT RETIREMENT PLANS AND TRUST FUNDS"
+    ],
+    "opinions": [
+      {
+        "text": "Justice Ginsburg\ndelivered the opinion of the Court.\nThis case involves a securities-fraud complaint filed by Connecticut Retirement Plans and Trust Funds (Connecticut Retirement) against biotechnology company Amgen Inc. and several of its officers (collectively, Amgen). Seeking class-action certification under Federal Rule of Civil Procedure 23, Connecticut Retirement invoked the \u201cfraud-on-the-market\u201d presumption endorsed by this Court in Basic Inc. v. Levinson, 485 U. S. 224 (1988), and recognized most recently in Erica P. John Fund, Inc. v. Halliburton Co., 563 U. S. 804 (2011). The fraud-on-the-market premise is that the price of a security traded in an efficient market will reflect all publicly available information about a company; accordingly, a buyer of the security may be presumed to have relied on that information in purchasing the security.\nAmgen has conceded the efficiency of the market for the securities at issue and has not contested the public character of the allegedly fraudulent statements on which Connecticut Retirement\u2019s complaint is based. Nor does Amgen here dispute that Connecticut Retirement meets all of the class-action prerequisites stated in Rule 23(a): (1) the alleged class \u201cis so numerous that joinder of all members is impracticable\u201d; (2) \u201cthere are questions of law or fact common to the class\u201d; (3) Connecticut Retirement\u2019s claims are \u201ctypical of the claims ... of the class\u201d; and (4) Connecticut Retirement will \u201cfairly and adequately protect the interests of the class.\u201d\nThe issue presented concerns the requirement stated in Rule 23(b)(3) that \u201cthe questions of .law or fact common to class members predominate over any questions affecting only individual members.\u201d Amgen contends that to meet the predominance requirement, Connecticut Retirement must do more than plausibly plead that Amgen\u2019s alleged misrepresentations and misleading omissions materially affected Amgen\u2019s stock price. According to Amgen, certification must be denied unless Connecticut Retirement proves materiality, for immaterial misrepresentations or omissions, by definition, would have no impact on Amgen\u2019s stock price in an efficient market.\nWhile Connecticut Retirement certainly must prove materiality to prevail on the merits, we hold that such proof is not a prerequisite to class certification. Rule 23(b)(3) requires a showing that questions common to the class predominate, not that those questions will be answered, on the merits, in favor of the class. Because materiality is judged according to an objective standard, the materiality of Amgen\u2019s alleged misrepresentations and omissions is a question common to all members of the class Connecticut Retirement would represent. The alleged misrepresentations and omissions, whether material or immaterial, would be so equally for all investors composing the class. As vital, the plaintiff class\u2019s inability to prove materiality would not result in individual questions predominating. Instead, a failure of proof on the issue of materiality would end the case, given that materiality is an essential element of the class members\u2019 securities-fraud claims. As to materiality, therefore, the class is entirely cohesive: It will prevail or fail in unison. In no- event will the individual circumstances of particular class members bear on the inquiry.\nEssentially, Amgen, also the dissenters from today\u2019s decision, would have us put the cart before the horse. To gain certification under Rule 23(b)(3), Amgen and the dissenters urge, Connecticut Retirement must first establish that it will win the fray. But the office of a Rule 23(b)(3) certification ruling is not to adjudicate the case; rather, it is to select the \u201cmetho[d]\u201d best suited to adjudication of the controversy \u201cfairly and efficiently.\u201d\nI\nA\nThis case involves the interaction between federal securities-fraud laws and Rule 23\u2019s requirements for class certification. To obtain certification of a class action for money damages under Rule 23(b)(3), a plaintiff must satisfy Rule 23(a)\u2019s above-mentioned prerequisites of numerosity, commonality, typicality, and adequacy of representation, see swpra, at 459, and must also establish that \u201cthe questions of law or fact common to class members predominate over any questions affecting only individual members, and that a class action is superior to other available methods for fairly and efficiently adjudicating the controversy.\u201d To recover damages in a private securities-fraud action under \u00a7 10(b) of the Securities Exchange Act of 1934, 48 Stat. 891, as amended, 15 U. S. C. \u00a7 78j(b) (2006 ed., Supp. V), and Securities and Exchange Commission Rule 10b-5, 17 CFR \u00a7240.10b-5 (2011), a plaintiff must prove \u201c(1) a material misrepresentation or omission by the defendant; (2) scienter; (3) a connection between the misrepresentation or omission and the purchase or sale of a security; (4) reliance upon the misrepresentation or omission; (5) economic loss; and (6) loss causation.\u201d Matrixx Initiatives, Inc. v. Siracusano, 563 U. S. 27, 37-38 (2011) (internal quotation marks omitted).\n\u201cReliance,\u201d we have explained, \u201cis an essential element of the \u00a7 10(b) private cause of action\u201d because \u201cproof of reliance ensures that there is a proper connection between a defendant\u2019s misrepresentation and a plaintiff\u2019s injury.\u201d Halliburton, 563 U. S., at 810 (internal quotation marks omitted). \u201cThe traditional (and most direct) way\u201d for a plaintiff to demonstrate reliance \u201cis by showing that he was aware of a company\u2019s statement and engaged in a relevant transaction . . . based on that specific misrepresentation.\u201d Ibid. We have recognized, however, that requiring proof of direct reliance \u201cwould place an unnecessarily unrealistic evidentiary burden on [a] plaintiff who has traded on an impersonal market.\u201d Basic, 485 U. S., at 245. Accordingly, in Basic the Court endorsed the \u201cfraud-on-the-market\u201d theory, which permits certain Rule 10b-5 plaintiffs to invoke a rebuttable presumption of reliance on material misrepresentations aired to the general public. Id., at 241-249.\nThe fraud-on-the-market theory rests on the premise that certain well developed markets are efficient processors of public information. In such markets, the \u201cmarket price of shares\u201d will \u201creflec[t] all publicly available information.\u201d Id., at 246. Few investors in such markets, if any, can consistently achieve above-market returns by trading based on publicly available information alone, for if such above-market returns were readily attainable, it would mean that market prices were not efficiently incorporating the full supply of public information. See R. Brealey, S. Myers, & F. Allen, Principles of Corporate Finance 330 (10th ed. 2011) (\u201c[I]n an efficient market, there is no way for most investors to achieve consistently superior rates of return.\u201d).\nIn Basic, we held that if a market is shown to be efficient, courts may presume that investors who traded securities in that market relied on public, material misrepresentations regarding those securities. See 485 U. S., at 245-247. This presumption springs from the very concept of market efficiency. If a market is generally efficient in incorporating publicly available information into a security\u2019s market price, it is reasonable to presume that a particular public, material misrepresentation will be reflected in the security\u2019s price. Furthermore, it is reasonable to presume that most investors\u2014knowing that they have little hope of outperforming the market in the long run based solely on their analysis of publicly available information\u2014will rely on the security\u2019s market price as an unbiased assessment of the security\u2019s value in light of all public information. Thus, courts may presume that investors trading in efficient markets indirectly rely on public, material misrepresentations through their \u201creliance on the integrity of the price set by the market.\u201d Id., at 245. \u201c[T]he presumption,\u201d however, is \u201cjust that, and [can] be rebutted by appropriate evidence.\u201d Halliburton, 563 U. S., at 811. See also Basic, 485 U. S., at 248-249 (providing examples of showings that would rebut the fraud-on-the-market presumption).\nAlthough fraud on the market is a substantive doctrine of federal securities-fraud law that can be invoked by any Rule 10b-5 plaintiff, see, e. g., Black v. Finantra Capital, Inc., 418 F. 3d 203, 209 (CA2 2005); Blackie v. Barrack, 524 F. 2d 891, 908 (CA9 1975), the doctrine has particular significance in securities-fraud class actions. Absent the fraud-on-the-market theory, the requirement that Rule 10b-5 plaintiffs establish reliance would ordinarily preclude certification of a class action seeking money damages because individual reliance issues would overwhelm questions common to the class. See Basic, 485 U. S., at 242. The fraud-on-the-market theory, however, facilitates class certification by recognizing a rebuttable presumption of classwide reliance on public, material misrepresentations when shares are traded in an efficient market. Ibid.\nB\nIn its complaint, Connecticut Retirement alleges that Amgen violated \u00a7 10(b) and Rule 10b-5 through certain misrepresentations and misleading omissions regarding the safety, efficacy, and marketing of two of its flagship drugs. According to Connecticut Retirement, these misrepresentations and omissions artificially inflated the price of Amgen\u2019s stock at the time Connecticut Retirement and numerous other securities buyers purchased- the stock. When the truth came to light, Connecticut Retirement asserts, Am-gen\u2019s stock price declined, resulting in financial losses to those who purchased the stock at the inflated price. In its answer to Connecticut Retirement\u2019s complaint, Amgen conceded that \u201c[a]t all relevant times, the market for [its] securities,\u201d which are traded on the NASDAQ stock exchange, \u201cwas an efficient market\u201d; thus, \u201cthe market for Amgen\u2019s securities promptly digested current information regarding Amgen from all publicly available sources and reflected such information in Amgen\u2019s stock price.\u201d Consolidated Amended Class Action Complaint \u00b6\u00b6 199-200 in No. CV-07-2536 (CD Cal.); Answer \u00b6\u00b6199-200.\nThe District Court granted Connecticut Retirement\u2019s motion to certify a class action under Rule 23(b)(3) on behalf of all investors who purchased Amgen stock between the date of the first alleged misrepresentation and the date of the last alleged corrective disclosure. After granting Amgen\u2019s request to take an interlocutory appeal from the District Court\u2019s class-certification order, see Fed. Rule Civ. Proc. 23(f), the Court of Appeals affirmed. 660 F. 3d 1170 (CA9 2011).\nAmgen raised two arguments on appeal. First, Amgen contended that the District Court erred by certifying the proposed class without first requiring Connecticut Retirement to prove that Amgen\u2019s alleged misrepresentations and omissions were material. Second, Amgen argued that the District Court erred by refusing to consider certain rebuttal evidence that Amgen had proffered in opposition to Connecticut Retirement\u2019s class-certification motion. This evidence, in Amgen\u2019s view, demonstrated that the market was well aware of the truth regarding its alleged misrepresentations and omissions at the time the class members purchased their shares.\nThe Court of Appeals rejected both contentions. Am-gen\u2019s first argument, the Court of Appeals noted, made the uncontroversial point that immaterial misrepresentations and omissions \u201cby definition [do] not affect. . . stock price[s] in an efficient market.\u201d Id., at 1175. Thus, where misrepresentations and omissions are not material, there is no basis for presuming classwide reliance on those misrepresentations and omissions through the information-processing mechanism of the market price. \u201cThe problem with that argument,\u201d the Court of Appeals observed, is evident: \u201c[Because materiality is an element of the merits of their securities fraud claim, the plaintiffs cannot both fail to prove materiality yet still have a viable claim for which they would need to prove reliance individually.\u201d Ibid. The Court of Appeals thus concluded that \u201cproof of materiality is not necessary\u201d to ensure compliance with Rule 23(b)(3)\u2019s requirement that common questions predominate. Id., at 1177.\nWith respect to Amgen\u2019s second argument, the Court of Appeals determined that Amgen\u2019s \u25a0 proffered rebuttal evidence was merely \u201ca method of refuting [the] materiality\u201d of the misrepresentations and omissions alleged in Connecticut Retirement\u2019s complaint. Ibid. Having already concluded that a securities-fraud plaintiff does not need to prove materiality before class certification, the court similarly held that \u201cthe district court correctly refused to consider\u201d Amgen\u2019s rebuttal evidence \u201cat the class certification stage.\u201d Ibid.\nWe granted Amgen\u2019s petition for certiorari, 567 U. S. 905 (2012), to resolve a conflict among the Courts of Appeals over whether district courts must require plaintiffs to prove, and must allow defendants to present evidence rebutting, the element of materiality before certifying a class action under \u00a7 10(b) and Rule 10b-5. Compare 660 F. 3d 1170 (case below) and Schleicher v. Wendt, 618 F. 3d 679, 687 (CA7 2010) (materiality need not be proved at the class-certification stage), with In re Salomon Analyst Metromedia Litigation, 544 F. 3d 474, 484-485, 486, n. 9 (CA2 2008) (plaintiff must prove, and defendant may present evidence rebutting, materiality before class certification). See also In re DVI, Inc. Securities Litigation, 639 F. 3d 623, 631-632, 637-638 (CA3 2011) (plaintiff need not prove materiality before class certification, but defendant may present rebuttal evidence on the issue).\nII\nA\nThe only issue before us in this case is whether Connecticut Retirement has satisfied Rule 23(b)(3)\u2019s requirement that \u201cquestions of law or fact common to class m\u00e9mbers predominate over any questions affecting only individual members.\u201d Although we have cautioned that a court\u2019s class-certification analysis must be \u201crigorous\u201d and may \u201centail some overlap with the merits of the plaintiff\u2019s underlying claim,\u201d Wal-Mart Stores, Inc. v. Dukes, 564 U. S. 338, 351 (2011) (internal quotation marks omitted), Rule 23 grants courts no license to engage in free-ranging merits inquiries at the certification stage. Merits questions may be considered to the extent\u2014 but only to the extent\u2014that they are relevant to determining whether the Rule 23 prerequisites for class certification are satisfied. See id., at 351, n. 6 (a district court has no \u201c \u2018authority to conduct a preliminary inquiry into the merits of a suit\u2019 \u201d at class certification unless it is necessary \u201cto determine the propriety of certification\u201d (quoting Eisen v. Carlisle & Jacquelin, 417 U. S. 156, 177 (1974))); Advisory Committee\u2019s 2003 Note on subd. (c)(1) of Fed. Rule Civ. Proc. 23, 28 U. S. C. App., p. 144 (\u201c[A]n evaluation of the probable outcome on the merits is not properly part of the certification decision.\u201d).\nBearing firmly in mind that the focus of Rule 23(b)(3) is on the predominance of common questions, we turn to Amgen\u2019s contention that the courts below erred by failing to require Connecticut Retirement to prove the materiality of Amgen\u2019s alleged misrepresentations and omissions before certifying Connecticut Retirement\u2019s proposed class. As Amgen notes, materiality is not only an element of the Rule 10b-5 cause of action; it is also an essential predicate of the fraud-on-the-market theory. See Basic, 485 U. S., at 247 (\u201c[W]here materially misleading statements have been disseminated into an impersonal, well-developed market for securities, the reliance of individual plaintiffs on the integrity of the market price may be presumed.\u201d (emphasis added)). That theory, Amgen correctly observes, is premised on the understanding that in an efficient market, all publicly available information is rapidly incorporated into, and thus transmitted to investors through, the market price. See id., at 246-247. Because immaterial information, by definition, does not affect market price, it cannot be relied upon indirectly by investors who, as the fraud-on-the-market theory presumes, rely on the market price\u2019s integrity. Therefore, the fraud-on-the-market theory cannot apply absent a material misrepresentation or omission. And without the fraud-on-the-market theory, the element of reliance cannot be proved on a class-wide basis through evidence common to the class. See id., at 242. It thus follows, Amgen contends, that materiality must be proved before a securities-fraud class action can be certified.\nContrary to Amgen\u2019s argument, the key question in this case is not whether materiality is an essential predicate of the fraud-on-the-market theory; indisputably it is. Instead, the pivotal inquiry is whether proof of materiality is needed to ensure that the questions of law or fact common to the class will \u201cpredominate over any questions affecting only individual members\u201d as the litigation progresses. Fed. Rule Civ. Proc. 23(b)(3). For two reasons, the answer to this question is clearly \u201cno.\u201d\nFirst, because \u201c[t]he question of materiality ... is an objective one, involving the significance of an omitted or misrepresented fact to a reasonable investor,\u201d materiality can be proved through evidence common to the class. TSC Industries, Inc. v. Northway, Inc., 426 U. S. 438, 445 (1976). Consequently, materiality is a \u201ccommon questio[n]\u201d for purposes of Rule 23(b)(3). Basic, 485 U. S., at 242 (listing \u201cmateriality\u201d as one of the questions common to the Basic class members).\nSecond, there is no risk whatever that a failure of proof on the common question of materiality will result in individual questions predominating. Because materiality is an essential element of a Rule 10b-5 claim, see Matrixx Initiatives, 563 U. S., at 37, Connecticut Retirement\u2019s failure to present sufficient evidence of materiality to defeat a summary-judgment motion or to prevail at trial would not cause individual reliance questions to overwhelm the questions common to the class. Instead, the failure of proof on the element of materiality would end the case for one and for all; no claim would remain in which individual reliance issues could potentially predominate.\nTotally misapprehending our essential point, Justice Thomas\u2019 dissent asserts that our \u201centire argument is based on the assumption that the fraud-on-the-market presumption need not be shown at certification because it will be proved later on the merits.\u201d Post, at 495, n. 9. Our position is not so based. We rest, instead, entirely on the text of Rule 23(b)(3), which provides for class certification if \u201cthe questions of law or fact common to class members predominate over any questions affecting only individual members.\u201d A failure of proof on the common question of materiality ends the litigation and thus will never cause individual questions of reliance or anything else to overwhelm questions common to the class. Therefore, under the plain language of Rule 23(b)(3), plaintiffs are not required to prove materiality at the class-certification stage. In other words, they need not, at that threshold, prove that the predominating question will be answered in their favor.\nJustice Thomas urges that a plaintiff seeking class certification \u201cmust show that the elements of [her] claim are susceptible to elasswide proof.\u201d Post, at 491. See also post, at 496 (criticizing the Court for failing to focus its analysis on \u201cwhether the element of reliance is susceptible to classwide proof\u201d). From this premise, Justice Thomas concludes that Rule 10b-5 plaintiffs must prove materiality before class certification because (1) \u201cmateriality is a necessary component of fraud on the market,\u201d and (2) without fraud on the market, the Rule 10b-5 element of reliance is not \u201csusceptible of a classwide answer.\u201d Post, at 491, 495. See also post, at 496 (\u201c[I]f a plaintiff wishes to use Basic\u2019s presumption to prove that reliance is a common question, he must establish the entire presumption, including materiality, at the class certification stage.\u201d).\nRule 23(b)(3), however, does not require a plaintiff seeking class certification to prove that each \u201celemen[t] of [her] claim [is] susceptible to classwide proof.\u201d Post, at 491. What the Rule does require is that common questions \u201cpredominate over any questions affecting only individual [class] members.\u201d Fed. Rule Civ. Proc. 23(b)(3) (emphasis added). Nowhere does Justice Thomas explain how, in an action invoking the Basic presumption, a plaintiff class\u2019s failure to prove an essential element of its claim for relief will result in individual questions predominating over common ones. Absent proof of materiality, the claim of the Rule 10b-5 class will fail in its entirety; there will be no remaining individual questions to adjudicate.\nConsequently, proof of materiality is not required to establish that a proposed class is \u201csufficiently cohesive to warrant adjudication by representation\u201d\u2014the focus of the predominance inquiry under Rule 23(b)(3). Amchem Products, Inc. v. Windsor, 521 U. S. 591, 623 (1997). No doubt a clever mind could conjure up fantastic scenarios in which an individual investor might rely on immaterial information (think of the superstitious investor who sells her securities based on a CEO\u2019s statement that a black cat crossed the CEO\u2019s path that morning). But such objectively unreasonable reliance does not give rise to a Rule 10b-5 claim. See TSC Industries, 426 U. S., at 445 (materiality is judged by an objective standard). Thus, \u201cthe individualized questions of reliance,\u201d post, at 494, n. 8, that hypothetically might arise when a failure of proof on the issue of materiality dooms the .fraud-on-the-market class are far more imaginative than real. Such \u201cindividualized questions\u201d do not undermine class cohesion and thus cannot be said to \u201cpredominate\u201d for purposes of Rule 23(b)(3).\nBecause the question of materiality is common to the class, and because a failure of proof on that issue would not result in questions \u201caffecting only individual members\u201d predominating, Rule 23(b)(3), Connecticut Retirement was not required to prove the materiality of Amgen\u2019s alleged misrepresentations and omissions at the class-certification stage. This is not a case in which the asserted problem\u2014i. e., that the plaintiff class cannot prove materiality\u2014\u201cexhibits some fatal dissimilarity\u201d among class members that would make use of the class-action device inefficient or unfair. Nagar-eda, Class Certification in the Age of Aggregate Proof, 84 N. Y. U. L. Rev. 97,107 (2009). Instead, what Amgen alleges is \u201ca fatal similarity\u2014[an alleged] failure of proof as to an element of the plaintiffs\u2019 cause of action.\u201d Ibid. Such a contention is properly addressed at trial or in a ruling on a summary-judgment motion. The allegation should not be resolved in deciding whether to certify a proposed class. Ibid. See also Schleicher, 618 F. 3d, at 687 (\u201c[WJhether a statement is materially false is a question common to all class members and therefore may be resolved on a class-wide basis after certification.\u201d).\nB\nInsisting that materiality must be proved at the class-certification stage, Amgen relies chiefly on two arguments, neither of which we find persuasive.\n1\nAmgen points first to our statement in Halliburton that \u201csecurities fraud plaintiffs must prove certain things in order to invoke Basic\u2019s rebuttable presumption of reliance,\u201d including \u201cthat the alleged misrepresentations were publicly known ..., that the stock traded in an efficient market, and that the relevant transaction took place \u2018between the time the misrepresentations were made and the time the truth was revealed.\u2019 \u201d 563 U. S., at 811 (quoting Basic, 485 U. S., at 248, n. 27). See also Dukes, 564 U. S., at 351, n. 6 (\u201c[P]laintiffs seeking 23(b)(3) certification [of a securities-fraud class action] must prove that their shares were traded on an efficient market.\u201d). If these fraud-on-the-market predicates must be proved before class certification, Amgen contends, materiality\u2014another fraud-on-the-market predicate\u2014should be treated no differently.\nWe disagree. As an initial matter, the requirement that a putative class representative establish that it executed trades \u201cbetween the time the misrepresentations were made and the time the truth was revealed\u201d relates primarily to the Rule 23(a)(3) and (a)(4) inquiries into typicality and adequacy of representation, not to the Rule 23(b)(3) predominance inquiry. Basic, 485 U. S., at 248, n. 27. A security\u2019s market price cannot be affected by a misrepresentation not yet made, and in an efficient market, a misrepresentation\u2019s impact on market price is quickly nullified once the truth comes to light. Thus, a plaintiff whose relevant transactions were not executed between the time the misrepresentation was made and the time the truth was revealed cannot be said to have indirectly relied on the misrepresentation through its reliance on the integrity of the market price. Such a plaintiff\u2019s claims, therefore, would not be \u201ctypical\u201d of the claims of investors who did trade during the window between misrepresentation and truth revelation. Fed. Rule Civ. Proc. 23(a)(3). Nor could a court confidently conclude that such a plaintiff would \u201cfairly and adequately protect the interests\u201d of investors who traded during the relevant window. Rule 23(a)(4). The requirement that the fraud-on-the-market theory\u2019s trade-timing predicate be established before class certification thus sheds little light on the question whether materiality must also be proved at the class-certification stage.\nAmgen is not aided by Halliburton\u2019s statement that market efficiency and the public nature of the alleged misrepresentations must be proved before a securities-fraud class action can be certified. As Amgen notes, market efficiency, publicity, and materiality can all be proved on a classwide basis. Furthermore, they are all essential predicates of the fraud-on-the-market theory. Unless those predicates are established, there is no basis for presuming that the defendant\u2019s alleged misrepresentations were reflected in the security\u2019s market price, and hence no grounding for any contention that investors indirectly relied on those misrepresentations through their reliance on the integrity of the market price. But unlike materiality, market efficiency and publicity are not indispensable elements of a Rule 10b-5 claim. See Matrixx Initiatives, 563 U. S., at 37-38 (listing elements of a Rule 10b-5 claim). Thus, where the market for a security is inefficient or the defendant\u2019s alleged misrepresentations were not aired publicly, a plaintiff cannot invoke the fraud-on-the-market presumption. She can, however, attempt to establish reliance through the \u201ctraditional\u201d mode of demonstrating that she was personally \u201caware of [the defendant\u2019s] statement and engaged in a relevant transaction . . . based on that specific misrepresentation.\u201d Halliburton, 563 U. S., at 810. Individualized reliance issues would predominate in such a lawsuit. See Basic, 485 U. S., at 242. The litigation, therefore, could not be certified under Rule 23(b)(3) as a class action, but the initiating plaintiff\u2019s claim would remain live; it would not be \u201cdead on arrival.\u201d 660 F. 3d, at 1175.\nA failure of proof on the issue of materiality, in contrast, not only precludes a plaintiff from invoking the fraud-on-the-market presumption of classwide reliance; it also establishes as a matter of law that the plaintiff cannot prevail on the merits of her Rule 10b-5 claim. Materiality thus differs from the market-efficiency and publicity predicates in this critical respect: While the failure of common, classwide proof on the issues of market efficiency and publicity leaves open the prospect of individualized proof of reliance, the failure of common proof on the issue of materiality ends the case for the class and for all individuals alleged to compose the class. See Brief for United States as Amicus Curiae 20 (\u201cUnless the failure of common proof gives rise to a need for individualized proof, it does not cast doubt on the propriety of class certification.\u201d). In short, there can be no actionable reliance, individually or collectively, on immaterial information. Because a failure of proof on the issue of materiality, unlike the issues of market efficiency and publicity, does not give rise to any prospect of individual questions overwhelming common ones, materiality need not be proved prior to Rule 23(b)(3) class certification.\n2\nAmgen also contends that certain \u201cpolicy considerations\u201d militate in favor of requiring precertification proof of materiality. Brief for Petitioners 28. An order granting class certification, Amgen observes, can exert substantial pressure on a defendant \u201cto settle rather than incur the costs of defending a class action and run the risk of potentially ruinous liability.\u201d Advisory Committee\u2019s 1998 Note on subd. (f) of Fed. Rule Civ. Proc. 23, 28 U. S. C. App., p. 143. See also AT&T Mobility LLC v. Concepcion, 563 U. S. 333, 350 (2011) (class actions can entail a \u201crisk of \u2018in terrorem\u2019 settlements\u201d). Absent a requirement to evaluate materiality at the class-certification stage, Amgen contends, the issue may never be addressed by a court, for the defendant will surrender and settle soon after a class is certified. Insistence on proof of materiality before certifying a securities-fraud class action, Amgen thus urges, ensures that the issue will be adjudicated and not forgone. See also post, at 485-486 (Scalia, J., dissenting) (expressing the same concerns).\nIn this regard, however, materiality does not differ from other essential elements of a Rule 10b-5 claim, notably, the requirements that the statements or omissions on which the plaintiff\u2019s claims are based were false or misleading and that the alleged statements or omissions caused the plaintiff to suffer economic loss. See Matrixx Initiatives, 563 U. S., at 37-38. Settlement pressure exerted by class certification may prevent judicial resolution of these issues. Yet this Court has held that loss causation and the falsity or misleading nature of the defendant\u2019s alleged statements or omissions are common questions that need not be adjudicated before a class is certified. See Halliburton, 563 U. S., at 809 (loss causation need not be proved at the class-certification stage); Basic, 485 U. S., at 242 (\u201cthe falsity or misleading nature of the . . . public statements\u201d allegedly made by the defendant is a \u201ccommon questio[n]\u201d). See also Schleicher, 618 F. 3d, at 685 (falsity of alleged misstatements need not be proved before certification of a securities-fraud class action).\nCongress, we count it significant, has addressed the settlement pressures associated with securities-fraud class actions through means other than requiring proof of materiality at the class-certification stage. In enacting the Private Securities Litigation Reform Act of 1995 (PSLRA), 109 Stat. 737, Congress recognized that although private securities-fraud litigation furthers important public-policy interests, prime among them, deterring wrongdoing and providing restitution to defrauded investors, such lawsuits have also been subject to abuse, including the \u201cextraction]\u201d of \u201cextortionate \u2018settlements\u2019 \u201d of frivolous claims. H. R. Conf. Rep. No. 104-369, pp. 31-32 (1995). The PSLRA\u2019s response to the perceived abuses was, inter alia, to \u201cimpos[e] heightened pleading requirements\u201d for seeurities-fraud actions, \u201climit recoverable damages and attorney\u2019s fees, provide a 'safe harbor\u2019 for forward-looking statements, impose new restrictions on the selection of (and compensation awarded to) lead plaintiffs, mandate imposition of sanctions for frivolous litigation, and authorize a stay of discovery pending resolution of any motion to dismiss.\u201d Merrill Lynch, Pierce, Fenner & Smith Inc. v. Dabit, 547 U. S. 71, 81-82 (2006). See also 15 U. S. C. \u00a7 78u-4 (2006 ed. and Supp. V). Congress later fortified the PSLRA by enacting the Securities Litigation Uniform Standards Act of 1998, 112 Stat. 3227, which curtailed plaintiffs\u2019 ability to evade the PSLRA\u2019s limitations on federal seeurities-fraud litigation by bringing class-action suits under state rather than federal law. See 15 U. S. C. \u00a778bb(f)(1) (2006 ed.).\nWhile taking these steps to curb abusive seeurities-fraud lawsuits, Congress rejected calls to undo the fraud-on-the-market presumption of classwide reliance endorsed in Basic. See Langevoort, Basic at Twenty: Rethinking Fraud on the Market, 2009 Wis. L. Rev. 151, 153, and n. 8 (noting that the initial version of H. R. 10, 104th Cong., 1st Sess. (1995), an unenacted bill that, like the PSLRA, was designed to curtail abuses in private securities litigation, \u201cwould have undone Basic\u201d). See also Common Sense Legal Reform Act: Hearings before the Subcommittee on Telecommunications and Finance of the House Committee on Commerce, 104th Cong., 1st Sess., 92, 236-237, 251-252, 272 (1995) (witnesses criticized the fraud-on-the-market presumption and expressed support for H. R. 10\u2019s requirement that seeurities-fraud plaintiffs prove direct reliance). Nor did Congress decree that seeurities-fraud plaintiffs prove each element of their claim before obtaining class certification. Because Congress has homed in on the precise policy concerns raised in Am-gen\u2019s brief, \u201c[w]e do not think it appropriate for the judiciary to make its own further adjustments by reinterpreting Rule 23 to make likely success on the merits essential to class certification in seeurities-fraud suits.\u201d Schleicher, 618 F. 3d, at 686; cf. Smith v. Bayer Corp., 564 U. S. 299, 317-318 (2011) (\u201cCongress\u2019s decision to address the relitigation concerns associated with class actions through the mechanism of removal provides yet another reason for federal courts to adhere in this context to longstanding principles of preclusion.\u201d).\nIn addition to seeking our aid in warding off \u201cin terrorem\u201d settlements, Amgen also argues that requiring proof of materiality before class certification would conserve judicial resources by sparing judges the task of overseeing large class proceedings in which the essential element of reliance cannot be proved on a classwide basis. In reality, however, it is Amgen\u2019s position, not the judgments of the lower courts in this case, that would waste judicial resources. Amgen\u2019s argument, if embraced, would necessitate a minitrial on the issue of materiality at the class-certification stage. Such preliminary adjudications would entail considerable expenditures of judicial time and resources, costs scarcely anticipated by Federal Rule of Civil Procedure 23(c)(1)(A), which instructs that the decision whether to certify a class action be made \u201c[a]t an early practicable time.\u201d If the class is certified, materiality might have to be shown all over again at trial. And if certification is denied for failure to prove materiality, nonnamed class members would not be bound by that determination. See Smith, 564 U. S., at 312-318. They would be free to renew the fray, perhaps in another forum, perhaps with a stronger showing of materiality.\nGiven the tenuousness of Amgen\u2019s judicial-economy argument, Amgen\u2019s policy arguments ultimately return to the contention that private seeurities-fraud actions should be hemmed in to mitigate their potentially \u201cvexatiou[s]\u201d character. Blue Chip Stamps v. Manor Drug Stores, 421 U. S. 723, 739 (1975). We have already noted what Congress has done to control exorbitant securities-fraud actions. See supra, at 476-477. Congress, the Executive Branch, and this Court, moreover, have \u201crecognized that meritorious private actions to enforce federal antifraud securities laws are an essential supplement to criminal prosecutions and civil enforcement actions brought, respectively, by the Department of Justice and the Securities and Exchange Commission.\u201d Tellabs, Inc. v. Makor Issues & Rights, Ltd., 551 U. S. 308, 313 (2007); see H. R. Conf. Rep. No. 104-369, at 31; Brief for United States as Amicus Curiae 1. See also Amchem, 521 U. S., at 617 (\u201c \u2018The policy at the very core of the class action mechanism is to overcome the problem that small recoveries do not provide the incentive for any individual to bring a solo action prosecuting his or her rights.\u2019\u201d (quoting Mace v. Van Ru Credit Corp., 109 F. 3d 338, 344 (CA7 1997))). We have no warrant to encumber securities-fraud litigation by adopting an atextual requirement of precertification proof of materiality that Congress, despite its extensive involvement in the securities field, has not sanctioned.\nC\nJustice Sc alia acknowledges that proof of materiality is not required to satisfy Rule 23(b)(3)\u2019s predominance requirement. See post, at 483. Nevertheless, he maintains that full satisfaction of Rule 23\u2019s requirements is insufficient to obtain class certification under Basic. In Justice Scalia\u2019s view, the Court\u2019s decision in Basic established a special rule: A securities-fraud class action cannot be certified unless all of the prerequisites of the fraud-on-the-market presumption of reliance, including materiality, have first been established. Post, at 484.\nThe purported rule is Justice Scalia\u2019s invention. It cannot be attributed to anything the Court said in Basic. That decision is best known for its endorsement of the fraud-on-the-market theory. But the opinion also established something more. It stated the proper standard for judging the materiality of misleading statements regarding the existence and status of preliminary merger discussions. See 485 U. S., at 230-241, 250 (\u201cMateriality in the merger context depends on the probability that the transaction will be consummated, and its significance to the issuer of the securities.\u201d). The District Court in Basic certified a class of investors whose share prices were allegedly depressed by misleading statements that disguised ongoing merger negotiations. Id., at 228. Postcertification, the court granted summary judgment to the defendants on the ground that the alleged misstatements were immaterial as a matter of law. Id., at 228-229. The Court of Appeals affirmed the class certification but reversed the grant of summary judgment. Id., at 229. This Court, in turn, vacated the Court of Appeals\u2019 judgment and remanded for further proceedings on the defendants\u2019 summary-judgment motion in light of the materiality standard set forth in the Court\u2019s opinion. Id., at 240-241, 250. Notably, however, we did not disturb the District Court\u2019s class-certification order, which we stated \u201cwas appropriate when made.\u201d Id., at 250.\nIf Justice Scalia were correct that our decision in Basic demands proof of materiality before class certification, the Court in Basic should have ordered the lower courts to reconsider on remand both the defendants\u2019 entitlement to summary judgment and the propriety of class certification. Instead, the Court expressly endorsed the District Court\u2019s class-certification order while at the same time recognizing that further proceedings were necessary to determine whether the plaintiffs had mustered sufficient evidence to satisfy the relatively lenient standard for avoiding summary judgment. See Anderson v. Liberty Lobby, Inc., 477 U. S. 242, 248 (1986) (\u201c[Sjummary judgment will not lie if . . . the evidence is such that a reasonable jury could return a verdict for the nonmoving party.\u201d). Unlike Justice Sc alia, we are unwilling to presume that Basic announced a rule requiring precertification proof of materiality when Basic failed to apply any such rule to the very case before it.\nIll\nAmgen also argues that the District Court erred by refusing to consider the rebuttal evidence Amgen proffered in opposing Connecticut Retirement\u2019s class-certification motion. This evidence, Amgen contends, showed that \u201cin light of all the information available to the market,\u201d its alleged misrepresentations and misleading omissions \u201ccould not be presumed to have altered the market price because they would not have \u2018significantly altered the total mix of information made available.\u2019\u201d Brief for Petitioners 40-41 (quoting Basic, 485 U. S., at 282). For example, Connecticut Retirement\u2019s complaint alleges that an Amgen executive misleadingly downplayed the significance of an upcoming Food and Drug Administration advisory committee meeting by incorrectly stating that the meeting would not focus on one of Amgen\u2019s leading drugs. See App. to Pet. for Cert. 17a. Amgen responded to this allegation by presenting public documents\u2014including the committee\u2019s meeting agenda, which was published in the Federal Register more than a month before the meeting\u2014stating that safety concerns associated with Amgen\u2019s drug would be discussed at the meeting. See id., at 41a-42a. See also 69 Fed. Reg. 16582 (2004).\nThe District Court did not err, we agree with the Court of Appeals, by disregarding Amgen\u2019s rebuttal evidence in deciding whether Connecticut Retirement\u2019s proposed class satisfied Rule 23(b)(3)\u2019s predominance requirement. The Court of Appeals concluded, and Amgen does not contest, that Am-gen\u2019s rebuttal evidence aimed to prove that the misrepresentations and omissions alleged in Connecticut Retirement\u2019s complaint were immaterial. 660 F. 3d, at 1177 (characterizing Amgen\u2019s rebuttal evidence as an attempt to present a \u201c \u2018truth-on-the-market\u2019 defense,\u201d which the Court of Appeals explained \u201cis a method of refuting an alleged misrepresentation\u2019s materiality\u201d). See also Reply Brief 17 (Amgen\u2019s evidence was offered to rebut the \u201cmateriality predicate\u201d of the fraud-on-the-market theory). As explained above, however, the potential immateriality of Amgen\u2019s alleged misrepresentations and omissions is no barrier to finding that common questions predominate. See Part II, supra. If the alleged misrepresentations and omissions are ultimately found immaterial, the fraud-on-the-market presumption of classwide reliance will collapse. But again, as earlier explained, see supra, at 467-470, individual reliance questions will not overwhelm questions common to the class, for the class members\u2019 claims will have failed on their merits, thus bringing the litigation to a close. Therefore, just as a plaintiff class\u2019s inability to prove materiality creates no risk that individual questions will predominate, so even a definitive rebuttal on the issue of materiality would not undermine the predominance of questions common to the class.\nWe recognized as much in Basic itself. A defendant could \u201crebut the [fraud-on-the-market] presumption of reliance,\u201d we observed in Basic, by demonstrating that \u201cnews of the [truth] credibly entered the market and dissipated the effects of [prior] misstatements.\u201d 485 U. S., at 248-249. We emphasized, however, that \u201c[p]roof of that sort is a matter for trial\u201d (and presumably also for a summary-judgment motion under Federal Rule of Civil Procedure 56). 485 U. S., at 249, n. 29. The District Court thus correctly reserved consideration of Amgen\u2019s rebuttal evidence for summary judgment or trial. It was not required to consider the evidence in determining whether common questions predominated under Rule 23(b)(3).\n\u215c \u215c \u215c\nFor the reasons stated, the judgment of the Court of Appeals for the Ninth Circuit is affirmed.\nIt is so ordered.\nPart IV of Justice Blackmun\u2019s opinion in Basic\u2014the part endorsing the fraud-on-the-market theory\u2014was joined by Justices Brennan, Marshall, and Stevens. Together, these Justices composed a majority of the quorum of six Justices who participated in the case. See 28 U. S. C. \u00a7 I (\u201cThe Supreme Court of the United States shall consist of a Chief Justice of the United States and eight associate justices, any six of whom shall constitute a quorum.\u201d).\nAlthough describing Basic\u2019s adoption of the fraud-on-the-market presumption of reliance as \u201cquestionable,\u201d Justice Thomas\u2019 dissent acknowledges that \u201cthe Court has not been asked to revisit\u201d that issue. Post, at 489, n. 4. See also post, p. 482 (Alito, J., concurring).\nAmgen\u2019s allegedly improper marketing practices have sparked federal and state investigations and several whistleblower lawsuits. See Dye, Amgen To Pay $762 Million in Drug-Marketing Case, Washington Post, Dec. 19, 2012, p. A17.\nWe agree with Justice Thomas that \u201c[m]ateriality was central to the development, analysis, and adoption of the fraud-on-the-market theory both before Basic and in Basic itself.\u201d Post, at 502. We disagree, however, that the history of the fraud-on-the-market theory\u2019s development \u201cconfirms that materiality must be proved at the time that the theory is invoked\u2014i. e., at certification.\u201d Ibid. As explained below, see infra, at 468-470, proof of materiality is not required prior to class certification because such proof is not necessary to ensure satisfaction of Rule 23(b)(3)\u2019s predominance requirement.\nJustice Thomas is also wrong in arguing that a failure of proof on the issue of materiality would demonstrate that a Rule 10b-5 class action \u201cshould not have been certified in the first place.\u201d Post, at 487. Quite the contrary. The fact that such a failure of proof resolves all class members\u2019 claims once and for all, leaving no individual issues to be adjudicated, confirms that the original certification decision was proper.\nAmgen advances a third argument founded on modern economic research tending to show that market efficiency is not \u2018\u201ca binary, yes or no question.\u2019\u201d Brief for Petitioners 32 (quoting Langevoort, Basic at Twenty: Rethinking Fraud on the Market, 2009 Wis. L. Rev. 151, 167). Instead, this research suggests, differences in efficiency can exist within a single market. For example, a market may more readily process certain forms of widely disseminated and easily digestible information, such as public merger announcements, than information more difficult to acquire and understand, such as obscure technical data buried in a filing with the Securities and Exchange Commission. See, e. g., Macey & Miller, Good Finance, Bad Economics: An Analysis of the Fraud-on-the-Market Theory, 42 Stan. L. Rev. 1059,1083-1087 (1990); Stout, The Mechanisms of Market Inefficiency: An Introduction to the New Finance, 28 J. Corp. L. 635, 653-656 (2003). Amgen, however, never clearly explains how this research on market efficiency bolsters its argument that courts should require precertification proof of materiality. In any event, this case is a poor vehicle for exploring whatever implications the research Amgen cites may have for the fraud-on-the-market presumption recognized in Basic. As noted above, see swpra, at 463, Amgen conceded in its answer that the market for its securities is \u201cefficient\u201d and thus \u201cpromptly digest[s] current information regarding Amgen from all publicly available sources and re-flectes] such information in Amgen\u2019s stock price.\u201d Consolidated Amended Class Action Complaint \u00b6\u00b6199-200; Answer \u00b6\u00b6 199-200. See also App. to Pet. for Cert. 40a (relying on the admission in Amgen\u2019s answer and an unchallenged expert report submitted by Connecticut Retirement, the District Court expressly found that the market for Amgen\u2019s stock was efficient). Amgen remains bound by that concession. See American Title Ins. Co. v. Lacelaw Corp., 861 F. 2d 224, 226 (CA9 1988) (\u201cFactual assertions in pleadings and pretrial orders, unless amended, are considered judicial admissions conclusively binding on the party who made them.\u201d); cf. Christian Legal Soc. Chapter of Univ. of Cal., Hastings College of Law v. Martinez, 561 U. S. 661, 677 (2010) (\u201cThis Court has . . . refused to consider a party\u2019s argument that contradicted a joint \u2018stipulation [entered] at the outset of th[e] litigation.\u2019\u201d (quoting Board of Regents of Univ. of Wis. System v. Southworth, 529 U. S. 217, 226 (2000))). We thus find nothing in the cited research that would support requiring pre-certification proof of materiality in this case.\nAs earlier noted, see supra, at 459, Amgen does not here contest Connecticut Retirement\u2019s satisfaction of Rule 23(a)\u2019s requirements.\nAccordingly, \u201cthe timing of the relevant stock trades\u201d is indeed an \u201celement\u201d of the fraud-on-the-market theory. Post, at 490, n. 6 (opinion of Thomas, J.). Unlike Justice Thomas, however, see ibid., we do not understand the United States as amicus curiae to take a different view. See Brief for United States 15, n. 2 (\u201cPrecise identification of the times when the alleged misrepresentation was made and the truth was subsequently revealed is . . . important to ensure that the named plaintiff has traded stock during the time the stock price allegedly was distorted by the defendant\u2019s misrepresentations.\u201d).\nScouring the Court\u2019s decision in Basic for some semblance of support for his position, Justice Scalia attaches portentous significance to Basic\u2019s statement that the District Court\u2019s class-certification order, although \u201c \u2018appropriate when made,\u2019 \u201d was \u201c \u2018subject on remand to such adjustment, if any, as developing circumstances demanded].\u2019 \u201d Post, at 484 (quoting Basic, 485 U. S., at 250). This statement, however, merely reminds that certifications are not frozen once made. Rule 23 empowers district courts to \u201calte[r] or amen[d]\u201d class-certification orders based on circumstances developing as the ease unfolds. Rule 23(c)(1) (1988). See also Rule 23(c)(1)(C) (2013).\nJustice Scalia suggests that the Court\u2019s approach in Basic might have been influenced by the obsolete view that \u201c \u2018Rule 23 . . . set[s] forth a mere pleading standard.\u201d \u201d Post, at 484 (quoting Wal-Mart Stores, Inc. v. Dukes, 564 U. S. 338, 350 (2011)). The opinion in Basic, however, provides no indication that the Court perceived any issue before it to turn on the question whether a plaintiff must merely plead, rather than \u201caffirmatively demonstrate,\u201d her satisfaction of Rule 23\u215b certification requirements. Dukes, 564 U. S., at 350.\nAmgen attempts to minimize the import of this statement by noting that it was made prior to a 2003 amendment to Rule 23 that eliminated district courts\u2019 authority to conditionally certify class actions. See Advisory Committee\u2019s 2003 Note on subd. (c)(1) of Fed. Rule Civ. Proc. 23, 28 U. S. C. App., p. 144. Nothing in our opinion in Basic, however, suggests that the statement relied in any way on district courts\u2019 conditional-certification authority. To the contrary, the Court in Basic stated: \u201cProof of that sort [i. e., that news of the truth had entered the market and dissipated the effects of prior misstatements] is a matter for trial, throughout which the District Court retains the authority to amend the certification order as may be appropriate.\u201d 485 U. S., at 249, n. 29 (emphasis added). Rule 23(c)(1)(C) continues to provide that a class-certification order \u201cmay be altered or amended before final judgment.\u201d",
+        "type": "majority",
+        "author": "Justice Ginsburg"
+      },
+      {
+        "text": "Justice Alito,\nconcurring.\nI join the opinion of the Court with the understanding that the petitioners did not ask us to revisit Basic\u2019s fraud-on-the-market presumption. See Basic Inc. v. Levinson, 485 U. S. 224 (1988). As the dissent observes, more recent evidence suggests that the presumption may rest on a faulty economic premise. Post, at 489, n. 4 (opinion of Thomas, J.); see Langevoort, Basic at Twenty: Rethinking Fraud on the Market, 2009 Wis. L. Rev. 151, 175-176. In light of this development, reconsideration of the Basic presumption may be appropriate.",
+        "type": "concurrence",
+        "author": "Justice Alito,"
+      },
+      {
+        "text": "Justice Scalia,\ndissenting.\nI join the principal dissent, that of Justice Thomas, except for Part I-B.\nThe fraud-on-the-market rule says that purchase or sale of a security in a well functioning market establishes reliance on a material misrepresentation known to the market. This rule is to be found nowhere in the United States Code or in the common law of fraud or deception; it was invented by the Court in Basic Inc. v. Levinson, 485 U. S. 224 (1988). Today\u2019s Court applies to that rule the principles of Federal Rule of Civil Procedure 23(b)(3), and thereby concludes (logically enough) that commonality is established at the certification stage even when materiality has not been shown. That would be a correct procedure if Basic meant the rule it announced to govern only the question of substantive liability\u2014what must be shown in order to prevail. If that were so, the new substantive rule, like the more general substantive rule that reliance must be proved, would be subject, at the certification stage, to the commonality analysis of Rule 23(b)(3). In my view, however, the Basic rule of fraud on the market\u2014a well functioning market plus purchase or sale in the market plus material misrepresentation known to the market establishes a necessary showing of reliance\u2014governs not only the question of substantive liability, but also the question whether certification is proper. All of the elements of that rule, including materiality, must be established if and when it is relied upon to justify certification. The answer to the question before us today is to be found not in Rule 23(b)(3), but in the opinion of Basic.\nBasic established a presumption that the misrepresentation was relied upon, not a mere presumption that the plaintiffs relied on the market price. And it established that presumption not just for the question of substantive liability but also for the question of certification. \u201cWe granted certiorari ... to determine whether the courts below properly applied a presumption of reliance in certifying the class, rather than requiring each class member to show direct reliance on Basic\u2019s statements.\u201d 485 U. S., at 230 (emphasis added). Of course it makes no sense to \u201cpresume reliance\u201d on the misrepresentation merely because the plaintiff relied on the market price, unless the alleged misrepresentation would likely have affected the market price\u2014that is, unless it was material. Thus, as Justice Thomas\u2019 dissent shows, the Basic opinion is shot through with references to the necessary materiality. The presumption of reliance does not apply, and hence neither substantive liability will attach nor will certification be proper, unless materiality is shown. The necessity of materiality for certification is demonstrated by the last sentence of the Basic opinion, which comes after the Court has decided to remand the case for reconsideration of materiality under the appropriate legal standard: \u201cThe District Court\u2019s certification of the class here was appropriate when made but is subject on remand to such adjustment, if any, as developing circumstances demand.\u201d Id., at 250. Those circumstances are the establishment of facts that rebut the presumption, including of facts that show the misrepresentation was not material, or was not known to the market.\nThe Court argues that if materiality were a predicate to certification on a fraud-on-the-market theory, the Basic Court would not have approved the class certification order while remanding for reconsideration of \u201cwhether the plaintiffs had mustered sufficient evidence to satisfy the relatively lenient standard for avoiding summary judgment.\u201d Ante, at 480. The Court manufactures an inconsistency on the basis of doctrine that did not govern class certification at the time of Basic. We recently clarified that \u201cRule 23 does not set forth a mere pleading standard.\u201d Wal-Mart Stores, Inc. v. Dukes, 564 U. S. 338, 350 (2011). But review of the Basic certification order shows that the District Court\u2019s fraud-on-the-market analysis was based exclusively on the pleadings: \u201c[T]he allegations of plaintiff s\u2019 complaint are sufficient to bring this section 10(b) and Rule 10(b)(5) claim within the so-called \u2018fraud on the market\u2019 theory.\u201d App. to Pet. for Cert, in Basic Inc. v. Levinson, O. T. 1987, No. 86-279, p. 115a (emphasis added); see also ibid, (citing complaint paragraphs as establishing fraud on the market). Under a pleadings standard, the District Court found that the plaintiffs had satisfied Rule 23(b)(3) with regard to fraud on the market, including its materiality predicate. See id., at 133a (denial of reconsideration) (\u201cThis court ruled on December 10 that transaction causation [i. e., reliance] could be established by the following: proof of a material misrepresentation which affected the market price of the stocks with a resulting injury to the plaintiffs\u201d (emphasis added)). Thus, even if the plaintiffs sufficiently pleaded materiality that the certification order \u201cwas appropriate when made,\u201d Basic, supra, at 250, the defendants retained an opportunity on remand to rebut the pleading in order to defeat certification.\nCertification of the class is often, if not usually, the prelude to a substantial settlement by the defendant because the costs and risks of litigating further are so high. It does an injustice to the Basic Court to presume without clear evidence\u2014and indeed in the face of language to the contrary\u2014 that it was establishing a regime in which not only those market class-action suits that have earned the presumption of reliance pass beyond the crucial certification stage, but all market-purchase and market-sale class-action suits do so, no matter what the alleged misrepresentation. The opinion need not be read this way, and it should not.\nThe fraud-on-the-market theory approved by Basic envisions a demonstration of materiality not just for substantive recovery but for certification. Today\u2019s holding does not merely accept what some consider the regrettable consequences of the four-justice opinion in Basic; it expands those consequences from the arguably regrettable to the unquestionably disastrous.\nAs for the Court\u2019s contention that I have \u201c[s]cour[ed] the Court\u2019s decision in Basic\u201d to find \u201csome semblance of support\u201d for my reading of the case, ante, at 479, n. 9: It does not take much scouring to come across the Court\u2019s opening statement that \u201c[w]e granted certiorari... to determine whether the courts below properly applied a presumption of reliance in certifying the class.\u201d 485 U. S., at 230 (emphasis added).",
+        "type": "dissent",
+        "author": "Justice Scalia,"
+      },
+      {
+        "text": "Justice Thomas,\nwith whom Justice Kennedy joins, and with whom Justice Scalia joins except for Part I-B, dissenting.\nI\nThe Court today allows plaintiffs to obtain certification of securities-fraud class actions without proof that common questions predominate over individualized questions of reliance, in contravention of Federal Rule of Civil Procedure 23(b)(3). The Court does so by all but eliminating materiality as one of the predicates of the fraud-on-the-market theory, which serves as an alternative mode of establishing reliance. See Basic Inc. v. Levinson, 485 U. S. 224, 241-250 (1988). Without demonstrating materiality at certification, plaintiffs cannot establish Basic\u2019s fraud-on-the-market presumption. Without proof of fraud on the market, plaintiffs cannot show that otherwise individualized questions of reliance will predominate, as required by Rule 23(b)(3). And without satisfying Rule 23(b)(3), class certification is improper. Fraud on the market is thus a condition precedent to class certification, without which individualized questions of reliance will defeat certification.\nThe Court\u2019s opinion depends on the following assumption: Plaintiffs will either (1) establish materiality at the merits stage, in which case class certification was proper because reliance turned out to be a common question, or (2) fail to establish materiality, in which case the claim would fail on the merits, notwithstanding the fact that the class should not have been certified in the first place, because reliance was never a common question. The failure to establish materiality retrospectively confirms that fraud on the market was never established, that questions regarding the element of reliance were not common under Rule 23(b)(3), and, by extension, that certification was never proper. Plaintiffs cannot be excused of their Rule 23 burden to show at certification that questions of reliance are common merely because they might lose later on the merits element of materiality. Because a securities-fraud plaintiff invoking Basic\u2019s fraud-on-the-market presumption to satisfy Rule 23(b)(3) should be required to prove each of the predicates of that theory at certification in order to demonstrate that questions of reliance are common to the class, I respectfully dissent.\nA\nWe begin with \u00a7 10 of the Securities Exchange Act of 1934, 15 U. S. C. \u00a7 78j (2006 ed. and Supp. V). We \u201chave implied a private cause of action from the text and purposes of \u00a7 10(b)\u201d and Securities and Exchange Commission Rule lob-5, 17 CFR \u00a7 240.10b-5 (2011). Matrixx Initiatives, Inc. v. Siracusano, 563 U. S. 27, 37 (2011). See also Superintendent of Ins. of N Y. v. Bankers Life & Casualty Co., 404 U. S. 6, 13, n. 9 (1971) (\u201cIt is now established that a private right of action is implied under \u00a7 10(b)\u201d). The elements of an implied \u00a7 10(b) cause of action for securities fraud are \u201c \u2018(1) a material misrepresentation or omission by the defendant; (2) scienter; (3) a connection between the misrepresentation or omission and the purchase or sale of a security; (4) reliance upon the misrepresentation or omission; (5) economic loss; and (6) loss causation.\u2019\u201d Matrixx, swpra, at 37-38 (quoting Stoneridge Investment Partners, LLC v. Scientific-Atlanta, Inc., 552 U. S. 148, 157 (2008)). This case concerns the reliance element of the \u00a7 10(b) claim and its interaction with Rule 23(b)(3).\nTo prove reliance, a plaintiff, whether proceeding individually or as a class member, must show that his stock transaction was caused by the specific alleged misstatement. \u201c[P]roof of reliance ensures that there is a proper \u2018connection between a defendant\u2019s misrepresentation and a plaintiff\u2019s injury.\u2019\u201d Erica P. John Fund, Inc. v. Halliburton Co., 563 U. S. 804, 810 (2011) (quoting Basic, supra, at 243). To satisfy this element, a plaintiff traditionally was required to \u201csho[w] that he was aware of a company\u2019s statement and engaged in a relevant transaction . . . based on that specific misrepresentation.\u201d Erica P. John Fund, supra, at 810 (emphasis added). In the face-to-face fraud cases from which securities claims historically arose, see, e. g., Dura Pharmaceuticals, Inc. v. Broudo, 544 U. S. 336, 343-344 (2005) (discussing common-law roots of securities-fraud actions), this requirement was easily met by showing that the seller made statements directly to the purchaser and that the purchaser bought stock in reliance on those statements. However, in a modern securities market many, if not most, individuals who purchase stock from third parties on an impersonal exchange will be unaware of statements made by the issuer of those securities. As a result, such purchaser-plaintiffs are unable to meet the traditional reliance requirement because they cannot establish that they \u201cengaged in a relevant transaction . . . based on [a] specific misrepresentation.\u201d Erica P. John Fund, supra, at 810.\nThis concern was the driving force behind the development of the fraud-on-the-market theory adopted in Basic. Because individuals trading stock on an impersonal market often cannot show reliance even for purposes of an individual securities-fraud action, Basic permitted \u201cplaintiffs to invoke a rebuttable presumption of reliance.\u201d. Erica P. John Fund, supra, at 811. Basic presumes that \u201c fin an open and developed securities market, the price of a company\u2019s stock is determined by the available material information regarding the company and its business.\u2019\u201d 485 U. S., at 241 (quoting Peil v. Speiser, 806 F. 2d 1154, 1160-1161 (CA3 1986); emphasis added). \" 'Misleading statements will therefore defraud purchasers of stock even if the purchasers do not directly rely on the misstatements.\u2019\u201d 485 U. S., at 241-242. As a result, \u201c[a]n investor who buys or sells stock at the price set by the market does so in reliance on the integrity of that price,\u201d and \u201can investor\u2019s reliance on any public material misrepresentations\u201d may therefore \u201cbe presumed for purposes of a Rule 10b-5 action.\u201d Id., at 247 (emphasis added).\nIf a plaintiff opts to show reliance through fraud on the market, Basic is clear that the plaintiff must show the following predicates in order to prevail: (1) an efficient market, (2) a public statement, (8) that the stock was traded after the statement was made but before the truth was revealed, and (4) the materiality of the statement. Id., at 248, n. 27. Both the Court and respondent agree that materiality is a necessary component of fraud on the market. See, e. g., ante, at 467 (materiality is \u201cindisputably\u201d \u201can essential predicate of the fraud-on-the-market theory\u201d); Brief for Respondent 29 (\u201cIf the statement is not materially false, then no one in the class can establish reliance via the integrity of the market\u201d). The materiality of a specific statement' is, therefore, essential to the fraud-on-the-market presumption, which in turn enables a plaintiff to prove reliance.\nB\nBasic\u2019s fraud-on-the-market presumption is highly significant because it makes securities-fraud class actions possible by converting the inherently individual reliance inquiry into a question common to the class, which is necessary to satisfy the dictates of Rule 23(b)(3). Rule 23(b)(3) requires the party seeking certification to prove that \u201cquestions of law or fact common to class members predominate over any questions affecting only individual members.\u201d A plaintiff seeking class certification is not required to prove the elements of his claim at the certification stage, but he must show that the elements of the claim are susceptible to class-wide proof. See, e. g., Wal-Mart Stores, Inc. v. Dukes, 564 U. S. 338, 351, n. 6 (2011) (\u201c[Plaintiffs seeking 23(b)(3) certification must prove that their shares were traded on an efficient market,\u201d an element of the fraud-on-the-market theory (emphasis added)). Without that proof, there is no justification for certifying a class because there is no \u201c 'capacity of a class-wide proceeding to generate common answers apt to drive the resolution of the litigation.\u2019 \u201d Id., at 350 (quoting Nagareda, Class Certification in the Age of Aggregate Proof, 84 N. Y. U. L. Rev. 97, 132 (2009)).\nIf plaintiffs fail to show that reliance is a common question at the time of certification, certification is improper. For if reliance is not a common question, each plaintiff would be required to prove that he in fact relied on a misstatement, a showing which is simply not susceptible to classwide proof. Individuals make stock transactions for divergent, even idiosyncratic, reasons. As the leading pre-Basic fraud-on-the-market case recognized, \u201c[a] purchaser on the stock exchanges may be either unaware of a specific false representation, or may not directly rely on it; he may purchase because of a favorable price trend, price earnings ratio, or some other factor.\u201d Blackie v. Barrack, 524 F. 2d 891, 907 (CA9 1975). The inquiry\u2019s inherently individualized nature renders it impossible to generate the common answers necessary for certification under Rule 23(b)(3). See Basic, 485 U. S., at 242 (\u201cRequiring proof of individualized reliance from each member of the proposed plaintiff class effectively would have prevented respondents from proceeding with a class action, since individual issues then would have overwhelmed the common ones\u201d).\nThe Court\u2019s solution in Basic was to allow putative class members to prove reliance through the fraud-on-the-market presumption. Id., at 241-250. As the Court today recognizes, failure to establish fraud on the market \u201cleaves open the prospect of individualized proof of reliance.\u201d Ante, at 474. Notably, the Court and the Ninth Circuit both acknowledge that in order to obtain the benefit of the presumption, plaintiffs must establish two of the fraud-on-the-market predicates at class certification: (1) that the market was generally efficient, and (2) that the alleged misstatement was public. See ante, at 473 (acknowledging \u201cthat market efficiency and the public nature of the alleged misrepresentations must be proved before a securities-fraud class action can be certified\u201d); 660 F. 3d 1170, 1175 (CA9 2011) (same). See also Erica P. John Fund, 563 U. S., at 811 (\u201cIt is undisputed that securities fraud plaintiffs must prove,\u201d at certification, inter alia, \u201cthat the alleged misrepresentations were publicly known ... [and] that the stock traded in an efficient market\u201d). The Court is correct insofar as its statements recognize that fraud on the market is a condition precedent to showing that there are common questions of reliance at the time of class certification.\nNevertheless, the Court asserts that materiality\u2014by its own admission an essential predicate to invoking fraud on the market\u2014need not be established at certification because it will ultimately be proved at the merits stage. Ante, at 473-474. This assertion is an express admission that parties will not know at certification whether reliance is an individual or common question.\nTo support its position, the Court transforms the predicate certification inquiry into a novel either-or inquiry occurring much later on the merits. According to the Court, either (1) plaintiffs will prove materiality on the merits, thus demonstrating ex post that common questions predominated at certification, or (2) they will fail to prove materiality, at which point we learn ex post that certification was inappropriate because reliance was not, in fact, a common question. In the Court\u2019s second scenario, fraud on the market was never established, reliance for each class member was inherently individualized, and Rule 23(b)(3) in fact should have barred certification long ago. The Court suggests that the problem created by the second scenario is excusable because the plaintiffs will lose anyway on alternative merits grounds, and the case will be over. See ante, at 474 (\u201c[F]ailure of proof on the issue of materiality [at the merits stage] not only precludes a plaintiff from invoking the fraud-on-the-market presumption of classwide reliance; it also establishes as a matter of law that the plaintiff cannot prevail on the merits of her Rule 10b-5 claim\u201d). But nothing in logic or precedent justifies ignoring at certification whether reliance is susceptible to Rule 23(b)(3) classwide proof simply because one predicate of reliance\u2014materiality\u2014will be resolved, if at all, much later in the litigation on an independent merits element.\nIt is the Court, not Amgen, that \u201cwould have us put the cart before the horse,\u201d ante, at 460, by jumping chronologically to the \u00a7 10(b) merits element of materiality. But Rule 23, as well as common sense, requires class certification issues to be addressed first. See Rule 23(c)(1)(A) (\u201cAt an early practicable time after a person sues or is sued . . . the court must determine by order whether to certify the action as a class action\u201d)- A plaintiff who cannot prove materiality does not simply have a claim that is \u201c \u2018dead on arrival\u2019 \u201d at the merits, ante, at 474 (quoting 660 F. 3d, at 1175); he has a class that should never have arrived at the merits at all because it failed Rule 23(b)(3) certification from the outset. Without materiality, there is no fraud-on-the-market presumption, questions of reliance remain individualized, and Rule 23(b)(3) certification is impossible. And the fact that evidence of materiality goes to both fraud on the market at certification and an independent merits element is no issue; Wal-Mart expressly held that a court at certification may inquire into questions that also have later relevance on the merits. See 564 U. S., at 350-352. The Court reverses that inquiry, effectively saying that certification may be put off until later because an adverse merits determination will retroactively wipe out the entire class. However, a plaintiff who cannot prove materiality cannot prove fraud on the market and, thus, cannot demonstrate that the question of reliance is susceptible of a classwide answer.\nThe fact that a statement may prove to be material at the merits stage does not justify conflating the doctrinally independent (and distinct) elements of materiality and reliance. The Court\u2019s error occurs when, instead of asking whether the element of reliance is susceptible to classwide proof, the Court focuses on whether materiality is susceptible to classwide proof. Ante, at 467 (\u201c[T]he pivotal inquiry is whether proof of materiality is needed to ensure that the questions of law or fact common to the class will \u2018predominate\u2019 \u201d). The result is that the Court effectively equates \u00a7 10(b) materiality with fraud-on-the-market materiality and elides reliance as a \u00a7 10(b) element. But a plaintiff seeking certification under Rule 28 bears the burden of proof with regard to all the elements of a \u00a7 10(b) claim, which includes materiality and reliance. As Wal-Mart explained, \u201c[a] party seeking class certification must affirmatively demonstrate his compliance with the Rule\u2014that is, he must be prepared to prove that there are in fact sufficiently numerous parties, common questions of law or fact, etc.\u201d 564 U. S., at 350. If the elements of fraud on the market are not proved at certification, a plaintiff has failed to carry his burden of establishing that questions of individualized reliance will not predominate, without which the plaintiff class cannot obtain certification. Cf. id., at 352 (holding in Rule 23(a)(2) context that \u201c[wjithout some glue holding the alleged reasons for all those decisions together, it will be impossible to say that examination of all the class members\u2019 claims for relief will produce a common answer\u201d). It is only by establishing all of the elements of the fraud-on-the-market presumption that reliance can be proved on a classwide basis. Therefore, if a plaintiff wishes to use Basic\u2019s presumption to prove that reliance is a common question, he must establish the entire presumption, including materiality, at the class certification stage.\nNor is it relevant, as respondent argues, that requiring plaintiffs to establish all predicates of fraud on the market at certification will make it more difficult to obtain certification. See Brief for Respondent 35-38. In Basic, four Justices of a six-Justice Court created the fraud-on-the-market presumption from a combination of newly minted economic theories, 485 U. S., at 250-251, n. 1 (White, J., concurring in part and dissenting in part), and \u201cconsiderations of fairness, public policy, and probability,\u201d id., at 245 (majority opinion), to allow claims that otherwise would have been barred due to the plaintiffs\u2019 inability to show reliance, id., at 242. Basic is a judicially invented doctrine based on an economic theory adopted to ease the burden on plaintiffs bringing claims under an implied cause of action. There is nothing untoward about requiring plaintiffs to take the steps that the Basic Court created in an effort to save otherwise inadequate claims.\nII\nThe majority\u2019s approach is, thus, doctrinally incorrect under Basic. Its shortcomings are further highlighted by the role that materiality played in the pre-Basic development of the fraud-on-the-market theory as a condition precedent to showing that there are common questions of reliance in the class-action context. Materiality, at the time of certification, has been a driving force behind the theory from the outset. This fact further supports the need to prove materiality at the time the fraud-on-the-market theory is invoked to show that questions of reliance can be answered on a class-wide basis.\nA\nBefore Basic, two signposts marked the way for courts applying the fraud-on-the-market theory. Both demonstrate that the materiality of an alleged falsehood was not a mere afterthought but rather one of the primary reasons for allowing traditional proof of reliance to be brushed aside at certification. This fact weighs strongly in favor of the conclusion that materiality must be resolved at certification when the fraud-on-the-market presumption is invoked to show that reliance can be proved on a classwide basis.\nThe first signpost was the Ninth Circuit\u2019s 1975 opinion in Blackie, termed by one pre-Basic court the \u201cseminal fraud on the market case.\u201d Peil, 806 F. 2d, at 1163, n. 16. See also Basic, supra, at 251, n. 1 (opinion of White, J.) (\u201cThe earliest Court of Appeals case adopting this theory cited by the Court is Blackie v. Barrack, 524 F. 2d 891 (CA9 1975), cert. denied, 429 U. S. 816 (1976)\u201d).\nBlackie arose from a $90 million loss reported by audio equipment manufacturer Ampex Corp. in its 1972 annual report. 524 F. 2d, at 894. Ampex\u2019s independent auditors not only refused to certify the 1972 annual report but also withdrew certification of all 1971 financial statements \u201cbecause of doubts that the loss reported for 1972 was in fact suffered in that year.\u201d Ibid. In resultant class actions, the defendants argued that reliance stood in the way of class certification under Rule 23(b)(3) because it was not a common question.\nThe Ninth Circuit disagreed. Instead, it relieved plaintiffs from providing traditional proof of reliance, explaining that \u201ccausation is adequately established in the impersonal stock exchange context by proof of purchase and of the materiality of misrepresentations, without direct proof of reliance.\u201d Id., at 906 (emphasis added). The court left no doubt that the materiality of the $90 million shortfall in Am-pex\u2019s financial statements was central to its determination that reliance could be presumed. It asserted that \u201c[m]a-teriality circumstantially establishes the reliance of some market traders and hence the inflation in the stock price\u2014 when the purchase is made[,] the causational chain between defendant\u2019s conduct and plaintiff\u2019s loss is sufficiently established to make out a prima facie case.\u201d Ibid. Materiality was not merely an important factor that allowed reliance to be presumed at certification; materiality was the factor. It demonstrated that the defendants had committed a fraud on the market, that all putative class plaintiffs had relied on it in purchasing stock, and, therefore, that questions of reliance would be susceptible to common answers.\nThe second fraud-on-the-market signpost prior to Basic was a note in the Harvard Law Review, which described the nascent theory. See Note, The Fraud-on-the-Market Theory, 95 Harv. L. Rev. 1143 (1982) (hereinafter Harv. L. Rev. Note). The Sixth Circuit opinion reviewed in Basic termed the Note \u201c[t]he clearest statement of the theory of presumption of reliance.\u201d Levinson v. Basic Inc., 786 F. 2d 741, 750 (1986). Indeed, in the briefing for Basic itself, the plaintiffs, the United States, and plaintiffs\u2019 amici cited the article repeatedly as an authoritative statement on the subject. See Brief for Respondents 43, n. 18,46, n. 20 (cited in Peil, supra, at 1160), Brief for Securities and Exchange Commission as Amicus Curiae 22, n. 25, 24, n. 30, 26, n. 32, and Brief for Joseph Harris et al. as Amici Curiae 4-5, n. 2, in Basic Inc. v. Levinson, O. T. 1987, No. 86-279.\nLike Blackie, the Note also hinged the fraud-on-the-market presumption of reliance on proof of materiality. Harv. L. Rev. Note 1161 (\u201cIn developed markets, which are apparently efficient, reliance should be presumed from the materiality of the deception\u201d (emphasis added)). Ultimately, in language that will be familiar to anyone who has read Basic, the Note formulated a \u201cpivotal assumption\u201d underlying the fraud-on-the-market theory as the belief that\n\u201cmarket prices respond to information disseminated (or not disseminated) concerning the companies whose securities are traded. In such a setting\u2014often described as an \u2018efficient market\u2019\u2014the reliance of some traders upon a material deception influences market prices and thereby affects even traders who never read or hear of the deception.\u201d Harv. L. Rev. Note 1154 (footnote omitted).\nAgain, the materiality of the alleged misstatement was a key component, without which the market could not be presumed to move. As a result, without materiality it is impossible to say that there has been a fraud on the market at all, and if that is not the case there is no reason to believe that the market price at which stock transactions occurred was affected by an alleged misstatement or, by extension, that any market participants relied on it. Materiality should thus be proved when the fraud-on-the-market presumption is invoked, or there is no commonality with respect to questions of reliance.\nB\nNor did the importance of materiality diminish in the Sixth Circuit opinion reviewed in Basic... Rather, the court followed the path marked by the signposts -discussed above. It excused plaintiffs from offering traditional evidence of reliance, so long as \u201ca defendant is shown to have made a material public misrepresentation that, if relied on directly, would fraudulently induce an individual to misjudge the value of the stock.\u201d Levinson, 786 F. 2d, at 750 (emphasis added). The court\u2019s analysis made clear that materiality should be demonstrated at the time the presumption was invoked: \u201cIn order to invoke the presumption of reliance based upon the fraud on the market, theory, a plaintiff must allege and prove .. . that the misrepresentations were material . . . .\u201d Ibid, (citing Blackie, supra, at 906).\nc\nFinally, the briefing before this Court in Basic itself built upon this framework and the foundational principle that materiality is an integral part of the theory. Critically, the Basic defendants argued that the plaintiffs could not establish fraud on the market at certification even if the theory were valid because the alleged misstatement was immaterial. They \u201ccontrasted] the likely market impact of disclosure of the [$90 million Blackie loss] . .. with the disclosure of the information which respondents contended] rendered Basic\u2019s statements materially misleading.\u201d See Brief for Petitioners in O. T. 1987, No. 86-279, p. 42. The Basic defendants concluded that \u201cthe differences between a company\u2019s $90 million loss and a company\u2019s sporadic contacts with a friendly suitor are substantial. . .. [T]he fraud on the market theory, if it has vitality, should not be applied in a case such as this.\u201d Id., at 43.\nIn response, the plaintiffs in Basic did not argue that the defendants misunderstood the role of materiality in the fraud-on-the-market theory. They instead advanced a now-foreclosed interpretation of dicta from Eisen v. Carlisle & Jacquelin, 417 U. S. 156, 177 (1974):\n\u201cPetitioners\u2019 final argument\u2014that respondents will be unable to establish that Basic\u2019s repeated false and misleading statements impacted the price of Basic stock over a fourteen month period\u2014represents an effort to litigate the merits of this case on the motion for class certification. ... As this Court held in Eisen v. Carlisle & Jacquelin, 417 U. S. 156, 177 (1974): \u2018We find nothing in either the language or history of Rule 23 that gives a court any authority to conduct a preliminary inquiry into the merits of a suit in order to determine whether it may be maintained as a class action.\u2019 \u201d Brief for Respondents in O. T. 1987, No. 86-279, at 54.\nThe Court rejected this reading of Eisen two Terms ago, explaining that the very language the Basic plaintiffs quoted was \u201csometimes mistakenly cited\u201d as prohibiting inquiry into \u201cthe propriety of certification under Rules 23(a) and (b).\u201d Wal-Mart Stores, Inc., 564 U. S., at 351, n. 6. That reading, the Court explained, \u201cis the purest dictum and is contradicted by our other cases.\u201d Ibid. The Basic defendants\u2019 reply is consistent with Wal-Mart\n\u201cPutative class representatives, such as respondents, should not be permitted to invoke the fraud on the market theory while, at the same time, arguing that courts may not make any preliminary inquiry into the claimed impact on the market. See, e. g., Resp. Br., p. 54. By seeking the benefit of the presumption, respondents necessarily invite judicial scrutiny of the circumstances in which it is invoked.\u201d Reply Brief for Petitioners in O. T. 1987, No. 86-279, p. 18.\nWell said. The history of Basic is worth the volume of argument offered by the majority. Cf. New York Trust Co. v. Eisner, 256 U. S. 345, 349 (1921) (majority opinion of Holmes, J.). Materiality was central to the development, analysis, and adoption of the fraud-on-the-market theory both before Basic and in Basic itself. Materiality, therefore, must be demonstrated to prove fraud on the market, and until materiality of an alleged misstatement is shown there is no reason to believe that all market participants have relied equally on it. Otherwise individualized questions of reliance remain. This history confirms that materiality must be proved at the time that the theory is invoked\u2014i. e., at certification.\nIll\nI, thus, would reverse the judgment of the Ninth Circuit and hold that a plaintiff invoking the fraud-on-the-market presumption bears the burden to establish all the elements of fraud on the market at certification, including the materiality of the alleged misstatement.\nSection 10 states, in relevant part:\n\u201cIt shall be unlawful for any person, directly or indirectly, by the use of any means or instrumentality of interstate commerce or of the mails, or of any facility of any national securities exchange\u2014\n\u201c(b) To use or employ, in. connection with the purchase or sale of any security registered on a national securities exchange ... any manipulative or deceptive device or contrivance in contravention of such rules and regulations as the Commission may prescribe ....\u201d\nRule 10b-5 states:\n\u201cIt shall be unlawful for any person, directly or indirectly, by the use of any means or instrumentality of interstate commerce, or of the mails or of any facility of any national securities exchange,\n\u201c(a) To employ any device, scheme, or artifice to defraud,\n\u201c(b) To make any untrue statement of a material fact or to omit to state a material fact necessary in order to make the statements made, in the light of the circumstances under which they were made, not misleading, or\n\u201c(c) To engage in any act, practice, or course of business which operates or would operate as a fraud or deceit upon any person, in connection with the purchase or sale of any security.\u201d\nCourts have also \u201creferred to the element of reliance ... as \u2018transaction causation.\u2019\u201d Erica P. John Fund, 563 U. S., at 812 (quoting Dura Pharmaceuticals, Inc. v. Broudo, 544 U. S. 336, 341-342 (2005), in turn citing Basic Inc. v. Levinson, 485 U. S. 224, 248-249 (1988)). This alternative phrasing recognizes that the reliance inquiry is directed at determining whether a particular piece of information caused an individual to enter into a given transaction.\nThe Basic decision itself is questionable. Only four Justices joined the portion of the opinion adopting the fraud-on-the-market theory. Justice White, joined by Justice O\u2019Connor, dissented from that section, emphasizing that \u201c[cjonfusion and contradiction in court rulings are inevitable when traditional legal analysis is replaced with economic theorization by the federal courts\u201d and that the Court is \u201cnot well equipped to embrace novel constructions of a statute based on contemporary microeconomic theory.\u201d 485 U. S., at 252-253 (concurring in part and dissenting in part). Justice White\u2019s concerns remain valid today, but the Court has not been asked to revisit Basic\u2019s fraud-on-the-market presumption. I thus limit my dissent to demonstrating that the Court is not following Basic\u2019s dictates.\nMoreover, the Court acknowledges there is disagreement as to whether market efficiency is \u2018\u201c\u201ca binary, yes or no question,\u201d\u2019\u201d or instead operates differently depending on the information at issue, see ante, at 470, n. 6 (quoting Brief for Petitioners 32, in turn quoting Langevoort, Basic at Twenty: Rethinking Fraud on the Market, 2009 Wis. L. Rev. 151,167).\nBasic \u201cadopt[ed] the TSC Industries standard of materiality for the \u00a7 10(b) and Rule 10b-5 context.\u201d 485 U. S., at 232. That standard indicates that \u201c \u2018[a]n omitted fact is material if there is a substantial likelihood that a reasonable shareholder would consider it important in deciding how to vote.\u2019 \u201d Id., at 231 (quoting TSC Industries, Inc. v. Northway, Inc., 426 U. S. 438, 449 (1976); alteration in original). \u201c[T]o fulfill the materiality requirement \u2018there must be a substantial likelihood that the disclosure of the omitted fact would have been viewed by the reasonable investor as having significantly altered the \u201ctotal mix\u201d of information made available.\u2019\u201d 485 U. S., at 231-232 (quoting TSC Industries, supra, at 449).\nThe United States as amicus curiae invokes Rule 23(a)(3) to suggest that the third element, the timing of the relevant stock trades, is a \u201climit on the definition of the class.\u201d Brief for United States 15, n. 2. But it is also necessary to establish the timing of the allegedly material, public misstatement made into an allegedly efficient market (as well as when the fraud ended due to entry of truth on the market) before the fraud-on-the-market theory can be evaluated under Rule 23(b)(3). Thus, the lower court opinion in Basic expressly identified \u201cthe time the misrepresentations were made and the time the truth was revealed\u201d as part of fraud on the market. Levinson v. Basic Inc., 786 F. 2d 741, 750 (CA6 1986). The Basic Court cited the formulation approvingly, 485 U. S., at 248, n. 27, and recently in Erica P. John Fund, Inc. v. Halliburton Co., 563 U. S. 804 (2011), the Court cited the same language as part of the \u201cundisputed\u201d elements a securities-fraud plaintiff must prove to invoke Basic. 563 U. S., at 811 (citing Basic, supra, at 248, n. 27). Unless the timing of the misrepresentation and truth is established at certification, there is no framework within which to determine whether fraud on the market renders reliance a common question. Thus, insofar as the majority recognizes that timing is a factor of the fraud-on-the-market theory, ante, at 472, n. 8, I agree. It would be incorrect to suggest that timing solely relates to Rules 23(a)(3) and (4). It is equally important to establish the timing range at certification for Rule 23(b)(3) reliance purposes. This fact undercuts the majority\u2019s attempt to isolate materiality as the only factor of fraud on the market that need not be shown at certification to demonstrate that reliance is a common question.\nThere is no dispute that respondent meets the prerequisites of Fed. Rule Civ. Proc. 23(a).\nThe majority ignores this explanation of the fundamental flaw in its position, asserting that I never \u201cexplain how ... a plaintiff class\u2019s failure to prove an essential element of its claim for relief will result in individual questions predominating over common ones.\u201d Ante, at 469. But a plaintiff, who is excused from his burden of showing at certification that reliance is a common question, fails to demonstrate that common questions predominate over the individualized questions of reliance that are inherent in a securities-fraud claim. A plaintiff must carry this burden at certification for certification to be proper. The majority does not respond to the inherent timing problem in its position. It does not explain how ignoring questions of reliance\u2014that undeniably will be individualized in some cases\u2014at certification is justified by the fact that those questions will be resolved months or years later on the merits in a way that indicates reliance was indeed an individualized question all along. Far from obeying the dictates of Rule 23(b)(3) as it claims, ante, at 469-470, the majority unjustifiably puts off a critical part of the Rule 23(b)(3) inquiry until the merits. The only way the majority can purport to follow Rule 23(b)(3) is by ignoring the fact that, under its own analysis, reliance may be an individualized question that predominates over common questions at certification.\nOf course, the Court\u2019s assertion that materiality will be resolved on the merits presumes that certification will not bring in terrorem settlement pressures to bear, foreclosing any materiality inquiry at all. The Court dismisses this concern, ante, at 474-477, attempting to give fraud-on-the-market analysis the imprimatur of congressional enactment instead of recognizing it as a judicially created doctrine grafted onto an implied cause of action. But the fact that Congress has enacted legislation to curb excesses in securities litigation while leaving Basic intact, see ante, at 475-476, says nothing about the proper interpretation of Basic at issue here. The Court retains discretion over the contours of Basic unless and until Congress sees fit to alter them\u2014a fact Congress must also have realized when it passed the Private Securities Litigation Reform Act of 1995, 109 Stat. 737, and other legislation. The Court\u2019s entire argument is based on the assumption that the fraud-on-the-market presumption need not be shown at certification because it will be proved later on the merits; insofar as certification makes that later determination unlikely to occur, it at least counsels against the certitude with which the Court assures us that its gloss on Basic is correct.\nAmpex\u2019s sales for 1971 were just under $284 million. See Reckert, A. & P. Registers Deficit for First Fiscal Quarter, N. Y. Times, July 1, 1972, p. 27 (discussing Ampex\u2019s revenue and net loss in its 1972 annual report).\nBlackie\u2019s use of materiality to satisfy reliance for purposes of Rule 23(b)(3) predominance continued to form the foundation for the fraud-on-the-market concept in subsequent pre-Basic appellate cases. See, e. g., Peil v. Speiser, 806 F. 2d 1154, 1161 (CA3 1986) (\u201c[W]e hold that plaintiffs who purchase in an open and developed market need not prove direct reliance on defendants\u2019 misrepresentations, but can satisfy their burden of proof on the element of causation by showing that the defendants made material misrepresentations\u201d (footnote omitted)); Panzirer v. Wolf, 663 F. 2d 365, 368 (CA2 1981) (\u201cBlackie held that the materiality of a fraud creates a presumption of reliance through its presumed effect on the market. ... Our holding is no more than an extension of Blackie\").",
+        "type": "dissent",
+        "author": "Justice Thomas,"
+      }
+    ],
+    "attorneys": [
+      "Seth P. Waxman argued the cause for petitioners. With him on the briefs were Louis R. Cohen, Andrew N. Vo timer, Daniel S. Volchok, Noah A. Levine, Steven 0. Kramer, John P. Stigi III, John M. Landry, and Jonathan D. Moss.",
+      "David C. Frederick argued the cause for respondent. With him on the brief were Derek T. Ho, Emily T. P. Rosen, Edward Labaton, Jonathan M. Plasse, and Christopher J. McDonald.",
+      "Melissa Arbus Sherry argued the cause for the United States as amicus curiae in support of respondent. On the brief were Solicitor General Verrilli, Deputy Solicitor General Stewart, Nicole A. Saharsky, Mark D. Cahn, Michael A. Conley, Jacob H. Stillman, John W. Avery, Benjamin L. Schiffrin, and Jeffrey A. Berger."
+    ],
+    "corrections": "",
+    "head_matter": "AMGEN INC. et al. v. CONNECTICUT RETIREMENT PLANS AND TRUST FUNDS\nNo. 11-1085.\nArgued November 5, 2012\nDecided February 27, 2013\nGinsburg, J., delivered the opinion of the Court, in which Roberts, C. J., and Breyer, Alito, Sotomayor, and Kagan, JJ., joined. Abito, J., filed a concurring opinion, post, p. 482. Scalia, J., filed a dissenting opinion, post, p. 483. Thomas, J., filed a dissenting opinion, in which Kennedy, J., joined, and in which Scalia, J., joined except for Part I-B, post, p. 486.\nSeth P. Waxman argued the cause for petitioners. With him on the briefs were Louis R. Cohen, Andrew N. Vo timer, Daniel S. Volchok, Noah A. Levine, Steven 0. Kramer, John P. Stigi III, John M. Landry, and Jonathan D. Moss.\nDavid C. Frederick argued the cause for respondent. With him on the brief were Derek T. Ho, Emily T. P. Rosen, Edward Labaton, Jonathan M. Plasse, and Christopher J. McDonald.\nMelissa Arbus Sherry argued the cause for the United States as amicus curiae in support of respondent. On the brief were Solicitor General Verrilli, Deputy Solicitor General Stewart, Nicole A. Saharsky, Mark D. Cahn, Michael A. Conley, Jacob H. Stillman, John W. Avery, Benjamin L. Schiffrin, and Jeffrey A. Berger.\nBriefs of amici curiae urging reversal were filed for the Chamber of Commerce of the United States of America et al. by Aaron M. Streett, David D. Sterling, Robin S. Conrad, Rachel L. Brand, James M. (Mit) Spears, and Melissa B. Kimmel; for Former SEC Commissioners and Officials et al. by Timothy S. Bishop and Joshua D. Yount; for Law Professors by John P. Elwood; for the Securities Industry and Financial Markets Association by William F. Sullivan, Peter M. Stone, Stephen B. Kinnaird, and Kevin M. Carrol; and for the Washington Legal Foundation et al. by Cory L. Andrews.\nBriefs of amici curiae urging affirmance were filed for AARP by Jay Sushelsky and Michael Schuster; for the California Public Employees\u2019 Retirement System et al. by Jay W. Eisenhofer; for Civil Procedure and Securities Law Professors by Eric Alan Isaacson and David Marcus; for Financial Economists by Ernest A. Young, William C. Fredericks, and Ann M. Lipton; for the National Association of Shareholder and Consumer Attorneys by Mr. Fredericks and Ms. Lipton; for the New York City Pension Funds et al. by Stephen R. McAllister, Lamen N. Mulligan, Darren J. Check, Michael A. Cardozo, and Gregory W. Smith; and for Public Justice, P. C., by Earl Landers Vickery and Arthur H. Bryant."
+  },
+  "file_name": "0455-01",
+  "first_page_order": 673,
+  "last_page_order": 720
+}

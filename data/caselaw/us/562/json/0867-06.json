@@ -1,0 +1,59 @@
+{
+  "id": 5985062,
+  "name": "Spaulding v. United States",
+  "name_abbreviation": "Spaulding v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11201",
+  "first_page": "867",
+  "last_page": "867",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 867"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.577,
+    "sha256": "7db534a250fec3695751e6fd478d25cf53218a10542c09507b3864a5baa3bde7",
+    "simhash": "1:022bd689e78d0c28",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Spaulding v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11201.\nSpaulding v. United States."
+  },
+  "file_name": "0867-06",
+  "first_page_order": 889,
+  "last_page_order": 889
+}

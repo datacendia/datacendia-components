@@ -1,0 +1,626 @@
+{
+  "id": 3673923,
+  "name": "UNITED STATES v. CLINTWOOD ELKHORN MINING CO. et al.",
+  "name_abbreviation": "United States v. Clintwood Elkhorn Mining Co.",
+  "decision_date": "2008-04-15",
+  "docket_number": "No. 07-308",
+  "first_page": "1",
+  "last_page": "15",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "553 U.S. 1"
+    },
+    {
+      "type": "parallel",
+      "cite": "170 L. Ed. 2d 392"
+    },
+    {
+      "type": "parallel",
+      "cite": "128 S. Ct. 1511"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2007-029"
+    },
+    {
+      "type": "vendor",
+      "cite": "2008 U.S. LEXIS 3472"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "522 U. S. 944",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11545296,
+        11545169,
+        11545267,
+        11545204,
+        11545142,
+        11545114
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/522/0944-06",
+        "/us/522/0944-03",
+        "/us/522/0944-05",
+        "/us/522/0944-04",
+        "/us/522/0944-02",
+        "/us/522/0944-01"
+      ]
+    },
+    {
+      "cite": "516 U. S. 1021",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        323976,
+        326810,
+        323149,
+        324645
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/516/1021-02",
+        "/us/516/1021-01",
+        "/us/516/1021-03",
+        "/us/516/1021-04"
+      ]
+    },
+    {
+      "cite": "416 U. S. 725",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        84348
+      ],
+      "year": 1974,
+      "pin_cites": [
+        {
+          "page": "745-746",
+          "parenthetical": "reaffirming the \"under no circumstances\" rule of Williams Packing"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/416/0725-01"
+      ]
+    },
+    {
+      "cite": "284 U. S. 498",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5717548
+      ],
+      "weight": 3,
+      "year": 1932,
+      "pin_cites": [
+        {
+          "page": "509"
+        },
+        {
+          "page": "509"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/284/0498-01"
+      ]
+    },
+    {
+      "cite": "370 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6164669
+      ],
+      "weight": 3,
+      "year": 1962,
+      "pin_cites": [
+        {
+          "page": "7"
+        },
+        {
+          "page": "7"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/370/0001-01"
+      ]
+    },
+    {
+      "cite": "496 U. S. 18",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12121531
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "37"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/496/0018-01"
+      ]
+    },
+    {
+      "cite": "283 U. S. 269",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        434317
+      ],
+      "year": 1931,
+      "pin_cites": [
+        {
+          "page": "272"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/283/0269-01"
+      ]
+    },
+    {
+      "cite": "449 U. S. 424",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11716358
+      ],
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "430"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/449/0424-01"
+      ]
+    },
+    {
+      "cite": "502 U. S. 129",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6220208
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "135",
+          "parenthetical": "quoting Rubin v. United States, 449 U. S. 424,430 (1981)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/502/0129-01"
+      ]
+    },
+    {
+      "cite": "297 U. S. 288",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3929479
+      ],
+      "year": 1936,
+      "pin_cites": [
+        {
+          "page": "341",
+          "parenthetical": "Brandeis, J., concurring"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/297/0288-01"
+      ]
+    },
+    {
+      "cite": "416 U. S. 752",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        84612
+      ],
+      "year": 1974,
+      "pin_cites": [
+        {
+          "page": "759"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/416/0752-01"
+      ]
+    },
+    {
+      "cite": "26 U. S. C. \u00a7 7421",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "331 U. S. 752",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6158885
+      ],
+      "year": 1947,
+      "pin_cites": [
+        {
+          "page": "766-767"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/331/0752-01"
+      ]
+    },
+    {
+      "cite": "414 U. S. 614",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11716467
+      ],
+      "year": 1974,
+      "pin_cites": [
+        {
+          "page": "622"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/414/0614-01"
+      ]
+    },
+    {
+      "cite": "467 U. S. 986",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6211725
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "1018"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/467/0986-01"
+      ]
+    },
+    {
+      "cite": "461 U. S. 273",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11298473
+      ],
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "292"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/461/0273-01"
+      ]
+    },
+    {
+      "cite": "44 Stat. 116",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "313 U. S. 443",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6141127
+      ],
+      "weight": 6,
+      "year": 1941,
+      "pin_cites": [
+        {
+          "page": "446"
+        },
+        {
+          "page": "447"
+        },
+        {
+          "page": "448"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/313/0443-01"
+      ]
+    },
+    {
+      "cite": "26 U. S. C. \u00a7 6511",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)",
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "519 U. S. 347",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11595552
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "350"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/519/0347-01"
+      ]
+    },
+    {
+      "cite": "552 U. S. 1061",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "year": 2007,
+      "opinion_index": 0
+    },
+    {
+      "cite": "478 F. 3d 1373",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "weight": 2,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "1374-1375"
+        },
+        {
+          "page": "1376"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 U. S. C. \u00a72411",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 Fed. Cl. 563",
+      "category": "reporters:specialty",
+      "reporter": "Fed. Cl.",
+      "case_ids": [
+        1027537
+      ],
+      "weight": 2,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "564"
+        },
+        {
+          "page": "566"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/fed-cl/54/0563-01"
+      ]
+    },
+    {
+      "cite": "205 F. 3d 1369",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11464705,
+        7770204
+      ],
+      "year": 2000,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/205/1369-01",
+        "/fed-cl/46/1369-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 1491",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "33 F. Supp. 2d 466",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        1387037
+      ],
+      "weight": 2,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "469"
+        },
+        {
+          "page": "469"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/33/0466-01"
+      ]
+    },
+    {
+      "cite": "26 U. S. C. \u00a7 4121",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(a)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "26 U. S. C. \u00a7 7422",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "494 U. S. 596",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5333
+      ],
+      "weight": 2,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "609-610"
+        },
+        {
+          "page": "602"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/494/0596-01"
+      ]
+    },
+    {
+      "cite": "550 U. S. 429",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3556149
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "431"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/550/0429-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 1346",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(1)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 949,
+    "char_count": 22908,
+    "ocr_confidence": 0.69,
+    "pagerank": {
+      "raw": 6.153283384047843e-06,
+      "percentile": 0.9991478267651898
+    },
+    "sha256": "cb0be10c8a6a706164c0fbd1f240e5601321f1f169accfe6b443c04da740b8cd",
+    "simhash": "1:381ba54ceb24bed4",
+    "word_count": 3878
+  },
+  "last_updated": "2024-02-27T23:43:53.261952+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "UNITED STATES v. CLINTWOOD ELKHORN MINING CO. et al."
+    ],
+    "opinions": [
+      {
+        "text": "Chief Justice Roberts\ndelivered the opinion of the Court.\nThe Internal Revenue Code provides that taxpayers seeking a refund of taxes unlawfully assessed must comply with tax refund procedures set forth in the Code. Under those procedures, a taxpayer must file an administrative claim with the Internal Revenue Service before filing suit against the Government. Such a claim must be filed within three years of the filing of a return or two years of payment of the tax, whichever is later. The Tucker Act, in contrast, is more forgiving, allowing claims to be brought against the United States within six years of the challenged conduct. The question in this case is whether a taxpayer suing for a refund of taxes collected in violation of the Export Clause of the Constitution may proceed under the Tucker Act, when his suit does not meet the time limits for refund actions in the Internal Revenue Code. The answer is no.\nI\nA taxpayer seeking a refund of taxes erroneously or unlawfully assessed or collected may bring an action against the Government either in United States district court or in the United States Court of Federal Claims. 28 U. S. C. \u00a7 1346(a)(1); EC Term of Years Trust v. United States, 550 U. S. 429, 431, and n. 2 (2007). The Internal Revenue Code specifies that before doing so, the taxpayer must comply with the tax refund scheme established in the Code. United States v. Dalm, 494 U. S. 596, 609-610 (1990). That scheme provides that a claim for a refund must be filed with the Internal Revenue Service (IRS) before suit can be brought, and establishes strict timeframes for filing such a claim.\nIn particular, 26 U. S. C. \u00a7 7422(a) specifies:\n\u201cNo suit or proceeding shall be maintained in any court for the recovery of any internal revenue tax alleged to have been erroneously or illegally assessed or collected, or of any penalty claimed to have been collected without authority, or of any sum alleged to have been excessive or in any manner wrongfully collected, until a claim for refund or credit has been duly filed with the [IRS].\u201d\nThe Code further establishes a time limit for filing such a refund claim with the IRS: To receive a \u201crefund of an overpayment of any tax imposed by this title in respect of which tax the taxpayer is required to file a return,\u201d a refund claim must be filed no later than \u201c3 years from the time the return was filed or 2 years from the time the tax was paid, whichever of such periods expires the later.\u201d \u00a7 6511(a). And \u00a7 6511(b)(1) mandates that \u201c[n]o credit or refund shall be allowed or made\u201d if a claim is not filed within the time limits set forth in \u00a7 6511(a). \u201cRead together, the import of these sections is clear: unless a claim for refund of a tax has been filed within the time limits imposed by \u00a7 6511(a), a suit for refund . . . may'not be maintained in any court.\u201d Dalm, supra, at 602.\nIn 1978, Congress levied a tax \u201con coal from mines located in the United States sold by the producer,\u201d 26 U. S. C. \u00a7 4121(a)(1), and specifically applied this tax to coal exports, see \u00a7 4221(a) (1994 ed.) (excepting from the general ban on taxing exports those taxes imposed under, inter alia, \u00a7 4121). In 1998, a group of companies challenged the tax in the District Court for the Eastern District of Virginia, contending that it violated the Export Clause of the Constitution. That Clause provides that \u201cNo Tax or Duty shall be laid on Articles exported from any State.\u201d Art. I, \u00a79, cl. 5. The District Court agreed and held the tax unconstitutional. Ranger Fuel Corp. v. United States, 33 F. Supp. 2d 466, 469 (1998). The Government did not appeal, and the IRS acquiesced in the District Court\u2019s holding. See IRS Notice 2000-28, 2000-1 Cum. Bull. 1116, 1116-1117 (IRS Notice).\nThe respondents here, three coal companies, had all paid taxes on coal exports under \u00a7 4121(a) \u201c[s]ince as early as 1978.\u201d App. to Pet. for Cert. 36a. After \u00a7 4121(a) was held unconstitutional as applied to coal exports, the companies filed timely administrative claims in accordance with the refund scheme outlined above, seeking a refund of coal taxes they had paid in 1997, 1998, and 1999. The IRS refunded those taxes, with interest.\nThe companies also filed suit in the Court of Federal Claims seeking a refund of $1,065,936 in taxes paid between 1994 and 1996. They did not file any claim for those taxes with the IRS; any such claim would of course have been denied, given the limits set forth in \u00a76511. See IRS Notice, at 1117 (\u201cClaims [for a refund of taxes paid under \u00a74121] must be filed within the period prescribed by \u00a7 6511\u201d). Notwithstanding the failure of the companies to file timely administrative refund claims, the Court of Federal Claims allowed the companies to pursue their suit directly under the Export Clause. Jurisdiction rested on the Tucker Act, 28 U. S. C. \u00a7 1491(a)(1), and the companies limited their claim to taxes paid within that statute\u2019s 6-year limitations period, \u00a72501 (2000 ed. and Supp. V).\nIn allowing the companies to proceed outside the confines of the Internal Revenue Code refund procedures, the court relied on the decision of the Court of Appeals for the Federal Circuit in Cyprus Amax Coal Co. v. United States, 205 F. 3d 1369 (2000). Andalex Resources, Inc. v. United States, 54 Fed. Cl. 563, 564 (2002). The Court of Federal Claims did not, however, allow the companies to recover interest on the taxes paid under 28 U. S. C. \u00a72411. That provision requires the Government to pay interest \u201cfor any overpayment in respect of any internal-revenue tax,\u201d but the court held that the statute applied only to refund claims brought under the Code, not to claims brought directly under the Export Clause. 54 Fed. Cl., at 566.\nThe Court of Appeals affirmed in part and reversed in part. It first refused to revisit its holding in Cyprus Amax, and therefore upheld the ruling that the companies could pursue their claim under the Export Clause, despite having failed to file timely administrative refund claims. 478 F. 3d 1373, 1374-1375 (CA Fed. 2007). The Court of Appeals reversed the Court of Federal Claims interest holding, however, finding that the Government was required to pay the companies interest on the 1994-1996 amounts under \u00a72411. Id., at 1376.\nWe granted certiorari, 552 U. S. 1061 (2007), and now reverse.\nII\nA\nThe outcome here is clear given the language of the pertinent statutory provisions. Title 26 U. S. C. \u00a7 7422(a) states that \u201c[n]o suit... shall be maintained in any court for the recovery of any internal revenue tax alleged to have been erroneously or illegally assessed or collected, or of any penalty claimed to have been collected without authority, or of any sum alleged to have been excessive or in any manner wrongfully collected, until a claim for refund . . . has been duly filed with\u201d the IRS. (Emphasis added.) Here the companies did not file a refund claim with the IRS for the 1994-1996 taxes, and therefore may bring \u201c[n]o suit\u201d in \u201cany court\u201d to recover \u201cany internal revenue tax\u201d or \u201cany sum\u201d alleged to have been wrongfully collected \u201cin any manner.\u201d Five \u201cany\u2019s\u201d in one sentence and it begins to seem that Congress meant the statute to have expansive reach.\nMoreover, the time limits for filing administrative refund claims in \u00a7 6511 \u2014 set forth in an \u201cunusually emphatic form,\u201d United States v. Brockamp, 519 U. S. 347, 350 (1997) \u2014 apply to \u201cany tax imposed by this title,\u201d 26 U. S. C. \u00a7 6511(a) (emphasis added). The statute further provides that \u201c[n]o credit or refund shall be allowed or made after the expiration of the period of limitation prescribed in subsection (a) . . . unless a claim for credit or refund is filed by the taxpayer within such period.\u201d \u00a7 6511(b)(1). Again, this language on its face plainly covers the companies\u2019 claim for a \u201crefund\u201d of \u201ctax[es] imposed by\u201d Title 26, specifically 26 U. S. C. \u00a74121. The companies argue that these statutory provisions are ambiguous, Brief for Respondents 43-45, but we cannot imagine what language could more clearly state that taxpayers seeking refunds of unlawfully assessed taxes must comply with the Code\u2019s refund scheme before bringing suit, including the requirement to file a timely administrative claim.\nIndeed, we all but decided the question presented over six decades ago in United States v. A. S. Kreider Co., 313 U. S. 443 (1941). Section 1113(a) of the Revenue Act of 1926, like the refund claim provision in \u00a7 7422(a) of the current Code, prescribed that \u201c[n]o suit or proceeding shall be maintained in any court for the recovery of any internal-revenue tax alleged to have been erroneously or illegally assessed or collected, or of any penalty claimed to have been collected without authority, or of any sum alleged to have been excessive or in any manner wrongfully collected until a claim for refund or credit has been duly filed with the Commissioner of Internal Revenue,\u201d and established a time limit for bringing suit once the claim-filing requirement had been met. 44 Stat. 116. Like the companies here, A. S. Kreider had failed to file a tax refund action within that limitations period. See 313 U. S., at 446. And, like the companies here, A. S. Kreider argued that it was instead subject only to the longer 6-year statute of limitations under the Tucker Act. Id., at 447.\nWe rejected the claim, holding that the Tucker Act limitations period \u201cwas intended merely to place an outside limit on the period within which all suits might be initiated\u201d under that Act, and that \u201cCongress left it open to provide less liberally for particular actions which, because of special considerations, required different treatment.\u201d Ibid. We held that the limitations period in \u00a7 1113(a) was \u201cprecisely that type of provision,\u201d finding that Congress created a shorter statute of limitations for tax claims because \u201csuits against the United States for the recovery of taxes impeded effective administration of the revenue laws.\u201d Ibid. If such suits were allowed to be brought subject only to the 6-year limitations period in the Tucker Act, we explained, \u00a7 1113(a) would have \u201cno meaning whatever.\u201d Id., at 448. So too here. The refund scheme in the current Code would have \u201cno meaning whatever\u201d if taxpayers failing to comply with it were nonetheless allowed to bring suit subject only to the Tucker Act\u2019s longer time bar.\nB\nThe companies gamely argue for a different result here because the coal tax at issue was assessed in violation of the Export Clause of the Constitution. They spend much of their brief arguing that the Export Clause itself creates a cause of action against the Government, which can be brought directly under the Tucker Act. See Brief for Respondents 8-25. We need not decide this question here, because it does not matter. If the companies\u2019 claims are subject to the Code provisions, those claims are barred whatever the source of the cause of action. We therefore turn to the companies\u2019 assertion that their claims are somehow exempt from the broad sweep of the Code provisions.\nThe companies do not argue for such an exemption simply because their claims are based on a constitutional violation. As they acknowledge, id., at 34, a \u201cconstitutional claim can become time-barred just as any other claim can,\u201d Block v. North Dakota ex rel. Board of Univ. and School Lands, 461 U. S. 273, 292 (1983). Further, Congress has the authority to require administrative exhaustion before allowing a suit against the Government, even for a constitutional violation. See, e. g., Ruckelshaus v. Monsanto Co., 467 U. S. 986, 1018 (1984); Christian v. New York State Dept. of Labor, 414 U. S. 614, 622 (1974); Aircraft & Diesel Equipment Corp. v. Hirsch, 331 U. S. 752, 766-767 (1947).\nThese principles are fully applicable to claims of unconstitutional taxation, a point highlighted by what we have said in other cases about the Anti-Injunction Act. That statute commands that (absent certain exceptions) \u201cno suit for the purpose of restraining the assessment or collection of any tax shall be maintained in any court.\u201d 26 U. S. C. \u00a7 7421(a). The \u201cdecisions of this Court make it unmistakably clear that the constitutional nature of a taxpayer\u2019s claim ... is of no consequence\u201d to whether the prohibition against tax injunctions applies. Alexander v. \u201cAmericans United\u201d Inc., 416 U. S. 752, 759 (1974). This is so even though the Anti-Injunction Act\u2019s prohibitions impose upon the wronged taxpayer requirements at least as onerous as those mandated by the refund scheme \u2014 the taxpayer must succumb to an unconstitutional tax, and seek recourse only after it has been unlawfully exacted. We see no reason why compliance with straightforward administrative requirements and reasonable time limits to seek a refund once a tax has been paid should lead to a different result.\nThe companies assert that Export Clause claims in particular must be treated differently from constitutional claims in general. This is so, they argue, because the Clause is not simply a limitation on the taxing authority but a prohibition that \u201ccarves one particular economic activity completely out of Congress\u2019s power.\u201d Brief for Respondents 11. That distinction is without substance and totally manipulate: If the pertinent authority is regarded as the power to tax exports, the Clause is indeed a complete prohibition on congressional power. But if the pertinent authority is instead viewed as the \u201cPower To lay and collect Taxes,\u201d U. S. Const., Art. I, \u00a7 8, cl. 1, then the Clause is properly regarded as a limitation on that power. We do not question the importance of the Export Clause to the success of the enterprise in Philadelphia in 1787, see Brief for Respondents 11-13, but we see no basis for treating taxes collected in violation of its terms differently from taxes challenged on other grounds.\nIndeed, the companies more or less give up the game when they acknowledge that their claims are subject to the Tucker Act\u2019s statute of limitations. See id., at 34. The question is thus not whether the companies\u2019 refund claim under the Export Clause can be limited, but rather which limitation applies. The companies are therefore left to argue that, despite the explicit and expansive statutory language described above, the refund scheme in Title 26 does not apply to their case as a matter of statutory interpretation. We find this ambitious argument unavailing.\nThe companies seek to support it by characterizing the refund scheme set out in the Code as \u201cpro-government and revenue-protective,\u201d and therefore \u201cconstitutionally dubious\u201d as applied to Export Clause cases. Id., at 28-29. Given this potential constitutional infirmity, the companies argue, Congress could not have intended the refund scheme to apply to taxes assessed in violation of the Export Clause. See Ashwander v. TVA, 297 U. S. 288, 341 (1936) (Brandeis, J., concurring). We disagree. To begin with, any argument that Congress did not mean to require those in the companies\u2019 position to comply with the tax refund scheme runs into a powerful impediment, for \u201c[t]he \u2018strong presumption\u2019 that the plain language of the statute expresses congressional intent is rebutted only in \u2018rare and exceptional circumstances.\u2019\u201d Ardestani v. INS, 502 U. S. 129,135 (1991) (quoting Rubin v. United States, 449 U. S. 424,430 (1981)). As we have already explained, the language of the relevant statutes emphatically covers the facts of this case.\nIn any event, we see no constitutional problem at all. Congress has indeed established a detailed refund scheme that subjects complaining taxpayers to various requirements before they can bring suit. This scheme is designed \u201cto advise the appropriate officials of the demands or claims intended to be asserted, so as to insure an orderly administration of the revenue,\u201d United States v. Felt & Tarrant Mfg. Co., 283 U. S. 269, 272 (1931), to provide that refund claims are made promptly, and to allow the IRS to avoid unnecessary litigation by correcting conceded errors. Even when the constitutionality of a tax is challenged, taxing authorities do in fact have an \u201cexceedingly strong interest in financial stability,\u201d McKesson Corp. v. Division of Alcoholic Beverages and Tobacco, Fla. Dept. of Business Regulation, 496 U. S. 18, 37 (1990), an interest they may pursue through provisions of the sort at issue here.\nWe do not see why invocation of the Export Clause would deprive Congress of the power to protect this \u201cexceedingly strong interest.\u201d Congress may not impose a tax in violation of the Export Clause (or any other constitutional provision, for that matter). But it is certainly within Congress\u2019s authority to ensure that allegations of taxes unlawfully assessed \u2014 whether the asserted illegality is based upon the Export Clause or any other provision of law \u2014 are processed in an orderly and timely manner, and that costly litigation is avoided when possible. The companies\u2019 claim that the Code procedures are themselves excessively burdensome is belied by the companies\u2019 own invocation of those procedures for taxes paid within the Code\u2019s limitations period, which resulted in full refunds with interest.\nC\nAs a fallback argument, the companies maintain that even if the refund scheme applies to Export Clause cases generally, it does not \u201capply to taxes that are, on their face, unconstitutional.\u201d Brief for Respondents 39. They rely for this proposition on Enochs v. Williams Packing & Nav. Co., 370 U. S. 1 (1962), a case dealing with the Anti-Injunction Act, 26 U. S. C. \u00a7 7421(a). Despite that Act\u2019s broad and mandatory language, we explained that \u201cif it is clear that under no circumstances could the Government ultimately prevail,... the attempted collection may be enjoined if equity jurisdiction otherwise exists. In such a situation the exaction is merely in \u2018the guise of a tax.\u2019 \u201d 370 U. S., at 7 (quoting Miller v. Standard Nut Margarine Co. of Fla., 284 U. S. 498, 509 (1932)). See also Bob Jones Univ. v. Simon, 416 U. S. 725, 745-746 (1974) (reaffirming the \u201cunder no circumstances\u201d rule of Williams Packing).\nOn the force of Williams Packing, the companies argue that the refund scheme should similarly be read as inapplicable to situations in which there are \u201cno circumstances\u201d under which the tax imposed could be held valid under the Export Clause. The trouble with this is that \u00a77422, the primary statute governing the refund process, is written much more broadly than \u00a7 7421(a), the statute at issue in Williams Packing. Section 7422(a) states that \u201c[n]o suit... shall be maintained in any court for the recovery of any internal revenue tax alleged to have been erroneously or illegally assessed or collected ... until a claim for refund or credit has been duly filed with the\u201d IRS. (Emphasis added.) This language generally tracks that of the Anti-Injunction Act, which also applies to suits \u201crestraining the assessment or collection of any tax.\u201d \u00a7 7421(a) (emphasis added). But \u00a7 7422(a) goes on to apply its prohibition against suit absent a proper refund claim to \u201cany sum alleged to have been excessive or in any manner wrongfully collected.\u201d (Emphasis added.) Even if we agreed that a facially unconstitutional tax for purposes of the tax refund scheme is \u201cmerely in The guise of a tax,\u2019 \u201d Williams Packing, supra, at 7 (quoting Standard Nut Margarine, supra, at 509), and therefore not a \u201ctax alleged to have been erroneously or illegally assessed or collected,\u201d \u00a7 7422(a), it would nevertheless clearly fall into the broader category of \u201cany sum ... in any manner wrongfully collected,\u201d ibid.\nMoreover, even if we were to accept the companies\u2019 argument that the \u201cunder no circumstances\u201d limitation on the Anti-Injunction Act applies to the refund scheme, they still would not prevail. We made clear in Williams Packing that \u201cthe question of whether the Government has a chance of ultimately prevailing is to be determined on the basis of the information available to it at the time of suit. Only if it is then apparent that, under the most liberal view of the law and the facts, the United States cannot establish its claim, may the suit for an injunction be maintained.\u201d 370 U. S., at 7. A tax injunction suit, of course, is brought at the time the Government attempts to assess a tax on the taxpayer. Thus, if we applied the Williams Packing \u201cunder no circumstances\u201d rule to the refund scheme, we would judge the Government\u2019s chances of success as of the time the tax was assessed.\nIn this case, the companies seek refunds for taxes paid between 1994 and 1996. At that time, the scope of the Export Clause was sufficiently debatable that we granted certiorari in 1995, see United States v. International Business Machines Corp., 516 U. S. 1021, and again in 1997, see United States v. United States Shoe Corp., 522 U. S. 944, to clear it up. What is more, the District Court that struck down the application of \u00a7 4121(a) to coal exports partially relied on these cases in arriving at its decision, Ranger Fuel Corp., 33 F. Supp. 2d, at 469, and the IRS cited, inter alia, International Business Machines, supra, in its acquiescence notice, see IRS Notice, at 1116. Indeed, we would think that if the unconstitutionality of the coal export tax were so obvious that the Government had no chance of prevailing, someone paying the tax \u2014 such as these companies \u2014 would have successfully challenged it earlier than 20 years after its enactment.\nWe therefore hold that the plain language of 26 U. S. C. \u00a7\u00a7 7422(a) and 6511 requires a taxpayer seeking a refund for a tax assessed in violation of the Export Clause, just as for any other unlawfully assessed tax, to file a timely administrative refund claim before bringing suit against the Government. Because we find that the Court of Appeals erred in allowing the companies to bring suit seeking a refund for the 1994-1996 taxes, we do not reach the question whether the\nCourt of Appeals also erred in awarding the companies interest on those amounts under 28 U. S. C. \u00a72411. The judgment of the Court of Appeals is reversed.\nIt is so ordered.",
+        "type": "majority",
+        "author": "Chief Justice Roberts"
+      }
+    ],
+    "attorneys": [
+      "William M. Jay argued the cause for the United States. With him on the briefs were Solicitor General Clement, Acting Assistant Attorney General Morrison, Deputy Solicitor General Hungar, Acting Deputy Assistant Attorney General Rothenberg, Kenneth L. Greene, and Steven W. Parks.",
+      "Patricia A. Millett argued the cause for respondents. With her on the brief were Thomas C. Goldstein, Steven H. Becker, Paul A. Horowitz, and Suzanne I. Offerman"
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES v. CLINTWOOD ELKHORN MINING CO. et al.\nCERTIORARI TO THE UNITED STATES COURT OF APPEALS FOR THE FEDERAL CIRCUIT\nNo. 07-308.\nArgued March 24, 2008\nDecided April 15, 2008\nWilliam M. Jay argued the cause for the United States. With him on the briefs were Solicitor General Clement, Acting Assistant Attorney General Morrison, Deputy Solicitor General Hungar, Acting Deputy Assistant Attorney General Rothenberg, Kenneth L. Greene, and Steven W. Parks.\nPatricia A. Millett argued the cause for respondents. With her on the brief were Thomas C. Goldstein, Steven H. Becker, Paul A. Horowitz, and Suzanne I. Offerman\nAnthony T. Caso, Karen R. Horned, and Elizabeth Milito filed a brief for the National Federation of Independent Business Legal Foundation as amicus curiae urging affirmance.\nClifton S. Elgarten filed a brief for Alliance Coal, LLC, as amicus curiae."
+  },
+  "file_name": "0001-01",
+  "first_page_order": 63,
+  "last_page_order": 77
+}

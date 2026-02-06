@@ -1,0 +1,773 @@
+{
+  "id": 12518913,
+  "name": "In RE: JACKSON MASONRY, LLC, Debtor. Ritzen Group, Incorporated, Appellant, v. Jackson Masonry, LLC, Appellee.",
+  "name_abbreviation": "Ritzen Grp., Inc. v. Jackson Masonry, LLC (In re Jackson Masonry, LLC)",
+  "decision_date": "2018-10-16",
+  "docket_number": "Nos. 18-5157; 18-5161",
+  "first_page": "494",
+  "last_page": "506",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "906 F.3d 494"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "6th Cir.",
+    "id": 21296,
+    "name": "United States Court of Appeals for the Six Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "350 B.R. 752",
+      "category": "reporters:specialty",
+      "reporter": "B.R.",
+      "case_ids": [
+        3821349
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "755"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/350/0752-01"
+      ]
+    },
+    {
+      "cite": "726 F.3d 857",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4074306
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "860",
+          "parenthetical": "citing 28 U.S.C. \u00a7\u00a7 158(a)(3), (d)(2)(A) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/726/0857-01"
+      ]
+    },
+    {
+      "cite": "507 F.3d 416",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6046731,
+        5859182
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "419"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/507/0416-01",
+        "/br/379/0416-01"
+      ]
+    },
+    {
+      "cite": "2009 WL 482376",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "*2-3",
+          "parenthetical": "rejecting a real estate buyer's action for specific performance because he was unable to pay for the property by the deadline"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "713 S.W.2d 79",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9960689
+      ],
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "81"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/713/0079-01"
+      ]
+    },
+    {
+      "cite": "1987 WL 19444",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "*5",
+          "parenthetical": "citing Ching-Ming Chen v. Advantage Co. , 713 S.W.2d 79, 81 (Tenn. Ct. App. 1986) "
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2013 WL 1310501",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "*28",
+          "parenthetical": "\"Notwithstanding the title of the [Rule 12(f) ] motion, the relief requested by the Plaintiff falls within the confines of Federal Rule of Civil Procedure 37.\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "65 F.Supp.3d 863",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "case_ids": [
+        4176206
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "869"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-3d/65/0863-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 2255",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "373 U.S. 334",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11717996
+      ],
+      "weight": 3,
+      "year": 1963,
+      "pin_cites": [
+        {
+          "page": "337-38"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/373/0334-01"
+      ]
+    },
+    {
+      "cite": "125 F.3d 989",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        910581
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "995-96",
+          "parenthetical": "\"It is not sufficient for a party to mention a possible argument in the most skeletal way, leaving the court to put flesh on its bones.\" (internal quotation marks and alteration omitted)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/125/0989-01"
+      ]
+    },
+    {
+      "cite": "11 U.S.C. \u00a7 1112",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "(b)",
+          "parenthetical": "permitting a bankruptcy court to dismiss a case \"for cause\" \"on request of a party in interest\""
+        },
+        {
+          "page": "15, 18"
+        },
+        {
+          "page": "18"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "968 F.2d 1003",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10518561,
+        6520937
+      ],
+      "year": 1992,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/968/1003-01",
+        "/br/142/1003-01"
+      ]
+    },
+    {
+      "cite": "923 F.2d 782",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10545211,
+        6504494
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "785"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/923/0782-01",
+        "/br/123/0782-02"
+      ]
+    },
+    {
+      "cite": "113 S.Ct. 1489",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        6527745
+      ],
+      "year": 1993,
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/150/1489-01"
+      ]
+    },
+    {
+      "cite": "507 U.S. 380",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6229999
+      ],
+      "weight": 2,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "383-85"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/507/0380-01"
+      ]
+    },
+    {
+      "cite": "2011 WL 2182364",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "*13"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "423 B.R. 655",
+      "category": "reporters:specialty",
+      "reporter": "B.R.",
+      "case_ids": [
+        3789609
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "660"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/423/0655-01"
+      ]
+    },
+    {
+      "cite": "551 U.S. 224",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3573144
+      ],
+      "weight": 3,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "232"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/551/0224-01"
+      ]
+    },
+    {
+      "cite": "711 F.2d 441",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        6128072,
+        1870478
+      ],
+      "weight": 2,
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "444-45"
+        },
+        {
+          "page": "444-45"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/31/0441-01",
+        "/f2d/711/0441-01"
+      ]
+    },
+    {
+      "cite": "543 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3442217
+      ],
+      "weight": 3,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "12"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/543/0001-01"
+      ]
+    },
+    {
+      "cite": "131 S.Ct. 716",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        5979953,
+        3784650,
+        12439772
+      ],
+      "weight": 2,
+      "year": 2011,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/562/0061-01",
+        "/br/441/0716-01",
+        "/l-ed-2d/178/0603-01"
+      ]
+    },
+    {
+      "cite": "562 U.S. 61",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5979953,
+        12439772
+      ],
+      "weight": 3,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "69"
+        },
+        {
+          "page": "70"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/562/0061-01",
+        "/l-ed-2d/178/0603-01"
+      ]
+    },
+    {
+      "cite": "2018 WL 558837",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "*5"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "761 F.3d 177",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4152033,
+        4195195
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "185"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/761/0177-01",
+        "/br/515/0177-01"
+      ]
+    },
+    {
+      "cite": "831 F.2d 410",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1768160,
+        6546452,
+        1768229
+      ],
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "414"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/831/0410-02",
+        "/br/78/0410-02",
+        "/f2d/831/0410-01"
+      ]
+    },
+    {
+      "cite": "852 F.2d 79",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10542161,
+        6124866
+      ],
+      "weight": 2,
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "81",
+          "parenthetical": "\"In the context of bankruptcy cases, the definition of a final order is less than crystalline.\" (quoting In re Meyertech Corp. , 831 F.2d 410, 414 (3d Cir. 1987) )"
+        },
+        {
+          "page": "81",
+          "parenthetical": "applying bankruptcy finality when \"nothing remains for the [lower] court to do\" but also considering finality \"in a more pragmatic and less technical sense\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/852/0079-01",
+        "/br/87/0079-01"
+      ]
+    },
+    {
+      "cite": "538 F.3d 647",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3779812,
+        4127582
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "651",
+          "parenthetical": "stating that bankruptcy finality caselaw \"suffers from a lack of clarity\" and the list of orders considered final \"is dismayingly long and inconsistent\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/394/0647-01",
+        "/f3d/538/0647-01"
+      ]
+    },
+    {
+      "cite": "811 F.3d 1120",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4082284
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1126",
+          "parenthetical": "\"Our precedent has not been entirely pellucid regarding the flexible concept of finality in the bankruptcy context.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/811/1120-01"
+      ]
+    },
+    {
+      "cite": "547 U.S. 651",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3276454
+      ],
+      "weight": 3,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/547/0651-01"
+      ]
+    },
+    {
+      "cite": "12 Bankr. Dev. J. 583",
+      "category": "journals:journal",
+      "reporter": "Bankr. Dev. J.",
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "601"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "191 L.Ed.2d 621",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "year": 2015,
+      "opinion_index": 0
+    },
+    {
+      "cite": "135 S.Ct. 1686",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        4114067
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1692"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/528/1686-01"
+      ]
+    },
+    {
+      "cite": "558 U.S. 100",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3638928
+      ],
+      "weight": 3,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "106",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/558/0100-01"
+      ]
+    },
+    {
+      "cite": "135 S.Ct. 897",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12594404
+      ],
+      "weight": 2,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "902"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/135/0897-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1291",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 158",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 11,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)(3)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "870 F.3d 436",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12275257
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "442"
+        },
+        {
+          "page": "442"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/870/0436-01"
+      ]
+    },
+    {
+      "cite": "11 U.S.C. \u00a7 362",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 7,
+      "pin_cites": [
+        {
+          "page": "(d)"
+        },
+        {
+          "page": "(d)"
+        },
+        {
+          "page": "23"
+        },
+        {
+          "page": "12"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1464,
+    "char_count": 35147,
+    "pagerank": {
+      "raw": 1.45493939834988e-07,
+      "percentile": 0.6557641005325021
+    },
+    "sha256": "dcecfabbe4888b4004d3f56ed36454a4feaaa9ced965b2f2b5d46a61aafaed9a",
+    "simhash": "1:713052b03be47297",
+    "word_count": 5681
+  },
+  "last_updated": "2024-02-27T18:46:07.237745+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before: SUTTON, McKEAGUE, and THAPAR, Circuit Judges."
+    ],
+    "parties": [
+      "In RE: JACKSON MASONRY, LLC, Debtor."
+    ],
+    "opinions": [
+      {
+        "text": "THAPAR, Circuit Judge.\nDeadlines matter. Ritzen Group missed two of them: the closing deadline in a contract and the appellate deadline for bankruptcy orders. Accordingly, the district court rejected both of Ritzen's appeals. We affirm.\nI.\nOver five years ago, Ritzen Group contracted to buy a piece of property from Jackson Masonry. But the sale never went through. Ritzen claims Jackson breached by providing error-ridden documentation on the eve of the closing deadline, while Jackson claims Ritzen breached by failing to secure funding by that deadline.\nAfter the deal failed, Ritzen sued Jackson for breach of contract in Tennessee state court. The case progressed for nearly a year-and-a-half until, about a week before trial, Jackson filed for bankruptcy. As a result of the bankruptcy, the litigation was automatically stayed. 11 U.S.C. \u00a7 362. Ritzen filed a motion to lift the stay, which the bankruptcy court denied. Ritzen did not appeal.\nInstead, Ritzen sought to vindicate its rights in bankruptcy court. So Ritzen brought a claim against the bankruptcy estate. It lost. The bankruptcy court found that Ritzen, not Jackson, breached the contract. Ritzen subsequently filed two appeals to the district court. The first targeted the bankruptcy court's order denying relief from the automatic stay. The second targeted the breach-of-contract determination. The district court found that the first appeal was untimely and rejected the second on the merits.\nNow Ritzen appeals again. We review the bankruptcy court's fact findings for abuse of discretion and its legal conclusions de novo. In re Purdy , 870 F.3d 436, 442 (6th Cir. 2017).\nII.\nWe start with Ritzen's first appeal contesting the stay order. We begin, as we must, with the text of the bankruptcy appeals statute. Under the statute, a bankruptcy court's order may be immediately appealed if it is (1) \"entered in [a]\n... proceeding[ ]\" and (2) \"final\"-terminating that proceeding. 28 U.S.C. \u00a7 158(a). An order denying stay relief terminates a proceeding, so it is final. In bankruptcy, parties must appeal final orders within fourteen days of the court's ruling. Fed. R. Bankr. P. 8002(a). Ritzen did not appeal the stay-relief denial within fourteen days. Thus, Ritzen's appeal is untimely.\nA.\nIn ordinary civil litigation, parties can generally only appeal \"final decisions.\" 28 U.S.C. \u00a7 1291. A decision is \"final\" when the court has disposed of every claim for relief by every party and has nothing left to do but execute the judgment. Gelboim v. Bank of Am. Corp. , --- U.S. ----, 135 S.Ct. 897, 902, 190 L.Ed.2d 789 (2015). In other words, parties cannot appeal until the entire case is complete. This general rule prevents \"piecemeal\" appeals that would bog things down, \"undermin[ing] efficient judicial administration.\" Mohawk Indus., Inc v. Carpenter , 558 U.S. 100, 106, 130 S.Ct. 599, 175 L.Ed.2d 458 (2009) (internal quotation marks omitted).\nBut bankruptcy is different. A bankruptcy case is an aggregation of individual disputes, many of which could be entire cases on their own. See Bullard v. Blue Hills Bank , --- U.S. ----, 135 S.Ct. 1686, 1692, 191 L.Ed.2d 621 (2015). Take, for example, Ritzen's contract claim against Jackson-a fully discrete dispute litigated within the overall umbrella of Jackson's bankruptcy case. Once such a dispute is finally decided, it is immediately appealable-the fact that the overall bankruptcy case may be ongoing is no reason to delay. In fact, just the opposite: a bankruptcy case is like a jigsaw puzzle, and the claims against the bankrupt debtor are the pieces. To complete the puzzle, one must \"start by putting some of the pieces firmly in place.\" John Hennigan, Jr., Toward Regularizing Appealability in Bankruptcy , 12 Bankr. Dev. J. 583, 601 (1996). \"Accordingly, Congress has long provided that orders in bankruptcy cases may be immediately appealed if they finally dispose of discrete disputes within the larger case.\" Bullard , 135 S.Ct. at 1692 (quoting Howard Delivery Serv. , Inc. v. Zurich Am. Ins. Co. , 547 U.S. 651, 657 n.3, 126 S.Ct. 2105, 165 L.Ed.2d 110 (2006) (internal quotation marks omitted)).\nUnfortunately, courts have taken the loose finality in bankruptcy as a license for judicial invention. The result: a series of vague tests that are impossible to apply consistently. 1 Collier on Bankruptcy \u00b6 5.08 (16th ed. 2014) (\"In the specific context of bankruptcy cases, the courts have had a difficult time in determining what is a final order.\"); see, e.g. , In re Perl , 811 F.3d 1120, 1126 (9th Cir. 2016) (\"Our precedent has not been entirely pellucid regarding the flexible concept of finality in the bankruptcy context.\"); In re Comdisco, Inc. , 538 F.3d 647, 651 (7th Cir. 2008) (stating that bankruptcy finality caselaw \"suffers from a lack of clarity\" and the list of orders considered final \"is dismayingly long and inconsistent\"); In re West Electronics, Inc. , 852 F.2d 79, 81 (3d Cir. 1988) (\"In the context of bankruptcy cases, the definition of a final order is less than crystalline.\" (quoting In re Meyertech Corp. , 831 F.2d 410, 414 (3d Cir. 1987) )). In some cases, courts do not articulate a general test at all. They simply treat the finality of the specific order before them as a case-by-case question and do not look to or articulate principles that can be applied to other types of orders. As a result, parties must constantly guess, at risk of either appealing too early and getting bounced back, or appealing too late and forfeiting their rights. Appellate deadlines cannot serve their purpose when their trigger is unclear.\nThis case is a perfect example. The parties are unable to articulate a clear test for whether a bankruptcy order is final. For good reason-the courts have not given them one. Ritzen asks us to adopt the First Circuit's approach, where \"[e]verything depends on the circumstances, naturally: taking into account the particular order's reasoning and effect, an inquiring court must determine ... whether that edict definitively decided a discrete, fully-developed issue that is not reviewable somewhere else.\" In re Atlas IT Export Corp. , 761 F.3d 177, 185 (1st Cir. 2014). This test is \"vague\" and \"unpredictable,\" to say the least. Ritzen Grp., Inc. v. Jackson Masonry, LLC , No. 3:17-cv-00806, 2018 WL 558837, at *5 (M.D. Tenn. Jan. 25, 2018). For its part, Jackson points to other circuits, but those circuits either have similarly vague tests or no consistent test at all. See, e.g. , In re West , 852 F.2d at 81 (applying bankruptcy finality when \"nothing remains for the [lower] court to do\" but also considering finality \"in a more pragmatic and less technical sense\").\nThe problem here is easy to diagnose. None of these courts have started where they should: with the text of the bankruptcy appeals statute. See Ransom v. FIA Card Servs., N.A. , 562 U.S. 61, 69, 131 S.Ct. 716, 178 L.Ed.2d 603 (2011). That statute provides:\nThe district courts of the United States shall have jurisdiction to hear appeals from final judgments, orders, and decrees [and certain interlocutory orders] of bankruptcy judges entered in cases and proceedings ....\n28 U.S.C. \u00a7 158(a). Breaking it down, a bankruptcy court's decision can be appealed if it is (1) a \"final judgment[ ], order[ ], [or] decree[ ],\" or a qualifying interlocutory order; and (2) entered in either a \"case[ ]\" or a \"proceeding[ ].\" Id. Instead of limiting appeals to final judgments in cases, Congress specifically extended the scope of appellate jurisdiction in bankruptcy matters to include \"final judgments, orders, and decrees \" entered in both \"cases and proceedings .\" Bullard , 135 S.Ct. at 1692 (quoting 28 U.S.C. \u00a7 158(a) ) (emphasis added). These extra words have meaning. Id. ; Ransom , 562 U.S. at 70, 131 S.Ct. 716 (\"[W]e must give effect to every word of a statute wherever possible.\" (quoting Leocal v. Ashcroft , 543 U.S. 1, 12, 125 S.Ct. 377, 160 L.Ed.2d 271 (2004) )); see also 2 Collier on Bankruptcy \u00b6 301.03 (distinguishing between bankruptcy \"cases\" and discrete \"proceedings\" within the overall bankruptcy case). Indeed, courts have viewed the \"proceeding\" as the relevant \"judicial unit\" for bankruptcy finality for over 100 years. In re Saco Local Dev. Corp. , 711 F.2d 441, 444-45 (1st Cir. 1983) ; see also Hennigan, supra , at 584.\nThus, the statutory text provides a clear test for courts to apply: a bankruptcy court's order may be immediately appealed if it is (1) \"entered in [a] ... proceeding\" and (2) \"final\"-terminating that proceeding. We analyze the meaning of these terms and apply them below.\nB.\nThis case concerns the finality of an order denying relief from the automatic stay. Here, Ritzen sought such relief, was denied, and did not appeal until months later. If that stay-relief denial was a final and immediately-appealable order, then the fourteen-day clock started to tick as soon as it was entered, and Ritzen's appeal months later was untimely. See Fed. R. Bankr. P. 8002(a). We conclude that it was because (1) stay-relief motions initiate a proceeding and (2) this proceeding is terminated by an order denying stay relief.\nProceeding. The first step is to identify the appropriate \"judicial unit\" for finality analysis-the \"proceeding[ ].\" 28 U.S.C. \u00a7 158(a). Generally speaking, a proceeding is a process whereby a court follows some formal procedural steps to adjudicate a moving party's claim for relief. This is true now and was true when the bankruptcy appeals statute was enacted. Compare Black's Law Dictionary (10th ed. 2014), with Black's Law Dictionary (5th ed. 1979) (defining \"proceeding\" as \"[r]egular and orderly progress in form of law, including all possible steps in an action from its commencement to the execution of judgment\"). And as explained above, in the context of bankruptcy the word \"proceeding\" has long been understood to refer to disputes narrower than, and distinct from, the bankruptcy case as a whole. See Black's Law Dictionary (10th ed. 2014); see also In re Saco , 711 F.2d at 444-45. Indeed, an older edition of the leading bankruptcy treatise (closer in time to the enactment date of the statute) evokes both of these concepts-procedural formality and discreteness-in defining \"proceeding.\" 2 Collier on Bankruptcy \u00b6 301.03 (15th ed. 1996) (defining \"proceeding\" as \"any subaction raised or commenced within the case, including motions or adversary proceedings, which may raise a disputed or litigated matter\").\nPutting it all together, a \"proceeding[ ]\" under \u00a7 158(a) is a discrete dispute within the overall bankruptcy case, resolved through a series of procedural steps. Adversary proceedings are the archetypal example. They are \"essentially full civil lawsuits carried out under the umbrella of the bankruptcy case,\" generally governed by the Federal Rules of Civil Procedure or bankruptcy rule adaptations of them. Bullard , 135 S.Ct. at 1694 ; see also Fed. R. Bankr. P. 7001 Advisory Committee Note (1983 Amendment). To conclude with an analogy, a \"proceeding\" is akin to a case within a case.\nA bankruptcy court's stay-relief adjudication fits this description. It begins \"on request of a party\" through a motion. 11 U.S.C. \u00a7 362(d) ; Fed. R. Bankr. P. 9014(a). The non-moving party then must be given notice through service. Fed. R. Bankr. P. 9014(a)-(b). After that, on a set timeframe, the court must conduct a hearing where both parties are present. 11 U.S.C. \u00a7 362(d) - (e). Afterwards, the court determines whether the relevant legal standard has been met and grants or denies relief accordingly. Id. So there is a discrete claim for relief, a series of procedural steps, and a concluding decision based on the application of a legal standard. This sure looks like a proceeding.\nWe also look to other provisions of the statute for help. Again, the bankruptcy appeals statute covers \"cases and proceedings referred to the bankruptcy judges under section 157 of this title.\" 28 U.S.C. \u00a7 158(a) (emphasis added). And \u00a7 157, in turn, contains a non-exhaustive list of \"[c]ore proceedings \" that includes \"motions to terminate, annul, or modify the automatic stay.\" Id. \u00a7 157(b)(2)(G) (emphasis added). Courts presume that the same words in the same statute mean the same thing. See Powerex Corp. v. Reliant Energy Servs. , 551 U.S. 224, 232, 127 S.Ct. 2411, 168 L.Ed.2d 112 (2007). Here, we presume Congress used the same word-\"proceedings\"-consistently across these statutory subsections. Stay-relief motions initiate \"core proceedings\" under \u00a7 157, so presumably they are also \"proceedings\" in \u00a7 158. The Supreme Court used similar logic in Bullard , though it was careful to warn that this \"hardly clinches the matter\" because \u00a7 157's \"purpose is not to explain appealability.\" 135 S.Ct. at 1693. Rightly so, and we do not assume that being listed as a \"core proceeding\" in \u00a7 157(b)(2) is either necessary or sufficient to be an appealable \"proceeding[ ]\" under \u00a7 158(a). But still, the fact that stay-relief motions are referred to as a type of \"proceeding[ ]\" in \u00a7 157 certainly suggests that they are also \"proceedings\" in the next section over.\nIn conclusion, a stay-relief motion initiates a series of formal procedural steps whereby a court determines whether a legal standard is met and grants or denies relief accordingly. This stay-relief dispute is distinct from the overall bankruptcy case. It qualifies as a \"proceeding[ ]\" under 28 U.S.C. \u00a7 158(a).\nFinal order. The next question is whether an order denying stay relief is \"final\"-i.e., whether the order terminates the stay-relief proceeding. 28 U.S.C. \u00a7 158(a). The finality of a bankruptcy order is determined \"first and foremost\" by whether it \"alters the status quo and fixes the rights and obligations of the parties.\" Bullard , 135 S.Ct. at 1692. Additionally, courts should look to whether the order completely resolves all substantive litigation within the proceeding. See id. at 1692-93. In a nutshell, a bankruptcy order is final \"if it is both procedurally complete and determinative of substantive rights.\" Hennigan, supra , at 587.\nIn Bullard , the Supreme Court concluded that a bankruptcy court order denying a debtor's repayment plan with leave to amend is not final. 135 S.Ct. at 1696. Instead, because the debtor has leave to amend, the plan confirmation process continues until either (1) the debtor proposes an acceptable repayment plan that is then confirmed by the court, becoming binding and preclusive on all parties; or (2) the court concludes that the debtor is incapable of proposing an acceptable plan and dismisses the bankruptcy case in its entirety. Id. at 1692-93. Either of these two outcomes \"fixes the rights and obligations of the parties\" at issue in the plan confirmation process, but a simple plan denial with leave to amend does not. Id. at 1692.\nIn contrast, a stay-relief denial is procedurally complete-once entered there are no more \"rights and obligations\" at issue in the stay-relief proceeding. The stay-relief denial prohibits the moving party from pursuing its pre-bankruptcy claim against the debtor. The \"judicial unit\" is the stay-relief proceeding, and that unit is over once a stay-relief denial is issued. Id . This is unlike the plan confirmation denial addressed by Bullard , which was just one step in a back-and-forth process. And it is also unlike, for example, a denial of a motion to dismiss or a motion for summary judgment in an ordinary civil case. Those motions address the same question that the ultimate decision-maker will-whether the plaintiff can win on the merits. Granting such a motion is a final answer to the ultimate question (\"no\") but denying one is not (\"maybe\"). A stay-relief motion asks its own discrete question, and this question is finally answered by either a grant or a denial.\nAs with many rules, there are exceptions. But here, the exception-a denial without prejudice-helps prove the rule. Courts may deny stay-relief motions without prejudice if it appears that changing circumstances could change the stay calculus. See, e.g. , In re Palmdale Hills Prop., LLC , 423 B.R. 655, 660 (9th Cir. BAP 2009) ; In re Arizmendi , No. BR 09-19263, 2011 WL 2182364, at *13 (Bankr. S.D. Cal. May 26, 2011). And when a court denies a motion without prejudice, a party may file a second motion if circumstances change. But the bankruptcy court here did not deny Ritzen's motion without prejudice, meaning that its stay-relief order was intended to be the final word on the matter. Accordingly, we need not determine now whether a stay-relief denial without prejudice is \"final\" for purposes of \u00a7 158(a).\nIn addition to procedural completeness, Bullard teaches that we must also look to the consequences of the order at issue. 135 S.Ct. at 1692-93. The more significant and irreparable the consequences, the more likely a given order really is final. The consequences of a stay-relief denial are both significant and irreparable. Once denied, the creditor usually has no choice but to file a proof of claim in bankruptcy, litigating their pre-bankruptcy dispute anew in the bankruptcy court. They have no choice because failure to file a proof of claim could preclude them from collecting anything once the bankruptcy case concludes and the debtor's debts are discharged. See Pioneer Inv. Servs. Co. v. Brunswick Assoc. Ltd. P'ship. , 507 U.S. 380, 383-85, 113 S.Ct. 1489, 123 L.Ed.2d 74 (1993). Creditors cannot simply wait it out and pick up their pre-bankruptcy litigation where they left off. And if they did, their stay-relief claim could end up moot: once a bankruptcy case ends, the automatic stay is lifted anyway. Thus, if a stay-relief denial is not immediately appealable, then it is effectively never appealable. See Eddleman v. U.S. Dep't of Labor , 923 F.2d 782, 785 (10th Cir. 1991), overruled in part on other grounds by Temex Energy, Inc. v Underwood, Wilson, Berry, Stein & Johnson , 968 F.2d 1003, 1005 n.3 (10th Cir. 1992).\nRitzen argues that the stay order was not final because it was not a ruling on the merits of its contract claim. Rather, it simply determined the location of the litigation. Thus, it did not \"finally resolve all issues between the parties.\" 18-5157 Appellant Br. at 28. But that is irrelevant. A substantive claim against the bankruptcy estate is adjudicated in a different proceeding, separate from the stay-relief proceeding. That happened here. After the stay-relief denial, Ritzen filed a proof of claim, Jackson responded, and the claim was resolved through an adversary proceeding. Fed. R. Bankr. P. 7001. Though the stay-relief denial did not fix every right and obligation of the parties, it fixed the rights and obligations at issue in the stay-relief proceeding. That is enough in bankruptcy. Indeed, Ritzen's argument-that an order can only be appealable if it \"finally resolve[s] all issues between the parties\"-is really just an attempt to import the definition of finality from ordinary civil litigation. 18-5157 Appellant Br. at 28. As explained above, in ordinary litigation parties generally can only appeal once the entire case is complete and all issues have been resolved, but in bankruptcy, parties can appeal discrete disputes within the overall case. Ritzen's argument would have us ignore the longstanding and textually-compelled rule of looser finality in bankruptcy. We decline to do so.\nRitzen makes a separate, last-ditch policy argument: if stay-relief denials are final, then debtors would be forced \"to confront early, costly, and time-consuming appeals while their bankruptcies are just beginning.\" 18-5157 Appellant Br. at 32. But \"early\" appeals are a necessary consequence of the looser concept of finality in bankruptcy. And there is good reason to be skeptical of Ritzen's doomsday predictions. After all, as Ritzen concedes, stay-relief denials are considered final in many circuits and often have been for decades. See Collier, supra at \u00b6 5.09 (citing the Second, Third, Fourth, Seventh, and Tenth Circuits, and noting that \"the courts have ... concluded, almost unanimously, that orders refusing to lift the stay, are final\"). The sky has not fallen in these circuits. If anything, efficiency concerns undermine Ritzen's argument. Ritzen's proposal would force creditors who lose stay-relief motions to fully litigate their claims in bankruptcy court and then, after the bankruptcy case is over, appeal and seek to redo the litigation all over again in the original court. That would be a tremendous waste of time and money. And of course, creditors would only appeal if they lost in bankruptcy court. So Ritzen's proposal would also guarantee creditors-but not debtors-a second bite at the apple. That is neither fair nor efficient. Finally, even if Ritzen is right about policy, it does not matter for our analysis here. No policy argument can overcome the plain text of a statute. As shown above, the text is plain.\nIn conclusion, a stay-relief denial ends a proceeding, fixes the rights of the parties, and has significant consequences for them. Under Bullard , it qualifies as a final order.\nC.\nAnticipating our conclusion that stay-relief denials are immediately appealable, Ritzen tries to recast its motion as seeking both stay relief and dismissal of Jackson's bankruptcy case in entirety. See 11 U.S.C. \u00a7 1112(b) (permitting a bankruptcy court to dismiss a case \"for cause\" \"on request of a party in interest\"). If the bankruptcy court also denied a motion to dismiss, and such denials are not immediately appealable, then Ritzen's appeal was timely.\nBut Ritzen did not file a motion to dismiss. From title to conclusion, Ritzen's motion sought relief from the automatic stay, not dismissal of Jackson's bankruptcy case. Ritzen titled its motion \"Ritzen Group, Inc.'s Motion to Modify or Lift the Automatic Stay.\" BR. 57 at 1. In the first sentence of the introduction, Ritzen \"respectfully moves the Court to modify or lift the automatic stay.\" Id. The argument section's sub-headings are, \"The Court Should Grant Relief From Stay for Judicial Economy\" and \"The Court Should Grant Relief From Stay 'For Cause' Under Section 362(d)(1).\" Id. at 15, 18. In each of these argument sub-sections, Ritzen describes and applies the legal test for stay relief and concludes by requesting it. Though Ritzen cites some dismissal cases in the second sub-section, Ritzen clearly explains that they are only persuasive authority, cited because the legal standards for stay relief and dismissals are similar. Id. at 18. Finally, in the conclusion, Ritzen \"requests that the Court enter an order granting relief from the automatic stay provisions of 11 U.S.C. \u00a7 362\"-again with no mention of dismissal. Id. at 23. Indeed, Ritzen only requests dismissal a single time in the entire motion. Buried at the end of the facts section, after requesting that the court lift the stay, Ritzen says \"[i]n addition, the Court should dismiss the bankruptcy as a bad faith filing.\" Id. at 12. But this single passing request for dismissal in the facts section does not override its glaring omission from every other part of the brief. Cf. McPherson v. Kelsey , 125 F.3d 989, 995-96 (6th Cir. 1997) (\"It is not sufficient for a party to mention a possible argument in the most skeletal way, leaving the court to put flesh on its bones.\" (internal quotation marks and alteration omitted)).\nRitzen says this conclusion would \"elevate[ ] form over substance.\" 18-5157 Appellant Br. at 19-20. Not so. Ritzen relies entirely on cases where pleadings clearly sought one form of relief but were incorrectly labelled as seeking another. In these cases, courts construed pleadings based on their substance rather than their titles. See, e.g. , Andrews v. United States , 373 U.S. 334, 337-38, 83 S.Ct. 1236, 10 L.Ed.2d 383 (1963) (construing a criminal defendant's motion for correcting his sentence under Fed. R. Crim. P. 35 as a habeas motion under 28 U.S.C. \u00a7 2255 because \"in this area of the law ... adjudication upon the underlying merits of claims is not hampered by reliance upon the titles petitioners put upon their documents\" (internal quotation marks omitted)); Lam ResearchCorp. v. Schunk Semiconductor , 65 F.Supp.3d 863, 869 (N.D. Cal. 2014) (rejecting a party's attempt to avoid a local rule against raising repetitive arguments in motions for reconsideration by giving his motion a different title; despite the title change, the motion \"raise[d] identical arguments as those raised in the original motion for reconsideration\"); Russ v. Safeco Ins. Co. of Am. , No. 2:11-cv-195-KS-MTP, 2013 WL 1310501, at *28 (S.D. Miss. Mar. 26, 2013) (\"Notwithstanding the title of the [Rule 12(f) ] motion, the relief requested by the Plaintiff falls within the confines of Federal Rule of Civil Procedure 37.\"). Ritzen's situation is different. Yes, Ritzen's motion sought stay relief in its title. But it also sought stay relief practically everywhere else. Construing its motion accordingly does not \"elevate form over substance\"-it is pure substance. Though Ritzen may be right that the tests for dismissal and stay relief are similar (or even the same), courts do not construe motions as seeking every conceivable form of relief that could be granted based on the arguments contained therein. Courts are not mind readers. Parties are responsible for being clear in what they seek with their motions. Here, Ritzen was clear; it sought stay relief. Its belated attempt to recast its motion fails.\nSince Ritzen only sought stay relief, it naturally follows that the bankruptcy court only denied stay relief. But if there was any doubt, the court here removed it by clearly and repeatedly explaining exactly what it was denying. For example, at one point the court reiterated three times in four sentences of the transcript that Ritzen had not filed a motion to dismiss:\nI haven't been asked to dismiss the case. I don't have a motion to dismiss. I haven't tried a motion to dismiss but the very first thing I said to you is your case here today has been more like a motion to dismiss the case than like a relief statement. But, trust me, I don't have a motion to dismiss and I'm not going to dismiss the Bankruptcy case today.\nDR. 12-2 at A289. The court's analysis also made clear that it did not consider the possibility of dismissal. The main reason it denied Ritzen's motion was judicial economy: if it granted stay relief and Ritzen won against Jackson in state court, then Ritzen would still have to file a claim in Jackson's bankruptcy case to actually recover on that state court judgment. Obviously, this assumes that Jackson's bankruptcy case would continue and not be dismissed. If dismissal was a possibility, then this analysis would make no sense. Finally, the court's ultimate ruling from the bench was crystal clear: \"[f]or the following reasons I'm going to deny the request to modify or lift the automatic stay.\"Id. at A313. This ruling was memorialized by a written order the next day which likewise made no reference to dismissal.\nRitzen argues that the bankruptcy court implicitly rejected dismissal because it noted several times that the legal standards for stay relief and dismissal are similar. Thus, Ritzen argues, it was \"faced with a Hobson's Choice: file a second, identical motion styled as a 'Motion to Dismiss' and subject itself to potential sanctions\" or accept that dismissal had already been effectively denied. 18-5157 Appellant Br. at 25-26. Of course, Ritzen neglects to mention that this was a problem entirely of its own making-if it had clearly sought dismissal, then the court would have clearly considered it. In any event, a court's offhand remarks about the legal standard for a motion do not mean that it has pre-judged the outcome of that motion. And even if it had, that did not excuse Ritzen from actually attempting to test it. In fact, at the stay-relief hearing the judge specifically contemplated a potential future motion to dismiss by Ritzen. Ritzen was not faced with a \"Hobson's Choice\" at all-it was free to file a motion to dismiss after its request for stay relief was denied. It chose not to.\nRitzen clearly sought, and the bankruptcy court clearly denied, stay relief. Stay-relief denials are final orders. Thus, Ritzen's first appeal is untimely, and we do not address its merits.\nIII.\nRitzen's second appeal concerns its underlying contract claim against Jackson. But Ritzen cannot show that the bankruptcy court clearly erred when it found that Ritzen breached by failing to secure funding in a timely fashion. Under governing law, Ritzen's breach means it is unable to recover against Jackson, even if Jackson also breached. Therefore, we affirm without addressing Ritzen's claim against Jackson.\nUnder Tennessee law, a plaintiff cannot recover for breach of contract unless they themselves were able to perform. Margrave v. Channabassappa , No. 87-159-II, 1987 WL 19444, at *5 (Tenn. Ct. App. Nov. 6, 1987) (citing Ching-Ming Chen v. Advantage Co. , 713 S.W.2d 79, 81 (Tenn. Ct. App. 1986) ); see also 10 Corbin on Contracts \u00a7 54.20 (2017). Ritzen asserts that this rule only applies to plaintiffs seeking monetary damages. But Ritzen is incorrect; it also applies to plaintiffs seeking specific performance. Indeed, the Tennessee Court of Appeals has applied this rule to a plaintiff similarly situated to Ritzen here. Gibson v. Jones , No. W2008-00042-COA-R3-CV, 2009 WL 482376, at *2-3 (Tenn. Ct. App. Feb. 25, 2009) (rejecting a real estate buyer's action for specific performance because he was unable to pay for the property by the deadline).\nAt issue here is Ritzen's core performance as a buyer-whether it was able to pay for the property by the closing deadline as required by the contract. Ritzen does not dispute that failure to secure funding by the closing deadline would have been a material breach. Instead, Ritzen claims that it actually had secured funding. The bankruptcy court conducted a three-day trial to address this very question (among others). After hearing testimony from ten witnesses and reviewing hundreds of documents, the court ruled against Ritzen and set forth detailed factual findings in a thirteen-page order, concluding that Ritzen was unable to perform the contract at closing. On appeal, the district court conducted a thorough review of the record and upheld this conclusion. We directly (but deferentially) review the bankruptcy court's factual finding. Thompson v. Greenwood , 507 F.3d 416, 419 (6th Cir. 2007). We can only reverse if that finding is \"clearly erroneous.\" In re Purdy , 870 F.3d at 442.\nPlenty of evidence supports the bankruptcy court's conclusion that Ritzen breached. In the months leading up to closing, Ritzen struggled to find financing. At least two banks rejected it. Ritzen finally found a potential financer two weeks before the closing deadline-Amber Lane. But Amber Lane would only provide funding if Ritzen assigned them its rights under the contract (i.e., the right to the property). Ritzen and Amber Lane exchanged several drafts but were unable to finalize the assignment agreement by the closing deadline. In fact, the agreement was not finalized until eight days after the deadline. Instead, on closing day, Ritzen presented Jackson with a two-sentence letter from the bank stating that the funds were \"available on deposit ... for delivery to Amber Lane ... upon confirmation of the satisfaction of several conditions related to the closing ....\" DR 12-5 at Pg. ID #5890. Even at face value, this letter offered no confirmation that Amber Lane would deliver the funds to Jackson -the actual seller-and did not explain what the vague \"several conditions\" were. And, to add another layer of uncertainty, it turns out Amber Lane did not even have the money in its account. Instead, the money was to come from Byrd Cain, step-father of Amber Lane's owner. But Mr. Cain provided no written authorization to transfer the funds from his account. Nor did he testify at trial.\nIn response, Ritzen argues that, although it did not have an actual agreement or firm written commitment from anyone, various witnesses testified after-the-fact that the funds would have been available. But the bankruptcy court did not find these witnesses persuasive. For instance, it found that Amber Lane's owner \"presented little more than a hypothetical description of what might have been or could have been under circumstances that did not actually exist,\" since the assignment agreement had not been finalized. BR. 423 at 7. It concluded that, although Ritzen had tried, it had not \"secured funding to close the deal\" by the deadline. Id. at 13. Neither Ritzen nor its witnesses offer a satisfactory explanation for how the money would have been transferred to Jackson without any agreement in place governing how it would be spent. Thus, Ritzen's arguments do not show that the bankruptcy court's conclusion was clearly erroneous.\nIt is not our role to second-guess the bankruptcy court based on a cold record. Ritzen had its day in court and lost. All we can do is correct clear errors, and we do not find any here.\n* * *\nWe therefore affirm the judgments of the district court and bankruptcy court.\nCongress also provided for immediate appeals of certain interlocutory bankruptcy orders. See In re Lindsey , 726 F.3d 857, 860 (6th Cir. 2013) (citing 28 U.S.C. \u00a7\u00a7 158(a)(3), (d)(2)(A) ). These statutes serve as an added layer of flexibility, permitting appeals of otherwise non-final orders in \"exceptional circumstances.\" In re A.P. Liquidating Co. , 350 B.R. 752, 755 (E.D. Mich. 2006). But limited interlocutory appeals are a supplement, not a replacement, for the broad approach to appealability set forth in \u00a7 158(a) itself. See Bullard , 135 S.Ct. at 1692. In any event, since Ritzen did not rely on these statutes here, we do not address them.\nOf course, a dispute does not have to be a full-blown \"adversary proceeding\" to qualify as an appealable \"proceeding[ ]\" under \u00a7 158(a). See Bullard , 135 S.Ct. at 1694 (explaining that an order confirming a repayment plan is final, even though it arises out of a \"contested matter\" rather than an \"adversary proceeding\") (citing Fed. R. Bankr. P. 3015(f), 7001, 9014 ).\nThe prefix \"BR\" refers to the bankruptcy court docket, Case No. 16-bk-02065. The prefix \"DR\" refers to the district court docket, Case No. 17-cv-00806.\nThe parties agree that their contractual dispute is governed by Tennessee law.",
+        "type": "majority",
+        "author": "THAPAR, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "COUNSEL ARGUED: Shane G. Ramsey, NELSON MULLINS RILEY & SCARBOROUGH, LLP, Nashville, Tennessee, for Appellant. Henry E. Hildebrand, IV, DUNHAM HILDEBRAND, PLLC, Nashville, Tennessee, for Appellee. ON BRIEF: Shane G. Ramsey, John T. Baxter, NELSON MULLINS RILEY & SCARBOROUGH, LLP, Nashville, Tennessee, for Appellant. Henry E. Hildebrand, IV, DUNHAM HILDEBRAND, PLLC, Nashville, Tennessee, for Appellee."
+    ],
+    "corrections": "",
+    "head_matter": "In RE: JACKSON MASONRY, LLC, Debtor.\nRitzen Group, Incorporated, Appellant,\nv.\nJackson Masonry, LLC, Appellee.\nNos. 18-5157\n18-5161\nUnited States Court of Appeals, Sixth Circuit.\nArgued: October 4, 2018\nDecided and Filed: October 16, 2018\nCOUNSEL ARGUED: Shane G. Ramsey, NELSON MULLINS RILEY & SCARBOROUGH, LLP, Nashville, Tennessee, for Appellant. Henry E. Hildebrand, IV, DUNHAM HILDEBRAND, PLLC, Nashville, Tennessee, for Appellee. ON BRIEF: Shane G. Ramsey, John T. Baxter, NELSON MULLINS RILEY & SCARBOROUGH, LLP, Nashville, Tennessee, for Appellant. Henry E. Hildebrand, IV, DUNHAM HILDEBRAND, PLLC, Nashville, Tennessee, for Appellee.\nBefore: SUTTON, McKEAGUE, and THAPAR, Circuit Judges."
+  },
+  "file_name": "0494-01",
+  "first_page_order": 494,
+  "last_page_order": 506
+}

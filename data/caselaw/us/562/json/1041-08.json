@@ -1,0 +1,94 @@
+{
+  "id": 6017391,
+  "name": "Henderson v. Shinseki, Secretary of Veterans Affairs",
+  "name_abbreviation": "Henderson v. Shinseki",
+  "decision_date": "2010-11-15",
+  "docket_number": "No. 09-1036",
+  "first_page": "1041",
+  "last_page": "1042",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1041"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "561 U. S. 1024",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12455584,
+        12455585,
+        12455586,
+        12455587,
+        12455588,
+        12455589,
+        12455590,
+        12455591,
+        12455777,
+        12455793,
+        12455794
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/177/1088-06",
+        "/l-ed-2d/177/1088-07",
+        "/l-ed-2d/177/1089-01",
+        "/l-ed-2d/177/1089-02",
+        "/l-ed-2d/177/1089-03",
+        "/l-ed-2d/177/1089-04",
+        "/l-ed-2d/177/1089-05",
+        "/l-ed-2d/177/1089-06",
+        "/l-ed-2d/177/1113-07",
+        "/l-ed-2d/177/1116-03",
+        "/l-ed-2d/177/1116-04"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 41,
+    "char_count": 323,
+    "ocr_confidence": 0.601,
+    "sha256": "10dfc18b6402c81ccac57594b325308bc235e97d50fe8616e11ed3ca33900221",
+    "simhash": "1:99b3aa45a6728f9b",
+    "word_count": 50
+  },
+  "last_updated": "2024-02-27T22:51:28.129297+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this motion."
+    ],
+    "parties": [
+      "Henderson v. Shinseki, Secretary of Veterans Affairs."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. Fed. Cir. [Certiorari granted, 561 U. S. 1024.] Motion of Doretha H. Henderson, the authorized representative of David L. Henderson, to be substituted as petitioner granted.\nJustice Kagan took no part in the consideration or decision of this motion.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-1036.\nHenderson v. Shinseki, Secretary of Veterans Affairs."
+  },
+  "file_name": "1041-08",
+  "first_page_order": 1063,
+  "last_page_order": 1064
+}

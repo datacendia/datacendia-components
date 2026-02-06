@@ -1,0 +1,743 @@
+{
+  "id": 4220061,
+  "name": "MONNIE WRIGHT, Plaintiff and Appellant, v. STATE OF CALIFORNIA, Defendant and Respondent",
+  "name_abbreviation": "Wright v. State",
+  "decision_date": "2015-01-30",
+  "docket_number": "No. A139034",
+  "first_page": "1218",
+  "last_page": "1238",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "233 Cal. App. 4th 1218"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "198 U.S. 45",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1499541
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/198/0045-01"
+      ]
+    },
+    {
+      "cite": "8 Cal.Rptr. 497",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "185 Cal.App.2d 658",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2340316
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/185/0658-01"
+      ]
+    },
+    {
+      "cite": "49 Cal.Rptr. 706",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1960,
+      "opinion_index": 0
+    },
+    {
+      "cite": "239 Cal.App.2d 748",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2160977
+      ],
+      "weight": 2,
+      "year": 1960,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/239/0748-01"
+      ]
+    },
+    {
+      "cite": "177 Cal.Rptr. 552",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1966,
+      "opinion_index": 0
+    },
+    {
+      "cite": "124 Cal.App.3d 739",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2078451
+      ],
+      "year": 1966,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/124/0739-01"
+      ]
+    },
+    {
+      "cite": "184 Cal.Rptr. 111",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1981,
+      "opinion_index": 0
+    },
+    {
+      "cite": "133 Cal.App.3d 643",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "year": 1981,
+      "opinion_index": 0
+    },
+    {
+      "cite": "230 Cal.Rptr. 425",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1982,
+      "opinion_index": 0
+    },
+    {
+      "cite": "185 Cal.App.3d 1265",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2183864
+      ],
+      "weight": 2,
+      "year": 1982,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/185/1265-01"
+      ]
+    },
+    {
+      "cite": "167 P.2d 705",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1986,
+      "opinion_index": 0
+    },
+    {
+      "cite": "27 Cal.2d 813",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2189832
+      ],
+      "weight": 3,
+      "year": 1986,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/27/0813-01"
+      ]
+    },
+    {
+      "cite": "227 P. 168",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "194 Cal. 28",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        2156741
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal/194/0028-01"
+      ]
+    },
+    {
+      "cite": "170 N.W. 366",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "168 Wis. 381",
+      "category": "reporters:state",
+      "reporter": "Wis.",
+      "case_ids": [
+        8691923
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/wis/168/0381-01"
+      ]
+    },
+    {
+      "cite": "224 P. 744",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "193 Cal. 406",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        2153090
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal/193/0406-01"
+      ]
+    },
+    {
+      "cite": "217 P. 744",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "191 Cal. 557",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        2141611
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal/191/0557-01"
+      ]
+    },
+    {
+      "cite": "170 P.2d 18",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 Cal.2d 329",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2209197
+      ],
+      "pin_cites": [
+        {
+          "page": "335-336"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/28/0329-01"
+      ]
+    },
+    {
+      "cite": "159 P. 1041",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "173 Cal. 313",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        2038975
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal/173/0313-01"
+      ]
+    },
+    {
+      "cite": "546 P.2d 1361",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "128 Cal.Rptr. 417",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "16 Cal.3d 595",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2295030
+      ],
+      "pin_cites": [
+        {
+          "page": "598"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/16/0595-01"
+      ]
+    },
+    {
+      "cite": "501 P.2d 1176",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1976,
+      "opinion_index": 0
+    },
+    {
+      "cite": "104 Cal.Rptr. 456",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1976,
+      "opinion_index": 0
+    },
+    {
+      "cite": "8 Cal.3d 150",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2321918
+      ],
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "157"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/8/0150-01"
+      ]
+    },
+    {
+      "cite": "428 P.2d 606",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "59 Cal.Rptr. 622",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "66 Cal.2d 944",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2331216
+      ],
+      "pin_cites": [
+        {
+          "page": "946-947"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/66/0944-01"
+      ]
+    },
+    {
+      "cite": "892 P.2d 150",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "40 Cal.Rptr.2d 116",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "9 Cal.4th 1055",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1989414
+      ],
+      "pin_cites": [
+        {
+          "page": "1065"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/9/1055-01"
+      ]
+    },
+    {
+      "cite": "70 P.3d 1076",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "135 Cal.Rptr.2d 665",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "30 Cal.4th 1281",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        269754
+      ],
+      "pin_cites": [
+        {
+          "page": "1290-1291"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/30/1281-01"
+      ]
+    },
+    {
+      "cite": "661 P.2d 1058",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "190 Cal.Rptr. 904",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "33 Cal.3d 729",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4638235
+      ],
+      "pin_cites": [
+        {
+          "page": "732-733"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/33/0729-01"
+      ]
+    },
+    {
+      "cite": "55 Cal.Rptr. 810",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "247 Cal.App.2d 669",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2172313
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "676-677"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/247/0669-01"
+      ]
+    },
+    {
+      "cite": "242 P.2d 311",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1967,
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 Cal.2d 659",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4404871
+      ],
+      "year": 1967,
+      "pin_cites": [
+        {
+          "page": "661"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/38/0659-01"
+      ]
+    },
+    {
+      "cite": "7 Cal.Rptr.3d 628",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "114 Cal.App.4th 309",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        2193289
+      ],
+      "pin_cites": [
+        {
+          "page": "320"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/114/0309-01"
+      ]
+    },
+    {
+      "cite": "100 Cal.Rptr.3d 296",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "178 Cal.App.4th 243",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3986565
+      ],
+      "pin_cites": [
+        {
+          "page": "253-254"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/178/0243-01"
+      ]
+    },
+    {
+      "cite": "165 Cal.Rptr. 246",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "106 Cal.App.3d 745",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        1973283
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/106/0745-01"
+      ]
+    },
+    {
+      "cite": "542 P.2d 225",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "125 Cal.Rptr. 353",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "15 Cal.3d 559",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2272290
+      ],
+      "pin_cites": [
+        {
+          "page": "563"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/15/0559-01"
+      ]
+    },
+    {
+      "cite": "143 F.3d 232",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        268712
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/143/0232-01"
+      ]
+    },
+    {
+      "cite": "359 F.2d 937",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        829090
+      ],
+      "year": 1998,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/359/0937-01"
+      ]
+    },
+    {
+      "cite": "693 P.2d 254",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "209 Cal.Rptr. 674",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "37 Cal.3d 559",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1949117
+      ],
+      "pin_cites": [
+        {
+          "page": "567"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/37/0559-01"
+      ]
+    },
+    {
+      "cite": "708 P.2d 673",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "220 Cal.Rptr. 94",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "40 Cal.3d 345",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        404445
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "353, fn. 11"
+        },
+        {
+          "page": "353, fn. 11"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/40/0345-01"
+      ]
+    },
+    {
+      "cite": "69 Cal.Rptr.3d 605",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "157 Cal.App.4th 1538",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4102740
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "1545"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/157/1538-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1554,
+    "char_count": 46196,
+    "ocr_confidence": 0.891,
+    "pagerank": {
+      "raw": 6.593719045928926e-08,
+      "percentile": 0.40333915220539884
+    },
+    "sha256": "e4ef9b7293e4fa47655a8b4c67eefe6b27e9b8b8c165ad7a70c9300eef329882",
+    "simhash": "1:e3a7adc32c024a54",
+    "word_count": 7461
+  },
+  "last_updated": "2024-02-27T16:06:26.432486+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "MONNIE WRIGHT, Plaintiff and Appellant, v. STATE OF CALIFORNIA, Defendant and Respondent."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nRICHMAN, J.\n\u2014 Plaintiff Monnie Wright was a correctional officer at San Quentin State Prison (San Quentin), who lived on the San Quentin premises, in a unit he rented from his employer, defendant State of California (State). Wright was injured when he fell in the course of his lengthy walk from his home to his actual place of work. Following his injury, Wright sought workers\u2019 compensation, and received it. He thereafter filed suit against the State, which moved for summary judgment on the ground that workers\u2019 compensation was Wright\u2019s exclusive remedy, an argument based on the \u201cpremises line\u201d rule, which provides that the employment relationship commences once the employee enters the employer\u2019s premises. The trial court agreed and granted the motion.\nWe reverse, concluding that it was error to hold Wright\u2019s tort claim barred solely because he was on his employer\u2019s premises at the time of his fall, particularly where Wright lived on those very premises.\nFACTUAL BACKGROUND\nIn 1997, Wright began working at San Quentin. The following year, he moved into a State-owned rental unit within the gated area of the San Quentin grounds. Living there was voluntary on Wright\u2019s part: it was not a condition of his employment with the State, and he paid market rate rent, receiving no discount or other employment benefit for living on the property.\nWright\u2019s original lease for the unit required that he obtain a \u201cbroad policy of comprehensive coverage of public liability insurance, naming the State as the insured.\u201d The policy was to be issued by an insurance company acceptable to the State and insure \u201cagainst loss or liability caused by or connected with [Wright\u2019s] occupation and use of said premises under [the] rental/lease agreement.\u201d The lease operable at the time of Wright\u2019s injury contained an indemnity clause that provided as follows: \u201cOwner will not be liable for any damage or injury to Tenant, or any other person, or to any property, occurring on the premises, or in common areas, unless such damage is the legal result of the negligence or willful misconduct of the Owner, his or her agents, or employees. Tenant agrees to hold Owner harmless from any claims for damages, no matter how caused, except for injury or damages caused by negligence or willful misconduct of the Owner, his or her agents, or employees.\u201d\nWright\u2019s walk from his residence to the prison building where he carried out his work duties required him to walk approximately 10 feet to a common area staircase, at the bottom of which were two pillars painted with the address numbers for Wright\u2019s unit and a neighboring unit. Wright would descend that staircase, cross a street, walk through a park, descend another staircase, walk down a path, descend another staircase, cross another street, and then traverse a sidewalk in front of the sally port, all of which occurred on State property. Once inside the sally port, he walked through a series of security doors to enter the secured perimeter, and then walked to his assigned work building in the South Block and then to the Donner Unit, where he signed in for work.\nOn December 14, 2010, at approximately 5:30 a.m., Wright left his rental unit and began his walk to the Donner Unit to begin his 6:00 a.m. shift. As he neared the bottom of the first staircase just outside his unit, a concrete step allegedly collapsed beneath him, and he fell.\nOn December 20, 2010, Wright filed a claim for workers\u2019 compensation benefits for injuries resulting from the fall. He received benefits in the form of medical expenses and disability payments. And in July 2012, he went on early disability retirement.\nPROCEDURAL BACKGROUND\nThe Pleadings\nWright filed a complaint against the State, asserting one cause of action, for premises liability. He alleged that he \u201cfell and was injured when a defectively constructed and dangerously maintained stair crumbled beneath him.\u201d\nThe State filed an answer, followed by a first amended answer, generally denying Wright\u2019s allegations. The answer also set forth numerous affirmative defenses, including this as affirmative defense no. 21: Wright\u2019s injuries \u201coccurred, if at all, because of conduct arising out of, or in the course of employment or voluntary service or rehabilitative work for a public agency\u201d and his tort claim was \u201ctherefore barred as Worker\u2019s Compensation is the exclusive remedy . . . .\u201d\nThe Motion for Summary Judgment\nThe State moved for summary judgment on the ground that Wright\u2019s claim was barred by the workers\u2019 compensation exclusive remedy rule. According to the State, Wright was a State employee and was injured while walking on State-owned premises to his work location. It contended that the going and coming rule \u2014 which generally provides that an employee who is injured en route to or from work is not entitled to worker\u2019s compensation benefits \u2014 did not preclude workers\u2019 compensation coverage for Wright\u2019s injuries because he was injured on his employee\u2019s premises, thereby falling within the premises line rule, an exception to the going and coming rule. The State also noted that Wright had received over $137,000 in workers\u2019 compensation benefits which, it submitted, constituted a \u201crepresentation that the injuries he attributes to the incident arose out of and occurred in the course of his employment with the State of California.\u201d\nWright opposed the State\u2019s motion, arguing the State failed to meet its initial burden of showing that his claim was barred by the workers\u2019 compensation exclusive remedy rule. As he explained it, \u201cThe mere fact that the injury occurred on the employer\u2019s premises is not the sole test of compensability. The injury must be one arising out of and in the course of the employment.\u201d And, Wright contended, there existed a question of fact whether he was injured in the course of his employment. According to Wright, at the time he was injured, he was commuting to his work location \u2014 or as he put it, the \u201cbusiness premises\u201d \u2014 such that the going and coming rule barred workers\u2019 compensation coverage. Wright also disputed that the premises line applied, arguing he had not left his residence and arrived at his work premises.\nWright also argued that the \u201cbunkhouse rule,\u201d and the principle underlying it, precluded summary judgment. This argument relied in part on Vaught v. State of California (2007) 157 Cal.App.4th 1538, 1545 [69 Cal.Rptr.3d 605] (Vaught), which summarized the bunkhouse rule as follows: \u201cWhen an employee is injured while living on the employer\u2019s premises, the course of employment requirement in [Labor Code] section 3600, subdivision (a), is satisfied if the employment contract of the employee contemplates, or the work necessity requires, the employee to reside on the employer\u2019s premises.\u201d Here, by contrast, Wright was not required to live in the State-owned housing, and his employment contract did not contemplate he would do so. Thus, he contended, he did not fall within the bunkhouse rule and, consequently, was not injured in the course of employment.\nWright also argued that the lease agreement he signed when he rented the residence showed that the State did not intend he would be covered by workers\u2019 compensation while residing in the residence. Finally, Wright represented that he was not seeking double recovery, as the State would receive a credit against any tort recovery he might obtain that overlapped with the workers\u2019 compensation proceeds he was previously awarded.\nThe State filed a reply, asserting that it was \u201cundisputed that (1) Officer Wright was an employee of the State of California at San Quentin State Prison; (2) whose alleged injuries occurred while he was walking on prison grounds; (3) to the prison area where he was to begin his work duties.\u201d Under these facts, the State contended, the premises line rule dictated that Wright\u2019s injuries fell within the scope of workers\u2019 compensation. Wright\u2019s argument to the contrary, the State complained, sought \u201cto eviscerate 40 years of expansive workers\u2019 rights in California and take this Court back to Lochner-eta Pennsylvania in his attempt to carve out an exception to pursue this civil action and simultaneously take advantage of the security and \u2018relatively swift and certain payments of [workers\u2019 compensation] benefits\u2019 he has received, and continues to receive. Not only is Officer Wright\u2019s interpretation contrary to public policy, but it would severely limit the rights of future California employees injured on their employer\u2019s premises before they have actually clocked in for work.\u201d\nThe State also challenged Wright\u2019s attempt to distinguish between the employer\u2019s premises and business premises, contending no California authority recognized such a distinction.\nFinally, the State disputed Wright\u2019s argument based on the rental agreement because the incident did not occur on the rental premises, but rather on a stairway 30 to 40 feet away from his front step. As such, the State submitted, the lease agreement did not apply.\nCuriously, the State did not respond to Wright\u2019s \u201cbunkhouse rule\u201d argument, making no mention of it whatsoever.\nThe Order Granting Summary Judgment\nAfter the close of briefing, the trial court issued a tentative ruling, apparently in favor of the State, and the motion came on for hearing on March 5, 2013, a hearing that was brief indeed. Wright\u2019s counsel argued that the \u201crationale\u201d of the rules, especially the premises line rule \u2014 which counsel called a \u201cbright line\u201d rule \u2014 did not apply in the circumstances here. Counsel offered instead the bunkhouse rule, application of which demonstrated that Wright was not injured in the course of employment and thus his injuries did not fall within the scope of workers\u2019 compensation. The hearing concluded with the trial court taking the matter under submission.\nLater that same day, the court entered an order granting summary judgment, which order provided in pertinent part as follows:\n\u201cDefendant\u2019s Motion for Summary Judgment is granted. The undisputed evidence shows that Plaintiff was going to work and was on the premises of his employer at the time of his fall. [Citations.] \u2018For purposes of the going and coming rule, the employment relationship begins when the employee enters the employer\u2019s premises. . . .\u2019 (Santa Rosa Junior College v. Workers\u2019 Comp. Appeals Bd. (1985) 40 Cal.3d 345, 353, fn. 11 [220 Cal.Rptr. 94, 708 P.2d 673].) \u2018. . . Prior to entry the going and coming rule ordinarily precludes recovery; after entry, injury is generally presumed compensable as arising in the course of employment.\u2019 (Price v. Workers\u2019 Comp. Appeals Bd. (1984) 37 Cal.3d 559, 567 [209 Cal.Rptr. 674, 693 P.2d 254].) Plaintiff fails to offer any evidence sufficient to rebut the presumption.\n\u201cThe authorities cited by Plaintiff in support of his contention that the \u2018premises\u2019 must be limited to some smaller \u2018business\u2019 area (two 1920s Pennsylvania cases and U.S. v. Browning (10th Cir. 1966) 359 F.2d 937) are not persuasive authority in addressing California workers\u2019 compensation law as it exists today. Additionally, the court notes that the holding in Browning was called into question in White v. U.S. (5th Cir. 1998) 143 F.3d 232. The fact that in many cases the \u2018premises\u2019 will consist of a \u2018parking lot, plant or office\u2019 (see Lewis v. Workers\u2019 Comp. Appeals Bd. (1975) 15 Cal.3d 559, 563 [125 Cal.Rptr. 353, 542 P.2d 225] [illegible] must be so limited. (See, e.g., Lefebvre v. Workers\u2019 Comp. Appeals Bd. (1980) 106 Cal.App.3d 745 [165 Cal.Rptr. 246] [illegible] the going and coming rule but indicting that the employer\u2019s premises was the entire campus.)[] The purpose of the premises line rule is to \u2018 \u201cenabl[e] courts to ascertain the point at which employment begins \u2014 objectively and fairly.\u201d \u2019 (Santa Rosa Junior College, supra, 40 Cal.3d at 353, fn. 11.)\n\u201cIn order to raise a triable issue, Plaintiff relies primarily on the fact that he had a landlord-tenant relationship with Defendant and a lease which imposed obligations on Defendant, including the duty to maintain the stairs. \u2018Where the conditions of compensation set forth in Section 3600 concur, the right to recover such compensation is . . . the sole and exclusive remedy of the employee . . . against the employer, and the fact that either the employee or the employer also occupied another dual capacity prior to, or at the time of, the employee\u2019s industrial injury shall not permit the employee ... to bring an action at law for damages against the employer.\u2019 (Lab. Code, \u00a7 3602, subd. (a).) \u2018. . . The dual capacity doctrine holds that if an employer occupies another relationship toward its employee that imposes a duty different from those arising from the employment relationship, the employer can be liable in tort for a breach of that duty. The 1982 amendments to Labor Code section 3602, subdivision (a), however, abrogated much of the dual capacity doctrine. . . .\u2019 [Citation.] The dual capacity doctrine is now \u2018limit[ed] ... to cases in which the parties\u2019 dual capacity did not exist prior to the employee\u2019s industrial injury, but arose only after the injury. . . .\u2019 [Citation.] Here, it is undisputed that the landlord-tenant relationship and the obligations thereby imposed on Defendant by that relationship existed prior to Plaintiff\u2019s accident.\u201d\nAs shown, the trial court, like the State, made absolutely no mention of the bunkhouse rule.\nThe Motion for New Trial\nFollowing entry of judgment, Wright filed a notice of intention to move for new trial. In his supporting memorandum of points and authorities, he argued that because he was residing on his employer\u2019s premises, the court should have analyzed the bunkhouse rule, pursuant to which \u201can employee-resident\u2019s injuries are covered by workers\u2019 compensation only if the employment contract contemplates or the work requires the employee\u2019s resident on employer-owned premises,\u201d neither of which was the case here. Wright contended that the rule on which the court relied addresses only employees who do not live in employer-owned housing. Alternatively, Wright argued that even if the premises line rule applied, it precluded workers\u2019 compensation coverage here because he was still commuting at the time of his injury and had not yet reached the business premises.\nIn opposition, the State argued that the bunkhouse rule was inapplicable where, as here, the basic relationship between the parties was that of landlord and tenant, and that the trial court correctly found the premises line rule dispositive. And, again, the State noted that no California authority recognized the distinction Wright attempted to draw between the employer\u2019s premises and the business premises.\nFollowing Wright\u2019s reply, the matter came on for argument, and the following day, the court denied Wright\u2019s motion in an order that stated in its entirety: \u201cPlaintiff\u2019s motion for new trial is denied. The bunkhouse rule is inapplicable to this case. Plaintiff was not injured in his residence and the State did not invoke the bunkhouse rule. In reaching its decision, the Court relied on the premises line exception to the going and coming rule.\u201d\nThis timely appeal followed.\nDISCUSSION\nSummary Judgment and the Standard of Review\nThe standard pursuant to which we review an appeal from an entry of summary judgment is well established. We summarized it in Nazir v. United Airlines, Inc. (2009) 178 Cal.App.4th 243, 253-254 [100 Cal.Rptr.3d 296], as follows:\n\u201cCode of Civil Procedure section 437c, subdivision (c) provides that summary judgment is properly granted when there is no triable issue of material fact and the moving party is entitled to judgment as a matter of law. [Citation.] As applicable here, moving defendants can meet their burden by demonstrating that \u2018a cause of action has no merit,\u2019 which they can do by showing that \u2018[o]ne or more elements of the cause of action cannot be separately established . . . .\u2019 [Citations.] Once defendants meet this burden, the burden shifts to plaintiff to show the existence of a triable issue of material fact. [Citation.]\n\u201cOn appeal \u2018[w]e review a grant of summary judgment de nova; we must decide independently whether the facts not subject to triable dispute warrant judgment for the moving party as a matter of law. [Citations.]\u2019 [Citation.] Put another way, we exercise our independent judgment, and decide whether undisputed facts have been established that negate plaintiff\u2019s claims. [Citation.] As we put it in Fisherman\u2019s Wharf Bay Cruise Corp. v. Superior Court (2003) 114 Cal.App.4th 309, 320 [7 Cal.Rptr.3d 628]: \u2018[W]e exercise an independent review to determine if the defendant moving for summary judgment met its burden of establishing a complete defense or of negating each of the plaintiff\u2019s theories and establishing that the action was without merit.\u2019 [Citation.]\n\u201cBut other principles guide us as well, including that \u2018[w]e accept as true the facts ... in the evidence of the party opposing summary judgment and the reasonable inferences that can be drawn from them.\u2019 [Citation.] And we must \u2018 \u201cview the evidence in the light most favorable to . . . the losing part[y]\u201d and \u201cliberally construe [his] evidentiary submissions and strictly scrutinize [the moving party\u2019s] own evidence, in order to resolve any evidentiary doubts or ambiguities in [the losing party\u2019s] favor.\u201d \u2019 [Citation.]\u201d\nApplying those principles, we conclude the State failed to satisfy its burden of demonstrating there were no triable issues of material fact whether Wright\u2019s injury arose out of and in the course of his employment, and was therefore subject to workers\u2019 compensation exclusivity. Thus, the summary judgment was error.\nThe Summary Judgment Was Error\nWorkers\u2019 Compensation Law: The Statute and the General Principles\nCalifornia\u2019s Workers\u2019 Compensation Act (Lab. Code, \u00a7 3600 et seq.) provides an employee\u2019s exclusive remedy against his or her employer for injuries arising out of and in the course of employment. Specifically, Labor Code section 3600, subdivision (a), states: \u201cLiability for the compensation provided by this division, in lieu of any other liability whatsoever to any person . . . , shall, without regard to negligence, exist against an employer for any injury sustained by his or her employees arising out of and in the course of the employment . . . .\u201d (See Vaught, supra, 157 Cal.App.4th at p. 1543 [\u201cSubject to [certain] statutory exceptions not applicable here, an injured employee\u2019s sole and exclusive remedy against his or her employer is the right to recover workers\u2019 compensation benefits . . . ,\u201d provided the injury arose out of and in the course of employment].) The phrase \u201carising out of\u2019 refers to the origin or cause of the injury, while the phrase \u201cin the course of employment\u201d refers to the time and place of the injury. (State Comp. Ins. Fund v. Ind. Acc. Com. (1952) 38 Cal.2d 659, 661 [242 P.2d 311]; Argonaut Ins. Co. v. Workmen\u2019s Comp. App. Bd. (1967) 247 Cal.App.2d 669, 676-677 [55 Cal.Rptr. 810].) Courts have consistently recognized the act\u2019s two-pronged requirement: the injury must have arisen out of and occurred in the course of employment. Indeed, the California Supreme Court has described this two-pronged requirement as \u201cthe cornerstone of the workers\u2019 compensation system.\u201d (Maher v. Workers\u2019 Comp. Appeals Bd. (1983) 33 Cal.3d 729, 732-733 [190 Cal.Rptr. 904, 661 P.2d 1058]; see Vaught, supra, 157 Cal.App.4th at p. 1544.)\nIn light of the parties\u2019 positions here, it bears noting that the provisions of the Workers\u2019 Compensation Act must be liberally construed in the employee\u2019s favor, and all reasonable doubts as to whether an injury arose out of employment are to be resolved in favor of awarding the injured employee compensation. (Lab. Code, \u00a7 3202; Department of Rehabilitation v. Workers\u2019 Comp. Appeals Bd. (2003) 30 Cal.4th 1281, 1290-1291 [135 Cal.Rptr.2d 665, 70 P.3d 1076].) This rule of liberal construction applies to \u201cfactual as well as statutory construction. [Citations.] Thus, \u2018[i]f a provision in [the Workers\u2019 Compensation Act] may be reasonably construed to provide coverage or payments, that construction should usually be adopted even if another reasonable construction is possible.\u2019 [Citation.] The rule of liberal construction \u2018is not altered because a plaintiff believes that [he or she] can establish negligence on the part of [his or her] employer and brings a civil suit for damages.\u2019 [Citation.] It requires that we liberally construe the Act \u2018in favor of awarding workers\u2019] compensation, not in permitting civil litigation.\u2019 \u201d (Arriaga v. County of Alameda (1995) 9 Cal.4th 1055, 1065 [40 Cal.Rptr.2d 116, 892 P.2d 150].)\nWorkers\u2019 Compensation Law: The Common Law Developments\nAs a general rule, injuries sustained by an employee while commuting to and from work are not compensable under the workers\u2019 compensation system. (Zenith Nat. Ins. Co. v. Workmen\u2019s Comp. App. Bd. (1967) 66 Cal.2d 944, 946-947 [59 Cal.Rptr. 622, 428 P.2d 606].) This rule, known as the going and coming rule, bars workers\u2019 compensation for injuries that occur \u201cduring a local commute enroute to a fixed place of business at fixed hours in the absence of special or extraordinary circumstances.\u201d (Hinojosa v. Workmen\u2019s Comp. Appeals Bd. (1972) 8 Cal.3d 150, 157 [104 Cal.Rptr. 456, 501 P.2d 1176]; see General Ins. Co. v. Workers\u2019 Comp. Appeals Bd. (1976) 16 Cal.3d 595, 598 [128 Cal.Rptr. 417, 546 P.2d 1361].)\nThe going and coming rule is a judicially created doctrine first recognized in California jurisprudence in Ocean Acc. etc. Co. v. Industrial Acc. Com. (1916) 173 Cal. 313 [159 P. 1041] {Ocean Accident), where the California Supreme Court held that the death of a shipworlcer who fell into the water and drowned on the way to the vessel on which he worked was not covered by workers\u2019 compensation. The reason was that an employee going to or coming from his place of employment, such as the shipworlcer there, was not rendering a service to his or her employer at the time of the accident. (Id. at pp. 321-322; see Hinojosa v. Workmen\u2019s Comp. Appeals Bd., supra, 8 Cal.3d at pp. 153-154 [discussing Ocean Accident]; Zenith Nat. Ins. Co. v. Workmen\u2019s Comp. App. Bd., supra, 66 Cal.2d at p. 946 [Cal. has not adopted a statutory codification of the going and coming rule, but it has become a part of workers\u2019 compensation jurisprudence by judicial decision].) A leading commentator explains the rule as premised on the theory that an employee who travels to his or her place of employment has not yet entered the course of employment. (See Lewis v. Workers\u2019 Comp. Appeals Bd., supra, 15 Cal.3d at p. 562, citing 2 Hanna, Cal. Law of Employee Injuries and Workers\u2019 Compensation (2d ed.) \u00a7 9.03[3][b].)\nThe going and coming rule became the subject of significant criticism, the California Supreme Court, for example, describing it as a \u201c \u2018slippery concept,\u2019 \u201d \u201c \u2018riddled with exceptions,\u2019 \u201d and difficult to apply uniformly. (Santa Rosa Junior College v. Workers\u2019 Comp. Appeals Bd., supra, 40 Cal.3d at p. 352.) Such criticism led, among other things, to the premises line rule.\nIn an effort to create a \u201csharp line of demarcation\u201d as to when the employee\u2019s commute terminates and the course of employment commences, courts adopted the premises line rule, which provides that the employment relationship generally commences once the employee enters the employer\u2019s premises. (Lefebvre v. Workers\u2019 Comp. Appeals Bd., supra, 106 Cal.App.3d at p. 750.) \u201cThe \u2018premises line\u2019 has the advantage of enabling courts to ascertain the point at which employment begins \u2014 objectively and fairly. This outweighs the disadvantages incurred by attempting to formulate and apply a subjective rule justly.\u201d (General Ins. Co. v. Workers\u2019 Comp. Appeals Bd., supra, 16 Cal.3d at p. 599.) Succinctly put, prior to entry on the employer\u2019s premises, \u201cthe going and coming rule ordinarily precludes recovery; after entry, injury is generally presumed compensable as arising in the course of employment.\u201d (Id. at p. 598; see Pacific Indem. Co. v. Industrial Acc. Com. (1946) 28 Cal.2d 329, 335-336 [170 P.2d 18].)\nAs indicated, the trial court applied the premises line rule, without considering whether Wright\u2019s living on the property owned by his employer required any limitation or qualification of that rule. This was error.\nWhile the premises line establishes when a nonresident employee enters the course of his or her employment, an employee who resides in employer-owned housing is differently situated. As to such an employee, the \u201cin the course of employment\u201d requirement is generally analyzed by what is called the \u201cbunkhouse rule.\u201d\nThe bunkhouse rule dates back to the 1920\u2019s, with the earliest mention found in Associated Oil Co. v. Industrial Acc. Com. (1923) 191 Cal. 557 [217 P. 744], There, an employee who lived in a rooming house provided by his employer and on the employer\u2019s property was injured when the leg of a chair on which he sat went through a crack in the porch floor, causing him to fall from the porch. (Id. at pp. 558-559.) The Industrial Accident Commission awarded the employee workers\u2019 compensation benefits. (Id. at pp. 558-559.) The employer sought certiorari. And got it.\nThe Supreme Court considered whether \u201c \u2018injuries occurring about the employer\u2019s bunkhouse situated on the employer\u2019s working premises, sustained by employees during their leisure hours while reasonably using the bunkhouse in a proper manner during intermissions from work, the injury being due to unsafe conditions of the premises provided by the employer, are within the protection of the Workmen\u2019s Compensation Act.\u2019 \u201d (Associated Oil Co. v. Industrial Acc. Com., supra, 191 Cal. at p. 559.) It noted the general rule that \u201cwhen the contract of employment contemplates that the employees shall sleep upon the premises of the employer, the employee, under such circumstances, is considered to be performing services growing out of and incidental to such employment during the time he is on the premises of the employer.\u201d (Ibid., citing 1 Schneider\u2019s Workmen\u2019s Compensation Law, p. 608, f 279.)\nApplying this rule, the court held that the circumstances did not trigger workers\u2019 compensation coverage. Specifically, it noted the employee fell from the porch on a Sunday \u201cat a time when not at work, and [he] was neither required to work nor to be on the premises.\u201d Additionally, he had a choice of residing in a nearby town but opted to reside in the more convenient lodging provided by his employer. (Associated Oil Co. v. Industrial Acc. Com., supra, 191 Cal. at p. 560.) Under these circumstances, the court concluded, the employee\u2019s injuries did not occur in the course of his employment, and it annulled the award. (Id. at pp. 561-562.)\nThe following year, the California Supreme Court again addressed the bunkhouse rule, in Larson v. Industrial Acc. Com. (1924) 193 Cal. 406 [224 P. 744], There, two employees were killed and two others severely burned when a wood stove used for heating an employer-owned bunkhouse exploded. (Id. at p. 408.) The Industrial Accident Commission awarded workers\u2019 compensation benefits. (Id. at pp. 408-409.) The Supreme Court affirmed the awards, noting that the employees were required to lodge in the bunkhouse as a condition of their employment, with room and board a part of their wages. This distinguished the case from Associated Oil Co. v. Industrial Acc. Com., supra, 191 Cal. 557, where the employee had the option of lodging in the bunkhouse. And, quoting a 1919 Wisconsin case, the court observed, \u201cThe facts of the case we are now considering present a situation in which \u2018the employer places the employee in such circumstances that his time is never his own, where he has no discretion as to where he shall sleep and where he shall eat. Under such circumstances the workman must be considered in the employ of the employer all of the time, or at least performing a service which is incidental to the employment he is engaged in.\u2019 \u201d (Larson v. Industrial Acc. Com., supra, 193 Cal. at pp. 410-411, quoting Holt Lumber Co. v. Industrial Com. (1919) 168 Wis. 381 [170 N.W. 366].)\nA few months after Larson v. Industrial Acc. Com., supra, 193 Cal. 406, the Supreme Court issued State Compensation Ins. Fund v. Industrial Acc. Com. (1924) 194 Cal. 28 [227 P. 168], again affirming an award of workers\u2019 compensation benefits. In that case, a maid employed by the Fairmont Hotel was injured when she exited the hotel premises through the servants\u2019 entrance the employees were required to use and slipped on a public sidewalk outside the hotel premises. She was not on duty at the time and was leaving the hotel on her day off to run a personal errand. She was not required to live at the hotel, but was given the option to do so, in exchange for which her wages were reduced. (Id. at pp. 29-31.) According to the court, it \u201cseem[ed] clear\u201d the injury arose out of the maid\u2019s employment, since she was compelled to use the entrance that exited into the hazardous condition, and there was thus \u201ca direct causal connection between the injury received by the employee and her employment by the hotel.\u201d (State Compensation Ins. Fund v. Industrial Acc. Com., supra, 194 Cal. at p. 31.)\nThe more difficult question was whether the injury occurred in the course of employment, a question the court ultimately answered in the affirmative. (State Compensation Ins. Fund v. Industrial Acc. Com., supra, 194 Cal. at pp. 31-32, 36.) The court reasoned that, although the employee was given a choice regarding her lodging, once she made her choice, her employment contract required her to live on the hotel premises and have her meals there, which meals and lodging were part of her compensation for her services. (Id. at pp. 34-35.) Doing so, the court quoted Associated Oil Co. v. Industrial Acc. Com., supra, 191 Cal. at page 559, for the proposition that \u201c \u2018when the contract of employment contemplates that the employees shall sleep upon the premises of the employer, the employee, under such circumstances, is considered to be performing services growing out of and incidental to such employment during the time he is on the premises of the employer.\u2019 \u201d (State Compensation Ins. Fund, at p. 35.)\nSince 1924, a number of cases have addressed the bunkhouse rule, analyzing its application under a variety of circumstances. (See, e.g., Truck Ins. Exchange v. Ind. Acc. Com. (1946) 27 Cal.2d 813 [167 P.2d 705]; Crawford v. Workers\u2019 Comp. Appeals Bd. (1986) 185 Cal.App.3d 1265 [230 Cal.Rptr. 425]; State Compensation Ins. Fund v. Workers\u2019 Comp. Appeals Bd. (1982) 133 Cal.App.3d 643 [184 Cal.Rptr. 111]; Leffler v. Workers\u2019 Comp. Appeals Bd. (1981) 124 Cal.App.3d 739 [177 Cal.Rptr. 552]; Argonaut Ins. Co. v. Workmen\u2019s Comp. App. Bd., supra, 247 Cal.App.2d 669; Rosen v. Industrial Acc. Com. (1966) 239 Cal.App.2d 748 [49 Cal.Rptr. 706]; Aubin v. Kaiser Steel Corp. (1960) 185 Cal.App.2d 658 [8 Cal.Rptr. 497].) Most recently, the Fourth District discussed it at length in a case we find particularly instructive here \u2014 Vaught, supra, 157 Cal.App.4th 1538.\nVaught worked as a State park ranger. The State offered him a new ranger position, and to entice him to accept, offered him and his wife residence in a ranch house within the park, first offering the smaller of two houses, and then, at Vaught\u2019s request, the larger one. Vaught accepted the position, and he and his wife moved into the house under a month-to-month agreement. At some point, Vaught discovered a water leak in one of the bathrooms and contacted the State for repairs. While the repairs were being done, Vaught, who was off work that day, and his wife left the house. After returning and discovering the repairs unfinished, Vaught slipped on the bathroom floor, sustaining injuries. The Vaughts filed a tort action against the State, which moved for summary judgment based on workers\u2019 compensation exclusivity. The trial court granted the motion, the Vaughts appealed, and the Court of Appeal affirmed, holding that the exclusive remedy rule barred the Vaughts\u2019 civil action. (Vaught, supra, 157 Cal.App.4th at p. 1542.)\nThe Court of Appeal began its analysis by confirming the two-pronged requirement of Labor Code section 3600: that a compensable injury must have arisen out of and occurred in the course of employment. (Vaught, supra, 157 Cal.App.4th at p. 1544.) And under the bunkhouse rule, the court explained, \u201c[w]hen an employee is injured while living on the employer\u2019s premises, the course of employment requirement in section 3600, subdivision (a), is satisfied if the employment contract of the employee contemplates, or the work necessity requires, the employee to reside on the employer\u2019s premises.\u201d (Id. at p. 1545.)\nThen, after applying the bunkhouse rule to the facts of that case, the court concluded that Vaught\u2019s injury occurred during the course of his employment, providing the following explanation: \u201cThe State offered [Vaught] residence in the State-owned ranch house as incentive to accept the new resource ranger position in the District. [Vaught] understood the ranch house was offered to him as an \u2018employment benefit.\u2019 [Vaught] initially declined the State\u2019s offer to relocate and take the new position because the State offered him the smaller of the two homes. The parties thus specifically negotiated over the issue of [Vaught\u2019s] residence in the District, which the State offered the Vaughts as part of [Vaught\u2019s] compensation package. . . .\n\u201cWe further conclude [Vaught] resided in the ranch house out of work necessity, which provides an independent basis to satisfy the course of employment requirement. As a park ranger, [Vaught] was required to be \u2018on call all the time.\u2019 [Vaught] was also required to patrol within the District. Because of the location of the ranch house in connection with his work, [Vaught] and the State agreed [Vaught] \u2018would report to Borrego Springs to the district office,\u2019 but he \u2018could work out of the house at Vallecito.\u2019\n\u201c[Vaught] also used a portion of the ranch house as his office, where he stored equipment, topographical and park maps, and various items he used on patrol, for fire protection, and search and rescue in connection with his job. Although [Vaught] was not compelled to live in the ranch house, the nature of his work as a resource ranger necessitated that he live there.\u201d (Vaught, supra, 157 Cal.App.4th at p. 1546.)\nApplying the foregoing authorities to the facts of this case demonstrates at the least a triable issue of material fact whether Wright was acting in the course of his employment at the time he was injured. Wright lived on the San Quentin grounds purely voluntarily. It was not required by his employment contract, nor was it necessary for him to live there. Indeed, the State expressly concedes \u201c[i]t is undisputed that living in the residence was not a condition of Wright\u2019s employment with the State.\u201d Wright paid market rate for the rental, and the rental was not a benefit of his employment. Further, there was no evidence that Wright was ever on call or performed any work out of his rental unit.\nAs noted, in its order granting summary judgment the trial court did not mention, let alone analyze, the bunkhouse rule, even though Wright raised it in his opposition, not even considering whether the fact that Wright lived on State-owned property should affect whether the premises line rule applied. And in denying Wright\u2019s motion for new trial, the court dismissed the rule, saying, \u201cThe bunkhouse rule is inapplicable to this case. Plaintiff was not injured in his residence and the State did not invoke the bunkhouse rule. In reaching its decision, the Court relied on the premises line exception to the going and coming rule.\u201d\nWe do not understand the significance of the State\u2019s not invoking the bunkhouse rule. And the court\u2019s expressed rationale for omitting the rule from its analysis was flawed, as many cases demonstrate that it is not a requirement that the employee was injured within the confines of the bunkhouse for the rule to apply. (See, e.g., Truck Ins. Exchange v. Ind. Acc. Com., supra, 27 Cal.2d 813 [employee killed in a car accident on a public highway; bunkhouse rule analyzed and found applicable]; State Compensation Ins. Fund v. Indus. Acc. Com., supra, 194 Cal. 28 [employee injured after she exited her employer\u2019s hotel through the servants\u2019 entrance; bunkhouse rule analyzed and found applicable]; Aubin v. Kaiser Steel Corporation, supra, 185 Cal.App.2d 658 [employee killed by train while driving on a recreational outing on employer\u2019s property; bunkhouse rule analyzed and found applicable].)\nThe State argues the trial court correctly disregarded the bunkhouse rule, claiming \u201c[i]t is well-settled that the bunkhouse rule does not apply where the basic relationship between the parties is that of a landlord and tenant,\u201d relying on Rosen v. Industrial Acc. Com., supra, 239 Cal.App.2d 748. But Rosen is distinguishable. There, an apartment tenant and his wife agreed with their landlord to perform certain minor services on the premises on a part-time basis, in addition to the husband\u2019s regular work elsewhere, in return for a nominal credit allowance on their rent. The husband was injured while descending a stairway at the apartment building on his way to run a personal errand. (Id. at pp. 748-749.) The Industrial Accident Commission found that because the tenant\u2019s duties contemplated he live on the premises in order to enjoy the benefits of his rental allowance, his apartment was the equivalent of a bunkhouse, and the bunkhouse rule dictated that he was injured in the course of employment. (Id. at p. 750.)\nThe Court of Appeal reversed, finding that neither \u201cthe theory [n]or the philosophy underlying the development of the bunkhouse rule would warrant its application . . .\u201d in that case. (Rosen v. Industrial Acc. Com., supra, 239 Cal.App.2d at p. 750.) It agreed with the landlord \u201cthat it is unreasonable and beyond the contemplation of the Workmen\u2019s Compensation Act to hold that an agreement between a landlord and his tenants whereby a modest rental allowance is given the tenants in return for certain relatively nominal services creates a situation in which the landlord must furnish, in effect, a completely comprehensive health, accident and life insurance policy covering the tenants 24 hours a day so long as they are upon the premises.\u201d (Id. at p. 750.) It reasoned that in prior instances in which the bunkhouse rule had been applied, the employee was expected or required to reside on the employer\u2019s premises by virtue of the employment relationship, and the \u201clandlord-tenant relationship was entirely subsidiary and collateral to the basic employment relationship.\u201d (Ibid.) But in a situation such as that present there, the basic relationship being that of landlord and tenant with the tenant being employed full time in other pursuits and merely rendering relatively minor services to the landlord, the bunkhouse rule did not govern. (Id. at p. 751.)\nThe State claims here that, as in Rosen, the basic relationship between it and Wright was that of a landlord and tenant, such that the analysis for a residential employee does not apply. We disagree. The landlord/tenant relationship here was \u201centirely subsidiary and collateral\u201d to the employment relationship between the parties. Put conversely, the employee relationship between the State and Wright dominated: but for that relationship, there would be no landlord/tenant relationship, the undisputed evidence showing that Wright worked at San Quentin before he resided there.\nThe State further attempts to distance the setting here from the bunkhouse rule by arguing that none of the cases Wright cites \u201cinvolved a landlord tenant relationship between employee and employer such as existed in this case . . . .\u201d This is indeed accurate \u2014 and supports our conclusion. Five of the six bunkhouse cases Wright cites \u2014 Truck Ins. Exchange v. Ind. Acc. Com., supra, 27 Cal.2d 813; State Compensation Ins. Fund v. Indus. Acc. Com., supra, 194 Cal. 28; Larson v. Industrial Acc. Com., supra, 193 Cal. 406; Aubin v. Kaiser Steel Corp., supra, 185 Cal.App.2d 658; and Vaught, supra, 157 Cal.App.4th 1538 \u2014 involved employees who lived on their employers\u2019 premises as a requirement or benefit of their employment. In each case, the court found that, per the bunkhouse rule, the employee was injured in the course of employment. Here, Wright\u2019s employment contract did not contemplate that he reside on prison grounds, nor was it a necessity of his job. The sixth case \u2014 Crawford v. Workers\u2019 Comp. Appeals Bd., supra, 185 Cal.App.3d 1265- \u2014 questioned whether a state prisoner injured while off duty at the forestry conservation camp where he lived and worked while serving his sentence was engaged in assigned work and thus fell within the bunkhouse rule, a question the court answered in the negative. Crawford has no application here.\nThe State asserts, however dramatically, that if Wright is correct, \u201ceach workers\u2019 compensation claim involving incidents at San Quentin would be evaluated on a myriad of factors, including each individual\u2019s work location, parking location, and residence location, whether they reside on or off the prison grounds. Thus, an officer working at the East Gate would be entitled to compensation upon passing onto the prison premises, the warden would be entitled to compensation only upon reaching his office outside of the \u2018sally port\u2019 entrance, while Wright is only entitled to compensation upon reaching the \u2018Donner\u2019 area. These disparate treatments of injured employees are exactly what the \u2018premises line\u2019 rule was intended to preclude.\u201d The State\u2019s concern is a classic red herring, however, because most San Quentin correctional officers \u2014 approximately 98 percent, according to Wright \u2014 live off premises. As to them, the premises line rule would generally govern the question of when they entered the course of employment. As to tenant employees, however, the bunkhouse rule exists in recognition of the fact that they are differently situated, and that they have not entered the course of employment simply by virtue of living on their employers\u2019 premises. And as has been recognized, \u201cThe point at which an employee is no longer \u2018going or coming\u2019 and has entered the area of his employment involves a factual determination.\u201d (Lefebvre v. Workers\u2019 Comp. Appeals Bd., supra, 106 Cal.App.3d at p. 749.)\nWere the rule to the contrary \u2014 that residential employees are covered by workers\u2019 compensation at all times they are on their employers\u2019 premises \u2014 the State would find itself in the position of insuring its San Quentin tenant employees for all injuries suffered on the State-owned premises. This is not the law, as the Supreme Court recognized in Larson v. Industrial Acc. Com., supra, 193 Cal. at page 409: \u201cIt is, of course, a fundamental doctrine that it was not intended by the compensation act that an employer who comes within its provisions shall be the insurer of his employee at all times during the period of the employment, but is liable for compensation only when the injury occurs to the employee while performing some act for the employer in the course of his employment, or is doing something that is incidental thereto.\u201d\nThat the State did not intend its workers\u2019 compensation policy would insure Wright for all injuries suffered on San Quentin grounds \u2014 even at or near the home where he lived \u2014 is further evidenced by the terms of Wright\u2019s lease agreement. The original lease required Wright to obtain a \u201cbroad policy of comprehensive coverage of public liability insurance, naming the State as the insured.\u201d The policy was to be issued by an insurance company acceptable to the State and insuring \u201cagainst loss or liability caused by or connected with [Wright\u2019s] occupation and use of said premises under [the] rental/lease agreement.\u201d The lease operable at the time of Wright\u2019s injury contained an indemnity provision clause that provided as follows: \u201cOwner will not be liable for any damage or injury to Tenant, or any other person, or to any property, occurring on the premises, or in common areas, unless such damage is the legal result of the negligence or willful misconduct of the Owner, his or her agents, or employees. Tenant agrees to hold Owner harmless from any claims for damages, no matter how caused, except for injury or damages caused by negligence or willful misconduct of the Owner, his or her agents, or employees.\u201d Why would the State have inserted these provisions into Wright\u2019s lease if it believed him covered by workers\u2019 compensation at all times?\nDISPOSITION\nThe question here is whether Wright\u2019s injury arose out of and in the course of his employment. The trial court concluded there was no triable issue of material fact on that question, answered it in favor of the State, and granted summary judgment. We conclude otherwise, that the question is disputed. The summary judgment for the State is reversed. Wright shall recover his costs on appeal.\nKline, P. J., and Stewart, J., concurred.\nRespondent\u2019s petition for review by the Supreme Court was denied April 29, 2015, S224999.\nAnother estimate put the distance at 30 to 40 feet.\nWright describes the \u201csally port\u201d as \u201cthe check-point to enter the secure part of the prison . . . .\u201d\nThe actual distance of Wright\u2019s walk from his home to the sally port is not in the record. As depicted in aerial photos, it is a significant distance, appearing to be the equivalent of multiple city blocks.\nLochner v. New York (1905) 198 U.S. 45 [49 L.Ed. 937, 25 S.Ct. 539].\nAll copies of the court\u2019s order in the record are marked up, making these portions of the order illegible.",
+        "type": "majority",
+        "author": "RICHMAN, J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "The Veen Firm, Anthony Label, Andje M. Medina; Smith & McGinty, Daniel U. Smith and Valerie T. McGinty for Plaintiff and Appellant.",
+      "Kamala D. Harris, Attorney General, Kristin G. Hogue, Assistant, Attorney General, John P. Devine, Troy B. Overton and Grayson W. Marshall III, Deputy Attorneys General, for Defendant and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. A139034.\nFirst Dist., Div. Two.\nJan. 30, 2015.]\nMONNIE WRIGHT, Plaintiff and Appellant, v. STATE OF CALIFORNIA, Defendant and Respondent.\nCounsel\nThe Veen Firm, Anthony Label, Andje M. Medina; Smith & McGinty, Daniel U. Smith and Valerie T. McGinty for Plaintiff and Appellant.\nKamala D. Harris, Attorney General, Kristin G. Hogue, Assistant, Attorney General, John P. Devine, Troy B. Overton and Grayson W. Marshall III, Deputy Attorneys General, for Defendant and Respondent."
+  },
+  "file_name": "1218-01",
+  "first_page_order": 1092,
+  "last_page_order": 1112
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12236931,
+  "name": "Ezell v. Chrones, Warden",
+  "name_abbreviation": "Ezell v. Chrones",
+  "decision_date": "2011-12-05",
+  "docket_number": "No. 11-6666",
+  "first_page": "1081",
+  "last_page": "1081",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1081"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.694,
+    "sha256": "102b75da59559f3fb7eeda73f811879dbbe0b6bc93f1c845971db14366f00a2c",
+    "simhash": "1:10f766a62da37066",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ezell v. Chrones, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6666.\nEzell v. Chrones, Warden."
+  },
+  "file_name": "1081-11",
+  "first_page_order": 1163,
+  "last_page_order": 1163
+}

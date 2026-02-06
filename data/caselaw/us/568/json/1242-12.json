@@ -1,0 +1,59 @@
+{
+  "id": 12433651,
+  "name": "Wilson v. Wisconsin",
+  "name_abbreviation": "Wilson v. Wisconsin",
+  "decision_date": "2013-03-18",
+  "docket_number": "No. 12-8709",
+  "first_page": "1242",
+  "last_page": "1242",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1242"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 68,
+    "ocr_confidence": 0.608,
+    "sha256": "cfff096751c075ef3678b8131825f3d3d3da9d59d86a3d5d24963dddc9b3e6ef",
+    "simhash": "1:8e172d213decb80c",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wilson v. Wisconsin."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Wis. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8709.\nWilson v. Wisconsin."
+  },
+  "file_name": "1242-12",
+  "first_page_order": 1318,
+  "last_page_order": 1318
+}

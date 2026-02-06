@@ -1,0 +1,59 @@
+{
+  "id": 4224537,
+  "name": "Mills v. Wisconsin",
+  "name_abbreviation": "Mills v. Wisconsin",
+  "decision_date": "2011-05-02",
+  "docket_number": "No. 10-9756",
+  "first_page": "981",
+  "last_page": "981",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 981"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 66,
+    "ocr_confidence": 0.621,
+    "sha256": "be809cbde6e1cd5013ca59fb76ad7817d31634f79ac98f387a1e842f5ec7dfee",
+    "simhash": "1:4e37b361fdc2b8df",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mills v. Wisconsin."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Wis. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9756.\nMills v. Wisconsin."
+  },
+  "file_name": "0981-01",
+  "first_page_order": 1007,
+  "last_page_order": 1007
+}

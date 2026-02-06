@@ -1,0 +1,59 @@
+{
+  "id": 5901887,
+  "name": "Triana v. United States",
+  "name_abbreviation": "Triana v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5143",
+  "first_page": "906",
+  "last_page": "906",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 906"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.594,
+    "sha256": "86c36a3a618947cd03a533fbed4e1b3cb89cce4b90ed6990e0a0e704ac6eac08",
+    "simhash": "1:153acf032e8f907a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Triana v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5143.\nTriana v. United States."
+  },
+  "file_name": "0906-03",
+  "first_page_order": 928,
+  "last_page_order": 928
+}

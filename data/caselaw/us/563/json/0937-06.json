@@ -1,0 +1,59 @@
+{
+  "id": 5963595,
+  "name": "Loye et al. v. Dakota County, Minnesota",
+  "name_abbreviation": "Loye v. Dakota County",
+  "decision_date": "2011-04-18",
+  "docket_number": "No. 10-1035",
+  "first_page": "937",
+  "last_page": "937",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 937"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 88,
+    "ocr_confidence": 0.612,
+    "sha256": "c5f86af114385f478a00fb6d27df4b3799f79605cad80ba75964c3b6c5be2080",
+    "simhash": "1:219a73982c1c008a",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Loye et al. v. Dakota County, Minnesota."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1035.\nLoye et al. v. Dakota County, Minnesota."
+  },
+  "file_name": "0937-06",
+  "first_page_order": 963,
+  "last_page_order": 963
+}

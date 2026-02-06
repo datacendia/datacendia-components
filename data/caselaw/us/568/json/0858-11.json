@@ -1,0 +1,59 @@
+{
+  "id": 12413920,
+  "name": "Xiang Li v. United States",
+  "name_abbreviation": "Xiang Li v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10725",
+  "first_page": "858",
+  "last_page": "858",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 858"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 74,
+    "ocr_confidence": 0.638,
+    "sha256": "6b1daf19fead2e88999874d550d3f6d30ee164175c880eb8447eb4db7a4be244",
+    "simhash": "1:954ac2a38b15540c",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Xiang Li v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10725.\nXiang Li v. United States."
+  },
+  "file_name": "0858-11",
+  "first_page_order": 934,
+  "last_page_order": 934
+}

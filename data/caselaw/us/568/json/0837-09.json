@@ -1,0 +1,59 @@
+{
+  "id": 12412182,
+  "name": "Collier v. Blagojevich et al.",
+  "name_abbreviation": "Collier v. Blagojevich",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10250",
+  "first_page": "837",
+  "last_page": "837",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 837"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 78,
+    "ocr_confidence": 0.626,
+    "sha256": "7cf028b7bdd0c5743989f12ee67d392c274e391a2d369ab80792c45c0d8df75b",
+    "simhash": "1:00c830a0490b9430",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Collier v. Blagojevich et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10250.\nCollier v. Blagojevich et al."
+  },
+  "file_name": "0837-09",
+  "first_page_order": 913,
+  "last_page_order": 913
+}

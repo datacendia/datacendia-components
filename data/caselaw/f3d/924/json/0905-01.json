@@ -1,0 +1,842 @@
+{
+  "id": 12521230,
+  "name": "UNITED STATES of America, Plaintiff-Appellee, v. Damon Lamont SHANKLIN, Defendant-Appellant.",
+  "name_abbreviation": "United States v. Shanklin",
+  "decision_date": "2019-05-24",
+  "docket_number": "No. 18-5289",
+  "first_page": "905",
+  "last_page": "922",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "924 F.3d 905"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "6th Cir.",
+    "id": 21296,
+    "name": "United States Court of Appeals for the Six Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "272 F. App'x 469",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        3629884
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "472"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/272/0469-01"
+      ]
+    },
+    {
+      "cite": "877 F.3d 231",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12263956
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "239-40"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/877/0231-01"
+      ]
+    },
+    {
+      "cite": "664 F.3d 1040",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3860102
+      ],
+      "weight": 5,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "1045",
+          "parenthetical": "explaining that when the \"other offense\" is drug trafficking, close proximity between the firearm and the drug materials is sufficient to apply the enhancement"
+        },
+        {
+          "page": "1045",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "1046"
+        },
+        {
+          "page": "1046",
+          "parenthetical": "noting that the more relevant inquiry is the amount of drugs in the defendant's possession, since \"carrying objects of great value is naturally facilitated by the security of being armed-whether the objects are intended for sale or not\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/664/1040-01"
+      ]
+    },
+    {
+      "cite": "576 F.3d 318",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4038163
+      ],
+      "weight": 5,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "321",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "321"
+        },
+        {
+          "page": "321",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "319-20, 322"
+        },
+        {
+          "page": "321",
+          "parenthetical": "explaining that courts examine the accessibility of the gun"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/576/0318-01"
+      ]
+    },
+    {
+      "cite": "532 U.S. 59",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9300662
+      ],
+      "weight": 5,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "64-66"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/532/0059-01"
+      ]
+    },
+    {
+      "cite": "263 F.3d 499",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9484183
+      ],
+      "weight": 3,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "502",
+          "parenthetical": "citing Buford v. United States , 532 U.S. 59, 121 S.Ct. 1276, 149 L.Ed.2d 197 (2001), and explaining that the fact-specific inquiry requires a more deferential standard of review"
+        },
+        {
+          "page": "501, 503-04",
+          "parenthetical": "applying the enhancement when the defendant had 34 marijuana plants in a separate room, an enhanced security system for the entire apartment, and ammunition in the same room as a small amount of marijuana"
+        },
+        {
+          "page": "504",
+          "parenthetical": "\"When one is in possession of a large and valuable stash of drugs, the desire to protect these illicit substances can be compelling.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/263/0499-01"
+      ]
+    },
+    {
+      "cite": "648 F.3d 417",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3739467
+      ],
+      "weight": 5,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "432"
+        },
+        {
+          "page": "431",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "432-33"
+        },
+        {
+          "page": "432-33"
+        },
+        {
+          "page": "433",
+          "parenthetical": "noting that the type of firearm and whether it was loaded were factors in applying the fortress theory"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/648/0417-01"
+      ]
+    },
+    {
+      "cite": "739 F.3d 923",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4084984
+      ],
+      "weight": 8,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "929"
+        },
+        {
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "929"
+        },
+        {
+          "page": "930"
+        },
+        {
+          "page": "930-31"
+        },
+        {
+          "page": "930"
+        },
+        {
+          "page": "930",
+          "parenthetical": "\"[W]e have resorted to the fortress theory more sparingly in cases that involve simple possession of smaller amounts of drugs.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/739/0923-01"
+      ]
+    },
+    {
+      "cite": "757 F.2d 116",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        317278
+      ],
+      "weight": 2,
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "119"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/757/0116-01"
+      ]
+    },
+    {
+      "cite": "447 F. App'x 684",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        3477993
+      ],
+      "weight": 3,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "690",
+          "parenthetical": "citing United States v. Green , 757 F.2d 116, 119 (7th Cir. 1985) "
+        },
+        {
+          "page": "690",
+          "parenthetical": "collecting cases"
+        },
+        {
+          "parenthetical": "Schardein Test. at 97"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/447/0684-01"
+      ]
+    },
+    {
+      "cite": "397 F.3d 340",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9035306
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "344"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/397/0340-01"
+      ]
+    },
+    {
+      "cite": "558 U.S. 120",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3639161
+      ],
+      "weight": 3,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "131",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/558/0120-01"
+      ]
+    },
+    {
+      "cite": "667 F.3d 689",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3715289
+      ],
+      "weight": 4,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "693"
+        },
+        {
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "693"
+        },
+        {
+          "page": "701-02"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/667/0689-01"
+      ]
+    },
+    {
+      "cite": "560 F.2d 747",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        938026
+      ],
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "751",
+          "parenthetical": "concluding that no disclosure was required when \"[t]he evidence upon which the appellant was convicted was secured by government agents personally and was in no way dependent on any informer\" (internal quotation marks omitted)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/560/0747-01"
+      ]
+    },
+    {
+      "cite": "698 F.3d 248",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3628579
+      ],
+      "weight": 2,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "270",
+          "parenthetical": "denying disclosure when \"the only role the confidential informant played was supplying reliable information to police that led to a fruitful search\""
+        },
+        {
+          "page": "270",
+          "parenthetical": "noting that disclosure was unnecessary because although the CI had told officers about various drugs and weapons in the defendant's garage, the CI was not involved in providing the defendant with any of the contraband"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/698/0248-01"
+      ]
+    },
+    {
+      "cite": "389 F.3d 662",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9148608
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "676"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/389/0662-01"
+      ]
+    },
+    {
+      "cite": "247 F. App'x 730",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        5617483
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "735",
+          "parenthetical": "concluding that, in the context of a defendant's request for disclosure, the defendant's \"confrontation right was not implicated because the testimony was provided merely by way of background\" (quoting United States v. Cromer , 389 F.3d 662, 676 (6th Cir. 2004) )"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/247/0730-01"
+      ]
+    },
+    {
+      "cite": "954 F.2d 379",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10518427
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "381"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/954/0379-01"
+      ]
+    },
+    {
+      "cite": "774 F.3d 1093",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4340493
+      ],
+      "weight": 3,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "1099",
+          "parenthetical": "quoting United States v. Moore , 954 F.2d 379, 381 (6th Cir. 1992) "
+        },
+        {
+          "page": "1099-1100"
+        },
+        {
+          "page": "1100",
+          "parenthetical": "rejecting the defendant's argument in favor of disclosure when \"[a]lthough it is not impossible, it is implausible that the CI framed [the defendant] ... or would testify to this effect\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/774/1093-01"
+      ]
+    },
+    {
+      "cite": "778 F.2d 1182",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1526635
+      ],
+      "weight": 3,
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "1187",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "1187",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "1187",
+          "parenthetical": "concluding that the trial court abused its discretion when it ordered disclosure based only on defense counsel's unsworn representations and remanding for the district court to conduct an in camera hearing to determine the relevancy of the CI's testimony"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/778/1182-01"
+      ]
+    },
+    {
+      "cite": "803 F.3d 244",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4347345
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "274"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/803/0244-01"
+      ]
+    },
+    {
+      "cite": "400 F.2d 414",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        2137899
+      ],
+      "year": 1968,
+      "pin_cites": [
+        {
+          "page": "415",
+          "parenthetical": "explaining that anonymity is particularly important when investigating drug transactions, since the CI and the defendant usually engage in a consensual interaction and the government is thus more reliant on the CI's testimony"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/400/0414-01"
+      ]
+    },
+    {
+      "cite": "418 F.2d 309",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        2165957
+      ],
+      "year": 1969,
+      "pin_cites": [
+        {
+          "page": "311"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/418/0309-01"
+      ]
+    },
+    {
+      "cite": "353 U.S. 53",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6159521
+      ],
+      "weight": 11,
+      "year": 1957,
+      "pin_cites": [
+        {
+          "page": "60, 62"
+        },
+        {
+          "page": "60-61"
+        },
+        {
+          "page": "62"
+        },
+        {
+          "page": "62"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/353/0053-01"
+      ]
+    },
+    {
+      "cite": "405 F.3d 390",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9010038
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "397",
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/405/0390-01"
+      ]
+    },
+    {
+      "cite": "198 L.Ed.2d 268",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12605950,
+        12605951,
+        12605902,
+        12605948,
+        12605949,
+        12605822,
+        12605855
+      ],
+      "year": 2017,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/137/2205-02",
+        "/s-ct/137/2205-03",
+        "/s-ct/137/2199-02",
+        "/s-ct/137/2204-06",
+        "/s-ct/137/2205-01",
+        "/s-ct/137/2186-04",
+        "/s-ct/137/2191-03"
+      ]
+    },
+    {
+      "cite": "137 S. Ct. 2204",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12605943,
+        12605944,
+        12605945,
+        12605946,
+        12605947,
+        12605948
+      ],
+      "year": 2017,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/137/2204-01",
+        "/s-ct/137/2204-02",
+        "/s-ct/137/2204-03",
+        "/s-ct/137/2204-04",
+        "/s-ct/137/2204-05",
+        "/s-ct/137/2204-06"
+      ]
+    },
+    {
+      "cite": "833 F.3d 692",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4351488
+      ],
+      "weight": 5,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "706-07"
+        },
+        {
+          "page": "706"
+        },
+        {
+          "page": "708",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "707",
+          "parenthetical": "\"We usually deny disclosure when the informer was not a participant in the underlying alleged crime, and instead was a mere tipster or introducer.\" (internal quotation marks omitted)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/833/0692-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1291",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 3553",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7\u00a7 922",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 20,
+      "pin_cites": [
+        {
+          "page": "(g)(1)"
+        },
+        {
+          "page": "97",
+          "parenthetical": "Schardein Test."
+        },
+        {
+          "page": "161-62",
+          "parenthetical": "McKinney Test."
+        },
+        {
+          "page": "163-64",
+          "parenthetical": "McKinney Test."
+        },
+        {
+          "page": "164-65",
+          "parenthetical": "McKinney Test."
+        },
+        {
+          "page": "130-31",
+          "parenthetical": "Evans Test."
+        },
+        {
+          "page": "131",
+          "parenthetical": "Evans Test."
+        },
+        {
+          "page": "169",
+          "parenthetical": "McKinney Test."
+        },
+        {
+          "page": "124",
+          "parenthetical": "Schardein Test."
+        },
+        {
+          "page": "137",
+          "parenthetical": "Evans Test."
+        },
+        {
+          "page": "185",
+          "parenthetical": "McKinney Test."
+        },
+        {
+          "page": "141",
+          "parenthetical": "Reccius Test."
+        },
+        {
+          "page": "174, 188",
+          "parenthetical": "McKinney Test."
+        },
+        {
+          "page": "(g)(1)"
+        },
+        {
+          "page": "3",
+          "parenthetical": "Page ID #73"
+        },
+        {
+          "page": "6",
+          "parenthetical": "Page ID #863"
+        },
+        {
+          "page": "\u00b6\u00b6 15-16",
+          "parenthetical": "Page ID #367"
+        },
+        {
+          "page": "31-32",
+          "parenthetical": "Page ID #481-82"
+        },
+        {
+          "page": "53",
+          "parenthetical": "Page ID #503"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1584,
+    "char_count": 47522,
+    "pagerank": {
+      "raw": 4.364012536165934e-08,
+      "percentile": 0.27427081656111996
+    },
+    "sha256": "3c233d8122d76322494f21ec325d6d350d8076194667bca03e6a2a790e806f85",
+    "simhash": "1:9032c6a77e192be6",
+    "word_count": 7622
+  },
+  "last_updated": "2024-02-27T18:46:58.656971+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before: MOORE, SUTTON, MURPHY, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff-Appellee,\nv.\nDamon Lamont SHANKLIN, Defendant-Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "KAREN NELSON MOORE, Circuit Judge.\nDamon Lamont Shanklin appeals his conviction and sentence, following a jury trial, for being a felon in possession of a firearm in violation of 18 U.S.C. \u00a7\u00a7 922(g)(1) and 924(a)(2). Shanklin contends that (1) the district court erred when it denied his motion to compel the government to disclose the identity of a confidential informant (\"CI\"); (2) the government failed to provide sufficient identification evidence to sustain Shanklin's conviction; and (3) the district court erred when it applied a sentencing enhancement under USSG \u00a7 2K2.1(b)(6)(B) for using or possessing a firearm or ammunition \"in connection with another felony offense.\" For the reasons stated below, we reject these arguments and AFFIRM Shanklin's conviction and sentence.\nI. FACTUAL & PROCEDURAL BACKGROUND\nOn September 3, 2013, Louisville police began surveilling 2429 Elliott Avenue to investigate a tip that Damon Shanklin was growing marijuana at the location. R. 116 (McKinney Test. at 160, 194) (Page ID #791, 825); id. at 97 (Schardein Test.) (Page ID #728). The tip came from a \"reliable confident[i]al informant,\" who informed Detective Kevin McKinney that within the last 48 hours, he/she had seen \"numerous\" marijuana plants inside the residence and that he/she believed that Shanklin was the \"only occupant of the home.\" R. 29-2 (Search Warrant Affidavit at 2) (Page ID #79). After beginning surveillance on September 3, 2013, McKinney and other officers observed Shanklin exit 2429 Elliott Avenue and enter a vehicle. R. 116 (Schardein Test. at 97) (Page ID #728); id. at 161-62 (McKinney Test.) (Page ID #792-93). McKinney began to follow Shanklin, who drove a short distance and eventually pulled into the parking lot of a convenience store. Id. at 163-64 (McKinney Test.) (Page ID #794-95). McKinney and other officers subsequently approached Shanklin, confirmed his identity, and had a K-9 sniff the outside of Shanklin's car. Id. at 164-65 (McKinney Test.) (Page ID #795-96). The dog alerted to the trunk area, and a search of the car revealed a small amount of marijuana leaves in the trunk. Id.\nDuring this investigation, McKinney notified other officers to continue to surveil the residence to ensure that no one exited or entered 2429 Elliott Avenue; no one did. Id. at 130-31 (Evans Test.) (Page ID #761-62). One of the officers testified that when he approached the house, he observed marijuana plants in the backyard and noticed a \"strong smell of marijuana coming from the house.\" Id. at 131 (Evans Test.) (Page ID #762). Based on the CI's statements, as well as the smell of marijuana from the residence, McKinney applied for and received a search warrant for 2429 Elliott Avenue. See R. 29-2 (Search Warrant) (Page ID #78-82).\nOfficers subsequently executed the search warrant, using a key that Shanklin had given them to enter the residence. R. 116 (Schardein Test. at 116) (Page ID #747); id. at 169 (McKinney Test.) (Page ID #800). The house was small and had four rooms, including one front bedroom. Id. at 124 (Schardein Test.) (Page ID #755); id. at 137 (Evans Test.) (Page ID #768). During the search, officers located 51 bud-producing marijuana plants. Id. at 185 (McKinney Test.) (Page ID #816); R. 132-3 (Seized Property Log) (Page ID #1114). Additionally, officers found a glass marijuana pipe in the kitchen sink, a digital scale in the living room, various letters addressed to Shanklin at 2429 Elliott Avenue, and personal items associated with Shanklin, including car registrations, photographs of Shanklin, a medication prescription from 2008, and a medical discharge notice from July 2013. R. 132-3 (Seized Property Log) (Page ID #1114); R. 132-1 (Gov't Exs. at 9-10, 12-13, 57-61, 64-69, 72-74) (Page ID #993-94, 996-97, 1041-45, 1048-53, 1056-58); R. 132-2 (Gov't Exs. at 16-20) (Page ID #1084-88). There were also a small number of bills addressed to Shanklin's mother, as well as other individuals, dated from 2010 to 2013. R. 132-1 (Gov't Exs. at 66, 78) (Page ID #1050, 1062); R. 132-2 (Gov't Exs. at 10-11, 21-23) (Page ID #1078-79, 1089-91).\nFinally, in the \"front bedroom,\" officers located a loaded 9-millimeter Glock pistol on the nightstand, a digital scale, and a magazine focusing on growing marijuana. R. 132-3 (Seized Property Log) (Page ID #1114); R. 116 (Schardein Test. at 120-21) (Page ID #751-52); id. at 141 (Reccius Test.) (Page ID #772); id. at 174, 188 (McKinney Test.) (Page ID #805, 819) (testifying that the gun was located on the nightstand and that, based on a later photograph of the gun and ammunition, a round of ammunition was found in the chamber of the gun); see also R. 88 (ATF Agent Test. at 3, 9) (Page ID #405, 411) (testifying about the ammunition). While Schardein believes he took a photograph of the gun, all parties agree that the photograph could not be located and was not entered into evidence. R. 116 (Schardein Test. at 120-21) (Page ID #751-52); Appellant Br. at 5.\nShanklin was subsequently indicted by the Jefferson County Circuit Court for cultivating five or more plants of marijuana, in violation of Kentucky Revised Statute \u00a7 218A.1423, as well as for possessing a handgun as a convicted felon. Although the firearm charge was later severed, state prosecutors amended the marijuana cultivation charge to include a sentence enhancement based upon Shanklin's firearm possession. See Appellant Br. at 5-6; Appellee Br. at 6 n.2. Shanklin was then convicted of the marijuana cultivation charge in state court; the jury found Shanklin not guilty of the firearm enhancement. Appellant Br. at 6; see also R. 102 (Sent'g Hr'g Tr. at 15-16) (Page ID #465-66).\nOn July 20, 2016, a federal grand jury returned an indictment against Shanklin on a single count of being a felon in possession of a firearm in violation of 18 U.S.C. \u00a7\u00a7 922(g)(1) and 924(a)(2). R. 1 (Indictment at 1) (Page ID #1). Prior to trial, Shanklin's defense counsel filed a motion to compel the government to disclose the identity of the confidential informant who spoke to McKinney in September 2013. R. 29 (Page ID #71). Shanklin asserted that the CI's identity was necessary to establish his defense because \"[i]t is quite possible the CI placed or left items with[in] the residence that are now being attributed to Shanklin.\" Id. at 3 (Page ID #73). The district court denied the motion, concluding that Shanklin had not provided any evidence indicating how the CI's identity would assist him in preparing his defense. R. 44 (Order at 5-9) (Page ID #121-25).\nThe case proceeded to trial. Following the government's presentation of evidence, Shanklin moved for a judgment of acquittal, asserting, among other things, that the government had not presented any evidence that the individual at the defense table was Damon Shanklin. R. 117 (Trial Tr. at 4-6) (Page ID #861-63). The district court denied Shanklin's motion, noting that, \"I think he [Shanklin] was identified several times.\" Id. at 6 (Page ID #863). The jury subsequently convicted Shanklin on Count I of the indictment. R. 62 (Jury Verdict) (Page ID #231).\nPrior to sentencing, the United States Probation and Parole Office prepared a presentence investigation report (\"PSR\"). R. 83. The PSR listed Shanklin's base offense level at 20 and included a four-level enhancement pursuant to USSG \u00a7 2K2.1(b)(6)(B), which applies when a defendant \"use[s] or possesse[s] any firearm or ammunition in connection with another felony offense.\" Id. \u00b6\u00b6 15-16 (Page ID #367).\nShanklin objected to the enhancement, asserting that \"there was insufficient evidence that the firearm at issue was used or possessed 'in connection with another felony offense.' \" R. 83-1 (PSR Addendum at 4) (Page ID #385). At his sentencing hearing, Shanklin again raised an objection to the four-level enhancement. R. 102 (Sent'g Hr'g Tr. at 19-20) (Page ID #469-70). Relying upon the \"fortress theory,\" the district court concluded that the enhancement applied, noting that \"[t]he fact that the police found approximately 51 marijuana plants, digital scales, and literature about marijuana growing in Shanklin's house and a loaded gun in the only bedroom suggests that the gun was in close proximity to Mr. Shanklin's marijuana cultivation, trafficking activity.\" Id. at 31-32 (Page ID #481-82). The district court subsequently adopted the PSR's recommendations, which established Shanklin's total offense level as 24, criminal history category as III, and the advisory guideline range as 63 to 78 months. Id. at 53 (Page ID #503); see also R. 83 (PSR \u00b6 66) (Page ID #379). After Shanklin's allocution, the district court reviewed the 18 U.S.C. \u00a7 3553(a) sentencing factors and sentenced Shanklin to 63 months in prison with two years of supervised release. R. 102 (Sent'g Hr'g Tr. at 45-47, 50-52) (Page ID #495-97, 500-02); R. 92 (Judgment at 3) (Page ID #424). Shanklin filed this timely appeal, R. 94 (Notice of Appeal) (Page ID #433), over which we have jurisdiction pursuant to 28 U.S.C. \u00a7 1291.\nII. DISCUSSION\nA. Disclosure of the Confidential Informant's Identity\nIn his first argument, Shanklin contends that the district court erred when it refused to compel the government to identify the CI who had informed McKinney that the CI had seen marijuana in the house occupied by Shanklin. Shanklin points to the affidavit supporting the search warrant for 2429 Elliott Avenue, which explained in relevant part:\nDetectives received information from a reliable confident[i]al informant that has been proven reliable by giving information in the past on numerous occasions that has lead to the arrest and seizure of narcotics. The confident[i]al informant wishes to remain anonymous for his/her safety. Within the last 48 hours of this affidavit being drafted the confident[i]al informant observed numerous marijuana plants inside 2429 Elliott Ave. Confiden[ti]al reliable informant advises Damon L Shanklin is the only occupant of the home.\nR. 29-2 (Search Warrant Affidavit at 2) (Page ID #79). In his motion before the district court, Shanklin argued that because \"[t]he affidavit suggests that the CI was inside the residence shortly before the issuance of the search warrant[, i]t is quite possible the CI placed or left items with in [sic ] the residence that are now being attributed to Shanklin.\" R. 29 (Mot. to Compel Disclosure at 3) (Page ID #73). Thus, Shanklin asserted that the CI's identity \"is material to the defendant's defense in this case\" and must be disclosed. Id. The district court denied Shanklin's motion, concluding that Shanklin \"failed to provide evidence that the informant's identity would help him prepare his defense.\" R. 44 (Order at 8) (Page ID #124).\nOn appeal, Shanklin raises the same arguments, asserting that the district court's refusal to order disclosure rendered his trial fundamentally unfair. See Appellant Br. at 3. Shanklin also contends that because the search warrant affidavit relied entirely on the CI's statements and \"[t]here would be good reason to believe that the [CI] was motivated by monetary compensation or a particularly favorable plea deal,\" Shanklin should have been able to cross-examine the CI in order to impeach his/her credibility. See Appellant Br. at 14-18.\n1. Standard of Review & Applicable Law\n\"The question of disclosure is generally left to the district court's discretion\"; we thus review a district court's denial of a motion to compel disclosure for abuse of discretion. United States v. Doxey , 833 F.3d 692, 706-07 (6th Cir. 2016), cert. denied , --- U.S. ----, 137 S. Ct. 2204, 198 L.Ed.2d 268 (2017). \"A district court abuses its discretion when it applies the incorrect legal standard, misapplies the correct legal standard, or relies upon clearly erroneous findings of fact.\" United States v. Pugh , 405 F.3d 390, 397 (6th Cir. 2005) (internal quotation marks omitted).\nShanklin's motion to compel is governed by Roviaro v. United States , 353 U.S. 53, 77 S.Ct. 623, 1 L.Ed.2d 639 (1957), in which the Supreme Court recognized the government's privilege to withhold the identities of confidential informants from criminal defendants. The privilege is meant to encourage citizens to inform authorities about the commission of crimes by ensuring their anonymity. United States v. Barnett , 418 F.2d 309, 311 (6th Cir. 1969) ; see also United States v. Lloyd , 400 F.2d 414, 415 (6th Cir. 1968) (explaining that anonymity is particularly important when investigating drug transactions, since the CI and the defendant usually engage in a consensual interaction and the government is thus more reliant on the CI's testimony). Additionally, when the CI is considered \"reliable\" and has provided authorities with necessary information in the past, the police have an important interest in maintaining the CI's anonymity so that the government may utilize the CI's knowledge and connections in the future.\nImportantly, however, this privilege is limited by \"the fundamental requirements of fairness\" and necessitates a balance between \"the public interest in protecting the flow of information against the individual's right to prepare his defense.\" Roviaro , 353 U.S. at 60, 62, 77 S.Ct. 623. Thus, when \"disclosure of an informer's identity, or of the contents of his communication, is relevant and helpful to the defense of an accused, or is essential to a fair determination of a cause, the privilege must give way.\" Id. at 60-61, 77 S.Ct. 623. Courts determining whether to order disclosure must consider \"the particular circumstances of each case, taking into consideration the crime charged, the possible defenses, the possible significance of the informer's testimony, and other relevant factors.\" Doxey , 833 F.3d at 706 (quoting Roviaro , 353 U.S. at 62, 77 S.Ct. 623 ). This court has noted that \"[w]e usually deny disclosure when the informer was not a participant in the underlying alleged crime, and instead was a mere tipster or introducer.\" Id. at 707 (internal quotation marks omitted). Moreover, because \"[a] defendant must provide some evidence that disclosure of the informant's identity would assist in his defense before disclosure will be warranted,\" United States v. Ray , 803 F.3d 244, 274 (6th Cir. 2015), \"[m]ere conjecture or supposition about the possible relevancy of the informant's testimony is insufficient to warrant disclosure,\" United States v. Sharp , 778 F.2d 1182, 1187 (6th Cir. 1985) (internal quotation marks omitted). The defendant bears the burden of demonstrating \"how disclosure of the informant would substantively assist in his defense.\" United States v. Sierra-Villegas , 774 F.3d 1093, 1099 (6th Cir. 2014) (quoting United States v. Moore , 954 F.2d 379, 381 (6th Cir. 1992) ).\n2. Impeachment of the Confidential Informant\nShanklin first argues that disclosure was required so that he could impeach the CI. See generally Appellant Br. at 14-19. To the extent Shanklin's argument is made pursuant to either the Confrontation Clause or more general notions of fairness , we have previously held that when \"[t]he CI did not testify and none of the CI's statements were offered for their truth at trial,\" a defendant's right to confront witnesses against him has not been violated. Doxey , 833 F.3d at 708 ; see also United States v. Sales , 247 F. App'x 730, 735 (6th Cir. 2007) (concluding that, in the context of a defendant's request for disclosure, the defendant's \"confrontation right was not implicated because the testimony was provided merely by way of background\" (quoting United States v. Cromer , 389 F.3d 662, 676 (6th Cir. 2004) )). In such a case, we have reasoned that because the statements are not introduced for their truth, the CI's reliability \"would not make any fact of consequence more or less likely.\" Doxey , 833 F.3d at 708 (internal quotation marks omitted).\nShanklin has not identified any statements attributed to the CI that were introduced for their truth by the government. Rather, a fair reading of the trial transcript indicates that testimony regarding the CI's affidavit primarily served as a background explanation for the officers' search of 2429 Elliott Avenue. See R. 116 (McKinney Test. at 160-61) (Page ID #791-92) (stating that after receiving information from the \"reliable confidential informant,\" McKinney did some investigation into the house and set up surveillance of the residence); id. at 97 (Schardein Test.) (Page ID #728) (explaining that McKinney informed other officers that \"he had information of a potential grow in the area of Elliott\" and they subsequently set up surveillance of the home). To the extent that McKinney testified regarding the particular statements included in the affidavit, these statements were either in response to defense counsel's cross-examination or truthfully described the contents of the search warrant affidavit, which had been introduced as Defense Exhibit 2. See id. at 199-200 (McKinney Test.) (Page ID #830-31) (explaining on cross-examination that the CI had been in the house 48 hours before Shanklin's arrest); id. at 218-20 (Page ID #849-51) (stating on re-direct that he had not ordered the CI to plant the gun and agreeing with the prosecutor that \"[t]here's nothing in [the affidavit] about the informant telling you, hey, he's got a gun\"); id. at 214 (Page ID #845) (introducing the search warrant as Defense Exhibit 2); R. 119 (Page ID #924) (listing the affidavit as Defense Exhibit 2).\nAdditionally, and as explained in more detail below, because the CI's statements did not relate to any evidence supporting the charged crime (possession of a firearm), the CI's credibility was not a sufficient reason to order disclosure. See Sierra-Villegas , 774 F.3d at 1099-1100 (concluding that because the CI's statements were not introduced for their truth and the defendant was being convicted for items found pursuant to a search warrant based upon the CI's tip, the fact that \"the original source of investigators' suspicions might have been untrustworthy has no bearing on the reliability of the evidence the investigators subsequently found\"). Finally, although it is not dispositive, our review of the record does show that Shanklin's defense attorney was able to introduce the theory that Shanklin had been framed, either by the police or the CI. See Roviaro , 353 U.S. at 62, 77 S.Ct. 623 (concluding that one of the factors to consider for disclosure is \"the possible significance of the informer's testimony\"). For instance, on cross-examination, McKinney explained that although the affidavit stated that the CI had been in the house within 48 hours of the search of 2429 Elliott Avenue, McKinney could not confirm whether the CI was alone in the house, what the CI had done while in the residence, and whether the CI had brought anything into the house. R. 116 (McKinney Test. at 199-200) (Page ID #830-31). Additionally, defense counsel was able to question McKinney about whether the CI may have had an ulterior motive in reporting Shanklin or a personal grudge against Shanklin. Id. at 220 (McKinney Test.) (Page ID #851). Defense counsel also called into question the credibility of narcotics informers generally, asking McKinney whether CIs were sometimes \"drug addicts\" who often exchanged information to \"get charges eliminated.\" Id. at 197-98 (McKinney Test.) (Page ID #828-29).\n3. Support of Shanklin's Defense\nIn addition to his credibility argument, Shanklin's primary claim on appeal relies on the viability of his claimed defense, namely that the gun was not his and the CI planted the firearm at 2429 Elliott Avenue in an effort to frame him. Appellant Br. at 18. Although this is a closer issue than Shanklin's credibility argument, we do not believe that the district court abused its discretion in denying Shanklin's motion to disclose in light of the specific facts of this case and our deferential standard of review.\nAs noted above, a defendant must point to some evidence supporting his motion for disclosure; \"[m]ere conjecture\" that the CI's identity will assist in the defendant's defense is insufficient. Sharp , 778 F.2d at 1187 (internal quotation marks omitted). Admittedly, our precedent has not specified what kind of evidence (and what amount) a defendant is required to produce before he successfully requests disclosure. Indeed, when a defendant's primary argument in favor of disclosure rests on the likelihood that the CI possesses necessary information for the defendant's sole defense, it is entirely possible that the majority of the defendant's disclosure motion will rely on \"speculation\" about the CI's testimony. On the other hand, were we to permit defendants to require disclosure based on otherwise unsupported hypotheses that have no basis in the facts of the case, we would severely limit the government's ability to maintain the anonymity of reliable, and oftentimes necessary, CIs. In the context of this case, for instance, while a defendant is surely permitted to argue that a third party, including the CI, may have planted an item in the defendant's residence, without some evidence creating a plausible inference that the CI could have planted that evidence, the government should not be required to disclose the CI's identity. See Sierra-Villegas , 774 F.3d at 1100 (rejecting the defendant's argument in favor of disclosure when \"[a]lthough it is not impossible, it is implausible that the CI framed [the defendant] ... or would testify to this effect\"); Sharp , 778 F.2d at 1187 (concluding that the trial court abused its discretion when it ordered disclosure based only on defense counsel's unsworn representations and remanding for the district court to conduct an in camera hearing to determine the relevancy of the CI's testimony).\nIn Shanklin's case, we conclude that Shanklin has not made this required evidentiary showing. First, although Shanklin contends that at least seven individuals may have \"received mail at\" 2429 Elliott Avenue, R. 42 (Def.'s Reply Br. at 1-2) (Page ID #109-10), Shanklin did not subpoena any of those individuals to question them regarding their relationship to the residence, whether they were confidential informants, or whether they had seen a weapon in the residence recently. This despite the fact that the evidence in the record identified many of these individuals by name. See, e.g. , R. 132-1 (Gov't Exs. at 66, 78) (Page ID #1050, 1062); R. 132-2 (Gov't Exs. at 10-11, 21-23) (Page ID #1078-79, 1089-91). Similarly, Shanklin could have provided affidavits or testimony from friends or family, including his mother, regarding their familiarity with the residence and whether they had ever seen Shanklin possess a weapon in or around 2429 Elliott Avenue. Such evidence could have suggested that (1) Shanklin did not own a gun and (2) any weapon found in the residence had to have been left by another person. While we need not decide whether, standing alone, such evidence would have pushed the balance in favor of requiring disclosure, without providing even this modicum of evidence, Shanklin has not shown that the CI's testimony would plausibly support his claim that he had been framed.\nIn addition to Shanklin's lack of evidence, the CI in this case is more aptly described as a \"tipster,\" rather than an active participant. See Doxey , 833 F.3d at 707 (\"We usually deny disclosure when the informer was not a participant in the underlying alleged crime, and instead was a mere tipster or introducer.\" (internal quotation marks omitted)). When the CI informed McKinney about Shanklin's criminal activity, the CI stated only that he had seen marijuana plants in 2429 Elliott Avenue and did not suggest that there was a firearm in the residence or that Shanklin possessed one. R. 29-2 (Search Warrant Affidavit at 2) (Page ID #79). After surveilling the house and confirming that there was a \"strong odor of marijuana\" from the home, the officers secured a search warrant to search for marijuana and related paraphernalia. Id. at 78-82. In addition to confirming the presence of numerous marijuana plants, as the CI had claimed, the officers also located the firearm at issue here. R. 132-3 (Seized Property Log) (Page ID #1114). We have previously held that when a CI does not participate in the underlying crime and instead merely puts a fruitful search into motion, the government is not required to disclose the CI's identity. United States v. Beals , 698 F.3d 248, 270 (6th Cir. 2012) (denying disclosure when \"the only role the confidential informant played was supplying reliable information to police that led to a fruitful search\"); United States v. McManus , 560 F.2d 747, 751 (6th Cir. 1977) (concluding that no disclosure was required when \"[t]he evidence upon which the appellant was convicted was secured by government agents personally and was in no way dependent on any informer\" (internal quotation marks omitted)).\nAdmittedly, this case is somewhat distinguishable from Beals and similar cases; although the CI did not provide any information suggesting that he/she had seen a weapon in the residence, Shanklin's primary defense was that the CI was actively involved in the underlying crime of ensuring that Shanklin possessed the weapon. Cf. Beals , 698 F.3d at 270 (noting that disclosure was unnecessary because although the CI had told officers about various drugs and weapons in the defendant's garage, the CI was not involved in providing the defendant with any of the contraband). However, as noted above, Shanklin failed to provide any evidence supporting this claim. Furthermore, because the CI made no mention of the weapon in his statement to McKinney, there was no suggestion that the CI had any particular knowledge about the location of the weapon in the residence at 2429 Elliott Avenue or would have had the opportunity to plant the firearm. Given the lack of evidence supporting Shanklin's defense, as well as the limited statement by the CI concerning marijuana only, we conclude that the district court did not abuse its discretion when it denied Shanklin's motion for disclosure of the CI's identity.\nB. Identification of Shanklin\nShanklin next argues that the government failed to present sufficient evidence supporting his conviction and, therefore, the district court erred in denying his motion for acquittal under Federal Rules of Criminal Procedure Rule 29. Specifically, Shanklin contends that the government did not present any evidence showing that the individual in the courtroom, as well as the individual who was the focus of the witnesses' testimony, was, in fact, Shanklin. Appellant Br. at 26 (\"[T]he Government failed to present any evidence that the man sitting accused in the courtroom was the same man that was arrested the day in question. No witness even attempted to provide an in-court identification of the defendant.\"). The government responds that because sufficient circumstantial evidence supported a finding that Shanklin was the correct, named defendant, the district court correctly denied Shanklin's Rule 29 motion. Appellee Br. at 15-18.\n\"[T]his Court reviews de novo a district court's denial of a Rule 29 motion for judgment of acquittal based on the insufficiency of the evidence.\" United States v. Clay , 667 F.3d 689, 693 (6th Cir. 2012). \"The Court must construe the evidence in the light most favorable to the government, and then determine whether any rational trier of fact could have found the essential elements of the crime beyond a reasonable doubt.\" Id. (emphasis added). In so doing, the court \"must consider all of the evidence admitted by the trial court, regardless of whether that evidence was admitted erroneously.\" McDaniel v. Brown , 558 U.S. 120, 131, 130 S.Ct. 665, 175 L.Ed.2d 582 (2010) (internal quotation marks omitted). The defendant thus \"bears a very heavy burden.\" Clay , 667 F.3d at 693 (quoting United States v. Davis , 397 F.3d 340, 344 (6th Cir. 2005) ).\nShanklin has failed to meet this burden. \"It is well-settled that an essential element that the government must prove beyond a reasonable doubt is the identification of a defendant as the person who perpetrated the crime charged.\" United States v. Boyd , 447 F. App'x 684, 690 (6th Cir. 2011) (citing United States v. Green , 757 F.2d 116, 119 (7th Cir. 1985) ). However, in order to make that showing, the government need not present direct, in-court identifications of the defendant. Id. Rather, circumstantial evidence may support the identification of the defendant. Clay , 667 F.3d at 701-02. Such evidence may include the fact that the defendant has the same name as the person charged in the indictment, the defendant's willingness to enter into evidentiary stipulations, defense counsel's identification of the defendant at trial, and witnesses' failure to deny the defendant's identity. Boyd , 447 F. App'x at 690 (collecting cases).\nViewing the evidence in the light most favorable to the government, we conclude that there was sufficient circumstantial evidence to identify Shanklin as the perpetrator of the charged crime. First, Shanklin and the named defendant in the indictment shared the same name, a fact that was reinforced when the district court introduced the case to the jury. See R. 1 (Indictment at 1) (Page ID #1); R. 116 (Trial Tr. at 9-10) (Page ID #640-41) (calling the case as \"United States of American v. Damon Shanklin\" and stating that \"[i]n this case, the defendant, Mr. Shanklin, is charged with [the asserted crime]. Those are the charges against the defendant. The defendant has pled not guilty to those charges\"). Second, defense counsel referred to Shanklin by name at least twice before the jury. During voir dire, defense counsel introduced himself to the jury and explained: \"It's my honor to represent Damon Shanklin, who is present standing next to my right.\" R. 116 (Trial Tr. at 12) (Page ID #643). Next, during closing argument, defense counsel stated: \"[O]n behalf of my client, Mr. Shanklin, I'd like to thank you for your attention in this case.\" R. 117 (Trial Tr. at 17) (Page ID #874). Similarly, defense counsel never objected when Schardein referred to Mr. Shanklin as \"the defendant,\" see R. 116 (Schardein Test. at 103) (Page ID #734) (explaining that he took a photograph of the house and \"took a photograph of the defendant and then photographed as items were called out\"), and witnesses testified regarding their familiarity with Shanklin but did not suggest that the wrong defendant was on trial, see e.g., id. (Schardein Test. at 97) (Page ID #728); id. at 163-65 (McKinney Test.) (Page ID #794-96). Additionally, defense counsel did not raise Shanklin's identity as an issue during trial or object when the government introduced photographs that McKinney confirmed depicted \"Damon Shanklin.\" Id. at 180 (McKinney Test.) (Page ID #811); see also R. 132-1 (Gov't Exs. at 64-65) (Page ID #1048-49); id. at 68-69 (Page ID #1052-53). Finally, both parties stipulated that \"[t]he defendant, Damon Shanklin, and the United States of America stipulate and agree that prior to September 3rd, 2013, Damon Shanklin had been convicted in a court of a crime punishable by imprisonment for a term exceeding one year.\" R. 117 (Trial Tr. at 3) (Page ID #860). Read in the light most favorable to the government and with all reasonable inferences drawn in support of the jury's verdict, there was sufficient evidence to support the jury's identification of Shanklin as the named defendant in the courtroom and in the indictment. Consequently, the district court did not err in denying Shanklin's Rule 29 motion for lack of identification evidence.\nC. Application of USSG \u00a7 2K2.1(b)(6)(B)\nIn his final argument, Shanklin asserts that the district court erred when it applied the four-level sentencing enhancement under USSG \u00a7 2K2.1(b)(6)(B) for using or possessing a firearm in connection with another felony offense, namely the cultivation of marijuana. See R. 83 (PSR \u00b6 16) (Page ID #367); R. 83-1 (PSR Addendum at 1-2) (Page ID #382-83). Specifically, Shanklin contends that the government failed to show the necessary nexus between his possession of a firearm and \"another felony offense,\" thus rendering his sentence procedurally unreasonable. Appellant Br. at 27-30. The government responds that under the text of \u00a7 2K2.1(b)(6)(B) and its application notes, supported by the \"fortress theory,\" there was sufficient evidence showing that Shanklin's possession of the gun facilitated the felony offense of marijuana cultivation. Appellee Br. at 20-27.\n1. Standard of Review & Applicable Law\n\"Our review of procedural reasonableness includes determining whether the district court properly calculated a defendant's Guidelines range.\" United States v. Seymour , 739 F.3d 923, 929 (6th Cir. 2014). Although we generally review the district court's legal conclusions de novo when examining the district court's guideline calculation, \"[i]n the specific context of the \u00a7 2K2.1(b)(6)(B) firearm enhancement, 'we review the district court's factual findings for clear error and accord due deference to the district court's determination that the firearm was used or possessed in connection with the other felony, thus warranting the application of the ... enhancement.' \" Id. (internal quotation marks omitted) (quoting United States v. Taylor , 648 F.3d 417, 432 (6th Cir. 2011) ). This standard recognizes that when a defendant \"challenges the district court's determination that the firearm was used or possessed 'in connection with' the [other felony offense]-i.e., that there was a nexus between the firearm and the felony-,\" that inquiry is necessarily \"fact-specific\" and thus better examined by the district court. Taylor , 648 F.3d at 431 (internal quotation marks omitted); see also United States v. Ennenga , 263 F.3d 499, 502 (6th Cir. 2001) (citing Buford v. United States , 532 U.S. 59, 121 S.Ct. 1276, 149 L.Ed.2d 197 (2001), and explaining that the fact-specific inquiry requires a more deferential standard of review); Buford , 532 U.S. at 64-66, 121 S.Ct. 1276 (holding that appellate courts must review deferentially a district court's conclusion that past convictions are \"related\" under the sentencing guidelines because it is largely a fact-intensive inquiry that district courts are in a better position to examine). As always, \"[t]he government bears the burden of establishing the factors supporting this enhancement by a preponderance of the evidence.\" Seymour , 739 F.3d at 929.\nPursuant to \u00a7 2K2.1(b)(6)(B), a defendant's offense level is increased by four levels if, among other things, the defendant \"used or possessed any firearm or ammunition in connection with another felony offense.\" The application note further explains that \"another felony offense\" is \"any federal, state, or local offense, other than the explosive or firearms possession or trafficking offense, punishable by imprisonment for a term exceeding one year, regardless of whether a criminal charge was brought, or a conviction obtained.\"Id. cmt. 14(C). Finally, per the application note, subsection (b)(6)(B) applies \"if the firearm or ammunition facilitated, or had the potential of facilitating, another felony offense.\" Id. cmt. 14(A).\nIn the current case, the district court concluded that, pursuant to the \"fortress theory,\" the four-level enhancement properly applied to Shanklin. R. 102 (Sent'g Hr'g Tr. at 32) (Page ID #482). The fortress theory permits the application of \u00a7 2K2.1(b)(6)(B)\"if it reasonably appears that the firearms found on the premises controlled or owned by a defendant and in his actual or constructive possession are to be used to protect the drugs or otherwise facilitate a drug transaction.\"\nUnited States v. Angel , 576 F.3d 318, 321 (6th Cir. 2009) (internal quotation marks omitted). A narrow version of the fortress theory has been recognized in application note 14(B), which explains that in the case of drug trafficking, the enhancement applies if the firearm was \"found in close proximity to drugs, drug-manufacturing materials, or drug paraphernalia.\" Seymour , 739 F.3d at 930 (quoting \u00a7 2K2.1(b)(6)(B), cmt. 14(B)); United States v. Shields , 664 F.3d 1040, 1045 (6th Cir. 2011) (explaining that when the \"other offense\" is drug trafficking, close proximity between the firearm and the drug materials is sufficient to apply the enhancement). In the case of a drug-trafficking offense, the enhancement \"is warranted because the presence of the firearm has the potential of facilitating another felony offense.\" USSG \u00a7 2K2.1, cmt. 14(B).\nIf the other felony offense does not implicate drug trafficking-for instance, if the defendant merely possessed a controlled substance-\"the enhancement applies only if the government can establish that the firearm actually or potentially facilitated that offense.\" Shields , 664 F.3d at 1045 (internal quotation marks omitted). \"To allow otherwise would render the distinction in the Guidelines commentary between drug trafficking and other felonies meaningless.\" Id. (internal quotation marks omitted). In order to show that the firearm \"facilitated\" the other felony offense under the fortress theory, reviewing courts consider the proximity of the gun to the drugs, whether the defendant had an innocent explanation for the weapon (such as personal protection), the type of firearm, and whether the firearm was loaded. Taylor , 648 F.3d at 432-33. Additionally, courts examine the accessibility of the gun, Angel , 576 F.3d at 321, as well as the amount of drugs in proximity to the firearm, Seymour , 739 F.3d at 930-31. Ultimately, \" \u00a7 2K2.1 applies if the firearm had some emboldening role in a defendant's felonious conduct.\" Angel , 576 F.3d at 321 (internal quotation marks omitted) (alteration incorporated).\n2. Analysis\nThe district court concluded that, under the fortress theory, Shanklin's possession of the firearm was in furtherance of the other felony offense of \"marijuana cultivation, trafficking activity.\" R. 102 (Sent'g Hr'g Tr. at 32) (Page ID #482). The district court based this finding on the plain language of \u00a7 2K2.1, cmt. 14(B), the amount of marijuana found in Shanklin's residence, the small size of the house, the location of the firearm (in the sole bedroom in the house and next to a digital scale and marijuana-growing magazine), and the fact that the firearm was loaded. Id. at 31-33 (Page ID #481-83). Reviewing the district court's conclusion with the required \"due deference,\" we agree that the four-level enhancement applied to Shanklin's guideline calculation.\nFirst, although it is not immediately clear from the record, it appears that the other felony offense identified by the district court, \"marijuana cultivation, trafficking activity,\" would fall under the narrow version of the fortress theory recognized in comment 14(B) of the application notes. See Seymour , 739 F.3d at 930 (quoting \u00a7 2K2.1(b)(6)(B), cmt. 14(B) and explaining that when the other felony offense was drug trafficking, the enhancement applied if the gun was in \" 'close proximity to drugs, drug-manufacturing materials, or drug paraphernalia' \"). Shanklin has not contested the district court's determination that the other felony offense was \"marijuana cultivation, trafficking activity\"; rather, Shanklin contends only that there was an insufficient nexus between the gun possession and the other felony offense. Appellant Br. at 29-31. Moreover, in the related state case, Shanklin was convicted of cultivating five or more plants in violation of Kentucky Revised Statute \u00a7 218A.1423. Section 218A.1423 explains that \"[a] person is guilty of marijuana cultivation when he knowingly and unlawfully ... cultivates ... marijuana with the intent to sell or transfer it .\" Ky. Rev. Stat. Ann. \u00a7 218A.1423(1) (emphasis added); see also Appellee Br. at 6 n.2. Finally, as the district court noted, the gun was located in a residence which also housed \"51 marijuana plants, digital scales, and literature about marijuana growing.\" R. 102 (Sent'g Hr'g Tr. at 32) (Page ID #482). The amount of marijuana involved, as well as the listed drug paraphernalia, strongly suggests that Shanklin was engaged in \"drug trafficking\" pursuant to \u00a7 2K2.1 cmt. 14(B). Such a conclusion weighs in favor of applying the four-level enhancement. See Shields , 664 F.3d at 1046 (noting that because drug trafficking usually involves ensuring that a transaction takes place, \"it is easier to see how a firearm facilitates drug trafficking transactions[ ] than it is to see how a firearm facilitates the mere possession of controlled substances\").\nEven if the other felony offense did not constitute \"drug trafficking,\" the quantity of marijuana plants found in Shanklin's residence-51 plants capable of producing $ 51,000 worth of marijuana each harvesting cycle -is consistent with similar cases where we have applied the fortress theory. See Angel , 576 F.3d at 319-20, 322 (applying the enhancement when the defendant had three firearms on the same property as fourteen marijuana plants, which were located on the perimeter of the property, and the weapons were discovered in the upstairs bedroom, which also contained 81.2 grams of processed marijuana and drug paraphernalia); Ennenga , 263 F.3d at 501, 503-04 (applying the enhancement when the defendant had 34 marijuana plants in a separate room, an enhanced security system for the entire apartment, and ammunition in the same room as a small amount of marijuana); id. at 504 (\"When one is in possession of a large and valuable stash of drugs, the desire to protect these illicit substances can be compelling.\"); see also Shields , 664 F.3d at 1046 (noting that the more relevant inquiry is the amount of drugs in the defendant's possession, since \"carrying objects of great value is naturally facilitated by the security of being armed-whether the objects are intended for sale or not\"); cf. Seymour , 739 F.3d at 930 (\"[W]e have resorted to the fortress theory more sparingly in cases that involve simple possession of smaller amounts of drugs.\").\nIn response, Shanklin asserts that, because the firearm was located in the bedroom and was therefore separate from the growing operation in another area of the house, there was no \"nexus\" between his possession of the weapon and the cultivation of marijuana. Appellant Br. at 29-31. Although the \"proximity\" of the weapon to drugs is often a key factor in applying the enhancement under \u00a7 2K2.1(b)(6)(B), see United States v. Jackson , 877 F.3d 231, 239-40 (6th Cir. 2017), we have never established a bright-line test. Indeed, in United States v. Taylor , we affirmed the application of the enhancement when the defendant was trafficking drugs from his house and the loaded firearms were found on the floor of a separate room in the house. Taylor , 648 F.3d at 432-33. Additionally, the firearm at issue in this case was loaded and located on a nightstand in the sole bedroom of a very small house controlled only by Shanklin. Id. at 433 (noting that the type of firearm and whether it was loaded were factors in applying the fortress theory); Angel , 576 F.3d at 321 (explaining that courts examine the accessibility of the gun). Finally, drug paraphernalia related to marijuana cultivation was located throughout the house, further suggesting that Shanklin intended to fortify the entire residence in an effort to support and protect his marijuana cultivation. See R. 132-3 (Seized Property Log) (Page ID #1114) (explaining that three marijuana plants were found in the front living room closet and digital scales were located on the living room coffee table); R. 116 (Reccius Test. at 141) (Page ID #772) (stating that the bedroom was off of the living room). Shanklin's case is thus distinguishable from Jackson , where the defendant kept his weapon \"in a property down the block\" from where the defendant conducted drug transactions, thereby destroying any \"offensive or defensive use to him.\" Jackson , 877 F.3d at 240 ; cf. United States v. Heighton , 272 F. App'x 469, 472 (6th Cir. 2008) (applying the enhancement even though the firearms were found in a separate section of the house because \"[t]he arsenal of unsecured, loaded weapons scattered about the premises, and the attendant video surveillance system, served to provide security for the manufacture and/or sale of narcotics on Heighton's property\"). Given the deferential nature of our review, the number and value of the marijuana plants at 2429 Elliott Avenue, the small size of the residence, the location of the loaded weapon in the bedroom, and the presence of drug paraphernalia throughout the house, a preponderance of the evidence supported application of the four-level enhancement under USSG \u00a7 2K2.1(b)(6)(B). We thus affirm Shanklin's sentence.\nIII. CONCLUSION\nFor the reasons set forth above, we AFFIRM Shanklin's conviction and sentence.\nAlthough Shanklin generally asserts that he should be permitted to probe the credibility of the CI, Shanklin mentions the Confrontation Clause specifically in only the Statement of the Issues in his appellate brief. See Appellant Br. at 3. Instead, Shanklin's brief primarily asserts that disclosure was required for fairness reasons only.\nAlthough not dispositive, the plausibility of Shanklin's argument is further diminished when we consider the fact that officers observed Shanklin leaving the residence before arresting him and confirmed that no one else entered the house. See R. 116 (Schardein Test. at 97-98) (Page ID #728-29) (explaining that they observed Shanklin exit the residence); id. at 131 (Evans Test.) (Page ID #762) (testifying that no one entered or exited the residence in the hour between when Shanklin left and when the search was conducted). Considering the small size of the residence, the fact that Shanklin appeared to be residing in the house, and the visibility of the weapon on the bedside table, Shanklin seemingly would have seen the weapon between the time the CI was in his house and the time Shanklin was arrested.\nThe above amount is based on McKinney's testimony at trial that (1) Shanklin's residence contained 51 marijuana plants; (2) each plant produced five to eight ounces of marijuana per harvest cycle; and (3) one ounce of marijuana sold for approximately $ 200 or $ 250. R. 116 (McKinney Test. at 183-85) (Page ID #814-16).\nContrary to Shanklin's contention on appeal, a preponderance of the evidence supported the district court's conclusion that Shanklin was the sole resident of 2429 Elliott Avenue. See R. 102 (Sent'g Hr'g Tr. at 32) (Page ID #482). There were various letters and bills addressed to Shanklin at the address, Shanklin's personal items such as photographs, medical prescriptions, and car registrations were found in the house, Shanklin gave the officers a key to the house following his arrest, Shanklin was seen exiting the house an hour before the gun was recovered, and there was only one bedroom in the small residence.",
+        "type": "majority",
+        "author": "KAREN NELSON MOORE, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "ARGUED: Thomas W. Kidd, Jr., KIDD & URLING LLC, West Chester, Ohio, for Appellant. Erin McKenzie, UNITED STATE ATTORNEY'S OFFICE, Louisville, Kentucky, for Appellee. ON BRIEF: Thomas W. Kidd, Jr., KIDD & URLING LLC, West Chester, Ohio, for Appellant. Erin McKenzie, UNITED STATE ATTORNEY'S OFFICE, Louisville, Kentucky, for Appellee."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff-Appellee,\nv.\nDamon Lamont SHANKLIN, Defendant-Appellant.\nNo. 18-5289\nUnited States Court of Appeals, Sixth Circuit.\nArgued: May 2, 2019\nDecided and Filed: May 24, 2019\nARGUED: Thomas W. Kidd, Jr., KIDD & URLING LLC, West Chester, Ohio, for Appellant. Erin McKenzie, UNITED STATE ATTORNEY'S OFFICE, Louisville, Kentucky, for Appellee. ON BRIEF: Thomas W. Kidd, Jr., KIDD & URLING LLC, West Chester, Ohio, for Appellant. Erin McKenzie, UNITED STATE ATTORNEY'S OFFICE, Louisville, Kentucky, for Appellee.\nBefore: MOORE, SUTTON, MURPHY, Circuit Judges."
+  },
+  "file_name": "0905-01",
+  "first_page_order": 905,
+  "last_page_order": 922
+}

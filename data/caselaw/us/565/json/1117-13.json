@@ -1,0 +1,59 @@
+{
+  "id": 12239664,
+  "name": "Scott v. California",
+  "name_abbreviation": "Scott v. California",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-6828",
+  "first_page": "1117",
+  "last_page": "1117",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1117"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 83,
+    "ocr_confidence": 0.715,
+    "sha256": "efe9a845b2703da4660e479c063c3c886224d99a799434e93288a1c47025d115",
+    "simhash": "1:2d25828012c34245",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Scott v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 6th App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6828.\nScott v. California."
+  },
+  "file_name": "1117-13",
+  "first_page_order": 1199,
+  "last_page_order": 1199
+}

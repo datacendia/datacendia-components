@@ -1,0 +1,59 @@
+{
+  "id": 12423888,
+  "name": "United States Fire Insurance Co. et al. v. Alexander et al.",
+  "name_abbreviation": "United States Fire Insurance Co. v. Alexander",
+  "decision_date": "2012-11-26",
+  "docket_number": "No. 11-1552",
+  "first_page": "1025",
+  "last_page": "1025",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1025"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 18,
+    "char_count": 115,
+    "ocr_confidence": 0.664,
+    "sha256": "31601ec19ca27bc2027dbb619388cb658b86c633e2047204a74584f5b9fb14df",
+    "simhash": "1:5f5e7e40c8ae743f",
+    "word_count": 20
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "United States Fire Insurance Co. et al. v. Alexander et al."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. La., 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1552.\nUnited States Fire Insurance Co. et al. v. Alexander et al."
+  },
+  "file_name": "1025-08",
+  "first_page_order": 1101,
+  "last_page_order": 1101
+}

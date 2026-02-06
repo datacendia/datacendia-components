@@ -1,0 +1,59 @@
+{
+  "id": 12414740,
+  "name": "Motten v. Bell, Warden",
+  "name_abbreviation": "Motten v. Bell",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-11070",
+  "first_page": "877",
+  "last_page": "877",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 877"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.645,
+    "sha256": "6fa0c39d4e80b4d6ece8708eb9dd6d2aa89e8acd393e2e576e660b523c173a5a",
+    "simhash": "1:e6e9b6305a5b18a4",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Motten v. Bell, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-11070.\nMotten v. Bell, Warden."
+  },
+  "file_name": "0877-11",
+  "first_page_order": 953,
+  "last_page_order": 953
+}

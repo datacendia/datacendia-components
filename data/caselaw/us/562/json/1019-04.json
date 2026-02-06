@@ -1,0 +1,59 @@
+{
+  "id": 5984428,
+  "name": "March v. United States",
+  "name_abbreviation": "March v. United States",
+  "decision_date": "2010-11-01",
+  "docket_number": "No. 10-6734",
+  "first_page": "1019",
+  "last_page": "1019",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1019"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.607,
+    "sha256": "1b623bf0d9edacece697aaa1bb9c57c724b7231b54a45841573a1d40cab01a6e",
+    "simhash": "1:01888a0a1add1d08",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "March v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6734.\nMarch v. United States."
+  },
+  "file_name": "1019-04",
+  "first_page_order": 1041,
+  "last_page_order": 1041
+}

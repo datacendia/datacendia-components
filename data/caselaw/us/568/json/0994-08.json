@@ -1,0 +1,59 @@
+{
+  "id": 12421496,
+  "name": "Baker v. United States",
+  "name_abbreviation": "Baker v. United States",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 12-6527",
+  "first_page": "994",
+  "last_page": "994",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 994"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.637,
+    "sha256": "e634ee505a14a4d491173e6fe073caf9a81294bae2ff70182ef6cad5a043987e",
+    "simhash": "1:97bad7078fa6d53a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Baker v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6527.\nBaker v. United States."
+  },
+  "file_name": "0994-08",
+  "first_page_order": 1070,
+  "last_page_order": 1070
+}

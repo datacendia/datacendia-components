@@ -1,0 +1,59 @@
+{
+  "id": 12430112,
+  "name": "Brown v. Nebraska",
+  "name_abbreviation": "Brown v. Nebraska",
+  "decision_date": "2013-01-22",
+  "docket_number": "No. 12-7386",
+  "first_page": "1146",
+  "last_page": "1146",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1146"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 67,
+    "ocr_confidence": 0.563,
+    "sha256": "2c50a1edb9f3cf889f3a34904040a7388e95f4217ef3861531960ebcb04931b3",
+    "simhash": "1:902e4cf3991fb6ae",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Brown v. Nebraska."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7386.\nBrown v. Nebraska."
+  },
+  "file_name": "1146-13",
+  "first_page_order": 1222,
+  "last_page_order": 1222
+}

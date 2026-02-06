@@ -1,0 +1,59 @@
+{
+  "id": 5951289,
+  "name": "Jackson v. Herrington et al.",
+  "name_abbreviation": "Jackson v. Herrington",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-7711",
+  "first_page": "1225",
+  "last_page": "1225",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1225"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 76,
+    "ocr_confidence": 0.614,
+    "sha256": "d6609b840803d6ef9bd0f8bbb10d1d1868e326dd87a65084c4260856e45c515a",
+    "simhash": "1:d13832a05c36985a",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jackson v. Herrington et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7711.\nJackson v. Herrington et al."
+  },
+  "file_name": "1225-10",
+  "first_page_order": 1247,
+  "last_page_order": 1247
+}

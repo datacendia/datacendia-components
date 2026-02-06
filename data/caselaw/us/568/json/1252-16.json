@@ -1,0 +1,59 @@
+{
+  "id": 12433979,
+  "name": "Leuchtmann v. Russell, Warden",
+  "name_abbreviation": "Leuchtmann v. Russell",
+  "decision_date": "2013-03-25",
+  "docket_number": "No. 12-8313",
+  "first_page": "1252",
+  "last_page": "1252",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1252"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 78,
+    "ocr_confidence": 0.651,
+    "sha256": "cb11badafbe6eb6ec175156816d4e9cb588cf0cdf9a04bb10ab5d4d150eb6894",
+    "simhash": "1:a10526b6cc251247",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Leuchtmann v. Russell, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8313.\nLeuchtmann v. Russell, Warden."
+  },
+  "file_name": "1252-16",
+  "first_page_order": 1328,
+  "last_page_order": 1328
+}

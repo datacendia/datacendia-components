@@ -1,0 +1,59 @@
+{
+  "id": 12237141,
+  "name": "Turner v. Khatchikian",
+  "name_abbreviation": "Turner v. Khatchikian",
+  "decision_date": "2011-12-05",
+  "docket_number": "No. 11-6737",
+  "first_page": "1083",
+  "last_page": "1083",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1083"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 85,
+    "ocr_confidence": 0.607,
+    "sha256": "1ad93004d9982afd4e6466c17212c1c191da740846ab0d2f744636570bd19a26",
+    "simhash": "1:d1a0016280611301",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Turner v. Khatchikian."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 3d Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6737.\nTurner v. Khatchikian."
+  },
+  "file_name": "1083-07",
+  "first_page_order": 1165,
+  "last_page_order": 1165
+}

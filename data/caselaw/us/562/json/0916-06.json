@@ -1,0 +1,59 @@
+{
+  "id": 5940013,
+  "name": "Pereira v. Florida",
+  "name_abbreviation": "Pereira v. Florida",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5340",
+  "first_page": "916",
+  "last_page": "916",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 916"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 83,
+    "ocr_confidence": 0.626,
+    "sha256": "d01e838616dbc22bcc7480ee7cb4b4f0b0d3c764e3d247a4aa5da238bef920d2",
+    "simhash": "1:812c4102e2544a20",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Pereira v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 5th Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5340.\nPereira v. Florida."
+  },
+  "file_name": "0916-06",
+  "first_page_order": 938,
+  "last_page_order": 938
+}

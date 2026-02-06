@@ -1,0 +1,59 @@
+{
+  "id": 12213751,
+  "name": "Christensen v. Court of Appeals of Utah",
+  "name_abbreviation": "Christensen v. Court of Appeals of Utah",
+  "decision_date": "2012-04-30",
+  "docket_number": "No. 11-9371",
+  "first_page": "979",
+  "last_page": "979",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 979"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 88,
+    "ocr_confidence": 0.557,
+    "sha256": "1687c78a50743b3514cd0c3051a4368eefb19a3812d15d6d871f7fcf9305877d",
+    "simhash": "1:dc7452c29046027c",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Christensen v. Court of Appeals of Utah."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Utah. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9371.\nChristensen v. Court of Appeals of Utah."
+  },
+  "file_name": "0979-03",
+  "first_page_order": 855,
+  "last_page_order": 855
+}

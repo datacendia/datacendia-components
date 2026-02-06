@@ -1,0 +1,84 @@
+{
+  "id": 12409339,
+  "name": "Moncrieffe v. Holder, Attorney General",
+  "name_abbreviation": "Moncrieffe v. Holder",
+  "decision_date": "2012-06-18",
+  "docket_number": "No. 11-702",
+  "first_page": "915",
+  "last_page": "915",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 915"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "566 U. S. 920",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12199687,
+        12199784,
+        12199760,
+        12199665,
+        12199739,
+        12199646,
+        12199711
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/566/0920-03",
+        "/us/566/0920-07",
+        "/us/566/0920-06",
+        "/us/566/0920-02",
+        "/us/566/0920-05",
+        "/us/566/0920-01",
+        "/us/566/0920-04"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 27,
+    "char_count": 179,
+    "ocr_confidence": 0.647,
+    "sha256": "8b4ed046e63f958d9112a9686c9358a3051635f7446a8fb7004333b03f1af96d",
+    "simhash": "1:6009fdcafd71756b",
+    "word_count": 28
+  },
+  "last_updated": "2024-02-27T23:46:21.325002+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Moncrieffe v. Holder, Attorney General."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. [Certiorari granted, 566 U. S. 920.] Motion of petitioner to dispense with printing the joint appendix granted.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-702.\nMoncrieffe v. Holder, Attorney General."
+  },
+  "file_name": "0915-05",
+  "first_page_order": 819,
+  "last_page_order": 819
+}

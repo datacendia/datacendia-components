@@ -1,0 +1,59 @@
+{
+  "id": 5955979,
+  "name": "Larios v. United States",
+  "name_abbreviation": "Larios v. United States",
+  "decision_date": "2011-03-28",
+  "docket_number": "No. 10-9147",
+  "first_page": "911",
+  "last_page": "911",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 911"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.621,
+    "sha256": "36cceae85fdb2572d9ceed881c9b09b093acfb70f832e6436740b7a6a9cc79f4",
+    "simhash": "1:364aca134f89903a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Larios v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9147.\nLarios v. United States."
+  },
+  "file_name": "0911-11",
+  "first_page_order": 937,
+  "last_page_order": 937
+}

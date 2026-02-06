@@ -1,0 +1,196 @@
+{
+  "id": 12518943,
+  "name": "UNITED STATES of America, Plaintiff - Appellee v. Angela PARROTT, Defendant - Appellant",
+  "name_abbreviation": "United States v. Parrott",
+  "decision_date": "2018-10-11",
+  "docket_number": "No. 18-1094",
+  "first_page": "717",
+  "last_page": "720",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "906 F.3d 717"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "8th Cir.",
+    "id": 8821,
+    "name": "United States Court of Appeals for the Eighth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "167 L.Ed.2d 1099",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "year": 2007,
+      "opinion_index": 0
+    },
+    {
+      "cite": "127 S.Ct. 2256",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "year": 2007,
+      "opinion_index": 0
+    },
+    {
+      "cite": "550 U.S. 939",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "year": 2007,
+      "opinion_index": 0
+    },
+    {
+      "cite": "460 F.3d 1026",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3674504
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "1033"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/460/1026-01"
+      ]
+    },
+    {
+      "cite": "811 F.3d 1026",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4082917
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1029",
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/811/1026-01"
+      ]
+    },
+    {
+      "cite": "841 F.3d 760",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12175258
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "764-65"
+        },
+        {
+          "page": "764-65"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/841/0760-01"
+      ]
+    },
+    {
+      "cite": "536 F.3d 922",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5763485
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "929",
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/536/0922-01"
+      ]
+    },
+    {
+      "cite": "645 F.3d 1022",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5649846
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "1034-35"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/645/1022-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7\u00a7 1028",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(3)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 405,
+    "char_count": 5985,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2590911670912088
+    },
+    "sha256": "6bfd153eb2808183c37ae13fcb16258259ca2009ab13b2d3c40051319ac765a7",
+    "simhash": "1:95a0422eb84113c0",
+    "word_count": 916
+  },
+  "last_updated": "2024-02-27T18:46:07.237745+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before LOKEN, BOWMAN, and ERICKSON, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff - Appellee\nv.\nAngela PARROTT, Defendant - Appellant"
+    ],
+    "opinions": [
+      {
+        "text": "PER CURIAM.\nAngela Parrott pleaded guilty to possession of identification documents, possession of counterfeit access devices, and possession of access-device-making equipment in violation of 18 U.S.C. \u00a7\u00a7 1028(a)(3), 1029(a)(3), and 1029(a)(4), and to aggravated identity theft in violation of 18 U.S.C. \u00a7 1028A(a)(1). At sentencing, the district court determined that Parrott's advisory guidelines range was 27 to 33 months on the first three grouped offenses, and a consecutive 24 months for the aggravated identity offense. The court imposed a 51-month sentence. Parrott appeals the 27-month component, arguing that trial counsel provided ineffective assistance at sentencing. We disagree and affirm.\nAfter Parrott appealed, we appointed a new lawyer to represent her on appeal, who timely filed her initial brief. The government moved to dismiss, arguing the appeal is barred by a knowing and voluntary appeal waiver in Parrott's plea agreement. We deny the motion to dismiss. The appeal waiver explicitly excepted claims of ineffective assistance of counsel. While the exception could be read as applying only to ineffective assistance claims raised in a post-conviction proceeding, that wording reflected our normal practice of deferring ineffective assistance claims to collateral proceedings, when the necessary record can be developed. See, e.g., United States v. Schwarte, 645 F.3d 1022, 1034-35 (8th Cir. 2011). Here, Parrott argues the record on direct appeal is sufficient to decide her ineffective assistance claims. In these circumstances, we conclude the appeal waiver is ambiguous and must be read \"against the government 'and in favor of a defendant's appellate rights.' \" United States v. Azure, 536 F.3d 922, 929 (8th Cir. 2008) (citation omitted).\nParrott first argues that trial counsel was ineffective because he failed to argue that unusable access devices should not have been considered when the district court calculated her intended loss of $198,000 under \u00a7 2B1.1 of the Sentencing Guidelines. She argues that the record on direct appeal is adequate to decide this issue because filings relating to her co-defendant, James Barnett, that \"were filed in the same case\" show prejudicial error. Unlike Parrott's trial counsel, Barnett's counsel made an unusability argument to the same district judge before Barnett was sentenced three months after Parrott. Parrott claims that Barnett's intended loss was then \"determined to be less than $150,000\" based on the same universe of access devices, resulting in a guideline range of 18 to 24 months and a total sentence of 36 months including the consecutive aggravated identity theft sentence.\nWe conclude this contention, though creative, is without merit. The record reflects that Barnett's attorney made the objection but acknowledged it appeared to be foreclosed by United States v. Thomas, 841 F.3d 760, 764-65 (8th Cir. 2016), as the government argued in response. The Courtroom Minute Sheet for Barnett's sentencing then reflects that \"the parties have resolved those objections, concluding that the total offense level is 15, and amount of loss is less than $150,000.\" In other words, the argument made by counsel for Barnett was not ruled on favorably by the court, though it may have prompted a government concession. Moreover, we held in Thomas that an access device does not have to be actually used to be counted as intended loss; we then noted that other circuits disagree whether \" USSG \u00a7 2B1.1 contains a usability requirement,\" a question we have not addressed. 841 F.3d at 764-65. As failing to raise an argument that \"require[s] the resolution of [an] unsettled legal question[ ]\" rarely constitutes ineffective assistance, Basham v. United States, 811 F.3d 1026, 1029 (8th Cir. 2016) (citation omitted), we conclude that Parrott's counsel was not ineffective for failing to raise this argument.\nParrott further claims that trial counsel was ineffective for not encouraging her to write a pre-sentencing letter to the district court, depriving her of an opportunity to \"show her sincere acceptance of responsibility.\" At sentencing, however, counsel urged the district court to give Parrott a reduced sentence partly because Parrott had been \"quick\" to cooperate with the government after she was arrested. Parrott then turned down a chance to express her remorse to the court in person. On this record, Parrott has failed to establish either prong of the Strickland test for ineffective assistance of counsel -- that counsel's effort to articulate mitigating factors at sentencing \"fell below an objective standard of reasonableness,\" or that Parrott was prejudiced because \"there is a reasonable probability\" she would have received a shorter sentence if counsel had not been ineffective in presenting her case for a reduced sentence. Winfield v. Roper, 460 F.3d 1026, 1033 (8th Cir. 2006), cert. denied, 550 U.S. 939, 127 S.Ct. 2256, 167 L.Ed.2d 1099 (2007).\nThe judgment of the district court is affirmed. The court appreciates substitute appointed counsel's willingness to accept and vigorously pursue Angela Parrott's appeal.\nThe Honorable Catherine D. Perry, United States District Judge for the Eastern District of Missouri.\nTo the extent Parrott also argues that the district court committed plain error by including unusable access devices in determining intended loss, that contention is foreclosed by the appeal waiver.",
+        "type": "majority",
+        "author": "PER CURIAM."
+      }
+    ],
+    "attorneys": [
+      "Tracy Berry, Anthony Franks, Assistant U.S. Attorney, U.S. ATTORNEY'S OFFICE, Eastern District of Missouri, Saint Louis, MO, for Plaintiff - Appellee.",
+      "Christopher Swiecicki, Chesterfield, MO, for Defendant - Appellant."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff - Appellee\nv.\nAngela PARROTT, Defendant - Appellant\nNo. 18-1094\nUnited States Court of Appeals, Eighth Circuit.\nSubmitted: August 23, 2018\nFiled: October 11, 2018\nRehearing and Rehearing En Banc Denied November 15, 2018\nTracy Berry, Anthony Franks, Assistant U.S. Attorney, U.S. ATTORNEY'S OFFICE, Eastern District of Missouri, Saint Louis, MO, for Plaintiff - Appellee.\nAngela Parrott, Dublin, CA, Pro Se.\nChristopher Swiecicki, Chesterfield, MO, for Defendant - Appellant.\nBefore LOKEN, BOWMAN, and ERICKSON, Circuit Judges."
+  },
+  "file_name": "0717-01",
+  "first_page_order": 717,
+  "last_page_order": 720
+}

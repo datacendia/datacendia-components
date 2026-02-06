@@ -1,0 +1,59 @@
+{
+  "id": 12251617,
+  "name": "Thompson v. United States",
+  "name_abbreviation": "Thompson v. United States",
+  "decision_date": "2012-03-19",
+  "docket_number": "No. 11-6228",
+  "first_page": "1262",
+  "last_page": "1262",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1262"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.689,
+    "sha256": "bf80261617fd3211a4514f4ca0c04fd6993a53535a7f9c372ac8167bab3d5ea6",
+    "simhash": "1:453bf65346b19864",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Thompson v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6228.\nThompson v. United States."
+  },
+  "file_name": "1262-12",
+  "first_page_order": 1344,
+  "last_page_order": 1344
+}

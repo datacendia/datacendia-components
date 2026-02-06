@@ -1,0 +1,59 @@
+{
+  "id": 5978336,
+  "name": "Ford v. United States",
+  "name_abbreviation": "Ford v. United States",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7794",
+  "first_page": "1161",
+  "last_page": "1161",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1161"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.593,
+    "sha256": "72bf8b3b73b8014885d4df721a52d1a67f0527f3ceb97ee63759ed52ff40c9a2",
+    "simhash": "1:046a8f1f8ec19019",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ford v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7794.\nFord v. United States."
+  },
+  "file_name": "1161-12",
+  "first_page_order": 1183,
+  "last_page_order": 1183
+}

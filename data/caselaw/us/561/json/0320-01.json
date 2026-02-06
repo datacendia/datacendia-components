@@ -1,0 +1,1429 @@
+{
+  "id": 3644480,
+  "name": "MAGWOOD v. PATTERSON, WARDEN, et al.",
+  "name_abbreviation": "Magwood v. Patterson",
+  "decision_date": "2010-06-24",
+  "docket_number": "No. 09-158",
+  "first_page": "320",
+  "last_page": "357",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "561 U.S. 320"
+    },
+    {
+      "type": "parallel",
+      "cite": "177 L. Ed. 2d 592"
+    },
+    {
+      "type": "parallel",
+      "cite": "130 S. Ct. 2788"
+    },
+    {
+      "type": "vendor",
+      "cite": "2010 U.S. LEXIS 5258"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2009-084"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "558 U. S. 1108",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 2244",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "(b)"
+        },
+        {
+          "page": "(b)"
+        },
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "Ala. Code \u00a713",
+      "category": "laws:leg_statute",
+      "reporter": "Ala. Code",
+      "weight": 3,
+      "opinion_index": 0
+    },
+    {
+      "cite": "399 So. 2d 330",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9551346
+      ],
+      "weight": 5,
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "332"
+        },
+        {
+          "page": "337"
+        },
+        {
+          "page": "339",
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/399/0330-01"
+      ]
+    },
+    {
+      "cite": "426 So. 2d 918",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9536520
+      ],
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "929"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/426/0918-01"
+      ]
+    },
+    {
+      "cite": "426 So. 2d 929",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9536588
+      ],
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "932"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/426/0929-01"
+      ]
+    },
+    {
+      "cite": "462 U. S. 1124",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6255226,
+        6254806
+      ],
+      "year": 1983,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/462/1124-02",
+        "/us/462/1124-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a72254",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "608 F. Supp. 218",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        5716915
+      ],
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "225-226, 229"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/608/0218-01"
+      ]
+    },
+    {
+      "cite": "791 F. 2d 1438",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10552889
+      ],
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "1450"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/791/1438-01"
+      ]
+    },
+    {
+      "cite": "548 So. 2d 512",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        7545421
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "516"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/548/0512-01"
+      ]
+    },
+    {
+      "cite": "548 So. 2d 516",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        7545444,
+        7545469
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "516"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/548/0516-01",
+        "/so2d/548/0516-02"
+      ]
+    },
+    {
+      "cite": "493 U. S. 923",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11417056,
+        11417094,
+        11416871,
+        11417002,
+        11416783,
+        11416914,
+        11417140,
+        11416823,
+        11416958
+      ],
+      "year": 1989,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/493/0923-07",
+        "/us/493/0923-08",
+        "/us/493/0923-03",
+        "/us/493/0923-06",
+        "/us/493/0923-01",
+        "/us/493/0923-04",
+        "/us/493/0923-09",
+        "/us/493/0923-02",
+        "/us/493/0923-05"
+      ]
+    },
+    {
+      "cite": "689 So. 2d 959",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        11928994
+      ],
+      "weight": 2,
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "965",
+          "parenthetical": "citing Kyzer, supra, and Jackson v. State, 501 So. 2d 542 (Ala. Crim. App. 1986)"
+        },
+        {
+          "page": "959"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/689/0959-01"
+      ]
+    },
+    {
+      "cite": "501 So. 2d 542",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        7581218
+      ],
+      "weight": 2,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "544"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/501/0542-01"
+      ]
+    },
+    {
+      "cite": "522 U. S. 836",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11495682,
+        11495459,
+        11495555,
+        11495653,
+        11495624,
+        11495821,
+        11495790,
+        11495599,
+        11495760,
+        11495533,
+        11495476,
+        11495508,
+        11495575,
+        11495711
+      ],
+      "year": 1997,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/522/0836-10",
+        "/us/522/0836-01",
+        "/us/522/0836-05",
+        "/us/522/0836-09",
+        "/us/522/0836-08",
+        "/us/522/0836-14",
+        "/us/522/0836-13",
+        "/us/522/0836-07",
+        "/us/522/0836-12",
+        "/us/522/0836-04",
+        "/us/522/0836-02",
+        "/us/522/0836-03",
+        "/us/522/0836-06",
+        "/us/522/0836-11"
+      ]
+    },
+    {
+      "cite": "113 F. 3d 1544",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        336295
+      ],
+      "year": 1997,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/113/1544-01"
+      ]
+    },
+    {
+      "cite": "481 F. Supp. 2d 1262",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        5883871
+      ],
+      "weight": 6,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "1295"
+        },
+        {
+          "page": "1283-1284"
+        },
+        {
+          "page": "1285-1286"
+        },
+        {
+          "page": "1285"
+        },
+        {
+          "page": "1294",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "1267",
+          "parenthetical": "\"This court split the proceedings on the current petition into two stages: stage I (determining whether the claims were procedurally defaulted) and stage II (considering the merits of the claims that were not procedurally defaulted)\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/481/1262-01"
+      ]
+    },
+    {
+      "cite": "555 F. 3d 968",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5580913
+      ],
+      "weight": 6,
+      "pin_cites": [
+        {
+          "page": "975",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "975-976"
+        },
+        {
+          "page": "976"
+        },
+        {
+          "page": "977-978"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/555/0968-01"
+      ]
+    },
+    {
+      "cite": "558 U. S. 1023",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "year": 2009,
+      "opinion_index": 0
+    },
+    {
+      "cite": "531 U. S. 4",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9505334
+      ],
+      "weight": 2,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "9"
+        },
+        {
+          "page": "9"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/531/0004-01"
+      ]
+    },
+    {
+      "cite": "306 F. 3d 504",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11439009
+      ],
+      "weight": 2,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "508"
+        },
+        {
+          "page": "507",
+          "parenthetical": "\"[A] prisoner is entitled to one free-standing collateral attack per judgment, rather than one attack per stretch of imprisonment\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/306/0504-01"
+      ]
+    },
+    {
+      "cite": "551 U. S. 930",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3573391
+      ],
+      "weight": 3,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "944"
+        },
+        {
+          "page": "947"
+        },
+        {
+          "page": "945"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/551/0930-01"
+      ]
+    },
+    {
+      "cite": "523 U. S. 637",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11504073
+      ],
+      "weight": 3,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "643",
+          "parenthetical": "treating a second application as part of a first application where it was premised on a newly ripened claim that had been dismissed from the first application \"as premature\""
+        },
+        {
+          "page": "643-645"
+        },
+        {
+          "page": "643"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/523/0637-01"
+      ]
+    },
+    {
+      "cite": "529 U. S. 473",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9508758
+      ],
+      "weight": 5,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "478, 487",
+          "parenthetical": "declining to apply \u00a7 2244(b) to a second application where the District Court dismissed the first application for lack of exhaustion"
+        },
+        {
+          "page": "486"
+        },
+        {
+          "page": "478-481"
+        },
+        {
+          "page": "486"
+        },
+        {
+          "page": "487"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/529/0473-01"
+      ]
+    },
+    {
+      "cite": "544 U. S. 74",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5883802
+      ],
+      "weight": 2,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "83",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "85",
+          "parenthetical": "SCALIA, J., concurring"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/544/0074-01"
+      ]
+    },
+    {
+      "cite": "42 U. S. C. \u00a7 1983",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "545 U. S. 524",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8209485
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "530",
+          "parenthetical": "\"[FJor purposes of \u00a7 2244(b), an 'application' for habeas relief is a filing that contains one or more 'claims' \""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/545/0524-01"
+      ]
+    },
+    {
+      "cite": "265 U. S. 239",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6139782
+      ],
+      "year": 1924,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/265/0239-01"
+      ]
+    },
+    {
+      "cite": "465 U. S. 200",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11335063
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/465/0200-01"
+      ]
+    },
+    {
+      "cite": "464 U. S. 377",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6199227
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/464/0377-01"
+      ]
+    },
+    {
+      "cite": "495 U. S. 320",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        634234
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/495/0320-01"
+      ]
+    },
+    {
+      "cite": "499 U. S. 467",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11319331
+      ],
+      "year": 1991,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/499/0467-01"
+      ]
+    },
+    {
+      "cite": "373 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11716366
+      ],
+      "year": 1963,
+      "pin_cites": [
+        {
+          "page": "12"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/373/0001-01"
+      ]
+    },
+    {
+      "cite": "549 U. S. 147",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3553521
+      ],
+      "weight": 12,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        },
+        {
+          "page": "149"
+        },
+        {
+          "page": "150"
+        },
+        {
+          "page": "151"
+        },
+        {
+          "page": "153"
+        },
+        {
+          "page": "155"
+        },
+        {
+          "page": "156-157"
+        },
+        {
+          "page": "156"
+        },
+        {
+          "page": "156"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/549/0147-01"
+      ]
+    },
+    {
+      "cite": "501 U. S. 722",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1108153
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "729-730"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/501/0722-01"
+      ]
+    },
+    {
+      "cite": "526 U. S. 838",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11133896
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "848",
+          "parenthetical": "stating that the petitioner's \"failure to present three of his federal habeas claims to the [state court] in a timely fashion has resulted in a procedural default of those claims\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/526/0838-01"
+      ]
+    },
+    {
+      "cite": "540 U. S. 375",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8897148
+      ],
+      "weight": 2,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "381"
+        },
+        {
+          "page": "380"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/540/0375-01"
+      ]
+    },
+    {
+      "cite": "449 So. 2d 1267",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        7641356
+      ],
+      "year": 1984,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/449/1267-01"
+      ]
+    },
+    {
+      "cite": "453 So. 2d 1349",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "year": 1984,
+      "opinion_index": 0
+    },
+    {
+      "cite": "Ala. Code \u00a713-11-7",
+      "category": "laws:leg_statute",
+      "reporter": "Ala. Code",
+      "pin_cites": [
+        {
+          "parenthetical": "'Mitigating circumstances shall be the following: ... (2) The capital felony was committed while the defendant was under the influence of extreme mental or emotional disturbance;. . . (6"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "133 F. 3d 454",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        22595
+      ],
+      "weight": 2,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "455",
+          "parenthetical": "\"None of these new claims were raised in his first petition, nor could they have been; [the petitioner] is attempting to challenge the constitutionality of a proceeding which obviously occurred after he filed, and obtained relief, in his first habeas petition\""
+        },
+        {
+          "page": "455"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/133/0454-01"
+      ]
+    },
+    {
+      "cite": "474 F. 3d 348",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5712684
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "351-352",
+          "parenthetical": "citing decisions"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/474/0348-01"
+      ]
+    },
+    {
+      "cite": "135 F. 3d 111",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11865717
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "113-114",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/135/0111-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 2244",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "551 U. S. 930",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3573391
+      ],
+      "weight": 2,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "944",
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/551/0930-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 2244",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(b)(2)"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "551 U. S. 930",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3573391
+      ],
+      "weight": 13,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "947"
+        },
+        {
+          "page": "947"
+        },
+        {
+          "page": "947"
+        },
+        {
+          "page": "943-944"
+        },
+        {
+          "page": "945"
+        },
+        {
+          "page": "946"
+        },
+        {
+          "page": "947"
+        },
+        {
+          "page": "947"
+        },
+        {
+          "page": "964",
+          "parenthetical": "Thomas, J., dissenting"
+        },
+        {
+          "page": "968",
+          "parenthetical": "Thomas, J., dissenting"
+        },
+        {
+          "page": "945"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/551/0930-01"
+      ]
+    },
+    {
+      "cite": "489 U. S. 288",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12032050
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "314, n. 2",
+          "parenthetical": "\"As we have often stated, a criminal judgment necessarily includes the sentence imposed upon the defendant\""
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/489/0288-01"
+      ]
+    },
+    {
+      "cite": "529 U. S. 473",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9508758
+      ],
+      "weight": 2,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "486"
+        },
+        {
+          "page": "486"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/529/0473-01"
+      ]
+    },
+    {
+      "cite": "265 U. S. 239",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6139782
+      ],
+      "year": 1924,
+      "pin_cites": [
+        {
+          "page": "241",
+          "parenthetical": "second application barred where petitioner had a \"full opportunity to offer proof\" of the same claim in his first habeas application"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/265/0239-01"
+      ]
+    },
+    {
+      "cite": "464 U. S. 377",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6199227
+      ],
+      "weight": 2,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "379",
+          "parenthetical": "Powell, J., concurring, writing for a majority of the Court"
+        },
+        {
+          "page": "379",
+          "parenthetical": "opinion of Powell, J."
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/464/0377-01"
+      ]
+    },
+    {
+      "cite": "495 U. S. 320",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        634234
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "321",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/495/0320-01"
+      ]
+    },
+    {
+      "cite": "499 U. S. 467",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11319331
+      ],
+      "weight": 3,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "489"
+        },
+        {
+          "page": "492"
+        },
+        {
+          "page": "490-491"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/499/0467-01"
+      ]
+    },
+    {
+      "cite": "549 U. S. 147",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3553521
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "156-157",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/549/0147-01"
+      ]
+    },
+    {
+      "cite": "265 U. S. 224",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6139674
+      ],
+      "year": 1924,
+      "pin_cites": [
+        {
+          "page": "230"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/265/0224-01"
+      ]
+    },
+    {
+      "cite": "474 F. 3d 348",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5712684
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "351-353"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/f3d/474/0348-01"
+      ]
+    },
+    {
+      "cite": "513 U. S. 298",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1333576
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "317-323",
+          "parenthetical": "describing adoption in habeas, through legislation and judicial decision, of modified res judicata (claim preclusion) doctrine"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/513/0298-01"
+      ]
+    },
+    {
+      "cite": "297 F. 3d 895",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11452110
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "898-899"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/f3d/297/0895-01"
+      ]
+    },
+    {
+      "cite": "251 F. 3d 720",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11096517
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "723-725"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/f3d/251/0720-01"
+      ]
+    },
+    {
+      "cite": "137 F. 3d 234",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        105797
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "236"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/f3d/137/0234-01"
+      ]
+    },
+    {
+      "cite": "477 U. S. 399",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6208971
+      ],
+      "year": 1986,
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/477/0399-01"
+      ]
+    },
+    {
+      "cite": "537 U. S. 322",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9191097
+      ],
+      "weight": 2,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "337"
+        },
+        {
+          "page": "337"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/537/0322-01"
+      ]
+    },
+    {
+      "cite": "129 F. 3d 54",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11892904
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "62-63"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/f3d/129/0054-01"
+      ]
+    },
+    {
+      "cite": "128 F. 3d 33",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        978106
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "37-38"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/f3d/128/0033-01"
+      ]
+    },
+    {
+      "cite": "211 F. 3d 862",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1743260
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "871"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/f3d/211/0862-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 2255",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "101 F. 3d 527",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7636108
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "528",
+          "parenthetical": "Posner, C. J."
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/f3d/101/0527-01"
+      ]
+    },
+    {
+      "cite": "518 U. S. 651",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1729737
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "664"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/518/0651-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1967,
+    "char_count": 71748,
+    "ocr_confidence": 0.619,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.10507427266995102
+    },
+    "sha256": "03170683db462a2a5cec59ab1e33b8638d2b4242b2d99b1983f07ff0de13b576",
+    "simhash": "1:ff7beaa0778512d5",
+    "word_count": 11768
+  },
+  "last_updated": "2024-02-27T21:47:26.985116+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Thomas, J., delivered the opinion of the Court, except as to Part IV-B. Scalia, J., joined in full, and Stevens, Breyer, and Sotomayor, JJ., joined, except as to Part IV-B. Breyer, J., filed an opinion concurring in part and concurring in the judgment, in which Stevens and Soto-mayor, JJ., joined, post, p. 343. Kennedy, J., filed a dissenting opinion, in which Roberts, C. J., and Ginsburg and Alito, JJ., joined, post, p. 343.",
+      "Justice Stevens and Justice Sotomayor join, concurring in part and concurring in the judgment.",
+      "The Chief Justice, Justice Ginsburg, and Justice Alito join, dissenting."
+    ],
+    "parties": [
+      "MAGWOOD v. PATTERSON, WARDEN, et al."
+    ],
+    "opinions": [
+      {
+        "text": "Justice Thomas\ndelivered the opinion of the Court, except as to Part IV-B.\nPetitioner Billy Joe Magwood was sentenced to death for murdering a sheriff. After the Alabama courts denied relief on direct appeal and in postconviction proceedings, Magwood filed an application for a writ of habeas corpus in Federal District Court, challenging both his conviction and his sentence. The District Court conditionally granted the writ as to the sentence, mandating that Magwood either be released or resentenced. The state trial court conducted a new sentencing hearing and again sentenced Magwood to death. Magwood filed an application for a writ of habeas corpus in federal court challenging this new sentence. The District Court once again conditionally granted the writ, finding constitutional defects in the new sentence. The Court of Appeals for the Eleventh Circuit reversed, holding in relevant part that Magwood\u2019s challenge to his new death sentence was an unreviewable \u201csecond or successive\u201d challenge under 28 U. S. C. \u00a7 2244(b) because he could have mounted the same challenge to his original death sentence. We granted certiorari, and now reverse. Because Magwood\u2019s habeas application challenges a new judgment for the first time, it is not \u201csecond or successive\u201d under \u00a7 2244(b).\nI\nAfter a conviction for a drug offense, Magwood served several years in the Coffee County Jail in Elba, Alabama, under the watch of Sheriff C. F. \u201cNeil\u201d Grantham. During his incarceration, Magwood, who had a long history of mental illness, became convinced that Grantham had imprisoned him without cause, and vowed to get even upon his release. Magwood followed through on his threat. On the morning of March 1,1979, shortly after his release, he parked outside the jail and awaited the sheriff\u2019s arrival. When Grantham exited his car, Magwood shot him and fled the scene.\nMagwood was indicted by a grand jury for the murder of an on-duty sheriff, a capital offense under Ala. Code \u00a713-ll-2(a)(5) (1975). He was tried in 1981. The prosecution asked the jury to find Magwood guilty of aggravated murder as charged in the indictment, and sought the death penalty. Magwood pleaded not guilty by reason of insanity; however, the jury found him guilty of capital murder under \u00a7 13 \u2014 11\u2014 2(a)(5), and imposed the sentence of death based on the aggravation charged in the indictment. In accordance with Alabama law, the trial court reviewed the basis for the jury\u2019s decision. See \u00a7\u00a7 13-11-3, 13-11-4. Although the court did not find the existence of any statutory \u201caggravating circumstance\u201d under \u00a7 13-11-6, the court relied on Ex parte Kyzer, 399 So. 2d 330 (Ala. 1981), to find that murder of a sheriff while \u201con duty or because of some official or job-related act,\u201d \u00a7 13 \u2014 11\u20142(a)(5), is a capital felony that, by definition, involves aggravation sufficient for a death sentence. The trial court found that Magwood\u2019s young age (27 at the time of the offense) and lack of significant criminal history qualified as mitigating factors, but found no mitigation related to Mag-wood\u2019s mental state. Weighing the aggravation against the two mitigating factors, the court approved the sentence of death. The Alabama courts affirmed. Magwood v. State, 426 So. 2d 918, 929 (Ala. Crim. App. 1982); Ex parte Magwood, 426 So. 2d 929, 932 (Ala. 1983). We denied certiorari. Magwood v. Alabama, 462 U. S. 1124 (1983). After the Alabama Supreme Court set an execution date of July 22, 1983, Magwood filed a coram nobis petition and an application for a stay of execution. The trial court held a hearing on the petition and denied relief on July 18, 1983.\nEight days before his scheduled execution, Magwood filed an application for a writ of habeas corpus under 28 U. S. C. \u00a72254, and the District Court granted a stay of execution. After briefing by the parties, the District Court upheld Mag-wood\u2019s conviction but vacated his sentence and conditionally granted the writ based on the trial court\u2019s failure to find statutory mitigating circumstances relating to Magwood\u2019s mental state. Magwood v. Smith, 608 F. Supp. 218, 225-226, 229 (MD Ala. 1985). The Court of Appeals affirmed. Magwood v. Smith, 791 F. 2d 1438, 1450 (CA11 1986).\nIn response to the conditional writ, the state trial court held a new sentencing proceeding in September 1986. This time, the judge found that Magwood\u2019s mental state, as well as his age and lack of criminal history, qualified as statutory mitigating circumstances. As before, the court found that Magwood\u2019s capital felony under \u00a7 13-11-2(a)(5) included sufficient aggravation to render him death eligible. In his proposed findings, Magwood\u2019s attorney agreed that Magwood\u2019s offense rendered him death eligible, but argued that a death sentence would be inappropriate in light of the mitigating factors. The trial court imposed a penalty of death, stating on the record that the new \u201cjudgment and sentence [were] the result of a complete and new assessment of all of the evidence, arguments of counsel, and law.\u201d Sentencing Tr., R. Tab 1, p. R-25. The Alabama courts affirmed, Magwood v. State, 548 So. 2d 512, 516 (Ala. Crim. App. 1988); Ex parte Magwood, 548 So. 2d 516, 516 (Ala. 1988), and this Court denied certiorari, Magwood v. Alabama, 493 U. S. 923 (1989).\nMagwood filed a petition for relief under Alabama\u2019s former Temporary Rule of Criminal Procedure 20 (1987) (now Ala. Rule Crim. Proc. 32) (Rule 20 petition) claiming, inter alia, that his death sentence exceeded the maximum sentence authorized by statute; that his death sentence violated the Fifth, Eighth, and Fourteenth Amendments because it rested upon an unforeseeable interpretation of the capital sentencing statute; and that his attorney rendered ineffective assistance of counsel during resentencing. The trial court denied relief. It held that the statutory basis for Mag-wood\u2019s death sentence had been affirmed on direct appeal and could not be relitigated. The trial court also held that Magwood\u2019s attorney played no substantive role in the resentencing and had no obligation to dispute the aggravation, given that the District Court had required only that the trial court consider additional mitigating factors.\nMagwood appealed the denial of his Rule 20 petition, arguing, inter alia, that his sentence was unconstitutional because he did not have fair warning that his offense could be punished by death, and that he received constitutionally ineffective assistance of counsel at resentencing. See Record in Appeal No. 92-843 (Ala. Crim. App.), Tab 25, pp. 23-24, 53-61.\nThe Alabama Court of Criminal Appeals affirmed, citing its decision on direct appeal as to the propriety of the death sentence. Magwood v. State, 689 So. 2d 959, 965 (1996) (citing Kyzer, supra, and Jackson v. State, 501 So. 2d 542 (Ala. Crim. App. 1986)). The Alabama Supreme Court denied certiorari, 689 So. 2d, at 959, as did this Court, Magwood v. Alabama, 522 U. S. 836 (1997).\nIn April 1997, Magwood sought leave to file a second or successive application for a writ of habeas corpus challenging his 1981 judgment of conviction. See \u00a7 2244(b)(3)(A) (requiring authorization from the Court of Appeals to file a second or successive application). The Court of Appeals denied his request. In re Magwood, 113 F. 3d 1544 (CA11 1997). He simultaneously filed a petition for a writ of habeas corpus challenging his new death sentence, which the District Court conditionally granted. Magwood v. Gulliver, 481 F. Supp. 2d 1262, 1295 (MD Ala. 2007). In that petition, Magwood again argued that his sentence was unconstitutional because he did not have fair warning at the time of his offense that his conduct would be sufficient to warrant a death sentence under Alabama law, and that his attorney rendered ineffective assistance during the resentencing proceeding.\nBefore addressing the merits of Magwood\u2019s fair-warning claim, the District Court sua sponte considered whether the application was barred as a \u201csuccessive petition\u201d under \u00a72244, and concluded that it was not. Id., at 1283-1284 (\u201c[H]abeas petitions challenging the constitutionality of a re-sentencing proceeding are not successive to petitions that challenge the underlying conviction and original sentence\u201d (citing 2 R. Hertz & J. Liebman, Federal Habeas Corpus Practice and Procedure \u00a7 28.3b(i), p. 1412 (5th ed. 2005) (hereinafter Hertz & Liebman) (\u201cWhen a petitioner files a second or subsequent petition to challenge a criminal judgment other than the one attacked in an earlier petition, it cannot be said that the two petitions are \u2018successive\u2019 \u201d (emphasis in original)))).\nThe District Court rejected the State\u2019s argument that Magwood had procedurally defaulted the fair-warning claim by failing to present it adequately to the state courts, noting that Magwood had presented the claim both in his Rule 20 petition and on appeal from the denial of that petition. 481 F. Supp. 2d, at 1285-1286; supra, at 326-327. Addressing the merits, the District Court ruled that Magwood\u2019s death sentence was unconstitutional because \u201cat the time of the offense conduct, Magwood did not have fair notice that he could be sentenced to death absent at least one aggravating circumstance enumerated in former 1975 Ala. Code \u00a7 13\u2014 11-6.\u201d 481 F. Supp. 2d, at 1285. The District Court also found the state court\u2019s grounds for rejecting Magwood\u2019s ineffective-assistance claim unreasonable in light of clearly established federal law, noting that Magwood\u2019s attorney in fact had engaged substantively in the \u201ccomplete and new\u201d resentencing, and although the attorney could not be expected to object on state-law grounds foreclosed by precedent, he was clearly ineffective for failing to raise the federal fair-warning claim. Id., at 1294 (internal quotation marks omitted).\nThe Court of Appeals reversed in relevant part. 555 F. 3d 968 (C Al 12009). It concluded that the first step in determining whether \u00a7 2244(b) applies is to \u201cseparate the new claims challenging the resentencing from the old claims that were or should have been presented in the prior application.\u201d Id., at 975 (internal quotation marks omitted). Under the Court of Appeals\u2019 approach, any claim that \u201cchallenge^] the new, amended component of the sentence\u201d should be \u201cregarded as part of a first petition,\u201d and any claim that \u201cchallenged] any component of the original sentence that was not amended\u201d should be \u201cregarded as part of a second petition.\u201d Ibid. Applying this test, the court held that because Magwood\u2019s fair-warning claim challenged the trial court\u2019s reliance on the same (allegedly improper) aggravating factor that the trial court had relied upon for Magwood\u2019s original sentence, his claim was governed by \u00a7 2244(b)\u2019s restrictions on \u201csecond or successive\u201d habeas applications. Id., at 975-976. The Court of Appeals then dismissed the claim because Magwood did not argue that it was reviewable under one of the exceptions to \u00a7 2244(b)\u2019s general rule requiring dismissal of claims first presented in a successive application. See id., at 976.\nWe granted certiorari to determine whether Magwood\u2019s application challenging his 1986 death sentence, imposed as part of resentencing in response to a conditional writ from the District Court, is subject to the constraints that \u00a7 2244(b) imposes on the review of \u201csecond or successive\u201d habeas applications. 558 U. S. 1023 (2009).\nII\nAs amended by the Antiterrorism and Effective Death Penalty Act of 1996 (AEDPA), 28 U. S. C. \u00a7 2244(b) provides in relevant part:\n\u201c(1) A claim presented in a second or successive habeas corpus application under section 2254 that was presented in a prior application shall be dismissed.\n\u201c(2) A claim presented in a second or successive habeas corpus application under section 2254 that was not presented in a prior application shall be dismissed unless\u2014\n\u201c(A) the applicant shows that the claim relies on a new rule of constitutional law, made retroactive to cases on collateral review by the Supreme Court, that was previously unavailable; or\n\u201c(B)(i) the factual predicate for the claim could not have been discovered previously through the exercise of due diligence; and\n\u201c(ii) the facts underlying the claim, if proven and viewed in light of the evidence as a whole, would be sufficient to establish by clear and convincing evidence that, but for constitutional error, no reasonable fact-finder would have found the applicant guilty of the underlying offense.\u201d\nThis case turns on the meaning of the phrase \u201csecond or successive\u201d in \u00a7 2244(b). More specifically, it turns on when a claim should be deemed to arise in a \u201csecond or successive habeas corpus application.\u201d \u00a7\u00a7 2244(b)(1), (2). If an application is \u201csecond or successive,\u201d the petitioner must obtain leave from the court of appeals before filing it with the district court. See \u00a7 2244(b)(3)(A). The district court must dismiss any claim presented in an authorized second or successive application unless the applicant shows that the claim satisfies certain statutory requirements. See \u00a7 2244(b)(4). Thus, if Magwood\u2019s application was \u201csecond or successive,\u201d the District Court should have dismissed it in its entirety because he failed to obtain the requisite authorization from the Court of Appeals. If, however, Magwood\u2019s application was not second or successive, it was not subject to \u00a7 2244(b) at all, and his fair-warning claim was reviewable (absent procedural default).\nThe State contends that although \u00a7 2244(b), as amended by AEDPA, applies the phrase \u201csecond or successive\u201d to \u201capplication[s],\u201d it \u201cis a claim-focused statute,\u201d Brief for Respondents 22-24, and \u201c[c]laims, not applications, are barred by \u00a7 2244(b),\u201d id., at 24 (citing Artuz v. Bennett, 531 U. S. 4, 9 (2000)). According to the State, the phrase should be read to reflect a principle that \u201ca prisoner is entitled to one, but only one, full and fair opportunity to wage a collateral attack.\u201d See Brief for Respondents 25-26 (citing Beyer v. Litscher, 306 F. 3d 504, 508 (CA7 2002); internal quotation marks omitted). The State asserts that under this \u201cone opportunity\u201d rule, Magwood\u2019s fair-warning claim was successive because he had an opportunity to raise it in his first application, but did not do so. See Brief for Respondents 25-26.\nMagwood, in contrast, reads \u00a7 2244(b) to apply only to a \u201csecond or successive\u201d application challenging the same state-court judgment. According to Magwood, his 1986 re-sentencing led to a new judgment, and his first application challenging that new judgment cannot be \u201csecond or successive\u201d such that \u00a7 2244(b) would apply. We agree.\nWe begin with the text. Although Congress did not define the phrase \u201csecond or successive,\u201d as used to modify \u201chabeas corpus application under section 2254,\u201d \u00a7\u00a7 2244(b)(1) \u2014 (2), it is well settled that the phrase does not simply \u201crefe[r] to all \u00a72254 applications filed second or successively in time,\u201d Panetti v. Quarterman, 551 U. S. 930, 944 (2007); see id., at 947 (creating an \u201cexceptio[n]\u201d to \u00a7 2244(b) for a second application raising a claim that would have been unripe had the petitioner presented it in his first application); Stewart v. Martinez-Villareal, 523 U. S. 637, 643 (1998) (treating a second application as part of a first application where it was premised on a newly ripened claim that had been dismissed from the first application \u201cas premature\u201d); Slack v. McDaniel, 529 U. S. 473, 478, 487 (2000) (declining to apply \u00a7 2244(b) to a second application where the District Court dismissed the first application for lack of exhaustion).\nWe have described the phrase \u201csecond or successive\u201d as a \u201cterm of art.\u201d Id., at 486. To determine its meaning, we look first to the statutory context. The limitations imposed by \u00a7 2244(b) apply only to a \u201chabeas corpus application under section 2254,\u201d that is, an \u201capplication for a writ of habeas corpus on behalf of a person in custody pursuant to the judgment of a State court,\u201d \u00a7 2254(b)(1) (emphasis added). The reference to a state-court judgment in \u00a7 2254(b) is significant because the term \u201capplication\u201d cannot be defined in a vacuum. A \u00a7 2254 petitioner is applying for something: His petition \u201cseeks invalidation (in whole or in part) of the judgment authorizing the prisoner\u2019s confinement,\u201d Wilkinson v. Dotson, 544 U. S. 74, 83 (2005) (emphasis added). If his petition results in a district court\u2019s granting of the writ, \u201cthe State may seek a new judgment (through a new trial or a new sentencing proceeding).\u201d Ibid, (emphasis in original). Thus, both \u00a7 2254(b)\u2019s text and the relief it provides indicate that the phrase \u201csecond or successive\u201d must be interpreted with respect to the judgment challenged.\nThe State disagrees, contending that if the cross-reference to \u00a72254 is relevant, we should focus not on the statute\u2019s reference to a \u201cjudgment\u201d but on its reference to \u201ccustody,\u201d Brief for. Respondents 53; compare \u00a7\u00a7 2254(a), (b) (establishing rules for review of \u201c[a]n application for a writ of habeas corpus\u201d on \u201cbehalf of a person in custody pursuant to the judgment of a State court\u201d (emphasis added)) with \u00a7 2254(a) (specifying that an application may be entertained \u201conly on the ground that [the petitioner] is in custody in violation of the Constitution or laws or treaties of the United States\u201d (emphasis added)). The State explains that unlawful \u201ccustody\u201d is the key \u201c 'substance requirement\u2019 \u201d of \u00a7 2254, whereas being held pursuant to a state-court \u201cjudgment\u201d is merely a \u201c 'status requirement.\u2019 \u201d Brief for Respondents 53 (quoting 1 Hertz & Liebman \u00a7 8.1, at 391).\nWe find this argument unpersuasive. Section 2254 articulates the kind of confinement that may be challenged on the ground that the petitioner is being held \u201cin violation of the Constitution or laws or treaties of the United States.\u201d \u00a7 2254(a). The requirement of custody pursuant to a state-court judgment distinguishes \u00a72254 from other statutory provisions authorizing relief from constitutional violations\u2014 such as \u00a7 2255, which allows challenges to the judgments of federal courts, or Rev. Stat. \u00a7 1979, 42 U. S. C. \u00a7 1983, which allows federal-court suits against state and local officials. Custody is crucial for \u00a7 2254 purposes, but it is inextricable from the judgment that authorizes it.\nThe State\u2019s \u201ccustody\u201d-based rule is difficult to justify for another reason. Under the State\u2019s approach, applying the phrase \u201csecond or successive\u201d to any subsequent application filed before a prisoner\u2019s release would mean that a prisoner who remains in continuous custody for a completely unrelated conviction would have to satisfy the strict rules for review under \u00a7 2244(b) to challenge his unrelated conviction for the first time. Nothing in the statutory text or context supports, much less requires, such an anomalous result. See, e. g., Beyer, 306 F. 3d, at 507 (\u201c[A] prisoner is entitled to one free-standing collateral attack per judgment, rather than one attack per stretch of imprisonment\u201d); cf. Dotson, supra, at 85 (SCALIA, J., concurring) (\u201c[WJhen a habeas petitioner challenges only one of several consecutive sentences, the court may invalidate the challenged sentence even though the prisoner remains in custody to serve the others\u201d).\nIll\nAppearing to recognize that Magwood has the stronger textual argument, the State argues that we should rule based on the statutory purpose. According to the State, a \u201cone opportunity\u201d rule is consistent with the statutory text, and better reflects AEDPA\u2019s purpose of preventing piecemeal litigation and gamesmanship.\nWe are not persuaded. AEDPA uses the phrase \u201csecond or successive\u201d to modify \u201capplication.\u201d See \u00a7\u00a72244(b)(1), (2). The State reads the phrase to modify \u201cclaims.\u201d See, e. g., Brief for Respondents 51 (\u201cCongress\u2019 intent for AEDPA was to eradicate successive claims\u201d). We cannot replace the actual text with speculation as to Congress\u2019 intent. We have previously found Congress\u2019 use of the word \u201capplication\u201d significant, and have refused to adopt an interpretation of \u00a7 2244(b) that would \u201celid[e] the difference between an \u2018application\u2019 and a \u2018claim,\u2019 \u201d Artuz, 531 U. S., at 9; see also Gonzalez v. Crosby, 545 U. S. 524, 530 (2005) (\u201c[FJor purposes of \u00a7 2244(b), an \u2018application\u2019 for habeas relief is a filing that contains one or more \u2018claims\u2019 \u201d). Therefore, although we agree with the State that many of the rules under \u00a7 2244(b) focus on claims, that does not entitle us to rewrite the statute to make the phrase \u201csecond or successive\u201d modify claims as well.\nThe State\u2019s reading leads to a second, more fundamental error. Under the State\u2019s \u201cone opportunity\u201d rule, the phrase \u201csecond or successive\u201d would apply to any claim that the petitioner had a full and fair opportunity to raise in a prior application. And the phrase \u201csecond or successive\u201d would not apply to a claim that the petitioner did not have a full and fair opportunity to raise previously.\nThis reading of \u00a7 2244(b) would considerably undermine\u2014 if not render superfluous \u2014 the exceptions to dismissal set forth in \u00a7 2244(b)(2). That section describes circumstances when a claim not presented earlier may be considered: intervening and retroactive case law, or newly discovered facts suggesting \u201cthat ... no reasonable factfinder would have found the applicant guilty of the underlying offense.\u201d \u00a7 2244(b)(2)(B)(ii). In either circumstance, a petitioner cannot be said to have had a prior opportunity to raise the claim, so under the State\u2019s rule the claim would not be successive and \u00a7 2244(b)(2) would not apply to it at all. This would be true even if the claim were raised in a second application challenging the same judgment.\nIn addition to duplicating the exceptions under \u00a7 2244(b) in some circumstances, the State\u2019s rule would dilute them in others. Whereas the exception to dismissal of fact-based claims not presented in a prior application applies only if the facts provide clear and convincing evidence \u201cthat, but for constitutional error, no reasonable factfinder would have found the applicant guilty of the underlying offense,\u201d \u00a7 2244(b)(2)(B)(ii), under the State\u2019s rule, all that matters is that the facts \u201ccould not have been discovered previously through the exercise of due diligence,\u201d \u00a7 2244(b)(2)(B)(i). We decline to adopt a reading that would thus truncate \u00a7 2244(b)(2)\u2019s requirements.\nIV\nA\nWe are not persuaded by the State or the dissent that the approach we take here contradicts our precedents. The State invokes several pre-AEDPA cases denying review of claims in second or successive applications where the petitioners did not avail themselves of prior opportunities to present the claims. See Wong Doo v. United States, 265 U. S. 239 (1924); Antone v. Dugger, 465 U. S. 200 (1984) (per curiam); Woodard v. Hutchins, 464 U. S. 377 (1984) (per curiam); Delo v. Stokes, 495 U. S. 320 (1990) (per curiam); McCleskey v. Zant, 499 U. S. 467 (1991). These cases, the State contends, show that Magwood\u2019s fair-warning claim should be dismissed as second or successive because he could have raised \u2014 but did not raise \u2014 the claim in his first application.\nBut none of these pre-AEDPA decisions applies the phrase \u201csecond or successive\u201d to an application challenging a new judgment. Therefore, the decisions cast no light on the question before the Court today: whether abuse-of-the-writ rules, as modified by AEDPA under \u00a7 2244(b)(2), apply at all to an application challenging a new judgment. The State\u2019s misplaced reliance on those cases stems from its failure to distinguish between \u00a72244(b)\u2019s threshold inquiry into whether an application is \u201csecond or successive,\u201d and its subsequent inquiry into whether claims in a successive application must be dismissed.\nB\nThe dissent similarly errs by interpreting the phrase \u201csecond or successive\u201d by reference to our longstanding doctrine governing abuse of the writ. AEDPA modifies those abuse-of-the-writ principles and creates new statutory rules under \u00a7 2244(b). These rules apply only to \u201csecond or successive\u201d applications. The dissent contends that this reading renders AEDPA inapplicable to a broad range of abusive claims that would have been barred under prior rules. Yet, the dissent fails to cite any case in which this Court has dismissed a claim as successive or abusive if the petitioner raised it in an application challenging a new judgment.\n' The dissent\u2019s conclusion that our reading of \u00a72254 \u201cunmoor[s] the phrase \u2018second or successive\u2019 from its textual and historical underpinnings,\u201d post, at 350, is unwarranted. Pre-AEDPA usage of the phrase \u201csecond or successive\u201d is consistent with our reading. A review of our habeas precedents shows that pre-AEDPA cases cannot affirmatively define the phrase \u201csecond or successive\u201d as it appears in AEDPA. Congress did not even apply the phrase \u201csecond or successive\u201d to applications filed by state prisoners until it enacted AEDPA. The phrase originally arose in the federal context, see \u00a7 2255 (1946 ed., Supp. II), and applied only to applications raising previously adjudicated claims, see Sanders v. United States, 373 U. S. 1, 12 (1963). After this Court interpreted the law to permit dismissal of \u201cabusive\u201d claims\u2014 as distinguished from \u201csuccessive\u201d claims, see ibid.\u2014 Congress codified restrictions on both types of claims in \u00a7 2244(b), but still without using the phrase \u201csecond or successive.\u201d See \u00a7 2244(b) (1964 ed., Supp. IV) (providing rules governing applications filed by state as well as federal prisoners). It was not until 1996 that AEDPA incorporated the phrase \u201csecond or successive\u201d into \u00a7 2244(b). In light of this complex history of the phrase \u201csecond or successive,\u201d we must rely upon the current text to determine when the phrase applies, rather than pre-AEDPA precedents or superseded statutory formulations.\nC\nNor do our posi-AEDPA cases contradict our approach. Only one, Burton v. Stewart, 549 U. S. 147 (2007) (per curiam), comes close to addressing the threshold question whether an application is \u201csecond or successive\u201d if it challenges a new judgment. And that case confirms that the existence of a new judgment is dispositive. In Burton, the petitioner had been convicted and sentenced in state court in 1994. See id., at 149. He successfully moved for resentencing based on vacatur of an unrelated prior conviction. Id., at 150. The state appellate court affirmed the conviction but remanded for a second resentencing. Ibid. In March 1998, the trial court entered an amended judgment and new sentence. Id., at 151. In December 1998, with state review of his new sentence still pending, the petitioner filed a \u00a72254 application challenging his 1994 conviction. The District Court denied it on the merits, the Court of Appeals affirmed, and we denied certiorari. Ibid.\nIn 2002, after exhausting his state sentencing appeal, the petitioner filed a \u00a72254 petition challenging only his 1998 sentence. The District Court denied relief on the merits, and the Court of Appeals affirmed. We reversed, holding that the petition challenging the sentence should have been dismissed as an unauthorized \u201csecond or successive\u201d application. Id., at 153; see \u00a7 2244(b)(3)(A). We rejected the petitioner\u2019s argument \u201cthat his 1998 and 2002 petitions challenged different judgments.\u201d Id., at 155; see id., at 156-157. Although the petitioner had styled his first petition as a challenge to the 1994 conviction and his second petition as a challenge to the 1998 sentence, we concluded that both attacked the same \u201cjudgment\u201d because the 1998 sentence was already in place when the petitioner filed his first application for federal habeas relief. See id., at 156. In other words, the judgment he challenged in his 1998 application was \u201cthe same one challenged in the subsequent 2002 petition\u201d; it \u201cwas the judgment pursuant to which [the petitioner] was being detained.\u201d Ibid, (emphasis added). We expressly recognized that the case might have been different had there been a \u201cnew judgment intervening between the two habeas petitions.\u201d Ibid. There was no such judgment in Burton, but there is such an intervening judgment here.\nThis is Magwood\u2019s first application challenging that intervening judgment. The errors he alleges are new. It is obvious to us \u2014 and the State does not dispute \u2014 that his claim of ineffective assistance at resentencing turns upon new errors. But, according to the State, his fair-warning claim does not, because the state court made the same mistake before. We disagree. An error made a second time is still a new error. That is especially clear here, where the state court conducted a full resentencing and reviewed the aggravating evidence afresh. See Sentencing Tr., R. Tab 1, at R-25 (\u201cThe Court in f [or]mulating the present judgment has considered the original record of the trial and sentence. . . . The present judgment and sentence has been the result of a complete and new assessment of all of the evidence, arguments of counsel, and law\u201d (emphasis added)).\nD\nThe dissent\u2019s concern that our rule will allow \u201cpetitioners to bring abusive claims so long as they have won any victory pursuant to a prior federal habeas petition,\u201d post, at 356, is greatly exaggerated. A petitioner may not raise in federal court an error that he failed to raise properly in state court in a challenge to the judgment reflecting the error. If a petitioner does not satisfy the procedural requirements for bringing an error to the state court\u2019s attention \u2014 whether in trial, appellate, or habeas proceedings, as state law may require \u2014 procedural default will bar federal review. See Coleman v. Thompson, 501 U. S. 722, 729-730 (1991); O\u2019Sullivan v. Boerckel, 526 U. S. 838, 848 (1999) (stating that the petitioner\u2019s \u201cfailure to present three of his federal habeas claims to the [state court] in a timely fashion has resulted in a procedural default of those claims\u201d). In this case, the State argued that Magwood procedurally defaulted his fair-warning claim by failing to raise it properly in his collateral challenge to the 1986 judgment, and sought dismissal on that ground. Only after ruling that Magwood did not procedurally default the claim did the District Court sua sponte consider whether \u00a7 2244(b) barred review. We leave that procedural-default ruling to the Court of Appeals to review in the first instance. Here, we underscore only that procedural-default rules continue to constrain review of claims in all applications, whether the applications are \u201csecond or successive\u201d or not.\nIronically, in an effort to effectuate what they believe is Congress\u2019 intent not to give any unfair benefit to habeas petitioners, the State and the dissent propose an alternative rule that would \u201cclose our doors to a class of habeas petitioners seeking review without any clear indication that such was Congress\u2019 intent.\u201d Castro v. United States, 540 U. S. 375, 381 (2003). Many examples can be given, but one suffices to illustrate this point. Suppose that a petitioner files an application raising 10 meritorious claims challenging his conviction. The district court grants a conditional writ based on one of them, without reaching the remaining nine. Upon retrial, the state court commits the same 10 legal mistakes. (These are new errors, but no more new than the sentencing error in Magwood\u2019s case.) Is an application presenting those same 10 claims \u2014 now based on the errors in the new judgment \u2014 \u201csecond or successive\u201d? Under the opportunity-based rule advanced by the State and the dissent, the answer must be yes. All 10 claims would have to be dismissed. See \u00a7 2244(b)(1) (requiring dismissal of any claim presented in a prior application). The State attempts to avoid this \u201cprocedural anomal[y],\u201d id., at 380, by suggesting that we treat the nine unadjudicated claims as part of a first application, because they were never adjudicated on the merits. Cf. Slack, 529 U. S., at 478-481; Martinez-Villareal, 523 U. S., at 643-645. As for the adjudicated claim, \u201cRespondents assume that state judges will follow instructions imposed by federal courts,\u201d and if not, \u201cthat federal courts will consider a petitioner\u2019s claim that the state court violated due process by failing to honor the federal court\u2019s mandate.\u201d Brief for Respondents 42. We see no need to engage in such novel and complex rationalizations. AEDPA\u2019s text commands a more straightforward rule: where, unlike in Burton, there is a \u201cnew judgment intervening between the two habeas petitions,\u201d 549 U. S., at 156, an application challenging the resulting new judgment is not \u201csecond or successive\u201d at all.\nV\nThe State objects that our reading of \u00a7 2244(b) would allow a petitioner who obtains a conditional writ as to his sentence to file a subsequent application challenging not only his resulting, new sentence, but also his original, undisturbed con-' viction. The State believes this result follows because a sentence and conviction form a single \u201cjudgment\u201d for purposes of habeas review. This case gives us no occasion to address that question, because Magwood has not attempted to challenge his underlying conviction. We base our conclusion on the text, and that text is not altered by consequences the State speculates will follow in another case.\n* * *\nFor these reasons, we conclude that Magwood\u2019s first application challenging his new sentence under the 1986 judgment is not \u201csecond or successive\u201d under \u00a7 2244(b). The Court of Appeals erred by reading \u00a7 2244(b) to bar review of the fair-warning claim Magwood presented in that application. We do not address whether the fair-warning claim is procedurally defaulted. Nor do we address Magwood\u2019s contention that the Court of Appeals erred in rejecting his ineffective-assistance claim by not addressing whether his attorney should have objected under federal law.\nThe judgment of the Court of Appeals is reversed, and the case is remanded for further proceedings consistent with this opinion.\nIt is so ordered.\nAlthough 28 U. S. C. \u00a7 2244(b) refers to a habeas \u201capplication,\u201d we use the word \u201cpetition\u201d interchangeably with the word \u201capplication,\u201d as we have in our prior cases.\nAt the time of the murder, Ala. Code \u00a713-ll-2(a) provided: \u201cIf the jury finds the defendant guilty, it shall fix the punishment at death when the defendant is charged by indictment with any of the following offenses and with aggravation, which must also be averred in the indictment....\u201d The offenses included \u201cmurder of any . .. sheriff. .. while ... on duty or because of some official or job-related act.\u201d \u00a7 13-ll-2(a)(5). The same statute set forth a list of \u201caggravating circumstances,\u201d \u00a7 13-11-6, but the trial court found that none existed in Magwood\u2019s case.\nAs relevant here, Kyzer did away with the prior Alabama rule that an aggravating component of a capital felony could not double as an aggravating factor supporting a capital sentence. In Kyzer, the defendant had been sentenced to death for the intentional murder of \u201ctwo or more human beings\u201d under \u00a7 13-11-2(a)(10). 399 So. 2d, at 332. The crime of murder, so defined, was aggravated by its serial nature, just as Magwood\u2019s crime of murder, as defined under \u00a7 13-11-2(a)(5), was aggravated by the fact that he killed an on-duty sheriff because of the sheriff\u2019s job-related acts. In Kyzer, the Alabama Supreme Court ultimately remanded for a new trial but, in order to guide the lower court on remand, addressed whether the aggravation in the charged crime, see \u00a7 13-11-2(a)(10), was sufficient to impose a sentence of death even without a finding of any \u201caggravating circumstance\u201d enumerated in \u00a713-11-6. Id., at 337. The court ruled that if the defendant was convicted under \u00a7 13-ll-2(a)(10), \u201cthe jury and the trial judge at the sentencing hearing may find the aggravation averred in the indictment as the aggravating circumstance, even though the aggravation is not listed in \u00a7 13-11-6 as an aggravating circumstance.\u201d Id., at 339 (internal quotation marks omitted).\nThe Alabama Court of Criminal Appeals subsequently affirmed the denial of Magwood\u2019s coram nobis petition, Magwood v. State, 449 So. 2d 1267 (1984), and the Alabama Supreme Court denied Magwood\u2019s motion to file an out-of-time appeal from that decision, Ex parte Magwood, 453 So. 2d 1349 (1984).\nSee Ala. Code \u00a713-11-7 (\u2018Mitigating circumstances shall be the following: ... (2) The capital felony was committed while the defendant was under the influence of extreme mental or emotional disturbance;. . . (6) The capacity of the defendant to appreciate the criminality of his conduct or to conform his conduct to the requirements of law was substantially impaired\u201d).\nIn Jackson v. State, 501 So. 2d, at 544, the Alabama Court of Criminal Appeals held that Kyzer supported a death sentence for a defendant who was convicted for an offense committed before Kyzer was decided but was resentenced after that decision.\nThe court treated Magwood\u2019s ineffective-assistance claim as new and free of the restrictions of \u00a7 2244(b)(2), but reversed on the merits: \u201cWhile there was a possible objection, Alabama\u2019s highest court had said in Kyzer that a \u00a7 13-11-2 aggravating factor could be used as an aggravating circumstance. We are not prepared to require counsel to raise an argument that has already been decided adversely to his client\u2019s position by a state\u2019s highest court in order to avoid being found ineffective.\u201d 555 F. 3d, at 977-978.\nIn Slack v. McDaniel, we applied pre-AEDPA law, but \u201cd[id] not suggest the definition of second or successive would be different under AEDPA.\u201d 529 U. S., at 486. Courts have followed Slack in post-AEDPA cases, and the State agrees it is relevant to the question presented here. See Brief for Respondents 36, n. 13.\nOur focus on the judgment accords with current filing requirements. See Habeas Corpus Rule 2(b) (requiring any petitioner to \u201cask for relief from the state-court judgment being contested\u201d); Rule 2(e) (prescribing that any \u201cpetitioner who seeks relief from judgments of more than one state court must file a separate petition covering the judgment or judgments of each court\u201d).\nThe dissent recognizes that the phrase \u201csecond or successive\u201d applies to an application as a whole, see post, at 344-346 (opinion of Kennedy, J.), but departs in other significant ways from the statutory text, see infra, at 336-337.\nThis case does not require us to determine whether \u00a7 2244(b) applies to every application filed by a prisoner in custody pursuant to a state-court judgment if the prisoner challenged the same state-court judgment once before. Three times we have held otherwise. See Slack v. McDaniel, 529 U. S. 473, 487 (2000); Stewart v. Martinez-Villareal, 523 U. S. 637, 643 (1998); Panetti v. Quarterman, 551 U. S. 930, 945 (2007).\nThe dissent\u2019s claim that our reading of \u00a7 2244(b) calls one of those decisions, Panetti, into doubt, see post, at 350, is unfounded. The question in this case is whether a first application challenging a new sentence in an intervening judgment is second or successive. It is not whether an application challenging the same state-court judgment must always be second or successive.\nThe dissent speculates about issues far beyond the question before the. Court: See, e. g., post, at 350-351 (suggesting that our judgment-based reading of \u00a7 2244(b) calls into question precedents recognizing habeas petitions challenging the denial of good-time credits or parole). We address only an application challenging a new state-court judgment for the first time. We do not purport to constrain the scope of \u00a72254 as we have previously defined it.\nCf. Walker v. Roth, 133 F. 3d 454, 455 (CA7 1997) (\u201cNone of these new claims were raised in his first petition, nor could they have been; [the petitioner] is attempting to challenge the constitutionality of a proceeding which obviously occurred after he filed, and obtained relief, in his first habeas petition\u201d).\nSee 481 F. Supp. 2d 1262, 1267 (MD Ala. 2007) (\u201cThis court split the proceedings on the current petition into two stages: stage I (determining whether the claims were procedurally defaulted) and stage II (considering the merits of the claims that were not procedurally defaulted)\u201d). New of Magwood\u2019s claims survived the initial cut.\nThe dissent\u2019s concern that such a petitioner may \u201creraise every argument against a sentence that was rejected by the federal courts during the first round of federal habeas review,\u201d post, at 354, is similarly hyperbolic. It will not take a court long to dispose of such claims where the court has already analyzed the legal issues.\nSeveral Courts of Appeals have held that a petitioner who succeeds on a first habeas application and is resenteneed may challenge only the \u201cportion of a judgment that arose as a result of a previous successful action.\u201d Lang v. United States, 474 F. 3d 348, 351-352 (CA6 2007) (citing decisions); see also Walker, 133 F. 3d, at 455; Esposito v. United States, 135 F. 3d 111, 113-114 (CA2 1997) (per curiam).\nIn any case, we cannot agree with the dissent that our reading of \u00a7 2244(b) gives a windfall to \u201ca defendant who succeeds on even the most minor and discrete issue.\u201d Post, at 354. AEDPA permits relief \u201conly on the ground that [the petitioner] is in custody in violation of the Constitution or laws or treaties of the United States.\u201d \u00a7 2254(a).",
+        "type": "majority",
+        "author": "Justice Thomas"
+      },
+      {
+        "text": "Justice Breyer,\nwith whom\nJustice Stevens and Justice Sotomayor join, concurring in part and concurring in the judgment.\nI join the Court\u2019s well-reasoned opinion with the exception of Part IV-B. The Court neither purports to alter nor does alter our holding in Panetti v. Quarterman, 551 U. S. 930 (2007). See ante, at 335, n. 11. In Panetti, we \u201cdeclined to interpret \u2018second or successive\u2019 as referring to all \u00a72254 applications filed second or successively in time, even when the later filings address a state-court judgment already challenged in a prior \u00a72251 application.\u201d 551 U. S., at 944 (emphasis added). In this case, by contrast, we determine how 28 U. S. C. \u00a7 2244(b) applies to a habeas petition that is the first petition to address a new \u201cstate-court judgment\u201d that has not \u201calready [been] challenged in a prior \u00a7 2254 application.\u201d And, for the reasons provided by the Court, such a \u201cfirst\u201d petition is not \u201csecond or successive.\u201d Of course, as the dissent correctly states, if Magwood were challenging an undisturbed state-court judgment for the second time, abuse-of-the-writ principles would apply, including Panetti\u2019s holding that an \u201capplication\u201d containing a \u201cclaim\u201d that \u201cthe petitioner had no fair opportunity to raise\u201d in his first habeas petition is not a \u201csecond or successive\u201d application. Post, at 346 (opinion of Kennedy, J.). Contrary to the dissent\u2019s assertion, post, at 349-350, the Court\u2019s decision today and our decision in Panetti fit comfortably together.",
+        "type": "concurrence",
+        "author": "Justice Breyer,"
+      },
+      {
+        "text": "Justice Kennedy,\nwith whom.\nThe Chief Justice, Justice Ginsburg, and Justice Alito join, dissenting.\nThe Court today decides that a state prisoner who succeeds in his first federal habeas petition on a discrete sentencing claim may later file a second petition raising numerous previously unraised claims, even if that petition is an abuse of the writ of habeas corpus. The Court, in my respectful submission, reaches this conclusion by misreading precedents on the meaning of the phrase \u201csecond or successive\u201d in the Antiterrorism and Effective Death Penalty Act of 1996 (AEDPA). The Court then rewrites AEDPA\u2019s text but refuses to grapple with the logical consequences of its own editorial judgment. A straightforward application of the principles articulated in Panetti v. Quarterman, 551 U. S. 930 (2007), consistent with the conclusions of all of the Courts of Appeals that have considered this issue, dictates the opposite result. The design and purpose of AEDPA is to avoid abuses of the writ of habeas corpus, in recognition of the potential for the writ\u2019s intrusive effect on state criminal justice systems. But today\u2019s opinion, with considerable irony, is not only a step back from AEDPA protection for States but also a step back even from abuse-of-the-writ principles that were in place before AEDPA. So this respectful dissent becomes necessary.\nI\nAbsent two exceptions that are inapplicable here, the relevant statutory provision in AEDPA provides:\n\u201cA claim presented in a second or successive habeas corpus application under section 2254 that was not presented in a prior application shall be dismissed . . . .\u201d 28 U. S. C. \u00a7 2244(b)(2).\nThe question before the Court is whether petitioner Billy Joe Magwood filed \u201ca second or successive\u201d application by raising a claim in his second habeas petition that he had available and yet failed to raise in his first petition.\nThe term \u201csecond or successive\u201d is a habeas \u201cterm of art.\u201d Slack v. McDaniel, 529 U. S. 473,486 (2000). It incorporates the pre-AEDPA abuse-of-the-writ doctrine. Panetti, 551 U. S., at 947. Before today, that legal principle was established by the decisions of this Court. See, e. g., ibid.; Slack, supra, at 486. Under that rule, to determine whether an application is \u201csecond or successive,\u201d a court must look to the substance of the claim the application raises and decide whether the petitioner had a full and fair opportunity to raise the claim in the prior application. Panetti, supra, at 947. Applying this analytical framework puts applications into one of three categories.\nFirst, if the petitioner had a full and fair opportunity to raise the claim in the prior application, a second-in-time application that seeks to raise the same claim is barred as \u201csecond or successive.\u201d This is consistent with pre-AEDPA cases applying the abuse-of-the-writ doctrine and the bar on \u201csecond or successive\u201d applications. See, e. g., Wong Doo v. United States, 265 U. S. 239, 241 (1924) (second application barred where petitioner had a \u201cfull opportunity to offer proof\u201d of the same claim in his first habeas application); Woodard v. Hutchins, 464 U. S. 377, 379 (1984) (Powell, J., concurring, writing for a majority of the Court) (second application barred for claims that \u201ccould and should have been raised in [the] first petition\u201d); Delo v. Stokes, 495 U. S. 320, 321 (1990) (per curiam) (subsequent application barred for a claim that \u201ccould have been raised in his first petition for federal habeas corpus\u201d). As McCleskey v. Zant, 499 U. S. 467, 489 (1991), explained, \u201ca petitioner can abuse the writ by raising a claim in a subsequent petition that he could have raised in his first, regardless of whether the failure to raise it earlier stemmed from a deliberate choice.\u201d See also Habeas Corpus Rule 2(e) (instructing habeas petitioners to \u201cspecify all the grounds for relief available to [them]\u201d and to \u201cstate the facts supporting each ground\u201d); Schlup v. Delo, 513 U. S. 298, 317-323 (1995) (describing adoption in habeas, through legislation and judicial decision, of modified res judicata (claim preclusion) doctrine); 18 C. Wright, A. Miller, & E. Cooper, Federal Practice and Procedure \u00a7 4406, p. 138 (2d ed. 2002) (claim preclusion aspect of res judicata doctrine bars \u201cmatters that [were not, but] ought to have been raised\u201d in prior litigation).\nSecond, if the petitioner had no fair opportunity to raise the claim in the prior application, a subsequent application raising that claim is not \u201csecond or successive,\u201d and \u00a7 2244(b)(2)\u2019s bar does not apply. This can occur where the claim was not yet ripe at the time of the first petition, see, e. g., Panetti, supra, at 947, or where the alleged violation occurred only after the denial of the first petition, such as the State\u2019s failure to grant the prisoner parole as required by state law, see, e. g., Hill v. Alaska, 297 F. 3d 895, 898-899 (CA9 2002); Crouch v. Norris, 251 F. 3d 720, 723-725 (CA8 2001); In re Cain, 137 F. 3d 234, 236 (CA5 1998). And to respond to the Court\u2019s concern, see ante, at 341, if the applicant in his second petition raises a claim that he raised in his first petition but the district court left unaddressed at its own discretion, the second application would not be \u201csecond or successive.\u201d Reraising a previously unaddressed claim is not abusive by any definition. If the Court believes there are \u201c[m]any examples\u201d where abuse-of-the-writ principles unfairly close the door to state prisoners seeking federal habeas review, ibid., one would think the Court would be able to come up with an example. It does not do so.\nThird, a \u201cmixed petition\u201d \u2014 raising both abusive and non-abusive claims \u2014 would be \u201csecond or successive.\u201d In that circumstance the petitioner would have to obtain authorization from the court of appeals to proceed with the nonabusive claims. See \u00a7 2244(b)(3); see also 28 J. Moore et al., Federal Practice \u00a7 671.10[2][b] (3d ed. 2010). After the court of appeals makes its determination, a district court may consider nonabusive claims that the petitioner had no fair opportunity to present in his first petition and dismiss the abusive claims. See \u00a7 2244(b)(4).\nThe operation of the above rule is exemplified by the Court\u2019s decision in Panetti. Panetti\u2019s claim that he was mentally incompetent to be executed under Ford v. Wain wright, 477 U. S. 399 (1986), did not become ripe until after the denial of his first habeas petition. When the Ford claim became ripe, Panetti filed a second habeas petition, raising his Ford claim for the first time. In concluding that this second habeas petition was not a \u201csecond or successive\u201d application, this Court explained that \u201csecond or successive\u201d did not \u201crefe[r] to all \u00a7 2254 applications filed second or successively in time,\u201d but was rather a term of art that \u201ctakes its full meaning from our case law, including decisions predating the enactment of [AEDPA].\u201d 551 U. S., at 943-944. The Court relied on AEDPA\u2019s purpose of \u201c 'furthering] the principles of comity, finality, and federalism,\u2019\u201d id., at 945 (quoting Miller-El v. Cockrell, 537 U. S. 322, 337 (2003)), an aversion to the \u201cempty formality requiring prisoners to file unripe\u201d claims, 551 U. S., at 946, and this Court\u2019s preAEDPA cases regarding the abuse-of-the-writ doctrine, id., at 947. Panetti thus looked to the nature of the claim raised in the second-in-time habeas petition to determine that the application was not \u201csecond or successive.\u201d Ibid.\nThe above principles apply to a situation, like the present one, where the petitioner in his first habeas proceeding succeeds in obtaining a conditional grant of relief, which allows the state court to correct an error that occurred at the original sentencing. Assume, as alleged here, that in correcting the error in a new sentencing proceeding, the state court duplicates a different mistake that also occurred at the first sentencing. The second application is \u201csecond or successive\u201d with respect to that claim because the alleged error \u201ccould and should have\u201d been raised in the first petition. Woodard, 464 U. S., at 379 (opinion of Powell, J.). Put another way, under abuse-of-the-writ principles, a petitioner loses his right to challenge the error by not raising a claim at the first opportunity after his claim becomes ripe. On the other hand, if the petitioner raises a claim in his second habeas petition that could not have been raised in the earlier petition \u2014 perhaps because the error occurred for the first time during resentencing \u2014 then the application raising the claim is not \u201csecond or successive\u201d and \u00a7 2244(b)(2)\u2019s bar does not apply.\nAlthough the above-cited authorities are adequate to show that the application in this case is \u201csecond or successive,\u201d it must be noted that no previous case from this Court has dealt with the precise sequence of events here: A petitioner attempts to bring a previously unraised claim after a second resentencing proceeding that followed a grant of federal habeas relief. The conclusion that such an application is barred as \u201csecond or successive\u201d unless the claim was previously unavailable is consistent with the approach of every Court of Appeals that has considered the issue, although some of those cases highlight subtleties that are not relevant under abuse-of-the-writ principles. See, e. g., Pratt v. United States, 129 F. 3d 54, 62-63 (CA1 1997); Galtieri v. United States, 128 F. 3d 33, 37-38 (CA2 1997); United States v. Orozco-Ramirez, 211 F. 3d 862, 871 (CA5 2000); Lang v. United States, 474 F. 3d 348, 351-353 (CA6 2007). While most of these cases arose in the context of federal prisoners\u2019 challenges to their convictions or sentences under 28 U. S. C. \u00a7 2255, the \u201csecond or successive\u201d bar under \u00a7 2244(b) applies to \u00a7 2255 motions. See \u00a7 2255(h) (2006 ed., Supp. II).\nIn the present case the Court should conclude that Mag-wood has filed a \u201csecond or successive habeas corpus application.\u201d In 1983, he filed a first federal habeas petition raising nine claims, including that the trial court improperly failed to consider two mitigating factors when it imposed Mag-wood\u2019s death sentence. The District Court granted Mag-wood\u2019s petition and ordered relief only on the mitigating factor claim. The state trial court then held a new sentencing proceeding, in which it considered all of the mitigating factors and reimposed the death penalty. In 1997, Magwood brought a second habeas petition, this time raising an argument that could have been, but was not, raised in his first petition. The argument was that he was not eligible for the death penalty because he did not have fair notice that his crime rendered him death eligible. There is no reason that Magwood could not have raised the identical argument in his first habeas petition. Because Magwood had a full and fair opportunity to adjudicate his death-eligibility claim in his first petition in 1983, his 1997 petition raising this claim is barred as \u201csecond or successive.\u201d\nII\nThe Court reaches the opposite result by creating an ill-defined exception to the \u201csecond or successive\u201d application bar. The Court, in my respectful view, makes two critical errors. First, it errs in rejecting Panetti\u2019s claim-based approach to determining whether an application is \u201csecond or successive.\u201d Second, it imposes an atextual exception to \u00a7 2244(b)\u2019s bar against \u201csecond or successive\u201d applications, requiring that the seeond-in-time application be brought against the same judgment. This second error is underscored by the fact that the Court refuses to deal with the logical implications of its newly created rule.\nA\nThe Court concludes that because AEDPA refers to \u201csecond or successive\u201d applications rather than \u201csecond or successive\u201d claims, the nature of the claims raised in the second application is irrelevant. See ante, at 334-335 (\u201c [Although we agree with the State that many of the rules under \u00a7 2244(b) focus on claims, that does not entitle us to rewrite the statute to make the phrase' 'second or successive\u2019 modify claims as well\u201d). This is incorrect. As explained above, Panetti establishes that deciding whether an application itself is \u201csecond or successive\u201d requires looking to the nature of the claim that the application raises to determine whether the petitioner had a full and fair opportunity to raise that claim in his earlier petition. Indeed, the only way Panetti could have concluded that the application there was not \u201csecond or successive\u201d was to look at the underlying claim the application raised. 551 U. S., at 947.\nWhile the Court asserts it is not calling Panetti into doubt, see ante, at 335, n. 11, it does not even attempt to explain how its analysis is consistent with that opinion, cf. 551 U. S., at 964 (Thomas, J., dissenting) (\u201cBefore AEDPA\u2019s enactment, the phrase \u2018second or successive\u2019 meant the same thing it does today \u2014 any subsequent federal habeas application challenging a state-court judgment\u201d). The best that can be said is the Court is limiting its new doctrine so it has no applicability to previously unexhausted Ford claims, confining the holding of Panetti to the facts of that case. 551 U. S., at 968 (Thomas, J., dissenting) (\u201cToday\u2019s decision thus stands only for the proposition that Ford claims somehow deserve a special (and unjustified) exemption from the statute\u2019s plain import\u201d).\nFailing to consider the nature of the claim when deciding whether an application is barred as \u201csecond or successive\u201d raises other difficulties. Consider a second-in-time habeas petition challenging an alleged violation that occurred entirely after the denial of the first petition; for example, a failure to grant a prisoner parole at the time promised him by state law or the unlawful withdrawal of good-time credits. See supra, at 346. Under the Court\u2019s rule, it would appear that a habeas application challenging those alleged violations \u25a0 would be barred as \u201csecond or successive\u201d because it would be a second-in-time application challenging custody pursuant to the same judgment. That result would be inconsistent with abuse-of-the-writ principles and might work a suspension of the writ of habeas corpus.\nB\nHaving unmoored the phrase \u201csecond or successive\u201d from its textual and historical underpinnings, the Court creates a new puzzle for itself: If the nature of the claim is not what makes an application \u201csecond or successive,\u201d then to what should a court look? Finding no reference point in \u00a72244(b)\u2019s text, the Court searches in AEDPA for a different peg.\nThe Court believes that it finds its peg in a different provision:\n\u201c[A] district court shall entertain an application for a writ of habeas corpus in behalf of a person in custody pursuant to the judgment of a State court only on the ground that he is in custody in violation of the Constitution or laws or treaties of the United States.\u201d \u00a7 2254(a).\nBut this provision does not purport to create any prerequisites to \u00a7 2244(b)\u2019s bar against \u201csecond or successive\u201d applications. The accepted reading of the quoted language is that this is a mere \u201cstatus requirement.\u201d See 1 R. Hertz & J. Liebman, Federal Habeas Corpus Practice and Procedure \u00a7 8.1, p. 391 (5th ed. 2005). The provision stands for the simple proposition that a petitioner must be held \u201cpursuant to the judgment of a State court\u201d to be able to file any \u00a7 2254(b) petition in the first place. That reading also explains why federal habeas petitions can attack not only the judgment pursuant to which the petitioner is being held but also \u201cthe duration of sentence . . . and . . . the conditions under which that sentence is being served,\u201d including rules such as \u201cthe basis of parole\u201d and \u201cgood time\u201d credits. Id., \u00a7 9.1, at 475-481.\nThe Court\u2019s reading of the phrase \u201cpursuant to the judgment of a State court\u201d as a limitation on \u00a7 2244(b)(2)\u2019s \u201csecond or successive\u201d application bar is artificial. The Court would amend \u00a7 2244(b)(2) to read: \u201cA claim presented in a second or successive habeas corpus application under section 2254 that was not presented in a prior application [against the same judgment] shall be dismissed.\u201d This is not what \u00a7 2244(b)(2) says.\nThe Court wholly glosses over another significant problem with its atextual analysis. The Court relies upon the notion that \u201c[a]n error made a second time is still a new error.\u201d Ante, at 339. But in making this statement, the Court can mean one of two very different things:\nFirst, it could mean that any error logically encompassed in a reentered judgment is a \u201cnew\u201d error. A criminal \u201cjudgment\u201d generally includes both the conviction and the sentence. See, e. g., Fed. Rule Crim. Proc. 32(k)(l) (a criminal judgment \u201cmust set forth the plea, the jury verdict or the court\u2019s findings, the adjudication, and the sentence\u201d); Teague v. Lane, 489 U. S. 288, 314, n. 2 (1989) (\u201cAs we have often stated, a criminal judgment necessarily includes the sentence imposed upon the defendant\u201d). This well-established principle applies in the federal habeas context, where petitioner is \u201cin custody pursuant to the judgment.\u201d \u00a7 2254(b). A person cannot be held in custody \u201cpursuant to\u201d a sentence, but only pursuant to \u201cthe\u201d (e. g., one) judgment, which includes both the conviction and sentence. See Burton v. Stewart, 549 U. S. 147, 156-157 (2007) (per curiam) (explaining that AEDPA\u2019s statute of limitations did not run until the judgment \u2014 \u201cboth his conviction and sentence became final\u201d (internal quotation marks omitted)).\nUnder this principle, the' Court\u2019s holding today would allow a challenger in Magwood\u2019s position to raise any challenge to the guilt phase of the criminal judgment against him in his second application, since a \u201cnew\u201d judgment \u2014 consisting of both the conviction and sentence \u2014 has now been reentered and all of the errors have (apparently) occurred anew. As an illustration, the state trial court here reentered the following judgment after resentencing: \u201cIT IS, THEREFORE, ORDERED AND ADJUDGED BY THE COURT that Billy Joe Magwood is guilty of the offense of aggravated murder . . . and that Billy Joe Magwood is sentenced to death.\u201d App. to Pet. for Cert. 106a. This would mean that Magwood\u2019s attorney could dig through anything that occurred from voir dire to the cross-examination of witnesses to the jury\u2019s guilty verdict, and raise any alleged errors for the first time in his second habeas application, all because the trial court did not properly consider two mitigating factors during Magwood\u2019s first sentencing proceeding.\nSecond, and alternatively, the Court could retreat even further from the statutory text and conclude that only some parts of the reentered judgment are open to challenge by way of a second habeas application. Magwood, for example, argues that he can only challenge previously unraised errors made during sentencing. Brief for Petitioner 21, n. 8. Indeed, Magwood goes further and suggests that even the sentencing would not be reopened in a case where a court\u2019s order leads the trial court to revise only the defendant\u2019s term of supervised release. Id., at 28, n. 11. If the Court is adopting this some-parts-of-the-criminal-judgment exception to the \u201csecond or successive\u201d application bar, it is unclear why the error that Magwood now raises is a \u201cnew error\u201d at all. After all, Magwood did not challenge his death eligibility in his first habeas petition but only disputed that he should not get the death penalty, as a matter of discretion, if the trial court properly weighed all of the aggravating and mitigating factors. The state trial court conducted this reweighing and had no reason to reconsider the uncontested finding that Magwood is death eligible. It is hard to see how the trial court\u2019s failure to reconsider sua sponte its previous death-eligibility finding is a \u201cnew error,\u201d any more than its failure to reconsider the various errors that may have taken place at the guilt phase would have been new errors.\nThe Court contends the approach dictated by Panetti \u201cconsiderably undermine[s] \u2014 if not render[s] superfluous,\u201d ante, at 335, the exceptions in \u00a7 2244(b)(2), which allow a petitioner to bring a claim in a \u201csecond or successive\u201d application based on certain factual discoveries or based on a new Supreme Court precedent that has been applied retroactively. The Court seems to be saying that applying Panetti\u2019s rule would make the exceptions superfluous, because any claim that would satisfy the exceptions would necessarily satisfy the more general rule derived from the abuse-of-the-writ doctrine. But the Court misconceives the scope of the rule that an application is only \u201csecond or successive\u201d if it raises for the first time a claim that could have been raised before. A second petition raising a claim that could have been raised in a prior petition, even though strengthened by a new decision from this Court or based upon newly discovered evidence, is still \u201csecond or successive.\u201d Thus this subsequent application would only be permitted if it qualified under the pertinent subsection (b)(2) exception. In fact, it is the Court\u2019s approach that limits the relevance of the subsection (b)(2) exceptions. Under the Court\u2019s theory, the \u201csecond or successive\u201d bar does not apply at all to applications filed by petitioners in Magwood\u2019s situation, and thus the subsection (b)(2) exceptions would have no operation in that context.\nIll\nThe Court\u2019s approach disregards AEDPA\u2019s \u201c \u2018principles of comity, finality, and federalism.\u2019\u201d Panetti, 551 U. S., at 945 (quoting Miller-El, 537 U. S., at 337). Under the Court\u2019s newly created exception to the \u201csecond or successive\u201d application bar, a defendant who succeeds on even the most minor and discrete issue relating to his sentencing would be able to raise 25 or 50 new sentencing claims in his second habeas petition, all based on arguments he failed to raise in his first petition. \u201c[I]f reexamination of [a] convictio[n] in the first round of habeas offends federalism and comity, the offense increases when a State must defend its conviction in a second or subsequent habeas proceeding on grounds not even raised in the first petition.\u201d McCleskey, 499 U. S., at 492.\nThe Court\u2019s novel exception would also allow the once-successful petitioner to reraise every argument against a sentence that was rejected by the federal courts during the first round of federal habeas review. As respondents explain, under the Court\u2019s theory, \u201ca post-resentencing petitioner could simply staple a new cover page with the words, '\u00a7 2254 Petition Attacking New Judgment,\u2019 to his previously adjudicated petition.\u201d Brief for Respondents 47. Because traditional res judicata principles do not apply to federal habeas proceedings, see Salinger v. Loisel, 265 U. S. 224, 230 (1924), this would force federal courts to address twice (or thrice, or more) the same claims of error. The State and the victims would have to bear anew the \u201csignificant costs of federal habeas corpus review,\u201d McCleskey, supra, at 490-491, all because the petitioner previously succeeded on a wholly different, discrete, and possibly unrelated claim.\nThe Court\u2019s suggestion that \u201c[i]t will not take a court long to dispose of such claims where the court has already analyzed the legal issues,\u201d ante, at 341, n. 15, misses the point. This reassurance will be cold comfort to overworked state district attorneys, who will now have to waste time and resources writing briefs analyzing dozens of claims that should be barred by abuse-of-the-writ principles. It is difficult to motivate even the most dedicated professionals to do their best work, day after day, when they have to deal with the dispiriting task of responding to previously rejected or otherwise abusive claims.- But that is exactly what the Court is mandating, under a statute that was designed to require just the opposite result. If the analysis in this dissent is sound it is to be hoped that the States will document the ill effects of the Court\u2019s opinion so that its costs and deficiencies are better understood if this issue, or a related one, can again come before the Court.\nThe Court\u2019s new exception will apply not only to death penalty cases like the present one, where the newly raised claim appears arguably meritorious. It will apply to all federal habeas petitions following a prior successful petition, most of which will not be in death cases and where the abusive claims the Court now permits will wholly lack merit. And, in this vein, it is striking that the Court\u2019s decision means that States subject to federal habeas review henceforth receive less recognition of a finality interest than the Federal Government does on direct review of federal criminal convictions. See United States v. Parker, 101 F. 3d 527, 528 (CA7 1996) (Posner, C. J.) (\u201cA party cannot use the accident of a remand to raise in a second appeal an issue that he could just as well have raised in the first appeal because the remand did not affect it\u201d).\nThe Court\u2019s approach also turns AEDPA\u2019s bar against \u201csecond or successive\u201d applications into a one-way ratchet that favors habeas petitioners. Unless today\u2019s decision is read to unduly limit Panetti, see supra, at 350, AEDPA still incorporates recognized exceptions to the abuse-of-the-writ doctrine to allow petitioners to bring their previously unavailable and unripe claims, see ante, at 343 (Breyer, J., concurring in part and concurring in judgment). But after today\u2019s holding, AEDPA now \u201cmodifie[s],\u201d ante, at 337, abuse-of-the-writ principles and allows petitioners to bring abusive claims so long as they have won any victory pursuant to a prior federal habeas petition. The Court thus reads AEDPA as creating a new loophole that habeas petitioners can exploit to challenge their sentences based on grounds they previously neglected to raise. This is inconsistent with the understanding that AEDPA adds \u201cnew restrictions on successive petitions\u201d and \u201cfurther restricts the availability of relief to habeas petitioners.\u201d Felker v. Turpin, 518 U. S. 651, 664 (1996).\n* * *\nHad Magwood been unsuccessful in his first petition, all agree that claims then available, but not raised, would be barred. But because he prevailed in his attack on one part of his sentencing proceeding the first time around, the Court rules that he is free, postsentencing, to pursue claims on federal habeas review that might have been raised earlier. The Court is mistaken in concluding that Congress, in enacting a statute aimed at placing new restrictions on successive petitions, would have intended this irrational result.\nMagwood had every chance to raise his death-eligibility claim in his first habeas petition. He has abused the writ by raising this claim for the first time in his second petition. His application is therefore \u201csecond or successive.\u201d I would affirm the judgment of the Court of Appeals.",
+        "type": "dissent",
+        "author": "Justice Kennedy,"
+      }
+    ],
+    "attorneys": [
+      "Jeffrey L. Fisher, by appointment of the Court, 558 U. S. 1108, argued the cause for petitioner. With him on the briefs were Pamela S. Karlan, Amy Howe, Kevin K. Russell, James A. Power, Jr., Marguerite Del Valle, and Thomas C. Goldstein.",
+      "Corey L. Maze, Solicitor General of Alabama, argued the cause for respondents. With him on the brief were Troy King, Attorney General, and Beth Jackson Hughes and J. Clayton Crenshaw, Assistant Attorneys General."
+    ],
+    "corrections": "",
+    "head_matter": "MAGWOOD v. PATTERSON, WARDEN, et al.\nNo. 09-158.\nArgued March 24, 2010\nDecided June 24, 2010\nThomas, J., delivered the opinion of the Court, except as to Part IV-B. Scalia, J., joined in full, and Stevens, Breyer, and Sotomayor, JJ., joined, except as to Part IV-B. Breyer, J., filed an opinion concurring in part and concurring in the judgment, in which Stevens and Soto-mayor, JJ., joined, post, p. 343. Kennedy, J., filed a dissenting opinion, in which Roberts, C. J., and Ginsburg and Alito, JJ., joined, post, p. 343.\nJeffrey L. Fisher, by appointment of the Court, 558 U. S. 1108, argued the cause for petitioner. With him on the briefs were Pamela S. Karlan, Amy Howe, Kevin K. Russell, James A. Power, Jr., Marguerite Del Valle, and Thomas C. Goldstein.\nCorey L. Maze, Solicitor General of Alabama, argued the cause for respondents. With him on the brief were Troy King, Attorney General, and Beth Jackson Hughes and J. Clayton Crenshaw, Assistant Attorneys General.\nJohn H. Blume, Keir M. Weyble, Timothy K. Ford, Henry A. Martin, and Jonathan D. Hacker filed a brief for the National Association of Criminal Defense Lawyers et al. as amici curiae urging reversal.\nA brief of amici curiae urging affirmance was filed for the State of South Carolina et al. by Henry D. McMaster, Attorney General of South Carolina, John W. McIntosh, Chief Deputy Attorney General, Donald J. Zelenka, Assistant Deputy Attorney General, Melody J. Brown, Assistant Attorney General, and Dan Schweitzer, by Kevin T. Kane, Chief State\u2019s Attorney of Connecticut, and by the Attorneys General for their respective States as follows: John W. Suthers of Colorado, Joseph R. Biden III of Delaware, Bill McCollum of Florida, Lawrence G. Wasden of Idaho, Steve Six of Kansas, Jack Conway of Kentucky, James D. \u201cBuddy\u201d Caldwell of Louisiana, Jim Hood of Mississippi, Steve Bullock of Montana, Jon Bruning of Nebraska, Catherine Cortez Masto of Nevada, Gary K King of New Mexico, Wayne Stenehjem of North Dakota, W. A. Drew Edmond-son of Oklahoma, Thomas W. Corbett, Jr., of Pennsylvania, Marty J. Jackley of South Dakota, Greg Abbott of Texas, Mark L. Shurtleff of Utah, Kenneth T. Cuccinelli II of Virginia, Robert M. McKenna of Washington, and Bruce A. Salzburg of Wyoming."
+  },
+  "file_name": "0320-01",
+  "first_page_order": 370,
+  "last_page_order": 407
+}

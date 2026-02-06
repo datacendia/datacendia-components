@@ -1,0 +1,59 @@
+{
+  "id": 5981186,
+  "name": "In re Dominguez",
+  "name_abbreviation": "In re Dominguez",
+  "decision_date": "2010-11-15",
+  "docket_number": "No. 10-6501",
+  "first_page": "1043",
+  "last_page": "1043",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1043"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 87,
+    "ocr_confidence": 0.581,
+    "sha256": "ea352dde60b359afbd0ded12059aa76b789eacd0e1bc1e0e83758e0256766922",
+    "simhash": "1:3a7291bcac512c3a",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Dominguez."
+    ],
+    "opinions": [
+      {
+        "text": "Petition for writ of mandamus and/or prohibition denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6501.\nIn re Dominguez."
+  },
+  "file_name": "1043-04",
+  "first_page_order": 1065,
+  "last_page_order": 1065
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12239388,
+  "name": "Ransom v. United States",
+  "name_abbreviation": "Ransom v. United States",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-629",
+  "first_page": "1115",
+  "last_page": "1115",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1115"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.689,
+    "sha256": "5586c1f69f452f48f422a6b4c2215e385132030257cd753ba307fcff1f4ebd9c",
+    "simhash": "1:c79bd301afa7d23a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ransom v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-629.\nRansom v. United States."
+  },
+  "file_name": "1115-02",
+  "first_page_order": 1197,
+  "last_page_order": 1197
+}

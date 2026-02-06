@@ -1,0 +1,59 @@
+{
+  "id": 12223375,
+  "name": "Holmes v. United States",
+  "name_abbreviation": "Holmes v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5676",
+  "first_page": "918",
+  "last_page": "918",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 918"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.716,
+    "sha256": "95bd72e01eb47f0e509bda4ec1e51fc6057b69cec4ef1b0d7acee16378cee351",
+    "simhash": "1:0588a28b18979f02",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Holmes v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5676.\nHolmes v. United States."
+  },
+  "file_name": "0918-13",
+  "first_page_order": 1000,
+  "last_page_order": 1000
+}

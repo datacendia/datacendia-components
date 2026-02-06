@@ -1,0 +1,613 @@
+{
+  "id": 2246296,
+  "name": "Western Reserve Life Insurance Company v. Jennie Louise Davidson Meadows",
+  "name_abbreviation": "Western Reserve Life Insurance v. Meadows",
+  "decision_date": "1953-10-07",
+  "docket_number": "No. A-4140",
+  "first_page": "559",
+  "last_page": "569",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "152 Tex. 559"
+    },
+    {
+      "type": "parallel",
+      "cite": "261 S.W.2d 554"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "51 Me. 465",
+      "category": "reporters:state",
+      "reporter": "Me.",
+      "case_ids": [
+        665422
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/me/51/0465-01"
+      ]
+    },
+    {
+      "cite": "202 S.W. 951",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8263538
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw/202/0951-01"
+      ]
+    },
+    {
+      "cite": "83 Texas Crim. Rep. 292",
+      "category": "reporters:state",
+      "reporter": "Tex. Crim.",
+      "case_ids": [
+        4755730
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex-crim/83/0292-01"
+      ]
+    },
+    {
+      "cite": "136 Fed. 445",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3873500
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/136/0445-01"
+      ]
+    },
+    {
+      "cite": "74 Sup. Ct. 531",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "347 U. S. 928",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11314144,
+        11313959,
+        11314037,
+        11313816,
+        11313753,
+        11313885
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/347/0928-06",
+        "/us/347/0928-04",
+        "/us/347/0928-05",
+        "/us/347/0928-02",
+        "/us/347/0928-01",
+        "/us/347/0928-03"
+      ]
+    },
+    {
+      "cite": "95 Atl. 2d 216",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "98 Atl. 2d 134",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "373 Pa. 231",
+      "category": "reporters:state",
+      "reporter": "Pa.",
+      "case_ids": [
+        1240401
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/pa/373/0231-01"
+      ]
+    },
+    {
+      "cite": "95 Atl. 2d 202",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "213"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "378 Pa. 231",
+      "category": "reporters:state",
+      "reporter": "Pa.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "240 Iowa 665",
+      "category": "reporters:state",
+      "reporter": "Iowa",
+      "case_ids": [
+        4428589
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "280"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/iowa/240/0665-01"
+      ]
+    },
+    {
+      "cite": "58 Pac. 2d 1278",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "6 Cal. 2d 537",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2243798
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/6/0537-01"
+      ]
+    },
+    {
+      "cite": "191 S. W. 2d 764",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10203702
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/191/0764-01"
+      ]
+    },
+    {
+      "cite": "215 S. W. 2d 939",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10269507
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/215/0939-01"
+      ]
+    },
+    {
+      "cite": "91 L. Ed. 1831",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "year": 1941,
+      "opinion_index": 0
+    },
+    {
+      "cite": "67 Sup. Ct. 1202",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "year": 1941,
+      "opinion_index": 0
+    },
+    {
+      "cite": "331 U. S. 811",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6166157,
+        6166478,
+        6166356,
+        6166234,
+        6166301
+      ],
+      "year": 1941,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/331/0811-01",
+        "/us/331/0811-05",
+        "/us/331/0811-04",
+        "/us/331/0811-02",
+        "/us/331/0811-03"
+      ]
+    },
+    {
+      "cite": "44 N. E. 2d 687",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "pin_cites": [
+        {
+          "page": "688, 689"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "312 Mass. 366",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        483065
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/312/0366-01"
+      ]
+    },
+    {
+      "cite": "257 S. W. 2d 943",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10222121,
+        2246306
+      ],
+      "pin_cites": [
+        {
+          "page": "944"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/257/0943-01",
+        "/tex/152/0316-01"
+      ]
+    },
+    {
+      "cite": "152 Texas 316",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2246306
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/152/0316-01"
+      ]
+    },
+    {
+      "cite": "251 S. W. 2d 150",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2244724,
+        10192967
+      ],
+      "pin_cites": [
+        {
+          "page": "152-153"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/151/0396-01",
+        "/sw2d/251/0150-01"
+      ]
+    },
+    {
+      "cite": "151 Texas 396",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2244724
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/151/0396-01"
+      ]
+    },
+    {
+      "cite": "220 S. W. 2d 934",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10216440
+      ],
+      "pin_cites": [
+        {
+          "page": "936"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/220/0934-01"
+      ]
+    },
+    {
+      "cite": "22 U.S.C.A. \u00a7 1651",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "26 A.L.R. 2d 1378",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R. 2d",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "96 L. Ed. 1153",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "1215, 1216-1218"
+        },
+        {
+          "page": "1202-1203"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "343 U. S. 579",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11341177
+      ],
+      "weight": 4,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/343/0579-01"
+      ]
+    },
+    {
+      "cite": "153 U. S. 155",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3576400
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "676"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/153/0155-01"
+      ]
+    },
+    {
+      "cite": "11 Wall. 39",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3412861
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "72-73"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/78/0039-01"
+      ]
+    },
+    {
+      "cite": "1 L. Ed. 731",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "733-734"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "4 Dallas 37",
+      "category": "reporters:scotus_early",
+      "reporter": "Dallas",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "37 Hawaii 208",
+      "category": "reporters:state",
+      "reporter": "Haw.",
+      "case_ids": [
+        1459937
+      ],
+      "pin_cites": [
+        {
+          "page": "218"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/haw/37/0208-01"
+      ]
+    },
+    {
+      "cite": "2 Black 635",
+      "category": "reporters:scotus_early",
+      "reporter": "Black",
+      "case_ids": [
+        3465504
+      ],
+      "weight": 6,
+      "pin_cites": [
+        {
+          "page": "477"
+        },
+        {
+          "page": "476"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/67/0635-01"
+      ]
+    },
+    {
+      "cite": "28 Texas 294",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2102750
+      ],
+      "pin_cites": [
+        {
+          "page": "319"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/28/0294-01"
+      ]
+    },
+    {
+      "cite": "256 S. W. 2d 683",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "256 S. W. 2d 674",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10217923
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/256/0674-01"
+      ]
+    },
+    {
+      "cite": "51 Me. 465",
+      "category": "reporters:state",
+      "reporter": "Me.",
+      "case_ids": [
+        665422
+      ],
+      "pin_cites": [
+        {
+          "page": "470"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/me/51/0465-01"
+      ]
+    },
+    {
+      "cite": "202 S.W. 951",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8263538
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/202/0951-01"
+      ]
+    },
+    {
+      "cite": "83 Texas Crim. Rep. 292",
+      "category": "reporters:state",
+      "reporter": "Tex. Crim.",
+      "case_ids": [
+        4755730
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex-crim/83/0292-01"
+      ]
+    },
+    {
+      "cite": "136 Fed. 445",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3873500
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/136/0445-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1086,
+    "char_count": 23211,
+    "ocr_confidence": 0.589,
+    "pagerank": {
+      "raw": 1.0524736384430609e-06,
+      "percentile": 0.9842992776798957
+    },
+    "sha256": "b4e38bbfd55c3b486135e076e63e82712ee7aac4827269fe21ceacb320b60c67",
+    "simhash": "1:a9ec645e20ac6fd3",
+    "word_count": 4062
+  },
+  "last_updated": "2024-02-27T22:50:49.138434+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Western Reserve Life Insurance Company v. Jennie Louise Davidson Meadows."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Smedley\ndelivered the opinion of the Court.\nThe controlling question is: Did the accidental death of the insured on August 23, 1951, occur \u201cin time of war\u201d.\nPetitioner Western Reserve Life Insurance Company on October 6, 1932, issued to Benjamin Earle Meadows five policies, each insuring his life for $1,000.00 and naming as beneficiary his wife, respondent Jennie Louise Davidson Meadows. Attached to each policy as a part of it was a supplemental contract providing for payment to the beneficiary of the additional sum of $1,000.00 in the event of death of the insured by accidental means. The supplemental contract contains the following: \u201cThis Accident Death Benefit shall be void if the Insured shall be in military, naval, or allied service in time of war at the date of the accident.\u201d\nThe insured at the time of the accident was a Lieutenant Colonel in the Army Engineers Corps of the United States, was in the military service, and was traveling as a passenger in a United States Army plane under official orders and bound for Fairbanks, Alaska, where he was to open bids for the construction of a United States Army Air Field near Fairbanks. He was instantly killed when the plane crashed and burned in Alaska.\nPetitioner, the insurer, admitted liability for and paid the face amount of the policies for life insurance, but denied liability for the additional accidental death benefits provided for in the supplemental contracts. In this suit, tried without a jury, judgment was rendered by the District Court in favor of respondent against petitioner for $5,000.00, the total amount of the accidental death benefits, together with penalties and attorney\u2019s fees. The Court of Civil Appeals affirmed that judgment. 256 S. W. 2d 674.\nIn a thorough opinion, and after reviewing many authorities, the Court of Civil Appeals expressed the conclusion that the insured\u2019s death on August 23, 1951, \u201cdid not occur in \u2018time of war\u2019 under the Constitution and laws of the United States, and under the terms of the exclusion clause of the insurance policies.\u201d 256 S. W. 2d 683. The opinion, as appears from its reasoning and quotations, is based on the belief that the conflict being waged in Korea at the time of the insured\u2019s death was not \u201cwar\u201d in the \u201cconstitutional\u201d or \u201clegal\u201d sense of that term, because Congress had not, as it never has, formally declared war against North Korea. With the conclusion reached by the Court of Civil Appeals we cannot agree.\nIt is true that the Constitution, by Section 8 of Article I, gives to Congress \u201cPower *** to declare War\u201d, and that Congress has not in so many words by formal Act declared war against North Korea or against Communist China. There are, however, in many of the decisions, some of which are cited in the opinion of the Court of Civil Appeals and relied upon by respondent, statements to the effect that an Act of Congress which recognizes the existence of war or which is passed in aid or furtherance of existing war is in effect and meaning a declaration of war. For example, in Bishop v. Jones and Petty, 28 Texas 294, 319, it is said: \u201cBut still there can be no war by its government, of which the court can take judicial knowledge, until there has been some act or declaration creating or recognizing its existence by the department of the government clothed with the war-making power.\u201d (Emphasis added.)\nThe opinion of Justice Grier in the Prize cases, (The Brig Amy Warwick, 67 U.S.) 2 Black 635, 17 L. Ed. 459, 477, involving the question whether a war de facto between the states existed in 1861 prior to the formal declaration of war by Congress, contains the following: \u201cIf it were necessary to the technical existence of a war that it should have legislative sanction, we find it in almost every Act passed at the extraordinary session of the Legislature of 1861, which was wholly employed in enacting laws to enable the government to prosecute the war with vigor and efficiency.\u201d\nThe opinion in Pang v. Sun Assurance Co. of Canada, 37 Hawaii 208, 218, after referring to several decisions by United States courts, says: \u201cThose cases are authority for the admitted proposition that no \u2018formal\u2019 declaration is necessary to the creation of a \u2018state of war\u2019, and that by making payment to the officers and men engaged on a war basis and other informal acts the Congress recognizes the existence of a \u2018condition\u2019 of war.\u201d See also Hamilton v. McClaughry, (U. S. Cir. Ct.) 136 Federal 445, 451; Bas v. Tingy, 4 Dallas 37, 1 L. Ed. 731, 733-734; Virginia v. West Virginia, 11 Wall. 39, 20 L. Ed. 67, 72-73; Wharton v. Wise, 153 U. S. 155, 38 L. Ed. 669, 676.\nWhen the United Nations, after the invasion of South Korea in 1950, called upon member nations to render assistance to repel the invasion, the United States promptly furnished its vigorous support, and combatant activities to which the armed forces of the United States were committed commenced in Korea on or about June 25, 1950, and continued without interruption to and including the date of the death of the insured, Benjamin Earle Meadows. Army, Navy, Marine Corps and Air Force personnel of the United States in great numbers participated in combat with the enemy forces of North Korea, and later with those also of Communist China. Congressional support of the action in Korea, which we know was in fact war on a large scale, was necessary, and was freely and generously given in many Acts of Congress by which provision was made for support of the armed forces employed, for increased military man power and equipment, and for economic stabilization. Many of those Acts of Congress, including vast appropriations for the support of the armed forces in Korea, are referred to in the dissenting opinion of Chief Justice Vinson in the steel mill seizure case, Youngstown Sheet & Tube Co. v. Sawyer, 343 U. S. 579, 96 L. Ed. 1153, 1215, 1216-1218, 72 S. Ct. 863, 26 A.L.R. 2d 1378. Reference is there made to the one hundred thirty billion dollars appropriated by Congress for our armed defense and for military assistance to our Allies since the June, 1950, attack in Korea, to the Mutual Security Act of 1951, 22 U.S.C.A. \u00a7 1651 et seq., to the grant by Congress of authority to draft men into the armed forces, to the increase in appropriations to the Department of Defense, which had averaged less than thirteen billion dollars per year for the three years before the attack in Korea, to forty-eight billion dollars for the year 1951. There were other Acts of Congress recognizing the existence of war in Korea and enabling the government to prosecute it with vigor and efficiency, such as the Service Men\u2019s Indemnity Act, 38 U. S. C. A. \u00a7 851, a new GI Bill of Rights, 38 U. S. C. A. \u00a7 694, the 1950 Amendment to the Revenue Act, 26 U. S. C. A. and again more appropriations. Those Acts were in acknowledgment of the fact of war in which the Nation was engaged. And to use the language of Justice Grier in his opinion in the Prize cases above quoted, if it is necessary to the technical existence of war that it have legislative sanction, the Acts of Congress above referred to gave that sanction.\nDecision of this case could well be placed on the ground that if the word \u201cwar\u201d used in the policies of insurance was intended to mean \u201ctechnical war\u201d, or \u201clegal war\u201d, that is, war declared by Congress, the Acts of Congress prior to the death of the insured should be considered in effect to amount to a declaration of war. We prefer, however, to meet squarely the very question presented, which is whether the word \u201cwar\u201d used in the phrase \u201cin time of war\u201d in the policies means war in fact or means war declared by Congress.\nIt is the settled law in this state that contracts of insurance in their construction are governed by the same rules as other contracts, and that terms used in them are to be given their plain, ordinary and generally accepted meaning unless the instrument itself shows them to have been used in a technical or different sense. Hall v. Mutual Benefit Health & Accident Ass\u2019n., Texas Civ. App., 220 S. W. 2d 934, 936, application for writ of error refused; Aetna Life Insurance Co. v. Reed, 151 Texas 396, 251 S. W. 2d 150, 152-153; National Security Life & Casualty Co. v. Davis, 152 Texas 316, 257 S. W. 2d 943, 944.\nUndoubtedly there may be a war or a state of war without a declaration of war by the department of government clothed with the war-making power. Justice Jackson, in his concurring opinion in the steel mills seizure case said: \u201cOf course a state of war may in fact exist without a formal declaration.\u201d Youngstown Sheet & Tube Co. v. Sawyer, 343 U. S. 579, 96 L. Ed. 1153, 1202-1203, 72 Sup. Ct. 863, 26 A.L.R. 2d 1378; Edwin Borchard, discussing under the title \u201cWhen Did the War Begin\u201d, the decision of the United States Circuit Court of Appeals in New York Life Insurance Company v. Bennion, 158 Federal 2d 260, and other decisions, said: \u201cIt is common knowledge that war may exist without a declaration thereof.\u201d And on the authorities reviewed he expressed this conclusion: \u201cIt thus appears that war may be deduced from the circumstances as a fact and may exist independently of a declaration by Congress.\u201d 47 Columbia Law Review, pp. 742, 745, 748.\nMany definitions of war and many decisions reflect the common understanding of war as war in fact. The opinion in the Prize cases, (The Amy Warrick, 67 U.S.) 2 Black 635, 17 L. Ed. 459, 476, quotes with approval a definition of war as \u201cThat state in which a nation prosecutes its right by force.\u201d In Stankus v. New York Life Insurance Co., 312 Mass. 366, 44 N. E. 2d 687, 688, 689, the court said, citing authorities: \u201cA conflict between the armed forces of two nations under authority of their respective governments would commonly be regarded as war.\u201d In the same opinion the court said that: \u201cThe existence of war is not dependent upon a formal declaration of war.\u201d An early opinion by the Supreme Court of Maine contains the following :\n\u201cBut every forcible contest between two governments, de facto, or de jure, is war. War is an existing fact, and not a legislative decree. Congress alone may have power to \u2018declare\u2019 it beforehand, and thus cause or commence it. But it may be initiated by other nations, or by traitors; and then it exists, whether there is any declaration of it or not. It may be prosecuted without any declaration; or Congress may, as in the Mexican war, declare its previous existence. In either case it is the fact that makes \u2018enemies,\u2019 and not any legislative Act.\u201d Dole v. Merchants\u2019 Mutual Marine Ins. Co., 51 Me. 465, 470.\nAmerican Jurisprudence thus defines war: \u201cWar is an armed struggle or contest by force carried on for any purpose between two or more nations or states exercising at least de facto authority over persons within a given terrtiory and commanding an army prepared to observe the ordinary laws of war.\u201d 56 Am. Jur., p. 133, Sec. 2. Black\u2019s Law Dictionary definition is: \u201cAn armed conquest between nations\u201d; Webster\u2019s, \u201cThe state or fact of exerting violence or force against another, now only against a state or other politically organized body.\u201d\nAmong cases holding that actual armed hostilities without a declaration mean \u201cwar\u201d are the following: Bas v. Tingy, 4 Dallas 37, 1 L. Ed. 731 (hostilities on the high seas between public armed ships of the United States and armed vessels of France in 1799) ; the Prize cases, (The Amy Warrick, 67 U.S.) 2 Black 635, 17 L. Ed. 459 (capture by public vessels of the United States of ships attempting to run blockade of ports of Southern States established by proclamation of the President of the United States in April, 1861); Arce v. State, 83 Texas Cr. Rep. 292, 202 S. W. 951; L.R.A. 1918E, 358 (invasion of Mexico by United States troops under General Pershing and attack by Mexican troops on a troop of United States cavalry in Texas below Laredo) ; Hamilton v. McClaughry, (U.S. Cir. Ct.) 136 Fed. 445 (occupation of Chinese territory by United States military forces and conflicts between it and armed Chinese troops in the \u201cBoxer Uprising\u201d in 1900) ; New York Life Insurance Co. v. Bennion (U.S. Cir. Ct. App.) 158 Fed. 2d 260, certiorari denied, 331 U. S. 811, 67 Sup. Ct. 1202, 91 L. Ed. 1831 (attack by Japanese planes on Pearl Harbor and resistance by United States armed forces on December 7, 1941).\nDecisions involving the question whether and when war has ended are controlled by the same principle, that is, that war exists during the period of actual hostilities and ends with the cessation of those hostilities, even though there has been no treaty of peace or no declaration, proclamation or other official act announcing the termination of the existence of a state of war. In those cases the word \u201cwar\u201d is considered as used in the practical and realistic sense in which it is commonly used and understood rather than in a technical or formal sense. See National Life & Accident Ins. Co. v. Leverett, 215 S. W. 2d 939; Lincoln v. Harvey, 191 S. W. 2d 764; New York Life Insurance Co. v. Durham, (U.S. Cir. Ct. App.) 166 Fed. 2d 874; Kaiser v. Hopkins, 6 Cal. 2d 537, 58 Pac. 2d 1278; Darnall v. Day, 240 Iowa 665, 37 N. W. 2d 277, 280. In the case last cited the court said: \"War, in the practical and realistic sense in which it is commonly used, refers to the period of hostilities and not to a technical state of war which may exist after the fighting has ended.\u201d\nIn view of the definitions of \u201cwar\u201d above quoted, the decisions mentioned, and the facts about the Korean war set out in the stipulation of the parties and the facts of general knowledge, we are convinced that the accidental death of the insured on August 23, 1951, occurred \u201cin time of war\u201d. We mention a few of the facts. It is stipulated that \u201ccombatant activities to which United States Personnel were committed commenced in Korea on or about June 25, 1950, and that said combatant activities have continued without interruption to and including the date of the death of Benjamin Earle Meadows, and that the United States Personnel battle casualties in the Korean area, based on notification to next of kin cumulated for the period through midnight, September 7, 1951\u201d were a total of 82,362. The tabulation in the stipulation shows that of the total casualties up to that time there were 13,822 deaths, 11,495 of them being in the Army and the other more than 2,000 being in the Marine Corps, the Air Force and the Navy.\nWe know, as is generally known, that the armed forces of the United States, including all divisions of the service, were engaged in warfare with the North Koreans for more than a year prior to the insured\u2019s death in August, 1951, and that after November, 1950, they were engaged in combat also with the Communist Chinese; that many thousands of soldiers of the United States Army fought up and down the Korean peninsula during that period; that the line of battle shifted to the extreme southeast corner of Korea in September, 1950, and then into North Korea, approaching the north boundary on the Yalu River in November, 1950, and then to the south almost back to the 3.8th parallel in June, 1951; and that during that period powerful units of the United States Navy patrolled and bombarded the coast of North Korea and many hundreds of planes of the United States Air Force gave support to the Army and attacked enemy planes and supply lines.\nA concurring opinion in Beley v. Pennsylvania Mutual Life Insurance Co., 378 Pa. 231, 95 Atl. 2d 202, 213, by Justice Musmanno, although he joined in the judgment rendered by the majority of four, contains the following significant statements:\n\u201cIn discussing the principles of law involved in this case, we must assert at once that to deny that the Korean military action is not war in its popularly accepted meaning is to deny the evidence of one\u2019s senses. Courts normally take judicial notice of whatever is unquestioningly accepted by informed society as fact. A judge does not ask in court for proof that ice forms at the North Pole or that the World Series refers to a contest between baseball teams. Courts know that in Korea, armies are pitted against each other utilizing every device known to modern warfare in the effort and determination to exterminate each other. We know this to be true because every medium of communication extant informs us that it is true. There is not one voice, one printed word, or one picture in the newspapers, radio broadcasts and television images which present themselves before our eyes or appeal to our ears that bespeaks anything to the contrary. In addition, judges have physically seen soldiers who have returned from Korea and have witnessed the evidence of their contact with forces which have inflicted wounds peculiarly the result of gunfire and cannon fire, the trademark of war.\u201d\nWe are unwilling in deciding this case to shut our eyes to what everyone knows, that there has been and was when the insured was killed, actually and in reality a war in Korea in which the United States has been seriously engaged. The Court should not \u201caffect a technical ignorance of the existence\u201d of that war. The same view is expressed in the opinion of the United States Circuit Court of Appeals in New York Life Insurance Company v. Bennion:\n\u201cWhen one sovereign nation attacks another with premeditated and deliberate intent to wage war against it, and that nation resists the attacks with all the force at its command, we have war in the grim sense of reality. It is war in the only sense that men know and understand it. Mankind goes no further in his definitive search \u2014 he does not stand on ceremony or wait for technical niceties. To say that courts must shut their eyes to realities and wait for formalities, is to cut off the power to reason with concrete facts. We cannot believe that the courts are deprived of the power to deal with this vital question in a practical and realistic sense.\u201d 158 Fed. 2d 260, 264.\nThe decision of the Court of Civil Appeals in this cause is supported by several cases cited and discussed in its opinion. Some of those cases may be distinguished from the instant case. Some hold that no war existed under the facts because there was attack but no resistance at the very time; in others the word \u201cwar\u201d used in the contract was considered to have been used in a \u201ctechnical\u201d or \u201clegal\u201d sense.\nBeley v. Pennsylvania Mutual Life Insurance Company, 373 Pa. 231, 95 Atl. 2d 202, falls in the class last mentioned. The basis of the opinion holding that the insured, who was killed in battle of Korea on March 7, 1951, was not engaged in military service \u201cin the time of war\u201d is that because a policy of life insurance is highly technical the word \u201cwar\u201d in the policy is intended to be used in its technical or legal sense and means a declared war. It is apparent from the opinion, and especially from the quotation which has been set out above from the concurring opinion by Justice Musmanno, that the decision doubtless would have been different if the Court had given the words used in the policy, as they are given in this state, their ordinary and generally understood meaning. The decision in the Beley case was by a majority of four to two, and in our opinion the dissenting opinions are more convincing and are more strongly supported by authority than are the opinions written for the majority.\nA very recent opinion by a Superior Court of New Jersey, Stanberry v. Aetna Life Insurance Company, 26 N. J. Superior Ct., 98 Atl. 2d 134, holding exactly contrary to the decision of the Pennsylvania court in the Beley case, criticizing that decision and declining to follow it, points out that the Pennsylvania court gave a \u201clegalistic, technical construction\u201d of the word \u201cwar\u201d, whereas the New Jersey courts have given the word a \u201crealistic interpretation when used in private contracts or documents.\u201d\nIn a recent well supported opinion, another trial court, the United States District Court of the Southern District of California, held that there could be no recovery of double indemnity in an action on a life insurance policy which provided for the payment of double indemnity in the event of death of the insured by accidental means, except in the event of the death of the insured while \u201cin the military, naval or air forces of any country at war\u201d. The insured, in the military service of the United States, was killed by enemy small arms fire in Korea on August 31, 1951. Weissman v. Metropolitan Life Insurance Co., 112 Fed. Supp. 420, 421.\nThe opinion of the Court of Civil Appeals herein in its approval of the Beley case raises the question presented in that case as supporting its decision, how can it be known when a war begins unless there is a formal declaration of war? One of the opinions of the Court in the Beley case contains the following: \u201cWould the appellant insurance company argue that the military action became war when the casualties reached a certain figure, say, 5,000 or 10,000? Would it argue that the action certainly was war when the casualties amounted to 50,000?\u201d 95 Atl. 2d 216. We are not concerned here with the exact time when the Korean war began. It is enough for us to know that war on a large scale had been waged for a long time in Korea and was still being waged when the insured met accidental death.\nIn summary: It is, as has been said, the settled law in this state that, unless a contrary intention is shown by the contract, the terms used in policies of insurance are to be given their plain, ordinary and generally accepted meaning. It is clear that nothing in the contract of insurance involved herein suggests that the word \u201cwar\u201d is used in its \u201ctechnical\u201d or \u201clegal\u201d sense. It is clear that the plain, ordinary and generally accepted meaning of the word \u201cwar\u201d is war in fact. It is clear that there was war in fact in Korea when the insured was killed and that he was killed \u201cin time of war.\u201d It follows that there can be no recovery under the accidental death provisions of the policies.\nThe judgments of the District. Court and Court of Civil Appeals are reversed and judgment is here rendered that respondent take nothing by her suit.\nOpinion delivered October 7, 1953.\nRehearing overruled November 11, 1953.\nCertiorari to U. S. Supreme Court denied, 347 U. S. 928, 74 Sup. Ct. 531..",
+        "type": "majority",
+        "author": "Mr. Justice Smedley"
+      }
+    ],
+    "attorneys": [
+      "J. W. Wheeler, of Austin, and Webster Atwell, of Dallas, for petitioner.",
+      "Alexander & Martin and Aubfey G. Alexander, of Fort Worth, for Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "Western Reserve Life Insurance Company v. Jennie Louise Davidson Meadows.\nNo. A-4140.\nDecided October 7,1953.\nRehearing overruled November 11,1953.\n(261 S.W. 2d Series 554)\nJ. W. Wheeler, of Austin, and Webster Atwell, of Dallas, for petitioner.\nIt was error for the Court of Civil Appeals to hold that at the time of his death insured was not engaged in military service in time of war, under the exception of the accidental death benefits of the policies, and that the term \u201cwar\u201d as used in the double indemnity contracts was required to be construed in its strictest sense of a Congressionally declared war rather than as that word is commonly used and understood. Hamilton v. McClaughry, 136 Fed. 445; Arce v. State, 83 Texas Crim. Rep. 292, 202 S.W. 951, L.R.A. 1918E, 358; Dole v. Merchant\u2019s Marine Ins. Co., 51 Me. 465.\nAlexander & Martin and Aubfey G. Alexander, of Fort Worth, for Respondent."
+  },
+  "file_name": "0559-01",
+  "first_page_order": 575,
+  "last_page_order": 585
+}

@@ -1,0 +1,59 @@
+{
+  "id": 6018907,
+  "name": "Howard v. United States",
+  "name_abbreviation": "Howard v. United States",
+  "decision_date": "2011-03-07",
+  "docket_number": "No. 10-8828",
+  "first_page": "1278",
+  "last_page": "1278",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1278"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.51,
+    "sha256": "aa5c1db296fe2ad4362b0c9793746a95bb76b1ceeed42ceba9bd815de4cd344f",
+    "simhash": "1:b79a760f6a35093c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Howard v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8828.\nHoward v. United States."
+  },
+  "file_name": "1278-08",
+  "first_page_order": 1300,
+  "last_page_order": 1300
+}

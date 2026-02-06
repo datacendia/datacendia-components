@@ -1,0 +1,59 @@
+{
+  "id": 5989963,
+  "name": "In re Discipline of Callihan",
+  "name_abbreviation": "In re Discipline of Callihan",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. D-2522",
+  "first_page": "811",
+  "last_page": "812",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 811"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 40,
+    "char_count": 291,
+    "ocr_confidence": 0.536,
+    "sha256": "2f3baa4165bfe7ed33ae12d25c1e3424d91cacfc2a15689a207b2038f62730d0",
+    "simhash": "1:778a37b33feab7ee",
+    "word_count": 52
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of Callihan."
+    ],
+    "opinions": [
+      {
+        "text": "Herbert Aldon Callihan, Jr., of Bethesda, Md., is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2522.\nIn re Discipline of Callihan."
+  },
+  "file_name": "0811-08",
+  "first_page_order": 833,
+  "last_page_order": 834
+}

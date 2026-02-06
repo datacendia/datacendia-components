@@ -1,0 +1,59 @@
+{
+  "id": 6000046,
+  "name": "Keith v. Washington",
+  "name_abbreviation": "Keith v. Washington",
+  "decision_date": "2011-01-24",
+  "docket_number": "No. 10-7688",
+  "first_page": "1204",
+  "last_page": "1204",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1204"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 70,
+    "ocr_confidence": 0.619,
+    "sha256": "6cbd96a6c352495555113e58eff83534e5b2dadcac2a701e3228e88091b2e3a4",
+    "simhash": "1:64418e33044be7be",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Keith v. Washington."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7688.\nKeith v. Washington."
+  },
+  "file_name": "1204-11",
+  "first_page_order": 1226,
+  "last_page_order": 1226
+}

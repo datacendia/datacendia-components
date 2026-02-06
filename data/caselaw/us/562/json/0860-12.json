@@ -1,0 +1,59 @@
+{
+  "id": 6028919,
+  "name": "Apelt v. Arizona",
+  "name_abbreviation": "Apelt v. Arizona",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11058",
+  "first_page": "860",
+  "last_page": "860",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 860"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 86,
+    "ocr_confidence": 0.565,
+    "sha256": "89fd69eea79ca91477c8a6903dae4b6aa651ed7d7f294b33073d4d3697be9a0b",
+    "simhash": "1:031394045ef9c2e9",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Apelt v. Arizona."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. Ariz., County of Pinal. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11058.\nApelt v. Arizona."
+  },
+  "file_name": "0860-12",
+  "first_page_order": 882,
+  "last_page_order": 882
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5922920,
+  "name": "Cogswell v. California",
+  "name_abbreviation": "Cogswell v. California",
+  "decision_date": "2011-06-06",
+  "docket_number": "No. 10-9189",
+  "first_page": "1035",
+  "last_page": "1035",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1035"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 95,
+    "ocr_confidence": 0.605,
+    "sha256": "b5dc0890d95ca08a80bfe6701faa18d5c2f0a34d6e4ef2c8a6893a1dad959e1a",
+    "simhash": "1:05c10c840a170925",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cogswell v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 4th App. Dist., Div. 1. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9189.\nCogswell v. California."
+  },
+  "file_name": "1035-08",
+  "first_page_order": 1061,
+  "last_page_order": 1061
+}

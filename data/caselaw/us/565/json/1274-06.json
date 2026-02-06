@@ -1,0 +1,59 @@
+{
+  "id": 12252978,
+  "name": "Rogers v. United States",
+  "name_abbreviation": "Rogers v. United States",
+  "decision_date": "2012-03-19",
+  "docket_number": "No. 11-8895",
+  "first_page": "1274",
+  "last_page": "1274",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1274"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.706,
+    "sha256": "ea71c8c649c509c62c59fa74b0232b76392265cbe85a0a1f1fd1c0b298803ff3",
+    "simhash": "1:97eace5bcf8db10f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rogers v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8895.\nRogers v. United States."
+  },
+  "file_name": "1274-06",
+  "first_page_order": 1356,
+  "last_page_order": 1356
+}

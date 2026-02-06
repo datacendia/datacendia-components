@@ -1,0 +1,59 @@
+{
+  "id": 12431809,
+  "name": "In re Johnson",
+  "name_abbreviation": "In re Johnson",
+  "decision_date": "2013-02-25",
+  "docket_number": "No. 12-8540",
+  "first_page": "1191",
+  "last_page": "1191",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1191"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 26,
+    "char_count": 174,
+    "ocr_confidence": 0.612,
+    "sha256": "a8fd529b94b6d0a4cab4cd6731efa961a1ac10f209e71b3b3a1a1862bca713ad",
+    "simhash": "1:0cc17c4d87718710",
+    "word_count": 29
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Johnson."
+    ],
+    "opinions": [
+      {
+        "text": "Motion of petitioner for leave to proceed in forma pauperis denied, and petition for writ of habeas corpus dismissed. See this Court\u2019s Rule 39.8.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8540.\nIn re Johnson."
+  },
+  "file_name": "1191-05",
+  "first_page_order": 1267,
+  "last_page_order": 1267
+}

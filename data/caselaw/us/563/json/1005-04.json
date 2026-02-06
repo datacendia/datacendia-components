@@ -1,0 +1,98 @@
+{
+  "id": 4223449,
+  "name": "In re Disbarment of Chasnoff",
+  "name_abbreviation": "In re Disbarment of Chasnoff",
+  "decision_date": "2011-05-23",
+  "docket_number": "No. D-2523",
+  "first_page": "1005",
+  "last_page": "1005",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1005"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "562 U. S. 812",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12437760,
+        12437761,
+        12437762,
+        6023877,
+        5972486,
+        5977709,
+        5935826,
+        6022451,
+        5950330,
+        5994971,
+        12437756,
+        12437757,
+        12437758,
+        12437759
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/178/0267-06",
+        "/l-ed-2d/178/0268-01",
+        "/l-ed-2d/178/0268-02",
+        "/us/562/0812-01",
+        "/us/562/0812-02",
+        "/us/562/0812-05",
+        "/us/562/0812-04",
+        "/us/562/0812-03",
+        "/us/562/0812-07",
+        "/us/562/0812-06",
+        "/l-ed-2d/178/0267-02",
+        "/l-ed-2d/178/0267-03",
+        "/l-ed-2d/178/0267-04",
+        "/l-ed-2d/178/0267-05"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 109,
+    "ocr_confidence": 0.676,
+    "sha256": "17f1c2eae80bd495ede95fb0adacb16a31f7e82a6411e82783aacf8de04ef4c9",
+    "simhash": "1:70ac998a8bc4b2a4",
+    "word_count": 18
+  },
+  "last_updated": "2024-02-27T23:44:09.189648+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Chasnoff."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered. [For earlier order herein, see 562 U. S. 812.]",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2523.\nIn re Disbarment of Chasnoff."
+  },
+  "file_name": "1005-04",
+  "first_page_order": 1031,
+  "last_page_order": 1031
+}

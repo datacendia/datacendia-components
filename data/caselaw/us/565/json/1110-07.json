@@ -1,0 +1,59 @@
+{
+  "id": 12238906,
+  "name": "Stanford v. United States",
+  "name_abbreviation": "Stanford v. United States",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 10-11287",
+  "first_page": "1110",
+  "last_page": "1110",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1110"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.736,
+    "sha256": "4c7b32f8961f59e168d0f09ceaa5f2f804cdb6fb9b53221ca467022cb23691e3",
+    "simhash": "1:97b9d3028919556f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Stanford v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-11287.\nStanford v. United States."
+  },
+  "file_name": "1110-07",
+  "first_page_order": 1192,
+  "last_page_order": 1192
+}

@@ -1,0 +1,707 @@
+{
+  "id": 2249278,
+  "name": "Lydia Grabow Haines et al v. William J. McLean et al",
+  "name_abbreviation": "Haines v. McLean",
+  "decision_date": "1955-03-09",
+  "docket_number": "No. A-4689",
+  "first_page": "272",
+  "last_page": "288",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "154 Tex. 272"
+    },
+    {
+      "type": "parallel",
+      "cite": "276 S.W.2d 777"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "206 S.W. 2d 217",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        8716289,
+        10191743
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/146/0302-01",
+        "/sw2d/206/0217-01"
+      ]
+    },
+    {
+      "cite": "146 Texas 302",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        8716289
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/146/0302-01"
+      ]
+    },
+    {
+      "cite": "237 S.W. 2d 286",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2328423,
+        10195367
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/150/0075-01",
+        "/sw2d/237/0286-01"
+      ]
+    },
+    {
+      "cite": "150 Texas 75",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2328423
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/150/0075-01"
+      ]
+    },
+    {
+      "cite": "221 S.W. 920",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        2286452,
+        10322086
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/110/0513-01",
+        "/sw/221/0920-01"
+      ]
+    },
+    {
+      "cite": "121 Texas 427",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2305647
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/121/0427-01"
+      ]
+    },
+    {
+      "cite": "156 S.W. 2d 963",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2313720,
+        10225458
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/138/0084-01",
+        "/sw2d/156/0963-01"
+      ]
+    },
+    {
+      "cite": "138 Texas 84",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2313720
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/138/0084-01"
+      ]
+    },
+    {
+      "cite": "71 S.W. 2d 867",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10254456,
+        2302405
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/71/0867-01",
+        "/tex/123/0383-01"
+      ]
+    },
+    {
+      "cite": "123 Texas 383",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2302405
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/123/0383-01"
+      ]
+    },
+    {
+      "cite": "83 S.W. 2d 318",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10239051,
+        2298364
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/83/0318-01",
+        "/tex/125/0364-01"
+      ]
+    },
+    {
+      "cite": "125 Texas 364",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2298364
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/125/0364-01"
+      ]
+    },
+    {
+      "cite": "76 S.W. 2d 471",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10248944,
+        2300404
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/76/0471-01",
+        "/tex/124/0190-01"
+      ]
+    },
+    {
+      "cite": "124 Texas 190",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2300404
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/124/0190-01"
+      ]
+    },
+    {
+      "cite": "163 S.W. 2d 854",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10223688
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/163/0854-01"
+      ]
+    },
+    {
+      "cite": "45 S.W. 2d 198",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10232871
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/45/0198-01"
+      ]
+    },
+    {
+      "cite": "252 S.W. 2d 451",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10210304,
+        2244744
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/252/0451-01",
+        "/tex/151/0526-01"
+      ]
+    },
+    {
+      "cite": "151 Texas 526",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2244744
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/151/0526-01"
+      ]
+    },
+    {
+      "cite": "13 S.W. 453",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "77 Texas 18",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2223145
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/77/0018-01"
+      ]
+    },
+    {
+      "cite": "34 S.W. 734",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "pin_cites": [
+        {
+          "page": "736"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "89 Texas 294",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2243205
+      ],
+      "pin_cites": [
+        {
+          "page": "301"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/89/0294-01"
+      ]
+    },
+    {
+      "cite": "126 S.W. 2d 953",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10251258
+      ],
+      "pin_cites": [
+        {
+          "page": "964"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/126/0953-01"
+      ]
+    },
+    {
+      "cite": "133 Texas 202",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2321119
+      ],
+      "pin_cites": [
+        {
+          "page": "221"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/133/0202-01"
+      ]
+    },
+    {
+      "cite": "89 S.W. 552",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "88 S.W. 542",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "pin_cites": [
+        {
+          "page": "553"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "99 Texas 172",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2267681
+      ],
+      "pin_cites": [
+        {
+          "page": "198"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/99/0172-01"
+      ]
+    },
+    {
+      "cite": "231 S.W. 1088",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8272181
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/231/1088-01"
+      ]
+    },
+    {
+      "cite": "109 S.W. 2d 444",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "194 Ark. 735",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        8724389
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/194/0735-01"
+      ]
+    },
+    {
+      "cite": "299 Pac. 850",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "149 Okla. 262",
+      "category": "reporters:state",
+      "reporter": "Okla.",
+      "case_ids": [
+        8886930
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/okla/149/0262-01"
+      ]
+    },
+    {
+      "cite": "143 S.W. 2d 912",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2317762,
+        10228174
+      ],
+      "pin_cites": [
+        {
+          "page": "915"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/135/0339-01",
+        "/sw2d/143/0912-01"
+      ]
+    },
+    {
+      "cite": "135 Texas 339",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2317762
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/135/0339-01"
+      ]
+    },
+    {
+      "cite": "293 S.W. 160",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10291545
+      ],
+      "pin_cites": [
+        {
+          "page": "162"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/293/0160-01"
+      ]
+    },
+    {
+      "cite": "156 S.W. 196",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8281870
+      ],
+      "pin_cites": [
+        {
+          "page": "197"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/156/0196-01"
+      ]
+    },
+    {
+      "cite": "106 Texas 56",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2253127
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/106/0056-01"
+      ]
+    },
+    {
+      "cite": "100 F. 2d 778",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        982966
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "779"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/100/0778-01"
+      ]
+    },
+    {
+      "cite": "146 S.W. 2d 977",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10227443,
+        2316486
+      ],
+      "pin_cites": [
+        {
+          "page": "980"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/146/0977-01",
+        "/tex/136/0149-01"
+      ]
+    },
+    {
+      "cite": "136 Texas 149",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2316486
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/136/0149-01"
+      ]
+    },
+    {
+      "cite": "146 S.W. 2d 208",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10220553
+      ],
+      "pin_cites": [
+        {
+          "page": "211"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/146/0208-01"
+      ]
+    },
+    {
+      "cite": "143 S.W. 2d 361",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2317788,
+        10227036
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/135/0428-01",
+        "/sw2d/143/0361-01"
+      ]
+    },
+    {
+      "cite": "135 Texas 428",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2317788
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/135/0428-01"
+      ]
+    },
+    {
+      "cite": "85 A.L.R. 391",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "50 S.W. 2d 1080",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2305647,
+        10263103
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/121/0427-01",
+        "/sw2d/50/1080-01"
+      ]
+    },
+    {
+      "cite": "267 S.W. 2d 158",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10186664
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/267/0158-01"
+      ]
+    },
+    {
+      "cite": "121 Texas 427",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2305647
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/121/0427-01"
+      ]
+    },
+    {
+      "cite": "71 S.W. 2d 867",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10254456,
+        2302405
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/71/0867-01",
+        "/tex/123/0383-01"
+      ]
+    },
+    {
+      "cite": "123 Texas 383",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2302405
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/123/0383-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1397,
+    "char_count": 37285,
+    "ocr_confidence": 0.628,
+    "pagerank": {
+      "raw": 4.456502484273316e-07,
+      "percentile": 0.9215946566768951
+    },
+    "sha256": "c7459332aa0f01759fade8e73d5423e252017581b50b453ab7ea37e7b8d6ef55",
+    "simhash": "1:c39826d9a452898e",
+    "word_count": 6501
+  },
+  "last_updated": "2024-02-27T19:00:26.686432+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lydia Grabow Haines et al v. William J. McLean et al"
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Garwood\ndelivered the opinion of the Court.\nIn this three-cornered contest over the mineral rights underlying some thirteen acres of separate but adjoining railroad and highway easements in Scurry County, we granted writ of error to all parties. The following quite rough sketch affords a basis for further explanation of the facts:\nThe rights of way in question are the eastwardly three of the four indicated, being in order from east to west and with respective widths, (a) a county road of sixty feet, (b) the Santa Fe Railroad of one hundred feet and (c) the old Roscoe, Snyder & Pacific Railroad of one hundred feet. The easement use of (c) has now been abandoned, but this fact does not affect the legal issues in the case.\nThe rectangle W-X-Y-Z covers about 259 acres, including the 13 easement acres in dispute, and is the northerly portion of survey or Section 179, of 640 acres, out of Block 3, H. & G. N. Ry. Co., its dimensions being approximately 777 varas north and south and 1900 varas east and west. The balance, or southerly part, of the section, not shown on the sketch is likewise crossed by the easements. The indicated fourth or western strip (d) is the relatively new U.S. Highway No. 84. The minerals underlying this highway are not sued for, nor is the State nor Scurry County a party to the suit, although, as hereinafter explained the nature and consequences of their rights concerning (d) are importantly involved.\nThe defendants (so far as necessary to this opinion) are (1) the McLean heirs, who are the common source of title, having jointly owned Section 179 (subject to the easements) in the year 1915, and (2) persons claiming with the McLeans and under transfers from them occurring subsequent to the origin of the plaintiffs\u2019 chain or chains of title from the McLeans. The so-called \u201cHaines Plaintiffs\u201d (Lydia Grabow Haines, her husband and parties holding under her) and \u201cBoothe Plaintiffs\u201d (J. M. Boothe, Sr., his wife and parties holding under them) brought the suit together and claim that they together own all the property in suit, although they disagree between themselves as to the extent of their respective ownerships.\nIn 1915 Section 179 was judicially partitioned among the then three McLean heirs, who, as stated, then owned it, subject to easements (a), (b) and (c) then subsisting. Generally speaking the partition adjudged the northerly, or sketched, portion to William J. McLean, the rest being divided between the other heirs, but the proceedings contained certain exclusionary reference to the easements, which, with corresponding language in subsequent conveyances in the plaintiffs\u2019 chain, are a primary ground of defense against both groups of plaintiffs.\nIn 1924, William J. McLean conveyed to A. P. Grabow (father of plaintiff Lydia Grabow Haines) by deed stating the land conveyed to be that apportioned to the grantor in the McLean partition and following the descriptive language of the latter. Grabow in turn conveyed to one Yoder in 1929 by deed describing the land conveyed as the 127.8 acres lying east of the disputed area (see \u201cBoothe Plaintiffs\u201d on the sketch) the field notes naming the west line of the 127.8 acres as also the east line of strip (a). The Boothe Plaintiffs have admittedly thus acquired whatever interest in the disputed area may have passed by the Grabow-Yoder deed and assert no other claim, although the extent of this interest is much in question.\nGrabow retained until his death whatever was left him by his deed to Yoder. Following his death, his ownership was passed, or purportedly passed, in 1932 to plaintiff Lydia Grabow Haines by the hereinafter mentioned deed of the other Grabow heirs as part of a voluntary partition. Later in the same year, Mrs. Haines and her husband made a deed to Scurry County purporting' to convey strip (d), now U. S. Highway 84, for the exclusive purpose of a road, the nature of which deed and its effect on the rights of the Haines Plaintiffs in the adjoining strips in suit are much in issue.\nThereafter it appears that in 1949 there were executed and recorded quitclaim deeds from each of the two McLean heirs other than William J., to Mrs. Haines, these deeds describing the property conveyed as being bounded on the east by the west line of strip (d) above mentioned. It also appears that in 1950 plaintiff Warren Petroleum Corporation as holder of an oil and gas lease executed by Mr. and Mrs. Haines filed with the Railroad Commission, for oil allowable purposes, a map corresponding to the westerly portion of the area shown in our sketch and indicating the east boundary of the lease to be the west line of strip (d).\nFrom the foregoing it is clear that the position of both sets of plaintiffs is common down to Grabow, whom both assert to have acquired title to all of the disputed area as a result of the McLean partition and the deed to Grabow from William J. McLean. And the Haines Plaintiffs admit that the subsequent Grabow-Yoder deed to the east 127.8 acres passed title also, and by operation of law, to the fee of the adjoining east half (30 feet) of easement strip (a). But the Boothe Plaintiffs assert that the three easement strips should be treated as one for the purposes of the rule of law in question, and that their predecessor Yoder accordingly acquired the fee of the east half of the combined strips, being all of (a) and the adjoining east 70 feet of strip (b), or alternatively that Yoder acquired all of strip (a) instead of merely the east half of (a).\nThe defendants take the position that the McLean partition and other title evidence above mentioned does not show title to the disputed area to have passed out of the McLeans or into the Haines or Boothe Plaintiffs. In this connection, they also rely for one purpose or another upon the above-mentioned quitclaim deeds to Mrs. Haines and the map filed by plaintiff Warren Petroleum Corporation with the Railroad Commission. They also assert that, in any event, the Haines deed to Scurry County, being a conveyance of strip (d) as a fee rather than a mere highway easement, transferred also, and by operation of law, the Haines fee interest, if any, in the adjoining easement strips, thus creating an outstanding title to the area in suit.\nThe trial court, sitting without a jury, gave judgment that the plaintiffs take nothing, making findings, styled as both of fact and law, upholding all of the contentions of the defendants. The Eastland Court of Civil Appeals, in an able opinion, considerably modified this judgment. 267 S.W. 2d 158. Treating all points as questions of law only, it held: (1) that title passed out of the McLeans and into Grabow as a result of the partition and the deed from William J. McLean to Grabow; (2) that accordingly, and on the strength of the Grabow-Yoder deed, the Boothe Plaintiffs should recover, but only to the extent of the eastern half (30 feet) of strip (a) as against their greater claims above mentioned, (3) that, as to the Haines Plaintiffs, the effect of the deed of strip (o) from Mrs. Haines to Scurry County was as contended for by the defendants, except that it carried title to no more of the disputed area than the adjoining half (50 feet) of strip (c) ; that the Haines Plaintiffs were thus properly denied recovery of the last-mentioned half strip, but should recover all of the area between that strip and the east half of strip (a) awarded to the Boothe Plaintiffs as above.\nWe agree with the court below that title passed out of the McLeans and into Mrs. Haines and the Boothe Plaintiffs. But we also conclude, with much deference and some doubt, that the court should have awarded the Boothe Plaintiffs their maximum claim of half of the three strips treated as one, and should have awarded the entire remaining half to the Haines Plaintiffs. Our discussion requires a more detailed reference to the title history above outlined.\nThe petition in the McLean partition did, indeed, describe the property there involve as\n\u201cAll of Sec. No. One Hundred Seventy Nine (179) * * * * less the right-of-iowy heretofore and condemned for the purposes of the R. S. & P. Ry. Co. and the P. & N. T. Ry. Co.\u201d (Emphasis supplied.) And the order granting partition and appointing commissioners found the three heirs to own one-third each of\n\u201c* * * * the above Section No. 179, Block No. 3 H. & G. N. Ry. Co. Survey, * * * * * which said section of land consists of * 640 acres of land less that portion occupied by the right of way of the Roscoe, Snyder and Pacific Railway Company and the Pecos and Northern Texas Railway Company consisting of about 36.54 acres of land, * *\nthe order proceeding thence to decree that said heirs\n\u201c* * * are the owners in fee simple of said Section No. 179, Blk. No. 3, H. & G. N. Ry. Co. Survey * * * * and that they are entitled to have partition of said land in kind * *\nThe commissioners\u2019 report describes each portion of the division by metes and bounds which include, but do not refer to, the easement strips crossing each. The description of the William J. McLean portion first refers to it as \u201cthe North portion of said Section No. 179, Blk. No. 3,\u201d and after giving the course and distance calls for a square of 1900 by 777.40 varas (W-XY-Z on the sketch) concludes with the words \u201ccontaining 246.46 acres of land more or less.\u201d The other two portions were described in the same style, and the acreage of each was stated to be 178, the total acreage being thus stated as 602.46 (178+ 178+246.46 of William J. McLean) or some 38 acres less than the full section (640 acres including the easement areas). A subsequent paragraph of the report (with emphasis supplied) reads:\n\u201cThe above land includes all of Section No. 179, Blk. No. 3 * * * save and except 36.54 acres of land heretofore conveyed to the Roscoe, Snyder and Pacific Railway Company and the Pecos and Northern Texas Railway Company, and that occupied by the public road passing along the east and north side of the Pecos and Northern Texas Railway right of way.\u201d (strips (c), (b) and (a).\nThe order approving the report gives descriptions only by reference to those in the report itself.\nThe deed from William J. McLean to Grabow described the land conveyed as\n\u201call of that certain tract or parcel of land situated in Scurry County Texas and being out of the part of survey number One hundred and seventy nine (179) in Block number three made by virtue of certificate No. 9/1825 issued to the Houston and Great Northern Raildroad company by patent No. 248 Volume No. 66 and more particularly described as follows vis:\n\u201cBeginning at N. E. corner of said survey at a mound and four pits Thence West with north line is said survey 1900 varas to the N. W. corner of same at a mound. Thence South with west line of said survey 777-1 varas to corner of 178 acres set apart to Thelma Mc-Lean in partition of said 640 acres; Thence East with north line of said Thelma * * tract (1900 varas corner in East line of said 640 acres survey being N. E. corner of Thelma Mc-Lean 178 acre tract.\n\u201cThence North with East line of said survey 777-1 varas to beginning and containing an area of 216-6 acres of land exclusive of right of way of Railioay and Highways which is excepted from this conveyance, said right of way having been heretofore conveyed, The above tract of land being the same which was set apart to me in partition of said 610 acres rohich said partition is of record in Scurry County and is hereby referred to and made a part hereof for all available and pertinent purposes, I hereby conveying all of the land conveyed to me in such partition.\u201d (Emphasis supplied.)\nThe deed from Grabow to Yoder describes the 127.8 acres conveyed as being \u201cout of the N E part of Sec. 179, Blk. 8 of the H & G N Ry. Co. Survey,\u201d to begin at the northeast corner of the survey, running \u201cthence West with the North line 1065 vrs. to an iron pipe driven in the East line of Highway No. 7\u201d (strip (a) on the sketch) \u201cThence South 20 deg. East along the east side of said Highway a distance of 910 vrs. to an iron pipe,\u201d thence east to the east line of the survey and thence north with said east line to the place of beginning. This same description is employed in the subsequent transfers in the chain of the Boothe Plaintiffs, and the corresponding instruments thus plainly do not make an express grant of any part of the disputed area.\nAs to the land retained by Grabow, the afore-mentioned partition deed to Mrs. Haines describes this land by first giving the metes and bounds of the entire rectangle (W-X-Y-Z on the sketch) and in a later paragraph excepting \u201cfrom said tract of land and this conveyance 127.8 acres of land heretofore conveyed out of same by A. F. Grabow to D. P. Yoder.\u201d The calls in the field notes include reference to the south line of the rectangle as being the north line of \u201c178 acres set apart to Thelma McLean in partition of said 640 acres\u201d and immediately following the description is the recital\n\u201ccontaining an area of 246.6 acres of land exclusive of right of way of RR and Highways which is excepted from this conveyance; and being the same tract of land conveyed to A. F. Grabow by William J. McLean * *\nThe subsequent instrument or instruments in the Haines Plaintiffs\u2019 chain, including the oil and gas lease from Mrs. Haines now held by plaintiff, Warren Petroleum Corporation, use directly or by reference the same descriptive language of the Haines partition deed.\nSince this language is substantially the same both in the McLean partition and the later conveyances (with abovementioned exception of the Grabow-Yoder and later conveyances of the east 127.8 acres in the Boothe Plaintiffs\u2019 chain) and since plainly the conveyances after the partition are intended to refer to the same land therein apportioned to William J. McLean, the effect is the same as if only one document or instrument, rather than several, were involved. As to the proper construction of the language, the court below rightly treated the question as one of law, regardless of any purported fact findings of the trial court, and despite the vigorous contentions of the defendants that the latter are conclusive on appeal. The only factual evidence appears to be undisputed and to consist largely of the documents heretofore described or quoted from, including the 1949 quitclaim deeds to Mrs. Haines, the evidence of some nonpayment of taxes by the plaintiffs on the premises in dispute, and the map filed in 1950 by plaintiff Warren Petroleum Corporation with the Railroad Commission. Even assuming ambiguity in the description originating in the McLean partition, the effect of the above undisputed evidence as showing a construction by the plaintiffs so as to exclude the disputed area from their title, would still be a question of law.\nBut in any event, like the Court of Civil Appeals, we hold the legal effect of the description in the McLean partition to be that the disputed area was included \u2014 a conclusion which renders the other evidence immaterial. The contrary might, indeed, have been argued as an original proposition with some basis in strict logic on account of the quoted references to acreage of the rights of way as being excepted. Yet the decisions stemming from Rio Bravo Oil Co. v. Weed, 121 Texas 427, 50 S.W. 2d 1080, 85 A.L.R. 391, sustain our conclusion, and obviously with no great prejudice to morals or good sense.\nOne line of these decisions, perhaps the less forceful as applied to the instant case, is that represented by Cox v. Campbell, 135 Texas 428, 143 S.W. 2d 361, and Joslin v. State, Texas Civ. App., 146 S.W. 2d 208, 211, wr. of error refused. These deal largely with the situation of a conveyance of land so described as merely to adjoin an easement and hold that, even where the grantor owns at the time the land on both sides of the easement, his conveyance of a tract adjoining one side carries fee title to the center line. The Joslin case repeats in strong language the rule of the earlier decisions that, whatever \u201c \u2018the true intention of the parties\u2019,\u201d the mentioned result obtains by force of a \u201csettled rule of law\u201d requiring \u201can express reservation\u201d in order to permit a different result. This might seem to leave open the question of whether the alleged exception of the easement acreage in the instant case was such \u201can express reservation.\u201d But the other line of cases, reviewed in Lewis v. East Texas Finance Co., 136 Texas 149, 146 S.W. 2d 977, 980, and dealing- with the situation of a conveyance of a single tract (e. g. W-X-Y-Z on the sketch) crossed by an easement, holds that purported exceptions of the easment acreage similar to those of the instant case, do not exclude the underlying fee. Conceivably these decisions represent a development of the law as to just what is \u201can express reservation\u201d as that term was used in Joslin v. The State and Cox v. Campbell, although they do not say so. The force of the Lewis case itself is less in its decision that the deed there involved passed the fee regardless of its language concerning the easement acreage than in its statement of the corresponding rule of law that\n\u201cAn instrument of conveyance which conveys land definitely described in such instrument, and then excepts from such conveyance a road, railroad right of way, canal right of way, etc., as such, occupying a mere easement on, over, or across the land conveyed, conveys the fee to the entire tract, and the exception only operates to render the conveyance or grant subject to the easement.\u201d\nThe decision is yet more significant in its adoption of the holding of the Circuit Court of Appeals for the 5th Circuit (per present Chief Judge Hutcheson) in Shell Petroleum Corp. v. Ward, 100 F. 2d 778, 779. In the latter (a Texas land case) the fee was held to pass notwithstanding the provision at the end of the field notes, \u201c \u2018Containing 162.00 acres of land save and except therefrom 5.6 acres taken up by the right of way * * * making 156.4 acres herein and hereby conveyed\u2019.\u201d To argue a distinction between such language and that involved in the instant case would almost be to quibble.\nAnd the defendants appear rightly to forego any alleged distinction here between the case of a partition and that of an ordinary conveyance. The Rio Bravo case, supra, involved a conventional partition of a tract crossed by a railroad easement, and yet the later decisions (concerning mere conveyances) treat it as if there were no difference between the two situations. That the McLean partition was judicial is not significant. Reed v. Robertson, 106 Texas 56, 156 S.W. 196, 197. And the same judicial policy applied in cases like Shell Petroleum Corp. v. Ward, supra, would seem equally applicable in the case of a partition. For a statement of that policy, see also Texas Bitulithic Co. v. Warwick, Texas Comm. App., 293 S.W. 160, 162, although that case was but a simple instance of a deed calling for ad joinder to a street. In cases like the instant one there would normally be little purpose on the part of the partitioning owners in maintaining joint ownership of the easement strips aggregating only some 36 acres out of 640, while otherwise and at the same time dividing up the section into three large blocks of sole ownership.\nThere remain the questions as to (1) the effect of Mrs. Haines\u2019 deed to Scurry County and (2) the claim of the Boothe Plaintiffs to half of the entire disputed area, or alternatively to all of strip (a).\nDealing first, for convenience, with question (2), while there anpear to be no decisions on closely similar facts upholding their thesis, there are none in this state, and few anywhere, to the contrary. As a matter of logic, it is hard to see any real difference, for the purposes of the doctrine of decisions such as Rio Bravo, Texas Bitulithic, Cox and Joslin above cited, between a single easement strip 260 feet wide and our three adjoining strips of an equal width in the aggregate. Viewing the latter at the moment before the Grabow-Yoder deed, the underlying fee was as uniform in nature and ownership as if there had been but one easement, the diversity being merely in the character and ownership of the user. Should the easement owners have pooled their interests by merger or conveyance, the ownership diversity would have ceased. Should ownership be merged in the slightly different, but not infrequent, situation of adjoining easements for a similar use, there would be but one strip for practically all purposes.\nAnd let us suppose, for an illustration, that Grabow, as owner of tract W-X-Y-Z, had not only conveyed to Yoder as he did, but at the same instant had given an exactly similar type of deed, for the land abutting strip (c) on the west, to John Doe. Would we there hold that Grabow, while thus parting with everything on each side of the easement strips, conveyed no more of the strip area itself than the east half of strip (a) and west half of strip (c), retaining isolated ownership of the narrow area in between ? That would be a clear case of perpetuating isolated strips contrary to the policy of all the decisions heretofore cited. And if we thus should not leave the middle area in the grantor, by what logic could we hold that he conveyed only half of strip (a) to Yoder, but all the rest of the three-strip area to John Doe, the conveyances being simultaneous and in the same form? And if in such a case, the logical answer is that each gets half of the total easement area, just as if only one strip were involved, would there be any great reason for a different answer merely because the conveyance to Yoder happens to come first? The illustration serves to point up further the lack of substantial difference between a single easement strip and a group of adjoining ones.\nSuch doubts as we have encountered in concluding that there is no real difference probably troubled us also when we were confronted for the first time with the proposition dealt with in Cantley v. Gulf Production Co., 135 Texas 339, 143 S.W. 2d 912, 915, wherein we adopted the rule stated in 9 Corpus Juris, p. 203, \u00a7 97, that\n\u201c \u2018Where a highway is laid off entirely on the owner\u2019s land, running along the margin of his tract, and he afterward conveys the land, the fee in the whole of the soil of the highway vests in his grantee\u2019.\u201d See also 11 C. J. S. Boundaries, \u00a7 35.\nThe familiar instance, of course, is the one of the Rio Bravo, Cox and Joslin decisions, supra, wherein the grantor, owning both sides of and under a single easement, conveys land on one side, thereby conveying also half of the strip. But when we reached the somewhat different situation of the Cantley case, we felt compelled to extend the effect of the grant so as to carry the entire fee, because of the different circumstances, even as the Boothe Plaintiffs here say we should extend the effect of the Yoder grant beyond the adjoining east half of strip (a). If the idea of a half is not sacred, as distinguished from a whole, the idea of a single easment strip need not be sacred, as distinguished from a group thereof, although diversely owned for different uses.\nObviously one can predict no extraordinary practical advantages or calamities as incident to the acceptance or rejection of the Boothe Plaintiffs\u2019 view. For that matter, the same could have been said of all the above cited cases when they arose. We simply believe the Boothe position to be logically sound under existing legal principles and find no reason to reject it other than the fact that a situation presenting it has never before confronted us.\nThe decisions in Anderson-Prichard Oil Corporation v. Key Okla Oil Company, 149 Okla. 262, 299 Pac. 850 and McGee v. Swearengen, 194 Ark. 735, 109 S.W. 2d 444, appear to be the only authority against our conclusion, holding that where the grantor owns a single tract with a road easement thereon at the margin, followed by a nonnavigable stream or by another easement strip such as a ditch, his conveyance of the tract by a description running to the road will not carry his fee interest in the near side of the stream nor in any part of the ditch nor in anything beyond a near half of the road. These decisions seem to consider as sound the rule, which we adopted in the Cantlev case, supra, and while refusing to apply it to the situation of several adjoining easements on and at the margin of land owned by the grantor, with all respect, do- not give any particular reason why the difference between the two situations should amount to a sound distinction. If in the Cantley situation there is reason to presume an intent of the grantor to convey the outer half of the single easement strip involved, in addition to the inner half, the same reason would seem applicable where the marginal easement area is the street plus an adjoining half of a nonnavigable stream or a drainage ditch. To leave the grantor owning but half of a street plus half of the bed of the river, as does the Oklahoma decision, is rather an extreme instance of perpetuating ownership of narrow strips \u2014 even if the later discovery of oil in the vicinity did make the strips very valuable.\nIn the latter connection, neither the Oklahoma court nor our own decisions say that in oil producing states there is more reason than elsewhere to limit the presumption favoring passage of title to these narrow strips, which generally are useless to the grantor. And, of course, our decision here does not affect the grantor\u2019s right to defeat the presumption by the use of adequate language in his deed.\nThe next, and yet more difficult, point \u2014 the effect of Mrs.. Haines\u2019 conveyance of strip (d) to Scurry County \u2014 involves two subpoints: (1) the contention of the Haines Plaintiffs that the Court of Civil Appeals should have held the county or state to have thus acquired a mere easement \u2014 an interest which by its very nature could not entail ownership of minerals underlying the way, still less of any sort of fee interest in the adjacent strip (c); and (2) assuming the deed conveyed a fee, how much, if any, of the minerals did it carry with it out of the western half of combined strips (a), (b) and (c), the eastern half of which we have adjudged to the Boothe Plaintiffs as above?\nOn the oral argument we volunteered some apprehensions about our right to rule on the matter of the title of the state or county to strip (d) or to the area in controversy, without either of these being parties to the suit, but, with enlightenment from an additional brief of counsel for the Haines Plaintiffs, we easily conclude these apprehensions to have been unfounded. Rule 784, Texas R. Civ. Proc., like its predecessor Art. 7370, Rev. Civ. Stats., 1925, requires only that \u201cthe defendant in the action shall be the person in possession if the premises are occupied, or some person claiming title thereto in case they are unoccupied\u201d; while Rule 785, like old Art. 7371, deals only with proper, as distinguished from necessary, parties defendant. If the plaintiff should have to ascertain and join every possible claimant to the land in addition to the particular defendant whose claim is troubling him, the process of justice would be greatly retarded. Not only does a suit not abate whenever an outstanding title in a third person appears, but the defense of outstanding title is ancient in our practice, although our determining the validity of that defense in a given case necessarily means ruling upon the title of one not a party to the suit. Such a person is obviously not bound under the doctrine of res adjudicada. Prairie Oil & Gas Co. v. State, Texas Comm. App., 231 S.W. 1088. And, as we said in City of Austin v. Cahill, 99 Texas 172, 198, 88 S.W. 542, 553, 89 S.W. 552, (on rehearing) the likelihood in one suit of \u201ca precedent harmful of their interests in some other litigation\u201d is \u201cinsufficient as a reason for making them parties\u201d to the former. See also Short v. W. T. Carter & Bro., 133 Texas 202, 221, 126 S.W. 2d 953, 964. In Houston & T. C. Ry. Co. v. State, 89 Texas 294, 301, 34 S.W. 734, 736, it was stated by Mr. Justice Brown:\n\u201cThe fact that a third person claims title to the land in controversy will not entitle the defendants in the suit to have such third person made party thereto if the defendants do not claim as tenant of such third person. If a superior legal title to that of the plaintiff be in another person * * * the defendant may show that fact as a defense against the plaintiff\u2019s right to recover, but this will not entitle him to force the plaintiff and the owner of such superior title to litigate their rights in that suit.\u201d\nThe Haines deed to Scurry County, \u201cfor and in consideration of the sum of One ($1.00) Dollar in cash to us paid\u201d does \u201cgrant, sell and convey * * * a, piece of real estate off of the East side of * * *, said one hundred foot strip of land is described by metes and bounds as follows * * * Following the field notes, it contains two paragraphs, beginning \u201cIt is agreed\u201d and providing respectively that the \u201cconveyance\u201d is subject to an easement in favor of the Snyder Country Club and that the grantee shall pay the expense of relocating fences and the damage to crops \u201cfrom the taking of said one hundred foot strip, and the construction of the highway.\u201d The next paragraph reads:\n\u201cIt is further specifically agreed that this conveyance is in the nature of a donation, for highway purposes only, and if at any time in the future said highway shall be abandoned, or in the event the property here conveyed ceases to be used for highway purposes, it shall revert to grantors, their heirs and assigns.\u201d\nThe emphasis on particular language above is our own. The habendum and warranty clauses refer merely to \u201cthe above described premises.\u201d\nOur ultimate holding that this deed did not alienate any of the Haines interest in the disputed area assumes that it conveyed at least a determinable fee in strip (d), and we therefore comment but briefly on the able argument that it conveyed only an easement. Suffice it to say that, like the court below, we regard the question as too tightly foreclosed for change at this late date by the line of decisions beginning with Calcasieu Lumber Co. v. Harris, 77 Texas 18, 13 S.W. 453, and ending with Texas Electric Ry. Co. v. Neale, 151 Texas 526, 252 S.W. 2d 451, and including particularly Stanbery v. Wallace, Texas Comm. App., 45 S.W. 2d 198 and Texas Conservative Oil Co. v. Thompson, Texas Civ. App., 163 S.W. 2d 854, wr. of er. refused. The deed in the Stanbery case said\n\u201c * grant sell and convey * * that certain real estate * * viz.: Lots Nos. * * * the two lots herein conveyed being for the following purpose and trust * * to be forever used as a street * * * and to be never used for any other purpose\u2019.\u201d\nYet largely on the strength of the words \u201c \u2018convey * * that certain real estate\u2019 \u201d we held for the fee and in substance denied effect to the strong language of limitation. We have since cited the decision with approval many times. Often cited by us in connection with the contention that purported limitations on the use of the \u201cland\u201d which is \u201cgranted\u201d cause the deed to create but an easement, are decisions such as Texas & P. Railway Co. v. Martin, Texas Comm. App., 123 Texas 383, 71 S.W. 2d, 867; Hughes v. Gladewater County Line Ind. School Dist., 124 Texas 190, 76 S.W. 2d 471, and Davis v. Skipper, 125 Texas 364, 83 S.W. 2d 318. While these do not involve the precise question of easement versus fee, they do, like the decisions on the latter question, clearly exalt the effect of the \u201cgrant\u201d words of the deed at the expense of the restrictive language. In the Hughes case the grantee school district was permitted to abandon the school usage of the one acre granted and to exploit the latter for oil, although the deed said \u201c \u2018grant, sell and convey * * * for school purposes only\u2019.\u201d\nThe argument that the word \u201cdonation\u201d in the restrictive portion of the deed equates the deed to a bare dedication, merely emphasizes, as we view \"it, the basic contention that the restrictive portion should enjoy more importance than our decisions permit us to give it.\nBut when we subordinate the restrictive provisions so as to hold that the deed passed a fee, when we take cognizance, as we must, of the Texas & P. Railway. Huerhes. Davis and similar decisions, and when we hold, as we do, that the Grabow-Yoder deed by legal implication passed title to half of the entire easement area, does it necessarily follow that the Haines deed to Scurry County passed title to part of the same area? All of the possibly relevant decisions cited by or to us deal with unrestricted deeds to ordinary tracts of land, and we know of none applying the principle of the Texas Bitulithic, Cox and Joslin cases to a deed of a narrow strip out of a larger tract retained by the grantor with the restrictive intent evidenced by the plainest language. True, the very reasoning of those cases and others we have cited speak of presumed, as against actual, intent, and we ourselves extend that presumption territorywise where such avoids isolated ownership of narrow strips. But what seems natural and desirable in the situations dealt with in the Texas Bitulithic, Cox. Joslin and Lewis cases, and, indeed, in the instance of the Boothe Plaintiffs here, seems unnatural and unfair under the facts applicable to the Haines Plaintiffs. The reason must be that in the one case, the circumstances, evidenced largely by the deed itself and in spite of its descriptive terms, suggest that the parties never thought of the adjoining easement, but would have included half of it, or in a proper case all of it, in the conveyance if they had thought of it, while in the other the indication is that they would have done just the contrary. If we reason in what is really the same way but speak in terms of the easement area being or not being \u201can appurtenance\u201d to the tract specifically conveyed, as in Rio Bravo Oil Co. v. Weed, 121 Texas 427, 50 S.W. 2d 1080, 85 A.L.R. 391, the difference between the ordinary case and the instant one is even more apparent. To say that the instant deed shall be taken not only to grant a fee, despite its attempted limitations, but also to convey a fee half again or more greater in adjoining property, simply shocks the conscience, and this despite the fact that such a result would definitely reduce the number of strips diversely owned, if we give the grantee half of all three strips, as we do the Boothe Plaintiffs. Whether we rationalize our conclusion on the theory that the restrictive language of the deed in the light of attendant circumstances amounted to an \u201cexpress reservation\u201d of the easement area under the rule as stated in Rio Bravo, Cox and Joslin cases, or simply refuse to apply the result of those decisions to a new situation where it seems unnatural to apply it, or say that here the additional area in question cannot realistically be called an appurtenance of the strip conveyed to Scurry County, our conclusion appears to us the more just solution of the problem. Even if it be true, as contended by amici curiae, that the result will disturb the adjoining street ownership of many city lot owners, whose deeds say \u201cfor residential purposes only\u201d \u2014 a question we do not decide\u2014 our holding will yet perhaps relieve other landowners of painful surprises \u2014 for example, where an unobtrusive easement or group of easements such as for telephone lines or buried pipe lines crosses a large tract and the owner, conveying an adjoining strip in fee for the limited purpose of a road, discovers that he has actually conveyed also the fee of part of the other strips.\nThe judgments of both courts below are reversed. Judgment is here rendered that the Haines Plaintiffs recover the western half of the three easement strips in question, treating them as a unit, and that the Boothe Plaintiffs recover the eastern half thereof. Costs are taxed three-fourths against the defendants and one-fourth against the Haines Plaintiffs.\nAssociate Justice Wilson dissenting.\nOpinion delivered March 9, 1955.\nRehearing overruled April 13, 1955.",
+        "type": "majority",
+        "author": "Mr. Justice Garwood"
+      }
+    ],
+    "attorneys": [
+      "Vinson, Elkins, Weems & Searls and V. S. Donoghue, all of Houston, for petitioners Haines and Warren Petroleum Corporation. Way land G. Holt, of Snyder, Kilgore & Kilgore and Jennis A. Kilgore, all of Dallas, for petitioners Boothe, Hamon and Castleman.",
+      "McMahon, Springer, Smart & Walter, Wag staff, Harwell, Alvis & Pope, all of Abilene, and Prentice Wilson, of Dallas, for respondents McLean and others."
+    ],
+    "corrections": "",
+    "head_matter": "Lydia Grabow Haines et al v. William J. McLean et al\nNo. A-4689.\nDecided March 9, 1955.\nRehearing denied April 13, 1955.\n(276 S.W. 2d Series 777)\nVinson, Elkins, Weems & Searls and V. S. Donoghue, all of Houston, for petitioners Haines and Warren Petroleum Corporation. Way land G. Holt, of Snyder, Kilgore & Kilgore and Jennis A. Kilgore, all of Dallas, for petitioners Boothe, Hamon and Castleman.\nThe Court of Civil Appeals erred in holding that the deed from Haines and wife to the County judge of Scurry County, for highway purposes, had the effect of conveying the minerals underlying the land involved. Texas & Pac. Ry. Co. v. Martin, 123 Texas 383, 71 S.W. 2d 867; Dallas Joint Stock Land Bank of Dallas v. Harrison, 138 Texas 84, 156 S.W. 2d 963; Rio Bravo Oil Co. v. Weed, 121 Texas 427.\nMcMahon, Springer, Smart & Walter, Wag staff, Harwell, Alvis & Pope, all of Abilene, and Prentice Wilson, of Dallas, for respondents McLean and others.\nIn support of their views as the rights of-the parties cited Steddum v. Kirby Lumber Co., 221 S.W. 920; Woodward v. Ortiz, 150 Texas 75, 237 S.W. 2d 286; Vannerberg v. Anderson, 146 Texas 302, 206 S.W. 2d 217."
+  },
+  "file_name": "0272-01",
+  "first_page_order": 286,
+  "last_page_order": 302
+}

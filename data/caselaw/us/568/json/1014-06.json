@@ -1,0 +1,59 @@
+{
+  "id": 12422898,
+  "name": "McDonald v. Brunsman, Warden",
+  "name_abbreviation": "McDonald v. Brunsman",
+  "decision_date": "2012-11-13",
+  "docket_number": "No. 12-6206",
+  "first_page": "1014",
+  "last_page": "1014",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1014"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.643,
+    "sha256": "b3fdde7506e96f550ebe0c1cb17a1ca5b279d46c2c63d1f59119261de42cc70f",
+    "simhash": "1:958a2287ea3a5a06",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McDonald v. Brunsman, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6206.\nMcDonald v. Brunsman, Warden."
+  },
+  "file_name": "1014-06",
+  "first_page_order": 1090,
+  "last_page_order": 1090
+}

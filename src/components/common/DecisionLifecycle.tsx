@@ -65,7 +65,7 @@ const LIFECYCLE_STAGES = [
     color: 'orange',
     description: 'Decision tested against multiple failure scenarios',
     outputs: ['Resilience score', 'Break points', 'Mitigation plan', 'Monte Carlo results'],
-    link: '/sovereign/crucible',
+    link: '/cortex/sovereign/crucible',
     optional: true,
   },
   {
@@ -76,7 +76,7 @@ const LIFECYCLE_STAGES = [
     color: 'teal',
     description: 'Stakeholder voices gathered, vetoes checked',
     outputs: ['Voice assembly', 'Veto check', 'Sentiment analysis', 'Resolution record'],
-    link: '/sovereign/vox',
+    link: '/cortex/sovereign/vox',
     optional: true,
   },
   {
@@ -87,7 +87,7 @@ const LIFECYCLE_STAGES = [
     color: 'emerald',
     description: 'Regulatory and security exposure assessed',
     outputs: ['Compliance impact', 'Security assessment', 'Risk flags', 'Remediation items'],
-    link: '/sovereign/panopticon',
+    link: '/cortex/sovereign/panopticon',
   },
   {
     id: 'eternal',
@@ -97,7 +97,7 @@ const LIFECYCLE_STAGES = [
     color: 'amber',
     description: 'Final decision pack archived for long-term preservation',
     outputs: ['Archived artifact', 'Hash chain entry', 'Successor access', 'Retention policy'],
-    link: '/sovereign/eternal',
+    link: '/cortex/sovereign/eternal',
   },
 ];
 

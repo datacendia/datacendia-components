@@ -1,0 +1,88 @@
+{
+  "id": 5962129,
+  "name": "Astra USA, Inc., et al. v. Santa Clara County, California",
+  "name_abbreviation": "Astra USA, Inc. v. Santa Clara County",
+  "decision_date": "2011-01-07",
+  "docket_number": "No. 09-1273",
+  "first_page": "1126",
+  "last_page": "1127",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1126"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "561 U. S. 1057",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12456032,
+        12456033,
+        12456034,
+        12456035,
+        12456036,
+        12456037,
+        12456038,
+        12456031
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/177/1150-04",
+        "/l-ed-2d/177/1150-05",
+        "/l-ed-2d/177/1150-06",
+        "/l-ed-2d/177/1150-07",
+        "/l-ed-2d/177/1151-01",
+        "/l-ed-2d/177/1151-02",
+        "/l-ed-2d/177/1151-03",
+        "/l-ed-2d/177/1150-03"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 51,
+    "char_count": 451,
+    "ocr_confidence": 0.565,
+    "sha256": "73796b7f5a1391c35bcc313f40b22dcef19258985ea8791e613169fe2aabe961",
+    "simhash": "1:b09021a202e7cc55",
+    "word_count": 76
+  },
+  "last_updated": "2024-02-27T22:51:28.129297+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of these motions."
+    ],
+    "parties": [
+      "Astra USA, Inc., et al. v. Santa Clara County, California."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. [Certiorari granted, 561 U. S. 1057.] Motion of the Acting Solicitor General for leave to participate in oral argument as amicus curiae and for divided argument granted. Motion of Kansas et al. for leave to participate in oral argument as amicus curiae and for divided argument denied.\nJustice Kagan took no part in the consideration or decision of these motions.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-1273.\nAstra USA, Inc., et al. v. Santa Clara County, California."
+  },
+  "file_name": "1126-06",
+  "first_page_order": 1148,
+  "last_page_order": 1149
+}

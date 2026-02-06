@@ -1,0 +1,59 @@
+{
+  "id": 6007390,
+  "name": "Conway, Attorney General of Kentucky v. McQueary",
+  "name_abbreviation": "Conway v. McQueary",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-569",
+  "first_page": "1137",
+  "last_page": "1137",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1137"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 96,
+    "ocr_confidence": 0.54,
+    "sha256": "9027f76c7ca7201ee5303e151684653451c1ca2bc53644fea6b1221e556ab4cd",
+    "simhash": "1:d29220060a2f8844",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Conway, Attorney General of Kentucky v. McQueary."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-569.\nConway, Attorney General of Kentucky v. McQueary."
+  },
+  "file_name": "1137-09",
+  "first_page_order": 1159,
+  "last_page_order": 1159
+}

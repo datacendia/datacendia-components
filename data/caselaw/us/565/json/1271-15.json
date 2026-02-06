@@ -1,0 +1,76 @@
+{
+  "id": 12252647,
+  "name": "Stinson v. United States; and Griffin v. United States",
+  "name_abbreviation": "Stinson v. United States",
+  "decision_date": "2012-03-19",
+  "docket_number": "No. 11-8747; No. 11-8811",
+  "first_page": "1271",
+  "last_page": "1272",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1271"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "647 F. 3d 1196",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6050542
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/647/1196-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 21,
+    "char_count": 148,
+    "ocr_confidence": 0.678,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2476582611573107
+    },
+    "sha256": "b2b4a37d4ecc55fa6780715e33f015de7016c98fe50ff185fe341f3ee841f5c2",
+    "simhash": "1:955a37d929bf550e",
+    "word_count": 25
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Stinson v. United States; and Griffin v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied. Reported below: 647 F. 3d 1196.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8747.\nStinson v. United States; and Griffin v. United States.\nNo. 11-8811."
+  },
+  "file_name": "1271-15",
+  "first_page_order": 1353,
+  "last_page_order": 1354
+}

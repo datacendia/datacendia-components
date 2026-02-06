@@ -1,0 +1,59 @@
+{
+  "id": 12412750,
+  "name": "Rhine v. Deaton et al.",
+  "name_abbreviation": "Rhine v. Deaton",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10373",
+  "first_page": "842",
+  "last_page": "842",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 842"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 72,
+    "ocr_confidence": 0.693,
+    "sha256": "38419038973077245cc4b776b0e6ed10b3584053a0e1601e0181221c5f3687b6",
+    "simhash": "1:d1c8588ab0109772",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rhine v. Deaton et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10373.\nRhine v. Deaton et al."
+  },
+  "file_name": "0842-01",
+  "first_page_order": 918,
+  "last_page_order": 918
+}

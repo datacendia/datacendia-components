@@ -1,0 +1,59 @@
+{
+  "id": 5962766,
+  "name": "Garner v. United States",
+  "name_abbreviation": "Garner v. United States",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8549",
+  "first_page": "1247",
+  "last_page": "1247",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1247"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.594,
+    "sha256": "820f0626a63ff4418bce192c57e150b105814ab3f1647c964b79ba7b549af385",
+    "simhash": "1:9798f3238e27d358",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Garner v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8549.\nGarner v. United States."
+  },
+  "file_name": "1247-12",
+  "first_page_order": 1269,
+  "last_page_order": 1269
+}

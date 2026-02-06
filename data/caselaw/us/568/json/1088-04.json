@@ -1,0 +1,59 @@
+{
+  "id": 12427904,
+  "name": "Pena v. United States",
+  "name_abbreviation": "Pena v. United States",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-494",
+  "first_page": "1088",
+  "last_page": "1088",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1088"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.625,
+    "sha256": "6e0b7de0eea7efe1144030e17d6cbd0bbfbacec88b7a23ce061219d61792705d",
+    "simhash": "1:4a489a329ed19018",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Pena v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-494.\nPena v. United States."
+  },
+  "file_name": "1088-04",
+  "first_page_order": 1164,
+  "last_page_order": 1164
+}

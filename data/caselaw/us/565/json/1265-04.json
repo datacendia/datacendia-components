@@ -1,0 +1,59 @@
+{
+  "id": 12251912,
+  "name": "Pulido v. California",
+  "name_abbreviation": "Pulido v. California",
+  "decision_date": "2012-03-19",
+  "docket_number": "No. 11-8216",
+  "first_page": "1265",
+  "last_page": "1265",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1265"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 83,
+    "ocr_confidence": 0.615,
+    "sha256": "aac68423c927a46db87ca975cbb2b3cc5462fe3fc7fe4bf028580635392eb73d",
+    "simhash": "1:e1a94a8130937b61",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Pulido v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 3d App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8216.\nPulido v. California."
+  },
+  "file_name": "1265-04",
+  "first_page_order": 1347,
+  "last_page_order": 1347
+}

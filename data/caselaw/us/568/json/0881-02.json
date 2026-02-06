@@ -1,0 +1,59 @@
+{
+  "id": 12414861,
+  "name": "Crider v. United States",
+  "name_abbreviation": "Crider v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-11131",
+  "first_page": "881",
+  "last_page": "881",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 881"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.688,
+    "sha256": "1d53a0c470ea761d1d47e86a2f839d4a142dc3c875cad0c0edab3108171e1a55",
+    "simhash": "1:c58aa603ce3f014c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Crider v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-11131.\nCrider v. United States."
+  },
+  "file_name": "0881-02",
+  "first_page_order": 957,
+  "last_page_order": 957
+}

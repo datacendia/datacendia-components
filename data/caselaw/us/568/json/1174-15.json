@@ -1,0 +1,59 @@
+{
+  "id": 12431168,
+  "name": "Andrews v. Paxson",
+  "name_abbreviation": "Andrews v. Paxson",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-7826",
+  "first_page": "1174",
+  "last_page": "1174",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1174"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 66,
+    "ocr_confidence": 0.668,
+    "sha256": "a68a7bdc835f931e5d7565ee4d3a5f2b13938540e5a7705dcb21fd17e0cbe3a4",
+    "simhash": "1:36830259df2f1131",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Andrews v. Paxson."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7826.\nAndrews v. Paxson."
+  },
+  "file_name": "1174-15",
+  "first_page_order": 1250,
+  "last_page_order": 1250
+}

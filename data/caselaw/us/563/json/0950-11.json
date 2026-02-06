@@ -1,0 +1,59 @@
+{
+  "id": 5958428,
+  "name": "Berger v. United States",
+  "name_abbreviation": "Berger v. United States",
+  "decision_date": "2011-04-18",
+  "docket_number": "No. 10-9471",
+  "first_page": "950",
+  "last_page": "950",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 950"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.649,
+    "sha256": "144dd41637bc565e455d45f9a588f7b6bca9c5baeb3424b26e7511cbf1f53f1e",
+    "simhash": "1:4c8aef034aaca16e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Berger v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9471.\nBerger v. United States."
+  },
+  "file_name": "0950-11",
+  "first_page_order": 976,
+  "last_page_order": 976
+}

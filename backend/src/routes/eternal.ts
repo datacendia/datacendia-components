@@ -11,6 +11,55 @@ const router = Router();
 router.use(devAuth);
 
 // ===========================================================================
+// STATUS / HEALTH
+// ===========================================================================
+
+/**
+ * GET /eternal/status
+ * Service health and status
+ */
+router.get('/status', async (req: Request, res: Response) => {
+  try {
+    const orgId = (req as any).organizationId;
+    
+    // Get counts for metrics
+    const [artifactCount, migrationCount, successorCount] = await Promise.all([
+      cendiaEternalService.getArtifacts(orgId, {}).then(a => a.length).catch(() => 0),
+      cendiaEternalService.getMigrations(orgId).then(m => m.length).catch(() => 0),
+      cendiaEternalService.getSuccessors(orgId).then(s => s.length).catch(() => 0),
+    ]);
+    
+    res.json({
+      success: true,
+      data: {
+        service: 'CendiaEternal',
+        status: 'operational',
+        version: '1.0.0',
+        description: 'Ultra-Long Horizon Archive',
+        capabilities: [
+          'Multi-generational knowledge preservation',
+          'Format migration and future-proofing',
+          'Successor planning and handoff',
+          'VERITAS validation framework',
+          'Immutable artifact storage',
+          '100+ year retention support',
+        ],
+        metrics: {
+          archivedArtifacts: artifactCount,
+          formatMigrations: migrationCount,
+          successorPlans: successorCount,
+        },
+        artifactTypes: ['decision', 'policy', 'contract', 'code', 'documentation', 'historical', 'other'],
+        accessLevels: ['public', 'internal', 'restricted', 'confidential', 'successor_only'],
+        lastCheck: new Date().toISOString(),
+      }
+    });
+  } catch (error) {
+    res.status(500).json({ success: false, error: { message: String(error) } });
+  }
+});
+
+// ===========================================================================
 // ARTIFACTS
 // ===========================================================================
 

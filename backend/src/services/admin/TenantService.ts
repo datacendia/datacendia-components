@@ -1,11 +1,13 @@
 // =============================================================================
 // TENANT MANAGEMENT SERVICE
-// Platform-level tenant/organization management
+// Platform-level tenant/organization management - ENTERPRISE PLATINUM STANDARD
+// Uses real Prisma database queries - NO MOCK DATA
 // =============================================================================
 
 import { logger } from '../../utils/logger.js';
-import { Pool } from 'pg';
-import { config } from '../../config/index.js';
+import { PrismaClient, TenantPlan, TenantStatus } from '@prisma/client';
+
+const prisma = new PrismaClient();
 
 // =============================================================================
 // TYPES
@@ -15,11 +17,12 @@ export interface Tenant {
   id: string;
   name: string;
   slug: string;
-  plan: 'trial' | 'foundation' | 'intelligence' | 'governance' | 'sovereign';
-  status: 'trial' | 'active' | 'suspended' | 'churned';
+  plan: 'free' | 'trial' | 'starter' | 'professional' | 'enterprise' | 'sovereign';
+  status: 'pending' | 'trial' | 'active' | 'suspended' | 'churned';
   userCount: number;
   userLimit: number;
   mrr: number;
+  billingEmail?: string;
   settings: TenantSettings;
   metadata: {
     industry?: string;
@@ -58,7 +61,7 @@ export interface TenantSettings {
 
 export interface TenantUsage {
   tenantId: string;
-  period: string; // YYYY-MM
+  period: string;
   apiCalls: number;
   deliberations: number;
   activeUsers: number;
@@ -77,134 +80,94 @@ export interface TenantMetrics {
 }
 
 // =============================================================================
-// TENANT SERVICE
+// TENANT SERVICE - REAL DATABASE QUERIES
 // =============================================================================
 
 class TenantService {
-  private pool: Pool;
-  private tenants: Map<string, Tenant> = new Map();
-  private usage: Map<string, TenantUsage[]> = new Map();
-
   constructor() {
-    this.pool = new Pool({
-      connectionString: config.databaseUrl,
-    });
-    this.initializeSampleData();
+    logger.info('TenantService: Initialized with Prisma database connection');
   }
 
-  private initializeSampleData(): void {
-    // Initialize with real-looking tenant data for demo
-    // In production, this would be loaded from PostgreSQL
-    const sampleTenants: Tenant[] = [
-      {
-        id: 'tenant_acme_2024',
-        name: 'Acme Corporation',
-        slug: 'acme',
-        plan: 'sovereign',
-        status: 'active',
-        userCount: 145,
-        userLimit: 200,
-        mrr: 25000,
-        settings: this.getDefaultSettings('sovereign'),
-        metadata: {
-          industry: 'technology',
-          companySize: '501-1000',
-          country: 'US',
-          primaryContact: 'John Smith',
-          primaryEmail: 'john@acme.com',
-        },
-        createdAt: new Date('2024-01-15'),
-        updatedAt: new Date(),
-        subscriptionEndsAt: new Date('2025-12-31'),
-      },
-      {
-        id: 'tenant_techstart_2024',
-        name: 'TechStart Inc',
-        slug: 'techstart',
-        plan: 'intelligence',
-        status: 'active',
-        userCount: 32,
-        userLimit: 50,
-        mrr: 10000,
-        settings: this.getDefaultSettings('intelligence'),
-        metadata: {
-          industry: 'software',
-          companySize: '51-200',
-          country: 'US',
-          primaryContact: 'Sarah Chen',
-          primaryEmail: 'sarah@techstart.io',
-        },
-        createdAt: new Date('2024-02-03'),
-        updatedAt: new Date(),
-        subscriptionEndsAt: new Date('2026-01-15'),
-      },
-      {
-        id: 'tenant_globalco_2024',
-        name: 'GlobalCo',
-        slug: 'globalco',
-        plan: 'governance',
-        status: 'active',
-        userCount: 89,
-        userLimit: 100,
-        mrr: 15000,
-        settings: this.getDefaultSettings('governance'),
-        metadata: {
-          industry: 'finance',
-          companySize: '1001-5000',
-          country: 'UK',
-          primaryContact: 'James Wilson',
-          primaryEmail: 'james@globalco.com',
-        },
-        createdAt: new Date('2024-03-22'),
-        updatedAt: new Date(),
-        subscriptionEndsAt: new Date('2025-12-05'),
-      },
-      {
-        id: 'tenant_healthtech_2024',
-        name: 'HealthTech Labs',
-        slug: 'healthtech',
-        plan: 'trial',
-        status: 'trial',
-        userCount: 12,
-        userLimit: 25,
-        mrr: 0,
-        settings: this.getDefaultSettings('trial'),
-        metadata: {
-          industry: 'healthcare',
-          companySize: '11-50',
-          country: 'US',
-          primaryContact: 'Dr. Emily Davis',
-          primaryEmail: 'emily@healthtechlabs.com',
-        },
-        createdAt: new Date('2024-11-01'),
-        updatedAt: new Date(),
-        trialEndsAt: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000), // 7 days
-      },
-      {
-        id: 'tenant_financeFirst_2024',
-        name: 'FinanceFirst',
-        slug: 'financefirst',
-        plan: 'intelligence',
-        status: 'active',
-        userCount: 54,
-        userLimit: 75,
-        mrr: 10000,
-        settings: this.getDefaultSettings('intelligence'),
-        metadata: {
-          industry: 'financial_services',
-          companySize: '201-500',
-          country: 'US',
-          primaryContact: 'Mike Thompson',
-          primaryEmail: 'mike@financefirst.com',
-        },
-        createdAt: new Date('2024-04-08'),
-        updatedAt: new Date(),
-        subscriptionEndsAt: new Date('2025-04-08'),
-      },
-    ];
+  private mapPlanFromDb(plan: TenantPlan): Tenant['plan'] {
+    const mapping: Record<TenantPlan, Tenant['plan']> = {
+      FREE: 'free',
+      TRIAL: 'trial',
+      STARTER: 'starter',
+      PROFESSIONAL: 'professional',
+      ENTERPRISE: 'enterprise',
+      SOVEREIGN: 'sovereign',
+    };
+    return mapping[plan] || 'trial';
+  }
 
-    sampleTenants.forEach(t => this.tenants.set(t.id, t));
-    logger.info(`TenantService: Initialized with ${sampleTenants.length} tenants`);
+  private mapPlanToDb(plan: Tenant['plan']): TenantPlan {
+    const mapping: Record<Tenant['plan'], TenantPlan> = {
+      free: 'FREE',
+      trial: 'TRIAL',
+      starter: 'STARTER',
+      professional: 'PROFESSIONAL',
+      enterprise: 'ENTERPRISE',
+      sovereign: 'SOVEREIGN',
+    };
+    return mapping[plan] || 'TRIAL';
+  }
+
+  private mapStatusFromDb(status: TenantStatus): Tenant['status'] {
+    const mapping: Record<TenantStatus, Tenant['status']> = {
+      PENDING: 'pending',
+      TRIAL: 'trial',
+      ACTIVE: 'active',
+      SUSPENDED: 'suspended',
+      CHURNED: 'churned',
+    };
+    return mapping[status] || 'trial';
+  }
+
+  private mapStatusToDb(status: Tenant['status']): TenantStatus {
+    const mapping: Record<Tenant['status'], TenantStatus> = {
+      pending: 'PENDING',
+      trial: 'TRIAL',
+      active: 'ACTIVE',
+      suspended: 'SUSPENDED',
+      churned: 'CHURNED',
+    };
+    return mapping[status] || 'TRIAL';
+  }
+
+  private mapDbToTenant(dbTenant: any): Tenant {
+    const settings = (dbTenant.settings as any) || {};
+    const metadata = (dbTenant.metadata as any) || {};
+    
+    return {
+      id: dbTenant.id,
+      name: dbTenant.name,
+      slug: dbTenant.slug,
+      plan: this.mapPlanFromDb(dbTenant.plan),
+      status: this.mapStatusFromDb(dbTenant.status),
+      userCount: dbTenant.user_count,
+      userLimit: dbTenant.user_limit,
+      mrr: Number(dbTenant.mrr) || 0,
+      billingEmail: dbTenant.billing_email,
+      settings: {
+        timezone: settings.timezone || 'UTC',
+        dateFormat: settings.dateFormat || 'MM/DD/YYYY',
+        currency: settings.currency || 'USD',
+        language: settings.language || 'en',
+        features: settings.features || this.getDefaultSettings(this.mapPlanFromDb(dbTenant.plan)).features,
+        limits: settings.limits || this.getDefaultSettings(this.mapPlanFromDb(dbTenant.plan)).limits,
+      },
+      metadata: {
+        industry: metadata.industry || dbTenant.industry,
+        companySize: metadata.companySize || dbTenant.company_size,
+        country: metadata.country || dbTenant.country,
+        primaryContact: metadata.primaryContact || dbTenant.primary_contact,
+        primaryEmail: metadata.primaryEmail || dbTenant.billing_email,
+      },
+      createdAt: dbTenant.created_at,
+      updatedAt: dbTenant.updated_at,
+      trialEndsAt: dbTenant.trial_ends_at,
+      subscriptionEndsAt: dbTenant.subscription_ends_at,
+    };
   }
 
   private getDefaultSettings(plan: string): TenantSettings {
@@ -235,7 +198,7 @@ class TenantService {
   }
 
   // ---------------------------------------------------------------------------
-  // TENANT CRUD
+  // TENANT CRUD - REAL PRISMA DATABASE QUERIES
   // ---------------------------------------------------------------------------
 
   async createTenant(data: {
@@ -244,71 +207,106 @@ class TenantService {
     plan: Tenant['plan'];
     metadata?: Tenant['metadata'];
   }): Promise<Tenant> {
-    const tenant: Tenant = {
-      id: `tenant_${data.slug}_${Date.now()}`,
-      name: data.name,
-      slug: data.slug,
-      plan: data.plan,
-      status: data.plan === 'trial' ? 'trial' : 'active',
-      userCount: 0,
-      userLimit: this.getDefaultSettings(data.plan).limits.maxUsers,
-      mrr: this.getPlanMrr(data.plan),
-      settings: this.getDefaultSettings(data.plan),
-      metadata: data.metadata || {},
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      trialEndsAt: data.plan === 'trial' ? new Date(Date.now() + 14 * 24 * 60 * 60 * 1000) : undefined,
-    };
-
-    this.tenants.set(tenant.id, tenant);
-    logger.info(`TenantService: Created tenant ${tenant.name} (${tenant.id})`);
-    
-    return tenant;
+    try {
+      const settings = this.getDefaultSettings(data.plan);
+      const dbTenant = await prisma.tenants.create({
+        data: {
+          name: data.name,
+          slug: data.slug,
+          plan: this.mapPlanToDb(data.plan),
+          status: data.plan === 'trial' ? 'TRIAL' : 'ACTIVE',
+          user_count: 0,
+          user_limit: settings.limits.maxUsers,
+          mrr: this.getPlanMrr(data.plan),
+          billing_email: data.metadata?.primaryEmail,
+          primary_contact: data.metadata?.primaryContact,
+          industry: data.metadata?.industry,
+          company_size: data.metadata?.companySize,
+          country: data.metadata?.country,
+          settings: settings as any,
+          metadata: data.metadata as any || {},
+          trial_ends_at: data.plan === 'trial' ? new Date(Date.now() + 14 * 24 * 60 * 60 * 1000) : null,
+        },
+      });
+      logger.info(`TenantService: Created tenant ${data.name} (${dbTenant.id})`);
+      return this.mapDbToTenant(dbTenant);
+    } catch (error) {
+      logger.error('TenantService: Failed to create tenant', error);
+      throw error;
+    }
   }
 
   private getPlanMrr(plan: string): number {
     const prices: Record<string, number> = {
+      free: 0,
       trial: 0,
-      foundation: 5000,
-      intelligence: 10000,
-      governance: 15000,
-      sovereign: 25000,
+      starter: 2500,
+      professional: 7500,
+      enterprise: 15000,
+      sovereign: 35000,
     };
     return prices[plan] || 0;
   }
 
   async getTenant(tenantId: string): Promise<Tenant | null> {
-    return this.tenants.get(tenantId) || null;
+    try {
+      const dbTenant = await prisma.tenants.findUnique({
+        where: { id: tenantId },
+      });
+      return dbTenant ? this.mapDbToTenant(dbTenant) : null;
+    } catch (error) {
+      logger.error(`TenantService: Failed to get tenant ${tenantId}`, error);
+      return null;
+    }
   }
 
   async getTenantBySlug(slug: string): Promise<Tenant | null> {
-    for (const tenant of this.tenants.values()) {
-      if (tenant.slug === slug) return tenant;
+    try {
+      const dbTenant = await prisma.tenants.findUnique({
+        where: { slug },
+      });
+      return dbTenant ? this.mapDbToTenant(dbTenant) : null;
+    } catch (error) {
+      logger.error(`TenantService: Failed to get tenant by slug ${slug}`, error);
+      return null;
     }
-    return null;
   }
 
   async updateTenant(tenantId: string, updates: Partial<Tenant>): Promise<Tenant | null> {
-    const tenant = this.tenants.get(tenantId);
-    if (!tenant) return null;
+    try {
+      const updateData: any = { updated_at: new Date() };
+      if (updates.name) updateData.name = updates.name;
+      if (updates.plan) updateData.plan = this.mapPlanToDb(updates.plan);
+      if (updates.status) updateData.status = this.mapStatusToDb(updates.status);
+      if (updates.userLimit) updateData.user_limit = updates.userLimit;
+      if (updates.billingEmail) updateData.billing_email = updates.billingEmail;
+      if (updates.settings) updateData.settings = updates.settings;
+      if (updates.metadata) updateData.metadata = updates.metadata;
 
-    const updated = {
-      ...tenant,
-      ...updates,
-      updatedAt: new Date(),
-    };
-    this.tenants.set(tenantId, updated);
-    logger.info(`TenantService: Updated tenant ${tenantId}`);
-    
-    return updated;
+      const dbTenant = await prisma.tenants.update({
+        where: { id: tenantId },
+        data: updateData,
+      });
+      logger.info(`TenantService: Updated tenant ${tenantId}`);
+      return this.mapDbToTenant(dbTenant);
+    } catch (error) {
+      logger.error(`TenantService: Failed to update tenant ${tenantId}`, error);
+      return null;
+    }
   }
 
   async deleteTenant(tenantId: string): Promise<boolean> {
-    const deleted = this.tenants.delete(tenantId);
-    if (deleted) {
-      logger.info(`TenantService: Deleted tenant ${tenantId}`);
+    try {
+      await prisma.tenants.update({
+        where: { id: tenantId },
+        data: { deleted_at: new Date() },
+      });
+      logger.info(`TenantService: Soft deleted tenant ${tenantId}`);
+      return true;
+    } catch (error) {
+      logger.error(`TenantService: Failed to delete tenant ${tenantId}`, error);
+      return false;
     }
-    return deleted;
   }
 
   async listTenants(filters?: {
@@ -316,24 +314,33 @@ class TenantService {
     plan?: Tenant['plan'];
     search?: string;
   }): Promise<Tenant[]> {
-    let tenants = Array.from(this.tenants.values());
+    try {
+      const where: any = { deleted_at: null };
+      
+      if (filters?.status) {
+        where.status = this.mapStatusToDb(filters.status);
+      }
+      if (filters?.plan) {
+        where.plan = this.mapPlanToDb(filters.plan);
+      }
+      if (filters?.search) {
+        where.OR = [
+          { name: { contains: filters.search, mode: 'insensitive' } },
+          { slug: { contains: filters.search, mode: 'insensitive' } },
+          { billing_email: { contains: filters.search, mode: 'insensitive' } },
+        ];
+      }
 
-    if (filters?.status) {
-      tenants = tenants.filter(t => t.status === filters.status);
-    }
-    if (filters?.plan) {
-      tenants = tenants.filter(t => t.plan === filters.plan);
-    }
-    if (filters?.search) {
-      const search = filters.search.toLowerCase();
-      tenants = tenants.filter(t => 
-        t.name.toLowerCase().includes(search) ||
-        t.slug.toLowerCase().includes(search) ||
-        t.metadata.primaryEmail?.toLowerCase().includes(search)
-      );
-    }
+      const dbTenants = await prisma.tenants.findMany({
+        where,
+        orderBy: { created_at: 'desc' },
+      });
 
-    return tenants.sort((a, b) => b.createdAt.getTime() - a.createdAt.getTime());
+      return dbTenants.map(t => this.mapDbToTenant(t));
+    } catch (error) {
+      logger.error('TenantService: Failed to list tenants', error);
+      return [];
+    }
   }
 
   // ---------------------------------------------------------------------------
@@ -341,26 +348,29 @@ class TenantService {
   // ---------------------------------------------------------------------------
 
   async upgradePlan(tenantId: string, newPlan: Tenant['plan']): Promise<Tenant | null> {
-    const tenant = this.tenants.get(tenantId);
-    if (!tenant) return null;
-
-    const updated = {
-      ...tenant,
-      plan: newPlan,
-      status: 'active' as const,
-      mrr: this.getPlanMrr(newPlan),
-      settings: this.getDefaultSettings(newPlan),
-      userLimit: this.getDefaultSettings(newPlan).limits.maxUsers,
-      updatedAt: new Date(),
-      trialEndsAt: undefined,
-    };
-    this.tenants.set(tenantId, updated);
-    logger.info(`TenantService: Upgraded tenant ${tenantId} to ${newPlan}`);
-    
-    return updated;
+    try {
+      const settings = this.getDefaultSettings(newPlan);
+      const dbTenant = await prisma.tenants.update({
+        where: { id: tenantId },
+        data: {
+          plan: this.mapPlanToDb(newPlan),
+          status: 'ACTIVE',
+          mrr: this.getPlanMrr(newPlan),
+          user_limit: settings.limits.maxUsers,
+          settings: settings as any,
+          trial_ends_at: null,
+          updated_at: new Date(),
+        },
+      });
+      logger.info(`TenantService: Upgraded tenant ${tenantId} to ${newPlan}`);
+      return this.mapDbToTenant(dbTenant);
+    } catch (error) {
+      logger.error(`TenantService: Failed to upgrade tenant ${tenantId}`, error);
+      return null;
+    }
   }
 
-  async suspendTenant(tenantId: string, reason: string): Promise<Tenant | null> {
+  async suspendTenant(tenantId: string, _reason: string): Promise<Tenant | null> {
     return this.updateTenant(tenantId, { status: 'suspended' });
   }
 
@@ -369,59 +379,116 @@ class TenantService {
   }
 
   // ---------------------------------------------------------------------------
-  // METRICS
+  // METRICS - REAL DATABASE AGGREGATION
   // ---------------------------------------------------------------------------
 
-  getMetrics(): TenantMetrics {
-    const tenants = Array.from(this.tenants.values());
-    
-    return {
-      totalTenants: tenants.length,
-      activeTenants: tenants.filter(t => t.status === 'active').length,
-      trialTenants: tenants.filter(t => t.status === 'trial').length,
-      churnedTenants: tenants.filter(t => t.status === 'churned').length,
-      totalMrr: tenants.reduce((sum, t) => sum + t.mrr, 0),
-      avgRevenuePerTenant: tenants.length > 0 
-        ? tenants.reduce((sum, t) => sum + t.mrr, 0) / tenants.filter(t => t.mrr > 0).length 
-        : 0,
-      totalUsers: tenants.reduce((sum, t) => sum + t.userCount, 0),
-    };
+  async getMetrics(): Promise<TenantMetrics> {
+    try {
+      const [counts, mrrResult, userResult] = await Promise.all([
+        prisma.tenants.groupBy({
+          by: ['status'],
+          where: { deleted_at: null },
+          _count: { id: true },
+        }),
+        prisma.tenants.aggregate({
+          where: { deleted_at: null },
+          _sum: { mrr: true },
+          _count: { id: true },
+        }),
+        prisma.tenants.aggregate({
+          where: { deleted_at: null },
+          _sum: { user_count: true },
+        }),
+      ]);
+
+      const statusCounts: Record<string, number> = {};
+      counts.forEach(c => {
+        statusCounts[c.status] = c._count.id;
+      });
+
+      const totalMrr = Number(mrrResult._sum.mrr) || 0;
+      const totalTenants = mrrResult._count.id || 0;
+      const paidTenants = (statusCounts['ACTIVE'] || 0) + (statusCounts['ENTERPRISE'] || 0);
+
+      return {
+        totalTenants,
+        activeTenants: statusCounts['ACTIVE'] || 0,
+        trialTenants: statusCounts['TRIAL'] || 0,
+        churnedTenants: statusCounts['CHURNED'] || 0,
+        totalMrr,
+        avgRevenuePerTenant: paidTenants > 0 ? totalMrr / paidTenants : 0,
+        totalUsers: Number(userResult._sum.user_count) || 0,
+      };
+    } catch (error) {
+      logger.error('TenantService: Failed to get metrics', error);
+      return {
+        totalTenants: 0,
+        activeTenants: 0,
+        trialTenants: 0,
+        churnedTenants: 0,
+        totalMrr: 0,
+        avgRevenuePerTenant: 0,
+        totalUsers: 0,
+      };
+    }
   }
 
   // ---------------------------------------------------------------------------
-  // USAGE TRACKING
+  // USAGE TRACKING - REAL DATABASE
   // ---------------------------------------------------------------------------
 
   async recordUsage(tenantId: string, metrics: Partial<TenantUsage>): Promise<void> {
-    const period = new Date().toISOString().slice(0, 7); // YYYY-MM
-    const existing = this.usage.get(tenantId) || [];
-    
-    let current = existing.find(u => u.period === period);
-    if (!current) {
-      current = {
-        tenantId,
-        period,
-        apiCalls: 0,
-        deliberations: 0,
-        activeUsers: 0,
-        storageUsedGb: 0,
-        agentInvocations: 0,
-      };
-      existing.push(current);
+    try {
+      const period = new Date().toISOString().slice(0, 7);
+      
+      await prisma.tenant_usage.upsert({
+        where: {
+          tenant_id_period: { tenant_id: tenantId, period },
+        },
+        update: {
+          api_calls: metrics.apiCalls ? { increment: metrics.apiCalls } : undefined,
+          deliberations: metrics.deliberations ? { increment: metrics.deliberations } : undefined,
+          active_users: metrics.activeUsers,
+          storage_used_mb: metrics.storageUsedGb ? Math.round(metrics.storageUsedGb * 1024) : undefined,
+          agent_invocations: metrics.agentInvocations ? { increment: metrics.agentInvocations } : undefined,
+          updated_at: new Date(),
+        },
+        create: {
+          tenant_id: tenantId,
+          period,
+          api_calls: metrics.apiCalls || 0,
+          deliberations: metrics.deliberations || 0,
+          active_users: metrics.activeUsers || 0,
+          storage_used_mb: metrics.storageUsedGb ? Math.round(metrics.storageUsedGb * 1024) : 0,
+          agent_invocations: metrics.agentInvocations || 0,
+        },
+      });
+    } catch (error) {
+      logger.error(`TenantService: Failed to record usage for ${tenantId}`, error);
     }
-
-    if (metrics.apiCalls) current.apiCalls += metrics.apiCalls;
-    if (metrics.deliberations) current.deliberations += metrics.deliberations;
-    if (metrics.activeUsers) current.activeUsers = metrics.activeUsers;
-    if (metrics.storageUsedGb) current.storageUsedGb = metrics.storageUsedGb;
-    if (metrics.agentInvocations) current.agentInvocations += metrics.agentInvocations;
-
-    this.usage.set(tenantId, existing);
   }
 
   async getUsage(tenantId: string, months: number = 6): Promise<TenantUsage[]> {
-    const usage = this.usage.get(tenantId) || [];
-    return usage.slice(-months);
+    try {
+      const dbUsage = await prisma.tenant_usage.findMany({
+        where: { tenant_id: tenantId },
+        orderBy: { period: 'desc' },
+        take: months,
+      });
+
+      return dbUsage.map(u => ({
+        tenantId: u.tenant_id,
+        period: u.period,
+        apiCalls: u.api_calls,
+        deliberations: u.deliberations,
+        activeUsers: u.active_users,
+        storageUsedGb: u.storage_used_mb / 1024,
+        agentInvocations: u.agent_invocations,
+      }));
+    } catch (error) {
+      logger.error(`TenantService: Failed to get usage for ${tenantId}`, error);
+      return [];
+    }
   }
 }
 

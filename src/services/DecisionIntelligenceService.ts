@@ -5,6 +5,7 @@
 // =============================================================================
 
 import { ollamaService } from '../lib/ollama';
+import { FINANCIAL_DECISION_DEBT } from '../data/financialDemoData';
 
 // =============================================================================
 // TYPES
@@ -380,72 +381,76 @@ class DecisionIntelligenceService {
       return;
     }
 
-    // Create sample decisions
-    const sampleDecisions: Partial<Decision>[] = [
+    // Use Financial vertical demo data (Meridian Capital Partners - $45B Investment Bank)
+    const financialDecisions: Partial<Decision>[] = [
       {
-        title: 'Cloud Infrastructure Migration',
-        description: 'Migrate legacy on-premise systems to AWS cloud infrastructure',
+        title: 'Quantum Analytics Acquisition',
+        description: 'Acquire $180M fintech specializing in AI-driven credit scoring with 23% better default prediction than FICO',
+        status: 'decided',
+        priority: 'critical',
+        category: 'M&A',
+        budget: 180000000,
+        timeframe: '9 months',
+        finalDecision: 'Approved with conditions: $140M upfront + $40M earnout, 3-year founder retention, OCC pre-filing',
+        riskScore: 68,
+      },
+      {
+        title: 'Emerging Market Sovereign Debt Exit',
+        description: 'Evaluate $2.3B EM sovereign debt portfolio given escalating geopolitical tensions and 40% currency volatility increase',
+        status: 'decided',
+        priority: 'high',
+        category: 'Risk Management',
+        budget: 0,
+        timeframe: '6 weeks',
+        finalDecision: 'Partial exit approved: Reduce high-risk exposures by 40%, maintain investment-grade EM, implement currency hedges',
+        riskScore: 74,
+      },
+      {
+        title: 'Cryptocurrency Custody & Trading Desk',
+        description: 'Launch institutional crypto services - 34 clients requesting, $45M Year 1 revenue opportunity, $28M investment required',
         status: 'deliberating',
         priority: 'high',
-        category: 'Technology',
-        budget: 2500000,
+        category: 'Strategy',
+        budget: 28000000,
         timeframe: '12 months',
+        riskScore: 72,
       },
       {
-        title: 'Q4 Marketing Budget Increase',
-        description: 'Increase Q4 marketing spend by 25% to capture holiday season',
-        status: 'decided',
-        priority: 'medium',
-        category: 'Marketing',
-        budget: 500000,
-        timeframe: '3 months',
-        finalDecision: 'Approved with 15% increase instead of 25%',
-      },
-      {
-        title: 'AI Integration Strategy',
-        description: 'Develop strategy for integrating AI across all business units',
+        title: 'Core Banking System Modernization',
+        description: 'Replace 25-year-old mainframe with cloud-native platform to reduce operational risk and enable real-time analytics',
         status: 'analyzing',
         priority: 'critical',
-        category: 'Strategy',
-        budget: 5000000,
-        timeframe: '24 months',
-      },
-    ];
-
-    sampleDecisions.forEach((d) => this.createDecision(d));
-
-    // Create sample pending decisions for debt tracking
-    const samplePending: Partial<PendingDecision>[] = [
-      {
-        title: 'Vendor Contract Renewal',
-        department: 'Procurement',
-        owner: 'Sarah Johnson',
-        daysStuck: 23,
-        estimatedDailyCost: 1500,
-        priority: 'high',
-        blockedBy: [{ name: 'Legal Review', type: 'department' }],
+        category: 'Technology',
+        budget: 45000000,
+        timeframe: '36 months',
+        riskScore: 65,
       },
       {
-        title: 'Product Roadmap Q1',
-        department: 'Product',
-        owner: 'Mike Chen',
-        daysStuck: 15,
-        estimatedDailyCost: 3200,
+        title: 'Basel III.1 Implementation',
+        description: 'Implement final Basel III reforms including revised standardized approaches for credit, market, and operational risk',
+        status: 'deliberating',
         priority: 'critical',
-        blockedBy: [{ name: 'Budget Approval', type: 'process' }],
-      },
-      {
-        title: 'Engineering Hiring Plan',
-        department: 'HR',
-        owner: 'Lisa Park',
-        daysStuck: 31,
-        estimatedDailyCost: 2800,
-        priority: 'high',
-        blockedBy: [{ name: 'CFO Approval', type: 'person' }],
+        category: 'Compliance',
+        budget: 8500000,
+        timeframe: '18 months',
+        riskScore: 45,
       },
     ];
 
-    samplePending.forEach((p) => this.createPendingDecision(p));
+    financialDecisions.forEach((d) => this.createDecision(d));
+
+    // Use Financial decision debt data from demo data file
+    FINANCIAL_DECISION_DEBT.forEach((debt) => {
+      this.createPendingDecision({
+        title: debt.title,
+        department: debt.department,
+        owner: debt.owner,
+        daysStuck: debt.daysStuck,
+        estimatedDailyCost: debt.dailyCarryingCost,
+        priority: debt.priority as 'critical' | 'high' | 'medium' | 'low',
+        blockedBy: debt.blockers.map((b) => ({ name: b, type: 'process' })),
+      });
+    });
   }
 
   // ---------------------------------------------------------------------------

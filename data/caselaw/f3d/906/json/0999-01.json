@@ -1,0 +1,661 @@
+{
+  "id": 12518970,
+  "name": "DATA ENGINE TECHNOLOGIES LLC, Plaintiff-Appellant v. GOOGLE LLC, Defendant-Appellee",
+  "name_abbreviation": "Data Engine Techs. LLC v. Google LLC",
+  "decision_date": "2018-10-09",
+  "docket_number": "2017-1135",
+  "first_page": "999",
+  "last_page": "1013",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "906 F.3d 999"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Fed. Cir.",
+    "id": 8955,
+    "name": "United States Court of Appeals for the Federal Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "792 F.3d 1363",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6055438
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1369"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/792/1363-01"
+      ]
+    },
+    {
+      "cite": "838 F.3d 1266",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12174984
+      ],
+      "weight": 4,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1268"
+        },
+        {
+          "page": "1269"
+        },
+        {
+          "page": "1271",
+          "parenthetical": "alteration in original"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/838/1266-01"
+      ]
+    },
+    {
+      "cite": "37 C.F.R. \u00a7 1.11",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "pin_cites": [
+        {
+          "page": "(a)",
+          "parenthetical": "\"The specification, drawings, and all papers to the file of: [a] published application; a patent; or a statutory invention registration are open to inspection by the public ....\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "222 F.3d 951",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11243545
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "957",
+          "parenthetical": "\"The prosecution history constitutes a public record ....\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/222/0951-01"
+      ]
+    },
+    {
+      "cite": "998 F.2d 1192",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10517085
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "1196"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/998/1192-01"
+      ]
+    },
+    {
+      "cite": "824 F.3d 353",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4322827
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "360",
+          "parenthetical": "quoting Pension Benefit Guar. Corp. v. White Consol. Indus., Inc. , 998 F.2d 1192, 1196 (3d Cir. 1993) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/824/0353-01"
+      ]
+    },
+    {
+      "cite": "776 F.3d 1343",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6892926
+      ],
+      "weight": 3,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "1347-48",
+          "parenthetical": "alteration in original"
+        },
+        {
+          "page": "1345, 1347"
+        },
+        {
+          "page": "1347"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/776/1343-01"
+      ]
+    },
+    {
+      "cite": "827 F.3d 1042",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4334685
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1050"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/827/1042-01"
+      ]
+    },
+    {
+      "cite": "822 F.3d 1327",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4282681
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1336"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/822/1327-01"
+      ]
+    },
+    {
+      "cite": "896 F.3d 1335",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12517715
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1345",
+          "parenthetical": "quoting Enfish, LLC v. Microsoft Corp. , 822 F.3d 1327, 1336 (Fed Cir. 2016) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/896/1335-01"
+      ]
+    },
+    {
+      "cite": "830 F.3d 1350",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4349286
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1353-54"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/830/1350-01"
+      ]
+    },
+    {
+      "cite": "850 F.3d 1315",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12277922
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "parenthetical": "hereinafter, \" Erie Indemnity \""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/850/1315-01"
+      ]
+    },
+    {
+      "cite": "850 F.3d 1332",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12277932
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "parenthetical": "hereinafter, \" Capital One \""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/850/1332-01"
+      ]
+    },
+    {
+      "cite": "838 F.3d 1253",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12174961
+      ],
+      "weight": 4,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1255, 1258"
+        },
+        {
+          "page": "1258"
+        },
+        {
+          "page": "1261"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/838/1253-01"
+      ]
+    },
+    {
+      "cite": "2015 WL 774655",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 3,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "*4"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "675 F. App'x 1001",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        12397678
+      ],
+      "weight": 4,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1003"
+        },
+        {
+          "page": "1004",
+          "parenthetical": "alterations in original"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/675/1001-01"
+      ]
+    },
+    {
+      "cite": "566 U.S. 66",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12188353
+      ],
+      "weight": 10,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "78-79"
+        },
+        {
+          "parenthetical": "alteration in original"
+        },
+        {
+          "page": "72-73"
+        },
+        {
+          "page": "78"
+        },
+        {
+          "page": "72"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/566/0066-01"
+      ]
+    },
+    {
+      "cite": "867 F.3d 1253",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12275598
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1262"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/867/1253-01"
+      ]
+    },
+    {
+      "cite": "880 F.3d 1356",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12267250
+      ],
+      "weight": 10,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1361",
+          "parenthetical": "citing Visual Memory LLC v. NVIDIA Corp. , 867 F.3d 1253, 1262 (Fed. Cir. 2017) "
+        },
+        {
+          "page": "1359"
+        },
+        {
+          "page": "1363"
+        },
+        {
+          "page": "1362",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "1363"
+        },
+        {
+          "page": "1362, 1363"
+        },
+        {
+          "page": "1363"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/880/1356-01"
+      ]
+    },
+    {
+      "cite": "409 U.S. 63",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6171477
+      ],
+      "weight": 3,
+      "year": 1972,
+      "pin_cites": [
+        {
+          "page": "67"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/409/0063-01"
+      ]
+    },
+    {
+      "cite": "569 U.S. 576",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12697061
+      ],
+      "weight": 3,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "589"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/569/0576-01"
+      ]
+    },
+    {
+      "cite": "134 S.Ct. 2347",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12581589
+      ],
+      "weight": 10,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "2355"
+        },
+        {
+          "page": "2354"
+        },
+        {
+          "page": "2355"
+        },
+        {
+          "page": "2355"
+        },
+        {
+          "page": "2357",
+          "parenthetical": "alterations in original"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/134/2347-01"
+      ]
+    },
+    {
+      "cite": "573 U.S. 208",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "year": 2014,
+      "opinion_index": 0
+    },
+    {
+      "cite": "881 F.3d 1360",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12275489
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1365"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/881/1360-01"
+      ]
+    },
+    {
+      "cite": "882 F.3d 1121",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12515907
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1125"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/882/1121-01"
+      ]
+    },
+    {
+      "cite": "667 F.3d 388",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3715111
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "390"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/667/0388-01"
+      ]
+    },
+    {
+      "cite": "482 F.3d 1317",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "1320"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1295",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "211 F.Supp.3d 669",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "case_ids": [
+        12272132
+      ],
+      "weight": 14,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "677-78",
+          "parenthetical": "\" District Court Op. \""
+        },
+        {
+          "page": "680"
+        },
+        {
+          "page": "678"
+        },
+        {
+          "page": "679"
+        },
+        {
+          "page": "680-81",
+          "parenthetical": "emphases omitted"
+        },
+        {
+          "page": "680"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-3d/211/0669-01"
+      ]
+    },
+    {
+      "cite": "35 U.S.C. \u00a7 101",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 15,
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1460,
+    "char_count": 41300,
+    "pagerank": {
+      "raw": 9.861155371644421e-08,
+      "percentile": 0.5344448653184027
+    },
+    "sha256": "917ea8d33dfea69acfd1c23b8ed543215b44eecaddcbc51bc7495fce81ca7654",
+    "simhash": "1:aa78b031456a7c72",
+    "word_count": 6376
+  },
+  "last_updated": "2024-02-27T18:46:07.237745+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Reyna, Bryson, and Stoll, Circuit Judges."
+    ],
+    "parties": [
+      "DATA ENGINE TECHNOLOGIES LLC, Plaintiff-Appellant\nv.\nGOOGLE LLC, Defendant-Appellee"
+    ],
+    "opinions": [
+      {
+        "text": "Stoll, Circuit Judge.\nData Engine Technologies LLC (\"DET\") appeals the district court's entry of judgment on the pleadings holding that the asserted claims of DET's U.S. Patent Nos. 5,590,259 ; 5,784,545 ; 6,282,551 ; and 5,303,146 are ineligible under 35 U.S.C. \u00a7 101. The district court held that the asserted claims are directed to abstract ideas and fail to provide an inventive concept. We conclude that, with the exception of claim 1 of the '551 patent, the asserted claims of the '259, '545, and '551 patents (\"Tab Patents\") are directed to patent-eligible subject matter. These claims are not abstract, but rather are directed to a specific improved method for navigating through complex three-dimensional electronic spreadsheets. We agree, however, that the asserted claims of the '146 patent, reciting methods for tracking changes to data in spreadsheets, are directed to the abstract idea of collecting, recognizing, and storing changed information. After a searching review, we find nothing in these claims that provides an inventive concept sufficient to render the claims patent eligible. Accordingly, we affirm-in-part, reverse-in-part, and remand.\nBACKGROUND\nI. The Tab Patents\nThe Tab Patents are titled \"System and Methods for Improved Spreadsheet Interface With User-Familiar Objects,\" and claim priority to April 8, 1992. The Tab Patents claim systems and methods for making complex electronic spreadsheets more accessible by providing familiar, user-friendly interface objects-specifically, notebook tabs-to navigate through spreadsheets while circumventing the arduous process of searching for, memorizing, and entering complex commands.\nThe Tab Patents teach that the advent of electronic spreadsheets offered dramatic improvements in creating, editing, and using spreadsheets to organize and process data. Despite such advantages, twenty-five years ago, electronic spreadsheets were not easy to use. '259 patent col. 2 ll. 57-59. Users were required to master complex commands in order to perform basic operations within a spreadsheet. Id. at col. 2 ll. 28-29. To find an appropriate command for an operation, users would navigate through complex menu systems, with the proper command buried under several menus. Id. at col. 2 ll. 29-32. \"Finding this approach to be unworkable, many users [would] memorize frequently-needed commands instead.\" Id. at col. 2 ll. 41-42. Because such commands were arbitrary (e.g., \"/Worksheet Global Default Other International\"), users could only master a very small fraction of available commands and features. Id. at col. 2 ll. 40-47, 53-56.\nThe Tab Patents specifically identify problems with navigation through prior art three-dimensional or multipage electronic spreadsheets. The Tab Patents explain that the complex commands required to manipulate each additional spread of the three-dimensional spreadsheet diminished the utility and ease of use of this technology.\nThe invention claimed in the Tab Patents provided a solution to this problem. Specifically, the Tab Patents are directed to and claim a method of implementing a notebook-tabbed interface, which allows users to easily navigate through three-dimensional electronic spreadsheets. As shown in Figure 4G of the '259 patent below, the Tab Patents provide \"an electronic spreadsheet system include[ing] a notebook interface having a plurality of notebook pages, each of which contains a spread of information cells, or other desired page type.\" Id. at col. 3 ll. 48-52. In contrast to conventional electronic spreadsheets, the method claimed in the Tab Patents \"includes user-familiar objects, i.e., paradigms of real-world objects which the user already knows how to use\" such as notebook tabs. Id. at col. 6 ll. 52-58. \"In this manner, complexities of the system are hidden under ordinary, everyday object metaphors,\" providing a \"highly intuitive interface-one in which advanced features (e.g., three-dimensionality) are easily learned.\" Id. at col. 6 ll. 58-63.\nFigure 2D below shows more closely an individual spreadsheet page with notebook tabs located along the bottom edge of the page.\nIn this preferred embodiment, \"each page identifier is in the form of a tab member (e.g., members 261a, 262a, 263a) situated along a bottom edge of the notebook.\" Id. at col. 8 ll. 13-15. Although these tabs are labeled A, B, and C, etc., they are typically given descriptive names assigned by the user. Id. at col. 8 ll. 19-23. To move to different spreadsheet pages, the user selects the corresponding tab for that page. Id. at col. 8 ll. 45-47. Thus, \"instead of finding information by scrolling different parts of a large spreadsheet, or by invoking multiple windows of a conventional three-dimensional spreadsheet, the pre-sent invention allows the user to simply and conveniently 'flip through' several pages of the notebook to rapidly locate information of interest.\" Id. at col. 8 ll. 51-57. This improved interface allows for \"rapidly accessing and processing information on the different pages, including, for example, displaying a plurality of page identifiers for selecting individual pages.\" Id. at col. 3 ll. 53-56.\nAlthough these spreadsheet interfaces have become ubiquitous, Quattro Pro, the first commercial embodiment of the claimed invention, was highly acclaimed as having revolutionized three-dimensional electronic spreadsheets. During prosecution, DET submitted contemporaneous articles showing the state of the art at the time of the invention and evidencing the significance of the claimed methods to spreadsheet technology. For example, PC World , a leading computer magazine, published a front-page article, \"Quattro Pro for Windows: The Ultimate 3-D Spreadsheet .\" J.A. 981. The article reflected the industry's view that \"keeping large, complex worksheet projects organized, manageable, and reliable ha[d] long been a major concern for serious spreadsheet users\" and that existing spreadsheets had \"data and results hidden all over the place.\" J.A. 982. The article touts the claimed notebook-tabbed spreadsheet interface as a solution to that problem, explaining that it \"makes developing nifty applications far easier for the average spreadsheet user, and [that] intelligent command organization makes navigation efficient.\" Id. PC World published another cover story naming Quattro Pro \"The Best of 1992,\" again lauding it as \"the first spreadsheet to make three-dimensional modeling an accessible, useful analytic tool.\" J.A. 1007. The article stated that \"[o]ne of the keys to the product's success is a notebook metaphor, in which each worksheet page can be assigned a descriptive name and users can navigate through the set by clicking on page tabs.\" Id .\nSimilarly, in 1992, InfoWorld named Quattro Pro the product of the year for productivity applications. In doing so, InfoWorld wrote:\nWe collected all the word processors, spreadsheets, databases, personal information managers, and other productivity applications and asked ourselves a question: \"Which of these programs really changed the way an individual user goes about handling data? Does any one stand out as a productivity booster?\"\nOur answer was Quattro Pro for Windows. The reason: Borland designed this program from the ground up and examined how spreadsheet users would work in a Windows environment. The notebook metaphor, with pages and tabs for different worksheets, simplifies handling large worksheets . The \"interface builder\" lets a user design custom dialog boxes without extensive macro programming. And, of course, Quattro Pro's graphics are stellar.\nJ.A. 1008 (emphasis added). In total, DET submitted seven articles dated between 1992 and 1993, all touting the advantages of its use of notebook tabs to improve navigation through three-dimensional spreadsheets. See J.A. 981-1010.\nDET filed suit against Google LLC, asserting claims 1-2, 12-13, 16-17, 19, 24, 46-47, and 51 of the '259 patent ; claims 1-2, 5-7, 10, 13, and 35 of the '545 patent ; and claims 1, 3, 6-7, 10, 12-13, 15, and 18 of the '551 patent. The district court considered claim 12 of the '259 patent representative of all asserted claims of the Tab Patents. See Data Engine Techs. LLC v. Google Inc. , 211 F.Supp.3d 669, 677-78 (D. Del. 2016) (\" District Court Op. \"). Claim 12 of the '259 patent recites:\n12. In an electronic spreadsheet system for storing and manipulating information, a computer-implemented method of representing a three-dimensional spreadsheet on a screen display, the method comprising:\ndisplaying on said screen display a first spreadsheet page from a plurality of spreadsheet pages, each of said spreadsheet pages comprising an array of information cells arranged in row and column format, at least some of said information cells storing user-supplied information and formulas operative on said user-supplied information, each of said information cells being uniquely identified by a spreadsheet page identifier, a column identifier, and a row identifier;\nwhile displaying said first spreadsheet page, displaying a row of spreadsheet page identifiers along one side of said first spreadsheet page, each said spreadsheet page identifier being displayed as an image of a notebook tab on said screen display and indicating a single respective spreadsheet page, wherein at least one spreadsheet page identifier of said displayed row of spreadsheet page identifiers comprises at least one user-settable identifying character;\nreceiving user input for requesting display of a second spreadsheet page in response to selection with an input device of a spreadsheet page identifier for said second spreadsheet page;\nin response to said receiving user input step, displaying said second spreadsheet page on said screen display in a manner so as to obscure said first spreadsheet page from display while continuing to display at least a portion of said row of spreadsheet page identifiers; and\nreceiving user input for entering a formula in a cell on said second spreadsheet page, said formula including a cell reference to a particular cell on another of said spreadsheet pages having a particular spreadsheet page identifier comprising at least one user-supplied identifying character, said cell reference comprising said at least one user-supplied identifying character for said particular spreadsheet page identifier together with said column identifier and said row identifier for said particular cell.\n'259 patent col. 26 l. 43-col. 27 l. 17.\nII. The '146 Patent\nThe '146 patent is titled \"System and Methods for Improved Scenario Management in an Electronic Spreadsheet.\" The '146 patent is directed to methods that allow electronic spreadsheet users to track their changes. The specification teaches that prior art electronic spreadsheets were not particularly adept at managing \"what-if\" scenarios in a given spreadsheet. '146 patent col. 2 ll. 41-44. The patent explains that \"[s]ince a given spreadsheet model is routinely created under a set of assumptions (e.g., level of sales, corporate tax rate, and the like), it is desirable to test the extremes of one's assumptions to ascertain the likely results.\" Id. at col. 2 ll. 45-49. Prior art spreadsheets, however, \"provided little or no tools for creating and managing such a multitude of scenarios.\" Id. at col. 2 ll. 51-52. Instead, users had to \"resort to manually creating separate copies of the underlying model, with the user responsible for tracking any modifications made in the various copies.\" Id. at col. 2 ll. 53-56.\nThe '146 patent purports to solve this problem by providing an electronic spreadsheet system \"having a preferred interface and methods for creating and tracking various versions or 'scenarios' of a data model.\" Id. at col. 2 ll. 61-63. The claimed system \"includes tools for specifying a 'capture area,' that is, a specific set of information cells to be tracked and an Identify Scenario tool for automatically determining changes between a captured parent or baseline model and a new scenario.\" Id. at col. 2 ll. 63-67.\nDET alleged infringement of claims 1, 26-28, and 32-34 of the '146 patent. The district court considered independent claims 1 and 26 representative of all the asserted claims of the '146 patent. See District Court Op. , 211 F.Supp.3d at 680. Claims 1 and 26 recite:\n1. In an electronic spreadsheet system for modeling user-specified information in a data model comprising a plurality of information cells, a method for automatically tracking different versions of the data model, the method comprising:\n(a) specifying a base set of information cells for the system to track changes ;\n(b) creating a new version of the data model by modifying at least one information cell from the specified base set; and\n(c) automatically determining cells of the data model which have changed by comparing cells in the new version against corresponding ones in the base set.\n***\n26. In an electronic spreadsheet system, a method for storing different versions of a spreadsheet model, the method comprising:\n(a) maintaining a base version of the spreadsheet model as ordered information on a storage device; and\n(b) for each new version of the spreadsheet model:\n(i) determining portions of the new version which have changed when compared against the base version, and\n(ii) maintaining the new version by storing additional information for only those portions determined to have changed.\n'146 patent col. 14 ll. 1-13 (emphasis added), col. 16 ll. 7-19.\nIII. The District Court's Decision\nGoogle filed a motion for judgment on the pleadings under Federal Rule of Civil Procedure 12(c), arguing that the asserted claims of the Tab Patents and the '146 patent are directed to patent-ineligible subject matter under \u00a7 101. The district court granted the motion with respect to the Tab Patents, concluding that representative claim 12 of the '259 patent is \"directed to the abstract idea of using notebook-type tabs to label and organize spreadsheets.\"District Court Op. , 211 F.Supp.3d at 678. The district court also agreed with Google that claim 12 \"is directed to an abstract idea that humans have commonly performed entirely in their minds, with the aid of columnar pads and writing instruments.\" Id. at 679. The district court held that the remaining limitations of claim 12 fail to recite an inventive concept. Id.\nSimilarly, with respect to the '146 patent, the district court concluded that the asserted claims are directed to the abstract idea of \"collecting spreadsheet data, recognizing changes to spreadsheet data, and storing information about the changes,\" and more specifically, directed \"to input of information in a (computerized) columnar pad, recognition of changes in later versions of the inputted information, and storage of information about the changes.\" Id. at 680-81 (emphases omitted). The district court also held that additional claim limitations directed to electronic spreadsheets failed to provide an inventive concept sufficient to confer patent eligibility. Id.\nDET appeals. We have jurisdiction pursuant to 28 U.S.C. \u00a7 1295(a)(1).\nDISCUSSION\nI\nWe review the district court's judgment on the pleadings under regional circuit law. Merck & Co. v. Hi-Tech Pharmacal Co. , 482 F.3d 1317, 1320 (Fed. Cir. 2007). The Third Circuit reviews the grant of judgment on the pleadings de novo, \"accept[ing] all of the allegations in the pleadings of the party against whom the motion is addressed as true and draw[ing] all reasonable inferences in favor of the non-moving party.\" Allstate Prop. & Cas. Ins. Co. v. Squires , 667 F.3d 388, 390 (3d Cir. 2012). Patent eligibility can be determined on the pleadings under Rule 12(c) when there are no factual allegations that, when taken as true, prevent resolving the eligibility question as a matter of law. Cf. Aatrix Software, Inc. v. Green Shades Software, Inc. , 882 F.3d 1121, 1125 (Fed. Cir. 2018) ; Berkheimer v. HP Inc. , 881 F.3d 1360, 1365 (Fed. Cir. 2018).\nSection 101 provides that \"[w]hoever invents or dis-covers any new and useful process, machine, manufacture, or composition of matter, or any new and useful improvement thereof, may obtain a patent therefor.\" 35 U.S.C. \u00a7 101. In Alice Corp. v. CLS Bank International , the Supreme Court articulated a two-step test for examining patent eligibility under \u00a7 101. 573 U.S. 208, 134 S.Ct. 2347, 189 L.Ed.2d 296 (2014). \"We must first determine whether the claims at issue are directed to a patent-ineligible concept.\" Id. at 2355. \"Laws of nature, natural phenomena, and abstract ideas are not patentable.\" Id. at 2354 (quoting Ass'n for Molecular Pathology v. Myriad Genetics, Inc. , 569 U.S. 576, 589, 133 S.Ct. 2107, 186 L.Ed.2d 124 (2013) ). \"The 'abstract ideas' category embodies 'the longstanding rule that '[a]n idea of itself is not patentable.' \" Id. at 2355 (alteration in original) (quoting Gottschalk v. Benson , 409 U.S. 63, 67, 93 S.Ct. 253, 34 L.Ed.2d 273 (1972) ). If the claims are not directed to a patent-ineligible concept under Alice step 1, \"the claims satisfy \u00a7 101 and we need not proceed to the second step.\" Core Wireless Licensing S.A.R.L. v. LG Elecs., Inc. , 880 F.3d 1356, 1361 (Fed. Cir. 2018) (citing Visual Memory LLC v. NVIDIA Corp. , 867 F.3d 1253, 1262 (Fed. Cir. 2017) ).\nIf the claims are directed to a patent-ineligible concept, however, we next consider Alice step two. In this step, we consider \"the elements of each claim both individually and 'as an ordered combination' to determine whether the additional elements 'transform the nature of the claim' into a patent-eligible application.\" Alice , 134 S.Ct. at 2355 (quoting Mayo Collaborative Servs. v. Prometheus Labs., Inc. , 566 U.S. 66, 78-79, 132 S.Ct. 1289, 182 L.Ed.2d 321 (2012) ). This second step is \"a search for an 'inventive concept'-i.e. , an element or combination of elements that is 'sufficient to ensure that the patent in practice amounts to significantly more than a patent upon the [ineligible concept] itself.' \" Id. (alteration in original) (quoting Mayo , 566 U.S. at 72-73, 132 S.Ct. 1289 ).\nII\nWe first address the Tab Patents. Our analysis begins at Alice step one, asking \"whether the claims at issue are directed to a patent-ineligible concept.\" Id. at 2355. With the exception of claim 1 of the '551 patent, we hold that the asserted claims of the Tab Patents are directed to patent-eligible subject matter.\nA\nWhen considered as a whole, and in light of the specification, representative claim 12 of the '259 patent is not directed to an abstract idea. Rather, the claim is directed to a specific method for navigating through three-dimensional electronic spreadsheets. The method provides a specific solution to then-existing technological problems in computers and prior art electronic spreadsheets. The specification teaches that prior art computer spreadsheets were not user friendly. They required users to \"master many complex and arbitrary operations.\" '259 patent col. 2 ll. 28-29. Users had to search through complex menu systems to find appropriate commands to execute simple computer tasks, which required users to memorize frequently needed commands. Id. at col. 2 ll. 29-45. This was burdensome and hindered a user's ability to find or access the many commands and features available in prior art computer spreadsheets, undercutting the effectiveness of the computer as a means to review and edit a spreadsheet. Id. at col. 2 ll. 45-56. This was particularly true for three-dimensional spreadsheets, which allowed users to build spreadsheet workspaces consisting of multiple two-dimensional spreadsheets, further increasing the complexity of using and navigating between multiple spreadsheets. Id. at col. 2 l. 66-col. 3 l. 24.\nThe Tab Patents solved this known technological problem in computers in a particular way-by providing a highly intuitive, user-friendly interface with familiar notebook tabs for navigating the three-dimensional worksheet environment. Id. at col. 3 ll. 44-52. The improvement allowed computers, for the first time, to provide rapid access to and processing of information in different spreadsheets, as well as easy navigation in three-dimensional spreadsheets. The invention was applauded by the industry for improving computers' functionality as a tool able to instantly access all parts of complex three-dimensional electronic spreadsheets. Numerous contemporaneous articles attributed the improved three-dimensional spreadsheets' success to its notebook tab feature.\nRepresentative claim 12 recites precisely this technical solution and improvement in computer spreadsheet functionality. The claim recites specific steps detailing the method of navigating through spreadsheet pages within a three-dimensional spreadsheet environment using notebook tabs. The claim requires displaying on a screen display a row of spreadsheet page identifiers along one side of the first spreadsheet page, with each spreadsheet page identifier being a notebook tab. The claim requires at least one user-settable identifying character to label the notebook tab and describes navigating through the various spreadsheet pages through selection of the notebook tabs. The claim further requires a formula that uses the identifying character to operate on information spread between different spreadsheet pages that are identified by their tabs. The claimed method does not recite the idea of navigating through spreadsheet pages using buttons or a generic method of labeling and organizing spreadsheets. Rather, the claims require a specific interface and implementation for navigating complex three-dimensional spreadsheets using techniques unique to computers.\nIn this regard, claim 12 is similar to the claims we held patent eligible in Core Wireless . There, the claims were directed to an improved display interface that allowed users to more quickly access stored data and programs in small-screen electronics, thereby improving the efficient functioning of the computer. Core Wireless , 880 F.3d at 1359. The prior art taught that small-screen electronic interfaces required users to scroll through and switch views to find desired data and functions. Id. at 1363. Core Wireless's invention, however, improved the efficiency of these display interfaces. By displaying only a limited list of common functions and data from which to choose, the invention spared users from time-consuming operations of navigating to, opening up, and then navigating within, each separate application. Id. The invention thus increased the efficiency with which users could navigate through various views and windows. Id. We rejected the accused infringer's contention that the claims were merely directed to the abstract idea of indexing information because the claims were directed \"to an improved user interface for computing devices\" and \"a particular manner of summarizing and presenting information in electronic devices.\" Id. at 1362 (emphasis added). We concluded that the claims were patent eligible because the claims \"recite[d] a specific improvement over prior systems, resulting in an improved user interface for electronic devices,\" and thus were directed to \"an improvement in the functioning of computers.\" Id. at 1363.\nClaim 12 of the '259 patent similarly recites a method that differs from prior art navigation methods and \"provide[s] for rapidly accessing and processing information\" in three-dimensional spreadsheets. '259 patent col. 3 ll. 53-54. \"[I]nstead of finding information by scrolling different parts of a large spreadsheet\" the invention \"allows the user to simply and conveniently 'flip through' several pages of the notebook to rapidly locate information of interest.\" Id. at col. 8 ll. 51-57. Moreover, akin to the claims in Core Wireless , claim 12 recites a \"specific\" and \"particular\" manner of navigating a three-dimensional spreadsheet that improves the efficient functioning of computers. See Core Wireless , 880 F.3d at 1362, 1363.\nLikewise, claim 12 comports with the claims we held patent eligible in Trading Technologies International, Inc. v. CQG, Inc. 675 F. App'x 1001 (Fed. Cir. 2017). There, the claims recited a trading system in which a graphical user interface displayed dynamic bid and ask prices for a particular commodity traded in the market along with a static display of prices corresponding to the bids and asks. Id. at 1003. The system paired orders with the static display of prices to prevent entry of orders that had changed prices. Id. The patents explained that the invention solved an existing problem in the prior art by reducing the time it took to place and execute a trading order. We agreed with the district court that \"the challenged patents 'solve[d] problems of prior graphical user interface devices ... in the context of computerized trading[ ] relating to speed, accuracy and usability.' \" Id. at 1004 (alterations in original) (quoting Trading Techs.Int'l, Inc. v. CQG, Inc. , No. 05-cv-4811, 2015 WL 774655, at *4 (N.D. Ill. Feb. 24, 2015) ). As the district court had explained, the claims were not merely directed to displaying information on a graphical user interface, but rather \"require[d] a specific, structured graphical user interface paired with a prescribed functionality directly related to the graphical user interface's structure that is addressed to and resolves a specifically identified problem in the prior state of the art.\" Id. We agreed and adopted the district court's articulated reasons to conclude that the claims were not abstract under Alice step one. Id.\nGoogle asserts that this court has repeatedly found that claims directed to methods of organizing and presenting information are abstract and that we should so hold here. During oral argument, Google identified three cases to best support its position: Affinity Labs of Texas, LLC v. DirecTV, LLC , 838 F.3d 1253 (Fed. Cir. 2016) ; Intellectual Ventures I LLC v. Capital One Financial Corp. , 850 F.3d 1332 (Fed. Cir. 2017) (hereinafter, \" Capital One \"); and Intellectual Ventures I LLC v. Erie Indemnity Co. , 850 F.3d 1315 (Fed. Cir. 2017) (hereinafter, \" Erie Indemnity \").See Oral Arg. at 29:57-30:51, http://oralarguments.cafc.uscourts.gov/default.aspx?fl=2017-1135.mp3. We have reviewed these cases, but conclude that the claims in those cases were materially different.\nIn Affinity Labs , we held that claims directed to \"streaming regional broadcast signals to cellular telephones located outside the region\" were ineligible because \"[t]he concept of providing out-of-region access to regional broadcast content is an abstract idea.\" 838 F.3d at 1255, 1258. The claims were \"entirely functional in nature,\" and we found nothing in the claims \"directed to how to implement out-of-region broadcasting.\" Id. at 1258. Although the representative claim also recited \"a graphical user interface\" for displaying a menu of available media options from which a user could select, the limitation was \"conventional,\" insignificant extra-solution activity and thus insufficient to confer patent eligibility. Id. at 1261. In Capital One , the claims were directed to an apparatus for managing eXtensible Markup Language (\"XML\") documents. 850 F.3d at 1338. The invention allowed users to make changes to data in a \"dynamic document,\" which could then be dynamically propagated back into an original XML document. Id. at 1339. We held those claims were \"directed to the abstract idea of collecting, displaying, and manipulating data.\" Id. at 1340. In Erie Indemnity , we held that claims reciting a method for searching a database using an index of descriptive terms associated with \"category\" and \"domain\" tags were directed to the abstract idea of \"creating an index and using that index to search for and retrieve data.\" 850 F.3d at 1326-27. The claims did not recite any specific structure or improvement of computer functionality sufficient to render the claims not abstract. Id. at 1328-29.\nIn contrast to Affinity Labs , Capital One , and Erie Indemnity , representative claim 12 is not simply directed to displaying a graphical user interface or collecting, manipulating, or organizing information to improve navigation through three-dimensional spreadsheets. Instead, the claim recites a specific structure (i.e., notebook tabs) within a particular spreadsheet display that performs a specific function (i.e., navigating within a three-dimensional spreadsheet).\nNor is representative claim 12 directed generally to displaying information on a screen, without \"requir[ing] a new source or type of information, or new techniques for analyzing it,\" like the claims in Electric Power Group, LLC v. Alstom S.A. 830 F.3d 1350, 1353-54 (Fed. Cir. 2016). And unlike ineligible claims that merely \"collect[ ], organiz[e], and display ... information on a generic display device,\" claim 12 recites \"a specific improvement to the way computers ... operate.\" See Interval Licensing LLC v. AOL, Inc. , 896 F.3d 1335, 1345 (Fed. Cir. 2018) (quoting Enfish, LLC v. Microsoft Corp. , 822 F.3d 1327, 1336 (Fed Cir. 2016) ).\nAt Alice step one, \"it is not enough to merely identify a patent-ineligible concept underlying the claim; we must determine whether that patent-ineligible concept is what the claim is 'directed to.' \" Rapid Litig. Mgmt. Ltd. v. CellzDirect, Inc. , 827 F.3d 1042, 1050 (Fed. Cir. 2016). And that inquiry requires that the claims be read as a whole. See Alice , 134 S.Ct. at 2355 n.3. We conclude that, when read as a whole, in light of the specification, claim 12 is directed to more than a generic or abstract idea as it claims a particular manner of navigating three-dimensional spreadsheets, implementing an improvement in electronic spreadsheet functionality.\nGoogle avers that humans have long used tabs to organize information. It cites tabbed notebooks, binder dividers, file folders, and sticky Post-it notes as well-known examples of organizing information using tabs. We agree that tabs existed outside the context of electronic spreadsheets prior to the claimed invention. It is not enough, however, to merely trace the invention to some real-world analogy. The eligibility question is not whether anyone has ever used tabs to organize information. That question is reserved for \u00a7\u00a7 102 and 103. The question of abstraction is whether the claim is \"directed to\" the abstract idea itself. Id. We must consider the claim as a whole to determine whether the claim is directed to an abstract idea or something more. Google fails to appreciate the functional improvement achieved by the specifically recited notebook tabs in the claimed methods. The notebook appearance of the tabs was specifically chosen by the inventors because it is easily identified by users. The tabs are not merely labeled buttons or other generic icons. DET has disclaimed as much. See Oral Arg. at 11:03-47. Rather, the notebook tabs are specific structures within the three-dimensional spreadsheet environment that allow a user to avoid the burdensome task of navigating through spreadsheets in separate windows using arbitrary commands.\nBecause we conclude that representative claim 12 of the '259 patent is not abstract under Alice step one, we need not reach Alice step two with respect to claim 12. See Core Wireless , 880 F.3d at 1363.\nB\nNotwithstanding our conclusion that representative claim 12 of the '259 patent is directed to patent-eligible subject matter, we conclude that claim 1 of the '551 patent is ineligible.\nClaim 1 of the '551 patent recites:\n1. In an electronic spreadsheet for processing alphanumeric information, said ... electronic spreadsheet comprising a three-dimensional spreadsheet operative in a digital computer and including a plurality of cells for entering data and formulas, a method for organizing the three-dimensional spreadsheet comprising:\npartitioning said plurality of cells into a plurality of two-dimensional cell matrices so that each of the two-dimensional cell matrices can be presented to a user as a spreadsheet page;\nassociating each of the cell matrices with a user-settable page identifier which serves as a unique identifier for said each cell matrix;\ncreating in a first cell of a first page at least one formula referencing a second cell of a second page said formula including the user-settable page identifier for the second page; and\nstoring said first and second pages of the plurality of cell matrices such that they appear to the user as being stored within a single file.\n'551 patent col. 23 l. 60-col. 24 l. 13.\nWe conclude that under Alice step one, this claim is directed to the abstract idea of identifying and storing electronic spreadsheet pages. DET concedes that, unlike claim 12 of the '259 patent, claim 1 of the '551 patent is \"directed at something a bit more general.\" See Oral Arg. at 9:55-58. Indeed, it generically recites \"associating each of the cell matrices with a user-settable page identifier\" and does not recite the specific implementation of a notebook tab interface. '551 patent col. 24 ll. 3-4. Claim 1 of the '551 patent is therefore not limited to the specific technical solution and improvement in electronic spreadsheet functionality that rendered representative claim 12 of the '259 patent eligible. Instead, claim 1 of the '551 patent covers any means for identifying electronic spreadsheet pages.\nBecause claim 1 of the '551 patent is directed to an abstract idea, we must turn to Alice step two to \"determine whether the additional elements 'transform the nature of the claim' into a patent-eligible application.\" Alice , 134 S.Ct. at 2355 (quoting Mayo , 566 U.S. at 78, 132 S.Ct. 1289 ). The \"mere recitation of a generic computer cannot transform a patent-ineligible abstract idea into a patent-eligible invention.\" Id. at 2358. \"For the role of a computer in a computer-implemented invention to be deemed meaningful in the context of this analysis, it must involve more than performance of 'well-understood, routine, [and] conventional activities previously known to the industry.' \" Content Extraction & Transmission LLC v. Wells Fargo Bank, Nat'l Ass'n , 776 F.3d 1343, 1347-48 (Fed. Cir. 2014) (alteration in original) (quoting Alice , 134 S.Ct. at 2359 ).\nAfter a searching review, the additional elements of claim 1 of the '551 patent fail to provide an inventive concept. Claim 1 merely recites partitioning cells to be presented as a spreadsheet, referencing in one cell of a page a formula referencing a second page, and saving the pages such that they appear as being stored as one file. These limitations merely recite the method of implementing the abstract idea itself and thus fail under Alice step two. Therefore, we conclude that claim 1 of the '551 patent is ineligible under \u00a7 101.\nIII\nFinally, we turn to the '146 patent, which is directed to a method of tracking changes in three-dimensional spreadsheets. Beginning at Alice step one, we agree with the district court that these claims are directed to the abstract idea of collecting spreadsheet data, recognizing changes to spreadsheet data, and storing information about the changes.\nThe district court considered claims 1 and 26 representative of all asserted claims of the '146 patent. See District Court Op. , 211 F.Supp.3d at 680. At their core, these claims recite tracking changes in a spreadsheet by: (1) creating a base version of a spreadsheet, (2) creating a new version of the spreadsheet, and (3) determining which cells of data have changed by comparing the new and base versions. The concept of manually tracking modifications across multiple sheets is an abstract idea. The mere automation of this process does not negate its abstraction. Unlike claim 12 of the '259 patent, nothing in the '146 patent's claims viewed in light of the specification convinces us that the claimed method improves spreadsheet functionality in a specific way sufficient to render the claims not abstract.\nWe agree with the district court that these claims are akin to those we held ineligible in Content Extraction . There, the claims were directed to methods of extracting data from hard-copy documents using an automated scanner, recognizing information from the extracted data, and storing that data in memory. Content Extraction , 776 F.3d at 1345, 1347. We see no material difference in the level of abstraction here. The '146 patent's claims recite determining changes to spreadsheets by comparing the cells in two versions of the spreadsheet and storing that information. We reject DET's attempt to distinguish Content Extraction on the ground that it involved a business method. Regardless of the field of the technology, the claims at issue here are sufficiently similar to those in Content Extraction for us to conclude that the claims of the '146 patent are also abstract. As in Content Extraction , we hold that the asserted claims of the '146 patent are directed to the abstract idea of collecting, recognizing, and storing the recognized data in memory. Id. at 1347.\nWe also conclude that the asserted claims of the '146 patent do not recite an inventive concept under Alice step two. The claims recite the generic steps of creating a base version of a spreadsheet, creating a new version of the spreadsheet, and determining changes made to the original version. These claims do not recite anything \"more than simply stat[ing] the [abstract idea] while adding the words 'apply it.' \" Alice , 134 S.Ct. at 2357 (alterations in original) (quoting Mayo , 566 U.S. at 72, 132 S.Ct. 1289 ). \"[T]he mere recitation of a generic computer cannot transform a patent-ineligible abstract idea into a patent-eligible invention.\" Id. at 2358. We have considered DET's arguments that other claims of the '146 patent, including claims 27 and 28, provide an additional inventive concept and find them unpersuasive.\nCONCLUSION\nFor the foregoing reasons, we conclude that, with the exception of claim 1 of the '551 patent, the asserted claims of the Tab Patents are not directed to patent-ineligible subject matter under Alice step one and therefore satisfy \u00a7 101. We determine, however, that the asserted claims of the '146 patent are directed to an abstract idea, provide no inventive concept, and are therefore ineligible under \u00a7 101.\nAFFIRMED-IN-PART, REVERSED-IN-PART, AND REMANDED\nCOSTS\nNo costs.\nBecause the Tab Patents' specifications are substantially identical, we refer only to the '259 patent's specification.\nThe district court declined to consider the articles included in the prosecution history, relying only on the pleadings and the patents attached to DET's complaint. District Court Op. , 211 F.Supp.3d at 681 n.4. On a motion for judgment on the pleadings, however, the court may consider \"matters of public record.\" Cf. Bruni v. City of Pittsburgh , 824 F.3d 353, 360 (3d Cir. 2016) (quoting Pension Benefit Guar. Corp. v. White Consol. Indus., Inc. , 998 F.2d 1192, 1196 (3d Cir. 1993) ). Prosecution histories constitute public records. See Hockerson-Halberstadt, Inc. v. Avia Group Int'l, Inc. , 222 F.3d 951, 957 (Fed. Cir. 2000) (\"The prosecution history constitutes a public record ....\"); see 37 C.F.R. \u00a7 1.11(a) (\"The specification, drawings, and all papers to the file of: [a] published application; a patent; or a statutory invention registration are open to inspection by the public ....\"). We consider this evidence relevant in our de novo review because it is part of the Tab Patents' prosecution histories and was relied on in DET's opposition to Google's Rule 12(c) motion.\nWe have also considered Affinity Labs of Texas, LLC v. Amazon.com Inc. , 838 F.3d 1266 (Fed. Cir. 2016), also cited by Google, and find it distinguishable as well. There, the claims were directed to \"a network-based media system with a customized user interface, in which the system delivers streaming content from a network-based resource.\" Id. at 1268. We held the claims ineligible because \"the concept of delivering user-selected media content to portable devices is an abstract idea.\" Id. at 1269. Although the claim recited a \"customized user interface,\" we held that \" 'customizing information based on ... information known about the user' is an abstract idea.\" Id. at 1271 (alteration in original) (quoting Intellectual Ventures I LLC v. Capital One Bank (USA) , 792 F.3d 1363, 1369 (Fed. Cir. 2015) ). Representative claim 12 of the '259 patent, however, is different. Although its recited notebook tabs can be customized, see '259 patent col. 8 ll. 19-23, they are more than merely labeled tabs. They implement a specific function-an improved manner of navigating through the spreadsheet.",
+        "type": "majority",
+        "author": "Stoll, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Benjamin F. Foster, Ahmad, Zavitsanos, Anaipakos, Alavi & Mensing PC, Houston, TX, argued for plaintiff-appellant. Represented by Amir H. Alavi, Iftikahr Ahmed, Alisa A. Lipski.",
+      "Daryl Joseffer, King & Spalding LLP, Washington, DC, argued for defendant-appellee. Represented by Amelia Grace Yowell; Jonathan K. Waldrop, Marcus Barber, John Walter Downing, Darcy L. Jones, Kasowitz, Benson, Torres & Friedman LLP, Redwood Shores, CA; Dan L. Bagatell, Perkins Coie LLP, Hanover, NH."
+    ],
+    "corrections": "",
+    "head_matter": "DATA ENGINE TECHNOLOGIES LLC, Plaintiff-Appellant\nv.\nGOOGLE LLC, Defendant-Appellee\n2017-1135\nUnited States Court of Appeals, Federal Circuit.\nDecided: October 9, 2018\nBenjamin F. Foster, Ahmad, Zavitsanos, Anaipakos, Alavi & Mensing PC, Houston, TX, argued for plaintiff-appellant. Represented by Amir H. Alavi, Iftikahr Ahmed, Alisa A. Lipski.\nDaryl Joseffer, King & Spalding LLP, Washington, DC, argued for defendant-appellee. Represented by Amelia Grace Yowell; Jonathan K. Waldrop, Marcus Barber, John Walter Downing, Darcy L. Jones, Kasowitz, Benson, Torres & Friedman LLP, Redwood Shores, CA; Dan L. Bagatell, Perkins Coie LLP, Hanover, NH.\nBefore Reyna, Bryson, and Stoll, Circuit Judges."
+  },
+  "file_name": "0999-01",
+  "first_page_order": 999,
+  "last_page_order": 1013
+}

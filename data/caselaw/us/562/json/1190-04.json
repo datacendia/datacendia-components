@@ -1,0 +1,59 @@
+{
+  "id": 6032554,
+  "name": "Cox v. Astrue, Commissioner of Social Security",
+  "name_abbreviation": "Cox v. Astrue",
+  "decision_date": "2011-01-18",
+  "docket_number": "No. 10-7866",
+  "first_page": "1190",
+  "last_page": "1190",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1190"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 95,
+    "ocr_confidence": 0.635,
+    "sha256": "b8cb23c547053348739589b7dec1201697abf27ecfabc90795ed32dc3f05801e",
+    "simhash": "1:32c1500183af3017",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cox v. Astrue, Commissioner of Social Security."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7866.\nCox v. Astrue, Commissioner of Social Security."
+  },
+  "file_name": "1190-04",
+  "first_page_order": 1212,
+  "last_page_order": 1212
+}

@@ -1,0 +1,59 @@
+{
+  "id": 4224119,
+  "name": "Milton v. Richards",
+  "name_abbreviation": "Milton v. Richards",
+  "decision_date": "2011-05-23",
+  "docket_number": "No. 10-9630",
+  "first_page": "1011",
+  "last_page": "1011",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1011"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 68,
+    "ocr_confidence": 0.631,
+    "sha256": "2a0d3a2d8d78ec7be2bc3c9d8882ed3cf0ab339541f74b4535fbd0fa5e8fa27f",
+    "simhash": "1:1f9a4282832ba013",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Milton v. Richards."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9630.\nMilton v. Richards."
+  },
+  "file_name": "1011-10",
+  "first_page_order": 1037,
+  "last_page_order": 1037
+}

@@ -1,0 +1,861 @@
+{
+  "id": 2250928,
+  "name": "Wichita County, Texas v. Jim Robinson, Tax Assessor-Collector",
+  "name_abbreviation": "Wichita County v. Robinson",
+  "decision_date": "1954-10-20",
+  "docket_number": "No. A-4655",
+  "first_page": "1",
+  "last_page": "13",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "155 Tex. 1"
+    },
+    {
+      "type": "parallel",
+      "cite": "276 S.W.2d 509"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "235 S.W. 2d 691",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10210377
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/235/0691-01"
+      ]
+    },
+    {
+      "cite": "2 S.W. 2d 433",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10294719
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/2/0433-01"
+      ]
+    },
+    {
+      "cite": "17 Pac. 2d 690",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "161 Okla. 245",
+      "category": "reporters:state",
+      "reporter": "Okla.",
+      "case_ids": [
+        8883669
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/okla/161/0245-01"
+      ]
+    },
+    {
+      "cite": "97 S.W. 2d 467",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10253176,
+        2293189
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/97/0467-01",
+        "/tex/128/0223-01"
+      ]
+    },
+    {
+      "cite": "128 Texas 223",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2293189
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/128/0223-01"
+      ]
+    },
+    {
+      "cite": "31 Ore. 424",
+      "category": "reporters:state",
+      "reporter": "Or.",
+      "case_ids": [
+        2259963
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/or/31/0424-01"
+      ]
+    },
+    {
+      "cite": "44 Pac. 262",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "14 Wash, 255",
+      "category": "reporters:state",
+      "reporter": "Wash,",
+      "case_ids": [
+        8530986
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/wash/14/0255-01"
+      ]
+    },
+    {
+      "cite": "95 Pac. 554",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 Colo. 449",
+      "category": "reporters:state",
+      "reporter": "Colo.",
+      "case_ids": [
+        2564920
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/colo/42/0449-01"
+      ]
+    },
+    {
+      "cite": "249 S.W. 831",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        12078555
+      ],
+      "pin_cites": [
+        {
+          "page": "832"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/249/0831-01"
+      ]
+    },
+    {
+      "cite": "159 S.W. 2d 543",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10220186
+      ],
+      "pin_cites": [
+        {
+          "page": "544"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/159/0543-01"
+      ]
+    },
+    {
+      "cite": "170 S.W. 2d 470",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10210800,
+        2308526,
+        2308469,
+        10210934
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/170/0470-01",
+        "/tex/141/0074-01",
+        "/tex/141/0083-01",
+        "/sw2d/170/0470-02"
+      ]
+    },
+    {
+      "cite": "141 Texas 83",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2308469
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/141/0083-01"
+      ]
+    },
+    {
+      "cite": "167 S.W. 2d 296",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10207635
+      ],
+      "pin_cites": [
+        {
+          "page": "299"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/167/0296-01"
+      ]
+    },
+    {
+      "cite": "78 Ore. 641",
+      "category": "reporters:state",
+      "reporter": "Or.",
+      "case_ids": [
+        2365646
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/or/78/0641-01"
+      ]
+    },
+    {
+      "cite": "206 S.W. 921",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8280583
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/206/0921-01"
+      ]
+    },
+    {
+      "cite": "109 Texas 262",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2288312
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/109/0262-01"
+      ]
+    },
+    {
+      "cite": "111 S.W. 2d 318",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        12032758
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/111/0318-01"
+      ]
+    },
+    {
+      "cite": "105 S.W. 2d 1108",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10277436
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/105/1108-01"
+      ]
+    },
+    {
+      "cite": "75 S.W. 2d 968",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10273214
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/75/0968-01"
+      ]
+    },
+    {
+      "cite": "52 S.W. 2d 247",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10235219,
+        10235374
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/52/0247-01",
+        "/sw2d/52/0247-02"
+      ]
+    },
+    {
+      "cite": "33 S.W. 2d 292",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10261179
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/33/0292-01"
+      ]
+    },
+    {
+      "cite": "202 S.W. 2d 243",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10190113
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/202/0243-01"
+      ]
+    },
+    {
+      "cite": "107 A.L.R. 645",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "61 Pac. 2d 124",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "case_ids": [
+        515290
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/kan/144/0414-01"
+      ]
+    },
+    {
+      "cite": "157 S.W. 2d 751",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "289 Ky. 73",
+      "category": "reporters:state",
+      "reporter": "Ky.",
+      "case_ids": [
+        2730557
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ky/289/0073-01"
+      ]
+    },
+    {
+      "cite": "204 S.W. 2d 813",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "305 Ky. 509",
+      "category": "reporters:state",
+      "reporter": "Ky.",
+      "case_ids": [
+        2854345
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ky/305/0509-01"
+      ]
+    },
+    {
+      "cite": "214 S.W. 2d 646",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10226034
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/214/0646-01"
+      ]
+    },
+    {
+      "cite": "235 S.W. 957",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8263751
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/235/0957-01"
+      ]
+    },
+    {
+      "cite": "112 S.W. 2d 177",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10244152,
+        2324583
+      ],
+      "pin_cites": [
+        {
+          "page": "180"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/112/0177-01",
+        "/tex/131/0069-01"
+      ]
+    },
+    {
+      "cite": "131 Texas 69",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2324583
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/131/0069-01"
+      ]
+    },
+    {
+      "cite": "184 S.W. 2d 340",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10205986
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/184/0340-01"
+      ]
+    },
+    {
+      "cite": "160 Fla. 217",
+      "category": "reporters:state",
+      "reporter": "Fla.",
+      "case_ids": [
+        1983119
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/fla/160/0217-01"
+      ]
+    },
+    {
+      "cite": "223 S. W. 2d 913",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "pin_cites": [
+        {
+          "page": "916"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "189 Tenn. 151",
+      "category": "reporters:state",
+      "reporter": "Tenn.",
+      "case_ids": [
+        8530651
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tenn/189/0151-01"
+      ]
+    },
+    {
+      "cite": "266 S.W. 2d 246",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10188683
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/266/0246-01"
+      ]
+    },
+    {
+      "cite": "14 Pac. 27",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "72 Cal. 462",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        2314811
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal/72/0462-01"
+      ]
+    },
+    {
+      "cite": "8 F. Supp. 454",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        4136569
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f-supp/8/0454-01"
+      ]
+    },
+    {
+      "cite": "308 U.S. 371",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6140572
+      ],
+      "weight": 3,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/308/0371-01"
+      ]
+    },
+    {
+      "cite": "197 La. 1067",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        5509677,
+        10038311
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/la/197/1067-01",
+        "/so2d/3/0244-01"
+      ]
+    },
+    {
+      "cite": "103 Utah 319",
+      "category": "reporters:state",
+      "reporter": "Utah",
+      "case_ids": [
+        8870330
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/utah/103/0319-01"
+      ]
+    },
+    {
+      "cite": "207 S.C. 194",
+      "category": "reporters:state",
+      "reporter": "S.C.",
+      "case_ids": [
+        2077442
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/sc/207/0194-01"
+      ]
+    },
+    {
+      "cite": "194 Miss. 241",
+      "category": "reporters:state",
+      "reporter": "Miss.",
+      "case_ids": [
+        1910296
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/miss/194/0241-01"
+      ]
+    },
+    {
+      "cite": "109 N.E. 292",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "268 Ill. 386",
+      "category": "reporters:state",
+      "reporter": "Ill.",
+      "case_ids": [
+        4793945
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ill/268/0386-01"
+      ]
+    },
+    {
+      "cite": "63 N.E. 2d 785",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "327 Ill. App. 107",
+      "category": "reporters:state",
+      "reporter": "Ill. App.",
+      "case_ids": [
+        3421541
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ill-app/327/0107-01"
+      ]
+    },
+    {
+      "cite": "217 Ala. 685",
+      "category": "reporters:state",
+      "reporter": "Ala.",
+      "case_ids": [
+        3621451
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/ala/217/0685-01"
+      ]
+    },
+    {
+      "cite": "250 S.W. 2d 549",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "194 Tenn. 323",
+      "category": "reporters:state",
+      "reporter": "Tenn.",
+      "case_ids": [
+        8530036
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tenn/194/0323-01"
+      ]
+    },
+    {
+      "cite": "23 S.W. 2d 239",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "160 Tenn. 109",
+      "category": "reporters:state",
+      "reporter": "Tenn.",
+      "case_ids": [
+        8533031
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tenn/160/0109-01"
+      ]
+    },
+    {
+      "cite": "16 Sup. Ct. 1120",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        468132,
+        468111
+      ],
+      "pin_cites": [
+        {
+          "page": "1125"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/163/0427-01",
+        "/us/163/0319-01"
+      ]
+    },
+    {
+      "cite": "163 U.S. 427",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        468132
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/163/0427-01"
+      ]
+    },
+    {
+      "cite": "115 S.W. 2d 604",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10255826,
+        2324485
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/115/0604-01",
+        "/tex/131/0341-01"
+      ]
+    },
+    {
+      "cite": "131 Texas 341",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2324485
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/131/0341-01"
+      ]
+    },
+    {
+      "cite": "96 A.L.R. 802",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "76 S.W. 2d 1007",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10268648,
+        2300435
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/76/1007-01",
+        "/tex/124/0045-01"
+      ]
+    },
+    {
+      "cite": "124 Texas 45",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2300435
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/124/0045-01"
+      ]
+    },
+    {
+      "cite": "34 Texas 335",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2139378
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/34/0335-01"
+      ]
+    },
+    {
+      "cite": "2 S.W. 2d 433",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10294719
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/2/0433-01"
+      ]
+    },
+    {
+      "cite": "249 S.W. 831",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        12078555
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw/249/0831-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1163,
+    "char_count": 25518,
+    "ocr_confidence": 0.588,
+    "pagerank": {
+      "raw": 3.3407728668837175e-07,
+      "percentile": 0.874135905220729
+    },
+    "sha256": "eb68b7b3a6b08f3def2169faa492845a7fb85e9bcb8ab2383a80f0a4767997f6",
+    "simhash": "1:cb64827361ad83ed",
+    "word_count": 4353
+  },
+  "last_updated": "2024-02-27T17:06:22.463837+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wichita County, Texas v. Jim Robinson, Tax Assessor-Collector"
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Culver\ndelivered the opinion of the Court\nWichita County sought a declaratory judgment to test the constitutionality of Section 57, Article 1436-1. Penal Code in so far as it allowed additional compensation to tax assessors-collectors in counties of a population of more than 20,000 and paid on a salary basis and to recover from the respondent assessor-collector the sum which had theretofore been paid to him under the provisions of this statute.\nThe Constitutional Amendment, Section 61, Article XVI, originally adopted in 1935 and amenedd in 1948 reads in part as follows:\n\u201cAll district officers in the State of Texas and all county officers in counties having a population of twenty thousand (20,000) or more, according to the last preceding Federal census, shall be compensated on a salary basis.\u201d\nThe trial court rendered judgment holding the act unconstitutional in the respect mentioned and for the petitioner county against the respondent in the claimed amount. This decree was reversed and rendered by the Court of Civil Appeals. 266 S.W. 2d 246.\nWe are of the opinion that the trial court\u2019s decision should be affirmed.\nFirst of all, respondent insists that the court was without jurisdiction in that the Attorney General was not made a party to the proceeding, nor \u201cserved\u201d with a copy of the proceeding.\nSection 11, Article 2524-1, Uniform Declaratory Judgment Act, provides:\n\u201c* * * and if the statute, ordinance or franchise is alleged to be unconstitutional, the Attorney General of the State shall also be served with a copy of the proceeding and be entitled to be heard.\u201d\nIn its petition the county prayed that the Assessor-Collector and the Attorney General of Texas be cited to appear and answer. Thereafter, petitioner\u2019s counsel wrote the Attorney General advising him of the filing of the suit, enclosing a copy of the petition and requesting him to file an answer without the issuance and service of process. The Attorney General replied by mail that he did not deem the interest of the State sufficiently concerned to justify his intervention upon either side of the case and that counsel was at liberty to proceed with the litigation without further notice to him. Counsel did, however, keep the Attorney General advised of the results in both courts, below.\nThe act does not require the Attorney General to be made a party. Respondent cites Anderson on Declaratory Judgments, 1940 Edition, Sec. 4, p. 119, and Sec. 116, p. 307, to the effect that unless service is had on the Attorney General the court does not acquire jurisdiction to determine the validity of the assailed statute. However, in the same work, Second Edition, Sec. 138, p. 261, the author says:\n\u201c* * * * It has been held that the Attorney General is not a necessary party to such action involving the constitutionality of a statute, since the provision only provides for the Attorney General to be heard, and it is intended thereby to provide an avenue for the interest of the state to be protected.\u201d\nIt is to be noted that in Cummings v. Beeler, 189 Tenn. 151, 223 S. W. 2d 913, 916, the court interprets the phrase \u201cserve with a copy of the proceedings\u201d to require that the Attorney General be a party defendant in any proceeding where the constitutionality of an act is before the court on declaratory judgment proceedings. We agree, however, with the Florida Supreme Court in its holding to the contrary. Watson v. Claughton, 160 Fla. 217, 34 Southern 2d 243.\nIn Town of Santa Rosa v. Johnson, Texas Civ. App., 184 S.W. 2d 340, cited by respondent, suit was brought under Declaratory Judgment Act to determine the validity of the incorporation of the town and other related questions. The Court of Civil Appeals, in affirming the judgment of dismissal, held in effect that the validity of the incorporation could only be questioned through quo warranto proceedings and that in absence of the State of Texas, represented by its proper officers, a binding decree could not be rendered. This case has no bearing on the question before us.\nThe Attorney General was given full information. He was furnished by mail with a copy of the petition and declined to intervene or take part. He is not here complaining of any lack of notice and the rights of the litigants could not have been affected adversely by the failure to make him a party. We think so far as notice to the Attorney General is concerned there was, to say the least, a substantial compliance with the provisions of the act. It would seem, therefore, that the lack of \u201cpersonal\u201d service under these circumstances should not be held to deny the court\u2019s jurisdiction nor to require a reversal and a new trial. Respondent cites Erwin v. Holliday, 131 Texas 69, 112 S.W. 2d 177, 180, where it is said: \u201cService, when not otherwise defined, means personal service.\u201d The court was there concerned with the sufficiency of the service on nonresident defendants. Likewise in Doak v. Biggs, Texas Civ. App., 235 S.W. 957 and Gilbert v. Lobley, Texas Civ. App., 214 S.W. 2d 646, it was held that default judgments could not be supported except by personal service. We do not consider these cases as conflicting with our holding on this point.\nThe lack of necessary parties is urged under Article 2524-1, the Uniform Declaratory Judgment Act, which in Section 11 provides as follows:\n\u201cWhen declaratory relief is sought, all persons shall be made parties who have or claim any interest which would be affected by the declaration, and no declaration shall prejudice the rights of persons not parties to the proceeding. * * * .\u201d\nThe contention is that as the decision would immediately affect all tax assessors-collectors in Texas in counties over 20,000 population, such officers were necessary parties so that the court did not have jurisdiction and the case should have been dismissed.\nOn this point respondent cites and relies principally on two cases from the Kentucky Court of Appeals. Lewis v. Board of Councilmen, 305 Ky. 509, 204 S.W. 2d 813 and Commonwealth v. Reeves, 289 Ky. 73, 157 S.W. 2d 751. In the first case the court dismissed the mandamus proceedings against the Board of Councilmen on the ground that the individual members of the board were necessary parties. In their absence there were no defendants against whom the writ could be enforced if the same had been granted.\nIn the second case the plaintiffs had prayed that all contracts made between certain individuals and the various counties and school districts be declared void and cancelled. The court held that these political subdivisions must be made parties before the court could determine the questions presented. Neither is in point here.\nIn our case if the tax collectors, in all counties of over 20,000 population must be made parties in order for the court to have jurisdiction, then surely the counties are also necessary parties. The County of Wichita is seeking to recover money which they allege had been illegally paid to its tax collector. The determination of that issue was controlled by a decision as to the constitutionality of the statute. Only a question of law is presented. The court had jurisdiction to determine the issues involved without the joinder of all counties and tax collectors whose interests might be incidentally affected. City of Independence v. Hindenach, 144 Kansas 414, 61 Pac. 2d 124, 107 A.L.R. 645.\nAdditionally the statement of facts shows under Appearances the following:\n\u201cMr. William Brown, amicus curiae, appearing for the Tax Collectors-Assessors Association of Texas.\u201d If a motion or suggestion was filed by the \u201camicus\u201d it is not to be found in the transcript, but the record does show that Mr. Brown participated in the trial, cross examined witnesses called by the plaintiff, and himself offered testimony. The rules do not provide for a special appearance and the representative having participated in the trial, he must be held to have appeared for all purposes. National Housing Agency v. Orton, 202 S.W. 2d 243, wr. ref. n.r.e.; Wright v. Jones, 33 S.W. 2d 292, reversed on other grounds, Texas Com. App., 52 S.W. 2d 247; Waco Hilton Hotel Co. v. Waco Development Co., Texas Civ. App., 75 S.W. 2d 968; Jacobsen v. Brown, Texas Civ. App., 105 S.W. 2d 1108; Carter v. Lindeman, Texas Civ. App., 111 S.W. 2d 318; Atchison T. & S. F. Ry. Co. v. Stevens, 109 Texas 262, 206 S.W. 921; Peterson v. Lewis, 78 Ore. 641, 154 Pac. 101.\nThe Commissioners Court of Wichita County on January 31, 1951 fixed the annual salary of respondent at $5,937.50. On February 25, 1952 the following motion was passed by the Commissioners Court:\n\u201cThat the Tax Assessor-Collector be paid five cents out of the certificate of title fund for each certificate of title issued from September 7, 1951 to March 5, 1952.\u201d\nA check was issued to respondent for the sum of $778.70 less withholding tax and social security in the sum of $168.38. No further compensation under this statute has been made to re-pondent.\nState v. Glass, 167 S.W. 2d 296, 299, wr. ref., 141 Texas 83, 170 S.W. 2d 470, holds that the funds accumulated through the collection of the fifty (50c) provided for in Article 1436-1, Section 57, Penal Code, constituted \u201cfees of office\u201d and belonged to the county; that Section 61, Article XVI, Constitution of Texas, required that the collector be limited to his salary as compensation and any fees collected by him officially paid into the County Depository. The decision of this case was prior to the effective date of Section 57 as enacted in 1951, but the only change made in Section 57 by the Legislature in 1951 was to add the provisions relative to the compensation of the Tax Assessors-Collectors.\nSection 61, Article XVI, of the Constitution, was first adopted in 1935 and readopted (with changes immaterial here in 1948). In construing this constitutional provision, the Court of Civil Appeals in Settegast v. Harris County, 159 S.W. 2d 543, 544, wr. ref., said:\n\u201cIt will be observed that the constitutional provision very plainly provides two things: (1) That all county officers shall be compensated upon a salary basis alone, and (2) that all fees earned by county officers shall be paid into the county treasury for the account of the proper fund.\u201d\nThe purpose of the amendment was to abolish the fee system of compensating the officers named and to place them on a salary basis. The Senate Joint Resolution so states as does the wording of the ballot submitted to the electorate.\nUnless then this compensation in question is \u201csalary\u201d and not \u201cfees of office,\u201d payment of same is prohibited by the Constitution above quoted.\nIn Greer v. Hunt County, Texas Com. App., 249 S.W. 831, 832, the distinction is laid down as follows:\n\u201c* * * the controlling element in determining whether the amount received is upon a commission or salary basis is whether that amount, by whatever name it may be called, is absolute and fixed regardless of what the lawful commissions may be, or is made contingent upon earning that amount as commissions.\u201d While the Legislature in authorizing the Commissioners Court to fix a sum not less than fifty per cent and not more than one hundred per cent of the salary fund denominates it \u201cas additional salary\u201d the term used is not controlling. The fund is created by setting aside a part of the fee received for the issuance of title certificates. The compensation is contingent upon collection of the fees paid into- that fund. Respondent cites Board of Commissioners v. Trowbridge, 42 Colo. 449, 95 Pac. 554; Cox v. Holmes, 14 Wash, 255, 44 Pac. 262, and Landis v. Lincoln Co., 31 Ore. 424, 50 Pac. 530. These cases generally point out that \u201ca salary is a fixed compensation for regular work, while fees are compensation for particular services rendered at irregular periods, payable at the time the services are rendered.\u201d\nRespondent contends, that, inasmuch as the compensation provided by Section 57 is not payable when the fees are collected, but fixed and determined at a later time and payable in one lump sum, the compensation thereby loses its characteristic as a fee and becomes a salary. We regard the distinction as immaterial. It is still a fee for particular work done and contingent upon being earned, whereas a salary is fixed and certain, irrespective of work done, labor performed, or money collected.\nThe Court of Civil Appeals in holding that the compensation is salary, and not fees of office, grounds its decision upon the discretion lodged in the Commissioners Court to fix a sum not less than one half and not more than the total of such fees accumulated in the salary fund. We think that the compensation does not become salary because the Commissioners Court may allow a part or all. Suppose the court fails to fix any amount or fixes an amount at less than one half? What redress would be available to respondent? In our case, for more than two years now, the court has made no allowance to the respondent. A new court took office on January 1, 1953. The statute would permit the respondent to sue the county for the minimum of fifty per cent of the fund. It would seem obvious that the compensation thus awarded would be dependent upon collection and thus constitute \u201cfees of office.\u201d\nAssume that the Legislature had provided that the Assessor-Collector would be entitled to all of the funds so collected and paid into the salary fund, would not such a provision invade the constitutional amendment? The transition of the fees into a fund and then to the Assessor-Collector would not change the character of the funds. What the statute says in effect is that the Commissioners Court shall pay all or a part of the fees to the officer and not less than one half. We think the Constitution is not to be circumvented by calling the compensation additional salary or by providing that the fees be paid into the salary fund and then paid out to the officer in a lump sum or otherwise.\nRespondent stresses the fact that the collections from the title certificate fees vary in the county but little from year to year and that with some degree of certainty an amount can be fixed at the beginning of the year which would, in all probability, range between one half or the total amount of the fund. With equal force, the same could be said of most of the fees collected by county officials. This does not alter the fact that the compensation is contingent upon the collection of these fees.\nIt is also urged that the Legislature in fixing salaries of county and district offices may take into consideration the volume of work and the amount of fees collected and this is merely what the Legislature has done in this instance. Certainly, it is proper that those matters be taken into account but this is accomplished habitually by placing the counties in population brackets. Where this course is followed, the salary is set and the obligation of the county to pay is certain and not dependent upon collections during the current year. Bexar County v. Tynan, 128 Texas 223, 97 S.W. 2d 467.\nIn urging that the recovery in favor of the county for compensation paid him be denied, respondent advances the proposition that as the payment was made and received in good faith and in reliance upon the plain wording of the statute and on the opinion of the Attorney General upholding the statute\u2019s constitutionality, it would be unfair and unjust to require that he make refund. In support of this theory, the only case cited is that of Wade v. Board of Commissioners, 161 Okla. 245, 17 Pac. 2d 690. Recovery in that case was sought not against the officer who received the money but against the Board for paying out the illegal salary. Quite a different rule is involved. The court held that the Board paying out the money in good faith could not be held personally liable.\nThe officer receiving the illegal payment cannot defend on the ground that it was paid and accepted in good faith. He is bound to reimburse the county for any sums paid him in excess of his lawful compensation. Greer v. Hunt County, supra; Cameron County v. Fox, 2 S.W. 2d 433; Travis County v. Matthews, 235 S.W. 2d 691, n.r.e.\nWe hold that Section 57 in so far only as it provides for compensation to Tax Assessors-Collectors is in conflict with the constitutional amendment quoted above and cannot stand.\nIt is to be regretted that only at this late date is the question brought before us for decision and that some hardship is thereby worked on this respondent and possibly others, but that consideration, of course, can have no influence on our decision as to the constitutionality of the statute.\nThe judgment of the Court of Civil Appeals is reversed and that of the District Court is affirmed.\nOpinion delivered October 20, 1954.\n\"* * * provided further, that in counties in which the designated agent is compensated on a fee basis, he shall be entitled to retain, as added compensation, the fund created by the twenty (20%) per cent of the twenty-five (25c) cents above set aside; and in counties where he is compensated on a salary basis, the Commissioners Court shall fix and allow, as additional salary for the duties required under this Act, a sum annually not less than fifty (50%) per cent and not more than the total of the special salary fund created by setting aside one fifth (1/5) of such twenty-five (25c) cents fee retained, any excess to be paid into the Road and Bridge Fund of the county.\u201d",
+        "type": "majority",
+        "author": "Mr. Justice Culver"
+      },
+      {
+        "text": "ON MOTION FOR REHEARING\nVery able briefs have been filed by respondent and by the Attorney General as amicus curiae in support of the motion for rehearing. They compel a reconsideration of the second question in the case, namely, the right of the County to enforce repayment from the respondent Assessor-Collector of the sums paid to him under the provisions of the statute which we hold unconstitutional. Section 57, Article 1436-1, Penal Code.\nThe cases relied on by petitioner on this point and cited in our original opinion do not satisfactorily support the contention of petitioner that the County is entitled to recover. While the opinion in Greer v. Hunt County, Texas Com. App. 1923, 249 S.W. 831 does hold that a county official would be bound to reimburse the County for any excess above his lawful fees and could not defeat recovery, the case was not really concerned with that question. The point was whether tjie acceptance by the officer of a salary less than that to which he was entitled, precluded him from thereafter demanding the balance. Cameron County v. Fox, Texas Com. App. 1928, 2 S.W. 2d 433, had to do with a valid act which provided that a county with a certain total taxable valuation should pay the premiums on the Tax Collector\u2019s bond. The Commissioners Court paid the premium and, subsequently concluding that the payment was without lawful authority, brought suit in the name of the County to recover from the Tax Collector the amount so paid. Although the payment was voluntarily made, it being without lawful authority, the county was permitted to recover. Payment by the Commissioners Court resulted from a mistaken interpretation of a valid statute or rather a mistake of fact as to whether or not the total taxable valuation equaled the amount required by the statute.\nWhile there seems to be no case from our jurisdiction squarely passing upon the point raised, there are some that do speak with considerable persuasion. In the early case of Sessums v. Botts, 34 Texas 335, cited with approval in Travelers\u2019 Ins. Co. v. Marshall, 124 Texas 45, 76 S.W. 2d 1007-1024, 96 A.L.R. 802, the court in discussing the effect of a statute held to be unconstitutional says in substance that a citizen, choosing to disregard a law under the belief that it is unconstitutional, does so at his peril; that it is the better policy to obey the law until its constitutionality has been determined; that this being the duy of the citizen he should then be protected in that obedience. The court further refuses to approve of the right of the ministerial officer to pass upon the constitutionality of a legislative act, and expressly holds that it is the duty of the officer to execute and not to pass judgment upon the law. While as a general rule a law held unconstitutional is void from the beginning and was never valid and enforceable at any time nevertheless those obeying the law, before its invalidity was determined are not to be punished, but on the contrary their rights are to be protected. To the same effect is the more recent opinion in Shar-ber v. Florence, 131 Texas 341, 115 S.W. 2d 604.\nIn United States v. Realty Company, 163 U.S. 427, 16 Sup. Ct. 1120, 1125, 41 L. Ed. 215, under a somewhat analogous set of facts in holding that parties acting under a law thereafter held unconstitutional were entitled to recover certain sugar bounties, the court held:\n\u201c* * * But in such a case as this, knowledge of the invalidity of the law in advance of any authoritative declaration to that effect will not be imputed to those who are acting under its provisions, and receiving the benefits provided by its terms. These parties cannot be held bound, upon the question of equitable or moral consideration, to know what no one else actually knew, and what no one could know prior to the determination, by some judicial tribunal, that the law was unconstitutional. Although it should finally turn out that the law is invalid, and is so pronounced, yet during all the time of its operation, as has been stated, all the officers of the government united in treating it as a valid act. No court had determined to the contrary. It was a question at least admitting of argument. * * * .\u201d\nThere are authoritative decisions from other jurisdictions squarely denying the right of the county to recover under such circumstances.\nIn Roberts v. Roane County, 160 Tenn. 109, 23 S.W. 2d 239 where the county sought recovery from the sheriff of salary payments paid under an act later held to be unconstitutional, recovery was denied upon the theory that while an unconstitutional statute does not confer any rights, duties or obligations and is in legal contemplation inoperative ab initio nonetheless the parties may so deal with each other relying upon the validity of the statute that neither may invoke the aid of the courts to undo what they have done.\nThe Supreme Court of Tennessee in State ex rel Lawrence County v. Hobbs, 194 Tenn. 323, 250 S.W. 2d 549, in denying the county\u2019s right to recover salary payments to county clerk under similar circumstances expressly reaffirmed the holding in Roberts v. Roane. See also State v. Clements, 217 Ala. 685, 117 So. 296; Village of Dolton v. Harms, 327 Ill. App. 107, 63 N.E. 2d 785; Fahey v. Town of Bloomington, 268 Ill. 386, 109 N.E. 292.\nThe rule that an unconstitutional law is a nullity is not applied to work hardship and impose liability on a public official who in performance of duty has acted in good faith relying on the validity of a statute before it has been declared invalid. 16 C.J.S., Constitutional Law, Sec. 101c; Golden v. Thompson, 194 Miss. 241, 11 So. 2d 906; O\u2019Shields v. Caldwell 207 S.C. 194, 35 S.E. 2d 184; Allen v. Holbrook, 103 Utah 319, 135 P. 2d 242.\nEquitable rights may be acquired though the statute is thereafter declared unconstitutional. Flournoy v. First National Bank of Shreveport, 197 La. 1067, 3 So. 2d 244; Chicot County Drainage District v. Baxter State Bank, 308 U.S. 371, 60 Sup. Ct. 317, 84 L. Ed. 329; Missouri Utilities Co. v. City of California, 8 F. Supp. 454 (Appeal dismissed 79 Fed. 2d 1003) ; Miller v. Dunn, 72 Cal. 462, 14 Pac. 27.\nSection 57, Article 1436-1, Penal Code, was adopted in its present form in 1951 by the 52nd Legislature. Before the Commissioners Court paid to respondent any compensation thus provided for, the opinion of the Attorney General was solicited and given. That opinion in a full discussion held the provision to be constitutional and that therefore payment to the respondent was in all things proper and legal.\nThe Legislature imposed certain additional duties upon the Tax Collector and clearly intended for him to be compensated therefor. The error was in fixing the manner of paying that compensation. The services have been performed by the Tax Collector. A part of the compensation allowed by the statute was paid to him by the Commissioners Court. All parties acted in good faith and we think it would be inequitable under the circumstances here to require the respondent to repay the compensation so paid to him.\nWe therefore hold that the County is not entitled to recover from the respondent the compensation which had been paid him in reliance upon the validity of the law and on the advice of the Attorney General.\nIt is to be understood that our holding on the unconstitutionality of the Act is confined solely to that portion of Section 57, that refers to \u201csalary payments\u201d to tax assessors-collectors in counties of more than 20,000 population. Sharber v. Florence, supra.\nThe motion for rehearing is therefore granted and our opinion heretofore rendered is modified to the extent set forth above.\nOpinion delivered March 23, 1955.\nAssociate Justice Walker not sitting.",
+        "type": "rehearing",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "McDonald & Anderson, of Wichita Falls, for petitioner.",
+      "Bullington, Humphrey, Humphrey & Philmore, of Wichita Falls, Hermam, \u00ab6 Scott, of Fort Worth, Graves, Dougherty and Greenhill, all of Austin for respondents."
+    ],
+    "corrections": "",
+    "head_matter": "Wichita County, Texas v. Jim Robinson, Tax Assessor-Collector\nNo. A-4655.\nDecided October 20, 1954\nRehearing overruled March 23, 1955\n(276 S. W. 2d Series 509)\nMcDonald & Anderson, of Wichita Falls, for petitioner.\nBullington, Humphrey, Humphrey & Philmore, of Wichita Falls, Hermam, \u00ab6 Scott, of Fort Worth, Graves, Dougherty and Greenhill, all of Austin for respondents."
+  },
+  "file_name": "0001-01",
+  "first_page_order": 15,
+  "last_page_order": 27
+}

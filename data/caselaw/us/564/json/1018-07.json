@@ -1,0 +1,59 @@
+{
+  "id": 4332385,
+  "name": "Dismuke v. United States",
+  "name_abbreviation": "Dismuke v. United States",
+  "decision_date": "2011-06-20",
+  "docket_number": "No. 10-109",
+  "first_page": "1018",
+  "last_page": "1018",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1018"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.566,
+    "sha256": "55cd54873471c34e992f46a4edf1e05553c8b9ebc025588b95354a4dc4aa40a6",
+    "simhash": "1:a6e8f20b669d4238",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dismuke v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-109.\nDismuke v. United States."
+  },
+  "file_name": "1018-07",
+  "first_page_order": 1012,
+  "last_page_order": 1012
+}

@@ -1,0 +1,934 @@
+{
+  "id": 12519648,
+  "name": "DTC ENERGY GROUP, INC., a Colorado Corporation, Plaintiff - Appellant, v. Adam HIRSCHFELD; Joseph Galban; Ally Consulting, LLC, f/k/a Wyodak Staffing, LLC, a Wyoming Limited Liability Company, Defendants - Appellees.",
+  "name_abbreviation": "DTC Energy Grp., Inc. v. Hirschfeld",
+  "decision_date": "2018-12-28",
+  "docket_number": "No. 18-1113",
+  "first_page": "1263",
+  "last_page": "1278",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "912 F.3d 1263"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "10th Cir.",
+    "id": 8771,
+    "name": "United States Court of Appeals for the Tenth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "Colo. Rev. Stat. \u00a7 8-2-113",
+      "category": "laws:leg_statute",
+      "reporter": "Colo. Rev. Stat.",
+      "pin_cites": [
+        {
+          "page": "(2)(d)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "618 F.3d 1177",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3776027
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "1189"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/618/1177-01"
+      ]
+    },
+    {
+      "cite": "771 P.2d 486",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "case_ids": [
+        10392121
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "494"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/p2d/771/0486-01"
+      ]
+    },
+    {
+      "cite": "328 F.3d 300",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9129912
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "304-05",
+          "parenthetical": "issuance of preliminary injunction supported by fact that defendant had no assets in the United States"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/328/0300-01"
+      ]
+    },
+    {
+      "cite": "780 F.2d 589",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        6127452,
+        1531421
+      ],
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "596"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/55/0589-01",
+        "/f2d/780/0589-01"
+      ]
+    },
+    {
+      "cite": "417 F.3d 28",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8937159
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "31"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/417/0028-01"
+      ]
+    },
+    {
+      "cite": "159 P.3d 116",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "case_ids": [
+        8303055
+      ],
+      "weight": 2,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "124"
+        },
+        {
+          "page": "179"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/p3d/159/0116-01"
+      ]
+    },
+    {
+      "cite": "30 P.3d 789",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "case_ids": [
+        9490967
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "796"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/p3d/30/0789-01"
+      ]
+    },
+    {
+      "cite": "176 P.3d 835",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "case_ids": [
+        8394029
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "843",
+          "parenthetical": "quoting Atmel Corp. v. Vitesse Semiconductor Corp. , 30 P.3d 789, 796 (Colo. App. 2001), abrogated in part on other grounds by Ingold v. AIMCO/Bluffs, L.L.C. Apartments , 159 P.3d 116, 124 (Colo. 2007) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/p3d/176/0835-01"
+      ]
+    },
+    {
+      "cite": "485 F.3d 577",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4077231
+      ],
+      "weight": 2,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "586"
+        },
+        {
+          "page": "586"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/485/0577-01"
+      ]
+    },
+    {
+      "cite": "134 Colo. 233",
+      "category": "reporters:state",
+      "reporter": "Colo.",
+      "case_ids": [
+        86021
+      ],
+      "weight": 2,
+      "year": 1956,
+      "pin_cites": [
+        {
+          "page": "722"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/colo/134/0233-01"
+      ]
+    },
+    {
+      "cite": "181 F.3d 1146",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11663468,
+        11663670
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "1150"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/236/1146-01",
+        "/f3d/181/1146-01"
+      ]
+    },
+    {
+      "cite": "112 P.3d 59",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "case_ids": [
+        8951152
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "64"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/p3d/112/0059-01"
+      ]
+    },
+    {
+      "cite": "841 P.2d 1053",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "case_ids": [
+        10376577
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "1058",
+          "parenthetical": "defendant's violation of a contractual term is an element of a breach of contract claim"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/p2d/841/1053-01"
+      ]
+    },
+    {
+      "cite": "938 P.2d 168",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "case_ids": [
+        11967599
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "173"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/p2d/938/0168-01"
+      ]
+    },
+    {
+      "cite": "773 F.3d 1117",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6055546
+      ],
+      "year": 2014,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/773/1117-01"
+      ]
+    },
+    {
+      "cite": "843 F.3d 886",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12173530
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "901",
+          "parenthetical": "quoting 11A Charles Alan Wright & Arthur R. Miller, Federal Practice and Procedure \u00a7 2948 (3d. ed. 2013) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/843/0886-01"
+      ]
+    },
+    {
+      "cite": "145 Colo. 600",
+      "category": "reporters:state",
+      "reporter": "Colo.",
+      "case_ids": [
+        1943051
+      ],
+      "weight": 3,
+      "year": 1961,
+      "pin_cites": [
+        {
+          "page": "442"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/colo/145/0600-01"
+      ]
+    },
+    {
+      "cite": "321 F.3d 1250",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9366942
+      ],
+      "weight": 2,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "1258"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/321/1250-01"
+      ]
+    },
+    {
+      "cite": "356 F.3d 1256",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        785154
+      ],
+      "weight": 3,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "1260"
+        },
+        {
+          "page": "1266"
+        },
+        {
+          "page": "1264",
+          "parenthetical": "factors to consider include \"the difficulty in calculating damages, the loss of a unique product, and existence of intangible harms such as loss of goodwill or competitive market position\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/356/1256-01"
+      ]
+    },
+    {
+      "cite": "840 F.3d 710",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12174688
+      ],
+      "weight": 5,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "723"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/840/0710-01"
+      ]
+    },
+    {
+      "cite": "555 U.S. 7",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3679402
+      ],
+      "weight": 4,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "24"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/555/0007-01"
+      ]
+    },
+    {
+      "cite": "874 F.3d 1136",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12266918
+      ],
+      "weight": 10,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1140",
+          "parenthetical": "quotation marks omitted"
+        },
+        {
+          "page": "1140-41"
+        },
+        {
+          "page": "1141"
+        },
+        {
+          "page": "1141"
+        },
+        {
+          "page": "1141"
+        },
+        {
+          "page": "1139-40, 1143-44"
+        },
+        {
+          "page": "1140"
+        },
+        {
+          "page": "1143",
+          "parenthetical": "explaining that a plaintiff \"cannot obtain a preliminary injunction\" \"[w]ithout [first] showing irreparable harm\""
+        },
+        {
+          "page": "1141"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/874/1136-01"
+      ]
+    },
+    {
+      "cite": "427 F.3d 1253",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1241096
+      ],
+      "weight": 6,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "1258"
+        },
+        {
+          "page": "1258",
+          "parenthetical": "quotation marks omitted"
+        },
+        {
+          "page": "1267"
+        },
+        {
+          "page": "1267"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/427/1253-01"
+      ]
+    },
+    {
+      "cite": "710 F.2d 1461",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1866588
+      ],
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "1463"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/710/1461-01"
+      ]
+    },
+    {
+      "cite": "854 F.3d 1178",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12277429
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1194",
+          "parenthetical": "quotation marks and alteration omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/854/1178-01"
+      ]
+    },
+    {
+      "cite": "601 F.3d 1096",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4224653
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "1110"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/601/1096-01"
+      ]
+    },
+    {
+      "cite": "785 F.3d 442",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4183386
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "444-45",
+          "parenthetical": "quoting Rio Grande Silvery Minnow v. Bureau of Reclamation , 601 F.3d 1096, 1110 (10th Cir. 2010) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/785/0442-01"
+      ]
+    },
+    {
+      "cite": "Colo. Rev. Stat. \u00a7 7-74-103",
+      "category": "laws:leg_statute",
+      "reporter": "Colo. Rev. Stat.",
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "201-02"
+        },
+        {
+          "parenthetical": "injunction permitted \"to prevent or restrain actual or threatened misappropriation of a trade secret\""
+        },
+        {
+          "page": "475"
+        },
+        {
+          "page": "185"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 1836",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(b)(3)(A)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1292",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 22,
+      "pin_cites": [
+        {
+          "page": "(a)(1)"
+        },
+        {
+          "page": "179"
+        },
+        {
+          "page": "178"
+        },
+        {
+          "page": "182, 184"
+        },
+        {
+          "page": "184"
+        },
+        {
+          "page": "179"
+        },
+        {
+          "page": "181"
+        },
+        {
+          "page": "513-15"
+        },
+        {
+          "page": "513"
+        },
+        {
+          "page": "514"
+        },
+        {
+          "page": "182"
+        },
+        {
+          "page": "182-83"
+        },
+        {
+          "page": "185"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "415 F.2d 437",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        2176463
+      ],
+      "year": 1969,
+      "pin_cites": [
+        {
+          "page": "439"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/415/0437-01"
+      ]
+    },
+    {
+      "cite": "204 F.3d 475",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11470200
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "484-85"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/204/0475-01"
+      ]
+    },
+    {
+      "cite": "927 F.Supp.2d 776",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        4036465
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "785-86"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f-supp-2d/927/0776-01"
+      ]
+    },
+    {
+      "cite": "2015 WL 5818067",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 2,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "*4-6"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "Colo. Rev. Stat. \u00a7 8-2-113",
+      "category": "laws:leg_statute",
+      "reporter": "Colo. Rev. Stat.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "328 F.3d 300",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9129912
+      ],
+      "weight": 6,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "302"
+        },
+        {
+          "page": "303"
+        },
+        {
+          "page": "304"
+        },
+        {
+          "page": "305"
+        },
+        {
+          "page": "304-05"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/328/0300-01"
+      ]
+    },
+    {
+      "cite": "321 F.3d 1250",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9366942
+      ],
+      "weight": 8,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "1255"
+        },
+        {
+          "page": "1256-57"
+        },
+        {
+          "page": "1261"
+        },
+        {
+          "page": "1262"
+        },
+        {
+          "page": "1255",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "1256"
+        },
+        {
+          "page": "1258",
+          "parenthetical": "quoting Adams v. Freedom Forge Corp. , 204 F.3d 475, 484-85 (3d Cir. 2000) "
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/321/1250-01"
+      ]
+    },
+    {
+      "cite": "356 F.3d 1256",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        785154
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "1263"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/356/1256-01"
+      ]
+    },
+    {
+      "cite": "555 U.S. 7",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3679402
+      ],
+      "weight": 3,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "24"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/555/0007-01"
+      ]
+    },
+    {
+      "cite": "874 F.3d 1136",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12266918
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1141",
+          "parenthetical": "quoting Winter v. Nat. Res. Def. Council , 555 U.S. 7, 24, 129 S.Ct. 365, 172 L.Ed.2d 249 (2008) "
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/874/1136-01"
+      ]
+    },
+    {
+      "cite": "427 F.3d 1253",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1241096
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "1253",
+          "parenthetical": "\"The purpose of a preliminary injunction is not to remedy past harm but to protect plaintiffs from irreparable injury that will surely result without their issuance.\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/427/1253-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1533,
+    "char_count": 43802,
+    "pagerank": {
+      "raw": 5.7088221937745076e-08,
+      "percentile": 0.3584320939174446
+    },
+    "sha256": "f5a5aa71ef3914220a5d6bac2638318bfe063085ade872d34d18df19d6212ddb",
+    "simhash": "1:bb667573acd16d4b",
+    "word_count": 6982
+  },
+  "last_updated": "2024-02-27T18:46:08.625841+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before BRISCOE, MURPHY, and McHUGH, Circuit Judges."
+    ],
+    "parties": [
+      "DTC ENERGY GROUP, INC., a Colorado Corporation, Plaintiff - Appellant,\nv.\nAdam HIRSCHFELD; Joseph Galban; Ally Consulting, LLC, f/k/a Wyodak Staffing, LLC, a Wyoming Limited Liability Company, Defendants - Appellees."
+    ],
+    "opinions": [
+      {
+        "text": "BRISCOE, Circuit Judge.\nThis is an appeal from the denial of a preliminary injunction in a business tort case. Plaintiff-Appellant DTC Energy Group, Inc., has sued two of its former employees-Adam Hirschfeld and Joseph Galban-as well as one of its industry competitors-Ally Consulting, LLC-for using DTC's trade secrets to divert business from DTC to Ally. DTC moved for a preliminary injunction based on its claims for breach of contract, breach of the duty of loyalty, misappropriation of trade secrets, and unfair competition. The district court denied the motion. It found that DTC had shown a probability of irreparable harm from Hirschfeld's ongoing solicitation of DTC clients, but that DTC could not show the ongoing solicitation violated Hirschfeld's employment agreement. Exercising jurisdiction pursuant to 28 U.S.C. \u00a7 1292(a)(1), we AFFIRM.\nI\nDTC is a staffing company. App. Vol. I at 178. It serves as the middleman between oil and gas companies who are looking for workers and workers who are looking for jobs. Id. When DTC places a worker (referred to as a consultant) in a job at an oil and gas company (referred to as a customer), the customer pays DTC a fee and DTC gives a portion of that fee to the consultant as compensation for his labor. Id. at 179. For the majority of time relevant to this appeal, DTC was owned by Bob Sylar and Luke Clausen. Id. at 178.\nDTC's primary tool for matching consultants and customers is a collection of consultant resumes that DTC assembled and regularly updates. Id. at 182, 184. While the resumes themselves are supplied by consultants, DTC edits the resumes before sending them to customers and maintains the collection of resumes in a password-protected, searchable Dropbox folder, so it is easy to find qualified candidates when a customer needs a consultant. Id. at 184.\nIn 2013, DTC hired Hirschfeld as a sales associate. Id. at 179. Hirschfeld's job was to develop relationships with consultants and customers to win business for DTC. Id. His role at DTC grew over time and he was eventually named the business development manager. Id. Aside from Hirschfeld, DTC only employed a handful of people. Galban, the other individual defendant in this case, was DTC's accountant. Id. at 181.\nHirschfeld signed an employment agreement with DTC when he became its business development manager. App. Vol. I at 179; see also App. Vol. III at 510-20. He was the only employee who signed an employment agreement with restrictive covenants. App. Vol. II at 246-47. The agreement required him to \"devote substantially all of his\" professional time to DTC and act in DTC's \"best interests.\" App. Vol. III at 510. The agreement also included confidentiality, non-solicitation, and non-interference provisions. Id. at 513-15. The confidentiality provision prohibits Hirschfeld from using DTC's confidential information-including trade secrets, customer lists, price lists, and resumes-for his own benefit or the benefit of another company. Id. at 513. The nonsolicitation and non-interference provisions prohibited Hirschfeld from encouraging DTC's current customers to take their business to a competitor and from recruiting DTC's employees to work for a competitor. Id. at 514. The non-solicitation and non-interference provisions applied while Hirschfeld was employed by DTC and for one year after the end of his employment. Id. The only exception was that neither provision applied if he resigned because of \"a change in the current equity ownership of\" DTC (the \"change in ownership\" clause). Id.\nIn January 2016, DTC and Ally (another oil and gas staffing company) began to negotiate an agreement. At that time, both companies provided similar staffing services, but Ally's business was smaller and limited to directional drillers. App. Vol. II at 223, 273, 391, 433. In comparison, DTC placed consultants at many kinds of oil and gas companies. App. Vol. I at 178-79. Ultimately, the agreement established that DTC would provide \"administrative services, such as payroll and benefits,\" to Ally for a fee. App. Vol. I at 181-82. Despite the limited scope of the agreement between Ally and DTC, Hirschfeld began using DTC's resources (its employees and its collection of consultant resumes) to win business for Ally. Id. at 182. At the same time that DTC and Ally executed the service agreement, \"Hirschfeld's father, Craig Hirschfeld, became a 35% owner of Ally.\" Id. Hirschfeld hid his work for Ally, and his father's ownership interest in Ally, from DTC's owners. See, e.g. , App. Vol. II at 288.\nAlly terminated the service agreement with DTC in July 2016, but Hirschfeld continued to work with other DTC employees on Ally's behalf. App. Vol. I at 183. That same month, DTC's owners learned about some of the connections between their employees and Ally. Id. at 182-83; App. Vol. III at 541-45. When asked about his work for Ally, Hirschfeld offered a technically true, but misleading, answer-that he had \"no ownership of any sort in\" Ally, that he \"receive[s] no direct compensation from\" Ally, and that he is \"compensated by DTC only.\" App. Vol. III at 544. Hirschfeld did not disclose that his father was an owner of Ally. App. Vol. II at 316-17. DTC's owners were upset about the relationship between DTC's employees and Ally, but took no action against any DTC employee. App. Vol. I at 182-83. Hirschfeld's work for Ally continued.\nIn April 2017, Clausen purchased Sylar's interest in DTC and became the sole owner of the business. App. Vol. II at 237, 436-37. Then, on May 3, 2017, Hirschfeld resigned from DTC, effective at the end of the month. App. Vol. I at 184. In his resignation letter, Hirschfeld cited \"the recent change in the equity ownership of DTC\" as his reason for leaving. App. Vol. III at 558. When Hirschfeld left DTC, he took a flash drive containing \"thousands of ... resumes\" and a laptop containing \"all of the files stored in DTC's Dropbox\" folders. App. Vol. I at 184. Hirschfeld's laptop remained signed-in to DTC's Dropbox account, so Hirschfeld could access DTC's online folders after leaving DTC. Id. at 185. Hirschfeld lost access to his DTC email when he resigned. Id.\nThe day after leaving DTC, Hirschfeld began working at Ally as its director of business development. App. Vol. II at 327. Hirschfeld \"has continued to solicit DTC's customers since joining Ally.\" App. Vol. I at 185. In July or August 2017, Defendants gave Hirschfeld's laptop and the DTC flash drive to a third-party forensics company as part of a litigation hold for this case. Id. Hirschfeld no longer has access to DTC's Dropbox account. Id.\nIn September 2017, DTC filed its first amended complaint. DTC alleges that Hirschfeld and Galban began to improperly divert business from DTC to Ally beginning in early 2016, and that Defendants continue to profit at DTC's expense. See App. Vol. I at 9-42. DTC then moved for a preliminary injunction based on four of its claims: Hirschfeld's breach of his employment agreement; Hirschfeld's and Galban's breaches of their duties of loyalty to DTC; all Defendants' misappropriation of trade secrets in violation of the federal Defend Trade Secrets Act (DTSA), 18 U.S.C. \u00a7 1836, and the Colorado Uniform Trade Secrets Act (CUTSA), Colo. Rev. Stat. \u00a7 7-74-103 ; and Ally's unfair competition with DTC. App. Vol. I at 72-91.\nDTC sought a broad injunction that, in DTC's attorney's own words, would \"enjoin[ ] [Ally] from any business operations until a trial.\" App. Vol. II at 480. The injunction would have imposed the following restrictions through the conclusion of this case: Hirschfeld and Galban would be prohibited from working at Ally; Ally would only be allowed to work with directional drillers; no Defendant could work with any customer or consultant with whom Hirschfeld or Galban worked while at DTC; and all Defendants would be required to stop using confidential information from DTC. App. Vol. I at 73-74.\nThe district court held an evidentiary hearing in January 2018, see App. Vol. II at 203, and denied the motion in March 2018, App. Vol. I at 200. DTC timely filed an interlocutory appeal. Id. at 201-02.\nAt the end of March 2018, DTC moved to expedite its appeal. We denied the motion \"without prejudice to renewal upon completion of briefing.\" DTC has not renewed its motion for expedited consideration, but nonetheless we have expedited our resolution of this appeal.\nII\nWe first briefly address our jurisdiction. Defendants contend that this appeal is moot, Aple. Br. at 34-41, but their argument actually addresses the merits of DTC's motion for a preliminary injunction. \"In considering mootness, we ask 'whether granting a present determination of the issues offered will have some effect in the real world.' \" Fleming v. Gutierrez , 785 F.3d 442, 444-45 (10th Cir. 2015) (quoting Rio Grande Silvery Minnow v. Bureau of Reclamation , 601 F.3d 1096, 1110 (10th Cir. 2010) ). \"The doctrine of mootness in no way depends on the merits of the plaintiff's contention.\" Keller Tank Servs. II, Inc. v. Comm'r , 854 F.3d 1178, 1194 (10th Cir. 2017) (quotation marks and alteration omitted).\n\"[W]here an act sought to be enjoined has occurred, an appeal of a district court order denying an injunction is moot.\" Thournir v. Buchanan , 710 F.2d 1461, 1463 (10th Cir. 1983). Here, DTC seeks to enjoin acts that continue to occur-including Defendants' solicitation of DTC's customers and consultants, as well as Ally's employment of Hirschfeld and Galban. App. Vol. I at 73-74. This appeal is not moot because the preliminary injunction sought by DTC would have immediate effects on Ally's business, not to mention Hirschfeld's and Galban's professional opportunities.\nIII\n\"We review the decision to deny a motion for a preliminary injunction for abuse of discretion.\" Schrier v. Univ. of Colo. , 427 F.3d 1253, 1258 (10th Cir. 2005). \"An abuse of discretion occurs when a decision is premised on an erroneous conclusion of law or where there is no rational basis in the evidence for the ruling.\" First W. Capital Mgmt. Co. v. Malamed , 874 F.3d 1136, 1140 (10th Cir. 2017) (quotation marks omitted). \"Thus, we review the district court's factual findings for clear error and its conclusions of law ... de novo.\" Id. at 1140-41.\nA preliminary injunction has the \"limited purpose\" of \"preserv[ing] the relative positions of the parties until a trial on the merits can be held.\" Schrier , 427 F.3d at 1258 (quotation marks omitted). It \"is an extraordinary remedy never awarded as of right.\" First W. Capital Mgmt. Co. , 874 F.3d at 1141 (quoting Winter v. Nat. Res. Def. Council , 555 U.S. 7, 24, 129 S.Ct. 365, 172 L.Ed.2d 249 (2008) ). \"A party may be granted a preliminary injunction only when monetary or other traditional legal remedies are inadequate, and 'the right to relief is clear and unequivocal.' \" Id. (quoting Schrier , 427 F.3d at 1258 ) (alteration omitted).\nUnder Rule 65 of the Federal Rules of Civil Procedure, a party seeking a preliminary injunction must show: \"(1) the movant is substantially likely to succeed on the merits; (2) the movant will suffer irreparable injury if the injunction is denied; (3) the movant's threatened injury outweighs the injury the opposing party will suffer under the injunction; and (4) the injunction would not be adverse to the public interest.\"\nId. (quoting Fish v. Kobach , 840 F.3d 710, 723 (10th Cir. 2016) ).\nIV\n\" '[B]ecause a showing of probable irreparable harm is the single most important prerequisite for the issuance of a preliminary injunction, the moving party must first demonstrate that such injury is likely before the other requirements' will be considered.\" First W. Capital Mgmt. Co. , 874 F.3d at 1141 (quoting Dominion Video Satellite, Inc. v. Echostar Satellite Corp. , 356 F.3d 1256, 1260 (10th Cir. 2004) ). \"The purpose of a preliminary injunction is not to remedy past harm but to protect plaintiffs from irreparable injury that will surely result without their issuance.\" Schrier , 427 F.3d at 1267. \"Demonstrating irreparable harm is 'not an easy burden to fulfill.' \" First W. Capital Mgmt. Co. , 874 F.3d at 1141 (quoting Greater Yellowstone Coal. v. Flowers , 321 F.3d 1250, 1258 (10th Cir. 2003) ). \"[T]he movant 'must demonstrate a significant risk that he or she will experience harm that cannot be compensated after the fact by money damages.' \" Id. (quoting Fish , 840 F.3d at 751 ).\nDTC's motion for a preliminary injunction is based on four claims: Hirschfeld's breach of his employment agreement, Hirschfeld's and Galban's breaches of their duties of loyalty to DTC, all Defendants' misappropriation of DTC's trade secrets, and Ally's unfair competition with DTC. App. Vol. I at 72-91. The district court found that DTC had shown a probability of irreparable harm from Hirschfeld's allegedly ongoing breach of his employment agreement, but that DTC had not met its burden with respect to its other claims. Based on the testimony and documentary evidence offered at the evidentiary hearing, the district court reasoned that the majority of conduct at issue in this case occurred before DTC moved for a preliminary injunction. According to the district court, the resulting harm to DTC is therefore identifiable and can be remedied by an award of damages.\nDTC does not dispute the district court's finding that DTC will likely suffer irreparable harm from Hirschfeld's ongoing solicitation of DTC's customers and clients, conduct that DTC argues violates Hirschfeld's employment agreement. Hirschfeld's employment agreement states that \"any breach ... of the confidentiality, non-solicitation or other restrictive covenants ... would cause irreparable injury to\" DTC. App. Vol. III at 515. \"[W]ithout more[,] [this provision] is insufficient to support an irreparable harm finding.\" Dominion Video Satellite , 356 F.3d at 1266. But Hirschfeld also testified that he continues to solicit customers and consultants with whom he worked while at DTC. App. Vol. II at 329. Based on this testimony, the district court found that \"the harm likely caused by Mr. Hirschfeld's ongoing solicitation efforts, including loss of customers, loss of goodwill, and further erosion of DTC's competitive position in the oil and gas staffing industry, would be difficult to calculate in monetary terms.\" App. Vol. I at 196. These are the types of factors that district courts should consider when deciding whether a plaintiff has shown a sufficient probability of irreparable harm. Dominion Video Satellite , 356 F.3d at 1264 (factors to consider include \"the difficulty in calculating damages, the loss of a unique product, and existence of intangible harms such as loss of goodwill or competitive market position\").\nWhat DTC does dispute on appeal is the district court's finding that DTC had not \"establish[ed] a significant risk of irreparable harm based on defendants' past misconduct.\" App. Vol. I at 195. DTC argues that this finding was erroneous because DTC continues to be irreparably harmed by Defendants' past misconduct-specifically because Defendants \"continue to profit from [their] misdeeds\" and \"harm DTC's goodwill and competitive market position.\" Aplt. Br. at 48. But not all plaintiffs who have already suffered lost customers, stolen trade secrets, or intangible injury can show a sufficient probability of future irreparable harm to warrant a preliminary injunction. For example, in First Western Capital Management Co. , a company was denied a preliminary injunction after it sued one of its former employees to stop his use of a detailed client list to solicit its customers. 874 F.3d at 1139-40, 1143-44. We agreed with the district court's finding that, based on the record developed at the preliminary injunction hearing, there was an insufficient risk of irreparable harm because \"money damages could be reasonably quantified.\" Id. at 1140. And, in Schrier , we affirmed the denial of a preliminary injunction, even though the plaintiff alleged irreparable harm from \"loss of prestige, academic reputation[,] [and] professional opportunities,\" because the plaintiff did not point to \"evidence in the record showing actual or significant risk\" that those harms would occur in the future. 427 F.3d at 1267.\nThe same is true here. Based on our review of the evidence presented at the preliminary injunction hearing in this case, we conclude that the district court did not abuse its discretion when it found that DTC had not shown a sufficient probability of irreparable harm from Defendants' past misconduct.\nFirst, DTC has not established a probability of irreparable harm from Hirschfeld's and Galban's work for Ally while they were employed by DTC. As discussed previously, Hirschfeld's employment agreement prohibited him from soliciting DTC's customers and consultants while he was employed by DTC. App. Vol. III at 514. And as DTC employees, Hirschfeld and Galban also owed DTC a duty of loyalty. The district court found that DTC had failed to show how Hirschfeld's and Galban's work on behalf of Ally, while they were employed by DTC, gave rise to future irreparable harm. App. Vol. I at 195 & n.2. This conclusion is supported by the record. At the preliminary injunction hearing, DTC identified twelve contracts that Hirschfeld diverted from DTC to Ally, App. Vol. II at 295, suggesting that DTC will be able to offer expert testimony about damages it suffered while Hirschfeld and Galban were DTC employees. Moreover, DTC's owners hired experts to value the company when Clausen purchased Sylar's equity in DTC, further suggesting that damages (as measured by a change in DTC's value) can be calculated. App. Vol. II at 443. Therefore, both the prior loss of DTC's customers and consultants and the general decline of DTC's value as a business can be quantified in money damages.\nSecond, DTC has not offered sufficient evidence that Defendants currently possess DTC trade secrets. DTC has sued Defendants under the federal DTSA and Colorado's CUTSA, which authorize a district court to grant a preliminary injunction \"to prevent any actual or threatened misappropriation\" of a trade secret. 18 U.S.C. \u00a7 1836(b)(3)(A) ; see also Colo. Rev. Stat. \u00a7 7-74-103 (injunction permitted \"to prevent or restrain actual or threatened misappropriation of a trade secret\"). No testimony elicited at the preliminary injunction hearing indicates that Defendants retain access to DTC's confidential information or trade secrets. Hirschfeld testified that, in July 2017, he turned over all DTC information to Ally, who then turned over the information to a third-party computer forensics company. App. Vol. II at 323-24. An Ally manager testified to this as well. Id. at 475. Hirschfeld also testified that he lost access to his DTC email when he resigned. Id. at 185. DTC argues that the forensics company might return DTC's information to Defendants, but this is mere speculation and does not cast doubt on the district court's finding that DTC's trade secret claims do not establish a probability of irreparable harm.\nThird, DTC has not shown that confusion about the relationship between DTC and Ally persists. \"To constitute unfair competition in respect to a trade name, ... [t]he name must have acquired a secondary meaning or significance that identifies the plaintiff ... [and] the defendant must have unfairly used the name or a simulation of it against the plaintiff.\" Swart v. Mid-Continent Refrigerator Co. , 145 Colo. 600, 360 P.2d 440, 442 (1961). The district court found that DTC \"presented no evidence that Ally ... continue[s] to appropriate DTC's name or resources to solicit business.\" App. Vol. I at 195. \"Nor is there evidence demonstrating ongoing confusion within the industry as to the relationship between the two companies.\" Id. DTC elicited limited testimony about marketplace confusion, and that testimony only addressed time when Hirschfeld was still employed at DTC. App. Vol.\nII at 307-08. Therefore, the district court did not err when it found that DTC's unfair competition claim did not establish a probability of future irreparable harm.\nV\nHaving concluded that DTC has only shown a probability of future irreparable harm from Hirschfeld's ongoing solicitation of DTC's customers and consultants, we assess DTC's likelihood of success on its claim that Hirschfeld's ongoing solicitation violates his employment agreement. First W. Capital Mgmt. Co. , 874 F.3d at 1143 (explaining that a plaintiff \"cannot obtain a preliminary injunction\" \"[w]ithout [first] showing irreparable harm\"). Because \"[t]he very purpose of an injunction under Rule 65(a) is to give temporary relief based on a preliminary estimate of the strength of the plaintiff's suit, prior to the resolution at trial of the factual disputes and difficulties presented by the case,\" a \"plaintiff must present a prima facie case but need not show a certainty of winning.\" Coal. of Concerned Citizens to Make Art Smart v. Fed. Transit Admin. , 843 F.3d 886, 901 (10th Cir. 2016) (quoting 11A Charles Alan Wright & Arthur R. Miller, Federal Practice and Procedure \u00a7 2948 (3d. ed. 2013) ). The district court's interpretation of Hirschfeld's employment agreement is a question of law that we review de novo. Derma Pen, LLC v. 4EverYoung Ltd. , 773 F.3d 1117, 1119-20 & n.2 (10th Cir. 2014).\nThe district court found that DTC had not shown a sufficient likelihood of success on its claim that Hirschfeld's ongoing solicitation of DTC's customers and consultants violates his employment agreement. App. Vol. I at 199. Hirschfeld's employment agreement prohibited him from soliciting DTC's customers, consultants, and employees for one year after his resignation, unless he resigned \"because there has been a change in the current equity ownership of\" DTC. App. Vol. III at 514. In April 2017, there was a change in DTC's ownership when Clausen purchased his partner's equity and became the sole owner of DTC. App. Vol. II at 237, 436-37. Hirschfeld cited the \"change in ownership\" clause when he resigned in May 2017. App. Vol. III at 558.\n\"It is axiomatic that [courts] ... must enforce an unambiguous contract in accordance with the plain and ordinary meaning of its terms.\" USI Props. East, Inc. v. Simpson , 938 P.2d 168, 173 (Colo. 1997). DTC does not argue that the employment agreement is ambiguous. Moreover, DTC conceded at the preliminary injunction hearing that the \"change in ownership\" clause was triggered by Clausen's purchase of Sylar's equity in DTC. App. Vol. II at 483. Therefore, by operation of the \"change in ownership\" clause, Hirschfeld was not bound by his employment agreement's non-solicitation provisions after he resigned. Accordingly, the district court did not err in finding that DTC would not succeed on its breach of contract claim, as it pertains to Hirschfeld's ongoing solicitation of DTC's customers and consultants. See W. Distrib. Co. v. Diodosio , 841 P.2d 1053, 1058 (Colo. 1992) (defendant's violation of a contractual term is an element of a breach of contract claim).\nRather than dispute the district court's interpretation of Hirschfeld's employment agreement, DTC argues that Colorado's \"prior breach\" doctrine prevents Hirschfeld from relying on the \"change in ownership\" clause. \"Under [Colorado] contract law, a party to a contract cannot claim its benefit where he is the first to violate its terms.\" Coors v. Sec. Life of Denver Ins. Co. , 112 P.3d 59, 64 (Colo. 2005). The \"prior breach\" doctrine is an equitable argument typically asserted by a defendant who has been sued for specific performance by a plaintiff who was the first to breach the contract. In re Country World Casinos, Inc. , 181 F.3d 1146, 1150 (10th Cir. 1999) ; Sci. Packages, Inc. v. Gwinn , 134 Colo. 233, 301 P.2d 719, 722 (1956). But DTC does not seek to use the \"prior breach\" doctrine as a shield against a demand for specific performance. Instead, DTC seeks to use the doctrine as a sword to create liability for Hirschfeld where the text of the agreement provides for none. Therefore, the district court did not err when it found that the \"prior breach\" doctrine was inapplicable.\nMoreover, even if Hirschfeld was bound by his employment agreement's nonsolicitation provisions after he resigned, the provisions expired one year after his resignation, at the end of May 2018. App. Vol. III at 514, 558. \"Colorado ... has a fundamental policy\" of interpreting noncompetitive provisions in employment contracts narrowly. King v. PA Consulting Grp. , 485 F.3d 577, 586 (10th Cir. 2007). Colorado courts have held that, when an injunction is based on \"a restrictive employment agreement,\" the injunction \"must be co-extensive with the terms of the\" agreement. Phoenix Capital, Inc. v. Dowell , 176 P.3d 835, 843 (Colo. App. 2007) (quoting Atmel Corp. v. Vitesse Semiconductor Corp. , 30 P.3d 789, 796 (Colo. App. 2001), abrogated in part on other grounds by Ingold v. AIMCO/Bluffs, L.L.C. Apartments , 159 P.3d 116, 124 (Colo. 2007) ). Therefore, Hirschfeld's present solicitation of DTC's customers and consultants would not support issuing a preliminary injunction because such an injunction would exceed even DTC's own understanding of the scope of the non-solicitation provisions in Hirschfeld's employment agreement. See Aplt. Br. at 9-10 (non-solicitation provisions applied \"[w]hile [Hirschfeld was] employed by DTC and for one year thereafter\").\nVI\nBecause the district court did not abuse its discretion when denying DTC's motion for a preliminary injunction, we AFFIRM.\nWhen the agreement was executed, Ally was known as Wyodak Staffing, LLC. App. Vol. I at 181. Wyodak later changed its name to Ally. Id. at 179.\nDTC's other claims are: unjust enrichment, tortious interference with business relationships, tortious interference with contract, civil theft, and civil conspiracy. App. Vol. I at 9-71.\n\"[I]n limited circumstances[,] courts may presume irreparable harm and grant injunctive relief.\" First W. Capital Mgmt. Co. , 874 F.3d at 1141. One such circumstance is \"when a statute mandates injunctive relief as a remedy for a violation-or impending violation-of the statute, [because the statute] has effectively constrained the courts' traditional discretion to determine whether such relief is warranted.\" Id. (citing Fish , 840 F.3d at 751 n.24 ). This presumption does not apply \"when a statute merely authorizes-rather than mandates-injunctive relief.\" Id. (citing Fish , 840 F.3d at 751 n.24 ). Neither the Defend Trade Secrets Act nor the Colorado Uniform Trade Secrets Act \"allow a presumption of irreparable harm.\" Id. at 1143. Therefore, DTC's statutory claims for misappropriation of trade secrets do not warrant a presumption of irreparable harm.\nDTC repeatedly relies on a pair of cases which hold that issuance of a preliminary injunction may be appropriate when a defendant is in, or is about to enter, bankruptcy because it is difficult to recover damages from a bankrupt defendant. See Micro Signal Research, Inc. v. Otus , 417 F.3d 28, 31 (1st Cir. 2005) ; Am. Hosp. Supply Corp. v. Hosp. Prods. Ltd. , 780 F.2d 589, 596 (7th Cir. 1986) ; see also Foodcomm Int'l v. Barry , 328 F.3d 300, 304-05 (7th Cir. 2003) (issuance of preliminary injunction supported by fact that defendant had no assets in the United States). There is no indication that DTC's ability to recover damages is at risk because one of the Defendants is at risk of bankruptcy.\n\"An employee's duty of loyalty applies to the solicitation of co-employees, as well as to the solicitation of customers, during the time the soliciting employee works for his employer.\" Jet Courier Serv., Inc. v. Mulei , 771 P.2d 486, 494 (Colo. 1989).\nUnlike the concurrence, we do not understand the district court to have stated that, as a matter of law, a plaintiff cannot show a probability of future irreparable harm from past misconduct. See Concurring Op. at 1276-77. Rather, we understand the district court to have found that DTC's showing at the preliminary injunction hearing was insufficient.\nDTC also argues that Hirschfeld should be equitably estopped from relying on the \"change in ownership\" clause, but that argument was not briefed in the district court. We do not address DTC's newly-raised equitable estoppel argument, McKissick v. Yuen , 618 F.3d 1177, 1189 (10th Cir. 2010), but that does not foreclose DTC from pursuing the argument in the district court when litigating the merits of its claims.\n\"[N]oncompete provisions ... [must] fall within one of [Colorado's] statutory exceptions.\" King , 485 F.3d at 586. Hirschfeld's employment agreement states that its noncompete provisions fall under the exception for \"executive and management services.\" App. Vol. III at 525 (referring to Colo. Rev. Stat. \u00a7 8-2-113(2)(d) ).",
+        "type": "majority",
+        "author": "BRISCOE, Circuit Judge."
+      },
+      {
+        "text": "McHUGH, Circuit Judge, concurring:\nAlthough I join in the conclusion reached by the majority, as well as most of its reasoning, I write separately to address DTC's argument that it continues to suffer irreparable harm based on the Defendants' past breaches. I would conclude an injunction can be based on the continuing irreparable harm caused by Defendants' past breaches. But because DTC has failed to support its continuing irreparable harm argument with evidence, I too would affirm the district court.\nThe district court denied injunctive relief because it concluded the duty of loyalty owed by the Defendants to DTC and the nonsolicitation clause of Mr. Hirschfeld's employment agreement had expired and DTC was unable to show a significant risk of future misappropriation of trade secrets or unfair competition. According to DTC, the district court erred by inappropriately conflating the issue of irreparable harm with the likelihood of success on the merits of future claims. That is, DTC argues the district court applied the wrong legal standard when it focused on whether the Defendants would engage in future unlawful conduct, rather than analyzing whether the Defendants' past breaches were continuing to cause DTC irreparable harm. I agree with DTC that in some circumstances an injunction can be supported by the irreparable harm caused by the Defendants' legal actions that would not have been possible but for their past breaches.\nPreliminary injunctions are meant \"to protect [a] plaintiff from irreparable injury and to preserve the court's power to render a meaningful decision after a trial on the merits.\" 11A Charles Alan Wright et al., Federal Practice and Procedure \u00a7 2947 (3d ed. 2013) (hereinafter Fed. Prac. & Proc.). \"Although the fundamental fairness of preventing irremediable harm to a party is an important factor on a preliminary-injunction application, the most compelling reason in favor of entering a [preliminary-injunction] is the need to prevent the judicial process from being rendered futile by [the] defendant's action or refusal to act.\" Id. To that end, courts have sometimes enjoined future legal conduct because it was made possible by prior illegal conduct and will cause irreparable harm to the plaintiff.\nFor example, in Greater Yellowstone Coalition v. Flowers , the plaintiff-environmental groups claimed the United States Army Corps of Engineers (the Corps) had issued a construction permit to a developer in violation of the National Environmental Policy Act (NEPA) and the Clean Water Act (CWA). See 321 F.3d 1250, 1255 (10th Cir. 2003). The plaintiffs sought an injunction to prevent the developer from engaging in the construction authorized by the permit, which the district court denied. On appeal, we concluded the district court had abused its discretion by not considering the irreparable harm the plaintiffs would suffer by the loss of bald eagle nests and juvenile bald eagles during the construction period. Id. at 1256-57. Although the developer's future acts were authorized by the permit and the plaintiffs had not alleged the Corps was contemplating any future breaches of NEPA or the CWA, we concluded the district court abused its discretion in finding the harm to bald eagles from the construction authorized by the permit was too speculative to constitute a significant risk of irreparable harm. Id. at 1261. But without the injunction, the judicial process would have been rendered futile because even if the plaintiffs prevailed, the eagle nests and juveniles would be irretrievably lost. See id. Accordingly, we reversed and remanded to the district court for it to consider the balance of the harms and public interest. Id. at 1262.\nIn Foodcomm International v. Barry , the Seventh Circuit took a similar approach in circumstances much like those present here. 328 F.3d 300 (7th Cir. 2003). The defendants were former employees of the plaintiff company who, while still employed by the plaintiff, colluded with one of the plaintiff's suppliers, started a rival company, and usurped the plaintiff's business opportunity. Id. at 302. Although the employees were no longer with the plaintiff, and thus the duty of loyalty had expired, the district court \"enjoined them from directly or indirectly providing services of any kind to or for [the supplier or the new company] or any of their affiliates and agencies.\" Id. at 303. On appeal, the Seventh Circuit affirmed, upholding the injunction preventing the defendants from servicing the company's former clients. The court noted the company had suffered irreparable harm, \"the most important injuries of which are its inability to attempt to maintain its relationship with [a client] and its complete loss of that relationship.\"\nId. at 304. Because that \"irreparable harm was caused by and is maintained by [the former employees'] actions, an injunction is appropriate to prevent this harm from continuing.\" Id. at 305. Accordingly, the circuit court upheld the injunction preventing the defendants from providing any services to the supplier or new company to prevent the continuing irreparable harm caused by the defendants' past breaches of loyalty while employed by the plaintiff. Id. at 304-05.\nAs these cases show, a court can impose an injunction where there is a future likelihood of irreparable harm stemming from past conduct, not only where the offensive conduct is likely to occur again in the future. Respectfully, I disagree with the majority's assertion that \"[t]he district court found that DTC had failed to show how Hirschfeld's and Galban's work on behalf of Ally, while they were employed by DTC, only gave rise to future irreparable harm.\" Maj. Op. at 1272. In my view, the district court concluded that the past breaches of contract and the duty of loyalty could not give rise to continuing irreparable harm. Because I would conclude that future irreparable harm can result from past breaches, I would be inclined to remand to the district court to consider the other preliminary injunction factors if DTC had presented evidence of future irreparable harm stemming from the past misconduct. But DTC has made no such showing in this court.\nIn the district court, DTC argued it is suffering continuing irreparable harm by being forced to compete with a company that would not exist absent the prior breaches. See App. Vol. II at 478 (\"We are talking also about DTC's brand ongoing, brand name, its reputation in the marketplace. Now we are saying these two entities are just competitors. Well, they weren't, so that is the irreparable harm in the injunctive relief, that this business shouldn't even be in business going forward.\"); id. at 480 (\"It should have never been alive. It rose from the ashes of Wyo-Dak, like the Phoenix, out of nothing and was on day one a direct competitor of DTC.... They should never have been in business in the first place. They shouldn't be in business now.\"). However, it does not appear to have made a similar argument here.\nIn its brief to this court, DTC includes in its Statement of the Case facts indicating that Ally has benefitted from the Defendants' breaches:\nIn a very short period of time and without any outlay of overhead or payroll, the DTC employees' work for Ally transformed a struggling company which had only eight directional drillers in late 2015 into a thriving competitor, offering the same scope of services as DTC and generating more than $2 million in monthly revenue by March 2017. It has taken DTC years to accomplish that level of success.\nDTC's Br. at 15 (citations omitted). But what DTC fails to do is to point to any evidence presented to the district court that supports a finding that the irreparable harm from the Defendants' past breaches is continuing. The argument on past misconduct states:\nThe evidence demonstrates, however, that DTC has suffered and continues to suffer irreparable harm caused by Hirschfeld's theft of business from DTC (at least 12 customer master service agreements that Ally continues to service) while he was a DTC employee. Hirschfeld and Ally continue to profit from these misdeeds. This conduct was unlawful at the time it occurred-by violating Hirschfeld's employment agreement (duties not to solicit DTC's customers or employees and not to use DTC's confidential information), breaching Hirschfeld's and Galban's duty of loyalty, and violating common law principles prohibiting unfair competition-and it continues to harm DTC's goodwill and competitive market position today.\nId. at 48 (citations omitted). The last sentence is supported by a footnote stating, \"See infra section III,\" but that section provides no more evidentiary support for continuing harm to DTC's goodwill and competitive market position than the above-quoted paragraph.\n\"A preliminary injunction is an extraordinary remedy never awarded as of right.\" First W. Capital Mgmt. Co. v. Malamed , 874 F.3d 1136, 1141 (10th Cir. 2017) (quoting Winter v. Nat. Res. Def. Council , 555 U.S. 7, 24, 129 S.Ct. 365, 172 L.Ed.2d 249 (2008) ). \"A party seeking a preliminary injunction bears the burden of showing: (1) a substantial likelihood of prevailing on the merits; (2) irreparable harm unless the injunction is issued; (3) that the threatened injury outweighs the harm that the preliminary injunction may cause the opposing party; and (4) that the injunction, if issued, will not adversely affect the public interest.\" Greater Yellowstone Coal. , 321 F.3d at 1255 (internal quotation marks omitted). \"Because a preliminary injunction is an extraordinary remedy, the right to relief must be clear and unequivocal.\" Id. at 1256. A statement that a prior breach of loyalty \"continues to harm DTC's goodwill and competitive market position today,\" without more, is insufficient to support the extraordinary remedy of injunctive relief.\nWhile I agree with DTC that the district court should have considered evidence of future irreparable harm stemming from past unlawful conduct, DTC has not pointed us to any evidence in the record supporting future irreparable harm stemming from past misconduct. Therefore, I concur with the majority that the district court did not exceed its discretion in denying injunctive relief here.\nDTC relies on two other decisions that reach similar results. In Blackbird Technologies, Inc. v. Joshi , the district court granted an injunction based on a former employee's breach of the duty of loyalty although the employee was no longer employed with that company and the duty had expired. No. 5:15-cv-4271, 2015 WL 5818067, at *4-6 (N.D. Cal. Oct. 6, 2015). There, the employee stole the former employer's source code and imbedded it into a product sold by the employee's new company. Id. In West Plains, L.L.C. v. Retzlaff Grain Co., the district court granted an injunction based on claims of past breaches of the duty of loyalty and continuing misappropriation of trade secrets because there was irreparable harm in the defendants' use of the confidential information to \"compete immediately\" and the defendants had \"successfully shifted\" business through use of confidential information and breaches of loyalty. 927 F.Supp.2d 776, 785-86 (D. Neb. 2013). While both cases involved evidence of continued use of confidential information, the district courts focused on the irreparable harm caused by prior breaches of the duty of loyalty when granting the injunction.\nBut I reject DTC's assertion that the substantial likelihood of success on the merits and irreparable harm analysis are completely disjunctive. Harm is irreparable \"[o]nly when the threatened harm would impair the court's ability to grant an effective remedy,\" Fed. Prac. & Proc. \u00a7 2948.1, because the harm \"cannot be compensated after the fact by monetary damages,\" Greater Yellowstone Coal. v. Flowers , 321 F.3d 1250, 1258 (10th Cir. 2003) (quoting Adams v. Freedom Forge Corp. , 204 F.3d 475, 484-85 (3d Cir. 2000) ). The substantial likelihood of success requirement necessitates \"showing a reasonable probability that [the plaintiff] will ultimately be entitled to the relief sought.\" Crowther v. Seaborg , 415 F.2d 437, 439 (10th Cir. 1969). Therefore, the irreparable harm and substantial likelihood of success elements are interrelated in the sense that they require (1) a substantial likelihood of success on the merits that would entitle the plaintiff to recover for the alleged future harm (if it were calculable) and (2) the future harm is irreparable. Therefore, I reject DTC's arguments that the future irreparable harm the district court found significantly likely-\"loss of customers, loss of goodwill, and further erosion of DTC's competitive position in the oil and gas staffing industry,\" App. Vol. I at 196-can be disjunctively supported by a substantial likelihood of success on the merits of any of its claims. Importantly, DTC makes no attempt to tie that irreparable harm to any of the claims.\nAlthough I agree with the majority that much of the \"prior loss of DTC's customers and consultants ... can be quantified in money damages,\" I would not view that as the end of the inquiry if DTC had met its evidentiary burden. Maj. Op. at 1272. Under our precedent, irreparable harm can be shown by \"harm to goodwill [and] diminishment of competitive positions in marketplace.\" Dominion Video Satellite, Inc. v. Echostar Satellite Corp. , 356 F.3d 1256, 1263 (10th Cir. 2004). Thus, even if DTC can calculate and recover the specific amount diverted to Ally, other damage to its reputation and market position may be incalculable. But DTC has made no attempt to show future irreparable harm based on the past breaches that could be prevented by a preliminary injunction, and a preliminary injunction is not appropriate as punishment for past irreparable harm. Schrier v. Univ. of Colo. , 427 F.3d 1253, 1253 (10th Cir. 2005) (\"The purpose of a preliminary injunction is not to remedy past harm but to protect plaintiffs from irreparable injury that will surely result without their issuance.\").",
+        "type": "concurrence",
+        "author": "McHUGH, Circuit Judge, concurring:"
+      }
+    ],
+    "attorneys": [
+      "Charles W. Weese, John H. Bernetich, and Devin C. Daines, Lewis, Bess, Williams & Weese P.C., Denver, Colorado, on the briefs for Appellant.",
+      "C. Forrest Morgan, III, Morgan & Associates, LLC, Denver, Colorado, on the brief for Appellee Ally Consulting, LLC.",
+      "David Brian Seserman, Sesserman Law LLC, Denver, Colorado, on the brief for Appellees Adam Hirschfeld and Joseph Galban."
+    ],
+    "corrections": "",
+    "head_matter": "DTC ENERGY GROUP, INC., a Colorado Corporation, Plaintiff - Appellant,\nv.\nAdam HIRSCHFELD; Joseph Galban; Ally Consulting, LLC, f/k/a Wyodak Staffing, LLC, a Wyoming Limited Liability Company, Defendants - Appellees.\nNo. 18-1113\nUnited States Court of Appeals, Tenth Circuit.\nFILED December 28, 2018\nSubmitted on the briefs:\nCharles W. Weese, John H. Bernetich, and Devin C. Daines, Lewis, Bess, Williams & Weese P.C., Denver, Colorado, on the briefs for Appellant.\nC. Forrest Morgan, III, Morgan & Associates, LLC, Denver, Colorado, on the brief for Appellee Ally Consulting, LLC.\nDavid Brian Seserman, Sesserman Law LLC, Denver, Colorado, on the brief for Appellees Adam Hirschfeld and Joseph Galban.\nBefore BRISCOE, MURPHY, and McHUGH, Circuit Judges.\nAfter examining the briefs and appellate record, this panel has determined unanimously to honor the parties' request for a decision on the briefs without oral argument. See Fed. R. App. P. 34(f) ; 10th Cir. R. 34.1(G). The case is therefore submitted without oral argument."
+  },
+  "file_name": "1263-01",
+  "first_page_order": 1263,
+  "last_page_order": 1278
+}

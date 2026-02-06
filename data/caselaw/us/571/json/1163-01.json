@@ -1,0 +1,68 @@
+{
+  "id": 12700876,
+  "name": "In re Brenda PARKER, petitioner.",
+  "name_abbreviation": "In re Parker",
+  "decision_date": "2014-01-21",
+  "docket_number": "No. 13\u20137344.",
+  "first_page": "1163",
+  "last_page": "1163",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 1163"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 863"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 1004"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 23,
+    "char_count": 154,
+    "sha256": "2efa4093ba9d29493289386213a87b42939c8cf18932465a99e906f614585f77",
+    "simhash": "1:787b44d48a932576",
+    "word_count": 24
+  },
+  "last_updated": "2021-08-27T20:47:23.363448+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Brenda PARKER, petitioner."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of mandamus and/or prohibition denied."
+    ],
+    "corrections": "",
+    "head_matter": "In re Brenda PARKER, petitioner.\nNo. 13-7344.\nSupreme Court of the United States\nJan. 21, 2014.\nPetition for writ of mandamus and/or prohibition denied."
+  },
+  "file_name": "1163-01",
+  "first_page_order": 1163,
+  "last_page_order": 1163
+}

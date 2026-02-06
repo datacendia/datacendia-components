@@ -1,0 +1,59 @@
+{
+  "id": 5961211,
+  "name": "Johnson v. Oregon",
+  "name_abbreviation": "Johnson v. Oregon",
+  "decision_date": "2010-11-15",
+  "docket_number": "No. 10-6397",
+  "first_page": "1047",
+  "last_page": "1047",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1047"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 65,
+    "ocr_confidence": 0.552,
+    "sha256": "7ff5e5ef8fea384c1f49ad66a73532295c772f1510c681dc63cc9c340dc2abd5",
+    "simhash": "1:5d29ffa46484e434",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Johnson v. Oregon."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Ore. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6397.\nJohnson v. Oregon."
+  },
+  "file_name": "1047-05",
+  "first_page_order": 1069,
+  "last_page_order": 1069
+}

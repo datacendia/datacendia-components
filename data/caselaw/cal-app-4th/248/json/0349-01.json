@@ -1,0 +1,987 @@
+{
+  "id": 12441498,
+  "name": "STATE COMPENSATION INSURANCE FUND, Petitioner, v. WORKERS' COMPENSATION APPEALS BOARD and DOROTHY MARGARIS, Respondents",
+  "name_abbreviation": "State Compensation Insurance Fund v. Workers' Compensation Appeals Board",
+  "decision_date": "2016-06-22",
+  "docket_number": "No. B269038",
+  "first_page": "349",
+  "last_page": "372",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "248 Cal. App. 4th 349"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "99 Cal.Rptr.3d 341",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "177 Cal.App.4th 597",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        5741543
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/177/0597-01"
+      ]
+    },
+    {
+      "cite": "899 P.2d 79",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 Cal.Rptr.2d 693",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "10 Cal.4th 1133",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1992328
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "1145"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/10/1133-01"
+      ]
+    },
+    {
+      "cite": "599 P.2d 1365",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "158 Cal.Rptr. 662",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 Cal.3d 406",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2270537
+      ],
+      "pin_cites": [
+        {
+          "page": "412"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/25/0406-01"
+      ]
+    },
+    {
+      "cite": "182 P.3d 1027",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "76 Cal.Rptr.3d 483",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 Cal.4th 905",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3884452
+      ],
+      "pin_cites": [
+        {
+          "page": "923-924"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/43/0905-01"
+      ]
+    },
+    {
+      "cite": "319 P.3d 988",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2008,
+      "opinion_index": 0
+    },
+    {
+      "cite": "168 Cal.Rptr.3d 710",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2008,
+      "opinion_index": 0
+    },
+    {
+      "cite": "58 Cal.4th 901",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        4000858
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "909"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/58/0901-01"
+      ]
+    },
+    {
+      "cite": "559 P.2d 606",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "136 Cal.Rptr. 251",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 Cal.3d 901",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2286351
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/18/0901-01"
+      ]
+    },
+    {
+      "cite": "568 P.2d 382",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "140 Cal.Rptr. 657",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "19 Cal.3d 948",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2291140
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/19/0948-01"
+      ]
+    },
+    {
+      "cite": "194 Cal.Rptr.3d 469",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "241 Cal.App.4th 1074",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4136993
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "1090"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/241/1074-01"
+      ]
+    },
+    {
+      "cite": "893 P.2d 1224",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "40 Cal.Rptr.2d 903",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "10 Cal.4th 234",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1992333
+      ],
+      "pin_cites": [
+        {
+          "page": "246"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/10/0234-01"
+      ]
+    },
+    {
+      "cite": "316 P.3d 1188",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "167 Cal.Rptr.3d 74",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "58 Cal.4th 482",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        4000938
+      ],
+      "pin_cites": [
+        {
+          "page": "490"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/58/0482-01"
+      ]
+    },
+    {
+      "cite": "486 P.2d 129",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "95 Cal.Rptr. 601",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "5 Cal.3d 129",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2324349
+      ],
+      "pin_cites": [
+        {
+          "page": "142"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/5/0129-01"
+      ]
+    },
+    {
+      "cite": "523 P.2d 617",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1971,
+      "opinion_index": 0
+    },
+    {
+      "cite": "114 Cal.Rptr. 577",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1971,
+      "opinion_index": 0
+    },
+    {
+      "cite": "11 Cal.3d 801",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2302318
+      ],
+      "year": 1971,
+      "pin_cites": [
+        {
+          "page": "813-814"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/11/0801-01"
+      ]
+    },
+    {
+      "cite": "621 P.2d 856",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1974,
+      "opinion_index": 0
+    },
+    {
+      "cite": "170 Cal.Rptr. 817",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1974,
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 Cal.3d 692",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2259823
+      ],
+      "year": 1974,
+      "pin_cites": [
+        {
+          "page": "698"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/28/0692-01"
+      ]
+    },
+    {
+      "cite": "180 P.3d 321",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1981,
+      "opinion_index": 0
+    },
+    {
+      "cite": "74 Cal.Rptr.3d 570",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1981,
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 Cal.4th 201",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3884335
+      ],
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "209"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/43/0201-01"
+      ]
+    },
+    {
+      "cite": "257 P.3d 738",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "129 Cal.Rptr.3d 133",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "52 Cal.4th 434",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3919478
+      ],
+      "pin_cites": [
+        {
+          "page": "442"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/52/0434-01"
+      ]
+    },
+    {
+      "cite": "115 P.3d 1233",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2011,
+      "opinion_index": 0
+    },
+    {
+      "cite": "31 Cal.Rptr.3d 591",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2011,
+      "opinion_index": 0
+    },
+    {
+      "cite": "36 Cal.4th 812",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3122303
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "818"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/36/0812-01"
+      ]
+    },
+    {
+      "cite": "156 P.3d 1100",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "57 Cal.Rptr.3d 644",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "40 Cal.4th 1313",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3158998
+      ],
+      "pin_cites": [
+        {
+          "page": "1331"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/40/1313-01"
+      ]
+    },
+    {
+      "cite": "358 P.3d 552",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "194 Cal.Rptr.3d 80",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "62 Cal.4th 152",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        12454512
+      ],
+      "pin_cites": [
+        {
+          "page": "158"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/62/0152-01"
+      ]
+    },
+    {
+      "cite": "186 P.3d 535",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "79 Cal.Rptr.3d 171",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 Cal.4th 230",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3888095
+      ],
+      "pin_cites": [
+        {
+          "page": "236, fn. 6"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/44/0230-01"
+      ]
+    },
+    {
+      "cite": "206 P.3d 430",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "92 Cal.Rptr.3d 894",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.4th 272",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3896402
+      ],
+      "pin_cites": [
+        {
+          "page": "277"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/46/0272-01"
+      ]
+    },
+    {
+      "cite": "79 Cal.Comp.Cases 1298",
+      "category": "reporters:specialty",
+      "reporter": "Cal. Comp. Cases",
+      "pin_cites": [
+        {
+          "page": "1306"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "80 Cal.Comp.Cases 1050",
+      "category": "reporters:specialty",
+      "reporter": "Cal. Comp. Cases",
+      "opinion_index": 0
+    },
+    {
+      "cite": "100 Cal.Rptr.2d 235",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "83 Cal.App.4th 1068",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "pin_cites": [
+        {
+          "page": "1072"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "56 Cal.Rptr.2d 455",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "49 Cal.App.4th 1",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4681417
+      ],
+      "pin_cites": [
+        {
+          "page": "32"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/49/0001-01"
+      ]
+    },
+    {
+      "cite": "125 P.2d 42",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "20 Cal.2d 264",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2167066
+      ],
+      "pin_cites": [
+        {
+          "page": "272"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/20/0264-01"
+      ]
+    },
+    {
+      "cite": "547 P.2d 449",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "128 Cal.Rptr. 673",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "16 Cal.3d 1",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2295040
+      ],
+      "pin_cites": [
+        {
+          "page": "7"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/16/0001-01"
+      ]
+    },
+    {
+      "cite": "128 Cal.Rptr.3d 292",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "197 Cal.App.4th 693",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4236792
+      ],
+      "pin_cites": [
+        {
+          "page": "704"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/197/0693-01"
+      ]
+    },
+    {
+      "cite": "196 P.2d 562",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 2011,
+      "opinion_index": 0
+    },
+    {
+      "cite": "32 Cal.2d 351",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4393371
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "355"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/32/0351-01"
+      ]
+    },
+    {
+      "cite": "777 P.2d 610",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "261 Cal.Rptr. 574",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "49 Cal.3d 432",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1974343
+      ],
+      "pin_cites": [
+        {
+          "page": "442"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/49/0432-01"
+      ]
+    },
+    {
+      "cite": "226 P.3d 348",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "106 Cal.Rptr.3d 239",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "48 Cal.4th 330",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6050915
+      ],
+      "pin_cites": [
+        {
+          "page": "339-340"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/48/0330-01"
+      ]
+    },
+    {
+      "cite": "869 P.2d 1142",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 2010,
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 Cal.Rptr.2d 617",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 2010,
+      "opinion_index": 0
+    },
+    {
+      "cite": "7 Cal.4th 525",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1981842
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "539-540"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/7/0525-01"
+      ]
+    },
+    {
+      "cite": "333 P.2d 125",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "166 Cal.App.2d 109",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2347064
+      ],
+      "pin_cites": [
+        {
+          "page": "118-119"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/166/0109-01"
+      ]
+    },
+    {
+      "cite": "42 Cal.Rptr. 58",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1958,
+      "opinion_index": 0
+    },
+    {
+      "cite": "231 Cal.App.2d 501",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2153520
+      ],
+      "year": 1958,
+      "pin_cites": [
+        {
+          "page": "508-510"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/231/0501-01"
+      ]
+    },
+    {
+      "cite": "264 Cal.Rptr. 36",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "215 Cal.App.3d 883",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4447029
+      ],
+      "pin_cites": [
+        {
+          "page": "887"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/215/0883-01"
+      ]
+    },
+    {
+      "cite": "102 Cal.Rptr.2d 872",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1989,
+      "opinion_index": 0
+    },
+    {
+      "cite": "85 Cal.App.4th 1321",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1244180
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "1327"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/85/1321-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1713,
+    "char_count": 53738,
+    "ocr_confidence": 0.932,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2566919924675145
+    },
+    "sha256": "485bb5f600e9c611fe9903a98bfd9905f677387814051327d980fdbb1c7f9f33",
+    "simhash": "1:19eda612ac939275",
+    "word_count": 8297
+  },
+  "last_updated": "2024-02-27T20:05:38.451463+00:00",
+  "provenance": {
+    "date_added": "2019-05-21",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Edmon, P. L, and Aldrich, L, concurred."
+    ],
+    "parties": [
+      "STATE COMPENSATION INSURANCE FUND, Petitioner, v. WORKERS\u2019 COMPENSATION APPEALS BOARD and DOROTHY MARGARIS, Respondents."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nLAVIN, J.\nINTRODUCTION\nIn this original proceeding, State Compensation Insurance Fund (SCIF), as the adjusting agent for California Highway Patrol (CHP) (collectively, Petitioner), seeks review of a decision of the Workers\u2019 Compensation Appeals Board (appeals board) regarding the medical necessity of proposed treatment requested by CHP employee Dorothy Margaris (applicant). The issue presented relates to Labor Code section 4610.6, which the Legislature adopted in 2012 as part of an ongoing effort to reform California\u2019s workers\u2019 compensation system. Section 4610.6 created a new procedure\u2014independent medical review (IMR)\u2014that an injured worker may use to challenge an employer\u2019s timely denial, delay or modification of a request for authorization of proposed medical treatment. The administrative director of the Division of Workers\u2019 Compensation (director) oversees IMR, which is conducted by a private organization that retains licensed physicians to review the pertinent medical records and issue written determinations regarding the medical necessity and appropriateness of proposed medical treatment. The IMR determination becomes the final determination of the director by operation of law and may only be appealed on limited grounds.\nSection 4610.6, subdivision (d), provides that the organization conducting IMR \u201cshall complete its review and make its determination in writing . . . within 30 days of the receipt of the request for review and supporting documentation, or within less time as prescribed by the administrative director.\u201d We consider whether, as the appeals board concluded in this case, an IMR determination issued after the 30-day period is invalid and thereby vests jurisdiction in the appeals board to decide whether the proposed treatment is medically necessary and appropriate. Our analysis turns, in large part, on whether the language of the statute is mandatory\u2014such that a failure to comply with the statute\u2019s directive renders the resulting governmental action invalid\u2014or merely directory.\nWe disagree with the appeals board and conclude the 30-day time limit in section 4610.6, subdivision (d), is directory and, accordingly, an untimely IMR determination is valid and binding upon the parties as the final determination of the director. Our interpretation of the statute in this manner is consistent with long-standing case law regarding the mandatory-directory dichotomy, and implements the Legislature\u2019s stated policy that decisions regarding the necessity and appropriateness of medical treatment should be made by doctors, not judges. We therefore annul the decision of the appeals board and remand for further proceedings.\nFACTUAL AND PROCEDURAL BACKGROUND\nApplicant suffered a work-related injury to her left foot and lumbar spine. On October 16, 2014, applicant\u2019s treating physician submitted a request for authorization of medical treatment to SCIF proposing to treat applicant with a lumbar epidural injection. On October 21, 2014, SCIF denied the request.\nApplicant timely requested independent medical review. On November 26, 2014, SCIF sent the necessary medical records to Maximus Federal Services, Inc., for review. On January 8, 2015, Maximus issued its IMR determination, upholding SCIF\u2019s denial of the proposed medical treatment. The IMR determination became the final determination of the director as a matter of law. (\u00a7 4610.6, subd. (g).)\nApplicant appealed the IMR determination to the appeals board (\u00a7 5300), which directed the matter to an administrative law judge for a hearing (\u00a7 5310). Applicant argued (as is pertinent here) that the IMR determination was invalid because Maximus failed to issue it within the 30-day time period provided by section 4610.6, subdivision (d), and the applicable regulation (Cal. Code Regs., tit. 8, \u00a7 9792.10.6, subd. (g)). The judge agreed the IMR determination was issued 13 days late, but nevertheless found the determination was valid and binding on the parties, concluding that an untimely IMR determination \u201cdoes not confer jurisdiction on the [workers\u2019 compensation judge] to decide any medical treatment issues.\u201d\nApplicant filed a petition seeking reconsideration of the judge\u2019s decision by the appeals board (\u00a7 5900), and again argued that the 30-day time period set forth in section 4610.6, subdivision (d), is a mandatory provision and, accordingly, an untimely IMR determination is invalid. Applicant further asserted that, in the absence of a timely IMR determination, the appeals board had the authority to decide whether the proposed treatment was medically necessary and appropriate. A majority of the three-member panel agreed with applicant and went on to find, contrary to the IMR determination, that the proposed treatment was supported by substantial medical evidence and was consistent with the treatment schedule promulgated by the director. One member of the panel dissented and would have found that the IMR determination, though untimely, was valid and binding on the parties.\nPetitioner filed the instant petition seeking review of the appeals board\u2019s decision. We issued a writ of review because this case presents an important issue of first impression regarding the interpretation of section 4610.6, and because it relates to an issue upon which the appeals board has rendered conflicting decisions.\nDISCUSSION\nPetitioner contends an IMR determination is valid and binding upon the parties as the final determination of the director, even if that determination is rendered after the 30-day time period provided by section 4610.6, subdivision (d). We agree.\nA. Standard of review\nThe proper interpretation of a workers\u2019 compensation statute presents a question of law subject to our independent review. (Smith v. Workers\u2019 Comp. Appeals Bd. (2009) 46 Cal.4th 272, 277 [92 Cal.Rptr.3d 894, 206 P.3d 430]; State Comp. Ins. Fund v. Workers\u2019 Comp. Appeals Bd. (Sandhagen) (2008) 44 Cal.4th 230, 236, fn. 6 [79 Cal.Rptr.3d 171, 186 P.3d 535] (Sandhagen).) Typically, we would afford the appeals board\u2019s interpretation of the statute \u201cgreat weight,\u201d as it was \u201crendered in an official adjudicatory proceeding by an administrative body with considerable expertise interpreting and implementing a particular statutory scheme.\u201d (Larkin v. Workers\u2019 Comp. Appeals Bd. (2015) 62 Cal.4th 152, 158 [194 Cal.Rptr.3d 80, 358 P.3d 552] (Larkin): see also Brodie v. Workers\u2019 Comp. Appeals Bd. (2007) 40 Cal.4th 1313, 1331 [57 Cal.Rptr.3d 644, 156 P.3d 1100] [noting the appeals board\u2019s \u201cextensive expertise in interpreting and applying the workers\u2019 compensation scheme\u201d].) However, we do not defer to the appeals board\u2019s statutory interpretation in this case because the appeals board has rendered conflicting decisions on the issue presented here.\nThe principles guiding our review are well settled. \u201cIn interpreting a statute, we begin with its text, as statutory language typically is the best and most reliable indicator of the Legislature\u2019s intended purpose. (Fitch v. Select Products Co. (2005) 36 Cal.4th 812, 818 [31 Cal.Rptr.3d 591, 115 P.3d 1233]; see Baker v. Workers\u2019 Comp. Appeals Bd. (2011) 52 Cal.4th 434, 442 [129 Cal.Rptr.3d 133, 257 P.3d 738].) We consider the ordinary meaning of the language in question as well as the text of related provisions, terms used in other parts of the statute, and the structure of the statutory scheme. (See Lonicki v. Sutter Health Central (2008) 43 Cal.4th 201, 209 [74 Cal.Rptr.3d 570, 180 P.3d 321]; California Teachers Assn. v. San Diego Community College Dist. (1981) 28 Cal.3d 692, 698 [170 Cal.Rptr. 817, 621 P.2d 856]; see also Clean Air Constituency v. State Air Resources Bd. (1974) 11 Cal.3d 801, 813-814 [114 Cal.Rptr. 577, 523 P.2d 617]; People v. Rogers (1971) 5 Cal.3d 129, 142 [95 Cal.Rptr. 601, 486 P.2d 129] (conc. & dis. opn. of Mosk, J.) [in construing a statute, we do not look at each term as if \u2018in a vacuum,\u2019 but rather gather \u2018the intent of the Legislature . . . from the statute taken as a whole\u2019].) If the statutory language in question remains ambiguous after we consider its text and the statute\u2019s structure, then we may look to various extrinsic sources, such as legislative history, to assist us in gleaning the Legislature\u2019s intended purpose. (Holland v. Assessment Appeals Bd. No. 1 (2014) 58 Cal.4th 482, 490 [167 Cal.Rptr.3d 74, 316 P.3d 1188].)\u201d (Larkin, supra, 62 Cal.4th at pp. 157-158.) Our goal is to \u201cselect the construction that comports most closely with the apparent intent of the Legislature, with a view to promoting rather than defeating the general purpose of the statute, and avoid an interpretation that would lead to absurd consequences.\u201d (People v. Jenkins (1995) 10 Cal.4th 234, 246 [40 Cal.Rptr.2d 903, 893 P.2d 1224].)\nB. Background legal principles\nIn order to give context to our analysis, we first review several Legislative enactments pertaining to the evaluation of an injured worker\u2019s request for authorization of medical treatment.\n1. Utilization review: the employer\u2019s evaluation of an injured worker\u2019s request for authorization of medical treatment.\nPrior to 2004, an employer\u2019s obligation to cover an injured worker\u2019s medical treatment was largely directed by the worker\u2019s treating physician. No uniform medical treatment guidelines existed at that time, and the treating physician\u2019s determinations were presumptively correct. (Sandhagen, supra, 44 Cal.4th at p. 238.) If an employer wanted to challenge a treating physician\u2019s recommendation, it was required to engage in a \u201ccumbersome, lengthy, and potentially costly\u201d dispute resolution process. (Ibid.) Generally, this process required the parties to retain one or more medical examiners and, \u201c[i]f a dispute remained after the comprehensive medical evaluations were completed, either party could request an administrative hearing. [Citation.] If the hearing failed to satisfy the parties, they could seek reconsideration by the [appeals board] [citation] and, ultimately, review by the Court of Appeal [citation].\u201d (Id. at p. 239.)\nIn 2004, two pieces of legislation, Senate Bill No. 228 (2003-2004 Reg. Sess.) and Senate Bill No. 899 (2003-2004 Reg. Sess.), went into effect and implemented comprehensive workers\u2019 compensation reform. (Sandhagen, supra, 44 Cal.4th at pp. 239-242.) Particularly relevant here are changes to both the standards and the process used by an employer to evaluate an injured worker\u2019s request for medical treatment.\nFirst, the Legislature required the director \u201cto adopt a medical treatment utilization schedule to establish uniform guidelines for evaluating treatment requests.\u201d (Stats. 2003, ch. 639, \u00a7 41, p. 4932, codified at section 5307.27, subd. (a); see Sandhagen, supra, 44 Cal.4th at p. 240.) The Legislature provided that the treatment schedule should incorporate \u201cevidence-based, peer-reviewed, nationally recognized standards of care,\u201d and should \u201caddress, at a minimum, the frequency, duration, intensity, and appropriateness\u201d of medical treatment commonly rendered to injured workers. (\u00a7 5307.27, subd. (a); 44 Cal.4th at p. 240.) In addition, the Legislature eliminated the presumption of correctness previously afforded to the recommendation of the worker\u2019s treating physician, and replaced it with a rebuttable presumption of correctness in favor of the treatment schedule. (Stats. 2003, ch. 639, \u00a7\u00a7 20, p. 4919 [amending former \u00a7 4062.9, subd. (b)], 27, p. 4922 [adding \u00a7 4604.5, subd. (a)].) Under this new scheme, if an injured worker seeks medical treatment that deviates from the director\u2019s treatment schedule, he or she must establish by a preponderance of the evidence that the proposed treatment is \u201creasonably required to cure or relieve the injured worker from the effects of his or her injury.\u201d (See Stats. 2003, ch. 639, \u00a7 27(c), p. 4922 [adding \u00a7 4604.5, subd. (a)].)\nSecond, the Legislature changed the way employers review and resolve an injured worker\u2019s request for medical treatment. Specifically, the Legislature required all employers to adopt a formal evaluation procedure called \u201cutilization review,\u201d i.e., a process used to \u201cprospectively, retrospectively, or concurrently review and approve, modify, delay, or deny . . . treatment recommendation by physicians.\u201d (Stats. 2003, ch. 639, \u00a7 28, p. 4923 [adding \u00a7 4610].) The creation of utilization review significantly impacted the medical treatment evaluation process in several respects. Importantly for our purposes, the Legislature provided that a claims administrator may approve a worker\u2019s request for treatment, but only a \u201clicensed physician who is competent to evaluate the specific clinical issues involved in the medical treatment services\u201d may \u201cmodify, delay, or deny requests for authorization.\u201d (Stats. 2003, ch. 639, \u00a7 28, p. 4923 [codified at \u00a7 4610, subd. (e)]; see Cal. Code Regs., tit. 8, \u00a7 9792.9.1, subd. (e)(1); see also Sandhagen, supra, 44 Cal.4th at p. 240.) As the Supreme Court noted, requiring an employer to engage in a medical review before denying or modifying an injured worker\u2019s request for treatment \u201crepresent[ed] a significant departure from the process in former section 4062, which permitted an employer or claims adjuster (without review by a physician) to object to a treatment request.\u201d (Sandhagen, at p. 240.) Notably, the Legislature also mandated relatively short time frames for the employer to complete its utilization review process. (\u00a7 4610, subd. (g).)\nThird, the Legislature provided that an employer\u2019s utilization review determination must be consistent with the director\u2019s treatment schedule. (Stats. 2003, ch. 639, \u00a7 28, p 4923 [codified at \u00a7 4610, subd. (f)(2)].) In practice, therefore, an employer is generally required to authorize proposed medical treatment if it is supported by substantial medical evidence and conforms to the director\u2019s treatment schedule.\nTaken together, these reforms reflect that \u201cthe Legislature intended utilization review to ensure quality, standardized medical care for workers in a prompt and expeditious manner. To that end, the Legislature enacted a comprehensive process that balances the dual interests of speed and accuracy, emphasizing the quick resolution of treatment requests, while allowing employers to seek more time if more information is needed to make a decision.\u201d (Sandhagen, supra, 44 Cal.4th at p. 241.)\n2. Independent medical review: the injured worker\u2019s opportunity to challenge an employer\u2019s adverse determination.\nIn 2012, the Legislature passed additional workers\u2019 compensation reform legislation. (Sen. Bill No. 863 (2011-2012 Reg. Sess.) (Senate Bill 863).) We are primarily concerned here with the enactments governing dispute resolution following an employer\u2019s timely utilization review determination. (Stats. 2012, ch. 363, \u00a7\u00a7 45, 46 [codified at \u00a7\u00a7 4610.5, 4610.6].)\nIf a worker\u2019s proposed treatment is approved during utilization review, the determination becomes final and the employer is not permitted to challenge it. (\u00a7 4610.5, subd. (f)(1).) But if the physician reviewing the proposed treatment during utilization review modifies, delays, or denies the injured worker\u2019s treatment request, the worker may seek review of that determination through independent medical review. (\u00a7 4610.5, subd. (d).) \u201cIn other words, the IMR process gives workers, but not employers, a second chance to obtain a decision in their favor.\u201d (Stevens v. Workers\u2019 Comp. Appeals Bd. (2015) 241 Cal.App.4th 1074, 1090 [194 Cal.Rptr.3d 469] (Stevens).)\nOnly one other appellate court has had occasion to analyze the statutes relating to IMR in a published decision. (See Stevens, supra, 241 Cal.App.4th 1074 [rejecting state and federal constitutional challenges to IMR].) There, a panel of the First District succinctly described the newly adopted dispute resolution process: \u201cThe IMR is performed by an independent review organization, which assigns medical professionals to review pertinent medical records, provider reports, and other information submitted to the organization or requested from the parties. (\u00a7 4610.6, subd. (b).) The physician reviewer must approve the requested treatment if it is \u2018medically necessary based on the specific medical needs of the employee and the standards of medical necessity as defined in subsection (c) of Section 4610.5.\u2019 (\u00a7 4610.6, subd. (c).) The IMR determination must state whether the disputed service is medically necessary, identify the [injured worker\u2019s] medical condition and the relevant medical records, and set forth the relevant findings associated with the standards of medical necessity. (\u00a7 4610.6, subd. (e).) These standards include, in the order listed in the statute: (1) the [treatment schedule]; (2) peer-reviewed scientific and medical evidence regarding the effectiveness of the disputed treatment; (3) nationally recognized professional standards; (4) expert opinion; and (5) generally accepted standards of medical practice. (\u00a7 4610.5, subd. (c)(2).)\u201d (Id. at p. 1090.)\nThe IMR determination is deemed as a matter of law to constitute the final determination of the director and is binding on all parties. (\u00a7 4610.6, subd. (g).) Although a worker may appeal the IMR determination and receive a hearing before an administrative law judge (\u00a7 5310; Cal. Code Regs., tit. 8, \u00a7 10957.1, subd. (k)), the grounds for appeal are limited by statute: The only specified bases for relief are that the director acted without authority, the determination was procured by fraud, the physician reviewer had a material conflict of interest, the determination was the result of bias, or the determination was based on a plainly erroneous fact that is not a matter subject to expert opinion. (\u00a7 4610.6, subd. (h).) A party adversely affected by the decision of the administrative law judge may seek review of that decision by a panel of the appeals board. (\u00a7 5900; Cal. Code Regs., tit. 8, \u00a7 10957.1, subd. (/).) Significantly, however, if the appeals board reverses the IMR determination, \u201cit cannot now, as it could before, reweigh the evidence and make a contrary factual determination as to the medical necessity of the requested treatment. [Citations.] Instead, it may only remand the case for a new IMR. (\u00a7 4610.6, subd. (i).)\u201d (Stevens, supra, 241 Cal.App.4th at p. 1091; see also Cal. Code Regs., tit. 8, \u00a7 10957.1, subd. (m).)\nC. An untimely IMR determination is valid and binding upon the parties.\n1. Where a statute compels government action, \u201cshall\u201d may be used by the Legislature in either a mandatory or directory manner.\nSection 4610.6, subdivision (d), provides that the organization performing the independent medical review \u201cshall complete its review and make its determination in writing, and in layperson\u2019s terms to the maximum extent practicable, within 30 days of the receipt of the request for review and supporting documentation, or within less time as prescribed by the administrative director. . . . Subject to the approval of the administrative director, the deadlines for analyses and determinations involving both regular and expedited reviews may be extended for up to three days in extraordinary circumstances or for good cause.\u201d The parties dispute the meaning and effect of the word \u201cshall\u201d in this provision.\nThe appeals board concluded that section 4610.6, subdivision (d), is clear and unambiguous. According to the appeals board, \u201cshall\u201d is mandatory and any IMR determination issued after the 30-day time frame is necessarily invalid. In support of this interpretation, the appeals board cited section 15, which provides \u201c \u2018[s]halT is mandatory and \u2018may\u2019 is permissive.\u201d (\u00a7 15.) Thus, the appeals board concluded that construing \u201cshall\u201d as mandatory, such that an untimely IMR determination is invalid, comports with both the ordinary meaning and the statutory definition of \u201cshall.\u201d As we explain, however, the issue is more nuanced than the appeals board recognized.\nIn a statute directing government action, \u201cshall\u201d may be used in two different contexts: the mandatory-directory context, or the mandatory-permissive context. In People v. McGee (1977) 19 Cal.3d 948 [140 Cal.Rptr. 657, 568 P.2d 382] (McGee), the Supreme Court explained that a literal construction of \u201cshall,\u201d as adopted by the appeals board in this case, may sometimes \u201cimproperly equate[] the mandatory-directory duality with the linguistically similar, but analytically distinct, \u2018mandatory-permissive\u2019 dichotomy.\u201d (Id. at p. 958.) The court noted that, in the mandatory-permissive context, \u201c \u2018the term \u201cmandatory\u201d refers to an obligatory [procedure] which a governmental entity is required to [follow] as opposed to a permissive [procedure] which a governmental entity may [follow] or not as it chooses. By contrast, the \u201cdirectory\u201d or \u201cmandatory\u201d designation does not refer to whether a particular statutory requirement is \u201cpermissive\u201d or \u201cobligatory,\u201d but instead simply denotes whether the failure to comply with a particular procedural step will or will not have the effect of invalidating the governmental action to which the procedural requirement relates. [Citations.]\u2019 [Citation.]\u201d (Id. at pp. 958-959.) In other words, where a government action is mandatory in the obligatory-permissive sense and the government fails to act, the government can be compelled (i.e., mandated) to act in accordance with the statute. But where a government action is mandatory in the mandatory-directory sense and the government fails to act, it effectively loses jurisdiction to act in accordance with the statute.\nThe McGee court elaborated, observing that \u201c[although the mandatory-directory and obligatory-permissive dichotomies are thus analytically distinct, in some instances there is an obvious relationship between the two. If, for example, a statute simply embodies a permissive procedure with which a governmental entity may or may not comply as it chooses, the entity\u2019s failure to comply will generally not invalidate the entity\u2019s subsequent action. The converse of this proposition is not always true, however, for as we observed in Morris [v. County of Marin (1977) 18 Cal.3d 901 [136 Cal.Rptr. 251, 559 P.2d 606]], \u2018[m]any statutory provisions which are \u201cmandatory\u201d in the obligatory sense are accorded only \u201cdirectory\u201d effect.\u2019 [Citation.]\u201d (McGee, supra, 19 Cal.3d at p. 959; see also People v. Gray (2014) 58 Cal.4th 901, 909 [168 Cal.Rptr.3d 710, 319 P.3d 988]; City of Santa Monica v. Gonzalez (2008) 43 Cal.4th 905, 923-924 [76 Cal.Rptr.3d 483, 182 P.3d 1027].) Stated slightly differently, \u201cseemingly mandatory language need not be construed as jurisdictional where to do so might well defeat the very purpose of the enactment or destroy the rights of innocent aggrieved parties. [Citations.] In other words, the provision at issue may be considered mandatory only in the sense that the board \u2018could be mandated to act if it took more time than the short period allotted.\u2019 \u201d (Edwards v. Steele (1979) 25 Cal.3d 406, 412 [158 Cal.Rptr. 662, 599 P.2d 1365] (Edwards) [discussing a city ordinance setting time frame for hearing and decision by the permit appeals board].)\nWe note that section 15, upon which the appeals board relied in this case to support its interpretation of section 4610.6, subdivision (d), juxtaposes \u201cmandatory\u201d against \u201cpermissive,\u201d which arguably suggests the Legislature used \u201cshall\u201d in the obligatory-permissive sense rather than in the mandatory-directory sense, as the appeals board concluded. (See McGee, supra, 19 Cal.3d at p. 960 [discussing \u00a7 15 and concluding that \u201con its face, the statutory language suggests that the Legislature intended the present provision to be mandatory (i.e., obligatory), rather than permissive\u201d].) However, given the difference in meaning given to \u201cshall\u201d in the statutory context, we conclude section 4610.6, subdivision (d), is ambiguous. Accordingly, we move beyond the plain language of that section and consider its meaning with reference to the rest of the statutory scheme and the intent of the Legislature.\n2. As used in section 4610.6, subdivision (cl), \u201cshall\u201d is directory, not mandatory.\nGenerally, time limits applicable to government action are deemed to be directory unless the Legislature clearly expresses a contrary intent. (Edwards, supra, 25 Cal.3d at p. 410.) \u201cIn ascertaining probable intent, California courts have expressed a variety of tests. In some cases focus has been directed at the likely consequences of holding a particular time limitation mandatory, in an attempt to ascertain whether those consequences would defeat or promote the purpose of the enactment. [Citations.] Other cases have suggested that a time limitation is deemed merely directory \u2018unless a consequence or penalty is provided for failure to do the act within the time commanded.\u2019 \u201d (Ibid.; see California Correctional Peace Officers Assn. v. State Personnel Bd. (1995) 10 Cal.4th 1133, 1145 [43 Cal.Rptr.2d 693, 899 P.2d 79] (California Correctional).)\nApplying either of these general tests leads us to conclude that the Legislature intended the 30-day provision in section 4610.6, subdivision (d), to have a directory, rather than a mandatory, effect.\na. The statute contains no consequence or penalty if an IMR determination is untimely.\nAs noted, ante, statutory time limits applicable to government action are usually deemed to be directory in the absence of a penalty or consequence for noncompliance. For example, in California Correctional, supra, 10 Cal.4th 1133, the Supreme Court considered whether Government Code section 18671.1, which requires the State Personnel Board to issue its decisions in less than six months, is mandatory or directory. In concluding that the time limit is directory, the court emphasized the statute \u201cincludes no provision which suggests that action by the Board after the time limit has been exceeded is invalid.\u201d (California Correctional, at p. 1145.) The court went on to say that \u201c[w]hen the Legislature has specified a time within which an administrative board is to render a decision, that time limit may be mandatory in the obligatory sense, but this \u2018does not necessarily mean that a failure to comply with its provisions causes a loss of jurisdiction.\u2019 [Citation.]\u201d (Id. at p. 1147.)\nThe court noted that when the Legislature intends to make a statutory directive mandatory, it generally does so by providing a self-executing consequence for the government\u2019s failure to act. Code of Civil Procedure section 660, for instance, contains a mandatory directive and the failure to comply with the time limit terminates the court\u2019s jurisdiction: \u201cthe power of the court to rule on a motion for a new trial shall expire 60 days from and after the mailing of notice of entry of judgment by the clerk of the court . . . or 60 days from and after service on the moving party by any party of written notice of the entry of the judgment . . . .\u201d (Code Civ. Proc., \u00a7 660.) Thus, \u201cif the court fails to rule on a motion for new trial within 60 days, \u2018the effect shall be a denial of the motion without further order of the court.\u2019 \u201d (California Correctional, supra, 10 Cal.4th at pp. 1147-1148.) Similarly, in Matus v. Board of Administration (2009) 177 Cal.App.4th 597 [99 Cal.Rptr.3d 341], the Court of Appeal held that Government Code section 11517, subdivision (c)(2), which states that an administrative law judge\u2019s proposed decision is deemed adopted if the agency does not act within 100 days, is also mandatory. (Matus, at pp. 608-611.)\nBy contrast, statutes setting forth time frames for government action that do not include a self-executing consequence are almost universally construed as directory, rather than mandatory or jurisdictional. (See, e.g., California Correctional, supra, 10 Cal.4th at p. 1148 [Gov. Code, \u00a7 18671.1, which requires personnel board to render decision within six months, is directory]; Edwards, supra, 25 Cal.3d at pp. 412^13 [municipal code provision that board of permit appeals shall act within specified time held directory, not jurisdictional]; Board of Education v. Sacramento Countv Bd. of Education (2001) 85 Cal.App.4th 1321, 1327 [102 Cal.Rptr.2d 872] [Ed. Code, \u00a7 48918, allotting school board 40 days to make decision to expel student, held directory, not jurisdictional]; Koll Hancock Torrey Pines v. Biophysica Foundation, Inc. (1989) 215 Cal.App.3d 883, 887 [264 Cal.Rptr. 36] [Cal. Rules of Court, former rule 1615(b), which required arbitrator to file decision within 10 days, was directory; late award not invalid]; Liberty Mut. Ins. Co. v. Ind. Acc. Com. (1964) 231 Cal.App.2d 501, 508-510 [42 Cal.Rptr. 58] [requirement under \u00a7 5313 that the commission \u201cshall\u201d file award within 30 days after submission is directory only, and late filed award is not invalid as in excess of jurisdiction]; Koehn v. State Board of Equalization (1958) 166 Cal.App.2d 109, 118-119 [333 P.2d 125] [Bus. & Prof. Code, \u00a7 23086, providing Alcoholic Beverage Control Appeals Board \u201cshall\u201d enter its decisions on appeals within 60 days held directory only, and late-filed order not invalid as in excess of jurisdiction].)\nApplying this analysis to the present case, we conclude the 30-day period provided in section 4610.6, subdivision (d), is directory, rather than mandatory and jurisdictional. Neither section 4610.5, which relates to the initiation of IMR, nor section 4610.6, which relates to the execution of IMR, provides any consequence or penalty in the event the IMR organization, under the auspices of the director, fails to issue an IMR determination within the 30-day period. Moreover, the Legislature provided that the exclusive means to challenge an IMR determination is by appeal, and expressly limited the grounds upon which an appeal may proceed. (\u00a7 4610.6, subd. (h).) Notably, untimeliness of the IMR determination is not one of the statutory grounds for appeal. The absence of a penalty or consequence for the failure to comply with the 30-day time limit, coupled with the limited grounds for appeal, indicate that the Legislature did not intend to divest the director of jurisdiction to issue an IMR determination after the 30-day window expires.\nb. Construing the 30-day provision as directory furthers the legislative objective of Senate Bill 863.\nIn enacting Senate Bill 863, the Legislature made express findings regarding the purpose of IMR. First, it found that the prior system of dispute resolution concerning an injured worker\u2019s requests for medical treatment did \u201cnot uniformly result in the provision of treatment that adhere[d] to the highest standards of evidence-based medicine, [which] adversely affect[ed] the health and safety of workers injured in the course of employment.\u201d (Stats. 2012, ch. 363, \u00a7 1(d).) By creating IMR, a system in which \u201cmedical professionals ultimately determine the necessity of requested treatment,\u201d the Legislature intended to \u201cfurther[] the social policy of this state in reference to using evidence-based medicine to provide injured workers with the highest quality of medical care.\u201d (Id., \u00a7 1(e); see also Stevens, supra, 241 Cal.App.4th at p. 1096.) Further, the Legislature observed that the prior system of dispute resolution, i.e., the \u201cprocess of appointing qualified medical evaluators to examine patients and resolve treatment disputes,\u201d was not only costly and time-consuming, but \u201cit prolonged] disputes and cause[d] delays in medical treatment for injured workers.\u201d (Stats. 2012, ch. 363, \u00a7 1(1).) The Legislature also noted that the use of medical evaluators hired by the parties often resulted in bias on the part of the examiners, and therefore found that the \u201cindependent and unbiased medical expertise of specialists\u201d was necessary to ensure \u201c[tjimely and medically sound determinations of disputes over appropriate medical treatment.\u201d (Ibid.)\nWe conclude from these findings that the Legislature intended to remove the authority to make decisions about the medical necessity of proposed treatment for injured workers from the appeals board and place it in the hands of independent, unbiased medical professionals. Construing section 4610.6, subdivision (d), as directory best furthers the Legislature\u2019s intent in this regard. The appeals board\u2019s conclusion in this case\u2014that an untimely-IMR determination terminates the IMR process and vests jurisdiction in the appeals board to determine medical necessity\u2014is wholly inconsistent with the Legislature\u2019s stated goals and their evident intent.\nOther provisions of Senate Bill 863 support our conclusion that the Legislature did not intend noncompliance with the time limit in section 4610.6, subdivision (d), to effectively divest the director of jurisdiction to conduct IMR. For example, prior to Senate Bill 863, section 4604 provided that the appeals board had jurisdiction to resolve all controversies between an injured worker and his or her employer upon the request of either party. (\u00a7 4604, as amended by Stats. 1965, ch. 1513, \u00a7 88, p. 3578.) Thus, as noted ante, the appeals board routinely resolved conflicts over the medical necessity of proposed treatment, which remained after the parties obtained one or more medical examinations. But as part of Senate Bill 863, the Legislature modified section 4604, so that it now reads \u201c[cjontroversies between employer and employee arising under this chapter shall be determined by the appeals board, upon the request of either party, except as otherwise provided by Section 4610.5.\u201d (\u00a7 4604, italics added.) In turn, section 4610.5, which was added to the Labor Code by Senate Bill 863, provides that an employer\u2019s timely utilization review decision to deny, modify or delay requested treatment \u201cmay be reviewed or appealed only by independent medical review.\u201d (\u00a7 4610.5, subd. (e), italics added; see also \u00a7 4610.5, subd. (d).) Similarly, the Legislature modified section 4062, the section addressing the use of medical examiners to resolve disputes over treatment requests, so that it now provides: \u201cIf the employee objects to a decision made pursuant to Section 4610 to modify, delay, or deny a request for authorization of a medical treatment recommendation made by a treating physician, the objection shall be resolved only in accordance with the independent medical review process established in Section 4610.5.\u201d (\u00a7 4062, subd. (b), italics added.) Taken together, these enactments removed disputes over the medical necessity of requested treatment from the jurisdiction of the appeals board, at least insofar as they are within the scope of section 4610.5.\nThe Legislature also provided that the IMR determination is presumptively correct and, as noted ante, strictly limited to the grounds for appeal. (\u00a7 4610.6, subd. (h).) Further, even if an appeal from an IMR determination is successful, the case does not go to the appeals board for its review; instead, a successful appeal results in a second IMR. (\u00a7 4610.6, subd. (i).) These statutory provisions further indicate that the Legislature intended to limit the jurisdiction of the appeals board to determine the medical necessity of proposed treatment.\nFinally, and perhaps most tellingly, the Legislature provided that \u2018\u201c[i]n no event shall a workers\u2019 compensation administrative law judge, the appeals board, or any higher court make a determination of medical necessity contrary to the determination of the independent medical review organization.\u201d (Stats. 2012, ch. 363, \u00a7 46, codified at \u00a7 4610.6, subd. (i).) We find this portion of the statute\u2014particularly the use of the phrase, \u201c[i]n no event\u201d\u2014to be a frank expression of the Legislature\u2019s desire to remove the issue of medical necessity of proposed treatment from the jurisdiction of the appeals board in all cases subject to IMR. The Legislature\u2019s intent would be defeated by giving section 4610.6, subdivision (d), mandatory effect, as the appeals board did in the present case.\nApplicant argues that giving the statute directory effect would frustrate the purpose of Senate Bill 863 because, in applicant\u2019s view, the Legislature\u2019s primary goal was to ensure that injured workers receive prompt medical treatment. The appeals board also emphasized this point, noting that it has a constitutional mandate to enforce a complete system of workers\u2019 compensation, including expeditious provision of medical care for injured workers. As noted ante, the Legislature enacted Senate Bill 863 in part to reduce the delays associated with the prior system of dispute resolution. However, the statutory construction adopted by the appeals board would not reduce delay; it would perpetuate the time-consuming litigation process the Legislature set out to eliminate. (Stats. 2012, ch. 363, \u00a7 1(f) [\u2018\u201cThe existing process of appointing qualified medical evaluators to examine patients and resolve treatment disputes is costly and time-consuming, and it prolongs disputes and causes delays in medical treatment for injured workers.\u201d]; Sen. Com. on Labor and Industrial Relations, Analysis of Sen. Bill No. 863 (2011-2012 Reg. Sess.) as amended Aug. 30, 2012, p. 2 [noting that independent medical review \u201c[provides a timeline for approval of treatment after utilization review of 2-3 months, rather than the current judicial timelines which can take up to 18 or 24 months\u201d].) The present case illustrates this point perfectly. Maximus issued the IMR in this case on January 8, 2015, 79 days after SCIF rejected applicant\u2019s request for treatment and 13 days after the 30-day time frame provided by section 4610.6, subdivision (d). However, the appeals board did not render its decision until November 13, 2015, nearly 13 months after SCIF rejected applicant\u2019s request for treatment, and more than 10 months after Maximus rendered the IMR determination.\nProviding timely medical care to injured workers is a paramount concern of the Legislature, as evidenced by the short time frames provided for decisionmaking during utilization review and IMR. (See, e.g., Sandhagen, supra, 44 Cal.4th at pp. 243-244 [\u201cIn place of the often lengthy and cumbersome process employers used to dispute treatment requests . . . , the Legislature created a utilization review process that combines what are typically quick resolutions (\u00a7 4610, subd. (g)(1)) with accuracy\u201d]; and see \u00a7 4610.5, subds. (i) [prohibiting employer from engaging in any action that would delay IMR and authorizing fine of up to $5,000 per day for violation] & (/) [requiring employer to submit medical records to IMR within 10 days of request].) But we see no evidence in the statute or the legislative history to indicate the Legislature intended to divest the director of jurisdiction to conduct IMR simply because the IMR determination is untimely. We also note that when Senate Bill 863 first took effect, Maximus received approximately 10 times the number of IMR requests expected and was overwhelmed by the volume. (Cal. Dept, of Industrial Relations, Senate Bill 863: Assessment of Workers\u2019 Compensation Reforms (July 17, 2014) pp. 7, 16.) As a result, Maximus was initially unable to issue timely IMR determinations. (Ibid.) However, Maximus has since corrected the issue, presumably motivated, in part, by the fact that its contract with the director expires on December 31, 2017, at which time the director could choose not to renew the contract with Maximus. (Cal. Dept, of Industrial Relations, Senate Bill 863: Assessment of Workers\u2019 Compensation Reforms (July 2015) p. 8; contract available at <http://www. dir.ca.gov/dwc/IMR/IMR-Contract/IMR-Contract.pdf> [as of June 22, 2016].)\nc. Interpreting the statute as mandatory would yield absurd results.\nFurthermore, we believe construing the 30-day time frame provided in section 4610.6, subdivision (d), as mandatory would lead to absurd results. Specifically, the Legislature has provided that where an applicant successfully challenges an IMR determination on appeal, the remedy is a second IMR determination by a different IMR organization, or by a different reviewer at the same organization. (\u00a7 4610.6, subd. (i); Cal. Code Regs., tit. 8, \u00a7 9792.10.7, subd. (d).) Thus, even if an IMR is procured by fraud or infected by a conflict of interest on the part of the reviewer, the applicant is only entitled to a new IMR and cannot litigate the issue of medical necessity before the appeals board. Meanwhile, under the appeals board\u2019s construction of the statute, an injured worker who receives an untimely IMR determination would be required in every case to engage in costly and time-consuming litigation before the appeals board, even if the IMR determination is only one day late and it authorizes the requested medical treatment. We do not believe the Legislature would sanction such an absurd outcome.\nd. An injured worker may bring a petition for writ of mandate to compel the director to issue an IMR determination.\nFinally, we reject applicant\u2019s contention that interpreting section 4610.6, subdivision (d), as directory would frustrate the purpose of the statute because it would leave injured workers who do not receive timely IMR determinations in limbo. The only other published decision interpreting section 4610.6 expressly declined to decide what remedy might be available in this circumstance. (Stevens, supra, 241 Cal.App.4th at p. 1101.) We take the opportunity to do so here.\nA traditional writ of mandate brought under Code of Civil Procedure section 1085, lies \u201cto compel the performance of an act which the law [specifically] enjoins, as a duty resulting from an office, trust, or station.\u201d (Code Civ. Proc., \u00a7 1085, subd. (a).) Under this section, mandate will he to compel performance of a clear, present, and usually ministerial duty in cases where a petitioner has a clear, present and beneficial right to performance of that duty. (Santa Clara County Counsel Attys. Assn. v. Woodside (1994) 7 Cal.4th 525, 539-540 [28 Cal.Rptr.2d 617, 869 P.2d 1142]; People v. Picklesimer (2010) 48 Cal.4th 330, 339-340 [106 Cal.Rptr.3d 239, 226 P.3d 348].) In addition, mandate will lie to compel an officer, board, or court to exercise its discretion, where it refuses to act at all. (Common Cause v. Board of Supervisors (1989) 49 Cal.3d 432, 442 [261 Cal.Rptr. 574, 777 P.2d 610] (Common Cause).) \u201cWhile ordinarily, mandamus may not be available to compel the exercise by a court or officer of the discretion possessed by them in a particular manner, or to reach a particular result, it does lie to command the exercise of discretion\u2014to compel some action upon the subject involved.\u201d (Hollinan v. Warren (1948) 32 Cal.2d 351, 355 [196 P.2d 562]; see also Common Cause, supra, 49 Cal.3d at p. 442; AIDS Healthcare Foundation v. Los Angeles County Dept. of Public Health (2011) 197 Cal.App.4th 693, 704 [128 Cal.Rptr.3d 292].) Specifically, and of particular relevance here, where an administrative body is required to act within a specified time and it fails to do so, a writ of mandate will lie to compel the body to act. (See California Correctional, supra, 10 Cal.4th at p. 1148 [holding time limits of Gov. Code, \u00a7 18671.1 are directory, and noting \u201c[t]hey may be enforced by [a] petition for writ of mandate to compel the Board\u201d to act]; Edwards, supra, 25 Cal.3d at p. 412 [noting that seemingly mandatory language in a statute is often \u201cconsidered mandatory only in the sense that the board \u2018could be mandated to act if it took more time than the short period allotted\u2019 \u201d].)\nAlthough the Legislature required the director to hire an outside entity (in this case, Maximus) to conduct IMR, the Legislature deemed IMR services to be a new state function within the meaning of Government Code section 19130, subdivision (b)(2). (\u00a7 139.5, subd. (1).) Further, section 4610.6, subdivision (g), provides that \u201c[t]he determination of the independent medical review organization shall be deemed to be the determination of the administrative director . . . .\u201d Accordingly, the Legislature created a duty on the part of the director to ensure that IMR determinations are timely provided to injured workers seeking to overturn their employers\u2019 adverse utilization review determinations. \u201cFurthermore, we must assume that when passing a statute the Legislature is aware of existing related laws and intends to maintain a consistent body of rules.\u201d (Fuentes v. Workers\u2019 Comp. Appeals Bd. (1976) 16 Cal.3d 1, 7 [128 Cal.Rptr. 673, 547 P.2d 449].) We therefore presume that when the Legislature enacted Senate Bill 863, it was aware of Code of Civil Procedure section 1085 and its availability to compel administrative agency action. Moreover, we see no indication in Senate Bill 863 generally, or in section 4610.6 specifically, that the Legislature intended to bar injured workers from seeking to compel the director to fulfill his or her statutory obligation to render IMR determinations. We therefore hold that to the extent the director fails to render an IMR determination within the time frame provided by section 4610.6, subdivision (d)\u2014e.g., fails to ensure the IMR organization complies with the applicable statutes and regulations\u2014a writ of mandamus under Code of Civil Procedure section 1085 will lie, in appropriate circumstances, to compel the director to issue an IMR determination.\nFurther, we note that a petition for writ of administrative mandamus seeking to compel the director to act in accordance with a legislative mandate is not subject to the exclusive jurisdiction of the appeals board. (\u00a7 5300.) The Legislature created the Division of Workers\u2019 Compensation, including the appeals board, as part of its constitutional mandate \u2018\u201cto create and enforce a liability on the part of any or all persons to compensate any or all of their workers for injury or disability.\u201d (Cal. Const., art. XIV, \u00a7 4.) Our courts have repeatedly observed that the workers\u2019 compensation system has as its \u2018\u201cfundamental object ... the provision of a means for the prompt settlement of the employee\u2019s claim against his employer or the responsible insurance carrier.\u201d (State Comp. Ins. Fund v. Ind. Acc. Com. (1942) 20 Cal.2d 264, 272 [125 P.2d 42] (State Comp.); see Torres v. Xomox Corp. (1996) 49 Cal.App.4th 1, 32 [56 Cal.Rptr.2d 455], citing State Comp.) It is well established that the jurisdiction of the appeals board includes only those powers expressly delegated to it by the Legislature. (See, e.g., Victor Valley Transit Authority v. Workers\u2019 Comp. Appeals Bd. (2000) 83 Cal.App.4th 1068, 1072 [100 Cal.Rptr.2d 235] (Victor Valley) [\u201cAs a creature of the Legislature, the Board has no powers beyond those conferred on it,\u201d citing State Comp.].) Under section 5300, the appeals board has exclusive jurisdiction over proceedings concerning a worker\u2019s \u201crecovery of compensation, or concerning any right or liability arising out of or incidental thereto,\u201d and other issues related to the distribution of an injured workers\u2019 benefits. (\u00a7 5300.)\nHowever, a petition for writ of mandamus which seeks to compel the director to fulfill a statutory obligation does not implicate the substantive issue of the injured worker\u2019s entitlement to compensation from the employer. Instead, it seeks to compel the director to perform an act which is a necessary procedural step along the road to the resolution of the substantive claim. Moreover, and as already noted, a petition for writ of mandamus cannot seek to compel a particular decision on the part of the director; accordingly, the writ proceeding does not implicate the merits of the dispute between the employer and the injured worker. In other words, the petition for writ of mandate seeks to move the injured worker\u2019s claim toward resolution, but does not affect the resolution of the claim on the merits. Other courts have observed that disputes related to a workers\u2019 compensation claim are outside the jurisdiction of the appeals board to the extent they do not directly concern the merits of an injured workers\u2019 claim for compensation. (See, e.g., State Comp., supra, 20 Cal.2d at pp. 267-268 [holding dispute between insurance carriers over liability for award to injured worker was not within the Commission\u2019s exclusive jurisdiction]; Victor Valley, supra, 83 Cal.App.4th at p. 1073 [holding appeals board had no jurisdiction over dispute over liability as between members of joint government agency that employed injured worker because \u201cthe dispute had nothing to do with [the worker\u2019s] receipt of benefits\u201d].) The same is true here and for that reason, we conclude that a petition under Code of Civil Procedure section 1085 does not impinge on the board\u2019s exclusive jurisdiction in the area of workers\u2019 compensation.\nIn sum, although Senate Bill 863 evidences the Legislature\u2019s intent to reduce delays in the provision of medical care to injured workers, the appeals board\u2019s analysis focused too narrowly on that goal. As we have explained, the Legislature also intended to shift decisionmaking about medical treatment away from judges and place it in the hands of physicians. Construing the section 4610.6, subdivision (d), time frame as directory, rather than mandatory, best furthers the overall statutory design of Senate Bill 863, as well as the Legislature\u2019s prior workers\u2019 compensation reform efforts, implemented in 2004.\nDISPOSITION\nThe decision of the appeals board after reconsideration is annulled. We remand to the appeals board with instructions to conduct further proceedings consistent with this opinion.\nEdmon, P. L, and Aldrich, L, concurred.\nA petition for a rehearing was denied July 14, 2016, and the opinion was modified to read as printed above. The petition of respondent Dorothy Margaris for review by the Supreme Court was denied September 14, 2016, S236272. Corrigan, J., did not participate therein.\nAll further undesignated section references are to the Labor Code.\nBy separate order of this date, we grant in part and deny in part the requests for judicial notice submitted by CHP on December 21, 2015, January 28, 2016, and April 13, 2016.\n\u201cMaximus\u201d is a private company contracted by the Division of Workers\u2019 Compensation to conduct independent medical review. (See \u00a7 139.5.)\nAs we explain in detail, post, the director adopted a medical treatment utilization schedule which sets forth the frequency, duration, intensity, and appropriateness of medical treatment commonly provided to injured workers. (\u00a7 5307.27, subd. (a).)\nSee, e.g., Arredondo v. Workers\u2019 Comp. Appeals Bd. (2015) 80 Cal.Comp.Cases 1050 (concluding \u00a7 4610.6, subd. (d), is directory); Hallmark Marketing v. Workers\u2019 Comp. Appeals Bd. (Southard) (June 25, 2015, STK 0182206) 2015 Cal.Wrk.Comp. P.D. Lexis 365 (concluding \u00a7 4610.6, subd. (d), is mandatory), currently pending before the Third District Court of Appeal on writ of review. No. C079912.\nAlthough the extensive use of acronyms is commonplace among those immersed in the field of workers\u2019 compensation law, we minimize their' use in our opinion, as acronyms tend to obfuscate rather than illuminate the issues for the uninitiated. In that vein, we refer to a request for authorization of medical treatment (RFA) as a \u201crequest for treatment,\u201d the medical treatment utilization schedule (MTUS) as \u201cthe treatment schedule\u201d or the \u201cdirector\u2019s treatment schedule,\u201d the Workers\u2019 Compensation Appeals Board (WCAB) as the \u201cappeals board\u201d and the administrative director of the Division of Workers\u2019 Compensation (AD) as the \u201cdirector.\u201d Other short forms are defined in the text of this opinion.\nGovernment Code section 18671.1, subdivision (b), provides: \u201cThe board shall render its decision within a reasonable time after the conclusion of the hearing or investigation, except that the period from the filing of the appeal to the decision of the board shall not exceed six months.\u201d (Gov. Code, \u00a7 18671.1, subd. (b).)\nThe appeals board has found that it has jurisdiction to decide whether requested treatment is medically necessary if an employer fails to issue a timely utilization review decision. (Dubon v. World Restoration. Inc. (2014) 79 Cal.Comp.Cases 1298, 1306 (en banc) (Dubon II).) This finding is consistent with the regulations promulgated by the director. (See Cal. Code Regs., tit. 8, \u00a7 10451.2, subd. (c) [stating that \u201cIMR\u201d applies solely to disputes over the necessity of medical treatment where [the employer] has conducted a timely and otherwise procedurally proper utilization review\u201d].) Applicant urges us to adopt the reasoning of Dubon II. and hold that the appeals board also has jurisdiction to determine the medical necessity of proposed treatment if the IMR organization fails to issue a timely IMR determination. We express no opinion about the appeals board\u2019s reasoning in Dubon II. as that issue is not before us. However, we note there is no regulation that expressly invalidates an untimely IMR determination, as there is with respect to an employer\u2019s untimely utilization review decision. On that basis, we reject applicant\u2019s argument and decline to apply the reasoning of Dubon II in this case.",
+        "type": "majority",
+        "author": "LAVIN, J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Lisa A. Liebson, Mary R. Huckabaa and William L. Anderson for Petitioner.",
+      "Finnegan, Marks, Theofel & Desmond, Ellen Sims Langille and Randall G. Poppy for California Chamber of Commerce as Amicus Curiae on behalf of Petitioner.",
+      "Law Offices of Allweiss & McMurtry and Michael A. Marks for California Workers\u2019 Compensation Institute as Amicus Curiae on behalf of Petitioner.",
+      "John F. Shields for Respondent Workers\u2019 Compensation Appeals Board.",
+      "Law Offices of Jill Suzanne Breslau and Jill Suzanne Breslau for Respondent Dorothy Margaris.",
+      "Law Office of Mark Gearheart and Justin C. Sonnicksen for California Applicants\u2019 Attorneys Association as Amicus Curiae on behalf of Respondent Dorothy Margaris."
+    ],
+    "corrections": "",
+    "head_matter": "[No. B269038.\nSecond Dist., Div. Three.\nJune 22, 2016.]\nSTATE COMPENSATION INSURANCE FUND, Petitioner, v. WORKERS\u2019 COMPENSATION APPEALS BOARD and DOROTHY MARGARIS, Respondents.\nCounsel\nLisa A. Liebson, Mary R. Huckabaa and William L. Anderson for Petitioner.\nFinnegan, Marks, Theofel & Desmond, Ellen Sims Langille and Randall G. Poppy for California Chamber of Commerce as Amicus Curiae on behalf of Petitioner.\nLaw Offices of Allweiss & McMurtry and Michael A. Marks for California Workers\u2019 Compensation Institute as Amicus Curiae on behalf of Petitioner.\nJohn F. Shields for Respondent Workers\u2019 Compensation Appeals Board.\nLaw Offices of Jill Suzanne Breslau and Jill Suzanne Breslau for Respondent Dorothy Margaris.\nLaw Office of Mark Gearheart and Justin C. Sonnicksen for California Applicants\u2019 Attorneys Association as Amicus Curiae on behalf of Respondent Dorothy Margaris."
+  },
+  "file_name": "0349-01",
+  "first_page_order": 343,
+  "last_page_order": 366
+}

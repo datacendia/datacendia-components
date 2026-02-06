@@ -1,0 +1,61 @@
+{
+  "id": 6002228,
+  "name": "Winkler v. Grant et al.",
+  "name_abbreviation": "Winkler v. Grant",
+  "decision_date": "2010-12-13",
+  "docket_number": "No. 10-467",
+  "first_page": "1124",
+  "last_page": "1124",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1124"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 25,
+    "char_count": 151,
+    "ocr_confidence": 0.601,
+    "sha256": "26f3f6b15a7b4d722aab0d92c4cb4a3612acca63a70ef62ab6ac2c212c476400",
+    "simhash": "1:99f32080574ef6c2",
+    "word_count": 26
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Sotomayor took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Winkler v. Grant et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.\nJustice Sotomayor took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-467.\nWinkler v. Grant et al."
+  },
+  "file_name": "1124-02",
+  "first_page_order": 1146,
+  "last_page_order": 1146
+}

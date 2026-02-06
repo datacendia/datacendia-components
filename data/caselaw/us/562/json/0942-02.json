@@ -1,0 +1,59 @@
+{
+  "id": 6021708,
+  "name": "Ezike v. Holder, Attorney General",
+  "name_abbreviation": "Ezike v. Holder",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5934",
+  "first_page": "942",
+  "last_page": "942",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 942"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 82,
+    "ocr_confidence": 0.574,
+    "sha256": "51e52020d45d2fbd6acfcffeb36551335a85d4067bf52e3b9c35639704650447",
+    "simhash": "1:4092529ac928342b",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ezike v. Holder, Attorney General."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5934.\nEzike v. Holder, Attorney General."
+  },
+  "file_name": "0942-02",
+  "first_page_order": 964,
+  "last_page_order": 964
+}

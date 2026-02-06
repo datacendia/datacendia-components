@@ -1,0 +1,985 @@
+{
+  "id": 12518517,
+  "name": "John DOE, Individually, Plaintiff, Jeffrey Koeppel, Individually, Plaintiff-Appellant, v. VALENCIA COLLEGE, a Florida public college, Defendant, District Board of Trustees of Valencia College, Florida, Joyce C. Romano, In her individual capacity, Joseph M. Sarrubbo, Jr., In his individual capacity, Thomas Decker, In his individual capacity, Sanford Shugart, Defendants-Appellees.",
+  "name_abbreviation": "Doe v. Valencia Coll.",
+  "decision_date": "2018-09-13",
+  "docket_number": "No. 17-12562",
+  "first_page": "1220",
+  "last_page": "1237",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "903 F.3d 1220"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "11th Cir.",
+    "id": 9031,
+    "name": "United States Court of Appeals for the Eleventh Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "435 U.S. 78",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        2906
+      ],
+      "weight": 3,
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "91-92"
+        },
+        {
+          "page": "956"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/435/0078-01"
+      ]
+    },
+    {
+      "cite": "474 U.S. 214",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6202583
+      ],
+      "weight": 3,
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "222-23"
+        },
+        {
+          "page": "511-12"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/474/0214-01"
+      ]
+    },
+    {
+      "cite": "147 F.3d 1301",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1358793
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "1314-15",
+          "parenthetical": "Carnes, J., concurring specially"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/147/1301-01"
+      ]
+    },
+    {
+      "cite": "899 F.3d 908",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12518140
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "915-16"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/899/0908-01"
+      ]
+    },
+    {
+      "cite": "569 U.S. 66",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12697066
+      ],
+      "weight": 3,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "77",
+          "parenthetical": "\"Unlike claims for injunctive relief challenging ongoing conduct, a claim for damages cannot evade review; it remains live until it is settled, judicially resolved, or barred by a statute of limitations.\""
+        },
+        {
+          "page": "1531",
+          "parenthetical": "\"Unlike claims for injunctive relief challenging ongoing conduct, a claim for damages cannot evade review; it remains live until it is settled, judicially resolved, or barred by a statute of limitations.\""
+        },
+        {
+          "parenthetical": "\"Unlike claims for injunctive relief challenging ongoing conduct, a claim for damages cannot evade review; it remains live until it is settled, judicially resolved, or barred by a statute of limitations.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/569/0066-01"
+      ]
+    },
+    {
+      "cite": "780 F.3d 1084",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4073523
+      ],
+      "weight": 3,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1092",
+          "parenthetical": "holding that out-of-court statements offered \"only to show their effect on the listener\" were not hearsay because they \"were not offered for the truth of the matters asserted\""
+        },
+        {
+          "page": "1092"
+        },
+        {
+          "page": "1092"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/780/1084-01"
+      ]
+    },
+    {
+      "cite": "831 F.3d 46",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6055185
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "53"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/831/0046-01"
+      ]
+    },
+    {
+      "cite": "860 F.3d 767",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12276304
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "777-78"
+        },
+        {
+          "page": "777-78"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/860/0767-01"
+      ]
+    },
+    {
+      "cite": "882 F.3d 579",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12515976
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "589"
+        },
+        {
+          "page": "589"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/882/0579-01"
+      ]
+    },
+    {
+      "cite": "35 F.3d 709",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10527951
+      ],
+      "weight": 5,
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "715",
+          "parenthetical": "\"Title IX bars the imposition of university discipline where gender is a motivating factor in the decision to discipline.\""
+        },
+        {
+          "page": "715"
+        },
+        {
+          "parenthetical": "\"If no such doubt exists based on the record before the disciplinary tribunal, the claim must fail.\""
+        },
+        {
+          "page": "715"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/35/0709-01"
+      ]
+    },
+    {
+      "cite": "82 F.3d 383",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7641093
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "387",
+          "parenthetical": "\"The right to attend a public school is a state-created, rather than a fundamental, right for the purposes of substantive due process.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/82/0383-01"
+      ]
+    },
+    {
+      "cite": "457 U.S. 202",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6187607
+      ],
+      "weight": 3,
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "221",
+          "parenthetical": "\"Public education is not a 'right' granted to individuals by the Constitution.\""
+        },
+        {
+          "page": "2396",
+          "parenthetical": "\"Public education is not a 'right' granted to individuals by the Constitution.\""
+        },
+        {
+          "parenthetical": "\"Public education is not a 'right' granted to individuals by the Constitution.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/457/0202-01"
+      ]
+    },
+    {
+      "cite": "216 F.3d 1328",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11220572
+      ],
+      "weight": 2,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "1331",
+          "parenthetical": "\"[T]he state must have the opportunity to remedy the procedural failings of its subdivisions and agencies in the appropriate fora - agencies, review boards, and state courts [-] before being subjected to a claim alleging a procedural due process violation.\""
+        },
+        {
+          "parenthetical": "noting that \"certiorari [to the state courts] is generally an adequate state remedy\" for procedural due process purposes"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/216/1328-01"
+      ]
+    },
+    {
+      "cite": "85 So.3d 571",
+      "category": "reporters:state_regional",
+      "reporter": "So. 3d",
+      "case_ids": [
+        7022201,
+        7022242
+      ],
+      "weight": 2,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "573",
+          "parenthetical": "\"[W]hen an officer or agency is exercising power derived from the constitution, the resulting decision is not one that is made by an agency as defined in the Administrative Procedure Act.\""
+        },
+        {
+          "page": "574",
+          "parenthetical": "concluding that appellate review of a university's disciplinary decision was \"a matter of right\" and that \"certiorari [wa]s the proper remedy\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so3d/85/0571-01",
+        "/so3d/85/0571-02"
+      ]
+    },
+    {
+      "cite": "495 F.3d 1289",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3564228
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "1294"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/495/1289-01"
+      ]
+    },
+    {
+      "cite": "494 U.S. 113",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5347
+      ],
+      "weight": 3,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "125-26"
+        },
+        {
+          "page": "983",
+          "parenthetical": "explaining that \"the existence of state remedies is relevant\" in a \u00a7 1983 action \"brought for a violation of procedural due process\" because in those cases the \"constitutional violation ... is not complete unless and until the State fails to provide due process\""
+        },
+        {
+          "parenthetical": "explaining that \"the existence of state remedies is relevant\" in a \u00a7 1983 action \"brought for a violation of procedural due process\" because in those cases the \"constitutional violation ... is not complete unless and until the State fails to provide due process\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/494/0113-01"
+      ]
+    },
+    {
+      "cite": "20 F.3d 1550",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10515634,
+        10515590
+      ],
+      "weight": 2,
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "1557",
+          "parenthetical": "quotations marks omitted"
+        },
+        {
+          "page": "1556",
+          "parenthetical": "\"[A]reas in which substantive rights are created only by state law ... are not subject to substantive due process protection under the Due Process Clause because substantive due process rights are created only by the Constitution.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/20/1550-02",
+        "/f3d/20/1550-01"
+      ]
+    },
+    {
+      "cite": "294 F.2d 150",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        215475
+      ],
+      "year": 1961,
+      "pin_cites": [
+        {
+          "page": "158",
+          "parenthetical": "\"[D]ue process requires notice and some opportunity for hearing before a student at a tax-supported college is expelled for misconduct.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/294/0150-01"
+      ]
+    },
+    {
+      "cite": "812 F.2d 655",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1694681
+      ],
+      "weight": 2,
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "660-61",
+          "parenthetical": "discussing the type of hearing and notice required when a public college suspended two students for academic dishonesty"
+        },
+        {
+          "page": "660"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/812/0655-01"
+      ]
+    },
+    {
+      "cite": "455 U.S. 489",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11306266
+      ],
+      "weight": 3,
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "495"
+        },
+        {
+          "page": "1191"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/455/0489-01"
+      ]
+    },
+    {
+      "cite": "137 S.Ct. 1144",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12603180
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1151-52"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/137/1144-01"
+      ]
+    },
+    {
+      "cite": "561 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12455275,
+        3644526
+      ],
+      "weight": 3,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "20"
+        },
+        {
+          "page": "2719"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/177/0355-01",
+        "/us/561/0001-01"
+      ]
+    },
+    {
+      "cite": "539 U.S. 113",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8897431
+      ],
+      "weight": 5,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "122",
+          "parenthetical": "quotation marks and alterations omitted"
+        },
+        {
+          "page": "2198",
+          "parenthetical": "quotation marks and alterations omitted"
+        },
+        {
+          "parenthetical": "quotation marks and alterations omitted"
+        },
+        {
+          "page": "122"
+        },
+        {
+          "page": "2198",
+          "parenthetical": "quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/539/0113-01"
+      ]
+    },
+    {
+      "cite": "466 U.S. 789",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6206324
+      ],
+      "weight": 3,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "801"
+        },
+        {
+          "page": "2126"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/466/0789-01"
+      ]
+    },
+    {
+      "cite": "525 F.3d 1073",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3584045
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "1079",
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/525/1073-01"
+      ]
+    },
+    {
+      "cite": "427 U.S. 50",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6174622
+      ],
+      "weight": 3,
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "60"
+        },
+        {
+          "page": "2447"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/427/0050-01"
+      ]
+    },
+    {
+      "cite": "95 L.Ed.2d 697",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        6222105,
+        1148012
+      ],
+      "weight": 2,
+      "year": 1987,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/481/0739-01",
+        "/us/341/0001-01"
+      ]
+    },
+    {
+      "cite": "481 U.S. 739",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6222105
+      ],
+      "weight": 2,
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "745"
+        },
+        {
+          "page": "2100"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/481/0739-01"
+      ]
+    },
+    {
+      "cite": "777 F.2d 598",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1521776
+      ],
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "604",
+          "parenthetical": "recognizing a \"long-standing policy of refusing to decide constitutional issues unless strictly necessary\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/777/0598-01"
+      ]
+    },
+    {
+      "cite": "113 F.3d 1536",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        336432
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "1542",
+          "parenthetical": "\"That concessions and admissions of counsel at oral argument in appellate courts can count against them is doubtlessly true.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/113/1536-01"
+      ]
+    },
+    {
+      "cite": "472 U.S. 491",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1512350
+      ],
+      "weight": 3,
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "502",
+          "parenthetical": "stating \"the elementary principle that the same statute may be in part constitutional and in part unconstitutional, and that if the parts are wholly independent of each other, that which is constitutional may stand\""
+        },
+        {
+          "page": "2801",
+          "parenthetical": "stating \"the elementary principle that the same statute may be in part constitutional and in part unconstitutional, and that if the parts are wholly independent of each other, that which is constitutional may stand\""
+        },
+        {
+          "parenthetical": "stating \"the elementary principle that the same statute may be in part constitutional and in part unconstitutional, and that if the parts are wholly independent of each other, that which is constitutional may stand\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/472/0491-01"
+      ]
+    },
+    {
+      "cite": "527 F.3d 41",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3566779
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "48",
+          "parenthetical": "\"[A] student may be disciplined for expressive conduct, even conduct occurring off school grounds, when this conduct would foreseeably create a risk of substantial disruption within the school environment ... [and] might also reach campus.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/527/0041-01"
+      ]
+    },
+    {
+      "cite": "799 F.3d 379",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4341016
+      ],
+      "weight": 2,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "391, 395-96",
+          "parenthetical": "en banc"
+        },
+        {
+          "page": "396",
+          "parenthetical": "\"[I]n holding Tinker applies to off-campus speech in this instance ... we decline[ ] to adopt any rigid standard.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/799/0379-01"
+      ]
+    },
+    {
+      "cite": "530 U.S. 703",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9414210
+      ],
+      "weight": 3,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "718",
+          "parenthetical": "\"None of our decisions has minimized the enduring importance of a right to be free from persistent importunity, following and dogging after an offer to communicate has been declined.\""
+        },
+        {
+          "page": "2490",
+          "parenthetical": "\"None of our decisions has minimized the enduring importance of a right to be free from persistent importunity, following and dogging after an offer to communicate has been declined.\""
+        },
+        {
+          "parenthetical": "\"None of our decisions has minimized the enduring importance of a right to be free from persistent importunity, following and dogging after an offer to communicate has been declined.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/530/0703-01"
+      ]
+    },
+    {
+      "cite": "136 S.Ct. 2243",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12598042
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "2254"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/136/2243-01"
+      ]
+    },
+    {
+      "cite": "888 F.3d 1163",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516641
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1177",
+          "parenthetical": "\"[A] good rule of thumb for reading [Supreme Court] decisions is that what they say and what they mean are one and the same.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/888/1163-01"
+      ]
+    },
+    {
+      "cite": "119 F.3d 922",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        199854
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "924",
+          "parenthetical": "explaining that \"or\" usually \"indicates alternatives and requires that those alternatives be treated separately\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/119/0922-01"
+      ]
+    },
+    {
+      "cite": "393 U.S. 503",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11318417
+      ],
+      "weight": 15,
+      "year": 1969,
+      "pin_cites": [
+        {
+          "page": "509"
+        },
+        {
+          "page": "738"
+        },
+        {
+          "page": "513"
+        },
+        {
+          "page": "740",
+          "parenthetical": "\"[C]onduct by the student [that] ... materially disrupts classwork or involves substantial disorder or invasion of the rights of others is, of course, not immunized by the constitutional guarantee of freedom of speech.\""
+        },
+        {
+          "page": "508"
+        },
+        {
+          "page": "737"
+        },
+        {
+          "page": "512-13"
+        },
+        {
+          "page": "511"
+        },
+        {
+          "page": "739"
+        },
+        {
+          "page": "513"
+        },
+        {
+          "page": "740",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "509"
+        },
+        {
+          "page": "738"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/393/0503-01"
+      ]
+    },
+    {
+      "cite": "494 F.3d 978",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6047366
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "982"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/494/0978-01"
+      ]
+    },
+    {
+      "cite": "20 U.S.C. \u00a7 1681",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 U.S.C. \u00a7 1983",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1859,
+    "char_count": 45884,
+    "pagerank": {
+      "raw": 6.224902989996017e-08,
+      "percentile": 0.38521666707209573
+    },
+    "sha256": "3c9b89f690e12c48408b302ec077e0e5d49e944001df38368c59ba227abb26d4",
+    "simhash": "1:4878b94634b81691",
+    "word_count": 7452
+  },
+  "last_updated": "2024-02-27T18:45:28.627343+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before ED CARNES, Chief Judge, MARCUS, and EBEL, Circuit Judges."
+    ],
+    "parties": [
+      "John DOE, Individually, Plaintiff,"
+    ],
+    "opinions": [
+      {
+        "text": "ED CARNES:\nAccused robbers, rapists, and murderers have statutory and constitutional rights. So does a college student who is accused of stalking and sexually harassing another student. The question in this case is whether Valencia College violated Jeffrey Koeppel's statutory or constitutional rights when it suspended him for his conduct toward another student at the college. The district court did not think so, and neither do we.\nI. FACTUAL BACKGROUND AND PROCEDURAL HISTORY\nA. Facts\nJeffrey Koeppel met Jane Roe (pseudonym) during the summer of 2014 when they were assigned to the same biology lab group at Valencia College, a public college in Florida. Because they were assigned to work together, they exchanged phone numbers and would occasionally talk outside of class. As the semester went on, the 42-year-old Koeppel began to develop feelings for the 24-year-old Jane that were not purely academic. He volunteered to do things for her. He tutored her in biology. He offered to give her his old computer. And he asked if he could buy her a gift certificate for a massage. Eventually Koeppel told Jane that he was attracted to her. Jane let him know that the feeling was not mutual. She told him that she already had a boyfriend; that her relationship with Koeppel was strictly related to their role as lab partners in the biology class; and that she did not want him to have the wrong impression. After that the two of them finished the summer semester without incident.\n1. Koeppel Messages Jane\nA few days before the fall semester began, Koeppel saw something online that made him think that Jane was single. Ever hopeful, on August 3 he sent her a text message telling her once again that he had feelings for her: \"So im saying I am interest[ed] in you ... but im not on any mission or anything ... i just don't enjoy feeling conflicted so I would rather talk about it.\" That message came around 10:00 p.m. on a Sunday night while Jane was at home watching a movie with her son and her boyfriend. Jane responded:\nI have told you that I just want this to be class related [because] I am with someone who I've been seeing for 3 years now .. And we live together .. So I don't know if i gave you the wrong impression or whatever the case may be .. But I do have a serious [boyfriend] and really just thought we were studying and getting through the class.\nKoeppel replied that \"[i]t really doesn[']t matter [because] you have been very fair with me ...\" and that \"I just kinda hoped you would come around ... be interested in me.\" He explained that he had asked her again because after looking at her Facebook page, he thought she had broken up with her boyfriend. And he told her that \"U never sent any signals ... I guess i just wanna ask what your plans are.\"\nJane reiterated: \"Listen I have a [boyfriend]. I have been busy with work. [W]hy are u texting me that when we already discussed this[?]\" Then: \"And saw what exactly on my Facebook? We are not even friends so how did u get on their [sic] ....\" Jane and her boyfriend then called Koeppel, and Jane asked him why he was texting her, told him he had crossed a line by looking at her Facebook page, and told him that they were not friends.\nThat apparently was not what Koeppel wanted to hear. He responded with a message to Jane advising her: \"Get a nosejob. [Your boyfriend] can pay with his foodstamp[s].\" Jane and her boyfriend called Koeppel again and informed him that they were calling the police. Koeppel admits that he then sent Jane a series of \"inappropriate\" messages and pictures in the hopes of \"hurt[ing] her feelings.\" Each of these quotations is from a separate text:\n\u2022 \"I wondered if u were a hussie and i guess so.\"\n\u2022 \"Dress like a hooker and now act like it too.\"\n\u2022 \"Just sucks i didn't wear your pussy out.\"\n\u2022 \"Them skinny legs i been thinkin about.\"\n\u2022 \"Believe me i have had plenty of sex with you even if you weren[']t present.\"\n\u2022 \"What u think i was thinkin bout when ur in them tiny whore shorts.\"\n\u2022 \"Your little butt cheeks hanging out.\"\n\u2022 \"Yum yum!!!!!\"\n\u2022 \"Ur cute with a LOT of face paint ...\"\n\u2022 \"But I like that cute little mole by ur titty.\"\n\u2022 \"A hussie is as a hussie does.\"\nKoeppel also sent her a picture of his bare chest, a picture of himself wearing a costume with his arm around a woman, and a picture of a woman pretending to perform oral sex on another person. He later conceded that given the content and the number of his text messages, it was possible that someone receiving them would have been concerned.\nMeanwhile, Jane's boyfriend called the Seminole County Sheriff's Office. Deputy Brenton Rush responded and met Jane outside of her apartment. She told him what had happened and that she was scared. Deputy Rush looked at the messages and, at Jane's request, called Koeppel to recommend that he stop talking to her. Despite his recommendation, Koeppel called her again around midnight from an unknown number.\nAfter midnight that same night, Jane twice messaged Koeppel to \"Stop calling me. Do not have any contact with me.\" But Koeppel kept on texting her until 5:00 a.m. The messages in those later texts included questions about Jane's boyfriend, statements mocking Jane's anxiety disorder, an apology, and, when Jane didn't respond to his apology, this message: \"Starbucks date - a 6.5 oz can of expresso [sic] and cream - despite the fact that it is not carbonated when opened it tends to eject some of its contents directly on one[']s face.\"\nOn August 6, Koeppel texted Jane again, but she did not respond until August 13, when she once again told him to stop: \"You are crazy[. L]eave me alone and my [ ] life[. S]top stalking my Facebook[. L]eave us alone! The cops already informed u to leave me alone and you haven't.\" He didn't stop.\n2. Valencia Suspends Koeppel\nOn August 11, 2014, Jane, accompanied by her boyfriend and son, went to Valencia Dean of Students Joseph Sarrubbo's office to complain about Koeppel's messages. At that meeting Sarrubbo noticed that Jane was \"visibly upset and shaken,\" and he recommended that she complete a witness statement with the campus safety and security office.\na. Sarrubbo's Investigation\nCampus security forwarded Jane's complaint and an incident report to Dean Sarrubbo, and he used those documents to create a charge letter listing the potential violations of the Valencia Student Code of Conduct. Sarrubbo emailed Koeppel informing him in writing about the charges against him and instructing Koeppel to schedule a time to meet for an informal hearing. Sarrubbo also told Koeppel that he was beginning an investigation and that until the investigation was concluded Koeppel was under a no contact order with Jane and had been unenrolled from a fall class that Jane was also taking. Koeppel violated that no contact order when he texted Jane later that evening. He admits that he sent Jane 20 messages trying to persuade her to withdraw her complaint with the college.\nWhen he met with Sarrubbo on August 15, Koeppel admitted to sending the messages, explained how he viewed his relationship with Jane, and commented on each allegation in her complaint. A few days later Sarrubbo met with Jane. During that interview Jane appeared \"nervous and concerned.\" She told Sarrubbo that she was \"concerned about running into - interacting with Mr. Koeppel on campus\" because they were enrolled in the same class in the fall and she didn't \"want to be around him.\"\nIn addition to meeting with both students, Dean Sarrubbo spoke with Deputy Rush and reviewed documents submitted by Jane and by Koeppel. Jane gave Sarrubbo screen shots of the messages that Koeppel had sent her. Koeppel, who had deleted the messages on his phone, used a text recovery service and submitted a Word document with some of the messages that he had sent to Jane. Koeppel also submitted a receipt for the computer he insisted that he had bought Jane, an image of Jane's Facebook page (showing that she had not blocked him), and the results of a background check that he hired someone to do on himself.\nThroughout the investigation, Dean Sarrubbo kept a detailed log of phone calls, meetings, and notes. The phone log listed every call that Sarrubbo made to or received from Jane, Koeppel, and Deputy Rush. The notes log listed each allegation contained in the incident report and in a separate column reported Koeppel's comments about the allegation when questioned by Sarrubbo. The meeting log recorded the date, time, and place of each meeting that Sarrubbo had individually with Jane and with Koeppel. It also included Sarrubbo's comments about each meeting. (To simplify things, we will refer to the phone call, meeting, and notes log as Sarrubbo's log.)\nAfter completing his investigation, Dean Sarrubbo concluded that Koeppel had likely violated the Code of Conduct and sent Koeppel an email informing him that a disciplinary hearing was set for the following week. That email also informed Koeppel that the college was considering disciplining him for having engaged in the following four types of conduct prohibited in the Code:\n[1] Physical abuse, including but not limited to, rape, sexual assault, sex offenses, and other physical assault; threats of violence; or conduct that threatens the health or safety of any person.\n[2] Sexual harassment, as defined in College policy ... : Unwelcome sexual advances, requests for sexual favors, and other verbal or physical conduct of a sexual nature constitute sexual harassment when: ... [s]uch conduct has the purpose or effect of unreasonably interfering with an individual's performance or creating an intimidating, hostile, or offensive College environment. In determining whether the alleged conduct constitutes sexual harassment, consideration shall be given to the record of the incident as a whole and to the totality of the circumstances, including the context in which the alleged incidents occurred.\n[3] Stalking behavior in which an individual willfully, maliciously, and repeatedly engages in a knowing course of conduct directed at a specific person which reasonably and seriously alarms, torments, or terrorizes the person, and which serves no legitimate purpose.\n[4] Disorderly or lewd conduct.\nb. Koeppel's Disciplinary Hearing\nDean Sarrubbo, who oversaw Koeppel's disciplinary hearing, met with the Student Conduct Committee 30 minutes before the hearing began. At that pre-hearing meeting, he gave the committee members an overview of the charges and a folder that included his log, Jane's complaint, and the documents that Jane and Koeppel had submitted, including copies of the text messages. Jane did not attend the hearing, and Koeppel did not object to her absence.\nThe committee members questioned Koeppel for about 35 minutes. Some of them expressed their skepticism about Koeppel and his comments: \"[Y]ou're a 42-year-old man, just get over it\"; \"[H]ow could you have thought that it was in any way appropriate to have offered to buy a massage for Jane?\"; and \"[W]hen's the last time that you bought a massage for a male friend?\" One member said: \"I don't see what we even - what's even necessary to discuss. He was obviously stalking.\"\nAfter the committee finished questioning Koeppel, Dean Sarrubbo told him, \"Now is your opportunity to address the committee and wrap things up.\" Koeppel spoke. Although he contended that Jane's \"complaint is 80% willful misstatements and fabrications,\" Koeppel did not deny sending any of the text messages to her or deny that she had repeatedly asked him to stop. He did ask the committee to let him \"go back to the beginning\" and \"explain chronologically\" and to \"go over the complaint against [him] line by line,\" like he did when he met one on one with Sarrubbo. Sarrubbo denied both requests as unnecessary. After deliberating, the committee recommended to Sarrubbo that he find Koeppel responsible for the charged conduct and suspend him from attending the college for one year. Sarrubbo upheld the recommendation and emailed Koeppel to inform him about the suspension and the appeals process.\nKoeppel appealed the committee's recommendation and Dean Sarrubbo's decision to the Vice President of Student Affairs, Dr. Joyce Romano. Koeppel contended in his appeal that the committee's conclusions were unwarranted and that the sanction was excessive. Romano denied Koeppel's appeal, explaining that:\n[T]he number of texts is not the main focus in this case as much as the continued behavior you exhibited in not controlling your impulses and continuing to engage with the other student when it was clearly communicated to you that such interactions were unwelcome and that you should have no further contact with her.\nB. Procedural History\nOn October 23, 2015, Koeppel filed a lawsuit against Romano, Sarrubbo, and one other Valencia official in their individual capacities. (Because the claims against them are identical, we refer to the defendants collectively as Valencia.) In his third amended complaint Koeppel claimed under 42 U.S.C. \u00a7 1983 that Valencia's policies, on their face and as applied to him, violated the First Amendment and that Valencia's actions violated his right to procedural and substantive due process. He also claimed that Valencia violated Title IX, 20 U.S.C. \u00a7 1681.\nValencia moved to dismiss all of Koeppel's claims or, in the alternative, for summary judgment. After the close of discovery, the court granted summary judgment to Valencia on all of the claims. This is Koeppel's appeal.\nII. STANDARD OF REVIEW\nWe review de novo a grant of summary judgment, viewing the facts and \"drawing all reasonable inferences in favor of the nonmoving party.\" Boim v. Fulton Cty. Sch. Dist., 494 F.3d 978, 982 (11th Cir. 2007).\nIII. DISCUSSION\nKoeppel contends that Valencia's policies violated his First Amendment right to free speech, that they were unconstitutionally overbroad and vague on their face, and that he was denied procedural and substantive due process in connection with his disciplinary hearing. Citing Title IX, he also contends that gender bias was a motivating factor in his suspension. We address each of those contentions in that order.\nA. Koeppel's As Applied Claim That Valencia Violated His First Amendment Right To Free Speech\nThe Supreme Court has held that public schools may regulate student expression when it \"substantially interfere[s] with the work of the school or impinge[s] upon the rights of other students.\" See Tinker v. Des Moines Indep. Cmty. Sch. Dist., 393 U.S. 503, 509, 89 S.Ct. 733, 738, 21 L.Ed.2d 731 (1969). Koeppel claims that as they were applied to him Valencia's policies violated his First Amendment rights because his messages to Jane were private, non-threatening speech, which did not cause a substantial interference at the school. Maybe so, but that goes to only half of Tinker's holding.\nTinker held that a public school may regulate student speech not only when it \"substantially interfere[s] with the work of the school,\" but also when it \"impinge[s] upon the rights of other students\" to be secure and to be let alone. Id.; see also id. at 513, 89 S.Ct. at 740 (\"[C]onduct by the student [that] ... materially disrupts classwork or involves substantial disorder or invasion of the rights of others is, of course, not immunized by the constitutional guarantee of freedom of speech.\") (emphasis added); see also Brown v. Budget Rent-A-Car Sys., Inc., 119 F.3d 922, 924 (11th Cir. 1997) (explaining that \"or\" usually \"indicates alternatives and requires that those alternatives be treated separately\") (quotation marks omitted). We take it as given that when the Supreme Court stated that conduct involving an \"invasion of the rights of others\" is not constitutionally protected, it meant that conduct invading the rights of others is not constitutionally protected. See CSX Transp., Inc. v. Ala. Dep't of Revenue, 888 F.3d 1163, 1177 (11th Cir. 2018) (\"[A] good rule of thumb for reading [Supreme Court] decisions is that what they say and what they mean are one and the same.\") (quoting Mathis v. United States, 579 U.S. ----, 136 S.Ct. 2243, 2254, 195 L.Ed.2d 604 (2016) ).\nKoeppel's conduct invaded Jane's rights, interfering with her rights \"to be secure and to be let alone,\" free from persistent unwanted advances and related insults from another student. See Tinker, 393 U.S. at 508, 89 S.Ct. at 737. He sent her dozens of messages throughout the night making lewd references to her body, and he continued to send unwanted messages over a period of days. His persistent misconduct ignored Jane's repeated pleas that he stop contacting her, Deputy Rush's recommendation that he not contact her, and Dean Sarrubbo's order that he not contact her. As Vice President of Student Affairs Romano explained, the worst aspect of Koeppel's misbehavior was not the quantity of it but the fact that instead of controlling his impulses Koeppel continued to harass Jane, knowing that it was unwelcome and despite being told to leave her alone. He wouldn't leave her alone.\nDean Sarrubbo testified that Jane appeared upset at their meetings and that she was concerned about attending school during the fall term because she was scheduled to be in class with Koeppel. Given Koeppel's persistent harassment as well as the understandable (and intended) anxiety it caused Jane, Valencia reasonably concluded that his conduct invaded her rights. See id. at 512-13, 89 S.Ct. at 740 ; Hill v. Colorado, 530 U.S. 703, 718, 120 S.Ct. 2480, 2490, 147 L.Ed.2d 597 (2000) (\"None of our decisions has minimized the enduring importance of a right to be free from persistent importunity, following and dogging after an offer to communicate has been declined.\"). Because Koeppel's conduct interfered with Jane's rights, Valencia was free to regulate it under Tinker without impinging on Koeppel's First Amendment rights. We need not decide whether Koeppel's conduct also caused a \"material and substantial interfere[nce]\" with the school's programs or mission. Tinker, 393 U.S. at 511, 89 S.Ct. at 739.\nKoeppel's misconduct occurred while he was enrolled at Valencia, although it was during the break between summer and fall classes. He and Jane were scheduled to be in the same class that fall. Still, he protests that the school was powerless to do anything about his misbehavior because he did it all while he was off campus. But Tinker teaches that \"conduct by the student, in class or out of it\" that results in the \"invasion of the rights of others is, of course, not immunized by the constitutional guarantee of freedom of speech.\" Id. at 513, 89 S.Ct. at 740 (emphasis added). We agree with the Fifth Circuit that \"[t]he pervasive and omnipresent nature of the Internet has obfuscated the on-campus/off-campus distinction ... making any effort to trace First Amendment boundaries along the physical boundaries of a school campus a recipe for serious problems in our public schools.\" Bell v. Itawamba Cty. Sch. Bd., 799 F.3d 379, 391, 395-96 (5th Cir. 2015) (en banc) (quotation marks and alterations omitted); cf. Doninger v. Niehoff, 527 F.3d 41, 48 (2d Cir. 2008) (\"[A] student may be disciplined for expressive conduct, even conduct occurring off school grounds, when this conduct would foreseeably create a risk of substantial disruption within the school environment ... [and] might also reach campus.\"). There is no absolute bar against schools disciplining a student for off-campus conduct that violates the rights of another student.\nWe need not decide how far Tinker's\"in class or out of it\" language extends. See Bell, 799 F.3d at 396 (\"[I]n holding Tinker applies to off-campus speech in this instance ... we decline[ ] to adopt any rigid standard.\"). It is enough to hold, as we do, that Tinker does not foreclose a school from regulating all off-campus conduct. And under the facts of this case, Valencia could constitutionally regulate Koeppel's conduct, expressive though it was, which invaded the rights of another student.\nB. Koeppel's Claim That Valencia's Policies Are Unconstitutionally Overbroad And Vague\nKoeppel also attacks the provisions in Valencia's Code of Conduct about physical abuse, sexual harassment, stalking, and disorderly or lewd conduct. He claims that they are unconstitutionally overbroad and vague on their face and that they are vague as applied to him. The Code of Conduct lists 27 categories of prohibited conduct and provides that a violation of any of them can support any sanction, including suspension. The independent nature of each provision serves to make them severable. See Brockett v. Spokane Arcades, Inc., 472 U.S. 491, 502, 105 S.Ct. 2794, 2801, 86 L.Ed.2d 394 (1985) (stating \"the elementary principle that the same statute may be in part constitutional and in part unconstitutional, and that if the parts are wholly independent of each other, that which is constitutional may stand\") (quotation marks omitted).\nAs a result, Koeppel's facial challenge cannot succeed unless all four of the provisions he was found to have violated are overbroad or vague. His attorney conceded that at oral argument, and we agree. See Crowe v. Coleman, 113 F.3d 1536, 1542 (11th Cir. 1997) (\"That concessions and admissions of counsel at oral argument in appellate courts can count against them is doubtlessly true.\"). So long as one of those four provisions can withstand the facial attack, it is not necessary to decide if the other three can as well. See Church of Scientology Flag Serv. Org., Inc. v. City of Clearwater, 777 F.2d 598, 604 (11th Cir. 1985) (recognizing a \"long-standing policy of refusing to decide constitutional issues unless strictly necessary\").\nWe can begin and end our analysis with Valencia's stalking provision. That provision, at the time this case arose, defined \"stalking\" as: \"Stalking behavior in which an individual willfully, maliciously, and repeatedly engages in a knowing course of conduct directed at a specific person which reasonably and seriously alarms, torments, or terrorizes the person, and which serves no legitimate purpose.\" Koeppel argues that this provision is overbroad and vague on its face because the words \"alarms, torments, or terrorizes\" are entirely subjective and set the threshold of harm too low. We address overbreadth first.\n1. The Overbreadth Claim\nA plaintiff mounting a facial attack must usually prove \"that no set of circumstances exists under which the [statute] would be valid.\" United States v. Salerno, 481 U.S. 739, 745, 107 S.Ct. 2095, 2100, 95 L.Ed.2d 697 (1987). Overbreadth is an exception to that rule. Id. It is an exception because of the concern that \"the very existence of some statutes may cause persons not before the Court to refrain from engaging in constitutionally protected speech.\" Young v. Am. Mini Theatres, Inc., 427 U.S. 50, 60, 96 S.Ct. 2440, 2447, 49 L.Ed.2d 310 (1976).\nIn a facial overbreadth challenge the plaintiff must show that the statute \"punishes a substantial amount of protected free speech, judged in relation to the statute's plainly legitimate sweep.\" Fla. Ass'n of Prof'l Lobbyists, Inc. v. Fla. Office of Legislative Servs., 525 F.3d 1073, 1079 (11th Cir. 2008) (emphasis added) (quotation marks omitted). \"Substantial overbreadth\" is not a precisely defined term. Still, we know it requires \"a realistic danger that the statute itself will significantly compromise recognized First Amendment protections of parties not before the Court for it to be facially challenged on overbreadth grounds.\" Members of the City Council v. Taxpayers for Vincent, 466 U.S. 789, 801, 104 S.Ct. 2118, 2126, 80 L.Ed.2d 772 (1984). And the party claiming overbreadth \"bears the burden of demonstrating, from the text of the law and from actual fact, that substantial overbreadth exists.\" Virginia v. Hicks, 539 U.S. 113, 122, 123 S.Ct. 2191, 2198, 156 L.Ed.2d 148 (2003) (quotation marks and alterations omitted). That is not easy to do.\nAnd Koeppel has not done it. The stalking provision, when read as a whole, covers conduct that Tinker allows schools to regulate. It does not prohibit all conduct that \"alarms, torments, or terrorizes\" someone else. Only that which is also \"willful[ ], malicious[ ], and repeated[ ]\"; and \"directed at a specific person\"; and that \"serves no legitimate purpose.\" Although the stalking provision refers to the victim's reaction, it requires that the reaction be both \"reasonabl[e] and serious[ ],\" which goes beyond a purely subjective or only minimal threshold of harm. Prohibiting stalking conduct, however expressive it is, that meets all of those requirements does not punish a substantial amount of protected free speech, judged in relation to the statute's plainly legitimate sweep. See Tinker, 393 U.S. at 509, 89 S.Ct. at 738. It cannot be said \"from the text of [the policy] and from actual fact, that substantial overbreadth exists.\" Hicks, 539 U.S. at 122, 123 S.Ct. at 2198 (quotation marks omitted). For that reason, the stalking provision is not unconstitutionally overbroad. We turn next to whether it is unconstitutionally vague.\n2. The Vagueness Claim\nKoeppel contends that the stalking provision is unconstitutionally vague on its face. \"[A] plaintiff whose speech is clearly proscribed cannot raise a successful vagueness claim ....\" Holder v. Humanitarian Law Project, 561 U.S. 1, 20, 130 S.Ct. 2705, 2719, 177 L.Ed.2d 355 (2010) ; accord Expressions Hair Design v. Schneiderman, --- U.S. ----, 137 S.Ct. 1144, 1151-52, 197 L.Ed.2d 442 (2017). Koeppel's conduct was \"clearly proscribed\" under the stalking provision. He admits that he sent Jane a series of inappropriate messages and pictures hoping to \"hurt[ ] her feelings\" and that he continued doing so after she asked him to stop, Deputy Rush recommended that he stop, and Dean Sarrubbo ordered him to stop. That admission shows that his conduct was willful, malicious, and repeated; directed toward Jane; and served \"no legitimate purpose,\" which is conduct that is clearly proscribed by the policy. Any objectively reasonable person would have known that Jane was \"reasonably and seriously alarm[ed], torment[ed], or terrorize[d]\" by Koeppel's conduct because she repeatedly implored Koeppel to stop contacting her and reported Koeppel's conduct to the police and the school. Yet he continued.\nBecause Koeppel's conduct was \"clearly proscribed\" by the stalking provision, his facial vagueness challenge fails. See Village of Hoffman Estates v. Flipside, Hoffman Estates, Inc., 455 U.S. 489, 495, 102 S.Ct. 1186, 1191, 71 L.Ed.2d 362 (1982). For the same reason, to the extent he pursues an as applied challenge, it fails too.\nThe stalking provision is not facially overbroad, nor is it facially vague or vague as applied to his conduct. We need not and do not address the constitutionality of any of the other provisions that were in place when Koeppel was disciplined.\nC. Koeppel's Due Process Claims\nKoeppel contends that the district court erred by granting summary judgment on his claim that the process Valencia applied to him and the discipline he received violated his procedural and substantive due process rights.\n1. The Procedural Due Process Claim\nIn the school disciplinary setting, procedural due process requires that colleges give students notice and a hearing before suspending or expelling them. See Nash v. Auburn Univ., 812 F.2d 655, 660-61 (11th Cir. 1987) (discussing the type of hearing and notice required when a public college suspended two students for academic dishonesty); Dixon v. Ala. State Bd. of Educ., 294 F.2d 150, 158 (5th Cir. 1961) (\"[D]ue process requires notice and some opportunity for hearing before a student at a tax-supported college is expelled for misconduct.\"). \"The adequacy of the notice and the nature of the hearing\" required depend on the facts of the case and the \"practical requirements of the circumstances.\" Nash, 812 F.2d at 660.\nKoeppel attacks the adequacy of his disciplinary hearing, arguing that he was denied due process because the committee assumed that Jane was telling the truth in her unsworn complaint, denied him the opportunity to cross examine her, and applied the wrong standard of proof. Valencia responds that Koeppel cannot allege a procedural due process violation because he has not pursued available state remedies. Whatever doubts we may have about the adequacy of Valencia's procedures, we agree that because Koeppel failed to take advantage of available state remedies, he cannot show that he was denied procedural due process.\nIn our McKinney decision we held that \"a procedural due process violation is not complete unless and until the State fails to provide due process.\" McKinney v. Pate, 20 F.3d 1550, 1557 (11th Cir. 1994) (quotations marks omitted). \"[O]nly when the state refuses to provide a process sufficient to remedy the procedural deprivation does a constitutional violation actionable under section 1983 arise.\" Id.; see also Zinermon v. Burch, 494 U.S. 113, 125-26, 110 S.Ct. 975, 983, 108 L.Ed.2d 100 (1990) (explaining that \"the existence of state remedies is relevant\" in a \u00a7 1983 action \"brought for a violation of procedural due process\" because in those cases the \"constitutional violation ... is not complete unless and until the State fails to provide due process\"). And in Watts we relied on McKinney to hold that a graduate student who was dropped from a required course after being removed from a practicum position could not raise a procedural due process claim because \"several Florida Administrative Code sections and state court decisions indicat[ed] that [the student] could seek relief for his procedural deprivations in state court.\" Watts v. Fla. Int'l Univ., 495 F.3d 1289, 1294 (11th Cir. 2007).\nKoeppel argues that Watts does not preclude his federal procedural due process claim because that decision relied on remedies which were available under the Florida Administrative Procedure Act. That Act no longer provides appellate review in the state courts of a decision by a Florida university because state universities are no longer treated as administrative agencies and now derive their authority directly from the Florida Constitution. See Fla. Const., art. IX, \u00a7 7 (c), (d) (stating that each state university will be operated by a board of trustees under powers granted by the board of governors and that the state board of governors shall \"operate, regulate, control and be fully responsible for the management of the whole university system\"); Decker v. Univ. of W. Fla., 85 So.3d 571, 573 (Fla. 1st DCA 2012) (\"[W]hen an officer or agency is exercising power derived from the constitution, the resulting decision is not one that is made by an agency as defined in the Administrative Procedure Act.\").\nKoeppel is correct about the authority of Florida universities now flowing directly from the Florida Constitution. But he is incorrect about the change meaning that the State of Florida no longer provides any avenue for relief from due process deprivations by its universities. Because Koeppel could have sought review as a matter of right through a state certiorari proceeding, see Decker, 85 So.3d at 574 (concluding that appellate review of a university's disciplinary decision was \"a matter of right\" and that \"certiorari [wa]s the proper remedy\"), the State provides an adequate remedy for Koeppel's alleged procedural deprivation, see Cotton v. Jackson, 216 F.3d 1328, 1331 (11th Cir. 2000) (\"[T]he state must have the opportunity to remedy the procedural failings of its subdivisions and agencies in the appropriate fora - agencies, review boards, and state courts [-] before being subjected to a claim alleging a procedural due process violation.\") (quotation marks omitted); id. (noting that \"certiorari [to the state courts] is generally an adequate state remedy\" for procedural due process purposes).\nBecause Florida provides an adequate remedy, the district court did not err by granting summary judgment in favor of Valencia on Koeppel's procedural due process claim.\n2. The Substantive Due Process Claim\nKoeppel contends that he was deprived of substantive due process because he had a constitutionally protected right to continued enrollment at Valencia, and that right was violated when the school acted in an arbitrary and capricious manner during his disciplinary proceedings. But students at a public university do not have a fundamental right to continued enrollment. See Plyler v. Doe, 457 U.S. 202, 221, 102 S.Ct. 2382, 2396, 72 L.Ed.2d 786 (1982) (\"Public education is not a 'right' granted to individuals by the Constitution.\"); see also C.B. ex rel. Breeding v. Driscoll, 82 F.3d 383, 387 (11th Cir. 1996) (\"The right to attend a public school is a state-created, rather than a fundamental, right for the purposes of substantive due process.\"); McKinney, 20 F.3d at 1556 (\"[A]reas in which substantive rights are created only by state law ... are not subject to substantive due process protection under the Due Process Clause because substantive due process rights are created only by the Constitution.\") (quotation marks omitted). The district court did not err by granting summary judgment to Valencia on Koeppel's substantive due process claim.\nD. Koeppel's Title IX Claim\nFinally, Koeppel contends that the district court erred by granting summary judgment against him on his Title IX claim. Title IX states: \"No person in the United States shall, on the basis of sex, be excluded from participation in, be denied the benefits of, or be subjected to discrimination under any education program or activity receiving Federal financial assistance ....\" 20 U.S.C. \u00a7 1681(a). There is some support for the proposition that Title IX's prohibition applies to school disciplinary proceedings when gender bias is a motivating factor in the decision to discipline. See Yusuf v. Vassar Coll., 35 F.3d 709, 715 (2d Cir. 1994) (\"Title IX bars the imposition of university discipline where gender is a motivating factor in the decision to discipline.\"); see also Doe v. Miami Univ., 882 F.3d 579, 589 (6th Cir. 2018) ; Plummer v. Univ. of Hous., 860 F.3d 767, 777-78 (5th Cir. 2017) ; Doe v. Columbia Univ., 831 F.3d 46, 53 (2d Cir. 2016). Neither the Supreme Court nor this Court has established a framework for analyzing Title IX challenges to university disciplinary proceedings. But we will assume for present purposes that a student can show a violation of Title IX by satisfying the \"erroneous outcome\" test applied by the Second Circuit in Yusuf. See 35 F.3d at 714-16 ; see also Miami Univ., 882 F.3d at 589, 592-94 ; Plummer, 860 F.3d at 777-78. Under that test, a student must show both that he was \"innocent and wrongly found to have committed an offense\" and that there is \"a causal connection between the flawed outcome and gender bias.\" Yusuf, 35 F.3d at 715.\nKoeppel contends that the outcome of his disciplinary proceeding was erroneous because Valencia could not regulate off-campus conduct, his conduct was protected by the First Amendment, and his conduct did not meet the definition of any of the violations for which he was punished. As our previous discussion makes clear, all three of those arguments underlying his contention fail. Koeppel points to no \"facts sufficient to cast some articulable doubt on the accuracy of the outcome of the disciplinary proceeding.\" Id.; see also id. (\"If no such doubt exists based on the record before the disciplinary tribunal, the claim must fail.\"). He admitted the underlying conduct. That conduct met the school's definition of stalking. Stalking was punishable by suspension under the Code of Conduct. It's as simple as that.\nBecause Koeppel has not shown that there is a genuine issue about the correctness of the outcome of his disciplinary proceeding, his Title IX claim fails, and we need not decide whether there is a causal connection between the outcome of the proceeding and gender bias. The district court did not err by granting summary judgment to Valencia on Koeppel's Title IX claim.\nIV. CONCLUSION\nThe district court did not err by granting summary judgment in favor of Valencia on all of Koeppel's claims.\nAFFIRMED.\nIn our quotations from Koeppel's and Jane's messages, all punctuation, including ellipses, appears in the original messages. The bracketed parts we have added for clarity.\nIt's unclear from the record whether the man was Jane's boyfriend, her ex-husband, her son's father, or some combination of the three. For consistency and ease of reference -- and because it doesn't matter anyway -- we will refer to him as her boyfriend.\nKoeppel asserts that the messages were all sent during a 17-minute span. Although he sent the bulk of the lewd messages from 10:57 p.m. to 11:18 p.m., Koeppel admits that he sent the first of those messages to Jane around 10:00 p.m. on August 3 and the last of them around 5:00 a.m. on August 4.\nAt the time, Valencia's procedure provided that a student who reported a potential violation of the Code of Conduct was sent to the campus safety and security office to complete a witness statement. That office would create an incident report and forward it to Dean Sarrubbo.\nWhat the parties have consistently referred to as Jane's \"complaint\" is actually her witness statement in the nature of a complaint. To avoid confusion, we will also call it a complaint.\nHe also named the college as a defendant, but it was dismissed on sovereign immunity grounds.\nBefore summary judgment was granted, Koeppel argued that under Federal Rule of Civil Procedure 56(d) it would be premature to do so because he had not had \"an adequate opportunity to obtain discovery.\" The district court then allowed him to depose Dean Sarrubbo and Deputy Rush. Based on those depositions Koeppel sought leave to file an additional 10-page memorandum of law in opposition to Valencia's motion for summary judgment. The district court denied his motion, stating that it did \"not require the benefit of additional papers.\"\nKoeppel argues that the district court abused its discretion by denying what he describes as his motion to supplement. But the full transcript of both of those depositions and other evidence collected during discovery entered the record through later motions, including Koeppel's own motion for partial summary judgment. And we consider the entire record, including evidence that came into it later, when we are reviewing the district court's conclusions de novo. There was no abuse of discretion.\nKoeppel contends that the district court erred by considering some of the evidence that the committee relied on to reach its conclusion that Koeppel had violated the Code of Conduct. He argues that certain evidence is inadmissible hearsay: the statements in Jane's complaint; testimony by Dean Sarrubbo about what Jane had told him; testimony by Deputy Rush that Jane was scared of Koeppel; images of the text messages between them that Jane had given Sarrubbo; and Sarrubbo's log. We disagree.\nThe district court did not abuse its discretion by citing the statements in Jane's complaint or considering her statements to Sarrubbo because both were admissible as evidence of what the committee and Sarrubbo considered in reaching their decision. See United States v. Rivera, 780 F.3d 1084, 1092 (11th Cir. 2015) (holding that out-of-court statements offered \"only to show their effect on the listener\" were not hearsay because they \"were not offered for the truth of the matters asserted\").\nAnd Jane's statement to Deputy Rush that she was fearful was admissible as evidence of Jane's then existing mental or emotional condition. See Fed. R. Evid. 803(3). As for the text messages she gave to Sarrubbo, all of Koeppel's messages to her were admissible as statements by a party opponent. See Fed. R. Evid. 801(d)(2). And her messages to Koeppel were admissible to show that she had repeatedly asked him to stop. See Rivera, 780 F.3d at 1092. Finally, Sarrubbo's log is a record of a regularly conducted activity, see Fed. R. Evid. 803(6), and the statements in it are admissible as evidence of what the committee considered in reaching its decision, see Rivera, 780 F.3d at 1092.\nValencia argues that Koeppel's overbreadth challenges became moot in 2015 when Valencia updated many of its policies, including its definition of stalking. We disagree. An amendment might moot a claim for prospective relief by a current student, but it can have no bearing on whether Koeppel, a former student who seeks damages, was punished under an unconstitutional policy. For that determination, we must focus on the provisions that Valencia enforced in 2014. See Genesis Healthcare Corp. v. Symczyk, 569 U.S. 66, 77, 133 S.Ct. 1523, 1531, 185 L.Ed.2d 636 (2013) (\"Unlike claims for injunctive relief challenging ongoing conduct, a claim for damages cannot evade review; it remains live until it is settled, judicially resolved, or barred by a statute of limitations.\"); Checker Cab Operators, Inc. v. Miami-Dade County, 899 F.3d 908, 915-16 (11th Cir. 2018).\nKoeppel also argues that the Code of Conduct's \"jurisdictional\" provision is vague because it is \"arbitrary and capricious, allowing the school to pick and choose what off-campus conduct it punishes.\" That provision states: \"College jurisdiction regarding discipline is generally limited to conduct of any student or registered student organization that occurs on College premises. However, the College reserves the right to impose discipline based on any student conduct, regardless of location, that may adversely affect the College community.\" Koeppel argues that the provision is unconstitutionally vague on its face and as applied to his conduct. His argument focuses on two clauses: (1) that Valencia \"reserves the right,\" and (2) that conduct must \"adversely affect the College community.\"\nTo begin with, the \"jurisdictional provision\" is not jurisdictional. It does not grant the college authority to discipline students for misconduct, nor does it affect the college's inherent authority to do so. Instead, the provision describes the conduct over which the college may exercise its disciplinary authority.\nAnd neither clause allows for arbitrary enforcement. The two clauses put students on notice that the college may discipline them because of their off campus misconduct (further defined in the 27 grounds for discipline) that adversely affects the college community. And the college community obviously includes other students. Neither clause authorizes or invites application of the Code of Conduct in an arbitrary fashion to off campus or on campus conduct. The fact that Valencia reserved for itself the right to decide when to exercise its authority to discipline students for off campus misconduct that violates the Code is no more unconstitutional than any other type of prosecutorial discretion.\nNow for some dicta. See McDonald's Corp. v. Robertson, 147 F.3d 1301, 1314-15 (11th Cir. 1998) (Carnes, J., concurring specially) (recognizing that \"dicta in our opinions is not binding on anyone for any purpose,\" but noting that it \"has its place and serves some purposes\").\nDean Sarrubbo testified in his deposition that the committee had \"taken as true,\" or assumed to be true, the statements in Jane's complaint and in the resulting incident report. It is not clear whether the committee did that early in the hearing or only after listening to what Koeppel had to say during the hearing. But Sarrubbo also said that he had done the same thing in his investigation subject to Jane's statements being proven false, which they were not.\nWe would have serious doubts about the constitutionality of decision makers in this type of proceeding basing a decision on an assumption about either side telling the truth. The decision should be based on a fact finding, and if it is impossible to determine what the truth is, it should be based on the burden of persuasion. Not on assumptions. Having said that, we recognize that the facts in this case were not actually disputed. Koeppel admitted all the material ones. The committee's recommendation and the Dean's decision were not based on any assumption about who was telling the truth. Which is why this is dicta.\nEwing and Horowitz are not to the contrary because in those cases the Supreme Court \"assumed, without deciding, that federal courts can review an academic decision of a public educational institution under a substantive due process standard.\" Regents of Univ. of Mich. v. Ewing, 474 U.S. 214, 222-23, 106 S.Ct. 507, 511-12, 88 L.Ed.2d 523 (1985) ; Bd. of Curators of Univ. of Mo. v. Horowitz, 435 U.S. 78, 91-92, 98 S.Ct. 948, 956, 55 L.Ed.2d 124 (1978).\nYusuf also suggested that a student could prove a Title IX violation by showing that the university selectively enforces its policy. 35 F.3d at 715. Because there is no allegation of selective enforcement in this case, we make no comment (and indulge no assumption) about that part of the Second Circuit's decision.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Kimberly C. Lau, Bradley Silverman, Warshaw Burstein, LLP, New York, NY, Connis O. Brown, III, Seth Peter Robert, Brown Robert, LLP, Fort Lauderdale, FL, for Plaintiff-Appellant.",
+      "Matthew J. Conigliaro, Carlton Fields Jorden Burt, PA, Tampa, FL, Richard L. Barry, Richard E. Mitchell, GrayRobinson, PA, Orlando, FL, for Defendants-Appellees."
+    ],
+    "corrections": "",
+    "head_matter": "John DOE, Individually, Plaintiff,\nJeffrey Koeppel, Individually, Plaintiff-Appellant,\nv.\nVALENCIA COLLEGE, a Florida public college, Defendant,\nDistrict Board of Trustees of Valencia College, Florida, Joyce C. Romano, In her individual capacity, Joseph M. Sarrubbo, Jr., In his individual capacity, Thomas Decker, In his individual capacity, Sanford Shugart, Defendants-Appellees.\nNo. 17-12562\nUnited States Court of Appeals, Eleventh Circuit.\nSeptember 13, 2018\nKimberly C. Lau, Bradley Silverman, Warshaw Burstein, LLP, New York, NY, Connis O. Brown, III, Seth Peter Robert, Brown Robert, LLP, Fort Lauderdale, FL, for Plaintiff-Appellant.\nMatthew J. Conigliaro, Carlton Fields Jorden Burt, PA, Tampa, FL, Richard L. Barry, Richard E. Mitchell, GrayRobinson, PA, Orlando, FL, for Defendants-Appellees.\nBefore ED CARNES, Chief Judge, MARCUS, and EBEL, Circuit Judges.\nHonorable David Ebel, United States Circuit Judge for the Tenth Circuit, sitting by designation."
+  },
+  "file_name": "1220-01",
+  "first_page_order": 1220,
+  "last_page_order": 1237
+}

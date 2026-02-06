@@ -1,0 +1,879 @@
+{
+  "id": 3677196,
+  "name": "CHAMBER OF COMMERCE OF THE UNITED STATES OF AMERICA et al. v. BROWN, ATTORNEY GENERAL OF CALIFORNIA, et al.",
+  "name_abbreviation": "Chamber of Commerce v. Brown",
+  "decision_date": "2008-06-19",
+  "docket_number": "No. 06-939",
+  "first_page": "60",
+  "last_page": "83",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "554 U.S. 60"
+    },
+    {
+      "type": "parallel",
+      "cite": "171 L. Ed. 2d 264"
+    },
+    {
+      "type": "parallel",
+      "cite": "128 S. Ct. 2408"
+    },
+    {
+      "type": "vendor",
+      "cite": "2008 U.S. LEXIS 5033"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2007-058"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "29 U. S. C. \u00a7 157",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 U. S. C. \u00a7 158",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(a)(1)"
+        },
+        {
+          "page": "(b)"
+        },
+        {
+          "page": "(c)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "49 Stat. 449",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 U. S. C. \u00a7 151",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "225 F. Supp. 2d 1199",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        11426403
+      ],
+      "weight": 2,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "1205"
+        },
+        {
+          "page": "1202-1203"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/225/1199-01"
+      ]
+    },
+    {
+      "cite": "463 F. 3d 1076",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3722824
+      ],
+      "weight": 6,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "1082"
+        },
+        {
+          "page": "1082-1085"
+        },
+        {
+          "page": "1085-1096"
+        },
+        {
+          "page": "1088"
+        },
+        {
+          "page": "1090-1091"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/463/1076-01"
+      ]
+    },
+    {
+      "cite": "552 U. S. 1035",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "year": 2007,
+      "opinion_index": 0
+    },
+    {
+      "cite": "359 U. S. 236",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6164086
+      ],
+      "weight": 2,
+      "year": 1959,
+      "pin_cites": [
+        {
+          "page": "243"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/359/0236-01"
+      ]
+    },
+    {
+      "cite": "475 U. S. 608",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6206122
+      ],
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "613",
+          "parenthetical": "Golden State I"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/475/0608-01"
+      ]
+    },
+    {
+      "cite": "475 U. S. 282",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6201428
+      ],
+      "weight": 6,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "286"
+        },
+        {
+          "page": "614, n. 5"
+        },
+        {
+          "page": "291"
+        },
+        {
+          "page": "289"
+        },
+        {
+          "page": "290",
+          "parenthetical": "Commerce Clause"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/475/0282-01"
+      ]
+    },
+    {
+      "cite": "427 U. S. 132",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6175136
+      ],
+      "weight": 2,
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "140",
+          "parenthetical": "quoting NLRB v. Nash-Finch Co., 404 U. S. 138, 144 (1971)"
+        },
+        {
+          "page": "140, n. 4"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/427/0132-01"
+      ]
+    },
+    {
+      "cite": "404 U. S. 138",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6171427
+      ],
+      "year": 1971,
+      "pin_cites": [
+        {
+          "page": "144"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/404/0138-01"
+      ]
+    },
+    {
+      "cite": "85 Harv. L. Rev. 1337",
+      "category": "journals:journal",
+      "reporter": "Harv. L. Rev.",
+      "year": 1972,
+      "pin_cites": [
+        {
+          "page": "1352"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "507 U. S. 218",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6226179
+      ],
+      "weight": 4,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "227",
+          "parenthetical": "Boston Harbor"
+        },
+        {
+          "page": "229"
+        },
+        {
+          "page": "232"
+        },
+        {
+          "page": "226"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/507/0218-01"
+      ]
+    },
+    {
+      "cite": "314 U. S. 469",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6140777
+      ],
+      "year": 1945,
+      "pin_cites": [
+        {
+          "page": "477"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/314/0469-01"
+      ]
+    },
+    {
+      "cite": "323 U. S. 516",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1229915
+      ],
+      "year": 1945,
+      "pin_cites": [
+        {
+          "page": "537-538"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/323/0516-01"
+      ]
+    },
+    {
+      "cite": "61 Stat. 136",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "395 U. S. 575",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1772169
+      ],
+      "weight": 3,
+      "year": 1969,
+      "pin_cites": [
+        {
+          "page": "617"
+        },
+        {
+          "page": "618"
+        },
+        {
+          "page": "617"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/395/0575-01"
+      ]
+    },
+    {
+      "cite": "383 U. S. 53",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6167192
+      ],
+      "weight": 2,
+      "year": 1966,
+      "pin_cites": [
+        {
+          "page": "62"
+        },
+        {
+          "page": "67",
+          "parenthetical": "First Amendment"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/383/0053-01"
+      ]
+    },
+    {
+      "cite": "418 U. S. 264",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6172714
+      ],
+      "weight": 2,
+      "year": 1974,
+      "pin_cites": [
+        {
+          "page": "272-273"
+        },
+        {
+          "page": "275"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/418/0264-01"
+      ]
+    },
+    {
+      "cite": "512 U. S. 107",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        39425
+      ],
+      "weight": 5,
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "117, n. 11"
+        },
+        {
+          "page": "119",
+          "parenthetical": "\"Pre-emption analysis . . . turns on the actual content of [the State's] policy and its real effect on federal rights\""
+        },
+        {
+          "page": "116"
+        },
+        {
+          "page": "120"
+        },
+        {
+          "page": "120",
+          "parenthetical": "distinguishing standards applicable to the Equal Protection and Due Process Clauses"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/512/0107-01"
+      ]
+    },
+    {
+      "cite": "493 U. S. 103",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11330063
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "110",
+          "parenthetical": "Golden State II"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/493/0103-01"
+      ]
+    },
+    {
+      "cite": "440 U. S. 519",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6186183
+      ],
+      "weight": 7,
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "552",
+          "parenthetical": "Powell, J., dissenting"
+        },
+        {
+          "page": "546",
+          "parenthetical": "plurality opinion"
+        },
+        {
+          "page": "531"
+        },
+        {
+          "page": "544"
+        },
+        {
+          "page": "547",
+          "parenthetical": "Brennan, J., concurring in result"
+        },
+        {
+          "page": "549",
+          "parenthetical": "Blackmun, J., concurring in judgment"
+        },
+        {
+          "page": "539-540, n. 32"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/440/0519-01"
+      ]
+    },
+    {
+      "cite": "436 U. S. 180",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1490556
+      ],
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "188, n. 12"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/436/0180-01"
+      ]
+    },
+    {
+      "cite": "500 U. S. 173",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6220676
+      ],
+      "weight": 2,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "194"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/500/0173-01"
+      ]
+    },
+    {
+      "cite": "461 U. S. 540",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11298910
+      ],
+      "year": 1983,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/461/0540-01"
+      ]
+    },
+    {
+      "cite": "468 U. S. 491",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11339101
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "501"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/468/0491-01"
+      ]
+    },
+    {
+      "cite": "117 N. L. R. B. 545",
+      "category": "reporters:federal",
+      "reporter": "N.L.R.B.",
+      "year": 1957,
+      "pin_cites": [
+        {
+          "page": "547-548",
+          "parenthetical": "barring employer interviews with employees in their homes immediately before an election"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "107 N. L. R. B. 427",
+      "category": "reporters:federal",
+      "reporter": "N.L.R.B.",
+      "year": 1953,
+      "pin_cites": [
+        {
+          "page": "429",
+          "parenthetical": "barring employers and unions alike from making election speeches on company time to massed assemblies of employees within the 24-hour period before an election"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 U. S. C. \u00a7 159",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "471 U. S. 724",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6208156
+      ],
+      "weight": 3,
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "751"
+        },
+        {
+          "page": "753"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/471/0724-01"
+      ]
+    },
+    {
+      "cite": "29 U. S. C. \u00a7 2931",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(b)(7)",
+          "parenthetical": "\"Each recipient of funds under [the Workforce Investment Act of 1998] shall provide to the Secretary assurances that none of such funds will be used to assist, promote, or deter union organizing\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 U. S. C. \u00a7 9839",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(e)",
+          "parenthetical": "\"Funds appropriated to carry out [the Head Start Programs Act] shall not be used to assist, promote, or deter union organizing\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "225 F. Supp. 2d 1199",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        11426403
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "1204"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f-supp-2d/225/1199-01"
+      ]
+    },
+    {
+      "cite": "359 U. S. 236",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6164086
+      ],
+      "year": 1959,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/359/0236-01"
+      ]
+    },
+    {
+      "cite": "475 U. S. 282",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6201428
+      ],
+      "weight": 3,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "286",
+          "parenthetical": "summarizing the pre-emption principle set forth in San Diego Building Trades Council v. Garmon, 359 U. S. 236 (1959); emphasis added"
+        },
+        {
+          "page": "291"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/475/0282-01"
+      ]
+    },
+    {
+      "cite": "427 U. S. 132",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6175136
+      ],
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "140",
+          "parenthetical": "internal quotation marks omitted; emphasis added"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/427/0132-01"
+      ]
+    },
+    {
+      "cite": "507 U. S. 218",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6226179
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "228",
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/507/0218-01"
+      ]
+    },
+    {
+      "cite": "383 U. S. 53",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6167192
+      ],
+      "weight": 2,
+      "year": 1966,
+      "pin_cites": [
+        {
+          "page": "62"
+        },
+        {
+          "page": "62"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/383/0053-01"
+      ]
+    },
+    {
+      "cite": "461 U. S. 540",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11298910
+      ],
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "549",
+          "parenthetical": "\"We have held in several contexts that a legislature's decision not to subsidize the exercise of a fundamental right does not infringe the right\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/461/0540-01"
+      ]
+    },
+    {
+      "cite": "29 U. S. C. \u00a7 2931",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(b)(7)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "42 U. S. C. \u00a7 9839",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(e)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "42 U. S. C. \u00a7 12634",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(b)(1)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "485 U. S. 360",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        13296
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "368"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/485/0360-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1718,
+    "char_count": 43999,
+    "ocr_confidence": 0.674,
+    "pagerank": {
+      "raw": 4.109510253108405e-07,
+      "percentile": 0.9100101975057233
+    },
+    "sha256": "3f977543416582067fe742ef011a4fa9d5170bbc1d75fb218fd7593e1dd8f2e8",
+    "simhash": "1:1fbdaa920b6f03cb",
+    "word_count": 7021
+  },
+  "last_updated": "2024-02-27T21:04:33.804781+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "CHAMBER OF COMMERCE OF THE UNITED STATES OF AMERICA et al. v. BROWN, ATTORNEY GENERAL OF CALIFORNIA, et al."
+    ],
+    "opinions": [
+      {
+        "text": "Justice Stevens\ndelivered the opinion of the Court.\nA California statute known as \u201cAssembly Bill 1889\u201d (AB 1889) prohibits several classes of employers that receive state funds from using the funds \u201cto assist, promote, or deter union organizing.\u201d See Cal. Govt. Code Ann. \u00a7\u00a7 16645-16649 (West Supp. 2008). The question presented to us is whether two of its provisions\u2014\u00a7 16645.2, applicable to grant recipients, and \u00a7 16645.7, applicable to private employers receiving more than $10,000 in program funds in any year\u2014 are pre-empted by federal law mandating that certain zones of labor activity be unregulated.\nI\nAs set forth in the preamble, the State of California enacted AB 1889 for the following purpose:\n\u201cIt is the policy of the state not to interfere with an employee\u2019s choice about whether to join or to be represented by a labor union. For this reason, the state should not subsidize efforts by an employer to assist, promote, or deter union organizing. It is the intent of the Legislature in enacting this act to prohibit an employer from using state funds and facilities for the purpose of influencing employees to support or oppose unionization and to prohibit an employer from seeking to influence employees to support or oppose unionization while those employees are performing work on a state contract.\u201d 2000 Cal. Stats, ch. 872, \u00a7 1.\nAB 1889 prohibits certain employers that receive state funds \u2014 whether by reimbursement, grant, contract, use of state property, or pursuant to a state program \u2014 from using such funds to \u201cassist, promote, or deter union organizing.\u201d See Cal. Govt. Code Ann. \u00a7\u00a7 16645.1 to 16645.7. This prohibition encompasses \u201cany attempt by an employer to influence the decision of its employees\u201d regarding \u201c[w]hether to support or oppose a labor organization\u201d and \u201c[w]hether to become a member of any labor organization.\u201d \u00a7 16645(a). The statute specifies that the spending restriction applies to \u201cany expense, including legal and consulting fees and salaries of supervisors and employees, incurred for . . . an activity to assist, promote, or deter union organizing.\u201d \u00a7 16646(a).\nDespite the neutral statement of policy quoted above, AB 1889 expressly exempts \u201cactivities] performed\u201d or \u201cexpense[s] incurred\u201d in connection with certain undertakings that promote unionization, including \u201c[a]llowing a labor organization or its representatives access to the employer\u2019s facilities or property,\u201d and \u201cNegotiating, entering into, or carrying out a voluntary recognition agreement with a labor organization.\u201d \u00a7\u00a7 16647(b), (d).\nTo ensure compliance with the grant and program restrictions at issue in this case, AB 1889 establishes a formidable enforcement scheme. Covered employers must certify that no state funds will be used for prohibited expenditures; the employer must also maintain and provide upon request \u201crecords sufficient to show that no state funds were used for those expenditures.\u201d \u00a7\u00a7 16645.2(c), 16645.7(b)-(c). If an employer commingles state and other funds, the statute presumes that any expenditures to assist, promote, or deter union organizing derive in part from state funds on a pro rata basis. \u00a7 16646(b). Violators are liable to the State for the amount of funds used for prohibited purposes plus a civil penalty equal to twice the amount of those funds. \u00a7\u00a7 16645.2(d), 16645.7(d). Suspected violators may be sued by the state attorney general or any private taxpayer, and prevailing plaintiffs are \u201centitled to recover reasonable attorney\u2019s fees and costs.\u201d \u00a7 16645.8(d).\nII\nIn April 2002, several organizations whose members do business with the State of California (collectively, Chamber of Commerce) brought this action against the California Department of Health Services and appropriate state officials (collectively, the State) to enjoin enforcement of AB 1889. Two labor unions (collectively, AFL-CIO) intervened to defend the statute\u2019s validity.\nThe District Court granted partial summary judgment in favor of the Chamber of Commerce, holding that the National Labor Relations Act (NLEA or Wagner Act), 49 Stat. 449, as amended, 29 U. S. C. \u00a7 151 et seq., pre-empts Cal. Govt. Code Ann. \u00a7 16645.2 (concerning grants) and \u00a7 16645.7 (concerning program funds) because those provisions \u201cregulat[e] employer speech about union organizing under specified circumstances, even though Congress intended free debate.\u201d Chamber of Commerce v. Lockyer, 225 F. Supp. 2d 1199, 1205 (CD Cal. 2002). The Court of Appeals for the Ninth Circuit, after twice affirming the District Court\u2019s judgment, granted rehearing en banc and reversed. See Chamber of Commerce v. Lockyer, 463 F. 3d 1076, 1082 (2006). While the en banc majority agreed that California enacted \u00a7\u00a7 16645.2 and 16645.7 in its capacity as a regulator, and not as a mere proprietor or market participant, see id., at 1082-1085, it concluded that Congress did not intend to preclude States from imposing such restrictions on the use of their own funds, see id., at 1085-1096. We granted certiorari, 552 U. S. 1035 (2007), and now reverse.\nAlthough the NLRA itself contains no express preemption provision, we have held that Congress implicitly mandated two types of pre-emption as necessary to implement federal labor policy. The first, known as Garmon preemption, see San Diego Building Trades Council v. Garmon, 359 U. S. 236 (1959), \u201cis intended to preclude state interference with the National Labor Relations Board's interpretation and active enforcement of the \u2018integrated scheme of regulation\u2019 established by the NLRA.\u201d Golden State Transit Corp. v. Los Angeles, 475 U. S. 608, 613 (1986) (Golden State I). To this end, Garmon pre-emption forbids States to \u201cregulate activity that the NLRA protects, prohibits, or arguably protects or prohibits.\u201d Wisconsin Dept. of Industry v. Gould Inc., 475 U. S. 282, 286 (1986). The second, known as Machinists pre-emption, forbids both the National Labor Relations Board (NLRB) and States to regulate conduct that Congress intended \u201cbe unregulated because left \u2018to be controlled by the free play of economic forces.\u2019 \u201d Machinists v. Wisconsin Employment Relations Comm\u2019n, 427 U. S. 132, 140 (1976) (quoting NLRB v. Nash-Finch Co., 404 U. S. 138, 144 (1971)). Machinists pre-emption is based on the premise that \u201c \u2018Congress struck a balance of protection, prohibition, and laissez-faire in respect to union organization, collective bargaining, and labor disputes.\u2019\u201d 427 U. S., at 140, n. 4 (quoting Cox, Labor Law Preemption Revisited, 85 Harv. L. Rev. 1337, 1352 (1972)).\nToday we hold that \u00a7\u00a7 16645.2 and 16645.7 are pre-empted under Machinists because they regulate within \u201ca zone protected and reserved for market freedom.\u201d Building & Constr. Trades Council v. Associated Builders & Contractors of Mass./R. I., Inc., 507 U. S. 218, 227 (1993) (Boston Harbor). We do not reach the question whether the provisions would also be pre-empted under Garmon.\nIll\nAs enacted in 1935, the NLRA, which was commonly known as the Wagner Act, did not include any provision that specifically addressed the intersection between employee organizational rights and employer speech rights. See 49 Stat. 449. Rather, it was left to the NLRB, subject to review in federal court, to reconcile these interests in its construction of \u00a7\u00a7 7 and 8. Section 7, now codified at 29 U. S. C. \u00a7 157, provided that workers have the right to organize, to bargain collectively, and to engage in concerted activity for their mutual aid and protection. Section 8(1), now codified at 29 U. S. C. \u00a7 158(a)(1), made it an \u201cunfair labor practice\u201d for employers to \u201cinterfere with, restrain, or coerce employees in the exercise of the rights guaranteed in section 7.\u201d\nAmong the frequently litigated issues under the Wagner Act were charges that an employer\u2019s attempts to persuade employees not to join a union \u2014 or to join one favored by the employer rather than a rival \u2014 amounted to a form of coercion prohibited by \u00a7 8. The NLRB took the position that \u00a7 8 demanded complete employer neutrality during organizing campaigns, reasoning that any partisan employer speech about unions would interfere with the \u00a77 rights of employees. See 1 J. Higgins, The Developing Labor Law 94 (5th ed. 2006). In 1941, this Court curtailed the NLRB\u2019s aggressive interpretation, clarifying that nothing in the NLRA prohibits an employer \u201cfrom expressing its view on labor policies or problems\u201d unless the employer\u2019s speech \u201cin connection with other circumstances [amounts] to coercion within the meaning of the Act.\u201d NLRB v. Virginia Elec. & Power Co., 314 U. S. 469, 477. We subsequently characterized Virginia Electric as recognizing the First Amendment right of employers to engage in noncoercive speech about unionization. Thomas v. Collins, 323 U. S. 516, 537-538 (1945). Notwithstanding these decisions, the NLRB continued to regulate employer speech too restrictively in the eyes of Congress.\nConcerned that the Wagner Act had pushed the labor relations balance too far in favor of unions, Congress passed the Labor Management Relations Act, 1947 (Taft-Hartley Act). 61 Stat. 136. The Taft-Hartley Act amended \u00a7\u00a7 7 and 8 in several key respects. First, it emphasized that employees \u201chave the right to refrain from any or all\u201d \u00a7 7 activities. 29 U. S. C. \u00a7 157. Second, it added \u00a7 8(b), which prohibits unfair labor practices by unions. 29 U. S. C. \u00a7 158(b). Third, it added \u00a78(c), which protects speech by both unions and employers from regulation by the NLRB. 29 U. S. C. \u00a7 158(c). Specifically, \u00a7 8(c) provides:\n\u201cThe expressing of any views, argument, or opinion, or the dissemination thereof, whether in written, printed, graphic, or visual form, shall not constitute or be evidence of an unfair labor practice under any of the provisions of this subchapter, if such expression contains no threat of reprisal or force or promise of benefit.\u201d\nFrom one vantage, \u00a7 8(c) \u201cmerely implements the First Amendment,\u201d NLRB v. Gissel Packing Co., 395 U. S. 575, 617 (1969), in that it responded to particular constitutional rulings of the NLRB. See S. Rep. No. 80-105, pt. 2, pp. 23-24 (1947). But its enactment also manifested a \u201ccongressional intent to encourage free debate on issues dividing labor and management.\u201d Linn v. Plant Guard Workers, 383 U. S. 53, 62 (1966). It is indicative of how important Congress deemed such \u201cfree debate\u201d that Congress amended the NLRA rather than leaving to the courts the task of correcting the NLRB\u2019s decisions on a case-by-case basis. We have characterized this policy judgment, which suffuses the NLRA as a whole, as \u201cfavoring uninhibited, robust, and wide-open debate in labor disputes,\u201d stressing that \u201cfreewheeling use of the written and spoken word . . . has been expressly fostered by Congress and approved by the NLRB.\u201d Letter Carriers v. Austin, 418 U. S. 264, 272-273 (1974).\nCongress\u2019 express protection of free debate forcefully buttresses the pre-emption analysis in this case. Under Machinists, congressional intent to shield a zone of activity from regulation is usually found only \u201cimplicit[ly] in the structure of the Act,\u201d Livadas v. Bradshaw, 512 U. S. 107, 117, n. 11 (1994), drawing on the notion that \u201c \u2018[w]hat Congress left unregulated is as important as the regulations that it imposed,\u2019\u201d Golden State Transit Corp. v. Los Angeles, 493 U. S. 103, 110 (1989) (Golden State II) (quoting New York Telephone Co. v. New York State Dept. of Labor, 440 U. S. 519, 552 (1979) (Powell, J., dissenting)). In the case of noncoercive speech, however, the protection is both implicit and explicit. Sections 8(a) and 8(b) demonstrate that when Congress has sought to put limits on advocacy for or against union organization, it has expressly set forth the mechanisms for doing so. Moreover, the amendment to \u00a7 7 calls attention to the right of employees to refuse to join unions, which implies an underlying right to receive information opposing unionization. Finally, the addition of \u00a7 8(c) expressly precludes regulation of speech about unionization \u201cso long as the communications do not contain a \u2018threat of reprisal or force or promise of benefit.\u2019 \u201d Gissel Packing, 395 U. S., at 618.\nThe explicit direction from Congress to leave noncoercive speech unregulated makes this case easier, in at least one respect, than previous NLRA cases because it does not require us \u201cto decipher the presumed intent of Congress in the face of that body\u2019s steadfast silence.\u201d Sears, Roebuck & Co. v. Carpenters, 436 U. S. 180, 188, n. 12 (1978). California\u2019s policy judgment that partisan employer speech necessarily \u201cinterfere^] with an employee\u2019s choice about whether to join or to be represented by a labor union,\u201d 2000 Cal. Stats, ch. 872, \u00a7 1, is the same policy judgment that the NLRB advanced under the Wagner Act, and that Congress renounced in the Taft-Hartley Act. To the extent \u00a7\u00a7 16645.2 and 16645.7 actually further the express goal of AB 1889, the provisions are unequivocally pre-empted.\nIV\nThe Court of Appeals concluded that Machinists did not pre-empt \u00a7\u00a7 16645.2 and 16645.7 for three reasons: (1) The spending restrictions apply only to the use of state funds, (2) Congress did not leave the zone of activity free from all regulation, and (3) California modeled AB 1889 on federal statutes. We find none of these arguments persuasive.\nUse of State Funds\nIn NLRA pre-emption cases, \u201c \u2018judicial concern has necessarily focused on the nature of the activities which the States have sought to regulate, rather than on the method of regulation adopted.\u2019\u201d Golden State I, 475 U. S., at 614, n. 5 (quoting Garmon, 359 U. S., at 243; brackets omitted); see also Livadas, 512 U. S., at 119 (\u201cPre-emption analysis . . . turns on the actual content of [the State\u2019s] policy and its real effect on federal rights\u201d). California plainly could not directly regulate noncoercive speech about unionization by means of an express prohibition. It is equally clear that California may not indirectly regulate such conduct by imposing spending restrictions on the use of state funds.\nIn Gould, we held that Wisconsin\u2019s policy of refusing to purchase goods and services from three-time NLRA violators was pre-empted under Garmon because it imposed a \u201csupplemental sanction\u201d that conflicted with the NLRA\u2019s \u201c\u2018integrated scheme of regulation.\u2019\u201d 475 U. S., at 288-289. Wisconsin protested that its debarment statute was \u201can exercise of the State\u2019s spending power rather than its regulatory power,\u201d but we dismissed this as \u201ca distinction without a difference.\u201d Id., at 287. \u201c[T]he point of the statute [was] to deter labor law violations,\u201d and \u201cfor all practical purposes\u201d the spending restriction was \u201ctantamount to regulation.\u201d Id., at 287-289. Wisconsin\u2019s choice \u201cto use its spending power rather than its police power d[id] not significantly lessen the inherent potential for conflict\u201d between the state and federal schemes; hence the statute was pre-empted. Id., at 289.\nWe distinguished Gould in Boston Harbor, holding that the NLRA did not preclude a state agency supervising a construction project from requiring that contractors abide by a labor agreement. We explained that when a State acts as a \u201cmarket participant with no interest in setting policy,\u201d as opposed to a \u201cregulator,\u201d it does not Offend the preemption principles of the NLRA. 507 U. S., at 229. In finding that the state agency had acted as a market participant, we stressed that the challenged action \u201cwas specifically tailored to one particular job,\u201d and aimed \u201cto ensure an efficient project that would be completed as quickly and effectively as possible at the lowest cost.\u201d Id., at 232.\nIt is beyond dispute that California enacted AB 1889 in its capacity as a regulator rather than a market participant. AB 1889 is neither \u201cspecifically tailored to one particular job\u201d nor a \u201clegitimate response to state procurement constraints or to local economic needs.\u201d Gould, 475 U. S., at 291. As the statute\u2019s preamble candidly acknowledges, the legislative purpose is not the efficient procurement of goods and services, but the furtherance of a labor policy. See 2000 Cal. Stats, ch. 872, \u00a7 1. Although a State has a legitimate proprietary interest in ensuring that state funds are spent in accordance with the purposes for which they are appropriated, this is not the objective of AB 1889. In contrast to a neutral affirmative requirement that funds be spent solely for the purposes of the relevant grant or program, AB 1889 imposes a targeted negative restriction on employer speech about unionization. Furthermore, the statute does not even apply this constraint uniformly. Instead of forbidding the use of state funds for all employer advocacy regarding unionization, AB 1889 permits use of state funds for select employer advocacy activities that promote unions. Specifically, the statute exempts expenses incurred in connection with, inter alia, giving unions access to the workplace, and voluntarily recognizing unions without a secret ballot election. \u00a7\u00a7 16647(b), (d).\nThe Court of Appeals held that although California did not act as a market participant in enacting AB 1889, the NLRA did not pre-empt the statute. It purported to distinguish Gould on the theory that AB 1889 does not make employer neutrality a condition for receiving funds, but instead restricts only the use of funds. According to the Court of Appeals, this distinction matters because when a State imposes a \u201cuse\u201d restriction instead of a \u201creceipt\u201d restriction, \u201can employer has and retains the freedom to spend its own funds however it wishes.\u201d 463 F. 3d, at 1088.\nCalifornia\u2019s reliance on a \u201cuse\u201d restriction rather than a \u201creceipt\u201d restriction is, at least in this case, no more consequential than Wisconsin\u2019s reliance on its spending power rather than its police power in Gould. As explained below, AB 1889 couples its \u201cuse\u201d restriction with compliance costs and litigation risks that are calculated to make union-related advocacy prohibitively expensive for employers that receive state funds. By making it exceedingly difficult for employers to demonstrate that they have not used state funds and by imposing punitive sanctions for noncompliance, AB 1889 effectively reaches beyond \u201cthe use of funds over which California maintains a sovereign interest.\u201d Brief for State Respondents 19.\nTurning first to the compliance burdens, AB 1889 requires recipients to \u201cmaintain records sufficient to show that no state funds were used\u201d for prohibited expenditures, \u00a7\u00a7 16645.2(c), 16645.7(c), and conclusively presumes that any expenditure to assist, promote, or deter union organizing made from \u201ccommingled\u201d funds constitutes a violation of the statute, \u00a7 16646(b). Maintaining \u201csufficient\u201d records and ensuring segregation of funds is no small feat, given that AB 1889 expansively defines its prohibition to encompass \u201cany expense\u201d incurred in \u201cany attempt\u201d by an employer to \u201cinfluence the decision of its employees.\u201d \u00a7\u00a7 16645(a), 16646(a). Prohibited expenditures include not only discrete expenses such as legal and consulting fees, but also an allocation of overhead, including \u201csalaries of supervisors and employees,\u201d for any time and resources spent on union-related advocacy. See \u00a7 16646(a). The statute affords no clearly defined safe harbor, save for expenses incurred in connection with activities that either favor unions or are required by federal or state law. See \u00a7 16647.\nThe statute also imposes deterrent litigation risks. Significantly, AB 1889 authorizes not only the California attorney general but also any private taxpayer \u2014 including, of course, a union in a dispute with an employer \u2014 to bring a civil action against suspected violators for \u201cinjunctive relief, damages, civil penalties, and other appropriate equitable relief.\u201d \u00a7 16645.8. Violators are liable to the State for three times the amount of state funds deemed spent on union organizing. \u00a7\u00a7 16645.2(d), 16645.7(d), 16645.8(a). Prevailing plaintiffs, and certain prevailing taxpayer intervenors, are entitled to recover attorney\u2019s fees and costs, \u00a7 16645.8(d), which may well dwarf the treble damages award. Consequently, a trivial violation of the statute could give rise to substantial liability. Finally, even if an employer were confident that it had satisfied the recordkeeping and segregation requirements, it would still bear the costs of defending itself against unions in court, as well as the risk of a mistaken adverse finding by the factfinder.\nIn light of these burdens, California\u2019s reliance on a \u201cuse\u201d restriction rather than a \u201creceipt\u201d restriction \u201cdoes not significantly lessen the inherent potential for conflict\u201d between AB 1889 and the NLRA. Gould, 475 U. S., at 289. AB 1889\u2019s enforcement mechanisms put considerable pressure on an employer either to forgo his \u201cfree speech right to communicate his views to his employees,\u201d Gissel Packing, 395 U. S., at 617, or else to refuse the receipt of any state funds. In so doing, the statute impermissibly \u201cpredicat[es] benefits on refraining from conduct protected by federal labor law,\u201d Liradas, 512 U. S., at 116, and chills one side of \u201cthe robust debate which has been protected under the NLRA,\u201d Letter Carriers, 418 U. S., at 275.\nResisting this conclusion, the State and the AFL-CIO contend that AB 1889 imposes less onerous recordkeeping restrictions on governmental subsidies than do federal restrictions that have been found not to violate the First Amendment. See Rust v. Sullivan, 500 U. S. 173 (1991); Regan v. Taxation With Representation of Wash., 461 U. S. 540 (1983). The question, however, is not whether AB 1889 violates the First Amendment, but whether it \u201c'stands as an obstacle to the accomplishment and execution of the full purposes and objectives\u2019 \u201d of the NLRA. Livadas, 512 U. S., at 120 (quoting Brown v. Hotel Employees, 468 U. S. 491, 501 (1984)). Constitutional standards, while sometimes analogous, are not tailored to address the object of labor preemption analysis: giving effect to Congress\u2019 intent in enacting the Wagner and Taft-Hartley Acts. See Livadas, 512 U. S., at 120 (distinguishing standards applicable to the Equal Protection and Due Process Clauses); Gould, 475 U. S., at 290 (Commerce Clause); Linn, 383 U. S., at 67 (First Amendment). Although a State may \u201cchoos[e] to fund a program dedicated to advance certain permissible goals,\u201d Rust, 500 U. S., at 194, it is not \u201cpermissible\u201d for a State to use its spending power to advance an interest that\u2014even if legitimate \u201cin the absence of the NLRA,\u201d Gould, 475 U. S., at 290\u2014frustrates the comprehensive federal scheme established by that Act.\nNLRB Regulation\nWe have characterized Machinists pre-emption as \u201ccreating] a zone free from all regulations, whether state or federal.\u201d Boston Harbor, 507 U. S., at 226. Stressing that the NLRB has regulated employer speech that takes place on the eve of union elections, the Court of Appeals deemed Machinists inapplicable because \u201cemployer speech in the context of organizing\u201d is not a zone of activity that Congress left free from \u201call regulation.\u201d See 463 F. 3d, at 1089 (citing Peoria Plastic Co., 117 N. L. R. B. 545, 547-548 (1957) (barring employer interviews with employees in their homes immediately before an election); Peerless Plywood Co., 107 N. L. R. B. 427, 429 (1953) (barring employers and unions alike from making election speeches on company time to massed assemblies of employees within the 24-hour period before an election)).\nThe NLRB has policed a narrow zone of speech to ensure free and fair elections under the aegis of \u00a7 9 of the NLRA, 29 U. S. C. \u00a7 159. Whatever the NLRB\u2019s regulatory authority within special settings such as imminent elections, however, Congress has clearly denied it the authority to regulate the broader category of noncoercive speech encompassed by AB 1889. It is equally obvious that the NLRA deprives California of this authority, since \u201c\u2018[t]he States have no more authority than the Board to upset the balance that Congress has struck between labor and management.\u2019 \u201d Metropolitan Life Ins. Co. v. Massachusetts, 471 U. S. 724, 751 (1985).\nFederal Statutes\nFinally, the Court of Appeals reasoned that Congress could not have intended to pre-empt AB 1889 because Congress itself has imposed similar restrictions. See 463 F. 3d, at 1090-1091. Specifically, three federal statutes include provisions that forbid the use of particular grant and program funds \u201cto assist, promote, or deter union organizing.\u201d We are not persuaded that these few isolated restrictions, plucked from the multitude of federal spending programs, were either intended to alter or did in fact alter the \u201c \u2018wider contours of federal labor policy.\u2019\u201d Metropolitan Life, 471 U. S., at 753.\nA federal statute will contract the pre-emptive scope of the NLRA if it demonstrates that \u201cCongress has decided to tolerate a substantial measure of diversity\u201d in the particular regulatory sphere. New York Telephone, 440 U. S., at 546 (plurality opinion). In New York Telephone, an employer challenged a state unemployment system that provided benefits to employees absent from work during lengthy strikes. The employer argued that the state system conflicted with the federal labor policy \u201cof allowing the free play of economic forces to operate during the bargaining process.\u201d Id., at 531. We upheld the statute on the basis that the legislative histories of the NLRA and the Social Security Act, which were enacted within six weeks of each other, confirmed that \u201cCongress intended that the States be free to authorize, or to prohibit, such payments.\u201d Id., at 544; see also id., at 547 (Brennan, J., concurring in result); id., at 549 (Blackmun, J., concurring in judgment). Indeed, the tension between the Social Security Act and the NLRA suggested that the case could \u201cbe viewed as presenting a potential conflict between two federal statutes . . . rather than between federal and state regulatory statutes.\u201d Id., at 539-540, n. 32.\nThe three federal statutes relied on by the Court of Appeals neither conflict with the NLRA nor otherwise establish that Congress \u201cdecided to tolerate a substantial measure of diversity\u201d in the regulation of employer speech. Unlike the States, Congress has the authority to create tailored exceptions to otherwise applicable federal policies, and (also unlike the States) it can do so in a manner that preserves national uniformity without opening the door to a 50-state patchwork of inconsistent labor policies. Consequently, the mere fact that Congress has imposed targeted federal restrictions on union-related advocacy in certain limited contexts does not invite the States to override federal labor policy in other settings.\nHad Congress enacted a federal version of AB 1889 that applied analogous spending restrictions to all federal grants or expenditures, the pre-emption question would be closer. Cf. Metropolitan Life, 471 U. S., at 755 (citing federal minimum labor standards as evidence that Congress did not intend to pre-empt state minimum labor standards). But none of the cited statutes is Governmentwide in scope, none contains comparable remedial provisions, and none contains express pro-union exemptions.\nThe Court of Appeals\u2019 judgment reversing the summary judgment entered for the Chamber of Commerce is reversed, and the case is remanded for further proceedings consistent with this opinion.\nIt is so ordered.\nThe District Court held that the Chamber of Commerce lacked standing to challenge several provisions of AB 1889 concerning state contractors and public employers. See Chamber of Commerce v. Lockyer, 225 F. Supp. 2d 1199, 1202-1203 (CD Cal. 2002).\nSee 29 U. S. C. \u00a7 2931(b)(7) (\u201cEach recipient of funds under [the Workforce Investment Act of 1998] shall provide to the Secretary assurances that none of such funds will be used to assist, promote, or deter union organizing\u201d); 42 U. S. C. \u00a7 9839(e) (\u201cFunds appropriated to carry out [the Head Start Programs Act] shall not be used to assist, promote, or deter union organizing\u201d); \u00a7 12634(b)(1) (\u201cAssistance provided under [the National Community Service Act of 1990] shall not be used by program participants and program staff to . .. assist, promote, or deter union organizing\u201d).",
+        "type": "majority",
+        "author": "Justice Stevens"
+      },
+      {
+        "text": "Justice Breyer, with whom Justice Ginsburg\njoins, dissenting.\nCalifornia\u2019s spending statute sets forth a state \u201cpolicy\u201d not to \u201csubsidize efforts by an employer to assist, promote, or deter union organizing.\u201d 2000 Cal. Stats, ch. 872, \u00a71. The operative sections of the law prohibit several classes of employers who receive state funds from using those funds to \u201cassist, promote, or deter union organizing.\u201d Cal. Govt. Code Ann. \u00a7\u00a7 16645-16649 (West Supp. 2008). And various compliance provisions then require maintenance of \u201crecords sufficient to show that no state funds were used\u201d for prohibited expenditures, deter the use of commingled funds for prohibited expenditures, and impose serious penalties upon violators. \u00a7\u00a7 16645.2(c), 16645.7(b)-(c).\nThe Court finds that the National Labor Relations Act (NLRA) pre-empts these provisions. It does so, for it believes the provisions \u201cregulate\u201d activity that Congress has intended to \u201cbe unregulated because left to be controlled by the free play of economic forces.\u201d Machinists v. Wisconsin Employment Relations Comm'n, 427 U. S. 132, 140 (1976) (internal quotation marks omitted; emphasis added). The Chamber of Commerce adds that the NLRA pre-empts these provisions because they \u201cregulate activity that the NLRA protects, prohibits, or arguably protects or prohibits.\u201d Wisconsin Dept. of Industry v. Gould Inc., 475 U. S. 282, 286 (1986) (summarizing the pre-emption principle set forth in San Diego Building Trades Council v. Garmon, 359 U. S. 236 (1959); emphasis added). Thus the question before us is whether California\u2019s spending limitations amount to regulation that the NLRA pre-empts. In my view, they do not.\nI\nThe operative sections of the California statute provide that employers who wish to \u201cassist, promote, or deter union organizing\u201d cannot use state money when they do so. The majority finds these provisions pre-empted because in its view the sections regulate employer speech in a manner that weakens, or undercuts, a congressional policy, embodied in NLRA \u00a7 8(c), \u201c \u2018to encourage free debate on issues dividing labor and management.\u2019 \u201d Ante, at 67 (quoting Linn v. Plant Guard Workers, 383 U. S. 53, 62 (1966)).\nAlthough I agree the congressional policy favors \u201cfree debate,\u201d I do not believe the operative provisions of the California statute amount to impermissible regulation that interferes with that policy as Congress intended it. First, the only relevant Supreme Court case that found a State\u2019s labor-related spending limitations to be pre-empted differs radically from the case before us. In that case, Wisconsin Dept. of Industry v. Gould Inc., 475 U. S. 282, the Court considered a Wisconsin statute that prohibited the State from doing business with firms that repeatedly violated the NLRA. The Court said that the statute\u2019s \u201cmanifest purpose and inevitable effect\u201d was \u201cto enforce\u201d the NLRA\u2019s requirements, which \u201crole Congress reserved exclusively for the [National Labor Relations Board].\u201d Id., at 291. In a word, the Wisconsin statute sought \u201cto compel conformity with the NLRA.\u201d Building & Constr. Trades Council v. Associated Builders & Contractors of Mass./R. I., Inc., 507 U. S. 218, 228 (1993) (emphasis added).\nCalifornia\u2019s statute differs from the Wisconsin statute because it does not seek to compel labor-related activity. Nor does it seek to forbid labor-related activity. It permits all employers who receive state funds to \u201cassist, promote, or deter union organizing.\u201d It simply says to those employers, do not do so on our dime. I concede that a federal law that forces States to pay for labor-related speech from public funds would encourage more of that speech. But no one can claim that the NLRA is such a law. And without such a law, a State\u2019s refusal to pay for labor-related speech does not impermissibly discourage that activity. To refuse to pay for an activity (as here) is not the same as to compel others to engage in that activity (as in Gould).\nSecond, California\u2019s operative language does not weaken or undercut Congress\u2019 policy of \u201cencouraging] free debate on issues dividing labor and management.\u201d Linn, supra, at 62. For one thing, employers remain free to spend their own money to \u201cassist, promote, or deter\u201d unionization. More importantly, I cannot conclude that California\u2019s statute would weaken or undercut any such congressional policy because Congress itself has enacted three statutes that, using identical language, do precisely the same thing. Congress has forbidden recipients of Head Start funds to use the funds to \u201cassist, promote, or deter union organizing.\u201d 42 U. S. C. \u00a7 9839(e). It has forbidden recipients of Workforce Investment Act of 1998 funds to use the funds to \u201cassist, promote, or deter union organizing.\u201d 29 U. S. C. \u00a7 2931(b)(7). And it has forbidden recipients of National Community Service Act of 1990 funds to use the funds to \u201cassist, promote, or deter union organizing.\u201d 42 U. S. C. \u00a7 12634(b)(1). Could Congress have thought that the NLRA would prevent the States from enacting the very same kinds of laws that Congress itself has enacted? Far more likely, Congress thought that directing government funds away from labor-related activity was consistent, not inconsistent, with the policy of \u201cencouraging] free debate\u201d embedded in its labor statutes.\nFinally, the law normally gives legislatures broad authority to decide how to spend the people\u2019s money. A legislature, after all, generally has the right not to fund activities that it would prefer not to fund\u2014even where the activities are otherwise protected. See, e. g., Regan v. Taxation With Representation of Wash., 461 U. S. 540, 549 (1983) (\u201cWe have held in several contexts that a legislature\u2019s decision not to subsidize the exercise of a fundamental right does not infringe the right\u201d). This Court has made the same point in the context of labor law. See Lyng v. Automobile Workers, 485 U. S. 360, 368 (1988) (holding that the Federal Government\u2019s refusal to provide food stamp benefits to striking workers was justified because \u201c[strikers and their union would be much better off if food stamps were available,\u201d but the \u201cstrikers\u2019 right of association does not require the Government to furnish funds to maximize the exercise of that right\u201d).\nAs far as I can tell, States that do wish to pay for employer speech are generally free to do so. They might make clear, for example, through grant-related rules and regulations that a grant recipient can use the funds to pay salaries and overhead, which salaries and overhead might include expenditures related to management\u2019s role in labor organizing contests. If so, why should States that do not wish to pay be deprived of a similar freedom? Why should they be conscripted into paying?\nI can find nothing in the majority\u2019s arguments that convincingly answers these questions. The majority says that California must be acting as an impermissible regulator because it is not acting as a \u201cmarket participant\u201d (a role we all agree would permit it broad leeway to act like private firms in respect to labor matters). Ante, at 70. But the regulator/market-participant distinction suggests a false dichotomy. The converse of \u201cmarket participant\u201d is not necessarily \u201cregulator.\u201d A State may appropriate funds without either participating in or regulating the labor market. And the NLRA pre-empts a State\u2019s actions, when taken as an \u201cappropriator,\u201d only if those actions amount to impermissible regulation. I have explained why I believe that California\u2019s actions do not amount to impermissible regulation here.\nThe majority also complains that the statute \u201cimposes a targeted negative restriction,\u201d one applicable only to labor. Ante, at 71. I do not find this a fatal objection, because the congressional statutes just discussed (which I believe are consistent with the NLRA) do exactly the same. In any event, if, say, a State can tell employers not to use state funds to pay for a large category of expenses (say, overhead), why can it not tell employers the same about a smaller category of expenses (say, only those overhead expenses related to taking sides in a labor contest). And where would the line then be drawn? Would the statute pass muster if California had said, do not use our money to pay for interior decorating, catered lunches, or labor relations?\nThe majority further objects to the fact that the statute does not \u201capply\u201d the constraint \u201cuniformly,\u201d because it permits use of state funds for \u201cselect employer advocacy activities that promote unions.\u201d Ante, at 71. That last phrase presumably refers to an exception in the California statute that permits employers to spend state funds to negotiate a voluntary recognition of a union. But this exception underscores California\u2019s basic purpose \u2014 maintaining a position of spending neutrality on contested labor matters. Where labor and management agree on unionization, there is no conflict.\nII\nI turn now to the statute\u2019s compliance provisions. They require grant recipients to maintain \u201crecords sufficient to show that no state funds were used\u201d for prohibited expenditures; they deter the use of commingled \u00f1mds for prohibited expenditures; and they impose serious penalties upon violators. Cal. Govt. Code Ann. \u00a7\u00a7 16645.2(c), 16645.7(b)-(e). The majority seems to rest its conclusions in part upon its belief that these requirements are too strict, that, under the guise of neutral enforcement, they discourage the use of non-state money to engage in free debate on labor/management issues. Ante, at 71.\nI agree with the majority that, should the compliance provisions, as a practical matter, unreasonably discourage expenditure of nonstate funds, the NLRA may well pre-empt California\u2019s statute. But I cannot say on the basis of the record before us that the statute will have that effect.\nThe language of the statute is clear. The statute requires recipients of state money to \u201cmaintain records sufficient to show that no state funds were used\u201d for prohibited expenditures. \u00a7\u00a7 16645.2, 16645.7(c). And the class of prohibited expenditures is quite broad: It covers \u201cany expense\u201d incurred in \u201cany attempt\u201d by an employer to \u201cinfluence the decision of its employees,\u201d including \u201clegal and consulting fees and salaries of supervisors and employees\u201d incurred during research for or the preparation, planning, coordination, or execution of activities to \u201cassist, promote, or deter\u201d union organizing. \u00a7 16646(a) (emphasis added). And where an employer mingles state funds and nonstate funds (say, to pay a particular employee who spends part of her time dealing with unionization matters) the employer must determine \u201con a pro rata basis,\u201d the portion of the labor-related expenditure paid for by state funds, and maintain sufficient supporting documentation. \u00a7 16646(b). Any violation of these provisions is then subject to strict penalties, including treble damages and attorney\u2019s fees and costs. \u00a7 16645.8.\nWhat is less clear is the degree to which these provisions actually will deter a recipient of state funds from using non-state funds to engage in unionization matters. And no lower court has ruled on this matter. In the District Court, the Chamber of Commerce moved for summary judgment arguing that the statute, by placing restrictions on state funds, was pre-empted by Machinists and Garmon and also arguing that the compliance provisions are so burdensome that they would chill even private expenditures. California opposed the motion. And California submitted expert evidence designed to show that its \u201caccounting and recordkeeping requirements . .. are similar to requirements imposed in other contexts,\u201d are \u201csignificantly less burdensome than the detailed requirements for federal grant recipients,\u201d and allow \u201cflexibility in establishing proper accounting procedures and controls.\u201d App. 282-283.\nThe District Court granted the Chamber of Commerce\u2019s motion for summary judgment in part, finding that the operative sections of the statute were pre-empted for the reasons I have discussed in Part I, namely, that the operative provisions interfered with the NLRA\u2019s policy of encouraging \u201cfree debate.\u201d 225 F. Supp. 2d 1199, 1204 (CD Cal. 2002). But in doing so, it did not address the Chamber of Commerce\u2019s argument that the California statute\u2019s compliance provisions affected non-state-funded speech to the point that the NLRA pre-empted the statute. Neither did the Court of Appeals address the question whether the compliance provisions themselves constitute sufficient grounds for finding the statute pre-empted.\nI do not believe that we can, and I would not, decide this question until the lower courts have had an opportunity to consider and rule upon the compliance-related questions. Accordingly, I would vote to vacate the judgment of the Ninth Circuit and remand for further proceedings on this issue.\nI respectfully dissent.",
+        "type": "dissent",
+        "author": "Justice Breyer, with whom Justice Ginsburg"
+      }
+    ],
+    "attorneys": [
+      "Willis J. Goldsmith argued the cause for petitioners. With him on the briefs were Michael A. Garvin, Noel J. Francisco, Luke A, Sobota, Robin S. Conrad, Shane Brennan, Steven J. Law, and Stephen A. Bokat.",
+      "Deputy Solicitor General Hungar argued the cause for the United States as amicus curiae urging reversal. With him on the brief were former Solicitor General Clement, Nicole A. Saharsky, Ronald Meisburg, John H. Ferguson, and Linda Dreeben.",
+      "Michael Gottesman argued the cause for respondents. On the brief for state respondents were Edmund G. Brown, Jr., Attorney General of California, pro se, Janet Gaard, Chief Assistant Attorney General, Manuel M. Medeiros, Solicitor General, Gordon Burns, Deputy Solicitor General, Louis Verdugo, Jr., Senior Assistant Attorney General, and Richard T. Waldow and Angela Sierra, Supervising Deputy Attorneys General. Stephen P. Berzon, Scott A. Kronland, and Jonathan P. Hiatt filed a brief for respondent American Federation of Labor and Congress of Industrial Organizations et al."
+    ],
+    "corrections": "",
+    "head_matter": "CHAMBER OF COMMERCE OF THE UNITED STATES OF AMERICA et al. v. BROWN, ATTORNEY GENERAL OF CALIFORNIA, et al.\nCERTIORARI TO THE UNITED STATES COURT OF APPEALS FOR THE NINTH CIRCUIT\nNo. 06-939.\nArgued March 19, 2008\nDecided June 19, 2008\nStevens, J., delivered the opinion of the Court, in which Roberts, C. J., and & alia, Kennedy, Souter, Thomas, and Alito, JJ., joined. Breyer, J., filed a dissenting opinion, in which Ginsburg, J., joined, post, p. 76.\nWillis J. Goldsmith argued the cause for petitioners. With him on the briefs were Michael A. Garvin, Noel J. Francisco, Luke A, Sobota, Robin S. Conrad, Shane Brennan, Steven J. Law, and Stephen A. Bokat.\nDeputy Solicitor General Hungar argued the cause for the United States as amicus curiae urging reversal. With him on the brief were former Solicitor General Clement, Nicole A. Saharsky, Ronald Meisburg, John H. Ferguson, and Linda Dreeben.\nMichael Gottesman argued the cause for respondents. On the brief for state respondents were Edmund G. Brown, Jr., Attorney General of California, pro se, Janet Gaard, Chief Assistant Attorney General, Manuel M. Medeiros, Solicitor General, Gordon Burns, Deputy Solicitor General, Louis Verdugo, Jr., Senior Assistant Attorney General, and Richard T. Waldow and Angela Sierra, Supervising Deputy Attorneys General. Stephen P. Berzon, Scott A. Kronland, and Jonathan P. Hiatt filed a brief for respondent American Federation of Labor and Congress of Industrial Organizations et al.\nBriefs of amici curiae urging reversal were filed for the American Hospital Association by F Curt Kirschner, Jr., and Irving L. Gornstein; for Associated Builders and Contractors, Inc., et al. by Maurice Baskin, Robert Fried, and Thomas Lenz; for the Cato Institute by Ilya Shapiro; and for the Healthcare Association of New York State, Inc., et al. by Jeffrey J. Sherrin, Cornelius D. Murray, and James A. Shannon.\nBriefs of amici curiae urging affirmance were filed for the State of New York et al. by Andrew M.. Cuomo, Attorney General of New York, Barbara D. Underwood, Solicitor General, Benjamin N. Gutman, Deputy Solicitor General, and Sasha Samberg-Champion, Assistant Solicitor General, and by the Attorneys General for their respective States as follows: Richard Blumenthal of Connecticut, Bill McCollum of Florida, Lisa Madigan of Illinois, Thomas Miller of Iowa, Jack Conway of Kentucky, G. Steven Rowe of Maine, Martha Coakley of Massachusetts, Lori Swanson of Minnesota, Jeremiah W. (Jay) Nixon of Missouri, Mike McGrath of Montana, Catherine Cortez Masto of Nevada, Gary G. King of New Mexico, Marc Dann of Ohio, Hardy Myers of Oregon, Patrick C. Lynch of Rhode Island, Darrell V McGraw, Jr., of West Virginia, and Bruce A. Salzburg of Wyoming; and for AARP et al. by Amy Howe, Kevin K. Russell, Pamela S. Karlan, and Jeffrey L. Fisher.\nGlenn M. Taubman filed a brief for the National Right to Work Legal Defense Foundation, Inc., et al. as amici curiae."
+  },
+  "file_name": "0060-01",
+  "first_page_order": 88,
+  "last_page_order": 111
+}

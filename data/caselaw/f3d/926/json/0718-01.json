@@ -1,0 +1,1394 @@
+{
+  "id": 12521448,
+  "name": "UNITED STATES of America, Plaintiff-Appellee, v. Jeffrey COOPER, Defendant-Appellant.",
+  "name_abbreviation": "United States v. Cooper",
+  "decision_date": "2019-06-10",
+  "docket_number": "No. 17-11548",
+  "first_page": "718",
+  "last_page": "741",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "926 F.3d 718"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "11th Cir.",
+    "id": 9031,
+    "name": "United States Court of Appeals for the Eleventh Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "131 S.Ct. 2394",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12450489,
+        5928609
+      ],
+      "weight": 2,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "parenthetical": "quoting Oregon v. Mathiason , 429 U.S. 492, 97 S.Ct. 711, 50 L.Ed.2d 714 (1977) "
+        },
+        {
+          "parenthetical": "quoting Oregon v. Mathiason , 429 U.S. 492, 97 S.Ct. 711, 50 L.Ed.2d 714 (1977) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/180/0310-01",
+        "/us/564/0261-01"
+      ]
+    },
+    {
+      "cite": "564 U.S. 261",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5928609,
+        12450489
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "268",
+          "parenthetical": "quoting Oregon v. Mathiason , 429 U.S. 492, 97 S.Ct. 711, 50 L.Ed.2d 714 (1977) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/564/0261-01",
+        "/l-ed-2d/180/0310-01"
+      ]
+    },
+    {
+      "cite": "341 F.3d 1273",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9101297
+      ],
+      "year": 2003,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/341/1273-01"
+      ]
+    },
+    {
+      "cite": "720 F.3d 1316",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4057777
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "1332-33"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/720/1316-01"
+      ]
+    },
+    {
+      "cite": "470 F.3d 1347",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5666010
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "1349-50"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/470/1347-01"
+      ]
+    },
+    {
+      "cite": "550 F.3d 1319",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6051160
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "1324",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/550/1319-01"
+      ]
+    },
+    {
+      "cite": "405 F.3d 1293",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9014056
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "1296"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/405/1293-01"
+      ]
+    },
+    {
+      "cite": "626 F.3d 566",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6052586
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "572"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/626/0566-01"
+      ]
+    },
+    {
+      "cite": "569 F.3d 1291",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3660546
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "1315-16"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/569/1291-01"
+      ]
+    },
+    {
+      "cite": "287 F.3d 1053",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9441728
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "1057"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/287/1053-01"
+      ]
+    },
+    {
+      "cite": "700 F.2d 638",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1844682,
+        6128538
+      ],
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "646"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/700/0638-01",
+        "/br/27/0638-02"
+      ]
+    },
+    {
+      "cite": "184 F.3d 1322",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11549672
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "1329",
+          "parenthetical": "citations omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/184/1322-01"
+      ]
+    },
+    {
+      "cite": "150 F.3d 401",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1540666
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "418"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/150/0401-01"
+      ]
+    },
+    {
+      "cite": "432 F.3d 1189",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        556334
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "1223",
+          "parenthetical": "quoting United States v. Munoz , 150 F.3d 401, 418 (5th Cir. 1998) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/432/1189-01"
+      ]
+    },
+    {
+      "cite": "508 F.3d 989",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6047329
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "993"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/508/0989-01"
+      ]
+    },
+    {
+      "cite": "26 F.3d 1098",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10515073
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "1099"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/26/1098-01"
+      ]
+    },
+    {
+      "cite": "684 F.3d 1045",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3899158
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "1065",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/684/1045-01"
+      ]
+    },
+    {
+      "cite": "955 F.2d 1527",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        11293409
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "1541"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/955/1527-01"
+      ]
+    },
+    {
+      "cite": "123 F.3d 1381",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12013736
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "1400",
+          "parenthetical": "quoting United States v. Jacoby , 955 F.2d 1527, 1541 (11th Cir. 1992) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/123/1381-01"
+      ]
+    },
+    {
+      "cite": "513 F.3d 1293",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3163479
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "1307"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/513/1293-01"
+      ]
+    },
+    {
+      "cite": "466 F.3d 938",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3774078
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "947"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/466/0938-01"
+      ]
+    },
+    {
+      "cite": "921 F.2d 1523",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10550083
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "1528"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/921/1523-01"
+      ]
+    },
+    {
+      "cite": "582 F.3d 607",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4061622
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "615-16"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/582/0607-01"
+      ]
+    },
+    {
+      "cite": "208 U.S. 393",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3641801
+      ],
+      "weight": 5,
+      "year": 1908,
+      "pin_cites": [
+        {
+          "page": "402"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/208/0393-01"
+      ]
+    },
+    {
+      "cite": "98 F.3d 1266",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7651901
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "1287"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/98/1266-01"
+      ]
+    },
+    {
+      "cite": "73 F.3d 1067",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7414232
+      ],
+      "weight": 2,
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "1071"
+        },
+        {
+          "page": "1071"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/73/1067-01"
+      ]
+    },
+    {
+      "cite": "210 F.3d 1342",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11535200
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "1345",
+          "parenthetical": "quoting United States v. Kramer , 73 F.3d 1067, 1071 (11th Cir. 1996) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/210/1342-01"
+      ]
+    },
+    {
+      "cite": "455 F.3d 1249",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3251825
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "1251"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/455/1249-01"
+      ]
+    },
+    {
+      "cite": "152 F.3d 1283",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11714730
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "1295"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/152/1283-01"
+      ]
+    },
+    {
+      "cite": "505 F.3d 1229",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5857066
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "1276"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/505/1229-01"
+      ]
+    },
+    {
+      "cite": "819 F.3d 1314",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4253657
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1316",
+          "parenthetical": "quoting United States v. Browne , 505 F.3d 1229, 1276 (11th Cir. 2007) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/819/1314-01"
+      ]
+    },
+    {
+      "cite": "711 F.3d 1299",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3803019
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "1309-10"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/711/1299-01"
+      ]
+    },
+    {
+      "cite": "454 F.3d 1300",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5560453
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "1309"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/454/1300-01"
+      ]
+    },
+    {
+      "cite": "582 F.3d 1239",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4062109
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "1247-48",
+          "parenthetical": "quoting United States v. Martinelli , 454 F.3d 1300, 1309 (11th Cir. 2006) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/582/1239-01"
+      ]
+    },
+    {
+      "cite": "293 F.3d 1254",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9420459
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "1260"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/293/1254-01"
+      ]
+    },
+    {
+      "cite": "350 F.3d 1137",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9056061
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "1148",
+          "parenthetical": "quoting McCormick v. Aderholt , 293 F.3d 1254, 1260 (11th Cir. 2002) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/350/1085-01"
+      ]
+    },
+    {
+      "cite": "205 F.3d 1265",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11464142
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "1270"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/205/1265-01"
+      ]
+    },
+    {
+      "cite": "866 F. 2d 1357",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10537226
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "1366"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/866/1357-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 1594",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "752 F.3d 1317",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4308926
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "1330",
+          "parenthetical": "citing 18 U.S.C. \u00a7 1591(a)(1) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/752/1317-01"
+      ]
+    },
+    {
+      "cite": "22 C.F.R. \u00a7 62.13",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 2,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "parenthetical": "sponsors must promptly notify the State Department of anything that could bring it or the \"exchange visitor program into notoriety or dispute\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "810 F.3d 1253",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4060848
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1260"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/810/1253-01"
+      ]
+    },
+    {
+      "cite": "636 F.3d 1315",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4101207
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "1324",
+          "parenthetical": "quoting Maxwell , 579 F.3d at 1301 "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/636/1315-01"
+      ]
+    },
+    {
+      "cite": "579 F.3d 1282",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4052924
+      ],
+      "weight": 2,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "1299"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/579/1282-01"
+      ]
+    },
+    {
+      "cite": "878 F.3d 1297",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12267138
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1304",
+          "parenthetical": "quoting United States v. Maxwell , 579 F.3d 1282, 1299 (11th Cir. 2009) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/878/1297-01"
+      ]
+    },
+    {
+      "cite": "564 F.3d 1280",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4238668
+      ],
+      "weight": 2,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "1284"
+        },
+        {
+          "page": "1284-85"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/564/1280-01"
+      ]
+    },
+    {
+      "cite": "541 F.3d 1070",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6049432
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "1074"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/541/1070-01"
+      ]
+    },
+    {
+      "cite": "635 F.3d 480",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4029858
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "497",
+          "parenthetical": "quoting United States v. Mercer , 541 F.3d 1070, 1074 (11th Cir. 2008) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/635/0480-01"
+      ]
+    },
+    {
+      "cite": "594 F.3d 1303",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3522896
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "1319"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/594/1303-01"
+      ]
+    },
+    {
+      "cite": "429 U.S. 492",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        7010
+      ],
+      "weight": 3,
+      "year": 1977,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/429/0492-01"
+      ]
+    },
+    {
+      "cite": "479 U.S. 157",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6213196
+      ],
+      "weight": 3,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "167"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/479/0157-01"
+      ]
+    },
+    {
+      "cite": "485 F.3d 1324",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4078761
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "1345"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/485/1324-01"
+      ]
+    },
+    {
+      "cite": "770 F.2d 971",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        332827
+      ],
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "979"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/770/0971-01"
+      ]
+    },
+    {
+      "cite": "522 F.3d 1255",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3762328
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "1267"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/522/1255-01"
+      ]
+    },
+    {
+      "cite": "289 F.3d 1283",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9437505
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "1294"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/289/1283-01"
+      ]
+    },
+    {
+      "cite": "409 F.3d 1311",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8961299
+      ],
+      "weight": 2,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "1327",
+          "parenthetical": "quoting Ford ex rel. Estate of Ford v. Garcia , 289 F.3d 1283, 1294 (11th Cir. 2002) "
+        },
+        {
+          "page": "1337"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/409/1311-01"
+      ]
+    },
+    {
+      "cite": "772 F.2d 1524",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        306603
+      ],
+      "year": 1985,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/772/1524-01"
+      ]
+    },
+    {
+      "cite": "131 F.3d 970",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11889624
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "988",
+          "parenthetical": "quoting Crockett v. Uniroyal, Inc. , 772 F.2d 1524, 1530 n.4 (11th Cir. 1985) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/131/0970-01"
+      ]
+    },
+    {
+      "cite": "792 F.2d 994",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1583271
+      ],
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "996"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/792/0994-01"
+      ]
+    },
+    {
+      "cite": "16 F.3d 1116",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10534537
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "1120"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/16/1116-01"
+      ]
+    },
+    {
+      "cite": "135 S. Ct. 2173",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12590213
+      ],
+      "weight": 2,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "2179"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/135/2173-01"
+      ]
+    },
+    {
+      "cite": "541 U.S. 36",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5873383
+      ],
+      "weight": 7,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "51",
+          "parenthetical": "quoting 2 N. WEBSTER, AN AMERICAN DICTIONARY OF THE ENGLISH LANGUAGE (1828)"
+        },
+        {
+          "parenthetical": "quoting 2 N. WEBSTER, AN AMERICAN DICTIONARY OF THE ENGLISH LANGUAGE (1828)"
+        },
+        {
+          "parenthetical": "quoting 2 N. WEBSTER, AN AMERICAN DICTIONARY OF THE ENGLISH LANGUAGE (1828)"
+        },
+        {
+          "page": "61"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/541/0036-01"
+      ]
+    },
+    {
+      "cite": "849 F.2d 554",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        12031419
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "559"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/849/0554-01"
+      ]
+    },
+    {
+      "cite": "898 F.2d 1493",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10541047
+      ],
+      "weight": 2,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "1500"
+        },
+        {
+          "page": "1500"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/898/1493-01"
+      ]
+    },
+    {
+      "cite": "418 F.3d 1166",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8941446
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "1180",
+          "parenthetical": "internal quotation marks and citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/418/1166-01"
+      ]
+    },
+    {
+      "cite": "595 F.3d 1214",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4216465
+      ],
+      "weight": 5,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "1226"
+        },
+        {
+          "page": "1229",
+          "parenthetical": "emphasis omitted"
+        },
+        {
+          "page": "1229"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/595/1214-01"
+      ]
+    },
+    {
+      "cite": "547 U.S. 813",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3275498
+      ],
+      "weight": 6,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "821-22"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/547/0813-01"
+      ]
+    },
+    {
+      "cite": "712 F.3d 517",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3556065
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "530"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/712/0517-01"
+      ]
+    },
+    {
+      "cite": "739 F.3d 678",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4084174
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "681",
+          "parenthetical": "quoting Cole v. U.S. Att'y Gen. , 712 F.3d 517, 530 (11th Cir. 2013) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/739/0678-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7\u00a7 1591",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(a)(1)"
+        },
+        {
+          "page": "(a)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "8 U.S.C. \u00a7 1328",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 1952",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(a)(3)(A)"
+        },
+        {
+          "page": "(a)(3)(A)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 1343",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1768,
+    "char_count": 46657,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25935411678441483
+    },
+    "sha256": "a962944e696af3f74deb8ad34ea48df5c6aab6ba228a5075846f0e5d1eb03116",
+    "simhash": "1:8ceeea622a15426a",
+    "word_count": 7446
+  },
+  "last_updated": "2024-02-27T18:46:44.951673+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "UNITED STATES of America, Plaintiff-Appellee,\nv.\nJeffrey COOPER, Defendant-Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "ROSENTHAL, Chief District Judge:\nThis was not an easy case for either the prosecution or defense to try. The indictment alleged a scheme to use a government-sponsored program to lure young women students from Kazakhstan to Florida by promising them clerical work in an office. Instead, the students arrived to learn that they had to perform sexual acts for the defendant's paying customers. The government's challenge was that the students had returned to Kazakhstan and refused to testify, requiring the government to use other sources of proof. The defense challenge was that the evidence amply proved guilt. The major issues on appeal are the admissibility and sufficiency of that evidence, the accuracy of the jury instructions, and the application of a sentencing enhancement. We find that no issue presents reversible error, and we affirm.\nI. BACKGROUND\nIn 2016, Jeffrey Cooper was indicted for wire fraud, in violation of 18 U.S.C. \u00a7 1343 ; using a facility in interstate and foreign commerce to promote an unlawful activity, in violation of 18 U.S.C. \u00a7 1952(a)(3)(A) ; attempting to import and importing an alien for an immoral purpose, in violation of 8 U.S.C. \u00a7 1328 ; and attempted sex trafficking and sex trafficking, in violation of 18 U.S.C. \u00a7\u00a7 1591(a)(1), 1594(a).\nIn 2011, Cooper, using a Facebook account for a \"Dr. Janardana Dasa,\" spoke with Diyana Ishmetova, a Kazakhstani travel-agency employee, about hiring Kazakhstani students under the State Department's Summer Work Travel Program. Ishmetova sent Cooper pictures and resumes for four students, XM, DK, BA, and AA. Ishmetova worked with Cooper to fill out the \"Self-Arranged Job Offer\" forms needed for the students to receive J-1 visas. Ishmetova relayed Cooper's job offers to the Center for Cultural Interchange (CCI), a Program sponsor. Cooper described the jobs in his Facebook messages and on the written offers as \"answering phones, doing clerical work, organizing retreats, and making appointments for massage, private yoga, et cetera.\" The job offers listed \"Dr. Janardana Dasa\" as the employer and the Bayshore Yacht and Tennis Club apartment complex later linked to Cooper as the location.\nCCI called the phone number listed on Cooper's job offers. The man answering the phone identified himself as \"Janardana\" and confirmed that the students would be doing clerical work for $ 12 per hour and that each would receive housing for $ 70 per week. Cooper told Ishmetova via Facebook that CCI had approved his job offers and that he wanted more foreign students to do \"[c]lerical work, computer work, [and to] set[ ] up appointments.\" Ishmetova, at Cooper's direction, submitted identical job offers for AO and ZR. CCI sponsored J-1 visas for AO, ZR, DK, BA, and XM to work as receptionists at \"Janardana's Yoga & Wellness\" studio.\nCooper's real business was not yoga. It was selling sexual services to paying clients. Cooper's former employees testified that they gave his male clients erotic massages and had sexual intercourse with them. Cooper ran the business from apartments he leased at the Bayshore Yacht and Tennis Club. The clients would pay Cooper, who would give a percentage to his employees. Cooper booked the clients and used text messages or calls to give instructions to his employees.\nCooper posted advertisements on the website \"Backpage\" for the sexual services he offered. The IP address listed the subscriber as Jeffrey Cooper, with Dr. Janardana Dasa as an associated name. The advertisements used a phone number ending in 6115, the same number used on the Kazakhstani students' job offers and on Cooper's lease agreements with the Bayshore Yacht and Tennis Club.\nOn July 12, 2011, a Backpage advertisement posted by Jeff Cooper advertised \"travel students\" who would give \"erotic full body massages\" in Miami Beach. An advertisement Cooper had posted a few weeks before AO and ZR arrived offered \"exotic full body rubs\" and \"tantric treatments\" from foreign women. Another Backpage advertisement from the same account promised \"attractive exchange students\" offering \"body rubs\" in California, for a limited time. Cooper also operated another prostitution business in California, occasionally flying employees from Miami to California.\nCooper used the \"Dasa\" Facebook account to send AO and ZR Facebook messages about their arrival in Miami. AO and ZR arrived in June 2011. Government investigators and Cooper's former employees testified at Cooper's trial that the students were shocked when they learned that they were in fact hired to perform sexual massages with \"happy endings.\" The students sought replacement jobs and alternative housing that they could afford, without success. Cooper sent Ishmetova a Facebook message complaining that AO and ZR were not cooperating in his business to \"provide sensual massages to wealthy clients.\" Cooper suggested that if the students refused, they would lose their work, their pay, and their housing.\nBased on a call from the relative of another exchange student working for \"Dasa,\" CCI became concerned that the students were performing sexual services. CCI contacted \"Dasa,\" using the phone number that was used on Cooper's job offers and on the Backpage advertisements, to ask about the relative's claims. The man answering the phone denied that the students were giving any massages.\nCooper purchased plane tickets for AO and ZR to travel to California in August 2011. Before AO and ZR could leave, a government sting operation removed them from Cooper's business. An undercover detective contacted the number on Cooper's Backpage advertisements. The person who answered told the detective to go to a Bayshore Yacht and Tennis Club apartment. The detective met AO and ZR at the apartment, was told the cost of having sex with them, and paid. Agents then raided Cooper's apartments, finding Cooper's phone, AO's and ZR's belongings, and a business card for \"Dr. Janardana Dasa.\" The phone contained client-contact information and texts directing clients to Cooper's apartments. The government found apartment visitor logs showing about 50 visitors to Cooper's apartments from June 1 to August 4, 2011.\nIn September 2011, AO cooperated with the government in a monitored call placed to the phone number listed on the Backpage advertisements and on the CCI job offers. AO and ZR then returned to Kazakhstan.\nCooper continued operating his sex business. In October 2012, an undercover agent contacted the 6115 number and talked with Cooper about providing \"full service\" and \"sensually erotic massages.\" In November 2012, agents carried out another sting operation, with cooperation from one of Cooper's employees. The government detained that employee after she met and negotiated prices with an undercover agent who had made an appointment based on a Backpage advertisement. The employee handed over text messages discussing selling sexual services, sent to and received from the 6115 number. That number was listed in her phone as Janardana's. Cooper told an employee in 2015 that he was operating an erotic massage business in Miami using the 6115 number.\nIn 2016, government agents went to Cooper's apartment complex to interview Cooper. Cooper admitted that he had represented himself as \"Janardana Dasa\" and that he had made the CCI job offers in 2011 listing himself as the host employer. Cooper told the agents that he owned and used the \"Dr. Janardana Dasa\" Facebook account that was used to communicate with Ishmetova. He claimed that AO and ZR \"didn't want to do\" clerical work for him when they arrived in Miami and were instead taught how to perform sensual massages.\nCooper was arrested in 2016. Electronic devices and a notebook seized during the arrest included information about his prostitution business. Cooper's 2011 bank records showed that he had deposited tens of thousands of dollars in cash and paid at least $ 1,399.96 for Backpage advertisements that year.\nA jury convicted Cooper on all counts. The district court sentenced him to 360 months in prison and 60 months on supervised release, and imposed $ 8,640 in restitution. Cooper appealed.\nII. DISCUSSION\nA. The Evidentiary Rulings\n1. The Confrontation Clause and Hearsay\nAn appellant must adequately brief each issue by \"plainly and prominently\" raising it. Sapuppo v. Allstate Floridian Ins. Co. , 739 F.3d 678, 681 (11th Cir. 2014) (quoting Cole v. U.S. Att'y Gen. , 712 F.3d 517, 530 (11th Cir. 2013) ). Cooper listed 26 separate hearsay errors, with record cites but no argument or explanation. Cooper did not provide an adequate basis to raise these issues; he failed to preserve his claims of error.\nIn addition to the briefing deficiency, Cooper admitted on appeal that 14 of his evidentiary-error claims do not involve testimonial statements, meaning that these Confrontation Clause challenges fail as a matter of law. Davis v. Washington , 547 U.S. 813, 821-22, 126 S.Ct. 2266, 165 L.Ed.2d 224 (2006). Only three hearsay and Confrontation Clause issues deserve any discussion. The first two involve Homeland Security Investigations Special Agent Nguyen's testimony about the students' and Ishmetova's mental states and about statements made by men who went to Cooper's apartments to buy sexual services. The third concerns the authentication of Cooper's voice on two monitored phone calls.\nWe review the district court's evidentiary rulings for abuse of discretion, but we review de novo whether hearsay statements are testimonial under the Confrontation Clause. United States v. Caraballo , 595 F.3d 1214, 1226 (11th Cir. 2010). Hearsay errors are harmless \"if, viewing the proceedings in their entirety, a court determines that the error did not affect the verdict, or had but very slight effect.\" United States v. Magluta , 418 F.3d 1166, 1180 (11th Cir. 2005) (internal quotation marks and citation omitted). \"For violations of the Confrontation Clause, harmless error occurs where it is clear beyond a reasonable doubt that the error complained of did not contribute to the verdict obtained.\" Caraballo , 595 F.3d at 1229 n.1 (internal quotation marks and citation omitted).\na. Agent Nguyen's Testimony About AO's, ZR's, and Ishmetova's Mental States\nAO, ZR, the other students, and Ishmetova all refused to leave Kazakhstan to testify in Cooper's trial or to give deposition testimony in their home country. Cooper challenges the district court's admission, over his objection, of Agent Nguyen's testimony that AO, ZR, and Ishmetova stayed in Kazakhstan and refused to testify because they feared humiliation, embarrassment, and further stress. Cooper argues that Agent Nguyen's testimony about AO's, ZR's, and Ishmetova's states of mind was hearsay and violated the Confrontation Clause.\nEven if Agent Nguyen's testimony included hearsay, otherwise \"inadmissible extrinsic evidence is admissible on redirect as rebuttal evidence, when defense counsel has opened the door to such evidence during cross-examination.\" United States v. West , 898 F.2d 1493, 1500 (11th Cir. 1990). Cooper's counsel asked Agent Nguyen during cross-examination why AO and ZR did not testify. He asked Agent Nguyen about the government's authority to require the students to stay in the United States to testify at Cooper's trial by using material-witness warrants. Cooper's counsel also asked Agent Nguyen why the defense could not depose or question Ishmetova. Defense counsel opened the door to Agent Nguyen's testimony on cross-examination about Ishmetova's and the students' decisions to stay in Kazakhstan and not testify. See United States v. Elliott , 849 F.2d 554, 559 (11th Cir. 1988). The district court did not abuse its discretion in admitting this testimony.\nCooper also argues a Confrontation Clause violation because he could not confront AO, ZR, or Ishmetova at trial. But Agent Nguyen did not offer testimonial statements from these individuals. Testimonial statements are \"solemn declaration[s] or affirmation[s] made for the purpose of establishing or proving some fact.\" Crawford v. Washington , 541 U.S. 36, 51, 124 S.Ct. 1354, 158 L.Ed.2d 177 (2004) (quoting 2 N. WEBSTER, AN AMERICAN DICTIONARY OF THE ENGLISH LANGUAGE (1828)). While \"statements by a witness during police questioning\" are generally testimonial, Ohio v. Clark , --- U.S. ----, 135 S. Ct. 2173, 2179, 192 L.Ed.2d 306 (2015), courts \"look only at the primary purpose of the law enforcement officer's questioning in determining whether the information elicited is testimonial,\" Caraballo , 595 F.3d at 1229 (emphasis omitted). Because Agent Nguyen had questioned AO, ZR, and Ishmetova to understand why they refused to testify, not to investigate or establish any fact that was part of an element of the charged offenses or necessary to prove Cooper's guilt, their statements were not testimonial and did not implicate the Confrontation Clause.\nb. The Statements by the Men Listed on the Visitor Logs\nCooper argues that the district court erred by admitting Agent Nguyen's testimony on redirect examination about statements made to him by men whose names were listed in the visitor logs for apartments Cooper leased for his sex business. Defense counsel cross-examined Agent Nguyen about whether the logbooks could show that the visitors were merely Airbnb guests, not clients paying for sexual services. On redirect, Agent Nguyen testified that the men told him that they came \"in response to the Backpage ad to receive [sexual] services.\"\nThe defense's cross-examination questions opened the door to the government's questions on redirect about why the logs showed that the apartments were being used to sell sexual services. See West , 898 F.2d at 1500. Admissibility under the Federal Rules of Evidence, however, does not cure a Confrontation-Clause violation. Cf. Crawford , 541 U.S. at 61, 124 S.Ct. 1354 (\"Where testimonial statements are involved, we do not think the Framers meant to leave the Sixth Amendment's protection to the vagaries of the rules of evidence.\").\nStatements to police officers are generally testimonial if the primary purpose is investigative. See, e.g. , Caraballo , 595 F.3d at 1229. Agent Nguyen questioned the visitors during his investigation, to gain facts probative of Cooper's guilt. Their statements were testimonial.\nAny error in admitting them was, however, harmless. The government introduced substantial evidence showing that Cooper used the apartments for his business, including testimony by Cooper's employees. Agent Nguyen testified that the logs showed that most of the visitors were local, making it highly unlikely that they were renting the apartments. Any error \"did not contribute to the verdict obtained, \" beyond a reasonable doubt. Caraballo , 595 F.3d at 1229 n.1.\nc. The Authentication of Cooper's Voice on the AO and Agent Velez Calls\nCooper argues that Homeland Security Investigations Special Agent Wolynetz's testimony that AO had identified Cooper's voice during a monitored phone call she placed was inadmissible hearsay, and that because AO did not testify at trial, Agent Wolynetz's testimony and related exhibits violated the Confrontation Clause.\n\"[E]vidence that a call was made to the number assigned ... to a particular person, if circumstances ... show that the person answering the phone was the one called\" is sufficient to authenticate a phone call and the participants. FED. R. EVID. 901(b)(6). The trial court had ample basis besides AO's statement to Agent Wolynetz to find that the voice on the recorded call was Cooper's. The male voice on the phone call discussed the \"yoga studio,\" responded to the name \"Jeff,\" talked about his interactions with CCI, and mentioned a note to him identifying him as \"J.\" These recorded statements, coupled with the government's evidence tying the 6115 number AO used to place the monitored call to Cooper, showed that Cooper was the speaker. The district court did not err in finding the voice on the phone call to be Cooper's and admitting the related exhibits.\nCooper's statements on the phone call were admissible as those of a party-opponent. United States v. Munoz , 16 F.3d 1116, 1120 (11th Cir. 1994) ; see FED. R. EVID. 801(d)(2)(A). And AO's statements on the recording were not hearsay because they were not admitted to prove the truth of the matters asserted, but to give context to the admissible statements. See United States v. Price , 792 F.2d 994, 996 (11th Cir. 1986). Because the Confrontation Clause \"does not bar the use of testimonial statements for purposes other than establishing the truth of the matter asserted,\" and because these statements were not hearsay, the district court did not err or violate Cooper's Confrontation Clause rights in admitting them. Crawford , 541 U.S. at 59 n.9, 124 S.Ct. 1354.\nCooper also argues that the district court erred in admitting the monitored call Agent Velez placed to the 6115 number because the court did not authenticate that Cooper was the speaker on that call. Agent Velez testified that she called the 6115 phone number listed on the Backpage advertisement posted by \"Jeff Coop\" at the Miami Beach IP address, and that the speaker identified himself as \"Jay\" during the conversation. There was no error in admitting this exhibit or allowing the testimony about the call.\n2. Agent Nguyen's Testimony About the Students' Statements to Kazakhstani Police\nCooper argues that the district court erred in admitting Agent Nguyen's testimony explaining how DK, XM, and BA's answers to the Kazakhstani police showed a lack of candor and explaining why they might have lied. Cooper called Agent Nguyen as a witness after the prosecution rested, asking him to testify about statements the students had made to the Kazakhstani police. On cross-examination by the government, Agent Nguyen testified that it was suspicious that DK, XM, and BA gave identical answers to the same questions the police separately asked each of them, and he explained that witnesses may not be honest when they are embarrassed or ashamed of what they did. Cooper contends that \"Agent Nguyen invaded the province of the jury.\"\nAt trial, it was Cooper who first sought to admit Agent Nguyen's testimony about DK, XM, and BA's statements to the Kazakhstani police, to rebut the CCI records showing that these students had decided not to go to Miami because they did not want to do sexual massages. Cooper's counsel acknowledged that the statements he sought to admit were hearsay, but he urged the trial court to admit the testimony about the statements \"in the interest of fairness.\" The district court explained that if Cooper's counsel elicited testimony from Agent Nguyen about what students told the Kazakhstani police, then the government would be able to ask Agent Nguyen \"to explain why\" the investigators \"didn't rely on it.\" The district court allowed Cooper to call Agent Nguyen and ask him about the students' statements to Kazakhstani police and then allowed Agent Nguyen to testify on cross-examination, over Cooper's objection, about why the government did not find those statements reliable.\n\"It is 'a cardinal rule of appellate review that a party may not challenge as error a ruling or other trial proceeding invited by that party.' \" United States v. Ross , 131 F.3d 970, 988 (11th Cir. 1997) (quoting Crockett v. Uniroyal, Inc. , 772 F.2d 1524, 1530 n.4 (11th Cir. 1985) ). An invited error \"precludes a court from invoking the plain error rule and reversing.\" United States v. Silvestri , 409 F.3d 1311, 1327 (11th Cir. 2005) (quoting Ford ex rel. Estate of Ford v. Garcia , 289 F.3d 1283, 1294 (11th Cir. 2002) ).\nCooper was warned during his case-in-chief that allowing him to elicit hearsay from Agent Nguyen about the students' statements to the Kazakhstani police would open the door for the agent to testify why he did not consider those statements in his investigation. While Cooper's counsel did object to Agent Nguyen's testimony on cross-examination, the district court's earlier ruling and warning supports finding that Cooper invited the error he asserts. Cf. Silvestri , 409 F.3d at 1337. Cooper's claim is no basis for reversal.\n3. The Rule 404(b) Evidence\nWe review the admission of prior bad-act evidence for abuse of discretion. United States v. Ellisor , 522 F.3d 1255, 1267 (11th Cir. 2008). Cooper challenges the admission of exhibit 69, a book found during his 2016 arrest with contact information and descriptions of women, and exhibits 72 and 72A-H, transcripts of conversations conducted over the cell-phone applications Viber and WhatsApp, as improper character evidence. Cooper argues that the conversations and the book were admitted \"for the improper purpose to show Cooper had the propensity to engage in prostitution.\"\nThe district court did not abuse its discretion in admitting these exhibits. They were relevant to issues other than Cooper's character, including his intent to continue to operate his sex business, knowing the type of business it was. The government had to prove that Cooper's actions were part of \"a continuous course of conduct.\" See United States v. Lignarolo , 770 F.2d 971, 979 (11th Cir. 1985). Evidence of later instances when Cooper arranged to sell sexual services for money was relevant to show that Cooper continuously engaged in his business of selling sexual services to paying clients, knowing the type of acts involved. See United States v. Edouard , 485 F.3d 1324, 1345 (11th Cir. 2007).\nBecause the exhibits were probative of the continuing nature of Cooper's business, and because the probative value substantially outweighed the risk of unfair prejudice, the district court did not err in admitting the exhibits.\n4. Cooper's Statements to the Agents\nCooper argues that the district court erred in admitting his \"involuntary confession,\" violating his Fourteenth Amendment due-process rights. Finding an involuntary confession requires \"coercive police activity.\" Colorado v. Connelly , 479 U.S. 157, 167, 107 S.Ct. 515, 93 L.Ed.2d 473 (1986). While \"[a]ny police interview of an individual suspected of a crime has 'coercive aspects to it,' \" the risk of an involuntary statement is heightened \"[o]nly [for] those interrogations that occur while a suspect is in police custody.\" J.D.B. v. North Carolina , 564 U.S. 261, 268, 131 S.Ct. 2394, 180 L.Ed.2d 310 (2011) (quoting Oregon v. Mathiason , 429 U.S. 492, 97 S.Ct. 711, 50 L.Ed.2d 714 (1977) ). We review \"the totality of the circumstances, including the details of the interrogation and the defendant's characteristics, when deciding whether a confession was voluntary.\" United States v. Bernal-Benitez , 594 F.3d 1303, 1319 (11th Cir. 2010).\nCooper made the statements he now challenges to government agents in the area outside his Bayshore Yacht and Tennis Club apartment, after the agents had introduced themselves and showed Cooper their credentials. When Cooper asked about speaking to an attorney, the agents told him that he was not under arrest or in custody and that he had the option of not answering questions. He continued the interview. Homeland Security Investigations Special Agent Aponte testified that Cooper requested and took breaks during the interview, including going inside his apartment and then coming back out to continue talking to the agents. Cooper does not point to evidence showing that he unsuccessfully sought to end the interview, or that he wanted to either talk to an attorney or stop the questioning. Cooper's statements were voluntary, and the district court did not err in denying his motions for mistrial, suppression, and a new trial based on those statements.\nThe evidentiary rulings present no basis for reversing Cooper's conviction.\nB. The Sufficiency of the Evidence\nCooper argues that there was not enough evidence to convict him of wire fraud or sex trafficking. We review de novo whether the evidence was sufficient to sustain a defendant's conviction, \"view[ing] the evidence in the light most favorable to the government,\" United States v. Gamory , 635 F.3d 480, 497 (11th Cir. 2011) (quoting United States v. Mercer , 541 F.3d 1070, 1074 (11th Cir. 2008) ), and \"drawing all reasonable factual inferences in favor of the jury's verdict,\" United States v. Jiminez , 564 F.3d 1280, 1284 (11th Cir. 2009). Evidence is sufficient if it allows a reasonable trier of fact to find that it established the defendant's guilt beyond a reasonable doubt. Jiminez , 564 F.3d at 1284-85.\n1. Wire Fraud\nAn individual commits wire fraud by:\nhaving devised or intending to devise any scheme or artifice to defraud, or for obtaining money or property by means of false or fraudulent pretenses, representations, or promises, transmits or causes to be transmitted by means of wire ... communication in interstate or foreign commerce, any writings ... or sounds for the purpose of executing such scheme or artifice.\n18 U.S.C. \u00a7 1343.\n\"A scheme to defraud requires proof of a material misrepresentation, or the omission or concealment of a material fact calculated to deceive another\" to get money or property. United States v. Foster , 878 F.3d 1297, 1304 (11th Cir. 2018) (quoting United States v. Maxwell , 579 F.3d 1282, 1299 (11th Cir. 2009) ). \"A jury may infer an intent to defraud from the defendant's conduct\" if the government shows that \"the defendant believed that he could deceive the person to whom he made the material misrepresentation out of money or property of some value.\" United States v. Wetherald , 636 F.3d 1315, 1324 (11th Cir. 2011) (quoting Maxwell , 579 F.3d at 1301 ).\nCooper argues that the government did not prove his intent to defraud because there was insufficient evidence to prove that he was the male voice representing himself as \"Dr. Janardana Dasa\" on the phone call to CCI. Because Cooper did not raise this argument below, we review for plain error. United States v. Zitron , 810 F.3d 1253, 1260 (11th Cir. 2016).\nCooper admitted to government agents that he used the name \"Dasa,\" and he identified the Summer Work Travel Program applications that Ishmetova submitted for him to CCI. His Facebook messages to Ishmetova discussed the phone call he had with CCI about the students' Program applications. The number CCI used to call Dasa was the same number that Cooper identified as his and listed on the Dasa Facebook page, on his own bank accounts, on his Bayshore Yacht and Tennis Club leases, and on his Backpage advertisements.\nCooper's misrepresentations about the work he would require the students to do were material, and not only to the students' decisions to come to Florida to work for him. Federal regulations required Program sponsors to notify the State Department of actions that could \"bring [it] ... or the sponsor's exchange visitor program into notoriety or dispute.\" 22 C.F.R. \u00a7 62.13 (2010). The government presented evidence that if CCI had known that Cooper was requiring students to perform sexual massages and other sexual services for Cooper's paying clients, CCI would have rejected his job offers. The reasonable jury had ample basis to find beyond a reasonable doubt that Cooper made material misrepresentations or omissions calculated to deceive CCI and others to bring the students to the United States, to engage in acts that would bring the Program both notoriety and reputational harm.\n2. Sex Trafficking and Attempted Sex Trafficking by Fraud\nTo establish that Cooper was guilty of sex trafficking by fraud, the government had to prove that he:\n(1) did knowingly (2) in or affecting interstate and foreign commerce, (3) entice, recruit, harbor, transport, provide, obtain, or maintain by any means a person, (4) knowing, or in reckless disregard of the fact, (5) that fraud would be used to cause such person to engage in a commercial sex act.\nUnited States v. Flanders , 752 F.3d 1317, 1330 (11th Cir. 2014) (citing 18 U.S.C. \u00a7 1591(a)(1) ). To convict Cooper of attempted sex trafficking by fraud, the government had to prove that Cooper (1) knowingly intended to commit the crime of sex trafficking by fraud and (2) took a substantial step toward committing that crime. 18 U.S.C. \u00a7 1594(a) ; see United States v. Monroe , 866 F. 2d 1357, 1366 (11th Cir. 1989).\nThe evidence established that Cooper fraudulently recruited AO and ZR to travel to the United States. Cooper told Ishmetova that the students would be doing clerical and office work at his \"yoga studio.\" The documents Cooper submitted for CCI approval, along with Facebook messages he sent to Ishmetova, amply support finding that he led the students to believe that they were hired to do clerical and office work. Cooper's comments on the monitored phone call with AO amply support finding that he lied about having office jobs for the students at his yoga studio. The Facebook correspondence shows that AO and ZR were surprised to learn that they were required to do sex work and supported the government's theory that they were not voluntarily providing sexual \"happy ending\" massages or other sexual services. The trial exhibits show that AO and ZR tried to find other work and other lodging that they could afford, without success.\nDK, XM, and BA emailed Dasa about his job offers for them to work at his yoga studio using the same job-application language he had used for AO and ZR. Cooper points to Ishmetova's Facebook message to \"Dasa\" that the students wanted visas, even if it took a \"fake job offer [to obtain] CCI's approval,\" but this does not show that DK, BA, or XM knew that the CCI job offer was fake or that their work in the United States would be to perform commercial sex acts.\nThere was sufficient evidence for the jury to find Cooper guilty of the sex-trafficking charges, beyond a reasonable doubt.\nC. The Jury Instructions\n1. The Standard of Review\nWe review the legal correctness of jury instructions de novo but defer to the district court \"on questions of phrasing absent an abuse of discretion.\" United States v. Prather , 205 F.3d 1265, 1270 (11th Cir. 2000). \"Under this standard, we will only reverse 'if we are left with substantial and eradicable doubt as to whether the jury was properly guided in its deliberations.' \" United States v. Puche , 350 F.3d 1137, 1148 (11th Cir. 2003) (quoting McCormick v. Aderholt , 293 F.3d 1254, 1260 (11th Cir. 2002) ). We reverse a district court's refusal to give an instruction if: \"(1) the requested instruction was a correct statement of the law, (2) its subject matter was not substantially covered by other instructions, and (3) its subject matter dealt with an issue in the trial court that was so important that failure to give it seriously impaired the defendant's ability to defend himself.\" United States v. Jordan , 582 F.3d 1239, 1247-48 (11th Cir. 2009) (quoting United States v. Martinelli , 454 F.3d 1300, 1309 (11th Cir. 2006) ).\n2. The Summer Work Travel Program Instruction\nCooper asked the district court to instruct the jury that as to the Summer Work Travel Program:\n[p]rior to May 11, 2012, there was no prohibition on participants performing massages or being employed in the adult entertainment industry including but not limited to jobs with escort services, adult book/video stores and strip clubs.\nThe district court correctly declined to give this instruction because it was \"misleading and confusing.\" See Lamonica v. Safe Hurricane Shutters, Inc. , 711 F.3d 1299, 1309-10 (11th Cir. 2013). At trial, Susan Geary, a State Department employee, testified that the Program did not permit students to be employed in illegal jobs, including prostitution, or in work that could \"bring notoriety and disrepute to not only the Department of State,\" but also to the Program. See 22 C.F.R. \u00a7 62.13 (2010) (sponsors must promptly notify the State Department of anything that could bring it or the \"exchange visitor program into notoriety or dispute\"). Cooper's proposed instruction misstates the regulations by equating an illegal prostitution job with any and all jobs in the adult-entertainment business, and by ignoring the federal regulations forbidding work that could bring notoriety or disrepute to the Program or the State Department. The district court did not err in refusing to give Cooper's requested jury instruction.\n3. Use of a Facility for Unlawful Activity\nCooper argues that the district court incorrectly stated the law on the charge for using a facility in interstate and foreign commerce to promote an unlawful activity, in violation of 18 U.S.C. \u00a7 1952(a)(3)(A). The district court instructed the jury that finding Cooper guilty on this count required proof beyond a reasonable doubt that he:\nused any facility in interstate or foreign commerce between on or about the dates described in the indictment; ... did so with the intent to promote, manage, establish, carry on, or facilitate an unlawful activity; and ... thereafter knowingly performed or attempted to perform an act to promote, manage, establish, carry on, or facilitate an unlawful activity.\nThe district court's instructions included the explanation that:\n\"[u]nlawful activity\" includes any business enterprise involving prostitution and related acts in violation of the laws of the State in which they were committed. The government does not have to prove that the unlawful objective was accomplished or that the referenced State law was actually violated.\nThe unlawful activity alleged in Count Four is a business enterprise involving prostitution and related acts in violation of the laws of Florida. Section 796.07 of the Florida Statutes provides, in part, that it is unlawful to offer to commit, or to commit, or to engage in, prostitution or to aid, abet, or participate in prostitution. The statute defines \"prostitution\" as the giving or receiving of the body for sexual activity for hire but excludes sexual activity between spouses. In turn, \"sexual activity\" means oral, anal, or vaginal penetration by, or union with, the sexual organ of another; anal or vaginal penetration of another by any other object; or the handling or fondling of the sexual organ of another for the purpose of masturbation.\nCooper argues that the words \"prostitution and related acts\" allowed the jury to convict him for acts that did not violate the law.\nRead in context, these words did not create a \"substantial and [in]eradicable doubt as to whether the jury was properly guided in its deliberation.\" United States v. Miller , 819 F.3d 1314, 1316 (11th Cir. 2016) (quoting United States v. Browne , 505 F.3d 1229, 1276 (11th Cir. 2007) ); Roberts & Schaefer Co. v. Hardaway Co. , 152 F.3d 1283, 1295 (11th Cir. 1998). The term \"related acts\" is clearly limited to illegal acts associated with prostitution. The district court did not err in including the \"related act\" language.\nCooper also contends that the second element of the instruction \"deleted the 'specific intent requirement' from the elements in the pattern.\" The record shows that Cooper did not raise this objection in the trial court. We review Cooper's objection both de novo and for plain error. See United States v. Castro , 455 F.3d 1249, 1251 (11th Cir. 2006).\nA \u00a7 1952 charge is \"a complex charge,\" requiring proof that the defendant had \"the intent to promote unlawful activity and thereafter actually did promote or attempt to promote the unlawful activity.\" United States v. James , 210 F.3d 1342, 1345 (11th Cir. 2000) (quoting United States v. Kramer , 73 F.3d 1067, 1071 (11th Cir. 1996) ). The instruction required the jury to find that Cooper used a facility in commerce \"with the intent to promote, manage, establish, carry on, or facilitate an unlawful activity.\" That language is consistent with the statute, and the absence of language explicitly requiring \"specific intent\" was not error. See Kramer , 73 F.3d at 1071.\nCooper argues that the instruction was \"incomplete as to the definition of prostitution under Florida law,\" because it did not specifically exclude acts done for bona-fide medical purposes. No evidence supported an inference that the \"sensual\" and \"happy ending\" massages, or other sexual acts, were for any medical purpose at all. The district court did not err in giving this instruction. See United States v. Paradies , 98 F.3d 1266, 1287 (11th Cir. 1996).\n4. Importation and Attempted Importation of an Alien for Immoral Purpose\nCooper was charged with importing and attempting to import an alien, in violation of 8 U.S.C. \u00a7 1328, which makes it a crime to \"directly or indirectly[ ] import, or attempt to import into the United States an alien for the purpose of prostitution or for any other immoral purpose.\" The court defined \" '[p]rostitution' [as] the performance of a 'commercial sex act' \" and defined \"other immoral purpose\" as \"conduct of the same general class or kind of prostitution.\" Cooper objected that including \"other immoral purpose\" in the instruction permitted the jury to convict him for its \"subjective opinion on morality.\"\nThe jury was instructed that to convict, the government had to prove that Cooper had imported an alien to perform \"a sex act on account of which anything of value is given to or received by any person,\" or for \"promoting conduct of the same general class or kind\" as a commercial sex act. In United States v. Bitty , 208 U.S. 393, 28 S.Ct. 396, 52 L.Ed. 543 (1908), the Supreme Court held that \"the immoral purpose referred to by the words 'any other immoral purpose,' [in \u00a7 1328 ] must be one of the same general class or kind as the particular purpose of 'prostitution' specified in the same class of statute.\" Id. at 402, 28 S.Ct. 396. In United States v. Clark , 582 F.3d 607, 615-16 (5th Cir. 2009), the Fifth Circuit concluded that similar jury instructions to those given here were not erroneous. The district court did not err by giving the instruction.\n5. The Immunized-Witness Instruction\nCooper asked the district court to instruct the jury to \"consider some witnesses' testimony with more caution,\" including \"witnesses who have been promised immunity from prosecution, or witnesses who hope to gain more favorable treatment in their own cases ... in order to strike a good bargain with the Government.\" The district court instead instructed the jury to \"decide whether you believe what each witness had to say\" and to consider if \"the witness [had] any particular reason not to tell the truth\" or a \"personal interest in the outcome of the case.\" Because the jury was instructed to weigh each witness's credibility and consider factors that might diminish it, there was no error.\n6. The Missing-Witness Instruction\nCooper argues that the district court erred in denying his request for a missing-witness instruction as to the Kazakhstani students and Ishmetova. He argues that \"[a]ll five witnesses were within the control of the government\" and that their testimony would have favored him. The district court denied this request, explaining that there was \"no basis to believe that the expected testimony would be beneficial to the government.\"\nThe record shows no abuse of discretion in refusing to give Cooper's requested missing-witness instruction. The record does not show that the witnesses were \"peculiarly within the power of\" the government. See United States v. Link , 921 F.2d 1523, 1528 (11th Cir. 1991). To the contrary, the government tried to get the students and Ishmetova to testify, but they refused to do so. Nor does the record show that the testimony would have been favorable to Cooper. While the students' statements to the Kazakhstani police indicated that they did not know of, or know that they were communicating with, someone named \"Dasa,\" other evidence in the record-including Facebook messages, phone-call logs, and Agent Nguyen's testimony about the reliability of victim statements to police-shows that the students' and Ishmetova's testimony would have aided the government's case.\nThe district court did not err in denying Cooper's request for a missing-witness jury instruction.\nD. Prosecutorial Misconduct\nCooper argues that the prosecutor \"went outside the evidence\" and \"impugned [his] character\" during the opening statement, by calling him a \"two-faced fraud\" and \"phony.\" We review prosecutorial-misconduct claims de novo . United States v. Eckhardt , 466 F.3d 938, 947 (11th Cir. 2006).\nProsecutorial misconduct requires showing that the prosecutor's statement was improper and prejudiced the defendant's substantial rights. United States v. Merrill , 513 F.3d 1293, 1307 (11th Cir. 2008). Prosecutors are not forbidden from using \"colorful and perhaps flamboyant remarks\" when the evidence supports them. United States v. Bailey , 123 F.3d 1381, 1400 (11th Cir. 1997) (quoting United States v. Jacoby , 955 F.2d 1527, 1541 (11th Cir. 1992) ). The government introduced evidence that Cooper used a fake name to run his prostitution business and used false pretenses to recruit the Kazakhstani students to come to Miami to work for him in his prostitution business. The prosecutor's statement was neither improper nor \"so pronounced and persistent that it permeate[d] the entire atmosphere of the trial.\" United States v. Woods , 684 F.3d 1045, 1065 (11th Cir. 2012) (per curiam) (quoting United States v. Crutchfield , 26 F.3d 1098, 1099 (11th Cir. 1994) ). There is no basis for reversal.\nE. A Fair Trial\nCooper argues that the cumulative effect of the errors he alleged denied him a fair trial. We review the record de novo to determine the aggregate effect of any errors. United States v. Dohan , 508 F.3d 989, 993 (11th Cir. 2007).\n\"The cumulative error doctrine 'provides that an aggregation of non-reversible errors ... can yield a denial of the constitutional right to a fair trial, which calls for reversal.' \" United States v. Baker , 432 F.3d 1189, 1223 (11th Cir. 2005) (quoting United States v. Munoz , 150 F.3d 401, 418 (5th Cir. 1998) ), abrogated on other grounds by Davis , 547 U.S. 813, 126 S.Ct. 2266, 165 L.Ed.2d 224. The court \"determine[s] whether an error had substantial influence on the outcome by weighing the record as a whole, examining 'the facts, the trial context of the error, and the prejudice thereby created as juxtaposed against the strength of the evidence of the defendant's guilt.' \" United States v. Hands , 184 F.3d 1322, 1329 (11th Cir. 1999) (citations omitted) (quoting United States v. Reed , 700 F.2d 638, 646 (11th Cir. 1983) ).\nCooper has preserved only a handful of errors. None provides a basis for reversal or new trial, individually or together. The properly admitted evidence overwhelmingly established Cooper's guilt.\nF. Sentencing\nCooper argues that the district court erred in applying the Sentencing Guidelines \"vulnerable victim\" enhancement for his sex-trafficking convictions. The Sentencing Guidelines provide for a two-level increase \"[i]f the defendant knew or should have known that a victim of the offense was a vulnerable victim.\" U.S.S.G. \u00a7 3A1.1(b)(1). A \"vulnerable victim\" is \"a person (A) who is a victim of the offense of conviction and any conduct for which the defendant is accountable under \u00a7 1B1.3 (Relevant Conduct); and (B) who is unusually vulnerable due to age, physical or mental condition, or who is otherwise particularly susceptible to the criminal conduct.\" U.S.S.G. \u00a7 3A1.1, cmt. n.2. The \"enhancement applies when the defendant specifically targets his victims based on the victim's perceived vulnerability to the offense.\" United States v. Phillips , 287 F.3d 1053, 1057 (11th Cir. 2002). With that enhancement, his offense level was 40, which, with a criminal history category of III, produced a guideline range of 360 months to life. The court imposed a 360-month sentence.\nWe review de novo the district court's application of the vulnerable-victim enhancement, \"giv[ing] due deference to the district court's determination that the victim was vulnerable, as this is a factual finding.\" United States v. Kapordelis , 569 F.3d 1291, 1315-16 (11th Cir. 2009). The government must establish facts supporting the enhancement by a preponderance of the evidence. United States v. Turner , 626 F.3d 566, 572 (11th Cir. 2010).\nThe district court did not err in finding that AO and ZR were vulnerable victims. The district court found that \"[t]he women ha[d] never been to or reside[d] in the United States and they did not have any family ties in the country.\" The district court noted that the presentence report concluded that the students looked for other employment, but that Cooper \"told them that they could not work for anyone else because he was their J-1 Visa sponsor\" and that they would need to find housing if they refused to work for him. Cf. United States v. Day , 405 F.3d 1293, 1296 (11th Cir. 2005). Ample trial evidence showed that AO and ZR had difficulty speaking English, had no other jobs, family, or friends in the United States, and had no affordable place to stay besides Cooper's apartment.\nWithout the enhancement, Cooper's 360-month sentence was within the guidelines range and below the potential maximum life sentence. United States v. Gonzalez , 550 F.3d 1319, 1324 (11th Cir. 2008) (per curiam). There is no basis to find that the sentence was wrongly calculated or unreasonable, United States v. Keene , 470 F.3d 1347, 1349-50 (11th Cir. 2006), and no basis for reversal.\nIII. CONCLUSION\nWe AFFIRM Cooper's convictions and sentence.\nCooper argues that exhibits 72 and 72A-H included hearsay. Cooper mentions the hearsay objection in one sentence at the end of one paragraph, under the header \"Unnoticed and/or Inadmissible 404(b) Evidence.\" This passing reference did not sufficiently raise his hearsay objection to preserve it on appeal. See, e.g. , Brown v. United States , 720 F.3d 1316, 1332-33 (11th Cir. 2013) ; United States v. Jernigan , 341 F.3d 1273, 1283 n.8 (11th Cir. 2003).",
+        "type": "majority",
+        "author": "ROSENTHAL, Chief District Judge:"
+      }
+    ],
+    "attorneys": [
+      "Elizabeth Hecker, U.S. Department of Justice, Civil Rights Division, Appellate Section, Washington, DC, Stephen Schlessinger, Anne Ruth Schultz, Emily M. Smachetti, U.S. Attorney Service - Southern District of Florida, U.S. Attorney Service - SFL, Miami, FL, for Plaintiff-Appellee.",
+      "Gennaro Cariglio, Jr., Law Office of Gennaro Cariglio Jr., Zeljka Bozanic, Bozanic & Associates, PA, Dennis Gonzalez, Jr., Gonzalez & Herrera, PA, Manuel Fernando Herrera, Quintairos Prieto Wood & Boyer, PA, Miami, FL, for Defendant-Appellant."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff-Appellee,\nv.\nJeffrey COOPER, Defendant-Appellant.\nNo. 17-11548\nUnited States Court of Appeals, Eleventh Circuit.\nJune 10, 2019\nElizabeth Hecker, U.S. Department of Justice, Civil Rights Division, Appellate Section, Washington, DC, Stephen Schlessinger, Anne Ruth Schultz, Emily M. Smachetti, U.S. Attorney Service - Southern District of Florida, U.S. Attorney Service - SFL, Miami, FL, for Plaintiff-Appellee.\nGennaro Cariglio, Jr., Law Office of Gennaro Cariglio Jr., Zeljka Bozanic, Bozanic & Associates, PA, Dennis Gonzalez, Jr., Gonzalez & Herrera, PA, Manuel Fernando Herrera, Quintairos Prieto Wood & Boyer, PA, Miami, FL, for Defendant-Appellant.\nBefore WILLIAM PRYOR and NEWSOM, Circuit Judges, and ROSENTHAL, Chief District Judge.\nHonorable Lee H. Rosenthal, Chief United States District Judge for the Southern District of Texas, sitting by designation."
+  },
+  "file_name": "0718-01",
+  "first_page_order": 718,
+  "last_page_order": 741
+}

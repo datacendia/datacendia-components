@@ -1,0 +1,59 @@
+{
+  "id": 12208253,
+  "name": "Gooch v. United States",
+  "name_abbreviation": "Gooch v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10951",
+  "first_page": "858",
+  "last_page": "858",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 858"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.616,
+    "sha256": "b0fa5a31abc65fca5eef863c1f832de3d057a503865b4d21c513c653b5f27fd7",
+    "simhash": "1:05bbe7236daf2946",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gooch v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10951.\nGooch v. United States."
+  },
+  "file_name": "0858-14",
+  "first_page_order": 940,
+  "last_page_order": 940
+}

@@ -1,0 +1,68 @@
+{
+  "id": 12699027,
+  "name": "In Re Robert HEXIMER, petitioner.",
+  "name_abbreviation": "In re Heximer",
+  "decision_date": "2013-08-30",
+  "docket_number": "No. 12\u20139595.",
+  "first_page": "945",
+  "last_page": "945",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "570 U.S. 945"
+    },
+    {
+      "type": "parallel",
+      "cite": "186 L. Ed. 2d 960"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 47"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 25,
+    "char_count": 156,
+    "sha256": "b343a853231f88a740602534c485be7be93ee93be8698fc7caf72cee7a21b021",
+    "simhash": "1:f3af54121e9ae316",
+    "word_count": 26
+  },
+  "last_updated": "2021-08-27T21:08:29.525195+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In Re Robert HEXIMER, petitioner."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Motion for leave to file a petition for rehearing denied."
+    ],
+    "corrections": "",
+    "head_matter": "In Re Robert HEXIMER, petitioner.\nNo. 12-9595.\nSupreme Court of the United States\nAug. 30, 2013.\nMotion for leave to file a petition for rehearing denied."
+  },
+  "file_name": "0945-17",
+  "first_page_order": 945,
+  "last_page_order": 945
+}

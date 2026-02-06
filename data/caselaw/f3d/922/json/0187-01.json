@@ -1,0 +1,556 @@
+{
+  "id": 12520909,
+  "name": "William James MITCHELL, Petitioner - Appellant, v. Kathleen S. GREEN, Warden; The Attorney General of the State of Maryland, Respondents - Appellees.",
+  "name_abbreviation": "Mitchell v. Green",
+  "decision_date": "2019-04-17",
+  "docket_number": "No. 17-7450",
+  "first_page": "187",
+  "last_page": "198",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "922 F.3d 187"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "4th Cir.",
+    "id": 8954,
+    "name": "United States Court of Appeals for the Fourth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "857 F.3d 531",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12276591
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "539"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/857/0531-01"
+      ]
+    },
+    {
+      "cite": "2011 WL 4578346",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2011,
+      "opinion_index": 0
+    },
+    {
+      "cite": "2017 WL 1102595",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2017,
+      "opinion_index": 0
+    },
+    {
+      "cite": "462 F. App'x 827",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        3914492
+      ],
+      "weight": 2,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "830",
+          "parenthetical": "unpublished"
+        },
+        {
+          "page": "830",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/462/0827-01"
+      ]
+    },
+    {
+      "cite": "685 F.3d 51",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3901357
+      ],
+      "weight": 2,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "60",
+          "parenthetical": "Massachusetts rule"
+        },
+        {
+          "page": "60",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/685/0051-01"
+      ]
+    },
+    {
+      "cite": "439 F. App'x 786",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        3440916
+      ],
+      "year": 2011,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/439/0786-01"
+      ]
+    },
+    {
+      "cite": "855 F.3d 1274",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12277168
+      ],
+      "weight": 6,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1275",
+          "parenthetical": "motion under Florida rule"
+        },
+        {
+          "page": "1275",
+          "parenthetical": "engaging in similar Kholi analysis"
+        },
+        {
+          "page": "1278",
+          "parenthetical": "concluding that comparable structural difference between Florida and Rhode Island rules was \"immaterial\""
+        },
+        {
+          "page": "1278",
+          "parenthetical": "\"No requirement exists that an application for collateral review include the ability to appeal a trial court's reexamination of a sentence [or] that a legal standard govern the reexamination ....\""
+        },
+        {
+          "page": "1278",
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/855/1274-01"
+      ]
+    },
+    {
+      "cite": "2017 WL 3836046",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2017,
+      "opinion_index": 0
+    },
+    {
+      "cite": "2017 WL 3492165",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2017,
+      "opinion_index": 0
+    },
+    {
+      "cite": "2017 WL 3446770",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2017,
+      "opinion_index": 0
+    },
+    {
+      "cite": "2014 WL 6674577",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2014,
+      "opinion_index": 0
+    },
+    {
+      "cite": "2014 WL 1320096",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2014,
+      "opinion_index": 0
+    },
+    {
+      "cite": "2013 WL 6844279",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2013,
+      "opinion_index": 0
+    },
+    {
+      "cite": "2013 WL 5882786",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2013,
+      "opinion_index": 0
+    },
+    {
+      "cite": "2013 WL 5797583",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2013,
+      "opinion_index": 0
+    },
+    {
+      "cite": "2013 WL 425040",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 2,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "*7"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "125 Md.App. 428",
+      "category": "reporters:state",
+      "reporter": "Md. App.",
+      "case_ids": [
+        777276
+      ],
+      "weight": 2,
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "642"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/md-app/125/0428-01"
+      ]
+    },
+    {
+      "cite": "948 A.2d 30",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "case_ids": [
+        3597161,
+        3558919
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "44",
+          "parenthetical": "quoting State v. Rodriguez , 125 Md.App. 428, 725 A.2d 635, 642 (Md. Ct. Spec. App. 1999) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/md-app/178/0504-01",
+        "/md/404/0591-01"
+      ]
+    },
+    {
+      "cite": "404 Md. 591",
+      "category": "reporters:state",
+      "reporter": "Md.",
+      "case_ids": [
+        3558919
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "parenthetical": "quoting State v. Rodriguez , 125 Md.App. 428, 725 A.2d 635, 642 (Md. Ct. Spec. App. 1999) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/md/404/0591-01"
+      ]
+    },
+    {
+      "cite": "199 A.3d 693",
+      "category": "reporters:state_regional",
+      "reporter": "A.3d",
+      "case_ids": [
+        12504979,
+        12504980,
+        12504981,
+        12504982
+      ],
+      "year": 2019,
+      "opinion_index": 0,
+      "case_paths": [
+        "/a3d/199/0693-01",
+        "/a3d/199/0693-02",
+        "/a3d/199/0693-03",
+        "/a3d/199/0693-04"
+      ]
+    },
+    {
+      "cite": "462 Md. 261",
+      "category": "reporters:state",
+      "reporter": "Md.",
+      "case_ids": [
+        12504979,
+        12504981
+      ],
+      "year": 2019,
+      "opinion_index": 0,
+      "case_paths": [
+        "/a3d/199/0693-01",
+        "/a3d/199/0693-03"
+      ]
+    },
+    {
+      "cite": "238 Md.App. 681",
+      "category": "reporters:state",
+      "reporter": "Md. App.",
+      "case_ids": [
+        12501439
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "parenthetical": "concluding that, when Maryland Rule 4-345 motion to reduce sentence is belatedly filed because of counsel's ineffective assistance, court retains jurisdiction beyond subsection (e)(1)'s five-year window"
+        },
+        {
+          "page": "54-56",
+          "parenthetical": "concluding that, when Maryland Rule 4-345 motion to reduce sentence is belatedly filed because of counsel's ineffective assistance, court retains jurisdiction beyond subsection (e)(1)'s five-year window"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/a3d/194/0049-01"
+      ]
+    },
+    {
+      "cite": "276 F.3d 183",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9451820
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "185"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/276/0183-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7\u00a7 1291",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 2244",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 8,
+      "pin_cites": [
+        {
+          "page": "(d)(1)(A)",
+          "parenthetical": "specifying, in relevant part, that the one-year limitations period runs from \"the date on which the judgment became final by the conclusion of direct review or the expiration of the time for seeking such review\""
+        },
+        {
+          "page": "(d)(2)",
+          "parenthetical": "providing in full that \"[t]he time during which a properly filed application for State post-conviction or other collateral review with respect to the pertinent judgment or claim is pending shall not be counted toward any period of limitation under this subsection\""
+        },
+        {
+          "page": "10, 12"
+        },
+        {
+          "page": "(d)(2)"
+        },
+        {
+          "page": "(d)(2)"
+        },
+        {
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "(d)(2)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "562 U.S. 545",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5991689,
+        12457267
+      ],
+      "weight": 73,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "parenthetical": "quoting R.I. Super. Ct. R. Crim. P. 35(a)"
+        },
+        {
+          "page": "554"
+        },
+        {
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "551"
+        },
+        {
+          "page": "553"
+        },
+        {
+          "page": "555"
+        },
+        {
+          "page": "555-56"
+        },
+        {
+          "page": "556"
+        },
+        {
+          "page": "557-60"
+        },
+        {
+          "page": "558"
+        },
+        {
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "558"
+        },
+        {
+          "page": "558-59"
+        },
+        {
+          "parenthetical": "\"[The direct review] issue has not been briefed or argued by the parties, ... and we express no opinion as to the merit of such an argument.\""
+        },
+        {
+          "page": "560-61"
+        },
+        {
+          "page": "551"
+        },
+        {
+          "page": "553"
+        },
+        {
+          "page": "556"
+        },
+        {
+          "page": "558"
+        },
+        {
+          "page": "553"
+        },
+        {
+          "page": "555"
+        },
+        {
+          "page": "558"
+        },
+        {
+          "page": "558"
+        },
+        {
+          "page": "558-59"
+        },
+        {
+          "page": "558"
+        },
+        {
+          "page": "558"
+        },
+        {
+          "page": "551"
+        },
+        {
+          "page": "558"
+        },
+        {
+          "page": "553, 555"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/562/0545-01",
+        "/l-ed-2d/179/0252-01"
+      ]
+    },
+    {
+      "cite": "2017 WL 4536001",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2017,
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 2254",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 5,
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1124,
+    "char_count": 34997,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2592790158808487
+    },
+    "sha256": "d87810126dddbcf96cd3f36bb9eb54ed97ce57723fe8c8ddcafe9d4210b373ea",
+    "simhash": "1:f46e4e399a1d354c",
+    "word_count": 5636
+  },
+  "last_updated": "2024-02-27T18:46:53.504629+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before KING, FLOYD, and THACKER, Circuit Judges."
+    ],
+    "parties": [
+      "William James MITCHELL, Petitioner - Appellant,\nv.\nKathleen S. GREEN, Warden; The Attorney General of the State of Maryland, Respondents - Appellees."
+    ],
+    "opinions": [
+      {
+        "text": "KING, Circuit Judge:\nAt the request of the respondent Maryland officials and in accordance with previous District of Maryland rulings, the district court dismissed state prisoner William James Mitchell's 28 U.S.C. \u00a7 2254 petition for being untimely filed. See Mitchell v. Green , No. 8:13-cv-02063, 2017 WL 4536001 (D. Md. Oct. 11, 2017), ECF Nos. 31 & 32 (the \"Opinion\" and \"Order\"). Having nevertheless acknowledged questions about whether the local rulings breached the Supreme Court's decision in Wall v. Kholi , 562 U.S. 545, 131 S.Ct. 1278, 179 L.Ed.2d 252 (2011), the district court granted Mitchell a certificate of appealability on the central timeliness issue: whether the one-year limitations period prescribed by the Antiterrorism and Effective Death Penalty Act of 1996 (\"AEDPA\") for filing the \u00a7 2254 petition was tolled by Mitchell's state court motion to reduce sentence under Rule 4-345 of the Maryland Rules. Whereas the district court determined, consistent with the other District of Maryland rulings, that no such tolling occurred, we find ourselves compelled by Kholi to conclude that the limitations period was tolled during the pendency of the Maryland Rule 4-345 motion. Consequently, we vacate and remand for further proceedings.\nI.\nAs explained in its Opinion of October 11, 2017, the district court received Mitchell's 28 U.S.C. \u00a7 2254 petition on July 17, 2013. The court calculated that AEDPA's one-year limitations period for the filing of the \u00a7 2254 petition began to run nearly four years earlier, on August 21, 2009, the date on which Mitchell's state criminal judgment became final. See 28 U.S.C. \u00a7 2244(d)(1)(A) (specifying, in relevant part, that the one-year limitations period runs from \"the date on which the judgment became final by the conclusion of direct review or the expiration of the time for seeking such review\").\nDespite the nearly four-year lapse between the finalization of Mitchell's state criminal judgment and the filing of his \u00a7 2254 petition, the district court recognized that the \u00a7 2254 petition was timely filed if the limitations period was tolled during the pendency - for more than three years - of Mitchell's Maryland Rule 4-345 motion to reduce sentence. Mitchell filed his Maryland Rule 4-345 motion on September 2, 2009, soon after his state criminal judgment became final, and the motion was resolved on October 1, 2012, when it was denied by the state trial court (the Circuit Court for Harford County). To have tolled the \u00a7 2254 petition's limitations period for those three-plus years, the Maryland Rule 4-345 motion must constitute an \"application for State postconviction or other collateral review\" within the meaning of AEDPA's tolling provision. See 28 U.S.C. \u00a7 2244(d)(2) (providing in full that \"[t]he time during which a properly filed application for State post-conviction or other collateral review with respect to the pertinent judgment or claim is pending shall not be counted toward any period of limitation under this subsection\").\nIn its Opinion, the district court observed that Mitchell presented a substantial argument, relying on the Supreme Court's Kholi decision, that the Maryland Rule 4-345 motion sought \"collateral review\" and thus tolled the \u00a7 2254 petition's limitations period. The respondent Maryland officials countered, however, with the previous local rulings - rendered by six District of Maryland judges - rejecting similar Kholi -based contentions. Adhering to \"the unbroken chain of decisions from this district\" and respecting \"the need for uniformity in this area,\" the court ultimately ruled that \"a motion under Md. Rule 4-345 does not toll the running of the statute of limitations.\" See Opinion 10. But the court also emphasized that there was \"no question ... that the procedural ruling is open to significant debate\" and \"only appellate courts can definitively resolve the issue.\" Id. at 10, 12. By its accompanying Order of October 11, 2017, the court dismissed Mitchell's \u00a7 2254 petition for being untimely filed and sua sponte granted him the certificate of appealability so that we may confront the timeliness question.\nII.\nAs a result of the certificate of appealability granted by the district court, we possess jurisdiction in these proceedings pursuant to 28 U.S.C. \u00a7\u00a7 1291 and 2253(c)(1)(A). Again, the issue before us is whether AEDPA's one-year limitations period for filing Mitchell's 28 U.S.C. \u00a7 2254 petition was tolled by his Maryland Rule 4-345 motion to reduce sentence. That is, we are called upon to decide whether the Maryland Rule 4-345 motion constitutes an \"application for State post-conviction or other collateral review\" within the meaning of AEDPA's tolling provision. See 28 U.S.C. \u00a7 2244(d)(2). Our review of this timeliness question is de novo. See Allen v. Mitchell , 276 F.3d 183, 185 (4th Cir. 2001).\nA.\nIn its key decision in Wall v. Kholi , in 2011, the Supreme Court assessed whether a motion to reduce sentence under Rhode Island law triggers AEDPA's tolling provision. See 562 U.S. 545, 131 S.Ct. 1278, 179 L.Ed.2d 252 (2011). The law at issue was Rule 35 of the Rhode Island Superior Court Rules of Criminal Procedure, which by its subsection (a) authorizes a court to \"reduce any sentence,\" as well as to \"correct an illegal sentence\" and to \"correct a sentence imposed in an illegal manner.\" Id. at 548 n.1, 131 S.Ct. 1278 (emphasis omitted) (quoting R.I. Super. Ct. R. Crim. P. 35(a)). For a sentence reduction, Rhode Island Rule 35 requires the filing of a motion within 120 days after one of the following events: the court's imposition of the sentence at issue; the receipt by the court of the mandate of the Supreme Court of Rhode Island upon affirmance of the judgment or dismissal of the appeal; or receipt by the court of the mandate or order of the Supreme Court of the United States upon affirmance of the judgment, dismissal of the appeal, or denial of a writ of certiorari. With respect to any Rule 35 motion, the court is obliged to \"act on the motion within a reasonable time, provided that any delay by the court in ruling on the motion shall not prejudice the movant.\" Id. (quoting R.I. Super. Ct. R. Crim. P. 35(a)).\nThe Kholi Court described a Rhode Island Rule 35 motion to reduce sentence as a \"plea for leniency\" that \"permits a trial justice to decide on reflection or on the basis of changed circumstances that the sentence originally imposed was, for any reason, unduly severe.\" See 562 U.S. at 554, 131 S.Ct. 1278 (internal quotation marks omitted). Such a motion \"is addressed to the sound discretion of the trial justice,\" whose decision may not be disturbed on appeal unless \"the trial justice has imposed a sentence that is without justification and is grossly disparate from other sentences generally imposed for similar offenses.\" Id. (internal quotation marks omitted).\nAs the Kholi Court recognized, the question before it with respect to AEDPA's tolling provision - \"whether a motion for reduction of sentence under Rhode Island's Rule 35 is an 'application for State post-conviction or other collateral review' \" - \"turns on the meaning of the phrase 'collateral review.' \" See 562 U.S. at 551, 131 S.Ct. 1278 (quoting 28 U.S.C. \u00a7 2244(d)(2) ). Consequently, the Kholi decision focused on interpreting and applying that phrase. Writing for the unanimous Court, Justice Alito rejected Rhode Island's contention \"that 'collateral review' includes only 'legal' challenges to a conviction or sentence and thus excludes motions seeking a discretionary sentence reduction.\" Id. Instead, the Court agreed with prisoner Kholi's position \"that 'collateral review' is review other than review of a judgment in the direct appeal process and thus includes motions to reduce sentence.\" Id. (internal quotation marks omitted).\nUpon careful examination of both \"collateral\" and \"review,\" the Kholi Court summarized that \" 'collateral review' of a judgment or claim means a judicial reexamination of a judgment or claim in a proceeding outside of the direct review process.\" See 562 U.S. at 553, 131 S.Ct. 1278. Applying that definition to a Rhode Island Rule 35 motion to reduce sentence, the Court easily determined that the \"proceeding is 'collateral,' \" because \"such a motion is not part of the direct review process.\" Id. at 555, 131 S.Ct. 1278. Further ruling that the Rule 35 motion \"undoubtedly calls for 'review' of the sentence,\" the Court explained as follows:\nThe decision to reduce a sentence, while largely within the discretion of the trial justice, involves judicial reexamination of the sentence to determine whether a more lenient sentence is proper. When ruling on such a motion, a trial justice is guided by several factors, including (1) the severity of the crime, (2) the defendant's personal, educational, and employment background, (3) the potential for rehabilitation, (4) the element of societal deterrence, and (5) the appropriateness of the punishment. On appeal from a trial justice's decision on a motion to reduce sentence, the Supreme Court of Rhode Island evaluates the trial justice's justifications in light of the relevant sentencing factors to determine whether a sentence is without justification and grossly disparate from other sentences. This process surely qualifies as \"review\" of a sentence within the meaning of \u00a7 2244(d)(2).\nId. at 555-56, 131 S.Ct. 1278 (footnotes and internal quotation marks omitted). Accordingly, the Court held \"that a motion to reduce sentence under Rhode Island law is an application for 'collateral review' that triggers AEDPA's tolling provision.\" Id. at 556, 131 S.Ct. 1278.\nThe Kholi Court also outlined and addressed Rhode Island's various arguments, explaining why they were unpersuasive. See 562 U.S. at 557-60, 131 S.Ct. 1278. Of particular importance here, Rhode Island had asserted that the purpose of AEDPA's \"tolling provision is to allow a state prisoner to exhaust state remedies and that this purpose is not served when a prisoner's state application merely seeks sentencing leniency, a matter that cannot be raised in a federal habeas petition.\" Id. at 558, 131 S.Ct. 1278. Roundly rejecting that interpretation, the Court instead construed the tolling provision to incentivize litigants to pursue \"all 'collateral review' motions\" in state court - including those \"that do not challenge the lawfulness of a judgment\" - thereby potentially \"narrow[ing] or even obviat[ing]\" the need for federal habeas review while \"further[ing] principles of comity, finality, and federalism.\" Id. (internal quotation marks omitted). That is, the Court concluded that a lack of cognizability on federal habeas review does not preclude a simple plea for leniency from qualifying as an application for \"collateral review\" within the meaning of the tolling provision.\nIn addition to concluding that Rhode Island had misinterpreted the tolling provision, the Kholi Court observed that Rhode Island's interpretation would \"greatly complicate the work of federal habeas courts\" by requiring them \"to separate motions for a reduced sentence into two categories: those that challenge a sentence on legal grounds and those that merely ask for leniency.\" See 562 U.S. at 558, 131 S.Ct. 1278. Elaborating on why that classification scheme, or \"taxonomy,\" would be \"problematic,\" the Court provided the example that a movant may seek leniency on the ground that the trial judge's discretionary sentencing decision was not guided by sound legal principles. Id. at 558-59, 131 S.Ct. 1278 (\"If the law of a jurisdiction provides criteria to guide a trial judge's exercise of sentencing discretion, a motion to reduce sentence may argue that a sentence is inconsistent with those criteria. In that sense, the motion argues that the sentence is contrary to sentencing law.\").\nAdditional aspects of the Kholi decision have been highlighted in these proceedings. They include a footnote in which the Court remarked that it could \"imagine an argument that a Rhode Island Rule 35 proceeding is in fact part of direct review under [ 28 U.S.C.] \u00a7 2244(d)(1) because, according to the parties, defendants in Rhode Island cannot raise any challenge to their sentences on direct appeal; instead they must bring a Rule 35 motion.\" See Kholi , 562 U.S. at 555 n.3, 131 S.Ct. 1278. The Court explicitly refrained, however, from deciding whether a Rhode Island Rule 35 motion involves direct - rather than collateral - review. See id. (\"[The direct review] issue has not been briefed or argued by the parties, ... and we express no opinion as to the merit of such an argument.\"); see also id. at 560-61, 131 S.Ct. 1278 (Scalia, J., concurring in part) (explaining that, because he agreed with the Court's conclusions \"that the term 'collateral review' in 28 U.S.C. \u00a7 2244(d)(2) means review that is not direct\" and \"that a motion under Rhode Island's Rule 35 seeks collateral review,\" he could not \"join footnote 3 of the Court's opinion, which declines to decide whether a Rule 35 motion seeks direct review\" (citations omitted)).\nFinally, the Kholi Court focused, of course, on the particular motion before it - a Rhode Island Rule 35 motion to reduce sentence. See, e.g. , 562 U.S. at 551, 131 S.Ct. 1278 (\"The question in this case is whether a motion for reduction of sentence under Rhode Island's Rule 35 is an 'application for State post-conviction or other collateral review.\"); id. at 553, 131 S.Ct. 1278 (\"We now apply this definition of 'collateral review' to a Rule 35 motion to reduce sentence under Rhode Island law.\"); id. at 556, 131 S.Ct. 1278 (\"We thus hold that a motion to reduce sentence under Rhode Island law is an application for 'collateral review' that triggers AEDPA's tolling provision.\"). Nevertheless, the Court plainly anticipated that its analysis would be utilized - and properly so - to decide the tolling effects of other state motions to reduce sentence. For example, the Court explained that, because the courts of appeals were \"divided over the question whether a motion to reduce sentence tolls the period of limitation under \u00a7 2244(d)(2),\" it had \"granted certiorari to answer this question with respect to a motion to reduce sentence under Rhode Island law.\" See id. at 550 & n.2, 131 S.Ct. 1278 (citing conflicting Third, Fourth, Tenth, and Eleventh Circuit decisions addressing motions to reduce sentence filed pursuant to Delaware, West Virginia, Colorado, and Florida rules).\nB.\nThe sentence reduction provision at issue here, Maryland Rule 4-345, provides in pertinent part in its subsection (e):\nUpon a motion filed within 90 days after imposition of a sentence ... in a circuit court, whether or not an appeal has been filed, the court has revisory power over the sentence except that it may not revise the sentence after the expiration of five years from the date the sentence originally was imposed on the defendant and it may not increase the sentence.\nSee Md. R. 4-345(e)(1) ; see also Schlick v. State , 238 Md.App. 681, 194 A.3d 49, 54-56 (Md. Ct. Spec. App. 2018) (concluding that, when Maryland Rule 4-345 motion to reduce sentence is belatedly filed because of counsel's ineffective assistance, court retains jurisdiction beyond subsection (e)(1)'s five-year window), cert. granted , 462 Md. 261, 199 A.3d 693 (2019). Separately, subsection (a) of Rule 4-345 allows a court to \"correct an illegal sentence at any time.\" See Md. R. 4-345(a). Although a Rule 4-345 motion to correct an illegal sentence is subject to appellate review, a Rule 4-345 motion to reduce sentence generally \"is directed to the sound discretion of the trial court and is not appealable.\" See Hoile v. State , 404 Md. 591, 948 A.2d 30, 44 (2008) (quoting State v. Rodriguez , 125 Md.App. 428, 725 A.2d 635, 642 (Md. Ct. Spec. App. 1999) ).\nFollowing the Supreme Court's Kholi decision, the initial District of Maryland ruling on whether a Maryland Rule 4-345 motion to reduce sentence triggers AEDPA's tolling provision was in 2013, in the matter of Tasker v. Maryland . At the time prisoner Tasker filed his motion to reduce sentence, Rule 4-345 authorized a court to correct an illegal sentence in subsection (a) and to reduce a sentence in subsection (b). Rule 4-345 also did not impose the five-year window or any time limit for a court to grant a sentence reduction. Upon examining the controlling Kholi precedent and outlining the parties' competing contentions regarding the import of that decision, the Tasker court ruled that Tasker's Rule 4-345 motion to reduce sentence did not toll AEDPA's limitations period. Without passing upon the merits of all of Maryland's arguments, the Tasker court premised its ruling on the following points:\n\u2022 \"The Supreme Court repeatedly stated in Kholi that it was addressing the procedure under Rhode Island Rule 35\";\n\u2022 Unlike Rhode Island Rule 35 - which, all by its subsection (a), authorizes a court to correct an illegal sentence, to correct a sentence imposed in an illegal manner, and to reduce a sentence on a plea for leniency - Maryland Rule 4-345 has \"specifically delineated and separate routes for challenges\" to the legality of sentences, in subsection (a), and for requests for leniency, then in subsection (b) and now in subsection (e);\n\u2022 \"Rhode Island's proposed taxonomy dividing Rule 35 motions into those that 'challenge a sentence on legal grounds and those that merely ask for leniency,' which was rejected [by the Kholi Court] as 'problematic' and burdensome, does not pose such complications under Maryland's procedural framework\";\n\u2022 Because Tasker's Maryland 4-345 motion to reduce sentence asked \"purely for leniency,\" it could \"neither address nor exhaust a cognizable federal claim on habeas review\";\n\u2022 Tasker's Rule 4-345 motion was \"not subject to [state appellate] review\"; and\n\u2022 Absent any time limit in Rule 4-345 for a court to grant a motion to reduce sentence, such a motion could toll AEDPA's limitations period \"indefinitely.\"\nSee Tasker v. Maryland , No. 8:11-cv-01869, slip op. at 15-16, 2013 WL 425040 (D. Md. Jan. 31, 2013), ECF No. 26 (quoting Kholi , 562 U.S. at 558, 131 S.Ct. 1278 ). In those circumstances, according to the Tasker court, to rule in Tasker's favor \"would undermine the stated goals of the AEDPA statute.\" Id. at 16, 2013 WL 425040 at *7.\nAt least eight subsequent District of Maryland decisions have adhered to the Tasker ruling and concluded that motions to reduce sentence - whether under the former or current version of Maryland Rule 4-345 - do not trigger AEDPA's tolling provision. See Short v. Shearin , No. 8:12-cv-02476, slip op. at 4, 2013 WL 5797583 (D. Md. Oct. 25, 2013), ECF No. 18 ; Roberts v. Maryland , No. 1:11-cv-01227, slip op. at 4-8, 2013 WL 5882786 (D. Md. Oct. 28, 2013), ECF No. 24 ; Scott v. Green , No. 1:13-cv-02002, slip op. at 4 n.11, 2013 WL 6844279 (D. Md. Dec. 23, 2013), ECF No. 14 ; Asemani v. Bishop , No. 1:13-cv-00925, slip op. at 4, 2014 WL 1320096 (D. Md. Mar. 31, 2014), ECF No. 31 ; Woodfolk v. Maynard , No. 1:13-cv-03268, slip op. at 3-5, 2014 WL 6674577 (D. Md. Nov. 24, 2014), ECF No. 21 ; Maize v. Warden , No. 1:16-cv-04070, slip op. at 4, 2017 WL 3446770 (D. Md. Aug. 10, 2017), ECF No. 12 ; Savoy v. Bishop , No. 8:13-cv-00751, slip op. at 4-6, 2017 WL 3492165 (D. Md. Aug. 15, 2017), ECF No. 27 ; Wells v. Wolfe , No. 1:14-cv-00985, slip op. at 6-8, 2017 WL 3836046 (D. Md. Aug. 31, 2017), ECF No. 10.\nMeanwhile, other federal courts have rejected Tasker -like analyses as being incompatible with the controlling Kholi precedent. In Rogers v. Secretary, Department of Corrections , 855 F.3d 1274 (11th Cir. 2017), the Eleventh Circuit declined to follow a prior unpublished opinion, Baker v. McNeil , 439 F. App'x 786 (11th Cir. 2011), on which the Tasker court had relied. Along with the Eleventh Circuit in Rogers , the First and Tenth Circuits have recognized they were bound by Kholi to conclude that a motion to reduce sentence triggers AEDPA's tolling provision. See Rogers , 855 F.3d at 1275 (motion under Florida rule); Holmes v. Spencer , 685 F.3d 51, 60 (1st Cir. 2012) (Massachusetts rule); Najera v. Murphy , 462 F. App'x 827, 830 (10th Cir. 2012) (unpublished) (Wyoming rule). Many federal district courts have made similar determinations, including district courts within this Circuit analyzing the tolling effect of motions to reduce sentence under their home state rules. See, e.g. , Walton v. Ballard , No. 2:15-cv-11423, slip op. at 5, 2017 WL 1102595 (S.D. W. Va. Mar. 24, 2017), ECF No. 32 (West Virginia rule); Mixson v. Warden , No. 7:11-cv-00308, slip op. at 4 n.3, 2011 WL 4578346 (W.D. Va. Sept. 30, 2011), ECF No. 19 (Virginia rule).\nC.\nOur examination of the Supreme Court's Kholi decision convinces us that a Maryland Rule 4-345 motion to reduce sentence tolls AEDPA's limitations period. Simply put, such a motion involves \"judicial reexamination of a judgment ... in a proceeding outside of the direct review process.\" See Kholi , 562 U.S. at 553, 131 S.Ct. 1278. That is, like a motion to reduce sentence under Kholi 's Rhode Island Rule 35, a Maryland Rule 4-345 motion to reduce sentence \"is not part of the direct review process\" and \"undoubtedly calls for 'review' of the sentence.\" See id. at 555, 131 S.Ct. 1278. A proper Kholi analysis is just that straightforward. See Rogers , 855 F.3d at 1275 (engaging in similar Kholi analysis); Holmes , 685 F.3d at 60 (same); Najera , 462 F. App'x at 830 (same).\nContrary to the District of Maryland's Tasker ruling and its progeny, there are no meaningful distinctions between Rhode Island Rule 35 and Maryland Rule 4-345 for purposes of our decision. In particular, it is of no import that a single subsection of Rhode Island Rule 35 authorizes a court to correct an illegal sentence, to correct a sentence imposed in an illegal manner, and to reduce a sentence on a plea for leniency, while separate subsections of Maryland Rule 4-345 provide for challenges to the legality of sentences and for leniency requests. Indeed, the purported relevance of those different frameworks rests on a false premise: that the Kholi Court rejected as \"problematic\" Rhode Island's proposed scheme to categorize Rule 35 motions as either \"those that challenge a sentence on legal grounds\" or \"those that merely ask for leniency,\" because Rule 35's particular framework made such classification too complicated. See Kholi , 562 U.S. at 558, 131 S.Ct. 1278.\nActually, the Kholi Court primarily rejected Rhode Island's proposed classification scheme as unnecessary, in that the Court construed AEDPA's tolling provision to broadly encompass \"all 'collateral review' motions,\" whether legal challenges or leniency requests. See 562 U.S. at 558, 131 S.Ct. 1278. Although the Court also deemed Rhode Island's proposed scheme to be overly complicated, that was not due to Rule 35's particular framework, but to the general difficulty in categorizing, e.g., a plea for leniency on the ground that the trial judge's discretionary sentencing decision was not guided by sound legal principles. See id. at 558-59, 131 S.Ct. 1278.\nConsequently, Maryland Rule 4-345 's framework does not materially distinguish it from Rhode Island Rule 35. Accord Rogers , 855 F.3d at 1278 (concluding that comparable structural difference between Florida and Rhode Island rules was \"immaterial\"). Indeed, Rule 4-345 's framework does not solve the classification difficulty identified by the Supreme Court - that a motion to reduce sentence may consist of both a leniency request and a legal challenge. The respondent Maryland officials themselves have acknowledged that categorizing a motion as a plea for leniency or legal challenge would not always be as easy as looking at which subsection of Rule 4-345 the movant named. See Br. of Appellees 18 n.5 (asserting that, \"if a convicted person presented a cognizable claim of illegality in his or her sentence through a motion for modification of sentence ostensibly under Rule 4-345(e), such a motion would inherently invoke the authority under Rule 4-345(a), which in turn would ... toll the habeas limitations period\"). And, in any event, the Kholi Court explicitly held that any such categorization would be unwarranted and improper. See 562 U.S. at 558, 131 S.Ct. 1278 (concluding that Rhode Island's proposed classification scheme was \"based on an excessively narrow understanding of [the tolling provision's] role\").\nRelatedly, it does not matter that a pure plea for leniency cannot be raised in a federal habeas petition, and to say otherwise in the face of Kholi is absurd. The Kholi Court was clear that a lack of cognizability on federal habeas review does not preclude a leniency request from qualifying as an application for \"collateral review\" that tolls AEDPA's limitations period. See 562 U.S. at 558, 131 S.Ct. 1278 ; see also id. at 551, 131 S.Ct. 1278 (unequivocally rejecting Rhode Island's position \"that 'collateral review' includes only 'legal' challenges to a conviction or sentence and thus excludes motions seeking a discretionary sentence reduction\"). That is because a motion need \"not challenge the lawfulness of a judgment\" to \"narrow[ ] or even obviate[ ]\" the need for federal habeas review and \"further[ ] principles of comity, finality, and federalism.\" Id. at 558, 131 S.Ct. 1278 (internal quotation marks omitted).\nNext, it is immaterial to the proper Kholi analysis that a Rhode Island Rule 35 motion to reduce sentence is subject to state appellate review, but a Maryland Rule 4-345 motion for a sentence reduction typically is not. Likewise, it is inconsequential that the Rhode Island courts have spelled out guiding factors for the Rule 35 motion that are not specified by the Maryland courts for the Rule 4-345 motion. But see Br. of Appellees 15-16 (seeking to distinguish Kholi on the premise that \"explicit factors [guide the] Rhode Island trial justice ... in the Rule 35 motion proceeding [and] the appellate court in evaluating the trial justice's ruling on appeal,\" while a Maryland Rule 4-345 motion \"is solely within the discretion of the judge who imposed the sentence[ ] and generally is not appealable\"). All that Kholi requires for a \"collateral review\" proceeding is some \"judicial reexamination of a judgment or claim in a proceeding outside of the direct review process,\" such as a \" 'review' of the sentence.\" See 562 U.S. at 553, 555, 131 S.Ct. 1278. That is, Kholi does not mandate any specific procedures or guiding factors for the judicial reexamination, including Rhode Island's, which Kholi merely described. See Rogers , 855 F.3d at 1278 (\"No requirement exists that an application for collateral review include the ability to appeal a trial court's reexamination of a sentence [or] that a legal standard govern the reexamination ....\").\nThe Kholi analysis also does not turn on any issue of time with respect to deciding a motion to reduce sentence. Only in a footnote quoting the contents of Rhode Island Rule 35, Kholi observed that a court is obliged to \"act on [a Rule 35] motion within a reasonable time.\" See 562 U.S. at 548 n.1, 131 S.Ct. 1278 (quoting R.I. Super. Ct. R. Crim. P. 35(a)). Thus, Rule 35's \"reasonable time\" provision played no discernible part in the Kholi decision. Although the Tasker court nevertheless expressed concern that Maryland Rule 4-345 contained no time limit for the granting of a sentence reduction and could toll AEDPA's limitations period indefinitely, Rule 4-345 now imposes a five-year window, perhaps with some limited exception under the Court of Special Appeals of Maryland's Schlick decision for a motion belatedly filed as a result of counsel's ineffective assistance. In these circumstances, if there ever was a legitimate concern about Rule 4-345 's omission of a time limit for granting a sentence reduction, that concern has been allayed by Rule 4-345 's addition of the generally-applicable five-year window, which is materially indistinguishable from Rhode Island Rule 35's \"reasonable time\" provision.\nHaving addressed each of the Tasker court's premises for concluding that, unlike a Rhode Island Rule 35 motion to reduce sentence, a Maryland Rule 4-345 motion for a sentence reduction does not trigger AEDPA's tolling provision, we turn to an additional argument made by the respondent Maryland officials in this appeal. That argument is based on a misinterpretation of Kholi 's footnote 3 and goes as follows:\nCritical to the Supreme Court's determination that a Rhode Island proceeding for sentence reduction under Rule 35 constitutes \"collateral review\" under [ 28 U.S.C. \u00a7] 2244(d)(2) was the Court's recognition that \"defendants in Rhode Island cannot raise any challenge to their sentences on direct appeal; instead they must bring a Rule 35 motion.\" ... Accordingly, under Rhode Island law, a Rule 35 motion is required for exhaustion of federal habeas corpus claims relating to sentences.\nSee Br. of Appellees 11-12 (quoting Kholi , 562 U.S. at 555 n.3, 131 S.Ct. 1278 ); see also id. at 13 (asserting that Kholi turned on Rule 35's \"unique role\"). In fact, the Kholi Court did not \"recogni[ze]\" that Rhode Island defendants must file a Rule 35 motion in lieu of a direct appeal, and therefore that proposition was not, and could not have been, \"critical\" to the Court's determination that a Rule 35 motion to reduce sentence seeks collateral review and thus tolls AEDPA's limitations period. Rather, the Court simply observed that it could \"imagine an argument that a Rhode Island Rule 35 proceeding is in fact part of direct review under [ 28 U.S.C.] \u00a7 2244(d)(1) because, according to the parties , defendants in Rhode Island cannot raise any challenge to their sentences on direct appeal; instead they must bring a Rule 35 motion.\" See Kholi , 562 U.S. at 555 n.3, 131 S.Ct. 1278 (emphasis added). The Court expressly declined to decide the issue but indicated that, if a Rule 35 motion were part of direct review under \u00a7 2244(d)(1), no questions of collateral review and tolling under \u00a7 2244(d)(2) would even exist. See id. (explaining that, \"[e]ven if we were to assume that a Rhode Island Rule 35 motion is part of direct review, our disposition of this case would not change: [Kholi's] habeas petition still would be timely, because the limitation period would not have begun to run until after the Rule 35 proceedings concluded\"). Considering the plain language of Kholi 's footnote 3, there is no support for the respondents' contention that there is some \"unique role\" of Rhode Island Rule 35 crucial to the Kholi analysis.\nAt bottom, there are no differences between Rhode Island Rule 35 and Maryland Rule 4-345 that would cause us to distinguish the sentence reduction motion in Kholi from the sentence reduction motion of William James Mitchell that we address today. That is, Kholi compels us to conclude that a Maryland Rule 4-345 motion to reduce sentence triggers AEDPA's tolling provision. Because the district court ruled otherwise, we vacate its judgment of dismissal and remand for further consideration of Mitchell's 28 U.S.C. \u00a7 2254 petition.\nIII.\nPursuant to the foregoing, we vacate the judgment of the district court and remand for such other and further proceedings as may be appropriate.\nVACATED AND REMANDED\nMitchell's \u00a7 2254 petition named as respondents Kathleen S. Green, as the then-Warden of Maryland's Eastern Correctional Institution, and the Maryland Attorney General.\nThe record reflects that, in 2005, Mitchell was convicted of a multitude of state crimes, including attempted first-degree murder, and sentenced to seventy years in prison. On direct appeal, in 2007, the Court of Special Appeals of Maryland rejected many of Mitchell's arguments but remanded for resentencing. Mitchell sought further review in the Court of Appeals of Maryland, which awarded a writ of certiorari but later, in 2008, dismissed the writ as improvidently granted. Thereafter, in 2009, the state trial court resentenced Mitchell to sixty-five years in prison. Mitchell did not appeal from that judgment, which thereby became final.\nNotably, while the state trial court was holding his Maryland Rule 4-345 motion in abeyance at his request, Mitchell filed a separate petition for state postconviction relief contesting his convictions. Mitchell does not rely on that petition for AEDPA tolling, however, as it was pending for less than two years, an insufficient period to render his \u00a7 2254 petition timely. See Opinion 3-4 (explaining that Mitchell's petition for state postconviction relief was filed on February 3, 2010, and remained pending until January 19, 2012, when Court of Special Appeals of Maryland issued its mandate declining review of trial court's denial).\nTo be clear, Justice Scalia joined all but footnote 3 of the Kholi decision, rendering the balance of that decision unanimous.\nSeveral of the District of Maryland cases had been held in abeyance for our decision in Woodfolk v. Maynard , following our grant of a certificate of appealability on issues including \"whether the district court erred in denying Woodfolk's [28 U.S.C. \u00a7 2254 ] petition as untimely.\" See 857 F.3d 531, 539 (4th Cir. 2017). Because we concluded that the \u00a7 2254 petition was timely on another ground, however, our decision did not reach and resolve Woodfolk's contention that his Maryland Rule 4-345 motion to reduce sentence \"tolled the limitations period under Kholi .\" Id. at 543 n.6.\nIt bears mentioning that Maryland Rule 4-345 requires a motion to reduce sentence to be filed within just ninety days of a circuit court's imposition of sentence, even if appealed, while Rhode Island Rule 35 much more generously allows a sentence reduction motion within 120 days of the imposition of sentence or the conclusion of appellate review. The similarly-generous motion deadline in Florida - sixty days after the imposition of sentence or the conclusion of appellate review - caused the Eleventh Circuit to dismiss as \"misguided\" the argument that the Florida rule permits prisoners \"to toll [AEDPA's] limitation period at will.\" See Rogers , 855 F.3d at 1278 (internal quotation marks omitted).",
+        "type": "majority",
+        "author": "KING, Circuit Judge:"
+      }
+    ],
+    "attorneys": [
+      "ARGUED: Joanna Beth Silver, OFFICE OF THE FEDERAL PUBLIC DEFENDER, Greenbelt, Maryland, for Appellant. Ryan Robert Dietrich, OFFICE OF THE ATTORNEY GENERAL OF MARYLAND, Baltimore, Maryland, for Appellees. ON BRIEF: James Wyda, Federal Public Defender, OFFICE OF THE FEDERAL PUBLIC DEFENDER, Baltimore, Maryland, for Appellant. Brian E. Frosh, Attorney General, OFFICE OF THE ATTORNEY GENERAL OF MARYLAND, Baltimore, Maryland, for Appellees."
+    ],
+    "corrections": "",
+    "head_matter": "William James MITCHELL, Petitioner - Appellant,\nv.\nKathleen S. GREEN, Warden; The Attorney General of the State of Maryland, Respondents - Appellees.\nNo. 17-7450\nUnited States Court of Appeals, Fourth Circuit.\nArgued: November 1, 2018\nDecided: April 17, 2019\nARGUED: Joanna Beth Silver, OFFICE OF THE FEDERAL PUBLIC DEFENDER, Greenbelt, Maryland, for Appellant. Ryan Robert Dietrich, OFFICE OF THE ATTORNEY GENERAL OF MARYLAND, Baltimore, Maryland, for Appellees. ON BRIEF: James Wyda, Federal Public Defender, OFFICE OF THE FEDERAL PUBLIC DEFENDER, Baltimore, Maryland, for Appellant. Brian E. Frosh, Attorney General, OFFICE OF THE ATTORNEY GENERAL OF MARYLAND, Baltimore, Maryland, for Appellees.\nBefore KING, FLOYD, and THACKER, Circuit Judges.\nVacated and remanded by published opinion. Judge King wrote the opinion, in which Judge Floyd and Judge Thacker joined."
+  },
+  "file_name": "0187-01",
+  "first_page_order": 187,
+  "last_page_order": 198
+}

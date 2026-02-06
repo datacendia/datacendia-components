@@ -1,0 +1,969 @@
+{
+  "id": 12522397,
+  "name": "Kathy DUMONT, individually and on behalf of all others similarly situated, Plaintiff, Appellant, v. REILY FOODS COMPANY; New England Coffee Company, Defendants, Appellees.",
+  "name_abbreviation": "Dumont v. Reily Foods Co.",
+  "decision_date": "2019-08-08",
+  "docket_number": "No. 18-2055",
+  "first_page": "35",
+  "last_page": "47",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "934 F.3d 35"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "1st Cir.",
+    "id": 8809,
+    "name": "United States Court of Appeals for the First Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "895 F.2d 1",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10526539
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "17",
+          "parenthetical": "\"[I]ssues adverted to in a perfunctory manner, unaccompanied by some effort at developed argumentation, are deemed waived.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/895/0001-01"
+      ]
+    },
+    {
+      "cite": "711 F.3d 1109",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3802669
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "1120",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/711/1109-01"
+      ]
+    },
+    {
+      "cite": "625 F. Supp. 2d 769",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        5912415
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "777"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/625/0769-01"
+      ]
+    },
+    {
+      "cite": "623 F.3d 1200",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3789842
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "1204",
+          "parenthetical": "quoting Riley v. Cordis Corp., 625 F. Supp. 2d 769, 777 (D. Minn. 2009) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/623/1200-01"
+      ]
+    },
+    {
+      "cite": "531 U.S. 341",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9505666
+      ],
+      "weight": 11,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "343"
+        },
+        {
+          "page": "350"
+        },
+        {
+          "page": "353"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/531/0341-01"
+      ]
+    },
+    {
+      "cite": "21 C.F.R. \u00a7 101.22",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(i)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 U.S.C. \u00a7 301",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "597 F.3d 436",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4219678
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "441"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/597/0436-01"
+      ]
+    },
+    {
+      "cite": "858 F.3d 666",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12276493
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "671-72",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/858/0666-01"
+      ]
+    },
+    {
+      "cite": "578 N.E.2d 789",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "803-04",
+          "parenthetical": "internal citation omitted"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "31 Mass.App.Ct. 390",
+      "category": "reporters:state",
+      "reporter": "Mass. App. Ct.",
+      "case_ids": [
+        4004769
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "parenthetical": "internal citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass-app-ct/31/0390-01"
+      ]
+    },
+    {
+      "cite": "858 N.E.2d 746",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "759"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "448 Mass. 95",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        3856130
+      ],
+      "year": 2006,
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/448/0095-01"
+      ]
+    },
+    {
+      "cite": "813 N.E.2d 476",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "weight": 3,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "488"
+        },
+        {
+          "page": "486",
+          "parenthetical": "noting that \"whether conduct is deceptive is initially a question of fact\""
+        },
+        {
+          "page": "488"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "442 Mass. 381",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        1183036
+      ],
+      "year": 2004,
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/442/0381-01"
+      ]
+    },
+    {
+      "cite": "865 F.3d 1",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12275449
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "6"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/865/0001-01"
+      ]
+    },
+    {
+      "cite": "717 F.3d 224",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3576304
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "231"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/717/0224-01"
+      ]
+    },
+    {
+      "cite": "829 F.2d 286",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1758372
+      ],
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "289"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/829/0286-01"
+      ]
+    },
+    {
+      "cite": "865 F.3d 17",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12275454
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "21",
+          "parenthetical": "observing that the Rule 9(b) heightened pleading standard applies to claims under chapter 93A that involve fraud"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/865/0017-01"
+      ]
+    },
+    {
+      "cite": "374 F.3d 23",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9230933
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "29"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/374/0023-01"
+      ]
+    },
+    {
+      "cite": "836 F.3d 88",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4354916
+      ],
+      "weight": 5,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "91",
+          "parenthetical": "quoting Alt. Sys. Concepts, Inc. v. Synopsys, Inc., 374 F.3d 23, 29 (1st Cir. 2004) "
+        },
+        {
+          "page": "90-91"
+        },
+        {
+          "page": "90"
+        },
+        {
+          "page": "91"
+        },
+        {
+          "page": "90",
+          "parenthetical": "containing the image of an allegedly deceptive product label"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/836/0088-01"
+      ]
+    },
+    {
+      "cite": "737 F.3d 116",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3731180
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "123"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/737/0116-01"
+      ]
+    },
+    {
+      "cite": "788 F.3d 25",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4230340
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "29"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/788/0025-01"
+      ]
+    },
+    {
+      "cite": "2018 WL 4571656",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "*1",
+          "parenthetical": "record citation omitted"
+        },
+        {
+          "page": "*1"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "565 F.3d 40",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3643827
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "42"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/565/0040-01"
+      ]
+    },
+    {
+      "cite": "589 F.3d 505",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3499300
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "510"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/589/0505-01"
+      ]
+    },
+    {
+      "cite": "739 F.2d 11",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        654693
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "15"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/739/0011-01"
+      ]
+    },
+    {
+      "cite": "778 F.3d 228",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6051978
+      ],
+      "weight": 2,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "247"
+        },
+        {
+          "page": "247"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/778/0228-01"
+      ]
+    },
+    {
+      "cite": "544 F.3d 320",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3938304,
+        3841747
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "327",
+          "parenthetical": "holding that the statement, \"in the event that the Court finds that the Amended Complaint fails to state a claim, Plaintiff requests leave to replead\" in an opposition motion \"does not constitute a motion to amend a complaint\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/br/397/0320-02",
+        "/f3d/544/0320-01"
+      ]
+    },
+    {
+      "cite": "445 F.3d 50",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        2780749
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "58"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/445/0050-01"
+      ]
+    },
+    {
+      "cite": "879 F.3d 407",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12264584
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "414"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/879/0407-01"
+      ]
+    },
+    {
+      "cite": "628 N.E.2d 1291",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "1294"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "36 Mass.App.Ct. 73",
+      "category": "reporters:state",
+      "reporter": "Mass. App. Ct.",
+      "case_ids": [
+        4016559
+      ],
+      "year": 1994,
+      "opinion_index": 1,
+      "case_paths": [
+        "/mass-app-ct/36/0073-01"
+      ]
+    },
+    {
+      "cite": "275 F. Supp. 3d 910",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "case_ids": [
+        12418866
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "922",
+          "parenthetical": "internal citations omitted"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f-supp-3d/275/0910-01"
+      ]
+    },
+    {
+      "cite": "26 N.E.3d 165",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.3d",
+      "weight": 3,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "174"
+        },
+        {
+          "page": "174"
+        },
+        {
+          "page": "174"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "470 Mass. 784",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        4144720
+      ],
+      "year": 2015,
+      "opinion_index": 1,
+      "case_paths": [
+        "/mass/470/0784-01"
+      ]
+    },
+    {
+      "cite": "688 F.3d 26",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3498531
+      ],
+      "weight": 2,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "39",
+          "parenthetical": "applying this standard from Aspinall "
+        },
+        {
+          "page": "39"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/688/0026-01"
+      ]
+    },
+    {
+      "cite": "952 N.E.2d 908",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "year": 2011,
+      "opinion_index": 1
+    },
+    {
+      "cite": "460 Mass. 500",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        4271460
+      ],
+      "year": 2011,
+      "opinion_index": 1,
+      "case_paths": [
+        "/mass/460/0500-01"
+      ]
+    },
+    {
+      "cite": "919 N.E.2d 165",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "169"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "76 Mass.App.Ct. 73",
+      "category": "reporters:state",
+      "reporter": "Mass. App. Ct.",
+      "case_ids": [
+        3837026
+      ],
+      "year": 2009,
+      "opinion_index": 1,
+      "case_paths": [
+        "/mass-app-ct/76/0073-01"
+      ]
+    },
+    {
+      "cite": "766 F.3d 93",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4200324
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "96",
+          "parenthetical": "quoting Young v. Wells Fargo Bank, N.A., 717 F.3d 224, 237 n.11 (1st Cir. 2013) "
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/766/0093-01"
+      ]
+    },
+    {
+      "cite": "550 U.S. 544",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3556136
+      ],
+      "weight": 3,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "570"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/550/0544-01"
+      ]
+    },
+    {
+      "cite": "21 C.F.R. \u00a7 101.22",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "(i)"
+        },
+        {
+          "parenthetical": "\"If the label, labeling, or advertising of a food makes any direct or indirect representations with respect to the primary recognizable flavor(s),... such flavor shall be considered the characterizing flavor.\""
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "597 F.3d 436",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4219678
+      ],
+      "weight": 2,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "441",
+          "parenthetical": "en banc"
+        },
+        {
+          "page": "442"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/597/0436-01"
+      ]
+    },
+    {
+      "cite": "578 N.E.2d 789",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "803-04"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "31 Mass.App.Ct. 390",
+      "category": "reporters:state",
+      "reporter": "Mass. App. Ct.",
+      "case_ids": [
+        4004769
+      ],
+      "year": 1991,
+      "opinion_index": 1,
+      "case_paths": [
+        "/mass-app-ct/31/0390-01"
+      ]
+    },
+    {
+      "cite": "858 N.E.2d 746",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "759",
+          "parenthetical": "\"[T]he boundaries of what may qualify for consideration as a [chapter] 93A violation is a question of law.\" (internal citation omitted) (quoting Schwanbeck v. Federal-Mogul Corp., 31 Mass.App.Ct. 390, 578 N.E.2d 789, 803-04 (1991) )"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "448 Mass. 95",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        3856130
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "parenthetical": "\"[T]he boundaries of what may qualify for consideration as a [chapter] 93A violation is a question of law.\" (internal citation omitted) (quoting Schwanbeck v. Federal-Mogul Corp., 31 Mass.App.Ct. 390, 578 N.E.2d 789, 803-04 (1991) )"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/mass/448/0095-01"
+      ]
+    },
+    {
+      "cite": "813 N.E.2d 476",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "weight": 2,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "488",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "487"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "442 Mass. 381",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        1183036
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/mass/442/0381-01"
+      ]
+    },
+    {
+      "cite": "865 F.3d 1",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12275449
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "6"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/865/0001-01"
+      ]
+    },
+    {
+      "cite": "717 F.3d 224",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3576304
+      ],
+      "year": 2013,
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/717/0224-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1475,
+    "char_count": 35865,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.259519570445999
+    },
+    "sha256": "b750cff212ef13475edf5b80f63ab16c63c7446a8bd8959f2bfdb6b5c8270096",
+    "simhash": "1:0af2799859018ccd",
+    "word_count": 5832
+  },
+  "last_updated": "2024-02-27T18:47:10.696993+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Torruella, Lynch, and Kayatta, Circuit Judges."
+    ],
+    "parties": [
+      "Kathy DUMONT, individually and on behalf of all others similarly situated, Plaintiff, Appellant,\nv.\nREILY FOODS COMPANY; New England Coffee Company, Defendants, Appellees."
+    ],
+    "opinions": [
+      {
+        "text": "KAYATTA, Circuit Judge.\nDefendant New England Coffee Company, operating as a subsidiary of Reily Foods Company, sells a \"Hazelnut Cr\u00e8me\" coffee. Kathy Dumont contends that she purchased the coffee because she thought that a coffee styled \"Hazelnut Cr\u00e8me\" contained some hazelnut. After learning that the \"Hazelnut Cr\u00e8me\" coffee contained no hazelnut at all, Dumont brought this putative class action challenging the coffee's labeling as a violation of Massachusetts' consumer protection laws. The district court dismissed the case for failure to meet the heightened pleading standard of Federal Rule of Civil Procedure 9(b). For the following reasons, we reverse.\nI.\nWe set out the facts as alleged in the complaint, but do not credit \"unsupported conclusions or assertions.\" U.S. ex rel. Gagne v. City of Worcester, 565 F.3d 40, 42 (1st Cir. 2009). At all times relevant to this case, the front label of the package containing the Hazelnut Cr\u00e8me coffee described the coffee as follows: \"freshly ground,\" \"100% Arabica Coffee,\" \"Hazelnut Cr\u00e8me,\" \"Medium Bodied,\" and \"Rich, Nutty Flavor.\" The ingredients label on the back of the package provided the following list of ingredients: \"100% Arabica Coffee Naturally and Artificially Flavored.\" There is no image of a hazelnut anywhere on the bag.\nKathy Dumont purchased in Massachusetts at least one package of the Hazelnut Cr\u00e8me coffee labeled as described above. Dumont alleges that she would not have purchased the coffee had she known that it did not contain some hazelnut.\nSuing individually and on behalf of a putative nationwide class of allegedly similarly situated consumers, Dumont claimed that the packaging was (1) an unfair and deceptive practice under Massachusetts General Laws chapter 93A and (2) untrue and misleading advertising under Massachusetts General Laws chapter 266, section 91. In the alternative, Dumont claimed unjust enrichment. The district court dismissed Dumont's complaint without leave to amend. Citing Federal Rule of Civil Procedure 9(b), the court held that \"the complaint offer[ed] insufficient detail regarding the circumstances of plaintiff's purchase\" and that it therefore \"fail[ed] to pass muster under the relevant pleading standard.\" Dumont v. Reily Foods Co., No. CV 18-10907-RWZ, 2018 WL 4571656, at *1 (D. Mass. Sept. 24, 2018) (record citation omitted).\nDumont then appealed to this court. Though her Notice of Appeal covers the entire judgment of dismissal, her brief makes no argument regarding the dismissal of her claim under Massachusetts General Laws chapter 266, section 91, or her alternative claim for unjust enrichment. Any such argument is therefore waived. See Sparkle Hill, Inc. v. Interstate Mat Corp., 788 F.3d 25, 29 (1st Cir. 2015). So, we address only the dismissal of her claim under Massachusetts General Law Chapter 93A, \u00a7 2(a).\nII.\nA.\nWe turn first to Dumont's argument that the district court erred in its conclusion that her complaint provided insufficiently particularized facts to satisfy Rule 9(b). We review de novo the dismissal of a complaint for failure to comply with Rule 9(b). U.S. ex rel. Ge v. Takeda Pharm. Co., 737 F.3d 116, 123 (1st Cir. 2013).\nRule 9(b) provides that, \"[i]n alleging fraud or mistake, a party must state with particularity the circumstances constituting fraud or mistake.\" We have explained that \"[t]he circumstances to be stated with particularity under Rule 9(b) generally consist of 'the who, what, where, and when of the allegedly [misleading] representation.' \" Kaufman v. CVS Caremark Corp., 836 F.3d 88, 91 (1st Cir. 2016) (quoting Alt. Sys. Concepts, Inc. v. Synopsys, Inc., 374 F.3d 23, 29 (1st Cir. 2004) ) (alteration in original). The district court concluded that Dumont's complaint failed this test:\nBeyond the allegation that \"Plaintiff purchased [New England Coffee Company's] Hazelnut Cr\u00e8me Coffee\" and the conclusory assertion that she \"reasonably believed that the coffee contained ... hazelnut,\" the complaint offers insufficient detail regarding the circumstances of the plaintiff's purchase. Without more, her complaint fails to pass muster under [ Rule 9(b) ].\nDumont, 2018 WL 4571656, at *1 (record citation omitted). Dumont presumes that Rule 9(b) applies to the pleading of her chapter 93A claim, so we shall too. Cf. Mulder v. Kohl's Dep't Stores, Inc., 865 F.3d 17, 21 (1st Cir. 2017) (observing that the Rule 9(b) heightened pleading standard applies to claims under chapter 93A that involve fraud). She contends that her pleading provided sufficient particularity to satisfy Rule 9(b).\nThis court's decision in Kaufman v. CVS Caremark Corporation favors Dumont. 836 F.3d at 90-91. In that case, a consumer claimed that a CVS-brand dietary supplement labeled as promoting \"heart health\" was deceptive because no scientifically valid studies supported the \"heart health\" statement. Id. at 90. Concluding that the complaint satisfied the Rule 9(b) heightened pleading standard, this court observed that \"CVS is the 'who'; the heart health statements are the 'what'; the label is the 'where'; and the occasion on which Kaufman purchased the product is the 'when.' \" Id. at 91. It follows here that Reily Foods and New England Coffee Company are the \"who\"; the \"Hazelnut Cr\u00e8me\" statement is the \"what\"; the label is the \"where\"; and the occasion on which Dumont purchased the coffee is the \"when.\" The defendants barely acknowledge the import of our holding in Kaufman, wanly suggesting in a footnote that it is distinguishable because the label in that case had less information. But that distinction suggests that the complaint in this case had more, not less, particularity than the complaint in Kaufman. Moreover, such a difference would go to the merits of the claim, not the Rule 9(b) question.\nIn any event, even were we to ignore Kaufman, we would find no merit in defendants' contention that the complaint failed to satisfy Rule 9(b) by neglecting to include further details about Dumont's reliance on the allegedly misleading statement, including the date and location of her purchase. As for the date of the purchase, the complaint makes clear that the purchase occurred when the defendants were selling the \"Hazelnut Cr\u00e8me\" coffee in the package pictured in the complaint. The defendants offer no reason why further particularity on the date is relevant. So, too, the other \"circumstances\" the defendants say are lacking (e.g., where in Massachusetts Dumont made the purchase and whether \"similar\" products were present at the point of sale) strike us as either irrelevant or the potential subjects of discovery.\nThe core purposes of Rule 9(b) are \"to place the defendants on notice and enable them to prepare meaningful responses,\" \"to preclude the use of a groundless fraud claim as pretext for discovering a wrong,\" and \"to safeguard defendants from frivolous charges [that] might damage their reputation.\" New England Data Servs., Inc. v. Becher, 829 F.2d 286, 289 (1st Cir. 1987). The defendants do not suggest that they required any further particularity to respond to the complaint. This is not a case, after all, in which the defendant can claim that it never made the allegedly deceptive statement. Nor is this a case in which liability turns on more precise information concerning the \"when\" or the \"where.\" Rather, it turns on an assessment of the very particularly identified \"what\" in the product label. We conclude, therefore, that the complaint satisfied the Rule 9(b) particularity standard.\nB.\nCiting Federal Rule of Civil Procedure 12(b)(6), the defendants urge us to affirm on the alternative basis that the complaint failed to state a claim for a violation of chapter 93A. Our task is to \"first disregard conclusory allegations that merely parrot the relevant legal standard\" and \"then inquire whether the remaining factual allegations state a plausible, rather than merely possible, assertion of defendants' liability.\" Young v. Wells Fargo Bank, N.A., 717 F.3d 224, 231 (1st Cir. 2013). As a federal court sitting in diversity, we look to state law, as articulated by the Supreme Judicial Court of Massachusetts, for the substantive rules of decision. Shaulis v. Nordstrom, Inc., 865 F.3d 1, 6 (1st Cir. 2017).\nChapter 93A prohibits \"[u]nfair methods of competition and unfair or deceptive acts or practices in the conduct of any trade or commerce.\" Mass. Gen. Laws ch. 93A, \u00a7 2(a). On appeal, Dumont argues solely that the labeling was \"deceptive,\" not that it was \"unfair.\" \"[A]n advertisement is deceptive when it has the capacity to mislead consumers, acting reasonably under the circumstances, to act differently from the way they otherwise would have acted (i.e., to entice a reasonable consumer to purchase the product).\" Aspinall v. Philip Morris Cos., 442 Mass. 381, 813 N.E.2d 476, 488 (2004). So, the question under Massachusetts law is whether the label had the capacity to mislead consumers, acting reasonably under the circumstances, to believe that the coffee contained some hazelnut.\nThat question is one of fact. See id. at 486 (noting that \"whether conduct is deceptive is initially a question of fact\"). As with any question of fact, our role is limited to defining the outer boundaries of its answer -- i.e., the point at which a juror could reasonably find only one way. See Chervin v. Travelers Ins. Co., 448 Mass. 95, 858 N.E.2d 746, 759 (2006) (\"Although whether a particular set of acts, in their factual setting, is unfair or deceptive is a question of fact, the boundaries of what may qualify for consideration as a [chapter] 93A violation is a question of law.\" (quoting Schwanbeck v. Federal-Mogul Corp., 31 Mass.App.Ct. 390, 578 N.E.2d 789, 803-04 (1991) (internal citation omitted))); Full Spectrum Software, Inc. v. Forte Automation Sys., Inc., 858 F.3d 666, 671-72 (1st Cir. 2017) (same).\nThe procedural posture of this case further limits our role. At the pleading stage, \"we accept as true all well-pleaded facts set out in the complaint and indulge all reasonable inferences in favor of the pleader.\" S.E.C. v. Tambone, 597 F.3d 436, 441 (1st Cir. 2010). So, we need only determine whether the complaint's allegations make it plausible that, on a full factual record, a factfinder could reasonably regard the label as having the capacity to mislead.\nOne might presume that a reasonable consumer who, like Dumont, cared whether the coffee she intended to purchase contained real hazelnut would check the list of ingredients. On the other hand, perhaps a reasonable consumer would find in the product name sufficient assurance so as to see no need to search the fine print on the back of the package, much like one might easily buy a hazelnut cake without studying the ingredients list to confirm that the cake actually contains some hazelnut. And the complaint makes clear that convention in the industry -- presumably in large part because of federal labeling requirements -- is to state on the front of a package containing a product that is nut flavored (but that contains no nuts) that the product is naturally or artificially flavored. Indeed, another Reily Foods subsidiary that sells a \"hazelnut\" coffee includes a \"flavoring\" disclosure on the front of its package.\nOur dissenting colleague envisions a more erudite reader of labels, tipped off by the accent grave on the word \"cr\u00e8me,\" and armed perhaps with several dictionaries, a bit like a federal judge reading a statute. We are less confident that \"common parlance\" would exhibit such linguistic precision.\nIndeed, we confess that one of us thought \"cr\u00e8me\" was a fancy word for cream, with Hazelnut Cr\u00e8me being akin, for example, to hazelnut butter, a product often found in another aisle of the supermarket.\nOur dissenting colleague also points out that the package says \"Freshly Ground 100% Arabica Coffee.\" The proposition -- by no means unreasonable -- is that a consumer could read this statement in isolation as saying that the package contains only coffee (and Arabica coffee at that), with no nuts (or anything else). But a consumer might instead read this statement as saying that 100% of the coffee in the package is of the Arabica variety. After all, if there is nothing in the package other than coffee, what does Hazelnut Cr\u00e8me mean to say? Indeed, even Reily Foods concedes that the package also contains some flavoring, so it cannot be the case that \"100% Arabica Coffee\" means the package contains coffee alone.\nNone of this is to say that our dissenting colleague's reading is by any means unreasonable. To the contrary, we ourselves would likely land upon that reading were we in the grocery aisle with some time to peruse the package. That being said, we think it best that six jurors, rather than three judges, decide on a full record whether the challenged label \"has the capacity to mislead\" reasonably acting, hazelnut-loving consumers. Aspinall, 813 N.E.2d at 488. And we see no unfair cost in recognizing a state-law claim that -- as discussed in the following subsection -- can only be lodged against manufacturers that fail to adhere to the rules and safe harbors that have been created by the FDA and that help form consumers' expectations in reading labels. Therefore, and while it is certainly a close question for the reasons well marshalled by the thoughtful dissent, we hold that Dumont's complaint states a plausible claim for relief.\nC.\nThe defendants propose one additional alternative ground for affirming the dismissal of Dumont's complaint: Even if the complaint alleges a claim under chapter 93A, they argue, that claim is impliedly preempted by the Federal Food, Drug, and Cosmetic Act [FDCA], 21 U.S.C. \u00a7 301 et. seq.\nNeither the Supreme Court nor this circuit has addressed the standard governing preemption of food-labeling suits brought under state law. But the parties' common ground on this issue eliminates our need to venture fully into this thorny area of the law. Dumont concedes that a Massachusetts law that imposed a labeling requirement beyond that imposed by federal law would be expressly preempted. Hence, the complaint alleges that the defendants' label violates federal labeling requirements, see 21 C.F.R. \u00a7 101.22(i). The defendants do not contest this assertion. Nor do they contest that they easily could have complied with both federal labeling law and the state requirement that would be imposed by Dumont's proposed application of chapter 93A.\nThe defendants instead contend only that the application of chapter 93A as proposed by Dumont is impliedly preempted as an attempt to use a state law to enforce federal requirements, thereby potentially interfering with federal enforcement of the food-labeling provisions of the FDCA. In support of this argument, the defendants point to the Supreme Court's opinion in Buckman Company v. Plaintiffs' Legal Committee, 531 U.S. 341, 121 S.Ct. 1012, 148 L.Ed.2d 854 (2001). In that case, patients who suffered injuries from implantation of orthopedic bone screws sought damages under state tort law on the theory that the defendant made fraudulent representations to the Food and Drug Administration (FDA) in the course of obtaining approval to market the screws. Id. at 343, 121 S.Ct. 1012. The Court decided that the claims conflicted with -- and were therefore impliedly preempted by -- the FDA's statutory enforcement scheme. Id. at 348 & n.2, 121 S.Ct. 1012. \"State-law fraud-on-the-FDA claims,\" the Court concluded, \"inevitably conflict with the FDA's responsibility to police fraud consistently with the Administration's judgment and objectives.\" Id. at 350, 121 S.Ct. 1012. To avoid implied preemption, the plaintiffs' claims would have had to \"rely[ ] on traditional state tort law which had predated the federal enactments in question[ ].\" Id. at 353, 121 S.Ct. 1012.\nDumont agrees with the defendants that this reasoning in Buckman applies by analogy to her claim implicating federal food-labeling requirements. Dumont argues, therefore, that chapter 93A predates the applicable federal requirements, and that she is not seeking to impose state-tort liability because the label violates the FDCA, but rather because it independently violates chapter 93A. Defendants, in turn, do not argue that chapter 93A is not a traditional tort-like law that predates the FDCA.\nThe defendants also concede that a state-law food-labeling claim can avoid preemption by \"provid[ing] detailed allegations that would support a finding that consumers would be plausibly deceived by the packaging independently of any packaging standards that may be established under FDCA regulations.\" Indeed, they point us to Eighth and Ninth Circuit cases describing, in the medical device context, the \"narrow gap through which a plaintiff's state-law claim must fit if it is to escape express or implied preemption\": \"The plaintiff must be suing for conduct that violates the FDCA (or else his claim is expressly preempted by [the FDCA's medical device preemption provision, 21 U.S.C. \u00a7 360k ], but the plaintiff must not be suing because the conduct violates the FDCA (such a claim would be impliedly preempted under Buckman )).\" In re Medtronic, Inc., Sprint Fidelis Leads Prod. Liab. Litig., 623 F.3d 1200, 1204 (8th Cir. 2010) (quoting Riley v. Cordis Corp., 625 F. Supp. 2d 769, 777 (D. Minn. 2009) ); see also Perez v. Nidek Co., 711 F.3d 1109, 1120 (9th Cir. 2013) (same). Dumont does not object to the defendants' application of this \"narrow gap\" test in the food-labeling context, but argues instead that her claim fits through the \"narrow gap.\"\nBased on the parties' foregoing positions, we therefore presume -- but do not hold -- that Dumont's complaint is preempted unless the conduct it pleads: (1) violates FDCA labeling requirements and (2) would also violate chapter 93A even if the FDCA did not exist. With that test in mind, we turn back to the complaint.\nWe agree with the defendants that the complaint can be read in part as seeking to hold the defendants liable because they violated the federal false-labeling standards codified at 21 C.F.R. \u00a7 101.22, an implementing regulation promulgated under the FDCA. The complaint goes so far as to argue that \"[s]uch mislabeling[ ] and misbranding [under federal law] constitutes unfair and deceptive conduct in violation of [ chapter] 93A, \u00a7 2.\" And Dumont offers no argument for how the complaint, so construed, survives an implied preemption defense. For that reason, any claim premised on the violation of federal law will remain dismissed, albeit on the alternative grounds of preemption and waiver. See United States v. Zannino, 895 F.2d 1, 17 (1st Cir. 1990) (\"[I]ssues adverted to in a perfunctory manner, unaccompanied by some effort at developed argumentation, are deemed waived.\").\nDumont contends, though, that the complaint also \"seeks to vindicate the separate and independent right to be free from deceptive and unfair conduct.\" And the complaint can indeed be read to allege liability not because the label constitutes misbranding under federal law, but rather because the label \"has the capacity ... to deceive or mislead reasonable consumers,\" in violation of chapter 93A. Under that reading of the complaint, the allegation that the label violated the FDCA serves simply to counter a claim of express preemption.\nIt is also true, as we observed above, that the FDCA requirements effectively established custom and practice in the industry. Accordingly, it may be that a consumer's experience with that custom and practice primes her to infer from the absence of a flavoring disclosure that the product gets its characterizing nutty flavor from the real nut. But we find nothing in Buckman to suggest that such an indirect relationship between a state-law claim and federal law warrants preemption, at least as long as the factfinder avoids equating violation of the federal law with deception under the state law. Suppose, for example, that a pharmacist told a patient that a product was FDA approved, but it was not. We doubt that the consumer's fraud claim under state common law would be preempted merely because the consumer's reliance evidence was buttressed by the background knowledge that FDA approval connotes efficacy and safety.\nWe conclude, in sum, that under the parties' chosen standard, Dumont's claim under chapter 93A is not impliedly preempted by federal law. Of course, the FDCA exists, and it will limit the scope of Dumont's argument. Its dual preemptive force will restrict the factfinder to determining whether conduct that does violate the federal regulations is also deceptive under Massachusetts law by virtue of its nature rather than its federal illegality. Nevertheless, thus constrained, the claim as plausibly construed survives the defendants' implied preemption argument.\nIII.\nFor the foregoing reasons, we reverse the district court's dismissal of the complaint.\nThe defendants' brief confusingly claims both that Reily Foods is a successor to New England Coffee Company and that New England Coffee Company is Reily Foods' subsidiary. Which description is correct makes no difference to this appeal.\nRemarkably, neither party furnished us with a picture of the label large enough to replicate in a legible form for the reader. Cf., e.g., Kaufman v. CVS Caremark Corp., 836 F.3d 88, 90 (1st Cir. 2016) (containing the image of an allegedly deceptive product label).\nAny other elements Dumont must satisfy to recover under Chapter 93A are not at issue in this appeal or decided by this opinion.",
+        "type": "majority",
+        "author": "KAYATTA, Circuit Judge."
+      },
+      {
+        "text": "LYNCH, Circuit Judge, dissenting.\nI disagree with my colleagues as to whether Kathy Dumont's complaint states a claim for a violation of chapter 93A, and I think the Massachusetts courts will as well. See Fed. R. Civ. P. 12(b)(6). In my view, the complaint fails to state a claim and so must be dismissed.\nThe majority opinion ably lays out the procedural history and facts of this case, which I do not repeat except as necessary.\nI.\nA district court's dismissal of a complaint under Rule 12(b)(6) is reviewed de novo. S.E.C. v. Tambone, 597 F.3d 436, 441 (1st Cir. 2010) (en banc). A complaint survives dismissal under Rule 12(b)(6) if it has \"enough facts to state a claim to relief that is plausible on its face,\" accepting as true the plaintiff's factual allegations and drawing reasonable inferences in the plaintiff's favor. Bell Atl. Corp. v. Twombly, 550 U.S. 544, 570, 127 S.Ct. 1955, 167 L.Ed.2d 929 (2007). \"If the factual allegations in the complaint are too meager, vague, or conclusory to remove the possibility of relief from the realm of mere conjecture, the complaint is open to dismissal.\" Tambone, 597 F.3d at 442. This court may affirm a Rule 12(b)(6) dismissal \"on any basis apparent in the record.\" Debnam v. FedEx Home Delivery, 766 F.3d 93, 96 (1st Cir. 2014) (quoting Young v. Wells Fargo Bank, N.A., 717 F.3d 224, 237 n.11 (1st Cir. 2013) ).\nDumont's claim is that she purchased the coffee at issue because she thought it contained hazelnut, and that she was deceived by the label. In Massachusetts, chapter 93A bars \"[u]nfair methods of competition and unfair or deceptive acts or practices in the conduct of any trade or commerce.\" Mass. Gen. Laws ch. 93A, \u00a7 2(a). Dumont acknowledges that, to plead her claim under chapter 93A, she must show \"(1) a deceptive act or practice on the part of the seller; (2) an injury or loss suffered by the consumer; and (3) a causal connection between the seller's deceptive act or practice and the consumer's injury.\" Casavant v. Norwegian Cruise Line, Ltd., 76 Mass.App.Ct. 73, 919 N.E.2d 165, 169 (2009), aff'd, 460 Mass. 500, 952 N.E.2d 908 (2011). In my view, Dumont has not pleaded that there was a deceptive act or practice. The case should end here.\nIn this diversity jurisdiction case, we apply Massachusetts law. E.g. Shaulis v. Nordstrom, Inc., 865 F.3d 1, 6 (1st Cir. 2017). Under Massachusetts law, \"an advertisement is deceptive when it has the capacity to mislead consumers, acting reasonably under the circumstances, to act differently from the way they otherwise would have acted (i.e., to entice a reasonable consumer to purchase the product).\" Aspinall v. Philip Morris Cos., 442 Mass. 381, 813 N.E.2d 476, 488 (2004) (emphasis added); see Edlow v. RBW, LLC, 688 F.3d 26, 39 (1st Cir. 2012) (applying this standard from Aspinall ). So, this standard \"depends on the likely reaction of a reasonable consumer rather than an ignoramus.\" Aspinall, 813 N.E.2d at 487.\nII.\nDumont cannot satisfy Massachusetts's reasonable consumer standard because her complaint has not demonstrated that the label would mislead a reasonable consumer under the totality of the circumstances here. I disagree with the majority that this is a \"close\" question. In my view, a reasonable consumer plainly could not view the phrase \"Hazelnut Cr\u00e8me\" as announcing the presence of actual hazelnut in a bag of coffee which also proclaims it is \"100% Arabica Coffee.\" Indeed, a reasonable consumer, acting rationally, could not conclude that the label was deceptive. See Chervin v. Travelers Ins. Co., 448 Mass. 95, 858 N.E.2d 746, 759 (2006) (\"[T]he boundaries of what may qualify for consideration as a [chapter] 93A violation is a question of law.\" (internal citation omitted) (quoting Schwanbeck v. Federal-Mogul Corp., 31 Mass.App.Ct. 390, 578 N.E.2d 789, 803-04 (1991) )).\nAs a preliminary matter, the front label plainly states that the package contains \"100% Arabica Coffee.\" It does not say it contains anything other than coffee. The package here did not contain any misstatement of its contents, did not feature any pictures or illustrations of hazelnuts, and did not have any error in the ingredient list. There are two points. First, this is not a case of erroneous information being provided, but of accurate information, and that is relevant. See Ortiz v. Examworks, Inc., 470 Mass. 784, 26 N.E.3d 165, 174 (2015). And second, \"100% Arabica Coffee\" makes it clear only coffee is in the package.\nThe phrase \"Hazelnut Cr\u00e8me,\" also on the front of the package, does not state a nut or an organic item is in the coffee; the phrase is at most a reference to a flavor. \"Cr\u00e8me\" (including the grave accent) is not the same as \"cream.\" Most consumers would know there was a difference, and if they did not, they could refer to the ingredient list, and they would not conclude a bag of dry, ground coffee contained cream.\nA few dictionary definitions are helpful as to what is a reasonable consumer's understanding. \"Cream\" refers, first and foremost, to \"[t]he oily or butyraceous part of milk, which gathers on the top when the milk is left undisturbed; by churning it is converted into butter.\" Cream, Oxford English Dictionary, available at https://www.oed.com/view/Entry/44024; see also Webster's Third New International Dictionary 534 (1993) (defining \"cream\" first as \"the yellowish part of milk containing from 18 to about 40 percent butterfat that rises to the surface on standing or is separated by centrifugal force\"). \"Cr\u00e8me\" has distinct meanings, both in the dictionary and in common parlance: it is generally defined as a \"cream or cream sauce as used in cookery\" or \"a sweet liqueur,\" with the latter \"usu[ually] used with the flavor specified.\" Webster's Third New International Dictionary 534 (1993); see also Cr\u00e8me, Oxford English Dictionary, available at https://www.oed.com/view/Entry/44191 (defining \"cr\u00e8me\" as (a) \"[a] cream or custard\" or (b) \"[a] name for various syrupy liqueurs\").\nThere is also the fact that the term \"Hazelnut\" was used as a modifier for \"Cr\u00e8me\" on the front of the package. So, a reasonable consumer would not think that hazelnuts were present, and that is true even if a consumer improbably thought cream was present in \"100% Arabica Coffee.\"\nIn the context of a package of ground, dry coffee, as in this case, the two words, \"Hazelnut Cr\u00e8me,\" together plainly state the flavoring of the coffee. They do not state that the coffee contains hazelnuts, and the words are not deceptive. Reasonable consumers, whether erudite or not, would not think this phrasing means that the coffee actually contained hazelnuts. The majority draws a mistaken analogy to a \"hazelnut cake.\" But a cake, unlike \"100% Arabica Coffee,\" is made up of many ingredients. Most consumers would not approach the label for a cake, or for any sort of nut butter, the same way they would approach the label of a package of ground coffee beans that said \"100% Arabica Coffee.\"\nPossible confusion by some consumers does not render a notice unfair or deceptive. See Ortiz, 26 N.E.3d at 174. Even if Dumont was confused as to the matter of hazelnuts being in the contents, the only reasonable thing would be for her to turn the package to look at the ingredient list. That is, a reasonable consumer particularly interested in the presence of actual hazelnut (or, for that matter, actual dairy-based cream or cr\u00e8me or some form of liqueur) in their ground coffee would have looked at the list of ingredients on the back of the package. This is particularly true for a compound flavor term such as \"Hazelnut Cr\u00e8me.\"\nThe majority opinion seems to equate the \"Hazelnut Cr\u00e8me\"-flavored coffee here to a straightforward \"Hazelnut\"-flavored coffee cited in the complaint (the front label of which contained illustrations of hazelnuts) but this equivalence is wrong. Put simply, even if the former term was arguably ambiguous, the latter was not. \"[C]onsumers who interpret ambiguous statements in ... [a] debatable manner do so unreasonably if an ingredient label would set them straight.\" In re: 100% Grated Parmesan Cheese Mktg. & Sales Practices Litig., 275 F. Supp. 3d 910, 922 (N.D. Ill. 2017) (internal citations omitted). The correct and complete ingredient label here would have set Dumont straight, even if she had some initial confusion.\nAlleged industry labeling conventions also cannot save Dumont's chapter 93A complaint. The issue under chapter 93A is not whether another packaging choice could have been more precise about the ingredients or flavor of the coffee; surely there are many such choices, perhaps including a package stating on the front that \"the product is naturally or artificially flavored.\" The issue before us, instead is whether a reasonable consumer would have been misled by the label as it was. The majority's implicit argument is that a consumer could have been lulled into a sense of security by general industry conventions stemming from the federal food labeling requirements. The premise is wrong. Further, I do not see any such reliance as being reasonable in this context for a compound ground coffee flavor such as \"Hazelnut Cr\u00e8me.\" Dumont's complaint fails to state a claim under chapter 93A.\n* * *\nThe dissent does exactly what judges are supposed to do: define the parameters of the law. The Supreme Judicial Court of Massachusetts affirms dismissal of chapter 93A claims that do not state a claim. See, e.g., Ortiz, 26 N.E.3d at 174. The federal courts should do no less. We have done so before. See Edlow, 688 F.3d at 39. Imposing on food producers the costs of defending meritless labeling litigation will have the effect of driving up prices for consumers. It is the dissent that is concerned with harm to the consumer.\nFor the foregoing reasons, I respectfully dissent.\nBeyond general points drawn from federal labeling regulations about the \"characterizing flavor\" in a food product, 21 C.F.R. \u00a7 101.22(i), the complaint does not explain why Dumont apparently did not expect the coffee to contain \"Cr\u00e8me\" of any sort but did expect the coffee to contain the modifying term, \"Hazelnut.\" Under the federal regulation, both of these flavors could perhaps be seen as \"characterizing flavor[s].\" Id. (\"If the label, labeling, or advertising of a food makes any direct or indirect representations with respect to the primary recognizable flavor(s),... such flavor shall be considered the characterizing flavor.\"); see id. \u00a7 101.22(i)(3)(iii) (discussing multiple characterizing flavors in a product). Or, more likely, \"Hazelnut Cr\u00e8me\" is simply \"a blend of flavors with no primary recognizable flavor\" under the relevant regulation. Id.\nAlso, Dumont's claim is not about whether the flavoring in the coffee is natural or artificial, but whether the coffee contains actual hazelnuts. (Her complaint says that she purchased the package based on her \"reasonable belief that the Coffee contained Hazelnut,\" not that it was all-natural.) So, her interest in the label is presumably restricted to what it reveals about the presence of hazelnuts.\nI recognize that \"[o]ne can violate [chapter 93A] ... by failing to disclose to a buyer a fact that might have influenced the buyer to refrain from the purchase,\" Greenery Rehab. Grp., Inc. v. Antaramian, 36 Mass.App.Ct. 73, 628 N.E.2d 1291, 1294 (1994), but here all of the ingredients were clearly and accurately disclosed. There was no failure of disclosure.\nI need not consider the Rule 9(b) pleading standard or preemption, because I view Rule 12(b)(6) as dispositive here.\nAs to Dumont's argument that her complaint should not have been dismissed without leave to amend, this should fail. Review is for abuse of discretion. Hamilton v. Partners Healthcare Sys., Inc., 879 F.3d 407, 414 (1st Cir. 2018). Under Rule 15(a), leave of court to amend a complaint generally should be \"freely give[n] ... when justice so requires,\" Fed R. Civ. P. 15(a)(2), but \"[t]his does not mean ... that a trial court must mindlessly grant every request for leave to amend,\" Aponte-Torres v. Univ. of P.R., 445 F.3d 50, 58 (1st Cir. 2006). A request usually must be made by motion. See Fed. R. Civ. P. 7(b)(1). There was no motion made here. Instead, a footnote in Dumont's Objection and Memorandum in Opposition to Motion to Dismiss stated in relevant part: \"To the extent the Court finds any part of Defendan[ts'] motion persuasive, Plaintiff respectfully asks for leave to amend.\"\nThe district court cannot have abused its discretion, because Dumont did not properly seek leave to amend and no exceptional circumstances exist to excuse this failure. Her cursory, contingent request for leave to amend, not made in a motion but in another filing, is not a proper motion for leave to amend. See Gray v. Evercore Restructuring L.L.C., 544 F.3d 320, 327 (1st Cir. 2008) (holding that the statement, \"in the event that the Court finds that the Amended Complaint fails to state a claim, Plaintiff requests leave to replead\" in an opposition motion \"does not constitute a motion to amend a complaint\"). This has been a consistent First Circuit rule. Fire & Police Pension Ass'n of Colo. v. Abiomed, Inc., 778 F.3d 228, 247 (1st Cir. 2015) ; Wayne Inv., Inc. v. Gulf Oil Corp., 739 F.2d 11, 15 (1st Cir. 1984). And \"allowing plaintiffs to hedge their bets by adding a cursory contingent request in an opposition to a motion to dismiss would encourage plaintiffs to test the mettle of successive complaints and freely amend under Rule 15(a) if their original strategic choices prove inadvisable.\" Fisher v. Kadant, Inc., 589 F.3d 505, 510 (1st Cir. 2009).\nDumont was \"put on notice of the deficiencies in the complaint by the motion to dismiss. If [she] had something relevant to add, [she] should have moved to add it then.\" Abiomed, 778 F.3d at 247.",
+        "type": "dissent",
+        "author": "LYNCH, Circuit Judge, dissenting."
+      }
+    ],
+    "attorneys": [
+      "John T. Longo, Providence, RI, and Citadel Consumer Litigation, PC on brief for appellant.",
+      "Timothy H. Madden, Donnelly, Conroy & Gelhaar, LLP, Boston, MA, Mark A. Cunningham, Thomas A. Casey, Jr., John R. Guenard, and Jones Walker LLP, New Orleans, LA, on brief for appellees."
+    ],
+    "corrections": "",
+    "head_matter": "Kathy DUMONT, individually and on behalf of all others similarly situated, Plaintiff, Appellant,\nv.\nREILY FOODS COMPANY; New England Coffee Company, Defendants, Appellees.\nNo. 18-2055\nUnited States Court of Appeals, First Circuit.\nAugust 8, 2019\nJohn T. Longo, Providence, RI, and Citadel Consumer Litigation, PC on brief for appellant.\nTimothy H. Madden, Donnelly, Conroy & Gelhaar, LLP, Boston, MA, Mark A. Cunningham, Thomas A. Casey, Jr., John R. Guenard, and Jones Walker LLP, New Orleans, LA, on brief for appellees.\nBefore Torruella, Lynch, and Kayatta, Circuit Judges."
+  },
+  "file_name": "0035-01",
+  "first_page_order": 35,
+  "last_page_order": 47
+}

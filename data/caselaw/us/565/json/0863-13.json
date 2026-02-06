@@ -1,0 +1,59 @@
+{
+  "id": 12209559,
+  "name": "Cervantes-Guerra v. United States",
+  "name_abbreviation": "Cervantes-Guerra v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-11037",
+  "first_page": "863",
+  "last_page": "863",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 863"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 83,
+    "ocr_confidence": 0.605,
+    "sha256": "e5eb84314da886f3f205388d41b808404dfb740a6f47386b74c9de5d902e2493",
+    "simhash": "1:d4938c22299d856e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cervantes-Guerra v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-11037.\nCervantes-Guerra v. United States."
+  },
+  "file_name": "0863-13",
+  "first_page_order": 945,
+  "last_page_order": 945
+}

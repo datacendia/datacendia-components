@@ -1,0 +1,59 @@
+{
+  "id": 5930483,
+  "name": "Mency v. Superior Court of California, Los Angeles County, et al.",
+  "name_abbreviation": "Mency v. Superior Court",
+  "decision_date": "2011-06-20",
+  "docket_number": "No. 10-10074",
+  "first_page": "1025",
+  "last_page": "1025",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1025"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 20,
+    "char_count": 128,
+    "ocr_confidence": 0.551,
+    "sha256": "98f1a36bb9bf6f34d7cc1ec13c1d07376f3089d0e6f09d90857ee3bf3cfe56ba",
+    "simhash": "1:7803f4a45f261a82",
+    "word_count": 21
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mency v. Superior Court of California, Los Angeles County, et al."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 2d App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10074.\nMency v. Superior Court of California, Los Angeles County, et al."
+  },
+  "file_name": "1025-02",
+  "first_page_order": 1019,
+  "last_page_order": 1019
+}

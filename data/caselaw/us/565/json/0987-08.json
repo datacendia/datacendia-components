@@ -1,0 +1,59 @@
+{
+  "id": 12231277,
+  "name": "Christmas v. Illinois",
+  "name_abbreviation": "Christmas v. Illinois",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. 11-6259",
+  "first_page": "987",
+  "last_page": "987",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 987"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 80,
+    "ocr_confidence": 0.706,
+    "sha256": "6ef4944e751e6b77b448d6a155e76b4bb43a6bcda935b4e16c9c88aacb416786",
+    "simhash": "1:68b9b24c7525ec2c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Christmas v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Ill., 1st Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6259.\nChristmas v. Illinois."
+  },
+  "file_name": "0987-08",
+  "first_page_order": 1069,
+  "last_page_order": 1069
+}

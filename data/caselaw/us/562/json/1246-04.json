@@ -1,0 +1,59 @@
+{
+  "id": 6030683,
+  "name": "Mitchell v. United States",
+  "name_abbreviation": "Mitchell v. United States",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8471",
+  "first_page": "1246",
+  "last_page": "1246",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1246"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.654,
+    "sha256": "3374506cce7c6965a0d668deaa26bfa48c2d911691f03b91b6191b9fe72e1070",
+    "simhash": "1:953be2022d9d257e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mitchell v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8471.\nMitchell v. United States."
+  },
+  "file_name": "1246-04",
+  "first_page_order": 1268,
+  "last_page_order": 1268
+}

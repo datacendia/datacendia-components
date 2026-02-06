@@ -1,0 +1,59 @@
+{
+  "id": 12432359,
+  "name": "Dobbins v. United States",
+  "name_abbreviation": "Dobbins v. United States",
+  "decision_date": "2013-02-25",
+  "docket_number": "No. 12-8416",
+  "first_page": "1204",
+  "last_page": "1204",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1204"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.571,
+    "sha256": "4b5187dc63251aa1071ee8dd2d686f69e0742e46deb8204b2e0a66f0525a3629",
+    "simhash": "1:e259764ea2ef9f16",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dobbins v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. D. C. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8416.\nDobbins v. United States."
+  },
+  "file_name": "1204-12",
+  "first_page_order": 1280,
+  "last_page_order": 1280
+}

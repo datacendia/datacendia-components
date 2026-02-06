@@ -1,0 +1,59 @@
+{
+  "id": 12244982,
+  "name": "Monroe v. United States",
+  "name_abbreviation": "Monroe v. United States",
+  "decision_date": "2012-01-23",
+  "docket_number": "No. 11-7918",
+  "first_page": "1183",
+  "last_page": "1183",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1183"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.661,
+    "sha256": "efbf72b45978d54f4013b94006e03987ce71c87874e04601f2d2c03e3626509d",
+    "simhash": "1:b7ca8a294f8db957",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Monroe v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7918.\nMonroe v. United States."
+  },
+  "file_name": "1183-04",
+  "first_page_order": 1265,
+  "last_page_order": 1265
+}

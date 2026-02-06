@@ -1,0 +1,84 @@
+{
+  "id": 5965279,
+  "name": "Brown v. United States et al.",
+  "name_abbreviation": "Brown v. United States",
+  "decision_date": "2011-04-18",
+  "docket_number": "No. 10-9457",
+  "first_page": "933",
+  "last_page": "933",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 933"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "506 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11924825
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/506/0001-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 79,
+    "char_count": 630,
+    "ocr_confidence": 0.569,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.17198377202686335
+    },
+    "sha256": "923f9b89b51c7be50e0599dba5de8955f9dbba5fcec532b3c9d001843d61ee73",
+    "simhash": "1:ed223ccc056dfeae",
+    "word_count": 106
+  },
+  "last_updated": "2024-02-27T23:44:09.189648+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this motion and this petition."
+    ],
+    "parties": [
+      "Brown v. United States et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Motion of petitioner for leave to proceed informa pauperis denied, and certiorari dismissed. See this Court\u2019s Rule 39.8. As petitioner has repeatedly abused this Court\u2019s process, the Clerk is directed not to accept any further petitions in noncriminal matters from petitioner unless the docketing fee required by Rule 38(a) is paid and the petition is submitted in compliance with Rule 33.1. See Martin v. District of Columbia Court of Appeals, 506 U. S. 1 (1992) (per curiam).",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9457.\nBrown v. United States et al.\nJustice Kagan took no part in the consideration or decision of this motion and this petition."
+  },
+  "file_name": "0933-03",
+  "first_page_order": 959,
+  "last_page_order": 959
+}

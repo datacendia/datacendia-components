@@ -1,0 +1,154 @@
+{
+  "id": 2257073,
+  "name": "Ex parte Jeff K. Puckitt",
+  "name_abbreviation": "Ex parte Puckitt",
+  "decision_date": "1959-04-08",
+  "docket_number": "No. A-7218",
+  "first_page": "438",
+  "last_page": "439",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "159 Tex. 438"
+    },
+    {
+      "type": "parallel",
+      "cite": "322 S.W.2d 597"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "306 S.W. 2d 884",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2253996,
+        10180807
+      ],
+      "year": 1957,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/157/0627-01",
+        "/sw2d/306/0884-01"
+      ]
+    },
+    {
+      "cite": "157 Texas 627",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2253996
+      ],
+      "year": 1957,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/157/0627-01"
+      ]
+    },
+    {
+      "cite": "243 S.W. 2d 160",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2328409,
+        10193095
+      ],
+      "year": 1951,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/150/0510-01",
+        "/sw2d/243/0160-01"
+      ]
+    },
+    {
+      "cite": "150 Texas 510",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2328409
+      ],
+      "year": 1951,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/150/0510-01"
+      ]
+    },
+    {
+      "cite": "256 S.W. 2d 398",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10207357,
+        2246231
+      ],
+      "year": 1953,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/256/0398-01",
+        "/tex/152/0229-01"
+      ]
+    },
+    {
+      "cite": "152 Texas 229",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2246231
+      ],
+      "year": 1953,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/152/0229-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 146,
+    "char_count": 1612,
+    "ocr_confidence": 0.576,
+    "pagerank": {
+      "raw": 5.64390166280332e-07,
+      "percentile": 0.948713612260792
+    },
+    "sha256": "a3e2532b98abf80aafc0ece9ef697bf3474ea062a4048da30f541860fce26425",
+    "simhash": "1:14760c31503e2fd5",
+    "word_count": 289
+  },
+  "last_updated": "2024-02-27T19:26:07.846026+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ex parte Jeff K. Puckitt."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Greenhill\ndelivered the opinion of the Court.\nThis is an original proceeding in this Court in which Jeff K. Puckitt sought and was granted a writ of habeas corpus.\nPending a hearing in a divorce suit, Puckitt was ordered by the district court to make monthly payments to his wife. Upon her allegations that he was delinquent in his payments, Puckitt was called before the court. The learned trial judge found him to be in arrears and to be in contempt of court. Apparently upon the oral direction of the judge, Puckitt was put in jail by the sheriff until he purged himself of the contempt. No written order of any kind appears in the record.\nThis Court has held that as a matter of due process, a person may not be imprisoned for contempt without a written judgment of contempt and a written order of commitment. Ex Parte Smart, 152 Texas 229, 256 S.W. 2d 398 (1953) ; Ex Parte Palmateer, 150 Texas 510, 243 S.W. 2d 160 (1951).\nThis Court held in Ex Parte Arapis, 157 Texas 627, 306 S.W. 2d 884 (1957) :\n\u201cA \u2018commitment\u2019 is a warrant, order or process by which a court or magistrate directs a ministerial officer to take a person to jail or to prison and to detain him there. . . .\n\u201cAn arrest without a written commitment made for the purpose of enforcing a contempt judgment is an illegal restraint from which the prisoner is entitled to be relieved.\u201d\nUpon the authority of the above holdings, the Relator Jeff K. Puckitt is discharged.\nOpinion delivered April 8, 1959.",
+        "type": "majority",
+        "author": "Mr. Justice Greenhill"
+      }
+    ],
+    "attorneys": [
+      "W. T. Briggs, of Port Arthur, for relator."
+    ],
+    "corrections": "",
+    "head_matter": "Ex parte Jeff K. Puckitt.\nNo. A-7218.\nDecided April 8, 1959.\n(322 S.W. 2d Series 597)\nW. T. Briggs, of Port Arthur, for relator."
+  },
+  "file_name": "0438-01",
+  "first_page_order": 452,
+  "last_page_order": 453
+}

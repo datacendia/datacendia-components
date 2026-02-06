@@ -1,0 +1,59 @@
+{
+  "id": 6014387,
+  "name": "Santamaria v. United States",
+  "name_abbreviation": "Santamaria v. United States",
+  "decision_date": "2011-02-28",
+  "docket_number": "No. 10-8786",
+  "first_page": "1264",
+  "last_page": "1264",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1264"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.653,
+    "sha256": "810e36ad435ed0346d85aafd06d677694c6de38f9b0c546c0bd12809e96072dc",
+    "simhash": "1:87fbe6870f3d162b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Santamaria v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8786.\nSantamaria v. United States."
+  },
+  "file_name": "1264-12",
+  "first_page_order": 1286,
+  "last_page_order": 1286
+}

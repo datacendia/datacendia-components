@@ -1,0 +1,433 @@
+{
+  "id": 12519128,
+  "name": "IN RE: OATH HOLDINGS INC., fka Yahoo Holdings, Inc., Petitioner",
+  "name_abbreviation": "In re Oath Holdings Inc.",
+  "decision_date": "2018-11-14",
+  "docket_number": "2018-157",
+  "first_page": "1301",
+  "last_page": "1307",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "908 F.3d 1301"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Fed. Cir.",
+    "id": 8955,
+    "name": "United States Court of Appeals for the Federal Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "28 U.S.C. \u00a7 1404",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "890 F.3d 978",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12517011
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "982",
+          "parenthetical": "granting mandamus and finding it unnecessary to remand for consideration of forfeiture when it was clear that no ground for finding forfeiture existed"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/890/0978-01"
+      ]
+    },
+    {
+      "cite": "838 F.3d 223",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12172704,
+        12141477
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "244"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/838/0223-01",
+        "/br/559/0223-02"
+      ]
+    },
+    {
+      "cite": "646 F.2d 792",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1218122
+      ],
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "794-96"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/646/0792-01"
+      ]
+    },
+    {
+      "cite": "768 F.3d 122",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4264793
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "135-36"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/768/0122-01"
+      ]
+    },
+    {
+      "cite": "890 F.3d 1008",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516895
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1012-13"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/890/1008-01"
+      ]
+    },
+    {
+      "cite": "352 U.S. 249",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6160504
+      ],
+      "weight": 3,
+      "year": 1957,
+      "pin_cites": [
+        {
+          "page": "259-60"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/352/0249-01"
+      ]
+    },
+    {
+      "cite": "889 F.3d 1349",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516787
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1352-54"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/889/1349-01"
+      ]
+    },
+    {
+      "cite": "542 U.S. 367",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        2527206
+      ],
+      "weight": 3,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "380",
+          "parenthetical": "internal quotation marks and citations omitted"
+        },
+        {
+          "parenthetical": "internal quotation marks and citations omitted"
+        },
+        {
+          "parenthetical": "internal quotation marks and citations omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/542/0367-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1651",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "353 U.S. 222",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6160256
+      ],
+      "weight": 3,
+      "year": 1957,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/353/0222-01"
+      ]
+    },
+    {
+      "cite": "2018 WL 3998021",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "*7"
+        },
+        {
+          "page": "*5"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "705 F. App'x 955",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        12408465,
+        12408454
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "956",
+          "parenthetical": "internal citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/705/0955-02",
+        "/f-appx/705/0955-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1406",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(b)"
+        },
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "821 F.3d 1338",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4258211
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1341-43",
+          "parenthetical": "finding no basis in the 2011 amendments to \u00a7 1391 to depart from our holding in VE Holding "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/821/1338-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1391",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(c)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "917 F.2d 1574",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10368
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "1577-78",
+          "parenthetical": "reading \u00a7 1400(b) to incorporate the definition of \"resides\" in the 1988 version of 28 U.S.C. \u00a7 1391(c) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/917/1574-01"
+      ]
+    },
+    {
+      "cite": "137 S.Ct. 1514",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12604310
+      ],
+      "weight": 3,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1517"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/137/1514-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1400",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(b)",
+          "parenthetical": "\"Any civil action for patent infringement may be brought in the judicial district where the defendant resides, or where the defendant has committed acts of infringement and has a regular and established place of business.\""
+        },
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "875 F.3d 1091",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12266696
+      ],
+      "weight": 12,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1094"
+        },
+        {
+          "page": "1100-02"
+        },
+        {
+          "page": "1098-99"
+        },
+        {
+          "page": "1095"
+        },
+        {
+          "page": "1098"
+        },
+        {
+          "page": "1101"
+        },
+        {
+          "page": "1102"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/875/1091-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 821,
+    "char_count": 18176,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25910661200710927
+    },
+    "sha256": "5506a730a07baf493be3b80ff4c7fdb80cafdc23b12afdf688d885a9079260a4",
+    "simhash": "1:920c8b81658bcd6b",
+    "word_count": 3039
+  },
+  "last_updated": "2024-02-27T16:20:33.568669+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Dyk, Reyna, and Taranto, Circuit Judges."
+    ],
+    "parties": [
+      "IN RE: OATH HOLDINGS INC., fka Yahoo Holdings, Inc., Petitioner"
+    ],
+    "opinions": [
+      {
+        "text": "Per Curiam.\nORDER\nThis is the second petition for a writ of mandamus filed by Oath Holdings Inc. (formerly known as Yahoo Holdings, Inc.) to challenge the district court's conclusion that Oath missed its opportunity to object to venue in the Eastern District of New York for the patent case filed against it. When Oath first sought mandamus, we denied the request, stating that Oath should ask the district court to reconsider its initial conclusion in light of In re Micron Technology, Inc. , 875 F.3d 1091 (Fed. Cir. 2017). Oath made that request to the district court, but the court reached the same conclusion it had reached earlier and denied the request for dismissal or transfer. We now grant mandamus and remand with the instruction that the district court either dismiss or transfer the case.\nI\nIn March 2016, AlmondNet, Inc., Datonics, LLC, and Intent IQ, LLC-the respondents in this court-sued Oath in the United States District Court for the Eastern District of New York, alleging patent infringement. Certain facts relevant to venue are undisputed as this matter has come to us: although Oath conducts business in the State of New York, it is incorporated in Delaware, and it does not have \"a regular and established place of business\" in the Eastern District within the meaning of the venue provision for patent cases, 28 U.S.C. \u00a7 1400(b) (\"Any civil action for patent infringement may be brought in the judicial district where the defendant resides, or where the defendant has committed acts of infringement and has a regular and established place of business.\").\nIn July 2016, Oath moved under Federal Rule of Civil Procedure 12(b)(6) to dismiss the complaint for failure to state a claim but did not include an objection to venue under Rule 12(b)(3). Oath later withdrew its Rule 12 motion, and in January 2017, it filed an answer to respondents' complaint. In that answer, Oath both admitted the complaint's venue allegations and expressly \"reserve[d] the right to challenge venue based upon any change in law, including the Supreme Court's upcoming decision in TC Heartland LLC v. Kraft Foods Group Brands, LLC , No. 16-341.\" Appx. 38. One month earlier, the Supreme Court had granted certiorari in that case to address the meaning of 28 U.S.C. \u00a7 1400(b).\nOn May 22, 2017, the Supreme Court issued its decision. TC Heartland LLC v. Kraft Foods Grp. Brands LLC , --- U.S. ----, 137 S.Ct. 1514, 197 L.Ed.2d 816 (2017). The Court held that, under \u00a7 1400(b), \"a domestic corporation 'resides' only in its State of incorporation for purposes of the patent venue statute.\" Id. at 1517. The Court rejected the holding of this court's longstanding precedent, VE Holding Corp. v. Johnson Gas Appliance Co. , that a domestic corporation \"resides,\" for purposes of \u00a7 1400(b), in any judicial district in which the defendant is subject to personal jurisdiction. See 917 F.2d 1574, 1577-78 (Fed. Cir. 1990) (reading \u00a7 1400(b) to incorporate the definition of \"resides\" in the 1988 version of 28 U.S.C. \u00a7 1391(c) ); see also In re TC Heartland LLC , 821 F.3d 1338, 1341-43 (Fed. Cir. 2016) (finding no basis in the 2011 amendments to \u00a7 1391 to depart from our holding in VE Holding ).\nOn June 12, 2017, within 21 days of the Supreme Court's decision in TC Heartland , Oath filed a motion, pursuant to Rule 12(b)(3), to dismiss for improper venue. It argued that, given TC Heartland 's holding as to the narrow meaning of \"resides,\" the requirements of \u00a7 1400(b) are not satisfied: Oath is not incorporated in New York; and it undisputedly lacks a regular and established place of business in the Eastern District. Respondents opposed, but not by arguing that venue is proper in this case. Rather, they argued that Oath had waived its venue defense under Rule 12(g)(2) and 12(h)(1) because that defense was \"available\" at the time that Oath filed its July 2016 Rule 12 motion (before TC Heartland ), yet Oath had failed to present the defense in that motion. The district court agreed with respondents that Oath had waived its venue defense and therefore denied Oath's venue motion. AlmondNet, Inc. v. Yahoo! Inc. , No. 1:16-cv-01557-ILG-SMG (E.D.N.Y. Sept. 1, 2017), ECF No. 82.\nIn October 2017, Oath petitioned this court for a writ of mandamus that would direct the district court to grant the motion to dismiss. In November 2017, while that petition was pending, this court held in Micron that \" TC Heartland changed the controlling law in the relevant sense: at the time of the initial motion to dismiss, before the Court decided TC Heartland , the venue defense now raised by Micron (and others) based on TC Heartland 's interpretation of the venue statute was not 'available,' thus making the waiver rule of Rule 12(g)(2) and (h)(1)(A) inapplicable.\" 875 F.3d at 1094. The court also ruled that, under 28 U.S.C. \u00a7 1406(b) and district courts' back-ground case-management authority, venue rights might nevertheless be found forfeited by delay in asserting them in some circumstances. Micron , 875 F.3d at 1100-02. This court then denied Oath's petition for mandamus in light of Micron , stating:\nWe recently held that the Supreme Court's decision in TC Heartland effected a relevant change in the law and, more particularly, that failure to present the venue objection earlier did not come within the waiver rule of Federal Rule of Civil Procedure 12(g)(2) and (h)(1). In light of that decision, we deem it the proper course here for Yahoo to first move the district court for reconsideration of its order denying the motion to dismiss.\nIn re Yahoo Holdings Inc. , 705 F. App'x 955, 956 (Fed. Cir. 2017) (internal citation omitted).\nOath promptly moved the district court for reconsideration, and respondents filed a cross-motion to transfer to either the Southern District of New York or the District of Delaware if the Eastern District of New York was found to be an improper venue for the case. More than eight months later, the district court denied Oath's motion. Most of the court's opinion explains why the court was rejecting Oath's \"assertion that I was wrong in deciding that TC Heartland did not change the law.\" AlmondNet, Inc. v. Yahoo! Inc. , No. 1:16-CV-01557-ILG-SMG, 2018 WL 3998021, at *7 (E.D.N.Y. Aug. 21, 2018). The district court essentially concluded that TC Heartland did not change the law at the Supreme Court level because it reaffirmed Fourco Glass Co. v. Transmirra Products Corp ., 353 U.S. 222, 77 S.Ct. 787, 1 L.Ed.2d 786 (1957). But the district court failed to follow Micron , where we explained that TC Heartland \"changed the controlling law\" at the circuit level. Micron , 875 F.3d at 1098-99. Indeed, the district court recognized that its \"reading of TC Heartland ... is completely inconsistent with the two defining issues decided in Micron .\" 2018 WL 3998021, at *5. At the end of the district court's opinion is a brief passage addressing forfeiture apart from Rule 12(g)(2) and (h)(1)(A) : \"I incorporate by reference the docket sheet for this case and rest in confident reliance upon the rule of res ipsa loquitur .\" Id. at *8. Having denied Oath's motion, the district court denied respondents' cross-motion to transfer as moot. Id.\nOath now petitions for a writ of mandamus once again, asking us to direct the district court to dismiss the action. Respondents oppose, seeking to defend the district court's decision not to follow our ruling in Micron . They contend, among other things, that Micron is not controlling because it arose out of a district court case from within the First Circuit and the present case comes from within the Second Circuit, which \"applies a standard for waiver different from that discussed in In re Micron .\" Resp. to Pet. For Writ of Mandamus 3. Respondents also argue that, if we find mandamus appropriate, we should not require dismissal, but instead should include the possibility of transfer in the alternative.\nII\nA\nThe court may issue a writ of mandamus as \"neces-sary or appropriate in aid of [its] ... jurisdiction[ ] and agreeable to the usages and principles of law.\" 28 U.S.C. \u00a7 1651(a). Mandamus relief is reserved for \"exceptional circumstances\" under generally demanding standards, Cheney v. U.S. Dist. Court for D.C. , 542 U.S. 367, 380, 124 S.Ct. 2576, 159 L.Ed.2d 459 (2004) (internal quotation marks and citations omitted), and we have made clear that ordinarily it is not available for rulings on motions under 28 U.S.C. \u00a7 1406(a), see In re HTC Corp. , 889 F.3d 1349, 1352-54 (Fed. Cir. 2018). But \"[m]andamus may be used in narrow circumstances where doing so is important to 'proper judicial administration.' \" Micron , 875 F.3d at 1095 (quoting La Buy v. Howes Leather Co. , 352 U.S. 249, 259-60, 77 S.Ct. 309, 1 L.Ed.2d 290 (1957) ). Given our on-point ruling in Micron , our order on Oath's first mandamus petition based directly on Micron , and the district court's reasoning in nevertheless standing by its initial conclusion, we think that this case involves a narrow and exceptional circumstance in which mandamus is important for proper judicial administration.\nThere is no dispute that venue in the Eastern District of New York in this case is contrary to \u00a7 1400(b). The only question is whether Oath waived or forfeited the right to have the case dismissed on that basis by waiting too long to invoke it. The district court answered yes to that question. The district court's principal ground for doing so, however, rests on its failure to follow our directly controlling Micron precedent addressing the issue of waiver under Rule 12(g)(2) and (h)(1) as applied to TC Heartland 's rejection of this court's earlier, longstanding VE Holding precedent.\nRespondents contend that Micron does not apply because it arose under First Circuit law, while this case arises under Second Circuit law. But the result cannot change here on that basis. Micron noted that it was not deciding whether Federal Circuit law or relevant regional circuit law governed the waiver issue. Micron , 875 F.3d at 1097 n.3. We made clear, however, that the interpretation of \u00a7 1400(b), a patent-specific statute, including its relation to \u00a7 1391, is a matter of Federal Circuit law, not regional circuit law (subject, of course, to Supreme Court law). Id. at 1098. And we have subsequently held that the burden of persuasion on venue under \u00a7 1400(b) is a matter of our law. In re ZTE (USA) Inc. , 890 F.3d 1008, 1012-13 (Fed. Cir. 2018). We conclude that issues of waiver or forfeiture of patent-venue rights under \u00a7 1400(b) and \u00a7 1406(a) are likewise governed by our law.\nIn any event, the district court did not cite, and respondents have not cited, any Second Circuit decision on change of law, let alone a decision in the context of Rule 12(g)(2) and (h)(1), that finds no relevant change of law where binding circuit precedent (on \u00a7 1400(b) here) is overturned. To the contrary, the Second Circuit's decision in Gucci America, Inc. v. Li , 768 F.3d 122, 135-36 (2d Cir. 2014), which Micron cites, supports Oath, not respondents: the Second Circuit in Gucci , like this court in Micron , found a waiver-excusing change of law when binding circuit precedent was overturned. The Second Circuit's decision in Holzsager v. Valley Hospital , 646 F.2d 792, 794-96 (2d Cir. 1981), which Micron also cites, is to the same effect, finding no Rule 12(h)(1) waiver where the Supreme Court repudiated circuit precedent that governed earlier in the case. The only authority that respondents suggest is to the contrary is In re Vivendi, S.A. Securities Litigation , 838 F.3d 223, 244 (2d Cir. 2016), but respondents are incorrect: Vivendi did not involve any overturning of binding circuit precedent that earlier would have precluded a district court from accepting an argument.\nFor those reasons, Micron answers the entire question of waiver under Rule 12(g)(2) and (h)(1) for purposes of this case: there was no such waiver. In what is nearly the only basis for the district court's denial of Oath's venue motion, the district court clearly erred in not following the Micron precedent giving that answer. That error war-rants mandamus relief.\nB\nThe remaining question is whether there is an alternative ground to deny mandamus relief from the district court's rejection of Oath's objection to venue. In Micron , we noted the existence of a non- Rule 12 basis for a defendant's forfeiting the right to assert a venue objection under \u00a7 1406, and we explained that discretion under \"[t]his authority must be exercised with caution\" to avoid impairment of, among other things, the congressionally granted venue rights. 875 F.3d at 1101. We explained that \"exercise of the authority certainly may rest on sound determinations of untimeliness or consent.\" Id. We also provided an example of \"a scenario that presents at least an obvious starting point for a claim of forfeiture\" on a non- Rule 12 ground: \"a defendant's tactical wait-and-see bypassing of an opportunity to declare a desire for a different forum, where the course of proceedings might well have been altered by such a declaration.\" Id. at 1102. We further noted that \"we have denied mandamus ... in several cases involving venue objections based on TC Heartland that were presented close to trial.\" Id.\nThe district court's passing reference to a non- Rule 12 ground is not a basis for denying mandamus relief from the order rejecting Oath's venue motion. The district court provided no analysis of why the circumstances of this case made a finding of forfeiture under \u00a7 1406(b) a sound exercise of discretion. Nor have respondents presented to us any argument that would warrant remanding for further analysis. See In re BigCommerce, Inc. , 890 F.3d 978, 982 (Fed. Cir. 2018) (granting mandamus and finding it unnecessary to remand for consideration of forfeiture when it was clear that no ground for finding forfeiture existed).\nRespondents' arguments establish no legitimate basis for concluding that Oath forfeited its \u00a7 1406(a) right to seek dismissal or transfer for lack of venue under \u00a7 1400(b). Respondents point to the fact that Oath admitted to venue in its answer and Oath's extensive participation before the Supreme Court decided TC Heartland . But Oath cannot be faulted for waiting to present a venue objection until after TC Heartland was decided, where the case was in an early stage, the defense could not properly have been adopted by the district court at the time, and Oath's answer expressly put respondents and the district court on notice that Oath was watching TC Heartland to see if the defense would become available. Respondents also cannot reasonably argue that Oath failed to seasonably raise its defense once available: Oath filed its motion to dismiss within 21 days of the Court's TC Heartland decision. See BigCommerce , 890 F.3d at 982 (finding no basis to remand in part because defendant filed its motion within two weeks of the issuance of TC Heartland ). Nor do respondents identify any conduct post- TC Heartland that would indicate in any way that Oath somehow consented or submitted to venue.\nRespondents gain no further ground in pointing out that Oath did not take the opportunity to seek transfer to another venue under a different statutory provision, i.e. , 28 U.S.C. \u00a7 1404(a), before moving to dismiss for improper venue. The statutory rights under \u00a7\u00a7 1400(b) and 1406(a) are independent of the convenience-based rights under \u00a7 1404(a). And Oath's choices in this case involve nothing close to the type of \"wait-and-see\" tactical behavior that Micron suggested was a potential basis for forfeiture. 875 F.3d at 1102 ; see also In re FedEx Corp ., No. 18-117 (Fed. Cir. Jan. 23, 2018) (per curiam), ECF No. 26 (indicating that it would not have been error for the district court to find forfeiture if the defendant had purposely delayed asserting its venue defense once available in hopes of receiving a favorable decision on patent invalidity from the Patent and Trademark Office that could lead to a more advantageous litigation position in the district court proceeding).\nFinally, respondents have not shown that the judicial interest in economy could support a determination of forfeiture of venue rights. As of June 2017, when Oath filed its motion, or September 2017, when the district court first ruled, the case was nowhere close to trial. Even today, as far as we have been informed, the case has not progressed past written discovery and claim construction briefing. The record simply does not indicate the type of significant judicial investment that might, in some circumstances, support a determination of forfeiture.\nIII\nWe conclude that Oath has not waived or forfeited its venue rights. Because it is undisputed that venue is improper in the Eastern District of New York, the case may not remain there. Under \u00a7 1406(a), the district court now must either dismiss the case or transfer the case to a \"district or division in which it could have been brought.\"\nAccordingly,\nIT IS ORDERED THAT :\nThe petition for a writ of mandamus is granted, the orders denying Oath's motion to dismiss for improper venue and motion for reconsideration are vacated, and the case is remanded for the limited purpose of either dis-missing the case or transferring it to a proper venue outside the Eastern District of New York.\nOath requests that we order this case to be reas-signed to a different judge within the Eastern District. Given our conclusion that this case must be dismissed or transferred outside the Eastern District, we deny Oath's reassignment request.",
+        "type": "majority",
+        "author": "Per Curiam."
+      }
+    ],
+    "attorneys": [
+      "Charles Kramer Verhoeven, Quinn Emanuel Urquhart & Sullivan, LLP, San Francisco, CA, for petitioner Oath Holdings Inc. Also represented by Miles Davenport Freeman, Los Angeles, CA; Patrick D. Curran, John Thomas McKee, New York, NY.",
+      "Ian B. Crosby, Susman Godfrey LLP, Seattle, WA, for respondent AlmondNet, Inc., Datonics, LLC, Intent IQ, LLC. Also represented by Louis James Hoffman, Hoffman Patent Firm, Scottsdale, AZ."
+    ],
+    "corrections": "",
+    "head_matter": "IN RE: OATH HOLDINGS INC., fka Yahoo Holdings, Inc., Petitioner\n2018-157\nUnited States Court of Appeals, Federal Circuit.\nNovember 14, 2018\nCharles Kramer Verhoeven, Quinn Emanuel Urquhart & Sullivan, LLP, San Francisco, CA, for petitioner Oath Holdings Inc. Also represented by Miles Davenport Freeman, Los Angeles, CA; Patrick D. Curran, John Thomas McKee, New York, NY.\nIan B. Crosby, Susman Godfrey LLP, Seattle, WA, for respondent AlmondNet, Inc., Datonics, LLC, Intent IQ, LLC. Also represented by Louis James Hoffman, Hoffman Patent Firm, Scottsdale, AZ.\nBefore Dyk, Reyna, and Taranto, Circuit Judges.\nON PETITION"
+  },
+  "file_name": "1301-01",
+  "first_page_order": 1301,
+  "last_page_order": 1307
+}

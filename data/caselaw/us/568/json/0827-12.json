@@ -1,0 +1,59 @@
+{
+  "id": 12410674,
+  "name": "Gobert v. Texas",
+  "name_abbreviation": "Gobert v. Texas",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-9124",
+  "first_page": "827",
+  "last_page": "827",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 827"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 70,
+    "ocr_confidence": 0.748,
+    "sha256": "3091087094a7acb1495361cfeb42df5f256aecd08618c4bc2ce1831fbb6b61de",
+    "simhash": "1:18bd18ef3ddffdba",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gobert v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Tex. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9124.\nGobert v. Texas."
+  },
+  "file_name": "0827-12",
+  "first_page_order": 903,
+  "last_page_order": 903
+}

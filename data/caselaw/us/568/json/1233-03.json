@@ -1,0 +1,59 @@
+{
+  "id": 12433226,
+  "name": "Cunningham v. United States",
+  "name_abbreviation": "Cunningham v. United States",
+  "decision_date": "2013-03-18",
+  "docket_number": "No. 12-7708",
+  "first_page": "1233",
+  "last_page": "1233",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1233"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 76,
+    "ocr_confidence": 0.626,
+    "sha256": "464fb34726430c3bda9543a01d30c03e4c43284c3b4f8ee9fe6099df2ab18f54",
+    "simhash": "1:85aa728a4f3d1874",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cunningham v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir.-Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7708.\nCunningham v. United States."
+  },
+  "file_name": "1233-03",
+  "first_page_order": 1309,
+  "last_page_order": 1309
+}

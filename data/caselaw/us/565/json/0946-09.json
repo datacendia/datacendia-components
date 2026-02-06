@@ -1,0 +1,59 @@
+{
+  "id": 12227310,
+  "name": "Lehr v. Arizona",
+  "name_abbreviation": "Lehr v. Arizona",
+  "decision_date": "2011-10-11",
+  "docket_number": "No. 11-5568",
+  "first_page": "946",
+  "last_page": "946",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 946"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 64,
+    "ocr_confidence": 0.626,
+    "sha256": "f91f1db4c36b4d4e17f64dc1a333501caadbf8d265138ae6f48cd7adca4b422d",
+    "simhash": "1:66fd7d2ae903b458",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lehr v. Arizona."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ariz. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5568.\nLehr v. Arizona."
+  },
+  "file_name": "0946-09",
+  "first_page_order": 1028,
+  "last_page_order": 1028
+}

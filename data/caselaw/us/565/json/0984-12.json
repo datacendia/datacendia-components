@@ -1,0 +1,59 @@
+{
+  "id": 12230999,
+  "name": "Juarbe v. Cain, Warden",
+  "name_abbreviation": "Juarbe v. Cain",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. 11-6108",
+  "first_page": "984",
+  "last_page": "984",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 984"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.66,
+    "sha256": "cf4428af6c5712447bd27fd8fed07995db31a3127c6385b02ab56f8987c78669",
+    "simhash": "1:85e89a929b488a66",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Juarbe v. Cain, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6108.\nJuarbe v. Cain, Warden."
+  },
+  "file_name": "0984-12",
+  "first_page_order": 1066,
+  "last_page_order": 1066
+}

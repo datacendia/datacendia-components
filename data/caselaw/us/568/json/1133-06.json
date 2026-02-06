@@ -1,0 +1,59 @@
+{
+  "id": 12429623,
+  "name": "Sierra v. Florida",
+  "name_abbreviation": "Sierra v. Florida",
+  "decision_date": "2013-01-14",
+  "docket_number": "No. 12-7506",
+  "first_page": "1133",
+  "last_page": "1133",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1133"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 82,
+    "ocr_confidence": 0.651,
+    "sha256": "e24bf968b44e2a30a99269940f3dfa61c057f89929e2fb2f730c580f19f51688",
+    "simhash": "1:b12ad00286e24880",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sierra v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 5th Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7506.\nSierra v. Florida."
+  },
+  "file_name": "1133-06",
+  "first_page_order": 1209,
+  "last_page_order": 1209
+}

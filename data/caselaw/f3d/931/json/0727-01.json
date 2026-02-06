@@ -1,0 +1,159 @@
+{
+  "id": 12522069,
+  "name": "UNITED STATES of America, Plaintiff - Appellee v. Carlos Joe GRADY, Defendant - Appellant",
+  "name_abbreviation": "United States v. Grady",
+  "decision_date": "2019-07-26",
+  "docket_number": "No. 18-1728",
+  "first_page": "727",
+  "last_page": "730",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "931 F.3d 727"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "8th Cir.",
+    "id": 8821,
+    "name": "United States Court of Appeals for the Eighth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "782 F.3d 1028",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4145206
+      ],
+      "weight": 2,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1036"
+        },
+        {
+          "page": "1036-37",
+          "parenthetical": "holding that two convictions counted as predicate controlled substance offenses because the convictions were separated by an intervening arrest"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/782/1028-01"
+      ]
+    },
+    {
+      "cite": "707 F.3d 938",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3537772
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "942",
+          "parenthetical": "concluding that plea agreement and waiver were knowing and voluntary where district court confirmed that defendant had read plea agreement with counsel and understood the appeal waiver"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/707/0938-01"
+      ]
+    },
+    {
+      "cite": "333 F.3d 886",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9112710
+      ],
+      "weight": 3,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "889-90",
+          "parenthetical": "en banc"
+        },
+        {
+          "page": "890-91",
+          "parenthetical": "\"One important way a district court can help ensure that a plea agreement and corresponding waiver are entered into knowingly and voluntarily is to properly question a defendant about his or her decision to enter that agreement and waive the right to appeal.\""
+        },
+        {
+          "page": "891-92"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/333/0886-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 3553",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 U.S.C. \u00a7 841",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(1) and (b)(1)(B)(viii)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 392,
+    "char_count": 7129,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2594589491510895
+    },
+    "sha256": "8bde9d358e3df9220d62b933bfba23e3a6c4e5937aef22d4937868208e3252ea",
+    "simhash": "1:347af2774ab7b4c7",
+    "word_count": 1116
+  },
+  "last_updated": "2024-02-27T18:47:21.356099+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before SMITH, Chief Judge, ARNOLD and KELLY, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff - Appellee\nv.\nCarlos Joe GRADY, Defendant - Appellant"
+    ],
+    "opinions": [
+      {
+        "text": "PER CURIAM.\nPursuant to a written agreement containing an appeal waiver, Carlos Joe Grady pleaded guilty to one count of possession with intent to distribute 50 grams or more of a mixture or substance containing methamphetamine, in violation of 21 U.S.C. \u00a7 841(a)(1) and (b)(1)(B)(viii). At sentencing, and over Grady's objection, the district court found that Grady had two prior felony convictions for a controlled substance offense and applied the career offender enhancement under United States Sentencing Guidelines \u00a7 4B1.1(a) (2016), resulting in a Guidelines range of 188 to 235 months' imprisonment. The court sentenced Grady to 188 months, and he now appeals his sentence on various grounds.\nI\nGrady asserts that the district court committed three sentencing errors: (1) finding that two of his prior felony convictions \"counted separately\" for the purposes of his Criminal History under the Guidelines, triggering the career offender enhancement; (2) failing to adequately explain the reasons for its chosen sentence and its rejection of Grady's request for a downward variance; and (3) failing to consider any of the 18 U.S.C. \u00a7 3553(a) factors, thereby imposing a substantively unreasonable sentence. The government argues that other than Grady's challenge to the career offender enhancement, Grady's claims are barred by the appeal waiver in his plea agreement. We first analyze whether the appeal waiver bars Grady's second and third claims and then address the merits of his challenge to his career offender status.\nGrady's plea agreement provides, \"[i]n the event the Court accepts the plea, and after determining the appropriate Total Offense Level, sentences the defendant within or below the corresponding range, then, as a part of this agreement, the defendant hereby waives all rights to appeal all sentencing issues other than Criminal History.\" We will enforce the waiver of rights to appeal when the government demonstrates that the issues raised on appeal are \"within the scope of the waiver,\" the plea agreement and waiver were entered into \"knowingly and voluntarily,\" and enforcement of the waiver would not \"result in a miscarriage of justice.' \" United States v. Andis, 333 F.3d 886, 889-90 (8th Cir. 2003) (en banc). As the government contends, Grady's claims that his sentence is substantively unreasonable and that the district court failed to adequately explain its chosen sentence and its rejection of his request for a variance are \"sentencing issues other than Criminal History.\" They thus fall within the scope of Grady's waiver. The career offender issue, on the other hand, does not.\nWe also conclude that Grady's plea and waiver were entered into knowingly and voluntarily. At the change of plea hearing, the district court confirmed that Grady had read his plea agreement, reviewed it \"in detail\" with his counsel, and understood its contents. The court also asked Grady if his guilty plea was the product of force, coercion, or threats, to which Grady replied, \"No.\" The court then addressed the appeal waiver, explaining to Grady that if the court imposed a sentence within or below the Guidelines range, Grady waived his right to appeal his sentence, subject to only one exception: Grady could appeal \"the determination about [his] criminal history,\" that is, \"[his] criminal record [ ] and nothing else.\" Grady replied that he agreed. Based on this record, we are satisfied that Grady entered into his plea and waived his appellate rights knowingly and voluntarily. See Andis, 333 F.3d at 890-91 (\"One important way a district court can help ensure that a plea agreement and corresponding waiver are entered into knowingly and voluntarily is to properly question a defendant about his or her decision to enter that agreement and waive the right to appeal.\"); see also United States v. Guzman, 707 F.3d 938, 942 (8th Cir. 2013) (concluding that plea agreement and waiver were knowing and voluntary where district court confirmed that defendant had read plea agreement with counsel and understood the appeal waiver). Furthermore, we conclude that enforcement of the waiver would not result in a miscarriage of justice. See Andis, 333 F.3d at 891-92. We thus enforce Grady's appeal waiver as to his second and third claims, and we turn to his challenge to the Criminal History determinations supporting the district court's application of the career offender enhancement.\nII\nA defendant may be classified as a career offender if, among other things, he \"has at least two prior felony convictions of either a crime of violence or a controlled substance offense.\" USSG \u00a7 4B1.1(a). The district court determined that Grady's 2007 and 2010 Missouri convictions for distribution of a controlled substance each qualified as a prior felony conviction for a controlled substance offense. Like he did before the district court, Grady argues on appeal that these two convictions should count as just one qualifying conviction, not two. \"We review the district court's interpretation and application of the Sentencing Guidelines de novo and review its application of the Guidelines to the facts for clear error.\" United States v. Armstrong, 782 F.3d 1028, 1036 (8th Cir. 2015).\nUnder the Guidelines, \"[t]he term 'two prior felony convictions' means (1) the defendant committed the instant offense of conviction subsequent to sustaining at least two felony convictions of ... a controlled substance offense ... , and (2) the sentences for at least two of the aforementioned felony convictions are counted separately under the provisions of \u00a7 4A1.1(a), (b), or (c).\" \u00a7 4B1.2(c). Section 4A1.2(a)(2), in turn, specifies that to apply \u00a7 4A1.1(a)-(c), \"[p]rior sentences always are counted separately if the sentences were imposed for offenses that were separated by an intervening arrest.\" Here, Grady's 2007 and 2010 convictions were separated by an intervening arrest and thus were properly counted separately. As set forth in the Presentence Investigation Report, Grady's 2007 conviction resulted from a February 2007 arrest. Almost three years later, Grady was arrested again, leading to his 2010 conviction. Accordingly, the district court correctly counted each conviction as a predicate offense and properly applied the career offender enhancement. See Armstrong, 782 F.3d at 1036-37 (holding that two convictions counted as predicate controlled substance offenses because the convictions were separated by an intervening arrest).\nAccordingly, we affirm Grady's sentence.\nThe Honorable Stephen N. Limbaugh, Jr., United States District Judge for the Eastern District of Missouri.",
+        "type": "majority",
+        "author": "PER CURIAM."
+      }
+    ],
+    "attorneys": [
+      "Timothy J. Willis, Assistant U.S. Attorney, U.S. ATTORNEY'S OFFICE, Eastern District of Missouri, Cape Girardeau, MO, for Plaintiff - Appellee.",
+      "Shanna Keel Surratt, LAYTON & SOUTHARD, Cape Girardeau, MO, for Defendant - Appellant."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff - Appellee\nv.\nCarlos Joe GRADY, Defendant - Appellant\nNo. 18-1728\nUnited States Court of Appeals, Eighth Circuit.\nSubmitted: April 15, 2019\nFiled: July 26, 2019\nTimothy J. Willis, Assistant U.S. Attorney, U.S. ATTORNEY'S OFFICE, Eastern District of Missouri, Cape Girardeau, MO, for Plaintiff - Appellee.\nCarlos Joe Grady, Pro Se.\nShanna Keel Surratt, LAYTON & SOUTHARD, Cape Girardeau, MO, for Defendant - Appellant.\nBefore SMITH, Chief Judge, ARNOLD and KELLY, Circuit Judges."
+  },
+  "file_name": "0727-01",
+  "first_page_order": 727,
+  "last_page_order": 730
+}

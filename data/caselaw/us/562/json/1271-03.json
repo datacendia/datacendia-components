@@ -1,0 +1,59 @@
+{
+  "id": 5903812,
+  "name": "Dressner v. Louisiana",
+  "name_abbreviation": "Dressner v. Louisiana",
+  "decision_date": "2011-03-07",
+  "docket_number": "No. 10-752",
+  "first_page": "1271",
+  "last_page": "1271",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1271"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 68,
+    "ocr_confidence": 0.652,
+    "sha256": "03c31212f99612e13fc3bc53242076d1d03e1327898196703d516a1639261e22",
+    "simhash": "1:00450c05cdea145a",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dressner v. Louisiana."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. La. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-752.\nDressner v. Louisiana."
+  },
+  "file_name": "1271-03",
+  "first_page_order": 1293,
+  "last_page_order": 1293
+}

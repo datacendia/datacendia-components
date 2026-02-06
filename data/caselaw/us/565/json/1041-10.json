@@ -1,0 +1,59 @@
+{
+  "id": 12234068,
+  "name": "Derringer v. Baxter et al.",
+  "name_abbreviation": "Derringer v. Baxter",
+  "decision_date": "2011-11-14",
+  "docket_number": "No. 11-6554",
+  "first_page": "1041",
+  "last_page": "1041",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1041"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 74,
+    "ocr_confidence": 0.714,
+    "sha256": "fea854fb8ca355e34592fb102c76367b616608b4d452aa1676d115d6ec768477",
+    "simhash": "1:fad6040050e00393",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Derringer v. Baxter et al."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. N. M. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6554.\nDerringer v. Baxter et al."
+  },
+  "file_name": "1041-10",
+  "first_page_order": 1123,
+  "last_page_order": 1123
+}

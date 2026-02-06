@@ -1,0 +1,59 @@
+{
+  "id": 5924449,
+  "name": "Tijani v. Holder, Attorney General",
+  "name_abbreviation": "Tijani v. Holder",
+  "decision_date": "2011-04-25",
+  "docket_number": "No. 10-9272",
+  "first_page": "965",
+  "last_page": "965",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 965"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 83,
+    "ocr_confidence": 0.577,
+    "sha256": "b2481bc06156cdfab0157f5a7dd61a57b243c2062401b369eb6f590c8e40d878",
+    "simhash": "1:410356b84da5646f",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Tijani v. Holder, Attorney General."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9272.\nTijani v. Holder, Attorney General."
+  },
+  "file_name": "0965-06",
+  "first_page_order": 991,
+  "last_page_order": 991
+}

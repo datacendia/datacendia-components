@@ -1,0 +1,59 @@
+{
+  "id": 5985953,
+  "name": "Leonard v. McDaniel, Warden",
+  "name_abbreviation": "Leonard v. McDaniel",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-10254",
+  "first_page": "844",
+  "last_page": "844",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 844"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 76,
+    "ocr_confidence": 0.581,
+    "sha256": "af29cef28633ad4cbf101e91632e9b1b71167436b735c92d63db7ffb907d5c45",
+    "simhash": "1:c2d08225098694c4",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Leonard v. McDaniel, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Nev. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10254.\nLeonard v. McDaniel, Warden."
+  },
+  "file_name": "0844-03",
+  "first_page_order": 866,
+  "last_page_order": 866
+}

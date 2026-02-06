@@ -1,0 +1,59 @@
+{
+  "id": 12413589,
+  "name": "Pritt v. United States",
+  "name_abbreviation": "Pritt v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10637",
+  "first_page": "853",
+  "last_page": "853",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 853"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.705,
+    "sha256": "51ac40e6b0b7fda52859accabd61ebf0e555b1c25c7e375724df74f238863f46",
+    "simhash": "1:206a9e32a2d19c1a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Pritt v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10637.\nPritt v. United States."
+  },
+  "file_name": "0853-04",
+  "first_page_order": 929,
+  "last_page_order": 929
+}

@@ -1,0 +1,59 @@
+{
+  "id": 4336423,
+  "name": "Ethingor v. United States",
+  "name_abbreviation": "Ethingor v. United States",
+  "decision_date": "2011-06-20",
+  "docket_number": "No. 10-7164",
+  "first_page": "1022",
+  "last_page": "1022",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1022"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.613,
+    "sha256": "cda78c8cb6d5b6951e2f0a0fe98fdad9473e76f8ca0711fe25a1745057e098ee",
+    "simhash": "1:1fab4b13cf0a901e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ethingor v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7164.\nEthingor v. United States."
+  },
+  "file_name": "1022-01",
+  "first_page_order": 1016,
+  "last_page_order": 1016
+}

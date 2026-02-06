@@ -1,0 +1,59 @@
+{
+  "id": 12224900,
+  "name": "Guitterez-Gonzalez v. United States",
+  "name_abbreviation": "Guitterez-Gonzalez v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5899",
+  "first_page": "924",
+  "last_page": "924",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 924"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 85,
+    "ocr_confidence": 0.715,
+    "sha256": "885ecf4647e19e62ee531739d289c489ffdf248cf04283cc84a4ef8ce9361c22",
+    "simhash": "1:0f3aca2b246c9058",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Guitterez-Gonzalez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5899.\nGuitterez-Gonzalez v. United States."
+  },
+  "file_name": "0924-15",
+  "first_page_order": 1006,
+  "last_page_order": 1006
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12430626,
+  "name": "Clanton v. Commissioner of Internal Revenue",
+  "name_abbreviation": "Clanton v. Commissioner",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-791",
+  "first_page": "1162",
+  "last_page": "1162",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1162"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 91,
+    "ocr_confidence": 0.618,
+    "sha256": "d4570063d167556f5041bf7ffcfbf73d2260cbf6da3811eb4fcfbb8a55d8863c",
+    "simhash": "1:968b26880e3fcc64",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Clanton v. Commissioner of Internal Revenue."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-791.\nClanton v. Commissioner of Internal Revenue."
+  },
+  "file_name": "1162-06",
+  "first_page_order": 1238,
+  "last_page_order": 1238
+}

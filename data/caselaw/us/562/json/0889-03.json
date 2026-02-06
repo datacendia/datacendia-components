@@ -1,0 +1,59 @@
+{
+  "id": 6004602,
+  "name": "Hoffman v. Sandia Resort and Casino",
+  "name_abbreviation": "Hoffman v. Sandia Resort & Casino",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-4",
+  "first_page": "889",
+  "last_page": "889",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 889"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 81,
+    "ocr_confidence": 0.642,
+    "sha256": "ad61df9a98205e9590584168d2cadb62f126af4bfec731bf79855fac4c95802f",
+    "simhash": "1:d7bea8f671e6d629",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hoffman v. Sandia Resort and Casino."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. N. M. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-4.\nHoffman v. Sandia Resort and Casino."
+  },
+  "file_name": "0889-03",
+  "first_page_order": 911,
+  "last_page_order": 911
+}

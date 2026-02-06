@@ -1,0 +1,68 @@
+{
+  "id": 12702170,
+  "name": "In re James T. KIMBALL, petitioner.",
+  "name_abbreviation": "In re Kimball",
+  "decision_date": "2013-10-07",
+  "docket_number": "No. 13\u20135572.",
+  "first_page": "814",
+  "last_page": "814",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 814"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 268"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 312"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 23,
+    "char_count": 142,
+    "sha256": "a87325d0b70ff7aac6fdc8d3fd786fcc9bea848356715ba32cb3e00cdc3d32c4",
+    "simhash": "1:487f545fbbf98223",
+    "word_count": 24
+  },
+  "last_updated": "2021-08-27T20:47:23.363448+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re James T. KIMBALL, petitioner."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of habeas corpus denied."
+    ],
+    "corrections": "",
+    "head_matter": "In re James T. KIMBALL, petitioner.\nNo. 13-5572.\nSupreme Court of the United States\nOct. 7, 2013.\nPetition for writ of habeas corpus denied."
+  },
+  "file_name": "0814-02",
+  "first_page_order": 814,
+  "last_page_order": 814
+}

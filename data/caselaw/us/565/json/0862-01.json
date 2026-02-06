@@ -1,0 +1,59 @@
+{
+  "id": 12209100,
+  "name": "Blow v. United States",
+  "name_abbreviation": "Blow v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-11006",
+  "first_page": "862",
+  "last_page": "862",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 862"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.701,
+    "sha256": "8ce9ed07419fa51a04ad3f471b435b60cb2082766e8c96800d3e22a8ae5214c2",
+    "simhash": "1:955bd29b0b177448",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Blow v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-11006.\nBlow v. United States."
+  },
+  "file_name": "0862-01",
+  "first_page_order": 944,
+  "last_page_order": 944
+}

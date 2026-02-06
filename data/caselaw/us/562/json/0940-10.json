@@ -1,0 +1,59 @@
+{
+  "id": 5996276,
+  "name": "Webb v. Hepp, Warden",
+  "name_abbreviation": "Webb v. Hepp",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5885",
+  "first_page": "940",
+  "last_page": "940",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 940"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 69,
+    "ocr_confidence": 0.6,
+    "sha256": "9e67002b3a6f5eb3d72a00e5cdc31fa7454dcacb44d128fd42065f69e02ad5b7",
+    "simhash": "1:224127882f9f12b5",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Webb v. Hepp, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5885.\nWebb v. Hepp, Warden."
+  },
+  "file_name": "0940-10",
+  "first_page_order": 962,
+  "last_page_order": 962
+}

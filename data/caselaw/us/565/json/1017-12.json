@@ -1,0 +1,59 @@
+{
+  "id": 12232656,
+  "name": "Donner v. Illinois",
+  "name_abbreviation": "Donner v. Illinois",
+  "decision_date": "2011-11-07",
+  "docket_number": "No. 11-6433",
+  "first_page": "1017",
+  "last_page": "1017",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1017"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.715,
+    "sha256": "0436872721a04585c97ab5da64d562ec2e43ea593c1b86ff5f67777e86739aed",
+    "simhash": "1:60f9925a14a5fd2e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Donner v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Ill., 1st Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6433.\nDonner v. Illinois."
+  },
+  "file_name": "1017-12",
+  "first_page_order": 1099,
+  "last_page_order": 1099
+}

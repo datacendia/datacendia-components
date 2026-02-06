@@ -1,0 +1,59 @@
+{
+  "id": 5914782,
+  "name": "In re Discipline of Ponds",
+  "name_abbreviation": "In re Discipline of Ponds",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. D-2575",
+  "first_page": "819",
+  "last_page": "819",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 819"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 39,
+    "char_count": 277,
+    "ocr_confidence": 0.529,
+    "sha256": "3088c65d2985f61034f376852ba0206ec65eba72d95c422cf369d46713a72d3a",
+    "simhash": "1:638263363fe2370e",
+    "word_count": 51
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of Ponds."
+    ],
+    "opinions": [
+      {
+        "text": "Navron Ponds, of Washington, D. C., is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2575.\nIn re Discipline of Ponds."
+  },
+  "file_name": "0819-01",
+  "first_page_order": 841,
+  "last_page_order": 841
+}

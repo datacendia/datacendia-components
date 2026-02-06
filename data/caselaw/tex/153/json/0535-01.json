@@ -1,0 +1,97 @@
+{
+  "id": 2247972,
+  "name": "East and Mount Houston Independent School District v. South Texas Lumber Company",
+  "name_abbreviation": "East & Mount Houston Independent School District v. South Texas Lumber Co.",
+  "decision_date": "1954-10-20",
+  "docket_number": "No. A-4839",
+  "first_page": "535",
+  "last_page": "536",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "153 Tex. 535"
+    },
+    {
+      "type": "parallel",
+      "cite": "271 S.W.2d 692"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "265 S.W. 2d 569",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10195366,
+        2247943
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/265/0569-01",
+        "/tex/153/0205-01"
+      ]
+    },
+    {
+      "cite": "153 Texas 205",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2247943
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/153/0205-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 239,
+    "char_count": 2817,
+    "ocr_confidence": 0.591,
+    "pagerank": {
+      "raw": 8.936083039976087e-08,
+      "percentile": 0.5009732227631803
+    },
+    "sha256": "7b534333aa64267e105b1cae20f4c26152f14851f3ef34a8e4d1b65151a1a114",
+    "simhash": "1:238046effa0a2724",
+    "word_count": 448
+  },
+  "last_updated": "2024-02-27T22:44:17.710833+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "East and Mount Houston Independent School District v. South Texas Lumber Company."
+    ],
+    "opinions": [
+      {
+        "text": "Per Curiam.\nOur petitioner, East and Mount Houston Independent School District, sought as plaintiff to collect ad valorem taxes on mineral interests of the defendant-respondent, South Texas Lumber Company, and has lost in both the trial court and Court of Civil Appeals.\nThe respondent\u2019s defense was that the valuations underlying the taxes in question, which were several times the more or less nominal values rendered by the respondent, were based, not on market values, but on an arbitrary formula, applied alike to all producing oil properties and consisting of the estimated daily production of the leasehold in question multiplied by an arbitrary, fixed dollar-per-barrel factor, which presumably would translate daily production into dollar value of the leasehold interest, the latter valuation being in turn the basis of royalty' valuations arrived at by applying fixed and arbitrary fractions to it according to the extent of the royalty to be valued.\nThe position of the petitioner is that, even assuming correctness of the trial court\u2019s findings and conclusions to the effect that the valuations were due to an arbitrary formula, the evidence, nevertheless, failed to show that this resulted in an excessive valuation or other true prejudice to the respondent taxpayer. In this connection, it appears from the findings that no evidence as to value (with the possible exception of the above-mentioned production figures and formula calculations therefrom) was introduced at the trial, nor does the respondent deny the petitioner\u2019s statement that respondent presented no evidence of value at the hearing before the Board of Equalization. No finding or conclusion of the trial court suggests substantial injury to respondent in the actual valuation reached, however arbitrary may have been the method of reaching it. The petitioner, of course, made a prima facie case by introducing the revelant assessment sheets and other official documents reflecting assessment and levy of the taxes in suit.\nUnder these circumstances we have held as late as State v. Whittenburg, 153 Texas 205, 265 S.W. 2d 569, that the attack on the valuation is unavailing. The judgments below being in conflict with that decision, we conclude to reverse them upon the mere application for writ of error. Rule 483, Texas R. Civ. Proc. In the exercise of our discretion as to whether justice will be better served by a remand or rendition, we conclude further to remand the cause for another trial. It is so ordered.\nOpinion delivered October 20, 1954.",
+        "type": "majority",
+        "author": "Per Curiam."
+      }
+    ],
+    "attorneys": [
+      "Ernest A. Knipp, of Houston, for petitioner.",
+      "Plait, West & Stevenson, J. A. Plait and Arthur' Plait, Jr., all of Houston, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "East and Mount Houston Independent School District v. South Texas Lumber Company.\nNo. A-4839.\nDecided October 20, 1954.\n(271 S.W. 2d Series 692)\nErnest A. Knipp, of Houston, for petitioner.\nPlait, West & Stevenson, J. A. Plait and Arthur' Plait, Jr., all of Houston, for respondent."
+  },
+  "file_name": "0535-01",
+  "first_page_order": 551,
+  "last_page_order": 552
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12433591,
+  "name": "Salazar v. United States",
+  "name_abbreviation": "Salazar v. United States",
+  "decision_date": "2013-03-18",
+  "docket_number": "No. 12-8670",
+  "first_page": "1241",
+  "last_page": "1241",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1241"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.602,
+    "sha256": "4384ab7bd77b7013b11d2ad2276e74daacea73c7b5b09e47d6ead4d040fbecc6",
+    "simhash": "1:b50aca184e5fd915",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Salazar v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8670.\nSalazar v. United States."
+  },
+  "file_name": "1241-08",
+  "first_page_order": 1317,
+  "last_page_order": 1317
+}

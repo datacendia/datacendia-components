@@ -1,0 +1,59 @@
+{
+  "id": 12423825,
+  "name": "Jones v. Florida",
+  "name_abbreviation": "Jones v. Florida",
+  "decision_date": "2012-11-26",
+  "docket_number": "No. 12-5419",
+  "first_page": "1025",
+  "last_page": "1025",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1025"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 25,
+    "char_count": 161,
+    "ocr_confidence": 0.65,
+    "sha256": "b66803ee103ad9e6e3497da62956d267949f860dba8cca0b948a5140f28ed712",
+    "simhash": "1:67e458424136ef12",
+    "word_count": 26
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jones v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Fla. Motion of petitioner for reconsideration of order denying leave to proceed in forma pauperis [ante, p. 806] denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5419.\nJones v. Florida."
+  },
+  "file_name": "1025-01",
+  "first_page_order": 1101,
+  "last_page_order": 1101
+}

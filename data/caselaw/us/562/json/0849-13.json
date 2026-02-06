@@ -1,0 +1,59 @@
+{
+  "id": 6029333,
+  "name": "Morton v. Warren, Warden",
+  "name_abbreviation": "Morton v. Warren",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-10700",
+  "first_page": "849",
+  "last_page": "849",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 849"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.591,
+    "sha256": "b5b1397d358dca88004da18339f886299cbd2de05eed12592492dc5d01221664",
+    "simhash": "1:a70982e3381f1ce6",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Morton v. Warren, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10700.\nMorton v. Warren, Warden."
+  },
+  "file_name": "0849-13",
+  "first_page_order": 871,
+  "last_page_order": 871
+}

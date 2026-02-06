@@ -1,0 +1,59 @@
+{
+  "id": 5928213,
+  "name": "Allen v. Massachusetts",
+  "name_abbreviation": "Allen v. Massachusetts",
+  "decision_date": "2011-06-20",
+  "docket_number": "No. 10-10071",
+  "first_page": "1024",
+  "last_page": "1024",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1024"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 89,
+    "ocr_confidence": 0.574,
+    "sha256": "7a1fd394f26fb64ecd0a8ef2abe0203bbefcfd74abc4c7bfca1e18f70144eae6",
+    "simhash": "1:6cc28bc09fbd5f78",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Allen v. Massachusetts."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. Mass., Essex County. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10071.\nAllen v. Massachusetts."
+  },
+  "file_name": "1024-14",
+  "first_page_order": 1018,
+  "last_page_order": 1018
+}

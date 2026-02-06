@@ -1,0 +1,59 @@
+{
+  "id": 6001949,
+  "name": "Abebe v. Perry",
+  "name_abbreviation": "Abebe v. Perry",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7224",
+  "first_page": "1148",
+  "last_page": "1148",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1148"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 63,
+    "ocr_confidence": 0.629,
+    "sha256": "d5c330231c3da8c2537dad5066844c60a9657b1d65e23243f423aea121d2a674",
+    "simhash": "1:318130294aebb055",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Abebe v. Perry."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7224.\nAbebe v. Perry."
+  },
+  "file_name": "1148-09",
+  "first_page_order": 1170,
+  "last_page_order": 1170
+}

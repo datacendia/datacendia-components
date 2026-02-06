@@ -1,0 +1,996 @@
+{
+  "id": 12441526,
+  "name": "BAY AREA CITIZENS, Plaintiff and Appellant, v. ASSOCIATION OF BAY AREA GOVERNMENTS et al., Defendants and Respondents",
+  "name_abbreviation": "Bay Area Citizens v. Association of Bay Area Governments",
+  "decision_date": "2016-06-30",
+  "docket_number": "No. A143058",
+  "first_page": "966",
+  "last_page": "1022",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "248 Cal. App. 4th 966"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "23 C.F.R. \u00a7\u00a7 450.308",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "362 P.3d 792",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "196 Cal.Rptr.3d 94",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "62 Cal.4th 369",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        12454520
+      ],
+      "pin_cites": [
+        {
+          "page": "379"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/62/0369-01"
+      ]
+    },
+    {
+      "cite": "54 Cal.Rptr.3d 485",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "147 Cal.App.4th 357",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6046619
+      ],
+      "pin_cites": [
+        {
+          "page": "378"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/147/0357-01"
+      ]
+    },
+    {
+      "cite": "184 P.3d 709",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "77 Cal.Rptr.3d 578",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 Cal.4th 1143",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3884051
+      ],
+      "pin_cites": [
+        {
+          "page": "1163"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/43/1143-01"
+      ]
+    },
+    {
+      "cite": "13 Cal.Rptr.2d 117",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "10 Cal.App.4th 908",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        2326668
+      ],
+      "pin_cites": [
+        {
+          "page": "922"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/10/0908-01"
+      ]
+    },
+    {
+      "cite": "100 Cal.Rptr.2d 301",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "83 Cal.App.4th 1252",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        525256
+      ],
+      "pin_cites": [
+        {
+          "page": "1264"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/83/1252-01"
+      ]
+    },
+    {
+      "cite": "146 Cal.Rptr.3d 12",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "208 Cal.App.4th 899",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4257591
+      ],
+      "pin_cites": [
+        {
+          "page": "937"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/208/0899-01"
+      ]
+    },
+    {
+      "cite": "212 Cal.Rptr. 127",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "165 Cal.App.3d 357",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2128949
+      ],
+      "pin_cites": [
+        {
+          "page": "364-366"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/165/0357-01"
+      ]
+    },
+    {
+      "cite": "136 Cal.Rptr.3d 162",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "202 Cal.App.4th 549",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4245528
+      ],
+      "pin_cites": [
+        {
+          "page": "563"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/202/0549-01"
+      ]
+    },
+    {
+      "cite": "157 Cal.Rptr.3d 240",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "216 Cal.App.4th 614",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6054440
+      ],
+      "pin_cites": [
+        {
+          "page": "639-640"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/216/0614-01"
+      ]
+    },
+    {
+      "cite": "58 Cal.Rptr.3d 102",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "150 Cal.App.4th 683",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3676434
+      ],
+      "pin_cites": [
+        {
+          "page": "715"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/150/0683-01"
+      ]
+    },
+    {
+      "cite": "108 Cal.Rptr.3d 577",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "183 Cal.App.4th 1059",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4218538
+      ],
+      "pin_cites": [
+        {
+          "page": "1089"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/183/1059-01"
+      ]
+    },
+    {
+      "cite": "801 P.2d 1161",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "276 Cal.Rptr. 410",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "52 Cal.3d 553",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2375423
+      ],
+      "pin_cites": [
+        {
+          "page": "564"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/52/0553-01"
+      ]
+    },
+    {
+      "cite": "136 Cal.Rptr.3d 578",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "202 Cal.App.4th 1553",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4246387
+      ],
+      "pin_cites": [
+        {
+          "page": "1566"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/202/1553-01"
+      ]
+    },
+    {
+      "cite": "759 P.2d 504",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "250 Cal.Rptr. 869",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.3d 736",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1968817
+      ],
+      "pin_cites": [
+        {
+          "page": "744-745"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/46/0736-01"
+      ]
+    },
+    {
+      "cite": "342 P.3d 404",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "183 Cal.Rptr.3d 502",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "60 Cal.4th 922",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3990960
+      ],
+      "pin_cites": [
+        {
+          "page": "934"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/60/0922-01"
+      ]
+    },
+    {
+      "cite": "49 P.3d 1085",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "122 Cal.Rptr.2d 348",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 Cal.4th 543",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        947663
+      ],
+      "pin_cites": [
+        {
+          "page": "546"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/28/0543-01"
+      ]
+    },
+    {
+      "cite": "224 P.3d 99",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2002,
+      "opinion_index": 0
+    },
+    {
+      "cite": "104 Cal.Rptr.3d 780",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2002,
+      "opinion_index": 0
+    },
+    {
+      "cite": "48 Cal.4th 58",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3902000
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "66, fn. 8"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/48/0058-01"
+      ]
+    },
+    {
+      "cite": "793 P2d 2",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 2010,
+      "opinion_index": 0
+    },
+    {
+      "cite": "270 Cal.Rptr. 796",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 2010,
+      "opinion_index": 0
+    },
+    {
+      "cite": "51 Cal.3d 1",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4457787
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "15"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/51/0001-01"
+      ]
+    },
+    {
+      "cite": "135 P.3d 637",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 Cal.Rptr.3d 223",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 Cal.4th 914",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3853036
+      ],
+      "pin_cites": [
+        {
+          "page": "925"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/38/0914-01"
+      ]
+    },
+    {
+      "cite": "718 P.2d 68",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "226 Cal.Rptr. 81",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "41 Cal.3d 810",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4544666
+      ],
+      "pin_cites": [
+        {
+          "page": "819"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/41/0810-01"
+      ]
+    },
+    {
+      "cite": "266 P.3d 953",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "135 Cal.Rptr.3d 247",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "53 Cal.4th 170",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6050899
+      ],
+      "pin_cites": [
+        {
+          "page": "188"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/53/0170-01"
+      ]
+    },
+    {
+      "cite": "312 P.3d 88",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "164 Cal.Rptr.3d 167",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "57 Cal.4th 1211",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        4237459
+      ],
+      "pin_cites": [
+        {
+          "page": "1221-1222"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/57/1211-01"
+      ]
+    },
+    {
+      "cite": "132 Cal.Rptr.3d 856",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "200 Cal.App.4th 1083",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4242623
+      ],
+      "pin_cites": [
+        {
+          "page": "1097"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/200/1083-01"
+      ]
+    },
+    {
+      "cite": "212 P.3d 736",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "97 Cal.Rptr.3d 464",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.4th 381",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3899168
+      ],
+      "pin_cites": [
+        {
+          "page": "387"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/47/0381-01"
+      ]
+    },
+    {
+      "cite": "133 Cal.Rptr.3d 107",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "199 Cal.App.4th 900",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6054856
+      ],
+      "pin_cites": [
+        {
+          "page": "921"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/199/0900-01"
+      ]
+    },
+    {
+      "cite": "57 Cal.Rptr.3d 663",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "149 Cal.App.4th 645",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3624762
+      ],
+      "pin_cites": [
+        {
+          "page": "654"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/149/0645-01"
+      ]
+    },
+    {
+      "cite": "99 Cal.Rptr.3d 572",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "177 Cal.App.4th 957",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        5741821
+      ],
+      "pin_cites": [
+        {
+          "page": "986"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/177/0957-01"
+      ]
+    },
+    {
+      "cite": "44 Cal.Rptr.3d 128",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "139 Cal.App.4th 1356",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4006592
+      ],
+      "pin_cites": [
+        {
+          "page": "1375"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/139/1356-01"
+      ]
+    },
+    {
+      "cite": "194 P.3d 344",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "84 Cal.Rptr.3d 614",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Cal.4th 116",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3892829
+      ],
+      "pin_cites": [
+        {
+          "page": "131"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/45/0116-01"
+      ]
+    },
+    {
+      "cite": "764 P.2d 278",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "253 Cal.Rptr. 426",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.3d 376",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1971402
+      ],
+      "pin_cites": [
+        {
+          "page": "392"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/47/0376-01"
+      ]
+    },
+    {
+      "cite": "38 Cal.Rptr.3d 638",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "136 Cal.App.4th 1",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3727284
+      ],
+      "pin_cites": [
+        {
+          "page": "11-12"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/136/0001-01"
+      ]
+    },
+    {
+      "cite": "304 P.3d 499",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "160 Cal.Rptr.3d 1",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "57 Cal.4th 439",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6054098
+      ],
+      "pin_cites": [
+        {
+          "page": "447"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/57/0439-01"
+      ]
+    },
+    {
+      "cite": "160 P.3d 116",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "60 Cal.Rptr.3d 247",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "41 Cal.4th 372",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3819492
+      ],
+      "pin_cites": [
+        {
+          "page": "381"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/41/0372-01"
+      ]
+    },
+    {
+      "cite": "143 Cal.Rptr.3d 65",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "206 Cal.App.4th 1487",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4254007
+      ],
+      "pin_cites": [
+        {
+          "page": "1496"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/206/1487-01"
+      ]
+    },
+    {
+      "cite": "361 P.3d 342",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "195 Cal.Rptr.3d 247",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "62 Cal.4th 204",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        12454514
+      ],
+      "pin_cites": [
+        {
+          "page": "215"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/62/0204-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 2569,
+    "char_count": 133022,
+    "ocr_confidence": 0.939,
+    "pagerank": {
+      "raw": 5.762929830197106e-08,
+      "percentile": 0.3602059425086173
+    },
+    "sha256": "c5dcb449264e7c75612ecfa296544a5bb5e6e126217658af09acf9e17097d6e9",
+    "simhash": "1:db5fd31c82f2776a",
+    "word_count": 20245
+  },
+  "last_updated": "2024-02-27T20:05:38.451463+00:00",
+  "provenance": {
+    "date_added": "2019-05-21",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Kline, P. J., and Richman, J., concurred."
+    ],
+    "parties": [
+      "BAY AREA CITIZENS, Plaintiff and Appellant, v. ASSOCIATION OF BAY AREA GOVERNMENTS et al., Defendants and Respondents."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nSTEWART, J.\nThe primary issue raised by this appeal is whether the Bay Area agencies newly charged by state law with adopting a plan to reduce regional greenhouse gas emissions from cars and light trucks over the coming decades should have relied on emissions reductions already expected from preexisting statewide mandates to fulfill their statutory obligation, rather than adopting regional strategies to reduce emissions beyond those already expected from the statewide mandates. We conclude, as did the trial court, that the relevant agencies correctly declined to count statewide emissions reductions in developing their regional plan because doing so would have been inconsistent with the statute, including as interpreted by the state agency responsible for implementing California\u2019s greenhouse gas emission laws.\nIn 2008, the Legislature enacted the Sustainable Communities and Climate Protection Act of 2008 (Sen. Bill No. 375 (2007-2008 Reg. Sess.)), which we refer to as Senate Bill 375. Senate Bill 375 is one in a series of executive, legislative and administrative measures enacted to reduce greenhouse gas emissions and their adverse effects on our climate. Prior measures empowered the State Air Resources Board (Board) to enact statewide mandates to reduce emissions, such as standards for vehicle technology and carbon content in fuel. Senate Bill 375 empowers the Board, after consideration of these previous statewide mandates and consultation with experts and regional planning bodies, to set targets for each of California\u2019s regional planning agencies to reduce emissions from automobiles and light trucks in its region. Senate Bill 375 requires each regional agency, after engaging in an extensive planning process, to develop a sustainable community strategy to meet the Board\u2019s targets using regional land use and transportation policies. Sustainable communities strategies are subject to environmental impact review under the California Environmental Quality Act (Pub. Resources Code, \u00a7 21000 et seq.; CEQA).\nIn 2010, the Board issued its greenhouse gas emissions reduction targets for the Bay Area region. The Board called for the Bay Area\u2019s Metropolitan Transportation Commission (MTC) and the Association of Bay Area Governments (ABAG) (collectively, the Agencies) to develop regional land use and transportation strategies that would result in per capita percentage reductions in emissions of 7 percent by 2020 and 15 percent by 2035, as compared to emissions in 2005. The Board repeatedly indicated that these reductions were to be in addition to those expected from preexishng statewide mandates.\nThe Agencies prepared an update to the Bay Area\u2019s regional transportation plan and their hrst sustainable communities strategy in \u201cPlan Bay Area.\u201d The Agencies outlined ways to reduce greenhouse gas emissions in the Bay Area region independent of the statewide mandates so as to meet or exceed the Board\u2019s targets for the region. The Agencies engaged in a CEQA review of Plan Bay Area, issued a draft environmental impact report, received public comments and approved a hnal environmental impact report. Subsequently the Board accepted the Agencies\u2019 determination that Plan Bay Area would meet the Board\u2019s emission reduction targets for the Bay Area region.\nAppellant Bay Area Citizens (Citizens) was critical of Plan Bay Area and offered an alternative plan of its own that counted on reductions expected from the preexisting statewide mandates. After Plan Bay Area was approved, Citizens hied a petihon for writ of mandate in Alameda County Superior Court challenging the Agencies\u2019 environmental impact report for, and adoption of, the Plan. Cihzens argued the Agencies did not comply with CEQA because their environmental review erroneously failed to include emissions reductions expected from the statewide mandates in determining how to meet the Board\u2019s Senate Bill 375 targets. Cihzens contended that neither Senate Bill 375 nor the Board prohibited the Agencies from counting on such reductions, and that the Agencies should have adopted, or at least considered, a Citizens-proposed alternative that relied on them to avoid what Citizens viewed as the \u201cdraconian\u201d land use and transportation strategies comprising Plan Bay Area. The trial court, concluding that reliance on statewide mandates to meet the regional targets would constitute improper double counting not permitted by Senate Bill 375 or the Board, denied Citizens\u2019 pehtion. This appeal followed.\nCitizens repeats its arguments on appeal, and we, too, find them unconvincing. Citizens relies on the premise that the Legislature, via Senate Bill 375, launched a major new climate protection inihative requiring regional agencies to develop regional land use and transportation strategies through an elaborate planning process that in the end would be superfluous because the Agencies could meet the Board\u2019s regional emissions reduction targets simply by invoking reductions already expected from preexishng statewide mandates. This interpretation makes no sense. And it is contradicted by Senate Bill 375\u2019s emphasis on regional innovahons, the Legislature\u2019s declarations and findings, and the Board\u2019s contemporaneous construction of the statute. Further, even apart from the regional focus of Senate Bill 375 and the Legislature\u2019s declarations and findings, the Legislature conferred on the Board broad discretion to develop targets and require regional agencies to meet them through regional planning. It was within the Board\u2019s discretion to require regional agencies to achieve emissions reductions entirely through regional planning strategies so as to produce emissions reductions beyond those produced by statewide mandates. We also agree with the Attorney General, appearing as amicus curiae, that the Agencies\u2019 environmental review was sufficient under CEQA regardless of what Senate Bill 375 and the Board required of the Agencies. For these reasons, we affirm the trial court\u2019s denial of Citizens\u2019 petition.\nBACKGROUND\nI.\nGreenhouse Gas Emissions Reduction Laws and Regulations\nIn 1997, the Legislature enacted a law that requires each regional metropolitan planning organization (MPO) to prepare and adopt a regional transportation plan designed to achieve a coordinated and balanced regional transportation system. (Stats. 1997, ch. 622, \u00a7 24, p. 4405; Gov. Code, \u00a7 65080, subd. (a) (section 65080).) This regional transportation plan must be \u201caction-oriented and pragmatic, considering both the short-term and long-term future\u201d and must \u201cpresent clear, concise policy guidance to local and state officials.\u201d (\u00a7 65080, subd. (a).)\nPrior to 2008, a number of statutes and regulations were enacted to reduce greenhouse gas emissions on the statewide level, which we refer to as the \u201cstatewide mandates.\u201d In 2008, the Legislature enacted Senate Bill 375. It requires each MPO, as part of its regional transportation plan, to adopt a \u201csustainable communities strategy.\u201d In this sustainable communities strategy, each MPO must adopt regional land use and transportation strategies designed to meet, if feasible, regional greenhouse gas emissions reduction targets for 2020 and 2035 that the Board is given broad discretion to set.\nIn 2010, after receiving the required input from an expert advisory committee and the Agencies, the Board established greenhouse gas emissions reduction targets for the Bay Area region pursuant to Senate Bill 375. The Agencies then developed a sustainable communities strategy for the region, Plan Bay Area, and in 2013 conducted an environmental review of it pursuant to CEQA. The Agencies concluded that Plan Bay Area met the Board\u2019s Senate Bill 375 targets and was environmentally acceptable, and adopted it. In 2014, the Board accepted the Agencies\u2019 determination that Plan Bay Area would meet the Board\u2019s Senate Bill 375 targets.\nCitizens raises numerous issues related to the Agencies\u2019 compliance with CEQA in reviewing the potential environmental impacts of Plan Bay Area, focusing on the Agencies\u2019 sustainable communities strategy. At the center of all of Citizens\u2019 arguments is its contention that the Agencies should have, but did not, include the greenhouse gas emissions reductions that are expected from the statewide mandates in determining how to meet the Board\u2019s targets for the Bay Area region.\nA. Statewide Mandates Leading Up to Senate Bill 375\nIn 2002, the Legislature enacted Assembly Bill No. 1493 (2001-2002 Reg. Sess.), also called the Pavley legislation for its author. It requires the Board to develop regulations designed to reduce greenhouse gas emissions from new passenger vehicles, light-duty trucks and noncommercial vehicles sold in California. (Health & Saf. Code, \u00a7 43018.5.) Subsequently, the Board adopted these regulations, known as Pavley I and Pavley II respectively. Together, Pavley I and Pavley II set statewide emissions reduction targets for new passenger vehicles and trucks from 2009 through 2025.\nIn 2005, then-Governor Arnold Schwarzenegger issued Executive Order No. S-3-05. It calls for an overall reduction of greenhouse gas emissions within California to 1990 levels by 2020 and to 80 percent below 1990 levels by 2050.\nIn 2006, the Legislature passed the California Global Warming Solutions Act of 2006 (Health & Saf. Code, \u00a7 38500 et seq.; see Assem. Bill No. 32 (2005-2006 Reg. Sess.), sometimes Assembly Bill 32) \u201cCalifornia\u2019s landmark legislation addressing global climate change\u201d (Center for Biological Diversity v. Department of Fish & Wildlife (2015) 62 Cal.4th 204, 215 [195 Cal.Rptr.3d 247, 361 P.3d 342]). Like Executive Order No. S-3-05, Assembly Bill 32 mandates that the State\u2019s greenhouse gas emissions be reduced to 1990 levels by 2020. (Health & Saf. Code, \u00a7 38550.) It designates the Board as the \u201cagency charged with monitoring and regulating sources of emissions of greenhouse gases that cause global warming in order to reduce emissions of greenhouse gases.\u201d (Id., \u00a7 38510.) It charges the Board with developing and implementing regulations \u201cto achieve the maximum technologically feasible and cost-effective greenhouse gas emission reductions from sources or categories of sources, subject to the criteria and schedules set forth\u201d in the law. (Id., \u00a7 38560.) The Board\u2019s responsibilities include development on or before January 1, 2009, of a \u201cscoping plan\u201d to achieve these reductions, and the updating of that plan every five years. (Id., \u00a7 38561, subd. (a).)\nIn 2007, then-Governor Schwarzenegger issued Executive Order No. S-01-07. It calls for the reduction of the carbon density of California\u2019s transportation fuels by at least 10 percent by 2020, and the Board\u2019s development of a \u201cLow Carbon Fuel Standard\u201d (the Low Carbon Fuel Standard) and accompanying regulations for transportation fuel providers designed to ensure they meet this reduction schedule. (Governor\u2019s Exec. Order No. S-01-07 (Jan. 18, 2007).)\nAs required by Assembly Bill 32, the Board issued a \u201cClimate Change Scoping Plan\u201d (Scoping Plan) in December 2008. The Scoping Plan called for greenhouse gas emissions reductions in the transportation, electricity, commercial and residential, industry, recycling and waste, agriculture and forest sectors, among others. It identified measures to reduce emissions by 30 percent, or 174 million metric tons, as compared to projected business-as-usual emissions levels of 596 million metric tons as of 2020. These included reductions of 31.7 million metric tons expected from Pavley\u2019s vehicle technology standards, 15 million metric tons expected from the Low Carbon Fuel Standard, and an additional 5 million metric tons expected, preliminarily, from \u201clocal land use changes\u201d implemented to meet the targets the Board was to set pursuant to Senate Bill 375. The Scoping Plan also included measures to \u201cput the state on a path to meet the long-term 2050 goal of reducing California\u2019s greenhouse gas emissions to 80 percent below 1990 levels.\u201d As our colleagues in Division Three have characterized it, the Scoping Plan\u2019s 2020 goal \u201cis but a step towards achieving\u201d the \u201clonger term climate goal\u201d set out in Executive Order No. S-3-05. (Association of Irritated Residents v. State Air Resources Bd. (2012) 206 Cal.App.4th 1487, 1496 [143 Cal.Rptr.3d 65] [affirming that the Board\u2019s Scoping Plan and a supplemental analysis satisfied the requirements of Assent. Bill 32].)\nIn 2012, Governor Edmund G. Brown, Jr., issued Executive Order No. B-16-2012. It directs state entities to support and facilitate the rapid commercialization of zero-emission vehicles. The order outlines benchmarks for 2015, 2020 and 2025 related to establishing infrastructure to support and accommodate zero-emission vehicles, helping to get zero-emission vehicles to market and on the road, and increasing their use for public transportation and public use. It also establishes a goal of an 80 percent reduction of greenhouse gas emissions from the transportation sector in California by 2050 as compared to 1990 levels.\nB. Senate Bill 375\nAs we have indicated, Senate Bill 375, enacted by the Legislature in 2008 and effective as of January 1, 2009 (Stats. 2008, ch. 728, p. 5065), requires that each MPO, as a part of its regional transportation plan, develop a sustainable communities strategy that consists of regional land use and transportation strategies designed to reduce its region\u2019s greenhouse gas emissions. (Id., ch. 728, \u00a7 1, subd. (e), p. 5066.) Each MPO must strive to meet two regional emissions reduction targets for the automobile and light truck sectors set by the Board for each region, one to be achieved by 2020 and the other by 2035.\nSenate Bill 375 required the Board to provide the greenhouse gas emissions reduction targets to the regions by September 30, 2010. (\u00a7 65080, subd. (b)(2)(A).) Before doing so, the Board was required to appoint a \u201cRegional Targets Advisory Committee\u201d (Advisory Committee) to recommend factors and methodologies to be used in setting these targets. (\u00a7 65080, subd. (b)(2)(A)(i).) The Board also was required to exchange technical information with, and consider target recommendations by, each MPO. (Id., subd. (b)(2)(A)(ii).)\nFurther, and particularly germane to this appeal, the Board was required to consider other measures that it had approved or planned to adopt that would reduce greenhouse gas emissions in the affected regions, including Pavley and the Low Carbon Fuel Standard. Specifically, Senate Bill 375 states that the Board \u2018\u201c[i]n establishing these [regional] targets,\u201d \u2018\u201cshall take into account greenhouse gas emission reductions that will be achieved by improved vehicle emission standards [Pavley], changes in fuel composition [the Low Carbon Fuel Standard], and other measures [the Board] has approved that will reduce greenhouse gas emissions in the affected regions, and prospective measures [the Board] plans to adopt to reduce greenhouse gas emissions from other greenhouse gas emission sources\u201d consistent with regulations promulgated pursuant to Assembly Bill 32. (\u00a7 65080, subd. (b)(2)(A)(iii).) \u201c[G]reen-house gas emission reduction targets may be expressed in gross tons, tons per capita, tons per household, or in any other metric deemed appropriate by the [Board].\u201d (Id., subd. (b)(2)(A)(v).)\nSenate Bill 375 also requires the Board to update its regional greenhouse gas reduction targets every eight years consistent with each MPO\u2019s time frame for updating its regional transportation plan under federal law. The Board may revise these targets every four years, provided that it again considers the other measures that it has approved or plans to adopt that would reduce greenhouse gas emissions in the affected regions. (\u00a7 65080, subd. (b)(2)(A)(iv).)\nSenate Bill 375 requires that each MPO, once it receives its targets, prepare a sustainable communities strategy following certain guidelines. First, each MPO must develop strategies that take into account both housing and transportation. Specifically, an MPO must, among other things, (1) \u2018\u201cidentify the general location of uses, residential densities, and building intensities within the region,\u201d (2) \u201cidentify areas within the region sufficient to house all the population of the region, including all economic segments of the population, over the course of the planning period of the regional transportation plan taking into account net migration into the region, population growth, household formation and employment growth,\u201d (3) \u201cidentify a transportation network to service the transportation needs of the region,\u201d and (4) \u201cset forth a forecasted development pattern for the region, which, when integrated with the transportation network, and other transportation measures and policies, will reduce the greenhouse gas emissions from automobiles and light trucks to achieve, if there is a feasible way to do so, the greenhouse gas emission reduction targets approved by [the Board].\u201d (\u00a7 65080, subd. (b)(2)(B)(i), (ii), (iv), (vii).)\nEach MPO also must adopt a public participation plan for the development of a sustainable communities strategy. (\u00a7 65080, subd. (b)(2)(F).) Before doing so, however, an MPO must submit a description to the Board \u201cof the technical methodology it intends to use to estimate the greenhouse gas emissions from its sustainable communities strategy.\u201d (Ibid.) The Board must respond \u201cwith written comments about the technical methodology, including specifically describing any aspects of that methodology it concludes will not yield accurate estimates of greenhouse gas emissions, and suggested remedies.\u201d (Ibid.)\nBefore adopting a sustainable communities strategy, an MPO must \u201cquantify the reduction in greenhouse gas emissions projected to be achieved by the sustainable communities strategy and set forth the difference, if any, between the amount of that reduction and the target for the region established by [the Board].\u201d (\u00a7 65080, subd. (b)(2)(H).) If there is no feasible way to meet the Board\u2019s targets, an MPO must prepare an \u201calternative planning strategy.\u201d (Id., subd. (b)(2)(I).)\nAfter an MPO adopts a sustainable communities strategy, it must submit it to the Board for review. Its submission must include \u201cthe quantification of the greenhouse gas emission reductions the strategy would achieve and a description of the technical methodology used to obtain that result.\u201d (\u00a7 65080, subd. (b)(2)(J)(ii).) The Board\u2019s review is limited \u201cto acceptance or rejection of the [MPOJ\u2019s determination that the strategy submitted would, if implemented, achieve the greenhouse gas emission reduction targets established by the [Board].\u201d (Ibid.)\nFinally, a sustainable communities strategy does not regulate land use and is not subject to state approval other than as prescribed. Nothing in a sustainable communities strategy is to \u201cbe interpreted as superseding the exercise of the land use authority of cities and counties within the region,\u201d nor shall anything \u201crequire a city\u2019s or county\u2019s land use policies and regulations, including its general plan, to be consistent with the regional transportation plan.\u201d (\u00a7 65080, subd. (b)(2)(K).)\nII.\nThe Agencies\u2019 Development, Environmental Review and Adoption of Plan Bay Area\nThe Board\u2019s final targets for the Bay Area region, which it adopted in September 2010, were a 7 percent per capita reduction in greenhouse gas emissions by 2020 and a 15 percent per capita reduction by 2035, both as compared to 2005 emissions levels. This was consistent with what the Agencies told the Board their planners thought should be the upper limits of the regional targets for the Bay Area.\nThe Agencies determined these targets could be met by the land use and transportation strategies outlined in Plan Bay Area. The Agencies planned for the Bay Area region\u2019s growth to occur in a \u201cPriority Development Area\u201d framework. Priority Development Areas are transit-oriented, infill development opportunity areas within existing communities that local agencies expect will accommodate the majority of future development. Each Bay Area county and more than half of the Bay Area\u2019s cities have at least one Priority Development Area. Plan Bay Area calls for Priority Development Areas to be nominated by local jurisdictions. Local jurisdictions may designate as Priority Development Areas neighborhoods that are served by at least one transit stop or station, are supported by local plans to provide a wider range of housing options, and include amenities and services to meet the day-to-day needs of residents in a pedestrian-friendly environment. ABAG reviews each nomination and makes a final determination about whether an area qualifies as a Priority Development Area.\nThe Agencies projected that the Priority Development Area framework, along with associated investments in public transit, would result in significant reduced vehicle miles traveled per capita and increased reliance on transit by 2040. These changes in passenger travel patterns, resulting from Plan Bay Area\u2019s land use and transportation strategies, if implemented, were projected to reduce light-duty vehicle greenhouse gas emissions from 2005 levels by 10.3 percent per capita by 2020 and 16.4 percent per capita by 2035.\nIn June 2012, the Agencies, pursuant to CEQA guidelines, issued a notice of preparation of a draft environmental impact report (DEIR) for the proposed Plan Bay Area. They held five public meetings and gave various governmental and nongovernmental groups and individuals the opportunity to provide input. In April 2013, they released their DEIR for a public review.\nThe DEIR analyzed whether Plan Bay Area would result in any of 46 \u201cenvironmental issues and concerns identified as possibly significant,\u201d which were grouped into 14 issue areas (e.g., transportation, air quality, noise). Under the \u201cGreenhouse Gases and Climate Change\u201d issue area, the Agencies included a climate change impact analysis that assessed the potential for significant adverse impacts related to greenhouse gas emissions. The Agencies found that Plan Bay Area \u201cwould have a potentially significant adverse impact\u201d if it:\n\u201cCriterion 1: Fail[ed] to reduce per capita passenger vehicle and light duty truck CO2 emissions by seven percent by 2020 and by 15 percent by 2035 as compared to 2005 baseline, per [Senate Bill] 375.\n\u201cCriterion 2: Resultfed] in a net increase in direct and indirect [greenhouse gas] emissions in 2040 [the last year of Plan Bay Area] when compared to existing conditions.\n\u201cCriterion 3: Substantially impede[d] attainment of goals set forth in Executive Order S-3-05 and Executive Order B-16-2012.\u201d\nThe DEIR\u2019s criterion 1 (Criterion 1) analysis considered whether Plan Bay Area would meet the Board\u2019s Senate Bill 375 targets. Accordingly, consistent with the Board\u2019s approach, the DEIR analyzed what reductions in automobile and light truck emissions would occur by 2020 and 2035, as compared to 2005. As already discussed, the Agencies projected that Plan Bay Area would result in a 10.2 percent reduction in per capita emissions from these vehicles by 2020 and a 16.4 percent reduction by 2035, exceeding the Board\u2019s targets of seven percent and 15 percent, respectively. The Criterion 1 analysis, which related to meeting the Senate Bill 375 targets, stated that reductions from Pavley I\u2019s vehicle technology standards and the Low Carbon Fuel Standard were not included in determining these emissions reductions.\nHowever, the DEIR took Pavley I and the Low Carbon Fuel Standard into account in its criterion 2 (Criterion 2) analysis, which determined whether net greenhouse gas emissions reductions in the Bay Area would be achieved by 2040, the last year of Plan Bay Area, as compared to 2010 emissions, when considering emissions from all vehicle classes in the transportation sector, as well as from the electricity, natural gas, recycling and waste sectors. The year 2010 was used as the baseline year for this Criterion 2 analysis because that year provided \u201cthe most recent best data available for land use, transportation, and demographics.\u2019\u201d\nThe DEIR then took the analyses used for Criterion 1 and Criterion 2 and applied them in its criterion 3 (Criterion 3) analysis to determine \u201cwhether or not implementation of the proposed Plan would impede attainment of the identified [executive] orders and whether the Plan moves the region towards a downward trajectory of [greenhouse gas] emissions in 2050,\u201d a year that was a focus of Executive Order No. S-3-05 and Executive Order No. B-16-2012. Thus, the DEIR\u2019s Criterion 3 analysis also included consideration of Pavley I and the Low Carbon Fuel Standard.\nThe DEIR also included a chapter discussing five different project alternatives, including Plan Bay Area. These were (1) a \u201cNo Project\u201d alternative; (2) the proposed Plan Bay Area, with its focus on growth in Priority Development Areas; (3) a \u201cTransit Priority Focus\u201d alternative with a focus on growth patterns primarily in the urban core by relying on transit priority project-eligible areas (rather than Priority Development Areas), which are areas with high-frequency transit service that are eligible for higher density development streamlining; (4) an \u201cEnhanced Network of Communities\u201d alternative that had more dispersed growth patterns than the proposed plan; and (5) an \u201cEnvironmental Equity and Jobs\u201d alternative that maximized affordable housing in high-opportunity urban and suburban areas through incentives and housing subsidies. The DEIR presented each alternative and discussed its potential impacts as compared to those of the proposed Plan Bay Area. The DEIR\u2019s analysis of these alternatives included a comparison of their relative impacts regarding Criterion 1 (achieving the Board targets set pursuant to Sen. Bill 375), Criterion 2 (the state of direct and indirect greenhouse gas emissions in 2040 when compared to existing conditions), and Criterion 3 (the attainment of goals set forth in Exec. Order No. S-3-05 and Exec. Order No. B-16-2012 by 2050), the latter two analyses including consideration of Pavley I and the Low Carbon Fuel Standard.\nDuring a 45-day public review period, the Agencies held three public hearings on the DEIR and nine on the draft Plan Bay Area. They received over 340 written comment letters and numerous oral comments during the public comment period, and continued to receive comments after its close. Citizens was critical of Plan Bay Area and asserted the Agencies should consider Citizens\u2019 alternative plan, called the \u201cBay Area Citizens Transportation and Housing Alternative.\u201d The Agencies responded to Citizens\u2019 comments, but did not specifically analyze the impacts of Citizens\u2019 alternative plan, instead stating that they had considered a reasonable range of alternatives and that many elements of Citizens\u2019 alternative plan were included in the alternatives they had assessed.\nThe Agencies submitted their proposed Plan Bay Area to the Board for its technical review. In June 2013, the Board\u2019s staff presented to the Board a draft technical evaluation of the Agencies\u2019 greenhouse gas emissions reduction quantification in their proposed Plan. The staff stated that the Agencies had \u201cappropriately not included [greenhouse gas] emissions reductions from the technology and fuel programs adopted by [the Board], such as the Low Carbon Fuel Standard and [Pavley].\u201d The staff concluded preliminarily that Plan Bay Area would achieve the Board\u2019s emissions reduction targets for the Bay Area region.\nOn July 18, 2013, the Agencies certified the FEIR, which contained relatively minor changes to the DEIR that did not alter the DEIR\u2019s conclusions regarding significant environmental impacts or mitigation measures. The Agencies also adopted findings pursuant to CEQA and adopted Plan Bay Area.\nThe Agencies approved a \u201cStatement of Overriding Considerations.\u201d It asserted 13 considerations overriding the environmental effects Plan Bay Area would have, including that it met the Senate Bill 375 targets, was part of a \u201ccollaborative approach to development [that] provides the best opportunity to create a sustainable future for the Bay Area,\u201d \u201cplaces a high priority on moving jobs and households closer to each other and to transit options,\u201d and \u201cleads the Bay Area in the right downward trajectory towards the 2050 [greenhouse gas] emission reduction targets.\u201d\nPursuant to section 65080, subdivision (b)(2)(J)(ii), the Agencies submitted their adopted Plan Bay Area to the Board for its review and acceptance of their determination that the Plan, if implemented, would achieve the Board\u2019s emissions reduction targets for the Bay Area. On April 10, 2014, the Board accepted the Agencies\u2019 determination in Executive Order No. G-14-028. The Board\u2019s executive order regarding Plan Bay Area referred to, and attached, the Board staff\u2019s April 2014 final technical evaluation of the Agencies\u2019 greenhouse gas emissions reduction quantification for their sustainable communities strategy. This evaluation states that the Agencies had \u201cappropriately not included in [their] greenhouse gas emissions reduction figures any [greenhouse gas] emissions reductions from the [Board]-adopted technology and fuel programs, such as the Low Carbon Fuel Standard or [Pavley] program. This is because the regional targets adopted by [the Board] in 2010 do not include reductions from these statewide technology and fuel programs, but rather focus on reductions from strategies implemented at the regional and local levels.\u201d\nIII.\nCitizens\u2019 Verified Petition for Writ of Mandate\nIn August 2013, Citizens filed a verified petition for writ of mandate in Alameda County Superior Court challenging the Agencies\u2019 adoption of Plan Bay Area. In five causes of action, Citizens alleged the Agencies failed to comply with CEQA in their DEIR and FEIR (collectively, EIRs) by (1) not adequately identifying Plan Bay Area\u2019s basic objectives; (2) not adequately assessing a \u2018\u201cNo Project\u201d alternative; (3) not adequately assessing a \u2018\u201cNo Project\u201d alternative by relying on \u201can obviously outdated baseline\u201d; (4) not including a reasonable, feasible alternative to Plan Bay Area; and (5) not responding to Citizens\u2019 proposed alternative plan.\nAccording to Citizens, the Agencies imposed unnecessary land use plans on the Bay Area in order to meet the Board\u2019s 2020 and 2035 emissions reduction targets because they improperly ignored the greenhouse gas emissions reductions expected from statewide mandates. The Agencies planned to meet the Board targets \u201cprimarily through reduction in the vehicle miles traveled (VMT) of passenger motorcars and light trucks\u201d resulting from \u201chigh-density land-use patterns\u201d and \u201cconstruction and extension of light and heavy rail.\u201d As a result, Plan Bay Area required \u201c78 [percent] of new housing and 62 [percent] of new jobs, through 2040, to be located within [Priority [Development [A]reas,\u201d defined by Citizens as \u201c \u2018[locations within existing communities that present infill development opportunities and are easily accessible to transit, jobs, shopping and services.\u2019 \u201d The new development was to be concentrated in areas that covered only 5 percent of the Bay Area region\u2019s surface area. In Citizens\u2019 view, the Agencies unnecessarily adopted \u201ca draconian, high-density land-use regime.\u201d These measures were unnecessary and were the product of the Agencies\u2019 failure to take into account projected statewide greenhouse gas emissions reductions from other initiatives, such as Assembly Bill 32. These projected statewide reductions meant \u201cthe Bay Area can handily exceed the required greenhouse gas reductions [set by the Board pursuant to Senate Bill 375] without reliance on [the Agencies\u2019] high-density land-use vision.\u201d\nCitizens further asserted that the Agencies\u2019 failure to take these statewide reductions into account violated CEQA because, rather than convey this basic information in their FEIR, the Agencies assumed \u201c \u2018hypothetical\u2019 numbers, thereby giving the public the false impression that the [Agencies\u2019 high-density approach (or something very close to it) is necessary to achieve the required greenhouse gas reductions. Thus, [Plan Bay Areal's CEQA analysis undercuts the law\u2019s purposes of informing the public and decision-makers of the environmental consequences of, and alternatives to, discretionary government action.\u201d\nCitizens further claimed that Plan Bay Area\u2019s CEQA analysis ignored three specific statewide greenhouse gas reduction mandates regarding technology and fuel composition. These were the Low Carbon Fuel Standard, and the Pavley I and Pavley II vehicle technology regulations. As a result, Citizens contended, in 2040, the last year of Plan Bay Area, California\u2019s passenger vehicles would produce only 40 percent of the greenhouse gas emissions they produced in 2010.\nCitizens also contended the Agencies\u2019 environmental review indicated Plan Bay Area would have 39 significant environmental effects, including a substantial net increase in construction-related emissions pollution, an increase in large particulate matter pollution, the worsening of toxic air contaminant and small particulate matter pollution for some Bay Area communities, the disruption or displacement of substantial numbers of individuals and businesses, and permanent neighborhood alterations that would restrict access to or eliminate community amenities. The DEIR discussed five project alternatives, including a \u2018\u201cNo Project\u201d alternative that would not meet the Board\u2019s greenhouse gas emissions reduction targets.\nAccording to Citizens, it and other citizen groups provided comments on the draft Plan Bay Area and DEIR that highlighted a number of \u2018\u201cserious legal and policy shortcomings.\u201d These included that the draft plan and the DEIR ignored Pavley\u2019s vehicle technology standards and the Low Carbon Fuel Standard in measuring the greenhouse gas emission impacts of Plan Bay Area and the discussed alternatives, thereby creating \u2018\u201ca false need for [the Plan\u2019s] draconian high-density development prescriptions. If [Plan Bay Area] were consistently to take the [Low Carbon Fuel Standard], Pavley I, and Pavley II into account, it would be clear to the public that the [Senate Bill 375] targets can be reached without [Plan Bay Area]\u2019s drastic land-use changes. In fact, [the Agencies\u2019] own models show that the difference by year 2035 between [Plan Bay Area] and the \u2018no project\u2019 alternative\u2014taking only the [Low Carbon Fuel Standard] and Pavley I into account\u2014will be approximately 2,000 tons per day of greenhouse gas (less than a 3 [percent] difference), well within any reasonable margin of error.\u201d This difference was further reduced when factoring out elements of Plan Bay Area unrelated to its high-density housing and transportation policies. According to Citizens, \u2018\u201cthat difference is dwarfed by the models\u2019 own conclusion that the [Low Carbon Fuel Standard] and Pavley I will lead to 14 times more greenhouse gas emission reductions than those strictly attributable to [Plan Bay Area].\u201d Citizens further alleged that the draft Plan Bay Area included arbitrary revenue assumptions, high-density housing mandates and mass transit elements that would actually increase greenhouse gas emissions. It also had unrealistic goals, unreliable models for predicting transit use and development decades into the future, and inaccurate assumptions regarding population and job growth.\nCitizens also contended that the Agencies certified the FEIR and adopted Plan Bay Area without remedying these serious shortcomings. The FEIR included the errors previously described, and also contained the \u2018\u201cassumption that vehicle miles-per-gallon efficiency and gasoline carbon content will remain constant over the life of the Plan.\u201d This was \u2018\u201ccontrary to fact\u201d because the Plan did \u201cnot take fully into account the greenhouse gas reductions that the region\u2019s transportation system will achieve \u2018naturally\u2019 simply due to the implementation of the [Low Carbon Fuel Standard], Pavley I, and Pavley II,\u201d although the Plan \u201cselectively and opportunistically\u201d did take these emissions improvements into account when estimating future particulate matter and other air pollutants.\nAccording to Citizens, the Agencies incorrectly asserted that Senate Bill 375, the Board\u2019s Scoping Plan and the Board staff\u2019s initial review of Plan Bay Area all indicated that the Board\u2019s Bay Area reduction targets were meant to exclude any reductions attributable to the Low Carbon Fuel Standard, Pavley I and Pavley II, since including them would be \u201cimpermissible \u2018double counting.\u2019 \u201d To the contrary, Citizens contended, Senate Bill 375 \u201cexpressly requires that the targets, which [Plan Bay Area] is supposed to meet, must take into account greenhouse gas reductions achieved through advances in vehicle efficiency and fuel cleanliness\u201d pursuant to section 65080, subdivision (b)(2)(A)(iii). The Agencies\u2019 interpretation of Senate Bill 375 in the FEIR was purportedly inconsistent with Senate Bill 375\u2019s authorization for the Board \u201cto update the targets based on ongoing advances in vehicle efficiency and fuel cleanliness\u201d pursuant to 65080, subdivision (b)(2)(A)(iv).\nMoreover, Citizens contended, Senate Bill 375 regulated Plan Bay Area, but not its environmental impact report. \u201cThus, even if [Plan Bay Area] were required to ignore emission savings from the implementation of the [Low Carbon Fuel Standard], Pavley I, and Pavley II when determining whether the targets have been met, that would not mean that the [FEIR\u2019s] CEQA analysis should also be subject to the same fictitious assumptions.\u201d\nFurther, Citizens alleged, it had recommended that the Agencies adopt an environmentally sensitive alternative to Plan Bay Area that would achieve Plan Bay Area\u2019s basic objectives without its significant environmental effects. Citizens\u2019 alternative reasonably relied on \u201cthe anticipated substantial greenhouse gas reductions that will occur over the planning horizon owing to the [Low Carbon Fuel Standard], Pavley I, and Pavley II,\u201d called for \u201cincreasing and improving transit lines further to reduce greenhouse gases,\u201d and could \u201ceasily achieve the housing goals for the region, because it is not limited by [Plan Bay Area\u2019s] draconian high-density housing mandate.\u201d\nNonetheless, Citizens alleged, the FEIR failed to consider its alternative, stating instead that the Agencies were \u201cnot required to consider every possible alternative, and that existing alternatives adequately incorporate[d] the main parts of the Citizens\u2019 alternative.\u201d Yet the FEIR did not explain how the alternatives discussed in it were adequate, given that they all ignored the reductions from the Low Carbon Fuel Standard, Pavley I and Pavley II. In other words, the FEIR\u2019s disregard of the Citizens alternative was \u201cbased entirely on its faulty interpretation of [Senate Bill 375] as requiring that the Plan ignore greenhouse-gas-reduction reality when determining whether [Plan Bay Area] will meet the regional targets.\u201d Citizens also challenged the Agencies\u2019 issuance of a Statement of Overriding Considerations to support Plan Bay Area.\nCitizens sought a peremptory writ of mandate directing the Agencies to vacate their certification of the FEIR, adoption of the Statement of Overriding Considerations and approval of Plan Bay Area, and to produce a new FEIR consistent with CEQA.\nIY.\nThe Agencies' Answer to Citizens' Petition\nThe Agencies answered Citizens\u2019 petition. They denied there was anything improper about their FEIR, Statement of Overriding Considerations, or Plan Bay Area.\nThe Agencies acknowledged Plan Bay Area relied on \u201ca strategy of focusing growth around the region\u2019s existing and planned public transit system,\u201d primarily through the Priority Development Area framework, and that the Priority Development Areas were \u201cexpected to accommodate 78 percent of new housing (approximately 509,000 units) and 62 percent of new jobs (approximately 690,000).\u201d The Agencies stated that, \u201c[d]ue to this focused growth pattern and the associated investments into the public transit system, [Plan Bay Area] [was] forecasted to result in 93 percent more transit boardings and 6 percent fewer vehicle miles traveled per capita by the year 2040,\u201d including significant increases in daily transit seat miles, most notably in heavy rail and commuter rail transit. \u201cThese changes in passenger travel patterns, along with the land use pattern and other transportation and climate program investments, [were] expected to reduce per-capita light-duty vehicle greenhouse gas emissions by 10 percent between 2005 and 2020 and 16 percent between 2005 and 2035,\u201d exceeding the Board\u2019s Senate Bill 375 targets of 7 percent by 2020 and 15 percent by 2035.\nThe Agencies acknowledged their EIR (environmental impact report) analysis had concluded Plan Bay Area would result in 39 significant and unavoidable environmental effects. However, the Agencies contended, 23 of these effects could be mitigated to less than significant at the project level.\nV.\nThe Trial Court\u2019s Statement of Decision\nCitizens moved for judgment on its petition, and the parties submitted briefs and a voluminous administrative record. The trial court held a hearing on Citizens\u2019 motion, issued a proposed statement of decision and received the parties\u2019 comments.\nOn August 8, 2014, the court issued a thorough and well-thought-out 33-page final statement of decision denying Citizens\u2019 petition. The court noted that the parties submitted briefs consistent with their pleadings and that Citizens\u2019 contentions and arguments focused on its basic premise that Plan Bay Area should have striven to achieve the Board\u2019s 2020 and 2035 emissions reduction targets by considering the anticipated reductions from Pavley and the Low Carbon Fuel Standard. The court first reviewed the statutes, regulations and plans that led up to Plan Bay Area and then reviewed the Agencies\u2019 EIRs.\nA. The Court\u2019s Discussion of the DEIR\nThe court found the DEIR contained statements that identified goals for Plan Bay Area. These included that the Plan \u201c \u2018aims to achieve focused growth by building off of locally-identified Priority Development Areas and by emphasizing strategic investments in the region\u2019s transportation network including strong emphasis on operating and maintaining the existing system,\u2019 \u201d and that the Plan had seven goals: \u201c \u2018(1) Climate Protection (2) Adequate Housing (3) Healthy and Safe Communities (4) Open Space and Agricultural Preservation (5) Equitable Access (6) Economic Vitality [and] (7) Transportation System Effectiveness.\u2019 \u201d Further, the DEIR identified the \u201c \u2018climate change\u2019 \u201d goal as the reduction of \u201c \u2018per-capita C02 emissions from cars and light-duty trucks by 15 [percent] as required by [Senate Bill] 375.\u2019 \u201d\nThe court further found that the DEIR did not include anticipated greenhouse gas emissions reductions from Pavley or the Low Carbon Fuel Standard in its analysis of Criterion 1 environmental effects (failure to reduce per capita passenger vehicle and light duty truck C02 emissions by at least the Board\u2019s 2020 and 2035 targets), but included them in its evaluation of Criterion 2 (whether there was a net increase in direct and indirect greenhouse gas emissions in 2040 when compared to existing conditions) and Criterion 3 (the attainment of goals set forth in Exec. Order No. S-3-05 and Exec. Order No. B-16-2012 by 2050) effects. The trial court concluded this difference was because the DEIR is \u201cnot bounded by the statutory requirements of SB 375 in its evaluation of the [Criterion] 2 issue\u201d and, therefore, evaluated transportation emissions for \u201c \u2018all vehicle classes and the emissions reduction benefits from Pavley and the [Low Carbon Fuel Standard].\u2019 \u201d\nThe trial court also found that anticipated Pavley and Low Carbon Fuel Standard reductions were considered in the DEIR\u2019s evaluation of the Criterion 3 issue. This issue implicated whether the proposed Plan was consistent with Executive Order No. S-3-05, which calls for the reduction of greenhouse emissions to 20 percent of the 1990 level by 2050. The Criterion 3 analysis included two charts, one which did not consider and one which did consider anticipated Pavley and the Low Carbon Fuel Standard reductions.\nThe court emphasized that the Board staff\u2019s June 2013 draft technical evaluation of the Agencies\u2019 proposed plan stated that the Agencies had \u201c \u2018appropriately not included [greenhouse gas] emissions reductions from the technology and fuel programs adopted by the [Board] such as the Low Carbon Fuel Standard and [Pavley]. This [was] because the targets adopted by [the Board] in 2010 [did] not include reductions from these statewide technology and fuel programs but rather focus[ed] on reductions from strategies implemented at the regional and local levels.\u2019 \u201d\nThe trial court further found that the DEIR evaluated five \u201cpotentially feasible\u201d alternative sustainable communities strategies, and that the DEIR concluded these alternatives had only \u201cminor\u201d overall variations in environmental impact.\nThe trial court further discussed that, as part of the public comments about the DEIR, Citizens \u201casserted that the . . . analysis failed to account for, and hid, the fact that the Pavley mileage regulations will increase vehicle [miles per gallon] and will decrease emissions by approximately 37 [percent] and instead conducted a flawed analysis that assumed constant fleet [miles per gallon] through 2035.\u201d Citizens proposed its own alternative plan, the \u201cBay Area Citizens Transportation and Housing Alternative.\u201d\nThe court found the FEIR responded to Citizens when it \u201cexplained why the [DEIR] focused on emissions reductions from the land use and transportation planning sector while not factoring in emissions reductions from the Pavley mileage regulations and the [the Low Carbon Fuel Standard].\u201d The FEIR stated that \u201c \u2018ABAG focused solely on land use and transportation planning [greenhouse gas] reduction measures and used a 2005 baseline for their analysis of [greenhouse gas] emissions reductions under the Plan because that is what SB 375 and [the Board] require. Pavley and the [Low Carbon Fuel Standard] are separate components of the State\u2019s [greenhouse gas] emissions reduction efforts. [The Agencies] would be impermissibly double-counting the reductions from Pavley and the [Low Carbon Fuel Standard] if they were to take credit for those emissions reductions in this EIR. [The Board] selected the year 2005 as a baseline (see p. 6 in the Recommendations of the Regional Targets Advisory Committee) in September 2009. The purpose of developing the [sustainable communities strategy] as a component of the [regional transportation plan] is to provide a tool for regional governing bodies, such as [the Agencies], to meet [the Board\u2019s greenhouse gas] reduction targets specific to the land use and transportation planning sector.\u2019 \u201d\nThe trial court further found that the FEIR had sufficiently responded to Citizens\u2019 comments. The FEIR stated that \u201c \u2018[consistent with [Senate Bill] 375,\u2019 \u201d the Board assigned the Agencies targets that required emissions reductions \u201c \u2018beyond those achieved by \u201cnew vehicle technology and by the increased use of low carbon fuel\u201d ([Sen. Bill] 375 Section 1(c)).[] ... As such, for the purposes of [Senate Bill] 375, [the Agencies] must estimate carbon dioxide emissions assuming [a] hypothetical future in which new vehicle technologies and the increased use of low carbon fuel are not present.\u2019 \u201d Further, \u201c \u2018[w]hen assessing the environmental impact of the proposed action, [the Agencies] assume a policy future in which new vehicle technology and the increased use of low carbon fuel do exist. . . . [\u00b6] For each scenario, therefore, [the Agencies] have two estimates of effective miles per gallon [MPG]. One is the expected future year value, expected MPG, and is used as part of the emission estimation process that is the basis for assessing the environmental impact of the proposed action. The second is the hypothetical value, SB 375, which is used as part of carbon dioxide estimation process that is the basis for [the Agencies\u2019] [Senate Bill] 375 [greenhouse gas] target. The only purpose of this hypothetical second value is for computing [the Agencies\u2019] [Senate Bill] 375 [greenhouse gas] target. [\u00b6] . . . [\u00b6] [The Agencies] cannot rely on state-mandated changes in vehicle technology and increased use of low carbon fuel to meet the region\u2019s [Senate Bill] 375 target.\u2019 \u201d The court continued, their \u201cuse of these two separate MPG estimates for two separate purposes is not a secret.\u201d Elsewhere in response to Citizens\u2019 comments, the FEIR referred to the conclusion in the DEIR that, in meeting the Senate Bill 375 greenhouse gas emissions reduction targets, it was prohibited from including anticipated Pavley and the Low Carbon Fuel Standard reductions in its calculations.\nB. The Court\u2019s Rulings on Citizens\u2019 Claims\nThe court then stated its rulings on the claims Citizens had brought, which the court divided into five categories.\nFirst, the court rejected Citizens\u2019 basic premise that the Agencies should have considered emissions reductions from Pavley and the Low Carbon Fuel Standard in determining how Plan Bay Area would meet the Board\u2019s 2020 and 2035 greenhouse gas emissions reduction targets. The court concluded, based on its review of statutory text, the purpose of a regional transportation plan, the Legislature\u2019s declarations and the Board\u2019s interpretations, that Senate Bill 375 requires the Agencies to develop a regional transportation plan independent of Pavley and the Low Carbon Fuel Standard.\nSecond, the court rejected Citizens\u2019 contention that the Agencies failed to disclose and describe Senate Bill 375\u2019s proper legal objective. The court found substantial evidence to the contrary, in that the DEIR identified seven goals of the proposed Plan Bay Area and \u201cwas clear that in meeting the goal of reducing per-capita C02 emissions from cars and light-duty trucks by 15 [percent,] [Plan Bay Area] would be limiting itself to land use and transportation issues.\u201d Further, numerous public comments indicated the public\u2019s understanding that the plan sought to achieve the Board\u2019s targets independent of Pavley and the Low Carbon Fuel Standard, and there was substantial evidence that the Agencies responded adequately to the public comments, including those by Citizens.\nThird, the trial court rejected Citizens\u2019 claim that the Agencies did not comply with CEQA because they used the Senate Bill 375 framework to analyze the proposed Plan Bay Area\u2019s impact on greenhouse gas emissions, rather than some other framework. The court found the Agencies had acted within their discretion by analyzing the Plan\u2019s impact under three different criteria: the Senate Bill 375 standard for meeting reductions targets with a 2005 base year for 2020 (7 percent) and 2035 (15 percent) (Criterion 1); the Agencies\u2019 goal of achieving reductions by 2040 using a 2010 baseline (Criterion 2); and the executive order goals of achieving reductions by 2050 equivalent to 80 percent of emissions in 1990 (Criterion 3).\nFourth, the trial court rejected Citizens\u2019 claim that the Agencies did not properly consider the \u201cNo Project\u201d alternative. As we have discussed, the court rejected Citizens\u2019 contention that the Agencies misinterpreted Senate Bill 375 to exclude reductions from Pavley and the Low Carbon Fuel Standard. The court also concluded that, contrary to Citizens\u2019 argument, the Agencies properly used 2005 as a base year in considering the No Project alternative because Senate Bill 375 required the Agencies to do so. Finally, Citizens contended that the Agencies neglected to assess the \u201creal world\u201d consequences of the No Project alternative by projecting that Bay Area emissions would continue to rise despite evidence that nationwide emission rates for the transportations sector have been leveling off; the trial court found substantial evidence supported the Agencies\u2019 projection.\nFifth, the trial court rejected Citizens\u2019 assertion that the Agencies did not properly consider and assess Citizens\u2019 proposed alternative plan. The court concluded there were three reasons why the Agencies had met their obligation to consider a reasonable range of potentially feasible alternative plans. First, in their environmental review, they considered several alternative plans and, the court found, there was substantial evidence that the Agencies did not need to conduct a separate evaluation of Citizens\u2019 alternative plan. Second, the Agencies were not required to consider Citizens\u2019 alternative plan because it was infeasible, given that it improperly included emissions reductions from the Pavley regulations and the Low Carbon Fuel Standard. Third, the Agencies considered several aspects of Citizens\u2019 alternative plan in the course of their evaluations of other alternatives, and adequately responded to Citizens, pointing out that they had considered a reasonable range of alternatives and that many elements of Citizens\u2019 alternative plan were included in the alternatives assessed.\nVI.\nFiling of the Judgment and Notice of Appeal\nOn August 27, 2014, the trial court filed a judgment that incorporated its final statement of decision and denied Citizens\u2019 petition in its entirety.\nCitizens filed a timely notice of appeal. During the pendency of this appeal, the Agencies made an unopposed request for judicial notice of certain documents, which we granted. Further, the Attorney General filed an amicus curiae brief in support of the Agencies, which we have also considered.\nDISCUSSION\nAs in its petition for writ of mandate in the trial court, on appeal Citizens contends that the Agencies did not comply with CEQA in several ways, all because the Agencies improperly relied \u201cthroughout ... on the assertion that [Senate Bill 375] and the [Board] targets forbid any consideration of the Statewide Mandates in assessing whether the targets will be met.\u201d\nThe Agencies contend Senate Bill 375 and the Board require them to strive to meet the Board\u2019s emissions reduction targets by developing regional land use and transportation strategies that were independent of the statewide mandates. The Attorney General contends the Agencies complied with CEQA because of their EIRs\u2019 extensive disclosures and analyses, regardless of Senate Bill 375\u2019s and the Board\u2019s requirements.\nWe agree with both the Agencies and the Attorney General, as we will now discuss.\nI.\nLegal Standards Governing CEQA Review\n\u201c \u2018[T]he foremost principle under CEQA is that the Legislature intended the act \u201cto be interpreted in such manner as to afford the fullest possible protection to the environment within the reasonable scope of the statutory language.\u201d \u2019 \u201d (Muzzy Ranch Co. v. Solano County Airport Land Use Com. (2007) 41 Cal.4th 372, 381 [60 Cal.Rptr.3d 247, 160 P.3d 116] (Muzzy Ranch Co.).) \u201cThe fundamental goal of an EIR is to inform decision makers and the public of any significant adverse effects a project is likely to have on the physical environment.\u201d (Neighbors for Smart Rail v. Exposition Metro Line Construction Authority (2013) 57 Cal.4th 439, 447 [160 Cal.Rptr.3d 1, 304 P.3d 499].) It serves as \u201c \u2018an \u201cenvironmental \u2018alarm bell\u2019 whose purpose it is to alert the public and its responsible officials to environmental changes before they have reached ecological points of no return.\u201d [Citations.] The EIR is also intended \u201cto demonstrate to an apprehensive citizenry that the agency has, in fact, analyzed and considered the ecological implications of its action.\u201d \u2019 \u201d (Californians for Alternatives to Toxics v. Department of Food & Agriculture (2005) 136 Cal.App.4th 1, 11-12 [38 Cal.Rptr.3d 638] (Californians for Alternatives to Toxics), quoting Laurel Heights Improvement Assn. v. Regents of University of California (1988) 47 Cal.3d 376, 392 [253 Cal.Rptr. 426, 764 P.2d 278].)\n\u201cAs a general matter the EIR must present facts and analysis, not simply the bare conclusions or opinions of the agency. [Citation.] The discussion of impacts is acceptable if it provides sufficient information and analysis to allow the public to discern the basis for the agency\u2019s impact findings. [Citation.] Thus the EIR should set forth specific data, as needed to meaningfully assess whether the proposed activities would result in significant impacts.\u201d (Californians for Alternatives to Toxics, supra, 136 Cal.App.4th at p. 13.)\nIn a CEQA case, \u201cour review of the administrative record for error is the same as the trial court\u2019s; we review the agency\u2019s action, not the trial court\u2019s decision.\u201d (Muzzy Ranch Co., supra, 41 Cal.4th at p. 381.) Our review extends only to \u201cwhether there was a prejudicial abuse of discretion. Abuse of discretion is established if the agency has not proceeded in a manner required by law or if the determination or decision is not supported by substantial evidence.\u201d (Pub. Resources Code, \u00a7 21168.5; see Save Tara v. City of West Hollywood (2008) 45 Cal.4th 116, 131 [84 Cal.Rptr.3d 614, 194 P.3d 344].)\n\u201c[A]n agency\u2019s failure to comply with the procedural requirements of CEQA is prejudicial when the violation thwarts the act\u2019s goals by precluding informed decisionmaking and public participation.\u201d (San Lorenzo Valley Community Advocates for Responsible Education v. San Lorenzo Valley Unified School Dist. (2006) 139 Cal.App.4th 1356, 1375 [44 Cal.Rptr.3d 128].) Thus, an EIR \u201cwill be found legally inadequate\u2014and subject to independent review for procedural error\u2014where it omits information that is both required by CEQA and necessary to informed discussion.\u201d (California Native Plant Society v. City of Santa Cruz (2009) 177 Cal.App.4th 957, 986 [99 Cal.Rptr.3d 572].)\nIn contrast, when reviewing a challenge to an agency\u2019s factual findings and determinations, we apply the substantial evidence standard. (San Joaquin Raptor Rescue Center v. County of Merced (2007) 149 Cal.App.4th 645, 654 [57 Cal.Rptr.3d 663].) \u201c \u2018Substantial evidence\u2019 \u201d is \u201cenough relevant information and reasonable inferences from this information that a fair argument can be made to support a conclusion, even though other conclusions might also be reached,\u201d based on a review of the whole record before the agency. (Cal. Code Regs., tit. 14, \u00a7 15384, subd. (a).) \u201cArgument, speculation, unsubstantiated opinion or narrative, evidence which is clearly erroneous or inaccurate, or evidence of social or economic impacts which do not contribute to or are not caused by physical impacts on the environment does not constitute substantial evidence.\u201d (Ibid.) We consider \u201call relevant evidence, including that which detracts from the administrative decision.\u201d (Ross v. California Coastal Com. (2011) 199 Cal.App.4th 900, 921 [133 Cal.Rptr.3d 107].)\nFurther, \u2018\u201c[t]he agency\u2019s findings and actions are presumed to be supported by substantial evidence. [Citations.] A person challenging an administrative determination bears the burden of showing the agency\u2019s findings are not supported by substantial evidence.\u201d (Ross v. California Coastal Com., supra, 199 Cal.App.4th at p. 921.)\nII.\nThe Meaning of Senate Bill 375\nCitizens first argues that, \u2018\u201ccontrary to the Agencies\u2019 evident wish,\u201d Senate Bill 375 does not require that the Agencies meet the Board\u2019s emissions reduction targets without considering reductions expected from statewide mandates such as Pavley and the Low Carbon Fuel Standard. According to Citizens, \u2018\u201cthe Agencies\u2019 approach is itself legally suspect, particularly given [Senate Bill 375 \u2019s] mandate that the regional targets must take account of\u2019 emissions reductions expected from the statewide mandates. And regardless, Citizens contends its interpretation, even if not compelled by Senate Bill 375, is \u201cnevertheless a reasonable interpretation of the statute. [Citation.] Considering regional transportation planning and the Statewide Mandates together as part of a cumulative target analysis is a sensible approach to ensure that the two factors (which necessarily affect and interact with the other) complement rather than frustrate each other.\u201d Therefore, \u201cthe Plan EIR\u2019s foundational assumption\u2014Senate Bill 375 compels the Agencies to exclude consideration of the Statewide Mandates in the Plan\u2019s target analysis\u2014is false.\u201d\nSenate Bill 375\u2019s plain language, the Legislature\u2019s express declarations and findings, and the Board\u2019s contemporaneous administrative construction of it make clear that Citizens\u2019 construction of Senate Bill 375 is incorrect. The only legally tenable interpretation of Senate Bill 375 is that it requires the Board to set targets for, and the Agencies to strive to meet these targets by, emissions reductions resulting from regionally developed land use and transportation strategies, and that it requires these reductions be in addition to those expected from the statewide mandates.\nWe review de novo questions of statutory construction. (Imperial Merchants Services, Inc. v. Hunt (2009) 47 Cal.4th 381, 387 [97 Cal.Rptr.3d 464, 212 P.3d 736].) \u201c \u2018In construing statutes, we aim \u201cto ascertain the intent of the enacting legislative body so that we may adopt the construction that best effectuates the purpose of the law.\u201d [Citations.] We look first to the words of the statute, \u201cbecause the statutory language is generally the most reliable indicator of legislative intent.\u201d [Citations.]\u2019 . . . \u2018The intent prevails over the letter, and the letter will, if possible, be so read as to conform to the spirit of the act.\u2019 \u201d (People v. Nelson (2011) 200 Cal.App.4th 1083, 1097 [132 Cal.Rptr.3d 856].) \u201c \u2018[WJhere a statute\u2019s terms are unclear or ambiguous, we may \u201clook to a variety of extrinsic aids, including the ostensible objects to be achieved, the evils to be remedied, the legislative history, public policy, contemporaneous administrative construction, and the statutory scheme of which the statute is a part.\u201d \u2019 \u201d (People v. Harrison (2013) 57 Cal.4th 1211, 1221-1222 [164 Cal.Rptr.3d 167, 312 P.3d 88].)\nA. The Language of Senate Bill 375\nWe first turn to the language in Senate Bill 375. \u201c \u2018The Legislature\u2019s chosen language is the most reliable indicator of its intent because [\u201c \u2018]it is the language of the statute itself that has successfully braved the legislative gauntlet.[\u2019 \u201d] [Citation.] We give the words of the statute \u201ca plain and commonsense meaning\u201d unless the statute specifically defines the words to give them a special meaning. [Citations.] If the statutory language is clear and unambiguous, our task is at an end, for there is no need for judicial construction. . . .\n\u201c \u2018Nevertheless, the \u201cplain meaning\u201d rule does not prevent a court from determining whether the literal meaning of the statute comports with its purpose. [Citations.] Thus, although the words used by the Legislature are the most useful guide to its intent, we do not view the language of the statute in isolation. [Citation.] Rather, we construe the words of the statute in context, keeping in mind the statutory purpose. [Citation.] We will not follow the plain meaning of the statute \u201cwhen to do so would \u2018frustrate[] the manifest purposes of the legislation as a whole or [lead] to absurd results.\u2019 \u201d [Citation.] Instead, we will \u201c \u2018interpret legislation reasonably and . . . attempt to give effect to the apparent purpose of the statute.\u2019 \u201d \u2019 \u201d (People v. Nelson, supra, 200 Cal.App.4th at pp. 1097-1098.)\nFurther, \u201can enactment is to be read as a whole.\u201d (Harris v. Superior Court (2011) 53 Cal.4th 170, 188 [135 Cal.Rptr.3d 247, 266 P.3d 953].) In other words, \u201c[legislative intent must be gleaned from the whole act rather than from isolated words.\u201d (Building Industry Assn. v. City of Camarillo (1986) 41 Cal.3d 810, 819 [226 Cal.Rptr. 81, 718 P.2d 68].)\nWith these standards in mind, we turn to the language of Senate Bill 375, which calls for each MPO\u2019s development of regional strategies to meet the Board targets, suggesting the Board\u2019s and the Agencies\u2019 interpretations are correct. By statute, each transportation planning agency is required to \u201cprepare and adopt a regional transportation plan directed at achieving a coordinated and balanced regional transportation system.\u201d (\u00a7 65080, subd. (a).) In this context, Senate Bill 375 instructs each MPO to prepare a sustainable communities strategy that, among other things \u201cshall ... set forth a forecasted development pattern for the region, which, when integrated with the transportation network, and other transportation measures and policies, will reduce the greenhouse gas emissions from automobiles and light trucks to achieve, if there is a feasible way to do so, the greenhouse gas emission reduction targets approved by the [Board].\u201d (\u00a7 65080, subd. (b)(2)(B)(vii).) Senate Bill 375\u2019s emphasis on the creation of a \u2018\u201cforecasted development pattern for the region\u201d within a regional transportation plan indicates the Legislature intended the MPOs would meet their regional targets by using land use and transportation plans and policies to reduce emissions. To rely instead on emissions reductions resulting from such statewide mandates as vehicle technology (Pavley) and a low carbon fuel standard would frustrate this plainly stated objective.\nFurther, Citizens\u2019 interpretation of Senate Bill 375 would lead to the absurd conclusion that the Legislature created an elaborate process\u2014involving the Board\u2019s appointment of an expert advisory committee, that committee\u2019s development of target recommendations to the Board, the Board\u2019s consideration of these recommendations, the MPOs\u2019 development of their own recommendations and the Board\u2019s consultation with each of the MPOs, extensive analyses by the Board in the formulation of targets for each region, extensive planning and public participation procedures by each MPO, and CEQA analyses of each of the resulting plans\u2014only to allow the MPOs in the end to simply cite the reductions expected from the preexisting statewide mandates and take little or no further action. The conclusion is absurd because, as the Board projected in its Scoping Plan, and as acknowledged by Citizens, the emissions reductions the statewide mandates are expected to achieve dwarf those the regional plans are targeted to achieve. Pavley and the Low Carbon Fuel Standard alone are expected to result in approximately 46.7 million metric tons of greenhouse gas emissions reductions (comprised of 31.7 and 15 million metric tons respectively) by 2020, compared to the baseline year of 2005. This is more than nine times the 5 million metric tons reduction the Board estimated will result from all the regional strategies called for by Senate Bill 375 put together. Indeed, as Citizens acknowledges and the FEIR stated, \u2018\u201chad statewide greenhouse-gas-reduction policies been taken into account, [Plan Bay Area] \u2018could have simply stated that the Bay Area meets its emissions reduction targets solely through statewide clean technology initiatives.\u2019 \u201d In short, Citizens\u2019 interpretation makes no sense because it renders Senate Bill 375 superfluous or, even worse, as a costly, time-consuming and ultimately pointless exercise. This is reason enough to reject it. (See People v. Nelson, supra, 200 Cal.App.4th at p. 1098.)\nCitizens focuses largely on Senate Bill 375\u2019s language requiring the Board to \u2018\u201ctake into account\u201d the reductions to be achieved by statewide mandates such as Pavley and the Low Carbon Fuel Standard in establishing its emissions reduction targets. (\u00a7 65080, subd. (b)(2)(A)(iii).) Citizens\u2019 argument conflates the Board\u2019s duty to consider the statewide mandates in setting its targets with the MPOs\u2019 duty to develop strategies to meet these targets. Citizens has not sued the Board or attacked the validity of its targets. Senate Bill 375 simply does not require the Agencies to \u201ctake into account\u201d the statewide mandates or the reductions these mandates will produce in meeting their regional targets.\nB. The Legislature\u2019s Declarations and Findings for Senate Bill 375\nEven if the language of Senate Bill 375 were ambiguous, its legislative history eliminates any doubt about the Legislature\u2019s intent. The Legislature\u2019s declarations and findings for Senate Bill 375, although uncodi-fied, state that intent. After noting that Assembly Bill 32 requires the State to reduce its greenhouse gas emissions to 1990 levels by 2020 (Stats. 2008, ch. 728, \u00a7 1(b), p. 5065), the Legislature declared: \u201cGreenhouse gas emissions from automobiles and light trucks can be substantially reduced by new vehicle technology and by the increased use of low carbon fuel. However, even taking these measures into account, it wifi be necessary to achieve significant additional greenhouse gas reductions from changed land use patterns and improved transportation. Without improved land use and transportation policy, California wifi not be able to achieve the goals of AB 32.\u201d (Id., ch. 728, \u00a7 1, subd. (c), p. 5065, italics added.) This passage leaves no question but that the Legislature intended Senate Bill 375 to require each MPO to develop regional land use and transportation strategies that will achieve emissions reductions beyond those achieved by the statewide mandates.\nCitizens quotes our Supreme Court in Carter v. California Dept. of Veterans Affairs (2006) 38 Cal.4th 914, 925 [44 Cal.Rptr.3d 223, 135 P.3d 637] for the proposition that \u201cstatements of legislative purpose \u2018do not confer power, determine rights, or enlarge the scope of a measure.\u2019 \u201d True enough. But Citizens\u2019 quote is incomplete. Our Supreme Court stated, \u201c \u2018In considering the purpose of legislation, statements of the intent of the enacting body ... in an uncodified section do not confer power, determine rights, or enlarge the scope of a measure, [but] they properly may be utilized as an cud in construing a statute: \u201d (Ibid., italics added) And indeed, the court, in reviewing legislative history of a statute in order to ascertain the legislative intent, has found \u201cthe most significant source\u201d to be the Legislature\u2019s own declarations and findings. (California Assn. of Psychology Providers v. Rank (1990) 51 Cal.3d 1, 15 [270 Cal.Rptr. 796, 793 P2d 2] [Legislature\u2019s own declarations of findings and purpose accompanying legislation was \u201cthe most significant source\u201d of legislative intent for the legislation under review]; see also People v. Soria (2010) 48 Cal.4th 58, 66, fn. 8 [104 Cal.Rptr.3d 780, 224 P.3d 99] [citing previous uncodified declarations and findings in stating objectives of statutorily mandated restitution fines]; People v. Rodriguez (2002) 28 Cal.4th 543, 546 [122 Cal.Rptr.2d 348, 49 P.3d 1085] [interpreting criminal statute \u2018\u201c[g]uided by the . . . express legislative declarations of intent\u201d].)\nCitizens argues we should disregard the Legislature\u2019s own declaration of Senate Bill 375\u2019s purpose for a number of reasons. First, Citizens contends it is \u2018\u201ca mere legislative finding\u201d that is trumped by \u2018\u201ca clear legislative command,\u201d since \u2018\u201c[Senate Bill 375] expressly requires the Board to take the Statewide Mandates into account when setting the regional targets.\u201d Citizens concludes, \u2018\u201cWhatever the Legislature may have thought would be necessary to achieve the state\u2019s emission reduction goals is legally irrelevant given the Legislature\u2019s plain command that the Statewide Mandates be taken into account . . . .\u201d This is wholly unpersuasive because, as we have already discussed, the Legislature\u2019s command is that the Board consider these statewide mandates in formulating its regional emissions reduction targets, not that the MPOs consider the reductions expected from the statewide mandates in determining how to meet these targets.\nNext, Citizens argues that the Agencies\u2019 interpretation of Senate Bill 375 presupposes the transportation sector must achieve certain reductions. It points out that Assembly Bill 32 does not require reductions \u201c \u2018from any particular source category (including transportation).\u2019 \u201d This has nothing to do with the Legislature\u2019s determination in adopting Senate Bill 375 that the reductions resulting from the regional strategies it calls for would be in addition to reductions expected from the statewide mandates.\nFinally, Citizens argues that the Agencies misinterpreted Senate Bill 375 by relying on the Legislature\u2019s incorrect assumption that reductions attributable solely to land use and transportation planning were needed to achieve Assembly Bill 32\u2019s goals since, Citizens contends, \u2018\u201cthat assumption does not mean that any such reductions would be necessary to meet the [Senate Bill 375] targets.\u201d (Italics omitted.) According to Cihzens, this misinterpretation could actually frustrate Senate Bill 375\u2019s overall goal of reducing transportation-sector greenhouse gas emissions. In the same vein, Citizens argues that Plan Bay Area\u2019s reliance on heavy rail and transit could result in production of more emissions because these modes of transportation are not subject to Pavley and the Low Carbon Fuel Standard. Thus, Citizens concludes, \u2018\u201cthe Agencies\u2019 blind adherence to the Legislature\u2019s erroneous finding could result in the Plan\u2019s irrational dedication to producing more, not fewer, greenhouse gas emissions from the transportation sector.\u201d (Italics added.) At bottom, Citizens\u2019 argument amounts to a request that this court correct a purported mistake by the Legislature in adopting the policy embodied in Senate Bill 375. We are not persuaded by the merits of Cihzens\u2019 argument, but the argument and our view of it are beside the point. Even if we agreed with Citizens\u2019 assessment, we would have to decline its request. \u2018\u201c[W]e may not simply rewrite the statutory scheme, purporting to sit as a super-Legislature.\u201d (People v. Cook (2015) 60 Cal.4th 922, 934 [183 Cal.Rptr.3d 502, 342 P.3d 404].)\nC. The Board \u2019s Contemporaneous Construction of Senate Bill 375\nWe also conclude the Legislature intended by Senate Bill 375 that the Agencies would develop regional strategies resulting in emissions reductions that would be in addition to those expected from the statewide mandates based on our review of the key documents of the Board, the agency responsible for implementing Senate Bill 375. Specifically, the Board\u2019s Scoping Plan, and its endorsement of its staff\u2019s proposed targets report and technical evaluation of Plan Bay Area, indicate the Board interpreted Senate Bill 375 as calling for the development of such regional strategies to achieve additional reductions. This \u201c \u2018 \u2018\u201ccontemporaneous administrative construction\u201d \u2019 \u201d of Senate Bill 375 by the agency charged with implementing it is entitled to considerable weight (People v. Harrison, supra, 57 Cal.4th at p. 1222), particularly because the Board is charged with overall responsibility for \u201cmonitoring and regulating sources of emissions of greenhouse gases that cause global warming in order to reduce emissions of greenhouse gases\u201d (Health & Saf. Code, \u00a7 38510).\n1. The Board\u2019s Scoping Plan\nLirst, there is the Board\u2019s major planning document, its December 2008 Scoping Plan. As we have discussed, Senate Bill 375 was passed in 2008 and became effective on January 1, 2009. The Board issued its Scoping Plan in December 2008 pursuant to Assembly Bill 32, in which it called for significant greenhouse gas emissions reductions in numerous sectors. In the Scoping Plan, the Board specifically identified measures to reduce greenhouse gas emissions by 30 percent, or 174 million metric tons, by the year 2020 from the projected 2020 \u201cbusiness-as-usual\u201d emissions level of 596 million metric tons. These included reductions of 31.7 million metric tons resulting from Pavley\u2019s vehicle technology standards, 15 million resulting from the Low Carbon Luel Standard, and, preliminarily, an additional 5 million from \u201clocal land use changes\u201d to meet the targets the Board would soon set pursuant to Senate Bill 375.\nIn the Scoping Plan, the Board indicated that each of these measures and concomitant reductions was necessary to achieve the Board\u2019s overall goal of reducing greenhouse gas emissions in 2020 by 174 million metric tons as compared to projected \u201cbusiness-as-usual\u201d emissions. In a table contained in the Scoping Plan, the Board listed line by line its categories of estimated reductions. It then added the numbers of metric tons of projected emissions reductions for each of the categories listed, without offsetting or reducing any category to account for overlap between them, to reach the overall goal of 174 million metric tons of reductions. In separate lines of this table, it listed, among others, reductions from \u201cCalifornia Light-Duty Vehicle Greenhouse Gas Standards\u201d (Pavley) of 31.7 million metric tons; reductions from the Low Carbon Fuel Standard of 15 million metric tons; and reductions from \u201cRegional Transportation-Related [Greenhouse Gas] Targets\u201d of 5 million metric tons. In this way, the Board made clear that each category of greenhouse gas reductions was separate from the others.\nThe Board further made clear in its Scoping Plan, in a section entitled, \u201cRegional Transportation-Related Greenhouse Gas Targets,\u201d that Senate Bill 375 called for greenhouse gas emissions reductions to be achieved through regional land use and transportation strategies that were in addition to statewide mandates: \u201cSenate Bill 375 . . . establishes mechanisms for the development of regional targets for reducing passenger vehicle greenhouse gas emissions. Through the SB 375 process, regions will work to integrate development patterns and the transportation network in a way that achieves the reduction of greenhouse gas emissions while meeting housing needs and other regional planning objectives. This new law reflects the importance of achieving significant additional reductions of greenhouse gas emissions from changed land use patterns and improved transportation to help achieve the goals of AB 32.\u201d (Italics added.)\nThat the Board did not intend MPOs to rely on reductions expected from the statewide mandates for vehicle technology and fuel carbon is further indicated in the Scoping Plan\u2019s repeated emphasis on the MPOs\u2019 own development of regional land use and transportation strategies that would reduce vehicle miles traveled, which are distinct from the statewide mandates. For example, the Board referred to the MPOs \u201cfostering efficient land use patterns\u201d that, among other things, \u201creduce vehicle travel.\u201d The Board further stated, \u201c[ejnhanced public transit service combined with incentives for land use development that provides a better market for public transit will play an important role in helping to reach regional targets.\u201d Also, the Board wrote, \u2018\u201c[Senate Bill] 375 maintains regions\u2019 flexibility in the development of sustainable communities strategies. There are many different ways regions can plan and work toward reducing the growth in vehicle travel. Increasing low-carbon travel choices (public transit, carpooling, walking and biking) combined with land use patterns and infrastructure that support these low-carbon modes of travel, can decrease average vehicle trip lengths by bringing more people closer to more destinations.\u201d (Italics added.) The Board listed supporting measures to be considered in target setting and regional planning, all of which involve regional transportation methods and/or housing development. It highlighted a study that found a range of reductions \u2018\u201cin vehicle miles traveled (VMT) resulting from a combination of land use and enhanced transit.\u201d It wrote that [l\\and use and transportation measures that help reduce vehicle travel will also provide multiple benefits beyond greenhouse gas reductions. Quality of life will be improved by increasing access to a variety of mobility options such as transit, biking, and walking, and will provide a diversity of housing options focused on proximity to jobs, recreation, and services.\u201d (Italics added.)\nCitizens argues the Scoping Plan\u2019s provisions do not support the Agencies\u2019 interpretation of Senate Bill 375 for two reasons. First, \u2018\u201cfuel composition and vehicle efficiency (the factors that pertain to the Statewide Mandates) necessarily affect a region\u2019s transportation sector emissions, even though these factors may be regulated at the state level.\u201d Therefore, \u201cthere will always be a risk of double-counting between the Scoping Plan and Senate Bill 375. That being the case, the way to avoid double counting is not to ignore such important determinants of regional emissions as the Statewide Mandates, but instead to set the targets in such a way that regional and statewide measures work cooperatively while also respecting the living choices of California residents.\u201d This argument, too, is misdirected. In effect, it is a challenge to the Board\u2019s approach to setting regional targets. Since Citizens has not sued the Board or sought to overturn the Board\u2019s targets, the argument has no bearing on its claims in this case, which are directed solely at the Agencies\u2019 CEQA review of Plan Bay Area. The argument fails to show the Agencies wrongly interpreted the Board\u2019s intent and directives.\nSecond, Citizens contends the Agencies\u2019 interpretation of the Board\u2019s requirements \u201cimproperly assumes that the Board failed to satisfy its statutory obligation to take the Statewide Mandates into account when setting the targets.\u201d \u2018\u201cThe only way that the Board could have complied with the statutory \u2018take account of\u2019 requirement,\u201d according to Citizens, \u2018\u201cwould have been ... to include the Statewide Mandates as part of its comprehensive metric for measuring the targets. Therefore, it is . . . Citizens\u2019 interpretation of [Senate Bill 375]\u2014not the Agencies\u2019\u2014that both harmonizes with the Scoping Plan and maintains fidelity to the statutory text.\u201d\nThe premise of this argument is flawed. True, Senate Bill 375 requires the Board, \u2018\u201c[i]n establishing these targets,\u201d to \u2018\u201ctake into account\u201d greenhouse gas emissions reductions that will be achieved by statewide mandates the Board has adopted, or plans to adopt, consistent with Assembly Bill 32. (\u00a7 65080, subd. (b)(2)(A)(iii).) But in aiming at an overall reduction in greenhouse gas emissions, the Board necessarily took into account the statewide mandates and the reductions it anticipated they would produce in determining how much more would need to be accomplished through the regional strategies developed pursuant to Senate Bill 375. Conceivably, under Senate Bill 375 the Board could have set higher overall regional targets for additional emissions reductions that included assumptions about emissions already expected from Pavley and the Low Carbon Fuel Standard. But it also could have set lower overall regional targets for emissions reductions that did not factor in reductions expected from the statewide mandates. The choice of what target methodology would be the most efficacious in achieving the additional reductions called for by Senate Bill 375 was for the Board to decide, as Citizens acknowledges, and the statutory language Citizens cites neither suggests nor compels either approach. One can discern which approach the Board chose from the Board\u2019s own key documents, i.e., the Scoping Plan, as well as the reports and technical evaluations we will next discuss. The Board chose the second methodology\u2014one that instructed the regions not to assume reductions expected from the statewide mandates in measuring the reductions that would result from their regional strategies. This approach is entirely consistent with Senate Bill 375.\n2. The Board \u2019s Staff Reports on Setting the Emissions Reduction Targets\nIn 2010, as a part of the Board\u2019s development of the regional emissions reduction targets called for by Senate Bill 375, its staff prepared draft and final reports on \u201cProposed Regional Greenhouse Gas Emission Reduction Targets for Automobiles and Light Trucks Pursuant to Senate Bill 375.\u201d Both reports indicated the MPOs should develop regional land use and transportation strategies that would result in emissions reductions in addition to those expected from the statewide mandates.\nIn its draft report, the Board\u2019s staff summarized Senate Bill 375 as \u201ca mechanism to help further . . . sustainable [communities strategy] planning efforts. . . . [T]he [sustainable communities strategy] is a mechanism for more effectively linking a land use pattern and a transportation system together to make travel more efficient and communities more livable. The result is reduced greenhouse gas emissions from passenger vehicles along with other benefits.\u201d (Italics added.) In tables 1 and 2, which propose emissions reduction targets for all of the regions, the staff added footnotes that state, \u201cPercent reduction numbers do not include emission reductions expected from Pavley Greenhouse Gas Vehicle Standards and Low Carbon Fuel Standard measures.\u201d (Italics added.)\nCitizens points out that these footnotes were contained in the draft but not the final report. It contends, citing Long Beach Police Officers Assn. v. City of Long Beach (1988) 46 Cal.3d 736, 744-745 [250 Cal.Rptr. 869, 759 P.2d 504] (declining to interpret a statute in a way more consistent with a prior version of the statute than with its subsequently amended version), that, since these footnotes were not included in the final staff report\u2019s table of proposed 2020 and 2035 Board targets for the Bay Area, the Board impliedly rejected its staff\u2019s contention that the MPOs should exclude Pavley and the Low Carbon Fuel Standard in developing their emissions reduction strategies.\nWe disagree. The final report is different in form and content from the draft report in several ways. However, the Board staff continued to assert the MPOs should meet the Board\u2019s targets not by relying on the emissions reductions already expected from the statewide mandates, but rather by developing their own regional land use and transportation strategies. The staff stated, \u201c[Senate Bill] 375 provides MPOs the flexibility to develop a [sustainable communities strategy] tailored to regional needs. The targets can be achieved through any combination of land use patterns, transportation system improvements, and transportation-related measures or policies developed at the local and regional level.\u201d It began its discussion of the \u201cNature of 2020 Targets\u201d by asserting, \u201cSignificant change in land development patterns and transportation infrastructure takes time.\u201d The staff wrote about the challenge of the 2035 targets that, \u201c[w]hile significant changes in land use patterns and transportation infrastructure can be expected over the next 25 years, predicting the pace and nature of this change is challenging.\u201d\nMost importantly, the Board staff again stated the MPOs should strive to achieve emissions reductions beyond those expected from the statewide mandates. Specifically, the staff stated: \u201c[Board] staff is proposing per capita greenhouse gas reductions of 7 to 8 percent in 2020, and between 13 and 16 percent in 2035 for each of California\u2019s largest urban areas through regional land use and transportation strategies. These benefits are magnified when California\u2019s vehicle and fuels programs to reduce greenhouse gases are taken into account.\u201d (Italics added.) This leaves no doubt that the Board staff continued to expect the Agencies to meet the Board\u2019s targets using regional strategies without relying on the statewide mandates and their expected reductions. Citizens points to nothing indicating the Board disagreed with its staff on this critical point.\n3. The Board Staff\u2019s Technical Evaluations\nIn 2013 and 2014, after the Agencies had prepared Plan Bay Area, the Board\u2019s staff, as part of the Board\u2019s evaluation of whether Plan Bay Area\u2019s strategies would meet the Board\u2019s emissions reduction targets, prepared draft and final technical evaluations of the Agencies\u2019 greenhouse gas emissions reduction quantification. The Board indicated by its approval of these technical evaluations that the Agencies correctly did not include reductions from the statewide mandates in determining how to meet the Board\u2019s targets.\nThe Board staff asserted in its June 2013 draft technical evaluation that the Agencies had properly excluded reductions from the statewide mandates in determining how to reach the Board\u2019s emissions reduction targets. Citizens challenges the significance and validity of this assertion by first citing the draft evaluation\u2019s disclaimer that its contents reflect the views of the Board. But the disclaimer is simply this: \u201cThis report has been reviewed by the staff of the [Board] and approved for publication. Approval does not signify that the contents necessarily reflect the views and policies of the [Board].\u201d This language does not deny that the Board shares these views; it is neutral on the point. But other aspects of the record suggest that the Board likely did agree with its staff\u2019s view. Citizens does not contend that there was any debate or disagreement about any of the relevant parts of the draft evaluation and we are aware of none. Also, we see no indication of disagreement by any Board member with a Board specialist\u2019s statement at the Board hearing held shortly after preparation of the draft evaluation that the staff had reviewed the Agencies\u2019 emissions reductions methodology with a focus \u201con the accounting of greenhouse gas emission reductions as described in our July 2011 technical methodology paper.\u201d\nMost importantly, Citizens\u2019 argument that the Board may not have agreed with its staff is even weaker regarding the staff\u2019s final technical evaluation. The Agencies submitted Plan Bay Area to the Board for its final review pursuant to section 65080, subdivision (b)(2)(J)(ii). The staff\u2019s final technical evaluation of the Plan stated that the Agencies had \u201cappropriately not included in [their] greenhouse gas emissions reduction figures any [greenhouse gas] emissions reductions from the [Board]-adopted technology and fuel programs, such as the Low Carbon Fuel Standard or [Pavley] program. This is because the regional targets adopted by [the Board] in 2010 do not include reductions from these statewide technology and fuel programs, but rather focus on reductions from strategies implemented at the regional and local levels.\u201d (Italics added.)\nOn April 10, 2014, the Board issued Executive Order No. G-14-028, in which it accepted the Agencies\u2019 determinations that Plan Bay Area would meet the Board\u2019s targets. The Board attached to this executive order its staffs final technical evaluation, and indicated the evaluation was based on the Board\u2019s own technical methodology and a basis for its approval of the Agencies\u2019 sustainable communities strategy: \u201c[Board] staff performed a technical evaluation of the [sustainable communities strategy] in the draft Plan Bay Area based on [the Board\u2019s] technical methodology for evaluating a [sustainable communities strategy]\nCitizens points out that this final evaluation also contains the same disclaimer as the draft evaluation. But the disclaimer lost any force once the Board endorsed the evaluation in its April 2014 executive order. Citizens does not grapple with that endorsement. Citizens\u2019 suggestion that the Board did not or may not have agreed with its staff is untenable in light of it.\nCitizens also argues that, assuming the staff\u2019s technical evaluation represents the Board\u2019s view, the evaluation \u201ccannot direct this Court\u2019s interpretation of [Senate Bill] 375\u201d because \u201c[t]he California Administrative Procedure Act forbids agencies from enforcing rules, or interpretations of rules, that have not gone through a public notice and comment process.\u201d Citizens contends that the \u201ctechnical evaluation represents either a rule for how to interpret the regional targets or, alternatively, a rule to interpret [Senate Bill 375\u2019s] mandate that sustainable communities strategies meet the targets. Unless that interpretation is patently compelled by [Senate Bill 375], it is void as a matter of law\u201d as an improper \u201cunderground regulation.\u201d\nPursuant to the Administrative Procedure Act (APA; Gov. Code, \u00a7 11340 et seq.), \u201c[n]o state agency shall issue, utilize, enforce, or attempt to enforce any guideline, criterion, bulletin, manual, instruction, order, standard of general application, or other rule, which is a regulation as defined in [Government Code] Section 11342.600, unless the guideline, criterion, bulletin, manual, instruction, order, standard of general application, or other rule has been adopted as a regulation and filed with the Secretary of State pursuant to this chapter.\u201d (Id., \u00a7 11340.5, subd. (a).) A \u201cregulation\u201d is \u201cevery rule, regulation, order, or standard of general application or the amendment, supplement, or revision of any rule, regulation, order, or standard adopted by any state agency to implement, interpret, or make specific the law enforced or administered by it, or to govern its procedure.\u201d (Id., \u00a7 11342.600.)\nCitizens provides little explanation for why the Board staff\u2019s technical evaluation is an APA-governed regulation, and does not persuade us this is the case. But we need not engage in an extensive analysis of this issue. Citizens\u2019 \u201cunderground regulation\u201d argument is incorrect for two reasons.\nFirst, APA\u2019s rule-making provisions do not apply to \u201c[a] regulation that embodies the only legally tenable interpretation of a provision of law.\u201d (Gov. Code, \u00a7 11340.9, subd. (1).) As we have discussed, the only legally tenable interpretation of Senate Bill 375 is that it requires MPOs to develop regional land use and transportation strategies that result in emissions reductions that are in addition to the reductions expected from the statewide mandates. The technical evaluation is consistent with this interpretation.\nSecond, as we will discuss further below, under Citizens\u2019 own analysis, Senate Bill 375 gives the Board the broad discretion to set the regional emissions reduction targets by any metric it sees fit to use, subject only to certain specified requirements, including that the Board consider the statewide mandates in establishing these targets. Again, Citizens has not challenged the Board\u2019s method of setting regional emissions reduction targets or the targets themselves as inconsistent with Senate Bill 375\u2019s language or purpose. As we have discussed, the Board clearly intended the regions to meet these targets by reductions resulting from localized land use and transportation strategies that are in addition to the reductions expected from the statewide mandates. \u201c[I]it is well established that an agency\u2019s \u2018adoption of an interpretation consistent with the language and intention of a law and existing regulations as a prelude to enforcement does not require compliance with the APA.\u2019 \u201d (Bernard v. City of Oakland (2012) 202 Cal.App.4th 1553, 1566 [136 Cal.Rptr.3d 578].) The Board\u2019s technical evaluation did not constitute rule making for this reason as well.\n4. The Advisory Committee\u2019s Recommendations\nAs we have discussed, Senate Bill 375 requires the Board to establish an Advisory Committee, which is to make recommendations regarding the Board\u2019s regional targets. (See \u00a7 65080, subd. (b)(2)(A)(i).) The Board appointed an Advisory Committee, which issued a report entitled, Recommendations of the Regional Targets Advisory Committee (RTAC) Pursuant to Senate Bill 375. Citizens contends certain aspects of this report support its view that the Agencies should have considered the statewide mandates in determining how to meet the Board\u2019s Senate Bill 375 targets. We disagree.\nThe Advisory Committee recommended the development of a list of \u201cBest Management Practices\u201d and a related spreadsheet for stakeholders consisting of \u201cavailable land use and transportation policies and practices that will result in regional greenhouse gas reductions.\u201d Citizens cites a passage, in a section of the report entitled \u201cFlexibility in Achieving Targets,\u201d in which the Advisory Committee recommended \u201cthat [the Board] allow for flexibility to implement innovative land use and transportation strategies to help meet the targets. As such, it is appropriate for MPOs to use, with sufficient documentation, transportation sector greenhouse gas reductions that are not on the [Best Management Practices] list provided that sufficient evidence exists to reliably predict the magnitude of [greenhouse gas] reductions of their implementation. . . . Greenhouse gas reductions not related to the land use and transportation sectors should not be credited towards meeting of [Senate Bill] 375 targets.\u201d Notwithstanding the final sentence, Citizens argues this passage supports its view because \u201cthe Statewide Mandates are related to the transportation sector, as they concern vehicle efficiency and fuel composition.\u201d This argument ignores that the subject of this recommendation was the regions\u2019 implementation of transportation strategies to increase the use of public transit, and that such regional strategies are distinct from the statewide mandates.\nCitizens also points out that the Advisory Committee, in a section entitled, \u201cAccounting for Statewide Fuel and Vehicle Technology,\u201d recommended that the \u201c[Board] provide MPOs with information on the anticipated greenhouse gas emission reduction impacts of the adopted Pavley regulation and Low Carbon Fuel Standard.\u201d Citizens contends that \u201c[t]here would be no point to provide this information if, as the Agencies contend, this information must be ignored in meeting the targets.\u201d Citizens\u2019 contention is incorrect. As indicated by the other statewide measures we have discussed, such as the executive orders and Assembly Bill 32, the Board\u2019s Scoping Plan and the Agencies\u2019 CEQA analysis\u2014in particular their discussion of Criteria 1, 2 and 3\u2014the reductions called for by Senate Bill 375 were a part of a larger effort to significantly reduce greenhouse gas emissions in California by 2050. The Advisory Committee may have wanted to enable the Agencies to evaluate their regional emissions long term in the context of this larger effort.\nFinally, and perhaps most importantly, the Advisory Committee\u2019s recommendations were just that: recommendations. Senate Bill 375 requires the Board to consider these recommendations, but nothing in it indicates the Board is required to adopt them. Citizens points to nothing which indicates the Board was required to adopt, or adopted, Citizens\u2019 interpretation of the Advisory Committee\u2019s recommendations. Even if the Advisory Committee report supported Citizens\u2019 view, it would not be dispositive.\nIII.\nThe Board\u2019s Requirements for Its Regional Targets\nEven if we assume for the sake of argument that the Legislature did not intend by Senate Bill 375 that the MPOs must develop regional strategies resulting in emissions reductions that are in addition to those expected from the statewide mandates, the Board, as the agency charged with setting the Senate Bill 375 regional targets and developing the overall Scoping Plan, had the discretion to require the MPOs to do so.\nCitizens does not dispute that Senate Bill 375 gives the Board the broad discretion to set its emissions reduction targets. Indeed, Citizens asserts that Senate Bill 375 \u201cimposes no limitation on how to achieve the targets that the Board has established\u201d and that \u201cthe Legislature has made clear that the decision as to how to set the targets (and what to include within them) is left to the Board\u2019s discretion.\u201d This is correct in that, subject to the Board\u2019s consultation with the Advisory Committee and MPOs, and its consideration of other measures such as the statewide mandates, \u201cgreenhouse gas emission reduction targets may be expressed in gross tons, tons per capita, tons per household, or in any other metric deemed appropriate by the [Board].\u201d (\u00a7 65080, subd. (b)(2)(A)(v).) As demonstrated by the key documents discussed above, the Board indicated to the MPOs that they should develop regional strategies resulting in emissions reductions that are in addition to those expected from the statewide mandates. This is another reason to reject Citizens\u2019 appeal.\nPurthermore, the Legislature gave the Board broad discretion to determine through the Scoping Plan how to meet Assembly Bill 32\u2019s goals. As our colleagues in Division Three have concluded in analyzing Assembly Bill 32: \u201c[The Board] is explicitly directed by [Assembly Bill 32] to \u2018prepare and approve a scoping plan, as that term is understood by the [Board]: ([Health & Saf. Code,] \u00a7 38561, subd. (a), italics added.) . . . These directives are exceptionally broad and open-ended. They leave virtually all decisions to the discretion of the Board .... Determining the content of the scoping plan plainly falls on the \u2018deferential end of the continuum accorded quasi-legislative agency action\u2019 for which review under the arbitrary and capricious standard is appropriate.\u201d (Association of Irritated Residents v. State Air Resources Bd., supra, 206 Cal.App.4th at p. 1495.)\nAs we have discussed, the Board\u2019s Scoping Plan specifies three separate categories of emissions reductions that are relevant here, i.e., those expected from improved vehicle technology standards for the State developed by the Board (Pavley), from improved fuel composition standards for the State developed by the Board (the Low Carbon Fuel Standard), and from land use and transportation planning developed by each MPO to meet targets set by the Board (Sen. Bill 375). Citizens offers no reason why we should not defer to the Board\u2019s quasi-legislative decision in the Scoping Plan, and via its endorsement of its staffs proposed targets report and technical evaluation of Plan Bay Area, to adopt a targeting methodology that separates these categories and prohibits the MPOs from relying on reductions expected from the statewide mandates.\nIV.\nCitizens\u2019 Claims About the Adequacy of the Agencies\u2019 EIR Analysis\nCitizens argues the Agencies\u2019 environmental impact review in its EIRs frustrated CEQA\u2019s core purpose of informing decision makers and the public about the environmental impact of the choices before them because the Agencies relied \u201cthroughout ... on the assertion that [Senate Bill 375] and the targets forbid any consideration of the Statewide Mandates in assessing whether the targets will be met.\u201d Citizens states in its opening brief, \u201cEach of these claims depends solely on the proper interpretation of [Senate Bill] 375 and the targets; any facts on which they rely are undisputed. For example, . . . Citizens\u2019 contention that the EIR\u2019s analysis of the \u2018no project\u2019 alternative is defective is based on the undisputed fact that the analysis does not take into account the impacts of the Statewide Mandates when predicting what the world will look like if the Plan is not implemented. [Citation.] Similarly, . . . Citizens\u2019 contention that the EIR should have analyzed Citizens\u2019 alternative is based on the undisputed fact that the [Senate Bill] 375 targets will be met (thus fulfilling a basic Plan objective) if the Statewide Mandates are taken into account.\u201d\nAs we have discussed, Citizens\u2019 argument misinterprets the requirements of Senate Bill 375 and the Board. Therefore, each of its claims about the purported inadequacy of the Agencies\u2019 EIRs fails. We briefly review each of these claims.\nA. Citizens\u2019 Plan Objectives Claim\nCitizens asserts the Agencies failed to disclose and describe Plan Bay Area\u2019s basic objectives because it did not consider greenhouse gas emissions reductions resulting from the statewide mandates.\nUnder CEQA\u2019s regulations, an EIR\u2019s \u201cproject description\u201d must include a \u201cstatement of the objectives sought by the proposed project\u201d and \u201cinclude the underlying purpose of the project.\u201d (Cal. Code Regs., tit. 14, \u00a7 15124, subd. (b).) The project objectives guide the agency\u2019s selection of alternatives for analysis and approval. (Ibid. [\u201cA clearly written statement of objectives will help the lead agency develop a reasonable range of alternatives to evaluate in the EIR . . . .\u201d]; see also id., \u00a7 15126.6, subd. (c).)\nHere, the Agencies identified seven goals for Plan Bay Area as (1) climate protection, (2) adequate housing, (3) healthy and safe communities, (4) open space and agricultural preservation, (5) equitable access, (6) economic vitality, and (7) transportation system effectiveness. The Agencies stated these goals were reflected in its performance targets, which included \u201creducing] per-capita [carbon dioxide] emissions from cars and light-duty trucks by 15 percent\u201d from 2005 levels by year 2035 as required by Senate Bill 375, and that to achieve this 15 percent goal, Plan Bay Area would limit itself to consideration of the reductions achieved through the combined land use and transportation pattern, and not through the statewide mandates. The Agencies stated objectives that were sufficiently broad to enable them to discuss a reasonable range of alternatives to the plan, and the Agencies adequately disclosed the plan\u2019s goals to the public. Therefore, Citizens\u2019 \u201cobjectives\u201d argument, which is predicated on its misperception that the Agencies should have included reductions from the statewide mandates in determining how to meet the Board\u2019s Senate Bill 375 targets, is without merit.\nB. Citizens\u2019 Alternative Plans Claims\nCitizens also argues the Agencies\u2019 discussion of alternative plans was inadequate because it did not include consideration of Citizens\u2019 own proposed alternative plan, offered during the DEIR public comment period. Again, we disagree because, among other things, Citizens\u2019 proposed alternative was not feasible in light of the requirements of Senate Bill 375 and the Board.\n1. CEQA Law Regarding Alternatives\n\u201cThe core of an EIR is the mitigation and alternatives sections.\u201d (Citizens of Goleta Valley v. Board of Supervisors (1990) 52 Cal.3d 553, 564 [276 Cal.Rptr. 410, 801 P.2d 1161] (Goleta).) An alternatives analysis in an EIR is intended to facilitate consideration of whether an environmentally superior alternative could meet most project objectives; therefore, \u201cthe key to the selection of the range of alternatives is to identify alternatives that meet most of the project\u2019s objectives but have a reduced level of environmental impacts.\u201d (Watsonville Pilots Assn. v. City of Watsonville (2010) 183 Cal.App.4th 1059, 1089 [108 Cal.Rptr.3d 577]; see id. at pp. 1086-1088.) \u201cCEQA establishes no categorical legal imperative as to the scope of alternatives to be analyzed in an EIR. Each case must be evaluated on its facts, which in turn must be reviewed in light of the statutory purpose.\u201d (Goleta, at p. 566.)\n2. The No Project Alternative\nCihzens contends that the Agencies\u2019 analysis of the No Project alternative should have included consideration of greenhouse gas emissions reductions expected from the statewide mandates. Again, this is incorrect.\nThe purpose of the \u201c \u2018No [Pjroject\u2019 \u201d alternative is \u2018\u201cto allow decisionmak-ers to compare the impacts of approving the proposed project with the impacts of not approving the proposed project.\u201d (Cal. Code Regs., tit. 14, \u00a7 15126.6, subd. (e)(1).) CEQA requires the \u201c \u2018No [Pjroject\u2019 \u201d alternahve to \u2018\u201cdiscuss the existing conditions at the time the notice of preparation is published ... as well as what would be reasonably expected to occur in the foreseeable future if the project were not approved, based on current plans and consistent with available infrastructure and community services.\u201d (Cal. Code. Regs., tit. 14, \u00a7 15126.6, subd. (e)(2); see Woodward Park Homeowners Assn., Inc. v. City of Fresno (2007) 150 Cal.App.4th 683, 715 [58 Cal.Rptr.3d 102] [citing Cal. Code Regs., tit. 14, \u00a7 15126.6, subd. (e)(2)].)\nHere, the Agencies properly defined the No Project alternahve as a conhnuation of existing regional policy. Their EIR analysis showed this would result in less residential and employment density due to a greater share of regional growth being directed to locations outside of the Priority Development Areas that were at the center of the Agencies\u2019 sustainable communities strategy. As a result, the No Project alternative would result in less transit ridership, greater vehicle delay generally, and greater congested vehicle miles traveled per capita. Given the increase in vehicle miles traveled and decrease in transit use, it would not achieve the Board\u2019s emissions reduction targets. The Agencies also stated when the analysis of alternatives did not include consideration of reductions expected from the statewide mandates.\nCihzens does not explain why the Agencies\u2019 No Project alternahve approach was an abuse of discretion other than to argue, incorrectly, that it should have included reductions expected from the statewide mandates and that, if it did, it would be evident that the No Project alternative \u2018\u201cwould have met the targets without the Plan\u2019s dozens of significant and unavoidable environmental impacts.\u201d This argument fails for two reasons.\nFirst, as we have discussed, Senate Bill 375 and the Board required each MPO to develop regional land use and transportation strategies resulting in greenhouse gas emissions reductions. These reductions were to be in addition to reductions expected from the statewide mandates.\nSecond, the record indicates that the Agencies analyzed the plan, the No Project alternative and the other alternatives regarding, among other things, the possible environmental impacts under Criterion 2\u2014whether implementation of the Plan will \u201c[rjesult in a net increase in direct and indirect [greenhouse gas] emissions in 2040 when compared to existing conditions\u201d\u2014 and Criterion 3\u2014whether implementation of the plan would \u2018\u201c[substantially impede attainment of goals set forth in Executive Order S-3-05 and Executive Order B-16-2012.\u201d These analyses did include consideration of Pavley I and the Low Carbon Fuel Standard. Thus, the Agencies did not ignore anticipated emissions reductions due to statewide mandates in their EIR analysis of the plan and project alternatives.\nCitizens does not explain why this consideration of the statewide mandates was inadequate. The Agencies\u2019 consideration of the statewide mandates was entirely appropriate, given the requirements of Senate Bill 375 and the Board. This is especially so in view of the legal standard: \u201c \u2018 \u201c[A]n EIR need not include all information available on a subject\u201d ...[.] [All that is required is] sufficient information and analysis to enable the public to discern the analytical] route the agency traveled from evidence to action.\u2019 [Citation.] \u2018A project opponent or reviewing court can always imagine some additional study or analysis that might provide helpful information. It is not for them to design the EIR. That further study . . . might be helpful does not make it necessary.\u2019 \u201d (North Coast Rivers Alliance v. Marin Municipal Water Dist. Bd. of Directors (2013) 216 Cal.App.4th 614, 639-640 [157 Cal.Rptr.3d 240].)\nCitizens highlights that the EIR Criterion 2 analysis did not address Pavley II. As the trial court noted, the DEIR\u2019s Criterion 2 analysis, while it included estimates of the anticipated impact of Pavley I, did not include such estimates for Pavley II because of the limits of the available data, particularly given that Pavley II had not been approved until December 2012, which was not \u2018\u201cin time to be integrated into the modeling tools used for the analysis.\u201d\nCitizens argues that the Agencies had \u201cmore than a year\u201d after Pavley II was adopted (apparently referring to the period between Pavley II\u2019s final approval and the Board\u2019s acceptance of Plan Bay Area) \u201cto develop some estimate of their effects, and therefore had a duty to make at least a tentative estimate of their impacts.\u201d It cites Citizens for East Shore Parks v. California State Lands Com. (2011) 202 Cal.App.4th 549, 563 [136 Cal.Rptr.3d 162] (rejecting a challenge to an agency\u2019s revised baseline because \u201c[a]dministra-tive agencies not only can, but should, make appropriate adjustments ... as the environmental review process unfolds\u201d) and Mira-Monte Homeowners Assn. v. County of Ventura (1985) 165 Cal.App.3d 357, 364-366 [212 Cal.Rptr. 127] (setting aside certification of EIR that did not identify environmental effects of subdivision street\u2019s encroachment into a newly discovered wetlands area).\nThe cases Citizens cites are inapposite in that they involved core aspects of the subject projects under review, whereas here, the Agencies\u2019 consideration of Pavley and the Low Carbon Fuel Standard, far from being a core aspect of Plan Bay Area, was legally irrelevant to meeting the Board\u2019s Senate Bill 375 targets. Further, Pavley II was finally adopted in December 2012, just four months before the DEIR and seven months before the FEIR, and Citizens does not establish that it was feasible for the Agencies to build a model during this time that considered Pavley II\u2019s impact given the data available to them. Under these circumstances, we agree with the Agencies that they were not required to consider Pavley II. (See Cal. Code Regs., tit. 14, \u00a7 15204, subd. (a) [\u201cCEQA does not require a lead agency to conduct every test or perform all research, study, and experimentation recommended or demanded by commentors\u201d]; Rialto Citizens for Responsible Growth v. City of Rialto (2012) 208 Cal.App.4th 899, 937 [146 Cal.Rptr.3d 12] [\u201cAn EIR is required to evaluate a particular environmental impact only to the extent it is \u2018reasonably feasible\u2019 to do so\u201d].)\nIn short, Citizens does not establish that the Agencies\u2019 treatment of the No Project alternative was an abuse of discretion.\n3. Citizens\u2019 Proposed Alternative Plan\nWe next turn to Citizens\u2019 arguments about its proposed alternative plan. \u201cAn EIR need not consider every conceivable alternative but must consider a range of alternatives sufficient to permit the agency to evaluate the project and make an informed decision, and to meaningfully inform the public.\u201d (Federation of Hillside & Canyon Associations v. City of Los Angeles (2000) 83 Cal.App.4th 1252, 1264 [100 Cal.Rptr.2d 301].) It is sufficient if it provides enough information to allow comparison of the project with a reasonable choice of alternatives. (Ibid.) \u201cIn determining the nature and scope of alternatives to be examined in an EIR, the Legislature has decreed that local agencies shall be guided by the doctrine of \u2018feasibility.\u2019 \u2018[I]t is the policy of the state that public agencies should not approve projects as proposed if there are feasible alternatives or feasible mitigation measures available which would substantially lessen the significant environmental effects of such projects .... [I]n the event specific economic, social, or other conditions make infeasible such project alternatives or such mitigation measures, individual projects may be approved in spite of one or more significant effects thereof.\u2019 (Pub. Resources Code, \u00a7 21002, italics added.)\u201d (Goleta, supra, 52 Cal.3d at p. 565.)\nAn EIR need not examine \u2018\u201calternatives that are so speculative, contrary to law, or economically catastrophic as to exceed the realm of feasibility.\u201d (Save San Francisco Bay Assn. v. San Francisco Bay Conservation etc. Com. (1992) 10 Cal.App.4th 908, 922 [13 Cal.Rptr.2d 117].) \u2018\u201cThe Legislature has defined \u2018feasible,\u2019 for purposes of CEQA review, as \u2018capable of being accomplished in a successful manner within a reasonable period of time, taking into account economic, environmental, social, and technological factors.\u2019 (Pub. Resources Code, \u00a7 21061.1; [Cal. Code Regs., tit. 14], \u00a7 15364 . . . ,)[] Both the California and the federal courts have further declared that \u2018[t]he statutory requirements for consideration of alternatives must be judged against a rule of reason.\u2019 \u201d (Goleta, supra, 52 Cal.3d at p. 565, citations omitted.) We uphold an agency\u2019s selection of alternatives unless it is \u201cmanifestly unreasonable\u201d or inclusion of an alternative does not \u201c[contribute to] a reasonable range of alternatives\u201d (ibid.).\nThe Agencies included the No Project alternative and three other alternatives besides Plan Bay Area. Compared to Plan Bay Area, the \u201cTransit Priority Focus\u201d alternative had the potential for more efficient land uses in transit priority project areas (as defined in Pub. Resources Code, \u00a7 21155), which would be developed at higher densities than existing conditions to support high quality transit. The \u201cEnhanced Network of Communities\u201d alternative sought to provide sufficient housing for all people employed in the Bay Area with no increase in the rate of in-commuting from other areas, and allowed for a more dispersed growth pattern than the Plan Bay Area. The \u201cEnvironment, Equity, and Jobs\u201d alternative sought to maximize affordable housing in both urban and suburban areas through incentives and housing subsidies. None of these alternatives relied on the statewide mandates for emissions reductions.\nCitizens first insists that the FEIR should have analyzed its proposed alternative, the \u201cBay Area Citizens Transportation and Housing Alternative,\u201d even though this alternative relied heavily on greenhouse gas emissions reductions expected from the statewide mandates. As we have discussed, reliance on emissions reductions expected from the statewide mandates as a means of meeting the Board\u2019s Senate Bill 375 targets does not comply with Senate Bill 375 nor the Board\u2019s requirements. For this reason, Citizens\u2019 alternative was not feasible and the Agencies were not required to consider it. (See Cal. Code Regs., tit. 14, \u00a7 15126.6, subd. (f)(1) [among the factors to be taken into account in devising a range of alternatives are \u201cregulatory limitations\u201d]; In re Bay-Delta etc. (2008) 43 Cal.4th 1143, 1163 [77 Cal.Rptr.3d 578, 184 P.3d 709] [agencies may eliminate from consideration alternatives that would not \u201c \u2018feasibly attain most of the basic objectives of the project\u2019 \u201d].)\nCitizens further contends that, without consideration of its alternative, the Agencies \u201cotherwise failed to consider any alternative that could meet the Plan\u2019s basic objectives and yet still avoid all the significant environmental impacts attributable to the Plan\u2019s high-density land-use vision, including increased particulate matter emissions and other toxic air contaminants, noise pollution from construction and transit, displacement of a substantial number of residents and businesses, loss of forests, and modification of habitat for protected species.\u201d We disagree. An agency\u2019s selection of alternatives must be upheld unless \u201c \u2018the alternatives are manifestly unreasonable\u2019 \u201d or inclusion of an alternative does not \u201c \u2018contribute to a reasonable range of alternatives.\u2019 \u201d (California Native Plant Society v. City of Santa Cruz, supra, 177 Cal.App.4th at p. 988.) Citizens does not establish that either was the case here. The trial court found that the FEIR \u201cconsidered a reasonable range of alternatives, proposed by a reasonable cross-section of advocacy groups.\u201d It also found that \u201c[i]n the context of evaluating the other alternatives, the [Agencies] considered many of the aspects of the [Citizens] Alternative. In the early stages of the EIR process the [Agencies\u2019] Ad Hoc Committee on Performance Measures considered that the \u2018[ijocus should be on \u201coutput\u201d, not \u201cinput\u201d targets, consistent with the similar recommendation of [Citizens\u2019] Alternative. Both [the Citizens] Alternative and the Environment, Equity, and Jobs Alternative involved the expansion and improvement of bus lines and subsidizing that form of public transit. Both [the Citizens] Alternative and the Enhanced Network of Communities Alternative involved . . . more housing in all parts of the Bay Area.\u201d We agree with the trial court that Citizens has failed to establish that the Agencies abused their discretion regarding their consideration of Citizens\u2019 alternative plan, or any other alternative.\n4. Citizens\u2019 Comments\nNext, Citizens contends the Agencies did not adequately consider and respond to comments it made during the public comment period on the DEIR. Citizens again relies on its misinterpretation of the requirements of Senate Bill 375 and the Board.\nCEQA requires an agency to prepare written responses to comments on a DEIR describing \u201cthe disposition of each significant environmental issue that is raised by commenters.\u201d (Pub. Resources Code, \u00a7 21091, subd. (d)(2)(B); see Cal. Code Regs., tit. 14, \u00a7 15088, subd. (c).) If the agency rejects a recommendation, it must explain why in its written response. (Cal. Code Regs., tit. 14, \u00a7 15088, subd. (c).)\nHere, Citizens argues that it \u201caddressed major environmental issues in [its] comments, arguing among other things that [its] proposed alternative is superior to [Plan Bay Area] because it meets the targets without the Plan\u2019s dozens of significant and unavoidable environmental impacts. But because the Agencies misinterpreted Senate Bill 375 and the targets so as to foreclose any consideration of the Statewide Mandates, they necessarily failed to adequately consider and respond to the Citizens\u2019 comments.\u201d Again, the Agencies did not misinterpret Senate Bill 375 or the Board\u2019s requirements. Citizens thus fails to establish an abuse of discretion regarding the Agencies\u2019 treatment of its public comments.\nV.\nThe General Sufficiency of the Agencies\u2019 CEQA Review\nWe also affirm the trial court\u2019s judgment based on a ground separate and independent from our conclusions about Senate Bill 375\u2019s purpose and the Board\u2019s targets. As the Attorney General argues in her anticus curiae brief, while Citizens ostensibly challenges the Agencies\u2019 CEQA methodology for failing to sufficiently consider the statewide mandates, the fact is that the Agencies in their EIRs provided sufficient disclosures about their methodologies, where they did and did not consider the statewide mandates, the environmental impacts of Plan Bay Area, project alternatives and more. Citizens does not explain why under these circumstances the Agencies were required to further discuss the statewide mandates in order to comply with CEQA. We agree with the Attorney General that Citizens\u2019 arguments amount to a substantive attack on the wisdom of Plan Bay Area itself.\nAccording to Citizens, if the Agencies had included greenhouse gas emissions reductions from Pavley and the Low Carbon Fuel Standard in their environmental analysis, the public and the Agencies would have been informed that the Plan\u2019s Priority Development Area-focused land use and transportation strategies would not be necessary to achieve Senate Bill 375\u2019s targets. Instead, Citizens contends, the Agencies \u201ccrafted a Plan for the Bay Area that . . . entirely ignores all expected greenhouse gas reductions attributable to various statewide emission reduction programs.\u201d\nAs we have discussed, Citizens is mistaken; the Agencies did not entirely ignore all expected greenhouse gas reductions attributable to the statewide mandates, and made clear in their EIR analyses where they did and did not consider these mandates. This belies Citizens\u2019 claim that the Agencies\u2019 EIRs failed to satisfy \u201cCEQA\u2019s core purpose of promoting informed public decision-making.\u201d For example, as we have discussed, the Agencies\u2019 EIRs took into account reductions from Pavley I and the Low Carbon Fuel Standard in evaluating Plan Bay Area and the project alternatives under Criterion 2 and Criterion 3. Further, as Citizens states in its opening brief, the FEIR stated that, \u2018\u201chad statewide greenhouse-gas-reduction policies been taken into account, the Plan \u2018could have simply stated that the Bay Area meets its emissions reduction targets solely through statewide clean technology initiatives.\u2019 \u201d\nCitizens essentially argues that the Agencies violated CEQA by adopting a plan that did more than the minimum necessary to meet their Senate Bill 375 targets. However, an objection to the substantive choice a lead agency makes in approving a project is not a legitimate basis for a CEQA lawsuit. (See, e.g., Eureka Citizens for Responsible Government v. City of Eureka (2007) 147 Cal.App.4th 357, 378 [54 Cal.Rptr.3d 485] [\u2018\u2018[o]ur role ... is not to decide whether the City acted wisely or unwisely, but simply to determine whether the EIR contained sufficient information about a proposed project . . . and the projected environmental impacts ... to allow for an informed decision\u201d].) Given that the EIRs provided the Agencies and the public with sufficient information on the greenhouse gas emissions impacts from Plan Bay Area, the wisdom of the Agencies\u2019 choice in adopting this Plan cannot be challenged under CEQA. \u2018\u201cAn EIR should be prepared with a sufficient degree of analysis to provide decisionmakers with information which enables them to make a decision which intelligently takes account of environmental consequences. An evaluation of the environmental effects of a proposed project need not be exhaustive, but the sufficiency of an EIR is to be reviewed in the light of what is reasonably feasible. Disagreement among experts does not make an EIR inadequate, but the EIR should summarize the main points of disagreement among the experts. The courts have looked not for perfection but for adequacy, completeness, and a good faith effort at full disclosure.\u201d (Cal. Code Regs., tit. 14, \u00a7 15151; see Laurel Heights Improvement Assn. v. Regents of the University of California, supra, 47 Cal.3d at p. 406 [stating regarding the discussion of project alternatives, \u201c \u2018Absolute perfection is not required; what is required is the production of information sufficient to permit a reasonable choice of alternatives so far as environmental aspects are concerned\u2019 \u201d].)\nCitizens does not establish that the Agencies failed to meet this CEQA standard, regardless of whether Senate Bill 375 or the Board prohibited them from counting emissions reductions expected from the statewide mandates in determining how to meet the Senate Bill 375 targets. We agree with the Attorney General that, while Citizens \u201cmay think it is unwise to take an ambitious approach to reducing greenhouse gas emissions through regional and local efforts, rather than relying primarily on projected reductions expected from statewide measures,\u201d nonetheless \u201cthat disagreement is not the basis of a CEQA challenge when the Agencies conducted appropriate analy-ses and disclosed them in the EIR.\u201d\nDISPOSITION\nThe judgment is affirmed. Respondents are awarded costs of appeal.\nKline, P. J., and Richman, J., concurred.\nCalifornia Building Industry Assn. v. Bay Area Air Quality Management Dist. (2015) 62 Cal.4th 369, 379, footnote 4 [196 Cal.Rptr.3d 94, 362 P.3d 792]; Statutes 2008, chapter 728, page 5065.\nMPOs also develop these plans to meet federal transportation planning guidelines. (See 23 C.F.R. \u00a7\u00a7 450.308, 450.322 (2016).)\nThe Pavley legislation and regulations went into effect at different times. For the sake of convenience, we refer to each and all of these as Pavley unless otherwise noted.\nIn the Scoping Plan, the Board sometimes refers to greenhouse gases in million metric tons of carbon dioxide equivalent or MMTCO2E.\nSenate Bill 375 provides: \u201cIn recommending factors to be considered and methodologies to be used, the advisory committee may consider any relevant issues, including, but not limited to, data needs, modeling techniques, growth forecasts, the impacts of regional jobs-housing balance on interregional travel and greenhouse gas emissions, economic and demographic trends, the magnitude of greenhouse gas reduction benefits from a variety of land use and transportation strategies, and appropriate methods to describe regional targets and to monitor performance in attaining those targets.\u201d (\u00a7 65080, subd. (b)(2)(A)(i).)\nFor the Bay Area region. Senate Bill 375 makes ABAG responsible for the development of the first and second of these strategies, MTC responsible for development of the third, and ABAG and MTC together responsible for development of the fourth. (\u00a7 65080, subd. (b)(2)(C)(i).)\nAccording to the Board staff\u2019s August 9, 2010 final report on proposed Senate Bill 375 regional targets, the Advisory Committee recommended the year 2005 be used as a base year \u201cbecause it was the most recent year that could be used uniformly for all MPOs.\u201d\nThese percentages were later revised in the final environmental impact report (FEIR) to 10.4 and 16.2 respectively.\nThe DEIR also found that Plan Bay Area would have a potentially adverse impact if it:\n\u201cCriterion 4: Substantially conflict[ed] with any other applicable plan, policy or regulation adopted for the purpose of reducing the emissions of [greenhouse gases.]\n\u201cCriterion 5: Resulted] in a net increase in transportation investments within areas regularly inundated by sea level rise by midcentury.\n\u201cCriterion 6: Resultfed] in a net increase in the number of people residing within areas regularly inundated by sea level rise by midcentury.\n\u201cCriterion 7: Resultfed] in an increase in land use development within areas regularly inundated by sea level rise by midcentury.\u201d\nThe Criterion 2 analysis did not include the anticipated impact of Pavley II because of the limits of the available data, as Pavley II was not approved \u201cin time to be integrated into the modeling tools used for the analysis.\u201d\nA lead agency conducting a CEQA review may, \u201cto the extent significant impacts remain after mitigation, . . . still approve the project with a statement of overriding considerations. ([Pub. Resources Code, ]\u00a7\u00a7 21002, 21002.1, subd. (b), 21081; [Cal. Code\u201d Regs., tit. 14], \u00a7\u00a7 15091, 15093, 15126.6.)\"\u2019 (Center for Biological Diversity v. Department of Fish & Wildlife, supra, 62 Cal.4th at p. 231.)\nAgain, Senate Bill 375, section 1, subdivision (c) states: \u201cGreenhouse gas emissions from automobiles and light trucks can be substantially reduced by new vehicle technology and by the increased use of low carbon fuel. However, even taking these measures into account, it will be necessary to achieve significant additional greenhouse gas reductions from changed land use patterns and improved transportation. Without improved land use and transportation policy, California will not be able to achieve the goals of AB 32.\u201d (Stats. 2008, ch. 728, \u00a7 1, subd. (c), p. 5065.)\nThe trial court pointed out that the Agencies did not reject Citizens\u2019 alternative because it was infeasible, as this was not apparent from Citizens\u2019 administrative submission.\nThe record indicates the Agencies were presented with significant, credible research and analysis in determining the environmental benefits of transit-oriented growth in adopting Plan Bay Area. Further, their' Criterion 2 analysis considered all direct and indirect greenhouse gas emissions expected to occur under Plan Bay Area, including transit emissions, and concluded emissions would decrease overall.\nThis last line was the Board\u2019s preliminary estimate of the greenhouse gas emissions reductions it anticipated would result from implementation of Senate Bill 375. In a footnote to the line, the Board stated: \u201cThis number represents an estimate of what may be achieved from local land use changes. It is not the SB 375 regional target. [The Board] will establish regional targets for each Metropolitan Planning Organization (MPO) region following the input of the Regional Targets Advisory Committee and a public consultation process with MPOs and other stakeholders per SB 375.\u201d\nAnd again, while it is largely beside the point, the argument is unpersuasive because it fails to explain why targets for regional emissions reductions determined by reference to a fixed baseline\u2014in this case 2005 emissions\u2014are inconsistent with statewide mandates. Indeed, the Agencies determined that Plan Bay Area was consistent with the statewide goals and mandates.\nThe definition of \u201cfeasible\u201d for Senate Bill 375 is virtually the same. (See Gov. Code, \u00a7 65080.01, subd. (c).)\nAs we have discussed, the trial court noted that the Agencies did not also reject Citizens\u2019 alternative plan in its FEIR response on the ground of infeasibility because Citizens\u2019 administrative submission did not make it apparent that Citizens\u2019 alternative plan relied on the statewide mandates. We see no reason why this should affect our legal analysis. The Agencies did argue in their' briefing below that they were not required to consider Citizens\u2019 alternative plan because it did not comply with Senate Bill 375 given its reliance on Pavley and the Low Carbon Fuel Standard and, therefore, that it was legally infeasible.",
+        "type": "majority",
+        "author": "STEWART, J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Foley & Lardner, Michael E. Delehunt; Pacific Legal Foundation, M. Reed Hopper, John M. Groen and Jonathan Wood for Plaintiff and Appellant.",
+      "Thomas Law Group, Tina A. Thomas, Ashle T. Crocker, Amy R. Higuera; Association of Bay Area Governments, Kenneth K. Moy; Metropolitan Transportation Commision and Adrienne D. Weil for Defendants and Respondents.",
+      "Kamala D. Harris, Attorney General, Mark J. Breckler, Chief Assistant Attorney General, Sally Magnani, Assistant Attorney General, and Timothy E. Sullivan, Deputy Attorney General, as Amicus Curiae on behalf of Defendants and Respondents."
+    ],
+    "corrections": "",
+    "head_matter": "[No. A143058.\nFirst Dist., Div. Two.\nJune 30, 2016.]\nBAY AREA CITIZENS, Plaintiff and Appellant, v. ASSOCIATION OF BAY AREA GOVERNMENTS et al., Defendants and Respondents.\nCounsel\nFoley & Lardner, Michael E. Delehunt; Pacific Legal Foundation, M. Reed Hopper, John M. Groen and Jonathan Wood for Plaintiff and Appellant.\nThomas Law Group, Tina A. Thomas, Ashle T. Crocker, Amy R. Higuera; Association of Bay Area Governments, Kenneth K. Moy; Metropolitan Transportation Commision and Adrienne D. Weil for Defendants and Respondents.\nKamala D. Harris, Attorney General, Mark J. Breckler, Chief Assistant Attorney General, Sally Magnani, Assistant Attorney General, and Timothy E. Sullivan, Deputy Attorney General, as Amicus Curiae on behalf of Defendants and Respondents."
+  },
+  "file_name": "0966-01",
+  "first_page_order": 868,
+  "last_page_order": 924
+}

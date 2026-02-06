@@ -1,0 +1,59 @@
+{
+  "id": 12431259,
+  "name": "Chavez-Ibarra v. United States",
+  "name_abbreviation": "Chavez-Ibarra v. United States",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-7909",
+  "first_page": "1176",
+  "last_page": "1176",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1176"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 79,
+    "ocr_confidence": 0.693,
+    "sha256": "28ea7b46e110f164851aaa23e0660d28132f9c79c91a1011ca522c52c778c144",
+    "simhash": "1:04a8d3820984157f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Chavez-Ibarra v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7909.\nChavez-Ibarra v. United States."
+  },
+  "file_name": "1176-16",
+  "first_page_order": 1252,
+  "last_page_order": 1252
+}

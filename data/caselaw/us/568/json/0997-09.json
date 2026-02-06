@@ -1,0 +1,59 @@
+{
+  "id": 12421739,
+  "name": "In re Hanson et ux.",
+  "name_abbreviation": "In re Hanson",
+  "decision_date": "2012-11-05",
+  "docket_number": "No. 12-5473",
+  "first_page": "997",
+  "last_page": "997",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 997"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 90,
+    "ocr_confidence": 0.647,
+    "sha256": "a3b53e3e519a3ffa22769ebd125e2572e7aec87216d55db2a6261dae4db5eba5",
+    "simhash": "1:ea56427eac3a8c1a",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Hanson et ux."
+    ],
+    "opinions": [
+      {
+        "text": "Petition for writ of mandamus and/or prohibition denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5473.\nIn re Hanson et ux."
+  },
+  "file_name": "0997-09",
+  "first_page_order": 1073,
+  "last_page_order": 1073
+}

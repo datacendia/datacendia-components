@@ -1,0 +1,59 @@
+{
+  "id": 12421758,
+  "name": "Morrison v. Alabama",
+  "name_abbreviation": "Morrison v. Alabama",
+  "decision_date": "2012-11-05",
+  "docket_number": "No. 12-194",
+  "first_page": "998",
+  "last_page": "998",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 998"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 72,
+    "ocr_confidence": 0.687,
+    "sha256": "cc9b3dca66dba0515a238bbdc733cb04f38eddeda169449fb6cf88a0fee00edf",
+    "simhash": "1:0632095711a483b4",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Morrison v. Alabama."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Ala. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-194.\nMorrison v. Alabama."
+  },
+  "file_name": "0998-02",
+  "first_page_order": 1074,
+  "last_page_order": 1074
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12245177,
+  "name": "Kendrick v. United States",
+  "name_abbreviation": "Kendrick v. United States",
+  "decision_date": "2012-01-23",
+  "docket_number": "No. 11-8000",
+  "first_page": "1184",
+  "last_page": "1184",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1184"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.633,
+    "sha256": "b101e43b657299d72e03853ed2c606c7b0b7944920cebd9b5c93c4775774d86a",
+    "simhash": "1:074bc589cf9dd02a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Kendrick v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8000.\nKendrick v. United States."
+  },
+  "file_name": "1184-14",
+  "first_page_order": 1266,
+  "last_page_order": 1266
+}

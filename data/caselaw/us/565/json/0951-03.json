@@ -1,0 +1,59 @@
+{
+  "id": 12227833,
+  "name": "Montague v. Sexton, Warden",
+  "name_abbreviation": "Montague v. Sexton",
+  "decision_date": "2011-10-11",
+  "docket_number": "No. 11-5772",
+  "first_page": "951",
+  "last_page": "951",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 951"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.681,
+    "sha256": "8b5199f0fded4f007386c775124d7776da7ab668f12c20b1a5821edc7c7f9d6e",
+    "simhash": "1:bba81280ab7d18e5",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Montague v. Sexton, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5772.\nMontague v. Sexton, Warden."
+  },
+  "file_name": "0951-03",
+  "first_page_order": 1033,
+  "last_page_order": 1033
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12414888,
+  "name": "Matthews v. Pennsylvania",
+  "name_abbreviation": "Matthews v. Pennsylvania",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-11139",
+  "first_page": "881",
+  "last_page": "881",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 881"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 74,
+    "ocr_confidence": 0.696,
+    "sha256": "effb3aae74859186465403b20e067a626a37b5dcc43f199ac81d7846c7155df5",
+    "simhash": "1:6f6e0ef0b3e89cd0",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Matthews v. Pennsylvania."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. Pa. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-11139.\nMatthews v. Pennsylvania."
+  },
+  "file_name": "0881-09",
+  "first_page_order": 957,
+  "last_page_order": 957
+}

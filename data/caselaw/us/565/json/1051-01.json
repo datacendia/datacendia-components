@@ -1,0 +1,82 @@
+{
+  "id": 12234671,
+  "name": "Curto v. Smith et al.",
+  "name_abbreviation": "Curto v. Smith",
+  "decision_date": "2011-11-28",
+  "docket_number": "No. 11-6476",
+  "first_page": "1051",
+  "last_page": "1051",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1051"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "506 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11924825
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/506/0001-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 71,
+    "char_count": 528,
+    "ocr_confidence": 0.624,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.24765285543674553
+    },
+    "sha256": "0ddedd156be76aa3e35dc4dd41d6db1336155d297e68bbd90d1f8c2bcbbfaa62",
+    "simhash": "1:6d623c8c0505d77f",
+    "word_count": 90
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Curto v. Smith et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Motion of petitioner for leave to proceed in forma pauperis denied, and certiorari dismissed. See this Court\u2019s Rule 39.8. As petitioner has repeatedly abused this Court\u2019s process, the Clerk is directed not to accept any further petitions in noncriminal matters from petitioner unless the docketing fee required by Rule 38(a) is paid and the petition is submitted in compliance with Rule 33.1. See Martin v. District of Columbia Court of Appeals, 506 U. S. 1 (1992) (per curiam).",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6476.\nCurto v. Smith et al."
+  },
+  "file_name": "1051-01",
+  "first_page_order": 1133,
+  "last_page_order": 1133
+}

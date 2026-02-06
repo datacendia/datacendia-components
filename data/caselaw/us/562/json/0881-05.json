@@ -1,0 +1,59 @@
+{
+  "id": 6022674,
+  "name": "Hamm v. Kentucky",
+  "name_abbreviation": "Hamm v. Kentucky",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11447",
+  "first_page": "881",
+  "last_page": "881",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 881"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 64,
+    "ocr_confidence": 0.631,
+    "sha256": "6f595217c13545d552d108ae7a47a94689e162ea3a60e8da899f5080b0990b51",
+    "simhash": "1:d6bfbc9d7eecd0ba",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hamm v. Kentucky."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ky. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11447.\nHamm v. Kentucky."
+  },
+  "file_name": "0881-05",
+  "first_page_order": 903,
+  "last_page_order": 903
+}

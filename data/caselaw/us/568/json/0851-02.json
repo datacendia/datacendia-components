@@ -1,0 +1,59 @@
+{
+  "id": 12413447,
+  "name": "Jones v. Tucker, Secretary, Florida Department of Corrections, et al.",
+  "name_abbreviation": "Jones v. Tucker",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10594",
+  "first_page": "851",
+  "last_page": "851",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 851"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 18,
+    "char_count": 120,
+    "ocr_confidence": 0.617,
+    "sha256": "2a0bef680da2071f232705e023d6950a0be7a2bc2e6841b050409639abb1802d",
+    "simhash": "1:146948ea8543b1f9",
+    "word_count": 18
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jones v. Tucker, Secretary, Florida Department of Corrections, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10594.\nJones v. Tucker, Secretary, Florida Department of Corrections, et al."
+  },
+  "file_name": "0851-02",
+  "first_page_order": 927,
+  "last_page_order": 927
+}

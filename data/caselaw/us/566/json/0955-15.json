@@ -1,0 +1,59 @@
+{
+  "id": 12208863,
+  "name": "Okun v. United States",
+  "name_abbreviation": "Okun v. United States",
+  "decision_date": "2012-04-16",
+  "docket_number": "No. 11-9381",
+  "first_page": "955",
+  "last_page": "955",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 955"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.606,
+    "sha256": "91a91c122808565093ff3596a69b8a7cf4a104a0560cd8b2ab973aa241612dc4",
+    "simhash": "1:218a9a53ce85d118",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Okun v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9381.\nOkun v. United States."
+  },
+  "file_name": "0955-15",
+  "first_page_order": 831,
+  "last_page_order": 831
+}

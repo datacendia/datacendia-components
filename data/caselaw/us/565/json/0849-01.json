@@ -1,0 +1,59 @@
+{
+  "id": 12205505,
+  "name": "Watson v. United States",
+  "name_abbreviation": "Watson v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10774",
+  "first_page": "849",
+  "last_page": "849",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 849"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.682,
+    "sha256": "56e12838ca7b1b3e15699a578eaef0780221968e08ea27e4c8c023406e23617e",
+    "simhash": "1:5223e0036da7550e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Watson v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10774.\nWatson v. United States."
+  },
+  "file_name": "0849-01",
+  "first_page_order": 931,
+  "last_page_order": 931
+}

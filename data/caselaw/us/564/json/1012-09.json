@@ -1,0 +1,59 @@
+{
+  "id": 4335472,
+  "name": "N-Jie v. United States",
+  "name_abbreviation": "N-Jie v. United States",
+  "decision_date": "2011-06-13",
+  "docket_number": "No. 10-10524",
+  "first_page": "1012",
+  "last_page": "1012",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1012"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.575,
+    "sha256": "f77d73761eceff1620be5764048aa57ecc1cc25e28158584a0353450ef386007",
+    "simhash": "1:21ea9acdcaa5d159",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "N-Jie v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10524.\nN-Jie v. United States."
+  },
+  "file_name": "1012-09",
+  "first_page_order": 1006,
+  "last_page_order": 1006
+}

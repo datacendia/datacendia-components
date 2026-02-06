@@ -1,0 +1,59 @@
+{
+  "id": 12419674,
+  "name": "Ciacci v. Hawaii",
+  "name_abbreviation": "Ciacci v. Hawaii",
+  "decision_date": "2012-10-15",
+  "docket_number": "No. 12-6042",
+  "first_page": "967",
+  "last_page": "967",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 967"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 65,
+    "ocr_confidence": 0.646,
+    "sha256": "6ef67a66d806aac8a56d0f4c760f3f809a5da50089ada34c2d23868c12d11d1f",
+    "simhash": "1:54d300a12f850140",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ciacci v. Hawaii."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6042.\nCiacci v. Hawaii."
+  },
+  "file_name": "0967-12",
+  "first_page_order": 1043,
+  "last_page_order": 1043
+}

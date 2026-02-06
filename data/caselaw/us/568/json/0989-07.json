@@ -1,0 +1,59 @@
+{
+  "id": 12421022,
+  "name": "Mumpower v. United States",
+  "name_abbreviation": "Mumpower v. United States",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 12-6317",
+  "first_page": "989",
+  "last_page": "989",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 989"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.706,
+    "sha256": "d811377deed5d73448dedfb48a445f8504364ab2097df99b4d2da1066bb71cb0",
+    "simhash": "1:1769cb63e7adb018",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mumpower v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6317.\nMumpower v. United States."
+  },
+  "file_name": "0989-07",
+  "first_page_order": 1065,
+  "last_page_order": 1065
+}

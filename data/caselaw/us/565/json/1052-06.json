@@ -1,0 +1,59 @@
+{
+  "id": 12234715,
+  "name": "In re Discipline of Lucas",
+  "name_abbreviation": "In re Discipline of Lucas",
+  "decision_date": "2011-11-28",
+  "docket_number": "No. D-2606",
+  "first_page": "1052",
+  "last_page": "1052",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1052"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 39,
+    "char_count": 275,
+    "ocr_confidence": 0.658,
+    "sha256": "74a3feb3389d6cfcb7a961c7536cf577de5f1a9ff0bc07b68d669a8dd46e621a",
+    "simhash": "1:668223b6bdfea72a",
+    "word_count": 51
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of Lucas."
+    ],
+    "opinions": [
+      {
+        "text": "Timothy John Lucas, of Erie, Pa., is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2606.\nIn re Discipline of Lucas."
+  },
+  "file_name": "1052-06",
+  "first_page_order": 1134,
+  "last_page_order": 1134
+}

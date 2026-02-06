@@ -1,0 +1,59 @@
+{
+  "id": 5947033,
+  "name": "White v. Illinois",
+  "name_abbreviation": "White v. Illinois",
+  "decision_date": "2011-04-04",
+  "docket_number": "No. 10-9139",
+  "first_page": "924",
+  "last_page": "924",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 924"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.617,
+    "sha256": "2ff36ac0967c66bf68322621007fc5945bc0ee7094ffc11db75af52ca6c4df17",
+    "simhash": "1:7100d358713c736b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "White v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Ill., 3d Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9139.\nWhite v. Illinois."
+  },
+  "file_name": "0924-07",
+  "first_page_order": 950,
+  "last_page_order": 950
+}

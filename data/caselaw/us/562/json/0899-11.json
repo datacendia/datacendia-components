@@ -1,0 +1,59 @@
+{
+  "id": 5986209,
+  "name": "Martin v. Holloway et al.",
+  "name_abbreviation": "Martin v. Holloway",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5026",
+  "first_page": "899",
+  "last_page": "899",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 899"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.6,
+    "sha256": "19c74c35c82ec9e33fe3f40d8514692b971e4986e68f0ee0e933fa306c3f7102",
+    "simhash": "1:5879e57ffa2a080a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Martin v. Holloway et al."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ohio. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5026.\nMartin v. Holloway et al."
+  },
+  "file_name": "0899-11",
+  "first_page_order": 921,
+  "last_page_order": 921
+}

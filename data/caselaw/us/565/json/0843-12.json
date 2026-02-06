@@ -1,0 +1,59 @@
+{
+  "id": 12204120,
+  "name": "San Martin v. Tucker, Secretary, Florida Department of Corrections",
+  "name_abbreviation": "San Martin v. Tucker",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10678",
+  "first_page": "843",
+  "last_page": "843",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 843"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 117,
+    "ocr_confidence": 0.612,
+    "sha256": "fc6a1f33fbfadce17896d2a6d28a8f89c7a35bfaa0fcc0ef7ea294ea6db83dfe",
+    "simhash": "1:1768483385439070",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "San Martin v. Tucker, Secretary, Florida Department of Corrections."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10678.\nSan Martin v. Tucker, Secretary, Florida Department of Corrections."
+  },
+  "file_name": "0843-12",
+  "first_page_order": 925,
+  "last_page_order": 925
+}

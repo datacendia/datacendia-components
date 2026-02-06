@@ -1,0 +1,88 @@
+{
+  "id": 12430556,
+  "name": "Herron v. Williams; and Herron v. Crutcher-Sanchez",
+  "name_abbreviation": "Herron v. Williams",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-730",
+  "first_page": "1160",
+  "last_page": "1160",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1160"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "687 F. 3d 979",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5865170
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/687/0979-01"
+      ]
+    },
+    {
+      "cite": "687 F. 3d 971",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5862364
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/687/0971-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 20,
+    "char_count": 146,
+    "ocr_confidence": 0.538,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2562782617828298
+    },
+    "sha256": "02aa9050c10ab619ceabda3330363086efdc3f66c27d8ed1948549838dbb1e25",
+    "simhash": "1:6307e4ac77f2c6e1",
+    "word_count": 25
+  },
+  "last_updated": "2024-02-27T23:44:49.194693+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Herron v. Williams and Herron v. Crutcher-Sanchez"
+    ],
+    "opinions": [
+      {
+        "text": "(Reported below: 687 F. 3d 971);\n(687 F. 3d 979). C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-730.\nHerron v. Williams and Herron v. Crutcher-Sanchez"
+  },
+  "file_name": "1160-08",
+  "first_page_order": 1236,
+  "last_page_order": 1236
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5940946,
+  "name": "Mearidy v. Georgia",
+  "name_abbreviation": "Mearidy v. Georgia",
+  "decision_date": "2010-10-18",
+  "docket_number": "No. 10-6336",
+  "first_page": "987",
+  "last_page": "987",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 987"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 65,
+    "ocr_confidence": 0.574,
+    "sha256": "69d3a34fd165979a96ee655457e7e41f7f1ae7a2042930ce0e9630f924d3bdad",
+    "simhash": "1:643f8ab52550bc27",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mearidy v. Georgia."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ga. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6336.\nMearidy v. Georgia."
+  },
+  "file_name": "0987-07",
+  "first_page_order": 1009,
+  "last_page_order": 1009
+}

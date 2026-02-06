@@ -1,0 +1,59 @@
+{
+  "id": 12428054,
+  "name": "Cooper v. Merit Systems Protection Board",
+  "name_abbreviation": "Cooper v. Merit Systems Protection Board",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-5817",
+  "first_page": "1091",
+  "last_page": "1091",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1091"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 90,
+    "ocr_confidence": 0.618,
+    "sha256": "ff74eaa6611430a72eddeedf36c5d808099f163ae2111016da47f1e6d71e3e9b",
+    "simhash": "1:acc392c57fceeed4",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cooper v. Merit Systems Protection Board."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. Fed. Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5817.\nCooper v. Merit Systems Protection Board."
+  },
+  "file_name": "1091-12",
+  "first_page_order": 1167,
+  "last_page_order": 1167
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12432770,
+  "name": "Zhou Chen v. United States",
+  "name_abbreviation": "Zhou Chen v. United States",
+  "decision_date": "2013-03-04",
+  "docket_number": "No. 12-8484",
+  "first_page": "1219",
+  "last_page": "1219",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1219"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 75,
+    "ocr_confidence": 0.652,
+    "sha256": "ac2145e4fd706851e4ca9f7511f51a3531e63658c0f41eb791b064597fd006cf",
+    "simhash": "1:858b82038e1f1844",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Zhou Chen v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8484.\nZhou Chen v. United States."
+  },
+  "file_name": "1219-02",
+  "first_page_order": 1295,
+  "last_page_order": 1295
+}

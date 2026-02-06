@@ -1,0 +1,59 @@
+{
+  "id": 4331984,
+  "name": "Robinson v. Houston et al.",
+  "name_abbreviation": "Robinson v. Houston",
+  "decision_date": "2011-06-27",
+  "docket_number": "No. 10-10125",
+  "first_page": "1041",
+  "last_page": "1041",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1041"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 75,
+    "ocr_confidence": 0.61,
+    "sha256": "dee7ca6194ac6ed9693fc084b406c57fc5572bfb0b0016dcbd2094c16ef021d3",
+    "simhash": "1:c04830c4671a102c",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Robinson v. Houston et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10125.\nRobinson v. Houston et al."
+  },
+  "file_name": "1041-10",
+  "first_page_order": 1035,
+  "last_page_order": 1035
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5970383,
+  "name": "Clinton v. United States",
+  "name_abbreviation": "Clinton v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5137",
+  "first_page": "905",
+  "last_page": "905",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 905"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.552,
+    "sha256": "576db53d3c4bbf01b9b7d4e87cef72dbfb683e2bf3f74229c014283a890b281b",
+    "simhash": "1:828bc608cb89d402",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Clinton v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5137.\nClinton v. United States."
+  },
+  "file_name": "0905-12",
+  "first_page_order": 927,
+  "last_page_order": 927
+}

@@ -1,0 +1,84 @@
+{
+  "id": 12226814,
+  "name": "Dade v. United States District Court for the District of Idaho",
+  "name_abbreviation": "Dade v. United States District Court for the District of Idaho",
+  "decision_date": "2011-10-11",
+  "docket_number": "No. 11-6147",
+  "first_page": "938",
+  "last_page": "939",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 938"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "506 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11924825
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/506/0001-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 79,
+    "char_count": 666,
+    "ocr_confidence": 0.638,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.24765034563791172
+    },
+    "sha256": "0b6d2f88991c52a0e623539388790847d78e9f67498b1d85c4e4335a10796091",
+    "simhash": "1:3d22bccc4544dc0f",
+    "word_count": 113
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this motion and this petition."
+    ],
+    "parties": [
+      "Dade v. United States District Court for the District of Idaho."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Motion of petitioner for leave to proceed in forma pauperis denied, and certiorari dismissed. See this Court\u2019s Rule 39.8. As petitioner has repeatedly abused this Court\u2019s process, the Clerk is directed not to accept any further petitions in noncriminal matters from petitioner unless the docketing fee required by Rule 38(a) is paid and the petition is submitted in compliance with Rule 33.1. See Mar tin v. District of Columbia Court of Appeals, 506 U. S. 1 (1992) (per curiam).\nJustice Kagan took no part in the consideration or decision of this motion and this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6147.\nDade v. United States District Court for the District of Idaho."
+  },
+  "file_name": "0938-06",
+  "first_page_order": 1020,
+  "last_page_order": 1021
+}

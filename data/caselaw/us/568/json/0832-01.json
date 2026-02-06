@@ -1,0 +1,59 @@
+{
+  "id": 12411315,
+  "name": "Maisonet v. Pennsylvania",
+  "name_abbreviation": "Maisonet v. Pennsylvania",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10058",
+  "first_page": "832",
+  "last_page": "832",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 832"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 72,
+    "ocr_confidence": 0.675,
+    "sha256": "2466c7c8ea432b460e03761e7a72f22496a27c789bfc0d134d7bcdbbf32be527",
+    "simhash": "1:aa130362b1d9f158",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Maisonet v. Pennsylvania."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Pa. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10058.\nMaisonet v. Pennsylvania."
+  },
+  "file_name": "0832-01",
+  "first_page_order": 908,
+  "last_page_order": 908
+}

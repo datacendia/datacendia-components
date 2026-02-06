@@ -1,0 +1,964 @@
+{
+  "id": 12522059,
+  "name": "Jonathan NNEBE, Khairul Amin, Eduardo Avenaut, New York Taxi Workers Alliance, individually and on behalf of all others similarly situated, Plaintiffs - Appellants - Cross-Appellees, Alexander Karmansky, individually and on behalf of all others similarly situated, Plaintiff, v. Matthew DAUS, Joseph Eckstein, Elizabeth Bonina, the New York City Taxi and Limousine Commission, the City of New York, Charles Fraser, Defendants - Appellees - Cross-Appellants, Charles Frazier, Defendant. Anthony Stallworth, Parichay Barman, Noor Tani, the New York Taxi Workers Alliance, individually and on behalf of all others similarly situated, Plaintiffs - Appellants, v. Meera Joshi, Chris Wilson, Stas Skarbo, the City of New York, Defendants - Appellees.",
+  "name_abbreviation": "Nnebe v. Daus",
+  "decision_date": "2019-07-19",
+  "docket_number": "Docket Nos. 18-866-cv (L); 18-1254-cv (XAP); 18-490-cv; August Term, 2018",
+  "first_page": "66",
+  "last_page": "91",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "931 F.3d 66"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "2nd Cir.",
+    "id": 9993,
+    "name": "United States Court of Appeals for the Second Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "3 A.D.3d 345",
+      "category": "reporters:state",
+      "reporter": "A.D.3d",
+      "case_ids": [
+        1239903,
+        1239711
+      ],
+      "year": 2004,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ad3d/3/0345-01",
+        "/ad3d/3/0345-02"
+      ]
+    },
+    {
+      "cite": "436 U.S. 103",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1490209
+      ],
+      "weight": 3,
+      "year": 1978,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/436/0103-01"
+      ]
+    },
+    {
+      "cite": "823 F.3d 125",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5918197
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "143"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/823/0125-01"
+      ]
+    },
+    {
+      "cite": "125 F. App'x 274",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        856298
+      ],
+      "year": 2004,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/125/0274-01"
+      ]
+    },
+    {
+      "cite": "715 F.2d 662",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        3788112,
+        1882381
+      ],
+      "year": 1983,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/230/0188-01",
+        "/f2d/715/0662-01"
+      ]
+    },
+    {
+      "cite": "770 N.Y.S.2d 344",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.2d",
+      "case_ids": [
+        1239711
+      ],
+      "year": 2004,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ad3d/3/0345-02"
+      ]
+    },
+    {
+      "cite": "2002 WL 1559732",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "*5",
+          "parenthetical": "alteration omitted"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "831 F.3d 46",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6055185
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "48"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/831/0046-01"
+      ]
+    },
+    {
+      "cite": "138 S. Ct. 1204",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12610616
+      ],
+      "weight": 2,
+      "year": 2018,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/1204-01"
+      ]
+    },
+    {
+      "cite": "135 S. Ct. 2551",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12591035
+      ],
+      "weight": 2,
+      "year": 2015,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/135/2551-01"
+      ]
+    },
+    {
+      "cite": "567 U.S. 239",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12407133
+      ],
+      "weight": 6,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "253"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/567/0239-01"
+      ]
+    },
+    {
+      "cite": "N.Y. Crim. Proc. \u00a7 140.10",
+      "category": "laws:leg_act",
+      "reporter": "N.Y.",
+      "pin_cites": [
+        {
+          "page": "(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "137 S. Ct. 1249",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12603538
+      ],
+      "weight": 5,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1252"
+        },
+        {
+          "page": "1256",
+          "parenthetical": "citation and internal quotation marks omitted"
+        },
+        {
+          "page": "1255"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/137/1249-01"
+      ]
+    },
+    {
+      "cite": "418 U.S. 539",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6173832
+      ],
+      "weight": 3,
+      "year": 1974,
+      "pin_cites": [
+        {
+          "page": "564"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/418/0539-01"
+      ]
+    },
+    {
+      "cite": "564 U.S. 431",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        4337476,
+        12450495
+      ],
+      "weight": 3,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "447"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/564/0431-01",
+        "/l-ed-2d/180/0452-01"
+      ]
+    },
+    {
+      "cite": "404 F.3d 105",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9012598
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "124"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/404/0105-01"
+      ]
+    },
+    {
+      "cite": "407 U.S. 67",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9136631
+      ],
+      "weight": 3,
+      "year": 1972,
+      "pin_cites": [
+        {
+          "page": "80",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/407/0067-01"
+      ]
+    },
+    {
+      "cite": "520 U.S. 924",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11653435
+      ],
+      "weight": 3,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "932"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/520/0924-01"
+      ]
+    },
+    {
+      "cite": "18 F.3d 992",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10512557
+      ],
+      "weight": 3,
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "995"
+        },
+        {
+          "page": "1003"
+        },
+        {
+          "page": "1004"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/18/0992-01"
+      ]
+    },
+    {
+      "cite": "N.Y. Crim. Proc. \u00a7 180.10",
+      "category": "laws:leg_act",
+      "reporter": "N.Y.",
+      "pin_cites": [
+        {
+          "parenthetical": "felonies"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "N.Y. Crim. Proc. \u00a7 170.10",
+      "category": "laws:leg_act",
+      "reporter": "N.Y.",
+      "pin_cites": [
+        {
+          "parenthetical": "misdemeanors"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "96 N.Y.2d 195",
+      "category": "reporters:state",
+      "reporter": "N.Y.2d",
+      "case_ids": [
+        203204
+      ],
+      "weight": 3,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "199-200"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-2d/96/0195-01"
+      ]
+    },
+    {
+      "cite": "306 F.3d 40",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11437531
+      ],
+      "weight": 10,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "44"
+        },
+        {
+          "page": "63"
+        },
+        {
+          "page": "44"
+        },
+        {
+          "page": "53"
+        },
+        {
+          "page": "68"
+        },
+        {
+          "page": "70"
+        },
+        {
+          "page": "69-70"
+        },
+        {
+          "page": "45"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/306/0040-01"
+      ]
+    },
+    {
+      "cite": "397 U.S. 254",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12052726
+      ],
+      "weight": 3,
+      "year": 1970,
+      "pin_cites": [
+        {
+          "page": "264"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/397/0254-01"
+      ]
+    },
+    {
+      "cite": "470 U.S. 532",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11299646
+      ],
+      "weight": 3,
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "543"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/470/0532-01"
+      ]
+    },
+    {
+      "cite": "95 L.Ed.2d 239",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        6213961,
+        6931276
+      ],
+      "year": 1987,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/481/0252-01",
+        "/us/340/0231-01"
+      ]
+    },
+    {
+      "cite": "481 U.S. 252",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6213961
+      ],
+      "weight": 2,
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "263"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/481/0252-01"
+      ]
+    },
+    {
+      "cite": "486 U.S. 230",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6214098
+      ],
+      "weight": 3,
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "243"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/486/0230-01"
+      ]
+    },
+    {
+      "cite": "579 F.3d 160",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4053909
+      ],
+      "weight": 5,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "171",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "171",
+          "parenthetical": "citations and internal quotation marks omitted"
+        },
+        {
+          "page": "174"
+        },
+        {
+          "page": "172",
+          "parenthetical": "citation and internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/579/0160-01"
+      ]
+    },
+    {
+      "cite": "88 N.Y.2d 383",
+      "category": "reporters:state",
+      "reporter": "N.Y.2d",
+      "case_ids": [
+        4438170
+      ],
+      "weight": 3,
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "395",
+          "parenthetical": "noting that regulations may go beyond the text of a statute only \"as long as they are in harmony with the statute's over-all purpose\""
+        },
+        {
+          "parenthetical": "noting that regulations may go beyond the text of a statute only \"as long as they are in harmony with the statute's over-all purpose\""
+        },
+        {
+          "parenthetical": "noting that regulations may go beyond the text of a statute only \"as long as they are in harmony with the statute's over-all purpose\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-2d/88/0383-01"
+      ]
+    },
+    {
+      "cite": "16 N.Y.3d 395",
+      "category": "reporters:state",
+      "reporter": "N.Y.3d",
+      "case_ids": [
+        3745706
+      ],
+      "weight": 3,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "403",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny3d/16/0395-01"
+      ]
+    },
+    {
+      "cite": "429 N.E.2d 781",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "weight": 2,
+      "year": 1981,
+      "pin_cites": [
+        {
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "445 N.Y.S.2d 103",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.2d",
+      "year": 1981,
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 N.Y.2d 259",
+      "category": "reporters:state",
+      "reporter": "N.Y.2d",
+      "case_ids": [
+        2342504
+      ],
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "267"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-2d/54/0259-01"
+      ]
+    },
+    {
+      "cite": "116 N.E.3d 64",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.3d",
+      "weight": 4,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "parenthetical": "citation and internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "32 N.Y.3d 366",
+      "category": "reporters:state",
+      "reporter": "N.Y.3d",
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "372",
+          "parenthetical": "citation and internal quotation marks omitted"
+        },
+        {
+          "page": "372"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "755 F.3d 105",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4064766
+      ],
+      "weight": 2,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "113"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/755/0105-01"
+      ]
+    },
+    {
+      "cite": "538 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9030296
+      ],
+      "weight": 5,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "4"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/538/0001-01"
+      ]
+    },
+    {
+      "cite": "918 F.3d 57",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12520446
+      ],
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "62"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/918/0057-01"
+      ]
+    },
+    {
+      "cite": "718 F.3d 72",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4050116
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "79"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/718/0072-01"
+      ]
+    },
+    {
+      "cite": "665 F. Supp. 2d 311",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        3801735
+      ],
+      "weight": 10,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "parenthetical": "\" Nnebe I \""
+        },
+        {
+          "page": "324"
+        },
+        {
+          "page": "328"
+        },
+        {
+          "page": "331",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "332"
+        },
+        {
+          "page": "328"
+        },
+        {
+          "page": "328"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/665/0311-01"
+      ]
+    },
+    {
+      "cite": "644 F.3d 147",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5649755
+      ],
+      "weight": 29,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "152-53",
+          "parenthetical": "\" Nnebe II \""
+        },
+        {
+          "page": "150"
+        },
+        {
+          "page": "161"
+        },
+        {
+          "page": "160"
+        },
+        {
+          "page": "160-61"
+        },
+        {
+          "page": "163"
+        },
+        {
+          "page": "160"
+        },
+        {
+          "page": "162-63"
+        },
+        {
+          "page": "163"
+        },
+        {
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "158"
+        },
+        {
+          "page": "163"
+        },
+        {
+          "page": "158-59"
+        },
+        {
+          "page": "159",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "159",
+          "parenthetical": "alteration in original"
+        },
+        {
+          "page": "160"
+        },
+        {
+          "page": "163"
+        },
+        {
+          "page": "161"
+        },
+        {
+          "page": "162"
+        },
+        {
+          "page": "160"
+        },
+        {
+          "page": "162"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/644/0147-01"
+      ]
+    },
+    {
+      "cite": "42 U.S.C. \u00a7 1983",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 11,
+      "pin_cites": [
+        {
+          "page": "n.1"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "424 U.S. 319",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12026449
+      ],
+      "weight": 9,
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "333",
+          "parenthetical": "citation omitted"
+        },
+        {
+          "parenthetical": "citation omitted"
+        },
+        {
+          "parenthetical": "citation omitted"
+        },
+        {
+          "page": "335"
+        },
+        {
+          "page": "335"
+        },
+        {
+          "page": "335"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/424/0319-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 2197,
+    "char_count": 80111,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2594570185366019
+    },
+    "sha256": "95758404717e633e60cee9fe4d139bd82f63756efb271d11ae818f709e79d348",
+    "simhash": "1:b150a46bee3a1f17",
+    "word_count": 13001
+  },
+  "last_updated": "2024-02-27T18:47:21.356099+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before: Katzmann, Chief Judge, and Hall and Lynch, Circuit Judges."
+    ],
+    "parties": [
+      "Jonathan NNEBE, Khairul Amin, Eduardo Avenaut, New York Taxi Workers Alliance, individually and on behalf of all others similarly situated, Plaintiffs - Appellants - Cross-Appellees,"
+    ],
+    "opinions": [
+      {
+        "text": "Gerard E. Lynch, Circuit Judge:\nThe Taxi and Limousine Commission of New York City (the \"TLC\") has the authority to issue, revoke, and suspend taxi drivers' licenses. These tandem cases require us to examine the TLC's suspension procedures under the Due Process Clause to determine whether the TLC provides meaningful hearings to drivers whose licenses have been suspended pending the outcome of criminal proceedings. We conclude that it does not.\nWe first determine that evidence of a driver's ongoing danger to health and public safety is relevant under the statutory and regulatory scheme. We then conclude that, in light of the significant private interest at stake, the unacceptably high risk of erroneous deprivation, and the fact that additional safeguards can be provided with minimal burden on governmental resources, the TLC's refusal to consider such evidence violates due process.\nAccordingly, in Nnebe we AFFIRM in part and REVERSE in part the judgment of the district court, we AFFIRM in part and REVERSE in part the judgment in Stallworth, and we REMAND both cases to the district court for further proceedings.\nBACKGROUND\nThis appeal concerns what happens when taxi drivers are arrested on criminal charges and their licenses are summarily suspended. Though arrested drivers are entitled under the relevant regulation to a post-suspension hearing, the plaintiffs contend that the hearings the TLC provides are meaningless, and that no driver has ever had his or her license reinstated following such a hearing. They bring claims that sound in procedural due process, arguing that the post-suspension hearings are not the \"meaningful\" hearings that due process requires. See Mathews v. Eldridge , 424 U.S. 319, 333, 96 S.Ct. 893, 47 L.Ed.2d 18 (1976) (citation omitted).\nIn the first of the tandem cases, Nnebe v. Daus , plaintiffs-appellants-cross-appellees are drivers whose licenses were suspended before 2007. They first brought this action under 42 U.S.C. \u00a7 1983 in 2006; it has since wound its way through a complex procedural web which culminated in a bench trial, from the results of which plaintiffs now appeal (No. 18-866-cv). The defendants in that case - the TLC, the City of New York, and various employees of those entities - cross-appeal the single issue on which the district court found in plaintiffs' favor: that the notice given to suspended drivers prior to December 2006 was constitutionally infirm (No. 18-1254-cv).\nIn the second case, Stallworth v. Joshi , the plaintiffs-appellants are drivers suspended in 2017 after being arrested for leaving the scene of an accident. Defendants - the City of New York, and various City and TLC employees - moved to dismiss the case for failure to state a claim in light of the district court's rulings in Nnebe . The district court granted the motion; plaintiffs appeal (No. 18-490-cv).\nI. The TLC Regulatory Regime\nThe New York City Charter grants broad authority to the TLC to promulgate and implement a regulatory program for the taxi industry. See N.Y.C. Charter \u00a7 2303(b)(5) (granting the TLC, inter alia , the power to issue, revoke, and suspend licenses). New York City Administrative Code \u00a7 19-512.1(a) (the \"Ordinance\") governs the revocation of taxicab licenses and reads as follows: \"The commission ... may, for good cause shown relating to a direct and substantial threat to the public health or safety and prior to giving notice and an opportunity for a hearing, suspend a taxicab ... license ....\" The Ordinance further requires notice to be given within five calendar days of any such suspension, and \"an opportunity to request a hearing ... within ten calendar days\" of such notification. Id. In passing the Ordinance, the City Council noted \"the strong need for aggressive regulation of the taxicab ... industry and those directly responsible for the safety of the riding public\" but found that certain TLC rules modifying disciplinary measures against drivers were overly \"onerous.\" Id. n.1. The Council determined that the new ordinance, with its requirements of good cause related to a direct and substantial threat to public safety and of a prompt hearing process, \"establishes a superior balancing of the concern for safe and high quality service with the need for fair treatment of an industry important to New York City.\" Id.\nUnder this authority, the TLC has promulgated a number of regulations over the years dealing with arrest-related license suspensions and revocations. In 1999, the first version of the Rule, 35 R.C.N.Y. \u00a7 8-16(a) (1999), allowed the TLC Chairperson to order a summary suspension of a license, pending revocation proceedings, if he or she \"finds that emergency action is required to insure public health, safety or welfare.\" The 1999 Rule further required notification of the summary suspension within five days, and an opportunity to request a prompt post-deprivation hearing before an administrative law judge (\"ALJ\") \"who shall consider relevant evidence and testimony\" under oath. Id. \u00a7 8-16(c),(d). The ALJ was then required to issue a written recommendation to the TLC Chair, who could \"accept, reject or modify the recommendation.\" Id \u00a7 8-16(e).\nIn 2006, the Rule was amended; notably, the amended Rule specified that the TLC Chair could summarily suspend a license \"based upon an arrest on criminal charges that the Chairperson determines is relevant to the licensee's qualifications for continued licensure.\" R.C.N.Y. \u00a7 8-16 (c) (2006). It then laid out the issue to be determined at the hearing: \"whether the charges underlying the licensee's arrest, if true, demonstrate that the licensee's continued licensure during the pendency of the criminal charges would pose a threat to the health or safety of the public.\" Id. The TLC Chair retained the authority to accept, reject, or modify the finding of the ALJ. Id. \u00a7 8-16(f).\nThe most recent version of the Rule, as amended in 2014, provides as follows: \"The Chairperson can summarily suspend a License based upon an arrest or citation if the Chairperson believes that the charges, if true, would demonstrate that continued licensure would constitute a direct and substantial threat to public health or safety.\" R.C.N.Y. \u00a7 68-15(d)(1). The Rule then proceeds to state that all felonies and certain enumerated misdemeanors will trigger a summary suspension. Id. This latest version of the Rule provides for a hearing at which the issue to be determined is \"whether the charges underlying the Licensee's arrest, if true, demonstrate that the continuation of the License while awaiting a decision on the criminal charges would pose a direct and substantial threat to public health or safety.\" Id. \u00a7 68-15(d)(3).\nII. Summary Suspension Process\nWhile the text of the Rule has gone through several iterations, in practice the summary suspension process has been essentially the same since its adoption. As the district court pointed out, \"[e]ven the most significant change to the Rule - the addition of the substantive standard in 2006 - merely reflected and restated pre-existing practice.\" J. App'x 65.\nA. The Initial Suspension Process\nWhen a licensed taxi driver is arrested, the New York Division of Criminal Justice Services (\"DCJS\") sends the TLC an arrest notification. A TLC employee then confirms that the arrested person is in fact a licensed TLC driver and checks the charged offense against a list of offenses that the TLC considers sufficiently serious to warrant suspension. The listed offenses include all felonies, and misdemeanors involving violence, driving, or sexual misconduct.\nThe TLC then notifies the driver in a letter that it has learned of his or her arrest, that the driver's license has been suspended, and that the driver can schedule a hearing to contest the suspension. The driver is not informed of any standard that will be applied at the hearing, but the letter does direct the driver to the version of the Rule in force at time of the letter's issuance. The letter also makes clear that the TLC may lift the suspension if the charges are resolved in the driver's favor, and that the driver should inform the TLC of any developments in the criminal case.\nApproximately nine out of ten suspended drivers initially request a hearing. Seventy-five percent of suspended drivers eventually have their suspensions lifted by virtue of a favorable disposition of their cases - such as the charges against them being dismissed, reduced to an offense that is not on the list, or otherwise resolved in their favor. A driver can notify the TLC of a change in the status of his or her criminal case at any time, including after the hearing and review process has taken place. If the criminal case is resolved without a conviction, the TLC does not inquire into the reasons for the favorable disposition, but automatically lifts the suspension.\nB. The Summary Suspension Review Process\nAfter a driver requests a hearing, the TLC notifies the driver by letter of the time, date, and location of the hearing, and informs the driver that he or she can present evidence and call witnesses. The letter informs the driver that \"the purpose of th[e] hearing will be to determine whether your TLC license should remain suspended pending the final disposition of your criminal case.\" J. App'x 67.\nThe review process itself consists of two parts: the first is a hearing before an ALJ at which the driver and a TLC attorney appear and present evidence; the second is a review of the ALJ's recommendation by the TLC Chair. Two different administrative bodies have presided over the summary suspension hearings. While there were some differences in procedure, under neither regime has the TLC Chair ever recommended reinstating a driver's license. We consider each in turn.\n1. Hearings before TLC ALJs\nPrior to November 2007, the ALJs presiding at summary suspension hearings were TLC employees. The TLC ALJs were instructed not to consider any specific facts and circumstances about either the drivers or the individual crimes with which they were charged. Rather, they were directed to address only three issues: (1) whether the suspended driver had in fact been charged with a crime; (2) whether the charge was still pending; and (3) whether the crime with which the driver was charged had a \"nexus\" to public health or safety. J. App'x 67. The first two were factual questions, but the nexus question \"was a 'philosophical' question and was decided based on argument, not facts.\" Id. However, the ALJs did not direct drivers to the \"philosophical\" nexus standard, and \"most, if not all, suspended drivers did not understand what the standard was.\" J. App'x 68. Instead, the ALJs \"encouraged drivers to argue anything they wanted - including that they were not a threat to health or public safety or that they were innocent - so that those arguments could be included in the record.\" Id. Although the drivers were allowed to present evidence and call witnesses on these subjects, the TLC ALJs did not consider drivers' particularized arguments that their licensure did not pose a threat to the public safety.\nThe hearings under the TLC ALJs \"resulted in a nearly unbroken record of recommendations that the suspension be continued.\" J. App'x 68. In only three cases out of hundreds of hearings was a contrary recommendation made. A single ALJ, Eric Gottlieb, was responsible for all three. He was promptly reprimanded by his supervisor, and subsequently took care not to make another such recommendation for fear that he would be transferred to a less desirable work location. See Nnebe v. Daus , 644 F.3d 147, 152-53 (2d Cir. 2011) (\" Nnebe II \"). Gottlieb testified that, after being admonished, he recommended continued suspension in all cases. As Gottlieb stated, \"[s]o long as the person before me was, in fact, arrested, he would remain on suspension, absolutely.\" J. App'x 306.\n2. Hearings before OATH ALJs\nStarting in November 2007, the hearings were presided over by ALJs employed by the City's Office of Administrative Trials and Hearings (\"OATH\"). The process under the OATH ALJs was largely the same as before the TLC ALJs, but the standard applied was different. At an OATH hearing, the ALJs were directed to consider \"whether the particular suspended driver is, in fact , a direct and substantial threat to public health or safety.\" J. App'x 68 (emphases added). Under this regime, an ALJ was more likely to recommend lifting a driver's suspension, though the absolute number of such recommendations was still low.\n3. TLC Chairperson Review\nUnder both regimes, the TLC Chairperson makes the ultimate decision about whether to lift a summary suspension. After the hearing, the TLC sends a copy of the ALJ's recommendation to the driver, and notifies the driver that he or she may submit a written response to the recommendation. The written response, however, may not incorporate any evidence outside of the hearing record, and the notice does not inform the driver of the standard the Chair will apply.\nThroughout the period at issue, regardless of the affiliation of the ALJ, the Chair, like the TLC ALJs, considered only: (1) whether a suspended driver has in fact been charged with a crime; (2) whether that charge is still pending; and (3) whether there is a nexus between the charged crime, considered in the abstract, and public health and safety. The Chair can consider evidence relating to the first two inquiries, including the criminal complaint or other charging documents, but the Chair's determination as to whether there is a \"nexus\" is a \" 'common sense' determination 'based on the nature of the pending charges.' \" J. App'x 70 (citation omitted). The Chair does not consider the specific factual allegations in the complaint, nor does he or she consider any evidence that the driver is not guilty of the charges, or any other evidence that a particular driver does not pose a direct and substantial threat to public safety based on his or her individual characteristics or history. Under neither hearing regime has the TLC Chair ever lifted a suspension.\nIII. Procedural History\nA. Nnebe\nThe Nnebe plaintiffs - Jonathan Nnebe, Eduardo Avenaut, and Khairul Amin, and the New York Taxi Workers Alliance - filed suit against officials of the TLC and employees of the City of New York in June 2006, challenging the TLC's summary suspension procedures under the Due Process Clause of the Fourteenth Amendment. They sought certification of a class action, declaratory and injunctive relief, compensatory and punitive damages, and attorney's fees. Each of the named plaintiffs was a driver whose license had been suspended after an arrest for assault in the third degree and was restored several months later after the charges against him were either dismissed or adjourned in contemplation of dismissal.\n1. Summary Judgment Motion\nIn 2009, the district court granted summary judgment to the defendants. Nnebe v. Daus , 665 F. Supp. 2d 311 (S.D.N.Y. 2009) (\" Nnebe I \"). The district court considered both the lack of a pre-deprivation hearing and the meaningfulness of the post-deprivation hearing under the familiar Mathews framework, first finding no constitutional deprivation in the lack of a pre-deprivation hearing despite the \"undoubtedly significant\" private interest at stake, noting that \"the deprivation of a protected interest is mitigated by the availability of prompt post-deprivation review.\" Nnebe I , 665 F. Supp. 2d at 324.\nThe court also found that the post-deprivation hearings did not deprive the plaintiffs of procedural due process, basing its conclusion primarily on its concern that a \"full adversarial hearing\" as to plaintiffs' guilt or innocence \"would be unworkable,\" and \"would present the significant possibility of interference with the criminal investigation and proceedings.\" Id. at 328. The court also concluded that \"additional safeguards ... would present a significant financial and administrative burden on the TLC.\" Id.\nThe court then held that the plaintiffs' substantive due process claims lacked merit, concluding \"that [d]efendants' actions were not so outrageously arbitrary as to rise to the level of a substantive due process violation.\" Id. at 331 (internal quotation marks omitted). Finally, the court held that there was no merit to plaintiffs' claims that the summary suspensions were \"unconstitutional because drivers lack notice that they will be suspended after they are arrested for specified crimes.\" Id. at 332.\n2. 2011 Appeal\nThe Nnebe plaintiffs appealed to this court. We affirmed in part, agreeing that procedural due process did not require a pre-deprivation hearing, and vacated and remanded in part, holding that we could not \"determine whether the post-deprivation hearing affords due process because we find that the record on summary judgment does not support the district court's finding (and the City's claim) that the hearing enables a driver to make a showing that 'the charges, even if true, do not demonstrate that the licensee's continued licensure would pose a threat to public health or safety.' \" Nnebe II , 644 F.3d at 150 (quoting Nnebe I , 665 F. Supp. 2d at 318 ) (internal quotation marks omitted).\nAt oral argument, the City took the position that arrest for one of the enumerated offenses was not per se conclusive that \"the licensee's continued licensure would pose a threat to public health or safety,\" but rather that drivers were given a \"real opportunity to show that they do not pose a risk to public safety, arrests notwithstanding,\" by presenting evidence relevant to that determination. Nnebe II , 644 F.3d at 161. We were troubled, however, by the record's failure to clarify \"what it is a driver may in fact attempt to show\" to prove that \"the regulatory standard was not met - [that] the charges, even if true, did not demonstrate that continued licensure would pose a threat to public safety.\" Id. at 160. While we noted that the regulatory standard that the City purported to apply might fall \"within the range of adequate due process protections,\" we were nevertheless concerned that the asserted standard was \"an oft-quoted nullity that in no way resembles a part of the standard ALJs must apply\" as there was \"little evidence that an ALJ is allowed actually to apply this standard, ... [but] considerable evidence supporting the appellants' view that they may not.\" Id. at 160-61.\nFurthermore, we noted that the district court had \"assumed that the only alternative to a hearing on identity and charge would be a hearing at which the TLC would be required to prove that each driver engaged in the charged conduct.\" Id. at 163. While we agreed with the district court that a host of problems could ensue if the City held \"a hearing that functions as a preview of the criminal case\" and thus that such a hearing was not required by due process, id. at 160, we noted that there might be other inquiries that could be less burdensome to the City and that might be required, given the significant interests of the plaintiffs, id. at 162-63. We posited, for example, that \"even a hearing at which the ALJ is permitted to examine the factual allegations underlying the arrest, without making a determination of likely guilt or innocence, would provide to drivers considerably more opportunity to be heard than the current system, as the ALJ might in some cases determine that the allegations, although arguably inconsistent with the criminal statute, do not provide any basis for finding the driver to be a threat to public safety.\" Id. at 163.\nWe thus remanded to the district court \"to conduct additional fact-finding, in the manner it deems appropriate, to determine whether the post-suspension hearing the City affords does indeed provide an opportunity for a taxi driver to assert that, even if the criminal charges are true, continued licensure does not pose any safety concerns,\" and then to determine, in light of that fact-finding, \"whether the hearing the City actually provides ... comports with due process.\" Id. We did \"not discuss the district court's substantive due process analysis\" as plaintiffs had \"expressly disavow[ed] [any substantive due process claims] on appeal.\" Id. at 153-54 n.2.\n3. On Remand\nOn remand, the parties cross-moved for summary judgment. The district court denied the motions, finding that it was \"genuinely in dispute\" whether \"the City meaningfully considers evidence other than the fact of arrest.\" J. App'x 260. The court scheduled a trial to resolve the narrow issue of \"whether the post-suspension hearing the City affords does indeed provide an opportunity [both de jure and de facto ] for a taxi driver to assert that, even if the criminal charges are true, continued licensure does not pose any safety concerns.\" J. App'x 36 (alteration in original) (citation omitted).\nShortly before the scheduled jury trial, defendants raised an objection to the proposed Jury Verdict form which would have included several interrogatories concerning whether \"the TLC policy allowed meaningful consideration of,\" inter alia , whether the driver had previous criminal convictions or arrests, the facts and circumstances that led to the arrest, whether the driver was given a DAT or arraigned, whether the driver was released without bail, whether the charged conduct was committed on- or off-duty, and the driver's maturity, family background, and community ties. J. App'x 388S89. Defendants suggested a single question for the jury instead: did the TLC policy allow \"meaningful consideration of whether even if the pending criminal charges are true, the driver's continued licensure would not pose a threat to the health or safety of the public.\" J. App'x 423. The district court noted that the objections presented a \"quandary\" as \"[i]n order for there to be a real, de facto opportunity 'to assert that, even if the criminal charges are true, continued licensure does not pose any safety concerns,' the ALJs and the TLC Chair must be able to consider something other than the fact of a mere criminal charge. But if none of the factors listed in the verdict form may be considered, then the Court is frankly at a loss for what that something might be.\" J. App'x 425S26. The district court instructed defendants to suggest factors that the TLC might consider, but warned that \"if they cannot even suggest any factors that an ALJ or the TLC Chair can consider beyond the fact of arrest, then a directed verdict in this trial would appear inevitable.\" J. App'x 426S27.\nIn response, the TLC General Counsel stated that the TLC's position remained that it was open to considering other relevant factors and that evidence supporting that position would be presented at trial. J. App'x 273. Shortly thereafter, the parties agreed to a bench trial, rather than a jury trial, rendering the verdict form moot. J. App'x 282.\nThe trial commenced on January 13, 2014, and concluded on January 21, 2014. Thirteen witnesses testified.\n4. Findings of Fact\nThe district court issued its findings of fact on August 7, 2014. They are detailed in Section II, above, but Judge Sullivan concluded by framing the question upon remand as \"whether the post-suspension hearing the City affords does indeed provide an opportunity for a taxi driver to assert that, even if the criminal charges are true, continued licensure does not pose any safety concerns\" (quoting Nnebe II , 644 F.3d at 163 ), and answering it as follows:\n[D]rivers do have such an opportunity: a driver who has been arrested may argue that continued licensure does not pose any safety concerns because the charged crime, based on its statutory elements, does not have a nexus to public health or safety. The argument may rarely succeed - so far, it never has - but the evidence in the record shows that drivers may make such arguments, the Chairperson may consider such arguments, and the Chairperson may lift a suspension if the argument is persuasive. That argument, however, is the only argument an arrested driver can make. A driver cannot argue, based either on any facts particular to the driver or on the factual allegations in the criminal complaint, that he or she would not pose any safety concerns. Put simply, once the Chairperson has determined that (1) the driver was charged with a crime, (2) the crime is still pending, and (3) the charged crime has a nexus to public health or safety, the inquiry is over and any other facts or arguments are irrelevant.\nJ. App'x 72.\nThe district court then ordered additional briefing, specifically instructing the parties to \"focus only on procedural due process, as Plaintiffs have explicitly waived any substantive due process claims.\" Id.\n5. Conclusions of Law\nThe parties submitted additional briefing in the Fall of 2014, and held oral argument on the issue on December 5, 2014. On April 28, 2016, the district court issued its conclusions of law. The court identified only one constitutional violation: \"that the notice provided by the TLC with respect to summary post-suspension hearings held prior to December 2006 violated the procedural component of the Due Process Clause of the United States Constitution.\" J. App'x 75. It further found that \"[i]n all other respects ... Plaintiffs have failed to prove their constitutional claims.\" Id.\nAs to plaintiffs' procedural due process claims that were not notice-related, the district court identified the Mathews test as the relevant inquiry but went on to emphasize that \"procedural due process does not require a government agency to provide a party with an individualized hearing where the purpose of such a hearing would be to address a fact not relevant to the applicable substantive inquiry.\" J. App'x 83. The district court compared the instant case to cases in which convicted sex-offender plaintiffs unsuccessfully sought hearings on their individual dangerousness (or lack thereof) before being placed on sex-offender registries, and concluded that \"due process only requires that the individual be granted an opportunity to prove or disprove facts relevant to the substantive standard selected by the legislature.\" J. App'x 84 (emphasis added). More specifically, it held that the TLC regulatory scheme rested \"on whether the charges reflect a threat to public health or safety, not on whether an individual driver in fact poses a risk to public health or safety.\" J. App'x 85. As a result, the district court concluded that \"the driver's individual characteristics and evidentiary arguments relating to the strength of the criminal case against him are simply not relevant to the regulatory framework, which rests on a limited inquiry into the fact and nature of the charges . Thus, an additional hearing on an irrelevant issue would have no bearing on or otherwise prevent an erroneous license deprivation.\" Id. (internal quotation marks omitted).\nThe court, concluding that \"Plaintiffs really seem to be asserting a substantive due process challenge to the TLC's arrest-plus-nexus standard,\" then devoted a large portion of its opinion to a substantive due process analysis, finding that any such claims would fail due to the \"rational relationship\" between the Rule and a legitimate legislative purpose - \"protecting the public from dangerous taxi drivers.\" J. App'x 87, 91-92.\nFinally, the court turned to the issue of whether the notice to the drivers was constitutionally adequate, bifurcating the answer based on whether the notice was given before December 2006 (when the Rule was amended) and during and after December 2006. As to the second period, the court found no violation, as the notice at that time cited the relevant rule, which clearly stated the relevant issues for purposes of the hearing - the fact of the charges, the pendency of those charges, and the nexus between those charges and public health or safety.\nAs to the first period, however, during which the relevant Rule did not include this standard, but merely indicated that a summary suspension could be ordered if the Chair \"finds that emergency action is required to insure public health, safety, or welfare,\" and did not include anything about the issues to be settled at the post-suspension hearing, the district court found that due process had been violated. 35 R.C.N.Y. \u00a7 8-16 (1999). Specifically, it noted that a driver in that period (during which all three named plaintiffs received their letters) \"would have had no way of knowing\" what the critical issues were, and thus that the notice was constitutionally inadequate. J. App'x 93.\nBecause there were state-law claims that were still pending, plaintiffs were unable to appeal to this court; only when they withdrew those claims and the district court issued its final judgment, on March 27, 2018, were they able to do so. They filed this timely appeal thereafter. The defendants then cross-appealed the district court's finding of a pre-2006 notice violation.\nB. Stallworth\nOn September 19, 2017, after the district court issued its opinion in Nnebe, but before entry of final judgment, the Stallworth plaintiffs (Anthony Stallworth, Parichay Barman, Noor Tani, and the New York Taxi Workers Alliance) brought their action. The case was assigned to Judge Sullivan as \"related\" to the Nnebe suit. The Stallworth plaintiffs are all drivers whose licenses were suspended after each was arrested for leaving the scene of an accident. All three were issued DATs and subsequently requested hearings. At their hearings, each introduced evidence that he was not a danger to the public health or safety, by, for example, calling character witnesses, and introducing his driving records as well as evidence that he had no previous criminal convictions. All were unsuccessful; their licenses were suspended for between 81 and 160 days before being reinstated after they pled guilty to reduced charges.\nPlaintiffs originally sought a temporary injunction, but the district court denied it on November 22, 2017, on the basis of its opinion in Nnebe . Defendants moved to dismiss; the motion was granted after the plaintiffs withdrew their opposition. The Stallworth plaintiffs then appealed.\nDISCUSSION\nThe Nnebe plaintiffs ask us to conclude that the hearings the TLC offers are not meaningful and that they thus violate due process. They also argue that the TLC policy unconstitutionally assumes the guilt of the drivers. The Stallworth plaintiffs appeal principally on the same issues, and add that the drivers are denied fair warning of the law. Defendants cross-appeal the district court's ruling in Nnebe that the pre-December 2006 notices are constitutionally infirm.\nI. Standard of Review\nFor the Nnebe appeal, we review the \"district court's findings of fact for clear error, and its conclusions of law de novo .\" CARCO GROUP, Inc. v. Maconachy , 718 F.3d 72, 79 (2d Cir. 2013).\nFor the Stallworth appeal, \"[w]e review the grant of a motion to dismiss de novo , accepting as true all factual claims in the complaint and drawing all reasonable inferences in the plaintiff[s'] favor.\" Singh v. Cigna Corp. , 918 F.3d 57, 62 (2d Cir. 2019).\nII. Procedural Due Process\nThe Fourteenth Amendment provides that \"[n]o state shall ... deprive any person of ... property, without due process of law.\" In a \u00a7 1983 suit brought to enforce procedural due process rights, a court must first determine whether a property interest is implicated, and then, if it is, determine what process is due before the plaintiff may be deprived of that interest. Nnebe II , 644 F.3d at 158. Here, there is no dispute as to the first part of the inquiry: \"a taxi driver has a protected property interest in his license.\" Id. (quoting Nnebe I , 665 F. Supp. 2d at 323 ). Thus, we need decide only what process is due.\nTo make that determination, we balance the factors laid out by the Supreme Court in Mathews v. Eldridge : (1) \"the private interest that will be affected by the official action;\" (2) \"the risk of an erroneous deprivation of such interest through the procedures used, and the probable value, if any, of additional or substitute safeguards;\" and (3) \"the Government's interest, including the ... fiscal and administrative burdens that the additional or substitute procedural requirement[s] would entail.\" 424 U.S. at 335, 96 S.Ct. 893.\nIn Nnebe I , the district court held that the Mathews factors favored the Government, primarily because of what it assumed would be a \"significant financial and administrative burden on the TLC,\" an assumption in part based on the premise that only a process that included an adjudication as to the guilt or innocence of an arrested driver would satisfy plaintiffs. Nnebe I , 665 F. Supp. 2d at 328. On appeal, we questioned that premise, suggesting that it was \"entirely possible that a meaningful hearing can be devised at minimal cost to the City that does not constitute a mini-trial on the criminal charges.\" Nnebe II , 644 F. 3d at 163.\nOn remand, in its conclusions of law, the district court did not balance the Mathews factors - instead it briefly noted the private interest at stake, \"direct[ing] its focus to what minimal process a taxi driver is due before he may be deprived of his property interest in his license, and whether the process afforded drivers is sufficient for such purposes.\" J. App'x 84. It then concluded, relying on Connecticut Department of Public Safety v. Doe , 538 U.S. 1, 123 S.Ct. 1160, 155 L.Ed.2d 98 (2003) and Doe v. Cuomo , 755 F.3d 105 (2d Cir. 2014), that the facts that the drivers asked for an opportunity to prove - namely, that their particular licensure did not pose a risk to the public health or safety - were not relevant to the substantive standard selected by the TLC.\nIn Connecticut Department of Public Safety , the Supreme Court determined that since the Connecticut legislature required convicted sex offenders to register with the Connecticut Department of Safety, but based such a requirement not on current dangerousness, but on the mere fact of conviction, due process did not require an opportunity to prove a fact that was not material to Connecticut's statutory scheme - namely, that a registrant did not pose a danger to his or her community. 538 U.S. at 4, 123 S.Ct. 1160. We reached a similar conclusion as to the New York state registry in Cuomo , holding that \"the New York State Legislature decided that a conviction for a relevant offense was proof enough of dangerousness,\" and that therefore there was no procedural due process violation. 755 F.3d at 113.\nThe district court analogized those cases to the instant one, determining that individual dangerousness was not material and thus that a meaningful hearing on dangerousness was not required. The court based this determination on a narrow reading of the regulatory standard, relying heavily on the word \"charges.\" According to the district court, since the Rule states that the issue to be determined is \"whether the charges underlying the Licensee's arrest, if true , demonstrate that the continuation of the License while awaiting a decision on the criminal charges would pose a threat to public health or safety, ... the entire regulatory scheme turns on whether the charges reflect a threat to public health or safety, not on whether an individual driver in fact poses a risk to public health or safety.\" J. App'x 85.\nWe disagree with this reading of the Rule and thus find the sex offender cases inapposite. Furthermore, we find the district court's reading in tension with the purpose of the Rule.\nA. The TLC Rule\nA close reading of the Rule, in accordance with New York state rules of interpretation, reveals that individual dangerousness is, in fact, relevant under the regulatory scheme. \"[B]ecause the clearest indicator of legislative intent is the statutory text, the starting point in any case of interpretation must always be the language itself, giving effect to the plain meaning thereof.\" Town of Aurora v. Vill. of E. Aurora , 32 N.Y.3d 366, 372, 116 N.E.3d 64 (2018) (citation and internal quotation marks omitted). The current TLC rule allows a license to be summarily suspended \"based upon an arrest or citation if the Chairperson believes that the charges, if true, would demonstrate that continued licensure would constitute a direct and substantial threat to public health or safety.\" 35 R.C.N.Y. \u00a7 68-15(d)(1). The current Rule further provides a list of charges that meet the pre-suspension standard. Id. At the post-deprivation hearing, however, the relevant inquiry is \"whether the charges underlying the Licensee's arrest, if true, demonstrate that the continuation of the License while awaiting a decision on the criminal charges would pose a direct and substantial threat to public health or safety.\" Id. \u00a7 68-15(d)(3).\nThe district court emphasized the words \"the charges ... if true,\" which appear in both the pre- and post- suspension standards. While it is certainly correct that those words cut against an interpretation that would authorize an inquiry into whether the driver is in fact guilty of the charged offense, a focus on these words alone gives short shrift to the rest of the regulatory text. See Town of Aurora , 32 N.Y.3d at 372, 116 N.E.3d 64 (stating that a law \"must be construed as a whole\"\n(citation omitted)). Read in context, the regulation is focused not on the threat posed by the charges , but rather on the threat posed to the public by the driver's licensure . The TLC must show that the charges, if assumed to be true, \"demonstrate\" that \"the continuation of the License ... would pose a direct and substantial threat.\" \u00a7 68-15(d)(3) (emphasis added). It is possible for a driver to be charged with an act that itself endangered public health or safety, but that is insufficient to demonstrate that the driver would continue to pose a threat if allowed to retain his or her license. The crime may have been unrelated to his or her duties, for instance, or a sole infraction in an otherwise spotless record. The underlying conduct, while perhaps satisfying the elements of a crime on the TLC's list, may also be such as to persuade an ALJ and the TLC Chair that the offense was technical or mitigated, such that continuation of the driver's license did not pose the kind of threat conjured by the general nature of the crime charged. The Rule permits the TLC to put forward a charge as a proxy for dangerousness, but its language does not foreclose arguments that the charge alone fails to demonstrate that continued licensure would pose a threat.\nAdditionally, regulations are \"to be read, if possible, in a manner consistent with, rather than in opposition to, the governing statute.\" People ex. rel. Knowles v. Smith , 54 N.Y.2d 259, 267, 445 N.Y.S.2d 103, 429 N.E.2d 781 (1981). As discussed above, the Ordinance governing revocation of for-hire vehicle licenses allows the TLC to suspend a license \"for good cause shown relating to a direct and substantial threat to the public health or safety,\" and allows further suspension or revocation \"after notice and an opportunity for a hearing.\" N.Y.C. Code \u00a7 19-512.1(a). The Ordinance thus does not authorize suspension of a license upon arrest, but rather for \"good cause\" that \"relat[es] to a direct and substantial threat to the public health and safety.\" Id. (emphasis added). The good cause requirement, as well as the general language of the Ordinance, shines the spotlight on whether the TLC has demonstrated that keeping a driver on the road poses a threat to health or safety. While the TLC may decide to treat an arrest for certain crimes as \"good cause\" for immediate suspension pending further inquiry, under the statutory scheme it remains relevant whether the arrest in fact \"relat[es]\" to a health or safety threat to the public from continued licensure of the driver. And because that threat must be both \"direct\" and \"substantial,\" it is relevant whether the conduct underlying the arrest and the overall record and character of the driver confirms or disproves the arrest's relation to public health or safety. Thus, for example, in the majority of cases, the further removed the crime is from the driver's job, the less \"direct\" the threat may be if he or she remains licensed. Depending on the surrounding circumstances and the driver's history, the threat may also be more or less \"substantial.\"\nMoreover, it is useful to put the post-suspension hearing issue back into its proper due process context. Suspension of a driver's license is automatic upon arrest for any felony or listed misdemeanor. The Nnebe plaintiffs originally argued that due process requires a hearing before the suspension takes effect. In Nnebe II , we agreed with the City and the district court that a pre-suspension hearing was not required, because the fact of an arrest provided sufficient indicia of a threat to public health and safety to permit an immediate suspension at a point at which little was known about the driver and the charged crime, provided that the driver would be given a post-deprivation hearing. Nnebe II , 644 F.3d at 158-59. The post-deprivation hearing thus provides the necessary inquiry into the propriety of the suspension in light of the fuller record that can be compiled in the aftermath of the arrest, which might confirm or dispel the initial impression that the driver's continued licensure would pose a threat to the safety of the public.\nThus, by reading the Rule as a whole and consistently with the Ordinance under whose authority it was promulgated, we conclude that the individual circumstances underlying a taxi driver's suspension are relevant to the statutory scheme and to the role that a due process hearing is designed to play when a person is threatened with the loss of a valuable property interest.\nFinally, \"[w]hile examining the specific language of statutory provisions is part of our inquiry, we must also look to the underlying purpose and the statute's history. ... The legislative intent is the great and controlling principle.\" Meegan v. Brown , 16 N.Y.3d 395, 403, 924 N.Y.S.2d 1, 948 N.E.2d 425 (2011) (internal quotation marks omitted); see also Goodwin v. Perales , 88 N.Y.2d 383, 395, 646 N.Y.S.2d 300, 669 N.E.2d 234 (1996) (noting that regulations may go beyond the text of a statute only \"as long as they are in harmony with the statute's over-all purpose\"). As noted above, the Ordinance bespeaks a clear intent to leaven the Commission's eagerness to discipline drivers with greater concern for drivers' rights. Indeed, the City Council embedded its concern into the text of the Ordinance in the form of a legislative \"find[ing] that certain of the rules promulgated within the past several months by the [TLC], such as those that modify the disciplinary measures that may be imposed against taxicab and for-hire vehicle drivers, taxicab and for-hire vehicle owners and taxicab medallion owners are onerous.\" N.Y.C. Code \u00a7 19-512.1, n.1 (1999). Suspensions continued due to arrests alone, with no meaningful ability to contest the TLC's determination that the licensee poses a threat, would appear to be just the kind of \"onerous\" disciplinary measure that the City Council passed \u00a7 19-512.1 to eliminate.\nThus, the text of both the Rule and the Ordinance, as well as the legislative purpose underlying the Ordinance, all indicate that the threat from a given driver's continued licensure is the lodestar of the statutory and regulatory inquiry, and that the hearing is intended to provide a meaningful process for drivers. We thus disagree that the only consideration relevant to the inquiry is the statutory charge ; a meaningful hearing, for purposes of the Rule, must give the driver an opportunity to show that his or her particular licensure does not cause a threat to public safety. With that understanding, we turn to the Mathews factors.\nB. Mathews Factors\n1. Private Interest\nThe first factor to be considered in the Mathews inquiry is \"the private interest that will be affected by the official action.\" Mathews , 424 U.S. at 335, 96 S.Ct. 893. As we have already stated in this case, \"the private interest at stake ... is enormous - most taxi drivers rely on the job as their primary source of income and often earn the sole income for large families in a city where the cost of living significantly exceeds the national average.\" Nnebe II , 644 F.3d at 159 (internal quotation marks omitted). Indeed, we have previously held that this factor favors more extensive process where the interest at stake is \"operating a business and ... pursuing a particular livelihood.\" Spinelli v. City of New York , 579 F.3d 160, 171 (2d Cir. 2009) (internal quotation marks omitted). Moreover, \"[t]he Supreme Court has 'repeatedly recognized the severity of depriving someone of his or her livelihood.' \" Id. (quoting FDIC v. Mallen , 486 U.S. 230, 243, 108 S.Ct. 1780, 100 L.Ed.2d 265 (1988) ); see also Brock v. Roadway Exp., Inc. , 481 U.S. 252, 263, 107 S.Ct. 1740, 95 L.Ed.2d 239 (1987) ; Cleveland Bd. of Educ. v. Loudermill , 470 U.S. 532, 543, 105 S.Ct. 1487, 84 L.Ed.2d 494 (1985) ; Goldberg v. Kelly , 397 U.S. 254, 264, 90 S.Ct. 1011, 25 L.Ed.2d 287 (1970).\nIn the past, we have registered particular concern about the inability to remedy this type of deprivation, noting that \"a licensee erroneously deprived of a license cannot be made whole simply by reinstating the license,\" and that \"the interim period between erroneous deprivation and reinstatement can be financially devastating to the licensee.\" Spinelli , 579 F.3d at 171 (citations and internal quotation marks omitted).\nWe thus have little difficulty in concluding - particularly upon a record demonstrating that plaintiffs were deprived of their licenses for several months at a time - that the private interest here is extremely strong. The first Mathews factor favors the plaintiffs.\n2. Risk of Erroneous Deprivation\nNext, we consider \"the risk of an erroneous deprivation\" under the procedures used by the TLC, along with \"the probable value, if any, of additional or substitute procedural safeguards.\" Mathews , 424 U.S. at 335, 96 S.Ct. 893. We note at the outset that in New York state, \"[u]nlike a felony charge, for which a 'prompt' probable cause hearing must be held or evidence of probable cause must be presented to a grand jury, a misdemeanor charge ... requires no post-arrest determination.\" Krimstock v. Kelly , 306 F.3d 40, 44 (2d Cir. 2002) ; see also People v. Green , 96 N.Y.2d 195, 199-200, 726 N.Y.S.2d 357, 750 N.E.2d 59 (2001). Compare N.Y. Crim. Proc. \u00a7 170.10 (misdemeanors) with N.Y. Crim. Proc. \u00a7 180.10 (felonies). What this means in practice is that a driver can be arrested for a misdemeanor based on an on-the-scene determination of reasonable cause made by the arresting officer, and then have his license suspended for the several months that follow, without any meaningful opportunity to challenge the arrest.\nIn this case, the risk of erroneous deprivation can be assessed by looking to the statistics regarding the outcome of the cases in which drivers' taxi licenses were suspended. The TLC hinges the ultimate decision as to whether to continue the suspension of a license on the outcome of the criminal case. In other words, the TLC discontinues the suspension of an arrested driver only if the charges are dismissed, reduced to an offense that does not warrant a suspension, or resolved favorably. Upon the occurrence of any of these three dispositions, the driver is reinstated without further inquiry into his conduct. As the district court found, the charges against at least 75% of arrested drivers are resolved favorably to the driver, and the drivers' licenses are accordingly reinstated. J. App'x 66. In fact, there was evidence presented at trial indicating that, putting aside arrests for driving under the influence, the percentage of drivers whose licenses are reinstated could be as high as 90%. J. App'x 61, 383.\nIn an analogous case, Valmonte v. Bane , 18 F.3d 992, 995 (2d Cir. 1994), the plaintiff brought a \u00a7 1983 claim challenging her inclusion on a registry of child abusers, where a person could be placed on the registry based on a \"some credible evidence\" standard. Considering both the private interest (the plaintiff's right to secure employment in the child care field) and the Government interest (its parens patriae obligation to protect children from abuse and maltreatment) to be extremely strong, we concluded that \"the deciding factor\" was an unacceptably high risk of error, as evidenced by the fact that \"nearly 75% of those who seek expungement of their names from the list are ultimately successful.\" Id. at 1003. We held that \"[t]he fact that only 25% of those on the list remain after all administrative proceedings have been concluded indicates that the [procedures used were] at best imperfect.\" Id. at 1004.\nHere, as many as 75% of taxi drivers will have their licenses reinstated with no further inquiry into the danger posed by any individual driver to the taxi-riding public. Thus, the vast majority of the suspensions will turn out to have been, by the standard applied by the TLC itself, erroneous. Nor can this deprivation \"be recompensed by the claimant's prevailing in later proceedings,\" Krimstock , 306 F.3d at 63, as there is no way to make up for the income lost during the period in which the driver's license is suspended. We find this to be an unacceptably high risk of error, and thus find that the second factor, like the first, favors plaintiffs.\n3. Government Interest\nThe Supreme Court has recognized the \"significant interest\" that the government has \"in immediately suspending, when felony charges are filed against them, employees who occupy positions of great public trust and high public visibility, such as police officers.\" Gilbert v. Homar , 520 U.S. 924, 932, 117 S.Ct. 1807, 138 L.Ed.2d 120 (1997). And we have noted, when this case was last before us, that \"[a]mong the most critical functions performed by the TLC are ensuring the safety of the taxi-riding public and maintaining the public's trust in the safety of taxis,\" and thus that \"an arrest for a felony or serious misdemeanor creates a strong government interest in ensuring that the public is protected in the short term, prior to any hearing.\" Nnebe II , 644 F.3d at 159 (alteration in original) (internal citations and quotation marks omitted). For that reason, we affirmed the decision below that there was no constitutional violation in failing to offer drivers a pre-suspension hearing, since \"in the immediate aftermath of an arrest, when the TLC has minimal information at its disposal and the very fact of an arrest is cause for concern, the government's interest in protecting the public is greater than the driver's interest in an immediate hearing.\" Id. However, in the post-deprivation context, \"the existence of 'exigent circumstances' warranting a deprivation before holding a hearing is irrelevant. The relevant inquiry is whether the City had a legitimate interest in not providing [drivers] with meaningful post-deprivation due process.\" Spinelli , 579 F.3d at 174.\nThe district court found, in Nnebe I , that additional administrative procedures - specifically, a hearing that attempted to adjudicate the guilt or innocence of an individual driver - would \"unacceptably interfere with the parallel criminal proceeding\" and \"present a significant financial and administrative burden on the TLC.\" 665 F. Supp. 2d at 328. \"We agree[d] with the district court that the City cannot be required to hold a hearing that functions as a preview of the criminal case.\" Nnebe II , 644 F.3d at 160. But we considered the possibility that \"a meaningful hearing can be devised at minimal cost to the City that does not constitute a mini-trial on the criminal charges.\" Id. at 163.\nDefendants did not respond to our supposition by attempting to show, on remand, that a hearing that allowed, for example, an inquiry into the facts underlying a criminal complaint, the driving record of the arrested driver, or whether the charged conduct occurred on- or off-duty, would financially or administratively burden the TLC. Indeed, the TLC already allows such testimony to be heard and such evidence to be presented. They thus do not, and perhaps could not, credibly contend that allowing the ALJ or TLC Chair to consider the evidence already presented at the post-suspension hearings would present an onerous administrative task.\nThus, while we take seriously the Government interest implicated, we hold that, given the potential of conducting far more meaningful hearings at little or no additional financial or administrative cost to the TLC, that interest is outweighed by the private interest at stake and the unacceptably high risk of erroneous deprivation.\nIn Nnebe II , we reserved the question of \"whether a hearing that does nothing more than confirm the driver's identity and the existence of a pending criminal proceeding against him would in fact be adequate process to allow the City to suspend a driver's taxi license until the criminal charges are resolved.\" Id. at 161. We now decide that, under the circumstances presented here, given the high risk of erroneous deprivation of the driver's livelihood for a period of months, and under this particular statutory regime that emphasizes the danger of licensure to the public health and safety, a hearing that in effect conclusively presumes that suspension is appropriate based solely on the abstract relationship of the elements of a charged offense to safe driving provides inadequate process.\nThat conclusion is bolstered by our holding in Krimstock v. Kelly , 306 F.3d 40. In Krimstock , we held that drivers whose cars were seized for forfeiture after an arrest for certain crimes for which the car could be considered an instrumentality were entitled to a prompt hearing to contest the legitimacy of the seizure. Id. at 43S44. Noting that \"[a] car or truck is often central to a person's livelihood or daily activities,\" we concluded that \"[a]n individual must be permitted to challenge the City's continued possession of his or her vehicle during the pendency of legal proceedings where such possession may ultimately prove improper and where less drastic measures than deprivation pendente lite are available and appropriate.\" Id. at 44. We were particularly concerned with \"the temporal gap that typically exists between seizure of the vehicle and the forfeiture proceeding.\" Id. at 53. We concluded that \"the Due Process Clause requires that claimants be given an early opportunity to test the probable validity of further deprivation, including probable cause for the initial seizure, and to ask whether other measures, short of continued impoundment, would satisfy the legitimate interests of the City in protecting the vehicles from sale or destruction pendente lite .\" Id. at 68.\nWe note that in Krimstock , there was no prompt post-deprivation hearing held at all and that our opinion focused heavily on that defect. But there are also some clear similarities between the instant case and Krimstock . Here, a license to drive a taxicab is not simply \"often\" central to the driver's livelihood; it is a prerequisite to plying his or her trade. And while the TLC does provide a post-deprivation hearing, plaintiffs successfully argue that the hearing is effectively meaningless. Moreover, the Krimstock Court did not remand the case with instructions to hold a hearing merely on the fact of the arrest of a given claimant - instead, it required the hearing to allow for a testing of the \"probable cause for the initial warrantless seizure.\" Id. at 70. As in this case, we emphasized that we did \"not envision the retention hearing as a forum for exhaustive evidentiary battles that might threaten to duplicate the eventual forfeiture hearing,\" but nevertheless concluded that a hearing that was less intrusive into the anticipated law-enforcement proceeding was both possible and required to provide due process. Id. at 69-70.\nThe concerns with which we grappled in Krimstock apply with equal force here. As in Krimstock , a taxi-driver's license can be suspended without any independent determination of probable cause, and the deprivation could last weeks or months. And while the TLC Rule does provide a prompt post-deprivation hearing, as discussed above, that hearing is meaningless. Here, as in Krimstock , a lengthy deprivation of property, based on an arrest without a judicial determination of probable cause and without a deeper inquiry into whether the deprivation is appropriate, violates the Constitution's guarantee of procedural due process.\nWe therefore find a procedural due process violation, and remand to the district court to fashion a constitutionally adequate process, after hearing from the parties. We emphasize that we do not require an inquiry into factual guilt or innocence to satisfy the due process inquiry; rather, a hearing that encompasses some level of conduct-specific findings based upon the facts underlying the complaint and the driver's history and characteristics, for example, would be sufficient. Additionally, the district court should consider on remand the plaintiffs' Rule 23 motion for class certification, and determine what, if any, damages plaintiffs are due.\nII. Notice\nThe district court held that the notice provided to drivers before December 2006 denied due process, but that the notice given since that point has been sufficient. The parties cross-appeal that conclusion.\n\"Parties whose rights are to be affected are entitled to be heard; and in order that they may enjoy that right they must first be notified.\" Fuentes v. Shevin , 407 U.S. 67, 80, 92 S.Ct. 1983, 32 L.Ed.2d 556 (1972) (internal quotation marks omitted). \"[I]n the absence of effective notice, the other due process rights ... such as the right to a timely hearing ... are rendered fundamentally hollow.\" Kapps v. Wing , 404 F.3d 105, 124 (2d Cir. 2005). For notice to be effective, it must inform the affected party of what \"critical issue\" will be determined at the hearing. See Turner v. Rogers , 564 U.S. 431, 447, 131 S.Ct. 2507, 180 L.Ed.2d 452 (2011). In addition, \"[p]art of the function of notice is to give the charged party a chance to marshal the facts in his defense.\" Wolff v. McDonnell , 418 U.S. 539, 564, 94 S.Ct. 2963, 41 L.Ed.2d 935 (1974). Adequate notice must \"reasonably ... convey the required information that would permit [a driver] to present [his or her] objections\" to the continuation of a suspension. Spinelli , 579 F.3d at 172 (citation and internal quotation marks omitted).\nCiting to the version of the Rule then in effect, the district court found that the pre-December 2006 notice did not indicate what standard would apply at the post-suspension hearing, as neither the Rule nor the notice informed the driver as to the critical issue to be determined at the hearing. Defendants appeal, arguing that \"any reasonable driver would know that they could challenge their suspension by asserting that they had not been charged with a crime and by challenging the assumption of dangerousness.\" Appellees' Br. 57S58. They maintain that the information contained in the notice - that the driver's license was being suspended based on an arrest for the charge identified in the letter with a citation to the relevant Rule - was adequate to allow the taxi driver to marshal evidence and prepare a defense.\nWhile we do not imply that adequate notice must include a roadmap to a successful defense, the notice here falls considerably on the other side of that line. The text of the Rule pre-2006, as well as the encouragement given to drivers by the TLC ALJs, gave the driver no indication that the only issue that mattered was the question of a \"philosophical nexus\" between the abstract elements of a charged offense and public safety, for which he or she would need to marshal a dramatically different case- case law and legal argument - than he or she would to show evidence of his or her own lack of dangerousness. Indeed, the misleading quality of the notice was confirmed by the fact that drivers did present, and ALJs were instructed to admit, evidence regarding their individual records and the specific facts charged by the arresting officer - evidence that the ALJs were then privately directed not to consider. We thus affirm the lower court on the inadequacy of the pre-2006 notice.\nAs the district court interpreted the Rule, the sufficiency of the post-December 2006 notice presented a closer question, since the notice then cited a version of the Rule that the district court believed embodied the \"arrest-plus-nexus\" standard. Moreover, the drop-off in hearing requests after November 2007 suggests that drivers and their union representatives were being made aware in some manner of the standard being applied to facts by the ALJs and the TLC Chair that rendered the hearings futile.\nAs we have held above, however, that standard was not what the Rule actually required. We therefore disagree with the lower court's decision that the notice became adequate when the language of the Rule changed. For the very same reasons the district court found that drivers would be ill-prepared for the hearing the TLC provided before 2006, they would remain ill-prepared and poorly-informed as to what evidence would be relevant to their hearings thereafter.\nWe thus find that the notice given, both before and after December 2006, was constitutionally infirm. This conclusion is largely academic, in light of the more fundamental problem that the hearing in question was constitutionally insufficient, regardless of the content of the notice.\nIII. Additional Issues\nA. Substantive Due Process\nDespite the plaintiffs' protestations that they did not bring claims based in substantive due process, the district court proceeded to assess a potential substantive due process claim, finding no such claim was viable. Because the plaintiffs do not press, and indeed have affirmatively disavowed, any such claim, we have no reason to discuss the issue.\nB. Unconstitutional Presumption of Guilt\nPlaintiffs additionally argue that what they characterize as a presumption that the taxi drivers are guilty of the charges, for purposes of the hearings, is unconstitutional in light of Nelson v. Colorado , --- U.S. ----, 137 S. Ct. 1249, 197 L.Ed.2d 611 (2017). In Nelson , the Court determined that it was unconstitutional to continue to deprive defendants whose convictions had been vacated or reversed of property that had been retained upon their conviction. Id. at 1252. The Court, noting that \"the presumption of innocence lies at the foundation of our criminal law,\" held that defendants in that posture should have to meet no burden to recover their property, as they were once again presumed innocent in the eyes of the law. Id. at 1256 (citation and internal quotation marks omitted).\nPlaintiffs' analogy to Nelson is inapt. Nelson struck down a law that permitted the State to retain costs, fees and restitution charged to criminal defendants, even after a criminal prosecution had resulted in the invalidation of their convictions, unless the defendant proved his or her factual innocence by clear and convincing evidence. Id. at 1255. Here, by contrast, the drivers' charges remain pending. Rather than relying on an assumption of guilt, the TLC Rule says, in effect, that if a charge is serious enough to warrant revocation of a license upon conviction, then it is serious enough to warrant suspension upon arrest. It is true that the TLC Rule allows initial and continued suspensions based on arrests for at least eighteen misdemeanors, which in New York may occur without a warrant. N.Y. Crim. Proc. \u00a7 140.10(1) ; see Nnebe II , 644 F.3d at 162. It is also true that police officers who arrest someone for a misdemeanor without a warrant may issue the accused a Desk Appearance Ticket (\"DAT\"), NY. Crim. Proc. \u00a7 150.20(1) S(2), and that until the accused appears on the date set by the DAT no neutral factfinder will have determined that the arrest was based on probable cause. However, any concern about the lack of probable cause in a particular case is mitigated, for purposes of the license suspension process, by our holding that the TLC must allow drivers to argue that the circumstances surrounding their arrest show that there is no reason to deem them a danger. Viewing the Mathews factors in light of the procedural changes our ruling today will require, and for the reasons set forth in Nnebe II , we see no constitutional infirmity in a process that allows for context-specific findings but does not open the question of a driver's factual guilt of the criminal charges. We leave that to be resolved in the criminal courts, with the burden on the prosecution to prove guilt beyond a reasonable doubt.\nC. Fair Warning\nFinally, the Stallworth plaintiffs argue that defendants have denied them fair warning of the law. Citing FCC v. Fox Television Stations, Inc. , 567 U.S. 239, 253, 132 S.Ct. 2307, 183 L.Ed.2d 234 (2012) for the proposition that \"laws which regulate persons or entities must give fair notice of conduct that is forbidden or required,\" and that a regulation will be unconstitutionally vague if \"it is unclear as to what fact must be proved,\" plaintiffs argue that the Rule does not satisfy these constitutional requirements. Stallworth Appellants' Br. 57.\nThat argument is merely another version, and a less convincing one, of plaintiffs' notice argument. The cases on which plaintiffs rely are inapposite. Both cases address the harm that occurs where prohibited conduct is not clearly defined or when an agency exceeds it authority in enforcing the law. Here, plaintiffs concede that prohibited conduct is clearly defined by the Rule, and do not argue that the TLC exceeds its authority by continuing their suspensions.\nPlaintiffs note that the Fair Warning Doctrine applies not only to proscribed conduct but also to collateral consequences of that conduct, citing Johnson v. United States , --- U.S. ----, 135 S. Ct. 2551, 192 L.Ed.2d 569 (2015), and Sessions v. Dimaya , --- U.S. ----, 138 S. Ct. 1204, 200 L.Ed.2d 549 (2018). But those cases were concerned with the vagueness of the residual clauses of, respectively, the Armed Career Criminal Act and the federal criminal code's definition of \"crime of violence,\" as incorporated into the Immigration and Nationality Act, and the particular problems that arose from the interactions between the state criminal codes and federal law; the Court concluded in both cases that there was indeed uncertainty as to which crimes would be considered sufficiently violent to trigger particular federal consequences.\nIn contrast, the Stallworth plaintiffs were all suspended under a version of the Rule that specifically enumerates the offenses that will trigger a summary suspension. There is little doubt that certain misdemeanors and all felonies will always lead to a summary suspension and that a hearing will follow. The issue is not that the warning is not fair; it is, as discussed above, that the hearings that follow fail to provide any real opportunity for a driver to contest that suspension. Accordingly, plaintiffs' fair warning argument fails.\nCONCLUSION\nFor the foregoing reasons, we AFFIRM in part and REVERSE in part the judgments of the district court and REMAND for further proceedings. The Nnebe judgment is affirmed insofar as it found a notice violation, and reversed insofar as it found no violation of procedural due process. The Stallworth judgment, which relied upon the Nnebe judgment, is affirmed as to the assumption of guilt and fair warning claims but is otherwise reversed. On remand, the district court is directed to address the proper remedies for the constitutional violations established by the plaintiffs as well as the motion for class certification and the damages, if any, to which plaintiffs are entitled.\nThe Rule was also modestly amended in 2008 and 2011.\nThe facts set forth in this Section are taken from the findings of fact made by the district court after trial, none of which are challenged on appeal.\n\"J. App'x\" refers to the Nnebe Joint Appendix.\nThis list of offenses was not made public until the 2014 amendment, which enumerated the offenses for which an initial summary suspension was automatic.\nOn a few isolated occasions, the TLC has summarily suspended a driver for a misdemeanor that, while not listed, was deemed sufficiently serious to warrant suspension. See TLC v. Nahamov , OATH Index No. 1796/12 (June 4, 2012) (reviewing a suspension for promoting prostitution in the fourth degree).\nThe TLC most often met its burden on the first two issues by providing a DCJS arrest notification, a printout from the TLC database showing that the suspended driver was the same person identified in the arrest notification, and a copy of the penal statute defining the charged crime. Occasionally, it provided a copy of the criminal complaint.\nAs the district court found, \"[t]here have been six recommendations to lift suspensions ... out of [a] few dozen hearings.\" J. App'x 69. This is in contrast to the hundreds of hearings held by the TLC ALJs, a drop due primarily to the presence of \"pre-hearing conferences\" at which an OATH ALJ meets with the driver and a lawyer for the TLC. At these conferences, the OATH ALJ typically discourages the driver from proceeding to the hearing, advising him or her \"that there is 'little or no chance' that the driver will ultimately prevail.\" J. App'x 69. Following the conference, most drivers decide to waive or postpone their hearings.\nAt trial, two witnesses testified that the Chair engaged in a more holistic inquiry into the individual circumstances underlying a driver's arrest. The district court, however, credited neither witness's testimony, finding that one witness had \"little memory of his actual experience reviewing summary suspension hearings, and what memory he did have was contradicted by the documentary record,\" J. App'x 71, and that the testimony of the other witness, a former TLC Chair's designee, \"flatly contradict[ed]\" the official decisions that she herself had written, J. App'x 72.\nAn additional plaintiff, Alexander Karmansky, was listed in the original complaint. He died in 2014 and is not a party to this appeal.\nAccording to the complaint, Nnebe was arrested on May 29, 2006, given a Desk Appearance Ticket (\"DAT\"), and released. He requested a hearing, which was held before a TLC ALJ on June 8, 2006; the ALJ recommended continued suspension. On July 3, 2006, the Chair accepted the ALJ's recommendation. Nnebe's license continued suspended for at least four months, at which point the criminal charges were dismissed for failure to prosecute. Avenaut was arrested on July 17, 2006, for an alleged domestic dispute with his girlfriend, who subsequently recanted her accusation. His license was suspended on July 20, 2006, and reinstated on October 24, 2006, when his case was dismissed for failure to prosecute. Amin was arrested on June 11, 2005, and his license was suspended on June 14, 2005. At his hearing the ALJ recommended continued suspension and the TLC Chair so ruled. His criminal case was adjourned in contemplation of dismissal on August 24, 2005, and the charges were formally dismissed on February 23, 2006. His license was suspended for ten weeks.\nPlaintiffs then contended, and continue to contend, that they did not intend to raise any substantive due process claims. See Nnebe II , 644 F.3d at 153-54 n.2.\nThe court's summary judgment opinion also addressed several other issues not relevant to this appeal.\nThese facts are drawn from the Stallworth complaint; for purposes of this appeal, we accept the allegations as true and draw all reasonable inferences in plaintiffs' favor. Doe v. Columbia Univ. , 831 F.3d 46, 48 (2d Cir. 2016).\nAt the time of the complaint, Stallworth's license had been suspended for approximately 45 days and had not yet been reinstated.\nAt their post-suspension hearings, the argument centered in part over whether a finding of individualized dangerousness was relevant in light of Nnebe I and Nnebe II .\nThe Stallworth action was thus filed at a time when the Nnebe action was stalled due to the pendency of state-law claims, in an apparent effort to reach a quick final judgment that would permit an appellate challenge to the district court's Nnebe decision. The effort succeeded, in that the Stallworth appeal was filed before proceedings in Nnebe reached final judgment. When the Nnebe plaintiffs then dismissed their state-court claims, however, and a final judgment in that case was entered, an appeal was filed in that case as well. The two cases, which raise substantially identical issues, were then placed on a similar schedule and were heard in tandem.\nThe district court did not distinguish the pre-2006 version of the Rule, which, in its written form, allowed the TLC to suspend a license summarily if the Chair found that \"emergency action is required to insure public health, safety or welfare,\" perhaps because all parties agreed that the 2006 Rule simply codified the existing standard, rather than changing it.\nIn its analysis of the Rule, the district court focused solely upon the 2014 iteration of the Rule. We do the same here, acknowledging that there were slight variations throughout the years but that throughout the iterations the underlying concerns remain the same. Because we find that individual dangerousness is relevant even to the most recent Rule, we need not discuss in detail the previous iterations, for which we find the same to be true.\nThis language apparently referenced a recently-established Persistent Violator program, which \"created a point system for license revocation\" that the industry complained \"impose[d] penalties ... for conduct ... unrelated to passenger safety.\" Arif v. N.Y.C. Taxi & Limousine Comm'n , 2002 WL 1559732, at *5 (N.Y. Sup. Ct. July 10, 2002) (alteration omitted), rev'd on other grounds , 3 A.D.3d 345, 770 N.Y.S.2d 344 (2004).\nNew York Criminal Procedure Law \u00a7 140.10(1) allows a police officer to arrest a suspect without a warrant for \"reasonable cause\" that the arrestee has committed a crime \"whether in his or her presence or otherwise.\"\nDefendants do not challenge this finding.\nThe calculation excluding charges of driving under the influence of intoxicants is relevant because such convictions may well be more likely to lead to a high percentage of continued suspensions even where a meaningful hearing is provided.\nWe are cognizant that some number of the 75% of drivers whose licenses were not revoked were vindicated based on their innocence of the charged offense, a factor that would not in any event be canvassed in a proper hearing. J. App'x 66; see also Nnebe II , 644 F.3d at 160. That does not deprive the statistic of significance, however. It is the best available evidence of the percentage of drivers charged with crimes and summarily suspended under the regulation who are ultimately deemed unfit to retain their licenses. Suspension pending resolution of charges may be entirely appropriate in some number of cases that do not ultimately result in conviction and revocation of licenses. But when such a preponderant percentage of summary suspensions are not ultimately vindicated by a finding of unfitness, that fact surely weighs heavily against the defendants' argument that essentially automatic suspensions, for a period of many months, are required to ensure public safety, and that no further review of individual cases is required by the constitutional guarantee of procedural fairness.\nWe further agree with the Nnebe II court that the out-of-Circuit cases cited in Nnebe I - Brown v. DOJ , 715 F.2d 662 (D.C. Cir. 1983) and Cooke v. Social Security Admin. , 125 F. App'x 274 (Fed. Cir. 2004) - are distinguishable by virtue of the facts that: (1) taxi drivers, unlike the plaintiffs in those cases, are not City employees; (2) the misconduct here, unlike that in Brown and Cooke , need not be work-related; and (3) summary suspension can be triggered by a warrantless arrest, whereas in both Brown and Cooke there had been an independent probable cause determination. See Nnebe II , 644 F.3d at 162.\nThe forfeiture proceeding often took place \"months or even years after the seizure.\" Krimstock , 306 F.3d at 45.\nWhile we express no view on the class certification and damages issues, we note that the deprivation of a hearing alone does not necessarily proximately cause a loss of income, since a hearing in a particular case may well have led to a continued suspension in any event. See Warren v. Pataki , 823 F.3d 125, 143 (2d Cir. 2016) (noting that \"[i]n the procedural due-process context, actual damages are based on the compensation that resulted from the plaintiff's receipt of deficient process,\" which involves a determination of \"whether a different outcome would have been obtained had adequate procedural protections been given\").\nIn FCC v. Fox Television Stations, Inc. , 567 U.S. 239, 132 S.Ct. 2307, 183 L.Ed.2d 234 (2012), the Court found the law in question unconstitutionally vague because it did not give notice to television broadcasters that fleeting expletives or momentary nudity could be found actionably indecent when previous FCC decisions had found that such circumstances would not be considered actionably indecent; in SEC v. Sloan , 436 U.S. 103, 98 S.Ct. 1702, 56 L.Ed.2d 148 (1978), the Court held that the SEC exceeded its authority when it imposed an indefinite trading suspension under a statute that explicitly stated that the SEC could suspend trading for no more than ten days.\nTo the extent plaintiffs claim they were denied fair warning because the written Rule, which makes facts other than the fact of arrest relevant to the suspension decision, failed to warn them that the TLC's de facto standard ignored such evidence, that argument is duplicative of plaintiffs' fair notice claim.",
+        "type": "majority",
+        "author": "Gerard E. Lynch, Circuit Judge:"
+      }
+    ],
+    "attorneys": [
+      "Daniel L. Ackman, Law Office of Daniel L. Ackman, New York, New York, David T. Goldberg, Donahue & Goldberg, LLP, New York, New York, for Plaintiffs - Appellants - Cross-Appellees in Nnebe, and Daniel L. Ackman, Law Office Of Daniel L. Ackman, New York, New York for Plaintiffs - Appellants in Stallworth.",
+      "Claude S. Platton, Assistant Corporation Counsel (Richard Dearing, Susan Paulson, on the brief), for Zachary W. Carter, Corporation Counsel, New York, New York, for Defendants - Appellees - Cross-Appellants in Nnebe, and Zachary W. Carter, Corporation Counsel, Claude S. Patton, Susan Paulson, and Scott Shorr, New York, New York, for Defendants - Appellees in Stallworth.",
+      "Runa Rajagopal, The Bronx Defenders, Bronx, New York, for amici curiae The Bronx Defenders, Community Service Society of New York, Legal Action Center, Neighborhood Defender Service of Harlem, Youth Represent, Urban Justice Center Mental Health Project, Brooklyn Defender Services, Legal Aid Society, and LatinoJustice PRLDEF."
+    ],
+    "corrections": "",
+    "head_matter": "Jonathan NNEBE, Khairul Amin, Eduardo Avenaut, New York Taxi Workers Alliance, individually and on behalf of all others similarly situated, Plaintiffs - Appellants - Cross-Appellees,\nAlexander Karmansky, individually and on behalf of all others similarly situated, Plaintiff,\nv.\nMatthew DAUS, Joseph Eckstein, Elizabeth Bonina, the New York City Taxi and Limousine Commission, the City of New York, Charles Fraser, Defendants - Appellees - Cross-Appellants,\nCharles Frazier, Defendant.\nAnthony Stallworth, Parichay Barman, Noor Tani, the New York Taxi Workers Alliance, individually and on behalf of all others similarly situated, Plaintiffs - Appellants,\nv.\nMeera Joshi, Chris Wilson, Stas Skarbo, the City of New York, Defendants - Appellees.\nDocket Nos. 18-866-cv (L)\n18-1254-cv (XAP)\n18-490-cv\nAugust Term, 2018\nUnited States Court of Appeals, Second Circuit.\nArgued: January 14, 2019\nDecided: July 19, 2019\nDaniel L. Ackman, Law Office of Daniel L. Ackman, New York, New York, David T. Goldberg, Donahue & Goldberg, LLP, New York, New York, for Plaintiffs - Appellants - Cross-Appellees in Nnebe, and Daniel L. Ackman, Law Office Of Daniel L. Ackman, New York, New York for Plaintiffs - Appellants in Stallworth.\nClaude S. Platton, Assistant Corporation Counsel (Richard Dearing, Susan Paulson, on the brief), for Zachary W. Carter, Corporation Counsel, New York, New York, for Defendants - Appellees - Cross-Appellants in Nnebe, and Zachary W. Carter, Corporation Counsel, Claude S. Patton, Susan Paulson, and Scott Shorr, New York, New York, for Defendants - Appellees in Stallworth.\nRuna Rajagopal, The Bronx Defenders, Bronx, New York, for amici curiae The Bronx Defenders, Community Service Society of New York, Legal Action Center, Neighborhood Defender Service of Harlem, Youth Represent, Urban Justice Center Mental Health Project, Brooklyn Defender Services, Legal Aid Society, and LatinoJustice PRLDEF.\nBefore: Katzmann, Chief Judge, and Hall and Lynch, Circuit Judges.\nThe Clerk of Court is requested to amend the caption to conform to the above."
+  },
+  "file_name": "0066-01",
+  "first_page_order": 66,
+  "last_page_order": 91
+}

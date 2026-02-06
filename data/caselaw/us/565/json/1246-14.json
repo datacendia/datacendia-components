@@ -1,0 +1,59 @@
+{
+  "id": 12250213,
+  "name": "Young v. United States",
+  "name_abbreviation": "Young v. United States",
+  "decision_date": "2012-03-05",
+  "docket_number": "No. 11-7658",
+  "first_page": "1246",
+  "last_page": "1246",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1246"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.728,
+    "sha256": "9519c0b2dd9e3faaffa76807c8fc186ef9b97140b2813f61f594c43840217e01",
+    "simhash": "1:24ea98cbca951158",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Young v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7658.\nYoung v. United States."
+  },
+  "file_name": "1246-14",
+  "first_page_order": 1328,
+  "last_page_order": 1328
+}

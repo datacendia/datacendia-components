@@ -1,0 +1,59 @@
+{
+  "id": 12219789,
+  "name": "Richardson v. South Carolina",
+  "name_abbreviation": "Richardson v. South Carolina",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5355",
+  "first_page": "903",
+  "last_page": "903",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 903"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.732,
+    "sha256": "5c751f17c09a7cd458d809e512180a3a6ebbe036d66e3a312c49b91c2b5bf5d4",
+    "simhash": "1:b78b0ab9de51ba29",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Richardson v. South Carolina."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5355.\nRichardson v. South Carolina."
+  },
+  "file_name": "0903-04",
+  "first_page_order": 985,
+  "last_page_order": 985
+}

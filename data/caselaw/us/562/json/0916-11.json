@@ -1,0 +1,59 @@
+{
+  "id": 5928065,
+  "name": "Dade v. Department of Commerce",
+  "name_abbreviation": "Dade v. Department of Commerce",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5347",
+  "first_page": "916",
+  "last_page": "916",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 916"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 80,
+    "ocr_confidence": 0.604,
+    "sha256": "45f3b2c43b2b8dddc65c876aad37f49564006cad3f153d1e1371831a24d6a930",
+    "simhash": "1:838290c95e6910c8",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dade v. Department of Commerce."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. Fed. Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5347.\nDade v. Department of Commerce."
+  },
+  "file_name": "0916-11",
+  "first_page_order": 938,
+  "last_page_order": 938
+}

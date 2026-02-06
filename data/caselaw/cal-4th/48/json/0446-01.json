@@ -1,0 +1,654 @@
+{
+  "id": 6050695,
+  "name": "INTERNATIONAL SOCIETY FOR KRISHNA CONSCIOUSNESS OF CALIFORNIA, INC., et al., Plaintiffs and Respondents, v. CITY OF LOS ANGELES et al., Defendants and Appellants",
+  "name_abbreviation": "International Society for Krishna Consciousness of California, Inc. v. City of Los Angeles",
+  "decision_date": "2010-03-25",
+  "docket_number": "No. S164272",
+  "first_page": "446",
+  "last_page": "466",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "48 Cal. 4th 446"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal.",
+    "id": 9021,
+    "name": "Supreme Court of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "487 U.S. 474",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1774764
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "483"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/487/0474-01"
+      ]
+    },
+    {
+      "cite": "505 U.S. 672",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1480771
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "683-684"
+        },
+        {
+          "page": "112"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/505/0672-01"
+      ]
+    },
+    {
+      "cite": "273 Cal.Rptr. 302",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "223 Cal.App.3d 1562",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4383019
+      ],
+      "pin_cites": [
+        {
+          "page": "1571"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/223/1562-01"
+      ]
+    },
+    {
+      "cite": "577 P.2d 677",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "145 Cal.Rptr. 542",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 Cal.3d 158",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2284127
+      ],
+      "pin_cites": [
+        {
+          "page": "165"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/21/0158-01"
+      ]
+    },
+    {
+      "cite": "491 U.S. 781",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6219515
+      ],
+      "weight": 6,
+      "pin_cites": [
+        {
+          "page": "791"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/491/0781-01"
+      ]
+    },
+    {
+      "cite": "307 U.S. 496",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6140933
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "515-516"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/307/0496-01"
+      ]
+    },
+    {
+      "cite": "45 P.3d 243",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "119 Cal.Rptr.2d 296",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "27 Cal.4th 939",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1103388
+      ],
+      "pin_cites": [
+        {
+          "page": "968"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/27/0939-01"
+      ]
+    },
+    {
+      "cite": "703 P.2d 1119",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 2002,
+      "opinion_index": 0
+    },
+    {
+      "cite": "217 Cal.Rptr. 225",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 2002,
+      "opinion_index": 0
+    },
+    {
+      "cite": "39 Cal.3d 501",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2011351
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "511"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/39/0501-01"
+      ]
+    },
+    {
+      "cite": "993 P.2d 334",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "93 Cal.Rptr.2d 1",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "22 Cal.4th 352",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        157817
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "357"
+        },
+        {
+          "page": "357"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/22/0352-01"
+      ]
+    },
+    {
+      "cite": "530 F.3d 768",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6053610
+      ],
+      "pin_cites": [
+        {
+          "page": "770"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/530/0768-01"
+      ]
+    },
+    {
+      "cite": "12 P.3d 720",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "101 Cal.Rptr.2d 470",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "24 Cal.4th 468",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1180099
+      ],
+      "pin_cites": [
+        {
+          "page": "486"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-4th/24/0468-01"
+      ]
+    },
+    {
+      "cite": "564 P.2d 1203",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "138 Cal.Rptr. 885",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "19 Cal.3d 588",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2291143
+      ],
+      "pin_cites": [
+        {
+          "page": "606-607, fn. 8"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-3d/19/0588-01"
+      ]
+    },
+    {
+      "cite": "407 U.S. 551",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9139241
+      ],
+      "weight": 3,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/407/0551-01"
+      ]
+    },
+    {
+      "cite": "592 P.2d 341",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "153 Cal.Rptr. 854",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "23 Cal.3d 899",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2268476
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-3d/23/0899-01"
+      ]
+    },
+    {
+      "cite": "172 P.3d 742",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "69 Cal.Rptr.3d 288",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "42 Cal.4th 850",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3673623
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "858"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-4th/42/0850-01"
+      ]
+    },
+    {
+      "cite": "434 P.2d 353",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "64 Cal.Rptr. 97",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "67 Cal.2d 845",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2328444
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "851"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-2d/67/0845-01"
+      ]
+    },
+    {
+      "cite": "846 P.2d 756",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "17 Cal.Rptr.2d 174",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "4 Cal.4th 1017",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        2001569
+      ],
+      "pin_cites": [
+        {
+          "page": "1072-1073"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-4th/4/1017-01"
+      ]
+    },
+    {
+      "cite": "505 U.S. 672",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1480771
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "680"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/505/0672-01"
+      ]
+    },
+    {
+      "cite": "993 P.2d 334",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "93 Cal.Rptr.2d 1",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "22 Cal.4th 352",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        157817
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-4th/22/0352-01"
+      ]
+    },
+    {
+      "cite": "49 U.S.C. \u00a7 114",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(f)(ll)"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "115 Stat. 597",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "841 P.2d 975",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 2
+    },
+    {
+      "cite": "14 Cal.Rptr.2d 455",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 2
+    },
+    {
+      "cite": "4 Cal.4th 474",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        2001535
+      ],
+      "pin_cites": [
+        {
+          "page": "482-483"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/cal-4th/4/0474-01"
+      ]
+    },
+    {
+      "cite": "172 P.3d 742",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 2
+    },
+    {
+      "cite": "69 Cal.Rptr.3d 288",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 2
+    },
+    {
+      "cite": "42 Cal.4th 850",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3673623
+      ],
+      "weight": 3,
+      "opinion_index": 2,
+      "case_paths": [
+        "/cal-4th/42/0850-01"
+      ]
+    },
+    {
+      "cite": "434 P.2d 353",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 2
+    },
+    {
+      "cite": "64 Cal.Rptr. 97",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "67 Cal.2d 845",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2328444
+      ],
+      "weight": 2,
+      "opinion_index": 2,
+      "case_paths": [
+        "/cal-2d/67/0845-01"
+      ]
+    },
+    {
+      "cite": "505 U.S. 672",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1480771
+      ],
+      "weight": 5,
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/505/0672-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1715,
+    "char_count": 51245,
+    "ocr_confidence": 0.899,
+    "pagerank": {
+      "raw": 6.946957525295127e-08,
+      "percentile": 0.4211523528977944
+    },
+    "sha256": "b8534ce950f18ecab3ba14da99b54263e334234c4aabcd1a92ccec5744d523e6",
+    "simhash": "1:efd7b487bd99eeeb",
+    "word_count": 8107
+  },
+  "last_updated": "2024-02-27T23:01:22.343664+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "INTERNATIONAL SOCIETY FOR KRISHNA CONSCIOUSNESS OF CALIFORNIA, INC., et al., Plaintiffs and Respondents, v. CITY OF LOS ANGELES et al., Defendants and Appellants."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nMORENO, J.\nIn 1997, the City of Los Angeles enacted an ordinance prohibiting persons from soliciting funds at Los Angeles International Airport. The International Society for Krishna Consciousness of California, Inc., sought an injunction in federal district court, which ruled that the ordinance violated the free speech clause of the California Constitution. The city appealed and, following protracted litigation, the Ninth Circuit Court of Appeals requested that this court decide the following question: \u201cIs Los Angeles International Airport a public forum under the Liberty of Speech Clause of the California Constitution?\u201d California Rules of Court, rule 8.548 provides that this court may decide a question of California law upon which there is no controlling precedent at the request of a federal court of appeals if \u201c[t]he decision could determine the outcome of a matter pending in the requesting court. . . .\u201d\nWe granted the Ninth Circuit\u2019s request and directed the parties to address the following questions: \u201c1) Is Los Angeles International Airport a public forum under the Liberty of Speech Clause of the California Constitution? 2) If so, does the ordinance at issue violate the California Constitution?\u201d For the reasons that follow, we conclude that whether or not Los Angeles International Airport is a public forum for free expression under the California Constitution, the ordinance is valid as a reasonable time, place, and manner restriction of expressive rights to the extent that it prohibits soliciting the immediate receipt of funds. Accordingly, we do not determine whether Los Angeles International Airport is a public fomm under the liberty of speech clause of the California Constitution, because the resolution of that question could not determine the outcome of the present matter.\nFacts\nFormer section 23.27(c) of the Los Angeles Administrative Code (hereafter section 23.27(c)), which became effective on May 15, 1997, provided that \u201c[n]o person shall solicit and receive funds\u201d \u201cin a continuous or repetitive manner\u201d \u201cinside the airport terminals\u201d at Los Angeles International Airport (LAX), \u201cin the parking areas at the Airport,\u201d or \u201con the sidewalks adjacent to the airport terminals or the sidewalks adjacent to the parking areas at the Airport.\u201d (Intern. Soc. for Krishna v. City of Los Angeles (9th Cir. 2008) 530 F.3d 768, 770.)\nLAX occupies 3,550 acres of land, approximately 93 acres of which is occupied by nine passenger terminals that include 195,000 square feet of space for concession and retail establishments for the benefit of travelers and their guests. In 2005, LAX served nearly 60 million passengers, making it one of the largest airports in the world. \u201cThe upper level of the airport contains commercial concessions and amenities, including four duty free shops, five fast food restaurants, five full service restaurants, 18 gift shops/newsstands, 19 cocktail lounges, five cafeterias, eight snack bars, three coffee shops, two food courts, six business centers, two bookstores, three postal facilities, and four specialty stores, [f] At LAX, there are areas open to the public where people may come and go freely and engage in a variety of activities for which facilities are provided, including those mentioned above.\u201d\nOn May 13, 1997, the International Society for Krishna Consciousness of California, Inc., and others (hereafter ISKCON) filed a complaint for declaratory and injunctive relief against the City of Los Angeles and others (hereafter City) in the United States District Court for the Central District of California, alleging that section 23.27(c) violates article I, section 2 of the California Constitution and the First Amendment of the United States Constitution. ISKCON practices the Krishna consciousness religion, a basic tenet of which involves an evangelical activity known as sankirtan, which requires members of ISKCON to approach people in public places in order to proselytize, solicit donations, sell and distribute literature, and disseminate information about Krishna consciousness programs and activities. Sankirtan has four purposes: to spread religious truth; to proselytize and attract new members; to distribute Krishna consciousness literature; and to generate funds.\nOn June 6, 1997, the district court issued a preliminary injunction enjoining the City from enforcing section 23.27(c) against ISKCON. On May 27, 1998, the district court granted summary judgment in favor of ISKCON, declaring section 23.27(c) unconstitutional and permanently enjoining the City from enforcing the ordinance. The district court held \u201cthat solicitation is not basically incompatible with the normal activity of the airport or the primary use of the airport, to facilitate air travel. Any difficulties caused by solicitation can be addressed by the use of less restrictive measures.\u201d The court found \u201cthat \u2018the Ordinance is inconsistent with the Liberty of Speech Clause of the California Constitution\u2019 and that the airport is a public forum in relation to solicitation.\u201d The district court further held that section 23.27(c) was a prohibited content-based regulation of speech because it \u201cregulates solicitation but not other equivalent forms of speech.\u201d The court noted, however, that \u201cthe California Supreme Court has never addressed whether regulation directed solely at solicitation of money violates the California Liberty of Speech Clause . . . .\u201d The City appealed on June 26, 1998.\nWhile the appeal was pending, this court issued its decision in Los Angeles Alliance for Survival v. City of Los Angeles (2000) 22 Cal.4th 352, 357 [93 Cal.Rptr.2d 1, 993 P.2d 334], which held that an ordinance \u201cthat is directed at activity involving public solicitation for the immediate donation or payment of funds should not be considered content based or constitutionally suspect under the California Constitution, and should be evaluated under the intermediate scrutiny standard applicable to time, place, and manner regulations, rather than under the strict scrutiny standard.\u201d The Ninth Circuit vacated the summary judgment and remanded this case back to the district court for reconsideration in light of this decision.\nOn August 2, 2001, the district court again granted summary judgment in favor of ISKCON on the grounds that LAX was a public forum under California law and section 23.27(c) was not a reasonable time, place, and manner restriction of the solicitation of funds at LAX. The court stated: \u201cThe Ordinance, in the present case, bans all solicitation for the immediate receipt of funds in the LAX terminals, parking lots and adjacent sidewalks. . . . [T]he court finds that the Ordinance constitutes a content-neutral restriction on expressive activity.\u201d The court further found, however, \u201cthat LAX is a public forum for purposes of California\u2019s Liberty of Speech clause,\u201d and \u201c[t]he Ordinance does not constitute a reasonable restriction on the time, place and manner of solicitation activities,\u201d in part because the ordinance\u2019s \u201cban on all solicitation for the immediate receipt of funds at all times\u2014not just during peak hours or in overcrowded locations\u2014places a substantial burden on several forms of lawful solicitation, such as solicitation of immediate donations for lawful charitable, religious, political and protest activities.\u201d The City again appealed, two weeks before the terrorist attacks on September 11, 2001. (Intern. Soc. for Krishna v. City of Los Angeles, supra, 530 F.3d at p. 771.)\nWhile the present appeal was pending, the City enacted section 171.07 of the Los Angeles Municipal Code, which became effective on December 16, 2002, and permits organizations to apply for a permit to \u201csolicit and receive funds\u201d in designated locations at LAX. This ordinance provides that: \u201c \u2018Solicit and receive funds\u2019 shall mean any oral or written request for funds conducted by a person to or with passers-by in a continuous and repetitive manner where funds are immediately received.\u201d {Ibid.) This ordinance states that its provisions are \u201ctemporary and provisional pending the outcome\u201d of the present litigation. {Id., \u00a7 171.07(G)(1), quoted in Intern. Soc. for Krishna v. City of Los Angeles, supra, 530 F.3d at p. 772.) ISKCON filed a suit challenging this new ordinance on January 13, 2003. (C.D.Cal. No. CV 03-00293.)\nOn March 21, 2003, the Ninth Circuit announced in the present appeal that it intended to ask this court to decide \u201c \u2018[wjhether the Liberty of Speech Clause of the California Constitution should be interpreted more expansively than the federal First Amendment,\u2019 \u201d but first remanded the present case to the district court \u201cfor the limited purpose of allowing the parties to supplement the record with post-9/11 evidence that would aid the California Supreme Court in its deliberations.\u201d (Intern. Soc. for Krishna v. City of Los Angeles, supra, 530 F.3d at p. 772, italics omitted.) The parties informally agreed that the discovery then being conducted in the related case challenging section 171.07 of the Los Angeles Municipal Code (C.D.Cal. No. CV 03-00293) would be used in the present appeal as well.\nUltimately, the parties stipulated that 62 documents filed in the related case be deemed to have been filed in the present appeal. These documents establish the following. The nine passenger terminals in LAX are located on the outside ring of a horseshoe-shaped, double-deck roadway. The upper level roadway serves the departure areas, and the lower level roadway serves the arrival areas. Sidewalks run the length of both the departure and arrival areas and total 154,604 square feet. The City does not regulate religious or charitable solicitation on the sidewalks and does not prohibit persons in the publicly accessible areas of the terminals from distributing literature and speaking with members of the traveling public about their views and beliefs.\nFollowing the September 11, 2001 terrorist attacks, the departure areas of the passenger terminals at LAX were separated into prescreening areas that are open to the public, and postscreening areas to which only ticketed passengers are admitted. Consumer amenities such as stores and restaurants in most of the terminal buildings are located in the postscreening areas to which only ticketed passengers are admitted, but there are exceptions. In the international terminal, most of the retail amenities and concessions, including a food court, are located in the prescreening area that is open to the general public. Commercial amenities and facilities are also located in areas open to the general public in three other terminals. The prescreening area has become more congested due to the presence of explosive detection system (EDS) and explosive trace device (ETD) equipment that is used to scan each piece of baggage. Approximately 211,000 square feet of the area of the terminals is open to the general public and the City has allocated approximately 670 square feet for solicitation activities.\nOn September 18, 2006, in the related case (C.D.Cal. No. CV 03-00293), the district court, having declined to exercise supplemental jurisdiction over ISKCON\u2019s state law claim, granted summary judgment in favor of the City, ruling that section 171.07 of the Los Angeles Municipal Code did not violate the First Amendment of the United States Constitution. ISKCON appealed on November 16, 2006.\nOn June 9, 2008, the Ninth Circuit issued an order in the present appeal requesting that this court decide the following question: \u201cIs Los Angeles International Airport a public forum under the Liberty of Speech Clause of the California Constitution?\u201d (Intern. Soc. for Krishna v. City of Los Angeles, supra, 530 F.3d at p. 770.) The court added: \u201cOur phrasing of the question should not restrict the California Supreme Court\u2019s consideration of the issues involved.\u201d (530 F.3d at p. 770.) The Ninth Circuit stated that the \u201canswer will be determinative of the appeal presently before us.\u201d (Id. at p. 769.)\nOn August 13, 2008, this court granted the request and directed the parties to address the following questions: \u201c1) Is Los Angeles International Airport a public forum under the Liberty of Speech Clause of the California Constitution? 2) If so, does the ordinance at issue violate the California Constitution?\u201d\nDiscussion\n\u201cThe constitutional right of free expression is an essential ingredient of our democratic society. \u2018It is designed and intended to remove governmental restraints from the arena of public discussion, putting the decision as to what views shall be voiced largely into the hands of each of us, in the hope that use of such freedom will ultimately produce a more capable citizenry and more perfect polity and in the belief that no other approach would comport with the premise of individual dignity and choice upon which our political system rests.\u2019 [Citations.] The airing of opposing views is fundamental to an informed electorate and, through it, a free society.\u201d (Spiritual Psychic Science Church v. City of Azusa (1985) 39 Cal.3d 501, 511 [217 Cal.Rptr. 225, 703 P.2d 1119], disapproved on another ground in Kasky v. Nike, Inc. (2002) 27 Cal.4th 939, 968 [119 Cal.Rptr.2d 296, 45 P.3d 243].)\nIt is well established that public areas such as streets and parks are public forums for free expression. As the high court has stated: \u201cWherever the title of streets and parks may rest, they have immemorially been held in trust for the use of the public and, time out of mind, have been used for purposes of assembly, communicating thoughts between citizens, and discussing public questions. Such use of the streets and public places has, from ancient times, been a part of the privileges, immunities, rights, and liberties of citizens. The privilege of a citizen of the United States to use the streets and parks for communication of views on national questions may be regulated in the interest of all; it is not absolute, but relative, and must be exercised in subordination to the general comfort and convenience, and in consonance with peace and good order; but it must not, in the guise of regulation, be abridged or denied.\u201d (Hague v. C. I. O. (1939) 307 U.S. 496, 515-516 [83 L.Ed. 1423, 59 S.Ct. 954].) Even in a public forum, the right of free speech may be restricted by reasonable restrictions on its time, place, or manner. (Ward v. Rock Against Racism (1989) 491 U.S. 781, 791 [105 L.Ed.2d 661, 109 S.Ct. 2746].)\nThe Ninth Circuit asked this court to determine whether LAX is a public forum under the liberty of speech clause of the California Constitution. But our court rules provide that we should resolve such an issue only if \u201c[t]he decision could determine the outcome of a matter pending in the requesting court . . . .\u201d (Cal. Rules of Court, rale 8.548(a)(1).) Declaring whether LAX is a public forum would not determine the outcome of the present case, because the ordinance is a valid time, place, and manner restriction of free expression even if LAX is a public forum.\nSection 23.27(c) prohibits only solicitation of the immediate receipt of funds and permits other forms of free expression, including soliciting future donations. \u201cMany forms of solicitation are constitutionally protected.\u201d (People v. Fogelson (1978) 21 Cal.3d 158, 165 [145 Cal.Rptr. 542, 577 P.2d 677].) In Fogelson, we held unconstitutional on its face an ordinance enacted by the City of Los Angeles that made it unlawful to \u201c \u2018seek, beg, or solicit . . . alms or donations\u2019 \u201d on city property without a permit. (Id. at p. 161, fn. 1.) We concluded that the ordinance \u201clends itself to a substantial number of unconstitutional applications\u201d (id. at p. 164), noting that it would regulate several forms of protected solicitation including soliciting religious or political contributions (id. at pp. 164-165, fn. omitted). But we recognized that \u201c[t]he mere fact that the challenged ordinance attempts to regulate constitutionally protected speech and religious activity does not, of course, render it unconstitutional. Speech and religious exercise are not wholly exempt from controls. [Citation.] The state may, for example, reasonably regulate the time, place and manner of engaging in solicitation in public places. [Citations.]\u201d (Id. at p. 165.) The flaw in the ordinance at issue in Fogelson was that it granted public officials \u201c \u2018wide or unbounded discretion in granting or denying permits,\u2019 \u201d which permitted the officials to base their decisions \u201c \u2018on the content of the ideas sought to be expressed.\u2019 [Citations.]\u201d (Id. at p. 166.) We struck down the ordinance, stating it \u201ccontains absolutely no standards to guide licensing officials in exercising their discretion to grant or deny applications to solicit on city property. Thus, the ordinance gives officials unbridled power to prohibit constitutionally protected forms of solicitation.\u201d (Id. at p. 167, fn. omitted.)\nIn Los Angeles Alliance for Survival v. City of Los Angeles, supra, 22 Cal.4th 352, 357 (Los Angeles Alliance), we upheld an ordinance that banned soliciting an \u201cimmediate donation\u201d in certain public places and in all public places if done in an aggressive manner. The ordinance enacted by the City of Los Angeles prohibited \u201caggressive solicitation\u201d in any public place (id. at p. 398) and banned all solicitations in certain locations, such as near banks and automated teller machines, in dining areas of restaurants, or directed at occupied vehicles (id. at pp. 399-400). The ordinance limited the term \u201csolicit\u201d to requests for \u201can immediate donation of money or other thing of value.\u201d (Id. at p. 399.) We recognized that the ordinance \u201cplainly implicates the liberty of speech clause of the California Constitution,\u201d but added that \u201c[t]he circumstance that an ordinance regulates protected conduct does not in itself, however, render the ordinance invalid .... California decisions long have recognized that even with regard to protected activity, a regulation may be enforceable if it survives the intermediate scrutiny of time, place, and manner analysis.\u201d (Id. at p. 364.) The ordinance will survive such intermediate scrutiny if \u201cit is (i) narrowly tailored, (ii) serves a significant government interest, and (iii) leaves open ample alternative avenues of communication. [Citation.]\u201d (Ibid., fn. omitted; see Ward v. Rock Against Racism, supra, 491 U.S. at p. 791 [\u201c[E]ven in a public forum the government may impose reasonable restrictions on the time, place, or manner of protected speech, provided the restrictions \u2018are justified without reference to the content of the regulated speech, that they are narrowly tailored to serve a significant governmental interest, and that they leave open ample alternative channels for communication of the information.\u2019 [Citations.]\u201d].)\nIn order to qualify for intermediate scrutiny, a time, place, and manner regulation of protected speech must be content neutral, in contrast to content-based regulations, which are subjected to strict scrutiny. (Los Angeles Alliance, supra, 22 Cal.4th at pp. 364-365.) To be content neutral, a regulation must \u201cbe \u2018justified\u2019 by legitimate concerns that are unrelated to any \u2018disagreement with the message\u2019 conveyed by the speech. [Citation.]\u201d (Id. at p. 368; see Ward v. Rock Against Racism, supra, 491 U.S. at p. 791 [\u201cA regulation that serves purposes unrelated to the content of expression is deemed neutral, even if it has an incidental effect on some speakers or messages but not others.\u201d].) Observing that \u201cthe regulation of solicitation long has been recognized as being within the government\u2019s police power . . . ,\u201d we held that \u201cregulations such as the Los Angeles ordinance here at issue, that single out the public solicitation of funds for distinct treatment, should not be viewed as content based or constitutionally suspect for purposes of analysis under article I, section 2(a), of the California Constitution.\u201d (Los Angeles Alliance, supra, 22 Cal.4th at p. 378.)\nUpon reconsideration in light of our decision in Los Angeles Alliance, the district court concluded that the ordinance at issue here was content neutral, but did not survive the intermediate scrutiny described in our decision in Los Angeles Alliance, which requires that the regulation be narrowly tailored, serve a significant government interest, and leave open ample alternative avenues of communication. The district court held that section 23.27(c) was not narrowly tailored because the ordinance\u2019s \u201cban on all solicitation for the immediate receipt of funds at all times\u2014not just during peak hours or in overcrowded locations\u2014places a substantial burden on several forms of lawful solicitation, such as solicitation of immediate donations for lawful charitable, religious, political and protest activities.\u201d The district court further mled that the ordinance failed to leave open ample alternate avenues of communication. Although the court acknowledged that the ordinance does not ban all solicitation, including \u201cspeaking with travelers about any subject or distributing literature,\u201d it left \u201cno ample venue\u201d for ISKCON to \u201csolicit financial support for their charitable, religious or political activities.\u201d The district court again granted ISKCON\u2019s motion for summary judgment.\nThe district court misapplied our decision in Los Angeles Alliance and the concept of narrow tailoring that it incorporates. We relied in Los Angeles Alliance on the Court of Appeal\u2019s decision in Savage v. Trammell Crow Co. (1990) 223 Cal.App.3d 1562, 1571 [273 Cal.Rptr. 302], which held that a ban on distributing religious pamphlets in the parking lot of a shopping center was a valid time, place, and manner regulation. The ban on leafleting was narrowly drawn because it furthered the shopping center\u2019s \u201cinterest in controlling litter and traffic.\u201d (Id. at p. 1574.) The court emphasized that \u201cin determining whether a regulation is narrowly drawn, ... we must give some deference to the means chosen by responsible decisionmakers. [Citation.]\u201d (Ibid.) To be narrowly drawn, a regulation \u201c \u2018need not be the least-restrictive or least-intrusive means of doing so. Rather, the requirement of narrow tailoring is satisfied \u201cso long as the . . . regulation promotes a substantial government interest that would be achieved less effectively absent the regulation.\u201d [Citations.] ... So long as the means chosen are not substantially broader than necessary to achieve the government\u2019s interest, ... the regulation will not be invalid simply because a court concludes that the government\u2019s interest could be adequately served by some less-speech-restrictive alternative. \u201cThe validity of [time, place, or manner] regulations does not turn on a judge\u2019s agreement with the responsible decisionmaker concerning the most appropriate method for promoting significant government interests\u201d or the degree to which those interests should be promoted. [Citations.]\u2019 [Citations.]\u201d (Id. at pp. 1574-1575; see Ward v. Rock Against Racism, supra, 491 U.S. at p. 797 [\u201c[Restrictions on the time, place, or manner of protected speech are not invalid \u2018simply because there is some imaginable alternative that might be less burdensome on speech.\u2019 [Citation.]\u201d].)\nSection 23.27(c) (as interpreted by the City, the district court, and the Ninth Circuit Court of Appeals) prohibits only soliciting the immediate receipt of funds, and permits other forms of communication, including soliciting funds to be sent at a later time by mail or through a Web site, distributing literature, and speaking with willing listeners. Prohibiting persons from soliciting the immediate receipt of funds at LAX is a narrowly tailored regulation of expressive activity because it is not substantially broader than necessary to addresses the particular problems caused by requests for the immediate receipt of funds. We noted in Los Angeles Alliance that the solicitation of the immediate receipt of funds is far more intrusive than other forms of communication, such as distributing literature: \u201c \u2018The distribution of literature does not require that the recipient stop in order to receive the message the speaker wishes to convey; instead, the recipient is free to read the message at a later time. ... In contrast, . . . sales and the collection of solicited funds not only require the [person] to stop, but also \u201cengender additional confusion . . . because they involve acts of exchanging articles for money, fumbling for and dropping money, making change, etc.\u201d \u2019 [Citation.]\u201d (Los Angeles Alliance, supra, 22 Cal.4th at p. 369.) We observed that solicitation that requests the physical exchange of money \u201c \u2018creates a risk of fraud and duress that is well recognized, and that is different in kind from other forms of expression or conduct. . . . [Solicitation has been associated with coercive or fraudulent conduct. [Citations.]\u2019 \u201d (Id. at p. 371.) Finally, we added: \u201c \u2018[Rjequests for immediate payment of money create a strong potential for fraud or undue pressure, in part because of the lack of time for reflection. . . . [(Questionable practices associated with solicitation can include the targeting of vulnerable and easily coerced persons, misrepresentation of the solicitor\u2019s cause, and outright theft.\u2019 \u201d (Id. at p. 372.)\nSoliciting the immediate receipt of funds at a busy international airport like LAX is particularly problematic. Although portions of the airport are open to the general public, people usually come to the airport only to travel or to accompany a traveler. Travelers often are in a hurry, and the airport often is crowded. The problems posed by solicitations for the immediate receipt of funds that arise in any public place would be exacerbated in the often crowded and hectic environment of a large international airport. As the high court has observed: \u201c \u2018Solicitation requires action by those who would respond: The individual solicited must decide whether or not to contribute (which itself might involve reading the solicitor\u2019s literature or hearing his pitch), and then, having decided to do so, reach for a wallet, search it for money, write a check, or produce a credit card.\u2019 [Citations.] Passengers who wish to avoid the solicitor may have to alter their paths, slowing both themselves and those around them. The result is that the normal flow of traffic is impeded. [Citation.] This is especially so in an airport, where \u2018[a]ir travelers, who are often weighted down by cumbersome baggage . . . may be hurrying to catch a plane or to arrange ground transportation.\u2019 [Citation.] Delays may be particularly costly in this setting, as a flight missed by only a few minutes can result in hours worth of subsequent inconvenience, [f] In addition, face-to-face solicitation presents risks of duress that are an appropriate target of regulation. The skillful, and unprincipled, solicitor can target the most vulnerable, including those accompanying children or those suffering physical impairment and who cannot easily avoid the solicitation. [Citation.] The unsavory solicitor can also commit fraud through concealment of his affiliation or through deliberate efforts to shortchange those who agree to purchase. [Citations.] Compounding this problem is the fact that, in an airport, the targets of such activity frequently are on tight schedules. This in turn makes such visitors unlikely to stop and formally complain to airport authorities. As a result, the airport faces considerable difficulty in achieving its legitimate interest in monitoring solicitation activity to assure that travelers are not interfered with unduly.\u201d (International Soc. for Krishna Consciousness, Inc. v. Lee (1992) 505 U.S. 672, 683-684 [120 L.Ed.2d 541, 112, S.Ct. 2701].)\nWe do not agree with the district court that the City was required to prohibit such practices only \u201cduring peak hours or in overcrowded locations.\u201d Peak periods of congestion and overcrowded locations at LAX vary depending on the arrival and departure schedule of flights. Under these circumstances, generally prohibiting solicitation of the immediate receipts of funds at LAX is narrowly tailored to avoid the particular problems caused by this form of free expression.\nAs noted above, the district court further ruled that the ordinance failed to leave open ample alternate avenues of communication because it left \u201cno ample venue\u201d for ISKCON to \u201csolicit financial support for their charitable, religious or political activities.\u201d Again, we disagree. In Frisby v. Schultz (1988) 487 U.S. 474, 483 [101 L.Ed.2d 420, 108 S.Ct. 2495], the high court upheld an ordinance prohibiting picketing in front of a residence, concluding it was \u201cvirtually self-evident that ample alternatives remain,\u201d including going door-to-door and distributing literature in person or through the mails. In the present case, ISKCON has ample alternative means of conveying its message. It can distribute literature and speak to willing travelers. It can even seek financial support, as long as it does not request the immediate exchange of funds. The City acknowledges that it would be permissible for ISKCON to \u201cask for donations\u201d and distribute \u201cself-addressed stamped envelope[s]\u201d in the areas of the airport open to the general public.\nConclusion\nIn response to the Ninth Circuit Court of Appeals\u2019 request, we conclude that even if those areas of Los Angeles International Airport that are open to the general public are public forums under the free speech clause of the California Constitution, section 23.27, subdivision (c) of the Los Angeles Administrative Code is valid on its face as a reasonable, content-neutral regulation of the manner of protected speech.\nGeorge, C. J., Baxter, J., Werdegar, J., Chin, 1, and Corrigan, J., concurred.\nThese facts are based on the record provided to this court which, in minor respects, varies from some published sources.\nSection 23.27(c) provided, in relevant part: \u201c(c)(1) No person shall solicit and receive funds inside the airport terminals at the Airport. HQ (2) No person shall solicit and receive funds in the parting areas at the Airport. HQ (3) No person shall solicit and receive funds on the sidewalks adjacent to the airport terminals or the sidewalks adjacent to the parking areas at the Airport. HQ (4) Subdivisions (c)(1), (c)(2), and (c)(3) apply only if the solicitation and receipt of funds is conducted by a person to or with passers-by in a continuous or repetitive manner. Nothing herein is intended to prohibit the distribution of flyers, brochures, pamphlets, books, or any other printed or written matter as long as such distribution is not made with the intent of immediately receiving funds, as defined in Subdivision (c)(5), at the locations referred to in (c)(1), (c)(2), or (c)(3). HQ (5) \u2018Solicit and receive funds\u2019 means any written or oral request for HQ (A) the donation of money, alms, property or anything else of value, or, HQ (B) the pledge of a future donation of money, alms, property, or anything else of value, or, [f] (C) the sale or offering for sale of any property upon the representation, express or implied, that the proceeds of such sale will be used for a charitable or religious purpose.\u201d\nEffective June 19, 2000, section 23.27 was deleted and transferred without change to section 171.02 of the Los Angeles Municipal Code. As do the parties and the federal courts, we will continue to refer to the ordinance as section 23.27(c).\nCalifornia Rules of Court, rule 8.548(a) states: \u201cOn request of the United States Supreme Court, a United States Court of Appeals, or the court of last resort of any state, territory, or commonwealth, the Supreme Court may decide a question of California law if: [f] (1) The decision could determine the outcome of a matter pending in the requesting court; and [IQ (2) There is no controlling precedent.\u201d\nCalifornia Rules of Court, rule 8.548(f)(5) states: \u201cAt any time, the Supreme Court may restate the question . . . .\u201d\nIn reviewing the validity of a restriction on free expression on public property, there is no need to wrestle with the sometimes difficult question of whether the public property constitutes a public forum if the regulation qualifies as a reasonable time, place, and manner restriction. If so, the regulation is valid whether or not the area constitutes a public forum.\nThe district court stated that section 23.27(c) \u201cprohibits any person from soliciting and immediately receiving funds inside the LAX terminals, parking areas and on the sidewalks adjacent to the parking areas or airport terminals.\u201d The City agrees with the district court that the ordinance prohibits only soliciting the immediate receipt of funds, stating in its opening brief that \u201c\u00a7 23.27(c) only limits solicitors in one respect: Solicitors may no longer actually immediately receive funds in conjunction with their solicitation efforts .... They may receive funds ... in the mail, over the internet, and at other areas of LAX not covered by the ordinance . . . .\u201d The Ninth Circuit\u2019s certification order similarly describes the ordinance as prohibiting \u201cany person from soliciting and immediately receiving funds.\u201d (Intern. Soc. for Krishna v. City of Los Angeles, supra, 530 F.3d at p. 770, italics added.) We accept for purposes of our analysis the interpretation of the ordinance urged by the City and adopted by the district court and the Ninth Circuit.",
+        "type": "majority",
+        "author": "MORENO, J."
+      },
+      {
+        "text": "KENNARD, J., Concurring.\nThe court\u2019s opinion, authored by Justice Moreno, holds that a city ordinance prohibiting the solicitation and receipt of funds in public areas of Los Angeles International Airport does not violate the California Constitution\u2019s liberty of speech clause (Cal. Const., art. I, \u00a7 2, subd. (a) [\u201cA law may not restrain or abridge liberty of speech or press.\u201d]) but instead is a valid time, place, and manner restriction on expressive activity.\nI join in that holding, but I do so only under compulsion of this court\u2019s decision in Los Angeles Alliance for Survival v. City of Los Angeles (2000) 22 Cal.4th 352 [93 Cal.Rptr.2d 1, 993 P.2d 334]. There, a majority of this court held that under the state Constitution\u2019s liberty of speech clause, a city ordinance prohibiting, at specified locations, any solicitation for the immediate donation of funds was not a content-based regulation of speech and that such an ordinance was to be evaluated as a time, place, and manner restriction on speech. (Los Angeles Alliance for Survival v. City of Los Angeles, supra, at p. 357.) I disagreed, concluding that a solicitation ban is based on the content of speech, and therefore its validity must be determined using a standard of scrutiny more rigorous than the standard used to evaluate the validity of time, place, and manner restrictions. (Id. at p. 383 (dis. opn. of Kennard, J.).) Although my view on that question has not changed, I recognize that the majority\u2019s holding in Los Angeles Alliance for Survival v. City of Los Angeles has the force of precedent and that reiteration of dissenting views is rarely justified. (See People v. Stansbury (1993) 4 Cal.4th 1017, 1072-1073 [17 Cal.Rptr.2d 174, 846 P.2d 756] (cone. opn. of Kennard, J.).)\nIn this case, I would also decide an issue that the court\u2019s opinion does not address. Although this case comes to this court upon a request of the Ninth Circuit Court of Appeals for a decision on a question of California law, the court\u2019s opinion here does not answer the particular question of California law that the Ninth Circuit asked this court to decide. That question is whether Los Angeles International Airport is a public forum for free expression under the California Constitution\u2019s liberty of speech clause. More precisely, the question is whether the areas of that airport that are accessible to the general public\u2014excluding the areas reserved for ticketed passengers who have passed through security screening\u2014are public forums. I would answer \u201cyes\u201d to that question.\nMy answer is based primarily on two of this court\u2019s decisions; In re Hoffman (1967) 67 Cal.2d 845 [64 Cal.Rptr. 97, 434 P.2d 353], holding that a railway station (Union Station in Los Angeles) was a public forum, and Fashion Valley Mall, LLC v. National Labor Relations Bd. (2007) 42 Cal.4th 850 [69 Cal.Rptr.3d 288, 172 P.3d 742], holding that a privately owned shopping mall was a public forum (see also Robins v. Pruneyard Shopping Center (1979) 23 Cal.3d 899 [153 Cal.Rptr. 854, 592 P.2d 341]).\nTo determine whether particular areas are public forums for purposes of the California Constitution\u2019s liberty of speech clause, this court has generally proceeded by asking whether, in relevant ways, the area in question is similar or dissimilar to areas that have already been determined to be public forums. (See, e.g., Fashion Valley Mall, LLC v. National Labor Relations Bd., supra, 42 Cal.4th 850, 858 [stating that an area may be a public forum \u201cif it is open to the public in a manner similar to that of public streets and sidewalks\u201d]; In re Hoffman, supra, 67 Cal.2d 845, 851 [comparing railway station with \u201ca public street or park\u201d].) Applying that approach here, I conclude that the prescreening public areas of Los Angeles International Airport are public forums because, in relevant ways, they are similar to shopping malls and railway stations.\nLike railway stations and shopping malls, the prescreening areas of Los Angeles International Airport are open to the public; they contain restaurants, newsstands, shops, and seats or benches for waiting; and they are places where people frequently have leisure for discussion and socializing. Therefore, in answer to the Ninth Circuit\u2019s request, I would decide that the prescreening public areas of Los Angeles International Airport are public forums.\nIn reaching this conclusion, I am aware of the United States Supreme Court\u2019s holding that, for purposes of the free speech guarantee of the federal Constitution\u2019s First Amendment, airports are not public forums. (International Soc. for Krishna Consciousness, Inc. v. Lee (1992) 505 U.S. 672, 680 [120 L.Ed.2d 541, 112 S.Ct. 2701].) But the free speech guarantees of the federal and California Constitutions are not identical, particularly as regards the concept of public forum. Thus, for example, although the federal high court has held that privately owned shopping malls are not public forums for free expression under the First Amendment (Lloyd Corp. v. Tanner (1972) 407 U.S. 551 [33 L.Ed.2d 131, 92 S.Ct. 2219]), this court has not found that holding persuasive in interpreting our state Constitution, which is \u201ca document of independent force and effect particularly in the area of individual liberties\u201d (People v. Hannon (1977) 19 Cal.3d 588, 606-607, fn. 8 [138 Cal.Rptr. 885, 564 P.2d 1203]). This court has recognized that our state Constitution\u2019s free speech guarantee \u201cdiffers from its counterpart in the federal Constitution both in its language and its scope\u201d (Fashion Valley Mall, LLC v. National Labor Relations Bd., supra, 42 Cal.4th at p. 862; see also Gerawan Farming, Inc. v. Lyons (2000) 24 Cal.4th 468, 486 [101 Cal.Rptr.2d 470, 12 P.3d 720]) and that those differences explain the broader application of the public forum concept under our state Constitution (Fashion Valley Mall, LLC v. National Labor Relations Bd., supra, at pp. 862-863).\nWhen an area has been determined to be a public forum for purposes of our state Constitution\u2019s liberty of speech clause, that determination does not have the effect of prohibiting all regulation of expressive activities at that location. Reasonable time, place, and manner restrictions on expressive activities in public forums are valid, as this court\u2019s conclusion here about the validity of the ordinance prohibiting solicitation of funds amply demonstrates. Speech activities at airports that interfere with the legitimate interests of the airport management, arriving or departing passengers, security screeners, or airline or airport employees need not be tolerated.",
+        "type": "concurrence",
+        "author": "KENNARD, J., Concurring."
+      },
+      {
+        "text": "CHIN, J., Concurring.\nI agree with the majority that the challenged ordinance governing the Los Angeles International Airport (LAX) does not violate the California Constitution. But I would answer the question the Ninth Circuit Court of Appeals posed, identify the legal standard applicable to that answer, and apply that standard to determine whether the ordinance is valid.\nThe Ninth Circuit requested this court to answer this question: \u201cIs Los Angeles International Airport a public forum under the Liberty of Speech Clause of the California Constitution?\u201d (See Cal. Const., art. I, \u00a7 2, subd. (a).) Consistent with the United States Supreme Court\u2019s resolution of the same question under the First Amendment to the United States Constitution, I would answer that LAX is not a public forum for free speech purposes under the California Constitution. (See International Soc. for Krishna Consciousness, Inc. v. Lee (1992) 505 U.S. 672 [120 L.Ed.2d 541, 112 S.Ct. 2701] (Lee).) This answer does not mean free speech rights do not exist at LAX. It just means that speech at LAX receives a lower level of protection than speech receives at traditional free speech zones such as parks and public squares. LAX is not the same as a park and should not be treated the same as a park.\nA. Whether Los Angeles International Airport Is a Public Forum Under the California Constitution\nThe United States Supreme Court developed the public forum doctrine to distinguish between public property subject to the highest free speech protection under the First Amendment and public property subject to a lower level of free speech protection. (See generally Clark v. Burleigh (1992) 4 Cal.4th 474, 482-483 [14 Cal.Rptr.2d 455, 841 P.2d 975].) The high court applied that law and concluded that airport terminals (in that case the three major airports in the greater New York City area) are not public forums. (Lee, supra, 505 U.S. at pp. 680-683.) I would reach the same conclusion for LAX under the California Constitution.\nFirst, I agree with what is implied in the Ninth Circuit\u2019s question and the majority opinion: Public forum analysis applies under the California Constitution as well as under the First Amendment even though the doctrine was developed in First Amendment cases. It is a useful doctrine for deciding what level of protection speech receives in a given context. (See Clark v. Burleigh, supra, 4 Cal.4th at pp. 482-483.)\nAlthough this court sometimes interprets the California Constitution differently than the First Amendment, no reason appears to do so here, and good reason exists not to do so. The public, litigators, and government attorneys advising their clients need a clear, consistent \u201cpublic forum\u201d doctrine in cases arising on public property, not seemingly random fluctuations between state and federal constitutional law. This is especially true of airports. After the events of September 11, 2001, Congress enacted the Aviation and Transportation Security Act (Pub.L. No. 107-71, 115 Stat. 597), which created the Transportation Security Administration and gave it broad authority to \u201coversee the implementation, and ensure the adequacy, of security measures at airports\u201d like LAX. (49 U.S.C. \u00a7 114(f)(ll).) Federal and other authorities overseeing security measures at international airports throughout the country should have one set of constitutional rules to contend with, not multiple sets. Because of the need for interstate and international security cooperation, it benefits no one to have different constitutional rules at California airports than at other airports.\nAirports are not traditional free speech zones like parks. This is true of the prescreening areas open to the public as well as the postscreening areas. As the majority aptly observes, \u201cAlthough portions of the airport are open to the general public, people usually come to the airport only to travel or to accompany a traveler. Travelers often are in a hurry, and the airport often is crowded.\u201d (Maj. opn., ante, at p. 459; see also ibid, [quoting Lee, supra, 505 U.S. at pp. 683-684].) People do not go to airports to relax or to socialize, to be entertained or to spend time; they go to airports to get themselves or their friends and loved ones safely and efficiently to their destination. The parties\u2019 stipulation of agreed facts (as well as common experience) tells us that \u201c[t]he \u2018basic purpose\u2019 of LAX is to facilitate, process and serve the traveling public in getting to and from airline flights and moving into and out of the airport terminal areas in a safe, secure, convenient, and efficient fashion.\u201d LAX is not, and should not be declared to be, a free speech public forum under either the United States or the California Constitution.\nIn concluding that California constitutional law should differ from First Amendment law regarding airports, Justice Kennard relies \u201cprimarily\u201d on two cases: Fashion Valley Mall, LLC v. National Labor Relations Bd. (2007) 42 Cal.4th 850 [69 Cal.Rptr.3d 288, 172 P.3d 742] (Fashion Valley) and In re Hoffman (1967) 67 Cal.2d 845 [64 Cal.Rptr. 97, 434 P.2d 353] (Hoffman). (Cone. opn. of Kennard, J., ante, at p. 461.) Neither case addresses, much less answers, this question.\nHoffman, supra, 67 Cal.2d 845, held that \u201cFirst Amendment activities [cannot] be prohibited [at train stations] solely because the property involved is not maintained primarily as a forum for such activities.\u201d (Id. at p. 850.) For three reasons, that opinion has nothing to do with the issue here. First, Hoffman cited solely the First Amendment with no hint that the California Constitution should diverge from First Amendment law in this area. Second, Hoffman concerned train stations in the 1960\u2019s, not airports in the 21st century. As the Lee court\u2014in an opinion long predating September 11, 2001\u2014noted, there are major differences between airports and other \u201c \u2018transportation nodes.\u2019 \u201d (Lee, supra, 505 U.S. at p. 681.) \u201cTo blithely equate airports with other transportation centers, therefore, would be a mistake.\u201d (Id. at p. 682.) Finally, Hoffman simply did not address the question whether a train station is a public forum under the First Amendment, much less whether it is one under the California Constitution, which it never cites. Hoffman held only that free speech rights exist at train stations, which is also true of airports even under my conclusion that they are not public forums. (See pt. B., post.) But Hoffman conducted no public forum analysis, which is not surprising given that the First Amendment public forum doctrine largely developed after that opinion. It never considered what level of protection speech receives at train stations: the highest level reserved for true public forums or the lower level given nonpublic forums.\nFashion Valley, supra, 42 Cal.4th 850, held that a shopping mall is a public forum under the California Constitution. A shopping mall is entirely different from an airport for free speech purposes. As Fashion Valley noted, \u201cin many cities the public areas of the shopping mall are replacing the streets and sidewalks of the central business district, which \u2018have immemorially been held in trust for the use of the public and, time out of mind, have been used for purposes of assembly, communicating thoughts between citizens, and discussing public questions.\u2019 \u201d (42 Cal.4th at p. 858.) None of this is remotely true of airports. To equate an airport with a free speech zone is to ignore reality and, perhaps worse, trivialize free speech interests at true public forums.\nB. The Standard Applicable to a Nonpublic Forum\nDeclaring an area a nonpublic forum does not mean free speech rights do not exist there. Free speech rights exist on public property open to the public whether or not the property is considered a public forum. This is true under the First Amendment and, I have no doubt, also true under the California Constitution. My conclusion that an airport is not a public forum just means that restrictions on speech at an airport are not subject to the same level of \u201chighest scrutiny\u201d that applies to the \u201cregulation of speech on government property that has traditionally been available for public expression ....\u201d (Lee, supra, 505 U.S. at p. 678.) As the high court explained, designating property as a public forum would mean that a restriction of speech on that property \u201ccould be sustained only if it was narrowly tailored to support a compelling state interest.\u201d (Id. at p. 676.) A restriction on speech at a nonpublic forum such as an airport must still pass a constitutional test, albeit a less rigorous one. \u201cThe challenged regulation need only be reasonable, as long as the regulation is not an effort to suppress the speaker\u2019s activity due to disagreement with the speaker\u2019s view.\u201d (Id. at p. 679.)\nI would conclude that the ordinance at issue here passes this test for the reasons the majority gives for concluding it would pass even the more rigorous test reserved for public forums. Accordingly, I concur with the majority opinion.\nBaxter, J., and Corrigan, J., concurred.\nThe Hoffman opinion does say that in one \u201crespect, a railway station is like a public street or park.\u201d (Hoffman, supra, 67 Cal.2d at p. 851.) But saying that a railway station is like a public street in one respect does not mean the court found it to be a public forum under a later-developed doctrine that it never mentioned.\n1 dissented in Fashion Valley, supra, 42 Cal.4th 850, but only because the shopping mall at issue there was private property. (Id. at pp. 870-882.) If the shopping mall had been public property, I would have agreed that it was a public forum. But LAX is public property. Accordingly, the disagreement between the majority and dissent in Fashion Valley is irrelevant here.",
+        "type": "concurrence",
+        "author": "CHIN, J., Concurring."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Rockard J. Delgadillo and Carmen A. Trutanich, City Attorneys, Kelly Martin, Managing City Attorney, D. Timothy Daz\u00e9, Deputy City Attorney; Law Offices of John Werlich and John M. Werlich for Defendants and Appellants.",
+      "Dennis J. Herrera, City Attorney (San Francisco), Danny Chou, Chief of Complex and Special Litigation, Mara Rosales, Chief Airport Counsel, Burk E. Delventhal, Ellen Forman and Rafal Ofierski, Deputy City Attorneys; Patricia B. Heilbron, Deputy Port Attorney (Oakland); and Breton Lobner for City and County of San Francisco, League of California Cities, California State Association of Counties, Port of Oakland and San Diego County Regional Airport Authority as Amici Curiae on behalf of Defendants and Appellants.",
+      "Kent S. Scheidegger and Maritza B. Meskan for Criminal Justice Legal Foundation as Amicus Curiae on behalf of Defendants and Appellants.",
+      "Law Offices of David M. Liberman, David M. Liberman; Law Offices of Robert C. Moest and Robert C. Moest for Plaintiffs and Respondents.",
+      "Peter J. Eliasberg; Julia Harumi Mass, Alan L. Schlosser; and David Blair-Loy for American Civil Liberties Union of Southern California, American Civil Liberties Union of Northern California and American Civil Liberties Union of San Diego and Imperial Counties as Amici Curiae on behalf of Plaintiffs and Respondents."
+    ],
+    "corrections": "",
+    "head_matter": "[No. S164272.\nMar. 25, 2010.]\nINTERNATIONAL SOCIETY FOR KRISHNA CONSCIOUSNESS OF CALIFORNIA, INC., et al., Plaintiffs and Respondents, v. CITY OF LOS ANGELES et al., Defendants and Appellants.\nCounsel\nRockard J. Delgadillo and Carmen A. Trutanich, City Attorneys, Kelly Martin, Managing City Attorney, D. Timothy Daz\u00e9, Deputy City Attorney; Law Offices of John Werlich and John M. Werlich for Defendants and Appellants.\nDennis J. Herrera, City Attorney (San Francisco), Danny Chou, Chief of Complex and Special Litigation, Mara Rosales, Chief Airport Counsel, Burk E. Delventhal, Ellen Forman and Rafal Ofierski, Deputy City Attorneys; Patricia B. Heilbron, Deputy Port Attorney (Oakland); and Breton Lobner for City and County of San Francisco, League of California Cities, California State Association of Counties, Port of Oakland and San Diego County Regional Airport Authority as Amici Curiae on behalf of Defendants and Appellants.\nKent S. Scheidegger and Maritza B. Meskan for Criminal Justice Legal Foundation as Amicus Curiae on behalf of Defendants and Appellants.\nLaw Offices of David M. Liberman, David M. Liberman; Law Offices of Robert C. Moest and Robert C. Moest for Plaintiffs and Respondents.\nPeter J. Eliasberg; Julia Harumi Mass, Alan L. Schlosser; and David Blair-Loy for American Civil Liberties Union of Southern California, American Civil Liberties Union of Northern California and American Civil Liberties Union of San Diego and Imperial Counties as Amici Curiae on behalf of Plaintiffs and Respondents."
+  },
+  "file_name": "0446-01",
+  "first_page_order": 484,
+  "last_page_order": 504
+}

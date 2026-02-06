@@ -1,0 +1,59 @@
+{
+  "id": 6020812,
+  "name": "Crain v. Heifner",
+  "name_abbreviation": "Crain v. Heifner",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11481",
+  "first_page": "883",
+  "last_page": "883",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 883"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 65,
+    "ocr_confidence": 0.706,
+    "sha256": "8e3abc75fe2c8ccf65c37fb6948c342a57065d28087cb1e9729b73b337f61bbc",
+    "simhash": "1:06e4ac9448e29bc4",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Crain v. Heifner."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Nev. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11481.\nCrain v. Heifner."
+  },
+  "file_name": "0883-06",
+  "first_page_order": 905,
+  "last_page_order": 905
+}

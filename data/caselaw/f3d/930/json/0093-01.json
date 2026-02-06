@@ -1,0 +1,763 @@
+{
+  "id": 12521951,
+  "name": "Alanda FORREST, Appellant v. Kevin PARRY, PHM; Camden City Police Officer; Jason Stetser, PHM; Camden City Police Officer; City of Camden; City of Camden Department of Public Safety; Warren Faulk; Paula Dow; Department of the Treasury, State of New Jersey ; John Does I-IV",
+  "name_abbreviation": "Forrest v. Parry",
+  "decision_date": "2019-07-10",
+  "docket_number": "No. 16-4351",
+  "first_page": "93",
+  "last_page": "119",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "930 F.3d 93"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "3rd Cir.",
+    "id": 9319,
+    "name": "United States Court of Appeals for the Third Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "622 F.3d 196",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3786192
+      ],
+      "weight": 2,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "208"
+        },
+        {
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/622/0196-01"
+      ]
+    },
+    {
+      "cite": "920 F.3d 182",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12520668
+      ],
+      "weight": 2,
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "189-90"
+        },
+        {
+          "page": "190"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/920/0182-01"
+      ]
+    },
+    {
+      "cite": "947 F.2d 1042",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10524829
+      ],
+      "weight": 2,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "1064"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/947/1042-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1291",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 U.S.C. \u00a7\u00a7 1331",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "399 F.3d 197",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1546986
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "222",
+          "parenthetical": "\"It is well settled that an appellant's failure to identify or argue an issue in his opening brief constitutes waiver of that issue on appeal.\" (citations omitted)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/399/0197-01"
+      ]
+    },
+    {
+      "cite": "208 F.3d 419",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11451135
+      ],
+      "weight": 2,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "426-27"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/208/0419-01"
+      ]
+    },
+    {
+      "cite": "635 F.3d 606",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6051238
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "609"
+        },
+        {
+          "page": "612"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/635/0606-01"
+      ]
+    },
+    {
+      "cite": "35 F.3d 717",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10528111
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "783",
+          "parenthetical": "describing the Federal Rules as having a \"low threshold of relevancy\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/35/0717-01"
+      ]
+    },
+    {
+      "cite": "146 F.3d 149",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11826655
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "159",
+          "parenthetical": "\"The test of relevance under the Federal Rules of Evidence is low.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/146/0149-01"
+      ]
+    },
+    {
+      "cite": "234 F.3d 136",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11145779
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "146"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/234/0136-01"
+      ]
+    },
+    {
+      "cite": "424 F.3d 344",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8923355
+      ],
+      "weight": 2,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "349"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/424/0344-01"
+      ]
+    },
+    {
+      "cite": "152 F.3d 228",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11708002
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "234"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/152/0228-01"
+      ]
+    },
+    {
+      "cite": "360 F.3d 155",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        2164177
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "166"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/360/0155-01"
+      ]
+    },
+    {
+      "cite": "126 F.3d 506",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        943626
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "522"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/126/0506-01"
+      ]
+    },
+    {
+      "cite": "266 F.3d 203",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9498299
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "206"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/266/0203-01"
+      ]
+    },
+    {
+      "cite": "2013 WL 6508406",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "*3",
+          "parenthetical": "\"Several jurisdictions have held that a claim of negligent supervision requires proof of the same elements recited by our Supreme Court ... with respect to a claim of negligent hiring.\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "160 F. Supp. 3d 734",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "case_ids": [
+        4330120
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "769"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-3d/160/0734-01"
+      ]
+    },
+    {
+      "cite": "761 F.2d 148",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        29314
+      ],
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "154",
+          "parenthetical": "quoting the district court as having stated, \"The court finds, as a matter of law , that ...\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/761/0148-01"
+      ]
+    },
+    {
+      "cite": "913 F.2d 1064",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10538579
+      ],
+      "weight": 3,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "1069"
+        },
+        {
+          "page": "1069-70",
+          "parenthetical": "finding notice inadequate where neither the parties nor the court suggested the possibility of trial not going forward"
+        },
+        {
+          "page": "1069-70"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/913/1064-01"
+      ]
+    },
+    {
+      "cite": "27 F.3d 903",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10531053
+      ],
+      "weight": 2,
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "910"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/27/0903-01"
+      ]
+    },
+    {
+      "cite": "477 U.S. 317",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6207800
+      ],
+      "weight": 3,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "326"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/477/0317-01"
+      ]
+    },
+    {
+      "cite": "355 F.3d 215",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9058468
+      ],
+      "weight": 5,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "222",
+          "parenthetical": "citing Celotex Corp. v. Catrett , 477 U.S. 317, 326, 106 S.Ct. 2548, 91 L.Ed.2d 265 (1986) "
+        },
+        {
+          "page": "224"
+        },
+        {
+          "page": "224"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/355/0215-01"
+      ]
+    },
+    {
+      "cite": "489 U.S. 378",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12032186
+      ],
+      "weight": 3,
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "392",
+          "parenthetical": "citation omitted"
+        },
+        {
+          "parenthetical": "citation omitted"
+        },
+        {
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/489/0378-01"
+      ]
+    },
+    {
+      "cite": "766 F.3d 307",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4201543
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "316-17"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/766/0307-01"
+      ]
+    },
+    {
+      "cite": "181 F.3d 339",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11659113
+      ],
+      "weight": 2,
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "357"
+        },
+        {
+          "page": "357",
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/181/0339-01"
+      ]
+    },
+    {
+      "cite": "125 F.3d 139",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        910564
+      ],
+      "weight": 2,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "145"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/125/0139-01"
+      ]
+    },
+    {
+      "cite": "269 F.3d 205",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9467529
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "215"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/269/0205-01"
+      ]
+    },
+    {
+      "cite": "436 U.S. 658",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1490618
+      ],
+      "weight": 4,
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "694"
+        },
+        {
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/436/0658-01"
+      ]
+    },
+    {
+      "cite": "914 F.3d 789",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12519962
+      ],
+      "weight": 2,
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "798-99"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/914/0789-01"
+      ]
+    },
+    {
+      "cite": "470 F.3d 535",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5667162
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "538"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/470/0535-01"
+      ]
+    },
+    {
+      "cite": "854 F.3d 234",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12276871
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "241",
+          "parenthetical": "citing Fed. R. Civ. P. 56(a) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/854/0234-01"
+      ]
+    },
+    {
+      "cite": "750 F.3d 273",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4066643
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "287"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/750/0273-01"
+      ]
+    },
+    {
+      "cite": "42 U.S.C. \u00a7 1985",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(3)"
+        },
+        {
+          "page": "34"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 U.S.C. \u00a7 1983",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 6,
+      "pin_cites": [
+        {
+          "page": "96:3"
+        },
+        {
+          "page": "106:22-23"
+        },
+        {
+          "page": "107:9-11"
+        },
+        {
+          "page": "136:25-137:2"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "89 F.3d 966",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9045821
+      ],
+      "weight": 8,
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "967"
+        },
+        {
+          "page": "967-68"
+        },
+        {
+          "page": "969-70"
+        },
+        {
+          "page": "970"
+        },
+        {
+          "page": "973"
+        },
+        {
+          "page": "972"
+        },
+        {
+          "page": "968"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/89/0966-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 2287,
+    "char_count": 79217,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25943809851462385
+    },
+    "sha256": "ae43b58b36ccf83acde56c502e7003fb0f73722d35a60dfad08eb62f5c383310",
+    "simhash": "1:32eacc67aa9a0f2b",
+    "word_count": 12532
+  },
+  "last_updated": "2024-02-27T18:47:03.658527+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before: GREENAWAY, JR., BIBAS, and FUENTES, Circuit Judges."
+    ],
+    "parties": [
+      "Alanda FORREST, Appellant\nv.\nKevin PARRY, PHM; Camden City Police Officer; Jason Stetser, PHM; Camden City Police Officer; City of Camden; City of Camden Department of Public Safety; Warren Faulk; Paula Dow; Department of the Treasury, State of New Jersey ; John Does I-IV"
+    ],
+    "opinions": [
+      {
+        "text": "GREENAWAY, JR., Circuit Judge.\nIn Beck v. City of Pittsburgh , we were faced with what we deemed \"a question of considerable interest in [a] period of alleged rising police brutality in major cities across the country\"-what is sufficient evidence from which a jury can infer that a municipality adopted a custom of permitting its police officers to use excessive force? 89 F.3d 966, 967 (3d Cir. 1996). More than two decades later, the interest and allegations persist, and, as it would appear, so does the question.\nThe evidence in this case demonstrates that the Internal Affairs Unit (\"Internal Affairs\") of the since-disbanded Camden Police Department was woefully deficient in investigating civilian complaints about officer misconduct. Citing Beck , the District Court found this to be sufficient. However, the Court narrowed the case to only this evidence, and, as a result, did not consider its significance when combined with the non-Internal Affairs-related deficiencies in Camden's supervision and training of its police officers. This occurred in two phases: first, the District Court unilaterally divided Appellant, Alanda Forrest's 42 U.S.C. \u00a7 1983 municipal liability claim into three theories, labeled failure to supervise through Internal Affairs, failure to supervise, and failure to train, and, second, it then associated the evidence pertaining to the deficiencies in Internal Affairs to only the first theory.\nForrest argues that this resulted in errors at various stages. At summary judgment, it resulted in a grant in favor of Camden on the failure to supervise and train theories. On the parties' motions in limine, the Court improperly excluded evidence that was material to the \u00a7 1983 theory that survived summary judgment, and effectively awarded summary judgment on the state law negligent supervision claim which it had previously deemed triable. The jury instructions then confused the relevant law regarding the sole surviving claim.\nWe agree. The artificial line, drawn by the District Court, between what were ostensibly theories with largely overlapping evidence resulted in erroneous rulings as to what was relevant, as well as instructions as to what law the jury was to apply. We will therefore reverse those aspects of the District Court's rulings that resulted in error, vacate part three of the jury verdict, and remand for further proceedings consistent with this opinion.\nI. BACKGROUND\nA.\nOn July 1, 2008, two police officers kicked down several doors of the residence at 1270 Morton Street, Camden, New Jersey (\"1270 Morton\"). According to Forrest, his encounter with the officers began with him pinned between the wall and the door of the upstairs bedroom, which had been kicked open. He heard his acquaintance, Kennedy Blevins, twice scream, \"why you beating on me[?]\" Pl.'s Resp. Br. Ex. 64-a, at 105:10-17, ECF No. 144-76. One officer asked, \"where the drugs at?\" and Blevins twice responded, \"I don't know what you talking about.\" Id .\nJust a few hours earlier, Forrest had just finished work for a housing contractor at a house across the street. He went to 1270 Morton Street to speak with some acquaintances. He and one such acquaintance-Shahede Green-had been on the porch for a while when the two noticed a police car \"coming down the opposite direction\" on a one-way street. Id. at 96:3. It was around midnight at this point, so Forrest decided to call a cab. The two went inside as Forrest waited for the cab to arrive. While waiting, Forrest heard a number of sounds that caused him to be alarmed, all of which culminated in what sounded like someone kicking the front door.\nAt the time, the house was occupied by Forrest, Green, Blevins, and two women. One of the women was known as Hot Dog and the other, Kesha Brown. Forrest left Green and Hot Dog downstairs, and went upstairs to Blevins's room. Brown was also upstairs, in bed in what is referred to as the \"front room.\" Id. at 106:22-23. As Forrest began explaining to Blevins that the front door had been kicked, Blevins's bedroom door was kicked open. Being near the bedroom door, Forrest reflexively stepped back, and was immediately covered by the door. Forrest remained pinned between the door and the wall, fearing that he would immediately be shot by an officer if he came out from behind the door.\nThrough the opening between the door and the wall, Forrest heard Blevins's screams. He saw another officer come up the stairs, and moments afterwards, heard Brown scream. Forrest saw the officer \"doing something with his arm,\" but could not make out what the officer was doing. Id. at 107:9-11. Eventually, the officer told Brown to go downstairs. The officer then entered Blevins's room, where Forrest, Blevins, and the other officer were located. One of the officers swung the door away from Forrest, and hit him in the face, knocking him out. When Forrest regained consciousness, an officer, later identified as Kevin Parry, was on top of him. Officer Parry repeatedly punched Forrest in the face. Officer Parry then handcuffed Forrest, and the officers-Parry and Jason Stetser-dragged Forrest down the stairs. Forrest suffered a laceration to his ear, facial bruising, and injuries to his knees.\nOfficer Parry placed Forrest in the back seat of the supervising Sergeant's vehicle. Officer Parry proceeded to tell Forrest that any drugs found in the house would be attributed to him. The Sergeant, Dan Morris, then took Forrest to a vacant parking lot, at which point Forrest asked \"I'm bleeding like crazy. Why you got me here? Why don't you take me to the hospital?\" Pl.'s Resp. Br. Ex. 64-b, at 134:19-21, ECF No. 144-77. Sergeant Morris allegedly ordered Forrest to shut up, and said, \"my officers don't plant drugs on people.\" Id. at 136:25-137:2. Officers Parry and Stetser arrived soon after, and Sergeant Morris passed something to Officer Parry.\nForrest was taken to the hospital to be treated thereafter. When the attending nurse inquired as to what caused his injuries, he simply told her that he tripped and fell. The officers had previously warned that if Forrest said any more, they would charge him with having assaulted five officers.\nB.\nIn the police report he prepared regarding this incident, Officer Parry wrote that he had observed Forrest engaging in a hand-to-hand drug transaction on the porch of 1270 Morton, and that Forrest initiated the physical altercation with him and Officer Stetser. Officer Parry testified to that version of events before the grand jury and claimed that Forrest was in possession of 49 bags of a controlled dangerous substance. Forrest was subsequently charged with possession of a controlled substance, possession with intent to distribute, possession within one thousand feet of a school, and resisting arrest.\nForrest filed a complaint with Internal Affairs on July 21, 2008. He alleged that he was assaulted by Officer Parry \"and his partner,\" which resulted in \"a cut ear [that] required stitches, [bruises] on [his] knees, pain in [his neck], and headaches.\" Def.'s Mot. Ex. 33, ECF No. 138-4 at 59. The complaint went nowhere, so he wrote a follow-up letter two months later. The letter reiterated the assault charges and indicated that Internal Affairs had yet to respond to Forrest's initial complaint. Forrest ultimately pleaded guilty to possession with intent. He was sentenced to three years and eighteen months in a New Jersey state prison.\nForrest served eighteen months of that sentence. He was released when Officer Parry later admitted that he had falsified the police report regarding the incident with Forrest. Specifically, Sergeant Morris, and Officers Parry and Stetser were three of five officers that were charged with, and pleaded guilty to, conspiracy to deprive individuals of their civil rights. Officers Stetser and Parry admitted to filing false reports, planting drugs, and lying under oath in front of grand juries, at suppression hearings, and at trials. The investigation into their activities resulted in judgments vacated, charges dismissed, or pending indictments forfeited in over 200 criminal cases. As to Forrest in particular, Officer Parry admitted that he did not observe a hand-to-hand drug transaction, but falsely included that in the report he had prepared.\nC.\nWhile still in prison, Forrest brought this action in federal court in the District of New Jersey. By April 2015, his was one of approximately 89 lawsuits brought against the City of Camden (\"Camden\") based on the actions of the above-referenced officers. Camden proposed a global settlement for these suits, but Forrest opted out. He moved forward with his claims, which included a municipal liability claim under 42 U.S.C. \u00a7 1983, a conspiracy claim under 42 U.S.C. \u00a7 1985(3), and a state law claim for negligent supervision. Camden moved for summary judgment on all counts in March of 2015. Despite the breadth of Camden's motion, its brief only mentioned Forrest's municipal liability claim under \u00a7 1983.\nForrest responded in kind, with a singular focus on his \u00a7 1983 claim. His brief opposing summary judgment divided that claim into two: first, he argued that, through its policy or custom of permitting officers to be \"essentially unsupervised,\" Camden was \"the moving force\" behind the constitutional deprivation of his rights, Pl.'s Resp. Br. 30, ECF No. 144; and second, that Camden's failure to train and supervise their officers constituted \"a deliberate indifference to the rights of persons those officers would come into contact with,\" id. at 34. The evidence he cited reflects the police department's troubled history in the years leading up to Forrest's arrest, and is best described in six segments, all of which pertain to Camden's supervision and investigation of its officers.\nFirst, the New Jersey Attorney General (\"NJAG\") had been commissioned to conduct a review of Camden's police operations on five separate occasions prior to Forrest's arrest, in 1986, 1996, 1998, 2002 and, most recently, 2006. The NJAG twice appointed the Camden County Prosecutor to oversee the police department, once in 1998, and the other in 2003. One of the NJAG reports warned that Camden's failure to commit manpower and resources to proactively managing police misconduct would place it \"in the position of failing to adequately protect the civil rights of its citizens and sets the stage for significant civil liability.\" App. 128. More specifically, with a backlog of over 350 uninvestigated complaints in 2002, the same report expressly cautioned:\nThe number of open investigations is simply unacceptable and overwhelms whatever progress the unit may have accomplished since our last review. ... The failure to immediately address the complaint backlog and, over the longer term, ensure that the backlog does not reoccur on a regular basis , could lead one to conclude that the City of Camden and the police department are deliberately indifferent to the conduct of its police officers and the civil rights of its citizens.\nApp. 123 (emphases added).\nSecond, Camden did not address the backlog. Rather, it maintained an extensive, recurring backlog in the years leading up to Forrest's arrest. The backlog was as high as 487 complaints in 2004, and 461 in 2005, and, though declining, remained in 2006 and 2007, at 205, and 175, respectively. As to complaints regarding excessive force, which Forrest's complaint and follow-up letter alleged, Camden was investigating and closing a mere fraction, and sustaining an even smaller number. Taken together, Camden sustained about 1% (7 of 622) of the complaints alleging serious misconduct from 2004 to 2008, consisting of excessive force, improper arrest, improper search, and differential treatment.\nThird, the evidence suggests that the investigations that were conducted were seriously deficient. A representative example is an Internal Affairs investigative memorandum where the investigator did not interview witnesses, but rather solely based the determination on the incident reports authored by the officers involved. The memorandum derived from an investigation into a complaint filed against Officers Stetser and Parry about a year before Forrest's arrest and which contained allegations that were nearly identical to Forrest's. Indeed, the complainant alleged the officers planted drugs on him. The Internal Affairs investigator concluded that this complaint was \"unfounded,\" which means that the complainant was \"lying, more or less.\" Pl.'s Resp. Br. Ex. 48, at 30:11-15, ECF No. 144-27. This finding was premised on the incident report prepared by Officer Parry, which stated that he and Officer Stetser observed the complainant engage in a drug transaction in an alleyway. The investigation into this complaint revealed that two similar complaints had been filed against Officer Stetser, and that the incident report for both-prepared by Stetser-also stated that each complainant was separately observed engaging in a drug transaction.\nThe fourth segment is the testimony of former high officials in the police department, including the former Chief of Police, a former Deputy Chief, the former Supercession Executive, and the Sergeant who took over Internal Affairs in 2009. Their combined testimony reflects that, in the years leading up to and including the year of Forrest's arrest, there were deficiencies with how the department tracked officer whereabouts, there were no performance reviews (contrary to recommendations by the 2006 NJAG report) and the sergeant-to-officer ratio was two to three times more than recommended.\nSpecifically, John Scott Thomson (\"Chief Thomson\"), who became Chief of the now-defunct Camden Police Department in 2008 and is now Chief of the newly-established Camden County Police Department, testified. He explained that, prior to his taking over the department and at the time of Forrest's arrest, the police department \"relied upon what you wrote on your log to determine where you were\" and that \"an officer could [theoretically] write anything they wanted down [, since] there just wasn't a checks and balance (sic) on it.\" Pl.'s Resp. Br. Ex. 42-a, at 57:11-13, 65:5-8 ECF No. 144-16. The Supercession Executive testified that he was not aware of another major police department that did not have a performance evaluation system. Yet despite his and the NJAG's recommendations, Camden failed to implement such a system throughout the entirety of his term.\nEdward Hargis, who was Deputy Chief from 2004 through January of 2008, doubled down on that testimony, stating, \"[a]fter [the NJAG 2006 report] was issued, we started designing a performance evaluation [system], but then it did not become much of a concern.\" Pl.'s Resp. Br. Ex. 40, at 35:15-36:17, ECF No. 144-8. Along those lines, the Sergeant who took over Internal Affairs in 2008 testified that the officer-to-sergeant ratio is supposed to be five to seven officers to a sergeant. Yet, between 2004 and 2009, the Supercession Executive stated that \"they were woefully over in number\" in some commands, with \"12, 15 plus to a sergeant.\" Pl.'s Resp. Br. Ex. 41-b, at 137:1-6, ECF No. 144-13.\nChief Thomson ultimately commented that one of the most pressing problems facing the department when he took over in 2008 was a \"culture of apathy and lethargy\"-by which he meant that there were no \"mechanisms of accountability,\" and, as such, \"CPD was an organization in which you could have the greatest cop in the world or the laziest cop in the world ....\" Pl.'s Resp. Br. Ex. 41-c, at 37:23-39:4, ECF No. 144-15.\nFifth, Officers Parry and Stetser were aware of the alleged inadequacies in supervision. Officer Parry explained that he continued to engage in illicit behavior even when Sergeant Morris could no longer cover for him as his supervisor. When asked whether he was concerned that a Sergeant who was not a party to the conspiracy would \"discover what was going on,\" Officer Parry responded, \"No. ... Because, like I said, nobody seemed to care.\" Pl.'s Resp. Br. Ex. 68, at 36:2 to 37:7, ECF No. 144-87. He noted that, in fact, supervision was worse after Sergeant Morris stopped supervising him, stating:\nBecause the more sergeants had to do, the more that-you know, the more paperwork that had to be completed for our squad, the less they were on the street and there was no supervision for them ... [B]ecause before if you were on regular patrol, if you were at a job, a sergeant was on the street with you. They would show up a lot of times. Sergeants were getting so, you know, backed up with paperwork, they were really never around. ... These guys, like I said, they would take their liberties because they knew that nobody was going to be around and they had to answer no questions.\nId. at 28:22 to 29:17. And when Sergeant Morris was their supervisor, Officer Parry testified that he and Officer Stetser had no concern about their misconduct, as it was very rare that a Captain or Lieutenant would show up or review their reports. Nor did concern about complaints being filed with Internal Affairs ever cross their mind. Worse yet, Officer Stetser also testified that, Lieutenant Pike, his supervisor at one point, \"most likely\" knew that he was writing false reports and accepted them. Pl.'s Resp. Br. Ex. 54-a, at 40:16-18, ECF No. 144-43.\nSixth, Officer Vautier, a fellow officer at the time, testified about two incidents in which Officer Stetser engaged in questionable behavior in front of his superiors without reprimand. The first took place in Spring of 2007 when Officer Stetser put drugs in a Lieutenant's bag in front of the entire squad as a prank. According to the officer, the Lieutenant discovered this and did nothing. The officer also testified that he reported this, as well as that Officer Stetser bragged about passing out drugs at parties, to a Sergeant within Internal Affairs. The Sergeant responded by confirming that there had been other complaints about Officer Stetser's passing out drugs at parties, but never wrote anything down and kept the report off the record. The second incident was in May of 2007, and involved a Sergeant who conducted an integrity test on Officer Stetser, whereby he placed a precise amount of an illegal substance in a bag and handed it to Officer Stetser to turn it in before the end of the day. Officer Stetser failed-he was given 45 bags and only turned in 30.\n* * * * *\nCamden prevailed. The District Court granted partial summary judgment. It divided Forrest's \u00a7 1983 claim into three theories that it devised. Each theory was then associated with a specific subset of the above segments, without consideration of the segments' combined impact on any particular theory. The result is that, along with Forrest's state law negligent supervision claim, only one of the theories was considered to have the evidentiary support necessary to survive summary judgment. This surviving theory was then narrowly framed as a failure to supervise through the Internal Affairs process, which again reflected the Court's view that supervision-related deficiencies that were apparent elsewhere were not relevant to the incident with Forrest.\nThe jury returned a verdict in favor of Camden on the \u00a7 1983 theory that was presented to them. In parts one and two of the verdict form, it unanimously found that Officers Stetser and Parry violated Forrest's Fourth Amendment right to be free from excessive force and to be free from false arrest. But, in part three, the jury found that Forrest had not proved that these deprivations of his constitutional right resulted from Camden's actions.\nForrest appealed.\nII. DISCUSSION\nForrest challenges the District Court's rulings at various stages of the underlying proceedings. At summary judgment, he argues that the District Court erred in granting Camden's motion on any portion of his \u00a7 1983 claim. Regarding the Court's rulings at the motions in limine hearing, he argues that it effectively awarded summary judgment on his state law negligent supervision claim, and improperly excluded evidence that was material to the remaining portion of his \u00a7 1983 claim. Lastly, Forrest contends that the Court issued jury instructions that were erroneous and prejudicial as to the \u00a7 1983 claim.\nWe agree that there were several errors below, beginning with some of the District Court's rulings at summary judgment. Indeed, the Court unilaterally divided Forrest's claim into three theories it devised-failure to supervise through the Internal Affairs process, failure to supervise, and failure to train. To support that division, the District Court considered the Internal Affairs-related evidence-consisting of segments one through four-as only supporting the first theory. In turn, the first theory was the only that survived summary judgment. We conclude that aspects of all three theories should survive when the evidence, consisting of segments one through six, is considered in its entirety. Moreover, the District Court's subsequent efforts to exclude the segments that supported the theories that did not survive summary judgment resulted in erroneous evidentiary rulings as to what was relevant, as well as incorrect instructions as to what claims the jury was required to consider and the requisite legal elements. We will therefore reverse the portions of the District Court's summary judgment and evidentiary rulings that resulted in error, vacate part three of the verdict rendered by the jury, and remand for further proceedings.\nA. Summary Judgment\n1. Standard\nOur review of a district court's decision at summary judgment is plenary, and we apply the same standard as the District Court. See Halsey v. Pfeiffer , 750 F.3d 273, 287 (3d Cir. 2014). We determine whether the moving party has established that there is no genuine dispute of material fact and is entitled to judgment as a matter of law. See Wharton v. Danberg , 854 F.3d 234, 241 (3d Cir. 2017) (citing Fed. R. Civ. P. 56(a) ). We view all facts in the light most favorable to the non-moving party and draw all inferences in that party's favor. Id. The elements of the underlying claim are central to our determination, as a fact is only material if it might affect the outcome of the suit under the governing law. See Scheidemantle v. Slippery Rock Univ. State Sys. of Higher Educ. , 470 F.3d 535, 538 (3d Cir. 2006). We therefore begin our discussion with an examination of the underlying elements of the species of \u00a7 1983 claim that Forrest presented to the District Court.\nAs we recently reiterated, a \u00a7 1983 claim against a municipality may proceed in two ways. Estate of Roman v. City of Newark , 914 F.3d 789, 798-99 (3d Cir. 2019). A plaintiff may put forth that an unconstitutional policy or custom of the municipality led to his or her injuries, id. at 798 (citing Monell v. Dep't of Soc. Servs. , 436 U.S. 658, 694, 98 S.Ct. 2018, 56 L.Ed.2d 611 (1978) ), or that they were caused by a failure or inadequacy by the municipality that \"reflects a deliberate or conscious choice,\" see id. (internal quotation marks omitted) (quoting Brown v. Muhlenberg Twp. , 269 F.3d 205, 215 (3d Cir. 2001) ). The latter avenue arose in the failure-to-train context, but applies to other failures and inadequacies by municipalities, including those related to supervision and discipline of its police officers. Id. at 798-99 (\"[Plaintiff] has not pled a municipal policy ... [but] has ... adequately pled that the City failed to train, supervise, and discipline its police officers.\").\nPlaintiffs that proceed under a municipal policy or custom theory must make showings that are not required of those who proceed under a failure or inadequacy theory, and vice versa. Notably, an unconstitutional municipal policy or custom is necessary for the former theory, but not for the latter, failure or inadequacy theory. Id. at 798 (\"[F]or failure-to-train claims ...[,] a plaintiff need not allege an unconstitutional policy.\") (citing Reitz v. County of Bucks , 125 F.3d 139, 145 (3d Cir. 1997) ). This difference can be significant because a plaintiff presenting an unconstitutional policy must point to an official proclamation, policy or edict by a decisionmaker possessing final authority to establish municipal policy on the relevant subject. And, if alleging a custom, the plaintiff must evince a given course of conduct so well-settled and permanent as to virtually constitute law. Id . On the other hand, one whose claim is predicated on a failure or inadequacy has the separate, but equally demanding requirement of demonstrating a failure or inadequacy amounting to deliberate indifference on the part of the municipality. See id. This consists of a showing as to whether (1) municipal policymakers know that employees will confront a particular situation, (2) the situation involves a difficult choice or a history of employees mishandling, and (3) the wrong choice by an employee will frequently cause deprivation of constitutional rights. Carter v. City of Philadelphia , 181 F.3d 339, 357 (3d Cir. 1999).\nAlthough we have acknowledged the close relationship between policy-and-custom claims and failure-or-inadequacy claims, Barkes v. First Corr. Med. , 766 F.3d 307, 316-17 (3d Cir. 2014), the avenues remain distinct: a plaintiff alleging that a policy or custom led to his or her injuries must be referring to an unconstitutional policy or custom, and a plaintiff alleging failure-to-supervise, train, or discipline must show that said failure amounts to deliberate indifference to the constitutional rights of those affected. That is not to say that the plaintiffs cannot be one and the same, with claims sounding in both. They can. See id. at 798-99 (\"[Plaintiff] has sufficiently alleged a custom of warrantless or nonconsensual searches ... [and] has also adequately pled that the City failed to train, supervise, and discipline its officers.\").\n2. Analysis\nWith that understanding, recall that, in his brief opposing summary judgment, Forrest purported to divide his \u00a7 1983 municipal liability claim into two theories. One alleged that a policy or custom of \"essentially unsupervised\" officers was the \"moving force\" behind the constitutional deprivation of his rights. Pl.'s Resp. Br. 30, ECF No. 144. The other alleged that Camden's failure to train and supervise their officers constituted deliberate indifference to the rights of individuals with whom the officers would come into contact. Id. at 34.\nThe District Court did not adopt that framing, and instead further divided the claim into three separate theories. It described them as, first, \"that [Internal Affairs] was inadequate and provided no accountability for Stetser and Parry[,]\" second, \"that the City's supervisory structure and inadequate monitoring system left Stetser and Parry unsupervised[,]\" and third, \"that Stetser and Parry received inadequate training because training about how to recognize and eradicate excessive force and misconduct was necessary.\" App. 14 (internal quotation marks omitted). Further, the District Court enunciated the legal requirements for all three theories as that Forrest had to demonstrate a policy or custom as to the alleged failures or inadequacies and that said policy or custom amounted to deliberate indifference.\nForrest does not challenge the District Court's ruling regarding the first theory-that a policy or custom of inadequate supervision through Internal Affairs amounted to deliberate indifference-as it survived summary judgment. But he does take issue with how he was allowed to proceed on that claim. We take up those challenges in subsections (B), (C), and (D). We now turn our focus to Forrest's challenges to the District Court's ruling regarding his failure-to-supervise and failure-to-train theories.\nAt the outset, we emphasize that, properly considered, there are two ways in which Forrest's \u00a7 1983 claim against Camden may have proceeded: first, that Camden's policy or custom of permitting excessive force, false arrest, or other constitutional violations led to Forrest's injuries; and/or second, that Camden's failure to supervise, discipline, or train its officers amounted to deliberate indifference to the rights of the individuals with whom those officers would come into contact. As a result, the bare notion that a custom or policy of \"essentially unsupervised\" officers led to Forrest's injury has no basis in law. See Pl.'s Resp. Br. 30, ECF No. 144. We therefore consider his claim as sounding in the latter-that Camden's failure to supervise, investigate, and train its officers amounted to deliberate indifference.\nDespite incorrectly announcing that Forrest had to demonstrate an unconstitutional policy or custom of, or amounting to, deliberate indifference, the District Court treated Forrest's claim as we will: it properly conducted a deliberate indifference analysis for each alleged failure on the part of Camden. However, it divided up the quantum of evidence to the detriment of Forrest's failure-to-supervise theory and adopted an unduly narrow view of the evidence supporting Forrest's failure-to-train theory.\nPer the evidentiary division, the lion's share of the evidence we laid out in Section I.C.-four out of the six segments-was associated with only the first theory, which the Court labeled \"Failure to Supervise, Investigate, and Discipline.\" App. 16. This consisted of the evidence that Internal Affairs had substantial backlogs and was not adequately investigating complaints in the years leading up to Forrest's arrest, as well as the evidence of a lack of adequate supervision based on the absence of a system of progressive discipline and any mechanism to track officer performance.\nDespite its overlap with the first theory, the second theory, labeled \"Failure to Supervise,\" App. 21, was limited to the evidence pertaining to Camden's failure to track officer whereabouts, \"CPD's supervisory structure, and generally inadequate supervision of its officers' day-to-day activities ....\" App. 21-22. The District Court did not mention the evidence suggesting that the particular officers at issue engaged in illicit conduct knowing that that they were not being supervised, and the testimony regarding the two incidents that should have alerted the officers' superiors but did not. Nor did the Court consider how, if taken together, the quantum of evidence laid out in Section I.C. supported a failure-to-supervise theory. Camden's motion was ultimately denied as to the \"Failure to Supervise, Investigate, and Discipline\" theory, but granted as to the \"Failure to Supervise\" theory. App. 21-22.\nA different, yet equally problematic narrowing occurred with regard to the third theory, labeled \"Failure to Train.\" App. 22. The District Court construed this theory as merely focusing on the inadequacies in Camden's training program, as it pertained to Officers Stetser and Parry. See App. 22-23 (stating, \"Plaintiff has not adequately demonstrated that the training Parry and Stetser received was so deficient as to reflect [Camden]'s deliberate indifference to constitutional rights.\"). It then granted Camden's motion.\nWe will reverse the District Court's grant of summary judgment on the failure to supervise theory, and, to the extent that it overlooked Forrest's allegations regarding the training supervisors received, also its ruling on the failure to train theory.\na. Failure to Supervise\nThe evidence presented by Forrest may convince a reasonable jury that Camden's failure to supervise and discipline its officers amounted to deliberate indifference to the rights of individuals with whom those officers would come into contact. The record would support a finding that Camden's policymakers knew that their officers would require supervision, that there was a history of officer supervision being mishandled, and that, in the absence of such supervision, constitutional violations were likely to result. Indeed, the evidence suggesting that the particular officers at issue engaged in illicit conduct-often consisting of false arrest and excessive force-knowing that that they were not being supervised, and that there were a few incidents that should have alerted the officers' superiors, but did not, is significant. Those evidentiary points combined with the NJAG reports, the evidence regarding Internal Affairs' complaint backlog and other deficiencies, and the testimonies offered by Chief Thomson, the Supercession Executive, former Deputy Chief Hargis, and the Sergeant who took over Internal Affairs in 2009, is sufficient to withstand a motion for summary judgment.\nCamden argues that Forrest cannot demonstrate a nexus between the deprivation he suffered and Camden's conduct because, in the months leading up to Forrest's arrest, its hands were tied. To support that argument, it cites its internal processes: when Internal Affairs received a complaint, it forwarded that complaint to the Camden County Prosecutor's Office (\"CCPO\"), and took no further action. Id. at 8. It left the investigation entirely up to the CCPO. Id. Camden asserts that this process was in effect with respect to Officers Stetser and Parry in 2008, and, as such, Internal Affairs's investigations of those officers were stayed up to and through the time of Forrest's arrest. Id. at 8.\nWe reject this argument for two reasons. First, as the District Court pointed out, Camden's own submission demonstrates that the CCPO did not take over investigations into Officers Stetser and Parry until September 16, 2008, well over two months after Forrest's arrest. See Def.'s Mot. Ex. 29, ECF No. 138-4 at 13. Second, even assuming that was not the case, there is a genuine dispute of material fact as to whether Internal Affairs's investigation would have resulted in Forrest's arrest (and the surrounding incident) being prevented. Indeed, even when Camden did investigate complaints against these officers, its investigation amounted to a review of the false reports they prepared, and thus resulted in no disciplinary action against the officers.\nWe will therefore reverse the District Court's decision granting summary judgment as to the \u00a7 1983 claim that Camden's failure to supervise its officers amounted to deliberate indifference to the rights of individuals with whom those officers would come into contact.\nb. Failure to Train\nAs to the failure to train theory, Forrest's arguments to the District Court did not only focus on the training Officers Stetser and Parry received, but also the training that supervising officers received. Pl.'s Resp. Br. 35 (arguing that \"training session[s] for officers, supervisors and command officers about how to recognize and eradicate excessive force and misconduct [are] necessary\"). Forrest reiterates the same two-part argument on appeal: that \"the training provided to Stetser and Parry ... was inadequate\" and \"[s]imilarly, training for supervisors was deficient, as sergeants did not receive training geared toward officer discipline.\" Appellant's Op. Br. 40.\nWe agree with the District Court that evidence regarding the training that officers received is insufficient as a matter of law. The alleged deficiency in a training program must be closely related to the alleged constitutional injury because \"[i]n virtually every instance where a person has had his or her constitutional rights violated by a city employee, [said] plaintiff will be able to point to something the city 'could have done' to prevent the unfortunate incident.\" City of Canton, Ohio v. Harris , 489 U.S. 378, 392, 109 S.Ct. 1197, 103 L.Ed.2d 412 (1989) (citation omitted).\nHere, even if we accept that, based on the sheer volume of complaints, Camden had to have known that it had a problem with officers violating the constitutional rights of citizens, the link between that and the alleged deficiencies in the training program is simply too tenuous. The officers knew that their conduct was criminal, and, as the encounter in this case shows, used their authority to pressure victims to refrain from immediately reporting their activities. As a result, there is no proof from which to infer that implementing the changes to the training program that Forrest suggests would have made any difference. Lastly, in terms of awareness, the testimonial evidence from higher officials point to supervision and accountability as the critical issues, not training.\nThe opposite is true of the evidence regarding the inadequacies in training that supervisors received. Camden policymakers knew or should have known that supervisor-level officers would be confronted with officer misconduct, whether first hand or via complaints and reports from others, and that the wrong choice-failure to report or admonish-would lead to the sort of behavior that occurred here: officers whose behavior caused the deprivation of constitutional rights, but who had no reason to change that behavior. And, although the situation does not necessarily involve a difficult choice, the evidence here demonstrates a genuine dispute of material fact as to whether supervisors had a history of mishandling this choice.\nIndeed, the sheer volume of complaints from outsiders, coupled with the absence of any internal response may lead a reasonable jury to conclude that Camden was aware of supervisors mishandling or being unable to handle their duties. This is even more pronounced when one examines the testimonies of higher officials who expressed great concern that officers were not being adequately supervised, and called for various measures to address that reality, including a formal performance evaluation system and a reduction in the supervisor-to-officer ratio. See also App. 128 (warning that Camden's failure to commit manpower and resources to proactively managing police misconduct would place it \"in the position of failing to adequately protect the civil rights of its citizens and set the stage for significant civil liability.\").\nThe call for these measures was warranted and the need for training apparent. The testimony provided by Officers Stetser and Parry reflects that they were aware that supervision was lacking, whether co-conspirator Sergeant Morris covered for them or not. Officer Stetser, in particular, explained that one of his supervisors \"most likely\" knew that he was writing false reports, and accepted them. Pl.'s Resp. Br. Ex. 54-a at 40:16-18, ECF No. 144-43. The record further provides ample basis for this confidence. Recall that Officer Stetser failed an integrity test administered by a supervising officer, and pranked another by planting drugs in the supervising officer's bag. When this was reported to a Sergeant in Internal Affairs, the Sergeant merely responded with his own account of similar behavior by Officer Stetser in other contexts. See Supra Section I.C., Segment Six.\nThe foregoing demonstrates Camden's policymakers were aware that Camden needed a large shake up in its supervisory regime. It also raises significant questions as to whether Camden's supervisor-level officers were adequately trained on how to discipline and combat officer misconduct when it was brought to their attention, including the kinds of misconduct-false arrest and excessive force-that led to Forrest's injuries. Thus, while we agree that Forrest's claim regarding the adequacy of the training officers received fails on causation grounds, we conclude that a genuine dispute of material fact exists as to whether the need for more or different training for supervisors was obvious, and the failure to provide that was very likely to result in a violation of constitutional rights. We will therefore reverse the District Court's summary judgment ruling as to this iteration of Forrest's \u00a7 1983 claim.\nB. Motions in Limine\nForrest presents two challenges to the District Court's decisions on the motions in limine. He argues that the District Court improperly granted summary judgment on his state law negligent supervision claim, and excluded evidence that was material to his surviving \u00a7 1983 claim. We agree-the District Court sua sponte granted summary judgment without providing the procedural safeguards the Federal Rules of Civil Procedure require before judgment on the merits can be granted. We also agree that the Court's evidentiary rulings constituted an abuse of discretion, as they stemmed from an incorrect, narrow view of Forrest's surviving \u00a7 1983 claim.\n1. State Law Negligent Supervision Claim\nThe District Court ruled that Forrest's state law negligent supervision claim survived summary judgment. But there is no mention of the claim for the remainder of the proceedings, including at trial. On appeal, Forrest contends that the District Court effectively granted summary judgment on that claim at the motions-in-limine hearing. Appellant Op. Br. 42-43. He argues that this is clear from District Court's opening remark at that hearing that the only remaining claim was the failure to supervise through Internal Affairs. Id. at 43. Camden counters that Forrest waived this issue by failing to object when the District Court made that remark. Appellee Resp. Br. 40. We first address the District Court's remark and its effect, and then the question of plain error.\na. The District Court's Remark\nIt is well-settled that district courts may grant summary judgment sua sponte , so long as the losing party is given notice when summary judgment is being contemplated. See Fed. R. Civ. P. 56(f) (permitting a sua sponte grant \"[a]fter giving notice and a reasonable time to respond ...\"); Gibson v. Mayor & Council of City of Wilmington , 355 F.3d 215, 222 (3d Cir. 2004) (citing Celotex Corp. v. Catrett , 477 U.S. 317, 326, 106 S.Ct. 2548, 91 L.Ed.2d 265 (1986) ); see also Otis Elevator Co. v. George Washington Hotel Corp. , 27 F.3d 903, 910 (3d Cir. 1994). The purpose is to give the losing party the opportunity to marshal all the evidence that would be used to oppose summary judgment. Gibson , 355 F.3d at 224. Along those lines, although motions in limine are not designed to eliminate claims or theories, see Bradley v. Pittsburgh Bd. of Educ. , 913 F.2d 1064, 1069 (3d Cir. 1990), the Federal Rules of Civil Procedure do not prohibit a grant of summary judgment when said motions have been filed. Whenever the summary judgment ruling is made, the court must provide the parties with adequate notice and an opportunity to oppose. Id. at 1069-70 (finding notice inadequate where neither the parties nor the court suggested the possibility of trial not going forward).\nIn the past, we have determined that a motion in limine resulted in a sua sponte grant of summary judgment based on an express statement by the district court, see Brobst v. Columbus Servs. Int'l , 761 F.2d 148, 154 (3d Cir. 1985) (quoting the district court as having stated, \"The court finds, as a matter of law , that ...\") (emphasis added), or, indirectly, by way of the court having eliminated the evidentiary basis for a claim, see Bradley , 913 F.2d at 1069-70.\nThe situation here is different. The District Court did not make an express statement, at least not one outright purporting to grant summary judgment. Nor did it necessarily eliminate the evidentiary basis for Forrest's state law negligent supervision claim, given the evidentiary overlap with his surviving \u00a7 1983 claim. Instead, Forrest's argument is premised on the District Court's lone remark that, \"This is the only claim left in the case, the failure to supervise through the Internal Affairs process.\" App. 345. But these are differences without a distinction. The principle remains: whether expressly or in effect, a district court may not grant summary judgment without providing the losing party notice, or a notice-equivalent, and an opportunity to oppose. See Gibson , 355 F.3d at 223 (citing Otis , 27 F.3d at 910 ).\nThus, as we ordinarily would, we examine whether the Court granted summary judgment on Forrest's state law negligence claim, and, if so, whether Forrest had adequate notice and an opportunity to oppose.\nBy itself, the District Court's remark that \"the failure to supervise through the Internal Affairs process\" was \"the only claim left in the case\" is ambiguous, at best. By the time the District Court makes this statement, the case had been narrowed to two claims: a \u00a7 1983 claim on the theory that \"[Camden]'s Internal Affairs system was inadequate and provided no accountability ... [,]\" App. 14; and a state law negligent supervision claim \"on the theory that the internal affairs department provided inadequate supervision of its officers,\" App. 24. Thus, a remark that the only remaining claim is the failure to supervise through Internal Affairs leads one to ask: is it the \u00a7 1983 or the state law? The answer can be found in the remainder of the Court's other statements at the motions-in-limine hearing, as well as the jury instructions and verdict form.\nThe remainder of the Court's motions-in-limine statements demonstrate that the remark at issue was referring to the \u00a7 1983 claim as the only remaining claim.\nSpecifically, in the moments before making the remark Forrest cites, the District Court stated, \"I'm going to start with the order in which [the motions] were filed on the docket. And the first is number 164, which is defendant's motion to bar evidence unrelated to the Monell claim.\" App. 345. The Court then proceeded to explain that \"there are no training claims left in the case,\" and, having narrowed the surviving municipal liability claim to the theory involving the inadequate supervision provided through Internal Affairs, stated, \"This is the only claim left in the case, the failure to supervise through the Internal Affairs process.\" Id .\nThe jury instructions and verdict form further demonstrate that Forrest's state law claim was not the claim being referred to as the only one remaining. This claim is absent from the portion of the jury instructions that sets forth what the jury was to consider. Instead, the jury is instructed that, \"[t]he plaintiff, Alanda Forrest, is suing under Section 1983 ....\" App. 456. As to the verdict form, the portion identifying the claims against Camden singularly asks,\n\"Has plaintiff proven by a preponderance of the evidence that the deprivation of Alanda Forrest's constitutional right(s) was the proximate result of a well-settled policy of inadequate supervision by the City of Camden of its officers, including Jason Stetser and/or Kevin Parry?\"\nApp. 442.\nThis singular ask is particularly significant because, as the District Court noted at summary judgment, Forrest's state law negligent supervision claim was an independent claim, with distinct elements. See App. 24. Notably, the claim is not limited to injuries arising from constitutional violations, and neither requires that the plaintiff's injuries result from a well-settled policy or custom nor a showing of deliberate indifference. Rather, the consensus is that a negligent supervision claim under New Jersey law only requires a relatively straightforward negligence showing-that is, that the employer knew or had reason to know the employee exhibited dangerous characteristics, that there was a reasonable foreseeability of harm to others, and that the negligent supervision was the proximate cause of the injuries. Panarello v. City of Vineland , 160 F. Supp. 3d 734, 769 (D.N.J. 2016) ; see also Smith v. Harrah's Casino Resort of Atl. City , 2013 WL 6508406, at *3 (N.J. Super. Ct. App. Div. 2013) (\"Several jurisdictions have held that a claim of negligent supervision requires proof of the same elements recited by our Supreme Court ... with respect to a claim of negligent hiring.\").\nWith all that in view, we conclude the District Court's statement amounted to a sua sponte grant of summary judgment as to Forrest's state law negligent supervision claim.\nWe also conclude that the Court did so without providing Forrest with notice and an opportunity to respond. Indeed, prior to its sua sponte grant, the Court held that Forrest's state law negligent supervision claim would be tried, and had not made any interim rulings that would contradict that. See App. 23-24. So, as of the time of the Court's remark, Forrest had no reason to believe that this claim was at risk of an adverse summary judgment ruling.\nb. Plain Error\nCamden argues that even if the District Court's grant constituted error, we should not reverse because Forrest waived this issue by failing to object. Forrest counters that the failure to object can be excused because the issue qualifies under our plain error doctrine. We agree with Forrest.\nWhere a timely objection is not raised below, we reverse only where the grant constitutes plain error. See Gibson , 355 F.3d at 225 n.4 (citing United States v. Knight , 266 F.3d 203, 206 (3d Cir. 2001) ). In this context, this is true where we find (1) an error, (2) that is plain-i.e., clear and obvious-and (3) the error affected the defendant's substantial rights. See Walden v. Georgia-Pacific Corp. , 126 F.3d 506, 522 (3d Cir. 1997) ; see also Selkridge v. United of Omaha Life Ins. Co. , 360 F.3d 155, 166 (3d Cir. 2004). Even then, we exercise our power to reverse \"sparingly\"-that is, only for \"serious and flagrant\" errors jeopardizing \"the integrity of the proceeding.\" Pennsylvania Environmental Defense Foundation v. Canon-McMillan School Dist. , 152 F.3d 228, 234 (3d Cir. 1998).\nThe District Court's sua sponte grant constituted such an error. It is well established that noncompliance with the notice provisions of the Federal Rules deprives a court of the authority to grant summary judgment. See Fed. R. Civ. P. 56(f) (permitting a sua sponte grant only \"[a]fter giving notice and a reasonable time to respond ...\"). And, as a result of the District Court's noncompliance, the plaintiff was deprived of a jury trial on a claim that the Court previously deemed triable-in other words, a designation that a reasonable jury could find in his favor-despite there being no change in the quantum of evidence between the designation and subsequent deprivation.\nThe seriousness of this error cannot be overstated: it not only deprived a litigant of his day in court, but it effectively designated a matter for the jury and then stepped into the jury's province to decide the same matter. All of this occurred without any explanation, and in a procedural setting that serves an entirely different function: on the parties' motions in limine, rather than on a dispositive motion. See Gibson , 355 F.3d at 224 (issuing a cautionary note that \"the sua sponte grant of summary judgment, without giving notice to the parties, is not the preferred method by which to dispose of claims ... because [courts] run the risk of unduly prejudicing the parties ... [and] such grants ... can have serious, if unintended, consequences.\").\nWe will reverse and remand, with the instruction that the claim should go to the jury unless the District Court seeks to grant summary judgment on it. If the Court so seeks, it may grant summary judgment only after providing adequate notice and opportunity for Forrest to oppose.\n2. The District Court's Evidentiary Rulings\nA ruling on the admissibility of evidence is reviewed for abuse of discretion. Forrest v. Beloit Corp. , 424 F.3d 344, 349 (3d Cir. 2005). There is an abuse of discretion if the district court's decision \"rests upon a clearly erroneous finding of fact, errant conclusion of law, or an improper application of law to fact.\" Id.\n(quoting Oddi v. Ford Motor Co. , 234 F.3d 136, 146 (3d Cir. 2000) ).\nThe District Court excluded evidence of conduct that (a) post-dated Forrest's arrest, (b) was not specific to Internal Affairs, and (c) related to other wrongdoing by Officers Stetser and Parry. It found this evidence inadmissible on the grounds that it was insufficiently related to the theory that Camden failed to supervise through the Internal Affairs process.\nUnder the Federal Rules, relevant evidence is generally admissible, and irrelevant evidence is not. Fed. R. Ev. 402. Yet the bar for what constitutes relevant evidence is low. See, e.g. , Failla v. City of Passaic , 146 F.3d 149, 159 (3d Cir. 1998) (\"The test of relevance under the Federal Rules of Evidence is low.\"); In re Paoli R.R. Yard PCB Litig. , 35 F.3d 717, 783 (3d Cir. 1994) (describing the Federal Rules as having a \"low threshold of relevancy\"). The test is whether the evidence has \"any tendency to make a fact more or less probable than it would be without the evidence,\" where \"the fact is of consequence in determining the action.\" Fed. R. Ev. 401 (emphasis added).\nThe District Court framed the facts of consequence in this case as only those that demonstrated a failure to supervise through the Internal Affairs process. In so framing the case, the District Court concluded that (a) evidence that post-dated Forrest's arrest was not relevant because it was not causally connected-that is, such evidence would not have helped Internal Affairs prevent the incident with Forrest; (b) testimonies by Chief Thomson, the Supercession Executive, and the Camden County Prosecutor were not relevant because they were not specific to Internal Affairs, but referred to the police department in general; and (c) the complaints against Officers Stetser and Parry were not relevant because they did not concern planting drugs or excessive force.\nThe District Court's framing of the case was unduly narrow and incorrect. Forrest's sole surviving claim was not that Internal Affairs failed to supervise, but, more broadly, that Camden failed to investigate and discipline its officers, and that failure amounted to deliberate indifference to the rights of those to whom those officers would come into contact. To that effect, evidence is not irrelevant merely because it does not show causation, does not specifically pertain to one unit of Camden's police department, or does not focus on the particular activities carried out by the officers that were involved in Forrest's encounter. It is only irrelevant if it bears on no aspect of the overarching theory and its underlying elements. With that framing in mind, we conclude that the District Court's evidentiary rulings constituted an abuse of discretion as to the evidence set forth above.\na. Post-arrest evidence is highly relevant to whether Camden's failure amounted to deliberate indifference.\nAt the outset, causation is not the sine qua non of relevance. The post-arrest evidence included Forrest's complaint, the follow-up letter that he sent to Internal Affairs, and other Internal Affairs complaints regarding similar misconduct by Officers Stetser and Parry. Although the failure to investigate those complaints could not have caused Forrest's alleged injuries, they are highly relevant to whether Camden was deliberately indifferent to a continued pattern of police misconduct. Specifically, Camden's handling of complaints after Forrest's arrest is highly relevant to demonstrating that it maintained the same practice prior to and at the time of said arrest.\nWe held as much in Beck . 89 F.3d at 967-68. The case involved a college student, Beck, who brought an excessive force claim against the City of Pittsburg. Id. at 969-70. He alleged that an officer used excessive force in the process of arresting him for driving under the influence. Id . Inter alia , Beck produced evidence that several complaints had been filed alleging similar acts of excessive force by the officer, some before and some after his arrest, but none of them were sustained or resulted in discipline. Id. at 970. As to the pre-arrest complaint, we stated, \"[it] may have evidentiary value for a jury's consideration [as to] whether the City and policymakers had a pattern of tacitly approving the use of excessive force.\" Id. at 973. We found that the post-arrest complaint could support an inference that policymakers knew, or should have known of the officer's behavior, and, \"because the complaints ... came in a narrow period of time and were of a similar nature,\" they could also support an inference that policymakers knew of the officer's \"propensity for violence when making arrests.\" Id.\nThe same is true of the evidence that was excluded by the District Court here. Forrest's complaint was filed days after his arrest, with a follow-up note not long after that. In addition, the complaints in this case also came in a narrow period of time and are of a similar nature. Indeed, the three related complaints are dated December 27, 2007, August 12, 2008, and August 26, 2008, which is less than two months removed from Forrest's arrest or, in the case of the first, may have pre-dated his arrest or was made less than six months after. In terms of the nature of the incidents, the first complaint contained allegations that Officers Stetser and Parry threw drugs on the floor and claimed that they belonged to the complainant. The second alleged that Officer Stetser was taking drugs from drug dealers and putting them on other people. And the third was that Officer Stetser slammed a minor onto his marked vehicle, falsely accused the minor of having drugs on his person, and threatened to arrest everyone inside the minor's residence.\nThis evidence clearly lends credence to the notion Camden was aware of related, concerning conduct by its officers and had not responded. It was therefore an abuse of discretion to exclude this evidence merely because it was not causally related to the incident involving Forrest.\nb. The excluded testimonies are highly relevant to Camden's investigative and disciplinary inadequacies, as well as the issue of deliberate indifference.\nThe excluded testimonies consisted of Chief Thomson's statement that, when he became Chief, \"the greatest weakness of [Camden] was a culture of apathy and lethargy,\" in which there was \"no mechanism of accountability in place\"; Supercession Executive Venegas's testimony that Camden failed to implement the NJAG 2006 report's recommendations, which included a recommendation to implement formal personnel evaluation and progressive discipline processes; and, the Camden County Prosecutor's testimony that he received allegations in 2005 that Officer Stetser engaged in criminal activity and referred those allegations to Internal Affairs for investigation. We examine each, in turn.\nThe District Court's conclusion that Supercession Executive Venegas's testimony was not relevant is belied by the fact that it cited the crux of that testimony in its opinion denying Camden's summary judgment motion. Specifically, the opinion states,\nIn August 2006, Arturo Venegas began his duties as Supercession Executive, and his consulting agreement implied that the Police Department lacked \"clear standards of performance for the police department and its employees\" and a \"system of progressive discipline that holds both employees and their managers accountable for performance and behavior.\" While this evidence does not compel a finding of Monell liability, it aids Plaintiff in establishing genuine issue of material fact suitable for a jury.\nApp. 20 (emphasis added). Simply put, evidence that aids a plaintiff in establishing a genuine dispute of material fact more than meets the low threshold set by Rule 401.\nIn addition, the record is clear that both Chief Thomson and Supercession Executive Venegas were directly responsible for all of Camden Police, including Internal Affairs. Their testimony regarding Camden's across-the-board investigatory and disciplinary deficiencies is thus highly relevant to establishing Camden's awareness of, and response to, those deficiencies.\nFinally, the District Court excluded the Camden County Prosecutor's testimony that the office received allegations against Stetser in 2005 and referred those allegations to Internal Affairs. Internal Affairs's records do not reflect that referral or a subsequent investigation. See App. 392-93. The District Court deemed this evidence irrelevant because there was no evidence that Camden received the referral. Camden defends that ruling on the additional ground that the incident involved an informant who could not identify a picture of Officer Stetser.\nThis argument and the District Court's basis are beside the point. As Forrest points out, when viewed in conjunction with the fact that Internal Affairs had instances in which certain complaints were missing, a reasonable jury could construe this as further evidence of the inadequacy of Camden's investigatory regime.\nc. The excluded other-misconduct complaints further demonstrate Camden's investigative deficiencies and is also highly relevant to the issue of deliberate indifference.\nThe excluded other-misconduct complaint was dated May 28, 2008, a few months prior to Forrest's experience. The complainant alleged that on May 1, 2008, he was approached by two officers when he came out of a Chinese restaurant after ordering food. Officer Stetser approached and greeted the complainant in a nice manner, but then proceeded to \"jump in his face all of a sudden (literally face to face) yelling, 'Motherfucker, you been watching me, motherfucker!' \" App. 341. The officers then handcuffed and searched the complainant, who then proceeded to explain that he only came out for some food. The officers thereafter walked the complainant back to their police van and handed him a summons for loitering before releasing him.\nThe District Court excluded this evidence because \"Well, it has nothing to do with planting drugs or [excessive force],\" despite previously acknowledging that it contained an allegation that Officer Stetser \"wrongfully arrested someone.\" App. 376-77. Further, while the complaint itself concerned the issuance of a wrongful ticket, the underlying conduct is analogous to what the officers exhibited with Forrest a few months later-that is, abruptly approaching unwitting civilians and flagrantly ignoring Fourth Amendment prohibitions. Thus, given the temporal proximity and the similarities between the incident and Forrest's own experience, the District Court's decision to exclude this evidence as irrelevant amounted to an abuse of discretion.\nFor the foregoing reasons, we conclude that the District Court abused its discretion when it excluded evidence that post-dated Forrest's arrest, albeit not specific to Internal Affairs or strictly related to other wrongdoing by Officers Stetser and Parry.\nC. Jury Instruction Errors\nForrest did not object to the instructions provided to the jury. The errors he alleges here have therefore not been preserved. Rule 51(d)(2) provides that we \"may consider a plain error in the instructions that has not been preserved ... if the error affects substantial rights.\" Harvey v. Plains Tp. Police Dept. , 635 F.3d 606, 609 (3rd Cir.2011) (quoting Fed. R. Civ. P. 51(d)(2) ). Under that standard, we reverse only if the error is \"(1) fundamental and highly prejudicial or if the instructions are such that the jury is without adequate guidance on a fundamental question and (2) our refusal to consider the issue would result in a miscarriage of justice.\" Id. at 612 (quoting Alexander v. Riga, 208 F.3d 419, 426-27 (3d Cir. 2000) ). We therefore proceed by first considering whether the District Court committed an error, and if so, whether the error meets the threshold for reversal.\nThe jury instructions errors are twofold: first, the instructions confuse the jury as to the legal requirements for each species of \u00a7 1983 liability, and, second, it narrows the jury's focus to only evidence pertaining to Internal Affairs and Officers Stetser and Parry.\nPer the former, recall that the onus of demonstrating an official policy or custom only falls on a plaintiff whose municipal liability claim is predicated on an unconstitutional policy or custom, but that such a plaintiff need not show deliberate indifference on the part of the municipality. On the other hand, a plaintiff advancing a claim predicated on a municipality's failure or inadequacy in training, supervision, or otherwise is spared from demonstrating the existence of an unconstitutional policy or custom but must make the deliberate indifference showing. To the contrary, the jury here was incorrectly instructed that, in order to find a municipal liability for inadequate supervision, it had to find that Camden adopted a policy or custom of inadequate supervision amounting to deliberate indifference to the fact that it would \"obviously result in the violation of an individual's right to be free from unlawful arrest and excessive force.\" App. 463-64.\nIndeed, in relevant part, the instructions begin by stating that the jury must find \"that an official policy or custom of [Internal Affairs] caused the deprivation [of his constitutional rights].\" App. 462. And, after presenting the requirements for determining whether a policy or custom existed, it frames Forrest's claim as \"[Camden] adopted a policy of inadequate supervision and that this policy caused the violation of [Forrest's] right[s] ....\" App. 463. It then immediately follows with instructions that the jury must also find that Internal Affairs failed to adequately supervise Officers Stetser and Parry, and that said supervision amounted to deliberate indifference. App. 463-64. The result is confusion as to whether the policy or custom finding is antecedent to reaching the deliberate indifference inquiry, or if the two are intertwined in some other way.\nPer the second error, the instructions frame the case as solely pertaining to the adequacy of Internal Affairs's supervision of Officers Stetser and Parry, rather than the adequacy of Camden's supervision and investigation of its officers in general. Specifically, the instructions state that,\nIn order to hold the municipality liable for the violation of [Forrest's constitutional rights] ..., you must find that [Forrest] has ... proved by preponderance of the evidence ... [that] [f]irst, [Internal Affairs] failed to adequately supervise Stetser and Parry . Second, [Internal Affairs]'s failure to supervise Stetser and Parry amounted to deliberate indifference .... Third, [Internal Affairs]'s failure to adequately supervise[ ] proximately cause[d] the violation ...\nApp. 463-64 (emphasis added). Further, in instructing the jury on the elements of deliberate indifference, the Court again directed the jury to examine whether \"[Internal Affairs] knew that Jason Stetser and Kevin Parry would confront a particular situation.\" Id.\nIn contrast, the legal requirement for deliberate indifference is whether \"(1) municipal policymakers know that employees will confront a particular situation; (2) the situation involves a difficult choice or a history of employees mishandling; and (3) the wrong choice by an employee will frequently cause deprivation of constitutional rights.\" Carter , 181 F.3d at 357 (emphasis added). It is not narrowed to the particular employees in the case. Notably, as the record makes clear, the Chief of Police had ultimate authority over Camden's police department and Internal Affairs but is not properly considered within Internal Affairs. We therefore conclude that the instructions provided to the jury regarding Forrest's \u00a7 1983 claim constituted error.\nWe also conclude that both errors meet the threshold for reversal. The District Court's instructions narrowed the universe of evidence that the jury could rely on to only evidence that pertained to Internal Affairs' supervision of Officers Stetser and Parry, to the exclusion of its broader investigatory inadequacies. It also left the jury without guidance on the fundamental question of what it needed to find to conclude that Camden was or was not liable. Our failure to consider either error would result in a miscarriage of justice. We therefore consider both. As Part 3 of the jury verdict is the only aspect that concerned Camden's liability under \u00a7 1983, we will vacate that aspect of the verdict.\nIII. CONCLUSION\nFor all of the above reasons, we will reverse the above-specified aspects of the District Court's summary judgment and evidentiary rulings, vacate part three of the jury verdict, and remand for further proceedings consistent with this opinion.\nBrown's testimony corroborates the account provided by Forrest, up to and including his being dragged down the stairs. For example, she testified that Forrest was behind the door of Blevins's room when she walked into the upstairs hallway, and that, after Forrest was hit in the face with the door, one officer \"beat him up pretty bad,\" at one point \"hit[ting] him in the head with a flashlight[.]\" Pl.'s Resp. Br. Ex. 44, at 44:3-6, ECF No. 144-20. According to Brown, the officer hit Forrest \"so many times\" that \"[h]e urinated all over himself[,]\" \"his face was swollen,\" and \"his head was full of blood.\" Id. at 45:6-11. Brown further testified that 1270 Morton belonged to her, she was renting a room to Blevins, Green was her boyfriend, and Hot Dog was visiting on the day of the incident. And that she was \"asleep and ... naked from the waist down,\" when an officer entered the front room with a flashlight. Id. at 20:18-24.\nCamden emphasizes that Forrest nonetheless admitted that his plea was not coerced, but rather free and voluntary. Appellees' Br. 7. In addition, at argument, it represented that there remains a dispute as to whether Forrest \"was engaged in drug possession.\" Oral Arg. Audio at 23:30-24:10. Forrest puts forth that this may not have been the first time that he freely and voluntarily entered a guilty plea to an offense he believed he did not commit. He testified that, in those circumstances, he does not like \"putting [his] life in somebody else's hand\" and that he would much rather take his own chances. Pl.'s Resp. Br. Ex. 64a, at 60:15-20, ECF No. 144-76. Thus, if he thinks he is \"getting another break,\" he takes the plea. Id. at 60:20-22.\nHe attributes this approach to when he chose to go trial in a case brought against him when he was a minor. He testified that sometime in 1971, two police officers lured him from the porch of his mother's home in Camden, accused him of having committed a robbery, and arrested him. He did not take a plea, but \"went all the way to court with it.\" Pl.'s Resp. Br. Ex. 64, at 37:4-5, ECF No. 144-75. He was found guilty and ended up serving seven months in a juvenile correctional facility before he was told that a mistake had been made. Forrest ultimately laments the situation, stating, \"I think that might have damaged me.\" Id. at 38:23.\nIt has no bearing on the analysis in this case, but Camden also disbanded its police department, and formed a new one. See, e.g. , Kate Zernike, To Fight Crime, a Poor City Will Trade In Its Police , https://www.nytimes.com/2012/09/29/nyregion/overrun-by-crime-camden-trades-in-its-police-force.html.\nForrest's conspiracy claim did not survive summary judgment, and he does not mention this claim in his opening brief. Any argument as to this claim is therefore waived. See United States v. Pelullo , 399 F.3d 197, 222 (3d Cir. 2005) (\"It is well settled that an appellant's failure to identify or argue an issue in his opening brief constitutes waiver of that issue on appeal.\" (citations omitted)).\nExcluding Forrest's, there were six complaints lodged against Officer Stetser in that span, including one for excessive force, one for improper arrest, and one for harassment/improper detainment. Officer Parry was the subject of two complaints during the same time frame, one of which does not appear on the mechanism used to track such complaints.\nThe investigation into these complaints was prompted by a request from the complainant's lawyer to access the other two complaints.\nThe NJAG appointed the Camden County Prosecutor to \"supercede the management, administration and operation\" of the police department in 2003. App. 103. The Camden County Prosecutor later installed a Supercession Executive to, inter alia , manage the day-to-day activities of the police department, and represent the County Prosecutor in overseeing all department activities. The Supercession Executive was installed in 2006 and remained until 2008.\nThe District Court had jurisdiction under 28 U.S.C. \u00a7\u00a7 1331, 1367(a) ; we have jurisdiction over appeals from all final decisions by the District Court under 28 U.S.C. \u00a7 1291.\nIn setting forth the law, the District Court purports to rely on our decision in Beck . See App. 7 (citing Beck , 89 F.3d at 972, for the proposition that, \"[w]hile the Supreme Court originally fashioned 'the deliberate indifference' doctrine in the context of a city's alleged failure to train its police officers, the Third Circuit has since adopted this standard in other policy and custom situations .\" (emphasis added)). The portion of Beck cited by District Court quotes language from our decision in Simmons v. City of Philadelphia , 947 F.2d 1042 (3d Cir. 1991), which references a policy or custom of deliberate indifference. However, contrary to what the District Court's opinion suggests, neither Beck nor Simmons established a species of \u00a7 1983 municipal liability predicated on the existence of an unconstitutional policy or custom of or amounting to deliberate indifference. Beck involved a claim regarding an unconstitutional policy or custom of tacitly authorizing police officers to use excessive force in violation of the Fourth Amendment. Beck , 89 F.3d at 968. Similarly, Simmons involved an alleged policy that violated the Eighth Amendment-that is, one of \"deliberate indifference to the medical needs of intoxicated and potentially suicidal detainees.\" Simmons , 947 F.2d at 1064.\nForrest points to the Joint Pre-Trial Order as evidence that he had reason to believe that his state law negligence claim would be tried. However, the document is, at best, ambiguous on this point. Under a subsection labeled \"PLAINTIFF'S LEGAL ISSUES:\" it lists the issue of whether \"[Camden was] negligent in failing to adequately supervise and monitor the actions of its police officers.\" Joint Pretrial Order 35, ECF No. 161. But, like the District Court's remark, it does not specify whether this is referring to the state law negligent supervision claim or Forrest's \u00a7 1983 claim. For our purposes, it is enough that the District Court's summary judgment opinion indicated that this claim would be tried, and the record is devoid of any interim ruling or reference that suggested otherwise.\nIn a footnote, Forrest also argues that the District Court's exclusion of evidence that pre-dated his arrest was improper. Appellant's Br. 45 n.13. This evidence included the 2002 NJAG report which warned that the failure to immediately address the complaint backlog could lead to an adverse finding on deliberate indifference. It also included complaints regarding Sergeant Morris, who supervised Officers Stetser and Parry during Forrest's arrest. For all the same reasons we set forth below, the exclusion of that evidence constituted an abuse of discretion-the evidence is highly relevant to determining deliberate indifference on the part of Camden.\nCamden appears to suggest that the evidence was properly excluded under Federal Rule of Evidence 403, which, in broad terms, permits the exclusion of relevant evidence if its probative value is substantially outweighed by its prejudicial effect. However, the District Court excluded the evidence at issue on Rule 401, relevancy grounds. In addition, Camden does not (and we cannot) identify what prejudice, if any, would result from admitting the evidence at issue. We thus construe Camden's arguments as speaking to relevancy alone and proceed accordingly. See Appellee Br. i. (characterizing the District Court's rulings as \"[p]roperly [e]xcluding [i]rrelevant\" evidence and testimony).\nWe need not reach Forrest's argument that the District Court excluded the Sergeant who took over Internal Affairs's testimony that, when he took over in May of 2009, \"there were a lot of [Internal Affairs] cases open ... and the investigations weren't done,\" in addition to other department-wide deficiencies. See Appellant Br. 49-50. The District Court ruled that the Sergeant would be permitted to testify about \"the 400 open [Internal Affairs] cases.\" See App. 365.\nThe parties dispute this issue. The ambiguity arises because the document containing the testimony states that the \"Date of Occurrence\" is December 27, 2007, App. 236, but the questioner says the date on which the testimony is being given is December 1, 2009.\nForrest argues that the District Court also instructed the jury on the failure-to-supervise theory that did not survive summary judgment, rather than the failure to investigate and discipline theory that did. But the District Court repeatedly referred to the surviving theory as one for failure to supervise, but only through Internal Affairs. See App. 463 (\"[O]fficials within [Internal Affairs] are policymaking officials for the issue of whether [Camden] inadequately supervised its officials and investigated [I]nternal [A]ffairs complaints.\") (emphasis added). We are therefore not persuaded that what Forrest asserts amounted to error.\nAt argument, Camden made the case that the jury instructions were not erroneous because they were consistent with the Third Circuit's Model Jury Instructions. As we recently reiterated, despites their label, the Third Circuit Model Jury Instructions are not drafted by members of this Court, and are thus \"neither law nor precedential.\" See Robinson v. First State Cmty. Action Agency , 920 F.3d 182, 189-90 (3d Cir. 2019). We nonetheless have observed that it is unlikely that \"the use of a model jury instruction can constitute error.\" Id. at 190 (quoting United States v. Petersen , 622 F.3d 196, 208 (3d Cir. 2010) ). To that effect, the instructions regarding inadequate training or supervision claims do not suggest that a showing of a policy or custom is required, but merely that a program was inadequate, that this inadequacy amounted to deliberate indifference, and proximately caused the violation complained of. See Third Circuit Model Civil Jury Instruction 4.6.7. Similarly, on deliberate indifference, the same set of instructions ask whether the entity at issue knew that \"employees would confront a particular situation.\" Id. (emphasis added). For the reasons we have set forth, we are not persuaded that the District Court's instructions were consistent.",
+        "type": "majority",
+        "author": "GREENAWAY, JR., Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Elizabeth A. Rose [ARGUED], Sullivan & Cromwell, 1700 New York Avenue, N.W., Suite 700, Washington, DC 2006, Counsel for Appellant",
+      "John C. Eastlack, Jr., Daniel E. Rybeck, [ARGUED], Georgios Farmakis, Weir & Partners, 20 Brace Road, Suite 200, Cherry Hill, NJ 08034, Lilia Londar [ARGUED], Weir & Partners, 215 Fries Mill Road, 2nd Floor, Turnersville, NJ 08012, Counsel for Appellee"
+    ],
+    "corrections": "",
+    "head_matter": "Alanda FORREST, Appellant\nv.\nKevin PARRY, PHM; Camden City Police Officer; Jason Stetser, PHM; Camden City Police Officer; City of Camden; City of Camden Department of Public Safety; Warren Faulk; Paula Dow; Department of the Treasury, State of New Jersey ; John Does I-IV\nNo. 16-4351\nUnited States Court of Appeals, Third Circuit.\nArgued November 15, 2018\nFiled: July 10, 2019\nElizabeth A. Rose [ARGUED], Sullivan & Cromwell, 1700 New York Avenue, N.W., Suite 700, Washington, DC 2006, Counsel for Appellant\nJohn C. Eastlack, Jr., Daniel E. Rybeck, [ARGUED], Georgios Farmakis, Weir & Partners, 20 Brace Road, Suite 200, Cherry Hill, NJ 08034, Lilia Londar [ARGUED], Weir & Partners, 215 Fries Mill Road, 2nd Floor, Turnersville, NJ 08012, Counsel for Appellee\nBefore: GREENAWAY, JR., BIBAS, and FUENTES, Circuit Judges."
+  },
+  "file_name": "0093-01",
+  "first_page_order": 93,
+  "last_page_order": 119
+}

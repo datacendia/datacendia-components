@@ -1,0 +1,59 @@
+{
+  "id": 12417972,
+  "name": "Wehrenberg v. Pennsylvania",
+  "name_abbreviation": "Wehrenberg v. Pennsylvania",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 12-214",
+  "first_page": "944",
+  "last_page": "944",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 944"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 74,
+    "ocr_confidence": 0.681,
+    "sha256": "24191a98444b04ed93ae20ff0013d74904edd889c528a340a64fbc9bcd10e874",
+    "simhash": "1:ea4425d0b12ca9d0",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wehrenberg v. Pennsylvania."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. Pa. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-214.\nWehrenberg v. Pennsylvania."
+  },
+  "file_name": "0944-02",
+  "first_page_order": 1020,
+  "last_page_order": 1020
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12415556,
+  "name": "Spurlock v. Washington",
+  "name_abbreviation": "Spurlock v. Washington",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5236",
+  "first_page": "902",
+  "last_page": "902",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 902"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 71,
+    "ocr_confidence": 0.71,
+    "sha256": "af87f216d21b0ea3241f3cd0d05b6f9c9810e4f1b5b76385fe366b32a7b347bd",
+    "simhash": "1:038bcbc022fb74a8",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Spurlock v. Washington."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Wash. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5236.\nSpurlock v. Washington."
+  },
+  "file_name": "0902-07",
+  "first_page_order": 978,
+  "last_page_order": 978
+}

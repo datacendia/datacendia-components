@@ -1,0 +1,59 @@
+{
+  "id": 12206626,
+  "name": "Gold v. Schuette",
+  "name_abbreviation": "Gold v. Schuette",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10849",
+  "first_page": "853",
+  "last_page": "853",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 853"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 66,
+    "ocr_confidence": 0.703,
+    "sha256": "9f40a46003dfa3d10b53b864ba2fa537685505ccf47dcab4ff681033ffc017b0",
+    "simhash": "1:14c340a801ac2862",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gold v. Schuette."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10849.\nGold v. Schuette."
+  },
+  "file_name": "0853-02",
+  "first_page_order": 935,
+  "last_page_order": 935
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12193742,
+  "name": "Boomer v. New York",
+  "name_abbreviation": "Boomer v. New York",
+  "decision_date": "2012-03-26",
+  "docket_number": "No. 11-8376",
+  "first_page": "908",
+  "last_page": "908",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 908"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 93,
+    "ocr_confidence": 0.673,
+    "sha256": "8af210c25be9fc084aa365aea29a440629ac0da5f623977d2189e1ef900c3188",
+    "simhash": "1:74b2c9462190d112",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Boomer v. New York."
+    ],
+    "opinions": [
+      {
+        "text": "App. Div., Sup. Ct. N. Y., 3d Jud. Dept. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8376.\nBoomer v. New York."
+  },
+  "file_name": "0908-08",
+  "first_page_order": 784,
+  "last_page_order": 784
+}

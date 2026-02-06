@@ -1,0 +1,59 @@
+{
+  "id": 5928432,
+  "name": "Cannion v. United States",
+  "name_abbreviation": "Cannion v. United States",
+  "decision_date": "2011-03-07",
+  "docket_number": "No. 10-8812",
+  "first_page": "1278",
+  "last_page": "1278",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1278"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.597,
+    "sha256": "0ef7a61f5571576b2cf9d2d2a769622e782bc499b1a17eca039bc93f007b2649",
+    "simhash": "1:176bca3327cd945e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cannion v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8812.\nCannion v. United States."
+  },
+  "file_name": "1278-01",
+  "first_page_order": 1300,
+  "last_page_order": 1300
+}

@@ -1,0 +1,59 @@
+{
+  "id": 6028750,
+  "name": "Messina v. Commissioner of Internal Revenue",
+  "name_abbreviation": "Messina v. Commissioner",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-1463",
+  "first_page": "835",
+  "last_page": "835",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 835"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 92,
+    "ocr_confidence": 0.563,
+    "sha256": "4ec286808b86e3956ad949c5fb88c3490f245f6c2bfd60cd8d3a2937159a427a",
+    "simhash": "1:a28bb1e95707f07f",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Messina v. Commissioner of Internal Revenue."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-1463.\nMessina v. Commissioner of Internal Revenue."
+  },
+  "file_name": "0835-03",
+  "first_page_order": 857,
+  "last_page_order": 857
+}

@@ -1,0 +1,512 @@
+{
+  "id": 12520282,
+  "name": "Charles H. JAMES, Claimant-Appellant v. Robert WILKIE, Secretary of Veterans Affairs, Respondent-Appellee",
+  "name_abbreviation": "James v. Wilkie",
+  "decision_date": "2019-03-07",
+  "docket_number": "2018-1264",
+  "first_page": "1368",
+  "last_page": "1376",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "917 F.3d 1368"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Fed. Cir.",
+    "id": 8955,
+    "name": "United States Court of Appeals for the Federal Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "18 U.S.C. \u00a7\u00a7 1701",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "489 F.3d 1380",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5546361,
+        3484985
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "1383",
+          "parenthetical": "\"Because the issue before us is whether equitable tolling is available under 38 U.S.C. \u00a7 7266(a) in a case of excusable neglect, we have jurisdiction to decide whether equitable tolling is appropriate in this case.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/vet-app/21/1380-01",
+        "/f3d/489/1380-01"
+      ]
+    },
+    {
+      "cite": "314 F.3d 1293",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9387856,
+        9344765
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "1297",
+          "parenthetical": "holding that equitable tolling existed, and stating that whether a veteran \"actively pursues his legal remedies\" is the touchstone of the equitable tolling analysis"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/314/1293-01",
+        "/vet-app/16/1293-01"
+      ]
+    },
+    {
+      "cite": "712 F. App'x 1001",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        12412698
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1003"
+        },
+        {
+          "page": "1003",
+          "parenthetical": "vacating and remanding for \"the Veterans Court to consider whether the facts of this case warrant equitable tolling\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/712/1001-01"
+      ]
+    },
+    {
+      "cite": "843 F.3d 1355",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12174531
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1359"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/843/1355-01"
+      ]
+    },
+    {
+      "cite": "560 U.S. 631",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3641601,
+        12454867
+      ],
+      "weight": 3,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "650",
+          "parenthetical": "internal quotation marks and citation omitted"
+        },
+        {
+          "parenthetical": "internal quotation marks and citation omitted"
+        },
+        {
+          "parenthetical": "internal quotation marks and citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/560/0631-01",
+        "/l-ed-2d/177/0130-01"
+      ]
+    },
+    {
+      "cite": "589 F.3d 1201",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3500723,
+        6053221
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/589/1201-01",
+        "/vet-app/23/1201-01"
+      ]
+    },
+    {
+      "cite": "160 F.3d 1360",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11683500,
+        11585542
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "1364",
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/160/1360-01",
+        "/vet-app/12/1360-01"
+      ]
+    },
+    {
+      "cite": "498 U.S. 89",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6219498
+      ],
+      "weight": 5,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "96"
+        },
+        {
+          "page": "96"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/498/0089-01"
+      ]
+    },
+    {
+      "cite": "748 F.3d 1373",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5887506,
+        4075510
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "1378",
+          "parenthetical": "citing Irwin v. Dep't of Veterans Affairs , 498 U.S. 89, 96, 111 S.Ct. 453, 112 L.Ed.2d 435 (1990) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/748/1373-01",
+        "/vet-app/26/1373-01"
+      ]
+    },
+    {
+      "cite": "131 S.Ct. 1197",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        6023194,
+        4151926,
+        12457263
+      ],
+      "weight": 3,
+      "year": 2011,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/562/0428-01",
+        "/vet-app/24/1197-01",
+        "/l-ed-2d/179/0159-01"
+      ]
+    },
+    {
+      "cite": "562 U.S. 428",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6023194,
+        12457263
+      ],
+      "weight": 5,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "434-36"
+        },
+        {
+          "page": "440"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/562/0428-01",
+        "/l-ed-2d/179/0159-01"
+      ]
+    },
+    {
+      "cite": "576 F.3d 1290",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4037477,
+        6053285
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "1296"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/576/1290-01",
+        "/vet-app/23/1290-01"
+      ]
+    },
+    {
+      "cite": "223 F.3d 1374",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11108290,
+        11243919
+      ],
+      "weight": 3,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "1376"
+        },
+        {
+          "page": "1375-76"
+        },
+        {
+          "page": "1375",
+          "parenthetical": "explaining that \"[i]n order to reverse the [Veterans] [C]ourt's decision, we would have to evaluate the facts and conclude otherwise,\" and therefore, \"the question whether equitable tolling would ever be appropriate in the case of a late filing was not decided\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/vet-app/14/1374-01",
+        "/f3d/223/1374-01"
+      ]
+    },
+    {
+      "cite": "397 F.3d 1375",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9039936,
+        3001529
+      ],
+      "weight": 4,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "1379",
+          "parenthetical": "internal quotation marks and citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/397/1375-01",
+        "/vet-app/19/1375-01"
+      ]
+    },
+    {
+      "cite": "737 F.3d 719",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4075049,
+        3731575
+      ],
+      "weight": 7,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "724",
+          "parenthetical": "internal quotation marks, citation, and footnote omitted"
+        },
+        {
+          "page": "728-29"
+        },
+        {
+          "page": "725",
+          "parenthetical": "internal citations omitted"
+        },
+        {
+          "page": "725-28",
+          "parenthetical": "recounting the development of equitable tolling doctrine in veterans' benefits cases"
+        },
+        {
+          "page": "726"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/vet-app/26/0719-01",
+        "/f3d/737/0719-01"
+      ]
+    },
+    {
+      "cite": "870 F.3d 1383",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12275562
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1385",
+          "parenthetical": "citing 38 U.S.C. \u00a7 7292 "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/870/1383-01"
+      ]
+    },
+    {
+      "cite": "38 U.S.C. \u00a7 7292",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(d)(2)"
+        },
+        {
+          "page": "(c)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 U.S.C. \u00a7 7266",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "parenthetical": "requiring that an NOA be filed with the Veterans Court \"within 120 days after the date on which notice of the [Board] decision is mailed\""
+        },
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 Vet.App. 127",
+      "category": "reporters:specialty",
+      "reporter": "Vet. App.",
+      "weight": 14,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "130"
+        },
+        {
+          "page": "128"
+        },
+        {
+          "page": "128"
+        },
+        {
+          "page": "129"
+        },
+        {
+          "page": "129-30"
+        },
+        {
+          "page": "130"
+        },
+        {
+          "parenthetical": "Greenberg, J., dissenting"
+        },
+        {
+          "page": "130"
+        },
+        {
+          "page": "130",
+          "parenthetical": "concluding that a fallen mailbox flag is not an extraordinary circumstance but rather is per se \"an ordinary hazard of last-minute mailing that could have been avoided but for [Mr. James's] ... neglect\""
+        },
+        {
+          "page": "128"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 939,
+    "char_count": 21502,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2592085484520526
+    },
+    "sha256": "47e0b3a0429990fde2f719eba0674d2ba9f63c5c38b1e96f5ed407f3a97058fb",
+    "simhash": "1:fbc7fe1c0eb45d7a",
+    "word_count": 3462
+  },
+  "last_updated": "2024-02-27T18:46:27.088999+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Wallach, Linn, and Hughes, Circuit Judges."
+    ],
+    "parties": [
+      "Charles H. JAMES, Claimant-Appellant\nv.\nRobert WILKIE, Secretary of Veterans Affairs, Respondent-Appellee"
+    ],
+    "opinions": [
+      {
+        "text": "Wallach, Circuit Judge.\nAppellant Charles H. James appeals an order of the U.S. Court of Appeals for Veterans Claims (\"Veterans Court\"). The Veterans Court dismissed as untimely Mr. James's appeal of a Board of Veterans' Appeals (\"Board\") denial of (1) compensation claims for lumbar spine and cervical spine disability and (2) an increased rating claim for pseudofolliculitis barbae, finding that equitable tolling of the filing deadline was not available to Mr. James. See James v. Shulkin , 29 Vet.App. 127, 130 (2017) ; see also J.A. 1 (Final Judgment). Because the Veterans Court did not apply the proper legal standard, we vacate and remand for the Veterans Court to reconsider whether equitable tolling applies.\nBACKGROUND\nMr. James served on active duty during the Vietnam War. See Appellant's Br. 3. Mr. James sought service-connected disability compensation for \"a lumbar spine disability and cervical spine disability, as well as an increased rating claim for pseudofolliculitis barbae.\" James, 29 Vet.App. at 128. On January 28, 2016, the Board denied Mr. James's claims. Id .\nOn Friday, May 27, 2016, acting pro se, Mr. James placed his notice of appeal (\"NOA\") in a stamped envelope addressed to the Veterans Court in the mailbox at his residence and put the flag up for collection. Id. ; see 38 U.S.C. \u00a7 7266 (2012) (requiring that an NOA be filed with the Veterans Court \"within 120 days after the date on which notice of the [Board] decision is mailed\"). Mr. and Mrs. James left town for the weekend and did not return until the evening of Monday, May 30. See J.A. 14 (excerpt from Mr. James Decl.), 21 (excerpt from Mrs. James Decl.); see also J.A. 17-18 (hotel receipts).\nWhen Mr. James discovered the uncollected NOA still sitting in his residence mailbox upon his return home, he proceeded to deposit it that night at his local post office. James, 29 Vet.App. at 128 ; see J.A. 14-15. The next day, the Veterans Court received and electronically docketed Mr. James's NOA, which bore a postmark of May 31, 2016. James, 29 Vet.App. at 128.\nBecause May 31, 2016, is more than 120 days after the Board mailed its January 28, 2016 decision, the Veterans Court ordered Mr. James to \"show cause why his appeal should not be dismissed for untimely filing.\" Id . ; see J.A. 8. After obtaining counsel, Mr. James filed a response to the show-cause order, arguing that the 120-day appeal window should be equitably tolled because, based upon the particular facts of his case, an errantly lowered flag on his residential mailbox constitutes an extraordinary circumstance beyond his control. See James, 29 Vet.App. at 129. As evidence of his having pre-planned a trip with his wife out of town and proof of where they stayed, Mr. James submitted two declarations, one each from himself and his wife, see J.A. 13-15 (Mr. James Decl.), 20-22 (Mrs. James Decl.), as well as copies of the hotel receipts, see J.A. 17-18. Mr. James contended, as he does here, that he did not know why his NOA was not collected and postmarked on May 27, 2016, but stated under oath in his declaration that his neighbor \"said that [the neighbor] had received mail on Friday,\" and also observed \"that some neighborhood kids had been playing in the street near [Mr. James's] house\" and \"might have put the flag down.\" J.A. 15. Mr. James's Declaration also states that the postman confirmed to Mr. James that he had made his rounds through the neighborhood after 1:00 p.m. on Friday, May 27, 2016, but he did not stop to pick up any mail at the James residence because the flag was down and he had nothing to deliver to the James residence on that Friday, Saturday, or Monday. J.A. 15.\nIn October 2017, a divided Veterans Court issued a decision dismissing Mr. James's appeal for the untimely filing of his NOA. James, 29 Vet.App. at 129-30. The majority determined that Mr. James had not demonstrated that equitable tolling was warranted because \"a fallen mailbox flag\" was not \"an extraordinary circumstance beyond [Mr. James]'s control ... but rather an ordinary hazard of last minute mailing that could have been avoided.\" Id. at 130. The dissent argued that equitable tolling should apply and noted that, given Mr. James's placement of his NOA in his mailbox within the 120-day timeframe, \"[i]t [wa]s irrelevant that there were other methods of mailing available, as his actions would have likely been sufficient to ensure timely mailing but for circumstances beyond his control.\" Id. (Greenberg, J., dissenting).\nJURISDICTION\nAs an initial matter, Appellee Robert Wilkie, Secretary of Veterans Affairs (\"Government\"), contends that we lack jurisdiction to review the Veterans Court's determination that equitable tolling is unwarranted. Appellee's Br. 7; see id . at 7-12 (arguing the Veterans Court's decision is either a factual determination or an application of law to the facts of a particular case, and that our review is therefore barred by 38 U.S.C. \u00a7 7292(d)(2) ). We disagree.\nOur jurisdiction to review decisions of the Veterans Court is limited by statute. Goodman v. Shulkin , 870 F.3d 1383, 1385 (Fed. Cir. 2017) (citing 38 U.S.C. \u00a7 7292 ). We may \"review and decide any challenge to the validity of any statute or regulation or any interpretation thereof ... and ... interpret constitutional and statutory provisions, to the extent presented and necessary to a decision.\" 38 U.S.C. \u00a7 7292(c). \"[We] may not review (A) a challenge to a factual determination, or (B) a challenge to a law or regulation as applied to the facts of a particular case.\" Id . \u00a7 7292(d)(2). As such, \"we have authority to decide whether the Veterans Court applied the correct legal standard.\" Sneed v. Shinseki , 737 F.3d 719, 724 (Fed. Cir. 2013) (internal quotation marks, citation, and footnote omitted).\nWe have jurisdiction over Mr. James's appeal from the Veterans Court's determination that he is not entitled to equitable tolling of the filing deadline. Mr. James alleges error as a matter of law, contending the Veterans Court erred in creating a categorical ban against equitable tolling in cases involving a fallen mailbox flag, even though equitable tolling employs a case-by-case inquiry. See Appellant's Br. 15-16; Oral. Arg. at 1:15-55, http://oralarguments.cafc.uscourts.gov/default.aspx?fl=2018-1264.mp3 (confirming the same by counsel for Mr. James). We have \"consistently held\" that when \"the mate-rial facts are not in dispute and the adoption of a particular legal standard would dictate the outcome of the equitable tolling claim, this court has treated the question of the availability of equitable tolling as a matter of law that we are authorized by statute to address.\" Mapu v. Nicholson , 397 F.3d 1375, 1379 (Fed. Cir. 2005) (internal quotation marks and citation omitted). Since we are asked to review whether the Veterans Court applied the correct legal standard for equitable tolling, this issue is one of law within our jurisdiction. See Sneed , 737 F.3d at 728-29.\nThe Government's citation to our precedent in Leonard v. Gober , where we dismissed for lack of jurisdiction, is in-apposite. See Appellee's Br. 8 (citing 223 F.3d 1374, 1376 (Fed. Cir. 2000) ). In Leonard , the Veterans Court \"specifically found that [the veteran] failed to timely file her NOA due to her own neglect and that the statute of limitations could not therefore be tolled.\" 223 F.3d at 1375-76. We dismissed the appeal for lack of jurisdiction because it presented no issue of law, and, further, presented no contested interpretation of \u00a7 7266. See id . ; see also id. at 1375 (explaining that \"[i]n order to reverse the [Veterans] [C]ourt's decision, we would have to evaluate the facts and conclude otherwise,\" and therefore, \"the question whether equitable tolling would ever be appropriate in the case of a late filing was not decided\"). Here, as we stated previously, a question of law is presented. Accordingly, we turn to the merits of Mr. James's equitable tolling argument.\nDISCUSSION\nI. Standard of Review and Legal Standard\nWe \"review[ ] legal determinations of the Veterans Court de novo.\" Cushman v. Shinseki , 576 F.3d 1290, 1296 (Fed. Cir. 2009). The filing deadline of \u00a7 7266 is not jurisdictional and may be tolled where appropriate. See Henderson v. Shinseki , 562 U.S. 428, 434-36, 131 S.Ct. 1197, 179 L.Ed.2d 159 (2011). \"In order to benefit from equitable tolling, ...\na claimant [must] demonstrate three elements: (1) extraordinary circumstance; (2) due diligence; and (3) causation.\" Checo v. Shinseki , 748 F.3d 1373, 1378 (Fed. Cir. 2014) (citing Irwin v. Dep't of Veterans Affairs , 498 U.S. 89, 96, 111 S.Ct. 453, 112 L.Ed.2d 435 (1990) ). While we have identified several circumstances under which equitable tolling is available, including when a veteran misfiled his notice of appeal at a Department of Veterans Affairs (\"VA\") regional office, timely-filed an incorrect form, or when a veteran suffers from mental or physical illness that prevented filing, see Sneed , 737 F.3d at 725 (internal citations omitted) (compiling cases), we have rejected the argument that equitable tolling \"is limited to a small and closed set of factual patterns and that equitable tolling is precluded if a veteran's case does not fall within those patterns,\" Mapu , 397 F.3d at 1380 ; see Bailey v. West , 160 F.3d 1360, 1364 (Fed. Cir. 1998) (en banc) (stating that such a conclusion would run counter to our holding that \"requiring ruthless application of the time limit [of \u00a7 7266 ] is somewhat arbitrary\"), overruled on other grounds by Henderson v. Shinseki , 589 F.3d 1201 (Fed. Cir. 2009) (en banc), rev'd , 562 U.S. 428, 131 S.Ct. 1197, 179 L.Ed.2d 159 (2011). Conversely, the Supreme Court has noted that courts are \"less forgiving in receiving late filings\" where, inter alia, there is \"a garden variety claim of excusable neglect.\" Irwin , 498 U.S. at 96, 111 S.Ct. 453 (internal citations omitted); see Sneed , 737 F.3d at 725-28 (recounting the development of equitable tolling doctrine in veterans' benefits cases).\nThe Supreme Court has also previously acknowledged \"the need for flexibility\" and \"for avoiding mechanical rules\" in courts of equity and to proceed on a \"case-by-case basis.\" Holland v. Florida , 560 U.S. 631, 650, 130 S.Ct. 2549, 177 L.Ed.2d 130 (2010) (internal quotation marks and citation omitted). It further directs that in cases of equitable tolling, courts consider the uniquely pro-claimant nature of the veterans benefits system. See Henderson , 562 U.S. at 440, 131 S.Ct. 1197 -41 (\"The contrast between ordinary civil litigation ... and the system that Congress created for the adjudication of veterans' benefits claims could hardly be more dramatic. ... Rigid jurisdictional treatment of the 120-day period for filing a notice of appeal in the Veterans Court would clash sharply with this scheme .\" (emphasis added)).\nII. The Veterans Court Applied an Improper Legal Standard when Considering the Extraordinary Circumstances Requirement\nThe Veterans Court held \"that a fallen mailbox flag is not an extraordinary circumstance beyond [Mr. James]'s control that warrants equitable tolling.\" James , 29 Vet.App. at 130. The Veterans Court, however, did not perform a case-specific analysis of the undisputed facts of Mr. James's case. See id . at 129. Instead, it made a categorical determination that a fallen mailbox flag is not entitled to equitable tolling but is \"rather an ordinary hazard of last-minute mailing that could have been avoided but for [Mr. James]'s 'garden variety neglect.' \" Id . at 130. Mr. James argues that the Veterans Court erred in creating a categorical ban by holding that equitable tolling can never apply to an entire category of cases involving a fallen mailbox flag. See Appellant's Br. 15. We agree with Mr. James.\nThe Veterans Court erred because the extraordinary circumstance element necessarily requires a case-by-case analysis and not a categorical determination. When determining whether a court committed legal error in selecting the appropriate legal standard, we determine which legal standard the tribunal applied , not which standard it recited. See Int'l Custom Prods., Inc. v. United States , 843 F.3d 1355, 1359 (Fed. Cir. 2016) (stating that \"a single reference to an incorrect legal standard does not undermine a final decision, only its application does\" and holding that, despite referencing an incorrect legal standard, the court under review did not err because it \"repeatedly applied the correct ... standard\"). Here, although the Veterans Court framed its standard of review and conclusions in terms of a case-by-case analysis, see James , 29 Vet.App. at 129 (citing Sneed , 737 F.3d at 726 ), it actually applied a categorical ban foreclosing the possibility that a fallen mailbox flag may ever constitute an extraordinary circumstance, see id. at 130 (holding \"that a fallen mailbox flag is not an extraordinary circumstance beyond [Mr. James]'s control\").\nThe Veterans Court focused too narrowly on whether Mr. James's case fell into one of the factual patterns of past cases considering \u00a7 7266(a). See id. at 129 (distinguishing from \"other timely misfiling cases\"), 130 (analogizing Mr. James's facts to a single prior decision of the Veterans Court that found no extraordinary circumstance where the veteran arrived five minutes late to the post office on the 120-day deadline, and mailed the NOA on day 121). We have expressly stated that \"[e]quitable tolling is not 'limited to a small and closed set of factual patterns' \" and have historically \"rejected the approach of looking to whether a particular case falls within the facts specifically identified in Irwin or one of our prior cases.\" Sneed , 737 F.3d at 726 (quoting Mapu , 397 F.3d at 1380 ); see id . (reversing a denial of equitable tolling by the Veterans Court where it \"failed to consider whether attorney misconduct-as opposed to misconduct by the VA official-may constitute a basis for equitable tolling\"); see also Sterling v. Shulkin , 712 F. App'x 1001, 1003 (Fed. Cir. 2018) (vacating the Veterans Court's decision to dismiss a veteran's appeal as untimely because the Veterans Court \"erred by not considering whether equitable tolling should apply\" where the veteran \"was homeless for several years,\" the \"Veterans Court received her [NOA] a mere one day after the 120 day deadline,\" and the veteran \"appear[ed] to have actively contacted the Board regarding the status of her case and diligently updated her address\"). The Veterans Court failed to consider whether the fallen mailbox flag due to an alleged third-party interference with the federal collection of mail could justify invoking equitable tolling in Mr. James's case as a matter of law. See James , 29 Vet.App. at 130 (concluding that a fallen mailbox flag is not an extraordinary circumstance but rather is per se \"an ordinary hazard of last-minute mailing that could have been avoided but for [Mr. James's] ... neglect\"). Such an improperly narrowed analysis cannot support a finding of no extraordinary circumstance.\nThe Government argues the Veterans Court did not err because \"[Mr. James's]\ncircumstances as described were only out of [his] control insofar as Mr. James elected to wait until the final day of the appeal period to attempt to mail his NOA, chose to place the NOA inside his mailbox with a raised flag rather than take it to a post office ,\" and \"voluntarily left his home for a number of days on a pre-planned trip without ensuring that the appeal had in fact been posted or even retrieved by the postal worker.\" Appellee's Br. 13. We disagree with the Government's implication that Mr. James was required to file earlier in order for the Veterans Court's categorical bar not to apply. There is no requirement that Mr. James file any earlier than the 120-day deadline. See 38 U.S.C. \u00a7 7266(a).\nMoreover, it is irrelevant to the extraordinary circumstances element analysis whether Mr. James could have done more after he put his NOA in his residential mailbox. Instead, under the proper legal standard, what would have been highly relevant is the undisputed fact that Mr. James placed his NOA in a U.S. Postal Service mailbox in time for it to be postmarked within the 120-day filing deadline of \u00a7 7266. See J.A. 14 (evidencing the known pattern and practice of Mr. James's local U.S. Postal Service mailman collection times). Therefore, how the Veterans Court should have interpreted the application of the extraordinary circumstance factor relating to \u00a7 7266 hinged on the weight afforded to the also undisputed fact that someone or something interfered with the U.S. Postal Service's ordinary operation of retrieving mail from a residential mailbox and postmarking it the same day. Cf. Santana-Venegas v. Principi , 314 F.3d 1293, 1297 (Fed. Cir. 2002) (holding that equitable tolling existed, and stating that whether a veteran \"actively pursues his legal remedies\" is the touchstone of the equitable tolling analysis).\nMr. James further argues that we should hold that he meets the extraordinary circumstance prong under \"a proper interpretation\" of \u00a7 7266(a) because he timely placed a proper NOA in a residential U.S. Postal Service mailbox, and a fallen mailbox flag constitutes per se an extraordinary circumstance beyond his control that \"prevented his NOA from being [timely] postmarked.\" Appellant's Br. 16. We reject Mr. James's alternative argument to interpret the bounds of \u00a7 7266(a). While it is proper to interpret the relevant statute in, for example, the veterans misfiling cases because they involve constructive receipt as a matter of law, here, Mr. James concedes that not every instance of a fallen mailbox flag is going to lead to equitable tolling. See Oral. Arg. at 7:01-48. This type of appeal necessarily requires a case-specific analysis, and we do not make any categorical interpretation under \u00a7 7266(a).\nUse of a categorical determination for an equitable tolling analysis finds no support in our precedent. We conclude that the Veterans Court erred as a matter of law in making an impermissible categorical determination that a particular set of facts will never warrant equitable tolling of the filing deadline. We vacate and remand for the Veterans Court to decide whether equitable tolling is appropriate under the correct legal standard. See Sneed , 737 F.3d at 729 ; see Sterling , 712 F. App'x at 1003 (vacating and remanding for \"the Veterans Court to consider whether the facts of this case warrant equitable tolling\").\nCONCLUSION\nWe have considered the parties' remaining arguments and find them unpersuasive.\nThe Final Judgment of the U.S. Court of Appeals for Veterans Claims is\nVACATED AND REMANDED\nCOSTS\nCosts to Mr. James.\nBecause the parties do not dispute the relevant facts, see Appellant's Br. 4; Appellee's Br. 9, we cite to the Veterans Court's decision unless otherwise noted, see James , 29 Vet.App. at 128.\nThe parties do not dispute that the statutorily mandated 120-day deadline for Mr. James to file an NOA with the Veterans Court was on Friday, May 27, 2016.\nIn addition, Mr. James argues that \u00a7 7266 should per se allow a veteran to invoke equitable tolling where he timely places a proper NOA in a mailbox, and due to extraordinary circumstances, the NOA was not postmarked within the 120-day period. Appellant's Br. 16-18. Although we need not address this alternative argument, our clarification of a \u00a7 7266 legal interpretation would necessarily demonstrate whether Mr. James was entitled to equitable tolling in this case, an issue that is also within our jurisdiction. See Mapu, 397 F.3d at 1379 ; see also Nelson v. Nicholson , 489 F.3d 1380, 1383 (Fed. Cir. 2007) (\"Because the issue before us is whether equitable tolling is available under 38 U.S.C. \u00a7 7266(a) in a case of excusable neglect, we have jurisdiction to decide whether equitable tolling is appropriate in this case.\").\nOnce a residential mailbox is put into use, it is considered federal property protected by law. See 18 U.S.C. \u00a7\u00a7 1701, 1705. It is not unreasonable for a person using the U.S. Postal Service to expect that the laws surrounding the transport of their mail, including the laws surrounding mailbox tampering, will be followed. See id. \u00a7\u00a7 1701 (prohibiting \"knowingly and willfully obstructing ... the pas-sage of the mail\"), 1705 (making it a federal crime to \"willfully\" tamper or vandalize a mailbox, or to injure or destroy any mail deposited in them).\nFurthermore, given that the Veterans Court made no findings of fact or law as to the remaining prongs of the equitable tolling analysis, see James , 29 Vet.App. at 130 n.2, we must remand for the Veterans Court to make those findings in the first instance.",
+        "type": "majority",
+        "author": "Wallach, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Thomas T. Carmack, Arnold & Porter Kaye Scholer LLP, Palo Alto, CA, argued for claimant-appellant. Also represented by Nathaniel Edward Castellano, Washington, DC; Thomas W. Stoever, Jr., Denver, CO.",
+      "Sosun Bae, Commercial Litigation Branch, Civil Division, United States Department of Justice, Washington, DC, argued for respondent-appellee. Also represented by Claudia Burke, Robert Edward Kirschman, Jr., Joseph H. Hunt ; Lara Eilhardt, Y. Ken Lee, Office of General Counsel, United States Department of Veterans Affairs, Washington, DC."
+    ],
+    "corrections": "",
+    "head_matter": "Charles H. JAMES, Claimant-Appellant\nv.\nRobert WILKIE, Secretary of Veterans Affairs, Respondent-Appellee\n2018-1264\nUnited States Court of Appeals, Federal Circuit.\nDecided: March 7, 2019\nThomas T. Carmack, Arnold & Porter Kaye Scholer LLP, Palo Alto, CA, argued for claimant-appellant. Also represented by Nathaniel Edward Castellano, Washington, DC; Thomas W. Stoever, Jr., Denver, CO.\nSosun Bae, Commercial Litigation Branch, Civil Division, United States Department of Justice, Washington, DC, argued for respondent-appellee. Also represented by Claudia Burke, Robert Edward Kirschman, Jr., Joseph H. Hunt ; Lara Eilhardt, Y. Ken Lee, Office of General Counsel, United States Department of Veterans Affairs, Washington, DC.\nBefore Wallach, Linn, and Hughes, Circuit Judges."
+  },
+  "file_name": "1368-01",
+  "first_page_order": 1368,
+  "last_page_order": 1376
+}

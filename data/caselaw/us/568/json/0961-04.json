@@ -1,0 +1,88 @@
+{
+  "id": 12419288,
+  "name": "Already, LLC, dba Yums v. Nike, Inc.",
+  "name_abbreviation": "Already, LLC v. Nike, Inc.",
+  "decision_date": "2012-10-15",
+  "docket_number": "No. 11-982",
+  "first_page": "961",
+  "last_page": "961",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 961"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "567 U. S. 933",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12411042,
+        12411011,
+        12410987,
+        12411053,
+        12411023,
+        12410994,
+        12410964,
+        12411032,
+        12410975
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/567/0933-08",
+        "/us/567/0933-05",
+        "/us/567/0933-03",
+        "/us/567/0933-09",
+        "/us/567/0933-06",
+        "/us/567/0933-04",
+        "/us/567/0933-01",
+        "/us/567/0933-07",
+        "/us/567/0933-02"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 36,
+    "char_count": 225,
+    "ocr_confidence": 0.629,
+    "sha256": "aeef1784e4eea9fbd426ed2a14614bbdcc3fc4573baca49b363cf3756b30b52e",
+    "simhash": "1:82848393cb676e59",
+    "word_count": 39
+  },
+  "last_updated": "2024-02-27T23:44:49.194693+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Already, LLC, dba Yums v. Nike, Inc."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. [Certiorari granted, 567 U. S. 933.] Motion of the Solicitor General for leave to participate in oral argument as amicus curiae and for divided argument granted.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-982.\nAlready, LLC, dba Yums v. Nike, Inc."
+  },
+  "file_name": "0961-04",
+  "first_page_order": 1037,
+  "last_page_order": 1037
+}

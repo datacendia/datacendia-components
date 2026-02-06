@@ -1,0 +1,59 @@
+{
+  "id": 12433013,
+  "name": "Madigan et al. v. Levin",
+  "name_abbreviation": "Madigan v. Levin",
+  "decision_date": "2013-03-18",
+  "docket_number": "No. 12-872",
+  "first_page": "1228",
+  "last_page": "1228",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1228"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 73,
+    "ocr_confidence": 0.628,
+    "sha256": "5f70fc28b1cc8acd9cfd0392801c94ca900e612c0eb3e1c9a0f451603f748af3",
+    "simhash": "1:5a5074b15f64ec3c",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Madigan et al. v. Levin."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Cer-tiorari granted.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-872.\nMadigan et al. v. Levin."
+  },
+  "file_name": "1228-01",
+  "first_page_order": 1304,
+  "last_page_order": 1304
+}

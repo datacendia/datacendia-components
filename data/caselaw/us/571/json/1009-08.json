@@ -1,0 +1,68 @@
+{
+  "id": 12699149,
+  "name": "In re Robert Charles JONES, petitioner.",
+  "name_abbreviation": "In re Jones",
+  "decision_date": "2013-11-12",
+  "docket_number": "No. 13\u20137014.",
+  "first_page": "1009",
+  "last_page": "1009",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 1009"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 412"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 631"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 23,
+    "char_count": 147,
+    "sha256": "0bf1f3d45c665e7aade71233faa71311fb926b33c47c2e20bd4bc5f1d0b187d3",
+    "simhash": "1:6c0fe0363373e659",
+    "word_count": 24
+  },
+  "last_updated": "2021-08-27T20:47:23.363448+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Robert Charles JONES, petitioner."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of habeas corpus denied."
+    ],
+    "corrections": "",
+    "head_matter": "In re Robert Charles JONES, petitioner.\nNo. 13-7014.\nSupreme Court of the United States\nNov. 12, 2013.\nPetition for writ of habeas corpus denied."
+  },
+  "file_name": "1009-08",
+  "first_page_order": 1009,
+  "last_page_order": 1009
+}

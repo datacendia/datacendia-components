@@ -1,0 +1,59 @@
+{
+  "id": 5959135,
+  "name": "Cleveland v. Whitehead, Warden",
+  "name_abbreviation": "Cleveland v. Whitehead",
+  "decision_date": "2011-04-25",
+  "docket_number": "No. 10-9643",
+  "first_page": "966",
+  "last_page": "966",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 966"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 79,
+    "ocr_confidence": 0.634,
+    "sha256": "537d232fee017b41dfc19d2bd24dbc2c3bd6812fae6df8cc60f43d3e0a128f8d",
+    "simhash": "1:b6cc9871cf5fb019",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cleveland v. Whitehead, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9643.\nCleveland v. Whitehead, Warden."
+  },
+  "file_name": "0966-06",
+  "first_page_order": 992,
+  "last_page_order": 992
+}

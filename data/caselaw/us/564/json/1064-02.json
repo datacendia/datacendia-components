@@ -1,0 +1,59 @@
+{
+  "id": 4332529,
+  "name": "Foster v. Texas",
+  "name_abbreviation": "Foster v. Texas",
+  "decision_date": "2011-09-20",
+  "docket_number": "No. 11A302 (11-6427)",
+  "first_page": "1064",
+  "last_page": "1064",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1064"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 47,
+    "char_count": 476,
+    "ocr_confidence": 0.537,
+    "sha256": "87ab9dc0d3f93baee61b1102fe42218cf0bd4dad4f95de5f8e2e98df01534f83",
+    "simhash": "1:780fa23d90d101d0",
+    "word_count": 78
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Foster v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Grim. App. Tex. Application for stay of execution of sentence of death, presented to Justice Scalia, and by him referred to the Court, granted pending disposition of the petition for writ of certiorari. Should the petition for writ of certiorari be denied, this stay shall terminate automatically. In the event the petition for writ of certio-rari is granted, the stay shall terminate upon the issuance of the mandate of this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11A302 (11-6427).\nFoster v. Texas."
+  },
+  "file_name": "1064-02",
+  "first_page_order": 1058,
+  "last_page_order": 1058
+}

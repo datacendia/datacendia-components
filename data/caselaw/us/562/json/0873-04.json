@@ -1,0 +1,59 @@
+{
+  "id": 5964258,
+  "name": "Melvin v. Hudson, Warden",
+  "name_abbreviation": "Melvin v. Hudson",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11305",
+  "first_page": "873",
+  "last_page": "873",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 873"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.642,
+    "sha256": "cc497a047b5501afeb32165831f9709cd79568366400402bd29a7dd40d23d8c1",
+    "simhash": "1:a28e421b7c1a581e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Melvin v. Hudson, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11305.\nMelvin v. Hudson, Warden."
+  },
+  "file_name": "0873-04",
+  "first_page_order": 895,
+  "last_page_order": 895
+}

@@ -1,0 +1,61 @@
+{
+  "id": 5986179,
+  "name": "Washington v. Allison, Acting Warden",
+  "name_abbreviation": "Washington v. Allison",
+  "decision_date": "2011-03-21",
+  "docket_number": "No. 10-8640",
+  "first_page": "1304",
+  "last_page": "1304",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1304"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 25,
+    "char_count": 164,
+    "ocr_confidence": 0.605,
+    "sha256": "dcbd45edbaad23f92ab06440288dcc1b50ec784919bf852478e37772803b69f9",
+    "simhash": "1:8cf32a84efaff8d6",
+    "word_count": 26
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Breyer took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Washington v. Allison, Acting Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.\nJustice Breyer took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8640.\nWashington v. Allison, Acting Warden."
+  },
+  "file_name": "1304-02",
+  "first_page_order": 1326,
+  "last_page_order": 1326
+}

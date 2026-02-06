@@ -1,0 +1,59 @@
+{
+  "id": 5989905,
+  "name": "Mosley v. Florida",
+  "name_abbreviation": "Mosley v. Florida",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11555",
+  "first_page": "887",
+  "last_page": "887",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 887"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 66,
+    "ocr_confidence": 0.614,
+    "sha256": "6a7fdfa3a0e4e18cdbe8193e08c50fbf9cbee7427c027121cba6b28a97c87fc9",
+    "simhash": "1:575fdb5260275a37",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mosley v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Fla. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11555.\nMosley v. Florida."
+  },
+  "file_name": "0887-12",
+  "first_page_order": 909,
+  "last_page_order": 909
+}

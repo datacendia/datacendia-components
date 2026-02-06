@@ -1,0 +1,59 @@
+{
+  "id": 12415781,
+  "name": "Poydras v. Louisiana",
+  "name_abbreviation": "Poydras v. Louisiana",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5377",
+  "first_page": "909",
+  "last_page": "909",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 909"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 68,
+    "ocr_confidence": 0.673,
+    "sha256": "27ddac5e30af0d9ae5f8968dab9ed797e1c41a02e5be894b35cf7a872dfc3d4f",
+    "simhash": "1:12451d53f46ad51a",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Poydras v. Louisiana."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. La. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5377.\nPoydras v. Louisiana."
+  },
+  "file_name": "0909-09",
+  "first_page_order": 985,
+  "last_page_order": 985
+}

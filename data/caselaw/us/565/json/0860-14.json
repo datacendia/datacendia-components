@@ -1,0 +1,59 @@
+{
+  "id": 12208792,
+  "name": "Schmitz v. Minnesota",
+  "name_abbreviation": "Schmitz v. Minnesota",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10988",
+  "first_page": "860",
+  "last_page": "860",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 860"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 70,
+    "ocr_confidence": 0.669,
+    "sha256": "6ff17c040ff569cb18ee92226b3ba8820c7ab28c2bbc2b34f17c05bfb6606466",
+    "simhash": "1:e1c992128efca189",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Schmitz v. Minnesota."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Minn. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10988.\nSchmitz v. Minnesota."
+  },
+  "file_name": "0860-14",
+  "first_page_order": 942,
+  "last_page_order": 942
+}

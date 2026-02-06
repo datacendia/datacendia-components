@@ -1,0 +1,59 @@
+{
+  "id": 12414036,
+  "name": "Rivera-Martinez v. United States",
+  "name_abbreviation": "Rivera-Martinez v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10759",
+  "first_page": "860",
+  "last_page": "860",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 860"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 82,
+    "ocr_confidence": 0.634,
+    "sha256": "308675903309aefa45c04ab91cb4d79d2aa038662450e0b1d0f143f0f4f60787",
+    "simhash": "1:451b16404491bc28",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rivera-Martinez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10759.\nRivera-Martinez v. United States."
+  },
+  "file_name": "0860-13",
+  "first_page_order": 936,
+  "last_page_order": 936
+}

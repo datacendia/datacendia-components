@@ -1,0 +1,61 @@
+{
+  "id": 5920231,
+  "name": "Steinbeck et al. v. McIntosh & Otis, Inc., et al.",
+  "name_abbreviation": "Steinbeck v. McIntosh & Otis, Inc.",
+  "decision_date": "2011-06-13",
+  "docket_number": "No. 10-1119",
+  "first_page": "1012",
+  "last_page": "1012",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1012"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 27,
+    "char_count": 178,
+    "ocr_confidence": 0.604,
+    "sha256": "595e27b291a21ca83677c252ef4a4f6eea904d02d54ef61e548b01e432d96ae8",
+    "simhash": "1:99f560a8494ef4c8",
+    "word_count": 30
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Sotomayor took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Steinbeck et al. v. McIntosh & Otis, Inc., et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.\nJustice Sotomayor took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1119.\nSteinbeck et al. v. McIntosh & Otis, Inc., et al."
+  },
+  "file_name": "1012-13",
+  "first_page_order": 1006,
+  "last_page_order": 1006
+}

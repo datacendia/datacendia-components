@@ -1,0 +1,59 @@
+{
+  "id": 12433645,
+  "name": "Browne v. United States",
+  "name_abbreviation": "Browne v. United States",
+  "decision_date": "2013-03-18",
+  "docket_number": "No. 12-8704",
+  "first_page": "1242",
+  "last_page": "1242",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1242"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.643,
+    "sha256": "5d7d5a9ab5f2ce31fb30cda01e6c1c44d5ba94f807020ccb6c4684151562ee33",
+    "simhash": "1:b73bc7232f35144e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Browne v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8704.\nBrowne v. United States."
+  },
+  "file_name": "1242-10",
+  "first_page_order": 1318,
+  "last_page_order": 1318
+}

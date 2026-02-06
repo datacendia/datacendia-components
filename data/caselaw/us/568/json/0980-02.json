@@ -1,0 +1,59 @@
+{
+  "id": 12420116,
+  "name": "Smith v. CSX Transportation, Inc.",
+  "name_abbreviation": "Smith v. CSX Transportation, Inc.",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 12-291",
+  "first_page": "980",
+  "last_page": "980",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 980"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 79,
+    "ocr_confidence": 0.599,
+    "sha256": "77acddf0721f7b34ff955d7a9c0d76e327c7948d31c11ccca30c56e86405647c",
+    "simhash": "1:874e120cc007dac2",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Smith v. CSX Transportation, Inc."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ala. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-291.\nSmith v. CSX Transportation, Inc."
+  },
+  "file_name": "0980-02",
+  "first_page_order": 1056,
+  "last_page_order": 1056
+}

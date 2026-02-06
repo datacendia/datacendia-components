@@ -1,0 +1,59 @@
+{
+  "id": 5991853,
+  "name": "Chalk v. Rhode Island",
+  "name_abbreviation": "Chalk v. Rhode Island",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5683",
+  "first_page": "934",
+  "last_page": "934",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 934"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.588,
+    "sha256": "0f46db1dab8f1091f78f26da049adc38f501dea5499ae686a82890998d147d40",
+    "simhash": "1:645aa6f07fdcbe2f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Chalk v. Rhode Island."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5683.\nChalk v. Rhode Island."
+  },
+  "file_name": "0934-11",
+  "first_page_order": 956,
+  "last_page_order": 956
+}

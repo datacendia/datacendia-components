@@ -1,0 +1,59 @@
+{
+  "id": 12417843,
+  "name": "Maggiore v. Connecticut",
+  "name_abbreviation": "Maggiore v. Connecticut",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 12-115",
+  "first_page": "942",
+  "last_page": "942",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 942"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 71,
+    "ocr_confidence": 0.678,
+    "sha256": "423a106878e2b8f3d70152acbea9ae57f2d9af0f9c91b4e2ce3bd30d633a5b3b",
+    "simhash": "1:ba3be494a9ad08bc",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Maggiore v. Connecticut."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Conn. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-115.\nMaggiore v. Connecticut."
+  },
+  "file_name": "0942-07",
+  "first_page_order": 1018,
+  "last_page_order": 1018
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12241323,
+  "name": "Shub v. United States",
+  "name_abbreviation": "Shub v. United States",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-7478",
+  "first_page": "1132",
+  "last_page": "1132",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1132"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.64,
+    "sha256": "931aeb6906b3b220376a5e781cff5b7459e2f24c76c76708b766c2b472a78d2d",
+    "simhash": "1:00aa02eb0d35140a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Shub v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7478.\nShub v. United States."
+  },
+  "file_name": "1132-11",
+  "first_page_order": 1214,
+  "last_page_order": 1214
+}

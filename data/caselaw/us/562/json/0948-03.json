@@ -1,0 +1,59 @@
+{
+  "id": 5918866,
+  "name": "Missouri v. Brooks",
+  "name_abbreviation": "Missouri v. Brooks",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-1492",
+  "first_page": "948",
+  "last_page": "948",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 948"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 20,
+    "char_count": 133,
+    "ocr_confidence": 0.561,
+    "sha256": "6225b27ead5c89349ec8376a7d9062ba3d87cabc758f3b67ec75159726322873",
+    "simhash": "1:3395816e66fd6b0e",
+    "word_count": 20
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Missouri v. Brooks."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Mo. Motion of respondent for leave to proceed informa pauperis granted. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-1492.\nMissouri v. Brooks."
+  },
+  "file_name": "0948-03",
+  "first_page_order": 970,
+  "last_page_order": 970
+}

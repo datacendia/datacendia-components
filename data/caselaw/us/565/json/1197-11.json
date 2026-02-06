@@ -1,0 +1,76 @@
+{
+  "id": 12245660,
+  "name": "Reniff, Sheriff, Butte County, California v. Hrdlicka et al.; and McGinness, Sheriff, Sacramento County, California v. Crime, Justice & America, Inc., et al.",
+  "name_abbreviation": "Reniff v. Hrdlicka",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-651; No. 11-653",
+  "first_page": "1197",
+  "last_page": "1197",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1197"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "631 F. 3d 1044",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4085166
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/631/1044-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 31,
+    "char_count": 248,
+    "ocr_confidence": 0.644,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2476571027886182
+    },
+    "sha256": "951205d4d416da08e9e5958b5d77084ee338e6bd8e87fd2ce18713f4d3209710",
+    "simhash": "1:144b20507134d5de",
+    "word_count": 38
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Reniff, Sheriff, Butte County, California v. Hrdlicka et al.; and McGinness, Sheriff, Sacramento County, California v. Crime, Justice & America, Inc., et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied. Reported below: 631 F. 3d 1044.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-651.\nNo. 11-653.\nReniff, Sheriff, Butte County, California v. Hrdlicka et al.; and McGinness, Sheriff, Sacramento County, California v. Crime, Justice & America, Inc., et al."
+  },
+  "file_name": "1197-11",
+  "first_page_order": 1279,
+  "last_page_order": 1279
+}

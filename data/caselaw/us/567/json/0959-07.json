@@ -1,0 +1,84 @@
+{
+  "id": 12413056,
+  "name": "In re Disbarment of Newman",
+  "name_abbreviation": "In re Disbarment of Newman",
+  "decision_date": "2012-08-13",
+  "docket_number": "No. D-2661",
+  "first_page": "959",
+  "last_page": "959",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 959"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "566 U. S. 959",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12209442,
+        12209475,
+        12209413,
+        12209426,
+        12209396,
+        12209461,
+        12209403
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/566/0959-05",
+        "/us/566/0959-07",
+        "/us/566/0959-03",
+        "/us/566/0959-04",
+        "/us/566/0959-01",
+        "/us/566/0959-06",
+        "/us/566/0959-02"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 107,
+    "ocr_confidence": 0.707,
+    "sha256": "c08cbc03fdc18efe5a90c2660994bef81fff0206879cabd3f140fbd7021248d5",
+    "simhash": "1:3038f983da9053c6",
+    "word_count": 18
+  },
+  "last_updated": "2024-02-27T23:46:21.325002+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Newman."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered. [For earlier order herein, see 566 U. S. 959.]",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2661.\nIn re Disbarment of Newman."
+  },
+  "file_name": "0959-07",
+  "first_page_order": 863,
+  "last_page_order": 863
+}

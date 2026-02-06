@@ -1,0 +1,59 @@
+{
+  "id": 5958278,
+  "name": "Bean v. Perttu",
+  "name_abbreviation": "Bean v. Perttu",
+  "decision_date": "2011-03-28",
+  "docket_number": "No. 10-8633",
+  "first_page": "908",
+  "last_page": "908",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 908"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 63,
+    "ocr_confidence": 0.579,
+    "sha256": "6bece0d4b4b00a8ef64990e58c4a677004d07b256506002f642200f7833854d2",
+    "simhash": "1:c2ca72054a1e804e",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bean v. Perttu."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8633.\nBean v. Perttu."
+  },
+  "file_name": "0908-01",
+  "first_page_order": 934,
+  "last_page_order": 934
+}

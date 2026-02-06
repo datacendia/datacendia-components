@@ -1,0 +1,59 @@
+{
+  "id": 12433663,
+  "name": "Duenas et al. v. United States",
+  "name_abbreviation": "Duenas v. United States",
+  "decision_date": "2013-03-18",
+  "docket_number": "No. 12-8728",
+  "first_page": "1242",
+  "last_page": "1242",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1242"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 79,
+    "ocr_confidence": 0.628,
+    "sha256": "aa26bc8522b2bfd9950eed94bb91094b9bf32e6ee3d2f64264988c0cd9bbb380",
+    "simhash": "1:d73ba62b6fbd380c",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Duenas et al. v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8728.\nDuenas et al. v. United States."
+  },
+  "file_name": "1242-16",
+  "first_page_order": 1318,
+  "last_page_order": 1318
+}

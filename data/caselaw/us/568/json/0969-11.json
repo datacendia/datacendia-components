@@ -1,0 +1,59 @@
+{
+  "id": 12419792,
+  "name": "Kluge v. United States",
+  "name_abbreviation": "Kluge v. United States",
+  "decision_date": "2012-10-15",
+  "docket_number": "No. 12-6266",
+  "first_page": "969",
+  "last_page": "969",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 969"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.72,
+    "sha256": "417cfc9eadd8777ef2b3a033881ecf43de9611cbb61ffb24be69ea2361795ab1",
+    "simhash": "1:00aab28b8b14124a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Kluge v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6266.\nKluge v. United States."
+  },
+  "file_name": "0969-11",
+  "first_page_order": 1045,
+  "last_page_order": 1045
+}

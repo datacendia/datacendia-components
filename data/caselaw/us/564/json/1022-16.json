@@ -1,0 +1,59 @@
+{
+  "id": 4334110,
+  "name": "Spencer v. Alabama",
+  "name_abbreviation": "Spencer v. Alabama",
+  "decision_date": "2011-06-20",
+  "docket_number": "No. 10-9085",
+  "first_page": "1022",
+  "last_page": "1022",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1022"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 72,
+    "ocr_confidence": 0.542,
+    "sha256": "b7c08d6d07b1ce61c19710f86be37a53bfac0357aad82ff218634a874edf3b91",
+    "simhash": "1:06f2091653ef8b10",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Spencer v. Alabama."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Ala. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9085.\nSpencer v. Alabama."
+  },
+  "file_name": "1022-16",
+  "first_page_order": 1016,
+  "last_page_order": 1016
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12414231,
+  "name": "Whitmore v. Hill et al.",
+  "name_abbreviation": "Whitmore v. Hill",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10805",
+  "first_page": "863",
+  "last_page": "863",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 863"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 73,
+    "ocr_confidence": 0.733,
+    "sha256": "f0064b28972b1e4522cf1f8457b488df85fc2a4babba152ed41b613ff6be3db6",
+    "simhash": "1:1fb80028f3275236",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Whitmore v. Hill et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10805.\nWhitmore v. Hill et al."
+  },
+  "file_name": "0863-07",
+  "first_page_order": 939,
+  "last_page_order": 939
+}

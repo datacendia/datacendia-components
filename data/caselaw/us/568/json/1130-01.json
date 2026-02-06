@@ -1,0 +1,59 @@
+{
+  "id": 12429481,
+  "name": "Smith v. Pennsylvania et al.",
+  "name_abbreviation": "Smith v. Pennsylvania",
+  "decision_date": "2013-01-14",
+  "docket_number": "No. 12-7255",
+  "first_page": "1130",
+  "last_page": "1130",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1130"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 75,
+    "ocr_confidence": 0.555,
+    "sha256": "41eee23c44474538593ffc076a21214e07c68915d0edd92ecf0faca6f706c5a3",
+    "simhash": "1:88c8a401cd1bf526",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Smith v. Pennsylvania et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7255.\nSmith v. Pennsylvania et al."
+  },
+  "file_name": "1130-01",
+  "first_page_order": 1206,
+  "last_page_order": 1206
+}

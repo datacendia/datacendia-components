@@ -1,0 +1,86 @@
+{
+  "id": 5965685,
+  "name": "Stern, Executor of the Estate of Marshall v. Marshall, Executrix of the Estate of Marshall",
+  "name_abbreviation": "Stern v. Marshall",
+  "decision_date": "2011-01-07",
+  "docket_number": "No. 10-179",
+  "first_page": "1127",
+  "last_page": "1127",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1127"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "561 U. S. 1058",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12456039,
+        12456040,
+        12456041,
+        12456042,
+        12456043,
+        12456044,
+        12456045,
+        12456046
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/177/1151-04",
+        "/l-ed-2d/177/1151-05",
+        "/l-ed-2d/177/1152-01",
+        "/l-ed-2d/177/1152-02",
+        "/l-ed-2d/177/1152-03",
+        "/l-ed-2d/177/1152-04",
+        "/l-ed-2d/177/1152-05",
+        "/l-ed-2d/177/1152-06"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 36,
+    "char_count": 289,
+    "ocr_confidence": 0.561,
+    "sha256": "546e947ee8bd0d55c9da4de94bec959b454a9daf444610e718a363c3f6bc2e28",
+    "simhash": "1:c1942433a2f54d51",
+    "word_count": 48
+  },
+  "last_updated": "2024-02-27T22:51:28.129297+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Stern, Executor of the Estate of Marshall v. Marshall, Executrix of the Estate of Marshall."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. [Certiorari granted, 561 U. S. 1058.] Motion of the Acting Solicitor General for leave to participate in oral argument as amicus curiae and for divided argument granted.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-179.\nStern, Executor of the Estate of Marshall v. Marshall, Executrix of the Estate of Marshall."
+  },
+  "file_name": "1127-03",
+  "first_page_order": 1149,
+  "last_page_order": 1149
+}

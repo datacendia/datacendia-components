@@ -1,0 +1,59 @@
+{
+  "id": 5993131,
+  "name": "Nick v. United States",
+  "name_abbreviation": "Nick v. United States",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8380",
+  "first_page": "1244",
+  "last_page": "1244",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1244"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.612,
+    "sha256": "a60473d4ff3684265a4f7df7ac0bc01be9256444d1e2c0c97360bda71676bd8d",
+    "simhash": "1:878ad0866aa7d338",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Nick v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8380.\nNick v. United States."
+  },
+  "file_name": "1244-03",
+  "first_page_order": 1266,
+  "last_page_order": 1266
+}

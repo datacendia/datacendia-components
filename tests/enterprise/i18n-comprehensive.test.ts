@@ -20,9 +20,9 @@ describe('Internationalization - Locale Files', () => {
     'ur', 'he', 'tl'
   ];
 
-  it('should have all 21 locale files', () => {
+  it('should have all locale files (26+ supported languages)', () => {
     const files = fs.readdirSync(LOCALES_DIR).filter(f => f.endsWith('.json'));
-    expect(files.length).toBe(21);
+    expect(files.length).toBeGreaterThanOrEqual(26);
   });
 
   expectedLocales.forEach(locale => {

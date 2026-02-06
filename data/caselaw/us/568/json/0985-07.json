@@ -1,0 +1,59 @@
+{
+  "id": 12420649,
+  "name": "King v. Texas",
+  "name_abbreviation": "King v. Texas",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 12-6001",
+  "first_page": "985",
+  "last_page": "985",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 985"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 68,
+    "ocr_confidence": 0.697,
+    "sha256": "8f2648ed26bcb23a29bcd32bf730d2be6f3c28761c580a6456845d775e1baff9",
+    "simhash": "1:081b10e15c7d67f8",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "King v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Tex. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6001.\nKing v. Texas."
+  },
+  "file_name": "0985-07",
+  "first_page_order": 1061,
+  "last_page_order": 1061
+}

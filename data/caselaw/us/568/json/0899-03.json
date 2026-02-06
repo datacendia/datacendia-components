@@ -1,0 +1,59 @@
+{
+  "id": 12415415,
+  "name": "Hancock v. Clarke, Director, Virginia Department of Corrections",
+  "name_abbreviation": "Hancock v. Clarke",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5179",
+  "first_page": "899",
+  "last_page": "899",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 899"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 112,
+    "ocr_confidence": 0.658,
+    "sha256": "62755e4cf5cfb744303608145fbe24493a1f84437d7869cfb9a7000af32cf1d2",
+    "simhash": "1:37e248a1ca2e9051",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hancock v. Clarke, Director, Virginia Department of Corrections."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5179.\nHancock v. Clarke, Director, Virginia Department of Corrections."
+  },
+  "file_name": "0899-03",
+  "first_page_order": 975,
+  "last_page_order": 975
+}

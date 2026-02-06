@@ -1,0 +1,59 @@
+{
+  "id": 12228371,
+  "name": "Garcia-Alvarez v. United States",
+  "name_abbreviation": "Garcia-Alvarez v. United States",
+  "decision_date": "2011-10-11",
+  "docket_number": "No. 11-6169",
+  "first_page": "955",
+  "last_page": "955",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 955"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 80,
+    "ocr_confidence": 0.7,
+    "sha256": "b163931a0707b47530a04ee3eb28bc47bd813ea626b4de50ff1a5fffe6b59f20",
+    "simhash": "1:46029a000735b92c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Garcia-Alvarez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6169.\nGarcia-Alvarez v. United States."
+  },
+  "file_name": "0955-16",
+  "first_page_order": 1037,
+  "last_page_order": 1037
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12415434,
+  "name": "Willoughby v. Horne, Attorney General of Arizona, et al.",
+  "name_abbreviation": "Willoughby v. Horne",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5190",
+  "first_page": "899",
+  "last_page": "899",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 899"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 104,
+    "ocr_confidence": 0.622,
+    "sha256": "823af33c01ced0fc0f41e397c9da1576ac1cfa12ece5d51bb01bbb88845da72d",
+    "simhash": "1:415160a0650f543e",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Willoughby v. Horne, Attorney General of Arizona, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5190.\nWilloughby v. Horne, Attorney General of Arizona, et al."
+  },
+  "file_name": "0899-13",
+  "first_page_order": 975,
+  "last_page_order": 975
+}

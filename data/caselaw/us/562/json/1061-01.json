@@ -1,0 +1,59 @@
+{
+  "id": 5992256,
+  "name": "Bannister v. Illinois",
+  "name_abbreviation": "Bannister v. Illinois",
+  "decision_date": "2010-11-29",
+  "docket_number": "No. 09-1576",
+  "first_page": "1061",
+  "last_page": "1061",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1061"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 69,
+    "ocr_confidence": 0.686,
+    "sha256": "d64f5ad2399b06dd78f0e4139c46fb7ba8506b71d89a37de408ff7dfd3a8aee2",
+    "simhash": "1:31e0811f0a75d4a7",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bannister v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ill. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-1576.\nBannister v. Illinois."
+  },
+  "file_name": "1061-01",
+  "first_page_order": 1083,
+  "last_page_order": 1083
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12410089,
+  "name": "O'Brien v. Kirley et al.",
+  "name_abbreviation": "O'Brien v. Kirley",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-1489",
+  "first_page": "823",
+  "last_page": "823",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 823"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.656,
+    "sha256": "a6110729f6469df5f337da81823a67ed3545f7d0de77ecfc785d217ae2c866d0",
+    "simhash": "1:4e874c200124bc13",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "O\u2019Brien v. Kirley et al."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Wash. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1489.\nO\u2019Brien v. Kirley et al."
+  },
+  "file_name": "0823-12",
+  "first_page_order": 899,
+  "last_page_order": 899
+}

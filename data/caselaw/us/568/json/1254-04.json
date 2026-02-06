@@ -1,0 +1,59 @@
+{
+  "id": 12434036,
+  "name": "Phillips v. Biter, Acting Warden",
+  "name_abbreviation": "Phillips v. Biter",
+  "decision_date": "2013-03-25",
+  "docket_number": "No. 12-8372",
+  "first_page": "1254",
+  "last_page": "1254",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1254"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 81,
+    "ocr_confidence": 0.627,
+    "sha256": "f2811b049a7504bd4984bf13ffee184cb0b335574d6cde7b2c429ffd767f32e2",
+    "simhash": "1:5001a681750d4040",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Phillips v. Biter, Acting Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8372.\nPhillips v. Biter, Acting Warden."
+  },
+  "file_name": "1254-04",
+  "first_page_order": 1330,
+  "last_page_order": 1330
+}

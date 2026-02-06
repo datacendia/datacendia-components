@@ -1,0 +1,59 @@
+{
+  "id": 12408927,
+  "name": "Scott v. Internal Revenue Service",
+  "name_abbreviation": "Scott v. Internal Revenue Service",
+  "decision_date": "2012-06-11",
+  "docket_number": "No. 11-10237",
+  "first_page": "911",
+  "last_page": "911",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 911"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 83,
+    "ocr_confidence": 0.688,
+    "sha256": "021a7e94881533e98475d40e2d5d1cbd560c8e140032b32b160a749984846a65",
+    "simhash": "1:b8d92aaf0736d242",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Scott v. Internal Revenue Service."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10237.\nScott v. Internal Revenue Service."
+  },
+  "file_name": "0911-16",
+  "first_page_order": 815,
+  "last_page_order": 815
+}

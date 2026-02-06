@@ -1,0 +1,59 @@
+{
+  "id": 12433463,
+  "name": "Rogers v. North Carolina",
+  "name_abbreviation": "Rogers v. North Carolina",
+  "decision_date": "2013-03-18",
+  "docket_number": "No. 12-8376",
+  "first_page": "1238",
+  "last_page": "1238",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1238"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.686,
+    "sha256": "b43ddd64beb787202de420b1a88415bc789151e1ac2d139a3f962df5306ea191",
+    "simhash": "1:f1b38ccd09393f3b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rogers v. North Carolina."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. N. C. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8376.\nRogers v. North Carolina."
+  },
+  "file_name": "1238-11",
+  "first_page_order": 1314,
+  "last_page_order": 1314
+}

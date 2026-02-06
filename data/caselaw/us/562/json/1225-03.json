@@ -1,0 +1,59 @@
+{
+  "id": 5971151,
+  "name": "Wood v. United States",
+  "name_abbreviation": "Wood v. United States",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-7419",
+  "first_page": "1225",
+  "last_page": "1225",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1225"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.647,
+    "sha256": "50ad935e8f184b0ab7cecfeff9d9aa1d6f048a3c6a21a5df4d5f5079da2f7b29",
+    "simhash": "1:8798d2215e97113c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wood v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7419.\nWood v. United States."
+  },
+  "file_name": "1225-03",
+  "first_page_order": 1247,
+  "last_page_order": 1247
+}

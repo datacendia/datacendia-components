@@ -1,0 +1,59 @@
+{
+  "id": 5934305,
+  "name": "Rounds v. California Department of Corrections",
+  "name_abbreviation": "Rounds v. California Department of Corrections",
+  "decision_date": "2011-06-20",
+  "docket_number": "No. 10-10017",
+  "first_page": "1023",
+  "last_page": "1023",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1023"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 96,
+    "ocr_confidence": 0.501,
+    "sha256": "13ad1829d0cebb2de07c20fda7c3ab90700d2128f8fcddaef54114f8e064c82c",
+    "simhash": "1:c570e0a16bedb054",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rounds v. California Department of Corrections."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10017.\nRounds v. California Department of Corrections."
+  },
+  "file_name": "1023-08",
+  "first_page_order": 1017,
+  "last_page_order": 1017
+}

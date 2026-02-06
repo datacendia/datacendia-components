@@ -1,0 +1,59 @@
+{
+  "id": 12242633,
+  "name": "Pendleton v. United States",
+  "name_abbreviation": "Pendleton v. United States",
+  "decision_date": "2012-01-17",
+  "docket_number": "No. 11-5192",
+  "first_page": "1159",
+  "last_page": "1159",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1159"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.647,
+    "sha256": "ba151511093023fd0bb9f291c36bd38e6eb585dd0377169653344b8bd77cd9f9",
+    "simhash": "1:c50aef83ee84bd0e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Pendleton v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5192.\nPendleton v. United States."
+  },
+  "file_name": "1159-04",
+  "first_page_order": 1241,
+  "last_page_order": 1241
+}

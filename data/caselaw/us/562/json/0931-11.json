@@ -1,0 +1,59 @@
+{
+  "id": 5948718,
+  "name": "Anderson v. Missouri",
+  "name_abbreviation": "Anderson v. Missouri",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5613",
+  "first_page": "931",
+  "last_page": "931",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 931"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 67,
+    "ocr_confidence": 0.657,
+    "sha256": "c8bcc121092c9873c0e1874508098ea55cde60922700354249134e11b57ba65f",
+    "simhash": "1:1c328b0a4ece7407",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Anderson v. Missouri."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Mo. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5613.\nAnderson v. Missouri."
+  },
+  "file_name": "0931-11",
+  "first_page_order": 953,
+  "last_page_order": 953
+}

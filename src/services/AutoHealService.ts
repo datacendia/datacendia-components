@@ -404,7 +404,7 @@ class AutoHealServiceClass {
         requiresReview: true,
       };
     } catch (e) {
-      console.error('[AutoHeal] Failed to generate fix:', e);
+      // Silent fail - don't spam console with empty errors
       return null;
     }
   }

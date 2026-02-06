@@ -16,6 +16,35 @@ router.get('/status', (_req: Request, res: Response) => {
   res.json({ success: true, data: { status: 'operational', version: '1.0.0', languageCount: 100 } });
 });
 
+/**
+ * GET /api/v1/omnitranslate/model/status
+ * Check if translation model is loaded and ready
+ */
+router.get('/model/status', async (_req: Request, res: Response) => {
+  try {
+    const status = await omniTranslateService.getModelStatus();
+    res.json({ success: true, data: status });
+  } catch (error) {
+    logger.error('[OmniTranslate] Model status check failed:', error);
+    res.json({ success: true, data: { loaded: false, loading: false, error: String(error) } });
+  }
+});
+
+/**
+ * POST /api/v1/omnitranslate/model/load
+ * Trigger loading of the translation model (pulls from Ollama if needed)
+ */
+router.post('/model/load', async (_req: Request, res: Response) => {
+  try {
+    logger.info('[OmniTranslate] Model load requested');
+    const result = await omniTranslateService.loadModel();
+    res.json({ success: true, data: result });
+  } catch (error) {
+    logger.error('[OmniTranslate] Model load failed:', error);
+    res.status(500).json({ success: false, error: String(error) });
+  }
+});
+
 router.post('/detect', (req: Request, res: Response) => {
   res.json({ success: true, data: { detectedLanguage: 'en', confidence: 0.95, text: req.body.text } });
 });

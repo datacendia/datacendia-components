@@ -1,0 +1,59 @@
+{
+  "id": 12430355,
+  "name": "In re Disbarment of Teitelbaum",
+  "name_abbreviation": "In re Disbarment of Teitelbaum",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. D-2699",
+  "first_page": "1154",
+  "last_page": "1154",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1154"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 111,
+    "ocr_confidence": 0.587,
+    "sha256": "a7bc326c89f97c0e07406adca4953c4c7d9105787ca8ac17489a3b5a5bea8f44",
+    "simhash": "1:0a7899aacb12d026",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Teitelbaum."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered. [For earlier order herein, see ante, p. 1023.]",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2699.\nIn re Disbarment of Teitelbaum."
+  },
+  "file_name": "1154-02",
+  "first_page_order": 1230,
+  "last_page_order": 1230
+}

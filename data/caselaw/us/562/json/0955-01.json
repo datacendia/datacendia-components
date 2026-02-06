@@ -1,0 +1,61 @@
+{
+  "id": 5986167,
+  "name": "Ortiz v. New York State Parole in Bronx",
+  "name_abbreviation": "Ortiz v. New York State Parole",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5575",
+  "first_page": "955",
+  "last_page": "955",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 955"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 27,
+    "char_count": 169,
+    "ocr_confidence": 0.587,
+    "sha256": "879aaf4d71ad6cf291e0cee266c30df3b18461d885a3ef7bb4b4949a5073de07",
+    "simhash": "1:9d9322824f2cf646",
+    "word_count": 29
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Sotomayor took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Ortiz v. New York State Parole in Bronx."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.\nJustice Sotomayor took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5575.\nOrtiz v. New York State Parole in Bronx."
+  },
+  "file_name": "0955-01",
+  "first_page_order": 977,
+  "last_page_order": 977
+}

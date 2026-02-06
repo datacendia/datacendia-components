@@ -1,0 +1,59 @@
+{
+  "id": 12420783,
+  "name": "Adams v. Adams",
+  "name_abbreviation": "Adams v. Adams",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 12-6057",
+  "first_page": "986",
+  "last_page": "986",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 986"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 9,
+    "char_count": 61,
+    "ocr_confidence": 0.621,
+    "sha256": "96a8a1800adb5f44611e94eaacf0ee79660d73eaeedd6a18fc94db28c3d3479c",
+    "simhash": "1:a1ec689147f55804",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Adams v. Adams."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ga. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6057.\nAdams v. Adams."
+  },
+  "file_name": "0986-11",
+  "first_page_order": 1062,
+  "last_page_order": 1062
+}

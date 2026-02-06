@@ -1,0 +1,858 @@
+{
+  "id": 12441521,
+  "name": "JAMES E. REED, Plaintiff and Appellant, v. JAMES GALLAGHER et al., Defendant and Respondent",
+  "name_abbreviation": "Reed v. Gallagher",
+  "decision_date": "2016-06-01",
+  "docket_number": "No. C079432",
+  "first_page": "841",
+  "last_page": "865",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "248 Cal. App. 4th 841"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "26 Cal.Rptr.3d 350",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "127 Cal.App.4th 1006",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        17735
+      ],
+      "pin_cites": [
+        {
+          "page": "1021"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/127/1006-01"
+      ]
+    },
+    {
+      "cite": "82 N.Y.2d 146",
+      "category": "reporters:state",
+      "reporter": "N.Y.2d",
+      "case_ids": [
+        2352267
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "154-155"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-2d/82/0146-01"
+      ]
+    },
+    {
+      "cite": "366 N.E.2d 1299",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "397 N.Y.S.2d 943",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 N.Y.2d 369",
+      "category": "reporters:state",
+      "reporter": "N.Y.2d",
+      "case_ids": [
+        2331447
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny-2d/42/0369-01"
+      ]
+    },
+    {
+      "cite": "130 Cal.Rptr.3d 410",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "198 Cal.App.4th 611",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4239089
+      ],
+      "pin_cites": [
+        {
+          "page": "629"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/198/0611-01"
+      ]
+    },
+    {
+      "cite": "466 U.S. 485",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6202607
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "511"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/466/0485-01"
+      ]
+    },
+    {
+      "cite": "15 Cal.Rptr.3d 100",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "119 Cal.App.4th 1146",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        838249
+      ],
+      "pin_cites": [
+        {
+          "page": "1167"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/119/1146-01"
+      ]
+    },
+    {
+      "cite": "61 Cal.Rptr.2d 58",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "52 Cal.App.4th 1036",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        452945
+      ],
+      "pin_cites": [
+        {
+          "page": "1050, fn. 6"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/52/1036-01"
+      ]
+    },
+    {
+      "cite": "88 Cal.Rptr.2d 843",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1997,
+      "opinion_index": 0
+    },
+    {
+      "cite": "74 Cal.App.4th 1394",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        245392
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "1404"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/74/1394-01"
+      ]
+    },
+    {
+      "cite": "53 Cal.Rptr.3d 752",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "147 Cal.App.4th 13",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6046397
+      ],
+      "pin_cites": [
+        {
+          "page": "28"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/147/0013-01"
+      ]
+    },
+    {
+      "cite": "501 U.S. 496",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1108062
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "516-517"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/501/0496-01"
+      ]
+    },
+    {
+      "cite": "61 Cal.Rptr.3d 425",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "152 Cal.App.4th 954",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3811142
+      ],
+      "pin_cites": [
+        {
+          "page": "959-960"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/152/0954-01"
+      ]
+    },
+    {
+      "cite": "264 Cal.Rptr. 699",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "216 Cal.App.3d 172",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4414103
+      ],
+      "pin_cites": [
+        {
+          "page": "190, 191"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/216/0172-01"
+      ]
+    },
+    {
+      "cite": "552 P.2d 425",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "131 Cal.Rptr. 641",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "17 Cal.3d 596",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2292839
+      ],
+      "pin_cites": [
+        {
+          "page": "601"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/17/0596-01"
+      ]
+    },
+    {
+      "cite": "158 Cal.Rptr.3d 332",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "217 Cal.App.4th 357",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6054514
+      ],
+      "pin_cites": [
+        {
+          "page": "384"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/217/0357-01"
+      ]
+    },
+    {
+      "cite": "64 Cal.Rptr.3d 467",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "154 Cal.App.4th 97",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3615392
+      ],
+      "pin_cites": [
+        {
+          "page": "117"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/154/0097-01"
+      ]
+    },
+    {
+      "cite": "20 Cal.Rptr.2d 890",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "17 Cal.App.4th 1",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4692458
+      ],
+      "pin_cites": [
+        {
+          "page": "12, 14"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/17/0001-01"
+      ]
+    },
+    {
+      "cite": "52 Cal.Rptr.2d 357",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 Cal.App.4th 944",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4769829
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/44/0944-01"
+      ]
+    },
+    {
+      "cite": "52 Cal.Rptr.2d 831",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Cal.App.4th 829",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4752054
+      ],
+      "pin_cites": [
+        {
+          "page": "837"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/45/0829-01"
+      ]
+    },
+    {
+      "cite": "37 Cal.Rptr.3d 480",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1996,
+      "opinion_index": 0
+    },
+    {
+      "cite": "135 Cal.App.4th 328",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        5289717
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "348"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/135/0328-01"
+      ]
+    },
+    {
+      "cite": "20 Cal.Rptr.3d 673",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "123 Cal.App.4th 1260",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        585398
+      ],
+      "pin_cites": [
+        {
+          "page": "1270"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/123/1260-01"
+      ]
+    },
+    {
+      "cite": "37 Cal.Rptr.3d 133",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "134 Cal.App.4th 1456",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3733778
+      ],
+      "pin_cites": [
+        {
+          "page": "1471"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/134/1456-01"
+      ]
+    },
+    {
+      "cite": "119 Cal.Rptr.2d 108",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "97 Cal.App.4th 798",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1066657
+      ],
+      "pin_cites": [
+        {
+          "page": "809-810"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/97/0798-01"
+      ]
+    },
+    {
+      "cite": "72 Cal.Rptr.3d 210",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "159 Cal.App.4th 1027",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3851427
+      ],
+      "pin_cites": [
+        {
+          "page": "1048"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/159/1027-01"
+      ]
+    },
+    {
+      "cite": "418 U.S. 264",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6172714
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "283"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/418/0264-01"
+      ]
+    },
+    {
+      "cite": "55 Cal.Rptr.3d 600",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "148 Cal.App.4th 71",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6046176
+      ],
+      "pin_cites": [
+        {
+          "page": "84"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/148/0071-01"
+      ]
+    },
+    {
+      "cite": "85 Cal.Rptr.2d 397",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "72 Cal.App.4th 637",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        872558
+      ],
+      "pin_cites": [
+        {
+          "page": "645"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/72/0637-01"
+      ]
+    },
+    {
+      "cite": "61 Cal.Rptr.3d 29",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "151 Cal.App.4th 688",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3720246
+      ],
+      "pin_cites": [
+        {
+          "page": "699-700"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/151/0688-01"
+      ]
+    },
+    {
+      "cite": "52 P.3d 685",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "124 Cal.Rptr.2d 507",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 Cal.4th 53",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        777220
+      ],
+      "pin_cites": [
+        {
+          "page": "67"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/29/0053-01"
+      ]
+    },
+    {
+      "cite": "127 Cal.Rptr.3d 903",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "197 Cal.App.4th 357",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4237012
+      ],
+      "pin_cites": [
+        {
+          "page": "386"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/197/0357-01"
+      ]
+    },
+    {
+      "cite": "139 P.3d 2",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.Rptr.3d 606",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "39 Cal.4th 299",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3583026
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/39/0299-01"
+      ]
+    },
+    {
+      "cite": "105 Cal.Rptr.2d 674",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 2006,
+      "opinion_index": 0
+    },
+    {
+      "cite": "88 Cal.App.4th 260",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        203649
+      ],
+      "weight": 2,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "273-274"
+        },
+        {
+          "page": "264-265"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/88/0260-01"
+      ]
+    },
+    {
+      "cite": "104 Cal.Rptr.3d 628",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "181 Cal.App.4th 566",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4213907
+      ],
+      "pin_cites": [
+        {
+          "page": "573"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/181/0566-01"
+      ]
+    },
+    {
+      "cite": "250 P.3d 1115",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "124 Cal.Rptr.3d 256",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "51 Cal.4th 811",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3915310
+      ],
+      "pin_cites": [
+        {
+          "page": "819-820"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/51/0811-01"
+      ]
+    },
+    {
+      "cite": "175 Cal.Rptr.3d 47",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "228 Cal.App.4th 35",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4331375
+      ],
+      "pin_cites": [
+        {
+          "page": "40"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/228/0035-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1759,
+    "char_count": 53378,
+    "ocr_confidence": 0.934,
+    "pagerank": {
+      "raw": 4.4375511089068505e-08,
+      "percentile": 0.278361402537368
+    },
+    "sha256": "591cbdf24848099ea577981456f51765f1a148a0d45d8e257d27360e8cbb80eb",
+    "simhash": "1:f62efc36f8025779",
+    "word_count": 8368
+  },
+  "last_updated": "2024-02-27T20:05:38.451463+00:00",
+  "provenance": {
+    "date_added": "2019-05-21",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Robie, Acting P. J., and Butz, J., concurred.",
+      "Corrigan, J., did not participate therein."
+    ],
+    "parties": [
+      "JAMES E. REED, Plaintiff and Appellant, v. JAMES GALLAGHER et al., Defendant and Respondent."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nRENNER, J.\nPlaintiff James E. Reed appeals from a judgment entered in favor of defendants James Gallagher and Gallagher For Assembly 2014 (together, Gallagher) after the trial court granted Gallagher\u2019s special motion to strike pursuant to Code of Civil Procedure section 425.16, the anti-SLAPP (strategic lawsuit against public participation) statute. Reed and Gallagher were rival candidates for the California Assembly. During the final weeks of the campaign, Gallagher ran a 30-second television ad characterizing Reed as an \u201cunscrupulous lawyer.\u201d After losing the election, Reed sued Gallagher for defamation based on statements made in the ad. Gallagher responded with a demurrer and special motion to strike under section 425.16. The trial court sustained the demurrer and granted the special motion to strike finding, with respect to the latter motion, that the allegedly defamatory statements arose from protected activity and Reed failed to demonstrate a probability of prevailing on his claim. We affirm.\nI. BACKGROUND\nA. The Ad\nReed and Gallagher were rival candidates for the Third Assembly District in the November 2014 general election. In the weeks leading up to the election, Gallagher ran a 30-second ad with the following voice-over narration: \u201cJim Reed has launched a negative and misleading campaign, but just who is Jim Reed? Legal records show that Reed is an unscrupulous lawyer who was sued for negligence, fraud and financial elder abuse. Reed\u2019s even been ordered to pay back fees he improperly collected from an elderly client. His victim said about Reed, \u2018He saw a naive widow and took advantage of me, raked me over the coals.\u2019 Jim Reed. Not our values.\u201d\nAs the narrator speaks, the viewer sees grainy, black-and-white video of Reed in what appears to be one of his own campaign ads. The camera then pauses on a still photograph of Reed, with the words \u201cWho is Jim Reed?\u201d next to it. As the narrator introduces the subject of \u201clegal records,\u201d the camera cuts to images of printed pages on pleading paper, with the words \u201cUNSCRUPULOUS LAWYER\u201d superimposed on them. The camera slowly pans over the cover page of a pleading entitled \u201cSecond Amended Complaint\u201d as the words \u201cNegligence,\u201d \u201cFraud,\u201d and \u201cFinancial Elder Abuse\u201d appear in the foreground. The camera then cuts to video of a gavel hitting a strike plate. A single printed page on pleading paper appears as the narrator states, \u201cReed\u2019s even been ordered to pay back fees he improperly collected from an elderly client.\u201d The page, which appears for approximately three seconds, bears the footer, \u201cOrder on Motions for Summary Judgment.\u201d\nThe camera then cuts to a \u201ctear out\u201d from The Sacramento Valley Mirror (Valley Mirror). The text of the tear out reads, \u201c \u2018He\u2019s a crook, he saw a naive widow and took advantage of me, raked me over the coals.\u2019 \u201d The camera then cuts to more black-and-white images of Reed, with the words \u201cNOT OUR VALUES\u201d superimposed on them, and the legend, \u201cPaid for By Gallagher for Assembly 2014.\u201d\nAs noted, the ad is approximately 30 seconds. It would not be possible for the average viewer to read the text of the documents shown in the ad without pausing the video.\nB. The Complaint\nReed lost the election. (Cal. Secretary of State, Statement of Vote, Nov. 4, 2014, Gen. Elec. State Assent. Member Dist. 3, pp. 9, 64, online at <http:// elections.cdn.sos.ca.gov/sov/2014-general/pdf/2014-complete-sov.pdf> [as of June 1, 2016].) Shortly thereafter, Reed brought suit against Gallagher. Reed\u2019s complaint asserts a defamation claim based on the following express and implied representations in the ad: (1) that legal records show Reed is an \u201cunscrupulous lawyer,\u201d (2) that Reed has been ordered to pay back fees he improperly collected from an elderly client, (3) that one of the documents depicted in the ad is an order directing Reed to repay fees, and (4) that Reed is a \u201ccrook.\u201d The complaint generally alleges that Gallagher made the foregoing statements \u201cmaliciously.\u201d\nGallagher responded with a demurrer and special motion to strike, which we discuss in greater detail momentarily. Among other things, both motions argue that the ad accurately characterizes a malpractice lawsuit against Reed by one of his former clients, Bonnie Hinckley (the Hinckley litigation). We describe the Hinckley litigation below.\nC. The Hinckley Litigation\nHinckley filed an action against Reed and Reed\u2019s law firm (for simplicity\u2019s sake, Reed) and another attorney, Justin G. Arel and Arel\u2019s law firm (together, Arel), in 2010. Hinckley\u2019s first amended complaint alleges that she retained Reed to represent her, as associated cocounsel, in a probate dispute following the death of her husband. As relevant here, the complaint alleges that Hinckley entered into a written contingency fee agreement with Reed and Arel, which the parties orally modified following a disagreement as to the fees due and owing under the original agreement. Hinckley ultimately paid the sum of $230,000 in attorneys\u2019 fees.\nThe complaint alleges, inter alia, that the fee agreement failed to comply with Business and Professions Code section 6147, which requires that contingency fee agreements be executed in writing, and include a number of statements, including \u201ca statement that the fee is not set by law but is negotiable between attorney and client.\u201d (Bus. & Prof. Code, \u00a7 6147, subd. (a)(4).) Under Business and Professions Code section 6147, subdivision (b), \u201cFailure to comply with any provision of this section renders the agreement voidable at the option of the plaintiff, and the attorney shall thereupon be entitled to collect a reasonable fee.\u201d (Bus. & Prof. Code, \u00a7 6147, subd. (b).)\nThe complaint asserts causes of action for negligence, constructive fraud, breach of fiduciary duty, and money had and received. The complaint also seeks rescission of the fee agreement and disgorgement of the $230,000 in fees. In his brief, Gallagher asserts that the complaint was subsequently amended to assert a cause of action for financial elder abuse. The \u201cSecond Amended Complaint\u201d depicted in the campaign ad appears to support Gallagher\u2019s assertion (which Reed does not deny); however, no such pleading appears in the record.\nReed filed a cross-complaint against Hinckley. We have not been provided with a copy of the cross-complaint.\nReed and Hinckley filed cross-motions for summary judgment and summary adjudication, respectively. On June 14, 2011, the trial court entered a two-page order granting Hinckley\u2019s motion for summary adjudication with respect to her cause of action for rescission, and denying Reed\u2019s motion for summary judgment or, in the alternative, summary adjudication with respect to his cross-complaint. The second page of the order, which bears the footer, \u201cOrder on Motions for Summary Judgment,\u201d appears in all respects to be identical to one of the pages shown in the ad. Specifically, the second page of the order appears to be the single printed page shown as the narrator states, \u201cReed\u2019s even been ordered to pay back fees he improperly collected from an elderly client.\u201d\nThe order provides, in pertinent part: \u201cIT IS ORDERED that the Court adopts its Ruling, a copy of which is attached hereto as Exhibit \u2018T and incorporated herein by reference as the final ORDER on these matter [sic] [.] [\u00b6] IT IS FURTHER ORDERED that the motion of [Hinckley] for summary adjudication is GRANTED, and judgment shall be entered in favor of [Hinckley] and against [Reed] on [\u00b6] (1) The Fourth Cause of Action of the First Amended Complaint for Rescission.\u201d The ruling, which is incorporated by reference in the order, states that Hinckley \u201chas established as undisputed fact that the underlying contingency fee agreements did not contain the required statutory language set forth in [Business and Professions Code] section 6147[, subdivision ](a),\u201d and \u201cis entitled to rescission of the fee agreement.\u201d The ruling additionally notes that Reed is \u201centitled to collect a \u2018reasonable fee\u2019 as set forth in [Business and Professions Code] section 6147[, subdivision ](b).\u201d Neither the ruling nor the order specifically directs Reed to repay fees to Hinckley.\nFollowing entry of the order, the parties settled their fee dispute. The terms of the settlement were confidential, and have not been made part of the record in the present appeal. However, Reed filed a bill of particulars in the Hinckley litigation claiming more than $130,000 in attorneys\u2019 fees.\nD. Hinckley\u2019s Comments in the Valley Mirror\nIn August 2012, an article appeared in the Valley Mirror entitled, Congressional hopeful Reed hit in elder abuse cases. (Crews, Congressional hopeful Reed hit in elder abuse cases, Valley Mirror (Aug. 2012) (hereafter, Crews, Valley Mirror).) The article notes that Reed, who was then running for Congress, had been involved in two recent elder abuse cases, including the Hinckley litigation.\nThe article describes the Hinckley litigation, and quotes Hinckley as saying of Reed, \u201c \u2018He\u2019s a crook, he saw a naive widow and took advantage of me, raked me over the coals ....\u2019\u201d (Crews, Valley Mirror (Aug. 2012).) The article acknowledges that the Hinckley litigation had been resolved by means of a confidential settlement agreement, but states: \u201cMr. Arel [Reed\u2019s cocoun-sel] had demanded $272,859 from Mrs. Hinckley. In the end he had to repay $130,000 to Mrs. Hinckley. Under the law, he was only entitled to $26,430.\u201d (Ibid.)\nThe article continues, \u201cMr. Reed took over the case from Mr. Arel. [\u00b6] In October of 2009, Mrs. Hinckley paid Mr. Reed\u2019s firm for their share of the fee agreement. [\u00b6] When she demanded her money back, due to being hoodwinked in the initial oral fee agreement, Mr. Reed\u2019s firm filed a cross-complaint. She, however, prevailed. In early 2011 she received an undisclosed but substantial amount of money from Mr. Reed.\u201d (Crews, Valley Mirror (Aug. 2012).)\nReed lost his bid for Congress. After the election, Reed moved to determine whether Hinckley had violated the confidentiality provision in the settlement agreement, based on the article in the Valley Mirror. Reed\u2019s filings in support of the motion implicitly concede that Reed made payments to Hinckley to settle the fee dispute. For example, Reed\u2019s response to Hinckley\u2019s opposition to the motion argues, \u201c[Hinckley\u2019s] violation allows REED to rescind the settlement agreement under [Civil Code section] 1689[, subdivision ] (b)(2) for causing the consideration to fail in part. This would require [Hinckley] to pay back all benefits already received as well as foregoing future benefits.\u201d The trial court denied Reed\u2019s motion.\nE. The Demurrer and Anti-SLAPP Motion\nHaving described the Hinckley litigation, we now return to our discussion of the present case. As noted, Gallagher responded to Reed\u2019s complaint with a demurrer and anti-SLAPP motion. Both motions argued that the challenged statements were either nonactionable opinions, true, or substantially true. Gallagher\u2019s anti-SLAPP motion additionally argued that none of the challenged statements were made with actual malice, as required for a defamation claim against a public figure. Gallagher supported the motions with a request for judicial notice of the complaint, order, and other records from the Hinckley litigation. Gallagher also asked the trial court to take judicial notice of the ad.\nReed opposed both motions. In his opposition to the anti-SLAPP motion, Reed argued that the challenged statements were provably false and made with actual malice. Specifically, Reed argued (1) the statement that \u201clegal records show that Reed is an unscrupulous lawyer\u201d falsely implies the existence of legal records supporting the characterization of Reed as unscrupulous, (2) the statement that \u201cReed\u2019s even been ordered to pay back fees he improperly collected from an elderly client\u201d falsely conveys that Reed made payments to Hinckley pursuant to a court order, (3) the image of the order granting Hinckley\u2019s motion for summary adjudication of the cause of action for rescission falsely implies the existence of an order compelling Reed to make payments to Hinckley, and (4) the image of the tear out from the Valley Mirror falsely conveys that Reed has been accused of committing a crime. Reed additionally argued that the challenged statements must have been made with actual malice because they were so obviously false.\nIn connection with the opposition, Reed submitted a declaration describing the Hinckley litigation as follows: \u201cIn that case, I recovered over $1 million for the client in a Will Contest of her husband\u2019s Will against his children from a prior marriage. . . . When we unexpectedly settled the case very favorably, she requested and I agreed to reduce my fees from the agreed upon contingency amount. However after she paid me, she sued to recover some of the fees paid. Although a summary adjudication was entered in her favor determining that the fee would not be calculated pursuant to our agreement or the compromised amount, the court order specified that I was entitled to reasonable attorney fees; we settled the case and agreed to keep the settlement confidential before the court determined what a reasonable fee would be. There was never a court order requiring me to pay fees back to her as the offending advertisement stated and the order depicted in the advertisement directly contradicts such a statement.\u201d\nIn his declaration, Reed also avers that he has never been disciplined by the State Bar, and has \u201cnever been accused or charged with [a] crime more serious than an infraction for speeding.\u201d\nReed also opposed Gallagher\u2019s demurrer, incorporating his opposition to the anti-SLAPP motion by reference and requesting leave to amend the complaint to assert a cause of action under Civil Code section 3344.6, which establishes a private right of action for violations of Penal Code section 115.2, subdivision (a). As we shall discuss, Penal Code section 115.2, subdivision (a) makes it a crime to \u201cpublish or cause to be published, with actual knowledge, and intent to deceive, any campaign advertisement containing false or fraudulent depictions, or false or fraudulent representations, of official public documents or purported official public documents.\u201d\nThe trial court entered an order sustaining the demurrer and granting the anti-SLAPP motion. With respect to the anti-SLAPP motion, the trial court found that \u201c[Gallagher] met [his] burden of showing that [Reed\u2019s] libel claim arises from activity protected by [Gallagher\u2019s] right to freedom of speech secured by the United States and California Constitutions. [Reed] failed to meet his burden of establishing a probability of prevailing on his claim.\u201d With respect to the demurrer, the trial court determined that Reed failed to state facts sufficient to constitute a cause of action for libel because \u201cnone of the allegedly defamatory statements constitute \u2018provably false statements of fact.\u2019 \u201d The trial court entered judgment in Gallagher\u2019s favor shortly thereafter.\nReed filed a timely notice of appeal.\nII. DISCUSSION\nA. The Anti-SLAPP Statute and Standard of Review\nSection 425.16, subdivision (b)(1) provides: \u201cA cause of action against a person arising from any act of that person in furtherance of the person\u2019s right of petition or free speech under the United States Constitution or the California Constitution in connection with a public issue shall be subject to a special motion to strike, unless the court determines that the plaintiff has established that there is a probability that the plaintiff will prevail on the claim.\u201d The statute \u201c \u2018provides a procedure for the early dismissal of what are commonly known as SLAPP suits . . .\u2014litigation of a harassing nature, brought to challenge the exercise of protected free speech rights.\u2019 [Citation.] A SLAPP suit is generally brought to obtain an economic advantage over the defendant, not to vindicate a legally cognizable right of the plaintiff.\u201d (Gotterba v. Travolta (2014) 228 Cal.App.4th 35, 40 [175 Cal.Rptr.3d 47].)\nSection 425.16, subdivision (e) describes the type of activity protected by the anti-SLAPP statute. An \u201c \u2018act in furtherance of a person\u2019s right of petition or free speech ... in connection with a public issue\u2019 includes: (1) any written or oral statement or writing made before a legislative, executive, or judicial proceeding, or any other official proceeding authorized by law, (2) any written or oral statement or writing made in connection with an issue under consideration or review by a legislative, executive, or judicial body, or any other official proceeding authorized by law, (3) any written or oral statement or writing made in a place open to the public or a public forum in connection with an issue of public interest, or (4) any other conduct in furtherance of the exercise of the constitutional right of petition or the constitutional right of free speech in connection with a public issue or an issue of public interest.\u201d (\u00a7 425.16, subd. (e).)\nThe analysis of an anti-SLAPP motion involves two steps. \u201c \u2018First, the court decides whether the defendant has made a threshold showing that the challenged cause of action is one \u2018\u201carising from\u201d protected activity. (\u00a7 425.16, subd. (b)(1).) If the court finds such a showing has been made, it then must consider whether the plaintiff has demonstrated a probability of prevailing on the claim.\u2019 [Citation.] \u2018Only a cause of action that satisfies both prongs of the anti-SLAPP statute\u2014i.e., that arises from protected speech or petitioning and lacks even minimal merit\u2014is a SLAPP, subject to being stricken under the statute.\u2019 [Citation.]\u201d (Oasis West Realty, LLC v. Goldman (2011) 51 Cal.4th 811, 819-820 [124 Cal.Rptr.3d 256, 250 P.3d 1115].)\nOur review of the trial court\u2019s order on an anti-SLAPP motion is de novo. (Oasis West Realty, LLC v. Goldman, supra, 51 Cal.4th at p. 820.) If the trial court\u2019s decision denying an anti-SLAPP motion is correct on any theory applicable to the case, we may affirm the order regardless of the correctness of the grounds on which the lower court reached its conclusion. (Robles v. Chalilpoyil (2010) 181 Cal.App.4th 566, 573 [104 Cal.Rptr.3d 628].)\nB. Protected Activity\nReed\u2019s defamation cause of action is based on allegedly defamatory statements in the ad. Reed properly concedes that section 425.16 would ordinarily apply to statements made during the course of a political campaign. (Rosenaur v. Scherer (2001) 88 Cal.App.4th 260, 273-274 [105 Cal.Rptr.2d 674] [\u201cIt is well settled that section 425.16 applies to actions arising from statements made in political campaigns by politicians and their supporters, including statements made in campaign literature\u201d].) Relying on Flatley v. Mauro (2006) 39 Cal.4th 299 [46 Cal.Rptr.3d 606, 139 P.3d 2] (Flatley), however, Reed contends section 425.16 does not apply because Gallagher\u2019s conduct was illegal as a matter of law. Specifically, Reed contends Gallagher violated Penal Code section 115.2 by displaying the order granting Hinckley\u2019s motion for summary adjudication with intent to deceive viewers into believing that (1) there are legal records showing that Reed is unscrupulous, and (2) Reed has been ordered to pay back fees to a client. We are not persuaded.\nFlatley establishes a narrow exception to the anti-SLAPP statute that applies only where the defendant concedes the illegality of his conduct or the evidence conclusively establishes the conduct complained of was illegal as a matter of law. (Flatley, supra, 39 Cal.4th at p. 320; see also Cross v. Cooper (2011) 197 Cal.App.4th 357, 386 [127 Cal.Rptr.3d 903] [the exception for illegal activity is narrow and only applies in \u201crare cases in which there is uncontroverted and uncontested evidence that establishes the crime as a matter of law\u201d].) Neither of these conditions applies here. First, Gallagher emphatically denies the ad violates Penal Code section 115.2. Consequently, there has been no concession that Gallagher\u2019s conduct was illegal as a matter of law. Second, assuming arguendo that Penal Code section 115.2 applies, the evidence fails to conclusively establish illegality. (Flatley, supra, at p. 320.)\nAs noted, Penal Code section 115.2, subdivision (a) makes it a crime to \u201cpublish or cause to be published, with actual knowledge, and intent to deceive, any campaign advertisement containing false or fraudulent depictions, or false or fraudulent representations, of official public documents or purported official public documents.\u201d Here, though Reed argues Gallagher acted with the required state of mind, nothing in the record supports Reed\u2019s contention. As we shall discuss, the evidence fails to show that Gallagher acted with malice, let alone \u201cactual knowledge, and intent to deceive.\u201d (Ibid.) We therefore conclude that Flatley\u2019s illegality exception does not apply. The trial court correctly determined that Reed\u2019s cause of action arises from \u201cprotected activity\u201d under the statute.\nC. Probability of Prevailing on the Merits\nOnce a defendant has met his burden to show the complaint alleges acts arising from protected activity, the burden shifts to the plaintiff to make a prima facie showing of facts which, if proven, would support a judgment in his favor. (Equilon Enterprises v. Consumer Cause, Inc. (2002) 29 Cal.4th 53, 67 [124 Cal.Rptr.2d 507, 52 P.3d 685].) The \u201cburden of establishing a probability of prevailing is not high: We do not weigh credibility, nor do we evaluate the weight of the evidence. Instead, we accept as true all evidence favorable to the plaintiff and assess the defendant\u2019s evidence only to determine if it defeats the plaintiff\u2019s submission as a matter of law.\u201d (Overstock.com, Inc. v. Gradient Analytics, Inc. (2007) 151 Cal.App.4th 688, 699-700 [61 Cal.Rptr.3d 29].)\nTo prevail on a claim for defamation, Reed must prove that Gallagher intentionally communicated to a third person, either orally or in writing, a false, unprivileged statement about him that had a natural tendency to injure him or that caused him special damage. (Smith v. Maldonado (1999) 72 Cal.App.4th 637, 645 [85 Cal.Rptr.2d 397].) Furthermore, because Reed is a public figure, he must also demonstrate, by clear and convincing evidence, that the challenged statements were made with actual malice. (Christian Research Institute v. Alnor (2007) 148 Cal.App.4th 71, 84 [55 Cal.Rptr.3d 600] (Christian Research).)\nAs noted, Reed challenges the following express and implied representations in the ad: (1) that legal records show Reed is an \u201cunscrupulous lawyer,\u201d (2) that Reed has been ordered to pay back fees he improperly collected from an elderly client, (3) that one of the documents depicted in the ad is an order directing Reed to repay fees, and (4) that Reed is a \u201ccrook.\u201d Gallagher does not deny publishing these statements to third parties. We therefore focus our inquiry on whether the statements are reasonably susceptible of a defamatory interpretation, including whether they are false, and if so, whether Reed has made a prima facie showing of evidence from which a trier of fact might conclude that Gallagher acted with actual malice.\n1. Falsity\n\u201cThe sine qua non of recovery for defamation ... is the existence of falsehood.\u201d (Letter Carriers v. Austin (1974) 418 U.S. 264, 283 [41 L.Ed.2d 745, 94 S.Ct. 2770].) \u201c \u2018The falsehood requirement is grounded in the First Amendment itself. \u201cUnder the First Amendment there is no such thing as a false idea. However pernicious an opinion may seem, we depend for its correction not on the conscience of judges and juries but on the competition of other ideas.\u201d [Citations.]\u2019\u201d (Nygard, Inc. v. Uusi-Kerttula (2008) 159 Cal.App.4th 1027, 1048 [72 Cal.Rptr.3d 210].)\n\u201cTo state a defamation claim that survives a First Amendment challenge, thus, a plaintiff must present evidence of a statement of fact that is \u2018provably false.\u2019 [Citation.] \u2018 \u201cStatements do not imply a provably false factual assertion and thus cannot form the basis of a defamation action if they cannot \u2018 \u201creasonably [be] interpreted as stating actual facts\u201d about an individual.\u2019 [Citations.] Thus, \u2018rhetorical hyperbole,\u2019 \u2018vigorous epithet[s],\u2019 \u2018lusty and imaginative expression^] of . . . contempt,\u2019 and language used \u2018in a loose, figurative sense\u2019 have all been accorded constitutional protection. [Citations.]\u201d [Citation.] The dispositive question ... is whether a reasonable trier of fact could conclude that the published statements imply a provably false factual assertion.\u2019\u201d (Nygard, Inc. v. Uusi-Kerttula, supra, 159 Cal.App.4th at p. 1048.)\n\u2018\u201cTo ascertain whether the statements in question are provably false factual assertions, courts consider the \u2018 \u201c \u2018totality of the circumstances.\u2019 \u201d \u2019 [Citation.]\u201d (Nygard, Inc. v. Uusi-Kerttula, supra, 159 Cal.App.4th at p. 1049.) \u201c \u2018 \u2018\u201cFirst, the language of the statement is examined. For words to be defamatory, they must be understood in a defamatory sense. . . . This contextual analysis demands that the courts look at the nature and full content of the communication and to the knowledge and understanding of the audience to whom the publication was directed.\u201d \u2019 [Citations.]\u201d (Seelig v. Infinity Broadcasting Corp. (2002) 97 Cal.App.4th 798, 809-810 [119 Cal.Rptr.2d 108].) \u201c \u2018Whether a statement declares or implies a provably false assertion of fact is a question of law for the court to decide [citations], unless the statement is susceptible of both an innocent and a libelous meaning, in which case the jury must decide how the statement was understood.\u2019\u201d (Ruiz v. Harbor View Community Assn. (2005) 134 Cal.App.4th 1456, 1471 [37 Cal.Rptr.3d 133].)\nAs noted, the trial court determined that, \u201cnone of the allegedly defamatory statements constitute \u2018provably false statements of fact.\u2019 \u201d Reed insists that each of the challenged statements declares or implies a provably false assertion of fact. We consider the challenged statements, albeit in a slightly different order, below.\na. \u201cLegal records show that Reed is an unscrupulous lawyer . . . . \u201d\nReed contends Gallagher defamed him by stating in the ad that, \u201cLegal records show that Reed is an unscrupulous lawyer who was sued for negligence, fraud and financial elder abuse.\u201d Reed appears to acknowledge that he is a lawyer, who was sued for negligence, fraud, and financial elder abuse. Reed also appears to acknowledge that the statement, \u201cReed is an unscrupulous lawyer\u201d would be a nonactionable statement of opinion, rather than a provably false assertion of fact. However, Reed contends the statement \u201cLegal records show that Reed is an unscrupulous lawyer\u201d implies the existence of legal records demonstrating that he lacks scruples. Reed suggests that such records either exist or do not exist, and therefore, the statement is provably false. We are not convinced.\nReed\u2019s argument assumes that legal records could conclusively establish whether or not he is unscrupulous. However, trial courts do not adjudicate questions of character, and consequently do not generate records establishing whether or not litigants have scruples. Instead, trial courts adjudicate disputes, which may or may not have some bearing on the character of the litigants, depending on one\u2019s point of view. It follows that determining what legal records show, so far as a person\u2019s character is concerned, involves a high degree of subjectivity. Such subjective judgments are incapable of being proved true or false. (Gallagher v. Connell (2004) 123 Cal.App.4th 1260, 1270 [20 Cal.Rptr.3d 673] [\u201ca subjective judgment of the person making the statement\u201d is not one that implies a provably false factual assertion].) We therefore conclude that the statement, \u2018\u201cLegal records show that Reed is an unscrupulous lawyer\u201d does not declare or imply a provably false statement of fact.\nHaving so concluded, we necessarily conclude that the statement is nondefamatory. (See Carver v. Bonds (2005) 135 Cal.App.4th 328, 348 [37 Cal.Rptr.3d 480] [concluding that statements were nondefamatory because they were based on \u201centirely subjective matters rather than provably false factual assertions\u201d]; see also Copp v. Paxton (1996) 45 Cal.App.4th 829, 837 [52 Cal.Rptr.2d 831] [noting that courts have regarded as nondefamatory any \u201c \u2018broad, unfocused and wholly subjective comment,\u2019 [citation] such as that the plaintiff was a \u2018shady practitioner\u2019 [citation], \u2018crook\u2019 [citation], or \u2018crooked politician\u2019 [citation]\u201d].) We find support for our conclusion in Beilenson v. Superior Court (1996) 44 Cal.App.4th 944 [52 Cal.Rptr.2d 357] (Beilenson).\nIn Beilenson, an unsuccessful congressional candidate, Sybert, sued his opponent, Beilenson, for libel based on statements made in a campaign mailer. (Beilenson, supra, 44 Cal.App.4th at p. 947.) The mailer stated that Sybert \u201c \u2018ripped off \u201d California taxpayers by maintaining a private law practice while employed by the state. (Ibid.) The mailer also criticized Sybert for representing clients who could profit from their association with him, claiming that such representation amounted to \u201c \u2018a serious conflict of interest and breach of public trust.\u2019 \u201d (Ibid.)\nSybert established that there was nothing illegal or unethical about maintaining a law practice while in the employ of the state. (Beilenson, supra, 44 Cal.App.4th at p. 951.) Nevertheless, the court concluded that the challenged statements were nondefamatory. (Id. at p. 952.) The court explained: \u201cThe mailer here proclaimed it to be wrong for a state official to have an outside job, the implication being that all of the official\u2019s time, attention, and energies ought to be devoted to his public post. This conduct, in the opinion of Beilenson, was a \u2018rip off.\u2019 This colorful epithet, when taken in context with the other information contained in the mailer, was rhetorical hyperbole that is common in political debate. [Citations.] As such, the term \u2018rip-off was not defamatory.\u201d (Id. at pp. 951-952; see also James v. San Jose Mercury News, Inc. (1993) 17 Cal.App.4th 1, 12, 14 [20 Cal.Rptr.2d 890] [article describing lawyer as engaging in \u201csleazy, illegal, and unethical practice\u201d fell into \u201cprotected zone of \u2018 \u201cimaginative expression\u201d \u2019 or \u2018 \u201crhetorical hyperbole\u201d \u2019 \u201d].)\nThe court continued: \u201cSyberf s practice of law, and his receipt of substantial fees from a certain class of clients, while employed as a state official, do not violate the law. Nonetheless, a citizen could possess the belief that such a custom violates a higher code of ethical precepts. To charge a breach of ethics is not to charge a breach of the law. Beilenson\u2019s accusations were statements of opinion entitled to the protection of the First Amendment. [Citations.]\u201d (Beilenson, supra, 44 Cal.App.4th at p. 952; see also McGarry v. University of San Diego (2007) 154 Cal.App.4th 97, 117 [64 Cal.Rptr.3d 467] [\u201cBehavior that might qualify as immoral to one person, although being perfectly acceptable to another person, demonstrates that an amorphous assertion of immoral behavior is within the range of statements of opinion that are not actionable\u201d].)\nFollowing Beilenson, we conclude that the characterization of Reed as \u201cunscrupulous\u201d is a subjective judgment, rather than a provably false statement of fact. (Beilenson, supra, 44 Cal.App.4th at p. 952.) We further conclude that the average viewer, considering the ad in context, would have understood the word \u201cunscrupulous\u201d to reflect Gallagher\u2019s opinion or interpretation of what legal records from the Hinckley litigation show, rather than a precise rendering of any particular legal record. We therefore conclude that Reed has failed to establish a probability of prevailing on a defamation claim based on the statement that \u201cReed is an unscrupulous lawyer.\u201d\nb. \u201cHe\u2019s a crook ... .\u201d\nReed also contends he was defamed by Hinckley\u2019s characterization of Reed as \u201ca crook.\u201d According to Reed, Hinckley\u2019s characterization, which was republished in the ad, falsely implies that he \u201ccommitted illegal and unethical actions.\u201d Gallagher responds that, \u201cNo reasonable viewer would have thought that Hinckley was accusing Reed of actual criminal activity.\u201d Gallagher has the better argument.\nAs noted, courts apply a totality of the circumstances test in determining whether a statement is actionable fact or nonactionable opinion. (Nygard, Inc. v. Uusi-Kerttula, supra, 159 Cal.App.4th at p. 1049.) This requires an examination of the statements themselves and the context in which they were made. (Burrill v. Nair (2013) 217 Cal.App.4th 357, 384 [158 Cal.Rptr.3d 332].) On the issue of context, our Supreme Court has explained: \u201c[WJhere potentially defamatory statements are published in a . . . setting in which the audience may anticipate efforts by the parties to persuade others to their positions by use of epithets, fiery rhetoric or hyperbole, language which generally might be considered as statements of fact may well assume the character of statements of opinion.\u201d (Gregory v. McDonnell Douglas Corp. (1976) 17 Cal.3d 596, 601 [131 Cal.Rptr. 641, 552 P.2d 425].)\nHere, the challenged statement was made during the heat of a political campaign, a context in which the audience would naturally anticipate the use of rhetorical hyperbole. (Beilenson, supra, 44 Cal.App.4th at p. 954 [\u2018\u201cHyperbole, distortion, invective, and tirades are as much a part of American politics as kissing babies\u201d].) Against this backdrop, Hinckley\u2019s characterization of Reed as a \u2018\u201ccrook\u201d cannot reasonably be understood in the literal sense to mean that Reed committed any crime. (Rosenaur v. Scherer, supra, 88 Cal.App.4th 260, 264-265 [candidate\u2019s characterization of opponent as a \u2018\u201cthief\u201d was \u2018\u201creasonably interpreted as loose figurative language and hyperbole, not a claim that the plaintiff actually had a criminal past\u201d]; see also Fletcher v. San Jose Mercury News (1989) 216 Cal.App.3d 172, 190, 191 [264 Cal.Rptr. 699] [statement that plaintiff was a \u2018\u201ccrook\u201d and \u201c \u2018crooked politician\u2019 \u201d was \u2018\u201cmerely rhetorical and hyperbolic language\u201d].) Rather, the audience, having heard that Hinckley and Reed had been involved in a fee dispute, would have reasonably understood Hinckley to mean that Reed overcharged her for legal services. In context, Hinckley\u2019s comments do not declare or imply a provably false factual assertion; they merely offer an opinion as to the value of Reed\u2019s legal services. Hinckley\u2019s opinion, though unflattering, is not defamatory. We therefore conclude that Reed has failed to establish a probability of prevailing on a defamation claim based on the statement that \u2018\u201cHe\u2019s a crook.\u201d\nc. \u201cReed\u2019s even been ordered to pay back fees....\"\nReed also contends he was defamed by the statement, \u201cReed\u2019s even been ordered to pay back fees he improperly collected from an elderly client.\u201d Reed does not deny that he improperly collected fees from Hinckley, who is elderly. Nor does Reed deny that he paid some portion of the fees back. Instead, Reed objects to the statement that he was ordered to pay back fees. Reed similarly objects to the image of the order in the ad, which, when viewed in combination with the voiceover narration, implies that Reed was ordered to pay back fees. According to Reed, these express and implied statements are provably false because he was never \u201cordered\u201d to pay back fees to Hinckley.\nGallagher responds that the challenged statements are true or substantially true. According to Gallagher, the Hinckley court effectively ordered Reed to pay back fees by granting Hinckley\u2019s motion for summary adjudication, thereby giving Hinckley the right to rescind the contingent fee agreement. Gallagher correctly observes that, \u201c \u2018The consequence of rescission is ... the restoration of the parties to their former positions by requiring each to return whatever consideration has been received.\u2019 \u201d (Nmsbpcsldhb v. County of Fresno (2007) 152 Cal.App.4th 954, 959-960 [61 Cal.Rptr.3d 425].) Because the Hinckley court summarily adjudicated the rescission cause of action in Hinckley\u2019s favor, and because rescission, in the context of a fee dispute, would involve paying back fees, Gallagher argues the challenged statement was true or substantially true.\n\u201cAs in other jurisdictions, California law permits the defense of substantial truth and would absolve a defendant even if she cannot \u2018justify every word of the alleged defamatory matter; it is sufficient if the substance of the charge be proved true, irrespective of slight inaccuracy in the details.\u2019 [Citation.]\u201d (Masson v. New Yorker Magazine, Inc. (1991) 501 U.S. 496, 516-517 [115 L.Ed.2d 447, 111 S.Ct. 2419].) \u201cMinor inaccuracies do not amount to falsity so long as \u2018the substance, the gist, the sting, of the libelous charge be justified.\u2019 [Citations.]\u201d (Id. at p. 517.) In other words, a \u201cslight discrepancy\u201d of facts (Gilbert v. Sykes (2007) 147 Cal.App.4th 13, 28 [53 Cal.Rptr.3d 752]) or a \u201csemantic hypertechnicality\u201d (James v. San Jose Mercury News, supra, 17 Cal.App.4th at p. 17) will not defeat a substantial truth defense.\nWe do not perceive a significant difference in the \u201csting\u201d of the technically inaccurate statement that Reed was ordered to pay back fees improperly collected from an elderly client and the accurate but still embarrassing statement that Reed, having been found to have improperly collected fees from an elderly client, returned the fees pursuant to a confidential settlement agreement before he could be ordered to do so. Whether Reed returned fees to Hinckley pursuant to a court order, or returned them pursuant to a settlement entered as a consequence of a court order, would appear to us to make little difference in the mind of the average viewer. (See Ferlauto v. Hamsher (1999) 74 Cal.App.4th 1394, 1404 [88 Cal.Rptr.2d 843] [\u201cwhen analyzing the statements in question, courts do so from the perspective of the average reader, not a person trained in the technicalities of the law\u201d]; see also Braun v. Chronicle Publishing Co. (1997) 52 Cal.App.4th 1036, 1050, fn. 6 [61 Cal.Rptr.2d 58] [misstating that a criminal investigation was started by the district attorney rather than by the state auditor did not change the gist or sting of the alleged libel].) We need not decide this issue, however, because, as we shall discuss, Reed fails to show that the statement was made with actual malice.\n2. Actual Malice\n\u201cA public figure suing for defamation \u2018must demonstrate \u201cactual malice\u201d by clear and convincing evidence.\u2019 [Citation.] Actual malice \u2018requires a showing that the allegedly false statement was made \u201cwith knowledge that it was false or with reckless disregard of whether it was false or not.\u201d [Citation.] The reckless disregard standard requires a \u201chigh degree of awareness of. . . probable falsity . . . .\u201d [Citation.]\u2019 [Citation.] \u2018The question is not \u201c \u2018whether a reasonably prudent [person] would have published, or would have investigated before publishing. There must be sufficient evidence to permit the conclusion that the defendant in fact entertained serious doubts as to the truth of his publication. Publishing with such doubts shows reckless disregard for truth or falsity and demonstrates actual malice.\u2019 \u201d [Citation.]\u2019 [Citation].\u201d (Burrill v. Nair, supra, 217 Cal.App.4th at p. 389.) \u201c \u2018 \u201cThe burden of proof by clear and convincing evidence \u2018requires a finding of high probability. The evidence must be so clear as to leave no substantial doubt. It must be sufficiently strong to command the unhesitating assent of every reasonable mind.\u2019 \u201d [Citation.]\u2019 [Citation.]\u201d (Id. at pp. 389-390.)\nAs noted, Reed appropriately concedes that he is a public figure, and must therefore establish actual malice by clear and convincing evidence at trial. Thus, in order to successfully defend against Gallagher\u2019s anti-SLAPP motion, Reed must \u2018\u201cestablish a probability that [he] will be able to produce clear and convincing evidence of actual malice.\u201d (Annette F. v. Sharon S. (2004) 119 Cal.App.4th 1146, 1167 [15 Cal.Rptr.3d 100] (Annette F.).) Put another way, Reed must make a prima facie showing of facts demonstrating a high probability that Gallagher published the challenged statements with knowledge of their falsity or while entertaining serious doubts as to their truth. (See Burrill v. Nair, supra, 217 Cal.App.4th at p. 357; see also Annette F., supra, at p. 1169 [defamation plaintiff bears \u2018\u201cthe burden of making a \u2018sufficient prima facie showing of facts to sustain a favorable judgment\u2019 on the issue of actual malice\u201d].) Reed has failed to make the required showing.\nReed offered no evidence of actual malice in the trial court. Instead, Reed argued, as he does on appeal, that the remaining statements\u2014that \u2018\u201cReed\u2019s even been ordered to pay back fees he improperly collected from an elderly client\u201d and the implied representation that the order granting Hinckley\u2019s motion for summary adjudication was an order directing Reed to pay back fees\u2014must have been made with actual malice because they were so obviously false. According to Reed, \u2018\u201cIt is easy in this case to demonstrate actual malice. . . . The documents [Gallagher] flashed on the commercial simply do not say what the commercial insinuates they say.\u201d Reed\u2019s argument fails to persuade.\nThere is a \u2018\u201csignificant difference between proof of actual malice and mere proof of falsity.\u201d (Bose Corp. v. Consumers Union of U. S., Inc. (1984) 466 U.S. 485, 511 [80 L.Ed.2d 502, 104 S.Ct. 1949], fn. omitted.) \u2018\u201cThe burden of proving \u2018actual malice\u2019 requires the plaintiff to demonstrate with clear and convincing evidence that the defendant realized that his statement was false or that he subjectively entertained serious doubt as to the truth of his statement.\u201d (Id. at p. 511, fn. 30, italics added.) We could, in an appropriate case, infer actual malice from a statement that was so obviously false that any reasonable person would have known that the statement was untrue. (See Annette F., supra, 119 Cal.App.4th at pp. 1169-1170.) But this is not such a case.\nAs we have discussed, the \u201cgist or sting\u201d of the statement that \u201cReed\u2019s even been ordered to pay back fees he improperly collected from an elderly client\u201d is not so very different from the \u201ctruth,\u201d so far as the record reveals, that Reed, having been found to have improperly collected fees from an elderly client, returned some or all of the fees pursuant to a confidential settlement agreement before he could be ordered to do so. Under these circumstances, we conclude that the challenged statement was not so far removed from the truth as to permit an inference of actual malice, even assuming arguendo that it was false.\nWe find support for our conclusion by analogy to Annette F. There, two former domestic partners (Annette and Sharon) had been involved in a highly publicized lawsuit involving second-parent adoption. (Annette F., supra, 119 Cal.App.4th at p. 1157.) Annette sued Sharon for libel based on statements Sharon made in a letter to a newspaper calling Annette a \u201cconvicted perpetrator of domestic violence against me.\u201d (Id. at p. 1158, italics omitted.) Sharon responded with an anti-SLAPP motion pursuant to section 425.16. (Annette F., at p. 1158.)\nIn support of the motion, Sharon submitted a declaration averring that her statement was based on an earlier family court proceeding in which the court found that Annette had committed domestic violence against Sharon and entered a restraining order against her. (Annette F., supra, 119 Cal.App.4th at p. 1168.) Sharon also explained that she was not a lawyer and believed the statement to be true based on her \u201c \u2018understanding of the legal proceedings involving Annette\u2019s domestic violence against me.\u2019 \u201d (Ibid.) Annette, for her part, offered evidence that Sharon harbored ill will towards her and sought to discredit her in the gay and lesbian community. (Id. at p. 1169.) Annette also observed that Sharon had ample opportunity to check the accuracy of the statement before publishing it. (Ibid.)\nThe Court of Appeal acknowledged that Sharon\u2019s statement was technically inaccurate insofar as it suggested that Annette had been convicted of a crime. (Annette F., supra, 119 Cal.App.4th at p. 1168.) Nevertheless, the court concluded that Annette failed to establish a probability of proving actual malice by clear and convincing evidence. (Ibid.) The court explained: \u201cOn the particular facts of this case, the factors cited by Annette do not establish a probability of proving actual malice by clear and convincing evidence. In our view, a critical consideration in determining the weight to be given such factors is the extent to which the allegedly defamatory statement deviates from the truth. False statements that are completely \u2018fabricated by the defendant\u2019 or \u2018so inherently improbable that only a reckless [person] would have put them in circulation\u2019 are particularly likely to have been made with actual malice. [Citations.] [\u00b6] On the other hand, false statements that have some element of truth to them are logically less susceptible to such a finding.\u201d (Id. at pp. 1169-1170.)\nApplying these principles, the court concluded that, \u2018\u201cSharon\u2019s statement that Annette was a \u2018convicted perpetrator of domestic violence\u2019 was not so far from the truth as to permit an inference of actual malice by clear and convincing evidence, even considering the additional evidence of hostility, alleged motive, and lack of investigation. At the most, these additional factors raised a speculative possibility that Sharon might have known or suspected that her use of the word \u2018convicted\u2019 was technically incorrect. \u2018Such a speculative possibility falls short of clear and convincing evidence.\u2019 [Citation.]\u201d (Annette F., supra, 119 Cal.App.4th at p. 1170.) Accordingly, the court reversed the trial court\u2019s order denying Sharon\u2019s anti-SLAPP motion. (Id. at p. 1172.)\nLikewise, in the present case, the challenged statement was not so far from the truth as to permit an inference of actual malice by clear and convincing evidence. (Annette F., supra, 119 Cal.App.4th at p. 1170; see also Christian Research, supra, 148 Cal.App.4th at pp. 88-89.) Though technically incorrect, the statement contains elements of truth (e.g., Reed improperly collected fees from an elderly client and repaid some or all of the fees following entry of a court order) and cannot be said to have been \u2018\u201ccompletely \u2018fabricated by the defendant\u2019 or \u2018so inherently improbable that only a reckless [person] would have put them in circulation.\u2019 \u201d (Annette F., supra, 119 Cal.App.4th at p. 1170.) In the absence of any additional evidence of actual malice (and Reed has offered none), we can only speculate as to whether or not Gallagher knew or suspected that the ad\u2019s characterization of the order was technically incorrect. As noted, such speculation falls short of the evidence necessary to make a prima facie showing of actual malice. (Ibid.) We therefore conclude that Reed has failed to establish a probability of proving actual malice by clear and convincing evidence.\n\u2018\u201cThe overwhelming weight of authority is that campaign rhetoric is protected speech and, as such, recovery by a candidate is highly unusual. [Citations.]\u201d (Beilenson, supra, 44 Cal.App.4th at p. 956.) We perceive no reason to countermand the overwhelming weight of authority in this case. We therefore conclude that (1) the statements characterizing Reed as \u2018\u201cunscrupulous\u201d and \u2018\u201ca crook\u201d are nondefamatory, and (2) assuming arguendo that the remaining statements are false, Reed has failed to establish a probability of proving actual malice by clear and convincing evidence. Accordingly, we conclude that Gallagher\u2019s anti-SLAPP motion was properly granted. Having so concluded, we need not determine whether the demurrer was properly sustained without leave to amend. (See Martin v. Inland Empire Utilities Agency (2011) 198 Cal.App.4th 611, 629 [130 Cal.Rptr.3d 410] [\u201cTrial courts should either grant or deny [anti-SLAPP] motions in toto, i.e., without leave to amend, prior to ruling on any pending demurrers. A proper ruling on the anti-SLAPP motion would, in most cases, obviate the need to rule on the demurrer at all or, at the very least, in its entirety\u201d].)\nIII. DISPOSITION\nThe judgment is affirmed. Respondents James Gallagher and Gallagher For Assembly 2014 are awarded their costs on appeal. (Cal. Rules of Court, rule 8.278(a)(1) & (2).)\nRobie, Acting P. J., and Butz, J., concurred.\nA petition for a rehearing was denied July 27, 2016, and appellant\u2019s petition for a review by the Supreme Court was denied September 14, 2016, S236447.\nCorrigan, J., did not participate therein.\nUndesignated statutory references are to the Code of Civil Procedure.\nReed referred to his action as \u201clibel,\u201d but as his cause of action concerns communications made by mechanical means, rather than a writing or other fixed representation, the action should have been referred to as one for slander. (Compare Civ. Code, \u00a7 45 [\u201cLibel is a false and unprivileged publication by writing, printing, picture, effigy, or other fixed representation to the eye\u201d] with Civ. Code \u00a7 46 [\u201cSlander is a false and unprivileged publication, orally uttered, and also communications by radio or any mechanical or other means\u201d].)\nThe article indicates that Reed was involved in the second action, not as a party, but as attorney for his wife. (Crews, Valley Mirror (Aug. 2012).) Specifically, the article states that Reed represented his wife on appeal from a jury verdict for \u201c \u2018financial elder abuse, concealment, conversion, breach of fiduciary duty and negligence.\u2019 \u201d (Ibid.)\nGallagher notes that Penal Code section 115.2 does not, by its terms, apply to broadcast communications. (Pen. Code, \u00a7 115.2, subd. (b) [\u201cFor purposes of this section, \u2018campaign advertisement\u2019 means any communication directed to voters by means of a mass mailing as defined in Section 82041.5 of the Government Code, a paid newspaper advertisement, an outdoor advertisement, or any other printed matter\u201d].) We need not decide whether Penal Code section 115.2 applies to resolve the present appeal, and therefore decline to reach the issue.\nThe parties agree that Reed is a public figure.\nMeniam-Webster\u2019s Collegiate Dictionary defines \u201cunscrupulous\u201d as \u201cnot scrupulous: UNPRINCIPLED.\u201d (Merriam-Webster\u2019s Collegiate Diet. (11th ed. 2006) p. 1372, col. 1.) The dictionary defines \u201cscrupulous\u201d as \u201c1: having moral integrity: acting in strict regal'd for what is considered right or proper 2: punctiliously exact: PAINSTAKING <working withcarex\u201d (Id. at p. 1117, col. 2.)\nReed relies on a New York case, Rinaldi v. Holt, Rinehart & Winston, Inc. (1977) 42 N.Y.2d 369 [397 N.Y.S.2d 943, 366 N.E.2d 1299] for the proposition that allegations of criminal activity are not entitled to constitutional protection, even when presented in the form of an opinion. (Id., 42 N.Y.S.2d at p. 951 [\u201cAccusations of criminal activity, even in the form of opinion, are not constitutionally protected. [Citations.] While inquiry into motivation is within the scope of absolute privilege, outright charges of illegal conduct, if false, are protected solely by the actual malice test. . . . No First Amendment protection enfolds false charges of criminal behavior\u201d].)\nRinaldi is not binding on this court, and we decline to follow it. In any case, we note that the New York courts appear to have abandoned the per se rule suggested by Rinaldi. (See Gross v. New York Times Co. (1993) 82 N.Y.2d 146, 154-155 [603 N.Y.S.2d 813, 623 N.E.2d 1163] [statements were actionable \u201cnot, as plaintiff would have it, because they involve accusations of criminality per se, but rather because in this context they convey \u2018facts\u2019 that are capable of being proven true or false. Although plaintiff repeatedly suggests otherwise, there is simply no special rule of law making criminal slurs actionable regardless of whether they are asserted as opinion or fact\u201d].) Here, as we have discussed, Hinckley\u2019s characterization of Reed as a \u201ccrook\u201d is not defamatory in context.\nReed is notably vague as to whether or not he actually returned fees to Hinckley. He does not deny paying back fees to Hinckley, but observes that he was entitled to retain a reasonable fee, implying that he may have retained fees in an amount sufficient to offset any fees he might otherwise have been required to pay back.\nWe need not resolve the issue of Reed\u2019s fees because Reed had the burden of showing that the challenged statements were false. (Vogel v. Felice (2005) 127 Cal.App.4th 1006, 1021 [26 Cal.Rptr.3d 350] [\u201cA public figure or public official who seeks to recover damages for a defamatory statement bears the burden of proving that the challenged statement was false\u201d].) Reed made no attempt to disprove the non-italicized portions of the statement that \u201cReed\u2019s even been ordered to pay back fees he improperly collected from an elderly client.\u201d We therefore assume the non-italicized portions of the statement were true.\nHaving concluded that the characterizations of Reed as \u201cunscrupulous\u201d and \u201ca crook\u201d are nondefamatory, we need not consider whether they were made with actual malice.",
+        "type": "majority",
+        "author": "RENNER, J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Nichols, Catterton, Downing & Reed, Richard K. Veres, Brooke Veres Reed and James E. Reed for Plaintiff and Appellant.",
+      "Benbrook Law Group, Bradley A. Benbrook and Stephen M. Duvernay for Defendant and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. C079432.\nThird Dist.\nJune 1, 2016.]\nJAMES E. REED, Plaintiff and Appellant, v. JAMES GALLAGHER et al., Defendant and Respondent.\nCounsel\nNichols, Catterton, Downing & Reed, Richard K. Veres, Brooke Veres Reed and James E. Reed for Plaintiff and Appellant.\nBenbrook Law Group, Bradley A. Benbrook and Stephen M. Duvernay for Defendant and Respondent."
+  },
+  "file_name": "0841-01",
+  "first_page_order": 773,
+  "last_page_order": 797
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5924601,
+  "name": "Askew v. United States",
+  "name_abbreviation": "Askew v. United States",
+  "decision_date": "2011-06-20",
+  "docket_number": "No. 10-7332",
+  "first_page": "1022",
+  "last_page": "1022",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1022"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.388,
+    "sha256": "ccf61b1193992e93252a1459fd90b8b8d5f58acd1dcf13f274cc1c0ecf64622f",
+    "simhash": "1:02809a835acdd0a8",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Askew v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7332.\nAskew v. United States."
+  },
+  "file_name": "1022-04",
+  "first_page_order": 1016,
+  "last_page_order": 1016
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5943339,
+  "name": "Saunders v. Mississippi",
+  "name_abbreviation": "Saunders v. Mississippi",
+  "decision_date": "2011-05-16",
+  "docket_number": "No. 10-9447",
+  "first_page": "994",
+  "last_page": "994",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 994"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 72,
+    "ocr_confidence": 0.627,
+    "sha256": "293a940ef893c7c13bb4f56d192d0dfa17827be9c7b77bd63d012fd4b7d9dc88",
+    "simhash": "1:98bb319c695daa99",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Saunders v. Mississippi."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Miss. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9447.\nSaunders v. Mississippi."
+  },
+  "file_name": "0994-13",
+  "first_page_order": 1020,
+  "last_page_order": 1020
+}

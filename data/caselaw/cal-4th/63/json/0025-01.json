@@ -1,0 +1,1854 @@
+{
+  "id": 12456733,
+  "name": "THE PEOPLE, Plaintiff and Respondent, v. ANTHONY LETRICE TOWNSEL, Defendant and Appellant",
+  "name_abbreviation": "People v. Townsel",
+  "decision_date": "2016-04-21",
+  "docket_number": "No. S022998",
+  "first_page": "25",
+  "last_page": "74",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "63 Cal. 4th 25"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal.",
+    "id": 9021,
+    "name": "Supreme Court of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "44 Cal.3d 531",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4538809
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/44/0531-01"
+      ]
+    },
+    {
+      "cite": "27 Cal.4th 1041",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1103399
+      ],
+      "pin_cites": [
+        {
+          "page": "1063"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/27/1041-01"
+      ]
+    },
+    {
+      "cite": "119 Cal.Rptr.2d 859",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 P.3d 335",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 Cal.4th 379",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3673517
+      ],
+      "pin_cites": [
+        {
+          "page": "401"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/42/0379-01"
+      ]
+    },
+    {
+      "cite": "64 Cal.Rptr.3d 721",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "165 P.3d 512",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "66 Cal.2d 508",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2331160
+      ],
+      "pin_cites": [
+        {
+          "page": "518"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/66/0508-01"
+      ]
+    },
+    {
+      "cite": "58 Cal.Rptr. 374",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "426 P.2d 942",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "40 Cal.4th 1370",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3159281
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "1391"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/40/1370-01"
+      ]
+    },
+    {
+      "cite": "58 Cal.Rptr.3d 368",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "157 P.3d 973",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "78 Cal.App.4th 1402",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        196727
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/78/1402-01"
+      ]
+    },
+    {
+      "cite": "93 Cal.Rptr.2d 770",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "34 Cal.4th 494",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        633029
+      ],
+      "pin_cites": [
+        {
+          "page": "507-508"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/34/0494-01"
+      ]
+    },
+    {
+      "cite": "21 Cal.Rptr.3d 575",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "101 P.3d 478",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "244 Cal.Rptr. 114",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "749 P.2d 769",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "56 Cal.App.3d 52",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4460966
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/56/0052-01"
+      ]
+    },
+    {
+      "cite": "128 Cal.Rptr. 122",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "57 Cal.4th 899",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6053995
+      ],
+      "pin_cites": [
+        {
+          "page": "949"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/57/0899-01"
+      ]
+    },
+    {
+      "cite": "161 Cal.Rptr.3d 295",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "306 P.3d 1136",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "15 Cal.4th 1133",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1005998
+      ],
+      "pin_cites": [
+        {
+          "page": "1171"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/15/1133-01"
+      ]
+    },
+    {
+      "cite": "64 Cal.Rptr.2d 892",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "938 P.2d 950",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "196 Cal.App.3d 1127",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2218636
+      ],
+      "pin_cites": [
+        {
+          "page": "1138-1139"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/196/1127-01"
+      ]
+    },
+    {
+      "cite": "242 Cal.Rptr. 496",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "793 F.2d 969",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1587301
+      ],
+      "pin_cites": [
+        {
+          "page": "975-976, 984"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/793/0969-01"
+      ]
+    },
+    {
+      "cite": "143 Cal.App.2d 402",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2176771
+      ],
+      "pin_cites": [
+        {
+          "page": "412"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/143/0402-01"
+      ]
+    },
+    {
+      "cite": "300 P.2d 130",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "2 Cal.4th 1198",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        2005406
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "1228"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/2/1198-01"
+      ]
+    },
+    {
+      "cite": "9 Cal.Rptr.2d 628",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 2002,
+      "opinion_index": 0
+    },
+    {
+      "cite": "831 P.2d 1210",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 2002,
+      "opinion_index": 0
+    },
+    {
+      "cite": "536 U.S. 304",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1255406
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/536/0304-01"
+      ]
+    },
+    {
+      "cite": "35 Cal.4th 40",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        873216
+      ],
+      "pin_cites": [
+        {
+          "page": "50"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/35/0040-01"
+      ]
+    },
+    {
+      "cite": "24 Cal.Rptr.3d 189",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "105 P.3d 552",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "57 Cal.4th 804",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6053947
+      ],
+      "pin_cites": [
+        {
+          "page": "852"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/57/0804-01"
+      ]
+    },
+    {
+      "cite": "161 Cal.Rptr.3d 364",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "306 P.3d 1195",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "12 Cal.3d 486",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2315586
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/12/0486-01"
+      ]
+    },
+    {
+      "cite": "116 Cal.Rptr. 217",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "526 P.2d 225",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "27 Cal.2d 209",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2189862
+      ],
+      "pin_cites": [
+        {
+          "page": "214"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/27/0209-01"
+      ]
+    },
+    {
+      "cite": "163 P.2d 857",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.4th 69",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        873220
+      ],
+      "pin_cites": [
+        {
+          "page": "90"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/35/0069-01"
+      ]
+    },
+    {
+      "cite": "24 Cal.Rptr.3d 507",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "105 P.3d 1099",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "39 Cal.4th 641",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3582965
+      ],
+      "pin_cites": [
+        {
+          "page": "695"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/39/0641-01"
+      ]
+    },
+    {
+      "cite": "47 Cal.Rptr.3d 326",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "140 P.3d 657",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "5 Cal.4th 877",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1998586
+      ],
+      "pin_cites": [
+        {
+          "page": "924"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/5/0877-01"
+      ]
+    },
+    {
+      "cite": "21 Cal.Rptr.2d 705",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "855 P.2d 1277",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.4th 1",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3899403
+      ],
+      "pin_cites": [
+        {
+          "page": "81"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/47/0001-01"
+      ]
+    },
+    {
+      "cite": "97 Cal.Rptr.3d 1",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "211 P.3d 520",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.4th 911",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3899696
+      ],
+      "pin_cites": [
+        {
+          "page": "953"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/47/0911-01"
+      ]
+    },
+    {
+      "cite": "105 Cal.Rptr.3d 131",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "224 P.3d 877",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "41 Cal.4th 472",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3818878
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "517"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/41/0472-01"
+      ]
+    },
+    {
+      "cite": "61 Cal.Rptr.3d 526",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2011,
+      "opinion_index": 0
+    },
+    {
+      "cite": "161 P.3d 58",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2011,
+      "opinion_index": 0
+    },
+    {
+      "cite": "51 Cal.4th 989",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3914947
+      ],
+      "pin_cites": [
+        {
+          "page": "996"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/51/0989-01"
+      ]
+    },
+    {
+      "cite": "125 Cal.Rptr.3d 408",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "252 P.3d 968",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "22 Cal.4th 48",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        157891
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "91"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/22/0048-01"
+      ]
+    },
+    {
+      "cite": "91 Cal.Rptr.2d 623",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1991,
+      "opinion_index": 0
+    },
+    {
+      "cite": "990 P.2d 506",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1991,
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 Cal.3d 1103",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1946385
+      ],
+      "pin_cites": [
+        {
+          "page": "1120"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/54/1103-01"
+      ]
+    },
+    {
+      "cite": "2 Cal.Rptr.2d 364",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 2006,
+      "opinion_index": 0
+    },
+    {
+      "cite": "820 P.2d 588",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 2006,
+      "opinion_index": 0
+    },
+    {
+      "cite": "39 Cal.4th 826",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3583235
+      ],
+      "pin_cites": [
+        {
+          "page": "878-879"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/39/0826-01"
+      ]
+    },
+    {
+      "cite": "48 Cal.Rptr.3d 1",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "141 P.3d 135",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "16 Cal.4th 1009",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1217887
+      ],
+      "pin_cites": [
+        {
+          "page": "1015"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/16/1009-01"
+      ]
+    },
+    {
+      "cite": "68 Cal.Rptr.2d 648",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "945 P.2d 1197",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Cal.3d 1247",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4528400
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "1256"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/45/1247-01"
+      ]
+    },
+    {
+      "cite": "248 Cal.Rptr. 817",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1988,
+      "opinion_index": 0
+    },
+    {
+      "cite": "756 P.2d 204",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1988,
+      "opinion_index": 0
+    },
+    {
+      "cite": "34 Cal.4th 1",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        633001
+      ],
+      "pin_cites": [
+        {
+          "page": "49"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/34/0001-01"
+      ]
+    },
+    {
+      "cite": "17 Cal.Rptr.3d 710",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "96 P.3d 30",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 Cal.4th 76",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3884198
+      ],
+      "pin_cites": [
+        {
+          "page": "151"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/43/0076-01"
+      ]
+    },
+    {
+      "cite": "74 Cal.Rptr.3d 454",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "180 P.3d 224",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "55 Cal.4th 816",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3932274
+      ],
+      "pin_cites": [
+        {
+          "page": "853"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/55/0816-01"
+      ]
+    },
+    {
+      "cite": "150 Cal.Rptr.3d 1",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "289 P.3d 791",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "508 U.S. 275",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12227
+      ],
+      "weight": 3,
+      "year": 1967,
+      "pin_cites": [
+        {
+          "page": "279"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/508/0275-01"
+      ]
+    },
+    {
+      "cite": "386 U.S. 18",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6168882
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "24"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/386/0018-01"
+      ]
+    },
+    {
+      "cite": "546 U.S. 212",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5884272
+      ],
+      "weight": 3,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "220"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/546/0212-01"
+      ]
+    },
+    {
+      "cite": "41 Cal.4th 313",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3819406
+      ],
+      "pin_cites": [
+        {
+          "page": "334"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/41/0313-01"
+      ]
+    },
+    {
+      "cite": "60 Cal.Rptr.3d 209",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "160 P.3d 84",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "11 Cal.3d 531",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2302336
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/11/0531-01"
+      ]
+    },
+    {
+      "cite": "113 Cal.Rptr. 897",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "522 P.2d 305",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "506 U.S. 357",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11925260
+      ],
+      "weight": 3,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "358"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/506/0357-01"
+      ]
+    },
+    {
+      "cite": "26 Cal.4th 1216",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        456803
+      ],
+      "pin_cites": [
+        {
+          "page": "1229"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/26/1216-01"
+      ]
+    },
+    {
+      "cite": "114 Cal.Rptr.2d 482",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "36 P.3d 21",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "53 Cal.4th 1181",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6051001
+      ],
+      "pin_cites": [
+        {
+          "page": "1209"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/53/1181-01"
+      ]
+    },
+    {
+      "cite": "139 Cal.Rptr.3d 786",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "274 P.3d 413",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Cal.4th 354",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3893158
+      ],
+      "pin_cites": [
+        {
+          "page": "370"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/45/0354-01"
+      ]
+    },
+    {
+      "cite": "86 Cal.Rptr.3d 841",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "197 P.3d 736",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.2d 818",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4370142
+      ],
+      "pin_cites": [
+        {
+          "page": "836"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/46/0818-01"
+      ]
+    },
+    {
+      "cite": "299 P.2d 243",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.3d 432",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1968864
+      ],
+      "pin_cites": [
+        {
+          "page": "446-448"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/46/0432-01"
+      ]
+    },
+    {
+      "cite": "250 Cal.Rptr. 604",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "758 P.2d 1135",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 Cal.4th 932",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3853474
+      ],
+      "pin_cites": [
+        {
+          "page": "961"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/38/0932-01"
+      ]
+    },
+    {
+      "cite": "44 Cal.Rptr.3d 237",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "135 P.3d 649",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "49 Cal.4th 405",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6050603
+      ],
+      "pin_cites": [
+        {
+          "page": "469"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/49/0405-01"
+      ]
+    },
+    {
+      "cite": "111 Cal.Rptr.3d 589",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "233 P.3d 1000",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "36 Cal.4th 595",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3122362
+      ],
+      "pin_cites": [
+        {
+          "page": "641"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/36/0595-01"
+      ]
+    },
+    {
+      "cite": "31 Cal.Rptr.3d 160",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "115 P.3d 472",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "530 U.S. 466",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9413911
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/530/0466-01"
+      ]
+    },
+    {
+      "cite": "53 Cal.4th 891",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6050737
+      ],
+      "pin_cites": [
+        {
+          "page": "942"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/53/0891-01"
+      ]
+    },
+    {
+      "cite": "138 Cal.Rptr.3d 547",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "271 P.3d 1040",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "36 Cal.4th 686",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3122915
+      ],
+      "pin_cites": [
+        {
+          "page": "753"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/36/0686-01"
+      ]
+    },
+    {
+      "cite": "31 Cal.Rptr.3d 485",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "115 P.3d 1145",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "52 Cal.4th 706",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3919643
+      ],
+      "pin_cites": [
+        {
+          "page": "764"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/52/0706-01"
+      ]
+    },
+    {
+      "cite": "129 Cal.Rptr.3d 617",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "258 P.3d 751",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "51 Cal.4th 1104",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3914791
+      ],
+      "pin_cites": [
+        {
+          "page": "1139-1140"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/51/1104-01"
+      ]
+    },
+    {
+      "cite": "127 Cal.Rptr.3d 2",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "253 P.3d 1153",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 Cal.4th 1186",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        5720779
+      ],
+      "pin_cites": [
+        {
+          "page": "1232"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/54/1186-01"
+      ]
+    },
+    {
+      "cite": "144 Cal.Rptr.3d 716",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "281 P.3d 799",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "57 Cal.4th 986",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6054012
+      ],
+      "pin_cites": [
+        {
+          "page": "1057"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/57/0986-01"
+      ]
+    },
+    {
+      "cite": "161 Cal.Rptr.3d 1",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "305 P.3d 1175",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 Cal.4th 1302",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        5720796
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "1361"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/54/1302-01"
+      ]
+    },
+    {
+      "cite": "144 Cal.Rptr.3d 427",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1991,
+      "opinion_index": 0
+    },
+    {
+      "cite": "281 P.3d 412",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1991,
+      "opinion_index": 0
+    },
+    {
+      "cite": "1 Cal.4th 281",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1201310
+      ],
+      "pin_cites": [
+        {
+          "page": "316"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/1/0281-01"
+      ]
+    },
+    {
+      "cite": "3 Cal.Rptr.2d 81",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "821 P.2d 585",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "55 Cal.4th 82",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3931858
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "180"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/55/0082-01"
+      ]
+    },
+    {
+      "cite": "144 Cal.Rptr.3d 865",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2008,
+      "opinion_index": 0
+    },
+    {
+      "cite": "281 P.3d 924",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2008,
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 Cal.4th 652",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3884163
+      ],
+      "pin_cites": [
+        {
+          "page": "703-704"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/43/0652-01"
+      ]
+    },
+    {
+      "cite": "76 Cal.Rptr.3d 208",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "182 P.3d 543",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "51 Cal.4th 1210",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3915414
+      ],
+      "pin_cites": [
+        {
+          "page": "1289-1290"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/51/1210-01"
+      ]
+    },
+    {
+      "cite": "126 Cal.Rptr.3d 465",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "253 P.3d 553",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "4 Cal.4th 238",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        2001613
+      ],
+      "pin_cites": [
+        {
+          "page": "268, fn. 6"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/4/0238-01"
+      ]
+    },
+    {
+      "cite": "14 Cal.Rptr.2d 377",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "841 P.2d 897",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "49 Cal.3d 1136",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1974326
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/49/1136-01"
+      ]
+    },
+    {
+      "cite": "265 Cal.Rptr. 111",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "783 P.2d 698",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "17 Cal.3d 24",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2292819
+      ],
+      "year": 1923,
+      "pin_cites": [
+        {
+          "page": "30"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/17/0024-01"
+      ]
+    },
+    {
+      "cite": "130 Cal.Rptr. 144",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1923,
+      "opinion_index": 0
+    },
+    {
+      "cite": "549 P.2d 1240",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1923,
+      "opinion_index": 0
+    },
+    {
+      "cite": "293 F. 1013",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        11720199
+      ],
+      "pin_cites": [
+        {
+          "page": "1014"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/293/1013-01"
+      ]
+    },
+    {
+      "cite": "20 Cal.4th 936",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        829715
+      ],
+      "pin_cites": [
+        {
+          "page": "967"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/20/0936-01"
+      ]
+    },
+    {
+      "cite": "86 Cal.Rptr.2d 243",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "978 P.2d 1171",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "74 Cal.App.4th 410",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        245412
+      ],
+      "pin_cites": [
+        {
+          "page": "418"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/74/0410-01"
+      ]
+    },
+    {
+      "cite": "87 Cal.Rptr.2d 875",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "373 U.S. 83",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11716714
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/373/0083-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 3276,
+    "char_count": 132411,
+    "ocr_confidence": 0.938,
+    "pagerank": {
+      "raw": 7.397582685522474e-08,
+      "percentile": 0.4426161525247225
+    },
+    "sha256": "c100670471c6869327db2021b4ce8aa37ddbb0ee9ea408528c5a8e239be2836c",
+    "simhash": "1:b76bd28a3b5a8578",
+    "word_count": 20674
+  },
+  "last_updated": "2024-02-27T22:19:31.292800+00:00",
+  "provenance": {
+    "date_added": "2019-05-22",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Cantil-Sakauye, C. J., Chin, J., Corrigan, J., Liu, J., Cu\u00e9llar, J., and Kruger, J., concurred."
+    ],
+    "parties": [
+      "THE PEOPLE, Plaintiff and Respondent, v. ANTHONY LETRICE TOWNSEL, Defendant and Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nWERDEGAR, J.\nA jury convicted defendant Anthony Letrice Townsel of the first degree murders of Mauricio Martinez and Martha Diaz (Pen. Code, \u00a7 187, subd. (a); further statutory references are to this code unless otherwise indicated), and of attempting to dissuade a witness from testifying (\u00a7 136.1, subd. (c)(1)); it acquitted him of shooting at an inhabited dwelling (\u00a7 246). It also found true multiple-murder and witness-killing special-circumstance allegations (\u00a7 190.2, subd. (a)(3), (10)) and allegations that he personally used a firearm in murdering Diaz (\u00a7 12022.5) and that her murder resulted in the termination of a pregnancy (\u00a7 12022.9). Following a penalty phase, the same jury returned a verdict of death, and the trial court sentenced him accordingly. This appeal is automatic. (\u00a7 1239, subd. (b).)\nWe reverse the conviction for dissuading a witness, vacate the witness-killing special-circumstance finding, and otherwise affirm the judgment.\nI. Factual And Procedural Background\nA. Guilt Phase\nIn September 1989, Martha Diaz and her son Andrew were staying in the home of her sister, Teresa Martinez, on Saunders Road in Madera. Also living there were Teresa\u2019s husband, Mauricio; their two children; and Mauricio\u2019s friend Luis Anzaldua. Mauricio\u2019s parents and siblings lived in the house next door. Diaz was six months pregnant with defendant\u2019s child.\nOn September 18, 1989, defendant came to Teresa\u2019s house and spoke with Diaz about the baby. The conversation was not amicable.\nOn the evening of September 21, 1989, defendant encountered Luidivina Hernandez, a mutual friend of his and Diaz\u2019s. He asked her if she had seen or spoken to Diaz, and whether Diaz had said anything about him. Hernandez acknowledged having seen Diaz and told him Diaz had said only that they were having problems. Defendant told her he wanted nothing further to do with Diaz or the baby, and that if he could not have her, neither could anyone else.\nAbout 10:00 the following morning, defendant and a companion pulled up to Teresa\u2019s house in a brown car. Defendant got out, handed Teresa an envelope containing a letter, and angrily told her to tell Diaz she had better stay in the house. After he drove away, Teresa showed Diaz the envelope and letter, which was dated September 20, 1989, and addressed to defendant from the Madera Justice Court. It informed him that a criminal complaint charging him with a violation of section 273.5 (battery or willful infliction of injury on a spouse or cohabitant) was on file against him and directed him to appear in court on November 7, 1989.\nAbout 5:00 that evening, Teresa, Diaz, and their children, along with Luis Anzaldua, were sitting in front of Teresa\u2019s house. Mauricio\u2019s brother, Rene, was near an ice cream truck parked between Teresa\u2019s house and his residence. Defendant and a passenger pulled up in a gray Cadillac. From the car, defendant made a hand gesture like a pistol, yelled at Diaz to get back in the house and that \u201cyour ass is mine after the baby is born,\u201d and drove away.\nThree hours later, around 8:00 p.m., Teresa and her family, including Diaz, along with Rolando Martinez and Luis Anzaldua, were in her house when they heard gunshots outside. Rene and his sister Valerie, next door, also heard the gunshots. Rene and Valerie went to the window and saw defendant shooting a handgun in the air before getting into a gray Cadillac and driving away. After the shooting, family members collected shell casings from the street and gave them to Madera County Sheriff\u2019s Deputy Gerald Stephen Kirkland, telling him defendant was the shooter.\nStill later that night, around 11:00 p.m., Rene, Rolando, and Anzaldua heard more gunshots outside their houses. Rene and Rolando saw shots being fired from the passenger window of a moving gray Cadillac. Rolando saw two figures in the car, which drove away at a high speed without stopping. Deputy Kirkland again responded to the family\u2019s call to the police, and collected more shell casings. Bullet holes were later seen in the garage door and a window of Teresa\u2019s house.\nAbout 11:30 the next morning, Anzaldua, Diaz, and Andrew were driving in Anzaldua\u2019s car. Stopping at an intersection, they noticed two men standing near a gray Cadillac parked at a gas station. Frightened, Diaz said, \u201cThere he is.\u201d Anzaldua understood her to be referring to defendant. One of the two men got into the driver\u2019s seat of the Cadillac.\nBelieving he was going to be chased, Anzaldua drove into town, going as fast as 70 miles per hour. The Cadillac followed, matching his speed. As Anzaldua neared the local sheriff\u2019s station, the Cadillac crashed into a fire hydrant. Anzaldua and Diaz got out of his car and tried to enter the station, only to find the front and back doors locked. Seeing a tall, dark-complected man wearing a white T-shirt and blue pants walking toward them, Anzaldua, who had worked in the station as a janitor, led Diaz to the basement. There they hid for about 10 minutes before going upstairs, where they told the deputy on duty what had happened. The deputy informed them a suspect was already in custody at the crash site. Anzaldua and Diaz went to the site and saw a Mexican male in custody. Anzaldua and Diaz then returned to their residence, and Anzaldua went to Rene\u2019s house next door to visit.\nThe same day, between about 12:30 and 12:45 p.m., Teresa and Diaz were in the living room of Teresa\u2019s home with their children and Mauricio was in the master bedroom. Anzaldua and Mauricio\u2019s siblings Rene, Valerie and Marybell were next door at Mauricio\u2019s parents\u2019 home. A neighbor, David Sepulveda, saw a gray car, possibly an LTD or a Thunderbird, park next to his fence. A Black man he later identified as defendant exited the passenger side of the car, which drove away. In Teresa\u2019s house Diaz, seeing defendant approach, picked up her son and ran from the living room. Teresa stepped toward the front door intending to ask defendant what he wanted with Diaz. Defendant opened the door and entered, a gun at his side in his left hand, and Teresa froze. Defendant looked at her without saying anything and walked down the hallway, bumping into Mauricio, who had emerged from the bedroom. Defendant raised his gun and fired twice, hitting Mauricio in the chest. Defendant continued toward the master bedroom, stopping in the doorway to fire three shots in rapid succession. Teresa fled to her in-laws\u2019 house next door.\nInside the in-laws\u2019 house, Rene, Valerie, Marybell and Anzaldua heard shots being fired. Sepulveda also heard the shots from inside his home and told his wife to call 911. Rene, Valerie and Marybell ran outside and met Teresa, who told them the shooter was defendant. All four took refuge in the in-laws\u2019 house, but Teresa soon became concerned about her child, who was still in her house. She started to leave the in-laws\u2019 house, but just then defendant left Teresa\u2019s house, firing his gun in the air, and approached the in-laws\u2019 house. Rene retrieved his rifle and loaded it as Teresa called 911. He and Teresa went to the open garage door and saw defendant walk toward Raymond Thomas Street, which intersects Saunders Road, and fire into the gas tank of Anzaldua\u2019s car, parked in front of Teresa\u2019s house. Rene took aim and shot defendant in the back of the neck. Defendant fell and crawled some distance before collapsing.\nTeresa and Rene ran back to her house and found Mauricio lying prone on the front porch. Inside the house, Rene found Diaz in the master bedroom with bullet holes in her face and neck, her son standing in front of her crying.\nWhen Sergeant Bob Holmes of the Madera County Sheriff\u2019s Department arrived on the scene, defendant was lying supine on the ground, holding a nine-millimeter Taurus semiautomatic handgun with the hammer cocked and ready to fire. Sergeant Holmes kicked the gun out of his hand. Defendant identified himself and said he was the shooter. Madera County Sheriff Glenn Seymour arrived shortly after Sergeant Holmes and remained with defendant while Holmes investigated. Sheriff Seymour asked defendant what was going on. Defendant replied: \u201cI did it. There\u2019s no one else to worry about.\u201d David Sepulveda approached the sheriff and told him defendant was the shooter. Defendant told Sepulveda to shut up, adding, \u201cor you will get it, too.\u201d\nTeresa Martinez approached defendant as he lay on the ground and asked, \u201cWhy my husband?\u201d Defendant indicated he was not through yet and \u201cMorris\u201d was going to \u201ccome and finish you off.\u201d As paramedics were attending to him, defendant said, \u201cI was paid to do a job and I did it.\u201d\nAutopsy results showed that Mauricio had been shot twice. One bullet, fired at close enough range to leave powder residue and tattooing on the left side of his face, entered near the right armpit and exited on the right side of the chest without hitting any vital organs. The second, fatal bullet entered the upper right shoulder, moving in a downward trajectory to strike a pulmonary artery within the lower lobe of the right lung and passing through the thoracic aorta, striking the left kidney, and exiting the left flank. Mauricio would have been crouched very low or bent at the waist when this second bullet entered, consistent with his having assumed a defensive posture.\nDiaz had been shot five times, suffering wounds to the upper right thigh, right arm, left ear, nose, and the nape of the neck. The latter two wounds, which were fatal, fractured the base of her skull and caused a brain stem concussion. Her six-month fetus appeared normal and \u201cdied simply because he lost his life support, his mother.\u201d\nCriminalist John Hamman tested defendant\u2019s handgun and determined that its magazine could hold 15 rounds and the chamber an additional round, for a total of 16 rounds. Cartridge casings and bullets recovered from the crime scene were all definitely or probably fired by defendant\u2019s gun.\nIn an effort to show that defendant lacked the mental state required for the charged offenses, the defense presented the testimony of three psychologists who had evaluated defendant and concluded he is mildly to moderately intellectually disabled. (Their testimony is summarized below in the discussion of related claims.) In rebuttal, the prosecution presented the testimony of psychiatrist Lee Coleman, M.D., to the effect that IQ testing is not a reliable measure of intelligence, behavior is the best indicator of mental state, and mental health professionals have no greater ability than laypersons to tell who is malingering. (His testimony is discussed below in connection with related claims.) The prosecution also presented evidence that defendant was placed in special education classes in school because of a learning handicap, not because he was thought to be intellectually disabled; he functioned well in prior employment; and, while incarcerated, he regularly requested and appeared to read daily newspapers. The parties stipulated that defendant had a California driver\u2019s license.\nB. Penalty Phase\n1. Aggravating evidence\nThe prosecution presented evidence that defendant had engaged in violent conduct on multiple occasions before and after the murders. On August 31, 1989, Martha Diaz was babysitting at her friend Marcella Lopez\u2019s apartment. When Lopez returned home, defendant was outside the building and Lopez talked with him for a few minutes. Diaz emerged from the apartment to get something from her car, and the two women entered the apartment. A few minutes later, defendant knocked at the door and asked to speak with Diaz. Lopez told him Diaz did not want to talk to him and that he should leave. Instead, defendant pushed his way into the apartment and asked to speak with Diaz in private. She refused and they began to argue. Finally, Diaz told him to leave or she would call the police. Defendant became angry and told her not to call the police because he had a warrant for his arrest and would go to jail. Diaz said, \u201cWell, then, just leave,\u201d and picked up the phone. Defendant punched her twice with his fist on her mouth and head.\nOn the evening of May 31, 1990, Sergeant Rebecca Davis, a correctional officer with the Madera County Department of Corrections, entered the jail unit where defendant was sitting on a plastic chair in the open doorway of his cell. Twice Sergeant Davis told him to \u201clock down, go into his room and close the door,\u201d and defendant failed to respond. The third time she gave the order, defendant threw his chair at her. She stepped aside to avoid the chair, and pushed him into his cell and locked it.\nOn June 28, 1990, Madera County Correctional Officer Frank Reiland entered defendant\u2019s cell to calm him down from an agitated state. Defendant tried to force his way past Officer Reiland and, when Reiland pushed back, defendant began to scream obscenities at him, kicked him, and grazed his temple with a punch.\nBeatrice Cruz dated defendant in late 1985. On April 14, 1986, after they had stopped seeing each other, defendant appeared outside her home. A male friend who was visiting Cruz went outside and began arguing with defendant. Cruz told defendant that if he did not leave, she would call the police. He called her a bitch and hit her in the mouth. Cruz reported the incident to the police, and defendant was arrested. Sometime later, defendant phoned Cruz to say he was going to kill her \u201cwetback,\u201d referring to her male friend, and she had better get out of her house. Defendant pleaded guilty to a misdemeanor charge of battery arising out of the incident.\n2. Mitigating evidence\nDefendant\u2019s mother, Catherine Townsel, testified defendant was one of five children in a close-knit, church-oriented family. As a child, defendant got along with his siblings and other children. The Townsels were the only Black family in the neighborhood, and the children socialized mainly with White and Mexican children. Defendant was immature when he started school and had difficulty reading and keeping up with the rest of his class even though Mr. and Mrs. Townsel worked with him. Mrs. Townsel agreed to the school personnel\u2019s suggestion that he be placed in special education classes. Clefo Townsel, defendant\u2019s grandfather, taught Sunday school and recalled that defendant could not keep up with the other children in the class. Defendant had no unusual behavior problems, but on one or two occasions, with his mother\u2019s permission, he was paddled at school for disobedience. When defendant reached junior high school, he began to do better as a result of the help he received in subjects he was slow in, and his mother did not recall any behavioral problems during that period. During high school, defendant dated Beatrice Cruz, who was older than he; Mrs. Townsel did not approve of the relationship. At 17, defendant was not doing well in school, and he eventually dropped out. He worked with his father doing manual labor, and at Sunkist and Boyle Electric. David Boyle testified defendant was always very cooperative and had no problems with the other employees. Defendant was mechanically inclined and could fix lawn mowers and cars.\nChristine Ortiz and Elena Esparza testified that during the summer of 1988, they socialized with defendant, and found him to be a nice person with a sense of humor who did not drink or fight.\nBailiffs Jeffrey Doran and Jess Ozcoidi testified they had no difficulty with defendant while assigned to the courtroom.\nCorrectional Sergeant Allen Patchell testified that, following his review of Sergeant Davis\u2019s disciplinary report, he concluded defendant had not thrown the chair at Davis; rather, Patchell believed defendant slammed the chair toward the floor and it bounced toward Davis.\nDr. Frank Powell reviewed Dr. Coleman\u2019s testimony and testified it did not lead him to question the results of the IQ tests he had administered to defendant. Dr. Coleman\u2019s criticisms of psychological testing were not, according to Dr. Powell, widely accepted in the field of psychology.\nII. Discussion\nA. Guilt Phase Issues\n1. Failure to suspend proceedings and appoint director of regional center\nOn November 2, 1989, before the commencement of the preliminary hearing in justice court and nearly 15 months before the start of jury selection, defense counsel declared a doubt regarding defendant\u2019s competence to stand trial based on her interactions with him and on a psychologist\u2019s evaluation, which she did not further describe or tender to the court. The court suspended proceedings pursuant to section 1368 and certified defendant to superior court for a competency determination. The superior court appointed two psychiatrists, Dr. Charles A. Davis and Dr. Howard Terrell, to evaluate defendant and assess his competence to stand trial. On December 1, 1989, the superior court held a competency hearing at which the parties stipulated to submitting the issue on the psychiatrists\u2019 reports. Both psychiatrists concluded defendant was malingering; Dr. Davis opined defendant was competent, while Dr. Terrell believed there was a possibility that, although malingering, defendant was suffering from a concurrent mental disorder that was impairing his ability to cooperate with his counsel in the preparation of a defense, and on that basis recommended the court find him incompetent. The court found defendant competent to stand trial.\nDuring the guilt phase of trial, on April 3, 1991, the defense presented the testimony of psychologist Dr. Lea Christensen that she had evaluated defendant in late October 1989 and found him then to be intellectually disabled and incompetent to stand trial. Although trial counsel never renewed her concerns regarding defendant\u2019s competence, defendant now contends Dr. Christensen\u2019s testimony constituted substantial evidence that he was both intellectually disabled and incompetent to stand trial, triggering a duty on the part of the trial court to suspend the proceedings and appoint the director of the regional center for the developmentally disabled to evaluate him pursuant to section 1370.1. The trial court\u2019s failure to do so, he contends, violated his rights to due process and a reliable guilt and penalty determination, requiring reversal of the judgment. We disagree.\nThe governing legal principles are well established. \u201c \u2018A person cannot be tried or adjudged to punishment while mentally incompetent. (\u00a7 1367, subd. (a).) A defendant is mentally incompetent if, as a result of a mental disorder or developmental disability, he or she is unable to understand the nature of the criminal proceedings or to assist counsel in the conduct of a defense in a rational manner. (Ibid.)\u2019 \u201d (People v. Koontz (2002) 27 Cal.4th 1041, 1063 [119 Cal.Rptr.2d 859, 46 P.3d 335].) \u201c \u2018Both the due process clause of the Fourteenth Amendment to the United States Constitution and state law require a trial judge to suspend proceedings and conduct a competency hearing whenever the court is presented with substantial evidence of incompetence, that is, evidence that raises a reasonable or bona fide doubt concerning the defendant\u2019s competence to stand trial.\u2019 \u201d (People v. Halvorsen (2007) 42 Cal.4th 379, 401 [64 Cal.Rptr.3d 721, 165 P.3d 512]; see also \u00a7 1368, subds. (a), (b); People v. Pennington (1967) 66 Cal.2d 508, 518 [58 Cal.Rptr. 374, 426 P.2d 942].)\nIn a competency trial, \u201c[i]f it is suspected the defendant is developmentally disabled, the court shall appoint the director of the regional center for the developmentally disabled ... to examine the defendant.\u201d (\u00a7 1369, subd. (a).) \u201c \u2018[Developmental disability\u2019 means a disability that originates before an individual attains 18 years of age, continues, or can be expected to continue, indefinitely and constitutes a substantial handicap for the individual .... [T]his term shall include intellectual disability . . . .\u201d (\u00a7 1370.1, subd. (a)(1)(H).) \u201c[A]ppointment of the director of the regional center for the developmentally disabled (\u00a7 1369, subd. (a)) is intended to ensure that a developmentally disabled defendant is evaluated by experts experienced in the field, which will enable the trier of fact to make an informed determination of the defendant\u2019s competence to stand trial.\u201d (People v. Leonard (2007) 40 Cal.4th 1370, 1391 [58 Cal.Rptr.3d 368, 157 P.3d 973] (Leonard).) The erroneous failure to appoint the director of the regional center does not require reversal unless the error deprived the defendant of a fair competency trial. (Id. at p. 1390.)\nDefendant does not contend that the pretrial court erred in failing to initiate developmental disability competency proceedings. Rather, he contends Dr. Christensen\u2019s trial testimony\u2014that in late October 1989, some 18 months earlier, she had concluded defendant was intellectually disabled and incompetent to stand trial\u2014constituted substantial evidence of his present incompetence due to intellectual disability, triggering the trial court\u2019s statutory obligation to suspend proceedings, appoint the director of the regional center to evaluate defendant, and hold a second competency hearing. (\u00a7 1369, subd. (a).) Its failure to do so, defendant urges, requires that we reverse the judgment.\nIn support, defendant relies on People v. Castro (2000) 78 Cal.App.4th 1402 [93 Cal.Rptr.2d 770] (Castro). In that case, the defense counsel declared a doubt as to the defendant\u2019s competence to stand trial and requested the appointment of the director of the regional center based on a psychologist\u2019s opinion that the defendant had a developmental disability classified as the \u201c \u2018most severe.\u2019 \u201d (Id. at pp. 1410-1411.) The trial court refused to appoint the director of the regional center and instead appointed a psychiatrist to evaluate the defendant\u2019s competence. {Id. at p. 1411.) The psychiatrist reported that the defendant had a learning disorder but was not incompetent, and the trial court reinstated criminal proceedings. {Ibid.) The defendant pleaded guilty to second degree murder. New counsel substituted in to the case and declared a doubt regarding the defendant\u2019s competence to stand trial but did not specifically request the appointment of the director of the regional center. {Id. at p. 1412.) The trial court appointed a second psychiatrist to reevaluate the defendant\u2019s competence. {Ibid.) The second psychiatrist reported that, although the defendant had a learning disability, she had no \u201c \u2018psychiatric disease\u2019 \u201d and was \u201c \u2018able to understand the nature and purpose of the proceedings\u2019 \u201d against her. {Ibid.) The trial court again found the defendant competent and reinstated criminal proceedings, eventuating in the denial of her motion to withdraw her plea and subsequent sentencing. {Ibid.) The Court of Appeal reversed, holding that the court\u2019s error in failing to appoint the director of the regional center violated state law and the defendant\u2019s right to due process and deprived it of jurisdiction to proceed. (Leonard, supra, 40 Cal.4th at pp. 1390-1391.)\nAs defendant recognizes, this court in Leonard, supra, 40 Cal.4th 1370, disapproved Castro, supra, 78 Cal.App.4th 1402, to the extent it employed a per se rule of reversal for error in the failure to appoint the director of the regional center in connection with competency proceedings involving an allegedly developmentally disabled defendant. (Leonard, supra, at p. 1389.) We reasoned that, although the complete failure to hold a competency hearing requires reversal of a conviction, the failure to appoint the director of the regional center is a less egregious error, requiring reversal only if it deprived the defendant of a fair competency trial. (Id. at p. 1391, fn. 3.) In Castro, we said, the failure to appoint the regional director did have such an effect because neither of the court-appointed psychiatrists made any \u201c \u2018attempt to determine [the defendant\u2019s] intelligence level or assess the extent of her developmental disability.\u2019 \u201d (Leonard, at p. 1390.) Instead, their examinations \u201cfocused on whether [the defendant] had any mental disease or mental illness, which is an entirely separate basis for a finding of incompetency than developmental disability. (\u00a7 1367.)\u201d (Castro, at p. 1418.) Hence, the procedure followed in Castro violated both the letter and the spirit of section 1369, and the Court of Appeal did not err in reversing the judgment in that case. In Leonard, by contrast, we noted \u201cthe trial court\u2019s competency determination was based on evidence from experts who were familiar with defendant\u2019s developmental disability and who considered it in evaluating his competence.\u201d (Leonard, at p. 1390.) The error in Leonard therefore did not prejudice the defendant. (Ibid.)\nHere, defendant argues, as in Castro and unlike in Leonard, the record contains no evidence Drs. Terrell and Davis, the psychiatrists who evaluated his competence, had any experience in dealing with intellectually disabled persons or qualifications sufficient to render a diagnosis of intellectual disability, and their examinations clearly focused on whether he suffered from mental illness, rather than intellectual disability. He points to the testimony of his expert, Dr. Christensen, that what may appear to be malingering behavior to an evaluator without expertise in intellectual disability, or one who has not tested a defendant for intellectual disability, may actually be evidence of intellectual disability. Indeed, he claims, even if he was not being truthful when he responded, \u201cI don\u2019t know\u201d to most of Drs. Terrell and Davis\u2019s questions\u2014responses that the doctors believed were evidence of malingering\u2014that was not necessarily inconsistent with his being intellectually disabled. Only a qualified expert, he insists, could determine whether his behavior was evidence of a competent defendant unwilling to cooperate or of an intellectually disabled, incompetent defendant unable to cooperate. Because no such expert was appointed, he contends that neither the statutory scheme nor the requirements of due process were satisfied, and the judgment must be reversed.\nWe are unpersuaded that Dr. Christensen\u2019s testimony regarding defendant\u2019s alleged intellectual disability and her earlier belief that he was incompetent to stand trial raised a doubt sufficient to require the trial court to institute renewed proceedings under section 1369, subdivision (a). As we shall explain, Dr. Christensen\u2019s conclusion concerning defendant\u2019s intellectual functioning was, by her own acknowledgment, an outlier that may have reflected the unusual circumstances present on the day of her evaluation rather than the true extent of defendant\u2019s abilities.\nDr. Christensen was one of a series of experts called by the defense at trial in an effort to undermine the prosecution\u2019s claim that defendant had the specific intent necessary for the charged crimes. On the subject of whether defendant was incompetent, Dr. Christensen described an evaluation that was not very different from the evaluation that Drs. Terrell and Davis had conducted. Like the psychiatrists, Dr. Christensen asked defendant general questions as well as questions about the legal process. Defendant answered most questions with \u201cI don\u2019t know\u201d or \u201cI don\u2019t understand.\u201d Similarly, to the psychiatrists he had said, among other things, he did not know his full name or his age, basic facts about his immediate family, the months of the year, what a high school was, what alcohol was, what medication was (although he later used the latter term correctly), or the sum of two plus two. One of the psychiatrists had noted that in contrast to these answers, the police report indicated that when defendant was read his Miranda rights, he responded by saying he understood those rights and that he wanted to talk to a lawyer. In addition, he was able to read to one of the psychiatrists an extended excerpt from the police report, and jail personnel reported to the psychiatrist that defendant read newspapers on a daily basis. Partly on this basis, the psychiatrists had concluded that defendant was malingering.\nDr. Christensen came to a different conclusion: that defendant truly did not understand the nature of legal proceedings. She affirmed this conclusion in spite of evidence, introduced on cross-examination during her testimony, tending to show that defendant did understand the basics of the legal process\u2014in particular, a letter he wrote discussing the sentence he might receive and considering whether or not to testify. When asked to explain why she came to a different conclusion from the examining psychiatrists, she responded simply that she had conducted psychological testing, whereas Drs. Terrell and Davis had not.\nThe results of Dr. Christensen\u2019s testing, however, are subject to substantial question in light of the remainder of her testimony. Her testing of defendant yielded a full-scale IQ score of 47, which she testified indicated moderate to severe intellectual disability. She further testified to significant intellectual deficits beyond those revealed in response to her questions about defendant\u2019s understanding of the legal system. For example, she testified that defendant was unable to calculate \u201ctwo minus one.\u201d Dr. Christensen also asserted that defendant had exceptionally poor memory. But despite her own admission that defendant\u2019s unusually weak memory was not typical of people who are intellectually disabled, Dr. Christensen denied that his responses suggested malingering. Her explanation did not, however, describe in any detail how her specialized training and expertise enabled her to rule out the possibility that defendant was malingering. She explained only that, in her view, \u201c[mjalinger-ers wouldn\u2019t conceive of, would not normally think about using [lack of memory] as a technique for faking one out. ... A malingerer will think of something different.\u201d\nAs Dr. Christensen acknowledged at trial, her finding that defendant was moderately to severely intellectually disabled was an outlier. The two other defense experts, also both licensed psychologists, testified that they had tested defendant\u2019s full-scale IQ as 59 and 66, respectively\u2014within the range of mild, not moderate or severe, intellectual disability. Dr. Christensen acknowledged that the difference between a full-scale IQ of 47 and one of 66 is \u201csignificant.\u201d She hypothesized that the different results might have been attributable to various factors present on the day she examined defendant, including that the evaluation was conducted in an infirmary setting with many distractions and poor lighting, and that defendant was at the time in a head harness, medicated, tired, and in pain while recovering from injury. Defense expert Dr. Schuyler (who had tested defendant\u2019s full-scale IQ as 66) echoed these concerns about the effects of this set of unusual conditions on the results of Dr. Christensen\u2019s evaluation.\nFinally, other than Dr. Christensen\u2019s assertion that she believed defendant was incompetent on the day she examined him\u2014a day on which, in her own account, her results were likely to have been confounded by an unusual set of external variables\u2014there is little else in the record to suggest that defendant was unable to understand the nature of the proceedings or to assist his counsel. None of the other defense witnesses raised similar concerns or testified to intellectual deficits of the magnitude that Dr. Christensen had identified in concluding that defendant was incompetent.\nIn sum, given the confounding factors operative at the time of Dr. Christensen\u2019s evaluation\u2014including that defendant, still recovering from a gunshot wound, was immobilized in a head harness, in pain, and on medication, and that the testing was taking place in a hospital environment that was apparently poorly lit and full of distractions\u2014the trial court could properly find she lacked \u201c \u2018sufficient opportunity to examine\u2019 \u201d defendant for her opinion to raise a reasonable doubt as to his competency. (People v. Ramos (2004) 34 Cal.4th 494, 507-508 [21 Cal.Rptr.3d 575, 101 P.3d 478], quoting People v. Pennington, supra, 66 Cal.2d at p. 519.) The trial court therefore did not err in failing to institute competency proceedings under section 1369, subdivision (a).\nPeople v. Hale (1988) 44 Cal.3d 531 [244 Cal.Rptr. 114, 749 P.2d 769], on which defendant relies, is inapposite. There, the trial court declared a doubt regarding the defendant\u2019s competence and ordered him evaluated under section 1368. (Hale, supra, at p. 535.) The first psychiatrist to examine him concluded he was incompetent due to a mental disorder. (Id. at p. 536.) After treatment with antipsychotic medication, the defendant\u2019s condition improved, and several psychiatrists later concluded he was no longer incompetent. (Id. at pp. 537-538.) Having considered the psychiatrists\u2019 evaluations, the court proceeded to trial on the criminal charges without holding a hearing or making any explicit findings regarding the defendant\u2019s competence. {Id. at p. 538.) We reversed, holding the trial court lacked jurisdiction to conduct the criminal trial once it had made an order instituting proceedings under section 1368 and could not vacate that order sub silentio. (Hale, at pp. 541-542.) Unlike in Hale, here the trial court did not declare a doubt regarding defendant\u2019s competence after hearing Dr. Christensen\u2019s testimony.\nPeople v. Melissakis (1976) 56 Cal.App.3d 52 [128 Cal.Rptr. 122], on which defendant also relies, is likewise distinguishable. In that case, the Court of Appeal reversed a conviction where, after pretrial competency proceedings had eventuated in a finding that the defendant was competent, the trial court failed to hold a second competency hearing after new evidence emerged at trial that the defendant was in the grip of paranoid delusions that prevented him from cooperating with his counsel in the presentation of a rational defense. {Id. at pp. 57-62.) In contrast, here the trial evidence of defendant\u2019s intellectual disability did not suggest he lacked the ability to understand the nature of the criminal proceedings or cooperate with counsel in the presentation of a rational defense.\nOur conclusion that the trial court did not err in failing to reinstitute competency proceedings based on Dr. Christensen\u2019s testimony obviates the need to address defendant\u2019s contention that to hold reliable retrospective competency proceedings to remedy that purported error would not be possible.\n2. Issues related to testimony of Lee Coleman, M.D.\nIn support of his defense that he did not premeditate and deliberate the killings, as required for first degree murder, or kill Diaz with the specific intent to prevent her from testifying against him in a possible future criminal proceeding arising from her spousal battery complaint, as required for the witness-killing special-circumstance allegation and the dissuading a witness charge (\u00a7\u00a7 190.2, subd. (a)(10), 136.1, subds. (a)(1) & (c)(1)), defendant, as previously noted, presented the testimony of three expert witnesses, psychologists who had evaluated him and administered intelligence tests and other standardized tests commonly used to diagnose intellectual disability. Over defense objection, psychiatrist Lee Coleman, M.D., testified for the prosecution in rebuttal concerning the unreliability of the testing and methodology the defense experts used and the limitations of psychological and psychiatric testimony. On appeal, defendant contends the admission of Dr. Coleman\u2019s testimony violated state law and his rights under the Fifth, Sixth, Eighth, and Fourteenth Amendments to the federal Constitution. Specifically, he contends Dr. Coleman was unqualified to testify as an expert on the subjects of intellectual disability and related intelligence and psychological testing, was erroneously permitted to testify regarding questions of law vital to the defense, and gave erroneous opinions regarding the law. The trial court compounded these errors, defendant contends, by misinstructing the jury that it could refuse to consider the evidence of his intellectual disability in determining whether he possessed the mental states required for the charged offenses. He claims the errors were prejudicial, necessitating reversal of his conviction and sentence. The Attorney General asserts defendant forfeited these contentions by failing to make sufficiently specific objections below, and they lack merit in any event.\na. Factual background\nResolution of defendant\u2019s claims requires that we set forth the defense objections and the witness\u2019s testimony in some detail. As noted, the defense presented the testimony of three psychologists who evaluated defendant at different times: Dr. Lea Christensen, Dr. Frank Powell, and Dr. Bradley Schuyler. The witnesses administered various tests, including the Wechsler Adult Intelligence Scale Revised, the Bender Motor Gestalt test, a street survival skills questionnaire, the Wide Range Achievement Test, subtests of the Woodcock-Johnson Psychoeducational Test Battery, the Trail Making Test, the Gilmore oral reading test, the Denman memory tests, and the Wechsler Memory Scale Revised. Based on their testing and evaluation, the witnesses concluded defendant was mildly or moderately intellectually disabled and not malingering. Drs. Christensen and Powell testified generally that intellectual disability affects abstract thinking, memory, ability to understand, and judgment, but neither expert rendered an opinion as to whether defendant was capable of forming, or did form, the mental states required for the charged offenses or the special circumstance allegation. Dr. Christensen testified that while an intellectually disabled person can form the intent to kill, he or she would have greater difficulty making decisions, considering the consequences of his or her actions, and drawing causal connections, and would be more impeded in his or her judgment, than would a person of normal intellect.\nAfter the prosecutor indicated he would be presenting the testimony of Dr. Lee Coleman in rebuttal, the defense, out of the jury\u2019s presence, requested an offer of proof regarding Dr. Coleman\u2019s proposed testimony. Defense counsel noted: \u2018\u201c[W]e restricted our questioning of the experts to not have them render legal conclusions or opinions as to the state of mind of the defendant. [\u00b6] We do not believe that the proposed testimony of Dr. Coleman is appropriate as rebuttal.\u201d Defense counsel also argued the proposed testimony was irrelevant. Based on his study of the witness\u2019s published writings, counsel stated it appeared Dr. Coleman would be testifying that psychiatrists and psychologists have no training that would enable them to render opinions in the courtroom. Counsel argued that \u2018\u201csince [psychological experts] have, in fact, been qualified as experts and allowed to present their expert testimony, that Dr. Coleman coming in and saying that has absolutely no place within the courtroom setting and should be totally disregarded by the jury\u201d would be \u2018\u201can inappropriate opinion,\u201d as well as \u201cextremely prejudicial and its probative value is certainly outweighed by its prejudice . . . .\u201d\nThe prosecutor clarified that \u201cDr. Coleman\u2019s testimony would be to explain to the jury the tests are not relevant which were administered by the doctors, why they\u2019re not relevant. And Dr. Coleman is not going to give any opinion as to the defendant\u2019s mental state. Dr. Coleman never gave such an opinion and he would also say that that is something the jury should determine.\u201d Defense counsel argued, \u201c[M]y understanding is the Court makes the rulings on what is relevant and what is not relevant, and it is not for the expert to say what is relevant. . . . [\u00b6] The Court has already admitted the testimony of the psychologists. There was no objection to those. The prosecutor made no effort to convince the Court that their testimony was without foundation and should not be admitted.\u201d Defense counsel also questioned whether, given the differences in the training undergone by psychiatrists and psychologists, a psychiatrist like Dr. Coleman is qualified to render opinions regarding psychological evaluations. The court ruled that Dr. Coleman would be allowed to testify.\nIn the jury\u2019s presence, Dr. Coleman testified as follows: He had been a medical doctor specializing in psychiatry since 1969. Psychiatrists are medical doctors specializing in problems of emotions and behavior. Psychologists are not medical doctors, and cannot treat the body or prescribe medications, but their training in psychotherapy overlaps that of psychiatrists. Since the early 1970\u2019s, Dr. Coleman\u2019s special interest had been in psychiatry in the legal system. He had studied the professional literature concerning how the techniques, methods, and examinations used in clinical psychiatry and psychology work when applied in the legal setting, and had read actual case files to compare the methods and conclusions used by mental health professionals with \u201cwhat we know in the professional literature of the actual ability of those techniques to do what is alleged that they can do.\u201d Based on his study and experience, Dr. Coleman held the opinion that the tests and procedures mental health professionals use \u201care not reliable instruments to help answer the questions which they\u2019re supposed to be helping with.\u201d Over an unsuccessful lack-of-foundation objection by the defense, Dr. Coleman testified an IQ test is not a reliable measure of intelligence, a mental status examination is not a reliable guide to \u201cwhat a person\u2019s orientation or understanding or current mental state is,\u201d and a personality test is \u201cnot a reliable guide to somebody\u2019s personality.\u201d The examiner engages in \u201cguesswork as to the reason why the person answers the way they do.\u201d\nThe prosecutor asked whether Dr. Coleman had an opinion as to whether the results of such tests have any value to a jury. Over unsuccessful defense objections on grounds of improper rebuttal, \u201cnot proper subject for expert testimony,\u201d and \u201ccalls for a conclusion with a lack of foundation,\u201d the witness testified the tests \u201care of no help whatsoever\u201d; \u201c[tjhere is no kind of personality which is incapable of having [the mental states at issue in a criminal case]\u201d; and the tests were never designed for this purpose. No psychological test exists, he testified, the results of which would require a juror to change his or her mind about the existence of premeditation and deliberation; if a juror found defendant was able to plan and was aware of the consequences of his actions, nothing in Dr. Christensen\u2019s report would require the juror to reevaluate his or her position. Dr. Coleman testified psychologists and psychiatrists are in no better position than laypersons to judge credibility; indeed, in his view, \u201cthey\u2019re actually worse\u201d than laypersons.\nOn cross-examination, Dr. Coleman acknowledged his belief that no mental health professional can determine from testing what a person was thinking at some time in the past. Asked whether a fact finder \u201cshould decide a case solely on the facts surrounding the circumstances of the offense,\u201d Dr. Coleman stated: \u201c[I]f they\u2019re going to decide what the truth is about what happened, of course, they would rely on all the evidence. But when it comes to these mental questions, that, in my opinion, a person\u2019s behavior as a juror determines it to be from the evidence and of the circumstances surrounding the behavior as they determine it to be is as reliable a guide as exists to determine what somebody\u2019s mental state was.\u201d Dr. Coleman emphasized he was not saying that a person\u2019s mental state during the commission of an offense was irrelevant; rather, he said, \u201cMy point is simply that the tools of psychiatry and psychology are in my opinion of no help in a jury or judge deciding those mental issues.\u201d\nb. Asserted error in finding Dr. Coleman qualified to testify as an expert on intellectual disability and related intelligence and psychological testing\nEvidence Code section 720, subdivision (a) provides that a \u201cperson is qualified to testify as an expert if he has special knowledge, skill, experience, training, or education sufficient to qualify him as an expert on the subject to which his testimony relates. Against the objection of a party, such special knowledge, skill, experience, training, or education must be shown before the witness may testify as an expert.\u201d \u201cA trial court\u2019s decision that a proposed witness qualifies as an expert under Evidence Code section 720 is a matter within the court\u2019s broad discretion and will not be disturbed on appeal unless the defendant demonstrates a manifest abuse of that discretion.\u201d (People v. Jones (2013) 57 Cal.4th 899, 949 [161 Cal.Rptr.3d 295, 306 P.3d 1136].) Defendant contends that because Dr. Coleman testified to no special training, education, experience, or knowledge in the field of intellectual disability, the trial court abused its discretion in permitting him to testify as an expert in that field. As the Attorney General argues, however, this contention was forfeited by the failure to make a contemporaneous objection on the same ground at trial. (People v. Ramos (1997) 15 Cal.4th 1133, 1171 [64 Cal.Rptr.2d 892, 938 P.2d 950].) The thrust of defendant\u2019s in limine objections to Dr. Coleman\u2019s proposed testimony was that (1) the defense experts had not testified regarding defendant\u2019s having had any particular mental state at the time of the crimes; hence, any testimony by Dr. Coleman that mental health professionals cannot reliably determine what a person\u2019s mental state was at some point in the past would constitute improper rebuttal; (2) since the trial court determines relevance, any testimony by Dr. Coleman that mental health testimony has no place in the courtroom would be inappropriate; and (3) as a psychiatrist, Dr. Coleman was not qualified to render opinions on psychological evaluations. Neither explicitly nor implicitly did the defense seek exclusion of such testimony on the basis that Dr. Coleman lacked expertise in the field of intellectual disability. Nor did the defense object during Dr. Coleman\u2019s testimony before the jury on the ground of his purported lack of expertise in that field.\nIn any event, as the Attorney General argues, Dr. Coleman did not testify as an expert in intellectual disability, and rendered no opinion regarding whether defendant is intellectually disabled. Rather, Dr. Coleman testified, based on the professional literature and his own study, about psychological evaluation generally\u2014including intelligence, neuropsychological, and personality testing\u2014and its limitations in terms of the inferences it can support in the forensic setting concerning a defendant\u2019s mental state at the time of an offense. Defendant fails to show the trial court abused its discretion in permitting this testimony in rebuttal to that of the defense experts. His derivative constitutional claims fail for the same reason.\nDefendant also contends that, in testifying that intelligence testing is not generally accepted within the professional community as a fundamentally reliable measure of intelligence, Dr. Coleman revealed a lack of impartiality that should have disqualified him from testifying as an expert. Although defendant acknowledges that \u201cintelligence testing does not always produce precise results for a variety of reasons,\u201d he urges that IQ \u201c \u2018remains ... the measure of human intelligence that continues to garner the most support within the scientific community\u2019 \u201d (quoting American Assn, on Mental Retardation, Mental Retardation: Definition, Classification, and Systems of Supports (10th ed. 2002) p. 51). Under the clinical definition of intellectual disability, he observes, \u201c \u2018general intellectual functioning is defined by the intelligence quotient (IQ or IQ equivalent) obtained by assessment with one or more of the standardized, individually administered intelligence tests, such as the Wechsler Intelligence Scales given in this case\u2019 \u201d (quoting American Psychiatric Assn., Diagnostic and Statistical Manual of Mental Disorders (4th ed. 2000) p. 41, italics omitted; see also id. at p. xxxiii). He contends Dr. Coleman testified, to the contrary, that intelligence testing is not generally accepted within the relevant professional community and is not relevant to determining whether a person is intellectually disabled. This testimony, defendant argues, signified either (1) a lack of the knowledge, training, and experience in the field of intellectual disability necessary to serve as an expert in this case, or, (2) because \u201chis bread and butter was debunking psychological and psychiatric testimony and related testing,\u201d Dr. Coleman was \u201c \u2018so personally invested in establishing the technique\u2019s [non]acceptance that he [could] not be objective about [] agreements within the relevant [professional] community.\u2019 \u201d (See People v. Reilly (1987) 196 Cal.App.3d 1127, 1138-1139 [242 Cal.Rptr. 496] [addressing Kelly requirement of expert impartiality].) In either case, defendant argues, the trial court erred in permitting him to testify over defense objections.\nPreliminarily, defendant forfeited this challenge to Dr. Coleman\u2019s impartiality by failing to raise it in the trial court. On the merits, the argument is unpersuasive. Defendant predicates his claim on a statement by Dr. Coleman taken out of context. In testifying, \u201cthat\u2019s why these [IQ] tests have been totally trashed by the professional community\u201d and \u201cnot given any credibility by the professionals,\u201d Dr. Coleman was addressing the observed tendency, noted even by defendant\u2019s experts, of persons with lesser educational levels and language skills, who mainly come from minority groups or from an impoverished background, to score lower on IQ tests, apparently for reasons unrelated to actual intelligence, than persons from the dominant community. We perceive no lack of impartiality in the statement. (See Larry P. v. Riles (9th Cir. 1984) 793 F.2d 969, 975-976, 984 [upholding lower court finding of racial bias in standard IQ tests and injunction against the use of such tests in California schools].)\nc. Asserted error in permitting Dr. Coleman to testify concerning purely legal questions\nDefendant further contends the trial court erred in permitting Dr. Coleman to testify regarding purely legal questions and to encourage jurors to disregard the law. Having allowed the three defense expert witnesses to testify that defendant was intellectually disabled, he reasons, the trial court effectively resolved the legal questions that (1) intellectual disability is a proper subject of expert opinion (see Evid. Code, \u00a7 801, subd. (a) [expert testimony is permissible on a \u201csubject that is sufficiently beyond common experience that the opinion of an expert would assist the trier of fact\u201d]), and (2) the defense experts\u2019 intellectual disability diagnoses were \u201c[biased on matter . . . that is of a type that reasonably may be relied upon by an expert in forming an opinion upon the subject to which his testimony relates\u201d (id., \u00a7 801, subd. (b)), including the administration and interpretation of intelligence tests and other psychological testing. Once the trial court resolved those questions, defendant contends, the jurors\u2019 sole function was to determine the weight and credibility of that evidence. But in derogation of those rulings, he claims, Dr. Coleman testihed that laypersons can identify intellectual disability without expert assistance, and that expert opinion, including that based on the results of such inherently unreliable tools as intelligence testing, does not assist the jury in determining intellectual disability or mens rea.\nAs defendant acknowledges, in earlier cases we determined that \u201cDr. Coleman\u2019s testimony regarding the unreliability of psychiatric testimony was neither improper nor prejudicial, because he did not suggest that courts should bar psychiatrists from the courtroom. Thus, his criticism of forensic psychiatry and of the opinions of the defense experts went to the weight of those opinions rather than their admissibility.\u201d (People v. Smithey, supra, 20 Cal.4th at p. 966.) We reach the same conclusion here. And, as we also previously concluded, \u201cMoreover, because the trial court instructed the jury that an expert was entitled to state an opinion on a matter at issue in the trial, and that the jury was entitled to disregard an expert opinion if it was unreasonable, we have found such testimony by Dr. Coleman to be \u2018 \u201cclearly nonprejudicial.\u201d \u2019 \u201d (Ibid.) Defendant argues, to the contrary, that although in previous cases we have \u201cdrawn a line in the sand that Dr. Coleman may have narrowly avoided,\u201d \u201che finally crossed it in this case.\u201d But we see no signihcant difference between the testimony we approved in Smithey and other cases and the testimony Dr. Coleman gave in this case. Defendant\u2019s claim therefore lacks merit.\n3. Admission of testimony by lay witnesses, and asserted hearsay evidence, regarding defendant\u2019s alleged intellectual disability in his developmental years\nDefendant contends the trial court erred in permitting three lay witnesses\u2014 teachers and a counselor who taught or worked with defendant in his high school special education program\u2014to testify in the prosecutor\u2019s case in rebuttal that they did not categorize defendant as intellectually disabled. The court erred, according to defendant, because the question whether a person is intellectually disabled is one for experts and the witnesses were unqualified to give an opinion on the subject. Defendant further contends the trial court erred in overruling his hearsay and foundational objections and allowing a school psychologist and custodian of records to express the opinion, based on school records, that defendant was not intellectually disabled. The asserted errors, he contends, violated not only state law but, because the evidence of intellectual disability that he presented was the \u201ccore of his defense\u201d by which he sought to raise a reasonable doubt on the elements of premeditation and deliberation and the witness-killing special-circumstance allegation, also his rights under the Fifth, Sixth, Eighth, and Fourteenth Amendments to the federal Constitution not to be convicted except on proof beyond a reasonable doubt, to a meaningful opportunity to present a defense, to due process, and to a reliable jury verdict. We conclude the trial court did not abuse its discretion in allowing the teachers and counselor who had worked with defendant to testify they did not categorize him as intellectually disabled, and any error in allowing the records custodian to testify to the conclusions contained in the records was nonprejudicial.\nA recitation of the factual background to this claim will help to place it in its legal context. Defendant\u2019s first expert witness, Dr. Powell, testified that, with a full-scale IQ score of 59, defendant was mildly intellectually disabled. He agreed with the prosecutor that such disability \u201c[would] be noticeable [to] friends and family.\u201d A subsequent expert, Dr. Christensen, likewise testified on cross-examination that \u201cwe would expect that family and friends would know [defendant] to be slow, harder to educate, not always quick to acquire new information and not always high functioning in general compared to age peers.\u201d\nThe prosecution then called three lay witnesses\u2014defendant\u2019s former school counselor Dolores Rodriguez and former teachers Elizabeth Davis and Susan McClure\u2014and asked them if they ever considered defendant to be intellectually disabled while attending school. Over unsuccessful defense objections that there was no foundation to show that the witnesses were qualified to render an opinion regarding defendant\u2019s intellectual disability, all three testified they would not categorize him as intellectually disabled.\nSpecifically, Rodriguez testified she was a counselor at Madera High School for 17 years, with responsibilities in academic scheduling, testing, and personal, vocational, and career development, and counseled defendant in 1983, 1984, or 1985. She had personal contact with defendant during that time regarding academic matters and program changes. Defendant, she testified, was in the special education program at Madera High School as a \u201clearning handicapped\u201d individual. Based on her personal contacts with defendant, she testified, over a defense objection on the ground of \u201clack of foundahon as to this witness\u2019s expertise to render such an opinion,\u201d she did not \u201cconsider [defendant] to be in the category of a mentally retarded person.\u201d\nDavis testified she was a resource specialist in the special education department at Madera High School who worked with students who have learning problems. In that capacity she taught defendant llth-grade United States history. She observed him to have problems reading and turning in his homework, but did not recall any problems with his reasoning abilities. Davis had worked with intellectually disabled individuals, not in a school setting but as a camp counselor, and\u2014over an unsuccessful defense objection on the ground of foundation\u2014testified she would not categorize defendant as intellectually disabled. On redirect examination, she observed: \u201cHe was not a student who put forth a great deal of effort. For instance, in getting homework done and studying a lot I don\u2019t think he did a whole lot outside of class.\u201d\nMcClure testified she was a resource specialist in the special education department at Madera High School; defendant was one of her students. She recalled he had difficulties with reading and writing, but, asked whether there was anything \u201cthat ever indicated to you that [defendant] may be mentally retarded,\u201d she responded in the negative.\nThe prosecuhon also presented the testimony of Leon Potter, a school psychologist and custodian of records for the Madera Unified School District. Over an unsuccessful continuing defense objection on grounds of hearsay and lack of foundation, Potter testified defendant\u2019s school record showed he was placed in special education \u201c[b]ecause of a learning handicap.\u201d IQ tests administered to defendant in 1975, 1979, and 1982 yielded scores of 70, 75, and 77, respechvely. Asked whether, based on these IQ scores, defendant was ever classified as intellectually disabled by the school district, Potter testified that defendant was placed in a class for intellectually disabled students \u201conly on what we call exceptional circumstances, meaning he did not qualify by standard as a mentally retarded child but he\u2019s functioning in a low borderline range academically, functioning very lowly [s/c], was having difficulty in the classroom. When you have circumstances, even though a student does not test mentally retarded, if they\u2019re in the borderline range under exceptional circumstances with parental consent you can place them in EH [educationally handicapped] classes as was done in this case here.\u201d\nDefendant contends the trial court erred in permitting Rodriguez, Davis and McClure to testify they did not categorize him as intellectually disabled because the determination whether an individual is intellectually disabled is a matter beyond the common experience of laypersons and requires expertise. Lay witnesses, he reasons, can testify regarding their perceptions of an individual\u2019s behavior, including such matters as test scores, school performance, and a seeming inability to follow instructions, in order to bolster or undermine a claim of intellectual disability, but may not offer their opinions that an individual is or is not intellectually disabled. Here, defendant contends, the lay witnesses properly testified to their observations that defendant had problems with reading and completing assignments but did not seem to have problems with reasoning, but were improperly allowed to testify that in their opinion he was not intellectually disabled.\nDefendant\u2019s contention lacks merit. \u2018\u201c[A]ll relevant evidence of mental condition affecting the formation of a specific intent, is admissible on the trial of the \u2018not guilty\u2019 plea\u201d (People v. Webb (1956) 143 Cal.App.2d 402, 412 [300 P.2d 130]), including the opinion of lay witnesses, provided the opinion is rationally based on the witness\u2019s perception and helpful to a clear understanding of his or her testimony (Evid. Code, \u00a7 800). We have recognized \u201c \u2018there is no logical reason why qualified lay witnesses cannot give an opinion as to mental condition less than sanity\u2019 [citation] or to similar cognitive difficulties.\u201d (People v. DeSantis (1992) 2 Cal.4th 1198, 1228 [9 Cal.Rptr.2d 628, 831 P.2d 1210].) In the specific context of proceedings to determine whether a capital defendant is ineligible for the death penalty due to intellectual disability under Atkins v. Virginia (2002) 536 U.S. 304 [153 L.Ed.2d 335, 122 S.Ct. 2242], we have implicitly recognized the potential relevance of lay witness testimony. (In re Hawthorne (2005) 35 Cal.4th 40, 50 [24 Cal.Rptr.3d 189, 105 P.3d 552] [the court conducting a postconviction Atkins hearing \u201c \u2018shall not be bound by the opinion testimony of expert witnesses or by test results, but may weigh and consider all evidence bearing on the issue of mental retardation\u2019 \u201d].) Here, two of the defense expert witnesses, Drs. Christensen and Powell, had acknowledged on cross-examination that defendant\u2019s intellectual disability would be noticeable to those close to him. The prosecution was entitled to rebut their testimony with that of school personnel who had worked with defendant and not perceived him to be intellectually disabled. None of the prosecution witnesses purported to render a diagnosis as such; rather, they testified to their view, based on their experience in special education and their observations of defendant\u2019s behavior, that nothing indicated that his learning difficulties stemmed from intellectual disability. The trial court did not abuse its discretion in allowing this rebuttal testimony.\nNor, contrary to defendant\u2019s argument, did the prosecutor mischaracterize the lay witnesses\u2019 testimony in his closing argument, or equate it to expert opinion. After critically summarizing certain inconsistencies in the defense experts\u2019 testimony, the prosecutor commented: \u201cOn the contrary, the People\u2019s rebuttal witnesses showed the opposite of what the defense psychologists stated. You heard testimony from two teachers and the defendant\u2019s counselor who knew him when he was in high school. Two of those individuals had worked with mentally retarded people in the past. And all three of those individuals, although they stated the defendant had learning problems, he had problems with reading and mathematics. It took him a little longer. They did not in any way consider the defendant mentally retarded. [\u00b6] One of the defendant\u2019s own expert witnesses said that that would be noticeable.\u201d To the extent defendant is now asserting impropriety in the prosecutor\u2019s argument, he forfeited the claim by failing to object below (People v. Harris (2013) 57 Cal.4th 804, 852 [161 Cal.Rptr.3d 364, 306 P.3d 1195]), and because the argument accurately reflected the testimony, it would lack merit in any event.\nDefendant further contends that, although the school records showing he was enrolled in special education classes for the \u201ceducationally mentally retarded\u201d fell within the business or official records exceptions to the rule against hearsay (see Evid. Code, \u00a7\u00a7 1271, 1280), as the trial court apparently concluded, the conclusions of nontestifying psychologists contained in those records that he was learning disabled and not intellectually disabled constituted hearsay not admissible for their truth. In support, defendant cites People v. Reyes (1974) 12 Cal.3d 486 [116 Cal.Rptr. 217, 526 P.2d 225], where we held that \u201c \u2018 \u201c[i]n order for a record to be competent evidence under [Evidence Code section 1271] it must be a record of an act, condition or event .... Whether the conclusion is based upon observation of an act, condition or event or upon sound reason or whether the person forming it is qualified to form it and testify to it can only be established by the exantination of that party under oath.\u201d \u2019 \u201d (Reyes, supra, at p. 503.) Although defendant does not dispute that IQ test scores constitute records of acts or events, and thus that the scores themselves were not inadmissible hearsay, he urges that here, as in Reyes, the determination he was not intellectually disabled depended on more than his IQ test scores. Rather, he contends, it necessitated an evaluation of his adaptive skills and functioning by one with specialized expertise, placing the determination outside the business and official records exception to the rule against hearsay.\nContrary to the Attorney General\u2019s argument, we find defendant adequately preserved the contention by his continuing hearsay objection below. Turning to the merits, we note that whether defendant has established the premise of his argument, namely that the school district\u2019s categorization of him as not intellectually disabled was predicated on something other than his IQ scores, is questionable. As defendant correctly observes, the established diagnostic criteria for intellectual disability used by mental health professionals require that an individual have\u2014in addition to significantly subaverage intellectual functioning, as typically demonstrated by a score of 70 or lower on a standard IQ test\u2014significant limitations in adaptive functioning, and that the intellectual and adaptive deficits arose during the developmental period. Potter\u2019s testimony, however, suggested that the school district may have relied exclusively on defendant\u2019s IQ scores in determining that he was not intellectually disabled for purposes of special education placement. In response to the prosecutor\u2019s question whether, \u2018\u201c[b]ased upon [defendant\u2019s] IQ scores was he ever considered . . . mentally retarded by the Madera Unified School District,\u201d Potter answered: \u201d[L]et me explain that he was placed in a class for mentally retarded students. He was placed there only on what we call exceptional circumstances, meaning he did not qualify by standard as a mentally retarded child but he\u2019s functioning in a low borderline range academically .... When you have circumstances, even though a child does not test mentally retarded, if they\u2019re in the borderline range under exceptional circumstances with parental consent you can place them in EH classes as was done in this case here.\u201d Nothing in the record hints at other factors that may have gone into the school district\u2019s determination, which defendant did not probe on cross-examination, and concerning which he presented no evidence of his own. If defendant\u2019s IQ scores were indeed the sole factor that influenced the school district\u2019s conclusion that he fell outside the category of intellectually disabled \u2018\u201cby standard,\u201d then arguably evidence of that conclusion was merely cumulative to the evidence of his IQ scores, which defendant appears to concede was properly admitted.\nIn any event, the school district\u2019s conclusion, as contained in the records and as described by witness Potter, that defendant was not intellectually disabled was also cumulative to the testimony of witnesses Rodriguez, Davis, and McClure that they did not see anything in the course of their work with defendant to indicate that he was intellectually disabled. We have already determined that testimony was properly admitted to rebut the defense experts\u2019 contrary opinion, in view of the experts\u2019 acknowledgment that intellectual disability would be apparent to persons working with defendant. Accordingly, any possible error in allowing witness Potter to testify, based on the school record, that defendant was placed in classes for educable intellectually disabled students only because of his low academic functioning and not because he was intellectually disabled, was nonprejudicial under any standard.\n4. Asserted error in overriding defense objections to questions the prosecutor posed to Dr. Christensen\nDefense expert psychologist Dr. Christensen testified on direct examination regarding the mental status exantination and intelligence testing she conducted on defendant during October 1989, a month after the crimes. Among other things, Dr. Christensen testified she obtained a full-scale IQ score of 47 for defendant and concluded he was not malingering. She acknowledged having reviewed the reports of two psychiatrists, Drs. Davis and Terrell, who evaluated defendant for purposes of a competency determination and concluded he was malingering.\nOn cross-examination, Dr. Christensen acknowledged that, in her report based on her October 1989 evaluation, she, in contrast to Drs. Davis and Terrell, had concluded defendant was incompetent to stand trial, and that she still believed he was incompetent at that time. The prosecutor then asked: \u201cAnd you believe that even though the Superior Court, upon the reports of the psychiatrists, found him to be competent?\u201d The trial court overruled a defense relevancy objection, and Dr. Christensen answered in the affirmative. Dr. Christensen also acknowledged her report had recommended that defendant be referred to the Central Valley Regional Center \u201cfor placement.\u201d The prosecutor followed up by asking: \u201cAnd basically, if I understand correctly, you felt that the defendant should be placed back in society and monitored very closely?\u201d Defense counsel interposed a relevancy objection, which the court overruled. Dr. Christensen answered: \u201cIt would be a fairly huge assumption for someone to interpret that statement and say I\u2019m meaning place him back into society. What I was talking about there was the referral process for handling persons of lower intelligence and how they\u2019re handled differently than persons of normal intelligence, and I was trying to let [defense counsel] at this point know avenues . . . where she could get free services that are already available to Mr. Townsel, and which could assist her in preparing her case.\u201d The prosecutor continued his cross-examination by asking: \u201cI believe you also recommended a limited conservatorship for the defendant; isn\u2019t that correct?\u201d Dr. Christensen answered in the affirmative. The prosecutor asked: \u201cAnd that was to focus on controlling social contacts and residence and providing mandatory adult level supervision; is that correct?\u201d Dr. Christensen agreed. The prosecutor then asked: \u201cDoesn\u2019t that mean that you recommended that he be placed back out into society?\u201d Defense counsel again objected on relevancy grounds; the trial court overruled the objection. The witness answered: \u2018\u201c[I]f I were to recommend that he would be placed out in society I would have recommended that directly. I wouldn\u2019t have done it so obtusely.\u201d She explained: \u2018\u201cIt means I think he\u2019s eligible for this program. And I think referral to the program would mean that the people in the program would be able to assist in deciding the proper way of treating him. It is a program that when you have somebody who\u2019s developmentally disabled, that, you find living situations, or work situations, or other types of situations where you can protect them, and enable them to live at their highest level without getting in trouble, without getting hurt. I wasn\u2019t saying anything about returning him to society by these statements.\u201d\nDefendant now renews his contention that the prosecutor\u2019s line of cross-examination was irrelevant to any issue in the case, including the reliability of Dr. Christensen\u2019s opinion defendant was intellectually disabled, or to her overall credibility, contending the trial court erred in overruling the defense objections. Defendant acknowledges that a \u2018\u201cwide latitude is permitted in the cross-examination of an expert witness in all matters tending to test his credibility so that the jury may determine the weight to be given the testimony . . . .\u201d (People v. Tallman (1945) 27 Cal.2d 209, 214 [163 P.2d 857]; see Evid. Code, \u00a7 721, subd. (a).) Nevertheless, he contends, although the \u2018\u201ctrial court has broad discretion in determining the relevance of evidence,\u201d it \u2018\u201clacks discretion to admit irrelevant evidence.\u201d (People v. Benavides (2005) 35 Cal.4th 69, 90 [24 Cal.Rptr.3d 507, 105 P.3d 1099].) Defendant argues that the trial court\u2019s competency finding, based on the reports of Drs. Davis and Terrell, was irrelevant to Dr. Christensen\u2019s opinion that defendant was incompetent because she concluded he was incompetent due to the developmental disability known as intellectual disability, while Drs. Davis and Terrell evaluated him for incompetency due to a mental disorder, and not for a developmental disability such as intellectual disability. Likewise, he argues Dr. Christensen\u2019s recommendation for a referral to the Central Valley Regional Center merely followed the statutory provisions applicable when a criminal defendant is found to be incompetent to stand trial due to a developmental disability such as intellectual disability (Pen. Code, \u00a7\u00a7 1369, subd. (a), 1370.1), and thus had no \u2018\u201ctendency in reason\u201d to undermine her credibility (Evid. Code, \u00a7 210).\nDefendant takes too narrow a view of relevancy in this context. \u2018\u201cThe scope of cross-examination permitted under [Evidence Code] section 721 is broad, and includes exantination aimed at determining whether the expert sufficiently took into account matters arguably inconsistent with the expert\u2019s conclusion.\u201d (People v. Ledesma (2006) 39 Cal.4th 641, 695 [47 Cal.Rptr.3d 326, 140 P.3d 657].) Here, the prosecutor properly cross-examined Dr. Christensen concerning the discrepancy between her opinion, as expressed in her October 1989 evaluation, that defendant was moderately intellectually disabled with an IQ of 47, was not malingering, and was incompetent to stand trial, and the contrary opinions of the two psychiatrists whose reports, admitted at the competency hearing, the trial court found credible in determining defendant to be competent. As the Attorney General observes, the question went to Dr. Christensen\u2019s reluctance to acknowledge defendant might have been malingering during her evaluation and hence her possible bias, a proper subject of cross-examination and a topic to which the prosecutor returned in his closing argument. \u201cIt is common practice to challenge an expert by inquiring in good faith about relevant information, including hearsay, which he may have overlooked or ignored.\u201d (People v. Montiel (1993) 5 Cal.4th 877, 924 [21 Cal.Rptr.2d 705, 855 P.2d 1277].) The trial court did not abuse its discretion in overruling the defense objection.\nAs for the prosecutor\u2019s question whether Dr. Christensen had recommended defendant be referred to the Central Valley Regional Center, the Attorney General correctly notes that the defense interposed no objection at trial; defendant\u2019s appellate challenge to the propriety of the question is therefore forfeited. In any event, we see no possible prejudice from either that inquiry or the prosecutor\u2019s follow-up question regarding what such referral would have meant.\nDefendant also contends the trial court erred in overruling defense counsel\u2019s objections to cross-examination of Dr. Christensen by which the prosecutor assertedly suggested facts of which Christensen had no knowledge and which the prosecutor did not otherwise offer to prove. Specifically, after eliciting from Dr. Christensen she had testified in a previous case that \u201cjail inmates have been passing around information about tests ever since the 1860s,\u201d and had \u201cinterviewed at least four people who were charged with murder\u201d in Madera County, the prosecutor asked: \u201c[T]hey were all in jail around the same time; isn\u2019t that correct?\u201d Defense counsel objected that \u201caround the same time\u201d was vague; the trial court overruled the objection, noting: \u201cShe\u2019s an expert. She can answer if she knows.\u201d Dr. Christensen answered: \u201cI think there\u2019s some overlap, but I\u2019m really not sure.\u201d The prosecutor asked: \u201cSo is it possible that the defendant could receive information on how to fake tests in the jail; isn\u2019t that correct?\u201d Defense counsel unsuccessfully objected on the ground that the question called for speculation, and then elaborated: \u201cShe is not an expert as to what is transpiring in the jail and would have no way of knowing and assumes foundational facts which she has no knowledge of.\u201d The trial court overruled the objection, telling the witness, \u201cYou may answer if you can.\u201d Dr. Christensen responded: \u201cI don\u2019t know. I don\u2019t know\u2014see, I don\u2019t know where he is. I don\u2019t know enough to know\u2014I know that it has happened in history. I don\u2019t know how\u2014I don\u2019t know where he is to know if he\u2019s had any contact with any of them.\u201d On redirect examination, Dr. Christensen testified she did not leave any testing materials behind with any inmates, and that if any information was exchanged, it would only have been what the inmates remembered.\nDefendant contends the trial court erred in overruling defense counsel\u2019s objections to the prosecutor\u2019s questions insinuating defendant had the opportunity to confer with the other defendants Dr. Christensen had evaluated in order to learn how to \u201cfake\u201d psychological tests, when the prosecutor had no basis for a good faith belief Christensen would have any knowledge of the housing practices in the county jail, of whether defendant and the other inmates she had evaluated were ever incarcerated in the same location at the same time, or of whether defendant had any contact with those inmates. Defense counsel, however, did not object on the ground the prosecutor lacked a factual basis for the questions, and defendant has forfeited this contention. (People v. Friend (2009) 47 Cal.4th 1, 81 [97 Cal.Rptr.3d 1, 211 P.3d 520].) In any event, we see no abuse of discretion in the trial court\u2019s allowing the question and directing the witness to answer \u201cif she can.\u201d Inasmuch as Dr. Christensen acknowledged both that she had evaluated several other clients who were charged with murder and who were in custody around the same time and in the same facility as defendant, and that exchanging information concerning tests was historically common, the prosecutor had a reasonable basis for asking whether it was possible defendant had received information on how to \u201cfake\u201d psychological tests while in jail.\n5. Asserted instructional error\na. Introduction\nAs discussed above, in an effort to show defendant lacked the mental state required for a conviction of the charged offenses, the defense presented the testimony of three psychologists to the effect he is intellectually disabled. Defendant contends the trial court violated state law and deprived him of various federal constitutional protections by erroneously instructing the jury with a modified version of CALJIC No. 3.32 that directed it to consider the intellectual disability evidence on the sole issue of whether he formed the intent to kill, or express malice, as required for the charged murders, and thereby precluded it from considering whether intellectual disability precluded him from premeditating and deliberating the killings and from forming the mental state required for a conviction on the charge of dissuading a witness and a true finding on the witness-killing special-circumstance allegation. The Attorney General contends that defendant invited the error, or forfeited it for purposes of this appeal, by agreeing to the version of CALJIC No. 3.32 that was read to the jury and not requesting appropriate modification; that he was not in any event entitled to the instruction on this record; and that if any error occurred, it was harmless. We conclude the limiting version of CALJIC No. 3.32 given to the jury in this case was prejudicially erroneous, requiring reversal of the dissuading count and the witness-killing special-circumstance allegation.\nb. Trial court\u2019s instructional duty\n\u201cIn criminal cases, even in the absence of a request, a trial court must instruct on general principles of law relevant to the issues raised by the evidence and necessary for the jury\u2019s understanding of the case.\u201d (People v. Martinez (2010) 47 Cal.4th 911, 953 [105 Cal.Rptr.3d 131, 224 P.3d 877].) That duty extends to instructions on the defendant\u2019s theory of the case, \u201cincluding instructions \u2018as to defenses \u201c \u2018that the defendant is relying on ... , or if there is substantial evidence supportive of such a defense and the defense is not inconsistent with the defendant\u2019s theory of the case.\u2019 \u201d \u2019 \u201d (People v. Abilez (2007) 41 Cal.4th 472, 517 [61 Cal.Rptr.3d 526, 161 P.3d 58], italics omitted; see People v. Anderson (2011) 51 Cal.4th 989, 996 [125 Cal.Rptr.3d 408, 252 P.3d 968].) Evidence of a mental disease or defect, such as intellectual disability, is relevant and admissible to raise a reasonable doubt that the defendant premeditated and deliberated or formed any other specific intent necessary to establish his guilt of the charged offenses (\u00a7 28, subd. (a)), but \u201csua sponte instructions on the actual effect of the defendant\u2019s mental disease or disorder on his relevant mental state became unnecessary with the abolition of the mental disease/diminished capacity doctrine\u201d (People v. Ervin (2000) 22 Cal.4th 48, 91 [91 Cal.Rptr.2d 623, 990 P.2d 506]; see People v. Saille (1991) 54 Cal.3d 1103, 1120 [2 Cal.Rptr.2d 364, 820 P.2d 588] [following abolition of diminished capacity doctrine, instruction relating evidence of intoxication to specific mental state required for an offense is in the nature of a pinpoint instruction that need not be given sua sponte]; see also People v. Rogers (2006) 39 Cal.4th 826, 878-879 [48 Cal.Rptr.3d 1, 141 P.3d 135].)\nc. Analysis\nAcknowledging that instructions relating mental state evidence to charged offenses are no longer required to be given sua sponte, defendant relies on the principle that once a trial court undertakes to instruct on a legal point, it must do so correctly. (See People v. Castillo (1997) 16 Cal.4th 1009, 1015 [68 Cal.Rptr.2d 648, 945 P.2d 1197].) An instruction not erroneous, deficient, or misleading on its face, he observes, may become so in particular circumstances. (People v. Brown (1988) 45 Cal.3d 1247, 1256 [248 Cal.Rptr. 817, 756 P.2d 204].) Defendant contends the modified version of CALJIC No. 3.32 (5th ed. 1988) given in this case erroneously precluded the jury from considering the evidence of his intellectual disability on the dissuading charge and the witness-killing special-circumstance allegation, and on the question whether he premeditated and deliberated the killings as required for a conviction of first degree murder.\nHere, the trial court instructed the jury as follows: \u201cEvidence has been received regarding a mental defect or mental disorder of the defendant, Anthony Townsel at the time of the crime charged in Counts 1 and 2. You may consider such evidence solely for the purpose of determining whether or not the defendant Anthony Townsel actually formed the mental state which is an element of the crime charged in Counts 1 and 2, to wit, murder.\u201d\nThe clerk\u2019s transcript reflects the instruction was given at the request of both parties; the trial court commented, and the parties acknowledged, that the instructions given were acceptable to both sides. Although the court observed that many of the instructions had been modified, the record before us does not include a transcript of any instruction conference at which the specific modifications to CALJIC No. 3.32 were discussed, and the clerk\u2019s transcript informs us neither whether the instruction was given as requested nor whether it was modified. We therefore lack the benefit of any explanation\u2014by trial counsel, the prosecutor, or the court\u2014regarding the drafting of the version of CALJIC No. 3.32 given here.\nThe Attorney General contends defendant invited any error by agreeing that the instruction should be given as read, and thus forfeited his appellate claim. But the invited error doctrine does not apply here, in the absence of any clear tactical purpose on defense counsel\u2019s part in agreeing to a version of CALJIC No. 3.32 that omitted reference to the dissuading charge and the witness-killing special-circumstance allegation. (See People v. Coffman and Marlow (2004) 34 Cal.4th 1, 49 [17 Cal.Rptr.3d 710, 96 P.3d 30].) We agree, however, that if defendant wished the court to affirmatively instruct the jury to consider his intellectual disability evidence in connection with the dissuading charge and the witness-killing special-circumstance allegation, it was incumbent upon him to ask, and a claim of error in the failure to so instruct is forfeited for appellate purposes.\nDefendant\u2019s argument, however, is not merely that the instruction, as read to the jury, failed to include the dissuading charge and the witness-killing special-circumstance allegation. He also contends that in directing the jury to consider his intellectual disability evidence solely on the question whether he formed the mental state required for the murder charges, the instruction affirmatively and erroneously precluded the jury from considering the evidence in connection with the dissuading charge and special-circumstance allegation, and on the question whether he premeditated and deliberated the killings as required for a first degree murder conviction. We may review defendant\u2019s claim of instructional error, even absent objection, to the extent his substantial rights were affected. (\u00a7 1259; People v. Rundle (2008) 43 Cal.4th 76, 151 [74 Cal.Rptr.3d 454, 180 P.3d 224].)\nBecause defense expert psychologist Dr. Christensen testified intellectual disability would not prevent someone from forming express malice, defendant reasons the evidence that he did not premeditate and deliberate due to his intellectual disability was not only his primary defense, but his only viable one. Defendant contends it is reasonably likely the jurors understood CALJIC No. 3.32, as given in this case, by which they were told to consider evidence of his mental defect or mental disorder \u201csolely for the purpose of determining whether or not the defendant Anthony Townsel actually formed the mental state which is an element of the crime charged in Counts 1 and 2, to wit, murder,\u201d limited their consideration of the intellectual disability evidence to the sole element of malice aforethought, and thus precluded them from considering it on the question whether he premeditated and deliberated the murders. As such, he contends the instruction violated state law and his Fifth, Sixth, Eighth, and Fourteenth Amendment rights to a fair trial, proof beyond a reasonable doubt and trial by jury on every element of the charged offenses, a meaningful opportunity to present a defense, and a reliable jury verdict. We review the claim under the authority of section 1259 despite the lack of an objection below.\nDefendant observes that the jurors were not told on what specific \u201cmental state which is an element\u201d of the murders charged in counts 1 and 2 they were permitted to consider the intellectual disability evidence. Lacking any such specific directive, he contends they would look for guidance to the charging document, which was read to the jury and which accused him of violating section 187, subdivision (a), \u201cin that [defendant] did willfully, unlawfully, and with malice aforethought murder Mauricio Martinez, Jr., [and] Martha Diaz.\u201d Defendant relies on the circumstance that both CALJIC No. 3.32 as read and the information refer in the singular to \u201ca mental state that is an element of the crimes charged\u201d\u2014that being, he contends, malice aforethought, as the information goes on to elaborate. He likewise points to CALJIC No. 8.10, which, as read to this jury, described a single mental state for the murder counts. Defendant contends that first degree murder with premeditation and deliberation is codified in section 189, and requires not one but two mental state elements: (1) express malice aforethought and (2) premeditation and deliberation, regarding which the jury was instructed with CALJIC No. 8.20. He argues it is reasonably likely lay jurors \u201cwould have understood that since they were specifically instructed on the effect of a finding that [defendant] did not harbor malice due to his mental retardation, the omission of a similar instruction on the effect of a finding that [defendant] did not harbor premeditation and deliberation was intentional. In other words, and consistent with the other instructions and the language of the charging document,\u201d he claims, \u201cthe jurors would have understood that they were not given a similar instruction on the effect of a finding that [defendant] harbored malice but did not harbor premeditation and deliberation due to his mental retardation because they simply were not permitted to make any such finding.\u201d\nHe finds further support for this conclusion in the circumstance that the trial court modified CALJIC No. 8.45, defining involuntary manslaughter, to specifically instruct the jurors that \u201cIf you find that the defendant committed an unlawful killing, but due to a mental defect or mental impairment, you find that he was unable to form malice aforethought or an intent to kill, you must find the defendant guilty of involuntary manslaughter,\u201d but did not provide a similar instruction advising the jurors that if they found that defendant committed an unlawful killing with malice aforethought, but that due to a mental defect or mental impairment he was unable to premeditate or deliberate, they had to find him guilty of second degree murder.\nDefendant further contends that the prosecutor\u2019s arguments, rather than correcting the instruction\u2019s misleading impression the intellectual disability defense could be considered only on the issue of malice, only fortified it by focusing almost exclusively on intent to kill and not premeditation and deliberation, and highlighting the evidence the prosecutor argued showed that defendant intended to kill despite his intellectual deficits.\nThe Attorney General contends the jury would have understood CALJIC No. 3.32 to permit it to consider defendant\u2019s intellectual disability evidence in determining whether he premeditated and deliberated the murders, citing People v. Rogers, supra, 39 Cal.4th at page 880 (Rogers). There, the jury found the defendant guilty of one count of first degree murder and one count of second degree murder and found true a multiple-murder special-circumstance allegation. The jury in Rogers was instructed in the language of CALJIC former No. 3.36, later renumbered CALJIC No. 3.32, that \u201c \u2018[e]vi-dence has been received regarding a mental disease or mental defect or mental disorder of the defendant at the time of the offenses charged in counts one and two and in the lesser included offense of voluntary manslaughter. You may consider such evidence solely for the purpose of determining whether or not the defendant actually formed the mental state which is an element of the crimes charged in the information and the crime of voluntary manslaughter.\u2019 \u201d (Rogers, supra, at p. 880.) The defendant in Rogers argued the trial court \u201cerred by failing to identify the specific mental state or states\u2014namely premeditation and deliberation\u2014to which defendant\u2019s mental health evidence was relevant.\u201d (Ibid.) That the use note for the instruction directed the trial judge to \u201cspecify the mental state or intent required in each specific count,\u201d the Rogers defendant argued, further supported his claim of error in the failure to do so. (Ibid.)\nThis court found no merit in the defendant\u2019s arguments, reasoning \u201c[w]e previously have rejected claims that a trial court erroneously failed to identify premeditation and deliberation as mental states to which evidence of mental disease or defect was relevant, in cases where the trial court either explained that premeditation and deliberation were mental states necessary for a conviction of first degree murder [citations] or instructed that \u2018 \u201c[t]he mental state required is included in the definition of the crime charged\u201d \u2019 .... In the foregoing cases, in light of full instructions defining first degree murder including an explanation of premeditation and deliberation, we concluded \u2018a reasonable jury would have understood that the requisite mental states (as set forth in the definitions of the crimes) were the same \u201cmental states\u201d that could be considered in connection with the evidence of defendant\u2019s mental disease, defect, or disorder.\u2019 \u201d (Rogers, supra, 39 Cal.4th at p. 881, citation omitted.)\nOur reasoning in Rogers applies with equal force here. Defendant does not dispute that jurors understood premeditation and deliberation were \u201cmental states.\u201d Contrary to defendant\u2019s argument, we have no doubt jurors would likewise have understood the \u201cmental state which is an element\u201d\u2014with respect to which CALJIC No. 3.32 directed them to consider the intellectual disability evidence in deciding whether he was guilty of first degree murder\u2014encompassed the concepts of premeditation and deliberation. Jurors were instructed that \u2018\u201c[m]urder is classified into two degrees, and if you should find the defendant guilty of murder you must determine and state in your verdict whether you find the murder to be first or second degree.\u201d This instruction necessarily directed jurors, once they found that defendant killed with malice aforethought as charged in counts 1 and 2 (as to which defendant does not contend the jury was not properly instructed to consider the intellectual disability evidence), to make the further determination whether he harbored the mental state required for first degree murder, a determination to which the intellectual disability evidence was thus equally relevant and applicable. The circumstance that much of the parties\u2019 closing arguments focused not on premeditation and deliberation but on intent to kill does not alter this conclusion; nothing in those arguments expressly or impliedly directed jurors not to consider the intellectual disability evidence on the question whether defendant premeditated and deliberated the killings as required for a conviction of first degree murder.\nDefendant is correct that in directing the jury to consider the evidence of his intellectual disability solely on the question whether he formed the mental state required for the murder charges, the instruction effectively told the jury it must not consider that evidence on any other question before it. We presume the jury followed the instruction. (People v. Homick (2012) 55 Cal.4th 816, 853 [150 Cal.Rptr.3d 1, 289 P.3d 791].) Therefore, if defendant was entitled to have the evidence considered on any other charge or allegation besides the two murder charges, the instruction violated that right.\nThe Attorney General contends that because defendant was not relying on his alleged intellectual disability in defense of either the dissuading charge or the witness-killing special-circumstance allegation, he was not entitled to an instruction relating the intellectual disability evidence to that charge or allegation, and the version of CALJIC No. 3.32 given here was therefore not erroneous. Citing defense counsel\u2019s closing argument, the Attorney General contends defendant was relying on \u201ca completely different defense,\u201d namely that his conduct was the result of \u2018\u201cjealousy\u201d and \u2018\u201cfrustration,\u201d and was not an attempt to dissuade Diaz from testifying. We disagree. Although the bulk of defense counsel\u2019s closing arguments focused on defendant\u2019s emotional state at the time of the offenses and not his intellectual disability, counsel did argue generally that \u2018\u201cMr. Townsel lacks the mental and intellectual functioning in order to participate in abstract thinking or dealing with consequences and judgment\u201d; and that \u2018\u201cif the actions which occurred beforehand were the actions of a normal functioning, intelligent human being, I think that is not the case.\u201d Importantly, the intellectual disability evidence was entirely consistent with, and reinforced, the argument that defendant acted out of jealousy and frustration rather than out of rational thought, a planning process, or a weighing of the consequences. Because the trial court effectively instructed the jury not to consider that evidence on the charge and allegation, it erred under both state law and the federal Constitution.\nThe Attorney General contends the error did not prejudice defendant, asserting that the intellectual disability evidence was \u201cstrongly challenged\u201d through cross-examination and rebuttal testimony. She also observes that the jury rejected the intellectual disability defense in finding defendant guilty of first degree murder, and argues there is no reason to believe it would have accepted the defense in connection with the dissuading charge and the witness-killing special-circumstance allegation. But premeditation and deliberation\u2014the mental state required for first degree murder\u2014differs from that required for the dissuading charge and witness-killing allegation, and the jury\u2019s rejection of the intellectual disability evidence in finding premeditation and deliberation therefore does not necessarily compel the conclusion that it would have done likewise with respect to the charge and allegation. Specifically, with respect to the dissuading charge, the jury was instructed, as relevant to mental state, that it had to find defendant had \u201cthe specific intent to prevent or dissuade a witness or victim from giving testimony at a trial proceeding or inquiry authorized by the law.\u201d With respect to the mental state required for the special circumstance, the jury was instructed it had to find \u201cthe witness was intentionally killed for the purpose of preventing her testimony in a criminal proceeding.\u201d These mental states entail knowledge and purpose beyond an intent to kill \u201cformed or arrived at or determined on as a result of careful thought in weighing the considerations for and against the proposed course of action\u201d and \u201cconsidered beforehand,\u201d and clearly implicate some level of intellectual understanding of the criminal justice system, to which the evidence of intellectual disability was particularly relevant. We cannot say the evidence of intellectual disability that the jury evidently did not view as sufficient to cast doubt on the prosecution\u2019s evidence of premeditation and deliberation could not have raised a doubt regarding whether, in killing Diaz, defendant acted for the purpose of preventing her testimony in a criminal proceeding. In other words, the Attorney General has not met her burden of showing that the guilty verdict on the dissuading charge and the true finding on the witness-killing special-circumstance allegation were \u201csurely unattributable\u201d to the trial court\u2019s error in essentially instructing the jury not to consider the intellectual disability evidence in relation to that charge and allegation. (Sullivan v. Louisiana (1993) 508 U.S. 275, 279 [124 L.Ed.2d 182, 113 S.Ct. 2078]; Chapman v. California (1967) 386 U.S. 18, 24 [17 L.Ed.2d 705, 87 S.Ct. 824].) Defendant\u2019s conviction on the dissuading charge and the true finding on the witness-killing special-circumstance allegation must therefore be reversed.\nDefendant contends the trial court\u2019s instructional errors, considered together with its other asserted errors undercutting his intellectual disability defense, prejudicially affected the jury\u2019s penalty determination and cumulatively require reversal of the judgment in its entirety. We have rejected the claims that Dr. Coleman\u2019s testimony, and the testimony of the lay witnesses and asserted hearsay evidence pertaining to defendant\u2019s alleged intellectual disability were erroneously admitted, and that the trial court erred in allowing certain cross-examination of the defense expert witness, Dr. Christensen. Consequently, we need not address their purported impact on the penalty phase. With respect to the potential impact on the death judgment of our reversal of the dissuading charge and the witness-killing special-circumstance allegation, we note the court instructed the jury, at the penalty phase, to disregard instructions given at the prior phase of trial and, after reading the standard instruction on factors relevant to the penalty determination, affirmatively told the jury: \u201cThe mental impairment referred to in this instruction is not limited to evidence which excuses the crime or reduces the defendant\u2019s culpability, but includes any degree of mental defect or disease which the jury determines is of a nature that death should not be imposed. That the jury has rejected a defense of diminished mental faculties, at a previous stage of the proceedings does not prohibit its consideration of evidence showing some impairment as a reason not to impose death. The jury cannot consider the presence of mental illness or mental defect in aggravation.\u201d (Italics added.) Thus, the jury was, in effect, told that, despite its guilt phase verdicts, it could consider defendant\u2019s intellectual disability in mitigation of penalty. (And see Brown v. Sanders (2006) 546 U.S. 212, 220 [163 L.Ed.2d 723, 126 S.Ct. 884] [an invalidated sentencing factor renders a sentence unconstitutional unless one of the other sentencing factors enables the sentencer to give aggravating weight to the same facts and circumstances]; see also People v. Bonilla (2007) 41 Cal.4th 313, 334 [60 Cal.Rptr.3d 209, 160 P.3d 84] [an invalidated special circumstance \u201cwas superfluous for purposes of death eligibility and did not alter the universe of facts and circumstances to which the jury could accord . . . weight\u201d].) Reversal of the penalty is not required.\nB. Penalty phase issues\n1. Admission of defendant\u2019s racist slur\nDefendant contends the trial court abused its discretion and violated his rights to a fair trial and a reliable penalty determination under the Eighth and Fourteenth Amendments to the federal Constitution by admitting evidence that he employed a racial slur in communicating a threat to Beatriz Cruz. The contention lacks merit.\nThe prosecution\u2019s pretrial notice of evidence to be presented in aggravation pursuant to section 190.3 referred to evidence of \u201ccriminal activity involving force and violence,\u201d including violations of section 242 and section 136.1, committed against Beatriz Cruz on April 14 and 17, 1986, respectively. (See \u00a7 190.3, factor (b).) Specifically, the prosecution offered to prove defendant was arrested for the commission of a battery on Cruz on April 14, 1986, and later called to tell her he was angry that she had had him arrested, saying \u2018\u201cshe was going to pay\u201d; in a subsequent phone call, he warned her, \u201cYou better get out of the house because something is going to happen to you,\u201d and said he was \u201cgoing to kill your wetback,\u201d referring to her Mexican boyfriend. Defense counsel moved to exclude the evidence on the grounds the threats amounted to misdemeanor conduct not reflecting a \u201cpresent and immediate ability or intent to carry out those threats,\u201d and consequently not falling within the ambit of section 190.3, factor (b). Defense counsel also asserted, cihng Evidence Code section 352, that the evidence was \u201cextremely prejudicial and [its] probative value is highly outweighed.\u201d The trial court overruled the defense objections. Pursuant to its ruling, Cruz testified regarding defendant\u2019s threats against her and her boyfriend, nohng defendant said \u201che was going to kill my wetback because he\u2019s from Mexico, calls him wetback.\u201d\nOn appeal, defendant raises a threefold argument not explicitly presented to the trial court: that admission of the threat against Cruz\u2019s boyfriend, and in particular the \u201cwetback\u201d slur, \u201cinjected otherwise inadmissible and extraordinarily inflammatory evidence suggeshve of [defendant\u2019s] racism against Latinos, a minority group to which the two victims in this case belonged.\u201d Defendant also claims the threat should have been excluded as cumulative of the other threats against Cruz and, considered in light of other asserted trial errors, resulted in cumulative prejudice.\nAlthough defendant cited Evidence Code section 352 at trial, he failed to articulate the argument he raises here regarding a potential for prejudice stemming from the racial slur specifically. Rather, the thrust of his objection was that the proffered evidence did not rise to the level of criminal achvity required by Penal Code section 190.3, factor (b), and his invocation of Evidence Code section 352 was insufficient to put the trial court on notice that he believed the slur, in itself, was \u201cextremely prejudicial.\u201d Accordingly, he has forfeited the claim the trial court abused its discrehon in not explicitly weighing the probahve value of the evidence against the possibility of prejudice resulting from the racial slur.\nIn any event, we see no abuse of discretion and no constitutional violation in the trial court\u2019s ruling. The court could reasonably conclude that the evidence defendant threatened Cruz and her boyfriend was relevant and admissible under section 190.3, factor (b), and that its probahve value outweighed any risk of undue prejudice. Contrary to defendant\u2019s argument, the threat against Cruz\u2019s boyfriend was not merely cumulative of his threat against Cruz; rather, the trial court could reasonably conclude the threat to kill the boyfriend was intended to exert additional persuasive power over Cruz, and defendant himself injected the slur into his threat. Moreover, the prosecutor, in his closing argument, made no effort to portray defendant as a racist, and, as defendant concedes, race played no role in these crimes. We see no possibility that the jury considered the threat for an improper purpose, or that its admission resulted in cumulative prejudice. Defendant\u2019s claim therefore fails.\n2. Pitchess ruling\nMadera County Department of Corrections Officer Frank Reiland testified in aggravation of penalty under section 190.3, factor (b), that on June 28, 1990, defendant was agitated while in his jail cell. When Officer Reiland opened the cell door, defendant tried to exit, and Officer Reiland pushed him back into the cell. Defendant yelled obscenities at him, kicked his knee, and punched at him, grazing his temple. Before the start of the penalty phase, defendant moved, pursuant to Pitchess v. Superior Court (1974) 11 Cal.3d 531 [113 Cal.Rptr. 897, 522 P.2d 305] (Pitchess), for discovery of any complaints and related investigative reports filed against Officer Reiland for excessive force or harassment. In support, defense counsel submitted a sworn declaration stating the defense expected to show that if in fact defendant used force against Officer Reiland, he did so in self-defense against acts of excessive and illegal force by Reiland. The trial court held a hearing on the motion, stating it had conducted an in camera review of Officer Reiland\u2019s Department of Corrections personnel file, a file of reports written by Officer Reiland, a \u201cpre-employment background file,\u201d and a personnel file maintained at the Madera County personnel office. Of those materials, the court found relevant to this case one report written by Officer Reiland, a copy of which it provided to counsel for each side. The court confirmed there was no \u201cevidence of any complaints against Officer Reiland for excessive use of force or harassment,\u201d and ruled the remainder of the materials nondiscoverable. In his opening brief, defendant asked us to conduct an independent review of the material the trial court reviewed in ruling on his Pitchess motion in order to determine whether the trial court should have ordered the disclosure of any other materials in Officer Reiland\u2019s personnel records and, if so, to disclose them to him now and permit him an opportunity to demonstrate prejudice from the error. The Attorney General did not oppose defendant\u2019s request.\nDuring record-correction proceedings following the entry of judgment in this case, the trial court ordered that Officer Reiland\u2019s personnel file, as it existed at the time the court examined it on the defense Pitchess motion, be made part of the sealed record on appeal and transmitted to this court. Unfortunately, the order was not complied with, and the record on appeal is devoid of any of the materials reviewed by the trial court. After our clerk\u2019s inquiries of superior court personnel failed to locate the missing file, we asked the parties to brief the impact of its absence from the record. Following that initial round of supplemental briefing, we directed the superior court to order the custodian of Officer Reiland\u2019s personnel file to produce in the superior court the records the custodian previously produced and the court reviewed in ruling on defendant\u2019s Pitchess motion, to review the records so produced and confirm whether they were the records it reviewed in ruling on defendant\u2019s Pitchess motion, to identify the particular document it ordered disclosed to defendant at trial, and then to transmit all of the documents it had reviewed under seal to this court. We further ordered the custodian, in the event he or she were unable to produce the files, to submit a declaration under penalty of perjury so stating, with an explanation of why production was impossible. We directed the superior court to hold any hearings necessary to comply with our order, and to transmit a record of any such hearings and any resultant findings, along with any sealed files and any declaration by the custodian of records, to this court.\nThe superior court held hearings pursuant to our order, eventuating in an order stating that the custodian, Madera County Counsel, was unable to produce the records responsive to our order and that the trial judge, the Honorable Paul Martin (retired), was unable, after reviewing his notes from the trial, to recall what records he reviewed in making the Pitchess ruling. The parties do not dispute the records are lost and cannot be reconstructed and have provided further supplemental briefing addressing the impact on this appeal of the Pitchess materials\u2019 absence from the appellate record.\nA complete and accurate appellate record is needed to effectuate the rights to meaningful appellate review and the effective assistance of appellate counsel in capital cases. (See, e.g., Dobbs v. Zant (1993) 506 U.S. 357, 358 [122 L.Ed.2d 103, 113 S.Ct. 835]; \u00a7 190.7 [contents of record in capital case]; Cal. Rules of Court, rule 8.610 [same].) Defendant contends a complete and accurate record is particularly necessary for appellate review of Pitchess rulings. After the trial in this case, in People v. Mooc (2001) 26 Cal.4th 1216, 1229 [114 Cal.Rptr.2d 482, 36 P.3d 21], we provided trial courts with guidance in this regard, stating that a judge making a Pitchess determination \u201cshould . . . make a record of what documents it examined before ruling on the Pitchess motion. Such a record will permit future appellate review. If the documents produced by the custodian are not voluminous, the court can photocopy them and place them in a confidential file. Alternatively, the court can prepare a list of the documents it considered, or simply state for the record what documents it examined. Without some record of the documents examined by the trial court, a party\u2019s ability to obtain appellate review of the trial court\u2019s decision, whether to disclose or not to disclose, would be nonexistent.\u201d (See People v. Myles (2012) 53 Cal.4th 1181, 1209 [139 Cal.Rptr.3d 786, 274 P.3d 413] [where the trial court stated for the record what documents it examined in making its Pitchess ruling, the record was sufficient for appellate review].)\nWe have recognized that reversal may be indicated when \u201c \u2018 \u201ccritical evidence or a substantial part of a [record] is irretrievably lost or destroyed, and there is no alternative way to provide an adequate record so that the appellate court may pass upon the question sought to be raised.\u201d \u2019 \u201d (People v. Galland (2008) 45 Cal.4th 354, 370 [86 Cal.Rptr.3d 841, 197 P.3d 736].) In defendant\u2019s view, this case presents such a scenario; that is, he contends, the absence of the Pitchess materials from the record deprives him of meaningful appellate review of the trial court\u2019s Pitchess ruling and dictates reversal of the penalty judgment.\nThe Attorney General argues, to the contrary, the trial court\u2019s description of the records in the reporter\u2019s transcript of the original Pitchess hearing, and the identification in these proceedings of the document released to defendant, provides a record adequate to enable this court to meaningfully review the trial court\u2019s ruling. Defendant disagrees with the proposition the record is adequate for meaningful review.\nWe agree with defendant. We find it evident that the record, lacking specification of either the materials the trial court reviewed in ruling on the Pitchess motion or any particularized description of them, is inadequate to permit meaningful appellate review. We simply cannot say, on the record as it stands after exhaustive efforts below to locate the missing materials, whether or not there was additional information in Reiland\u2019s personnel records that should have been disclosed to the defense.\nWe must now determine the consequence for this appeal of the inadequacy of the record. The Attorney General contends reversal is unwarranted because defendant fails to show prejudice, that is, a reasonable probability the outcome of the case would have been different had Pitchess-type information about Reiland been disclosed to the defense. She reasons the jury heard abundant aggravating evidence, including the circumstances of the capital offense, which involved defendant\u2019s commission of two brutal, callous first degree murders after repeatedly threatening victim Diaz in an attempt to dissuade her from pursuing a complaint she had filed against him for abuse. The jury also heard evidence defendant had assaulted Diaz on a previous occasion; punched another woman, Beatrice Cruz, in the mouth; and thrown a chair at another correctional officer, Sergeant Davis. The aggravating evidence, she contends, substantially outweighed the evidence offered in mitigation, even were Reiland to have been impeached with hypothetically available Pitchess material revealing one or more incidents of excessive force or harassment. Defendant disputes both the Attorney General\u2019s conclusion that prejudice is lacking and her application of the Watson standard of review in arriving at that conclusion. (See People v. Watson (1956) 46 Cal.2d 818, 836 [299 P.2d 243] (Watson) [state law error deemed harmless if appellant fails to show a reasonable probability of a different outcome in the absence of the error].)\nWe agree with defendant that Watson does not apply here. State law errors in the penalty phase of a capital trial are reviewed not under Watson but under the more stringent Brown standard, which directs us to determine whether there is a reasonable possibility defendant would have received a more favorable result in the absence of the error. (People v. Brown (1988) 46 Cal.3d 432, 446-448 [250 Cal.Rptr. 604, 758 P.2d 1135] (Brown); see People v. Gonzalez (2006) 38 Cal.4th 932, 961 [44 Cal.Rptr.3d 237, 135 P.3d 649] [\u201c \u2018Brown\u2019s \u201creasonable possibility\u201d standard and Chapman\u2019s \u201creasonable doubt\u201d test... are the same in substance and effect.\u2019 \u201d].)\nApplying the Brown standard, we see no reasonable possibility defendant would have received a more favorable result in this proceeding, even assuming an adequate record would have enabled us to conclude the trial court improperly failed to disclose material responsive to defendant\u2019s Pitchess motion. That is, even assuming defendant had been able to undermine Reiland\u2019s testimony concerning the June 28, 1990, incident with evidence Reiland had on one or more occasions engaged in the use of excessive force or harassment in the course of his duties, there is no reasonable possibility the jury would have returned a different penalty phase verdict. The incident, which was minor enough not to require Reiland to seek medical attention, constituted but a small part of the prosecution\u2019s case in aggravation. The jury heard other, much more powerful evidence of defendant\u2019s violent conduct under section 190.3, factor (b), including his beatings of Beatrice Cruz and Martha Diaz, and was familiar with the circumstances of the capital offense (id., factor (a)), including his terror campaign against the residents of the house where the victims lived and his brutal and callous shootings of Diaz and Mauricio Martinez. Indeed, in his closing argument the prosecutor noted \u201cit\u2019s the People\u2019s position that this [the circumstances of the offense] alone substantially outweighs anything in mitigation in this case.\u201d Consistent with that estimation, the prosecutor devoted the bulk of his argument to a detailed review of the evidence of the capital crimes. Next the prosecutor focused on defendant\u2019s batteries of Beatrice Cruz and Martha Diaz, observing that Cruz\u2019s testimony was uncontradicted. True, the prosecutor asked the jury to accord significance to the Reiland incident. In that regard, the prosecutor said: \u201cYou have the battery upon Officer Reiland, a custodial officer for the Department of Corrections here in Madera. And Officer Reiland testified how the defendant kicked him and then took a swing at his head and grazed his forehead. [\u00b6] Now, the defense may argue to you that since there was no injury to Officer Reiland that this isn\u2019t something substantial, you shouldn\u2019t give it much weight. But I would submit that the legislature has seen fit to make this a separate crime other than just a battery, a 242. This is a crime of battery upon a correctional officer. And it is significant for that reason.\u201d The prosecutor thus seemed to say the Reiland incident was significant not by virtue of its inherent seriousness but because it was a different crime than the others defendant had committed. The prosecutor then discussed defendant\u2019s assault on Sergeant Davis, arguing in essence that although the jury should accept Davis\u2019s version of events, the incident was not as serious as the other batteries in the case \u201csimply because it wasn\u2019t as threatening and it didn\u2019t actually involve an application of physical force or violence. And, therefore, it should not be given as much weight as the other criminal acts which we presented.\u201d\nIn sum, in his closing argument the prosecutor placed his greatest emphasis on the circumstances of the capital crime while placing substantially less emphasis on the section 190.3, factor (b) evidence, including the Reiland incident. At no time did he suggest the jury ought to accord the latter dispositive weight. There is no reasonable possibility the lack of an appellate record adequate to enable us to review the trial court\u2019s ruling on defendant\u2019s Pitchess motion affected the outcome.\n3. Constitutionality of the death penalty law\nDefendant contends California\u2019s death penalty statute, as interpreted by this court and applied at his trial, violates the federal Constitution in numerous respects. We have rejected the same arguments in other cases, and decline defendant\u2019s invitation to reach different conclusions in this one. Thus:\nSection 190.2 does not fail to meaningfully narrow the pool of murderers eligible for the death penalty. (People v. Williams (2010) 49 Cal.4th 405, 469 [111 Cal.Rptr.3d 589, 233 P.3d 1000].)\nPermitting the jury to consider the circumstances of the crime (\u00a7 190.3, factor (a)) in determining penalty does not result in the arbitrary and capricious imposition of the death penalty. (People v. Kennedy (2005) 36 Cal.4th 595, 641 [31 Cal.Rptr.3d 160, 115 P.3d 472].)\n\u201cThe United States Supreme Court\u2019s decisions in Apprendi v. New Jersey [(2000)] 530 U.S. 466 [147 L.Ed.2d 435, 120 S.Ct. 2348], and its progeny, do not establish a Sixth Amendment right to determination of particular aggravating factors, or a finding that aggravation outweighs mitigation beyond a reasonable doubt or by a unanimous jury.\u201d (People v. Abel (2012) 53 Cal.4th 891, 942 [138 Cal.Rptr.3d 547, 271 P.3d 1040].) Likewise, \u201cneither the cruel and unusual punishment clause of the Eighth Amendment, nor the due process clause of the Fourteenth Amendment, requires a jury to find beyond a reasonable doubt that aggravating circumstances exist or that aggravating circumstances outweigh mitigating circumstances or that death is the appropriate penalty.\u201d (People v. Blair (2005) 36 Cal.4th 686, 753 [31 Cal.Rptr.3d 485, 115 P.3d 1145].) \u201cThere is no constitutional requirement to instruct either on any burden of persuasion regarding the penalty determination, or on any presumption that life without the possibility of parole is the favored or appropriate penalty.\u201d (People v. Garcia (2011) 52 Cal.4th 706, 764 [129 Cal.Rptr.3d 617, 258 P.3d 751].) There is likewise no requirement jurors be instructed they need not be unanimous in finding mitigating factors, and there is no reasonable likelihood the jury here understood the contrary. (People v. Moore (2011) 51 Cal.4th 1104, 1139-1140 [127 Cal.Rptr.3d 2, 253 P.3d 1153].) Nor does the Constitution require that the jury be instructed there is no burden of proof (People v. Houston (2012) 54 Cal.4th 1186, 1232 [144 Cal.Rptr.3d 716, 281 P.3d 799]), or that a verdict of life is required if it determines that the mitigating circumstances outweigh the aggravating ones (People v. Jones, supra, 57 Cal.4th at p. 980).\nThe failure to require that the jury make written findings during the penalty phase did not violate defendant\u2019s rights under the Sixth, Eighth, and Fourteenth Amendments. (People v. Mai (2013) 57 Cal.4th 986, 1057 [161 Cal.Rptr.3d 1, 305 P.3d 1175].)\nCALJIC No. 8.88 is not defective under the Eighth and Fourteenth Amendments because it instructs the jury to determine whether the death penalty is \u201cwarrant[ed],\u201d rather than whether it is \u201cappropriate.\u201d (People v. McKinzie (2012) 54 Cal.4th 1302, 1361 [144 Cal.Rptr.3d 427, 281 P.3d 412]; People v. Breaux (1991) 1 Cal.4th 281, 316 [3 Cal.Rptr.2d 81, 821 P.2d 585].)\n\u201cThe inclusion of the phrase \u2018so substantial\u2019 in CALJIC No. 8.88,\u201d by which the jurors in this case were instructed they \u201c \u2018must be persuaded that the aggravating circumstances are so substantial in comparison with the mitigating circumstances that it warrants death instead of life without parole,\u2019 \u201d does not render the instruction unconstitutionally vague. (People v. Abel, supra, 53 Cal.4th at p. 943.)\nBy instructing the jurors, in the language of CALJIC No. 8.85, that they could consider as a mitigating factor evidence that in committing the capital crimes defendant was acting under \u201cextreme\u201d mental or emotional disturbance, and rejecting his request that the instruction be modified to delete the adjective \u201cextreme,\u201d the trial court did not violate his constitutional rights. (People v. Abilez, supra, 41 Cal.4th at p. 534.)\nThe death penalty law is not constitutionally defective because it does not require that either the trial court or this court undertake a comparison between this and other similar cases regarding the relative proportionality of the sentence imposed. (People v. Jones, supra, 57 Cal.4th at p. 979.)\nThe death penalty law does not violate the equal protection clause because persons facing a death sentence lack certain procedural protections, such as written findings and unanimity as to aggravating factors including unadjudi-cated criminal activity under section 190.3, factor (b), afforded to persons charged with noncapital offenses. (People v. Jones, supra, 57 Cal.4th at p. 981; People v. Valdez (2012) 55 Cal.4th 82, 180 [144 Cal.Rptr.3d 865, 281 P.3d 924]; People v. Watson (2008) 43 Cal.4th 652, 703-704 [76 Cal.Rptr.3d 208, 182 P.3d 543].)\nThe death penalty does not violate international law, the Eighth and Fourteenth Amendments, or \u201c \u2018 \u201cevolving standards of decency.\u201d \u2019 \u201d (People v. Virgil (2011) 51 Cal.4th 1210, 1289-1290 [126 Cal.Rptr.3d 465, 253 P.3d 553].)\nI. Disposition\nThe conviction for attempting to dissuade a witness from testifying is reversed and the witness-killing special-circumstance finding is vacated. In all other respects, the judgment is affirmed.\nCantil-Sakauye, C. J., Chin, J., Corrigan, J., Liu, J., Cu\u00e9llar, J., and Kruger, J., concurred.\nAt trial, all parties used the term \u201cmentally retarded,\u201d but in accordance with current law and usage, this opinion uses the term \u201cintellectually disabled\u201d except when quoting. (See Stats. 2012, chs. 448 [the Shriver \u201cR-Word\u201d Act, which revised various statutes to replace references to \u201cmental retardation\u201d with the term \u201cintellectual disability\u201d], 457 [similarly replacing references to \u201cmental retardation\u201d].)\nAlong with his opening brief, defendant filed a request under Evidence Code sections 452 and 459 that this court take judicial notice of documents indicating that Dr. Charles Davis, whom the superior court appointed to evaluate defendant\u2019s competence to stand trial, and who determined defendant was competent and malingering, is deceased. The conclusion that the trial court did not err in failing to reinstitute competency proceedings renders irrelevant the material of which defendant asks us to take notice, and we therefore deny the request. (People v. Rowland (1992) 4 Cal.4th 238, 268, fn. 6 [14 Cal.Rptr.2d 377, 841 P.2d 897].)\nDefendant also complains that Dr. Coleman\u2019s testimony should have been excluded because his background was not \u201ccomparable\u201d to that of the defense expert witnesses. He cites People v. Stoll (1989) 49 Cal.3d 1136 [265 Cal.Rptr. 111, 783 P.2d 698], a case involving a prosecution for lewd and lascivious acts on a child in which the defense sought to introduce a psychologist\u2019s expert testimony, based on an interview of the defendant and interpretation of standardized written personality tests administered to him, that the defendant showed no signs of \u201cdeviance\u201d or \u201cabnormality.\u201d (Id, at p. 1140.) We rejected the prosecution\u2019s argument that the Kelly/Frye rule (see People v. Kelly (1976) 17 Cal.3d 24, 30 [130 Cal.Rptr. 144, 549 P.2d 1240]; Frye v. U.S. (D.C. Cir. 1923) 293 F. 1013, 1014), restricting the admissibility of novel or experimental scientific techniques, applied to psychological testing, instead \u201cadheifing] to settled law viewing this testimony as competent but disputable \u2018expert opinion.\u2019 \u201d (Stoll, at pp. 1140-1141.) We observed that \u201cissues of test reliability and validity may be thoroughly explored on cross-examination at trial. [Citation.] The prosecution also may call, in rebuttal, another expert of comparable background to challenge defense expert methods'\u2019 (Id. at p. 1159, italics added.) Defendant fails to persuade us that Dr. Coleman\u2019s background was insufficiently comparable for this purpose. (Cf. People v. Smithey (1999) 20 Cal.4th 936, 967 [86 Cal.Rptr.2d 243, 978 P.2d 1171] [rejecting challenge to admission of similar testimony by Dr. Coleman in rebuttal to defense expert testimony].)\nWe address below defendant\u2019s related claim of error in the instruction limiting the jury\u2019s consideration of the evidence of his intellectual disability in determining whether he had the mental states required for the charged offenses. (See post, at pp. 57-65.)\nDr. Christensen answered: \u201cI read the reports and I note one of the psychiatrists found him to be incompetent and the other one did not. I do not always understand legal aspects. I\u2019m going on the basis of his level of intellectual functioning and the date I saw him how much I perceived he would be able to assist his defense attorney in preparing for his defense, his awareness or lack of awareness of what a judge was, who you were. Who\u2014what a jury was for, what the bailiff was for. At this time that I saw him he did not have any understanding of who any of these people were. He couldn\u2019t differentiate even that his attorney was working for him and that you were essentially not working for him.\u201d\nCALJIC No. 8.10 read as follows: \u201cThe defendant is accused in Counts 1 and 2 of the information of having committed the crime of murder, a violation of Penal Code Section 187. Every person who unlawfully kills a human being with malice aforethought is guilty of the crime of murder in violation of Section 187 of the Penal Code. [\u00b6] In order to prove such crime each of the following elements must be proved: One, a human being was killed; two, the killing was unlawful; and, three, the killing was done with malice aforethought. [\u00b6] . . . A killing is unlawful if it was neither justifiable nor excusable.\u201d\nCALJIC No. 8.20 read as follows: \u201cAll murder which is perpetrated by any kind of willful, deliberate, and premeditated killing with the express malice aforethought is murder of the first degree. The word \u2018willful\u2019 as used in this instruction means intentional. The word \u2018deliberate\u2019 means formed or arrived at or determined on as a result of careful thought in weighing the considerations for and against the proposed course of action. The word \u2018premeditated\u2019 means considered beforehand. [\u00b6] If you find the killing was preceded and accompanied by a clear deliberate intent on the part of the defendant to kill which was a result of deliberation and premeditation so that it must have been formed upon a pre-existing reflection and not upon a sudden heat of passion or other condition precluding the idea of deliberation, it is murder of the first degree. [\u00b6] The law does not undertake to measure in units of time the length of the period during which the thought must be pondered before it can ripen into an intent to kill which is truly deliberate and premeditated. The time will vary with different individuals and under varying circumstances. [\u00b6] The true test is not the duration of time, but rather the extent of the reflection. A cold, calculated judgment and decision may be arrived at in a short period of time, but a mere unconsidered and rash impulse, even though it include an intent to kill, is not such deliberation and premeditation as will fix an unlawful killing as murder of the first degree. [\u00b6] To constitute a deliberate and premeditated killing, the slayer must weigh and consider the question of killing and the reasons for and against such a choice and, having in mind the consequences, he decides[s] to and does kill.\u201d\nCiting People v. Hustead (1999) 74 Cal.App.4th 410, 418 [87 Cal.Rptr.2d 875], defendant contends \u201chis right to discovery was not limited solely to \u2018complaints\u2019 for \u2018excessive use of force or harassment.\u2019 Rather, once the judge reviewed the produced documents, [defendant] was entitled to evidence that Reiland had made false reports which would be relevant to impeach his written \u2018incident report\u2019 on which his testimony was based.\u201d To the extent defendant is asserting that under Brady v. Maryland (1963) 373 U.S. 83 [10 L.Ed.2d 215, 83 S.Ct. 1194] he was entitled to disclosure of favorable material evidence, including evidence impeaching Reiland\u2019s credibility, he is correct. To obtain discovery of a peace officer\u2019s personnel records within the Pitchess framework, however, a defendant must file a written motion showing, with sufficient specificity, the relevancy of the records sought to the subject matter of the litigation, and the custodian is required to bring to court only documents potentially relevant to the defendant\u2019s motion. (People v. Mooc, supra, 26 Cal.4th at p. 1226.) Defendant\u2019s Pitchess motion, unlike that in Hustead, requested disclosure only of complaints involving excessive force or harassment. He cannot expand the scope of his motion on appeal, and in the posture of this case for us to fault the trial court for not expressly addressing whether any of the material in Reiland\u2019s file reflected dishonesty would be a pointless exercise.",
+        "type": "majority",
+        "author": "WERDEGAR, J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Michael J. Hersek, State Public Defender, and C. Delaine Renard, Deputy State Public Defender, for Defendant and Appellant.",
+      "Kamala D. Harris, Attorney General, Dane R. Gillette and Gerald A. Engler, Chief Assistant Attorneys General, Michael P. Farrell, Assistant Attorney General, Eric L. Christoffersen, Sean M. McCoy, Lewis A. Martinez and Louis M. Vasquez, Deputy Attorneys General, for Plaintiff and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. S022998.\nApr. 21, 2016.]\nTHE PEOPLE, Plaintiff and Respondent, v. ANTHONY LETRICE TOWNSEL, Defendant and Appellant.\nCounsel\nMichael J. Hersek, State Public Defender, and C. Delaine Renard, Deputy State Public Defender, for Defendant and Appellant.\nKamala D. Harris, Attorney General, Dane R. Gillette and Gerald A. Engler, Chief Assistant Attorneys General, Michael P. Farrell, Assistant Attorney General, Eric L. Christoffersen, Sean M. McCoy, Lewis A. Martinez and Louis M. Vasquez, Deputy Attorneys General, for Plaintiff and Respondent."
+  },
+  "file_name": "0025-01",
+  "first_page_order": 61,
+  "last_page_order": 110
+}

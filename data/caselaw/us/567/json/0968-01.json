@@ -1,0 +1,92 @@
+{
+  "id": 12413239,
+  "name": "Florida v. Harris",
+  "name_abbreviation": "Florida v. Harris",
+  "decision_date": "2012-09-25",
+  "docket_number": "No. 11-817",
+  "first_page": "968",
+  "last_page": "968",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 968"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "566 U. S. 904",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12191424,
+        12191458,
+        12191271,
+        12191368,
+        12191114,
+        12191500,
+        12191149,
+        12191184,
+        12191225,
+        12191610,
+        12191324
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/566/0904-08",
+        "/us/566/0904-09",
+        "/us/566/0904-05",
+        "/us/566/0904-07",
+        "/us/566/0904-01",
+        "/us/566/0904-10",
+        "/us/566/0904-02",
+        "/us/566/0904-03",
+        "/us/566/0904-04",
+        "/us/566/0904-11",
+        "/us/566/0904-06"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 31,
+    "char_count": 207,
+    "ocr_confidence": 0.662,
+    "sha256": "b132fb854e4f54ad60abef093c1d317683ceefe2ab2e6ebd0f7b427c57fee9f9",
+    "simhash": "1:a6c48801c2c7ce37",
+    "word_count": 34
+  },
+  "last_updated": "2024-02-27T23:46:21.325002+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Florida v. Harris."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Fla. [Certiorari granted, 566 U. S. 904.] Motion of the Solicitor General for leave to participate in oral argument as amicus curiae and for divided argument granted.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-817.\nFlorida v. Harris."
+  },
+  "file_name": "0968-01",
+  "first_page_order": 872,
+  "last_page_order": 872
+}

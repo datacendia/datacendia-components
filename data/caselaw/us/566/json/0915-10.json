@@ -1,0 +1,59 @@
+{
+  "id": 12198576,
+  "name": "Rolon v. United States",
+  "name_abbreviation": "Rolon v. United States",
+  "decision_date": "2012-03-26",
+  "docket_number": "No. 11-9004",
+  "first_page": "915",
+  "last_page": "915",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 915"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.635,
+    "sha256": "f9f4954a60b18b2f98fcf2169e36d7f7aa481517667d3b6d81ec5e1769ba33bf",
+    "simhash": "1:012a9a1316d1101b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rolon v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9004.\nRolon v. United States."
+  },
+  "file_name": "0915-10",
+  "first_page_order": 791,
+  "last_page_order": 791
+}

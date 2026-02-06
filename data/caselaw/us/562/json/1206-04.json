@@ -1,0 +1,59 @@
+{
+  "id": 5971025,
+  "name": "Cox v. United States",
+  "name_abbreviation": "Cox v. United States",
+  "decision_date": "2011-01-24",
+  "docket_number": "No. 10-8053",
+  "first_page": "1206",
+  "last_page": "1206",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1206"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.638,
+    "sha256": "93e6823965fa0e3e43329eeec2c8712a390c21e587b767a51d4028d78a86ec5c",
+    "simhash": "1:142a8f730c81f4bb",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cox v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8053.\nCox v. United States."
+  },
+  "file_name": "1206-04",
+  "first_page_order": 1228,
+  "last_page_order": 1228
+}

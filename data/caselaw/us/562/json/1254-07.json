@@ -1,0 +1,59 @@
+{
+  "id": 5941281,
+  "name": "Evans v. Suter, Clerk, Supreme Court of the United States, et al.; Guerra v. Felker, Warden; and Shaw v. Coughlin et al.",
+  "name_abbreviation": "Evans v. Suter",
+  "decision_date": "2011-02-28",
+  "docket_number": "No. 10M75; No. 10M76; No. 10M78",
+  "first_page": "1254",
+  "last_page": "1255",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1254"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 33,
+    "char_count": 244,
+    "ocr_confidence": 0.525,
+    "sha256": "0d78bf4932d7fe9747a31517857e69353331df8a355500d13644a9d2689643c9",
+    "simhash": "1:d827dc4782191c9e",
+    "word_count": 44
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Evans v. Suter, Clerk, Supreme Court of the United States, et al.; Guerra v. Felker, Warden; and Shaw v. Coughlin et al."
+    ],
+    "opinions": [
+      {
+        "text": "Motions to direct the Clerk to file petitions for writs of certiorari out of time denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10M75.\nEvans v. Suter, Clerk, Supreme Court of the United States, et al.; Guerra v. Felker, Warden; and Shaw v. Coughlin et al.\nNo. 10M76.\nNo. 10M78."
+  },
+  "file_name": "1254-07",
+  "first_page_order": 1276,
+  "last_page_order": 1277
+}

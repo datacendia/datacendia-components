@@ -1,0 +1,59 @@
+{
+  "id": 12228725,
+  "name": "Branch v. United States",
+  "name_abbreviation": "Branch v. United States",
+  "decision_date": "2011-10-11",
+  "docket_number": "No. 11-6305",
+  "first_page": "958",
+  "last_page": "958",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 958"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.737,
+    "sha256": "bbdaeee7900af478c090cca17b0ace00d38b6f070296124a574935ae2958a0b4",
+    "simhash": "1:a59bd6ab4ebd147b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Branch v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6305.\nBranch v. United States."
+  },
+  "file_name": "0958-12",
+  "first_page_order": 1040,
+  "last_page_order": 1040
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5961574,
+  "name": "Celis et al. v. United States",
+  "name_abbreviation": "Celis v. United States",
+  "decision_date": "2010-11-15",
+  "docket_number": "No. 10-7056",
+  "first_page": "1052",
+  "last_page": "1052",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1052"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 80,
+    "ocr_confidence": 0.625,
+    "sha256": "df3ca1f4bb75903ddbde8bc0abd104f596b69727519672a5713da7e7104fdfe0",
+    "simhash": "1:d7d912010a3f9004",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Celis et al. v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. D. C. Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7056.\nCelis et al. v. United States."
+  },
+  "file_name": "1052-12",
+  "first_page_order": 1074,
+  "last_page_order": 1074
+}

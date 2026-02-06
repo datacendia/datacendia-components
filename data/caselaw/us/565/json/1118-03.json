@@ -1,0 +1,59 @@
+{
+  "id": 12239719,
+  "name": "Peterson v. McKenna, Attorney General of Washington",
+  "name_abbreviation": "Peterson v. McKenna",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-6839",
+  "first_page": "1118",
+  "last_page": "1118",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1118"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 100,
+    "ocr_confidence": 0.572,
+    "sha256": "1a324c778b34ed945f7a1101654241189f4b04742dfa5c3e78639eb7e5ebac1a",
+    "simhash": "1:046321b42807a0ec",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Peterson v. McKenna, Attorney General of Washington."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6839.\nPeterson v. McKenna, Attorney General of Washington."
+  },
+  "file_name": "1118-03",
+  "first_page_order": 1200,
+  "last_page_order": 1200
+}

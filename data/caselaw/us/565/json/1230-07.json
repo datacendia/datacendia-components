@@ -1,0 +1,61 @@
+{
+  "id": 12249139,
+  "name": "Anyanwu v. United States",
+  "name_abbreviation": "Anyanwu v. United States",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-8378",
+  "first_page": "1230",
+  "last_page": "1230",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1230"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 152,
+    "ocr_confidence": 0.692,
+    "sha256": "a1810538c3e481e68dd30829ffc9292abe4279a2dff1bde13377d4ed5c96d898",
+    "simhash": "1:85b33882678cc45a",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Breyer took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Anyanwu v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.\nJustice Breyer took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8378.\nAnyanwu v. United States."
+  },
+  "file_name": "1230-07",
+  "first_page_order": 1312,
+  "last_page_order": 1312
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5982023,
+  "name": "Lucero Garcia v. Arizona",
+  "name_abbreviation": "Lucero Garcia v. Arizona",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-10061",
+  "first_page": "843",
+  "last_page": "843",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 843"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 74,
+    "ocr_confidence": 0.613,
+    "sha256": "50e606481c8c49343e70518b79fb8d6d1e8c7324fd7055aec00236c23b01d93b",
+    "simhash": "1:22bd312acd47bc10",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lucero Garcia v. Arizona."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ariz. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10061.\nLucero Garcia v. Arizona."
+  },
+  "file_name": "0843-10",
+  "first_page_order": 865,
+  "last_page_order": 865
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5910525,
+  "name": "Wood v. Superior Court of California, San Joaquin County, et al.",
+  "name_abbreviation": "Wood v. Superior Court of California",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-26",
+  "first_page": "890",
+  "last_page": "890",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 890"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 20,
+    "char_count": 124,
+    "ocr_confidence": 0.535,
+    "sha256": "8e2b53ae8d5d80afa6cd2ec3a3e73ee54d01834ef56a5dbc93ef3e6b20d2f5d1",
+    "simhash": "1:882946a418a913d7",
+    "word_count": 21
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wood v. Superior Court of California, San Joaquin County, et al."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 3d App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-26.\nWood v. Superior Court of California, San Joaquin County, et al."
+  },
+  "file_name": "0890-06",
+  "first_page_order": 912,
+  "last_page_order": 912
+}

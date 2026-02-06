@@ -1,0 +1,59 @@
+{
+  "id": 12230422,
+  "name": "Stine v. United States",
+  "name_abbreviation": "Stine v. United States",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. 11-328",
+  "first_page": "979",
+  "last_page": "979",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 979"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.681,
+    "sha256": "ba7954fcd61508ade1ecb9b61435bf9e1dda89b906dda13c984e248ffd434a22",
+    "simhash": "1:84aa92cf9e855002",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Stine v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. Fed. Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-328.\nStine v. United States."
+  },
+  "file_name": "0979-06",
+  "first_page_order": 1061,
+  "last_page_order": 1061
+}

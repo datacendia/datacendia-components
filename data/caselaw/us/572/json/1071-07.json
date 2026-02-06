@@ -1,0 +1,66 @@
+{
+  "id": 12705782,
+  "name": "Brian HELM, petitioner, v. FLORIDA.",
+  "name_abbreviation": "Helm v. Fla.",
+  "decision_date": "2014-04-21",
+  "docket_number": "No. 13\u20139036.",
+  "first_page": "1071",
+  "last_page": "1071",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "572 U.S. 1071"
+    },
+    {
+      "type": "parallel",
+      "cite": "188 L. Ed. 2d 931"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 1900"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 25,
+    "char_count": 202,
+    "sha256": "ee480e055b3e6c266bd1d4b74d6afee11350ce12b737a2fdbbb41f43582123ec",
+    "simhash": "1:7b7f0606f8934135",
+    "word_count": 32
+  },
+  "last_updated": "2021-09-08T21:16:17.237805+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Brian HELM, petitioner,\nv.\nFLORIDA."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "Brian HELM, petitioner,\nv.\nFLORIDA.\nNo. 13-9036.\nSupreme Court of the United States\nApril 21, 2014.\nPetition for writ of certiorari to the District Court of Appeal of Florida, Second District, denied."
+  },
+  "file_name": "1071-07",
+  "first_page_order": 1071,
+  "last_page_order": 1071
+}

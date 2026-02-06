@@ -1,0 +1,59 @@
+{
+  "id": 12425145,
+  "name": "Kwasnik v. Maine",
+  "name_abbreviation": "Kwasnik v. Maine",
+  "decision_date": "2012-11-26",
+  "docket_number": "No. 12-6666",
+  "first_page": "1036",
+  "last_page": "1036",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1036"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 69,
+    "ocr_confidence": 0.69,
+    "sha256": "b194b0760b7731e687b397d44c8d4e58d79bce2888740582fb6adcad93acae7c",
+    "simhash": "1:53d41d6fb0875580",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Kwasnik v. Maine."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Jud. Ct. Me. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6666.\nKwasnik v. Maine."
+  },
+  "file_name": "1036-01",
+  "first_page_order": 1112,
+  "last_page_order": 1112
+}

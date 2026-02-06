@@ -1,0 +1,177 @@
+{
+  "id": 12520079,
+  "name": "UNITED STATES of America, Plaintiff-Appellee, v. Lashone GATES, Defendant-Appellant.",
+  "name_abbreviation": "United States v. Gates",
+  "decision_date": "2019-02-11",
+  "docket_number": "No. 17-2494",
+  "first_page": "561",
+  "last_page": "564",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "915 F.3d 561"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "8th Cir.",
+    "id": 8821,
+    "name": "United States Court of Appeals for the Eighth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "865 F.3d 676",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12275649
+      ],
+      "weight": 5,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "678"
+        },
+        {
+          "page": "678"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/865/0676-01"
+      ]
+    },
+    {
+      "cite": "761 F.3d 873",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4151294
+      ],
+      "weight": 2,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "875",
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/761/0873-01"
+      ]
+    },
+    {
+      "cite": "523 U.S. 296",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11503533
+      ],
+      "weight": 3,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "300-01",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/523/0296-01"
+      ]
+    },
+    {
+      "cite": "432 F.3d 897",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        556317
+      ],
+      "weight": 2,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "899"
+        },
+        {
+          "page": "899",
+          "parenthetical": "\"Article III limits the federal courts to deciding 'Cases' and 'Controversies' and thus prohibits us from issuing advisory opinions.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/432/0897-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 2423",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(d) and (e)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "5 U.S.C. \u00a7 552",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 355,
+    "char_count": 5160,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2591896284300745
+    },
+    "sha256": "9f1935356cdd1a3de84549a31af42f50bb6a0323231b8e5e14e61f7d3caa56f0",
+    "simhash": "1:f2e4d7649b17153b",
+    "word_count": 816
+  },
+  "last_updated": "2024-02-27T18:46:27.774001+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before GRUENDER, KELLY, and GRASZ, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff-Appellee,\nv.\nLashone GATES, Defendant-Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "PER CURIAM.\nLashone Gates claims for the first time on appeal that a provision in his plea agreement waiving his right to request or receive records pursuant to the Freedom of Information Act (\"FOIA\"), 5 U.S.C. \u00a7 552, violates public policy and is, therefore, invalid. Lacking jurisdiction, we dismiss his appeal.\nGates pleaded guilty to violating 18 U.S.C. \u00a7 2423(d) and (e) for attempting to arrange, for the purpose of private financial gain, the travel of a person in interstate commerce in order to engage in a commercial sex act with a person under 18 years of age. As part of his written plea agreement, Gates waived his appellate and post-conviction rights. That waiver excluded from its scope collateral attacks on the grounds of ineffective assistance of counsel and prosecutorial misconduct. Gates also waived his right \"to request or receive from any department or agency of the United States any records pertaining to the investigation or prosecution of this case including, without limitation, any records that may be sought under the Freedom of Information Act, 5 U.S.C. \u00a7 552.\" Gates did not challenge the validity of this FOIA waiver before the district court.\nOn appeal, Gates challenges the FOIA waiver \"in connection with a collateral attack on grounds permitted by his appeal waiver: ineffective assistance of counsel or prosecutorial misconduct.\" He claims that \"[n]o legitimate criminal justice interest justifies Gates' FOIA waiver as it relates to claims of ineffective assistance of counsel and prosecutorial misconduct.\" The waiver, he adds, \"harms FOIA's primary policy objective, namely, to promote public oversight of government processes, here, the criminal justice process.\" Notably, Gates does not actually bring claims for ineffective assistance of counsel or prosecutorial misconduct. He also does not allege that he requested or was denied any records on the basis of his FOIA waiver.\nWe lack jurisdiction because Gates's FOIA waiver claim is not ripe. \"The ripeness doctrine is grounded in both the jurisdictional limits of Article III of the Constitution and policy considerations of effective court administration.\" KCCP Tr. v. City of N. Kansas City , 432 F.3d 897, 899 (8th Cir. 2005). \"Ripeness requir[es] us to evaluate both the fitness of the issues for judicial decision and the hardship to the parties of withholding court consideration.\" Texas v. United States , 523 U.S. 296, 300-01, 118 S.Ct. 1257, 140 L.Ed.2d 406 (1998) (internal quotation marks omitted). \"The fitness prong safeguards against judicial review of hypothetical or speculative disagreements.\" Parrish v. Dayton , 761 F.3d 873, 875 (8th Cir. 2014) (internal quotation marks omitted). The hardship prong considers whether delayed review \"inflicts significant practical harm\" on the petitioner. Id.\nThe validity of Gates's FOIA waiver is not fit for judicial review because Gates has not requested any records from the government pursuant to FOIA. Despite the FOIA waiver, Gates is not precluded from requesting records from the government, and the government is not obligated to deny his request. Also, if the government were to deny his request, Gates could challenge that denial in a separate action. For example, in Price v. U.S. Dep't of Justice Attorney Office , a criminal defendant entered into a plea agreement containing a FOIA waiver identical to the FOIA waiver in Gates's plea agreement. 865 F.3d 676, 678, 686 n.2 (D.C. Cir. 2017). Nevertheless, the defendant submitted a FOIA request to the Federal Bureau of Investigation. Id. at 678. The FBI denied his request, reasoning that the defendant had waived his right to receive such records related to his case. Id. The defendant challenged that denial in federal district court. Id. The district court addressed his waiver arguments, and the D.C. Circuit reviewed on appeal the question of whether the FBI lawfully withheld the records. Id.\nGates also will not suffer harm if we do not address his claim. He does not allege that he currently needs records \"pertaining to the investigation or prosecution of this case,\" much less that he has any reason to believe that such records will enable him to bring a colorable claim for either ineffective assistance of counsel or prosecutorial misconduct, the two types of appeals permitted by his plea agreement.\nFor these reasons, Gates's FOIA waiver claim is not ripe. Deciding it now would amount to the issuance of an advisory opinion in violation of Article III. See KCCP Tr. , 432 F.3d at 899 (\"Article III limits the federal courts to deciding 'Cases' and 'Controversies' and thus prohibits us from issuing advisory opinions.\"). We are without jurisdiction and dismiss the appeal.",
+        "type": "majority",
+        "author": "PER CURIAM."
+      }
+    ],
+    "attorneys": [
+      "Adam Fein, Rosenblum Schwartz & Fry, P.C., St. Louis, MO, for appellant.",
+      "Philip M. Koppe, Asst. U.S. Atty., Kansas City, MO (Timothy A. Garrison, U.S. Atty., Kansas City, MO, on the brief), for appellee."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff-Appellee,\nv.\nLashone GATES, Defendant-Appellant.\nNo. 17-2494\nUnited States Court of Appeals, Eighth Circuit.\nSubmitted: November 14, 2018\nFiled: February 11, 2019\nAdam Fein, Rosenblum Schwartz & Fry, P.C., St. Louis, MO, for appellant.\nPhilip M. Koppe, Asst. U.S. Atty., Kansas City, MO (Timothy A. Garrison, U.S. Atty., Kansas City, MO, on the brief), for appellee.\nBefore GRUENDER, KELLY, and GRASZ, Circuit Judges."
+  },
+  "file_name": "0561-01",
+  "first_page_order": 561,
+  "last_page_order": 564
+}

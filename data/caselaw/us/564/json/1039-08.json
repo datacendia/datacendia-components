@@ -1,0 +1,59 @@
+{
+  "id": 5933234,
+  "name": "Cox v. DeSoto County, Mississippi",
+  "name_abbreviation": "Cox v. DeSoto County",
+  "decision_date": "2011-06-27",
+  "docket_number": "No. 10-1397",
+  "first_page": "1039",
+  "last_page": "1039",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1039"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 82,
+    "ocr_confidence": 0.59,
+    "sha256": "44154586872f1f6e9b1ea43bfa0043f538594ded5eca74f1202835f7abcdcf96",
+    "simhash": "1:0a881290890c3a72",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cox v. DeSoto County, Mississippi."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1397.\nCox v. DeSoto County, Mississippi."
+  },
+  "file_name": "1039-08",
+  "first_page_order": 1033,
+  "last_page_order": 1033
+}

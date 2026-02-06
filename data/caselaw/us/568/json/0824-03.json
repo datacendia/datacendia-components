@@ -1,0 +1,59 @@
+{
+  "id": 12410147,
+  "name": "Thomas Petroleum, Inc., et al. v. Morris",
+  "name_abbreviation": "Thomas Petroleum, Inc. v. Morris",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-1496",
+  "first_page": "824",
+  "last_page": "824",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 824"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 99,
+    "ocr_confidence": 0.678,
+    "sha256": "fc83538d1725e4059c8d07571ddd76cc7c0bd034a45ceac15225bddfb9fb1534",
+    "simhash": "1:e8c096f22a046c6c",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Thomas Petroleum, Inc., et al. v. Morris."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Tex., 1st Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1496.\nThomas Petroleum, Inc., et al. v. Morris."
+  },
+  "file_name": "0824-03",
+  "first_page_order": 900,
+  "last_page_order": 900
+}

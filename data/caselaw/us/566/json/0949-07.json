@@ -1,0 +1,59 @@
+{
+  "id": 12206891,
+  "name": "Curry v. Blue Cross Blue Shield of South Carolina",
+  "name_abbreviation": "Curry v. Blue Cross Blue Shield of South Carolina",
+  "decision_date": "2012-04-16",
+  "docket_number": "No. 11-9082",
+  "first_page": "949",
+  "last_page": "949",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 949"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 98,
+    "ocr_confidence": 0.603,
+    "sha256": "dcc8234692cd25cbbbbc5fe6caec54322b14cb51d48fb6cbbfcef4fe86b15d44",
+    "simhash": "1:b6860278cb89b020",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Curry v. Blue Cross Blue Shield of South Carolina."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9082.\nCurry v. Blue Cross Blue Shield of South Carolina."
+  },
+  "file_name": "0949-07",
+  "first_page_order": 825,
+  "last_page_order": 825
+}

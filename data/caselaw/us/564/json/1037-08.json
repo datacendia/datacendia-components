@@ -1,0 +1,59 @@
+{
+  "id": 5919892,
+  "name": "United States ex rel. Summers v. LHC Group, Inc.",
+  "name_abbreviation": "United States ex rel. Summers v. LHC Group, Inc.",
+  "decision_date": "2011-06-27",
+  "docket_number": "No. 10-827",
+  "first_page": "1037",
+  "last_page": "1037",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1037"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 95,
+    "ocr_confidence": 0.54,
+    "sha256": "cf1739666c5e7aea600dcf7eafcff9223f99e8b093cc921a1287cfa7eadd8e1e",
+    "simhash": "1:828ab20c2b2fe421",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "United States ex rel. Summers v. LHC Group, Inc."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-827.\nUnited States ex rel. Summers v. LHC Group, Inc."
+  },
+  "file_name": "1037-08",
+  "first_page_order": 1031,
+  "last_page_order": 1031
+}

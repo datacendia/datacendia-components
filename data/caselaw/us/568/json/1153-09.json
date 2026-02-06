@@ -1,0 +1,84 @@
+{
+  "id": 12430345,
+  "name": "In re Disbarment of Goldblatt",
+  "name_abbreviation": "In re Disbarment of Goldblatt",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. D-2648",
+  "first_page": "1153",
+  "last_page": "1153",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1153"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "566 U. S. 933",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12203111,
+        12203209,
+        12203189,
+        12203093,
+        12203223,
+        12203160,
+        12203135
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/566/0933-02",
+        "/us/566/0933-06",
+        "/us/566/0933-05",
+        "/us/566/0933-01",
+        "/us/566/0933-07",
+        "/us/566/0933-04",
+        "/us/566/0933-03"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 110,
+    "ocr_confidence": 0.609,
+    "sha256": "56a56e87b227376d182d6c72ec84fe481a23a9f2312550370b9fa6445841462a",
+    "simhash": "1:761dc52ef9865242",
+    "word_count": 18
+  },
+  "last_updated": "2024-02-27T23:44:49.194693+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Goldblatt."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2648.\nIn re Disbarment of Goldblatt.\n[For earlier order herein, see 566 U. S. 933.]"
+  },
+  "file_name": "1153-09",
+  "first_page_order": 1229,
+  "last_page_order": 1229
+}

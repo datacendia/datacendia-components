@@ -1,0 +1,59 @@
+{
+  "id": 12201353,
+  "name": "Ary v. California",
+  "name_abbreviation": "Ary v. California",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10337",
+  "first_page": "834",
+  "last_page": "834",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 834"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 66,
+    "ocr_confidence": 0.661,
+    "sha256": "8046d16f9763561fb31062f6466caed340c2a84b9cec33174ad14754d143ac45",
+    "simhash": "1:8c2b13e78e7e036f",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ary v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Cal. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10337.\nAry v. California."
+  },
+  "file_name": "0834-04",
+  "first_page_order": 916,
+  "last_page_order": 916
+}

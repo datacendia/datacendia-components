@@ -1,0 +1,59 @@
+{
+  "id": 12242359,
+  "name": "Pantle v. United States",
+  "name_abbreviation": "Pantle v. United States",
+  "decision_date": "2012-01-17",
+  "docket_number": "No. 11-257",
+  "first_page": "1156",
+  "last_page": "1156",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1156"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.609,
+    "sha256": "8bdef1fcdc78f1e8add015c2a254bbd2d6bb3d8b945625fce31b17f8a65d0227",
+    "simhash": "1:246acb778891915a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Pantle v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-257.\nPantle v. United States."
+  },
+  "file_name": "1156-04",
+  "first_page_order": 1238,
+  "last_page_order": 1238
+}

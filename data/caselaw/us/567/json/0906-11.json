@@ -1,0 +1,59 @@
+{
+  "id": 12408112,
+  "name": "Florida ex rel. Grupp et al. v. DHL Express (USA), Inc., et al.",
+  "name_abbreviation": "Florida ex rel. Grupp v. DHL Express (USA), Inc.",
+  "decision_date": "2012-06-11",
+  "docket_number": "No. 11-1316",
+  "first_page": "906",
+  "last_page": "906",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 906"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 20,
+    "char_count": 128,
+    "ocr_confidence": 0.685,
+    "sha256": "ed4e769a514d1ab930b8470b4ee46d19ebf2a2180c33f24860fddac36364cb78",
+    "simhash": "1:9039d7b3ab417a2a",
+    "word_count": 23
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Florida ex rel. Grupp et al. v. DHL Express (USA), Inc., et al."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 1st Dist. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1316.\nFlorida ex rel. Grupp et al. v. DHL Express (USA), Inc., et al."
+  },
+  "file_name": "0906-11",
+  "first_page_order": 810,
+  "last_page_order": 810
+}

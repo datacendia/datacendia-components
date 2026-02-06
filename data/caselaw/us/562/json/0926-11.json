@@ -1,0 +1,59 @@
+{
+  "id": 5984197,
+  "name": "Parker v. United States",
+  "name_abbreviation": "Parker v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5516",
+  "first_page": "926",
+  "last_page": "926",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 926"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.648,
+    "sha256": "c5b141c971f24a109c1f5d05da4437cdb5a21da15c2e1d7f029d6cea7538b636",
+    "simhash": "1:e10ab2030f1d5c2c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Parker v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5516.\nParker v. United States."
+  },
+  "file_name": "0926-11",
+  "first_page_order": 948,
+  "last_page_order": 948
+}

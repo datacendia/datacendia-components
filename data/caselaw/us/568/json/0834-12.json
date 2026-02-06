@@ -1,0 +1,59 @@
+{
+  "id": 12411740,
+  "name": "Corrion v. Corrion",
+  "name_abbreviation": "Corrion v. Corrion",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10158",
+  "first_page": "834",
+  "last_page": "834",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 834"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 69,
+    "ocr_confidence": 0.69,
+    "sha256": "447220af460d12d38f9c672b3d279da3ba4becd4450c4c517f7b0ab12752cd3e",
+    "simhash": "1:c0a407699457f12c",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Corrion v. Corrion."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10158.\nCorrion v. Corrion."
+  },
+  "file_name": "0834-12",
+  "first_page_order": 910,
+  "last_page_order": 910
+}

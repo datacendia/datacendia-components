@@ -1,0 +1,84 @@
+{
+  "id": 5991814,
+  "name": "In re Disbarment of Golden",
+  "name_abbreviation": "In re Disbarment of Golden",
+  "decision_date": "2011-01-24",
+  "docket_number": "No. D-2478",
+  "first_page": "1197",
+  "last_page": "1197",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1197"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "561 U. S. 1044",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12455904,
+        12455898,
+        12455899,
+        12455900,
+        12455901,
+        12455902,
+        12455903
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/177/1131-06",
+        "/l-ed-2d/177/1130-07",
+        "/l-ed-2d/177/1131-01",
+        "/l-ed-2d/177/1131-02",
+        "/l-ed-2d/177/1131-03",
+        "/l-ed-2d/177/1131-04",
+        "/l-ed-2d/177/1131-05"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 108,
+    "ocr_confidence": 0.594,
+    "sha256": "44c8c13747ef5115b6b11b513921a2c1fb89430f4e7db4aa4e9ee99a905c15c4",
+    "simhash": "1:f8b8d8a2fa5c1263",
+    "word_count": 18
+  },
+  "last_updated": "2024-02-27T22:51:28.129297+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Golden."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered. [For earlier order herein, see 561 U. S. 1044.]",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2478.\nIn re Disbarment of Golden."
+  },
+  "file_name": "1197-04",
+  "first_page_order": 1219,
+  "last_page_order": 1219
+}

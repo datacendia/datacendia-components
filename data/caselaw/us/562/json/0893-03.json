@@ -1,0 +1,59 @@
+{
+  "id": 5986124,
+  "name": "Crandall et al. v. City and County of Denver, Colorado, dba Denver International Airport",
+  "name_abbreviation": "Crandall v. City & County of Denver",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-84",
+  "first_page": "893",
+  "last_page": "893",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 893"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 21,
+    "char_count": 136,
+    "ocr_confidence": 0.499,
+    "sha256": "cdef3f4167cbb59161bde8049e4949211a4f23ecb2fa0bbe743e16b663dc1a90",
+    "simhash": "1:978e718d9366f0ec",
+    "word_count": 22
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Crandall et al. v. City and County of Denver, Colorado, dba Denver International Airport."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-84.\nCrandall et al. v. City and County of Denver, Colorado, dba Denver International Airport."
+  },
+  "file_name": "0893-03",
+  "first_page_order": 915,
+  "last_page_order": 915
+}

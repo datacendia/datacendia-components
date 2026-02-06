@@ -99,10 +99,18 @@ export const ManufacturingPage: React.FC = () => {
                 </span>
               </div>
               <h1 className="text-4xl font-bold mb-4">Manufacturing</h1>
-              <p className="text-xl text-neutral-300 max-w-3xl">
+              <p className="text-xl text-neutral-300 max-w-3xl mb-6">
                 Supply chain resilience and operational intelligence. Real-time production
                 optimization with OT security integration.
               </p>
+              <div className="flex gap-4">
+                <button
+                  onClick={() => navigate('/cortex/council?vertical=manufacturing')}
+                  className="px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white rounded-lg font-semibold transition-colors flex items-center gap-2"
+                >
+                  <span>🏛️</span> Launch Manufacturing Council
+                </button>
+              </div>
             </div>
             <div className="text-right">
               <p className="text-sm text-neutral-400">Pilot Result</p>

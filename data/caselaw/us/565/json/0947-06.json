@@ -1,0 +1,59 @@
+{
+  "id": 12227394,
+  "name": "McCarthy v. Brown, Warden",
+  "name_abbreviation": "McCarthy v. Brown",
+  "decision_date": "2011-10-11",
+  "docket_number": "No. 11-5611",
+  "first_page": "947",
+  "last_page": "947",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 947"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.734,
+    "sha256": "2e0635983750df1ae2b7aa5da4de65f886fafb33d2d31f55e0abac3eb4664c17",
+    "simhash": "1:208ac0539fafb565",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McCarthy v. Brown, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5611.\nMcCarthy v. Brown, Warden."
+  },
+  "file_name": "0947-06",
+  "first_page_order": 1029,
+  "last_page_order": 1029
+}

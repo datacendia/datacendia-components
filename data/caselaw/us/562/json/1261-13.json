@@ -1,0 +1,59 @@
+{
+  "id": 6016280,
+  "name": "Stewart v. United States",
+  "name_abbreviation": "Stewart v. United States",
+  "decision_date": "2011-02-28",
+  "docket_number": "No. 10-8663",
+  "first_page": "1261",
+  "last_page": "1261",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1261"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.588,
+    "sha256": "d067021b5d0ca095f49ff9a4a95fe2b7c0106ce743cd363de2faaef9e6c2c7e6",
+    "simhash": "1:b50ab20f4e151040",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Stewart v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8663.\nStewart v. United States."
+  },
+  "file_name": "1261-13",
+  "first_page_order": 1283,
+  "last_page_order": 1283
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12218060,
+  "name": "Frederick v. United States",
+  "name_abbreviation": "Frederick v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5214",
+  "first_page": "895",
+  "last_page": "895",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 895"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.678,
+    "sha256": "6baeb65d0cfe425ca4db23e545e6e407c93b06a16771d5353ca32656141dc76c",
+    "simhash": "1:953783d3135c1559",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Frederick v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5214.\nFrederick v. United States."
+  },
+  "file_name": "0895-09",
+  "first_page_order": 977,
+  "last_page_order": 977
+}

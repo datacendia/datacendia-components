@@ -1,0 +1,116 @@
+{
+  "id": 12228915,
+  "name": "Perry v. New Hampshire",
+  "name_abbreviation": "Perry v. New Hampshire",
+  "decision_date": "2011-10-17",
+  "docket_number": "No. 10-8974",
+  "first_page": "961",
+  "last_page": "961",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 961"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "563 U. S. 1020",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5963410,
+        5944851,
+        5944998,
+        5911345,
+        5965365,
+        5940806,
+        5941591,
+        5922137,
+        12450266,
+        12450265,
+        12450142,
+        12450143,
+        12450144,
+        12450145,
+        12450146,
+        12450147,
+        12450148,
+        5921641,
+        5951339,
+        12450293,
+        12450294,
+        12450295,
+        5941371
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/563/1020-01",
+        "/us/563/1020-03",
+        "/us/563/1020-02",
+        "/us/563/1020-07",
+        "/us/563/1020-08",
+        "/us/563/1020-11",
+        "/us/563/1020-05",
+        "/us/563/1020-06",
+        "/l-ed-2d/180/0239-05",
+        "/l-ed-2d/180/0239-04",
+        "/l-ed-2d/180/0223-03",
+        "/l-ed-2d/180/0223-04",
+        "/l-ed-2d/180/0223-05",
+        "/l-ed-2d/180/0223-06",
+        "/l-ed-2d/180/0224-01",
+        "/l-ed-2d/180/0224-02",
+        "/l-ed-2d/180/0224-03",
+        "/us/563/1020-10",
+        "/us/563/1020-04",
+        "/l-ed-2d/180/0243-01",
+        "/l-ed-2d/180/0243-02",
+        "/l-ed-2d/180/0243-03",
+        "/us/563/1020-09"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 33,
+    "char_count": 215,
+    "ocr_confidence": 0.666,
+    "sha256": "12e4a84ad58fae41fae7e5d3e71b128086a6831b78e885ed2ae7edbc10e39912",
+    "simhash": "1:9384a16182c7a65d",
+    "word_count": 36
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Perry v. New Hampshire."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. N. H. [Certiorari granted, 563 U. S. 1020.] Motion of the Solicitor General for leave to participate in oral argument as amicus curiae and for divided argument granted.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8974.\nPerry v. New Hampshire."
+  },
+  "file_name": "0961-06",
+  "first_page_order": 1043,
+  "last_page_order": 1043
+}

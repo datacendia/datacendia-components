@@ -1,0 +1,143 @@
+{
+  "id": 12519635,
+  "name": "UNITED STATES of America, Plaintiff - Appellee, v. Joseph L. HILL, Defendant - Appellant.",
+  "name_abbreviation": "United States v. Hill",
+  "decision_date": "2019-01-10",
+  "docket_number": "No. 17-2425",
+  "first_page": "1135",
+  "last_page": "1137",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "912 F.3d 1135"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "8th Cir.",
+    "id": 8821,
+    "name": "United States Court of Appeals for the Eighth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "895 F.3d 1075",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12517566
+      ],
+      "year": 2018,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/895/1075-01"
+      ]
+    },
+    {
+      "cite": "540 F.3d 356",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4234183
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "365"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/540/0356-01"
+      ]
+    },
+    {
+      "cite": "669 F.3d 880",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3724090
+      ],
+      "year": 2012,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/669/0880-01"
+      ]
+    },
+    {
+      "cite": "Mo. Rev. Stat. \u00a7\u00a7 195.010",
+      "category": "laws:leg_statute",
+      "reporter": "Mo. Rev. Stat.",
+      "pin_cites": [
+        {
+          "page": "(8)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 924",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(e)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 922",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(g)(1)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 222,
+    "char_count": 2946,
+    "pagerank": {
+      "raw": 5.627316783393982e-08,
+      "percentile": 0.35179309681761367
+    },
+    "sha256": "8d1fe3764439f8fdd1f4263b8708d41de072a0f217939428521941067c15d443",
+    "simhash": "1:6d8cac41faa9c0c3",
+    "word_count": 476
+  },
+  "last_updated": "2024-02-27T18:46:08.625841+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before COLLOTON, GRUENDER, and GRASZ, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff - Appellee,\nv.\nJoseph L. HILL, Defendant - Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "PER CURIAM.\nJoseph Hill pleaded guilty to unlawful possession of ammunition as a previously convicted felon, in violation of 18 U.S.C. \u00a7 922(g)(1). The district court determined that Hill qualified as an armed career criminal under the Armed Career Criminal Act, 18 U.S.C. \u00a7 924(e)(1), because he had sustained three prior convictions for \"a serious drug offense\" within the meaning of \u00a7 924(e)(2)(A)(ii). The court therefore sentenced him to the statutory minimum term of fifteen years' imprisonment. Hill argues on appeal that his prior convictions under Missouri law do not qualify as serious drug offenses, so he is not an armed career criminal, and that the maximum punishment for his offense is therefore only ten years' imprisonment. See id. \u00a7 924(a)(2).\nIn concluding that Hill was an armed career criminal, the district court cited four prior convictions under Missouri Revised Statutes \u00a7 195.211.1 (1989), which criminalized the distribution, delivery, manufacture, or production of a controlled substance. \"Delivery\" includes both the sale of a controlled substance and the \"offer therefor.\" See Mo. Rev. Stat. \u00a7\u00a7 195.010(8) and 195.010(36) (1997). Hill observes that the definition of \"serious drug offense\" under \u00a7 924(e)(2)(A)(ii) requires an offense under state law \"involving manufacturing, distributing, or possessing with intent to manufacture or distribute\" a controlled substance. He argues that a state crime involving merely an offer to sell drugs does not qualify.\nHill's argument is foreclosed by the reasoning of United States v. Bynum , 669 F.3d 880 (8th Cir. 2012). There, we held that a knowing offer to sell drugs in Minnesota is a crime \"involving\" the distribution of drugs, because it is \"related to or connected with\" drug distribution. Id . at 886 (quoting United States v. Vickers , 540 F.3d 356, 365 (5th Cir. 2008) ). United States v. Wadena , 895 F.3d 1075 (8th Cir. 2018), reiterated that an offer to sell drugs is a serious drug offense under the Act. Id . at 1077. For the same reasons, the district court properly counted Hill's convictions under a Missouri statute that forbade an offer to sell controlled substances. With three prior convictions for a serious drug offense, Hill qualified as an armed career criminal and was subject to the mandatory minimum term of fifteen years' imprisonment.\nThe judgment of the district court is affirmed.\nThe Honorable Beth Phillips, United States District Judge for the Western District of Missouri.",
+        "type": "majority",
+        "author": "PER CURIAM."
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff - Appellee,\nv.\nJoseph L. HILL, Defendant - Appellant.\nNo. 17-2425\nUnited States Court of Appeals, Eighth Circuit.\nSubmitted: September 24, 2018\nFiled: January 10, 2019\nRehearing En Banc Denied April 11, 2019\nCounsel who represented the appellant was John G. Gromowsky of Kansas City, MO.\nCounsel who represented the appellee was Stefan C. Hughes, AUSA, of Kansas City, MO.\nBefore COLLOTON, GRUENDER, and GRASZ, Circuit Judges."
+  },
+  "file_name": "1135-01",
+  "first_page_order": 1135,
+  "last_page_order": 1137
+}

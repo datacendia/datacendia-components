@@ -1,0 +1,59 @@
+{
+  "id": 12207375,
+  "name": "Cook v. West Virginia",
+  "name_abbreviation": "Cook v. West Virginia",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10890",
+  "first_page": "855",
+  "last_page": "855",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 855"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 77,
+    "ocr_confidence": 0.718,
+    "sha256": "93cf2061c2d2f601e54f75ecd109344c340e97098805fe7e3b8c7390d04c60d7",
+    "simhash": "1:621420ab97482139",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cook v. West Virginia."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. App. W. Va. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10890.\nCook v. West Virginia."
+  },
+  "file_name": "0855-10",
+  "first_page_order": 937,
+  "last_page_order": 937
+}

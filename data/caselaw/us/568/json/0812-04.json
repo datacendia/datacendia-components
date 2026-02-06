@@ -1,0 +1,59 @@
+{
+  "id": 12408558,
+  "name": "In re Estrada",
+  "name_abbreviation": "In re Estrada",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5424",
+  "first_page": "812",
+  "last_page": "812",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 812"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 25,
+    "char_count": 171,
+    "ocr_confidence": 0.641,
+    "sha256": "7b2485994a3c8fb7bed5f73411c95654f09b3bd62c8a56e2974157441f9e2b68",
+    "simhash": "1:6989045c0a71a75e",
+    "word_count": 28
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Estrada."
+    ],
+    "opinions": [
+      {
+        "text": "Motion of petitioner for leave to proceed in forma pauperis denied, and \u00a1petition for writ of mandamus dismissed. See this Court\u2019s Rule' 39.8.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5424.\nIn re Estrada."
+  },
+  "file_name": "0812-04",
+  "first_page_order": 888,
+  "last_page_order": 888
+}

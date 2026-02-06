@@ -1,0 +1,59 @@
+{
+  "id": 5987787,
+  "name": "Salter v. United States",
+  "name_abbreviation": "Salter v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5568",
+  "first_page": "929",
+  "last_page": "929",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 929"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.605,
+    "sha256": "8c9f721f7c7dfaa8982ae71f77088cc05250de8e99bc7d8dd79021048a0545ba",
+    "simhash": "1:95bb67830fbd5328",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Salter v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5568.\nSalter v. United States."
+  },
+  "file_name": "0929-08",
+  "first_page_order": 951,
+  "last_page_order": 951
+}

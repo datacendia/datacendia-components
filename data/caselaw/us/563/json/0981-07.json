@@ -1,0 +1,59 @@
+{
+  "id": 4225650,
+  "name": "Orr v. United States",
+  "name_abbreviation": "Orr v. United States",
+  "decision_date": "2011-05-02",
+  "docket_number": "No. 10-9805",
+  "first_page": "981",
+  "last_page": "981",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 981"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 69,
+    "ocr_confidence": 0.56,
+    "sha256": "32decb3cb6bac0d54d451c84d32507d7064e0fbaafb85746f325dd33f83d0020",
+    "simhash": "1:264bd202479f5c70",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Orr v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9805.\nOrr v. United States."
+  },
+  "file_name": "0981-07",
+  "first_page_order": 1007,
+  "last_page_order": 1007
+}

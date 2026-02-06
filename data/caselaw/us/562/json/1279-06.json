@@ -1,0 +1,59 @@
+{
+  "id": 5924759,
+  "name": "Rowls v. United States",
+  "name_abbreviation": "Rowls v. United States",
+  "decision_date": "2011-03-07",
+  "docket_number": "No. 10-8872",
+  "first_page": "1279",
+  "last_page": "1279",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1279"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.602,
+    "sha256": "c3f835fe6bff8801ea7c6d9488902f470b71eb04d09f343cb42c7d0695dc640b",
+    "simhash": "1:47a98a2347af905e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rowls v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8872.\nRowls v. United States."
+  },
+  "file_name": "1279-06",
+  "first_page_order": 1301,
+  "last_page_order": 1301
+}

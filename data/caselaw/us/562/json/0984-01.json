@@ -1,0 +1,59 @@
+{
+  "id": 5987641,
+  "name": "Williamson v. Maryland",
+  "name_abbreviation": "Williamson v. Maryland",
+  "decision_date": "2010-10-18",
+  "docket_number": "No. 10-5936",
+  "first_page": "984",
+  "last_page": "984",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 984"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 70,
+    "ocr_confidence": 0.638,
+    "sha256": "7f976143f51c0f5243de3b82165567cabc2ffa8cd0fdc8b1e1f4cd0848dc9d5c",
+    "simhash": "1:028c200048d8c3f6",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Williamson v. Maryland."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Md. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5936.\nWilliamson v. Maryland."
+  },
+  "file_name": "0984-01",
+  "first_page_order": 1006,
+  "last_page_order": 1006
+}

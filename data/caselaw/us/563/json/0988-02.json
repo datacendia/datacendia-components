@@ -1,0 +1,59 @@
+{
+  "id": 4225933,
+  "name": "Flint v. Chauvin",
+  "name_abbreviation": "Flint v. Chauvin",
+  "decision_date": "2011-05-16",
+  "docket_number": "No. 10-1083",
+  "first_page": "988",
+  "last_page": "988",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 988"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 65,
+    "ocr_confidence": 0.555,
+    "sha256": "a519ae115aaa85602ea436c9e42e674fdee6545dc92695a1fb8d7cea7bd6415b",
+    "simhash": "1:8280c2086b3d2891",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Flint v. Chauvin."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1083.\nFlint v. Chauvin."
+  },
+  "file_name": "0988-02",
+  "first_page_order": 1014,
+  "last_page_order": 1014
+}

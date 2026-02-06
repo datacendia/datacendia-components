@@ -1,0 +1,59 @@
+{
+  "id": 5975335,
+  "name": "Zavala v. Drug Enforcement Agency",
+  "name_abbreviation": "Zavala v. Drug Enforcement Agency",
+  "decision_date": "2010-11-01",
+  "docket_number": "No. 10-6438",
+  "first_page": "1015",
+  "last_page": "1015",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1015"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 84,
+    "ocr_confidence": 0.539,
+    "sha256": "557ed90b5d1de6ad91c4fa07810b36906ef5e25bab508da631a969f0f989d91c",
+    "simhash": "1:8ff36629401ee5e4",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Zavala v. Drug Enforcement Agency."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. D. C. Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6438.\nZavala v. Drug Enforcement Agency."
+  },
+  "file_name": "1015-01",
+  "first_page_order": 1037,
+  "last_page_order": 1037
+}

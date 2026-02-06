@@ -1,0 +1,59 @@
+{
+  "id": 12223202,
+  "name": "Hoffman-Portillo v. United States",
+  "name_abbreviation": "Hoffman-Portillo v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5656",
+  "first_page": "918",
+  "last_page": "918",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 918"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 82,
+    "ocr_confidence": 0.698,
+    "sha256": "8f80c0d79fe2bd6772bcaf49e9392c24d79dc142d4bfec86410dfd55d80641ef",
+    "simhash": "1:056a938388189049",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hoffman-Portillo v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5656.\nHoffman-Portillo v. United States."
+  },
+  "file_name": "0918-03",
+  "first_page_order": 1000,
+  "last_page_order": 1000
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12414704,
+  "name": "Myles v. California",
+  "name_abbreviation": "Myles v. California",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-11046",
+  "first_page": "876",
+  "last_page": "876",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 876"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 69,
+    "ocr_confidence": 0.659,
+    "sha256": "e2c57612f45d4fd5c6b1ffab652b0e257854911e11929c92e671b617c4894e8f",
+    "simhash": "1:884f1dc18c08c06e",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Myles v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Cal. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-11046.\nMyles v. California."
+  },
+  "file_name": "0876-05",
+  "first_page_order": 952,
+  "last_page_order": 952
+}

@@ -1,0 +1,68 @@
+{
+  "id": 12704258,
+  "name": "John TRUDEAU, petitioner, v. MASSACHUSETTS.",
+  "name_abbreviation": "Trudeau v. Mass.",
+  "decision_date": "2013-10-15",
+  "docket_number": "No. 13\u20135742.",
+  "first_page": "959",
+  "last_page": "959",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 959"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 292"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 434"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 23,
+    "char_count": 186,
+    "sha256": "738a8267030fcb5c6cd85a265b3134b8f2e2461c57a47494d02d10f48329d15c",
+    "simhash": "1:69afb21ebcd540d9",
+    "word_count": 28
+  },
+  "last_updated": "2021-09-08T21:16:17.237805+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "John TRUDEAU, petitioner,\nv.\nMASSACHUSETTS."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of certiorari to the Appeals Court of Massachusetts denied."
+    ],
+    "corrections": "",
+    "head_matter": "John TRUDEAU, petitioner,\nv.\nMASSACHUSETTS.\nNo. 13-5742.\nSupreme Court of the United States\nOct. 15, 2013.\nPetition for writ of certiorari to the Appeals Court of Massachusetts denied."
+  },
+  "file_name": "0959-12",
+  "first_page_order": 959,
+  "last_page_order": 959
+}

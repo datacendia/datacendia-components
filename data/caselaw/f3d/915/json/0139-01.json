@@ -1,0 +1,519 @@
+{
+  "id": 12520025,
+  "name": "UNITED STATES of America v. Maliki Hassan CHAPMAN, a/k/a Terrence Wallace, Appellant",
+  "name_abbreviation": "United States v. Chapman",
+  "decision_date": "2019-02-07",
+  "docket_number": "No. 17-1656",
+  "first_page": "139",
+  "last_page": "147",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "915 F.3d 139"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "3rd Cir.",
+    "id": 9319,
+    "name": "United States Court of Appeals for the Third Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "28 U.S.C. \u00a7 46",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(d)"
+        }
+      ],
+      "opinion_index": -1
+    },
+    {
+      "cite": "10 F.3d 155",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10505959
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "167"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/10/0155-01"
+      ]
+    },
+    {
+      "cite": "261 F.3d 370",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9495737
+      ],
+      "weight": 2,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "376"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/261/0370-01"
+      ]
+    },
+    {
+      "cite": "628 F.2d 1178",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1292695
+      ],
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "1184"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/628/1178-01"
+      ]
+    },
+    {
+      "cite": "208 F.3d 140",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11450091
+      ],
+      "year": 2000,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/208/0140-01"
+      ]
+    },
+    {
+      "cite": "150 F.3d 459",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1540760
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "463-64"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/150/0459-01"
+      ]
+    },
+    {
+      "cite": "948 F.2d 325",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1859494
+      ],
+      "weight": 2,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "329"
+        },
+        {
+          "page": "329"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/948/0325-01"
+      ]
+    },
+    {
+      "cite": "850 F.3d 1130",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12277854
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1136",
+          "parenthetical": "quoting United States v. Barnes , 948 F.2d 325, 329 (7th Cir. 1991) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/850/1130-01"
+      ]
+    },
+    {
+      "cite": "809 F.3d 766",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4058561
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "parenthetical": "quoting Ward , 732 F.3d at 182 "
+        },
+        {
+          "page": "778"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/809/0766-01"
+      ]
+    },
+    {
+      "cite": "200 F.3d 653",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4233655
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "658"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/200/0653-01"
+      ]
+    },
+    {
+      "cite": "33 F.3d 125",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10522634
+      ],
+      "weight": 2,
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "129"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/33/0125-01"
+      ]
+    },
+    {
+      "cite": "537 F.3d 1256",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4130949
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "1262"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/537/1256-01"
+      ]
+    },
+    {
+      "cite": "732 F.3d 175",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3710106
+      ],
+      "weight": 6,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "181",
+          "parenthetical": "citing Adams , 252 F.3d at 280, and Green , 365 U.S. at 304, 81 S.Ct. 653 "
+        },
+        {
+          "page": "181"
+        },
+        {
+          "page": "181",
+          "parenthetical": "quoting United States v. De Alba Pagan , 33 F.3d 125, 129 (1st Cir. 1994) "
+        },
+        {
+          "page": "182"
+        },
+        {
+          "page": "181"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/732/0175-01"
+      ]
+    },
+    {
+      "cite": "365 U.S. 301",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6165875
+      ],
+      "weight": 7,
+      "year": 1961,
+      "pin_cites": [
+        {
+          "page": "304",
+          "parenthetical": "plurality opinion"
+        },
+        {
+          "parenthetical": "plurality opinion"
+        },
+        {
+          "parenthetical": "plurality opinion"
+        },
+        {
+          "page": "304"
+        },
+        {
+          "page": "304"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/365/0301-01"
+      ]
+    },
+    {
+      "cite": "359 F.3d 247",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9283581
+      ],
+      "weight": 4,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "250"
+        },
+        {
+          "page": "249-250"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/359/0247-01"
+      ]
+    },
+    {
+      "cite": "769 F.3d 197",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4265879
+      ],
+      "weight": 3,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "202"
+        },
+        {
+          "page": "200"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/769/0197-01"
+      ]
+    },
+    {
+      "cite": "252 F.3d 276",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11086259
+      ],
+      "weight": 7,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "280"
+        },
+        {
+          "page": "281"
+        },
+        {
+          "page": "288"
+        },
+        {
+          "page": "288",
+          "parenthetical": "citation omitted"
+        },
+        {
+          "page": "287"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/252/0276-01"
+      ]
+    },
+    {
+      "cite": "750 F.2d 1183",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        628894
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "1195"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/750/1183-01"
+      ]
+    },
+    {
+      "cite": "947 F.2d 72",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10520972
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "73",
+          "parenthetical": "citing United States v. Fischbach & Moore, Inc. , 750 F.2d 1183, 1195 (3d Cir. 1984) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/947/0072-01"
+      ]
+    },
+    {
+      "cite": "376 U.S. 575",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        379455
+      ],
+      "weight": 3,
+      "year": 1964,
+      "pin_cites": [
+        {
+          "page": "589"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/376/0575-01"
+      ]
+    },
+    {
+      "cite": "503 F.3d 240",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        2923892
+      ],
+      "weight": 2,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "245-246",
+          "parenthetical": "citations omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/503/0240-01"
+      ]
+    },
+    {
+      "cite": "115 F.3d 125",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11974464
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "132",
+          "parenthetical": "citing 3A Charles Alan Wright, Federal Practice & Procedure: Criminal 2d \u00a7 851, at 294 (2d ed. 1982)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/115/0125-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 998,
+    "char_count": 21136,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2591844157709581
+    },
+    "sha256": "b53c277e90a31bb503449eaae8dca997e6b65f136e62c7ebfc46f41f240c74db",
+    "simhash": "1:bb38cf27e7a14559",
+    "word_count": 3389
+  },
+  "last_updated": "2024-02-27T18:46:27.774001+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before: McKEE, VANASKIE and RESTREPO, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America\nv.\nMaliki Hassan CHAPMAN, a/k/a Terrence Wallace, Appellant"
+    ],
+    "opinions": [
+      {
+        "text": "RESTREPO, Circuit Judge\nIn June of 2016, Maliki Hassan Chapman pled guilty to conspiracy to possess with the intent to distribute cocaine. After several continuances, the District Court set a date for Chapman's sentencing hearing in March of 2017. On the scheduled date, Chapman immediately informed the Court that he was never told of the hearing due to his counsel's error and therefore had been unable to notify his family of his sentencing. He requested a continuance so that his family could be present and provide the Court with letters of support. The District Court acknowledged that defense counsel's error caused Chapman's lack of notice but denied the request, stating that proceeding with the sentencing as scheduled would not impact his substantive rights. We disagree. The Court's ruling constituted an abuse of discretion because it interfered with Chapman's right to allocution as codified in the Federal Rules of Criminal Procedure, which allows a defendant to present any information that could persuade a court to impose a lesser sentence. Fed. R. Crim. P. 32(i)(4)(A). Because the District Court's ruling impermissibly contravened the principles underlying Rule 32, we vacate Chapman's sentence and remand the case for a resentencing.\nI.\nFor several years, Chapman engaged in the selling of narcotics in Williamsport and Harrisburg, Pennsylvania. He would supply sellers with cocaine purchased from a source in New Jersey. Chapman had hidden compartments installed in his cars to facilitate the transportation of cocaine. His business generated significant amounts of cash; on December 12, 2012, police officers recovered over $ 75,000 from his hotel room in a township near Harrisburg.\nAs the business progressed, Chapman supplied cocaine to sellers working for a coconspirator, Chris Batten. In April of 2013, Pennsylvania State Police recovered approximately 22 ounces of cocaine powder from the trunk of Chapman's car during a traffic stop in Lancaster County. In May of the following year, police found $ 32,060 in cash in Chapman's car pursuant to a traffic stop in Montgomery County.\nOn June 2, 2016, Chapman pled guilty to conspiracy to possess with the intent to distribute at least three and a half, but less than five, kilograms of cocaine. Chapman had two prior felony convictions and qualified as a career offender. With a three level adjustment for acceptance of responsibility, the applicable guideline imprisonment range was 188 to 235 months. In exchange for the plea, the government agreed to recommend a sentence of 188 months' imprisonment. The government also agreed that Chapman could request a sentence lower than the guideline range, but not lower than 144 months imprisonment.\nOn November 1, 2016, the District Court ordered that Chapman's sentencing be held November 30, 2016. On November 29, 2016, Chapman's counsel filed an unopposed motion to continue sentencing until February 2017, which the District Court granted. The parties had a status conference on December 2, 2016 and agreed to defer sentencing for approximately six weeks. On February 2, 2017, the day after conferring with the parties, the District Court issued an order setting March 10, 2017 as the date for Chapman's sentencing.\nOn that date, Chapman immediately told the District Court that he did not know he was to be sentenced that day and, had he known, his family would have been present in the courtroom. He asked for a continuance of \"at least a week,\" so that he \"could send [the Court] letters\" from both himself and his family members. Chapman acknowledged that the letters might not \"help\" him, but he believed they would \"just show [the Court] a little bit of things about [him].\" Appendix 60.\nThe District Court acknowledged that Chapman's counsel \"misread a prior scheduling order,\" but denied the request for a continuance. Appendix 60. The Court stated: \"I know what I think I need to know about your case,\" adding that it would grant the continuance \"despite [its] irritation\" with counsel if Chapman's substantive rights were impacted by sentencing him as scheduled. Appendix 63. The District Court assured Chapman that its \"pique\" at his counsel would not \"in any way affect\" the sentence Chapman was about to receive. Appendix 63.\nThe District Court asked Chapman if he had the opportunity to review his presentence report with his counsel, to which Chapman responded he had not. After conferencing with his counsel at the direction of the Court, Chapman amended his answer and stated that he and his counsel \"had a brief discussion by telephone. Nothing in person.\" Appendix 66. Chapman's counsel presented two objections to the report, both of which were overruled by the Court.\nChapman's counsel spoke on his behalf, referencing a letter Chapman had sent to the District Court prior to the sentencing. The District Court stated that it had read the letter, twice, and then asked Chapman if he would like to address the Court regarding what he believed it \"should consider in imposing sentence[.]\" Appendix 76. Chapman accepted the invitation and told the District Court that he had recently finished a second letter but did not have it with him, again stating that he was \"kind of caught off guard\" by the sentencing hearing. Appendix 76.\nThe District Court sentenced Chapman to a 192 month term of imprisonment. Chapman appealed to this Court, claiming the District Court's decision to impose sentence without allowing him to present mitigating information he would have provided had he had notice of his sentencing violated his right to allocution.\nII.\nInitially, we find Chapman's contemporaneous comments to the District Court requesting a continuance sufficient to preserve this issue on appeal. While Chapman's counsel did not object, Chapman himself immediately protested once it became clear the Court intended to proceed with sentencing. After acknowledging that Chapman's ignorance as to his sentencing date was his own counsel's fault, the Court denied Chapman's request for a continuance, stating that the denial did not result in a violation of his substantive rights. In this statement, the District Court enunciated the precise issue raised on appeal: whether imposing sentence despite Chapman's justified inability to provide mitigating information he had anticipated presenting to the Court improperly limited his right to allocution. Accordingly, the issue is preserved. See United States v. Feng Li , 115 F.3d 125, 132 (2nd Cir. 1997) (citing 3A Charles Alan Wright, Federal Practice & Procedure: Criminal 2d \u00a7 851, at 294 (2d ed. 1982)).\nWe review the District Court's denial of Chapman's request for a continuance for abuse of discretion. United States v. Olfano , 503 F.3d 240, 245-246 (3d Cir. 2007) (citations omitted). Because there is no \"mechanical test [ ]\" to determine if an abuse has occurred, we examine the particular circumstances of each case. Id. (quoting Ungar v. Sarafite , 376 U.S. 575, 589, 84 S.Ct. 841, 11 L.Ed.2d 921 (1964) ). When deciding a motion for a continuance, a court should consider the efficient administration of criminal justice, the accused's rights, and the rights of other defendants who may be prejudiced by a continuance. United States v. Kikumura , 947 F.2d 72, 73 (3d Cir. 1991) (citing United States v. Fischbach & Moore, Inc. , 750 F.2d 1183, 1195 (3d Cir. 1984) ).\nUpon examining the particular circumstances of this sentencing, it is plain the District Court erred by denying Chapman's request to postpone his sentencing. In so doing, the Court unfairly deprived Chapman of his right to a full and meaningful allocution. Because preserving Chapman's right to allocution outweighs the other relevant considerations, the Court's ruling constituted an abuse of discretion.\nHaving found that Chapman's preserved claim has merit, we review the District Court's abuse of discretion under the harmless error doctrine to determine whether a substantial right was impacted. See Fed. R. Crim P. 52(a) ; United States v. Adams , 252 F.3d 276, 284 n.5 (3d Cir. 2001). While not constitutionally protected, the right to allocution is deemed a substantial right because it could influence a court's sentencing decision. United States v. Paladino , 769 F.3d 197, 202 (3d Cir. 2014) ; United States v. Plotts , 359 F.3d 247, 250 (3d Cir. 2004). Allocution is \"ancient in origin, and it is the type of important safeguard that helps assure the fairness, and hence, legitimacy, of the sentencing process.\" Id. (quoting United States v. Adams , 252 F.3d at 288 ). While defendants have been granted additional rights and procedural safeguards over time, \"[n]one of these modern innovations lessens the need for the defendant, personally, to have the opportunity to present to the court his plea in mitigation.\" Paladino , 769 F.3d at 200 (quoting Green v. United States , 365 U.S. 301, 304, 81 S.Ct. 653, 5 L.Ed.2d 670 (1961) (plurality opinion)). The Supreme Court in Green recognized that \"[t]he most persuasive counsel may not be able to speak for a defendant as the defendant might, with halting eloquence, speak for himself.\" Green , 365 U.S. at 304, 81 S.Ct. 653.\nCongress codified the right to allocution in 1944 by promulgating Federal Rule of Criminal Procedure 32, which instructs that \"before imposing sentence, the court must ... address defendant personally in order to permit the defendant to speak or present any information to mitigate the sentence.\" Fed. R. Crim. P. 32(i)(4)(A)(ii) ; United States v. Ward , 732 F.3d 175, 181 (3d Cir. 2013) (citing Adams , 252 F.3d at 280, and Green , 365 U.S. at 304, 81 S.Ct. 653 ). This Court has determined that the \"critical purpose\" of allocution is threefold: \"1) to allow the defendant to present mitigating circumstances, 2) to permit the defendant to present personal characteristics to enable the sentencing court to craft an individualized sentence, and (3) to preserve the appearance of fairness in the criminal justice system.\" Ward , 732 F.3d at 181. When the purpose served by allocution is compromised, prejudice against the defendant is presumed and a re-sentencing is warranted. Adams , 252 F.3d at 281.\nInformation that could potentially mitigate a sentence draws from a wide range of sources. Accordingly, Rule 32 grants a defendant the broad right to present \"any\" material he believes might appeal to the court's compassion. When a court unjustifiably limits a defendant's ability to introduce information he reasonably believes is \"the best case for mitigating the sentence,\" the purpose underlying allocution is thwarted. United States v. Jarvi , 537 F.3d 1256, 1262 (10th Cir. 2008). Moreover, unduly limiting allocution compromises a court's own ability to sentence the individual standing before it and to \"temper punishment with mercy in appropriate cases.\" United States v. Ward , 732 F.3d 175, 181 (3d Cir. 2013) (quoting United States v. De Alba Pagan , 33 F.3d 125, 129 (1st Cir. 1994) ). Given that an inclusive allocution better informs the sentencing decision, a court should encourage a defendant to present all available relevant and illuminating information.\nOf course, a defendant's right to allocution is not without limitations. \"The sentencing judge has always retained the discretion to place certain restrictions on what may be presented during an allocution.\" Ward , 732 F.3d at 182. A district court is entitled to require that a defendant's comments remain germane to determining what sentence should be imposed.\nUnited States v. Mack , 200 F.3d 653, 658 (9th Cir. 2000).\nBut a court's limitation as to duration and scope must not subvert the policy goals underlying Rule 32, which are to grant a defendant the opportunity to explain why he is worthy of mercy. United States v. Moreno , 809 F.3d 766 (3d Cir. 2016) (quoting Ward , 732 F.3d at 182 ). See also Bustamante-Conchas, 850 F.3d 1130, 1136 (10th Cir. 2017) (quoting United States v. Barnes , 948 F.2d 325, 329 (7th Cir. 1991) ) (\"The right to allocution is the right to have your request for mercy factored into the sentencing decision.\")\nHere, Chapman was deprived of the opportunity to fully plead his case for mercy through no fault of his own. He testified that his family intended to provide the Court with supportive letters, the contents of which Chapman clearly believed had the potential to persuade the Court to temper its sentence. Given that family members are often the best source of information regarding a defendant's personal characteristics, this belief was manifestly reasonable. At a minimum the letters could have provided further insight into Chapman's individualized circumstances, thereby enhancing the Court's ability to craft an appropriate punishment. Because the letters could have impacted the sentence imposed, the Court's decision to deny their admission infringed on Chapman's right to allocution.\nIn addition to violating Chapman's right to present mitigating evidence, the District Court improperly compromised the appearance of fairness attributed to the sentencing hearing. Ward , 732 F.3d at 181. Allocution provides a court with insight into a defendant's individualized circumstances, but also \"has value in terms of maximizing the perceived equity of the process, because the defendant is given the right to speak on any subject of his choosing prior to the imposition of sentence.\" Moreno , 809 F.3d at 778 (quoting De Alba Pagan , 33 F.3d at 129 ) (emphasis added) (internal citations and quotation marks omitted). Beyond mere symbolic significance, granting a defendant the right to speak instills inherent fairness into the proceeding and \"lends legitimacy to the sentencing process.\" Adams , 252 F.3d at 288 (quoting United States v. Myers , 150 F.3d 459, 463-64 (5th Cir. 1998) ).\nInstantly the appearance of unfairness is especially stark because Chapman's own counsel thwarted his opportunity to present information he believed might best speak to the Court's mercy. Chapman was instead sentenced to a substantial term of imprisonment without the benefit of the letters his family had hoped to submit or even their presence in the courtroom. The Court acknowledged Chapman's intention to produce additional mitigating evidence but opined that his sentencing hearing had been delayed for long enough. While it is unquestionably true that Chapman's sentencing had been delayed, it is also true that judicial expediency is not served where the imposed sentence is the result of a presumably unfair proceeding and must be vacated. Despite the sentencing court's mention of its massive docket, we maintain that even \"in an age of ... an overburdened justice system, courts must continue to be cautious to avoid the appearance of dispensing assembly-line justice.\" United States v. Barnes , 948 F.2d 325, 329 (7th Cir. 1991). The denial of the right to allocution, which enables the sentencing court to craft appropriate sentences, \"is not the sort of 'isolated' or 'abstract' error that we might determine does not impact the 'fairness, integrity or public reputation of judicial proceedings.' \" Plotts , 359 F.3d at 251 (citing Adams , 252 F.3d at 288 (citation omitted)). Accordingly, we grant relief in this case.\nFinally, the government argues that Chapman is not entitled to relief because he did not identify any \"palpable prejudice\" resulting from the Court's refusal to allow for the submission of additional mitigating information. Under this Court's jurisprudence, however, prejudice will ordinarily be presumed where a defendant's right to allocution has been violated. Paladino , 769 F.3d at 202-203 ; Plotts , 359 F.3d at 249-250. Prejudice resulting from a violation need not be \"palpable\"; it is sufficient for a defendant to establish there was \"opportunity for such a violation to have played a role in the district court's sentencing decision.\" Adams , 252 F.3d at 287. The Court sentenced Chapman to a sentence of 192 months' imprisonment, more than the minimum guideline sentence of 188 months. Chapman's plea agreement reserved the right to advocate for a sentence of 144 months' imprisonment, which his counsel did at his sentencing hearing. The Court plainly had the discretion to grant Chapman a lower sentence than the one imposed. United States v. Beckett , 208 F.3d 140 (3d Cir. 2000). Chapman intended to include the letters by his family members in his plea for mitigation, and this intention was frustrated due to factors beyond his control. The letters might have provided additional persuasive mitigating circumstances not otherwise known to the Court. Regardless of whether the letters would have in fact brought about a lesser sentence, the law - as well as a sense of basic fairness - dictates that Chapman not be prevented from presenting mitigating information because of his own counsel's oversight and the Court's congested docket. Accordingly, we reverse and remand the case for resentencing.\nIII.\nA resentencing necessitated by a judge's failure to grant a defendant a full and meaningful allocution raises the question as to whether the same judge should address the resentencing upon remand. United States v. Navarro-Flores , 628 F.2d 1178, 1184 (9th Cir. 1980). Although we recognize that, in most cases in which there may be a need for resentencing, it is our practice to remand the matter to the originally presiding judge, we can exercise our supervisory power to reassign the case if we deem that to be the better course. Gov't of the V.I. v. Walker , 261 F.3d 370, 376 (3d Cir. 2001). We do not doubt that, in this case, the able judge who has handled the matter would accept whatever additional submissions the defense might proffer in connection with a resentencing and would endeavor in all good conscience to be fair and impartial. But we are mindful too of the imperative to \"preserve not only the reality but also the appearance of the proper functioning of the judiciary as a neutral, impartial administrator of justice.\" Id. (quoting Alexander v. Primerica Holdings , 10 F.3d 155, 167 (3d Cir. 1993) ).\nHere, the District Court must not only meaningfully consider on remand the Chapman family's letters, it must be seen by the defendant, his family, and the public at large as not being influenced by the prior decision that such letters were not substantively significant. The judge is on record as saying he already knew what he needed to know, and that statement, unfortunately, could be understood as saying it did not matter what Chapman or his family might say in mitigation. Appendix 63. In this particular circumstance, we think it best to remand to a different judge, so that the fairness of the sentencing process cannot reasonably be questioned at all.\nChapman testified as follows:\nGood afternoon, Your Honor. Yes. My concern is that is that I didn't know nothing about this, about my sentencing. ... My family wasn't notified that I had court. They support me and they would be here. And I have letters that support. And just a lot of things that I didn't know about that I think maybe - I can't say it would help me, but it would just show you a little bit of things about me.\nThis is just - this is, like, um - I just didn't know nothing about this, Your Honor. I would ask if maybe I could get like a reschedule maybe for at least a week or something so I can send you letters, because I have letters that I wanted to send you and my family wanted to send you.\nAppendix 59-60. Chapman also requested the continuance so that he and his counsel could review the presentence memo, which he stated they \"never went over.\" Appendix 60. This grounds for a continuance was not raised as an issue on appeal.\nWe note that the government's recommendation of a sentence of 188 to 235 months' imprisonment violated the terms of the plea agreement, which stated that the government would recommend a flat term of 188 months' imprisonment. The government acknowledges this error, but states that a violation of the plea agreement is not an issue on appeal. This is correct. However, given that the fairness of Chapman's sentencing is at issue, the government's decision to ask for a term of imprisonment longer than the one agreed upon by the parties further compromises the perceived equity of the sentencing process.",
+        "type": "majority",
+        "author": "RESTREPO, Circuit Judge"
+      }
+    ],
+    "attorneys": [
+      "Lisa B. Freeland, Candace Cain [ARGUED], Office of Federal Public Defender, 1001 Liberty Avenue, 1500 Liberty Center, Pittsburgh, PA 15222, Counsel for Appellant.",
+      "David J. Freed, George J. Rocktashel [ARGUED], Office of United States Attorney, 240 West Third Street, Suite 316 Williamsport, PA 17701, Counsel for Appellee."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America\nv.\nMaliki Hassan CHAPMAN, a/k/a Terrence Wallace, Appellant\nNo. 17-1656\nUnited States Court of Appeals, Third Circuit.\nArgued July 19, 2018\nOpinion filed: February 7, 2019\nLisa B. Freeland, Candace Cain [ARGUED], Office of Federal Public Defender, 1001 Liberty Avenue, 1500 Liberty Center, Pittsburgh, PA 15222, Counsel for Appellant.\nDavid J. Freed, George J. Rocktashel [ARGUED], Office of United States Attorney, 240 West Third Street, Suite 316 Williamsport, PA 17701, Counsel for Appellee.\nBefore: McKEE, VANASKIE and RESTREPO, Circuit Judges.\nOPINION OF THE COURT\nThe Honorable Thomas I. Vanaskie retired from the Court on January 1, 2019 after the argument and conference in this case, but before the filing of the opinion. This opinion is filed by a quorum of the panel pursuant to 28 U.S.C. \u00a7 46(d) and Third Circuit I.O.P. Chapter 12."
+  },
+  "file_name": "0139-01",
+  "first_page_order": 139,
+  "last_page_order": 147
+}

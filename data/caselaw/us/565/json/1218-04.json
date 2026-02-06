@@ -1,0 +1,59 @@
+{
+  "id": 12247745,
+  "name": "Siegler v. Ohio State University",
+  "name_abbreviation": "Siegler v. Ohio State University",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-8041",
+  "first_page": "1218",
+  "last_page": "1218",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1218"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 98,
+    "ocr_confidence": 0.688,
+    "sha256": "e6181035196f9dc1a0734769299082373fbf2040ced15657888ae4d6337489c3",
+    "simhash": "1:055a865367f8c8da",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Siegler v. Ohio State University."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Ohio, Franklin County. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8041.\nSiegler v. Ohio State University."
+  },
+  "file_name": "1218-04",
+  "first_page_order": 1300,
+  "last_page_order": 1300
+}

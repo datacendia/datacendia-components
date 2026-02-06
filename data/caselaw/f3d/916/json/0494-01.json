@@ -1,0 +1,789 @@
+{
+  "id": 12520192,
+  "name": "IN RE: JPMORGAN CHASE & COMPANY, Petitioner.",
+  "name_abbreviation": "In re JPMorgan Chase & Co.",
+  "decision_date": "2019-02-21",
+  "docket_number": "No. 18-20825",
+  "first_page": "494",
+  "last_page": "505",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "916 F.3d 494"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "5th Cir.",
+    "id": 8820,
+    "name": "United States Court of Appeals for the Fifth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "948 F.2d 910",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1859393,
+        6509101
+      ],
+      "weight": 2,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "parenthetical": "holding that district court erred as a matter of law in attempting to transfer the proceeding, but noting that petitioner \"has not made an adequate showing ... of harm that cannot be undone if the order is reversed on appeal\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/948/0910-01",
+        "/br/133/0910-01"
+      ]
+    },
+    {
+      "cite": "986 F.2d 898",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        662034
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/986/0898-01"
+      ]
+    },
+    {
+      "cite": "343 F.3d 311",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9096758
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "parenthetical": "holding that district court erred in compelling production of allegedly privileged documents"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/343/0311-01"
+      ]
+    },
+    {
+      "cite": "86 F. App'x 29",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        250133
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "parenthetical": "holding that district court \"impermissibly violated the County's privilege not to reveal its confidential informants\" and ran \"afoul of controlling law\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/86/0029-01"
+      ]
+    },
+    {
+      "cite": "459 F.3d 565",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3644824
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "parenthetical": "holding that district court \"erred in declaring that no law enforcement privilege exists\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/459/0565-01"
+      ]
+    },
+    {
+      "cite": "2007 U.S. App. LEXIS 30793",
+      "category": "reporters:specialty_lexis",
+      "reporter": "U.S. App. LEXIS",
+      "year": 2007,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2007 WL 9627781",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2007,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "527 F.3d 391",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3566490
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/527/0391-01"
+      ]
+    },
+    {
+      "cite": "138 S.Ct. 1612",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12611962
+      ],
+      "weight": 2,
+      "year": 2018,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/1612-01"
+      ]
+    },
+    {
+      "cite": "888 F.3d 738",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516730
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "743"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/888/0738-01"
+      ]
+    },
+    {
+      "cite": "2010 WL 5256348",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "*1"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2016 WL 1737147",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "*3"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "903 F.3d 1090",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12518509
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1109-10",
+          "parenthetical": "explaining that review of the collective is more \"exacting\" at the second stage because more evidence is available"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/903/1090-01"
+      ]
+    },
+    {
+      "cite": "54 F.3d 1207",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7413039
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "1213",
+          "parenthetical": "citing Lusardi "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/54/1207-01"
+      ]
+    },
+    {
+      "cite": "539 U.S. 90",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8897257
+      ],
+      "weight": 3,
+      "year": 2003,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/539/0090-01"
+      ]
+    },
+    {
+      "cite": "118 F.R.D. 351",
+      "category": "reporters:specialty",
+      "reporter": "F.R.D.",
+      "case_ids": [
+        7856056
+      ],
+      "year": 1987,
+      "opinion_index": 0,
+      "case_paths": [
+        "/frd/118/0351-01"
+      ]
+    },
+    {
+      "cite": "389 U.S. 90",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11335329
+      ],
+      "weight": 5,
+      "year": 1967,
+      "pin_cites": [
+        {
+          "page": "95",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "95"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/389/0090-01"
+      ]
+    },
+    {
+      "cite": "2013 WL 12107666",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "*2",
+          "parenthetical": "giving notice because the agreements might be unenforceable"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "286 F.Supp.2d 807",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        9076910
+      ],
+      "weight": 2,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "811",
+          "parenthetical": "employing the notice-of rights-theory"
+        },
+        {
+          "page": "811"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/286/0807-01"
+      ]
+    },
+    {
+      "cite": "2018 WL 4087931",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "*3",
+          "parenthetical": "\"The potential opt-in plaintiffs allegedly subject to arbitration agreements have not yet joined this action, and the Court therefore has no ability to determine whether any potential arbitration agreement are enforceable against them.\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2016 WL 297718",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "*8"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2017 WL 514191",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "*4",
+          "parenthetical": "\"The Court concludes that notice should be limited to only those potential members who have not signed arbitration agreements.\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "16 C 7331",
+      "category": "reporters:state",
+      "reporter": "Cow.",
+      "year": 2017,
+      "pin_cites": [
+        {
+          "parenthetical": "\"The Court concludes that notice should be limited to only those potential members who have not signed arbitration agreements.\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "379 U.S. 104",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11728933
+      ],
+      "weight": 5,
+      "year": 1964,
+      "pin_cites": [
+        {
+          "page": "111"
+        },
+        {
+          "page": "111"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/379/0104-01"
+      ]
+    },
+    {
+      "cite": "709 F.2d 392",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        11325053
+      ],
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "394",
+          "parenthetical": "quoting Schlagenhauf v. Holder , 379 U.S. 104, 111, 85 S.Ct. 234, 13 L.Ed.2d 152 (1964) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/709/0392-01"
+      ]
+    },
+    {
+      "cite": "466 U.S. 522",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6203216
+      ],
+      "weight": 3,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "533-34"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/466/0522-01"
+      ]
+    },
+    {
+      "cite": "892 F.3d 686",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12517261
+      ],
+      "weight": 3,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "688",
+          "parenthetical": "citation omitted"
+        },
+        {
+          "page": "688-89",
+          "parenthetical": "footnote and citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/892/0686-01"
+      ]
+    },
+    {
+      "cite": "9 U.S.C. \u00a7 2",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "year": 2012,
+      "opinion_index": 0
+    },
+    {
+      "cite": "839 F.3d 373",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12175539
+      ],
+      "weight": 5,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "374-75"
+        },
+        {
+          "page": "374-75",
+          "parenthetical": "cleaned up"
+        },
+        {
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "377"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/839/0373-01"
+      ]
+    },
+    {
+      "cite": "493 U.S. 165",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11330614
+      ],
+      "weight": 21,
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "169"
+        },
+        {
+          "page": "174"
+        },
+        {
+          "page": "174"
+        },
+        {
+          "page": "174"
+        },
+        {
+          "page": "174"
+        },
+        {
+          "page": "174"
+        },
+        {
+          "page": "170, 172"
+        },
+        {
+          "page": "174"
+        },
+        {
+          "page": "174"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/493/0165-01"
+      ]
+    },
+    {
+      "cite": "553 F.3d 913",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3718048
+      ],
+      "weight": 3,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "919"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/553/0913-01"
+      ]
+    },
+    {
+      "cite": "217 F.3d 293",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11191699
+      ],
+      "weight": 2,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "295"
+        },
+        {
+          "page": "295"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/217/0293-01"
+      ]
+    },
+    {
+      "cite": "545 F.3d 304",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3858830
+      ],
+      "weight": 4,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "319",
+          "parenthetical": "en banc"
+        },
+        {
+          "page": "319"
+        },
+        {
+          "page": "310",
+          "parenthetical": "5th Cir. 2008"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/545/0304-01"
+      ]
+    },
+    {
+      "cite": "780 F.3d 283",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4074026
+      ],
+      "weight": 4,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "294"
+        },
+        {
+          "page": "290"
+        },
+        {
+          "page": "290"
+        },
+        {
+          "page": "290"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/780/0283-01"
+      ]
+    },
+    {
+      "cite": "404 F.3d 930",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9016490
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "931-33"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/404/0930-01"
+      ]
+    },
+    {
+      "cite": "542 U.S. 367",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        2527206
+      ],
+      "weight": 10,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "380"
+        },
+        {
+          "page": "381"
+        },
+        {
+          "page": "381"
+        },
+        {
+          "page": "380"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/542/0367-01"
+      ]
+    },
+    {
+      "cite": "870 F.3d 345",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12275230
+      ],
+      "weight": 4,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "350"
+        },
+        {
+          "page": "348"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/870/0345-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1292",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 U.S.C. \u00a7 216",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1264,
+    "char_count": 29770,
+    "pagerank": {
+      "raw": 8.001611999815489e-08,
+      "percentile": 0.46419907106553315
+    },
+    "sha256": "e4a9f4d59cb4af341807299c590e7118d84361ae7b2cb2af2035478496f61f22",
+    "simhash": "1:d562feb5158f82ed",
+    "word_count": 4633
+  },
+  "last_updated": "2024-02-27T16:21:04.146489+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before SMITH, HIGGINSON, and DUNCAN, Circuit Judges."
+    ],
+    "parties": [
+      "IN RE: JPMORGAN CHASE & COMPANY, Petitioner."
+    ],
+    "opinions": [
+      {
+        "text": "JERRY E. SMITH, Circuit Judge:\nJPMorgan Chase Bank N.A. (\"Chase\") petitions for a writ of mandamus after the district court conditionally certified a Fair Labor Standards Act (\"FLSA\") collective action and directed that approximately 42,000 current and former Chase employees receive notice of the litigation. Chase contends that about 35,000 (or 85%) of those individuals signed arbitration agreements waiving their right to proceed collectively against Chase and that those agreements should be enforced per their terms.\nWe have reviewed the petition, the response in opposition, petitioner's reply in support, the respondent's sur-reply, the exhibits attached to those submissions, and the applicable law. We also heard full oral argument and commend the attorneys for their excellent briefing and advocacy on a contracted briefing schedule.\nChase has shown that the issue presented is irremediable on ordinary appeal and that the writ of mandamus is appropriate under the circumstances, but Chase has not shown a clear and indisputable right to the writ. We thus deny the petition. We hold, however, that the district court appears to have erred by ordering that notice be sent to employees who signed arbitration agreements (the \"Arbitration Employees\") and by requiring Chase to provide personal contact information for the Arbitration Employees. We continue the stay of the district court's December 10, 2018, order for thirty days to give the court full opportunity to reconsider that order.\nI.\nThe FLSA permits collective actions in which \"any one or more employees\" may bring an action against their employer \"for and on behalf of himself or themselves and other employees similarly situated.\" 29 U.S.C. \u00a7 216(b) (2012). This petition arises from an FLSA action that began when Shannon Rivenbark sued Chase, alleging that it had violated the FLSA by failing to compensate her and other employees at Chase's call centers for tasks they completed \"off-the-clock.\"\nPlaintiffs moved to certify conditionally a collective action that would include about 42,000 current and former call-center employees, and plaintiffs asked the district court to send notice of the action to all putative collective members. Chase responded that approximately 35,000 (or 85%) of the putative collective members had waived their right to proceed collectively by signing binding arbitration agreements. Chase averred that including those Arbitration Employees in the collective action and giving them notice of it \"would be inconsistent\" with the agreements and the Federal Arbitration Act (\"FAA\"). Plaintiffs did not contest that at least some employees had signed arbitration agreements containing waivers of class and collective action; moreover, plaintiffs represented that they did not intend to contest the validity or enforceability of those agreements. Instead, they maintained that employees who had valid arbitration agreements would arbitrate, and those who did not would proceed in court.\nOver Chase's objections, the district court, on December 10, 2018, conditionally certified the collective action, including the 35,000 Arbitration Employees. The court reasoned that even if Chase was correct that notice may not be sent to individuals who signed arbitration agreements and thus might be compelled to arbitrate, \"the Court cannot determine that there is no possibility that putative class members will be able to join the suit until Defendant files a motion to compel arbitration against specific individuals.\" Because Chase had not moved to compel arbitration, the court conditionally certified the collective and directed that notice \"be sent to all putative class members via First Class Mail and e-mail.\" The court also ordered Chase to produce contact information for all 42,000 putative collective members (including of course the Arbitration Employees) within two weeks, i.e., by Christmas Eve 2018.\nChase moved for the district court to certify its order for interlocutory appeal under 28 U.S.C. \u00a7 1292(b) and to enter an emergency stay to allow for orderly appellate review. The court denied both motions. Chase filed this mandamus petition on December 20, asking this court to \"direct[ ] the district court to exclude from notice of the collective action any employees who signed arbitration agreements waiving their rights to participate in this collective action.\" Accompanying the petition was a motion for stay pending appeal, which we granted on December 21, \"subject to further order.\"\nII.\nA writ of mandamus is \"a drastic and extraordinary remedy reserved for really extraordinary cases,\" In re Depuy Orthopaedics, Inc. , 870 F.3d 345, 350 (5th Cir. 2017), and we may issue the writ only if three conditions are met. First, the petitioner must have \"no other adequate means to attain the relief he desires.\" Cheney v. U.S. Dist. Court , 542 U.S. 367, 380, 124 S.Ct. 2576, 159 L.Ed.2d 459 (2004). Second, this court \"must be satisfied that the writ is appropriate under the circumstances.\" Id. at 381, 124 S.Ct. 2576. Third, the petitioner must demonstrate a \"clear and indisputable right to the writ.\" Id.\nA.\nThe first requirement is that the error presented \"is truly 'irremediable on ordinary appeal.' \" Depuy , 870 F.3d at 352 -53 (citation omitted). Though \"[t]hat is a high bar,\" id. , Chase has met it. Orders of conditional certification cannot be appealed under the collateral order doctrine. See Baldridge v. SBC Commc'ns, Inc. , 404 F.3d 930, 931-33 (5th Cir. 2005). And as stated, the court declined to certify an interlocutory appeal. Moreover, Chase will have no remedy after a final judgment because the notice issue will be moot once Chase has provided the required contact information and notice has been sent to putative collective members. Chase has easily met the first requirement for the writ.\nB.\nSecond, this court \"must be satisfied that the writ is appropriate under the circumstances.\" Cheney , 542 U.S. at 381, 124 S.Ct. 2576. Issuing the writ is \"especially appropriate,\" In re Lloyd's Register N. Am., Inc. , 780 F.3d 283, 294 (5th Cir. 2015), where the issues implicated have \"importance beyond the immediate case,\" In re Volkswagen of Am., Inc. , 545 F.3d 304, 319 (5th Cir. 2008) (en banc).\nMandamus relief would be especially appropriate here. Whether notice of a collective action may be sent to Arbitration Employees is an increasingly recurring issue. Federal district courts have splintered over it, and no court of appeals has weighed in. The issue thus has importance well beyond this case, so mandamus relief would be appropriate.\nC.\nFinally, the writ may issue only if Chase has demonstrated a \"clear and indisputable right to the writ.\" Satisfying this condition \"require[s] more than showing that the district court misinterpreted the law, misapplied it to the facts, or otherwise engaged in an abuse of discretion.\" Lloyd's Register , 780 F.3d at 290. Instead, Chase must demonstrate a \"clear abuse[ ] of discretion that produce[s] patently erroneous results\" or that \"there has been a usurpation of judicial power.\" Put another way, Chase \"must show not only that the district court erred\" \"but that it clearly and indisputably erred \" in ordering that Arbitration Employees receive notice. In re Occidental Petroleum Corp. , 217 F.3d 293, 295 (5th Cir. 2000).\n1.\nUnlike members in Rule 23 class actions, putative collective members must affirmatively opt in to FLSA actions. Sandoz v. Cingular Wireless LLC , 553 F.3d 913, 919 (5th Cir. 2008). To keep the opt-in process efficient, district courts \"have discretion\" to \"facilitat[e] notice to potential plaintiffs.\" Hoffmann-La Roche Inc. v. Sperling , 493 U.S. 165, 169, 110 S.Ct. 482, 107 L.Ed.2d 480 (1989). Permitting the court to facilitate notice helps ensure both \"efficient resolution in one proceeding of common issues\" and that \"employees [will] receiv[e] accurate and timely notice concerning the pendency of the collective action, so that they can make informed decisions about whether to participate.\" Id . at 170, 110 S.Ct. 482.\nAlthough Hoffmann-La Roche gave district courts discretion to send notice of pending FLSA actions to potential opt-in plaintiffs, it did not explain whether Arbitration Employees waiving their right to proceed collectively count as \"potential plaintiffs.\" That lack of clarity has produced conflicting results from district courts, especially where they use the popular two-stage Lusardi method to certify a collective action.\nUnder Lusardi , stage one \"begins when the plaintiff moves for conditional certification of the collective action.\" Reyna v. Int'l Bank of Commerce , 839 F.3d 373, 374-75 (5th Cir. 2016). The district court then considers whether, \"based on the pleadings and affidavits of the parties,\" Sandoz , 553 F.3d at 915 n.2, the putative collective members are \"similarly situated\" and may thus proceed collectively. If they are, the court conditionally certifies the collective action. Reyna , 839 F.3d at 374-75 (cleaned up). At this point, district courts typically exercise their discretion under Hoffmann-La Roche to decide \"whether to provide notice to fellow employees who may be similarly situated to the named plaintiff.\" Sandoz , 553 F.3d at 915 n.2.\nThe second stage \"usually occurs after discovery is complete ... when the employer moves to decertify the collective.\" Reyna , 839 F.3d at 375 n.2. The district court then makes \"a final determination of whether all plaintiffs are sufficiently similarly situated to proceed together in a single action.\" Id. (internal quotation marks omitted).\nThe standard for satisfying step one is \"fairly lenient.\" Mooney , 54 F.3d at 1214. Most discovery happens after the first stage, so the district court, based on \"minimal evidence,\" makes the initial determination whether the putative collective members are sufficiently similarly situated to the named plaintiff to proceed collectively. Id . Accordingly, many district courts, including some in this circuit, wait until the second stage, when discovery is complete, to determine the applicability of arbitration agreements. Similarly, some district courts characterize the existence vel non of arbitration agreements as a merits-based issue. Because Hoffmann-La Roche strictly forbids district courts from appearing to endorse the merits of the litigation by means of facilitating notice, those district courts conclude that the existence of arbitration agreements-as a merits-based issue-must not be addressed until the decertification stage.\n2.\nThough some district courts have read the Lusardi framework as encouraging courts to wait until stage two to consider the existence of arbitration agreements, we hold that district courts may not send notice to an employee with a valid arbitration agreement unless the record shows that nothing in the agreement would prohibit that employee from participating in the collective action. Hoffmann-La Roche confines district courts' notice-sending authority to notifying potential plaintiffs; it directs judges \"to avoid even the appearance of judicial endorsement of the merits of the action\" ; and it nowhere suggests that employees have a right to receive notice of potential FLSA claims. The December 10 order is incompatible with Hoffmann-La Roche and with what we hold in this opinion regarding notice.\n(i)\nAs noted above, Hoffmann-La Roche does not define the \"potential plaintiffs\" whom a district court may notify about a pending FLSA action. Chase understands \"potential plaintiffs\" to mean \"potential participants,\" asserting that Hoffmann-La Roche gives district courts discretion to facilitate notice to persons who will be eligible to participate in the pending suit. Chase continues that courts must treat any Arbitration Employee as ineligible to opt in to a FLSA collective action. That is because, Chase explains, the FAA makes arbitration agreements \"valid, irrevocable, and enforceable, save upon such grounds as exist at law or in equity for the revocation of any contract.\" 9 U.S.C. \u00a7 2 (2012). Chase insists that the district court effectively treated the arbitration agreements as invalid by certifying a collective that includes Arbitration Employees. The district court, Chase concludes, thus exercised discretion beyond what Hoffmann-La Roche allows in ordering that 35,000 employees who are not \"potential participants\" in this suit receive notice of it.\nWe agree that district courts do not \"have unbridled discretion\" to send notice to potential opt-in plaintiffs. Hoffmann-La Roche , 493 U.S. at 174, 110 S.Ct. 482. Instead, the purpose of giving discretion to facilitate notice is because of the need for \"efficient resolution in one proceeding of common issues.\" Id . at 170, 172-73, 110 S.Ct. 482. Notifying Arbitration Employees reaches into disputes beyond the \"one proceeding.\" And alerting those who cannot ultimately participate in the collective \"merely stirs up litigation,\" which is what Hoffmann-La Roche flatly proscribes. Id. at 174, 110 S.Ct. 482.\nIdentifying Arbitration Employees among the full workforce first requires the court to decide which employees have entered into valid arbitration agreements. \"Determining whether there is a valid arbitration agreement is a question of state contract law and is for the court.\" Huckaba v. Ref-Chem, L.P. , 892 F.3d 686, 688 (5th Cir. 2018) (citation omitted). It follows that the party that intends to rely on arbitration instead of a collective action \"must show that the agreement meets all of the requisite contract elements.\" Id. \"[B]ecause the validity of the agreement is a matter of contract, at this stage, the strong federal policy favoring arbitration does not apply.\" Id. at 688-89 (footnote and citation omitted).\nIt is only logical to conclude, from this, that if there is a genuine dispute as to the existence or validity of an arbitration agreement, an employer that seeks to avoid a collective action, as to a particular employee, has the burden to show, by a preponderance of the evidence, the existence of a valid arbitration agreement for that employee. The court should permit submission of additional evidence, carefully limited to the disputed facts, at the conditional-certification stage. Where a preponderance of the evidence shows that the employee has entered into a valid arbitration agreement, it is error for a district court to order notice to be sent to that employee as part of any sort of certification. But if the employer fails to establish the existence of a valid arbitration agreement as to an employee, that employee would receive the same notice as others.\nPlaintiffs insist, to the contrary, that all putative collective members-including Arbitration Employees-have a right to be given notice of any FLSA claims that they might have, even if they cannot join the current collective action. Not so. Neither FLSA's text nor Hoffmann-La Roche offers any support whatsoever for that notion.\n(ii)\nThe district court's error was compounded by its transgression of the Supreme Court's explicit warning \"to avoid even the appearance of judicial endorsement on the merits of the action.\" Hoffmann-La Roche , 493 U.S. at 174, 110 S.Ct. 482 (emphasis added). During the hearing on plaintiffs' motion for conditional certification, the court suggested that not providing notice to putative opt-in plaintiffs would \"further disenfranchise\" the employees even beyond the \"huge compromise of individual's [sic ] rights\" effected when they signed arbitration agreements. The court opined that it \"doesn't seem to me unfair to give plaintiffs notice that they may have been victims of this illegality.\" \"Now we are going to further disenfranchise them,\" the district court added, \"by not telling them there may have been something illegal about the practice they were subject to.\" (Emphasis added.)\nFar from \"avoid[ing] even the appearance of judicial endorsement on the merits of the action,\" the district court-by referring to the \"victims of this illegality\"-appeared to say that Chase had violated the FLSA. That disregards Hoffmann-La Roche 's stern command that \"courts must be scrupulous to respect judicial neutrality\" and may not use their discretion to facilitate the notice process \"merely [to] stir[ ] up litigation,\" id ., which is precisely what this district judge did.\n3.\nIn spite of our holding that the district court erred in ordering notice to Arbitration Employees, the court did not \"clearly and indisputably \" err, as is required for a writ of mandamus. Occidental Petroleum , 217 F.3d at 295. Every decision from district courts in this circuit had either adopted the notice-of-rights theory pressed by plaintiffs-and endorsed by the district court in the case a quo -or certified collective actions that include Arbitration Employees. That this district court followed numerous others in errantly applying Hoffmann-La Roche suggests that its order did not meet the test for a \"clear abuse[ ] of discretion that produce[s] patently erroneous results.\"\nAdditionally, although ordering that 35,000 employees, who cannot participate in the litigation, receive notice of its pendency comes close to the \"solicitation of claims\" forbidden by Hoffmann-La Roche , 493 U.S. at 174, 110 S.Ct. 482, other district courts have done the same. Under these circumstances, there is no \"usurpation of judicial power\" justifying deployment of \"one of the most potent weapons in the judicial arsenal.\" Cheney , 542 U.S. at 380, 124 S.Ct. 2576 (internal quotation marks omitted).\nIII.\nIn sum, Hoffmann-La Roche does not give district courts discretion to send or require notice of a pending FLSA collective action to employees who are unable to join the action because of binding arbitration agreements. The district court erred in ordering that notice be given to them. But that error, in the context of the facts and circumstances of this case, does not establish that Chase has a clear and indisputable right to a writ of mandamus.\nWe issue this published opinion as a holding on these legal issues, which are squarely presented for decision. We do so in part under our supervisory authority to correct errant caselaw from district courts under our jurisdiction. The district court should revisit its decision in light of this opinion, which is now binding precedent throughout the Fifth Circuit.\nTo facilitate that review, the stay entered on December 21, 2018, is EXTENDED for thirty days from the date of this opinion. The petition for writ of mandamus is DENIED.\nThe complaint inaccurately names the defendant \"JP Morgan Chase & Co.,\" but that remains the official caption.\nBecause Chase petitions for an order that restricts the district court, the petition might better be called a petition for writ of prohibition. See Pulliam v. Allen , 466 U.S. 522, 533-34, 104 S.Ct. 1970, 80 L.Ed.2d 565 (1984). We use the more customary term, mandamus.\nChase maintains that one of the named plaintiffs, Kaylah Casuccio, who was added to the complaint in February 2018, is subject to a binding arbitration agreement, which provides that \"[n]o claims may be arbitrated on a class or collective basis unless required by applicable law.\"\nThe Supreme Court recognizes \"use [of] the writ as a one-time device to 'settle new and important problems' that might have otherwise evaded expeditious review.\" In re EEOC , 709 F.2d 392, 394 (5th Cir. 1983) (quoting Schlagenhauf v. Holder , 379 U.S. 104, 111, 85 S.Ct. 234, 13 L.Ed.2d 152 (1964) ). Some commentators refer to this as \"supervisory or advisory mandamus.\" 16 Charles Alan Wright et al., Federal Practice & Procedure \u00a7 3934.1 (3d ed. 2012) (internal quotation marks omitted).\nFederal district courts, in at least 210 decisions, have wrestled with the applicability of arbitration agreements at the conditional-certification stage of FLSA suits. But only six of those decisions issued before 2009; ninety-nine were in the past three years.\nThis court has previously found mandamus appropriate where, among other things, \"the district courts have developed their own tests.\" Volkswagen , 545 F.3d at 319. District courts have resolved the issue in at least three ways.\nSome courts exclude employees who signed arbitration agreements from the conditionally certified collective and thus from receiving notice. See, e.g. , Hudgins v. Total Quality Logistics, LLC , No. 16 C 7331, 2017 WL 514191, at *4 (N.D. Ill. Feb. 8, 2017) (\"The Court concludes that notice should be limited to only those potential members who have not signed arbitration agreements.\"). Others notify plaintiffs who signed arbitration agreements, based on a theory that plaintiffs have a \"right to receive notice\" of potential FLSA claims. See, e.g. , Williams v. Omainsky , No. 15-0123-WS-N, 2016 WL 297718, at *8 (S.D. Ala. Jan. 21, 2016). A final group has certified collective actions and sent notice to employees who signed arbitration agreements, based on the proposition that the agreements might be unenforceable. See, e.g. , Weckesser v. Knight Enters. S.E., LLC , No. 2:16-CV-02053, 2018 WL 4087931, at *3 (D.S.C. Aug. 27, 2018) (\"The potential opt-in plaintiffs allegedly subject to arbitration agreements have not yet joined this action, and the Court therefore has no ability to determine whether any potential arbitration agreement are enforceable against them.\"). District courts in the Fifth Circuit diverge. Compare, e.g. , Villatoro v. Kim Son Rest., L.P. , 286 F.Supp.2d 807, 811 (S.D. Tex. 2003) (employing the notice-of rights-theory), with, e.g. , Hanson v. Gamin Cargo Control, Inc. , No. 4:13-CV-0027, 2013 WL 12107666, at *2 (S.D. Tex. Aug. 9, 2013) (giving notice because the agreements might be unenforceable).\nLloyd's Register , 780 F.3d at 290 (quoting Volkswagen , 545 F.3d at 310 (5th Cir. 2008) ).\nWill v. United States , 389 U.S. 90, 95, 88 S.Ct. 269, 19 L.Ed.2d 305 (1967) (internal quotation marks omitted).\nSee Lusardi v. Xerox Corp. , 118 F.R.D. 351 (D.N.J. 1987), overruled on other grounds by Desert Palace, Inc. v. Costa , 539 U.S. 90, 123 S.Ct. 2148, 156 L.Ed.2d 84 (2003). Though it is frequently employed by district courts, this court has carefully avoided adopting the two-stage \"Lusardi \" method of certifying a collective action. See, e.g. , Mooney v. Aramco Servs. Co. , 54 F.3d 1207, 1213 (5th Cir. 1995) (citing Lusardi ). Nothing in this opinion should be construed to do so now.\nSee generally, e.g. , Campbell v. City of L.A. , 903 F.3d 1090 at 1109-10 (9th Cir. 2018) (explaining that review of the collective is more \"exacting\" at the second stage because more evidence is available).\nSee, e.g. , Esparza v. C&J Energy Servs., Inc. , No. 15-850, 2016 WL 1737147, at *3 (W.D. Tex. May 2, 2016) ; Green v. Plantation of La., LLC , No. 10-0364, 2010 WL 5256348, at *1 (W.D. La. Dec. 15, 2010) ; Villatoro v. Kim Son Rest., LP , 286 F.Supp.2d 807, 811 (S.D. Tex. 2003).\nThis is no criticism of the well-intended efforts of the various district courts (including the court a quo ), in the absence of guidance from any court of appeals, to follow the law in the light of the challenging practicalities of collective actions. As stated above, we decide this issue as part of our supervisory authority to \"settle [a] new and important problem[ ].\" Schlagenhauf , 379 U.S. at 111, 85 S.Ct. 234.\nHoffmann-La Roche , 493 U.S. at 174, 110 S.Ct. 482 (emphasis added).\nThe court stated that it included Arbitration Employees in the class because it could not \"determine that there is no possibility that putative class members will be able to join the suit until Defendant files a motion to compel arbitration against specific individuals.\" We explain later why Chase's failure to move to compel arbitration is of no moment.\nIndeed, plaintiffs have acknowledged the multiplicity of potential proceedings that this case implicates in district court. They averred that \"[t]he Plaintiffs who have valid arbitration agreements will go the route of arbitration and the remaining Plaintiffs will proceed before this Court.\"\nHoffmann-La Roche also roots the discretion afforded district courts to facilitate \"joining multiple parties\" so it can \"ascertain[ ] the contours of the action at the outset.\" Hoffmann-La Roche , 493 U.S. at 170, 172, 110 S.Ct. 482. That language suggests that the notice is sup-posed to help facilitate the current lawsuit, not to affect individual arbitrations that might involve similar claims.\nWe assume that in the ordinary case, as here, the party or parties seeking the collective action would not raise a genuine dispute as to the existence of an arbitration agreement, thus obviating the need for a preponderance determination as to that employee.\nThis holding is consistent with this court's requirement that before conditionally certifying a collective action, a district court must decide whether a named plaintiff is bound by an arbitration agreement. See Edwards v. Doordash, Inc. , 888 F.3d 738, 743 (5th Cir. 2018) ; Reyna , 839 F.3d at 377.\nHoffmann-La Roche , for example, states only that district courts have the discretion to facilitate notice-not that they must. Moreover, this \"notice of rights\" theory looks a lot like \"solicitation of claims,\" which Hoffmann-La Roche forbids, instead of permissibly facilitating notice \"for case management purposes.\" Hoffmann-La Roche , 493 U.S. at 174, 110 S.Ct. 482.\nNor does Chase's failure to move to compel arbitration doom its petition, as plaintiffs maintain. It is true that courts cannot compel individuals to arbitrate when they are yet to be identified and have not joined the suit. But to stay within the discretion authorized in Hoffmann-La Roche , district courts must respect the existence of arbitration agreements and must decline to notify Arbitration Employees, who waived their right to proceed collectively, of the pending action.\nThis does not keep Arbitration Employees from attempting to opt-in to the collective action. Once they do, however, the employer can move to compel them to arbitrate. Nonetheless, under Hoffmann-La Roche , district courts do not have the discretion to order that Arbitration Employees receive notice of the action.\nAs the case progresses, the district judge should make every reasonable effort to avoid the perception that he has pre-judged any aspect of this proceeding. The court's statements can be read as saying that Chase is guilty of an \"illegality,\" presumably in regard to the FLSA. That would be a violation of the prohibition in Hoffmann-La Roche , 493 U.S. at 174, 110 S.Ct. 482, of endorsing the merits of the action. The judge also obviously has a jaundiced view of Supreme Court decisions such as Epic Systems Corp. v. Lewis , --- U.S. ----, 138 S.Ct. 1612, 200 L.Ed.2d 889 (2018), which requires enforcement of arbitration agreements that waive collective-action procedures for employees. The court apparently views such rulings as a \"further disenfranchise[ment]\" of employees even beyond the \"huge compromise of individual's [sic ] rights\" that, in the court's view, occurred when they signed arbitration agreements.\nLloyd's Register , 780 F.3d at 290 (quoting Volkswagen , 545 F.3d at 310 ).\nWill , 389 U.S. at 95, 88 S.Ct. 269 (internal quotation marks omitted).\nThe same applies to requiring the employer to provide contact information.\nThis follows the procedure we utilized in Depuy . There, although denying the petition for writ of mandamus, we nonetheless \"request[ed] the district court to vacate its ruling.\" Depuy , 870 F.3d at 348. We explained this approach as follows:\nIn anticipation of any suggestion that a court of appeals exceeds its proper role in ruling on pending issues but nonetheless denying mandamus, we note that this court has routinely held, sometimes in published opinions, that a district court erred, despite stopping short of issuing a writ of mandamus. E.g. , In re Dean , 527 F.3d 391 (5th Cir. 2008) (per curiam) (holding that district court had \"violated\" a federal statute); In re United States , No. 07-40629, 2007 WL 9627781, 2007 U.S. App. LEXIS 30793 (5th Cir. July 19, 2007) (per curiam) (holding that district court \"abused its discretion\"); In re U.S. Dep't of Homeland Sec. , 459 F.3d 565 (5th Cir. 2006) (holding that district court \"erred in declaring that no law enforcement privilege exists\"); In re Kleberg Cty. , 86 F. App'x 29 (5th Cir. 2004) (holding that district court \"impermissibly violated the County's privilege not to reveal its confidential informants\" and ran \"afoul of controlling law\"); In re Avantel, S.A. , 343 F.3d 311 (5th Cir. 2003) (holding that district court erred in compelling production of allegedly privileged documents); In re Stone , 986 F.2d 898 (5th Cir. 1993) (per curiam) (holding that district court abused its discretion in ordering who must be present at settlement conference); In re Office of Thrift Supervision , 948 F.2d 910 (5th Cir. 1991) (holding that district court erred as a matter of law in attempting to transfer the proceeding, but noting that petitioner \"has not made an adequate showing ... of harm that cannot be undone if the order is reversed on appeal\").\nId. at 347 n.4.\nUnder the rule for weekends, the extension runs through Monday, March 25, 2019. See Fed. R. Civ. P. 6(a)(1)(C).",
+        "type": "majority",
+        "author": "JERRY E. SMITH, Circuit Judge:"
+      }
+    ],
+    "attorneys": [
+      "William R. Peterson, Catherine Lynn Eschbach, Stefanie R. Moll, Morgan, Lewis & Bockius, L.L.P., Houston, TX, Samuel S. Shaulson, Esq., Morgan, Lewis & Bockius, L.L.P., New York, NY, for Petitioner.",
+      "William Clifton Alexander, Austin W. Anderson, Attorney, Lauren Elizabeth Braddy, Anderson Alexander, P.L.L.C., Corpus Christi, TX, for Respondents."
+    ],
+    "corrections": "",
+    "head_matter": "IN RE: JPMORGAN CHASE & COMPANY, Petitioner.\nNo. 18-20825\nUnited States Court of Appeals, Fifth Circuit.\nFILED February 21, 2019\nWilliam R. Peterson, Catherine Lynn Eschbach, Stefanie R. Moll, Morgan, Lewis & Bockius, L.L.P., Houston, TX, Samuel S. Shaulson, Esq., Morgan, Lewis & Bockius, L.L.P., New York, NY, for Petitioner.\nWilliam Clifton Alexander, Austin W. Anderson, Attorney, Lauren Elizabeth Braddy, Anderson Alexander, P.L.L.C., Corpus Christi, TX, for Respondents.\nBefore SMITH, HIGGINSON, and DUNCAN, Circuit Judges."
+  },
+  "file_name": "0494-01",
+  "first_page_order": 494,
+  "last_page_order": 505
+}

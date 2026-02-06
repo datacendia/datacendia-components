@@ -1,0 +1,59 @@
+{
+  "id": 12245127,
+  "name": "Guzman-Najera v. United States",
+  "name_abbreviation": "Guzman-Najera v. United States",
+  "decision_date": "2012-01-23",
+  "docket_number": "No. 11-7990",
+  "first_page": "1184",
+  "last_page": "1184",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1184"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 79,
+    "ocr_confidence": 0.693,
+    "sha256": "8741b94acd5fbb51a11394d13b49bf0f84952341a41d2b6f6107abc2747f3ef5",
+    "simhash": "1:86aad20309021c62",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Guzman-Najera v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7990.\nGuzman-Najera v. United States."
+  },
+  "file_name": "1184-09",
+  "first_page_order": 1266,
+  "last_page_order": 1266
+}

@@ -1,0 +1,73 @@
+{
+  "id": 12704111,
+  "name": "Edmund G. BROWN, Governor of California, et al., appellants, v. Marciano PLATA and Ralph Coleman, et al.",
+  "name_abbreviation": "Brown v. Plata",
+  "decision_date": "2013-10-15",
+  "docket_number": "No. 13\u2013198.",
+  "first_page": "948",
+  "last_page": "948",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 948"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 275"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 436"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "28 U.S.C. \u00a7 1253",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": -1
+    }
+  ],
+  "analysis": {
+    "cardinality": 41,
+    "char_count": 337,
+    "sha256": "5c9882cf528f919143ca8015dc3895589167eea3094ff4ce5745cc577675a8ee",
+    "simhash": "1:639f3a123ec5742b",
+    "word_count": 55
+  },
+  "last_updated": "2024-02-27T18:46:20.843173+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Edmund G. BROWN, Governor of California, et al., appellants,\nv.\nMarciano PLATA and Ralph Coleman, et al."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "Edmund G. BROWN, Governor of California, et al., appellants,\nv.\nMarciano PLATA and Ralph Coleman, et al.\nNo. 13-198.\nSupreme Court of the United States\nOct. 15, 2013.\nAppeal from the United States District Courts for the Eastern District and the Northern District of California dismissed for want of jurisdiction. See 28 U.S.C. \u00a7 1253."
+  },
+  "file_name": "0948-03",
+  "first_page_order": 948,
+  "last_page_order": 948
+}

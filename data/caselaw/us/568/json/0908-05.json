@@ -1,0 +1,59 @@
+{
+  "id": 12415746,
+  "name": "Wood v. United States",
+  "name_abbreviation": "Wood v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5348",
+  "first_page": "908",
+  "last_page": "908",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 908"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.688,
+    "sha256": "a0ff186fcdf2cd8d55606bae6fe617c3a2a7ab3fcb5ecd504ba5d63be36262b3",
+    "simhash": "1:a10a928ece911818",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wood v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5348.\nWood v. United States."
+  },
+  "file_name": "0908-05",
+  "first_page_order": 984,
+  "last_page_order": 984
+}

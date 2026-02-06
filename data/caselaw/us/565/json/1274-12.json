@@ -1,0 +1,59 @@
+{
+  "id": 12252999,
+  "name": "Dickey v. United States",
+  "name_abbreviation": "Dickey v. United States",
+  "decision_date": "2012-03-19",
+  "docket_number": "No. 11-8910",
+  "first_page": "1274",
+  "last_page": "1274",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1274"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.683,
+    "sha256": "dc0bfb4445237f56edfcd4690637feca60a686682a0abfced8bab168fb4f3419",
+    "simhash": "1:95bbcab32269b01c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dickey v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8910.\nDickey v. United States."
+  },
+  "file_name": "1274-12",
+  "first_page_order": 1356,
+  "last_page_order": 1356
+}

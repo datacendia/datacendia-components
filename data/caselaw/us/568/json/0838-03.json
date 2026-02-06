@@ -1,0 +1,59 @@
+{
+  "id": 12412276,
+  "name": "Sykes v. Wolfenbarger, Warden",
+  "name_abbreviation": "Sykes v. Wolfenbarger",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10266",
+  "first_page": "838",
+  "last_page": "838",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 838"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 79,
+    "ocr_confidence": 0.676,
+    "sha256": "2ce0b9503a899fdda01300a8e7fd9d96d103de5d0011e92417cd5a8112715418",
+    "simhash": "1:a38a26b7ce4f2836",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sykes v. Wolfenbarger, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10266.\nSykes v. Wolfenbarger, Warden."
+  },
+  "file_name": "0838-03",
+  "first_page_order": 914,
+  "last_page_order": 914
+}

@@ -1,0 +1,59 @@
+{
+  "id": 6014006,
+  "name": "Bowden v. United States",
+  "name_abbreviation": "Bowden v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5012",
+  "first_page": "898",
+  "last_page": "898",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 898"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.618,
+    "sha256": "1573180f1f7607b8d76d58485180d9589225ae7b22065fed2b81bdb98d3ba956",
+    "simhash": "1:553bca232f0b9418",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bowden v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5012.\nBowden v. United States."
+  },
+  "file_name": "0898-14",
+  "first_page_order": 920,
+  "last_page_order": 920
+}

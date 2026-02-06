@@ -1,0 +1,629 @@
+{
+  "id": 2338535,
+  "name": "Harry L. Seay et al v. Sidney Latham, Secretary of State, et al.",
+  "name_abbreviation": "Seay v. Latham",
+  "decision_date": "1944-09-23",
+  "docket_number": "No. A-338",
+  "first_page": "1",
+  "last_page": "9",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "143 Tex. 1"
+    },
+    {
+      "type": "parallel",
+      "cite": "182 S. W., 2d, 251"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "127 Pac. 170",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "53 S. W. (2d) 753",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10259424,
+        2304230
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/53/0753-01",
+        "/tex/122/0122-01"
+      ]
+    },
+    {
+      "cite": "43 L. R. A. N. S. 282",
+      "category": "reporters:federal",
+      "reporter": "L.R.A.N.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "138 N. W. 159",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "92 Neb. 313",
+      "category": "reporters:state",
+      "reporter": "Neb.",
+      "case_ids": [
+        4453871
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/neb/92/0313-01"
+      ]
+    },
+    {
+      "cite": "146 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3564547
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/146/0001-01"
+      ]
+    },
+    {
+      "cite": "74 S. W. (2d) 113",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10238345,
+        2302423
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/74/0113-01",
+        "/tex/123/0531-01"
+      ]
+    },
+    {
+      "cite": "123 Texas 531",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2302423
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/123/0531-01"
+      ]
+    },
+    {
+      "cite": "286 U. S. 73",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3916737
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/286/0073-01"
+      ]
+    },
+    {
+      "cite": "181 S. W. (2d) 269",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2340206,
+        10203807
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/142/0692-01",
+        "/sw2d/181/0269-01"
+      ]
+    },
+    {
+      "cite": "142 Texas 692",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2340206
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/142/0692-01"
+      ]
+    },
+    {
+      "cite": "188 S. W. 373",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "171 Ky. 238",
+      "category": "reporters:state",
+      "reporter": "Ky.",
+      "case_ids": [
+        4445648
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ky/171/0238-01"
+      ]
+    },
+    {
+      "cite": "75 S. W. 1082",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "150 S. W. 1073",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "246 Mo. 56",
+      "category": "reporters:state",
+      "reporter": "Mo.",
+      "case_ids": [
+        8842574
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mo/246/0056-01"
+      ]
+    },
+    {
+      "cite": "44 N. Y. S. (2d) 145",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "132 Texas 6",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2322487
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/132/0006-01"
+      ]
+    },
+    {
+      "cite": "122 Texas 122",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2304230
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/122/0122-01"
+      ]
+    },
+    {
+      "cite": "43 L. R. A. (N. S.) 282",
+      "category": "reporters:federal",
+      "reporter": "L.R.A.N.S.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "55 Pac. 177",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 Col. 398",
+      "category": "reporters:state",
+      "reporter": "Col.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 L. R. A. 222",
+      "category": "reporters:federal",
+      "reporter": "L.R.A.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "76 N. W. 285",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "73 Minn. 528",
+      "category": "reporters:state",
+      "reporter": "Minn.",
+      "case_ids": [
+        1638572
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/minn/73/0528-01"
+      ]
+    },
+    {
+      "cite": "115 N. W. 1121",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "22 S. D. 146",
+      "category": "reporters:state",
+      "reporter": "S.D.",
+      "case_ids": [
+        8516488
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sd/22/0146-01"
+      ]
+    },
+    {
+      "cite": "125 P. 739",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "case_ids": [
+        8880968,
+        4302330
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/okla/33/0300-01",
+        "/okla-crim/7/0610-01"
+      ]
+    },
+    {
+      "cite": "7 Okla. Cr. 610",
+      "category": "reporters:state",
+      "reporter": "Okla. Crim.",
+      "case_ids": [
+        4302330
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/okla-crim/7/0610-01"
+      ]
+    },
+    {
+      "cite": "64 Mont. 453",
+      "category": "reporters:state",
+      "reporter": "Mont.",
+      "case_ids": [
+        4776826
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/mont/64/0453-01"
+      ]
+    },
+    {
+      "cite": "84 N. E. 85",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "77 Ohio St. 554",
+      "category": "reporters:state",
+      "reporter": "Ohio St.",
+      "case_ids": [
+        309734
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ohio-st/77/0554-01"
+      ]
+    },
+    {
+      "cite": "51 L. R. A. 671",
+      "category": "reporters:federal",
+      "reporter": "L.R.A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "58 S. W. 779",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "109 Ky. 276",
+      "category": "reporters:state",
+      "reporter": "Ky.",
+      "case_ids": [
+        8591366
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ky/109/0276-01"
+      ]
+    },
+    {
+      "cite": "62 A. L. R. 912",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "165 N. E. 217",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "333 Ill. 606",
+      "category": "reporters:state",
+      "reporter": "Ill.",
+      "case_ids": [
+        5216552
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ill/333/0606-01"
+      ]
+    },
+    {
+      "cite": "163 S. W. (2d) 184",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10205785,
+        2311401
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/163/0184-01",
+        "/tex/139/0380-01"
+      ]
+    },
+    {
+      "cite": "139 Texas 380",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2311401
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/139/0380-01"
+      ]
+    },
+    {
+      "cite": "50 S. W. (2d) 261",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10234098,
+        2305677
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/50/0261-01",
+        "/tex/121/0495-02"
+      ]
+    },
+    {
+      "cite": "121 Texas 495",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2305658,
+        2305677
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/121/0495-01",
+        "/tex/121/0495-02"
+      ]
+    },
+    {
+      "cite": "49 S. W. (2d) 425",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2305648,
+        10236351
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/121/0369-01",
+        "/sw2d/49/0425-01"
+      ]
+    },
+    {
+      "cite": "121 Texas 369",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2305648
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/121/0369-01"
+      ]
+    },
+    {
+      "cite": "53 S. W. (2d) 753",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10259424,
+        2304230
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/53/0753-01",
+        "/tex/122/0122-01"
+      ]
+    },
+    {
+      "cite": "138 N. W. 159",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "92 Neb. 313",
+      "category": "reporters:state",
+      "reporter": "Neb.",
+      "case_ids": [
+        4453871
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/neb/92/0313-01"
+      ]
+    },
+    {
+      "cite": "146 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3564547
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/146/0001-01"
+      ]
+    },
+    {
+      "cite": "74 S. W. (2d) 113",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10238345,
+        2302423
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/74/0113-01",
+        "/tex/123/0531-01"
+      ]
+    },
+    {
+      "cite": "123 Texas 531",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2302423
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/123/0531-01"
+      ]
+    },
+    {
+      "cite": "286 U. S. 73",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3916737
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/286/0073-01"
+      ]
+    },
+    {
+      "cite": "181 S. W. (2d) 269",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2340206,
+        10203807
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/142/0692-01",
+        "/sw2d/181/0269-01"
+      ]
+    },
+    {
+      "cite": "142 Texas 692",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2340206
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/142/0692-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 860,
+    "char_count": 19209,
+    "ocr_confidence": 0.618,
+    "pagerank": {
+      "raw": 2.3178289186900234e-07,
+      "percentile": 0.7891490971095226
+    },
+    "sha256": "d4405a86e64cf2fceb392a8942d1e9db811a0ac29f04260d082e306e1f40b12b",
+    "simhash": "1:0a5e4b2b6c08f164",
+    "word_count": 3314
+  },
+  "last_updated": "2024-02-27T20:57:20.041955+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Harry L. Seay et al v. Sidney Latham, Secretary of State, et al."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Chief Justice Alexander\ndelivered the opinion of the Court.\nThe Honorable Harry L. Seay, as Chairman of the Executive Committee of the Democratic Party of Texas, and others have filed in this Court an original application for a writ of mandamus against the Honorable Sidney Latham, Secretary of State, and others, to compel the Secretary of State to certify to the election officials of the various counties of this State the names of Honorable R. D. Sanders and fourteen others, as nominees of the Democratic Party as candidates for the positions of presidential electors for the ensuing presidential election.\nThe record shows that the Democratic Party at its May, 1944, convention (provided for by Vernon\u2019s Annotated Civil Statutes, Article 3167) selected twenty-three nominees for presidential electors, and the Executive Committee of the Party duly certified their names to the Secretary of State as the nominees of said Party and as candidates for said positions. At that time the convention adopted resolutions which absolved such nominees from any obligation to support the nominees .of the Democratic National Convention, under certain conditions. Thereafter the Democratic National Convention, 1944, nominated the Honorable Franklin D. Roosevelt as a candidate for President \u2022 of the United States and the Honorable Harry S. Truman as a candidate for Vice-President thereof. After said nominations had been made by' said Democratic National Convention, fifteen of those who had been nominated by the Party at its May convention, herein referred to as the \u201cMay nominees,\u201d announced that they would not, if elected, cast their votes in the Electoral College for the nominees of the Party as made by the Democratic National Convention. Thereafter, at the September, 1944, convention of the State Democratic Party (provided for by Article 3139), a resolution .was adopted withdrawing and cancelling the nomination of the fifteen nominees who had announced their intention not to support the nominees of the Party as made at the Democratic National Convention, and thereupon said convention nominated said R. D. Sanders and fourteen others, hereinafter referred to as the \u201cSeptember nominees\u201d as the nominees of the Party, in lieu' of the fifteen \u201cMay .nominees\u201d above referred to. At the same time the convention renominated and approved seven of those who had been nominated at the May .convention, and in addition nominated a nominee to take the place of one of those who had been nominated in the May convention \"and who in the meantime had resigned. The names of those nominated and approved at the September convention were duly certified to the Secretary of State by the Executive Committee of the Democratic Party,- and the Secretary of State was requested to certify their names as nominees of the Party, and as candidates for said positions, in lieu of.those nominated at the May convention. The Secretary of State has declined to certify the fifteen September nominees who were nominated in lieu of the fifteen May nominees. It is his position that, since the names of the May nominees were first certified to him, they acquired prior rights, and until there has been a judicial determination of the dispute between the two factions it is his duty to certify the names first filed with him.\nThe Secretary of State has not yet certified to the election officials the list of names to be placed on the official ballot for the November, 1944, election, and the time for making such certificate has not yet expired.\nIt is the contention of the \u201cMay nominees,\" in substance, that Party nominations for. the positions of presidential electors could be made by the Democratic Party only at the May convention, and since the Party nominated the \u201cMay nominees\u201d at such convention their nominations could not be withdrawn without their consent at the September convention.\nIn the case of Stanford et al v. Butler et al, 142 Texas 692, 181 S. W. (2d) 269, we held that there was no statutory provision in force in this State directing how a political party should select its nominees for presidential electors. In that same case we further said:\n\u201cIn the absence of a statute directing how the Party should select its nominees for presidential electors, the Party is free to follow any method which it may choose in keeping with Party usages and customs, so long as it does not pursue a method expressly prohibited by law. Love v. Buchner, 121 Texas 369, 49 S. W. (2d) 425; Brown v. Darden, 121 Texas 495, 50 S. W. (2d) 261; Kilday v. Germany, 139 Texas 380, 163 S. W. (2d) 184.\u201d\nA political party is a voluntary association, instituted for political purposes. It is organized for the purpose of effectuating the will of those who constitute its members, and it has the inherent power of determining its own policies. Bell v. Hill, County Clerk, 123 Texas 531, 74 S. W. (2d) 113, and authorities there cited; People ex rel Lindstrand v. Emmerson, 333 Ill. 606, 165 N. E. 217, 62 A. L. R. 912; Davis v. Hambrick, 109 Ky. 276, 58 S. W. 779, 51 L. R. A. 671; State ex rel. Webber v. Felton, 77 Ohio St. 554, 84 N. E. 85, 12 Ann. Cas. 65; State v. Stewart, 64 Mont. 453, 210 P. 465; Ex parte Wilson, 7 Okla. Cr. 610, 125 P. 739; Morrow v. Wipf, 22 S. D. 146, 115 N. W. 1121. The power to determine the policies of the Party, including the power to determine who shall represent it in the selection of the President and Vice-President of the United States, when not otherwise provided by statute or by rule of the association, resides in the State convention of the Party. Nixon v. Condon et al, 286 U. S. 73, 76 L. Ed. 984.\nIn the case of Phillips v. Gallagher, 73 Minn. 528, 76 N. W. 285, 42 L. R. A. 222, the rule is thus correctly stated:\n\u201cThe questions which such a convention deals with are essentially political, and it would be a menace to the, right of the members of a political party to select their own party nominees, and to the respect which should be entertained- for judicial tribunals, for the courts to review and reverse the proceedings of a political convention, in the absence of fraud or Oppression on its part or of its officers. The delegates in a nominating convention meet for the purpose of selecting and agreeing upon candidates for office, to be supported by the party. The discharge of this duty involves the exercise of judgment and discretion on the part of the members of the convention, and a majority of them have, in the absence of fraud or oppression, the right to control the action of the\u2019 convention, and to correct or reverse any action taken by it. Such a convention is a deliberative body, and unless it acts arbitrarily, oppressively, or fraudulently, its final determination as to candidates,\u2019 or any other question of which it has jurisdiction, will be followed by the courts.\u201d , .\nVernon\u2019s Annotated Civil Statutes, Article 3167, provides that delegates to the national convention of a Party shall be elected at the May convention of the Party, and Article 3139 provides that all Party conventions to announce platforms of principles and declare nominations for State officers shall be held during September of the election year. Except as above indicated, there is no legislative attempt to limit the powers . of the Party conventions to be held on either of the dates above indicated. Bell v. Hill, County Clerk, 123 Texas 531, 74 S. W. (2d) 113. There is no statute or constitutional provision designating- when or how a Party shall select its nominees for presidential electors. There is nothing in either of the above statutes, nor in any other statute or constitutional provision which we have been able to find, which undertakes to limit the power of a political party to withdraw its convention nominations after they have once been made. Of course, all nominations must be made in time to have the names certified by the Secretary of State.\n5 The presidential elector is selected by the Party as its nominee primarily to effectuate its policies and register its will in respect to a particaular. candidate. McPherson v. Blackner, 146 U. S. 1, 36 L. Ed. 869. It is our opinion that prior to the time when the Secretary of State is required to certify his name for a position on the official ballot, he does not, as against the Party which nominates him, acquire any vested right to the position as the nominee of the Party, such as would prohibit the Party from withdrawing the nomination. Phillips v. Smith, 25 Col. 398, 55 Pac. 177; see also State Central Committee v. Wait, 92 Neb. 313, 138 N. W. 159, 43 L. R. A. (N. S.) 282.\nCounsel for respondent cite several cases in support of their contention that when a Party nomination is once made, it cannot be withdrawn; '.but in our opinion none of these cases are in point. In the case of Sterling v. Ferguson, 122 Texas 122, 53 S. W. (2d) 753, it was held that Mrs. Ferguson, the primary nominee of the Democratic Party for the position of Governor of the State of Texas, acquired a valuable right, which she could enforce through court proceedings. In the case of lies v. 'Walker, 132 Texas 6, a similar holding was made in favor of lies, who had been nominated by primary election for County Superintendent. However, in neither of the above cases was the Party which had the nomination undertaking to withdraw the same. Moreover, in, those cases the law prescribed the time and manner in which Party nominations for such offices should be made; which presents a situation materially different from that now before us.\nIn the case of Aurelio v. Cohen, 44 N. Y. S. (2d) 145, relied on by respondents, the Party convention nominated relator for a position as judge. Thereafter a nominating committee (and not the Party convention), which had authority only to fill vacancies, undertook to make a new nomination. The court held that there was no vacancy, and, as a consequence, the committee had no authority to act. It is obvious, we think, that a body of lesser authority, such as a committee of the convention, could not, without express authority either from the convention or by statute, set aside a nomination that had been made by the convention itself and substitute a new one in lieu thereof. Moreover, in that case the law fixed the time for the making of nominations by the convention, except in the case of a vacancy, and that time had passed. What has been said above is also applicable to the case of State v. Roach, 246 Mo. 56, 150 S. W. 1073, cited and relied on by respondents.\nWhile in the case of Phillips v. Gallagher, 73 Minn. 528, 76 N. W. 285, 42 L. R. A. 222, relied on by respondents, the court intimated that when once a nomination had been made and the convention had adjourned, the nomination could not be withdrawn by a later convention of the Party, no such question was before the court in that case. In that case a nomination had been made by the convention, and at a later session of the same convention the nomination was withdrawn and a new one made. The court sustained the validity of the last nomination.\nIn other cases relied on by respondents, primary elections had been called in the manner provided by law, and the candidates <had paid their assessments and incurred other expenses in reliance thereon. In each of those cases the court held that since the party had invoked the election laws and the candidate had incurred expenses, such candidate had an equitable right to have the election held as provided by statute. Neal v. Young. Ky. 75 S. W. 1082; Meagher v. Howell 171 Ky. 238, 188 S. W. 373. No such equitable rights are here involved.\nIn the case at bar the same authority which made the nominations in the first instance, the Democratic Party, acting through a regularly convened convention, withdrew the nominations. No equitable rights had accrued in favor of the nominees in the meantime. In the absence of a law prescribing when and how the nominations should be made, we think it necessarily follows that the same authority which made the nominations in the first instance could withdraw them and substitute the names of others in their stead. The Party was free to handle the matter, as it saw fit, so long as there was no fraud or oppression and the members of the Party were given a reasonable opportunity to express their views. To hold otherwise would force the Party to retain as its representatives those who are no longer-agreeable to it. \u2018\nIt does not appear that it was any surprise to the members of the Party that the matter of - recalling the May nominations was taken up at the. September convention. It is a matter of current history, .of which we take judicial knowledge, that after the nominees of the Party had been selected at the-May convention, it became known that fifteen of them, if elected, would' not support the nominee of the Democratic National Convention. It was ass\u00e9rted that it was the will of a majority of the\" Party that such nominees should support the nominee of the National Convention. This became an issue in the precinct and county conventions at which delegates to the September convention of the Party were selected. When the delegates to such September convention assembled, it was found that it was the will of a majority of the Party, as reflected through such delegates, that the nominees of the Party should support the nominees of the National Convention. Thereupon the Party, acting through its regularly, organized convention, through which it had a right to speak, - concluded to withdraw the nominations of those nominees who would not agree to support the nominees of the National Convention, and to substitute others in their stead. This was clearly'a matter within the inherent power of the Party. The sufficiency of the cause for the withdrawal of the nomina^ tions is not a matter for this Court to determine. That was a, matter that rested entirely with the Party. The Party has thus spoken its will, and in the absence of a valid law to the contrary-it is entitled to have that will carried into execution.\nIt is urged that it has long been the custom of the Party to select its nominees for presidential electors at the May convention. This may be true, but it does not appear that there is any prevailing custom or established usage by which the Party may not subsequently withdraw its nomination when it is found that the nominees previously selected by it are not in accord with the will of the majority of the Party. Compliance with the usage and custom of the Party is required only in order to have the Party speak through a properly constituted authority and at a time when the members of the Party will have an opportunity to be heard. Both of these - requirements have been met -in this instance.\nWe find no express statute requiring the Secretary of State to certify Party nominees for places on the official ballot. However, Vernon\u2019s Annotated Civil Statutes, Article 3138, requires political parties to certify their prim\u00e1ry nominees to the Secretary of State for places on the official ballot, and Vernon\u2019s Annotated Civil Statutes, Article 2925, requires the Secretary of State to prescribe forms of all blanks necessary for the holding of elections, and to furnish same to each county judge.. From this we think it necessarily follows that it is the duty of the Secretary of State to certify to the election officials the names of Party nominees to be placed on the official ballot. See Sterling v. Ferguson, 122 Texas 122, 53 S. W. (2d) 753. Vernon\u2019s Annotated Civil Statutes, Article 1735, authorizes the issuance of mandamus against the Secretary of State, when necessary to require him to perform his statutory duty.\nIt appears that petitioners have a clear right to writ of mandamus sought by them. The writ will issue as prayed for, and the Secretary of State is directed to certify to the election officials the names of the twenty-three nominees selected and approved by the Democratic Party at its September convention, and no others, as the nominees of the Party for presidential electors.\nOn account of the emergency due to the near approach of the time for the printing of the ballots for the general election, respondents will be denied the right to file a motion for rehearing.\nOpinion delivered September 23,1944.",
+        "type": "majority",
+        "author": "Mr. Chief Justice Alexander"
+      }
+    ],
+    "attorneys": [
+      ".A. J. Wirtz, Everett L. Looney and Herman Jones, all of Austin, Torn L. Tyson, of Corsicana, Warren Phillips', of Corpus Christi, George W. Eddy and John Davis, of Dallas, Robert L. Holliday and Ernest Guinn, of El Paso, L. J. Wardlaw, of Fort Worth, R. L. Calvert, of Hillsboro, Robert F. Peden and James V. Allred, of Houston, C. F. Richards, of Lockhart, Robert Lee Bobbitt, Carl Wright Johnson and Woodv\u00fcle Rogers, all of San Antonio, Wright Patman and Elmer L. Lincoln, of Texarkana, Bert King, pf Wichita Falls, Dallas Scarbrough and Walter S. Pope, of Abilene, for petitioners.",
+      ". T. R. James, Rice M. Tilley, Sidney Samuels, Homa S. Hill, Hamilton Rogers, T. S. Christopher, A. B. Culbertson, William Pannill, B. B. Stone, Lloyd E. Price, R. A. Stuart, Karl Crowley, and Thompson, Walker, Smith and Shannon, all of Fort Worth, for respondent Arch H. Rowan, John Wheeler and R. J. Boyle, of San Antonio, Wright Morrow, R. J. Kelley, Lewis Fisher, John H. Freeman, John C. Townes, Frank J. Knapp, John H. Crooker, Andrews, Kelley, Kurth & Campbell, Full-, bright, Crooker, Freeman & Bates, and Butler & Binion-, all of Houston,,/. Hart Willis and C. C. Renfro, of Dallas, W. 0. Gross, of Mineral Wells, James G. Harrell, of Breckenridge, Perkins & Floyd, of Alice, Turner & Seaberry, of Eastland, John E. Qua-id, of El Paso, Henry Russell, of Pecos; Stubbleman, McRea & Sealy, T. D. Kimbrough and Richard Brooks, of Midland, T. G. Tilford and McAlister & Tucker, of Nacogdoches, Chas. E. Coombes, of Stamford, Joseph A. Chandler, of Stephenville, Geo. E. Smith, of Comanche, T. H. McGregor and C. C. Small, of Austin, Sidney Latham, Pro se, of Austin, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "SEPTEMBER 23, 1944\nHarry L. Seay et al v. Sidney Latham, Secretary of State, et al.\nNo. A-338.\nDecided September 23, 1944.\n(182 S. W., 2d, 251.)\n.A. J. Wirtz, Everett L. Looney and Herman Jones, all of Austin, Torn L. Tyson, of Corsicana, Warren Phillips', of Corpus Christi, George W. Eddy and John Davis, of Dallas, Robert L. Holliday and Ernest Guinn, of El Paso, L. J. Wardlaw, of Fort Worth, R. L. Calvert, of Hillsboro, Robert F. Peden and James V. Allred, of Houston, C. F. Richards, of Lockhart, Robert Lee Bobbitt, Carl Wright Johnson and Woodv\u00fcle Rogers, all of San Antonio, Wright Patman and Elmer L. Lincoln, of Texarkana, Bert King, pf Wichita Falls, Dallas Scarbrough and Walter S. Pope, of Abilene, for petitioners.\nA nominee for the office of presidential elector in the Democratic party vacates such nomination when he declares that he will not, or when-it is found that he has no intention to, support the nominees of the national convention of such party for president and vice president, and the State Convention, held several months \u2018after such nomination has been made, may declare vacant the nominations of such persons. Stanford v. Butler, 142 Texas 692, 181 S. W. (2d) 269; Nixon v. Condon, 286 U. S. 73, 76 L. Ed. 984; Bell v. Hill, 123 Texas 531, 74 S. W. (2d) 113; McPherson v. Blacker, 146 U. S. 1, 36 L. Ed. 869; State v. Wait, 92 Neb. 313, 138 N. W. 159; 43 L. R. A. N. S. 282.\n. T. R. James, Rice M. Tilley, Sidney Samuels, Homa S. Hill, Hamilton Rogers, T. S. Christopher, A. B. Culbertson, William Pannill, B. B. Stone, Lloyd E. Price, R. A. Stuart, Karl Crowley, and Thompson, Walker, Smith and Shannon, all of Fort Worth, for respondent Arch H. Rowan, John Wheeler and R. J. Boyle, of San Antonio, Wright Morrow, R. J. Kelley, Lewis Fisher, John H. Freeman, John C. Townes, Frank J. Knapp, John H. Crooker, Andrews, Kelley, Kurth & Campbell, Full-, bright, Crooker, Freeman & Bates, and Butler & Binion-, all of Houston,,/. Hart Willis and C. C. Renfro, of Dallas, W. 0. Gross, of Mineral Wells, James G. Harrell, of Breckenridge, Perkins & Floyd, of Alice, Turner & Seaberry, of Eastland, John E. Qua-id, of El Paso, Henry Russell, of Pecos; Stubbleman, McRea & Sealy, T. D. Kimbrough and Richard Brooks, of Midland, T. G. Tilford and McAlister & Tucker, of Nacogdoches, Chas. E. Coombes, of Stamford, Joseph A. Chandler, of Stephenville, Geo. E. Smith, of Comanche, T. H. McGregor and C. C. Small, of Austin, Sidney Latham, Pro se, of Austin, for respondent.\nUnder statutory law, party custom and the order of business adopted by the delegates to the \u201cSeptember convention,\u201d such convention was without legal authority to declare a forfeiture of the nomination of the \u201cMay convention\u201d and cancel and annul their certificate of nomination. Sterling v. Ferguson, 122 Texas, 122, 53 S. W. (2d) 753; Sbarboro v. Jordan, 164 Calif, 51, 127 Pac. 170; Stanford v. Butler, 142 Texas 692, 181 S. W. (2d) 269."
+  },
+  "file_name": "0001-01",
+  "first_page_order": 19,
+  "last_page_order": 27
+}

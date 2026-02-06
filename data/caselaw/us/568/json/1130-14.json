@@ -1,0 +1,59 @@
+{
+  "id": 12429520,
+  "name": "Carter v. Illinois",
+  "name_abbreviation": "Carter v. Illinois",
+  "decision_date": "2013-01-14",
+  "docket_number": "No. 12-7278",
+  "first_page": "1130",
+  "last_page": "1130",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1130"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.612,
+    "sha256": "04cc02f75ff834a6fecc7c4ac8d12a5c07edd870880b312117b0ab4fd417e61c",
+    "simhash": "1:40d9d2cb1125ed2f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Carter v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Ill., 1st Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7278.\nCarter v. Illinois."
+  },
+  "file_name": "1130-14",
+  "first_page_order": 1206,
+  "last_page_order": 1206
+}

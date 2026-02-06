@@ -1,0 +1,59 @@
+{
+  "id": 4337212,
+  "name": "Tocholke v. Wisconsin",
+  "name_abbreviation": "Tocholke v. Wisconsin",
+  "decision_date": "2011-06-20",
+  "docket_number": "No. 10-10582",
+  "first_page": "1028",
+  "last_page": "1028",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1028"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 72,
+    "ocr_confidence": 0.624,
+    "sha256": "4f0d948b7be0aff81dc25bff6b7373d2a9617f9d885b83322283bd7201c4e6d2",
+    "simhash": "1:a2c672fd5a7258ba",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Tocholke v. Wisconsin."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10582.\nTocholke v. Wisconsin."
+  },
+  "file_name": "1028-07",
+  "first_page_order": 1022,
+  "last_page_order": 1022
+}

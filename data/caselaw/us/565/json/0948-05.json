@@ -1,0 +1,59 @@
+{
+  "id": 12227509,
+  "name": "Sanchez v. Massachusetts",
+  "name_abbreviation": "Sanchez v. Massachusetts",
+  "decision_date": "2011-10-11",
+  "docket_number": "No. 11-5660",
+  "first_page": "948",
+  "last_page": "948",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 948"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 73,
+    "ocr_confidence": 0.75,
+    "sha256": "753b9034e3bff55fb413b5a95ec3e7b70f5721e3511e55e11d693ffdeeb6d97c",
+    "simhash": "1:ed9d6db41129ba6c",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sanchez v. Massachusetts."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Mass. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5660.\nSanchez v. Massachusetts."
+  },
+  "file_name": "0948-05",
+  "first_page_order": 1030,
+  "last_page_order": 1030
+}

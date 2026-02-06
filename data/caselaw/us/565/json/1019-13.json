@@ -1,0 +1,59 @@
+{
+  "id": 12232893,
+  "name": "Peeples v. United States",
+  "name_abbreviation": "Peeples v. United States",
+  "decision_date": "2011-11-07",
+  "docket_number": "No. 11-6749",
+  "first_page": "1019",
+  "last_page": "1019",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1019"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.712,
+    "sha256": "a14ec63fd8e26f14a7169cd4459ef90ee39fd7202acc2524f99ac2d228dc353a",
+    "simhash": "1:1e49ce2303df94b8",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Peeples v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6749.\nPeeples v. United States."
+  },
+  "file_name": "1019-13",
+  "first_page_order": 1101,
+  "last_page_order": 1101
+}

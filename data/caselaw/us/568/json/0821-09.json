@@ -1,0 +1,59 @@
+{
+  "id": 12409703,
+  "name": "Rohr v. Indiana",
+  "name_abbreviation": "Rohr v. Indiana",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-1443",
+  "first_page": "821",
+  "last_page": "821",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 821"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 63,
+    "ocr_confidence": 0.713,
+    "sha256": "9bd96e46b8e371848d1568a4a272078ee80bddc60da8c90234d25d40aa65e9b1",
+    "simhash": "1:9e87b93e64531e8f",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rohr v. Indiana."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Ind. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1443.\nRohr v. Indiana."
+  },
+  "file_name": "0821-09",
+  "first_page_order": 897,
+  "last_page_order": 897
+}

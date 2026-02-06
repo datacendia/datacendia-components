@@ -1,0 +1,86 @@
+{
+  "id": 12427698,
+  "name": "Delia, Secretary, North Carolina Department of Health and Human Services v. E. M. A., a Minor, By and Through Her Guardian ad Litem Johnson, et al.",
+  "name_abbreviation": "Delia v. E. M. A. ex rel. Johnson",
+  "decision_date": "2013-01-04",
+  "docket_number": "No. 12-98",
+  "first_page": "1080",
+  "last_page": "1080",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1080"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "567 U. S. 968",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12413251,
+        12413255,
+        12413259,
+        12413260,
+        12413265,
+        12413239,
+        12413241,
+        12413247
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/567/0968-04",
+        "/us/567/0968-05",
+        "/us/567/0968-06",
+        "/us/567/0968-07",
+        "/us/567/0968-08",
+        "/us/567/0968-01",
+        "/us/567/0968-02",
+        "/us/567/0968-03"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 51,
+    "char_count": 337,
+    "ocr_confidence": 0.569,
+    "sha256": "1312c5665d8bd9209bf5651c6251f623ceb76a2fd586657cbb833fa93203bae9",
+    "simhash": "1:82840031c3b17475",
+    "word_count": 58
+  },
+  "last_updated": "2024-02-27T23:44:49.194693+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Delia, Secretary, North Carolina Department of Health and Human Services v. E. M. A., a Minor, By and Through Her Guardian ad Litem Johnson, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. [Certiorari granted, 567 U. S. 968.] Motion of the Solicitor General for leave to participate in oral argument as ami-cus curiae and for divided argument granted.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-98.\nDelia, Secretary, North Carolina Department of Health and Human Services v. E. M. A., a Minor, By and Through Her Guardian ad Litem Johnson, et al."
+  },
+  "file_name": "1080-06",
+  "first_page_order": 1156,
+  "last_page_order": 1156
+}

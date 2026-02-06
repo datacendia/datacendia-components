@@ -1,0 +1,59 @@
+{
+  "id": 5955869,
+  "name": "Sistrunk v. United States",
+  "name_abbreviation": "Sistrunk v. United States",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8311",
+  "first_page": "1242",
+  "last_page": "1242",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1242"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.632,
+    "sha256": "5f650008ba032512dfb89b778b2a22419bcd8fb98ab12e13c5375c709c00f776",
+    "simhash": "1:95abca23878bb01a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sistrunk v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8311.\nSistrunk v. United States."
+  },
+  "file_name": "1242-03",
+  "first_page_order": 1264,
+  "last_page_order": 1264
+}

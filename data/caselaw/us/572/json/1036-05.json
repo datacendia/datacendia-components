@@ -1,0 +1,68 @@
+{
+  "id": 12705309,
+  "name": "John A. IRVINE, et al., petitioners, v. UNITED STATES.",
+  "name_abbreviation": "Irvine v. United States",
+  "decision_date": "2014-03-31",
+  "docket_number": "No. 13\u20131040.",
+  "first_page": "1036",
+  "last_page": "1036",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "572 U.S. 1036"
+    },
+    {
+      "type": "parallel",
+      "cite": "188 L. Ed. 2d 596"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 1777"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 27,
+    "char_count": 220,
+    "sha256": "db25f5d2e087a0005faf413918fb58cc1f527256d1fff4c72d4755ddc2800689",
+    "simhash": "1:d1ad7644a780168d",
+    "word_count": 37
+  },
+  "last_updated": "2021-09-08T21:16:17.237805+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "John A. IRVINE, et al., petitioners,\nv.\nUNITED STATES."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of certiorari to the United States Court of Appeals for the Fifth Circuit denied."
+    ],
+    "corrections": "",
+    "head_matter": "John A. IRVINE, et al., petitioners,\nv.\nUNITED STATES.\nNo. 13-1040.\nSupreme Court of the United States\nMarch 31, 2014.\nPetition for writ of certiorari to the United States Court of Appeals for the Fifth Circuit denied."
+  },
+  "file_name": "1036-05",
+  "first_page_order": 1036,
+  "last_page_order": 1036
+}

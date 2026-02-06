@@ -1,0 +1,401 @@
+{
+  "id": 2261851,
+  "name": "The Kansas University Endowment Association, Et Al v. R. V. King Et Al",
+  "name_abbreviation": "Kansas University Endowment Ass'n v. King",
+  "decision_date": "1961-10-03",
+  "docket_number": "No. A-7992",
+  "first_page": "599",
+  "last_page": "612",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "162 Tex. 599"
+    },
+    {
+      "type": "parallel",
+      "cite": "350 S.W.2d 11"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "163 S.W. 2d 385",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10213838,
+        2311471
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/163/0385-01",
+        "/tex/139/0411-01"
+      ]
+    },
+    {
+      "cite": "139 Tex. 411",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2311471
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/139/0411-01"
+      ]
+    },
+    {
+      "cite": "329 S.W. 2d 76",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10157426,
+        2258996
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/329/0076-01",
+        "/tex/160/0198-01"
+      ]
+    },
+    {
+      "cite": "160 Tex. 198",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2258996
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/160/0198-01"
+      ]
+    },
+    {
+      "cite": "183 S.W. 2d 438",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10208243,
+        2338526
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/183/0438-01",
+        "/tex/143/0202-01"
+      ]
+    },
+    {
+      "cite": "143 Tex. 202",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2338526
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/143/0202-01"
+      ]
+    },
+    {
+      "cite": "72 A. L. R. 410",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "216 S.W. 149",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8260344
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/216/0149-01"
+      ]
+    },
+    {
+      "cite": "76 S.W. 2d 997",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2300393,
+        10268326
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/124/0196-01",
+        "/sw2d/76/0997-01"
+      ]
+    },
+    {
+      "cite": "124 Tex. 196",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2300393
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/124/0196-01"
+      ]
+    },
+    {
+      "cite": "16 S.W. 1003",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "81 Tex. 258",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2215402
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/81/0258-01"
+      ]
+    },
+    {
+      "cite": "280 S.W. 2d 247",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10180738,
+        2249262
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/280/0247-01",
+        "/tex/154/0538-01"
+      ]
+    },
+    {
+      "cite": "154 Tex. 538",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2249262
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/154/0538-01"
+      ]
+    },
+    {
+      "cite": "29 Tex. 317",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2101079
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/29/0317-01"
+      ]
+    },
+    {
+      "cite": "153 S.W. 2d 452",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10220152,
+        2315032
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/153/0452-01",
+        "/tex/137/0324-01"
+      ]
+    },
+    {
+      "cite": "137 Tex. 324",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2315032
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/137/0324-01"
+      ]
+    },
+    {
+      "cite": "337 S.W. 2d 295",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10154939
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/337/0295-01"
+      ]
+    },
+    {
+      "cite": "278 S.W. 2d 825",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10184844,
+        2249260
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/278/0825-01",
+        "/tex/154/0376-01"
+      ]
+    },
+    {
+      "cite": "154 Tex. 376",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2249260
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/154/0376-01"
+      ]
+    },
+    {
+      "cite": "24 S.W. 846",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "272 S.W. 2d 556",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10202584
+      ],
+      "pin_cites": [
+        {
+          "page": "558-59"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/272/0556-01"
+      ]
+    },
+    {
+      "cite": "14 S.W. 2d 1013",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10306995
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/14/1013-01"
+      ]
+    },
+    {
+      "cite": "15 S.W. 237",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "79 Tex. 279",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2219176
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/79/0279-01"
+      ]
+    },
+    {
+      "cite": "61 S.W. 2d 773",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2304209,
+        10258962
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/122/0383-01",
+        "/sw2d/61/0773-01"
+      ]
+    },
+    {
+      "cite": "122 Tex. 383",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2304209
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/122/0383-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1085,
+    "char_count": 26451,
+    "ocr_confidence": 0.628,
+    "pagerank": {
+      "raw": 8.705397393737709e-07,
+      "percentile": 0.9774365223609561
+    },
+    "sha256": "6b67c9b70c1b7eca36b218dc676c71c4b7984ab5edee7b886259da351aef8f52",
+    "simhash": "1:a31fe0872b0b1dbe",
+    "word_count": 4670
+  },
+  "last_updated": "2024-02-27T23:04:29.645629+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "The Kansas University Endowment Association, Et Al v. R. V. King Et Al"
+    ],
+    "opinions": [
+      {
+        "text": "MR. JUSTICE WALKER\ndelivered the opinion of the Court.\nThis suit as originally filed was an action in trespass to try title for the recovery of title to and possession of certain lots and blocks in the Collins Tract Addition to the City of Houston. Almost a century ago two persons, Baker and Tankersley, thought they owned a tract of land which contained 259 acres. They subdivided and partitioned the same on the basis of their construction of the field notes used in certain deeds, and in the years that followed different parts of the subdivision were conveyed by lot and block number. It now appears that the parties actually owned only 244 acres, and there is not enough land available on the ground to locate all of the lots and blocks in accordance with the recorded plat. With minor exceptions the adjoining property on all sides has been subdivided and is thickly populated.\nOne of the questions to be decided is whether the tract which Baker and Tankersley intended to divide lies wholly within the survey patented to Charles B. Stewart, assignee of J. S. Collins, on March 1, 1841. In so far as the present proceeding is concerned, there is no dispute as to the location of the survey lines on the ground and no material discrepancy between the lines as so located and the field notes in the patent. The dimensions of the Collins Survey as set out in the patent, the location of adjoining surveys, and the 259-acre tract described below are shown on the following map:\nBy deed dated November 26, 1841, Charles B. Stewart conveyed to Darius Gregg a tract of land described by metes and bounds in the conveyance and said to contain 259 acres. Substantially the same description was used when the property was conveyed by Darius Gregg to B. F. Tankersley and W. R. Baker on April 28, 1847. These two conveyances are hereinafter referred to as the Gregg deeds. The description appearing in the 1847 instrument is as follows:\n* * two hundred and fifty-nine (259) acres of land, out of a survey granted to Chas. B. Stewart of four & one third labors of land in Harris County. Beginning on the west boundary line of two leagues of land granted to Harris & Wilson lying on the north bank of Buffalo Bayou at the north east corner of said Survey of Stewart, at a mound in the prairie, Thence west thirteen hundred and sixty four varas to a Stake for 2d. corner, Thence south thirteen hundred & sixty five and a half varas to stake for 3d. corner, Thence east five hundred & thirty four varas to 4th corner, Thence north four hundred & ninety two varas to 5th. comer, Thence east eight hundred & eight varas to Harris & Wilsons line, Thence north with said line eight hundred & seventy three & a half varas to the place of Beginning * *\nSince the most westerly west line of the Collins Survey is 1206 varas in length, the 259-acre tract extends some 159% varas into the S. M. Harris Survey if its boundaries are located in accordance with the beginning corner, courses and distances set out in the Gregg deeds. The called distance for the north line of the 259-acre tract is 22 varas greater than the sum of the called distances for the two south lines. Under settled rules of construction, the upper south line must be extended 22 varas so as to give effect to the call for ad joinder with the Harris and Wilson Survey. See Camp v. Gulf Production Co., 122 Tex. 383, 61 S.W. 2d 773; Maddox v. Turner, 79 Tex. 279, 15 S.W. 237; Kirby Lumber Co. v. Gibbs Bros. & Co., Com. App., 14 S.W. 2d 1013. When that is done, the course and distance description encloses a tract of approximately 259 acres, of which about 15 acres is in the S. M. Harris Survey. So far as the present record discloses, however, none of the persons named thus far owned any interest in such Survey. The portion of the 259-acre tract which lies within the Collins Survey is hereinafter referred to as the 244-acre tract.\nB. F. Tankersley died in 1859, and his widow, Mrs. Gertrude E. Tankersley, was appointed administrix of his estate. The record indicates that his interest in the land may have been acquired with her separate funds. Be that as it may, Mrs. Tankersley and W. R. Baker executed a partition deed dated July 10, 1861. After reciting that the parties owned, and had laid off into numbered blocks and streets for the purpose of division, 259 acres of the J. S. Collins Survey described by metes and bounds in the instrument, Baker transferred to Mrs. Tankersley all of his title and interest in odd-numbered Blocks Nos. 1 to 115, inclusive, \u201caccording to a map made by W. E. Wood,\u201d and Mrs. Tankersley quit-claimed to Baker all of her interest in even-numbered Blocks Nos. 2 to 116, inclusive. The description of the 259-acre tract in this deed is substantially the same as that used in the Gregg deeds except that the Harris and Wilson Survey is not mentioned in the last two calls. No plat was recorded with the deed, and the original W. E. Wood map referred to therein has not been introduced in evidence.\nOn June 14, 1862, there was filed for record in the office of the County Clerk of Harris County a plat identified as \u201cMap of the Collins Tract Addition to the City of Houston.\u201d A sketch of the Addition prepared by the Texas Highway Department is published as part of the opinion of the Court of Civil Appeals in Armstrong v. City of Houston, 272 S.W. 2d 556, 558-59. Although not an exact reproduction of the recorded plat, this sketch will be of assistance in understanding the questions now presented for decision. Any statements in this opinion regarding the map or plat refer to the recorded plat and not the published sketch.\nAlthough the plat shows no directions and makes no reference to any survey or natural feature, it is to be presumed that the same was drawn in the conventional manner with reference to the points of the compass. See Lunn v. Scarborough, Tex. Civ. App., 24 S.W. 846 (no writ). The platted area is divided into 116 blocks, and each block is subdivided into lots. The outside dimensions of the subdivision are shown on the plat in feet. With but a single exception, these agree exactly with the distances called in the partition deed. The only discrepancy in this respect is that the plat shows the lower south line to be 1544.5 feet (556 varas) in length, whereas the deed calls for 534 varas. There is a notation on the plat \u201cdrawn by Th. Kosse.\u201d Other recitals indicate that J. Brashear was County Clerk and that the instrument was recorded by his deputy, H. Brashear.\nThe subdivision was never laid out on the ground, and the plat obviously is the result of an office survey. The only existing street bearing a name found on the plat is Labadie, which runs along the north line of the S. M. Harris Survey. There are also streets on the north and east lines of the Collins Survey, but these are known, respectively, as Kelly Street and Hirsch Road. Aside from certain encroachments along the upper south line and lower east line, the land available on the ground today for laying out the subdivision is the 244-acre tract. Just when the 15-acre shortage was discovered is not clear, but the proper method for locating the blocks of the Collins Tract Addition has long been a disputed question.\nResort to the district court for a determination of that question became necessary when proceedings were instituted to condemn a highway right-of-way across part of the Addition. In City of Houston v. Culmore, 154 Tex. 376, 278 S.W. 2d 825, it was held that since the conflicting claims to the various lots and blocks could not be resolved without the aid of the district court, the condemning authority might proceed in one action against all parties asserting an interest in the land. The damages assessed by the jury for the value of the land taken have now been deposited in the registry of the county court to await an adjudication of title, and it was to obtain such adjudication that the present suit was instituted.\nThere are between 300 and 400 parties to the suit represented by more than thirty attorneys. The basic positions taken by the different groups of parties in the trial court may be summarized as follows:\n(1) The theory urged at the outset by the original plaintiffs, The Kansas University Endowment Association et al., is that the north and east lines of the platted area coincide with the corresponding lines of the Collins Survey, and that the record title must fail as to any land covered by the plat which was not owned by Baker and Tankersley. Under this approach, the record owners of approximately one and one-half tiers of blocks shown on the plat as being located immediately north of Labadie Street would have no title. Subject to a 22-vara shortage along the lower east line, all other blocks could be laid out in accordance with the dimensions shown on the plat.\n(2) Another theory is that the upper east line of the platted area coincides with the east line of the Collins Survey and the lower south line with the north line of the S. M. Harris Survey. Under this approach the record owners of the north one and one-half tiers of blocks would have no title, and a substantial portion of the land owned by Baker and Tankersley would be left undivided.\n(3) A third theory, which was suggested to the trial court but not urged except by motion for rehearing in the Court of Civil Appeals, is that the doctrine of equitable apportionment affords the only practical solution to the problem of locating the plat on the ground.\n(4) R. V. King and others contend that the plat cannot be located on the ground. They also say that there is nothing to connect the plat with the W. E. Wood map referred to in partition deed. If either of these contentions is sound, any party whose claim depends upon a conveyance by reference to the plat will be unable to establish record title.\nOn its own motion the trial court severed out all claims to specific tracts of land and directed that an action for a declaratory judgment as to the location on the ground of the perimeter lines of the Collins Tract Addition should first proceed to judgment. According to the pre-trial order, which was incorporated in the judgment later entered, it was the intention of the court \u201cto provide a final judgment which will locate on the ground, if possible, a beginning point, a reference from which by latitude and departure the exact location by metes and bounds of any specified parcel could be secured in the severed cases.\u201d It was also ordered that the judgment in the declaratory judgment proceeding should be res ad judicata as to the location of the perimeter lines only, and that such action would be without prejudice to the rights of the individual parties to seek relief with respect to their specific tracts \u201cexcept that it will locate a reference point from which their land must be located.\u201d\nFour special issues were submitted to the jury at the conclusion of the evidence on the trial. The last three were conditioned on an affirmative answer to Special Issue No. 1, which inquired whether the recorded plat is a copy of the map referred to in the partition deed. After being advised that the jurors were unable to agree on an answer to such issue, the court withdrew the case from the jury and entered judgment finding and concluding as a matter of law:\n(1) That the land actually owned and which was subject to partition by Baker and Tankersley is the 244-acre tract;\n(2) That is was the intention of Baker and Tankersley to partition the 244-acre tract; and\n(3) That said land so owned by them is the land covered by the recorded plat.\nThe Court of Civil Appeals reversed and remanded for a new trial, because it concluded that there is evidence to support a finding that the lower south line of the Addition coincides with the north line of the S. M. Harris Survey. 337 S.W. 2d 295. Since that is where the judgment of the trial court places such line, the intermediate court apparently construed such judgment as a determination that blocks within the Addition should be laid out in accordance with the theory urged by The Kansas University Endowment Association. There is considerable disagreement among the parties as to the effect of the trial court\u2019s judgment, but we find nothing to indicate that any particular locative theory was either adopted or rejected. The concluison that Baker and Tankersley intended to partition the 244-acre tract might well constitute a predicate for application of the doctrine of equitable apportionment. See Great Plains Oil & Gas Co. v. Foundation Oil Co., 137 Tex. 324, 153 S.W. 2d 452.\nThe recorded plat is the only map of the Collins Tract Addition or Collins Addition to be found in the public records of Harris County. Its shape and outside dimensions conform in every respect except one to the description of the 259-acre tract as set out in the Gregg deeds. In extending the lower south boundary of the. Addition 22 varas, the maker of the plat undoubtedly was attempting to correct the discrepancy between the called lengths of the north and two south lines. The 22 varas should have been added to the upper south line, but it is clear that the plat was drawn on the basis of the field notes in the partition deed. There are 116 blocks shown on the plat, which is the number called for by the partition deed. The blocks bearing odd and even numbers form a checkered pattern. While there are several short blocks of varying sizes, these are so dimensioned that the total area of all even-numbered blocks is substantially the same as that of the odd-numbered blocks.\nIf the plat is not a copy of the Wood map, someone went to the trouble and expense of preparing and filing a drawing which differs from such map and yet conforms in a remarkable degree to information regarding the map that is found in the partition deed \u2014 a plat which, when taken in connection with the deed, works an eminently fair and advantageous division of the property. That this would have been done less than a year after the deed was executed and while the parties were still alive seems quite improbable. It is much more likely that a copy of the Wood map was drawn in the county clerk\u2019s records by Thomas Kosse. The only evidence tending to identify Kosse is a deed recital indicating that he worked in W. R. Baker\u2019s office.\nAny doubt as to the authenticity of the plat is dispelled by the fact that the parties later recognized and adopted the same. It is in this respect that the present case differs from Welder v. Carroll, 29 Tex. 317, where the coincidences between a map in the office of the district surveyor and the one which should have been with the grants were held to raise a question for the jury as to whether such map either accompanied the grants or was the original plat from which copies to go with the grants were taken. By deed dated September 9, 1862, W. R. Baker conveyed to Gustav Erichson Blocks Nos. 28, 30, 32, 36, 38 and 40 \u201cin the Collins Tract Addition to the City of Houston on the north side of Buffalo Bayou according to a map thereof recorded in Harris County Record of Deeds Book Z page 138.\u201d Several years later Mrs. Gertrude E. Wright, formerly Gertrude E. Tankersley, joined by her husband, conveyed 52 odd-numbered blocks, ranging from No. 1 to No. 115, to Gustave Ranger. This deed recites that the blocks conveyed are part of 259 acres out of the J. S. Collins Survey \u201cand the same property conveyed by deed of partition to G. E. Tankersley by William R. Baker as appears of record in Harris County Book Y page 393 less certain Blocks heretofore sold by G. E. Tankersley * * * and to better describe the property hereby conveyed, the plan of the subdivision into Blocks referred to in the deed of partition between W. R. Baker and G. E. Tankersley is hereby referred to as the description of the hereinafter mentioned blocks in what is known as Collins Addition to Houston.\u201d There are also deeds from the two children of B. F. and Gertrude E. Tankersley conveying their interest in 44 odd-numbered blocks, ranging from No. 5 to No. 115. One of these deeds recites that the blocks conveyed are \u201cout of the Collins Addition to the City of Houston, County of Harris and State of Texas, according to the map or plat of same on record in the County Clerk\u2019s office of said County.\u201d According to the other conveyance the property is part of the J. S. Collins Survey and \u201cdesignated on the map or plat of the subdivision of 259 acres of said survey as follows: [Blocks designated by number] of the Collins Addition to the City of Houston.\u201d\nIn view of the long lapse of time and the circumstances mentioned above, we think the evidence in the present record establishes conclusively that the plat is a copy of the W. E. Wood map mentioned in the partition deed. \u201cA reasonable certainty is all the law requires. Conviction beyond all peradventure of doubt is unnecessary.\u201d Gates v. Asher, 154 Tex. 538, 280 S.W. 2d 247. This brings us to the question of how the plat should be located on the ground.\nAlthough equitable apportionment has an obvious appeal as a solution for that problem, we have concluded that such doctrine cannot be applied here. Unlike the Great Plains case, there is nothing to suggest whether or where the boundaries of the land Baker and Tankersley expected to divide were located on the ground at the time. And we find no evidence to support the conclusion that they intended for the plat either to begin or stop on the north line of the S. M. Harris Survey. If, as contended by some of the parties, it were proper to lay the plat out on the ground from south to north, beginning with the north line of the S. M. Harris and giving each block and street its full platted dimensions, some 24 acres immediately north of the upper south line of the 259-acre tract would be left unplatted and undivided. This could hardly be in accordance with the intention of the parties at the time they made their division.\nIt is argued that the south line of Labadie Street as shown on the plat was meant to be north line of the S. M. Harris Survey, because the partition deed and other instruments in the chain of title describe the 259-acre tract as being part of the Collins Survey. We do not agree. In each of the deeds the general statement is followed by a specific metes and bounds description which does not call for either the south line of the Collins or the north line of the S. M. Harris. The boundaries of the 259-acre tract, when located by the beginning corner, courses and distances set out in the Gregg deeds, include about 15 acres of the S. M. Harris Survey, and this is needed to make up the quantity of land which the parties said was being conveyed. There is thus a conflict between an inadequate general description on the one hand and a legally sufficient particular description reinforced by a specifically designated quantity of land on the other. Under such circumstances the particular description ordinarily prevails over the general. See Cullers v. Platt, 81 Tex. 258, 16 S.W. 1003; McAnally v. Texas Co., 124 Tex. 196, 76 S.W. 2d 997; Tucker v. Angelina County Lumber Co., Com. App., 216 S.W. 149; Annotation, 72 A. L. R. 410.\nIf Charles B. Stewart had owned the S. M. Harris Survey by conveyance from the record owner or by adverse possession, the Gregg deeds would have effectively conveyed the entire 259-acre tract described therein. It does not appear that the survey lines were marked on the ground when the division was made. Since the evidence does not show when Labadie Street was opened or by whom it was named, the fact that a street by that name now runs along the north line of the S. M. Harris Survey does not tend to show that it was one of the boundaries Baker and Tankersley had in mind. Neither the numbers of the blocks in the Addition nor the location of a street in an adjoining subdivision platted nearly 85 years later is of any real significance in that respect.\nWhen the partition deed and other instruments in the chain of title are read in connection with the plat, it seems clear to us that the parties intended to divide the tract of land which they thought was conveyed by the Gregg deeds. Such tract is bounded on the east by the east line of the Collins Survey, on the north by the north line of such Survey, and is dimensioned as shown on the plat. Baker and Tankersley were mistaken as to their title, but it cannot fairly be said that the causes contributing to such error operated equally on all parts of the plat. When title fails to part of a tract which has been platted or otherwise subdivided as intended by those who thought they owned the same, there is no rule of law requiring one remote grantee to share his land with another.\nThe plat can and should be located on the ground by placing the northeast corner of the platted area, i.e., the intersection of the north line of Adams Street and the east line of York Street, at the northeast corner of the J. S. Collins Survey. The north and east lines of said streets, respectively, coincide with the corresponding lines of such Survey. The streets, blocks and lots in the Addition should be laid out from these points of reference in accordance with the detailed dimensions shown on the recorded plat. Although this is the locative theory of the surveyor Atkinson, no weight has been given to his argumentative conclusions. We agree with him, however, that it is the only theory that is consistent with the facts disclosed by the record. Since Baker and Tankersley apparently did not own the approximately 15 acres out of the S. M. Harris Survey covered by the plat, the record title to all blocks and parts of blocks lying in that Survey will necessarily fail. The record title to the east 22 varas of Lot 8, Block 53, and Blocks 49, 50, 51, and 52 will also fail.\nThus far we have been considering questions which the trial court set out to determine in this severed cause. When the severance was ordered, the district judge stated that he was acting under the provisions of Rule 174, Texas Rules of Civil Procedure, which authorizes the court, in the furtherance of convenience and to avoid prejudice, to order a separate trial of any claim or issue. The court probably was led into such error by the opinions of this and other courts in which the terms \u201cseparate trial\u201d and \u201cseverance\u201d have been treated as synonymous. For a comparison of the two terms and an analysis of the Texas decisions, see Hall, \u201cSeverance and Separate Trial in Texas,\u201d 36 Texas Law Review 339. As there pointed out, severance is dealt with by Rule 41, which provides that \u201cany claim against a party may be severed and proceeded with separately.\u201d A severance divides the lawsuit into two or more independent causes, each of which terminates in a separate, final and enforceable judgment. The separate trial contemplated by Rule 174 results in an interlocutory order determining the claims or issues so tried, but there is only one final judgment which is entered after all claims and issues involved in the suit have been tried.\nAn issue that is tried separately under Rule 174 need not constitute a complete lawsuit in itself. Severance is proper, however, only where the suit involves two or more separate and distinct causes of action. Each of the causes into which the action is severed must be such that the same might properly be tried and determined if it were the only claim in controversy. See Rose v. Baker, 143 Tex. 202, 183 S.W. 2d 438; Pierce v. Reynolds, 160 Tex. 198, 329 S.W. 2d 76. A severable cause of action may be tried separately under the provisions of Rule 174, but an issue that might properly be the subject of a separate trial is not necessarily severable.\nThe present case demonstrates the soundness of these rules. Its presentation and consideration on appeal has been considerably complicated by the fact that the parties are unable to determine the effect of the trial court\u2019s conclusions on their individual claims. The location of the perimeter lines of the Collins Tract Addition is not an independent cause of action. It is merely one of the subsidiary questions that must be resolved in passing upon the title to specific lots and blocks in the Addition. The order of severance fragments the case instead of splitting it along a proper line of cleavage. Objection having been made in the trial court and the point having been preserved in the Court of Civil Appeals, we hold that the severance was erroneous and that the severed causes must be reconsolidated. Any statements in our former opinions indicating that Rule 174 deals with severance are incorrect and should be disregarded.\nIn disposing of this case, the trial court must be free to consider and adjudicate the claims of all parties, many of which are interwoven and dependent upon each other. The judgment of the Court of Civil Appeals is accordingly modified to provide expressly that the reversal and remand shall be effective as to all parties, including those who appealed and those who did not appeal. See Lockhart v. A. W. Snyder & Co., 139 Tex. 411, 163 S.W. 2d 385. The judgment of the intermediate court as so modified is affirmed, but the district court will be governed by this opinion. We recognize that the evidence on the second trial may be different from that found in the present record, and in that event the district court must determine whether such evidence warrants or requires conclusions different from those here expressed.",
+        "type": "majority",
+        "author": "MR. JUSTICE WALKER"
+      }
+    ],
+    "attorneys": [
+      "Ernest A. Knipp, Houston for Kansas University Endowment Ass\u2019n. et al.",
+      "Howard S. Hoover, Sam Williamson and Henry V. Broady, Houston, of counsel.",
+      "H. Fletcher Brown, Houston, for Gladys Deering, et al.",
+      "Walker F. Johnston, Taylor J. Hughes and Birch B. Kirk, Houston, for Jessie J. Loraine O\u2019Reilly et al.",
+      "Fulbright, Crooker Freeman, Bates and Jaworski, Houston, for Respondents, R. V. King, Austin C. Wilson, Houston, of counsel.",
+      "Hamblen, Bobbitt & Hamblen, Houston, for Willis and Blanche Culmore.",
+      "DeLange Hudspeth & Pitman, Houston, for Houston Title Guaranty Co. et al.",
+      "P. Harvey and Gordon S. Tate, Houston, for R. P. Lynn et al.",
+      "F. T. Baldwin, Houston, for J. S. Welboan.",
+      "Eastman & Williams, Houston, for Cyrus S. Gentry et al.",
+      "Steeger, Dohoney, Jones and Caldwell, Houston, for non-appealing parties Marie A. W. White et al."
+    ],
+    "corrections": "",
+    "head_matter": "The Kansas University Endowment Association, Et Al v. R. V. King Et Al\nNo. A-7992.\nOpinion delivered Oct. 3, 1961\nRehearing overruled Nov. 1, 1961\n(350 S.W. 2d Series 11)\nErnest A. Knipp, Houston for Kansas University Endowment Ass\u2019n. et al.\nHoward S. Hoover, Sam Williamson and Henry V. Broady, Houston, of counsel.\nH. Fletcher Brown, Houston, for Gladys Deering, et al.\nWalker F. Johnston, Taylor J. Hughes and Birch B. Kirk, Houston, for Jessie J. Loraine O\u2019Reilly et al.\nFulbright, Crooker Freeman, Bates and Jaworski, Houston, for Respondents, R. V. King, Austin C. Wilson, Houston, of counsel.\nHamblen, Bobbitt & Hamblen, Houston, for Willis and Blanche Culmore.\nDeLange Hudspeth & Pitman, Houston, for Houston Title Guaranty Co. et al.\nP. Harvey and Gordon S. Tate, Houston, for R. P. Lynn et al.\nF. T. Baldwin, Houston, for J. S. Welboan.\nEastman & Williams, Houston, for Cyrus S. Gentry et al.\nSteeger, Dohoney, Jones and Caldwell, Houston, for non-appealing parties Marie A. W. White et al."
+  },
+  "file_name": "0599-01",
+  "first_page_order": 607,
+  "last_page_order": 620
+}

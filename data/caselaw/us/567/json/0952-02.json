@@ -1,0 +1,59 @@
+{
+  "id": 12412796,
+  "name": "Ninham v. Wisconsin",
+  "name_abbreviation": "Ninham v. Wisconsin",
+  "decision_date": "2012-06-29",
+  "docket_number": "No. 11-6494",
+  "first_page": "952",
+  "last_page": "952",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 952"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 67,
+    "ocr_confidence": 0.665,
+    "sha256": "c5819776e63a5ee19894a373f4d1ed7a3b568a3c3c010427ac42323376992949",
+    "simhash": "1:2a84c9b08c564385",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ninham v. Wisconsin."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Wis. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6494.\nNinham v. Wisconsin."
+  },
+  "file_name": "0952-02",
+  "first_page_order": 856,
+  "last_page_order": 856
+}

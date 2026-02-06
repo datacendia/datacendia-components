@@ -1,0 +1,76 @@
+{
+  "id": 12408108,
+  "name": "Tatar v. United States; Duka v. United States; Duka v. United States; Duka v. United States; and Shnewer v. United States",
+  "name_abbreviation": "Tatar v. United States",
+  "decision_date": "2012-06-11",
+  "docket_number": "No. 11-1295; No. 11-1308; No. 11-10192; No. 11-10205; No. 11-10235",
+  "first_page": "906",
+  "last_page": "906",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 906"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "671 F. 3d 329",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5872540
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/671/0329-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 255,
+    "ocr_confidence": 0.72,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2555098772167798
+    },
+    "sha256": "32dd5cb5b03a81fd0cde9252dd5072ae64bc4d654f1acf8274504aea437f6100",
+    "simhash": "1:862a0b104e27d138",
+    "word_count": 43
+  },
+  "last_updated": "2024-02-27T23:46:21.325002+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Tatar v. United States; Duka v. United States; Duka v. United States; Duka v. United States; and Shnewer v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied. Reported below: 671 F. 3d 329.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1295.\nNo. 11-1308.\nNo. 11-10192.\nNo. 11-10205.\nNo. 11-10235.\nTatar v. United States; Duka v. United States; Duka v. United States; Duka v. United States; and Shnewer v. United States."
+  },
+  "file_name": "0906-10",
+  "first_page_order": 810,
+  "last_page_order": 810
+}

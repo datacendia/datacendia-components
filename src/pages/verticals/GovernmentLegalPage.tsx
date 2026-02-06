@@ -105,10 +105,24 @@ export const GovernmentLegalPage: React.FC = () => {
                 </span>
               </div>
               <h1 className="text-4xl font-bold mb-4">Government & Legal Services</h1>
-              <p className="text-xl text-neutral-300 max-w-3xl">
+              <p className="text-xl text-neutral-300 max-w-3xl mb-6">
                 Sovereign AI platform for policy analysis, procurement decisions, and contract
                 intelligence. SCIF-ready deployment meets EU AI Act sovereignty mandates.
               </p>
+              <div className="flex gap-4">
+                <button
+                  onClick={() => navigate('/cortex/council?vertical=government')}
+                  className="px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white rounded-lg font-semibold transition-colors flex items-center gap-2"
+                >
+                  <span>🏛️</span> Launch Government Council
+                </button>
+                <button
+                  onClick={() => navigate('/cortex/enterprise/defense-stack')}
+                  className="px-6 py-3 border border-purple-500/50 text-purple-400 hover:bg-purple-500/10 rounded-lg font-medium transition-colors"
+                >
+                  🛡️ CendiaDefense™
+                </button>
+              </div>
             </div>
             <div className="text-right">
               <p className="text-sm text-neutral-400">Pilot Result</p>

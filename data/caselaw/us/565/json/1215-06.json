@@ -1,0 +1,59 @@
+{
+  "id": 12247458,
+  "name": "Price v. Kansas",
+  "name_abbreviation": "Price v. Kansas",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-7952",
+  "first_page": "1215",
+  "last_page": "1215",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1215"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 63,
+    "ocr_confidence": 0.703,
+    "sha256": "c1992d3bb809bab85ea4861c2940e85039cabd76bbd49c01834a62ad9afc2cba",
+    "simhash": "1:eb92674c3bd1fc12",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Price v. Kansas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Kan. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7952.\nPrice v. Kansas."
+  },
+  "file_name": "1215-06",
+  "first_page_order": 1297,
+  "last_page_order": 1297
+}

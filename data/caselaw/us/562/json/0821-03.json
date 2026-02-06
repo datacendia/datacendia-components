@@ -1,0 +1,96 @@
+{
+  "id": 5901513,
+  "name": "Walker, Warden, et al. v. Martin",
+  "name_abbreviation": "Walker v. Martin",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-996",
+  "first_page": "821",
+  "last_page": "821",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 821"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "561 U. S. 1005",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12455328,
+        12455329,
+        12455330,
+        12455331,
+        12455332,
+        12455535,
+        12455536,
+        12455537,
+        12455538,
+        12455539,
+        12455540,
+        12455326,
+        12455327
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/177/1054-06",
+        "/l-ed-2d/177/1054-07",
+        "/l-ed-2d/177/1055-01",
+        "/l-ed-2d/177/1055-02",
+        "/l-ed-2d/177/1055-03",
+        "/l-ed-2d/177/1081-02",
+        "/l-ed-2d/177/1081-03",
+        "/l-ed-2d/177/1081-04",
+        "/l-ed-2d/177/1081-05",
+        "/l-ed-2d/177/1081-06",
+        "/l-ed-2d/177/1081-07",
+        "/l-ed-2d/177/1054-04",
+        "/l-ed-2d/177/1054-05"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 38,
+    "char_count": 264,
+    "ocr_confidence": 0.598,
+    "sha256": "e15deadf17b478d5148088eaf41c625e74a357da247019af1f93fa39614ead45",
+    "simhash": "1:457c666daa112c88",
+    "word_count": 44
+  },
+  "last_updated": "2024-02-27T22:51:28.129297+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Walker, Warden, et al. v. Martin."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. [Certiorari granted, 561 U. S. 1005.] Motion of respondent for appointment of counsel granted. Michael B. Bigelow, Esq., of Sacramento, Cal, is appointed to serve as counsel for respondent in this ease.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-996.\nWalker, Warden, et al. v. Martin."
+  },
+  "file_name": "0821-03",
+  "first_page_order": 843,
+  "last_page_order": 843
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12412595,
+  "name": "Williams v. California et al.",
+  "name_abbreviation": "Williams v. California",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10334",
+  "first_page": "840",
+  "last_page": "840",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 840"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 78,
+    "ocr_confidence": 0.653,
+    "sha256": "474e9cf937b1a75ee20a6270bb88e6494978e386ef37a9ea0c1be3c26ff7b730",
+    "simhash": "1:d09060a86985f0f4",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Williams v. California et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10334.\nWilliams v. California et al."
+  },
+  "file_name": "0840-11",
+  "first_page_order": 916,
+  "last_page_order": 916
+}

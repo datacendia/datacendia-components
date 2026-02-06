@@ -1,0 +1,59 @@
+{
+  "id": 12252979,
+  "name": "Vaughn v. United States",
+  "name_abbreviation": "Vaughn v. United States",
+  "decision_date": "2012-03-19",
+  "docket_number": "No. 11-8898",
+  "first_page": "1274",
+  "last_page": "1274",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1274"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.716,
+    "sha256": "56efdb90964225a224f4b5dafd409029d954bf3b43bb0f7790ec48dbead0628b",
+    "simhash": "1:b58acaf1cebd9301",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Vaughn v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8898.\nVaughn v. United States."
+  },
+  "file_name": "1274-07",
+  "first_page_order": 1356,
+  "last_page_order": 1356
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12408822,
+  "name": "Jackson v. International Fiber Corp.",
+  "name_abbreviation": "Jackson v. International Fiber Corp.",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-1287",
+  "first_page": "814",
+  "last_page": "814",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 814"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 84,
+    "ocr_confidence": 0.677,
+    "sha256": "d0897dc27fec680cedeec0e4af5d0d8e0272119e98d17c814376b9a06294c890",
+    "simhash": "1:c2052228ca0c9024",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jackson v. International Fiber Corp."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1287.\nJackson v. International Fiber Corp."
+  },
+  "file_name": "0814-12",
+  "first_page_order": 890,
+  "last_page_order": 890
+}

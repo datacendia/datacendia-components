@@ -1,0 +1,59 @@
+{
+  "id": 12420600,
+  "name": "Nali v. Phillips, Warden",
+  "name_abbreviation": "Nali v. Phillips",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 12-5974",
+  "first_page": "984",
+  "last_page": "984",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 984"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.628,
+    "sha256": "eafa7613217371df82015b8095631c416990631be8c6f33a34bae21303e840bc",
+    "simhash": "1:a4b8129eae7f0804",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Nali v. Phillips, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5974.\nNali v. Phillips, Warden."
+  },
+  "file_name": "0984-15",
+  "first_page_order": 1060,
+  "last_page_order": 1060
+}

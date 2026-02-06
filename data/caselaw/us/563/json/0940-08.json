@@ -1,0 +1,59 @@
+{
+  "id": 4225636,
+  "name": "Link v. California et al.",
+  "name_abbreviation": "Link v. California",
+  "decision_date": "2011-04-18",
+  "docket_number": "No. 10-8852",
+  "first_page": "940",
+  "last_page": "940",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 940"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 73,
+    "ocr_confidence": 0.585,
+    "sha256": "2f13d20626baf83f931f806b524dc0a6707ade5ada8f284088e98b3021f8ba11",
+    "simhash": "1:9089202869c55cec",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Link v. California et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8852.\nLink v. California et al."
+  },
+  "file_name": "0940-08",
+  "first_page_order": 966,
+  "last_page_order": 966
+}

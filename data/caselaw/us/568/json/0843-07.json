@@ -1,0 +1,59 @@
+{
+  "id": 12412895,
+  "name": "Garrett v. United States",
+  "name_abbreviation": "Garrett v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10421",
+  "first_page": "843",
+  "last_page": "843",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 843"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.713,
+    "sha256": "22f78d52a0ab3b4b38f75f037df19d6673ff1671946fddd172660115e3ff872e",
+    "simhash": "1:078aee822b954058",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Garrett v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10421.\nGarrett v. United States."
+  },
+  "file_name": "0843-07",
+  "first_page_order": 919,
+  "last_page_order": 919
+}

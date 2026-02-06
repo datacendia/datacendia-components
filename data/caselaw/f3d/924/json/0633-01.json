@@ -1,0 +1,688 @@
+{
+  "id": 12521205,
+  "name": "BIOCHEMICS, INC.; John Masiz, Plaintiffs, Appellants, v. AXIS REINSURANCE COMPANY, Defendant, Appellee. John P. Raucci; Brown & Brown of New York, Inc., Defendants.",
+  "name_abbreviation": "Biochemics, Inc. v. Axis Reinsurance Co.",
+  "decision_date": "2019-05-23",
+  "docket_number": "No. 17-2059",
+  "first_page": "633",
+  "last_page": "649",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "924 F.3d 633"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "1st Cir.",
+    "id": 8809,
+    "name": "United States Court of Appeals for the First Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "162 F.3d 6",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11797354
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "11"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/162/0006-01"
+      ]
+    },
+    {
+      "cite": "898 F.3d 99",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12518024
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "108"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/898/0099-01"
+      ]
+    },
+    {
+      "cite": "583 F.3d 57",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5756040
+      ],
+      "weight": 2,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "63"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/583/0057-01"
+      ]
+    },
+    {
+      "cite": "958 F. Supp. 2d 331",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        3831934
+      ],
+      "weight": 2,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "336-37"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/958/0331-01"
+      ]
+    },
+    {
+      "cite": "2008 WL 3342991",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "*2"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "339 F. Supp. 2d 336",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        9154619
+      ],
+      "weight": 2,
+      "year": 2004,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/339/0336-01"
+      ]
+    },
+    {
+      "cite": "426 F.3d 491",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8915884
+      ],
+      "weight": 4,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "500"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/426/0491-01"
+      ]
+    },
+    {
+      "cite": "891 N.E.2d 718",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "year": 2008,
+      "pin_cites": [
+        {
+          "parenthetical": "table"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "72 Mass.App.Ct. 1113",
+      "category": "reporters:state",
+      "reporter": "Mass. App. Ct.",
+      "year": 2008,
+      "pin_cites": [
+        {
+          "parenthetical": "table"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "871 N.E.2d 418",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "weight": 2,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "430"
+        },
+        {
+          "page": "430"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "449 Mass. 621",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        3816862
+      ],
+      "year": 2007,
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/449/0621-01"
+      ]
+    },
+    {
+      "cite": "140 F. Supp. 906",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        4269823
+      ],
+      "year": 1953,
+      "pin_cites": [
+        {
+          "page": "908",
+          "parenthetical": "\"[N]o authority is known ... which permits blowing hot and cold in the same cause of action.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/140/0906-01"
+      ]
+    },
+    {
+      "cite": "2009 WL 4269603",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "*12",
+          "parenthetical": "\"[I]f a pled claim is internally inconsistent with itself, the inconsistencies may cancel each other out and render the claim subject to dismissal for failure to state a claim.\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "177 F. Supp. 3d 1320",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "case_ids": [
+        4355197
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1330"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-3d/177/1320-01"
+      ]
+    },
+    {
+      "cite": "2007 WL 1030293",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 2,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "*5"
+        },
+        {
+          "page": "*4-5"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "06 C 1603",
+      "category": "reporters:state",
+      "reporter": "Cow.",
+      "year": 2007,
+      "opinion_index": 0
+    },
+    {
+      "cite": "639 F. App'x. 764",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        4270003
+      ],
+      "year": 2016,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/639/0764-01"
+      ]
+    },
+    {
+      "cite": "2014 WL 5500667",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "*12"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2017 WL 4233078",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "*6"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "712 F. App'x. 745",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        12411767
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "756"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/712/0745-01"
+      ]
+    },
+    {
+      "cite": "524 F. App'x. 241",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        4157421
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "247"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/524/0241-01"
+      ]
+    },
+    {
+      "cite": "27 F.3d 518",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10527944
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "519"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/27/0518-01"
+      ]
+    },
+    {
+      "cite": "1997 WL 449736",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "*3"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "124 F.3d 205",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "2004 WL 603482",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "*5"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "03 C 6067",
+      "category": "reporters:state",
+      "reporter": "Cow.",
+      "year": 2004,
+      "opinion_index": 0
+    },
+    {
+      "cite": "916 F.2d 461",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10534975
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "463"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/916/0461-01"
+      ]
+    },
+    {
+      "cite": "19 N.E.2d 800",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "year": 1939,
+      "pin_cites": [
+        {
+          "page": "804"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "302 Mass. 495",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        867921
+      ],
+      "year": 1939,
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/302/0495-01"
+      ]
+    },
+    {
+      "cite": "494 N.E.2d 374",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "378",
+          "parenthetical": "noting that every phrase in a contract must be given meaning that, when interpreted relative to other provisions in the document, gives the contract \"workable and harmonious\" effect (quoting Charles I. Hosmer, Inc. v. Commonwealth, 302 Mass. 495, 19 N.E.2d 800, 804 (1939) )"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "397 Mass. 789",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        874803
+      ],
+      "year": 1986,
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/397/0789-01"
+      ]
+    },
+    {
+      "cite": "648 N.E.2d 1261",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "1269",
+          "parenthetical": "noting that contract language must be interpreted in the context of the entire document"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "420 Mass. 178",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        826204
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "parenthetical": "noting that contract language must be interpreted in the context of the entire document"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/420/0178-01"
+      ]
+    },
+    {
+      "cite": "2008 WL 4613170",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 2,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "*4",
+          "parenthetical": "noting that, based on the \"plain meaning of relief,\" a subpoena would not constitute a \"demand[ ] for non-monetary relief\" (internal quotation marks omitted)"
+        },
+        {
+          "page": "*4"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "951 N.E.2d 662",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "weight": 6,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "671",
+          "parenthetical": "instructing courts to construe clear policy language according to its \"usual and ordinary sense\""
+        },
+        {
+          "page": "671",
+          "parenthetical": "setting forth the interpretive principle -- known as contra proferentem -- that ambiguous contract language should be interpreted in favor of coverage against the drafter"
+        },
+        {
+          "parenthetical": "instructing courts to construe clear policy language according to its \"usual and ordinary sense\" (internal quotation marks omitted)"
+        },
+        {
+          "page": "671"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "460 Mass. 352",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        4272598
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "parenthetical": "instructing courts to construe clear policy language according to its \"usual and ordinary sense\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/460/0352-01"
+      ]
+    },
+    {
+      "cite": "489 F.3d 71",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3484453
+      ],
+      "weight": 2,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "72",
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/489/0071-01"
+      ]
+    },
+    {
+      "cite": "820 F.3d 36",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4255848
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "41"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/820/0036-01"
+      ]
+    },
+    {
+      "cite": "83 F. Supp. 3d 405",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "case_ids": [
+        4290182
+      ],
+      "weight": 4,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "408"
+        },
+        {
+          "page": "407-08",
+          "parenthetical": "internal citations omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-3d/83/0405-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1332",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "963 F. Supp. 2d 64",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        3881579
+      ],
+      "weight": 2,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "70-71"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/963/0064-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1386,
+    "char_count": 50066,
+    "pagerank": {
+      "raw": 4.8172472706271035e-08,
+      "percentile": 0.3035408628070594
+    },
+    "sha256": "d88cf468ebbede826ddae8e911cb853302efbc86559eb1898ca88281e65d2703",
+    "simhash": "1:986e3a17e30b9680",
+    "word_count": 8211
+  },
+  "last_updated": "2024-02-27T18:46:58.656971+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Thompson, Kayatta, and Barron, Circuit Judges."
+    ],
+    "parties": [
+      "BIOCHEMICS, INC.; John Masiz, Plaintiffs, Appellants,\nv.\nAXIS REINSURANCE COMPANY, Defendant, Appellee."
+    ],
+    "opinions": [
+      {
+        "text": "BARRON, Circuit Judge.\nThis appeal concerns a 2013 suit that BioChemics, Inc. (\"BioChemics\"), a pharmaceutical company based in Massachusetts, and John Masiz (\"Masiz\"), its president and chief executive officer, brought in the District of Massachusetts to enforce a directors and officers (\"D&O\") insurance policy (the \"Policy\") with AXIS Reinsurance Company (\"AXIS\"). BioChemics and Masiz seek damages for what they contend is AXIS's breach, under the Policy, of its \"duty to defend\" them in connection with a Securities and Exchange Commission (\"SEC\") investigation against the company and its officers.\nBioChemics and Masiz moved for partial summary judgment in 2013, and the District Court denied the motion. BioChemics, Inc. v. Axis Reinsurance Co., 963 F. Supp. 2d 64, 70-71 (D. Mass. 2013). They filed a renewed motion for partial summary judgment in 2015, and AXIS cross-moved for summary judgment. AXIS contended in that motion that it did not breach its duty to defend under the Policy because, among other things, BioChemics and Masiz were seeking to enforce that duty in relation to a \"Claim\" that -- given when the SEC investigation commenced -- was \"first made\" before the Policy took effect and thus was not \"covered\" by the Policy. The District Court granted AXIS's motion. BioChemics and Masiz now appeal from the grant of summary judgment to AXIS. We affirm.\nI.\nThe undisputed facts are the following. On May 5, 2011, the SEC began a \"Non-Public Formal Investigation\" by issuing a Formal Order captioned \"In the Matter of BioChemics, Inc., B-02641\" (the \"2011 Order\"). The 2011 Order mentioned Masiz by name, described him as the sole officer of the company, and identified several \"possible\" securities violations. These \"possible\" violations included instances of fraud and misrepresentation, beginning as early as 2009, that were aimed at distorting the value of BioChemics securities. The 2011 Order also noted that Masiz had been sanctioned for securities violations in the past and that, due to those sanctions, he had been barred from serving as an officer or director of any publicly traded company until 2009.\nOn May 9, 2011, and then again on September 12, 2011, the SEC served subpoenas on BioChemics. The 2011 subpoenas requested documents pertaining to, among other things, the company's finances, operations, drugs under development, interactions with pharmaceutical companies, and payments to Masiz. These subpoenas bore the same caption as the 2011 Order and expressly referenced the 2011 Order as authorizing their issuance. In a cover letter that accompanied the September 2011 subpoena, the SEC stated that the \"investigation ... should not be construed as an indication by the [SEC] that any violation of law has occurred.\"\nAfter receiving the May 2011 subpoena, BioChemics retained legal counsel and a consulting firm to assist with its response. At that time, BioChemics had a D&O insurance policy with Greenwich Insurance Company. BioChemics did not, at any point, notify that insurer about the ongoing SEC investigation.\nIn October of 2011, BioChemics and Masiz, in his individual capacity, applied to have AXIS take over as the D&O insurer for the policy period that ran from November 2011 to November 2012. In that application, BioChemics and Masiz represented that there were no legal claims pending against them. AXIS agreed to provide the D&O insurance for the requested policy period.\nIn January of 2012, the SEC served deposition subpoenas on Masiz and other individuals. In March of that same year, the SEC followed up by serving documents subpoenas on BioChemics and Masiz. Each of these 2012 subpoenas -- eight in total -- bore the same caption as the 2011 Order and the 2011 subpoenas. One of these subpoenas was served on Masiz in his individual capacity for deposition testimony and one was served on him in his individual capacity for document production.\nFinally, in December of 2012, the SEC commenced an Enforcement Action (\"2012 Action\") against BioChemics, Masiz, and two other individuals. The 2012 Action \"allege[d]\" that, beginning as early as 2009, Biochemics and Masiz had \"engaged in a fraudulent scheme\" to mislead investors about the company's value. At least one of the \"allege[d]\" misrepresentations, concerning a topical ibuprofen product, took place after the 2011 Order and the 2011 subpoenas were issued.\nAfter receiving the March 2012 documents subpoenas, BioChemics and Masiz notified AXIS of them, as well as of the subpoenas that the SEC had issued in January of 2012. AXIS \"agree[d] that the SEC Investigation ... constitute[d] a D&O Claim\" under the Policy. AXIS asserted, however, that BioChemics and Masiz were necessarily seeking -- given the terms of the Policy -- \"coverage\" for a single \"Claim\" that encompassed the SEC investigation as a whole and that this \"Claim\" was \"first made\" in May of 2011 when the SEC issued the documents subpoena to BioChemics and thus that this \"Claim\" was \"first made\" \"prior to the inception of the Policy Period.\" On the basis of that assertion, AXIS stated that \"because the Claim was not made during the Policy Period, coverage is not available for the SEC Investigation.\"\nAXIS later took the same position with respect to the 2012 Action. It concluded that the 2012 Action was also part of the same single \"Claim\" that was \"first made\" when the SEC issued the May 2011 documents subpoena, which was prior to the start of the policy period.\nIn response, on February 27, 2013, BioChemics and Masiz sued AXIS in Massachusetts Superior Court. BioChemics and Masiz alleged breach of contract and breach of fiduciary duty, under Massachusetts law, based on the contention that AXIS had breached its duty to defend under the Policy. The case was subsequently removed to the United States District Court for the District of Massachusetts based on diversity jurisdiction. 28 U.S.C. \u00a7 1332. BioChemics and Masiz filed a Motion for Partial Summary Judgment in the District Court on June 5, 2013. They argued that each of what they contended were the \"Claim[s]\" that triggered AXIS's duty to defend under the Policy -- respectively, each of the 2012 subpoenas and the 2012 Action -- had been brought by the SEC after the policy period began to run and thus was \"first made\" within the policy period.\nThe District Court denied that motion in August of 2013. BioChemics, Inc. v. Axis Reinsurance Co., 963 F. Supp. 2d 64 (D. Mass. 2013). In reaching this decision, the District Court did not address the relevance of the 2011 Order, as BioChemics and Masiz had not yet disclosed the 2011 Order to AXIS or the District Court.\nOn February 14, 2014, BioChemics and Masiz filed a renewed Motion for Partial Summary Judgment. They again argued that, under the Policy, AXIS had a duty to defend that was triggered by \"Claim[s]\" -- each of the 2012 subpoenas and the 2012 Action -- that had been \"first made\" during the policy period. AXIS cross-filed a Motion for Summary Judgment. AXIS argued that it had no such duty because, among other things, the SEC filings were properly treated as a single \"Claim\" that had been \"first made\" when the SEC issued the May 2011 documents subpoena and thus that was \"first made\" prior to the policy period.\nOn January 6, 2015, the District Court entered an order granting AXIS's Motion for Summary Judgment and denying BioChemics and Masiz's Motion for Partial Summary Judgment. BioChemics, Inc. v. Axis Reinsurance Co., 83 F. Supp. 3d 405 (D. Mass. 2015) [hereinafter BioChemics II ]. By that time, the District Court had been made aware of the 2011 Order. Equipped with that knowledge, the District Court held that the 2012 Action, and the multiple 2012 subpoenas, were all part of a \"Claim\" that had been \"first made\" when the 2011 Order issued (May 5, 2011). Id. at 408. BioChemics and Masiz then appealed the District Court's order.\nII.\nThe Policy incorporates four separate Insuring Agreements: the D&O Corporate Liability Agreement, the Employment Practices Liability Agreement, the Fiduciary Liability Agreement, and the Outside Executive Liability Agreement. The only agreement that is at issue in this appeal is the D&O Corporate Liability Agreement.\nThat agreement obligates AXIS to cover \"all Loss on behalf of any Insured arising from any D&O Claim for a Wrongful Act ... first made against such Insured ... during the Policy Period.\" The Policy defines \"Loss\" as \"the amount(s) which the Insureds become legally obligated to pay on account of a Claim, including damages, judgments, any award of pre-judgment and post-judgment interest, settlement amounts, costs and fees awarded pursuant to judgments, and Defense Costs.\" (Emphasis added). The Policy separately provides that AXIS has \"both the right and duty to defend and appoint counsel with respect to any Claim made against the Insureds alleging a Wrongful Act, even if such a Claim is groundless, false or fraudulent.\"\nThe Policy defines a \"D&O Claim\" as:\na. a written demand against an Insured for monetary or nonmonetary relief;\nb. a civil, arbitration, administrative or regulatory proceeding against any Insured commenced by:\n(i) the service of a complaint or similar pleading;\n(ii) the filing of a notice of charge, investigative order or like document; or\n(iii) written notice or subpoena from an authority identifying such Insured as an entity or person against whom a formal proceeding may be commenced; or\nc. a criminal investigation or proceeding against any Insured Individual commenced by:\n(i) the return of an indictment, information, or similar pleading; or\n(ii) written notice or subpoena from an authority identifying such Insured Individual as an individual against whom a formal proceeding may be commenced.\nA \"Wrongful Act,\" in turn, is defined as \"any actual or alleged error, misstatement, misleading statement, act, omission, neglect, or breach of duty.\"\nThere is one more provision that is important for present purposes. Under the Policy's \"Limits of Liability\" heading, there is a provision [hereinafter \"Interrelated Wrongful Acts Provision\"] that states:\nAll Claims, including all D&O Claims ... arising from the same Wrongful Act, Wrongful Third Party Act, and all Interrelated Wrongful Acts shall be deemed one Claim and such Claim shall be deemed to be first made on the earlier date that: (1) any of the Claims is first made against an Insured under this Policy or any prior policy, or (2) valid notice was given by the Insureds under this Policy or any prior policy of any Wrongful Act, Wrongful Third Party Act, or any fact, circumstance, situation, transaction or cause which underlies such Claim. Coverage under this Policy shall apply only with respect to Claims deemed to have been first made during the Policy Period and reported in writing to the Insurer in accordance with the terms herein.\nThe Policy earlier separately defines \"Interrelated Wrongful Acts\" as \"any and all Wrongful Acts that have as a common nexus any fact, circumstance, situation, event, transaction, cause or series of causally or logically connected facts, circumstances, situations, events, transactions or causes.\"\nWith that background in place, we now turn to the merits of the parties' contentions. Because we are reviewing a grant of summary judgment to AXIS, we must affirm the order below if there is no genuine issue of material fact and AXIS is entitled to judgment as a matter of law. See Utica Mut. Ins. Co. v. Herbert H. Landy Ins. Agency, Inc., 820 F.3d 36, 41 (1st Cir. 2016). Our review is de novo. See id. Moreover, in this case, only \"the interpretation and application of the [insurance] policy language\" are in dispute. Massamont Ins. Agency, Inc. v. Utica Mut. Ins. Co., 489 F.3d 71, 72 (1st Cir. 2007) (citation omitted). We review those issues of interpretation and application de novo as well. Id.\nIII.\nBioChemics and Masiz, the appellants, begin by contending that the District Court erred in ruling that the \"Claim\" that triggered AXIS's duty to defend had been \"first made\" when the SEC issued the 2011 Order in May of that year -- and thus prior to the start of the policy period, which began in November of 2011. The appellants contend that the District Court based that ruling solely on a construction of the definition of \"D&O Claim\" in the Policy and thus without reference to the Interrelated Wrongful Acts Provision. The appellants then go on to contend that this construction of the definition of \"D&O Claim\" was mistaken.\nTo make that case, the appellants assert that the Policy defines a \"D&O Claim\" in a way that makes the 2011 Order, each of the various subpoenas issued in its wake, and the 2012 Action a \"Claim\" in its own right, rather than merely components of a \"Claim\" that encompasses the SEC investigation as a whole. Thus, the appellants contend, the District Court's sole reason for treating the 2012 subpoenas and the 2012 Action as part of a \"Claim\" that was \"first made\" when the SEC issued the 2011 Order and thus before the policy period began rests on a mistaken construction of the Policy's definition of a \"D&O Claim.\"\nThe appellants appear to rely for their argument about the nature of the District Court's reasoning on the following portions of the District Court's ruling:\nThe policy here defines a \"Claim\" broadly to include, inter alia, any \"civil, arbitration, administrative or regulatory proceeding against any Insured commenced by ... the filing of a notice of charge, investigative order, or like document.\" The triggering events are all part of a single SEC Investigation under the Formal Order. Each subpoena was issued under, and referred to, the original Formal Order, and investigated the same officers and company for the same pattern of security violations through public material misstatements. Under the clear language of the Policy, and on the record before the [C]ourt, the subpoenas all constituted a single \"Claim\" under the policy.\nThe only remaining question is whether the Claim at issue is covered under the AXIS policy. A Claim is only covered under the policy if \"deemed to have been first made during the Policy Period.\" A claim \"shall be deemed to be first made on the earlier date that: (1) any of the Claims is first made against an Insured under this Policy or any prior policy ....\" Docket # 30, Ex. A (Policy) \u00a7 V.A. The Formal Order issued on May 5, 2011. The policy went into effect on November 13, 2011. The investigation and enforcement action, the Claim at issue, was thus \"first made\" before the policy period and is, therefore, not covered under the policy.\nBioChemics II, 83 F. Supp. 3d at 407-08 (internal citations omitted) (alterations in original).\nThe problem with the appellants' argument is that the District Court does not purport in these passages to rely solely on the Policy's definition of a \"D&O Claim\" to reach the conclusion that the 2011 Order, the subpoenas, and the 2012 Action are part and parcel of one \"Claim.\" Rather, the District Court explains in this passage that the 2012 Action may be deemed to be part of one \"Claim\" that was \"first made\" prior to the start of the policy period by citing to the portion of the Interrelated Wrongful Acts Provision that states that \"[a] Claim 'shall be deemed to be first made on the earlier date that: (1) any of the Claims is first made against an Insured under this Policy or any prior policy.' \" Id. at 408 (citing \"\u00a7 V.A\" of the Policy -- the Interrelated Wrongful Acts Provision) (alteration in original).\nIn other words, the District Court appears to have concluded that, pursuant to the Policy's definition of a \"D&O Claim,\"\nthe 2012 Action constitutes a \"Claim\" that was distinct from the \"Claim\" of which the 2011 Order was a part. But, the District Court then went on to conclude, those two otherwise distinct \"Claim[s]\" must be deemed to be \"one Claim\" pursuant to the Interrelated Wrongful Acts Provision.\nThus, the appellants' contention that the District Court erred in treating the 2012 Action as part of a \"Claim\" that was \"first made\" before the start of the policy period because the District Court relied on a mistaken construction of the Policy's definition of a \"D&O Claim\" fails for a simple reason. The District Court did not base its conclusion as to the 2012 Action on that allegedly erroneous ground.\nWe still must address, though, the appellants' contention that the District Court erred by construing the Policy's definition of a \"D&O Claim\" to make each of the 2012 subpoenas merely a component of a \"Claim\" that \"commenced\" with the issuance of the 2011 Order and not a \"Claim\" in its own right. Here, too, we reject the argument.\nThe Policy's definition of a \"D&O Claim\" is set forth in Section III.B.2 of the Policy. As we have noted above, that provision defines a \"D&O Claim,\" as relevant here, to include either \"a written demand ... for ... non-monetary relief\" or \"a civil ... administrative or regulatory proceeding against any Insured commenced by\":\n(i) the service of a complaint or similar pleading;\n(ii) the filing of a notice of charge, investigative order or like document; or\n(iii) written notice or subpoena from an authority identifying such Insured as an entity or person against whom a formal proceeding may be commenced.\nThe appellants contend that the first component of this two-part definition of a \"D&O Claim\" -- the \"written demand ... for ... non-monetary relief\" -- encompasses each of the 2012 subpoenas. The appellants thus contend that this component of the definition renders each subpoena a \"Claim\" in its own right.\nBlack's Law Dictionary, however, defines \"relief\" as \"[t]he redress or benefit, esp. equitable in nature (such as an injunction or specific performance) that a party asks of a court.\" Relief, Black's Law Dictionary (10th ed. 2009) (emphasis added); see Metro. Prop. & Cas. Ins. Co. v. Morrison, 460 Mass. 352, 951 N.E.2d 662, 671 (2011) (instructing courts to construe clear policy language according to its \"usual and ordinary sense\"). The 2012 subpoenas were requests made of a party for information. They were not requests made of a court for equitable redress or benefit, such as specific performance. See Diamond Glass Cos., Inc. v. Twin City Fire Ins. Co, No. 06-CV-13105, 2008 WL 4613170, at *4 (S.D.N.Y. Aug. 18, 2008) (noting that, based on the \"plain meaning of relief,\" a subpoena would not constitute a \"demand[ ] for non-monetary relief\" (internal quotation marks omitted)). Thus, the text of the component of the definition on which the appellants rely would appear to refute their position that the definition of a \"D&O Claim\" treats each subpoena as a \"Claim\" in its own right.\nThe rest of the definition reinforces that conclusion. See Starr v. Fordham, 420 Mass. 178, 648 N.E.2d 1261, 1269 (1995) (noting that contract language must be interpreted in the context of the entire document). The second component of the definition concerns \"a civil ... administrative or regulatory proceeding.\" That component of the definition expressly refers to \"subpoena[s],\" while the component of the definition on which the appellants rely does not. The second component of the definition thus makes clear that \"subpoenas\" are components of the \"Claim\" that \"a civil proceeding\" against an insured constitutes.\nFor this reason, the appellants' preferred construction of the definition necessarily has the following odd consequence. It requires us to construe a portion of that definition that does not mention subpoenas at all as if it makes them \"Claim[s]\" in their own right, even though the portion of the definition that expressly mentions subpoenas treats them as if they are merely components of a \"Claim.\" Cf. J.A. Sullivan Corp. v. Commonwealth, 397 Mass. 789, 494 N.E.2d 374, 378 (1986) (noting that every phrase in a contract must be given meaning that, when interpreted relative to other provisions in the document, gives the contract \"workable and harmonious\" effect (quoting Charles I. Hosmer, Inc. v. Commonwealth, 302 Mass. 495, 19 N.E.2d 800, 804 (1939) )).\nThe appellants do point to out-of-jurisdiction cases that have held that a subpoena, like those at issue here, is itself a \"Claim\" under other D&O insurance policies. See Polychron v. Crum & Forster Ins. Co., 916 F.2d 461, 463 (8th Cir. 1990) ; Minuteman Int'l, Inc. v. Great Am. Ins. Co., No. 03 C 6067, 2004 WL 603482, at *5 (N.D. Ill. Mar. 22, 2004). But, neither of these precedents is controlling, as neither was decided by a Massachusetts court applying Massachusetts law. Nor does either case, by terms, purport to be interpreting a policy that denominates subpoenas to be components of \"Claims\" as expressly as the Policy does here, let alone explain how such a policy could be construed to permit a subpoena such as those at issue here to be deemed a \"Claim\" in its own right. In fact, multiple other courts have reached the opposite conclusion. See Trice v. Emp'rs Reinsurance Corp., 124 F.3d 205 (Table), 1997 WL 449736, *3 (7th Cir. 1997) ; National Fire Ins. v. Bartolazo, 27 F.3d 518, 519 (11th Cir. 1994) ; Diamond Glass Cos., 2008 WL 4613170, at *4.\nThus, while we are mindful that we must construe ambiguous policy language to favor coverage, see Metro. Prop. & Cas. Ins. Co., 951 N.E.2d at 671 (setting forth the interpretive principle -- known as contra proferentem -- that ambiguous contract language should be interpreted in favor of coverage against the drafter), we conclude that the Policy here is simply too clear in the relevant respect to permit us to do so. See id. (instructing courts to construe clear policy language according to its \"usual and ordinary sense\" (internal quotation marks omitted)). Accordingly, we reject this aspect of the appellants' challenge to the District Court's summary judgment ruling.\nIV.\nThe appellants next contend that, insofar as the District Court did rely on the Interrelated Wrongful Acts Provision to conclude that they were bringing a \"Claim\" that was \"first made\" when the SEC issued the 2011 Order, the District Court erred in doing so. The appellants offer a variety of reasons for reaching that conclusion. But, we do not find any of them to be persuasive.\nA.\nThe appellants' first argument is premised on the fact that the Interrelated Wrongful Acts Provision appears only within the section of the Policy entitled \"Limits of Liability.\" The appellants contend that, because Massachusetts law requires that ambiguities be construed in favor of coverage, see id., the provision's placement requires that we construe it to address only the \"amount of coverage available\" and not the availability of \"coverage.\" For that reason, the appellants contend, the Interrelated Wrongful Acts Provision cannot serve as the basis for a conclusion that the \"Claim\" at issue was \"first made\" when the SEC issued the 2011 Order such that AXIS did not breach its duty to defend.\nThe text of the Interrelated Wrongful Acts Provision, however, is at odds with the appellants' restricted construction of its import. The text of the provision states that \"[c]overage under this Policy shall apply only with respect to Claims deemed to have been first made during the Policy Period.\" It is unclear what purpose this sentence would serve if the appellants' proposed construction were correct. Section VIII.L of the Policy, moreover, expressly states that \"[t]he descriptions in the headings and subheadings of this Policy are solely for convenience, and form no part of the terms and conditions of coverage.\" Thus, we read the provision to mean just what it says. It addresses \"coverage under this Policy\" rather than merely the limits of liability. See id.\nB.\nThe appellants also contend that the terms of the Interrelated Wrongful Acts Provision simply do not permit the distinct \"Claim[s]\" that the appellants contend triggered AXIS's duty to defend under the Policy -- namely, each of the 2012 subpoenas and the Action -- to be \"deemed\" to be part and parcel of \"one Claim\" that was \"first made\" before the start of the policy period. But, we do not find the various arguments that the appellants make in support of this aspect of their challenge to the grant of summary judgment to AXIS to be persuasive either.\n1.\nThe appellants first argue that, even if the 2011 Order may be understood to refer to an \"error, misstatement, misleading statement, act, omission, neglect, or breach of duty,\" it does not \"allege[ ]\" one, as the Policy's definition of a \"Wrongful Act\" requires. If that is so, the appellants then contend, the 2011 Order contains no \"Wrongful Acts,\" which means, in turn, that there is no basis for concluding that either the 2012 Action or any of the 2012 subpoenas contains \"Wrongful Acts\" that \"share[ ] a common nexus\" with any \"Wrongful Acts\" set forth in the 2011 Order. Accordingly, the appellants contend, the Interrelated Wrongful Acts Provision supplies no basis for treating any of the discrete 2012 SEC filings -- whether the 2012 Action or any of the 2012 subpoenas -- as if it constitutes one unified \"Claim\" with the 2011 Order, such that the resulting unified \"Claim\" was \"first made\" prior to the start of the policy period.\nThe 2011 Order quite clearly refers to various actions that, if they occurred, would constitute violations of the federal securities laws and thus constitute an \"error, misstatement, misleading statement, act, omission, neglect, or breach of duty\"\nwithin the meaning of the Policy's definition of \"Wrongful Acts.\" For example, the 2011 Order clearly stated that the SEC was investigating possible violations of Sections 5(a), 5(c), and 17(a) of the Securities Act and Rule 10b-5, as well as Section 15(a) of the Exchange Act. These possible violations included \"making false statements of material fact or failing to disclose material facts concerning ... BioChemics' business prospects (including products under development and agreements that the company has entered into).\"\nBut, there remains the question of whether the 2011 Order in referring to such misconduct \"allege[s]\" it, as it must in order to contain a \"Wrongful Act,\" given that the Policy defines a \"Wrongful Act\" as \"any actual or alleged error, misstatement, misleading statement, act, omission, neglect, or breach of duty.\" (Emphasis added).\nWith respect to their contention that the 2011 Order contains no such allegations, the appellants point out that the 2011 Order simply noted that the SEC \"ha[d] information that tend[ed] to show\" that violations had occurred. The appellants note, too, that the 2011 Order goes on to list what it describes as merely \"possible\" violations where certain persons \"may have been\" engaging in actions that ran afoul of various securities laws. Moreover, in the letter accompanying the September 2011 subpoena, the appellants emphasize, the SEC pointedly noted that the \"investigation ... should not be construed as an indication by the [SEC] that any violation of law has occurred.\"\nTo show that these qualified references to misconduct in the 2011 Order do not \"allege[ ]\" that misconduct, the appellants cite to cases that conclude that similar investigative filings did not \"allege\" the misconduct referenced in them. See Emp'rs' Fire Ins. Co. v. ProMedica Health Sys., Inc., 524 F. App'x. 241, 247 (6th Cir. 2013) ; MusclePharm Corp. v. Liberty Ins. Underwriters, Inc., 712 F. App'x. 745, 756 (10th Cir. 2017). But other courts have held just the opposite. See Patriarch Partners, LLC v. AXIS Ins. Co., 16-CV-2277 (VEC), 2017 WL 4233078, at *6 (S.D.N.Y. Sept. 22, 2017) ; Weaver v. Axis Surplus Ins. Co., No. 13-CV-7374 (SJF), 2014 WL 5500667, at *12 (E.D.N.Y. Oct. 30, 2014), aff'd, 639 F. App'x. 764 (2d Cir. 2016) ; Nat'l Stock Exch. v. Fed. Ins. Co., No. 06 C 1603, 2007 WL 1030293, at *5 (N.D. Ill. Mar. 30, 2007) ; Morden v. XL Specialty Ins., 177 F. Supp. 3d 1320, 1330 (D. Utah 2016). Moreover, none of these precedents are from Massachusetts courts construing Massachusetts law. Nor is the word \"allege[ ]\" in and of itself so clearly restrictive that -- simply by virtue of that word -- the Policy must be construed to ensure that it does not provide coverage for any loss arising from, or trigger the duty to defend against, an SEC Order of the sort that is at issue here. And the appellants develop no argument to the contrary. Thus, it is certainly not clear that the 2011 Order fails to \"allege[ ]\" any \"Wrongful Acts.\"\nThe appellants may mean to argue that the term \"alleged\" in the Policy's definition of \"Wrongful Acts\" is at least ambiguous as to whether it encompasses the qualified references to the misconduct that the 2011 Order contains and thus that their proposed construction prevails due to the contra proferentem interpretive rule. But we do not see how such an argument can succeed in this case.\nTo be sure, ambiguities must be construed in favor of coverage for the insured. See Metro. Prop. & Cas. Ins. Co., 951 N.E.2d at 671. But, as AXIS notes, the appellants seek in this very case to show that the 2012 subpoenas triggered AXIS's duty to defend under the Policy, even though the Policy is clear that a \"Claim\" must \"allege[ ]\" a \"Wrongful Act\" in order for it to trigger the duty to defend. As a result, the 2012 subpoenas could be covered under the Policy only if the word \"allege[ ]\" could be construed to encompass an SEC investigative filing that makes no mention of \"Wrongful Acts\" and merely refers back to a filing that denotes them in a qualified manner. As favorable as the contra proferentem rule may be to insureds, the appellants may not rely upon that interpretive guide to advance an argument that would require us to construe the same word -- here, \"allege[ ]\" -- to mean two diametrically opposed things in this very case. Cf. Hartford Cas. Ins. Co. v. Am. Dairy and Food Consulting Labs., Inc., No. 09-CV-00914-OWW-DLB, 2009 WL 4269603, at *12 (E.D. Cal. Nov. 25, 2009) (\"[I]f a pled claim is internally inconsistent with itself, the inconsistencies may cancel each other out and render the claim subject to dismissal for failure to state a claim.\"); Steiner v. Twentieth Century-Fox Film Corp., 140 F. Supp. 906, 908 (S.D. Cal. 1953) (\"[N]o authority is known ... which permits blowing hot and cold in the same cause of action.\"). Yet the appellants' logic would require us to do just that.\nIt may be that the appellants also separately mean to argue that the 2012 subpoenas cannot be said to be part of any \"Claim\" that was \"first made\" when the 2011 Order was issued, because those subpoenas do not contain any \"Wrongful Acts.\" The appellants are right that, insofar as the subpoenas do not contain any \"Wrongful Acts\" they cannot be treated as part and parcel of a \"Claim\" that was first made when the 2011 Order was issued on the basis of the Interrelated Wrongful Acts Provision. But, a necessary premise of this contention is that each subpoena is a \"Claim\" in its own right. As we explained earlier, see supra Section III, however, the plain terms of the definition of a \"D&O Claim\" compel the conclusion that the 2012 subpoenas are -- by virtue of the second component of that definition -- merely components of the \"Claim\" constituted by the \"civil ... administrative or regulatory proceeding against\" BioChemics and Masiz.\nAnd, in any event, the appellants cannot rightly contend that the 2012 subpoenas, which they concede contain no references to misconduct, nonetheless somehow allege \"Wrongful Acts\" for purposes of triggering the duty to defend, while simultaneously contending that the 2011 Order, which indisputably does contain references to misconduct, does not allege \"Wrongful Acts.\" But, for reasons we have explained, the plain language of the Policy requires the appellants to make such an internally inconsistent argument if they are to explain how the subpoenas could trigger a duty to defend, given that such a duty is only triggered by a \"Claim\" \"alleging a Wrongful Act.\"\n2.\nWe turn, then, to the appellants' next contention. Here, the appellants challenge the way in which the District Court applied the Interrelated Wrongful Acts Provision in deeming the \"Claim\" that encompassed the 2012 Action and the \"Claim\" that encompassed the 2011 Order to be \"one Claim.\" The appellants press this point by arguing that, even if the 2012 Action contained \"Wrongful Acts,\" the 2011 Order described the misconduct that it may be said to have \"alleged\" in too diffuse a manner to permit the conclusion, pursuant to the Interrelated Wrongful Acts Provision, that it contained \"Wrongful Acts\" that share \"a common nexus\" with those contained in the 2012 Action. Thus, the appellants contend, the Interrelated Wrongful Acts Provision affords no basis for deeming these two otherwise distinct \"Claim[s]\" to be \"one Claim.\"\nThe appellants fail to identify any authority, however, to support the proposition that the Interrelated Wrongful Acts Provision implicitly establishes some threshold of specificity that was not met here but that must be met before a \"Wrongful Act\" contained in one \"Claim\" may be said to \"share a common nexus\" with a \"Wrongful Act\" contained in another. Instead, the appellants rely for the assertion that such an implicit threshold of specificity exists -- and that it has not been met here -- only on cases that require courts to perform a \"detailed comparison of the facts underlying pre and post Policy claims.\" See, e.g., Allmerica Fin. Corp. v. Certain Underwriters at Lloyd's, London, 449 Mass. 621, 871 N.E.2d 418, 430 (2007) ; Mass. Insurers Insolvency Fund v. Redland Ins. Co., 72 Mass.App.Ct. 1113, 891 N.E.2d 718 (2008) (table). But, those cases just show that a detailed comparison of \"Wrongful Acts\" in distinct \"Claims\" is required before a determination that they are \"interrelated\" can be made. They do not purport to establish a threshold of specificity that must be met before that inquiry even can be undertaken, let alone one that was not met here.\nWe proceed, then, to consider a related contention that the appellants make. Here, the appellants argue that a detailed comparison of the \"Wrongful Acts\" contained in the 2011 Order -- insofar as there are any -- with the \"Wrongful Acts\" that are contained in the 2012 Action reveals that they do not share a \"common nexus [in] fact, circumstance, situation, event, [or] transaction\" and thus are not \"Interrelated Wrongful Acts.\"\nThe appellants stake this contention on the fact that the 2012 Action includes a reference to at least one \"Wrongful Act\" that occurred after the 2011 Order and the 2011 subpoenas were issued. Specifically, the 2012 Action \"allege[s]\" that BioChemics misled investors regarding the results of a clinical trial on the effectiveness of a new ibuprofen cream.\nThe appellants note that the preliminary results of that trial were not available until five months after the SEC issued its 2011 Order and two months after it issued the last of its 2011 subpoenas. On that basis, the appellants contend that this \"Wrongful Act\" could not have been contemplated as part of the SEC's initial investigation and thus that the 2012 Action -- insofar as it is a \"Claim\" (or, we may posit, part of a \"Claim\") -- does not contain \"Wrongful Acts\" that share a \"common nexus [in] fact, circumstance, situation, event, transaction, [or] cause\" with those referenced in the 2011 Order.\nIn pressing this point, the appellants appear to accept that the \"substantial overlap\" test from Federal Ins. Co. v. Raytheon Co., 426 F.3d 491 (1st Cir. 2005), is also the test that we should use to determine whether the Policy's requirement that \"Interrelated Wrongful Acts\" share a \"common nexus\" has been met. The appellants thus appear to argue only that, even if we assume that the 2012 Action contains many \"Wrongful Acts,\" there is one-- misrepresentation concerning the ibuprofen trial -- that does not \"overlap\" with any of the \"Wrongful Acts\" that are referenced in the 2011 Order and that, for this reason alone, the \"substantial overlap\" of the \"Wrongful Acts\" alleged that would otherwise require the aggregation of the \"Claim[s]\" under Raytheon fails to exist.\nBut, Raytheon forecloses the conclusion that, under the \"substantial overlap\" test, the existence of a single non-overlapping \"Wrongful Act\" can suffice to preclude the aggregation of distinct \"Claim[s]\" that the Policy's Interrelated Wrongful Acts Provision would otherwise require. In Raytheon, we compared a 2002 ERISA complaint with an earlier securities fraud complaint to determine if the two were \"substantially similar\" for the purposes of a policy exclusion. Id. at 500. We recognized that the ERISA complaint contained several allegations that occurred after the fraud case's completion. See id. We nevertheless held that \"substantial [factual] overlap\" existed between the two matters, because many of the factual allegations in the ERISA action were identical to those in the earlier fraud suit. Id. Accordingly, we fail to see how the reference to the ibuprofen trial misrepresentation in the 2012 Action in and of itself suffices to show that there is no \"substantial overlap\" between the \"Wrongful Acts\" referenced in 2011 Order and those referenced in the \"Claim\" encompassing the 2012 Action.\nThe appellants do cite to multiple cases that, they contend, stand for the proposition -- seemingly in contravention of Raytheon-- that where a single allegation in a recent \"Claim\" differs from the \"Wrongful Acts\" contained in a pre-policy \"Claim,\" the insured is entitled to coverage for the entire recent \"Claim,\" notwithstanding a prior acts exclusion. But, even if we were to treat the appellants' reliance on these cases as an implicit argument that some test other than the one set forth in Raytheon governs whether the relevant set of \"Wrongful Acts\" are interrelated for purposes of this Policy's \"Interrelated Wrongful Acts Provision,\" each of these cases is readily distinguishable from this one.\nBrown v. American Int'l Grp., Inc., 339 F. Supp. 2d 336 (D. Mass. 2004), for example, appears to be interpreting Kentucky law and therefore hardly sheds light on how we should treat the described scenario under Massachusetts law. See id. at 345 n.5. Allmerica, moreover, compared a pre-policy \"Claim\" containing a single allegation of wrongdoing with a \"Claim\" made during the policy period that contained multiple allegations and determined that, based on the record, the court could not conclude that any overlap existed between the two cases. See Allmerica, 871 N.E.2d at 430. Thus, Allmerica does not even appear to address the situation where it is uncontested that some \"overlap\" in factual allegations does exist, notwithstanding some non-overlapping allegations.\nThe appellants do also rely on Redland, which is a Massachusetts case applying Massachusetts law. There, the court compared two pre-policy \"Claims\" with a \"Claim\" issued during the policy period. The court determined that, despite the existence of some overlapping allegations, the \"bulk\" or \"heart\" of the more recent allegations occurred well after the pre-policy \"Claims\" were issued. 2008 WL 3342991 at *2. The court therefore determined that there was not enough overlap to trigger the exclusion. Id. But, the appellants do not explain why the one point of non-overlap that they identify -- the ibuprofen trial -- suffices to show that the \"bulk\" or \"heart\" of the \"Wrongful Acts\" contained in the 2012 Action do not \"substantially overlap\" with those contained in the 2011 Order. Indeed, it appears that the court in Redland is tacitly endorsing the \"substantial overlap\" test from Raytheon.\nThus, at least given the arguments advanced to us on appeal, the appellants' argument that the \"Wrongful Acts\" listed in the 2012 Action are not \"interrelated\" with those contained in the 2011 Order due to the diffuse nature of the allegations those filings contain is not persuasive. Accordingly, we reject the appellants' contention that, due to the diffuse nature of the description of the acts in the SEC filings, the District Court erred in relying as it did on the Interrelated Wrongful Acts Provision in granting summary judgment to AXIS.\nV.\nWe must consider one last argument, which concerns only a portion of the District Court's grant of summary judgment to AXIS. The appellants contend that, even if we disagree with the appellants' arguments regarding AXIS's duty to defend the \"Claim[s]\" encompassing the 2012 subpoenas and 2012 Action generally, we must still hold that AXIS has a duty to defend the \"Claims\" against Masiz individually.\nThe contention relies on language in the Policy covering \"Claims\" \"first made against such Insured ... during the Policy Period.\" The argument is that this language indicates that the duty to defend is only triggered when a \"Claim\" \"is first made against [a] particular insured.\" The argument then proceeds that even though a \"Claim\" had been made against BioChemics at the time the 2011 Order was issued, no \"Claim\" had been made against Masiz as of that time. The contention is that the earliest point in which a \"Claim\" had been made against Masiz was the moment that he was served by the SEC with one of the 2012 subpoenas, which is an event that occurred during the policy period.\nIn so arguing, the appellants rely on the analysis in TranSched Sys. Ltd. v. Fed. Ins. Co., 958 F. Supp. 2d 331 (D.R.I. 2013). But, the dispute there centered on whether the phrase \"such Insured\" applied to a party who was neither an \"insured\" nor seeking coverage. Id. at 336-37. Here, by contrast, the dispute concerns whether the 2011 Order and pre-Policy subpoenas were clear enough to inform Masiz, who is an insured seeking coverage, that he was a target of the SEC's investigation commenced by the 2011 Order. Given that the Court's analysis in TranSched does not speak at all to that type of question, we fail to see how that case is instructive here.\nTo the extent that this argument rests on the fact that the 2011 Order did not \"allege[ ]\" \"Wrongful Acts\" performed by Masiz due to the qualified nature of the only misconduct therein described, we have already explained why that contention is untenable here. Qualified though these references to misconduct were, they did suffice to \"allege[ ]\" \"Wrongful Acts.\"\nIt is possible that the appellants mean to argue that the 2011 Order does not constitute a \"Claim\" made against Masiz because, although he was served with certain of the 2012 subpoenas and named as co-defendant in the 2012 Action, he was not similarly served with or named in the 2011 Order. But, here too, we are unpersuaded.\nThe appellants do invoke, seemingly in support of this contention, a number of precedents that concern private suits in which the complaints named particular defendants, the most directly analogous of which is Medical Mut. Ins. Co. of Maine v. Indian Harbor Ins. Co., 583 F.3d 57 (1st Cir. 2009). There, we held that a suit against an insured company that alleged wrongdoing by some of its officers did not constitute a claim against those officers. Id. at 63. But, the relevant document here is not a complaint in a private suit naming a particular defendant. It is an SEC Order authorizing a private investigation by that agency into alleged wrongdoing by a company and persons associated with it. The appellants identify no precedent that supports the proposition that a filing of that type must be formally served -- as a suit or subpoena must be -- on the insured for it to constitute a \"Claim\" against him.\nMoreover, the Policy expressly identifies an \"investigative order\" as a component of a \"D&O Claim.\" The 2011 Order opens with a full paragraph that, in the course of describing Masiz's past securities violations and the terms of his probation, identifies him to be the \"sole officer and director of BioChemics.\" The document then proceeds to describe misconduct that, for the reasons that we have already given, see supra Section IV.B.1, suffices to \"allege[ ]\" \"Wrongful Acts\" within the meaning of the Policy and that attribute that possible misconduct to a range of persons that include not only the company itself but its \"officers.\" Finally, the Order goes on to state that the SEC \"ORDERS ... that a private investigation be made to determine whether any persons or entities have engaged in, or are about to engage in, any of the reported acts or practices or any acts or practices of similar purport or object.\" Accordingly, the \"plain language\" of Masiz's Policy shows that the 2011 Order -- in announcing an investigation of BioChemics's officers and expressly naming Masiz as the only one -- is properly deemed a \"Claim\" against not only BioChemics but also Masiz himself. See Nat. Stock Exch., 2007 WL 1030293, at *4-5 (emphasis added).\nVI.\nFor the foregoing reasons we affirm the District Court's decisions granting summary judgment in favor of AXIS and denying the appellants' Motion for Partial Summary Judgment. The parties shall bear their own costs.\nBioChemics and Masiz had not informed the insurer about the 2011 Order at the time that AXIS denied coverage.\nThe Policy sets forth AXIS's \"duty to defend\" and its duty to cover \"defense costs\" under separate provisions. BioChemics and Masiz's complaint requested the recovery only of \"damages caused by [AXIS's] breach of ... its duty to defend.\" We proceed on the understanding that the parties, in referring to \"coverage\" under the Policy, are referring to AXIS's duty to defend.\nThe policy period ran from November 13, 2011 to November 13, 2013.\nThe Policy also includes a section on \"Exclusions\" outlining several circumstances under which AXIS will not bear liability for \"Claims\" against the insured parties. However, it appears that neither party argues that any of these \"Exclusions\" apply to the instant matter.\nThe appellants' preferred construction presents an additional complication. Even if we assumed that subpoenas are \"Claims\" in their own right, that conclusion does not, on its own, imbue them with \"actual or alleged\" \"errors\" such that they state \"Wrongful Acts\" and trigger the duty to defend under the Policy.\nOur Court's holding construing Puerto Rico law in Lind-Hern\u00e1ndez v. Hospital Episcopal San Lucas Guayama, 898 F.3d 99 (1st Cir. 2018), is not to the contrary. The Limits of Liability provision at issue there contained different language, and, in any event, Lind-Hern\u00e1ndez held only that the placement of the \"Interrelated Wrongful Acts\" provision in the Policy's \"Limits of Liability\" section did not indicate that the insurer could use the provision to aggregate \"Claims\" that were levied against different insured parties who fell under different insuring agreements. Id. at 108. No such issue is presented here.\nA \"Wrongful Act\" is defined with reference to whether there is \"any ... alleged error, misstatement, misleading statement, act, omission, neglect, or breach of duty,\" even though the duty to defend provision refers to \"any Claim made against the Insureds alleging a Wrongful Act.\" (Emphases added). The parties in the course of their briefs frequently refer to whether the 2011 Order and the subpoenas \"allege[ ]\" any \"Wrongful Acts.\" Considered in context, we understand those references to be intended to address whether those documents contain \"any ... alleged error, misstatement, misleading statement, act, omission, neglect, or breach of duty\" and not the more metaphysical question of whether those documents \"allege[ ]\" \"an alleged error, misstatement, misleading statement, act, omission, neglect, or breach of duty.\"\nTo avoid this inconsistency, the appellants in their reply brief argue for the first time that they are entitled to coverage for the 2012 subpoenas because the Policy is ambiguous as to how it treats a \"Claim\" that does not contain any \"Wrongful Acts\" and that ambiguity should inure to the benefit of the insured party. But in addition to the fact that new arguments in reply briefs are waived, see United States v. Torres, 162 F.3d 6, 11 (1st Cir. 1998), the plain terms of the Policy preclude this contention.\nWe suppose it is not entirely clear whether the \"Claim\" of which the 2012 subpoenas are best understood to be a part was the \"Claim\" that was \"commenced by\" the \"investigative order\" that the SEC issued on May 5, 2011 or the \"Claim\" that was \"commenced\" by the filings of the first of the subpoenas. But, that ambiguity is of no significance here. Insofar as the subpoenas are part of the \"Claim\" commenced by the issuance of the 2011 Order, they are plainly part of a \"Claim\" that was \"first made\" prior to the policy period. And, insofar as the subpoenas are part of a \"Claim\" that commenced upon the first of those subpoenas having been issued and that then culminated in the 2012 Action, that \"Claim\" -- at least given the arguments presented here -- would still have been \"first made\" prior to the start of the policy period, if the \"Wrongful Acts\" contained in the 2012 Action share a \"common nexus\" with the \"Wrongful Acts\" that the 2011 Order may fairly be construed to have contained.\nThe appellants do not separately contend that we should grant them relief for the 2012 Action -- which clearly contains \"Wrongful Acts\" -- even if we find that they are not entitled to relief for the 2012 subpoenas.\nThe appellants appear to do so, we note, even though Raytheon was interpreting a different type of exclusionary provision. See id. at 495 (noting that parties in Raytheon were contesting the applicability of the policy's \"prior and pending litigation clause\").",
+        "type": "majority",
+        "author": "BARRON, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Steven L. Schreckinger, Boston, MA, with whom Anderson & Kreiger LLP were on brief, for appellants.",
+      "Melinda B. Margolies, with whom Kaufman Borgeest & Ryan LLP, Valhalla, NY, William A. Schneider, and Morrison Mahoney LLP, Boston, MA, were on brief, for appellee."
+    ],
+    "corrections": "",
+    "head_matter": "BIOCHEMICS, INC.; John Masiz, Plaintiffs, Appellants,\nv.\nAXIS REINSURANCE COMPANY, Defendant, Appellee.\nJohn P. Raucci; Brown & Brown of New York, Inc., Defendants.\nNo. 17-2059\nUnited States Court of Appeals, First Circuit.\nMay 23, 2019\nSteven L. Schreckinger, Boston, MA, with whom Anderson & Kreiger LLP were on brief, for appellants.\nMelinda B. Margolies, with whom Kaufman Borgeest & Ryan LLP, Valhalla, NY, William A. Schneider, and Morrison Mahoney LLP, Boston, MA, were on brief, for appellee.\nBefore Thompson, Kayatta, and Barron, Circuit Judges."
+  },
+  "file_name": "0633-01",
+  "first_page_order": 633,
+  "last_page_order": 649
+}

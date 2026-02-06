@@ -1,0 +1,59 @@
+{
+  "id": 12202700,
+  "name": "Dorsey v. Louisiana",
+  "name_abbreviation": "Dorsey v. Louisiana",
+  "decision_date": "2012-04-02",
+  "docket_number": "No. 11-8470",
+  "first_page": "930",
+  "last_page": "930",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 930"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 26,
+    "char_count": 178,
+    "ocr_confidence": 0.593,
+    "sha256": "5ea03dd66ddf960b97be1a3318fe0e0d6ef907e85524e58409ec31b27644a0c6",
+    "simhash": "1:02824d75de6add18",
+    "word_count": 28
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dorsey v. Louisiana."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. La. Motion of Louisiana Association of Criminal Defense Lawyers for leave to file a brief as amicus curiae granted. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8470.\nDorsey v. Louisiana."
+  },
+  "file_name": "0930-01",
+  "first_page_order": 806,
+  "last_page_order": 806
+}

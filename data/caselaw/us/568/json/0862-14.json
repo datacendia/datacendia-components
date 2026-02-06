@@ -1,0 +1,59 @@
+{
+  "id": 12414188,
+  "name": "E. C. v. California",
+  "name_abbreviation": "E. C. v. California",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10796",
+  "first_page": "862",
+  "last_page": "862",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 862"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 83,
+    "ocr_confidence": 0.699,
+    "sha256": "d1b251a28e0f45830802825b5edbee564f61e578033a4c4393d3971e97729130",
+    "simhash": "1:3b0fd7a031422e43",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "E. C. v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 2d App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10796.\nE. C. v. California."
+  },
+  "file_name": "0862-14",
+  "first_page_order": 938,
+  "last_page_order": 938
+}

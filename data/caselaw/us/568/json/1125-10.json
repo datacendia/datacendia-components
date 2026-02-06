@@ -1,0 +1,59 @@
+{
+  "id": 12429291,
+  "name": "Morrison v. United States",
+  "name_abbreviation": "Morrison v. United States",
+  "decision_date": "2013-01-14",
+  "docket_number": "No. 12-693",
+  "first_page": "1125",
+  "last_page": "1125",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1125"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.604,
+    "sha256": "79af3a1fadc23c525f19de3b42cabff486adcacb8033cd8c001166801597c1ef",
+    "simhash": "1:953aca930f1bb44c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Morrison v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-693.\nMorrison v. United States."
+  },
+  "file_name": "1125-10",
+  "first_page_order": 1201,
+  "last_page_order": 1201
+}

@@ -1,0 +1,61 @@
+{
+  "id": 5938906,
+  "name": "Taylor v. Wilson, Warden",
+  "name_abbreviation": "Taylor v. Wilson",
+  "decision_date": "2011-04-04",
+  "docket_number": "No. 10-9377",
+  "first_page": "930",
+  "last_page": "930",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 930"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 151,
+    "ocr_confidence": 0.667,
+    "sha256": "984dd4b747f38d6e8b1c8c11e2d9f4118bb3fe8dc881a08219ce6f76e7e44647",
+    "simhash": "1:dbb73a822c0e9842",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Taylor v. Wilson, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9377.\nTaylor v. Wilson, Warden."
+  },
+  "file_name": "0930-01",
+  "first_page_order": 956,
+  "last_page_order": 956
+}

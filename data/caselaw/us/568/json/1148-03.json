@@ -1,0 +1,59 @@
+{
+  "id": 12430169,
+  "name": "Daniel v. Rapelje, Warden",
+  "name_abbreviation": "Daniel v. Rapelje",
+  "decision_date": "2013-01-22",
+  "docket_number": "No. 12-7640",
+  "first_page": "1148",
+  "last_page": "1148",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1148"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.622,
+    "sha256": "23f1793665fa06120c9b06eedada10d5280ef73ffc8cd661a987b056432c8127",
+    "simhash": "1:a6ad1242af1f14f4",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Daniel v. Rapelje, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7640.\nDaniel v. Rapelje, Warden."
+  },
+  "file_name": "1148-03",
+  "first_page_order": 1224,
+  "last_page_order": 1224
+}

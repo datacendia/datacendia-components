@@ -1,0 +1,239 @@
+{
+  "id": 12657820,
+  "name": "STATE of Missouri, Respondent, v. D.W., Appellant.",
+  "name_abbreviation": "State v. D.W.",
+  "decision_date": "2018-09-04",
+  "docket_number": "No. ED 106149",
+  "first_page": "589",
+  "last_page": "598",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "558 S.W.3d 589"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Mo. App. Ct.",
+    "id": 30182,
+    "name": "Missouri Court of Appeals, Eastern District, DIVISION FOUR"
+  },
+  "jurisdiction": {
+    "id": 37,
+    "name_long": "Missouri",
+    "name": "Mo."
+  },
+  "cites_to": [
+    {
+      "cite": "280 S.W.3d 178",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6946034
+      ],
+      "year": 2009,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/280/0178-01"
+      ]
+    },
+    {
+      "cite": "107 S.W.3d 340",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9111592,
+        9111550
+      ],
+      "weight": 2,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "350"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/107/0340-02",
+        "/sw3d/107/0340-01"
+      ]
+    },
+    {
+      "cite": "942 S.W.2d 385",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        11910815
+      ],
+      "weight": 2,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "390"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/942/0385-01"
+      ]
+    },
+    {
+      "cite": "984 S.W.2d 501",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        11758881
+      ],
+      "weight": 2,
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "506"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/984/0501-01"
+      ]
+    },
+    {
+      "cite": "280 S.W.3d 621",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6948169
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "623"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/280/0621-01"
+      ]
+    },
+    {
+      "cite": "310 S.W.3d 319",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7324209
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "323"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/310/0319-01"
+      ]
+    },
+    {
+      "cite": "59 S.W.3d 500",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9460324
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "504"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/59/0500-01"
+      ]
+    },
+    {
+      "cite": "13 S.W.3d 293",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        11452727
+      ],
+      "weight": 2,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "297"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/13/0293-01"
+      ]
+    },
+    {
+      "cite": "220 S.W.3d 335",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8309625,
+        8309687
+      ],
+      "weight": 5,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "339",
+          "parenthetical": "citing State v. Revels , 13 S.W.3d 293, 297 (Mo. banc 2000) "
+        },
+        {
+          "page": "339"
+        },
+        {
+          "page": "344"
+        },
+        {
+          "page": "344"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/220/0335-01",
+        "/sw3d/220/0335-02"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 984,
+    "char_count": 26863,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2648777978947807
+    },
+    "sha256": "e9d722b18d62f230e071161dea60f835cad6c3bf3d78e1c2b87fe8b880879340",
+    "simhash": "1:b9dfa22ea2de17f6",
+    "word_count": 4286
+  },
+  "last_updated": "2024-02-27T17:26:01.377610+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "STATE of Missouri, Respondent,\nv.\nD.W., Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Colleen Dolan, Judge\nD.W. (\"Appellant\") appeals the trial court's judgment denying Appellant's application for unconditional release from the custody and care of the Missouri Department of Mental Health (\"DMH\") after Appellant was found not guilty by reason of mental disease or defect (herein \"NGRI\") for two counts of murder in the first degree and two counts of armed criminal action in 1995. In Appellant's sole point on appeal, she argues that the trial court's judgment was against the weight of the evidence, that the judgment was unsupported by substantial evidence, and that the judgment erroneously declares the law. We affirm the judgment of the trial court.\nI. Factual and Procedural Background\nThe offenses to which Appellant pleaded NGRI were committed in March of 1995. At that time, Appellant lived in Atlanta, Georgia with her daughter, (herein \"Daughter\"), and other family members. Daughter was twelve years old at this time. One night in March of 1995, Appellant drove with Daughter to St. Louis, Missouri, where Appellant's mother, father, and grandmother lived. Appellant and Daughter stayed at the house of Appellant's parents and grandmother for three or four days. One night while at the house, Daughter awoke to the sounds of Appellant stabbing Appellant's mother and grandmother to death. Appellant stabbed her mother five times in the chest. She stabbed her grandmother once in the heart. Daughter and Appellant's father were eventually able to gain control of the knife and restrain Appellant. Both Appellant's mother and grandmother died from their injuries.\nAppellant was charged with two counts of murder in the first degree and two counts of armed criminal action. On November 21, 1995, Appellant was found NGRI. At that point, Appellant was committed to the custody and care of DMH. Appellant lived in a secured facility from November 21, 1995, until December 5, 2002, the date on which Appellant was granted partial conditional release. Appellant remained on partial conditional release until February 1, 2006, when she was granted a full conditional release. Upon Appellant's conditional release, she moved in with Daughter, who lived in St. Louis. On May 17, 2017, Appellant filed her application for unconditional release. The trial court held a hearing on October 6, 2017, and on October 27, 2017, the trial court denied Appellant's application without issuing findings of fact and conclusions of law.\na. Evidence Adduced at Trial\nThree witnesses testified in support of Appellant's unconditional release; the State did not offer any independent evidence and relied on cross-examination of the witnesses to support its position that Appellant's application for unconditional release should be denied. This section is meant to provide an overview of the relationship between Appellant and the persons testifying. Specific testimony is discussed in greater depth in the Discussion section infra.\ni. Testimony of Daughter\nPrimarily, Daughter provided testimony on issues which were not disputed. After Appellant was conditionally released on February 1, 2006, she moved in with Daughter. Appellant still lived with Daughter at the time of Daughter's testimony. Daughter expressed her opinion that Appellant was no longer a danger to herself or others at the time of the testimony, and she believed that Appellant would continue to be harmless in the reasonably foreseeable future. Daughter noted that Appellant had helped take care of an elderly aunt while she had been on conditional release. When asked whether she was ever concerned that Appellant might be a danger to her aunt, she stated, \"not at all.\" When she was asked whether she could promise that she would continue to live with her mother and monitor and/or care for her until the day that one of the two passed away, Daughter stated \"There is no guarantee ... [b]ut that's my intention.\" Daughter also opined that if she and Appellant were to move back to Atlanta, Appellant would have a \"stronger support system\" than in Missouri.\nii. Testimony of Donna Crowther\nDonna Crowther was Appellant's \"forensic case monitor\" beginning in 2008 and until she retired on October 1, 2017. Ms. Crowther met with Appellant once a month. She also testified that she had \"observed no evidence of non-compliance with [her] medication,\" nor did she notice any unusual changes in her behavior. Ms. Crowther also testified that while Appellant was conditionally released, she had traveled out of Missouri \"a[t] least twice a year\" for periods of seven-to-ten days. Ms. Crowther testified that \"[Appellant] always returned at the stated time.\" Additionally, Ms. Crowther testified that, in her clinical opinion, it was not likely that Appellant would commit another crime against a person as a result of her mental disease or defect, \"a[s] long as she takes her medication.\" Upon being asked if \"her dangerousness is dependent on whether she takes her meds,\" she answered in the affirmative.\niii. Deposition Testimony of Dr. Eileen Wu-Evans\nDr. Eileen Wu-Evans, M.D., Ph.D., (\"Dr. Wu-Evans\") provided deposition testimony on behalf of Appellant. Dr. Wu-Evans is a psychiatrist who is licensed to practice medicine in Missouri. Dr. Wu-Evans served as Appellant's psychiatrist beginning in 2009 and until the time she provided testimony. Dr. Wu-Evans continuously treated Appellant during this timeframe, except for an \"interruption\" of about a nine-month period. At the outset, Dr. Wu-Evans and Appellant met once a month. After Appellant's conditional release, Appellant only met with Dr. Wu-Evans once every two months. At the time of the deposition, Dr. Wu-Evans thought Appellant may only see her once every three months, although Daughter testified that Appellant meets with Dr. Wu-Evans once every two months. Dr. Wu-Evans diagnosed Appellant with \"bipolar affective disorder-manic, with a psychotic feature, in remission.\" Consequently, Dr. Wu-Evans prescribed Appellant several medications to attempt to control her disorder: Geodon, Wellbutrin, and Hydroxyzine.\nOn direct, Dr. Wu-Evans stated that she knew \"a little bit\" about the crimes committed by Appellant, but she was unfamiliar with some of the details. Dr. Wu-Evans explained what she knew about the crimes, stating \"[Appellant] had a manic episode, she wasn't sleeping for three months, she became psychotic, and she lost her judgment. I think she killed her mother. That's all I know.\" However, when asked on cross-examination if she was aware Appellant had killed her grandmother too, she said that refreshed her memory and she \"vividly remember[ed]\" what had occurred.\nb. The Trial Court's Denial of Appellant's Application for Unconditional Release\nAfter hearing all of the evidence and \"careful consideration of the factors in \u00a7 552.040.7(1)-(6) RSMo and other relevant evidence,\" the trial court found Appellant failed to carry her burden and denied her application for unconditional release. Although the trial court did not issue findings of fact and conclusions of law, after the State rested its case, the trial court at least partially articulated its rationale for denying Appellant's application. The trial court explained that two factors-the nature of the offense and the possibility that Appellant could pose a threat to the safety of herself or others if she did not take her medication-were especially important. The court implied that both of these factors, as well as the first factor, \"[w]hether or not the committed person presently has a mental disease or defect,\" weighed against Appellant's release. With regards to the trial court's worry that Appellant could pose a threat to herself or others, the court was mainly concerned with the possibility that Appellant would fail to take her medication regularly as prescribed, as there was virtually no evidence to suggest that Appellant would be a danger to herself or others while she was compliant with her medication. For example, the court noted that Dr. Wu-Evans did not opine with any conviction that Appellant would be fine without her medication, stating, \"that is trouble if a psychiatrist is not able to say what [Appellant] would do without medication ... I would think that a trained professional could say, for instance, it's possible the onset of her systems would manifest themselves [or] [t]here could be violent activity,\" however, Dr. Wu-Evans simply said, \"I don't know.\" It is also clear that the trial court was persuaded by the second factor in \u00a7 552.040.7, stating, \"[t]he nature of the offense is very serious ... [t]he most serious it could be.\"\nThe trial court stated \"[i]t seems like everything here hinges on [Appellant] continuing to take her medication.\" Further, although the court found that Daughter helped ensure that Appellant regularly took her medication as prescribed, it was concerned that \"if something were to happen to [Daughter] ... [our State would] have completely lost contact with [Appellant],\" and \"the well-trained professionals with the state of Missouri\" provide a \"really good, solid backup\" in the event that Daughter could no longer continue to monitor whether Appellant was taking her medications as prescribed.\nAfter the trial court weighed the factors enumerated in \u00a7 552.040.7 and considered all other relevant evidence, the trial court concluded that Appellant failed to establish by clear and convincing evidence that she was likely not to be threat to the safety of herself or others in the foreseeable future. Consequently, the court denied Appellant's application for unconditional release. This appeal follows.\nII. Standard of Review\n\"When we review a judgment on an application for unconditional release, we affirm the judgment unless it is not supported by substantial evidence, it is against the weight of the evidence, or it erroneously declares or applies the law.\" Grass v. State , 220 S.W.3d 335, 339 (Mo. App. E.D. 2007) (citing State v. Revels , 13 S.W.3d 293, 297 (Mo. banc 2000) ). When a defendant receives a verdict of not guilty by reason of mental disease or defect, it supports an inference that the defendant continues to suffer from the mental disease or defect responsible for his or her acquittal. Greeno v. State , 59 S.W.3d 500, 504 (Mo. banc 2001) ; State v. Rottinghaus , 310 S.W.3d 319, 323 (Mo. App. W.D. 2010).\nIII. Section 552.040 and Applications for Unconditional Release\nSection 552.040.7 requires that, after holding a hearing to determine whether an applicant should be unconditionally released, the trial court shall assess six factors and \"any other relevant evidence\" before reaching its decision. The six enumerated factors in the subsection are:\n(1) Whether or not the committed person presently has a mental disease or defect;\n(2) The nature of the offense for which the committed person was committed;\n(3) The committed person's behavior while confined in a mental health facility;\n(4) The elapsed time between the hearing and the last reported unlawful or dangerous act;\n(5) Whether the person has had conditional releases without incident; and\n(6) Whether the determination that the committed person is not dangerous to himself or others is dependent on the person's taking drugs, medicine or narcotics.\nSection 552.040.7. We also note that the applicant seeking unconditional release bears the burden of persuasion:\n[t]he burden of persuasion for any person committed to a mental health facility under the provisions of this section upon acquittal on the grounds of mental disease or defect excluding responsibility shall be on the party seeking unconditional release to prove by clear and convincing evidence that the person for whom unconditional release is sought does not have, and in the reasonable future is not likely to have, a mental disease or defect rendering the person dangerous to the safety of himself or others.\nSection 552.040.7(6) (emphasis added). \"Clear and convincing evidence is evidence that instantly tilts the scales in the affirmative when weighed against the opposing evidence and that leaves the fact finder with the abiding conviction that the evidence is true.\" Grass , 220 S.W.3d at 339. Appellant is also subject to additional requirements since she was acquitted of two first-degree murder charges. The relevant part of \u00a7 552.040.20 states that persons who were acquitted of first-degree murder on the grounds of mental disease or defect, and were committed to a mental health facility under the section, shall not be eligible for conditional or unconditional release unless:\n[I]n addition to the requirements of this section, the court finds that the following criteria are met: (1) Such person is not now and is not likely in the reasonable future to commit another violent crime against another person because of such person's mental illness; and (2) Such person is aware of the nature of the violent crime committed against another person and presently possesses the capacity to appreciate the criminality of the violent crime against another person and the capacity to conform such person's conduct to the requirements of law in the future.\nUltimately, the trial court may only grant an applicant's unconditional release if \"it is determined through the procedures in [ \u00a7 552.040 ] that the person does not have, and in the reasonable future is not likely to have, a mental disease or defect rendering the person dangerous to the safety of himself or others.\" Grass, 220 S.W.3d at 339 ; \u00a7 552.040.9.\nOn appeal, this Court defers to the trial court as the fact-finder. MSEJ, LLC v. Transit Cas. Co. , 280 S.W.3d 621, 623 (Mo. banc 2009). Although this is especially true when the trial court is presented with live, in-person testimony, this Court also defers to the trial court as the fact-finder on issues in which this Court is afforded the same ability and opportunity to consider the evidence itself:\nDespite the documentary nature of the evidence, this Court-though it need not defer to credibility determinations made by the trial court-\"defers to the trial court as the finder of fact in determinations as to whether there is substantial evidence to support the judgment and whether that judgment is against the weight of the evidence, even where those facts are derived from pleadings, stipulations, exhibits and depositions.\" Business Men's Assur. Co. of America v. Graham , 984 S.W.2d 501, 506 (Mo. banc 1999). In other words, even though this Court has the same opportunity to review the evidence as does the circuit court, the law allocates the function of fact-finder to the circuit court.\nId. Thus, we give some deference to the trial court with regards to the deposition testimony of Dr. Eileen Wu-Evans, which was presented only in the form of a transcript.\nIV. Discussion\nAppellant offers one point on appeal, asserting that our Court should reverse the trial court's denial of her application for unconditional release because \"the order and judgment is against the weight of the evidence, there is no substantial evidence to support it ... and the uncontroverted clear and convincing evidence in the record supports that Appellant does not have, and in the reasonable future is not likely to have, a mental disease or defect rendering her dangerous to the safety of herself or others....\" The three factors described in \u00a7 552.040.7(3)-(5) appear to be uncontroverted, and weigh in favor of Appellant's unconditional release: Appellant's behavior while confined in a mental health facility; the elapsed time between the hearing and the last reported unlawful or dangerous act; and whether Appellant has had conditional releases without incident. However, it is also undisputed that the nature of the offenses committed by Appellant were gruesome, and there was little-to-no evidence presented that Appellant would not be a danger to herself or society if she failed to take her medications as prescribed. \"A court must exercise 'extreme caution' in contemplating the conditional or unconditional release of a person acquitted of murder on the basis of mental defect or disease because 'the risks are immense if an error is made.' \" Grass , 220 S.W.3d at 344 (quoting Marsh v. State, 942 S.W.2d 385, 390 (Mo. App. W.D. 1997) ).\nIn this appeal of a denial of an application for unconditional release, our review is limited to whether the trial court's decision is \"supported by substantial evidence, it is against the weight of the evidence, or it erroneously declares or applies the law.\" Id. at 339 (citing Revels , 13 S.W.3d at 297 ). Although there is evidence to support Appellant's contention that she does not have, and is not likely to have in the near future, a mental defect or disease that endangers herself or others, for the reasons described infra , the trial court's denial of Appellant's application was supported by substantial evidence, and it was not against the weight of the evidence.\nLargely, evidence of what had occurred in the past was undisputed: the State noted that Appellant had an \"exemplary performance record while on conditional release,\" and throughout the time she was on conditional release, she regularly took her medication. Further, neither party presented strong evidence for assessing whether Appellant would be a threat if she did not take her medication as scheduled, and the evidence on the record shows that decompensation could occur if she did not take her medication. The dispute between the parties involved the likelihood of certain occurrences in the future.\nAs previously discussed, Daughter and Ms. Crowder primarily provided testimony to support what had already happened after Appellant's conditional release. Although both witnesses may have speculated that Appellant would likely continue taking her medication, Dr. Wu-Evans, a psychiatrist, had the greatest experience and training to answer whether Appellant was likely to become a danger to herself or others in the reasonably foreseeable future. Accordingly, Dr. Wu-Evans's testimony is the focus of our discussion.\nDuring her direct examination, Dr. Wu-Evans expressed some optimism that Appellant could be unconditionally released to the community without being a danger to the safety of herself or others if she continued to regularly take her prescribed medications. For example, when asked if she believed Appellant \"would be a danger to [Daughter] in the reasonable future,\" she responded, \"[i]f she takes [her] medications, I don't believe so.\" Dr. Wu-Evans noted that Appellant has never missed or been late for an appointment; she's pleasant during the meetings; and Dr. Wu-Evans has \"not seen any decompensation over the years [she had] been taking care of [Appellant].\" During the time Dr. Wu-Evans had been meeting with Appellant, Appellant regularly took her medication as prescribed.\nHowever, after the State's counsel refreshed Dr. Wu-Evans's memory so that she \"vividly remember[ed]\" what led to Appellant's commitment, as well as being pressed on her level of conviction that Appellant's unconditional release would not pose a threat to herself or others, Dr. Wu-Evans consistently expressed some trepidation. Moreover, at least implicitly, she conceded that she was not well-suited for answering the most important question: whether Appellant had a mental disease or defect that would render her dangerous to the safety of herself or others in the reasonably foreseeable future , explaining that she did not have the training or experience to predict how Appellant would react if unconditionally released. For example, when she was asked if she believed Appellant should be unconditionally released, she responded, \"I think it's really hard. You guys [are] really putting me on the ... hard chair ... I mean, I cannot predict the future to tell you the truth, but, so far, she has been doing well ... I imagine ... if she takes [her] medicine she should be okay.\" When pressed on her opinion, she stated:\nYou know ... I'm not a forensic psychiatrist. I don't have the best methodic way to predict the future ... [i]f you guys want to have another opinion ... I can talk to [a] forensic psychiatrist ... [t]hey may[ ] have better training than [me] ... I'm just a general psychiatrist ... [m]y prediction is ... more like a general sort of a principle, if she takes medicine, she should be safe. That's all [ ] I do.\nTowards the end of her cross-examination, Dr. Wu-Evans said she was confident that Appellant would be \"fine\" if she took her medication, but \"[i]f she does not take [her] meds, I don't know . I [have] never seen her without meds.\" (emphasis added). Consistently throughout her testimony, Dr. Wu-Evans qualified her opinion that she believed Appellant would not be a danger by saying some variation of \"as long as she takes her medication.\" There is a critical difference between a finding that an applicant does not presently have a mental disease or defect that would render her dangerous to the safety of herself or others, and a finding that an applicant does not have a mental disease or defect that would render her dangerous to the safety of herself or others if she continues to take medication .\nThe trial court noted that \"[i]t seems like everything here hinges on [Appellant] continuing to take her medication,\" also stating that \"[i]t seems very clear to me that her ability to function properly and be a good citizen and everything else seems to be associated with her properly taking the medication.\" This Court agrees with the trial court's judgment. However, it is important to bear in mind that Appellant, as the \"party seeking unconditional release,\" has the burden of proving by clear and convincing evidence that, in the event Appellant's unconditional release were granted, she would not have a mental disease or defect rendering her dangerous to the safety of herself or others in the reasonably foreseeable future . Section 552.040.9 (emphasis added).\nThere was ample evidence to suggest that if Appellant were to continue taking her medication as prescribed, her mental disease or defect would be controlled and make it unlikely she would be a danger to the safety of herself or others in the reasonably foreseeable future. Nonetheless, if the safeguards are not in place to ensure Appellant adheres to her medication schedule, there is, at best, a modicum of evidence supporting that she would not be a danger in the foreseeable future. Further, as the state of Missouri-including DMH-would lose any ability to supervise Appellant and her condition, the evidence suggests that any supervision of Appellant to make sure her medication is properly taken would fall on the shoulders of Daughter. Additionally, the nature of Appellant's offenses warrants greater caution: she stabbed her own mother and grandmother to death, even though Daughter considered Appellant and her victims to be \"best friends.\" See Grass , 220 S.W.3d at 344.\nWe acknowledge that Appellant has shown her ability to control her bipolar affective disorder-manic, with a psychotic feature, when she takes her medication as prescribed. By all accounts, Appellant maintained a pristine record while on conditional release over the period of time between her full conditional release (February of 2006) and the time of the hearing on Appellant's application for unconditional release (October of 2017). However, the evidence adduced at trial primarily concerned whether Appellant was a threat to the safety of herself or others before and at the time of the hearing; there is sparse evidence that Appellant will continue to be a non-threat for the reasonably foreseeable future. Further, the nature of Appellant's gruesome murders also supports the trial court's denial of Appellant's unconditional release.\nWe also note that \"[t]he standard for conditional release is much lower\" than the standard for unconditional release. State v. Weekly , 107 S.W.3d 340, 350 (Mo. App. W.D. 2003). Additionally, Appellant's denied application does not prevent her from re-applying for unconditional release. Id. However, based upon the evidence presented before the trial court on Appellant's application for unconditional release, the court's determination-that Appellant failed to meet her burden of persuasion by adducing clear and convincing evidence establishing she would not be a threat to the safety of herself and/or others in the foreseeable future-was supported by substantial evidence and was not against the weight of the evidence. Consequently, as required by \u00a7 552.040, we deny Appellant's sole point on appeal.\nV. Conclusion\nThe judgment of the trial court is affirmed.\nKurt S. Odenwald, P.J., concurs.\nGary M. Gaertner, Jr., J., concurs.\nAll statutory references are to RSMo 2000 as updated through the most recent cumulative supplement, unless otherwise indicated.\nThe trial court, in explaining why it would be concerned if Appellant was unconditionally released, stated, \"I think the nature of the offense, number two, and number six are very important. Also, you factor in the diagnosis that I understand to be there right now.\"\n\"Unconditional release involves a total loss of the [State's] jurisdiction,\" and \"[a]fter being unconditionally released, the [committed person] is no longer under the supervision of the [State].\" State v. Larrington , 280 S.W.3d 178, 180 n.4 (Mo. App. W.D. 2009).\nThe full quote of Dr. Wu-Evans's testimony, as expressed in the transcript, reads in full:\nYou know, I-I usually-I'm not a forensic psychiatrist. I don't have the best methodic way to predict the future, but the only thing, I have the advantage for her because I have been seeing her for so many years. That's all. Okay? Again, I'm not a forensic psychiatrist. Okay? If you guys want to have another opinion as-she's welcome. I can talk to forensic psychiatrist, see if-any question they want to ask me about, I will tell them. Okay? So they might be able to-because they are trained for people-the history and the prediction. They maybe have better training than I am, tell you the truth. Okay?\nSo, for me, I'm just a general psychiatrist. She has been doing well in the past, maybe almost ten years. That's all the information I have. Okay? Based on that, I-my prediction is, is more like a general sort of a principle, if she takes medicine, she should be safe. That's all what I do.",
+        "type": "majority",
+        "author": "Colleen Dolan, Judge"
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "STATE of Missouri, Respondent,\nv.\nD.W., Appellant.\nNo. ED 106149\nMissouri Court of Appeals, Eastern District, DIVISION FOUR.\nFiled: September 4, 2018\nEdward F. McSweeney, 100 South Central, Clayton, MO 63105, Ronald Q. Smith, 140 Park Central Sq. Ste. 1017, Springfield, MO 65806, Peter T. Reed, PO Box 861, St. Louis, MO 63188, For Plaintiff/Respondent.\nKiara N. Drake, 2000 Innerbelt Bus. Center Dr., Overland, MO 63114, For Defendant/Appellant.\nDenise L. Thomas, 5400 Arsenal St. MS A116, St. Louis, MO 63139, For Respondent Department of Mental Health."
+  },
+  "file_name": "0589-01",
+  "first_page_order": 589,
+  "last_page_order": 598
+}

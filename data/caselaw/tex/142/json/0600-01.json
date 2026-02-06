@@ -1,0 +1,256 @@
+{
+  "id": 2341085,
+  "name": "Charles H. Harris et al. v. City of Fort Worth et al.",
+  "name_abbreviation": "Harris v. City of Fort Worth",
+  "decision_date": "1944-05-03",
+  "docket_number": "No. A-84",
+  "first_page": "600",
+  "last_page": "608",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "142 Tex. 600"
+    },
+    {
+      "type": "parallel",
+      "cite": "180 S.W.2d 131"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "152 S. W. (2d) 1112",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2314989,
+        10227093
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/137/0178-01",
+        "/sw2d/152/1112-01"
+      ]
+    },
+    {
+      "cite": "137 Texas 138",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "187 Atl. 632",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "80 So. 750",
+      "category": "reporters:state_regional",
+      "reporter": "So.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "77 Fla. 74",
+      "category": "reporters:state",
+      "reporter": "Fla.",
+      "case_ids": [
+        1290806
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/fla/77/0074-01"
+      ]
+    },
+    {
+      "cite": "38 Pac. (2d) 264",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": -1
+    },
+    {
+      "cite": "179 Wash. 588",
+      "category": "reporters:state",
+      "reporter": "Wash.",
+      "case_ids": [
+        877774
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/wash/179/0588-01"
+      ]
+    },
+    {
+      "cite": "159 Atl. 449",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "275 U. S. 129",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6137771
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/275/0129-01"
+      ]
+    },
+    {
+      "cite": "136 Miss. 795",
+      "category": "reporters:state",
+      "reporter": "Miss.",
+      "case_ids": [
+        760503
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/miss/136/0795-01"
+      ]
+    },
+    {
+      "cite": "107 S. W. (2d) 872",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2290137,
+        10265909
+      ],
+      "pin_cites": [
+        {
+          "page": "878"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/130/0225-01",
+        "/sw2d/107/0872-01"
+      ]
+    },
+    {
+      "cite": "130 Texas 225",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2290137
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/130/0225-01"
+      ]
+    },
+    {
+      "cite": "99 S. W. (2d) 311",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        12058098
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/99/0311-01"
+      ]
+    },
+    {
+      "cite": "259 S. W. 926",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10322921
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/259/0926-01"
+      ]
+    },
+    {
+      "cite": "64 Tex. 673",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2163956
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/64/0673-01"
+      ]
+    },
+    {
+      "cite": "285 S. W. 844",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10315394
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/285/0844-01"
+      ]
+    },
+    {
+      "cite": "177 S. W. (2d) 308",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10206752
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/177/0308-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 744,
+    "char_count": 17847,
+    "ocr_confidence": 0.604,
+    "pagerank": {
+      "raw": 3.058511210091211e-07,
+      "percentile": 0.8564478083471275
+    },
+    "sha256": "0841e56d38b4adcce6e16dcc785a11a07451a0249fd757dfe529aa671401e98b",
+    "simhash": "1:127bfcf3a5a7fff9",
+    "word_count": 2998
+  },
+  "last_updated": "2024-02-27T17:54:29.127269+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Charles H. Harris et al. v. City of Fort Worth et al."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Sharp\ndelivered the opinion of the Court.\nThis suit was brought by the City of Fort Worth and the Fort Worth Independent School District against Charles H. Harris, E. E. Bewley, Charles F. Roeser, Mark McMahon, and W. K. Stripling, trustees, to recover personal property taxes on forty-six promissory notes payable to th\u00e9 Mary Gouts Burnett Trust. Upon a trial before the court without a jury, upon a stipulation of facts, judgment was rendered for the defendants. The Court of Civil Appeals reversed the judgment of the trial court and rendered judgment for the plaintiffs. 177 S. W. (2d) 308.\nIn 1923 Mary Gouts Burnett, who owned a considerable estate, consisting of both real and personal property, transferred the estate to trustees (of which she was one) for certain recited purposes. The trust, to be known as the Mary Gouts Burnett Trust, was to last for twenty years after the death of the last surviving person who signed the trust indenture. The settlor reserved a life estate in certain real property and three-fourths of the net income of the estate during her life. It is provided in the indenture that during the life of the settlor one-fourth of the net income of the estate shall be paid to Texas Christian University, for the purpose. of supporting chairs in departments of the University. The instrument also provides that upon the death of the settlor, the net income of the estate, including any income not disposed of by the settlor, is to be paid to Texas Christian University, for the purpose mentioned above, and also to provide scholarships for worthy students, until the termination of the trust, when the entire corpus of the trust is to go to the University.\nWe think we must assume, as did the Court of Civil Appeals, that the settlor died before 1941, and that the provisions of the indenture applicable after her death are applicable here.\nThe trustees were given extensive and complete power to deal with the trust estate. This included the power to sell, convey, lease, release, vote bank stock, and collect all rents and other revenues owing to the estate. It was provided that the net income of the estate, after deduction of expenses, should be applied to the uses enumerated, upon condition that \u201cthe net income of said estate as used in this instrument shall be determined solely by said Trustees.\" Provision was also made for the appointment of successor trustees.\nThe stipulation of facts states that the trustees rendered and paid personal property taxes to the City of Fort Worth for all years prior to 1941. This suit is for taxes for that year alone. The stipulation further recites, .\u201cThat the only issue to be decided by this Court is whether or not the notes described in plaintiffs\u2019 petition and the mortgages securing same are taxable or exempt from taxation. In case the Court holds that such property is not exempt from taxation, judgment shall be rendered herein for plaintiffs for the amounts sued for. Should the Court hold that the same is not subject to taxation, the judgment herein shall be rendered for defendants.\u201d\nThe Court of Civil Appeals held: (1) That the exemption of the endowment funds is strictly confined to bonds and mortgages, and does not extend to other personal assets; and (2) that personal assets belonging to the endowment funds of such institution, other than bonds and mortgages, which yield' revenue are \u201cused with a view to profit\" and are not exempt.\nPetitioners contend that the Court of Civil Appeals erred in holding that the funds invested in notes and mortgages held by petitioners in trust for the sole use and benefit of Texas Christian University, admittedly an institution of learning and religion, and to be transferred to the University for its permanent use for educational purposes upon the termination of the trust, did not constitute endowment funds, exempt from taxation under Article 8, Section 2, of the Constitution, and Article 7150, Section 1, of the Statutes.\nThe notes in controversy were all secured by mortgages, and were a part of the assets of the trust. The question to be decided is whether the notes and the mortgages securing same are exempt from taxation under the provisions of Article 8, Section 2, of the Texas Constitution, and Article 7150, Section 1, Vernon\u2019s Annotated Civil Statutes, as constituting part of an endowment fund of an institution of learning and religion.\nIf the language used in the Constitution or in an Act leaves its intent obscure, the courts may resort to certain aids in the construction of same, such as the purpose sought to be accomplished, the history of the legislation, the public policy of the State in regard thereto; etc. 39 Tex. Jur., p. 176, Sec. 93, p. 232, Sec. 124; 9 Tex. Jur., p. 438, Sec. 26. It is also often permissible to transpose words or phrases of an enactment, in order to ascertain the legislative intent sought to be expressed therein. Article 11, Vernon\u2019s Annotated Civil Statutes; 39 Tex. Jur., p. 185, Sec. 97.\nThe Constitution and the Statutes of this State evince a liberality in the exemption from taxation of property for educational or religious purposes. The following is a brief outline of the various amendments and enactments concerning the exemptions from taxation under consideration:\nArticle 8, Section 2, of the Constitution was originally adopted in. 1876. It provided that there may be exempted from taxation public property used for public purposes; actual places of religious worship; etc. It appears that the first statutory exemption of endowment funds of institutions of learning was enacted in 1876 without any constitutional authorization, and was carried into the Revised Statutes of 1879 as Article 4673, Section 1, the material portion of which is as follows: \u201cThe following property shall be exempt from taxation to wit: 1. * * * all endowment funds of institutions of learning not used with -a view to profit; * * * .\u201d This provision was incorporated into the Revised Statutes of 1895 as Article 5065, Section 1.\nArticle 8, Section 2, of the Constitution was amended in 1906, when for the first time the Legislature was authorized to exempt endowment funds. This amendment is the first provision to mention either bonds, mortgages, or foreclosure sales, with reference to the exemption of endowment funds. The provision is: \u201c * * * the Legislature may, by general laws, exempt from taxation * * * the endowment funds of such institutions of learning and religion not used with a view to profit and when the same are invested in bonds or mortgages, or in land or other property which has been and shall hereafter be bought in by such institutions under foreclosure sales made to satisfy or protect such bonds or mortgages; that such exemption of such land and property shall continue only for two years after the purchase of the same at such sale by such institutions and no longer, * * * .\u201d\nIn order to conform to the Constitution, Article 5065, Section 1, Revised Statutes (1895) was amended in 1907 by the 30th Legislature, ch. 159, p. 302, so as to read substantially the same as the quoted provision of the Constitution. This' same language was carried into the Revised Statutes of 1925, as a part of Article 7150, Section 1.\nIn 1928, Article 8, Section 2, of the Constitution was amended, and the endowment fund exemption provision was reworded to read as follows: * * * the legislature may, by general laws, exempt from taxation * * * the endowment funds of such institutions of learning and religion not used with a view to profit; and when the same are invested in bonds or mortgages,\u2019 or in land or other property which has been and shall hereafter be bought in by such institutions under foreclosure sales made to satisfy or protect such bonds or mortgages, that such exemption of such land and property shall continue only for two years after the purchase of the same at such sale by such institutions and no longer, * * * .\u201d\n. By the provision just quoted the Legislature was given the power to exempt other property. Therefore Article 7150, Section 1, was amended by the 42nd Legislature (Acts 1931), ch. 124, p. 211, so as to exempt this additional property from taxation. The provision relating to the exemption of endowment funds was reworded so as to read: \u201c * * * and all endowment funds of institutions of learning and religion not used with, a view to profit, and when the same are invested in bonds or mortgages, and all such buildings used exclusively and owned by persons or associations of persons for school purposes; provided that when the land or other property has been, or shall hereafter be, bought in by such institutions under foreclosure sales made to satisfy or protect bonds or mortgages in which said endowment funds are invested, that such exemption of such land and property shall continue for two years * * * and no longer.\u201d (Italics ours.)\nIt is reasonably plain that it was intended by the amendment to the Constitution in 1928 that endowment funds invested by institutions of learning and religion in bonds and mortgages, not with a view to profit, should be exempt from taxation, and that that part of the provision of the Constitution granting exemption for two years applies to land or property bought in by such institutions under foreclosure sales made to satisfy or protect such bonds or mortgages in which the endowment funds had been previously invested. The semicolon after the word \u201cprofit\u201d indicates the break between what has gone before and the succeeding provision. It is also reasonably plain that the Legislature inadvertently transposed the italicized phrase above in such a way as to isolate the clause \u201cand when the same are invested in bonds or mortgages\u201d from the part of the section to which it was intended to refer.\nThis construction of Section 1 of Article 7150 is supported by a consideration of the language and history of Section 2a of the same Article. That provision exempts the endowment funds of religious, educational, and physical development associations which are not used with a view to profit, and makes no mention of a requirement that they be invested in bonds or mortgages. The exemption in favor of these institutions was enacted by authority of the same provision of the Constitution as was the exemption in favor of institutions of learning and religion.\nIn 1913 an Act was passed to exempt the property of the Young Men\u2019s Christian Association and the Young Women\u2019s Christian Association. That Act is Section 2 of Article 7150. In the case of City of San Antonio v. Young Men\u2019s Christian Association, (Civ. App.) 285 S. W. 844 (writ refused), that section was declared invalid, because not authorized by the Constitution. One of the prime purposes of the 1928 amendment to the Constitution was to give the Legislature power to exempt such property, which was done by an Act of the 45th Legislature (Acts 1937), ch. 201, p. 401, Sec. 1. As mentioned above, the exemption included the endowment funds of those associations not used with a view to profit, and also provided for a two-year exemption for land and other property bought in at foreclosure sales; but nowhere was it provided that the exemption extended only to those endowment funds that were invested in bonds or mortgages. \u2022\nIt is not reasonable to conclude that the Legislature, by merely changing the punctuation and position of the phrases in Section 1, intended to discriminate against the endowment funds of institutions of learning and religion, in favor of religious, educational, and physical development associations, especially in view of the fact that both exemptions were derived from the same line of the Constitution.\nIn the early case of Cassiano v. Ursuline Academy, 64 Tex. 673, this Court, speaking through Mr. Justice Robertson, said:\n\u201cIt has been the policy of the state since 1849 to encourage educational enterprises by exempting them from any share of the burdens of government. Pasch. Dig., arts. 5147, 5148, 7485, 7688. * * *\n\u201cThe education of the masses is now recognized as \u00e1 function of state government. Those who, from charitable considerations, to forward sectarian views, or for private profit, have organized or conducted schools, have assisted the state in the performance of a duty it owes to its citizens, which cannot be too thoroughly performed, and which the state has never assumed that it had either the means or the machinery of doing sufficiently well without private assistance. The Ursuline Academy is performing its part in this branch of the public service, and it should rather be encouraged by aids, than impaired in its usefulness by a tax upon its pitiful revenues.\u201d\nRawle\u2019s Third Revision of Bouvier\u2019s Law Dictionary, Vol. 1, p. 1039, states that the tetm \u201cEndowment\u201d is \u201cNow generally used of a permanent provision for any public project, as a school or hospital. By the endowment of such institutions is commonly understood, not the building or providing sites for them, but the providing of a fixed revenue for their support.\u201d (Italics ours.) See also Words & Phrases (Perm. Ed.), Vol. 14, p. 578.\nWhen the provisions of the Constitution and the Statutes relating to this subject are considered in connection with the history concerning such provisions, the only logical conclusions are: (1) that the clause \u201cand when same is invested in bonds or mortgages\u201d is cumulative of the preceding general language, and is not restrictive; and (2) that the phrase \u201cnot used with a view to profit,\u201d when employed with reference to \u201cendowment funds,\u201d should not be construed to mean such funds as produce no money income, because the only purpose of an endowment fund is to produce revenue to maintain the institution endowed, and such interpretation would in effect abolish the exemption.\nWhatever- may be the ordinary signification of the words \u201cused with a view to profit,\u201d we think that in these tax exemption provisions of the statutes they mean only that the fund be not used with a view to private gain or profit. Santa Rosa Infirmary v. City of San Antonio, (Com. App.) 259 S. W. 926; City of Palestine v. Missouri-Pacific Lines Hospital Assn., (Civ. App.) 99 S. W. (2d) 311 (writ refused); City of Dallas v. Smith, 130 Texas 225, 107 S. W. (2d) 872, 878. In the cases cited it was held that an institution could be one of purely public charity, even though it had an income, so long as no private gain or profit is realized. We think that the word \u201cprofit\u201d means private profit, as used in the statute and constitutional provisions here involved. Any other definition would make \u201cprofit\u201d synonymous with \u201cincome.\u201d Since an endowment fund is a permanent fund, the purpose of which is to yield income for the support of an institution, that definition would withdraw the exemption from any endowment fund that fulfilled its purpose.\nThe trust agreement describes the property that constitutes an endowment fund for Texas Christian University, but it is clear that the real property owned by the trust fund is not within the tax exemption, except for the two-year exemption on land bought in at foreclosure sales. The fact that the Constitution and the Statutes grant this two-year exemption in favor of certain real property negatives an intention to exempt real estate generally as part of an endowment fund. Millsaps College v. City of Jackson, 136 Miss. 795, 101 So. 574, affirmed 275 U. S. 129, 48 S. Ct. 94, 72 L. Ed. 196.\nTexas Christian University has a right to the net income of the trust until its termination. The fact that the income from the notes and mortgages does not go directly to the University, but, instead, is put into a common fund, which is given to the University, after deducting expenses, does not affect the conclusion that such notes and mortgages are exempt from taxation. We find no provision of the Constitution or of the Statutes which precludes this construction.\nThe judgment of the Court of Civil Appeals is reversed, and that of the trial court is affirmed.\nOpinion delivered May 3, 1944.\nRehearing overruled May 31, 1944.",
+        "type": "majority",
+        "author": "Mr. Justice Sharp"
+      }
+    ],
+    "attorneys": [
+      "Thompson, Walker, Smith & Shannon, of Fort Worth, for petitioners.",
+      "R. E. Rouer and Heard L. Floore, of Fort Worth, for respondents."
+    ],
+    "corrections": "",
+    "head_matter": "Charles H. Harris et al. v. City of Fort Worth et al.\nNo. A-84.\nDecided May 3, 1944.\nRehearing overruled May 81, 1944.\n(180 S. W., 2d Series, 131)\nThompson, Walker, Smith & Shannon, of Fort Worth, for petitioners.\nFunds invested in notes and mortgages held by petitioners (trustees) in trust for the sole use and benefit of the Texas Christian University, admittedly an institution of learning and religion, and to be transferred to the University for its permanent use for educational purposes upon the termination of the trust, constitute endowment funds, exempt from taxation under Aricle 8, section 2 of the Constitution and Article 7150, section 1 of the Texas Statutes, and it was error for the Court of Civil Appeals not to so hold. Alumnae Assn. v. Trustees of Univ. of Pa., 159 Atl. 449; Lakeside Country Day Sch. v. King County, 179 Wash. 588, 38 Pac. (2d) 264; Continental Ill. Bank & Tr. Co. v. Blair, 45 Fed. (2d) 345.\nR. E. Rouer and Heard L. Floore, of Fort Worth, for respondents.\nIt appearing from the record that in creating the trust involved in this controversy the settlor conveyed all of the property in trust to the trustees for the purpose of continuing the business of the estate, which was being operated for profit, and that the trust was to exist until the death of the last surviving trustee who signed the indenture and twenty years thereafter, and that no part of the personal property had been segregated from the other assets as an endowment fund, and therefore such property was not exempt from taxation and the Court of Civil Appeals did not err in so holding. Rast v. Hulvey, 77 Fla. 74, 80 So. 750; Crane v. Morristown School Foundation, 187 Atl. 632; City of Longview v. Markham-McRee Mem. Hospital, 137 Texas 138, 152 S. W. (2d) 1112."
+  },
+  "file_name": "0600-01",
+  "first_page_order": 618,
+  "last_page_order": 626
+}

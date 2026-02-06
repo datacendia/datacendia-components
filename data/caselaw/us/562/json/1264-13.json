@@ -1,0 +1,59 @@
+{
+  "id": 5996455,
+  "name": "Alvarado-Zapata v. United States",
+  "name_abbreviation": "Alvarado-Zapata v. United States",
+  "decision_date": "2011-02-28",
+  "docket_number": "No. 10-8790",
+  "first_page": "1264",
+  "last_page": "1264",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1264"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 81,
+    "ocr_confidence": 0.61,
+    "sha256": "d50edb1846dd1ef3f63a8a742af472cf48c9a967978281701daac994ec88db98",
+    "simhash": "1:2428838208c09d62",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Alvarado-Zapata v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8790.\nAlvarado-Zapata v. United States."
+  },
+  "file_name": "1264-13",
+  "first_page_order": 1286,
+  "last_page_order": 1286
+}

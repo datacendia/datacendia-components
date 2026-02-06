@@ -1,0 +1,59 @@
+{
+  "id": 12219800,
+  "name": "Adkins v. United States",
+  "name_abbreviation": "Adkins v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5356",
+  "first_page": "903",
+  "last_page": "903",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 903"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.697,
+    "sha256": "205996d0db4e9a41e7812fdf7a1460e36bee5f20a001d862bccb82767e330f0c",
+    "simhash": "1:844ba6a22aa65900",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Adkins v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. D. C. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5356.\nAdkins v. United States."
+  },
+  "file_name": "0903-05",
+  "first_page_order": 985,
+  "last_page_order": 985
+}

@@ -1,0 +1,59 @@
+{
+  "id": 4223208,
+  "name": "Cartwright v. United States",
+  "name_abbreviation": "Cartwright v. United States",
+  "decision_date": "2011-04-25",
+  "docket_number": "No. 10-9778",
+  "first_page": "969",
+  "last_page": "969",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 969"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.494,
+    "sha256": "33ddc0105f5f2da60b308a518c2aa31ca4154f21a7324dedadcfe55ff144391e",
+    "simhash": "1:82ebc78b66058c38",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cartwright v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9778.\nCartwright v. United States."
+  },
+  "file_name": "0969-02",
+  "first_page_order": 995,
+  "last_page_order": 995
+}

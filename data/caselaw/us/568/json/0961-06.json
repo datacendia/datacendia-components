@@ -1,0 +1,90 @@
+{
+  "id": 12419302,
+  "name": "Henderson v. United States",
+  "name_abbreviation": "Henderson v. United States",
+  "decision_date": "2012-10-15",
+  "docket_number": "No. 11-9307",
+  "first_page": "961",
+  "last_page": "961",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 961"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "567 U. S. 934",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12411168,
+        12411136,
+        12411074,
+        12411128,
+        12411110,
+        12411086,
+        12411151,
+        12411062,
+        12411096,
+        12411101
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/567/0934-10",
+        "/us/567/0934-08",
+        "/us/567/0934-02",
+        "/us/567/0934-07",
+        "/us/567/0934-06",
+        "/us/567/0934-03",
+        "/us/567/0934-09",
+        "/us/567/0934-01",
+        "/us/567/0934-04",
+        "/us/567/0934-05"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 25,
+    "char_count": 164,
+    "ocr_confidence": 0.701,
+    "sha256": "4d69f503292dd557a84a1fa67938b1ed700e5ff7b97b18f549429cb684063b3a",
+    "simhash": "1:8c0ccf4beef60d6b",
+    "word_count": 26
+  },
+  "last_updated": "2024-02-27T23:44:49.194693+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Henderson v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. [Certiorari granted, 567 U. S. 934.] Motion of petitioner to dispense with printing joint appendix granted.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9307.\nHenderson v. United States."
+  },
+  "file_name": "0961-06",
+  "first_page_order": 1037,
+  "last_page_order": 1037
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5973203,
+  "name": "In re Thomas",
+  "name_abbreviation": "In re Thomas",
+  "decision_date": "2011-03-07",
+  "docket_number": "No. 10-8200",
+  "first_page": "1270",
+  "last_page": "1270",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1270"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 25,
+    "char_count": 168,
+    "ocr_confidence": 0.589,
+    "sha256": "c4eef7e027b335876250fcb58091a4ca5af0dc213225dfe2db6b2aa488686802",
+    "simhash": "1:6a807c7c8273271a",
+    "word_count": 28
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Thomas."
+    ],
+    "opinions": [
+      {
+        "text": "Motion of petitioner for leave to proceed in forma pauperis denied, and petition for writ of mandamus dismissed. See this Court\u2019s Rule 39.8.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8200.\nIn re Thomas."
+  },
+  "file_name": "1270-01",
+  "first_page_order": 1292,
+  "last_page_order": 1292
+}

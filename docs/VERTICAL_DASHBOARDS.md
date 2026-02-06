@@ -1,9 +1,10 @@
 # DATACENDIA VERTICAL DASHBOARDS
-## Industry-Specific Interactive Visualizations
+## Industry-Specific Interactive Visualizations & Layout Maps
 
-**Version:** 1.0.0  
-**Generated:** December 20, 2025  
-**Total Dashboards:** 15 across 12+ verticals
+**Version:** 2.0.0  
+**Generated:** January 9, 2026  
+**Total Dashboards:** 24 across 17 verticals  
+**Layout Maps:** 24 specialized layouts (3 per vertical for 8 key verticals)
 
 ---
 
@@ -350,6 +351,56 @@ All widgets use the sovereign theme classes:
 - `border-sovereign-border` - Borders
 - `text-white` / `text-gray-400` - Text
 - Gradient accents per vertical
+
+---
+
+# 6. LAYOUT MAPS (NEW in v2.0)
+
+## Overview
+
+Layout Maps provide **interactive visual representations** of physical or conceptual spaces within each vertical. Users can click on zones to see metrics and launch The Council with context.
+
+## Available Layout Maps
+
+| Vertical | Layout 1 | Layout 2 | Layout 3 |
+|----------|----------|----------|----------|
+| **⚖️ Legal** | Courtroom | Case War Room | Partner Meeting Room |
+| **🏥 Healthcare** | Hospital Floor | Outpatient Clinic | Executive Boardroom |
+| **🏭 Manufacturing** | Plant Floor | Warehouse | Control Room |
+| **💹 Financial** | Trading Floor | Wealth Management Office | Operations Center |
+| **🏛️ Government** | Command Center | Council Chamber | Permit Office |
+| **💻 Technology** | DevOps Command Center | Product War Room | Executive Boardroom |
+| **⚡ Energy** | Grid Control Center | Substation View | Renewable Operations |
+| **🛒 Retail** | Store Floor | E-commerce Operations | Merchandising HQ |
+
+## Usage
+
+```tsx
+import { LayoutMapRenderer } from '@/components/dashboard/LayoutMapRenderer';
+import { getVerticalLayouts } from '@/config/verticalLayoutMaps';
+
+const layouts = getVerticalLayouts('legal');
+const selectedLayout = layouts[0]; // Courtroom
+
+<LayoutMapRenderer
+  layout={selectedLayout}
+  verticalId="legal"
+  onZoneClick={(zone) => console.log('Clicked:', zone.name)}
+/>
+```
+
+## Zone Configuration
+
+Each zone in a layout map includes:
+- **Position** (x, y, width, height as percentages)
+- **Status** (active, warning, critical, idle)
+- **Metrics** (label/value pairs)
+- **Quick Actions** (contextual buttons)
+
+## Files
+
+- `src/config/verticalLayoutMaps.ts` - Layout definitions
+- `src/components/dashboard/LayoutMapRenderer.tsx` - Renderer component
 
 ---
 

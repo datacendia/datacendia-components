@@ -1,0 +1,59 @@
+{
+  "id": 12433805,
+  "name": "Muthukumar v. Kiel",
+  "name_abbreviation": "Muthukumar v. Kiel",
+  "decision_date": "2013-03-25",
+  "docket_number": "No. 12M102",
+  "first_page": "1248",
+  "last_page": "1248",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1248"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 19,
+    "char_count": 119,
+    "ocr_confidence": 0.559,
+    "sha256": "e698d8875eddebaae6acf4b00c34cc883c1d3c2ea40b1aed876928a2829922ea",
+    "simhash": "1:4ec58216c3d930b8",
+    "word_count": 21
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Muthukumar v. Kiel."
+    ],
+    "opinions": [
+      {
+        "text": "Motion to direct the Clerk to file petition for writ of certiorari out of time denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12M102.\nMuthukumar v. Kiel."
+  },
+  "file_name": "1248-02",
+  "first_page_order": 1324,
+  "last_page_order": 1324
+}

@@ -1,0 +1,1446 @@
+{
+  "id": 12188541,
+  "name": "LAFLER v. COOPER",
+  "name_abbreviation": "Lafler v. Cooper",
+  "decision_date": "2012-03-21",
+  "docket_number": "No. 10-209",
+  "first_page": "156",
+  "last_page": "188",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 156"
+    },
+    {
+      "type": "parallel",
+      "cite": "182 L. Ed. 2d 398"
+    },
+    {
+      "type": "parallel",
+      "cite": "132 S. Ct. 1376"
+    },
+    {
+      "type": "vendor",
+      "cite": "2012 U.S. LEXIS 2322"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2011-038"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "562 U. S. 1285",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12458302,
+        6019330,
+        12458557,
+        12458303,
+        5912459,
+        5989923,
+        5992371,
+        12458556,
+        12458301,
+        12458558,
+        12458559,
+        5925824,
+        12458305,
+        12458306,
+        6024387,
+        12458307,
+        5981765,
+        12458304,
+        12458562,
+        12458561,
+        12458560,
+        5911762,
+        5976564
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/l-ed-2d/179/0614-01",
+        "/us/562/1285-07",
+        "/l-ed-2d/179/0647-04",
+        "/l-ed-2d/179/0614-02",
+        "/us/562/1285-06",
+        "/us/562/1285-02",
+        "/us/562/1285-04",
+        "/l-ed-2d/179/0647-03",
+        "/l-ed-2d/179/0613-08",
+        "/l-ed-2d/179/0647-05",
+        "/l-ed-2d/179/0647-06",
+        "/us/562/1285-05",
+        "/l-ed-2d/179/0614-04",
+        "/l-ed-2d/179/0614-05",
+        "/us/562/1285-08",
+        "/l-ed-2d/179/0614-06",
+        "/us/562/1285-03",
+        "/l-ed-2d/179/0614-03",
+        "/l-ed-2d/179/0647-09",
+        "/l-ed-2d/179/0647-08",
+        "/l-ed-2d/179/0647-07",
+        "/us/562/1285-09",
+        "/us/562/1285-01"
+      ]
+    },
+    {
+      "cite": "551 U. S. 930",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3573391
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "948"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/551/0930-01"
+      ]
+    },
+    {
+      "cite": "399 F. 3d 1179",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1546934
+      ],
+      "pin_cites": [
+        {
+          "page": "1181"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/399/1179-01"
+      ]
+    },
+    {
+      "cite": "449 U. S. 361",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11716096
+      ],
+      "weight": 2,
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "364"
+        },
+        {
+          "page": "365"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/449/0361-01"
+      ]
+    },
+    {
+      "cite": "428 U. S. 465",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6178753
+      ],
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "490"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/428/0465-01"
+      ]
+    },
+    {
+      "cite": "477 U. S. 365",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6208511
+      ],
+      "weight": 4,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "379"
+        },
+        {
+          "page": "380"
+        },
+        {
+          "parenthetical": "\"[I]t is insufficient simply to point to the guarantee of a fair trial as a backstop that inoculates any errors in the pretrial process\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/477/0365-01"
+      ]
+    },
+    {
+      "cite": "466 U. S. 648",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6204502
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "658"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/466/0648-01"
+      ]
+    },
+    {
+      "cite": "372 U. S. 353",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1765282
+      ],
+      "year": 1963,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/372/0353-01"
+      ]
+    },
+    {
+      "cite": "99 Cal. L. Rev. 1117",
+      "category": "journals:journal",
+      "reporter": "Cal. L. Rev.",
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "1138",
+          "parenthetical": "\"The expected post-trial sentence is imposed in only a few percent of cases. It is like the sticker price for cars: only an ignorant, ill-advised consumer would view full price as the norm and anything'less as a bargain\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "475 U. S. 157",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6199238
+      ],
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "175",
+          "parenthetical": "holding first that counsel's refusal to present peijured testimony breached no professional duty and second that it cannot establish prejudice under Strickland"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/475/0157-01"
+      ]
+    },
+    {
+      "cite": "529 U. S. 362",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9508607
+      ],
+      "weight": 2,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "391",
+          "parenthetical": "\"The Virginia Supreme Court erred in holding that our decision in Lockhart v. Fretwell, 506 U. S. 364 (1993), modified or in some way supplanted the rule set down in Strickland\""
+        },
+        {
+          "page": "405",
+          "parenthetical": "opinion for the Court by O'Connor, J."
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/529/0362-01"
+      ]
+    },
+    {
+      "cite": "506 U. S. 364",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11925282
+      ],
+      "weight": 4,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "373"
+        },
+        {
+          "parenthetical": "O'Connor, J., concurring"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/506/0364-01"
+      ]
+    },
+    {
+      "cite": "475 U. S. 66",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6197245
+      ],
+      "weight": 3,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "72-73"
+        },
+        {
+          "page": "72"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/475/0066-01"
+      ]
+    },
+    {
+      "cite": "361 U. S. 212",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6167188
+      ],
+      "year": 1960,
+      "pin_cites": [
+        {
+          "page": "218-219",
+          "parenthetical": "reversing a defendant's conviction because the jury may have based its verdict on acts not charged in the indictment"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/361/0212-01"
+      ]
+    },
+    {
+      "cite": "329 U. S. 187",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6157029
+      ],
+      "year": 1946,
+      "pin_cites": [
+        {
+          "page": "195",
+          "parenthetical": "dismissing an indictment returned by a grand jury from which women were excluded"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/329/0187-01"
+      ]
+    },
+    {
+      "cite": "474 U. S. 254",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6203718
+      ],
+      "weight": 2,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "263"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/474/0254-01"
+      ]
+    },
+    {
+      "cite": "539 U. S. 510",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8898384
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "538"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/539/0510-01"
+      ]
+    },
+    {
+      "cite": "389 U. S. 128",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11335632
+      ],
+      "year": 1967,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/389/0128-01"
+      ]
+    },
+    {
+      "cite": "531 U. S. 198",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9505480
+      ],
+      "weight": 3,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "203-204"
+        },
+        {
+          "page": "203"
+        },
+        {
+          "page": "203",
+          "parenthetical": "\"The Court explained last Term [in Williams] that our holding in Lockhart does not supplant the Strickland analysis\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/531/0198-01"
+      ]
+    },
+    {
+      "cite": "469 U. S. 387",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11959535
+      ],
+      "weight": 3,
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "401"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/469/0387-01"
+      ]
+    },
+    {
+      "cite": "545 U. S. 605",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8209670
+      ],
+      "year": 2005,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/545/0605-01"
+      ]
+    },
+    {
+      "cite": "388 U. S. 218",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6168076
+      ],
+      "year": 1967,
+      "pin_cites": [
+        {
+          "page": "226"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/388/0218-01"
+      ]
+    },
+    {
+      "cite": "116 F. 3d 1498",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3706617,
+        11988748
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "1512-1514",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/325/0322-01",
+        "/f3d/116/1498-01"
+      ]
+    },
+    {
+      "cite": "571 F. 3d 1086",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3667975
+      ],
+      "weight": 2,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "1094-1095",
+          "parenthetical": "per curiam"
+        },
+        {
+          "page": "1088"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/571/1066-01"
+      ]
+    },
+    {
+      "cite": "350 F. 3d 1045",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9055712
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "1052-1053"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/350/0993-01"
+      ]
+    },
+    {
+      "cite": "259 F. 3d 700",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9499694
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "703-704"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/259/0700-01"
+      ]
+    },
+    {
+      "cite": "495 F. 3d 487",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3564431
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "498-500"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/495/0487-01"
+      ]
+    },
+    {
+      "cite": "639 F. 2d 262",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1361536
+      ],
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "267"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/639/0262-01"
+      ]
+    },
+    {
+      "cite": "969 F. 2d 39",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10513386
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "43-45"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/969/0039-01"
+      ]
+    },
+    {
+      "cite": "156 F. 3d 376",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1567094
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "380-381",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/156/0376-01"
+      ]
+    },
+    {
+      "cite": "929 F. 2d 747",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10544253
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "753, n. 1",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/929/0747-01"
+      ]
+    },
+    {
+      "cite": "397 U. S. 759",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12058501
+      ],
+      "year": 1970,
+      "pin_cites": [
+        {
+          "page": "771"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/397/0759-01"
+      ]
+    },
+    {
+      "cite": "559 U. S. 356",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3581896,
+        12447673
+      ],
+      "weight": 2,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "364"
+        },
+        {
+          "page": "371",
+          "parenthetical": "\"We confronted a similar 'floodgates' concern in Hill,\" but a \"flood did not follow in that decision's wake\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/559/0356-01",
+        "/l-ed-2d/176/0284-01"
+      ]
+    },
+    {
+      "cite": "562 U. S. 1127",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12439776,
+        12439777,
+        12439778,
+        12439779,
+        12439780,
+        6025062,
+        5991558,
+        5915112,
+        12439784,
+        12439782,
+        5992299,
+        6011180,
+        5904817,
+        5965685
+      ],
+      "year": 2011,
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/178/0621-04",
+        "/l-ed-2d/178/0621-05",
+        "/l-ed-2d/178/0622-01",
+        "/l-ed-2d/178/0622-02",
+        "/l-ed-2d/178/0622-03",
+        "/us/562/1127-01",
+        "/us/562/1127-06",
+        "/us/562/1127-04",
+        "/l-ed-2d/178/0623-01",
+        "/l-ed-2d/178/0622-05",
+        "/us/562/1127-05",
+        "/us/562/1127-02",
+        "/us/562/1127-07",
+        "/us/562/1127-03"
+      ]
+    },
+    {
+      "cite": "376 Fed. Appx. 563",
+      "category": "reporters:federal",
+      "reporter": "Fed. Appx.",
+      "weight": 7,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "569"
+        },
+        {
+          "page": "570-571"
+        },
+        {
+          "page": "573"
+        },
+        {
+          "page": "571-573"
+        },
+        {
+          "page": "568-569"
+        },
+        {
+          "page": "571-572"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2009 WL 817712",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "pin_cites": [
+        {
+          "page": "*10"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "474 U. S. 52",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6197970
+      ],
+      "weight": 6,
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "57"
+        },
+        {
+          "page": "58"
+        },
+        {
+          "page": "57"
+        },
+        {
+          "page": "59",
+          "parenthetical": "\"The ... 'prejudice ... ' requirement... focuses on whether counsel's constitutionally ineffective performance affected the outcome of the plea process\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/474/0052-01"
+      ]
+    },
+    {
+      "cite": "466 U. S. 668",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6204802
+      ],
+      "weight": 5,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "688"
+        },
+        {
+          "page": "694"
+        },
+        {
+          "page": "694"
+        },
+        {
+          "page": "686"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/466/0668-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 2254",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(d)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "705 N. W. 2d 118",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "year": 2005,
+      "pin_cites": [
+        {
+          "parenthetical": "table"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "474 Mich. 905",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "year": 2005,
+      "pin_cites": [
+        {
+          "parenthetical": "table"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2005 WL 599740",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "opinion_index": 0
+    },
+    {
+      "cite": "212 N. W. 2d 922",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "year": 1973,
+      "opinion_index": 0
+    },
+    {
+      "cite": "390 Mich. 436",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1905626
+      ],
+      "year": 1973,
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/390/0436-01"
+      ]
+    },
+    {
+      "cite": "521 N. W. 2d 275",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "278"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "446 Mich. 503",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        2004218
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "510"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/mich/446/0503-01"
+      ]
+    },
+    {
+      "cite": "79 Colum. L. Rev. 1",
+      "category": "journals:journal",
+      "reporter": "Colum. L. Rev.",
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "38"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "78 Mich. L. Rev. 204",
+      "category": "journals:journal",
+      "reporter": "Mich. L. Rev.",
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "210-211",
+          "parenthetical": "describing the \"Legalitatsprinzip,\" or rule of compulsory prosecution, in Germany"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "562 U. S. 115",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12439787,
+        6027669
+      ],
+      "weight": 2,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "121"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/l-ed-2d/178/0649-01",
+        "/us/562/0115-01"
+      ]
+    },
+    {
+      "cite": "537 U.S. 19",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9190478
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "24",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/537/0019-01"
+      ]
+    },
+    {
+      "cite": "562 U. S. 86",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12439786,
+        6005083
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "102",
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/l-ed-2d/178/0624-01",
+        "/us/562/0086-01"
+      ]
+    },
+    {
+      "cite": "429 U. S. 545",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6890
+      ],
+      "weight": 2,
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "561"
+        },
+        {
+          "page": "561"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/429/0545-01"
+      ]
+    },
+    {
+      "cite": "451 U. S. 430",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6187109
+      ],
+      "year": 1981,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/451/0430-01"
+      ]
+    },
+    {
+      "cite": "541 U. S. 77",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3633280
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "81"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/541/0077-01"
+      ]
+    },
+    {
+      "cite": "548 U. S. 140",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3500367
+      ],
+      "weight": 2,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "147"
+        },
+        {
+          "page": "147"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/548/0140-01"
+      ]
+    },
+    {
+      "cite": "101 Yale L. J. 1909",
+      "category": "journals:journal",
+      "reporter": "Yale L.J.",
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "1912",
+          "parenthetical": "hereinafter Scott"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "53 Cal. L. Rev. 929",
+      "category": "journals:journal",
+      "reporter": "Cal. L. Rev.",
+      "year": 1965,
+      "opinion_index": 1
+    },
+    {
+      "cite": "477 U. S. 365",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6208511
+      ],
+      "weight": 6,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "368"
+        },
+        {
+          "page": "391",
+          "parenthetical": "Powell, J., concurring in judgment"
+        },
+        {
+          "page": "380"
+        },
+        {
+          "page": "374",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "382",
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/477/0365-01"
+      ]
+    },
+    {
+      "cite": "466 U. S. 648",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6204502
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "658"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/466/0648-01"
+      ]
+    },
+    {
+      "cite": "529 U. S. 362",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9508607
+      ],
+      "weight": 2,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "391-393"
+        },
+        {
+          "page": "392"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/529/0362-01"
+      ]
+    },
+    {
+      "cite": "506 U. S. 364",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11925282
+      ],
+      "weight": 6,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "383-385",
+          "parenthetical": "Stevens, J., dissenting"
+        },
+        {
+          "page": "369"
+        },
+        {
+          "page": "372"
+        },
+        {
+          "page": "373",
+          "parenthetical": "O'Connor, J., concurring"
+        },
+        {
+          "page": "375",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/506/0364-01"
+      ]
+    },
+    {
+      "cite": "361 U. S. 212",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6167188
+      ],
+      "weight": 2,
+      "year": 1960,
+      "pin_cites": [
+        {
+          "parenthetical": "violation of Fifth Amendment right to indictment by grand jury"
+        },
+        {
+          "page": "217"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/361/0212-01"
+      ]
+    },
+    {
+      "cite": "329 U. S. 187",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6157029
+      ],
+      "weight": 2,
+      "year": 1946,
+      "pin_cites": [
+        {
+          "parenthetical": "violation of statutory scheme providing that women serve on juries"
+        },
+        {
+          "page": "195",
+          "parenthetical": "\"[R]eversible error does not depend on a showing of prejudice in an individual case\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/329/0187-01"
+      ]
+    },
+    {
+      "cite": "474 U. S. 254",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6203718
+      ],
+      "weight": 2,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "parenthetical": "violation of equal protection in grand jury selection"
+        },
+        {
+          "page": "263-264",
+          "parenthetical": "\"[D]is-erimination in the' grand jury undermines the structural integrity of the criminal tribunal itself, and is not amenable to harmless-error review\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/474/0254-01"
+      ]
+    },
+    {
+      "cite": "388 U. S. 218",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6168076
+      ],
+      "year": 1967,
+      "pin_cites": [
+        {
+          "page": "226"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/388/0218-01"
+      ]
+    },
+    {
+      "cite": "559 U. S. 356",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3581896,
+        12447673
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "373"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/559/0356-01",
+        "/l-ed-2d/176/0284-01"
+      ]
+    },
+    {
+      "cite": "474 U. S. 52",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6197970
+      ],
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "58"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/474/0052-01"
+      ]
+    },
+    {
+      "cite": "466 U. S. 668",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6204802
+      ],
+      "weight": 4,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "686"
+        },
+        {
+          "page": "687"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/466/0668-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 2254",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(d)(1)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "2005 WL 599740",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "pin_cites": [
+        {
+          "page": "*1"
+        }
+      ],
+      "opinion_index": 1
+    }
+  ],
+  "analysis": {
+    "cardinality": 2064,
+    "char_count": 60601,
+    "ocr_confidence": 0.618,
+    "pagerank": {
+      "raw": 1.0518588535088494e-05,
+      "percentile": 0.9996146493482825
+    },
+    "sha256": "85c7016c6e3a2fe2b6386abb602bd399c6e9180b958b27b42680663df29fc1f0",
+    "simhash": "1:a6de67b0e706d629",
+    "word_count": 9849
+  },
+  "last_updated": "2024-02-27T23:45:15.365324+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Kennedy, J., delivered the opinion of the Court, in which Ginsburg, Breyer, Sotomayor, and K\u00e1gan, JJ., joined. Scalia, J., filed a dissenting opinion, in which Thomas, J., joined, and in which Roberts, C. J., joined as to all but Part IV, post, p. 175. Alito, J., filed a dissenting opinion, post, p. 187."
+    ],
+    "parties": [
+      "LAFLER v. COOPER"
+    ],
+    "opinions": [
+      {
+        "text": "Justice Kennedy\ndelivered the opinion of the Court.\nIn this case, as in Missouri v. Frye, ante, p. 134, also decided today, a criminal defendant seeks a remedy when inadequate assistance of counsel caused nonacceptance of a plea offer and further proceedings led to a less favorable outcome. In Frye, defense counsel did not inform the defendant of the plea offer; and after the offer lapsed the defendant still pleaded guilty, but on more severe terms. Here, the favorable plea offer was reported to the client but, on advice of counsel, was rejected. In Frye, there was a later guilty plea. Here, after the plea offer had been rejected, there was a full and fair trial before a jury. After a guilty verdict, the defendant received a sentence harsher than that offered in the rejected plea bargain. The instant case comes to the Court with the concession that counsel\u2019s advice with respect to the plea offer fell below the standard of adequate assistance of counsel guaranteed by the Sixth Amendment, applicable to the States through the Fourteenth Amendment.\nI\nOn the evening of March 25, 2003, respondent pointed a gun toward Kali Mundy\u2019s head and fired. From the record, it is unclear why respondent did this, and at trial it was sug-gested that he might have acted either in self-defense or in defense of another person. In any event the shot missed and Mundy fled. Respondent followed in pursuit, firing repeatedly. Mundy was shot in her buttock, hip, and abdomen but survived the assault.\nRespondent was charged under Michigan law with assault \u2022 with intent to murder, possession of a firearm by a felon, possession of a firearm in the commission of a felony, misdemeanor possession of marijuana, and for being a habitual offender. On two occasions, the prosecution offered to dismiss some of the charges and to recommend a sentence of 51 to 85 months for the remaining charges, in exchange for a guilty plea. In a communication with the court respondent admitted guilt and expressed a willingness to accept the offer. Respondent, however, later rejected the offer on both occasions, allegedly after his attorney convinced him that the prosecution would be unable to establish his intent to murder Mundy because she had been shot below the waist. On the first day of trial the prosecution offered a significantly less favorable plea deal, which respondent again rejected. After trial, respondent was convicted on all counts and received a mandatory minimum sentence of 185 to 360 months\u2019 imprisonment.\nIn a so-called Ginther hearing before the state trial court, see People v. Ginther, 390 Mich. 436, 212 N. W. 2d 922 (1973), respondent argued his attorney\u2019s advice to reject the plea constituted ineffective assistance. The trial judge rejected the claim, and the Michigan Court of Appeals affirmed. People v. Cooper, No. 250583 (Mar. 15, 2005) (per curiam), App. to Pet. for Cert. 44a, 2005 WL 599740. The Michigan Court of Appeals rejected the claim of ineffective assistance of counsel on the ground that respondent knowingly and intelligently rejected two plea offers and chose to go to trial. The Michigan Supreme Court denied respondent\u2019s application for leave to file an appeal. People v. Cooper, 474 Mich. 905, 705 N. W. 2d 118 (2005) (table).\nRespondent then filed a petition for federal habeas relief under 28 U. S. C. \u00a7 2254, renewing his ineffective-assistanee-of-counsel claim. After finding, as required by the Antiter-rorism and Effective Death Penalty Act of 1996 (AEDPA), that the Michigan Court of Appeals had unreasonably applied the constitutional standards for effective assistance of counsel laid out in Strickland v. Washington, 466 U. S. 668 (1984), and Hill v. Lockhart, 474 U. S. 52 (1985), the District Court granted a conditional writ. No. 06-11068 (ED Mich., Mar. 26, 2009), App. to Pet. for Cert. 41a-42a, 2009 WL 817712, *10. To remedy the violation, the District Court ordered \u201cspecific performance of [respondent\u2019s] original plea agreement, for a minimum sentence in the range of fifty-one to eighty-five months.\u201d Id., at *9, App. to Pet. for Cert. 41a.\nThe United States Court of Appeals for the Sixth Circuit affirmed, 376 Fed. Appx. 563 (2010), finding \u201c[e]ven full deference under AEDPA cannot salvage the state court\u2019s decision,\u201d id., at 569. Applying Strickland, the Court of Appeals found that respondent\u2019s attorney had provided deficient performance by informing respondent of \u201can incorrect legal rule,\u201d 376 Fed. Appx., at 570-571, and that respondent suffered prejudice because he \u201clost out on an opportunity to plead guilty and receive the lower sentence that was offered to him,\u201d id., at 573. This Court granted certiorari. 562 U. S. 1127 (2011).\nII\nA\nDefendants have a Sixth Amendment right to counsel, a right that extends to the plea-bargaining process. Frye, ante, at 144; see also Padilla v. Kentucky, 559 U. S. 356, 364 (2010); Hill, supra, at 57. During plea negotiations defendants are \u201centitled to the effective assistance of competent counsel.\u201d McMann v. Richardson, 397 U. S. 759, 771 (1970). In Hill, the Court held \u201cthe two-part Strickland v. Washing ton test applies to challenges to guilty pleas based on ineffective assistance of counsel.\u201d 474 U. S., at 58. The performance prong of Strickland requires a defendant to show \u201c That counsel\u2019s representation fell below an objective standard of reasonableness.\u2019\u201d 474 U. S., at 57 (quoting Strickland, 466 U. S., at 688). In this case all parties agree the performance of respondent\u2019s counsel was deficient when he advised respondent to reject the plea offer on the grounds he could not be convicted at trial. In light of this concession, it is unnecessary for this Court to explore the issue.\nThe question for this Court is how to apply Strickland\u2019s prejudice test where ineffective assistance results in a rejection of the plea offer and the defendant is convicted at the ensuing trial.\nB\nTo establish Strickland prejudice a defendant must \u201cshow that there is a reasonable probability that, but for counsel\u2019s unprofessional errors, the result of the proceeding would have been different.\u201d Id., at 694. In the context of pleas a defendant must show the outcome of the plea process would have been different with competent advice. See Frye, ante, at 148 (noting that Strickland\u2019s inquiry, as applied to advice with respect to plea bargains, turns on \u201cwhether The result of the proceeding would have been different\u2019 \u201d (quoting Strickland, supra, at 694)); see also Hill, 474 U. S., at 59 (\u201cThe ... \u2018prejudice ... \u2019 requirement... focuses on whether counsel\u2019s constitutionally ineffective performance affected the outcome of the plea process\u201d). In Hill, when evaluating the petitioner\u2019s claim that ineffective assistance led to the improvident acceptance of a guilty plea, the Court required the petitioner to show \u201cthat there is a reasonable probability that, but for counsel\u2019s errors, [the defendant] would not have pleaded guilty and would have insisted on going to trial.\u201d Ibid.\nIn contrast to Hill, here the ineffective advice led not to an offer\u2019s acceptance but to its rejection. Having to stand trial, not choosing to waive it, is the prejudice alleged. In these circumstances a defendant must show that but for the ineffective advice of counsel there is a reasonable probability that the plea offer would have been presented to the court (i. e., that the defendant would have accepted the plea and the prosecution would not have withdrawn it in light of intervening circumstances), that the court would have accepted its terms, and that the conviction or sentence, or both, under the offer\u2019s terms would have been less severe than under the judgment and sentence that in fact were imposed. Here, the Court of Appeals for the Sixth Circuit agreed with that test for Strickland prejudice in the context of a rejected plea bargain. This is consistent with the test adopted and applied by other appellate courts without demonstrated difficulties or systemic disruptions. See 376 Fed. Appx., at 571-573; see also, e. g., United States v. Rodriguez Rodriguez, 929 F. 2d 747, 753, n. 1 (CA1 1991) (per curiam); United States v. Gordon, 156 F. 3d 376, 380-381 (CA2 1998) (per curiam); United States v. Day, 969 F. 2d 39, 43-45 (CA3 1992); Beckham v. Wainwright, 639 F. 2d 262, 267 (CA5 1981); Julian v. Bartley, 495 F. 3d 487, 498-500 (CA7 2007); Wanatee v. Ault, 259 F. 3d 700, 703-704 (CA8 2001); Nunes v. Mueller, 350 F. 3d 1045, 1052-1053 (CA9 2003); Williams v. Jones, 571 F. 3d 1086, 1094-1095 (CA10 2009) (per curiam); United States v. Gaviria, 116 F. 3d 1498, 1512-1514 (CADC 1997) (per curiam).\nPetitioner and the Solicitor General propose a different, far more narrow, view of the Sixth Amendment. They contend there can be no finding of Strickland prejudice arising 'from plea bargaining if the defendant is later convicted at a fair trial. The three reasons petitioner and the Solicitor General offer for their approach are unpersuasive.\nFirst, petitioner and the Solicitor 'General claim that the sole purpose of the Sixth Amendment is to protect the. right to a fair trial. Errors before trial, they argue, are not cognizable under the Sixth Amendment unless they affect the fairness of the trial itself. See Brief for Petitioner 12-21; Brief for United States as Amicus Curiae 10-12. The Sixth Amendment, however, is not so narrow in its reach. Cf. Frye, ante, at 148 (holding that a defendant can show prejudice under Strickland even absent a showing that the deficient performance precluded him from going to trial). The Sixth Amendment requires effective assistance of counsel at critical stages of a criminal proceeding. Its protections are not designed simply to protect the trial, even though \u201ccounsel\u2019s absence [in these stages] may derogate from the accused\u2019s right to a fair trial.\u201d United States v. Wade, 388 U. S. 218, 226 (1967). The constitutional guarantee applies to pretrial critical stages that are part of the whole course of a criminal proceeding, a proceeding in which defendants cannot be presumed to make critical decisions without counsel\u2019s advice. This is consistent, too, with the rule that defendants have a right to effective assistance of counsel on appeal, even though that cannot in any way be characterized as part of the trial. See, e. g., Halbert v. Michigan, 545 U. S. 605 (2005); Evitts v. Lucey, 469 U. S. 387 (1985). The precedents also establish that there exists a right to counsel during sentencing in both noncapital, see Glover v. United States, 531 U. S. 198, 203-204 (2001); Mempa v. Rhay, 389 U. S. 128 (1967), and capital cases, see Wiggins v. Smith, 539 U. S. 510, 538 (2003). Even though sentencing does not concern the defendant\u2019s guilt or innocence, ineffective assistance of counsel during a sentencing hearing can result in Strickland prejudice because \u201cany amount of [additional] jail time has Sixth Amendment significance.\u201d Glover, supra, at 203.\nThe Court, moreover, has not followed a rigid rule that an otherwise fair trial remedies errors not occurring at the trial itself. It has inquired instead whether the trial cured the particular error at issue. Thus, in Vasquez v. Hillery, 474 U. S. 254 (1986), the deliberate exclusion of all African-Americans from a grand jury was prejudicial because a defendant may have been tried on charges that would not have been brought at all by a properly constituted grand jury. Id., at 263; see Ballard v. United States, 329 U. S. 187, 195 (1946) (dismissing an indictment returned by a grand jury from which women were excluded); see also Stirone v. United States, 361 U. S. 212, 218-219 (1960) (reversing a defendant\u2019s conviction because the jury may have based its verdict on acts not charged in the indictment). By contrast, in United States v. Mechanik, 475 U. S. 66 (1986), the complained-of error was a violation of a grand jury rule meant to ensure probable cause existed to believe a defendant was guilty. A subsequent trial, resulting in a verdict of guilt, cured this error. See id., at 72-73.\nIn the instant case respondent went to trial rather than accept a plea deal, and it is conceded this was the result of ineffective assistance during the plea negotiation process. Respondent received a more severe sentence at trial, one 3\u00bd times more severe than he likely would have received by pleading guilty. Far from curing the error, the trial caused the injury from the error. Even if the trial itself is free from constitutional flaw, the defendant who goes to trial instead of taking a more favorable plea may be prejudiced from either a conviction on more serious counts or the imposition of a more severe sentence.\nSecond, petitioner claims this Court refined Strickland\u2019s prejudice analysis in Lockhart v. Fretwell, 506 U. S. 364 (1993), to add an additional requirement that the defendant show that ineffective assistance of counsel led to his being denied a substantive or procedural right. Brief for Petitioner 12-13. The Court has rejected the argument that Fretwell modified Strickland before and does so again now. See Williams v. Taylor, 529 U. S. 362, 391 (2000) (\u201cThe Virginia Supreme Court erred in holding that our decision in Lockhart v. Fretwell, 506 U. S. 364 (1993), modified or in some way supplanted the rule set down in Strickland\u201d)-, see also Glover, supra, at 203 (\u201cThe Court explained last Term [in Williams] that our holding in Lockhart does not supplant the Strickland analysis\u201d).\nFretwell could not show Strickland prejudice resulting from his attorney\u2019s failure to object to the use of a sentencing factor the Eighth Circuit had erroneously (and temporarily) found to be impermissible. Fretwell, 506 U. S., at 373. Because the objection upon which his ineffective-assistance-of-counsel claim was premised was meritless, Fretwell could not demonstrate an error entitling him to relief. The case presented the \u201cunusual circumstance where the defendant attempts to demonstrate prejudice based on considerations that, as a matter of law, ought not inform the inquiry.\u201d Ibid. (O\u2019Connor, J., concurring). See also ibid, (recognizing \u201c[t]he determinative question \u2014 whether there is a reasonable probability that, but for counsel\u2019s unprofessional errors, the result of the proceeding would have been different \u2014 remains unchanged\u201d (internal quotation marks and citation omitted)). It is for this same reason a defendant cannot show prejudice based on counsel\u2019s refusal to present perjured testimony, even if such testimony might have affected the outcome of the case. See Nix v. Whiteside, 475 U. S. 157, 175 (1986) (holding first that counsel\u2019s refusal to present peijured testimony breached no professional duty and second that it cannot establish prejudice under Strickland).\nBoth Fretwell and Nix are instructive in that they demonstrate \u201cthere are also situations in which it would be unjust to characterize the likelihood of a different outcome as legitimate \u2018prejudice,\u2019\u201d Williams, supra, at 391-392, because defendants would receive a windfall as a result of the application of an incorrect legal principle or a defense strategy outside the law. Here, however, the injured client seeks relief from counsel\u2019s failure to meet a valid legal standard, not from counsel\u2019s refusal to violate it. He maintains that, absent ineffective counsel, he would have accepted a plea offer for a sentence the prosecution evidently deemed consistent with the sound administration of criminal justice. The favorable sentence that eluded.the defendant in the criminal proceeding appears to be the sentence he or others in his position would have received in the ordinary course, absent the failings of counsel. See Bibas, Regulating the Plea-Bargaining Market: From Caveat Emptor to Consumer Protection, 99 Cal. L. Rev. 1117, 1138 (2011) (\u201cThe expected post-trial sentence is imposed in only a few percent of cases. It is like the sticker price for cars: only an ignorant, ill-advised consumer would view full price as the norm and anything'less as a bargain\u201d); see also Frye, ante, at 143-144. If a plea bargain has been offered, a defendant has the right to effective assistance of counsel in considering whether to accept it. If that right is denied, prejudice can be shown if loss of the plea opportunity led to a trial resulting in a conviction on more serious charges or the imposition of a more severe sentence.\nIt is, of course, true that defendants have \u201cno right to be offered a plea . . . nor a federal right that the judge accept it.\u201d Frye, ante, at 148. In the circumstances here, that is beside the point. If no plea offer is made, or a plea deal is accepted by the defendant but rejected by the judge, the issue raised here simply does not arise. Much the same reasoning guides cases that find criminal defendants have a right to effective assistance of counsel in direct appeals even though the Constitution does not require States to provide a system of appellate review at all. See Evitts, 469 U. S. 387; see also Douglas v. California, 372 U. S. 353 (1963). As in those cases, \u201cwhen a State opts to act in a field where its action has significant discretionary elements, it must nonetheless act in accord with the dictates of the Constitution.\u201d Evitts, supra, at 401.\nThird, petitioner seeks to preserve the conviction obtained by the State by arguing that the purpose of the Sixth Amendment is to ensure \u201cthe reliability of [a] conviction following trial.\u201d Brief for Petitioner 13. This argument, too, fails to comprehend the full scope of the Sixth Amendment\u2019s protections; and it is refuted by precedent. Strickland recognized \u201c[t]he benchmark for judging any claim of ineffectiveness must be whether counsel\u2019s conduct so undermined the proper functioning of the adversarial process that the trial cannot be relied on as having produced a just result.\u201d 466 U. S., at 686. The goal of a just result is not divorced from the reliability of a conviction, see United States v. Cronic, 466 U. S. 648, 658 (1984); but here the question is not the fairness or reliability of the trial but the fairness and regularity of the processes that preceded it, which caused the defendant to lose benefits he would have received in the ordinary course but for counsel\u2019s ineffective assistance.\nThere are instances, furthermore, where a reliable trial does not foreclose relief when counsel has failed to assert rights that may have altered the outcome. In Kimmelman v. Morrison, 477 U. S. 365 (1986), the Court held that an attorney\u2019s failure to timely move to suppress evidence during trial could be grounds for federal habeas relief. The Court rejected the suggestion that the \u201cfailure to make a timely request for the exclusion of illegally seized evidence\u201d could not be the basis for a Sixth Amendment violation because the evidence \u201cis \u2018typically reliable and often the most probative information bearing on the guilt or innocence of the defendant.\u2019\u201d Id., at 379 (quoting Stone v. Powell, 428 U. S. 465, 490 (1976)). \u201cThe constitutional rights of criminal defendants,\u201d the Court observed, \u201care granted to the innocent and the guilty alike. Consequently, we decline to hold either that the guarantee of effective assistance of counsel belongs solely to the innocent or that it attaches only to matters affecting the determination of actual guilt.\u201d 477 U. S., at 380. The same logic applies here. The fact that respondent is guilty does not me\u00e1n he was not entitled by the Sixth Amendment to effective assistance or that he suffered no prejudice from his attorney\u2019s deficient performance during plea bargaining.\nIn the end, petitioner\u2019s three arguments amount to one general contention: A fair trial wipes clean any deficient performance by defense counsel during plea bargaining. That position ignores the reality that criminal justice today is for the most part a system of pleas, not a system of trials. Ninety-seven percent of federal convictions and ninety-four percent of state convictions are the result of guilty pleas. See Frye, ante, at 143-144. As explained in Frye, the right to adequate assistance of counsel cannot be defined or enforced without taking account of the central role plea bargaining plays in securing convictions and determining sentences. Ibid. (\u201c[I]t is insufficient simply to point to the guarantee of a fair trial as a backstop that inoculates any errors in the pretrial process\u201d).\nC\nEven if a defendant shows ineffective assistance of counsel has caused the rejection of a plea leading to a trial and a more severe sentence; there is the question of what constitutes an appropriate remedy. That question must now be addressed.\nSixth Amendment remedies should be \u201ctailored to the injury suffered from the constitutional violation and should not unnecessarily infringe on competing interests.\u201d United States v. Morrison, 449 U. S. 361, 364 (1981). Thus, a remedy must \u201cneutralize the taint\u201d of a constitutional violation, id., at 365, while at the same time not grant a windfall to the defendant or needlessly squander the considerable resources the State properly invested in the criminal prosecution, see Mechanik, 475 U. S., at 72 (\u201cThe reversal of a conviction entails substantial social costs: it forces jurors, witnesses, courts, the prosecution, and the defendants to expend further time, energy, and other resources to repeat a trial that has already once taken place; victims may be asked to relive their disturbing experiences\u201d).\nThe specific injury suffered by defendants who decline a plea offer as a result of ineffective assistance of counsel and then receive a greater sentence as a result of trial can come in at least one of two forms. In some cases, the sole advantage a defendant would have received under the plea is a lesser sentence. This is typieally the case when the charges that would have been admitted as part of the plea bargain are the same as the charges the defendant was convicted of after trial. In this situation the court may conduct an evidentiary hearing to determine whether the defendant has shown a reasonable probability that but for counsel\u2019s errors he would have accepted the plea. If the showing is made, the court may exercise discretion in determining whether the defendant should receive the term of imprisonment the government offered in the plea, the sentence he received at trial, or something in between.\nIn some situations it may be that resentencing alone will not be full redress for the constitutional injury. If, for example, an offer was for a guilty plea to a count or counts less serious than the ones for which a defendant was convicted after trial, or if a mandatory sentence confines a judge\u2019s sentencing discretion after trial, a resentencing based on the conviction at trial may not suffice. See, e. g., Williams, 571 F. 3d, at 1088; Riggs v. Fairman, 399 F. 3d 1179, 1181 (CA9-2005). In these circumstances, the proper exercise of discretion to remedy the constitutional injury may be to require the prosecution to reoffer the plea proposal. Once this has occurred, the judge can then exercise discretion in deciding whether to vacate the conviction from trial and accept the plea or leave the conviction undisturbed.\nIn implementing a remedy in both of these situations, the trial court must weigh various factors; and the boundaries of proper discretion need not be defined here. Principles elaborated over time in decisions of state and federal courts, and in statutes and rules, will serve to give more complete guidance as to the factors that should bear upon the exercise of the judge\u2019s discretion. At this point, however, it suffices to note two considerations that are of relevance.\nFirst, a court may take account of a defendant\u2019s earlier expressed willingness, or unwillingness, to accept responsibility for his or her actions. Second, it is not necessary here to decide as a constitutional rule that a judge is required to prescind (that is to say disregard) any information concerning the crime that was discovered after the plea offer was made. The time continuum makes it difficult to restore the defendant and the prosecution to the precise positions they occupied prior to the rejection of the plea offer, but that baseline can be consulted in finding a remedy that does not require the prosecution to incur the expense of conducting a new trial.\nPetitioner argues that implementing a remedy here will open the floodg\u00e1tes to litigation by defendants seeking to unsettle their convictions. See Brief for Petitioner 20. Petitioner\u2019s concern is misplaced. Courts have recognized claims of this sort for over 30 years, see supra, at 164, and yet there is no indication that the system is overwhelmed by these types of suits or that deferidants are receiving windfalls as a result of strategically timed Strickland claims. See also Padilla, 559 U. S., at 371 (\u201cWe confronted a similar \u2018floodgates\u2019 concern in Hill,\u201d but a \u201cflood did not follow in that decision\u2019s wake\u201d). In addition, the \u201cprosecution and the trial courts may adopt some measures to help ensure against late, frivolous, or fabricated claims after a later, less advantageous plea offer has been accepted or after a trial leading to conviction.\u201d Frye, ante, at 146. See also ante, at 146-147 (listing procedures currently used by various States). This, too, will help ensure against meritless claims.\nH-1 H-1\nThe standards for ineffective assistance of counsel when a defendant rejects a plea offer and goes to trial must now be applied to this case. Respondent brings a federal collateral challenge to a state-court conviction. Under AEDPA, a federal court may not grant a petition for a writ of habeas corpus unless the state court\u2019s adjudication on the merits was \u201ccontrary to, or involved an unreasonable application of, clearly established Federal law, as determined by the Supreme Court of the United States.\u201d 28 U. S. C. \u00a7 2254(d)(1). A decision is contrary to clearly established law if the state court \u201capplies a rule that contradicts the governing law set forth in [Supreme Court] cases.\u201d Williams v. Taylor, 529 U. S., at 405 (opinion for the Court by O\u2019Connor, J.). . The Court of Appeals for the Sixth Circuit could not determine whether the Michigan Court of Appeals addressed respondent\u2019s ineffective-assistance-of-counsel claim or, if it did, \u201cwhat the court decided, or even whether the correct legal rule was identified.\u201d 376 Fed. Appx., at 568-569.\nThe state court\u2019s decision may not be quite so opaque as the Court of Appeals for the Sixth Circuit thought, yet the federal court was correct to note that AEDPA does not present a bar to granting respondent relief. That is because the Michigan Court of Appeals identified respondent\u2019s ineffective-assistance-of-counsel claim but failed to apply Strickland to assess it. Rather than applying Strickland, the state court simply found that respondent\u2019s rejection of the plea was knowing and voluntary. 2005 ,WL 599740, *1, App. to Pet. for Cert. 45a. An inquiry into whether the rejection of a plea is knowing and voluntary, however, is not the correct means by which to address a claim of ineffective assistance of counsel. See Hill, 474 U. S., at 57 (applying Strickland to assess a claim of ineffective assistance of counsel arising out of the plea negotiation process). After stating the incorrect standard, moreover, the state court then made an irrelevant observation about counsel\u2019s performance at trial and mischaracterized respondent\u2019s claim as a complaint that his attorney did not obtain a more favorable plea bargain. By failing to apply Strickland to assess the ineffective-assistance-of-counsel claim respondent raised, the state court\u2019s adjudication was contrary to clearly established federal law. And in that circumstance the federal courts in this habeas action can determine the principles necessary to grant relief. See Panetti v. Quarterman, 551 U. S. 930, 948 (2007).\nRespondent has satisfied Strickland\u2019s two-part test. Regarding performance, perhaps it could be accepted that it is unclear whether respondent\u2019s counsel believed respondent could not be convicted for assault with intent to murder as a matter of law because the shots hit Mundy below the waist, or whether he simply thought this would be a persuasive argument to make to the jury to show lack of specific intent. And, as the Court of Appeals for the Sixth Circuit suggested, an erroneous strategic prediction about the outcome of a trial is not necessarily deficient performance. Here, however, the fact of deficient performance has been conceded by all parties. The case comes to us on that assumption, so there is no need to address this question.\nAs to prejudice, respondent has shown that but for counsel\u2019s deficient performance there is a reasonable probability he and the trial court would have accepted the guilty plea. See 376 Fed. Appx., at 571-572. In addition, as a result of not accepting the plea and being convicted at trial, respondent received a minimum sentence 3\u00bd times greater than he would have received under the plea. The standard for ineffective assistance under Strickland has thus been satisfied.\nAs a remedy, the District Court ordered specific performance of the original plea agreement. The correct remedy in these circumstances, however, is to order the State to reoffer the plea agreement. Presuming respondent accepts the offer, the state trial court can then exercise its discretion in determining whether to vacate the convictions and resen-tence respondent pursuant to the plea agreement, to vacate only some of the convictions and resentence respondent accordingly, or to leave the convictions \u00e1nd sentence from trial undisturbed. See Mich. Ct. Rule 6.302(C)(3) (2011) (\"If there is a plea agreement and its terms provide for the defendant\u2019s plea to be made in exchange for a specific sentence disposition or a prosecutorial sentence recommendation, the court may . . . reject the agreement\u201d). Today\u2019s decision leaves open to the trial court how best to exercise that discretion in all the circumstances of the case.\nThe judgment of the Court of Appeals for the Sixth Circuit is vacated, and the case is remanded for further proceedings consistent with this opinion.\nIt is so ordered.",
+        "type": "majority",
+        "author": "Justice Kennedy"
+      },
+      {
+        "text": "Justice Scalia,\nwith whom Justice Thomas joins, and with whom The Chief Justice joins as to all but Part IV, dissenting.\n\u201cIf a plea bargain has been offered, a defendant has the right to effective assistance of counsel in considering whether to accept it. If that right is denied, prejudice can be shown if loss of the plea opportunity led to a trial resulting in a conviction on more serious charges or the imposition of a more severe sentence. \u201d Ante, at 168.\n\u201cThe inquiry then becomes how to define the duty and responsibilities of defense counsel in the plea bargain process. This is a difficult question.... Bargaining is, by its nature, defined to a substantial degree by personal style.... This case presents neither the necessity nor the occasion to define the duties of defense counsel in those respects . . . .\u201d Missouri v. Frye, ante, at 144-145.\nWith those words from this and the companion case, the Court today opens a whole new field of constitutionalized criminal procedure: plea-bargaining law. .The ordinary criminal process has become too long, too expensive, and unpredictable, in no small part as a consequence of an intricate federal Code of Criminal Procedure imposed on the States by this Court in pursuit of perfect justice. See Friendly, The Bill of Rights as a Code of Criminal Procedure, 53 Cal. L. Rev. 929 (1965). The Court now moves to bring perfection to the alternative in which prosecutors and defendants have sought relief. Today\u2019s opinions deal with only two aspects of counsel\u2019s plea-bargaining inadequacy, and leave other aspects (who knows what they might be?) to be worked out in further constitutional litigation that will burden the criminal process. And it would be foolish to think that \u201cconstitutional\u201d rules governing counsel\u2019s behavior will not be followed by rules governing the prosecution\u2019s behavior in the plea-bargaining process that the Court today announces \u201c \u2018is the criminal justice system/ \u201d Frye, ante, at 144 (quoting approvingly from Scott & Stuntz, Plea Bargaining as Contract, 101 Yale L. J. 1909, 1912 (1992) (hereinafter Scott)). Is it constitutional, for example, for the prosecution to withdraw a plea offer that, has already been accepted? Or to withdraw an offer before the defense has had adequate time to consider and accept it? Or to make no plea offer at all, even though its case is weak \u2014 thereby excluding the defendant from \u201cthe criminal justice system\u201d?\nAnthony Cooper received a Ml and fair trial, was found guilty of all charges by a unanimous jury, and was given the sentence that the law prescribed. The Court nonetheless concludes that Cooper is entitled to some sort of habeas corpus relief (perhaps) because his attorney\u2019s allegedly incompetent advice regarding a plea offer caused him to receive a full and fair trial. That conclusion is foreclosed by our precedents. Even if it were not foreclosed, the constitutional right to effective plea bargainers that it establishes is at least a new rule of law, which does not undermine the Michigan Court of Appeals\u2019 decision and therefore cannot serve as the basis for habeas relief. And the remedy the Court announces \u2014 namely, whatever the state trial court in its discretion prescribes, down to and including no remedy at all \u2014 is unheard of and quite absurd for violation of a constitutional right. I respectfully dissent.\nI\nThis case and its. companion, Missouri v. Frye, ante, p. 134, raise relatively straightforward questions about the scope of the right to effective assistance of counsel. Our case law originally derived that right from the Due Process Clause, and its guarantee of a fair trial, see United States v. Gonzalez-Lopez, 548 U. S. 140, 147 (2006), but the seminal case of Strickland v. Washington, 466 U. S. 668 (1984), located the right within the Sixth Amendment. As the Court notes, ante, at 164-165, the right to counsel does not begin at trial. It extends to \u201cany stage of the prosecution, formal or informal, in court or out, where counsel\u2019s absence might derogate from the accused\u2019s right to a fair trial.\u201d United States v. Wade, 388 U. S. 218, 226 (1967). Applying that principle, we held that the \u201centry of a guilty plea, whether to a misdemeanor or a felony charge, ranks as a \u2018critical stage\u2019 at which the right to counsel adheres.\u201d Iowa v. Tovar, 541 U. S. 77, 81 (2004); see also Hill v. Lockhart, 474 U. S. 52, 58 (1985). And it follows from this that acceptance of a plea offer is a critical stage. That, and nothing more, is the point of the Court\u2019s observation in Padilla v. Kentucky, 559 U. S. 356, 373 (2010), that \u201cthe negotiation of a plea bargain is a critical phase of litigation for purposes of the Sixth Amendment right to effective assistance of counsel.\u201d The defendant in Padilla had accepted the plea bargain and pleaded guilty, abandoning his right to a fair trial; he was entitled to advice of competent counsel before he did so. The Court has never held that the rule articulated in Padilla, Tovar, and Hill extends to all aspects of plea negotiations, requiring not just advice of competent counsel before the defendant accepts a plea bargain and pleads guilty, but also the advice of competent counsel before the defendant rejects a plea bargain and stands on his constitutional right to a fair trial. The latter is a vast departure from our past. cases, protecting not just the constitutionally prescribed right to a fair adjudication of guilt and punishment, but a judicially invented right to effective plea bargaining.\nIt is also apparent from Strickland that bad plea bargaining has nothing to do with ineffective assistance of counsel in the constitutional sense. Strickland explained that \u201c[i]n giving meaning to the requirement [of effective assistance], ... we must take its purpose \u2014 to ensure a fair trial \u2014 as the guide.\u201d 466 U. S., at 686. Since \u201cthe right to the effective assistance of counsel is recognized not for its own sake, but because of the effect it has on the ability of the accused to receive a fair trial,\u201d United States v. Cronic, 466 U. S. 648, 658 (1984), the \u201cbenchmark\u201d inquiry in evaluating any claim of ineffective assistance is whether counsel\u2019s performance \u201cso .undermined the proper functioning of the adversarial process\u201d that it fail\u00e9d to produce a reliably \u201cjust result.\u201d Strickland, 466 U. S., at 686. That is what Strickland\u2019s requirement of \u201cprejudice\u201d consists of: Because the right to effective assistance has as its purpose the assurance of a fair trial, the right is not infringed unless counsel\u2019s mistakes call into question the basic justice of a defendant\u2019s conviction or sentence. That has been, until today, entirely clear. A defendant must show \u201cthat counsel\u2019s errors were so serious as to deprive the defendant of a fair trial, a trial whose result is reliable.\u201d Id., at 687. See also Gonzalez-Lopez, supra, at 147. Impairment of fair trial is how we distinguish between unfortunate attorney error and error of constitutional significance.\nTo be sure, Strickland stated a rule of thumb for measuring prejudice which, applied blindly and out of context, could support the Court\u2019s holding today: \u201cThe defendant must show that there is a reasonable probability that, but for counsel\u2019s unprofessional errors, the result of the proceeding would have been different.\u201d 466 U. S., at 694. Strickland itself cautioned, however, that its test was not to be applied in a mechanical fashion, and that courts were not to divert their \u201cultimate focus\u201d from \u201cthe fundamental fairness of the proceeding whose result is being challenged.\u201d Id., at 696. And until today we have followed that course.\nIn Lockhart v. Fretwell, 506 U. S. 364 (1993), the deficient performance at issue was the failure of counsel for a defendant who had been sentenced to death to make an objection that would have produced a sentence of life imprisonment instead. The objection was fully supported by then-extant Circuit law, so that the sentencing court would have been compelled to sustain it, producing a life sentence that principles of double jeopardy would likely make final. See id., at 383-385 (Stevens, J., dissenting); Bullington v. Missouri, 451 U. S. 430 (1981). By the time Fretwell\u2019s claim came before us, however, the Circuit law had been overruled in light of one of our cases. We determined that a prejudice analysis \u201cfocusing solely on mere outcome determination, without attention to whether the result of the proceeding was fundamentally unfair or unreliable,\u201d would be defective. Fretwell, 506 U. S., at 369. Because counsel\u2019s error did not \u201cdeprive the defendant of any substantive or procedural right to which the law entitles him,\u201d the defendant\u2019s sentencing proceeding was fair and its result was reliable, even though counsel\u2019s error may have affected its outcome. Id., at 372. In Williams v. Taylor, 529 U. S. 362, 391-393 (2000), we explained that even though Fretwell did not mechanically apply an outcome-based test for prejudice, its reasoning was perfectly consistent with Strickland. \u201cFretwell\u2019s counsel had not deprived him of any substantive or procedural right to which the law entitled him.\u201d 529 U. S., at 392.\nThose precedents leave no doubt about the answer to the question presented here. As the Court itself observes, a criminal defendant has no right to a plea bargain. Ante, at 168. \u201c[T]here is no constitutional right to plea bargain; the prosecutor need not do so if he prefers to go to trial.\u201d Weatherford v. Bursey, 429 U. S. 545, 561 (1977). Counsel\u2019s mistakes in this case thus did not \u201cdeprive the defendant of a substantive or procedural right to which the law entitles him,\u201d Williams, supra, at 393. Far from being \u201cbeside the point,\u201d ante, at 168, that is critical to correct application of our precedents. Like Fretwell, this case \u201cconcerns the unusual circumstance where the defendant attempts to demonstrate prejudice based on considerations that, as a matter of law, ought not inform the inquiry,\u201d 506 U. S., at 373 (O\u2019Connor, J., concurring); he claims \u201cthat he might have been denied \u2018a right the law simply does not recognize,\u2019 \u201d id., at 375 (same). Strickland, Fretwell, and Williams all instruct that the pure outcome-based test on which the Court relies is an erroneous measure of cognizable prejudice. In ignoring Strickland\u2019s \u201cultimate focus ... on the fundamental fairness of the proceeding whose result is being challenged,\u201d 466 U. S., at 696, the Court has lost the forest for the trees, leading it to accept what we have previously rejected, the \u201cnovel argument that constitutional rights are infringed by trying the defendant rather than accepting his plea of guilty,\u201d Weatherford, supra, at 561.\nII\nNovelty alone is the second, independent reason why the Court\u2019s decision is wrong. This case arises on federal ha-beas, and hence is governed by the Antiterrorism and Effective Death Penalty Act of 1996 (AEDPA). Since, as the Court acknowledges, the Michigan Court of Appeals adjudicated Cooper\u2019s ineffective-assistance claim on the merits, AEDPA bars federal courts from granting habeas relief unless that court\u2019s decision was \u201ccontrary to, or involved an unreasonable application of, clearly established Federal law, as determined by the Supreme Court of the United States.\u201d 28 U. S. C. \u00a7 2254(d)(1). Yet the Court concludes that \u00a7 2254(d)(1) does not bar relief here, because \u201c[b]y failing to apply Strickland to assess the ineffective-assistance-of-counsel claim respondent raised, the state court\u2019s adjudication was contrary to clearly established federal law.\u201d Ante, at 173. That is not so.\nThe relevant portion of the Michigan Court of Appeals decision reads as follows:\n\u201cTo establish ineffective assistance, the defendant must demonstrate that his counsel\u2019s performance fell below an objective standard of reasonableness and that counsel\u2019s representation so prejudiced the defendant that he was deprived of a fair trial. With respect to the prejudice aspect of the test, the defendant must demonstrate a reasonable probability that, but for counsel\u2019s errors, the result of the proceedings would have been different, and that the attendant proceedings were fundamentally unfair and unreliable.\n\u201cDefendant challenges the trial court\u2019s finding after a Ginther hearing that defense counsel provided effective assistance to defendant during the plea bargaining process. He contends that defense counsel failed to convey the benefits of the plea offer to him and ignored his desire to plead guilty, and that these failures led him to reject a plea offer that he now wishes to accept. However, the record shows that defendant knowingly and intelligently rejected two plea offers and chose to go to trial. The record fails to support defendant\u2019s contentions that defense counsel\u2019s representation was ineffective because he rejected a defense based on [a] claim of self-defense and because he did not obtain a more favorable plea bargain for defendant.\u201d People v. Cooper, No. 250583 (Mar. 15, 2005), App. to Pet. for Cert. 45a, 2005 WL 599740, *1 (per curiam) (footnote and citations omitted).\nThe first paragraph above, far from ignoring Strickland, recites its standard with a good deal more accuracy than the Court\u2019s opinion. The second paragraph, which is presumably an application of the standard recited in the first, says that \u201cdefendant knowingly and intelligently rejected two plea offers and chose to go to trial.\u201d This can be regarded as a denial that there was anything \u201cfundamentally unfair\u201d about Cooper\u2019s conviction and sentence, so that no Strickland prejudice had been shown. On the other hand, the entire second paragraph can be regarded as a contention that Cooper\u2019s claims of inadequate representation were unsupported by the record. The state court\u2019s analysis was admittedly not a model of clarity, but federal habeas corpus is a \u201cguard against extreme malfunctions in the state criminal justice systems,\u201d not a license to penalize a state court for its opinion-writing technique. Harrington v. Richter, 562 U. S. 86, 102 (2011) (internal quotation marks omitted). The Court\u2019s readiness to find error in the Michigan court\u2019s opinion is \u201cinconsistent with the presumption that state courts know and follow the law,\u201d Woodford v. Visciotti, 537 U.S. 19, 24 (2002) (per curiam), a presumption borne out here by the state court\u2019s recitation of the correct legal standard.\nSince it is ambiguous whether the state court\u2019s holding was based on a lack of prejudice or rather the court\u2019s factual determination that there had been no deficient performance, to provide relief under AEDPA this Court must conclude that both holdings would have been unreasonable applications of clearly established law. See Premo v. Moore, 562 U. S. 115, 121 (2011). The first is impossible of doing, since this Court has never held that a defendant in Cooper\u2019s position can establish Strickland prejudice. The Sixth Circuit thus violated AEDPA in granting habeas relief, and the Court now does the same.\nIll\nIt is impossible to conclude discussion of today\u2019s extraordinary opinion without commenting upon the remedy it provides for. the unconstitutional conviction. It is a remedy unheard of in American jurisprudence \u2014 and, I would be willing to bet, in the jurisprudence of any other country.\nThe Court requires Michigan to \u201creoffer the plea agreement\u201d that was rejected because of bad advice from counsel. Ante, at 174. That would indeed be a powerful remedy\u2014 but for the fact that Cooper\u2019s acceptance of that reoffered agreement is not conclusive. Astoundingly, \u201cthe state trial court can then exercise its discretion in determining whether to vacate the convictions and resentence respondent pursuant to the plea agreement, to vacate only some of the convictions and resentence respondent accordingly, or to leave the convictions and sentence from trial undisturbed.\u201d Ibid, (emphasis added).\nWhy, one might ask, require a \u201creoffer\u201d of the plea agreement, and its acceptance by the defendant? If the District Court finds (as a necessary element, supposedly, of Strickland prejudice) that Cooper would have accepted the original offer, and would thereby have avoided trial and conviction, why not skip the reoffer-and-reacceptance minuet and simply leave it to the discretion of the state trial court what the remedy shall be? The answer, of course, is camouflage. Trial courts, after all, regularly accept or reject plea agreements, so there seems to be nothing extraordinary about their accepting or rejecting the new one mandated by today\u2019s decision. But the acceptance or rejection of a plea agreement that has no status whatever under the United States Constitution is worlds apart from what this is: \u201cdiscretionary\u201d specification of a remedy for an unconstitutional criminal conviction.\nTo be sure, the Court asserts that there are \u201cfactors\u201d which bear upon (and presumably limit) exercise of this discretion \u2014 factors that it is not prepared to specify in full, much less assign some determinative weight. \u201cPrinciples elaborated over time in decisions of state and federal courts, and in statutes and rules\u201d will (in the Court\u2019s rosy view) sort all that out. Ante, at 171. I find it extraordinary that \u201cstatutes and rules\u201d can specify the remedy for a criminal defendant\u2019s unconstitutional conviction. Or that the remedy for an unconstitutional conviction should ever be subject at all to a trial judge\u2019s discretion. Or, finally, that the remedy could ever include no remedy at all.\nI suspect that the Court\u2019s squeamishness in fashioning a remedy, and the incoherence of what it comes up with, is attributable to its realization, deep down, that there is no real constitutional violation here anyway. The defendant has been fairly tried, lawfully convicted, and properly sentenced, and any \u201cremedy\u201d provided for this will do nothing but undo the just results of a fair adversarial process.\nIV\nIn many \u2014 perhaps most \u2014 countries of the world, American-style plea bargaining is forbidden in cases as serious as this one, even for the purpose of obtaining testimony that enables conviction of a greater malefactor, much less for the purpose of sparing the expense of trial. See, e. g., World Plea Bargaining 344, 363-366 (S. Thaman ed. 2010). In Europe, many countries adhere to what they aptly call the \u201clegality principle\u201d by requiring prosecutors to charge all prosecutable offenses, which is typically incompatible with the practice of charge bargaining. See, e. g., id., at xxii; Langbein, Land Without Plea Bargaining: How the Germans Do It, 78 Mich. L. Rev. 204, 210-211 (1979) (describing the \u201cLegalit\u00e1tsprinzip,\u201d or rule of compulsory prosecution, in Germany). Such a system reflects an admirable belief that the law is the law, and those who break it should pay the penalty provided.\nIn the United States, we have plea bargaining aplenty, but until today it has been regarded as a necessary evil. It presents grave risks of prosecutorial overcharging that effectively compels an innocent defendant to avoid massive risk by pleading guilty to a lesser offense; and for guilty defendants it often \u2014 perhaps usually \u2014 results in a sentence well below what the law prescribes for the actual crime. But even so, we accept plea bargaining because many believe that without it our long and expensive process of criminal trial could not sustain the burden imposed on it, and our system of criminal justice would grind to a halt. See, e. g., Alschuler, Plea Bargaining and Its History, 79 Colum. L. Rev. 1, 38 (1979).\nToday, however, the Supreme Court of the United States elevates plea bargaining from a necessary evil to a constitutional entitlement. It is no longer a somewhat embarrassing adjunct to our criminal justice system; rather, as the Court announces in the companion case to this one, \u201c \u2018it is the criminal justice system.\u2019\u201d Frye, ante, at 144 (quoting approvingly from Scott 1912). Thus, even though there is no doubt that the respondent here is guilty of the offense with which he was charged; even though he has received the exorbitant gold standard of American justice \u2014 a full-dress criminal trial with its innumerable constitutional and statutory limitations upon the evidence that the prosecution can bring forward, and (in Michigan as in most States) the requirement of a unanimous guilty verdict by impartial jurors; the Court says that his conviction is invalid because he was deprived of his constitutional entitlement to plea bargain.\nI am less saddened by the outcome of this ease than I am by what it says about this Court\u2019s attitude toward criminal justice. The Court today embraces the sporting-chance theory of criminal law, in which the State functions like a consci-. entious casino operator, giving each player a fair chance to beat the house, that is, to serve less time than the law says he deserves. And when a player is excluded from the tables, his constitutional rights have been violated. I do not subscribe to that theory. No one should, least of all the Justices of the Supreme Court.\n* \u215d *\nToday\u2019s decision upends decades of our cases, violates a federal statute, and opens a whole new boutique of constitutional jurisprudence (\u201cplea-bargaining law\u201d) without even specifying the remedies the boutique offers. The result in the present case is the undoing of an adjudicatory process that worked exactly as it is supposed to. Released felon Anthony Cooper, who shot repeatedly and gravely injured a woman named Kali Mundy, was tried and convicted for his 'crimes by a jury of his peers, and given a punishment that Michigan\u2019s elected representatives have deemed appropriate. Nothing about that result is unfair or unconstitutional. To the contrary, it is wonderfully just, and infinitely superior to the trial-by-bargain that today\u2019s opinion affords constitutional status. I respectfully dissent.\nRather than addressing the constitutional origins of the right to effective counsel, the Court responds to the broader claim (raised by no one) that \u201cthe sole purpose of the Sixth Amendment is to protect the right to a fair trial.\u201d Ante, at 164 (emphasis added). Cf. Brief for United States as Amicus Curiae 10-12 (arguing that the \u201cpurpose of the Sixth Amendment right to counsel is to secure a fair trial\u201d (emphasis added)); Brief for Petitioner 12-21 (same). To destroy that straw man, the Court cites cases in which violations of rights other than the right to effective counsel\u2014 and, perplexingly, even rights found outside the Sixth Amendment and the Constitution entirely \u2014 were not cured by a subsequent trial. Vasquez v. Hillery, 474 U. S. 254 (1986) (violation of equal protection in grand jury selection); Ballard v. United States, 329 U. S. 187 (1946) (violation of statutory scheme providing that women serve on juries); Stirone v. United States, 361 U. S. 212 (1960) (violation of Fifth Amendment right to indictment by grand jury). Unlike the right to effective counsel, no showing of prejudice is required to make violations of the rights at issue in Vasquez, Ballard, and Stirone complete. See Vasquez, supra, at 263-264 (\u201c[D]is-erimination in the' grand jury undermines the structural integrity of the criminal tribunal itself, and is not amenable to harmless-error review\u201d); Ballard, supra, at 195 (\u201c[R]eversible error does not depend on a showing of prejudice in an individual case\u201d); Stirone, supra, at 217 (\u201cDeprivation of such a basic right is far too serious to be treated as nothing more than a variance and then dismissed as harmless error\u201d). Those cases are thus irrelevant to the question presented here, which is whether a defendant can establish prejudice under Strickland v. Washington, 466 U. S. 668 (1984), while conceding the fairness of his conviction, sentence, and appeal.\nKimmelman v. Morrison, 477 U. S. 365 (1986), cited by the Court, ante, at 169, does not contradict this principle. That case, which predated Fret-well and Williams, considered whether our holding that Fourth Amendment claims fully litigated in state court cannot be raised in federal habeas \u201cshould be extended to Sixth Amendment claims of ineffective assistance of counsel where the principal allegation and manifestation of inadequate representation is counsel\u2019s failure to file a timely motion to suppress evidence allegedly obtained in violation of the Fourth Amendment.\u201d 477 U. S., at 368. Our negative answer to that question had nothing to do with the issue here. The parties in Kimmelman had not raised the question \u201cwhether the admission of illegally seized but reliable evidence can ever constitute \u2018prejudice\u2019 under Strickland\u201d \u2014 a question similar to the one presented here \u2014 and the Court therefore did not address it. Id., at 391 (Powell, J., concurring in judgment); see also id., at 380. Kimmelman made clear, however, how the answer to that question is to be determined: \u201cThe essence of an ineffective-assistance claim is that counsel\u2019s unprofessional errors so upset the adversarial balance between defense and prosecution that the trial was rendered unfair and the verdict rendered suspect,\u201d id., at 374 (emphasis added). \u201cOnly those habeas petitioners who can prove under Strickland that they have been denied a fair trial . . . will be granted the writ,\u201d id., at 382 (emphasis added). In short, Kimmel-man\u2019s only relevance is to prove the Court\u2019s opinion wrong.\nSee People v. Cooks, 446 Mich. 503, 510, 521 N. W. 2d 275, 278 (1994); 6 W. LaFave, J. Israel, N. King, & 0. Kerr, Criminal Procedure \u00a7 22.1(e) (3d ed. 2007 and Supp. 2011-2012).",
+        "type": "dissent",
+        "author": "Justice Scalia,"
+      },
+      {
+        "text": "Justice Alito,\ndissenting.\nFor the reasons set out in Parts I and II of Justice Scalia\u2019s dissent, the Court\u2019s holding in this case misapplies our ineffective-assistance-of-counsel case law and violates the requirements of the Antiterrorism and Effective Death Penalty Act of 1996. Respondent received a trial that was free of any identified constitutional error, and, as a result, there is no basis for concluding that respondent suffered prejudice and certainly not for granting habeas relief.\nThe weakness in the Court\u2019s analysis is highlighted by its opaque discussion of the remedy that is appropriate when a plea offer is rejected due to defective legal representation. If a defendant\u2019s Sixth Amendment rights are violated when deficient legal advice about a favorable plea offer causes the opportunity for that bargain to be lost, the only logical remedy is to- give the defendant the benefit of the favorable deal. But such a remedy would cause serious injustice in many instances, as I believe the Court tacitly recognizes. The Court therefore eschews the only logical remedy and relies on the lower courts to exercise sound discretion in determining what is to be done..\nTime will tell how this works out. The Court, for its part, finds it unnecessary to define \u201cthe boundaries of proper discretion\u201d in today\u2019s opinion. Ante, at 171. In my view, requiring the prosecution to renew an old plea offer would represent an abuse of discretion in at least two circumstances: first, when important new information about a defendant\u2019s culpability comes to light after the offer is rejected, and, second, when the rejection of the plea offer results in a substantial expenditure of scarce prosecutorial or judicial resources.\nThe lower court judges who must implement today\u2019s holding may \u2014 and I hope, will \u2014 do so in a way that mitigates its potential to produce unjust results. But I would not depend on these judges to come to the rescue. The Court\u2019s interpretation of the Sixth Amendment right to counsel is unsound, and I therefore respectfully dissent.",
+        "type": "dissent",
+        "author": "Justice Alito,"
+      }
+    ],
+    "attorneys": [
+      "John J. Bursch, Solicitor General of Michigan, argued the cause for petitioner. With him on the briefs were Bill Schuette, Attorney General, B. Eric Restuccia, Deputy Solicitor General, and Joel D. McGormley.",
+      "William M. Jay argued the cause for the United States as amicus curiae urging reversal. With him on the brief were former Acting Solicitor General Katyal, Assistant Attorney General Breuer, Deputy Solicitor General Dreehen, and Joel M. Gershowitz.",
+      "Valerie R. Newman, by appointment of the Court, 562 U. S. 1285, argued the cause for respondent. With her on the brief were Jacqueline J. McCann, Jeffrey T. Green, and Sarah O\u2019Rourke Schrup."
+    ],
+    "corrections": "",
+    "head_matter": "LAFLER v. COOPER\nNo. 10-209.\nArgued October 31, 2011\nDecided March 21, 2012\nKennedy, J., delivered the opinion of the Court, in which Ginsburg, Breyer, Sotomayor, and K\u00e1gan, JJ., joined. Scalia, J., filed a dissenting opinion, in which Thomas, J., joined, and in which Roberts, C. J., joined as to all but Part IV, post, p. 175. Alito, J., filed a dissenting opinion, post, p. 187.\nJohn J. Bursch, Solicitor General of Michigan, argued the cause for petitioner. With him on the briefs were Bill Schuette, Attorney General, B. Eric Restuccia, Deputy Solicitor General, and Joel D. McGormley.\nWilliam M. Jay argued the cause for the United States as amicus curiae urging reversal. With him on the brief were former Acting Solicitor General Katyal, Assistant Attorney General Breuer, Deputy Solicitor General Dreehen, and Joel M. Gershowitz.\nValerie R. Newman, by appointment of the Court, 562 U. S. 1285, argued the cause for respondent. With her on the brief were Jacqueline J. McCann, Jeffrey T. Green, and Sarah O\u2019Rourke Schrup.\nBriefs of amici curiae urging reversal were filed for the State of Connecticut et al. by Kevin T. Kane, Chief State\u2019s Attorney of Connecticut, Michael E. O\u2019Hare, Supervisory Assistant State\u2019s Attorney, and Michael J. Proto, Assistant State\u2019s Attorney, and by the Attorneys General for their respective States as follows: Luther Strange of Alabama, Tom Horne of Arizona, John W. Suthers of Colorado, Joseph R. Biden III of Delaware, Pamela Jo Bondi of Florida, Samuel S. Olens of Georgia, David M. Louie of Hawaii, Gregory F. Zoeller of Indiana, Derek Schmidt of Kansas, Jack \u25a0 Conway of Kentucky, Douglas F. Gansler of Maryland, Steve Bullock of Montana, Jon Pruning of Nebraska, Paula T. Dow of New Jersey, Gary K. King of New Mexico, E. Scott Pruitt of Oklahoma, William H. Ryan, Jr., of Pennsylvania, Alan Wilson of South Carolina, Marty J. Jackley of South Dakota, Robert E. Cooper, Jr., of Tennessee, Greg Abbott of Texas, Mark L. Shurtleff of Utah, Kenneth T. Cuccinelli II of Virginia, Robert M. McKenna of Washington, J. B. Van Hollen of Wisconsin, and Gregory A. Phillips of Wyoming; for Wayne County, Michigan, by Kym L. Worthy and Timothy A. Baughman; and for the Criminal Justice Legal Foundation et al. by Kent S. Scheidegger.\nBriefs of amici curiae urging affirmance were filed for the American Bar Association by Stephen N. Zack, Margaret Colgate Love, Peter Gold-berger, and Jill Wheaton; for the Constitution Project by John F. Cooney and Virginia Sloan; and for the National Association of Criminal Defense Lawyers et al. by Jonathan D. Hacker, Loren L. Alikhan, Norman L. Reimer, Malia Brink, Steven R. Shapiro, and Conrad 0. Seifert.\nDaniel Meron, Lori Alvino McGill, and Anthony S. Barkow filed a brief for the Center on the Administration of Criminal Law, New York University School of Law, as amicus curiae."
+  },
+  "file_name": "0156-01",
+  "first_page_order": 236,
+  "last_page_order": 268
+}

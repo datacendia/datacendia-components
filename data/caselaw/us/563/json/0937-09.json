@@ -1,0 +1,59 @@
+{
+  "id": 5923891,
+  "name": "Smith v. Illinois",
+  "name_abbreviation": "Smith v. Illinois",
+  "decision_date": "2011-04-18",
+  "docket_number": "No. 10-1067",
+  "first_page": "937",
+  "last_page": "937",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 937"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.682,
+    "sha256": "9ca4304f586f83487eecd316332b0c6170fc26b5fc8814959d64239897549152",
+    "simhash": "1:60b9924f1124ed2e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Smith v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Ill., 1st Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1067.\nSmith v. Illinois."
+  },
+  "file_name": "0937-09",
+  "first_page_order": 963,
+  "last_page_order": 963
+}

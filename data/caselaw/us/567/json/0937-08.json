@@ -1,0 +1,59 @@
+{
+  "id": 12411554,
+  "name": "Smith v. Pennsylvania",
+  "name_abbreviation": "Smith v. Pennsylvania",
+  "decision_date": "2012-06-25",
+  "docket_number": "No. 11-7501",
+  "first_page": "937",
+  "last_page": "937",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 937"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 69,
+    "ocr_confidence": 0.683,
+    "sha256": "7b2e7fe1811e62bb7630ef2051242202b1a6a9011ed64d5fbd5890386732ed76",
+    "simhash": "1:391b28420048e028",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Smith v. Pennsylvania."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Pa. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7501.\nSmith v. Pennsylvania."
+  },
+  "file_name": "0937-08",
+  "first_page_order": 841,
+  "last_page_order": 841
+}

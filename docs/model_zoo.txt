@@ -1,80 +1,299 @@
 /**
- * DATACENDIA SOVEREIGN MODEL ZOO
+ * DATACENDIA SOVEREIGN MODEL ZOO - 2026 EDITION
  * Configuration for Local Inference (Ollama)
- * Optimized for: 128GB RAM Workstation (Intel i9-12900KF)
+ * Optimized for: 128GB RAM Workstation
  * Architecture: Specialized Expert Team (Heterogeneous Models)
+ * Last Updated: January 21, 2026
+ * 
+ * VERTICAL AI AGENTS: 250+ across 18 verticals
+ * COUNCIL MODES: 450+ specialized deliberation scenarios
+ * 
+ * =============================================================================
+ * COMPLETE VERTICAL AGENT INVENTORY
+ * =============================================================================
+ * 
+ * DEFENSE & NATIONAL SECURITY (NEW - DIU Ready)
+ * - 35 council modes, 24 agents (8 default + 12 optional + 4 silent guards)
+ * - Compliance: FedRAMP High, CMMC Level 3, ITAR, NIST 800-171, IL4/IL5
+ * - Default Agents: Mission Commander, Threat Analyst, OPSEC Officer, 
+ *   Logistics Coordinator, Cyber Warfare Specialist, Acquisition Specialist,
+ *   Legal Advisor (UCMJ/LOAC), Force Protection Officer
+ * - Optional: Intelligence Analyst, Targeting Officer, Space Operations,
+ *   Civil Affairs, PSYOP Officer, Special Operations, Medical Planner,
+ *   Engineer Planner, Fires Coordinator, Air Defense, Communications Officer,
+ *   Coalition Liaison
+ * - Silent Guards: ClassificationGuard, OPSECGuard, ExportControlGuard,
+ *   NeedToKnowGuard
+ * 
+ * LEGAL (Complete - 100%)
+ * - 49 council modes, 27 agents (8 default + 13 optional + 3 silent guards + 3 jury)
+ * - Compliance: Model Rules, ABA Guidelines, Privilege Protection
+ * - Default Agents: Matter Lead, Research Counsel, Contract Counsel, Risk Counsel,
+ *   Litigation Strategist, Regulatory Specialist, Privilege Officer, Evidence Officer
+ * - Optional: IP Specialist, Employment Specialist, Prosecutor, Defense Attorney,
+ *   Opposing Counsel, Commercial Advisor, Tax Counsel, Antitrust Counsel, Judge,
+ *   Juror-Skeptic, Juror-Emotional, Juror-Analytical, Jury Foreperson
+ * - Silent Guards: ClientInstructionOfficer, DataBoundaryOfficer, QualityAssuranceCounsel
+ * 
+ * FINANCIAL SERVICES (Complete - 100%)
+ * - 28 council modes, 16 agents (8 default + 6 optional + 2 silent guards)
+ * - Compliance: Basel III, SOX, GDPR, MiFID II, Dodd-Frank, FINRA
+ * - Default Agents: Chief Investment Officer, Risk Manager, Compliance Officer,
+ *   Portfolio Analyst, Credit Analyst, Trading Strategist, Regulatory Liaison,
+ *   Quantitative Analyst
+ * - Optional: Derivatives Specialist, ESG Analyst, M&A Advisor, Treasury Manager,
+ *   Fraud Investigator, Model Validator
+ * - Silent Guards: ModelRiskGuard, RegulatoryComplianceGuard
+ * 
+ * HEALTHCARE (Complete - 100%)
+ * - 27 council modes, 16 agents (8 default + 6 optional + 2 silent guards)
+ * - Compliance: HIPAA, FDA, HITECH, 21 CFR Part 11, Clinical Trial Regs
+ * - Default Agents: Chief Medical Officer, Clinical Director, Compliance Officer,
+ *   Patient Safety Officer, Quality Assurance Lead, Research Director,
+ *   Regulatory Affairs Specialist, Health Informatics Lead
+ * - Optional: Pharmacovigilance Specialist, Clinical Trial Manager, Bioethicist,
+ *   Medical Device Specialist, Population Health Analyst, Telemedicine Director
+ * - Silent Guards: PHIGuard, ClinicalValidationGuard
+ * 
+ * INSURANCE (Complete - 100%)
+ * - 20 council modes, 16 agents (8 default + 6 optional + 2 silent guards)
+ * - Compliance: NAIC, State Insurance Regs, ACORD Standards
+ * - Default Agents: Chief Actuary, Underwriting Director, Claims Manager,
+ *   Risk Assessment Lead, Compliance Officer, Product Development Lead,
+ *   Reinsurance Specialist, Fraud Detection Analyst
+ * - Optional: Catastrophe Modeler, Life & Health Specialist, P&C Specialist,
+ *   Regulatory Filing Specialist, Customer Experience Lead, Distribution Strategist
+ * - Silent Guards: BiasDetectionGuard, RateFilingGuard
+ * 
+ * ENERGY (Complete - 100%)
+ * - 20 council modes, 16 agents (8 default + 6 optional + 2 silent guards)
+ * - Compliance: NERC CIP, FERC, EPA, DOE, State PUC Regulations
+ * - Default Agents: Grid Operations Director, Safety Officer, Environmental Compliance,
+ *   Asset Manager, Trading Desk Lead, Regulatory Affairs, Renewable Integration Lead,
+ *   Cybersecurity Specialist
+ * - Optional: Nuclear Safety Specialist, Pipeline Operations, Offshore Operations,
+ *   Carbon Markets Analyst, Distributed Energy Lead, Emergency Response Coordinator
+ * - Silent Guards: SafetyFirstGuard, DataDiodeGuard
+ * 
+ * GOVERNMENT (85% Complete - NEW)
+ * - 18 council modes, 16 agents (8 default + 6 optional + 2 silent guards)
+ * - Compliance: FAR, FISMA, GPRA, APA, 2 CFR 200
+ * - Default Agents: Policy Advisor, Procurement Officer, Budget Analyst, Legal Counsel,
+ *   Grants Manager, Compliance Specialist, IT Security Officer, Public Affairs Officer
+ * - Optional: Contracting Officer, Program Manager, Inspector General Rep,
+ *   Congressional Liaison, Interagency Coordinator, FOIA Officer
+ * - Silent Guards: ClassifiedInfoGuard, ProcurementIntegrityGuard
+ * 
+ * MANUFACTURING (85% Complete - NEW)
+ * - 17 council modes, 16 agents (8 default + 6 optional + 2 silent guards)
+ * - Compliance: ISO 9001, IATF 16949, OSHA, EPA, Six Sigma
+ * - Default Agents: Plant Manager, Quality Engineer, Safety Officer, Production Planner,
+ *   Maintenance Engineer, Supply Chain Manager, Process Engineer, Compliance Specialist
+ * - Optional: Automation Engineer, Environmental Engineer, Industrial Engineer,
+ *   Materials Engineer, Cost Accountant, New Product Engineer
+ * - Silent Guards: SafetyMonitor, QualitySentinel
+ * 
+ * TECHNOLOGY/SAAS (85% Complete - NEW)
+ * - 18 council modes, 16 agents (8 default + 6 optional + 2 silent guards)
+ * - Compliance: SOC 2, ISO 27001, GDPR, SRE Practices
+ * - Default Agents: CTO, Engineering Manager, Architect, Security Engineer,
+ *   DevOps Engineer, Product Manager, QA Lead, Data Engineer
+ * - Optional: ML Engineer, Frontend Lead, Platform Architect, SRE Lead,
+ *   Compliance Engineer, Technical Writer
+ * - Silent Guards: SecuritySentinel, ReliabilityMonitor
+ * 
+ * RETAIL (85% Complete - NEW)
+ * - 17 council modes, 16 agents (8 default + 6 optional + 2 silent guards)
+ * - Compliance: FTC Guidelines, Consumer Protection, CCPA/GDPR
+ * - Default Agents: Merchandising Director, Pricing Analyst, Store Operations Manager,
+ *   E-commerce Manager, Supply Chain Director, Marketing Director, CX Manager, Compliance Manager
+ * - Optional: Personalization Specialist, Sustainability Manager, Loss Prevention Director,
+ *   Real Estate Manager, Private Label Manager, Workforce Analyst
+ * - Silent Guards: PricingEthicsMonitor, ConsumerProtectionSentinel
+ * 
+ * EDUCATION (85% Complete - NEW)
+ * - 18 council modes, 16 agents (8 default + 6 optional + 2 silent guards)
+ * - Compliance: FERPA, Title IX, ADA, Title IV, Accreditation Standards
+ * - Default Agents: Academic Dean, Registrar, Assessment Director, Dean of Students,
+ *   Financial Aid Director, Admissions Director, Compliance Officer, Faculty Representative
+ * - Optional: Chief Diversity Officer, Disability Services Director, Online Learning Director,
+ *   Institutional Research Director, Career Services Director, Legal Counsel
+ * - Silent Guards: EquityMonitor, PrivacySentinel
+ * 
+ * REAL ESTATE (85% Complete - NEW)
+ * - 17 council modes, 16 agents (8 default + 6 optional + 2 silent guards)
+ * - Compliance: RESPA, TILA, ECOA, Fair Housing Act, USPAP, HMDA
+ * - Default Agents: Chief Appraiser, Underwriting Manager, Compliance Officer, Market Analyst,
+ *   Title Officer, Loan Processor, Property Inspector, Closing Coordinator
+ * - Optional: Commercial Specialist, Construction Analyst, Environmental Specialist,
+ *   Servicing Manager, Secondary Market Analyst, Legal Counsel
+ * - Silent Guards: FairLendingMonitor, ValuationBiasDetector
+ * 
+ * SPORTS (Template)
+ * - 25 council modes, 24 agents
+ * 
+ * MEDIA (Template)
+ * - 25 council modes, 22 agents
+ * 
+ * PROFESSIONAL SERVICES (Template)
+ * - 25 council modes, 23 agents
+ * 
+ * TRANSPORTATION (Template)
+ * - 25 council modes, 19 agents
+ * 
+ * HOSPITALITY (Template)
+ * - 20 council modes, 16 agents
+ * 
+ * AGRICULTURE (Template)
+ * - 15 council modes, 12 agents
+ * 
+ * NON-PROFIT (Template)
+ * - 15 council modes, 12 agents
+ * 
+ * =============================================================================
+ * WOW FEATURES (January 2026)
+ * =============================================================================
+ * 
+ * 1. REAL-TIME DELIBERATION VISUALIZATION
+ *    - Agent avatars with speech bubbles
+ *    - Confidence meters changing as they debate
+ *    - Citation links appearing as they're added
+ *    - Dissent indicators flashing
+ *    - Final consensus animation
+ *    - WebSocket-based streaming
+ * 
+ * 2. DECISION REPLAY THEATER
+ *    - Watch past deliberations unfold like a movie
+ *    - See exactly what each agent said when
+ *    - Understand how the decision evolved
+ *    - Export as video script for board presentations
+ *    - Time-travel through decision history
+ * 
+ * 3. ADVERSARIAL RED TEAM MODE
+ *    - Every agent becomes a devil's advocate
+ *    - Find every possible failure mode
+ *    - Output: "100 Ways This Could Fail" report
+ *    - Perfect for pre-mortems
+ *    - 8 attack perspectives (Pessimist CFO, Paranoid CISO, etc.)
+ * 
+ * 4. REGULATOR'S RECEIPT GENERATOR
+ *    - One-click PDF generation of any decision
+ *    - Cryptographic proof of what was known when
+ *    - Court-admissible format
+ *    - Automatic compliance mapping
+ *    - Merkle tree evidence chain
+ * 
+ * =============================================================================
  */
 
 export const AI_CONFIG = {
   defaultProvider: 'ollama',
   
-  // The Model Registry (The Special Ops Team)
+  // The Model Registry (The Special Ops Team) - 2025 Best-in-Class
   models: {
     // THE CHIEF (General Intelligence King)
-    // Upgraded to Llama 3.3 for peak instruction following and synthesis.
-    // Equivalent to GPT-4o class performance locally.
+    // Llama 4 Scout - Meta's newest flagship with 128k context
+    // Top-ranked open model for general tasks
     flagship: {
-      id: 'llama3.3:70b', 
+      id: 'llama4:scout', 
+      contextWindow: 128000,
+      temp: 0.7
+    },
+
+    // THE STRATEGIST (High-Quality Analysis)
+    // Llama 3.3 70B - Still top-tier for synthesis and analysis
+    strategist: {
+      id: 'llama3.3:70b',
       contextWindow: 128000,
       temp: 0.7
     },
 
     // THE PHILOSOPHER (Reasoning Engine)
-    // QwQ is trained for "Chain of Thought" reasoning. It thinks deeper.
-    // Use for Risk, Audit, and finding logical fallacies.
+    // DeepSeek-R1 - Chain-of-thought reasoning, competes with OpenAI o1
+    // Use for complex reasoning, risk analysis, and logic
     reasoning: {
+      id: 'deepseek-r1:32b',
+      contextWindow: 32768,
+      temp: 0.3 // Lower temp for logic
+    },
+
+    // THE THINKER (Deep Analysis)
+    // QwQ 32B - Alibaba's reasoning model for deep analysis
+    thinker: {
       id: 'qwq:32b',
       contextWindow: 32768,
-      temp: 0.6 // Lower temp for logic
+      temp: 0.4
+    },
+
+    // THE POLYGLOT (Multilingual & General)
+    // Qwen3 32B - Best multilingual, strong reasoning
+    polyglot: {
+      id: 'qwen3:32b',
+      contextWindow: 32768,
+      temp: 0.7
     },
 
     // THE ENGINEER (Coding Specialist)
-    // Qwen 2.5 Coder beats generic models at SQL, JSON, and Code.
-    // Use for Data ops and Workflow execution.
+    // DeepSeek Coder V2 - Best coding model, 300+ languages
+    // Use for SQL, JSON, Code, and automation
     coder: {
-      id: 'qwen2.5-coder:32b',
+      id: 'deepseek-coder-v2',
       contextWindow: 32768,
       temp: 0.2 // Very low temp for precision
     },
 
+    // THE SCIENTIST (Google's Latest)
+    // Gemma3 27B - Efficient, strong performance
+    scientist: {
+      id: 'gemma3:27b',
+      contextWindow: 8192,
+      temp: 0.6
+    },
+
     // THE SPEEDSTER (UI & Operations)
-    // Instant responses for the interface.
-    // Keeps the dashboard feeling snappy.
+    // Instant responses for the interface
     fast: {
       id: 'llama3.2:3b',
       contextWindow: 8192,
       temp: 0.5
     },
 
-    // THE EYES (Vision - Optional)
-    // For The Lens to "see" charts and PDFs.
-    vision: {
-      id: 'qwen3-vl:30b', // Ensure you pull this if using vision features
-      contextWindow: 16384,
-      temp: 0.5
+    // THE ENSEMBLE (MoE for diverse tasks)
+    // Mixtral 8x22B - Mixture of Experts, efficient for variety
+    ensemble: {
+      id: 'mixtral:8x22b',
+      contextWindow: 65536,
+      temp: 0.7
+    },
+
+    // EMBEDDINGS (Vector Search)
+    embedding: {
+      id: 'nomic-embed-text',
+      contextWindow: 8192,
+      temp: 0
     }
   },
 
-  // The Council: Mapping Personas to Their Ideal Brain
+  // The Council: Mapping Personas to Their Ideal Brain (2025 Edition)
   agents: {
     chief: {
       name: 'CendiaChief',
-      model: 'flagship', // Llama 3.3: Best at synthesizing everyone else.
+      model: 'flagship', // Llama 4: Best at synthesizing everyone else.
       systemPrompt: 'You are the Chief of Staff. Synthesize all perspectives into a coherent strategy.'
     },
     cfo: {
       name: 'CendiaCFO',
-      model: 'flagship', // Llama 3.3: Excellent at financial nuance.
+      model: 'strategist', // Llama 3.3: Excellent at financial nuance.
       systemPrompt: 'You are the CFO. Focus on ROI, cash flow, and margin. Be conservative.'
     },
     ciso: {
       name: 'CendiaCISO',
-      model: 'reasoning', // QwQ: Needs deep logic to find security loopholes others miss.
+      model: 'reasoning', // DeepSeek-R1: Chain-of-thought for security analysis.
       systemPrompt: 'You are the CISO. Scrutinize plans for ANY compliance or security risk. Think step-by-step.'
     },
     cmo: {
       name: 'CendiaCMO',
-      model: 'flagship', // Llama 3.3: Good creative/strategic balance.
+      model: 'polyglot', // Qwen3: Good creative/strategic balance, multilingual.
       systemPrompt: 'You are the CMO. Focus on brand voice, customer perception, and market fit.'
     },
     coo: {
@@ -84,18 +303,137 @@ export const AI_CONFIG = {
     },
     risk: {
       name: 'CendiaRisk',
-      model: 'reasoning', // QwQ: Pure logic engine for probability assessment.
+      model: 'reasoning', // DeepSeek-R1: Pure logic engine for probability assessment.
       systemPrompt: 'You are the Risk Officer. Calculate probability and impact. Be pessimistic and validate assumptions.'
     },
     data: {
       name: 'CendiaCDO',
-      model: 'coder', // Qwen Coder: Best at understanding schemas and SQL.
+      model: 'coder', // DeepSeek Coder V2: Best at understanding schemas and SQL.
       systemPrompt: 'You are the Chief Data Officer. Validate data lineage and quality. Output valid JSON or SQL when requested.'
     },
     flow: {
       name: 'CendiaFlow',
-      model: 'coder', // Qwen Coder: Best at writing the JSON/Code to execute actions.
+      model: 'coder', // DeepSeek Coder V2: Best at writing the JSON/Code to execute actions.
       systemPrompt: 'You are the Automation Engine. Output executable workflows and code snippets.'
+    },
+    ethics: {
+      name: 'CendiaEthics',
+      model: 'thinker', // QwQ: Deep reasoning for ethical analysis.
+      systemPrompt: 'You are the Ethics Officer. Apply ethical frameworks. Consider stakeholder impact.'
+    },
+    strategy: {
+      name: 'CendiaStrategy',
+      model: 'scientist', // Gemma3: Strong analytical capabilities.
+      systemPrompt: 'You are the Strategy Analyst. Evaluate long-term implications and competitive dynamics.'
+    },
+
+    // --- SILENT GUARDS (The "Legal Guard" Team) ---
+    // These agents don't chat; they silently veto dangerous prompts before processing.
+    // They run as pre-flight checks on every legal vertical request.
+
+    client_instruction: {
+      name: 'ClientInstructionOfficer',
+      model: 'reasoning', // DeepSeek-R1: Needs pure logic to enforce engagement scope
+      silent: true, // Does not produce user-facing output
+      systemPrompt: `You are the Engagement Guard, a silent sentinel that enforces engagement scope.
+
+YOUR MISSION: Protect the firm from unauthorized practice of law and scope creep.
+
+SILENT VETO RULES:
+1. REJECT if the requester is not a licensed attorney and asks for legal advice
+2. REJECT if the request exceeds the engagement letter constraints
+3. REJECT if the request involves a matter not covered by current retainer
+4. REJECT if the request would create a conflict of interest
+5. REJECT if the request involves a jurisdiction where the firm is not licensed
+
+OUTPUT FORMAT (internal only):
+{
+  "approved": boolean,
+  "reason": string | null,
+  "engagementCheck": {
+    "requesterIsAttorney": boolean,
+    "withinEngagementScope": boolean,
+    "matterCovered": boolean,
+    "noConflict": boolean,
+    "jurisdictionValid": boolean
+  }
+}
+
+You do NOT explain. You do NOT chat. You ONLY output the JSON verdict.
+If ANY check fails, approved = false. No exceptions. No appeals.`
+    },
+
+    data_boundary: {
+      name: 'DataBoundaryOfficer',
+      model: 'reasoning', // DeepSeek-R1: Strict logic for data isolation
+      silent: true, // Does not produce user-facing output
+      systemPrompt: `You are the Data Isolation Sentinel, a silent guardian of matter confidentiality.
+
+YOUR MISSION: Prevent cross-matter data leakage and enforce Chinese walls.
+
+SILENT VETO RULES:
+1. REJECT if the prompt references data from Matter A while working on Matter B
+2. REJECT if the context contains client information from a conflicting party
+3. REJECT if the request would expose privileged information across matters
+4. REJECT if the data sources span multiple clients without explicit authorization
+5. REJECT if the request would violate ethical walls between practice groups
+
+OUTPUT FORMAT (internal only):
+{
+  "approved": boolean,
+  "reason": string | null,
+  "boundaryCheck": {
+    "singleMatterContext": boolean,
+    "noConflictingPartyData": boolean,
+    "privilegeContained": boolean,
+    "clientIsolationMaintained": boolean,
+    "ethicalWallsRespected": boolean
+  },
+  "detectedMatters": string[],
+  "detectedClients": string[]
+}
+
+You do NOT explain. You do NOT chat. You ONLY output the JSON verdict.
+If cross-contamination is detected, approved = false. Zero tolerance.`
+    },
+
+    qa_counsel: {
+      name: 'QualityAssuranceCounsel',
+      model: 'thinker', // QwQ: Deep analysis to validate output structure
+      silent: true, // Does not produce user-facing output
+      systemPrompt: `You are the Output Validator, a silent quality gate for all legal AI responses.
+
+YOUR MISSION: Ensure every output meets professional standards before human review.
+
+SILENT VETO RULES:
+1. REJECT if the response lacks proper legal citations (case law, statutes, regulations)
+2. REJECT if the response lacks jurisdiction tags (Federal, State, specific court)
+3. REJECT if the response lacks a confidence score (0-100%)
+4. REJECT if the response lacks a "Human Sign-off Required" flag for high-stakes advice
+5. REJECT if the response contains unsupported legal conclusions
+6. REJECT if the response format is incomplete or malformed
+
+OUTPUT FORMAT (internal only):
+{
+  "approved": boolean,
+  "reason": string | null,
+  "qualityCheck": {
+    "hasCitations": boolean,
+    "citationsValid": boolean,
+    "hasJurisdictionTags": boolean,
+    "hasConfidenceScore": boolean,
+    "confidenceScore": number | null,
+    "hasHumanSignoffFlag": boolean,
+    "humanSignoffRequired": boolean,
+    "noUnsupportedConclusions": boolean,
+    "formatComplete": boolean
+  },
+  "missingElements": string[],
+  "suggestedFixes": string[]
+}
+
+You do NOT explain. You do NOT chat. You ONLY output the JSON verdict.
+Lazy AI responses WILL be rejected. Every output must be audit-ready.`
     }
   }
 };
@@ -110,3 +448,31 @@ export function getModelForAgent(agentId: string): string {
   const modelType = agent.model as keyof typeof AI_CONFIG.models;
   return AI_CONFIG.models[modelType].id;
 }
+
+/**
+ * MODEL INVENTORY (January 2026)
+ * ================================
+ * 
+ * INSTALLED:
+ * - llama4:scout (67GB) - Flagship, general intelligence
+ * - llama3.3:70b (42GB) - Strategic analysis
+ * - deepseek-r1:32b (19GB) - Chain-of-thought reasoning
+ * - qwen3:32b (20GB) - Multilingual, general
+ * - deepseek-coder-v2 (8.9GB) - Coding specialist
+ * - gemma3:27b (17GB) - Google's latest
+ * - qwq:32b (19GB) - Deep reasoning
+ * - mixtral:8x22b (79GB) - MoE ensemble
+ * - llama3.2:3b (2GB) - Fast/UI
+ * - nomic-embed-text (274MB) - Embeddings
+ * 
+ * RETAINED FOR OMNITRANSLATE:
+ * - qwen2.5:32b (20GB) - Primary translation model
+ * - qwen2.5:14b (9GB) - Fallback translation model
+ * - qwen2.5:7b (4.7GB) - Fast translation for common languages
+ * 
+ * REMOVED (superseded):
+ * - qwen2.5-coder:32b → replaced by deepseek-coder-v2
+ * - llama3:70b → replaced by llama4:scout
+ * - llama3:8b → redundant
+ * - llama2:latest → outdated
+ */

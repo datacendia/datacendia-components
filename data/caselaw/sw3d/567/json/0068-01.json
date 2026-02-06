@@ -1,0 +1,174 @@
+{
+  "id": 12658883,
+  "name": "Allen MILLER, Appellant v. STATE of Arkansas, Appellee",
+  "name_abbreviation": "Miller v. State",
+  "decision_date": "2018-12-12",
+  "docket_number": "No. CR-18-303",
+  "first_page": "68",
+  "last_page": "76",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 S.W.3d 68"
+    },
+    {
+      "type": "parallel",
+      "cite": "2018 Ark. App. 614"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Ark. App. Ct.",
+    "id": 30140,
+    "name": "Court of Appeals of Arkansas, DIVISION III"
+  },
+  "jurisdiction": {
+    "id": 34,
+    "name_long": "Arkansas",
+    "name": "Ark."
+  },
+  "cites_to": [
+    {
+      "cite": "329 Ark. 238",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        236175
+      ],
+      "weight": 2,
+      "year": 1997,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/329/0238-01"
+      ]
+    },
+    {
+      "cite": "64 Ark. App. 98",
+      "category": "reporters:state",
+      "reporter": "Ark. App.",
+      "case_ids": [
+        6137482
+      ],
+      "weight": 2,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "parenthetical": "a notice of appeal must designate the judgment or order appealed from, and an order not mentioned in the notice of appeal is not properly before an appellate court"
+        },
+        {
+          "parenthetical": "a notice of appeal must designate the judgment or order appealed from, and an order not mentioned in the notice of appeal is not properly before an appellate court"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark-app/64/0098-01"
+      ]
+    },
+    {
+      "cite": "356 Ark. 106",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        5369074
+      ],
+      "weight": 2,
+      "year": 2004,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/356/0106-01"
+      ]
+    },
+    {
+      "cite": "368 Ark. 415",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        3800071
+      ],
+      "weight": 3,
+      "year": 2007,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/368/0415-01"
+      ]
+    },
+    {
+      "cite": "317 Ark. 384",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1443805
+      ],
+      "weight": 2,
+      "year": 1994,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/317/0384-01"
+      ]
+    },
+    {
+      "cite": "2014 Ark. App. 690",
+      "category": "reporters:state",
+      "reporter": "Ark. App.",
+      "case_ids": [
+        6894013
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/450/0259-01"
+      ]
+    },
+    {
+      "cite": "2017 Ark. App. 39",
+      "category": "reporters:state",
+      "reporter": "Ark. App.",
+      "case_ids": [
+        12374981
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/511/0880-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 953,
+    "char_count": 23064,
+    "pagerank": {
+      "raw": 5.207966869300525e-08,
+      "percentile": 0.32917324523553304
+    },
+    "sha256": "ad92eb4d4859e2689f4b226be880ae91f2806869f86082aa7e419f4f2f7ce164",
+    "simhash": "1:c43bd9e50d244aa1",
+    "word_count": 3852
+  },
+  "last_updated": "2024-02-27T18:45:52.975436+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Allen MILLER, Appellant\nv.\nSTATE of Arkansas, Appellee"
+    ],
+    "opinions": [
+      {
+        "text": "BRANDON J. HARRISON, Judge\nAllen Miller was convicted of first-degree murder and aggravated robbery and now appeals his convictions, arguing that the circuit court erred in denying the admission of certain evidence, allowing expert testimony regarding fingerprints, denying two motions for mistrial, and denying his motion for a new trial. We affirm.\nIn December 2015, Miller was charged with first-degree murder and aggravated robbery. The State alleged that Miller, Kazanna Dixon, and Rodshey Walker robbed George Banks in his home, that Mr. Banks was shot during the robbery, and that Mr. Banks died approximately twenty days later from his injuries. A jury trial was held over two days in August 2017. The jury found Miller guilty on both counts, and he was sentenced to thirty years' imprisonment and forty years' imprisonment, respectively, to run consecutively. Miller has timely appealed his convictions. Miller does not challenge the sufficiency of the evidence, so a detailed recitation of the facts is not necessary. Specific facts related to the points on appeal will be discussed as needed.\nI. Evidentiary Objections\nThe admissibility of evidence is left to the discretion of the circuit court, and we will not reverse a decision to admit or exclude evidence absent an abuse of discretion. Moore v. State , 2017 Ark. App. 39, 511 S.W.3d 880. An abuse of discretion occurs when the circuit court acts improvidently, thoughtlessly, or without due consideration. Hajek-McClure v. State , 2014 Ark. App. 690, 450 S.W.3d 259.\nRule 401 of the Arkansas Rules of Evidence defines relevant evidence as \"evidence having any tendency to make the existence of any fact that is of consequence to the determination of the action more probable or less probable than it would be without the evidence.\" Ark. R. Evid. 401. Arkansas Rule of Evidence 402 further provides that \"[e]vidence which is not relevant is not admissible.\" Although relevant, evidence may be excluded if its probative value is substantially outweighed by the danger of unfair prejudice, confusion of the issues, or misleading the jury, or by considerations of undue delay, waste of time, or needless presentation of cumulative evidence. Ark. R. Evid. 403.\nA. Medical Records\nAt the trial, Dr. Charles Kokes, the state medical examiner, testified that he performed the autopsy on Banks's body on November 25. Dr. Kokes explained that Mr. Banks had four separate gunshot injuries-the most serious of which passed through the neck and injured the right subclavian artery. Dr. Kokes stated that the gunshot woundsproximately caused Banks's death. On cross-examination, Dr. Kokes was questioned about some of Banks's medical records dated November 6:\nDEFENSE COUNSEL : Is that one of the records you reviewed?\nDR. KOKES : I probably did; yes.\nDEFENSE COUNSEL : Okay. And in this record, you indicated that it was a 30-year-old, gunshot wound to the right back, left hand, and it says continue, it's got \"slash/as\"; do you know what that is?\nDR. KOKES : That's, uh, that means 81 micrograms, uh, acetosalic silic [sic] acid, which is aspirin.\nDEFENSE COUNSEL : Okay, All right. And the third one down here, no further vascular surgery issues at the time?\nDR. KOKES : Yes.\nDEFENSE COUNSEL : All right. Then I want to go up to page 220 of 459, and it says \"A/P\"; what does that stand for?\"\nDR. KOKES : That stands for Assessment and Plan.\nDEFENSE COUNSEL : Okay. And it says \"the patient doing well from a vascular standpoint, with adequate palpable RUE and RLE.\" Explain that, please?\nDR. KOKES : \"RUE\" is right upper extremity, and right lower extremity, \"RLE\" is right lower extremity.\nDr. Kokes agreed that he was not qualified to opine on what the doctors or nurses should or should not have done regarding the standard of care. He also agreed that when he classified the gunshot wounds as the proximate cause of death, he meant from a medical standpoint, not a legal standpoint. But on redirect Dr. Kokes agreed that he did not see an intervening cause for Banks's death and said that \"[e]verything I saw at autopsy is explained by the passage of the gunshot wound path.\"\nAfter Dr. Kokes was excused as a witness and the jury heard testimony from the firearms examiner, defense counsel sought to introduce two pages of the medical records about which Dr. Kokes had been questioned. The State objected on hearsay grounds, arguing that Dr. Kokes had not prepared the medical records. The circuit court agreed, stating,\nDr. Kokes actually read portions of those, and he read them, or you read them and he agreed, or he read them and said that-I think you read them to him, but he acknowledged them. He testified regarding the exhibits themselves, I think the balance of what's on the exhibits, the objection by the State as to hearsay is appropriate[.] ... So I'm going to sustain the objection. I mean, certainly, you can argue what he testified to regarding him being shown those records and his testimony regarding what's said in those records, but the records themselves are hearsay.\nDefense counsel then proffered the two pages of medical records.\nOn appeal, Miller argues that the circuit court abused its discretion by not allowing him to \"present key evidence which would have rebutted testimony regarding the cause of Mr. Banks's death.\" Miller cites notations from the medical records that Banks was \"doing well from a vascular standpoint\" and was \"intubated\" but \"alert and awake.\" Miller asserts that he was prejudiced by the court's ruling because \"it took away an opportunity of Appellant to present a defense.\"\nThe State counters that the two pages that Miller wanted admitted merely show that on November 6, the day after the shooting, Banks was \"doing well from a vascular standpoint\" and was \"intubated\" but \"alert and awake.\" The State argues that neither of those statements support Miller's presumed theory, which is that a lack of medical care, and not the gunshot wounds, was the proximate cause of death.\nWe hold that the circuit court did not abuse its discretion in not admitting the two pages of medical records. Miller does not articulate what theory the documents would support, but presuming it is a standard-of-care issue as the State suggests, the documents do not tend to support the conclusion that Banks's death was caused by a lack of medical care. We also note that the statement that Banks was \"doing well from a vascular standpoint\" was heard by the jury during defense counsel's questioning of Dr. Kokes. So the circuit court's exclusion could not have prejudiced Miller's defense in any event. To the extent Miller sought to use a couple of pages of Banks's medical records to challenge or undermine the autopsy findings, he essentially did so.\nB. Phone Conversation\nAt trial, State's witness Narcissa Singleton testified that on the night of November 5, she was at the home of her boyfriend, Chauncey Thomas. She said that she saw Miller, Dixon, and Walker at Thomas's house; but she also said that she did not hear the conversation they had with Thomas. She acknowledged telling the police earlier that Miller had said they \"had hit a lick,\" but she testified that she did not know who said that.\nOn the second day of Miller's jury trial, which was a Monday, a hearing was held outside the presence of the jury to discuss the admissibility of a phone call between Miller and Singleton that had been recorded the previous evening at 10:45 p.m. During that phone call, Miller had told Singleton to \"keep playing dumb\" and that she had \"done good\" in her testimony. The State wanted to admit the recording as evidence and play it for the jury. Defense counsel objected based on surprise and relevance grounds. The State argued that it was relevant because it established that Miller was attempting to prevent a witness from testifying against him by encouraging her to change her story or to minimize her account of the events the night of the shooting. This, the State argued, indicated guilt. Defense counsel countered that the recording was more prejudicial than probative because it would reveal to the jury that Miller was in jail. The court ruled that the recording was evidence of consciousness of guilt and that it was more probative than prejudicial. The court found that the jury's becoming aware that Miller was in detention was not particularly prejudicial because \"he's charged; the jury is not unaware that he's charged with serious crimes.\" Detective Vic Brooks was called as a witness, and the recording was introduced and played for the jury. The court admonished the jury that \"[t]he location of the origination of that call is not to be considered by you in any way, shape, form or fashion in determining the guilt of the defendant.\"\nOn appeal, Miller argues that he was unfairly surprised by the recording, and although he was afforded an opportunity to listen to it, he was not given adequate time to prepare an argument against its admissibility. He also argues that the recording was not probative of guilt because Singleton's testimony had already \"put him with the other persons who had pled guilty to their involvement in the offense after the offense had occurred.\" Finally, he argues that the probative value of the recording was outweighed by the danger of undue prejudice and that the recording unnecessarily revealed that he was incarcerated. Miller claims the prejudice was so great that he did not receive a fair trial and asks this court to reverse and remand on this basis.\nThe State responds that Miller was attempting to fabricate false evidence or influence a witness and that it was not unfairly prejudicial for the jury to hear this attempt. It also argues that Miller raised no objection to the adequacy of the circuit court's admonition to the jury.\nWe hold that the circuit court did not abuse its discretion in finding the recording admissible. While it was prejudicial, the probative value of the call was not substantially outweighed by the danger of unfair prejudice. And the circuit court's admonition was sufficient to cure any possible prejudice that could stem from the jury learning that Miller was incarcerated during the trial.\nC. Fingerprint Testimony\nDuring its case-in-chief, the State offered the testimony of Sergeant Rodney Smith, who oversees crime-scene processing and evidence for the Jonesboro Police Department. Sgt. Smith was responsible for collecting physical evidence from the scene of Banks's murder. When the State began asking Sgt. Smith about fingerprints, defense counsel objected to his testifying as a \"fingerprint expert\" without laying a proper foundation. After Sgt. Smith explained that he had been trained in advanced techniques of collecting and identifying fingerprints as part of his training as a crime-scene investigator, the State asked that he be qualified as an expert in fingerprint collection. The court agreed over defense counsel's objection. Sgt. Smith then explained that he had not collected fingerprints at the crime scene in this case because he did not see \"any objects that were obvious at the scene itself, that were conducive for fingerprinting that we knew the suspects had touched.\"\nOn this point, Miller argues that the circuit court erred in allowing Sgt. Smith to offer an expert opinion on fingerprint collection; specifically, his opinion that fingerprints could not be lifted at the scene. He concludes that he was prejudiced and that this court should reverse and remand.\nIn response, the State cites Ark. R. Evid. 702, which governs the testimony of experts: \"If scientific, technical, or other specialized knowledge will assist the trier of fact to understand the evidence or to determine a fact in issue, a witness qualified as an expert by knowledge, skill, experience, training, or education, may testify thereto in the form of an opinion or otherwise.\" The State also explains that if some reasonable basis exists from which it can be said the witness has knowledge of the subject beyond that of ordinary knowledge, the evidence is admissible as expert testimony. Dillon v. State , 317 Ark. 384, 877 S.W.2d 915 (1994). There was a reasonable basis to conclude that Sgt. Smith had knowledge of fingerprint collection beyond that of ordinary knowledge; also, defense counsel was allowed to cross-examine Sgt. Smith on the issue. We hold that the circuit court did not abuse its discretion in allowing Sgt. Smith to testify as an expert on the collection of fingerprints.\nII. Motions for Mistrial\nA mistrial is a drastic remedy and should be declared when there has been an error so prejudicial that justice cannot be served by continuing the trial or when it cannot be cured by an instruction. Holsombach v. State , 368 Ark. 415, 246 S.W.3d 871 (2007). The circuit court has wide discretion in granting or denying a motion for mistrial, and absent an abuse of that discretion, the circuit court's decision will not be disturbed on appeal. Id.\nA. Trial Phase\nDuring Narcissa Singleton's testimony, the State asked her if she had been intimidated or coerced by anyone, which prompted an objection from defense counsel. Defense counsel argued that even asking the question implied that his client had something to do with intimidation, so he requested a mistrial. The court found that the question was generic in nature, it did not imply that any particular person might have threatened the witness, and the defendant had suffered no undue prejudice as a result of the question. The court said it would allow the question and deny the motion for mistrial. Defense counsel continued to argue that any questioning about threatening should be done outside the presence of the jury, prompting the court to change its ruling in part. The State was not allowed to pursue that line of questioning, but the motion for mistrial was still denied. Defense counsel did not request an admonition.\nHere, Miller argues that the circuit court abused its discretion in denying the motion for mistrial because the jury was left to infer that he had intimidated a witness. He again argues that suggestions of witness intimidation should have been raised outside the jury's presence, though he also acknowledges that there was a hearing to discuss text messages sent to Singleton from Miller's mother. It was during that hearing that Singleton indicated that she was afraid. But at no point did she testify to the jury that anyone had threatened her.\nThe State presses that a mistrial was not a proper remedy because this was not a case in which justice could not have been served by continuing the trial, and any prejudice could have been purged by other means. Miller's objection to the question was ultimately sustained, and he did not request an admonition telling the jury to disregard the question. Therefore, the State contends, the circuit court did not abuse its discretion by denying the motion for mistrial.\nWe agree with the State. As the circuit court found, the question was generic in nature; the witness was not allowed to answer the question; the State was not allowed to pursue the line of questioning; and Miller did not request an admonition asking that the jury disregard the question. Given these circumstances, we hold that the circuit court did not err when it denied the motion for mistrial.\nB. Sentencing Phase\nMelissa Brown, who lived with Banks and was present when the murder and robbery occurred, testified during the sentencing phase of the trial. She said that she and Banks had planned to relocate and that she might eventually follow through with those plans, but she and her children remained in Jonesboro for now. She then said,\nMy children, we were born here, we were raised here, and I don't know the amount of time given to the defendant will bring [Mr. Banks] back to us, but what it can do is bring peace of mind to my family, knowing that we can continue to live in our hometown without fear of ever seeing his face again[.]\nDefense counsel objected and moved for a mistrial. Defense counsel argued that it was improper for the witness to say she was in fear of the defendant or to comment on how much time the defendant should serve. The circuit court sustained the objection, struck the statement made by the witness, and instructed the jury as follows:\nLadies and gentlemen, I've sustained the objection, and the objection was made to the witness testifying at this phase of the trial regarding what the sentence should be, or what the sentence the jury should impose, and in that nature and that's improper victim impact testimony and the jury is this sole determiner of what the sentence should be and what appropriate sentence within the range of punishment should be handed down. It is improper for the witness to suggest any amount or whether it be extensive or unextensive. So you're to disregard that testimony in that regard, the aspect of it where that was inferred.\nOn appeal, Miller asserts that Brown's testimony, which suggested that he would be released from prison and harm Brown and her family, was prejudicial, and the circuit court's curative instruction did not cure the prejudice. The State points out that Brown never commented on the amount of time that Miller should receive, nor did she suggest that Miller would intimidate or harm her family upon his release from prison. She merely indicated that she and her children would prefer to never see Miller again. Even if we accept that the particular statement was improper victim-impact testimony, any prejudice was cured by the circuit court's robust admonition to the jury.\nWe agree with the State and hold that any prejudice from Ms. Brown's statement was cured by the court's instruction to the jury. We also note that Miller never argued to the circuit court that its curative instruction was insufficient. All things considered, the circuit court did not err when it denied Miller's motion for a mistrial.\nIII. Motion for New Trial\nMiller was convicted of first-degree murder and aggravated robbery and received sentences of thirty years' imprisonment and forty years' imprisonment, respectively, to run consecutively. The court entered its written order on August 8, and on September 6, Miller moved for a new trial, arguing that during sentencing, \"the State mentioned that the Defendant had been arrested twenty-two times\" and that this arrest history was \"prejudicially announced to the jury without the clarification that his arrests were not convictions.\" He also asserted that his prior arrest history was not relevant, that its probative value was substantially outweighed by the danger of unfair prejudice, and that the arrest reports were not disclosed to him during discovery and therefore should not have been allowed.\nThe State responded that the fact of Miller's twenty-two arrests had been disclosed by witness testimony during the sentencing phase, and \"[t]he difference between arrests and convictions were subsequently identified by defense counsel on re-direct examination.\" The State also argued that it was not required to disclose rebuttal evidence and that the arrest evidence was offered to rebut testimony of Miller's good character.\nMiller filed a notice of appeal from the August 8 order on October 5. The circuit court did not rule on the new-trial motion, and it was deemed denied on October 6. No amended notice of appeal was filed.\nOn appeal, Miller argues that the circuit court erred in denying his motion for new trial because the State had made \"impermissible and prejudicial arguments\" during its closing argument in the sentencing phase by mentioning Miller's twenty-two arrests. He again asserts that his prior arrests were not relevant, that the probative value of the arrest history was outweighed by the danger of its undue prejudice, and that the arrest reports were not disclosed to the defense during discovery, so the reports should not have been allowed.\nThe State contends that Miller failed to identify the denial of the motion for new trial in his notice of appeal, so this court should not address any issues related to that denial. The State also notes that Miller did not object when the witness was asked about the twenty-two arrests during sentencing; and the failure to object at the first opportunity does not usually preserve an issue for appeal. Finally, the State asserts that Miller's claim that the arrest evidence was admitted without clarifying that not all the arrests resulted in convictions is false.\nWe hold that Miller's argument is not properly before this court. Miller's motion for new trial was not deemed denied until October 6, but he filed a notice of appeal on October 5 and named only the August 8 sentencing order as the order being appealed. Rule 2(b)(2) of the Arkansas Rules of Appellate Procedure-Criminal provides:\nA notice of appeal filed before disposition of any post-trial motions shall be treated as filed on the day after the entry of an order disposing of the last motion outstanding or the day after the motion is deemed denied by operation of law. Such a notice is effective to appeal the underlying judgment or order. A party who also seeks to appeal from the grant or denial of the motion shall within thirty (30) days amend the previously filed notice, complying with subsection (a) of this rule.\nArk. R. App. P.-Crim. 2(b)(2) (2017).\nBecause the motion was deemed denied on October 6, the October 5 notice of appeal was deemed to have been filed the next day, October 7. Our supreme court has made clear that a notice of appeal must designate the judgment or order appealed from and be filed within thirty days of that order. McDonald v. State , 356 Ark. 106, 146 S.W.3d 883 (2004) ; see also Daniel v. State , 64 Ark. App. 98, 983 S.W.2d 146 (1998) (a notice of appeal must designate the judgment or order appealed from, and an order not mentioned in the notice of appeal is not properly before an appellate court). In addition, if an appellant wishes to appeal an adverse ruling on a posttrial motion and he has previously filed a notice of appeal of the judgment, the appellant must also file a notice of appeal from the ruling on the motion within the time provided in Ark. R. App. P.-Crim. 2. See, e.g. , Smith v. State , 329 Ark. 238, 947 S.W.2d 373 (1997). In other words, Miller had thirty days in which to amend his first notice of appeal to include the denial of his motion for a new trial. No amended notice of appeal was filed. The only order properly before us is the judgment of August 8. Therefore, we cannot reach the merit of his final point.\nAffirmed.\nKlappenbach and Glover, JJ., agree.\nThe recorded phone call begins with the message, \"This is a prepaid call from ... an inmate at the Craighead County Detention Center.\"",
+        "type": "majority",
+        "author": "BRANDON J. HARRISON, Judge"
+      }
+    ],
+    "attorneys": [
+      "Willard Proctor, Jr., P.A., by: Willard Proctor, Jr., Little Rock, for appellant.",
+      "Leslie Rutledge, Att'y Gen., by: Pamela Rumpz, Ass't Att'y Gen., for appellee."
+    ],
+    "corrections": "",
+    "head_matter": "Allen MILLER, Appellant\nv.\nSTATE of Arkansas, Appellee\nNo. CR-18-303\nCourt of Appeals of Arkansas, DIVISION III.\nOpinion Delivered December 12, 2018\nWillard Proctor, Jr., P.A., by: Willard Proctor, Jr., Little Rock, for appellant.\nLeslie Rutledge, Att'y Gen., by: Pamela Rumpz, Ass't Att'y Gen., for appellee."
+  },
+  "file_name": "0068-01",
+  "first_page_order": 68,
+  "last_page_order": 76
+}

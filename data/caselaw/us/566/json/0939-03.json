@@ -1,0 +1,59 @@
+{
+  "id": 12204053,
+  "name": "Moody v. Superior Court of California, Marin County, et al.",
+  "name_abbreviation": "Moody v. Superior Court of California, Marin County",
+  "decision_date": "2012-04-16",
+  "docket_number": "No. 11-1037",
+  "first_page": "939",
+  "last_page": "939",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 939"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 19,
+    "char_count": 123,
+    "ocr_confidence": 0.522,
+    "sha256": "41cd90238dd81191fd7e1c2e88c8a269bc8832c967ad865604ac641377584b7e",
+    "simhash": "1:f817564d90011992",
+    "word_count": 20
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Moody v. Superior Court of California, Marin County, et al."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 1st App. Dist. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1037.\nMoody v. Superior Court of California, Marin County, et al."
+  },
+  "file_name": "0939-03",
+  "first_page_order": 815,
+  "last_page_order": 815
+}

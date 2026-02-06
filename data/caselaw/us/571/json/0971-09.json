@@ -1,0 +1,68 @@
+{
+  "id": 12704432,
+  "name": "R.L., petitioner, v. PENNSYLVANIA.",
+  "name_abbreviation": "R.L. v. Pa.",
+  "decision_date": "2013-10-21",
+  "docket_number": "No. 13M42.",
+  "first_page": "971",
+  "last_page": "971",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 971"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 314"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 499"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 32,
+    "char_count": 219,
+    "sha256": "af80ac224ab5341264c179a23ac9a4dc39fe7d34496c71cf14b34bba2839bbe4",
+    "simhash": "1:d0efd234b7c99559",
+    "word_count": 36
+  },
+  "last_updated": "2021-09-08T21:16:17.237805+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "R.L., petitioner,\nv.\nPENNSYLVANIA."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Motion for leave to file a petition for writ of certiorari under seal with redacted copies for the public record granted."
+    ],
+    "corrections": "",
+    "head_matter": "R.L., petitioner,\nv.\nPENNSYLVANIA.\nNo. 13M42.\nSupreme Court of the United States\nOct. 21, 2013.\nMotion for leave to file a petition for writ of certiorari under seal with redacted copies for the public record granted."
+  },
+  "file_name": "0971-09",
+  "first_page_order": 971,
+  "last_page_order": 971
+}

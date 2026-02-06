@@ -1,0 +1,59 @@
+{
+  "id": 12202835,
+  "name": "Lemons v. McGrath, Warden",
+  "name_abbreviation": "Lemons v. McGrath",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10492",
+  "first_page": "838",
+  "last_page": "838",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 838"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.709,
+    "sha256": "87dfbedc3234bc0a88c0c8faabd303f0b280979fdcdbd76b9ce6df600947fb0d",
+    "simhash": "1:169337a525eb81fe",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lemons v. McGrath, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10492.\nLemons v. McGrath, Warden."
+  },
+  "file_name": "0838-12",
+  "first_page_order": 920,
+  "last_page_order": 920
+}

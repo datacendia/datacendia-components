@@ -1,0 +1,122 @@
+{
+  "id": 3679314,
+  "name": "BRUNNER, OHIO SECRETARY OF STATE v. OHIO REPUBLICAN PARTY et al.",
+  "name_abbreviation": "Brunner v. Ohio Republican Party",
+  "decision_date": "2008-10-17",
+  "docket_number": "No. 08A332",
+  "first_page": "5",
+  "last_page": "6",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "555 U.S. 5"
+    },
+    {
+      "type": "parallel",
+      "cite": "172 L. Ed. 2d 4"
+    },
+    {
+      "type": "parallel",
+      "cite": "129 S. Ct. 5"
+    },
+    {
+      "type": "vendor",
+      "cite": "2008 U.S. LEXIS 7762"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2008-002"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "532 U. S. 275",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9301210
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "286"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/532/0275-01"
+      ]
+    },
+    {
+      "cite": "536 U. S. 273",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1254550
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "283"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/536/0273-01"
+      ]
+    },
+    {
+      "cite": "116 Stat. 1708,42",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 167,
+    "char_count": 1881,
+    "ocr_confidence": 0.714,
+    "pagerank": {
+      "raw": 1.2260150611381596e-07,
+      "percentile": 0.6045821590370712
+    },
+    "sha256": "c3bbc6fec1eef20a61838f5a55187280e25838e2196f68fcddf42a1c95d358c4",
+    "simhash": "1:b8ea631773455d67",
+    "word_count": 319
+  },
+  "last_updated": "2024-02-27T16:45:54.330906+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "BRUNNER, OHIO SECRETARY OF STATE v. OHIO REPUBLICAN PARTY et al."
+    ],
+    "opinions": [
+      {
+        "text": "Per Curiam.\nOn October 9, 2008, the United States District Court for the Southern District of Ohio entered a temporary restraining order (TRO) directing Jennifer Brunner, the Ohio Secretary of State (Secretary), to update Ohio\u2019s Statewide Voter Registration Database to comply with \u00a7303 of the Help America Vote Act of 2002 (HAVA), 116 Stat. 1708,42 U. S. C. \u00a7 15483(a)(5)(B)(i) (2000 ed., Supp. V). The United States Court of Appeals for the Sixth Circuit denied the Secretary\u2019s motion to vacate the TRO. The Secretary has filed an application to stay the TRO with Justice Stevens as Circuit Justice for the Sixth Circuit, and he has referred the matter to the Court. The Secretary argues both that the District Court had no jurisdiction to enter the TRO and that its ruling on the merits was erroneous. We express no opinion on the question whether HAVA is being properly implemented. Respondents, however, are not sufficiently likely to prevail on the question whether Congress has authorized the District Court to enforce \u00a7 303 in an action brought by a private litigant to justify the issuance of a TRO. See Gonzaga Univ. v. Doe, 536 U. S. 273, 283 (2002); Alexander v. Sandoval, 532 U. S. 275, 286 (2001). We therefore grant the application for a stay and vacate the TRO.\nIt is so ordered.\nSection 15483(a)(5)(B)(i) states, in relevant part:\n\u201cThe chief State election official and the official responsible for the State motor vehicle authority of a State shall enter into an agreement to match information in the database of the statewide voter registration system with information in the database of the motor vehicle authority to the extent required to enable each such official to verify the accuracy of the information provided on applications for voter registration.\u201d",
+        "type": "majority",
+        "author": "Per Curiam."
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "BRUNNER, OHIO SECRETARY OF STATE v. OHIO REPUBLICAN PARTY et al.\nNo. 08A332.\nDecided October 17, 2008"
+  },
+  "file_name": "0005-01",
+  "first_page_order": 203,
+  "last_page_order": 204
+}

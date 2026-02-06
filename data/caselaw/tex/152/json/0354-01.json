@@ -1,0 +1,553 @@
+{
+  "id": 2246282,
+  "name": "Triangle Motors of Dallas v. Benjamin S. Richmond et al.",
+  "name_abbreviation": "Triangle Motors v. Richmond",
+  "decision_date": "1953-04-22",
+  "docket_number": "No. A-3935",
+  "first_page": "354",
+  "last_page": "361",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "152 Tex. 354"
+    },
+    {
+      "type": "parallel",
+      "cite": "258 S.W.2d 60"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "226 S.W. 2d 425",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2332155,
+        10197534
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/148/0456-01",
+        "/sw2d/226/0425-01"
+      ]
+    },
+    {
+      "cite": "148 Texas 456",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2332155
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/148/0456-01"
+      ]
+    },
+    {
+      "cite": "235 S.W. 2d 609",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2330539,
+        10207103
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/149/0507-01",
+        "/sw2d/235/0609-01"
+      ]
+    },
+    {
+      "cite": "197 S.W. 2d 332",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2335061,
+        10190742
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/145/0277-01",
+        "/sw2d/197/0332-01"
+      ]
+    },
+    {
+      "cite": "145 Texas 277",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2335061
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/145/0277-01"
+      ]
+    },
+    {
+      "cite": "225 S.W. 2d 576",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10204837
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/225/0576-01"
+      ]
+    },
+    {
+      "cite": "129 S.W. 2d 439",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10238120
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/129/0439-01"
+      ]
+    },
+    {
+      "cite": "172 S.W. 2d 297",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10207275,
+        2308527
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/172/0297-01",
+        "/tex/141/0332-01"
+      ]
+    },
+    {
+      "cite": "141 Texas 332",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2308527
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/141/0332-01"
+      ]
+    },
+    {
+      "cite": "238 S.W. 2d 172",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10192776,
+        2328383
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/238/0172-01",
+        "/tex/150/0191-01"
+      ]
+    },
+    {
+      "cite": "150 Texas 191",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2328383
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/150/0191-01"
+      ]
+    },
+    {
+      "cite": "154 S.W. 2d 625",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2314965,
+        10222230
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/137/0493-01",
+        "/sw2d/154/0625-01"
+      ]
+    },
+    {
+      "cite": "137 Texas 493",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2314965
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/137/0493-01"
+      ]
+    },
+    {
+      "cite": "215 S.W. 2d 585",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10258921,
+        2333819
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/215/0585-01",
+        "/tex/147/0353-01"
+      ]
+    },
+    {
+      "cite": "147 Texas 353",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2333819
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/147/0353-01"
+      ]
+    },
+    {
+      "cite": "229 S.W. 2d 357",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10195314,
+        2330581
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/229/0357-01",
+        "/tex/149/0139-01"
+      ]
+    },
+    {
+      "cite": "149 Texas 139",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2330581
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/149/0139-01"
+      ]
+    },
+    {
+      "cite": "207 S.W. 2d 374",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10194354,
+        8716534
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/207/0374-01",
+        "/tex/146/0387-01"
+      ]
+    },
+    {
+      "cite": "146 Texas 387",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        8716534
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/146/0387-01"
+      ]
+    },
+    {
+      "cite": "251 S.W. 2d 497",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2244769,
+        10202890
+      ],
+      "pin_cites": [
+        {
+          "page": "500"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/151/0425-01",
+        "/sw2d/251/0497-01"
+      ]
+    },
+    {
+      "cite": "151 Texas 425",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2244769
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/151/0425-01"
+      ]
+    },
+    {
+      "cite": "149 Texas 507",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2330539
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/149/0507-01"
+      ]
+    },
+    {
+      "cite": "216 S.W. 268",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8262546
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/216/0268-01"
+      ]
+    },
+    {
+      "cite": "32 A. 2d 27",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "347 Pa. 247",
+      "category": "reporters:state",
+      "reporter": "Pa.",
+      "case_ids": [
+        1217412
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/pa/347/0247-01"
+      ]
+    },
+    {
+      "cite": "182 S.W. 2d 419",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10204267
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/182/0419-01"
+      ]
+    },
+    {
+      "cite": "163 S.W. 2d 219",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10208354
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/163/0219-01"
+      ]
+    },
+    {
+      "cite": "244 S.W. 2d 660",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10212202,
+        2328399
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/244/0660-01",
+        "/tex/150/0662-01"
+      ]
+    },
+    {
+      "cite": "150 Texas 662",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2328399
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/150/0662-01"
+      ]
+    },
+    {
+      "cite": "172 S.W. 2d 295",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10207016,
+        2308465
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/172/0295-01",
+        "/tex/141/0328-01"
+      ]
+    },
+    {
+      "cite": "141 Texas 328",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2308465
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/141/0328-01"
+      ]
+    },
+    {
+      "cite": "254 S.W. 2d 172",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10196866
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/254/0172-01"
+      ]
+    },
+    {
+      "cite": "226 S.W. 2d 425",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2332155,
+        10197534
+      ],
+      "pin_cites": [
+        {
+          "page": "431"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/148/0456-01",
+        "/sw2d/226/0425-01"
+      ]
+    },
+    {
+      "cite": "148 Texas 456",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2332155
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/148/0456-01"
+      ]
+    },
+    {
+      "cite": "235 S.W. 2d 609",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2330539,
+        10207103
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/149/0507-01",
+        "/sw2d/235/0609-01"
+      ]
+    },
+    {
+      "cite": "197 S.W. 2d 332",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2335061,
+        10190742
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/145/0277-01",
+        "/sw2d/197/0332-01"
+      ]
+    },
+    {
+      "cite": "145 Texas 277",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2335061
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/145/0277-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 788,
+    "char_count": 15714,
+    "ocr_confidence": 0.618,
+    "pagerank": {
+      "raw": 2.25582049099036e-06,
+      "percentile": 0.9959115376996883
+    },
+    "sha256": "a1b42a1f482beff3c14d730d613661d5ba074737f5f098283ca5d373b3555725",
+    "simhash": "1:f96f60a01ea7c712",
+    "word_count": 2816
+  },
+  "last_updated": "2024-02-27T22:50:49.138434+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Triangle Motors of Dallas v. Benjamin S. Richmond et al."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Calvert\ndelivered the opinion of the Court.\nBenjamin S. Richmond was severely injured when he was hit by a descending elevator at Triangle Motors\u2019 place of business. At the conclusion of the evidence in Richmond\u2019s suit for damages, the trial court withdrew the case from the jury and rendered judgment for the defendant. The El Paso Court of Civil Appeals reversed the judgment of the trial court and remanded the cause for trial. Chief Justice Price dissented. 254 S.W. 2d 172.\nTriangle Motors asserts here that the Court of Civil Appeals erred in holding that there were questions of fact raised by the evidence, contending, in this respect, that the trial court properly withdrew the case from the jury because the evidence showed conclusively and as a matter of law that: (1) The plaintiff was guilty of contributory negligence which was a proximate cause of his injuries. (2) The plaintiff assumed the risk of injury and was barred from a recovery by the doctrine of volenti non fit injuria. (3) The plaintiff was a mere licensee or trespasser to whom the defendant owed no greater duty than not to intentionally or purposely injure him. (4) The defects or conditions upon which the plaintiff sought to predicate liability were open and obvious and the defendant therefore owed him no duty with respect thereto. A proper determination of these law questions must hinge on an acceptance of the evidence and the inferences therefrom in their aspects most favorable to the plaintiff\u2019s case and a discarding of contrary evidence and inferences. White v. White, 141 Texas 328, 172 S.W. 2d 295; King v. King, 150 Texas 662, 244 S.W. 2d 660. They need not be determined in the order in which they have been enumerated.\nThe record reflects that Triangle Motors, operator of a sales and service business in a four-story building in Dallas, engaged the services of Richmond, a plumber, and his helper, to unstop a wash rack drain located on the second floor of the building, to install a cover thereon and to make certain other plumbing repairs on the first floor.\nOn the first day of his work Richmond and his truck containing his tools were carried on the elevator to the second floor of the building where he completed the task of unstopping the wash rack drain. On the second day he first gave his attention to the tasks on the first floor, and having completed this work he left his truck containing his tools on the first floor near the elevator shaft and ascended a stairway to the second floor for the purpose of installing the cover on the wash rack drain. Discovering that he needed a hammer and: chisel -to properly install the cover he went to the elevator shaft to call down to his helper to bring the tools. The front of the shaft normally was barred by a wire gate with a closing switch or device that permitted the operation of the elevator only when the gate was closed, but on both of the days on which the plaintiff worked the gate on the second floor was open and the switch was blocked or propped so that the elevator would continue to operate.\nThe plaintiff approached the open shaft, placed his hand against a concrete pillar forming the southwest corner thereof and looked down the shaft. He could see the top of his truck and thought he saw the floor of the elevator resting at the first floor level. Standing thus he called to his helper but was unable to make himself heard above the din and noise of hammering in the body shop on the second floor. He then got down on his hands and knees and called down the shaft, and being even then unable to make himself heard he finally laid down on the floor with his hand against the concrete pillar and the upper part of his body and head supported on his elbows in \u00e1 raised position, his left elbow being about twelve inches back from the shaft and his head six to eight inches back from the shaft. While thus situated the elevator descended from the floor above, the bottom of the elevator first striking his right arm thereby jerking his body down and hitting and crushing his right shoulder and the upper part of his back.\nThe defendant\u2019s position that Richmond was a licensee at the time and place of his injury is based upon the contention that he was an invitee on only those portions of the premises where he was required to be in the performance of his work and only then while using such portions of the premises in the manner in which they were intended to be used. In this connection the defendant points out that the front of the elevator shaft was some thirty four feet from the wash drain and contends that the place of injury was therefore outside of the area encompassed by Richmond\u2019s invitation. Moreover, he contends that under no circumstances was Richmond an invitee in using the elevator shaft for calling below for \u2022 tools when a stairway was available for use in obtaining the tools.\nWhether the scope of Richmond\u2019s invitation as a business visitor was broad enough to include the use of the elevator shaft for the purpose for which he used it must depend on whether the defendant could reasonably have anticipated that such use or a similar use would be made of the shaft by one in Richmond\u2019s position. 65 C.J.S., Negligence, \u00a748, p. 536; 38 Am. Jur., Negligence, \u00a7\u00a7 100,101, pp. 761,762; Restatement of Torts, \u00a7343, p. 940; Texaco Country Club v. Wade, Tex. Civ. App., 163 S.W. 2d 219, no writ history; Bohn Bros. v. Turner, Tex. Civ. App., 182 S.W. 2d 419, writ refused, want of merit. Having left his tools on the first floor Richmond had two ways of obtaining them. He could have gone below for them himself or he could have called his helper to bring them up. It was certainly not unreasonable that he chose the latter course. In attempting to call to his helper he could have called down the well of the stairway or down the shaft of the elevator nearer which his helper was situated. We cannot say as a matter of law that this choice of the elevator shaft under the circumstances was not reasonably foreseeable by the defendant. Parsons v. Drake, 347 Pa. 247, 32 A. 2d 27; Southwestern Portland Cement Co. v. Bustillos, Tex. Civ. App., 216 S.W. 268.\nAccepting then the status of the plaintiff at the time and place of his injury as that of business invitee, the defendant owed him a duty to use reasonable care to make and keep the premises reasonably safe for his use, including the duty to warn him of dangers which were not obvious, reasonably apparent or as well known to the plaintiff as they were to the defendant. Smith v. Henger, 148 Texas 456, 226 S.W. 2d 425,431; Renfro Drug Co. v. Lewis, 149 Texas 507, 235 S.W. 2d 609; Hall v. Medical Bldg, of Houston, 151 Texas 425, 251 S.W. 2d 497,500.\nBy his pleading and his testimony the plaintiff sought to predicate liability of the defendant on its negligence in operating the elevator with the guard gate open, in failing to give warning by a signalling device of the approach of the elevator to the unguarded door, in failing to keep a proper lookout for the plaintiff and persons near the unguarded shaft and in failing to provide sufficient operators for the safe operation of the elevator. There was no signalling device on the elevator for giving warning of its approach. At the time of plaintiff\u2019s injury the elevator was being operated by one man who was seated inside of an automobile on the elevator and who could not from such position see persons near the openings as the elevator approached. But the defendant contends that the dangers complained of were open and obvious and that the plaintiff had opportunity equal with that of the defendant to know of such dangers. It was because of Ms agreement with the defendant on this phase of the case that Chief Justice Price dissented from the Court of Civil Appeals\u2019 judgment of remand.\nThe rule contended for by the defendant was announced and applied by this court in the case of Houston National Bank v. Adair, 146 Texas 387, 207 S.W. 2d 374. But each case must be decided on its own peculiar facts and therein lies the distinction between the Adair case and this case. In the Adair case the defendant\u2019s liability was said to rest on its negligence in maintaining a stairway with improperly lighted steps, slick from use, without a rubber covering and without a proper handrail. In holding that the bank violated no duty it owed the plaintiff the court pointed out that the condition complained of had existed for a long period of time, that the plaintiff as a customer of the bank had used the stairway at irregular intervals over a period of years and that the conditions complained of were open and obvious and as easily perceptible to the plaintiff as to the bank or its employees.\nIn this case the plaintiff had ridden the elevator on only one occasion prior to his injury, and while he no doubt perceived on that occasion that the elevator would operate and was operated with the gate on the second floor open, it cannot be said, as a matter of law, that he was thereby reasonably apprised of the fact that it would be so operated forever thereafter. Neither can it be said as a matter of law that from the one previous experience the plaintiff had equal knowledge with the defendant that the elevator was operated at all times without adequate warning or signalling facilities, without sufficient operators to insure its operation with safety to those situated as was the plaintiff and without a proper lookout being kept by the operators. The fact that the plaintiff had had one prior opportunity when by close observation he might conceivably have discovered the conditions which later contributed to his injury, and failed to discover them, did not as a matter of law relieve the defendant of its duty to the plaintiff. It is not the philosophy of he Adair case that one trip through a hall of dangers which are not open and obvious and easily perceptible to one having no occasion to look for them will relieve the owner of the premises of his duty to his guests to eliminate such dangers or to warn of their presence. A guest has a right to presume that premises are kept in a safe condition for his use and is under no obligation to search out defects therein. Blanks v. Southland Hotel, Inc., 149 Texas 139, 229 S.W. 2d 357.\nNeither do we believe that the plaintiff in approaching and remaining near the open elevator shaft in the manner which he did was contributorily negligent as a matter of law or consented to his injury in such manner as to bar a recovery under the doctrine of volenti non fit injuria.\nThe opinion of the Court of Civil Appeals prepared by Associate Justice McGill contains an excellent analysis of the facts in the light of accepted rules of law governing the question of the plaintiff\u2019s contributory negligence, to which little can or need be added. Suffice it to say that that opinion and the record reflect that at the time the plaintiff approached the elevator shaft he thought he was on the top floor of the building and as he looked down the shaft he thought he saw the floor of the elevator below. Under such circumstances he had no reason to anticipate that he would be hit by a descending elevator. Neither was there occasion, under such circumstances, for him to look above for the presence of the elevator, look for the cables and pulleys or listen for the approach of the elevator as the defendant contends he should have done.\nThe defendant says that if the plaintiff had been exercising ordinary care and prudence he would have observed as he left the elevator the day before that the building had more than two stories, and that he also should have known that what he saw when he looked below was not the floor of the elevator because it did not in fact look like the floor of an elevator. But these are matters for consideration by the jury. With equal force it could be said of the plaintiff\u2019s conduct in the case of Texas & P. Ry. Co. v. Day, 145 Texas 277, 197 S.W. 2d 332, that he should have known better than to start across railway tracks when the warning lights were flashing; or in the ease of Lang v. Henderson, 147 Texas 353, 215 S.W. 2d 585, that he should have known not to remain in an apartment in which he knew there had been a gas leak for some two months; or in Blanks v. Southland Hotel Company, 149 Texas 139, 229 S.W. 2d 357, that he should have known not to try to go down a dimly lighted stairway at nighttime; or in the case of Walgreen-Texas Co. v. Shivers, 137 Texas 493, 154 S.W. 2d 625, that she should have known not to try to leave the soda fountain without looking to see if she could step away with safety; or in the case of Renfro Drug Co. v. Lewis, 149 Texas 507, 235 S.W. 2d 609, that he should have known of a dangerous condition of steps he was about to use from a warning sign on the door. But in each and all of these cases this court held the question of contributory negligence to be one of fact for the trier of the facts. We do not believe this court would be justified in saying, as a matter of law, that the conduct of the plaintiff in the instant case was more unreasonable or more' lacking in due care for his owti safety than was the conduct of the various plaintiffs in the cases cited.\nA plaintiff\u2019s right to recover cannot be defeated on the theory that he assumed the risk of injury under the doctrine of volenti non fit injuria unless it appears that with full knowledge of the nature and extent of the danger involved he put himself in the way of the particular risk involved as the result of an intelligent choice. Wood v. Kane Boiler Works, 150 Texas 191, 238 S.W. 2d 172. Undoubtedly the plaintiff knew that there was some danger in a close approach to the open elevator shaft but viewed from his standpoint, according to his testimony, this danger lay in the risk of falling into the shaft. Believing that he was on the top floor of the building and that the elevator was below him, he cannot be held as a matter of law to have consented to accept the risk of being hit by an elevator descending from above with the guard gate open, without giving warn-, ing signals and without a proper lookout being kept for persons at or near the shaft.\nThe judgment of the Court of Civil Appeals is affirmed.\nOpinion delivered April 22, 1953.\nRehearing overruled June 3, 1953.",
+        "type": "majority",
+        "author": "Mr. Justice Calvert"
+      }
+    ],
+    "attorneys": [
+      "Carter, Gallagher, Roberts & Jones, R. Guy Carter and Ben T. Warder, Jr., Carrington, Gowan, Johnson & Walker, and Crozier Gowan, all of Dallas, for petitioner.",
+      "Storey, Armstrong & Steger and Hugh L. Steger, for Respondent Richmond, Strausburger, Price, Kelton, Miller & Martin, and Mark Martin, all of Dallas, for respondent, Insurers Indemnity and Insurance Company."
+    ],
+    "corrections": "",
+    "head_matter": "Triangle Motors of Dallas v. Benjamin S. Richmond et al.\nNo. A-3935.\nDecided April 22,1953.\nRehearing overruled June 3,1953.\n(258 S. W. 2d Series 60)\nCarter, Gallagher, Roberts & Jones, R. Guy Carter and Ben T. Warder, Jr., Carrington, Gowan, Johnson & Walker, and Crozier Gowan, all of Dallas, for petitioner.\nThe Court of Civil Appeals erred in reversing the judgment of the trial court and remanding this cause because the undisputed testimony showed, as a matter of law, that plaintiff was guilty of contributory negligence at the time and on the occasion in question. Said court also erred in holding that the evidence was sufficient to raise issues as to whether the plaintiff was an invitee or a mere trespasser, because in either instance the undisputed testimony showed that the defendant violated no duty it owed to plaintiff. United Gas Corp. v. Crawford, 141 Texas 332, 172 S.W. 2d 297; Burton v. Billingsley, Texas Civ. App. 129 S.W. 2d 439; Hodges v. Nix, Texas Civ. App., 225 S.W. 2d 576.\nStorey, Armstrong & Steger and Hugh L. Steger, for Respondent Richmond, Strausburger, Price, Kelton, Miller & Martin, and Mark Martin, all of Dallas, for respondent, Insurers Indemnity and Insurance Company.\nIn response to petitioner\u2019s proposition cited, Texas & Pac. Ry. Co. v. Day, 145 Texas 277, 197 S.W. 2d 332; Renfro Drug Co. v. Lewis, 235 S.W. 2d 609; Smith v. Henger, 148 Texas 456, 226 S.W. 2d 425."
+  },
+  "file_name": "0354-01",
+  "first_page_order": 370,
+  "last_page_order": 377
+}

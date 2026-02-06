@@ -1,8 +1,12 @@
-// =============================================================================
-// DATACENDIA PLATFORM - DECISION SERVICE
-// Full lifecycle tracking, replay, and audit trail for all decisions
-// "Black Box Flight Recorder" for enterprise decisions
-// =============================================================================
+/**
+ * DATACENDIA PLATFORM - DECISION SERVICE
+ * 
+ * Copyright (c) 2024-2026 Datacendia, Inc. All Rights Reserved.
+ * PROPRIETARY AND CONFIDENTIAL
+ * 
+ * Full lifecycle tracking, replay, and audit trail for all decisions
+ * "Black Box Flight Recorder" for enterprise decisions
+ */
 
 import { BaseService } from '../core/services/BaseService.js';
 import { aiModelSelector } from '../config/aiModels.js';
@@ -227,9 +231,6 @@ export class DecisionService extends BaseService {
         assumptions: [],
         dataSourcesUsed: [],
       },
-      budget: params.budget,
-      timeframe: params.timeframe,
-      deadline: params.deadline,
       
       preMortems: [],
       councilSessions: [],
@@ -247,6 +248,11 @@ export class DecisionService extends BaseService {
       
       version: 1,
     };
+    
+    // Conditionally add optional properties only if they have values
+    if (params.budget !== undefined) decision.budget = params.budget;
+    if (params.timeframe !== undefined) decision.timeframe = params.timeframe;
+    if (params.deadline !== undefined) decision.deadline = params.deadline;
 
     this.decisions.set(id, decision);
     
@@ -283,7 +289,7 @@ export class DecisionService extends BaseService {
           agentsInvolved: (act.details as any)?.agentsInvolved,
         }));
 
-        return {
+        const result: Decision = {
           id: dbDecision.id,
           organizationId: dbDecision.organization_id,
           createdBy: dbDecision.user_id,
@@ -302,9 +308,6 @@ export class DecisionService extends BaseService {
             assumptions: [],
             dataSourcesUsed: [],
           },
-          budget: dbDecision.budget || undefined,
-          timeframe: dbDecision.timeframe || undefined,
-          deadline: dbDecision.deadline || undefined,
           preMortems: [],
           councilSessions: [],
           ghostBoardSimulations: [],
@@ -312,6 +315,13 @@ export class DecisionService extends BaseService {
           version: 1,
           auditHash: `sha256:${dbDecision.id.slice(0, 16)}...`,
         };
+        
+        // Conditionally add optional properties
+        if (dbDecision.budget != null) result.budget = dbDecision.budget;
+        if (dbDecision.timeframe != null) result.timeframe = dbDecision.timeframe;
+        if (dbDecision.deadline != null) result.deadline = dbDecision.deadline;
+        
+        return result;
       }
     } catch (err) {
       this.logger.warn('Database query failed for getDecision, falling back to in-memory');
@@ -345,15 +355,17 @@ export class DecisionService extends BaseService {
       });
 
       if (dbDecisions.length > 0) {
-        return dbDecisions.map(d => ({
-          id: d.id,
-          title: d.title,
-          status: d.status.toLowerCase(),
-          priority: d.priority.toLowerCase(),
-          createdAt: d.created_at,
-          riskScore: undefined,
-          eventCount: d.decision_activities?.length || 0,
-        }));
+        return dbDecisions.map(d => {
+          const summary: DecisionSummary = {
+            id: d.id,
+            title: d.title,
+            status: d.status.toLowerCase(),
+            priority: d.priority.toLowerCase(),
+            createdAt: d.created_at,
+            eventCount: d.decision_activities?.length || 0,
+          };
+          return summary;
+        });
       }
     } catch (err) {
       this.logger.warn('Database query failed, falling back to in-memory');
@@ -375,15 +387,21 @@ export class DecisionService extends BaseService {
     const offset = options?.offset || 0;
     const limit = options?.limit || 50;
 
-    return decisions.slice(offset, offset + limit).map(d => ({
-      id: d.id,
-      title: d.title,
-      status: d.status,
-      priority: d.priority,
-      createdAt: d.createdAt,
-      riskScore: d.preMortems[d.preMortems.length - 1]?.riskScore,
-      eventCount: d.timeline.length,
-    }));
+    return decisions.slice(offset, offset + limit).map(d => {
+      const lastPreMortem = d.preMortems[d.preMortems.length - 1];
+      const summary: DecisionSummary = {
+        id: d.id,
+        title: d.title,
+        status: d.status,
+        priority: d.priority,
+        createdAt: d.createdAt,
+        eventCount: d.timeline.length,
+      };
+      if (lastPreMortem?.riskScore !== undefined) {
+        summary.riskScore = lastPreMortem.riskScore;
+      }
+      return summary;
+    });
   }
 
   async updateDecision(
@@ -701,8 +719,11 @@ export class DecisionService extends BaseService {
       byPriority[d.priority] = (byPriority[d.priority] || 0) + 1;
 
       if (d.preMortems.length > 0) {
-        totalRisk += d.preMortems[d.preMortems.length - 1].riskScore;
-        riskCount++;
+        const lastPreMortem = d.preMortems[d.preMortems.length - 1];
+        if (lastPreMortem) {
+          totalRisk += lastPreMortem.riskScore;
+          riskCount++;
+        }
       }
 
       if (d.outcome) {
@@ -770,8 +791,11 @@ export class DecisionService extends BaseService {
       byStatus[d.status] = (byStatus[d.status] || 0) + 1;
 
       if (d.preMortems.length > 0) {
-        totalRisk += d.preMortems[d.preMortems.length - 1].riskScore;
-        riskCount++;
+        const lastPreMortem = d.preMortems[d.preMortems.length - 1];
+        if (lastPreMortem) {
+          totalRisk += lastPreMortem.riskScore;
+          riskCount++;
+        }
       }
 
       if (d.outcome) {

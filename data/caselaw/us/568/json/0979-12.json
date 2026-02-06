@@ -1,0 +1,59 @@
+{
+  "id": 12420103,
+  "name": "Patraw v. Groth et al.",
+  "name_abbreviation": "Patraw v. Groth",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 12-287",
+  "first_page": "979",
+  "last_page": "979",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 979"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 69,
+    "ocr_confidence": 0.666,
+    "sha256": "b3dc8bc518d91f422089a71b09d93100c26ec1d015de3411d1eae6c9149456cd",
+    "simhash": "1:d222a3f6170ac184",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Patraw v. Groth et al."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Nev. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-287.\nPatraw v. Groth et al."
+  },
+  "file_name": "0979-12",
+  "first_page_order": 1055,
+  "last_page_order": 1055
+}

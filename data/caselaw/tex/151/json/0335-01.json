@@ -1,0 +1,140 @@
+{
+  "id": 2244760,
+  "name": "Irene Fuller et vir v. Constance Skinner Burran et vir.",
+  "name_abbreviation": "Fuller v. Burran",
+  "decision_date": "1952-07-16",
+  "docket_number": "No. A-3737",
+  "first_page": "335",
+  "last_page": "336",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "151 Tex. 335"
+    },
+    {
+      "type": "parallel",
+      "cite": "250 S.W.2d 587"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "242 S. W. 2d 881",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10217480,
+        2328378
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/242/0881-01",
+        "/tex/150/0506-01"
+      ]
+    },
+    {
+      "cite": "150 Tex. 506",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2328378
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/150/0506-01"
+      ]
+    },
+    {
+      "cite": "224 S. W. 2d 461",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2332161,
+        10200327
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/148/0297-01",
+        "/sw2d/224/0461-01"
+      ]
+    },
+    {
+      "cite": "148 Texas 297",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2332161
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/148/0297-01"
+      ]
+    },
+    {
+      "cite": "248 S.W. 2d 1015",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10219931
+      ],
+      "pin_cites": [
+        {
+          "page": "1016"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/248/1015-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 133,
+    "char_count": 1480,
+    "ocr_confidence": 0.57,
+    "pagerank": {
+      "raw": 1.250850337057421e-07,
+      "percentile": 0.6100434812994889
+    },
+    "sha256": "852f1e3383efe5603d466f14defb24f5ea10d1f3d2f65aa06aa39a231e14ec97",
+    "simhash": "1:88d9edf6670fe128",
+    "word_count": 263
+  },
+  "last_updated": "2024-02-27T19:52:08.570687+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Irene Fuller et vir v. Constance Skinner Burran et vir."
+    ],
+    "opinions": [
+      {
+        "text": "Per Curiam:\nIn this case the Court of Civil Appeals (248 S.W. 2d 1015, 1016) has sustained a point of error which presents the question that a material fact finding of the court was \u201ccontrary to a preponderance of the evidence.\u201d There was no point presenting the question of no evidence. Instead of remanding the cause to the trial court, the Court of Civil Appeals rendered judgment contrary to the finding. By so doing it fell into conflict with the opinion of this court in Childre v. Casstevens, 148 Texas 297, 224 S. W. 2d 461, and cases there cited.\nBy Rule 483, TRCP, this court is authorized to reverse and remand a case on the application for writ of error without the necessity of granting the writ and hearing the case when the decision of the Court of Civil Appeals is in conflict with a previous opinion of this court. Cases in which we have exercised that authority are collated in Railroad Commission of Texas v. Roberdeau, 150 Tex. 506, 242 S. W. 2d 881. This is a proper case for its exercise, and it is therefore ordered that the judgment of the Court of Civil Appeals, in so far as it rendered judgment against petitioners, be reversed, and the cause remanded to the trial court.\nOpinion delivered July 16, 1952.",
+        "type": "majority",
+        "author": "Per Curiam:"
+      }
+    ],
+    "attorneys": [
+      "Camp & Camp, of Cameron, for petitioners.",
+      "Charles C. Smith, Jr., of Cameron, and Homer Carriker, of Nederland, for respondents."
+    ],
+    "corrections": "",
+    "head_matter": "Irene Fuller et vir v. Constance Skinner Burran et vir.\nNo. A-3737.\nDecided July 16, 1952.\n(250 S. W., 2d Series, 587.)\nCamp & Camp, of Cameron, for petitioners.\nCharles C. Smith, Jr., of Cameron, and Homer Carriker, of Nederland, for respondents."
+  },
+  "file_name": "0335-01",
+  "first_page_order": 351,
+  "last_page_order": 352
+}

@@ -1,0 +1,122 @@
+{
+  "id": 5944533,
+  "name": "In re Disbarment of Krouner",
+  "name_abbreviation": "In re Disbarment of Krouner",
+  "decision_date": "2011-04-25",
+  "docket_number": "No. D-2504",
+  "first_page": "959",
+  "last_page": "959",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 959"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "562 U. S. 1213",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6006296,
+        12457882,
+        12457883,
+        12457884,
+        12457885,
+        12457886,
+        12457887,
+        12457888,
+        5957025,
+        5907235,
+        6027183,
+        5998130,
+        6007347,
+        6034358,
+        5952187,
+        12457284,
+        12457285,
+        12457286,
+        12457287,
+        12457288,
+        12457289,
+        12457290,
+        5984333,
+        5932238,
+        5958494,
+        5972459
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/562/1213-10",
+        "/l-ed-2d/179/0372-06",
+        "/l-ed-2d/179/0372-07",
+        "/l-ed-2d/179/0372-08",
+        "/l-ed-2d/179/0373-01",
+        "/l-ed-2d/179/0373-02",
+        "/l-ed-2d/179/0373-03",
+        "/l-ed-2d/179/0373-04",
+        "/us/562/1213-03",
+        "/us/562/1213-08",
+        "/us/562/1213-05",
+        "/us/562/1213-04",
+        "/us/562/1213-09",
+        "/us/562/1213-02",
+        "/us/562/1213-06",
+        "/l-ed-2d/179/0295-05",
+        "/l-ed-2d/179/0295-06",
+        "/l-ed-2d/179/0296-01",
+        "/l-ed-2d/179/0296-02",
+        "/l-ed-2d/179/0296-03",
+        "/l-ed-2d/179/0296-04",
+        "/l-ed-2d/179/0296-05",
+        "/us/562/1213-11",
+        "/us/562/1213-07",
+        "/us/562/1213-12",
+        "/us/562/1213-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 106,
+    "ocr_confidence": 0.619,
+    "sha256": "6112489e1771d01384f1d602c566dbf5a38981820026cfad806ada3504b246b2",
+    "simhash": "1:161a9e2a91340222",
+    "word_count": 17
+  },
+  "last_updated": "2024-02-27T23:44:09.189648+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Krouner,"
+    ],
+    "opinions": [
+      {
+        "text": "562 U. S. 1213. Motion for reconsideration of disbarment denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2504.\nIn re Disbarment of Krouner,"
+  },
+  "file_name": "0959-02",
+  "first_page_order": 985,
+  "last_page_order": 985
+}

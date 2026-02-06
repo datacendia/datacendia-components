@@ -1,0 +1,59 @@
+{
+  "id": 5938303,
+  "name": "Dingle v. Stevenson, Warden",
+  "name_abbreviation": "Dingle v. Stevenson",
+  "decision_date": "2010-11-01",
+  "docket_number": "No. 10-6094",
+  "first_page": "1009",
+  "last_page": "1009",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1009"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.628,
+    "sha256": "0a084595ad901fb8730e5be6d73a5411662334b595b64d3b9e0cbee09cbe7344",
+    "simhash": "1:34834279cc8f3157",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dingle v. Stevenson, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6094.\nDingle v. Stevenson, Warden."
+  },
+  "file_name": "1009-06",
+  "first_page_order": 1031,
+  "last_page_order": 1031
+}

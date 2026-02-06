@@ -1,0 +1,59 @@
+{
+  "id": 12243339,
+  "name": "Mitchell v. Rees, Warden",
+  "name_abbreviation": "Mitchell v. Rees",
+  "decision_date": "2012-01-17",
+  "docket_number": "No. 11-7438",
+  "first_page": "1165",
+  "last_page": "1165",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1165"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.697,
+    "sha256": "0df2a76c7cc0b079a02ac499c73e737a9402d3f2bcff4b252fb334252c728c4a",
+    "simhash": "1:87aa06845c3b10c6",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mitchell v. Rees, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7438.\nMitchell v. Rees, Warden."
+  },
+  "file_name": "1165-14",
+  "first_page_order": 1247,
+  "last_page_order": 1247
+}

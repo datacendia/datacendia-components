@@ -1,0 +1,59 @@
+{
+  "id": 12424651,
+  "name": "Allen v. Zavaras et al.",
+  "name_abbreviation": "Allen v. Zavaras",
+  "decision_date": "2012-11-26",
+  "docket_number": "No. 12-6303",
+  "first_page": "1031",
+  "last_page": "1031",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1031"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 73,
+    "ocr_confidence": 0.682,
+    "sha256": "a8929171d66c5bd2d131e69737db9f7a01e82ce8077beb87d7595b4b71bf7ce4",
+    "simhash": "1:82c039ebfb87d3a8",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Allen v. Zavaras et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6303.\nAllen v. Zavaras et al."
+  },
+  "file_name": "1031-14",
+  "first_page_order": 1107,
+  "last_page_order": 1107
+}

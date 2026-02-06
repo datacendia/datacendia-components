@@ -1,0 +1,987 @@
+{
+  "id": 5936238,
+  "name": "CSX TRANSPORTATION, INC. v. ALABAMA DEPARTMENT OF REVENUE et al.",
+  "name_abbreviation": "CSX Transportation, Inc. v. Alabama Department of Revenue",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 09-520",
+  "first_page": "277",
+  "last_page": "306",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 277"
+    },
+    {
+      "type": "parallel",
+      "cite": "179 L. Ed. 2d 37"
+    },
+    {
+      "type": "parallel",
+      "cite": "131 S. Ct. 1101"
+    },
+    {
+      "type": "vendor",
+      "cite": "2011 U.S. LEXIS 1084"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2010-016"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "762 F. 2d 375",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        366182
+      ],
+      "weight": 2,
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "380-381"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/762/0375-01"
+      ]
+    },
+    {
+      "cite": "338 N. W. 2d 338",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "case_ids": [
+        10673135
+      ],
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "348",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nw2d/338/0338-01"
+      ]
+    },
+    {
+      "cite": "606 N. W. 2d 54",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "case_ids": [
+        11478887
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "58-59",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nw2d/606/0054-01"
+      ]
+    },
+    {
+      "cite": "193 F. 3d 984",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11565096
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "986",
+          "parenthetical": "entertaining a challenge to a sales and use tax that exempted rail carriers' competitors"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/193/0984-01"
+      ]
+    },
+    {
+      "cite": "78 F. 3d 438",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        94043
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "443",
+          "parenthetical": "rejecting a railroad's challenge to a use tax that exempted motor carriers"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/78/0438-01"
+      ]
+    },
+    {
+      "cite": "Ala. Code \u00a740-17-2",
+      "category": "laws:leg_statute",
+      "reporter": "Ala. Code",
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "(1)",
+          "parenthetical": "primary tax of $0.13 per gallon"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "92 Stat. 1466",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "532 U. S. 105",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9300786
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "114-115"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/532/0105-01"
+      ]
+    },
+    {
+      "cite": "515 U. S. 593",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1563796
+      ],
+      "weight": 2,
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "615",
+          "parenthetical": "Scalia, J., concurring in part and dissenting in part"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/515/0593-01"
+      ]
+    },
+    {
+      "cite": "297 U. S. 124",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3929620
+      ],
+      "year": 1936,
+      "pin_cites": [
+        {
+          "page": "128"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/297/0124-01"
+      ]
+    },
+    {
+      "cite": "552 U. S. 9",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3675600
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "20",
+          "parenthetical": "rejecting the idea that federalism principles preclude challenges to state valuation methodologies when \u00a7 11501 \"clearly authorized\" such actions"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/552/0009-01"
+      ]
+    },
+    {
+      "cite": "520 U. S. 564",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11652586
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "588-589",
+          "parenthetical": "invalidating as \"discriminatory\" a state property tax that exempted organizations operating for the benefit of residents, but not organizations aimed at nonresidents"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/520/0564-01"
+      ]
+    },
+    {
+      "cite": "468 U. S. 263",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11337939
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "268-269",
+          "parenthetical": "holding that a state excise tax on alcohol \"diseriminate[d]\" against interstate businesses because of exemptions granted to local producers"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/468/0263-01"
+      ]
+    },
+    {
+      "cite": "4 U. S. C. \u00a7 111",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "489 U. S. 803",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12033629
+      ],
+      "year": 1989,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/489/0803-01"
+      ]
+    },
+    {
+      "cite": "512 U. S. 186",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        39942
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "210-211",
+          "parenthetical": "Scalia, J., concurring in judgment"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/512/0186-01"
+      ]
+    },
+    {
+      "cite": "932 F. 2d 1185",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10545358
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "1186",
+          "parenthetical": "Subsection (b)(4) includes \"an income tax, a gross-receipts tax, a use tax, an occupation tax . . . -whatever\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/932/1185-01"
+      ]
+    },
+    {
+      "cite": "513 U. S. 179",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1334078
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "187"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/513/0179-01"
+      ]
+    },
+    {
+      "cite": "560 U. S. 242",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12449202,
+        3641916
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "251"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/176/0998-01",
+        "/us/560/0242-01"
+      ]
+    },
+    {
+      "cite": "560 U. S. 964",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12455248,
+        12455249,
+        12455250,
+        12455034,
+        12455035,
+        12455036,
+        12455037,
+        12455038,
+        12455039
+      ],
+      "year": 2010,
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/177/0350-05",
+        "/l-ed-2d/177/0350-06",
+        "/l-ed-2d/177/0350-07",
+        "/l-ed-2d/177/0322-05",
+        "/l-ed-2d/177/0322-06",
+        "/l-ed-2d/177/0323-01",
+        "/l-ed-2d/177/0323-02",
+        "/l-ed-2d/177/0323-03",
+        "/l-ed-2d/177/0323-04"
+      ]
+    },
+    {
+      "cite": "510 U. S. 332",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        232363
+      ],
+      "weight": 21,
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "335"
+        },
+        {
+          "page": "343"
+        },
+        {
+          "page": "343"
+        },
+        {
+          "page": "341-342"
+        },
+        {
+          "page": "343"
+        },
+        {
+          "page": "340"
+        },
+        {
+          "page": "340, 343"
+        },
+        {
+          "page": "343"
+        },
+        {
+          "page": "344"
+        },
+        {
+          "page": "343"
+        },
+        {
+          "page": "344",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "345"
+        },
+        {
+          "page": "345"
+        },
+        {
+          "page": "343"
+        },
+        {
+          "page": "347",
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/510/0332-01"
+      ]
+    },
+    {
+      "cite": "550 F. 3d 1306",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5741951
+      ],
+      "weight": 6,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "1314"
+        },
+        {
+          "page": "1316"
+        },
+        {
+          "page": "1315",
+          "parenthetical": "\"The language of section (b)(4) prohibits a discriminatory 'tax' not a discriminatory tax exemption\""
+        },
+        {
+          "page": "1313"
+        },
+        {
+          "page": "1316"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/550/1306-01"
+      ]
+    },
+    {
+      "cite": "350 Fed. Appx. 318",
+      "category": "reporters:federal",
+      "reporter": "Fed. Appx.",
+      "year": 2009,
+      "opinion_index": 0
+    },
+    {
+      "cite": "Ala. Code \u00a7 40-23-2",
+      "category": "laws:leg_statute",
+      "reporter": "Ala. Code",
+      "pin_cites": [
+        {
+          "page": "(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 1341",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "90 Stat. 54",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "49 U. S. C. \u00a7 11501",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(b)(4)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "481 U. S. 454",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6216772
+      ],
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "457"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/481/0454-01"
+      ]
+    },
+    {
+      "cite": "90 Stat. 33",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "663 F. 2d 1036",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1171290
+      ],
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "1041"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/663/1036-01"
+      ]
+    },
+    {
+      "cite": "817 F. 2d 368",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1671058
+      ],
+      "weight": 3,
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "375"
+        },
+        {
+          "page": "373-374"
+        },
+        {
+          "page": "375",
+          "parenthetical": "using commercial and industrial taxpayers as the comparison class"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/817/0368-01"
+      ]
+    },
+    {
+      "cite": "480 U. S. 123",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1131183
+      ],
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "131"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/480/0123-01"
+      ]
+    },
+    {
+      "cite": "537 U. S. 371",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9191134
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "384"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/537/0371-01"
+      ]
+    },
+    {
+      "cite": "519 U. S. 337",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11595510
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "341",
+          "parenthetical": "statutory interpretation focuses on \"the language itself, the specific context in which that language is used, and the broader context of the statute as a whole\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/519/0337-01"
+      ]
+    },
+    {
+      "cite": "509 N. W. 2d 551",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "case_ids": [
+        10603618
+      ],
+      "weight": 2,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "553",
+          "parenthetical": "\"To be discriminatory, a tax must be discriminatory as compared to someone else\""
+        },
+        {
+          "page": "553",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/nw2d/509/0551-01"
+      ]
+    },
+    {
+      "cite": "438 U. S. 265",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1769201
+      ],
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "284",
+          "parenthetical": "opinion of Powell, J."
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/438/0265-01"
+      ]
+    },
+    {
+      "cite": "463 U. S. 582",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6197961
+      ],
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "592",
+          "parenthetical": "opinion of White, J."
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/463/0582-01"
+      ]
+    },
+    {
+      "cite": "550 U. S. 330",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3555995
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "338",
+          "parenthetical": "\"In this context, 'discrimination' simply means differential treatment of in-state and out-of-state economic interests that benefits the former and burdens the latter\" (some internal quotation marks omitted)"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/550/0330-01"
+      ]
+    },
+    {
+      "cite": "478 U. S. 109",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6204370
+      ],
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "132",
+          "parenthetical": "plurality opinion"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/478/0109-01"
+      ]
+    },
+    {
+      "cite": "538 U. S. 440",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9030914
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "446",
+          "parenthetical": "\"[T]he statutory purpose of [the Americans with Disabilities Act of 1990 is] ridding the Nation of the evil of discrimination\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/538/0440-01"
+      ]
+    },
+    {
+      "cite": "193 F. 3d 984",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11565096
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "985-986",
+          "parenthetical": "applying a comparison class of rail competitors"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/193/0984-01"
+      ]
+    },
+    {
+      "cite": "78 F. 3d 438",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        94043
+      ],
+      "weight": 2,
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "441"
+        },
+        {
+          "page": "441",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/78/0438-01"
+      ]
+    },
+    {
+      "cite": "932 F. 2d 1185",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10545358
+      ],
+      "weight": 2,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "1186",
+          "parenthetical": "\"Subsection (b)(4) is . .. designed to prevent the state from accomplishing the forbidden end of discriminating against railroads by substituting another type of tax\""
+        },
+        {
+          "page": "1186"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/932/1185-01"
+      ]
+    },
+    {
+      "cite": "510 U. S. 332",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        232363
+      ],
+      "weight": 6,
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "340"
+        },
+        {
+          "page": "346-347",
+          "parenthetical": "leaving open a case in which \"railroads - either alone or as part of some isolated and targeted group - are the only commercial entities\" subject to a tax"
+        },
+        {
+          "page": "343"
+        },
+        {
+          "page": "340"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/510/0332-01"
+      ]
+    },
+    {
+      "cite": "550 F. 3d 1306",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5741951
+      ],
+      "weight": 2,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "1316"
+        },
+        {
+          "page": "1316, n. 16",
+          "parenthetical": "listing examples of courts finding railroads targeted by various state tax schemes"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/550/1306-01"
+      ]
+    },
+    {
+      "cite": "Ala. Code \u00a7 40-23-2",
+      "category": "laws:leg_statute",
+      "reporter": "Ala. Code",
+      "pin_cites": [
+        {
+          "page": "(1)",
+          "parenthetical": "2010 Cum. Supp."
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "49 U. S. C. \u00a7 11501",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(b)(4)"
+        },
+        {
+          "page": "(b)(1)"
+        },
+        {
+          "page": "(b)(4)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "481 U. S. 454",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6216772
+      ],
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "457",
+          "parenthetical": "noting that \"[a]fter an extended period of congressional investigation, Congress concluded that 'railroads are over-taxed by at least $50 million each year'\" (quoting H. R. Rep. No. 94-725, p. 78 (1975))"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/481/0454-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1896,
+    "char_count": 58361,
+    "ocr_confidence": 0.596,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.17197547038456681
+    },
+    "sha256": "69806312b143f1617c236d7919302c31d769f5d8fe8c55bf0afbc253f7bd71ae",
+    "simhash": "1:a79ddfca7e69a4e2",
+    "word_count": 9459
+  },
+  "last_updated": "2024-02-27T22:51:28.129297+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "with whom Justice Ginsbubg joins,"
+    ],
+    "parties": [
+      "CSX TRANSPORTATION, INC. v. ALABAMA DEPARTMENT OF REVENUE et al."
+    ],
+    "opinions": [
+      {
+        "text": "Justice Kagan\ndelivered the opinion of the Court.\nThe Railroad Revitalization and Regulatory Reform Act of 1976 restricts the ability of state and local governments to levy discriminatory taxes on rail carriers. We consider here whether a railroad may invoke this statute to challenge sales and use taxes that apply to rail carriers (among others), but exempt their competitors in the transportation industry. We conclude that the railroad may do so.\nI\nA\nCongress enacted the Railroad Revitalization and Regulatory Reform Act of 1976 (Act or 4-R Act) to \u201crestore the financial stability of the railway system of the United States,\u201d among other purposes. \u00a7 101(a), 90 Stat. 33. To help achieve this goal, Congress targeted state and local taxation schemes that discriminate against rail carriers. Burlington Northern R. Co. v. Oklahoma Tax Comm\u2019n, 481 U. S. 454, 457 (1987). The provision of the Act at issue here, now codified at 49 U. S. C. \u00a7 11501, bars States and localities from engaging in four forms of discriminatory taxation. 90 Stat. 54.\nSection 11501(b) describes the prohibited practices. It begins with three provisions addressed specifically to property taxes; it concludes with a catch-all provision concerning other taxes. According to \u00a7 11501(b), States (or their subdivisions) \u201cmay not\u201d:\n\u201c(1) Assess rail transportation property at a value that has a higher ratio to the true market value of the rail transportation property than the ratio that the assessed value of other commercial and industrial property in the same assessment jurisdiction has to the true market value of the other commercial and industrial property.\n\u201c(2) Levy or collect a tax on an assessment that may not be made under paragraph (1) of this subsection.\n\u201c(3) Levy or collect an ad valorem property tax on rail transportation property at a tax rate that exceeds the tax rate applicable to commercial and industrial property in the same assessment jurisdiction.\n\u201c(4) Impose another tax that discriminates against a rail carrier.\u201d\nThe following subsection confers jurisdiction on federal courts to \u201cprevent a violation\u201d of \u00a7 11501(b) notwithstanding the Tax Injunction Act, 28 U. S. C. \u00a7 1341, which ordinarily prohibits federal courts from enjoining the collection of state taxes when a remedy is available in state court. \u00a7 11501(c).\nB\nPetitioner CSX Transportation, Inc. (CSX) is an interstate rail carrier that operates in Alabama and pays taxes there. Alabama imposes a sales tax of 4% on the gross receipts of retail businesses, Ala. Code \u00a7 40-23-2(1) (2010 Cum. Supp.), and a use tax of 4% on the storage, use, or consumption of tangible personal property, \u00a740-23-61(a) (2003). Railroads pay these taxes when they purchase or consume diesel fuel. But railroads\u2019 main competitors \u2014 interstate motor and water carriers \u2014 are generally exempt from paying sales and use taxes on their fuel (although fuel for motor carriers is subject to a separate excise tax).\nAlleging that Alabama\u2019s tax scheme discriminates against railroads in violation of \u00a7 11501(b)(4) of the 4-R Act, CSX sued respondents, the Alabama Department of Revenue and its Commissioner (Alabama or State), in Federal District Court. In particular, CSX complained that the State could not impose sales and use taxes on railroads\u2019 purchase and consumption of diesel fuel while exempting motor and water carriers from those taxes. App. 22 (Complaint \u00b6 26).\nThe District Court dismissed CSX\u2019s suit as not cognizable under the 4-R Act, and the United States Court of Appeals for the Eleventh Circuit affirmed in a brief per curiam decision. 350 Fed. Appx. 318 (2009). The Eleventh Circuit rested on its earlier decision in Norfolk Southern R. Co. v. Alabama Dept. of Revenue, 550 F. 3d 1306 (2008), which involved a nearly identical challenge to the application of Alabama\u2019s sales and use taxes.\nIn Norfolk Southern, the Eleventh Circuit rejected the plaintiff railroad\u2019s challenge, principally in reliance on this Court\u2019s decision in Department of Revenue of Ore. v. ACF Industries, Inc., 510 U. S. 332 (1994). In that case, we held that a railroad could not invoke \u00a7 11501(b)(4) to challenge a generally applicable property tax on the basis that certain non-railroad property was exempt from the tax. Id., at 335. The Eleventh Circuit recognized that the case before it involved sales and use taxes \u2014 not property taxes, which the statutory scheme separately addresses. Norfolk Southern, 550 F. 3d, at 1314. The court concluded, however, that this difference was immaterial, and accordingly held that a railroad could not object to Alabama\u2019s sales and use taxes simply because the State provides exemptions from them. Id., at 1316.\nCSX petitioned for a writ of certiorari, arguing that the Eleventh Circuit had misunderstood ACF Industries and noting a split of authority concerning whether railroads may bring a challenge under \u00a7 11501(b)(4) to non-property taxes from which their competitors are exempt. We granted certiorari, 560 U. S. 964 (2010), and now reverse.\nII\nWe begin, as in any case of statutory interpretation, with the language of the statute. Hardt v. Reliance Standard Life Ins. Co., 560 U. S. 242, 251 (2010). Section 11501(b)(4) provides that a State may not \u201c[ijmpose another tax that discriminates against a rail carrier.\u201d CSX wishes to bring an action under this provision because rail carriers, but not motor or water carriers, must pay Alabama\u2019s sales and use taxes on diesel fuel. To determine whether this suit may go forward, we must therefore answer two questions. Is CSX challenging \u201canother tax\u201d within the meaning of the statute? And, if so, might that tax \u201cdiscriminate\u201d against rail carriers by exempting their competitors?\nAn excise tax, like Alabama\u2019s sales and use tax, is \u201canother tax\u201d under subsection (b)(4). The 4-R Act does not define \u201ctax\u201d; nor does the statute otherwise place any matters within, or exclude any matters from, the term\u2019s ambit. In these circumstances, we look to the word\u2019s ordinary definition, Asgrow Seed Co. v. Winterboer, 513 U. S. 179, 187 (1995), and we note what taxpayers have long since discovered\u2014 that the meaning of \u201ctax\u201d is expansive. A State (or other governmental entity) seeking to raise revenue may choose among multiple forms of taxation on property, income, transactions, or activities. \u201c[A]nother tax,\u201d as used in subsection (b)(4), is best understood to refer to all of these \u2014 -more precisely, to encompass any form of tax a State might impose, on any asset or transaction, except the taxes on property previously addressed in subsections (b)(1)-(3). See Burlington Northern R. Co. v. Superior, 932 F. 2d 1185, 1186 (CA7 1991) (Subsection (b)(4) includes \u201can income tax, a gross-receipts tax, a use tax, an occupation tax . . . \u2014whatever\u201d). The phrase \u201canother tax\u201d is a catch-all.\nIn particular, we see no reason to interpret subsection (b)(4) as applying only to the gross-receipts taxes \u2014 known as \u201cin lieu\u201d taxes \u2014 that some States imposed instead of property taxes at the time of the Act\u2019s passage. See Brief for Respondents 53-55; Brief for State of Washington et al. as Amici Curiae 20-22. The argument in favor of this construction relies on the House Report concerning the bill, which described subsection (b)(4) as prohibiting \u201cthe imposition of... the so-called \u2018in lieu tax.\u2019 \u201d H. R. Rep. No. 94-725, p. 77 (1975). But the Conference Report on the final bill abandoned the House Report\u2019s narrowing language and described the subsection as it was written \u2014 as prohibiting, without limitation, \u201cthe imposition of any other tax which results in the discriminatory treatment of any\u201d railroad. S. Conf. Rep. No. 94-595, pp. 165-166 (1976); accord, S. Rep. No. 94-499, p. 65 (1975). And the statutory language is the real crux of the matter: Subsection (b)(4) speaks both clearly and broadly, and a legislative report misdescribing the provision cannot succeed in altering it.\nNor do we agree with the Eleventh Circuit\u2019s apparent view that CSX does not challenge \u201canother tax\u201d because its complaint relies on the exemptions the State has given. See Norfolk Southern, 550 F. 3d, at 1315 (\u201cThe language of section (b)(4) prohibits a discriminatory \u2018tax\u2019 not a discriminatory tax exemption\u201d); Brief for American Trucking Associations, Inc., as Amicus Curiae 9. What the complaint protests is Alabama\u2019s imposition of taxes on the fuel CSX uses; what the complaint requests is that Alabama cease to collect those taxes from CSX. App. 23. The exemptions, no doubt, play a central role in CSX\u2019s argument: They demonstrate, in CSX\u2019s view, that the State\u2019s sales and use taxes discriminate against railroads. See id., at 22, \u00b6\u00b6 24-26. But the essential subject of the complaint remains the taxes Alabama levies on CSX.\nThe key question thus becomes whether a tax might be said to \u201cdiscriminate\u201d against a railroad under subsection (b)(4) because the State has granted exemptions from the tax to other entities (here, the railroad\u2019s competitors). The statute does not define \u201cdiscriminates,\u201d and so we again look to the ordinary meaning of the word. See supra, at 284. \u201cDiscrimination\u201d is the \u201cfailure to treat all persons equally when no reasonable distinction can be found between those favored and those not favored.\u201d Black\u2019s Law Dictionary 534 (9th ed. 2009); accord, id., at 420 (5th ed. 1979); see also Webster\u2019s Third New International Dictionary 648 (1976) (\u201cdiscriminates\u201d means \u201cto make a difference in treatment or favor on a class or categorical basis in disregard of individual merit\u201d). To charge one group of taxpayers a 2% rate and another group a 4% rate, if the groups are the same in all relevant respects, is to discriminate against the latter. That discrimination continues (indeed, it increases) if the State takes the favored group\u2019s rate down to 0%. And that is all an exemption is. See West Lynn Creamery, Inc. v. Healy, 512 U. S. 186, 210-211 (1994) (Scalia, J., concurring in judgment) (noting that an \u201c \u2018exemption\u2019 from ... a \u2018neutral\u2019 tax\u201d for favored persons \u201cis no different in principle\u201d than \u201ca discriminatory tax .. . imposing a higher liability\u201d on disfavored persons). To say that such a tax (with such an exemption) does not \u201cdiscriminate\u201d \u2014 assuming the groups are similarly situated and there is no justification for the difference in treatment \u2014 is to adopt a definition of the term at odds with its natural meaning.\nIn line with this understanding, our decisions have repeatedly recognized that tax schemes with exemptions may be discriminatory. In Davis v. Michigan Dept. of Treasury, 489 U. S. 803 (1989), for example, we reviewed a state income tax provision that exempted retirement benefits given by the State, but not those paid by the Federal Government. We held that the tax \u201cdiscriminate[d]\u201d against federal employees under 4 U. S. C. \u00a7 111, which serves to protect those employees from discriminatory state taxation. Similarly, our dormant Commerce Clause cases have often held that tax exemptions given to local businesses discriminate against interstate actors. See, e. g., Bacchus Imports, Ltd. v. Dias, 468 U. S. 263, 268-269 (1984) (holding that a state excise tax on alcohol \u201cdiseriminate[d]\u201d against interstate businesses because of exemptions granted to local producers); Camps Newfound/Owatonna, Inc. v. Town of Harrison, 520 U. S. 564, 588-589 (1997) (invalidating as \u201cdiscriminatory\u201d a state property tax that exempted organizations operating for the benefit of residents, but not organizations aimed at nonresidents). And even our decision in ACF Industries, on which the Eleventh Circuit relied in dismissing CSX\u2019s suit, made clear that tax exemptions \u201ccould be a variant of tax discrimination.\u201d 510 U. S., at 343.\nNor does the 4-R Act limit the prohibited discrimination to state tax schemes that unjustifiably exempt local actors, as opposed to interstate entities. Alabama argues for this result, claiming that \u00a7 11501(b) is designed \u201cto protect interstate carriers against discrimination vis-\u00e1-vis local businesses.\u201d Brief for Respondents 29. But the text of \u00a7 11501(b) tells a different story. Consistent with the Act\u2019s purpose of restoring the financial stability of railroads (not of interstate carriers generally), supra, at 280, each of subsection (b)\u2019s provisions proscribes taxes that specially burden a rail carrier\u2019s property or otherwise discriminate against a rail carrier. And not a single provision of the Act (including the references in subsections (b)(1) \u2014 (3) to \u201ccommercial and industrial property\u201d) distinguishes between local and non-local taxpayers who receive favorable tax treatment. The distinctions drawn in \u00a7 11501(b) are not between interstate and local actors, as the State contends, but rather between railroads and other actors, whether interstate or local. Accordingly, a state excise tax that applies to railroads but exempts their interstate competitors is subject to challenge under subsection (b)(4) as a \u201ctax that discriminates against a rail carrier.\u201d\nIII\nAs against the plain language of subsection (b)(4), Alabama offers two arguments based on our decision in ACF Industries. The first claim, which the Eleventh Circuit accepted, rests on the reasoning we adopted in ACF Industries: We concluded there that railroads could not challenge property tax exemptions under subsection (b)(4), and Alabama asserts that the same analysis applies to excise (and other non-property) tax exemptions. The second contention focuses on alleged problems that would emerge in the application of \u00a7 11501(b) if the rule of ACF Industries did not govern all tax exemptions. On this view, even if ACF Industries\u2019 reasoning is irrelevant to cases involving excise taxes, its holding must extend to those cases to prevent inconsistent or anomalous results. We reject each of these arguments. We stand foursquare behind our decision in ACF Industries, but we will not extend it in the way the State wishes.\nA\nIn ACF Industries, we considered whether a railroad could sue a State under subsection (b)(4) for taxing railroad property while exempting certain other commercial property. We held that the railroad could not do so. We noted that the language of subsection (b)(4), when viewed in isolation, could be read to allow such a challenge. But we reasoned that the structure of \u00a7 11501 required the opposite result. 510 U. S., at 343. The Eleventh Circuit considered ACF Industries \u201cdeterminative\u201d of the question here, Norfolk Southern, 550 F. 3d, at 1313, and Alabama agrees, Brief for Respondents 18. We think they misread that decision.\nWe began our analysis in ACF Industries by explaining that railroads could not challenge property tax exemptions under subsections (b)(1)-(3) \u2014 the provisions of \u00a711501 specifically addressing property taxes. As noted earlier, subsections (b)(1) \u2014 (3) prohibit a State from imposing higher property tax rates or assessment ratios on \u201crail transportation property\u201d than on \u201cother commercial and industrial property.\u201d The statute defines \u201ccommercial and industrial property\u201d as including only \u201cproperty . . . subject to a property tax levy.\u201d \u00a7 11501(a)(4). We interpreted that phrase to mean \u201cproperty that is taxed,\u201d rather than property that is potentially taxable. 510 U. S., at 341-342. As a result, we determined that exempt (i. e., non-taxed) property fell outside the category of \u201cother commercial and industrial property\u201d against which the taxation of railroad property is measured. Ibid. The conclusion followed: Subsections (b)(1)-(3) permitted States to impose property taxes on railroads while exempting other entities. Ibid.\nAnd because that was so, we stated, still another conclusion followed: Subsection (b)(4)\u2019s prohibition on discrimination likewise could not encompass property tax exemptions. Id., at 343. We viewed this holding as a matter of simple deduction: \u201cIt would be illogical to conclude that Congress, having allowed the States to grant property tax exemptions in subsections (b)(1)-(3), would turn around and nullify its own choice in subsection (b)(4).\u201d Ibid. Or stated otherwise: \u201c[RJeading subsection (b)(4) to prohibit what\u201d other parts of the statute were \u201cdesigned to allow\u201d would \u201csubvert the statutory plan\u201d and \u201ccontravene the 'elementary canon of construction that a statute should be interpreted so as not to render one part inoperative.\u2019\u201d Id., at 340. The structure of \u00a7 11501 thus compelled otar conclusion that property tax exemptions \u2014 even if \u201ca variant of tax discrimination,\u201d id., at 343 \u2014 fell outside subsection (b)(4)\u2019s reach.\nBut this structural analysis \u2014 the core of ACF Industries \u2014 has no bearing on the question here. Subsections (b)(1)-(3) specifically address \u2014 and allow \u2014 property tax exemptions. But neither those subsections nor any other provision of the 4-R Act speaks to wow-property tax exemptions like those at issue in this case. Congress has expressed no intent to \u201callo[w] the States to grant\u201d these exemptions. Ibid. Reading subsection (b)(4) as written \u2014 to encompass non-property tax exemptions \u2014 therefore poses no danger of \u201cnullify[ing]\u201d a congressional policy choice or otherwise \u201csubvert[ing] the statutory plan.\u201d Id., at 340, 343. To the contrary: Giving subsection (b)(4) something other than its ordinary meaning, absent any structural reason to do so, would itself contravene the expressed will of Congress.\nImplicitly acknowledging that ACF Industries\u2019 central theory is irrelevant here, Alabama focuses on what that decision called \u201c[o]ther considerations reinforcing]\u201d its structural analysis. Id., at 343. Most notably, Alabama underscores the following sentence from ACF Industries: \u201cGiven the prevalence of property tax exemptions when Congress enacted the 4-R Act, [\u00a711501\u2019s] silence on the subject \u2014 in light of the explicit prohibition of tax rate and assessment ratio discrimination \u2014 reflects a determination to permit the States to leave their exemptions in place.\u201d Id., at 344. Alabama asserts that this statement \u201cholds just as true\u201d for sales and use taxes. Brief for Respondents 41.\nThat claim rings hollow. To be sure, ACF Industries noted that Congress had declined to speak \u201cwith any degree of particularity to\u201d the permissibility of property tax exemptions, even though States often granted them. 510 U. S., at 343. But we thought that fact relevant only because Congress had spoken with particularity in proscribing other forms of discriminatory property taxes. The very sentence Alabama highlights makes our reasoning clear: Congress\u2019s silence as to the practice of granting property tax exemptions reflected its acquiescence in that practice \u201cin light of the explicit prohibition [in subsections (b)(1)-(3)] of [property] tax rate and assessment ratio discrimination.\u201d Id., at 344 (emphasis added). If that explicit prohibition had not existed \u2014 if \u00a7 11501(b) had consisted only of subsection (b)(4)\u2019s broad ban on tax discrimination \u2014 we could not have gleaned what we did from congressional silence. After all, the very purpose of a catch-all provision like subsection (b)(4) is to avoid the necessity of listing each matter (here, each kind of tax discrimination) falling within it. And with respect to non-property taxes (like Alabama\u2019s sales and use taxes), subsection (b)(4) is all there is. So here again, our analysis in ACF Industries does not apply because it rested on subsections (b)(1)-(3) \u2014 that is, on the highly reticulated scheme in the 4-R Act relating solely to property taxes.\nAlabama also emphasizes our statement in ACF Industries that \u201c \u2018 [principles of federalism\u2019 \u201d supported our holding, Brief for Respondents 41-43 (quoting 510 U. S., at 345), but this final effort to borrow from that decision\u2019s analysis similarly fails. We indeed recognized in ACF Industries that the 4-R Act limits the traditional taxing power of the States. Because that is so, we expressed \u201chesitan[ce] to extend the statute beyond its evident scope.\u201d 510 U. S., at 345. But here, for all the reasons already noted, we are not \u201cextending] the statute\u201d; we are merely giving effect to its clear meaning. To reiterate: The 4-R Act distinguishes between property taxes and other taxes. Congress expressed its intent to insulate property tax exemptions from challenge; against that background, ACF Industries stated that permitting such suits would intrude on the States' rightful authority. By contrast, Congress drafted \u00a7 11501 to enable railroads to contest all other tax exemptions; and when Congress speaks in such preemptive terms, its decision must govern. Principles of federalism cannot narrow \u00a711501\u2019s clear scope. See, e. g., CSX Transp., Inc. v. Georgia State Bd. of Equalization, 552 U. S. 9, 20 (2007) (rejecting the idea that federalism principles preclude challenges to state valuation methodologies when \u00a7 11501 \u201cclearly authorized\u201d such actions). Nothing in ACF Industries suggested otherwise.\nB\nAlabama additionally makes a subtler argument involving ACF Industries. Given that decision, Alabama contends, a ruling in CSX\u2019s favor here would create troubling inconsistencies. Alabama claims that subsection (b)(4)\u2019s singular prohibition on \u201cdiscriminat[ion]\u201d would then mean one thing for property taxes (according to ACF Industries) and another for non-property taxes, even though nothing in the statute supports \u201cmorphing definitions.\u201d Brief for Respondents 32. And still worse than the difference in meaning would be the difference in result: A ruling for CSX, Alabama argues, would give railroads more protection against non-property taxes than against property taxes, even though no good reason exists for this distinction.\nAlabama's one-word-two-meanings argument collapses because it again rests on a misunderstanding of ACF Industries. That decision did not define \u201cdiscriminate] \u201d or say that a tax exemption could not fall within that term. Quite to the contrary: As noted earlier, ACF Industries frankly acknowledged that tax exemptions, including property tax exemptions, \u201ccould be a variant of tax discrimination.\u201d 510 U. S., at 343; supra, at 287-288. We held that property tax exemptions were immune from challenge under subsection (b)(4) for structural, rather than linguistic, reasons. Even assuming these exemptions \u201cdiscriminate^],\u201d they did so in a way that the specific provisions of \u00a7\u00a7 11501(b)(1)-(3) allow, and accordingly \u00a711501(b)(4)\u2019s prohibition could not include them. That reasoning, once more, does not apply here, because subsections (b)(1)-(3) do not permit \u2014 indeed, in no way address \u2014 non-property tax exemptions. We therefore do not adopt a new definition of \u201cdiscriminate\u201d in this case; in the context of the 4-R Act, that word has, and has always had, just one meaning.\nWhat remains is Alabama\u2019s complaint that a ruling in CSX\u2019s favor, when combined with our decision in ACF Industries, will result in divergent treatment of property and non-property taxes. At times, Alabama dresses up this objection in Latin: It contends that the canon of ejusdem gene-ris, which \u201climits general terms [that] follow specific ones to matters similar to those specified,\u201d Gooch v. United States, 297 U. S. 124, 128 (1936), has a role to play in interpreting \u00a7 11501(b). More particularly, Alabama contends that this canon supports reading into \u00a7 11501(b)(4) every limitation contained in \u00a7\u00a7 11501(b)(1) \u2014 (3), including the exclusion of tax exemptions from the class of state actions subject to challenge. See Brief for Respondents 26-27. That interpretive move, Alabama rightly notes, would ensure equal treatment of property tax and non-property tax exemptions.\nBut we think ejusdem generis is not relevant here. As an initial matter, subsection (b)(4), \u201c[although something of a catchall, ... is not a general or collective term following a list of specific items to which a particular statutory command is applicable (e. g., \u2018fishing rods, nets, hooks, bobbers, sinkers, and other equipment\u2019).\u201d United States v. Aguilar, 515 U. S. 593, 615 (1995) (Scalia, J., concurring in part and dissenting in part). Rather, that subsection is \u201cone of... several distinct and independent prohibitions.\u201d Ibid. Related to this structural point is a functional one. We typically use ejus-dem generis to ensure that a general word will not render specific words meaningless. E. g., Circuit City Stores, Inc. v. Adams, 532 U. S. 105, 114-115 (2001); see 2A N. Singer, Sutherland on Statutes and Statutory Construction \u00a747:17 (7th ed. 2007). But that concern is absent here. Reading subsection (b)(4) to cover non-property tax exemptions will not deprive subsections (b)(1)-(3) of effect, because those subsections are addressed only to property taxes. A canon meaning literally \u201cof the same kind\u201d has no application to provisions directed toward dissimilar subject matter.\nThe better version of Alabama\u2019s claim reads entirely in English; it is simply that distinguishing between property tax exemptions and other tax exemptions makes not a whit of sense. We are not much inclined to disagree. Neither CSX nor the United States as amicus curiae has offered a satisfying reason for why Congress drew this line \u2014 why in \u00a7\u00a7 11501(b)(l)-(3) it barred challenges based on property tax exemptions, but then turned around in \u00a7 11501(b)(4) to allow challenges based on, say, excise tax exemptions. See Tr. of Oral Arg. 4-5, 24-25. CSX, for example, has not presented any evidence that different tax exemptions posed different levels of threat to railroads\u2019 financial stability. So even if Congress had a good reason for distinguishing between property and non-property tax exemptions, we acknowledge that it eludes us.\nBut this admission does not take us far in Alabama\u2019s direction. Even if the 4-R Act were ambiguous, we doubt we would interpret subsection (b)(4) to replicate each facet of subsections (b)(l)-(3). Treating property tax exemptions and other tax exemptions equivalently might make sense, as Alabama argues. But so too might allowing railroads to challenge all taxes (property or non-property) that contain exemptions. After all, as we noted earlier, tax exemptions are an obvious form of tax discrimination. See supra, at 287-288. It is hardly self-evident why Congress would prohibit a State from charging a railroad a 4% tax and a competitor a 2% tax, but allow the State to charge the railroad a 4% tax and the competitor nothing. The latter situation would frustrate the purposes of the Act even more than the former. In ACF Industries, we accepted that anomaly because the terms and structure of the Act demanded that we do so. But we could say no more in favor of the result than that it was \u201cnot so bizarre that Congress could not have intended it.\u201d 510 U. S., at 347 (internal quotation marks omitted). That was not a glowing recommendation, and we see no reason today to view the matter differently. Accordingly, even assuming that statutory ambiguity permitted us to do so, we would hesitate to extend the distinction between tax exemptions and differential tax rates in order to avoid a distinction between property and non-property taxes. That would seem a poor trade of statutory anomalies.\nIn any event, and more importantly, the choice is not ours to make. Congress wrote the statute it wrote, and that statute draws a sharp line between property taxes and other taxes. Congress drafted \u00a7\u00a7 11501(b)(1) \u2014 (3) to exclude tax exemptions from the sphere of prohibited property tax discrimination. But it drafted \u00a7 11501(b)(4) more broadly, without any of the prior subsections\u2019 limitations, to proscribe other \u201ctax[es] that discriminat[e],\u201d including through the use of exemptions. That congressional election settles this case. Alabama\u2019s preference for symmetry cannot trump an asymmetrical statute. And its preference for the greatest possible latitude to levy taxes cannot trump Congress\u2019s decision to restrict discriminatory taxation of rail carriers.\nIV\nOur decision in this case is limited. We hold that CSX may challenge Alabama\u2019s sales and use taxes as \u201ctax[es] that discriminat[e] against. . . rail carrier[s]\u201d under \u00a7 11501(b)(4). We do not address whether CSX should prevail in that challenge \u2014 whether, that is, Alabama\u2019s taxes in fact discriminate against railroads by exempting interstate motor and water carriers. Alabama argues, in support of barring CSX\u2019s challenge at the outset, that this inquiry into discrimination may pose difficulties. Brief for Respondents 35-37. We cannot deny that assertion, but neither can we respond to it by precluding CSX\u2019s claim. Discrimination cases sometimes do raise knotty questions about whether and when dissimilar treatment is adequately justified. In the context of the 4-R Act, those hard calls can arise when States charge different tax rates to different entities in a practice the statute specifically subjects to challenge. See \u00a7 11501(b)(3). So too, difficult issues can emerge when, as here, States provide certain entities with tax exemptions. In either case, Congress has directed the federal courts to review a railroad\u2019s challenge; and in either case, we would flout the congressional command were we to declare the matter beyond us.\nFor the reasons stated, we reverse the judgment of the Eleventh Circuit and remand the case for further proceedings consistent with this opinion.\nIt is so ordered.\nThis provision was originally codified at 49 U. S. C. \u00a7 26c (1976 ed.). In 1978, Congress recodified it at \u00a7 11503 (1976 ed., Supp. II), with slightly altered language but \u201cwithout substantive change,\u201d \u00a73(a), 92 Stat. 1466. In 1995, Congress again recodified the section without substantive change, this time at 49 U. S. C. \u00a7 11501. This opinion refers to the statute\u2019s current text.\nThe first sentence of subsection (c) provides: \u201cNotwithstanding section 1341 of title 28 ... a district court of the United States has jurisdiction ... to prevent a violation of subsection (b) of this section.\u201d The next sentence concerns the relief available for violations of \u00a7\u00a7 11501(b)(1) and (2): \u201cRelief may be granted under this subsection only if the ratio of assessed value to true market value of rail transportation property exceeds by at least 5 percent the ratio of assessed value to true market value of other commercial and industrial property in the same assessment jurisdiction.\u201d\nState law provides that motor carriers need not pay sales or use taxes on diesel fuel so long as they pay a different excise tax of $0.19 per gallon. Ala. Code \u00a740-17-2(1) (2003) (primary tax of $0.13 per gallon); \u00a740-17-220(e) (2010 Cum. Supp.) (additional tax of $0.06 per gallon). State law wholly exempts interstate water carriers from sales and use taxes on diesel fuel. \u00a7 40-23-4(a)(10); \u00a740-23-62(12). Nor do these water carriers pay any other tax on the fuel they purchase or consume. Brief for Respondents 16.\nCompare Norfolk Southern R. Co. v. Alabama Dept. of Revenue, 550 F. 3d 1306, 1316 (CA11 2008), and Atchison, T. & S. F. R. Co. v. Arizona, 78 F. 3d 438, 443 (CA9 1996) (rejecting a railroad\u2019s challenge to a use tax that exempted motor carriers), with Burlington N., S. F. R. Co. v. Lohman, 193 F. 3d 984, 986 (CA8 1999) (entertaining a challenge to a sales and use tax that exempted rail carriers\u2019 competitors), Burlington Northern R. Co. v. Commissioner of Revenue, 606 N. W. 2d 54, 58-59 (Minn. 2000) (same), and Atchison, T. & S. F. R. Co. v. Bair, 338 N. W. 2d 338, 348 (Iowa 1983) (same).\nWe consider here only questions relating to whether CSX can bring a claim for discrimination based on the State\u2019s pattern of tax exemptions. We do not consider any issues concerning whether these exemptions actually discriminate against CSX. See infra, at 288, n. 8, and 297. Alabama has raised two such issues in this Court. First, Alabama contends that in deciding CSX\u2019s claim, a federal court must consider not only the specific taxes challenged, but also the broader tax scheme. Brief for Respondents 58-60. Second, the State argues that the court must compare the taxation of CSX not merely to direct competitors but to other commercial entities as well. Id., at 48, n. 7. Most of the dissenting opinion is devoted to supporting the State\u2019s argument on this second question. But we leave these and all other issues relating to whether Alabama actually has discriminated against CSX to the trial court on remand to address as and when it wishes. No court in this ease has previously considered these questions, and the parties\u2019 briefs in this Court have only sketchily addressed them. In addition, the parties dispute whether Alabama waived its claim on the second issue by initially agreeing that \u201cthe comparison class consists of motor carriers and water carriers,\u201d App. to Pet. for Cert. 12a (internal quotation marks omitted), and proceeding with the litigation on that basis. We think this question of waiver is also best considered by the trial court.\nAs originally enacted, the provision that is now 49 U. S. C. \u00a7 11501(b)(4) prohibited the imposition of \u201cany other tax\u201d that discriminates against a railroad. \u00a726c (1976 ed.). The substitution of \u201canother tax\u201d occurred when Congress first recodified the Act. In line with Congress\u2019s statement that revisions made at that time should not be construed as having substantive effect, see n. 1, supra, we treat the two terms as synonymous.\nAlabama also invokes the remedial provision of subsection (c), n. 2, supra, to urge that we read \u00a7 11501 as effectively limited to property or \u201cin lieu\u201d taxes. According to Alabama, that provision entitles federal courts to grant relief only when States overvalue railroad property under subsections (b)(1) and (b)(2): Federal courts, the State avers, \u201chave no power to enjoin the granting of tax exemptions as a violation of subsection (b)(4), or, apparently [to remedy] any violation of subsection (b)(4).\u201d Brief for Respondents 37. But that interpretation of subsection (c)\u2019s remedial provision cannot be right, because it would nullify subsection (b)(4) (and, for that matter, subsection (b)(3) as well). We understand subsection (c)'s remedial provision neither as limiting the broad grant of jurisdiction to federal courts to prevent violations of subsection (b) nor as otherwise restricting the scope of that subsection. The remedial provision simply limits the availability of relief when a State discriminates in assessing the value of railroad property, as proscribed by subsections (b)(1) and (b)(2). That kind of discrimination is not at issue here.\nThis conclusion does not, as Alabama and the dissent contend, turn railroads into \u201cmost-favored-taxpayers,\u201d entitled to any exemption (or other tax break) that a State gives to another entity. See Brief for Respondents 23; post, at 305 (opinion of Thomas, J.). We hold only that \u00a7 11501(b)(4) enables a railroad to challenge an excise or other non-property tax as discriminatory on the basis of the tax scheme\u2019s exemptions \u2014 as the dissent apparently agrees, post, at 297. Whether the railroad will prevail \u2014 that is, whether it can prove the alleged discrimination \u2014 depends on whether the State offers a sufficient justification for declining to provide the exemption at issue to rail carriers. See supra, at 286; Brief for United States as Amicus Curiae 25-26; Richmond, F. & P. R. Co. v. Department of Taxation of Va., 762 F. 2d 375, 380-381, and n. 4 (CA4 1985). So if, to use the dissent\u2019s example, a railroad challenged a scheme in which \u201cevery person and business in the State of Alabama paid a $1 annual tax, and one person was exempt,\u201d post, at 305, for some reason having nothing to do with railroads, we presume the suit would be promptly dismissed. Nothing in this application of \u00a7 11501(b)(4) offers a \u201cwindfall\u201d to railroads. Ibid.\nThe dissent argues in addition that a State should prevail against any claim of discrimination brought under subsection (b)(4) if it can demonstrate that a tax does not \u201ctarget\u201d or \u201csingle out\u201d a railroad, post, at 297, 300; that showing, without more, would justify the tax (although the dissent declines to say just what it means to \u201ctarget,\u201d post, at 303, n. 3). This argument primarily concerns the question whether Alabama\u2019s tax scheme in fact discriminates under subsection (b)(4) \u2014 a question we have explained is inappropriate to address, see n. 5, supra. We note, however, that the dissent\u2019s argument about subsection (b)(4) rests entirely on the premise that subsections (b)(1) \u2014 (3) prohibit only property taxes that \u201ctarget\u201d or \u201csingle out\u201d railroads, see post, at 300; so, the dissent would say, a State may impose a 4% property tax on railroads (assuming some unspecified number of other taxpayers also pay that rate) while levying only a 2% property tax on railroad competitors. But we have never decided, in ACF Industries or any other case, whether subsections (b)(1) \u2014 (3) should be interpreted in this manner. And even accepting the dissent\u2019s unexplained premise, a serious question would remain about whether to transplant this construction of subsections (b)(1) \u2014 (3) to subsection (b)(4)\u2019s very different terrain, see infra, at 294-296.",
+        "type": "majority",
+        "author": "Justice Kagan"
+      },
+      {
+        "text": "Justice Thomas,\nwith whom Justice Ginsbubg joins,\ndissenting.\nI agree with the Court that Alabama\u2019s sales and use taxes are \u201canother tax\u201d within the meaning of 49 U. S. C. \u00a7 11501(b)(4) and that a scheme of tax exemptions is capable of making a tax discriminatory. Ante, at 284-287. As a general matter, therefore, I agree that Alabama\u2019s sales and use taxes could potentially violate subsection (b)(4), and would do so if their exemptions \u201cdiscriminate[d] against a rail carrier.\u201d \u00a7 11501(b)(4). The majority\u2019s holding stops there, see ante, at 288-289, n. 8, but I would go on.\nI would hold that, to violate \u00a7 11501(b)(4), a tax exemption seheme must target or single out railroads by comparison to general commercial and industrial taxpayers. Although parts of the majority\u2019s discussion appear to question this standard, see ante, at 286-288, the limited holding does not foreclose it. Because CSX cannot prove facts that would satisfy that standard in this case, I would affirm.\nI\nIn my view, \u201canother tax that discriminates against a rail carrier\u201d in \u00a7 11501(b)(4) means a tax \u2014 or tax exemption scheme \u2014 that targets or singles out railroads as compared to other commercial and industrial taxpayers. That reading settles the ambiguity in the word \u201cdiscriminates\u201d by reference to the rest of the statute and gives subsection (b)(4) a reach consistent with the problem the statute addressed.\nA\n\u201cDiscriminates,\u201d standing alone, is a flexible word. Compare, e. g., Clackamas Gastroenterology Associates, P. C. v. Wells, 538 U. S. 440, 446 (2003) (\u201c[T]he statutory purpose of [the Americans with Disabilities Act of 1990 is] ridding the Nation of the evil of discrimination\u201d), with Davis v. Bandemer, 478 U. S. 109, 132 (1986) (plurality opinion) (\u201c[U]nconsti-tutional discrimination occurs only when the electoral system is arranged in a manner that will consistently degrade a voter\u2019s or a group of voters\u2019 influence\u201d); and United Haulers Assn., Inc. v. Oneida-Herkimer Solid Waste Management Authority, 550 U. S. 330, 338 (2007) (\u201cIn this context, \u2018discrimination\u2019 simply means differential treatment of in-state and out-of-state economic interests that benefits the former and burdens the latter\u201d (some internal quotation marks omitted)).\nEven though \u201cdiscriminate\u201d has a general legal meaning relating to differential treatment, its precise contours still depend on its context. See Guardians Assn. v. Civil Serv. Comm\u2019n of New York City, 463 U. S. 582, 592 (1983) (opinion of White, J.) (\u201cThe language of Title VI on its face is ambiguous; the word \u2018discrimination\u2019 is inherently so\u201d); Regents of Univ. of Cal. v. Bakke, 438 U. S. 265, 284 (1978) (opinion of Powell, J.) (\u201cThe concept of \u2018discrimination\u2019 ... is susceptible of varying interpretations\u201d). Here, the word \u201cdiscriminates\u201d in subsection (b)(4) is ambiguous as to the appropriate comparison class. Burlington Northern R. Co. v. Commissioner of Revenue, 509 N. W. 2d 551, 553 (Minn. 1993) (\u201cTo be discriminatory, a tax must be discriminatory as compared to someone else\u201d). It is also ambiguous as to what type of difference is required to violate the statute \u2014 e. g., any distinction, singling out, or something in between.\nTherefore, I would use the context to resolve the meaning of the word as it is used in subsection (b)(4). See Robinson v. Shell Oil Co., 519 U. S. 337, 341 (1997) (statutory interpretation focuses on \u201cthe language itself, the specific context in which that language is used, and the broader context of the statute as a whole\u201d). We did precisely that in Department of Revenue of Ore. v. ACF Industries, Inc., 510 U. S. 332 (1994), where we similarly faced a question about the meaning of subsection (b)(4). In that case, our structural analysis of \u00a7 11501(b) was \u201ccentral to the interpretation of subsection (b)(4).\u201d Id., at 340.\n1\nThe structure of \u00a7 11501(b) is straightforward. Subsections (b)(1) through (3) instruct that States may not assess railroad property at \u201ca higher ratio to the true market value . . . than . . . other commercial and industrial property,\u201d 49 U. S. C. \u00a7 11501(b)(1), collect taxes based on those inflated assessments, \u00a7 11501(b)(2), or set property tax rates for railroad property higher than that \u201capplicable to commercial and industrial property\u201d in the same assessment jurisdiction, \u00a7 11501(b)(3). Subsection (b)(4) then forbids \u201c[i]mpos[ing] another tax that discriminates against a rail carrier.\u201d\nI would look to subsections (b)(1) through (3) to determine the meaning of \u201cdiscriminates\u201d in (b)(4). As many lower courts have correctly recognized, subsection (b)(4) is a residual clause, naturally appurtenant to subsections (b)(1) through (3). Moreover, the phrase \u201canother tax that discriminates\u201d in subsection (b)(4) suggests that the previous subsections all describe taxes that \u201cdiscriminate\u201d in a manner similar to that forbidden by subsection (b)(4). See Washington State Dept. of Social and Health Servs. v. Guardianship Estate of Keffeler, 537 U. S. 371, 384 (2003) (reading the phrase \u201cother legal process\u201d restrietively because \u201cwhere general words follow specific words in a statutory enumeration, the general words are construed to embrace only objects similar in nature to those objects enumerated by the preceding specific words\u201d (internal quotation marks and brackets omitted)).\nSubsections (b)(1) through (3) each prohibit particular types of state taxes that target or single out railroad property for less favorable tax treatment than other commercial and industrial property. First, the \u201cdiscrimina-t[ion]\u201d addressed in subsections (b)(1) through (3) can only be described as taxes that target or single out railroad property. Those subsections specifically concern taxes that affect railroad property differently from the way they affect a larger class of comparative taxpayers\u2019 property. See \u00a7\u00a7 11501(b)(1) \u2014 (3); cf. ante, at 288 (\u201c[E]aeh of subsection (b)\u2019s provisions proscribes taxes that specially burden a rail carrier\u2019s property or otherwise discriminate against a rail carrier\u201d (emphasis deleted)). Second, each subsection refers to the same comparison class \u2014 other \u201ccommercial and industrial property.\u201d \u00a7\u00a7 11501(b)(1)-(3).\nI think it follows that, under subsection (b)(4), a tax \u201cdiscriminates against a rail carrier\u201d if it similarly targets railroads for tax treatment less favorable than other commercial and industrial taxpayers. As we found in ACF Industries, the structure of the statute provides a light by which to navigate the meaning of subsection (b)(4).\n2\nThe background of \u00a7 11501(b) also supports this understanding of subsection (b)(4). In previous cases, we have identified the problem that made subsection (b) necessary. At the time the Railroad Revitalization and Regulatory Reform Act was enacted, it was clear that \u201crailroads \u2018 \u201care easy prey for State and local tax assessors\u201d in that they are \u201cnonvoting, often nonresident, targets for local taxation,\u201d who cannot easily remove themselves from the locality.\u2019\u201d ACF Industries, supra, at 336 (quoting Western Air Lines, Inc. v. Board of Equalization of S. D., 480 U. S. 123, 131 (1987), in turn quoting S. Rep. No. 91-630, p. 3 (1969)). The \u201ctemptation to excessively tax nonvoting, nonresident businesses ... made federal legislation in this area necessary.\u201d Western Air Lines, supra, at 131; see also Burlington Northern R. Co. v. Oklahoma Tax Comm\u2019n, 481 U. S. 454, 457 (1987) (noting that \u201c[a]fter an extended period of congressional investigation, Congress concluded that \u2018railroads are over-taxed by at least $50 million each year\u2019\u201d (quoting H. R. Rep. No. 94-725, p. 78 (1975))).\nIn other words, \u00a7 11501(b) responded primarily to what its text describes \u2014 property taxes that soaked the railroads. The obvious rationale supporting subsections (b)(1) through (3) is that the \u201cway to prevent tax discrimination against the railroads is to tie their tax fate to the fate of a large and local group of taxpayers.\u201d Kansas City Southern R. Co. v. McNamara, 817 F. 2d 368, 375 (CA5 1987); see also Atchison, T. & S. F. R. Co. v. Arizona, 78 F. 3d 438, 441 (CA9 1996). In this way, subsections (b)(1) through (3) establish a political cheek on the taxation of railroads. States cannot impose excessive property taxes on the nonvoting, nonresident railroads without imposing the same taxes more generally on voting, resident local businesses.\nAbsent any indication that subsection (b)(4), as a residual clause, has any different aim, it is reasonable to conclude that it shares the same one as subsections (b)(1) through (3). See, e. g., Kansas City Southern R. Co., supra, at 373-374 (Congress included subsection (b)(4) \u201cto ensure that states did not shift to new forms of tax discrimination outside the letter of the first three subsections\u201d); Burlington Northern R. Co. v. Superior, 932 F. 2d 1185, 1186 (CA7 1991) (\u201cSubsection (b)(4) is . .. designed to prevent the state from accomplishing the forbidden end of discriminating against railroads by substituting another type of tax\u201d). Subsection (b)(4) should be understood to tackle the issue of systemic railroad overtaxation the same way that the other subsections do\u2014 by linking the taxation of railroads to the taxation of businesses with local political influence. Thus, a \u201ctax that discriminates against a rail carrier\u201d is a tax that targets or singles out rail carriers compared to commercial and industrial taxpayers.\nB\nUnder this test, CSX\u2019s complaint was properly dismissed. CSX has not alleged that Alabama\u2019s sales and use taxes target railroads compared to general commercial and industrial taxpayers. See ACF Industries, 510 U. S., at 346-347 (leaving open a case in which \u201crailroads \u2014 either alone or as part of some isolated and targeted group \u2014 are the only commercial entities\u201d subject to a tax); Norfolk Southern R. Co. v. Alabama Dept. of Revenue, 550 F. 3d 1306, 1316 (CA11 2008). CSX alleges that it paid a tax on its fuel that certain rail competitors did not have to pay. But it concedes, as it must, that the sales and use taxes are \u201cgenerally applicable.\u201d Pet. for Cert. i; see Ala. Code \u00a7 40-23-2(1) (2010 Cum. Supp.) (imposing a four percent sales tax on \u201cevery person, firm, or corporation . . . selling at retail any tangible personal property whatsoever\u201d); \u00a740-23-61(a) (2003); see also Norfolk Southern R. Co., supra, at 1316; Tr. of Oral Arg. 36.\nDiscrete exemptions for certain railroad competitors\u2014 namely, fuel exemptions for interstate motor carriers and interstate ships and barges \u2014 do not make a generally applicable tax \u201cdiscriminat[ory]\u201d under subsection (b)(4). Widespread exemptions could theoretically cause a facially general tax to target railroads, but the limited exemptions at issue here do not suggest that, and CSX has not argued it. Accordingly, CSX has not stated a cognizable claim for discrimination under \u00a7 11501(b)(4).\nII\nThe Court does not settle the ambiguity in the word \u201cdiscriminates\u201d in subsection (b)(4) \u2014 leaving open both the appropriate comparison class and the type of differential treatment required to constitute discrimination. The majority \u201chold[s] only that \u00a7 11501(b)(4) enables a railroad to challenge an excise or other non-property tax as discriminatory on the basis of the tax scheme\u2019s exemptions.\u201d Ante, at 288, n. 8. Thus, when the majority says that \u201ca state excise tax that applies to railroads but exempts their interstate competitors is subject to challenge under subsection (b)(4),\u201d ante, at 288, it must mean only that a tax exemption scheme could potentially violate subsection (b)(4).\nAs I understand it, the majority does not decide whether CSX has stated a claim even in this case but instead leaves that issue for remand. Accordingly, States remain free to argue \u2014 and lower courts to hold \u2014 that complaints like CSX\u2019s should be dismissed for failing to state a \u201cdiscrimination]\u201d claim under \u00a7 11501(b)(4) when they do not allege that railroads are targeted or singled out compared to commercial and industrial taxpayers generally.\nNonetheless, despite the majority\u2019s assertion that it is \u201cinappropriate\u201d to address whether Alabama\u2019s tax scheme actually discriminates within the meaning of \u00a7 11501(b)(4), ante, at 289, n. 8, parts of its opinion suggest an answer to that question that I believe is incorrect. Relying on the second definition in Black\u2019s Law Dictionary, the majority defines \u201cdiscriminates\u201d as \u201c \u2018failure to treat all persons equally when no reasonable distinction can be found between those favored and those not favored.'\u201d Ante, at 286. This definition of \u201cdiscriminate,\u201d combined with the majority\u2019s insistence that the \u201cdistinctions drawn in \u00a7 11501(b) are . . . between railroads and other actors, whether interstate or local,\u201d suggests that the comparison class could be anyone. Ante, at 288. The majority ultimately implies that \u201canother tax that discriminates against a rail carrier\u201d is any tax that draws a distinction between a rail carrier and anyone else without sufficient justification. See ante, at 288, n. 8 (\u201cWhether the railroad will prevail. .. depends on whether the State offers a sufficient justification for declining to provide the exemption at issue to rail carriers\u201d).\nI do not read subsection (b)(4) so independently of (b)(1) through (3). Perhaps, as the majority asserts, subsection (b)(4) is not an ideal candidate for ejusdem generis. Ante, at 294-295. But given the ambiguity of subsection (b)(4), (b)(1) through (3) are the best guides for understanding its proper scope \u2014 something we recognized in ACF Industries. 510 U. S., at 343. It is more reasonable to discern the meaning of \u201cdiscriminates\u201d in subsection (b)(4) using the preceding subsections than to pluck from the dictionary a definition for such a context-dependent term.\nDetaching subsection (b)(4) from the rest of the section would expand its meaning well beyond the scope of the problem that necessitated \u00a7 11501(b). Instead of simply eliminating the particular vulnerability of railroads by tying their tax fate to that of general commercial and industrial taxpayers, railroads would receive a surprising windfall: most-favored-taxpayer status. This would convert subsection (b)(4) from a shield into a sword.\nThe implication of the majority opinion is that if every person and business in the State of Alabama paid a $1 annual tax, and one person was exempt, CSX could sue under subsection (b)(4) and require the State to either exempt CSX also or \u201coffe[r] a sufficient justification\u201d for the distinction. See ante, at 288, n. 8. Although the majority denies that this would provide railroads most-favored-taxpayer status, see ibid., it acknowledges that States would have to justify any tax distinction that railroads argue may disfavor them.\nThe only bulwark against requiring States to give railroads every tax exemption that anyone else gets would be open-ended judicial determinations of what is \u201csufficient justification\u201d for such distinctions. Ibid. Unsurprisingly, the statute provides no guidance for what \u201csufficient justification\u201d might mean, but neither does the majority. There are all sorts of reasons that might lead a State to distinguish between railroads and others for tax purposes. See Tr. of Oral Arg. 58. For instance, in this case, Alabama points out that motor carriers and interstate water carriers pay a separate \u2014 and frequently higher \u2014 tax on fuel from which railroads are effectively exempt. Brief for Respondents 12-16, 59-60. That might be a \u201csufficient justification\u201d for their exemptions from the taxes here, but the majority expressly disclaims reaching that question. Ante, at 284, n. 5. Of course, logically extending the meaning of \u201cdiscriminates\u201d from subsections (b)(1) through (3) would avoid this problem, as there is no need for \u201cjustification\u201d at all: A tax either targets railroads by comparison to commercial and industrial taxpayers or it does not.\n* * *\nI disagree with the meaning of \u201cdiscriminat[e]\u201d in subsection (b)(4) that the majority seems to imply. The rest of \u00a7 11501(b) provides a logical and coherent way to determine what subsection (b)(4) means, and we have used that methodology before. See ACF Industries, supra, at 340. The best way to read subsection (b)(4) is as prohibiting taxes that target or single out railroads as compared to general commercial and industrial taxpayers. That is the test I would establish, and I do not understand the majority to foreclose the lower courts from utilizing it. Under that test, CSX\u2019s challenge to Alabama\u2019s sales and use taxes was properly dismissed. Accordingly, I respectfully dissent.\nSee, e. g., Kansas City Southern R. Co. v. McNamara, 817 F. 2d 368, 373-374 (CA5 1987); Burlington Northern R. Co. v, Superior, 932 F. 2d 1185, 1186 (CA7 1991); Alabama Great Southern R. Co. v. Eagerton, 663 F. 2d 1036, 1041 (CA11 1981).\nAlthough the majority rightly observes that whether a given tax is discriminatory may often be a difficult question, see ante, at 297, this is not a close case. I therefore need not define the exact boundaries of what constitutes targeting or singling out. See, e. g., Norfolk Southern R. Co. v. Alabama Dept. of Revenue, 550 F. 3d 1306, 1316, n. 16 (CA11 2008) (listing examples of courts finding railroads targeted by various state tax schemes).\nThe majority declines to reach the comparison class issue. But the question presented was: \u201cWhether a State\u2019s exemptions of rail carrier competitors, but not rail carriers, from generally applicable sales and use taxes on fuel subject the taxes to challenge under 49 U. S. C. \u00a7 11501(b)(4) as \u2018another tax that discriminates against a rail carrier.\u2019 \u201d App. to Pet. for Cert. (i). The question presented thus asks whether CSX can challenge a \u201cgenerally applicable\u201d tax based on exemptions granted to rail competitors \u2014 a straightforward comparison class issue. The lower courts have split over the proper scope of the comparison class, and the issue was presented in this case. I would decide it.\nA comparison class of \u201canyone\u201d is broader than either of the sides in the lower courts\u2019 split on this issue. Courts usually disagree over whether to use commercial and industrial taxpayers or railroad competitors as the comparison class. Compare Burlington Northern, S. F. R. Co. v. Lohman, 193 F. 3d 984, 985-986 (CA8 1999) (applying a comparison class of rail competitors); Burlington Northern R. Co. v. Commissioner of Revenue, 509 N. W. 2d 551, 553 (Minn. 1993) (same), with Kansas City Southern R. Co., 817 F. 2d, at 375 (using commercial and industrial taxpayers as the comparison class); Atchison, T. & S. F. R. Co. v. Arizona, 78 F. 3d 438, 441 (CA9 1996) (same).\nThe majority appears to consider \u201csufficient justification\u201d as a potential defense for the State, see ante, at 288, n. 8, but since it derives from the meaning of \u201cdiscriminates,\u201d a lack of sufficient justification would seem to be a part of what a railroad would have to plead in order to state a claim for a violation of \u00a7 11501(b)(4).",
+        "type": "dissent",
+        "author": "Justice Thomas,"
+      }
+    ],
+    "attorneys": [
+      "Carter G. Phillips argued the cause for petitioner. With him on the briefs were James W. McBride, Stephen D. Goodwin, Ellen M. Fitzsimmons, Joel W. Pangborn, and Peter J. Shudtz.",
+      "Melissa Arbus Sherry argued the cause for the United States as amicus curiae in support of petitioner. With her on the brief were Acting Solicitor General Katyal, Assistant Attorney General West, Deputy Solicitor General Stewart, Anthony J. Steinmeyer, Mark W. Pennak, Paul M. Geier, and Peter J. Plocki.",
+      "Corey L. Maze, Solicitor General of Alabama, argued the cause for respondents. With him on the brief were Troy King, Attorney General, Misty S. Fairbanks and William G. Parker, Jr., Assistant Attorneys General, and Margaret Johnson McNeill."
+    ],
+    "corrections": "",
+    "head_matter": "CSX TRANSPORTATION, INC. v. ALABAMA DEPARTMENT OF REVENUE et al.\nNo. 09-520.\nArgued November 10, 2010\nDecided February 22, 2011\nCarter G. Phillips argued the cause for petitioner. With him on the briefs were James W. McBride, Stephen D. Goodwin, Ellen M. Fitzsimmons, Joel W. Pangborn, and Peter J. Shudtz.\nMelissa Arbus Sherry argued the cause for the United States as amicus curiae in support of petitioner. With her on the brief were Acting Solicitor General Katyal, Assistant Attorney General West, Deputy Solicitor General Stewart, Anthony J. Steinmeyer, Mark W. Pennak, Paul M. Geier, and Peter J. Plocki.\nCorey L. Maze, Solicitor General of Alabama, argued the cause for respondents. With him on the brief were Troy King, Attorney General, Misty S. Fairbanks and William G. Parker, Jr., Assistant Attorneys General, and Margaret Johnson McNeill.\nBriefs of amici curiae urging reversal were filed for the Association of American Railroads by Betty Jo Christian, Timothy M. Walsh, and Janet Bartelmay; and for the Tax Foundation by James N. Markets.\nBriefs of amici curiae urging affirmance were filed for the State of Washington et al. by Robert M. McKenna, Attorney General of Washington, Cameron G. Comfort, Senior Assistant Attorney General, and Donald F. Cofer, and by the Attorneys General for their respective States as follows: Joseph R. Biden III of Delaware, Thurbert E. Baker of Georgia, Gregory F. Zoeller of Indiana, Tom Miller of Iowa, Douglas F. Gansler of Maryland, Michael A. Cox of Michigan, Lori Swanson of Minnesota, Steve Bullock of Montana, Catherine Cortez Masto of Nevada, Richard Cordray of Ohio, Patrick C. Lynch of Rhode Island, Marty J. Jackley of South Dakota, Robert E. Cooper, Jr., of Tennessee, Mark L. Shurtleff of Utah, Kenneth T. Cuccinelli II of Virginia, Darrell V. McGraw, Jr., of West Virginia, J. B. Van Hollen of Wisconsin, and Bruce A. Salzburg of Wyoming; for the Alabama Education Association et al. by Susan E. Kennedy, Kenneth L. Thomas, Lee F. Armstrong, Michael Spearing, N. J. Cerrera, Robert M. Hill, Jr., and Jean Walker Tucker; and for the American Trucking Associations, Inc., by Robert S. Digges, Jr.\nBriefs of amici curiae were filed for the Council on State Taxation by Todd A Lard, Douglas L. Lindholm, and Fredrick J. Nicely; and for the Multistate Tax Commission by Joe Huddleston and Shirley Sicilian."
+  },
+  "file_name": "0277-01",
+  "first_page_order": 499,
+  "last_page_order": 528
+}

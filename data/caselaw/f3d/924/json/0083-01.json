@@ -1,0 +1,774 @@
+{
+  "id": 12521222,
+  "name": "UNITED STATES of America v. Rehelio D. TRANT, Appellant",
+  "name_abbreviation": "United States v. Trant",
+  "decision_date": "2019-05-15",
+  "docket_number": "No. 18-3199",
+  "first_page": "83",
+  "last_page": "94",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "924 F.3d 83"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "3rd Cir.",
+    "id": 9319,
+    "name": "United States Court of Appeals for the Third Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "777 F.3d 125",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3985805
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "143"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/777/0125-01"
+      ]
+    },
+    {
+      "cite": "401 U.S. 321",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11712407
+      ],
+      "weight": 3,
+      "year": 1971,
+      "pin_cites": [
+        {
+          "page": "331-32"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/401/0321-01"
+      ]
+    },
+    {
+      "cite": "915 F.2d 865",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10538797
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "876",
+          "parenthetical": "stating that ruling on a motion to reopen a suppression hearing after remand \"is similar to ... ruling on a motion by the [G]overnment to reopen\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/915/0865-01"
+      ]
+    },
+    {
+      "cite": "534 F. App'x 132",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        4177459
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "136",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/534/0132-01"
+      ]
+    },
+    {
+      "cite": "595 F. App'x 152",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        5754194
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "154",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/595/0152-01"
+      ]
+    },
+    {
+      "cite": "792 F.3d 310",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6055410
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "314"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/792/0310-01"
+      ]
+    },
+    {
+      "cite": "904 F.2d 1070",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10540818
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "1076",
+          "parenthetical": "\"The fact that the gun was not produced at trial or that the witnesses did not have an opportunity to examine closely the weapon does not prevent conviction of a firearm offense.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/904/1070-01"
+      ]
+    },
+    {
+      "cite": "150 F.3d 269",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1540612
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "273"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/150/0269-01"
+      ]
+    },
+    {
+      "cite": "363 F.3d 200",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9265012
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "210-11"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/363/0200-01"
+      ]
+    },
+    {
+      "cite": "349 F.3d 109",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9065104
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "123"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/349/0109-01"
+      ]
+    },
+    {
+      "cite": "99 F.3d 570",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7650765
+      ],
+      "weight": 2,
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "573",
+          "parenthetical": "concluding that the testimony of a witness, who saw a defendant's gun twice at a \"close\" range, provided \"sufficient evidence for a jury to conclude that the defendant utilized a firearm in the commission of his crime\""
+        },
+        {
+          "page": "571-73",
+          "parenthetical": "only a mailman testified to seeing the defendant's firearm"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/99/0570-01"
+      ]
+    },
+    {
+      "cite": "726 F.3d 418",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4073591
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "430",
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/726/0418-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 921",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "(a)(3)"
+        },
+        {
+          "page": "(a)(3)(A)"
+        },
+        {
+          "page": "(a)(3)",
+          "parenthetical": "excluding \"an antique firearm\" from the definition of a firearm"
+        },
+        {
+          "page": "(a)(3)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "326 F.3d 210",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9311916
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "219"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/326/0210-01"
+      ]
+    },
+    {
+      "cite": "475 U.S. 673",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6207521
+      ],
+      "weight": 5,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "680"
+        },
+        {
+          "page": "680"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/475/0673-01"
+      ]
+    },
+    {
+      "cite": "507 U.S. 725",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6237509
+      ],
+      "weight": 10,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "731-34"
+        },
+        {
+          "page": "734"
+        },
+        {
+          "page": "732-34",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "736"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/507/0725-01"
+      ]
+    },
+    {
+      "cite": "464 F.3d 443",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3731135
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "448"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/464/0443-01"
+      ]
+    },
+    {
+      "cite": "539 F.2d 697",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1039969
+      ],
+      "weight": 3,
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "700"
+        },
+        {
+          "page": "699-700"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/539/0697-01"
+      ]
+    },
+    {
+      "cite": "751 F.3d 107",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4070402
+      ],
+      "weight": 2,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "114",
+          "parenthetical": "holding that the nonmoving parties were not prejudiced by the District Court's granting a motion to reopen the record on remand because they had notice of the evidence to be offered and an opportunity to rebut the evidence"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/751/0107-01"
+      ]
+    },
+    {
+      "cite": "866 F.3d 76",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12275339
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "parenthetical": "\"Reopening may ... be permitted to allow the presentation of evidence about a technical matter overlooked by inadvertence.\" (internal quotation marks and citation omitted)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/866/0076-01"
+      ]
+    },
+    {
+      "cite": "602 F.3d 152",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3919909
+      ],
+      "weight": 2,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "parenthetical": "noting that district courts \"have wide discretion in the management of their cases\" (internal quotation marks and citation omitted)"
+        },
+        {
+          "page": "176",
+          "parenthetical": "noting district courts have \"broad discretion\" to engage in case management during trial"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/602/0152-01"
+      ]
+    },
+    {
+      "cite": "596 F.2d 759",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        502987
+      ],
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "778"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/596/0759-01"
+      ]
+    },
+    {
+      "cite": "775 F.2d 735",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        41865
+      ],
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "741"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/775/0735-01"
+      ]
+    },
+    {
+      "cite": "233 F.3d 101",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11172545
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "106"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/233/0101-01"
+      ]
+    },
+    {
+      "cite": "403 F.3d 1278",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9022219
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "1283-88"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/403/1278-01"
+      ]
+    },
+    {
+      "cite": "432 F.3d 573",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        556273
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "579"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/432/0573-01"
+      ]
+    },
+    {
+      "cite": "599 F.3d 215",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4224029
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "247-48"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/599/0215-01"
+      ]
+    },
+    {
+      "cite": "764 F.3d 997",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4182398
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "1001"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/764/0997-01"
+      ]
+    },
+    {
+      "cite": "872 F.3d 293",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12264471
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "298-99"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/872/0293-01"
+      ]
+    },
+    {
+      "cite": "218 F.3d 213",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11193275
+      ],
+      "weight": 8,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "220"
+        },
+        {
+          "parenthetical": "internal quotation marks and citation omitted"
+        },
+        {
+          "page": "219",
+          "parenthetical": "internal quotation marks and citation omitted"
+        },
+        {
+          "page": "219-20"
+        },
+        {
+          "page": "219"
+        },
+        {
+          "page": "219",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/218/0213-01"
+      ]
+    },
+    {
+      "cite": "296 F.3d 176",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9402643
+      ],
+      "weight": 7,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "181",
+          "parenthetical": "quoting United States v. Kithcart , 218 F.3d 213, 220 (3d Cir. 2000) "
+        },
+        {
+          "page": "180"
+        },
+        {
+          "page": "180",
+          "parenthetical": "internal quotation marks and citation omitted"
+        },
+        {
+          "page": "182",
+          "parenthetical": "internal quotation marks and citation omitted"
+        },
+        {
+          "page": "181"
+        },
+        {
+          "page": "181"
+        },
+        {
+          "page": "180"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/296/0176-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1291",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "48 U.S.C. \u00a7 1612",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 3231",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "891 F.3d 93",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12517161
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "111"
+        },
+        {
+          "page": "111"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/891/0093-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 922",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(g)(1)"
+        },
+        {
+          "page": "(g)(1)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1206,
+    "char_count": 29313,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.259319944907985
+    },
+    "sha256": "2efbdd7797a80ef045934f6e743651e9ea312f28781dab30efa8df6d2a59f2c1",
+    "simhash": "1:defa4bb72a297f6b",
+    "word_count": 4754
+  },
+  "last_updated": "2024-02-27T18:46:58.656971+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before: SMITH, Chief Judge, JORDAN, and RENDELL, Circuit Judges"
+    ],
+    "parties": [
+      "UNITED STATES of America\nv.\nRehelio D. TRANT, Appellant"
+    ],
+    "opinions": [
+      {
+        "text": "SMITH, Chief Judge.\nOne evening on St. Thomas, in the U.S. Virgin Islands (the V.I.), a minor dispute between two men over the use of a can opener escalated into each man menacingly showing the other his pistol. After law enforcement officers looked into these events, a federal grand jury charged one of them, Rehelio Trant, with being a convicted felon in possession of a firearm in violation of 18 U.S.C. \u00a7 922(g)(1). Trant proceeded to trial and a jury found him guilty. On appeal, Trant argues that his conviction should be vacated because the District Court impermissibly allowed the Government to reopen its case-in-chief and also made two evidentiary errors. Trant also contends that the record contains insufficient evidence to support his conviction. Concluding that none of Trant's challenges have merit, we will affirm the judgment.\nI.\nIn the fall of 2017, Rehelio Trant and Jimez Ashby had a heated encounter at a gas station in Bovoni, St. Thomas, that ended with each displaying his pistol to the other. Trant wanted to use a can opener inside the gas station, but Ashby was at a counter and in his way. Trant asked Ashby to move, but Ashby did not hear him. Trant then yelled his request in Ashby's ear. Although Ashby complied, he admonished Trant for screaming at him. The encounter seemed to have ended when the two men shook hands and Trant exited the store. Yet Trant signaled Ashby to join him outside. When Ashby did so, a breeze blew hard enough against Trant that Ashby, standing less than a car's length away, was able to see Trant's waistband tighten and the imprint of a gun against his body. Ashby immediately brandished his firearm and backed away. Then standing \"a little more than a car length\" from Ashby, Trant lifted up his shirt and revealed a gun in his waistband. (App. 61.) Just then, a woman walked between the two men, and Trant left the gas station. Ashby quickly called the police to report the incident.\nSeveral months later, a federal grand jury charged Trant with one count of possession of a firearm by a convicted felon. Before trial, the Government and Trant stipulated that he had a prior felony conviction. In addition, Trant filed a motion in limine seeking the Court's permission to inquire into \"Ashby's unlawful possession of two firearms for impeachment purposes which are probative of his character for untruthfulness.\" (App. 24-25.) The District Court deferred ruling on this motion until trial.\nAt trial, the Government's case included the testimony of Ashby and Sergeant Bernard Burke, the Supervisor of the Virgin Islands Police Department's Firearms Unit. Ashby described his encounter with Trant, and added that the light \"was good\" when he saw both the imprint of a gun in Trant's waistband and Trant lift his shirt to expose the gun. (App. 60, 76-77.) On cross examination, Ashby testified that he knew the imprint in Trant's waistband was of a gun and recalled telling the police that Trant's firearm \"look[ed] like a Glock\"-a gun that Ashby said resembled his own Glock pistol. (App. 71.) Trant's counsel attempted to ask Ashby three questions about the unlawfulness of his possession of a firearm at the time of the altercation with Trant, but the District Court sustained, apparently under Federal Rules of Evidence 608 and 609, the Government's objections to these questions. The Government then called Sergeant Burke to testify that there are no firearm manufacturing facilities within the territorial boundaries of the V.I. After that, the Government rested its case.\nNext, Trant moved under Federal Rule of Criminal Procedure 29(a) for a judgment of acquittal. The District Court, noting that the trial record lacked evidence that Trant was a convicted felon (a requirement for conviction under 18 U.S.C. \u00a7 922(g)(1), see United States v. Foster , 891 F.3d 93, 111 (3d Cir. 2018) ), asked the prosecutor about the missing evidence to support this \"essential element.\" (App. 84.) She responded that she had forgotten to move the admission of the stipulation of Trant's prior felony conviction. The prosecutor then incorrectly asserted that she had \"asked the Court prior to the jury coming in to address [the stipulation] and to inquire as to when that stipulation would be presented to the jury.\" (App. 85.) This left the Government with no alternative but to move to reopen its case-in-chief. In support of its motion, the prosecutor argued that the Court should grant the motion because Trant would not suffer any prejudice from the admission of the stipulation. Trant objected but offered no reason why the Court should deny the motion other than that \"it's too late\" and \"[t]he [G]overnment has rested.\" (App. 88.)\nThe District Court granted the Government's motion to reopen. After the stipulation was admitted into evidence, the Government again rested. Trant, not presenting any evidence of his own, also rested.\nThe jury found Trant guilty of violating \u00a7 922(g)(1), and Trant was later sentenced to 71 months' imprisonment and three years of supervised release. Trant timely appealed.\nII.\nThe District Court had jurisdiction under 18 U.S.C. \u00a7 3231 and 48 U.S.C. \u00a7 1612(a), and we have jurisdiction pursuant to 28 U.S.C. \u00a7 1291.\nIII.\nOn appeal, Trant raises three issues. He contends that the District Court erred by granting the Government's motion to reopen its case-in-chief and by restricting his cross examination of Ashby. Trant also asserts that the record lacks the necessary evidence to support his conviction. We reject each of his challenges.\nA.\nTrant argues that the District Court impermissibly granted the Government's motion to reopen because the Government lacked a reasonable explanation for failing to present the stipulation during its case-in-chief. Trant adds that \"the [G]overnment added insult to injury by misrepresenting what had occurred.\" (Trant's Br. at 21.) He further contends that our review of the District Court's ruling should \"end\" with the Government's inadequate justification for failing to move the stipulation into evidence because, he implies, a reasonable explanation was necessary for reopening. (Id. at 22.) Alternatively, Trant asserts that the Court abused its discretion by granting the motion because he was prejudiced by the reopening-i.e., he lost the opportunity to be acquitted based on the Government's failure to prove that he is a convicted felon.\n1.\nThere is scarce authority in our circuit on the standard governing this Court's review of a ruling on a motion to reopen the Government's case-in-chief during a criminal trial. We therefore take this opportunity to clarify and build upon our case law. When considering a party's motion to reopen its case at trial, \" 'the district court's primary focus should be on whether the party opposing reopening would be prejudiced if reopening is permitted.' \" United States v. Coward , 296 F.3d 176, 181 (3d Cir. 2002) (quoting United States v. Kithcart , 218 F.3d 213, 220 (3d Cir. 2000) ) (explaining how district courts should approach ruling on motions to reopen a suppression hearing). As in the suppression context, two principal considerations for the district court's inquiry are the timing of the moving party's request to reopen (whether, if the motion is granted, the opposing party will have a reasonable opportunity to rebut the moving party's new evidence) and \"the effect of the granting of the motion\" (whether granting the motion will cause substantial disruption to the proceedings or result in the new evidence taking on \"distorted importance\"). Id. (internal quotation marks and citation omitted). Moreover, district courts should assess the reasonableness of the moving party's explanation for failing to introduce the desired evidence before resting and whether the new evidence is admissible and has probative value. See id.\nIn adopting this standard, we join eight other circuits that have issued essentially the same guidance on how district courts should approach deciding motions to reopen at trial. See United States v. Martinez , 872 F.3d 293, 298-99 (5th Cir. 2017) ; United States v. Orozco , 764 F.3d 997, 1001 (9th Cir. 2014) ; United States v. Sabhnani , 599 F.3d 215, 247-48 (2d Cir. 2010) ; United States v. Nunez , 432 F.3d 573, 579 (4th Cir. 2005) ; United States v. Byrd , 403 F.3d 1278, 1283-88 (11th Cir. 2005) ; United States v. Peterson , 233 F.3d 101, 106 (1st Cir. 2000) ; United States v. Blankenship , 775 F.2d 735, 741 (6th Cir. 1985) ; United States v. Larson , 596 F.2d 759, 778 (8th Cir. 1979).\nAlthough we have announced the standard governing motions to reopen at trial by referring to our suppression-hearing case law, our statement that \" 'courts should be extremely reluctant to grant reopenings,' \" Coward , 296 F.3d at 180 (quoting Kithcart , 218 F.3d at 219 (internal quotation marks and citation omitted)), does not apply to a district court's consideration of a motion to reopen at trial. Both Coward and Kithcart explained that this restraint on reopening applies to motions to reopen a suppression hearing. See id. ; Kithcart , 218 F.3d at 219-20. We conclude that any such caution against reopening the record in the trial context would constitute an anomalous constraint on a district court's traditional and well-understood exercise of its discretion. See United States v. Schiff , 602 F.3d 152, 167 n.21 (3d Cir. 2010) (noting that district courts \"have wide discretion in the management of their cases\" (internal quotation marks and citation omitted)). Coward and Kithcart recognize that \"decisions to reopen proceedings are traditionally a discretionary matter for the district court.\" Coward , 296 F.3d at 180 (internal quotation marks and citation omitted); Kithcart , 218 F.3d at 219. We will not, therefore, direct a district court to place a thumb on the scale by suggesting that reopening a trial record is somehow disfavored, while at the same time giving lip service to our reliance upon the trial judge's sound discretion. In our view, this would only confuse a trial judge's inquiry into whether or not to reopen, as well as our eventual review for abuse of discretion.\nWe add that our cautionary warning against reopening suppression hearings upon remand is not warranted in the trial context for three additional reasons. First, in comparison to suppression hearings, trials present a greater need for district courts to be unconstrained in the exercise of their case-management discretion. Trials are fluid proceedings with a much wider horizon of evidence for district courts to consider than in suppression hearings, and courts enjoy broad discretion during trial precisely so that they can promptly and effectively respond to the varied and often unanticipated issues that may arise. Cf. Schiff , 602 F.3d at 176 (noting district courts have \"broad discretion\" to engage in case management during trial). Second and relatedly, suppression hearings usually present fewer and more narrow issues than arise at trial. That means that parties moving to reopen suppression hearings will generally have less justifiable reasons for failing to introduce the desired evidence into the record than parties moving to reopen at trial. As Coward noted, \"[r]eopening is often permitted to supply some technical requirement ... or to supply some detail overlooked by inadvertence.\" 296 F.3d at 182 (internal quotation marks and citation omitted). We believe that, as exemplified by this case, there are more opportunities for technical requirements or details to be overlooked during the often high pressure of a trial proceeding than in a suppression hearing where a jury is never present. Third, courts should not be distracted at trial by a suggestion that reopening is disfavored, because deciding whether to allow the Government to reopen its case-in-chief will more often be outcome determinative (as in this case) than in the suppression-following-remand context. In the latter situation, the Government may be able, through time and investigative resources, to obtain alternative evidence to present at trial. This higher likelihood of reopening at trial being outcome determinative makes it even more critical that a district court apply our reopening standard in a straightforward manner, focusing first on prejudice to the party opposing the motion, while also considering the nature and probative value of the new evidence. Quite simply, the purpose, procedure and pressures of a trial are way too different from the suppression hearing context to warrant application of a \"one size fits all\" approach to resolving a motion to reopen.\n2.\nWith this standard now defined, we turn to Trant's argument that the District Court impermissibly granted the Government's motion to reopen its case-in-chief. We agree with Trant that the Government's reason for failing to introduce the stipulation before resting (it \"simply forgot\" (Gov. Br. at 16)) is hardly compelling. But prejudice to the party objecting to reopening the trial record constitutes the primary consideration for a district court that must rule on a motion to reopen. The Court was not required to deny the motion solely because the Government's explanation was weak. See United States v. Wrensford , 866 F.3d 76, 88 n.6 (3d Cir. 2017) (\"Reopening may ... be permitted to allow the presentation of evidence about a technical matter overlooked by inadvertence.\" (internal quotation marks and citation omitted)).\nWe conclude that the District Court did not abuse its discretion by granting the motion because Trant was not prejudiced by the Government's reopening of its case-in-chief: the Government moved to reopen before Trant had the opportunity to present his evidence, thereby giving him the opportunity to respond and also limiting any disruption to the proceedings. See Coward , 296 F.3d at 181 (\"Where, as in this case, reopening is permitted after the [G]overnment has rested its case in chief, but before the defendant has presented any evidence, it is unlikely that prejudice sufficient to establish an abuse of discretion can be established.\" (internal quotation marks and citation omitted)). And importantly, the object of the motion to reopen was the admission of a stipulation -Trant had agreed to it. See United States v. Smith , 751 F.3d 107, 114 (3d Cir. 2014) (holding that the nonmoving parties were not prejudiced by the District Court's granting a motion to reopen the record on remand because they had notice of the evidence to be offered and an opportunity to rebut the evidence). Contrary to Trant's assertion, prejudice in this context does not mean the loss of an opportunity for an unearned windfall. Prejudice results when a party experiences an unfair or unreasonable impairment of his defense. See Smith , 751 F.3d at 114 ; Coward , 296 F.3d at 181. Finally, we emphasize that the parties do not dispute that the stipulation was admissible and that it had significant probative value. A trial should be a solemn exercise in a search for truth, not a game of \"gotcha.\"\nB.\nTrant next contends that the District Court committed two errors by preventing him from cross examining Ashby about his unlawful possession of a firearm. First, Trant argues that the Court should have permitted him to question Ashby about this matter, suggesting it was probative of Ashby's character for untruthfulness and necessary for the jury to evaluate Ashby's credibility. Trant asserts that Ashby's own illegal activity gave him a reason to lie about Trant's gun possession. When Ashby called the police, Trant contends, he wanted officers to focus on Trant's criminal activity and not his own. In support, Trant points to United States v. Estell , 539 F.2d 697 (10th Cir. 1976), for the proposition that \"credibility may be attacked by showing specific instances of the witness's prior misconduct, other than convictions, which bear on veracity.\" Id. at 700.\nIn implicitly applying Federal Rule of Evidence 608(b), the District Court did not abuse its discretion by restricting Trant from asking Ashby about his unlawful possession of a firearm. Under this Rule, the District Court had the discretion to allow Trant on cross examination to question Ashby about specific instances of conduct if they were probative of his character for truthfulness or untruthfulness. See Fed. R. Evid. 608(b) ; United States v. Williams , 464 F.3d 443, 448 (3d Cir. 2006). The District Court permissibly halted Trant's proposed questioning because Ashby's illegal possession of a firearm did not have any bearing on his character for truthfulness or untruthfulness. As the Tenth Circuit has explained, \"[t]here is a point which constitutes a prosecution of the witness for the offense inquired about rather than a testing of his credibility and when that point is reached the court acts properly in closing down the questioning, for there is no valid interest to be served in shifting the emphasis from the accused person[ ] on trial to the witness.\" Estell , 539 F.2d at 699-700. The Court did not err in preventing Trant from questioning Ashby about his unlawful possession of a firearm and thereby avoiding the concerns expressed in Estell .\nSecond, Trant argues that the District Court violated his rights under the Confrontation Clause, see U.S. Const. amend. VI, by not permitting him to cross examine Ashby about his unlawful possession of a firearm. His questions, Trant contends, would have demonstrated Ashby's bias against Trant and his motivation to lie. Trant again suggests that because Ashby illegally had a gun during their encounter at the gas station, he had the motive to report Trant's unlawful possession of a firearm to the police so as to distract law enforcement from his own criminal conduct. Notably, Trant does not assert that Ashby testified pursuant to any agreement with the Government.\nTrant failed to raise this argument below, so we review for plain error. See United States v. Olano , 507 U.S. 725, 731-34, 113 S.Ct. 1770, 123 L.Ed.2d 508 (1993). The District Court did not plainly err because if Trant had been permitted to pursue his proposed cross examination, the jury would not have had \"a significantly different impression\" of Ashby's credibility. Delaware v. Van Arsdall , 475 U.S. 673, 680, 106 S.Ct. 1431, 89 L.Ed.2d 674 (1986) ; see also United States v. Chandler , 326 F.3d 210, 219 (3d Cir. 2003). Had the cross examination taken place, no reasonable jury could have believed that Ashby testified against Trant to avoid his own prosecution for illegally having a firearm. And how could they? It was Ashby himself who first called the police and reported to them that he had brandished his own firearm in the presence of Trant. Trant's proposed cross examination would not have given \"the jury the facts from which jurors ... could appropriately draw inferences relating to the reliability of\" Ashby. Van Arsdall , 475 U.S. at 680, 106 S.Ct. 1431 (internal quotation marks and citation omitted). And even if the restriction on cross examination was error, the implausible nature of Ashby's having an ulterior motive for testifying hardly made it \"obvious\" that Trant had the right to ask Ashby about the latter's illegal possession of a firearm. Olano , 507 U.S. at 734, 113 S.Ct. 1770.\nC.\nTrant finally raises two arguments in support of his contention that the record lacks sufficient evidence to support his conviction. First, he asserts that Ashby's testimony lacks adequate specificity for a rational factfinder to determine beyond a reasonable doubt that the object Ashby saw in Trant's possession fit the definition of a firearm under 18 U.S.C. \u00a7 921(a)(3). Trant emphasizes that the object may not have been a firearm at all; alternatively, he suggests that \"the object could have been an antique firearm which the statute specifically excludes as meeting the definition of a firearm.\" (Trant Br. at 14.) And during oral argument before us, Trant stressed that Ashby lacked the expertise and experience of a police officer in identifying firearms and that Ashby's account lacked corroboration.\nAshby's testimony, however, provides sufficient evidence to satisfy the requirement for a \u00a7 922(g)(1) conviction that a defendant possess a firearm as defined in \u00a7 921(a)(3). When reviewing a jury verdict to determine whether the evidence presented at trial was sufficient to support the conviction, \"we review the record in the light most favorable to the prosecution to determine whether any rational trier of fact could have found proof of guilt[ ] beyond a reasonable doubt. ... We must sustain the jury's verdict if there is substantial evidence, viewed in the light most favorable to the government, to uphold the jury's decision.\" United States v. Caraballo-Rodriguez , 726 F.3d 418, 430 (3d Cir. 2013) (en banc) (internal quotation marks and citations omitted). Here, Ashby testified that he saw, with good lighting at the scene of the offense, the imprint of a gun in Trant's waistband and Trant revealing \"his gun in his waist.\" ( App. 61, 76-77.) Ashby further stated that he knew what he saw was a gun, describing it as a Glock that looked like one that he owned. When assessing this evidence in the light most favorable to the Government, a rational trier of fact could determine beyond a reasonable doubt that Trant had a \"weapon ... which will or is designed to or may readily be converted to expel a projectile by the action of an explosive.\" 18 U.S.C. \u00a7 921(a)(3)(A). Cf. United States v. Beverly , 99 F.3d 570, 573 (3d Cir. 1996) (concluding that the testimony of a witness, who saw a defendant's gun twice at a \"close\" range, provided \"sufficient evidence for a jury to conclude that the defendant utilized a firearm in the commission of his crime\"). Furthermore, we reject Trant's antique-firearm defense, see 18 U.S.C. \u00a7 921(a)(3) (excluding \"an antique firearm\" from the definition of a firearm), because he did not raise this affirmative defense in the District Court, nor did he offer any evidence suggesting that the gun Ashby saw was an antique firearm, as required by United States v. Lawrence , 349 F.3d 109, 123 (3d Cir. 2003). Finally, we have never required that a firearm conviction be supported by the testimony of at least two witnesses or by a witness with firearms expertise equal to that of a police officer. See Beverly , 99 F.3d at 571-73 (only a mailman testified to seeing the defendant's firearm).\nSecond, Trant contends that the Government failed to prove that his firearm traveled in interstate commerce-a required showing for a conviction under \u00a7 922(g)(1). See Foster , 891 F.3d at 111. Sergeant Burke, Trant argues, could not have provided the necessary proof because \"he was not given a gun to examine nor was he given the particular characteristics of [Trant's] gun.\" (Trant Br. at 15-16.)\nBut Sergeant Burke's testimony was that there were no firearm manufacturers in the Virgin Islands. That alone would justify a rational trier of fact in finding beyond a reasonable doubt that Trant's firearm traveled in interstate commerce. This Court has previously held that the testimony of Virgin Islands police officers can be sufficient to establish that, because particular goods were not manufactured in the Virgin Islands, their presence on the islands meant that they had been transported in interstate commerce. See United States v. Haywood , 363 F.3d 200, 210-11 (3d Cir. 2004) ; United States v. Lake , 150 F.3d 269, 273 (3d Cir. 1998). Those holdings are applicable here. Sergeant Burke's testimony tracks that of Virgin Islands police officers in earlier cases in which we have deemed such testimony sufficient to establish that a particular good or product moved in interstate commerce. Given Sergeant Burke's testimony, a rational trier of fact would not need to examine Trant's gun or its characteristics to find beyond a reasonable doubt that the gun traveled in interstate commerce. See United States v. Buggs , 904 F.2d 1070, 1076 (7th Cir. 1990) (\"The fact that the gun was not produced at trial or that the witnesses did not have an opportunity to examine closely the weapon does not prevent conviction of a firearm offense.\").\nIV.\nWe will affirm the judgment because sufficient evidence supports Trant's conviction, and because the District Court did not err in either permitting the Government to reopen its case-in-chief or restricting Trant's cross examination of Ashby.\nBecause Trant challenges the sufficiency of the evidence supporting his conviction, we view the evidence in the light most favorable to the Government and draw all reasonable inferences in favor of the jury's guilty verdict. See United States v. Fountain , 792 F.3d 310, 314 (3d Cir. 2015).\nThe District Court did not reference any legal authority when ruling on the Government's objections, but the Government cited Federal Rules of Evidence 608 and 609 when it raised two of its three objections that the Court sustained.\nThe record does not support the Government's assertion that it had raised with the Court the admission of the stipulation. The prosecutor later acknowledged that she \"did not tell the Court that the question [she] had about the stipulation was when to present it.\" (App. 89.) The District Court \"remind[ed] the parties to be cautious with your recollection[s] because it seems to me the [G]overnment's recollection and recitation of what happened doesn't comport with the record at all.\" (App. 91.)\nIn multiple decisions, both precedential and non-precedential, we have stated that \"[t]he question of whether the [G]overnment may augment the record at a suppression hearing after a remand following the conviction of the defendant is analogous to the question of whether the [G]overnment may reopen its case after resting.\" United Statesv. Coward , 296 F.3d 176, 180 (3d Cir. 2002) ; United States v. Kithcart , 218 F.3d 213, 219 (3d Cir. 2000) (same); United States v. Rey , 595 F. App'x 152, 154 (3d Cir. 2014) (same); United States v. Brown , 534 F. App'x 132, 136 (3d Cir. 2013) (same); see also United States v. Vastola , 915 F.2d 865, 876 (3d Cir. 1990) (stating that ruling on a motion to reopen a suppression hearing after remand \"is similar to ... ruling on a motion by the [G]overnment to reopen\").\nWe do not consider here whether our statement in Coward and Kithcart instructing district courts to exercise extreme reluctance to grant reopening in suppression hearings after remand is dicta and accordingly not binding, even in that context. It is enough to say that it is certainly not binding in the context of a trial.\nWe review the District Court's ruling on the Government's motion to reopen by applying a straightforward abuse of discretion standard. See Zenith Radio Corp. v. Hazeltine Research, Inc. , 401 U.S. 321, 331-32, 91 S.Ct. 795, 28 L.Ed.2d 77 (1971).\nThe District Court did not provide an explanation for granting the Government's motion to reopen. We encourage district courts to articulate their reasons for a ruling on a motion to reopen at trial.\nThe parties had filed on the District Court's docket the stipulation that Trant had a prior felony conviction.\nWe add that the District Court appropriately handled the Government's misrepresentation regarding the admission of the stipulation.\nWe review the District Court's ruling for abuse of discretion. See United States v. Georgiou , 777 F.3d 125, 143 (3d Cir. 2015). The Government also objected to Trant's proposed cross examination of Ashby under Federal Rule of Evidence 609, but that Rule appears inapplicable here because, according to Trant, Ashby was not convicted of illegally possessing a firearm (for lacking a valid firearms license). See Fed. R. Evid. 609.\nUnder plain-error review, Trant must show that (1) an error occurred; (2) the error is \"obvious\"; and (3) the error \"affected the outcome of the district court proceedings.\" United States v. Olano , 507 U.S. 725, 732-34, 113 S.Ct. 1770, 123 L.Ed.2d 508 (1993) (internal quotation marks omitted). If Trant makes these showings, we exercise our discretion to award relief when the error \"seriously affect[s] the fairness, integrity or public reputation of judicial proceedings.\" Id. at 736, 113 S.Ct. 1770 (internal quotation marks and citation omitted).\n18 U.S.C. \u00a7 921(a)(3) defines a firearm as \"(A) any weapon (including a starter gun) which will or is designed to or may readily be converted to expel a projectile by the action of an explosive; (B) the frame or receiver of any such weapon; (C) any firearm muffler or firearm silencer; or (D) any destructive device. Such term does not include an antique firearm.\"",
+        "type": "majority",
+        "author": "SMITH, Chief Judge."
+      }
+    ],
+    "attorneys": [
+      "Gretchen C.F. Shappert, Sigrid M. Tejo-Sprotte [ARGUED], Office of United States Attorney, 5500 Veterans Drive, Suite 260, United States Courthouse, St. Thomas, VI 00802, Counsel for Appellee",
+      "Omodare B. Jupiter, Office of the Federal Public Defender, 200 South Lamar Street, Suite 200-N, Jackson, MS 39201, Melanie Turnbull [ARGUED], Gabriel J. Villegas, Office of Federal Public Defender, 1336 Beltjen Road, Suite 202, Tunick Building, St. Thomas, VI 00802, Counsel for Appellant"
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America\nv.\nRehelio D. TRANT, Appellant\nNo. 18-3199\nUnited States Court of Appeals, Third Circuit.\nArgued April 8, 2019\nFiled: May 15, 2019\nGretchen C.F. Shappert, Sigrid M. Tejo-Sprotte [ARGUED], Office of United States Attorney, 5500 Veterans Drive, Suite 260, United States Courthouse, St. Thomas, VI 00802, Counsel for Appellee\nOmodare B. Jupiter, Office of the Federal Public Defender, 200 South Lamar Street, Suite 200-N, Jackson, MS 39201, Melanie Turnbull [ARGUED], Gabriel J. Villegas, Office of Federal Public Defender, 1336 Beltjen Road, Suite 202, Tunick Building, St. Thomas, VI 00802, Counsel for Appellant\nBefore: SMITH, Chief Judge, JORDAN, and RENDELL, Circuit Judges\nOPINION OF THE COURT"
+  },
+  "file_name": "0083-01",
+  "first_page_order": 83,
+  "last_page_order": 94
+}

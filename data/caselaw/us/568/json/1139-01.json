@@ -1,0 +1,61 @@
+{
+  "id": 12429868,
+  "name": "Mackey v. Graber, Warden",
+  "name_abbreviation": "Mackey v. Graber",
+  "decision_date": "2013-01-14",
+  "docket_number": "No. 12-7586",
+  "first_page": "1139",
+  "last_page": "1139",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1139"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 152,
+    "ocr_confidence": 0.638,
+    "sha256": "c28edc08d73177df1866cd58f9a2f4d6ecc62f574e8be7d0626e443ecd24ba7a",
+    "simhash": "1:99332282658c3846",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition.'"
+    ],
+    "parties": [
+      "Mackey v. Graber, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.'",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7586.\nMackey v. Graber, Warden."
+  },
+  "file_name": "1139-01",
+  "first_page_order": 1215,
+  "last_page_order": 1215
+}

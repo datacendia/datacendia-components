@@ -1,0 +1,59 @@
+{
+  "id": 12427991,
+  "name": "Conrad v. United States",
+  "name_abbreviation": "Conrad v. United States",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-595",
+  "first_page": "1090",
+  "last_page": "1090",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1090"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.609,
+    "sha256": "dbdd5c683735701ad9b11bd08743cbb0744265240146847c2c0a4374ef0cda63",
+    "simhash": "1:80ca9a8edad0c448",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Conrad v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-595.\nConrad v. United States."
+  },
+  "file_name": "1090-05",
+  "first_page_order": 1166,
+  "last_page_order": 1166
+}

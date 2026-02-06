@@ -1,0 +1,89 @@
+{
+  "id": 12520889,
+  "name": "UNITED STATES of America, Plaintiff - Appellee, v. Demetrius R. HARGROVE, Defendant - Appellant.",
+  "name_abbreviation": "U.S. v. Hargrove",
+  "decision_date": "2019-05-03",
+  "docket_number": "No. 18-3194",
+  "first_page": "1174",
+  "last_page": "1175",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "922 F.3d 1174"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "10th Cir.",
+    "id": 8771,
+    "name": "United States Court of Appeals for the Tenth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "881 F.3d 1241",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12275435
+      ],
+      "year": 2018,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/881/1241-01"
+      ]
+    },
+    {
+      "cite": "913 F.3d 1270",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12519752
+      ],
+      "year": 2019,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/913/1270-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 137,
+    "char_count": 1550,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2592763130205661
+    },
+    "sha256": "e40ef9fbcebc5e35c675d55cdbf1731a32ca12451a9a955afd52037de5107954",
+    "simhash": "1:9ac74d06af26ae83",
+    "word_count": 255
+  },
+  "last_updated": "2024-02-27T18:46:53.504629+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "UNITED STATES of America, Plaintiff - Appellee,\nv.\nDemetrius R. HARGROVE, Defendant - Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Per Curiam.\nThis matter is before us on the Motion of the United States for Summary Affirmance. The United States moves for summary affirmance based on this court's recent published decision in United States v. Pullen, 913 F.3d 1270 (10th Cir. 2019), en banc rev. denied April 15, 2019, and the court's earlier decision in United States v. Greer, 881 F.3d 1241 (10th Cir. 2018). While the appellant does not dispute that Greer and Pullen control the outcome of this appeal and does not contest summary affirmance of the district court's judgment, he reserves the right to petition the United States Supreme Court for further review.\nIn light of the foregoing, the abatement of proceedings in this appeal is lifted, and the appellee's motion for summary affirmance is granted. The judgment of the district court is affirmed.",
+        "type": "majority",
+        "author": "Per Curiam."
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff - Appellee,\nv.\nDemetrius R. HARGROVE, Defendant - Appellant.\nNo. 18-3194\nUnited States Court of Appeals, Tenth Circuit.\nFiled May 3, 2019\nORDER AND JUDGMENT\nAfter examining the briefs and appellate record, this panel has determined unanimously that oral argument would not materially assist in the determination of this appeal. See Fed. R. App. P. 34(a)(2); 10th Cir. R. 34.1(G). The case is therefore ordered submitted without oral argument. This order and judgment is not binding precedent, except under the doctrines of law of the case, res judicata, and collateral estoppel. It may be cited, however, for its persuasive value consistent with Fed. R. App. P. 32.1 and 10th Cir. R. 32.1."
+  },
+  "file_name": "1174-01",
+  "first_page_order": 1174,
+  "last_page_order": 1175
+}

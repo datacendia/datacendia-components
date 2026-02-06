@@ -1,0 +1,59 @@
+{
+  "id": 4225034,
+  "name": "Crosby v. Court of Common Pleas of Pennsylvania, Philadelphia County",
+  "name_abbreviation": "Crosby v. Court of Common Pleas",
+  "decision_date": "2011-03-28",
+  "docket_number": "No. 10-8564",
+  "first_page": "906",
+  "last_page": "906",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 906"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 115,
+    "ocr_confidence": 0.593,
+    "sha256": "b1deaafd0982e69c73becd8f63ae25d678c4647a73a8065233deae53ea32e6df",
+    "simhash": "1:205640b18249bb70",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Crosby v. Court of Common Pleas of Pennsylvania, Philadelphia County."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Pa. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8564.\nCrosby v. Court of Common Pleas of Pennsylvania, Philadelphia County."
+  },
+  "file_name": "0906-12",
+  "first_page_order": 932,
+  "last_page_order": 932
+}

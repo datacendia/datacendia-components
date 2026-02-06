@@ -470,7 +470,7 @@ PREREQUISITES:
 - [ ] Docker services running (docker compose up -d)
 - [ ] Backend running (npm run dev:backend)
 - [ ] Frontend running (npm run dev)
-- [ ] Ollama running with llama3.3 (ollama serve)
+- [ ] Ollama running with qwen2.5:32b (ollama serve)
 
 TEST PROCEDURE:
 

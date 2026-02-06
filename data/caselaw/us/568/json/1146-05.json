@@ -1,0 +1,59 @@
+{
+  "id": 12430088,
+  "name": "Moore v. Curtin, Warden",
+  "name_abbreviation": "Moore v. Curtin",
+  "decision_date": "2013-01-22",
+  "docket_number": "No. 12-7360",
+  "first_page": "1146",
+  "last_page": "1146",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1146"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.603,
+    "sha256": "e1901ee822e9f89f8745063734e9aa0388fa9e3b912b0e15f0786ac8c5d34e8d",
+    "simhash": "1:b2a216f0ae7f1834",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Moore v. Curtin, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7360.\nMoore v. Curtin, Warden."
+  },
+  "file_name": "1146-05",
+  "first_page_order": 1222,
+  "last_page_order": 1222
+}

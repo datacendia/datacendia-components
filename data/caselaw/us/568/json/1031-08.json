@@ -1,0 +1,59 @@
+{
+  "id": 12424596,
+  "name": "Mangram v. Virginia",
+  "name_abbreviation": "Mangram v. Virginia",
+  "decision_date": "2012-11-26",
+  "docket_number": "No. 12-6283",
+  "first_page": "1031",
+  "last_page": "1031",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1031"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 67,
+    "ocr_confidence": 0.655,
+    "sha256": "dcc99f1ba4390ea5a2e87e7c410dad2794868cc0630080ee01c0be7ea1b16eef",
+    "simhash": "1:88498b2138c2c38b",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mangram v. Virginia."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Va. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6283.\nMangram v. Virginia."
+  },
+  "file_name": "1031-08",
+  "first_page_order": 1107,
+  "last_page_order": 1107
+}

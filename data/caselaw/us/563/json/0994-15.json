@@ -1,0 +1,59 @@
+{
+  "id": 5929651,
+  "name": "Jackson v. Herndon, Warden",
+  "name_abbreviation": "Jackson v. Herndon",
+  "decision_date": "2011-05-16",
+  "docket_number": "No. 10-9462",
+  "first_page": "994",
+  "last_page": "994",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 994"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.626,
+    "sha256": "9e79fe795a3ccd566425d429a7fb0df523779355ef2c18bc7f453423e24e0f9b",
+    "simhash": "1:14f3a0a92999f176",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jackson v. Herndon, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9462.\nJackson v. Herndon, Warden."
+  },
+  "file_name": "0994-15",
+  "first_page_order": 1020,
+  "last_page_order": 1020
+}

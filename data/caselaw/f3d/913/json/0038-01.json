@@ -1,0 +1,890 @@
+{
+  "id": 12519780,
+  "name": "UNITED STATES of America, Appellee, v. Hilton R\u00cdOS-RIVERA, Defendant, Appellant.",
+  "name_abbreviation": "United States v. R\u00edos-Rivera",
+  "decision_date": "2019-01-09",
+  "docket_number": "No. 15-2116",
+  "first_page": "38",
+  "last_page": "47",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "913 F.3d 38"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "1st Cir.",
+    "id": 8809,
+    "name": "United States Court of Appeals for the First Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "Mass. Gen. Laws ch. 272, \u00a7 4",
+      "category": "laws:leg_statute",
+      "reporter": "Mass. Gen. Laws",
+      "opinion_index": 0
+    },
+    {
+      "cite": "557 F.3d 15",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3383354
+      ],
+      "year": 2009,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/557/0015-01"
+      ]
+    },
+    {
+      "cite": "570 U.S. 744",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12698482
+      ],
+      "weight": 3,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "770"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/570/0744-01"
+      ]
+    },
+    {
+      "cite": "116 S.Ct. 2432",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        781146
+      ],
+      "year": 1996,
+      "opinion_index": 0,
+      "case_paths": [
+        "/fed-cl/35/2432-01"
+      ]
+    },
+    {
+      "cite": "518 U.S. 839",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1729857
+      ],
+      "weight": 2,
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "872-74"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/518/0839-01"
+      ]
+    },
+    {
+      "cite": "758 F.2d 40",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        311911
+      ],
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "42"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/758/0040-01"
+      ]
+    },
+    {
+      "cite": "Cal. Penal Code \u00a7 261.5",
+      "category": "laws:leg_statute",
+      "reporter": "Cal. Code",
+      "pin_cites": [
+        {
+          "page": "(d)",
+          "parenthetical": "permitting sentence up to four years"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "706 F.3d 16",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3662504
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "25"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/706/0016-01"
+      ]
+    },
+    {
+      "cite": "552 U.S. 38",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3675664
+      ],
+      "weight": 3,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "51"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/552/0038-01"
+      ]
+    },
+    {
+      "cite": "666 F.3d 808",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6051736
+      ],
+      "weight": 2,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "812",
+          "parenthetical": "quoting Martin, 520 F.3d at 91 "
+        },
+        {
+          "page": "817"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/666/0808-01"
+      ]
+    },
+    {
+      "cite": "792 F.3d 223",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4276147
+      ],
+      "weight": 2,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "228"
+        },
+        {
+          "page": "229"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/792/0223-01"
+      ]
+    },
+    {
+      "cite": "793 F.3d 202",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4278657
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "206-07",
+          "parenthetical": "characterizing an above guidelines sentence as a variance despite district court's stray use of the word \"depart\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/793/0202-01"
+      ]
+    },
+    {
+      "cite": "543 U.S. 220",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5925862
+      ],
+      "weight": 5,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "259-60"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/543/0220-01"
+      ]
+    },
+    {
+      "cite": "846 F.3d 487",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12128358
+      ],
+      "weight": 3,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "489-90"
+        },
+        {
+          "page": "490"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/846/0487-01"
+      ]
+    },
+    {
+      "cite": "804 F.3d 53",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4356626
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "57"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/804/0053-01"
+      ]
+    },
+    {
+      "cite": "780 F.3d 475",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4074251
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "477"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/780/0475-01"
+      ]
+    },
+    {
+      "cite": "520 F.3d 87",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3702229
+      ],
+      "weight": 3,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "92"
+        },
+        {
+          "page": "96"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/520/0087-01"
+      ]
+    },
+    {
+      "cite": "856 F.3d 22",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12276625
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "25",
+          "parenthetical": "quoting United States v. Martin, 520 F.3d 87, 92 (1st Cir. 2008) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/856/0022-01"
+      ]
+    },
+    {
+      "cite": "449 U.S. 166",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11715708
+      ],
+      "weight": 3,
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "179"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/449/0166-01"
+      ]
+    },
+    {
+      "cite": "529 U.S. 598",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9508946
+      ],
+      "weight": 3,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "617-18"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/529/0598-01"
+      ]
+    },
+    {
+      "cite": "435 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        2641
+      ],
+      "weight": 3,
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "4-5",
+          "parenthetical": "per curiam"
+        },
+        {
+          "parenthetical": "per curiam"
+        },
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/435/0001-01"
+      ]
+    },
+    {
+      "cite": "446 U.S. 651",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6186659
+      ],
+      "weight": 3,
+      "year": 1980,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        },
+        {
+          "parenthetical": "per curiam"
+        },
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/446/0651-01"
+      ]
+    },
+    {
+      "cite": "784 F.3d 11",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4181413
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "22"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/784/0011-01"
+      ]
+    },
+    {
+      "cite": "822 F.3d 1",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6055542
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "21",
+          "parenthetical": "quoting United States v. Correa-Osorio, 784 F.3d 11, 22 (1st Cir. 2015) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/822/0001-01"
+      ]
+    },
+    {
+      "cite": "819 F.3d 26",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4252806
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "34"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/819/0026-01"
+      ]
+    },
+    {
+      "cite": "415 F.3d 211",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8945417
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "218",
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/415/0211-01"
+      ]
+    },
+    {
+      "cite": "909 F.3d 335",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12519283
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "339, 341, 344-46",
+          "parenthetical": "applying de novo review to a preserved constitutional challenge after an unconditional guilty plea"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/909/0335-01"
+      ]
+    },
+    {
+      "cite": "884 F.3d 605",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516207
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "610-11",
+          "parenthetical": "applying plain error review to a constitutional challenge raised for the first time on appeal"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/884/0605-01"
+      ]
+    },
+    {
+      "cite": "45 F.3d 588",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7414099
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "592"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/45/0588-01"
+      ]
+    },
+    {
+      "cite": "826 F.3d 590",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4324577
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "parenthetical": "\"[T]o the extent that DiSanto suggests that a constitutional challenge to a statute of conviction is jurisdictional, it is dicta.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/826/0590-01"
+      ]
+    },
+    {
+      "cite": "86 F.3d 1238",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        452785
+      ],
+      "weight": 2,
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "1244"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/86/1238-01"
+      ]
+    },
+    {
+      "cite": "799 F.3d 1",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4340316,
+        4330517
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "9"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/799/0001-01",
+        "/br/538/0001-02"
+      ]
+    },
+    {
+      "cite": "138 S.Ct. 617",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12616021
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "632"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/0617-01"
+      ]
+    },
+    {
+      "cite": "694 F.3d 1141",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3522690
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "1152-53",
+          "parenthetical": "observing that if the Supreme Court had resolved Blackledge and Menna on jurisdictional grounds then the Court would have dismissed them for lack of subject matter jurisdiction"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/694/1141-01"
+      ]
+    },
+    {
+      "cite": "523 U.S. 83",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11503308
+      ],
+      "weight": 3,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "89",
+          "parenthetical": "\"[T]he absence of a valid (as opposed to arguable) cause of action does not implicate subject-matter jurisdiction, i.e., the courts' statutory or constitutional power to adjudicate the case.\""
+        },
+        {
+          "parenthetical": "\"[T]he absence of a valid (as opposed to arguable) cause of action does not implicate subject-matter jurisdiction, i.e., the courts' statutory or constitutional power to adjudicate the case.\""
+        },
+        {
+          "parenthetical": "\"[T]he absence of a valid (as opposed to arguable) cause of action does not implicate subject-matter jurisdiction, i.e., the courts' statutory or constitutional power to adjudicate the case.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/523/0083-01"
+      ]
+    },
+    {
+      "cite": "42 F.3d 697",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7416461
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "699"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/42/0697-01"
+      ]
+    },
+    {
+      "cite": "678 F.3d 96",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3872827
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "99",
+          "parenthetical": "finding forfeited appellant's double jeopardy claim and applying plain error review"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/678/0096-01"
+      ]
+    },
+    {
+      "cite": "423 U.S. 61",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6174294
+      ],
+      "weight": 5,
+      "year": 1975,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        },
+        {
+          "parenthetical": "per curiam"
+        },
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/423/0061-01"
+      ]
+    },
+    {
+      "cite": "417 U.S. 21",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1519987
+      ],
+      "weight": 3,
+      "year": 1974,
+      "pin_cites": [
+        {
+          "parenthetical": "allowing challenge to vindictive prosecution to proceed after guilty plea"
+        },
+        {
+          "parenthetical": "allowing challenge to vindictive prosecution to proceed after guilty plea"
+        },
+        {
+          "parenthetical": "allowing challenge to vindictive prosecution to proceed after guilty plea"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/417/0021-01"
+      ]
+    },
+    {
+      "cite": "138 S.Ct. 798",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12616876
+      ],
+      "weight": 5,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "803",
+          "parenthetical": "citing Blackledge v. Perry, 417 U.S. 21, 94 S.Ct. 2098, 40 L.Ed.2d 628 (1974) (allowing challenge to vindictive prosecution to proceed after guilty plea); Menna v. New York, 423 U.S. 61, 96 S.Ct. 241, 46 L.Ed.2d 195 (1975) (per curiam"
+        },
+        {
+          "parenthetical": "citing Blackledge v. Perry, 417 U.S. 21, 94 S.Ct. 2098, 40 L.Ed.2d 628 (1974) (allowing challenge to vindictive prosecution to proceed after guilty plea); Menna v. New York, 423 U.S. 61, 96 S.Ct. 241, 46 L.Ed.2d 195 (1975) (per curiam) (permitting double jeopardy claim after guilty plea) "
+        },
+        {
+          "page": "804"
+        },
+        {
+          "page": "802"
+        },
+        {
+          "page": "806"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/0798-01"
+      ]
+    },
+    {
+      "cite": "69 F.3d 1215",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7413813
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "1224"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/69/1215-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 3553",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 2423",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1202,
+    "char_count": 24222,
+    "pagerank": {
+      "raw": 4.7672000411341035e-08,
+      "percentile": 0.2992421565890521
+    },
+    "sha256": "be2c4275295edec7bc1013f6c1e0c010c16bba3f68283d30bce576fc98e6060f",
+    "simhash": "1:bac2af9db8915fc9",
+    "word_count": 3847
+  },
+  "last_updated": "2024-02-27T18:46:17.308091+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Howard, Chief Judge, Thompson and Barron, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Appellee,\nv.\nHilton R\u00cdOS-RIVERA, Defendant, Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "HOWARD, Chief Judge.\nHilton R\u00edos-Rivera pled guilty to transporting a minor to a hotel in Puerto Rico with the intent to engage in criminal sexual activity with her, in violation of the Mann Act, 18 U.S.C. \u00a7 2423(a). After accepting his plea, the district court sentenced R\u00edos to an above-guidelines incarcerative term of 216 months. R\u00edos now challenges both Congress's authority to criminalize his conduct and the district court's sentence. For the reasons discussed below, we affirm R\u00edos's conviction and his sentence.\nI.\nThe parties do not dispute the events leading to this prosecution. All of the material conduct took place within Puerto Rico. In early April 2013, R\u00edos, a fifty-year-old man, met the fourteen-year-old victim at a bar where he was performing with his band. While the victim's mother was in the restroom, he gave the victim his band's compact disc and his business card and asked her to contact him. The following day, the victim's mother discovered a text message from R\u00edos on her daughter's phone. She called R\u00edos to inform him of her daughter's age and warned him not to contact her daughter again. Despite those admonitions, R\u00edos continued contacting the victim. In one conversation, R\u00edos asked the victim if she was fourteen, to which the victim responded affirmatively. In a subsequent conversation on April 8, 2013, R\u00edos asked the victim where she went to school. The victim told R\u00edos the name of her middle school, and he arranged to pick her up during her lunch period the next day.\nOn April 9, 2013, R\u00edos drove to the victim's middle school. The middle school had a sign clearly labeling it as such, and its students wore school uniforms. R\u00edos met the victim at a gas station across the street from her school and took her to a motel, where he had sexual intercourse with her. R\u00edos repeated this behavior the next day. On April 11, at 8:00 a.m., R\u00edos once more met the victim at the gas station near her middle school. He again took her to a motel where he had sexual intercourse with her and then dropped her off at 3:00 p.m. at the bus stop near her house.\nAfter an investigation, in August 2013 the Puerto Rican authorities charged R\u00edos with three counts of sexual assault. In February 2014, a federal grand jury indicted R\u00edos for three violations of \u00a7 2423(a), which prohibits \"knowingly transport[ing]\" a minor \"in any commonwealth, territory or possession of the United States, with intent that the individual engage ... in any sexual activity for which any person can be charged with a criminal offense.\" Before trial, R\u00edos entered into a plea agreement with the government. In exchange for the government dropping two counts of the three-count indictment, R\u00edos pled guilty to one count and waived his right to appeal so long as the district court sentenced him within a certain range calculated in accordance with the sentencing guidelines.\nThe district court calculated the sentencing guidelines range as the plea agreement suggested, but declined to sentence R\u00edos within that range. It found that R\u00edos's statements at sentencing were \"geared to minimize his responsibility.\" During his hearing, R\u00edos protested that the victim and her mother misrepresented her age to him. These assertions contradicted not only the victim's and her mother's statements to the probation officer, but also the recitations in the plea agreement. The district court also expressed concern that the presentence investigation report revealed that R\u00edos had been previously charged with five counts of sexually assaulting his stepdaughter, although he ultimately pled guilty to one count of aggravated assault. Further, the district court noted that one of R\u00edos's neighbors told probation officers that R\u00edos \"always [had] young girlfriends who looked to be 18 or 19 years of age.\" The district court also cited what it characterized as R\u00edos's manipulative behavior and the government's unrebutted evidence that the victim suffered psychological harm as a result of it. After considering this evidence in light of the 18 U.S.C. \u00a7 3553(a) sentencing factors, the district court announced that it would \"depart\" from the sentencing guidelines' recommendation and sentence R\u00edos to 196 months. Shortly afterward, the court corrected a mathematical error in its initial calculation and clarified that R\u00edos was sentenced to 216 months, which was \"in essence ... a variance of 2.5 years.\"\nR\u00edos timely appealed. For the first time, he challenges the constitutionality of his conviction on the grounds that Congress lacked the authority to enact \u00a7 2423(a) and that the statute impermissibly discriminates against Puerto Ricans in violation of the equal protection component of the Fifth Amendment's Due Process Clause. He also claims that his sentence was procedurally and substantively unreasonable.\nII.\nAs an initial matter, R\u00edos has forfeited his challenges to the constitutionality of \u00a7 2423(a). After his indictment, R\u00edos agreed to plead guilty without ever contesting the indictment in the district court. R\u00edos cannot point to any instances in the record where he so much as hinted at the constitutional arguments he seeks to raise here. Moreover, his plea agreement does not refer to any potential constitutional qualms.\nAt the time that R\u00edos lodged this appeal, in our circuit this conduct would waive -- not forfeit -- R\u00edos's right to argue on appeal that \u00a7 2423(a) is unconstitutional. See, e.g., United States v. Martinez-Martinez, 69 F.3d 1215, 1224 (1st Cir. 1995). But the Supreme Court's decision in Class v. United States established that such challenges are not waived by a guilty plea alone. --- U.S. ----, 138 S.Ct. 798, 803, 200 L.Ed.2d 37 (2018) (citing Blackledge v. Perry, 417 U.S. 21, 94 S.Ct. 2098, 40 L.Ed.2d 628 (1974) (allowing challenge to vindictive prosecution to proceed after guilty plea); Menna v. New York, 423 U.S. 61, 96 S.Ct. 241, 46 L.Ed.2d 195 (1975) (per curiam) (permitting double jeopardy claim after guilty plea) ). Because the government conceded in a Federal Rule of Appellate Procedure 28(j) letter that Class permits R\u00edos to raise his arguments that his prosecution is unconstitutional, we consider them below.\nNevertheless, even if R\u00edos may object to his prosecution's constitutionality for the first time on appeal, his decision not to press these arguments before the district court effects a forfeiture, even after Class. In Class, the Supreme Court only decided that a guilty plea alone does not waive claims that the government could not \"constitutionally prosecute\" the defendant. 138 S.Ct. at 804 (quoting Menna, 423 U.S. at 62 n.2, 96 S.Ct. 241 ). Nowhere in Class did the Court say that a defendant could never forfeit such \" Blackledge- Menna\" claims. It had no need to reach the forfeiture issue because the defendant in Class had moved in the district court to dismiss his indictment on the same constitutional grounds that he then sought to raise on appeal. 138 S.Ct. at 802. Class therefore does not require us to reconsider our prior case law and excuse a defendant's failure to preserve Blackledge- Menna arguments below. See United States v. Stefanidakis, 678 F.3d 96, 99 (1st Cir. 2012) (finding forfeited appellant's double jeopardy claim and applying plain error review).\nBlackledge- Menna claims are not objections to the court's Article III jurisdiction, and are thus not of the type that we review de novo whenever they are brought. See United States v. Cordero, 42 F.3d 697, 699 (1st Cir. 1994). Rather, such claims relate to the government's authority to prosecute a defendant, not to the court's authority to adjudicate a case. See Steel Co. v. Citizens for a Better Env't, 523 U.S. 83, 89, 118 S.Ct. 1003, 140 L.Ed.2d 210 (1998) (\"[T]he absence of a valid (as opposed to arguable) cause of action does not implicate subject-matter jurisdiction, i.e., the courts' statutory or constitutional power to adjudicate the case.\"); see also United States v. De Vaughn, 694 F.3d 1141, 1152-53 (10th Cir. 2012) (observing that if the Supreme Court had resolved Blackledge and Menna on jurisdictional grounds then the Court would have dismissed them for lack of subject matter jurisdiction).\nFurthermore, to the extent that the Class Court said anything about this issue, it suggested that Blackledge- Menna claims are nonjurisdictional. For instance, the Class Court relied on the fact that the advisory committee notes to Federal Rule of Criminal Procedure 11(a)(2) indicate that both jurisdictional and Blackledge- Menna claims are not subject to its preservation requirements. Class, 138 S.Ct. at 806. If Blackledge- Menna claims were jurisdictional, then their specific inclusion --both in the advisory committee notes and in Class-- would be surplusage. See Nat'l Ass'n of Mfrs. v. Dep't of Def., --- U.S. ----, 138 S.Ct. 617, 632, 199 L.Ed.2d 501 (2018) ; In re Montreal, Me. & Atl. Ry., Ltd., 799 F.3d 1, 9 (1st Cir. 2015).\nUnited States v. DiSanto does not require a different conclusion. 86 F.3d 1238 (1st Cir. 1996). There, we assumed for the sake of argument that we review de novo an unpreserved challenge to the statute of conviction's constitutionality. Id. at 1244. We later described that assumption as dicta and held that constitutional challenges of the type that R\u00edos presents do not relate to the court's jurisdiction. See United States v. Carrasquillo-Pe\u00f1aloza, 826 F.3d 590, 593 n.3 (1st Cir. 2016) (\"[T]o the extent that DiSanto suggests that a constitutional challenge to a statute of conviction is jurisdictional, it is dicta.\"). Prior panel decisions generally bind us unless a Supreme Court opinion, en banc ruling, or statute undermines the panel decision. Williams v. Ashland Eng'g Co., 45 F.3d 588, 592 (1st Cir. 1995). And, as explained above, Class does not contradict our characterization of DiSanto in Carrasquillo-Pe\u00f1aloza.\nAt least one other circuit, the Sixth Circuit, has reckoned with Class's impact on unpreserved constitutional challenges, and that court's interpretation of Class comports with ours. See United States v. Bacon, 884 F.3d 605, 610-11 (6th Cir. 2018) (applying plain error review to a constitutional challenge raised for the first time on appeal); cf. United States v. St. Hubert, 909 F.3d 335, 339, 341, 344-46 (11th Cir. 2018) (applying de novo review to a preserved constitutional challenge after an unconditional guilty plea). Because nothing in Class undermines the application of our forfeiture doctrine here, we apply it to R\u00edos's unpreserved constitutional arguments.\nIII.\nR\u00edos's constitutional arguments cannot surmount the high bar of plain error review applicable to forfeited claims. To show plain error, the appellant must meet a demanding four-prong test. United States v. Padilla, 415 F.3d 211, 218 (1st Cir. 2005) (en banc). In particular, R\u00edos cannot show \"clear or obvious\" error for any of his constitutional arguments, and he thus falters at the test's second prong. United States v. Pabon, 819 F.3d 26, 34 (1st Cir. 2016). For an error to be clear and obvious, we require an \" 'indisputable' error by the judge 'given controlling precedent.' \" United States v. Morosco, 822 F.3d 1, 21 (1st Cir. 2016) (quoting United States v. Correa-Osorio, 784 F.3d 11, 22 (1st Cir. 2015) ).\nHere, R\u00edos makes two constitutional claims. First, he asserts that Puerto Rico's commonwealth status precludes Congress from relying on its plenary authority to govern territories under the Territorial Clause. See U.S. Const. art IV, \u00a7 3, cl. 2. R\u00edos contends that Congress was required to promulgate \u00a7 2423(a) under a different enumerated power and that the only power that might justify it, the authority to regulate interstate and international commerce, does not. See U.S. Const. art I, \u00a7 8, cl. 3. Yet he identifies no precedent ruling out Congress's authority to rely on the Territorial Clause to legislate for Puerto Rico; in fact, R\u00edos invites us to answer what is at best an open question of constitutional law. As such, it was not plainly erroneous for the district court to have concluded that \u00a7 2423(a) was a valid exercise of the Territorial Clause.\nSecond, R\u00edos suggests that the Mann Act's different treatment of conduct occurring wholly within Puerto Rico from that occurring wholly within one of the fifty states violates the equal protection component of the Fifth Amendment's Due Process Clause. He urges us to disregard Supreme Court precedent applying rational basis review to such claims and to instead apply heightened scrutiny. See Harris v. Rosario, 446 U.S. 651, 100 S.Ct. 1929, 64 L.Ed.2d 587 (1980) (per curiam); Califano v. Torres, 435 U.S. 1, 4-5, 98 S.Ct. 906, 55 L.Ed.2d 65 (1978) (per curiam). We decline the invitation; it cannot be obvious error for a district to fail to apply, sua sponte, a doctrine that would be inconsistent with Supreme Court precedent.\nIn the alternative, R\u00edos argues that \u00a7 2423(a) fails rational basis review because it prohibits only intrajurisdictional transportation of a minor for the purpose of committing a sex crime within \"any commonwealth, territory, or possession,\" but not a state. Congress does not plainly lack plenary power under the Territorial Clause to criminalize certain intrajurisdictional activity in those jurisdictions simply because it may not do so under the Commerce Clause within the fifty states. See United States v. Morrison, 529 U.S. 598, 617-18, 120 S.Ct. 1740, 146 L.Ed.2d 658 (2000). R\u00edos does not seriously challenge the notion that Congress may have limited the Mann Act's applicability within the fifty states because it implicitly recognized potential constitutional limits on its power. Indeed, R\u00edos argues that \"the federal government has no general police ... power\" and that Congress could not criminalize this conduct within any one of the fifty states. He simply asserts that \u00a7 2423(a) is irrational because Congress never explained its justification for treating trafficking within Puerto Rico differently from interstate trafficking. But there is no requirement that Congress state its reasons for enacting a statute in order for it to survive rational basis review. See U.S. R.R. Ret. Bd. v. Fritz, 449 U.S. 166, 179, 101 S.Ct. 453, 66 L.Ed.2d 368 (1980). Because R\u00edos has not shown a clear or obvious error, both of his constitutional challenges fail.\nIV.\nNor do R\u00edos's sentencing arguments warrant relief. We generally review preserved claims of error in the district court's imposition of a sentence \"under a deferential abuse-of-discretion standard.\" United States v. Fuentes-Echevarria, 856 F.3d 22, 25 (1st Cir. 2017) (quoting United States v. Martin, 520 F.3d 87, 92 (1st Cir. 2008) ). The district court's legal conclusions receive de novo review, while we evaluate its fact-finding for clear error. United States v. Rossignol, 780 F.3d 475, 477 (1st Cir. 2015).\nWe turn first to R\u00edos's procedural challenge. At the outset, we note that R\u00edos forfeited any possible procedural objection. Despite having ample opportunity to take exception to the district court's sentence at his sentencing hearing, R\u00edos did not. The district court recited the sentencing factors and the evidence that it considered before it pronounced R\u00edos's sentence. R\u00edos did not object during that recitation. Moreover, after announcing R\u00edos's sentence, the district court asked if there was \"[a]nything else\" counsel wished to discuss, and defense counsel replied, \"That is all.\" Consequently, R\u00edos forfeited his arguments that the district court failed to provide him with notice of a possible departure sentence or to follow a departure guideline. See United States v. Perretta, 804 F.3d 53, 57 (1st Cir. 2015). Accordingly, we review R\u00edos's challenge for plain error.\nR\u00edos posits that the district court committed a procedural error because it failed to provide him with \"reasonable notice\" before imposing a departure sentence. See Fed. R. Crim. P. 32(h). He asserts that the district court improperly issued an above guidelines sentence based on his criminal history category's failure to adequately represent the seriousness of his past convictions. See U.S.S.G. \u00a7 4A1.3(a)(1). This assertion is misguided. Recently, we observed that there is no discernible difference between departure and variance sentences. See United States v. Santini-Santiago, 846 F.3d 487, 489-90 (1st Cir. 2017). Before United States v. Booker, 543 U.S. 220, 125 S.Ct. 738, 160 L.Ed.2d 621 (2005), district courts needed to justify deviations from the guidelines by citing a departure provision. See Santini-Santiago, 846 F.3d at 490 (citing Booker, 543 U.S. at 259-60, 125 S.Ct. 738 ). After Booker, district courts can rely on the 18 U.S.C. \u00a7 3553(a) sentencing factors instead. Because the guidelines' departure provisions fit neatly into the \u00a7 3553(a) sentencing factors, we have noted that Rule 32(h) currently \"serves no substantive purpose at all.\" See Santini-Santiago, 846 F.3d at 490.\nR\u00edos protests that at least where, as here, the district court said that it would \"depart\" -- as opposed to vary -- from the sentencing guidelines, the district court must hew to Rule 32(h). Nevertheless, we need not resolve whether the district court had to comply with Rule 32(h) or \u00a7 4A1.3 here because the district court imposed a variant sentence, not a departure sentence.\nR\u00edos asks us to focus on one fact in isolation, the district court's stray use of the word \"depart.\" But it is clear in context that the district court misspoke and corrected itself. Immediately before announcing its intention to \"depart\" from the guidelines, the district court analyzed the \u00a7 3553(a) factors. Subsequently, in the course of correcting its calculation of the sentence's length, the district court pronounced that the sentence was \"in essence ... a variance.\" See United States v. Nelson, 793 F.3d 202, 206-07 (1st Cir. 2015) (characterizing an above guidelines sentence as a variance despite district court's stray use of the word \"depart\"). Therefore, the district court gave a variant sentence and had no need to follow Rule 32(h) or \u00a7 4A1.3.\nNext, R\u00edos contends that his sentence was substantively unreasonable. R\u00edos failed, as he did for his procedural reasonableness claim, to object to the substantive reasonableness of his sentence during his sentencing hearing. As we have before, we decline to resolve whether a defendant must preserve a substantive challenge to his sentence, and we assume, favorably to R\u00edos, that he was not required to do so. See United States v. Ruiz-Huertas, 792 F.3d 223, 228 (1st Cir. 2015).\nWe accordingly review the substantive reasonableness of R\u00edos's sentence under the abuse-of-discretion framework recited above. R\u00edos contends that his 216-month (eighteen years) sentence was disproportionate for two reasons. First, he posits that his conduct was less severe than the prototypical Mann Act violation (i.e. border-crossing human trafficking). Second, he suggests that some states punish conduct similar to his with significantly shorter prison terms. R\u00edos's reasons are unconvincing. We defer to the district court's sentencing determinations and affirm sentences that are based on \"a plausible sentencing rationale\" and that reflect \"a defensible result.\" United States v. Martin, 520 F.3d 87, 96 (1st Cir. 2008). Moreover, when a district court chooses to impose a variant sentence, we only require that its \"plausible rationale ... justif[ies] a variance of the magnitude in question.\" See United States v. Gallardo-Ortiz, 666 F.3d 808, 812 (1st Cir. 2012) (quoting Martin, 520 F.3d at 91 ). In reviewing a variant sentence, we consider the variance's magnitude but will not conclude from the variance's size alone that the sentence was substantively unreasonable. Instead, we \"give due deference to the district court's decision that the \u00a7 3553(a) factors, on a whole, justify the extent of the variance.\" Gall v. United States, 552 U.S. 38, 51, 128 S.Ct. 586, 169 L.Ed.2d 445 (2007).\nAs such, we have upheld a sentence \"well-above the top\" of the guidelines range where the district court cited \"the seriousness of the defendant's criminal conduct, the defendant's past history and likelihood of recidivism, and the need for deterrence.\" United States v. Flores-Machicote, 706 F.3d 16, 25 (1st Cir. 2013) ; see also Gallardo-Ortiz, 666 F.3d at 817 (reasoning that the district court's weighing of the \u00a7 3553(a) factors could not provide grounds for finding a substantially above-guidelines sentence substantively unreasonable).\nHere, the district court provided a plausible rationale and a defensible result. It noted R\u00edos's seeming lack of remorse and his decision to downplay his criminal activity. The district court also cited R\u00edos's past aggravated assault conviction stemming from his alleged rapes of his stepdaughter. Furthermore, the district court considered R\u00edos's manipulative behavior to persuade the victim to engage in sexual activity. R\u00edos's arguments do not undermine the plausibility of this reasoning; they at most only show that the \"universe of reasonable sentencing outcomes\" may include a shorter sentence. See Ruiz-Huertas, 792 F.3d at 229.\nR\u00edos insists that other jurisdictions' shorter sentences for similar conduct shows the substantive unreasonableness of his sentence. Far from it. R\u00edos cites no case indicating that sentences in other jurisdictions set a baseline for the substantive reasonableness of federal sentences. And even if we assumed that they do -- a problematic assumption -- R\u00edos fails to acknowledge that many jurisdictions impose similar or longer sentences than the sentence that he received. Compare, e.g., Cal. Penal Code \u00a7 261.5(d) (permitting sentence up to four years), with Mass. Gen. Laws ch. 265, \u00a7 23A (mandating a minimum sentence of ten years with a maximum of life). Accordingly, R\u00edos's sentence was substantively reasonable.\nV.\nFor the foregoing reasons, we AFFIRM R\u00edos's conviction and sentence.\nThe district court followed the plea agreement's recommendation to reduce R\u00edos's offense level by three levels for acceptance of responsibility, pursuant to U.S.S.G. \u00a7 3E1.1(b).\nNone of the cases mentioned by the parties that discuss Puerto Rican \"sovereignty\" applied that concept to decide constitutional questions about Congress's powers. See, e.g., United States v. Quinones, 758 F.2d 40, 42 (1st Cir. 1985). We do not address whether the dicta in those cases is correct, except to observe that those cases do not explain how the statutes enabling and approving the Puerto Rican Constitution bind future Congresses, notwithstanding the principle that normal-course legislation generally may be repealed by future Congresses. See United States v. Winstar Corp., 518 U.S. 839, 872-74, 116 S.Ct. 2432, 135 L.Ed.2d 964 (1996).\nR\u00edos does not argue that \u00a7 2423(a) fails rational basis review because it is motivated by animus. See United States v. Windsor, 570 U.S. 744, 770, 133 S.Ct. 2675, 186 L.Ed.2d 808 (2013). As a result, he has waived any such argument.\nFor the first time in his reply brief, R\u00edos argues that his sentence was substantively unreasonable because the district court calculated his offense level using the guideline applicable to interjurisdictional human trafficking as opposed to the guideline for statutory rape. Compare U.S.S.G. \u00a7 2G1.3, with \u00a7 2A3.2. We do not address this argument because arguments raised only in reply are waived. United States v. Hall, 557 F.3d 15, 20 n.3 (1st Cir. 2009).\nR\u00edos's brief cites a different Massachusetts statute that imposes a three-year maximum incarcerative sentence. See Mass. Gen. Laws ch. 272, \u00a7 4. Rhode Island penalizes conduct analogous to R\u00edos's conduct more harshly than Massachusetts does. See R.I. Gen. Laws \u00a7\u00a7 11-37-8.1, 8.2 (minimum of twenty-five years, maximum of life).",
+        "type": "majority",
+        "author": "HOWARD, Chief Judge."
+      }
+    ],
+    "attorneys": [
+      "Alejandra Bird Lopez for appellant.",
+      "Julia M. Meconiates, Assistant United States Attorney, with whom Rosa Emilia Rodr\u00edguez-V\u00e9lez, United States Attorney, Mariana E. Bauz\u00e1-Almonte, Assistant United States Attorney, Chief, Appellate Division, were on brief for appellee."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Appellee,\nv.\nHilton R\u00cdOS-RIVERA, Defendant, Appellant.\nNo. 15-2116\nUnited States Court of Appeals, First Circuit.\nJanuary 9, 2019\nAlejandra Bird Lopez for appellant.\nJulia M. Meconiates, Assistant United States Attorney, with whom Rosa Emilia Rodr\u00edguez-V\u00e9lez, United States Attorney, Mariana E. Bauz\u00e1-Almonte, Assistant United States Attorney, Chief, Appellate Division, were on brief for appellee.\nBefore Howard, Chief Judge, Thompson and Barron, Circuit Judges."
+  },
+  "file_name": "0038-01",
+  "first_page_order": 38,
+  "last_page_order": 47
+}

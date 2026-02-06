@@ -1,0 +1,59 @@
+{
+  "id": 12201009,
+  "name": "Brown v. Thaler, Director, Texas Department of Criminal Justice, Correctional Institutions Division",
+  "name_abbreviation": "Brown v. Thaler",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10286",
+  "first_page": "833",
+  "last_page": "833",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 833"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 20,
+    "char_count": 149,
+    "ocr_confidence": 0.632,
+    "sha256": "4625dd269dd35e43032f1013aff54a4527c3b4afe4b965218bfd8a68328a4e65",
+    "simhash": "1:15c1cb2a8868de6e",
+    "word_count": 20
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Brown v. Thaler, Director, Texas Department of Criminal Justice, Correctional Institutions Division."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10286.\nBrown v. Thaler, Director, Texas Department of Criminal Justice, Correctional Institutions Division."
+  },
+  "file_name": "0833-03",
+  "first_page_order": 915,
+  "last_page_order": 915
+}

@@ -1,0 +1,59 @@
+{
+  "id": 6024896,
+  "name": "Knight v. UNUM Life Insurance Company of America",
+  "name_abbreviation": "Knight v. UNUM Life Insurance Co. of America",
+  "decision_date": "2011-01-18",
+  "docket_number": "No. 10-7488",
+  "first_page": "1185",
+  "last_page": "1185",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1185"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 98,
+    "ocr_confidence": 0.584,
+    "sha256": "0f924929900f931d8403d22563b0085b69e87dbc1466d5bfce2bc52cf3f45444",
+    "simhash": "1:da538a8247eb260a",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Knight v. UNUM Life Insurance Company of America."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7488.\nKnight v. UNUM Life Insurance Company of America."
+  },
+  "file_name": "1185-06",
+  "first_page_order": 1207,
+  "last_page_order": 1207
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5952580,
+  "name": "Sims v. United States",
+  "name_abbreviation": "Sims v. United States",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7846",
+  "first_page": "1162",
+  "last_page": "1162",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1162"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.594,
+    "sha256": "b897b617f8d07c2bd3620d06fb8454fd70d287c1f6768f8e12f4c57c90fe5113",
+    "simhash": "1:20489a3af613901a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sims v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7846.\nSims v. United States."
+  },
+  "file_name": "1162-10",
+  "first_page_order": 1184,
+  "last_page_order": 1184
+}

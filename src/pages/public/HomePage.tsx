@@ -34,41 +34,32 @@ const cortexSpaces = [
   { name: 'The Bridge', description: 'Take action across systems', icon: '🌉' },
 ];
 
-const trustedBy = [
-  { name: 'Fortune 500', logo: '🏢' },
-  { name: 'Global Bank', logo: '🏦' },
-  { name: 'Healthcare', logo: '🏥' },
-  { name: 'Government', logo: '🏛️' },
-  { name: 'Tech Giant', logo: '💻' },
+// No fake "trusted by" claims - we're honest about being a new platform
+
+// Platform capabilities (verifiable, not fake metrics)
+const capabilities = [
+  { value: '8', label: 'AI Council Agents', suffix: '+' },
+  { value: '100', label: 'Languages Supported', suffix: '+' },
+  { value: '5', label: 'Sovereign Adapters', suffix: '' },
+  { value: '24/7', label: 'Air-Gapped Ready', suffix: '' },
 ];
 
-const stats = [
-  { value: '$2.1B', label: 'Decisions Optimized', suffix: '' },
-  { value: '94', label: 'Forecast Accuracy', suffix: '%' },
-  { value: '50', label: 'Time Saved', suffix: '%' },
-  { value: '99.9', label: 'Uptime SLA', suffix: '%' },
-];
-
-const testimonials = [
+// No fake testimonials - see /honesty for our transparency commitments
+const platformFeatures = [
   {
-    quote:
-      'Datacendia transformed how we make strategic decisions. The AI Council gives us perspectives we never considered.',
-    author: 'Sarah Chen',
-    title: 'CFO, Fortune 500 Company',
-    avatar: '👩‍💼',
+    title: 'Multi-Agent Deliberation',
+    description: 'Real AI agents that reason together, challenge assumptions, and build consensus on complex decisions.',
+    icon: '🧠',
   },
   {
-    quote:
-      'Finally, a platform that unifies all our data sources and gives us real predictive power.',
-    author: 'Michael Torres',
-    title: 'CTO, Global Healthcare System',
-    avatar: '👨‍💻',
+    title: 'Cryptographic Audit Trail',
+    description: 'Every decision signed with KMS, stored with Merkle proofs, and exportable for regulatory review.',
+    icon: '�',
   },
   {
-    quote: 'The ROI was immediate. We caught three major risks before they became crises.',
-    author: 'Emily Watson',
-    title: 'Chief Risk Officer, Investment Bank',
-    avatar: '👩‍💼',
+    title: 'Sovereign Deployment',
+    description: 'Deploy on your infrastructure with zero external dependencies. Your data never leaves your control.',
+    icon: '🏰',
   },
 ];
 
@@ -418,18 +409,18 @@ export const HomePage: React.FC = () => {
       </section>
 
       {/* ================================================================= */}
-      {/* STATS SECTION */}
+      {/* CAPABILITIES SECTION - Real, verifiable numbers */}
       {/* ================================================================= */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            {stats.map((stat) => (
-              <div key={stat.label} className="text-center">
+            {capabilities.map((cap) => (
+              <div key={cap.label} className="text-center">
                 <div className="text-4xl md:text-5xl font-bold text-primary-600 mb-2">
-                  {stat.value}
-                  {stat.suffix}
+                  {cap.value}
+                  {cap.suffix}
                 </div>
-                <div className="text-neutral-600">{stat.label}</div>
+                <div className="text-neutral-600">{cap.label}</div>
               </div>
             ))}
           </div>
@@ -466,32 +457,27 @@ export const HomePage: React.FC = () => {
       </section>
 
       {/* ================================================================= */}
-      {/* TESTIMONIALS */}
+      {/* PLATFORM FEATURES - What we actually deliver */}
       {/* ================================================================= */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 mb-4">
-              What Leaders Say
+              What We Actually Deliver
             </h2>
+            <p className="text-neutral-600">
+              No hype. No fake testimonials. Just real capabilities.
+            </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
-            {testimonials.map((testimonial, index) => (
+            {platformFeatures.map((feature, index) => (
               <div
                 key={index}
                 className="p-8 bg-white rounded-2xl border border-neutral-200 shadow-sm"
               >
-                <div className="text-4xl mb-4">"</div>
-                <p className="text-neutral-700 mb-6 italic">{testimonial.quote}</p>
-                <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center text-2xl">
-                    {testimonial.avatar}
-                  </div>
-                  <div>
-                    <div className="font-semibold text-neutral-900">{testimonial.author}</div>
-                    <div className="text-sm text-neutral-500">{testimonial.title}</div>
-                  </div>
-                </div>
+                <div className="text-4xl mb-4">{feature.icon}</div>
+                <h3 className="text-xl font-semibold text-neutral-900 mb-3">{feature.title}</h3>
+                <p className="text-neutral-600">{feature.description}</p>
               </div>
             ))}
           </div>
@@ -499,22 +485,24 @@ export const HomePage: React.FC = () => {
       </section>
 
       {/* ================================================================= */}
-      {/* TRUST SECTION */}
+      {/* HONESTY COMMITMENT */}
       {/* ================================================================= */}
       <section className="py-16 bg-neutral-50">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center">
-            <p className="text-neutral-500 text-sm uppercase tracking-wider mb-8">
-              Trusted by forward-thinking enterprises
+            <p className="text-neutral-500 text-sm uppercase tracking-wider mb-4">
+              Our Commitment to Transparency
             </p>
-            <div className="flex flex-wrap items-center justify-center gap-12">
-              {trustedBy.map((company, index) => (
-                <div key={index} className="flex items-center gap-2 text-neutral-400">
-                  <span className="text-3xl">{company.logo}</span>
-                  <span className="text-lg font-semibold">{company.name}</span>
-                </div>
-              ))}
-            </div>
+            <p className="text-neutral-700 max-w-2xl mx-auto mb-6">
+              We don't use fake testimonials or inflated metrics. We're a new platform 
+              building real technology. See our full transparency commitments.
+            </p>
+            <Link
+              to="/honesty"
+              className="inline-flex items-center gap-2 text-primary-600 hover:text-primary-700 font-medium"
+            >
+              View Honesty Matrices →
+            </Link>
           </div>
         </div>
       </section>

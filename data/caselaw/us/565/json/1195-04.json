@@ -1,0 +1,61 @@
+{
+  "id": 12245494,
+  "name": "In re Gover",
+  "name_abbreviation": "In re Gover",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-781",
+  "first_page": "1195",
+  "last_page": "1195",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1195"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 20,
+    "char_count": 145,
+    "ocr_confidence": 0.564,
+    "sha256": "c8f86b560f99239d71e48c3b02fa053f81d3e40f291b8d7a695957593246fa28",
+    "simhash": "1:0a539246614cfb5b",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "The Chief Justice took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "In re Gover."
+    ],
+    "opinions": [
+      {
+        "text": "Petition for writ of mandamus denied.\nThe Chief Justice took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-781.\nIn re Gover."
+  },
+  "file_name": "1195-04",
+  "first_page_order": 1277,
+  "last_page_order": 1277
+}

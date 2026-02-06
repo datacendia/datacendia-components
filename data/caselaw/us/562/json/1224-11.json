@@ -1,0 +1,59 @@
+{
+  "id": 5987313,
+  "name": "Wideman v. Colorado et al.",
+  "name_abbreviation": "Wideman v. Colorado",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-7274",
+  "first_page": "1224",
+  "last_page": "1224",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1224"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 75,
+    "ocr_confidence": 0.628,
+    "sha256": "9a018cf1facf7c5c797664d631de5f2816f8733af3d0a97a70c886bed708ae59",
+    "simhash": "1:1b9440a9770e9330",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wideman v. Colorado et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7274.\nWideman v. Colorado et al."
+  },
+  "file_name": "1224-11",
+  "first_page_order": 1246,
+  "last_page_order": 1246
+}

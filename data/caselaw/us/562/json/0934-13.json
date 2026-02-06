@@ -1,0 +1,59 @@
+{
+  "id": 6011669,
+  "name": "Washington v. United States",
+  "name_abbreviation": "Washington v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5695",
+  "first_page": "934",
+  "last_page": "934",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 934"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.568,
+    "sha256": "df07f819ef91b96c5dfab5a37c0d379b92469af4cb85f301acc3cba7683bf048",
+    "simhash": "1:14bb62e70f35b66b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Washington v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5695.\nWashington v. United States."
+  },
+  "file_name": "0934-13",
+  "first_page_order": 956,
+  "last_page_order": 956
+}

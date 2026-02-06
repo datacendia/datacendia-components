@@ -1,0 +1,150 @@
+// =============================================================================
+// CORTEX ENTERPRISE ROUTES - Enterprise Suite, Governance, Platinum Features
+// =============================================================================
+
+import React, { lazy } from 'react';
+import { RouteObject, Navigate } from 'react-router-dom';
+import { SuspenseWrapper } from '../utils';
+
+const SovereignPage = lazy(() =>
+  import('../../pages/cortex/enterprise').then((m) => ({ default: m.SovereignPage }))
+);
+const PersonaForgePage = lazy(() =>
+  import('../../pages/cortex/enterprise').then((m) => ({ default: m.PersonaForgePage }))
+);
+const MeshPage = lazy(() =>
+  import('../../pages/cortex/enterprise').then((m) => ({ default: m.MeshPage }))
+);
+const GovernPage = lazy(() =>
+  import('../../pages/cortex/enterprise').then((m) => ({ default: m.GovernPage }))
+);
+const DecisionPacketsPage = lazy(() =>
+  import('../../pages/cortex/governance/DecisionPacketsPage').then((m) => ({ default: m.DecisionPacketsPage }))
+);
+const VoicePage = lazy(() =>
+  import('../../pages/cortex/enterprise').then((m) => ({ default: m.VoicePage }))
+);
+const AutopilotPage = lazy(() =>
+  import('../../pages/cortex/enterprise').then((m) => ({ default: m.AutopilotPage }))
+);
+const GenomicsPage = lazy(() =>
+  import('../../pages/cortex/enterprise').then((m) => ({ default: m.GenomicsPage }))
+);
+const DefenseStackPage = lazy(() =>
+  import('../../pages/cortex/enterprise').then((m) => ({ default: m.DefenseStackPage }))
+);
+const FinancialPage = lazy(() =>
+  import('../../pages/cortex/enterprise').then((m) => ({ default: m.FinancialPage }))
+);
+const SportsDecisionPage = lazy(() =>
+  import('../../pages/cortex/verticals/SportsPage').then((m) => ({ default: m.default }))
+);
+const OmniTranslatePage = lazy(() =>
+  import('../../pages/cortex/enterprise').then((m) => ({ default: m.OmniTranslatePage }))
+);
+const VetoPage = lazy(() =>
+  import('../../pages/cortex/enterprise').then((m) => ({ default: m.VetoPage }))
+);
+const UnionPage = lazy(() =>
+  import('../../pages/cortex/enterprise').then((m) => ({ default: m.UnionPage }))
+);
+const LedgerPage = lazy(() =>
+  import('../../pages/cortex/enterprise').then((m) => ({ default: m.LedgerPage }))
+);
+const EvidenceVaultPage = lazy(() =>
+  import('../../pages/cortex/enterprise').then((m) => ({ default: m.EvidenceVaultPage }))
+);
+const ApotheosisPage = lazy(() =>
+  import('../../pages/cortex/enterprise').then((m) => ({ default: m.ApotheosisPage }))
+);
+const DissentPage = lazy(() =>
+  import('../../pages/cortex/enterprise').then((m) => ({ default: m.DissentPage }))
+);
+const ResponsibilityPage = lazy(() =>
+  import('../../pages/cortex/enterprise/ResponsibilityPage').then((m) => ({ default: m.default }))
+);
+const ROIMetricsPage = lazy(() =>
+  import('../../pages/cortex/enterprise/ROIMetricsPage').then((m) => ({ default: m.ROIMetricsPage }))
+);
+const CascadePage = lazy(() =>
+  import('../../pages/cortex/enterprise/CascadePage').then((m) => ({ default: m.default }))
+);
+const CrisisManagementPage = lazy(() =>
+  import('../../pages/cortex/enterprise').then((m) => ({ default: m.CrisisManagementPage }))
+);
+const AuditWorkflowPage = lazy(() =>
+  import('../../pages/cortex/enterprise').then((m) => ({ default: m.AuditWorkflowPage }))
+);
+const TrainingPage = lazy(() =>
+  import('../../pages/cortex/enterprise').then((m) => ({ default: m.TrainingPage }))
+);
+const AdversarialRedTeamPage = lazy(() =>
+  import('../../pages/cortex/enterprise/AdversarialRedTeamPage').then((m) => ({ default: m.default }))
+);
+const CommandPage = lazy(() =>
+  import('../../pages/cortex/enterprise/CommandPage').then((m) => ({ default: m.default }))
+);
+
+// Enterprise Platinum Features
+const ConstitutionalCourtPage = lazy(() =>
+  import('../../pages/cortex/governance/ConstitutionalCourtPage').then((m) => ({ default: m.default }))
+);
+const RegulatorySandboxPage = lazy(() =>
+  import('../../pages/cortex/compliance/RegulatorySandboxPage').then((m) => ({ default: m.default }))
+);
+const RegulatorsReceiptGeneratorPage = lazy(() =>
+  import('../../pages/cortex/compliance/RegulatorsReceiptPage').then((m) => ({ default: m.default }))
+);
+const ZKPPage = lazy(() =>
+  import('../../pages/cortex/security/ZKPPage').then((m) => ({ default: m.default }))
+);
+const AIInsurancePage = lazy(() =>
+  import('../../pages/cortex/enterprise/AIInsurancePage').then((m) => ({ default: m.default }))
+);
+
+const w = (Component: React.ComponentType) => (
+  <SuspenseWrapper><Component /></SuspenseWrapper>
+);
+
+export const cortexEnterpriseRoutes: RouteObject[] = [
+  // Enterprise
+  { path: 'enterprise', element: <Navigate to="/cortex/enterprise/genomics" replace /> },
+  { path: 'enterprise/sovereign', element: w(SovereignPage) },
+  { path: 'enterprise/persona-forge', element: w(PersonaForgePage) },
+  { path: 'enterprise/mesh', element: w(MeshPage) },
+  { path: 'enterprise/govern', element: w(GovernPage) },
+  { path: 'enterprise/voice', element: w(VoicePage) },
+  { path: 'enterprise/autopilot', element: w(AutopilotPage) },
+  { path: 'enterprise/genomics', element: w(GenomicsPage) },
+  { path: 'enterprise/defense-stack', element: w(DefenseStackPage) },
+  { path: 'enterprise/financial', element: w(FinancialPage) },
+  { path: 'verticals/sports', element: w(SportsDecisionPage) },
+  { path: 'enterprise/omni-translate', element: w(OmniTranslatePage) },
+  { path: 'enterprise/veto', element: w(VetoPage) },
+  { path: 'enterprise/union', element: w(UnionPage) },
+  { path: 'enterprise/ledger', element: w(LedgerPage) },
+  { path: 'enterprise/evidence-vault', element: w(EvidenceVaultPage) },
+  { path: 'enterprise/apotheosis', element: w(ApotheosisPage) },
+  { path: 'enterprise/dissent', element: w(DissentPage) },
+  { path: 'enterprise/responsibility', element: w(ResponsibilityPage) },
+  { path: 'enterprise/roi-metrics', element: w(ROIMetricsPage) },
+  { path: 'enterprise/cascade', element: w(CascadePage) },
+  { path: 'enterprise/crisis', element: w(CrisisManagementPage) },
+  { path: 'enterprise/audit-workflow', element: w(AuditWorkflowPage) },
+  { path: 'enterprise/training', element: w(TrainingPage) },
+  { path: 'enterprise/adversarial-redteam', element: w(AdversarialRedTeamPage) },
+  { path: 'enterprise/command', element: w(CommandPage) },
+  { path: 'enterprise/ai-insurance', element: w(AIInsurancePage) },
+
+  // Governance
+  { path: 'governance', element: <Navigate to="/cortex/governance/decision-packets" replace /> },
+  { path: 'governance/decision-packets', element: w(DecisionPacketsPage) },
+  { path: 'governance/constitutional-court', element: w(ConstitutionalCourtPage) },
+
+  // Compliance
+  { path: 'compliance/regulators-receipt', element: w(RegulatorsReceiptGeneratorPage) },
+  { path: 'compliance/regulatory-sandbox', element: w(RegulatorySandboxPage) },
+
+  // Security (enterprise-related)
+  { path: 'security/zkp', element: w(ZKPPage) },
+];

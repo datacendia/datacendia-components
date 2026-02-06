@@ -1,0 +1,59 @@
+{
+  "id": 6008136,
+  "name": "Roman v. Pennsylvania",
+  "name_abbreviation": "Roman v. Pennsylvania",
+  "decision_date": "2010-12-06",
+  "docket_number": "No. 10-7228",
+  "first_page": "1095",
+  "last_page": "1095",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1095"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 71,
+    "ocr_confidence": 0.661,
+    "sha256": "90c90d86cb42bbebf5b50b2f6f5187f2eedabcf5315762a05b831227f5c8aebf",
+    "simhash": "1:836820c8f8ee8150",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Roman v. Pennsylvania."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. Pa. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7228.\nRoman v. Pennsylvania."
+  },
+  "file_name": "1095-06",
+  "first_page_order": 1117,
+  "last_page_order": 1117
+}

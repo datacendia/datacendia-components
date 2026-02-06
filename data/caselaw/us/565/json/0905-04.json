@@ -1,0 +1,59 @@
+{
+  "id": 12220172,
+  "name": "Harris v. Upton, Warden",
+  "name_abbreviation": "Harris v. Upton",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5397",
+  "first_page": "905",
+  "last_page": "905",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 905"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.647,
+    "sha256": "6b29775af6cc501eec2e31510091edcf5989c2b6e924717dbaa6f5eb20c0d008",
+    "simhash": "1:3e510e7a724bb0b7",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Harris v. Upton, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5397.\nHarris v. Upton, Warden."
+  },
+  "file_name": "0905-04",
+  "first_page_order": 987,
+  "last_page_order": 987
+}

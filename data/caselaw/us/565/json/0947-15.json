@@ -1,0 +1,59 @@
+{
+  "id": 12227484,
+  "name": "Ware v. Tucker, Secretary, Florida Department of Corrections",
+  "name_abbreviation": "Ware v. Tucker",
+  "decision_date": "2011-10-11",
+  "docket_number": "No. 11-5636",
+  "first_page": "947",
+  "last_page": "947",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 947"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 108,
+    "ocr_confidence": 0.653,
+    "sha256": "90a795e3b0feb850590a5485a25f5c9fd93f9d0d00326f0fe0cee1632eb81673",
+    "simhash": "1:777f00e24971903c",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ware v. Tucker, Secretary, Florida Department of Corrections."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Fla. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5636.\nWare v. Tucker, Secretary, Florida Department of Corrections."
+  },
+  "file_name": "0947-15",
+  "first_page_order": 1029,
+  "last_page_order": 1029
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12243117,
+  "name": "Hudson v. Michigan Department of Corrections et al.",
+  "name_abbreviation": "Hudson v. Michigan Department of Corrections",
+  "decision_date": "2012-01-17",
+  "docket_number": "No. 11-7363",
+  "first_page": "1163",
+  "last_page": "1163",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1163"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 99,
+    "ocr_confidence": 0.606,
+    "sha256": "c7b0ea47ff6ce98c5bef09706a123bd381dd5691e6b620faec419b2e529b540c",
+    "simhash": "1:b55832a2be1fe97c",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hudson v. Michigan Department of Corrections et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7363.\nHudson v. Michigan Department of Corrections et al."
+  },
+  "file_name": "1163-13",
+  "first_page_order": 1245,
+  "last_page_order": 1245
+}

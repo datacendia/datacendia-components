@@ -1,0 +1,59 @@
+{
+  "id": 5931390,
+  "name": "Brunick v. United States",
+  "name_abbreviation": "Brunick v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5884",
+  "first_page": "940",
+  "last_page": "940",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 940"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.602,
+    "sha256": "ecc7cb55d19e136c908922f60eac956b4dae5a629ff6dad436c7771443f8f1d3",
+    "simhash": "1:9523ca830d95807e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Brunick v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5884.\nBrunick v. United States."
+  },
+  "file_name": "0940-09",
+  "first_page_order": 962,
+  "last_page_order": 962
+}

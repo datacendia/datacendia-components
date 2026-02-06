@@ -1,0 +1,96 @@
+{
+  "id": 12658733,
+  "name": "Ruthen James WEEMS III, Appellant v. BAYLOR, SCOTT & WHITE, HILLCREST MEDICAL CENTER, Appellee",
+  "name_abbreviation": "Weems v. Baylor, Scott & White, Hillcrest Med. Ctr.",
+  "decision_date": "2017-05-11",
+  "docket_number": "No. 06-17-00018-CV",
+  "first_page": "293",
+  "last_page": "294",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 S.W.3d 293"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex. App. Ct.",
+    "id": 30236,
+    "name": "Court of Appeals of Texas, Texarkana"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "Tex. Gov't Code Ann. \u00a7 73.001",
+      "category": "laws:leg_statute",
+      "reporter": "Tex. Code Ann.",
+      "year": 2013,
+      "opinion_index": 0
+    },
+    {
+      "cite": "303 S.W.3d 755",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7300181
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "759"
+        },
+        {
+          "page": "757"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/303/0755-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 216,
+    "char_count": 2496,
+    "pagerank": {
+      "raw": 4.89950402824256e-08,
+      "percentile": 0.3090456238954472
+    },
+    "sha256": "b4f35d4a806b7954926c17ffc35c6348dc6b80a44212130c88db77493a61817c",
+    "simhash": "1:09da36b40364d1f9",
+    "word_count": 403
+  },
+  "last_updated": "2024-02-27T16:04:37.378194+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Morriss, C.J., Moseley and Burgess, JJ."
+    ],
+    "parties": [
+      "Ruthen James WEEMS III, Appellant\nv.\nBAYLOR, SCOTT & WHITE, HILLCREST MEDICAL CENTER, Appellee"
+    ],
+    "opinions": [
+      {
+        "text": "Memorandum Opinion by Justice Moseley\nRuthen James Weems, III, alleged that a nurse at Baylor Scott & White, Hillcrest Medical Center, knowingly authored a false report that a patient, Ernest Bradshaw, had been shot. According to Weems, this false report was used to criminally charge him for the attempted murder of Bradshaw. After concluding that Weems was asserting a health care liability claim, the trial court dismissed it on the ground that Weems had failed to file an expert report. See TEX. CIV. PRAC. & REM. CODE ANN. \u00a7 74.351 (West 2017).\nWeems appeals, arguing that he was not required to file an expert report because he did not assert a healthcare liability claim. Weems' petition clearly demonstrated that his complaint was the knowing fabrication of an allegedly false medical report. Although there is a split among the courts of appeals, the Waco Court of Appeals has concluded that claims involving alteration and fabrication of medical records are not healthcare liability claims and, therefore, do not trigger the expert report requirement of Section 74.351. Benson v. Vernon , 303 S.W.3d 755, 759 (Tex. App.-Waco 2009, no pet.). Accordingly, we sustain Weems' point of error.\nWe reverse the trial court's judgment and remand the matter to the trial court for further proceedings.\nOriginally appealed to the Tenth Court of Appeals in Waco, this case was transferred to this Court by the Texas Supreme Court pursuant to its docket equalization efforts. See Tex. Gov't Code Ann. \u00a7 73.001 (West 2013). We follow the precedent of the Tenth Court of Appeals in deciding this case. See Tex. R. App. P. 41.3.\n\"We review a trial court's order on a motion to dismiss a claim for failure to comply with the expert report requirements under an abuse-of-discretion standard.\" Benson v. Vernon , 303 S.W.3d 755, 757 (Tex. App.-Waco 2009, no pet.).\nUnder the current state of the law, we disagree with the conclusion reached by our sister court in Benson in 2009.",
+        "type": "majority",
+        "author": "Memorandum Opinion by Justice Moseley"
+      }
+    ],
+    "attorneys": [
+      "Ruthen James Weems, Pro Se, McLennan County Jail #144318, 3201 EHwy 6, Waco, TX 76705, Attorneys for appellant.",
+      "Ben Selman, Naman, Howell, Smith & Lee, PLLC, PO Box 1470, Waco, TX 76703-1470, Attorneys for appellee."
+    ],
+    "corrections": "",
+    "head_matter": "Ruthen James WEEMS III, Appellant\nv.\nBAYLOR, SCOTT & WHITE, HILLCREST MEDICAL CENTER, Appellee\nNo. 06-17-00018-CV\nCourt of Appeals of Texas, Texarkana.\nDate Submitted: April 19, 2017\nDate Decided: May 11, 2017\nRehearing Overruled May 31, 2017\nRuthen James Weems, Pro Se, McLennan County Jail #144318, 3201 EHwy 6, Waco, TX 76705, Attorneys for appellant.\nBen Selman, Naman, Howell, Smith & Lee, PLLC, PO Box 1470, Waco, TX 76703-1470, Attorneys for appellee.\nBefore Morriss, C.J., Moseley and Burgess, JJ.\nMEMORANDUM OPINION"
+  },
+  "file_name": "0293-01",
+  "first_page_order": 293,
+  "last_page_order": 294
+}

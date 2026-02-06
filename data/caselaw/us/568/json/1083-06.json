@@ -1,0 +1,61 @@
+{
+  "id": 12427759,
+  "name": "Willis v. Court of Appeals of Texas, Second District",
+  "name_abbreviation": "Willis v. Court of Appeals of Texas, Second District",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-6679",
+  "first_page": "1083",
+  "last_page": "1083",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1083"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 55,
+    "char_count": 414,
+    "ocr_confidence": 0.636,
+    "sha256": "bcc37a6a9118d8905d49ec7199284ab0086e6b11e7fbec9ef3d36d35e9b169b0",
+    "simhash": "1:bab53605a66baef9",
+    "word_count": 73
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Alito took no part in the consideration or decision of this motion."
+    ],
+    "parties": [
+      "Willis v. Court of Appeals of Texas, Second District."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Tex. Motion of petitioner for leave to proceed in forma pauperis denied. Petitioner is allowed until January 28, 2013, within which to pay the docketing fee required by Rule 38(a) and to submit a petition in compliance with Rule 33.1 of the Rules of this Court.\nJustice Alito took no part in the consideration or decision of this motion.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6679.\nWillis v. Court of Appeals of Texas, Second District."
+  },
+  "file_name": "1083-06",
+  "first_page_order": 1159,
+  "last_page_order": 1159
+}

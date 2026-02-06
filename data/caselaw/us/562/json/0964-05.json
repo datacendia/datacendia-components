@@ -1,0 +1,59 @@
+{
+  "id": 5906940,
+  "name": "Lamana v. Pennsylvania",
+  "name_abbreviation": "Lamana v. Pennsylvania",
+  "decision_date": "2010-10-12",
+  "docket_number": "No. 10-303",
+  "first_page": "964",
+  "last_page": "964",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 964"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 70,
+    "ocr_confidence": 0.678,
+    "sha256": "52e496a5d41bec653b51cac0a1c3a1f9f76ef2a30ffd9e33ff97f1cb52b906ed",
+    "simhash": "1:4a5687d213eabbd6",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lamana v. Pennsylvania."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. Pa. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-303.\nLamana v. Pennsylvania."
+  },
+  "file_name": "0964-05",
+  "first_page_order": 986,
+  "last_page_order": 986
+}

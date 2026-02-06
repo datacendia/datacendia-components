@@ -1,0 +1,59 @@
+{
+  "id": 12417086,
+  "name": "Pennsylvania v. Banks",
+  "name_abbreviation": "Pennsylvania v. Banks",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-952",
+  "first_page": "927",
+  "last_page": "927",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 927"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 21,
+    "char_count": 137,
+    "ocr_confidence": 0.696,
+    "sha256": "18518d20b7681c7418de2d1e1ebf7cde3d5e961154c58e375f683c7781cba989",
+    "simhash": "1:36a1b1df06f1e21a",
+    "word_count": 21
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Pennsylvania v. Banks."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Pa. Motion of respondent for leave to proceed in forma pau-peris granted. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-952.\nPennsylvania v. Banks."
+  },
+  "file_name": "0927-13",
+  "first_page_order": 1003,
+  "last_page_order": 1003
+}

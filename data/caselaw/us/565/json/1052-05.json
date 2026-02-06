@@ -1,0 +1,59 @@
+{
+  "id": 12234711,
+  "name": "In re Discipline of Mabry",
+  "name_abbreviation": "In re Discipline of Mabry",
+  "decision_date": "2011-11-28",
+  "docket_number": "No. D-2605",
+  "first_page": "1052",
+  "last_page": "1052",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1052"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 41,
+    "char_count": 289,
+    "ocr_confidence": 0.646,
+    "sha256": "8dbbba2afe746eff8265653cb20ca1a739d93b96872bb00070f08e3132e5ff79",
+    "simhash": "1:6d8a61b23dfba74b",
+    "word_count": 53
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of Mabry."
+    ],
+    "opinions": [
+      {
+        "text": "Ralph Thomas Mabry, Jr., of Silver Spring, Md., is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2605.\nIn re Discipline of Mabry."
+  },
+  "file_name": "1052-05",
+  "first_page_order": 1134,
+  "last_page_order": 1134
+}

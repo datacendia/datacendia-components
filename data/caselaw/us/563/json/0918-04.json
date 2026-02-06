@@ -1,0 +1,59 @@
+{
+  "id": 5938749,
+  "name": "Anderson v. Kitchen et al.",
+  "name_abbreviation": "Anderson v. Kitchen",
+  "decision_date": "2011-04-04",
+  "docket_number": "No. 10-983",
+  "first_page": "918",
+  "last_page": "918",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 918"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 74,
+    "ocr_confidence": 0.573,
+    "sha256": "da11b8a3163dc72efbe3b8ead42480fd8fda06afd8aa0cf977dce09f823ebadb",
+    "simhash": "1:9b9972a8d727d078",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Anderson v. Kitchen et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-983.\nAnderson v. Kitchen et al."
+  },
+  "file_name": "0918-04",
+  "first_page_order": 944,
+  "last_page_order": 944
+}

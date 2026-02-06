@@ -1,0 +1,59 @@
+{
+  "id": 4335484,
+  "name": "Young v. Larkins, Warden",
+  "name_abbreviation": "Young v. Larkins",
+  "decision_date": "2011-06-13",
+  "docket_number": "No. 10-9933",
+  "first_page": "1007",
+  "last_page": "1007",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1007"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.562,
+    "sha256": "e74e2773744c91a8f30900e4fd975097f04982028f101d5d9c0e9cc3a20502c9",
+    "simhash": "1:b49f66e3ad39229f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Young v. Larkins, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9933.\nYoung v. Larkins, Warden."
+  },
+  "file_name": "1007-04",
+  "first_page_order": 1001,
+  "last_page_order": 1001
+}

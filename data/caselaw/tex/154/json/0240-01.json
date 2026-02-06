@@ -1,0 +1,443 @@
+{
+  "id": 2249242,
+  "name": "Severo V. Garcia v. Ted F. Karam",
+  "name_abbreviation": "Garcia v. Karam",
+  "decision_date": "1955-03-02",
+  "docket_number": "No. A-4743",
+  "first_page": "240",
+  "last_page": "247",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "154 Tex. 240"
+    },
+    {
+      "type": "parallel",
+      "cite": "276 S.W.2d 255"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "229 S.W. 1114",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10341378,
+        2284671
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw/229/1114-01",
+        "/tex/111/0122-01"
+      ]
+    },
+    {
+      "cite": "111 Texas 122",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2284671
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/111/0122-01"
+      ]
+    },
+    {
+      "cite": "162 S.W. 2d 662",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10219100,
+        2311476
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/162/0662-01",
+        "/tex/139/0278-01"
+      ]
+    },
+    {
+      "cite": "139 Texas 278",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2311476
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/139/0278-01"
+      ]
+    },
+    {
+      "cite": "114 S.W. 2d 1161",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10277496,
+        2324479
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/114/1161-01",
+        "/tex/131/0457-01"
+      ]
+    },
+    {
+      "cite": "131 Texas 457",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2324479
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/131/0457-01"
+      ]
+    },
+    {
+      "cite": "6 S.W. 426",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "164 S.W. 2d 488",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10213002,
+        2311405
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/164/0488-01",
+        "/tex/139/0183-01"
+      ]
+    },
+    {
+      "cite": "139 Texas 183",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2311405
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/139/0183-01"
+      ]
+    },
+    {
+      "cite": "231 S.W. 375",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8265127
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw/231/0375-01"
+      ]
+    },
+    {
+      "cite": "134 S.W. 2d 348",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10231731
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "349"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/134/0348-01"
+      ]
+    },
+    {
+      "cite": "118 A.L.R. 1505",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "115 S.W. 2d 624",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10256515,
+        2324519
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/115/0624-01",
+        "/tex/131/0325-01"
+      ]
+    },
+    {
+      "cite": "131 Texas 325",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2324519
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/131/0325-01"
+      ]
+    },
+    {
+      "cite": "255 S.W. 983",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10336324
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/255/0983-01"
+      ]
+    },
+    {
+      "cite": "132 S.W. 2d 553",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10238364
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/132/0553-01"
+      ]
+    },
+    {
+      "cite": "17 A.L.R. 10",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "181 N.W. 214",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "173 Wis. 351",
+      "category": "reporters:state",
+      "reporter": "Wis.",
+      "case_ids": [
+        8692595
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/wis/173/0351-01"
+      ]
+    },
+    {
+      "cite": "65 S.W. 2d 601",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "16 Tenn. App. 629",
+      "category": "reporters:state",
+      "reporter": "Tenn. App.",
+      "case_ids": [
+        8511329
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tenn-app/16/0629-01"
+      ]
+    },
+    {
+      "cite": "139 A. 223",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "101 N. J. Eq. 757",
+      "category": "reporters:state",
+      "reporter": "N.J. Eq.",
+      "case_ids": [
+        36128
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nj-eq/101/0757-01"
+      ]
+    },
+    {
+      "cite": "24 S.W. 2d 917",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "233 Ky. 27",
+      "category": "reporters:state",
+      "reporter": "Ky.",
+      "case_ids": [
+        2435574
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ky/233/0027-01"
+      ]
+    },
+    {
+      "cite": "101 U.S. 522",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5630762
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/101/0522-01"
+      ]
+    },
+    {
+      "cite": "177 S.W. 468",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "165 Ky. 625",
+      "category": "reporters:state",
+      "reporter": "Ky.",
+      "case_ids": [
+        4439669
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ky/165/0625-01"
+      ]
+    },
+    {
+      "cite": "55 Texas 401",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2181442
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/55/0401-01"
+      ]
+    },
+    {
+      "cite": "12 Texas 199",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2052117
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/12/0199-01"
+      ]
+    },
+    {
+      "cite": "267 S.W. 2d 890",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10205537
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/267/0890-01"
+      ]
+    },
+    {
+      "cite": "164 S.W. 2d 488",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10213002,
+        2311405
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/164/0488-01",
+        "/tex/139/0183-01"
+      ]
+    },
+    {
+      "cite": "231 S.W. 375",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8265127
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/231/0375-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 636,
+    "char_count": 13093,
+    "ocr_confidence": 0.642,
+    "pagerank": {
+      "raw": 5.985633822530007e-07,
+      "percentile": 0.9540336135427201
+    },
+    "sha256": "0ff866be1abf841d6adebf11753bfaef038163799bb112aa045b7990ce577c40",
+    "simhash": "1:8b7f6ee63a0cd895",
+    "word_count": 2200
+  },
+  "last_updated": "2024-02-27T19:00:26.686432+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Severo V. Garcia v. Ted F. Karam"
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Smith\ndelivered the opinion of the Court.\nPetitioner filed suit in the District Court of El Paso County against respondent for damages on account of breach of a written contract dated July 12, 1951 by which respondent agreed to convey to petitioner certain real estate described as \u201cThe Karam 4-Unit Apt. located 4000 Blk. Thompkins St. El Paso, Texas. Frab L. 1 to 5, Inc. Blk. 105. Grand. View.\u201d The contract contained a provision that the total consideration agreed upon was $42,500.00 to be paid in the following manner: \u201cTwenty Thousand Dollars cash. * * * on delivery of deed. Balance as follows: $22,500.00 to be paid in monthly installments of $250.00 or more per month including interest. The above $20,000.00 to be paid in mds. groe, and hdwe. from stock owned by Mr. Garcia at 614 So. Stanton Street, at invoice.\u201d (Emphasis added). The contract further provided that all merchandise and fixtures \u201cabove $20,000.00 to go with deal * * *.\u201d\nThe petitioner alleged a modification of the contract to the extent that respondent orally agreed to accept the stock of merchandise at a value of $20,000.00 without the necessity of taking an inventory; that the respondent accepted the merchandise but failed and refused to deliver to petitioner the deed conveying the property described in the written contract to petitioner\u2019s damage in the sum of $20,000.00. The petitioner further alleged that on or about July 12, 1951, respondent took possession of the store in which the merchandise was located; that on July 19, 1951, respondent and petitioner entered into an oral agreement whereby petitioner was employed to operate the business for the respondent \u201cuntil such time as the remaining merchandise, equipment and furnishings were sold, or until such time as the defendant could find a buyer for the said business\u201d; that respondent agreed to pay petitioner the sum of $10.00 per day for his services, and to allow an additional sum of $3.00 per day for the services of an assistant; that petitioner and an assistant performed the service required under the oral contract, but that respondent failed and refused to perform his part of the agreement to petitioner\u2019s damage in the sum of $13.00 per day from and after July 19, 1951 to the date of trial. The respondent has maintained the position throughout this litigation that (1) he did not agree to the alleged oral modification of the written contract; (2) that he did not enter into the oral contract of employment as alleged by petitioner, and (3) that the alleged modifications in regard to the consideration and the employment contract of July 19, 1951 constituted an oral modification of the written contract of July 12, 1951, and that such oral modification was prohibited by the Statute of Frauds, Article 3995, Revised Civil Statutes of Texas, 1925.\nThe petitioner secured favorable jury findings on the issues involved. The trial court rendered judgment in his favor and against the respondent for the sum of $26,887.07. That judgment was reversed and rendered by the Court of Civil Appeals. 267 S.W. 2d 890.\nThe first question for our decision is whether the Court of Civil Appeals correctly held that the original oral modification of the written contract was prohibited by the Statute of Frauds. As a basis for his suit petitioner alleged the written contract and the subsequent oral modification thereof. He takes the position that the subsequent oral agreement whereby respondent agreed to accept the merchandise without the necessity of taking inventory is not prohibited by the Statute of Frauds. The respondent contends that the subsequent oral modification is prohibited by the Statute of Frauds because it amounted to a \u201ccomplete change of the terms of the contract\u201d between the parties, and that it was an attempt to \u201csubstitute an entirely new consideration\u201d for the one required by the writing. Respondent invokes the broad general doctrine that a contract required by the Statute of Frauds to be in writing cannot be modified by a subsequent oral agreement. He contends that this rule applies to the present case. The petitioner contends that the subsequent oral modification does not affect that portion of the contract which is required by the Statute of Frauds to be in writing, but only involves a modification of the mode of performance of the contract.\nTo answer the question thus presented, we should look to the written contract before modification and to the character of modification itself. If neither the portion of the written contract affected by the subsequent modification nor the matter encompassed by the modification itself is required by the Statute of Frauds to be in writing, then the oral modification will not render the contract unenforceable.\nThe jury in this case found that the invoice value of the merchandise actually delivered to respondent was $20,000. The merchandise actually delivered was the same stock as that contemplated in the writing. In other words, the modification did not constitute a change in the character or value of the consideration originally contracted for. It amounted only to a change of one incidental condition relating to the time and manner of evaluating the agreed-upon stock of merchandise; i.e., that an inventory be taken before delivery of the stock to respondent.\n2 It is well settled in Texas that the Statute of Frauds does not require that the consideration in a contract for the sale of realty be expressed in writing. Simpson v. Green, Com. App., 231 S.W. 375; Adkins v. Watson, 12 Texas 199. Texas has not adopted the section of the Statute of Frauds relating to the transfer of personality, neither has this state enacted a statute which prohibits a subsequent oral modification of a contract which is required by the Statute of Frauds to be in writing. We are of the opinion that the contract between respondent and petitioner could have been enforced even if the consideration for the conveyance of the realty had been altogether omitted and petitioner could have contracted for the sale of his stock of merchandise for $20,000 by oral agreement, and in both instances the Statute of Frauds would have been unquestionably satisfied. Fulton v. Robinson, 55 Texas 401. Had the petitioner contracted in writing for the sale of his merchandise for \u201c$20,000.00, at invoice,\u201d and subsequently agreed orally with the purchaser to convey without an inventory, the Statute of Frauds would have been wholly inapplicable. The subject matter of the contract has not been changed, but only the method of performing it. Murray v. Boyd, 165 Ky. 625, 177 S.W. 468; Chesapeake & O. Canal Co. v. Ray, 101 U.S. 522, 25 L. Ed. 792; Hicks v. Oak\u2019s Adm\u2019r., 233 Ky. 27, 24 S.W. 2d 917; Kohoot v. Gurbisz, 101 N. J. Eq. 757, 139 A. 223; Badger v. Boyd, 16 Tenn. App. 629, 65 S.W. 2d 601; Schaap v. Wolf, 173 Wis. 351, 181 N.W. 214, 17 A.L.R. 10; 6 R.C.L. 299; Elliott on Contracts, Sec. 1988. We hold that the subsequent oral modification of the written contract involved in this case is valid.\nPrior Texas cases have indicated a strict construction of the prohibitions of the Statute of Frauds; in this respect and we have concluded that the result in these, cases also justifies our decision here. Gulf Production Co. v. Continental Oil Co., 139 Texas, 183, 132 S.W. 2d 553 (withdrawn) and 164 S.W. 2d 488 and cases therein cited; Restatement of Contracts, Sec. 224. We think the rule announced in the case of Murray v. Boyd, supra, is applicable in the present case. In that case (at page 472) the Court held:\n\u201cWhile (the contract) was necessarily reduced to writing, and the parties incorporated into the writing other subsidiary or incidental agreements, yet the force of the contract of sale was affected by the other conditions, and a subsequent parol agreement with reference to them cannot properly be said to be within the statute of frauds. To illustrate, if one by written contract sells a certain boundary of land, and the contract provides for a subsequent survey to ascertain the boundary before payment is required, a subsequent parol agreement for the sale of more land would be within the statute of frauds, and therefore not enforceable. But if the subsequent agreement merely postponed the time of payment or waived or rescinded the agreement for survey, there is no reason why that character of agreement would not be binding, since the statute of frauds does not require agreements in relation to such subjects to be in writing. If the parol modification would otherwise be enforceable, its validity is not affected, although it is incident to a written contract which concerns a subject that the law requires shall be in writing.\u201d\nThe respondent relies upon the cases of Kisler v. Latham, Texas Com. App., 255 S.W. 983; Robertson v. Melton, 131 Texas 325; 115 S.W. 2d 624, 118 A.L.R. 1505, and O\u2019Mara v. Hall, Texas Civ. App., 134 S.W. 2d 348, 349. These cases are not decisive of the question before us in this case. The consideration in the case of Kistler v. Latham, supra, was to give a deed of trust upon two tracts of land. A similar consideration existed in the case of Robertson v. Melton, supra. In both cases it was correctly held that the consideration having been reduced to writing and such consideration being within the Statute of Frauds it could not be modified by a subsequent parol agreement.\nThe case of O\u2019Mara v. Hall, supra, is clearly distinguishable from the present case. In that case there was a written contract which provided that the seller agreed to convey to the purchaser a mineral interest in lands. It further provided that the sum of $20,000 was to be placed with the depository of the escrow agreement and to be paid to the seller upon the approval of title by a competent attorney. The plaintiff alleged that \u201ccontemporaneous with their said escrow agreement\u201d an oral agreement was entered into whereby the seller agreed to permit the deposit of a draft for $20,000 in lieu of cash, and further agreed to accept the title opinion of an abstractor instead of an attorney. The court held that \u201cthe evidence of plaintiff to the effect that it was agreed the draft could be deposited with the depository agent Jones instead of cash, and that it was also agreed the abstracter Harper should pass upon the title instead of an attorney, violates the parol evidence rule.\u201d The court further held that under the rule announced in the case of Robertson v. Melton, supra, \u201c* * * * *it is not permissible to thus alter by parol agreement the terms of a written contract to convey land and enforce performance thereof because such altered contract rests partly in parol and enforcement thereof forbidden by the statute of frauds, Art. 3995, R.S.\u201d\nThe parol evidence rule excludes only prior and contemporaneous negotiations. It does not apply to subsequent agreements entered into by the parties. The Robertson case was concerned with a subsequent oral agreement and not a prior or contemporaneous oral agreement; therefore, the case was no authority for the conclusion reached in the O\u2019Mara case that the Statute of Frauds had been violated. See Schaaf v. Wolf, 173 Wis. 351, 181 N.W. 214, 17 A.L.R. 10.\nWith regard to the alleged contract of employment we agree with the contention of petitioner that it was an independent and separate contract and not a subsequent modification of the original written agreement. Therefore, the Statute of Frauds does not apply.\nWe have examined respondent\u2019s brief filed in the Court of Civil Appeals and find that 40 assignments of error were presented. Many of the assignments were not considered by the Court. Several of the assignments present question wherein the Court of Civil Appeals has final jurisdiction. Therefore, this cause must be remanded to the Court of Civil Appeals with directions that it consider all assignments which have not been determined by this opinion.\nThis cause is reversed and remanded to the Court of Civil Appeals for further proceedings consistent with this opinion.\nOpinion delivered March 2, 1955.\nRehearing overruled March 30, 1955.",
+        "type": "majority",
+        "author": "Mr. Justice Smith"
+      }
+    ],
+    "attorneys": [
+      "William C. Collins, of El Paso, for petitioner.",
+      "Andress, Lipscomb and Peticolas and Ted Andress, all of El Paso, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "Severo V. Garcia v. Ted F. Karam\nNo. A-4743.\nDecided March 2, 1955.\nRehearing overruled March 30, 1955.\n(276 S.W. 2d Series 255)\nWilliam C. Collins, of El Paso, for petitioner.\nThe Court of Civil Appeals erred in its conclusion and judgment that the oral modification here does not merely change the manner of payment but is in fact a complete change of the terms of the contract and not being reduced to writing brings the contract as modified within the statute of frauds. Simpson v. Green, 231 S.W. 375; Gulf Production Co. v. Continental, 139 Texas 183, 164 S.W. 2d 488; Morrison v. Dailey, 6 S.W. 426.\nAndress, Lipscomb and Peticolas and Ted Andress, all of El Paso, for respondent.\nAn oral modification of the terms of a written contract had the effect of making a complete change of the terms of the written contract. American National Ins. Co. v. Warnock, 131 Texas 457, 114 S.W. 2d 1161; Michael v. Busby, 139 Texas 278, 162 S.W. 2d 662; Hooks v. Bridgewater, 111 Texas 122, 229 S.W. 1114."
+  },
+  "file_name": "0240-01",
+  "first_page_order": 254,
+  "last_page_order": 261
+}

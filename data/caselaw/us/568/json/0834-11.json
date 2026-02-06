@@ -1,0 +1,59 @@
+{
+  "id": 12411731,
+  "name": "Edge v. Pennsylvania",
+  "name_abbreviation": "Edge v. Pennsylvania",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10156",
+  "first_page": "834",
+  "last_page": "834",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 834"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 71,
+    "ocr_confidence": 0.697,
+    "sha256": "7f93f922254c54e008c1090708fbe435bba42627662ac1bee4ddaa964978e317",
+    "simhash": "1:cb6c21caf97d1054",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Edge v. Pennsylvania."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. Pa. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10156.\nEdge v. Pennsylvania."
+  },
+  "file_name": "0834-11",
+  "first_page_order": 910,
+  "last_page_order": 910
+}

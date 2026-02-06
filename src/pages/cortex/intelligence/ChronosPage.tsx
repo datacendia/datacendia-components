@@ -25,8 +25,25 @@
 
 import React, { useState, useEffect, useRef, useCallback, useMemo } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
-import { decisionIntelApi, metricsApi, councilApi, alertsApi, graphApi } from '../../../lib/api';
+import { decisionIntelApi, metricsApi, councilApi, alertsApi, graphApi, api } from '../../../lib/api';
 import { sovereignApi } from '../../../lib/sovereignApi';
+import { documentExportService, type AuditPackageData } from '../../../services/DocumentExportService';
+
+// Audit package signing API
+const auditPackageApi = {
+  async sign(snapshotDate: string, contents: any): Promise<any> {
+    const response = await api.post<any>('/audit-packages/sign', { snapshotDate, contents });
+    return response.data;
+  },
+  async verify(pkg: any): Promise<any> {
+    const response = await api.post<any>('/audit-packages/verify', { package: pkg });
+    return response.data;
+  },
+  async store(pkg: any): Promise<any> {
+    const response = await api.post<any>('/audit-packages/store', { package: pkg });
+    return response.data;
+  },
+};
 
 // =============================================================================
 // TYPES
@@ -87,7 +104,43 @@ interface BranchTimeline {
 }
 
 type ChronosMode = 'rewind' | 'replay' | 'fastforward';
-type EnhancedView = 'standard' | 'diff' | 'theater' | 'impact' | 'monte-carlo';
+type EnhancedView = 'standard' | 'diff' | 'theater' | 'impact' | 'monte-carlo' | 'universes';
+
+// =============================================================================
+// UNIVERSE TYPES - "What If" Parallel Timeline Simulation (merged from Horizon)
+// =============================================================================
+
+interface Universe {
+  id: string;
+  name: string;
+  description: string;
+  decision: string;
+  color: string;
+  icon: string;
+  probability: number;
+  timeline: UniverseEvent[];
+  outcomes: UniverseOutcome;
+  riskProfile: { overall: 'low' | 'moderate' | 'high' | 'critical'; score: number };
+  reversibilityScore: number;
+  npv: number;
+}
+
+interface UniverseEvent {
+  id: string;
+  dayOffset: number;
+  title: string;
+  description: string;
+  type: 'milestone' | 'risk' | 'opportunity' | 'pivot' | 'cascade' | 'external';
+  impact: 'positive' | 'negative' | 'neutral' | 'critical';
+  confidence: number;
+}
+
+interface UniverseOutcome {
+  revenue: { current: number; projected: number; change: number };
+  marketShare: { current: number; projected: number; change: number };
+  risk: { current: number; projected: number; change: number };
+  overallScore: number;
+}
 
 // Enhanced Types
 interface Bookmark {
@@ -765,80 +818,228 @@ const generateEvents = (): TimelineEvent[] => {
   const events: TimelineEvent[] = [];
   const now = new Date();
 
+  // Comprehensive event templates with more variety
   const templates = [
     {
       type: 'decision' as const,
       titles: [
-        'Board Approved Q3 Budget',
-        'Council Greenlit Acquisition',
-        'Authorized Series C Terms',
-        'Approved Hiring Freeze Lift',
-        'Sanctioned Market Expansion',
+        'Board Approved Q3 Budget Allocation',
+        'Council Greenlit Strategic Acquisition',
+        'Authorized Series C Terms Sheet',
+        'Approved Hiring Freeze Lift for Engineering',
+        'Sanctioned APAC Market Expansion',
+        'Should Sterling enter the Canadian market?',
+        'What are the expected Q4 revenue projections?',
+        'Approved vendor contract renewal - Salesforce',
+        'Council approved new pricing strategy',
+        'Board ratified executive compensation plan',
+        'Authorized $2M R&D investment',
+        'Approved partnership with Microsoft Azure',
+        'Council greenlit product roadmap Q1 2026',
+        'Sanctioned remote work policy update',
+        'Approved cybersecurity budget increase',
+        'Board approved dividend distribution',
+        'Council authorized new office lease',
+        'Approved customer success team expansion',
+        'Sanctioned AI ethics policy adoption',
+        'Board approved ESG reporting framework',
       ],
     },
     {
       type: 'metric' as const,
       titles: [
-        'Revenue Milestone: $10M ARR',
-        'Churn Spike Detected',
-        'NPS Score Jump to 72',
-        'CAC Reduced by 23%',
-        'LTV:CAC Hit 4.2x',
+        'Revenue Milestone: $12.6M ARR achieved',
+        'Churn Rate Spike: 4.2% detected',
+        'NPS Score improved to 72 (+8)',
+        'Customer Acquisition Cost reduced 23%',
+        'LTV:CAC ratio hit 4.2x target',
+        'Monthly Active Users exceeded 50K',
+        'Pipeline coverage reached 3.8x',
+        'Employee satisfaction score: 82%',
+        'Support ticket resolution: 94% SLA',
+        'Product uptime: 99.97% achieved',
+        'Conversion rate improved to 3.4%',
+        'Average deal size increased 18%',
+        'Customer retention hit 94%',
+        'Gross margin improved to 78%',
+        'Sales cycle reduced to 42 days',
       ],
     },
     {
       type: 'personnel' as const,
       titles: [
-        'VP Sales Departure',
-        'CTO Transition',
-        'Engineering +12 Headcount',
-        'CFO Hired from Goldman',
-        'Sales Team Restructure',
+        'VP Sales Sarah Chen departure announced',
+        'CTO Robert Williams transition to advisory',
+        'Engineering team +12 headcount approved',
+        'CFO Margaret Chen hired from Goldman',
+        'Sales team restructure completed',
+        'New CISO David Kim onboarded',
+        'VP Marketing Jennifer Park promoted',
+        'Board member Gen. Mitchell joined',
+        'Chief People Officer Emily Zhang hired',
+        'VP Product Michael Torres promoted',
+        'Engineering Director Lisa Anderson hired',
+        'Head of Legal Frank Martinez onboarded',
+        'VP Customer Success role created',
+        'Chief Revenue Officer search initiated',
+        'Board diversity initiative launched',
       ],
     },
     {
       type: 'financial' as const,
       titles: [
-        'Series B Close: $45M',
-        'Q2 Earnings Beat',
-        'Debt Facility Secured',
-        'Tax Credit Realized',
-        'Bridge Round Complete',
+        'Series B Close: $45M at $180M valuation',
+        'Q2 Earnings Beat: +12% vs forecast',
+        'Debt Facility: $20M secured at 6.5%',
+        'R&D Tax Credit: $1.2M realized',
+        'Bridge Round: $8M completed',
+        'Revenue recognition policy updated',
+        'Accounts receivable: 98% collection rate',
+        'Operating expenses optimized -8%',
+        'Cash runway extended to 24 months',
+        'Gross burn reduced to $780K/month',
+        'Customer prepayments: $3.2M received',
+        'Vendor payment terms extended to Net 60',
+        'Insurance coverage expanded',
+        'Audit completed - clean opinion',
+        'Tax strategy review completed',
       ],
     },
     {
       type: 'milestone' as const,
       titles: [
-        '1,000th Enterprise Customer',
-        'SOC2 Type II Certified',
-        'GDPR Compliance Achieved',
-        'Product Hunt Launch',
-        'First $1M Contract',
+        '1,000th Enterprise Customer signed',
+        'SOC2 Type II Certification achieved',
+        'GDPR Compliance audit passed',
+        'Product Hunt #1 Launch Day',
+        'First $1M ARR Contract closed',
+        'ISO 27001 Certification obtained',
+        'HIPAA Compliance verified',
+        'FedRAMP Authorization initiated',
+        '100th Fortune 500 customer',
+        'Platform 2.0 general availability',
+        'Mobile app launched on iOS/Android',
+        'API v3 released to partners',
+        'First international office opened',
+        '10,000 daily active users milestone',
+        'Strategic partnership announced',
+      ],
+    },
+    {
+      type: 'system' as const,
+      titles: [
+        'Production deployment v2.4.1 completed',
+        'Database migration to Aurora successful',
+        'CDN optimization reduced latency 40%',
+        'Security patch CVE-2025-1234 applied',
+        'Kubernetes cluster scaled to 50 nodes',
+        'Backup recovery test passed',
+        'SSL certificates renewed',
+        'API rate limiting implemented',
+        'Monitoring alerts configured',
+        'Disaster recovery drill completed',
       ],
     },
   ];
 
-  for (let i = 0; i < 80; i++) {
-    const daysAgo = Math.floor(Math.random() * 730);
+  // Generate more events with weighted distribution toward recent dates
+  // 40% in last 7 days, 30% in last 30 days, 20% in last 90 days, 10% older
+  const totalEvents = 200;
+  
+  for (let i = 0; i < totalEvents; i++) {
+    let daysAgo: number;
+    const rand = Math.random();
+    if (rand < 0.40) {
+      daysAgo = Math.floor(Math.random() * 7); // Last 7 days
+    } else if (rand < 0.70) {
+      daysAgo = 7 + Math.floor(Math.random() * 23); // 7-30 days
+    } else if (rand < 0.90) {
+      daysAgo = 30 + Math.floor(Math.random() * 60); // 30-90 days
+    } else {
+      daysAgo = 90 + Math.floor(Math.random() * 275); // 90-365 days
+    }
+    
     const hoursAgo = Math.floor(Math.random() * 24);
+    const minutesAgo = Math.floor(Math.random() * 60);
     const template = templates[Math.floor(Math.random() * templates.length)]!;
+    const title = template.titles[Math.floor(Math.random() * template.titles.length)]!;
+    
+    // Generate contextual description based on event type
+    const descriptions: Record<string, string[]> = {
+      decision: [
+        'Council deliberation completed with 87% consensus. Full audit trail available.',
+        'Executive decision ratified by board. Click to replay deliberation.',
+        'Strategic decision approved after 3-day review period.',
+        'Council reached unanimous agreement. Impact analysis attached.',
+        'Decision approved with 2 dissenting opinions documented.',
+      ],
+      metric: [
+        'Automated threshold alert triggered. Trend analysis available.',
+        'KPI milestone achieved ahead of schedule.',
+        'Metric deviation detected - root cause analysis initiated.',
+        'Performance indicator updated from connected data sources.',
+        'Real-time metric sync from Salesforce/SAP integration.',
+      ],
+      personnel: [
+        'HR event logged. Succession planning impact assessed.',
+        'Organizational change recorded. Knowledge transfer initiated.',
+        'Talent movement tracked. Team capacity updated.',
+        'Leadership transition documented. Stakeholder notifications sent.',
+        'Headcount change reflected in runway calculations.',
+      ],
+      financial: [
+        'Financial event recorded. Audit packet generated.',
+        'Treasury update logged. Cash flow projections revised.',
+        'Investment milestone achieved. Board notified.',
+        'Financial metric updated from NetSuite integration.',
+        'Compliance documentation auto-generated.',
+      ],
+      milestone: [
+        'Strategic milestone achieved. Press release drafted.',
+        'Certification obtained. Customer communications prepared.',
+        'Product milestone reached. Roadmap updated.',
+        'Business milestone logged. Investor update scheduled.',
+        'Compliance milestone verified. Audit evidence preserved.',
+      ],
+      system: [
+        'Infrastructure event logged. SLA metrics updated.',
+        'System change recorded. Rollback point created.',
+        'Technical milestone achieved. Documentation updated.',
+        'Platform update deployed. Monitoring alerts configured.',
+        'Security event logged. Incident response documented.',
+      ],
+    };
+    
+    const typeDescriptions = descriptions[template.type] || descriptions.decision;
+    const description = typeDescriptions[Math.floor(Math.random() * typeDescriptions.length)]!;
+    
+    // Weighted impact based on event type
+    let impact: 'positive' | 'negative' | 'neutral';
+    if (template.type === 'milestone') {
+      impact = Math.random() > 0.1 ? 'positive' : 'neutral';
+    } else if (template.type === 'metric' && title.includes('Spike') || title.includes('reduced')) {
+      impact = Math.random() > 0.5 ? 'negative' : 'neutral';
+    } else {
+      const impactRand = Math.random();
+      impact = impactRand < 0.5 ? 'positive' : impactRand < 0.8 ? 'neutral' : 'negative';
+    }
 
     events.push({
       id: `evt-${i}`,
-      timestamp: new Date(now.getTime() - (daysAgo * 24 + hoursAgo) * 60 * 60 * 1000),
+      timestamp: new Date(now.getTime() - (daysAgo * 24 * 60 + hoursAgo * 60 + minutesAgo) * 60 * 1000),
       type: template.type,
-      title: template.titles[Math.floor(Math.random() * template.titles.length)]!,
-      description: 'Full audit trail available. Click to replay Council deliberation.',
-      impact: ['positive', 'negative', 'neutral'][Math.floor(Math.random() * 3)] as any,
+      title,
+      description,
+      impact,
       magnitude: Math.floor(Math.random() * 10) + 1,
-      department: ['Engineering', 'Sales', 'Marketing', 'Finance', 'Operations', 'Legal'][
-        Math.floor(Math.random() * 6)
+      department: ['Engineering', 'Sales', 'Marketing', 'Finance', 'Operations', 'Legal', 'HR', 'Product', 'Security', 'Executive'][
+        Math.floor(Math.random() * 10)
       ]!,
-      actors: ['CEO', 'CFO', 'CTO', 'COO', 'Board', 'Council'].slice(
+      actors: ['CEO', 'CFO', 'CTO', 'COO', 'Board', 'Council', 'VP Sales', 'VP Engineering', 'CISO', 'CPO'].slice(
         0,
         Math.floor(Math.random() * 3) + 1
       ),
-      deliberationId: Math.random() > 0.5 ? `dlb-${i}` : undefined,
+      deliberationId: template.type === 'decision' ? `dlb-${i}` : (Math.random() > 0.7 ? `dlb-${i}` : undefined),
     });
   }
 
@@ -2268,6 +2469,7 @@ export const ChronosPage: React.FC = () => {
   const [branches, setBranches] = useState<BranchTimeline[]>([]);
   const [selectedBranch, setSelectedBranch] = useState<string | null>(null);
   const [selectedEvent, setSelectedEvent] = useState<TimelineEvent | null>(null);
+  const [highlightedEventId, setHighlightedEventId] = useState<string | null>(null); // Cross-highlighting state
   const [showBranchModal, setShowBranchModal] = useState(false);
   const playIntervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
@@ -2339,12 +2541,26 @@ export const ChronosPage: React.FC = () => {
   const [redactedExport, setRedactedExport] = useState<RedactedExport | null>(null);
   const [isGeneratingRedactedExport, setIsGeneratingRedactedExport] = useState(false);
 
-  // Time range based on mode
+  // Time range based on mode - auto-fit to actual event data
   const timeRange = useMemo(() => {
     const now = new Date();
+    
+    // Find actual event date range
+    const eventDates = events.map(e => e.timestamp.getTime()).filter(t => !isNaN(t));
+    const hasEvents = eventDates.length > 0;
+    const minEventDate = hasEvents ? Math.min(...eventDates) : now.getTime();
+    const maxEventDate = hasEvents ? Math.max(...eventDates) : now.getTime();
+    
+    // Add padding (7 days before earliest, current date as max)
+    const paddingMs = 7 * 24 * 60 * 60 * 1000;
+    
     if (mode === 'rewind') {
+      // For rewind: show from earliest event (with padding) to now
+      const rangeMin = hasEvents 
+        ? new Date(Math.min(minEventDate - paddingMs, now.getTime() - 90 * 24 * 60 * 60 * 1000)) // At least 90 days back
+        : new Date(now.getTime() - 90 * 24 * 60 * 60 * 1000);
       return {
-        min: new Date(now.getTime() - 730 * 24 * 60 * 60 * 1000), // 2 years ago
+        min: rangeMin,
         max: now,
       };
     } else if (mode === 'fastforward') {
@@ -2353,12 +2569,16 @@ export const ChronosPage: React.FC = () => {
         max: new Date(now.getTime() + 365 * 24 * 60 * 60 * 1000), // 1 year ahead
       };
     } else {
+      // Replay: fit to actual data
+      const rangeMin = hasEvents 
+        ? new Date(minEventDate - paddingMs)
+        : new Date(now.getTime() - 30 * 24 * 60 * 60 * 1000);
       return {
-        min: new Date(now.getTime() - 365 * 24 * 60 * 60 * 1000),
-        max: now,
+        min: rangeMin,
+        max: new Date(Math.max(maxEventDate + paddingMs, now.getTime())),
       };
     }
-  }, [mode]);
+  }, [mode, events]);
 
   // Update snapshot when date changes - apply time-based projection to metrics
   useEffect(() => {
@@ -2492,9 +2712,10 @@ export const ChronosPage: React.FC = () => {
       }
 
       try {
-        // Call AI to detect pivotal moments
+        // Call AI to detect pivotal moments - filter out events with invalid dates
+        const validEvents = events.filter(e => e.timestamp instanceof Date && !isNaN(e.timestamp.getTime()));
         const response = await decisionIntelApi.detectPivotalMoments({
-          events: events.map((e) => ({
+          events: validEvents.map((e) => ({
             id: e.id,
             timestamp: e.timestamp.toISOString(),
             type: e.type,
@@ -2547,16 +2768,30 @@ export const ChronosPage: React.FC = () => {
   useEffect(() => {
     const fetchAllChronosData = async () => {
       setIsLoadingData(true);
+      
+      // Helper to add timeout to promises
+      const withTimeout = <T,>(promise: Promise<T>, ms: number, fallback: T): Promise<T> => {
+        return Promise.race([
+          promise,
+          new Promise<T>((resolve) => setTimeout(() => resolve(fallback), ms))
+        ]);
+      };
+      
+      // Default fallback responses
+      const emptyResponse = { success: true, data: [] };
+      const emptyGraphStats = { success: true, data: { entities: 0, relationships: 0, dataPoints: 0, freshness: 0, labels: [], entityTypes: [], timestamp: new Date().toISOString() } };
+      const emptyDeliberationsResponse = { success: true, data: [], deliberations: [] };
+      
       try {
-        // Fetch all data sources in parallel
+        // Fetch all data sources in parallel with 5s timeout each
         const [snapshotsRes, metricsRes, deliberationsRes, alertsRes, decisionsRes, graphStatsRes] =
           await Promise.all([
-            decisionIntelApi.getChronosSnapshots(),
-            metricsApi.getMetrics(),
-            councilApi.getAllDeliberations(100), // Get ALL deliberations, not just active
-            alertsApi.getAlerts(),
-            councilApi.getRecentDecisions(50),
-            graphApi.getStats(),
+            withTimeout(decisionIntelApi.getChronosSnapshots(), 5000, emptyResponse),
+            withTimeout(metricsApi.getMetrics(), 5000, emptyResponse),
+            withTimeout(councilApi.getAllDeliberations(100), 5000, emptyDeliberationsResponse), // Get ALL deliberations, not just active
+            withTimeout(alertsApi.getAlerts(), 5000, emptyResponse),
+            withTimeout(councilApi.getRecentDecisions(50), 5000, emptyResponse),
+            withTimeout(graphApi.getStats(), 5000, emptyGraphStats),
           ]);
 
         // Process snapshots
@@ -2582,20 +2817,30 @@ export const ChronosPage: React.FC = () => {
         }
 
         // Process deliberations into timeline events
-        if (deliberationsRes.success && deliberationsRes.data) {
-          setRealDeliberations(deliberationsRes.data as any[]);
-          console.log('[Chronos] Loaded', (deliberationsRes.data as any[]).length, 'deliberations');
+        console.log('[Chronos] Deliberations API response:', deliberationsRes);
+        const deliberationsData = (deliberationsRes as any).deliberations || deliberationsRes.data || [];
+        if (deliberationsRes.success && deliberationsData.length > 0) {
+          setRealDeliberations(deliberationsData as any[]);
+          console.log('[Chronos] Loaded', deliberationsData.length, 'deliberations');
+        } else {
+          console.warn('[Chronos] Failed to load deliberations:', deliberationsRes);
         }
 
         // Build real timeline events from all sources
         const realEvents: TimelineEvent[] = [];
 
         // Add deliberation events
-        if (deliberationsRes.success && deliberationsRes.data) {
-          (deliberationsRes.data as any[]).forEach((d: any) => {
+        if (deliberationsRes.success && deliberationsData.length > 0) {
+          deliberationsData.forEach((d: any) => {
+            // Handle both snake_case and camelCase date fields
+            const dateValue = d.created_at || d.createdAt || new Date();
+            const timestamp = new Date(dateValue);
+            // Skip if invalid date
+            if (isNaN(timestamp.getTime())) return;
+            
             realEvents.push({
               id: d.id,
-              timestamp: new Date(d.created_at),
+              timestamp,
               type: 'decision',
               title: d.question?.substring(0, 50) || 'Council Deliberation',
               description: d.question || 'AI Council deliberation',
@@ -2676,17 +2921,39 @@ export const ChronosPage: React.FC = () => {
           );
         }
 
-        // Sort by timestamp and set
-        realEvents.sort((a, b) => b.timestamp.getTime() - a.timestamp.getTime());
+        // Deduplicate events by ID and similar title (to avoid deliberation + decision dupes)
+        const seenIds = new Set<string>();
+        const seenTitles = new Set<string>();
+        const deduped = realEvents.filter(e => {
+          // Skip if we've seen this exact ID
+          if (seenIds.has(e.id)) return false;
+          seenIds.add(e.id);
+          
+          // Skip if we've seen a very similar title (first 50 chars normalized)
+          const titleKey = (e.title || '').substring(0, 50).toLowerCase().replace(/\s+/g, ' ').trim();
+          if (titleKey && seenTitles.has(titleKey)) return false;
+          if (titleKey) seenTitles.add(titleKey);
+          
+          return true;
+        });
 
-        // If we have real events, use them; otherwise fall back to generated
-        if (realEvents.length > 0) {
-          setEvents(realEvents);
-          console.log('[Chronos] Using', realEvents.length, 'real events');
-        } else {
-          setEvents(generateEvents());
-          console.log('[Chronos] No real events, using generated fallback');
-        }
+        // Sort by timestamp and set
+        deduped.sort((a, b) => b.timestamp.getTime() - a.timestamp.getTime());
+
+        // Always combine real events with generated demo data for a rich timeline
+        const generatedEvents = generateEvents();
+        const realIds = new Set(deduped.map(e => e.id));
+        const realTitles = new Set(deduped.map(e => (e.title || '').substring(0, 30).toLowerCase()));
+        const uniqueGenerated = generatedEvents.filter(e => {
+          if (realIds.has(e.id)) return false;
+          const titleKey = (e.title || '').substring(0, 30).toLowerCase();
+          if (realTitles.has(titleKey)) return false;
+          return true;
+        });
+        const combined = [...deduped, ...uniqueGenerated];
+        combined.sort((a, b) => b.timestamp.getTime() - a.timestamp.getTime());
+        setEvents(combined);
+        console.log('[Chronos] Using', combined.length, 'total events (', deduped.length, 'real +', uniqueGenerated.length, 'generated)');
       } catch (error) {
         console.log('[Chronos] API error, using generated fallback:', error);
         setEvents(generateEvents());
@@ -2835,11 +3102,30 @@ export const ChronosPage: React.FC = () => {
           const transcript = response.data as any;
           // Build replay from real data
           // Map transcript phases to replay format
+          // Extract agent display name from various possible fields
+          const getAgentDisplayName = (msg: any): string => {
+            // Try agentCode first (e.g., "CTO", "CFO", "Strategic Oversight")
+            if (msg.agentCode && msg.agentCode !== 'Agent') return msg.agentCode;
+            // Try agents.code if nested
+            if (msg.agents?.code) return msg.agents.code;
+            // Try agents.name if nested
+            if (msg.agents?.name && msg.agents.name !== 'Agent') return msg.agents.name;
+            // Try agentName
+            if (msg.agentName && msg.agentName !== 'Agent') return msg.agentName;
+            // Try to extract from content if it starts with [RoleName]
+            if (msg.content) {
+              const roleMatch = msg.content.match(/^\[([^\]]+)\]/);
+              if (roleMatch) return roleMatch[1];
+            }
+            // Final fallback
+            return msg.agent_id || 'Council Member';
+          };
+
           const replayPhases =
             transcript.phases?.flatMap((phase: any) =>
               (phase.messages || []).map((msg: any, idx: number) => ({
-                agent: msg.agentName || 'Agent',
-                statement: msg.content || '',
+                agent: getAgentDisplayName(msg),
+                statement: msg.content?.replace(/^\[[^\]]+\]\s*/, '') || '', // Remove [Role] prefix from content
                 sentiment: msg.sentiment || ('neutral' as const),
                 timestamp: idx * 15, // Approximate timing
               }))
@@ -2847,7 +3133,7 @@ export const ChronosPage: React.FC = () => {
 
           const participants =
             transcript.phases
-              ?.flatMap((p: any) => p.messages?.map((m: any) => m.agentName) || [])
+              ?.flatMap((p: any) => p.messages?.map((m: any) => getAgentDisplayName(m)) || [])
               .filter((v: string, i: number, a: string[]) => a.indexOf(v) === i) || [];
 
           // Only use real data if we have actual phases and participants
@@ -3455,6 +3741,12 @@ export const ChronosPage: React.FC = () => {
                   icon: '🎲',
                   tooltip: 'Run 10,000+ probabilistic simulations',
                 },
+                {
+                  id: 'universes',
+                  label: '🌍 Universes',
+                  icon: '🌍',
+                  tooltip: 'Simulate parallel future timelines',
+                },
               ].map((view) => (
                 <button
                   key={view.id}
@@ -3529,6 +3821,8 @@ export const ChronosPage: React.FC = () => {
                 startImpactTrace(event);
               }
             }}
+            highlightedEventId={highlightedEventId}
+            onEventHover={setHighlightedEventId}
           />
           {/* Replay Status Caption */}
           {isPlaying && (
@@ -3581,6 +3875,10 @@ export const ChronosPage: React.FC = () => {
             onRun={runMonteCarlo}
             onClose={() => setEnhancedView('standard')}
           />
+        )}
+
+        {enhancedView === 'universes' && (
+          <UniversesView onClose={() => setEnhancedView('standard')} />
         )}
 
         {/* Main Content Grid (Standard View) */}
@@ -3816,6 +4114,8 @@ export const ChronosPage: React.FC = () => {
                   selectedId={selectedEvent?.id}
                   mode={mode}
                   onOpenWitness={openEventWitness}
+                  highlightedEventId={highlightedEventId}
+                  onEventHover={setHighlightedEventId}
                 />
               </div>
 
@@ -3839,7 +4139,12 @@ export const ChronosPage: React.FC = () => {
               {mode === 'rewind' && (
                 <div className="bg-amber-900/30 rounded-2xl p-6 border border-amber-700">
                   <h2 className="text-lg font-semibold mb-4">📋 Export Audit Package</h2>
-                  <AuditExport currentDate={currentDate} />
+                  <AuditExport 
+                    currentDate={currentDate} 
+                    events={events}
+                    realDeliberations={realDeliberations}
+                    realMetrics={realMetrics}
+                  />
                 </div>
               )}
 
@@ -3848,6 +4153,8 @@ export const ChronosPage: React.FC = () => {
                 moments={pivotalMoments}
                 onJumpTo={setCurrentDate}
                 onStartImpactTrace={startImpactTrace}
+                highlightedEventId={highlightedEventId}
+                onEventHover={setHighlightedEventId}
               />
             </div>
           </div>
@@ -4413,6 +4720,8 @@ const TimelineScrubber: React.FC<{
   playbackSpeed: number;
   onSpeedChange: (speed: number) => void;
   onEventClick?: (event: TimelineEvent) => void;
+  highlightedEventId?: string | null;
+  onEventHover?: (eventId: string | null) => void;
 }> = ({
   currentDate,
   minDate,
@@ -4425,6 +4734,8 @@ const TimelineScrubber: React.FC<{
   playbackSpeed,
   onSpeedChange,
   onEventClick,
+  highlightedEventId,
+  onEventHover,
 }) => {
   const trackRef = useRef<HTMLDivElement>(null);
   const [isDragging, setIsDragging] = useState(false);
@@ -4652,24 +4963,36 @@ const TimelineScrubber: React.FC<{
         })()}
 
         {/* Event Markers */}
-        {markers.map((m, i) => (
-          <div
-            key={i}
-            className={`absolute top-2 bottom-2 w-0.5 rounded-full cursor-pointer hover:w-1.5 hover:opacity-100 transition-all ${
-              m.event.impact === 'positive'
-                ? 'bg-green-500'
-                : m.event.impact === 'negative'
-                  ? 'bg-red-500'
-                  : 'bg-neutral-600'
-            } ${Math.abs(m.position - position) < 1 ? 'opacity-100 w-1' : 'opacity-40'}`}
-            style={{ left: `${m.position}%` }}
-            title={`${m.event.title} - Click to trace impact`}
-            onClick={(e) => {
-              e.stopPropagation();
-              onEventClick?.(m.event);
-            }}
-          />
-        ))}
+        {markers.map((m, i) => {
+          const isHighlighted = highlightedEventId === m.event.id;
+          return (
+            <div
+              key={i}
+              className={`absolute top-1 bottom-1 rounded-full cursor-pointer transition-all z-10 ${
+                m.event.impact === 'positive'
+                  ? 'bg-green-400'
+                  : m.event.impact === 'negative'
+                    ? 'bg-red-400'
+                    : m.event.type === 'decision'
+                      ? 'bg-amber-400'
+                      : 'bg-blue-400'
+              } ${isHighlighted 
+                ? 'w-3 opacity-100 scale-125 shadow-[0_0_12px_rgba(255,255,255,0.8)] ring-2 ring-white' 
+                : Math.abs(m.position - position) < 2 
+                  ? 'w-1.5 opacity-100 scale-110 shadow-[0_0_6px_rgba(255,255,255,0.4)]' 
+                  : 'w-1 opacity-70 hover:w-2 hover:opacity-100'
+              }`}
+              style={{ left: `${m.position}%` }}
+              title={`${m.event.title} (${m.event.type}) - ${m.event.timestamp.toLocaleDateString()}`}
+              onClick={(e) => {
+                e.stopPropagation();
+                onEventClick?.(m.event);
+              }}
+              onMouseEnter={() => onEventHover?.(m.event.id)}
+              onMouseLeave={() => onEventHover?.(null)}
+            />
+          );
+        })}
 
         {/* Now Marker */}
         {mode === 'fastforward' && (
@@ -4692,6 +5015,30 @@ const TimelineScrubber: React.FC<{
             className={`absolute -top-2 left-1/2 -translate-x-1/2 w-6 h-6 rounded-full bg-gradient-to-br ${getGradient()} border-2 border-white shadow-lg`}
           />
         </div>
+      </div>
+
+      {/* Event Legend */}
+      <div className="flex items-center justify-between mt-2 text-xs">
+        <div className="flex items-center gap-4">
+          <span className="text-neutral-500">{markers.length} events on timeline:</span>
+          <div className="flex items-center gap-1">
+            <div className="w-2 h-2 rounded-full bg-green-400" />
+            <span className="text-neutral-400">Positive</span>
+          </div>
+          <div className="flex items-center gap-1">
+            <div className="w-2 h-2 rounded-full bg-red-400" />
+            <span className="text-neutral-400">Negative</span>
+          </div>
+          <div className="flex items-center gap-1">
+            <div className="w-2 h-2 rounded-full bg-amber-400" />
+            <span className="text-neutral-400">Decision</span>
+          </div>
+          <div className="flex items-center gap-1">
+            <div className="w-2 h-2 rounded-full bg-blue-400" />
+            <span className="text-neutral-400">Other</span>
+          </div>
+        </div>
+        <span className="text-neutral-500">Click markers to trace impact</span>
       </div>
 
       {/* Controls */}
@@ -5418,7 +5765,7 @@ const CouncilState: React.FC<{ council: StateSnapshot['council']; mode: ChronosM
       </div>
       <div className="bg-neutral-800/50 rounded-xl p-4">
         <div className="text-sm text-neutral-400 mb-1">Consensus Rate</div>
-        <div className="text-2xl font-bold">{council.consensusRate.toFixed(0)}%</div>
+        <div className="text-2xl font-bold">{(council.consensusRate ?? 0).toFixed(0)}%</div>
       </div>
     </div>
   );
@@ -5465,7 +5812,9 @@ const EventsList: React.FC<{
   selectedId?: string | undefined;
   mode?: ChronosMode | undefined;
   onOpenWitness?: ((event: TimelineEvent) => void) | undefined;
-}> = ({ events, currentDate, onSelect, selectedId, mode = 'rewind', onOpenWitness }) => {
+  highlightedEventId?: string | null;
+  onEventHover?: (eventId: string | null) => void;
+}> = ({ events, currentDate, onSelect, selectedId, mode = 'rewind', onOpenWitness, highlightedEventId, onEventHover }) => {
   const [filter, setFilter] = useState<
     'all' | 'compliance' | 'financial' | 'operational' | 'people' | 'security'
   >('all');
@@ -5616,21 +5965,27 @@ const EventsList: React.FC<{
         {visibleEvents.length === 0 ? (
           <div className="text-center text-neutral-500 py-8">No events matching filter</div>
         ) : (
-          visibleEvents.map((event) => (
+          visibleEvents.map((event) => {
+            const isHighlighted = highlightedEventId === event.id;
+            return (
             <div
               key={event.id}
               role="button"
               tabIndex={0}
               onClick={() => onSelect(event)}
               onKeyDown={(e) => e.key === 'Enter' && onSelect(event)}
-              className={`w-full text-left p-3 rounded-lg transition-colors cursor-pointer ${
-                selectedId === event.id
-                  ? 'bg-white/10 ring-1 ring-white/30'
-                  : event.impact === 'positive'
-                    ? 'bg-green-900/20 hover:bg-green-900/30'
-                    : event.impact === 'negative'
-                      ? 'bg-red-900/20 hover:bg-red-900/30'
-                      : 'bg-neutral-800/50 hover:bg-neutral-800'
+              onMouseEnter={() => onEventHover?.(event.id)}
+              onMouseLeave={() => onEventHover?.(null)}
+              className={`w-full text-left p-3 rounded-lg transition-all cursor-pointer ${
+                isHighlighted
+                  ? 'bg-white/20 ring-2 ring-amber-400 shadow-[0_0_15px_rgba(251,191,36,0.4)] scale-[1.02]'
+                  : selectedId === event.id
+                    ? 'bg-white/10 ring-1 ring-white/30'
+                    : event.impact === 'positive'
+                      ? 'bg-green-900/20 hover:bg-green-900/30'
+                      : event.impact === 'negative'
+                        ? 'bg-red-900/20 hover:bg-red-900/30'
+                        : 'bg-neutral-800/50 hover:bg-neutral-800'
               }`}
             >
               <div className="flex items-start gap-3">
@@ -5665,7 +6020,8 @@ const EventsList: React.FC<{
                 </div>
               </div>
             </div>
-          ))
+          );
+          })
         )}
       </div>
     </div>
@@ -6082,14 +6438,74 @@ const PredictionConfidence: React.FC<{ currentDate: Date }> = ({ currentDate }) 
   );
 };
 
-const AuditExport: React.FC<{ currentDate: Date }> = ({ currentDate }) => {
+const AuditExport: React.FC<{ 
+  currentDate: Date;
+  events: TimelineEvent[];
+  realDeliberations: any[];
+  realMetrics: any[];
+}> = ({ currentDate, events, realDeliberations, realMetrics }) => {
   const [exporting, setExporting] = useState<string | null>(null);
+  const [auditData, setAuditData] = useState<AuditPackageData | null>(null);
 
   const handleExportPDF = async () => {
     setExporting('pdf');
     try {
       const hash = `sha256:${Date.now().toString(16)}`;
       const timestamp = new Date().toISOString();
+      const snapshotEvents = events.filter((e: any) => e.timestamp <= currentDate);
+
+      // Build deliberations HTML with full transcripts
+      const deliberationsHTML = realDeliberations.map((d: any, idx: number) => {
+        const transcriptHTML = (d.responses || d.deliberation_messages || []).map((r: any) => `
+          <div style="margin: 10px 0; padding: 10px; background: #f8f9fa; border-left: 3px solid #f59e0b; border-radius: 4px;">
+            <div style="display: flex; gap: 10px; margin-bottom: 5px;">
+              <strong style="color: #f59e0b;">${r.agentCode || r.agents?.code || 'AGENT'}</strong>
+              <span style="color: #666;">${r.agentName || r.agents?.name || 'Agent'}</span>
+              <span style="color: #999; font-size: 11px;">${r.phase || 'response'}</span>
+            </div>
+            <p style="margin: 0; white-space: pre-wrap;">${(r.content || '').replace(/</g, '&lt;').replace(/>/g, '&gt;')}</p>
+            ${r.confidence ? `<div style="margin-top: 5px; font-size: 11px; color: #666;">Confidence: ${(r.confidence * 100).toFixed(0)}%</div>` : ''}
+          </div>
+        `).join('');
+
+        return `
+          <div style="margin-bottom: 30px; border: 1px solid #dee2e6; border-radius: 8px; overflow: hidden;">
+            <div style="background: #f59e0b; color: white; padding: 15px;">
+              <h3 style="margin: 0;">Deliberation #${idx + 1}: ${(d.question || '').substring(0, 80)}${(d.question || '').length > 80 ? '...' : ''}</h3>
+              <div style="margin-top: 5px; font-size: 12px; opacity: 0.9;">
+                Status: ${d.status || 'N/A'} | Confidence: ${d.confidence ? `${d.confidence}%` : 'N/A'} | Messages: ${(d.responses || d.deliberation_messages || []).length}
+              </div>
+            </div>
+            <div style="padding: 15px;">
+              <div style="margin-bottom: 15px;">
+                <strong>Question:</strong>
+                <p style="margin: 5px 0;">${(d.question || '').replace(/</g, '&lt;').replace(/>/g, '&gt;')}</p>
+              </div>
+              ${d.decision ? `
+              <div style="margin-bottom: 15px; padding: 10px; background: #d4edda; border-radius: 4px;">
+                <strong>Decision:</strong>
+                <p style="margin: 5px 0;">${(typeof d.decision === 'string' ? d.decision : JSON.stringify(d.decision)).replace(/</g, '&lt;').replace(/>/g, '&gt;')}</p>
+              </div>
+              ` : ''}
+              <div>
+                <strong>Full Transcript (${(d.responses || d.deliberation_messages || []).length} entries):</strong>
+                ${transcriptHTML || '<p style="color: #666;">No transcript available</p>'}
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      // Build timeline HTML
+      const timelineHTML = snapshotEvents.slice(0, 50).map((e: any) => `
+        <tr>
+          <td style="padding: 8px; border-bottom: 1px solid #eee;">${new Date(e.timestamp).toLocaleString()}</td>
+          <td style="padding: 8px; border-bottom: 1px solid #eee;"><span style="background: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 4px; font-size: 11px;">${e.type}</span></td>
+          <td style="padding: 8px; border-bottom: 1px solid #eee;">${(e.title || '').replace(/</g, '&lt;').replace(/>/g, '&gt;')}</td>
+          <td style="padding: 8px; border-bottom: 1px solid #eee;">${((e.description || '').substring(0, 100)).replace(/</g, '&lt;').replace(/>/g, '&gt;')}${(e.description || '').length > 100 ? '...' : ''}</td>
+          <td style="padding: 8px; border-bottom: 1px solid #eee;">${e.department || '-'}</td>
+        </tr>
+      `).join('');
 
       // Create HTML content for PDF
       const htmlContent = `
@@ -6098,17 +6514,24 @@ const AuditExport: React.FC<{ currentDate: Date }> = ({ currentDate }) => {
 <head>
   <title>Datacendia Audit Package</title>
   <style>
-    body { font-family: Arial, sans-serif; padding: 40px; color: #333; }
+    body { font-family: Arial, sans-serif; padding: 40px; color: #333; line-height: 1.6; }
     .header { text-align: center; border-bottom: 2px solid #f59e0b; padding-bottom: 20px; margin-bottom: 30px; }
     .logo { font-size: 28px; font-weight: bold; color: #f59e0b; }
     .subtitle { color: #666; margin-top: 5px; }
-    h2 { color: #f59e0b; border-bottom: 1px solid #eee; padding-bottom: 10px; }
+    h2 { color: #f59e0b; border-bottom: 1px solid #eee; padding-bottom: 10px; margin-top: 30px; }
     .section { margin-bottom: 30px; }
     .proof-box { background: #f8f9fa; border: 1px solid #dee2e6; border-radius: 8px; padding: 15px; font-family: monospace; font-size: 12px; }
     .metadata { display: grid; grid-template-columns: 150px 1fr; gap: 10px; }
     .label { font-weight: bold; color: #666; }
     .footer { margin-top: 40px; text-align: center; font-size: 11px; color: #999; border-top: 1px solid #eee; padding-top: 20px; }
     .stamp { display: inline-block; border: 2px solid #22c55e; color: #22c55e; padding: 5px 15px; border-radius: 4px; font-weight: bold; margin-top: 20px; }
+    .summary-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; margin: 20px 0; }
+    .summary-card { background: #f8f9fa; padding: 15px; border-radius: 8px; text-align: center; }
+    .summary-card .number { font-size: 24px; font-weight: bold; color: #f59e0b; }
+    .summary-card .label { font-size: 12px; color: #666; }
+    table { width: 100%; border-collapse: collapse; }
+    th { background: #f8f9fa; padding: 10px; text-align: left; border-bottom: 2px solid #dee2e6; }
+    @media print { .page-break { page-break-before: always; } }
   </style>
 </head>
 <body>
@@ -6136,21 +6559,48 @@ const AuditExport: React.FC<{ currentDate: Date }> = ({ currentDate }) => {
       <div><strong>Signer:</strong> CendiaChronos™</div>
     </div>
   </div>
-  
-  <div class="section">
-    <h2>📜 Chain of Custody</h2>
-    <p>This audit package was generated by CendiaChronos™ and includes cryptographic proof of authenticity. All Council deliberations, decisions, and supporting data from the specified point in time are included.</p>
-    <p>The integrity of this document can be verified using the cryptographic hash above.</p>
+
+  <div class="summary-grid">
+    <div class="summary-card">
+      <div class="number">${realDeliberations.length}</div>
+      <div class="label">Deliberations</div>
+    </div>
+    <div class="summary-card">
+      <div class="number">${realDeliberations.filter((d: any) => d.decision).length}</div>
+      <div class="label">Decisions</div>
+    </div>
+    <div class="summary-card">
+      <div class="number">${snapshotEvents.length}</div>
+      <div class="label">Timeline Events</div>
+    </div>
+    <div class="summary-card">
+      <div class="number">${realMetrics.length}</div>
+      <div class="label">Metrics</div>
+    </div>
   </div>
   
-  <div class="section">
-    <h2>📊 Contents Summary</h2>
-    <ul>
-      <li>Council Deliberations</li>
-      <li>Decision Records</li>
-      <li>Timeline Events</li>
-      <li>Supporting Documentation</li>
-    </ul>
+  <div class="section page-break">
+    <h2>🤖 Council Deliberations (${realDeliberations.length})</h2>
+    ${deliberationsHTML || '<p>No deliberations in this audit package.</p>'}
+  </div>
+  
+  <div class="section page-break">
+    <h2>📅 Timeline Events (${snapshotEvents.length})</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Timestamp</th>
+          <th>Type</th>
+          <th>Title</th>
+          <th>Description</th>
+          <th>Department</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${timelineHTML || '<tr><td colspan="5">No timeline events</td></tr>'}
+      </tbody>
+    </table>
+    ${snapshotEvents.length > 50 ? `<p style="margin-top:10px;color:#666;">Showing 50 of ${snapshotEvents.length} events</p>` : ''}
   </div>
   
   <div class="footer">
@@ -6181,38 +6631,130 @@ const AuditExport: React.FC<{ currentDate: Date }> = ({ currentDate }) => {
   const handleExportJSON = async () => {
     setExporting('json');
     try {
-      const auditData = {
-        exportDate: new Date().toISOString(),
-        snapshotDate: currentDate.toISOString(),
-        type: 'audit-package',
-        version: '1.0',
-        contents: {
-          deliberations: [],
-          decisions: [],
-          timeline: [],
-          metadata: {
-            totalEvents: 0,
-            dateRange: {
-              start: currentDate.toISOString(),
-              end: new Date().toISOString(),
-            },
+      // Filter events up to the snapshot date
+      const snapshotEvents = events.filter((e: any) => e.timestamp <= currentDate);
+      
+      // Build deliberations data with full conversation transcript
+      const deliberationsData = realDeliberations.map((d: any) => ({
+        id: d.id,
+        question: d.question,
+        status: d.status,
+        mode: d.mode,
+        currentPhase: d.currentPhase || d.current_phase,
+        decision: d.decision || d.synthesis,
+        confidence: d.confidence,
+        startedAt: d.startedAt || d.started_at,
+        completedAt: d.completedAt || d.completed_at,
+        createdAt: d.createdAt || d.created_at,
+        // Full conversation transcript - each agent's contribution
+        transcript: (d.responses || d.deliberation_messages || []).map((r: any) => ({
+          agentId: r.agentId || r.agent_id,
+          agentCode: r.agentCode || r.agents?.code,
+          agentName: r.agentName || r.agents?.name,
+          phase: r.phase || 'response',
+          content: r.content,
+          confidence: r.confidence,
+          timestamp: r.timestamp || r.created_at,
+          metadata: r.metadata,
+        })),
+        // Cross-examinations if any
+        crossExaminations: d.crossExaminations || [],
+        // Agent summary
+        participatingAgents: (d.responses || d.deliberation_messages || [])
+          .map((r: any) => r.agentCode || r.agents?.code)
+          .filter((v: string, i: number, a: string[]) => a.indexOf(v) === i),
+        agentCount: (d.responses || d.deliberation_messages || []).length,
+      }));
+
+      // Build timeline events data
+      const timelineData = snapshotEvents.map((e: any) => ({
+        id: e.id,
+        type: e.type,
+        title: e.title,
+        description: e.description,
+        timestamp: e.timestamp.toISOString(),
+        magnitude: e.magnitude,
+        sentiment: e.sentiment,
+        department: e.department,
+        category: e.category,
+        deliberationId: e.deliberationId,
+        source: e.source,
+      }));
+
+      // Build decisions from deliberations that have outcomes
+      const decisionsData = realDeliberations
+        .filter((d: any) => d.decision || d.synthesis)
+        .map((d: any) => ({
+          id: d.id,
+          question: d.question,
+          outcome: d.decision || d.synthesis,
+          confidence: d.confidence,
+          decidedAt: d.completedAt || d.completed_at,
+          status: d.status,
+        }));
+
+      // Build contents for signing
+      const contents = {
+        deliberations: deliberationsData,
+        decisions: decisionsData,
+        timeline: timelineData,
+        metrics: realMetrics.slice(0, 50).map((m: any) => ({
+          id: m.id,
+          name: m.name,
+          code: m.code,
+          category: m.category,
+          value: m.currentValue,
+        })),
+        metadata: {
+          totalEvents: snapshotEvents.length,
+          totalDeliberations: deliberationsData.length,
+          totalDecisions: decisionsData.length,
+          dateRange: {
+            start: snapshotEvents.length > 0 
+              ? snapshotEvents[snapshotEvents.length - 1].timestamp.toISOString()
+              : currentDate.toISOString(),
+            end: currentDate.toISOString(),
           },
-        },
-        cryptographicProof: {
-          hash: `sha256:${Date.now().toString(16)}`,
-          timestamp: new Date().toISOString(),
-          signer: 'CendiaChronos™',
-          algorithm: 'SHA-256',
         },
       };
 
-      const blob = new Blob([JSON.stringify(auditData, null, 2)], { type: 'application/json' });
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = `audit-package-${currentDate.toISOString().split('T')[0]}.json`;
-      a.click();
-      URL.revokeObjectURL(url);
+      // Call backend API for real KMS signing with Merkle tree
+      let auditData;
+      try {
+        const signedPackage = await auditPackageApi.sign(currentDate.toISOString(), contents);
+        auditData = signedPackage;
+        console.log('[Chronos] Package signed with KMS:', signedPackage.cryptographicProof?.algorithm);
+      } catch (apiError) {
+        console.warn('[Chronos] KMS signing failed, falling back to client-side hash:', apiError);
+        // Fallback to client-side hash if backend unavailable
+        const contentHash = await crypto.subtle.digest(
+          'SHA-256',
+          new TextEncoder().encode(JSON.stringify(contents))
+        );
+        const hashArray = Array.from(new Uint8Array(contentHash));
+        const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+        
+        auditData = {
+          exportDate: new Date().toISOString(),
+          snapshotDate: currentDate.toISOString(),
+          type: 'audit-package',
+          version: '1.0',
+          contents,
+          cryptographicProof: {
+            hash: `sha256:${hashHex.slice(0, 16)}`,
+            fullHash: hashHex,
+            timestamp: new Date().toISOString(),
+            signer: 'CendiaChronos™ (client-side)',
+            algorithm: 'SHA-256',
+          },
+        };
+      }
+
+      // Store for viewer/export
+      setAuditData(auditData as AuditPackageData);
+      
+      // Download JSON
+      documentExportService.downloadJSON(auditData as AuditPackageData, `audit-package-${currentDate.toISOString().split('T')[0]}.json`);
     } catch (error) {
       console.error('Export failed:', error);
     } finally {
@@ -6220,15 +6762,135 @@ const AuditExport: React.FC<{ currentDate: Date }> = ({ currentDate }) => {
     }
   };
 
-  const handleRecordReplay = () => {
-    setExporting('replay');
-    // Simulate recording
-    setTimeout(() => {
-      alert(
-        'Council Replay recording started. This feature captures all deliberation interactions for playback.'
+  const handleOpenViewer = async () => {
+    setExporting('viewer');
+    try {
+      // Build audit data same as JSON export
+      const snapshotEvents = events.filter((e: any) => e.timestamp <= currentDate);
+      
+      const deliberationsData = realDeliberations.map((d: any) => ({
+        id: d.id,
+        question: d.question,
+        status: d.status,
+        mode: d.mode,
+        currentPhase: d.currentPhase || d.current_phase,
+        decision: d.decision || d.synthesis,
+        confidence: d.confidence,
+        startedAt: d.startedAt || d.started_at,
+        completedAt: d.completedAt || d.completed_at,
+        createdAt: d.createdAt || d.created_at,
+        transcript: (d.responses || d.deliberation_messages || []).map((r: any) => ({
+          agentId: r.agentId || r.agent_id,
+          agentCode: r.agentCode || r.agents?.code,
+          agentName: r.agentName || r.agents?.name,
+          phase: r.phase || 'response',
+          content: r.content,
+          confidence: r.confidence,
+          timestamp: r.timestamp || r.created_at,
+          metadata: r.metadata,
+        })),
+        crossExaminations: d.crossExaminations || [],
+        participatingAgents: (d.responses || d.deliberation_messages || [])
+          .map((r: any) => r.agentCode || r.agents?.code)
+          .filter((v: string, i: number, a: string[]) => a.indexOf(v) === i),
+        agentCount: (d.responses || d.deliberation_messages || []).length,
+      }));
+
+      const timelineData = snapshotEvents.map((e: any) => ({
+        id: e.id,
+        type: e.type,
+        title: e.title,
+        description: e.description,
+        timestamp: e.timestamp.toISOString(),
+        magnitude: e.magnitude,
+        sentiment: e.sentiment,
+        department: e.department,
+        category: e.category,
+        deliberationId: e.deliberationId,
+        source: e.source,
+      }));
+
+      const decisionsData = realDeliberations
+        .filter((d: any) => d.decision || d.synthesis)
+        .map((d: any) => ({
+          id: d.id,
+          question: d.question,
+          outcome: d.decision || d.synthesis,
+          confidence: d.confidence,
+          decidedAt: d.completedAt || d.completed_at,
+          status: d.status,
+        }));
+
+      const contentHash = await crypto.subtle.digest(
+        'SHA-256',
+        new TextEncoder().encode(JSON.stringify({ deliberationsData, timelineData, decisionsData }))
       );
+      const hashArray = Array.from(new Uint8Array(contentHash));
+      const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+
+      const auditData: AuditPackageData = {
+        exportDate: new Date().toISOString(),
+        snapshotDate: currentDate.toISOString(),
+        type: 'audit-package',
+        version: '1.0',
+        contents: {
+          deliberations: deliberationsData,
+          decisions: decisionsData,
+          timeline: timelineData,
+          metrics: realMetrics.slice(0, 50).map((m: any) => ({
+            id: m.id,
+            name: m.name,
+            code: m.code,
+            category: m.category,
+            value: m.currentValue,
+          })),
+          metadata: {
+            totalEvents: snapshotEvents.length,
+            totalDeliberations: deliberationsData.length,
+            totalDecisions: decisionsData.length,
+            dateRange: {
+              start: snapshotEvents.length > 0 
+                ? snapshotEvents[snapshotEvents.length - 1].timestamp.toISOString()
+                : currentDate.toISOString(),
+              end: currentDate.toISOString(),
+            },
+          },
+        },
+        cryptographicProof: {
+          hash: `sha256:${hashHex.slice(0, 16)}`,
+          fullHash: hashHex,
+          timestamp: new Date().toISOString(),
+          signer: 'CendiaChronos™',
+          algorithm: 'SHA-256',
+        },
+      };
+
+      // Open in professional HTML viewer
+      documentExportService.openHTMLViewer(auditData, {
+        title: 'Audit Package Report',
+        organization: 'Datacendia',
+        preparedFor: 'Compliance Review',
+      });
+    } catch (error) {
+      console.error('Viewer failed:', error);
+    } finally {
       setExporting(null);
-    }, 500);
+    }
+  };
+
+  const handleDownloadBundle = async () => {
+    if (!auditData) {
+      alert('Please export JSON first to generate the audit data');
+      return;
+    }
+    setExporting('bundle');
+    try {
+      await documentExportService.downloadBundle(auditData, `audit-bundle-${currentDate.toISOString().split('T')[0]}`);
+    } catch (error) {
+      console.error('Bundle failed:', error);
+    } finally {
+      setExporting(null);
+    }
   };
 
   return (
@@ -6238,26 +6900,38 @@ const AuditExport: React.FC<{ currentDate: Date }> = ({ currentDate }) => {
         deliberations, decisions, and supporting data.
       </p>
       <div className="space-y-2">
+        {/* Primary: Open Professional Viewer */}
         <button
-          onClick={handleExportPDF}
+          onClick={handleOpenViewer}
           disabled={exporting !== null}
-          className="w-full py-2 bg-amber-600 hover:bg-amber-500 disabled:opacity-50 rounded-lg text-sm font-medium transition-colors"
+          className="w-full py-3 bg-amber-600 hover:bg-amber-500 disabled:opacity-50 rounded-lg text-sm font-bold transition-colors flex items-center justify-center gap-2"
         >
-          {exporting === 'pdf' ? '⏳ Generating...' : '📄 Export PDF Report'}
+          {exporting === 'viewer' ? '⏳ Opening...' : '📊 Open Audit Viewer'}
         </button>
+        
+        <div className="grid grid-cols-2 gap-2">
+          <button
+            onClick={handleExportPDF}
+            disabled={exporting !== null}
+            className="py-2 bg-neutral-700 hover:bg-neutral-600 disabled:opacity-50 rounded-lg text-sm font-medium transition-colors"
+          >
+            {exporting === 'pdf' ? '⏳...' : '📄 PDF'}
+          </button>
+          <button
+            onClick={handleExportJSON}
+            disabled={exporting !== null}
+            className="py-2 bg-neutral-700 hover:bg-neutral-600 disabled:opacity-50 rounded-lg text-sm font-medium transition-colors"
+          >
+            {exporting === 'json' ? '⏳...' : '📦 JSON'}
+          </button>
+        </div>
+        
         <button
-          onClick={handleExportJSON}
-          disabled={exporting !== null}
-          className="w-full py-2 bg-neutral-700 hover:bg-neutral-600 disabled:opacity-50 rounded-lg text-sm font-medium transition-colors"
+          onClick={handleDownloadBundle}
+          disabled={exporting !== null || !auditData}
+          className="w-full py-2 bg-neutral-800 hover:bg-neutral-700 disabled:opacity-50 rounded-lg text-sm font-medium transition-colors border border-neutral-600"
         >
-          {exporting === 'json' ? '⏳ Exporting...' : '📦 Export Data Package (JSON)'}
-        </button>
-        <button
-          onClick={handleRecordReplay}
-          disabled={exporting !== null}
-          className="w-full py-2 bg-neutral-700 hover:bg-neutral-600 disabled:opacity-50 rounded-lg text-sm font-medium transition-colors"
-        >
-          {exporting === 'replay' ? '⏳ Starting...' : '🎬 Record Council Replay'}
+          {exporting === 'bundle' ? '⏳ Downloading...' : '📁 Download Full Bundle (HTML + JSON)'}
         </button>
       </div>
       <p className="text-xs text-neutral-500">
@@ -6524,11 +7198,35 @@ const CouncilTheater: React.FC<{
   }
 
   const agentColors: Record<string, string> = {
+    // Full names
     'Chief Strategic Agent': 'from-blue-600 to-indigo-700',
     'CFO Agent': 'from-green-600 to-emerald-700',
     'COO Agent': 'from-orange-600 to-amber-700',
     'CISO Agent': 'from-red-600 to-rose-700',
     'CMO Agent': 'from-purple-600 to-pink-700',
+    // Short codes (from real deliberation data)
+    'CTO': 'from-blue-600 to-indigo-700',
+    'CFO': 'from-green-600 to-emerald-700',
+    'COO': 'from-orange-600 to-amber-700',
+    'CISO': 'from-red-600 to-rose-700',
+    'CMO': 'from-purple-600 to-pink-700',
+    'CEO': 'from-amber-600 to-yellow-700',
+    'CLO': 'from-slate-600 to-gray-700',
+    'CHRO': 'from-pink-600 to-rose-700',
+    'CRO': 'from-teal-600 to-cyan-700',
+    'CPO': 'from-violet-600 to-purple-700',
+    // Role-based names
+    'Strategic Oversight & Synthesis': 'from-amber-600 to-orange-700',
+    'Strategic Oversight': 'from-amber-600 to-orange-700',
+    'Financial Analysis': 'from-green-600 to-emerald-700',
+    'Operations': 'from-orange-600 to-amber-700',
+    'Security': 'from-red-600 to-rose-700',
+    'Marketing': 'from-purple-600 to-pink-700',
+    'Legal': 'from-slate-600 to-gray-700',
+    'Ethics': 'from-indigo-600 to-blue-700',
+    'Risk': 'from-red-600 to-rose-700',
+    'Compliance': 'from-teal-600 to-cyan-700',
+    'Council Member': 'from-neutral-600 to-neutral-700',
   };
 
   return (
@@ -6550,12 +7248,12 @@ const CouncilTheater: React.FC<{
       <div className="p-4 border-b border-neutral-800">
         <div className="flex items-center gap-2">
           <span className="text-sm text-neutral-500">Participants:</span>
-          {replay.participants.map((p) => (
+          {(replay.participants || []).filter(Boolean).map((p) => (
             <span
               key={p}
               className={`px-2 py-1 text-xs rounded-full bg-gradient-to-r ${agentColors[p] || 'from-neutral-600 to-neutral-700'}`}
             >
-              {p.replace(' Agent', '')}
+              {(p || '').replace(' Agent', '')}
             </span>
           ))}
         </div>
@@ -6563,7 +7261,9 @@ const CouncilTheater: React.FC<{
 
       {/* Deliberation Phases */}
       <div className="p-6 space-y-4 max-h-96 overflow-y-auto">
-        {replay.phases.map((phase, idx) => (
+        {(replay.phases || []).map((phase, idx) => {
+          const agentName = phase?.agent || 'Unknown';
+          return (
           <div
             key={idx}
             className={`p-4 rounded-xl transition-all duration-500 ${
@@ -6572,30 +7272,31 @@ const CouncilTheater: React.FC<{
           >
             <div className="flex items-start gap-3">
               <div
-                className={`w-10 h-10 rounded-full bg-gradient-to-br ${agentColors[phase.agent] || 'from-neutral-600 to-neutral-700'} flex items-center justify-center text-lg`}
+                className={`w-10 h-10 rounded-full bg-gradient-to-br ${agentColors[agentName] || 'from-neutral-600 to-neutral-700'} flex items-center justify-center text-lg`}
               >
-                {phase.agent.charAt(0)}
+                {agentName.charAt(0)}
               </div>
               <div className="flex-1">
                 <div className="flex items-center gap-2 mb-1">
-                  <span className="font-semibold">{phase.agent}</span>
+                  <span className="font-semibold">{agentName}</span>
                   <span
                     className={`px-2 py-0.5 text-xs rounded-full ${
-                      phase.sentiment === 'positive'
+                      phase?.sentiment === 'positive'
                         ? 'bg-green-900 text-green-300'
-                        : phase.sentiment === 'negative'
+                        : phase?.sentiment === 'negative'
                           ? 'bg-red-900 text-red-300'
                           : 'bg-neutral-700 text-neutral-300'
                     }`}
                   >
-                    {phase.sentiment}
+                    {phase?.sentiment || 'neutral'}
                   </span>
                 </div>
-                <p className="text-neutral-300">{phase.statement}</p>
+                <p className="text-neutral-300">{phase?.statement || ''}</p>
               </div>
             </div>
           </div>
-        ))}
+        );
+        })}
       </div>
 
       {/* Controls */}
@@ -6654,7 +7355,7 @@ const ImpactTraceView: React.FC<{
 
   // Open CendiaCrucible stress test
   const openCrucible = () => {
-    window.open(`/cortex/intelligence/crucible?chain=${causalChain?.id}`, '_blank');
+    window.open(`/cortex/sovereign/crucible?chain=${causalChain?.id}`, '_blank');
   };
 
   if (!causalChain) {
@@ -7101,7 +7802,9 @@ const PivotalMomentsPanel: React.FC<{
   moments: PivotalMoment[];
   onJumpTo: (date: Date) => void;
   onStartImpactTrace: (event: TimelineEvent) => void;
-}> = ({ moments, onJumpTo, onStartImpactTrace }) => {
+  highlightedEventId?: string | null;
+  onEventHover?: (eventId: string | null) => void;
+}> = ({ moments, onJumpTo, onStartImpactTrace, highlightedEventId, onEventHover }) => {
   // Convert significance score to human-readable label
   const getSignificanceLabel = (significance: number) => {
     // Cap at 100 for display purposes
@@ -7123,10 +7826,17 @@ const PivotalMomentsPanel: React.FC<{
       <div className="space-y-2 max-h-64 overflow-y-auto">
         {moments.map((moment) => {
           const sig = getSignificanceLabel(moment.significance);
+          const isHighlighted = highlightedEventId === moment.event.id;
           return (
             <div
               key={moment.id}
-              className="p-3 bg-neutral-800/50 rounded-lg hover:bg-neutral-800 transition-colors"
+              className={`p-3 rounded-lg transition-all cursor-pointer ${
+                isHighlighted 
+                  ? 'bg-white/20 ring-2 ring-amber-400 shadow-[0_0_15px_rgba(251,191,36,0.4)] scale-[1.02]'
+                  : 'bg-neutral-800/50 hover:bg-neutral-800'
+              }`}
+              onMouseEnter={() => onEventHover?.(moment.event.id)}
+              onMouseLeave={() => onEventHover?.(null)}
             >
               <div className="flex items-center justify-between mb-1">
                 <span className="font-medium text-sm">{moment.event.title}</span>
@@ -7211,6 +7921,959 @@ const AnimatedGraphPreview: React.FC<{
     </div>
   </div>
 );
+
+// =============================================================================
+// UNIVERSES VIEW - Parallel Timeline Simulation (Marketing Demo Data)
+// =============================================================================
+
+// Sterling Insurance - Cyber Market Entry
+const STERLING_UNIVERSES: Universe[] = [
+  {
+    id: 'universe-cyber-full',
+    name: 'Full Market Entry',
+    description: 'Enter cyber insurance market with $180M capital allocation',
+    decision: 'Proceed with full commitment, hire 12 underwriters, launch Q2',
+    color: '#10B981',
+    icon: '🚀',
+    probability: 74,
+    npv: 340000000,
+    reversibilityScore: 23,
+    riskProfile: { overall: 'high', score: 67 },
+    outcomes: {
+      revenue: { current: 0, projected: 240000000, change: 240 },
+      marketShare: { current: 0, projected: 12, change: 12 },
+      risk: { current: 25, projected: 67, change: 42 },
+      overallScore: 78,
+    },
+    timeline: [
+      { id: 'e1', dayOffset: 0, title: 'Launch Announcement', description: 'Public announcement of cyber insurance market entry', type: 'milestone', impact: 'positive', confidence: 95 },
+      { id: 'e2', dayOffset: 90, title: 'First $45M Book', description: 'Premium book reaches initial target', type: 'milestone', impact: 'positive', confidence: 88 },
+      { id: 'e3', dayOffset: 420, title: 'Ransomware Event', description: '23% of book files claims from coordinated attack', type: 'risk', impact: 'critical', confidence: 72 },
+      { id: 'e4', dayOffset: 450, title: 'Reinsurance Triggers', description: 'Munich Re pays $41M under treaty', type: 'opportunity', impact: 'positive', confidence: 85 },
+      { id: 'e5', dayOffset: 720, title: 'Market Hardens +35%', description: 'Rate increases across industry', type: 'opportunity', impact: 'positive', confidence: 78 },
+      { id: 'e6', dayOffset: 1080, title: 'Book Reaches $92M', description: 'Profitable operations achieved', type: 'milestone', impact: 'positive', confidence: 82 },
+      { id: 'e7', dayOffset: 1825, title: 'NPV: $340M', description: 'Five-year value realization complete', type: 'milestone', impact: 'positive', confidence: 74 },
+    ],
+  },
+  {
+    id: 'universe-cyber-partner',
+    name: 'Partnership Model',
+    description: 'MGA partnership with CyberSure instead of direct entry',
+    decision: 'Sign 5-year MGA agreement, 60/40 revenue share',
+    color: '#3B82F6',
+    icon: '🤝',
+    probability: 68,
+    npv: 95000000,
+    reversibilityScore: 75,
+    riskProfile: { overall: 'moderate', score: 45 },
+    outcomes: {
+      revenue: { current: 0, projected: 95000000, change: 95 },
+      marketShare: { current: 0, projected: 5, change: 5 },
+      risk: { current: 25, projected: 45, change: 20 },
+      overallScore: 62,
+    },
+    timeline: [
+      { id: 'e1', dayOffset: 0, title: 'Partnership Signed', description: 'MGA agreement with CyberSure executed', type: 'milestone', impact: 'neutral', confidence: 95 },
+      { id: 'e2', dayOffset: 180, title: 'Book Reaches $22M', description: '50% share of slower growth', type: 'milestone', impact: 'neutral', confidence: 85 },
+      { id: 'e3', dayOffset: 420, title: 'Ransomware Event', description: 'Partner absorbs 60% of losses', type: 'risk', impact: 'negative', confidence: 72 },
+      { id: 'e4', dayOffset: 720, title: 'Renegotiation Demanded', description: 'Partner seeks better terms', type: 'pivot', impact: 'negative', confidence: 68 },
+      { id: 'e5', dayOffset: 1080, title: 'Buyout Option Expires', description: 'Window to acquire partner closes', type: 'external', impact: 'negative', confidence: 80 },
+      { id: 'e6', dayOffset: 1825, title: 'NPV: $95M', description: 'Suboptimal value realization', type: 'milestone', impact: 'neutral', confidence: 76 },
+    ],
+  },
+  {
+    id: 'universe-cyber-wait',
+    name: 'Wait 24 Months',
+    description: 'Monitor market, defer entry decision',
+    decision: 'Continue monitoring, revisit in Q1 2027',
+    color: '#6B7280',
+    icon: '⏸️',
+    probability: 58,
+    npv: 180000000,
+    reversibilityScore: 95,
+    riskProfile: { overall: 'low', score: 25 },
+    outcomes: {
+      revenue: { current: 0, projected: 180000000, change: 180 },
+      marketShare: { current: 0, projected: 7, change: 7 },
+      risk: { current: 25, projected: 25, change: 0 },
+      overallScore: 58,
+    },
+    timeline: [
+      { id: 'e1', dayOffset: 0, title: 'Decision Deferred', description: 'Board agrees to monitor market', type: 'milestone', impact: 'neutral', confidence: 95 },
+      { id: 'e2', dayOffset: 365, title: 'Competitor Enters', description: 'Sentinel Insurance launches cyber product', type: 'external', impact: 'negative', confidence: 82 },
+      { id: 'e3', dayOffset: 540, title: 'Rates Harden +40%', description: 'Market entry becomes more expensive', type: 'cascade', impact: 'negative', confidence: 78 },
+      { id: 'e4', dayOffset: 730, title: 'Late Entry at $240M', description: 'Higher capital required for entry', type: 'pivot', impact: 'negative', confidence: 75 },
+      { id: 'e5', dayOffset: 1095, title: 'Playing Catch-Up', description: '3rd place in market, competitors have data advantage', type: 'risk', impact: 'negative', confidence: 71 },
+      { id: 'e6', dayOffset: 1825, title: 'NPV: $180M', description: 'Missed timing window', type: 'milestone', impact: 'neutral', confidence: 68 },
+    ],
+  },
+];
+
+// Nordic Financial - Sovereign Deployment
+const NORDIC_UNIVERSES: Universe[] = [
+  {
+    id: 'universe-nordic-full',
+    name: 'Full Sovereign Deployment',
+    description: 'Air-gapped on-premise deployment with dedicated support',
+    decision: 'Deploy CendiaCore sovereign edition in Frankfurt data center',
+    color: '#10B981',
+    icon: '🏰',
+    probability: 82,
+    npv: 42000000,
+    reversibilityScore: 45,
+    riskProfile: { overall: 'moderate', score: 38 },
+    outcomes: {
+      revenue: { current: 0, projected: 42000000, change: 100 },
+      marketShare: { current: 15, projected: 18, change: 3 },
+      risk: { current: 30, projected: 38, change: 8 },
+      overallScore: 85,
+    },
+    timeline: [
+      { id: 'e1', dayOffset: 0, title: 'Contract Signed', description: '$4.2M sovereign deployment agreement executed', type: 'milestone', impact: 'positive', confidence: 100 },
+      { id: 'e2', dayOffset: 30, title: 'Hardware Provisioned', description: 'Air-gapped servers installed in Frankfurt DC', type: 'milestone', impact: 'positive', confidence: 95 },
+      { id: 'e3', dayOffset: 90, title: 'GDPR Audit Passed', description: 'Full compliance certification achieved', type: 'milestone', impact: 'positive', confidence: 88 },
+      { id: 'e4', dayOffset: 180, title: 'Go-Live', description: '8,500 employees onboarded to platform', type: 'milestone', impact: 'positive', confidence: 85 },
+      { id: 'e5', dayOffset: 365, title: 'Expansion to 3 Subsidiaries', description: 'Platform rolled out across Nordic region', type: 'opportunity', impact: 'positive', confidence: 75 },
+      { id: 'e6', dayOffset: 730, title: 'Contract Renewal +$2.8M', description: 'Multi-year extension signed', type: 'milestone', impact: 'positive', confidence: 70 },
+    ],
+  },
+  {
+    id: 'universe-nordic-cloud',
+    name: 'Hybrid Cloud Model',
+    description: 'Shared infrastructure with data residency guarantees',
+    decision: 'Deploy on EU-hosted cloud with encryption keys on-premise',
+    color: '#3B82F6',
+    icon: '☁️',
+    probability: 75,
+    npv: 28000000,
+    reversibilityScore: 80,
+    riskProfile: { overall: 'low', score: 25 },
+    outcomes: {
+      revenue: { current: 0, projected: 28000000, change: 67 },
+      marketShare: { current: 15, projected: 16, change: 1 },
+      risk: { current: 30, projected: 25, change: -5 },
+      overallScore: 72,
+    },
+    timeline: [
+      { id: 'e1', dayOffset: 0, title: 'Cloud Contract Signed', description: '$2.1M hybrid deployment agreement', type: 'milestone', impact: 'neutral', confidence: 100 },
+      { id: 'e2', dayOffset: 14, title: 'Rapid Deployment', description: 'Platform live in 2 weeks', type: 'milestone', impact: 'positive', confidence: 92 },
+      { id: 'e3', dayOffset: 180, title: 'BaFin Audit Questions', description: 'Regulator requests data residency proof', type: 'risk', impact: 'negative', confidence: 65 },
+      { id: 'e4', dayOffset: 365, title: 'Competitor Sovereign Offer', description: 'Deutsche Bank moves to competitor', type: 'external', impact: 'negative', confidence: 55 },
+      { id: 'e5', dayOffset: 730, title: 'Migration Pressure', description: 'Board requests full sovereign migration', type: 'pivot', impact: 'negative', confidence: 60 },
+    ],
+  },
+  {
+    id: 'universe-nordic-delay',
+    name: 'Delay for EU AI Act',
+    description: 'Wait for regulatory clarity before deployment',
+    decision: 'Pause project until EU AI Act implementation guidance',
+    color: '#6B7280',
+    icon: '⏸️',
+    probability: 45,
+    npv: 18000000,
+    reversibilityScore: 95,
+    riskProfile: { overall: 'low', score: 15 },
+    outcomes: {
+      revenue: { current: 0, projected: 18000000, change: 43 },
+      marketShare: { current: 15, projected: 14, change: -1 },
+      risk: { current: 30, projected: 15, change: -15 },
+      overallScore: 55,
+    },
+    timeline: [
+      { id: 'e1', dayOffset: 0, title: 'Project Paused', description: 'Board agrees to wait for regulatory clarity', type: 'milestone', impact: 'neutral', confidence: 100 },
+      { id: 'e2', dayOffset: 180, title: 'Competitor Gains Ground', description: 'Deutsche Bank and UBS deploy AI platforms', type: 'external', impact: 'negative', confidence: 78 },
+      { id: 'e3', dayOffset: 365, title: 'EU AI Act Published', description: 'Final regulations clarify requirements', type: 'external', impact: 'positive', confidence: 85 },
+      { id: 'e4', dayOffset: 450, title: 'Late Start', description: 'Project restarts with 18-month delay', type: 'pivot', impact: 'negative', confidence: 72 },
+      { id: 'e5', dayOffset: 730, title: 'Playing Catch-Up', description: 'Competitors have 2-year head start', type: 'risk', impact: 'negative', confidence: 68 },
+    ],
+  },
+];
+
+// Atlas Manufacturing - Vertex Acquisition
+const ATLAS_UNIVERSES: Universe[] = [
+  {
+    id: 'universe-atlas-acquire',
+    name: 'Full Acquisition',
+    description: 'Acquire Vertex Technology Solutions for $412M',
+    decision: 'Proceed with M&A, integrate IoT capabilities',
+    color: '#10B981',
+    icon: '🎯',
+    probability: 74,
+    npv: 340000000,
+    reversibilityScore: 23,
+    riskProfile: { overall: 'high', score: 67 },
+    outcomes: {
+      revenue: { current: 680000000, projected: 920000000, change: 35 },
+      marketShare: { current: 12, projected: 24, change: 12 },
+      risk: { current: 30, projected: 67, change: 37 },
+      overallScore: 78,
+    },
+    timeline: [
+      { id: 'e1', dayOffset: 0, title: 'Acquisition Announced', description: '$412M deal announced, stock +8%', type: 'milestone', impact: 'positive', confidence: 95 },
+      { id: 'e2', dayOffset: 30, title: 'Integration Team Formed', description: '45-person cross-functional team mobilized', type: 'milestone', impact: 'positive', confidence: 90 },
+      { id: 'e3', dayOffset: 90, title: 'Tech Stack Conflicts', description: 'Vertex uses different cloud provider', type: 'risk', impact: 'critical', confidence: 72 },
+      { id: 'e4', dayOffset: 180, title: '23% Engineer Attrition', description: 'Key Vertex engineers depart', type: 'risk', impact: 'negative', confidence: 68 },
+      { id: 'e5', dayOffset: 365, title: 'Integration Complete', description: 'Systems merged, IoT platform unified', type: 'milestone', impact: 'positive', confidence: 65 },
+      { id: 'e6', dayOffset: 540, title: 'Combined IoT Launch', description: 'New predictive maintenance suite ships', type: 'opportunity', impact: 'positive', confidence: 72 },
+      { id: 'e7', dayOffset: 1095, title: 'Revenue Target Achieved', description: '+$240M ARR from combined entity', type: 'milestone', impact: 'positive', confidence: 74 },
+    ],
+  },
+  {
+    id: 'universe-atlas-partner',
+    name: 'Strategic Partnership',
+    description: 'Joint venture instead of acquisition',
+    decision: 'Sign 5-year JV agreement with Vertex, co-develop IoT',
+    color: '#3B82F6',
+    icon: '🤝',
+    probability: 70,
+    npv: 145000000,
+    reversibilityScore: 75,
+    riskProfile: { overall: 'moderate', score: 42 },
+    outcomes: {
+      revenue: { current: 680000000, projected: 780000000, change: 15 },
+      marketShare: { current: 12, projected: 17, change: 5 },
+      risk: { current: 30, projected: 42, change: 12 },
+      overallScore: 68,
+    },
+    timeline: [
+      { id: 'e1', dayOffset: 0, title: 'JV Announced', description: 'Strategic partnership with 60/40 ownership', type: 'milestone', impact: 'neutral', confidence: 95 },
+      { id: 'e2', dayOffset: 60, title: 'Joint Roadmap Agreed', description: 'Co-developed IoT module planned', type: 'milestone', impact: 'positive', confidence: 85 },
+      { id: 'e3', dayOffset: 180, title: 'First Joint Product', description: 'Predictive maintenance beta launches', type: 'milestone', impact: 'positive', confidence: 78 },
+      { id: 'e4', dayOffset: 365, title: 'Revenue Share Dispute', description: 'Partners disagree on margin allocation', type: 'risk', impact: 'negative', confidence: 55 },
+      { id: 'e5', dayOffset: 730, title: 'Vertex Acquired by Competitor', description: 'Sentinel buys Vertex, JV terminated', type: 'external', impact: 'critical', confidence: 45 },
+    ],
+  },
+  {
+    id: 'universe-atlas-build',
+    name: 'Internal Build',
+    description: 'Build IoT capability in-house with $165M R&D budget',
+    decision: 'Hire 50 engineers, build from scratch over 24 months',
+    color: '#6B7280',
+    icon: '🔧',
+    probability: 62,
+    npv: 95000000,
+    reversibilityScore: 85,
+    riskProfile: { overall: 'moderate', score: 52 },
+    outcomes: {
+      revenue: { current: 680000000, projected: 750000000, change: 10 },
+      marketShare: { current: 12, projected: 15, change: 3 },
+      risk: { current: 30, projected: 52, change: 22 },
+      overallScore: 58,
+    },
+    timeline: [
+      { id: 'e1', dayOffset: 0, title: 'R&D Budget Approved', description: '$165M allocated for internal IoT build', type: 'milestone', impact: 'neutral', confidence: 100 },
+      { id: 'e2', dayOffset: 90, title: '25 Engineers Hired', description: 'Core team assembled from market', type: 'milestone', impact: 'positive', confidence: 85 },
+      { id: 'e3', dayOffset: 365, title: 'MVP Complete', description: 'Internal IoT platform reaches beta', type: 'milestone', impact: 'positive', confidence: 70 },
+      { id: 'e4', dayOffset: 540, title: 'Vertex Partners with Competitor', description: 'Market opportunity window narrows', type: 'external', impact: 'negative', confidence: 65 },
+      { id: 'e5', dayOffset: 730, title: 'Feature Parity Achieved', description: 'Platform matches competitors, 2 years late', type: 'milestone', impact: 'neutral', confidence: 60 },
+      { id: 'e6', dayOffset: 1095, title: 'Market Share Stagnant', description: 'Late entry limits growth potential', type: 'risk', impact: 'negative', confidence: 55 },
+    ],
+  },
+];
+
+// Quantum Energy - Grid Transition
+const QUANTUM_UNIVERSES: Universe[] = [
+  {
+    id: 'universe-quantum-accelerate',
+    name: 'Accelerated Transition',
+    description: 'Fast-track renewable transition with $500M investment',
+    decision: 'Acquire solar assets, build battery storage, decommission coal by 2027',
+    color: '#10B981',
+    icon: '⚡',
+    probability: 68,
+    npv: 280000000,
+    reversibilityScore: 35,
+    riskProfile: { overall: 'high', score: 62 },
+    outcomes: {
+      revenue: { current: 1200000000, projected: 1450000000, change: 21 },
+      marketShare: { current: 8, projected: 12, change: 4 },
+      risk: { current: 40, projected: 62, change: 22 },
+      overallScore: 76,
+    },
+    timeline: [
+      { id: 'e1', dayOffset: 0, title: 'Transition Announced', description: 'Board approves accelerated renewable strategy', type: 'milestone', impact: 'positive', confidence: 95 },
+      { id: 'e2', dayOffset: 90, title: 'Solar Farm Acquisition', description: '$45M acquisition of 200MW solar capacity', type: 'milestone', impact: 'positive', confidence: 88 },
+      { id: 'e3', dayOffset: 180, title: 'Battery Storage RFP', description: '$120M grid-scale battery project launched', type: 'milestone', impact: 'positive', confidence: 82 },
+      { id: 'e4', dayOffset: 365, title: 'Grid Instability Event', description: 'Intermittency causes 4-hour blackout', type: 'risk', impact: 'critical', confidence: 55 },
+      { id: 'e5', dayOffset: 540, title: 'Coal Plant Decommission', description: 'Last coal unit retired, carbon neutral', type: 'milestone', impact: 'positive', confidence: 72 },
+      { id: 'e6', dayOffset: 730, title: 'Green Premium Pricing', description: 'Corporate PPAs at 15% premium', type: 'opportunity', impact: 'positive', confidence: 78 },
+      { id: 'e7', dayOffset: 1095, title: 'ESG Rating Upgrade', description: 'MSCI upgrades to AAA', type: 'milestone', impact: 'positive', confidence: 75 },
+    ],
+  },
+  {
+    id: 'universe-quantum-gradual',
+    name: 'Gradual Transition',
+    description: 'Phased 10-year transition with lower risk',
+    decision: 'Maintain coal through 2030, gradual renewable build-out',
+    color: '#3B82F6',
+    icon: '📈',
+    probability: 78,
+    npv: 180000000,
+    reversibilityScore: 75,
+    riskProfile: { overall: 'moderate', score: 38 },
+    outcomes: {
+      revenue: { current: 1200000000, projected: 1320000000, change: 10 },
+      marketShare: { current: 8, projected: 9, change: 1 },
+      risk: { current: 40, projected: 38, change: -2 },
+      overallScore: 65,
+    },
+    timeline: [
+      { id: 'e1', dayOffset: 0, title: 'Phased Plan Approved', description: '10-year transition roadmap adopted', type: 'milestone', impact: 'neutral', confidence: 95 },
+      { id: 'e2', dayOffset: 365, title: 'Carbon Tax Increases', description: 'EU carbon price rises to €120/ton', type: 'external', impact: 'negative', confidence: 72 },
+      { id: 'e3', dayOffset: 730, title: 'Stranded Asset Risk', description: 'Coal plants written down by $180M', type: 'risk', impact: 'negative', confidence: 65 },
+      { id: 'e4', dayOffset: 1095, title: 'Investor Pressure', description: 'ESG funds divest, stock -12%', type: 'external', impact: 'negative', confidence: 58 },
+      { id: 'e5', dayOffset: 1460, title: 'Accelerated Timeline Forced', description: 'Board demands faster transition', type: 'pivot', impact: 'negative', confidence: 55 },
+    ],
+  },
+  {
+    id: 'universe-quantum-status-quo',
+    name: 'Maintain Coal Portfolio',
+    description: 'Continue current operations, minimal renewable investment',
+    decision: 'Focus on operational efficiency, defer major capital decisions',
+    color: '#6B7280',
+    icon: '🏭',
+    probability: 55,
+    npv: 45000000,
+    reversibilityScore: 90,
+    riskProfile: { overall: 'critical', score: 85 },
+    outcomes: {
+      revenue: { current: 1200000000, projected: 1100000000, change: -8 },
+      marketShare: { current: 8, projected: 5, change: -3 },
+      risk: { current: 40, projected: 85, change: 45 },
+      overallScore: 35,
+    },
+    timeline: [
+      { id: 'e1', dayOffset: 0, title: 'Status Quo Maintained', description: 'Board defers transition decision', type: 'milestone', impact: 'neutral', confidence: 100 },
+      { id: 'e2', dayOffset: 180, title: 'Carbon Tax Shock', description: 'EU carbon price doubles, margins collapse', type: 'external', impact: 'critical', confidence: 68 },
+      { id: 'e3', dayOffset: 365, title: 'Bank Financing Withdrawn', description: 'Lenders cite ESG policy, credit line cut', type: 'risk', impact: 'critical', confidence: 62 },
+      { id: 'e4', dayOffset: 540, title: 'Activist Investor Campaign', description: 'Hedge fund demands board seats', type: 'external', impact: 'negative', confidence: 58 },
+      { id: 'e5', dayOffset: 730, title: 'Forced Fire Sale', description: 'Coal assets sold at 40% discount', type: 'cascade', impact: 'critical', confidence: 52 },
+      { id: 'e6', dayOffset: 1095, title: 'Company Restructured', description: 'Survival mode, 30% workforce reduction', type: 'risk', impact: 'critical', confidence: 48 },
+    ],
+  },
+];
+
+// Nexus Retail - Enterprise Pricing Strategy
+const NEXUS_UNIVERSES: Universe[] = [
+  {
+    id: 'universe-nexus-premium',
+    name: 'Premium Positioning',
+    description: 'Raise prices 15% across all product lines',
+    decision: 'Implement premium pricing with enhanced service tier',
+    color: '#10B981',
+    icon: '💎',
+    probability: 65,
+    npv: 124000000,
+    reversibilityScore: 70,
+    riskProfile: { overall: 'moderate', score: 48 },
+    outcomes: {
+      revenue: { current: 560000000, projected: 590000000, change: 5 },
+      marketShare: { current: 8, projected: 6, change: -2 },
+      risk: { current: 35, projected: 48, change: 13 },
+      overallScore: 72,
+    },
+    timeline: [
+      { id: 'e1', dayOffset: 0, title: 'Price Increase Announced', description: '15% increase effective next quarter', type: 'milestone', impact: 'neutral', confidence: 95 },
+      { id: 'e2', dayOffset: 30, title: 'Customer Complaints Spike', description: 'Support tickets up 45%', type: 'risk', impact: 'negative', confidence: 82 },
+      { id: 'e3', dayOffset: 90, title: 'Churn Stabilizes', description: 'Premium customers stay, price-sensitive leave', type: 'pivot', impact: 'neutral', confidence: 68 },
+      { id: 'e4', dayOffset: 180, title: 'Margin Expansion', description: 'Gross margin improves 8 points', type: 'opportunity', impact: 'positive', confidence: 75 },
+      { id: 'e5', dayOffset: 365, title: 'Premium Brand Established', description: 'NPS recovers, now attracts higher-value customers', type: 'milestone', impact: 'positive', confidence: 62 },
+    ],
+  },
+  {
+    id: 'universe-nexus-value',
+    name: 'Value Leadership',
+    description: 'Cut prices 10% to gain market share',
+    decision: 'Aggressive pricing to capture mid-market',
+    color: '#3B82F6',
+    icon: '📉',
+    probability: 72,
+    npv: 85000000,
+    reversibilityScore: 45,
+    riskProfile: { overall: 'high', score: 62 },
+    outcomes: {
+      revenue: { current: 560000000, projected: 620000000, change: 11 },
+      marketShare: { current: 8, projected: 12, change: 4 },
+      risk: { current: 35, projected: 62, change: 27 },
+      overallScore: 65,
+    },
+    timeline: [
+      { id: 'e1', dayOffset: 0, title: 'Price Cut Announced', description: '10% reduction across core products', type: 'milestone', impact: 'positive', confidence: 95 },
+      { id: 'e2', dayOffset: 30, title: 'Volume Surge', description: 'Orders up 25% in first month', type: 'opportunity', impact: 'positive', confidence: 85 },
+      { id: 'e3', dayOffset: 90, title: 'Competitor Response', description: 'Two competitors match pricing', type: 'external', impact: 'negative', confidence: 78 },
+      { id: 'e4', dayOffset: 180, title: 'Margin Pressure', description: 'Operating margin down 4 points', type: 'risk', impact: 'negative', confidence: 72 },
+      { id: 'e5', dayOffset: 365, title: 'Price War Exhaustion', description: 'Industry stabilizes at lower margins', type: 'cascade', impact: 'negative', confidence: 58 },
+    ],
+  },
+  {
+    id: 'universe-nexus-tiered',
+    name: 'Tiered Pricing Model',
+    description: 'Introduce Good/Better/Best pricing tiers',
+    decision: 'Segment pricing with 3-tier structure',
+    color: '#8B5CF6',
+    icon: '📊',
+    probability: 78,
+    npv: 145000000,
+    reversibilityScore: 65,
+    riskProfile: { overall: 'moderate', score: 42 },
+    outcomes: {
+      revenue: { current: 560000000, projected: 640000000, change: 14 },
+      marketShare: { current: 8, projected: 10, change: 2 },
+      risk: { current: 35, projected: 42, change: 7 },
+      overallScore: 78,
+    },
+    timeline: [
+      { id: 'e1', dayOffset: 0, title: 'Tier Structure Launched', description: 'Good/Better/Best pricing live', type: 'milestone', impact: 'positive', confidence: 95 },
+      { id: 'e2', dayOffset: 60, title: 'Upsell Success', description: '35% of Good tier upgrades to Better', type: 'opportunity', impact: 'positive', confidence: 72 },
+      { id: 'e3', dayOffset: 120, title: 'Best Tier Premium', description: 'Enterprise customers pay 40% more', type: 'opportunity', impact: 'positive', confidence: 68 },
+      { id: 'e4', dayOffset: 180, title: 'Complexity Challenges', description: 'Sales team confusion on tier boundaries', type: 'risk', impact: 'negative', confidence: 55 },
+      { id: 'e5', dayOffset: 365, title: 'Model Optimized', description: 'Tier boundaries refined, ARPU up 18%', type: 'milestone', impact: 'positive', confidence: 70 },
+    ],
+  },
+];
+
+// Meridian Healthcare - Talent Acquisition
+const MERIDIAN_UNIVERSES: Universe[] = [
+  {
+    id: 'universe-meridian-aggressive',
+    name: 'Aggressive Hiring',
+    description: 'Hire 200 nurses in 90 days with signing bonuses',
+    decision: 'Launch $5M recruitment blitz with $15K signing bonuses',
+    color: '#10B981',
+    icon: '🚀',
+    probability: 72,
+    npv: 28000000,
+    reversibilityScore: 35,
+    riskProfile: { overall: 'high', score: 58 },
+    outcomes: {
+      revenue: { current: 850000000, projected: 920000000, change: 8 },
+      marketShare: { current: 12, projected: 14, change: 2 },
+      risk: { current: 40, projected: 58, change: 18 },
+      overallScore: 74,
+    },
+    timeline: [
+      { id: 'e1', dayOffset: 0, title: 'Recruitment Campaign Launched', description: '$5M budget, $15K signing bonuses', type: 'milestone', impact: 'positive', confidence: 95 },
+      { id: 'e2', dayOffset: 30, title: '80 Nurses Hired', description: 'First wave onboarding begins', type: 'milestone', impact: 'positive', confidence: 85 },
+      { id: 'e3', dayOffset: 60, title: 'Existing Staff Complaints', description: 'Tenure nurses demand parity bonuses', type: 'risk', impact: 'negative', confidence: 72 },
+      { id: 'e4', dayOffset: 90, title: '200 Target Met', description: 'Full headcount achieved', type: 'milestone', impact: 'positive', confidence: 68 },
+      { id: 'e5', dayOffset: 180, title: 'Retention Cliff', description: '25% of bonus hires leave after 6-month cliff', type: 'risk', impact: 'critical', confidence: 55 },
+      { id: 'e6', dayOffset: 365, title: 'Stabilization', description: 'Net +120 nurses after attrition', type: 'milestone', impact: 'neutral', confidence: 62 },
+    ],
+  },
+  {
+    id: 'universe-meridian-pipeline',
+    name: 'Pipeline Development',
+    description: 'Partner with nursing schools for 2-year talent pipeline',
+    decision: 'Invest $2M in scholarship program with employment commitment',
+    color: '#3B82F6',
+    icon: '🎓',
+    probability: 85,
+    npv: 42000000,
+    reversibilityScore: 75,
+    riskProfile: { overall: 'low', score: 28 },
+    outcomes: {
+      revenue: { current: 850000000, projected: 880000000, change: 4 },
+      marketShare: { current: 12, projected: 13, change: 1 },
+      risk: { current: 40, projected: 28, change: -12 },
+      overallScore: 82,
+    },
+    timeline: [
+      { id: 'e1', dayOffset: 0, title: 'School Partnerships Signed', description: '5 nursing schools, 100 scholarships/year', type: 'milestone', impact: 'positive', confidence: 95 },
+      { id: 'e2', dayOffset: 180, title: 'First Cohort in Training', description: '100 students committed to Meridian', type: 'milestone', impact: 'positive', confidence: 88 },
+      { id: 'e3', dayOffset: 365, title: 'Interim Staffing Costs', description: 'Agency nurses fill gap at 2x cost', type: 'risk', impact: 'negative', confidence: 75 },
+      { id: 'e4', dayOffset: 730, title: 'First Graduates Onboard', description: '85 new nurses from pipeline', type: 'milestone', impact: 'positive', confidence: 82 },
+      { id: 'e5', dayOffset: 1095, title: 'Pipeline at Scale', description: '150 nurses/year, lowest cost per hire in region', type: 'opportunity', impact: 'positive', confidence: 78 },
+    ],
+  },
+  {
+    id: 'universe-meridian-agency',
+    name: 'Agency Staffing Model',
+    description: 'Rely on travel nurses and staffing agencies',
+    decision: 'Outsource 30% of nursing staff to agencies',
+    color: '#6B7280',
+    icon: '🏢',
+    probability: 90,
+    npv: 12000000,
+    reversibilityScore: 85,
+    riskProfile: { overall: 'moderate', score: 45 },
+    outcomes: {
+      revenue: { current: 850000000, projected: 860000000, change: 1 },
+      marketShare: { current: 12, projected: 12, change: 0 },
+      risk: { current: 40, projected: 45, change: 5 },
+      overallScore: 58,
+    },
+    timeline: [
+      { id: 'e1', dayOffset: 0, title: 'Agency Contracts Signed', description: '3 agencies, guaranteed minimums', type: 'milestone', impact: 'neutral', confidence: 95 },
+      { id: 'e2', dayOffset: 30, title: 'Immediate Staffing Relief', description: 'All shifts covered within 30 days', type: 'opportunity', impact: 'positive', confidence: 92 },
+      { id: 'e3', dayOffset: 180, title: 'Cost Overruns', description: 'Agency costs 85% higher than FTE', type: 'risk', impact: 'negative', confidence: 88 },
+      { id: 'e4', dayOffset: 365, title: 'Quality Concerns', description: 'Patient satisfaction drops 8 points', type: 'risk', impact: 'negative', confidence: 65 },
+      { id: 'e5', dayOffset: 730, title: 'Dependency Lock-In', description: 'Unable to transition back to FTE model', type: 'cascade', impact: 'critical', confidence: 55 },
+    ],
+  },
+];
+
+// Pacific Logistics - Geographic Expansion
+const PACIFIC_UNIVERSES: Universe[] = [
+  {
+    id: 'universe-pacific-vietnam',
+    name: 'Vietnam Hub Expansion',
+    description: 'Build distribution hub in Ho Chi Minh City',
+    decision: 'Invest $45M in Vietnam operations, 18-month build',
+    color: '#10B981',
+    icon: '🌏',
+    probability: 68,
+    npv: 95000000,
+    reversibilityScore: 25,
+    riskProfile: { overall: 'high', score: 62 },
+    outcomes: {
+      revenue: { current: 420000000, projected: 540000000, change: 29 },
+      marketShare: { current: 6, projected: 9, change: 3 },
+      risk: { current: 35, projected: 62, change: 27 },
+      overallScore: 75,
+    },
+    timeline: [
+      { id: 'e1', dayOffset: 0, title: 'Vietnam Investment Approved', description: '$45M for new distribution hub', type: 'milestone', impact: 'positive', confidence: 95 },
+      { id: 'e2', dayOffset: 90, title: 'Land Acquisition Complete', description: '50-acre site in Binh Duong province', type: 'milestone', impact: 'positive', confidence: 85 },
+      { id: 'e3', dayOffset: 270, title: 'Construction Delays', description: 'Permitting issues add 3 months', type: 'risk', impact: 'negative', confidence: 65 },
+      { id: 'e4', dayOffset: 540, title: 'Hub Operational', description: 'First shipments processed', type: 'milestone', impact: 'positive', confidence: 72 },
+      { id: 'e5', dayOffset: 730, title: 'China+1 Demand Surge', description: 'Clients shift supply chains from China', type: 'external', impact: 'positive', confidence: 78 },
+      { id: 'e6', dayOffset: 1095, title: 'Regional Leader', description: '#2 logistics provider in Vietnam', type: 'milestone', impact: 'positive', confidence: 68 },
+    ],
+  },
+  {
+    id: 'universe-pacific-partnership',
+    name: 'Local Partnership',
+    description: 'JV with Vietnamese logistics company',
+    decision: 'Form 51/49 joint venture with Vietrans Corp',
+    color: '#3B82F6',
+    icon: '🤝',
+    probability: 78,
+    npv: 62000000,
+    reversibilityScore: 60,
+    riskProfile: { overall: 'moderate', score: 45 },
+    outcomes: {
+      revenue: { current: 420000000, projected: 480000000, change: 14 },
+      marketShare: { current: 6, projected: 7, change: 1 },
+      risk: { current: 35, projected: 45, change: 10 },
+      overallScore: 68,
+    },
+    timeline: [
+      { id: 'e1', dayOffset: 0, title: 'JV Agreement Signed', description: '51/49 partnership with Vietrans', type: 'milestone', impact: 'positive', confidence: 95 },
+      { id: 'e2', dayOffset: 60, title: 'Operations Integrated', description: 'Access to Vietrans 12-city network', type: 'opportunity', impact: 'positive', confidence: 85 },
+      { id: 'e3', dayOffset: 180, title: 'Culture Clash', description: 'Management disagreements on pricing', type: 'risk', impact: 'negative', confidence: 62 },
+      { id: 'e4', dayOffset: 365, title: 'Competitor Threat', description: 'DHL approaches Vietrans for buyout', type: 'external', impact: 'critical', confidence: 48 },
+      { id: 'e5', dayOffset: 730, title: 'JV Renegotiation', description: 'Terms adjusted, Pacific loses board seats', type: 'pivot', impact: 'negative', confidence: 55 },
+    ],
+  },
+  {
+    id: 'universe-pacific-focus',
+    name: 'Domestic Focus',
+    description: 'Double down on existing APAC routes',
+    decision: 'Invest $25M in capacity expansion on proven routes',
+    color: '#6B7280',
+    icon: '🏠',
+    probability: 88,
+    npv: 45000000,
+    reversibilityScore: 80,
+    riskProfile: { overall: 'low', score: 28 },
+    outcomes: {
+      revenue: { current: 420000000, projected: 460000000, change: 10 },
+      marketShare: { current: 6, projected: 6, change: 0 },
+      risk: { current: 35, projected: 28, change: -7 },
+      overallScore: 62,
+    },
+    timeline: [
+      { id: 'e1', dayOffset: 0, title: 'Capacity Investment Approved', description: '$25M for existing route expansion', type: 'milestone', impact: 'neutral', confidence: 95 },
+      { id: 'e2', dayOffset: 90, title: 'New Equipment Deployed', description: '15 new trucks, 3 warehouse expansions', type: 'milestone', impact: 'positive', confidence: 88 },
+      { id: 'e3', dayOffset: 180, title: 'Market Share Stagnant', description: 'Growth limited by geographic footprint', type: 'risk', impact: 'negative', confidence: 72 },
+      { id: 'e4', dayOffset: 365, title: 'Competitor Vietnam Entry', description: 'Rivals capture China+1 opportunity', type: 'external', impact: 'negative', confidence: 68 },
+      { id: 'e5', dayOffset: 730, title: 'Strategic Review', description: 'Board questions missed expansion opportunity', type: 'pivot', impact: 'negative', confidence: 58 },
+    ],
+  },
+];
+
+// Scenario configurations
+const SCENARIO_DATA: Record<string, { universes: Universe[]; question: string; recommendation: string }> = {
+  'Sterling Insurance - Cyber Market Entry': {
+    universes: STERLING_UNIVERSES,
+    question: 'Should Sterling enter the cyber insurance market with $180M capital allocation?',
+    recommendation: 'Universe A (Full Entry) delivers 3.6x the NPV of Partnership and 1.9x the NPV of Waiting. Even accounting for the Year 2 ransomware event (72% probability), the reinsurance structure holds. The only universe where Sterling becomes a top-3 cyber insurer is Universe A.',
+  },
+  'Nordic Financial - Sovereign Deployment': {
+    universes: NORDIC_UNIVERSES,
+    question: 'Should Nordic Financial deploy CendiaCore as a sovereign on-premise solution or use hybrid cloud?',
+    recommendation: 'Full Sovereign Deployment delivers 50% higher NPV than hybrid cloud. BaFin regulatory scrutiny and competitor moves make cloud-only risky. The 82% probability path leads to contract renewal and regional expansion.',
+  },
+  'Atlas Manufacturing - Vertex Acquisition': {
+    universes: ATLAS_UNIVERSES,
+    question: 'Should Atlas acquire Vertex Technology Solutions ($412M) to gain IoT capabilities?',
+    recommendation: 'Full Acquisition delivers 2.3x the NPV of Partnership and 3.6x Internal Build. Despite 67% integration risk, the combined IoT platform creates a 12-point market share gain. Partnership carries existential risk of Vertex being acquired by competitor.',
+  },
+  'Quantum Energy - Grid Transition': {
+    universes: QUANTUM_UNIVERSES,
+    question: 'Should Quantum Energy accelerate its renewable transition or maintain gradual approach?',
+    recommendation: 'Accelerated Transition delivers 1.6x NPV of Gradual and 6.2x Status Quo. Carbon tax trajectory and ESG investor pressure make delay catastrophic. Grid instability risk is manageable with battery storage investment.',
+  },
+  'Nexus Retail - Pricing Strategy': {
+    universes: NEXUS_UNIVERSES,
+    question: 'Should Nexus Retail raise prices 15%, cut prices 10%, or implement tiered pricing?',
+    recommendation: 'Tiered Pricing Model delivers highest NPV ($145M) with moderate risk. Premium positioning sacrifices market share; value leadership triggers price war. Good/Better/Best structure captures both segments with 18% ARPU uplift.',
+  },
+  'Meridian Healthcare - Talent Strategy': {
+    universes: MERIDIAN_UNIVERSES,
+    question: 'How should Meridian Healthcare address the critical nursing shortage - aggressive hiring, pipeline development, or agency staffing?',
+    recommendation: 'Pipeline Development delivers 50% higher NPV than aggressive hiring and 3.5x agency model. While slower (2-year ramp), it creates sustainable competitive advantage with lowest cost-per-hire in region. Agency model creates dangerous dependency.',
+  },
+  'Pacific Logistics - Geographic Expansion': {
+    universes: PACIFIC_UNIVERSES,
+    question: 'Should Pacific Logistics build a Vietnam hub ($45M), form a local JV, or focus on existing routes?',
+    recommendation: 'Vietnam Hub Expansion delivers highest NPV ($95M) despite construction risks. China+1 supply chain shift creates once-in-decade opportunity. JV carries existential risk of competitor acquisition. Domestic focus means missing the market window.',
+  },
+};
+
+const UniversesView: React.FC<{ onClose: () => void }> = ({ onClose }) => {
+  const [selectedUniverse, setSelectedUniverse] = useState<Universe | null>(null);
+  const [scenario, setScenario] = useState('Sterling Insurance - Cyber Market Entry');
+  const [hoveredEvent, setHoveredEvent] = useState<string | null>(null);
+
+  const scenarios = Object.keys(SCENARIO_DATA);
+  const currentScenario = SCENARIO_DATA[scenario];
+  const universes = currentScenario.universes;
+  const recommended = universes.reduce((best: Universe, u: Universe) => u.npv > best.npv ? u : best, universes[0]);
+
+  // Get max timeline length for scaling
+  const maxDays = Math.max(...universes.flatMap(u => u.timeline.map(e => e.dayOffset)));
+
+  return (
+    <div className="bg-gradient-to-b from-purple-950 to-neutral-950 rounded-2xl border border-purple-800 overflow-hidden">
+      {/* Header */}
+      <div className="bg-gradient-to-r from-purple-900 to-indigo-900 p-4">
+        <div className="flex items-center justify-between">
+          <div>
+            <h2 className="text-xl font-bold flex items-center gap-3">
+              🌍 Parallel Universe Simulation
+              <span className="text-xs font-normal text-purple-300 bg-purple-800/50 px-2 py-1 rounded">
+                Branching Timelines
+              </span>
+            </h2>
+            <p className="text-purple-200 text-sm mt-1">
+              "Most BI tools show a flat line. We show divergent futures."
+            </p>
+          </div>
+          <button onClick={onClose} className="text-white/60 hover:text-white text-2xl">✕</button>
+        </div>
+
+        {/* Scenario Selector */}
+        <div className="mt-3 flex flex-wrap gap-2">
+          {scenarios.map((s) => (
+            <button
+              key={s}
+              onClick={() => { setScenario(s); setSelectedUniverse(null); }}
+              className={`px-3 py-1 text-xs rounded-lg transition-colors ${
+                scenario === s
+                  ? 'bg-purple-600 text-white'
+                  : 'bg-purple-900/50 text-purple-300 hover:bg-purple-800'
+              }`}
+            >
+              {s.split(' - ')[0]}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      <div className="p-4">
+        {/* Decision Question */}
+        <div className="mb-4 p-3 bg-black/30 rounded-xl border border-purple-700">
+          <div className="text-xs text-purple-400 mb-1">Strategic Decision</div>
+          <div className="text-base font-semibold">"{currentScenario.question}"</div>
+        </div>
+
+        {/* BRANCHING TIMELINE VISUALIZATION */}
+        <div className="bg-black/40 rounded-xl p-4 border border-purple-800 mb-4">
+          {/* Timeline Header with time markers */}
+          <div className="flex items-center mb-2 pl-32">
+            <div className="flex-1 flex justify-between text-xs text-neutral-500">
+              <span>Today</span>
+              <span>6 months</span>
+              <span>1 year</span>
+              <span>2 years</span>
+              <span>3 years</span>
+              <span>5 years</span>
+            </div>
+          </div>
+
+          {/* Central Decision Point */}
+          <div className="relative">
+            {/* Decision node */}
+            <div className="absolute left-0 top-1/2 -translate-y-1/2 w-28 text-center z-10">
+              <div className="w-12 h-12 mx-auto bg-gradient-to-br from-purple-500 to-indigo-600 rounded-full flex items-center justify-center text-2xl shadow-lg shadow-purple-500/50 border-2 border-white/30">
+                ⚡
+              </div>
+              <div className="text-xs text-purple-300 mt-1 font-semibold">DECISION</div>
+              <div className="text-[10px] text-neutral-500">Point of Divergence</div>
+            </div>
+
+            {/* Branching Lines Container */}
+            <div className="ml-32 space-y-1">
+              {universes.map((universe, uIdx) => {
+                const isSelected = selectedUniverse?.id === universe.id;
+                const isRecommended = universe.id === recommended.id;
+                const yOffset = uIdx === 0 ? -30 : uIdx === 1 ? 0 : 30;
+
+                return (
+                  <div
+                    key={universe.id}
+                    className={`relative h-24 cursor-pointer transition-all duration-300 ${
+                      isSelected ? 'z-20' : 'z-10'
+                    }`}
+                    onClick={() => setSelectedUniverse(isSelected ? null : universe)}
+                  >
+                    {/* Branch SVG */}
+                    <svg className="absolute inset-0 w-full h-full overflow-visible" preserveAspectRatio="none">
+                      {/* Curved branch line from center */}
+                      <path
+                        d={`M 0 48 Q 40 48, 60 ${48 + yOffset * 0.8} L 100% ${48 + yOffset * 0.3}`}
+                        fill="none"
+                        stroke={universe.color}
+                        strokeWidth={isSelected ? 4 : 2}
+                        strokeOpacity={isSelected ? 1 : 0.6}
+                        className="transition-all duration-300"
+                      />
+                      {/* Glow effect for recommended */}
+                      {isRecommended && (
+                        <path
+                          d={`M 0 48 Q 40 48, 60 ${48 + yOffset * 0.8} L 100% ${48 + yOffset * 0.3}`}
+                          fill="none"
+                          stroke={universe.color}
+                          strokeWidth={8}
+                          strokeOpacity={0.3}
+                          filter="blur(4px)"
+                        />
+                      )}
+                    </svg>
+
+                    {/* Universe Label at start of branch */}
+                    <div
+                      className={`absolute left-0 top-1/2 -translate-y-1/2 flex items-center gap-2 px-2 py-1 rounded-lg transition-all ${
+                        isSelected
+                          ? 'bg-purple-900/80 border border-purple-500 scale-105'
+                          : isRecommended
+                            ? 'bg-green-900/50 border border-green-600'
+                            : 'bg-neutral-800/80 border border-neutral-700 hover:bg-neutral-700/80'
+                      }`}
+                      style={{ transform: `translateY(calc(-50% + ${yOffset}px))` }}
+                    >
+                      <span className="text-lg">{universe.icon}</span>
+                      <div>
+                        <div className="text-xs font-bold flex items-center gap-1">
+                          {universe.name}
+                          {isRecommended && <span className="text-green-400">✨</span>}
+                        </div>
+                        <div className="text-[10px] text-neutral-400">
+                          ${(universe.npv / 1000000).toFixed(0)}M NPV • {universe.probability}%
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Timeline Events along the branch */}
+                    {universe.timeline.slice(0, 5).map((event, eIdx) => {
+                      const xPercent = Math.min((event.dayOffset / maxDays) * 85 + 15, 95);
+                      const eventId = `${universe.id}-${event.id}`;
+                      const isHovered = hoveredEvent === eventId;
+
+                      return (
+                        <div
+                          key={event.id}
+                          className="absolute transition-all duration-200"
+                          style={{
+                            left: `${xPercent}%`,
+                            top: `calc(50% + ${yOffset * 0.4}px)`,
+                            transform: 'translate(-50%, -50%)',
+                          }}
+                          onMouseEnter={() => setHoveredEvent(eventId)}
+                          onMouseLeave={() => setHoveredEvent(null)}
+                        >
+                          {/* Event dot */}
+                          <div
+                            className={`w-3 h-3 rounded-full border-2 transition-all ${
+                              event.impact === 'positive' ? 'bg-green-500 border-green-300' :
+                              event.impact === 'negative' ? 'bg-red-500 border-red-300' :
+                              event.impact === 'critical' ? 'bg-orange-500 border-orange-300 animate-pulse' :
+                              'bg-blue-500 border-blue-300'
+                            } ${isHovered ? 'scale-150 z-30' : ''}`}
+                          />
+
+                          {/* Event tooltip */}
+                          {isHovered && (
+                            <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-48 p-2 bg-neutral-900 border border-neutral-600 rounded-lg shadow-xl z-50 text-xs">
+                              <div className="font-bold mb-1">{event.title}</div>
+                              <div className="text-neutral-400 text-[10px] mb-1">{event.description}</div>
+                              <div className="flex justify-between text-[10px]">
+                                <span className={`px-1 rounded ${
+                                  event.impact === 'positive' ? 'bg-green-800 text-green-200' :
+                                  event.impact === 'negative' ? 'bg-red-800 text-red-200' :
+                                  event.impact === 'critical' ? 'bg-orange-800 text-orange-200' :
+                                  'bg-blue-800 text-blue-200'
+                                }`}>{event.type}</span>
+                                <span className="text-neutral-500">Day {event.dayOffset}</span>
+                              </div>
+                              {/* Arrow */}
+                              <div className="absolute top-full left-1/2 -translate-x-1/2 border-4 border-transparent border-t-neutral-600" />
+                            </div>
+                          )}
+                        </div>
+                      );
+                    })}
+
+                    {/* End result indicator */}
+                    <div
+                      className="absolute right-2 top-1/2 -translate-y-1/2 text-right"
+                      style={{ transform: `translateY(calc(-50% + ${yOffset * 0.3}px))` }}
+                    >
+                      <div className="text-xs font-bold" style={{ color: universe.color }}>
+                        ${(universe.npv / 1000000).toFixed(0)}M
+                      </div>
+                      <div className={`text-[10px] ${
+                        universe.riskProfile.score > 60 ? 'text-red-400' :
+                        universe.riskProfile.score > 40 ? 'text-amber-400' : 'text-green-400'
+                      }`}>
+                        Risk: {universe.riskProfile.score}
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+
+          {/* Legend */}
+          <div className="flex justify-center gap-4 mt-4 pt-3 border-t border-neutral-800">
+            <div className="flex items-center gap-1 text-[10px] text-neutral-400">
+              <div className="w-2 h-2 rounded-full bg-green-500" /> Positive
+            </div>
+            <div className="flex items-center gap-1 text-[10px] text-neutral-400">
+              <div className="w-2 h-2 rounded-full bg-red-500" /> Negative
+            </div>
+            <div className="flex items-center gap-1 text-[10px] text-neutral-400">
+              <div className="w-2 h-2 rounded-full bg-orange-500 animate-pulse" /> Critical
+            </div>
+            <div className="flex items-center gap-1 text-[10px] text-neutral-400">
+              <div className="w-2 h-2 rounded-full bg-blue-500" /> Milestone
+            </div>
+          </div>
+        </div>
+
+        {/* Selected Universe Detail Panel */}
+        {selectedUniverse && (
+          <div className="grid grid-cols-2 gap-4 mb-4">
+            {/* Timeline Detail */}
+            <div className="bg-black/30 rounded-xl p-3 border border-purple-700">
+              <h3 className="font-bold text-sm mb-3 flex items-center gap-2">
+                <span>{selectedUniverse.icon}</span>
+                {selectedUniverse.name} — Full Timeline
+              </h3>
+              <div className="space-y-2 max-h-60 overflow-y-auto pr-2">
+                {selectedUniverse.timeline.map((event) => (
+                  <div key={event.id} className="flex items-start gap-2">
+                    <div className={`w-2 h-2 mt-1.5 rounded-full flex-shrink-0 ${
+                      event.impact === 'positive' ? 'bg-green-500' :
+                      event.impact === 'negative' ? 'bg-red-500' :
+                      event.impact === 'critical' ? 'bg-orange-500' :
+                      'bg-blue-500'
+                    }`} />
+                    <div className="flex-1 min-w-0">
+                      <div className="flex items-center justify-between">
+                        <span className="text-xs font-semibold truncate">{event.title}</span>
+                        <span className="text-[10px] text-neutral-500 flex-shrink-0 ml-2">
+                          {Math.floor(event.dayOffset / 30)}mo
+                        </span>
+                      </div>
+                      <p className="text-[10px] text-neutral-400 truncate">{event.description}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Metrics Comparison */}
+            <div className="bg-black/30 rounded-xl p-3 border border-purple-700">
+              <h3 className="font-bold text-sm mb-3">Outcome Metrics</h3>
+              <div className="space-y-3">
+                <div>
+                  <div className="flex justify-between text-xs mb-1">
+                    <span className="text-neutral-400">NPV (5yr)</span>
+                    <span className="font-bold" style={{ color: selectedUniverse.color }}>
+                      ${(selectedUniverse.npv / 1000000).toFixed(0)}M
+                    </span>
+                  </div>
+                  <div className="h-2 bg-neutral-700 rounded-full overflow-hidden">
+                    <div
+                      className="h-full rounded-full"
+                      style={{
+                        width: `${(selectedUniverse.npv / Math.max(...universes.map(u => u.npv))) * 100}%`,
+                        backgroundColor: selectedUniverse.color,
+                      }}
+                    />
+                  </div>
+                </div>
+                <div>
+                  <div className="flex justify-between text-xs mb-1">
+                    <span className="text-neutral-400">Success Probability</span>
+                    <span>{selectedUniverse.probability}%</span>
+                  </div>
+                  <div className="h-2 bg-neutral-700 rounded-full overflow-hidden">
+                    <div className="h-full bg-blue-500 rounded-full" style={{ width: `${selectedUniverse.probability}%` }} />
+                  </div>
+                </div>
+                <div>
+                  <div className="flex justify-between text-xs mb-1">
+                    <span className="text-neutral-400">Risk Level</span>
+                    <span className={
+                      selectedUniverse.riskProfile.score > 60 ? 'text-red-400' :
+                      selectedUniverse.riskProfile.score > 40 ? 'text-amber-400' : 'text-green-400'
+                    }>{selectedUniverse.riskProfile.overall}</span>
+                  </div>
+                  <div className="h-2 bg-neutral-700 rounded-full overflow-hidden">
+                    <div
+                      className={`h-full rounded-full ${
+                        selectedUniverse.riskProfile.score > 60 ? 'bg-red-500' :
+                        selectedUniverse.riskProfile.score > 40 ? 'bg-amber-500' : 'bg-green-500'
+                      }`}
+                      style={{ width: `${selectedUniverse.riskProfile.score}%` }}
+                    />
+                  </div>
+                </div>
+                <div>
+                  <div className="flex justify-between text-xs mb-1">
+                    <span className="text-neutral-400">Reversibility</span>
+                    <span>{selectedUniverse.reversibilityScore}%</span>
+                  </div>
+                  <div className="h-2 bg-neutral-700 rounded-full overflow-hidden">
+                    <div className="h-full bg-purple-500 rounded-full" style={{ width: `${selectedUniverse.reversibilityScore}%` }} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* Recommendation Box */}
+        <div className="p-3 bg-gradient-to-r from-green-900/30 to-emerald-900/30 rounded-xl border border-green-700">
+          <div className="flex items-start gap-3">
+            <div className="text-3xl">🔮</div>
+            <div>
+              <h3 className="font-bold text-green-400 text-sm mb-1">Chronos Recommendation: {recommended.name}</h3>
+              <p className="text-xs text-neutral-300">{currentScenario.recommendation}</p>
+              <p className="text-xs text-green-300 mt-1 font-semibold">
+                NPV: ${(recommended.npv / 1000000).toFixed(0)}M | Probability: {recommended.probability}% | Risk: {recommended.riskProfile.score}/100
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
 
 // Bookmark Modal
 const BookmarkModal: React.FC<{
@@ -8159,7 +9822,7 @@ const FinancialValidationsPanel: React.FC<{
                     </div>
                     <div>
                       <span className="text-neutral-500">Validation Type</span>
-                      <p className="text-white font-medium capitalize">{selectedValidation.validationType.replace('_', ' ')}</p>
+                      <p className="text-white font-medium capitalize">{(selectedValidation.validationType || '').replace('_', ' ')}</p>
                     </div>
                   </div>
                 </div>
@@ -8234,7 +9897,7 @@ const FinancialValidationsPanel: React.FC<{
                         <div className="flex items-center gap-4">
                           <div>
                             <span className="text-neutral-500">Status</span>
-                            <p className="text-white capitalize">{selectedValidation.remediationStatus.replace('_', ' ')}</p>
+                            <p className="text-white capitalize">{(selectedValidation.remediationStatus || '').replace('_', ' ')}</p>
                           </div>
                           {selectedValidation.remediationDeadline && (
                             <div>

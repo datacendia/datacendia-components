@@ -1,0 +1,59 @@
+{
+  "id": 6027994,
+  "name": "Woltz v. Bailey et al.",
+  "name_abbreviation": "Woltz v. Bailey",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-7946",
+  "first_page": "1230",
+  "last_page": "1230",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1230"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 70,
+    "ocr_confidence": 0.612,
+    "sha256": "eb64f335c7819330221bd7a5474679b5a27891bf14f8aebc117a551370ca52fa",
+    "simhash": "1:f2f224f8510e70ad",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Woltz v. Bailey et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7946.\nWoltz v. Bailey et al."
+  },
+  "file_name": "1230-04",
+  "first_page_order": 1252,
+  "last_page_order": 1252
+}

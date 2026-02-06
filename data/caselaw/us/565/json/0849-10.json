@@ -1,0 +1,59 @@
+{
+  "id": 12205678,
+  "name": "Shere v. Florida",
+  "name_abbreviation": "Shere v. Florida",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10786",
+  "first_page": "849",
+  "last_page": "849",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 849"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 65,
+    "ocr_confidence": 0.625,
+    "sha256": "6cf047e687b75d939a91b632d83d4895fa3d9344c99e274c15077a818b5cf9cb",
+    "simhash": "1:2e5ef3c67463ea3f",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Shere v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Fla. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10786.\nShere v. Florida."
+  },
+  "file_name": "0849-10",
+  "first_page_order": 931,
+  "last_page_order": 931
+}

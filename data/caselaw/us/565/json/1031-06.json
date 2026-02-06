@@ -1,0 +1,79 @@
+{
+  "id": 12233225,
+  "name": "Branch Banking & Trust v. Gordon",
+  "name_abbreviation": "Branch Banking & Trust v. Gordon",
+  "decision_date": "2011-11-14",
+  "docket_number": "No. 11-282",
+  "first_page": "1031",
+  "last_page": "1031",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1031"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "563 U. S. 333",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5939512,
+        12458766
+      ],
+      "year": 2011,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/563/0333-01",
+        "/l-ed-2d/179/0742-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 34,
+    "char_count": 211,
+    "ocr_confidence": 0.687,
+    "pagerank": {
+      "raw": 4.688403287882615e-08,
+      "percentile": 0.25245273160682913
+    },
+    "sha256": "0e711200cc078224d9b698879aadcf07e345b632dbf6eb306ed72c465456bba2",
+    "simhash": "1:092160aac4ca82a8",
+    "word_count": 35
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Branch Banking & Trust v. Gordon."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari granted, judgment vacated, and case remanded for further consideration in light of AT&T Mobility LLC v. Concepcion, 563 U. S. 333 (2011).",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-282.\nBranch Banking & Trust v. Gordon."
+  },
+  "file_name": "1031-06",
+  "first_page_order": 1113,
+  "last_page_order": 1113
+}

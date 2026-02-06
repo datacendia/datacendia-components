@@ -1,0 +1,59 @@
+{
+  "id": 6023813,
+  "name": "Hudson v. Oklahoma",
+  "name_abbreviation": "Hudson v. Oklahoma",
+  "decision_date": "2011-02-28",
+  "docket_number": "No. 10-8127",
+  "first_page": "1258",
+  "last_page": "1258",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1258"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 72,
+    "ocr_confidence": 0.677,
+    "sha256": "1782e7291064af170f242909f084c6ed5065fffcb6a0c290776dc191e14f132d",
+    "simhash": "1:4005e38164cd2381",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hudson v. Oklahoma."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. OMa. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8127.\nHudson v. Oklahoma."
+  },
+  "file_name": "1258-08",
+  "first_page_order": 1280,
+  "last_page_order": 1280
+}

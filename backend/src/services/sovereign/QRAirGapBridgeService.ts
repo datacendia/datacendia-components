@@ -1,10 +1,34 @@
 // =============================================================================
-// CENDIA QR AIR-GAP BRIDGE™ - ZERO-MEDIA BOUNDARY CROSSING
-// "Transfer data across air gaps without any physical media."
+// CENDIA QR AIR-GAP BRIDGE™ - NO-USB, NO-NETWORK AIR-GAP TRANSFER
+// "Air-gap transfer via QR sequencing (encrypted + signed)."
 //
 // Encodes decisions, alerts, and summaries as animated QR code sequences
-// that can be captured by a camera outside the air gap. Zero USB, zero network.
-// Perfect for SCIFs and environments where all removable media is banned.
+// that can be captured by a camera outside the air gap.
+//
+// TRANSFER MECHANISM:
+// - No USB or removable media required
+// - No network connectivity required  
+// - Uses optical transfer (screen -> camera)
+// - Suitable for SCIFs and restricted environments
+//
+// SECURITY PROPERTIES:
+// - AEAD encryption (AES-256-GCM) with authentication tag
+// - Per-chunk integrity verification (checksum)
+// - Session-bound transfers (replay protection)
+// - Payload expiration (TTL enforcement)
+//
+// AIR-GAP PROCEDURES:
+// 1. SENDER: Generate payload from decision/alert data
+// 2. SENDER: Generate QR sequence with encryption key
+// 3. SENDER: Display animated QR sequence on air-gapped system
+// 4. RECEIVER: Start capture session on receiving system
+// 5. RECEIVER: Point camera at sender's screen
+// 6. RECEIVER: Wait for capture completion (progress indicator)
+// 7. RECEIVER: Verify integrity and decrypt with shared key
+// 8. RECEIVER: Process imported data
+//
+// NOTE: This is NOT "zero-media" transfer - the optical path (screen/camera)
+// IS a transfer medium. The claim is "no removable media, no network."
 // =============================================================================
 
 import { EventEmitter } from 'events';
@@ -49,8 +73,10 @@ export interface QRChunk {
   // Data
   data: string;         // Base64 encoded chunk
   
-  // Verification
+  // Verification (enterprise hardening)
   chunkChecksum: string;
+  sessionId?: string;   // Binds chunk to specific transfer session
+  sequenceNonce?: string; // Prevents replay across sessions
   
   // Sequence info (for animated display)
   displayDurationMs: number;
@@ -88,7 +114,7 @@ export interface CaptureSession {
   capturedChunks: Map<number, QRChunk>;
   
   // Status
-  status: 'scanning' | 'complete' | 'failed' | 'timeout';
+  status: 'scanning' | 'complete' | 'failed' | 'timeout' | 'integrity_failed';
   progress: number;      // 0-100
   
   // Timing
@@ -99,6 +125,14 @@ export interface CaptureSession {
   // Result
   reassembledData?: string;
   verified: boolean;
+  
+  // Enterprise hardening: integrity verification
+  integrityChecks: {
+    allChunksPresent: boolean;
+    allChecksumsValid: boolean;
+    payloadChecksumValid: boolean;
+    noReplayDetected: boolean;
+  };
 }
 
 export interface BridgeConfig {
@@ -456,6 +490,12 @@ class QRAirGapBridgeService extends EventEmitter {
       startedAt: new Date(),
       timeoutAt: new Date(Date.now() + this.config.captureTimeoutSeconds * 1000),
       verified: false,
+      integrityChecks: {
+        allChunksPresent: false,
+        allChecksumsValid: false,
+        payloadChecksumValid: false,
+        noReplayDetected: true,  // Assume no replay until detected
+      },
     };
     
     this.captureSessions.set(id, session);

@@ -1,0 +1,59 @@
+{
+  "id": 12415419,
+  "name": "Hancock v. United States",
+  "name_abbreviation": "Hancock v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5181",
+  "first_page": "899",
+  "last_page": "899",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 899"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.712,
+    "sha256": "cf20d63525f484fbc02597d5aec3080809718f0e15a995608b48843c98abebcb",
+    "simhash": "1:e78b92074e1f1816",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hancock v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5181.\nHancock v. United States."
+  },
+  "file_name": "0899-05",
+  "first_page_order": 975,
+  "last_page_order": 975
+}

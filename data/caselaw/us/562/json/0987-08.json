@@ -1,0 +1,59 @@
+{
+  "id": 5908372,
+  "name": "Contreras v. Texas",
+  "name_abbreviation": "Contreras v. Texas",
+  "decision_date": "2010-10-18",
+  "docket_number": "No. 10-6338",
+  "first_page": "987",
+  "last_page": "987",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 987"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 72,
+    "ocr_confidence": 0.622,
+    "sha256": "1968246e71e6d12dca0f12bfe6c4cc81c7e7774a9f46fd28fd33a6bd2b3e9e09",
+    "simhash": "1:185498e67e97b670",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Contreras v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Tex. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6338.\nContreras v. Texas."
+  },
+  "file_name": "0987-08",
+  "first_page_order": 1009,
+  "last_page_order": 1009
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12415549,
+  "name": "Williams v. City University of New York, Brooklyn College",
+  "name_abbreviation": "Williams v. City University of New York, Brooklyn College",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5233",
+  "first_page": "902",
+  "last_page": "902",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 902"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 105,
+    "ocr_confidence": 0.661,
+    "sha256": "88c7a06e8f735aee309ca1a8efc4322d5bfee43d5ca8b206a1f2182909e73238",
+    "simhash": "1:199344b11811e409",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Williams v. City University of New York, Brooklyn College."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5233.\nWilliams v. City University of New York, Brooklyn College."
+  },
+  "file_name": "0902-05",
+  "first_page_order": 978,
+  "last_page_order": 978
+}

@@ -1,0 +1,61 @@
+{
+  "id": 6034185,
+  "name": "Skoien v. United States",
+  "name_abbreviation": "Skoien v. United States",
+  "decision_date": "2011-03-21",
+  "docket_number": "No. 10-7005",
+  "first_page": "1303",
+  "last_page": "1303",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1303"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 150,
+    "ocr_confidence": 0.607,
+    "sha256": "1335d3eec10a4e15e8e77cf8a38822fbdb44b18bfbddd7e3f615ba41c5b95257",
+    "simhash": "1:0f13fb82610e5a40",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Skoien v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7005.\nSkoien v. United States."
+  },
+  "file_name": "1303-05",
+  "first_page_order": 1325,
+  "last_page_order": 1325
+}

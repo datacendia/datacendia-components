@@ -1,0 +1,59 @@
+{
+  "id": 5941540,
+  "name": "Woodward v. Kansas",
+  "name_abbreviation": "Woodward v. Kansas",
+  "decision_date": "2011-06-06",
+  "docket_number": "No. 10-10096",
+  "first_page": "1038",
+  "last_page": "1038",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1038"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 67,
+    "ocr_confidence": 0.609,
+    "sha256": "0be7adf167c7d9cdaa7cfc192d7e4b2753ea8a1501131444437060636051acac",
+    "simhash": "1:2acb705d5d510dc0",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Woodward v. Kansas."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Kan. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10096.\nWoodward v. Kansas."
+  },
+  "file_name": "1038-08",
+  "first_page_order": 1064,
+  "last_page_order": 1064
+}

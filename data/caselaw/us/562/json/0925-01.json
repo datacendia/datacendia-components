@@ -1,0 +1,59 @@
+{
+  "id": 6026294,
+  "name": "Vega v. New York",
+  "name_abbreviation": "Vega v. New York",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5491",
+  "first_page": "925",
+  "last_page": "925",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 925"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 92,
+    "ocr_confidence": 0.624,
+    "sha256": "000b5deebf91219195b8e700f7b3d63d5721d4e43345559e2ad8ad99be148f48",
+    "simhash": "1:2090e944f1349951",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Vega v. New York."
+    ],
+    "opinions": [
+      {
+        "text": "App. Div., Sup. Ct. N. Y., 1st Jud. Dept. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5491.\nVega v. New York."
+  },
+  "file_name": "0925-01",
+  "first_page_order": 947,
+  "last_page_order": 947
+}

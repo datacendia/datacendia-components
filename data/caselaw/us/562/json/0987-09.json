@@ -1,0 +1,59 @@
+{
+  "id": 6009191,
+  "name": "Gonzalez-Hurtado v. United States",
+  "name_abbreviation": "Gonzalez-Hurtado v. United States",
+  "decision_date": "2010-10-18",
+  "docket_number": "No. 10-6378",
+  "first_page": "987",
+  "last_page": "987",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 987"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 82,
+    "ocr_confidence": 0.543,
+    "sha256": "03e35c04593112650f8e3dc94524a43c8d3fe87569ea1399eb6eeb31b992eca6",
+    "simhash": "1:14abeec32d9d585c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gonzalez-Hurtado v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6378.\nGonzalez-Hurtado v. United States."
+  },
+  "file_name": "0987-09",
+  "first_page_order": 1009,
+  "last_page_order": 1009
+}

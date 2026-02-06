@@ -1,0 +1,59 @@
+{
+  "id": 12411609,
+  "name": "Rodriguez v. Walker, Warden",
+  "name_abbreviation": "Rodriguez v. Walker",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10115",
+  "first_page": "834",
+  "last_page": "834",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 834"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.711,
+    "sha256": "ba9dcfcc0c1a4d2f3eff87248b4258b11d8f3e8a43e5c4b2c61ae56951959399",
+    "simhash": "1:1495b5eb2c391164",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rodriguez v. Walker, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10115.\nRodriguez v. Walker, Warden."
+  },
+  "file_name": "0834-01",
+  "first_page_order": 910,
+  "last_page_order": 910
+}

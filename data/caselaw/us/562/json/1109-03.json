@@ -1,0 +1,59 @@
+{
+  "id": 6021415,
+  "name": "Hindle v. Fuith",
+  "name_abbreviation": "Hindle v. Fuith",
+  "decision_date": "2010-12-13",
+  "docket_number": "No. 10-479",
+  "first_page": "1109",
+  "last_page": "1109",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1109"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 79,
+    "ocr_confidence": 0.625,
+    "sha256": "259d505349ac224d9150c22053393d7f546ef26e83f7cac1d0f45e4b93cb4594",
+    "simhash": "1:91a8404aec248ba0",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hindle v. Fuith."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 5th Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-479.\nHindle v. Fuith."
+  },
+  "file_name": "1109-03",
+  "first_page_order": 1131,
+  "last_page_order": 1131
+}

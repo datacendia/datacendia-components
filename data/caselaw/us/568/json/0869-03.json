@@ -1,0 +1,59 @@
+{
+  "id": 12414537,
+  "name": "Dement v. California",
+  "name_abbreviation": "Dement v. California",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10917",
+  "first_page": "869",
+  "last_page": "869",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 869"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 70,
+    "ocr_confidence": 0.693,
+    "sha256": "1c5cfb00bc4cc601c13328e076c916363c3121da6848a0be53af17143b23509d",
+    "simhash": "1:880b5d76282ac18e",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dement v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Cal. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10917.\nDement v. California."
+  },
+  "file_name": "0869-03",
+  "first_page_order": 945,
+  "last_page_order": 945
+}

@@ -1,0 +1,59 @@
+{
+  "id": 6005305,
+  "name": "Cetin v. United States",
+  "name_abbreviation": "Cetin v. United States",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8328",
+  "first_page": "1242",
+  "last_page": "1242",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1242"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.643,
+    "sha256": "cf0e518d00d87bb25ffda37a560d5d254b635ee9dc86a9824cbb9d24551329e6",
+    "simhash": "1:b78aca51460d315f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cetin v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8328.\nCetin v. United States."
+  },
+  "file_name": "1242-12",
+  "first_page_order": 1264,
+  "last_page_order": 1264
+}

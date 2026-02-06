@@ -1,0 +1,59 @@
+{
+  "id": 12244486,
+  "name": "Amini v. City of Minneapolis, Minnesota",
+  "name_abbreviation": "Amini v. City of Minneapolis",
+  "decision_date": "2012-01-23",
+  "docket_number": "No. 11-609",
+  "first_page": "1178",
+  "last_page": "1178",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1178"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 87,
+    "ocr_confidence": 0.6,
+    "sha256": "94f23b572e0516735a17685eebda02735a940e935d437807a102bce8805cab14",
+    "simhash": "1:2bb7c621836532e2",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Amini v. City of Minneapolis, Minnesota."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-609.\nAmini v. City of Minneapolis, Minnesota."
+  },
+  "file_name": "1178-08",
+  "first_page_order": 1260,
+  "last_page_order": 1260
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12204604,
+  "name": "McPherron v. United States District Court for the Northern District of Illinois",
+  "name_abbreviation": "McPherron v. United States District Court for the Northern District of Illinois",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10712",
+  "first_page": "845",
+  "last_page": "845",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 845"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 19,
+    "char_count": 129,
+    "ocr_confidence": 0.637,
+    "sha256": "b839a78907c37154e71136b5d635edf58e1586138c33c5511d299af82f566b09",
+    "simhash": "1:66e83a83888fc303",
+    "word_count": 20
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McPherron v. United States District Court for the Northern District of Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10712.\nMcPherron v. United States District Court for the Northern District of Illinois."
+  },
+  "file_name": "0845-11",
+  "first_page_order": 927,
+  "last_page_order": 927
+}

@@ -1,0 +1,228 @@
+{
+  "id": 12521662,
+  "name": "UNITED STATES of America, Plaintiff-Appellee, v. Renerto Lamar MAYES, Defendant-Appellant.",
+  "name_abbreviation": "United States v. Mayes",
+  "decision_date": "2019-06-27",
+  "docket_number": "No. 18-5902",
+  "first_page": "502",
+  "last_page": "506",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "928 F.3d 502"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "6th Cir.",
+    "id": 21296,
+    "name": "United States Court of Appeals for the Six Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "530 S.W.3d 413",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12386671
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "434"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/530/0413-01"
+      ]
+    },
+    {
+      "cite": "366 S.W.3d 446",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7315781
+      ],
+      "weight": 2,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "456",
+          "parenthetical": "\"Because [the revised penalty statute] had not gone into effect at the time the judgment against Rogers was pronounced, Rogers may not now invoke the new law's penalty provisions.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/366/0446-01"
+      ]
+    },
+    {
+      "cite": "495 U.S. 575",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        634101
+      ],
+      "weight": 4,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "588-89",
+          "parenthetical": "\"Congress intended that the enhancement provision [of the ACCA] be triggered by crimes having certain specified elements, not by crimes that happened to be labeled 'robbery' or 'burglary' by the laws of the State of conviction.\""
+        },
+        {
+          "parenthetical": "\"Congress intended that the enhancement provision [of the ACCA] be triggered by crimes having certain specified elements, not by crimes that happened to be labeled 'robbery' or 'burglary' by the laws of the State of conviction.\""
+        },
+        {
+          "parenthetical": "\"Congress intended that the enhancement provision [of the ACCA] be triggered by crimes having certain specified elements, not by crimes that happened to be labeled 'robbery' or 'burglary' by the laws of the State of conviction.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/495/0575-01"
+      ]
+    },
+    {
+      "cite": "570 U.S. 254",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12698469
+      ],
+      "weight": 3,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "261",
+          "parenthetical": "internal quotation marks and citation omitted"
+        },
+        {
+          "parenthetical": "internal quotation marks and citation omitted"
+        },
+        {
+          "parenthetical": "internal quotation marks and citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/570/0254-01"
+      ]
+    },
+    {
+      "cite": "721 F.3d 380",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5756334
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "395-96"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/721/0380-01"
+      ]
+    },
+    {
+      "cite": "563 U.S. 816",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5924818,
+        12450130
+      ],
+      "weight": 12,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "825"
+        },
+        {
+          "page": "823"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/563/0816-01",
+        "/l-ed-2d/180/0035-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 924",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(e)(1)"
+        },
+        {
+          "page": "(e)(2)(A)(ii)"
+        },
+        {
+          "page": "(e)(2)(A)(ii)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 922",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(g)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 543,
+    "char_count": 11401,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2593875164150497
+    },
+    "sha256": "dd6d1574389f22155dbef18e21ebe0379cdd2550213ab23b2fe3345f2761aeca",
+    "simhash": "1:809f7e3eeb8d6341",
+    "word_count": 1862
+  },
+  "last_updated": "2024-02-27T18:46:54.782589+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before: WHITE, BUSH, and LARSEN, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff-Appellee,\nv.\nRenerto Lamar MAYES, Defendant-Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "HELENE N. WHITE, Circuit Judge.\nAfter a jury convicted defendant-appellant Renerto Mayes of being a felon in possession of a firearm, the district court sentenced him to 180 months' imprisonment under the Armed Career Criminal Act (ACCA) based on five previous convictions for serious drug offenses under Kentucky law. Mayes appeals, arguing that because the Kentucky legislature reduced the maximum penalty for three of his offenses from ten years to five years, the district court erred in sentencing him as an armed career criminal. We AFFIRM.\nI. Background\nUnder the ACCA, a defendant who violates 18 U.S.C. \u00a7 922(g) and has \"three previous convictions ... for a violent felony or a serious drug offense, or both, committed on occasions different from one another ... shall be ... imprisoned not less than fifteen years.\" 18 U.S.C. \u00a7 924(e)(1). A serious drug offense includes \"an offense under State law, involving manufacturing, distributing, or possessing with intent to manufacture or distribute, a controlled substance ... for which a maximum term of imprisonment of ten years or more is prescribed by law.\" 18 U.S.C. \u00a7 924(e)(2)(A)(ii).\nBecause at the time of sentencing each of Mayes's five previous Kentucky convictions for trafficking cocaine carried a maximum prison term of ten years, the probation office determined the offenses qualified as \"serious drug offense[s]\" under the ACCA, 18 U.S.C. \u00a7 924(e)(2)(A)(ii). Mayes objected to the PSR's armed career criminal designation, asserting that the maximum ten-year sentence for his three 2006 offenses had been reduced to five years by the Kentucky legislature in 2011. As a result, Mayes argued, only two of his previous convictions qualified as serious drug offenses and the ACCA's mandatory minimum sentence did not apply.\nThe district court rejected Mayes's arguments, relying on McNeill v. United States , 563 U.S. 816, 131 S.Ct. 2218, 180 L.Ed.2d 35 (2011), which held that a court must consult the law that applied at the time of the previous conviction to determine whether that conviction qualifies as a serious drug offense within the meaning of ACCA. The district court determined that Mayes is an armed career criminal and sentenced him below the guidelines range to the fifteen-year statutory mandatory minimum term under the ACCA. Mayes now appeals.\nII. Discussion\nA. Standard of Review and Applicable Law\nThe court reviews de novo whether a prior conviction is a \"serious drug offense\" under the ACCA. United States v. Stafford , 721 F.3d 380, 395-96 (6th Cir. 2013).\nTo determine whether a particular offense qualifies as a serious drug offense, the court applies a \"categorical approach,\" which looks \"only to the statutory definitions-i.e. , the elements-of a defendant's prior offenses, and not to the particular facts underlying those convictions.\" Descamps v. United States , 570 U.S. 254, 261, 133 S.Ct. 2276, 186 L.Ed.2d 438 (2013) (internal quotation marks and citation omitted). Further, the inquiry turns on the elements of the offense, and not the label state law places on it. Taylor v. United States , 495 U.S. 575, 588-89, 110 S.Ct. 2143, 109 L.Ed.2d 607 (1990) (\"Congress intended that the enhancement provision [of the ACCA] be triggered by crimes having certain specified elements, not by crimes that happened to be labeled 'robbery' or 'burglary' by the laws of the State of conviction.\").\nB. Analysis\nIn 2006, Mayes was convicted of three counts of trafficking cocaine, in violation of Ky. Rev. Stat. \u00a7 218A.1412(1) (2006). At the time, the statute stated that \"[a] person is guilty of trafficking in a controlled substance in the first degree when he knowingly and unlawfully traffics in: a controlled substance, that is classified in Schedules I or II which is a narcotic drug.\" Ky. Rev. Stat. \u00a7 218A.1412(1) (2006). The statute further stated that \"[a]ny person who violates the provisions of subsection (1) of this section shall: [f]or the first offense be guilty of a Class C felony.\" Ky. Rev. Stat. \u00a7 218A.1412(2)(a) (2006). Class C felonies were punishable by up to ten years in prison. Ky. Rev. Stat. \u00a7 532.060(2)(c) (2006).\nIn 2011, the Kentucky legislature amended the statute, reducing the maximum term of imprisonment from ten years to five years for offenses involving less than a certain quantity of controlled substances. The revised statute stated:\n(1) A person is guilty of trafficking in a controlled substance in the first degree when he or she knowingly and unlawfully traffics in:\n(a) Four (4) grams or more of cocaine;\n(b) Two (2) grams or more of methamphetamine;\n(c) Ten (10) or more dosage units of a controlled substance that is classified in Schedules I or II and is a narcotic drug, or a controlled substance analogue;\n(d) Any quantity of lysergic acid diethylamide; phencyclidine; gamma hydroxybutyric acid (GHB), including its salts, isomers, salts of isomers, and analogues; or flunitrazepam, including its salts, isomers, and salts of isomers; or\n(e) Any quantity of a controlled substance specified in paragraph (a), (b), or (c) of this subsection in an amount less than the amounts specified in those paragraphs.\nKy. Rev. Stat. \u00a7 218A.1412(1) (2011). Mayes claims his three 2006 offenses fall within subsection (e). The revised law further stated that \"[a]ny person who violates the provisions of subsection (1)(e) of this section: [s]hall be guilty of a Class D felony for the first offense and a Class C felony for a second or subsequent offense.\" Ky. Rev. Stat. \u00a7 532.060(2)(c) (2011). A Class D felony is punishable by a maximum term of imprisonment of five years. Id. at \u00a7 532.060(2)(d).\nMayes admits that he has at least three Kentucky convictions for trafficking in a controlled substance. He also acknowledges that at the time of his 2006 convictions, these offenses subjected him to a ten-year maximum term of imprisonment. Nonetheless, Mayes argues that the Kentucky legislature's reclassification of his 2006 offenses from Class C to Class D felonies-and reduction of the maximum term from ten years to five-applies to render his 2006 convictions ineligible to serve as predicate offenses under the ACCA. In support, Mayes cites Kentucky's retroactivity statute, Ky. Rev. Stat. \u00a7 446.110, which states:\nNo new law shall be construed to repeal a former law as to any offense committed against a former law, nor as to any act done, or penalty, forfeiture or punishment incurred, or any right accrued or claim arising under the former law, or in any way whatever to affect any such offense or act so committed or done, or any penalty, forfeiture or punishment so incurred, or any right accrued or claim arising before the new law takes effect, except that the proceedings thereafter had shall conform, so far as practicable, to the laws in force at the time of such proceedings. If any penalty, forfeiture or punishment is mitigated by any provision of the new law, such provision may, by the consent of the party affected, be applied to any judgment pronounced after the new law takes effect.\nMayes asserts that the \"limited retroactivity provision applies here\" because his ACCA enhancement is \"mitigated by [a] provision of [a] new law\"-the 2011 amendments lowering the maximum penalties for selling less than four grams of cocaine-and his ACCA sentence is a \"judgment pronounced after the new law takes effect.\" (Appellant Br. at 6-7.)\nWe disagree. In sentencing Mayes, the district court correctly concluded that Mayes's argument is foreclosed by McNeill v. United States , 563 U.S. 816, 131 S.Ct. 2218, 180 L.Ed.2d 35 (2011), which held that a federal sentencing court \"must determine whether 'an offense under State law' is a 'serious drug offense' by consulting the 'maximum term of imprisonment' applicable to a defendant's previous drug offense at the time of the defendant's state conviction for that offense.\" Id. at 825, 131 S.Ct. 2218 (citing \u00a7 924(e)(2)(A)(ii) ). The Supreme Court explained that:\nIt cannot be correct that subsequent changes in state law can erase an earlier conviction for ACCA purposes. A defendant's history of criminal activity-and the culpability and dangerousness that such history demonstrates-does not cease to exist when a State reformulates its criminal statutes in a way that prevents precise translation of the old conviction into the new statutes.\nId. at 823, 131 S.Ct. 2218. However, the Court qualified its holding in a footnote:\nAs the Government notes, this case does not concern a situation in which a State subsequently lowers the maximum penalty applicable to an offense and makes that reduction available to defendants previously convicted and sentenced for that offense. We do not address whether or under what circumstances a federal court could consider the effect of that state action.\nId. at 825 n.1, 131 S.Ct. 2218.\nMayes relies on this footnote together with the final sentence of Ky. Rev. Stat. \u00a7 446.110 -\"[i]f any penalty, forfeiture or punishment is mitigated by any provision of the new law, such provision may, by the consent of the party affected, be applied to any judgment pronounced after the new law takes effect\"-to argue that because the district court sentenced him as an armed career criminal in 2018, his judgment was \"pronounced\" after the new law took effect in 2011, and the new provisions apply. (Appellant Br. at 7, citing Ky. Rev. Stat. \u00a7 446.110.)\nThe problem with Mayes's argument is that the Kentucky Supreme Court has held on at least two occasions that Ky. Rev. Stat. \u00a7 446.110 does not retroactively mitigate sentences that were \"pronounced\" before the legislature changed the law in 2011. See Rogers v. Commonwealth , 366 S.W.3d 446, 456 (Ky. 2012) (\"Because [the revised penalty statute] had not gone into effect at the time the judgment against Rogers was pronounced, Rogers may not now invoke the new law's penalty provisions.\"); Conyers v. Commonwealth , 530 S.W.3d 413, 434 (Ky. 2017) (stating that \"the problem with Conyers' reliance on [ Ky. Rev. Stat. \u00a7 446.110 ] is that the judgment to which he wants to apply the new, 'penalty-mitigating' version of the statute-his 2004 trafficking conviction-was pronounced some seven years before the new law took effect. The KRS 446.110 exception, by its own terms, does not apply in this situation.\") (citing Rogers , 366 S.W.3d at 456 ). Thus, the Kentucky statute does not apply retroactively and McNeill controls.\nIII. CONCLUSION\nFor the reasons above, we AFFIRM the district court's application of the ACCA's sentencing enhancement.\nAt the time of his 2006 convictions, Ky. Rev. Stat. \u00a7 218A.1412 and Ky. Rev. Stat. \u00a7 532.060 did not distinguish between trafficking in different quantities of cocaine. Mayes asserted in his objections to the PSR, and asserts again on appeal, that each of his three 2006 offenses involved less than one gram of cocaine. Neither the probation office nor the government has disputed this claim. Thus, we assume for purposes of this appeal that Mayes falls within sub-section (e).",
+        "type": "majority",
+        "author": "HELENE N. WHITE, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "ON BRIEF: Christian J. Grostic, FEDERAL PUBLIC DEFENDER, Cleveland, Ohio, for Appellant. L. Jay Gilbert, UNITED STATES ATTORNEY'S OFFICE, Louisville, Kentucky, for Appellee."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff-Appellee,\nv.\nRenerto Lamar MAYES, Defendant-Appellant.\nNo. 18-5902\nUnited States Court of Appeals, Sixth Circuit.\nDecided and Filed: June 27, 2019\nON BRIEF: Christian J. Grostic, FEDERAL PUBLIC DEFENDER, Cleveland, Ohio, for Appellant. L. Jay Gilbert, UNITED STATES ATTORNEY'S OFFICE, Louisville, Kentucky, for Appellee.\nBefore: WHITE, BUSH, and LARSEN, Circuit Judges."
+  },
+  "file_name": "0502-01",
+  "first_page_order": 502,
+  "last_page_order": 506
+}

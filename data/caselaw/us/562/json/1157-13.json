@@ -1,0 +1,59 @@
+{
+  "id": 5983584,
+  "name": "Jackson v. Mississippi",
+  "name_abbreviation": "Jackson v. Mississippi",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7657",
+  "first_page": "1157",
+  "last_page": "1157",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1157"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 72,
+    "ocr_confidence": 0.593,
+    "sha256": "dde98821beb9ce123979bb4ef510c1c1a8220b1bf673c2e50720ebb4c7e9b5be",
+    "simhash": "1:98a2010408fc818c",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jackson v. Mississippi."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Miss. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7657.\nJackson v. Mississippi."
+  },
+  "file_name": "1157-13",
+  "first_page_order": 1179,
+  "last_page_order": 1179
+}

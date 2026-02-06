@@ -1,0 +1,59 @@
+{
+  "id": 12412146,
+  "name": "Adkins v. Armstrong et al.",
+  "name_abbreviation": "Adkins v. Armstrong",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10244",
+  "first_page": "837",
+  "last_page": "837",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 837"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 76,
+    "ocr_confidence": 0.586,
+    "sha256": "efd49616462b0b66ea429ab860e192730884fa2fd8286f9e935c6e1c8db19951",
+    "simhash": "1:9080702899a4d029",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Adkins v. Armstrong et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10244.\nAdkins v. Armstrong et al."
+  },
+  "file_name": "0837-05",
+  "first_page_order": 913,
+  "last_page_order": 913
+}

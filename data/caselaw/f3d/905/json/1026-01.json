@@ -1,0 +1,726 @@
+{
+  "id": 12518728,
+  "name": "UNITED STATES of America, Plaintiff-Appellee, v. Andrew SHELTON, Frederick Lewis, Patrick Edwards & Terry Walker, Defendants-Appellants.",
+  "name_abbreviation": "United States v. Shelton",
+  "decision_date": "2018-10-03",
+  "docket_number": "Nos. 17-3084; 17-3127; 17-3396; 17-3559",
+  "first_page": "1026",
+  "last_page": "1038",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "905 F.3d 1026"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "7th Cir.",
+    "id": 9010,
+    "name": "United States Court of Appeals for the Seventh Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "18 U.S.C. \u00a7\u00a7 3553",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "683"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "813 F.3d 681",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4088020
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/813/0681-01"
+      ]
+    },
+    {
+      "cite": "879 F.3d 831",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12265953
+      ],
+      "pin_cites": [
+        {
+          "page": "837-38"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/879/0831-01"
+      ]
+    },
+    {
+      "cite": "243 F.3d 411",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11123616
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "416"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/243/0411-01"
+      ]
+    },
+    {
+      "cite": "580 F.3d 528",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4057260
+      ],
+      "pin_cites": [
+        {
+          "page": "541"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/580/0528-01"
+      ]
+    },
+    {
+      "cite": "692 F.3d 708",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3514020
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "715"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/692/0708-01"
+      ]
+    },
+    {
+      "cite": "804 F.3d 859",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4357514
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "867-68"
+        },
+        {
+          "page": "868",
+          "parenthetical": "\"[T]he district court's justifications for imposing [a prison term] also apply to the ... term of supervised release.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/804/0859-01"
+      ]
+    },
+    {
+      "cite": "825 F.3d 862",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4324995
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "869"
+        },
+        {
+          "page": "869",
+          "parenthetical": "\"[T]he district court was not required to provide two separate explanations, one for the term of imprisonment and one for the term of supervised release.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/825/0862-01"
+      ]
+    },
+    {
+      "cite": "873 F.3d 601",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12265371
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "610"
+        },
+        {
+          "page": "611"
+        },
+        {
+          "page": "610"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/873/0601-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 3583",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(c)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "789 F.3d 751",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4233742
+      ],
+      "pin_cites": [
+        {
+          "page": "757"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/789/0751-01"
+      ]
+    },
+    {
+      "cite": "390 F. App'x 557",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        3945256
+      ],
+      "pin_cites": [
+        {
+          "page": "560"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/390/0557-01"
+      ]
+    },
+    {
+      "cite": "458 F. App'x 568",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        4213169
+      ],
+      "pin_cites": [
+        {
+          "page": "569"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/458/0568-01"
+      ]
+    },
+    {
+      "cite": "593 F.3d 645",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3517471
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "654"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/593/0645-01"
+      ]
+    },
+    {
+      "cite": "864 F.3d 575",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12275823
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "579"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/864/0575-01"
+      ]
+    },
+    {
+      "cite": "602 F.3d 802",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3920957
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "807"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/602/0802-01"
+      ]
+    },
+    {
+      "cite": "533 F.3d 972",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4038616
+      ],
+      "pin_cites": [
+        {
+          "page": "976"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/533/0972-01"
+      ]
+    },
+    {
+      "cite": "599 F.3d 785",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4223207
+      ],
+      "pin_cites": [
+        {
+          "page": "790"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/599/0785-01"
+      ]
+    },
+    {
+      "cite": "563 F.3d 572",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4237768
+      ],
+      "pin_cites": [
+        {
+          "page": "581"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/563/0572-01"
+      ]
+    },
+    {
+      "cite": "601 F.3d 1202",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4224804
+      ],
+      "pin_cites": [
+        {
+          "page": "1220"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/601/1202-01"
+      ]
+    },
+    {
+      "cite": "359 F.3d 1253",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9287403
+      ],
+      "pin_cites": [
+        {
+          "page": "1256"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/359/1253-01"
+      ]
+    },
+    {
+      "cite": "613 F.3d 1211",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3703162
+      ],
+      "pin_cites": [
+        {
+          "page": "1216"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/613/1211-01"
+      ]
+    },
+    {
+      "cite": "776 F.3d 447",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6887903
+      ],
+      "pin_cites": [
+        {
+          "page": "451"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/776/0447-01"
+      ]
+    },
+    {
+      "cite": "696 F. App'x 391",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        12399125
+      ],
+      "pin_cites": [
+        {
+          "page": "394"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/696/0391-01"
+      ]
+    },
+    {
+      "cite": "725 F. App'x 252",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "pin_cites": [
+        {
+          "page": "254"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "884 F.3d 679",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516218
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "681"
+        },
+        {
+          "page": "680",
+          "parenthetical": "\"[D]ouble counting is permitted unless the text of the guidelines or the authoritative commentary expressly prohibits it. Thus, to find that the court erred ..., we must conclude that the guidelines expressly prohibit it.\" (emphasis added) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/884/0679-01"
+      ]
+    },
+    {
+      "cite": "732 F.3d 736",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3710355
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "740"
+        },
+        {
+          "page": "740"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/732/0736-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 924",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(l)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "549 F.3d 552",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5734093
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/549/0552-01"
+      ]
+    },
+    {
+      "cite": "668 F.3d 516",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6048763
+      ],
+      "weight": 10,
+      "pin_cites": [
+        {
+          "page": "519"
+        },
+        {
+          "page": "523"
+        },
+        {
+          "page": "519",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "526"
+        },
+        {
+          "page": "525"
+        },
+        {
+          "page": "525-26",
+          "parenthetical": "footnotes omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/668/0516-01"
+      ]
+    },
+    {
+      "cite": "701 F.3d 1142",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5710238
+      ],
+      "pin_cites": [
+        {
+          "page": "1157"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/701/1142-01"
+      ]
+    },
+    {
+      "cite": "560 F.3d 660",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3428345
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "667"
+        },
+        {
+          "page": "667"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/560/0660-01"
+      ]
+    },
+    {
+      "cite": "645 F.3d 900",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5650495
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "906"
+        },
+        {
+          "page": "912"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/645/0900-01"
+      ]
+    },
+    {
+      "cite": "800 F.3d 402",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6055100
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "405"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/800/0402-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 659",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "parenthetical": "Count Three"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 922",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 10,
+      "pin_cites": [
+        {
+          "page": "(g)",
+          "parenthetical": "Count One"
+        },
+        {
+          "page": "(j)",
+          "parenthetical": "Count Two"
+        },
+        {
+          "page": "(j)"
+        },
+        {
+          "page": "(j)"
+        },
+        {
+          "page": "555"
+        },
+        {
+          "page": "(j)"
+        },
+        {
+          "page": "559"
+        },
+        {
+          "page": "559-60"
+        },
+        {
+          "page": "(i)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1104,
+    "char_count": 36192,
+    "pagerank": {
+      "raw": 7.472136851356761e-08,
+      "percentile": 0.44519024082098996
+    },
+    "sha256": "165902d21b4a974b31c1f4a40d50ea33ac4dbe406f621b154063fa66f67c8c01",
+    "simhash": "1:b1cf7bb4f0322341",
+    "word_count": 5708
+  },
+  "last_updated": "2024-02-27T18:46:01.347439+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Wood, Chief Judge, and Flaum and Hamilton, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff-Appellee,\nv.\nAndrew SHELTON, Frederick Lewis, Patrick Edwards & Terry Walker, Defendants-Appellants."
+    ],
+    "opinions": [
+      {
+        "text": "Flaum, Circuit Judge.\nDefendants Andrew Shelton, Frederick Lewis, Patrick Edwards, and Terry Walker raise several sentencing challenges. First, all defendants argue the district court improperly imposed multiple offense-level enhancements under U.S.S.G. \u00a7 2K2.1 in violation of double counting principles. Second, Shelton challenges the court's application of three criminal history points for a prior burglary conviction. Third, Lewis argues the court erred by imposing a three-year term of supervised release without separately addressing the \u00a7 3553(a) factors. We affirm.\nI. Background\nA. Factual Overview\nIn the early morning on April 12, 2015, eight men-Andrew Shelton, Alexander Peebles, Elgin Lipscomb, Terry Walker, Patrick Edwards, Frederick Lewis, Dandre Moody, and Marcel Turner-stole about 104 Ruger firearms from a cargo train parked in a Chicago rail yard. The firearms were new and packaged in their original boxes. The eight burglars then divided the stolen firearms among themselves and sold them on the black market. Most of the guns have not been recovered, but at least seventeen of the stolen guns have been recovered from crime scenes.\nB. Indictment and Guilty Pleas\nThe operative indictment is the third superseding indictment, which the grand jury returned on October 15, 2015. Relevant to this appeal, the indictment charged defendants with: possession of a firearm after being convicted of a felony, in violation of 18 U.S.C. \u00a7 922(g) (Count One); possession of a stolen firearm, in violation of 18 U.S.C. \u00a7 922(j) (Count Two); and cargo theft, in violation of 18 U.S.C. \u00a7 659 (Count Three). Shelton pleaded guilty to Counts One and Two; Lewis pleaded guilty to Counts One and Three; Edwards pleaded guilty to Counts One and Two; and Walker pleaded guilty to Counts One and Three.\nC. Sentencing\n1. Andrew Shelton\nThe district court sentenced Andrew Shelton on October 3, 2017. Relevant here, the pre-sentence report (\"PSR\") suggested: a two-level Guidelines enhancement for stolen firearms pursuant to \u00a7 2K2.1(b)(4)(A) (the \"stolen firearm enhancement\"); a four-level enhancement for \"engag[ing] in the trafficking of firearms\" pursuant to \u00a7 2K2.1(b)(5) (the \"trafficking enhancement\"); and a four-level enhancement for \"us[ing] or possess[ing] any firearm or ammunition in connection with another felony offense\" pursuant to \u00a7 2K2.1(b)(6)(B) (the \"other felony offense enhancement\"). Shelton objected to the application of the other felony offense enhancement, and the district court overruled the objection. It reasoned:\nHere, Mr. Shelton clearly possessed the firearms that he was taking from the train in connection with another offense, namely, that train robbery. Application note 14(B) to the guideline, 2K2.1, is directly on point. It says that subsection (b)(6)(B), which is the subsection we're talking about, applies in a case of a defendant who during the course of a burglary finds and takes a firearm even if the defendant did not engage in any other conduct with that firearm during the course of the burglary.\nAdditionally, Shelton objected to the PSR's recommendation of eleven criminal history points. Pursuant to U.S.S.G. \u00a7 4A1.2(a) and \u00a7 4A1.2(k), the PSR suggested adding three criminal history points for each of three 1999 burglary convictions. According to the PSR, Shelton was first arrested for burglary on January 24, 1999; on July 28, 1999, he pleaded guilty and he was sentenced to three years of probation. On February 8, 1999, Shelton again was arrested for burglary; on March 8, 1999, he pleaded guilty and was sentenced to twenty-nine days' imprisonment followed by three years of probation. And on August 26, 1999, Shelton was arrested for burglary a third time; he pleaded guilty on May 23, 2000. By committing this third burglary, Shelton violated the terms of his probation. The court revoked his probation and, for each of the three burglary convictions, sentenced Shelton to \"4 years of custody in the IDOC, concurrent with [the other two case numbers].\" He was released from custody on February 21, 2001, which is within fifteen years of the commencement of this case, April 12, 2015.\nAt sentencing, Shelton argued criminal history points were only appropriate for the May 2000 conviction. The court disagreed. Because there was no evidentiary presentation to the contrary, the court assumed the PSRs description of Shelton's prior convictions was accurate. It concluded that \"what the state court did formally was to impose that four-year sentence of revocation on each of those three cases, two of them being probation violations and one of them being an original sentence.\" Because the revocation term of imprisonment plus the original term of imprisonment was greater than thirteen months, and Shelton's date of release from incarceration was within fifteen years of commencement of the present offense, the court imposed three criminal history points for Shelton's March 1999 conviction. See U.S.S.G \u00a7 4A1.2(e), (k).\nIn total, Shelton's adjusted offense level was 29 and criminal history category was IV. The Guidelines suggested a term of imprisonment of 121-151 months. After the court examined the \u00a7 3553(a) factors, it commented that the disputed Guidelines factors and Shelton's criminal history score were not material to its sentencing decision. The court then imposed a below-Guidelines imprisonment term of 120 months and three years of supervised release.\n2. Frederick Lewis\nThe district court sentenced Frederick Lewis on October 5, 2017. Amongst the enhancements to his base offense level, the PSR suggested the two-level stolen firearm enhancement; the four-level trafficking enhancement; and the four-level other felony offense enhancement. Lewis raised several objections; relevant here, Lewis argued the other felony offense enhancement was improper because it resulted in \"double counting,\" as he also received the trafficking and stolen firearm enhancements. The district court overruled Lewis's objection. It explained:\nThere's no double counting involved because there has been an enhancement because the firearms were stolen. The enhancement for possession of the firearm in connection with another offense goes beyond the fact that the firearm was stolen. It's possession of the firearm in connection with the commission by Mr. Lewis of another offense, namely stealing firearms off the train car.... [T]he stolen firearm enhancement would apply whether or not Mr. Lewis had anything to do with the theft of the firearm in the first place.\nLewis's total adjusted offense level was 34 and criminal history category was VI. Due to a statutory cap, the Guidelines recommended 240 months' imprisonment. They also suggested one-to-three years of supervised release. The court considered and discussed the \u00a7 3553(a) factors at length, and it imposed a below-Guidelines imprisonment term of 180 months and a three-year term of supervised release. The court explained that supervised release was appropriate \"[g]iven the seriousness of this offense and the long unabated history of criminal conduct by Mr. Lewis.\" It also noted that the \"term of supervised release is not intended to be additional punishment\" but instead is \"intended to be a resource.\" It emphasized that the probation officer would \"provide support and guidance and mentoring and resources.\" At the end of the hearing, the government asked the court if it was \"fair to say that the Court would impose that sentence regardless of how the enhancements were [applied].\" The court replied that it \"did intend to point that out,\" and stated it would not have imposed a lower sentence if the Guidelines range was lower.\n3. Patrick Edwards\nNext, the district court sentenced Patrick Edwards on November 2, 2017. The PSR suggested applying the two-level stolen firearm enhancement; the four-level trafficking enhancement; and the four-level other felony offense enhancement. Edwards objected; he argued the court could not impose the stolen firearm enhancement or the other felony offense enhancement due to double counting. The court overruled both objections.\nFirst, the court saw no double counting concern with applying the stolen firearm enhancement to a person convicted of being a felon in possession of a firearm. It explained:\n[J]ust because someone is a felon in possession of a firearm, they're not necessarily in possession of a stolen firearm.... [W]here the firearm possessed by that prohibited person also happens to be a stolen firearm, the commission has said that there needs to be a further two-level enhancement based on the additional seriousness of the fact that the firearm being possessed by the prohibited person is a stolen firearm.\nSecond, as for the other felony offense enhancement, the court rejected the argument that this burglary did not qualify because the guns were packaged and not readily accessible.\nEdwards's total adjusted offense level was 29, and combined with a criminal history category of VI, the Guidelines suggested 151-188 months' imprisonment. After weighing the \u00a7 3553(a) factors, the court imposed a below-Guidelines term of imprisonment of 132 months and three years of supervised release. The court then explained that disputed Guidelines issues were not material to the sentence.\n4. Terry Walker\nLast, the district court sentenced Terry Walker on December 6, 2017. Like his codefendants, the PSR suggested the two-level stolen firearm enhancement; the four-level trafficking enhancement; and the four-level other felony offense enhancement. Walker objected to the application of both the trafficking enhancement and other felony offense enhancement. At sentencing the court rejected his objection. It explained:\nUnder Section 2K2.1(b)(6)(B), that enhancement applies to possession of a firearm in connection with another offense. And here Mr. Walker clearly possessed the firearms that were being stolen in connection with the train car burglary. His possession of the firearms was a crime. The burglary was a crime, and he possessed the firearms in connection with the burglary.... It's not double counting.\nWalker's total adjusted offense level was 34. With a criminal history category of IV, and taking into account the statutory maximum, the Guidelines suggested 210-240 months' imprisonment. After weighing the \u00a7 3553(a) factors, the court imposed a below-Guidelines imprisonment term of 150 months and three years of supervised release. After imposing the sentence, the court stressed it would have imposed the same sentence regardless of the Guidelines disputes.\nII. Discussion\nGenerally, \"[w]e review the district court's interpretation of the Guidelines de novo, and review for clear error the factual determinations underlying the district court's application of the Guidelines.\" United States v. Grzegorczyk , 800 F.3d 402, 405 (7th Cir.2015). \"We review de novo procedural errors,\" such as improperly calculating the Guidelines range or failing to consider the \u00a7 3553(a) factors. Id.\nAdditionally, \"[e]rrors in calculating the advisory guideline range are subject to harmless error analysis.\" United States v. Hill , 645 F.3d 900, 906 (7th Cir.2011). \"To prove harmless error, the government must be able to show that the Guidelines error did not affect the district court's selection of the sentence imposed.\" Id. at 912 (quoting United States v. Abbas , 560 F.3d 660, 667 (7th Cir.2009) ). \"[W]here the district court indicates that it would have imposed the same sentence regardless of any sentencing error, the error is harmless and a remand is not required.\" United States v. Foster , 701 F.3d 1142, 1157 (7th Cir.2012). However, \"a conclusory comment tossed in for good measure\" will not suffice. Abbas , 560 F.3d at 667.\nA. Double Counting\nAll four defendants challenge the district court's application of offense-level enhancements pursuant to U.S.S.G. \u00a7 2K2.1(b). At issue here are three subsections: The stolen firearm enhancement, \u00a7 2K2.1(b)(4)(A), calls for a two-level enhancement \"[if] any firearm ... was stolen.\" The trafficking enhancement, \u00a7 2K2.1(b)(5), calls for a four-level enhancement \"[i]f the defendant engaged in the trafficking of firearms.\" And the other felony offense enhancement, \u00a7 2K2.1(b)(6)(B), calls for a four-level enhancement \"[i]f the defendant ... used or possessed any firearm or ammunition in connection with another felony offense; or possessed or transferred any firearm or ammunition with knowledge, intent, or reason to believe that it would be used or possessed in connection with another felony offense.\"\nDefendants argue the district court erred in applying these enhancements because doing so resulted in impermissible \"double counting,\" a claim of procedural error we review de novo. \"In the context of guidelines sentencing, the term 'double counting' refers to using the same conduct more than once to increase a defendant's guidelines sentencing range.\" United States v. Vizcarra , 668 F.3d 516, 519 (7th Cir.2012). There are two types of double counting: (1) \"conduct that forms the factual basis for an element of the offense might also support a guidelines enhancement or adjustment, meaning that the conduct is counted once as part of the base offense and a second time through the application of an enhancement or adjustment\"; and (2) \"particular conduct might support the application of more than one enhancement or adjustment.\" Id.\nIn Vizcarra , we acknowledged inconsistency in our cases about double counting and clarified our jurisprudence. We issued a clear directive: \"[D]ouble counting is generally permissible unless the text of the guidelines expressly prohibits it.\" Id.\n1. The Stolen Firearm Enhancement\nFirst, only Edwards argues the district court improperly applied \u00a7 2K2.1(b)(4)(A) because Edwards pleaded guilty to possessing a stolen firearm under 18 U.S.C. \u00a7 922(j). He points out that \"the fact that such firearms were stolen was an element of [ \u00a7 922(j) ],\" and therefore contends that the stolen firearm enhancement cannot apply because \"the same facts, the same guns, and the same conduct are being used to unfairly twice penalize Mr. Edwards.\" We disagree.\nEdwards relies on United States v. Podhorn , 549 F.3d 552 (7th Cir.2008). In Podhorn , the defendant was convicted of violating several federal statutes, including selling stolen firearms in violation of 18 U.S.C. \u00a7 922(j). Id. at 555. On appeal, the defendant \"claim[ed] that he should not have received an enhancement under [U.S.S.G.] \u00a7 2K2.1(b)(4) based on the fact that some firearms were stolen, because the offense with which he was charged, 18 U.S.C. \u00a7 922(j), already includes as an element the fact that the firearm is stolen.\" Id. at 559. According to the defendant, \"[a]pplying the enhancement ... would ... amount to double-counting.\" Id. We agreed. Id. at 559-60. We relied on Application Note 8(A) (at the time, Application Note 9), which states:\nIf the only offense to which \u00a7 2K2.1 applies is 18 U.S.C. \u00a7 922(i), (j), or (u), or 18 U.S.C. \u00a7 924(l) or (m) (offenses involving a stolen firearm or stolen ammunition) and the base offense level is determined under subsection (a)(7), do not apply the enhancement in subsection (b)(4)(A). This is because the base offense level takes into account that the firearm or ammunition was stolen.\nU.S.S.G. \u00a7 2K2.1 cmt. n.8(A). As we later stated in Vizcarra , our decision in Podhorn was \"not controversial\" because it \"involved an explicit double-counting bar in the text of the guidelines.\" 668 F.3d at 523.\nContrary to Edwards's view, Podhorn is inapplicable here. Application Note 8(A) does not apply for two reasons. First, in this case, \u00a7 922(j) is not \"the only offense to which \u00a7 2K2.1 applies.\" Rather, Edwards also pleaded guilty to possession of a firearm as a convicted felon under \u00a7 922(g). Second, the base offense level was determined under \u00a7 2K2.1(a)(6), and not subsection (a)(7). Thus, unlike in Podhorn , Application Note 8(A) does not expressly prohibit application of the stolen firearm enhancement, and there is no impermissible double counting concern.\n2. The Other Felony Offense Enhancement\nNext, all defendants argue the court improperly imposed the other felony offense enhancement because it also imposed the stolen firearm enhancement and the trafficking enhancement. Because the Guidelines do not expressly preclude adding these enhancements together in appropriate cases, and each enhancement addresses a different aspect of defendants' conduct in this case, the district court did not err.\nDefendants first suggest Application Note 13(D) to \u00a7 2K2.1 expressly prohibits application of both the other felony offense and trafficking enhancements. Note 13(D) reads:\nIn a case in which three or more firearms were both possessed and trafficked, apply both subsections (b)(1) and (b)(5). If the defendant used or transferred one of such firearms in connection with another felony offense (i.e., an offense other than a firearms possession or trafficking offense) an enhancement under subsection (b)(6)(B) also would apply.\nU.S.S.G. \u00a7 2K2.1 cmt. n.13(D).\nIt is true that Note 13(D) \"expressly prohibits\" imposing enhancements under \u00a7 2K2.1(b)(6)(B) and \u00a7 2K2.1(b)(5) if the other felony offense is the trafficking offense itself. United States v. Johns , 732 F.3d 736, 740 (7th Cir.2013). For that reason, in Johns , we held that the court erred because it applied both enhancements \"based on the same conduct-[the defendant's] transfer of the firearms to the CI with knowledge that the CI was going to resell the firearms.\" Id .\nCritically, however, \"the guidelines do not prohibit simultaneous application of the trafficking and other-felony [offense] enhancements\" when the other felony offense is an offense other than firearms possession or trafficking. United States v. Rodriguez , 884 F.3d 679, 681 (7th Cir.2018) ; see also United States v. Grove , 725 F. App'x 252, 254 (4th Cir.2018) ; United States v. Truitt , 696 F. App'x 391, 394 (11th Cir.2017) ; United States v. Sweet , 776 F.3d 447, 451 (6th Cir.2015). Here, defendants possessed firearms in relation to a felony offense \"other than a firearms possession or trafficking offense\": burglary of the cargo train. Thus, unlike in Johns , only \u00a7 2K2.1(b)(5) applied based on defendants' sale of the firearms; \u00a7 2K2.1(b)(6)(B) was imposed due to the burglary.\nAdditionally, defendants maintain the court's application of the other felony offense enhancement constituted impermissible double counting because the stolen firearms were already used to apply the stolen firearm enhancement. While they point to no Guidelines provision or commentary that suggests a court cannot impose both enhancements, they emphasize that in Vizcarra , we held that \"double counting is generally permissible.\" 668 F.3d at 519 (emphasis added). They thus maintain that double counting may be impermissible even when not expressly prohibited by the Guidelines. They suggest that other circuits-which, as we said in Vizcarra , \"allow double counting unless the competing guidelines provisions address identical harms caused by the defendant's conduct\"-provide a roadmap for this supposed exception. See 668 F.3d at 526 & n.8 (citing United States v. Gallegos , 613 F.3d 1211, 1216 (9th Cir.2010) ; United States v. Coldren , 359 F.3d 1253, 1256 (10th Cir.2004) ; United States v. De La Cruz Suarez , 601 F.3d 1202, 1220 (11th Cir.2010) ).\nDefendants' argument is not persuasive. Our holding in Vizcarra was clear, well-reasoned, and based on the text and structure of the Guidelines. Indeed, nothing in our subsequent case law suggests any sort of exception. See, e.g. , Rodriguez , 884 F.3d at 680 (\"[D]ouble counting is permitted unless the text of the guidelines or the authoritative commentary expressly prohibits it. Thus, to find that the court erred ..., we must conclude that the guidelines expressly prohibit it.\" (emphasis added) ).\nMoreover, the \"competing guidelines provisions\" at issue here do not \"address identical harms caused by the defendant's conduct.\" See Vizcarra , 668 F.3d at 526. To be sure, all three enhancements relate to the same stolen guns. However, the court imposed the three enhancements to address distinct conduct and harm: the \u00a7 2K2.1(b)(4)(A) enhancement applied because defendants possessed firearms that happened to be stolen (regardless of whether defendants were involved in the theft of the firearms); the \u00a7 2K2.1(b)(5) enhancement applied because defendants trafficked firearms; and the \u00a7 2K2.1(b)(6)(B) enhancement applied because the defendants committed another felony offense , the burglary. See United States v. Hill , 563 F.3d 572, 581 (7th Cir.2009) (\"[T]he [other felony offense] enhancement in this case was based on conduct that was distinct from [the defendant's] simple possession of the firearms, namely the burglary.\").\nIndeed, Guidelines commentary explicitly instructs that the other felony offense enhancement does apply when a defendant acquires a firearm during a burglary:\nSubsection[ ] (b)(6)(B) ... appl[ies] ... in a case in which a defendant who, during the course of a burglary, finds and takes a firearm, even if the defendant did not engage in any other conduct with that firearm during the course of the burglary.... In [this] case[ ], application of subsection[ ] (b)(6)(B) ... is warranted because the presence of the firearm has the potential of facilitating another felony offense....\nU.S.S.G. \u00a7 2K2.1 cmt. n.14(B). Defendants argue Note 14(B) does not apply to the particular burglary at issue here. They emphasize that defendants did not set out to steal firearms, that the stolen firearms were boxed up for distribution, and that the firearms were not readily accessible and available for use. Defendants thus contend that applying the other felony enhancement would not serve the underlying rationale of Note 14: the risk of stolen firearms facilitating another offense.\nThis argument is not persuasive. \"Application Note 14(B) is unequivocal about when the \u00a7 2K2.1(b)(6) enhancement should apply: when a defendant, 'during the course of a burglary, finds and takes a firearm, even if the defendant did not engage in any other conduct with that firearm.' \" United States v. Krumwiede , 599 F.3d 785, 790 (7th Cir.2010) (quoting U.S.S.G. \u00a7 2K2.1 cmt. n.14(B) ); see also United States v. Johnston , 533 F.3d 972, 976 (8th Cir.2008) (\"Stealing a firearm during the course of a burglary triggers application of the [other felony offense] enhancement.\"). Put simply, as the district court concluded, \"there's nothing in the application note that suggests [defendants' proffered] limitation.\"\nIn sum, the stolen firearm, trafficking, and other felony offense enhancements were all appropriate, there was no impermissible double counting, and the court did not err.\nB. Shelton's Criminal History Points\nNext, Shelton challenges the court's decision to include three criminal history points for a prior burglary conviction. \"Under U.S.S.G. \u00a7 4A1.1(a), a criminal defendant is assigned three criminal history points for each prior sentence of imprisonment exceeding thirteen months.\" United States v. Moreno-Padilla , 602 F.3d 802, 807 (7th Cir.2010). \"The temporal reach of U.S.S.G. \u00a7 4A1.1(a) is limited to prior sentences imposed or served within fifteen years of the defendant's commencement of the offense for which he or she is presently being sentenced.\" Id. (citing U.S.S.G. \u00a7 4A1.2(e)(1) ).\nCriminal history points might also be added if a defendant's probation on a prior conviction \"was revoked and ... he was re-imprisoned based on that revocation.\" United States v. Marks , 864 F.3d 575, 579 (7th Cir.2017). In such a situation, the court \"add[s] the original term of imprisonment to any term of imprisonment imposed upon revocation,\" and \"[f]or the purposes of determining the applicable time period,\" the court uses \"the date of last release from incarceration on such sentence.\" U.S.S.G. \u00a7 4A1.2(k). If \"at the time of revocation another sentence was imposed for a new criminal conviction, that conviction [is] computed separately from the sentence imposed for the revocation.\" Id. \u00a7 4A1.2 cmt. n.11. At the same time, \"[w]here a revocation applies to multiple sentences, and such sentences are counted separately under \u00a7 4A1.2(a)(2),\" criminal history points are added only for \"the term of imprisonment imposed upon revocation to the sentence that will result in the greatest increase in criminal history points.\" Id.\nA brief refresher of the relevant facts: Shelton was convicted of three state burglaries in 1999 and 2000. According to the PSR, he was sentenced to three years' probation and twenty-nine days' imprisonment for a March 8, 1999 conviction and three years' probation for a July 28, 1999 conviction. When he was convicted for the third burglary on May 23, 2000, he also violated the terms of his probation for the first two burglaries. For each of the three convictions, he was sentenced to \"4 years of custody in the IDOC, concurrent with [the other case numbers].\" Based on this information, the district court concluded that the state court imposed three separate custodial sentences. Pursuant to \u00a7 4A1.2(a), the court imposed three criminal history points for the May 2000 conviction, and pursuant to \u00a7 4A1.2(k), it imposed three criminal history points for the March 1999 conviction.\nShelton argues the court erred because there is no evidence in the record suggesting the state court intended to impose separate terms of imprisonment for each prior burglary. Rather, he asserts that \"the state court simply intended ... to indicate that the periods of probation previously imposed ... would be, as a practical matter, revoked and terminated since defendant would be serving a 4-year sentence for the [third] burglary conviction.\"\nThe only mention of these prior burglaries in the record is made in the PSR. Shelton did not object to the PSR's description of the prior burglaries, and because there was no \"evidentiary presentation to suggest that what is reported ... in the [PSR] is inaccurate,\" the court accepted the PSR's characterization. If the PSR's account is accurate, the court did not err. In United States v. Eubanks , a defendant was charged with armed robbery, and as a result, his probation for a prior firearm theft conviction was revoked. 593 F.3d 645, 654 (7th Cir.2010). We emphasized that the fact that \"the sentence for the armed robbery offenses was to run 'concurrent' mean[s] that the sentence for the armed robbery offenses was a different offense from the revocation of probation/theft of the firearm sentence.\" Id. at 654 n.1. We thus held that \"[t]he district court correctly computed [the armed robbery] offense separate from the revocation offense for the purpose of criminal history points.\" Id. at 654 ; see also United States v. Green , 458 F. App'x 568, 569 (7th Cir.2012) (\"[R]evocations are always counted separately from convictions in criminal history calculations.\"); United States v. Brewster , 390 F. App'x 557, 560 (7th Cir.2010) (same).\nIn any event, even if the district court's reliance on the PSR was erroneous, any error in calculating Shelton's criminal history score was harmless. The district court imposed a below-Guidelines term of imprisonment, and it made an \"unequivocal statement ... that it would have imposed the same sentence\" even if it improperly calculated criminal history points. See United States v. Hines-Flagg , 789 F.3d 751, 757 (7th Cir.2015). At the conclusion of Shelton's sentencing hearing, the court stated clearly: \"[W]hether there are some arbitrary points added or taken away from Mr. Shelton's criminal history score does not change my overall analysis of the 3553(a) factors.\"\nC. Lewis's Supervised Release\nLast, Lewis argues the district court committed procedural error because it \"did not make the \u00a7 3553(a) findings required by \u00a7 3583(c) so as to properly justify the 3-year period of supervised release.\" We disagree. It is true that \"in determining the length of the term ... of supervised release,\" the district court \"shall consider\" various \u00a7 3553(a) factors. 18 U.S.C. \u00a7 3583(c). However, Lewis's argument is misplaced because the district court did consider the \u00a7 3553(a) factors.\n\"Although prison and supervised release are two different forms of punishment, they are both part of a single sentence.\" United States v. Oliver , 873 F.3d 601, 610 (7th Cir.2017) ; see also e.g. , United States v. Bloch , 825 F.3d 862, 869 (7th Cir.2016) ; United States v. Armour , 804 F.3d 859, 867-68 (7th Cir.2015). For that reason, a district court is \"not required to engage in a 'separate comprehensive analysis' of the \u00a7 3553(a) factors as they applied to [the defendant's] term of supervised release after extensively discussing those same factors with respect to [the defendant's] prison sentence.\" Oliver , 873 F.3d at 611 ; see also Bloch , 825 F.3d at 869 (\"[T]he district court was not required to provide two separate explanations, one for the term of imprisonment and one for the term of supervised release.\"); Armour , 804 F.3d at 868 (\"[T]he district court's justifications for imposing [a prison term] also apply to the ... term of supervised release.\"). Instead, the court \"need only provide one overarching explanation and justification-tethered of course, to the \u00a7 3553(a) factors-for why it thinks a criminal sentence comprised of both terms of imprisonment and supervised release is appropriate.\" Oliver , 873 F.3d at 611 (quoting Bloch , 825 F.3d at 870 ).\nHere, the court examined the \u00a7 3553(a) factors in detail in justifying its sentence, which included terms of imprisonment and supervised release. Moreover, it explicitly indicated that supervised release was appropriate \"[g]iven the seriousness of this offense and the long unabated history of criminal conduct by Mr. Lewis.\" It also commented that the probation officer would \"provide support and guidance and mentoring and resources.\" Thus, the court did not err.\nIII. Conclusion\nFor the foregoing reasons, we AFFIRM the judgment of the district court.\nThe government conceded that the PSR's suggestion of also imposing three criminal history points based on the July 1999 conviction was improper. See U.S.S.G. \u00a7 4A1.2 cmt. n.11.\nThe government maintains that Shelton, Lewis, and Walker \"all agreed in their sentencing memorandum, and failed to object at their sentencings, that the stolen firearm enhancement under Guidelines \u00a7 2K2.1(b)(4)(A) applied,\" and that Shelton did not object to the trafficking enhancement under \u00a7 2K2.1(b)(5). It thus contends that those defendants waived or forfeited review of those enhancements. We disagree. \"In the context of sentencing objections in the district court, a defendant need not present a 'fully developed or even well-articulated' objection to preserve it for appeal.\" United States v. Johns , 732 F.3d 736, 740 (7th Cir.2013) (quoting Swanson v. United States , 692 F.3d 708, 715 (7th Cir.2012) ). Here, all defendants \"objected to application of the other felony offense enhancement, which preserves the [double counting] issue.\" See id. Indeed, Lewis and Walker explicitly raised their double counting concerns.\nWe recognized that other circuits \"have developed slightly different 'tests' for finding 'impermissible' double counting.\" Vizcarra , 668 F.3d at 525. Specifically, the \"Third, Fourth, and Fifth Circuits allow double counting in the absence of an explicit textual bar\"; \"[t]he Second, Sixth, and Eighth Circuits allow double counting if Congress or the Sentencing Commission intended it, but presume such intent in the absence of a textual bar\"; \"[t]he First Circuit allows double counting absent an explicit textual bar or a compelling basis to recognize an implicit one\"; \"[t]he Ninth, Tenth, and Eleventh Circuits allow double counting unless the competing guidelines provisions address identical harms caused by the defendant's conduct\"; and \"[t]he D.C. Circuit ... appears to presume that double counting is permissible absent a textual bar.\" Id. at 525-26 (footnotes omitted).\nThe quoted text is the present wording of Application Note 8(A). While not verbatim to the text we considered in Podhorn , it is substantially similar.\nDefendants argue the government waived the opportunity to respond to this argument because it did not address the out-of-circuit cases cited by Lewis in its response brief. We disagree. In its response brief, the government responded to this precise argument. It explained why it believed the various enhancements accounted for distinct harms.\nShelton also argues the revocation sentence imposed related to the March 1999 conviction \"remained beyond the 15-year time period\" to be counted for criminal history points. This argument fails because for a term of imprisonment to be imposed due to revocation of probation, courts use \"the date of last release from incarceration on such sentence.\" U.S.S.G. \u00a7 4A1.2(k)(2)(A). Here, the date of release is within fifteen years of \"defendant's commencement of the instant offense.\" See id. \u00a7 4A1.2(e)(1).\nThe government suggests Lewis waived this argument because he did not challenge the Guidelines range for supervised release in his sentencing memorandum and did not object at the sentencing hearing. At minimum, the government maintains the error was forfeited so we should review for plain error. \"Waiver is the intentional relinquishment of a known right,\" while \"forfeiture typically results from 'an accidental or negligent omission.' \" United States v. Garcia , 580 F.3d 528, 541 (7th Cir.2009) (quoting United States v. Cooper , 243 F.3d 411, 416 (7th Cir.2001) ). \"The line between waiver and forfeiture is often blurry,\" and \"[t]he distinction is not always easy to make.\" Id. Indeed, our cases are inconsistent as to whether a defendant's failure to object to the PSR's Guidelines calculation constitutes waiver or forfeiture. Compare United States v. Oliver , 873 F.3d 601, 610 (7th Cir.2017) (\"[W]hen [the defendant] stated that he had no objections to the PSR at the beginning of the sentencing hearing, he could not have known whether the district court would comply with procedural requirements during the rest of the proceeding.\"), with United States v. Gumila , 879 F.3d 831, 837-38 (7th Cir.2018) (finding waiver). We need not resolve this tension because the district court did not err.\nLewis relies only on United States v. Henry , 813 F.3d 681 (7th Cir.2016). In Henry , we noted that \"[t]he government [was] right to concede sentencing error in regard to supervised release\" because the \"district judge had failed to make the findings required by 18 U.S.C. \u00a7\u00a7 3553(a) and 3583(d) to justify the length of a term of supervised release ... that he imposed.\" Id. at 683. Henry is distinct from this case for two reasons. First, the government conceded error. Second, the district court in Henry gave no explanation particular to why it imposed a term of supervised release.",
+        "type": "majority",
+        "author": "Flaum, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Christopher V. Parente, Attorney, OFFICE OF THE UNITED STATES ATTORNEY, Chicago, IL, for Plaintiff-Appellee.",
+      "Gregory T. Mitchell, Attorney, LAW OFFICE OF GREGORY T. MITCHELL, P.C., Homewood, IL, Wayne Barry Slaughter, Jr., Attorney, W.B. SLAUGHTER & ASSOCIATES, Flossmoor, IL, for Defendant-Appellant, Andrew Shelton.",
+      "Thomas W. Patton, Attorney, OFFICE OF THE FEDERAL PUBLIC DEFENDER, Peoria, IL, Daniel J. Hillis, Attorney, OFFICE OF THE FEDERAL PUBLIC DEFENDER, Springfield, IL, for Defendant-Appellant, Frederick Lewis.",
+      "Molly E. Armour, Attorney, LAW OFFICE OF MOLLY ARMOUR, Chicago, IL, Daniel J. Hillis, Attorney, OFFICE OF THE FEDERAL PUBLIC DEFENDER, Springfield, IL, for Defendant-Appellant, Patrick Edwards.",
+      "John C. Legutki, Attorney, Chicago, IL, Daniel J. Hillis, Attorney, OFFICE OF THE FEDERAL PUBLIC DEFENDER, Springfield, IL, for Defendant-Appellant, Terry Walker."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff-Appellee,\nv.\nAndrew SHELTON, Frederick Lewis, Patrick Edwards & Terry Walker, Defendants-Appellants.\nNos. 17-3084\n17-3127\n17-3396\n17-3559\nUnited States Court of Appeals, Seventh Circuit.\nArgued September 21, 2018\nDecided October 3, 2018\nChristopher V. Parente, Attorney, OFFICE OF THE UNITED STATES ATTORNEY, Chicago, IL, for Plaintiff-Appellee.\nGregory T. Mitchell, Attorney, LAW OFFICE OF GREGORY T. MITCHELL, P.C., Homewood, IL, Wayne Barry Slaughter, Jr., Attorney, W.B. SLAUGHTER & ASSOCIATES, Flossmoor, IL, for Defendant-Appellant, Andrew Shelton.\nThomas W. Patton, Attorney, OFFICE OF THE FEDERAL PUBLIC DEFENDER, Peoria, IL, Daniel J. Hillis, Attorney, OFFICE OF THE FEDERAL PUBLIC DEFENDER, Springfield, IL, for Defendant-Appellant, Frederick Lewis.\nMolly E. Armour, Attorney, LAW OFFICE OF MOLLY ARMOUR, Chicago, IL, Daniel J. Hillis, Attorney, OFFICE OF THE FEDERAL PUBLIC DEFENDER, Springfield, IL, for Defendant-Appellant, Patrick Edwards.\nJohn C. Legutki, Attorney, Chicago, IL, Daniel J. Hillis, Attorney, OFFICE OF THE FEDERAL PUBLIC DEFENDER, Springfield, IL, for Defendant-Appellant, Terry Walker.\nBefore Wood, Chief Judge, and Flaum and Hamilton, Circuit Judges."
+  },
+  "file_name": "1026-01",
+  "first_page_order": 1026,
+  "last_page_order": 1038
+}

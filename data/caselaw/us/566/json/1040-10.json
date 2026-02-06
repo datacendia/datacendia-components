@@ -1,0 +1,59 @@
+{
+  "id": 12226015,
+  "name": "Rabb v. McBride, Warden",
+  "name_abbreviation": "Rabb v. McBride",
+  "decision_date": "2012-06-04",
+  "docket_number": "No. 11-10002",
+  "first_page": "1040",
+  "last_page": "1040",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 1040"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.611,
+    "sha256": "9abd19b99e3bb470cec49136645af33e31dbb00189a6c24368e735c737565d25",
+    "simhash": "1:36963ef1de8f30f7",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rabb v. McBride, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10002.\nRabb v. McBride, Warden."
+  },
+  "file_name": "1040-10",
+  "first_page_order": 916,
+  "last_page_order": 916
+}

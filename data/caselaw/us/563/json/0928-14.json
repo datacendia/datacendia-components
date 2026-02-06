@@ -1,0 +1,59 @@
+{
+  "id": 5924062,
+  "name": "Gant v. United States",
+  "name_abbreviation": "Gant v. United States",
+  "decision_date": "2011-04-04",
+  "docket_number": "No. 10-9388",
+  "first_page": "928",
+  "last_page": "928",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 928"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.582,
+    "sha256": "2686baf30ab56ace60f4dad81a6968f1b7184c46f1c3796c8d840b6a3b85e90c",
+    "simhash": "1:878b9e8b4a4d0c20",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gant v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9388.\nGant v. United States."
+  },
+  "file_name": "0928-14",
+  "first_page_order": 954,
+  "last_page_order": 954
+}

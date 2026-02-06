@@ -1,0 +1,59 @@
+{
+  "id": 12218797,
+  "name": "Gleason v. California",
+  "name_abbreviation": "Gleason v. California",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5271",
+  "first_page": "898",
+  "last_page": "898",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 898"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 70,
+    "ocr_confidence": 0.572,
+    "sha256": "84f9f2ce1d5c649e5dad9727cdd0207e6204fc2d58e789f8faa01a855c6c2b68",
+    "simhash": "1:0a0f1144ccc0d03b",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gleason v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Cal. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5271.\nGleason v. California."
+  },
+  "file_name": "0898-12",
+  "first_page_order": 980,
+  "last_page_order": 980
+}

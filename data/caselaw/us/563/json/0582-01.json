@@ -1,0 +1,1733 @@
+{
+  "id": 5961428,
+  "name": "CHAMBER OF COMMERCE OF THE UNITED STATES OF AMERICA et al. v. WHITING et al.",
+  "name_abbreviation": "Chamber of Commerce of the United States v. Whiting",
+  "decision_date": "2011-05-26",
+  "docket_number": "No. 09-115",
+  "first_page": "582",
+  "last_page": "646",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 582"
+    },
+    {
+      "type": "parallel",
+      "cite": "131 S. Ct. 1968"
+    },
+    {
+      "type": "parallel",
+      "cite": "179 L. Ed. 2d 1031"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2010-047"
+    },
+    {
+      "type": "vendor",
+      "cite": "2011 U.S. LEXIS 4018"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "5 U. S. C. \u00a7 551",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "(8)",
+          "parenthetical": "\" Ticense' includes the whole or a part of an agency permit, certificate, approval, registration, charter, membership, statutory exemption or other form of permission\""
+        },
+        {
+          "page": "(8)",
+          "parenthetical": "defining \"license\" as including a \"registration\" or \"charter\""
+        },
+        {
+          "page": "(9)",
+          "parenthetical": "\" 'licensing' includes agency process respecting the grant, renewal, denial, revocation, suspension, annulment, withdrawal, limitation, amendment, modification, or conditioning of a license\" (emphasis added)"
+        },
+        {
+          "page": "(9)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "123 Stat. 2177",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "122 Stat. 3580",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "115 Stat. 2407",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "Va. Code Ann. \u00a740.1-11.2",
+      "category": "laws:leg_statute",
+      "reporter": "Va. Code Ann.",
+      "year": 2010,
+      "opinion_index": 0
+    },
+    {
+      "cite": "Utah Code Ann. \u00a713-47-201",
+      "category": "laws:leg_statute",
+      "reporter": "Utah Code Ann.",
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "W. Va. Code Ann. \u00a721",
+      "category": "laws:leg_statute",
+      "reporter": "W. Va. Code Ann.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "Va. Code Ann. \u00a72.2-4311.1",
+      "category": "laws:leg_statute",
+      "reporter": "Va. Code Ann.",
+      "year": 2008,
+      "opinion_index": 0
+    },
+    {
+      "cite": "Tenn. Code Ann. \u00a750",
+      "category": "laws:leg_statute",
+      "reporter": "Tenn. Code Ann.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "Mo. Rev. Stat. \u00a7\u00a7285-525",
+      "category": "laws:leg_statute",
+      "reporter": "Mo. Rev. Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "Miss. Code Ann. \u00a7 71",
+      "category": "laws:leg_statute",
+      "reporter": "Miss. Code Ann.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "Colo. Rev. Stat. Ann. \u00a78-17.5-102",
+      "category": "laws:leg_statute",
+      "reporter": "Colo. Rev. Stat. Ann.",
+      "year": 2008,
+      "opinion_index": 0
+    },
+    {
+      "cite": "Mont. Code Ann. \u00a741-121",
+      "category": "laws:leg_statute",
+      "reporter": "Mont. Code Ann.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "Fla. Stat. \u00a7448.09",
+      "category": "laws:leg_statute",
+      "reporter": "Fla. Stat.",
+      "year": 1981,
+      "pin_cites": [
+        {
+          "parenthetical": "enacted 1977"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "Conn. Gen. Stat. \u00a731",
+      "category": "laws:leg_statute",
+      "reporter": "Conn. Gen. Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "117 Stat. 1944",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "Ariz. Rev. Stat. Ann. \u00a723-214",
+      "category": "laws:leg_statute",
+      "reporter": "Ariz. Rev. Stat. Ann.",
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "(A)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "73 Fed. Reg. 33286",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "year": 2008,
+      "opinion_index": 0
+    },
+    {
+      "cite": "464 U. S. 238",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6197835
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "256"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/464/0238-01"
+      ]
+    },
+    {
+      "cite": "505 U. S. 88",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1481203
+      ],
+      "weight": 2,
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "111",
+          "parenthetical": "Kennedy, J., concurring in part and concurring in judgment"
+        },
+        {
+          "page": "110"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/505/0088-01"
+      ]
+    },
+    {
+      "cite": "Ariz. Rev. Stat. Ann. \u00a741-1463",
+      "category": "laws:leg_statute",
+      "reporter": "Ariz. Rev. Stat. Ann.",
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "(B)(1)",
+          "parenthetical": "prohibiting employment discrimination based on \"race, color, religion, sex, age or national origin\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 U. S. C. \u00a7 1813",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(6)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "Ariz. Rev. Stat. Ann. \u00a7\u00a75-108.05",
+      "category": "laws:leg_statute",
+      "reporter": "Ariz. Rev. Stat. Ann.",
+      "pin_cites": [
+        {
+          "page": "(D)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "489 U. S. 141",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12031713
+      ],
+      "weight": 2,
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "143-144",
+          "parenthetical": "patent law"
+        },
+        {
+          "page": "159, 161"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/489/0141-01"
+      ]
+    },
+    {
+      "cite": "529 U. S. 89",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9508214
+      ],
+      "weight": 2,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "97, 99",
+          "parenthetical": "regulation of maritime vessels"
+        },
+        {
+          "page": "106, 99"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/529/0089-01"
+      ]
+    },
+    {
+      "cite": "530 U. S. 363",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9413796
+      ],
+      "weight": 2,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "373-374",
+          "parenthetical": "foreign affairs power"
+        },
+        {
+          "page": "377"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/530/0363-01"
+      ]
+    },
+    {
+      "cite": "539 U. S. 396",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8898031
+      ],
+      "weight": 2,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "401, 405-406",
+          "parenthetical": "Presidential conduct of foreign policy"
+        },
+        {
+          "page": "425"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/539/0396-01"
+      ]
+    },
+    {
+      "cite": "531 U. S. 341",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9505666
+      ],
+      "weight": 2,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "353"
+        },
+        {
+          "page": "351"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/531/0341-01"
+      ]
+    },
+    {
+      "cite": "535 U. S. 137",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        355054
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "149-150, n. 4"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/535/0137-01"
+      ]
+    },
+    {
+      "cite": "545 U. S. 546",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8209559
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "568"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/545/0546-01"
+      ]
+    },
+    {
+      "cite": "287 U. S. 77",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        369583
+      ],
+      "year": 1932,
+      "pin_cites": [
+        {
+          "page": "83",
+          "parenthetical": "\"extrinsic aids to construction\" may be used \"to solve, but not to create an ambiguity\" (emphasis and internal quotation marks omitted)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/287/0077-01"
+      ]
+    },
+    {
+      "cite": "29 U. S. C. \u00a7 1871",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "100 Stat. 3372",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "weight": 3,
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 U. S. C. \u00a7 1801",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "260 U. S. 516",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11926296
+      ],
+      "year": 1923,
+      "pin_cites": [
+        {
+          "page": "518"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/260/0516-01"
+      ]
+    },
+    {
+      "cite": "455 U. S. 404",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11305830
+      ],
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "413, n. 8"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/455/0404-01"
+      ]
+    },
+    {
+      "cite": "466 U. S. 408",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6200640
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "417"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/466/0408-01"
+      ]
+    },
+    {
+      "cite": "Ariz. Rev. Stat. Ann. \u00a7\u00a7 10-302",
+      "category": "laws:leg_statute",
+      "reporter": "Ariz. Rev. Stat. Ann.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "507 U. S. 658",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6236295
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "664"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/507/0658-01"
+      ]
+    },
+    {
+      "cite": "561 U. S. 1024",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12455584,
+        12455777,
+        12455586,
+        12455587,
+        12455588,
+        12455589,
+        12455590,
+        12455591,
+        12455585,
+        12455793,
+        12455794
+      ],
+      "year": 2010,
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/177/1088-06",
+        "/l-ed-2d/177/1113-07",
+        "/l-ed-2d/177/1089-01",
+        "/l-ed-2d/177/1089-02",
+        "/l-ed-2d/177/1089-03",
+        "/l-ed-2d/177/1089-04",
+        "/l-ed-2d/177/1089-05",
+        "/l-ed-2d/177/1089-06",
+        "/l-ed-2d/177/1088-07",
+        "/l-ed-2d/177/1116-03",
+        "/l-ed-2d/177/1116-04"
+      ]
+    },
+    {
+      "cite": "Ariz. Rev. Stat. Ann. \u00a723-212",
+      "category": "laws:leg_statute",
+      "reporter": "Ariz. Rev. Stat. Ann.",
+      "weight": 8,
+      "pin_cites": [
+        {
+          "page": "(B)"
+        },
+        {
+          "page": "(B)"
+        },
+        {
+          "page": "(A) and (F)"
+        },
+        {
+          "page": "(A)"
+        },
+        {
+          "page": "(J)",
+          "parenthetical": "\"an employer that establishes that it has complied in good faith with the requirements of 8 United States Code section 1324a(b) establishes an affirmative defense that the employer did not knowingly employ an unauthorized alien\""
+        },
+        {
+          "page": "(1)"
+        },
+        {
+          "page": "(I)"
+        },
+        {
+          "page": "(H)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "8 U. S. C. \u00a7 1373",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(c)"
+        },
+        {
+          "page": "(c)"
+        },
+        {
+          "page": "(c)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "Ariz. Rev. Stat. Ann. \u00a7\u00a723-211",
+      "category": "laws:leg_statute",
+      "reporter": "Ariz. Rev. Stat. Ann.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "(9)"
+        },
+        {
+          "page": "(11)",
+          "parenthetical": "adopting the federal definition of \"unauthorized alien\""
+        },
+        {
+          "page": "(9)(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "558 F. 3d 856",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3359991
+      ],
+      "weight": 4,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "862"
+        },
+        {
+          "page": "860, 861, 866"
+        },
+        {
+          "page": "866"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/558/0856-01"
+      ]
+    },
+    {
+      "cite": "534 F. Supp. 2d 1036",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        3635433
+      ],
+      "weight": 5,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "1042"
+        },
+        {
+          "page": "1045-1046"
+        },
+        {
+          "page": "1055-1057"
+        },
+        {
+          "page": "1056"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/534/1036-01"
+      ]
+    },
+    {
+      "cite": "110 Stat. 3009",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "weight": 7,
+      "opinion_index": 0
+    },
+    {
+      "cite": "73 Fed. Reg. 10136",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "year": 2008,
+      "opinion_index": 0
+    },
+    {
+      "cite": "100 Stat. 3359",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "424 U. S. 351",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12026492
+      ],
+      "weight": 6,
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "353, 359"
+        },
+        {
+          "page": "354"
+        },
+        {
+          "page": "356"
+        },
+        {
+          "page": "360"
+        },
+        {
+          "page": "363",
+          "parenthetical": "finding no preemption of state law that operates \"only with respect to individuals whom the Federal Government has already declared cannot work in this country\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/424/0351-01"
+      ]
+    },
+    {
+      "cite": "8 U.S.C. \u00a71101",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "66 Stat. 163",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "487 U. S. 500",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1775177
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "504-505"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/487/0500-01"
+      ]
+    },
+    {
+      "cite": "534 Annals Am. Acad. Pol. & Soc. Sci. 44",
+      "category": "journals:journal",
+      "reporter": "Annals Am. Acad. Pol. & Soc. Sci.",
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "49",
+          "parenthetical": "describing how farmers who relied on contractors risked losing their labor forces to immigration raids"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "29 U. S. C. \u00a7 1853",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "48 Pa. Cons. Stat. \u00a7\u00a7 1301.503",
+      "category": "laws:leg_statute",
+      "reporter": "Pa. Cons. Stat.",
+      "pin_cites": [
+        {
+          "page": "(4)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "Cal. Lab. Code \u00a7 1690",
+      "category": "laws:leg_statute",
+      "reporter": "Cal. Code",
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "(f)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "96 Stat. 2583",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "78 Stat. 920",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "Ariz. Rev. Stat. Ann. \u00a7 29-308",
+      "category": "laws:leg_statute",
+      "reporter": "Ariz. Rev. Stat. Ann.",
+      "pin_cites": [
+        {
+          "parenthetical": "limited partnership formed upon the filing of a certificate of partnership providing names and addresses"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "Ariz. Rev. Stat. Ann. \u00a723-212.01",
+      "category": "laws:leg_statute",
+      "reporter": "Ariz. Rev. Stat. Ann.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(F)(2)"
+        },
+        {
+          "page": "41-43"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "73 Fed. Reg. 10134",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "73 Fed. Reg. 10133",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "weight": 2,
+      "year": 2008,
+      "opinion_index": 1
+    },
+    {
+      "cite": "28 CFR \u00a768.18",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "year": 2010,
+      "opinion_index": 1
+    },
+    {
+      "cite": "312 U. S. 52",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        359179
+      ],
+      "weight": 4,
+      "year": 1941,
+      "pin_cites": [
+        {
+          "page": "67"
+        },
+        {
+          "page": "90"
+        },
+        {
+          "page": "67"
+        },
+        {
+          "page": "67"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/312/0052-01"
+      ]
+    },
+    {
+      "cite": "479 U. S. 481",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6218766
+      ],
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "494"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/479/0481-01"
+      ]
+    },
+    {
+      "cite": "8 How. 113",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        3350337
+      ],
+      "year": 1849,
+      "pin_cites": [
+        {
+          "page": "122",
+          "parenthetical": "similar"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/49/0113-01"
+      ]
+    },
+    {
+      "cite": "546 U. S. 481",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5991514
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "486",
+          "parenthetical": "statutory interpretation requires courts to \"rea[d] the whole statutory text, considefr] the purpose and context of the statute, and consult] any precedents or authorities that inform the analysis\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/546/0481-01"
+      ]
+    },
+    {
+      "cite": "123 Stat. 2177",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "115 Stat. 2407",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "117 Stat. 1944",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "Ariz. Rev. Stat. Ann. \u00a723-214",
+      "category": "laws:leg_statute",
+      "reporter": "Ariz. Rev. Stat. Ann.",
+      "year": 2010,
+      "opinion_index": 1
+    },
+    {
+      "cite": "29 U. S. C. \u00a7 1813",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(6)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "530 U. S. 363",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9413796
+      ],
+      "weight": 2,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "373",
+          "parenthetical": "quoting Hines v. Davidowitz, 312 U. S. 52, 67 (1941)"
+        },
+        {
+          "page": "373"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/530/0363-01"
+      ]
+    },
+    {
+      "cite": "531 U. S. 341",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9505666
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "347-348"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/531/0341-01"
+      ]
+    },
+    {
+      "cite": "Ariz. Rev. Stat. Ann. \u00a723-212",
+      "category": "laws:leg_statute",
+      "reporter": "Ariz. Rev. Stat. Ann.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "(B)",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "122"
+        },
+        {
+          "page": "(H)"
+        },
+        {
+          "page": "(H)",
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "8 U. S. C. \u00a7 1373",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(c)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "Ariz. Rev. Stat. Ann. \u00a7\u00a723-211",
+      "category": "laws:leg_statute",
+      "reporter": "Ariz. Rev. Stat. Ann.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "et seq."
+        },
+        {
+          "page": "(9)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "110 Stat. 3009",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "522 U. S. 23",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11470498
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "29-30",
+          "parenthetical": "\"Where Congress includes particular language in one section of a statute but omits it in another section of the same Act, it is generally presumed that Congress acts intentionally and purposely in the disparate inclusion or exclusion\" (internal quotation marks and brackets omitted)"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/522/0023-01"
+      ]
+    },
+    {
+      "cite": "96 Stat. 2588",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "29 U. S. C. \u00a7 1811",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "96 Stat. 2587",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "562 U. S. 323",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12457251,
+        5992311
+      ],
+      "weight": 3,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "326",
+          "parenthetical": "concluding that a federal regulation permitting manufacturers to choose between two seatbelt options did not pre-empt state tort liability based on a decision to install one of those options"
+        },
+        {
+          "page": "337",
+          "parenthetical": "Sotomayor, J., concurring"
+        },
+        {
+          "page": "335"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/l-ed-2d/179/0075-01",
+        "/us/562/0323-01"
+      ]
+    },
+    {
+      "cite": "Ariz. Rev. Stat. Ann. \u00a7\u00a7 28-212",
+      "category": "laws:leg_statute",
+      "reporter": "Ariz. Rev. Stat. Ann.",
+      "pin_cites": [
+        {
+          "page": "(D)"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "413 U. S. 405",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11340955
+      ],
+      "year": 1973,
+      "pin_cites": [
+        {
+          "page": "415",
+          "parenthetical": "rejecting the argument that \"pre-emption is to be inferred merely from the comprehensive character of the federal [program]\""
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/413/0405-01"
+      ]
+    },
+    {
+      "cite": "496 U. S. 72",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12121785
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "87",
+          "parenthetical": "\"[T]he mere existence of a federal regulatory or enforcement scheme . . . does not by itself imply pre-emption of state remedies\""
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/496/0072-01"
+      ]
+    },
+    {
+      "cite": "302 U. S. 120",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6138180
+      ],
+      "year": 1937,
+      "pin_cites": [
+        {
+          "page": "127",
+          "parenthetical": "\"How long and upon what terms a state-created corporation may continue to exist is a matter exclusively of state power\""
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/302/0120-01"
+      ]
+    },
+    {
+      "cite": "500 U. S. 90",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6217796
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "98",
+          "parenthetical": "noting that \"[corporation law\" is an area traditionally \"governed by state-law standards\""
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/500/0090-01"
+      ]
+    },
+    {
+      "cite": "531 U. S. 457",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9505769
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "468",
+          "parenthetical": "\"Congress . . . does not, one might say, hide elephants in mouseholes\""
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/531/0457-01"
+      ]
+    },
+    {
+      "cite": "526 U. S. 227",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11133049
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "238"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/526/0227-01"
+      ]
+    },
+    {
+      "cite": "28 CFR \u00a7 68.54",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "year": 2010,
+      "opinion_index": 2
+    },
+    {
+      "cite": "331 U. S. 218",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6157471
+      ],
+      "year": 1947,
+      "pin_cites": [
+        {
+          "page": "230"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/331/0218-01"
+      ]
+    },
+    {
+      "cite": "518 U. S. 470",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1730146
+      ],
+      "weight": 2,
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "485",
+          "parenthetical": "quoting Rice v. Santa Fe Elevator Corp., 331 U. S. 218, 230 (1947)"
+        },
+        {
+          "page": "494",
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/518/0470-01"
+      ]
+    },
+    {
+      "cite": "100 Stat. 3384",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "502 U. S. 183",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6221371
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "194"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/502/0183-01"
+      ]
+    },
+    {
+      "cite": "Kan. Stat. Ann. \u00a7\u00a721-4409",
+      "category": "laws:leg_statute",
+      "reporter": "Kan. Stat. Ann.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "489 U. S. 803",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12033629
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "809",
+          "parenthetical": "\"[St]tatutory language cannot be construed in a vacuum. It is a fundamental canon of statutory construction that the words of a statute must be read in their context and with a view to their place in the overall statutory scheme\""
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/489/0803-01"
+      ]
+    },
+    {
+      "cite": "552 U. S. 214",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3675555
+      ],
+      "weight": 2,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "222",
+          "parenthetical": "construction of a statutory term \"must, to the extent possible, ensure that the statutory scheme is coherent and consistent\""
+        },
+        {
+          "page": "222"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/552/0214-01"
+      ]
+    },
+    {
+      "cite": "562 U. S. 397",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5934745,
+        12457261
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "407",
+          "parenthetical": "\"[C]onstruing statutory language is not merely an exercise in ascertaining the outer limits of [a word's] definitional possibilities\" (internal quotation marks omitted; second alteration in original)"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/562/0397-01",
+        "/l-ed-2d/179/0132-01"
+      ]
+    },
+    {
+      "cite": "Ariz. Rev. Stat. Ann. \u00a7 4-210",
+      "category": "laws:leg_statute",
+      "reporter": "Ariz. Rev. Stat. Ann.",
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "(A)(l)",
+          "parenthetical": "liquor licenses may be suspended or revoked if the licensing authority determines after notice and a hearing that repeated acts of violence have occurred on the licensed premises"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "487 U. S. 500",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1775177
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "504",
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/487/0500-01"
+      ]
+    },
+    {
+      "cite": "96 Stat. 2583",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "28 CFR \u00a768.18",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "year": 2010,
+      "opinion_index": 2
+    },
+    {
+      "cite": "546 U. S. 481",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5991514
+      ],
+      "weight": 2,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "486",
+          "parenthetical": "\"A word in a statute may or may not extend to the outer limits of its definitional possibilities\""
+        },
+        {
+          "page": "486",
+          "parenthetical": "\"Interpretation of a word or phrase depends upon reading the whole statutory text, considering the purpose and context of the statute\""
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/546/0481-01"
+      ]
+    },
+    {
+      "cite": "Ariz. Rev. Stat. Ann. \u00a723-214",
+      "category": "laws:leg_statute",
+      "reporter": "Ariz. Rev. Stat. Ann.",
+      "year": 2010,
+      "opinion_index": 2
+    },
+    {
+      "cite": "29 U. S. C. \u00a7 1813",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(6)"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "529 U. S. 89",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9508214
+      ],
+      "weight": 2,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "106",
+          "parenthetical": "\"We decline to give broad effect to saving clauses where doing so would upset the careful regulatory scheme established by federal law\""
+        },
+        {
+          "page": "106"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/529/0089-01"
+      ]
+    },
+    {
+      "cite": "530 U. S. 363",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9413796
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "373",
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/530/0363-01"
+      ]
+    },
+    {
+      "cite": "531 U. S. 341",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9505666
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "347",
+          "parenthetical": "\"[T]he relationship between a federal agency and the entity it regulates is inherently federal in character because the relationship originates from, is governed by, and terminates according to federal law\""
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/531/0341-01"
+      ]
+    },
+    {
+      "cite": "535 U. S. 137",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        355054
+      ],
+      "weight": 5,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "147"
+        },
+        {
+          "page": "147"
+        },
+        {
+          "page": "147"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/535/0137-01"
+      ]
+    },
+    {
+      "cite": "100 Stat. 3372",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "Ariz. Rev. Stat. Ann. \u00a723-212",
+      "category": "laws:leg_statute",
+      "reporter": "Ariz. Rev. Stat. Ann.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(B)"
+        },
+        {
+          "page": "(J)"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "8 U. S. C. \u00a7 1373",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(c)"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "110 Stat. 3009",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "100 Stat. 3359",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "424 U. S. 351",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12026492
+      ],
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "352, n. 1"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/424/0351-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 3224,
+    "char_count": 125265,
+    "ocr_confidence": 0.593,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.17198338590396584
+    },
+    "sha256": "50c4149b277f2879ab524ce0a0c86accbc37b2297f5c2441cfbdcbd6030882d5",
+    "simhash": "1:fc5dee80329042c8",
+    "word_count": 19690
+  },
+  "last_updated": "2024-02-27T23:44:09.189648+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Roberts, C. J., delivered the opinion of the Court, except as to Parts II-B and III-B. Scalia, Kennedy, and Alito, JJ., joined that opinion in full, and Thomas, J., joined as to Parts I, II-A, and III-A and concurred in the judgment. Breyer, J., filed a dissenting opinion, in which Ginsburg, J., joined, post, p. 611. Sotomayor, J., filed a dissenting opinion, post, p. 630. Kagan, J., took no part in the consideration or decision of the ease.",
+      "Justice Kagan took no part in the consideration or decision of this case."
+    ],
+    "parties": [
+      "CHAMBER OF COMMERCE OF THE UNITED STATES OF AMERICA et al. v. WHITING et al."
+    ],
+    "opinions": [
+      {
+        "text": "Chief Justice Roberts\ndelivered the opinion of the Court, except as to Parts II-B and III-B.\nFederal immigration law expressly preempts \u201cany State or local law imposing civil or criminal sanctions (other than through licensing and similar laws) upon those who employ . . . unauthorized aliens.\u201d 8 U. S. C. \u00a7 1324a(h)(2). A recently enacted Arizona statute \u2014 the Legal Arizona Workers Act \u2014 provides that the licenses of state employers that knowingly or intentionally employ unauthorized aliens may be, and in certain circumstances must be, suspended or revoked. The law also requires that all Arizona employers use a federal electronic verification system to confirm that the workers they employ are legally authorized workers. The question presented is whether federal immigration law preempts those provisions of Arizona law. Because we conclude that the State\u2019s licensing provisions fall squarely within the federal statute\u2019s saving clause and that the Arizona regulation does not otherwise conflict with federal law, we hold that the Arizona law is not preempted.\nI\nA\nIn 1952, Congress enacted the Immigration and Nationality Act (INA), 66 Stat. 163, as amended, 8 U.S.C. \u00a71101 et seq. That statute established a \u201ccomprehensive federal statutory scheme for regulation of immigration and naturalization\u201d and set \u201cthe terms and conditions of admission to the country and the subsequent treatment of aliens lawfully in the country.\u201d De Canas v. Bica, 424 U. S. 351, 353, 359 (1976).\nIn the years following the enactment of the INA, several States took action to prohibit the employment of individuals living within state borders who were not lawful residents of the United States. For example, in 1971 California passed a law providing that \u201c[n]o employer shall knowingly employ an alien who is not entitled to lawful residence in the United States if such employment would have an adverse effect on lawful resident workers.\u201d 1971 Cal. Stats, ch. 1442, \u00a7 1(a). The California law imposed fines ranging from $200 to $500 for each violation of this prohibition. \u00a7l(b). At least 11 other States enacted provisions during that same time period proscribing the employment of unauthorized aliens.\nWe first addressed the interaction of federal immigration law and state laws dealing with the employment of unauthorized aliens in De Canas, 424 U. S. 351. In that case, we recognized that the \u201c[p]ower to regulate immigration is unquestionably ... a federal power.\u201d Id., at 354. At the same time, however, we noted that the \u201cStates possess broad authority under their police powers to regulate the employment relationship to protect workers within the State,\u201d id., at 356, that \u201cprohibiting] the knowing employment ... of persons not entitled to lawful residence in the United States, let alone to work here, is certainly within the mainstream of [the State\u2019s] police power,\u201d ibid., and that the Federal Government had \u201cat best\u201d expressed \u201ca peripheral concern with [the] employment of illegal entrants\u201d at that point in time, id., at 360. As a result, we declined to hold that a state law assessing civil fines for the employment of unauthorized aliens was preempted by federal immigration law.\nTen years after De Canas, Congress enacted the Immigration Reform and Control Act (IRCA), 100 Stat. 3359. IRCA makes it \u201cunlawful for a person or other entity ... to hire, or to recruit or refer for a fee, for employment in the United States an alien knowing the alien is an unauthorized alien.\u201d 8 U. S. G. \u00a7 1324a(a)(l)(A). IRCA defines an \u201cunauthorized alien\u201d as an alien who is not \u201clawfully admitted for permanent residence\u201d or not otherwise authorized by the Attorney General to be employed in the United States. \u00a7 1324a(h)(3).\nTo facilitate compliance with this prohibition, IRCA requires that employers review documents establishing an employee\u2019s eligibility for employment. \u00a71324a(b). An employer can confirm an employee\u2019s authorization to work by reviewing the employee\u2019s United States passport, resident alien card, alien registration card, or other document approved by the Attorney General; or by reviewing a combination of other documents such as a driver\u2019s license and social security card. \u00a7\u00a7 1324a(b)(l)(B)-(D). The employer must attest under penalty of perjury on Department of Homeland Security Form 1-9 that he \u201chas verified that the individual is not an unauthorized alien\u201d by reviewing these documents. \u00a7 1324a(b)(l)(A). The form 1-9 itself \u201cand any information contained in or appended to [it] . . . may not be used for purposes other than for enforcement of\u201d IRCA and other specified provisions of federal law. \u00a7 1324a(b)(5).\nEmployers that violate IRCA\u2019s strictures may be subjected to both civil and criminal sanctions. Immigration and Customs Enforcement, an entity within the Department of Homeland Security, is authorized to bring charges against a noneompliant employer under \u00a7 1324a(e). Depending on the circumstances of the violation, a civil fine ranging from $250 to $16,000 per unauthorized worker may be imposed. See \u00a7 1324a(e)(4)(A); 73 Fed. Reg. 10136 (2008). Employers that engage in a pattern or practice of violating IRCA\u2019s requirements can be criminally prosecuted, fined, and imprisoned for up to six months. \u00a7 1324a(f)(l). The Act also imposes fines for engaging in \u201cunfair immigration-related employment practice^] \u201d such as discriminating on the basis of citizenship or national origin. \u00a7 1324b(a)(l); see \u00a7'1324b(g)(2)(B). Good-faith compliance with IRCA\u2019s 1-9 document review requirements provides an employer with an affirmative defense if charged with a \u00a7 1324a violation. \u00a7 1324a(a)(3).\nIRCA also restricts the ability of States to combat employment of unauthorized workers. The Act expressly preempts \u201cany State or local law imposing civil or criminal sanctions (other than through licensing and similar laws) upon those who employ, or recruit or refer for a fee for employment, unauthorized aliens.\u201d \u00a7 1324a(h)(2). Under that provision, state laws imposing civil fines for the employment of unauthorized workers like the one we upheld in De Canas are now expressly preempted.\nIn 1996, in an attempt to improve IRCA\u2019s employment verification system, Congress created three experimental complements to the 1-9 process as part of the Illegal Immigration Reform and Immigrant Responsibility Act (IIRIRA), 110 Stat. 3009-655, note following 8 U. S. C. \u00a7 1324a. Arizona Contractors Assn., Inc. v. Candelaria, 534 F. Supp. 2d 1036, 1042 (Ariz. 2008); see 8 U. S. C. \u00a7 1324a(d). Only one of those programs \u2014 E-Verify\u2014remains in operation today. Originally known as the \u201cBasic Pilot Program,\u201d E-Verify \u201cis an internet-based system that allows an employer to verify an employee\u2019s work-authorization status.\u201d Chicanos Por La Causa, Inc. v. Napolitano, 558 F. 3d 856, 862 (CA9 2009). An employer submits a request to the E-Verify system based on information that the employee provides similar to that used in the 1-9 process. In response to that request, the employer receives either a confirmation or a tentative non-confirmation of the employee\u2019s authorization to work. An employee may challenge a noneonfirmation report. If the employee does not do so, or if his challenge is unsuccessful, his employment must be terminated or the Federal Government must be informed. See ibid.\nIn the absence of a prior violation of certain federal laws, IIRIRA prohibits the Secretary of Homeland Security from \u201crequiring] any person or . . . entity\u201d outside the Federal Government \u201cto participate in\u201d the E-Verify program, \u00a7\u00a7 402(a), (e), 110 Stat. 3009-656 to 3009-658. To promote use of the program, however, the statute provides that any employer that utilizes E-Verify \u201cand obtains confirmation of identity and employment eligibility in compliance with the terms and conditions of the program . . . has established a rebuttable presumption\u201d that it has not violated IRCA\u2019s unauthorized alien employment prohibition, \u00a7 402(b)(1), id., at 3009-656 to 3009-657.\nB\nActing against this statutory and historical background, several States have recently enacted laws attempting to impose sanctions for the employment of unauthorized aliens through, among other things, \u201clicensing and similar laws,\u201d 8 U. S. C. \u00a7 1324a(h)(2). Arizona is one of them. The Legal Arizona Workers Act of 2007 allows Arizona courts to suspend or revoke the licenses necessary to do business in the State if an employer knowingly or intentionally employs an unauthorized alien. Ariz. Rev. Stat. Ann. \u00a7\u00a723-211,23-212, 23-212.01 (West Supp. 2010) (citing 8 U. S. C. \u00a7 1324a).\nUnder the Arizona law, if an individual files a complaint alleging that an employer has hired an unauthorized alien, the attorney general or the county attorney first verifies the employee\u2019s work authorization with the Federal Government pursuant to 8 U. S. C. \u00a7 1373(c). Ariz. Rev. Stat. Ann. \u00a723-212(B). Section 1373(c) provides that the Federal Government \u201cshall respond to an inquiry by a\u201d State \u201cseeking to verify or ascertain the citizenship or immigration status of any individual ... by providing the requested verification or status information.\u201d The Arizona law expressly prohibits state, county, or local officials from attempting \u201cto independently make a final determination on whether an alien is authorized to work in the United States.\u201d Ariz. Rev. Stat. Ann. \u00a7 23-212(B). If the \u00a7 1373(c) inquiry reveals that a worker is an unauthorized alien, the attorney general or the county attorney must notify United States Immigration and Customs Enforcement officials, notify local law enforcement, and bring an action against the employer. \u00a7\u00a7 23-212(C)(l)-(3), (D).\nWhen a complaint is brought against an employer under Arizona law, \u201cthe court shall consider only the federal government\u2019s determination pursuant to\u201d 8 U. S. C. \u00a7 1373(c) in \u201cdetermining whether an employee is an unauthorized alien.\u201d \u00a723-212(H). Good-faith compliance with the federal 1-9 process provides employers prosecuted by the State with an affirmative defense. \u00a7 23-212(J).\nA first instance of \u201cknowingly employing] an unauthorized alien\u201d requires that the court order the employer to terminate the employment of all unauthorized aliens and file quarterly reports on all new hires for a probationary period of three years. \u00a7\u00a723-212(A), (F)(l)(a)-(b). The court may also \u201corder the appropriate agencies to suspend all licenses ... that are held by the employer for [a period] not to exceed ten business days.\u201d \u00a7 23~212(F)(l)(d). A second knowing violation requires that the adjudicating court \u201cpermanently revoke all licenses that are held by the employer specific to the business location where the unauthorized alien performed work.\u201d \u00a7 23-212(F)(2).\nFor a first intentional violation, the court must order the employer to terminate the employment of all unauthorized aliens and file quarterly reports on all new hires for a probationary period of five years. \u00a7\u00a723-212.01(A), (F)(l)(a)-(b). The court must also suspend all the employer\u2019s licenses for a minimum of 10 days. \u00a7 23-212.01(F)(l)(c). A second intentional violation requires the permanent revocation of all business licenses. \u00a7 23-212.01(F)(2).\nWith respect to both knowing and intentional violations, a violation qualifies as a \u201csecond violation\u201d only if it occurs at the same business location as the first violation, during the time that the employer is already on probation for a violation at that location. \u00a7\u00a723-212(F)(3)(a)-(b); \u00a7\u00a723-212.01(F) (3)(a)-(b).\nThe Arizona law also requires that \u201cevery employer, after hiring an employee, shall verify the employment eligibility of the employee\u201d by using E-Verify. \u00a7 23-214(A) \u201c[P]roof of verifying the employment authorization of an employee through the e-verify program creates a rebuttable presumption that an employer did not knowingly employ an unauthorized alien.\u201d \u00a723-212(1).\nC\nThe Chamber of Commerce of the United States and various business and civil rights organizations (collectively Chamber of Commerce or Chamber) filed a pre-enforcement suit in federal court against those charged with administering the Arizona law: more than a dozen Arizona county attorneys, the Governor of Arizona, the Arizona attorney general, the Arizona registrar of contractors, and the director of the Arizona Department of Revenue (collectively Arizona). The Chamber argued that the Arizona law\u2019s provisions allowing the suspension and revocation of business licenses for employing unauthorized aliens were both expressly and impliedly preempted by federal immigration law, and that the mandatory use of E-Verify was impliedly preempted.\nThe District Court held that Arizona\u2019s law was not preempted. 534 F. Supp. 2d 1036. It found that the plain language of IRCA\u2019s preemption clause did not preempt the Arizona law because the state law does no more than impose licensing conditions on businesses operating within the State. Id., at 1045-1046. With respect to E-Verify, the court concluded that although Congress had made the program voluntary at the national level, it had expressed no intent to prevent States from mandating participation. Id., at 1055-1057. The Court of Appeals affirmed the District Court in all respects, holding that Arizona\u2019s law was a \u201c \u2018licensing and similar law[]\u2019\u201d falling within IRCA\u2019s saving clause and that none of the state law\u2019s challenged provisions was \u201cexpressly or impliedly preempted by federal policy.\u201d 558 F. 3d, at 860, 861, 866.\nWe granted certiorari. 561 U. S. 1024 (2010).\nII\nThe Chamber of Commerce argues that Arizona\u2019s law is expressly preempted by IRCA\u2019s text and impliedly preempted because it conflicts with federal law. We address each of the Chamber\u2019s arguments in turn.\nA\nWhen a federal law contains an express preemption clause, we \u201cfocus on the plain wording of the clause, which necessarily contains the best evidence of Congress\u2019 preemptive intent.\u201d CSX Transp., Inc. v. Easterwood, 507 U. S. 658, 664 (1993).\nIRCA expressly preempts States from imposing \u201ccivil or criminal sanctions\u201d on those who employ unauthorized aliens, \u201cother than through licensing and similar laws.\u201d 8 U. S. C. \u00a7 1324a(h)(2). The Arizona law, on its face, purports to impose sanctions through licensing laws. The state law authorizes state courts to suspend or revoke an employer\u2019s business licenses if that employer knowingly or intentionally employs an unauthorized alien. Ariz. Rev. Stat. Ann. \u00a7\u00a723-212(A) and (F); \u00a7\u00a723-212.01(A) and (F). The Arizona law defines \u201clicense\u201d as \u201cany agency permit, certificate, approval, registration, charter or similar form of authorization that is required by law and that is issued by any agency for the purposes of operating a business in\u201d the State. \u00a723-211(9)(a). That definition largely parrots the definition of \u201clicense\u201d that Congress codified in the Administrative Procedure Act. See 5 U. S. C. \u00a7 551(8) (\u201c T\u00edcense\u2019 includes the whole or a part of an agency permit, certificate, approval, registration, charter, membership, statutory exemption or other form of permission\u201d).\nApart from that general definition, the Arizona law specifically includes within its definition of \u201clicense\u201d documents such as articles of incorporation, certificates of partnership, and grants of authority to foreign companies to transact business in the State. Ariz. Rev. Stat. Ann. \u00a723-211(9). These examples have clear counterparts in the APA definition just quoted. See 5 U. S. C. \u00a7 551(8) (defining \u201clicense\u201d as including a \u201cregistration\u201d or \u201ccharter\u201d).\nA license is \u201ca right or permission granted in accordance with law ... to engage in some business or occupation, to do some act, or to engage in some transaction which but for such license would be unlawful.\u201d Webster\u2019s Third New International Dictionary 1304 (2002). Articles of incorporation and certificates of partnership allow the formation of legal entities and permit them as such to engage in business and transactions \u201cwhich but for such\u201d authorization \u201cwould be unlawful.\u201d Ibid.) see Ariz. Rev. Stat. Ann. \u00a7\u00a7 10-302,10-302(11) (West 2004) (articles of incorporation allow a corporation \u201cto carry out its business and affairs\u201d and to \u201c[cjonduct its business\u201d); see also \u00a7 10-202(A)(3) (West Supp. 2010). As for state-issued authorizations for foreign businesses to operate within a State, we have repeatedly referred to those as \u201clicenses.\u201d See, e.g., Helicopteros Nacionales de Colombia, S. A. v. Hall, 466 U. S. 408, 417 (1984); G. D. Searle & Co. v. Cohn, 455 U. S. 404, 413, n. 8 (1982); Rosenberg Bros. & Co. v. Curtis Brown Co., 260 U. S. 516, 518 (1923). Moreover, even if a law regulating articles of incorporation, partnership certificates, and the like is not itself a \u201clicensing law,\u201d it is at the very least \u201csimilar\u201d to a licensing law, and therefore comfortably within the saving clause. 8 U. S. C. \u00a7 1324a(h)(2).\nThe Chamber and the United States as amicus argue that the Arizona law is not a \u201clicensing\u201d law because it operates only to suspend and revoke licenses rather than to grant them. Again, this construction of the term runs contrary to the definition that Congress itself has codified. See 5 U. S. C. \u00a7 551(9) (\u201c \u2018licensing\u2019 includes agency process respecting the grant, renewal, denial, revocation, suspension, annulment, withdrawal, limitation, amendment, modification, or conditioning of a license\u201d (emphasis added)). It is also contrary to common sense. There is no basis in law, fact, or logic for deeming a law that grants licenses a licensing law, but a law that suspends or revokes those very licenses something else altogether.\nThe Chamber also submits that the manner in which Congress amended a related statute when enacting IRCA supports a narrow interpretation of the saving clause. The Migrant and Seasonal Agricultural Worker Protection Act (AWPA), 29 U. S. C. \u00a7 1801 et seq., requires employers to secure a registration certificate from the Department of Labor before engaging in any \u201cfarm labor contracting activity.\u201d \u00a7 1811(a). Prior to IRCA, AWPA had contained its own prohibition on hiring unauthorized workers, with accompanying adjudication procedures. See \u00a7 1813(a); \u00a7 1816(a) (1982 ed.) (repealed by IRCA, 100 Stat. 3372); \u00a7\u00a7 1851(a)-(b) (1982 ed.) (amended by IRCA, 100 Stat. 3372). When Congress enacted IRCA, it repealed AWPA\u2019s separate unauthorized worker prohibition and eliminated the associated adjudication process. Under the current state of the law, an AWPA certification may be denied based on a prior IRCA violation. \u00a7 1813(a)(6) (2006 ed.). And once obtained, that certification can be revoked because of the employment of an unauthorized alien only following a finding of an IRCA violation. Ibid.\nThe Chamber asserts that IRCA\u2019s amendment of AWPA shows that Congress meant to allow state licensing sanctions only after a federal IRCA adjudication, just as adverse action under AWPA can now be taken only through IRCA\u2019s procedures. But the text of IRCA\u2019s saving clause says nothing about state licensing sanctions being contingent on prior federal adjudication, or indeed about state licensing processes at all. The simple fact that federal law creates procedures for federal investigations and adjudications culminating in federal civil or criminal sanctions does not indicate that Congress intended to prevent States from establishing their own procedures for imposing their own sanctions through licensing. Were AWPA not amended to conform with IRCA, two different federal agencies would be responsible for administering two different unauthorized alien employment laws. The conforming amendments eliminated that potential redundancy and centralized federal adjudicatory authority. That hardly supports a conclusion that any state licensing programs must also be contingent on the cen-. tral federal system.\nIn much the same vein, the Chamber argues that Congress\u2019s repeal of \u201cAWPA\u2019s separate prohibition concerning unauthorized workers belies any suggestion that IRCA meant to authorize each of the 50 States ... to impose its own separate prohibition,\u201d and that Congress instead wanted uniformity in immigration law enforcement. Brief for Petitioners 86. Justice Breyer also objects to the departure from \u201cone centralized enforcement scheme\u201d under federal law. Post, at 617 (dissenting opinion). But Congress expressly preserved the ability of the States to impose their own sanctions through licensing; that \u2014 like our federal system in general \u2014 necessarily entails the prospect of some departure from homogeneity. And as for \u201cseparate prohibition[s],\u201d it is worth recalling that the Arizona licensing law is based exclusively on the federal prohibition \u2014 a court reviewing a complaint under the Arizona law may \u201cconsider only the federal government\u2019s determination\u201d with respect to \u201cwhether an employee is an unauthorized alien.\u201d \u00a7 23-212(H).\nEven more boldly, the Chamber contends that IRCA\u2019s saving clause was intended to allow States to impose licensing sanctions solely on AWPA-related farm contracting licensees. AWPA specifically recognized that federal regulation of farm contracting licensing was only \u201cintended to supplement State law,\u201d 29 U. S. C. \u00a7 1871, and the Chamber argues that the purpose of IRCA\u2019s saving clause was limited to preserving existing state farm contractor licensing programs. But here again no such limit is remotely discernible in the statutory text. Absent any textual basis, we are not inclined to limit so markedly the otherwise broad phrasing of the saving clause. See United States v. Shreveport Grain & Elevator Co., 287 U. S. 77, 83 (1932) (\u201cextrinsic aids to construction\u201d may be used \u201cto solve, but not to create an ambiguity\u201d (emphasis and internal quotation marks omitted)).\nThe Chamber argues that its textual and structural arguments are bolstered by IRCA\u2019s legislative history. We have already concluded that Arizona\u2019s law falls within the plain text of IRCA\u2019s saving clause. And, as we have said before, Congress\u2019s \u201cauthoritative statement is the statutory text, not the legislative history.\u201d Exxon Mobil Corp. v. Allapattah Services, Inc., 545 U. S. 546, 568 (2005); see also Hoffman Plastic Compounds, Inc. v. NLRB, 535 U. S. 137, 149-150, n. 4 (2002). Whatever the usefulness of relying on legislative history materials in general, the arguments against doing so are particularly compelling here. Beyond verbatim recitation of the statutory text, all of the legislative history documents related to IRCA save one fail to discuss the saving clause at all. The Senate Judiciary Committee Report on the Senate version of the law does not comment on it. See S. Rep. No. 99-132 (1985). Only one of the four House Reports on the law touches on the licensing exception, see H. R. Rep. No. 99-682, pt. 1, p. 58 (1986), and we have previously dismissed that very report as \u201ca rather slender reed\u201d from \u201cone House of a politically divided Congress.\u201d Hoffman, supra, at 149-150, n. 4. And the Conference Committee Report does not discuss the scope of IRCA\u2019s preemption provision in any way. See H. Conf. Rep. No. 99-1000 (1986).\nIRCA expressly preempts some state powers dealing with the employment of unauthorized aliens and it expressly preserves others. We hold that Arizona\u2019s licensing law falls well within the confines of the authority Congress chose to leave to the States and therefore is not expressly preempted.\nB\nAs an alternative to its express preemption argument, the Chamber contends that Arizona\u2019s law is impliedly preempted because it conflicts with federal law. At its broadest level, the Chamber\u2019s argument is that Congress \u201cintended the federal system to be exclusive,\u201d and that any state system therefore necessarily conflicts with federal law. Brief for Petitioners 39. But Arizona\u2019s procedures simply implement the sanctions that Congress expressly allowed Arizona to pursue through licensing laws. Given that Congress speeifically preserved such authority for the States, it stands to reason that Congress did not intend to prevent the States from using appropriate tools to exercise that authority.\nAnd here Arizona went the extra mile in ensuring that its law closely tracks IRCA\u2019s provisions in all material respects. The Arizona law begins by adopting the federal definition of who qualifies as an \u201cunauthorized alien.\u201d Compare 8 U. S. C. \u00a7 1324a(h)(3) (an \u201cunauthorized alien\u201d is an alien not \u201clawfully admitted for permanent residence\u201d or not otherwise authorized by federal law to be employed) with Ariz. Rev. Stat. Ann. \u00a723-211(11) (adopting the federal definition of \u201cunauthorized alien\u201d); see De Canas, 424 U. S., at 363 (finding no preemption of state law that operates \u201conly with respect to individuals whom the Federal Government has already declared cannot work in this country\u201d).\nNot only that, the Arizona law expressly provides that state investigators must verify the work authorization of an allegedly unauthorized alien with the Federal Government, and \u201cshall not attempt to independently make a final determination on whether an alien is authorized to work in the United States.\u201d \u00a723-212(B). What is more, a state court \u201cshall consider only the federal government\u2019s determination\u201d when deciding \u201cwhether an employee is an unauthorized alien.\u201d \u00a723-212(H) (emphasis added). As a result, there can by definition be no conflict between state and federal law as to worker authorization, either at the investigatory or adjudicatory stage.\nThe federal determination on which the State must rely is provided under 8 U. S. C. \u00a7 1373(c). See swpra, at 591-592. That provision requires the Federal Government to \u201cverify or ascertain\u201d an individual's \u201ccitizenship or immigration status\u201d in response to a state request. Justice Breyer is concerned that this information \u201csays nothing about work authorization.\u201d Post, at 619 (dissenting opinion). Justice Sotomayor shares that concern. Post, at 639 (dissenting opinion). But if a \u00a7 1373(c) inquiry reveals that someone is a United States citizen, that certainly answers the question whether that individual is authorized to work. The same would be true if the response to a \u00a7 1373(c) query disclosed that the individual was a lawful permanent resident alien or, on the other hand, had been ordered removed. In any event, if the information provided under \u00a7 1373(e) does not confirm that an employee is an unauthorized alien, then the State cannot prove its case. See Brief for Respondents 50, n. 10 (\u201cif the information from the federal authorities does not establish that a person is an unauthorized alien, it means that the county attorney cannot satisfy his burden of proof in an enforcement action\u201d); Tr. of Oral Arg. 47.\nFrom this basic starting point, the Arizona law continues to trace the federal law. Both the state and federal law prohibit \u201cknowingly\u201d employing an unauthorized alien. Compare 8 U. S. C. \u00a7 1324a(a)(l)(A) with Ariz. Rev. Stat. Ann. \u00a723-212(A). But the state law does not stop there in guarding against any conflict with the federal law. The Arizona law provides that \u201c \u2018[k]nowingly employ an unauthorized alien\u2019 means the actions described in 8 United States Code \u00a7 1324a,\u201d and that the \u201cterm shall be interpreted consistently with 8 United States Code \u00a7 1324a and any applicable federal rules and regulations.\u201d \u00a723-211(8).\nThe Arizona law provides employers with the same affirmative defense for good-faith compliance with the 1-9 process as does the federal law. Compare 8 U. S. C. \u00a7 1324a(a)(3) (\u201cA person or entity that establishes that it has complied in good faith with the [employment verification] requirements of [\u00a7 1324a(b)] with respect to hiring ... an alien ... has established an affirmative defense that the person or entity has not violated\u201d the law) with Ariz. Rev. Stat. Ann. \u00a723-212(J) (\u201can employer that establishes that it has complied in good faith with the requirements of 8 United States Code section 1324a(b) establishes an affirmative defense that the employer did not knowingly employ an unauthorized alien\u201d). And both the federal and Arizona law accord employers a rebuttable presumption of compliance with the law when they use E-Verify to validate a finding of employment eligibility. Compare IIRIRA \u00a7 402(b), 110 Stat. 3009-656 to 3009-657, with Ariz. Rev. Stat. Ann. \u00a7 23-212(1).\nApart from the mechanics of the Arizona law, the Chamber argues more generally that the law is preempted because it upsets the balance that Congress sought to strike when enacting IRCA. In the Chamber\u2019s view, IRCA reflects Congress\u2019s careful balancing of several policy considerations\u2014 deterring unauthorized alien employment, avoiding burdens on employers, protecting employee privacy, and guarding against employment discrimination. According to the Chamber, the harshness of Arizona\u2019s law \u201c \u2018exert[s] an extraneous pull on the scheme established by Congress\u2019 \u201d that impermissibly upsets that balance. Brief for Petitioners 45 (quoting Buckman Co. v. Plaintiffs\u2019 Legal Comm., 531 U. S. 341, 353 (2001)); see Brief for Petitioners 42-45; Reply Brief for Petitioners 20.\nAs an initial matter, the cases on which the Chamber relies in advancing this argument all involve uniquely federal areas of regulation. See American Ins. Assn. v. Garamendi, 539 U. S. 396, 401, 405-406 (2003) (Presidential conduct of foreign policy); Crosby v. National Foreign Trade Council, 530 U. S. 363, 373-374 (2000) (foreign affairs power); Buckman, swpra, at 352 (fraud on a federal agency); United States v. Locke, 529 U. S. 89, 97, 99 (2000) (regulation of maritime vessels); Bonito Boats, Inc. v. Thunder Craft Boats, Inc., 489 U. S. 141, 143-144 (1989) (patent law). Regulating in-state businesses through licensing laws has never been considered such an area of dominant federal concern.\nFurthermore, those cases all concern state actions that directly interfered with the operation of the federal program. In Buckman, for example, the Court determined that allowing a state tort action would cause applicants before a federal agency \u201cto submit a deluge of information that the [agency] neither wants nor needs, resulting in additional burdens on the [agency\u2019s] evaluation of an application,\u201d and harmful delays in the agency process. 531 U. S., at 351. In Garamendi, a state law imposing sanctions on insurance companies directly \u201cthwart[ed] the [Federal] Government\u2019s policy of repose\u201d for insurance companies that participated in an international program negotiated by the President. 539 U. S., at 425. Crosby involved a state law imposing sanctions on any entity doing business with Burma, a law that left the President with \u201cless to offer and less economic and diplomatic leverage\u201d in exercising his foreign affairs powers. 530 U. S., at 377. The state law in Bonito Boats extended patent-like protection \u201cfor subject matter for which patent protection has been denied or has expired,\u201d \u201cthus eroding the general rule of free competition upon which the attractiveness of the federal patent bargain depends.\u201d 489 U. S., at 159, 161. And the portions of Locke on which the Chamber relies involved state efforts \u201cto impose additional-unique substantive regulation on the at-sea conduct of vessels\u201d \u2014 \u201can area where the federal interest has been manifest since the beginning of our Republic.\u201d 529 U. S., at 106, 99. There is no similar interference with the federal program in this case; that program operates unimpeded by the state law.\nLicense suspension and revocation are significant sanctions. But they are typical attributes of a licensing regime. Numerous Arizona laws provide for the suspension or revocation of licenses for failing to comply with specified state laws. See, e.g., Ariz. Rev. Stat. Ann. \u00a7\u00a75-108.05(D), 32-852.0KL), 32-1154(B), 32-1451(M), 41-2186 (West 2002). Federal law recognizes that the authority to license includes the authority to suspend, revoke, annul, or withdraw a license. See 5 U. S. C. \u00a7551(9). Indeed, AWPA itself \u2014 on which the Chamber so heavily relies \u2014 provides that AWPA \u201ccertificates of registration\u201d can be suspended or revoked for employing an unauthorized alien. 29 U. S. C. \u00a7 1813(a)(6). It makes little sense to preserve state authority to impose sanctions through licensing, but not allow States to revoke licenses when appropriate as one of those sanctions.\nThe Chamber and Justice Breyer assert that employers will err on the side of discrimination rather than risk the \u201c\u2018business death penalty\u2019\u201d by \u201chiring unauthorized workers.\u201d Post, at 617 (dissenting opinion); see Brief for Petitioners 3, 35. That is not the choice. License termination is not an available sanction simply for \u201chiring unauthorized workers.\u201d Only far more egregious violations of the law trigger that consequence. The Arizona law covers only knowing or intentional violations. The law\u2019s permanent licensing sanctions do not come into play until a second knowing or intentional violation at the same business location, and only if the second violation occurs while the employer is still on probation for the first. These limits ensure that licensing sanctions are imposed only when an employer\u2019s conduct fully justifies them. An employer acting in good faith need have no fear of the sanctions.\nAs the Chamber points out, IRCA has its own antidiscrimination provisions, see 8 U. S. C. \u00a7\u00a7 1324b(a)(l), (g)(1)(B) (imposing sanctions for discrimination \u201cagainst any individual . . . with respect to the hiring ... or the discharging of the individual from employment\u201d); Arizona law certainly does nothing to displace those. Other federal laws, and Arizona antidiscrimination laws, provide further protection against employment discrimination \u2014 and strong incentive for employers not to discriminate. See, e. g., 42 U. S. C. \u00a7 2000e-2(a) (prohibiting discrimination based on \u201crace, color, religion, sex, or national origin\u201d); Ariz. Rev. Stat. Ann. \u00a741-1463(B)(1) (West Supp. 2010) (prohibiting employment discrimination based on \u201crace, color, religion, sex, age or national origin\u201d).\nAll that is required to avoid sanctions under the Legal Arizona Workers Act is to refrain from knowingly or intentionally violating the employment law. Employers enjoy safe harbors from liability when they use the 1-9 system and E-Verify \u2014 as Arizona law requires them to do. The most rational path for employers is to obey the law \u2014 both the law barring the employment of unauthorized aliens and the law prohibiting discrimination \u2014 and there is no reason to suppose that Arizona employers will choose not to do so.\nAs with any piece of legislation, Congress did indeed seek to strike a balance among a variety of interests when it enacted IRCA. Part of that balance, however, involved allocating authority between the Federal Government and the States. The principle that Congress adopted in doing so was not that the Federal Government can impose large sanctions, and the States only small ones. IRCA instead preserved state authority over a particular category of sanctions \u2014 those imposed \u201cthrough licensing and similar laws.\u201d\nOf course Arizona hopes that its law will result in more effective enforcement of the prohibition on employing unauthorized aliens. But in preserving to the States the authority to impose sanctions through licensing laws, Congress did not intend to preserve only those state laws that would have no effect. The balancing process that culminated in IRCA resulted in a ban on hiring unauthorized aliens, and the state law here simply seeks to enforce that ban.\nImplied preemption analysis does not justify a \u201cfreewheeling judicial inquiry into whether a state statute is in tension with federal objectives\u201d; such an endeavor \u201cwould undercut the principle that it is Congress rather than the courts that pre-empts state law.\u201d Gade v. National Solid Wastes Management Assn., 505 U. S. 88, 111 (1992) (Kennedy, J., concurring in part and concurring in judgment); see Silkwood v. Kerr-McGee Corp., 464 U. S. 238, 256 (1984). Our precedents \u201cestablish that a high threshold must be met if a state law is to be pre-empted for conflicting with the purposes of a federal Act.\u201d Gade, supra, at 110. That threshold is not met here.\nIll\nThe Chamber also argues that Arizona\u2019s requirement that employers use the federal E-Verify system to determine whether an employee is authorized to work is impliedly preempted. In the Chamber\u2019s view, \u201cCongress wanted to develop a reliable and non-burdensome system of work-authorization verification\u201d that could serve as an alternative to the 1-9 procedures, and the \u201cmandatory use of E-Verify impedes that purpose.\u201d 558 F. 3d, at 866.\nA\nWe begin again with the relevant text. The provision of IIRIRA setting up the program that includes E-Verify contains no language circumscribing state action. It does, however, constrain federal action: Absent a prior violation of federal law, \u201cthe Secretary of Homeland Security may not require any person or other entity [outside of the Federal Government] to participate in a pilot program\u201d such as E-Verify. IIRIRA \u00a7 402(a), 110 Stat. 3009-656. That provision limits what the Secretary of Homeland Security may do \u2014 nothing more.\nThe Federal Government recently argued just that, and approvingly referenced Arizona\u2019s E-Verify law when doing so. In 2008, an Executive Order mandated that executive agencies require federal contractors to use E-Verify as a condition of receiving a federal contract. See Exec. Order No. 13465, 73 Fed. Reg. 33286 (2008). When that order and its implementing regulation were challenged, the Government pointed to Arizona\u2019s E-Verify mandate as an example of a permissible use of that system: \u201c[T]he State of Arizona has required all public and private employers in that State to use E-Verify .... This is permissible because the State of Arizona is not the Secretary of Homeland Security.\u201d Defendants\u2019 Reply Memorandum in Support of Their Motion for Summary Judgment in No. 8:08-cv-03444 (D Md.), p. 7 (emphasis added), appeal dism\u2019d, No. 09-2006 (CA4, Dec. 14, 2009).\nArizona\u2019s use of E-Verify does not conflict with the federal scheme. The Arizona law requires that \u201cevery employer, after hiring an employee, shall verify the employment eligibility of the employee\u201d through E-Verify. Ariz. Rev. Stat. Ann. \u00a723-214(A) (West Supp. 2010). That requirement is entirely consistent with the federal law. And the consequences of not using E-Verify under the Arizona law are the same as the consequences of not using the system under federal law. In both instances, the only result is that the employer forfeits the otherwise available rebuttable presumption that it complied with the law. Compare IIRIRA \u00a7 402(b)(1) with Ariz. Rev. Stat. Ann. \u00a723-212(I).\nB\nCongress\u2019s objective in authorizing the development, of E-Verify was to ensure reliability in employment authorization verification, combat counterfeiting of identity documents, and protect employee privacy. 8 U. S. C. \u00a7 1324a(d)(2). Arizona\u2019s requirement that employers operating within its borders use E-Verify in no way obstructs achieving those aims.\nIn fact, the Federal Government has consistently expanded and encouraged the use of E-Verify. When E-Verify was created in 1996, it was meant to last just four years and it was made available in only six States. IIRIRA \u00a7\u00a7 401(b) and (c)(1), 110 Stat. 3009-655 to 3009-656. Congress since has acted to extend the E-Verify program\u2019s existence on four separate occasions, the most recent of which ensures the program\u2019s vitality through 2012. And in 2003 Congress directed the Secretary of Homeland Security to make E-Verify available in all 50 States. 117 Stat. 1944; IIRIRA \u00a7 401(c)(1), 110 Stat. 3009-656. The Department of Homeland Security has even used \u201cbillboard and radio advertisements ... to encourage greater participation\u201d in the E-Verify program. 534 F. Supp. 2d, at 1056.\nThe Chamber contends that \u201cif the 49 other States followed Arizona\u2019s lead, the state-mandated drain on federal resources would overwhelm the federal system and render it completely ineffective, thereby defeating Congress\u2019s primary objective in establishing E-Verify.\u201d Brief for Petitioners 50-51. Whatever the legal significance of that argument, the United States does not agree with the factual premise. According to the Department of Homeland Security, \u201cthe E-Verify system can accommodate the increased use that the Arizona statute and existing similar laws would create.\u201d Brief for United States as Amicus Curiae 34. And the United States notes that \u201c[t]he government continues to encourage more employers to participate\u201d in E-Verify. Id., at 31.\nThe Chamber has reservations about E-Verify\u2019s reliability, see Brief for Petitioners 49, n. 27, but again the United States disagrees. The Federal Government reports that \u201cE-Verify\u2019s successful track record ... is borne out by findings documenting the system\u2019s accuracy and participants\u2019 satisfaction.\u201d Brief for United States as Amicus Curiae 31. Indeed, according to the Government, the program is \u201cthe best means available to determine the employment eligibility of new hires.\u201d U. S. Dept, of Homeland Security, U. S. Citizenship and Immigration Services, E-Verify User Manual for Employers 4 (Sept. 2010).\n* * *\nIRCA expressly reserves to the States the authority to impose sanctions on employers hiring unauthorized workers, through licensing and similar laws. In exercising that authority, Arizona has taken the route least likely to cause tension with federal law. It uses the Federal Government\u2019s own definition of \u201cunauthorized alien,\u201d it relies solely on the Federal Government\u2019s own determination of who is an unauthorized alien, and it requires Arizona employers to use the Federal Government\u2019s own system for checking employee status. If even this gives rise to impermissible conflicts with federal law, then there really is no way for the State to implement licensing sanctions, contrary to the express terms of the saving clause.\nBecause Arizona\u2019s unauthorized alien employment law fits within the confines of IRC A\u2019s saving clause and does not conflict with federal immigration law, the judgment of the United States Court of Appeals for the Ninth Circuit is affirmed.\nIt is so ordered.\nJustice Kagan took no part in the consideration or decision of this case.\n(Justice Thomas joins Parts I, II-A, and III-A of this opinion and concurs in the judgment.\nSee Conn. Gen. Stat. \u00a731-51k (1973) (enacted 1972); Del. Code Ann., Tit. 19, \u00a7705 (1978 Cum. Supp.) (enacted 1976); Fla. Stat. \u00a7448.09 (1981) (enacted 1977); Kan. Stat. Aim. \u00a721-4409 (1981) (enacted 1973); 1985 La. Acts p. 1894; 1977 Me. Acts p. 171; 1976 Mass. Acts p. 641; Mont. Code Ann. \u00a741-121 (1977 Cum. Supp.); N. H. Rev. Stat. Ann. \u00a7275-A:4-a (1986 Cum. Supp.) (enacted 1976); 1977 Vt. Laws p. 320; 1977 Va. Aets ch. 438.\nSee, e.g., Colo. Rev. Stat. Ann. \u00a78-17.5-102 (2008); Miss. Code Ann. \u00a7 71-ll-3(7)(e) (Supp. 2010); Mo. Rev. Stat. \u00a7\u00a7285-525,285-535 (2009 Cum. Supp.); Pa. Stat. Ann., Tit. 73, \u00a7820.311 (Purdon Supp. 2010); S. C. Code Ann. \u00a7 41-8-50(D)(2) (Supp. 2010); Tenn. Code Ann. \u00a750-l-103(d) (2008); Va. Code Ann. \u00a72.2-4311.1 (Lexis 2008); W. Va. Code Ann. \u00a721-1B-7 (Lexis Supp. 2010).\nSeveral States have passed statutes mandating the use of E-Verify. See, e.g., Miss. Code Ann. \u00a7\u00a771-ll-3(3)(d), (4)(b)(i) (Supp. 2010); S. C. Code Ann. \u00a7\u00a7 41-8-20(BHC) (Supp. 2010); Utah Code Ann. \u00a713-47-201(1) (Lexis Supp. 2010); Va. Code Ann. \u00a740.1-11.2 (Lexis Supp. 2010).\nNo suits had been brought under the Arizona law when the complaint in this ease was filed. As of the date that Arizona submitted its merits brief to this Court only three enforcement actions had been pursued against Arizona employers. See Arizona v. Waterworld Ltd. Partnership, No. CV2009-038848 (Maricopa Cty. Super. Ct., filed Dec. 21, 2009) (resolved by consent judgment); Arizona v. Danny\u2019s Subway Inc., No. CV2010-005886 (Maricopa Cty. Super. Ct., filed Mar. 9, 2010) (resolved by consent decree); Arizona v. Scottsdale Art Factory, LLC, No. CV2009-036359 (Maricopa Cty. Super. Ct., filed Nov. 18, 2009) (pending).\nJustice Beeyeb recognizes that Arizona\u2019s definition of the word \u201clicense\u201d comports with dictionaries\u2019 treatment of the term, but argues that \u201clicense\u201d must be read in a more restricted way so as not to include things such as \u201cmarriage licenses\u201d and \u201cdog licenses].\u201d Post, at 612-613, 622 (dissenting opinion). Luckily, we need not address such fanciful hypotheticals; Arizona limits its definition of \u201clicense\u201d to those state permissions issued \u201cfor the purposes of operating a business\u201d in the State. Ariz. Rev. Stat. Ann. \u00a7 23-211(9)(a) (West Supp. 2010).\nJustice Beeyee\u2019s primary concern appears to be that state permissions such as articles of incorporation and partnership certificates are treated as \u201clicensing and similar laws.\u201d Because myriad other licenses are required to operate a business, that concern is largely academic. See \u00a742-5005(A) (West 2006) (Corporations that receive \u201cgross proceeds of sales or gross income upon which a privilege tax is imposed ... shall make application to the department for a privilege license.\u201d Such a corporation \u201cshall not engage or continue in business until the [corporation] has obtained a privilege license\u201d). Suspending or revoking an employer\u2019s articles of incorporation will often be entirely redundant. See \u00a7\u00a742-5010, 42-5061 to 42-5076 (West 2006 and Supp. 2010) (describing when transaction privilege tax licenses are required).\nJustice Breyek poses several rhetorical questions challenging our reading of IRCA and then goes on to propose two seemingly alternative views of the phrase \u201clicensing and similar laws\u201d \u2014 that it was meant to refer to \u201cemployment-related licensing systems,\u201d post, at 621 (dissenting opinion) (emphasis deleted), or, even more narrowly, to \u201cthe licensing of firms in the business of recruiting or referring workers for employment, such as . . . state agricultural labor contractor licensing schemes,\u201d post, at 622-623. If we are asking questions, a more telling one may be why, if Congress had intended sueh limited exceptions to its prohibition on state sanctions, it did not simply say so, instead of excepting \u201clicensing and similar laws\u201d generally?\nJustice Sotomayor takes a different tack. Invoking arguments that resemble those found in our implied preemption cases, she concludes that the Arizona law \u201cfalls outside\u201d the saving clause and is expressly preempted because it allows \u201cstate courts to determine whether a person has employed an unauthorized alien.\u201d Post, at 631 (dissenting opinion). While Justice Breyer would add language to the statute narrowly limiting the phrase \u201clicensing and similar laws\u201d to specific types of licenses, Justice Sotomayor creates an entirely new statutory requirement: She would allow States to impose sanctions through \u201clicensing and similar laws\u201d only after a federal adjudication. Such a requirement is found nowhere in the text, and Justice Sotomayor does not even attempt to link it to a specific textual provision.\nIt should not be surprising that the two dissents have sharply different views on how to read the statute. That is the sort of thing that can happen when statutory analysis is so untethered from the text.\nAfter specifying that a state court may consider \u201conly\u201d the federal determination, the Arizona law goes on to provide that the federal determination is \u201ca rebuttable presumption of the employee\u2019s lawful status,\u201d Ariz. Rev. Stat. Ann. \u00a723-212(H) (West Supp. 2010). Arizona explains that this provision does not permit the State to establish unlawful status apart from the federal determination \u2014 the provision could hardly do that, given the foregoing. It instead operates to \u201censur[e] that the employer has an opportunity to rebut the evidence presented to establish a worker\u2019s unlawful status.\u201d Brief for Respondents 49 (emphasis added). Only in that sense is the federal determination a \u201crebuttable presumption.\u201d See Tr. of Oral Arg. 46-47. Giving an employer a chance to show that it did not break the state law certainly does not place the Arizona regime in conflict with federal law.\nState law also prohibits \u201cintentionally\u201d employing an unauthorized alien, \u00a723-212.01(A), a more severe violation of the law. The Chamber does not suggest that this prohibition is any more problematic than the prohibition on \u201cknowingly\u201d employing an unauthorized alien.\nThe Chamber contends that the Arizona law conflicts with federal law because IRCA prohibits the use of the 1-9 form and \u201cany information contained in or appended to [it]\u201d from being \u201cused for purposes other than for enforcement of\u201d IRCA and other specified federal laws. 8 U. S. C. \u00a7 1324a(b)(5). That argument mistakenly assumes that an employer would need to use the 1-9 form or its supporting documents themselves to receive the benefit of the affirmative defense in Arizona court. In fact, \u201c[a]n employer [could] establish good faith compliance with [the] 1-9 process!] \u2022 \u2022 \u2022 through testimony of employees and descriptions of office policy.\u201d Brief for Respondents 52; see Tr. of Oral Arg. 33.\nArizona has since amended its statute to include other consequences, such as the loss of state-allocated economic development incentives. See 2008 Ariz. Sess. Laws ch. 152. Because those provisions were not part of the statute when this suit was brought, they are not before us and we do not address their interaction with federal law.\nSee Basie Pilot Extension Act of 2001, \u00a72, 115 Stat. 2407; Basic Pilot Program Extension and Expansion Act of 2003, \u00a7 2,117 Stat. 1944; Consolidated Security, Disaster Assistance, and Continuing Appropriations Act, 2009, Div. A, \u00a7 143, 122 Stat. 3580; Department of Homeland Security Appropriations Act, 2010, \u00a7 547, 123 Stat. 2177.\nJustice Breyer shares the Chamber\u2019s concern about E-Verify\u2019s accuracy, See post, at 618-619, 629. Statistics from Fiscal Year 2010, however, indicate that of the 15,640,167 E-Verify cases submitted, 98.3% were automatically confirmed as work authorized, 0.3% were confirmed as work authorized after contesting and resolving an initial nonconfirmation \u2014 an avenue available to all workers \u2014 and 1.43% were not found work authorized. E-Verify Statistics and Reports, available at http://www.uscis.gov/ portal/site/uscis/menuitem/statistics (as visited May 23,2011, and available in Clerk of Court\u2019s case file). As Justice Breyer notes, the initial mismatches (the 0.3%) are frequently due to \u2018\u201cincorrectly spelled [names] in government databases or on identification documents.\u2019\u201d Post, at 629. Such a hazard is of course not unique to E-Verify. Moreover, Justice Breyer\u2019s statistical analysis underlying his conclusion that E-Verify queries, at least initially, wrongly \u201csuggest!] that an individual [i]s not lawfully employable\u201d \u201c18 percent of the time\u201d needs to be understood for what it is. Post, at 618-619. If E-Verify initially indicated that two individuals were not found work authorized, and later revealed that one of those determinations was incorrect, Justice Breyer would be able to exclaim that the error rate was 50%.",
+        "type": "majority",
+        "author": "Chief Justice Roberts"
+      },
+      {
+        "text": "Justice Breyer,\nwith whom Justice Ginsburg joins, dissenting.\nThe federal Immigration Reform and Control Act of 1986 (Act or IRCA) pre-empts \u201cany State or local law imposing civil or criminal sanctions (other than through licensing and similar laws) upon those who employ, or recruit or refer for a fee for employment, unauthorized aliens.\u201d 8 U. S. C. \u00a7 1324a(h)(2). The state law before us, the Legal Arizona Workers Act, imposes civil sanctions upon those who employ unauthorized aliens. See Ariz. Rev. Stat. Ann. \u00a723-211 et seq. (West Supp. 2010). Thus the state law falls within the federal Act\u2019s general pre-emption rule and is preempted \u2014 unless it also falls within that rule\u2019s exception for \u201clicensing and similar laws.\u201d Unlike the Court, I do not believe the state law falls within this exception, and I consequently would hold it pre-empted.\nArizona calls its state statute a \u201clicensing law,\u201d and the statute uses the word \u201clicensing.\u201d But the statute strays beyond the bounds of the federal licensing exception, for it defines \u201clicense\u201d to include articles of incorporation and partnership certificates, indeed virtually every state-law authorization for any firm, corporation, or partnership to do business in the State. \u00a7 23-21 l(9)(a); cf. \u00a723-211(9)(c) (excepting professional licenses, and water and environmental permits). Congress did not intend its \u201clicensing\u201d language to create so broad an exemption, for doing so would permit States to eviscerate the federal Act\u2019s pre-emption provision, indeed to subvert the Act itself, by undermining Congress\u2019 efforts (1) to protect lawful workers from national-origin-based discrimination and (2) to protect lawful employers against erroneous prosecution or punishment.\nDictionary definitions of the word \u201clicensing\u201d are, as the majority points out, broad enough to include virtually any permission that the State chooses to call a \u201clicense.\u201d See ante, at 595 (relying on a dictionary and the federal Administrative Procedure Act). But neither dictionary definitions nor the use of the word \u201clicense\u201d in an unrelated statute can demonstrate what scope Congress intended the word \u201clicensing\u201d to have as it used that word in this federal statute. Instead, statutory context must ultimately determine the word\u2019s coverage. Context tells a driver that he cannot produce a partnership certificate when a policeman stops the car and asks for a license. Context tells all of us that \u201clicensing\u201d as used in the Act does not include marriage licenses or the licensing of domestic animals. And context, which includes statutory purposes, language, and history, tells us that the federal statute\u2019s \u201clicensing\u201d language does not embrace Arizona\u2019s overly broad definition of that term. That is to say, ordinary corporate charters, certificates of partnership, and the like do not fall within the scope of the word \u201clicensing\u201d as used in this federal exception. See Dolan v. Postal Service, 546 U. S. 481, 486 (2006) (statutory interpretation requires courts to \u201crea[d] the whole statutory text, considefr] the purpose and context of the statute, and consult] any precedents or authorities that inform the analysis\u201d); United States v. Heirs of Boisdor\u00e9, 8 How. 113, 122 (1849) (similar).\nI\nTo understand how the majority\u2019s interpretation of the word \u201clicensing\u201d subverts the Act, one must understand the basic purposes of the pre-emption provision and of the Act itself. Ordinarily, an express pre-emption provision in a federal statute indicates a particular congressional interest in preventing States from enacting laws that might interfere with Congress\u2019 statutory objectives. See International Paper Co. v. Ouellette, 479 U. S. 481, 494 (1987). The majority\u2019s reading of the provision\u2019s \u201clicensing\u201d exception, however, does the opposite. It facilitates the creation of \u201c \u2018obstacle[s] to the accomplishment and execution of the full purposes and objectives of Congress.\u2019\u201d Crosby v. National Foreign Trade Council, 530 U. S. 363, 373 (2000) (quoting Hines v. Davidowitz, 312 U. S. 52, 67 (1941)).\nA\nEssentially, the federal Act requires employers to verify the work eligibility of their employees. And in doing so, the Act balances three competing goals. First, it seeks to discourage American employers from hiring aliens not authorized to work in the United States. H. R. Rep. No. 99-682, pt. 1, p. 56 (1986).\nSecond, Congress wished to avoid \u201cplacing an undue burden on employers,\u201d id., at 90, and the Act seeks to prevent the \u201charassment\u201d of \u201cinnocent employers,\u201d S. Rep. No. 99-132, p. 35 (1985).\nThird, the Act seeks to prevent employers from disfavoring job applicants who appear foreign. Reiterating longstanding antidiscrimination concerns, the House Committee Report explained:\n\u201cNumerous witnesses ... have expressed their deep concern that the imposition of employer sanctions will cause extensive employment discrimination against Hispanic-Americans and other minority group members. These witnesses are genuinely concerned that employers, faced with the possibility of civil and criminal penalties, will be extremely reluctant to hire persons because of their linguistic or physical characteristics.\u201d H. R. Rep. No. 99-682, at 68.\nSee also 42 U. S. C. \u00a7 2000e-2(a)(l) (making it an \u201cunlawful employment practice\u201d for an employer to discriminate against an individual \u201cbecause of such individual\u2019s race, color, religion, sex, or national origin\u201d); U. S. Commission on Civil Rights, The Tarnished Golden Door: Civil Rights Issues in Immigration 74 (1980) (finding that \u201cincreased employment discrimination against United States citizens and legal residents who are racially and culturally identifiable with major immigrant groups could be the unintended result of an employer sanctions law\u201d). The Committee concluded that \u201cevery effort must be taken to minimize the potentiality of discrimination.\u201d H. R. Rep. No. 99-682, at 68.\nB\nThe Act reconciles these competing objectives in several ways:\nFirst, the Act prohibits employers from hiring an alien knowing that the alien is unauthorized to work in the United States. 8 U. S. C. \u00a7 1324a(a)(l)(A). Second, the Act provides an easy-to-use mechanism that will allow employers to determine legality: the 1-9 form. In completing an 1-9 form, the employer certifies that he or she has examined one or two documents (e. g., a passport, or a driver\u2019s license along with a Social Security card) that tend to confirm the worker\u2019s identity and employability. \u00a7 1324a(b)(l). Completion of the form in good faith immunizes the employer from liability, even if the worker turns out to be unauthorized. \u00a7\u00a7 1324a(a)(3), 1324a(b)(6).\nA later amendment to the law also allows an employer to verify an employee\u2019s work eligibility through an Internet-based federal system called E-Verify. If the employer does so, he or she will receive the benefit of a rebuttable presumption of compliance. Illegal Immigration Reform and Immigrant Responsibility Act of 1996 (IIRIRA), \u00a7 402(b), 110 Stat. 3009-656 to 3009-657, note following 8 U. S. C. \u00a7 1324a, p. 331 (Pilot Programs for Employment Eligibility Confirmation).\nThird, the Act creates a central enforcement mechanism. The Act directs the Attorney General to establish a single set of procedures for receiving complaints, investigating those complaints that \u201chave a substantial probability of validity,\u201d and prosecuting violations. 8 U. S. C. \u00a7 1324a(e)(l). The relevant immigration officials and administrative law judges have the power to access necessary evidence and witnesses, \u00a7 1324a(e)(2), and the employer has the right to seek discovery from the Federal Government, 28 CFR \u00a768.18 (2010). The employer also has the right to administrative and judicial review of the administrative law judge\u2019s decision. \u00a7\u00a768.54, 68.56.\nFourth, the Act makes it \u201can unfair immigration-related employment practice ... to discriminate against any individual\u201d in respect to employment \u201cbecause of such individual\u2019s national origin.\u201d 8 U. S. C. \u00a7 1324b(a).\nFifth, the Act sets forth a carefully calibrated sanction system. The penalties for hiring unauthorized aliens are graduated to prevent the Act from unduly burdening employers who are not serious offenders. As adjusted for inflation, civil penalties for a first violation of the employment restrictions range from $375-$3,200 per worker, and rise to $3,200-$16,000 per worker for repeat offenders. \u00a7 1324a(e) (4)(A); 73 Fed. Reg. 10133 (2008); see also \u00a7 1324a(f) (imposing criminal fines of not more than $3,000 per worker and imprisonment for up to six months for \u201cpattern or practice\u201d violators of employment restrictions).\nAs importantly, the Act limits or removes any incentive to discriminate on the basis of national origin by setting antidiscrimination fines at equivalent levels: $37'5-$3,200 per worker for first-time offenders, and $3,200-$16,000 per worker for repeat offenders. \u00a7 1324b(g)(2)(B)(iv); 73 Fed. Reg. 10134. The Act then ties its unlawful employment and antidiscrimination provisions together by providing that, should the antihiring provisions terminate, the antidiscrimination provisions will also terminate, \u00a7 1324b(k), \u201cthe justification for them having been removed,\u201d H. R. Conf. Rep. No. 99-1000, p. 87 (1986).\nC\nNow, compare and contrast Arizona\u2019s statute. As I have said, that statute applies to virtually all business-related licenses, other than professional licenses. Ariz. Rev. Stat. Ann. \u00a723-211(9). Like the federal Act, the state law forbids the employment of unauthorized aliens. \u00a7\u00a723-212(A), 23-212.01(A). It also provides employers with somewhat similar defenses. \u00a7\u00a723-212(I)~(J), 23-212.01(I)-(J). But thereafter the state and federal laws part company.\nFirst, the state statute seriously threatens the federal Act\u2019s antidiscriminatory objectives by radically skewing the relevant penalties. For example, in the absence of the Arizona statute, an Arizona employer who intentionally hires an unauthorized alien for the second time would risk a maximum penalty of $6,500. 8 U. S. C. \u00a7 1324a(e)(4)(A)(ii); 73 Fed. Reg. 10133. But the Arizona statute subjects that same employer (in respect to the same two incidents) to mandatory, permanent loss of the right to do business in Arizona \u2014 a penalty that Arizona\u2019s Governor has called the \u201cbusiness death penalty.\u201d Ariz. Rev. Stat. Ann. \u00a723-212.01(F)(2); News Release, Governor Signs Employer Sanctions Bill (2007), App. 399. At the same time, the state law leaves the other side of the punishment balance \u2014 the antidiscrimination side \u2014 unchanged.\nThis is no idle concern. Despite the federal Act\u2019s efforts to prevent discriminatory practices, there is evidence that four years after it had become law, discrimination was a serious problem. In 1990, the/General Accounting Office identified \u201cwidespread discrimination ... as a result of\u201d the Act. Report to the Congress, Immigration Reform: Employer Sanctions and the Question of Discrimination 3, 37, 80. Sixteen percent of employers in Los Angeles admitted that they applied the 1-9 requirement \u201conly to foreign-looking or foreign-sounding persons,\u201d and 22 percent of Texas employers reported that they \u201cbegan a practice to (1) hire only persons born in the United States or (2) not hire persons with temporary work eligibility documents\u201d because of the Act. Id., at 41-43. If even the federal Act (with its carefully balanced penalties) can result in some employers discriminating, how will employers behave when erring on the side of discrimination leads only to relatively small fines, while erring on the side of hiring unauthorized workers leads to the \u201cbusiness death penalty\u201d?\nSecond, Arizona\u2019s law subjects lawful employers to increased burdens and risks of erroneous prosecution. In addition to the Arizona law\u2019s severely burdensome sanctions, the law\u2019s procedures create enforcement risks not present in the federal system. The federal Act creates one centralized enforcement scheme, run by officials versed in immigration law and with access to the relevant federal documents. The upshot is an increased likelihood that federal officials (or the employer) will discover whether adverse information flows from an error-prone source and that they will proceed accordingly, thereby diminishing the likelihood that burdensome proceedings and liability reflect documentary mistakes.\nContrast the enforcement system that Arizona\u2019s statute creates. Any citizen of the State can complain (anonymously or otherwise) to the state attorney general (or any county attorney), who then \u201cshall investigate,\u201d Ariz. Rev. Stat. Ann. \u00a723-212(B) (emphasis added), and upon a determination that the \u201ccomplaint is not false and frivolous .. . shall notify the appropriate county attorney to bring an action,\u201d \u00a723-212(0(3). This mandatory language, the lower standard (\u201cnot frivolous\u201d instead of \u201csubstantial\u201d), and the removal of immigration officials from the state screening process (substituting numerous, elected county attorneys) increase the likelihood that suspicious circumstances will lead to prosecutions and liability of employers \u2014 even where more careful investigation would have revealed that there was no violation.\nAgain, this matter is far from trivial. Studies of one important source of Government information \u2014 the E-Verify system \u2014 describe how the federal administrative process corrected that system\u2019s tentative \u201cunemployable\u201d indications 18 percent of the time. This substantial error rate is not a function of a small sample size. See ante, at 610, n. 12. Rather, data from one fiscal year showed 46,921 workers initially rejected but later \u201cconfirmed as work authorized\u201d\u2014 all while E-Verify was used by only a fraction of the Nation\u2019s employers. U. S. Citizenship and Immigration Services, Statistics and Reports, http://www.uscis.gov/portal/ Site/uscis/menuitem.ebld4c2a3e5b9ac89243c6a7543f6dla/ ?vgnextchannel=7 c579589cdb76210V gnV CM100000b92ca60aRCRD (Feb. 4, 2011) (as visited May 18, 2011, and available in Clerk of Court\u2019s case file). That is to say nearly one in five times that the E-Verify system suggested that an individual was not lawfully employable (i. e., returned a tentative nonconfirmation of work authorization), the system was wrong; and subsequent review in the federal administrative process determined as much. (And those wrongly identified were likely to be persons of foreign, rather than domestic, origin, by a ratio of approximately-20 to 1.) See Westat, Findings of the E-Verify\u00ae Program Evaluation xxxi, 210, 246 (Dec. 2009) (assessing data from April to June 2008). E-Verify\u2019s accuracy rate is even worse \u201cin states that require the use of E-Verify for all or some of their employees.\u201d Id., at 122.\nA related provision of the state law aggravates the risk of erroneous prosecutions. The state statute says that in \u201cdetermining whether an employee is an unauthorized alien, the court shall consider only the federal government\u2019s determination pursuant to 8 [U. S. C.] \u00a7 1373(c).\u201d Ariz. Rev. Stat. Ann. \u00a723-212(H). But the federal provision to which the state law refers, 8 U. S. C. \u00a7 1373(c), says only that the Federal Government, upon a State\u2019s request, shall verify a person\u2019s \u201ccitizenship or immigration status.\u201d It says nothing about work authorization. See post, at 637-639 (Soto-MAYOR, J., dissenting). It says nothing about the source of the Federal Government\u2019s information. It imposes no duty upon the Federal Government or anyone else to investigate the validity of that information, which may falsely implicate an employer 18 percent of the time.\nSo what is the employer to do? What statute gives an employer whom the State proceeds against in state court the right to conduct discovery against the Federal Government? The Arizona statute, like the federal statute, says that the employer\u2019s use of an 1-9 form provides a defense. But there is a hitch. The federal Act says that neither the 1-9 form, nor \u201cany information contained in or appended to\u201d the form, \u201cmay ... be used for purposes other than for enforcement of this\u201d federal Act. \u00a7 1324a(b)(5). So how can the employer present a defense, say, that the Government\u2019s information base is flawed? The plurality takes the view that the forms are not necessary to receive the benefit of the affirmative defense. Ante, at 603, n. 9. But the 1-9 form would surely be the employer\u2019s most effective evidence. See also post, at 640 (Sotomayor, J., dissenting) (suggesting that the unavailability of 1-9 forms to defend against state-court charges means that Congress \u201cintended no such\u201d proceedings).\nNor does the Arizona statute facilitate the presentation of a defense when it immediately follows (1) its statement that \u201cthe court shall consider only the federal government\u2019s determination\u201d when it considers \u201cwhether an employee is an unauthorized alien\u201d with (2) its statement that \u201c[t]he federal government\u2019s determination creates a rebuttable presumption of the employee\u2019s lawful status.\u201d Ariz. Rev. Stat. Ann. \u00a723-212(H) (emphasis added). The two statements sound as if they mean that a Federal Government determination that the worker is unlawful is conclusive against the employer, but its determination that the worker\u2019s employment is lawful is subject to rebuttal by the State. Arizona tells us that the statute means the opposite. See ante, at '601, n. 7. But the legal briefs of. Arizona\u2019s attorney general do not bind the state courts. And until the matter is cleared up, employers, despite 1-9 checks, despite efforts to use E-Verify, will hesitate to hire those they fear will turn out to lack the right to work in the United States.\nAnd that is my basic point. Either directly or through the uncertainty that it creates, the Arizona statute will impose additional burdens upon lawful employers and consequently lead those employers to erect ever stronger safeguards against the hiring of unauthorized aliens \u2014 without counterbalancing protection against unlawful discrimination. And by defining \u201clicensing\u201d so broadly, by bringing nearly all businesses within its scope, Arizona\u2019s statute creates these effects statewide.\nWhy would Congress, after deliberately limiting ordinary penalties to the range of a few thousand dollars per illegal worker, want to permit far more drastic state penalties that would directly and mandatorily destroy entire businesses? Why would Congress, after carefully balancing sanctions to avoid encouraging discrimination, want to allow States to destroy that balance? Why would Congress, after creating detailed procedural protections for employers, want to allow States to- undermine them? Why would Congress want to write into an express pre-emption provision \u2014 a provision designed to prevent States from undercutting federal statutory objectives \u2014 an exception that could so easily destabilize its efforts? The answer to these questions is that Congress would not have wanted to do any of these things. And that fact indicates that the majority\u2019s reading of the licensing exception \u2014 a reading that would allow what Congress sought to forbid \u2014 is wrong.\nII\nThe federal licensing exception cannot apply to a state statute that, like Arizona\u2019s statute, seeks to bring virtually all articles of incorporation and- partnership certificates within its scope. I would find the scope of the exception to federal pre-emption to be far more limited. Context, purpose, and history make clear that the \u201clicensing and similar laws\u201d at issue involve employment-related licensing systems.\nThe issuance of articles of incorporation and partnership certificates and the like have long had little or nothing to do with hiring or \u201cemployment.\u201d Indeed, Arizona provides no evidence that any State, at the time the federal Act was enacted, had refused to grant or had revoked, say, partnership certificates, in light of the partners\u2019 hiring practices of any kind, much less the hiring of unauthorized aliens. See Ariz. Rev. Stat. Ann. \u00a7 29-308 (limited partnership formed upon the filing of a certificate of partnership providing names and addresses); \u00a7 29-345 (providing for dissolution of a limited partnership \u201c[o]n application by or for a partner or assignee . . . whenever it is not reasonably practicable to carry on the business in conformity with the partnership agreement\u201d).\nTo read the exception as covering laws governing corporate charters and partnership certificates (which are not usually called \u201clicensing\u201d laws) is to permit States to turn virtually every permission-related state law into an employment-related \u201clicensing\u201d law. The State need only call the permission a \u201clicense\u201d and revoke the license should its holder hire an unauthorized alien. If what was not previously an employment-related licensing law can become one simply by using it as a sanction for hiring unauthorized aliens or simply by state definition, indeed, if the State can call a corporate charter an employment-related licensing law, then why not an auto licensing law (amended to revoke the driver\u2019s licenses of those who hire unauthorized aliens)? Why not a dog licensing law? Or why not \u201cimpute\u201d a newly required license to conduct any business to every human being in the State, withdrawing that license should that individual hire an unauthorized alien? See S. C. Code Ann. \u00a741-8-20 (Supp. 2010) (providing that \u201c[a]ll private employers in South Carolina .. . shall be imputed a South Carolina employment license, which permits a private employer to employ a person in this State,\u201d but conditioning the license on the company\u2019s not hiring unauthorized aliens).\nSuch laws might prove more effective in stopping the hiring of unauthorized aliens. But they are unlikely to do so consistent with Congress\u2019 other critically important goals, in particular, Congress\u2019 efforts to protect from discrimination legal workers who look or sound foreign. That is why we should read the federal exemption\u2019s \u201clicensing\u201d laws as limited to those that involve the kind of licensing that, in the absence of this general state statute, would nonetheless have some significant relation to employment or hiring practices. Otherwise we read the federal \u201clicensing\u201d exception as authorizing a State to undermine, if not to swallow up, the federal pre-emption rule.\nIll\nI would therefore read the words \u201clicensing and similar laws\u201d as covering state licensing systems applicable primarily to the licensing of firms in the business of recruiting or referring workers for employment, such as the state agricultural labor contractor licensing schemes in existence when the federal Act was created. This reading is consistent with the provision's history and language, and it minimizes the risk of harm of the kind just described.\nThe Act\u2019s history supports this interpretation. Ever since 1964, the Federal Government has administered statutes that create a federal licensing scheme for agricultural labor contractors, firms that specialize in recruiting agricultural workers and referring them to farmers for a fee. Farm Labor Contractor Registration Act of 1963 (FLORA), 78 Stat. 920; Migrant and Seasonal Agricultural Worker Protection Act (AWPA), 96 Stat. 2583. The statutes require agricultural labor contractors to register with the federal Secretary of Labor, to obtain a registration certificate (in effect a license), and to require the contractor's employees to carry that certificate with them when engaging in agricultural labor contracting activities. AWPA \u00a7 101; FLORA \u00a7 4. The statutes list a host of forbidden activities, one of which (prior to 1986) was hiring unauthorized aliens. See AWPA \u00a7\u00a7103, 106; FLORA \u00a75(b). Prior to 1986, if the federal Labor Department believed a firm had violated these substantive provisions, it could institute administrative proceedings within the Labor Department. And if the Secretary found the labor contracting firm had violated the provisions, the Secretary could impose monetary penalties or withdraw the firm's registration. AWPA \u00a7\u00a7103, 503; FLORA \u00a7\u00a7 5(b), 9.\nMost important, and unlike the 1986 Act before us, the earlier agricultural labor contracting statutes did not -preempt similar state laws. To the contrary, the earlier Acts were \u201cintended to supplement State law\u201d and did not \u201cexcuse any person from compliance with appropriate State law and regulation.\u201d AWPA \u00a7521; see FLORA \u00a7 12. By 1986, nearly a dozen States had developed state licensing systems for agricultural labor contractors, i. e., firms that recruited and referred farm (and sometimes forestry) workers for a fee; some of these laws provided that state licenses could be revoked if the contractors hired unauthorized aliens. See, e. g., Cal. Lab. Code \u00a7 1690(f) (Deering Supp. 1991); 48 Pa. Cons. Stat. \u00a7\u00a7 1301.503(4), 1301.505(3) (1965-1983 Supp. Pamphlet); Ore. Rev. Stat. \u00a7\u00a7658.405(1), 658.440(l)(d) (1987) (covering forestry workers).\nIn 1986, Congress (when enacting the Act now before us) focused directly upon the earlier federal agricultural labor contractor licensing system. And it changed that earlier system by including a series of conforming amendments in the Act. One amendment removes from the earlier statutes the specific prohibition against hiring unauthorized aliens. It thereby makes agricultural labor contractors subject to the Act\u2019s similar general prohibition against such hiring. IRC A \u00a7 101(b)(1)(C) (repealing AWPA \u00a7 106). Another amendment takes from the Secretary of Labor most of the Secretary\u2019s enforcement powers in respect to the hiring of unauthorized aliens. It thereby leaves agricultural labor contractors subject to the same single unified enforcement system that the immigration Act applies to all employers. See 29 U. S. C. \u00a7 1853. A third amendment, however, leaves with the Secretary of Labor the power to withdraw the federal registration certificate from an agricultural labor contractor that hired unauthorized aliens. IRCA \u00a7 101(b)(1) (B)(iii), 29 U. S. C. \u00a7 1813(a)(6). Thus, the Act leaves this subset of employers (i. e., agricultural labor contractors but not other employers) subject to a federal licensing scheme.\nSo far, the conforming amendments make sense. But have they not omitted an important matter? Prior to 1986, States as well as the Federal Government could license agricultural labor contractors. Should the 1986 statute not say whether Congress intended that dual system to continue? The answer is that the 1986 Act does not omit this matter. It answers the coexistence question directly with the parenthetical phrase we are now considering, namely, the phrase, \u201cother than through licensing and similar laws,\u201d placed in the middle of the Act\u2019s pre-emption provision. 8 U. S. C. \u00a7 1324a(h)(2). That phrase refers to agricultural labor contractors, and it says that, in respect to those licensing schemes, dual state/federal licensing can continue.\nAs of 1986, there were strong reasons for permitting that dual system to continue in this specialized area. Dual enforcement had proved helpful in preventing particularly serious employment abuses. See, e. g., 128 Cong. Ree. 24090 (1982) (reflecting concerns that agricultural workers were \u201choused in hovels; . . . subjected to physical abuse and kept in virtual slavery\u201d). And because the contractors\u2019 business consists of providing labor forces, their hiring of authorized workers is closely related to their general fitness to do business. See S. Rep. No. 202, 88th Cong., 1st Sess., 1 (1963) (explaining that farm labor contractor registration laws are needed to prevent \u201cirresponsible crew leaders\u201d from \u201cexploiting] ... farmers\u201d); Martin, Good Intentions Gone Awry: IRCA and U. S. Agriculture, 534 Annals Am. Acad. Pol. & Soc. Sci. 44, 49 (1994) (describing how farmers who relied on contractors risked losing their labor forces to immigration raids). Dual enforcement would not create a federal/state penalty disparity, for federal systems as well as state systems provide for license revocation. Experience had shown that dual enforcement had not created any serious conflict or other difficulty. And in light of the specialized nature and comparatively small set of businesses subject to dual enforcement, to permit licensing of that set of businesses would not seriously undermine the objectives of the Act or its preemption provision.\nThus, it is not surprising that the legislative history of the 1986 Act\u2019s pre-emption provision says that the licensing exception is about the licensing of agricultural labor contractors. The House Report on the Act, referring to the licensing exception, states that the Committee did \u201cnot intend to preempt licensing or \u2018fitness to do business laws,\u2019 such as state farm labor contractor laws or forestry laws, which specifically require such licensee or contractor to refrain from hiring, recruiting or referring undocumented aliens.\u201d H. R. Rep. No. 99-682, at 58 (emphasis added).\nThe Act\u2019s language, while not requiring this interpretation, is nonetheless consistent with limiting the scope of the phrase in this way. Context can limit the application of the term \u201clicensing\u201d to particular types of licensing. The Act\u2019s subject matter itself limits the term to employment-related licensing. And the Act\u2019s specific reference to those who \u201crecruit or refer for a fee for employment, unauthorized aliens,\u201d is consistent with employment-related licensing that focuses primarily upon labor contracting businesses.\nThus, reading the phrase as limited in scope to laws licensing businesses that recruit or refer workers for employment is consistent with the statute\u2019s language, with the relevant history, and with other statutory provisions in the Act. That reading prevents state law from undermining the Act and from turning the pre-emption clause on its head. That is why I consider it the better reading of the statute.\nH-f\nAnother section of the Arizona statute requires every employer, after hiring an employee,\u201d to \u201cverify the employment eligibility of the employee\u201d through the Federal Government\u2019s E-Verify program. Ariz. Rev. Stat. Ann. \u00a723-214. This state provision makes participation in the federal E-Verify system mandatory for virtually all Arizona employers. The federal law governing the E-Verify program, however, creates a program that is voluntary. By making mandatory that which federal law seeks to make voluntary, the state provision stands as a significant \u201c \u2018obstacle to the accomplishment and execution of the full purposes and objectives of Congress/ \u201d Crosby, 530 U. S., at 373 (quoting Hines, 312 U. S., at 67). And it is consequently pre-empted.\nThe federal statute itself makes clear that participation in the E-Verify program is voluntary. The statute\u2019s relevant section bears the title \u201cVoluntary Election to Participate in a Pilot Program.\u201d IIRIRA \u00a7402, note following 8 U. S. C. \u00a7 1324a, p. 331. A subsection bears the further title, \u201cVoluntary Election.\u201d \u00a7402(a). And within that subsection, the statute says that employers \u201cmay elect to participate.\u201d (Emphasis added.) The statute elsewhere requires the Secretary of Homeland Security to \u201cwidely publicize . . . the voluntary nature\u201d of the program. \u00a7 402(d)(2); see also \u00a7 402(d)(3)(A) (requiring the designation of local officials to advertise the \u201cvoluntary nature\u201d of the program). It adds that employers may \u201cterminate\u201d their \u201celection\u201d to participate by following certain procedures. \u00a7 402(c)(3). And it tells the Secretary of Homeland Security (as an earlier version told the Attorney General) that she \u201cmay not require any person or other entity to participate.\u201d \u00a7402(a); see also \u00a7 402(e) (creating exceptions, none of which is applicable here, that require federal employers and certain others to participate in E-Verify or another pilot program).\nCongress had strong reasons for insisting on the voluntary nature of the program. E-Verify was conceived as, and remains, a pilot program. Its database consists of tens of millions of Social Security and immigration records kept by the Federal Government. These records are prone to error. See, e. g., Office of the Inspector General, Social Security Administration, Congressional Response Report: Accuracy of the Social Security Administration\u2019s Numident File 12 (2006) (hereinafter Social Security Report) (estimating that 3.3 million naturalized citizens are miselassified in a Social Security database used by E-Verify); GAO, Employment Verification: Federal Agencies Have Taken Steps To Improve E-Verify, but Significant Challenges Remain 16 (GAO-11-146, 2010) (hereinafter GAO Report) (noting that \u201cerroneous [non-confirmations] related to name inconsistencies ... remain an issue\u201d that \u201ccan create the appearance of discrimination because of their disparate impact on certain cultural groups\u201d). And making the program mandatory would have been hugely expensive. See post, at 644-645 (SOTOMAYOR, J., dissenting).\nThe E-Verify program is still a pilot program, as a matter of statute and practice. See IIRIRA \u00a7401; Letter from H. Couch to R. Stana (Dec. 8, 2010) (discussing aspects of E-Verify that have yet to be implemented). The effects of the program\u2019s efforts to take account of, and correct for, potential errors remain uncertain. Congress could decide that, based on the results of the pilot, E-Verify should become a mandatory program. But it has not yet made that determination. And in making that decision, it will have to face a number of questions: Will workers receiving tentative negative verdicts understand the possibility of administrative challenge? Will they make the effort to invoke that process, say, traveling from a farm to an urban Social Security office? Will employers prove willing to undergo the financial burden of supporting a worker who might lose the challenge? Will employers hesitate to train those workers during the time they bring their challenges? Will employers simply hesitate to hire workers who might receive an initial negative verdict \u2014 more likely those who look or sound foreign? Or will they find ways to dismiss those workers? These and other unanswered questions convinced Congress to make E-Verify a pilot program, to commission continuous study and evaluation, and to insist that participation be voluntary.\nIn co-opting a federal program and changing the key terms under which Congress created that program, Arizona\u2019s mandatory state law simply ignores both the federal language and the reasoning it reflects, thereby posing an \u201c \u2018obstacle to the accomplishment\u2019\u201d of the objectives Congress\u2019 statute evinces. Crosby, supra, at 373 (quoting Hines, supra, at 67).\nThe majority reaches a contrary conclusion by pointing out (1) that Congress has renewed the E-Verify program several times, each time expanding its coverage, to the point where it now encompasses all 50 States; (2) that the E-Verify database has become more accurate; (3) that the Executive Branch has itself mandated participation for federal contractors; and (4) that the statute\u2019s language tells the Secretary of Homeland Security, not the States, to maintain the program as voluntary.\nThe short, and, I believe, conclusive answers to these objections are: (1) Congress has kept the language of the statute \u2014 and the voluntary nature of the program \u2014 the same throughout its program renewals. See \u00a72, 115 Stat. 2407; 117 Stat. 1944; \u00a7547, 123 Stat. 2177. And it is up to Congress, not to Arizona or this Court, to decide when participation in the program should cease to be voluntary.\n(2) The studies and reports have repeatedly found both (a) that the E-Verify program had achieved greater accuracy, but (b) that problems remain. See, e. g., Social Security Report 11 (estimating that Social Security records contain 4.8 million \u201cdiscrepancies that could require the numberholder to visit [the Social Security Administration] . . . before employment eligibility would be confirmed\u201d); GAO Report 19 (estimating that, if E-Verify were made mandatory nationwide, 164,000 newly hired workers each year would erroneously be adjudged ineligible to work because of name mismatches, as when the worker\u2019s \u201cfirst or last name is incorrectly spelled in government databases or on identification documents\u201d). And it is up to Congress, not to Arizona or this Court, to determine when the federally designed and federally run E-Verify program is ready for expansion.\n(3) Federal contractors are a special group of employers, subject to many special requirements, who enter voluntarily into a special relation with the Government. For the Federal Government to mandate that a special group participate in the E-Verify program tells us little or nothing about the effects of a State\u2019s mandating that nearly every employer within the State participate \u2014 as Arizona has done. And insofar as we have not determined whether the Executive was authorized by Congress to mandate E-Verify for federal contractors, it says nothing about Congress\u2019 intent.\n(4) There is no reason to imply negatively from language telling the Secretary not to make the program mandatory, permission for the States to do so. There is no presumption that a State may modify the operation of a uniquely federal program like E-Verify. Cf. Buckman Co. v. Plaintiffs\u2019 Legal Comm., 531 U. S. 341, 347-348 (2001); Boyle v. United Technologies Corp., 487 U. S. 500, 504-505 (1988); see also post, at 643-644 (Sotomayor, J., dissenting). The remaining federal statutory language makes clear the voluntary nature of the E-Verify program. Arizona\u2019s plan would undermine that federal objective.\nFor these reasons I would hold that the federal Act, including its E-Verify provisions, pre-empts Arizona\u2019s state law. With respect, I dissent from the majority\u2019s contrary holdings.",
+        "type": "dissent",
+        "author": "Justice Breyer,"
+      },
+      {
+        "text": "Justice Sotomayor,\ndissenting.\nIn enacting the Immigration Reform and Control Act of 1986 (IRCA), 100 Stat. 3359, Congress created a \u201ccomprehensive scheme prohibiting the employment of illegal aliens in the United States.\u201d Hoffman Plastic Compounds, Inc. v. NLRB, 535 U. S. 137, 147 (2002). The Court reads IRCA\u2019s saving clause \u2014 which preserves from pre-emption state \u201clicensing and similar laws,\u201d 8 U. S. C. \u00a7 1324a(h)(2) \u2014 to permit States to determine for themselves whether someone has employed an unauthorized alien so long as they do so in conjunction with licensing sanctions. This reading of the saving clause cannot be reconciled with the rest of IRCA\u2019s comprehensive scheme. Having constructed a federal mechanism for determining whether someone has knowingly employed an unauthorized alien, and having withheld from the States the information necessary to make that determination, Congress could not plausibly have intended for the saving clause to operate in the way the majority reads it to do. When viewed in context, the saving clause can only be understood to preserve States\u2019 authority to impose licensing sanctions after a final federal determination that a person has violated IECA by knowingly employing an unauthorized alien. Because the Legal Arizona Workers Act instead creates a separate state mechanism for Arizona state courts to determine whether a person has employed an unauthorized alien, I would hold that it falls outside the saving clause and is pre-empted.\nI would also hold that federal law pre-empts the provision of the Arizona Act making mandatory the use of E-Verify, the federal electronic verification system. By requiring Arizona employers to use E-Verify, Arizona has effectively made a decision for Congress regarding use of a federal resource, in contravention of the significant policy objectives motivating Congress\u2019 decision to make participation in the E-Verify program voluntary.\nI\nA\nI begin with the plain text of IRCA\u2019s pre-emption clause. IRCA expressly pre-empts States from \u201cimposing civil or criminal sanctions (other than through licensing and similar laws) upon those who employ, or recruit or refer for a fee for employment, unauthorized aliens.\u201d Ibid. The Arizona Act, all agree, imposes civil sanctions upon those who employ unauthorized aliens. The Act thus escapes express preemption only if it falls within IRCA\u2019s parenthetical saving clause for \u201clicensing and similar laws.\u201d Ibid.\nThe saving clause is hardly a paragon of textual clarity. IRCA does not define \u201clicensing,\u201d nor does it use the word \u201clicensing\u201d in any other provision. Laws that impose sanctions by means of licensing exist in many forms. Some permit authorities to take action with respect to licenses upon finding that a licensee has engaged in prohibited conduct. See, e. g., Ariz. Rev. Stat. Ann. \u00a7 4-210(A)(l) (West 2011) (liquor licenses may be suspended or revoked if the licensing authority determines after notice and a hearing that repeated acts of violence have occurred on the licensed premises). Others, more narrowly, permit authorities to take such action following a pre-existing determination by another authorized body that the licensee has violated another provision of law. See, e. g., \u00a7 4-202(D) (liquor licenses may not be renewed to persons who have been convicted of felonies within the past five years). That both types of laws might be defined in some contexts as licensing laws does not necessarily mean that Congress intended the saving clause to encompass both types. See Dolan v. Postal Service, 546 U. S. 481, 486 (2006) (\u201cA word in a statute may or may not extend to the outer limits of its definitional possibilities\u201d); see also FCC v. AT&T Inc., 562 U. S. 397, 407 (2011) (\u201c[C]onstruing statutory language is not merely an exercise in ascertaining the outer limits of [a word\u2019s] definitional possibilities\u201d (internal quotation marks omitted; second alteration in original)). In isolation, the text of IRCA\u2019s saving clause provides no hint as to which type or types of licensing laws Congress had in mind.\nB\nBecause the plain text of the saving clause does not resolve the question, it is necessary to look to the text of IRCA as a whole to illuminate Congress\u2019 intent. See Dolan, 546 U. S., at 486 (\u201cInterpretation of a word or phrase depends upon reading the whole statutory text, considering the purpose and context of the statute\u201d); Ali v. Federal Bureau of Prisons, 552 U. S. 214, 222 (2008) (construction of a statutory term \u201cmust, to the extent possible, ensure that the statutory scheme is coherent and consistent\u201d); Davis v. Michigan Dept. of Treasury, 489 U. S. 803, 809 (1989) (\u201c[St]tatutory language cannot be construed in a vacuum. It is a fundamental canon of statutory construction that the words of a statute must be read in their context and with a view to their place in the overall statutory scheme\u201d).\nBefore Congress enacted IRCA in 1986, a number of States had enacted legislation prohibiting employment of unauthorized aliens. See ante, at 688, and n. 1 (citing 11 such laws). California, for example, prohibited the knowing employment of an alien \u201cwho is not entitled to lawful residence in the United States\u201d when \u201csuch employment would have an adverse effect on lawful resident workers,\u201d and made violations punishable by fines of $200 to $500. 1971 Cal. Stats, ch. 1442, \u00a7 1; see also De Canas v. Bica, 424 U. S. 351, 352, n. 1 (1976). Kansas went even further, making it a misdemeanor, punishable by a term of confinement not to exceed one month, to employ a person within Kansas knowing \u201csuch person to be illegally within the territory of the United States.\u201d Kan. Stat. Ann. \u00a7\u00a721-4409, 21-4502 (1981).\nCongress enacted IRCA amidst this patchwork of state laws. IRCA \u201c \u2018forcefully\u2019 made combating the employment of illegal aliens central to \u2018the policy of immigration law.\u2019 \u201d Hoffman, 535 U. S., at 147 (quoting INS v. National Center for Immigrants\u2019 Rights, Inc., 502 U. S. 183, 194, and n. 8 (1991); brackets omitted); see also H. R. Rep. No. 99-682, pt. 1, p. 46 (1986) (\u201c[L]egislation containing employer sanctions is the most humane, credible and effective way to respond to the large-scale influx of undocumented aliens\u201d). As the majority explains, IRCA makes it \u201cunlawful for a person or other entity ... to hire, or to recruit or refer for a fee, for employment in the United States an alien knowing the alien is an unauthorized alien.\" \u00a7 1324a(a)(l)(A); ante, at 588-589. IRCA also requires employers to verify that they have reviewed documents establishing an employee\u2019s eligibility for employment. See \u00a7 1324a(b); ante, at 589. These two provisions are the foundation of IRCA\u2019s \u201ccomprehensive scheme prohibiting the employment of illegal aliens in the United States.\u201d Hoffman, 535 U. S., at 147.\nCongress made explicit its intent that IRCA be enforced uniformly. IRCA declares that \u201c[i]t is the sense of the Congress that . . . the immigration laws of the United States should be enforced vigorously and uniformly.\u201d \u00a7115, 100 Stat. 3384 (emphasis added). Congress structured IRCA\u2019s provisions in a number of ways to accomplish this goal of uniform enforcement.\nFirst, and most obviously, Congress expressly displaced the myriad state laws that imposed civil and criminal sanctions on employers who hired unauthorized aliens. See \u00a7 1324a(h)(2); see also H. R. Rep. No. 99-682, at 58 (\u201cThe penalties contained in this legislation are intended to specifically preempt any state or local laws providing civil fines and/or criminal sanctions on the hiring, recruitment or referral of undocumented aliens\u201d). Congress could not have made its intent to pre-empt state and local laws imposing civil or criminal sanctions any more \u201c \u2018clear [or] manifest.\u2019 \u201d Medtronic, Inc. v. Lohr, 518 U. S. 470, 485 (1996) (quoting Rice v. Santa Fe Elevator Corp., 331 U. S. 218, 230 (1947)).\nSecond, Congress centralized in the Federal Government enforcement of IRCA\u2019s prohibition on the knowing employment of unauthorized aliens. IRCA instructs the Attorney General to designate a specialized federal agency unit whose \u201cprimary duty\u201d will be to prosecute violations of IRCA. \u00a7 1324a(e)(l)(D). IRCA also instructs the Attorney General to establish procedures for receiving complaints, investigating complaints having \u201ca substantial probability of validity,\u201d and investigating other violations. \u00a7 1324a(e)(l); see also 8 CFR \u00a7274a.9 (2010). Upon concluding that a person has violated IRCA, the Attorney General must provide the person with notice and an opportunity for a hearing before a federal administrative law judge (ALJ). 8 U. S. C. \u00a7\u00a7 1324a(e) (3)(A), (B). If the person does not request a hearing, the Attorney General may impose a final, nonappealable order requiring payment of sanctions. \u00a7 1324a(e)(3)(B). If the person requests a hearing, the ALJ is required to hold a hearing and, upon finding that the person has violated IRCA, must order the payment of sanctions. \u00a7 1324a(e)(3)(C). The ALJ\u2019s order is the final agency order, unless the affected person requests and obtains further administrative appellate review. \u00a7 1324a(e)(7); see also 28 CFR \u00a7 68.54 (2010). IRCA grants immigration officers and ALJs \u201creasonable access to examine evidence of any person or entity being investigated\u201d and provides them with extensive subpoena powers. \u00a7 1324a(e)(2). And the immigration officers investigating suspected violations obviously have access to the relevant federal information concerning the work authorization status of the employee in question.\nThird, Congress provided persons \u201cadversely affected\u201d by an agency order with a right of review in the federal courts of appeals. \u00a7 1324a(e)(8); see also \u00a7 1324a(e)(9) (directing the Attorney General in eases of noncompliance to file suit in federal district court to enforce a final order imposing sanctions); \u00a7 1324a(f) (authorizing the Attorney General to pursue injunctive relief and criminal sanctions in federal district court). In this way, Congress ensured that administrative orders finding violations of IRCA would be reviewed by federal judges with experience adjudicating immigration-related matters.\nFourth, Congress created a uniquely federal system by which employers must verify the work authorization status of new hires. Under this system, an employer must attest under penalty of perjury on a form designated by the Attorney General (the 1-9 form) that it has examined enumerated identification documents to verify that a new hire is not an unauthorized alien. \u00a7 1324a(b)(l)(A); see also 8 CFR \u00a7 274a.2; ante, at 589. Good-faith compliance with this verification requirement entitles an employer to an affirmative defense if charged with violating IRCA. \u00a7 1324a(a)(3); see also H. R. Rep. No. 99-682, at 57. Notably, however, IRCA prohibits use of the 1-9 form for any purpose other than enforcement of IRCA and various provisions of federal criminal law. \u00a7 1324a(b)(5); 8 CFR \u00a7 274a.2(b)(4). Use of the 1-9 form is thus limited to federal proceedings, as the plurality acknowledges. See ante, at 603, n. 9.\nFinally, Congress created no mechanism for States to access information regarding an alien\u2019s work authorization status for purposes of enforcing state prohibitions on the employment of unauthorized aliens. The relevant sections of IRCA make no provision for the sharing of work authorization information between federal and state authorities even though access to that information would be critical to a State\u2019s ability to determine whether an employer has employed an unauthorized alien. In stark contrast, a separate provision in the same title of IRCA creates a verification system by which States can ascertain the immigration status of aliens applying for benefits under programs such as Medicaid and the food stamp program. See IRCA \u00a7 121(a)(1)(C), 42 U. S. C. \u00a7 1320b-7(d)(3). The existence of a verification system in one provision of IRCA, coupled with its absence in the provision governing employment of unauthorized aliens, suggests strongly that Congress did not contemplate any role for the States in adjudicating questions regarding employment of unauthorized aliens. Cf. Bates v. United States, 522 U. S. 23, 29-30 (1997) (\u201cWhere Congress includes particular language in one section of a statute but omits it in another section of the same Act, it is generally presumed that Congress acts intentionally and purposely in the disparate inclusion or exclusion\u201d (internal quotation marks and brackets omitted)).\nIn an attempt to show that Congress intended for the Federal Government to share immigration-related information with the States, Arizona points to a federal statute, 8 U. S. C. \u00a7 1373(c), requiring the Government to respond to certain inquiries from state agencies. Section 1373(c), however, merely requires the Government to respond to inquiries from state agencies \u201cseeking to verify or ascertain the citizenship or immigration status of any individual within the jurisdiction of the agency.\u201d It does not require the provision of information regarding an alien\u2019s work authorization status, which is not necessarily synonymous with immigration status. See 8 CFR \u00a7 274a.l2(c) (identifying categories of legal aliens \u201cwho must apply for employment authorization\u201d). Arizona has not identified any federal statute or regulation requiring the Federal Government to provide information regarding an alien\u2019s work authorization status to a State. More importantly, \u00a7 1373(c) was enacted in 1996, see \u00a7 642(c), 110 Stat. 3009-707, and thus says nothing about Congress\u2019 intent when it enacted IRCA\u2019s saving clause a decade earlier. See Jones v. United States, 526 U. S. 227, 238 (1999).\nCollectively, these provisions demonstrate' Congress\u2019 intent to build a centralized, exclusively federal scheme for determining whether a person has \u201cemploy[ed], or reeruit[ed] or referred] for a fee for employment, unauthorized aliens.\u201d 8U.S.C. \u00a71324a(h)(2).\nC\nIRCA\u2019s saving clause must be construed against this backdrop. Focusing primarily on the text of the saving clause, Arizona and the majority read the clause to permit States to determine themselves whether a person has employed an unauthorized alien, so long as they do so in connection with licensing sanctions. See ante, at 597-599. This interpretation overlooks the broader statutory context and renders the statutory scheme \u201c[in]coherent and [in]consistent.\u201d Ali, 552 U. S., at 222.\nUnder the majority\u2019s reading of the saving clause, state prosecutors decide whether to commence licensing-related proceedings against a person suspected of employing an unauthorized alien. The majority\u2019s holding also permits state courts and other tribunals to adjudicate the question whether an employer has employed an unauthorized alien. The Arizona Act illustrates the problems with reading the saving clause to permit such state action. The Act directs prosecutors to verify an employee\u2019s work authorization with the Federal Government pursuant to \u00a7 1373(c), e.g., Ariz. Rev. Stat. Ann. \u00a7 23-212(B) (West Supp. 2010), and the state court \u201cshall consider only the federal government\u2019s determination pursuant to [\u00a7] 1373(c)\u201d in \u201cdetermining whether an employee is an unauthorized alien,\u201d e. g., \u00a7 23-212(H). Putting aside the question whether \u00a7 1373(c) actually provides access to work authorization information, \u00a7 1373(c) did not exist when IRCA was enacted in 1986. See supra, at 637. Arizona has not identified any avenue by which States could have accessed work authorization information in the first decade of IRCA\u2019s existence. The absence of any such avenue at the time of IRCA\u2019s enactment speaks volumes as to how Congress would have understood the saving clause to operate: If States had no access to information regarding the work authorization status of aliens, how could state courts have accurately adjudicated the question whether an employer had employed an unauthorized alien?\nThe Arizona Act\u2019s reliance on \u00a7 1373(c) highlights the anomalies inherent in state schemes that purport to adjudicate whether an employee is an authorized alien. Even when Arizona prosecutors obtain information regarding an alien\u2019s immigration status pursuant to \u00a7 1373(c), the prosecutors and state court will have to determine the significance of that information to an alien's work authorization status, which will often require deciding technical questions of immigration law. See, e.g., 8 CFR \u00a7\u00a7274a.l2(a)-(c) (dividing 62 different classes of aliens into those authorized for employment incident to immigration status, those authorized for employment with a specific employer incident to immigration status, and those who must apply for work authorization). And, as discussed above, that information may not shed light at all on an alien\u2019s work authorization status, which is oftentimes distinct from immigration status. See supra, at 637, and n. 5. As a result, in many cases state decisions \u2014 made by prosecutors and courts with no or little experience in federal immigration law \u2014 will rest on less-than-complete or inaccurate information, \u201cereat[ing] enforcement risks not present in the federal system.\u201d Ante, at 617 (Breyer, J., dissenting). I can discern no reason why Congress would have intended for state courts inexperienced in immigration matters to adjudicate, in the context of licensing sanctions, the very same question that IRC A commits to federal officers, ALJs, and the courts of appeals.\nEqually problematic is the fact that employers charged under a state enforcement scheme with hiring unauthorized aliens are foreclosed from using 1-9 forms in their defense in the state proceedings. Like IRCA, the Arizona Act confers an affirmative defense on employers who comply in good faith with IRCA\u2019s verification requirement. See Ariz. Rev. Stat. Ann. \u00a7\u00a723-212(J), 23-212.01(J). As discussed above, however, IRCA prohibits an employer from using the 1-9 form to establish that affirmative defense under Arizona law. See 8 U.S.C. \u00a7 1324a(b)(5); 8 CFR \u00a7 274a.2(b)(4). Not to worry, the plurality says: The employer can establish the affirmative defense through office policies and testimony of employees. Ante, at 603, n. 9. But Congress made the 1-9 verification system and accompanying good-faith defense central to IRCA. See, e.g., H. R. Rep. No. 99-682, at 60 (\u201c[A]n effective verification procedure, combined with an affirmative defense for those who in good faith follow the procedure, is essential\u201d). Given the importance of this procedure, if Congress in fact intended for state courts to adjudicate whether a person had employed an unauthorized alien in connection with licensing sanctions, why would it have prohibited that person from using the 1-9 form \u2014 \u201cthe employer\u2019s most effective evidence,\u201d ante, at 619 (Breyer, J., dissenting) \u2014 in the state-court proceeding? The question answers itself: Congress intended no such thing.\nFurthermore, given Congress\u2019 express goal of \u201cumfor[m]\u201d enforcement of \u201cthe immigration laws of the United States,\u201d IRCA \u00a7 115, 100 Stat. 3384, I cannot believe that Congress intended for the 50 States and countless localities to implement their own distinct enforcement and adjudication procedures for deciding whether employers have employed unauthorized aliens. Reading the saving clause as the majority does subjects employers to a patchwork of enforcement schemes similar to the one that Congress sought to displace when it enacted IRCA. Having carefully constructed a uniform federal scheme for determining whether a person has employed an unauthorized alien, Congress could not plausibly have meant to create such a gaping hole in that scheme through the undefined, parenthetical phrase \u201clicensing and similar laws.\u201d See Whitman v. American Trucking Assns., Inc., 531 U. S. 457, 468 (2001) (\u201cCongress . . . does not, one might say, hide elephants in mouseholes\u201d).\nIn sum, the statutory scheme as a whole defeats Arizona\u2019s and the majority\u2019s reading of the saving clause. Congress would not sensibly have permitted States to determine for themselves whether a person has employed an unauthorized alien, while at the same time creating a specialized federal procedure for making such a determination, withholding from the States the information necessary to make such a determination, and precluding use of the 1-9 forms in nonfederal proceedings. See United States v. Locke, 529 U. S. 89, 106 (2000) (\u201cWe decline to give broad effect to saving clauses where doing so would upset the careful regulatory scheme established by federal law\u201d).\nTo render IRCA\u2019s saving clause consistent with the statutory scheme, I read the saving clause to permit States to impose licensing sanctions following a final federal determination that a person has violated \u00a7 1324a(a)(l)(A) by knowingly hiring, recruiting, or referring for a fee an unauthorized alien. This interpretation both is faithful to the saving clause's text, see supra, at 631-632, and best reconciles the saving clause with IRCA\u2019s \u201ccareful regulatory scheme,\u201d Locke, 529 U. S., at 106. It also makes sense as a practical matter. In enacting IRCA\u2019s pre-emption clause, Congress vested in the Federal Government the authority to impose civil and criminal sanctions on persons who employ unauthorized aliens. Licensing and other types of business-related permissions are typically a matter of state law, however. See, e. g., Kamen v. Kemper Financial Services, Inc., 500 U. S. 90, 98 (1991) (noting that \u201c[corporation law\u201d is an area traditionally \u201cgoverned by state-law standards\u201d); Chicago Title & Trust Co. v. Forty-One Thirty-Six Wilcox Bldg. Corp., 302 U. S. 120, 127 (1937) (\u201cHow long and upon what terms a state-created corporation may continue to exist is a matter exclusively of state power\u201d). As a result, if Congress wanted to \u201censurfe] that a full range of. sanctions [was] available to be used against businesses that employ unauthorized aliens,\u201d Brief for Respondents 37, Congress had to authorize the States and localities to impose licensing sanctions following a federal adjudication of a violation of IRCA.\nI do not mean to suggest that the mere existence of a comprehensive federal scheme necessarily reveals a congressional intent to oust state remedies. Cf. English v. General Elec. Co., 496 U. S. 72, 87 (1990) (\u201c[T]he mere existence of a federal regulatory or enforcement scheme . . . does not by itself imply pre-emption of state remedies\u201d); New York State Dept. of Social Servs. v. Dublino, 413 U. S. 405, 415 (1973) (rejecting the argument that \u201cpre-emption is to be inferred merely from the comprehensive character of the federal [program]\u201d). Here, Congress has made clear its intent to oust State civil and criminal remedies; the sole question is the scope of the saving clause\u2019s exception for \u201clicensing and similar laws.\u201d The comprehensive scheme established by Congress necessarily informs the scope of this clause. For all the reasons stated, the only interpretation of that clause that is consistent with the rest of the statute is that it preserves the States\u2019 authority to impose licensing sanctions after a final federal determination that a person has violated IRCA\u2019s prohibition on the knowing employment of unauthorized aliens.\nUnder my construction of the saving clause, the Arizona Act cannot escape pre-emption. The Act authorizes Arizona county attorneys to commence actions charging an employer with having employed an unauthorized alien. Ariz. Rev. Stat. Ann. \u00a7\u00a7 28-212(D), 23-212.01(D). Arizona state courts must find that an employer has employed an unauthorized alien before imposing the sanctions enumerated in the Act. \u00a7\u00a723-212(F), 23-212.01(F). Because the Act\u2019s sanctions are not premised on a final federal determination that an employer has violated IRCA, I would hold that the Aet does not fall within IRCA\u2019s saving clause and is therefore pre-empted.\nII\nI agree with the conclusion reached by Justice Breyer in Part IV of his dissenting opinion that federal law impliedly pre-empts the provision in the Arizona Act requiring all Arizona employers to use the federal E-Verify program. See Ariz. Rev. Stat. Ann. \u00a723-214. I also agree with much of his reasoning. I write separately to offer a few additional observations.\nAs we have recently recognized, that a state law makes mandatory something that federal law makes voluntary does not mean, in and of itself, that the state law \u201cstands as an obstacle to the accomplishment and execution of the full purposes and objectives of Congress,\u201d Crosby v. National Foreign Trade Council, 530 U. S. 363,373 (2000) (internal quotation marks omitted). See Williamson v. Mazda Motor of America, Inc., 562 U. S. 323, 326 (2011) (concluding that a federal regulation permitting manufacturers to choose between two seatbelt options did not pre-empt state tort liability based on a decision to install one of those options); see also id., at 337 (Sotomayor, J., concurring) (\u201c[T]he mere fact that an agency regulation allows manufacturers a choice between options is insufficient to justify implied pre-emption\u201d).\nThis case, however, is readily distinguishable from cases like Williamson, in which state law regulates relationships between private parties. Here, the Arizona Act directly regulates the relationship between the Federal Government and private parties by mandating use of a federally created and administered resource. This case thus implicates the \u201cuniquely federal interes[t]\u201d in managing use of a federal resource. Boyle v. United Technologies Corp., 487 U. S. 500, 504 (1988) (internal quotation marks omitted); see also Buckman Co. v. Plaintiffs\u2019 Legal Comm., 531 U. S. 341, 347 (2001) (\u201c[T]he relationship between a federal agency and the entity it regulates is inherently federal in character because the relationship originates from, is governed by, and terminates according to federal law\u201d).\nSignificant policy objectives motivated Congress\u2019 decision to make use of E-Verify voluntary. In addition to those discussed by Justice Breyer, see ante, at 627-628 (dissenting opinion), I note that Congress considered the cost of a mandatory program. In 2003, when Congress elected to expand E-Verify to all 50 States but declined to require its use, it cited a congressionally mandated report concluding that the annual cost of the pilot program was $6 million, the annual cost of a nationwide voluntary program would be $11 million, and the annual cost of a nationwide mandatory program would be $11.7 billion. H. R. Rep. No. 108-304, pt. 1, p. 6 (2003); see also Institute for Survey Research, Temple Univ., and Westat, INS Basic Pilot Evaluation: Summary Report 38 (2002) (concluding that the Social Security Administration (SSA) and the Immigration and Naturalization Service were not \u201ccapable of enrolling and administering a program for the hundreds of thousands of employers in any of the large mandatory programs explored here\u201d). A more recent report prepared for the Department of Homeland Security similarly noted the costs associated with mandatory use of E-Verify. See Westat, Findings of the E-Verify\u00ae Program Evaluation 224 (Dec. 2009) (observing that the SSA estimated that it would have to hire an additional 1,500 field staff to handle a mandatory national program); id., at 251 (recommending that any expansion of E-Verify take place gradually \u201cto allow the Federal government adequate time to hire and train the new staff required to run such a program\u201d). Permitting States to make use of E-Verify mandatory improperly puts States in the position of making decisions for the Federal Government that directly affect expenditure and depletion of federal resources.\nThe majority highlights the Government\u2019s statement in its amicus brief that \u201c 'the E-Verify system can accommodate the increased use that the Arizona statute and existing similar laws would create.\u2019\u201d Ante, at 610 (quoting Brief for United States 34). But \u201c[t]he purpose of Congress is the ultimate touchstone in every pre-emption case.\u201d Medtronic, 518 U. S., at 494 (internal quotation marks omitted). It matters not whether the Executive Branch believes that the Government is now capable of handling the burdens of a mandatory system. Congressional intent controls, and Congress has repeatedly decided to keep the E-Verify program voluntary. Because state laws requiring use of E-Verify frustrate the significant policy objectives underlying this decision, thereby imposing explicitly unwanted burdens on the Federal Government, I would hold that federal law impliedly pre-empts the Arizona requirement.\n* * *\nFor these reasons, I cannot agree with either of the Court\u2019s holdings in this case. I respectfully dissent.\nIRCA defines the term \u201cunauthorized alien\u201d to mean, \u201cwith respect to the employment of an alien at a particular time, that the alien is not at that time either (A) an alien lawfully admitted for permanent residence, or (B) authorized to be so employed by this chapter or by the Attorney General.\u201d 8 U. S. C. \u00a7 1324a(h)(3).\nAs these eases demonstrate, a contextual analysis of a statutory provision is in no way \u201cuntethered\u201d from the statute\u2019s text. Ante, at 600, n. 6. To the contrary, the majority\u2019s reading of the saving clause \u2014 with its singular focus on the undefined word \u201clicensing\u201d to the exclusion of all contextual considerations \u2014 is \u201cuntethered\u201d from the statute as a whole.\nNone of the pre-IRCA state laws cited by the majority provided for licensing-related sanctions. The parties have not identified any preIRCA state laws related to licensing that purported to regulate the employment of unauthorized aliens other than those governing agricultural labor contractors. See ante, at 623-624 (Breyer, J., dissenting).\nBy regulation, the Attorney General has conferred on parties charged with violating IRCA the right to obtain discovery from the Federal Government in a hearing before an ALJ. See 28 CFR \u00a7 68.18.\nFor example, spouses and minor children of persons working in the United States as exchange visitors must apply for employment authorization even though they have lawful immigration status as dependents of the exchange visitor. See 8 CFR \u00a7274a.l2(c)(5).\nIn its capacity as an employer, a State may be able to access information regarding the work authorization status of its employees through use of E-Verify.\nHowever, the \u2018federal government\u2019s determination creates [only] a rebuttable presumption of the employee\u2019s lawful status.\u201d E. g., \u00a7 23-212(H).\nThis reading of the saving elause finds support in IRCA\u2019s legislative history. The House Committee on the Judiciary reported that IRCA was \u201cnot intended to preempt or prevent lawful state or local processes concerning the suspension, revocation or refusal to reissue a license to any person who has been found to have violated the sanctions provisions in this legislation.\u201d H. R. Rep. No. 99-682, at 58 (emphasis added). The Committee\u2019s reference to \u201cthis legislation\u201d is, of course, a reference to IRCA, and only federal officers, ALJs, and courts have authority under IRCA to find that a person has violated the statute\u2019s sanctions provisions.\nMy reading is also consistent with, though not compelled by, the provisions in IRCA that amended the Migrant and Seasonal Agricultural Worker Protection Act (AWPA), 96 Stat. 2583. As Justice Breyer discusses in detail, see ante, at 623-625 (dissenting opinion), AWPA requires entities to secure a certificate of registration from the Department of Labor before engaging in any \u201cfarm labor contracting activity.\u201d AWPA \u00a7 101, 96 Stat. 2587, 29 U. S. C. \u00a7 1811(a). Before 1986, AWPA prohibited farm labor contractors from hiring unauthorized aliens, and it permitted the Department of Labor to institute administrative proceedings to enforce this prohibition. See \u00a7\u00a7 103(a)(3), 103(b), 106(a), 96 Stat. 2588-2590. In IRCA, Congress repealed this prohibition, \u00a7 101(b)(1)(C), but authorized the Secretary of Labor to withdraw a contractor\u2019s federal registration certificate upon a finding of an IRCA violation, \u00a7 101(b)(l)(B)(iii), 100 Stat. 3372, 29 U. S. C. \u00a7 1813(a)(6). Thus, IRCA made AWPA\u2019s licensing sanctions turn on a prior federal adjudication of a violation of IRCA.\nBecause I believe that the Arizona Aet does not fall within IRCA\u2019s saving clause for this reason, I have no reason to consider the separate question whether the Act\u2019s definition of \u201clicense\u201d sweeps too broadly. Compare ante, at 594-597, with ante, at 612-613,621-622 (Breyer, J., dissenting).\nIn Williamson v. Mazda Motor of America, Inc., 562 U. S. 323, 335 (2011), we held that the Federal Government\u2019s judgment regarding the cost effectiveness of seatbelt options did not reveal an intent \u201cto forbid common-law tort suits in which a judge or jury might reach a different conclusion.\u201d The obvious distinction between that case and this one is that Congress\u2019 decision to keep use of E-Verify voluntary bears directly on the costs to the Federal Government itself.\nNotably, the Government\u2019s brief does not state that the E-Verify system could accommodate the increased use that would result if all 50 States enacted similar laws; it limits its statement to \u201cthe Arizona statute and existing similar laws.\u201d Brief for United States as Amicus Curiae 34 (emphasis added).",
+        "type": "dissent",
+        "author": "Justice Sotomayor,"
+      }
+    ],
+    "attorneys": [
+      "Carter G. Phillips argued the cause for petitioners. With him on the briefs were Eric A. Shumsky, Quin M. Sorenson, Matthew D. Krueger, Robin S. Conrad, Shane B. Kawka, David A. Selden, Julie A. Pace, Heidi Nunn-Gilman, Burt M. Rublin, Daniel Pochoda, Lucas Guttentag, Jennifer Chang Newell, Stephen P. Berzon, Jonathan Weissglass, Ste ven R. Shapiro, Omar C. Jadwat, Cynthia Valenzuela Dixon, Linton Joaquin, Karen C. Tumlin, Paul F. Eckstein, and Joel W. Nomkin.",
+      "Acting Solicitor General Katyal argued the cause for the United States as amicus curiae urging reversal. With him on the brief were Assistant Attorneys General West and Perez, Deputy Assistant Attorney General Bagenstos, William M. Jay, Mark L. Gross, and Nathaniel S. Pollock.",
+      "Mary R. O\u2019Grady, Solicitor General of Arizona, argued the cause for respondents. With her on the brief were Terry Goddard, Attorney General, Kathleen P. Sweeney and Christopher A. Munns, Assistant Attorneys General, Roger W. Hall, Eileen Gilbride, and Daniel S. Jurkowitz."
+    ],
+    "corrections": "",
+    "head_matter": "CHAMBER OF COMMERCE OF THE UNITED STATES OF AMERICA et al. v. WHITING et al.\nNo. 09-115.\nArgued December 8, 2010 \u2014\nDecided May 26, 2011\nRoberts, C. J., delivered the opinion of the Court, except as to Parts II-B and III-B. Scalia, Kennedy, and Alito, JJ., joined that opinion in full, and Thomas, J., joined as to Parts I, II-A, and III-A and concurred in the judgment. Breyer, J., filed a dissenting opinion, in which Ginsburg, J., joined, post, p. 611. Sotomayor, J., filed a dissenting opinion, post, p. 630. Kagan, J., took no part in the consideration or decision of the ease.\nCarter G. Phillips argued the cause for petitioners. With him on the briefs were Eric A. Shumsky, Quin M. Sorenson, Matthew D. Krueger, Robin S. Conrad, Shane B. Kawka, David A. Selden, Julie A. Pace, Heidi Nunn-Gilman, Burt M. Rublin, Daniel Pochoda, Lucas Guttentag, Jennifer Chang Newell, Stephen P. Berzon, Jonathan Weissglass, Ste ven R. Shapiro, Omar C. Jadwat, Cynthia Valenzuela Dixon, Linton Joaquin, Karen C. Tumlin, Paul F. Eckstein, and Joel W. Nomkin.\nActing Solicitor General Katyal argued the cause for the United States as amicus curiae urging reversal. With him on the brief were Assistant Attorneys General West and Perez, Deputy Assistant Attorney General Bagenstos, William M. Jay, Mark L. Gross, and Nathaniel S. Pollock.\nMary R. O\u2019Grady, Solicitor General of Arizona, argued the cause for respondents. With her on the brief were Terry Goddard, Attorney General, Kathleen P. Sweeney and Christopher A. Munns, Assistant Attorneys General, Roger W. Hall, Eileen Gilbride, and Daniel S. Jurkowitz.\nBriefs of amici curiae urging reversal were filed for the Asian American Justice Center et al. by Kevin M. Fong, Pamela S. Karlan, Karen K. Narasaki, Steven M. Freeman, Steven C. Sheinberg, Kenneth Kimerling, Cesar A Perales, Sarah C. Crawford, Audrey Wiggins, Christopher Ho, Araceli Martinez-Olguin, Rebecca Smith, and Mary Bauer; for Business Organizations by Walter Dellinger and Sri Srinivasan; for the Equal Employment Advisory Council by Rae T. Vann and Judith A Lampley; for the National Immigrant Justice Center et al. by Linda T. Coberly, Gene C. Schaerr, and Steffen N. Johnson; for the Service Employees International Union by Leon Dayan and Laurence Gold; and for Representative Romano L. Mazzoli et al. by Paul M. Smith and Lindsay C. Harrison.\nBriefs of amici curiae urging affirmance were filed for the State of Missouri et al. by Chris Roster, Attorney General of Missouri, James R. Layton, Solicitor General, Jeremiah J. Morgan, Deputy Solicitor General, and Arax R. Corn, Assistant Attorney General, and by the Attorneys General for their respective States as follows: Troy King of Alabama, Dustin McDaniel of Arkansas, Steve Six of Kansas, James D. Caldwell of Louisiana, Michael A Cox of Michigan, Jim Hood of Mississippi, Jon Bruning of Nebraska, Wayne Stenehjem of North Dakota, Henry D. McMaster of South Carolina, Robert E. Cooper, Jr., of Tennessee, Mark L. Shurtleff of Utah, and Kenneth T. Cuccinelli II of Virginia; for the American Center for Law and Justice by Jay Alan Sekulow, Stuart J. Roth, Colby M. May, John P. Tuskey, and Laura B. Hernandez; for the American Unity Legal Defense Fund by Bamaby W. Zall; for the Eagle Forum Education & Legal Defense Fund by Lawrence J. Joseph; for the Immigration Reform Law Institute by Michael M. Hethmon; for NumbersUSA Education & Research Foundation by J. E. McNeil; and for State Senator Russell Pearce by Paul J. Orfanedes and James F. Peterson."
+  },
+  "file_name": "0582-01",
+  "first_page_order": 664,
+  "last_page_order": 728
+}

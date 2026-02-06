@@ -1,0 +1,59 @@
+{
+  "id": 5974816,
+  "name": "Espinoza v. United States",
+  "name_abbreviation": "Espinoza v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5010",
+  "first_page": "898",
+  "last_page": "898",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 898"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.641,
+    "sha256": "28de0fcb189fc6be8ab6dd891d4efd1cdcd5ea5436938570bd9d3bc21e9e6fd5",
+    "simhash": "1:87b8d703494a3d2f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Espinoza v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5010.\nEspinoza v. United States."
+  },
+  "file_name": "0898-12",
+  "first_page_order": 920,
+  "last_page_order": 920
+}

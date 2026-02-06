@@ -1,0 +1,59 @@
+{
+  "id": 12417780,
+  "name": "Cruz-Lopez v. United States",
+  "name_abbreviation": "Cruz-Lopez v. United States",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 11-10989",
+  "first_page": "941",
+  "last_page": "941",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 941"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.729,
+    "sha256": "3a70d096867e69990fc90d36bfa5ccc0b92011c52a24f69078e814412ace20dc",
+    "simhash": "1:9353a2016b9f005c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cruz-Lopez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10989.\nCruz-Lopez v. United States."
+  },
+  "file_name": "0941-10",
+  "first_page_order": 1017,
+  "last_page_order": 1017
+}

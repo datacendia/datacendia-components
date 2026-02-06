@@ -1,0 +1,59 @@
+{
+  "id": 12235692,
+  "name": "Richard v. Pritchard et al.",
+  "name_abbreviation": "Richard v. Pritchard",
+  "decision_date": "2011-11-28",
+  "docket_number": "No. 11-6518",
+  "first_page": "1065",
+  "last_page": "1065",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1065"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 75,
+    "ocr_confidence": 0.641,
+    "sha256": "fbf292e88e74590df57a48e38964772cdfaf1e68d8324e032e4ffcb5917952b4",
+    "simhash": "1:90c000e94f0fb070",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Richard v. Pritchard et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6518.\nRichard v. Pritchard et al."
+  },
+  "file_name": "1065-12",
+  "first_page_order": 1147,
+  "last_page_order": 1147
+}

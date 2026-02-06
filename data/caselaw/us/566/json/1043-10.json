@@ -1,0 +1,100 @@
+{
+  "id": 12226642,
+  "name": "Sutton v. Colson, Warden; Gibson v. United States District Court for the Western District of Missouri; Watkins v. United States District Court for the Western District of Missouri; Goldblatt v. United States District Court for the Western District of Missouri; Adams v. McQuiggin, Warden; Ector v. Howerton, Warden; Shabazz v. Superior Court of California, Los Angeles County, et al.; Bacchus v. Southeastern Mechanical Services, Inc.; Howard v. UNC Healthcare System et al.; Moniz v. McKee, Warden; Kemppainen v. Texas; Wright v. Bondi, Attorney General of Florida, et al.",
+  "name_abbreviation": "Sutton v. Colson",
+  "decision_date": "2012-06-04",
+  "docket_number": "No. 11-981; No. 11-8066; No. 11-8068; No. 11-8481; No. 11-8580; No. 11-8596; No. 11-8612; No. 11-8662; No. 11-8719; No. 11-8869; No. 11-8943; No. 11-9093",
+  "first_page": "1043",
+  "last_page": "1044",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 1043"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "565 U. S. 1271",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12252608,
+        12252612,
+        12252638,
+        12252647,
+        12252552,
+        12252617,
+        12252588,
+        12252623,
+        12252563,
+        12252630,
+        12252602,
+        12252603,
+        12252605,
+        12252542,
+        12252575
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/565/1271-09",
+        "/us/565/1271-10",
+        "/us/565/1271-14",
+        "/us/565/1271-15",
+        "/us/565/1271-02",
+        "/us/565/1271-11",
+        "/us/565/1271-05",
+        "/us/565/1271-12",
+        "/us/565/1271-03",
+        "/us/565/1271-13",
+        "/us/565/1271-06",
+        "/us/565/1271-07",
+        "/us/565/1271-08",
+        "/us/565/1271-01",
+        "/us/565/1271-04"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 77,
+    "char_count": 936,
+    "ocr_confidence": 0.598,
+    "sha256": "89521668c29292b3e160a61815f609cdf71f7c1736cd513c7ae2ef027a35f23b",
+    "simhash": "1:f78f7722bfe4d3d2",
+    "word_count": 154
+  },
+  "last_updated": "2024-02-27T23:45:15.365324+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sutton v. Colson, Warden, Gibson v. United States District Court for the Western District of Missouri, Watkins v. United States District Court for the Western District of Missouri, Goldblatt v. United States District Court for the Western District of Missouri, Adams v. McQuiggin, Warden, Ector v. Howerton, Warden, Shabazz v. Superior Court of California, Los Angeles County, et al., Bacchus v. Southeastern Mechanical Services, Inc., Howard v. UNC Healthcare System et al., Moniz v. McKee, Warden, Kemppainen v. Texas, Wright v. Bondi, Attorney General of Florida, et al.,"
+    ],
+    "opinions": [
+      {
+        "text": "ante, p. 938;\nNo. 11-8066.\nNo. 11-8068.\nNo. 11-8481.\nNo. 11-8580.\nNo. 11-8596.\nNo. 11-8612.\nNo. 11-8662.\nNo. 11-8719.\nNo. 11-8869.\nNo. 11-8943.\nNo. 11-9093.\nante, p. 908;\nante, p. 908;\nante, p. 908;\nante, p. 912;\nante, p. 925;\nante, p. 925;\nante, p. 941;\n565 U. S. 1271;\nante, p. 913;\nante, p. 965; and\nante, p. 949. Petitions for rehearing denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-981.\nSutton v. Colson, Warden, Gibson v. United States District Court for the Western District of Missouri, Watkins v. United States District Court for the Western District of Missouri, Goldblatt v. United States District Court for the Western District of Missouri, Adams v. McQuiggin, Warden, Ector v. Howerton, Warden, Shabazz v. Superior Court of California, Los Angeles County, et al., Bacchus v. Southeastern Mechanical Services, Inc., Howard v. UNC Healthcare System et al., Moniz v. McKee, Warden, Kemppainen v. Texas, Wright v. Bondi, Attorney General of Florida, et al.,"
+  },
+  "file_name": "1043-10",
+  "first_page_order": 919,
+  "last_page_order": 920
+}

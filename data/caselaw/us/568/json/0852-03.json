@@ -1,0 +1,59 @@
+{
+  "id": 12413523,
+  "name": "Bell v. Keffer, Warden",
+  "name_abbreviation": "Bell v. Keffer",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10615",
+  "first_page": "852",
+  "last_page": "852",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 852"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.674,
+    "sha256": "98d9425569ef41eb29485c9c41072ca26f974b3a703e99cc55b7437cae22ec35",
+    "simhash": "1:a6a8d3cb9d6b9266",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bell v. Keffer, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10615.\nBell v. Keffer, Warden."
+  },
+  "file_name": "0852-03",
+  "first_page_order": 928,
+  "last_page_order": 928
+}

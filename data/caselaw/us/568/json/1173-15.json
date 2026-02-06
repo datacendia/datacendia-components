@@ -1,0 +1,59 @@
+{
+  "id": 12431123,
+  "name": "Mejorado v. California",
+  "name_abbreviation": "Mejorado v. California",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-7798",
+  "first_page": "1173",
+  "last_page": "1173",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1173"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 71,
+    "ocr_confidence": 0.626,
+    "sha256": "0bdb1c7bf2f171d7451908edee3f900a518bd9c3b7ac2f86102a55a1f42d00ed",
+    "simhash": "1:06ea9bdcc4589812",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mejorado v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Cal. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7798.\nMejorado v. California."
+  },
+  "file_name": "1173-15",
+  "first_page_order": 1249,
+  "last_page_order": 1249
+}

@@ -1,0 +1,59 @@
+{
+  "id": 6020307,
+  "name": "Williams v. Howard et al.",
+  "name_abbreviation": "Williams v. Howard",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11335",
+  "first_page": "874",
+  "last_page": "874",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 874"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 74,
+    "ocr_confidence": 0.506,
+    "sha256": "d9be5f6173ef7b64be22d799d6b4d7c6a45589f361dfa32cc6adcc796b23ec80",
+    "simhash": "1:110220a12d0ff094",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Williams v. Howard et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11335.\nWilliams v. Howard et al."
+  },
+  "file_name": "0874-11",
+  "first_page_order": 896,
+  "last_page_order": 896
+}

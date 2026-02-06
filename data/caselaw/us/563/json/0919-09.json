@@ -1,0 +1,59 @@
+{
+  "id": 5949436,
+  "name": "Henretta v. Tennessee",
+  "name_abbreviation": "Henretta v. Tennessee",
+  "decision_date": "2011-04-04",
+  "docket_number": "No. 10-8261",
+  "first_page": "919",
+  "last_page": "919",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 919"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 70,
+    "ocr_confidence": 0.674,
+    "sha256": "abdfad6bd44ff84514906e014ebcece93c1b4e41adc27668d03ad5b990c9a57c",
+    "simhash": "1:dbf4ec3c374b0b3e",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Henretta v. Tennessee."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Tenn. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8261.\nHenretta v. Tennessee."
+  },
+  "file_name": "0919-09",
+  "first_page_order": 945,
+  "last_page_order": 945
+}

@@ -1,0 +1,102 @@
+# Datacendia Alert Rules for Grafana/Prometheus
+# Import into Grafana Alerting or use with Alertmanager
+
+groups:
+  - name: datacendia-critical
+    interval: 30s
+    rules:
+      # API Down Alert
+      - alert: APIDown
+        expr: datacendia_service_up{service="api"} == 0
+        for: 1m
+        labels:
+          severity: critical
+          team: platform
+        annotations:
+          summary: "Datacendia API is down"
+          description: "The main API service has been down for more than 1 minute."
+          runbook_url: "https://docs.datacendia.com/runbooks/api-down"
+
+      # Database Connection Lost
+      - alert: DatabaseDisconnected
+        expr: datacendia_database_connected == 0
+        for: 30s
+        labels:
+          severity: critical
+          team: platform
+        annotations:
+          summary: "Database connection lost"
+          description: "PostgreSQL database connection has been lost."
+          runbook_url: "https://docs.datacendia.com/runbooks/database-down"
+
+      # High Memory Usage (>80%)
+      - alert: HighMemoryUsage
+        expr: (process_resident_memory_bytes / os_memory_total_bytes) * 100 > 80
+        for: 5m
+        labels:
+          severity: warning
+          team: platform
+        annotations:
+          summary: "High memory usage detected"
+          description: "Memory usage is above 80% for more than 5 minutes. Current: {{ $value }}%"
+
+      # Process Crashed (uptime reset)
+      - alert: ProcessRestarted
+        expr: process_uptime_seconds < 300
+        for: 0s
+        labels:
+          severity: warning
+          team: platform
+        annotations:
+          summary: "Process recently restarted"
+          description: "The API process was restarted within the last 5 minutes."
+
+  - name: datacendia-performance
+    interval: 1m
+    rules:
+      # High Error Rate (>1%)
+      - alert: HighErrorRate
+        expr: sum(rate(http_requests_total{status=~"5.."}[5m])) / sum(rate(http_requests_total[5m])) * 100 > 1
+        for: 5m
+        labels:
+          severity: warning
+          team: platform
+        annotations:
+          summary: "High error rate detected"
+          description: "Error rate is above 1% for the last 5 minutes. Current: {{ $value }}%"
+
+      # High Latency (p95 > 2s)
+      - alert: HighLatency
+        expr: histogram_quantile(0.95, rate(http_request_duration_seconds_bucket[5m])) > 2
+        for: 5m
+        labels:
+          severity: warning
+          team: platform
+        annotations:
+          summary: "High API latency detected"
+          description: "95th percentile latency is above 2 seconds."
+
+  - name: datacendia-business
+    interval: 5m
+    rules:
+      # No Deliberations in 24h (potential issue)
+      - alert: NoDeliberations
+        expr: increase(datacendia_deliberations_total[24h]) == 0
+        for: 0s
+        labels:
+          severity: info
+          team: product
+        annotations:
+          summary: "No deliberations in 24 hours"
+          description: "No new deliberations have been created in the last 24 hours."
+
+      # Sudden Drop in Active Users
+      - alert: UserActivityDrop
+        expr: datacendia_users_total < 1
+        for: 1h
+        labels:
+          severity: info
+          team: product
+        annotations:
+          summary: "No active users"
+          description: "User count has dropped to zero."

@@ -1,0 +1,59 @@
+{
+  "id": 6015033,
+  "name": "Po Kee Wong v. United States",
+  "name_abbreviation": "Po Kee Wong v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-10968",
+  "first_page": "857",
+  "last_page": "857",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 857"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 79,
+    "ocr_confidence": 0.557,
+    "sha256": "a0730373e538ce5a9d5e09a5d507d0414990bbde3c1751c92e1bfc6a4a01332d",
+    "simhash": "1:8f8b9ac64eef14d2",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Po Kee Wong v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. Fed. Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10968.\nPo Kee Wong v. United States."
+  },
+  "file_name": "0857-09",
+  "first_page_order": 879,
+  "last_page_order": 879
+}

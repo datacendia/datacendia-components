@@ -1,0 +1,59 @@
+{
+  "id": 12429567,
+  "name": "Vasquez Escalante v. Watson, Warden",
+  "name_abbreviation": "Vasquez Escalante v. Watson",
+  "decision_date": "2013-01-14",
+  "docket_number": "No. 12-7323",
+  "first_page": "1132",
+  "last_page": "1132",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1132"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 84,
+    "ocr_confidence": 0.664,
+    "sha256": "b9b250eb4f47602c89214c48a332a7eb5e698b45073a78f3b5e4b0fec8f649dc",
+    "simhash": "1:21804a91ea892036",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Vasquez Escalante v. Watson, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7323.\nVasquez Escalante v. Watson, Warden."
+  },
+  "file_name": "1132-02",
+  "first_page_order": 1208,
+  "last_page_order": 1208
+}

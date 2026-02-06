@@ -1,0 +1,59 @@
+{
+  "id": 5991965,
+  "name": "LeJeune v. Cain, Warden",
+  "name_abbreviation": "LeJeune v. Cain",
+  "decision_date": "2011-01-18",
+  "docket_number": "No. 10-7490",
+  "first_page": "1185",
+  "last_page": "1185",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1185"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.621,
+    "sha256": "d71ef1d851e76d8522ae66d8ca3709d09263ff3d8dfb38e565bfa105078f7c1f",
+    "simhash": "1:05be9b82194a826f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "LeJeune v. Cain, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7490.\nLeJeune v. Cain, Warden."
+  },
+  "file_name": "1185-07",
+  "first_page_order": 1207,
+  "last_page_order": 1207
+}

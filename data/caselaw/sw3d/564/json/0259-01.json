@@ -1,0 +1,169 @@
+{
+  "id": 12658468,
+  "name": "Marrio DEDNAM, Petitioner v. STATE of Arkansas, Respondent",
+  "name_abbreviation": "Dednam v. State",
+  "decision_date": "2019-01-17",
+  "docket_number": "No. CR-04-573",
+  "first_page": "259",
+  "last_page": "261",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 S.W.3d 259"
+    },
+    {
+      "type": "parallel",
+      "cite": "2019 Ark. 8"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Ark.",
+    "id": 8808,
+    "name": "Arkansas Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 34,
+    "name_long": "Arkansas",
+    "name": "Ark."
+  },
+  "cites_to": [
+    {
+      "cite": "2012 Ark. 177",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        7091207
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/403/0038-01"
+      ]
+    },
+    {
+      "cite": "2015 Ark. 69",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        6878636
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/456/0374-01"
+      ]
+    },
+    {
+      "cite": "2013 Ark. 56",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        6954356
+      ],
+      "weight": 9,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/425/0771-01"
+      ]
+    },
+    {
+      "cite": "527 U.S. 263",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1248336
+      ],
+      "weight": 3,
+      "year": 1999,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/527/0263-01"
+      ]
+    },
+    {
+      "cite": "2018 Ark. 20",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        12409374
+      ],
+      "weight": 4,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/535/0634-01"
+      ]
+    },
+    {
+      "cite": "373 U.S. 83",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11716714
+      ],
+      "weight": 3,
+      "year": 1963,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/373/0083-01"
+      ]
+    },
+    {
+      "cite": "360 Ark. 240",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        5460479
+      ],
+      "weight": 4,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "242"
+        },
+        {
+          "page": "877"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/360/0240-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 334,
+    "char_count": 5119,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.26494787920067925
+    },
+    "sha256": "a81477925653a0472bff2e1bf1cc608bca43ec26ca0afe5b8e4fb10a891b89fc",
+    "simhash": "1:098dde562aa6521d",
+    "word_count": 845
+  },
+  "last_updated": "2024-02-27T19:35:19.974449+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Marrio DEDNAM, Petitioner\nv.\nSTATE of Arkansas, Respondent"
+    ],
+    "opinions": [
+      {
+        "text": "SHAWN A. WOMACK, Associate Justice\nIn 2003, a jury convicted Dednam of capital murder and he was sentenced to life imprisonment without parole. We affirmed. Dednam v. State , 360 Ark. 240, 200 S.W.3d 875 (2005). Pending before this court is petitioner Marrio Dednam's pro se petition to reinvest jurisdiction in the trial court to consider a petition for a writ of error coram nobis. Dednam's claim for coram nobis relief is based on an allegation that the prosecutor withheld material evidence in violation of Brady v. Maryland , 373 U.S. 83, 83 S.Ct. 1194, 10 L.Ed.2d 215 (1963).\nIn his petition, Dednam alleges that the prosecution withheld evidence that Willie Davis, Jr. and Antoine Baker pleaded guilty to the murder for which Dednam had been convicted. In support of this allegation, Dednam attaches to his petition a transcript of Baker's guilty plea to multiple federal crimes. A review of the plea transcript from the United States District Court for the Eastern District of Arkansas reveals that Baker pleaded guilty on October 15, 2009, to conspiring to kill the victim with the aid of Davis and Dednam. Because Baker's guilty plea is inculpatory with respect to Dednam rather than exculpatory and was entered years after Dednam's conviction, Dednam has failed to establish a basis for coram nobis relief. Accordingly, we deny the petition to proceed in the trial court with a coram nobis petition.\nIn his request for coram nobis relief, Dednam asserts that material evidence was withheld by the prosecutor in violation of Brady . There are three elements of a Brady violation: (1) the evidence at issue must be favorable to the accused, either because it is exculpatory or because it is impeaching; (2) the evidence must have been suppressed by the State, either willfully or inadvertently; (3) prejudice must have ensued. Carner v. State , 2018 Ark. 20, 535 S.W.3d 634 (citing Strickler v. Greene , 527 U.S. 263, 119 S.Ct. 1936, 144 L.Ed.2d 286 (1999) ). When determining whether a Brady violation has occurred, it must first be established by the petitioner that the material was available to the State prior to trial and that the defense did not have it. Carner , 2018 Ark. 20, 535 S.W.3d 634.\nThe petition for leave to proceed in the trial court is necessary because the trial court can entertain a petition for writ of error coram nobis after a judgment has been affirmed on appeal only after we grant permission. Roberts v. State , 2013 Ark. 56, 425 S.W.3d 771. A writ of error coram nobis is an extraordinarily rare remedy. Id. Coram nobis proceedings are attended by a strong presumption that the judgment of conviction is valid. Id. ; Westerman v. State , 2015 Ark. 69, 456 S.W.3d 374. The function of the writ is to secure relief from a judgment rendered while there existed some fact that would have prevented its rendition if it had been known to the trial court and which, through no negligence or fault of the defendant, was not brought forward before rendition of the judgment. Roberts , 2013 Ark. 56, 425 S.W.3d 771. The petitioner has the burden of demonstrating a fundamental error of fact extrinsic to the record. Id.\nThe writ is allowed only under compelling circumstances to achieve justice and to address errors of the most fundamental nature. Id. A writ of error coram nobis is available for addressing certain errors that are found in one of four categories: (1) insanity at the time of trial, (2) a coerced guilty plea, (3) material evidence withheld by the prosecutor, or (4) a third-party confession to the crime during the time between conviction and appeal. Id. ; Howard v. State , 2012 Ark. 177, 403 S.W.3d 38.\nThe evidence adduced at Dednam's trial established that Dednam murdered the victim, Jerry Otis, at the behest of his cousin, Baker. Baker had previously robbed Otis and was being prosecuted for that offense, and Otis was the primary witness for the prosecution. At Dednam's trial, the prosecution established motive for the murder by introducing evidence that, on the day Otis was murdered, Dednam had visited Baker in the Pulaski County Jail. See Dednam , 360 Ark. at 242, 200 S.W.3d at 877. The transcript of Baker's 2009 guilty plea demonstrates that, among other things, Baker pleaded guilty to instigating the murder by instructing Dednam and Davis to kill Otis to prevent him from testifying against Baker on the pending robbery charge as well as to prevent Otis from implicating Baker in ongoing drug-trafficking activities. The transcript attached to Dednam's petition for coram nobis relief does not contain facts that would have prevented the rendition of the guilty verdict but rather confirms Dednam's guilt. Moreover, Baker's plea occurred six years after Dednam was tried for capital murder and cannot be said to be information known but withheld at the time of Dednam's trial. In sum, Dednam's petition is without merit.\nPetition denied.\nDednam did not provide any evidence that Davis pleaded guilty to the crime.",
+        "type": "majority",
+        "author": "SHAWN A. WOMACK, Associate Justice"
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "Marrio DEDNAM, Petitioner\nv.\nSTATE of Arkansas, Respondent\nNo. CR-04-573\nSupreme Court of Arkansas.\nOpinion Delivered: January 17, 2019"
+  },
+  "file_name": "0259-01",
+  "first_page_order": 259,
+  "last_page_order": 261
+}

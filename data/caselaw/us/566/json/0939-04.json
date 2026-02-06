@@ -1,0 +1,59 @@
+{
+  "id": 12204067,
+  "name": "CoreLogic, Inc., et al. v. Schneiderman, Attorney General of New York",
+  "name_abbreviation": "CoreLogic, Inc. v. Schneiderman",
+  "decision_date": "2012-04-16",
+  "docket_number": "No. 11-1038",
+  "first_page": "939",
+  "last_page": "939",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 939"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 19,
+    "char_count": 118,
+    "ocr_confidence": 0.592,
+    "sha256": "0b7191def9c7e7ddccb27e6bc6785dbb3c063b15ecc32e9c4062e045695ef55b",
+    "simhash": "1:0949200500036cc1",
+    "word_count": 19
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "CoreLogic, Inc., et al. v. Schneiderman, Attorney General of New York."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. N. Y. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1038.\nCoreLogic, Inc., et al. v. Schneiderman, Attorney General of New York."
+  },
+  "file_name": "0939-04",
+  "first_page_order": 815,
+  "last_page_order": 815
+}

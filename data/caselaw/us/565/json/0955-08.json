@@ -1,0 +1,59 @@
+{
+  "id": 12228279,
+  "name": "Wardell v. United States",
+  "name_abbreviation": "Wardell v. United States",
+  "decision_date": "2011-10-11",
+  "docket_number": "No. 11-6149",
+  "first_page": "955",
+  "last_page": "955",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 955"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.686,
+    "sha256": "3530501cb5ea2acc840aaa30817625629ea938c8a2dab58edca195aa0d7395ed",
+    "simhash": "1:8798d6cb8f27db3e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wardell v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6149.\nWardell v. United States."
+  },
+  "file_name": "0955-08",
+  "first_page_order": 1037,
+  "last_page_order": 1037
+}

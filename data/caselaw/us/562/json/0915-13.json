@@ -1,0 +1,59 @@
+{
+  "id": 6025957,
+  "name": "Morales v. Florida",
+  "name_abbreviation": "Morales v. Florida",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5327",
+  "first_page": "915",
+  "last_page": "915",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 915"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 83,
+    "ocr_confidence": 0.571,
+    "sha256": "8df1788bc3929acc7d495e7aefe4535b520bd59285ee6a8e83d124edf105a8c9",
+    "simhash": "1:8128c023c8116a16",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Morales v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 5th Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5327.\nMorales v. Florida."
+  },
+  "file_name": "0915-13",
+  "first_page_order": 937,
+  "last_page_order": 937
+}

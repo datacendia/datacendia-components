@@ -1,0 +1,59 @@
+{
+  "id": 5898589,
+  "name": "Crowder v. Davis, Warden",
+  "name_abbreviation": "Crowder v. Davis",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11287",
+  "first_page": "872",
+  "last_page": "872",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 872"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.602,
+    "sha256": "d723d2ee36e11727e78300a079b37793ccd76d3008c4364ca0dfd3b460561d10",
+    "simhash": "1:a6861473c69f3057",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Crowder v. Davis, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11287.\nCrowder v. Davis, Warden."
+  },
+  "file_name": "0872-01",
+  "first_page_order": 894,
+  "last_page_order": 894
+}

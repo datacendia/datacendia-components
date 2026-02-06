@@ -1,0 +1,59 @@
+{
+  "id": 6018610,
+  "name": "Evans v. Okaloosa County, Florida, et al.",
+  "name_abbreviation": "Evans v. Okaloosa County",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5455",
+  "first_page": "922",
+  "last_page": "922",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 922"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 90,
+    "ocr_confidence": 0.578,
+    "sha256": "3ab435651560351aaadb888ce71cb35278f7b4689991cb7055a092b7f7ae3735",
+    "simhash": "1:18580820380f9420",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Evans v. Okaloosa County, Florida, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5455.\nEvans v. Okaloosa County, Florida, et al."
+  },
+  "file_name": "0922-16",
+  "first_page_order": 944,
+  "last_page_order": 944
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12202705,
+  "name": "Dvorak v. California",
+  "name_abbreviation": "Dvorak v. California",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10475",
+  "first_page": "838",
+  "last_page": "838",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 838"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 84,
+    "ocr_confidence": 0.704,
+    "sha256": "b9577a1079be656e457d624f353148f1a64df6d3f1d12a373d1b9982165c6aee",
+    "simhash": "1:410513a051831a41",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dvorak v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 2d App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10475.\nDvorak v. California."
+  },
+  "file_name": "0838-05",
+  "first_page_order": 920,
+  "last_page_order": 920
+}

@@ -1,0 +1,61 @@
+{
+  "id": 12251337,
+  "name": "In re Crawford",
+  "name_abbreviation": "In re Crawford",
+  "decision_date": "2012-03-19",
+  "docket_number": "No. 11-8740",
+  "first_page": "1259",
+  "last_page": "1259",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1259"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 20,
+    "char_count": 145,
+    "ocr_confidence": 0.653,
+    "sha256": "2aae902d5c581e03ad96789cb3f33182c8f21c0eb5f277a33c06de8360791cd6",
+    "simhash": "1:7b737a863547da4e",
+    "word_count": 24
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "In re Crawford."
+    ],
+    "opinions": [
+      {
+        "text": "Petition for writ of mandamus denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8740.\nIn re Crawford."
+  },
+  "file_name": "1259-01",
+  "first_page_order": 1341,
+  "last_page_order": 1341
+}

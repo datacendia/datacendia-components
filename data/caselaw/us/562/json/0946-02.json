@@ -1,0 +1,59 @@
+{
+  "id": 5973382,
+  "name": "Lee v. United States",
+  "name_abbreviation": "Lee v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-6173",
+  "first_page": "946",
+  "last_page": "946",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 946"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.662,
+    "sha256": "1ec30ee9c8e0d3449897b2e48fd07204ebf96e830e62ec2f60c61fb5e76e7d3b",
+    "simhash": "1:14cb8e2bc6cfb01c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lee v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6173.\nLee v. United States."
+  },
+  "file_name": "0946-02",
+  "first_page_order": 968,
+  "last_page_order": 968
+}

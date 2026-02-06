@@ -1,0 +1,59 @@
+{
+  "id": 12245391,
+  "name": "Blackmer v. Department of Justice",
+  "name_abbreviation": "Blackmer v. Department of Justice",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-8237",
+  "first_page": "1191",
+  "last_page": "1191",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1191"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 29,
+    "char_count": 185,
+    "ocr_confidence": 0.658,
+    "sha256": "004c477ab426793cda068e4c560ed0659cec3c82f3844bfc606c35a19ac6875e",
+    "simhash": "1:5d82cdc94660973a",
+    "word_count": 30
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Blackmer v. Department of Justice."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Motion of petitioner for leave to proceed in forma pauperis denied, and certiorari dismissed. See this Court\u2019s Rule 39.8.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8237.\nBlackmer v. Department of Justice."
+  },
+  "file_name": "1191-03",
+  "first_page_order": 1273,
+  "last_page_order": 1273
+}

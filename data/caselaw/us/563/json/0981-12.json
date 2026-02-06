@@ -1,0 +1,59 @@
+{
+  "id": 5928154,
+  "name": "Gyamfi v. United States",
+  "name_abbreviation": "Gyamfi v. United States",
+  "decision_date": "2011-05-02",
+  "docket_number": "No. 10-9821",
+  "first_page": "981",
+  "last_page": "981",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 981"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.617,
+    "sha256": "22570c5de1e328b3189d68ce2d3c585afb4a2c494674f33c6ec4d9b83ac4964a",
+    "simhash": "1:868abe19ce453518",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gyamfi v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9821.\nGyamfi v. United States."
+  },
+  "file_name": "0981-12",
+  "first_page_order": 1007,
+  "last_page_order": 1007
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12418631,
+  "name": "Millsap v. Arkansas",
+  "name_abbreviation": "Millsap v. Arkansas",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 12-5939",
+  "first_page": "952",
+  "last_page": "952",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 952"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 68,
+    "ocr_confidence": 0.652,
+    "sha256": "570873a5eb5aa17026b3ba7678e0f178e3e1ef3c3d6091ed9b2d28867c589753",
+    "simhash": "1:441e0b8015447509",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Millsap v. Arkansas."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ark. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5939.\nMillsap v. Arkansas."
+  },
+  "file_name": "0952-10",
+  "first_page_order": 1028,
+  "last_page_order": 1028
+}

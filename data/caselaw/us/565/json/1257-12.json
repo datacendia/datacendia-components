@@ -1,0 +1,59 @@
+{
+  "id": 12251235,
+  "name": "In re Discipline of Squire",
+  "name_abbreviation": "In re Discipline of Squire",
+  "decision_date": "2012-03-19",
+  "docket_number": "No. D-2624",
+  "first_page": "1257",
+  "last_page": "1257",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1257"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 38,
+    "char_count": 275,
+    "ocr_confidence": 0.612,
+    "sha256": "6a47e7d59ff3aca66d98e1f41a7ef35f6b8c737fa7432cc71f8c35d0f44b5491",
+    "simhash": "1:6e8a33b43fffa72b",
+    "word_count": 50
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of Squire."
+    ],
+    "opinions": [
+      {
+        "text": "Percy Squire, of Columbus, Ohio, is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2624.\nIn re Discipline of Squire."
+  },
+  "file_name": "1257-12",
+  "first_page_order": 1339,
+  "last_page_order": 1339
+}

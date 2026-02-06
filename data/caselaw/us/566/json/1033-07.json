@@ -1,0 +1,59 @@
+{
+  "id": 12224536,
+  "name": "In re Lawrence",
+  "name_abbreviation": "In re Lawrence",
+  "decision_date": "2012-06-04",
+  "docket_number": "No. 11-10152",
+  "first_page": "1033",
+  "last_page": "1033",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 1033"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 26,
+    "char_count": 176,
+    "ocr_confidence": 0.511,
+    "sha256": "496cf4b0e2cc51b0a8752930103c66cefb2ef9488a54e257881ec660842ab223",
+    "simhash": "1:6c8804cc8ad40312",
+    "word_count": 29
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Lawrence."
+    ],
+    "opinions": [
+      {
+        "text": "Motion of petitioner for leave to proceed in forma pauperis denied, and petition for writ of habeas corpus dismissed. See this Court\u2019s Rule 39.8.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10152.\nIn re Lawrence."
+  },
+  "file_name": "1033-07",
+  "first_page_order": 909,
+  "last_page_order": 909
+}

@@ -1,0 +1,954 @@
+{
+  "id": 12521925,
+  "name": "UNITED STATES of America, Plaintiff-Appellee, v. Gregory Alan MCKOWN, Defendant-Appellant.",
+  "name_abbreviation": "United States v. McKown",
+  "decision_date": "2019-07-22",
+  "docket_number": "No. 18-20467",
+  "first_page": "721",
+  "last_page": "732",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "930 F.3d 721"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "5th Cir.",
+    "id": 8820,
+    "name": "United States Court of Appeals for the Fifth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "1995 U.S. App. LEXIS 42982",
+      "category": "reporters:specialty_lexis",
+      "reporter": "U.S. App. LEXIS",
+      "year": 1995,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "1995 WL 241746",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 1995,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "489 F.3d 1055",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3484911
+      ],
+      "weight": 2,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "1061-63"
+        },
+        {
+          "page": "1061",
+          "parenthetical": "\"[T]he Court strongly suggested that the indefinite term of the commitment authorized under the statute was a key element driving [its] decision to invalidate the statute ....\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/489/1055-01"
+      ]
+    },
+    {
+      "cite": "2019 WL 2749932",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 2,
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "*5-6"
+        },
+        {
+          "page": "*6"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "928 F.3d 210",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12521639
+      ],
+      "weight": 2,
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "216-18"
+        },
+        {
+          "page": "217"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/928/0210-01"
+      ]
+    },
+    {
+      "cite": "865 F.2d 856",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10531924
+      ],
+      "weight": 3,
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "861",
+          "parenthetical": "noting that the \"likelihood of recovery is not something to be considered by the district court in deciding whether to commit the defendant for the evaluation period\""
+        },
+        {
+          "page": "861"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/865/0856-01"
+      ]
+    },
+    {
+      "cite": "679 F. App'x 711",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        12397336
+      ],
+      "weight": 3,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "713",
+          "parenthetical": "\"All circuits that have confronted this issue have so held.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/679/0711-01"
+      ]
+    },
+    {
+      "cite": "807 F.2d 404",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1649653
+      ],
+      "weight": 3,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "408-09",
+          "parenthetical": "\"A person accused of a crime should not ... be deprived of personal liberty unless his confinement is reasonably necessary to assure his presence at trial or to protect some other important governmental interest.\" (footnote omitted)"
+        },
+        {
+          "page": "409",
+          "parenthetical": "noting that \"the issues before us turn on interpretation of the Insanity Defense Reform Act of 1984\" and related statutes"
+        },
+        {
+          "page": "411",
+          "parenthetical": "\"The statute does not require a defendant to undergo such a confinement as the price of entering a plea of insanity, so we express no opinion concerning whether Congress might constitutionally do so.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/807/0404-01"
+      ]
+    },
+    {
+      "cite": "95 L.Ed.2d 697",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        6222105,
+        1148012
+      ],
+      "year": 1987,
+      "pin_cites": [
+        {
+          "parenthetical": "\"In our society liberty is the norm, and detention prior to trial or without trial is the carefully limited exception.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/481/0739-01",
+        "/us/341/0001-01"
+      ]
+    },
+    {
+      "cite": "481 U.S. 739",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6222105
+      ],
+      "weight": 4,
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "755",
+          "parenthetical": "\"In our society liberty is the norm, and detention prior to trial or without trial is the carefully limited exception.\""
+        },
+        {
+          "parenthetical": "\"In our society liberty is the norm, and detention prior to trial or without trial is the carefully limited exception.\""
+        },
+        {
+          "page": "748"
+        },
+        {
+          "parenthetical": "\"A person accused of a crime should not ... be deprived of personal liberty unless his confinement is reasonably necessary to assure his presence at trial or to protect some other important governmental interest.\" (footnote omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/481/0739-01"
+      ]
+    },
+    {
+      "cite": "790 F.2d 235",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1578980
+      ],
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "238-39"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/790/0235-01"
+      ]
+    },
+    {
+      "cite": "896 F.2d 1301",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10539866
+      ],
+      "weight": 3,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "1303"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/896/1301-01"
+      ]
+    },
+    {
+      "cite": "951 F.2d 392",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        3493483,
+        10521277
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "396-97"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/292/0412-01",
+        "/f2d/951/0392-01"
+      ]
+    },
+    {
+      "cite": "122 F.3d 1345",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        302571,
+        302710
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "1349",
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/122/1345-02",
+        "/f3d/122/1345-01"
+      ]
+    },
+    {
+      "cite": "211 F.3d 649",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1743593
+      ],
+      "weight": 2,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "650-51"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/211/0649-01"
+      ]
+    },
+    {
+      "cite": "321 F.3d 756",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9363922
+      ],
+      "weight": 2,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "760"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/321/0756-01"
+      ]
+    },
+    {
+      "cite": "366 F.3d 975",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9260032
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "979-80"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/366/0975-01"
+      ]
+    },
+    {
+      "cite": "2012 WL 10939207",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "*2",
+          "parenthetical": "unpublished"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "445 U.S. 480",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1777850
+      ],
+      "weight": 14,
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "487-88"
+        },
+        {
+          "page": "489-90"
+        },
+        {
+          "page": "486"
+        },
+        {
+          "page": "494"
+        },
+        {
+          "page": "493"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/445/0480-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 4246",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "424 U.S. 319",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12026449
+      ],
+      "weight": 5,
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "335"
+        },
+        {
+          "page": "335"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/424/0319-01"
+      ]
+    },
+    {
+      "cite": "139 F.3d 513",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11837755
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "521"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/139/0513-01"
+      ]
+    },
+    {
+      "cite": "943 F.2d 1406",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1856042
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "1411-12",
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/943/1406-01"
+      ]
+    },
+    {
+      "cite": "740 F.2d 322",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        623116
+      ],
+      "weight": 2,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "327"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/740/0322-01"
+      ]
+    },
+    {
+      "cite": "698 F.3d 673",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3628359
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "674",
+          "parenthetical": "internal quotation marks and citations omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/698/0673-01"
+      ]
+    },
+    {
+      "cite": "815 S.E.2d 903",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.2d",
+      "case_ids": [
+        12651274
+      ],
+      "weight": 6,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "906"
+        },
+        {
+          "page": "912"
+        },
+        {
+          "page": "915"
+        },
+        {
+          "page": "913"
+        },
+        {
+          "page": "916",
+          "parenthetical": "acknowledging that hospitalization \"may reasonably promote the government's purpose of accurate evaluation\" in cases \"where the defendant's diagnosis is truly uncertain\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/se2d/815/0903-01"
+      ]
+    },
+    {
+      "cite": "303 Ga. 853",
+      "category": "reporters:state",
+      "reporter": "Ga.",
+      "year": 2018,
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 4247",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 6,
+      "pin_cites": [
+        {
+          "page": "(b)"
+        },
+        {
+          "page": "411"
+        },
+        {
+          "page": "410"
+        },
+        {
+          "parenthetical": "citation omitted"
+        },
+        {
+          "page": "409"
+        },
+        {
+          "page": "411"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 4248",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(d)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "856 F.3d 549",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12276829
+      ],
+      "weight": 3,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "554"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/856/0549-01"
+      ]
+    },
+    {
+      "cite": "406 U.S. 715",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6173472
+      ],
+      "weight": 15,
+      "year": 1972,
+      "pin_cites": [
+        {
+          "page": "731-33"
+        },
+        {
+          "page": "733"
+        },
+        {
+          "page": "738"
+        },
+        {
+          "page": "738"
+        },
+        {
+          "page": "725"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/406/0715-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7\u00a7 4244",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "110 S.Ct. 975",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        5347
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "131"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/494/0113-01"
+      ]
+    },
+    {
+      "cite": "517 U.S. 348",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11744890
+      ],
+      "weight": 3,
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "354",
+          "parenthetical": "citations omitted"
+        },
+        {
+          "parenthetical": "citations omitted"
+        },
+        {
+          "parenthetical": "citations omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/517/0348-01"
+      ]
+    },
+    {
+      "cite": "100 L.Ed. 412",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "year": 1956,
+      "opinion_index": 0
+    },
+    {
+      "cite": "350 U.S. 366",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12032874
+      ],
+      "weight": 2,
+      "year": 1956,
+      "pin_cites": [
+        {
+          "page": "375"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/350/0366-01"
+      ]
+    },
+    {
+      "cite": "202 L.Ed.2d 287",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12622502,
+        12622504,
+        12622505,
+        12622509,
+        12622514,
+        12622518,
+        12622519
+      ],
+      "year": 2018,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/139/0373-02",
+        "/s-ct/139/0373-04",
+        "/s-ct/139/0373-05",
+        "/s-ct/139/0374-03",
+        "/s-ct/139/0375-03",
+        "/s-ct/139/0376-02",
+        "/s-ct/139/0376-03"
+      ]
+    },
+    {
+      "cite": "139 S. Ct. 373",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12622501,
+        12622502,
+        12622503,
+        12622504,
+        12622505,
+        12622506
+      ],
+      "year": 2018,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/139/0373-01",
+        "/s-ct/139/0373-02",
+        "/s-ct/139/0373-03",
+        "/s-ct/139/0373-04",
+        "/s-ct/139/0373-05",
+        "/s-ct/139/0373-06"
+      ]
+    },
+    {
+      "cite": "879 F.3d 155",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12263703
+      ],
+      "pin_cites": [
+        {
+          "page": "166"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/879/0155-01"
+      ]
+    },
+    {
+      "cite": "544 F.3d 387",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3841763
+      ],
+      "weight": 6,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "400"
+        },
+        {
+          "page": "402-03",
+          "parenthetical": "collecting authority"
+        },
+        {
+          "page": "403"
+        },
+        {
+          "page": "405"
+        },
+        {
+          "page": "403"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/544/0387-01"
+      ]
+    },
+    {
+      "cite": "539 U.S. 166",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8897706
+      ],
+      "weight": 17,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "176",
+          "parenthetical": "cleaned up and citation omitted"
+        },
+        {
+          "parenthetical": "cleaned up and citation omitted"
+        },
+        {
+          "parenthetical": "cleaned up and citation omitted"
+        },
+        {
+          "page": "176"
+        },
+        {
+          "page": "180"
+        },
+        {
+          "page": "180"
+        },
+        {
+          "page": "169"
+        },
+        {
+          "page": "180-81"
+        },
+        {
+          "page": "180"
+        },
+        {
+          "page": "179"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/539/0166-01"
+      ]
+    },
+    {
+      "cite": "465 U.S. 259",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11335375
+      ],
+      "weight": 3,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "263"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/465/0259-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 4241",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 11,
+      "pin_cites": [
+        {
+          "page": "(d)"
+        },
+        {
+          "page": "(d)"
+        },
+        {
+          "page": "(b)"
+        },
+        {
+          "page": "(d)",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "(d)"
+        },
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1376,
+    "char_count": 31868,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25943307891695616
+    },
+    "sha256": "180eb5b05386a141e6f4bd4bb7913539a71535184531730c5e2aa8be1a5198d0",
+    "simhash": "1:ad3e7e286a746461",
+    "word_count": 4954
+  },
+  "last_updated": "2024-02-27T18:47:03.658527+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before SMITH, WIENER, and ELROD, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff-Appellee,\nv.\nGregory Alan MCKOWN, Defendant-Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "JERRY E. SMITH, Circuit Judge:\nGregory McKown was charged with threatening to assault and murder two federal employees. Under 18 U.S.C. \u00a7 4241(d), the district court found that he lacked capacity to stand trial and ordered his temporary hospitalization to determine whether he might regain competency in the foreseeable future. We join the unanimous chorus of circuit courts in holding that such mandatory, limited confinement accords with due process.\nI.\nMcKown has suffered from grandiose and persecutory delusional disorder for over thirty-eight years. In 2017, he sought to collect retroactive Supplemental Security Income benefits. When the request was denied, he sent two emails and left fourteen voicemails for certain Social Security Administration employees, threatening in graphic terms to harm them and their families. McKown was arrested and indicted on two counts of threatening to assault and murder United States officials with the intent to retaliate against them on account of the performance of their official duties. See id. \u00a7 115(a)(1)(B), (b)(4). After promising to obtain psychiatric treatment, McKown was released on an unsecured bond.\nMcKown retained forensic psychiatrist Victor Scarano to conduct a mental health examination. The evaluation included a three-hour interview with McKown; a telephone conversation with his older sister; and a record review of his statements in this case, as well as in a YouTube video and various online publications. At the government's request, the district court appointed psychologist Gerald Harris to perform an independent evaluation. Harris similarly examined McKown for three hours, interviewed one of his close friends, and consulted the relevant records.\nThe court scheduled a competency hearing to review the expert witness reports. Both doctors testified that McKown lacked competency to stand trial because \"he [wa]s unable to understand the nature and consequences of the proceedings against him or to assist properly in his defense.\" See id. \u00a7 4241(a). They also agreed that it was unnecessary to hospitalize McKown to reach an accurate prognosis. They disagreed, however, as to the recommended course of treatment and the likelihood that McKown might regain competency in the foreseeable future. Although his condition was \"very severe\" and \"extreme,\" Harris found a substantial probability that McKown might soon recover if placed on medication coupled with psychotherapy. Because McKown opposed taking medication, Harris suggested hospitalizing him to ensure his compliance with the treatment regimen.\nConversely, Scarano maintained that McKown could not be restored to competency in the foreseeable future, regardless of the prescribed treatment. Though acknowledging that McKown had faithfully adhered to the conditions of his pretrial release, Scarano remarked that the court-ordered therapy was \"really not treatment\" but was merely \"a conversation.\" Scarano feared that McKown would refuse to take medication voluntarily and that hospitalization would exacerbate his delusions. Accordingly, Scarano proposed that only longterm therapy had the potential to work. He predicted it could take up to five years for McKown to develop the necessary trusting relationship with a therapist to permit meaningful change.\nFederal law provides that a district court shall commit an incompetent defendant to the custody of the Attorney General to be hospitalized for \"a reasonable period of time, not to exceed four months, as is necessary to determine whether there is a substantial probability that in the foreseeable future he will attain the capacity to permit the proceedings to go forward.\" Id. \u00a7 4241(d). McKown asserted that the statute violates due process by requiring commitment without proof that it is necessary to evaluate an individual defendant's mental health and without adequate procedural protections. He also submitted an affidavit claiming that he would voluntarily participate in outpatient treatment and take any lawfully prescribed medication.\nThe district court found that McKown lacked competency to stand trial but that, with proper treatment, he likely could attain sufficient capacity in the near future. Noting that several circuit courts had already rejected constitutional challenges to \u00a7 4241(d), the court was \"persuaded that this [c]ircuit would be of a like mind.\" The court thus committed McKown to the custody of the Attorney General for a maximum of four months to determine his chance of recovery. On McKown's motion, the court stayed the commitment order pending this appeal.\nII.\nAs a general rule, we may resolve appeals only of \"final decisions of the district courts.\" 28 U.S.C \u00a7 1291. In the criminal context, that \"rule prohibits appellate review until conviction and imposition of sentence.\" Flanagan v. United States , 465 U.S. 259, 263, 104 S.Ct. 1051, 79 L.Ed.2d 288 (1984). Under the \"collateral order\" doctrine, however, \"a preliminary or interim decision is appealable ... when it (1) conclusively determines the disputed question, (2) resolves an important issue completely separate from the merits of the action, and (3) is effectively unreviewable on appeal from a final judgment.\" Sell v. United States , 539 U.S. 166, 176, 123 S.Ct. 2174, 156 L.Ed.2d 197 (2003) (cleaned up and citation omitted).\nAs other circuits have uniformly concluded, a district court's ruling under \u00a7 4241(d) is reviewable as a collateral order. After all, a commitment order conclusively determines a defendant's \"present right to be at liberty prior to trial.\" Gold , 790 F.2d at 239. Moreover, whether a defendant was denied due process is an important question that is \"completely separate from ... whether [he] is guilty or innocent of the crimes charged.\"\nSell , 539 U.S. at 176, 123 S.Ct. 2174 (citation omitted). Lastly, such an order is \"effectively unreviewable on appeal from a final judgment because if [the] defendant were never tried or were tried and acquitted, there would be no appellate review.\" United States v. Magassouba , 544 F.3d 387, 400 (2d Cir. 2008). Similarly, \"if he were tried and convicted, no meaningful relief would be available.\" Id. We therefore have jurisdiction over the present appeal.\nIII.\nWe review de novo a challenge to a statute's constitutionality. See United States v. Petras , 879 F.3d 155, 166 (5th Cir.), cert. denied , --- U.S. ----, 139 S. Ct. 373, 202 L.Ed.2d 287 (2018). McKown contends that the district court violated his substantive due process rights by ordering his commitment despite the doctors' testimony that it was unnecessary to determine the likelihood of recovery. He further maintains that he received no meaningful predeprivation process related to the nature, duration, and necessity of confinement.\nA.\nThe government's \"power to bring an accused to trial is fundamental to a scheme of ordered liberty and prerequisite to social justice and peace.\" Magassouba , 544 F.3d at 402-03 (collecting authority); see also Sell , 539 U.S. at 180, 123 S.Ct. 2174. Congress may authorize the custody of persons awaiting trial, provided such commitment proceedings comport with due process. See Greenwood v. United States , 350 U.S. 366, 375, 76 S.Ct. 410, 100 L.Ed. 412 (1956). The Due Process Clause of the Fifth Amendment circumscribes federal prosecutorial power in two relevant respects. First, it proscribes \"the criminal trial of an incompetent defendant.\" Cooper v. Oklahoma , 517 U.S. 348, 354, 116 S.Ct. 1373, 134 L.Ed.2d 498 (1996) (citations omitted). Second, it recognizes \"a substantial liberty interest in avoiding confinement in a mental hospital.\" Because \"commitment for any purpose constitutes a significant deprivation of liberty,\" Zinermon , 494 U.S. at 131, 110 S.Ct. 975 (citation omitted), the government must advance a \"sufficiently compelling\" interest to justify pretrial detention.\n1.\nConsistent with those principles, federal law has long permitted the confinement of an incompetent defendant to render him capable of standing trial. See 18 U.S.C. \u00a7\u00a7 4244 - 4246 (Supp. 1949). Although the original federal scheme placed no time limit on such custody, circuit courts consistently upheld the statutes' constitutionality by applying a \"rule of reasonableness.\" See Jackson v. Indiana , 406 U.S. 715, 731-33, 92 S.Ct. 1845, 32 L.Ed.2d 435 (1972) ; Magassouba , 544 F.3d at 403. Absent a finding of dangerousness, an incompetent defendant could be committed only for a reasonable time necessary to assess the likelihood of recovery. See Jackson , 406 U.S. at 733, 92 S.Ct. 1845.\nIn Jackson , the Court constitutionalized that requirement in holding that \"the nature and duration of commitment [must] bear some reasonable relation to the purpose for which the individual is committed.\" Id. at 738, 92 S.Ct. 1845. That case involved an Indiana statute that-unlike the federal scheme-authorized the indefinite confinement of an incompetent defendant without an evaluation of his dangerousness or ability to \"attain[ ] competency through custodial care or compulsory treatment.\" Id . The Court pronounced that a person \"who is committed solely on account of his incapacity to proceed to trial cannot be held more than the reasonable period of time necessary to determine whether there is a substantial probability that he will attain that capacity in the foreseeable future.\" Id. And even where a court concludes that the defendant will soon regain competency, \"his continued commitment must be justified by progress toward that goal.\" Id.\nResponding to Jackson , Congress enacted a three-step process that expressly incorporates the rule of reasonableness. A district court must first evaluate, by a preponderance of the evidence, whether \"the defendant is presently suffering from a mental disease or defect rendering him mentally incompetent to the extent that he is unable to understand the nature and consequences of the proceedings against him or to assist properly in his defense.\" 18 U.S.C. \u00a7 4241(d). In making that determination, the \"court may commit the defendant for a mental health examination.\" United States v. Dalasta , 856 F.3d 549, 554 (8th Cir. 2017) ; accord 18 U.S.C. \u00a7\u00a7 4241(b), 4247(b).\nIf, after a hearing, the defendant is found to be incompetent, \"the court shall commit the defendant to the custody of the Attorney General,\" who, in turn, \"shall hospitalize the defendant for treatment in a suitable facility.\" 18 U.S.C. \u00a7 4241(d) (emphasis added). Thus, unlike the court's discretion to confine a defendant before an initial competency hearing, see id. \u00a7 4241(b), commitment is mandatory upon a finding of incapacity. That is so irrespective of the defendant's initial prognosis. Such confinement, however, may last only \"for such a reasonable period of time, not to exceed four months, as is necessary to determine whether there is a substantial probability that in the foreseeable future he will attain the capacity to permit the proceedings to go forward.\" Id. \u00a7 4241(d)(1).\nFinally, if, at the end of the specified time, the defendant's mental condition has not sufficiently improved to permit the trial to proceed, the district court must schedule a \"dangerousness hearing.\" See Ferro , 321 F.3d at 761. Unless the defendant is found by clear and convincing evidence to be \"a sexually dangerous person,\" 18 U.S.C. \u00a7 4248(d), or to pose \"a substantial risk of bodily injury to another person or serious damage to property of another,\" id. \u00a7 4246(d), the court must thereupon release him, see id. \u00a7 4241(d).\n2.\nWe agree with every court of appeals to have addressed the constitutionality of \u00a7 4241(d) in holding that the statute complies with due process. In contrast to the statute at issue in Jackson , the duration of commitment under \u00a7 4241(d) \"is inherently limited.\" Strong , 489 F.3d at 1061. Aside from the statutory cap of four months, the length of custody is restricted to \"such a reasonable period of time ... as is necessary\" to determine whether the defendant will attain sufficient capacity in the foreseeable future. 18 U.S.C. \u00a7 4241(d). The statute thus allows the defendant to gain early release through a medical determination, before the conclusion of the four-month period, that he has regained competency or that he is unlikely to do so. See Strong , 489 F.3d at 1062. Given the statute's \"flexible and case-oriented\" approach to determining the length of confinement, \u00a7 4241(d) comports with the rule of reasonableness announced in Jackson . See Filippi , 211 F.3d at 652.\nEqually important, the nature of confinement under \u00a7 4241(d) is reasonably related to important governmental purposes justifying such detention. The government has not only \"a substantial interest in timely prosecution,\" but also \"a concomitant, constitutionally essential interest in assuring that the defendant's trial is a fair one.\" Sell , 539 U.S. at 180, 123 S.Ct. 2174. It follows that \"the government has a compelling interest in pursuing\" a correct diagnosis. Filippi , 211 F.3d at 651. Indeed, McKown \"has been indicted ... for serious crimes but now claims that he cannot be tried and punished\" because of his mental condition. Id.\nNevertheless, \"the brief interviews and review of medical records that tend to characterize the initial competency proceeding\" are generally insufficient to provide a \"careful and accurate diagnosis.\" Strong , 489 F.3d at 1062 (internal quotation marks and citations omitted). On account of \"the limitations on the federal courts in the field of mental health,\" Shawar , 865 F.2d at 860-61, the statute reasonably permits a more thorough evaluation before the district court must decide \"whether to defer trial indefinitely and (quite often) to release the defendant back into society,\" Filippi , 211 F.3d at 651. \"To be sure, the miracles of science suggest that few conditions are truly without the possibility of improvement.\" Ferro , 321 F.3d at 762. Hence, even where the medical evidence indicates that the defendant's condition is permanent, temporary hospitalization bears some reasonable relation to the purpose for that confinement. The order committing McKown for a maximum of four months therefore accords with due process.\nMcKown nonetheless reads Jackson to allow pretrial confinement only where necessary to an individual defendant's diagnosis. He claims that the court violated due process by committing him despite the doctors' agreement that it was unnecessary to obtain an accurate diagnosis. Yet McKown overlooks that the statute at issue in Jackson , see 406 U.S. at 717 n.1, 92 S.Ct. 1845, also provided for automatic commitment based solely on a defendant's incompetency. Rather than condemn the mandatory nature of Indiana's commitment scheme, however, the Court highlighted that its indefinite duration was problematic absent a finding of dangerousness. Accordingly, Jackson allows the automatic imposition of confinement so long as the custody is not indefinite.\nInvoking Sell , McKown rejoins that the government must overcome significant substantive hurdles when it seeks to deprive a defendant of liberty before trial. But Sell , 539 U.S. at 169, 123 S.Ct. 2174, addressed whether the government may forcibly medicate a defendant to render him competent to stand trial. It did not concern whether a defendant could be temporarily detained upon a finding of incompetency. Consequently, the substantive restrictions that the Court articulated in Sell are inapplicable here.\nMcKown's reliance on Newchurch is similarly misplaced. In Newchurch , 807 F.2d at 406, we considered whether a defendant who intended to raise an insanity defense may be committed for a mental evaluation under 18 U.S.C. \u00a7 4247(b) without a finding that such confinement was necessary. We determined that commitment under \u00a7 4247(b) was appropriate only where the district court decided, after an evidentiary hearing, \"that the government cannot adequately prepare for trial on the insanity issue by having the defendant examined as an outpatient.\" Id. at 411.\nImportantly, however, we did not purport to identify a due process violation but instead rested our decision on statutory grounds. Unlike the statute here, \u00a7 4247(b) permitted-but did not require-a court to commit a defendant for a mental examination. See id. at 410. Moreover, the legislative history indicated that a court should not commit a defendant if his \"examination c[ould] be conducted on an outpatient basis.\" Id. (citation omitted). As a result, we held that, \"read against the background of the constitutional protection for individual liberty,\" id. at 409, the statute did not allow commitment \"unless it [wa]s demonstrably necessary,\" id. at 411. Such is not the case here, given that \u00a7 4241(d) explicitly mandates the commitment of an incompetent defendant. See Shawar , 865 F.2d at 863-64.\nLastly, McKown points to Carr v. State , 303 Ga. 853, 815 S.E.2d 903 (2018). Contrary to every federal circuit court to consider the issue, the Supreme Court of Georgia decided that \"automatic detention without an individualized determination of whether the confinement reasonably advances the government's purpose violates a defendant's right to due process.\" Id. at 906. McKown posits that \u00a7 4241(d) is likewise unconstitutional because it categorically mandates commitment without an individualized showing of necessity.\nNot only is Carr an outlier, but it also involved a distinguishable state law. Whereas \u00a7 4241(d) requires the hospitalization of all incompetent defendants, the state statute mandated confinement only for those \"who [we]re charged with violent offenses.\" Id. at 912. \"[B]ecause the statute allow[ed] a large group of accused offenders-those charged with nonviolent crimes-to avoid\" custody, the court rejected the argument that \"constant surveillance and close control ... is important in all cases to ensure an accurate\" prognosis. Id. at 915. Hence, in contrast to \u00a7 4241(d), the state statute did not \"reflect[ ] a legislative judgment that inpatient evaluation is ... always necessary.\" Id. at 913.\nCongress, however, has chosen differently. And McKown has failed to prove why that scheme offends due process. See Anderson , 679 F. App'x at 713.\nCongress's choice to mandate temporary confinement is especially reasonable where, as here, the defendant's initial evaluations were uncertain and conflicting. In diagnosing McKown, Scarano and Harris conducted a brief record review and spent only three hours or less examining him. Both doctors at once recognized the severity of McKown's condition and his unwillingness to take medication. Although they thought it was unnecessary to commit McKown to reach an accurate prognosis, they disagreed as to the recommended course of treatment and the likelihood that he would regain competency in the foreseeable future. Whereas Harris found a substantial probability that McKown might soon recover if placed on medication accompanied by psychotherapy, Scarano predicted it could take up to five years for McKown to heal.\nIn light of the seriousness of McKown's condition and the doctors' divergent prognoses, commitment was reasonably necessary to provide a more in-depth evaluation in a safe and controlled setting. \"[T]he nature and duration of [McKown's] commitment-treatment for four months or less-bear some reasonable relation to the purpose for which\" he was committed-\"to determine restorability.\" United States v. Henriques , 698 F.3d 673, 674 (8th Cir. 2012) (internal quotation marks and citations omitted). McKown's confinement thus comports with due process. See Jackson , 406 U.S. at 738, 92 S.Ct. 1845.\nB.\nThe Constitution prohibits the deprivation of life, liberty, or property without due process of law. U.S. CONST. amend. V. In evaluating a procedural due process claim, we first consider whether governmental action has deprived an individual of a constitutionally protected interest. Augustine v. Doe , 740 F.2d 322, 327 (5th Cir. 1984). If so, we then determine whether the procedures afforded the defendant were adequate. Id.\n\"[D]ue process is a flexible concept whose contours are shaped by the nature of the individual's and the state interests in a particular deprivation.\" Caine v. Hardy , 943 F.2d 1406, 1411-12 (5th Cir. 1991) (en banc). Generally, before effecting a deprivation, the government must provide notice and an opportunity to be heard. See id . at 1412 ; Burns v. Harris Cty. Bail Bond Bd. , 139 F.3d 513, 521 (5th Cir. 1998). To decide what procedures should apply in an individual case, we weigh the following factors:\nFirst, the private interest that will be affected by the official action; second, the risk of an erroneous deprivation of such interest through the procedures used, and the probable value, if any, of additional or substitute procedural safeguards; and finally, the Government's interest, including the function involved and the fiscal and administrative burdens that the additional or substitute procedural requirement would entail.\nMathews v. Eldridge , 424 U.S. 319, 335, 96 S.Ct. 893, 47 L.Ed.2d 18 (1976). The government does not dispute that the commitment order threatened to deprive McKown of his liberty. Hence, the only question is how much process is due.\nMcKown contends that he received no meaningful process concerning the nature, duration, and necessity of confinement because the district court was statutorily bound to commit him upon determining that he was incompetent. He demands that the government-consistent with due process-provide an additional hearing to address those concerns. McKown's claim, however, rests on the false predicate that he cannot be automatically committed upon a mere finding of incapacity. But as discussed above, mandatory confinement under \u00a7 4241(d) is consistent with Jackson and due process. The government already affords hearings to assess competency, 18 U.S.C. \u00a7 4241(a) ; to administer forced medication, Sell , 539 U.S. at 180-81, 123 S.Ct. 2174 ; and to evaluate a defendant's dangerousness, 18 U.S.C. \u00a7 4246(a). There is thus no need for additional process at this stage of the proceedings.\nThe Mathews balancing test does not suggest otherwise. McKown asserts he has a strong interest in remaining free from confinement, especially because it could result in the loss of the disability payments on which he desperately relies. He cites Vitek v. Jones , 445 U.S. 480, 487-88, 100 S.Ct. 1254, 63 L.Ed.2d 552 (1980), in which the Court held that \"the involuntary transfer of a Nebraska state prisoner to a mental hospital implicate[d] a liberty interest that [wa]s protected by the Due Process Clause.\" The Court concluded that, before such a transfer could occur, the State was required to provide a hearing to determine whether the prisoner suffered from a mental disease that could not be properly treated in prison. Id. at 489-90, 100 S.Ct. 1254. If the Court required procedural protections even for those already incarcerated, McKown reasons, then surely such process is warranted here.\nThe decision in Vitek , however, flowed from a confluence of circumstances not present in this case. Indeed, the defendant there maintained that he was not mentally ill and that he was stigmatized by being so labeled. Id. at 486, 100 S.Ct. 1254. Moreover, the proposed transfer would have subjected him to mandatory behavior modification treatment-a consequence \"qualitatively different from the punishment characteristically suffered by a person convicted of crime.\" Id . at 488, 493, 100 S.Ct. 1254. Once hospitalized, the defendant would not be returned to prison unless treatment was deemed no longer necessary. Id. at 483 & n.1, 100 S.Ct. 1254. Such a transfer thus could have lasted for the entire duration of the sentence. As a result, \"the stigmatizing consequences of a transfer to a mental hospital for involuntary psychiatric treatment, coupled with the subjection of the prisoner to mandatory behavior modification ..., constitute[d] the kind of deprivations of liberty that require[d] procedural protections.\" Id. at 494, 100 S.Ct. 1254.\nConversely, McKown does not face the same stigmatizing consequences because he has conceded his incompetence to stand trial. Furthermore, the commitment order does not subject him to mandatory behavior modification treatment. Rather, \"the initial purpose\" of confinement under \u00a7 4241(d) \"is evaluative\"-not restorative. Magassouba , 544 F.3d at 405. Additionally, unlike the indefinite hospitalization at issue in Vitek , 445 U.S. at 493, 100 S.Ct. 1254, limited pretrial commitment under \u00a7 4241(d) is \"within the range of conditions\" to which an incompetent defendant might reasonably be subject. Consequently, this case does not merit the same procedural protections as in Vitek .\nAs for the second due process factor, the risk of an erroneous deprivation of liberty is low. See Mathews , 424 U.S. at 335, 96 S.Ct. 893. McKown insists that automatic commitment under \u00a7 4241(d) can easily deprive a defendant of liberty even where it is wholly unnecessary to a proper diagnosis. But courts have found just the opposite, given that \"in almost all cases, temporary incarceration would permit a more careful and accurate diagnosis.\" Filippi , 211 F.3d at 651 ; accord Ferro , 321 F.3d at 762. That is especially so where, as here, the preliminary examinations yielded conflicting results. Moreover, because the length of commitment under \u00a7 4241(d) \"is inherently limited,\" Strong , 489 F.3d at 1061, and \"case-oriented,\" Filippi , 211 F.3d at 652, McKown faces a minimal risk that he will be detained longer than necessary to reach a correct prognosis.\nFinally, the government's interests militate against granting another hearing. McKown attempts to minimize those interests by urging that it is less expensive to provide additional process than it is to hospitalize a defendant unnecessarily. But he ignores that the government has a substantial interest in pursuing a correct diagnosis and in prosecuting trials in a fair and timely manner. See Sell , 539 U.S. at 180, 123 S.Ct. 2174 ; Filippi , 211 F.3d at 651. In sum, \"automatic commitment with substantial safeguards as to duration is a reasonable, and sufficiently narrowly tailored, accommodation of the competing interests\" of the individual and the government. Filippi , 211 F.3d at 651 (internal quotation marks and citation omitted). McKown's custody under \u00a7 4241(d) therefore conforms to due process.\nThe order of confinement is AFFIRMED.\nSee United States v. McCall , No. 12-3684, 2012 WL 10939207, at *2 (6th Cir. Nov. 28, 2012) (unpublished); United States v. Friedman , 366 F.3d 975, 979-80 (9th Cir. 2004) ; United States v. Ferro , 321 F.3d 756, 760 (8th Cir. 2003) ; United States v. Filippi , 211 F.3d 649, 650-51 (1st Cir. 2000) ; United States v. Boigegrain , 122 F.3d 1345, 1349 (10th Cir. 1997) (en banc) (per curiam); United States v. Weissberger , 951 F.2d 392, 396-97 (D.C. Cir. 1991) ; United States v. Donofrio , 896 F.2d 1301, 1303 (11th Cir. 1990) ; United States v. Gold , 790 F.2d 235, 238-39 (2d Cir. 1986).\nZinermon v. Burch , 494 U.S. 113, 131, 110 S.Ct. 975, 108 L.Ed.2d 100 (1990) ; see also United States v. Salerno , 481 U.S. 739, 755, 107 S.Ct. 2095, 95 L.Ed.2d 697 (1987) (\"In our society liberty is the norm, and detention prior to trial or without trial is the carefully limited exception.\").\nSalerno , 481 U.S. at 748, 107 S.Ct. 2095 ; see also In re Newchurch , 807 F.2d 404, 408-09 (5th Cir. 1986) (\"A person accused of a crime should not ... be deprived of personal liberty unless his confinement is reasonably necessary to assure his presence at trial or to protect some other important governmental interest.\" (footnote omitted)).\nSee S. Rep. No. 98-225, at 236 (1983), reprinted in 1984 U.S.C.C.A.N. 3182, 3418 (\"In accord with [Jackson ], commitment under section 4241 may only be for a reasonable period of time necessary to determine if there exists a substantial probability that the person will attain the capacity to permit the trial to go forward in the foreseeable future.\" (footnote omitted)); id. at 237 (noting that \"[t]his commitment procedure is very similar to current Federal law which has been held constitutional by several courts\" (footnote omitted)); Magassouba , 544 F.3d at 403 (collecting cases recognizing \"that \u00a7 4241(d) was enacted in response to the Jackson decision and echoed [its] language\" (internal quotation marks and citation omitted)).\nSee, e.g. , United States v. Anderson , 679 F. App'x 711, 713 (10th Cir. 2017) (\"All circuits that have confronted this issue have so held.\").\nSee United States v. Shawar , 865 F.2d 856, 861 (7th Cir. 1989) (noting that the \"likelihood of recovery is not something to be considered by the district court in deciding whether to commit the defendant for the evaluation period\").\nSee United States v. Brennan , No. 19-262, 928 F.3d 210, 216-18, 2019 WL 2749932, at *5-6 (2d Cir. July 2, 2019) ; Dalasta , 856 F.3d at 553-54 ; Anderson , 679 F. App'x at 713 ; United States v. Strong , 489 F.3d 1055, 1061-63 (9th Cir. 2007) ; Filippi , 211 F.3d at 651-52 ; Donofrio , 896 F.2d at 1303 ; Shawar , 865 F.2d at 863-64 ; see also United States v. Houk , No. 93-2883, 1995 WL 241746, 1995 U.S. App. LEXIS 42982 (5th Cir. Apr. 6, 1995) (per curiam) (mem.) (unpublished) (affirming the defendant's confinement under \u00a7 4241(d) despite his claim that such custody was futile).\nSee, e.g. , Dalasta , 856 F.3d at 554 ; Anderson , 679 F. App'x at 712 ; Ferro , 321 F.3d at 762 ; Donofrio , 896 F.2d at 1302 ; Shawar , 865 F.2d at 861.\nSee Jackson , 406 U.S. at 725, 92 S.Ct. 1845 (\"Were the State's factual premise that [the defendant's] commitment is only temporary a valid one, this might well be a different case.\"); see also Strong , 489 F.3d at 1061 (\"[T]he Court strongly suggested that the indefinite term of the commitment authorized under the statute was a key element driving [its] decision to invalidate the statute ....\").\nSee Sell , 539 U.S. at 179, 123 S.Ct. 2174 (allowing involuntary medication \"only if [it] is medically appropriate, is substantially unlikely to have side effects that may undermine the fairness of the trial, and, taking account of less intrusive alternatives, is necessary significantly to further important governmental trial-related interests\").\nSee Newchurch , 807 F.2d at 409 (noting that \"the issues before us turn on interpretation of the Insanity Defense Reform Act of 1984\" and related statutes); id. at 411 (\"The statute does not require a defendant to undergo such a confinement as the price of entering a plea of insanity, so we express no opinion concerning whether Congress might constitutionally do so.\").\nSee Brennan , 928 F.3d at 217, 2019 WL 2749932, at *6 (affirming the commitment of \"a defendant whose medical prognosis was not definitive and whose future competency was legally unsettled\"); Carr , 815 S.E.2d at 916 (acknowledging that hospitalization \"may reasonably promote the government's purpose of accurate evaluation\" in cases \"where the defendant's diagnosis is truly uncertain\").\nSee Program Operations Manual Sys. , GN 02607.330 , Soc. SEC. Admin. , https://secure.ssa.gov/poms.nsf/lnx/0202607330 (last visited July 16, 2019) (suspending benefits when \"a beneficiary begins confinement after a court declares a beneficiary [incompetent to stand trial]\").",
+        "type": "majority",
+        "author": "JERRY E. SMITH, Circuit Judge:"
+      }
+    ],
+    "attorneys": [
+      "John A. Reed, Carmen Castillo Mitchell, Assistant U.S. Attorneys, U.S. Attorney's Office, Southern District of Texas, Houston, TX, for Plaintiff - Appellee.",
+      "Marjorie A. Meyers, Federal Public Defender, John Garnet MacVane, Federal Public Defender's Office, Southern District of Texas, Houston, TX, for Defendant - Appellant."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff-Appellee,\nv.\nGregory Alan MCKOWN, Defendant-Appellant.\nNo. 18-20467\nUnited States Court of Appeals, Fifth Circuit.\nFILED July 22, 2019\nJohn A. Reed, Carmen Castillo Mitchell, Assistant U.S. Attorneys, U.S. Attorney's Office, Southern District of Texas, Houston, TX, for Plaintiff - Appellee.\nMarjorie A. Meyers, Federal Public Defender, John Garnet MacVane, Federal Public Defender's Office, Southern District of Texas, Houston, TX, for Defendant - Appellant.\nBefore SMITH, WIENER, and ELROD, Circuit Judges."
+  },
+  "file_name": "0721-01",
+  "first_page_order": 721,
+  "last_page_order": 732
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5936647,
+  "name": "Lacy v. Arkansas",
+  "name_abbreviation": "Lacy v. Arkansas",
+  "decision_date": "2011-04-25",
+  "docket_number": "No. 10-9168",
+  "first_page": "964",
+  "last_page": "964",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 964"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 64,
+    "ocr_confidence": 0.561,
+    "sha256": "d2599181424fcc7f10ea93bfd9c3dd55bf93f97b4213c89c7caac00332d67f1f",
+    "simhash": "1:1857a98e1428f651",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lacy v. Arkansas."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ark. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9168.\nLacy v. Arkansas."
+  },
+  "file_name": "0964-10",
+  "first_page_order": 990,
+  "last_page_order": 990
+}

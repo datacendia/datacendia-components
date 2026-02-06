@@ -1,0 +1,59 @@
+{
+  "id": 6025176,
+  "name": "Spisak v. Nevada",
+  "name_abbreviation": "Spisak v. Nevada",
+  "decision_date": "2010-10-18",
+  "docket_number": "No. 10-5949",
+  "first_page": "984",
+  "last_page": "984",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 984"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 64,
+    "ocr_confidence": 0.672,
+    "sha256": "958af6376a4347a81d7284e9fabfaf4c677fc766fb65692a380d41765eea185d",
+    "simhash": "1:0274a03f2ea6ff51",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Spisak v. Nevada."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Nev. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5949.\nSpisak v. Nevada."
+  },
+  "file_name": "0984-05",
+  "first_page_order": 1006,
+  "last_page_order": 1006
+}

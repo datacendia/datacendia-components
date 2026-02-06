@@ -1,0 +1,59 @@
+{
+  "id": 12232800,
+  "name": "Biton v. Commissioner of Internal Revenue",
+  "name_abbreviation": "Biton v. Commissioner",
+  "decision_date": "2011-11-07",
+  "docket_number": "No. 11-6691",
+  "first_page": "1018",
+  "last_page": "1018",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1018"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 92,
+    "ocr_confidence": 0.698,
+    "sha256": "cc8f787630b8728d07cd29a5ef6debb40854ce279cb14162d1095411a456abc8",
+    "simhash": "1:40925060023ef26e",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Biton v. Commissioner of Internal Revenue."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. D. C. Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6691.\nBiton v. Commissioner of Internal Revenue."
+  },
+  "file_name": "1018-15",
+  "first_page_order": 1100,
+  "last_page_order": 1100
+}

@@ -1,0 +1,83 @@
+{
+  "id": 2255850,
+  "name": "Rowan Green v. John T. Vance Et Al.",
+  "name_abbreviation": "Green v. Vance",
+  "decision_date": "1959-06-18",
+  "docket_number": "No. A-6847",
+  "first_page": "550",
+  "last_page": "551",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "158 Tex. 550"
+    },
+    {
+      "type": "parallel",
+      "cite": "314 S.W.2d 794"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "311 S.W. 2d 738",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10177576
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/311/0738-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 118,
+    "char_count": 1110,
+    "ocr_confidence": 0.554,
+    "pagerank": {
+      "raw": 1.745204652812135e-07,
+      "percentile": 0.7076748489969878
+    },
+    "sha256": "5f7595a09a8242601d1692d3b165e9befecdab8d75c4b3d5cca74dd13feeea80",
+    "simhash": "1:e668dc231393715f",
+    "word_count": 196
+  },
+  "last_updated": "2024-02-27T19:47:07.204323+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rowan Green v. John T. Vance Et Al."
+    ],
+    "opinions": [
+      {
+        "text": "ON APPLICATION FOR WRIT OF ERROR\nPer Curiam\nWe approve the principal holding of the Court of Civil Appeals in this case, 311 S.W. 2d 738, namely, that a logical distinction is not to be drawn between a holding over after the execution of a deed and a holding over after the rendition of a judgment which is either adversary in nature or by consent. In other words, the continued possession of land after the rendition of a judgment divesting the one in possession of title and vesting it in another is not adverse until notice of a hostile claim is brought to the prevailing party as requiring by law.\nAn unqualified refusal of the application for writ of error cannot be given for the reason that the Court of Civil Appeals passed on certain points that are not before us for consideration. Therefore the application is refused, no reversible error.\nOpinion delivered June 18, 1958.",
+        "type": "majority",
+        "author": "Per Curiam"
+      }
+    ],
+    "attorneys": [
+      "Fields & Carroll, of Port Lavaca, for petitioner.",
+      "John T. Vance, Callaway S. Vance, Cullen B. Vance, all of Edna, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "Rowan Green v. John T. Vance Et Al.\nNo. A-6847.\nDecided June 18, 1959.\n(314 S.W. 2d Series 794)\nFields & Carroll, of Port Lavaca, for petitioner.\nJohn T. Vance, Callaway S. Vance, Cullen B. Vance, all of Edna, for respondent."
+  },
+  "file_name": "0550-01",
+  "first_page_order": 566,
+  "last_page_order": 567
+}

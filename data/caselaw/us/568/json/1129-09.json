@@ -1,0 +1,59 @@
+{
+  "id": 12429464,
+  "name": "McPherron v. Pennsylvania",
+  "name_abbreviation": "McPherron v. Pennsylvania",
+  "decision_date": "2013-01-14",
+  "docket_number": "No. 12-7240",
+  "first_page": "1129",
+  "last_page": "1129",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1129"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 74,
+    "ocr_confidence": 0.6,
+    "sha256": "fb77ac0e384f6578445f412af8829c10f999863460274dc56113995262f3060f",
+    "simhash": "1:4f4e8ab0b1faafdd",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McPherron v. Pennsylvania."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. Pa. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7240.\nMcPherron v. Pennsylvania."
+  },
+  "file_name": "1129-09",
+  "first_page_order": 1205,
+  "last_page_order": 1205
+}

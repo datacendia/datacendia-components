@@ -1,0 +1,790 @@
+{
+  "id": 12658328,
+  "name": "Henry MCCALL, Appellant v. Homer HILLIS, Appellee",
+  "name_abbreviation": "McCall v. Hillis",
+  "decision_date": "2018-08-22",
+  "docket_number": "No. 04-17-00410-CV",
+  "first_page": "98",
+  "last_page": "106",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 S.W.3d 98"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex. App. Ct.",
+    "id": 30120,
+    "name": "Court of Appeals of Texas, San Antonio"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "930 S.W.2d 905",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10022867
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "911"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/930/0905-01"
+      ]
+    },
+    {
+      "cite": "2006 WL 3018039",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "*4"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "338 S.W.3d 615",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7319922
+      ],
+      "pin_cites": [
+        {
+          "page": "622"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/338/0615-01"
+      ]
+    },
+    {
+      "cite": "2013 WL 4084721",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "pin_cites": [
+        {
+          "page": "*5"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "956 S.W.2d 562",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        11891098
+      ],
+      "pin_cites": [
+        {
+          "page": "565"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/956/0562-01"
+      ]
+    },
+    {
+      "cite": "858 S.W.2d 337",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10002094
+      ],
+      "weight": 2,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "342-43",
+          "parenthetical": "plurality op."
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/858/0337-01"
+      ]
+    },
+    {
+      "cite": "2012 WL 566364",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "pin_cites": [
+        {
+          "page": "*5"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "830 S.W.2d 94",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9964531
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "100"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/830/0094-01"
+      ]
+    },
+    {
+      "cite": "262 S.W.3d 793",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8361589
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "795"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/262/0793-01"
+      ]
+    },
+    {
+      "cite": "402 So.2d 140",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9548023
+      ],
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "144",
+          "parenthetical": "holding motel liable for injury caused when plaintiff slipped and fell in the shower while trying to avoid being stung by bees coming out of shower head when premises owner knew bees were outside motel and failed to warn plaintiff of bees near his room"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/402/0140-01"
+      ]
+    },
+    {
+      "cite": "36 A.2d 20",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "year": 1944,
+      "pin_cites": [
+        {
+          "page": "22",
+          "parenthetical": "holding that presence of rat holes in guest room put premises owner on notice of presence of rats"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "171 Colo. 246",
+      "category": "reporters:state",
+      "reporter": "Colo.",
+      "case_ids": [
+        4629118
+      ],
+      "weight": 2,
+      "year": 1970,
+      "pin_cites": [
+        {
+          "parenthetical": "en banc"
+        },
+        {
+          "page": "458",
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/colo/171/0246-01"
+      ]
+    },
+    {
+      "cite": "598 P.2d 969",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "case_ids": [
+        10453640
+      ],
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "973-74"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/p2d/598/0969-01"
+      ]
+    },
+    {
+      "cite": "311 F.2d 853",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        189976
+      ],
+      "year": 1962,
+      "pin_cites": [
+        {
+          "page": "857",
+          "parenthetical": "setting aside judgment and remanding for trial where actress was bitten by rat in hotel lobby and evidence suggested hotel's employees were aware rats entered freely from alley and took no precautions to prevent it"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/311/0853-01"
+      ]
+    },
+    {
+      "cite": "366 S.W.2d 695",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10168494
+      ],
+      "pin_cites": [
+        {
+          "page": "697"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/366/0695-01"
+      ]
+    },
+    {
+      "cite": "182 S.E.2d 164",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.2d",
+      "year": 1971,
+      "pin_cites": [
+        {
+          "page": "165",
+          "parenthetical": "holding defendant had no duty to patron for injuries resulting from snake bite because there was no evidence owner had ever seen snakes on premises"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "123 Ga.App. 677",
+      "category": "reporters:state",
+      "reporter": "Ga. App.",
+      "case_ids": [
+        728320
+      ],
+      "year": 1971,
+      "pin_cites": [
+        {
+          "parenthetical": "holding defendant had no duty to patron for injuries resulting from snake bite because there was no evidence owner had ever seen snakes on premises"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ga-app/123/0677-01"
+      ]
+    },
+    {
+      "cite": "339 So.2d 244",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9676728
+      ],
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "246"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/339/0244-01"
+      ]
+    },
+    {
+      "cite": "407 N.W.2d 36",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "37",
+          "parenthetical": "upholding defendant's summary judgment and holding that ferae naturae precluded city's liability for driving pigeons into plaintiff's neighborhood, where city took no steps to tame, confine, or to otherwise control pigeons"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "159 Mich.App. 537",
+      "category": "reporters:state",
+      "reporter": "Mich. App.",
+      "case_ids": [
+        2272846
+      ],
+      "year": 1987,
+      "pin_cites": [
+        {
+          "parenthetical": "upholding defendant's summary judgment and holding that ferae naturae precluded city's liability for driving pigeons into plaintiff's neighborhood, where city took no steps to tame, confine, or to otherwise control pigeons"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich-app/159/0537-01"
+      ]
+    },
+    {
+      "cite": "558 S.W.2d 58",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9925907
+      ],
+      "pin_cites": [
+        {
+          "page": "63"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/558/0058-01"
+      ]
+    },
+    {
+      "cite": "973 F.Supp. 634",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        914396
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "642-43",
+          "parenthetical": "affirming summary judgment for premises owner on negligence issue where plaintiff developed Lyme disease after being bitten by tick while clearing timber"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/973/0634-01"
+      ]
+    },
+    {
+      "cite": "2015 WL 3454274",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 4,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "*5"
+        },
+        {
+          "page": "*5"
+        },
+        {
+          "page": "*1"
+        },
+        {
+          "page": "*5"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "891 So.2d 1039",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9046283
+      ],
+      "weight": 6,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "1040"
+        },
+        {
+          "page": "1041-42"
+        },
+        {
+          "page": "1042"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/891/1039-01"
+      ]
+    },
+    {
+      "cite": "2012 WL 5974032",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "opinion_index": 0
+    },
+    {
+      "cite": "498 S.W.3d 890",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12192024
+      ],
+      "weight": 5,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "897"
+        },
+        {
+          "page": "897"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/498/0890-01"
+      ]
+    },
+    {
+      "cite": "986 S.W.2d 54",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        11587988
+      ],
+      "weight": 24,
+      "pin_cites": [
+        {
+          "page": "62"
+        },
+        {
+          "page": "62"
+        },
+        {
+          "page": "60-64"
+        },
+        {
+          "page": "57"
+        },
+        {
+          "page": "59"
+        },
+        {
+          "page": "57"
+        },
+        {
+          "page": "64"
+        },
+        {
+          "page": "62"
+        },
+        {
+          "parenthetical": "citations omitted"
+        },
+        {
+          "page": "62"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/986/0054-01"
+      ]
+    },
+    {
+      "cite": "257 S.W.3d 211",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8179514
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "217"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/257/0211-01"
+      ]
+    },
+    {
+      "cite": "307 S.W.3d 762",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7328216
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "767"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/307/0762-01"
+      ]
+    },
+    {
+      "cite": "343 S.W.3d 420",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7319098
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "425",
+          "parenthetical": "citing Del Lago Partners, Inc. v. Smith , 307 S.W.3d 762, 767 (Tex. 2010) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/343/0420-01"
+      ]
+    },
+    {
+      "cite": "972 S.W.2d 749",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        11713622
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "753"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/972/0749-01"
+      ]
+    },
+    {
+      "cite": "537 S.W.3d 463",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12410203
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "471",
+          "parenthetical": "quoting Timberwalk Apartments, Partners, Inc. v. Cain , 972 S.W.2d 749, 753 (Tex. 1998) "
+        },
+        {
+          "page": "474",
+          "parenthetical": "citing Austin v. Kroger Tex., L.P. , 465 S.W.3d 193, 203-04 (Tex. 2015) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/537/0463-01"
+      ]
+    },
+    {
+      "cite": "465 S.W.3d 193",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6857110
+      ],
+      "weight": 2,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "202"
+        },
+        {
+          "page": "203-04"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/465/0193-01"
+      ]
+    },
+    {
+      "cite": "478 S.W.3d 640",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6831175
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "644"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/478/0640-01"
+      ]
+    },
+    {
+      "cite": "164 S.W.3d 656",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9010190
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "661"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/164/0656-01"
+      ]
+    },
+    {
+      "cite": "315 S.W.3d 494",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7323723
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "508-09"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/315/0494-01"
+      ]
+    },
+    {
+      "cite": "499 S.W.3d 48",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12176250
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "52"
+        },
+        {
+          "page": "52"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/499/0048-01"
+      ]
+    },
+    {
+      "cite": "467 S.W.3d 477",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6854054
+      ],
+      "weight": 3,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "481"
+        },
+        {
+          "page": "481"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/467/0477-01"
+      ]
+    },
+    {
+      "cite": "514 S.W.3d 214",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12374635
+      ],
+      "weight": 3,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "219",
+          "parenthetical": "citing Cantey Hanger, LLP v. Byrd , 467 S.W.3d 477, 481 (Tex. 2015) "
+        },
+        {
+          "page": "219"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/514/0214-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1126,
+    "char_count": 26262,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2649332065305738
+    },
+    "sha256": "ddfb1dd82724f12484a67a6f78cca9f01efa12797ab6c02e1b776287d3347d67",
+    "simhash": "1:13ec688e828c97da",
+    "word_count": 4386
+  },
+  "last_updated": "2024-02-27T18:21:00.862345+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Henry MCCALL, Appellant\nv.\nHomer HILLIS, Appellee"
+    ],
+    "opinions": [
+      {
+        "text": "Marialyn Barnard, Justice\nThis is an appeal from a summary judgment in favor of appellee Homer Hillis in a premises liability action. On appeal, appellant Henry McCall contends the trial court erred in granting summary judgment in favor of Hillis, arguing Hillis failed to prove as a matter of law that he owed no duty to McCall based on the doctrine of ferae naturae. We reverse the trial court's summary judgment and remand to the trial court for further proceedings.\nBACKGROUND\nHillis owns property in Fredericksburg, Texas. Hillis operated a bed and breakfast (\"B&B\") on the property. In addition to the structure out of which Hillis operated the B&B, there was a cabin located on the property about 75 to 100 feet from the B&B. McCall leased the cabin from Hillis. According to McCall, he was permitted to use the B&B, and ultimately, \"both voluntarily and at the request of\" Hillis, undertook \"simple jobs\" at the B&B, e.g., opening doors and ensuring the residence was in \"good working order.\" McCall asserted that several times, while helping out at the B&B, he noticed brown recluse spiders inside the B&B. McCall claimed he periodically alerted Hillis about the spiders. McCall asserted the only action taken by Hillis was to inform the housekeeper; Hillis took no other steps to address the spider issue. Ultimately, while McCall was performing some maintenance work inside the B&B, he was bitten by a brown recluse spider.\nAfter he was bitten, McCall brought a premises liability action against Hillis. Hillis filed a traditional motion for summary judgment. In his motion, Hillis alleged that as a matter of law he owed no duty to McCall \"to prevent or warn of those dangers which allegedly caused [McCall's] injuries.\" Hillis relied upon the doctrine of ferae naturae to support his contention that he owed no duty to McCall. The trial court granted summary judgment in favor of Hillis. McCall timely perfected this appeal.\nANALYSIS\nMcCall contends the trial court erred in granting summary judgment in favor of Hillis because he failed to prove as a matter of law that he did not owe McCall a duty to make the property safe or to warn of the existence of spiders on the property. Hillis contends the doctrine of ferae naturae supports the trial court's summary judgment in his favor.\nStandard of Review\nWe review a traditional summary judgment under a de novo standard of review. First United Pentecostal Church of Beaumont v. Parker , 514 S.W.3d 214, 219 (Tex. 2017) (citing Cantey Hanger, LLP v. Byrd , 467 S.W.3d 477, 481 (Tex. 2015) ); Rodriguez v. Lockhart Contracting Servs., Inc. , 499 S.W.3d 48, 52 (Tex. App.-San Antonio 2016, no pet.). A traditional summary judgment motion is properly granted when the movant establishes there are no genuine issues of material fact and it is entitled to judgment as a matter of law. TEX. R. CIV. P. 166a(c) ; Cantey Hanger , 467 S.W.3d at 481 ; Rodriguez , 499 S.W.3d at 52. A movant meets this burden by either conclusively negating a single essential element of the plaintiff's cause of action or establishing an affirmative defense. Frost Nat'l Bank v. Fernandez , 315 S.W.3d 494, 508-09 (Tex. 2010). In reviewing a summary judgment, we must take as true all evidence favorable to the nonmovant, and indulge every reasonable inference and resolve any doubts in the nonmovant's favor. Parker , 514 S.W.3d at 219 (citing Valence Operating Co. v. Dorsett , 164 S.W.3d 656, 661 (Tex. 2005) ); Cantey Hanger , 467 S.W.3d at 481.\nApplication\nA person injured on the property of another may have a premises-liability claim against the property owner if the person is injured as a result of the property's condition. Occidental Chem. Corp. v. Jenkins , 478 S.W.3d 640, 644 (Tex. 2016). \"Under premises-liability principles, a property owner generally owes to those invited onto the property a duty to make the premises safe or to warn of dangerous conditions as reasonably prudent under the circumstances.\" Jenkins , 478 S.W.3d at 644 ; see Austin v. Kroger Tex., L.P. , 465 S.W.3d 193, 202 (Tex. 2015). In other words, a landowner-under premises-liability principles-must \" 'use ordinary care to reduce or eliminate an unreasonable risk of harm created by a premises condition which the owner ... knows about or in the exercise of ordinary care should know about.' \" United Scaffolding, Inc. v. Levine , 537 S.W.3d 463, 471 (Tex. 2017) (quoting Timberwalk Apartments, Partners, Inc. v. Cain , 972 S.W.2d 749, 753 (Tex. 1998) ). Whether a duty exists in a premises-liability case is a question of law for the court to decide from the facts surrounding the occurrence in question. Allen Keller Co. v. Foreman , 343 S.W.3d 420, 425 (Tex. 2011) (citing Del Lago Partners, Inc. v. Smith , 307 S.W.3d 762, 767 (Tex. 2010) ); Gen. Elec. Co. v. Moritz , 257 S.W.3d 211, 217 (Tex. 2008) ; Nicholson v. Smith , 986 S.W.2d 54, 62 (Tex. App.-San Antonio 1999, no pet.).\nThere are, however, instances in which a landowner owes neither a duty to warn nor make safe. In this case, Hillis relied on the common-law doctrine of ferae naturae. See Union Pac. R.R. Co. v. Nami , 498 S.W.3d 890, 897 (Tex. 2016) ; see generally RESTATEMENT (SECOND) OF TORTS , \u00a7\u00a7 506 - 507 (Am. Law Inst. 1977). Under the doctrine of ferae naturae , a property owner is not generally liable for harm caused by indigenous wild animals on his property. Nami , 498 S.W.3d at 897. Owners are not generally liable for injuries caused by wild animals because they are not predictable or controllable, and therefore, neither the property nor responsibility of the property owner. Id. The doctrine was recently explained by the supreme court:\nUnder the doctrine of ferae naturae , a landowner is not liable for the acts of wild animals occurring on the owner's property unless the landowner actually reduced indigenous wild animals to possession or control or introduced nonindigenous animals into the area. A premises owner may not be held to a standard of anticipating or guarding against the presence of animals ferae naturae in relation to invitees unless the owner or possessor has reduced the animals to possession, harbors such animals, or has introduced onto the premises wild animals not indigenous to the locality. The landowner could be negligent with regard to wild animals found in artificial structures or places where they are not normally found, that is, stores, hotels, apartment houses, or billboards, if the landowner knows or should know of the unreasonable risk of harm posed by an animal on its premises, and cannot expect patrons to realize the danger or guard against it.\nId. (quoting 3B C.J.S. Animals \u00a7 325 (2016) ). Property owners are excused under the doctrine from general duties to warn and make safe because ordinarily, \"the property owner is no better able to protect an invitee than the invitee is to protect himself.\" Id. However, a property owner may have a duty-even when the plaintiff's injury results from an animal ferae naturae -if the wild animal is in \"artificial structures or places where they are not normally found; that is, stores, hotels, apartment houses, or billboards, if the landowner knows or should know of the unreasonable risk of harm posed by an animal on its premises, and cannot expect patrons to realize the danger or guard against it.\" Nicholson v. Smith , 986 S.W.2d 54, 62 (Tex. App.-San Antonio 1999, no pet.).\nIn Nicholson , this court distinguished between liability for injuries sustained from wild animals in their natural habitat and injuries sustained from wild animals in artificial structures. Id. at 60-64. In that case, Nicholson and his wife rented space at a south Texas recreational park owned by the Smiths. Id. at 57. Approximately a week after setting up camp in the park, Nicholson was attempting to correct the stabilizer on the underside of his house trailer. Id. While attempting the repair, Nicholson was stung more than a thousand times by fire ants. Id. Nicholson subsequently passed away. Id. His wife brought several claims against the Smiths, including a premises liability action. Id. The Smiths moved for summary judgment on the ground that they did not owe a duty to Nicholson with respect to the fire ants. Id. Specifically, they argued the doctrine of ferae naturae abrogated any duty they had to Nicholson, who was an invitee. Id. at 59. The trial court granted the Smiths' motion for summary judgment. Id. at 57.\nOn appeal, we affirmed the summary judgment in favor of the Smiths. Id. at 64. We held the Smiths were entitled to summary judgment under the doctrine of ferae naturae , reasoning that Nicholson was attacked by indigenous wild animals in their natural habitat, in the normal course of their existence ... [and] [t]he Smiths did nothing to cause the fire ants to act outside of their expected and normal behavior.\" Id. at 62. However, and as is important in this case, we declined to say that a landowner could never be negligent with regard to the indigenous wild animals found on his property. Id. Rather, we specifically held a landowner could be negligent with regard to ferae naturae \"found in artificial structures or places where they are not normally found;\" that is, stores, hotels, apartment houses, or billboards, if the landowner knows or should know of the unreasonable risk of harm posed by an animal on its premises and cannot expect patrons to realize the danger or guard against it.\" Id. (citations omitted). Thus, contrary to Hillis's assertion, the issue may well be whether the bite from the indigenous wild animal occurred indoors or outdoors. See id. Hillis would have us conclude the only issue is whether the animal in question is an animal ferae naturae (wild animal) or an animal domitae naturae (tame animal), with a duty arising with regard to ferae naturae if the landowner has reduced the wild animal in question to his possession or introduced it onto the premises. The language in Nicholson belies this assertion.\nRelying on Nicholson , the Waco Court of Appeals upheld a summary judgment in favor of a defendant based on ferae naturae. Brantley v. Oak Grove Power Co. LCC , No. 10-12-00135-CV, 2012 WL 5974032 (Tex. App.-Waco Nov. 29, 2012, no pet.) (mem. op.). Brantley is instructive because in that case, the invitee alleged ferae naturae was inapplicable because he was injured by a spider while in a structure. In Brantley , an iron worker was employed on a construction project in Franklin, Texas. Id. at *1. While standing near a \"job box\" reviewing blueprints, Brantley was bitten by a spider. Id. He brought suit against Luminant based on premises liability. Id. Luminant filed a motion for summary judgment arguing it owed no duty to Brantley based on the doctrine of ferae naturae. Id. at *2. The trial court granted the motion, and Brantley appealed. Id. at *1.\nBrantley argued a fact issue existed with regard to whether Luminant had a duty because, among other things, at the time he was bitten he was in the \"job box,\" an artificial structure. Id. at 3. However, the summary judgment evidence showed the \"job box\" was nothing more than \"a concrete slab with a partial structure and no roof.\" Id. In other words, the injury did not occur in an artificial structure. Rather, Brantley was bitten by a spider in its natural habitat in the normal course of its existence. Id. (citing Nicholson , 986 S.W.2d at 62 ). Relying on Nicholson , the appellate court affirmed the summary judgment, finding the facts surrounding the occurrence did not support the imposition of a duty. Id. at *3. However, the court recognized, as we did in Nicholson , a landowner could be negligent with regard to injuries caused by wild animals on the property if they were found in artificial structures or places they are not normally found. Id. Brantley strongly implies that if the iron worker had been in an actual structure when bitten, a duty might have been imposed on the landowner. See id.\nSimilar to Brantley , is St. Joseph's Hosp. v. Cowart , a decision from Florida. See 891 So.2d 1039 (Fla. Dist. Ct. App. 2004). In Cowart , a black widow spider bit Cowart while he was a patient at St. Joseph's Hospital. Id. at 1040. Cowart and his wife sued the hospital alleging, among other things, a premises liability action based on Cowart's status as an invitee. Id. A jury found in favor of the Cowarts. Id. However, the Florida appellate court reversed, holding-based on the doctrine of ferae naturae -the hospital owed no duty to Cowart because generally Florida landowners have no duty to guard an invitee against harm from wild animals unless the landowner knows of an unreasonable risk of harm imposed by such animals. Id. at 1041-42. The appellate court noted there was no evidence the hospital knew of the existence of black widow spiders on the premises, and therefore, the hospital had no duty to warn or make the premises safe. Id. at 1042. The Cowart decision is consistent with other Florida cases-and our decision in Nicholson -in which courts have held a premises owner can be negligent with regard to wild animals found in artificial structures when the landowner knows of the unreasonable risk of harm posed by the animals. See Simmons v. Fla. Dep't of Corrections , No. 5:14-cv-438-Oc-39PRL, 2015 WL 3454274, *5 (M.D. Fla. May 29, 2015).\nAdmittedly, courts around the country have refused to impose a duty on premises owners when the injury at issue was the result of an interaction with a wild animal. See, e.g. , Riley v. Champion Int'l Corp. , 973 F.Supp. 634, 642-43 (E.D. Tex. 1997) (affirming summary judgment for premises owner on negligence issue where plaintiff developed Lyme disease after being bitten by tick while clearing timber); Overstreet v. Gibson Prod. Co., Inc. of Del Rio , 558 S.W.2d 58, 63 (Tex. Civ. App.-San Antonio 1977, writ ref'd n.r.e.) (holding grocery store owner had no duty to guard against snakes where owner did not, or should not have known of presence of snake); Glave v. Mich. Terminix Co. , 159 Mich.App. 537, 407 N.W.2d 36, 37 (1987) (upholding defendant's summary judgment and holding that ferae naturae precluded city's liability for driving pigeons into plaintiff's neighborhood, where city took no steps to tame, confine, or to otherwise control pigeons); Wamser v. City of St. Petersburg , 339 So.2d 244, 246 (Fla. Ct. App. 1976) (affirming defendant's summary judgment utilizing ferae naturae to find that city had no duty to warn or guard against shark attacks, nor any duty to gather information about likelihood of such attacks in absence of specific knowledge of danger or necessity of obtaining such information); Williams v. Gibbs , 123 Ga.App. 677, 182 S.E.2d 164, 165 (1971) (holding defendant had no duty to patron for injuries resulting from snake bite because there was no evidence owner had ever seen snakes on premises); Gowen v. Willenborg , 366 S.W.2d 695, 697 (Tex. Civ. App.-Houston 1963, writ ref'd n.r.e.) (affirming summary judgment in favor of landowner on negligence claim based on ferae naturae where plaintiff was stung by wasps nesting on billboard and there was no evidence landowner had knowledge of existence of nest). However, as we recognized in Nicholson , courts have imposed a duty on the premises owner when the wild animal was found in an artificial structure or places such an animal is not usually found, and the landowner knew or had reason to know of the unreasonable risk of harm posed. See, e.g. , DeLuce v. Fort Wayne Hotel , 311 F.2d 853, 857 (6th Cir. 1962) (setting aside judgment and remanding for trial where actress was bitten by rat in hotel lobby and evidence suggested hotel's employees were aware rats entered freely from alley and took no precautions to prevent it); Carlson v. Alaska , 598 P.2d 969, 973-74 (Alaska 1979) (reversing and remanding for trial where plaintiff was mauled by bear when bear was attracted to site of attack by garbage that had accumulated on state-owned property and plaintiff's theory was that state created dangerous situation, knew situation was dangerous, and failed to either correct situation or warn of danger); CeBuzz, Inc. v. Sniderman , 171 Colo. 246, 466 P.2d 457, 458 (1970) (en banc) (holding that defendant's knowledge of presence of banana tarantulas in last shipment of bananas to store gave rise to liability for bite to shopper);\nWilliams v. Milner Hotels Co. , 36 A.2d 20, 22 (Conn. 1944) (holding that presence of rat holes in guest room put premises owner on notice of presence of rats); Simmons , 2015 WL 3454274, *5 (holding defendant not entitled to grant of motion for failure to state claim where inmate bitten by tick inside prison pled prison knew or should have known of ticks on premises); Brasseaux v. Stand-By Corp. , 402 So.2d 140, 144 (La. Ct. App. 1981) (holding motel liable for injury caused when plaintiff slipped and fell in the shower while trying to avoid being stung by bees coming out of shower head when premises owner knew bees were outside motel and failed to warn plaintiff of bees near his room). The commonality in all of the foregoing cases is that a duty to warn or make safe was imposed-or at least possible-under the doctrine of ferae naturae when the injury suffered by the plaintiff as a result of an interaction with a wild animal occurred in an artificial structure and there was evidence the premises owner knew or should have known of the unreasonable risk posed by the wild animal. We find Simmons v. Fla. Dep't of Corrections , cited above, particularly instructive given that it involves a ferae naturae bite-specifically a tick bite-in an artificial structure and relies heavily upon our decision in Nicholson .\nSimmons, an inmate at a Florida prison, brought suit in federal court against the Florida Department of Corrections (\"the FDOC\") after she was bitten by a tick inside a prison facility and developed Lyme Disease. Simmons , 2015 WL 3454274, *1. Simmons alleged, among other things, a state-law premises liability claim. Id. at *4. Specifically, Simmons pled the FDOC failed to provide her with reasonably safe housing by failing to remove the ticks from the premises, by failing to provide pest control services to eliminate the ticks, and failing to warn her there were ticks on the premises that the FDOC knew or should have known about. Id. In response, the FDOC filed a motion to dismiss for failure to state a claim. Id. at *1 ; see FED. R. CIV. P. 12(b)(6). In its motion to dismiss, the FDOC argued it owed no duty to Simmons based on the doctrine of ferae naturae. Id. at *4.\nThe federal district court looked at numerous cases involving premises liability claims where the doctrine of ferae naturae was raised. Id. However, the court found many of those cases did not \"fit these facts like a glove\" because they involved injuries from a wild animal attack that took place in the animal's natural habitat. Id. Thus, the court found those cases inapposite. Simmons, due to her incarceration, was not in the natural habitat of the tick, but in an artificial structure operated by the FDOC. Id. Therefore, the district court looked to cases in which plaintiffs were injured by wild animals in artificial structures, specifically Cowart and Nicholson , both of which are discussed above. Id. at *5. Relying heavily on Nicholson -specifically the statement that a duty to warn or make safe could be imposed on a landowner when a plaintiff is injured by an animal ferae naturae if the owner knows or should know of an unreasonable risk of harm-the district court concluded Simmons pled sufficient facts to survive the FDOC's Rule 12(b)(6) motion, specifically her allegation that she was bitten by a tick and the FDOC knew or should have known there were ticks on the premises that presented an unreasonable risk of harm. Id. at *6.\nThis case is similar to the cases cited above-particularly Simmons -wherein the plaintiff was \"attacked\" by an animal ferae naturae in an artificial structure and there is evidence the landowner knew or should have known it posed an unreasonable risk of harm to the plaintiff.\nSee Simmons , 2015 WL 3454274, *5. Viewing, as we must, the evidence in the light most favorable to McCall and indulging every reasonable inference in his favor, we hold he presented some evidence to suggest that despite the doctrine of ferae naturae , Hillis owed him a duty to warn or make the premises safe from an unreasonable risk of harm. See Parker , 514 S.W.3d at 219.\nThe summary judgment evidence produced by McCall shows McCall was bitten inside the B&B-an artificial structure. Specifically, he was bitten as he reached under a sink in the B&B in an effort to repair a leak. Thus, there is evidence he was in an artificial structure as opposed to suffering the bite in the spider's natural habitat, in the normal course of its existence. Nicholson , 986 S.W.2d at 62. Moreover, McCall produced evidence showing that on several occasions he notified Hillis of an issue with spiders on the property. See id. Hillis admitted in his deposition that he knew there was a population of brown recluse spiders on the property. See id. His testimony also established that McCall contacted him a number of times, reporting spiders or spider webs in the window sills of the B&B. See id. Hillis claimed he took steps to deal with the insect population, occasionally setting off \"bombs\" and spraying. However, Hillis admitted that when contacted by McCall he merely told the housekeeper \"to take precaution, look out, and clean the windows.\" He also admitted there was no schedule with regard to bombing or spraying for insects, but that it was done only \"as needed.\"\nBased on the summary judgment evidence produced by McCall, and viewing it in the light most favorable to McCall and indulging every reasonable inference in his favor, we hold that under the circumstances of this case, Hillis failed to establish as a matter of law an absence of a duty to warn or make safe under the doctrine of ferae naturae -the only basis upon which Hillis moved for summary judgment. See id. The summary judgment evidence shows McCall was bitten by a spider in an artificial structure and Hillis knew or should have known of an unreasonable risk of harm posed by the spiders inside the B&B. See id. Accordingly, Hillis was not entitled to summary judgment based on the doctrine of ferae naturae. See id.\nCONCLUSION\nBased on the foregoing analysis, we sustain McCall's appellate challenge to the trial court's summary judgment in favor of Hillis. Accordingly, we reverse the trial court's summary judgment and remand this matter to the trial court for further proceedings consistent with our opinion.\nIn his brief, Hillis also argues he did not owe a duty to McCall because McCall was aware of the spiders. We agree that generally a landowner does not owe a duty to an invitee to warn about conditions on the premises of which the invitee is already aware. See, e.g., United Scaffolding, Inc. v. Levine , 537 S.W.3d 463, 474 (Tex. 2017) (citing Austin v. Kroger Tex., L.P. , 465 S.W.3d 193, 203-04 (Tex. 2015) ); Brookshire Grocery Co. v. Goss , 262 S.W.3d 793, 795 (Tex. 2008). However, Hillis did not assert McCall's knowledge as a basis for summary judgment. Rather, in his motion for summary judgment, Hillis relied exclusively on the doctrine of ferae naturae to negate the element of duty. Thus, we cannot affirm the trial court's summary judgment in favor of Hillis based on McCall's alleged awareness of the spiders. See Travis v. City of Mesquite , 830 S.W.2d 94, 100 (Tex. 1992). As this court previously stated, \"even if a nonmovant fails to except, respond, or obtain a ruling, if the grounds for summary judgment are not expressly presented in the motion for summary judgment itself,\" summary judgment is improper. Rentfro v. Cavazos , No. 04-10-00617-CV, 2012 WL 566364, at *5 (Tex. App.-San Antonio Feb. 15, 2012, pet. denied) (mem. op.) (citing McConnell v. Southside Indep. Sch. Dist. , 858 S.W.2d 337, 342-43 (Tex. 1993) (plurality op.) ); see Coastal Cement Sand Inc. v. First Interstate Credit Alliance, Inc. , 956 S.W.2d 562, 565 (Tex. App.-Houston [14th Dist.] 1997, pet denied) (holding motion for summary judgment must expressly present grounds upon which it is made and stand or fall on grounds expressly presented therein) (citing McConnell , 858 S.W.2d at 341 ). We recognize that in his reply to McCall's response, Hillis raised the issue of McCall's knowledge of the spiders as a basis for summary judgment. However, summary judgment may not be granted on a ground first presented in a reply to the nonmovant's response. See, e.g., Mei-Chiao Chen Wu v. City of San Antonio , No. 04-10-00836-CV, 2013 WL 4084721, at *5 (Tex. App.-San Antonio Aug. 14, 2013, pet. denied) (mem. op.); All Metals Fabricating, Inc. v. Foster Gen. Contracting, Inc. , 338 S.W.3d 615, 622 (Tex. App.-Dallas 2011, no pet.) ; Staller v. Serv. Corp. Int'l , No. 04-06-00212-CV, 2006 WL 3018039, at *4 (Tex. App.-San Antonio Oct. 24, 2006, no pet.) (mem. op.); Sanders v. Capitol Area Council , 930 S.W.2d 905, 911 (Tex. App.-Austin 1996, no writ). Courts do not permit new or additional grounds to be presented in a reply because it would undermine Texas Rule of Civil Procedure 166a(c), which mandates that a motion for summary judgment be filed twenty one-days before the date of the hearing in the absence of leave of court. See, e.g., Staller , 2006 WL 3018039, at *4 ; Sanders , 930 S.W.2d at 911 ; see also Tex. R. Civ. P. 166a(c). Thus, we will not consider grounds raised for the first time in Hillis's reply.\nIn his petition, McCall alleged he was an invitee. Hillis \"assumed\"-for the purposes of the motion for summary judgment, as well as this appeal \"and reserving the right to challenge McCall's status\"-that McCall was an invitee.",
+        "type": "majority",
+        "author": "Marialyn Barnard, Justice"
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "Henry MCCALL, Appellant\nv.\nHomer HILLIS, Appellee\nNo. 04-17-00410-CV\nCourt of Appeals of Texas, San Antonio.\nDelivered and Filed: August 22, 2018\nAPPELLANT ATTORNEY: Henry McCall, 1815 Presidential Heights #628, Colorado Springs, CO 80905.\nAPPELLEE ATTORNEY: W. David Farmer, Curney, Farmer, House, Osuna & Jackson, P.C., 411 Heimer Road, San Antonio, TX 78232-4854.\nSitting: Marialyn Barnard, Justice, Patricia O. Alvarez, Justice, Irene Rios, Justice"
+  },
+  "file_name": "0098-01",
+  "first_page_order": 98,
+  "last_page_order": 106
+}

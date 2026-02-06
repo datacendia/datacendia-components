@@ -1,0 +1,59 @@
+{
+  "id": 5988636,
+  "name": "Demling v. United States",
+  "name_abbreviation": "Demling v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5072",
+  "first_page": "902",
+  "last_page": "902",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 902"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.627,
+    "sha256": "195d8fab0096ffc22dc8a7c693b70e00dcd2413ac4b88ff192d9df8083398528",
+    "simhash": "1:150be6b70dbd5041",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Demling v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5072.\nDemling v. United States."
+  },
+  "file_name": "0902-04",
+  "first_page_order": 924,
+  "last_page_order": 924
+}

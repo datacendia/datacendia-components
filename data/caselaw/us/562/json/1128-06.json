@@ -1,0 +1,59 @@
+{
+  "id": 6021458,
+  "name": "Miller v. California",
+  "name_abbreviation": "Miller v. California",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-6945",
+  "first_page": "1128",
+  "last_page": "1128",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1128"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 27,
+    "char_count": 171,
+    "ocr_confidence": 0.575,
+    "sha256": "d3b397df45a10ca9d1b4056e662f0b10d850d0b9736b9eee48f350b694fc3836",
+    "simhash": "1:eca959c9ca649312",
+    "word_count": 27
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Miller v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Cal. Motion of petitioner for leave to proceed in forma pauperis denied, and certiorari dismissed. See this Court\u2019s Rule 39.8.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6945.\nMiller v. California."
+  },
+  "file_name": "1128-06",
+  "first_page_order": 1150,
+  "last_page_order": 1150
+}

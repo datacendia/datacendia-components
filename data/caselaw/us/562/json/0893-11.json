@@ -1,0 +1,59 @@
+{
+  "id": 5969460,
+  "name": "Sven v. Chandler, Warden",
+  "name_abbreviation": "Sven v. Chandler",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-101",
+  "first_page": "893",
+  "last_page": "893",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 893"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.57,
+    "sha256": "0c1cb3b152cd85b1de93da5ebd55cc0e01ecbc55b47efda816fb80dfaa0d4154",
+    "simhash": "1:02ea27a3f74f52aa",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sven v. Chandler, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-101.\nSven v. Chandler, Warden."
+  },
+  "file_name": "0893-11",
+  "first_page_order": 915,
+  "last_page_order": 915
+}

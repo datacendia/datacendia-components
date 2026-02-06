@@ -1,0 +1,59 @@
+{
+  "id": 12204663,
+  "name": "Shields v. Illinois",
+  "name_abbreviation": "Shields v. Illinois",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10715",
+  "first_page": "845",
+  "last_page": "845",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 845"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 79,
+    "ocr_confidence": 0.634,
+    "sha256": "37373fabbfb3944bcc450135c4617837064ab585190b6811ca6f712386f3ec17",
+    "simhash": "1:413986df7d34f52e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Shields v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Ill., 1st Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10715.\nShields v. Illinois."
+  },
+  "file_name": "0845-14",
+  "first_page_order": 927,
+  "last_page_order": 927
+}

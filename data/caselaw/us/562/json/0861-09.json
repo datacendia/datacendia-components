@@ -1,0 +1,59 @@
+{
+  "id": 6010258,
+  "name": "Blakeney v. Mississippi",
+  "name_abbreviation": "Blakeney v. Mississippi",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11081",
+  "first_page": "861",
+  "last_page": "861",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 861"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 73,
+    "ocr_confidence": 0.584,
+    "sha256": "43d91fa930420ebe0344dd5f3104dfc5ea6b0fca354fc9a7d6ff159d1a585f8e",
+    "simhash": "1:a7bd5263a05d1602",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Blakeney v. Mississippi."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Miss. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11081.\nBlakeney v. Mississippi."
+  },
+  "file_name": "0861-09",
+  "first_page_order": 883,
+  "last_page_order": 883
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12239844,
+  "name": "Dohnal v. Texas",
+  "name_abbreviation": "Dohnal v. Texas",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-6903",
+  "first_page": "1119",
+  "last_page": "1119",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1119"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.665,
+    "sha256": "056f6e5a1a4ff340d38717480d66a2cb83ff74210ed1a180229c8d26fd040a5a",
+    "simhash": "1:cbf303636e98aa1a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dohnal v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Tex., 11th Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6903.\nDohnal v. Texas."
+  },
+  "file_name": "1119-05",
+  "first_page_order": 1201,
+  "last_page_order": 1201
+}

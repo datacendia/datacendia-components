@@ -1,0 +1,61 @@
+{
+  "id": 12422415,
+  "name": "Turpin v. United States",
+  "name_abbreviation": "Turpin v. United States",
+  "decision_date": "2012-11-13",
+  "docket_number": "No. 12-6682",
+  "first_page": "1009",
+  "last_page": "1009",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1009"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 53,
+    "char_count": 386,
+    "ocr_confidence": 0.594,
+    "sha256": "bcdc4b511661f9bd282bf91395e73d5bdddc4786ab940213d2dbe7fbae8d1d2e",
+    "simhash": "1:f7a59686060baef9",
+    "word_count": 69
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this motion."
+    ],
+    "parties": [
+      "Turpin v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Motion of petitioner for leave to proceed in forma pauperis denied. Petitioner is allowed until December 4, 2012, within which to pay the docketing fee required by Rule 38(a) and to submit a petition in compliance with Rule 33.1 of the Rules of this Court.\nJustice Kagan took no part in the consideration or decision of this motion.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6682.\nTurpin v. United States."
+  },
+  "file_name": "1009-03",
+  "first_page_order": 1085,
+  "last_page_order": 1085
+}

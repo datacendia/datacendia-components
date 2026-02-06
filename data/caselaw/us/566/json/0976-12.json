@@ -1,0 +1,59 @@
+{
+  "id": 12213061,
+  "name": "Julian v. California",
+  "name_abbreviation": "Julian v. California",
+  "decision_date": "2012-04-30",
+  "docket_number": "No. 11-8992",
+  "first_page": "976",
+  "last_page": "976",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 976"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 93,
+    "ocr_confidence": 0.627,
+    "sha256": "3b6c7b29906ae26a265453db65bffade1049bb69dfe9ba7e1b337ea129d7f11a",
+    "simhash": "1:29809f5409540880",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Julian v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 4th App. Dist., Div. 1. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8992.\nJulian v. California."
+  },
+  "file_name": "0976-12",
+  "first_page_order": 852,
+  "last_page_order": 852
+}

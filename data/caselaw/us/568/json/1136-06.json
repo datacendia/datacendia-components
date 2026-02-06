@@ -1,0 +1,59 @@
+{
+  "id": 12429760,
+  "name": "Barnett v. United States",
+  "name_abbreviation": "Barnett v. United States",
+  "decision_date": "2013-01-14",
+  "docket_number": "No. 12-7697",
+  "first_page": "1136",
+  "last_page": "1136",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1136"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.631,
+    "sha256": "83a2912a3c7e3c40620db206fb81567fc770f24cc31e0a773b3b14405f9b4705",
+    "simhash": "1:878b3b2b4a3f182e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Barnett v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7697.\nBarnett v. United States."
+  },
+  "file_name": "1136-06",
+  "first_page_order": 1212,
+  "last_page_order": 1212
+}

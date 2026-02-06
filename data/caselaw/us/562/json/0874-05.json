@@ -1,0 +1,59 @@
+{
+  "id": 6009930,
+  "name": "Earhart v. Konteh, Warden",
+  "name_abbreviation": "Earhart v. Konteh",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11325",
+  "first_page": "874",
+  "last_page": "874",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 874"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.613,
+    "sha256": "f8ce7fcc01b96e0007fe4337bb07c0d7f152f2f902f76df8a53b557bc0bd949b",
+    "simhash": "1:b32a32377c3f99f4",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Earhart v. Konteh, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11325.\nEarhart v. Konteh, Warden."
+  },
+  "file_name": "0874-05",
+  "first_page_order": 896,
+  "last_page_order": 896
+}

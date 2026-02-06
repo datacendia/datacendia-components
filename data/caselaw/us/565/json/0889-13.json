@@ -1,0 +1,59 @@
+{
+  "id": 12216566,
+  "name": "Manning v. New York",
+  "name_abbreviation": "Manning v. New York",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5103",
+  "first_page": "889",
+  "last_page": "889",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 889"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 95,
+    "ocr_confidence": 0.661,
+    "sha256": "d308c90b79c9b2b9a3fe772a03b14740124dec32879fedee0f97efdb3b297417",
+    "simhash": "1:68c0e1446101d302",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Manning v. New York."
+    ],
+    "opinions": [
+      {
+        "text": "App. Div., Sup. Ct. N. Y., 1st Jud. Dept. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5103.\nManning v. New York."
+  },
+  "file_name": "0889-13",
+  "first_page_order": 971,
+  "last_page_order": 971
+}

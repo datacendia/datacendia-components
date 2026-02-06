@@ -1,0 +1,59 @@
+{
+  "id": 5936396,
+  "name": "Ahmadi v. Texas",
+  "name_abbreviation": "Ahmadi v. Texas",
+  "decision_date": "2011-04-04",
+  "docket_number": "No. 10-1071",
+  "first_page": "918",
+  "last_page": "918",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 918"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.582,
+    "sha256": "b92c69d960559d0b9823d641bddf1e04421b0efc65e1257849b3309e9c55de7f",
+    "simhash": "1:78c1db915e886c02",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ahmadi v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Tex., 14th Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1071.\nAhmadi v. Texas."
+  },
+  "file_name": "0918-07",
+  "first_page_order": 944,
+  "last_page_order": 944
+}

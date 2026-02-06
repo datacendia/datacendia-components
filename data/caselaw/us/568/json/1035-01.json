@@ -1,0 +1,59 @@
+{
+  "id": 12425020,
+  "name": "Spencer v. Kirkland, Warden",
+  "name_abbreviation": "Spencer v. Kirkland",
+  "decision_date": "2012-11-26",
+  "docket_number": "No. 12-6513",
+  "first_page": "1035",
+  "last_page": "1035",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1035"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.65,
+    "sha256": "21882daf0672fad3016bb00df3513f4f80a08d5cba086b4f4c04cf8c897ee68a",
+    "simhash": "1:d1e526c869bf38ce",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Spencer v. Kirkland, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6513.\nSpencer v. Kirkland, Warden."
+  },
+  "file_name": "1035-01",
+  "first_page_order": 1111,
+  "last_page_order": 1111
+}

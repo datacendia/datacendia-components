@@ -1,0 +1,123 @@
+{
+  "id": 12518617,
+  "name": "Thomas E. RUBIN, Plaintiff-Appellant, v. UNITED STATES of America, Defendant-Appellee.",
+  "name_abbreviation": "Rubin v. United States",
+  "decision_date": "2018-09-24",
+  "docket_number": "No. 16-56633",
+  "first_page": "1081",
+  "last_page": "1087",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "904 F.3d 1081"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "9th Cir.",
+    "id": 18869,
+    "name": "United States Court of Appeals for the Ninth"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "179 F.3d 698",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        844443
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "699"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/179/0698-01"
+      ]
+    },
+    {
+      "cite": "682 F.3d 1126",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3891442
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "1131"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/682/1126-01"
+      ]
+    },
+    {
+      "cite": "26 U.S.C. \u00a7 6037",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "(c)(2)(A)(ii)"
+        },
+        {
+          "page": "(c)(2)(A)(ii)"
+        },
+        {
+          "page": "(c)(2)(A)(ii)"
+        },
+        {
+          "page": "(c)(1)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 688,
+    "char_count": 19077,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2590658760414217
+    },
+    "sha256": "4e0361a7891481759e4e5367eb10a17a6473824b026f31d8a48d945d002167c5",
+    "simhash": "1:961a2f8724547ab4",
+    "word_count": 3074
+  },
+  "last_updated": "2024-02-27T18:45:53.632327+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Thomas E. RUBIN, Plaintiff-Appellant,\nv.\nUNITED STATES of America, Defendant-Appellee."
+    ],
+    "opinions": [
+      {
+        "text": "CLIFTON, Circuit Judge:\nPlaintiff-appellant Thomas E. Rubin appeals the judgment entered by the district court in favor of the Government in his tax refund action. Rubin was the sole shareholder of a subchapter S corporation. The income and losses of the S corporation were not taxed at the corporate level but instead flowed through to Rubin as its sole shareholder. The corporation was put into involuntary bankruptcy. Rubin contends that the net income for the corporation was substantially overstated on the corporation's tax return by the bankruptcy trustee who filed the return, resulting in personal income tax payments by Rubin that were substantially more than he actually owed. He filed amended tax returns seeking to obtain a refund of the overpayments, but the Government denied the refund. Rubin then filed a tax refund action in district court.\nThe district court granted the Government's motion for judgment on the pleadings on the ground that Rubin had failed to satisfy a statutory requirement for a return filed by a shareholder of an S corporation. The requirement is that if a tax return filed by the shareholder of an S corporation is inconsistent with the corporation's own return, the shareholder must file \"a statement identifying the inconsistency.\" 26 U.S.C. \u00a7 6037(c)(2)(A)(ii). The district court concluded that Rubin had not filed such a statement and granted judgment in favor of the Government.\nThe issue presented in this appeal is whether the filings by Rubin satisfied the requirement for \"a statement identifying the inconsistency.\" We conclude that those filings identified the inconsistencies between his tax returns and those of the S corporation sufficiently to satisfy \u00a7 6037. We reverse the judgment and remand for further proceedings.\nI. Background\nThe S corporation that is the subject of Rubin's action is Focus Media, Inc. (\"Focus\"). Rubin and Focus both filed all required tax returns and paid all required income taxes during the relevant time period. Rubin's tax returns consistently reflected the flow-through income and losses reported on Focus's returns.\nBy the year 2000, Focus was in serious financial difficulties. It engaged in advertising placement, but some of its largest customers became concerned about its possible misuse of funds and sued the company to prevent additional disbursements. Focus was eventually enjoined from collecting its unpaid receivables. Later that year, creditors put Focus into involuntary bankruptcy. A bankruptcy trustee was appointed and advised the bankruptcy court that Focus's receivables were worthless. The trustee filed Focus's 2000 tax return. Rubin argues that the trustee incorrectly accounted for $66,696,211 of cancellation of indebtedness income and $23,110,349 of bad debts expenses that Focus was entitled to write off.\nRubin filed his personal tax return and paid his taxes based on the income reported in the Focus return filed by the trustee for tax year 2000. He later filed an amended personal income tax return for that year, however, and also for the two preceding years, 1998 and 1999. He included in his filing a statement that described how his income flowed from Focus and stated his disagreement with the tax return filed for Focus by the bankruptcy trustee. He attached a pro forma amended tax return for Focus for the 2000 tax year, which reflected the different treatment of bad debt expenses and the cancellation of indebtedness income. He also attached a pro forma Schedule K-1 showing the income he contended should have been reported to him based on the revised numbers in the pro forma Focus return. A Schedule K-1 is the form used by an S corporation to report the shareholder's share of income, losses, deductions and credits. The claims for refunds in 1998 and 1999 were based on carrying losses back to those years, again based on the revised figures in the pro forma Focus 2000 return. In his amended returns Rubin claimed tax refunds, based on the revised numbers, of $2,564,260 for 1998, $595,218 for 1999, and $6,957,293 for 2000. Rubin also filed an amended return for 2001, but he did not claim any refund for that year.\nThe IRS disallowed all of Rubin's amended tax refund claims. In rejecting the claims, the IRS did not indicate that the rejection was based on any failure by Rubin to identify inconsistencies between his tax returns and Focus's returns, nor did the IRS suggest any uncertainty or confusion about what Rubin was claiming or what Rubin's filings reported. All of the reasons provided by the IRS were based on the merits of the claims.\nRubin filed the current action against the Government in 2016, seeking over $10 million in tax refunds for tax years 1998 through 2001. The Government filed a motion for judgment on the pleadings, requesting that the district court dismiss Rubin's claims without leave to amend. The district court granted that motion, concluding that Rubin had not filed with his amended tax returns a \"statement identifying the inconsistency\" with the return filed on behalf of Focus, as required by 26 U.S.C. \u00a7 6037(c)(2)(A)(ii). The court also concluded that Rubin could not amend his complaint to allege that he substantially satisfied the statutory requirement because it had already been determined that what he filed fell short, so the court dismissed the action with prejudice.\nII. Discussion\nWe review de novo a district court's grant of judgment on the pleadings under Rule 12(c) of the Federal Rules of Civil Procedure. Harris v. Cty. of Orange , 682 F.3d 1126, 1131 (9th Cir. 2012). A judgment on the pleadings is properly granted when, assuming the truth of the allegations in the non-moving party's pleadings, the moving party is entitled to judgment as a matter of law. Fajardo v. Cty. of Los Angeles , 179 F.3d 698, 699 (9th Cir. 1999).\nThe issue on appeal is whether Rubin's amended returns were properly rejected because they failed to satisfy the requirements of 26 U.S.C. \u00a7 6037 when filed with the IRS. Section 6037 is captioned \"Return of S corporation.\" The heading of subsection 6037(c) accurately summarizes its thrust: \"Shareholder's return must be consistent with corporate return or Secretary notified of inconsistency.\"\nSpecifically, subsection 6037(c)(1) requires that the tax return of a shareholder of an S corporation must report income and loss consistently with what the corporation reported on its return. Subsection 6037(c)(2)(A) provides an exception to the requirement for consistent treatment, however. It states that if the corporation has filed a return but the shareholder's treatment is inconsistent with the return filed by the corporation, subsection 6037(c)(1) \"shall not apply\" if \"the shareholder files with the Secretary a statement identifying the inconsistency.\"\nRubin's amended tax returns were not consistent with Focus's return, so they violated the requirement spelled out in subsection 6037(c)(1). The question is whether he qualified for the exception provided in subsection 6037(c)(2)(A) by filing \"a statement identifying the inconsistency.\"\nRubin's amended returns for 1998, 1999, and 2000 were all filed at the same time with a cover letter from his accountant that suggested that they should be reviewed together. The cover letter explained that the \"first amended return\" was for the year 2000, and that the changes to that return created a net operating loss that was available to be carried back to 1998 and 1999. It referenced \"the explanations in Part II of each amended return.\"\nPart II of the amended return, Form 1040X, filed by Rubin for tax year 2000 said \"see attached statement.\" The attached statement consisted of two pages. The first was a one-page chart that contained two lists of changes to the Rubin tax return. The first listed \"Summary Changes to Income,\" and the second \"Summary of Changes to Itemized Deductions (Schedule A).\" To the right of the textual descriptions of each change were three columns with numbers, stating the figures \"As Originally Reported,\" then \"Net Change,\" and finally \"As Amended.\" The overwhelming bulk of the financial changes were reflected in the first two income items. The first entry was \"Schedule D: Gain on sale of stock of Focus Media, Inc.\" For that entry, $30,379,112 was originally reported, the net change was a subtraction of $16,809,110, and the amended amount was $13,570,002. The second item was \"Schedule E: Loss from S Corporation, Focus Media, Inc.\" For that entry, $0 was originally reported, the net change was a subtraction of $30,563,376, and the amended amount was a loss of that same amount, $30,563,376.\nThe second page of the attachment consisted of four paragraphs of text. All four paragraphs made explicit reference to Focus and described the amendments as resulting from the recalculation of what Rubin contended should have been reported by Focus on its tax return. It noted that the adjustments in income, including the two largest items described above, \"flowed from Focus Media, Inc., an S Corporation in which the taxpayer was the sole shareholder.\" The statement continued:\nThe bankruptcy trustee has not prepared an amendment to Focus Media's S corporation return. The accountant for taxpayer has prepared a pro forma amended Form 1120S, U.S. Income Tax Return for an S corporation, for Focus Media's calendar year 2000 and contends that the reporting positions contained in the amended return are accurate. Accordingly, the aggregate losses being claimed as deductions by taxpayer in this return are those which would be reflected on an amended S corporation return if it had been filed.\nAs promised by the statement, Rubin's amended filing for 2000 included a Form 1120S, \"U.S. Income Tax Return for an S Corporation,\" for Focus, filled in by Rubin's accountant to reflect what Rubin contended that the Focus return should have reported, including adjustments described in the so-called \"pro forma\" return as based on uncollectable debts and exclusion of cancellation of indebtedness income. Rubin's amended filing also included a revised Schedule K-1, \"Shareholder's Share of Income, Credits, Deductions, etc.,\" listing what Rubin contended should have been reported by Focus to Rubin based on the figures in the pro forma return for Focus.\nPart II of the amended returns, Form 1040X, filed by Rubin for both tax years 1998 and 1999 also said \"see attached statement.\" For 1998 the attached statement consisted of a one-page chart showing the effect of the net operating loss carryback from 2000. For 1999 the attached statement consisted of a one-page chart showing the effect of the net operating loss carryover from 1998. Each of those charts had the same three columns of figures as the 2000 chart, showing the amounts originally reported, the net change, and the amount as reported in the amended return. Copies of the pro forma Schedule K-1 for 2000 were also included in the amended returns for 1998 and 1999.\nThe Government does not contend that it was unable to understand the revisions proposed by Rubin in his amended returns. When the IRS initially disallowed Rubin's refund claims, it did not do so on the grounds that he failed to comply with section 6037. The IRS instead provided five reasons for disallowing Rubin's claims, all of which were based on substantive disagreements and the Government's determination that the claims lacked merit. To make that determination the IRS necessarily identified the items that were treated differently by Rubin than had been treated in the return filed by the bankruptcy trustee for Focus. It then evaluated Rubin's claims as to those items, and rejected them for substantive reasons.\nAt oral argument, the Government acknowledged that Rubin's filings permitted the IRS to perceive the inconsistencies between the return actually filed on behalf of Focus and the pro forma return prepared by Rubin's accountant. Observing these inconsistencies, the IRS likely compared Rubin's pro forma return and Focus's return on a line-by-line basis. In practical terms, then, the amended filings by Rubin succeeded in identifying the inconsistencies with the previously filed returns sufficiently for the Government to understand them and to reject them on the merits. That supports Rubin's argument that his filings were sufficient to meet section 6037(c)(2) 's requirement for \"a statement identifying the inconsistency.\"\nThe Government argues that Rubin's returns did not identify the right inconsistencies, however. It complains that \"Rubin only identified how his amended returns were different from his original returns - not how his amended returns were different from the corporate returns.\" In effect, the Government appears to argue that the requirement would have been satisfied had Rubin added a chart listing the relevant figures reported on the Focus return with the pro forma returns included in Rubin's amended filings. Because such a chart was not included, the Government contends that Rubin's amended returns should be rejected, even though the Government necessarily understood that Rubin's claim rested on the Focus return differences. We reject this logic. Section 6037 does not exalt form over substance in that manner.\nAny doubt on that score is confirmed by Form 8082, published by the Government for use in reporting inconsistencies under these circumstances. Form 8082, \"Notice of Inconsistent Treatment or Administrative Adjustment Request,\" identified for use by S corporations, asks the taxpayer to describe inconsistent items and to indicate for each item whether the inconsistency pertains to the amount of the item or how it was treated on the original return. It then asks the taxpayer to list: \"(c) Amount as shown on Schedule K-1, Schedule Q, or similar statement, a foreign trust statement, or your return , whichever applies, (d) Amount you are reporting, and (e) Difference between (c) and (d).\" I.R.S. Form 8082 (Sept. 2017) (emphasis added). Entry (c) is relevant here as it identifies what should be, explicitly, included from the taxpayer's previous return. That is what Rubin provided. There is nothing in Form 8082 that directs or requires the taxpayer to report figures taken directly from the corporation's return.\nThe Government argues that requiring it to compare the filed Focus return with the pro forma return submitted by Rubin would have been unduly burdensome for the IRS. It points out that Rubin's pro forma filing for Focus spanned more than 20 pages. It is true that the entire pro forma document that Rubin filed (including both the pro forma tax return and the pro forma Schedule K-1) was twenty-two pages long. That fact does not, however, impose such a burden that the IRS could not reasonably accomplish its duty, particularly, in light of the size of the claimed refund. In fact, the IRS would be expected to review returns and that is actually what it did. A two-page pro-forma Schedule K-1 accompanied by a two-page statement explaining the inconsistencies entries does not impose an oppressive task on the IRS even under Section 6037 standards.\nThe Government elaborates on its argument contending that Rubin's interpretation of Section 6037 is unsound as a matter of policy because it would \"encourage shareholders like him not to disclose the inconsistencies between their returns and the corporate returns.\" Rubin has not argued that he was not required to identify the relevant inconsistencies, however, and we do not so conclude. He contends that he did in fact identify the inconsistencies sufficiently for the IRS to understand and respond to them.\nThe Government counters that this interpretation of Section 6037\"would render the filing of an administrative claim an exercise in futility\" because the IRS would have to defend against a refund action in court based on arguments that \"it was directed to disregard at the administrative level.\" There was nothing that the Government was directed to disregard here. It dealt with Rubin's amended returns on the merits, and it was able to do so because Rubin's return included a statement that sufficiently identified the relevant inconsistencies.\nIII. Conclusion\nThe judgment in favor of the Government regarding Rubin's refund claims for tax years 1998 through 2000, based on his alleged failure to comply with section 6037, is reversed. We conclude that his filings satisfied the requirement that the shareholder of an S corporation whose return includes entries that are inconsistent with the return filed by the corporation must file \"a statement identifying the inconsistency.\" 26 U.S.C. \u00a7 6037(c)(2)(A)(ii). The action is remanded for further proceedings.\nBecause Rubin has abandoned his appeal of his refund claim for tax year 2001, the dismissal of that claim is affirmed.\nCosts on appeal are awarded against the Government.\nAFFIRMED IN PART, REVERSED IN PART, and REMANDED.\nThe district court dismissed the 2001 claim as moot because Rubin did not actually seek any refund for that year. Although his opening brief purported to challenge that portion of the district court's order, at oral argument, Rubin's counsel confirmed that this claim has been abandoned. We do not further consider the 2001 claim.\n26 U.S.C. \u00a7 6037(c)(1) provides: \"A shareholder of an S corporation shall, on such shareholder's return, treat a subchapter S item in a manner which is consistent with the treatment of such item on the corporate return.\"\n26 U.S.C. 6037(c)(2)(A) provides:\n(2) Notification of inconsistent treatment.-\n(A) In general. -In the case of any subchapter S item, if-\n(i)(I) the corporation has filed a return but the shareholder's treatment on his return is (or may be) inconsistent with the treatment of the item on the corporate return, or\n(II) the corporation has not filed a return, and\n(ii) the shareholder files with the Secretary a statement identifying the inconsistency,\nparagraph (1) shall not apply to such item.\nThe Government argued to the district court that Rubin's amended returns should be rejected because he failed to file Form 8082 to identify the inconsistent treatment in his return. The district court discussed that contention in its order but did not rest its decision on that basis. The Government did not make that argument in its brief. The Government confirmed at oral argument that it had abandoned the argument, so we do not consider it.",
+        "type": "majority",
+        "author": "CLIFTON, Circuit Judge:"
+      }
+    ],
+    "attorneys": [
+      "Evan Christopher Borges (argued), Greenberg Gross LLP, Costa Mesa, California for Plaintiff-Appellant.",
+      "Geoffrey J. Klimas (argued) and Bruce R. Ellisen, Attorneys, Tax Division, United States Department of Justice, Washington, D.C.; for Defendant-Appellee."
+    ],
+    "corrections": "",
+    "head_matter": "Thomas E. RUBIN, Plaintiff-Appellant,\nv.\nUNITED STATES of America, Defendant-Appellee.\nNo. 16-56633\nUnited States Court of Appeals, Ninth Circuit.\nArgued and Submitted August 8, 2018, Pasadena, California\nFiled September 24, 2018\nEvan Christopher Borges (argued), Greenberg Gross LLP, Costa Mesa, California for Plaintiff-Appellant.\nGeoffrey J. Klimas (argued) and Bruce R. Ellisen, Attorneys, Tax Division, United States Department of Justice, Washington, D.C.; for Defendant-Appellee.\nBefore: Richard R. Clifton and Consuelo M. Callahan, Circuit Judges, and Kenneth M. Hoyt, District Judge.\nThe Honorable Kenneth M. Hoyt, United States District Judge for the Southern District of Texas, sitting by designation."
+  },
+  "file_name": "1081-01",
+  "first_page_order": 1081,
+  "last_page_order": 1087
+}

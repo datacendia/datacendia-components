@@ -1,0 +1,59 @@
+{
+  "id": 12431502,
+  "name": "Beltran v. United States",
+  "name_abbreviation": "Beltran v. United States",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-8076",
+  "first_page": "1182",
+  "last_page": "1182",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1182"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.64,
+    "sha256": "d9488f483deaa81e14e248a09a1f8e1f6494a0a3a4f4506fdbfb4fa2af4f5360",
+    "simhash": "1:076b8b032fa19022",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Beltran v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8076.\nBeltran v. United States."
+  },
+  "file_name": "1182-04",
+  "first_page_order": 1258,
+  "last_page_order": 1258
+}

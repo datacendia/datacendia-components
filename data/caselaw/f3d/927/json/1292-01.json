@@ -1,0 +1,965 @@
+{
+  "id": 12521503,
+  "name": "ELBIT SYSTEMS LAND AND C4I LTD., Elbit Systems of America, LLC, Plaintiffs-Appellees v. HUGHES NETWORK SYSTEMS, LLC, Defendant-Appellant",
+  "name_abbreviation": "Elbit Sys. Land & C4i Ltd. v. Hughes Network Sys., LLC",
+  "decision_date": "2019-06-25",
+  "docket_number": "2018-1910",
+  "first_page": "1292",
+  "last_page": "1306",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "927 F.3d 1292"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Fed. Cir.",
+    "id": 8955,
+    "name": "United States Court of Appeals for the Federal Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "782 F.3d 1376",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6053975
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1381",
+          "parenthetical": "assumption of jurisdiction without discussion is not accorded precedential effect"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/782/1376-01"
+      ]
+    },
+    {
+      "cite": "148 F.3d 1380",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        288280
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "1384"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/148/1380-01"
+      ]
+    },
+    {
+      "cite": "691 F.3d 1356",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3509557
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "1360",
+          "parenthetical": "quoting Swint , 514 U.S. at 51, 115 S.Ct. 1203 "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/691/1356-01"
+      ]
+    },
+    {
+      "cite": "514 U.S. 35",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1340371
+      ],
+      "weight": 5,
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "50-51"
+        },
+        {
+          "page": "51"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/514/0035-01"
+      ]
+    },
+    {
+      "cite": "225 F.3d 1368",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        162088,
+        11236091
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "1373"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/fed-cl/47/1368-01",
+        "/f3d/225/1368-01"
+      ]
+    },
+    {
+      "cite": "372 F.3d 1347",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        2201680,
+        9239697
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "1354-57"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/fed-cl/61/1347-01",
+        "/f3d/372/1347-01"
+      ]
+    },
+    {
+      "cite": "758 F.3d 1322",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4158719
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "1326"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/758/1322-01"
+      ]
+    },
+    {
+      "cite": "44 F.3d 1557",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6120450,
+        7416378
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "1561",
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/176/1557-01",
+        "/f3d/44/1557-01"
+      ]
+    },
+    {
+      "cite": "307 F.3d 1364",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11362707,
+        1085166
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "1371"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/307/1364-01",
+        "/fed-cl/53/1364-01"
+      ]
+    },
+    {
+      "cite": "880 F.3d 1345",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12267230
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1349"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/880/1345-01"
+      ]
+    },
+    {
+      "cite": "798 F.2d 1390",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1610087
+      ],
+      "weight": 2,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "1390-92"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/798/1390-01"
+      ]
+    },
+    {
+      "cite": "134 S.Ct. 1749",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12579874,
+        12706997
+      ],
+      "weight": 2,
+      "year": 2014,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/134/1749-01",
+        "/us/572/0545-01"
+      ]
+    },
+    {
+      "cite": "572 U.S. 545",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12706997
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "549"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/572/0545-01"
+      ]
+    },
+    {
+      "cite": "35 U.S.C. \u00a7\u00a7 283",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "parenthetical": "injunctions"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "719 F.3d 1305",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4055400
+      ],
+      "weight": 2,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "1311-13",
+          "parenthetical": "en banc"
+        },
+        {
+          "page": "1309-13"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/719/1305-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 284",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1292",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(c)(2)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "899 F.3d 1254",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12518051
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1280"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/899/1254-01"
+      ]
+    },
+    {
+      "cite": "269 F.3d 1340",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9472884
+      ],
+      "weight": 2,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "1345",
+          "parenthetical": "\"A decision to award attorney fees under 35 U.S.C. \u00a7 285 is not final and appealable before the award has been quantified.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/269/1340-01"
+      ]
+    },
+    {
+      "cite": "669 F.3d 1349",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3723369
+      ],
+      "weight": 4,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "1360"
+        },
+        {
+          "page": "1360-61",
+          "parenthetical": "so explaining with reference to Budinich and to the Supreme Court's post- Majorette Toys narrowing of pendent appellate jurisdiction"
+        },
+        {
+          "page": "1360-61",
+          "parenthetical": "recognizing that Swint \"threw cold water on pendent appellate jurisdiction,\" limiting it to \"extraordinary circumstances ... when a nonappealable decision is 'inextricably intertwined' with the appealable decision\""
+        },
+        {
+          "page": "1361",
+          "parenthetical": "similar conclusion on different facts"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/669/1349-01"
+      ]
+    },
+    {
+      "cite": "486 U.S. 196",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6212968
+      ],
+      "weight": 11,
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "202-03"
+        },
+        {
+          "page": "202"
+        },
+        {
+          "page": "202"
+        },
+        {
+          "page": "200"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/486/0196-01"
+      ]
+    },
+    {
+      "cite": "918 F.2d 160",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10531840
+      ],
+      "weight": 2,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "164"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/918/0160-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1291",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 U.S.C. \u00a7 285",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 4,
+      "opinion_index": 0
+    },
+    {
+      "cite": "694 F.3d 51",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3523807
+      ],
+      "weight": 2,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "67"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/694/0051-01"
+      ]
+    },
+    {
+      "cite": "809 F.3d 1295",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4060184
+      ],
+      "weight": 4,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1301",
+          "parenthetical": " CSIRO "
+        },
+        {
+          "page": "1302-03"
+        },
+        {
+          "page": "1300, 1302-03"
+        },
+        {
+          "page": "1303"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/809/1295-01"
+      ]
+    },
+    {
+      "cite": "111 U.S. 120",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3507364
+      ],
+      "weight": 3,
+      "year": 1884,
+      "pin_cites": [
+        {
+          "page": "121"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/111/0120-01"
+      ]
+    },
+    {
+      "cite": "773 F.3d 1201",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4316311
+      ],
+      "weight": 3,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "1226"
+        },
+        {
+          "page": "1228"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/773/1201-01"
+      ]
+    },
+    {
+      "cite": "879 F.3d 1299",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12267136
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1309",
+          "parenthetical": "quoting Ericsson, Inc. v. D-Link Sys., Inc. , 773 F.3d 1201, 1226 (Fed. Cir. 2014) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/879/1299-01"
+      ]
+    },
+    {
+      "cite": "626 F.3d 1197",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6052325
+      ],
+      "weight": 2,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "1212"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/626/1197-01"
+      ]
+    },
+    {
+      "cite": "86 F.3d 1098",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        452665
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "1110",
+          "parenthetical": "relying on licenses between Maxwell and other licensees to establish the reasonableness of the royalty rate"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/86/1098-01"
+      ]
+    },
+    {
+      "cite": "699 F.3d 1340",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5868639
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "1357-58",
+          "parenthetical": "relying on other licenses and acknowledging the differences between Maersk's conduct and the conduct of other licensees"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/699/1340-01"
+      ]
+    },
+    {
+      "cite": "802 F.3d 1283",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4341759
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1299",
+          "parenthetical": "determining that it was appropriate to use a prior license to gauge damages because it involved comparable technology and similarly situated companies"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/802/1283-01"
+      ]
+    },
+    {
+      "cite": "782 F.3d 1324",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6054332
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1335",
+          "parenthetical": "holding that the district court did not err in its analysis of other, comparable licenses and settlements because it accounted for \"similarities and differences between those negotiations and the hypothetical negotiations\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/782/1324-01"
+      ]
+    },
+    {
+      "cite": "767 F.3d 1308",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4203704
+      ],
+      "weight": 2,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "1330"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/767/1308-01"
+      ]
+    },
+    {
+      "cite": "849 F.3d 1360",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12278019
+      ],
+      "weight": 3,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1369"
+        },
+        {
+          "page": "1370-71"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/849/1360-01"
+      ]
+    },
+    {
+      "cite": "486 F.2d 94",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        222876
+      ],
+      "year": 1973,
+      "pin_cites": [
+        {
+          "page": "97",
+          "parenthetical": "\"When the evidence as shown in the record, however, is insufficient to support the award, the jury's award would be erroneous and a new trial must be had.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/486/0094-01"
+      ]
+    },
+    {
+      "cite": "630 F.2d 291",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        392663
+      ],
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "293-94"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/630/0291-01"
+      ]
+    },
+    {
+      "cite": "632 F.3d 1292",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4087770
+      ],
+      "weight": 3,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "1309"
+        },
+        {
+          "page": "1318-19",
+          "parenthetical": "holding that it was improper to permit an expert to testify about the total $ 19.28 billion revenue generated by Microsoft Office and Windows-total company revenue, not customer-specific revenue-where the patented technology was not the reason customers bought Office or Windows"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/632/1292-01"
+      ]
+    },
+    {
+      "cite": "868 F.2d 786",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10530295
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "789"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/868/0786-01"
+      ]
+    },
+    {
+      "cite": "106 F.3d 683",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7651366
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "687"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/106/0683-01"
+      ]
+    },
+    {
+      "cite": "919 F.3d 266",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12520546
+      ],
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "273"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/919/0266-01"
+      ]
+    },
+    {
+      "cite": "185 F.3d 1259",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11587475
+      ],
+      "weight": 3,
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "1267"
+        },
+        {
+          "page": "1267"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/185/1259-01"
+      ]
+    },
+    {
+      "cite": "564 U.S. 91",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5933721,
+        12450135
+      ],
+      "weight": 4,
+      "year": 2011,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/564/0091-01",
+        "/l-ed-2d/180/0131-01"
+      ]
+    },
+    {
+      "cite": "598 F.3d 831",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4221786
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "841",
+          "parenthetical": "following Fifth Circuit law"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/598/0831-01"
+      ]
+    },
+    {
+      "cite": "885 F.3d 794",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516359
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "801"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/885/0794-01"
+      ]
+    },
+    {
+      "cite": "35 U.S.C. \u00a7 271",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1295",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(a)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2016 WL 6082571",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "*7, *14",
+          "parenthetical": " Claim Construction Decision "
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1637,
+    "char_count": 45192,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2593633837339551
+    },
+    "sha256": "b73a75f0939677c22759fc3cb744f9eed044c3a0c6a717af13ca348e6c1c4e4e",
+    "simhash": "1:ff667386c2029929",
+    "word_count": 7135
+  },
+  "last_updated": "2024-02-27T18:36:41.085222+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Taranto, Mayer, and Chen, Circuit Judges."
+    ],
+    "parties": [
+      "ELBIT SYSTEMS LAND AND C4I LTD., Elbit Systems of America, LLC, Plaintiffs-Appellees\nv.\nHUGHES NETWORK SYSTEMS, LLC, Defendant-Appellant"
+    ],
+    "opinions": [
+      {
+        "text": "Taranto, Circuit Judge.\nElbit Systems Land and C4I Ltd. and Elbit Systems of America, LLC (collectively, Elbit) brought this action against Hughes Network Systems, LLC (and other defendants no longer in the case). Elbit alleged that Hughes infringed Elbit's U.S. Patent Nos. 6,240,073 and 7,245,874. The jury found system claims 2-4 of the '073 patent infringed and not invalid, and it awarded damages. It also found no infringement of the '874 patent. The district court later found that the case is exceptional and that Elbit is entitled to attorney's fees, but the court has not quantified the fees. The '874 patent is not before us; nor is the validity of the asserted claims of the '073 patent. Hughes appeals the infringement finding and damages award for claims 2-4 of the '073 patent and the exceptionality determination. We affirm as to infringement and damages. We lack jurisdiction over the unquantified attorney's fees decision, so we dismiss that portion of the appeal.\nI\nA\nThe '073 patent is entitled \"Reverse Link for a Satellite Communication Network.\" The patent claims a system for transmitting information from user terminals to a central hub using satellite communication-that direction being called a \"reverse link.\" '073 patent, col. 4, lines 45-65; id. , col. 22, lines 51-59. Add \"a forward link,\" i.e. , satellite communication from the hub to user terminals, and the result is \"a complete two way communication system via satellite.\" Id. , col. 4, lines 45-50. To transmit data to the hub, user terminals employ a \"transmitter means,\" which, in turn, has two communication means: the first is for \"transmitting short bursty data,\" while the second is for \"continuous transmission of data.\" Id. , col. 23, lines 30-35. The patent also describes a \"switching means\" to switch between the two communication means. Id. , col. 23, lines 36-39.\nClaim 2 recites:\n2. A multiple access communications system for use in a satellite communication network, comprising:\na plurality of user terminals for generating data to be transmitted over said multiple access communication system;\nat least one hub for receiving data over said multiple access communication system from said plurality of user terminals;\ntransmitter means within each user terminal for receiving data to be transmitted from said user terminal to said hub, said transmitter means including first communication means for transmitting short bursty data in combination with second communication means for continuous transmission of data;\nswitching means coupled to said transmitter means for switching transmission between said first communication means and said second communication means in accordance with predefined criteria, and\nreceiver means within said at least one hub adapted to receive data transmitted by said plurality of terminals utilizing either said first communication means or said second communication means,\nwherein said switching means comprises means for switching from said first communication means to said second communication means when the length of a message received by said transmitter means exceeds a predetermined threshold.\nId. , col. 23, lines 22-48. Claim 3 describes an \"access communications system for use in a satellite communication network\" with the same limitations for transmitting, communication, and switching means as claim 2. Id. , col. 23, line 49, through col. 24, line 9. Claim 4 describes a \"multiple access communications system for use in a satellite communication network\" with the same limitations for transmitting, communication, and switching means as claim 2. Id. , col. 24, lines 10-37.\nB\nAs relevant here, on January 21, 2015, Elbit sued Hughes for infringement of the '073 patent. The limitations now at issue, \"communication means for continuous transmission of data\" and \"switching means,\" were held to be means-plus-function terms. Elbit Sys. Land & C4I Ltd. v. Hughes Network Sys., LLC , No. 2:15-CV-37-RWS-RSP, 2016 WL 6082571, at *7, *14 (E.D. Tex. Oct. 18, 2016) ( Claim Construction Decision ); J.A. 56-64 (affirming the magistrate judge's claim constructions). The \"second communication means\" was construed to require \"continuous transmission of data,\" and the corresponding structure was held to be the \"Channel Assignment Transmitter.\" Claim Construction Decision at *7. The \"switching means\" was construed to require \"switching transmission between said first communication means and said second communication means in accordance with predefined criteria,\" and the corresponding structure was held to be a modem or a driver \"performing the algorithms disclosed in the '073 Patent at 10:30-11:40 or Figure 8, and equivalents thereof.\" Id. at *14. The cited portion of the '073 patent explains the two different communication means and lists the criteria for switching from first to second means, '073 patent, col. 10, line 58, through col. 11, line 11, and for switching back to first, id. , col. 11, lines 26-36.\nOn August 7, 2017, the jury found that Hughes infringed because its products came within claims 2-4 of the '073 patent, and that those claims are not invalid. The jury found that Hughes did not infringe the '874 patent, a finding that Elbit does not appeal. The jury awarded Elbit $ 21,075,750 in damages. The district court denied Hughes's post-trial motions for judgment as a matter of law for non-infringement and for a new trial on damages. J.A. 220-34; J.A. 245-50. The district court also found that the case is exceptional and granted Elbit's motion for attorney's fees. J.A. 260-65. The district court did not quantify the award. The final judgment was entered on March 30, 2018.\nHughes timely appealed. We have jurisdiction under 28 U.S.C. \u00a7 1295(a)(1) to consider the infringement and damages decisions. Because the unquantified fee award is not a final decision, we do not have jurisdiction to review the district court's exceptionality finding.\nII\nHughes challenges the jury's finding of infringement of the '073 patent. In particular, Hughes argues that its products do not include the claimed \"continuous transmission of data\" communication means or the switching means. See 35 U.S.C. \u00a7 271(a). We review denials of motions for judgment as a matter of law de novo under the relevant regional circuit's law and ask whether the underlying jury findings were supported by substantial evidence. See Bear Ranch, L.L.C. v. HeartBrand Beef, Inc. , 885 F.3d 794, 801 (5th Cir. 2018) ; i4i Ltd. P'ship v. Microsoft Corp. , 598 F.3d 831, 841 (Fed. Cir. 2010) (following Fifth Circuit law), aff'd on other issues , 564 U.S. 91, 131 S.Ct. 2238, 180 L.Ed.2d 131 (2011). Because the jury's findings as to infringement of the communication means and the switching means were each supported by substantial evidence, we reject Hughes's challenge.\nA\nSubstantial evidence supports the jury's finding that the accused Hughes products have a continuous communication means. The accused products are Hughes's DirecWay, HN, HX, and Jupiter product lines, which provide broadband internet access via satellite communication. Hughes's accused products use two methods for transmitting data: ALOHA and Dynamic Stream. When using the ALOHA method, the satellite \"randomly transmits bursts [of data] on an available Aloha channel.\" J.A. 5678. When using the Dynamic Stream method, the terminal can send transmissions of \"variable sizes during each frame.\" Id.\nBruce Elbert, Elbit's expert, testified that the Dynamic Stream mode \"provide[s] ... continuous transmission of data,\" as is required by the patent. J.A. 1465; J.A. 2373-74. His testimony was based on both the way that the Dynamic Stream mode functions and the types of data transmitted in Dynamic Stream mode. For functionality, Mr. Elbert relied on Hughes's own product description, which shows that terminals in ALOHA transmit data in short blocks and terminals in Dynamic Stream transmit data in relatively longer transmissions. J.A. 5678. Additionally, Mr. Elbert testified that Dynamic Stream mode is used for the same types of large data files that are too big for ALOHA bursts and would be transmitted through the second communication means in the '073 patent 's system. J.A. 1465. Elaborating, he stated that \"a long burst length\" constitutes \"continuous transmission\" as claimed in Elbit's patent and short bursts consisting of \"just a few blocks of data\" do not. J.A. 2374-76. Based on Mr. Elbert's testimony and the Hughes documents, the jury could permissibly find that Hughes's products have a continuous transmission mode.\nHughes's primary response to Elbit's evidence is that Dynamic Stream mode cannot provide continuous transmission of data because the transmissions in Dynamic Stream mode have \"guard\" times during which the transmitter is turned off. Appellant Br. at 28-31. Stephen Wicker, an expert for Hughes, testified that Internet Protocol over Satellite (IPoS), the standard used by the accused Hughes products, includes a guard time. J.A. 2209-12; J.A. 5894. Hughes also points to a reference to guard times in the section of the specification of the '073 patent describing the first communication means. See '073 patent, col. 13, lines 22-23. Finally, Hughes points to testimony from Mr. Elbert discussing a specific kind of channel assignment mode that is non-continuous and has guard times \"[b]etween the bursts.\" J.A. 1535-36.\nHughes's evidence about guard times, however, does not override, as a matter of law, the substantial evidence supporting the jury's finding that the Dynamic Stream mode is properly characterized by a skilled artisan as \"continuous.\" The evidence includes the following. First, the IPoS may show guard times, but Mr. Elbert testified that Hughes's products do not insert guard times in the middle of a stream transmission. J.A. 2376. Because the jury was entitled to rely on Mr. Elbert's testimony that each transmission in the Hughes system is not interrupted by a guard time, having guard times following a transmission does not necessarily mean the transmission was not continuous. Second, as to the discussion of guard times in the specification, the failure to mention guard times in the section discussing channel assignment (a \"continuous\" mode) does not imply that no continuous mode can have guard times. That section describes a specific type of channel assignment that does not use guard times, '073 patent, col. 14, line 23, through col. 15, line 2, but the district court did not limit the second communication means to that single type of channel assignment; indeed, the court rejected Hughes's argument that the '073 patent should be limited to one, specific type of channel assignment that did not use guard times. See Claim Construction Decision at *5-7 (defining the structure for the second communication means as \"Channel Assignment Transmitter 110 in Fig. 6, and equivalents thereof\"). Finally, Mr. Elbert's textbook testimony addressed an older Hughes system and a type of channel assignment that inserted a guard time between bursts of predetermined lengths of time. J.A. 1535-36. The '073 patent and the accused Hughes products, in contrast, provide variable length bursts so the transmission will be sent before a guard time is inserted. J.A. 1464 (\"Now, here we're saying dynamic stream involves variable burst lengths ....\"); '073 patent, col. 15, lines 29-31 (\"[In channel assignment,] [a] specific frequency and a particular bandwidth are assigned and the data is transmitted for a specific period of time or until the data ends .\" (emphasis added)). None of Hughes's evidence about guard times precluded the jury from finding that the Hughes products have a continuous transmission mode.\nB\nSubstantial evidence supports the jury's finding that Hughes's products have a switching means. Hughes argues that its products do not perform the algorithm in the '073 patent that the district court identified as the structure for the switching means. Specifically, Hughes argues that its products neither (1) switch back to the first communication modes following the articulated criteria nor (2) request a specific data rate, and that they do not perform an equivalent to those steps either. The jury could reasonably find otherwise.\n1\nThere is substantial evidence that Hughes's products switch back to the first communication mode using a structure that \"performs the claimed function in substantially the same way\" as the claimed structure. Odetics, Inc. v. Storage Tech. Corp. , 185 F.3d 1259, 1267 (Fed. Cir. 1999). Hughes first argues that Mr. Elbert did not testify about the switching-back process at all. But Mr. Elbert did not limit his direct testimony to switching from first to second communication means. See J.A. 1472; J.A. 1477; J.A. 19122. And on rebuttal, Mr. Elbert specifically disagreed with Dr. Wicker's assessment that Mr. Elbert had discussed switching in one direction only (from first to second), indicating that his testimony applied to switching in either direction. J.A. 2365; J.A. 2370-71.\nFurther, expert evidence indicates that, in a relevant respect, the Hughes products use the same criteria for switching in the two directions. Message length is one of the criteria listed in the '073 patent as prompting a switch either from the first to the second communication means or from the second back to the first. '073 patent, col. 10, lines 63-67; id. , col. 11, lines 30-31. As Mr. Rich Goodin, Hughes's expert, explained, message length is central to how and when the Hughes products switch communication modes, J.A. 1574, an assessment confirmed by Mr. Elbert's testimony, see J.A. 1469-79. A terminal in the Hughes system \"tries to send th[e] data within a ALOHA burst. If the data won't fit ... [the terminal] sets the backlog so it can signal to the hub that there's more data to send.\" J.A. 1574. If the hub receives a backlog indicator, which means that the message is too long to send in an ALOHA burst, the hub assigns the terminal a channel, and the terminal transmits the remaining data that could not fit in the ALOHA burst in Dynamic Stream mode. J.A. 1473-76; J.A. 1574. In addition, Dr. Wicker had testified that it would not make sense for the terminal to be in Dynamic Stream mode when the backlog was zero. J.A. 2294-95. On the record before it, the jury could permissibly find that, when the backlog is zero, the terminal switches back to ALOHA mode in the accused products.\nHughes's second argument for why the structures are not substantially the same is that, in the accused products, the hub, not the terminal, controls at least some of the claimed switching. The parties agree that the '073 patent requires that the terminal control the switch. See J.A. 1514 (\"Q. And that decision to switch needs to be in the terminal, we all agree on that? A. I mean, technically, it does, yes. Q. Okay. So there won't be any dispute, any doubt that the decision to switch needs to be in the terminal in order to infringe these claims? A. Yeah, I think that's good.\"). But, contrary to Hughes's contention, there is substantial evidence on which the jury could find that in the Hughes system the terminal controls the switch. Specifically, Mr. Elbert, relying on information from Hughes's experts, testified that the terminal controls the backlog message, and \"the hub accepts that backlog message and what it says and acts upon it. It's obedient to that backlog message.\" J.A. 2363; see also J.A. 1477 (repeating prior testimony of an expert for Hughes that the hub \"takes at face value\" the backlog signal sent by the terminal); J.A. 2294-95 (Dr. Wicker testifying that it \"wouldn't make sense for the hub to\" switch to Dynamic Stream mode without receiving the backlog signal and he had \"seen no evidence that that actually happens\").\nHughes argues to the contrary based on a section of the IPoS manual that describes the accused switch, which indicates that the hub \"does not immediately stop allocating bandwidth to the terminal\" when its \"backlog goes to zero.\" J.A. 5252 (emphasis added). But that language, standing alone, does not preclude the jury's finding about the terminal's control; for example, the word \"immediately\" may be only about when, not whether, the switch will be made upon receiving the terminal's signal. And no other evidence to which we have been pointed establishes that the passage must mean what Hughes suggests it means. Oral Arg. at 32:19-32. Accordingly, the jury could reasonably find that in the Hughes products the terminal controls the switch.\n2\nThe jury could also reasonably find that Hughes's products perform the step of requesting a specific data rate. Part of the '073 patent specification that was identified as the structure for the switching means, Claim Construction Decision at *14, states that \"[t]he request [to switch communication means] also includes a specific requested data rate,\" '073 patent, col. 11, lines 14-15. There is substantial evidence that the Hughes products perform this portion of the algorithm as well, by having a structural equivalent. See Odetics , 185 F.3d at 1267. Among such evidence is testimony from a Hughes expert in the anticipation portion of the trial. Dr. Wicker testified that in an older Hughes system, the terminal would request a certain number of transmission slots and \"each slot allows you to transmit data at a certain rate,\" meaning that the hub could calculate the total data rate using the number of slots the terminal requested. J.A. 2249. Mr. Elbert, for his part, testified that the hub receives information about the size of the message to be transmitted, which would allow the hub to \"compute\" the data rate. J.A. 2364; see also J.A. 1478; J.A. 1514-15. The jury could permissibly find that Hughes's products request a specific data rate as required by the '073 patent.\nIII\nThe district court did not abuse its discretion in denying Hughes's motion for a new trial on damages. Under the applicable regional circuit's law, we here review the district court's decision to refuse a new trial only for an abuse of discretion. Encompass Office Sols., Inc. v. La. Health Serv. & Indem. Co. , 919 F.3d 266, 273 (5th Cir. 2019) ; Gutierrez v. Excel Corp. , 106 F.3d 683, 687 (5th Cir. 1997) ; Scott v. Monsanto Co. , 868 F.2d 786, 789 (5th Cir. 1989) ; see Uniloc USA, Inc. v. Microsoft Corp. , 632 F.3d 1292, 1309 (Fed. Cir. 2011). In determining whether a trial court has abused its discretion in these circumstances, the Fifth Circuit considers whether the damages award was supported by substantial evidence. See Lucas v. Am. Mfg. Co. , 630 F.2d 291, 293-94 (5th Cir. 1980) ; Pletz v. Christian Herald Ass'n, Inc. , 486 F.2d 94, 97 (5th Cir. 1973) (\"When the evidence as shown in the record, however, is insufficient to support the award, the jury's award would be erroneous and a new trial must be had.\").\nA\nTestimony by Elbit's damages expert Mr. Christopher Martinez provides substantial evidence to support the jury's damages award. Mr. Martinez's testimony is the only expert testimony on damages in the trial record. Hughes chose not to introduce any expert testimony of its own on the subject.\nWe have previously explained that prior settlements can be relevant to determining damages. Prism Techs. LLC v. Sprint Spectrum L.P. , 849 F.3d 1360, 1369 (Fed. Cir. 2017). Not every settlement will be relevant, and some, while probative, will introduce a danger of unfair prejudice that substantially outweighs the probative value. Id. Thus, whether in using a settlement agreement at all or in drawing the appropriate lessons from the particular settlement for the case in which it is being used, relevant circumstances-such as similarities and differences in technologies and market conditions and the state of the earlier litigation when settled-must be carefully considered. Id. at 1370-71. Use of actual past licenses and negotiations to inform the hypothetical negotiation does not \"require[ ] identity of circumstances.\" Virnetx, Inc. v. Cisco Sys., Inc. , 767 F.3d 1308, 1330 (Fed. Cir. 2014). Instead, the prior licenses or settlements need to be \"sufficiently comparable\" for evidentiary purposes and any differences in circumstances must be soundly accounted for.\nId. ; see AstraZeneca AB v. Apotex Corp. , 782 F.3d 1324, 1335 (Fed. Cir. 2015) (holding that the district court did not err in its analysis of other, comparable licenses and settlements because it accounted for \"similarities and differences between those negotiations and the hypothetical negotiations\"); see also Summit 6, LLC v. Samsung Elecs. Co. , 802 F.3d 1283, 1299 (Fed. Cir. 2015) (determining that it was appropriate to use a prior license to gauge damages because it involved comparable technology and similarly situated companies); Transocean Offshore Deepwater Drilling, Inc. v. Maersk Drilling USA, Inc. , 699 F.3d 1340, 1357-58 (Fed. Cir. 2012) (relying on other licenses and acknowledging the differences between Maersk's conduct and the conduct of other licensees); Maxwell v. J. Baker, Inc. , 86 F.3d 1098, 1110 (Fed. Cir. 1996) (relying on licenses between Maxwell and other licensees to establish the reasonableness of the royalty rate).\nMr. Martinez relied on a prior settlement and appropriately accounted for differences between the circumstances of that settlement and the present circumstances. The relied-on settlement was one between Hughes itself and Gilat, another satellite internet company. The Gilat Agreement was the result of a suit that Hughes, as patent owner, filed against Gilat for allegedly infringing Hughes's older satellite communication system, which used satellite communication for only one direction (hub to terminals) of the transmission. Mr. Martinez testified to how what Hughes received in that settlement provided relevant evidence for determining what Hughes reasonably should pay as a royalty for use of Elbit's technology at issue here.\nRelevant facts considered by Mr. Martinez include the following. The Gilat Agreement occurred only four months after the agreed-on date of the hypothetical negotiation posited for determining the reasonable royalty in this matter. Compare J.A. 1716 with J.A. 202. The time periods for assessing value in the satellite-service marketplace were therefore very close. The technologies were also related for purposes of determining market value. See J.A. 1485 (Mr. Elbert's testimony that the '073 patent 's technology was \"the closest\" comparator to the Gilat Agreement). The Gilat Agreement involved obtaining internet access using one-way satellite communication, and the '073 patent involves obtaining internet access using two-way satellite communication. All three companies, Gilat, Hughes, and Shiron (Elbit's predecessor) participated in the satellite internet-access market. While Hughes and Gilat were established competitors and Shiron was a start-up, Shiron had the \"breakthrough technology,\" J.A. 1720, that represented \"the next generation\" of internet access, J.A. 1717, while the Gilat Agreement concerned \"the old one-way product,\" J.A. 1717-18.\nMr. Martinez attended to all of those facts. Mr. Martinez also accounted for the fact that the Gilat Agreement was a settlement prompted by litigation. See J.A. 1749-52. In the end, he relied on the per-unit figure in the Gilat Agreement for one-way technology, together with Hughes-based evidence that two-way technology was worth at least an additional 20%, to arrive at his proposed per-unit figure-which the jury adopted. J.A. 17708.\nWe conclude that Elbit and Mr. Martinez did what our case law requires in explaining the relevance of a prior settlement to this case. Hughes, which introduced no expert damages testimony of its own, has not demonstrated either \"faulty assumptions\" or \"a lack of reliable economic testimony\" that would warrant disturbing the jury's award.\nFinjan, Inc. v. Secure Computing Corp. , 626 F.3d 1197, 1212 (Fed. Cir. 2010). This is a case in which it was up to the jury to \"weigh contradictory evidence, to judge the credibility of the witnesses, and to resolve factual disputes.\" Id.\nB\nHughes argues that Elbit's damages evidence, and hence the jury award, is counter to our precedent on apportionment. \"When the accused technology does not make up the whole of the accused product, apportionment is required. '[T]he ultimate combination of royalty base and royalty rate must reflect the value attributable to the infringing features of the product, and no more.' \" Finjan, Inc. v. Blue Coat Sys., Inc. , 879 F.3d 1299, 1309 (Fed. Cir. 2018) (quoting Ericsson, Inc. v. D-Link Sys., Inc. , 773 F.3d 1201, 1226 (Fed. Cir. 2014) ); see also Garretson v. Clark , 111 U.S. 120, 121, 4 S.Ct. 291, 28 L.Ed. 371 (1884) ; Commonwealth Sci. & Indus. Research Org. v. Cisco Sys., Inc. , 809 F.3d 1295, 1301 (Fed. Cir. 2015) ( CSIRO ). We see no violation of those principles here.\nMr. Martinez testified that apportionment \"is essentially embedded in [the] comparable value\" from the Gilat Agreement concerning a comparable component of a larger product or service. J.A. 1730; see also J.A. 17576 (\"[T]he requisite apportionment is implicitly considered within the royalty rate [of the Gilat Agreement].\"). Rather than \"parse out a value for each of the claims,\" Mr. Martinez \"came up with a market, comparable royalty rate, and then [he] adjusted it as necessary\" for the hypothetical negotiation. J.A. 17699; J.A. 1731. As we have noted, to reach his final figure, he increased the royalty by 20% from the Gilat Agreement, Hughes executives having made statements indicating that the two-way system provided a 20% increase in value over the old one-way system. J.A. 17708.\nMr. Martinez's approach is consistent with our precedent concerning the apportionment requirement that a royalty should reflect the value of patented technology. See CSIRO , 809 F.3d at 1302-03. In CSIRO , the district court started with evidence of proposed royalty rates from the parties' prior attempts at negotiating a license for the patent. Id. at 1300, 1302-03. We determined that the district court's analysis was not in error because it \"already built in apportionment\" by starting from \"discussions centered on a license rate\" for the same patent, those discussions having already informally apportioned the proposed license rates to the value of the patented technology. Id. at 1303. Hughes has not shown the unreasonableness of that analysis of how a negotiation can fulfill the apportionment requirement. And this case is relevantly similar. Mr. Martinez's testimony allowed the jury to find that the components at issue, for purposes of apportionment to the value of a larger product or service, were comparable to the components at issue in the Gilat-Hughes agreement, and Hughes introduced no evidence that precluded such a finding. Gilat and Hughes would have had to consider the benefit from the patented technology over other technology and account for that in the Gilat Agreement. As a result, when Mr. Martinez used the Gilat Agreement as his starting point, his analysis could reasonably be found to incorporate the required apportionment.\nC\nHughes's final damages-related challenge to the district court denial of a new trial points to certain evidence that Elbit introduced. This challenge relies on this court's recognition of an evidentiary principle aimed at avoiding dangers of certain testimony. Thus, we have held that a party's reference to an infringer's entire revenue earned from its sale of accused products, where only part of the value of the apparatus is attributable to the patented technology, can \"skew the damages horizon for the jury.\" Uniloc , 632 F.3d at 1320 ; id. at 1318-19 (holding that it was improper to permit an expert to testify about the total $ 19.28 billion revenue generated by Microsoft Office and Windows-total company revenue, not customer-specific revenue-where the patented technology was not the reason customers bought Office or Windows). Relatedly, we have recognized that, when an expert calculates a running royalty by using the price of such a product as a royalty base to be multiplied by a percentage rate, the size of the base must be suitably limited to avoid a prejudicial effect on a jury determination. See Ericsson , 773 F.3d at 1226-27 ; LaserDynamics, Inc. v. Quanta Comput., Inc. , 694 F.3d 51, 67 (Fed. Cir. 2012). Hughes challenges the introduction of certain Elbit testimony based on that principle, but we see no reversible error in the district court's denial of a new trial on this basis in this case. J.A. 249.\nAt three points in his testimony, Mr. Martinez referred to the revenue Hughes receives from service fees for an average customer over the course of that customer's time buying the relevant service from Hughes. First, in explaining how he arrived at his reasonable royalty rate, he stated, based on his expert report, that he \"determined that Hughes earns approximately $ 2500 of revenue per customer,\" on average, from its DirecWay, HN, HX, and HT products. J.A. 1732. Second, the $ 2500 number was referenced in his conclusion that $ 18 was a reasonable royalty because \"[$ ]18 is a smaller portion of the $ 2500.\" J.A. 1733. According to Mr. Martinez, it was \"reasonable\" for \"Hughes to pay $ 18 in order to get approximately $ 2500 worth of revenue.\" Id. Finally, in summarizing his analysis, he reiterated that a royalty rate of $ 18 was \"very reasonable given the $ 2500 of revenue that Hughes derives from the products.\" J.A. 1739. Hughes does not identify, and the transcript at those passages does not reveal, an objection by Hughes to that testimony.\nMr. Martinez's reference to life-of-service customer-specific (service) revenue from relevant products does not fall into a pattern we have specifically disapproved. The $ 2500 customer-specific reference is not the same as Uniloc's reference to Microsoft's $ 19 billion in company-wide revenue. Nor did Mr. Martinez use a high price of a multi-component overall product or service as a base, multiplied by a percentage, in a rate-base running-royalty calculation. Rather, he calculated a flat per-unit dollar figure based on a license examined for comparability and checked the reasonableness of the resulting figure, as part of a hypothetical-negotiation analysis, against a life-of-relationship service-revenue figure for an average customer. This analysis may be more akin to the reliance on licenses that was the subject of Ericsson , where we upheld a license-based calculation that relied on product value, concluding that, under the evidentiary principle grounded in a prejudice-probativeness balance, such a methodology is not automatically reversible error. Ericsson , 773 F.3d at 1228.\nWe do not decide here how the evidentiary principle at issue would apply to testimony of the sort Mr. Martinez gave if the testimony stood alone and an objection were made in a timely fashion with an adequate explanation of why Mr. Martinez's particular analysis created the kind of prejudice that substantially outweighs probative value of the type targeted by the evidentiary principle at issue. But the pretrial motion to which Hughes points as raising the present issue did not identify a reference of the sort Mr. Martinez made and seek and support its exclusion. Then, at trial, as far as we have been shown, there was no objection by Hughes and no judicial ruling that opened the door to what Hughes itself did-namely, affirmatively use Uniloc -type evidence. Specifically, Hughes itself referred to a figure representing company-wide revenue, see J.A. 10183, despite the pretrial agreement about exclusion of \"total revenues,\" J.A. 119; J.A. 156, and in closing argument, Hughes called the jury's attention to the exhibit disclosing that figure, J.A. 2566. In these circumstances, whether as a matter of forfeiture or as a matter of insufficiency of a showing of prejudice from the Elbit testimony under the principle invoked by Hughes, we see no reversible error in the district court's refusal to grant a new trial.\nWe therefore do not disturb the jury's damages award.\nIV\nHughes asks us to review and reverse the district court's determination that, under 35 U.S.C. \u00a7 285, this is an exceptional case entitling Elbit to some attorney's fees-whose amount has not been quantified. We conclude that we lack jurisdiction to review the unquantified attorney fees award. We therefore dismiss Hughes's appeal to the extent it seeks review of the district court's exceptionality finding.\nA\nWe begin with 28 U.S.C. \u00a7 1295, which requires a final decision in the case being appealed and is interpreted in accordance with the interpretation of 28 U.S.C. \u00a7 1291. See Johannsen v. Pay Less Drug Stores Nw. Inc. , 918 F.2d 160, 161 n.1 (Fed. Cir. 1990). We see no basis for \u00a7 1295 jurisdiction to review an exceptionality determination made under 35 U.S.C. \u00a7 285 before fees have been quantified.\nIn Budinich v. Becton Dickinson & Co. , the Supreme Court insisted on cleanly separating, for finality purposes, the decision on the merits of a case from the decision on attorney's fees. 486 U.S. 196, 108 S.Ct. 1717, 100 L.Ed.2d 178 (1988). The Court held that \"a decision on the merits is a 'final decision' for purposes of \u00a7 1291 whether or not there remains for adjudication a request for attorney's fees attributable to the case.\" Id. at 202-03, 108 S.Ct. 1717. Once the fees determination is viewed separately from the merits, as Budinich requires, it follows that a determination of entitlement to fees is not a reviewable final decision until quantification of the fee award. See Falana v. Kent State Univ. , 669 F.3d 1349, 1360 (Fed. Cir. 2012) (\"[T]he district court's exceptional case determination is a separately appealable judgment which itself must be final. ... The district court's decision finding the case exceptional and awarding attorney fees that remain as of yet unquantified is not final and thus, not appealable. ... A non-final decision does not become final simply because it is issued in the same order as a final decision.\"); Special Devices, Inc. v. OEA, Inc., 269 F.3d 1340, 1345 (Fed. Cir. 2001) (\"A decision to award attorney fees under 35 U.S.C. \u00a7 285 is not final and appealable before the award has been quantified.\").\nSeveral aspects of Budinich 's reasoning reinforce this conclusion. First, the Court in Budinich reasoned that, for questions of jurisdiction, \"[c]ourts and litigants are best served by [a] bright-line rule\" of merits-fees separation. Budinich , 486 U.S. at 202, 108 S.Ct. 1717. Section 1295 should be no different. Second, the Court in Budinich explained that one reason for a clean merits-fees finality separation is that proceedings on attorney's fees do not realistically involve an \"opportunity for reconsideration\" of the merits. Id. at 202, 108 S.Ct. 1717 ; see id. at 200, 108 S.Ct. 1717. The logic of that observation supports keeping quantification and entitlement together for finality purposes on the fees side of the merits-fees divide: the quantification process might well present an opportunity for reconsideration of the entitlement determination. We held in In re Rembrandt Technologies LP Patent Litigation that a district court must find a \"causal connection\" between the basis for an exceptionality determination and the amount of fees awarded. 899 F.3d 1254, 1280 (Fed. Cir. 2018). The required scrutiny of what consequences followed from the conduct under the exceptionality determination might lead to reconsideration of whether the case was exceptional in the first place, at least where, as here, the exceptionality determination rests on isolated incidents, not overall exceptional weakness on the merits of the entire case or defense. And as a still more practical matter, the causation inquiry may result in so small a fee award that no appeal is taken from the award, making appellate review of exceptionality unnecessary.\nB\nWe also see no sound basis in 28 U.S.C. \u00a7 1292(c)(2) for jurisdiction to review entitlement to fees before quantification. That provision permits an appeal from \"a judgment in a civil action for patent infringement which would otherwise be appealable to [this court] and is final except for an accounting.\" This court has held that the \"accounting\" provision applies where the only remaining issues are issues of actual and enhanced damages under 28 U.S.C. \u00a7 284. See Robert Bosch, LLC v. Pylon Mfg. Corp. , 719 F.3d 1305, 1311-13 (Fed. Cir. 2013) (en banc). But \u00a7 1292(c)(2) does not authorize review of fees rulings.\nSection 1292(c)(2) adds to appellate jurisdiction in only one way: it authorizes appellate review of a judgment that would be final, i.e. , reviewable under \u00a7 1295, except that certain \"accounting\" issues are undecided. But Section 1292(c)(2) does not add jurisdiction to review rulings that would not be part of the final judgment if the \"accounting\" issues were resolved. As already explained, under Budinich , unquantified fees are not part of what is reviewable under \u00a7 1295 and so they are not part of what \u00a7 1292(c)(2) makes appealable.\nTo make the point another way, all that \u00a7 1292(c)(2) does is allow review of a subset of merits rulings. Fees rulings, Budinich makes clear, are not to be treated as merits issues. Indeed, fees arise under a provision, 35 U.S.C. \u00a7 285, that is separate from the provisions authorizing merits relief, including damages relief, 35 U.S.C. \u00a7\u00a7 283 (injunctions), 284 (damages). Statutory history confirms that fees are not part of an \"accounting\": the statutory authorization for an \"accounting\" long predates 1946, see Robert Bosch , 719 F.3d at 1309-13, yet until Congress provided for fees in 1946, fees were unavailable in patent cases, Octane Fitness v. ICON Health & Fitness , 572 U.S. 545, 549, 134 S.Ct. 1749, 188 L.Ed.2d 816 (2014). We have therefore recognized that the \"[d]etermination of attorney fees is not an 'accounting.' \" Special Devices , 269 F.3d at 1343 n.2. We hold that \u00a7 1292(c)(2) does not authorize appellate review of a pre-quantification fees-entitlement ruling.\nIn nevertheless arguing for jurisdiction, Hughes disputes none of the foregoing, but relies entirely on what this court said in Majorette Toys (U.S.) Inc. v. Darda, Inc. U.S.A , 798 F.2d 1390 (Fed. Cir. 1986). There, all merits issues in the case had been decided by the district court, which also found fees to be warranted, and nothing remained but to quantify the fees. When the loser appealed from the judgment, the court denied a motion to dismiss the appeal, without differentiating the merits from the fee-entitlement ruling. In denying the motion, the court relied only on \u00a7 1292(c)(2). 798 F.2d at 1390-92. We conclude, however, that Majorette Toys cannot sustain \u00a7 1292(c)(2) jurisdiction over the fee-entitlement ruling where it is otherwise clear that no such jurisdiction exists.\nFirst, Majorette Toys contains no decision on, or even any discussion of, dismissing only the challenge to the fee-entitlement ruling, which is the jurisdictional issue before us. The only jurisdictional issue decided in Majorette Toys was whether the entire appeal, which included the merits, had to be dismissed. Thus, Majorette Toys does not address the specific jurisdictional issue we face, and so it is not controlling precedent on that issue. See Arthrex, Inc. v. Smith & Nephew, Inc. , 880 F.3d 1345, 1349 (Fed. Cir. 2018) ; Fla. Power & Light Co. v. United States , 307 F.3d 1364, 1371 (Fed. Cir. 2002).\nSecond, Majorette Toys predates Budinich . We have already recognized that Budinich and other supervening Supreme Court precedent undermined the rationale of Majorette Toys . See Falana , 669 F.3d at 1360-61 (so explaining with reference to Budinich and to the Supreme Court's post- Majorette Toys narrowing of pendent appellate jurisdiction). Indeed, we recognized soon after Budinich was decided that the court's discussion of \u00a7 1292(c)(2) in Majorette Toys \"was not necessary to its holding on jurisdiction\" because Budinich made clear that jurisdiction over the appeal in Majorette Toys had clearly been proper under \u00a7 1295. Johannsen , 918 F.2d at 164. Such supervening Supreme Court authority is an established basis for treating an earlier panel opinion as no longer binding. See Tex. Am. Oil Corp. v. U.S. Dep't of Energy , 44 F.3d 1557, 1561 (Fed. Cir. 1995) (en banc) (\"This court applies the rule that earlier decisions prevail unless overruled by the court en banc , or by other controlling authority such as intervening statutory change or Supreme Court decision.\"); Troy v. Samson Mfg. Corp. , 758 F.3d 1322, 1326 (Fed. Cir. 2014) ; Doe v. United States , 372 F.3d 1347, 1354-57 (Fed. Cir. 2004) ; Bankers Tr. N.Y. Corp. v. United States , 225 F.3d 1368, 1373 (Fed. Cir. 2000).\nFor those reasons, we reject Hughes's argument for finding \u00a7 1292(c)(2) jurisdiction over the fee-entitlement ruling.\nC\nFinally, we see no sound basis for exercising pendent appellate jurisdiction over the fees-entitlement determination. In Swint v. Chambers County Commission , the Supreme Court expressed a narrow view of such jurisdiction, limiting it at most to issues that are \"inextricably intertwined\" with the final decision properly before the court of appeals.\n514 U.S. 35, 50-51, 115 S.Ct. 1203, 131 L.Ed.2d 60 (1995). We have so recognized in the context of unquantified fees awards. Falana , 669 F.3d at 1360-61 (recognizing that Swint \"threw cold water on pendent appellate jurisdiction,\" limiting it to \"extraordinary circumstances ... when a nonappealable decision is 'inextricably intertwined' with the appealable decision\").\nThat demanding standard is not met here. Whether this case is exceptional because of Hughes's litigation conduct (as the district court determined) is not inextricably intertwined with the infringement and damages issues presented on appeal of the merits judgment. See id. at 1361 (similar conclusion on different facts). In Orenshteyn v. Citrix Systems, Inc. , we held that we did not have pendent jurisdiction over an unquantified Rule 11 sanction because \"the finding of invalidity and the sanctions in [ Orenshteyn ] ha[d] different legal bases requiring different legal analyses,\" meaning that \"the unquantified sanction [were not] 'inextricably intertwined' with or necessary to review the final decision on the merits.\" 691 F.3d 1356, 1360 (Fed. Cir. 2012) (quoting Swint , 514 U.S. at 51, 115 S.Ct. 1203 ). The same is true here.\nV\nFor the foregoing reasons, we reject Hughes's challenges to infringement and damages and affirm the district court's decision. We dismiss Hughes's appeal to the extent that it seeks review of the determination that attorney's fees are warranted.\nCosts awarded to Elbit.\nAFFIRMED IN PART, DISMISSED IN PART\nBefore trial, Hughes moved to preclude reference to Hughes's \"total revenues, net worth, or prices,\" also mentioning \"profitability,\" and it cited only one authority, namely, Uniloc , and only for company-wide figures-revenue, profitability, or net worth. J.A. 18082-83. The parties agreed not to refer to total company revenues and net worth, J.A. 119, 156, and Elbit did not do so. As to \"prices,\" Hughes's pretrial motion merely mentioned the word; it made no argument at all, and cited no authority, to support its request for exclusion, and the district court denied the request. J.A. 119, 156. Hughes's pretrial motion did not even mention exclusion of any reference to life-of-relationship revenue from an average customer (whether as a reasonableness check on a separately derived royalty amount or otherwise), much less explain the proper legal treatment of such a reference.\nIn support of jurisdiction, Hughes includes a passing citation to Akron Polymer Container Corp. v. Exxel Container, Inc. , in which this court reversed an inequitable-conduct judgment and, as a simple corollary, simultaneously reversed an exceptional-case determination (with fees not yet quantified) that rested entirely on the inequitable-conduct judgment. 148 F.3d 1380, 1384 (Fed. Cir. 1998). The latter reversal is not precedent for jurisdiction here for at least two reasons. The court did not address whether it had jurisdiction over the fees determination. See Automated Merch. Sys., Inc v. Lee , 782 F.3d 1376, 1381 (Fed. Cir. 2015) (assumption of jurisdiction without discussion is not accorded precedential effect). In any event, in Akron Polymer the merits and fee-entitlement rulings were inextricably intertwined: the latter rested wholly on the former.",
+        "type": "majority",
+        "author": "Taranto, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Richard L. Rainey, Covington & Burling LLP, Washington, DC, argued for plaintiffs-appellees. Also represented by Kevin F. King, Ranganath Sudarshan ; Kurt Calia, Palo Alto, CA; Patrick Norton Flynn, Redwood Shores, CA.",
+      "William F. Lee, Wilmer Cutler Pickering Hale and Dorr LLP, Boston, MA, argued for defendant-appellant. Also represented by Lauren B. Fletcher, Kevin Goldman ; Claire Hyungyo Chung, Washington, DC."
+    ],
+    "corrections": "",
+    "head_matter": "ELBIT SYSTEMS LAND AND C4I LTD., Elbit Systems of America, LLC, Plaintiffs-Appellees\nv.\nHUGHES NETWORK SYSTEMS, LLC, Defendant-Appellant\n2018-1910\nUnited States Court of Appeals, Federal Circuit.\nDecided: June 25, 2019\nRichard L. Rainey, Covington & Burling LLP, Washington, DC, argued for plaintiffs-appellees. Also represented by Kevin F. King, Ranganath Sudarshan ; Kurt Calia, Palo Alto, CA; Patrick Norton Flynn, Redwood Shores, CA.\nWilliam F. Lee, Wilmer Cutler Pickering Hale and Dorr LLP, Boston, MA, argued for defendant-appellant. Also represented by Lauren B. Fletcher, Kevin Goldman ; Claire Hyungyo Chung, Washington, DC.\nBefore Taranto, Mayer, and Chen, Circuit Judges."
+  },
+  "file_name": "1292-01",
+  "first_page_order": 1292,
+  "last_page_order": 1306
+}

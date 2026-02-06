@@ -1,0 +1,679 @@
+{
+  "id": 8716328,
+  "name": "J. E. Mundy et al v. Pirie-Slaughter Motor Company",
+  "name_abbreviation": "Mundy v. Pirie-Slaughter Motor Co.",
+  "decision_date": "1948-01-07",
+  "docket_number": "No. A-1344",
+  "first_page": "314",
+  "last_page": "322",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "146 Tex. 314"
+    },
+    {
+      "type": "parallel",
+      "cite": "206 S.W.2d 587"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "218 S. W. 368",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "110 Texas 225",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2286419
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/110/0225-01"
+      ]
+    },
+    {
+      "cite": "184 S. W. (2d) 830",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2338537,
+        10219882
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/143/0335-01",
+        "/sw2d/184/0830-01"
+      ]
+    },
+    {
+      "cite": "143 Texas 335",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2338537
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/143/0335-01"
+      ]
+    },
+    {
+      "cite": "44 S. W. (2d) 952",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10278933
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/44/0952-01"
+      ]
+    },
+    {
+      "cite": "269 S. W. 422",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10304589
+      ],
+      "pin_cites": [
+        {
+          "page": "428"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/269/0422-01"
+      ]
+    },
+    {
+      "cite": "86 A. L. R. 232",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "51 S. W. (2d) 277",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2305674,
+        10234299
+      ],
+      "pin_cites": [
+        {
+          "page": "280"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/121/0587-01",
+        "/sw2d/51/0277-01"
+      ]
+    },
+    {
+      "cite": "121 Texas 587",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2305674
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/121/0587-01"
+      ]
+    },
+    {
+      "cite": "109 Colo. 1",
+      "category": "reporters:state",
+      "reporter": "Colo.",
+      "case_ids": [
+        2718754
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/colo/109/0001-01"
+      ]
+    },
+    {
+      "cite": "157 N. W. 962",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "99 Neb. 794",
+      "category": "reporters:state",
+      "reporter": "Neb.",
+      "case_ids": [
+        4466551
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/neb/99/0794-01"
+      ]
+    },
+    {
+      "cite": "40 S. E. (2d) 345",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "226 N. C. 692",
+      "category": "reporters:state",
+      "reporter": "N.C.",
+      "case_ids": [
+        8624633
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nc/226/0692-01"
+      ]
+    },
+    {
+      "cite": "90 S. E. 134",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "172 N. C. 203",
+      "category": "reporters:state",
+      "reporter": "N.C.",
+      "case_ids": [
+        11253096
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nc/172/0203-01"
+      ]
+    },
+    {
+      "cite": "128 S. C. 358",
+      "category": "reporters:state",
+      "reporter": "S.C.",
+      "case_ids": [
+        1981991
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sc/128/0358-01"
+      ]
+    },
+    {
+      "cite": "23 N. W. (2d) 196",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "315 Mich. 38",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1890311
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/315/0038-01"
+      ]
+    },
+    {
+      "cite": "269 N. W. 716",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "223 Wis. 25",
+      "category": "reporters:state",
+      "reporter": "Wis.",
+      "case_ids": [
+        8684208
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/wis/223/0025-01"
+      ]
+    },
+    {
+      "cite": "173 Pac. 595",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "36 Cal. App. 803",
+      "category": "reporters:state",
+      "reporter": "Cal. App.",
+      "case_ids": [
+        4451756
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app/36/0803-01"
+      ]
+    },
+    {
+      "cite": "169 Pac. (2d) 996",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "74 Cal. App. (2d) 903",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        4625510
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/74/0903-01"
+      ]
+    },
+    {
+      "cite": "2 Pac. (2d) 580",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "116 Cal. App. 348",
+      "category": "reporters:state",
+      "reporter": "Cal. App.",
+      "case_ids": [
+        2192539
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app/116/0348-01"
+      ]
+    },
+    {
+      "cite": "38 Atl. (2d) 521",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "155 Pa. Super. 507",
+      "category": "reporters:state",
+      "reporter": "Pa. Super.",
+      "case_ids": [
+        1056962
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/pa-super/155/0507-01"
+      ]
+    },
+    {
+      "cite": "181 N. Y. S. 275",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "111 Misc. 292",
+      "category": "reporters:state",
+      "reporter": "Misc.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "30 N. E. (2d) 684",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "307 Mass. 535",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        902978
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/307/0535-01"
+      ]
+    },
+    {
+      "cite": "73 A. L. R. 156",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "174 N. E. 463",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "274 Mass. 47",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        3827339
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/274/0047-01"
+      ]
+    },
+    {
+      "cite": "164 N. E. 374",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "265 Mass. 408",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        3825328
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/265/0408-01"
+      ]
+    },
+    {
+      "cite": "195 N. E. 81",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "208 Ind. 450",
+      "category": "reporters:state",
+      "reporter": "Ind.",
+      "case_ids": [
+        1531784
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ind/208/0450-01"
+      ]
+    },
+    {
+      "cite": "183 Atl. 185",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "116 N. J. L. 240",
+      "category": "reporters:state",
+      "reporter": "N.J.L.",
+      "case_ids": [
+        99268
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/njl/116/0240-01"
+      ]
+    },
+    {
+      "cite": "31 Atl. (2d) 844",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "130 N. J. L. 162",
+      "category": "reporters:state",
+      "reporter": "N.J.L.",
+      "case_ids": [
+        133255
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/njl/130/0162-01"
+      ]
+    },
+    {
+      "cite": "122 Atl. 693",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "99 N. J. L. 186",
+      "category": "reporters:state",
+      "reporter": "N.J.L.",
+      "case_ids": [
+        204951
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/njl/99/0186-01"
+      ]
+    },
+    {
+      "cite": "151 Atl. 754",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "107 N. J. L. 305",
+      "category": "reporters:state",
+      "reporter": "N.J.L.",
+      "case_ids": [
+        178151
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/njl/107/0305-01"
+      ]
+    },
+    {
+      "cite": "160 Atl. 81",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "10 N. J. Misc. 601",
+      "category": "reporters:state",
+      "reporter": "N.J. Misc.",
+      "case_ids": [
+        739394
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nj-misc/10/0601-01"
+      ]
+    },
+    {
+      "cite": "37 Ariz. 488",
+      "category": "reporters:state",
+      "reporter": "Ariz.",
+      "case_ids": [
+        2425344
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "977"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ariz/37/0488-01"
+      ]
+    },
+    {
+      "cite": "168 A. L. R. 1364",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "100 A. L. R. 920",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "68 A. L. R. 1008",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "36 A. L. R. 1137",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "186 S. W. (2d) 233",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2338536,
+        10200790
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/143/0412-01",
+        "/sw2d/186/0233-01"
+      ]
+    },
+    {
+      "cite": "143 Texas 412",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2338536
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/143/0412-01"
+      ]
+    },
+    {
+      "cite": "148 S. W. (2d) 454",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10224989
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/148/0454-01"
+      ]
+    },
+    {
+      "cite": "168 S. W. 35",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8269964
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/168/0035-01"
+      ]
+    },
+    {
+      "cite": "122 S. W. (2d) 1063",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10254032,
+        2322449
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/122/1063-01",
+        "/tex/132/0336-01"
+      ]
+    },
+    {
+      "cite": "132 Texas 336",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2322449
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/132/0336-01"
+      ]
+    },
+    {
+      "cite": "202 S. W. (2d) 331",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10192149
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/202/0331-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 807,
+    "char_count": 15574,
+    "ocr_confidence": 0.574,
+    "pagerank": {
+      "raw": 1.8008029782905208e-06,
+      "percentile": 0.9940081448764001
+    },
+    "sha256": "80bacb824e21ff0129c50dad37c523ca7c4a7b3dfe65ad5fe3b5acda4aeaf24e",
+    "simhash": "1:2735c587e7b73f1f",
+    "word_count": 2694
+  },
+  "last_updated": "2024-02-27T22:18:41.353680+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "J. E. Mundy et al v. Pirie-Slaughter Motor Company."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Hart\ndelivered the opinion of the Court.\nThe plaintiff, J. E. Mundy, sued the defendant, Pirie-Slaughter Motor Company, for damages resulting to him when a tractor mower which he was operating in the ditch adjoining the Fort \u25a0 Worth-Dallas Highway was struck by an automobile belonging to the defendant. The State of Texas intervened in the suit, claiming rights by subrogation because of workmen\u2019s compensation payments made to Mundy as an employee of the State Highway Department. Mundy alleged in his petition that the defendant\u2019s automobile was being driven at the time of the collision by James Oscar Dickson (also called Dixon), a minor employee of defendant, that Dickson was guilty of negeligence in numerous particulars, and that such negligence was the proximate cause of the collision. Mundy further alleged that Dickson was acting in the scope of his employment at the time of the injury, but there was no evidence to sustain this contention and it is not urged here. The basis upon which it is claimed here that the defendant is liable is that the defendant\u2019s agents permitted Dickson to take and drive the automobile when they knew, or by the exercise of ordinary care and prudence should have known, that Dickson was an incompetent and reckless driver. In connection with this contention, Mundy alleged that the defendant \u201cknew, or by the exercise of ordinary care and prudence could have and should have known, that said boy did not have a driver\u2019s license.\u201d\nThe defendant filed a special exception to this allegation upon the ground that it was \u201cimmaterial and irrelevant in that if taken as true, the having or not having the driver\u2019s license was not and could not have been a proximate cause of the accident of which the plaintiff complains. * * This exception was sustained by the District Court. Evidence offered by Mundy to show that Dickson did not have a driver\u2019s license and that respondent had knowledge or notice of this fact was excluded by the court upon defendant\u2019s objection. At the close of the evidence the District Court submitted the case to the jury upon special issues, but after the jury was unable to agree upon answers to some of the issues, the court withdrew the case from the jury and entered judgment for the defendant. This judgment was affirmed by the Court of Civil Appeals. 202 S. W. (2d) 331.\nThe controlling question presented by this appeal is whether the District Court correctly held that the plaintiff could neither plead nor offer evidence to show that Dickson, defendant\u2019s minor employee, had no driver\u2019s license, and that defendant permitted him to drive the automobile with actual knowledge, or under circumstances that would be reasonable notice, that he did not have such license. This is a question which has not been decided previously by this Court.\nWe have held that the owner who entrusts his automobile to a person known to him to be an incompetent or reckless driver is guilty of negligence. Seinsheimer v. Burkhart, 132 Texas 336, 122 S. W. (2d) 1063; Allen v. Bland, 168 S. W. 35 (writ of error refused) ; Mayer v. Johnson, 148 S. W. (2d) 454 (writ of error dismissed, judgment correct). If such incompetent or reckless driver, through his negligent operation of the automobile causes damage to a third person, the owner of the automobile is liable; the negligence of the driver does not break the chain, of causation. Russell Construction Co. v. Ponder, 143 Texas 412, 186 S. W. (2d) 233. Our decision's in this respect seem to be in accord with the unanimous holdings in other jurisdictions. See annotations in 36 A. L. R. 1137; 68 A. L. R. 1008; 100 A. L. R. 920; 168 A. L. R. 1364.\nWith respect to the effect, if any, to be given to the fact that the owner of' the automobile knows that the driver does not have a driver\u2019s; license when he entrusts his car to such driver, the courts of other jurisdictions have reached a variety of conclusions. In some jurisdictions it has been held that the fact that the driver has no license is immaterial, because the only question is whether the driver is in fact incompetent or reckless and \u201cthe lack of such license would be no evidence whatever that he was not a capable, skilled and safe driver\u201d. See Lutfy v. Lockhart, 37 Ariz. 488, 295 Pac. 975, 977; compare Pugliese v. McCarty, 10 N. J. Misc. 601, 160 Atl. 81; Patterson v. Surpless, 107 N. J. L. 305, 151 Atl. 754; Muller v. West Jersey & S. R. Co., 99 N. J. L. 186, 122 Atl. 693; Hala v. Worthington, 130 N. J. L. 162, 31 Atl. (2d) 844; Renner v. Martin, 116 N. J. L. 240, 183 Atl. 185; Opple v. Ray, 208 Ind. 450, 195 N. E. 81. Other cases have held that knowledge that the driver does not have a license is not in itself sufficient to show negligence on the part of the owner, but that it is some evidence or prima facie proof of negligence. Gordon v. Bedard, 265 Mass. 408, 164 N. E. 374; Kenyon v. Hathaway, 274 Mass. 47, 174 N. E. 463, 73 A. L. R. 156; Le Blanc v. Pierce Motor Co., 307 Mass. 535, 30 N. E. (2d) 684; Austin v. Rochester Folding Box Co., 111 Misc. 292, 181 N. Y. S. 275; Chamberlain v. Riddle, 155 Pa. Super. 507, 38 Atl. (2d) 521; Owens v. Carmichael\u2019s U-Drive Autos, 116 Cal. App. 348, 2 Pac. (2d) 580; Shifflette v. Walkup Drayage and Warehouse Co., 74 Cal. App. (2d) 903, 169 Pac. (2d) 996; Crittenden v. Murphy, 36 Cal. App. 803, 173 Pac. 595; compare Canzoneri v. Heckert, 223 Wis. 25, 269 N. W. 716; Parks v. Pere Marquette Ry. Co., 315 Mich. 38, 23 N. W. (2d) 196. Still other courts have held that entrusting an automobile to an unlicensed driver in violation of a statute is negligence per se on the part of the owner, but that the burden rests upon the plaintiff further to show that the collision was caused by the negligence of the driver on the occasion in question. Cirosky v. Smathers, 128 S. C. 358, 122 S. E. 864; Taylor v. Stewart, 172 N. C. 203, 90 S. E. 134; Hoke v. Atlantic Greyhound Corporation, 226 N. C. 692, 40 S. E. (2d) 345; Walker v. Klopp, 99 Neb. 794, 157 N. W. 962, L. R. A. 1916 E, 1292. Compare Hertz Drive-Ur-Self Drive System v. Hendrickson, 109 Colo. 1, 121 Pac. (2d) 483.\nIn part the differences in the holdings of the courts in other jurisdictions are to be explained upon the grounds of differences in the statutes requiring operators of motor vehicles to have licenses. Where licenses are required simply for the purpose of identification of the driver or for the purpose merely of raising revenue, and no examinations or other requirements of competence are requisite to the issuance of a license, the fact that an operator does not have a license does not have.\u2019any connection with his ability to operate the vehicle with skill and care. The situation in such cases is like that of a statute requiring- license plates to be affixed to automobiles, in which case this Court said, in Worsham Buick Co. v. Isaacs, 121 Texas 587, 51 S. W. (2d) 277, 280, 86 A. L. R. 232:\n\u201cThe various provisions of our statutes, which relate to the use of license plates on automobiles, disclose no legislative purpose to prevent collisions on the public highways. The safety of travelers on the highway is plainly not the object at which those provisions aim. They do not purport to extend protection to persons using the public highways. In disobeying those provisions, the motor company did not violate any duty which it owed to Isaacs or to any other traveler on the public highways.\u201d\nSee also St. Louis B. & M. Ry. Co. v. Price (Com. App.) 269 S. W. 422, 428.\nAn examination of our statute requiring operators of automobiles to have licenses discloses that its principal purpose is to insure a minimum of competence and skill on the part of drivers for the protection of persons who might be injured or have their property damaged by negeligent or reckless operation of motor vehicles on the higways. The first statute in this state requiring licenses for operators of motor vehicles did not require the applicant to stand any examination to show his competence to drive an automobile. Acts, 44th Legislature, Second Called Session, 1935, Chapter 466, page 1785. This statute was amended so as to require applicants for operators\u2019 licenses to pass certain tests by Chapter 369, Acts, 45th Legislature, Regular Session, 1937, page 752. The emergency clause in this statute recited that the existing law was then inadequate \u201cto curb the increasing fatalities due to improper driving\u201d. This statute was further amended so as to make additional requirements of applicants for operators\u2019 licenses by Chapter 173, Acts, 47th Legislature, Regular Session, 1941, page 245. This statute (Vernon\u2019s Annotated Civil Statutes, Article 6687b, Section 10) now requires that each applicant for a, license must successfully stand an examination by the Department of Public Safety to test his vision, his ability to understand highway signs, his knowledge of traffic laws, and his ability to exercise ordinary and reasonable control in the operation of a motor vehicle. Section 2 of this statute requires that all persons operating motor vehicles upon the highways of this state, except those persons specially exempted, shall have licenses, and Section 36 makes it unlawful for any person knowingly to permit a motor vehicle owned by him or under his control to be driven by any person not licensed or otherwise authorized under the statute to operate a motor vehicle. Section 44 of this statute makes the violation of any of its provisions a misdemeanor; but no civil liability is provideed for in the statute.\nUnder this statute it is plain that defendant\u2019s agents were guilty of a violation of the law. if they permitted Dickson to operate a motor vehicle belonging to defendant knowing that Dickson did not have an operator\u2019s license. While conceding this to be true, defendant urges that the criminal penalty is the only legal consequence of a violation of the law, that the alleged facts that Dickson did not have a license and that respondent\u2019s agents knew this are not evidence of negligence, and that in any event the absence of a driver\u2019s license could not be the proximate cause of the injury.\nWhether the violation of a criminal statute may be also the basis of civil liability in a given case, in the absence of an express statutory provision therefor, depends upon whether a purpose of the statute is to set up a standard of conduct in order to give protection to the interests of the class of persons to which the injured party belongs. See Restatement, Torts, Section 286; Thayer, \u201cPublic Wrong and Private Action,\u201d 27 Harvard Law Review, 317; Morris, \u201cThe Relation of Criminal Statutes to Tort Liability,\u201d 46 Harvard Law Review, 453. In this State we have followed the rule that the violation of a criminal statute is not merely evidence of negligence, but is negligence per se. Davis v. Estes, (Com. App.) 44 S. W. (2d) 952; Alpine Telephone Corp. v. McCall, 143 Texas 335, 184 S. W. (2d) 830. In the present case we think that it is apparent that the statute is designed to secure a minimum of competence and skill for drivers of automobiles and to fix a standard of conduct for persons lending their automobiles to others to drive, and that its principal aim is to afford some protection to the interests of other peresons on or near the public highways. We therefore are of the opinion that the petitioner was entitled to plead and to offer evidence to show that Dickson did not have a driver\u2019s license and that defendant\u2019s agent knew that he did not have a license, and that the finding of such facts by the jury would be a finding of negligence per se.\nThe statute, as we construe it, prohibits the lending of an automobile only where the owner knows that the driver does not have a license. We do not think, therefore, that the mere proof, in the absence of actual knowledge, that the defendant\u2019s agents in the exercise of reasonable care should have known that Dickson did not have a license would show a violation of the statute. However, we think that the facts that the driver did not have a license and that the defendant\u2019s agents by the exercise of due care could have ascertained that he did not have a license may be alleged and proved by the plaintiff for the purpose of showing that the defendant\u2019s agents were in fact negligent in permitting Dickson to take and drive the automobile.\nWe therefore hold that the District Court erred in sustaining the special exception to the plaintiff\u2019s pleading and in excluding the evidence offered by the plaintiff in this connection.\nMere proof that the defendant\u2019s agents were guilty of negligence per se or that they were guilty of negligence in fact, does not, of course, establish liability on the defendant\u2019s part. v Plaintiff must go further and prove that such negligence was the proximate cause of the collision in which he was injured. Waterman Lumber Co. v. Beatty, 110 Texas 225, 218 S. W. 368. In order to establish proximate causation, plaintiff must show that Dickson operated the automobile negligently (that is, in a manner that was negligent regardless of the lack of a driver\u2019s license) and that such negligence was a proximate cause of the collision. The purpose of the statute which defendant is alleged to have violated is to prevent the lending of automobiles to persons not shown by examination and license to be competent to drive, and the danger anticipated and intended to be prevented by the statute is that such persons, .if given the opportunity to drive, will do so negligently and will cause damage to other persons. If, after the automobile is entrusted to such driver, he operates it negligently, and thereby causes damages to a third person, the casual connection is shown between the negligence of the owner in lending him the automobile and the damage to the third person.\nThe facts which the plaintiff must establish under his allegations by the preponderance of the evidence to show liability in this connection are, therefore, (1) that defendant\u2019s agent permitted Dickson to drive one of its automobiles; (2) that at such time Dickson did not have a driver\u2019s license; (3) that defendant\u2019s agents actually know that he.did not have such license; or if they did not have such knowledge, (4) that defendant\u2019s agents were in fact negligent in permitting Dickson to drive the automobile without ascertaining whether he had a driver\u2019s license; (5) that Dickson while in possession under such permission drove the automobile negligently; and (6) that such negeligence on Dickson\u2019s part caused the collision and the injuries and damage to the plaintiff.\nIn view of our holding, the cause must be remanded for a new trial, and we therefore forego a discussion of the sufficiency of the evidence to sustain the action of the District Court in entering judgment notwithstanding the failure of the jury to reach a verdict. The judgments of the District Court and the Court of Civil Appeals are reversed and the cause is remanded to the District Court for a new trial.\nOpinion delivered November 26, 1947.\nAssociate Justice Taylor not participating.\nRehearing overruled January 7, 1948.",
+        "type": "majority",
+        "author": "Mr. Justice Hart"
+      }
+    ],
+    "attorneys": [
+      "Clark, Craik, Burns & Weddell and Chester Clark, all of Fort Worth, for petitioner J. E. Mundy, and Price Daniel, Attorney General, and Charles E. Crenshaw, Assistant Attorney General, for the State of Texas, intervenor.",
+      "Strasburger, Price, Holland, Kelton & Miller and Hobert Price, all of Dallas, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "J. E. Mundy et al v. Pirie-Slaughter Motor Company.\nNo. A-1344.\nDecided November 26, 1947.\nRehearing overruled January 7, 1948.\n(206 S. W., 2d Series, 587.)\nClark, Craik, Burns & Weddell and Chester Clark, all of Fort Worth, for petitioner J. E. Mundy, and Price Daniel, Attorney General, and Charles E. Crenshaw, Assistant Attorney General, for the State of Texas, intervenor.\nStrasburger, Price, Holland, Kelton & Miller and Hobert Price, all of Dallas, for respondent."
+  },
+  "file_name": "0314-01",
+  "first_page_order": 334,
+  "last_page_order": 342
+}

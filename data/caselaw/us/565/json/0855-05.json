@@ -1,0 +1,59 @@
+{
+  "id": 12207236,
+  "name": "Luong et al. v. United States",
+  "name_abbreviation": "Luong v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10885",
+  "first_page": "855",
+  "last_page": "855",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 855"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 79,
+    "ocr_confidence": 0.666,
+    "sha256": "80c85b49218abdc539d86c10926c7c3a8fa36152aed778b95583a4c457965c46",
+    "simhash": "1:46bbc78b6fa50c1c",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Luong et al. v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10885.\nLuong et al. v. United States."
+  },
+  "file_name": "0855-05",
+  "first_page_order": 937,
+  "last_page_order": 937
+}

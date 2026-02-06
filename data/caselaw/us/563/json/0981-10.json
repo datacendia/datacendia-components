@@ -1,0 +1,59 @@
+{
+  "id": 5923176,
+  "name": "Hamilton v. United States",
+  "name_abbreviation": "Hamilton v. United States",
+  "decision_date": "2011-05-02",
+  "docket_number": "No. 10-9816",
+  "first_page": "981",
+  "last_page": "981",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 981"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.604,
+    "sha256": "2a230466760fbb5f2e9b68765fde1827c4065e3fcd041c368031a8666b30e25e",
+    "simhash": "1:0c4af68bce090e08",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hamilton v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9816.\nHamilton v. United States."
+  },
+  "file_name": "0981-10",
+  "first_page_order": 1007,
+  "last_page_order": 1007
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12210398,
+  "name": "Dickerson v. South Carolina",
+  "name_abbreviation": "Dickerson v. South Carolina",
+  "decision_date": "2012-04-23",
+  "docket_number": "No. 11-8903",
+  "first_page": "964",
+  "last_page": "964",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 964"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.639,
+    "sha256": "4d6a0c9d525a09582e567b791630c066017c5c629c1b70e65f55a9cd6adadf37",
+    "simhash": "1:c003a0f8bf70aff2",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dickerson v. South Carolina."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. S. C. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8903.\nDickerson v. South Carolina."
+  },
+  "file_name": "0964-12",
+  "first_page_order": 840,
+  "last_page_order": 840
+}

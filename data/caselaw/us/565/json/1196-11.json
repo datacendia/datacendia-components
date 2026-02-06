@@ -1,0 +1,59 @@
+{
+  "id": 12245569,
+  "name": "Martinez v. Caldwell, Attorney General of Louisiana, et al.",
+  "name_abbreviation": "Martinez v. Caldwell",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-566",
+  "first_page": "1196",
+  "last_page": "1196",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1196"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 106,
+    "ocr_confidence": 0.587,
+    "sha256": "5c0d4c32db8c13a7ad1e2e249714f978f37051f694b4f8a8ec992246f495bbc1",
+    "simhash": "1:865a83a2590e742c",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Martinez v. Caldwell, Attorney General of Louisiana, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-566.\nMartinez v. Caldwell, Attorney General of Louisiana, et al."
+  },
+  "file_name": "1196-11",
+  "first_page_order": 1278,
+  "last_page_order": 1278
+}

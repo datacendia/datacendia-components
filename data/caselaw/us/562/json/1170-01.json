@@ -1,0 +1,61 @@
+{
+  "id": 5981499,
+  "name": "Redzic v. United States",
+  "name_abbreviation": "Redzic v. United States",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7114",
+  "first_page": "1170",
+  "last_page": "1170",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1170"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 151,
+    "ocr_confidence": 0.58,
+    "sha256": "e7f1b47a837da52fbee1673cb95bfe225f9bbf820bd4aa8c42a51a09847dad5d",
+    "simhash": "1:abb3fa8acf667b5a",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Redzic v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Cer-tiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7114.\nRedzic v. United States."
+  },
+  "file_name": "1170-01",
+  "first_page_order": 1192,
+  "last_page_order": 1192
+}

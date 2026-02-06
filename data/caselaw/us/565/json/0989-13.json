@@ -1,0 +1,59 @@
+{
+  "id": 12231537,
+  "name": "McKinney v. Florida",
+  "name_abbreviation": "McKinney v. Florida",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. 11-6475",
+  "first_page": "989",
+  "last_page": "989",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 989"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 68,
+    "ocr_confidence": 0.63,
+    "sha256": "c24e03b64f583f5dcf302808fcc93f1a0ebe466c829ade542ebca3b9851f958a",
+    "simhash": "1:944e914270863d3e",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McKinney v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Fla. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6475.\nMcKinney v. Florida."
+  },
+  "file_name": "0989-13",
+  "first_page_order": 1071,
+  "last_page_order": 1071
+}

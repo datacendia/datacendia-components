@@ -1,0 +1,59 @@
+{
+  "id": 12432130,
+  "name": "Wilson v. United States Air Force",
+  "name_abbreviation": "Wilson v. United States Air Force",
+  "decision_date": "2013-02-25",
+  "docket_number": "No. 12-8018",
+  "first_page": "1199",
+  "last_page": "1199",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1199"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 82,
+    "ocr_confidence": 0.595,
+    "sha256": "9aa5e56d018844c92b290660ec5f6131abdb4a5198e8c41cb5a8d7320bf0f48e",
+    "simhash": "1:f68a32660f2f026a",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wilson v. United States Air Force."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8018.\nWilson v. United States Air Force."
+  },
+  "file_name": "1199-09",
+  "first_page_order": 1275,
+  "last_page_order": 1275
+}

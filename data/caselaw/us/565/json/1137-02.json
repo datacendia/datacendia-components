@@ -1,0 +1,59 @@
+{
+  "id": 12241926,
+  "name": "Russell v. United States",
+  "name_abbreviation": "Russell v. United States",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-7644",
+  "first_page": "1137",
+  "last_page": "1137",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1137"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.596,
+    "sha256": "5fc6c215261882bc3b2234361bb135ac938186f01966941a96cac49a7bcf20e3",
+    "simhash": "1:97cbc2194fbdb03c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Russell v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7644.\nRussell v. United States."
+  },
+  "file_name": "1137-02",
+  "first_page_order": 1219,
+  "last_page_order": 1219
+}

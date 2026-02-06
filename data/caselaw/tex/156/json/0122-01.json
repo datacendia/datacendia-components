@@ -1,0 +1,996 @@
+{
+  "id": 2252401,
+  "name": "C. B. Dick Et Al v. Mrs. Abraham Kazen, Jr., Et Al.",
+  "name_abbreviation": "Dick v. Kazen",
+  "decision_date": "1956-06-27",
+  "docket_number": "No. A-5918",
+  "first_page": "122",
+  "last_page": "137",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "156 Tex. 122"
+    },
+    {
+      "type": "parallel",
+      "cite": "292 S.W.2d 913"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "32 S.W. 2d 637",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10277942,
+        2271186,
+        2271148,
+        10277902
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/32/0637-02",
+        "/tex/119/0456-01",
+        "/tex/119/0463-01",
+        "/sw2d/32/0637-01"
+      ]
+    },
+    {
+      "cite": "119 Texas 463",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2271148
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/119/0463-01"
+      ]
+    },
+    {
+      "cite": "33 S.W. 2d 762",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10278389
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/33/0762-01"
+      ]
+    },
+    {
+      "cite": "260 S.W. 2d 234",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10183772
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/260/0234-01"
+      ]
+    },
+    {
+      "cite": "207 S.W. 194",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8266181
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/207/0194-01"
+      ]
+    },
+    {
+      "cite": "28 S.W. 2d 526",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10282434,
+        2271220
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/28/0526-01",
+        "/tex/119/0280-01"
+      ]
+    },
+    {
+      "cite": "119 Texas 280",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2271220
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/119/0280-01"
+      ]
+    },
+    {
+      "cite": "28 S.W. 2d 515",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2271216,
+        10282395
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/119/0256-01",
+        "/sw2d/28/0515-01"
+      ]
+    },
+    {
+      "cite": "119 Texas 256",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2271216
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/119/0256-01"
+      ]
+    },
+    {
+      "cite": "224 S.W. 210",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8261951
+      ],
+      "pin_cites": [
+        {
+          "page": "211"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/224/0210-01"
+      ]
+    },
+    {
+      "cite": "63 Texas 261",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2165490
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/63/0261-01"
+      ]
+    },
+    {
+      "cite": "227 S.W. 2d 795",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10209193,
+        2330541
+      ],
+      "pin_cites": [
+        {
+          "page": "799"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/227/0795-01",
+        "/tex/149/0007-01"
+      ]
+    },
+    {
+      "cite": "149 Texas 7",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2330541
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/149/0007-01"
+      ]
+    },
+    {
+      "cite": "184 S.W. 180",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8244857,
+        8244827
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/184/0180-02",
+        "/sw/184/0180-01"
+      ]
+    },
+    {
+      "cite": "108 Texas 5",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2249342
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/108/0005-01"
+      ]
+    },
+    {
+      "cite": "213 S.W. 2d 816",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2333800,
+        10203354
+      ],
+      "pin_cites": [
+        {
+          "page": "817"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/147/0127-01",
+        "/sw2d/213/0816-01"
+      ]
+    },
+    {
+      "cite": "147 Texas 127",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2333800
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/147/0127-01"
+      ]
+    },
+    {
+      "cite": "188 S.W. 1037",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8255224
+      ],
+      "pin_cites": [
+        {
+          "page": "1040"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw/188/1037-01"
+      ]
+    },
+    {
+      "cite": "108 Texas 167",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2249324
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/108/0167-01"
+      ]
+    },
+    {
+      "cite": "275 S.W. 257",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10294334,
+        10294271
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw/275/0257-02",
+        "/sw/275/0257-01"
+      ]
+    },
+    {
+      "cite": "222 S.W. 2d 472",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10197559
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/222/0472-01"
+      ]
+    },
+    {
+      "cite": "142 S.W. 2d 685",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10228620,
+        10228622
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/142/0685-01",
+        "/sw2d/142/0685-02"
+      ]
+    },
+    {
+      "cite": "99 S.W. 2d 593",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        12065245,
+        2293141
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/99/0593-01",
+        "/tex/128/0373-01"
+      ]
+    },
+    {
+      "cite": "128 Texas 373",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2293141
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/128/0373-01"
+      ]
+    },
+    {
+      "cite": "73 S.W. 2d 525",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2302412,
+        10249741
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/123/0505-01",
+        "/sw2d/73/0525-01"
+      ]
+    },
+    {
+      "cite": "123 Texas 505",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2302412
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/123/0505-01"
+      ]
+    },
+    {
+      "cite": "75 S.W. 2d 253",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10244025,
+        2302445
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/75/0253-01",
+        "/tex/123/0549-01"
+      ]
+    },
+    {
+      "cite": "123 Texas 549",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2302445
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/123/0549-01"
+      ]
+    },
+    {
+      "cite": "48 A.L.R. 355",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "285 S.W. 1079",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10325399,
+        2276550,
+        10325535
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw/285/1079-01",
+        "/tex/116/0029-01",
+        "/sw/285/1079-02"
+      ]
+    },
+    {
+      "cite": "116 Texas 29",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2276550
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/116/0029-01"
+      ]
+    },
+    {
+      "cite": "91 S.W. 2d 315",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2294801,
+        10245853,
+        10245974,
+        2294831
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/127/0022-01",
+        "/sw2d/91/0315-01",
+        "/sw2d/91/0315-02",
+        "/tex/127/0019-01"
+      ]
+    },
+    {
+      "cite": "127 Texas 22",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2294801
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/127/0022-01"
+      ]
+    },
+    {
+      "cite": "72 S.W. 2d 591",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10248752,
+        2300433,
+        10248878
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/72/0591-01",
+        "/tex/124/0039-01",
+        "/sw2d/72/0591-02"
+      ]
+    },
+    {
+      "cite": "77 S.W. 2d 215",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2300440,
+        10237993,
+        5257234,
+        10237951
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/124/0314-01",
+        "/sw2d/77/0215-02",
+        "/tex-crim/127/0479-01",
+        "/sw2d/77/0215-01"
+      ]
+    },
+    {
+      "cite": "124 Texas 314",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2300440
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/124/0314-01"
+      ]
+    },
+    {
+      "cite": "72 S.W. 2d 577",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10247984,
+        2302429,
+        10248230,
+        2302392
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/72/0577-01",
+        "/tex/123/0494-01",
+        "/sw2d/72/0577-02",
+        "/tex/123/0466-01"
+      ]
+    },
+    {
+      "cite": "123 Texas 466",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2302392
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/123/0466-01"
+      ]
+    },
+    {
+      "cite": "75 S.W. 2d 876",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2300409,
+        10268543
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/124/0042-01",
+        "/sw2d/75/0876-01"
+      ]
+    },
+    {
+      "cite": "124 Texas 42",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2300409
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/124/0042-01"
+      ]
+    },
+    {
+      "cite": "291 S.W. 2d 728",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2250940,
+        10180293
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/155/0013-01",
+        "/sw2d/291/0728-01"
+      ]
+    },
+    {
+      "cite": "155 Texas 13",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2250940
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/155/0013-01"
+      ]
+    },
+    {
+      "cite": "123 Texas 334",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2302435
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/123/0334-01"
+      ]
+    },
+    {
+      "cite": "66 S.W. 655",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "weight": 2,
+      "opinion_index": 1
+    },
+    {
+      "cite": "73 S.W. 2d 526",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2300408,
+        10249828
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/124/0125-01",
+        "/sw2d/73/0526-01"
+      ]
+    },
+    {
+      "cite": "124 Texas 125",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2300408
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/124/0125-01"
+      ]
+    },
+    {
+      "cite": "89 S.W. 971",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "87 S.W. 659",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "99 Texas 355",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2267750
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/99/0355-01"
+      ]
+    },
+    {
+      "cite": "62 S.W. 539",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "94 Texas 492",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2233550
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/94/0492-01"
+      ]
+    },
+    {
+      "cite": "23 Texas 601",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2114400
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/23/0601-01"
+      ]
+    },
+    {
+      "cite": "10 Texas 375",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        6770066
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/10/0188-01"
+      ]
+    },
+    {
+      "cite": "4 Texas 329",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "2 Texas 57",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        6768785
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/2/0057-01"
+      ]
+    },
+    {
+      "cite": "155 A.L.R. 180",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "182 S.W. 2d 251",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10199277,
+        2338535
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/182/0251-01",
+        "/tex/143/0001-01"
+      ]
+    },
+    {
+      "cite": "143 Texas 1",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2338535
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/143/0001-01"
+      ]
+    },
+    {
+      "cite": "70 A.L.R. 1484",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "66 S.W. 2d 655",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10251155,
+        2302455
+      ],
+      "pin_cites": [
+        {
+          "page": "656"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/66/0655-01",
+        "/tex/123/0035-01"
+      ]
+    },
+    {
+      "cite": "123 Texas 35",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2302455
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/123/0035-01"
+      ]
+    },
+    {
+      "cite": "292 S.W. 854",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10315313,
+        2276540
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw/292/0854-01",
+        "/tex/116/0398-01"
+      ]
+    },
+    {
+      "cite": "116 Texas 398",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2276540
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/116/0398-01"
+      ]
+    },
+    {
+      "cite": "29 Texas 508",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2101031
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "521"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/29/0508-01"
+      ]
+    },
+    {
+      "cite": "33 S.W. 2d 762",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10278389
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/33/0762-01"
+      ]
+    },
+    {
+      "cite": "260 S.W. 2d 234",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10183772
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/260/0234-01"
+      ]
+    },
+    {
+      "cite": "207 S.W. 194",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8266181
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw/207/0194-01"
+      ]
+    },
+    {
+      "cite": "28 S.W. 2d 526",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10282434,
+        2271220
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/28/0526-01",
+        "/tex/119/0280-01"
+      ]
+    },
+    {
+      "cite": "119 Texas 280",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2271220
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/119/0280-01"
+      ]
+    },
+    {
+      "cite": "28 S.W. 2d 515",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2271216,
+        10282395
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/119/0256-01",
+        "/sw2d/28/0515-01"
+      ]
+    },
+    {
+      "cite": "119 Texas 256",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2271216
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/119/0256-01"
+      ]
+    },
+    {
+      "cite": "224 S.W. 210",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8261951
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw/224/0210-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1241,
+    "char_count": 38473,
+    "ocr_confidence": 0.589,
+    "pagerank": {
+      "raw": 2.6356302348815405e-07,
+      "percentile": 0.8226157200670773
+    },
+    "sha256": "f495e614a7067fc4d19133000b8c8e5c7be805e4cba357a87f7de51a5a840d02",
+    "simhash": "1:3904010ef98ffee2",
+    "word_count": 6661
+  },
+  "last_updated": "2024-02-27T22:45:04.681911+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "C. B. Dick Et Al v. Mrs. Abraham Kazen, Jr., Et Al."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Griffin\ndelivered the opinion of the Court.\nC. B. Dick and other duly qualified candidates for nomination for various district and county offices to be determined at a primary election to be held by the Democratic Party in Webb County, Texas on July 28, 1956, filed this original application for a writ of mandamus against Mrs. Abraham Kazen, Jr., as chairman, Victor C. Woods, as secretary, and all the other members of the County Democratic Executive Committee, hereinafter called the Committee, of Webb County, Texas. The relief sought was to compel the Committee to prepare the official ballot to be used at such primary election by determining by lot the order in which the names of all the candidates for each district and county office should appear on said ballot, as is required by Article 13.17, V.A. T. S. Election Code of this State; and to prepare the official ballot for such primary election by placing each candidate\u2019s name for each office upon the official ballot in the order so determined by lot. It was alleged that the Committee held its meeting at 8:30 a.m., June 18, 1956, and determined the placement of the names of all candidates for all district and county offices on the official ballot for such primary election in a manner different than \u201cby lot,\u201d and in violation of Article 13.17, V.A. T. S. Election Code. By an affidavit accompanying this application it is made to appear that the Committee had met in a public meeting on the day provided by Article 13.17 of the Election Code, and determined the order in which the various candidates for the various offices would appear on the official ballot \u201cby lot by slate.\u201d\nRespondents, with commendable frankness, answer that in all contested State offices, and for the State Representative (where there were three candidates) the relative positions on the ballot were determined by drawing by lot individually the names of the respective candidates. In all the rest of the contested county and district offices there were only two candidates for each position; that one candidate had the endorsement of a local organization known as the Reform Party and that the other candidate had the endorsement of the Independent Club; that such endorsements had been widely publicized in Webb County and were well known throughout said county; that there were several candidates of the same name on the two \u201cslates\u201d and also instances of several candidates of the same name on only one \u201cslate,\u201d but, of course, for different offices; that the Executive Committee discussed these facts, and in order to avoid confusion between various candidates of the same name, and in order to give the voters a clear cut choice between the candidates endorsed by the Independent Club and those endorsed by the Reform Party, it was decided to place the candidates of each faction in a definite position on the official ballot. To accomplish this result and in fairness to both factions, it was decided to determine by lot by \u201cslate\u201d this position. In this manner each candidate would have a 50% chance to be the first on the ballot under the listing of the office for which he was a candidate, and a 50% chance to be in second place on said ballot. That such procedure to so determine by lot the order of the candidates was made in good faith and in a sincere effort to be fair, and afforded to each candidate a 50-50 chance, avoided confusion, and gave each voter, where so desired, a clear opportunity to vote a \u201cstraight ticket,\u201d and thus to support either the Reform Party and its endorsed candidates or the endorsed candidates of the Independent Club. Further, it was alleged, such decision was made only after being advised by legal counsel that such determination would be a determination \u201cby lot,\u201d as provided for in Article 13.17 of the Election Code. Acting on such advice and for the purposes as above set out, the Committee did determine the position of the candidates for the contested district and county offices by drawing- by lot the names of the two factions, and the faction first drawn was the Independent Club and the Reform Party was the second name drawn. In accordance with this determination by lot, the Committee had placed the Independent Club candidates first under each contested district and county office, and the Reform Party candidates in second place. These facts were not controverted and we therefore have the jurisdiction under Article 13.41, V.A. T. S. Election Code and Article 1735a, V.A.C.S. to issue the writ of mandamus. It is elementary and requires no citation of authority that we cannot issue a writ of mandamus if a fact issue is raised by the pleadings and affidavits filed.\nWe hold that the determination of the order in which the names of the candidates for the district and county offices shall appear on the official ballot has not been determined \u201cby lot\u201d as required by Article 13.17. The good intentions and honest sincerity of the respondents is no defense to the requirements of the law; nor may such failure to follow the statute be excused because of the local situation existing in Webb County due to the fact that a number of candidates for various offices have the same names and that confusion on the part of the voters might arise therefrom. The Election Code establishes a uniform procedure to be followed throughout the State of Texas. Our Election Code places on each voter the responsibility of determining those candidates for which he wishes to cast his ballot and marking his ballot accordingly.\nArticle 13.17 provides:\n\u201cThe various county committees of any political party, on the third Monday in June preceding each general primary, shall meet at the county seat and determine by lot, in open meeting, the order in which the names of all candidates for all offices, including state-wide races, requested to be printed on the official ballot shall be printed thereon.\u201d\nThe legal requirement that the Committee shall determine the order in which the names of the candidates shall appear on the official ballot has been in our statutes since 1903. The first law covering primary elections by ballot was passed by the Legislature in 1903. Prior to the effective date of such law all nominations had been made by conventions held by the respective parties, and not by election ballot. Sec. 94, General Laws, 28th Leg., 1903, Ch. 101, p. 150, provides, in part: \u201cThe vote in all primary elections shall be by official ballot, which shall have printed at the top thereof the name of the party, and under it the names of all candidates, those for each office being arranged in alphabetical order beneath the title of the office for which they are candidates, * * *.\u201d (Emphasis added).\nIn 1905, the so-called \u201cTerrell Election Law\u201d came into effect. It repealed the 1903 Act. Section 113 of the \u201cTerrell Law,\u201d Acts, 29th Leg., 1905, 1st C.S., p. 521, et seq., provided that it was the duty of the various county committees of any political party to meet on the date provided by such law to determine the order in which the names of the various candidates for the various offices should appear on the official ballot, \u201cand said order shall be determined by lot so no preference shall be given to any candidate.\u201d (Emphasis added). Section 111 of this law also provides, in part ,that the county committee on the third Monday in June of each election year \u201c* * * shall meet at the county seat and determine by lot the order in which the names of all candidates for each nomination or position requested be printed on the official ballot shall be printed thereon * * *.\u201d (Emphasis added). This same provision was carried forward into the 1911 revision as Article 3106. In the 1925 revision this became Article 3117, Vernon\u2019s Annotated Civil Statutes, and remained in the same verbiage until the enactment of the Election Code in 1951, when it was changed to read as Article 13.17 above set out. The language of the old law reading, \u201call candidates for each nomination, * * *\u201d now reads \u201call candidates for all offices * * Taking into consideration the whole of the Election Code and the spirit of the enactment, we do not believe the Legislature intended to change the method of determining the order in which the names of the candidates should appear on the official ballot from what it was under the preexisting statutes; i.e., that the order of the names of all candidates for each office on the ballot shall be determined by lot as to each office. \u201cLot,\u201d as used in this provision quoted, is defined in 54 C. J.S. 839 as follows: \u201cThe word \u2018lot,\u2019 used in one sense, signifies the existence of the element of chance, and in this sense is defined as a contrivance to determine a question by chance or without the action of a man\u2019s choice or will; anything used in determining a question by chance, or without a man\u2019s choice or will; the use of lots as a means of deciding anything, as to choose by lot. Also, that which causes, falls, or happens; chance, fortune, hazard.\u201d\nThe respondents raised the question that each and every candidate for each contested district and county office is a necessary party to this proceeding, and since relators have not made such candidates parties to this proceeding, the mandamus should be refused. We overrule this contention. The holding of elections and the election procedure is a part of the political power of the State, and except as provided by statute, the judiciary has no control over them. Wall v. Currie, 147 Texas 127, 213 S.W. 2d 816, 817, wherein this court quotes with approval from 29 C.J.S., Elections, Sec. 88, pp. 121-122, the following:\n\u201c* * * \u2018Except to the extent that jurisdiction is conferred by statute or that the subject has been regulated by statute, the courts have no power to interfere with the judgments of the constituted authorities of established political parties in matters involving party government and discipline, to determine disputes within a political party as to the regularity of the election of its executive officers, or their removal, or to determine contests for the position of party committeemen or convention delegates.\u2019 29 C.J.S., Elections, Sec. 88, pp. 121-122.\u201d\nSee also Waples v. Marrast, 108 Texas 5, 184 S.W. 180; L.R.A. 1971A 253; Carter v. Tomlinson, 149 Texas 7, 227 S.W. 2d 795, 799. It has been stated that an election contest is a political and not a judicial question and that the courts have no jurisdiction in such proceedings save as given by statute. Prior to the constitutional amendment of 1891 (Art. 5, Sec. 8) it had been held that courts had no jurisdiction to try an election contest and that the Legislature was not authorized to confer such jurisdiction. State ex rel Jennett v. Owens, 1885, 63 Texas 261; 15-B Texas Jur. 535, Sec. 157.\nArticle 13.41, V.A. T. S. Election Code provides as follows:\n\u201cAny executive committee or committeeman or primary officer, or other person herein charged with any duty relative to the holding of the primary election, or the canvassing, determination or declaration of the result thereof, may be compelled by mandamus to perform the same in accordance with the provisions of this Code.\u201d\nThis article makes no requirement for the joinder of any opposing candidate as a party.\nThe Dallas Court of Civil Appeals in Blankenship v. Little Motor Kar Co., Texas Civ. App., 1920, 224 S.W. 210, 211, no writ history, held the adverse parties to a pending suit were not necessary parties to an application for mandamus to require the district judge to fix the amount of a supersedeas bond upon an appeal. We think what was there said applies here.\n\u201cWe do not concur in this position, (that proper parties were not present) and accordingly overrule the motion to abate, preliminary to expressing our views upon the application itself. We are unable to perceive any soundness in respondent\u2019s contention, embodied in the motion to abate, because the application presents only the question of ascertaining whether or not the judge of the district court has refused to do an official act involving only official power and duty arbitrarily laid upon him by law, and the performance of which, impairment of any legal right, which might be asserted to circumvent such legal requirement. Where application for a writ of mandamus is sought to compel a trial judge to do what is alleged to be a duty mandatorily enjoined upon him by law, and as to which, if it thus exists, he could have no discretion, a case of that nature, which has been held to require parties litigant adverse to the relator to be brought into the proceeding, is not presented.\n\u201cThe proceeding here invokes only a question of absolute and rigid inherent duty of the judge to follow an unalterably fixed and prescribed official course, excluding the exercise of discretion, and the writ, if granted, could run only against him. The writ is sought only on the ground that he is under the clear legal requirement, incidental to the appeal, to fix the amount of the supersedeas bond, so that relators may exercise a defined legal right, also incidental to the appeal, by executing such bond, regardless of the merits of the appeal itself Cland of the rights of the parties in relation to the subject-matter of the controversy. The proper parties, we think are before the court.\u201d\nWe notice that in the cases of Love v. Wilcox, 119 Texas 256, 28 S.W. 2d 515 and Ferguson v. Wilcox, 119 Texas 280, 28 S.W. 2d 526, both of which actions were mandamus proceedings to require the Secretary of State to certify the name of each respective relator, no opposing candidates for governor were joined as parties. Neither was any complaint made of such failure to join.\nIn Monk v. Crooker, Texas Civ. App., 1918, 207 S.W. 194, no writ history, it was held the city was not a necessary party in a mandamus suit to compel the city judge and clerk of the corporation court to permit relator (as criminal district attorney of Harris County) to prosecute all criminal cases in the city court and to tax the costs in favor of relator, although the city officers were acting in accordance with a city ordinance.\nIn the case of Wright v. Peurifoy, et al, Texas Civ. App., 1953, 260 S.W. 2d 234, it was held that the court reporter and the district clerk were not necessary parties in a mandamus proceeding to compel the district judge to sustain an affidavit of inability to pay costs of appeal, and set aside his order sustaining a contest to such affidavit. See also Friberg v. Scurry, Texas Civ. App., 33 S.W. 2d 762, dism. w.o.j., 119 Texas 463, 32 S.W. 2d 637. While we have been unable to find a case that is exactly in point on the facts we have before us, we think a part of the reasoning in the cases cited on the question of necessary parties to this mandamus action is applicable here.\nWe believe the County Executive Committee were the only necessary parti es-respondent to this action. It is the Committee against which relief is sought. We are asked to direct them to comply with the legal requirements of Article 13.17 in preparing the official ballot. Under the Election Code the Committee are the only persons who may lawfully prepare the official ballot, and no candidate can lawfully do anything toward preparing, printing and distributing the official ballot. This action does not seek to deny any candidate who has duly filed and is qualified under the Election Code a place on the official ballot, or in any manner prevent such candidates from offering themselves to the voters of Webb County. No candidate has any right to a place on the official ballot except the position chosen for him by the County Executive Committee, as provided by statute.\nUpon submission respondents stated they would obey the judgment of this Court without the necessity of serving them with a writ. We are informed that respondents have already complied with our order previously issued, and have drawn the names of the various candidates for each office by lot. Therefore, no further action by this Court is necessary at this time.\nWrit granted in accordance with this opinion. No motion for rehearing will be entertained.\nOrder granting Writ of Mandamus entered June 27, 1956.\nOpinion filed July 10, 1956.",
+        "type": "majority",
+        "author": "Mr. Justice Griffin"
+      },
+      {
+        "text": "Mr. Justice Calvert,\njoined by Justice Walker, dissenting.\nI dissent. This proceeding should have been abated and dismissed because of the absence of necessary parties.\nArticle 13.17, Election Code of the State of Texas, requires that county committees of political parties meet on the third Monday in June preceding each general primary and determine the order in which the names of candidates will appear on the ballot. It is admitted that the County Democratic Executive Committee of Webb County did meet on the third Monday in June and, at such meeting, did determine the order in which the names of candidates should appear on the ballot for the general primary to be held on July 28th. The complaint of relators is that the County Committee did not properly determine the order in which the names should appear on the ballot. Whether properly so or not, the Committee had, according to its interpretation of the statute, determined \u201cby lot\u201d the order in which the names of the candidates would appear on the ballot and had assigned the places so determined to the candidates in the primary election. Under the determination made by the Committee first place on the ballot for all offices was drawn for and assigned to candidates sponsored by the Independent Club. The issue in this case is not, therefore, whether the County Committee should be required to perform a statutory duty which it has declined to perform, but rather whether it should be required to perform a statutory duty in a manner different from the way in which it has already performed it. Necessarily included in the issue is whether the candidates of the Independent Club have acquired any legal right to the positions on the ballot which were assigned to them as a result of the Committee\u2019s first effort to comply with the statute. On this issue the candidates of the Independent Club are entitled to be heard, and they cannot be heard without being made parties to this proceeding.\nThe majority have rejected the suggestion that the candidates are necessary parties to this proceeding. In doing so their opinion indicates they have given no consideration to the governing rules which have been iterated and reiterated by this Court throughout its history. As early as 1866 in Tabor v. Commissioner, 29 Texas 508, 521, this Court rejected a petition for writ of mandamus to compel the Commissioner of the General Land Office to issue a patent, saying: \u201cIf there were no other objection to the application for a writ of mandamus in this case, the fact that there are other claimants to the land, who are not parties to this proceeding, would furnish grounds for refusing it. The averment that their claims are void will not relieve the matter of the difficulty; for this court will not undertake to adjudicate their claims, whether valid or not, when the claimants are not parties to the suit.\u201d In 1927 in O\u2019Keefe v. Robinson, 116 Texas 398, 292 S.W. 854, we stated what, except for the present case, we have applied as an unbending rule of parties in mandamus proceedings, as follows: \u201cThe law as declared by this court has long been that mandamus will not issue unless all parties whose interests may be affected by the result of the litigation are made parties to the suit, so that they may have their day in court.\u201d As late as 1934 in City of Houston v. Allred, 123 Texas 35, 66 S.W. 2d 655, 656, we stated the rule in even stronger language when we said: \u201cIt is the settled law of this State that persons whose rights would be injuriously affected by the issuance of a mandamus by this Court are necessary parties to the proceeding, and all known parties, in interest, should be summoned to come in and defend such interests. Also third parties claiming an adverse interest in the subject matter of the suit which may be affected by the judgment must be bound as Respondents, without regard to the validity of their claims.\u201d\nWhen this mandamus proceeding was filed in this Court the candidates of the Independent Club had been drawn for and then claimed the right to have their names appear in first place on the ballot in Webb County for all offices, and they cannot be ousted from that favorable position without a decision by this Court that the drawing through which they were assigned first place on the ballot was not a legal drawing. It thus appears that their interests will necessarily \u201cbe affected by the result\u201d of this litigation, and that they are therefore entitled to \u201chave their day in court\u201d on the legality of the proceedings under which their claimed rights arose.\nOn what authority do the majority rely in applying a different rule in this case?\nThe authorities cited for holding that these candidates are not necessary parties are two cases by this Court: Love v. Wilcox, 119 Texas 256, 28 S.W. 2d 515, 70 A.L.R. 1484 and Ferguson v. Wilcox, 119 Texas 280, 28 S.W. 2d 526, and four cases by Courts of Civil Appeals: Blankenship v. Little Motor Kar Co., 224 S.W. 210; Monk v. Croker, 207 S.W. 194; Wright v. Peurifoy, 260 S.W. 2d 234 and Friberg v. Scurry, 33 S.W. 2d 762. These cases need analysis.\nLove v. Wilcox and Ferguson v. Wilcox can hardly be said to be authority for the position of the majority since, as is admitted in the majority opinion, no question of the absence of necessary parties was raised, considered, or decided in either of these cases. The same may be said of the Court of Civil Appeals case of Friberg v. Scurry. There is yet another reason why none of the three cases may be regarded as authoritative on the point in question: all were cases in which the relators sought no other relief than to have their names placed on the official ballot. In other words, in none of the three cases was any relief sought which could have taken away any right or affected any interest of other candidates. If we are to be governed by cases in which the question was not raised or decided, Seay v. Latham, 143 Texas 1, 182 S.W. 2d 251, 155 A.L.R. 180, seems more authoritative and compelling. There a writ of mandamus was sought from and issued by this Court to compel the Secretary of State to certify to election officials the names of fifteen persons, certified to him by the September 1944 State Convention, as the nominees of the Democratic Party for Presidential Electors. The writ could not have issued unless the right thereto had been clear, nor unless the certification sought was, on the part of the Secretary of State, an absolute and rigid duty, excluding the exercise of discretion. Nevertheless, fifteen persons whose names had been certified as the Democratic nominees for the same offices by a prior May Convention were made respondents because of their claim that they were legally entitled to be certified. I doubt not that the proceeding would have been abated if they had not been made parties.\nThe majority\u2019s principal authority seems to be Blankenship v. Little Motor Kar Co., supra, which is quoted extensively. Aside from the fact that that case was decided in 1920 and in the 36 years since has never been cited as authority on the point at issue by this Court in its many opinions on the subject, or by any other court, it, like the other cited Court of Civil Appeals cases of Monk v. Crooker and Wright v. Peurifoy, is clearly distinguishable.\nIn the Blankenship case a writ of mandamus was sought to require the district judge to fix the amount of a supersedeas bond. Obviously, the performance of the mere ministerial act of fixing the amount of the bond could not have impaired the rights of the other parties to the suit, and the heart of the court\u2019s opinion holding that the other parties to the suit were not necessary parties to the mandamus proceeding is found in the language that the performance by the court of the ministerial duty \u201ccould in no way comprehend the impairment of any legal right, which might be asserted to circumvent such legal requirement.\u201d I apprehend that the result would have been altogether different if the mandamus proceeding had been one to compel the district judge to approve a supersedeas bond. In such a case the other parties to the suit would have had a legal right to question the sufficiency of the bond, both as to form and as to substance.\nIn Monk v. Crooker the court rejected a contention that because the suit involved the construction and validity of an ordinance the city was a necessary party, saying: \u201c* * * but no judgment is sought against the city, and it certainly is not the law that in every suit against an officer of a city or town in his official capacity, in which the construction or validity of an ordinance of the city or town is involved, that s\u00fcch corporation is a necessary party to the suit, and we are cited to no case that so holds.\u201d Of course a city is not a necessary party to all suits which involve the validity of a city ordinance, but that is not the problem in this case.\nWright v. Peurifoy involved an application to the Dallas Court of Civil Appeals for a writ of mandamus to require a district judge to approve an affidavit of inability to pay costs as a prerequisite of appeal. The opinion of the court reflects that the affidavit was contested but it does not reflect whether the contest was by the opposing parties in the litigation or by the court reporter and district clerk. The Court of Civil Appeals overruled a contention that the court reporter and district clerk were necessary parties to the mandamus proceeding, stating: \u201cWe are asked only to issue a writ to the District Judge requiring him to enter an order overruling the contest of respondents to relator\u2019s affidavit. We are not asked to go further * * * by ordering the trial court to direct the District Clerk and Court Reporter to prepare the record.\u201d From the foregoing quotation it is obvious that the court did not feel that it was foreclosing any legal right of the court reporter and district clerk to refuse to prepare the record. But if the contest of the affidavit was filed by the district clerk and the court reporter I am of the opinion that this decision is erroneous and we should not put our stamp of approval on it by citing it as authority.\nThe cases cited in the majority opinion and analyzed above are hardly impressive authority for denying the candidates of the Independent Club their day in court to be heard on the issue of their right to retain first place on the ballot for the various offices for which they are candidates. They had a right to urge before this Court, for instance, that the statutory requirement for determination of places on the ballot by lot was directory and not mandatory; that the statute was of doubtful meaning and the County Committee was authorized to construe it; that drawing \u201cby slate\u201d was in fact a compliance with the statutory requirement for determination by lot; and that, in any event, drawing \u201cby slate\u201d was a substantial compliance with the statutory requirement and nothing more was required. It is beside the point for us to say that they would have been wrong as to these matters and that we would not have agreed with them; the important thing is that they have been denied their opportunity to present these and other matters to this Court. In other words, rights which they claim under the County Committee\u2019s action taken on the appointed day and at the appointed place and time have been taken from them without their having been afforded a hearing.\nThe paucity of controlling or analogous cases which characterizes the majority opinion is the more pronounced because the books are full of cases by this Court which, in principle, are clearly to the contrary. There is no need to analyze this great host of cases at length. It is sufficient to note them and to indicate the various fact situations in which they have been decided.\nOther claimants to land are necessary parties to a mandamus proceeding against the Commissioner of the General Land Office to compel the issuance of a patent, or against a public surveyor to compel the survey of public land for the location of a land certificate, even though it is asserted that their claims are void or without merit. Smith v. Power, 2 Texas 57; Cullem v. Latimer, 4 Texas 329; Watkins v. Kirchain, 10 Texas 375; Winder v. Williams, 23 Texas 601; Tabor v. Commissioner, 29 Texas 508; Chappell v. Rogan, 94 Texas 492, 62 S.W. 539. One to whom a subsequent lease is executed is a necessary party to a mandamus proceeding against the Commissioner of the General Land Office to compel the reinstatement of a forfeited lease. Nevell v. Terrell, 99 Texas 355, 87 S.W. 659, and 89 S.W. 971. The patentees of land and those holding contracts of purchase are necessary parties to a mandamus proceeding against the Commissioner of the General Land Office to compel the issuance of a permit for prospecting for oil and gas. O\u2019Keefe v. Robison, 116 Texas 398, 292 S.W. 854. The surface owner of land is a necessary party to a mandamus proceeding to compel the Commissioner of the General Land Office to set aside an order cancelling an oil and gas lease on the land. Magnolia Petroleum Co. v. Walker, 124 Texas 125, 73 S.W. 2d 526. Holders of senior revenue bonds are necessary parties to a mandamus proceeding against the Attorney General of Texas to compel the approval of junior revenue bonds. City of Houston v. Allred, 123 Texas 35, 66 S.W. 655, Id. 123 Texas 334, 71 S.W. 2d 257; City of Killeen v. Shepperd, 155 Texas 13, 291 S.W. 2d 728. Other parties to the main suit are necessary parties to a mandamus proceeding to compel the presiding judge of an administrative judicial district to assign a judge for the trial of the case. Morton Estate v. Chapman, 124 Texas 42, 75 S.W. 2d 876. Other parties to the main suit are necessary parties to a mandamus proceeding to compel the trial judge to proceed to trial in the case. Williams v. Wray, 123 Texas 466, 72 S.W. 2d 577. Other parties to the main suit are necessary parties to a mandamus proceeding to compel a trial judge to set aside an order entered in the pending cause. Goebel v. Carter, 124 Texas 314, 77 S.W. 2d 215. Other parties to the main suit are necessary parties to a mandamus proceeding to compel the trial judge to render and enter a judgment on the jury\u2019s verdict. Douglas v. Parish, 124 Texas, 39, 72 S.W. 2d 591; Miller v. Stine, 127 Texas 22, 91 S.W. 2d 315. Other parties to the main suit are necessary parties to a mandamus proceeding to compel the clerk of the trial court to issue execution on the judgment, or, alternatively, to compel the trial judge to enter a nunc pro tunc judgment. Nevitt v. Wilson, 116 Texas 29, 285 S.W. 1079, 48 A.L.R. 355. Other parties to the main suit are necessary parties to a mandamus proceeding to compel a Court of Civil Appeals to accept and file a motion for rehearing. State Ex. rel. Candler v. Court of Civil Appeals, 123 Texas 549, 75 S.W. 2d 253. Other parties to the main suit are necessary parties to a mandamus proceeding to compel a Court of Civil Appeals to certify a question of law to the Supreme Court. Atwood Cotton Breeding Farms v. Gallagher, 123 Texas 505, 73 S.W. 2d 525; Lanford v. Smith, 128 Texas 373, 99 S.W. 2d 593.\nI note a few cases by Courts of Civil Appeals. Opposing parties in the main suit are necessary parties to compel a district judge to correct the record so as to show a different filing date on a motion for new trial in the main suit. H. M. Cohen Lbr. & Building Co. v. McCalla, 142 S.W. 2d 685. The defendant in judgment is a necessary party to a mandamus proceeding to compel a justice of the peace to reinstate a vacated default judgment. Lloyds Alliance v. Oliver, 222 S.W. 2d 472. The contestant in a suit contesting the election of school trustees is a necessary party to a mandamus proceeding to compel the trial judge to dismiss the main suit on the ground that the court is without jurisdiction to try the case and that the case is moot. Crutchfield v. Watson, 275 S.W. 257.\nBy what reasoning does the majority apply a different rule in this case?\nAs I analyze the opinion two reasons are given, as follows: (1), the judiciary has no control over elections except as given by statute, and Article 13.41, Election Code of the State of Texas, authorizing mandamus proceedings against executive committees and others \u201cmakes no requirement for the joinder of any opposing candidate as a party,\u201d and (2), \u201cunder the Election Code the Committee are the only persons who may lawfully prepare the official ballot, and no candidate can lawfully do anything toward preparing, printing or distributing the official ballot.\u201d I respectfully submit that neither reason is sound, as I shall undertake to demonstrate.\nConsidering the first reason given, it may be stated, parenthetically, that Article 1735a, Vernon\u2019s Annotated Texas Statutes, also confers power on this Court to issue writs of mandamus to compel election officials to perform their duties and that such Article was not repealed by the Election Code. It should be noted further, however, that this Article, like Article 13.41 of the Election Code, \u201cmakes no requirement for the joinder of any opposing candidate as a party.\u201d\nTo assert, or to infer, that this Court has no judicial power to compel the addition of opposing candidates as parties in mandamus proceedings against executive committees and election officials is to assert, or to infer, that political rights may be taken from candidates for party nomination or for public office without due process of law. That view was long since rejected by this Court. Gilmore v. Waples, 108 Texas 167, 188 S.W. 1037, 1040. Whether this Court may require the joinder of opposing candidates as parties to mandamus proceedings in this Court under Article 13.41, Election Code, Article 1735a, Vernon\u2019s Annotated Texas Statutes, depends not on whether those articles of the statutes require such joinder, or omit to require it, but on whether the rights of opposing candidates are affected by the litigation. It is a matter of common knowledge that candidates for party nominations regard first place on the ballot as strategically valuable. I have no doubt but that against the claims of a usurper the courts would protect one legally drawn for first place on the ballot in his right to have his name appear in first place. And if the courts would afford such protection it follows inevitably that the right to have one\u2019s name appear in first place on the ballot should not be taken from a candidate whose name has been drawn for that position, on the ground that the drawing was illegal, without affording the candidate an opportunity to defend its legality. Here, the Court by writ of mandamus has compelled the removal of the names of the candidates of the Independent Club from first place on the ballot, a place to which they claim to have been legally drawn, without their being made parties or being given a hearing.\nThe second reason given by the majority for the judgment has no more validity than the first. Of course the Committee is the only agency that \u201cmay lawfully prepare the official ballot,\u201d and of course \u201cno candidate can lawfully do anything toward preparing, printing or distributing the official ballot.\u201d But that has little to do with the exclusion of candidates as parties. The fact that candidates have no part in the preparation or the printing and distribution of the ballot does not militate against the necessity of their being parties to mandamus proceedings if their \u201cinterests may be affected by the result of the litigation.\u201d It could be said with equal .emphasis that the opposing party in litigation is not a necessary party to a mandamus proceeding to compel the judge to proceed to trial because only the judge can set and try the case and no opposing litigant can lawfully do anything toward setting the case for trial; or that other claimants to land are not necessary parties to a mandamus proceeding to compel the Commissioner of the General Land Office to issue a patent because only the Commissioner of the General Land Office can issue a patent and no opposing claimant can lawfully do anything toward preparing and issuing a patent; or that holders of senior bonds are not necessary parties to a mandamus proceeding to compel the Attorney General to approve a junior bond issue because only the Attorney General can approve such bonds and no other bond holder can lawfully do anything toward approving the junior issue. I might continue ad infinitum, but what has been said will demonstrate that the second reason given by the majority for their ruling in this case would make a farce of the general rule of law heretofore followed by this Court in determining who are necessary parties to mandamus proceedings. Never before, so far as I know, has this Court said that the only necessary party to a mandamus proceeding is the one on whose conduct the writ operates.\nI conclude that the position of the majority in their holding that the other candidates for county and district offices on the official ballot in Webb County are not necessary parties to this mandamus proceeding is not supported by either precedent or reason. I respectfully submit that the holding is proof of the old judicial adage that \u201chard cases make bad law.\u201d Our order awarding the writ of mandamus was entered on June 27th. The hour was late; absentee balloting was scheduled to begin on July 8th. To require a delay of twenty-four or forty-eight hours while opposing candidates were made parties to this proceeding would have been an inconvenience to election officials and perhaps to voters, and, withal, we would likely have reached the same result. But convenience and haste should not have been controlling factors. We should have abated this proceeding until relators brought in opposing candidates as respondents so that they could have had their day in court.\nOpinion filed August 15, 1956.",
+        "type": "dissent",
+        "author": "Mr. Justice Calvert,"
+      }
+    ],
+    "attorneys": [
+      "Franis P. Maher and Maria G. Maher, both of Laredo, for relators.",
+      "Looney, Clark <6 Moorhead, Everett L. Looney and R. Dean Moorhead of Austin, and Victor C. Woods, of Laredo, for respondents."
+    ],
+    "corrections": "",
+    "head_matter": "C. B. Dick Et Al v. Mrs. Abraham Kazen, Jr., Et Al.\nNo. A-5918.\nOrder Entered June 27, 1956.\nOpinion Filed July 10, 1956.\nDissenting Opinion Filed Auguest 15, 1956.\n(292 S.W. 2d Series 913)\nFranis P. Maher and Maria G. Maher, both of Laredo, for relators.\nLooney, Clark <6 Moorhead, Everett L. Looney and R. Dean Moorhead of Austin, and Victor C. Woods, of Laredo, for respondents."
+  },
+  "file_name": "0122-01",
+  "first_page_order": 134,
+  "last_page_order": 149
+}

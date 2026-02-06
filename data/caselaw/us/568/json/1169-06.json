@@ -1,0 +1,59 @@
+{
+  "id": 12430927,
+  "name": "Hamilton v. Junious, Warden",
+  "name_abbreviation": "Hamilton v. Junious",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-7614",
+  "first_page": "1169",
+  "last_page": "1169",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1169"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.652,
+    "sha256": "7b5cf46558204d4a159b4aead81f0b40f158c5e544d511c948c933e6df12cf8d",
+    "simhash": "1:97f9a6bb1dff2067",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hamilton v. Junious, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7614.\nHamilton v. Junious, Warden."
+  },
+  "file_name": "1169-06",
+  "first_page_order": 1245,
+  "last_page_order": 1245
+}

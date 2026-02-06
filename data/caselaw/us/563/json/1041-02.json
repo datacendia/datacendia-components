@@ -1,0 +1,59 @@
+{
+  "id": 5936095,
+  "name": "Lai v. United States",
+  "name_abbreviation": "Lai v. United States",
+  "decision_date": "2011-06-06",
+  "docket_number": "No. 10-10391",
+  "first_page": "1041",
+  "last_page": "1041",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1041"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.636,
+    "sha256": "22ec1e81d68ad6ce1fdf9b587a75ab1929dd49e3dfb5d82478b9da6146f369db",
+    "simhash": "1:15bb87030dbf617e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lai v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10391.\nLai v. United States."
+  },
+  "file_name": "1041-02",
+  "first_page_order": 1067,
+  "last_page_order": 1067
+}

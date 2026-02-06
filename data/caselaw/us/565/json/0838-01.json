@@ -1,0 +1,59 @@
+{
+  "id": 12202625,
+  "name": "Cassidy v. Florida",
+  "name_abbreviation": "Cassidy v. Florida",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10471",
+  "first_page": "838",
+  "last_page": "838",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 838"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 84,
+    "ocr_confidence": 0.627,
+    "sha256": "e5ca71d587ff19e0cc4ae042f36be0d5f98cb05d8161a526456ea523b30e1c67",
+    "simhash": "1:f32a4142ec504b32",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cassidy v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 5th Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10471.\nCassidy v. Florida."
+  },
+  "file_name": "0838-01",
+  "first_page_order": 920,
+  "last_page_order": 920
+}

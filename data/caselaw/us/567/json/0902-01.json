@@ -1,0 +1,86 @@
+{
+  "id": 12407512,
+  "name": "In re Disbarment of Kline",
+  "name_abbreviation": "In re Disbarment of Kline",
+  "decision_date": "2012-06-11",
+  "docket_number": "No. D-2625",
+  "first_page": "902",
+  "last_page": "902",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 902"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "566 U. S. 917",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12199232,
+        12199171,
+        12199147,
+        12199118,
+        12199086,
+        12199066,
+        12199035,
+        12199199
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/566/0917-08",
+        "/us/566/0917-06",
+        "/us/566/0917-05",
+        "/us/566/0917-04",
+        "/us/566/0917-03",
+        "/us/566/0917-02",
+        "/us/566/0917-01",
+        "/us/566/0917-07"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 106,
+    "ocr_confidence": 0.697,
+    "sha256": "c86305333180c5a723c4f72670dc0353e653023fafdbdf4f9ab37a77c52737f5",
+    "simhash": "1:18b9d8eb2990d6c7",
+    "word_count": 18
+  },
+  "last_updated": "2024-02-27T23:46:21.325002+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Kline."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered. [For earlier order herein, see 566 U. S. 917.]",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2625.\nIn re Disbarment of Kline."
+  },
+  "file_name": "0902-01",
+  "first_page_order": 806,
+  "last_page_order": 806
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12221355,
+  "name": "Ocasio v. New York",
+  "name_abbreviation": "Ocasio v. New York",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5487",
+  "first_page": "910",
+  "last_page": "910",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 910"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 94,
+    "ocr_confidence": 0.624,
+    "sha256": "c989eedf9b576de93c651c5ed1c892c64f63437d6e4aa8bb83ca9252d9d93bf5",
+    "simhash": "1:65b0c01c61b4db72",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ocasio v. New York."
+    ],
+    "opinions": [
+      {
+        "text": "App. Div., Sup. Ct. N. Y., 4th Jud. Dept. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5487.\nOcasio v. New York."
+  },
+  "file_name": "0910-07",
+  "first_page_order": 992,
+  "last_page_order": 992
+}

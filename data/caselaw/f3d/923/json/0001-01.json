@@ -1,0 +1,805 @@
+{
+  "id": 12520999,
+  "name": "UNITED STATES of America, Appellee, v. Vincent ANZALONE, Defendant, Appellant.",
+  "name_abbreviation": "United States v. Anzalone",
+  "decision_date": "2019-04-24",
+  "docket_number": "No. 17-1454",
+  "first_page": "1",
+  "last_page": "6",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "923 F.3d 1"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "1st Cir.",
+    "id": 8809,
+    "name": "United States Court of Appeals for the First Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "200 L.Ed.2d 748",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12611510,
+        12611511,
+        12611513,
+        12611514,
+        12611515,
+        12611516,
+        12611517,
+        12611518
+      ],
+      "year": 2018,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/1545-03",
+        "/s-ct/138/1545-04",
+        "/s-ct/138/1545-06",
+        "/s-ct/138/1546-01",
+        "/s-ct/138/1546-02",
+        "/s-ct/138/1546-03",
+        "/s-ct/138/1546-04",
+        "/s-ct/138/1546-05"
+      ]
+    },
+    {
+      "cite": "138 S.Ct. 1546",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12611514,
+        12611515,
+        12611516,
+        12611517,
+        12611518,
+        12611519
+      ],
+      "year": 2018,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/1546-01",
+        "/s-ct/138/1546-02",
+        "/s-ct/138/1546-03",
+        "/s-ct/138/1546-04",
+        "/s-ct/138/1546-05",
+        "/s-ct/138/1546-06"
+      ]
+    },
+    {
+      "cite": "863 F.3d 1313",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12276122
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1321"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/863/1313-01"
+      ]
+    },
+    {
+      "cite": "200 L.Ed.2d 721",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12611296,
+        12611329,
+        12611298,
+        12611330,
+        12611308,
+        12611316,
+        12611294,
+        12611295
+      ],
+      "year": 2018,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/1439-02",
+        "/s-ct/138/1443-05",
+        "/s-ct/138/1439-04",
+        "/s-ct/138/1443-06",
+        "/s-ct/138/1440-02",
+        "/s-ct/138/1441-04",
+        "/s-ct/138/1438-06",
+        "/s-ct/138/1439-01"
+      ]
+    },
+    {
+      "cite": "138 S.Ct. 1440",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12611307,
+        12611308,
+        12611309,
+        12611310,
+        12611311,
+        12611312
+      ],
+      "year": 2018,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/1440-01",
+        "/s-ct/138/1440-02",
+        "/s-ct/138/1440-03",
+        "/s-ct/138/1440-04",
+        "/s-ct/138/1440-05",
+        "/s-ct/138/1440-06"
+      ]
+    },
+    {
+      "cite": "863 F.3d 1041",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12276073
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1052"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/863/1041-01"
+      ]
+    },
+    {
+      "cite": "202 L.Ed.2d 95",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12619331,
+        12619332,
+        12619333,
+        12619334,
+        12619335,
+        12619399,
+        12619403,
+        12619404
+      ],
+      "year": 2018,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/139/0155-02",
+        "/s-ct/139/0155-03",
+        "/s-ct/139/0155-04",
+        "/s-ct/139/0155-05",
+        "/s-ct/139/0155-06",
+        "/s-ct/139/0156-01",
+        "/s-ct/139/0156-05",
+        "/s-ct/139/0156-06"
+      ]
+    },
+    {
+      "cite": "139 S.Ct. 156",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12619399,
+        12619400,
+        12619401,
+        12619402,
+        12619403,
+        12619404
+      ],
+      "year": 2018,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/139/0156-01",
+        "/s-ct/139/0156-02",
+        "/s-ct/139/0156-03",
+        "/s-ct/139/0156-04",
+        "/s-ct/139/0156-05",
+        "/s-ct/139/0156-06"
+      ]
+    },
+    {
+      "cite": "880 F.3d 685",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12265473
+      ],
+      "pin_cites": [
+        {
+          "page": "691"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/880/0685-01"
+      ]
+    },
+    {
+      "cite": "202 L.Ed.2d 174",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12620883,
+        12620884,
+        12620885,
+        12620886,
+        12620887,
+        12620888,
+        12620889
+      ],
+      "year": 2018,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/139/0259-05",
+        "/s-ct/139/0259-06",
+        "/s-ct/139/0259-07",
+        "/s-ct/139/0260-01",
+        "/s-ct/139/0260-02",
+        "/s-ct/139/0260-03",
+        "/s-ct/139/0260-04"
+      ]
+    },
+    {
+      "cite": "139 S.Ct. 260",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12620886,
+        12620887,
+        12620888,
+        12620889,
+        12620890,
+        12620891,
+        12620892
+      ],
+      "year": 2018,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/139/0260-01",
+        "/s-ct/139/0260-02",
+        "/s-ct/139/0260-03",
+        "/s-ct/139/0260-04",
+        "/s-ct/139/0260-05",
+        "/s-ct/139/0260-06",
+        "/s-ct/139/0260-07"
+      ]
+    },
+    {
+      "cite": "883 F.3d 204",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516068
+      ],
+      "pin_cites": [
+        {
+          "page": "207"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/883/0204-01"
+      ]
+    },
+    {
+      "cite": "906 F.3d 1109",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12518847
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1120"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/906/1109-01"
+      ]
+    },
+    {
+      "cite": "907 F.3d 522",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12519044
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "528"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/907/0522-01"
+      ]
+    },
+    {
+      "cite": "912 F.3d 963",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12519717
+      ],
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "969"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/912/0963-01"
+      ]
+    },
+    {
+      "cite": "406 F.2d 366",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        2117255
+      ],
+      "year": 1968,
+      "pin_cites": [
+        {
+          "page": "381-82",
+          "parenthetical": "finding that it was outrageous conduct for the government to forcibly remove cocaine packets from defendant's rectum"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/406/0366-01"
+      ]
+    },
+    {
+      "cite": "934 F.2d 393",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10538971
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "398-99",
+          "parenthetical": "noting that successful outrageous government conduct claims usually arise out of interference with the defendant's person"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/934/0393-01"
+      ]
+    },
+    {
+      "cite": "17 F.3d 462",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1830321
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "471",
+          "parenthetical": "\"[F]undamental fairness is not compromised in a child pornography case merely because the government supplies the contraband.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/17/0462-01"
+      ]
+    },
+    {
+      "cite": "282 F.3d 56",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9472897
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "59"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/282/0056-01"
+      ]
+    },
+    {
+      "cite": "6 F.3d 1",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10505936
+      ],
+      "weight": 3,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "6-7"
+        },
+        {
+          "page": "5",
+          "parenthetical": "citations omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/6/0001-01"
+      ]
+    },
+    {
+      "cite": "847 F.3d 9",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12184636
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "14",
+          "parenthetical": "quoting United States v. Santana, 6 F.3d 1, 6-7 (1st Cir. 1993) "
+        },
+        {
+          "page": "14",
+          "parenthetical": "noting that a \"defendant's claim of outrageous government misconduct faces a demanding standard\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/847/0009-01"
+      ]
+    },
+    {
+      "cite": "693 F.3d 37",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3518203
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "43"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/693/0037-01"
+      ]
+    },
+    {
+      "cite": "361 U.S. 234",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6167940
+      ],
+      "weight": 3,
+      "year": 1960,
+      "pin_cites": [
+        {
+          "page": "246"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/361/0234-01"
+      ]
+    },
+    {
+      "cite": "411 U.S. 423",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9798
+      ],
+      "weight": 3,
+      "year": 1973,
+      "pin_cites": [
+        {
+          "page": "432",
+          "parenthetical": "quoting Kinsella v. United States ex rel. Singleton, 361 U.S. 234, 246, 80 S.Ct. 297, 4 L.Ed.2d 268 (1960) "
+        },
+        {
+          "parenthetical": "quoting Kinsella v. United States ex rel. Singleton, 361 U.S. 234, 246, 80 S.Ct. 297, 4 L.Ed.2d 268 (1960) "
+        },
+        {
+          "parenthetical": "quoting Kinsella v. United States ex rel. Singleton, 361 U.S. 234, 246, 80 S.Ct. 297, 4 L.Ed.2d 268 (1960) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/411/0423-01"
+      ]
+    },
+    {
+      "cite": "482 F.3d 43",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3866599
+      ],
+      "weight": 2,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "58"
+        },
+        {
+          "page": "59"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/482/0043-01"
+      ]
+    },
+    {
+      "cite": "138 S.Ct. 577",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12615996
+      ],
+      "weight": 3,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "588"
+        },
+        {
+          "page": "588"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/0577-01"
+      ]
+    },
+    {
+      "cite": "825 F.3d 59",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4323726
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "63",
+          "parenthetical": "noting that probable cause \"does not demand certainty, or proof beyond a reasonable doubt, or even proof by a preponderance of the evidence\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/825/0059-01"
+      ]
+    },
+    {
+      "cite": "462 U.S. 213",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6187462
+      ],
+      "weight": 5,
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "238",
+          "parenthetical": "citations omitted"
+        },
+        {
+          "parenthetical": "citations omitted"
+        },
+        {
+          "parenthetical": "citations omitted"
+        },
+        {
+          "page": "238"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/462/0213-01"
+      ]
+    },
+    {
+      "cite": "182 F.3d 82",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11544040
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "86"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/182/0082-01"
+      ]
+    },
+    {
+      "cite": "787 F.3d 44",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4228411
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "49"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/787/0044-01"
+      ]
+    },
+    {
+      "cite": "419 F.3d 27",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8928789
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "31",
+          "parenthetical": "noting that, under the law of the circuit doctrine, courts of appeal are \"ordinarily ... constrained by prior panel decisions directly (or even closely) on point\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/419/0027-01"
+      ]
+    },
+    {
+      "cite": "468 U.S. 897",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11340969
+      ],
+      "weight": 3,
+      "year": 1984,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/468/0897-01"
+      ]
+    },
+    {
+      "cite": "208 F.Supp.3d 358",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "case_ids": [
+        12272337
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "parenthetical": "denying the motion to suppress"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-3d/208/0358-01"
+      ]
+    },
+    {
+      "cite": "221 F.Supp.3d 189",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "case_ids": [
+        12270968
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "parenthetical": "denying the motion to dismiss"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-3d/221/0189-01"
+      ]
+    },
+    {
+      "cite": "874 F.3d 316",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12264246
+      ],
+      "weight": 6,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "319-21"
+        },
+        {
+          "page": "320"
+        },
+        {
+          "page": "318, 321"
+        },
+        {
+          "page": "321"
+        },
+        {
+          "page": "323"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/874/0316-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 894,
+    "char_count": 16220,
+    "pagerank": {
+      "raw": 5.311089344023715e-08,
+      "percentile": 0.3352203159334772
+    },
+    "sha256": "f064fc9e6e12eef44b7dbd757d41ee0b54b5ffaaaf425ed2827cdb77625ce005",
+    "simhash": "1:3a789f92a16bd32b",
+    "word_count": 2584
+  },
+  "last_updated": "2024-02-27T18:46:40.961150+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Torruella, Selya, and Barron, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Appellee,\nv.\nVincent ANZALONE, Defendant, Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "TORRUELLA, Circuit Judge.\nThis case is one of many arising nationwide from the 2015 FBI investigation into Playpen, an online forum hosted in the Tor Network that allowed users to upload, download, and distribute child pornography. Through that investigation, defendant-appellant Vincent Anzalone (\"Anzalone\") was identified as a Playpen user and indicted for possession and receipt of child pornography. Anzalone thereafter moved to suppress all evidence obtained pursuant to a Network Investigative Technique (\"NIT\") warrant and to dismiss his indictment for outrageous government conduct. The district court denied both requests, which Anzalone asks us to reconsider on appeal, and we now affirm.\nI.\nThose interested in the particulars of the FBI's Playpen sting should refer to our opinion in United States v. Levin, 874 F.3d 316, 319-21 (1st Cir. 2017), which was the first case to come before this court in relation to this investigation. The background that follows thus only focuses on the facts most pertinent to Anzalone's case.\nOn the evening of February 19, 2015, the FBI assumed control of Playpen and decided to maintain the website live for two weeks to identify and apprehend its users. On February 20, the government obtained a warrant from a magistrate judge in the Eastern District of Virginia authorizing it to deploy the NIT. Id. at 320. A meticulous 31-page affidavit accompanied the FBI's application for this warrant. The affidavit's statement of facts in support of probable cause described, among other things, the purpose of Playpen, the Tor Network and its hidden services, the difficulty of coming across Playpen without seeking out its content, and the appearance of Playpen's homepage on February 18, 2015 -- two days before the FBI applied for the NIT warrant. With regards to Playpen's homepage, the affidavit averred that the page showed \"two images depicting partially clothed prepubescent females with their legs spread apart.\" The affidavit also explained that Playpen counseled its visitors not to use their real email addresses to register with the website.\nTechnicalities aside, the NIT allowed the FBI to identify Playpen users when they entered their credentials to access the website. Id. The NIT eventually led to the identification of Anzalone as a Playpen user. During the two weeks that the government ran Playpen, Anzalone was logged into the website for twelve hours. On October 21, 2015, the FBI executed a search warrant of Anzalone's residence. Anzalone waived his Miranda rights and, in an interview at his home with the FBI Child Exploitation Task Force agents who executed the warrant, admitted to possessing child pornography and to downloading it multiple times a week for five or six years.\nOn November 12, 2015, Anzalone was indicted with one count of possession of child pornography under 18 U.S.C. \u00a7 2252A(a)(5)(B) and one count of receipt of child pornography under 18 U.S.C. \u00a7 2252A(a)(2)(A). Anzalone then moved to suppress all the evidence resulting from the NIT warrant, arguing that the warrant: (1) was not rooted in probable cause; (2) lacked particularity; (3) was supported by a misleading affidavit; and (4) was issued in excess of the magistrate judge's limited territorial jurisdiction. Anzalone also sought to dismiss the indictment alleging that the government engaged in outrageous conduct by running Playpen for two weeks after seizing its control. The district court denied these two motions, see United States v. Anzalone, 221 F.Supp.3d 189 (D. Mass. 2016) (denying the motion to dismiss); United States v. Anzalone, 208 F.Supp.3d 358 (D. Mass. 2016) (denying the motion to suppress), after which Anzalone pled guilty to both charges while reserving his right to appeal. Anzalone was sentenced to 84 months in prison and five years of supervised release.\nII.\nAnzalone contests the district court's denial of his motion to suppress on four grounds. First, Anzalone claims that the affidavit presented to the magistrate judge in support of the NIT warrant was insufficient to establish probable cause. Second, he maintains that the government included misstatements in the warrant affidavit. Third, Anzalone insists that the magistrate judge lacked jurisdiction to issue the NIT warrant pursuant to Rule 41 of the Federal Rules of Criminal Procedure. Lastly, he argues that the good faith exception established in United States v. Leon, 468 U.S. 897, 104 S.Ct. 3405, 82 L.Ed.2d 677 (1984), does not apply because the government supplied misleading information to the magistrate judge and knew of the jurisdictional limitations of Rule 41.\nAs a threshold matter, we find that our decision in Levin forecloses both Anzalone's challenge under Rule 41 and his argument about the alleged inapplicability of the Leon good faith exception. In Levin, we examined the same NIT warrant and considered a similar argument about the magistrate judge's alleged lack of jurisdiction to issue the warrant under Rule 41 as a basis to suppress evidence. 874 F.3d at 318, 321. We concluded that the Leon good faith exception applied and suppression was not warranted \"[r]egardless of whether a Fourth Amendment violation occurred.\" Id. at 321. Specifically, we observed that there was no government conduct to deter since \"[f]aced with the novel question of whether an NIT warrant can issue -- for which there was no precedent on point -- the government turned to the courts for guidance\" and that, \"if anything, such conduct should be encouraged, because it leaves it to the courts to resolve novel legal issues.\" Id. at 323. We are bound to follow Levin's reasoning on these issues here. See United States v. Guzm\u00e1n, 419 F.3d 27, 31 (1st Cir. 2005) (noting that, under the law of the circuit doctrine, courts of appeal are \"ordinarily ... constrained by prior panel decisions directly (or even closely) on point\").\nWe take advantage of this opportunity, however, to consider a question raised by Anzalone that was not addressed in Levin: whether probable cause supported the NIT warrant. Anzalone argues that it did not, but we disagree.\nOur review of probable cause determinations is de novo. See United States v. Tanguay, 787 F.3d 44, 49 (1st Cir. 2015). \"A warrant application must demonstrate probable cause to believe that (1) a crime has been committed -- the 'commission' element, and (2) enumerated evidence of the offense will be found at the place to be searched -- the so-called 'nexus' element.\" United States v. Feliz, 182 F.3d 82, 86 (1st Cir. 1999). Like the magistrate judge and the district court, we are tasked with making \"a practical, common-sense decision whether, given all the circumstances ... there is a fair probability that contraband or evidence of a crime will be found in a particular place.\" Illinois v. Gates, 462 U.S. 213, 238, 103 S.Ct. 2317, 76 L.Ed.2d 527 (1983) (citations omitted); see also United States v. Rivera, 825 F.3d 59, 63 (1st Cir. 2016) (noting that probable cause \"does not demand certainty, or proof beyond a reasonable doubt, or even proof by a preponderance of the evidence\"). Recently, in District of Columbia v. Wesby, the Supreme Court reiterated that probable cause determinations are to be informed by the totality of circumstances and not by the consideration of different pieces of evidence in isolation. --- U.S. ----, 138 S.Ct. 577, 588, 199 L.Ed.2d 453 (2018).\nAnzalone argues that the affidavit's description of the image on Playpen's homepage (i.e., that the homepage showed two \"partially clothed prepubescent females with their legs spread apart\") was insufficient to establish probable cause. He also insists that some allegations in the affidavit -- such as that users had to download the Tor Network and take several other affirmative steps to locate Playpen and that the site's homepage emphasized anonymity -- are not indicative of criminality. In making these arguments, Anzalone forgets that probable cause determinations hinge not on discrete pieces of standalone evidence, but on the totality of circumstances. Wesby, 138 S.Ct. at 588. And here, the totality of the information asserted in the warrant affidavit -- Playpen's hidden nature on the Tor Network, its registration requirement, its focus on anonymity, and the image depicted on its homepage -- established the fair probability that users went into Playpen to access child pornography. See Gates, 462 U.S. at 238, 103 S.Ct. 2317. Thus, the district court was correct to deny Anzalone's motion to suppress for lack of probable cause.\nIII.\nNext, we consider the district court's denial of Anzalone's motion to dismiss the indictment. In this motion, Anzalone alleged that the FBI's decision to operate Playpen for two weeks amounted to outrageous government conduct that violated his right to due process. Our review is de novo. United States v. Luisi, 482 F.3d 43, 58 (1st Cir. 2007).\nAccording to Anzalone, prior to seizing Playpen and operating it for two weeks, \"never ha[d] the government distributed child pornography to hundreds of thousands of individuals with no control over or knowledge of how those images were later shared with others,\" thus exemplifying the reason why the FBI's Playpen sting \"was the epitome of outrageous conduct.\" Anzalone avers further that \"the government ... engaged in misconduct that cannot be condoned by this Court\" since it \"committ[ed] the crime of child pornography distribution.\" He insists that, to identify site users, the FBI had alternatives other than maintaining Playpen at full operability, such as replacing \"images of real children\" with \"[l]egal child erotica or virtual child pornography\" or redirecting visitors to a \"Playpen clone which lacked any illegal content.\"\nLaw enforcement conduct encroaches on a defendant's due process rights if it violates \"fundamental fairness\" and \"shock[s] ... the universal sense of justice.\" United States v. Russell, 411 U.S. 423, 432, 93 S.Ct. 1637, 36 L.Ed.2d 366 (1973) (quoting Kinsella v. United States ex rel. Singleton, 361 U.S. 234, 246, 80 S.Ct. 297, 4 L.Ed.2d 268 (1960) ). \"In limited circumstances, courts may dismiss criminal charges in response to outrageous government misconduct.\" United States v. Djokich, 693 F.3d 37, 43 (1st Cir. 2012). We consider outrageous government conduct claims \"holistically, evaluating the 'totality of the relevant circumstances' while recognizing that 'outrageousness, by its nature, requires an ad hoc determination' that cannot 'usefully be broken down into a series of discrete components.' \" United States v. Therrien, 847 F.3d 9, 14 (1st Cir. 2017) (quoting United States v. Santana, 6 F.3d 1, 6-7 (1st Cir. 1993) ). We have also said that the outrageous government conduct defense may be viable \"where law enforcement personnel become so overinvolved in a felonious venture that they can fairly be said either to have creat[ed] the crime or to have coerc[ed] the defendant's participation in it.\" Santana, 6 F.3d at 5 (citations omitted). This defense, however, has never succeeded in our Circuit, see Luisi, 482 F.3d at 59, in part because \"[t]he law frowns on the exoneration of a defendant for reasons unrelated to his guilt or innocence,\" and thus \"the power to dismiss charges based solely on government misconduct must be used sparingly,\" United States v. Guzm\u00e1n, 282 F.3d 56, 59 (1st Cir. 2002).\nTo be sure, the strategy that the government employed in this case falls close to the line. In an ideal world, there would be effective ways to intercept individuals who trade and distribute child pornography online other than running a child pornography website for two weeks. But we live in a less than ideal world. Ultimately, we agree with the district court that the FBI's Playpen sting does not clear the high bar we have set for the outrageous government conduct defense to succeed. See Therrien, 847 F.3d at 14 (noting that a \"defendant's claim of outrageous government misconduct faces a demanding standard\"); United States v. Gifford, 17 F.3d 462, 471 (1st Cir. 1994) (\"[F]undamental fairness is not compromised in a child pornography case merely because the government supplies the contraband.\").\nHere, an FBI agent supportably opined that disabling or shutting down portions of Playpen \"would have alerted [site users] immediately to the FBI takeover.\" Before deciding to operate the website for two weeks, the FBI assessed the pros and cons of its operation and determined that its chosen path \"outweighed the option of just removing Playpen from existence and waiting until another such website popped up 24 hours later.\" Among other things, the FBI concluded that maintaining the website would allow it to identify distributors of child pornography and rescue children from abuse. The record also shows that the government did not make any improvements to the website and that 49 children were rescued from sexual exploitation as a result of the government's two-week operation of the site. Finally, Anzalone's decision to become a registered Playpen user and download child pornography was his very own and not a result of the government's design or coercion. See Santana, 6 F.3d at 5 ; compare with, United States v. Chin, 934 F.2d 393, 398-99 (2d Cir. 1991) (noting that successful outrageous government conduct claims usually arise out of interference with the defendant's person); Huguez v. United States, 406 F.2d 366, 381-82 (9th Cir. 1968) (finding that it was outrageous conduct for the government to forcibly remove cocaine packets from defendant's rectum). Therefore, after considering the totality of the circumstances, we have no grounds to reverse the denial of Anzalone's motion to dismiss the indictment.\nIV.\nFor the foregoing reasons, the district court's judgment is affirmed.\nAffirmed.\nThese images, however, were switched out by Playpen's administrator before the government took over the site on February 19 and changed for the image of just one female, sitting cross-legged in a dress and stockings.\nAll of our sister circuits to address the Rule 41 jurisdiction issue with regards to this NIT warrant have also held that suppression is not warranted and the good faith exception applies. See United States v. Moorehead, 912 F.3d 963, 969 (6th Cir. 2019) ; United States v. Kienast, 907 F.3d 522, 528 (7th Cir. 2018) ; United States v. Henderson, 906 F.3d 1109, 1120 (9th Cir. 2018) ; United States v. Werdene, 883 F.3d 204, 207 (3d Cir.), cert. denied, --- U.S. ----, 139 S.Ct. 260, 202 L.Ed.2d 174 (2018) ; United States v. McLamb, 880 F.3d 685, 691 (4th Cir.), cert. denied, --- U.S. ----, 139 S.Ct. 156, 202 L.Ed.2d 95 (2018) ; United States v. Horton, 863 F.3d 1041, 1052 (8th Cir. 2017), cert. denied, --- U.S. ----, 138 S.Ct. 1440, 200 L.Ed.2d 721 (2018) ; United States v. Workman, 863 F.3d 1313, 1321 (10th Cir. 2017), cert. denied, --- U.S. ----, 138 S.Ct. 1546, 200 L.Ed.2d 748 (2018).\nAnzalone further argues that probable cause cannot be established because the FBI \"was reckless in seeking the warrant\" since its affidavit presented an inaccurate description of Playpen. According to Anzalone, the FBI knew at the time it submitted its warrant affidavit on February 20 that the image on Playpen's homepage had changed from depicting two females to just one female. We agree with the district court that the FBI affiant was not reckless in failing to reexamine Playpen's homepage immediately prior to applying for the warrant on February 20. The affidavit described the image that appeared on the homepage until February 18, and that image was only changed on February 19 -- the day before the FBI applied for the NIT warrant. Moreover, we find that the warrant affidavit would have still supported probable cause had it just described the new image uploaded on February 19.",
+        "type": "majority",
+        "author": "TORRUELLA, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Zainabu Rumala, Assistant Federal Public Defender, Federal Public Defender Office, was on brief, for appellant.",
+      "Randall E. Kromm, Assistant United States Attorney, with whom Andrew E. Lelling, United States Attorney, was on brief, for appellee."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Appellee,\nv.\nVincent ANZALONE, Defendant, Appellant.\nNo. 17-1454\nUnited States Court of Appeals, First Circuit.\nApril 24, 2019\nZainabu Rumala, Assistant Federal Public Defender, Federal Public Defender Office, was on brief, for appellant.\nRandall E. Kromm, Assistant United States Attorney, with whom Andrew E. Lelling, United States Attorney, was on brief, for appellee.\nBefore Torruella, Selya, and Barron, Circuit Judges."
+  },
+  "file_name": "0001-01",
+  "first_page_order": 1,
+  "last_page_order": 6
+}

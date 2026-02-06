@@ -1,0 +1,59 @@
+{
+  "id": 12202312,
+  "name": "Johnson v. Pennsylvania",
+  "name_abbreviation": "Johnson v. Pennsylvania",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10448",
+  "first_page": "837",
+  "last_page": "837",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 837"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 73,
+    "ocr_confidence": 0.616,
+    "sha256": "54974ab6c4f84a6f39b8ca1faceb5c30a36d7240c5b89c9699ac2f2cb503c8aa",
+    "simhash": "1:ebf68cf0b1ebb5d2",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Johnson v. Pennsylvania."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. Pa. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10448.\nJohnson v. Pennsylvania."
+  },
+  "file_name": "0837-03",
+  "first_page_order": 919,
+  "last_page_order": 919
+}

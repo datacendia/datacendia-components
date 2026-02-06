@@ -1,0 +1,59 @@
+{
+  "id": 12415735,
+  "name": "Gonzalez-Hernandez v. United States",
+  "name_abbreviation": "Gonzalez-Hernandez v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5337",
+  "first_page": "907",
+  "last_page": "907",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 907"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 84,
+    "ocr_confidence": 0.677,
+    "sha256": "8785a623cd765140e9dc288fcdcd21682eca90a269e2f8546ebcc6036765b4f1",
+    "simhash": "1:0708d2828b9e9d1a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gonzalez-Hernandez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5337.\nGonzalez-Hernandez v. United States."
+  },
+  "file_name": "0907-12",
+  "first_page_order": 983,
+  "last_page_order": 983
+}

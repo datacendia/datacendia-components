@@ -1,0 +1,61 @@
+{
+  "id": 12417220,
+  "name": "Cochran v. Oliver, Warden",
+  "name_abbreviation": "Cochran v. Oliver",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10769",
+  "first_page": "930",
+  "last_page": "930",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 930"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 153,
+    "ocr_confidence": 0.692,
+    "sha256": "f6bc9ab31a27c6986e69d0e6c33d45ec71e7894c27f3f70e11239ec0dd93ba1e",
+    "simhash": "1:0a23fa826286da62",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Cochran v. Oliver, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10769.\nCochran v. Oliver, Warden."
+  },
+  "file_name": "0930-09",
+  "first_page_order": 1006,
+  "last_page_order": 1006
+}

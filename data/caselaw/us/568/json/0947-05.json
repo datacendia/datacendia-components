@@ -1,0 +1,59 @@
+{
+  "id": 12418216,
+  "name": "Coke v. New York",
+  "name_abbreviation": "Coke v. New York",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 12-5588",
+  "first_page": "947",
+  "last_page": "947",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 947"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 92,
+    "ocr_confidence": 0.656,
+    "sha256": "7ab1954cc8904d0b65f5f2a75bd5dd5db7cc071e20bd9fcc7d330f7c8e544fb6",
+    "simhash": "1:63e0c03ce190f102",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Coke v. New York."
+    ],
+    "opinions": [
+      {
+        "text": "App. Div., Sup. Ct. N. Y., 4th Jud. Dept. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5588.\nCoke v. New York."
+  },
+  "file_name": "0947-05",
+  "first_page_order": 1023,
+  "last_page_order": 1023
+}

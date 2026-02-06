@@ -1,0 +1,860 @@
+{
+  "id": 12520626,
+  "name": "UNITED STATES of America, Plaintiff-Appellee, v. Deandre CHERRY, Defendant-Appellant.",
+  "name_abbreviation": "U.S. v. Cherry",
+  "decision_date": "2019-04-08",
+  "docket_number": "No. 17-3018",
+  "first_page": "1126",
+  "last_page": "1141",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "920 F.3d 1126"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "7th Cir.",
+    "id": 9010,
+    "name": "United States Court of Appeals for the Seventh Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "528 U.S. 119",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9476180
+      ],
+      "weight": 3,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "125",
+          "parenthetical": "explaining that a \"refusal to cooperate, without more, does not furnish the minimal level of objective justification needed for a detention or seizure,\" but unprovoked flight could factor into reasonable suspicion"
+        },
+        {
+          "parenthetical": "explaining that a \"refusal to cooperate, without more, does not furnish the minimal level of objective justification needed for a detention or seizure,\" but unprovoked flight could factor into reasonable suspicion"
+        },
+        {
+          "parenthetical": "explaining that a \"refusal to cooperate, without more, does not furnish the minimal level of objective justification needed for a detention or seizure,\" but unprovoked flight could factor into reasonable suspicion"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/528/0119-01"
+      ]
+    },
+    {
+      "cite": "965 F.2d 473",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10521729
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "477"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/965/0473-01"
+      ]
+    },
+    {
+      "cite": "819 F.3d 310",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4254253
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "318",
+          "parenthetical": "quoting Jones v. McCaughtry, 965 F.2d 473, 477 (7th Cir. 1992) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/819/0310-01"
+      ]
+    },
+    {
+      "cite": "588 F.3d 464",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3496977
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "475"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/588/0464-01"
+      ]
+    },
+    {
+      "cite": "634 F.3d 395",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4095721
+      ],
+      "weight": 2,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "407"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/634/0395-01"
+      ]
+    },
+    {
+      "cite": "488 U.S. 51",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1495598
+      ],
+      "weight": 5,
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "58"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/488/0051-01"
+      ]
+    },
+    {
+      "cite": "910 F.3d 320",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12519418
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "326"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/910/0320-01"
+      ]
+    },
+    {
+      "cite": "547 U.S. 867",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3275893
+      ],
+      "weight": 3,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "869-70"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/547/0867-01"
+      ]
+    },
+    {
+      "cite": "591 F.3d 935",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3507574
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "940"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/591/0935-01"
+      ]
+    },
+    {
+      "cite": "467 U.S. 431",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6201711
+      ],
+      "weight": 3,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "444"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/467/0431-01"
+      ]
+    },
+    {
+      "cite": "555 U.S. 323",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3679137
+      ],
+      "weight": 3,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "331"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/555/0323-01"
+      ]
+    },
+    {
+      "cite": "701 F.3d 1166",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5710444
+      ],
+      "pin_cites": [
+        {
+          "page": "1174"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/701/1166-01"
+      ]
+    },
+    {
+      "cite": "820 F.3d 255",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4256820
+      ],
+      "weight": 3,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "262"
+        },
+        {
+          "page": "263"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/820/0255-01"
+      ]
+    },
+    {
+      "cite": "496 U.S. 128",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12122066
+      ],
+      "weight": 3,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "133"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/496/0128-01"
+      ]
+    },
+    {
+      "cite": "389 U.S. 347",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11339173
+      ],
+      "weight": 3,
+      "year": 1967,
+      "pin_cites": [
+        {
+          "page": "357"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/389/0347-01"
+      ]
+    },
+    {
+      "cite": "449 U.S. 411",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11716341
+      ],
+      "weight": 3,
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "418"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/449/0411-01"
+      ]
+    },
+    {
+      "cite": "549 F.3d 565",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5733844
+      ],
+      "weight": 2,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "567"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/549/0565-01"
+      ]
+    },
+    {
+      "cite": "691 F.3d 893",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3509979
+      ],
+      "weight": 8,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "896"
+        },
+        {
+          "page": "899-900"
+        },
+        {
+          "page": "896"
+        },
+        {
+          "page": "899-900"
+        },
+        {
+          "page": "900",
+          "parenthetical": "internal citations omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/691/0893-01"
+      ]
+    },
+    {
+      "cite": "312 F.3d 862",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9321494
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "870"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/312/0862-01"
+      ]
+    },
+    {
+      "cite": "408 F.3d 366",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8955171
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "371"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/408/0366-01"
+      ]
+    },
+    {
+      "cite": "366 F.3d 456",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9256446
+      ],
+      "weight": 4,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "459",
+          "parenthetical": "also noting that \"several circuits have held that such statements are so presumptively reliable that they may support a probable cause determination even if uncorroborated.\""
+        },
+        {
+          "page": "460-61"
+        },
+        {
+          "page": "457"
+        },
+        {
+          "page": "460"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/366/0456-01"
+      ]
+    },
+    {
+      "cite": "592 F.3d 767",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5685368
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "774"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/592/0767-01"
+      ]
+    },
+    {
+      "cite": "469 U.S. 221",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11959006
+      ],
+      "weight": 3,
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "228"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/469/0221-01"
+      ]
+    },
+    {
+      "cite": "907 F.3d 472",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12519038
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "483",
+          "parenthetical": "informant who later disappeared was not reliable and \"[t]he officers' observations that day [of the arrest] did not corroborate, even roughly, the informant's story.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/907/0472-01"
+      ]
+    },
+    {
+      "cite": "90 F.3d 1245",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9049587
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "1254",
+          "parenthetical": "\"because the surveillance preceding the stop corroborated the information from the informant, the law enforcement officers had probable cause for both the arrest and search.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/90/1245-01"
+      ]
+    },
+    {
+      "cite": "496 U.S. 325",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12122945
+      ],
+      "weight": 5,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "332",
+          "parenthetical": "\"What was important was the caller's ability to predict respondent's future behavior, because it demonstrated inside information.\""
+        },
+        {
+          "parenthetical": "\"What was important was the caller's ability to predict respondent's future behavior, because it demonstrated inside information.\""
+        },
+        {
+          "parenthetical": "\"What was important was the caller's ability to predict respondent's future behavior, because it demonstrated inside information.\""
+        },
+        {
+          "page": "332"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/496/0325-01"
+      ]
+    },
+    {
+      "cite": "385 F.3d 1111",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1319274
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "1114"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/385/1111-01"
+      ]
+    },
+    {
+      "cite": "407 U.S. 143",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9137003
+      ],
+      "weight": 3,
+      "year": 1972,
+      "pin_cites": [
+        {
+          "page": "147",
+          "parenthetical": "\"Some tips, completely lacking in indicia of reliability, would either warrant no police response or require further investigation before a forcible stop of a suspect would be authorized.\""
+        },
+        {
+          "parenthetical": "\"Some tips, completely lacking in indicia of reliability, would either warrant no police response or require further investigation before a forcible stop of a suspect would be authorized.\""
+        },
+        {
+          "parenthetical": "\"Some tips, completely lacking in indicia of reliability, would either warrant no police response or require further investigation before a forcible stop of a suspect would be authorized.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/407/0143-01"
+      ]
+    },
+    {
+      "cite": "664 F.3d 1119",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3859275
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "1122"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/664/1119-01"
+      ]
+    },
+    {
+      "cite": "517 U.S. 690",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11746351
+      ],
+      "weight": 3,
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "699"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/517/0690-01"
+      ]
+    },
+    {
+      "cite": "462 U.S. 213",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6187462
+      ],
+      "weight": 14,
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "232",
+          "parenthetical": "internal citations omitted"
+        },
+        {
+          "parenthetical": "internal citations omitted"
+        },
+        {
+          "parenthetical": "internal citations omitted"
+        },
+        {
+          "page": "233"
+        },
+        {
+          "page": "234-35"
+        },
+        {
+          "page": "244-46"
+        },
+        {
+          "parenthetical": "\"Some tips, completely lacking in indicia of reliability, would either warrant no police response or require further investigation before a forcible stop of a suspect would be authorized.\""
+        },
+        {
+          "page": "245-46"
+        },
+        {
+          "page": "231"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/462/0213-01"
+      ]
+    },
+    {
+      "cite": "762 F.3d 647",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4178877
+      ],
+      "weight": 2,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "654"
+        },
+        {
+          "page": "654"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/762/0647-01"
+      ]
+    },
+    {
+      "cite": "115 F.3d 1348",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11992912
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "1363"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/115/1348-01"
+      ]
+    },
+    {
+      "cite": "713 F.3d 336",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3557969
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "339",
+          "parenthetical": "citing United States v. Moore, 115 F.3d 1348, 1363 (7th Cir. 1997) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/713/0336-01"
+      ]
+    },
+    {
+      "cite": "805 F.3d 795",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4356285
+      ],
+      "weight": 2,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "811"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/805/0795-01"
+      ]
+    },
+    {
+      "cite": "900 F.3d 440",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12518207
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "449"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/900/0440-01"
+      ]
+    },
+    {
+      "cite": "906 F.3d 554",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12518918
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "557"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/906/0554-01"
+      ]
+    },
+    {
+      "cite": "373 U.S. 83",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11716714
+      ],
+      "weight": 6,
+      "year": 1963,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/373/0083-01"
+      ]
+    },
+    {
+      "cite": "21 U.S.C. \u00a7 841",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(1)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1674,
+    "char_count": 43910,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2592458093116626
+    },
+    "sha256": "43dbf578225cb27ed1c78f078b1ea5056677350fd87962483608cd367a7648e3",
+    "simhash": "1:fa08c93aefc5d76a",
+    "word_count": 7321
+  },
+  "last_updated": "2024-02-27T18:46:47.899627+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Flaum, Rovner, and Scudder, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff-Appellee,\nv.\nDeandre CHERRY, Defendant-Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Rovner, Circuit Judge.\nDeandre Cherry's heroin customers had been complaining about the poor quality of his supply, so on a rainy night in May 2012, he drove into a parking lot in Markham, Illinois hoping to exchange his inventory of low-quality heroin for a better supply of cocaine that his supplier had just picked up at O'Hare airport. Unbeknownst to Cherry, however, his supplier had just been arrested picking up the cocaine and, since his hopes were for a better deal for himself, decided to cooperate and help the Drug Enforcement Agency (DEA) agents ensnare another dealer down the line. Instead of the exchange, Cherry was arrested mid-deal and eventually sentenced to 240 months' imprisonment. Cherry appeals, claiming the agents lacked probable cause to arrest him and search his vehicle. He also claims they failed to preserve exculpatory evidence. We affirm the holding of the district court in all respects.\nI.\nIn the course of an investigation into cocaine importation from Mexico to Chicago, DEA agents arrested a man who was attempting to take possession of twenty-six kilograms of cocaine near Chicago's O'Hare airport. During an interview after that arrest, the man told Drug Enforcement Agency (DEA) agents that he was scheduled to deliver thirteen kilograms of cocaine to a man he called \"Mo\" that night. \"Mo\" was later identified as Cherry. According to the arrested man, Cherry was a high-ranking member of the Black P Stone street gang in Chicago who distributed many kilograms of cocaine each month. The arrested man agreed to become a confidential informant for the DEA and help the agents execute a sting operation.\nThe confidential informant told the agents that, through prior conversations, he and Cherry had agreed that the informant would drive the cocaine to a residence in Harvey, Illinois, that Cherry would meet him there, take custody of the cocaine, and then a few hours later another member of Cherry's organization would pay the informant for the cocaine. The confidential informant provided agents with Cherry's cell phone number and a physical description: an average height black man, weighing about 200 pounds, and driving a white Mercedes SUV.\nThe agents formulated a plan for a sting operation in which the confidential informant would drive his own car to meet Cherry with sham cocaine concealed in the car's drug-hiding trap compartment. Under the plan, the informant would signal the agents by stepping out of the car once he and Cherry had engaged in a conversation about the exchange of the cocaine. For their own safety, the agents had the confidential informant change the meeting spot to a parking lot further away from gang activity. They then outfitted the informant with hidden audio and video recording equipment, and searched and inventoried the informant's vehicle (as is the protocol for such operations).\nAt around 7:50 p.m. on May 31, 2012, the confidential informant placed a recorded call to Cherry. The informant told Cherry that he was approximately ten minutes away from the agreed upon meeting place in Harvey, and Cherry responded that he would meet him there. A few minutes later the confidential informant, under direction of the agents, called Cherry and changed the rendezvous spot to a parking lot in nearby Markham, Illinois. Shortly thereafter, a 2012 white Mercedes SUV (later determined to be registered to Cherry) entered the nearly empty parking lot, circled the lot, and then parked next to the confidential informant.\nIn a conversation that was recorded, but not monitored in real time by agents, the confidential informant told Cherry that \"it\" (meaning the thirteen kilograms of cocaine) was in the \"spot\"-the hidden compartment in the back of the car. Once Cherry responded affirmatively that he wanted to see the drugs, the informant opened the compartment and then exited the car-the pre-arranged signal to law enforcement. Cherry did not handle nor take physical possession of the drugs.\nThe district court credited the testimony of the DEA agents at the scene who testified that as they approached the car and Cherry saw them, he dashed the short distance between the informant's car and his SUV, opened the front door of the SUV, and attempted to get in. One agent testified that Cherry opened the door and \"tried to get into the vehicle as we jumped on him so- ... [h]e had his hand and his arm got into it, but we pulled him back out.\" Tr. 11/27/12 at 77 (R. 58).\nAs one agent subdued Cherry and placed him under arrest, a second agent quickly looked into the Mercedes to make sure no one else was hiding in the vehicle. A third agent went through the motions of arresting the confidential informant to protect him as an informant, and after doing so returned to the Mercedes where, along with two other agents, he saw, through the open door, a black messenger-type satchel with the flap open and clear plastic bags containing what looked to be heroin or cocaine. Cherry testified at the suppression hearing that the drugs were not, in fact, in plain sight, but that they were in a black plastic bag contained within the closed and locked satchel, and the cash was also concealed in a black plastic bag stuffed under the driver's seat. Later testing confirmed that the satchel held baggies containing 348.1 grams of heroin and 13.7 grams of cocaine base (crack). Agents also found $ 19,495 in cash in the SUV. Eventually Chicago Police Officer and DEA task force officer Jose Castaneda photographed the car and the satchel, taking photographs of the satchel both open and closed, the cash, and other items in the car. All of the photographs had the same time stamp-8:48 p.m. Officer Castaneda testified that he could not recall the order in which he took the photographs and could not say whether the satchel was open or closed when Cherry was arrested.\nAfter agents read Cherry his Miranda rights, Cherry agreed to talk to one of the agents and told him that three weeks earlier the confidential informant, who he knew as \"Fat Man\" fronted him half of a kilogram of heroin for $ 31,500, but the heroin was not of good quality and his customers were complaining. On the night he was arrested, Cherry was bringing approximately 300 grams of heroin back to the confidential informant to exchange for an equivalent amount of cocaine. The government charged Cherry with possession with intent to distribute more than 100 grams of heroin, in violation of 21 U.S.C. \u00a7 841(a)(1).\nCherry filed two motions to suppress the evidence before trial. In the first motion he claimed that the agents lacked probable cause to arrest him. In the second motion he argued that the agents had no authority to search his bag within the vehicle as the drugs were not in plain view. Following a November 27, 2012 suppression hearing in which the court heard from Cherry and from four DEA agents, the district court found that the agents had probable cause to arrest Cherry and that the subsequent search of the vehicle was lawful as the drugs were in plain sight. In the alternative, the district court held that the narcotics inevitably would have been discovered after Cherry's arrest, subsequent to an inventory search of his vehicle.\nCherry twice moved to reconsider the district court decision, arguing, on September 8, 2014, that a new Seventh Circuit decision indicated that a court must have more corroboration from an informant's tip and that an enhanced version of the recording from the confidential informant's body camera did not support an agreement by Cherry to accept the cocaine. The district court rejected both arguments.\nAlmost two years after the suppression hearing, on September 8, 2014, Cherry filed another motion-this time seeking to inspect the camera used to photograph the satchel and the metadata associated with the photographs in order to determine in what order the photographs were taken. Because Castaneda took all of the photographs of the satchel, both open and closed, within the same minute (and the time stamp did not reveal seconds), the court and parties could not determine in what order the agent took the photographs. Cherry's counsel argued that the data sought would reveal the order in which the pictures were taken, and thus would uncover the truth about whether the drugs had been in plain sight in an open bag, or not visible in a closed bag when the agents arrived at the vehicle. After a search, however, the government determined that neither the camera nor any metadata was available because Agent Castaneda took the photographs with a personal camera which he subsequently sold at a yard sale in the summer of 2013. Cherry filed a renewed motion to reconsider, arguing that because the government failed to retain the metadata from the camera, the court should be precluded from relying on the photographs in making its probable cause determination. After the trial, Cherry also filed a motion to dismiss the indictment on the basis of an alleged Brady violation-that is, that the government failed to preserve the exculpatory evidence of the photographic metadata from the camera. The district court rejected this argument as well, noting that Cherry had failed to demonstrate any bad faith on the government's part, that the court had already found that the heroin was in plain view, and inevitably the drugs would have been discovered during an inventory search.\nThe case proceeded to trial where the jury convicted Cherry of the single count of the superseding indictment. After trial, Cherry filed another motion in which he repeated his pre-trial arguments. The district court found no reason to alter its rulings. Cherry was sentenced to 240 months' imprisonment, and now appeals. In this court he again argues that his arrest was not supported by probable cause and that the district court erred by refusing to suppress the evidence obtained during the warrantless search of his vehicle. He also argues that the district court erred by determining that the government did not violate Brady v. Maryland , 373 U.S. 83, 83 S.Ct. 1194, 10 L.Ed.2d 215 (1963) when it failed to preserve the potentially exculpatory metadata associated with the photographs of the evidence.\nII.\n1. Probable cause to arrest\nThe main crux of Cherry's defense is that the DEA agents had so little reliable information either from the confidential informant or from their own investigations that they could not have had probable cause either to arrest him or to search his vehicle. In pursuit of this defense, shortly after his original indictment, Cherry filed a motion to suppress the evidence obtained from his allegedly illegal arrest and the subsequent search of his SUV. The district court, however, denied his motion to suppress. When considering a district court's denial of a motion to suppress, we review findings of fact for clear error and questions of law de novo. United States v. Velazquez , 906 F.3d 554, 557 (7th Cir. 2018). We will not overturn a district court's credibility finding unless we find clear error. United States v. Jones , 900 F.3d 440, 449 (7th Cir. 2018). Cherry also filed post-trial motions under Federal Rule of Criminal Procedure 29(a) and (c), repeating these arguments and challenging the sufficiency of the evidence that the government relied upon to establish probable cause. R. 177, 196. When a defendant challenges the sufficiency of the government's evidence in a Rule 29 motion for a judgment of acquittal, as Cherry did below, we review de novo, viewing the evidence in the light most favorable to the government. United States v. Cruse , 805 F.3d 795, 811 (7th Cir. 2015). We must affirm if any rational trier of fact could have found the elements of the crime beyond a reasonable doubt. Id. We have often said that \"after a guilty verdict, a defendant seeking a judgment of acquittal faces a 'nearly insurmountable hurdle.' \" United States v. Jones , 713 F.3d 336, 339 (7th Cir. 2013) (citing United States v. Moore, 115 F.3d 1348, 1363 (7th Cir. 1997) ). Yet even under the relatively easier standard of review of the motion to dismiss, we find the DEA agents had probable cause to arrest Cherry.\nCherry's claims require us to go back to the core of the Fourth Amendment. The Fourth Amendment to the Constitution prohibits unreasonable searches and seizures, including arrests made without either a warrant or probable cause. U.S. Const. Amend. IV. A police officer has probable cause to make an arrest if a reasonable person, knowing all of the facts and circumstances known to this officer, would believe that the individual in question has committed or is committing a crime. Seiser v. City of Chicago , 762 F.3d 647, 654 (7th Cir. 2014). There is no checklist that can determine probable cause, particularly when evaluating probable cause based on an informant's tip.\n[P]robable cause is a fluid concept-turning on the assessment of probabilities in particular factual contexts-not readily, or even usefully, reduced to a neat set of legal rules. Informants' tips doubtless come in many shapes and sizes from many different types of persons. ... Informants' tips, like all other clues and evidence coming to a policeman on the scene may vary greatly in their value and reliability. Rigid legal rules are ill-suited to an area of such diversity. One simple rule will not cover every situation.\nIllinois v. Gates , 462 U.S. 213, 232, 103 S.Ct. 2317, 76 L.Ed.2d 527 (1983) (internal citations omitted). And, as the general standards of review remind us, when we look at the value and reliability of any particular tip, we give deference to the district court's determinations of the facts (and inferences therefrom) that feed into the finding of probable cause and review the legal determination of probable cause de novo. Ornelas v. United States , 517 U.S. 690, 699, 116 S.Ct. 1657, 134 L.Ed.2d 911 (1996). When reviewing probable cause in the case where an informant has provided a tip, therefore, we look at the totality of the circumstances, noting that \"a deficiency in one may be compensated for, in determining the overall reliability of a tip, by a strong showing as to the other, or by some other indicia of reliability.\" Gates , 462 U.S. at 233, 103 S.Ct. 2317. For this reason, direct comparisons of indicia of probable cause from one informant case to the next can be difficult.\nDespite the inability to reduce the analysis to a neat set of rules, the Supreme Court has mentioned factors that might go into the decision-making hopper, while warning against any temptation to be confined to a rigid test. Gates , 462 U.S. at 234-35, 103 S.Ct. 2317. Those factors include an informant's past reliability, her reputation for honesty, the basis of her knowledge, and her potential motive. Id. In United States v. Searcy , a case which involved a warrant application to a magistrate judge, our court, like the Supreme Court, stressed the importance of considering the totality of the circumstances, but noted that a magistrate might consider: \"first, the degree to which the informant acquired knowledge of the events through firsthand observation; second, the detail and specificity of the information provided by the informant; third, the interval between the date of the events and a police officer's application for the search warrant; and fourth, the extent to which law enforcement corroborated the informant's statements.\" United States v. Searcy , 664 F.3d 1119, 1122 (7th Cir. 2011).\nAnonymous tips, of course, require more corroboration then those where the honesty, motivation, and reliability of the informant can be assessed. Gates , 462 U.S. at 244-46, 103 S.Ct. 2317 ; Adams v. Williams , 407 U.S. 143, 147, 92 S.Ct. 1921, 32 L.Ed.2d 612 (1972) (\"Some tips, completely lacking in indicia of reliability, would either warrant no police response or require further investigation before a forcible stop of a suspect would be authorized.\"). The ability of an informant to predict future actions of others with specificity is one indicator of reliability. Gates , 462 U.S. at 245-46, 103 S.Ct. 2317. When a suspect engages in the behaviors and actions that an informant has predicted, \"[t]hat is exactly the type of corroboration that counts.\" United States v. Oliva , 385 F.3d 1111, 1114 (7th Cir. 2004). See also, Alabama v. White , 496 U.S. 325, 332, 110 S.Ct. 2412, 110 L.Ed.2d 301 (1990) (\"What was important was the caller's ability to predict respondent's future behavior, because it demonstrated inside information.\") (emphasis in original); United States v. Navarro , 90 F.3d 1245, 1254 (7th Cir. 1996) (\"because the surveillance preceding the stop corroborated the information from the informant, the law enforcement officers had probable cause for both the arrest and search.\"). But see United States v. Lopez , 907 F.3d 472, 483 (7th Cir. 2018) (informant who later disappeared was not reliable and \"[t]he officers' observations that day [of the arrest] did not corroborate, even roughly, the informant's story.\") Moreover, because the \"Fourth Amendment, balances the nature and quality of the intrusion on personal security against the importance of the governmental interests alleged to justify the intrusion ... [a] stop to investigate an already completed crime does not necessarily promote the interest of crime prevention as directly as a stop to investigate suspected ongoing criminal activity.\" United States v. Hensley , 469 U.S. 221, 228, 105 S.Ct. 675, 83 L.Ed.2d 604 (1985).\nIn this case, the informant did not have a long (or any) history of cooperating with law enforcement, and had not been known to them for long, but he was not an anonymous tipster. He had agreed to cooperate with law enforcement after being arrested earlier that day picking up a very large quantity of cocaine at the airport-more cocaine than anyone could use for personal consumption. The confidential informant provided significant incriminating information including that he had a pre-arranged plan to deliver thirteen kilograms of cocaine to Cherry. The informant also told the agents that Cherry was a member of the Black P Stone gang in Chicago and regularly trafficked in drugs. The informant then predicted to the DEA agents that Cherry, an African-American man, who he knew as \"Mo\" and who was of average height and weighed about 200 pounds would be arriving at a particular parking lot in Markham, Illinois at a particular time, and was known to drive a white Mercedes SUV. The phone calls between Cherry and the informant corroborated some of this information-Cherry appeared to agree to follow the informant's instructions given in the phone calls. The agents were able to corroborate more of this information when a man, meeting the informant's description, arrived in the predicted place at the predicted time, driving the make, model, and color of vehicle that the informant said he would be driving. Cherry's own behavior added to their confidence when he arrived at the agreed-upon parking lot, circled the parking lot as though assessing the safety and privacy of the situation, and then parked next to the confidential informant's car. He exited his own car and got into the front passenger seat of the informant's car. Law enforcement agents instructed the informant to signal them after having a certain conversation with Cherry and showing him the sham cocaine in the hidden compartment. The informant subsequently gave the agents the signal indicating that he had completed the prerequisite tasks. As the agents announced themselves, Cherry made initial moves to flee either by running toward or taking steps toward his vehicle.\nThe confidential informant was not an anonymous tipster and continued to cooperate with the agents after his arrest and throughout the sting operation-following all of the agents' commands and instructions. His earlier arrest meant that he had motivation to help the agents in order to receive leniency in his own case. We recognize that this can be a double edge sword-it gives informants motivation to assist law enforcement officers, but perhaps also gives them motivation to assist law enforcement without regard to the accuracy of the information. In any event, we have noted that the fact that a desire for leniency motivates an informant does not make the information he provides inherently unreliable. United States v. Mitten , 592 F.3d 767, 774 (7th Cir. 2010). And in fact, our court has noted that informant tips that involve inculpatory statements add great weight to an assessment of probable cause to arrest. United States v. Brown , 366 F.3d 456, 459 (7th Cir. 2004) (also noting that \"several circuits have held that such statements are so presumptively reliable that they may support a probable cause determination even if uncorroborated.\"). It is true that there is always a risk that an informant is setting up an innocent rival or enemy, but this is less of a risk when the informant is known and trying to lessen his own sentence. Surely the informant knew that he would not have engendered the good will of the agents had Cherry arrived and stated on the recorded wire that he had just come to meet the informant for pizza. See United States v. Olson, 408 F.3d 366, 371 (7th Cir. 2005) (\"A motive to curry favor, however, does not necessarily render an informant unreliable. Indeed, even informants 'attempting to strike a bargain with the police have a strong incentive to provide accurate and specific information rather than false information about a defendant's illegal activity.' \") (quoting U.S. v.Koerth, 312 F.3d 862, 870 (2002) ) (cleaned up).\nAs we have just noted, there is no formula for determining the requisite degree of reliability of an informant's tip that will provide probable cause to arrest. Other cases can give us guide posts. And so, for example, we might look to UnitedStates v. Freeman , 691 F.3d 893 (7th Cir. 2012), where the police had analogous facts from an informant about a similar pre-arranged drug deal. In Freeman , an arrested drug dealer agreed to assist the police in a sting. He telephoned a raspy-voiced man who agreed to meet him and sell him crack at a Sav-A-Lot parking lot. At the agreed upon time, a minivan pulled into the nearly empty parking lot and waited by the door of the store. The informant called the defendant who responded that he was waiting by that same door. The van, however, suddenly pulled out of the lot. After the van failed to engage a turn signal, police officers initiated a traffic stop and encountered a raspy-voiced man. A dog alerted to the scent of drugs, giving the police probable cause to search the van, but when they did, they found no drugs. The officers asked the informant to redial the number he had just used to set up the drug deal, and when he did, the call came through on a cell phone located in the armrest on the passenger-side door of the van. The men were arrested and, during a strip search at the jail, officers found crack cocaine hidden in the man's buttocks. The district court found that \"[t]he police had credible information about Freeman's drug-trafficking habits from the cooperating informants, and his activities just prior to his arrest coincided perfectly with the details of the undercover operation, thus supplying probable cause to arrest despite the fact that no drugs were found in the search during the stop.\" Id. at 896. The police watched the silver van pull into the parking lot, the van matched the description given by an earlier informant, it arrived at the time that the drug dealer on the phone said it would, and then the drug dealer on the phone stated that he was parked just outside a Sav-A-Lot store, right where the van was parked. Id. at 899-900. When pulled over, the passenger met physical descriptions given by previous informants and the phone number used to arrange the transaction rang a phone located within the silver van. Just as in this case, the police had little independent corroboration other than the informants' accurate descriptions and his ability to predict the defendant's actions. This, the court held, was sufficient to establish probable cause. Id. at 896.\nCherry argues that this case is not like Freeman, because in Freeman the police were monitoring the calls in real-time and knew that the defendant had agreed to sell crack to an informant at the precise location where he then appeared. But the agents in this case likewise knew that Cherry planned to meet the informant in the parking lot to participate in a drug deal. It is true that they did not listen to the phone calls in real time, but during the first call the officers were present with the informant. Tr. 11/26/12 at 23 (R. 58 at 23). In Freeman , our court noted that \"the police on the scene had plenty of information to give them probable cause to believe that [the defendant] had committed the crime,\" including the fact that the events unfolded just as the informant had said they would-a raspy-voiced man arrived at a pre-arranged location at the pre-arranged time in a vehicle he was known to drive.\" Freeman , 691 F.3d at 899-900. Sometimes having a drug buyer appear on the scene precisely when expected is sufficient to supply probable cause for an arrest. See United States v. Colon , 549 F.3d 565, 567 (7th Cir. 2008). In Colon the court upheld the finding of probable cause where one drug dealer telephoned another to tell him that a man would be arriving at a particular house in fifteen minutes to purchase drugs, and the police arrested that man as he left the house. Id. In this case the agents had far more: they had a man who matched the predicted description, arriving in a vehicle that matched descriptions of the drug dealer's vehicle, at the predicted place and time. They had the informant's confirmatory signal, and the defendant's preliminary attempt to flee.\nIt is true that the facts in this case are not the same as they were in Freeman . No two cases ever are. But Freeman emphasizes the value to law enforcement of an informant's knowledge when the events the informant predicted come to light in the manner the informant forecasted, particularly when those events would not have been known to the general public. See Freeman , 691 F.3d at 899-900 ; White , 496 U.S. at 332, 110 S.Ct. 2412 (noting that an informant's predictions gain some degree of reliability when the police see the events unfold as the informant predicted, particularly when it demonstrates inside information of which the general public would not be aware). Of course, there is always a risk that a confidential informant has ulterior motives and is leading law enforcement astray. Probable cause, however, does not require certainty in an informant's tip, just sufficient probability. Seiser , 762 F.3d at 654. In Brown , 366 F.3d at 460-61, for example, our court found sufficient probable cause to arrest despite a small risk that the informant \"had simply spotted [the defendant] while fleeing from the bank and then falsely implicated him in the bank robbery.\" Id . at 460-61. In that case a bank robber caught in the act described the getaway car awaiting him, the exact location where it would be waiting, the color and make of the car, the first letter of the license plate, and a name and description of the driver. Id. at 457. When the police were able to verify these details, \"the entirety of [the informant's] story, including his statements about Mr. Brown's role in the robberies, assumed a high degree of reliability.\" Id. at 460. It is true that the informant in Brown , like the informant here, could have been setting up an innocent person. As we noted, however, probable cause does not require \"hard certainties,\" only probabilities. Gates , 462 U.S. at 231, 103 S.Ct. 2317 (citing United States v. Cortez, 449 U.S. 411, 418, 101 S.Ct. 690, 66 L.Ed.2d 621 (1981) ). Cherry argues that the informant's information in Brown was far more detailed and the police were able to corroborate more of it. We do not think the level of detail in these two cases is materially different in a manner that affects probable cause.\nUndoubtedly more certainty is better where a defendant's liberty is at stake, but we do not require incontrovertible evidence for probable cause. Of course, it would have been better had the agents done more independent corroboration; had they been monitoring the conversations in real time (and certainly the technology was so readily available, even in 2012, that one wonders why it was not used); and if they had seen Cherry take possession of the drugs. Because probable cause is fact specific, it might happen that, in another case, a court would require this sort of corroboration before finding probable cause. We cannot conclude, however, that in this case these deficiencies eviscerated probable cause. The DEA agents had multiple pieces of detailed information from an informant who was implicating himself in a drug deal-information corroborated as the predictions came true. This was sufficient probable cause to support the arrest of Cherry.\n2. Probable cause to search the vehicle\nWe also conclude that the DEA agents lawfully searched Cherry's vehicle, including the satchel, and lawfully seized the narcotics. Like a warrantless arrest, a warrantless search and seizure violates the Fourth Amendment unless it falls within certain exceptions to the warrant requirement. Katz v. United States , 389 U.S. 347, 357, 88 S.Ct. 507, 19 L.Ed.2d 576 (1967). \"The 'plain-view' doctrine is often considered an exception to the general rule that warrantless searches are presumptively unreasonable, but this characterization overlooks the important difference between searches and seizures. If an article is already in plain view, neither its observation nor its seizure would involve any invasion of privacy.\" Horton v. California , 496 U.S. 128, 133, 110 S.Ct. 2301, 110 L.Ed.2d 112 (1990). Under this plain view doctrine, a warrantless seizure is justified if first, the law enforcement officer did not violate the Fourth Amendment in arriving at the place from which the evidence could be plainly viewed; second, the item was in plain view; and third, its incriminating character was immediately apparent. United States v. Contreras , 820 F.3d 255, 262 (7th Cir. 2016).\nAfter hearing testimony from the agents and Cherry, the court concluded that the drugs were in plain view after Cherry opened the driver's side door to his car while trying to flee. We see no reason not to give deference to this credibility and factual finding. As the district court concluded, the agents' testimony was substantially consistent: they arrested the defendant after he opened the door to his SUV, and through that open door they were able to see the messenger bag with a plastic bag containing a substance the agents reasonably suspected was illegal drugs. The district court concluded that the agents' version of events, was more likely true than Cherry's, and that any minor discrepancies were immaterial. R. 60 at 4-6. The district court did not believe Cherry's testimony that he hid the drugs at the bottom of the satchel, below several car titles and then placed the satchel on the floor of the front passenger side of the car. The district court reasoned that a drug dealer coming to exchange drugs would want to minimize his vulnerability and thus the time for the exchange, and therefore would place the drugs where they would be readily accessible. As we have noted, \"we must accept the district court's credibility determination unless the facts, as testified to by the police officers, were so unbelievable that no reasonable factfinder could credit them.\" Contreras , 820 F.3d at 263.\nCherry does not seem to dispute the prerequisites to the plain view doctrine-that the agents were lawfully in the parking lot and that the incriminating nature of the evidence would have been readily apparent. Cherry argues instead that his version of events is the one to be believed-the drugs were hidden inside the satchel on the floor of the Mercedes where the agents could not have seen them and the agents' reports to the contrary were inconsistent and thus unbelievable. We can make short shrift of this argument. \"A district court's credibility assessment based on live testimony will not be disturbed unless it is completely without foundation.\" Freeman , 691 F.3d at 900 (internal citations omitted).\nEven if we were to perseverate on the inconsistencies in the agents' testimony, none makes it impossible that the drugs were in plain view. At the suppression hearing, Agent O'Reilly testified that Cherry \"ran across the parking spot to his vehicle\" and opened the drivers' side door, and had his hand and arm inside the car when he was arrested. 11/27/12 Tr. at 76-77, 95 (R. 58). Agent Brazao testified that although he did not see who opened the door to the SUV, after he secured the informant, he walked back to the SUV one minute after the agents moved in to arrest Cherry, noticed the doors were open, and saw a black satchel and drugs through the open door. Id. at 14, 35-36, 48-49. Agent Crawford testified that he did not see who initially opened the door, but when he arrived at the SUV, the other agents had already arrested Cherry and he was on the ground and the door was open. Id. at 53-54, 56-61, 65-66. Crawford looked into the SUV to make certain there were no other people in the SUV who might be a threat to the agents and saw the satchel and drugs in plain view. Id. Those agents testified consistently at trial. Tr. 6/28/16 a.m. at 193-202, 242-43 (R. 184); Tr. 6/28/16 p.m. at 296, 307-08, 310-11 (R. 179). Cherry points accusatorily to Chicago police officer Gamboa's testimony. Officer Gamboa did not testify at the suppression hearing, but he did testify at trial and his testimony was less clear about the door. He testified that Cherry \"very quickly tried to get into his vehicle,\" Tr. 6/28/16 at 390, 391 (R. 179) and that he was handcuffed outside of the vehicle. Id. at 391. His testimony about whether the door to the SUV was open or closed, however, was a bit equivocal. Cherry hangs his hat on the fact that Officer Gamboa testified at trial that the agents grabbed Cherry before he could open his car. Gamboa's testimony, however, was not as clear as Cherry presents it to be:\nGamboa: He tried to go in the car. I tried not to let him go in the car.\nQ. And you grabbed him?\nA. From the shoulders and his arm, yeah.\nQ. So he wasn't in the car at the time that you grabbed him?\nA. No. He was trying to get into the car.\nQ. Door was open?\nA. Trying to open it, yeah.\nQ. Oh, so the door-he hadn't been able to-he wasn't successful in opening the door?\nA. He didn't get in. If he did open it, I wasn't paying attention . I was just trying to make sure he didn't get in.\nQ. So you don't recall whether it was open or closed?\nA. It wasn't open- he didn't get in. Let's put it that way . He couldn't get his foot in, so it wasn't.\nQ. Okay. So you don't think it was open ?\nA.No .\nId. at 391-92 (emphasis ours).\nNone of the testimony gives rise to an irreconcilable difference. In fact, none of it is inherently inconsistent. Testimony is not incredible as a matter of law\n\"only because the witness may have been impeached by certain discrepancies in [her] story, by prior inconsistent statements, or by the existence of a motive to provide evidence favorable to the government.\" To find a witness's testimony to be incredible as a matter of law, it must have been \"physically impossible for the witness to have observed that which he claims occurred, or impossible under the laws of nature for the occurrence to have taken place at all.\"\nContreras , 820 F.3d at 264 (citing Freeman, 691 F.3d at 900 and United States v. Taylor, 701 F.3d 1166, 1174 (7th Cir.2012) ).\nThe district court certainly did not err by accepting the testimony of the three agents who were clear on the matter that the door was open allowing the agents to view the drugs in plain view on the seat. This was particularly true after the suppression hearing when the district court had only the testimony of Agents Brazao, Crawford and O'Reilly to consider. But this was also true even when the court reviewed the post-trial motion for acquittal. We cannot say that no reasonable jury could have concluded that the door was open and the drugs in plain view. We see no reason to disturb the credibility and factual findings of the district court on the motion to suppress and certainly no reason to upset the jury's conclusion.\nIn any event, even if the door to the Mercedes was closed, there were two other avenues to admit the evidence. First, the agents were entitled to open the door to conduct a limited protective sweep in case there were other occupants who were not visible through the tinted windows or hiding in the rear seat. Traffic stops are dangerous for officers and the \"legitimate and weighty\" interest in officer safety allows officers to perform protective searches and frisks of other passengers. Arizona v. Johnson , 555 U.S. 323, 331, 129 S.Ct. 781, 172 L.Ed.2d 694 (2009).\nAnd finally, the district court was correct to hold, in the alternative, that the drugs were admissible under the inevitable discovery doctrine. As the Supreme Court has held, \"[i]f the prosecution can establish by a preponderance of the evidence that the information ultimately or inevitably would have been discovered by lawful means ... then the deterrence rationale has so little basis that the evidence should be received.\" Nix v. Williams , 467 U.S. 431, 444, 104 S.Ct. 2501, 81 L.Ed.2d 377 (1984). Once Cherry had been arrested, the agents would have removed his car from the parking lot and it would have been subject to an inventory search, as is the usual protocol. As we noted before, once a defendant is in custody, \"the arresting officers would not have allowed the truck to just sit on the street after\" a defendant has been taken away. United States v. Stotler , 591 F.3d 935, 940 (7th Cir. 2010). Agent Brazao confirmed this in his testimony at the suppression hearing: \"it was determined by the case agents that we were not going to seize the vehicle, and we didn't want to leave it there in an open parking lot so that someone would steal it or damage it. So we wanted to secure it. So we asked Markham police can we secure it in their parking lot until someone can come pick it up.\" Tr. 11/27/12 at 66 (R. 58). Although Cherry was arrested in a private parking lot, it seems unlikely that a police department would have allowed a car, potentially filled with drugs, to sit in a parking lot indefinitely. The drugs, therefore, inevitably would have been discovered during an inventory search.\n3. Photographic metadata.\nFinally, Cherry's motion to dismiss the superseding indictment and the motion for judgment of acquittal argued that the government violated its affirmative duty to disclose evidence favorable to him as required by the Supreme Court in Brady v. Maryland, 373 U.S. 83, 83 S.Ct. 1194, 10 L.Ed.2d 215 (1963). Brady requires that the government disclose evidence materially favorable to the accused, whether that evidence is impeachment evidence or exculpatory. Youngblood v. West Virginia, 547 U.S. 867, 869-70, 126 S.Ct. 2188, 165 L.Ed.2d 269 (2006). Upon review of a motion to dismiss which alleges a Brady violation, we look only to see if the district court abused its discretion. United States v. King , 910 F.3d 320, 326 (7th Cir. 2018).\nWhen a defendant alleges that the government failed to preserve potentially exculpatory evidence, as Cherry has done here, we apply the standard articulated in Arizona v. Youngblood, 488 U.S. 51, 109 S.Ct. 333, 102 L.Ed.2d 281 (1988), which states that there is no denial of due process \"unless a criminal defendant can show bad faith on the part of the police.\" Youngblood, 488 U.S. at 58, 109 S.Ct. 333. See also United States v. Fletcher , 634 F.3d 395, 407 (7th Cir. 2011), as amended (Feb. 23, 2011). In short, our precedent demands that Cherry demonstrate: \"(1) bad faith by the government, (2) that the exculpatory nature of the evidence was apparent before its destruction, and (3) that he could not obtain the same evidence anywhere else.\" Fletcher , 634 F.3d at 407 (citing United States v. Kimoto , 588 F.3d 464, 475 (7th Cir. 2009) ). Bad faith, in turn, requires proof of an \" 'official animus' or a 'conscious effort to suppress exculpatory evidence,' \" and necessarily turns on an official's subjective knowledge that the evidence in question had exculpatory value at the time it was lost or destroyed.\" United States v. Bell , 819 F.3d 310, 318 (7th Cir. 2016) (quoting Jones v. McCaughtry, 965 F.2d 473, 477 (7th Cir. 1992) ).\nIn this case, the first two factors overlap. The district court did not abuse its discretion in determining that the camera was not sold in bad faith, in part because the exculpatory nature would not have been obvious to the officer at the time the camera was sold. Agent Castaneda sold the camera, which was his personal property, at a garage sale in the summer of 2013, months after the suppression hearing. During the suppression hearing, the defense counsel asked Castaneda about the order of the photographs but never sought to inspect the camera or its metadata until almost two years after that hearing. Cherry's counsel was well aware of the existence of this data, but at no point before or during the suppression hearing did Cherry ask for the camera or the metadata. Nor did Cherry ask the government to preserve the data. The district court concluded that \"[n]o evidence supports Defendant's position (nor is it likely) that after the motion to suppress, during which metadata was not even mentioned, law enforcement officers anticipated that such information would someday be requested and intentionally destroyed it in order to deprive Defendant of the evidence.\" R. 106 at 4.\nMoreover, as we noted above, the contents of the vehicle, including the satchel and the drugs within it, would have been discovered in a lawful inventory search once the agents took custody of the vehicle. This makes any debate about the order in which the photographs were taken and whether the bag was opened or closed irrelevant.\nIII.\nFor all the reasons asserted above, we AFFIRM the opinion of the district court in all respects.\nThe testimony of the agents was inconsistent as to whether Cherry parked directly next to the informant's car, one parking spot away, or one-and-a-half parking spots away. We find this discrepancy to be immaterial.\nFrom this point forward we will refer to all law enforcement officers collectively as \"agents\" unless specifically noted otherwise. Technically, Officer Castaneda was employed as a City of Chicago police officer and assigned to the DEA as a task force officer.\nAlthough flight cannot, on its own, provide probable cause to arrest, the determination of probable cause depends on a totality of circumstances that may take into account \"commonsense judgments and inferences about human behavior,\" including unprovoked flight. Illinois v. Wardlow , 528 U.S. 119, 125, 120 S.Ct. 673, 145 L.Ed.2d 570 (2000) (explaining that a \"refusal to cooperate, without more, does not furnish the minimal level of objective justification needed for a detention or seizure,\" but unprovoked flight could factor into reasonable suspicion) (internal citations omitted).",
+        "type": "majority",
+        "author": "Rovner, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Debra Riggs Bonamici, Attorney, Andrianna D. Kastanek, Attorney, OFFICE OF THE UNITED STATES ATTORNEY, Chicago, IL, for Plaintiff-Appellee.",
+      "Beau B. Brindley, Attorney, Michael J. Thompson, Attorney, LAW OFFICES OF BEAU B. BRINDLEY, for Defendant-Appellant."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff-Appellee,\nv.\nDeandre CHERRY, Defendant-Appellant.\nNo. 17-3018\nUnited States Court of Appeals, Seventh Circuit.\nArgued December 5, 2018\nDecided April 8, 2019\nDebra Riggs Bonamici, Attorney, Andrianna D. Kastanek, Attorney, OFFICE OF THE UNITED STATES ATTORNEY, Chicago, IL, for Plaintiff-Appellee.\nBeau B. Brindley, Attorney, Michael J. Thompson, Attorney, LAW OFFICES OF BEAU B. BRINDLEY, for Defendant-Appellant.\nBefore Flaum, Rovner, and Scudder, Circuit Judges."
+  },
+  "file_name": "1126-02",
+  "first_page_order": 1126,
+  "last_page_order": 1141
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12233537,
+  "name": "Irick v. Bell, Warden",
+  "name_abbreviation": "Irick v. Bell",
+  "decision_date": "2011-11-14",
+  "docket_number": "No. 11-5174",
+  "first_page": "1036",
+  "last_page": "1036",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1036"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.696,
+    "sha256": "bbbbb02a7a1d3e11fc1a291044159e45e786186b96107d5b364c885ff1fdfcde",
+    "simhash": "1:a08707e29a4e00b0",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Irick v. Bell, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5174.\nIrick v. Bell, Warden."
+  },
+  "file_name": "1036-11",
+  "first_page_order": 1118,
+  "last_page_order": 1118
+}

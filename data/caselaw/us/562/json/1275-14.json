@@ -1,0 +1,59 @@
+{
+  "id": 5958949,
+  "name": "Berry v. Citibank F. S. B.",
+  "name_abbreviation": "Berry v. Citibank F. S. B.",
+  "decision_date": "2011-03-07",
+  "docket_number": "No. 10-8274",
+  "first_page": "1275",
+  "last_page": "1275",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1275"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 74,
+    "ocr_confidence": 0.559,
+    "sha256": "c757ddd95e12e9a7dc52f2ee3817dac081529fa0264d1300caa14001d1669eb8",
+    "simhash": "1:2d4846494a0da538",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Berry v. Citibank F. S. B."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8274.\nBerry v. Citibank F. S. B."
+  },
+  "file_name": "1275-14",
+  "first_page_order": 1297,
+  "last_page_order": 1297
+}

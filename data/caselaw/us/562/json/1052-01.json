@@ -1,0 +1,59 @@
+{
+  "id": 5952216,
+  "name": "Maher v. United States",
+  "name_abbreviation": "Maher v. United States",
+  "decision_date": "2010-11-15",
+  "docket_number": "No. 10-7024",
+  "first_page": "1052",
+  "last_page": "1052",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1052"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.595,
+    "sha256": "0d5c7f7a283b7cc07b402a529743ed46b85ca3d4fde6b4035aa317f8e9cb0cfa",
+    "simhash": "1:951b5e434fd5b42c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Maher v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7024.\nMaher v. United States."
+  },
+  "file_name": "1052-01",
+  "first_page_order": 1074,
+  "last_page_order": 1074
+}

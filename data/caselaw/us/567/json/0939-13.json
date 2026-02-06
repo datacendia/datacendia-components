@@ -1,0 +1,59 @@
+{
+  "id": 12411944,
+  "name": "Amaker v. New York et al.",
+  "name_abbreviation": "Amaker v. New York",
+  "decision_date": "2012-06-25",
+  "docket_number": "No. 11-9957",
+  "first_page": "939",
+  "last_page": "939",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 939"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 72,
+    "ocr_confidence": 0.706,
+    "sha256": "9a94a03ade7ac6f149e363ee54b5bff5bb7c5b2eeb1e14aace0e96a864f5da89",
+    "simhash": "1:795260f9091ffc16",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Amaker v. New York et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9957.\nAmaker v. New York et al."
+  },
+  "file_name": "0939-13",
+  "first_page_order": 843,
+  "last_page_order": 843
+}

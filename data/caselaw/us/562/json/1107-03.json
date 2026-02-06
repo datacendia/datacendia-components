@@ -1,0 +1,59 @@
+{
+  "id": 5914424,
+  "name": "In re Mason; In re Holloman; and In re Wilhelm",
+  "name_abbreviation": "In re Mason",
+  "decision_date": "2010-12-13",
+  "docket_number": "No. 10-7506; No. 10-7606; No. 10-7620",
+  "first_page": "1107",
+  "last_page": "1107",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1107"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 132,
+    "ocr_confidence": 0.525,
+    "sha256": "51381d291b9e0e125467d86557404d80d3ea8b798e29a26f65a52d7ebcc55434",
+    "simhash": "1:e25210a9b1096b4c",
+    "word_count": 23
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Mason; In re Holloman; and In re Wilhelm."
+    ],
+    "opinions": [
+      {
+        "text": "Petitions for writs of habeas corpus denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7506.\nNo. 10-7606.\nNo. 10-7620.\nIn re Mason; In re Holloman; and In re Wilhelm."
+  },
+  "file_name": "1107-03",
+  "first_page_order": 1129,
+  "last_page_order": 1129
+}

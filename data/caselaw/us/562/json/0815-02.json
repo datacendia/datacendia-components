@@ -1,0 +1,59 @@
+{
+  "id": 5939908,
+  "name": "In re Discipline of Neel",
+  "name_abbreviation": "In re Discipline of Neel",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. D-2546",
+  "first_page": "815",
+  "last_page": "815",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 815"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 40,
+    "char_count": 288,
+    "ocr_confidence": 0.575,
+    "sha256": "3ff85ec701c54c8a0125cf0b36f0e776177f8d68a839c4d9b05adf5e66454478",
+    "simhash": "1:418a37b63feaa763",
+    "word_count": 52
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of Neel."
+    ],
+    "opinions": [
+      {
+        "text": "Samuel Regester Neel III, of Tallahassee, Fla., is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2546.\nIn re Discipline of Neel."
+  },
+  "file_name": "0815-02",
+  "first_page_order": 837,
+  "last_page_order": 837
+}

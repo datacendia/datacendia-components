@@ -1,0 +1,988 @@
+{
+  "id": 12658463,
+  "name": "EX PARTE Christian SAUDER, Appellant",
+  "name_abbreviation": "Ex parte Sauder",
+  "decision_date": "2018-08-30",
+  "docket_number": "NO. 01-17-00467-CR",
+  "first_page": "203",
+  "last_page": "216",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 S.W.3d 203"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex. App. Ct.",
+    "id": 30166,
+    "name": "Court of Appeals of Texas, Houston (1st Dist.)"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "1992 WL 91238",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "pin_cites": [
+        {
+          "page": "*1-2"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "1997 WL 348545",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "pin_cites": [
+        {
+          "page": "*2-3"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2004 WL 1852965",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "opinion_index": 0
+    },
+    {
+      "cite": "2013 WL 1189007",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "pin_cites": [
+        {
+          "page": "*2-4"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2017 Tex. Sess. Law Serv. 4001",
+      "category": "laws:leg_session",
+      "reporter": "Tex. Sess. Law Serv.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "Tex. Penal Code Ann. \u00a7 37.12",
+      "category": "laws:leg_statute",
+      "reporter": "Tex. Code Ann.",
+      "year": 2016,
+      "opinion_index": 0
+    },
+    {
+      "cite": "95 L.Ed. 886",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "weight": 2,
+      "year": 1951,
+      "opinion_index": 0
+    },
+    {
+      "cite": "341 U.S. 223",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1148002
+      ],
+      "weight": 2,
+      "year": 1951,
+      "pin_cites": [
+        {
+          "page": "231-32"
+        },
+        {
+          "page": "707-08"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/341/0223-01"
+      ]
+    },
+    {
+      "cite": "767 S.W.2d 769",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9985335
+      ],
+      "weight": 6,
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "774"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/767/0769-01"
+      ]
+    },
+    {
+      "cite": "187 S.W.3d 496",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8430854
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "499"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/187/0496-01"
+      ]
+    },
+    {
+      "cite": "318 U.S. 702",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        364135
+      ],
+      "weight": 3,
+      "year": 1943,
+      "pin_cites": [
+        {
+          "page": "704"
+        },
+        {
+          "page": "916"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/318/0702-01"
+      ]
+    },
+    {
+      "cite": "552 U.S. 442",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3675723
+      ],
+      "weight": 4,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "1190"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/552/0442-01"
+      ]
+    },
+    {
+      "cite": "475 S.W.3d 860",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6837876
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "864"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/475/0860-01"
+      ]
+    },
+    {
+      "cite": "535 U.S. 234",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        354556
+      ],
+      "weight": 3,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "255"
+        },
+        {
+          "page": "1404"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/535/0234-01"
+      ]
+    },
+    {
+      "cite": "539 U.S. 113",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8897431
+      ],
+      "weight": 3,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "118-19"
+        },
+        {
+          "page": "2196"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/539/0113-01"
+      ]
+    },
+    {
+      "cite": "559 U.S. 460",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3582194,
+        12448252
+      ],
+      "weight": 4,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "468"
+        },
+        {
+          "page": "1584"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/559/0460-01",
+        "/l-ed-2d/176/0435-01"
+      ]
+    },
+    {
+      "cite": "93 S.W.3d 394",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9375086
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "395-97"
+        },
+        {
+          "page": "395-97"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/93/0394-01"
+      ]
+    },
+    {
+      "cite": "156 S.W.3d 679",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9180146
+      ],
+      "weight": 7,
+      "pin_cites": [
+        {
+          "page": "680-81"
+        },
+        {
+          "page": "679-81",
+          "parenthetical": "discussing elements of section 37.12 "
+        },
+        {
+          "page": "679-80"
+        },
+        {
+          "page": "680-81"
+        },
+        {
+          "page": "681"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/156/0679-01"
+      ]
+    },
+    {
+      "cite": "507 S.W.3d 750",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12186052
+      ],
+      "weight": 3,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "756"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/507/0750-01"
+      ]
+    },
+    {
+      "cite": "521 S.W.3d 329",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12385220
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "334"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/521/0329-01"
+      ]
+    },
+    {
+      "cite": "995 S.W.2d 677",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        11664017
+      ],
+      "weight": 2,
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "683"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/995/0677-01"
+      ]
+    },
+    {
+      "cite": "553 U.S. 285",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3674164
+      ],
+      "weight": 3,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "293"
+        },
+        {
+          "page": "1838"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/553/0285-01"
+      ]
+    },
+    {
+      "cite": "539 S.W.3d 298",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12655578
+      ],
+      "weight": 18,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "306",
+          "parenthetical": "\"The first step in overbreadth analysis is to construe the challenged statute; it is impossible to determine whether a statute reaches too far without first knowing what the statute covers.\""
+        },
+        {
+          "page": "306"
+        },
+        {
+          "page": "310"
+        },
+        {
+          "page": "310"
+        },
+        {
+          "page": "310"
+        },
+        {
+          "page": "313",
+          "parenthetical": "\"A conviction fails to comport with due process if the statute under which it is obtained fails to provide a person of ordinary intelligence fair notice of what is prohibited, or is so standardless that it authorizes or encourages seriously discriminatory enforcement.\""
+        },
+        {
+          "page": "314"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/539/0298-01"
+      ]
+    },
+    {
+      "cite": "323 S.W.3d 493",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7323419
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "504-05"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/323/0493-01"
+      ]
+    },
+    {
+      "cite": "478 S.W.3d 89",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6828149
+      ],
+      "weight": 14,
+      "pin_cites": [
+        {
+          "page": "93-94"
+        },
+        {
+          "page": "93-94",
+          "parenthetical": "recognizing that some types of expressive conduct or speech are not entitled to First Amendment protections"
+        },
+        {
+          "page": "94"
+        },
+        {
+          "page": "94"
+        },
+        {
+          "page": "94"
+        },
+        {
+          "page": "94"
+        },
+        {
+          "page": "94"
+        },
+        {
+          "page": "94"
+        },
+        {
+          "page": "93-94",
+          "parenthetical": "recognizing that some types of expressive conduct or speech are not entitled to First Amendment protections"
+        },
+        {
+          "page": "94"
+        },
+        {
+          "page": "96"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/478/0089-01"
+      ]
+    },
+    {
+      "cite": "283 U.S. 697",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        434240
+      ],
+      "weight": 3,
+      "year": 1931,
+      "pin_cites": [
+        {
+          "page": "716"
+        },
+        {
+          "page": "631"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/283/0697-01"
+      ]
+    },
+    {
+      "cite": "425 U.S. 748",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6182253
+      ],
+      "weight": 3,
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "771"
+        },
+        {
+          "page": "1830"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/425/0748-01"
+      ]
+    },
+    {
+      "cite": "93 L.Ed. 834",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "year": 1949,
+      "opinion_index": 0
+    },
+    {
+      "cite": "336 U.S. 490",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3939338
+      ],
+      "weight": 2,
+      "year": 1949,
+      "pin_cites": [
+        {
+          "page": "498-501"
+        },
+        {
+          "page": "689-90"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/336/0490-01"
+      ]
+    },
+    {
+      "cite": "567 U.S. 709",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12407413
+      ],
+      "weight": 11,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "717-18",
+          "parenthetical": "citing, e.g. , Giboney v. Empire Storage & Ice Co. , 336 U.S. 490, 498-501, 69 S.Ct. 684, 689-90, 93 L.Ed. 834 (1949), Va. Bd. of Pharmacy v. Va. Citizens Consumer Council, Inc. , 425 U.S. 748, 771, 96 S.Ct. 1817, 1830, 48 L.Ed.2d 346 (1976"
+        },
+        {
+          "page": "2544",
+          "parenthetical": "citing, e.g. , Giboney v. Empire Storage & Ice Co. , 336 U.S. 490, 498-501, 69 S.Ct. 684, 689-90, 93 L.Ed. 834 (1949), Va. Bd. of Pharmacy v. Va. Citizens Consumer Council, Inc. , 425 U.S. 748, 771, 96 S.Ct. 1817, 1830, 48 L.Ed.2d 346 (1976"
+        },
+        {
+          "parenthetical": "citing, e.g. , Giboney v. Empire Storage & Ice Co. , 336 U.S. 490, 498-501, 69 S.Ct. 684, 689-90, 93 L.Ed. 834 (1949), Va. Bd. of Pharmacy v. Va. Citizens Consumer Council, Inc. , 425 U.S. 748, 771, 96 S.Ct. 1817, 1830, 48 L.Ed.2d 346 (1976"
+        },
+        {
+          "page": "717-18"
+        },
+        {
+          "page": "2544",
+          "parenthetical": "recognizing several categories of speech that do not fall under First Amendment protections, including fraud and speech integral to criminal conduct"
+        },
+        {
+          "page": "723"
+        },
+        {
+          "page": "717-18"
+        },
+        {
+          "page": "2544"
+        },
+        {
+          "page": "717-18"
+        },
+        {
+          "page": "2544",
+          "parenthetical": "recognizing several categories of speech that do not fall under First Amendment protections, including fraud and speech integral to criminal conduct"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/567/0709-01"
+      ]
+    },
+    {
+      "cite": "391 U.S. 367",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1767540
+      ],
+      "weight": 5,
+      "year": 1968,
+      "pin_cites": [
+        {
+          "page": "376"
+        },
+        {
+          "page": "1678"
+        },
+        {
+          "page": "376"
+        },
+        {
+          "page": "1678",
+          "parenthetical": "holding that First Amendment protections do not include all modes of \"communication of ideas by conduct\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/391/0367-01"
+      ]
+    },
+    {
+      "cite": "538 U.S. 343",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9030793
+      ],
+      "weight": 3,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "358"
+        },
+        {
+          "page": "1547"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/538/0343-01"
+      ]
+    },
+    {
+      "cite": "491 S.W.3d 733",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6794898
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "parenthetical": "\"The First Amendment affords protection to symbolic or expressive conduct as well as to actual speech.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/491/0733-01"
+      ]
+    },
+    {
+      "cite": "491 U.S. 397",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6214891
+      ],
+      "weight": 3,
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "404",
+          "parenthetical": "holding that symbolic or expressive conduct may \"possess sufficient communicative elements to bring the First Amendment into play\""
+        },
+        {
+          "page": "2539",
+          "parenthetical": "holding that symbolic or expressive conduct may \"possess sufficient communicative elements to bring the First Amendment into play\""
+        },
+        {
+          "parenthetical": "holding that symbolic or expressive conduct may \"possess sufficient communicative elements to bring the First Amendment into play\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/491/0397-01"
+      ]
+    },
+    {
+      "cite": "442 S.W.3d 325",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6908254
+      ],
+      "weight": 3,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "344"
+        },
+        {
+          "page": "337",
+          "parenthetical": "\"[T]he mere existence of an intent element does not by itself eliminate First Amendment concerns posed by a statute; it is the specific type of intent that matters.\" (internal footnotes omitted) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/442/0325-01"
+      ]
+    },
+    {
+      "cite": "134 S.Ct. 2518",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12581709
+      ],
+      "weight": 2,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "2534-35"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/134/2518-01"
+      ]
+    },
+    {
+      "cite": "573 U.S. 464",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "year": 2014,
+      "opinion_index": 0
+    },
+    {
+      "cite": "491 U.S. 781",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6219515
+      ],
+      "weight": 4,
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "791"
+        },
+        {
+          "page": "2753-54"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/491/0781-01"
+      ]
+    },
+    {
+      "cite": "512 U.S. 622",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        39619
+      ],
+      "weight": 5,
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "642"
+        },
+        {
+          "page": "2459"
+        },
+        {
+          "page": "642"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/512/0622-01"
+      ]
+    },
+    {
+      "cite": "529 U.S. 803",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9509184
+      ],
+      "weight": 3,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "817"
+        },
+        {
+          "page": "1888"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/529/0803-01"
+      ]
+    },
+    {
+      "cite": "502 S.W.3d 218",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12177346
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "224"
+        },
+        {
+          "page": "226-27"
+        },
+        {
+          "page": "227",
+          "parenthetical": "holding that First Amendment permits regulation of conduct involving fraudulent speech"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/502/0218-01"
+      ]
+    },
+    {
+      "cite": "135 S.Ct. 2218",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12590246
+      ],
+      "weight": 3,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "2226"
+        },
+        {
+          "page": "2229-30",
+          "parenthetical": "stating that content-based restrictions operate to restrict particular viewpoints or public discussion of an entire topic or subject matter"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/135/2218-01"
+      ]
+    },
+    {
+      "cite": "424 S.W.3d 10",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6951634
+      ],
+      "weight": 8,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "14"
+        },
+        {
+          "page": "15"
+        },
+        {
+          "parenthetical": "holding that when government seeks to restrict and punish speech based on its content, usual presumption of constitutionality is reversed and government bears burden of proving constitutionality"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/424/0010-01"
+      ]
+    },
+    {
+      "cite": "483 S.W.3d 632",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6812219
+      ],
+      "weight": 7,
+      "pin_cites": [
+        {
+          "page": "638"
+        },
+        {
+          "page": "638"
+        },
+        {
+          "page": "639"
+        },
+        {
+          "page": "639"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/483/0632-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1252,
+    "char_count": 34881,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2649471069548842
+    },
+    "sha256": "210a4f963546668a3438e7373b93c68953eac65b74e1ec11ee7ac934bc905ece",
+    "simhash": "1:1840a8184823777f",
+    "word_count": 5540
+  },
+  "last_updated": "2024-02-27T19:35:19.974449+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Panel consists of Justices Jennings, Keyes, and Higley."
+    ],
+    "parties": [
+      "EX PARTE Christian SAUDER, Appellant"
+    ],
+    "opinions": [
+      {
+        "text": "Evelyn V. Keyes, Justice\nIn this appeal from the trial court's denial of his application for a writ of habeas corpus, Christian Sauder argues that Texas Penal Code section 37.12, prohibiting false identification as a peace officer, is facially unconstitutional. In two issues, Sauder asserts that the trial court erred in denying him relief because section 37.12 is: (1) unconstitutionally overbroad as written and void under the First Amendment to the United States Constitution; and (2) unconstitutionally vague in violation of the Fourteenth Amendment.\nWe affirm.\nBackground\nSauder was charged with the offense of false identification as a peace officer under Penal Code section 37.12. The charging instrument alleged:\n[O]n or about January 01, 2015, [Christian Sauder] then and there intentionally or knowingly possess[ed] a badge bearing an insignia of Fort Bend County Sheriff's Office that identified a person as a peace officer, and the defendant knew that he was not commissioned as a peace officer as indicated on the badge.\nSauder subsequently filed a pre-trial application for a writ of habeas corpus, arguing that section 37.12 was unconstitutional as written on overbreadth and vagueness grounds. The trial court held a hearing on the motion, but no testimony was presented and no evidence regarding the facts of the underlying case was admitted. After considering the application, the arguments of the parties, and the exhibits attached to Sauder's application, including photographs of badges, shirts, and other items bearing an insignia of a law enforcement agency collected from various sources and locations not associated with Sauder's case, the trial court denied Sauder's request on the merits. This appeal followed.\nConstitutionality of Texas Penal Code section 37.12\nSauder argues that Penal Code section 37.12 is facially unconstitutional because it is both (1) overbroad and void under the First Amendment to the United States Constitution and (2) vague in violation of the Fourteenth Amendment.\nA. Standard of Review\n\"In general, we review a trial court's ruling on an application for writ of habeas corpus using an abuse-of-discretion standard, and we view any evidence in the light most favorable to that ruling and defer to implied factual findings supported by the record.\" Ex parte Flores , 483 S.W.3d 632, 638 (Tex. App.-Houston [14th Dist.] 2015, pet. ref'd). However, whether a statute is facially unconstitutional is a question of law that we review de novo. Ex parte Lo , 424 S.W.3d 10, 14 (Tex. Crim. App. 2015) ; Ex parte Flores , 483 S.W.3d at 638.\nTypically, we must presume \"that the statute is valid and that the legislature has not acted unreasonably or arbitrarily,\" and the person challenging the statute bears the burden of establishing that it is unconstitutional. Ex parte Lo , 424 S.W.3d at 15.\nSauder, however, argues that Penal Code section 37.12 is a content-based restriction on constitutionally protected speech, which would shift both the presumption of constitutionality and the burden of proof. See id. (holding that when government seeks to restrict and punish speech based on its content, usual presumption of constitutionality is reversed and government bears burden of proving constitutionality). This is so because \"[t]he First Amendment's prohibition of laws 'abridging the freedom of speech' ... limits the government's power to regulate speech based on its substantive content.\" Ex parte Flores , 483 S.W.3d at 639 (citing U.S. CONST . amend I, and Reed v. Town of Gilbert , --- U.S. ----, 135 S.Ct. 2218, 2226, 192 L.Ed.2d 236 (2015) ); see State v. Stubbs , 502 S.W.3d 218, 224 (Tex. App.-Houston [14th Dist.] 2016, pet. ref'd).\nWhen the government regulates speech based on its substantive content, the usual presumption of constitutionality afforded legislative enactments is reversed. United States v. Playboy Entm't Grp., Inc. , 529 U.S. 803, 817, 120 S.Ct. 1878, 1888, 146 L.Ed.2d 865 (2000) ; Ex parte Flores , 483 S.W.3d at 639. Content-based regulations are those that \"distinguish favored from disfavored speech based on the idea or message expressed.\" Ex parte Lo , 424 S.W.3d at 15 ; see also Reed , 135 S.Ct. at 2229-30 (stating that content-based restrictions operate to restrict particular viewpoints or public discussion of an entire topic or subject matter). Such restrictions are \"presumptively invalid, and the government bears the burden to rebut that presumption.\" Ex parte Flores , 483 S.W.3d at 639 (citing Ex parte Lo , 424 S.W.3d at 15 ).\nWe apply strict scrutiny to regulations that suppress, disadvantage, or impose differential burdens upon speech because of its content, and such regulations may be upheld only if it is necessary to serve a compelling state interest and employs the least speech-restrictive means to achieve its goal. Ex parte Flores , 483 S.W.3d at 639 (citing Turner Broad. Sys., Inc. v. F.C.C. , 512 U.S. 622, 642, 114 S.Ct. 2445, 2459, 129 L.Ed.2d 497 (1994) and Ex parte Lo , 424 S.W.3d at 15 ).\n\"Other types of regulations receive intermediate scrutiny, including content-neutral regulations of the time, place, and manner of speech, as well as regulations of speech that can be justified without reference to its content.\" Id. (citing Turner Broad. Sys. , 512 U.S. at 642, 114 S.Ct. at 2459 and Ward v. Rock Against Racism , 491 U.S. 781, 791, 109 S.Ct. 2746, 2753-54, 105 L.Ed.2d 661 (1989) ). \"These regulations are permissible if they promote a significant governmental interest and do not burden substantially more speech than necessary to further that interest.\" Id. (citing McCullen v. Coakley , 573 U.S. 464, 134 S.Ct. 2518, 2534-35, 189 L.Ed.2d 502 (2014) and Ex parte Thompson , 442 S.W.3d 325, 344 (Tex. Crim. App. 2014) ).\nAlthough the First Amendment literally protects only speech, Texas courts following the United States Supreme Court have held that the First Amendment also protects symbolic speech and expressive conduct as well as actual speech. See, e.g. , Texas v. Johnson , 491 U.S. 397, 404, 109 S.Ct. 2533, 2539, 105 L.Ed.2d 342 (1989) (holding that symbolic or expressive conduct may \"possess sufficient communicative elements to bring the First Amendment into play\"); Faust v. State , 491 S.W.3d 733, 745 n.31 (Tex. Crim. App. 2015) (\"The First Amendment affords protection to symbolic or expressive conduct as well as to actual speech.\") (citing Virginia v. Black , 538 U.S. 343, 358, 123 S.Ct. 1536, 1547, 155 L.Ed.2d 535 (2003) ); Ex parte Flores , 483 S.W.3d at 639. https://1.next.westlaw.com/Link/Document/FullText?findType=Y&serNum=1989092395&pubNum=0000708&originatingDoc=I275842f0883811e599acc8b1bd059237&refType=RP&originationContext=document&transitionType=DocumentItem&contextData=(sc.History*oc.Search) However, not all modes of \"communication\" are protected by the First Amendment. See United States v. O'Brien , 391 U.S. 367, 376, 88 S.Ct. 1673, 1678, 20 L.Ed.2d 672 (1968) (rejecting idea that First Amendment protections include \"all modes of 'communication of ideas by conduct,' \" stating, \"We cannot accept the view that an apparently limitless variety of conduct can be labeled as 'speech' whenever the person engaging in the conduct intends thereby to express an idea\"); see also Johnson , 491 U.S. at 404, 109 S.Ct. at 2539 (recognizing O'Brien's limitation on protections of symbolic speech).\nIn United States v. Alvarez , the United States Supreme Court recognized several categories of speech that do not fall under the protections of the First Amendment, including \"speech integral to criminal conduct,\" \"fraud,\" and \"speech presenting some grave and imminent threat the government has the power to prevent.\" 567 U.S. 709, 717-18, 132 S.Ct. 2537, 2544, 183 L.Ed.2d 574 (2012) (citing, e.g. , Giboney v. Empire Storage & Ice Co. , 336 U.S. 490, 498-501, 69 S.Ct. 684, 689-90, 93 L.Ed. 834 (1949), Va. Bd. of Pharmacy v. Va. Citizens Consumer Council, Inc. , 425 U.S. 748, 771, 96 S.Ct. 1817, 1830, 48 L.Ed.2d 346 (1976), and Near v. Minnesota ex rel. Olson , 283 U.S. 697, 716, 51 S.Ct. 625, 631, 75 L.Ed. 1357 (1931) ); Ex parte Wheeler , 478 S.W.3d 89, 93-94 (Tex. App.-Houston [1st Dist.] 2015, pet. ref'd) (concluding that Penal Code section 33.021(c), prohibiting solicitation of minor to engage in illegal sexual acts, was not entitled to First Amendment protections because it regulated conduct and unprotected speech). To determine whether conduct falls within the scope of the First Amendment, courts consider whether an intent to convey a particularized message is present, and whether the likelihood is great that the message will be understood by those who receive it. Johnson , 491 U.S. at 404, 109 S.Ct. at 2539.\nBecause the level of scrutiny we will apply depends upon whether the provision is content-neutral or content-based, we must first construe Penal Code section 37.12 to determine what type of conduct it covers. See Martinez v. State , 323 S.W.3d 493, 504-05 (Tex. Crim. App. 2010) ; see also Wagner v. State , 539 S.W.3d 298, 306 (Tex. Crim. App. 2018) (\"The first step in overbreadth analysis is to construe the challenged statute; it is impossible to determine whether a statute reaches too far without first knowing what the statute covers.\") (citing United States v. Williams , 553 U.S. 285, 293, 128 S.Ct. 1830, 1838, 170 L.Ed.2d 650 (2008) ).\nTo determine the meaning of the statute, we apply rules of statutory construction to the statutory text. Wagner , 539 S.W.3d at 306. We interpret the statute \"in accordance with the plain meaning of its language unless the language is ambiguous or the plain meaning leads to absurd results that the Legislature could not possible have intended.\" Id. (citing Sanchez v. State , 995 S.W.2d 677, 683 (Tex. Crim. App. 1999) ). We must read words and phrases in context and construe them according to the rules of grammar and usage. Id. ; see TEX. GOV'T CODE ANN . \u00a7 311.011(a) (West 2013) (\"Words and phrases shall be read in context and construed according to the rules of grammar and common usage.\"). \"We presume that every word has been used for a purpose and that each word, phrase, clause, and sentence should be given effect if reasonably possible.\" Wagner , 539 S.W.3d at 306 ; Arteaga v. State , 521 S.W.3d 329, 334 (Tex. Crim. App. 2017). \"If the language of the statute is plain, we will effectuate that plain language without resort to extra-textual sources.\" Wagner , 539 S.W.3d at 306 ; Cary v. State , 507 S.W.3d 750, 756 (Tex. Crim. App. 2016).\nB. Construction of Penal Code section 37.12\nWe first construe Penal Code section 37.12 to determine the nature of the conduct addressed by the provision.\nSection 37.12, titled \"False Identification as Peace Officer; Misrepresentation of Property,\" provides in relevant part:\n(a) A person commits an offense if:\n(1) the person makes, provides to another person, or possesses a card, document, badge, insignia, shoulder emblem, or other item, including a vehicle, bearing an insignia of a law enforcement agency that identifies a person as a peace officer or a reserve law enforcement officer; and\n(2) the person who makes, provides, or possesses the item bearing the insignia knows that the person so identified by the item is not commissioned as a peace officer or reserve law enforcement officer as indicated on the item.\n(b) It is a defense to prosecution under this section that:\n(1) the card, document, badge, insignia, shoulder emblem, or other item bearing an insignia of a law enforcement agency clearly identifies the person as an honorary or junior peace officer or reserve law enforcement officer, or as a member of a junior posse; or\n(2) the person identified as a peace officer or reserve law enforcement officer by the item bearing the insignia was commissioned in that capacity when the item was made.\n(b-1) It is an exception to the application of this section that the item was used or intended for use exclusively for decorative purposes or in an artistic or dramatic presentation.\nTEX. PENAL CODE ANN . \u00a7 37.12 (West 2016).\nThus, section 37.12 prohibits a person from making, providing, or possessing an item \"bearing an insignia of a law enforcement agency that identifies a person as a peace officer or a reserve law enforcement officer\" when that person \"knows that the person so identified by the item is not commissioned as a peace officer or reserve law enforcement officer as indicated on the item.\" Id. \u00a7 37.12(a)(2). Under its plain language, the statute does not prohibit making, providing, or possessing law enforcement identification or other items generally. Rather, it prohibits the creation, provision, or possession of such an item that \"identifies a person as a peace officer\" when the maker, provider, or possessor knows that the person identified by the item is in fact not a peace officer. Id. \u00a7 37.12(a) ; Gatewood v. State , 156 S.W.3d 679, 680-81 (Tex. App.-Amarillo 2005, pet. ref'd) (construing elements of section 37.12 ); Fallin v. State , 93 S.W.3d 394, 395-97 (Tex. App.-Houston [14th Dist.] 2002, pet. ref'd) (construing section 37.12 and holding, \"A person commits an offense if he knowingly possesses such a card [bearing law enforcement insignia] identifying him as a peace officer and he knows he is not a commissioned peace officer\").\nThe statute expressly provides that the offense does not apply to items \"used or intended for use exclusively for decorative purposes or in an artistic or dramatic presentation.\" TEX. PENAL CODE ANN . \u00a7 37.12(b-1). The statute also provides that it is a defense to prosecution if: (1) the item \"clearly identifies the person as an honorary or junior peace officer or reserve law enforcement officer, or as a member of a junior posse\" or (2) \"the person identified as a peace officer or reserve law enforcement officer by the item bearing the insignia was commissioned in that capacity when the item was made.\" Id. \u00a7 37.12(b)(1)-(2).\nC. Section 37.12 Does Not Proscribe Speech Protected by the First Amendment\nSauder argues that section 37.12 is a content-based restriction on constitutionally protected speech, and, thus, it is subject to stricter scrutiny in our analysis of its constitutionality. We disagree.\nAs discussed above, section 37.12 prohibits the making, providing, or possessing of \"a card, document, badge, insignia, shoulder emblem, or other item ... bearing an insignia of a law enforcement agency that identifies a person as a peace officer\" when \"the person who makes, provides, or possesses the item bearing the insignia\" does so knowing \"that the person so identified by the item is not commissioned as a peace officer ... as indicated on the item.\" See id. \u00a7 37.12(a); Gatewood , 156 S.W.3d at 680-81 ; Fallin , 93 S.W.3d at 395-97.\nSauder contends that although section 37.12 does not address actual speech, the conduct outlined in that section is symbolic or expressive conduct that implicates the First Amendment. See Johnson , 491 U.S. at 404, 109 S.Ct. at 2539. We consider the conduct addressed under section 37.12 to determine whether an intent to convey a particularized message is present, and whether the likelihood is great that the message will be understood by those who receive it. See id. By its plain language, section 37.12 implicates symbolic or expressive conduct intended to convey a particularized message that would likely be understood by those who receive it. Here, the particular message conveyed is that the person identified is commissioned as a peace officer. A person commits an offense by making, providing, or possessing an item that falsely communicates a person's identity as a peace officer. See TEX. PENAL CODE ANN . \u00a7 37.12(a).\nWe conclude that the symbolic or expressive conduct proscribed by section 37.12 is not the type of communication protected by the First Amendment. See Alvarez , 567 U.S. at 717-18, 132 S.Ct. at 2544 (recognizing several categories of speech that do not fall under First Amendment protections, including fraud and speech integral to criminal conduct); Johnson , 491 U.S. at 404, 109 S.Ct. at 2539 (recognizing limitation on protections of symbolic speech); O'Brien , 391 U.S. at 376, 88 S.Ct. at 1678 (holding that First Amendment protections do not include all modes of \"communication of ideas by conduct\"); Ex parte Wheeler , 478 S.W.3d at 93-94 (recognizing that some types of expressive conduct or speech are not entitled to First Amendment protections).\nSauder argues that section 37.12 's restrictions on the making, providing, or possessing of an item bearing the insignia of a law enforcement agency might encompass a protester or supporter of a particular agency possessing a sign, item of clothing, or document bearing the insignia. Thus, to determine whether section 37.12 proscribes conduct involving only unprotected speech, we must consider the specific types of criminal intent delineated by the statute and the conduct such intent requirements seek to proscribe. See Ex parte Thomspon , 442 S.W.3d at 337 (\"[T]he mere existence of an intent element does not by itself eliminate First Amendment concerns posed by a statute; it is the specific type of intent that matters.\" (internal footnotes omitted) ); Stubbs , 502 S.W.3d at 226-27.\nSection 37.12 expressly provides that a person commits an offense when he \"knows\" that the person identified by an item bearing an insignia of a law enforcement agency is not commissioned as a peace officer as indicated on the item. See TEX. PENAL CODE ANN . \u00a7 37.12(a). By prohibiting a person from knowingly and falsely identifying a person as a peace officer by \"making,\" \"providing,\" or \"possessing\" an item bearing the insignia of a law enforcement agency, section 37.12 regulates only false or fraudulent communicative conduct. See id. The government may restrict speech \"made to effect a fraud or secure moneys or other valuable considerations ... without affronting the First Amendment.\" Alvarez , 567 U.S. at 723, 132 S.Ct. at 2547 ; Stubbs , 502 S.W.3d at 227 (holding that First Amendment permits regulation of conduct involving fraudulent speech) (citing United States v. Stevens , 559 U.S. 460, 468, 130 S.Ct. 1577, 1584, 176 L.Ed.2d 435 (2010) ).\nSauder's argument ignores the provisions of the statute requiring that, to commit an offense, a person must \"make[ ], provide[ ] to another person, or possess[ ] a card ... or other item ... bearing an insignia of a law enforcement agency that identifies a person as a peace officer \" and must do so knowing \"that the person so identified by the item is not commissioned as a peace officer ... as indicated on the item.\" TEX. PENAL CODE ANN . \u00a7 37.12(a) (emphasis added). Thus, someone carrying a protest sign with a law enforcement insignia or wearing an item of clothing in support of such an agency is not \"bearing an insignia of a law enforcement agency that identifies [him] as a peace officer.\" See id. Section 37.12, by its plain language, applies only to the knowing false identification of someone as a peace officer by making, providing, or possessing an item bearing the insignia of a law enforcement agency.\nAccordingly, we reject Sauder's contention that section 37.12 is a content-based restriction on constitutionally protected speech and apply the presumption of constitutionality and place the burden of demonstrating unconstitutionality on Sauder in our review. See, e.g. , Ex parte Wheeler , 478 S.W.3d at 94.\nD. Section 37.12 is not Overbroad on its Face\nIn his first issue, Sauder argues that section 37.12 is overbroad under the First Amendment's overbreadth doctrine.\n\"According to the First Amendment overbreadth doctrine, a statute is facially invalid if it prohibits a 'substantial' amount of protected speech 'judged in relation to the statute's plainly legitimate sweep.' \" Id. (quoting Ex parte Lo , 424 S.W.3d at 18 and Virginia v. Hicks , 539 U.S. 113, 118-19, 123 S.Ct. 2191, 2196, 156 L.Ed.2d 148 (2003) ); see Wagner , 539 S.W.3d at 310. \"Thus, the overbreadth doctrine prohibits the government from 'banning unprotected speech if a substantial amount of protected speech is prohibited or chilled in the process.' \"\nWagner , 539 S.W.3d at 310 (quoting Ashcroft v. Free Speech Coalition , 535 U.S. 234, 255, 122 S.Ct. 1389, 1404, 152 L.Ed.2d 403 (2002) ). The First Amendment overbreadth doctrine \"provides an exception\" to the general rule that a facial challenge to the constitutionality of a statute can succeed only when it is shown that the statute is unconstitutional in all of its applications. Wagner , 539 S.W.3d at 310 (citing State v. Johnson , 475 S.W.3d 860, 864 (Tex. Crim. App. 2015) and Wash. State Grange v. Wash. State Republican Party , 552 U.S. 442, 449 n.6, 128 S.Ct. 1184, 1190, 170 L.Ed.2d 151 (2008) ). However, \"[t]he overbreadth doctrine is 'strong medicine' to be employed with hesitation and only as a last resort.\" Id. (quoting Ex parte Thompson , 442 S.W.3d at 349 ). Stated another way, \"a statute should not be invalidated for overbreadth merely because it is possible to imagine some unconstitutional application.\" Ex parte Wheeler , 478 S.W.3d at 94.\nConsidering whether section 37.12\"prohibits a 'substantial' amount of protected speech\" judged \" 'in relation to the statute's plainly legitimate sweep,' \" we conclude that it is not overbroad. See Wagner , 539 S.W.3d at 310 ; Ex parte Wheeler , 478 S.W.3d at 94. Section 37.12 prohibits conduct-i.e., making, providing, or possessing items that identify someone as a peace officer when the maker, provider, or possessor knows that the person so identified is not a peace officer. It is narrowly tailored to include making, providing, or possessing an item with knowledge that it misidentifies the bearer of the item as a peace officer, and the statute itself excludes certain types of conduct, such as possessing such an item for decorative or artistic purposes. See TEX. PENAL CODE ANN . \u00a7 37.12(a) - (b). As discussed above, to the extent that section 37.12 could be used to curb some forms of symbolic speech, such speech-i.e., using symbolic communication to knowingly misidentify oneself or another as a peace officer-is speech incident to criminal conduct or fraud and is not protected speech. See Alvarez , 567 U.S. at 717-18, 132 S.Ct. at 2544. Thus, such a restriction does not reach a substantial amount of constitutionally protected speech or conduct. See Wagner , 539 S.W.3d at 310 ; Ex parte Wheeler , 478 S.W.3d at 94.\nFurthermore, by criminalizing conduct that falsely identifies a person as a peace officer, the legislature acted with a \"plainly legitimate\" concern to protect the public from being deceived by people who wrongly identify themselves as peace officers and to preserve \"the general good repute and dignity of the [government] service itself.\" See United States v. Lepowitch , 318 U.S. 702, 704, 63 S.Ct. 914, 916, 87 L.Ed. 1091 (1943) ; Wagner , 539 S.W.3d at 310 ; Ex parte Wheeler , 478 S.W.3d at 94.\nWe conclude that section 37.12 does not prohibit protected speech, especially when judged \" 'in relation to the statute's plainly legitimate sweep.' \" See Wagner , 539 S.W.3d at 310 ; Ex parte Wheeler , 478 S.W.3d at 94. Rather, the only speech or expressive conduct that it prohibits is not protected by the First Amendment. See Alvarez , 567 U.S. at 717-18, 132 S.Ct. at 2544 (recognizing several categories of speech that do not fall under First Amendment protections, including fraud and speech integral to criminal conduct); Ex parte Wheeler , 478 S.W.3d at 93-94 (recognizing that some types of expressive conduct or speech are not entitled to First Amendment protections).\nSauder argues, however, that the statute is nevertheless overbroad because it \"criminalizes the mere 'possession' of an item bearing the insignia of a law enforcement agency that identifies a person as a peace officer when the person knows they are not a peace officer\"; and he illustrates his argument by pointing out that people might possess badges or other items bearing the insignia of a law enforcement agency as part of a collection, for research or academic purposes, or for purposes of either supporting or protesting a particular agency. However, the language of the statute does not encompass \"mere possession\" but rather knowingly possessing an item that misidentifies the bearer as a peace officer. As the State points out in its briefing, badges, certificates, and other items contained within a collection or used for academic purposes do not \"identif[y] a person as a peace officer or a reserve law enforcement officer,\" and the provision contains a clear intent element in that the misidentification through making, providing, or possessing an item bearing the insignia of a law enforcement agency must be done knowingly. See TEX. PENAL CODE ANN . \u00a7 37.12(a).\nWe are also mindful that \"[t]he overbreadth doctrine is 'strong medicine' to be employed with hesitation and only as a last resort.\" Wagner , 539 S.W.3d at 310. We will not invalidate section 37.12 for overbreadth \"merely because it is possible to imagine some unconstitutional application.\" See Ex parte Wheeler , 478 S.W.3d at 94.\nWe overrule Sauder's first issue.\nE. Section 37.12 is not Unconstitutionally Vague on its Face\nIn his second issue, Sauder argues that Penal Code section 37.12 is void for vagueness under the Fourteenth Amendment to the United States Constitution.\n\"Under the void-for-vagueness doctrine, a statute will be invalidated if it fails to give a person of ordinary intelligence a reasonable opportunity to know what conduct is prohibited.\" Id. at 96 (citing State v. Holcombe , 187 S.W.3d 496, 499 (Tex. Crim. App. 2006) ); see also Wagner , 539 S.W.3d at 313 (\"A conviction fails to comport with due process if the statute under which it is obtained fails to provide a person of ordinary intelligence fair notice of what is prohibited, or is so standardless that it authorizes or encourages seriously discriminatory enforcement.\"). \"Perfect clarity\" and \"precise guidance\" are not required, even when regulations restrict expressive activity, and \"[a] statute is not unconstitutionally vague merely because the words or terms used are not specifically defined.\" Wagner , 539 S.W.3d at 314 ; see Ex parte Wheeler , 478 S.W.3d at 96.\n\"Rather, 'the words or phrase[s] must be read in the context in which they are used,' and ordinarily the statute must then be construed according to the rules of grammar and common usage.\" Wagner , 539 S.W.3d at 314 (quoting Bynum v. State , 767 S.W.2d 769, 774 (Tex. Crim. App. 1989) ). \"A statute satisfies vagueness requirements if the statutory language 'conveys sufficiently definite warning as to the proscribed conduct when measured by common understanding and practices.' \" Id. (quoting Jordan v. De George , 341 U.S. 223, 231-32, 71 S.Ct. 703, 707-08, 95 L.Ed. 886 (1951) ).\nPenal Code section 37.12 prohibits a person from making, providing, or possessing an item \"bearing an insignia of a law enforcement agency that identifies a person as a peace officer or a reserve law enforcement officer\" when the maker, provider, or possessor \"knows that the person so identified by the item is not commissioned as a peace officer or reserve law enforcement officer as indicated on the item.\" TEX. PENAL CODE ANN . \u00a7 37.12(a). The section is entitled, \"False Identification as Peace Officer; Misrepresentation of Property,\" and it is in the chapter of the Penal Code addressing \"Perjury and Other Falsification.\" See id. Considering the language of the statute in context and giving the words their general meaning, a person of ordinary intelligence would understand that he is prohibited from knowingly making, providing, or possessing an item bearing a law enforcement insignia that misidentifies its bearer as a peace officer. See Wagner , 539 S.W.3d at 314 ; Ex parte Wheeler , 478 S.W.3d at 96 ; see also TEX. PENAL CODE ANN . \u00a7 37.12(a) (setting out offense of false identification as peace officer); Gatewood , 156 S.W.3d at 679-81 (discussing elements of section 37.12 ).\nSauder argues that section 37.12 is unconstitutionally vague on its face because \"there is no intent to harm, or defraud listed in the statute.\" However, this argument ignores the clear language in the statute requiring that a person act knowingly in making, providing, or possessing an item that misidentifies someone as a peace officer. See TEX. PENAL CODE ANN . \u00a7 37.12(a)(2). Furthermore, section 37.12 does not apply vaguely to \"mere possession\"; the statute specifies that the item must \"identif[y] a person as a peace officer or a reserve law enforcement officer.\" See id. \u00a7 37.12(a)(1).\nSauder also argues that Gatewood demonstrates the vagueness of section 37.12, specifically the provision's failure to define particular terms such as \"law enforcement agency,\" in that it permitted Gatewood to be convicted under section 37.12 for possessing a badge for a nonexistent agency. However, Sauder misrepresents the court's reasoning. In Gatewood , the appellant, who was a member of an organization known as the \"Republic of Texas,\" was convicted on the basis of possessing a metal, star-shaped badge identifying himself as a \"Sheriff\" of the \"Republic of Texas.\" 156 S.W.3d at 679-80. The Amarillo Court of Appeals acknowledged that the Republic of Texas was not an official law enforcement agency, but it also observed that the office of \"sheriff\" is an official office and that a \"sheriff\" is recognized under state law as a peace officer who performs both administrative and law enforcement duties. Id. at 680-81. Thus, the Amarillo Court held,\n[W]e cannot but conclude that the office of \"sheriff\" in Texas constitutes an \"official\" law enforcement agency. This, coupled with the evidence that the word \"sheriff\" appeared on the badge appellant wore, the badge likened to others utilized by official law enforcement agencies in Texas, the badge contained a lone star (our state's emblem), and the word \"Texas\" appeared in the star, constitutes sufficient evidence upon which a fact finder could rationally conclude, beyond a reasonable doubt, that appellant possessed an insignia of an official law enforcement agency identifying him as a commissioned peace officer. And, that the badge may have also contained language of an entity falling outside the scope of such an agency does not require us to hold otherwise.\nId. at 681. Thus, considering the totality of the court's reasoning in Gatewood , we cannot agree with Sauder that the case evidences a lack of clarity regarding the nature of the conduct prohibited by section 37.12.\nWe also observe that, while the statute does not define certain terms such as \"law enforcement agency,\" \"badge,\" \"emblem,\" \"art,\" or \"d\u00e9cor,\" a \"statute is not unconstitutionally vague merely because the words or terms used are not specifically defined.\" See Wagner , 539 S.W.3d at 314 (citing Bynum , 767 S.W.2d at 774 ). The terms used in section 37.12 can, as discussed above, be clearly understood according the rules of grammar and common usage. See id. \"[P]erfect clarity and precise guidance have never been required\" to prevent a statute from being void for vagueness. See id.\nWe conclude that the statute satisfies the vagueness requirements by conveying \"sufficiently definite warning as to the proscribed conduct when measured by common understanding and practices.\"See id. We overrule Sauder's second issue.\nConclusion\nWe affirm the trial court's denial of Sauder's habeas petition.\nSee Tex. Penal Code Ann. \u00a7 37.12 (West 2016).\nThis provision is distinct from Penal Code section 37.11, which prohibits impersonating a public servant \"with intent to induce another to submit to his pretended official authority or to rely on his pretended official acts\" or \"knowingly purport[ing] to exercise any function of a public servant or of a public office, including that of a judge and court, and the position or office through which he purports to exercise a function of a public servant or public office has no lawful existence under the constitution or laws of this state or of the United States.\" Tex. Penal Code Ann . \u00a7 37.11 (West 2016).\nPenal Code section 37.12 was amended, effective September 1, 2017, to add the language \"including a vehicle\" to section (a)(1) and to create section (b-1), which renamed a previous defense applicable to an \"item ... used or intended for use exclusively for decorative purposes or in an artistic or dramatic presentation\" as \"an exception to the application\" of section 37.12. See Act June 15, 2017, 85th Leg., R.S., ch. 982, \u00a7 3, sec. 3 2017 Tex. Sess. Law Serv. 4001, 4001-02 (West) (to be codified at Tex. Penal Code \u00a7 37.12 ). Because these changes are immaterial to our analysis here, we use the most current version of the statute.\nOther courts have addressed the elements of an offense under Penal Code section 37.12 in non-published opinions. See Celis v. State , No. 13-10-00659-CR, 2013 WL 1189007, at *2-4 (Tex. App.-Corpus Christi Mar. 21, 2013, pet. ref'd) (mem. op., not designated for publication) (finding evidence legally sufficient to support appellant's conviction under section 37.12 when he displayed badge identifying him as \"a reserve deputy sheriff\" of Duval County and intervened in police questioning of suspect in another crime); Hudson v. State , No. 12-03-00035-CR, 2004 WL 1852965, at *2-3 & n.1 (Tex. App.-Tyler Aug. 18, 2004, pet. ref'd) (mem. op., not designated for publication) (holding evidence was sufficient under section 37.12 when, in interacting with member of public, appellant wore hat with letters \"D.P.S.\" that constituted insignia identifying him as peace officer, and noting that legislature did not intend to criminalize mere possession of coffee mug or t-shirt bearing initials or emblem of agency such as F.B.I. or D.P.S., and that appellant did not raise defense to prosecution for items used exclusively for decorative purposes); Davis v. State , No. 05-95-01499-CR, 1997 WL 348545, at *2-3 (Tex. App.-Dallas June 25, 1997, no pet.) (mem. op., not designated for publication) (holding that evidence was sufficient to support appellant's conviction for false identification as peace office when he possessed identification card identifying him as \"police\" associated with \"the Department of Public Safety\" but also stated that card was issued by Rio Grande Pacific Railways safety organization); Hearn v. State , No. 01-91-00014-CR, 1992 WL 91238, at *1-2 (Tex. App.-Houston [1st Dist.] May 7, 1992, no pet.) (mem. op., not designated for publication).",
+        "type": "majority",
+        "author": "Evelyn V. Keyes, Justice"
+      }
+    ],
+    "attorneys": [
+      "Jason Bennyhoff, John F. Healey, Jr., Richmond, for State of Texas.",
+      "Victoria Erfesoglou, Houston, for Appellant."
+    ],
+    "corrections": "",
+    "head_matter": "EX PARTE Christian SAUDER, Appellant\nNO. 01-17-00467-CR\nCourt of Appeals of Texas, Houston (1st Dist.).\nOpinion issued August 30, 2018\nDiscretionary Review Refused December 5, 2018\nJason Bennyhoff, John F. Healey, Jr., Richmond, for State of Texas.\nVictoria Erfesoglou, Houston, for Appellant.\nPanel consists of Justices Jennings, Keyes, and Higley."
+  },
+  "file_name": "0203-01",
+  "first_page_order": 203,
+  "last_page_order": 216
+}

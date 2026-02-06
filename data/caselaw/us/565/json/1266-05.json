@@ -1,0 +1,59 @@
+{
+  "id": 12252019,
+  "name": "Cuffy v. Florida",
+  "name_abbreviation": "Cuffy v. Florida",
+  "decision_date": "2012-03-19",
+  "docket_number": "No. 11-8275",
+  "first_page": "1266",
+  "last_page": "1266",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1266"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 66,
+    "ocr_confidence": 0.613,
+    "sha256": "f2de91643b62dea57bd756220188ec3f9edcacff7e95078c5f8c2c3aceed594f",
+    "simhash": "1:0bd90e23250bb03e",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cuffy v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8275.\nCuffy v. Florida."
+  },
+  "file_name": "1266-05",
+  "first_page_order": 1348,
+  "last_page_order": 1348
+}

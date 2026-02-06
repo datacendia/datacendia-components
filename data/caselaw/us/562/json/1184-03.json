@@ -1,0 +1,59 @@
+{
+  "id": 6019976,
+  "name": "Knod v. Texas",
+  "name_abbreviation": "Knod v. Texas",
+  "decision_date": "2011-01-18",
+  "docket_number": "No. 10-7442",
+  "first_page": "1184",
+  "last_page": "1184",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1184"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 67,
+    "ocr_confidence": 0.688,
+    "sha256": "7172175f34bd5ccca8ed95f3ede9131cac0f5850b281a7451b5a8fced35f150d",
+    "simhash": "1:40b2b8765697e675",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Knod v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Tex. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7442.\nKnod v. Texas."
+  },
+  "file_name": "1184-03",
+  "first_page_order": 1206,
+  "last_page_order": 1206
+}

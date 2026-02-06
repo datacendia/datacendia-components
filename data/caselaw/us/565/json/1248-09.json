@@ -1,0 +1,59 @@
+{
+  "id": 12250393,
+  "name": "Flores v. Horel, Warden",
+  "name_abbreviation": "Flores v. Horel",
+  "decision_date": "2012-03-05",
+  "docket_number": "No. 11-8128",
+  "first_page": "1248",
+  "last_page": "1248",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1248"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.624,
+    "sha256": "f0cd4c3ba5d023387705d12d2332e3c098d26fc463aab05363b54c5b50698e73",
+    "simhash": "1:94f3e2920dbf4056",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Flores v. Horel, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8128.\nFlores v. Horel, Warden."
+  },
+  "file_name": "1248-09",
+  "first_page_order": 1330,
+  "last_page_order": 1330
+}

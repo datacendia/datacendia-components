@@ -1,0 +1,602 @@
+{
+  "id": 12519865,
+  "name": "Jeryme MORGAN, Plaintiff-Appellant, v. Minh SCHOTT, Tim Veath, and Hudson Maynard, Defendants-Appellees.",
+  "name_abbreviation": "Morgan v. Schott",
+  "decision_date": "2019-02-05",
+  "docket_number": "No. 16-2384",
+  "first_page": "1115",
+  "last_page": "1122",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "914 F.3d 1115"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "7th Cir.",
+    "id": 9010,
+    "name": "United States Court of Appeals for the Seventh Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "636 F.3d 834",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4104200
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "839"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/636/0834-01"
+      ]
+    },
+    {
+      "cite": "771 F.3d 444",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4290885
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "446"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/771/0444-01"
+      ]
+    },
+    {
+      "cite": "900 F.3d 428",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12518206
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "436"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/900/0428-01"
+      ]
+    },
+    {
+      "cite": "748 N.E.2d 285",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "290"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "254 Ill.Dec. 839",
+      "category": "reporters:state",
+      "reporter": "Ill. Dec.",
+      "year": 2001,
+      "opinion_index": 0
+    },
+    {
+      "cite": "321 Ill.App.3d 248",
+      "category": "reporters:state",
+      "reporter": "Ill. App. 3d",
+      "case_ids": [
+        132501
+      ],
+      "year": 2001,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ill-app-3d/321/0248-01"
+      ]
+    },
+    {
+      "cite": "868 N.E.2d 293",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "296",
+          "parenthetical": "\"An allegation of a due-process-rights violation ... states a cause of action in mandamus .\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "311 Ill.Dec. 293",
+      "category": "reporters:state",
+      "reporter": "Ill. Dec.",
+      "year": 2006,
+      "pin_cites": [
+        {
+          "parenthetical": "\"An allegation of a due-process-rights violation ... states a cause of action in mandamus .\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "369 Ill.App.3d 683",
+      "category": "reporters:state",
+      "reporter": "Ill. App. 3d",
+      "case_ids": [
+        4267286
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "parenthetical": "\"An allegation of a due-process-rights violation ... states a cause of action in mandamus .\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ill-app-3d/369/0683-01"
+      ]
+    },
+    {
+      "cite": "80 N.E.3d 835",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.3d",
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "849"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "414 Ill.Dec. 692",
+      "category": "reporters:state",
+      "reporter": "Ill. Dec.",
+      "year": 2017,
+      "opinion_index": 0
+    },
+    {
+      "cite": "673 N.E.2d 251",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "253"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "220 Ill.Dec. 339",
+      "category": "reporters:state",
+      "reporter": "Ill. Dec.",
+      "year": 1996,
+      "opinion_index": 0
+    },
+    {
+      "cite": "174 Ill.2d 268",
+      "category": "reporters:state",
+      "reporter": "Ill. 2d",
+      "case_ids": [
+        223625
+      ],
+      "year": 1996,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ill-2d/174/0268-01"
+      ]
+    },
+    {
+      "cite": "785 F.3d 242",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4184093
+      ],
+      "weight": 2,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "248"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/785/0242-01"
+      ]
+    },
+    {
+      "cite": "126 F.3d 1018",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        943627
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "1022",
+          "parenthetical": "applying the Heck bar where the plaintiff argued \"that he was denied the opportunity to call requested witnesses in his favor\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/126/1018-01"
+      ]
+    },
+    {
+      "cite": "702 F.3d 429",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3646520
+      ],
+      "weight": 4,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "432-34"
+        },
+        {
+          "page": "433",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "433"
+        },
+        {
+          "page": "436"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/702/0429-01"
+      ]
+    },
+    {
+      "cite": "541 U.S. 637",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5905278
+      ],
+      "weight": 3,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "646"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/541/0637-01"
+      ]
+    },
+    {
+      "cite": "570 F.3d 907",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3663226
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "915",
+          "parenthetical": "discussing circumstances in which we reconsider our precedents"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/570/0907-01"
+      ]
+    },
+    {
+      "cite": "414 F.3d 783",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8971137
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "788"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/414/0783-01"
+      ]
+    },
+    {
+      "cite": "520 U.S. 641",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11652635
+      ],
+      "weight": 15,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "643"
+        },
+        {
+          "page": "645"
+        },
+        {
+          "page": "648"
+        },
+        {
+          "page": "647"
+        },
+        {
+          "page": "648"
+        },
+        {
+          "page": "648"
+        },
+        {
+          "parenthetical": "applying the Heck bar where the plaintiff argued \"that he was denied the opportunity to call requested witnesses in his favor\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/520/0641-01"
+      ]
+    },
+    {
+      "cite": "418 U.S. 539",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6173832
+      ],
+      "weight": 3,
+      "year": 1974,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/418/0539-01"
+      ]
+    },
+    {
+      "cite": "411 U.S. 475",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9981
+      ],
+      "weight": 7,
+      "year": 1973,
+      "pin_cites": [
+        {
+          "page": "476"
+        },
+        {
+          "page": "486"
+        },
+        {
+          "page": "489"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/411/0475-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 2254",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "820 F.3d 237",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4255478
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "241"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/820/0237-01"
+      ]
+    },
+    {
+      "cite": "467 F.3d 98",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3804476
+      ],
+      "weight": 4,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "104"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/467/0098-01"
+      ]
+    },
+    {
+      "cite": "562 U.S. 521",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12457266,
+        5931693
+      ],
+      "weight": 8,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "525"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/179/0233-01",
+        "/us/562/0521-01"
+      ]
+    },
+    {
+      "cite": "544 U.S. 74",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5883802
+      ],
+      "weight": 10,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "76-77"
+        },
+        {
+          "page": "81"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/544/0074-01"
+      ]
+    },
+    {
+      "cite": "842 F.3d 1026",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12138591
+      ],
+      "weight": 5,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1029"
+        },
+        {
+          "page": "1028"
+        },
+        {
+          "page": "1030"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/842/1026-01"
+      ]
+    },
+    {
+      "cite": "512 U.S. 477",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        39868
+      ],
+      "weight": 18,
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "487"
+        },
+        {
+          "page": "486-87"
+        },
+        {
+          "page": "479"
+        },
+        {
+          "page": "486-87"
+        },
+        {
+          "page": "483"
+        },
+        {
+          "page": "487"
+        },
+        {
+          "page": "489-90"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/512/0477-01"
+      ]
+    },
+    {
+      "cite": "42 U.S.C. \u00a7 1983",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1069,
+    "char_count": 21657,
+    "pagerank": {
+      "raw": 4.192095912749629e-08,
+      "percentile": 0.2677698583971498
+    },
+    "sha256": "dfe6619dfa55ca4657a3f07a682ae4c15bee2e77da8aeacb93c010fee52af62b",
+    "simhash": "1:dd6ef93c49c666d3",
+    "word_count": 3367
+  },
+  "last_updated": "2024-02-27T18:46:21.348714+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Kanne, Sykes, and St. Eve, Circuit Judges."
+    ],
+    "parties": [
+      "Jeryme MORGAN, Plaintiff-Appellant,\nv.\nMinh SCHOTT, Tim Veath, and Hudson Maynard, Defendants-Appellees."
+    ],
+    "opinions": [
+      {
+        "text": "Sykes, Circuit Judge.\nIllinois prison officials issued a disciplinary report charging inmate Jeryme Morgan with offenses stemming from a violent assault on fellow prisoners. Morgan disputed the charges and asked the authorities to call a witness to testify at his Adjustment Committee hearing. But the Committee never called Morgan's witness. He was found guilty and the Committee imposed punishment of one year of segregation, various status and access restrictions, and revocation of three months of good-time credits. Morgan filed a grievance challenging his punishment on due-process grounds and appealed its subsequent denial to the Administrative Review Board (\"the Board\"). The Board adjusted the revocation of good-time credits to one month but affirmed the Committee's due-process ruling, concluding that Morgan's witness request did not comply with prison rules.\nAlleging a raft of constitutional violations, Morgan sued three officers for damages under 42 U.S.C. \u00a7 1983 claiming that the failure to call his witness violated his right to due process. The officers moved for summary judgment citing the favorable-termination rule announced in Heck v. Humphrey , 512 U.S. 477, 114 S.Ct. 2364, 129 L.Ed.2d 383 (1994). Heck holds that \"when a state prisoner seeks damages in a \u00a7 1983 suit, the district court must consider whether a judgment in [his] favor ... would necessarily imply the invalidity of his conviction or sentence.\" Id. at 487, 114 S.Ct. 2364. Where a favorable judgment would have that effect, no \u00a7 1983 claim has accrued and \"the complaint must be dismissed unless the plaintiff can demonstrate that the conviction or sentence has already been invalidated.\" Id. Morgan countered that Heck is inapplicable due to his waiver of all claims relating to the revocation of his good-time credits. A magistrate judge rejected Morgan's attempt to skirt Heck and ruled that his due-process claim was not cognizable under \u00a7 1983.\nWe affirm. Prisoners cannot make an end run around Heck by filing an affidavit waiving challenges to the portion of their punishment that revokes good-time credits. We recently addressed that very tactic and found it incompatible with the Heck line of cases. Haywood v. Hathaway , 842 F.3d 1026 (7th Cir. 2016). Morgan provides no reason to question Haywood , and we reaffirm its reasoning. Morgan's attempt to analogize his case to Wilkinson v. Dotson , 544 U.S. 74, 125 S.Ct. 1242, 161 L.Ed.2d 253 (2005), and Skinner v. Switzer , 562 U.S. 521, 131 S.Ct. 1289, 179 L.Ed.2d 233 (2011), misunderstands those decisions. Judgment in Morgan's favor would necessarily imply the invalidity of his prison discipline. Thus, no \u00a7 1983 claim has accrued. This suit is premature and must be dismissed without prejudice.\nI. Background\nMorgan is serving sentences for robbery, armed robbery, and sexual assault. For most of his incarceration-and at all times relevant to this case-he has been housed at Menard Correctional Center (\"Menard\"). In January 2012 Officer Hudson Maynard issued a disciplinary report accusing Morgan of taking part in an assault that occurred three months earlier in Menard's east yard. The report charged Morgan with conspiring to attack the victims, joining the attack, possessing dangerous contraband, causing a disturbance, interfering with prison investigations, and engaging in unauthorized organizational activities.\nMenard gives prisoners an opportunity to formally request witnesses at a disciplinary hearing; the disciplinary report provides a space to do so. If called, those witnesses testify at the prisoner's Adjustment Committee hearing. Morgan's request was not a model of clarity. On the line requesting a description of the subject of the witness's testimony, Morgan wrote the name \"James Lewis\" followed by the words \"where abouts.\" On the line reserved for the witness's name and other identifying information, Morgan again wrote \"James Lewis\" but nothing else.\nAt Morgan's Adjustment Committee hearing on January 31, prison officials did not call James Lewis. The Committee, which included Lieutenant Minh Schott and Officer Tim Veath, found Morgan guilty and recommended revoking three months of good-time credits and adding one year of segregation, one year of lowered status, and several access restrictions. Morgan filed a grievance arguing that the Committee's failure to call Lewis violated his right to due process. Morgan's grievance was denied, so he appealed to the Board. The Board ruled that Morgan's witness request did not meet the minimum requirements under prison rules. Illinois regulations require that such requests \"shall be in writing on the space provided in the disciplinary report and shall include an explanation of what the witnesses would state.\" ILL. ADMIN. CODE tit. 20, \u00a7 504.80(f)(2). Because Morgan failed to adequately identify his witness or describe his testimony, and because officials failed to locate a James Lewis at Menard, the Board concluded that Morgan's hearing comported with due process.\nRather than challenge the Board's ruling in state court, Morgan filed a pro se complaint in the Southern District of Illinois seeking damages under \u00a7 1983. He alleged numerous constitutional violations ranging from excessive force to deliberate indifference. Those claims were severed and proceeded as a separate case. The district court did not initially identify a due-process claim in Morgan's complaint. However, a magistrate judge later found that Morgan had adequately alleged a violation of due process against Lieutenant Schott and Officer Veath based on the Committee's failure to call James Lewis. Schott and Veath moved for summary judgment, arguing that Morgan's claim was barred by Heck , no reasonable jury could find a constitutional violation, and qualified immunity applies.\nAs part of Morgan's strategy to avoid the Heck bar, he filed an affidavit purporting to \"abandon any and all present and future challenges\" and \"waiv[e] for all times all claims\" pertaining to the portion of his punishment that impacted the duration of his confinement. He preserved only \"claims challenging the sanctions affecting the conditions of [his] confinement.\" Morgan argued that his affidavit rendered Heck inapplicable, citing the Second Circuit's decision in Peralta v. Vasquez , 467 F.3d 98 (2d Cir. 2006).\nThe magistrate judge concluded that Heck barred Morgan's suit and entered summary judgment for Schott and Veath, dismissing Morgan's due-process claim with prejudice. The judge rejected Morgan's attempt to use strategic waiver to \"dodge\" Heck . He said Morgan's due-process claim \"call[s] into question the validity of the prison discipline[ ] because to accept that claim necessarily implie[s] that the discipline was somehow invalid.\"\nII. Discussion\nWe review a summary judgment de novo, reading the record in the light most favorable to Morgan and drawing all reasonable inferences in his favor. Tolliver v. City of Chicago , 820 F.3d 237, 241 (7th Cir. 2016). Morgan renews his strategic-waiver argument in an effort to avoid the Heck bar. He also attempts to evade Heck by arguing that success on the merits would mean at most a new hearing, not a reduction of his term of imprisonment.\nWe begin with an overview of the favorable-termination rule established in Heck v. Humphrey . Federal law affords state prisoners two venerable gateways to relief: the Civil Rights Act of 1871, codified at 42 U.S.C. \u00a7 1983, and habeas corpus review of state adjudications under 28 U.S.C. \u00a7 2254. They are not interchangeable. The Supreme Court made this fact crystal clear in a line of cases barring \u00a7 1983 suits predicated on claims reserved for habeas challenges. In Preiser v. Rodriguez , 411 U.S. 475, 476, 93 S.Ct. 1827, 36 L.Ed.2d 439 (1973), the Court evaluated a \u00a7 1983 claim attacking prison discipline proceedings on constitutional grounds and seeking restoration of good-time credits. The Court explained that habeas corpus-not \u00a7 1983-is the \"specific instrument to obtain release\" from unlawful imprisonment. Id. at 486, 93 S.Ct. 1827. Thus, when a prisoner challenges \"the fact or duration of his confinement,\" he fails to state a cognizable \u00a7 1983 claim. Id. at 489, 93 S.Ct. 1827.\nThe Court expanded on Preiser in Heck v. Humphrey , 512 U.S. at 486-87, 114 S.Ct. 2364, in which the prisoner-plaintiff sought damages for wrongful conviction. Heck claimed that Indiana prosecutors had destroyed exculpatory evidence and engaged in an \"unlawful, unreasonable, and arbitrary investigation.\" Id. at 479, 114 S.Ct. 2364. The Court held that\nin order to recover damages for [an] allegedly unconstitutional conviction or imprisonment, or for other harm caused by actions whose unlawfulness would render a conviction or sentence invalid, a \u00a7 1983 plaintiff must prove that the conviction or sentence has been reversed on direct appeal, expunged by executive order, declared invalid by a state tribunal authorized to make such determination, or called into question by a federal court's issuance of a writ of habeas corpus.\nId. at 486-87, 114 S.Ct. 2364. The Court distinguished Wolff v. McDonnell , 418 U.S. 539, 94 S.Ct. 2963, 41 L.Ed.2d 935 (1974), in which there was no \"reason to believe[ ] that using the wrong procedures necessarily vitiated the denial of good-time credits.\" Heck , 512 U.S. at 483, 114 S.Ct. 2364. Conversely, a judgment in Heck's favor would \"necessarily imply the invalidity of [Heck's] conviction or sentence.\" Id. at 487, 114 S.Ct. 2364. When a judgment for the plaintiff would have that effect, no \u00a7 1983 claim accrues until the plaintiff succeeds in invalidating the underlying conviction or sentence.\nThe Court extended Heck to the prison-discipline context in Edwards v. Balisok , 520 U.S. 641, 117 S.Ct. 1584, 137 L.Ed.2d 906 (1997). Balisok alleged that the presiding officer at his conduct hearing was biased and deprived him of the opportunity to present exculpatory witness testimony. Id. at 643, 117 S.Ct. 1584. Some of Balisok's good-time credits were revoked. He did not challenge the result of the proceeding or the punishment he received. Instead, he claimed in a \u00a7 1983 suit that he was deprived of due process. Id. at 645, 117 S.Ct. 1584. The Court held that judgment for Balisok would necessarily imply the invalidity of his disciplinary sentence. Id. at 648, 117 S.Ct. 1584. The Court reasoned that denial of the opportunity to present witnesses was \"an obvious procedural defect, and state and federal courts have reinstated good-time credits (absent a new hearing) when it is established.\" Id. at 647, 117 S.Ct. 1584. Thus, Heck 's favorable-termination rule applied. Id. at 648, 117 S.Ct. 1584.\nA. Strategic Waiver\nMorgan argues that challenges to the conditions of a prisoner's confinement-as opposed to the duration of that confinement-do not implicate Heck , so a prisoner should be permitted to challenge a disciplinary proceeding via \u00a7 1983 if he waives all challenges to duration-of-confinement sanctions. Morgan's is not a novel argument. We have rejected it before and see no reason to change course.\nWhen an inmate is found guilty of a disciplinary violation, prison officials can apply sanctions reducing the inmate's privileges within the facility. They can also revoke good-time credits, a sanction that has the effect of lengthening the inmate's term of confinement. Morgan relies on Peralta v. Vasquez , 467 F.3d 98, in which the Second Circuit considered the mixed-sanctions scenario and chose to embrace strategic waiver as a means of removing the Heck bar. The court held that a prisoner facing condition-of-confinement sanctions and duration-of-confinement sanctions could challenge the former under \u00a7 1983 without complying with Heck 's favorable-termination requirement. Id. at 104. All the prisoner must do is \"abandon, not just now, but also in any future proceeding, any claims he may have with respect to the duration of his confinement that arise out of the proceeding he is attacking.\" Id.\nWe rejected Peralta in Haywood v. Hathaway , 842 F.3d 1026. The approach Morgan urges us to adopt rests on a misunderstanding of Heck . The favorable-termination rule is more than a procedural hurdle that plaintiffs can skirt with artful complaint drafting or opportunistic affidavits. Rather, it is grounded in substantive concerns about allowing conflicting judgments. As we explained in Haywood , the Heck rule is \"a version of issue preclusion (collateral estoppel), under which the outstanding criminal judgment or disciplinary sanction, as long as it stands, blocks any inconsistent civil judgment.\" 842 F.3d at 1029. Neither Peralta nor Morgan can account for this aspect of Heck .\nEndorsing Morgan's arguments would undercut another feature of the Court's favorable-termination jurisprudence. Heck held that \"a \u00a7 1983 cause of action for damages attributable to an unconstitutional conviction or sentence does not accrue until the conviction or sentence has been invalidated.\" 512 U.S. at 489-90, 114 S.Ct. 2364 (emphasis added). Morgan's argument is incompatible with that holding. If a prisoner's challenge to a disciplinary hearing implies the invalidity of the resulting sanctions, no \u00a7 1983 claim has accrued. And \"[i]f the claim has not accrued, it cannot matter what relief a prisoner seeks.\" Haywood , 842 F.3d at 1028. Selective waiver simply doesn't alter the analysis.\nMorgan concedes that Haywood controls his case and asks us to overrule it. But we do not reverse our precedents lightly; we need \"compelling reasons\" to do so. Russ v. Watts , 414 F.3d 783, 788 (7th Cir. 2005). The Supreme Court has not cast doubt on Haywood , and it does not represent a minority approach among our sister circuits. See Glaser v. Wound Care Consultants, Inc. , 570 F.3d 907, 915 (7th Cir. 2009) (discussing circumstances in which we reconsider our precedents). Moreover, we remain convinced that \" Peralta is incompatible with Heck and its successors.\" Haywood , 842 F.3d at 1030. State prisoners cannot avoid the favorable-termination rule by engaging in strategic waiver. If judgment for a \u00a7 1983 plaintiff would necessarily imply the invalidity of his punishment, the Heck rule applies and favorable termination of the underlying proceeding is a prerequisite to relief. See Nelson v. Campbell , 541 U.S. 637, 646, 124 S.Ct. 2117, 158 L.Ed.2d 924 (2004).\nB. Dotson and Skinner\nMorgan also compares his case to Wilkinson v. Dotson , 544 U.S. 74, 125 S.Ct. 1242, 161 L.Ed.2d 253 (2005), and Skinner v. Switzer , 562 U.S. 521, 131 S.Ct. 1289, 179 L.Ed.2d 233 (2011), but the analogy is inapt. In Dotson the Court dealt with two \u00a7 1983 suits challenging the retroactivity of certain state parole-hearing procedures on due-process grounds. The plaintiffs sought declaratory relief and an injunction ordering parole hearings under a different set of rules. Dotson , 544 U.S. at 76-77, 125 S.Ct. 1242. The Court held that the plaintiffs' claims were cognizable under \u00a7 1983 because success would mean \"new [parole] eligibility review\" for one plaintiff and \"a new parole hearing\" for the other, neither of which would \"necessarily spell immediate or speedier release\" or imply the invalidity of their sentences. Id. at 81, 125 S.Ct. 1242 (emphasis omitted). In Skinner the Court allowed a Texas prisoner to seek postconviction DNA testing using a \u00a7 1983 suit because \"[s]uccess ... gains for the prisoner only access to the DNA evidence, which may prove exculpatory, inculpatory, or inconclusive.\" 562 U.S. at 525, 131 S.Ct. 1289. Thus, judgment for the plaintiff wouldn't necessarily imply unlawful confinement by the State.\nIt's not clear that Morgan made this argument below. But in the interest of completeness, we address it here. Morgan misses a key distinction between his case and Dotson and Skinner -a distinction we've discussed before. See Burd v. Sessler , 702 F.3d 429, 432-34 (7th Cir. 2012). The plaintiffs in Dotson and Skinner sought purely prospective relief: parole hearings under different rules in Dotson ; DNA testing in Skinner . As we explained in Burd , the Dotson and Skinner plaintiffs sought entirely forward-looking relief: access to \"procedural pathways that, if successfully employed, might [have led] to the overturning of the underlying conviction.\" Burd , 702 F.3d at 433 (emphasis added). Judgment for those plaintiffs would not have implied the invalidity of their convictions or sentences.\nMorgan's claim, in contrast, is entirely backward looking. He alleges a due-process violation at the hearing that generated his disciplinary sanctions. A damages judgment for Morgan would amount to a judicial determination that prison officials infringed Morgan's constitutional rights by failing to call a witness in his defense, rendering the proceeding unfair. Such a judgment would straightforwardly imply the invalidity of his punishment, triggering Heck 's favorable-termination rule. Balisok , 520 U.S. at 648, 117 S.Ct. 1584 ; see also Lusz v. Scott , 126 F.3d 1018, 1022 (7th Cir. 1997) (applying the Heck bar where the plaintiff argued \"that he was denied the opportunity to call requested witnesses in his favor\"). We've clarified before that \" '[i]mply' is not synonymous with 'invalidate.' \" Hill v. Murphy , 785 F.3d 242, 248 (7th Cir. 2015). Judgment in Morgan's favor would allow him \"to argue that he had been determined by a court to have been unjustly\" punished-an outcome that \" Heck forbids.\" Id.\nMorgan argues that Illinois regulations make all the difference. By rule, \"[t]he Director, Deputy Director or Chief Administrative Officer shall remand the decision to the Adjustment Committee for new proceedings if the proceedings are found to be defective due to[ ] ... [i]mproper exclusion of witnesses.\" ILL. ADMIN. CODE tit. 20, \u00a7 504.90(a)(3). In Morgan's view this provision makes his case like Dotson and Skinner , where success merely meant access to new proceedings. Morgan claims that a judgment in his favor would bring \"a new hearing that appropriately considers previously excluded evidence.\" The hearing could go either way-like the parole hearings in Dotson or the testing in Skinner -so Heck poses no problem for Morgan's suit.\nWe disagree. Heck is not inapplicable merely because state prison regulations call for replacement proceedings in certain situations. Heck prevents the entry of any judgment that would cast doubt on the validity of the plaintiff's punishment or conviction. Burd , 702 F.3d at 433. To repeat, in Dotson the plaintiffs sought entirely forward-looking relief in the form of new hearings under a different set of rules. Judgment granting that relief wouldn't impugn their sentences. Morgan seeks money damages-a classic retrospective remedy. That Morgan might receive additional administrative proceedings as a collateral consequence of receiving a damages judgment does not render that hypothetical judgment any more consistent with the validity of his disciplinary punishment.\nIt's worth noting that Morgan could have challenged the Board's ruling in other ways. Id. at 436 (holding that \" Heck applies where a \u00a7 1983 plaintiff could have sought collateral relief ... but declined the opportunity\"). Under Illinois law the writ of certiorari empowers circuit courts to review administrative determinations \"when the act conferring power on the agency does not expressly adopt the Administrative Review Law and provides for no other form of review.\" Hanrahan v. Williams , 174 Ill.2d 268, 220 Ill.Dec. 339, 673 N.E.2d 251, 253 (1996). Illinois statutes governing prison discipline do not provide for judicial review, so \"prison disciplinary proceedings are reviewable in an action for certiorari .\" Fillmore v. Taylor , 414 Ill.Dec. 692, 80 N.E.3d 835, 849 (Ill. App. Ct. 2017). Alternatively, Morgan could have asked a state court to issue a writ of mandamus ordering Menard officials to conduct a new hearing. Dye v. Pierce , 369 Ill.App.3d 683, 311 Ill.Dec. 293, 868 N.E.2d 293, 296 (2006) (\"An allegation of a due-process-rights violation ... states a cause of action in mandamus .\"). And after exhausting state review, he could have sought relief under the federal habeas corpus statute. Instead he immediately sued for money damages under \u00a7 1983-and ran directly into Heck .\nAlthough Morgan does not currently have a cognizable \u00a7 1983 claim, it is at least possible that he could convince a state court to provide the favorable termination required by Heck . Illinois courts apply a six-month limitations period to certiorari actions, but a court might hear a late certiorari action if no \"public detriment or inconvenience would result from [the] delay.\" Alicea v. Snyder , 321 Ill.App.3d 248, 254 Ill.Dec. 839, 748 N.E.2d 285, 290 (2001).\nHeck -barred claims must be dismissed. Johnson v. Winstead , 900 F.3d 428, 436 (7th Cir. 2018). But given the possibility of future state-court proceedings, Morgan's claim should have been dismissed without prejudice. See Moore v. Burge , 771 F.3d 444, 446 (7th Cir. 2014) ; Polzin v. Gage , 636 F.3d 834, 839 (7th Cir. 2011). We modify the judgment to reflect a dismissal without prejudice. As modified, the judgment is affirmed.\nAFFIRMED AS MODIFIED .",
+        "type": "majority",
+        "author": "Sykes, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "William J. Barrow, Attorney, MAYER BROWN LLP, Washington, DC, for Plaintiff-Appellant.",
+      "Frank Henry Bieszczat, Attorney, OFFICE OF THE ATTORNEY GENERAL, Civil Appeals Division, Chicago, IL, for Defendant-Appellees."
+    ],
+    "corrections": "",
+    "head_matter": "Jeryme MORGAN, Plaintiff-Appellant,\nv.\nMinh SCHOTT, Tim Veath, and Hudson Maynard, Defendants-Appellees.\nNo. 16-2384\nUnited States Court of Appeals, Seventh Circuit.\nArgued September 5, 2018\nDecided February 5, 2019\nWilliam J. Barrow, Attorney, MAYER BROWN LLP, Washington, DC, for Plaintiff-Appellant.\nFrank Henry Bieszczat, Attorney, OFFICE OF THE ATTORNEY GENERAL, Civil Appeals Division, Chicago, IL, for Defendant-Appellees.\nBefore Kanne, Sykes, and St. Eve, Circuit Judges."
+  },
+  "file_name": "1115-01",
+  "first_page_order": 1115,
+  "last_page_order": 1122
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12431219,
+  "name": "Smith v. North Carolina",
+  "name_abbreviation": "Smith v. North Carolina",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-7880",
+  "first_page": "1176",
+  "last_page": "1176",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1176"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.709,
+    "sha256": "12081b987829340923358575ae650c52040fcfa61827a23355655f6f6f3097e7",
+    "simhash": "1:b3c30a89de07f265",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Smith v. North Carolina."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7880.\nSmith v. North Carolina."
+  },
+  "file_name": "1176-02",
+  "first_page_order": 1252,
+  "last_page_order": 1252
+}

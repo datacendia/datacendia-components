@@ -1,0 +1,68 @@
+{
+  "id": 12702147,
+  "name": "In re Harvey L. FAIRLEY, petitioner.",
+  "name_abbreviation": "In re Fairley",
+  "decision_date": "2013-10-07",
+  "docket_number": "No. 13\u20135371.",
+  "first_page": "813",
+  "last_page": "813",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 813"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 267"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 278"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 23,
+    "char_count": 143,
+    "sha256": "ec146e6ee38b36e4f338e22a9cf6c0f047c99ed7f08432db872b36a0bb593c08",
+    "simhash": "1:61cf247dfbf94647",
+    "word_count": 24
+  },
+  "last_updated": "2021-08-27T20:47:23.363448+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Harvey L. FAIRLEY, petitioner."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of habeas corpus denied."
+    ],
+    "corrections": "",
+    "head_matter": "In re Harvey L. FAIRLEY, petitioner.\nNo. 13-5371.\nSupreme Court of the United States\nOct. 7, 2013.\nPetition for writ of habeas corpus denied."
+  },
+  "file_name": "0813-05",
+  "first_page_order": 813,
+  "last_page_order": 813
+}

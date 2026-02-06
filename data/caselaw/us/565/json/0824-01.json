@@ -1,0 +1,59 @@
+{
+  "id": 12197431,
+  "name": "Johnson v. Manitowoc County, Wisconsin, et al.",
+  "name_abbreviation": "Johnson v. Manitowoc County",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-1481",
+  "first_page": "824",
+  "last_page": "824",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 824"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 94,
+    "ocr_confidence": 0.642,
+    "sha256": "f7e5a78c74ac660702d2821766d24d881eba5870f96499e46a9d753c73847597",
+    "simhash": "1:ebc024a9430f9308",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Johnson v. Manitowoc County, Wisconsin, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1481.\nJohnson v. Manitowoc County, Wisconsin, et al."
+  },
+  "file_name": "0824-01",
+  "first_page_order": 906,
+  "last_page_order": 906
+}

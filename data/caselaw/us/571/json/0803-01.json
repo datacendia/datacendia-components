@@ -1,0 +1,98 @@
+{
+  "id": 12702016,
+  "name": "Robert Kevin McCARTNEY, petitioner, v. LOUISIANA.",
+  "name_abbreviation": "McCartney v. La.",
+  "decision_date": "2013-10-07",
+  "docket_number": "No. 12\u201310435.",
+  "first_page": "803",
+  "last_page": "803",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 803"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 4"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 113"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "506 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11924825
+      ],
+      "weight": 3,
+      "year": 1992,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam "
+        },
+        {
+          "parenthetical": "per curiam "
+        },
+        {
+          "parenthetical": "per curiam "
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/506/0001-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 80,
+    "char_count": 664,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.26654816554942007
+    },
+    "sha256": "40d6b0e63eea1211d1ca1124b43b691cce587f21c5672c20067984bc79efd1eb",
+    "simhash": "1:69eae41cc125d69b",
+    "word_count": 108
+  },
+  "last_updated": "2024-02-27T18:46:20.843173+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Robert Kevin McCARTNEY, petitioner,\nv.\nLOUISIANA."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Motion of petitioner for leave to proceed in forma pauperis denied, and petition for writ of certiorari to the Supreme Court of Louisiana dismissed. See Rule 39.8. As petitioner has repeatedly abused this Court's process, the Clerk is directed not to accept any further petitions in noncriminal matters from the petitioner unless the docketing fee required by Rule 38(a) is paid and petition submitted in compliance with Rule 33.1. See Martin v. District of Columbia Court of Appeals, 506 U.S. 1, 113 S.Ct. 397, 121 L.Ed.2d 305 (1992) (per curiam )."
+    ],
+    "corrections": "",
+    "head_matter": "Robert Kevin McCARTNEY, petitioner,\nv.\nLOUISIANA.\nNo. 12-10435.\nSupreme Court of the United States\nOct. 7, 2013.\nMotion of petitioner for leave to proceed in forma pauperis denied, and petition for writ of certiorari to the Supreme Court of Louisiana dismissed. See Rule 39.8. As petitioner has repeatedly abused this Court's process, the Clerk is directed not to accept any further petitions in noncriminal matters from the petitioner unless the docketing fee required by Rule 38(a) is paid and petition submitted in compliance with Rule 33.1. See Martin v. District of Columbia Court of Appeals, 506 U.S. 1, 113 S.Ct. 397, 121 L.Ed.2d 305 (1992) (per curiam )."
+  },
+  "file_name": "0803-01",
+  "first_page_order": 803,
+  "last_page_order": 803
+}

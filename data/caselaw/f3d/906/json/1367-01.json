@@ -1,0 +1,264 @@
+{
+  "id": 12518869,
+  "name": "UNITED STATES of America, Plaintiff-Appellee, v. Alexis HERNANDEZ, Defendant-Appellant.",
+  "name_abbreviation": "United States v. Hernandez",
+  "decision_date": "2018-10-26",
+  "docket_number": "No. 17-15666",
+  "first_page": "1367",
+  "last_page": "1371",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "906 F.3d 1367"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "11th Cir.",
+    "id": 9031,
+    "name": "United States Court of Appeals for the Eleventh Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "398 F.3d 1291",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9033519
+      ],
+      "weight": 7,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "1298"
+        },
+        {
+          "page": "1299"
+        },
+        {
+          "page": "1298"
+        },
+        {
+          "page": "1299"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/398/1291-01"
+      ]
+    },
+    {
+      "cite": "718 F.3d 1317",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4048677
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "1319"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/718/1317-01"
+      ]
+    },
+    {
+      "cite": "553 F.3d 1165",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3717987
+      ],
+      "weight": 3,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "1170"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/553/1165-01"
+      ]
+    },
+    {
+      "cite": "21 U.S.C. \u00a7 851",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 6,
+      "pin_cites": [
+        {
+          "page": "(a)(1)"
+        },
+        {
+          "page": "(c)(1)"
+        },
+        {
+          "page": "(c)(1)"
+        },
+        {
+          "page": "(c)(1)"
+        },
+        {
+          "page": "(c)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "523 U.S. 224",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11503479
+      ],
+      "weight": 3,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "228-35"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/523/0224-01"
+      ]
+    },
+    {
+      "cite": "434 F.3d 1234",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        932077
+      ],
+      "weight": 2,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "1244",
+          "parenthetical": "citing Almendarez-Torres v. United States , 523 U.S. 224, 228-35, 118 S.Ct. 1219, 140 L.Ed.2d 350 (1998) "
+        },
+        {
+          "page": "1244"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/434/1234-01"
+      ]
+    },
+    {
+      "cite": "605 F.3d 1256",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4230401
+      ],
+      "weight": 3,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "1269"
+        },
+        {
+          "page": "1269"
+        },
+        {
+          "page": "1269"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/605/1256-01"
+      ]
+    },
+    {
+      "cite": "873 F.3d 846",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12266085
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "854"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/873/0846-01"
+      ]
+    },
+    {
+      "cite": "21 U.S.C. \u00a7 846",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 U.S.C. \u00a7 841",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "(b)"
+        },
+        {
+          "page": "(b)(1)(A)"
+        },
+        {
+          "page": "(b)(1)(A)"
+        },
+        {
+          "page": "(b)(1)(A)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 441,
+    "char_count": 9508,
+    "pagerank": {
+      "raw": 4.95083152079718e-08,
+      "percentile": 0.3123543110042323
+    },
+    "sha256": "41e8a239e6ff5e024b4a73330cee0849b556925b89ef4aaa4474d0a095ceafc1",
+    "simhash": "1:bf4adf697b9a3c23",
+    "word_count": 1524
+  },
+  "last_updated": "2024-02-27T18:46:07.237745+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "UNITED STATES of America, Plaintiff-Appellee,\nv.\nAlexis HERNANDEZ, Defendant-Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "WILSON, Circuit Judge:\nDefendants convicted of certain drug-related felonies are subjected to a 240-month mandatory minimum if they have previously been convicted of a drug-related felony. See 21 U.S.C. \u00a7 841(b). If the existence of the prior conviction is in dispute, district courts are required to conduct a \"\u00a7 851 hearing\" to determine whether the defendant has a previous conviction, thus making him eligible for the sentence enhancement. See 21 U.S.C \u00a7 851(c)(1). On this appeal, we decide whether it was an abuse of discretion to disregard the Federal Rules of Evidence during a \u00a7 851 hearing. We hold that it was not.\nAlexis Hernandez was convicted of felony conspiracy to possess with intent to distribute 500 grams or more of methamphetamine and one kilogram or more of heroin under 21 U.S.C. \u00a7 846. The district court sentenced Hernandez to 240 months, the mandatory minimum under 21 U.S.C. \u00a7 841(b)(1)(A). Hernandez appeals his sentence, arguing: (1) the district court should have applied the Federal Rules of Evidence at his \u00a7 851 hearing, and (2) the district court committed plain error when it applied the incorrect standard of proof as to the government's burden under \u00a7 851.\nI.\nWe review a district court's evidentiary rulings for abuse of discretion. United States v. Green , 873 F.3d 846, 854 (11th Cir. 2017). The Federal Rules of Evidence do not apply to miscellaneous proceedings such as sentencing hearings. FED. R.EVID.1101(d)(3). A sentencing court may consider any evidence, regardless of its admissibility at trial, in determining whether factors exist that would enhance a defendant's sentence, provided that (1) the evidence has sufficient indicia of reliability, (2) the court makes explicit findings of fact as to credibility, and (3) the defendant has an opportunity to rebut the evidence. United States v. Ghertler , 605 F.3d 1256, 1269 (11th Cir. 2010). Prior convictions are treated as sentencing factors. See United States v. Gibson , 434 F.3d 1234, 1244 (11th Cir. 2006) (citing Almendarez-Torres v. United States , 523 U.S. 224, 228-35, 118 S.Ct. 1219, 140 L.Ed.2d 350 (1998) ).\nUnder 21 U.S.C. \u00a7 841(b)(1)(A), a defendant found guilty of one of the enumerated offenses, including conspiracy to distribute, or possess with intent to distribute, 500 grams or more of methamphetamine and one kilogram or more of heroin, is subject to a 20-year mandatory minimum term of imprisonment if that defendant has a prior conviction for a felony drug offense. 21 U.S.C. \u00a7 841(b)(1)(A). In order to obtain this sentencing enhancement, the government must file an information before trial indicating its intent to use the prior conviction. 21 U.S.C. \u00a7 851(a)(1). If the defendant files a written response challenging the prior conviction, the district court must \"hold a hearing to determine any issues raised by the response which would except the person from increased punishment.\" 21 U.S.C. \u00a7 851(c)(1). At this hearing, the government \"shall have the burden of proof beyond a reasonable doubt on any issue of fact.\" Id.\nIn this case, the government properly filed an information alleging Hernandez had a prior felony drug conviction. Hernandez filed a response denying the conviction. Accordingly, pursuant to \u00a7 851(c)(1), the district court held a hearing to determine whether Hernandez had a prior conviction.\nDuring the \u00a7 851 hearing, Hernandez repeatedly objected to the introduction of evidence. First, Hernandez objected to the admission of the certified judgment of his possession of cocaine charge. Hernandez claimed admission of the evidence violated Rule 902 of the Federal Rules of Evidence because the document was a photocopy of the certified judgment, not the original, and therefore it was not properly authenticated. Second, Hernandez objected to the admission of booking photographs taken of Hernandez after he was arrested for the possession of cocaine. According to Hernandez, the photographs were not authenticated under Rule 902. See FED. R. EVID.902. Moreover, Hernandez argued that the probation officer that identified the person in the photographs as Hernandez was not competent to testify about the similarity of photographs, as she was not a facial recognition expert. Finally, on hearsay grounds, Hernandez objected to the admission of the probation officer's testimony as to the Presentence Investigation Report (\"PSR\"), the certified judgment of his prior possession of cocaine conviction, and her conversation with Hernandez's state probation officer. The district court dismissed each objection, reasoning that the Federal Rules of Evidence do not apply to \u00a7 851 hearings.\nWe have not explicitly determined whether the Federal Rules of Evidence apply to \u00a7 851 hearings. The Eighth Circuit dealt with a similar situation in United States v. Pratt , where the defendant challenged the district court's reliance on hearsay evidence at his \u00a7 851 hearing. 553 F.3d 1165, 1170 (8th Cir. 2009). The Eighth Circuit categorized the \u00a7 851 hearing as part of the sentencing process and did not consider the Federal Rules of Evidence, simply reasoning that \"the rules of evidence do not apply at sentencing.\" Id. Instead, the court employed the \"sufficient indicia of reliability\" standard federal courts use at sentencing hearings. See id. at 1170-71 ; see also Ghertler , 605 F.3d at 1269.\nLikewise, we conclude that the Federal Rules of Evidence do not apply at \u00a7 851 hearings because they are miscellaneous proceedings akin to sentencing hearings. First, the Federal Rules of Evidence do not apply at sentencing, and prior convictions are treated as sentencing factors. See FED. R. EVID.1101(d)(3) ; see also Gibson , 434 F.3d at 1244. Second, \u00a7 851 hearings are similar to sentencing hearings insofar as they involve determining the existence of facts that, if proven, enhance an individual's sentence independent of the crime of conviction. Finally, \u00a7 851 hearings, like sentencing hearings, are post-trial bench proceedings in which the judge is the finder of fact. Accordingly, whether to apply the Federal Rules of Evidence during a \u00a7 851 hearing is left to the discretion of the district court. The district court's decision to disregard the Federal Rules of Evidence during the \u00a7 851 hearing was, therefore, not an abuse of discretion.\nWe therefore consider whether the evidence satisfies the \"sufficient indicia of reliability\" standard. We agree with the district court that the documents appear to be reliable and authentic. Accordingly, the district court did not clearly err. See Ghertler , 605 F.3d at 1269.\nII.\nDuring \u00a7 851 hearings, the government has \"the burden of proof beyond a reasonable doubt on any issue of fact.\" 21 U.S.C. \u00a7 851(c)(1). We generally review the interpretation of a criminal statute de novo. United States v. Rojas , 718 F.3d 1317, 1319 (11th Cir. 2013). When a party fails to object in the district court, however, we review for plain error. United States v. Rodriguez , 398 F.3d 1291, 1298 (11th Cir. 2005). In order to establish plain error, a party must demonstrate: (1) the district court erred; (2) the error was plain; and (3) the error affected the party's substantial rights. Id. If all three conditions are met, this Court \"may exercise its discretion to notice a forfeited error, but only if the error seriously affected the fairness, integrity, or public reputation of judicial proceedings.\" Id. To affect a party's substantial rights, the error \"must have affected the outcome of the district court proceedings\" such that, absent the error, there is a reasonable probability of a different result. Id. at 1299.\nIn this case, the district court improperly employed the preponderance of the evidence standard, as opposed to the beyond a reasonable doubt standard. See 21 U.S.C. \u00a7 851(c)(1). We review that choice for plain error because Hernandez failed to object to the application of the wrong standard. See Rodriguez , 398 F.3d at 1298.\nHernandez satisfies the first two prongs of plain error review. The district court's application of the preponderance of the evidence standard was plainly erroneous because \u00a7 851 requires the United States to prove the conviction beyond a reasonable doubt. 21 U.S.C. \u00a7 851(c)(1). Hernandez fails to satisfy the third prong, however, which requires establishing a reasonable probability that the outcome would have been different if the district court applied the correct standard. See Rodriguez , 398 F.3d at 1299.\nHernandez contends that the district court's failure to apply the Federal Rules of Evidence in his \u00a7 851 hearing affected his substantial rights. According to Hernandez, but for the inadmissible evidence, the government would not have been able to meet its burden of proof in establishing the prior felony drug conviction. But we have already established that the Federal Rules of Evidence did not apply, and Hernandez never challenged nor objected to the reliability or substance of the documentary evidence. There was sufficient evidence for the district court to find beyond a reasonable doubt that Hernandez was previously convicted of possession of cocaine. Accordingly, it was not reasonably probable that the outcome of the proceedings would have changed even if the district court had applied the correct standard. See id. The district court did not plainly err.\nAFFIRMED.",
+        "type": "majority",
+        "author": "WILSON, Circuit Judge:"
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff-Appellee,\nv.\nAlexis HERNANDEZ, Defendant-Appellant.\nNo. 17-15666\nUnited States Court of Appeals, Eleventh Circuit.\nOctober 26, 2018"
+  },
+  "file_name": "1367-01",
+  "first_page_order": 1367,
+  "last_page_order": 1371
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12415000,
+  "name": "Salcido v. United States",
+  "name_abbreviation": "Salcido v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-50",
+  "first_page": "885",
+  "last_page": "885",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 885"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.697,
+    "sha256": "0b9c44f46e8831d9464f610d37de45caef277c57433c3e3902e7a9c537c5483a",
+    "simhash": "1:2580e70b0a155610",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Salcido v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-50.\nSalcido v. United States."
+  },
+  "file_name": "0885-02",
+  "first_page_order": 961,
+  "last_page_order": 961
+}

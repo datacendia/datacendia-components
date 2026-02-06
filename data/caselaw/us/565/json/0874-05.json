@@ -1,0 +1,59 @@
+{
+  "id": 12212402,
+  "name": "Fogle v. Slack et al.",
+  "name_abbreviation": "Fogle v. Slack",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-11236",
+  "first_page": "874",
+  "last_page": "874",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 874"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 71,
+    "ocr_confidence": 0.662,
+    "sha256": "905241e10bdede9c1400246660d48eff01775609c6237955cdd1b120c492616d",
+    "simhash": "1:9ac954a876279236",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Fogle v. Slack et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-11236.\nFogle v. Slack et al."
+  },
+  "file_name": "0874-05",
+  "first_page_order": 956,
+  "last_page_order": 956
+}

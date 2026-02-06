@@ -1,0 +1,59 @@
+{
+  "id": 12232031,
+  "name": "McCaw v. United States",
+  "name_abbreviation": "McCaw v. United States",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. 11-6652",
+  "first_page": "993",
+  "last_page": "993",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 993"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.72,
+    "sha256": "51a2f426f58494215bb9e9e048bd1c850b2b2e92717d9042728d5369a5a88b3d",
+    "simhash": "1:00aaf643cb311078",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McCaw v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6652.\nMcCaw v. United States."
+  },
+  "file_name": "0993-14",
+  "first_page_order": 1075,
+  "last_page_order": 1075
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12221768,
+  "name": "Palmer v. Buge et al.",
+  "name_abbreviation": "Palmer v. Buge",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5515",
+  "first_page": "912",
+  "last_page": "912",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 912"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 70,
+    "ocr_confidence": 0.662,
+    "sha256": "1b97d17836b71d389f8b94110a6fae7ead8b8b4f5c9ff9d1bd10a1b0b7ba286c",
+    "simhash": "1:93d01020d13e927c",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Palmer v. Buge et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5515.\nPalmer v. Buge et al."
+  },
+  "file_name": "0912-02",
+  "first_page_order": 994,
+  "last_page_order": 994
+}

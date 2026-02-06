@@ -1,0 +1,59 @@
+{
+  "id": 6001315,
+  "name": "Morgan v. Town of Mineral, Virginia",
+  "name_abbreviation": "Morgan v. Town of Mineral",
+  "decision_date": "2010-12-13",
+  "docket_number": "No. 10-524",
+  "first_page": "1109",
+  "last_page": "1109",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1109"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 81,
+    "ocr_confidence": 0.647,
+    "sha256": "303d58502f96438beff942e811e80d06044cdc4add84153de94b785f5b7a572b",
+    "simhash": "1:e8e222866e4c298a",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Morgan v. Town of Mineral, Virginia."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Va. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-524.\nMorgan v. Town of Mineral, Virginia."
+  },
+  "file_name": "1109-13",
+  "first_page_order": 1131,
+  "last_page_order": 1131
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12246021,
+  "name": "Shiner v. United States",
+  "name_abbreviation": "Shiner v. United States",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-808",
+  "first_page": "1202",
+  "last_page": "1202",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1202"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.653,
+    "sha256": "fd4fd0950a9a0c01d0b2771c04838f0fb7168356a8a46be3144ab9f78f838698",
+    "simhash": "1:024b9f1f6ec1951a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Shiner v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-808.\nShiner v. United States."
+  },
+  "file_name": "1202-01",
+  "first_page_order": 1284,
+  "last_page_order": 1284
+}

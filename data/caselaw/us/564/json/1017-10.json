@@ -1,0 +1,59 @@
+{
+  "id": 4331578,
+  "name": "In re Remmert",
+  "name_abbreviation": "In re Remmert",
+  "decision_date": "2011-06-20",
+  "docket_number": "No. 10-9998",
+  "first_page": "1017",
+  "last_page": "1017",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1017"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 25,
+    "char_count": 169,
+    "ocr_confidence": 0.526,
+    "sha256": "4051660d30a7b482953096c4357bc00d2a627d7418f14a270b77bc3ee681cf3a",
+    "simhash": "1:6781065c2031a71a",
+    "word_count": 28
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Remmert."
+    ],
+    "opinions": [
+      {
+        "text": "Motion of petitioner for leave to proceed in forma pauperis denied, and petition for writ of mandamus dismissed. See this Court\u2019s Rule 39.8.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9998.\nIn re Remmert."
+  },
+  "file_name": "1017-10",
+  "first_page_order": 1011,
+  "last_page_order": 1011
+}

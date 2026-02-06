@@ -1,0 +1,59 @@
+{
+  "id": 6012258,
+  "name": "Jones v. McNeil, Secretary, Florida Department of Corrections",
+  "name_abbreviation": "Jones v. McNeil",
+  "decision_date": "2010-10-12",
+  "docket_number": "No. 10-5819",
+  "first_page": "968",
+  "last_page": "968",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 968"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 111,
+    "ocr_confidence": 0.556,
+    "sha256": "e6a78e25fa0ce74ac4ad4efd5fb259d71e51e1c8d21ffcf5e40181b215504948",
+    "simhash": "1:1b6bd833cbdcb07d",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jones v. McNeil, Secretary, Florida Department of Corrections."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5819.\nJones v. McNeil, Secretary, Florida Department of Corrections."
+  },
+  "file_name": "0968-02",
+  "first_page_order": 990,
+  "last_page_order": 990
+}

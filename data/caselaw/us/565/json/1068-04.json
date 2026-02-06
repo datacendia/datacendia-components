@@ -1,0 +1,59 @@
+{
+  "id": 12235970,
+  "name": "Pickett v. Rollins et al.",
+  "name_abbreviation": "Pickett v. Rollins",
+  "decision_date": "2011-11-28",
+  "docket_number": "No. 11-6707",
+  "first_page": "1068",
+  "last_page": "1068",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1068"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 74,
+    "ocr_confidence": 0.659,
+    "sha256": "5ba6ec79d16554d7c1f794c168136b5457c247fd88ccc5b77333666e201e9a2f",
+    "simhash": "1:90583ceabd8ba1b8",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Pickett v. Rollins et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6707.\nPickett v. Rollins et al."
+  },
+  "file_name": "1068-04",
+  "first_page_order": 1150,
+  "last_page_order": 1150
+}

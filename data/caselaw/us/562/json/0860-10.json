@@ -1,0 +1,59 @@
+{
+  "id": 6016587,
+  "name": "Mitchell v. Orange County, Texas, et al.",
+  "name_abbreviation": "Mitchell v. Orange County",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11055",
+  "first_page": "860",
+  "last_page": "860",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 860"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 99,
+    "ocr_confidence": 0.593,
+    "sha256": "3f101a8ff8bc0dd465111e37549193d076278b224a40b2814212936d78ef5090",
+    "simhash": "1:09dfd690f6a82111",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mitchell v. Orange County, Texas, et al."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Tex., 9th Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11055.\nMitchell v. Orange County, Texas, et al."
+  },
+  "file_name": "0860-10",
+  "first_page_order": 882,
+  "last_page_order": 882
+}

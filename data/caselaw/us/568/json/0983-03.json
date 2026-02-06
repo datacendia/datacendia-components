@@ -1,0 +1,59 @@
+{
+  "id": 12420419,
+  "name": "Imperial v. Herndon, Warden",
+  "name_abbreviation": "Imperial v. Herndon",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 12-5878",
+  "first_page": "983",
+  "last_page": "983",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 983"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.617,
+    "sha256": "06c92be8f5c927c459fcf479441fe71514e8dd5ff60c814179aa97073f73621d",
+    "simhash": "1:20e7219329bbb056",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Imperial v. Herndon, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5878.\nImperial v. Herndon, Warden."
+  },
+  "file_name": "0983-03",
+  "first_page_order": 1059,
+  "last_page_order": 1059
+}

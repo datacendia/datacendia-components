@@ -1,0 +1,59 @@
+{
+  "id": 6033608,
+  "name": "Stevenson v. United States",
+  "name_abbreviation": "Stevenson v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5166",
+  "first_page": "907",
+  "last_page": "907",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 907"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.63,
+    "sha256": "fc59a9354a2ff751090eabd5f254063a43d5af5477437e1e9176853a38b56464",
+    "simhash": "1:a409ee283bcb9755",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Stevenson v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. D. C. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5166.\nStevenson v. United States."
+  },
+  "file_name": "0907-07",
+  "first_page_order": 929,
+  "last_page_order": 929
+}

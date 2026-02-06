@@ -1,0 +1,59 @@
+{
+  "id": 12413151,
+  "name": "Jones v. Bauman",
+  "name_abbreviation": "Jones v. Bauman",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10504",
+  "first_page": "846",
+  "last_page": "846",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 846"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 65,
+    "ocr_confidence": 0.644,
+    "sha256": "1e2c3352fb0379a3c28aacfeea5de573fc4690e90aa086fcbeed23d3d3144634",
+    "simhash": "1:839a02614b09b947",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jones v. Bauman."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10504.\nJones v. Bauman."
+  },
+  "file_name": "0846-07",
+  "first_page_order": 922,
+  "last_page_order": 922
+}

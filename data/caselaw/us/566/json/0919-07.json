@@ -1,0 +1,114 @@
+{
+  "id": 12199608,
+  "name": "Christopher et al. v. SmithKline Beecham Corp., DBA GlaxoSmithKline",
+  "name_abbreviation": "Christopher v. SmithKline Beecham Corp.",
+  "decision_date": "2012-04-02",
+  "docket_number": "No. 11-204",
+  "first_page": "919",
+  "last_page": "919",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 919"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "565 U. S. 1057",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12234884,
+        12234885,
+        12234887,
+        12234890,
+        12234894,
+        12234899,
+        12234905,
+        12234912,
+        12234920,
+        12234929,
+        12444767,
+        12444768,
+        12444769,
+        12444770,
+        12444771,
+        12444772,
+        12444773,
+        12444774,
+        12444775,
+        12444776,
+        12444777,
+        12234878
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/565/1057-02",
+        "/us/565/1057-03",
+        "/us/565/1057-04",
+        "/us/565/1057-05",
+        "/us/565/1057-06",
+        "/us/565/1057-07",
+        "/us/565/1057-08",
+        "/us/565/1057-09",
+        "/us/565/1057-10",
+        "/us/565/1057-11",
+        "/l-ed-2d/181/0479-05",
+        "/l-ed-2d/181/0479-06",
+        "/l-ed-2d/181/0480-01",
+        "/l-ed-2d/181/0480-02",
+        "/l-ed-2d/181/0480-03",
+        "/l-ed-2d/181/0480-04",
+        "/l-ed-2d/181/0480-05",
+        "/l-ed-2d/181/0480-06",
+        "/l-ed-2d/181/0480-07",
+        "/l-ed-2d/181/0481-01",
+        "/l-ed-2d/181/0481-02",
+        "/us/565/1057-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 38,
+    "char_count": 259,
+    "ocr_confidence": 0.534,
+    "sha256": "77d5bc0cd53aaca1674e3d8e5d4178adc2826116ba3abcdbbaf7e241df73816c",
+    "simhash": "1:038421a00284cc74",
+    "word_count": 41
+  },
+  "last_updated": "2024-02-27T23:45:15.365324+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Christopher et al. v. SmithKline Beecham Corp., DBA GlaxoSmithKline."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. [Certiorari granted, 565 U. S. 1057.] Motion of the Solicitor General for leave to participate in oral argument as amicus curiae and for divided argument granted.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-204.\nChristopher et al. v. SmithKline Beecham Corp., DBA GlaxoSmithKline."
+  },
+  "file_name": "0919-07",
+  "first_page_order": 795,
+  "last_page_order": 795
+}

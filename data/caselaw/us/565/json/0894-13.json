@@ -1,0 +1,59 @@
+{
+  "id": 12217914,
+  "name": "T. A. P. v. Alabama",
+  "name_abbreviation": "T. A. P. v. Alabama",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5198",
+  "first_page": "894",
+  "last_page": "894",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 894"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 74,
+    "ocr_confidence": 0.704,
+    "sha256": "f03d5ada91db5f1c5613146791199235192f57b8ea9a7a4014d10a344a4bc03c",
+    "simhash": "1:0650a73e1fcd87a6",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "T. A. P. v. Alabama."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Ala. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5198.\nT. A. P. v. Alabama."
+  },
+  "file_name": "0894-13",
+  "first_page_order": 976,
+  "last_page_order": 976
+}

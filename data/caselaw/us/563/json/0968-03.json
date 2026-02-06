@@ -1,0 +1,59 @@
+{
+  "id": 5931313,
+  "name": "Davis v. United States",
+  "name_abbreviation": "Davis v. United States",
+  "decision_date": "2011-04-25",
+  "docket_number": "No. 10-9743",
+  "first_page": "968",
+  "last_page": "968",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 968"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.597,
+    "sha256": "2cfb00fb91b4d8b29db7162c9f20890bb07320052ccdb06102e1c2f23c502cf1",
+    "simhash": "1:c78ab21fca351968",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Davis v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9743.\nDavis v. United States."
+  },
+  "file_name": "0968-03",
+  "first_page_order": 994,
+  "last_page_order": 994
+}

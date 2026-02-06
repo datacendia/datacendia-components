@@ -1,0 +1,82 @@
+{
+  "id": 12427238,
+  "name": "Totaro v. United States District Court for the District of South Dakota",
+  "name_abbreviation": "Totaro v. United States District Court for the District of South Dakota",
+  "decision_date": "2012-12-10",
+  "docket_number": "No. 12-7122",
+  "first_page": "1066",
+  "last_page": "1066",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1066"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "506 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11924825
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/506/0001-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 75,
+    "char_count": 599,
+    "ocr_confidence": 0.586,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25627536586109845
+    },
+    "sha256": "9be87e52915584645b621013de9f1ed3079b5931b1e0437b1216f2344d5b4efe",
+    "simhash": "1:652a140c0524d60f",
+    "word_count": 100
+  },
+  "last_updated": "2024-02-27T23:44:49.194693+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Totaro v. United States District Court for the District of South Dakota."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Motion of petitioner for leave to proceed in forma pauperis denied, and certio-rari dismissed. See this Court\u2019s Rule 39.8. As petitioner has repeatedly abused this Court\u2019s process, the Clerk is directed not to accept any further petitions in noncriminal matters from petitioner unless the docketing fee required by Rule 38(a) is paid and the petition is submitted in compliance with Rule 33.1. See Martin v. District of Columbia Court of Appeals, 506 U. S. 1 (1992) (per curiam).",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "December 10, 2012\nNo. 12-7122.\nTotaro v. United States District Court for the District of South Dakota."
+  },
+  "file_name": "1066-04",
+  "first_page_order": 1142,
+  "last_page_order": 1142
+}

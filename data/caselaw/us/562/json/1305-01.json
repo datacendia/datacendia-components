@@ -1,0 +1,63 @@
+{
+  "id": 5954477,
+  "name": "Allen v. Missouri ex rel. Koster, Attorney General of Missouri",
+  "name_abbreviation": "Allen v. Missouri ex rel. Koster",
+  "decision_date": "2011-03-21",
+  "docket_number": "No. 09-1420",
+  "first_page": "1305",
+  "last_page": "1305",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1305"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 22,
+    "char_count": 147,
+    "ocr_confidence": 0.589,
+    "pagerank": {
+      "raw": 2.5564759681397033e-06,
+      "percentile": 0.9962155557234272
+    },
+    "sha256": "281fa1381b1f32226afb54abb128762af1c8ebec606e326cb2e94471a2af67fb",
+    "simhash": "1:63a55c914ae9e70e",
+    "word_count": 24
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Allen v. Missouri ex rel. Koster, Attorney General of Missouri,"
+    ],
+    "opinions": [
+      {
+        "text": "ante, p. 833. Motion for leave to file petition for rehearing denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-1420.\nAllen v. Missouri ex rel. Koster, Attorney General of Missouri,"
+  },
+  "file_name": "1305-01",
+  "first_page_order": 1327,
+  "last_page_order": 1327
+}

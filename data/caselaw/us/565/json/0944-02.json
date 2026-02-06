@@ -1,0 +1,59 @@
+{
+  "id": 12227079,
+  "name": "Riffin v. Maryland Department of the Environment",
+  "name_abbreviation": "Riffin v. Maryland Department of the Environment",
+  "decision_date": "2011-10-11",
+  "docket_number": "No. 11-165",
+  "first_page": "944",
+  "last_page": "944",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 944"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 98,
+    "ocr_confidence": 0.665,
+    "sha256": "0ea75aad4d8c9d4b6fbd37986f5afd729b1f6e59f503b2feb4e3f0263d3c57e5",
+    "simhash": "1:0480748874021474",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Riffin v. Maryland Department of the Environment."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Sp. App. Md. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-165.\nRiffin v. Maryland Department of the Environment."
+  },
+  "file_name": "0944-02",
+  "first_page_order": 1026,
+  "last_page_order": 1026
+}

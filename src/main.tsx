@@ -1,3 +1,13 @@
+/**
+ * DATACENDIA PLATFORM - FRONTEND APPLICATION
+ * 
+ * Copyright (c) 2024-2026 Datacendia, Inc. All Rights Reserved.
+ * 
+ * PROPRIETARY AND CONFIDENTIAL
+ * Unauthorized copying, modification, or distribution is strictly prohibited.
+ * See LICENSE file for details.
+ */
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';

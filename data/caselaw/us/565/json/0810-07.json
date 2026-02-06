@@ -1,0 +1,86 @@
+{
+  "id": 12190722,
+  "name": "LaFountain v. Balcarcel",
+  "name_abbreviation": "LaFountain v. Balcarcel",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-9970",
+  "first_page": "810",
+  "last_page": "810",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 810"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "564 U. S. 1001",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5920387,
+        12450507,
+        4335564,
+        5934252,
+        12450510,
+        12450509,
+        12450508,
+        5922451
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/564/1001-01",
+        "/l-ed-2d/180/0818-01",
+        "/us/564/1001-03",
+        "/us/564/1001-04",
+        "/l-ed-2d/180/0819-01",
+        "/l-ed-2d/180/0818-03",
+        "/l-ed-2d/180/0818-02",
+        "/us/564/1001-02"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 27,
+    "char_count": 171,
+    "ocr_confidence": 0.619,
+    "sha256": "5f2f65cdba3046329fe14eb4056cad01e111ff1a2e2fadb8140b9d320f921874",
+    "simhash": "1:e7b03b18ca26ba14",
+    "word_count": 28
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "LaFountain v. Balcarcel."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Motion of petitioner for reconsideration of order denying leave to proceed in forma pauperis [564 U. S. 1001] denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9970.\nLaFountain v. Balcarcel."
+  },
+  "file_name": "0810-07",
+  "first_page_order": 892,
+  "last_page_order": 892
+}

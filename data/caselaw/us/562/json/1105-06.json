@@ -1,0 +1,88 @@
+{
+  "id": 6020234,
+  "name": "In re Disbarment of Marshall",
+  "name_abbreviation": "In re Disbarment of Marshall",
+  "decision_date": "2010-12-13",
+  "docket_number": "No. D-2474",
+  "first_page": "1105",
+  "last_page": "1105",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1105"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "561 U. S. 1043",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12455893,
+        12455894,
+        12455895,
+        12455896,
+        12455897,
+        12455835,
+        12455836,
+        12455837,
+        12455838
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/177/1130-02",
+        "/l-ed-2d/177/1130-03",
+        "/l-ed-2d/177/1130-04",
+        "/l-ed-2d/177/1130-05",
+        "/l-ed-2d/177/1130-06",
+        "/l-ed-2d/177/1122-05",
+        "/l-ed-2d/177/1122-06",
+        "/l-ed-2d/177/1122-07",
+        "/l-ed-2d/177/1122-08"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 110,
+    "ocr_confidence": 0.561,
+    "sha256": "8f11019325d58205f5daeb39bb5d21d876391230e496b2114b8d1aa062e3f931",
+    "simhash": "1:b0385e2afb148a67",
+    "word_count": 18
+  },
+  "last_updated": "2024-02-27T22:51:28.129297+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Marshall."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered. [For earlier order herein, see 561 U. S. 1043.]",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2474.\nIn re Disbarment of Marshall."
+  },
+  "file_name": "1105-06",
+  "first_page_order": 1127,
+  "last_page_order": 1127
+}

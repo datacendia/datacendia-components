@@ -1,0 +1,59 @@
+{
+  "id": 12427727,
+  "name": "In re Discipline of Huntley",
+  "name_abbreviation": "In re Discipline of Huntley",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. D-2703",
+  "first_page": "1082",
+  "last_page": "1082",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1082"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 39,
+    "char_count": 283,
+    "ocr_confidence": 0.592,
+    "sha256": "8590a3cb987d21e5dc22273b401b020aa14a67f0267e48dcedf94f6a0c13b13c",
+    "simhash": "1:468a71b43ffa37e7",
+    "word_count": 51
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of Huntley."
+    ],
+    "opinions": [
+      {
+        "text": "Donald W. Huntley, of Wilmington, Del., is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2703.\nIn re Discipline of Huntley."
+  },
+  "file_name": "1082-03",
+  "first_page_order": 1158,
+  "last_page_order": 1158
+}

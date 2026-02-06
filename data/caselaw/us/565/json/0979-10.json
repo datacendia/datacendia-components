@@ -1,0 +1,59 @@
+{
+  "id": 12230452,
+  "name": "Noorzai v. United States",
+  "name_abbreviation": "Noorzai v. United States",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. 11-351",
+  "first_page": "979",
+  "last_page": "979",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 979"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.674,
+    "sha256": "2c4ac63f4cf37fced0a99e7348b07730d4d867c8e72104f1db63b420c7d9e21e",
+    "simhash": "1:01c083838a958100",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Noorzai v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-351.\nNoorzai v. United States."
+  },
+  "file_name": "0979-10",
+  "first_page_order": 1061,
+  "last_page_order": 1061
+}

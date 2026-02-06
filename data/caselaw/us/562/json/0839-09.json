@@ -1,0 +1,59 @@
+{
+  "id": 5941471,
+  "name": "Chen et al. v. Lester et al.",
+  "name_abbreviation": "Chen v. Lester",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-1542",
+  "first_page": "839",
+  "last_page": "839",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 839"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 77,
+    "ocr_confidence": 0.565,
+    "sha256": "c9c72131012be21f6e6131541573bedf5aafe176990007be2b39af61d4fde33d",
+    "simhash": "1:1ad840b8038fb024",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Chen et al. v. Lester et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-1542.\nChen et al. v. Lester et al."
+  },
+  "file_name": "0839-09",
+  "first_page_order": 861,
+  "last_page_order": 861
+}

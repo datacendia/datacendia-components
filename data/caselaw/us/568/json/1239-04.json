@@ -1,0 +1,59 @@
+{
+  "id": 12433485,
+  "name": "Reeves v. United States",
+  "name_abbreviation": "Reeves v. United States",
+  "decision_date": "2013-03-18",
+  "docket_number": "No. 12-8543",
+  "first_page": "1239",
+  "last_page": "1239",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1239"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.632,
+    "sha256": "fc8bb0114d5f75ac0e25c25e18721b9ba44cda513f849933dc61035a4e1ce8b7",
+    "simhash": "1:73ebc28b4f9d5ca8",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Reeves v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8543.\nReeves v. United States."
+  },
+  "file_name": "1239-04",
+  "first_page_order": 1315,
+  "last_page_order": 1315
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12236660,
+  "name": "In re Ellis",
+  "name_abbreviation": "In re Ellis",
+  "decision_date": "2011-12-05",
+  "docket_number": "No. 11-6712",
+  "first_page": "1078",
+  "last_page": "1078",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1078"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 64,
+    "ocr_confidence": 0.726,
+    "sha256": "dd2880dfd481980121c788b8e8346963cef2c3e81d01ca3fb6df3ddfded7397a",
+    "simhash": "1:4c73062c1141869c",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Ellis."
+    ],
+    "opinions": [
+      {
+        "text": "Petition for writ of mandamus denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6712.\nIn re Ellis."
+  },
+  "file_name": "1078-07",
+  "first_page_order": 1160,
+  "last_page_order": 1160
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12428299,
+  "name": "Ford v. McKesson (three judgments)",
+  "name_abbreviation": "Ford v. McKesson",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-6799",
+  "first_page": "1097",
+  "last_page": "1097",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1097"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 83,
+    "ocr_confidence": 0.608,
+    "sha256": "58a1dfb9b7aede2d3098d92986d75099f8b80cac916be30cc1d95ab53c6a71f1",
+    "simhash": "1:23c6c180091ebd07",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ford v. McKesson (three judgments)."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6799.\nFord v. McKesson (three judgments)."
+  },
+  "file_name": "1097-08",
+  "first_page_order": 1173,
+  "last_page_order": 1173
+}

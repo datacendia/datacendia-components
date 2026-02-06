@@ -1,0 +1,59 @@
+{
+  "id": 12221942,
+  "name": "Evans v. New York",
+  "name_abbreviation": "Evans v. New York",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5530",
+  "first_page": "912",
+  "last_page": "912",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 912"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 66,
+    "ocr_confidence": 0.679,
+    "sha256": "61a3c3c7b058001e4a66ab1578cdc9dfa2725e86ecad69e18d8eb7ff15feab42",
+    "simhash": "1:af7f31b681216b50",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Evans v. New York."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. N. Y. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5530.\nEvans v. New York."
+  },
+  "file_name": "0912-15",
+  "first_page_order": 994,
+  "last_page_order": 994
+}

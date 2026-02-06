@@ -1,0 +1,59 @@
+{
+  "id": 5965205,
+  "name": "Feiger v. Hickman et al.",
+  "name_abbreviation": "Feiger v. Hickman",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8254",
+  "first_page": "1240",
+  "last_page": "1240",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1240"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 72,
+    "ocr_confidence": 0.686,
+    "sha256": "e8fb2f814ca5cec5a0d77da19fd14283259d9b874eb9dd0cb8688e2c082951ca",
+    "simhash": "1:511120807d2d923f",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Feiger v. Hickman et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8254.\nFeiger v. Hickman et al."
+  },
+  "file_name": "1240-09",
+  "first_page_order": 1262,
+  "last_page_order": 1262
+}

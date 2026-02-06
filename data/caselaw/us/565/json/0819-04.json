@@ -1,0 +1,59 @@
+{
+  "id": 12194138,
+  "name": "Lee v. Epps, Commissioner, Mississippi Department of Corrections",
+  "name_abbreviation": "Lee v. Epps",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-1375",
+  "first_page": "819",
+  "last_page": "819",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 819"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 113,
+    "ocr_confidence": 0.617,
+    "sha256": "dbf2ee93b951a5567da61639fc385e7bcd34cb61ce96b3c099f0fafa72a1c5d8",
+    "simhash": "1:9db6d0020a18a66e",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lee v. Epps, Commissioner, Mississippi Department of Corrections."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1375.\nLee v. Epps, Commissioner, Mississippi Department of Corrections."
+  },
+  "file_name": "0819-04",
+  "first_page_order": 901,
+  "last_page_order": 901
+}

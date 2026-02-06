@@ -1,0 +1,59 @@
+{
+  "id": 12432573,
+  "name": "McCaskey v. Henry et al.",
+  "name_abbreviation": "McCaskey v. Henry",
+  "decision_date": "2013-03-04",
+  "docket_number": "No. 12-7936",
+  "first_page": "1214",
+  "last_page": "1214",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1214"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 72,
+    "ocr_confidence": 0.716,
+    "sha256": "9d3baf5ca560cbf8a09df9710c87d32350ebc8955c522a1371fd37ae8b1f7227",
+    "simhash": "1:b7c900f8cd05f135",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McCaskey v. Henry et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7936.\nMcCaskey v. Henry et al."
+  },
+  "file_name": "1214-12",
+  "first_page_order": 1290,
+  "last_page_order": 1290
+}

@@ -1,0 +1,471 @@
+{
+  "id": 12518527,
+  "name": "PARKERVISION, INC., Appellant v. QUALCOMM INCORPORATED, Qualcomm Atheros, Inc. Cross-Appellants",
+  "name_abbreviation": "Parkervision, Inc. v. Qualcomm Inc.",
+  "decision_date": "2018-09-13",
+  "docket_number": "2017-2012, 2017-2013, 2017-2014, 2017-2074",
+  "first_page": "1354",
+  "last_page": "1364",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "903 F.3d 1354"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Fed. Cir.",
+    "id": 8955,
+    "name": "United States Court of Appeals for the Federal Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "35 U.S.C. \u00a7\u00a7 120",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "125 Stat. 284",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "859 F.3d 1364",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12276675
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1370-71"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/859/1364-01"
+      ]
+    },
+    {
+      "cite": "340 F.3d 1314",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9103004
+      ],
+      "weight": 2,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "1326",
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/340/1314-01"
+      ]
+    },
+    {
+      "cite": "751 F.3d 1327",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4069352
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "1346-47"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/751/1327-01"
+      ]
+    },
+    {
+      "cite": "35 U.S.C. \u00a7 312",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(3)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "821 F.3d 1359",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4257001
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1369",
+          "parenthetical": "quoting 35 U.S.C. \u00a7 312(a)(3) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/821/1359-01"
+      ]
+    },
+    {
+      "cite": "773 F.3d 1201",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4316311
+      ],
+      "weight": 4,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "1217"
+        },
+        {
+          "page": "1216-17"
+        },
+        {
+          "page": "1216-17"
+        },
+        {
+          "page": "1217"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/773/1201-01"
+      ]
+    },
+    {
+      "cite": "555 F.3d 984",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5583614
+      ],
+      "weight": 4,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "994-95"
+        },
+        {
+          "page": "995"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/555/0984-01"
+      ]
+    },
+    {
+      "cite": "946 F.2d 821",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10524651
+      ],
+      "weight": 2,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "832"
+        },
+        {
+          "parenthetical": "citations omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/946/0821-01"
+      ]
+    },
+    {
+      "cite": "626 F.3d 1197",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6052325
+      ],
+      "weight": 7,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "1204",
+          "parenthetical": "explaining \"that, to infringe a claim that recites capability and not actual operation, an accused device 'need only be capable of operating' in the described mode.\" (quoting Intel Corp. v. U.S. Int'l Trade Comm'n , 946 F.2d 821, 832 (Fed. Cir. 1991) ) "
+        },
+        {
+          "page": "1217"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/626/1197-01"
+      ]
+    },
+    {
+      "cite": "909 F.2d 1464",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10541510
+      ],
+      "weight": 2,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "1468"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/909/1464-01"
+      ]
+    },
+    {
+      "cite": "277 F.3d 1338",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9453151
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "1344"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/277/1338-01"
+      ]
+    },
+    {
+      "cite": "842 F.3d 1376",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12144010
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1382",
+          "parenthetical": "quoting In re Lee , 277 F.3d 1338, 1344 (Fed. Cir. 2002) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/842/1376-01"
+      ]
+    },
+    {
+      "cite": "308 F.3d 1317",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11442956
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "1320"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/308/1317-01"
+      ]
+    },
+    {
+      "cite": "800 F.3d 1375",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4340497
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1378"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/800/1375-01"
+      ]
+    },
+    {
+      "cite": "733 F.3d 1355",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3715267
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "1362"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/733/1355-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1295",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(4)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2017 WL 946736",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "parenthetical": "\" 1831 Decision \""
+        },
+        {
+          "page": "*6"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2017 WL 946737",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 3,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "parenthetical": "\" 1829 Decision \""
+        },
+        {
+          "page": "*6"
+        },
+        {
+          "page": "*5-6"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2017 WL 946735",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 5,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "parenthetical": "\" 1828 Decision \""
+        },
+        {
+          "page": "*8-9"
+        },
+        {
+          "page": "*7"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "U.S. Patent No. 5,680,078",
+      "category": "laws:admin_filing",
+      "reporter": "U.S. Patent",
+      "pin_cites": [
+        {
+          "parenthetical": "\"Ariie\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 U.S.C. \u00a7 103",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 9,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "U.S. Patent No. 6,091,940",
+      "category": "laws:admin_filing",
+      "reporter": "U.S. Patent",
+      "pin_cites": [
+        {
+          "parenthetical": "\"the '940 patent\""
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1083,
+    "char_count": 27352,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.259060084197959
+    },
+    "sha256": "ae2a2c8b55bab4f31b9fbba0772d3023edfea5e0c27ec26c5f3c8f476bede1a2",
+    "simhash": "1:ef4cff7a81433504",
+    "word_count": 4249
+  },
+  "last_updated": "2024-02-27T18:45:28.627343+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before O'Malley, Reyna, and Taranto, Circuit Judges."
+    ],
+    "parties": [
+      "PARKERVISION, INC., Appellant\nv.\nQUALCOMM INCORPORATED, Qualcomm Atheros, Inc. Cross-Appellants"
+    ],
+    "opinions": [
+      {
+        "text": "O'Malley, Circuit Judge.\nParkerVision, Inc. (\"ParkerVision\") appeals from three final written decisions of the U.S. Patent Trial and Appeal Board (\"Board\") in related inter partes review proceedings, in which the Board held certain claims of U.S. Patent No. 6,091,940 (\"the '940 patent\") unpatentable as obvious under 35 U.S.C. \u00a7 103(a). Qualcomm Inc. and Qualcomm Atheros, Inc. (together, \"Qualcomm\") cross-appeal from the Board's determination that Qualcomm failed to prove by a preponderance of the evidence that certain other claims of the '940 patent are unpatentable. We affirm.\nI. BACKGROUND\nA. The '940 Patent\nParkerVision owns the '940 patent, titled \"Method and System for Frequency Up-Conversion.\" The inventions of the '940 patent generally relate to telecommunications devices, such as cellular phones, in which low-frequency electromagnetic signals are \"up-converted\" to higher-frequency signals by various means. '940 patent, col. 1, ll. 23-24; id. col. 1, ll. 46-48. \"Baseband\" signals-electromagnetic signals that encode the relevant information of sound waves-have low frequencies, and therefore low energy, making them difficult to transmit wirelessly through the air. Up-converting these frequencies to higher-frequency signals, such as radio frequency (\"RF\") signals, allows the signal-and, critically, the information contained therein-to be more efficiently transmitted to a receiver. Id. col. 13, l. 53-col. 14, l. 6.\nThe specification explains that prior art transmitter systems used up-conversion components that are costly, both in terms of power consumption and purchase price. The invention disclosed in the '940 patent purports to \"provide[ ] a more efficient means for producing a modulated carrier for transmission [that] uses less power, and requires fewer components.\" Id. col. 14, ll. 4-8. The embodiments at issue in this appeal allegedly accomplish this goal by modulating the amplitude of the baseband signal with the help of an \"oscillating signal.\" See , e.g. , id. col. 1, l. 58-col. 2, l. 5. This signal causes one or more \"switches\" to \"gate\" the baseband signal and generate a combined periodic signal that has a modulated amplitude compared to the baseband signal. Id.\nAlthough this method is known as \"amplitude modulation,\" one byproduct is the creation of \"harmonics,\" which the specification defines in the singular as \"a frequency or tone that, when compared to its fundamental or reference frequency or tone, is an integer multiple of it.\"Id. col. 8, ll. 22-24. Unwanted harmonics are subsequently filtered out, after which the resulting signal is transmitted to other devices. Id. col. 16, ll. 39-48.\nBoth apparatus and method claims are relevant to this appeal. Claim 21, which is representative of the apparatus claims, recites:\n21. An apparatus for frequency up-conversion, comprising:\na pulse shaping module to receive an oscillating signal and to output a shaped string of pulses that is a function of said oscillating signal;\na switch module to receive said shaped string of pulses and a bias signal, wherein said shaped string of pulses causes said switch module to gate said bias signal and thereby generate a periodic signal having a plurality of harmonics , said bias signal being a function of an information signal, said periodic signal having an amplitude that is a function of said bias signal; and\na filter coupled to said switch module to isolate one or more desired harmonics of said plurality of harmonics.\nId. col. 69, ll. 19-32 (emphases added). Claim 25, which is representative of the method claims, recites:\n25. A method of communicating, comprising the steps of:\n(1) shaping an oscillating signal to create a string of pulses that is a function of said oscillating signal;\n(2) gating a reference signal at a rate that is a function of said string of pulses to create a periodic signal having a plurality of harmonics , said reference signal being a function of an information signal, and at least one of said plurality of harmonics being a desired harmonic; and\n(3) outputting said periodic signal, said periodic signal having an amplitude that is a function of said reference signal.\nId. col. 70, ll. 1-12 (emphases added).\nB. Procedural History\nQualcomm filed three petitions for inter partes review challenging the patentability of claims of the '940 patent. In two of the petitions, Qualcomm asserted primarily that the challenged apparatus and method claims would have been obvious in view of three references: (1) Yasuo Nozawa, The Merigo Method: SSB Generator/Producing a Demodultor , HAM Journal Special Edition: The Handmade SSB Challenge, 15-26 (July/August 1993) (\"Nozawa\"); (2) Philips, 74HC/HCT4052 Dual 4-Channel Analog Multiplexer/Demultiplexer (Dec. 1990) (\"Philips 4052\"); and (3) Stephen A. Maas, Microwave Mixers (Artech House Publishers, 2d ed. 1993) (\"Maas\"). In the third petition, Qualcomm asserted primarily that other apparatus claims would have been obvious in view of Maas and two additional references: (1) Herbert L. Krauss and Charles W. Bostian, Solid State Radio Engineering (1980) (\"Krauss\"); and (2) U.S. Patent No. 5,680,078 (\"Ariie\"). ParkerVision filed preliminary responses, and the Board instituted review in each proceeding-we refer to these proceedings as the \"Nozawa IPRs\" and the \"Ariie IPR.\"\nParkerVision thereafter filed patent owner responses, raising three arguments that it had not raised previously. First, it argued that the Nozawa-based petitions failed to identify any passage in either Nozawa or Philips that expressly discloses a periodic signal containing \"integer multiples\" of any frequency, as required by the claims' \"harmonics\" limitation. Second, it argued that, adopting Qualcomm's expert's own calculations using the equations taught in Maas, the periodic signal would only have one integer-multiple harmonic, as opposed to a \"plurality\" of such harmonics, as required by the claims. Third, it argued that the Ariie-based petition failed to prove that Ariie's field effect transistor (\"FET\") is a \"switch\" and failed to describe how Ariie's oscillating signal \"gates\" that switch, both of which are also required by the claims.\nQualcomm responded by arguing in its reply briefs that: (1) although Maas's \"well-known equation shows that 'integer multiple' harmonics will not practically result for all input frequencies, basic math confirms that for many input frequencies, Nozawa's mixer will generate the required 'integer multiple' harmonics,\" J.A. 292, 5349; and (2) persons of ordinary skill in the art would have recognized that Krauss's rectangular waveform would necessarily have caused Ariie's FET to act as a gate or switch. ParkerVision then claimed in supplemental submissions that these arguments exceeded the proper scope of reply under applicable Board regulations.\nOn March 7, 2017, the Board issued three final written decisions. See Qualcomm Inc. v. ParkerVision, Inc. , No. IPR2015-01828, 2017 WL 946735 (P.T.A.B. Mar. 7, 2017) (\" 1828 Decision \"); Qualcomm Inc. v. ParkerVision, Inc. , No. IPR2015-01829, 2017 WL 946737 (P.T.A.B. Mar. 7, 2017) (\" 1829 Decision \"); Qualcomm Inc. v. ParkerVision, Inc. , No. IPR2015-01831, 2017 WL 946736 (P.T.A.B. Mar. 7, 2017) (\" 1831 Decision \"). In the decisions on the Nozawa IPRs, the Board determined that the challenged apparatus claims would have been obvious because it was undisputed that \"the structure of Nozawa is capable of producing a signal that satisfies the limitations of the claim.\" 1828 Decision , 2017 WL 946735 at *7 ; 1831 Decision , 2017 WL 946736 at *6. At the same time, the Board determined that Qualcomm impermissibly had changed its theory of unpatentability as to the method claims. Specifically, the Board found that, while Qualcomm asserted in its petition \"that Nozawa taught a plurality of harmonics,\" it failed to provide any argument or evidence as to why a person of ordinary skill would have selected operating conditions that would cause Nozawa to generate a plurality of integer-multiple harmonics. See 1828 Decision , 2017 WL 946735 at *8-9. And the Board found that it was too late for Qualcomm to argue that a person of ordinary skill would have selected inputs that would have resulted in Nozawa outputting a plurality of integer-multiple harmonics for the first time in its reply briefs. See id. Finally, in the decision on the Ariie IPR, the Board determined that the challenged claims would have been obvious, agreeing with Qualcomm both that, \"in the combination of references as proposed, the rectangular wave of Krauss would drive the Ariie FET as a switch\" and that this \"switch, in turn, would cause the FET to gate the input signals of Krauss, satisfying the disputed limitations of the claims.\" 1829 Decision , 2017 WL 946737 at *6.\nParkerVision timely appealed and Qualcomm timely cross-appealed. We have jurisdiction under 28 U.S.C. \u00a7 1295(a)(4).\nII. DISCUSSION\nA. Standard of Review\nObviousness is a question of law with underlying issues of fact. Randall Mfg. v. Rea , 733 F.3d 1355, 1362 (Fed. Cir. 2013). We review the Board's legal decisions de novo and its underlying factual determinations for substantial evidence. Dynamic Drinkware, LLC v. Nat'l Graphics, Inc. , 800 F.3d 1375, 1378 (Fed. Cir. 2015). A finding is supported by substantial evidence if a reasonable mind might accept the evidence as adequate to support the finding. In re Jolley , 308 F.3d 1317, 1320 (Fed. Cir. 2002). The Board, in reaching its decisions, must \"make the necessary findings and have an adequate 'evidentiary basis for its findings.' \" In re Nuvasive , 842 F.3d 1376, 1382 (Fed. Cir. 2016) (quoting In re Lee , 277 F.3d 1338, 1344 (Fed. Cir. 2002) ).\nB. The Nozawa IPRs\nParkerVision argues on appeal that the Board erred in holding the apparatus claims challenged in the Nozawa IPRs unpatentable, while Qualcomm contends in its cross-appeal that the Board erred in upholding the patentability of the challenged method claims. We address these arguments in turn.\n1. The Apparatus Claims\nParkerVision raises two arguments as to the Nozawa IPRs. First, it submits that the Board erred by basing its patentability decisions on theories and evidence regarding the phrase \"plurality of harmonics\" that Qualcomm did not present in its petitions. Second, it contends that the Board's unpatentability determination as to the apparatus claims relies on an untimely and erroneous construction.\nWe are not persuaded by either argument. First, we disagree with ParkerVision that Qualcomm failed to present its arguments and evidence regarding the \"plurality of harmonics\" limitation recited in the apparatus claims in a timely manner. In its petitions, Qualcomm expressly argued that Nozawa, in light of Philips 4052 and Maas, teaches the \"plurality of harmonics\" limitation in the claims. It explained that Nozawa expressly recognizes that its use of switches to gate the incoming signals creates harmonics through \"switching,\" and highlighted the reference's language that this use of switching \"in principle includes many harmonics.\" J.A. 824. Qualcomm also explained that Maas teaches how switches such as those disclosed in Philips 4052 generate an output signal with harmonics of the fundamental frequency according to a well-known formula.\nAlthough Qualcomm did not explain how its proposed combination would result in a plurality of integer -multiple harmonics, its proposed construction of the term was consistent with the specification's definition of \"harmonic\" as an \"integer multiple\" of the fundamental frequency. More critically, however, because it is undisputed that Nozawa's device necessarily will produce a periodic signal that contains integer multiples of the fundamental frequency under some, albeit not all, conditions, Qualcomm was neither required to identify the conditions under which Nozawa's device will output a plurality of integer-multiple harmonics nor obligated to explain why a person of skill in the art would have selected such operating conditions.\nWe explained long ago that \"[a]pparatus claims cover what a device is , not what a device does .\" Hewlett-Packard Co. v. Bausch & Lomb Inc. , 909 F.2d 1464, 1468 (Fed. Cir. 1990). As a result, \"[a]n invention need not operate differently than the prior art to be patentable, but need only be different\"-or, rather, \"unobviously different.\" Id. at 1464 & n.2 (citations omitted). A corollary of these principles is that an apparatus that is \"capable of\" performing certain functions may be anticipated by or obvious in view of a prior art apparatus that can likewise perform these functions. See Finjan, Inc. v. Secure Computing Corp. , 626 F.3d 1197, 1204 (Fed. Cir. 2010) (explaining \"that, to infringe a claim that recites capability and not actual operation, an accused device 'need only be capable of operating' in the described mode.\" (quoting Intel Corp. v. U.S. Int'l Trade Comm'n , 946 F.2d 821, 832 (Fed. Cir. 1991) ) ). Indeed, \"depending on the claims, 'an accused device may be found to infringe if it is reasonably capable of satisfying the claim limitations, even though it may also be capable of noninfringing modes of operation.' \" Id. (citations omitted). Similarly, a prior art reference may anticipate or render obvious an apparatus claim-depending on the claim language-if the reference discloses an apparatus that is reasonably capable of operating so as to meet the claim limitations, even if it does not meet the claim limitations in all modes of operation.\nParkerVision acknowledges Bausch & Lomb , but seeks to distinguish it on grounds that the apparatus claims here require an oscillating signal that is \"configured to\" generate a plurality of harmonics, which Nozawa does not disclose. Although ParkerVision correctly recognizes that our cases distinguish between claims with language that recites capability, and those that recite configuration, the claims here fall squarely on the \"capable of\" side of the line; the Board, thus, did not err in determining that they would have been obvious in view of Nozawa.\nThe language used in the claims is critical to deciding on which side of this line the claims fall. In Ball Aerosol& Specialty Container, Inc. v. Limited Brands, Inc. , 555 F.3d 984 (Fed. Cir. 2009), the claims recited a configuration in which protrusions needed to be \"resting upon\" a cover. We concluded that this structural limitation \"specifie[d] that infringement occurs only if the accused product is configured with the cover being used as a base underneath a candle holder with feet.\" Id. at 994-95. We concluded that an accused candle that \"was reasonably capable of being put into the claimed configuration [was] insufficient for a finding of infringement.\" Id. at 995. We also noted the patentee's concession that there was \"no proof that the Travel Candle was ever placed in the infringing configuration.\" Id. In other words, we found that, where an apparatus needed to be altered in order to be \"configured\" as claimed and there was no evidence of such alteration, it does not infringe those claims.\nIn contrast, where claim language recites \"capability, as opposed to actual operation,\" an apparatus that is \"reasonably capable\" of performing the claimed functions \"without significant alterations\" can infringe those claims. Ericsson, Inc. v. D-Link Sys., Inc. , 773 F.3d 1201, 1217 (Fed. Cir. 2014). For example, in Ericsson , we affirmed an infringement finding where the claims recited \"a processor for arranging information for transmission ... which identifies a type of payload information,\" even though the accused devices in fact identified the type of information conveyed in the payload only some of the time. Id. at 1216-17. In arriving at this conclusion, we compared the claims at issue to the non-method claims in Finjan , 626 F.3d 1197, which recited components having specific purposes: i.e., \"a logical engine for preventing execution\" or \"a communications engine for obtaining a Downloadable.\" Ericsson , 773 F.3d at 1216-17 (quoting Finjan , 626 F.3d at 1204-05 ). We determined that the claims in Finjan \"describe[d] capabilities without requiring that any software components be 'active' or 'enabled' \"-i.e., they \"only needed to have components that are reasonably capable of 'preventing execution' and 'obtaining a Downloadable' to infringe.\" Id. at 1217 (quoting Finjan , 626 F.3d at 1204-05 ). The claims in Ericsson likewise used language reciting capability, such that \"D-Link's products only need[ed] to have a component that [wa]s reasonably capable of 'arranging information for transmission ... which identifies a type of payload information. ...' \" Id.\nHere, the apparatus claims are most similar to those in Ericsson and are fundamentally dissimilar to those in Ball Aerosol . The '940 patent 's apparatus claims are drawn to \"[a]n apparatus for frequency up-conversion \" (claim 4) or \"[a]n apparatus for communicating \" (claim 22), all of which comprise \"a switch module to receive \" an oscillating signal and a bias signal, wherein the oscillating signal \"causes said switch module to gate said bias signal and thereby generate a periodic signal having a plurality of harmonics.\" '940 patent, col. 67, ll. 25-33 (emphases added); id. col. 69, ll. 19-32 (emphases added). Accordingly, just as D-Link's products only required a component that was reasonably capable of \"arranging information for transmission ... which identifies a type of payload information ...,\" Ericsson , 773 F.3d at 1217, Nozawa's circuit requires only an oscillating signal that is reasonably capable of gating the bias signal in a manner that generates a periodic signal having a plurality of harmonics. And, unlike in Ball Aerosol , the claims here recite no structural limitations that would preclude a prior art reference that discloses a different structure from performing the claimed function.\nBecause it is undisputed that Nozawa's circuit is capable of producing a \"plurality of harmonics,\" substantial evidence supports the Board's determination that the apparatus claims are unpatentable. Moreover, because Qualcomm's petitions \"adhere[d] to the requirement that the[y] identify 'with particularity' the 'evidence that supports the grounds for the challenge to each [apparatus] claim,' \" Intelligent Bio-Sys., Inc. v. Illumina Cambridge Ltd. , 821 F.3d 1359, 1369 (Fed. Cir. 2016) (quoting 35 U.S.C. \u00a7 312(a)(3) ), we reject ParkerVision's contention that the Board relied on an untimely claim construction. We therefore affirm the Board's determination that claims 4, 21, 22, 23, 100, 113-16, 118, 119, 281, 283-86, 288, 289, 293, 309-12, 314-15, and 319 are unpatentable.\n2. The Method Claims\nThe method claims present a different story, however. While Qualcomm was only required to identify a prior art reference that discloses an apparatus \"capable of\" performing the recited functions to prove that the apparatus claims would have been obvious, more was required with respect to the method claims. Specifically, Qualcomm needed to present evidence and argument that a person of ordinary skill would have been motivated to operate Nozawa in a manner that satisfied the \"plurality of harmonics\" limitation. See InTouch Techs., Inc. v. VGO Commc'ns, Inc. , 751 F.3d 1327, 1346-47 (Fed. Cir. 2014) (explaining that a party seeking to invalidate method claims on obviousness grounds must \"demonstrate ... 'that a skilled artisan would have been motivated to combine the teachings of the prior art references to achieve the claimed invention, and that the skilled artisan would have had a reasonable expectation of success in doing so' \"). Qualcomm failed to do so.\nThe Board found that Qualcomm's petitions were deficient because they \"d[id] not speak to whether a person of ordinary skill in the art would have any reason to\" operate Nozawa with inputs that would produce the required \"plurality of harmonics.\" 1828 Decision , 2017 WL 946735 at *7. Substantial evidence supports this finding. Qualcomm provided no explanation or evidence in its petitions as to why a person of ordinary skill in the art would have been motivated to select inputs for Nozawa's circuit that would yield a periodic signal with a plurality of integer-multiple harmonics, rather than an input signal that does not produce integer-multiples of the fundamental frequency. Instead, Qualcomm's petitions and accompanying expert testimony solely concerned whether the fundamental frequency itself is included in the meaning of \"harmonics.\"\nThe fact that Nozawa's device will output a plurality of integer-multiple harmonics only under certain conditions is critical to the patentability of the method claims. It is true that, \"[j]ust as 'an accused product that sometimes, but not always, embodies a claimed method nonetheless infringes,' ... a prior art product that sometimes, but not always, embodies a claimed method nonetheless teaches that aspect of the invention.\" Hewlett-Packard Co. v. Mustek Sys. , 340 F.3d 1314, 1326 (Fed. Cir. 2003) (citation omitted). But, in Mustek , the jury received evidence that a prior art scanner would satisfy the relevant claim limitation in its default setting, and we rejected the patentee's argument against invalidity premised on the fact that the scanner would not practice the claimed method if a default setting were changed. See id. Here, Qualcomm failed to put forth any argument or evidence in its petitions as to whether Nozawa's device, even if capable of doing so, actually would output a periodic signal with a plurality of integer-multiple harmonics, or why a person of ordinary skill in the art would have been motivated to use the particular inputs that would result in such an output, choosing to broach that subject for the first time in its reply briefs. We therefore affirm the Board's determination that claims 25, 26, 363-66, 368, 369, and 373 were not proven unpatentable.\nC. The Ariie IPR\nParkerVision contends that the Board erred in relying on untimely unpatentability theories in the Ariie IPR, arguing that, in its petition, Qualcomm neither asserted that it would have been obvious to use Krauss's oscillating signal instead of Ariie's oscillating signal to drive Ariie's FET, nor contended that driving Ariie's FET with Krauss's oscillating signal would cause Ariie's FET to gate a signal. Appellant Br. 50. ParkerVision also takes issue with the Board's alternate theory that, because Ariie's FET is \"capable of\" being used as a \"switch module\" that \"gates\" if driven with the proper inputs, the claims challenged in the Ariie-based petition are unpatentable. Appellant Br. 60. Finally, it submits that the Board lacked substantial evidence to support its finding of a motivation to combine the references.\nWe disagree with ParkerVision that the Board relied on untimely unpatentability theories. Qualcomm's proposed combination contemplated using Krauss as the main reference, and Qualcomm argued in its petition that it would have been obvious to \"substitute a mixer like that in Ariie Fig. 1 for each double-balanced mixer in Krauss Fig. 16-3(a).\" J.A. 2994. In particular, Qualcomm's petition noted that both references disclose a \"first oscillating signal,\" but then relied on Figure 8-25 of Krauss to explain how Krauss's rectangular oscillating signal can \"gat[e]\" an audio signal. J.A. 2994-95. Moreover, although Figure 1 of Ariie discloses a first oscillating signal SC , it depicts this signal as originating from a node, rather than a structure, and does not define that signal with any particularity. Thus, the Board did not err in interpreting the proposed combination as using Krauss's oscillating signal.\nWe also conclude that substantial evidence supports the Board's determination that persons of ordinary skill in the art would have been motivated to use Krauss's oscillating signal instead of Ariie's. Qualcomm contended in its petition that a person of ordinary skill in the art would have been motivated to replace Krauss's two mixers with Ariie's mixer to achieve the benefits of Ariie's \"low-voltage operation, low or zero power consumption, and compact size,\" and that doing so would have resulted in a transmitter that \"gates\" Krauss's oscillating signal in a manner that creates a periodic signal that practices the \"plurality of harmonics\" limitation. J.A. 2989-90. The Board relied on the passages of these references cited in Qualcomm's petition, and found that a person of ordinary skill would have been motivated to make the suggested combination, even after considering ParkerVision's countervailing evidence. 1829 Decision , 2017 WL 946737 at *5-6. As we explained in Outdry Technologies v. Geox S.p.A ., 859 F.3d 1364 (Fed. Cir. 2017), \"[a]ny motivation to combine references, whether articulated in the references themselves or supported by evidence of the knowledge of a skilled artisan, is sufficient to combine those references.\" Id. at 1370-71. We affirm the Board's determination that claims 1, 2, 18, 81-84, 86, 88-91, 93, 94, 251-54, 256, 258-61, 263, and 264 are unpatentable.\nIII. CONCLUSION\nFor the foregoing reasons, we affirm the Board's patentability determinations in each of the 1828 , 1829 , and 1831 Decisions .\nAFFIRMED\nCOSTS\nNo costs.\nCongress amended \u00a7 103 when it passed the Leahy-Smith America Invents Act (AIA). Pub. L. No. 112-29, \u00a7 3(c), 125 Stat. 284, 287 (2011). Because the '940 patent issued on July 18, 2000, and therefore does not contain a claim having an effective filing date on or after March 16, 2013 (the effective date of the statutory changes enacted in 2011), or a reference under 35 U.S.C. \u00a7\u00a7 120, 121, or 365(c) to any patent or application that ever contained such a claim, the pre-AIA \u00a7 103 applies. Id . \u00a7 3(n)(1), 125 Stat. at 293.\nThe specification further explains that, \"[i]n other words, if a periodic waveform has a fundamental frequency of 'f' (also called the first harmonic), then its harmonics may be located at frequencies of 'n \u2022 f,' where 'n' is 2, 3, 4, etc. The harmonic corresponding to n=2 is referred to as the second harmonic, the harmonic corresponding to n=3 is referred to as the third harmonic, and so on.\" '940 patent, col. 8, ll. 24-30.\nThe apparatus claims at issue are independent claims 1, 4, 18, 21, and 22, and dependent claims 2, 23, 81-84, 86, 88-91, 93, 94, 100, 113-16, 118, 119, 251-54, 256, 258-61, 263, 264, 281, 283-86, 288, 289, 293, 309-12, 314-15, and 319. The method claims at issue are independent claim 25 and dependent claims 26, 363-66, 368, 369, and 373.\nQualcomm also asserted that certain dependent claims would have been obvious only in view of additional references, but the adequacy of the Board's determinations vis-\u00e0-vis these dependent claims is not at issue on appeal.",
+        "type": "majority",
+        "author": "O'Malley, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "William Meunier, Mintz, Levin, Cohn, Ferris, Glovsky and Popeo, P.C., Boston, MA, argued for appellant. Also represented by Sandra Badin, Michael Newman, Michael Timothy Renaud.",
+      "Eamonn Gardner, Cooley LLP, San Diego, CA, argued for cross-appellants. Also represented by Orion Armon, Broomfield, CO; Matthew J. Brigham, Dena Chen, Palo Alto, CA."
+    ],
+    "corrections": "",
+    "head_matter": "PARKERVISION, INC., Appellant\nv.\nQUALCOMM INCORPORATED, Qualcomm Atheros, Inc. Cross-Appellants\n2017-2012, 2017-2013, 2017-2014, 2017-2074\nUnited States Court of Appeals, Federal Circuit.\nDecided: September 13, 2018\nWilliam Meunier, Mintz, Levin, Cohn, Ferris, Glovsky and Popeo, P.C., Boston, MA, argued for appellant. Also represented by Sandra Badin, Michael Newman, Michael Timothy Renaud.\nEamonn Gardner, Cooley LLP, San Diego, CA, argued for cross-appellants. Also represented by Orion Armon, Broomfield, CO; Matthew J. Brigham, Dena Chen, Palo Alto, CA.\nBefore O'Malley, Reyna, and Taranto, Circuit Judges."
+  },
+  "file_name": "1354-01",
+  "first_page_order": 1354,
+  "last_page_order": 1364
+}

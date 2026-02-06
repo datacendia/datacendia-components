@@ -1,0 +1,59 @@
+{
+  "id": 12199450,
+  "name": "Moreno v. United States",
+  "name_abbreviation": "Moreno v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-9152",
+  "first_page": "828",
+  "last_page": "828",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 828"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.694,
+    "sha256": "3664d7e31f2647dad0b7be3db1bba63545e1b8dff20957d4f26f882a3ca97983",
+    "simhash": "1:15bbe3892cbd315e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Moreno v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9152.\nMoreno v. United States."
+  },
+  "file_name": "0828-09",
+  "first_page_order": 910,
+  "last_page_order": 910
+}

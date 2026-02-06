@@ -1,0 +1,59 @@
+{
+  "id": 12231130,
+  "name": "Hammontree v. Horel, Warden",
+  "name_abbreviation": "Hammontree v. Horel",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. 11-6142",
+  "first_page": "986",
+  "last_page": "986",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 986"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.603,
+    "sha256": "e9a644289ccb468d8a6f72b0a4d84c9ba06688a6174eabc6ef136d47915aaefd",
+    "simhash": "1:3493a6833d9960df",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hammontree v. Horel, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6142.\nHammontree v. Horel, Warden."
+  },
+  "file_name": "0986-02",
+  "first_page_order": 1068,
+  "last_page_order": 1068
+}

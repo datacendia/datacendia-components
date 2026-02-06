@@ -1,0 +1,240 @@
+{
+  "id": 12518938,
+  "name": "UNITED STATES of America, Plaintiff-Appellee, v. David L. PRICE, Defendant-Appellant.",
+  "name_abbreviation": "United States v. Price",
+  "decision_date": "2018-10-19",
+  "docket_number": "No. 17-3077",
+  "first_page": "685",
+  "last_page": "691",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "906 F.3d 685"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "7th Cir.",
+    "id": 9010,
+    "name": "United States Court of Appeals for the Seventh Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "646 F.3d 420",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3416775
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "423-24"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/646/0420-01"
+      ]
+    },
+    {
+      "cite": "614 F.3d 314",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3707994
+      ],
+      "weight": 2,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "319-20"
+        },
+        {
+          "page": "318-20"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/614/0314-01"
+      ]
+    },
+    {
+      "cite": "692 F.2d 1100",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1483398
+      ],
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "1106",
+          "parenthetical": "describing in insurance context a derivative remedy as being subject to whatever defenses may be asserted against the original claimant, in contrast to independent claims not subject to such defenses"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/692/1100-01"
+      ]
+    },
+    {
+      "cite": "324 F.3d 550",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        2158696,
+        2160953
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "558",
+          "parenthetical": "\"In requiring [the defendant] to pay several thousand dollars in restitution, without a statutory basis for doing so, the error affects [the defendant's] substantial rights.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/291/0550-02",
+        "/f3d/324/0550-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 3663",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 6,
+      "pin_cites": [
+        {
+          "page": "(a)(1)(A)"
+        },
+        {
+          "page": "(b)(3)"
+        },
+        {
+          "page": "(a)(1)(A)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 U.S.C. \u00a7 841",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "507 U.S. 725",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6237509
+      ],
+      "weight": 3,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "732"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/507/0725-01"
+      ]
+    },
+    {
+      "cite": "839 F.3d 572",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12175983
+      ],
+      "weight": 4,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "578"
+        },
+        {
+          "page": "580",
+          "parenthetical": "finding defendant was not prejudiced by criminal history calculation error when the defendant's resulting advisory sentence would have been the same even if the correct criminal history category had been applied"
+        },
+        {
+          "page": "580-81"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/839/0572-01"
+      ]
+    },
+    {
+      "cite": "746 F.3d 300",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4239988
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "308"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/746/0300-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 739,
+    "char_count": 15444,
+    "pagerank": {
+      "raw": 4.621887471290392e-08,
+      "percentile": 0.2903458850303628
+    },
+    "sha256": "6c61f61d0243cf898f0219b0f39a1a585359ed5877c01ec6e3e8fbd72dde14d1",
+    "simhash": "1:616a8ea0eebc2f32",
+    "word_count": 2462
+  },
+  "last_updated": "2024-02-27T18:46:07.237745+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Flaum, Manion, and Sykes, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff-Appellee,\nv.\nDavid L. PRICE, Defendant-Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Manion, Circuit Judge.\nDavid Price was convicted of 13 criminal charges related to a heroin distribution conspiracy he operated in Chicago. The district court sentenced Price to 37 years' imprisonment and ordered him to pay over $11,000 in restitution. The primary issue on appeal is whether the statutory provision that prohibits ordering restitution to a participant in the defendant's offense also prohibits ordering restitution to the participant's family members. We hold that the statute does not prohibit such a restitution order in cases in which the family members are victims in their own right, whose losses are not merely derivative of the participant's losses. We therefore affirm the district court's order.\nI\nA jury convicted Price of 13 criminal charges including conspiracy to distribute heroin, money laundering, and felony firearm possession. At trial, the government offered evidence showing Price conducted a large-scale heroin distribution operation in Chicago from 2005 until 2011. This conspiracy was incredibly lucrative for Price and he profited to the tune of millions of dollars, which he used to support a lavish and opulent lifestyle. The government presented evidence that there were at least six co-conspirators involved in the conspiracy. One of those co-conspirators was Greg Holden.\nDuring the course of a two-day sentencing hearing, the government presented evidence that Price was responsible for the murder of Holden. Through the testimony of three witnesses-a co-conspirator, an IRS Special Agent, and Holden's fianc\u00e9e Roshunda King-the government sought to establish that Holden had been collaborating with the police and that Price murdered him to prevent him from testifying.\nKing, Holden's longtime girlfriend and fianc\u00e9e, testified that Holden had been arrested and then released on bond following the filing of federal charges. Holden had told King that he feared for his life because Price wanted him dead and had placed a hit on him. On the day of the murder, King left the apartment she shared with Holden to go to work, while Holden stayed home with two of their three children. Around mid-morning, King learned from her mother that something was wrong, and she returned home to find Holden dead in the apartment.\nThe government played a recorded 911 call from Holden's seven-year-old daughter, in which she described her father bleeding on the floor and not breathing. Videotaped interviews of Holden's two daughters on the day of the murder were also presented, in which his three-year-old daughter described seeing a \"monster\" in a \"mask\" hurt her father. The girls' victim impact statements described how they watched their father die as they tried to stop the bleeding of his gunshot wounds with paper towels.\nAfter reviewing these statements and the testimony of two other witnesses that connected Price to the murder, the district court found by a preponderance of the evidence that Price murdered Holden. The court connected Holden's murder to Price's underlying crimes by applying the enhancement for obstruction of justice, since Price's purpose for killing Holden was to prevent him from testifying. At a separate restitution hearing, the district court ordered Price to pay $11,693 in restitution to reimburse Holden's family members for their out-of-pocket funeral expenses. This amount included $4,720 to King (including $1,070 for the future purchase of a headstone), $4,050 to Holden's mother, and $2,923 to Ferguson Funeral Service, Inc., for the unpaid balance of funeral expenses.\nAt sentencing, the district court assigned Price a criminal history category of II. This was based on the calculations of the supplemental presentence investigation report, which added two criminal history points for two misdemeanor convictions of driving on a suspended or revoked license. One of those convictions had resulted in a sentence of 12 months' non-reporting probation, and the second resulted in a sentence of four months' supervised probation. The Guidelines provide that misdemeanor convictions for this kind of offense resulting in a sentence of probation for one year or less are not to be counted toward the criminal history score. U.S.S.G. \u00a7 4A1.2(c)(1). Although both of Price's sentences were terms of probation for one year or less, the presentence report contained a typographical error that mistakenly identified the four-month sentence as having been for more than one year. Despite the inclusion of these convictions, defense counsel agreed with the criminal history calculation at the hearing.\nThe presentence report also calculated a total offense level of 54 under the Sentencing Guidelines, but Price's offense level was treated as 43 because of the cap provided in the sentencing table. U.S.S.G. \u00a7 5A cmt. n.2. The district court accepted the calculations of the presentence report. According to the Guidelines, Price's sentencing range at offense level 43 was life imprisonment, regardless of what criminal history category applied. See U.S.S.G. \u00a7 5A. Price was then sentenced to concurrent sentences amounting to 37 years' imprisonment and ten years' supervised release.\nPrice appeals both the restitution order and the criminal history category score. He argues that (1) the district court lacked statutory authority to order restitution reimbursing Holden's family for funeral expenses, and (2) the misdemeanor convictions listed in the presentence report were ineligible to be counted as prior convictions for sentencing purposes.\nII\nPrice failed to object to either the order of restitution or the criminal history score calculation. We therefore review both for plain error. FED. R. CRIM.P. 52(b) ; United States v. Walker , 746 F.3d 300, 308 (7th Cir. 2014). In the context of a criminal sentence appeal, plain-error review requires the appellant to show that the district court (1) committed an error that was (2) plain and obvious and that (3) affects the appellant's substantial rights in the sense that it made a difference in his sentence. United States v. Kruger , 839 F.3d 572, 578 (7th Cir. 2016). Even if the appellant meets those three criteria, we will only exercise our discretion to reverse if the error \"seriously affects the fairness, integrity, or public reputation of judicial proceedings.\" Id. (quoting United States v. Olano , 507 U.S. 725, 732, 113 S.Ct. 1770, 123 L.Ed.2d 508 (1993) ).\nA\nPrice asserts that the district court erred by ordering restitution to be paid to Holden's family. When sentencing a defendant in a criminal case for certain listed offenses (including the offense for which Price was convicted under the Controlled Substances Act, 21 U.S.C. \u00a7 841(a)(1) ), the district court is authorized by statute to order restitution to any victim of the offense or to the victim's estate if deceased. 18 U.S.C. \u00a7 3663(a)(1)(A). The statute goes on to define a \"victim\" of a conspiracy as \"any person directly harmed by the defendant's criminal conduct in the course of the scheme, conspiracy, or pattern\" of criminal activity. Id. \u00a7 3663(a)(2).\nThe statute, however, also states that \"in no case shall a participant in [a listed offense] be considered a victim of such offense under this section.\" Id. \u00a7 3663(a)(1)(A). Thus, Price argues, Holden cannot qualify as a victim because he was a co-conspirator and participant in the drug conspiracy, and therefore the district court had no statutory authority to order restitution to reimburse Holden's funeral expenses. Price contends that this is plain error because, he asserts, the court clearly acted without authority under the plain language of the statute. Therefore, by requiring him to pay restitution which the court had no statutory authority to order, the error affected his substantial rights. See United States v. Randle , 324 F.3d 550, 558 (7th Cir. 2003) (\"In requiring [the defendant] to pay several thousand dollars in restitution, without a statutory basis for doing so, the error affects [the defendant's] substantial rights.\").\nPrice's argument rests on an unnatural construction of the statute that would extend the offense participant prohibition to prohibit restitution to a participant's family members who are victims in their own right. That reading of the statute is incorrect. Although Holden may have been a participant within the meaning of the statute, the district court did not order restitution be paid to Holden or to his estate. Rather, it ordered the restitution be paid to his family members who were directly harmed by his murder and thus were victims of Price's criminal conduct in the course of the conspiracy.\nKing and her daughters were undoubtedly directly harmed by Price's criminal conduct. The testimony and evidence provided at the sentencing hearing established that Holden was murdered in the apartment he shared with King and their children; that his two young daughters were present in the apartment when the murder occurred; and that King discovered his body. King and her daughters suffered this incredibly traumatic event as a direct result of Price's criminal conduct in furtherance of the underlying conspiracy. The district court therefore acted within its statutory authority by awarding restitution to King to reimburse Holden's funeral expenses that King paid out of pocket. Part of the restitution payment went to Holden's mother, Linda Holden, who also paid a portion of the funeral expenses out of pocket. As Holden's mother and one of the financers of the funeral, Ms. Holden was also a victim in her own right. Put another way, King and Ms. Holden's losses are not derivative of Holden's losses: these women assert their claims standing in their own shoes, not Holden's. Cf. Rock Island Bank v. Aetna Cas. & Sur. Co. , 692 F.2d 1100, 1106 (7th Cir. 1982) (describing in insurance context a derivative remedy as being subject to whatever defenses may be asserted against the original claimant, in contrast to independent claims not subject to such defenses).\nAlthough a portion of the restitution payment went to Ferguson Funeral Service, this was ultimately for the benefit of King and Ms. Holden as well. The funeral home, in a sense, subsidized a portion of the funeral costs because King and Ms. Holden did not have the means to pay in full. The restitution statute specifically contemplates restitution orders purposed to reimburse funeral expenses. See 18 U.S.C. \u00a7 3663(b)(3). It would make little sense to conclude that Congress intended only to empower a district court to reimburse those victims who are able to pay for the funeral in full and not those who do not have the means to pay the bill. Furthermore, the statute elsewhere contemplates reimbursing third parties, such as insurance companies, for compensation that a victim has already received. Id. \u00a7 3664(j)(1). Given this statutory basis, the district court did not plainly err by awarding restitution to the funeral home for expenses still owed by King and Ms. Holden.\nFinally, Price argued in his reply brief that even if the reimbursement for past funeral expenses was proper, the district court committed plain error by including in the restitution order the cost of the future purchase of a headstone. Price asserts that this cost, since it had not yet been paid, was not an \"actual loss\" that can be remedied through restitution, citing United States v. Dokich , 614 F.3d 314, 319-20 (7th Cir. 2010), for the proposition that restitution is limited to actual loss. There are multiple problems with this argument. First and foremost, Price has waived the issue by not raising it until his reply brief. See Mendez v. Perla Dental , 646 F.3d 420, 423-24 (7th Cir. 2011). Furthermore, we note that Dokich is inapposite because that case was concerned with distinguishing between the intended loss of a perpetrator of fraud and the actual loss suffered by the victim; it has nothing to say about future losses attributable to the defendant's criminal conduct. See Dokich , 614 F.3d at 318-20. Because the issue was waived, however, we decline to decide here whether a restitution award for a future expense attributable to the defendant's criminal conduct is proper.\nB\nThe second issue on appeal presents an unusual situation in which the litigants on both sides are in substantial agreement on the merits. Price appeals the district court's assignment of criminal history category II as a plain error, but concedes that it is unlikely the error affected his sentence, and thus remand is unnecessary. He states that he appeals this issue only to preserve it in the possible event of resentencing. The government agrees that an error was committed: Price's two misdemeanor convictions, both of which resulted in a sentence of probation for one year or less, should not have been included in the criminal history calculation, and thus he should have been assigned criminal history category I. See U.S.S.G. \u00a7 4A1.2(c)(1) (stating that a misdemeanor conviction for driving with a suspended/revoked license resulting in probation only counts toward the criminal history calculation if the probation was for more than one year).\nWe agree that the inclusion of the misdemeanor convictions in the criminal history calculation was an error. But because the advisory sentence at Price's offense level was life imprisonment regardless of the applicable criminal history category, and because the district judge departed downward from the Guidelines with a sentence of 37 years' imprisonment, the error did not affect Price's substantial rights. Kruger , 839 F.3d at 580 (finding defendant was not prejudiced by criminal history calculation error when the defendant's resulting advisory sentence would have been the same even if the correct criminal history category had been applied). Therefore, remand is not necessary. Id. at 580-81.\nIII\nBecause the restitution awards to King, Ms. Holden, and Ferguson Funeral Service do not fall within the offense participant prohibition of 18 U.S.C. \u00a7 3663(a)(1)(A), and because any error in calculating Price's criminal history category had no effect on his sentence, we AFFIRM Price's sentence and the district court's restitution order.\nIn its brief and at oral argument, the government argued in the alternative that Holden was no longer a participant in the offense at the time of his murder because he had withdrawn from the conspiracy by cooperating with the police investigation. We need not decide that question because, in any event, the restitution was ordered to Holden's family and not to Holden or his estate. Thus the restitution award does not come under the statutory prohibition.\nThe funeral home also provided the family with a $2,000 discount for the funeral costs, but that amount was not included in the restitution order: the $2,923 ordered to the funeral home was solely the unpaid amount of the total funeral costs after the $2,000 discount had been applied. (Doc. 143, Gov't's Mot. for Restitution, at 2; Appellant's Br. App. at 9.)",
+        "type": "majority",
+        "author": "Manion, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Angel M. Krull, Attorney, OFFICE OF THE UNITED STATES ATTORNEY, Chicago, IL, for Plaintiff-Appellee.",
+      "Hannah Valdez Garst, Attorney, LAW OFFICES OF HANNAH GARST, Arlington Heights, IL, for Defendant-Appellant."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff-Appellee,\nv.\nDavid L. PRICE, Defendant-Appellant.\nNo. 17-3077\nUnited States Court of Appeals, Seventh Circuit.\nArgued September 27, 2018\nDecided October 19, 2018\nAngel M. Krull, Attorney, OFFICE OF THE UNITED STATES ATTORNEY, Chicago, IL, for Plaintiff-Appellee.\nHannah Valdez Garst, Attorney, LAW OFFICES OF HANNAH GARST, Arlington Heights, IL, for Defendant-Appellant.\nBefore Flaum, Manion, and Sykes, Circuit Judges."
+  },
+  "file_name": "0685-01",
+  "first_page_order": 685,
+  "last_page_order": 691
+}

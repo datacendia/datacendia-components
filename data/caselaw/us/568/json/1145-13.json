@@ -1,0 +1,59 @@
+{
+  "id": 12430070,
+  "name": "Howard v. California",
+  "name_abbreviation": "Howard v. California",
+  "decision_date": "2013-01-22",
+  "docket_number": "No. 12-7014",
+  "first_page": "1145",
+  "last_page": "1145",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1145"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 69,
+    "ocr_confidence": 0.581,
+    "sha256": "1e3c1aa9b0e3dd7f66945c3fbcc0df2b397a135e7df86c17ec93478592a0816b",
+    "simhash": "1:884f19470c62519b",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Howard v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Cal. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7014.\nHoward v. California."
+  },
+  "file_name": "1145-13",
+  "first_page_order": 1221,
+  "last_page_order": 1221
+}

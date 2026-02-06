@@ -1,0 +1,59 @@
+{
+  "id": 5912757,
+  "name": "Gonzalez-Molina v. United States",
+  "name_abbreviation": "Gonzalez-Molina v. United States",
+  "decision_date": "2011-06-06",
+  "docket_number": "No. 10-10364",
+  "first_page": "1040",
+  "last_page": "1040",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1040"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 82,
+    "ocr_confidence": 0.593,
+    "sha256": "acfe596155b704ffe580a63328289118b355c56fb5f367e3ec65a4f614126b95",
+    "simhash": "1:97aad3820a099c4a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gonzalez-Molina v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10364.\nGonzalez-Molina v. United States."
+  },
+  "file_name": "1040-10",
+  "first_page_order": 1066,
+  "last_page_order": 1066
+}

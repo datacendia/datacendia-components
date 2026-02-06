@@ -1,0 +1,59 @@
+{
+  "id": 12433672,
+  "name": "Johnson v. United States",
+  "name_abbreviation": "Johnson v. United States",
+  "decision_date": "2013-03-18",
+  "docket_number": "No. 12-8736",
+  "first_page": "1243",
+  "last_page": "1243",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1243"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.644,
+    "sha256": "5a6497247b62423feffa333ee1c927559a79342d23a9d388a23429b570adac58",
+    "simhash": "1:978bba826e9f5c1a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Johnson v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8736.\nJohnson v. United States."
+  },
+  "file_name": "1243-03",
+  "first_page_order": 1319,
+  "last_page_order": 1319
+}

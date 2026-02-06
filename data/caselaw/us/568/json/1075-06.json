@@ -1,0 +1,59 @@
+{
+  "id": 12427586,
+  "name": "Pegram v. United States",
+  "name_abbreviation": "Pegram v. United States",
+  "decision_date": "2012-12-10",
+  "docket_number": "No. 12-7142",
+  "first_page": "1075",
+  "last_page": "1075",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1075"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.662,
+    "sha256": "57ae3de14594d59cb75fe5059d88a680f1c61332fef1d3541b5062925afc0f95",
+    "simhash": "1:b7caea414f8db915",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Pegram v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7142.\nPegram v. United States."
+  },
+  "file_name": "1075-06",
+  "first_page_order": 1151,
+  "last_page_order": 1151
+}

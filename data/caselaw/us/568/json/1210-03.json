@@ -1,0 +1,59 @@
+{
+  "id": 12432436,
+  "name": "Richter v. Advance Auto Parts, Inc.",
+  "name_abbreviation": "Richter v. Advance Auto Parts, Inc.",
+  "decision_date": "2013-03-01",
+  "docket_number": "No. 12-854",
+  "first_page": "1210",
+  "last_page": "1210",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1210"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 22,
+    "char_count": 128,
+    "ocr_confidence": 0.563,
+    "sha256": "0ea0882942519e5e4641d138621f5033100c6805d5e539353bb6641e1fdea8d7",
+    "simhash": "1:3aea36ccde1d3c67",
+    "word_count": 22
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Richter v. Advance Auto Parts, Inc."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari dismissed under this Court\u2019s Rule 46.1.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "March 1, 2013\nNo. 12-854.\nRichter v. Advance Auto Parts, Inc."
+  },
+  "file_name": "1210-03",
+  "first_page_order": 1286,
+  "last_page_order": 1286
+}

@@ -1,0 +1,61 @@
+{
+  "id": 5982642,
+  "name": "Ballard v. United States",
+  "name_abbreviation": "Ballard v. United States",
+  "decision_date": "2010-11-29",
+  "docket_number": "No. 10-7129",
+  "first_page": "1085",
+  "last_page": "1085",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1085"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 154,
+    "ocr_confidence": 0.605,
+    "sha256": "847aa99b075b8b9c72409b579b29e0b8bc13edb5f38f2730df482cb84d8412f1",
+    "simhash": "1:9d3388804f04d648",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Sotomayor took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Ballard v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.\nJustice Sotomayor took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7129.\nBallard v. United States."
+  },
+  "file_name": "1085-03",
+  "first_page_order": 1107,
+  "last_page_order": 1107
+}

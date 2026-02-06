@@ -1,0 +1,1948 @@
+{
+  "id": 2261854,
+  "name": "Evelyn Ann McElreath v. James Dorsey McElreath",
+  "name_abbreviation": "McElreath v. McElreath",
+  "decision_date": "1961-02-01",
+  "docket_number": "No. A-7761",
+  "first_page": "190",
+  "last_page": "237",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "162 Tex. 190"
+    },
+    {
+      "type": "parallel",
+      "cite": "345 S.W.2d 722"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "210 U.S. 320",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "106 N.W. 412",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "75 Neb. 104",
+      "category": "reporters:state",
+      "reporter": "Neb.",
+      "case_ids": [
+        596675
+      ],
+      "pin_cites": [
+        {
+          "page": "120"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/neb/75/0104-01"
+      ]
+    },
+    {
+      "cite": "23 L.R.A., N.S. 924",
+      "category": "reporters:federal",
+      "reporter": "L.R.A.N.S.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "215 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8286493
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/215/0001-01"
+      ]
+    },
+    {
+      "cite": "211 S.W. 2d 600",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10198627
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/211/0600-01"
+      ]
+    },
+    {
+      "cite": "191 S.W. 2d 848",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2336650,
+        10206670
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/144/0528-01",
+        "/sw2d/191/0848-01"
+      ]
+    },
+    {
+      "cite": "144 Tex. 528",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2336650
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/144/0528-01"
+      ]
+    },
+    {
+      "cite": "189 S.W. 2d 104",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10187700
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/189/0104-01"
+      ]
+    },
+    {
+      "cite": "54 S.W. 2d 835",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10260952
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/54/0835-01"
+      ]
+    },
+    {
+      "cite": "214 P. 2d 844",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "96 Cal. App. 2d 119",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2259510
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/96/0119-01"
+      ]
+    },
+    {
+      "cite": "145 A.L.R. 578",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "7 N.W. 2d 837",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "242 Wis. 226",
+      "category": "reporters:state",
+      "reporter": "Wis.",
+      "case_ids": [
+        8680337
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/wis/242/0226-01"
+      ]
+    },
+    {
+      "cite": "160 N.W. 182",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "164 Wis. 415",
+      "category": "reporters:state",
+      "reporter": "Wis.",
+      "case_ids": [
+        8695259
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/wis/164/0415-01"
+      ]
+    },
+    {
+      "cite": "168 Neb. 346",
+      "category": "reporters:state",
+      "reporter": "Neb.",
+      "case_ids": [
+        4779196
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/neb/168/0346-01"
+      ]
+    },
+    {
+      "cite": "15 Am. Rep. 621",
+      "category": "reporters:state_regional",
+      "reporter": "Am. Rep.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "24 Ohio St. 474",
+      "category": "reporters:state",
+      "reporter": "Ohio St.",
+      "case_ids": [
+        888439
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ohio-st/24/0474-01"
+      ]
+    },
+    {
+      "cite": "113 N.W. 175",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "75 Neb. 120",
+      "category": "reporters:state",
+      "reporter": "Neb.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Am. St. Rep. 528",
+      "category": "reporters:state",
+      "reporter": "Am. St. Rep.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "27 L.R.A. 213",
+      "category": "reporters:federal",
+      "reporter": "L.R.A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "30 A. 676",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "52 N.J. Eq. 561",
+      "category": "reporters:state",
+      "reporter": "N.J. Eq.",
+      "case_ids": [
+        105181
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nj-eq/52/0561-01"
+      ]
+    },
+    {
+      "cite": "193 S.W. 2d 175",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2336640,
+        10187803
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/144/0627-01",
+        "/sw2d/193/0175-01"
+      ]
+    },
+    {
+      "cite": "144 Tex. 627",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2336640
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/144/0627-01"
+      ]
+    },
+    {
+      "cite": "12 O.S. 1278",
+      "category": "reporters:state",
+      "reporter": "Ohio St.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "173 N.W. 127",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "186 Iowa 607",
+      "category": "reporters:state",
+      "reporter": "Iowa",
+      "case_ids": [
+        2261049
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/iowa/186/0607-01"
+      ]
+    },
+    {
+      "cite": "317 U.S. 287",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        303872
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/317/0287-01"
+      ]
+    },
+    {
+      "cite": "210 U.S. 230",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3650983
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/210/0230-01"
+      ]
+    },
+    {
+      "cite": "331 S. W. 2d 299",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10156876,
+        2259007
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/331/0299-01",
+        "/tex/160/0372-01"
+      ]
+    },
+    {
+      "cite": "160 Tex. 372",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2259007
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/160/0372-01"
+      ]
+    },
+    {
+      "cite": "317 P. 2d 225",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "case_ids": [
+        10481269
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/p2d/317/0225-01"
+      ]
+    },
+    {
+      "cite": "331 S.W. 2d 375",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10160486
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/331/0375-01"
+      ]
+    },
+    {
+      "cite": "19 A.L.R. 288",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "113 N. W. 175",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "145 A. L. R. 578",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "7 N. W. 2d 837",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "160 N. W. 182",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "23 L.R.A., N.S., 924",
+      "category": "reporters:federal",
+      "reporter": "L.R.A.N.S.",
+      "weight": 2,
+      "opinion_index": 1
+    },
+    {
+      "cite": "311 U. S. 457",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6141572
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/311/0457-01"
+      ]
+    },
+    {
+      "cite": "6 Cranch 148",
+      "category": "reporters:scotus_early",
+      "reporter": "Cranch",
+      "case_ids": [
+        530405
+      ],
+      "weight": 4,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/10/0148-01"
+      ]
+    },
+    {
+      "cite": "178 U.S. 186",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3612874
+      ],
+      "weight": 3,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/178/0186-01"
+      ]
+    },
+    {
+      "cite": "261 S.W. 2d 692",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10185785,
+        2246286
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/261/0692-01",
+        "/tex/152/0578-01"
+      ]
+    },
+    {
+      "cite": "152 Tex. 578",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2246286
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/152/0578-01"
+      ]
+    },
+    {
+      "cite": "309 S.W. 2d 227",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2255824,
+        10164203
+      ],
+      "year": 1958,
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/158/0196-01",
+        "/sw2d/309/0227-01"
+      ]
+    },
+    {
+      "cite": "158 Tex. 196",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2255824
+      ],
+      "year": 1958,
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/158/0196-01"
+      ]
+    },
+    {
+      "cite": "10 A. L. R. 2d 758",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R. 2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "53 S. E. 2d 520",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "230 N. C. 443",
+      "category": "reporters:state",
+      "reporter": "N.C.",
+      "case_ids": [
+        8630449
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/nc/230/0443-01"
+      ]
+    },
+    {
+      "cite": "12 F 2d 605",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1644559
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/12/0605-01"
+      ]
+    },
+    {
+      "cite": "187 S.E. 588",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "210 N.C. 433",
+      "category": "reporters:state",
+      "reporter": "N.C.",
+      "case_ids": [
+        8626793
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/nc/210/0433-01"
+      ]
+    },
+    {
+      "cite": "331 P. 2d 628",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "weight": 2,
+      "opinion_index": 1
+    },
+    {
+      "cite": "51 Cal. 2d 244",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2343688
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-2d/51/0244-01"
+      ]
+    },
+    {
+      "cite": "19 A.L.R. 2d 288",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R. 2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "268 P. 2d 250",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "case_ids": [
+        10496520
+      ],
+      "year": 1954,
+      "opinion_index": 1,
+      "case_paths": [
+        "/p2d/268/0250-01"
+      ]
+    },
+    {
+      "cite": "141 U.S. 87",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3555857
+      ],
+      "weight": 3,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/141/0087-01"
+      ]
+    },
+    {
+      "cite": "3 Sup. Ct. 586",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "110 U.S. 151",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3503648
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/110/0151-01"
+      ]
+    },
+    {
+      "cite": "27 L.R.A. (N.S.) 420",
+      "category": "reporters:federal",
+      "reporter": "L.R.A.N.S.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "107 Pac 679",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "15 N. M. 304",
+      "category": "reporters:state",
+      "reporter": "N.M.",
+      "case_ids": [
+        205978
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/nm/15/0304-01"
+      ]
+    },
+    {
+      "cite": "69 L.R.A. 673",
+      "category": "reporters:federal",
+      "reporter": "L.R.A.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "74 N.E. 145",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "215 Ill. 275",
+      "category": "reporters:state",
+      "reporter": "Ill.",
+      "case_ids": [
+        5618893
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ill/215/0275-01"
+      ]
+    },
+    {
+      "cite": "23 L.R.A. (N.S.) 924",
+      "category": "reporters:federal",
+      "reporter": "L.R.A.N.S.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "65 Okla. 76",
+      "category": "reporters:state",
+      "reporter": "Okla.",
+      "case_ids": [
+        8885610
+      ],
+      "weight": 4,
+      "opinion_index": 1,
+      "case_paths": [
+        "/okla/65/0076-01"
+      ]
+    },
+    {
+      "cite": "145 A.L.R. 583",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "215 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8286493
+      ],
+      "weight": 9,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/215/0001-01"
+      ]
+    },
+    {
+      "cite": "211 S.W. 2d 600",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10198627
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/211/0600-01"
+      ]
+    },
+    {
+      "cite": "191 S.W. 2d 848",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2336650,
+        10206670
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/144/0528-01",
+        "/sw2d/191/0848-01"
+      ]
+    },
+    {
+      "cite": "144 Tex. 528",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2336650
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/144/0528-01"
+      ]
+    },
+    {
+      "cite": "54 S.W. 2d 835",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10260952
+      ],
+      "weight": 3,
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/54/0835-01"
+      ]
+    },
+    {
+      "cite": "214 P. 2d 844",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "weight": 2,
+      "opinion_index": 1
+    },
+    {
+      "cite": "96 Cal. App. 2d 119",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2259510
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-app-2d/96/0119-01"
+      ]
+    },
+    {
+      "cite": "164 Wis. 415",
+      "category": "reporters:state",
+      "reporter": "Wis.",
+      "case_ids": [
+        8695259
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/wis/164/0415-01"
+      ]
+    },
+    {
+      "cite": "168 Neb. 346",
+      "category": "reporters:state",
+      "reporter": "Neb.",
+      "case_ids": [
+        4779196
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/neb/168/0346-01"
+      ]
+    },
+    {
+      "cite": "15 Am. Rep. 621",
+      "category": "reporters:state_regional",
+      "reporter": "Am. Rep.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "24 Ohio St. 474",
+      "category": "reporters:state",
+      "reporter": "Ohio St.",
+      "case_ids": [
+        888439
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ohio-st/24/0474-01"
+      ]
+    },
+    {
+      "cite": "75 Neb. 120",
+      "category": "reporters:state",
+      "reporter": "Neb.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "173 N.W. 127",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "186 Iowa 607",
+      "category": "reporters:state",
+      "reporter": "Iowa",
+      "case_ids": [
+        2261049
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/iowa/186/0607-01"
+      ]
+    },
+    {
+      "cite": "210 U.S. 230",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3650983
+      ],
+      "weight": 3,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/210/0230-01"
+      ]
+    },
+    {
+      "cite": "331 S. W. 2d 299",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10156876,
+        2259007
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/331/0299-01",
+        "/tex/160/0372-01"
+      ]
+    },
+    {
+      "cite": "160 Tex. 372",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2259007
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/160/0372-01"
+      ]
+    },
+    {
+      "cite": "35 S.W. 2d 189",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10251277
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw2d/35/0189-01"
+      ]
+    },
+    {
+      "cite": "256 S.W. 2d 250",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10202164
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw2d/256/0250-01"
+      ]
+    },
+    {
+      "cite": "162 N.W. 312",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "pin_cites": [
+        {
+          "page": "314"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "165 Wis. 364",
+      "category": "reporters:state",
+      "reporter": "Wis.",
+      "case_ids": [
+        8693167
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/wis/165/0364-01"
+      ]
+    },
+    {
+      "cite": "115 P. 2d. 542",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 2
+    },
+    {
+      "cite": "46 Cal. App. 2d 195",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        4489806
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/cal-app-2d/46/0195-01"
+      ]
+    },
+    {
+      "cite": "221 P. 973",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "64 Cal. App. 455",
+      "category": "reporters:state",
+      "reporter": "Cal. App.",
+      "case_ids": [
+        2151234
+      ],
+      "pin_cites": [
+        {
+          "page": "459"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/cal-app/64/0455-01"
+      ]
+    },
+    {
+      "cite": "162 S.W. 2d 732",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10221065
+      ],
+      "pin_cites": [
+        {
+          "page": "736"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw2d/162/0732-01"
+      ]
+    },
+    {
+      "cite": "25 L.R.A. 52",
+      "category": "reporters:federal",
+      "reporter": "L.R.A.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "26 S.W. 599",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "pin_cites": [
+        {
+          "page": "605"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "86 Tex. 571",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2206274
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/tex/86/0571-01"
+      ]
+    },
+    {
+      "cite": "219 S.W. 843",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10339666
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw/219/0843-01"
+      ]
+    },
+    {
+      "cite": "248 S.W. 21",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10296349,
+        2283286
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw/248/0021-01",
+        "/tex/112/0404-01"
+      ]
+    },
+    {
+      "cite": "112 Tex. 404",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2283286
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/tex/112/0404-01"
+      ]
+    },
+    {
+      "cite": "291 S.W. 646",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "pin_cites": [
+        {
+          "page": "649"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "125 S.W. 2d 356",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10234121
+      ],
+      "pin_cites": [
+        {
+          "page": "362"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw2d/125/0356-01"
+      ]
+    },
+    {
+      "cite": "137 S.W. 2d 227",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10229994
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw2d/137/0227-01"
+      ]
+    },
+    {
+      "cite": "141 S.W. 2d 718",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10231526
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw2d/141/0718-01"
+      ]
+    },
+    {
+      "cite": "177 S.W. 2d 296",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10206305
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw2d/177/0296-01"
+      ]
+    },
+    {
+      "cite": "201 S.W. 2d 865",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10201554
+      ],
+      "pin_cites": [
+        {
+          "page": "868"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw2d/201/0865-01"
+      ]
+    },
+    {
+      "cite": "211 S.W. 2d 269",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10190900
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw2d/211/0269-01"
+      ]
+    },
+    {
+      "cite": "6 S.W. 2d 403",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10286993
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "407"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw2d/6/0403-01"
+      ]
+    },
+    {
+      "cite": "161 S.W. 2d 273",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2313708,
+        10212885
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/tex/138/0604-01",
+        "/sw2d/161/0273-01"
+      ]
+    },
+    {
+      "cite": "138 Tex. 604",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2313708
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/tex/138/0604-01"
+      ]
+    },
+    {
+      "cite": "137 S.W. 2d 839",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10239259
+      ],
+      "pin_cites": [
+        {
+          "page": "1"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw2d/137/0839-01"
+      ]
+    },
+    {
+      "cite": "120 N.E. 198",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "224 N. Y. 99",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        85505
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/ny/224/0099-01"
+      ]
+    },
+    {
+      "cite": "68 L.R.A. 503",
+      "category": "reporters:federal",
+      "reporter": "L.R.A.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "84 S.W. 618",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "114 Tenn. 344",
+      "category": "reporters:state",
+      "reporter": "Tenn.",
+      "case_ids": [
+        8536091
+      ],
+      "pin_cites": [
+        {
+          "page": "357"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/tenn/114/0344-01"
+      ]
+    },
+    {
+      "cite": "154 U. S. 190",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3578844
+      ],
+      "weight": 2,
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/154/0190-01"
+      ]
+    },
+    {
+      "cite": "16 N.W. 413",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "31 Minn. 11",
+      "category": "reporters:state",
+      "reporter": "Minn.",
+      "case_ids": [
+        749055
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/minn/31/0011-01"
+      ]
+    },
+    {
+      "cite": "242 S.W. 2d 416",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10200091,
+        2328391
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw2d/242/0416-01",
+        "/tex/150/0475-01"
+      ]
+    },
+    {
+      "cite": "150 Tex. 475",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2328391
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/tex/150/0475-01"
+      ]
+    },
+    {
+      "cite": "259 S.W. 2d 184",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2246235,
+        10198812
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/tex/152/0480-01",
+        "/sw2d/259/0184-01"
+      ]
+    },
+    {
+      "cite": "152 Tex. 480",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2246235
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/tex/152/0480-01"
+      ]
+    },
+    {
+      "cite": "6 Cranch 148",
+      "category": "reporters:scotus_early",
+      "reporter": "Cranch",
+      "case_ids": [
+        530405
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/10/0148-01"
+      ]
+    },
+    {
+      "cite": "19 A.L.R. 2d 288",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R. 2d",
+      "opinion_index": 2
+    },
+    {
+      "cite": "211 S.W. 2d 600",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10198627
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw2d/211/0600-01"
+      ]
+    },
+    {
+      "cite": "54 S.W. 2d 835",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10260952
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw2d/54/0835-01"
+      ]
+    },
+    {
+      "cite": "214 P. 2d 844",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "pin_cites": [
+        {
+          "page": "1"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "96 Cal. App. 2d 119",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2259510
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/cal-app-2d/96/0119-01"
+      ]
+    },
+    {
+      "cite": "145 A.L.R. 578",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "weight": 2,
+      "opinion_index": 2
+    },
+    {
+      "cite": "7 N.W. 2d 837",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "839"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "242 Wis. 226",
+      "category": "reporters:state",
+      "reporter": "Wis.",
+      "case_ids": [
+        8680337
+      ],
+      "weight": 2,
+      "opinion_index": 2,
+      "case_paths": [
+        "/wis/242/0226-01"
+      ]
+    },
+    {
+      "cite": "160 N.W. 182",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "164 Wis. 415",
+      "category": "reporters:state",
+      "reporter": "Wis.",
+      "case_ids": [
+        8695259
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/wis/164/0415-01"
+      ]
+    },
+    {
+      "cite": "173 N.W. 127",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "186 Iowa 607",
+      "category": "reporters:state",
+      "reporter": "Iowa",
+      "case_ids": [
+        2261049
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/iowa/186/0607-01"
+      ]
+    },
+    {
+      "cite": "67 S.W. 2d 215",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2302417,
+        10235795,
+        2302441,
+        10235678
+      ],
+      "year": 1933,
+      "pin_cites": [
+        {
+          "page": "220"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/tex/123/0167-01",
+        "/sw2d/67/0215-02",
+        "/tex/123/0203-01",
+        "/sw2d/67/0215-01"
+      ]
+    },
+    {
+      "cite": "16 N. W. 413",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 3
+    },
+    {
+      "cite": "279 S.W. 473",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10300995
+      ],
+      "year": 1958,
+      "opinion_index": 3,
+      "case_paths": [
+        "/sw/279/0473-01"
+      ]
+    },
+    {
+      "cite": "91 S.W. 1",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "year": 1958,
+      "opinion_index": 3
+    },
+    {
+      "cite": "99 Tex. 491",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2267654
+      ],
+      "year": 1958,
+      "pin_cites": [
+        {
+          "page": "500"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/tex/99/0491-01"
+      ]
+    },
+    {
+      "cite": "123 Tex. 167",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2302417
+      ],
+      "year": 1933,
+      "opinion_index": 3,
+      "case_paths": [
+        "/tex/123/0167-01"
+      ]
+    },
+    {
+      "cite": "109 S.W. 2d 515",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10259300
+      ],
+      "year": 1933,
+      "pin_cites": [
+        {
+          "page": "523"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/sw2d/109/0515-01"
+      ]
+    },
+    {
+      "cite": "11 L. Ed. 205",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "case_ids": [
+        3328078
+      ],
+      "pin_cites": [
+        {
+          "page": "p. 197"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/43/0127-01"
+      ]
+    },
+    {
+      "cite": "2 Howard 127",
+      "category": "reporters:state",
+      "reporter": "Howard",
+      "opinion_index": 3
+    },
+    {
+      "cite": "203 S.W. 77",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10309337
+      ],
+      "pin_cites": [
+        {
+          "page": "79"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/sw/203/0077-01"
+      ]
+    },
+    {
+      "cite": "17 S.W. 2d 789",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10278593
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/sw2d/17/0789-01"
+      ]
+    },
+    {
+      "cite": "205 S.W. 2d 816",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10212511
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/sw2d/205/0816-01"
+      ]
+    },
+    {
+      "cite": "41 S.W. 2d 219",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10256860,
+        2305646
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/sw2d/41/0219-01",
+        "/tex/121/0066-01"
+      ]
+    },
+    {
+      "cite": "121 Tex. 66",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2305646
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/tex/121/0066-01"
+      ]
+    },
+    {
+      "cite": "75 A.L.R. 1305",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "weight": 2,
+      "opinion_index": 3
+    },
+    {
+      "cite": "90 S.W. 1128",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "weight": 2,
+      "opinion_index": 3
+    },
+    {
+      "cite": "41 Tex. Civ. App. 129",
+      "category": "reporters:state",
+      "reporter": "Tex. Civ. App.",
+      "case_ids": [
+        4384601
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/tex-civ-app/41/0129-01"
+      ]
+    },
+    {
+      "cite": "54 S. W. 380",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 3
+    },
+    {
+      "cite": "40 S.W. 275",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 3
+    },
+    {
+      "cite": "37 Tex. Cr. R. 539",
+      "category": "reporters:state",
+      "reporter": "Tex. Crim.",
+      "case_ids": [
+        161379
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/tex-crim/37/0539-01"
+      ]
+    },
+    {
+      "cite": "40 S.W. 2d 46",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2307451,
+        10246742
+      ],
+      "weight": 4,
+      "opinion_index": 3,
+      "case_paths": [
+        "/tex/120/0491-01",
+        "/sw2d/40/0046-01"
+      ]
+    },
+    {
+      "cite": "120 Tex. 491",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2307451
+      ],
+      "weight": 4,
+      "opinion_index": 3,
+      "case_paths": [
+        "/tex/120/0491-01"
+      ]
+    },
+    {
+      "cite": "35 S.W. 479",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "weight": 3,
+      "opinion_index": 3
+    },
+    {
+      "cite": "13 Tex. Civ. App. 99",
+      "category": "reporters:state",
+      "reporter": "Tex. Civ. App.",
+      "case_ids": [
+        270498
+      ],
+      "weight": 3,
+      "opinion_index": 3,
+      "case_paths": [
+        "/tex-civ-app/13/0099-01"
+      ]
+    },
+    {
+      "cite": "54 S.W. 380",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "weight": 2,
+      "opinion_index": 3
+    },
+    {
+      "cite": "22 Tex. Civ. App., 200",
+      "category": "reporters:state",
+      "reporter": "Tex. Civ. App.",
+      "case_ids": [
+        280655
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "1899"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/tex-civ-app/22/0200-01"
+      ]
+    },
+    {
+      "cite": "256 S.W. 2d 250",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10202164
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/sw2d/256/0250-01"
+      ]
+    },
+    {
+      "cite": "6 S.W. 2d 403",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10286993
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/sw2d/6/0403-01"
+      ]
+    },
+    {
+      "cite": "31 Minn. 11",
+      "category": "reporters:state",
+      "reporter": "Minn.",
+      "case_ids": [
+        749055
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/minn/31/0011-01"
+      ]
+    },
+    {
+      "cite": "309 S.W. 2d 227",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2255824,
+        10164203
+      ],
+      "year": 1958,
+      "pin_cites": [
+        {
+          "page": "232"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/tex/158/0196-01",
+        "/sw2d/309/0227-01"
+      ]
+    },
+    {
+      "cite": "158 Tex. 196",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2255824
+      ],
+      "year": 1958,
+      "opinion_index": 3,
+      "case_paths": [
+        "/tex/158/0196-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 2513,
+    "char_count": 111814,
+    "ocr_confidence": 0.623,
+    "pagerank": {
+      "raw": 8.01680234202516e-07,
+      "percentile": 0.9736532902111281
+    },
+    "sha256": "1b105d232cbfc1dc8eebbbc5bebf9ef997c51c9bac1da067865b75aa2c20ae64",
+    "simhash": "1:d7adc19462acae82",
+    "word_count": 19498
+  },
+  "last_updated": "2024-02-27T23:04:29.645629+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Evelyn Ann McElreath V. James Dorsey McElreath"
+    ],
+    "opinions": [
+      {
+        "text": "MR. JUSTICE NORVELL\ndelivered the opinion of the Court.\nThis is a suit to enforce an Oklahoma equitable decree ordering James Dorsey McElreath to convey lands in Texas to Evelyn Ann McElreath. Both courts below refused the relief prayed for. 331 S.W. 2d 375.'\nThe decree sought to be enforced was entered in a divorce suit between the parties both of whom were residents of Oklahoma and Oklahoma was their matrimonial domicile. This is not a case wherein one of the parties moved from Texas to Oklahoma for the purpose of establishing a residence for divorce purposes. Neither is this a case wherein either party because of residence in Texas had acquired property rights under and by virtue of the marital laws of this State. We are not called upon to pass upon the hypothetical rights of hypothetical persons in the situations mentioned. It appears without dispute that the order is valid and enforceable in Oklahoma and has been affirmed by the court of last resort in that State. See, McElreath v. McElreath, Okla. 317 P. 2d 225. However, after the decree had been entered, but before the Oklahoma court could enforce its order, McElreath crossed the Red River and now asserts sanctuary in Texas.\nInsofar as marital property is concerned, the laws of Oklahoma are different from those of Texas. However, upon the dissolution of a marriage, Oklahoma like Texas seeks to provide equitable distribution of properties and property rights between its residents. Quite obviously one authority must settle these rights if anything approaching fairness and equity is to be secured. Jurisdiction for such purpose rests with the courts of the matrimonial domicile which, in this case, is the State of Oklahoma. A competent court of that state having acted, and presumably having made a proper and equitable adjustment of the property rights of the divorcing parties, it is anomalous, to say the least, to assert that the work of that court may be set at naught by the defendant\u2019s crossing the state line and coming to Texas. There is no doubt but that had he remained in Oklahoma, the decree could and would have been enforced by contempt proceedings. As a matter of justice, good order and common sense, the Oklahoma decree should be enforced in Texas, unless contrary to some well defined public policy of this State. There is something incongruous and out of keeping with the concept of orderly processes to tolerate a situation wherein solemn court decrees may be flouted by playing hop-skip with state boundaries. This case involves Oklahomans and it is not against the public policy of Texas for Oklahoma to maintain a different system of property ownership for its residents than that provided by Texas for Texans.\nArticle 4638 of Vernon\u2019s Ann. Tex. Stats, is a part of Chapter 4, Title 75 of the Revised Statutes relating to Divorce. It reads as follows:\n\u201cThe court pronouncing a decree of divorce shall also decree and order a division of the estate of the parties in such a way as the court shall deem just and right, having due regard to the rights of each party and their children, if any. Nothing herein shall be construed to compel either party to divest himself or herself of the title to real estate.\u201d\nThis article and the chapter of which it is a part apply only to Texas courts pronouncing decrees of divorce in suits involving Texas residents. Our community property system naturally affects our plan of property division upon a marriage dissolution. Under our laws, permanent alimony is not recognized, nor is a Texas court authorized to divest either spouse of his or her title to separate property, Hailey v. Hailey, 160 Tex. 372, 331 S. W. 2d 299,/but the wife, in the main, must look to the community property for her share of the material gains incident to an ill-gtarred marriage. We expect other states to recognize our system of marital property ownership, so should we respect their schemes of property ownership and attendant plans for the adjustment of property rights upon the dissolution of a marriage. Texas public policy does not relate to and is not concerned with the settlement by Oklahoma courts of marital property problems which arise between Oklahoma citizens. Article 4638 establishes a policy governing Texas courts in cases involving divorce and property rights based upon the marital laws of this State. It does not purport to establish a public policy relating to land tenure by nonresidents.\nThe respondent here was .a resident of Oklahoma when divorced. He possessed no rights in Texas property under the marital laws of this state. He had no homestead right in and to the property involved, Article 16, \u00a7 51, Texas Constitution, Article 3833, Vernon\u2019s Ann. Tex. Stats., 22 Tex. Jur., Homesteads, \u00a7\u00a7 31,32, or anything similar thereto.\nThe matter of enforcing the equitable decrees of one state which affect lands in another state has been the subject of much writing, largely; occasioned by a few unsatisfactory court decisions.. Only a small portion of this legal literature need be noticed. Most of the authorities discuss the problem of the extraterritorial effect of an equitable decree from the standpoint of the full faith and credit clause of the United States Constitution, Article 4, \u00a7 1. That doctrine need not be adverted to here. It is similar, but much broader in scope than the doctrine of comity. However persuasive and helpful, the decisions relating to \u201cfull faith and credit\u201d may be, the doctrine itself need not be invoked when the state of the situs as a matter of comity recognizes the rights upon which the decree of a sister state is based and decides that the enforcement of such rights does not violate any principle of public policy of the situs state. It has been asserted that the development of the \u201cfull faith and credit\u201d clause has fallen half a century behind that of the remainder of the federal constitution. John Russell, Titles, Effect of Adjudication by Sister States,\u201d 3 Baylor Law Review, 441. However, the problem is essentially one for the Supreme Court of the United States which may compel recognition of a foreign decree despite public policy declarations announced by a state court of the situs. Fauntleroy v. Lum, 210 U.S. 230, 28 S. Ct. 641, 52 L, ed. 1039. In this connection, see also Williams v. North Carolina, 317 U.S. 287, 63 S. Ct. 207, 87 L. ed. 279.\nProfessor Brainerd Currie of the University of Chicago Law School in his paper styled \u201cFull Faith and Credit to Foreign Land Decrees,\u201d 21 University of Chicago Law Review 620, 1. c. 666 argues for a dichotomy approach to the problem which in effect would make unnecessary a resort to the principles of comity. He asserts that \u201ceither a \u25a0 judgment is rendered without jurisdiction, in which case due process of law would be denied by holding it conclusive; or it is rendered with jurisdiction in which case it is entitled to full faith and credit.\u201d We need not pass upon the validity of this approach but may reserve judgment upon the point until a case arises wherein the enforcement of the decree of the sister state would to some extent at least violate an established public policy of this state. This case may be and is decided upon the principles of comity.\nOur differences with the courts below rest primarily upon a divergence of opinions as to the proper construction of the Oklahoma court decree. The trial court and the Court of Civil Appeals treated the decree as being one which directly affected thej title to Texas lands. We regard it as being an equitable order operating in personam which orders James Dorsey McElreath to execute a deed conveying land in Texas to Evelyn Ann McElreath. Matson v. Matson, 186 Iowa 607, 173 N.W. 127. As so construed, the Oklahoma decree should be enforced as a matter of comity.\nThe statute upon which the Oklahoma decree is based reads as follows:\n\u201cWhen a divorce shall be granted by reason of the fault or aggression of the husband, the wife shall be restored to her maiden name if she so desires, and also to all the property, lands, tenements, hereditaments owned by her before marriage or acquired by her in her own right after such marriage, and not previously disposed of, and shall be allowed such alimony out of the husband\u2019s real and personal property as the court shall think reasonable, having due regard to the value of his real and personal estate at the time of said divorce; which alimony may be allowed to her in real or personal property, or both, or by decreeing to her such sum of money, payable either in gross or installments, as the court may deem just and equitable. * * *\u201d 12 O.S. 1278.\nJames Dorsey McEIreath\u2019s holdings consisted of real and personal property situated in both Oklahoma and Texas. The Texas property was devised to him by his father, A. R. McElreath. This circumstance is immaterial as the Oklahoma statute above quoted make no distinction between property acquired by gift, devise or bequest and any other form of separate property. Under the Oklahoma law the court was empowered to allow alimony to the wife \u201cout of the husband\u2019s real and personal property.\u201d\nThere is a patent difference between two clauses contained in the decree. One provides that:\n\u201cIT IS FURTHER ORDERED, ADJUDGED AND DECREED by the court that the plaintiff have and she is hereby awarded as alimony an undivided one-third interest in and to all real estate, oil properties, mineral rights, leases, royalties, and any other mineral or oil interests owned by the defendant on this date, including the properties set forth and described in \u2018Exhibit A\u2019 attached hereto and made a part hereof, and said defendant is hereby ordered and directed to execute good and proper conveyances of such interest in said property to the plaintiff herein within five days from this date, in default of which this decree shall constitute a conveyance thereof.\u201d\nThe second clause which is applicable to the Texas property involved in this lawsuit provides that:\n\u201cIT IS FURTHER ORDERED, ADJUDGED AND DECREED by the court that the plaintiff have and she is hereby awarded as alimony an undivided one-third interest in and to the interest owned by the defendant in the Estate of A. R. McElreath, Sr., deceased, either distributed or in the process of probate, and said defendant is hereby ordered and directed to execute good and proper conveyances of such interest in said property to the plaintiff herein within sixty (60) days from the date hereof.\u201d\nIt may be that the Oklahoma court sought to recognize a difference in the authority which may be exercised by a court having jurisdiction over both the parties and the res and that which may be exercised by a court having in personam jurisdiction only. The \u201cin rem\u201d provision that in the event James Dorsey McElreath should fail to execute a conveyance, the decree itself should operate as such is not contained in the order relating to the Texas property involved in this lawsuit.\nThe trial judge, however, in holding that the decree, while effective as to personal property in Texas was ineffective as to real property, stated in his conclusions of law that a contrary holding would \u201cviolate the fundamental rule of law that a court of one state cannot operate directly to pass title to land of another state.\u201d\nSeemingly the position of James Dorsey McElreath as respondent here is that petitioners\u2019 suit is not one to compel him to execute a conveyance but rather one to assert an equitable title which she claims vested in her by virtue of the Oklahoma decree. We are unable to agree with this strict construction of the pleadings. The essential facts, \u2014 and facts are what count in Texas pleading, \u2014 are alleged in the petition which would authorize a court in Texas to order the execution of a deed so as to implement the rights determined by the Oklahoma decree. In the present suit, the Texas court as distinguished from the position of the Oklahoma court in the divorce suit, has jurisdiction of the res as well as the person and hence has authority to provide that upon the failure of respondent to execute a deed, the decree of the Texas court would have the effect of a conveyance, or that its decree would operate directly to vest petitioner with title to the Texas land. The findings upon which the Oklahoma decree is necessarily based to the effect that petitioner, by reason of her marriage with respondent and her status as a wife, is entitled to certain properties including the Texas land operate by way of estoppel in the nature of res judicata. Such findings give rise to equitable rights in the property which may be enforced by the Texas courts. The exact method of enforcement is limited only by the jurisdictional authority of the Texas court which having jurisdiction over the res may enter an in rem judgment should such course be deemed expedient.\nThat portion of the Oklahoma decree relating to the land here involved is purely in personam. It provides that \u201cthe defendant (respondent here) is hereby ordered and directed to execute good and proper conveyances of such interest in said property to the plaintiff herein within sixty (60) days from the date hereof.\u201d Whether we consider the statement which precedes that above quoted, \u2014 \u201cthat the plaintiff have and she is hereby awarded as alimony an undivided one-third interest * * * etc.\u201d as an attempt to make the decree operate in rem is immaterial. If it be considered wholly inoperative as to real property, we still have the direct categorical order that the petitioner execute a conveyance. Cf. Kubena v. Hatch, 144 Tex. 627, 193 S.W. 2d 175; 25 Tex. Jur. 694, Judgments, \u00a7 255. Such an order was within the equitable powers of the Oklahoma court and had McElreath under threat of imprisonment for contempt executed a deed it would have been effective to convey lands in Texas.\nAn analogy between an obligation arising out of the marriage status and one arising under a contract seems entirely valid. It was well stated by Professor Willard Barbour of the University of Michigan Law School in his article on \u201cThe ExtraTerritorial Effect of the Equitable Decree,\u201d 17 Mich. Law Review 527, l.c. 548, that:\n\u201cWe need not say that the foreign decree should ex proprio vigore affect title to domestic land; all that is contended is that the courts of the situs should recognize such a decree as a final determination of a personal obligation to convey, an obligation analogous to that arising from a valid contract. It should be accepted as a valid cause of action in the jurisdiction of the situs, and if suit be brought upon it and personal jurisdiction obtained of the person bound, a new decree should be rendered.\u201d\nThe distinction between the decree which purports to directly affect title to lands in another state ex proprio vigore and one which acts upon the parties in personam is important. In essence, the validity of the decree in rem of ex proprio vigore. depends upon rules applicable to jurisdiction of courts, while the enforceability of an equitable decree in personam depends upon the public policy of the forum state insofar as comity is concerned. No one contends that an Oklahoma court could decree that A do have and recover against B judgment for title and possession of lands in Texas. On the other hand, when jurisdiction of the persons is present, no one disputes the jurisdiction and authority of the Oklahoma court to decree that A convey to B certain Texas lands, nor the further proposition that such deed, when executed in accordance with the Texas laws relating to conveyancing, operates to legally convey lands in Texas. It therefore follows that unless there be some public policy consideration, a Texas court should not hesitate to enforce an Oklahoma in personam decree ordering a conveyance of Texas lands whether the right given formad recognition by the Oklahoma decree be based upon a contract or one which grew out of the mai> riage status of Oklahoma residents. Our inquiry relates to public policy and not jurisdiction. The Texas courts, like the courts of Oklahoma, possess the power and authority to award equitable relief in the nature of an order for specific performance and to enforce the same by appropriate contempt action. The enforcement of the rights established by the Oklahoma decree do not involve the use of remedies and processes unknown to the law of Texas, nor the recognition of rights and estates in property unknown to Texas law. See, Stumberg, Conflict of Laws (2d Ed.) 128.\nThe argument of respondents which was accepted by the Court of Civil Appeals stems from Bullock v. Bullock, 52 N.J. Eq. 561, 30 A. 676, 27 L.R.A. 213, 46 Am. St. Rep. 528 and Fall v. Fall, 75 Neb. 120, 113 N.W. 175, which follows the Bullock case. In Fall v. Fall, the following statement of the New Jersey court is quoted with approval:\n\u201c [T]he doctrine that jurisdiction respecting lands in a foreign state is not in rem, but one in personam, is bereft of all practical force, if the decree in personam is conclusive and must be enforced by the courts of the situs.\u201d\nFrom this premise, it is asserted that a decree of a Washington court in a suit between Washington citizens which directs a party to that suit to execute a conveyance of Nebraska lands is contrary to the public policy of the State of Nebraska. Laying aside for a moment the obvious confusion of the rules governing jurisdiction of courts and the doctrines applicable to questions of public policy, and considering policy alone, we might inquire as to how and in what way does one state\u2019s action in adjusting the property rights and problems of its own citizens violate the public policy of another state. Or, to be specific and to the point insofar as this case is concerned, what difference does it make to the State of Texas whether the property here involved is awarded to the ex-husband or the ex-wife of a broken Oklahoma marriage? Is there in Texas a public policy which perfers land tenure by males rather than by females? Is there a reasonable probability of the return of feudal tenures to Anglo-American jurisprudence, so that one owning land would be burdened with knight service? 51 C.J.S. 461. It would seem that Texas should have no concern with the statutes and methods adopted by Oklahoma in settling the matrimonial differences of its citizens and their property rights.\nIn commenting upon the Fall case, Professor Currie in his paper heretofore mentioned said:\n\u201cWhen Justice Letton (the author of the majority opinion in Fall v. Fall) seeks to bolster his argument by the epithetic assertion that \u2018the act directed by the Washington court [the conveyance] is in opposition to the public policy of this state, in relation to the enforcement of the duty of marital support,\u2019 it is hard to take him seriously. Bear in mind that he had just finished saying that \u2018[i]n the instant case, if Fall had obeyed the order of the Washington court and made a deed of conveyance to his wife of the Nebraska land, even under the threat of contempt proceedings, or after duress by imprisonment, the title thereby conveyed to Mrs. Fall would have been of equal weight and dignity with that which he himself possessed at the time of the execution of the deed.\u2019 But apart from this remarkable inconsistency, are we to believe that a statute defining the jurisdiction of Nebraska courts in divorce cases expresses Nebraska\u2019s policy of 'matrimonial support pertaining to couples domiciled in Washington?\u201d 21 University of Chicago Law Review 620, l.c. 637.\nAlthough this Court and the courts below may be of the opinion that the Oklahoma trial court should have awarded Oklahoma land rather than Texas land to the wife or entered an alternative money award to the wife in the event the husband refused to convey the Texas land, 17A Am. Jur. 172, Divorce and Separation \u00a7 991, and thus avoided the complexities incident to the type of decree now before us, such opinion or belief would not justify a conclusion that the Oklahoma judgment is contrary to Texas public policy. The public policy issue, stripped of all its spurious and specious ramifications, is simpy answered by saying that insofar as the public policy of Texas is concerned, either a husband or a wife to a broken marriage of Oklahoma residents may hold land in this state.\nThe argument of the New Jersey case of Bullock v. Bullock, as above indicated, is that the equitable decree of a sister state directing that a conveyance be made is in substance an in rem decree, and should be treated as such. This over simplification ignores centuries of chancery history and development. As heretofore stated, no one questions nor could he successfully dispute the proposition that a court of equity having jurisdiction of the person and the ability to enforce its decree by contempt may coerce the execution of a deed which will be recognized by Texas courts as a valid conveyance of Texas land. It would be strange to say that as long as the respondent remain in Oklahoma and subject to the jurisdiction of the courts of that state, the decree was one in personam, but became in effect a decree in rem when he crossed the boundary line into Texas. This cannot be sound. The post judgment physical movements of parties cannot affect the nature of decrees. Nor can the premise be accepted that respondent was subject only to the coercive orders of the court rendering the decree. This, to use the phrase of Professor Barbour, would be to assume \u201cthat equity has made no progress since the time of Coke,\u201d 17 Mich. Law Review 528, and would lead to this anomalous condition of defeasance or something similar thereto: Because of the failure of the Texas court to act, the title to the Texas land would remain in respondent, but should he return to Oklahoma, a court of that state could and undoubtedly would enforce its decree by compelling the execution of a conveyance. This could give rise to numerous title questions and complications. For example, what would be the status of one purchasing from respondent with actual notice of the Oklahoma decree, should respondent after conveying to such purchaser, return to Oklahoma and by court action be coerced into executing a deed to petitioner? Equally unsound is the premise that a deed coerced by the Oklahoma decree may be accepted but the decree rejected, for as stated by Currie:\n\u201cRecognition of the deed necessarily involves acceptance of the decree. Whatever intrusion on the state\u2019s exclusive control is implied in the recognition of the decree is accomplished through the recognition of the deed. A policy so easily evjaded, so dependent on the success of the defendant in eluding the enforcement process of the foreign court, is a formal lifeless thing, and the truth must be that foreign judicial proceedings of this type pose no real threat to the legitimate interest of the situs state.\u201d 21 U. of Chicago Law Review 620, 629.\nProfessor Stumberg, while recognizing a diversity of opinion among courts, states that the decided weight of authority supports the proposition that the equitable decree of a sister state should be recognized and enforced. Stumberg, Conflict of Laws (2d Ed.) 125.\nA leading case among those opposed to Bullock v. Bullock and Fall v. Fall is Burnley v. Stevenson, 24 Ohio St. 474,15 Am. Rep. 621. This was a contract case. A decree of specific performance was rendered by a Kentucky court having jurisdiction of the parties. The subject matter of the suit was land situated in Ohio. No actual conveyance was made. The party entitled to the deed, however, went into possession and in an action in ejectment the Ohio court held that the Kentucky decree constituted a valid defense. The court said:\n\u201cTrue, the courts of this state cannot enforce the performance of that decree by compelling the conveyance through its process of attachments: but when pleaded in our courts as a cause of action, or as a ground of defense it must be regarded as conclusive of all the rights and equities which were adjudicated and settled therein, unless it be impeached for fraud.\u201d\nEssentially the same rule was held applicable to a divorce case in Matson v. Matson, 186 Iowa 607, 173 N.W. 127. The facts were similar to those in the present case and a statement of them follows:\n\u201cPlaintiff and defendant Matson were married in May, in 1897, and continued to live together as husband and wife until the summer of 1914. About 1909 they moved to Washington, and thereafter continued to reside in King county, in that state, until the summer of 1914. There were four small children. In June, 1914, plaintiff commenced her divorce action, in the superior court of King county, for an absolute divorce * * * Said action came on for hearing before said court on the 14th day of August, 1914, the appellee appearing in person and by her attorney, and appellant Matson also appearing in person and by his attorney, and the court, having heard the evidence and proofs, then and upon said day announced its decision granting plaintiff a divorce, the custody of the children, and granting to plaintiff the property in Iowa hereinafter referred to by the following provision afterwards incorporated in the decree:\n\u201c \u2018That plaintiff be and she is hereby awarded the household furniture and piano and property known as 4628 Meade street, Seattle, Wash., and the property of the parties hereto located in the town of Boone in the state of Iowa; and the defendant is hereby directed and required to execute to plaintiff a conveyance of said Iowa property.\u2019 * * *\n\u201cImmediately after the announcement of the decision of said court in said action, the appellant Ed Matson left the state of Washington and came to the state of Iowa, arriving in said state a few days thereafter.\n\u201cOn the 19th day of August, 1914, said appellant, having arrived in the county of Boone and state of Iowa, made a purported conveyance by warranty deed to the appellant Ida Johnson of the property in Boone, Iowa, for the consideration of $1. Said warranty deed was filed for record in the office of the recorder of Boone county on the 19th day of August, 1914. At and before the execution and delivery of said deed by appellant Ed Matson to appellant Ida Johnson, said Ida Johnson had full knowledge that appellee and appellant Ed Matson were husband and wife; had full knowledge of the decision of the superior court of the state of Washington in and for King county, hereinbefore referred to, and knew that said Matson was directed by the decision of said court to convey to the plaintiff the property hereinbefore described. The conveyance so made by the said Matson to said Johnson was without consideration, save and except the sum of $1. In the deed the said Ed Matson described himself as single, notwithstanding the fact that the decree dissolving the marriage relations between appellee and him had not been filed, and he, the said Matson, then understood that by the decision of said court he was directed to convey the property above described to appellee.\u201d\nIn affirming the judgment of the trial court which set aside the Ida Johnson deed and granted relief to Mrs. Matson under the Washington decree, the Supreme Court of Iowa said:\n\u201cIt should be kept in mind that in the instant case there was personal notice on, and appearance by, defendant Mat-son, in the Washington court, in the case there, and in the Iowa court in this case, and the further important fact, as we view it, that plaintiff here is not relying alone on the Washington decree to give title as was the fact in some of the cases cited. Nor does she claim that any deed was executed by defendant to her, even under compulsion, pursuant to the direction in the decree that he should convey. This was the situation in some of the cases. Her claim is that the Washington court having complete jurisdiction, and having rendered judgment and decree, she may use that as a basis for another suit in the courts of this state, after personal notice, for judgment here, and for a decree here to carry out and enforce the Washington decree, which the defendant, by removing himself from the state of Washington, prevented the Washington court enforcing the decree in that state. Of course, if the defendant Matson had remained in the state of Washington, the courts there could have coerced him into executing a deed as directed by the decree. That is impossible now. We have no doubt but that this was a fraud upon the courts in that state, and, under the circumstances shown, we have no doubt but that his purpose was to prevent his wife from obtaining the full relief to which she was entitled. This was also a fraud. Ought he, in equity, to be allowed to profit by his own wrong? So far as defendant Mat-son is concerned, there was no good faith. This being so, why ought not his conscience to be bound? In the instant case, the equities are clearly with the plaintiff.\u201d\nIn Weesner v. Weesner, 168 Neb. 346, 95 N.W. 2d 682 it was said that:\n\u201c[I]t is universally held that a court of one state cannot directly affect or determine the title to land in another state. However, it is also now well established that a court of competent jurisdiction in one state with all necessary parties properly before it in an action for divorce, generally has the power and authority to render a decree ordering the execution and delivery of a deed to property- in another state in lieu of alimony for the wife. Such an order is personam m character, and when final it is generally res judicata, bringing into operation the doctrine of collateral estoppel.\u201d\nSee also, Mallette v. Scheerer, 164 Wis. 415, 160 N.W. 182; Bailey v. Tully, 242 Wis. 226, 7 N.W. 2d 837, 145 A.L.R. 578; Simmons v. Superior Court, 96 Cal. App. 2d 119, 214 P. 2d 844; Restatement of Conflict of Law, \u00a7\u00a7 94, 97, 430, 450. Cf. Hall v. Jones, Tex. Civ. App., 54 S.W. 2d 835, no wr. hist.; Greer v. Greer, Tex. Civ. App., 189 S.W. 2d 104, Id. 144 Tex. 528, 191 S.W. 2d 848; Milner v. Schaefer, Tex. Civ. App., 211 S.W. 2d 600, wr. ref.\nRespondent, in his vigorous and well-prepared brief, places much emphasis upon the case of Fall v. Eastin, 215 U.S. 1, 30 S. Ct. 3, 54 L. ed. 65, 23 L.R.A., N.S. 924, affirming Fall v. Fall, 75 Neb. 104, 120, 106 N.W. 412, 113 N.W. 175. As we construe that case it is not in point here, but some discussion of its holdings may not be inappropriate. As set forth in the forepart of this opinion, there is a clear and fundamental difference between respondent\u2019s construction and this Court\u2019s construction of the Oklahoma decree in issue here, as well as the nature of the relief sought from the Texas court by the petitioner. We do not construe the Oklahoma decree as being in rem, that is, as directly affecting the title to Texas land. Any portions of the Oklahoma decree purporting to act in rem would be ineffective because of a lack of jurisdiction on the part of the Oklahoma court. However, the order directing the execution of a conveyance is in personam. As we read Fall v. Eastin, it goes off on a somewhat different proposition than that asserted by the Nebraska Supreme Court, namely that the decree of the Washington court was m rem and the Washington court was without jurisdiction to render a decree directly affecting the title to Nebraska lands.\nMuch has been written about Fall v. Eastin. The opinion has been criticized for lack of clarity, and it has been remarked that the attorneys for Mrs. Fall, the plaintiff in error, mistakenly analyzed the legal situation actually presented by the record in that they sought to rely upon a commissioner\u2019s deed executed in pursuance of the Washington decree. However, it seems to us as above indicated, that the Supreme Court placed its judgment of affirmance upon the holding that the Washington decree was in rem. We reach that conclusion from the following bases:\nThe controversy grew out of a divorce suit in the state of Washington between Sarah S. Fall and E. W. Fall. The parties at interest in the case considered by the Supreme Court of the United States were Sarah S. Fall and Elizabeth Eastin, the grantee in a deed executed by E. W. Fall. The suit was one to remove cloud from title and not a suit brought by Sarah S. Fall to compel E. W. Fall to convey land to her. The controlling legal question invoved was the validity of a commissioner\u2019s deed, or as stated by Mr. Justice McKenna speaking for the majority of the Supreme Court, \u201cThe question in this case is whether a deed to land and situate in Nebraska, made by a commissioner under the decree of a court of the state of Washington in an action for divorce, must be recognized in Nebraska under the due faith and credit clause of the Constitution of the United States.\u201d\nThe state of Washington was the matrimonial domicile of the parties and a court of that state entered a decree of divorce which, among other things, ordered E. W. Fall to convey certain lands in the state of Nebraska to Sarah S. Fall. The decree also provided that in the event Fall failed to execute a deed, then a conveyance to Mrs. Fall should be executed by a commissioner appointed by the court. Fall did not execute a conveyance and as a consequence Mrs. Fall received a deed from the commissioner. Elizabeth Eastin claimed under a deed executed by E. W. Fall after the entry of the divorce decree.\nThe holding of the Supreme Court of the United States was that the commissioner\u2019s deed, having been executed by an arm of the Washington court, was in legal effect a part of that court\u2019s decree and that as a court in one state could not by decree divest title in lands situated in another state, the claim of Elizabeth Eastin should prevail.\nIn the majority opinion, Mr. Justice McKenna said:\n\u201c[T]he doctrine that the court, not having jurisdiction of the res, cannot affect it by its decree, nor by a deed made by a master in accordance with the decree, is firmly established * * * [I]t rests, as we have said, on the well-recognized principle that when the subject-matter of a suit in a court of equity is within another State or country, but the parties within the jurisdiction of the court, the suit may be maintained and remedies granted which may directly affect and operate upon the person of the defendant and not upon the subject-matter, although the subject-matter is referred to in the decree, and the defendant is ordered to do or refrain from certain acts toward it, and it is thus ultimately but indirectly affected by the relief granted. In such case the decree is not of itself legal title, nor does it transfer the legal title. It must be executed by the party, and obedience is compelled by proceedings in the nature of contempt, attachment or sequestration. On the other hand, where the suit is strictly local, the subject-matter is specific property, and the relief when granted is such that it must act directly upon the subject-matter, and not upon the person of the defendant, the jurisdiction must be exercised in the State where the subject-matter is situated. 3 Pomeroy\u2019s Equity, \u00a7\u00a7 1317, 1318, and notes.\u201d\nFall v. Eastin did not and, because of a lack of necessary parties, could not be construed as an effort to enforce the personal obligation of E. W. Fall to execute a conveyance. It is stated in the majority opinion that, \u201cNo personal service was had upon E. W. Fall and he did not appear.\u201d This point is made clear by the concurring opinion of Mr. Justice Holmes wherein he points out that:\n\" [T]he Nebraska court carefully avoids saying the decree would not be binding between the original parties had the husband been before the court. The ground on which it goes is that to allow the judgment to affect the conscience of the purchasers [in this case, Elizabeth Eastin] would be giving it an effect in rem.\u201d\nRegardless of the view one may take of the soundness of various pronouncements contained in Fall v. Eastin, its actual holding is not contrary to the basis upon which this case should be decided, namely, that the Oklahoma decree established an obligation binding James Dorsey McElreath to convey the Texas property to the petitioner similar to that arising from a contract to convey which may be protected and enforced by judicial proceedings in Texas. In so doing, no in rem effect is given to the Oklahoma decree. It does not pass title. It is the action of the Texas court in giving effect to the findings of fact supporting the Oklahoma decree which effects a transfer of title. Bailey v. Tully, 242 Wis. 226, 7 N.W. 2d 837, 145 A.L.R. 578.\nAs heretofore pointed out we approach this case from the standpoint of comity rather than from the standpoint of the closely related subject of \u201cfull faith and credit.\u201d\nIt seems settled that the situs state is not required to give full faith and credit to the judgment of a sister state which purports to act in rem and would directly affect the title to land in the situs state. When, however, as in this case, it is contended that the enforcement of an in personam decree of a sister state would be contrary to the public policy of the situs state, the path to be followed is not so clear. In some cases of conflict of public policies, the state policy may be forced to give way. Fauntleroy v. Lum, 210 U.S. 320, 28 S. Ct. 641, 52 L. ed. 1030. It is pecularly the function of the Supreme Court of the United States to decide these delicate questions of policy conflict. Comity, in the absence of a controlling decision by the United States Supreme Court under the \u201cfull faith and credit\u201d clause, seems the preferable basis for a state court decision. In that way there is no danger of restricting the scope of state public policy by a prediction of what the United States Supreme Court may hold in any given situation. Our holding therefore is that as a matter of comity we will enforce the equitable decrees of a sister state affecting Texas land so long as such enforcement does not contravene an established public policy in this State. As a corollary to this holding and as applicable to this case, we hold that the enforcement of an equitable decree entered by a sister state in a divorce case between nonresidents of the State of Texas who possess no peculiar property rights growing out of Texas marital laws, does not violate the public policy of this State. Other factual situations are not before us and hence are not decided.\nDespite the inferential warning contained in Professor Prosser\u2019s hyperbole that lawyers and judges should not pretend to an understanding of the learned writings of law professors in the field of conflicts of law, we are nevertheless bold to say that the following articles from the law reviews support our holdings in principle: Barbour, The Extra-territorial Effect of the Equitable Decree, (1919) 17 Mich. Law Review 527; Loren-zen, Application of Full Faith and Credit Clause to Equitable Decrees for the Conveyance of Foreign Land, (1925) 34 Yale Law Journal 591; Goodrich, Enforcement of a Foreign Equitable Decree, (1920) 5 Iowa L. Bull. 230, and Currie, Full-Faith and Credit to Foreign Land Decrees, (1954) 21 U. of Chicago Law Review 620. See also, Russell, Note on Titles, Effect of Adjudications by Sister States, Conflict of Laws, Foreign Decrees, Stay of Proceedings (1951) 3 Baylor Law Review 441.\nThe judgments of the courts below are reversed and the cause remanded to the trial court with directions to render judgment for the petitioner in accordance with this opinion and the stipulation of the parties, particularly Paragraph 6 thereof which provides for a full disclosure to the petitioner of all properties constituting the Estate of A. R. McElreath, deceased, as of February 20, 1958, and for such accounting as may be necessary and proper. 49 Am. Jur. 198, Specific Performance \u00a7J74.\nNo complaint is made of the holding of the trial judge in regard to personal property situated in Texas.\nSee, Currie, Full Faith and Credit to Foreign Land Decrees, 21 U. of Chicago Law Review 620, l.c. 640.\n\u201cThe realm of the conflict of laws is a dismal swamp, filled with quaking quagmires, and inhabited by learned but eccentric professors, who theorize about mysterious matters in a strange and incomprehensible jargon. The ordinary court, or lawyer, is quite lost when engulfed and entangled in it.\u201d William L. Prosser in Interstate Publications, part of the Cook lectures at the University of Michigan. See 11 Baylor Law Review 202.",
+        "type": "majority",
+        "author": "MR. JUSTICE NORVELL"
+      },
+      {
+        "text": "MR. JUSTICE GRIFFIN,\njoined by MR. CHIEF JUSTICE CALVERT, dissenting.\nThis is the first case in the history of American jurisprudence in which a court of the situs state has recognized the judgment of a sister state adjudging title to land on the ground of comity, where, without question, that judgment violates the plain and unambiguous provisions of the statute of the situs state.\nI cannot agree to the disposition of this case for the following reasons:\n1. The majority, in holding that the Oklahoma judgment is a decree in personam rather than a decree in rem, is directly contrary to the plain wording of the judgment and to the construction placed on the judgment by the parties themselves.\n2. The Oklahoma judgment which the majority opinion enforces is void and may be collaterally attacked under the decisions of the Oklahoma Supreme Court. Thus the argument that the effect of the decree can be changed by the defendant\u2019s crossing the state line is without force.\n3. The majority opinion would have our trial courts pass title to realty of one spouse to the other spouse, which power is prohibited to our courts in Texas in divorce matters by legislative enactment; to wit, Art. 4638, E. C. S. 1925. This necessarily has the effect of permitting the other 49 states to decree a division of Texas land, while Texas courts are expressly prohibited from doing so. Thus we have one rule of law for Texas citizens who own land in Texas and another, more favorable rule, for nonresidents who may own Texas land. This is the rankest kind of discrimination of our own citizens.\n4. The judgment of the Oklahoma court is not entitled to recognition under the doctrine of comity because it violates the public policy of Texas as established by legislative enactment.\n5. The Oklahoma judgment is not res judicata as to the interest petitioner has in the Texas real estate.\n6. The majority decision will create interminable confusion and uncertainty as to land.titles and particularly as to land titles in divorce suits, and, as a matter of policy, the decision of the majority should not prevail.\nThe majority assumes that the Oklahoma judgment is a two-part, divisible judgment; that the first part is an in rem judgment which is void and may not be enforced because the court had no jurisdiction to enter it, but that the second part is an in personam judgment which the court did have jurisdiction to enter, is valid, and may be enforced by the courts of this state. If that concept of the Oklahoma judgment is unsound, the entire opinion of the majority, however logical and appealing it may be, must fall. I submit that the judgment is not a divisible judgment and that the entire judgment should be held void once it is admitted, as it must be, that the court had no jurisdiction to award title to the husband\u2019s separate Texas real property to the wife.\nEvelyn Ann McElreath owned neither the title nor a legal or an equitable right to title to her husband\u2019s separate property in Texas prior to the entry of the judgment in the Oklahoma divorce proceeding. The Oklahoma statute upon which the judgment is based did not give Mrs. McElreath the title or a legal or an equitable right to title to the property. The statute did confer upon the court the discretionary power, when the divorce was granted by reason of the fault of the husband, to award the husband\u2019s separate property to Mrs. McElreath as alimony. But unless and until the court adjudicated the right of Mrs. McElreath to alimony and determined the form which the alimony should take, the court had no power or jurisdiction to direct the husband to convey an interest in his separate Texas real estate to Mrs. McElreath. The direction to execute a conveyance does not, and cannot, stand alone. Mrs. McElreath\u2019s \u201cequitable rights in the property\u201d which the majority would enforce came into being in, and had no existence outside of, that portion of the judgment which \u201cawarded\u201d to Mrs. McElreath as alimony \u201can undivided one-third interest in and to the interest owned by the defendant in the Estate of A. R. McElreath, Sr., deceased\u201d, an award which the majority concede the court had no jurisdiction to make.\nIt is obvious that the direction to convey contained in the judgment is not the portion of the judgment which undertakes to create rights in or to the property in Mrs. McElreath. The direction to convey is but the mechanics selected by the court for enforcing rights created by the first part of the judgment awarding title. It occupies the same place in the judgment, and serves the same purpose, as would a direction, \u201cfor which she shall have a writ of possession\u201d. If that had been the direction\u2014 the mechanics of enforcement \u2014 and Mrs. McElreath had brought to Texas a writ of possession, would the courts of this state enforce the writ and put her in possession? I think not. And if the mere direction to convey creates rights in the husband\u2019s separate Texas real property, why this suit to establish title to the property? Why not enforce the obligation to convey by a contempt proceeding?\nWhat has been said demonstrates, I think, the distinction between this case and those in which the courts of a state of the situs of land will recognize and enforce a judgment of a sister state ordering specific performance of a contract to convey. In those cases the right to the conveyance is not grounded in or created by a judgment which purports to adjudicate title to real property over which the court has no jurisdiction; rather, the right to the conveyance is grounded in and created by a contract of the parties which the court having the parties properly before it has jurisdiction to interpret and order performed.\nI cannot agree that the Oklahoma judgment is strictly a judgment in personam, as the majority have held. Let us examine the copy of the Oklahoma judgment which is attached to the stipulation of the parties in this trial and which all parties concede is a true and correct copy. As to the Texas properties, both real and personal, the court says, \u201cit is further ordered, adjudged and decreed by the court that the plaintiff have and she is hereby awarded as alimony an undivided one-third interest in and to the interest owned by the defendant in the Estate of A. R. McElreath, Sr., deceased, either distributed, or in the process of probate, and said defendant is hereby ordered and directed to execute good and proper conveyance of such interest in said property to plaintiff herein within sixty (60) days from the date hereof.\u201d (Emphasis added.)\nWhen we examine the petition on which petitioner went to trial in the case at bar, we find that the cause of action stated therein is for the recovery of an undivided one-third interest in the A. R. McElreath, Sr. estate in Texas, and joins in the suit Arthur R. McElreath, Jr., Independent Executor and Fay V. McElreath, Independent Executrix of the Estate of A. R. Mc-Elreath, Sr., as well as James Dorsey McElreath, her former husband. After setting out the formal allegations as to parties, their residence, etc., etc., plaintiff sets out the paragraph from the judgment of the Oklahoma court in which she is awarded as alimony the interest in the A. R. McElreath Estate. She then states, \u201cthe aforesaid judgment [of divorce and property division] of the District Court of Tulsa County, Oklahoma, is entitled to full faith and credit in the courts of Texas, and its findings and decree are res judicata of the right of Evelyn Ann McElreath to an undivided one-third interest in the moneys and properties devised and bequeathed to James Dorsey McElreath, and she is entitled to recover herein of and from defendants an undivided one-third interest in such interest of James Dorsey McElreath in said Estate of A. R. McElreath, Deceased.\u201d\nShe further alleges that under the terms of the judgment and decree of divorce, defendant, James Dorsey McElreath, was ordered to convey the one-third interest; that he wholly failed and refused to comply with the decree, but \u201cequity regarding as done what ought to have been done, equitable title to such property passed to and vested in plaintiff, * * * and she is entitled to recover * * * one-third of the income accruing or paid to James Dorsey McElreath from the properties in Texas constituting the Estate of A. R. McElreath, Deceased.\u201d How could, should or would she be entitled to the income from such interest unless it did vest title in her to Texas properties? She pleads no other justification for seeking to recover the income on her claimed interest. If the majority\u2019s thesis is sound \u2014 that it is only the decree of the Texas court that vests title in plaintiff, then clearly she has no interest in the Texas realty until final judgment of the Texas courts, and, therefore, could recover no income. If the Oklahoma court\u2019s judgment acted only in personam plaintiff has no right to income. If the Oklahoma judgment vested a title to Texas real estate in her, the same is void under all the authorities, and under the majority opinion, as being rendered without jurisdiction of the Oklahoma court to decree an interest in Texas lands.\nNow let us examine plaintiff\u2019s prayer in the trial court. \u201cWherefore, plaintiff prays that on trial hereof plaintiff recover of and from the defendants an undivided one-third interest in and to the interest of James Dorsey McElreath in the real and personal property located in the State of Texas constituting the Estate of A. R. McElreath in the State of Texas * * *; and further that plaintiff recover judgment against the defendant, James Dorsey McElreath, for one-third of all incomes received by him from the Estate of A. R. McElreath, Deceased, since February 8, 1956 [the day after the Oklahoma judgment was entered] and that she recover judgment against the defendants in their capacities as Independent Executor and Executrix, respectively, of the Estate of A. R. McElreath, Deceased, for one-third of all income accruing from the interest of James Dorsey McElreath in said estate and not yet paid to him,\u201d and for cost and general relief at law and in equity to which she may show herself entitled. The language of that prayer seeks more than the mere enforcement of a personal obligation against the conscience of James Dorsey McElreath. To me it plainly is a suit to recover an interest in Texas real estate by virtue of having been \u201cawarded\u201d such interest by the Oklahoma judgment.\nBeing a judgment in rem, the Oklahoma judgment is clearly not entitled to full faith and credit. \u201cA divorce court does not have jurisdiction to enter a decree in rem which will directly affect the legal title to real estate situated in another state, even though it has jurisdiction in personam over the defendant, and if the person who is ordered to execute the deed does not do so the courts of the state in which the .land is situated are not bound to give full faith and credit to a decree concerning the title or the right to it.\u201d (Emphasis added). 17A Am. Jur. 172, \u00a7991 and 17 Am. Jur. 733, \u00a7669. See also Restatement of the Law. Conflict of Laws, p. 332, \u00a7248(2) and p. 333, \u00a7248d; annotations, 145 A.L.R. 583-584.\nI should like to point out that the articles by Professor Currie and Professor Barbour, upon which the majority relies, are based on the full faith and credit clause and not on comity.\nA second point is that the judgment sued on in the present suit is a void judgment under Oklahoma authorities. Despite the statement of the majority that this judgment is a valid one because it was affirmed on appeal by the Oklahoma Supreme Court, I do not agree because there was no attack made in that court upon the court\u2019s judgment awarding plaintiff an interest in defendant\u2019s separate real estate. The cases I now discuss hold contrary to the majority opinion. The case of Sharp v. Sharp, 65 Okla. 76, 166 P. 175, L.R.A. 1917F 562, was an action in Oklahoma for the title to Oklahoma land brought by Landis Sharp as plaintiff against his former wife, Jennie Sharp, as defendant. Plaintiff claimed title to the lot under a deed, but, in addition, claimed under a divorce decree of the State of Oregon in which plaintiff and defendant were residents when they were divorced. The Supreme Court of Oklahoma, after an examination of the language of the judgment, concluded that the Oregon decree had the effect of establishing title in plaintiff to the Oklahoma lot, and thus it was beyond the jurisdiction of the Oregon court, and was therefore void. The court approved the reasoning in Fall v. Eastin, 215 U.S. 1, 54 L. Ed. 65, 23 L.R.A. (N.S.) 924, 30 Sup. Ct. Rep. 3, 17 Ann. Cas. 853; Proctor v. Proctor, 215 Ill. 275, 74 N.E. 145, 69 L.R.A. 673; Burton-Lingo Co. v. Patton, 15 N. M. 304; 107 Pac 679, 27 L.R.A. (N.S.) 420; Hart v. Sansom, 110 U.S. 151, 28 L. Ed. 101; 3 Sup. Ct. 586; Carpenter v. Strange, 141 U.S. 87, 11 Sup. Ct. Rep. 960, 35 L. Ed. 640. It reversed and remanded the cause to the trial court.\nWest v. West, Okla., 268 P. 2d 250 (1954) is a divorce and property division case, decided by the Oklahoma Supreme Court. Opal West, as plaintiff, sued I. J. West for divorce, custody of the children, child support and division of their properties. The trial court granted plaintiff her divorce, disposed of the child custody and support phase of the case, and divided all of the property including the defendant\u2019s interest in the Texas land. Regarding the Texas lands, the court said that a divorce decree in one state cannot operate directly to pass title to lands in another state, nor is it res judicata as to the rights of the parties in the court of such other state, citing Sharp v. Sharp, 65 Okla. 76, 166 P. 175, L.R.A. 1917F 562.\nIn California (from which state the majority opinion cites Simmons v. Superior Court, 96 Cal. App. 2d 119, 214 P. 2d 844, 19 A.L.R. 2d 288) and Oklahoma judgment in a divorce case dividing California lands equally between the parties was held void and subject to collateral attack. Barber v. Barber, 51 Cal. 2d 244, 331 P. 2d 628. The court refused to give binding effect to the part of the Oklahoma decree concerning realty. That case applies what I consider to be the correct rule of law. It is a rule that will give nonresidents and residents of Texas the same rights by enforcing the law of situs of real estate. It will not refuse rights to citizens of Texas and at the same time recognize these rights in nonresidents.\nThe majority recognizes that the judgment cannot be enforced under the full faith and credit clause of the Constitution of the United States, but seeks to enforce the decree under the doctrine of comity. I say the Oklahoma decree is not enforceable under the doctrine of comity, or, at least, it should not be enforced under \u201ccomity\u201d because to enforce this decree is against the public policy of the State of Texas as clearly expressed by the Legislature when it passed Art. 4638, R.C.S., and as the same has been construed by the courts. The majority says Art. 4638 is not a rule of property, but merely a divorce statute. It seems to me that when the Legislature has specifically prohibited the courts from divesting title in real property, such prohibition is a rule of property; i.e., it governs title to separate estates.\nThe majority seems to urge that having given effect to the Oklahoma decree regarding personal property, it would be incongrous to deny effect to the decree regarding real property. To my mind, this distinction illustrates the real, true power of the Oklahoma court. It is too elementary to require citation of authorities that the situs of personal property is in or with the owner thereof. Therefore, whatever court has jurisdiction of his person also has jurisdiction of his personal property and by its decrees against the person it also decrees against the personal property. This very fundamental rule of law explains why a money judgment against a party is entitled to be enforced under the full faith and credit clause of the Constitution of the United States, and a decree creating, changing, or otherwise affecting real property has no such protection.\nThe above rule also clearly explains why a deed or other instrument executed by an owner in obedience to a court decree affecting title to lands in a state other than the forum state is recognized and given effect in the situs state. The jurisdiction over the person gives jurisdiction to require the person to act. When a person acts under court order there is no duress. The deed or other instrument transferring title is the act of the owner of the title, not the act of the court. The rights created by such instruments are rights created by the owner of the title, and therefore are and should be recognized by all courts. \u201c* * * But comity is not permitted to operate within a State in opposition to its settled policy as expressed in its statutes, or so as to override the express provisions of its legislative enactments. Applewhite Co. v. Etheridge, 210 N.C. 433,187 S.E. 588; Ritchey v. Southern Gem Coal Corp., D C 12 F 2d 605. * * *\u201d Universal C. I. T. Credit Corporation v. Walters, 230 N. C. 443, 53 S. E. 2d 520, 10 A. L. R. 2d 758 (5). And further, (11 Am. Jur. 300-301, \u00a76) \u201cin recognition and enforcement of foreign laws the courts are slow to overrule the positive law of the forum, and they will never give effect to a foreign law where to do so would prejudice the state\u2019s own rights or the rights of its citizens or where the enforcement of the foreign law would contravene the positive policy of the law of the forum, whether or not that policy is reflected in statutory enactment.\u201d\nIn the case of State of California v. Copus, 158 Tex. 196, 309 S.W. 2d 227 (1958), this court recognized that a right of action accruing under the laws of another state, will not be enforced in this state if for some good reason the enforcement of it would be prejudicial to the general interests of its citizens. This court said that since Texas had statutes of similar import, we would enforce the California statute as to Copus\u2019 liability for support for his mother only for so long as Copus was a resident citizen of California subject to the statute of limitations contained in the act.\nThe general rule with regard to the enforcement of a judgment of one state in another is stated in 30A Am. Jur. 331, \u00a7226, as follows: \u201cThus, it is a general rule of law that the res must be within the state or country of the court pronouncing a judgment against it, that the courts of one state or country may not render a judgment binding or operating directly upon property situated in another state or country, and that in\" so far as they attempt to do so, the judgments so rendered are void\u201d, citing cases from the United States Supreme Court, among which is Fall v. Eastin, supra; and cases from Alabama, Arizona, California, Connecticut, Idaho, Iowa, Kentucky, Maine, Missouri, North Carolina, Oklahoma, Oregon, Tennessee, Texas, Utah, Virginia and Wisconsin.\nThis Court, as late as 1953, in the case of Toledo Soc. for Crippled Children v. Hickok, 152 Tex. 578, 261 S.W. 2d 692, 43 A.L. 553, refused to give effect to a judgment of the Supreme Court of Ohio construing the will of a resident of Ohio that devised real property in Texas. This court followed the United States Supreme Court case of Clarke v. Clarke, 178 U.S. 186, 20 S. Ct. 873, 44 L. Ed. 1028, and held the Ohio judgment not protected by the full faith and credit clause. Thus we disposed of the cause under the rule of \u201ccomity\u201d, but did not recognize or apply the judgment of Ohio because it was contrary to our rule of decision as applied to Texas lands.\nIn our case, Art. 4638, R. C. S., 1925, expresses the public policy of this State, and such statute absolutely prohibits our Texas courts \u201cto compel either party to divest himself or herself of the title to real estate.\u201d The recent case of Hailey v. Hailey, 160 Tex. 372, 331 S.W. 2d 299, (1960) construed the quoted portion of Art. 4638 as prohibiting a divorce court from divesting the title to separate property out of either spouse. Public policy is a bar to comity, but not to the full faith and credit clause. Surely we are not going to hold that the Oklahoma courts can do what the Texas courts are prohibited from doing. Neither should we hold that by the subterfuge of a personal judgment the courts of Oklahoma can \u201ccompel either party to divest himself or herself of the title to [separate] real estate.\u201d I cannot bring myself to penalize and discriminate against Texas citizens by such so called legal legerdemain.\nI now attack the holding of the majority that the Oklahoma judgment herein is binding on the parties in this case under the doctrine of res judicata. Texas has not extended the doctrine of res judicata to foreign judgments in cases such as we have at hand. Petitioners cite the case of Milner v. Schaefer, 1948, Tex. Civ. App., 211 S.W. 2d 600, wr. ref., as authority for allowing a recovery herein. With this I do not agree. The Milner case was one decided under the full faith and credit clause of the Constitution of the United States. It was entitled to recognition and to be treated as res judicata by virtue of the fact that Milner had originated the suit in Colorado in which the judgment was rendered; and further, the court specifically held that the settlement agreement was a contract between Milner on the one hand and Schaefer and Lewis on the other for a settlement of the prior partnership affairs, whereby Lewis and Schaefer were to receive the Texas lands belonging to the partnership. The court recognized the rule stated in Massie v. Watts, 6 Cranch 148, 3 L. Ed. 181, that the full faith and credit clause under the Constitution of the United States must be accorded \u201cin a case of fraud, of trust, or of contract,\u201d even though land not within the jurisdiction of the court rendering the decree may be affected. The quotation from the case of Hall v. Jones, Tex. Civ. App., 54 S.W. 2d 835, no writ history (although the opinion in the Milner case erroneously stated that the writ was refused) conclusively shows the court was relying on the two propositions above stated. I would point out that in the Milner case there was no statute of this state which would prevent our courts from rendering the same decree in favor of Texas citizens. In our case at bar, there is such statute; namely, Art. 4638, R. C. S., 1925. This discussion is also applicable to show that the case of Hall v. Jones, supra, relied upon by petitioner, is not in point here and therefore not applicable nor controlling.\nThe majority opinion also argues that the judgment of the Oklahoma court should be given res judicata effect by a Texas court. In addition to the objections already raised in this opinion, there is a further reason why, in this case, the Oklahoma decision cannot be res judicata. It is settled law that res judicata applies only to a later suit between the same parties or their privies. 30A Am. Jur. \u00a7 397, 50 C.J.S. \u00a7 763. In the Oklahoma case \u2014 a divorce action \u2014 the only parties were Evelyn Ann Mc-Elreath and James Dorsey McElreath. In the instant suit here in Texas, the executors and administrators of the Estate of A. R. McEIreath, Deceased, are also parties. The plaintiff is asking a judgment against them, as well as against her former hus1band. Clearly the Oklahoma suit could not be res judicata as to them, since they were not parties to that suit and are not in privity with any such party.\nThe doctrine of res judiciata permits no inquiry as to the correctness or irregularity of the judgment. Under this doctrine a judgment may be attacked only if it is void, or was procured through fraud. \u201cNo principle of res judicata is more fundamental than that the conclusiveness of a judgment is not vitiated by errors committed by the rendering court.\u201d Milliken v. Meyer, 311 U. S. 457; Fauntleroy v. Lum, 210 U. S. 230, 28 Sup. Ct. 641, 52 L. Ed 1039. \u201cThe policy on which the doctrine of res judicata rests precludes an inquiry into the merits of the issues determined by the court [or the forum].\u201d 34 Yale Law Journal 609. This is a well recognized and well accepted legal principle. That being true the case of Greer v. Greer, 144 Tex. 528, 191 S.W. 2d 848 (1946), most certainly does not recognize nor stand for the premise that this court recognizes res judicata as applicable to foreign judgments. In the Greer case Mrs. Greer sued Mr. Greer in a proper district court of Oklahoma for divorce and adjudication of title to lands involved in the Texas trespass to try title suit before this court. In the Oklahoma divorce cause, the divorce was granted and the Texas land adjudged to be her separate property. The husband appealed and the Oklahoma Supreme Court affirmed the trial court\u2019s judgment. Thereafter the husband filed the trespass to try title suit in the district court of Wood County, Texas, against the wife to recover an undivided one-half interest in the identical Texas land which the Oklahoma Supreme Court had adjudged was the wife\u2019s separate property. The wife answered and pleaded the Oklahoma judgment as res judicata of the issues in the suit. The trial court sustained this plea. The Court of Civil Appeals affirmed on the same theory advanced by the majority opinion herein. This court granted a writ of error on that identical point, but disposed of the case on another ground. This court failed to give the Oklahoma judgment the benefit of the doctrine of res judicata. This court examined the Oklahoma judgment, applied the Texas rules of law and decisions to that judgment- \u2014 not the Oklahoma rules \u2014 and held the description of the land insufficient and reversed and remanded the cause to the district court. This court recognized that the Oklahoma court had jurisdiction of the parties. Its reason was that according to Texas \u2014 not Oklahoma authorities \u2014 the description of the land was insufficient. In other words, this Court applied the law of the situs of the land to the Oklahoma judgment and found that judgment void in accordance with the Texas rules of law. It paid no attention to the plea of res judicata by the plaintiff-wife, or the holdings on res judicata by both lower courts. This court examined the judgment of the Oklahoma court to determine if it was erroneous under our own law. This same rule should be followed in our present case. The Oklahoma judgment shows on its face that the Oklahoma court seeks to divest title to defendant\u2019s separate real estate and vest title to one-third thereof in plaintiff. Applying the Texas law and decisions to that judgment it demonstrates that the Oklahoma judgment is void and of no force and effect so far as Texas land is concerned. Texas thus far has never recognized the res judicata doctrine in a case like this, and never should do so unless the Legislature materially changes our statutes.\nThe majority opinion relies most heavily on Professor Currie\u2019s article (21 Univ. of Chicago Law Rev. 620), and only six cases out of the whole jurisprudence of the United States are relied on for its support. I shall now discuss those cases. The first case is Burnley v. Stevenson, 24 Ohio St. 474, 15 Am. Rep. 621. A sufficient answer to that case is that the Supreme Court of the United States \u2014 final arbiter of the full faith and credit clause of the Constitution of the United States \u2014 refused to be bound by the reasoning in the Burnley case, and repudiated it. Substantiating this holding are Fall v. Eastin, 215 U. S. 1, 30 S. Ct. 3, 54 L. Ed. 65, 23 L.R.A., N.S., 924, and many other cases in the United States Supreme Court following or recognizing Fall v. Eastin. Further, the Ohio court bases its decision on Massie v. Watts, 6 Cranch 148, 3 L. Ed. 181, Decisions of the Supreme Court, U. S., Curtis, Vol. 2, p. 345. The Ohio court says, \u201cit appears from the record before us * * * that the subject matter of the bill on which the decree was rendered, [in the Kentucky court] was the enforcement of a trust and the specific performance of a contract to convey lands situate in the state of Ohio.\u201d (Emphasis mine.) It then states the well recognized rule that in such cases chancery courts of one state have jurisdiction to enforce a trust, and to compel the specific performance of a contract in relation to land situate in another state, after having obtained jurisdiction of the persons of those upon whom the obligation rests. In our case Massie v. Watts does not apply, as the cause of action in Oklahoma is not embraced in the classes enumerated in Massie v. Watts.\nMatson v. Matson, 186 Iowa 607, 173 N.W. 127, according to Professor Beale, was not a case where suit was brought to enforce the judgment of the State of Washington in Iowa, but a suit to set aside a conveyance of the land by the husband to a volunteer, on the ground that it was fraudulent with respect to his creditor; namely, his wife. In addition, I would point out that the Iowa court found that the statutes of Iowa and Washington regarding division of property on granting of a divorce were similar and that the husband committed a fraud on the Washington courts, and, therefore, the Iowa courts would carry out the personam provisions of the Washington judgment.\nIn the case of Mallette v. Scheerer, 164 Wis. 415, 160 N. W. 182, the Supreme Court of Wisconsin held that the laws of Illinois \u2014 where a foreign judgment had been rendered \u2014 and of Wisconsin were similar with respect to the division and disposition of real property on granting of a divorce. The Wisconsin court enforced the Illinois judgment under the full faith and credit clause of the Constitution of the United States because, Professor Beale says, the cause of action was brought upon a similar statute of Wisconsin, so the Wisconin judgment was upheld.\nBailey v. Tully, 242 Wisc. 226, 7 N. W. 2d 837, 145 A. L. R. 578, was a suit in a Wisconsin court against Tully and the administrator of the estate of Maude H. Downey for the purpose of declaring certain Wisconsin land a part of the estate of Maude H. Downey. Tully answered claiming title to the land under and by virtue of a certain deed from Maude H. Downey, et al. during her lifetime conveying the land to him. A California judgment was rendered in an action in that state against Bailey, et al. to cancel and annual two deeds given by Tully, et ux to Maude H. Downey, subsequent to her deed to Tully. Here we have another suit on a contract and for cancellation of a deed. This action also falls within the decision in Massie v. Watts, and as is demonstrated by our Texas case of Hall v. Jones, 1932, Tex. Civ. App., 54 S.W. 2d 835, no writ history. Tully v. Bailey is not in point, nor does it support the majority opinion on the facts of our case.\nThe case of Weesner v. Weesner, 168 Neb. 346, 95 N. W. 2d 682, not only does not support the majority view, but supports my view that the foreign decree should not be given effect, when to do so would be contrary to the statutes and therefore to the public policy of the state of the situs of the land. After discussing Fall v. Fall, 75 Neb. 120, 113 N. W. 175, which was affirmed by the U.S. Supreme Court as Fall v. Eastin, 215 U.S. 1, 30 S. Ct. 3, 54 L. Ed. 65, 23 L.R.A., N.S., 924, the court holds that a foreign judgment which adjudges title to land in another state will be given effect only \u201c* * * if the related public policy of the situs state is in substantial accord with that of the other state.\u201d\nSimmons v. Superior Court, 96 Cal. App. 2d 119, 214 P. 2d 844, 19 A.L.R. 288, does not involve the enforcement or effect to be given to a foreign judgment dividing property in a divorce case. It only involves an action by a wife who had filed a divorce suit in Harris County, Texas, to stay proceedings in a divorce suit filed later by the husband in the Superior Court of California. The California suit had been removed to Federal Court and by it remanded to the California Superior Court, with a specific finding that both husband and wife were residents of Texas. The wife\u2019s action for a stay was based on a prior suit between the same parties involving the same subject matter. This was sustained by the California appellate court. There was no real estate involved in the California action \u2014 only personal property, to wit, stocks and bonds. The court points out that since it has been judicially determined that both parties are residents of the State of Texas; that since the Texas court first acquired jurisdiction of the parties and the subject matter in controversy (the stocks and bonds); and that the Texas courts have the power, under the Texas law, to decree a division of personal property, both separate and community, the action in the California court should therefore be stayed.\nWe have heretofore cited Barber v. Barber, 51 Calif. 2d 244, 331 P. 2d 628, which refused to recognize an Oklahoma divorce decree similar to the one in our case. This indicates that California does not support the majority opinion.\nThere are no recognized texts which support the majority opinion. Professor Beale, The Conflict of Laws, 1935, Vol. 2, p. 1412, \u00a7445. 1 states \u201ca valid judgment of a foreign country will not be enforced if an action on the original claim could not have been maintained because contrary to the public policy of the forum.\u201d After discussing res judicata and citing Burnley v. Stevenson, supra, and two other cases, he proceeds \u201cin many states upon a divorce the property of the spouses is ordered to be divided, including the land. If in such a case a state decrees the division or the conveyance of land in another state, its judgment is a nullity in the other state.\u201d\nProfessor Walsh, Equity, 130, \u00a7 17, says that decrees may be enforced by action in equity in any other state in which personal jurisdiction over the defendant is secured provided the decree does not dispose of property in the state in which the later action is brought on principles differing from the law of that state; and concludes that the conflict in the cases are all reconciled by the principle of comity; \u201ca state need not respect the foreign decree, but will do so, whether it is based on antecedent consensual obligations or not, when, and only when, the law involved is the same in both states\u2022\u201d (Emphasis added.)\nDean Pound, The Progress of the. Law-Equity (1920) , 33 Harv. Law Rev. 420, 423-425, states that finally, if foreign courts are allowed to create duties to convey land, when such duties are generally recognized as giving rise to equitable ownership as against everyone except purchasers for value without notice, \u201cthe result is to allow one state through its courts to create real rights in land in another state \u2014 and if it may do so by its courts, why not through its legislature?\u201d\nProfessor Stumberg, Conflict of Laws, 2d Ed., p. 128, says \u201cthe most serious objection to a doctrine of compulsory full faith and credit to foreign equitable decrees is believed to be that a court might thus be compelled to order an act through the use of chancery process in a manner contrary to its local policy. Where, for example, the subject matter is land, it would be compelled to make dispositions of realty which might conflict with the policy of its local law. * * *\u201d And further, Restatement of the Law: Confict of Laws, p. 530, \u00a7 449, (1) and (2):\n\u201c(1) A valid foreign judgment that the defendant do or refrain from doing an act other than the payment of money will not be enforced by an action on the judgment.\n\u201c (2) In an action on the original claim, the effect of res judicata will be given to findings of fact in a prior suit between the parties in which a valid judgment was rendered requiring the defendant to do or refrain from doing an act other than the payment of money.\u201d\nIn the case at bar there could be no suit on the original claim of Mrs. McElreath for an interest in Mr. McElreath\u2019s separate estate because of the prohibition of Art. 4638.\nProfessor Currie recognizes that Professors Cook, Beale, Pound, Walsh and Stumberg disagree with his thesis which is the basis for the majority opinion. Professor Currie also recognizes that Professor Barbour, who, in 1919, originated the theory of the majority opinion would not enforce a foreign decree when \u201cto do so would violate some fundamental policy of the state where the land is situated.\u201d If Professor Currie\u2019s theory is given effect in Texas, as advocated by the majority opinion, there arises the further question of satisfying the recording and registration laws of the situs of the land. Professor Currie, however, recognizes this defect and advocates that Congress pass a law to remedy this. 21 Chicago Law Rev. 664-665. The reasoning of the majority will apply to affect the title to Texas lands owned by nonresidents. In those states having rules of inheritance different from those in Texas, the majority decision will approve decisions of the courts of those states, where all the heirs may live, awarding the full title to Texas lands in direct contravention to our laws of descent and distribution.\nAlso, a Texas couple might have a homestead on Texas lands inherited by the wife from her parents \u2014 her separate property. Under our laws, Texas residents do not lose their place of domicile by living in another state under certain circumstances. Suppose such a couple goes to another state to go to school for two years. They have established a residence in the other state for the purpose of securing a divorce, but they have not lost their homestead rights. The divorce court in the other state grants the divorce, and then, by the same language we have in our instant Oklahoma judgment, awards the homestead to the husband. We will be bound to recognize such judgment by virtue of the majority opinion herein. Such examples can be multiplied many, many times, and I can never agree to such holding.\nIn conclusion, I believe we will have more certainty to land titles and less confusion if Texas continues her present policy of determining the title to Texas lands in accordance with its law and decrees, rather than permitting decrees of the 49 other states to affect titles to Texas lands.\nI would affirm the judgments of both courts below.",
+        "type": "dissent",
+        "author": "MR. JUSTICE GRIFFIN,"
+      },
+      {
+        "text": "MOTION FOR REHEARING\nMR. JUSTICE NORVELL\ndelivered the opinion of the Court.\nRespondent has filed an able motion for rehearing and a supplement thereto, wherein he strongly reurges two propositions, namely, that the decree here involved is actually an in rem decree, and alternatively, that if the decree be considered one in personam, nevertheless the equitable rights supporting the same cannot be enforced in Texas because of local policy considerations.\nIn our original opinion we said that in the event a portion of the Oklahoma decree should be considered unenforceable in Texas, this circumstance would not affect the vitality of the direct and categorical equitable order that respondent execute a conveyance of lands to petitioner. This order and the equities supporting it constitute the basis of petitioner\u2019s claim for relief in Texas. In numerous opinions an in rem judgment rendered by a court of one state purporting to directly affect the title to land in another state is spoken of as being void for want of jurisdiction over the subject matter. In a sense, it could be argued with reason that this Court cannot authoritatively say that an Oklahoma decree which has been affirmed by the Supreme Court of that state is void. We may say, hpwever, that a portion of the decree is inoperative in this state when it purports to act in rem so as to directly affect the title to Texas lands. In determining whether or not a decree of a sister state, or the equities upon which it is based should be enforced in this state, we may also consider matters which go to the jurisdiction of the court of the sister state over the persons involved in the particular suit as well as the res. In this case, the order of the Oklahoma court entered in accordance with the law which controls the marital rights of the parties was an order operating in personam and one which the Oklahoma court had jurisdiction to render. That court also had jurisdiction of the'parties litigant. There is no contention made that this personal jurisdiction was spurious, assimilated or pretended. This is not a case where it is asserted that one of the marital partners wrongfully invoked the jurisdiction of the Oklahoma court by falsely pretending to be a resident of Oklahoma. Oklahoma was the state where those litigants lived; it was their matrimonial domicile; they were Oklahomans and, as pointed out in the original opinion, this jurisdictional status could not be changed by one of them crossing the Red River into Texas after their respective rights had been settled and adjudicated by the Oklahoma courts.\nWe pass next to the second contention which presents the paramount issue in this suit. Do public policy considerations prevent a Texas court from ordering respondent to do what the Oklahoiha court has ordered him to do, namely, convey land in Texas to the petitioner?\nWe reiterate that the enforceability of equitable decrees of sister states relating to Texas lands is hardly an open question in this state. In Milner v. Schaefer, Tex. Civ. App., 211 S.W. 2d 600, it was said:\n\u201c [W] e do not understand that the trial court held that the Colorado court had jurisdiction or authority to adjudicate land titles in Texas. In fact, the Colorado court, by attempting to enforce its decree of January 21, 1944, proceeded strictly in personam in recognition of its lack of jurisdiction or authority to directly adjudicate Texas land titles.\n\u201cHowever, the Colorado decree did have the effect of judicially determining that Milner had made a valid contract with Schaefer and Lewis under the terms of which Schaefer and Lewis were entitled to receive the Texas property belonging to the partnership. Milner had invoked the jurisdiction of the Colorado court. It had jurisdiction of all the parties and its judgment is binding and operative under the rules of res judicata and estoppel by judgment.\u201d\nIn support of this holding the court cited Hall v. Jones, Tex. Civ. App., 54 S.W. 2d 835; Massie v. Watts, 6 Cranch 148, 3 L. ed. 181 and Bailey v. Tully, 242 Wis. 226, 7 N.W. 2d 837, 145 A.L.R. 578 and the annotations following the A.L.R. reports. The Supreme Court refused the application for writ of error in Milner v. Schaefer.\nIt is, however, asserted that the rule of Milner v. Schaefer and the authorities cited therein cannot be applied to this case because the Oklahoma decree was one entered in a divorce case and a decree directing an Oklahoma husband to convey Texas land to an Oklahoma wife would violate the public policy of this state.\nThis contention, if adopted, would put Texas with the minority among the states of the American union. Generally no distinction is made between the equitable decree issuing out of a divorce suit and one based upon a contractual obligation. In the discussion of the subject of \u201cDivorce\u201d it is stated in Corpus Juris Secundum that:\n\u201cIt is well established, nevertheless, that a court of chancery, in a proper case, has power to compel a conveyance of lands situated in another country or state, where the persons of the parties interested are within the jurisdiction of the court. Such a decree in nowise affects the title to the land; it is the conveyance, not the decree, that transfers the title. The decree acts only on the person, and obedience is compelled by proceedings in the nature of contempt, attachment, or sequestration. The court has no power to validate a conveyance of the foreign lands, made by its master or commissioner, in default of the performance of the decree by the party.\n\u201cThe decree is entitled to full faith and credit in the foreign state to the extent that it determines the rights and equities of the parties with respect to land in such state. The foreign decree directing a conveyance is, when not complied with, a sufficient basis for an action in a court of the state where the land is situated, and to which the party not complying with the decree has removed, to compel such conveyance; and in such action the court may render a decree in personam against such party requiring him to make the conveyance.\u201d 27B C.J.S. 886, Divorce \u00a7 383.\nThe adoption of the minority view must be justified if at all on policy considerations, 27B C.J.S. 887, and this is the basis which respondent strongly urges in his motion. A discussion of the applicability and effect of Article 4638, Vernon\u2019s Ann. Tex. Stats, is contained in the original opinion and need not be repeated here. However, in the motion for rehearing it is urged for the first time that certain provisions of the Uniform Reciprocal Enforcement of Support Act, Articles 2328b-l, 2328b-2 and 2328b-3, Vernon\u2019s Ann. Tex. Stats, have a bearing upon the problem before us in that such Act in subsection (6) of Section 2 of Article 2328b-l contains an exception as to alimony for a former wife. This subsection among the definitions contained in the Act defines \u201cDuty of Support\u201d as follows:\n\u201c(6) \u2018Duty of support\u2019 includes any duty of support imposed or imposable by law, or by any court order, decree or judgment, whether interlocutory or final, whether incidental to a proceeding for divorce, judicial (legal) separation, separate maintenance or otherwise; but shall not include alimony for a former wife.\u201d\nLikewise, Section 7 of Article 2328b'-3 contains a similar proviso or exception:\n\u201cSec. 7. Duties of support enforceable under this law are those imposed or imposable under the laws of any state where the alleged obligor was present during the period for which support is sought or where the obligee was present when the failure to support commenced, at the election of the obligee, but shall not include alimony for a former wife.\u201d\nSection 3 of the Act however provides that:\n\u201cThe remedies herein provided are in addition to and not in substitution for any other retoedies.\u201d Article 2328b-l, \u00a73.\nThe petitioner\u2019s claim for relief arose wholly independent of the Uniform Reciprocal Enforcement of Support Act. The enforcement of her demands' by ordering the respondent to execute a conveyance to her is not dependent upon the provisions of the Act. Ex parte Helms, 152 Tex. 480, 259 S.W. 2d 184. Nor is such action prohibited thereby. It does not follow that because the State of Texas will not enforce the payment of alimony to a wife under the Act, that the enforcement of the Oklahoma equitable decree here involved would be against public policy.\n\u201cOrdinarily, the public policy of a state is to be deduced from its constitution, laws, and judicial decisions. However, in considering whether the exercise of the doctrine of comity would be contrary to the public policy of the jurisdiction, the distinction between regulative legislation and the adoption of a principle.of public law must not be lost sight of, the mere fact that a particular act or contract is prohibited by statute in the particular jurisdiction not necessarily requiring the withholding of a remedy on a right arising from an act or contract performed or made in another jurisdiction.\n\u201cIt is usually held that to justify a court in refusing to give effect to or enforce foreign law or rights because it would be against public policy, it must appear that it would be against good morals or natural justice, or for some other reason would be prejudicial to the state or its citizens, the, mere fact that the law of two states or nations differs not necessarily implying that the law of one violates the public policy of the other.\u201d 15 C.J.S. 854, Conflict of Laws, \u00a7 4(b).\nThe support orders contemplated by the Act are seemingly those of a recurring nature which would operate upon residents of Texas, such as the payment of certain sums of money at periodic intervals. See, enforcement provisions, both criminal and civil, Arts. 2328b-2 and 2328b-3. In this case, the obligation of the husband as it comes to the Texas courts is in the form of an enforceable duty which binds a former husband to convey certain property to a former wife. At this late date in the history of Anglo-American jurisprudence it is difficult to support a distinction in principle between the judgment at law of a sister state based upon a husband\u2019s duty to support his wife, Rumpf v. Rumpf, 150 Tex. 475, 242 S.W. 2d 416, and the equitable decree similarly based. Cf. Charlie D. Dye, Enforcement of Foreign Alimony Decrees in Texas: A Survey and Analysis, 38 Texas Law Review 82.\nIt seems that fundamentally the argument on the policy issue stems from the circumstance that the laws governing marital rights in Texas are different from those of Oklahoma. On this basis, it is asserted that no rights under the Oklahoma decree should be afforded protection in this state.\nWe are concerned here with the laws and procedures of another state of the American union and not with a foreign state in the technical sense. In general, the common and statutory law, as well as the legal procedures, of Oklahoma and Texas are similar. There are differences in detail and some of them are of major proportions, but they remain details rather than radical differences in methods or objectives. The marital law of both states is statutory for the most part. While it seems that the Oklahoma law contains certain evidences of the Spanish influence, it is perhaps not inaccurate to say that primarily the Texas statutes are based upon the Spanish law \u2014 while the Oklahoma system is based primarily upon the English common law. Alimony is provided for by the Oklahoma law. In Texas, our courts are not authorized to grant permanent alimony payable at periodic times in the future. This circumstance should, not, however, prevent the recognition of the equities supporting the Oklahoma decree.\nIn Herrick v. Minneapolis & St. Louis Ry. Co., 31 Minn. 11, 16 N.W. 413, the Supreme Court of Minnesota said:\n\u201c[B]ut it by no means follows that because the statute of one state differs from the law of another state, that therefore it would be held contrary to the policy of the laws of the latter state. Every day our courts are enforcing rights under foreign contracts where the lex loci contractus and the lex fori are altogether different, and yet we construe these contracts and enforce rights under them according to their force and effect under the laws of the state where made. To justify a court in refusing to enforce a right of action which accrued under the law of another state, because against the policy of our laws, it must appear that it is against good morals or natural justice, or that for some other such reason the enforcement of it would be prejudicial to the general interests of our own citizens.\u201d\nThe above was quoted with approval by Chief Justice White in Northern Pacific Railway Co. v. Babcock, 154 U. S. 190, 14 S. Ct. 978, 38 L. ed. 958 and by the Supreme Court of Tennessee in Whitlow v. Nashville, Chattanooga & St. Louis R. Co., 114 Tenn. 344, 357, 84 S.W. 618, 68 L.R.A. 503.\nSimilarly, in Loucks v. Standard Oil Co., 224 N. Y. 99, 120 N.E. 198, Judge Cardozo speaking for the New York Court of Appeals said:\n\u201cOur own scheme of legislation may be different. We may even have no legislation on the subject. That is not enough to show that public policy forbids us to enforce the foreign right. A right of action is property. If a foreign statute gives the right, the mere fact that we do not give a like right is no reason for refusing to help the plaintiff in getting what belongs to him. We are not so provincial as to say that every solution of a problem is wrong because we deal with it otherwise at home. Similarity of legislation has indeed this importance; its presence shows beyond question that the foreign statute does not offend the local policy. But its absence does not prove the contrary. It is not to be exalted into an indispensable condition.\u201d\nAs pointed out in the original opinion, if there be any semblance of fairness achieved in settling the property rights of divorcing persons holding property in two or more states, it must be done by a court operating in one jurisdiction. The problem cannot be adequately solved by the piecemeal attempts of several courts in several states.\nThe question of the enforceability of equitable decrees arising out of divorce cases relating to lands in states other than the matrimonial domicile is one of growing importance. It demands some solution which is hardly met by the adoption of a strictly \u201chands off\u201d or \u201cdo nothing\u201d policy on the part of the courts of the states wherein the real property may be located. We are dealing with equity jurisprudence, and in this field, we - should bear in mind the injunction of Mr. Justice Alexander, later Chief Justice of this Court, that:\n\u201cCourts should not allow themselves to become static nor so hedged about with barriers of their own making, as to render themselves incapable of performing the functions for which they were created and are maintained. It was this confession of impotency on the part of the common law courts that brought about the creation of courts of equity to meet practical situations.\u201d Powers v. First National Bank of Corsicana, Texas, Tex. Civ. App., 137 S.W. 2d 839, 1.c. 843, affirmed 138 Tex. 604, 161 S.W. 2d 273.\nWe do not regard the objection to the enforcement of the Oklahoma decree as . being a valid one. Texas courts have ass\u00e9rted their authority to issue equitable in personam decrees re- . lating to property outside the state. Fain v. Fain, Tex. Civ. App., 6 S.W. 2d 403, wr. dis., a divorce case. It seems that there should be no valid objection to the recognition of a like right in the Oklahoma court which had undisputed jurisdiction of the parties. We think the proper approach to the problem is that indicated by the California District Court of Appeals in staying proceedings in the California Superior Court until divorce proceeding affecting the litigating parties could be concluded in Texas. That Court said:\n\u201cUnder the law of Texas the court has the power in an action for divorce to decree a division of the personal property, separate and community, of the parties in such manner as in its discretion it deems just and right. The court has power to determine and decree that specific property is owned by one or the other of the spouses. Jones v. Jones, Tex. Civ. App., 211 S.W. 2d 269; Tims v. Tims, Tex. Civ. App., 201 S.W. 2d 865, 868; McGarraugh v. McGarraugh, Tex. Civ. App., 177 S.W. 2d 296; Dale v. Dale, Tex; Civ. App., 141 S.W. 2d 718; Grissom v. Grissom, Tex. Civ. App., 137 S.W. 2d 227; Scott v. Ft. Worth Nat. Bank, Tex. Civ. App., 125 S.W. 2d 356, 362; Helm v. Helm, Tex. Civ. App., 291 S.W. 646, 649; Hedtke v. Hedtke, 112 Tex. 404, 248 S.W. 21; Rudasill v. Rudasill, Tex. Civ. App., 219 S.W. 843; 15 Tex. Jur. 580, sec. 105 et seq.; 4 Tex. Jur. Ten-Yr. Supp. 336, sec. 105 et seq. Under the law of Texas the. court also has power by decree to compel a party of whom it has jurisdiction to execute a conveyance of real property situate in another state, Texas & P. Ry. Co. v. Gay, 86 Tex. 571, 26 S.W. 599, 605, 25 L.R.A. 52; Fain v. Fain, Tex. Civ. App., 6 S.W. 2d 403, 407; Baughan v. Goodwin, Tex. Civ. App., 162 S.W. 2d 732, 736, and such a decree is entitled in California to the force and effect of record evidence of the equities therein determined unless it can be impeached for fraud. Redwood Investment Co. of Stithton, Kentucky v. Exley, 64 Cal. App. 455, 459, 221 P. 973; Bailey v. Tully, 242 Wis. 226, 7 N.W. 2d 837, 839, 145 A.L.R. 578; Rest., Conflict of Laws, sec. 97, comment a, secs. 430, 449; see Tully v. Bailey, 46 Cal. App. 2d 195, 115 P. 2d. 542.\u201d\n\u201c* * * California courts should interpose no action to interfere with rights of the wife to which she may be entitled as a resident of Texas in an action for divorce. A conflict of authority should not occur if it can be avoided. Courts should compose rather than irritate. \u2018Our states do not stand in the same relation to each other that foreign countries do. They are members of the same family, and section 1, art. 4, of the Constitution of the United States requires each state to give full faith and credit to the judicial proceedings of every other state. Comity between states is daily growing and should be encouraged.\u2019 Hall v. Industrial Commission, 165 Wis. 364, 162 N.W. 312, 314, L.R.A. 1917D, 829.\n\u201cThe parties are residents of Texas. The Texas action will determine all the issues involved in the California action. The courts of Texas are as competent to administer justice as those of California. A trial in Texas under the circumstances is more likely to accomplish full justice than a trial in Colifornia of the comparatively narrow issues involved in the action here.\u201d Simmons v. Superior Court, 96 Cal. App. 2d 119, 214 P. 2d 844, 1.c. 851-2, 19 A.L.R. 2d 288. Respondent\u2019s motion for rehearing is overruled.\n. Wherein, among others, Mallette v. Scheerer, 164 Wis. 415, 160 N.W. 182; Matson v. Matson, 186 Iowa 607, 173 N.W. 127 are cited with approval.\n. McBride v. McBride, Tex. Civ. App., 256 S.W. 2d 250, no wr. hist. The opinion deals with a decree providing for permanent alimony in the nature of future periodic payments. The holding was that a Texas court has no jurisdiction and is without authority to grant permanent alimony. It was also said an \u201caward of permanent alimony is against the public policy of this State.\u201d However, the opinion further stated that: \u201cWe recognize the well established rule that property of either spouse, in a divorce proceeding, may be dedicated to the support of either spouse or the children of the marriage. Clark v. Clark, Tex. Civ. App., 35 S.W. 2d 189 (Waco, wr. dism.) and authorities there cited.\u201d While not deemed controlling on the point under discussion, it seems that all provisions for \"wife support\u201d are not invalid in Texas. Property may be charged with a trust for that purpose. In Oklahoma \u201cwife support\u201d may take the form of alimony in gross and may be awarded in the form of real property. This illustrates a difference in detail.",
+        "type": "rehearing",
+        "author": "MR. JUSTICE NORVELL"
+      },
+      {
+        "text": "MR. JUSTICE GRIFFIN,\njoined by CHIEF JUSTICE CALVERT and JUSTICE SMITH and WALKER, dissenting on motion for rehearing.\nThe majority opinion on motion for rehearing decides no new questions of law. It seeks only to bolster further its previous upholding of the Oklahoma decree on the ground of comity. None of the cases cited in the opinion are in point on the question before us. These same cases were discussed in my original dissent and I see no point in discussing them further.\nAs I understand the majority opinion on motion for rehearing, it now seeks to evade the plain provisions of Arts. 2328b-l 2 and 3, Vernon\u2019s Annotated Texas Civil Statutes, on two grounds. The first is that the prohibition against allowance of alimony for a former wife as provided in the Uniform Reciprocal Enforcement of Support Act, Arts. 2328b-l, 2 and 3, applies only to alimony \u201cof a continuing and re-occurring nature,\u201d and to alimony \u201cin its usual form\u201di.e., a continuing obligation to pay to the wife a stated sum of money at periodic intervals in lieu of the common law obligation to support the wife; and, secondly, the act really does nothing to the law existing prior to its passage and has no effect on the remedies then existing. Based on these premises, the majority then states that the original decision does not violate the public policy of Texas, and if it did so violate it, Texas should not have such public policy, and that in this case the majority is not going to be bound by such public policy.\nThe majority states that had this decree been for periodic payments, it would be invalid, but being for \u201can award of alimony in gross or an award of property in lieu of continuing periodic payments,\u201d it is valid. As to allowance of a lump sum for support of the wife see Boyd v. Boyd, 22 Tex. Civ. App., 200, 1899, 54 S.W. 380, no writ history. The court in the Boyd case granted the divorce and adjudged the sum of $800 against the husband for future support of the wife, and made the $800 a charge against the husband\u2019s interest in 80 acres of land. This action of the trial court was reversed and rendered in favor of the husband, the court saying:\n\u201cUnder the laws of this state, courts are not authorized in divorce suits to provide permanent alimony for the support of the divorced wife. An allowance may be made for her support during the pendency of the suit for divorce, until the final decree is made in the case. Rev. St. art. 2986. The final decree may also order a division of the common estate, if there be such. Id. art. 2980. But the court cannot devest title out of one of the spouses, and invest it in the other. Neither can the court compel the husband, by final decree, to support the divorced wife. Pape v. Pape, 13 Tex. Civ. App. 99, 35 S.W. 479 * *\nWhile the case has no writ history it was cited with approval in Cunningham v. Cunningham, 1931, 120 Tex. 491, 40 S.W. 2d 46.\nThe case of McBride v. McBride, Tex. Civ. App., 1953, 256 S.W. 2d 250, no writ history, quotes authorities frojn this court and the Courts of Civil Appeals which effectively demonstrate the error of the majority position. In discussing the allowance of permanent alimony, i.e., alimony or support of a wife after a judgment of divorce, that court said:\n\u201cFirst and foremost is that the Court has no jurisdiction and is without authority to grant permanent alimony. Art. 4637, V.A.C.S., Pape v. Pape, 13 Tex. Civ. App. 99, 35 S.W. 479 (San Antonio, writ dism.), Ex Parte Ellis, 37 Tex. Cr. R. 539, 40 S.W. 275; Boyd v. Boyd, 22 Tex. Civ. App. 200, 54 S. W. 380; Bond v. Bond, 41 Tex. Civ. App. 129, 90 S.W. 1128; Cunningham v. Cunningham, 120 Tex. 491, 40 S.W. 2d 46, 75 A.L.R. 1305; Ex parte Guinn, 121 Tex. 66, 41 S.W. 2d 219; Jinks v. Jinks, Tex. Civ. App., 205 S.W. 2d 816 (Texarkana); 27 C.J.S., Divorce, \u00a7 202, p. 884, 15 Tex. Jur. p. 649.\n\u201cSecondly, the award of permanent alimony is against the public policy of this state.\u201d We quote from Cunningham v. Cunningham, supra [120 Tex. 491, 40 S.W. 2d 46] :\n\u201c \u2018It thus appears that it was originally the public policy of the Republic to confer authority on the district court to compel either spouse to provide the other with proper maintenance.\n\u201cAfter a brief time, the Congress enacted a change in the public policy of the Republic, disclosed by sections 8, 6, 14 and 4 of the Act of January 6, 1841, which have been continuously re-enacted in substance, and are now embodied in articles 4637, 4636, 4639, and 4638 [V.A.C.S.]\u2019.\u201d\nIn Cunningham v. Cunningham, 1931, 120 Tex. 491, 40 S.W. 2d 46, 75 A.L.R. 1305, a portion of which was quoted in McBride v. McBride, this court, speaking through Justice Greenwood, discusses the cases having to do with both wife and child support as permanent alimony. All the cases held that permanent alimony could not be allowed by the courts of Texas. He applies the same rule to all orders providing support for either the wife and/or child, or children, extending beyond the final judgment in the divorce action. Summarizing as to the order before the court \u2014 a child support order \u2014 he says that first, no action can be maintained in Texas to enforce the father\u2019s continuing duty to support his children, except as provided by the divorce statutes, and, second, that the power of the court is so limited by the divorce statutes that no order can be entered directing payments beyond the date of entry of final judgment. The same reasoning applies to permanent alimony for the support of the wife. As a result of this court\u2019s decision in the Cunningham case, the Legislature in 1935, by enactment of Art. 4639a, changed the public policy of the state so as to provide for support of children after final divorce judgment. It is significant that the Legislature has not made any change with regard to the support of the wife by the husband after divorce judgment has become final. On the contrary, the Legislature in 1951 reiterated the public policy of the state when, by Senate amendment to the original bill, it added to Art. 2328b-l & 2 (6) and Art. 2328-3 (7) the words \u201cbut shall not include alimony for a former wife.\u201d This language indicates its intention to preserve the public policy of this state against such awards of permanent alimony.\nIn the case of Martin v. Martin, Comm. App., 1929, 17 S.W. 2d 789, disposing of a suit by a wife for support of herself and a child, with no divorce suit pending, this court said:\n\u201c* * * our statute (article 4637, Rev. Civ. St., 1925) provides for the allowance of alimony pending suit for divorce, and until final decree is entered. This statute is exclusive in its very nature, and no alimony can be decreed by any court in this state except under its express terms.\u201d\nSee also 20 Tex. Jur. 2d 611, \u00a7 289. In this state the legal duty of the husband to support his wife ceases upon the severance of the marital bonds, nor has a court the power to decree that a husband may be subjected to such support after divorce. Permanent alimony is not provided for by Texas statutes. Phillips v. Phillips, 1918, Tex. Civ. App., 203 S.W. 77, 79, no writ history, citing Pape v. Pape, 1918, 13 Tex. Civ. App., 99, 35 S.W. 479; Bond v. Bond, Tex. Civ. App., 90 S.W. 1128. The Phillips case was cited with approval in Cunningham v. Cunningham, supra.\nHow is the public policy of a state determined? In answering this question, Mr. Justice Storey for the Supreme Court of the United States, in the case of Vidal v. Girard\u2019s Executors, 2 Howard 127, 11 L. Ed. 205 at p. 197, says: \u201cNor are we at liberty to look at general considerations of the supposed public interest and policy of Pennsylvania upon this subject, beyond what its constitution and law and judicial decisions made known to us. The question, what is the public policy of a State, and what is contrary to it, if inquired into beyond these limits, will be found to be one of great vagueness and uncertainty, and to involve discussions which scarcely come within the range of judicial duty and functions, and upon which men may and will complexionally differ * * *. We disclaim any right to enter upon such examinations, beyond what the State constitutions, and laws, and decisions necessarily bring before us.\u201d (Emphasis added). This is quoted as authority under Note 93, p. 854, 15 C.J.S., along with numerous other authorities from various states of the union to the same effect.\n\u201cIn its most liberal application comity cannot be applied in opposition to the positive law of the forum. Although generally state courts accept the laws of a sister state as construed by the courts of that state, even though the construction may appear incorrect in principle, a court is not required to enforce a right that, although valid and enforceable in another state, contravenes the public policy of its state.\u201d 12 Tex. Jur. 2d 304, \u00a7 3. The doctrine of comity does not require that a Texas court enforce a foreign law or give effect to rights arising thereunder if to do so will contravene the public policy of the state or work injury or injustice to a citizen or citizens of the state. It is said that the most liberal state comity cannot require Texas to enforce the laws of another when in conflict with its own laws. Portwood v. Portwood, Tex. Civ. App., 1937, 109 S.W. 2d 515, 523, dism., w.o.j. To the same effect is the opinion in Nueces Valley Townsite Co. v. San Antonio, U. & G. R. Co., 123 Tex. 167, 67 S.W. 2d 215, 220 (1933): \u201c* * * No judgment * * * can be affirmed, which is contrary to the public policy of the State as declared by a valid statute,\u201d citing City of Tyler v. St. Louis S.W. Ry. Co., 99 Tex. 491, 500, 91 S.W. 1, 13 Ann. Cas. 911. See also Strawn Merchantile Co. v. First Nat. Bank of Strawn, Tex. Civ. App., 1926, 279 S.W. 473, no writ history, cited with approval in State of California v. Copus, 158 Tex. 196, 309 S.W. 2d 227, 232, (1958).\nThe case of Herrick v. Minneapolis & St. L. Ry Co., 1883, 31 Minn. 11, 16 N. W. 413, quoted from by the majority, dealt only with the right to enforce in Minnesota a transitory cause of action for personal injuries suffered in Iowa. The right of action was given by the Iowa statute. Minnesota had no such statute, nor does the court mention a statute of Minnesota prohibiting recovery on such cause of action.\nThe case recognizes that \u201cliability, if the action be transitory, may be enforced, and the right of action pursued, in the courts of any state which can obtain jurisdiction of the defendant, provided it is not against the public policy of the laws of the state where it is sought to be enforced.\u201d (Emphasis added.) A reading of the case shows this principle of law to be well recognized by the Minnesota court and recovery was allowed because it was not against the public policy of Minnesota.\nThe majority contends that since Texas courts can set aside all or a part of the community and separate property for the support of either the husband or wife and children, we should permit the Oklahoma courts to do so. A sufficient answer to that contention is that the plaintiff is not suing for any such relief, but is suing to recover \u201ctitle\u201d to a part of defendant\u2019s separate property. Up to this point the majority has contended that the Oklahoma judgment does not purport to award the property but is only a judgment in personam; however, it now reverses itself and seeks to justify its position by stating that the Oklahoma court had the right to charge the Texas property by a judgment for support of the wife after divorce. Up to this point also the majority had paid at least lip service to the proposition that the Oklahoma court could render no judgment directly affecting the title to the Texas property.\nThe majority cite Fain v. Fain, Tex. Civ. App., 1928, 6 S.W. 2d 403, dism., w.o.j., as sustaining the proposition that the Texas courts have asserted their authority to issue equitable decrees in personam relating to property outside the state. That case is not in point for the reason that the suit was pending in Texas and the parties were in Texas and the judgment was to cancel deeds, certificates of stock, etc. I have never contended that had defendant executed a deed in pursuance of the Oklahoma court decree that deed would be invalid. The Fain case would be in point only in an appeal of this cause, or a contempt proceeding in Oklahoma between plaintiff and defendant. In the Fain case the Texas court could enforce its decree by contempt. In our case the Oklahoma courts cannot so enforce their decree.\n. In view of the intention of the Legislature when it passed the Uniform Support act, which was called to our attention for the first time on motion for rehearing, I maintain my position as the correct one, and in accordance with the settled laws and decisions of this state for many, many years. A contrary decision, in my opinion, is contrary to those laws and decisions.\nI would grant the motion for rehearing and affirm the judgments of both courts below.",
+        "type": "dissent",
+        "author": "MR. JUSTICE GRIFFIN,"
+      }
+    ],
+    "attorneys": [
+      "Stone, Agerton, Parker & Snakard, O. P. Newberry, Jr., and James A. McMullen, III, of Fort Worth, for petitioner.",
+      "Fannin & Fannin, of Fort Worth, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "Evelyn Ann McElreath V. James Dorsey McElreath\nNo. A-7761.\nDecided February 1, 1961\nRehearing overruled April 19, 1961\nSecond Motion for Rehearing overruled May 17, 1961\n(345 S. W. 2d Series 722)\nStone, Agerton, Parker & Snakard, O. P. Newberry, Jr., and James A. McMullen, III, of Fort Worth, for petitioner.\nFannin & Fannin, of Fort Worth, for respondent."
+  },
+  "file_name": "0190-01",
+  "first_page_order": 198,
+  "last_page_order": 245
+}

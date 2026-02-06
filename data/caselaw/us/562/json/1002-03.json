@@ -1,0 +1,59 @@
+{
+  "id": 6034176,
+  "name": "Turner v. Rogers et al.",
+  "name_abbreviation": "Turner v. Rogers",
+  "decision_date": "2010-11-01",
+  "docket_number": "No. 10-10",
+  "first_page": "1002",
+  "last_page": "1002",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1002"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 50,
+    "char_count": 421,
+    "ocr_confidence": 0.554,
+    "sha256": "87e4e29e533536beb88a81177da0877824b877a4cad71c5f3e45c802445c24ba",
+    "simhash": "1:6747a9724de2b7d9",
+    "word_count": 70
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Turner v. Rogers et al."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. S. C. Motion of Larry E. Price, Sr., for leave to intervene granted. Motion of respondents for leave to proceed in forma pauperis granted. Certiorari granted. In addition to the question presented by the petition, the parties are directed to brief and argue the following question: \u201cDoes the Court have jurisdiction to review the decision of the South Carolina Supreme Court?\u201d",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10.\nTurner v. Rogers et al."
+  },
+  "file_name": "1002-03",
+  "first_page_order": 1024,
+  "last_page_order": 1024
+}

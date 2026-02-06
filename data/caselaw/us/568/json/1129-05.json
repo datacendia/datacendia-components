@@ -1,0 +1,59 @@
+{
+  "id": 12429452,
+  "name": "Gibson v. Florida",
+  "name_abbreviation": "Gibson v. Florida",
+  "decision_date": "2013-01-14",
+  "docket_number": "No. 12-7221",
+  "first_page": "1129",
+  "last_page": "1129",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1129"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 81,
+    "ocr_confidence": 0.603,
+    "sha256": "d2152a9355d9f7e14cda911a8da850568801f8b227e80388074b0428c5395212",
+    "simhash": "1:c0288162c4452283",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gibson v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 3d Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7221.\nGibson v. Florida."
+  },
+  "file_name": "1129-05",
+  "first_page_order": 1205,
+  "last_page_order": 1205
+}

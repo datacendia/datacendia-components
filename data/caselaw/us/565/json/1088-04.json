@@ -1,0 +1,61 @@
+{
+  "id": 12237677,
+  "name": "LaFreniere v. Regents of the University of California",
+  "name_abbreviation": "LaFreniere v. Regents of the University of California",
+  "decision_date": "2011-12-05",
+  "docket_number": "No. 11-5790",
+  "first_page": "1088",
+  "last_page": "1088",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1088"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 25,
+    "char_count": 192,
+    "ocr_confidence": 0.623,
+    "sha256": "a6958b146b1cbd011cd4299f5d9c4f7675b9a0aeaab57da558e99a39cd864bdb",
+    "simhash": "1:98d3bac0218ff28e",
+    "word_count": 30
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Breyer took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "LaFreniere v. Regents of the University of California,"
+    ],
+    "opinions": [
+      {
+        "text": "ante, p. 960. Petition for rehearing denied.\nJustice Breyer took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5790.\nLaFreniere v. Regents of the University of California,"
+  },
+  "file_name": "1088-04",
+  "first_page_order": 1170,
+  "last_page_order": 1170
+}

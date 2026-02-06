@@ -1,0 +1,59 @@
+{
+  "id": 12224121,
+  "name": "Slade v. United States",
+  "name_abbreviation": "Slade v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5782",
+  "first_page": "921",
+  "last_page": "921",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 921"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.686,
+    "sha256": "6f3bbce4777192d934f467845a88f0098fa401760515674806b63a5aebc4b605",
+    "simhash": "1:a0ca9843ca849118",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Slade v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5782.\nSlade v. United States."
+  },
+  "file_name": "0921-10",
+  "first_page_order": 1003,
+  "last_page_order": 1003
+}

@@ -12,6 +12,7 @@ export { AutopilotPage } from './AutopilotPage';
 export { GenomicsPage } from './GenomicsPage';
 export { DefenseStackPage } from './DefenseStackPage';
 export { OmniTranslatePage } from './OmniTranslatePage';
+export { FinancialPage } from './FinancialPage';
 
 // New Premium Products
 export { VetoPage } from './VetoPage';
@@ -20,6 +21,8 @@ export { LedgerPage } from './LedgerPage';
 export { EvidenceVaultPage } from './EvidenceVaultPage';
 export { ApotheosisPage } from './ApotheosisPage';
 export { DissentPage } from './DissentPage';
+export { ROIMetricsPage } from './ROIMetricsPage';
+export { default as ResponsibilityPage } from './ResponsibilityPage';
 
 // Workflow Completion Pages
 export { CrisisManagementPage } from './CrisisManagementPage';

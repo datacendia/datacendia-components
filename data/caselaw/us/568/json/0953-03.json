@@ -1,0 +1,59 @@
+{
+  "id": 12418669,
+  "name": "Adderly v. United States",
+  "name_abbreviation": "Adderly v. United States",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 12-5994",
+  "first_page": "953",
+  "last_page": "953",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 953"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.653,
+    "sha256": "cec19a6802547b25c8938e976345685f08dd5a5377a9d2cf31bf0b3496abdf50",
+    "simhash": "1:811accab6ec59526",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Adderly v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5994.\nAdderly v. United States."
+  },
+  "file_name": "0953-03",
+  "first_page_order": 1029,
+  "last_page_order": 1029
+}

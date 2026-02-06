@@ -1,0 +1,59 @@
+{
+  "id": 6033671,
+  "name": "Vongxay v. United States",
+  "name_abbreviation": "Vongxay v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5423",
+  "first_page": "921",
+  "last_page": "921",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 921"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.642,
+    "sha256": "15eb319639f4ec8cdb76a0cc3e69d02a4248862c608f5fe93718b66dae379724",
+    "simhash": "1:9792af8d29bd096e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Vongxay v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5423.\nVongxay v. United States."
+  },
+  "file_name": "0921-04",
+  "first_page_order": 943,
+  "last_page_order": 943
+}

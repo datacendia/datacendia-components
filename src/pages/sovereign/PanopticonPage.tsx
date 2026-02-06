@@ -609,7 +609,7 @@ export const PanopticonPage: React.FC = () => {
               <button
                 onClick={() =>
                   window.open(
-                    '/cortex/intelligence/crucible?preset=regulatory-resilience',
+                    '/cortex/sovereign/crucible?preset=regulatory-resilience',
                     '_blank'
                   )
                 }

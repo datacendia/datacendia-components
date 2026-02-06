@@ -1,0 +1,102 @@
+{
+  "id": 5937938,
+  "name": "In re Disbarment of Mazur",
+  "name_abbreviation": "In re Disbarment of Mazur",
+  "decision_date": "2011-06-06",
+  "docket_number": "No. D-2567",
+  "first_page": "1031",
+  "last_page": "1031",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1031"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "562 U. S. 817",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6010752,
+        12437793,
+        12437794,
+        12437795,
+        6003492,
+        12437797,
+        12437796,
+        12437799,
+        12437798,
+        6031753,
+        5941865,
+        12437800,
+        6024564,
+        5986137,
+        5985916,
+        5946302
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/562/0817-05",
+        "/l-ed-2d/178/0273-03",
+        "/l-ed-2d/178/0273-04",
+        "/l-ed-2d/178/0273-05",
+        "/us/562/0817-01",
+        "/l-ed-2d/178/0274-01",
+        "/l-ed-2d/178/0273-06",
+        "/l-ed-2d/178/0274-03",
+        "/l-ed-2d/178/0274-02",
+        "/us/562/0817-08",
+        "/us/562/0817-06",
+        "/l-ed-2d/178/0274-04",
+        "/us/562/0817-07",
+        "/us/562/0817-03",
+        "/us/562/0817-02",
+        "/us/562/0817-04"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 106,
+    "ocr_confidence": 0.521,
+    "sha256": "9341cac67fccef021ecfa3741faec55ec12486a93c6b1ce1ef9b490fd8eedc4f",
+    "simhash": "1:b86cd922c9848ac4",
+    "word_count": 18
+  },
+  "last_updated": "2024-02-27T23:44:09.189648+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Mazur."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered. [For earlier order herein, see 562 U. S. 817.]",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2567.\nIn re Disbarment of Mazur."
+  },
+  "file_name": "1031-01",
+  "first_page_order": 1057,
+  "last_page_order": 1057
+}

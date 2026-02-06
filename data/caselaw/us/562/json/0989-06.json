@@ -1,0 +1,59 @@
+{
+  "id": 6028173,
+  "name": "Malgoza v. United States",
+  "name_abbreviation": "Malgoza v. United States",
+  "decision_date": "2010-10-18",
+  "docket_number": "No. 10-6468",
+  "first_page": "989",
+  "last_page": "989",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 989"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.661,
+    "sha256": "3209e0d0b0873b960862383aad2666abe4f44bd3e3545a0f78d2c6afbe071d85",
+    "simhash": "1:05888b3b8e0f905a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Malgoza v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6468.\nMalgoza v. United States."
+  },
+  "file_name": "0989-06",
+  "first_page_order": 1011,
+  "last_page_order": 1011
+}

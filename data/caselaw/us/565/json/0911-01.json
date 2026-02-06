@@ -1,0 +1,59 @@
+{
+  "id": 12221495,
+  "name": "Shealey v. United States",
+  "name_abbreviation": "Shealey v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5496",
+  "first_page": "911",
+  "last_page": "911",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 911"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.698,
+    "sha256": "96fd4c1bcfeec27f7dea279c184a7d4f0931cea3c505fd36a424ac24fea3b39f",
+    "simhash": "1:27eacad1cf051109",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Shealey v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5496.\nShealey v. United States."
+  },
+  "file_name": "0911-01",
+  "first_page_order": 993,
+  "last_page_order": 993
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12226946,
+  "name": "Pankey v. United States",
+  "name_abbreviation": "Pankey v. United States",
+  "decision_date": "2011-10-11",
+  "docket_number": "No. 10-10899",
+  "first_page": "942",
+  "last_page": "942",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 942"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.696,
+    "sha256": "c97b75bc16d24c2da32dcbebace8b503024a35aa233d2f95b3efe42eb2bdd8ce",
+    "simhash": "1:b5ea8249cfcd9429",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Pankey v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10899.\nPankey v. United States."
+  },
+  "file_name": "0942-08",
+  "first_page_order": 1024,
+  "last_page_order": 1024
+}

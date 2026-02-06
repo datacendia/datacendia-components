@@ -1,0 +1,59 @@
+{
+  "id": 5962027,
+  "name": "In re Dean",
+  "name_abbreviation": "In re Dean",
+  "decision_date": "2010-11-01",
+  "docket_number": "No. D-2560",
+  "first_page": "1000",
+  "last_page": "1000",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1000"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 49,
+    "char_count": 326,
+    "ocr_confidence": 0.543,
+    "sha256": "2e3df9571b6ddf1868bf957750eac7851f42c05dfc1b310d73ca552ecde59c08",
+    "simhash": "1:03c951d0059ab54e",
+    "word_count": 62
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Dean."
+    ],
+    "opinions": [
+      {
+        "text": "Joseph Wayne Dean, of Raleigh, N. C., having requested to resign as a member of the Bar of this Court, it is ordered that his name be stricken from the roll of attorneys admitted to the practice of law before this Court. The rule to show cause, issued on October 4, 2010 [ante, p. 817], is discharged.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2560.\nIn re Dean."
+  },
+  "file_name": "1000-03",
+  "first_page_order": 1022,
+  "last_page_order": 1022
+}

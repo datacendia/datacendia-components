@@ -1,0 +1,59 @@
+{
+  "id": 5921318,
+  "name": "Kay et al. v. Federal Communications Commission",
+  "name_abbreviation": "Kay v. Federal Communications Commission",
+  "decision_date": "2011-05-23",
+  "docket_number": "No. 10-1257",
+  "first_page": "1009",
+  "last_page": "1009",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1009"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 98,
+    "ocr_confidence": 0.585,
+    "sha256": "239d0f18c75bb08cf646af0e681badee0dc426c612caf3ec745c697be33350e6",
+    "simhash": "1:9bc727211a7fa246",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Kay et al. v. Federal Communications Commission."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. D. C. Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1257.\nKay et al. v. Federal Communications Commission."
+  },
+  "file_name": "1009-01",
+  "first_page_order": 1035,
+  "last_page_order": 1035
+}

@@ -1,0 +1,59 @@
+{
+  "id": 6014333,
+  "name": "Henry v. United States",
+  "name_abbreviation": "Henry v. United States",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-6140",
+  "first_page": "1222",
+  "last_page": "1222",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1222"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.639,
+    "sha256": "448777c98c28d1b81e7713c5144476836b62353ec7f073938a88100cb51605ca",
+    "simhash": "1:9e980223838f947a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Henry v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6140.\nHenry v. United States."
+  },
+  "file_name": "1222-15",
+  "first_page_order": 1244,
+  "last_page_order": 1244
+}

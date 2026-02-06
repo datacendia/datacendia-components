@@ -14,6 +14,19 @@ import {
   DissentSeverity,
   ResponseType,
 } from '../../../services/DissentService';
+import {
+  DISSENT_MODES,
+  INDUSTRY_SENSITIVITY_PROFILES,
+  CORE_DISSENT_MODES,
+  calculateProtectionScore,
+  getIndustryGuidance,
+} from '../../../data/dissentModes';
+import {
+  ModeSelector,
+  IndustrySelector,
+  ModeInfoBanner,
+  IndustryInsight,
+} from '../../../components/modes';
 
 // =============================================================================
 // HELPER FUNCTIONS
@@ -82,6 +95,17 @@ export const DissentPage: React.FC = () => {
   >('dashboard');
   const [isLoading, setIsLoading] = useState(true);
   const [showFileModal, setShowFileModal] = useState(false);
+  const [selectedModeId, setSelectedModeId] = useState<string>('confidential-concern');
+  const [selectedIndustryId, setSelectedIndustryId] = useState<string>('general');
+  
+  const currentMode = DISSENT_MODES[selectedModeId];
+  const currentIndustry = INDUSTRY_SENSITIVITY_PROFILES[selectedIndustryId];
+  const protectionScore = currentMode && currentIndustry 
+    ? calculateProtectionScore(currentMode, currentIndustry) 
+    : null;
+  const industryGuidance = currentMode && currentIndustry
+    ? getIndustryGuidance(currentMode, currentIndustry)
+    : '';
 
   const loadData = useCallback(async () => {
     setIsLoading(true);
@@ -134,6 +158,23 @@ export const DissentPage: React.FC = () => {
               </div>
             </div>
             <div className="flex items-center gap-3">
+              <div className="flex items-center gap-2">
+                <ModeSelector
+                  label=""
+                  modes={DISSENT_MODES}
+                  selectedModeId={selectedModeId}
+                  onModeChange={setSelectedModeId}
+                  coreModeIds={[...CORE_DISSENT_MODES]}
+                  className="w-64"
+                />
+                <IndustrySelector
+                  label=""
+                  industries={INDUSTRY_SENSITIVITY_PROFILES}
+                  selectedIndustryId={selectedIndustryId}
+                  onIndustryChange={setSelectedIndustryId}
+                  className="w-48"
+                />
+              </div>
               <button
                 onClick={() => setShowFileModal(true)}
                 className="px-4 py-2 bg-red-600 hover:bg-red-700 rounded-lg font-medium transition-colors"
@@ -184,6 +225,54 @@ export const DissentPage: React.FC = () => {
 
       {/* Main Content */}
       <main className="max-w-7xl mx-auto px-6 py-8">
+        {/* Mode Info Banner */}
+        {currentMode && (
+          <ModeInfoBanner 
+            mode={currentMode} 
+            primeDirective={currentMode.primeDirective} 
+          />
+        )}
+        
+        {/* Industry Guidance */}
+        {industryGuidance && <IndustryInsight insight={industryGuidance} />}
+        
+        {/* Protection Score Summary */}
+        {protectionScore && (
+          <div className="mt-4 mb-6 p-4 bg-gray-800/50 border border-gray-700 rounded-lg">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-4">
+                <div className="text-center">
+                  <div className="text-2xl font-bold" style={{ color: currentMode?.color }}>
+                    {protectionScore.score}%
+                  </div>
+                  <div className="text-xs text-gray-500">Protection Score</div>
+                </div>
+                <div className="h-8 w-px bg-gray-700" />
+                <div>
+                  <div className="text-sm text-gray-300">
+                    Retaliation Risk: <span className={`font-medium ${
+                      protectionScore.retaliationRisk === 'low' ? 'text-green-400' :
+                      protectionScore.retaliationRisk === 'medium' ? 'text-yellow-400' :
+                      protectionScore.retaliationRisk === 'high' ? 'text-orange-400' : 'text-red-400'
+                    }`}>{protectionScore.retaliationRisk.toUpperCase()}</span>
+                  </div>
+                  <div className="flex flex-wrap gap-1 mt-1">
+                    {protectionScore.recommendedActions.slice(0, 2).map((action, i) => (
+                      <span key={i} className="px-2 py-0.5 bg-blue-500/20 text-blue-400 text-xs rounded">
+                        {action}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+              <div className="text-right">
+                <div className="text-xs text-gray-500">Anonymity: {currentMode?.anonymityLevel}</div>
+                <div className="text-xs text-gray-500">Escalation: {currentMode?.escalationPath}</div>
+              </div>
+            </div>
+          </div>
+        )}
+
         {isLoading ? (
           <div className="flex items-center justify-center h-64">
             <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-red-500" />

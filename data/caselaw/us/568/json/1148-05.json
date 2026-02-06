@@ -1,0 +1,59 @@
+{
+  "id": 12430174,
+  "name": "Montgomery v. McQuiggin, Warden",
+  "name_abbreviation": "Montgomery v. McQuiggin",
+  "decision_date": "2013-01-22",
+  "docket_number": "No. 12-7676",
+  "first_page": "1148",
+  "last_page": "1148",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1148"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 80,
+    "ocr_confidence": 0.627,
+    "sha256": "122d36dfe23c33b7141bc158bfddd7fd1ab4f38f1e5fd90194bfffeb218a5a7f",
+    "simhash": "1:b68f0682693f1064",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Montgomery v. McQuiggin, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7676.\nMontgomery v. McQuiggin, Warden."
+  },
+  "file_name": "1148-05",
+  "first_page_order": 1224,
+  "last_page_order": 1224
+}

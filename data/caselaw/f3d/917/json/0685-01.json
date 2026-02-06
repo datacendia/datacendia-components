@@ -1,0 +1,532 @@
+{
+  "id": 12520339,
+  "name": "Kimberly MENSIE, Plaintiff-Appellant v. CITY OF LITTLE ROCK, Defendant-Appellee",
+  "name_abbreviation": "Mensie v. City of Little Rock",
+  "decision_date": "2019-02-28",
+  "docket_number": "No. 17-1761",
+  "first_page": "685",
+  "last_page": "693",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "917 F.3d 685"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "8th Cir.",
+    "id": 8821,
+    "name": "United States Court of Appeals for the Eighth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "523 U.S. 833",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11504410
+      ],
+      "weight": 3,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "843"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/523/0833-01"
+      ]
+    },
+    {
+      "cite": "296 F.3d 638",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9404680
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "646",
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/296/0638-01"
+      ]
+    },
+    {
+      "cite": "501 F.3d 920",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3706682
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "922",
+          "parenthetical": "applying Arkansas's savings statute to \u00a7 1983 claims"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/501/0920-01"
+      ]
+    },
+    {
+      "cite": "566 U.S. 463",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12189545
+      ],
+      "weight": 3,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "470, 473"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/566/0463-01"
+      ]
+    },
+    {
+      "cite": "Ark. Code Ann. \u00a7 16-56-126",
+      "category": "laws:leg_statute",
+      "reporter": "Ark. Code Ann.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "595 F.3d 691",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4215444
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "695"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/595/0691-01"
+      ]
+    },
+    {
+      "cite": "794 F.3d 988",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4287191
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "996",
+          "parenthetical": "quoting Reget v. City of La Crosse , 595 F.3d 691, 695 (7th Cir. 2010) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/794/0988-01"
+      ]
+    },
+    {
+      "cite": "521 F.3d 983",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3736712
+      ],
+      "weight": 2,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "990",
+          "parenthetical": "citation and internal quotation marks omitted"
+        },
+        {
+          "page": "990",
+          "parenthetical": "concluding plaintiff's spreadsheet of twenty other inmates with corresponding details about their offenses, sentences, and time served failed to show similarity in all material respects in determining whether they received more favorable treatment in obtaining parole"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/521/0983-01"
+      ]
+    },
+    {
+      "cite": "469 F.2d 956",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        257620,
+        257589
+      ],
+      "year": 1972,
+      "pin_cites": [
+        {
+          "page": "960"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/469/0956-02",
+        "/f2d/469/0956-01"
+      ]
+    },
+    {
+      "cite": "534 F.2d 103",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1068168
+      ],
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "108"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/534/0103-01"
+      ]
+    },
+    {
+      "cite": "528 U.S. 562",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9476534
+      ],
+      "weight": 3,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "564"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/528/0562-01"
+      ]
+    },
+    {
+      "cite": "483 F.3d 516",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5743905
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "527",
+          "parenthetical": "stating that \"[m]ere allegations, unsupported by ... evidence beyond the nonmoving party's own conclusions, are insufficient to withstand a motion for summary judgment\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/483/0516-01"
+      ]
+    },
+    {
+      "cite": "619 F.3d 823",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3777893
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "833",
+          "parenthetical": "noting that city's race-neutral explanation for inspecting rental properties disproportionately occupied by racial minorities \"ha[d] greater support in the record\" than any alleged discriminatory purpose"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/619/0823-01"
+      ]
+    },
+    {
+      "cite": "416 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        84266
+      ],
+      "weight": 3,
+      "year": 1974,
+      "pin_cites": [
+        {
+          "page": "9"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/416/0001-01"
+      ]
+    },
+    {
+      "cite": "881 F.2d 836",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        11291318
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "839"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/881/0836-01"
+      ]
+    },
+    {
+      "cite": "462 F.3d 925",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3464637
+      ],
+      "weight": 2,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "934"
+        },
+        {
+          "page": "934",
+          "parenthetical": "\"While we are required to make all reasonable inferences in favor of the nonmoving party in considering summary judgment, we do so without resort to speculation.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/462/0925-01"
+      ]
+    },
+    {
+      "cite": "458 U.S. 613",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        636571
+      ],
+      "weight": 3,
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "618"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/458/0613-01"
+      ]
+    },
+    {
+      "cite": "711 F.2d 1406",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1870442
+      ],
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "1409",
+          "parenthetical": "quoting Rogers v. Lodge , 458 U.S. 613, 618, 102 S.Ct. 3272, 73 L.Ed.2d 1012 (1982) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/711/1406-01"
+      ]
+    },
+    {
+      "cite": "429 U.S. 252",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6951
+      ],
+      "weight": 19,
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "265-66"
+        },
+        {
+          "page": "266-68"
+        },
+        {
+          "page": "255-58"
+        },
+        {
+          "page": "269"
+        },
+        {
+          "page": "258, 270"
+        },
+        {
+          "page": "270"
+        },
+        {
+          "page": "264-65"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/429/0252-01"
+      ]
+    },
+    {
+      "cite": "475 U.S. 574",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6205783
+      ],
+      "weight": 3,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "586-87"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/475/0574-01"
+      ]
+    },
+    {
+      "cite": "477 U.S. 317",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6207800
+      ],
+      "weight": 5,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "323"
+        },
+        {
+          "page": "324"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/477/0317-01"
+      ]
+    },
+    {
+      "cite": "643 F.3d 1031",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5648351
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "1042",
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/643/1031-01"
+      ]
+    },
+    {
+      "cite": "420 F.3d 880",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8941106
+      ],
+      "weight": 3,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "883"
+        },
+        {
+          "page": "884"
+        },
+        {
+          "page": "884"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/420/0880-01"
+      ]
+    },
+    {
+      "cite": "42 U.S.C. \u00a7 1983",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1068,
+    "char_count": 20898,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2592156917256566
+    },
+    "sha256": "383bd63c87fa6359488a82a8ed864ab60d33b617e37e244f50887210d17c1a32",
+    "simhash": "1:b40de104237bf3d3",
+    "word_count": 3236
+  },
+  "last_updated": "2024-02-27T18:46:27.088999+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before COLLOTON, GRUENDER, and GRASZ, Circuit Judges."
+    ],
+    "parties": [
+      "Kimberly MENSIE, Plaintiff-Appellant\nv.\nCITY OF LITTLE ROCK, Defendant-Appellee"
+    ],
+    "opinions": [
+      {
+        "text": "GRASZ, Circuit Judge.\nKimberly Mensie sued the City of Little Rock (the \"City\") after it denied her applications for rezoning to open a beauty salon in a residential neighborhood. Mensie alleges the City discriminated against her on the basis of race and treated her differently from other salon operators in violation of the U.S. Constitution. The district court granted summary judgment to the City, and we affirm.\nI. Background\nIn 2007, Mensie purchased a house at 310 North Van Buren Street in Little Rock, Arkansas, intending to live there and also operate a beauty salon from the premises. At the time, Mensie did not realize the property was designated only for \"Single Family\" use under the City's Land Use Plan and zoning ordinance. The house was located on the middle of the block between B Street to the south and C Street to the north. Under the City's Land Use Plan, everything along North Van Buren Street from B to G Streets was designated for Single Family use. There was an area zoned for Single Family and Suburban Office just south of B Street and an area zoned for Commercial and Office uses about two blocks south of Mensie's house at the intersection of North Van Buren and West Markham Streets. However, Mensie's house was surrounded by single-family homes.\nThe City's Planning Commission (\"Commission\") and Board of Directors (\"Board\") subsequently denied Mensie's applications to rezone her house for use as a salon. Mensie, who is African American, brought this lawsuit under 42 U.S.C. \u00a7 1983, alleging the City denied her applications in violation of the Equal Protection Clause and Due Process Clause by singling her out as a \"class of one,\" discriminating on the basis of race, and acting \"based on capricious and arbitrary conditions.\"\nMensie first sued the City in Arkansas state court in 2008. The case was dismissed without prejudice in May 2015 for failure to prosecute. Mensie filed her current suit in the same state court in November 2015, and the City removed it to federal district court.\nAfter discovery, the district court granted the City's motion for summary judgment, concluding Mensie failed to show the City either treated her less favorably than other similarly situated salon operators or denied her applications based on race. Mensie appeals.\nII. Standard of Review\nThis court reviews a grant of summary judgment de novo, viewing the evidence in the light most favorable to the nonmoving party. Barstad v. Murray Cty. , 420 F.3d 880, 883 (8th Cir. 2005). \"Summary judgment is appropriate only if there are no genuine issues of material fact and the moving party is entitled to judgment as a matter of law.\" Id . ; Fed. R. Civ. P. 56(a). \"The movant 'bears the initial responsibility of informing the district court of the basis for its motion,' and must identify 'those portions of [the record] ... which it believes demonstrate the absence of a genuine issue of material fact.' \" Torgerson v. City of Rochester , 643 F.3d 1031, 1042 (8th Cir. 2011) (en banc) (alterations in original) (quoting Celotex Corp. v. Catrett , 477 U.S. 317, 323, 106 S.Ct. 2548, 91 L.Ed.2d 265 (1986) ). \"If the movant does so, the nonmovant must respond by submitting evidentiary materials that set out 'specific facts showing that there is a genuine issue for trial.' \" Id . (quoting Celotex Corp. , 477 U.S. at 324, 106 S.Ct. 2548 ). \"The nonmovant 'must do more than simply show that there is some metaphysical doubt as to the material facts.' \" Id . (quoting Matsushita Elec. Indus. Co. v. Zenith Radio Corp. , 475 U.S. 574, 586-87, 106 S.Ct. 1348, 89 L.Ed.2d 538 (1986) ).\nIII. Discussion\nMensie argues the City violated her \"substantive due process rights\" by denying her rezoning applications based at least partially on her race. She also argues the City violated her equal protection rights by discriminating against her as a \"class of one\" in comparison to other similarly situated salons throughout the City. Viewing both of these arguments as equal protection claims, we find them to be without merit for the reasons discussed below.\nA. Race-Discrimination\nMensie alleges the City's denial of her rezoning request constituted racial discrimination in violation of her right to equal protection under the law. To establish a violation of the Equal Protection Clause under this theory, Mensie is required to show \"proof that a [racially] discriminatory purpose has been a motivating factor in the decision.\" Village of Arlington Heights v. Metro. Hous. Dev. Corp. , 429 U.S. 252, 265-66, 97 S.Ct. 555, 50 L.Ed.2d 450 (1977). \"[D]etermining the existence of a discriminatory purpose 'demands a sensitive inquiry into such circumstantial and direct evidence as may be available.' \" Clients' Council v. Pierce , 711 F.2d 1406, 1409 (8th Cir. 1983) (quoting Rogers v. Lodge , 458 U.S. 613, 618, 102 S.Ct. 3272, 73 L.Ed.2d 1012 (1982) ). This standard requires examining the \"totality of the relevant facts,\" id ., including racially discriminatory impact, historical background, the sequence of events leading up to the challenged decisions, and legislative or administrative history, especially \"contemporary statements by members of the decisionmaking body, minutes of its meetings, or reports.\" Village of Arlington Heights , 429 U.S. at 266-68, 97 S.Ct. 555.\nMensie argues the historical background and relevant sequence of events give rise to an inference of racial discrimination here. She notes the City's Director of Planning and Development opposed the idea \"before the process had even begun.\" She also observes that the Commission rejected her applications even after she incorporated changes recommended by Commission staff in a preliminary meeting. Specifically, Mensie submitted a revised plan clarifying that her property would not contain a dumpster and would comply with the overlay standards of the surrounding Hillcrest neighborhood. At a hearing before the Commission, Mensie proposed several more changes on her own initiative, including reducing the number of employees, operating on an appointment-only schedule, and cutting the number of parking spaces in a parking lot she planned to pave in her backyard. The Commission still did not approve.\nWe see no evidence of racial discrimination on these facts, particularly in light of the Supreme Court's decision in Village of Arlington Heights . There, a Chicago suburb (the \"Village\") denied an application to rezone a parcel of land from a single-family to a multiple-family classification for building racially-integrated low- and moderate-income housing. Village of Arlington Heights , 429 U.S. at 255-58, 97 S.Ct. 555. The Supreme Court upheld the decision against a challenge under the Equal Protection Clause, finding no inference of racial discrimination even where the developer incorporated every change recommended by the Village's staff for compliance with local regulations. Id . at 257, 269-71, 97 S.Ct. 555. The Supreme Court emphasized the property had historically been zoned R-3, it was surrounded by single-family homes, and the developer's application progressed according to usual procedures. Id . at 269-70, 97 S.Ct. 555 (noting the Village's Plan Commission even scheduled two additional hearings and permitted the developer to supplement its earlier presentation).\nHere Mensie's property was also zoned Single Family in a historically single-family neighborhood. Furthermore, the record indicates her applications progressed according to usual procedures. She met with several City staff members prior to submitting her applications. See Little Rock Rev. Code \u00a7 36-454(b) (requiring a \"preapplication conference\" between the applicant and City staff prior to submitting a Planned Development application). Commission staff then conducted two written analyses and recommended that the Commission deny Mensie's proposal. See id . \u00a7 36-454(c)(2) (requiring planning staff to review an applicant's preliminary plan and forward a recommendation to the Commission). Mensie then had a timely public hearing before the Commission and two timely public hearings on appeal before the Board. See id . (requiring a public hearing before the Commission on an applicant's preliminary plan within sixty days after planning staff files its review and recommendation); see also id . \u00a7 36-85(a) (authorizing rezoning applicants to appeal Commission's denial to the Board for review). Additionally, the changes Mensie incorporated at the Commission's request were merely, in its words, \"technical issues\" to comply with local rules. Put simply, \"there is little about the sequence of events leading up to the decision that would spark suspicion.\" Village of Arlington Heights , 429 U.S. at 269, 97 S.Ct. 555.\nThe administrative history here supports this conclusion. The Commission staff's pre-hearing analyses \"focused ... exclusively on the zoning aspects of [Mensie's] petition.\" Id . at 270, 97 S.Ct. 555. For instance, Commission staff expressed concern that Van Buren Street had been under pressure in recent years to change from a residential to a commercial corridor. They noted Mensie's house was located within an area covered by the \"Hillcrest Neighborhood Action Plan,\" which included a goal of \"no net loss of residential units by demolition or conversion to other uses.\" See Little Rock Rev. Code \u00a7\u00a7 36-434.10 to 36-434.16 (adopting the Hillcrest overlay district into City's zoning ordinance). They also observed that a suburban office area located south of Mensie's property served primarily as a buffer zone. Additionally, opposition voiced by several neighbors at three public hearings focused on the possibility of increased traffic and a desire to maintain residential zoning in the area. See Village of Arlington Heights , 429 U.S. at 258, 270, 97 S.Ct. 555 (noting that \"the zoning factors on which [Village decisionmakers] relied are not novel criteria in the Village's rezoning decisions,\" including the reliance of neighbors on maintaining area single-family zoning and the consistent application of a prior policy treating multi-family housing primarily as a buffer zone).\nWe find no basis for Mensie's argument that the City relied on racist \"code words\" by crediting neighbors' concerns about the possibility of decreased property values and increased crime as a result of Mensie's salon. Mensie notes one Board member who voted to deny Mensie's appeal later testified that she found the neighbors' opposition persuasive. Mensie then notes the Board ultimately denied her proposal by a 4-to-4 vote, making the neighbors' coded racism a dispositive factor in its demise. However, \"[f]acially race-neutral statements, without more, do not demonstrate racial animus on the part of the speaker.\" Twymon v. Wells Fargo & Co. , 462 F.3d 925, 934 (8th Cir. 2006). Here, the record indicates her neighbors' opposition was based not on Mensie's mere \"presence,\" as Mensie argues, but rather on the commercial nature of her proposal. See Nelson v. City of Selma , 881 F.2d 836, 839 (9th Cir. 1989) (noting that \"[t]he preservation of the character and integrity of single-family neighborhoods, ... prevention of traffic congestion and maintenance of property values are all legitimate purposes of planning and zoning\" (citing Village of Belle Terre v. Boraas , 416 U.S. 1, 9, 94 S.Ct. 1536, 39 L.Ed.2d 797 (1974) )).\nEven if concerns about increased crime in this context could be considered racial code words, nothing indicates the City itself was improperly motivated by this concern or by Mensie's race. The record indicates that only one opponent mentioned increased crime as a concern at any of the hearings. Many others expressed opposition based on preventing increased commercialization of the residential neighborhood, consistent with the Commission staff's analysis. The testifying Board member merely said she was persuaded by the \"objections of the neighborhood\" in general as well as by the Commission staff's recommendation, without any indication of discriminatory motive. See Village of Arlington Heights , 429 U.S. at 270, 97 S.Ct. 555 (finding no inference of racial discrimination in part where \"one member of the Village Board [took] the stand at trial\" and \"[n]othing in her testimony support[ed] an inference of invidious purpose\"). We decline to impute any implied racism from the opposing testimony to the City here. See Twymon , 462 F.3d at 934 (\"While we are required to make all reasonable inferences in favor of the nonmoving party in considering summary judgment, we do so without resort to speculation.\").\nWe also reject any argument that we should infer racial opposition in the overall comments of Mensie's neighbors to the City in light of their allegedly hostile treatment toward her when she moved into the neighborhood and from the fact City officials allegedly voted against her applications mostly along racial lines. Unlike these allegations, the City's interest in preserving the neighborhood's residential character from increased commercialization is supported by the record, and this precludes any inference that the City's decision was racially motivated. See Gallagher v. Magner , 619 F.3d 823, 833 (8th Cir. 2010) (noting that city's race-neutral explanation for inspecting rental properties disproportionately occupied by racial minorities \"ha[d] greater support in the record\" than any alleged discriminatory purpose); see also Thomas v. Corwin , 483 F.3d 516, 527 (8th Cir. 2007) (stating that \"[m]ere allegations, unsupported by ... evidence beyond the nonmoving party's own conclusions, are insufficient to withstand a motion for summary judgment\").\nTherefore, Mensie's race-discrimination claim under the Equal Protection Clause must fail.\nB. Class-of-One Discrimination\nWe next address Mensie's class-of-one discrimination claim. \"The Equal Protection Clause requires that the government treat all similarly situated people alike.\" Barstad , 420 F.3d at 884.\nWhere a plaintiff has not shown discrimination based on membership in a class or group, the Supreme Court's \"cases have recognized successful equal protection claims brought by a 'class of one,' where the plaintiff alleges that she has been intentionally treated differently from others similarly situated and that there is no rational basis for the difference in treatment.\" Village of Willowbrook v. Olech , 528 U.S. 562, 564, 120 S.Ct. 1073, 145 L.Ed.2d 1060 (2000). We have clarified that in class-of-one challenges to local zoning decisions, \"courts are not entitled to review the evidence and reverse the commission merely because a contrary result may be permissible.\" Burns v. City of Des Peres , 534 F.2d 103, 108 (8th Cir. 1976). Indeed, \"[c]ourts are not to assume the role of a 'super zoning board.' \" Id . (quoting Steel Hill Dev., Inc. v. Town of Sanbornton , 469 F.2d 956, 960 (1st Cir. 1972) ).\nInstead, we are authorized only \"to ascertain whether there has been a transgression upon the property owner's constitutional rights.\" Id . For this reason, \"[i]dentifying the disparity in treatment is especially important in class-of-one cases.\" Barstad , 420 F.3d at 884. \"A class-of-one plaintiff must therefore provide a specific and detailed account of the nature of the preferred treatment of the favored class, especially when the state actors exercise broad discretion to balance a number of legitimate considerations.\" Nolan v. Thompson , 521 F.3d 983, 990 (8th Cir. 2008) (citation and internal quotation marks omitted). We have said this is a \"demanding standard,\" particularly given that the \"persons alleged to have been treated more favorably must be identical or directly comparable to the plaintiff in all material respects.\" Robbins v. Becker , 794 F.3d 988, 996 (8th Cir. 2015) (quoting Reget v. City of La Crosse , 595 F.3d 691, 695 (7th Cir. 2010) ).\nMensie fails to meet this standard. She merely asserts on appeal that a number of manicurists and beauty salons operated from their homes across the City. Although Mensie underlined dozens of purported comparators in a roster of local salons that she placed in the record, we agree with the district court that she failed to identify how any were similarly situated in all material respects, including in time, location, the zoning amendment process, and the City's Land Use Plan. See id . (stating that plaintiffs \"fail[ed] to allege and prove facts showing they were similarly situated to other towing and wrecker services, or that those companies were treated more favorably under similar circumstances\").\nMensie also asserts that a number of local salons were located in residential and other non-conforming zoning areas or had previously been granted similar Planned Development applications. But in a separate list Mensie offered to support this assertion (showing the zoning classifications of ninety-three area salons), she again fails to explain how any were similarly situated to her proposed salon in all material respects. See Nolan , 521 F.3d at 990 (concluding plaintiff's spreadsheet of twenty other inmates with corresponding details about their offenses, sentences, and time served failed to show similarity in all material respects in determining whether they received more favorable treatment in obtaining parole). While Mensie provides a more detailed zoning history for ten of these businesses, only four appear to have previously been zoned for residential use. Among these four, each was a nonconforming use (or in a nonconforming commercial area) in operation (or existence) prior to being annexed into the City. We thus reject Mensie's argument that other salons in the City were by nature \"necessarily similarly situated.\"\nHaving failed to establish disparate treatment, Mensie's class-of-one discrimination claim under the Equal Protection Clause must also fail.\nIV. Conclusion\nFor the reasons set forth above, we affirm the district court's grant of summary judgment to the City.\nThe Honorable James M. Moody, Jr., United States District Judge for the Eastern District of Arkansas.\nMensie submitted two applications. One proposed reclassifying her property under the City's Land Use Plan from \"Single Family\" to \"Mixed Use.\" The other proposed rezoning her property from R-3 Single Family to \"Planned Development-Commercial\" (\"PD-C\"), a designation \"intended to accommodate single use commercial developments.\" Little Rock Rev. Code \u00a7 36-452(3)(a).\nThe parties do not dispute on appeal whether Mensie timely filed her current suit under Arkansas's savings statute, see Ark. Code Ann. \u00a7 16-56-126, and we decline to consider this issue sua sponte. See Wood v. Milyard , 566 U.S. 463, 470, 473, 132 S.Ct. 1826, 182 L.Ed.2d 733 (2012) ; see also Baker v. Chisom , 501 F.3d 920, 922 (8th Cir. 2007) (applying Arkansas's savings statute to \u00a7 1983 claims).\nWe have recognized that \"if a constitutional claim is covered by a specific constitutional provision ... the claim must be analyzed under the standard appropriate to that specific provision, not under the rubric of substantive due process.\" Moran v. Clarke , 296 F.3d 638, 646 (8th Cir. 2002) (en banc) (quoting Cty. of Sacramento v. Lewis , 523 U.S. 833, 843, 118 S.Ct. 1708, 140 L.Ed.2d 1043 (1998) ). Here, Mensie's claim of race discrimination is covered by the Equal Protection Clause. See Village of Arlington Heights v. Metro. Hous. Dev. Corp. , 429 U.S. 252, 264-65, 97 S.Ct. 555, 50 L.Ed.2d 450 (1977). While Mensie also pled a substantive due process claim unrelated to race, she has abandoned that claim on appeal.\nWhile there was an area of suburban office uses south of B Street, it is undisputed this area served as a buffer between commercial uses to the south, at the intersection of North Van Buren and West Markham Streets, and residential uses to the north. Further, while Mensie disputes whether two nearby businesses to the north of her house were nonconforming uses in operation prior to the effective date of the current zoning ordinance, see Little Rock City Code \u00a7\u00a7 36-151, 153 (authorizing nonconforming uses), it is undisputed neither business was on her block.\nAfter the Commission denied Mensie's applications, the Board on appeal held separate hearings for her proposed amendments to the City's Land Use Plan and her property's zoning designation, respectively.\nMensie alleges that after she purchased her house, the neighbors refused to make eye contact or speak with her and also made threatening, anonymous phone calls to her.",
+        "type": "majority",
+        "author": "GRASZ, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Maximillan Sprinkle, Sprinkle Firm, Little Rock, AR, for Plaintiff-Appellant.",
+      "Thomas Milton Carpenter, Amy Beckman Fields, City Attorney's Office, Little Rock, AR, for Defendant-Appellee."
+    ],
+    "corrections": "",
+    "head_matter": "Kimberly MENSIE, Plaintiff-Appellant\nv.\nCITY OF LITTLE ROCK, Defendant-Appellee\nNo. 17-1761\nUnited States Court of Appeals, Eighth Circuit.\nSubmitted: September 27, 2018\nFiled: February 28, 2019\nMaximillan Sprinkle, Sprinkle Firm, Little Rock, AR, for Plaintiff-Appellant.\nThomas Milton Carpenter, Amy Beckman Fields, City Attorney's Office, Little Rock, AR, for Defendant-Appellee.\nBefore COLLOTON, GRUENDER, and GRASZ, Circuit Judges."
+  },
+  "file_name": "0685-01",
+  "first_page_order": 685,
+  "last_page_order": 693
+}

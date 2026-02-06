@@ -1,0 +1,66 @@
+{
+  "id": 12699145,
+  "name": "In the Matter of DISCIPLINE OF Diane Serafin BLANK.",
+  "name_abbreviation": "In re Blank",
+  "decision_date": "2013-11-12",
+  "docket_number": "No. D\u20132746.",
+  "first_page": "1009",
+  "last_page": "1009",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 1009"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 414"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 635"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 44,
+    "char_count": 358,
+    "sha256": "3b85c29aff963822a1fbe1c4ebb9a038d30d271de385d24fbfad948ddcb5c1cf",
+    "simhash": "1:39af772617feb7e0",
+    "word_count": 65
+  },
+  "last_updated": "2021-08-27T20:47:23.363448+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In the Matter of DISCIPLINE OF Diane Serafin BLANK."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "In the Matter of DISCIPLINE OF Diane Serafin BLANK.\nNo. D-2746.\nSupreme Court of the United States\nNov. 12, 2013.\nDiane Serafin Blank, of New York, New York, is suspended from the practice of law in this Court and a rule will issue, returnable within 40 days, requiring her to show cause why she should not disbarred from the practice of law in this Court."
+  },
+  "file_name": "1009-03",
+  "first_page_order": 1009,
+  "last_page_order": 1009
+}

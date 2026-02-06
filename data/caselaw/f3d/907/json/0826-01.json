@@ -1,0 +1,995 @@
+{
+  "id": 12519070,
+  "name": "IBERIABANK, Plaintiff - Appellee Cross-Appellant v. Darryl R. BROUSSARD, Defendant - Appellant Cross-Appellee",
+  "name_abbreviation": "IberiaBank v. Broussard",
+  "decision_date": "2018-10-25",
+  "docket_number": "No. 17-30662",
+  "first_page": "826",
+  "last_page": "845",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "907 F.3d 826"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "5th Cir.",
+    "id": 8820,
+    "name": "United States Court of Appeals for the Fifth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "157 F.3d 333",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11674905
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "338"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/157/0333-01"
+      ]
+    },
+    {
+      "cite": "818 So.2d 301",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9414826
+      ],
+      "weight": 2,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "306"
+        },
+        {
+          "page": "306"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/818/0301-01"
+      ]
+    },
+    {
+      "cite": "739 So.2d 183",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        11572981,
+        11572943
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "185"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/739/0183-02",
+        "/so2d/739/0183-01"
+      ]
+    },
+    {
+      "cite": "65 So.3d 1218",
+      "category": "reporters:state_regional",
+      "reporter": "So. 3d",
+      "case_ids": [
+        7037044
+      ],
+      "weight": 4,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "1227-28"
+        },
+        {
+          "page": "1228"
+        },
+        {
+          "page": "1228"
+        },
+        {
+          "page": "1228"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so3d/65/1218-01"
+      ]
+    },
+    {
+      "cite": "89 So.3d 307",
+      "category": "reporters:state_regional",
+      "reporter": "So. 3d",
+      "case_ids": [
+        7010583
+      ],
+      "weight": 4,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "312"
+        },
+        {
+          "page": "312"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so3d/89/0307-01"
+      ]
+    },
+    {
+      "cite": "172 So.3d 579",
+      "category": "reporters:state_regional",
+      "reporter": "So. 3d",
+      "case_ids": [
+        6856789
+      ],
+      "weight": 4,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "581"
+        },
+        {
+          "page": "581"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so3d/172/0579-01"
+      ]
+    },
+    {
+      "cite": "831 F.3d 268",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6055405
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "272"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/831/0268-01"
+      ]
+    },
+    {
+      "cite": "882 F.3d 180",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12515936
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "184"
+        },
+        {
+          "page": "184"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/882/0180-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1782",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "647 F. App'x 83",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        5927829
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "87",
+          "parenthetical": "noting that failure to seek a litigation hold can support the denial of a motion to compel in the 28 U.S.C. \u00a7 1782 context"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/647/0083-01"
+      ]
+    },
+    {
+      "cite": "116 So.3d 30",
+      "category": "reporters:state_regional",
+      "reporter": "So. 3d",
+      "case_ids": [
+        6998412
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "37"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so3d/116/0030-01"
+      ]
+    },
+    {
+      "cite": "71 So.3d 1128",
+      "category": "reporters:state_regional",
+      "reporter": "So. 3d",
+      "case_ids": [
+        7036287
+      ],
+      "weight": 2,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "1134-35"
+        },
+        {
+          "page": "1135",
+          "parenthetical": "quoting JCD Mktg. , 812 So.2d at 841 "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so3d/71/1128-01"
+      ]
+    },
+    {
+      "cite": "660 F.2d 594",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        390852
+      ],
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "601"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/660/0594-01"
+      ]
+    },
+    {
+      "cite": "812 So.2d 834",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9434524
+      ],
+      "weight": 2,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "841"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/812/0834-01"
+      ]
+    },
+    {
+      "cite": "970 F.2d 1",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10512896
+      ],
+      "weight": 2,
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "10"
+        },
+        {
+          "page": "10"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/970/0001-01"
+      ]
+    },
+    {
+      "cite": "719 So.2d 524",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        11687966
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "528"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/719/0524-01"
+      ]
+    },
+    {
+      "cite": "214 So.3d 1032",
+      "category": "reporters:state_regional",
+      "reporter": "So. 3d",
+      "case_ids": [
+        12364317
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1041"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so3d/214/1032-01"
+      ]
+    },
+    {
+      "cite": "989 F.2d 1419",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10518484
+      ],
+      "weight": 2,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "1422"
+        },
+        {
+          "page": "1422"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/989/1419-01"
+      ]
+    },
+    {
+      "cite": "35 So.3d 1053",
+      "category": "reporters:state_regional",
+      "reporter": "So. 3d",
+      "case_ids": [
+        7050366
+      ],
+      "weight": 3,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "1060"
+        },
+        {
+          "page": "1057",
+          "parenthetical": "\"LUTPA grants a right of action to any person, natural or juridical, who suffers an ascertainable loss as a result of another person's use of unfair methods of competition and unfair or deceptive acts or practices in the conduct of any trade or commerce.\" (emphasis added) "
+        },
+        {
+          "page": "1059"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so3d/35/1053-01"
+      ]
+    },
+    {
+      "cite": "207 So.3d 1172",
+      "category": "reporters:state_regional",
+      "reporter": "So. 3d",
+      "case_ids": [
+        12202762
+      ],
+      "weight": 4,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1180"
+        },
+        {
+          "page": "1180"
+        },
+        {
+          "page": "1177, 1180"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so3d/207/1172-01"
+      ]
+    },
+    {
+      "cite": "220 F.3d 396",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11203046
+      ],
+      "weight": 2,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "404"
+        },
+        {
+          "page": "405"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/220/0396-01"
+      ]
+    },
+    {
+      "cite": "11 F.3d 1316",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11328837
+      ],
+      "weight": 3,
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "1332"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/11/1316-01"
+      ]
+    },
+    {
+      "cite": "292 F.3d 471",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9416325
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "480",
+          "parenthetical": "quoting Omnitech Intern., Inc. v. Clorox Co., 11 F.3d 1316, 1332 (5th Cir. 1994) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/292/0471-01"
+      ]
+    },
+    {
+      "cite": "230 F.2d 919",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        71454
+      ],
+      "year": 1956,
+      "pin_cites": [
+        {
+          "page": "925"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/230/0919-01"
+      ]
+    },
+    {
+      "cite": "322 F.3d 353",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9369154
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "parenthetical": "quoting McClanahan v. United States , 230 F.2d 919, 925 (5th Cir. 1956) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/322/0353-01"
+      ]
+    },
+    {
+      "cite": "150 U.S. 118",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3571882
+      ],
+      "weight": 3,
+      "year": 1893,
+      "pin_cites": [
+        {
+          "page": "121"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/150/0118-01"
+      ]
+    },
+    {
+      "cite": "911 F.2d 1044",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10539282
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "1046",
+          "parenthetical": "quoting Graves v. United States , 150 U.S. 118, 121, 14 S.Ct. 40, 37 L.Ed. 1021 (1893) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/911/1044-01"
+      ]
+    },
+    {
+      "cite": "136 S.Ct. 1338",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12595701
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1343"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/136/1338-01"
+      ]
+    },
+    {
+      "cite": "138 S.Ct. 1897",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12612311
+      ],
+      "weight": 3,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1904-05",
+          "parenthetical": "internal quotations omitted"
+        },
+        {
+          "parenthetical": "internal quotations omitted"
+        },
+        {
+          "page": "1905"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/1897-01"
+      ]
+    },
+    {
+      "cite": "312 U.S. 552",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        359248
+      ],
+      "weight": 3,
+      "year": 1941,
+      "pin_cites": [
+        {
+          "page": "556"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/312/0552-01"
+      ]
+    },
+    {
+      "cite": "256 F.3d 330",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11086225
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "340",
+          "parenthetical": "citing Hormel v. Helvering , 312 U.S. 552, 556, 61 S.Ct. 719, 85 L.Ed. 1037 (1941) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/256/0330-01"
+      ]
+    },
+    {
+      "cite": "313 F. App'x 677",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        3882798
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "680"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/313/0677-01"
+      ]
+    },
+    {
+      "cite": "808 F.3d 1031",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4366838
+      ],
+      "weight": 2,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1036"
+        },
+        {
+          "page": "1036",
+          "parenthetical": "quoting In re Luhr Bros., Inc. , 157 F.3d 333, 338 (5th Cir. 1998) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/808/1031-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 1030",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(e)(8)"
+        },
+        {
+          "page": "(g)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "877 F.3d 591",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12265413
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "598"
+        },
+        {
+          "page": "598-99",
+          "parenthetical": "5th Cir. 2017"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/877/0591-01"
+      ]
+    },
+    {
+      "cite": "208 So.3d 971",
+      "category": "reporters:state_regional",
+      "reporter": "So. 3d",
+      "case_ids": [
+        12356360
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "980",
+          "parenthetical": "citing La. Civ. Code art. 2022 "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so3d/208/0971-01"
+      ]
+    },
+    {
+      "cite": "221 La. 677",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        9907194,
+        2952148
+      ],
+      "weight": 2,
+      "year": 1952,
+      "pin_cites": [
+        {
+          "parenthetical": "noting that a similar employment agreement was a commutative contract"
+        },
+        {
+          "page": "83-84",
+          "parenthetical": "noting that a similar employment agreement was a commutative contract"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/60/0083-01",
+        "/la/221/0678-01"
+      ]
+    },
+    {
+      "cite": "975 So.2d 691",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        8396009
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "695",
+          "parenthetical": "home-builder's failure to disclose mistake that caused home-buyers to purchase an adjacent lot supported damages award for the price of the lot"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/975/0691-01"
+      ]
+    },
+    {
+      "cite": "994 So.2d 57",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        8200567
+      ],
+      "weight": 3,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "63"
+        },
+        {
+          "parenthetical": "\"[A]n employee owes a duty to his employer to be loyal and faithful to the employer's interest in business.\""
+        },
+        {
+          "page": "63"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/994/0057-01"
+      ]
+    },
+    {
+      "cite": "529 F.3d 506",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3626477
+      ],
+      "weight": 3,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "509"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/529/0506-01"
+      ]
+    },
+    {
+      "cite": "806 F.3d 344",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4356878
+      ],
+      "weight": 2,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "353"
+        },
+        {
+          "page": "353"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/806/0344-01"
+      ]
+    },
+    {
+      "cite": "167 So.3d 746",
+      "category": "reporters:state_regional",
+      "reporter": "So. 3d",
+      "case_ids": [
+        6867227
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "762"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so3d/167/0746-01"
+      ]
+    },
+    {
+      "cite": "837 So.2d 11",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9355527
+      ],
+      "weight": 3,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "26"
+        },
+        {
+          "page": "26"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/837/0011-01"
+      ]
+    },
+    {
+      "cite": "68 So.3d 1099",
+      "category": "reporters:state_regional",
+      "reporter": "So. 3d",
+      "case_ids": [
+        7035995
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "1108-09"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so3d/68/1099-01"
+      ]
+    },
+    {
+      "cite": "245 So.3d 180",
+      "category": "reporters:state_regional",
+      "reporter": "So. 3d",
+      "case_ids": [
+        12670425
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "184"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so3d/245/0180-01"
+      ]
+    },
+    {
+      "cite": "313 U.S. 487",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6141361
+      ],
+      "weight": 3,
+      "year": 1941,
+      "pin_cites": [
+        {
+          "page": "496"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/313/0487-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1987,
+    "char_count": 51320,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2591008201636466
+    },
+    "sha256": "8b693421e2ffaaed194fa69f32e23e655aa85b6b8f428b1d92ef52ce05162c05",
+    "simhash": "1:af8e51668f0c5d71",
+    "word_count": 8003
+  },
+  "last_updated": "2024-02-27T18:46:00.884768+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before STEWART, Chief Judge, and WIENER and HIGGINSON, Circuit Judges."
+    ],
+    "parties": [
+      "IBERIABANK, Plaintiff - Appellee Cross-Appellant\nv.\nDarryl R. BROUSSARD, Defendant - Appellant Cross-Appellee"
+    ],
+    "opinions": [
+      {
+        "text": "STEPHEN A. HIGGINSON, Circuit Judge:\nDarryl Broussard formerly worked as a high-level officer at Teche Federal Bank, a small state-chartered bank in Louisiana. When Teche merged with the larger IberiaBank, Broussard and some of the lenders he supervised went to work at competitor JD Bank. Over the course of a six-day bench trial, talented counsel presented two starkly divergent narratives to explain this event. Broussard described IberiaBank as a greedy acquirer that threatened to deprive long-serving Teche employees of compensation they deserved, whereupon Broussard, their dedicated leader, helped arrange alternative employment. Oppositely, IberiaBank accused Broussard of orchestrating a covert \"lift-out\" operation that wrongfully divested the bank of valuable human resources for which it had negotiated in the merger agreement. The trial court was tasked with resolving these conflicting accounts into findings of fact, which we now review. The following statement of the case traces the narrative that the trial court adopted.\nBACKGROUND\nI. Factual\nFrom 1996 to May 31, 2014, Darryl Broussard worked as Senior Vice President and Chief Lending Officer at Teche Federal Bank, a state-chartered bank in Louisiana. In 2013, unbeknownst to Broussard, the bank's principal executives-Ross and Patrick Little-began looking for potential merger partners. When Broussard found out, in July 2013, he became upset and confronted Patrick Little.\nIn September 2013, Broussard entered into a \"Change-in-Control Severance Agreement\" (\"CCSA\") with Teche, which required the bank to pay him a bonus of 2.99 times his base salary in the event of a merger. Broussard, in return, promised to remain loyal to Teche. He pledged that, as a senior executive, he would \"not engage in any business or activity contrary to the business affairs or interests of [Teche].\" The CCSA allowed Teche to withhold Broussard's bonus if he was terminated for just cause, which was defined to include \"personal dishonesty,\" \"breach of fiduciary duty involving personal profit,\" and \"material breach\" of any provision of the contract. Additionally, the CCSA included an arbitration clause that permitted Broussard to recover his attorneys' fees.\nAt trial, Broussard testified that he understood that the CCSA required him to \"[r]un [Teche] as [he] ha[d] run it in the past,\" which meant that he would not be allowed to \"take action to diminish Teche's assets,\" \"recruit a team of commercial lenders away from Teche to a competitor bank,\" or \"give advice to a competitor on how to take Teche's customers away.\" Eventually, the trial court found that Broussard did all of those things.\nIn late 2013, Broussard heard rumors that IberiaBank, another Louisiana state-chartered bank, was emerging as the probable merger partner. Broussard contacted a recruiter he knew, Kim Raney, to \"put some feelers out\" for him.\nA month later-and after several meetings in which Broussard participated-Teche decided to merge into IberiaBank. Teche and IberiaBank executed a formal agreement in which Teche warranted to \"use reasonable best efforts to maintain and preserve intact its business organization, employees, and advantageous business relationships.\" Broussard confirmed at trial that he received a copy of that agreement on January 10, 2014.\nOn January 12, 2014-one day before Teche publicly announced the merger-Broussard signed an \"Employment Agreement\" with IberiaBank, which took effect \"as of the Merger Date.\" (The parties stipulated that the \"Merger Date\" was May 31, 2014.) That contract obligated IberiaBank to hire Broussard for the same executive role he performed at Teche. More importantly, the Employment Agreement promised Broussard a \"success bonus\" of $250,000, payable within 10 days of the \"successful completion\" of the \"conversion\" of Teche's branch and operating systems. Broussard testified that he understood that the \"conversion process\" required him to help transfer data from Teche to IberiaBank and to \"manag[e] [his] people, making sure that [they were] doing the right things.\"\nAs a \"material condition\" of the Employment Agreement, Broussard pledged his loyalty and honesty. Specifically, he promised to \"devote his full professional and business time and attention to the business of the Bank, to use his best efforts to advance the interests, business, and welfare of the Bank, and to render his services under [the Employment Agreement] fully, faithfully, diligently, loyally, competently, and to the best of his ability.\" Broussard also agreed to \"act solely in the best interest of the Bank in performing his duties.\"\nLike the CCSA, the Employment Agreement appended an arbitration clause. Unlike the CCSA, however, the arbitration provision in the Employment Agreement did not provide for recovery of attorneys' fees.\nIn March 2014, Broussard met with Boyd Boudreaux, the CEO of JD Bank. JD Bank directly competes with IberiaBank. Broussard explained to Boudreaux that his team \"wanted to stay together\" but \"didn't want to work for IberiaBank because of the merger.\" Boudreaux asked Broussard to prepare a \"business plan\" estimating revenues, salary, and other expenses that JD Bank should expect to accrue by hiring Broussard and his team.\nOn April 11, to help Broussard create the business plan, a Teche lender named Michael Comeaux emailed Broussard a confidential list of Teche clients whom Comeaux expected to follow him to JD Bank. The list included the clients' operating lines of credit, vehicle loans, requests for credit line increases, and similar information. The trial court found that Comeaux titled the list \"birthday.doc\" to hide it from Teche and IberiaBank. That same day, another lender, Kevin Caswell, sent Broussard an email listing ten clients that Caswell \"believed would stay loyal to [Caswell] and go with [him] wherever [he] may go.\" The email's subject line was \"items\" and Caswell conceded at trial that its content consisted of \"confidential\" information. Like Comeaux, Caswell hoped this information could be used to \"help [JD Bank] determine what our compensation could be.\"\nThree days later, Broussard emailed his business plan to Boudreaux. In that email, Broussard explained that he and his team had met with three banks so far but that \"all of my guys feel the most comfortable with ... JD Bank.\" In the attached business plan, Broussard proposed that JD Bank hire Broussard, three Teche lending officers (including Comeaux and Caswell), two Teche assistants, and a Teche credit analyst. Broussard also proposed giving \"fee waivers to move customers immediately.\" The next day, Broussard emailed Boudreaux a \"Loan Officer Report\" that Teche had used to calculate lenders' incentive payments. Boudreaux testified that this type of information would be helpful in competing for \"human resources.\"\nWhile these communications with Boudreaux were ongoing, Broussard was helping Teche determine \"pay-to-stay\" bonuses for the same lenders he was helping JD Bank recruit.\nOn April 15, JD Bank offered to hire Broussard and his team. Broussard responded with a request for higher salaries and, after some negotiation, JD Bank consented.\nBoudreaux emailed formal offer sheets for each lender to Broussard, \"relying on [Broussard] to get [all of the] offer sheets signed and returned.\" Broussard forwarded the offers individually to each lender's private email address. Broussard then collected the signed acceptances and, on May 1, forwarded them to JD Bank. Broussard and Boudreaux had arranged to put Broussard's team of lenders on the payroll by June 2, immediately after the Teche-IberiaBank merger date of May 31. Of note, Broussard did not date his own JD Bank acceptance letter because, as he explained to Boudreaux, \"While my non-complete [sic] with [IberiaBank] doesn't begin until May 30th, I want to confer with my attorney to make sure I establish the appropriate paper trail with regards to the date.\" Broussard testified at trial to his understanding that if either Teche or IberiaBank had \"found out about the decisions to accept positions with JD Bank, that could [have] jeopardize[d] the merger agreement.\" Ross Little testified that if he had known Broussard and his team of lenders \"had accepted employment at another competing institution,\" he would not have \"allowed them to remain employed with Teche.\"\nA few days after the \"paper trail\" email, Broussard forwarded \"proprietary\" program sheets to Boudreaux about loans that Teche had executed. Broussard invited Boudreaux to share that information with JD Bank's \"[r]etail folks,\" despite acknowledging that the data would still be confidential for weeks.\nBroussard also helped JD Bank find a branch location for his team to occupy. He even suggested that JD Bank purchase one of Teche's branch sites, as Broussard had learned from a Teche facilities manager that Teche planned to sell that location. Concerned that openly shopping for the branch would alert Teche and IberiaBank to JD Bank's plans to \"mov[e] into that market,\" Boudreaux suggested to Broussard that perhaps they \"[s]hould ... look at a ghost buyer so they know it isn't JD Bank.\" Broussard responded, \"Let me know if you need me to do anything on my end,\" and then took the initiative to speak with the Teche facilities manager about that potential location. Broussard reported back to Boudreaux about his conversation with the facilities manager and proposed, \"If you need me to work the offer a little with [her], let me know; she will be discreet with regards to me. I need to tread carefully here though.\"\nIn the week before the merger, Broussard deleted about 2 gigabytes of data from a drive on Teche's shared network. On May 29 and 30-days before the Teche-IberiaBank merger took effect-most members of Broussard's team rescinded their employment agreements with IberiaBank.\nThe merger closed, as planned, on May 31, 2014. That day, Teche (unaware of Broussard's relationship with JD Bank) paid Broussard $391,946, his bonus under the CCSA. Broussard commenced employment with IberiaBank two days later.\nDuring the week following the merger, Broussard deleted an additional 260 megabytes from IberiaBank's network. The parties dispute the trial court's finding that Broussard lacked authorization to delete this data.\nBroussard's tenure with IberiaBank lasted approximately one month. In that month, Broussard did not disclose to IberiaBank that he had helped negotiate employment for himself and several team members at JD Bank.\nNevertheless, on July 3, IberiaBank fired Broussard \"for cause.\" Teche's Senior Vice President testified that he would have fired Broussard earlier had he learned of Broussard's actions. Similarly, the IberiaBank officer who briefly supervised Broussard after the merger \"[w]ould ... have taken action to fire him\" earlier had Broussard disclosed his role in the \"lift-out.\" The bank's termination letter asserted: \"It has come to our attention that you actively recruited employees of [Teche] to leave the bank and to accept employment with another bank ... that directly compete[s] with us.\" Those \"and other actions,\" the letter alleged, constituted breaches of the Employment Agreement and Broussard's fiduciary duties. In exercising the \"just cause\" termination provision in the Employment Agreement, IberiaBank refused \"to remit any portion of the Success Bonus.\"\nII. Procedural\nOn July 3, the same day IberiaBank terminated Broussard's employment, the bank filed an arbitration demand as required by the CCSA and Employment Agreement. Four days later, IberiaBank forwarded its arbitration demand and a \"litigation hold letter\" to JD Bank. The letter requested that JD Bank preserve and retain all documents pertaining to: Broussard's team members; Teche and IberiaBank; Broussard's communications with Boudreaux and any other JD Bank agents from the previous 12 months; and any \"[d]ocuments relating to or concerning any claims set forth in\" the arbitration demand attached to the hold letter.\nIn August 2014, IberiaBank filed suit in the U.S. District Court for the Western District of Louisiana, invoking the Computer Fraud and Abuse Act (\"CFAA\"), and seeking a declaratory judgment that IberiaBank was not required to pay Broussard his success bonus.\nOver the next few months, Broussard and IberiaBank discussed whether to pursue their dispute in arbitration or in federal court. On January 16, 2015, the parties executed an \"Amendment to Employment Agreement.\" They agreed to close the arbitration and pursue \"any claims previously subject to mandatory arbitration\" in the federal action pending before the Western District of Louisiana.\nAs relevant to this appeal, IberiaBank's claims are: (1) breach of the CCSA, (2) breach of the Employment Agreement, (3) violation of the CFAA, and (4) violation of the Louisiana Unfair Trade Practices Act (\"LUTPA\"). Three of Broussard's counterclaims are also under review: (1) breach of the Employment Agreement's bonus provision, (2) intentional interference with business relations, and (3) breach of the attorneys' fees provision in the CCSA.\nThe district court granted summary judgment on some claims. The parties consented to a bench trial before a magistrate judge, who resolved the remaining claims. Both parties timely appealed the adverse rulings. We reverse in part and affirm in part.\nANALYSIS\nIII. Whether Broussard Breached the CCSA\nThe trial court found that Broussard breached the CCSA. We affirm.\nWhen reviewing a state law contract claim, a federal court in Louisiana is bound by the state's choice-of-law rules. See, e.g. , Klaxon Co. v. Stentor Elec. Mfg. Co. , 313 U.S. 487, 496, 61 S.Ct. 1020, 85 L.Ed. 1477 (1941). Louisiana rules provide that where, as here, a contract includes a choice-of-law provision, the provision \"is presumed valid until it is proved invalid.\" Daniels v. Int'l Paper Co. , 245 So.3d 180, 184 (La. App. 2 Cir. 2017). The parties to the CCSA chose Louisiana as the source of law governing the contract's \"validity\" and \"construction.\" Accordingly, Louisiana law governs this breach-of-contract claim.\nIn Louisiana, a breach-of-contract claim has three \"essential\" elements: \"(1) the obligor's undertaking an obligation to perform, (2) the obligor failed to perform the obligation (the breach), and (3) the failure to perform resulted in damages to the obligee.\" Favrot v. Favrot , 68 So.3d 1099, 1108-09 (La. App. 4 Cir. 2011). The first two elements of a breach-of-contract claim, obligation and breach, \"involve[ ] issues of both contractual interpretation as a matter of law, as well as questions of fact regarding whether the actions of the parties actually constituted the alleged breach under the applicable contractual terms.\" Mobil Expl. & Producing U.S. Inc. v. Certain Underwriters Subscribing to Cover Note 95-3317(A) , 837 So.2d 11, 26 (La. App. 1 Cir. 2002). The third element, damages, is a question of fact. LAD Servs. of La., L.L.C. v. Superior Derrick Servs., L.L.C. , 167 So.3d 746, 762 (La. App. 1 Cir. 2014).\nAccordingly, we interpret the CCSA's terms de novo, but use a clear-error lens when examining whether Broussard breached and caused damages. See Lewis v. Ascension Par. Sch. Bd. , 806 F.3d 344, 353 (5th Cir. 2015) (\"The standard of review for a bench trial is well established: findings of fact are reviewed for clear error and legal issues are reviewed de novo.\" (quoting Bd. of Trs. New Orleans Emp'rs Int'l Longshoremen's Ass'n v. Gabriel, Roeder, Smith & Co. , 529 F.3d 506, 509 (5th Cir. 2008) ) ). A factual finding in a bench trial \"is clearly erroneous if it is without substantial evidence to support it, the court misinterpreted the effect of the evidence, or this court is convinced that the findings are against the preponderance of credible testimony.\" Id. (quoting Bd. of Trs. , 529 F.3d at 509 ).\nThe trial court correctly concluded that Broussard breached the CCSA. The CCSA prohibited Broussard from \"engag[ing] in any ... activity contrary to the business affairs or interests of the Bank.\" The evidence showed that Teche's interests included complying with the merger agreement, which required Teche to \"[u]se [its] best efforts to deliver\" Teche's employees to IberiaBank. And Louisiana law makes clear that fiduciaries like Broussard must disclose any potential conflicts of interest to their beneficiaries. See Novelaire Techs., L.L.C. v. Harrison , 994 So.2d 57, 63 (La. App. 5 Cir. 2008) (\"A fiduciary duty includes the obligation to render a full and fair disclosure to the beneficiary of all facts which materially affect his rights and interests. [T]he fiduciary's duty to disclose has been held paramount to the beneficiary's duty to investigate possible conflicts of interest.\" (citation omitted) ); see also id. (\"[A]n employee owes a duty to his employer to be loyal and faithful to the employer's interest in business.\").\nHere, there was no doubt-even in Broussard's mind-that under the circumstances, Broussard had a fiduciary duty not to \"take action to diminish Teche's assets,\" not to \"recruit a team of commercial lenders away from Teche to a competitor bank,\" and not to \"give advice to a competitor on how to take Teche's customers away.\" The trial court found that Broussard disregarded those obligations, and we perceive sufficient trial evidence to support the trial court's factual finding that Broussard breached the CCSA.\nAdditionally, the trial court did not clearly err in finding that Broussard caused damages equal to his Teche bonus. Under article 1994 of the Louisiana Civil Code, \"[a]n obligor is liable for the damages caused by his failure to perform a conventional obligation.\" \"Damages are measured by the loss sustained by the obligee and the profit of which he has been deprived.\" La. Civ. Code art. 1995. The measure of damages can include an \"additional expense\" that an obligee incurs because of the obligor's breach. Swoboda v. SMT Props., L.L.C. , 975 So.2d 691, 695 (La. App. 2 Cir. 2008) (home-builder's failure to disclose mistake that caused home-buyers to purchase an adjacent lot supported damages award for the price of the lot).\nBroussard's breach of the CCSA-which included both his disloyalty and his failure to disclose that disloyalty-caused Teche to pay money that it would not have otherwise paid. Teche's Senior Vice President testified that, had he known that Broussard and his team of lenders \"had accepted employment at another competing institution,\" Teche would not have \"allowed them to remain employed with Teche.\" In other words, the evidence supports the finding that Teche would have exercised the \"just cause\" provision to terminate Broussard's employment instead of paying his bonus. The trial court did not clearly err in drawing that conclusion.\nSeeking to avoid this result, Broussard contends that Teche suffered no harm because \"Teche closed the merger on the agreed terms\" with IberiaBank. Broussard also contends that IberiaBank failed to show \"lost profits.\" Finally, Broussard maintains that awarding IberiaBank the amount of the Teche bonus constituted the remedy of rescission, which the bank never requested.\nFirst, Teche's ability to close the merger despite a fiduciary's disloyalty does not address the relevant question: whether Broussard's breach caused Teche to pay money it would not have otherwise paid. Second, the trial court explicitly announced that it was not awarding lost profits (so it is immaterial that IberiaBank failed to show them). Finally, the trial court did not order rescission; rather, it simply and properly measured the amount of harm Broussard caused through the receipt of funds he was not due.\nWe therefore affirm the trial court's holding on this breach-of-contract claim.\nIV. Whether IberiaBank Breached the Employment Agreement\nBroussard alleges, as a counter-claim, that IberiaBank breached the Employment Agreement by failing to pay his success bonus. The trial court did not clearly err in concluding that Broussard failed to prove a breach of the Employment Agreement.\nThe trial court focused on the second element of a contract claim-breach-and concluded that IberiaBank \"had no obligation\" to pay the $250,000 success bonus to Broussard. On review, this court again faces a mixed question of law and fact and we conduct de novo legal interpretation of the contract terms and clear-error factual review of whether IberiaBank's conduct amounted to a breach. Mobil , 837 So.2d at 26 ; see also Lewis , 806 F.3d at 353.\nThe Employment Agreement was a \"commutative contract\" in that \"the performance of the obligation of each party [was] correlative to the performance of the other.\" La. Civ. Code art. 1911 ; see Martin-Parry Corp. v. New Orleans Fire Detection Serv. , 221 La. 677, 60 So.2d 83, 83-84 (1952) (noting that a similar employment agreement was a commutative contract). \"A party to a commutative contract may refuse to perform his obligation if the other has failed to perform.\" Harter v. Harter , 208 So.3d 971, 980 (La. App. 2 Cir. 2016) (citing La. Civ. Code art. 2022 ). As the party seeking to recover on a commutative contract, Broussard had the burden to \"prove performance of his agreement.\" Id. He has not. To the contrary, despite a contractual duty of loyalty and a fiduciary duty to disclose any potential conflicts of interest, e.g. , Novelaire , 994 So.2d at 63, Broussard failed to disclose that he had already entered an employment agreement to join his former team at a rival bank. IberiaBank therefore had no duty to perform.\nAccordingly, the trial court's conclusion that IberiaBank did not breach its contract with Broussard is affirmed.\nV. Whether Broussard Violated the Computer Fraud and Abuse Act\nThe trial court properly concluded that Broussard violated the CFAA.\n\"Section 1030(a)(5)(A) [of the CFAA] prohibits intentionally damaging a computer system when there was no permission to engage in that particular act of damage.\" United States v. Thomas , 877 F.3d 591, 598 (5th Cir. 2017). The statute defines \"damage\" as \"any impairment to the integrity or availability of data, a program, a system, or information.\" 18 U.S.C. \u00a7 1030(e)(8). IberiaBank alleged a private right of action as allowed under 18 U.S.C. \u00a7 1030(g), contending that Broussard unlawfully deleted data from its servers. The trial court agreed, holding that Broussard lacked permission to delete files from his H:drive and his actions caused $6,233.33 in damages. Broussard argues on appeal that the trial court clearly erred in finding that he lacked authorization to delete files during the weeks before and after the merger. He does not separately challenge the damage award.\nWhether Broussard had authorization is a question of fact. See Thomas , 877 F.3d at 598-99 (5th Cir. 2017) (evaluating the same question in a criminal case for sufficiency of the evidence). The trial court's fact-finding here receives extra deference because it was based on a determination of credibility. See Guzman v. Hacienda Records & Recording Studio, Inc. , 808 F.3d 1031, 1036 (5th Cir. 2015). Specifically, the trial court declined to credit Broussard's own testimony that he received authorization.\nThe evidence revealed that before the merger, Broussard signed an agreement forbidding him from \"harming [IberiaBank] systems or any stored information data by activities such as ... damaging files.\" When deposed on whether he had \"ask[ed for] permission before [he] deleted whatever [he] deleted,\" Broussard responded, \"I didn't, because I didn't see anything wrong with it, to be honest with you.\" At trial, Broussard asserted that Jason Freyou instructed him to delete data. This assertion created tension, if not contradiction, with his deposition testimony. Moreover, the trial court noted that Broussard did not inform anyone at IberiaBank that he had deleted documents from his H:drive.\nIberiaBank offered Ross Little's testimony that he could not recall any Teche officer ever directing Broussard to delete data, and that he would have been in the critical meeting in which Freyou allegedly gave Broussard that instruction. Affording due deference to the trial court in its assessment of competing testimony, as we must, there was no clear error in the factual finding that Broussard lacked authorization.\nBroussard's two counterarguments are unavailing.\nFirst, Broussard argues that the trial court improperly sustained IberiaBank's hearsay objection when Broussard asked Ross Little on cross-examination whether Freyou \"specifically instruct[ed] employees at one of the Teche Federal board meetings that everybody was going to be instructed to clear up their shared access drive....\" At trial, Broussard proffered that Little's testimony about Freyou's alleged statement would not have been hearsay because it was an \"instruction.\" On appeal, Broussard argues that Freyou's statement would have been non-hearsay pursuant to the \"opposing party\" rule. See Fed. R. Evid. 801(d)(2)(D). When a party on appeal urges a new admissibility argument, distinct from the argument advanced at trial, we review the admission or exclusion of evidence for plain error. See United States v. Gonzalez-Perales , 313 F. App'x 677, 680 (5th Cir. 2008) ; United States v. Jimenez , 256 F.3d 330, 340 (5th Cir. 2001) (citing Hormel v. Helvering , 312 U.S. 552, 556, 61 S.Ct. 719, 85 L.Ed. 1037 (1941) ). Plain error must not have been \"intentionally relinquished or abandoned,\" must be \"clear or obvious,\" and must have affected the party's \"substantial rights\"; to satisfy the third condition, a party ordinarily must \"show a reasonable probability that, but for the error, the outcome of the proceeding would have been different.\" Rosales-Mireles v. United States , --- U.S. ----, 138 S.Ct. 1897, 1904-05, 201 L.Ed.2d 376 (2018) (internal quotations omitted). \"Once those three conditions have been met, 'the court of appeals should exercise its discretion to correct the forfeited error if the error seriously affects the fairness, integrity or public reputation of judicial proceedings.' \" Rosales-Mireles , 138 S.Ct. at 1905 (quoting Molina-Martinez v. United States , --- U.S. ----, 136 S.Ct. 1338, 1343, 194 L.Ed.2d 444 (2016) ).\nWe conclude that any hearsay error did not rise to the level of plain error. At trial, before Broussard asked the cross-examination question that drew a hearsay objection, Ross Little testified that he did not remember whether, \"as part of the merger process, the Teche Federal employees were asked to clean up their hard drives.\" Therefore, effectively, Little had already answered the question of whether Freyou had asked Teche employees to delete data with the concession that he did not remember anyone doing so. Moreover, as outlined above, there was significant other evidence that the trial court cited to support its ruling against Broussard-including the deposition's inconsistency with trial testimony as well as that Broussard had signed an agreement not to damage any IberiaBank files and that Broussard did not inform anyone afterwards that he had made the deletions.\nSecond, Broussard argues that IberiaBank should have called Freyou as a witness, citing the \"uncalled witness\" rule. Under this century-old rule, \"if a party has it peculiarly within his power to produce witnesses whose testimony would elucidate the transaction, the fact that he does not do it creates the presumption that the testimony, if produced, would be unfavorable.\" Herbert v. Wal-Mart Stores, Inc. , 911 F.2d 1044, 1046 (5th Cir. 1990) (quoting Graves v. United States , 150 U.S. 118, 121, 14 S.Ct. 40, 37 L.Ed. 1021 (1893) ). There is \"an important exception to the applicability of the presumption: if the witness is 'equally available' to both parties, any negative inference from one party's failure to call that witness is impermissible.\" United States v. Wilson , 322 F.3d 353, 363 n.14 (5th Cir. 2003) (quoting McClanahan v. United States , 230 F.2d 919, 925 (5th Cir. 1956) ). That is the case here: either party could have called Freyou. At oral argument, when presented with that point, Broussard could not supply any reason why Freyou would have been less available to him than to IberiaBank. The \"uncalled witness\" doctrine is therefore inapplicable.\nBecause there was sufficient evidence to support the trial court's finding that Broussard lacked authorization to delete IberiaBank files, the trial court's CFAA ruling is affirmed.\nVI. Whether IberiaBank Can Recover under the Louisiana Unfair Trade Practices Act\nIberiaBank cross-appealed the trial judge's holding that IberiaBank could not recover attorneys' fees under LUTPA. Conceding that the trial court did not commit any specific factual errors, IberiaBank nonetheless argues that the trial court applied an incorrect standard of law. We agree.\nLUTPA prohibits \"[u]nfair methods of competition and unfair or deceptive acts or practices in the conduct of any trade or commerce.\" La. Rev. Stat. \u00a7 51:1405(A). It affords a private right of action to \"[a]ny person who suffers any ascertainable loss\" as a result of the unlawful conduct. \u00a7 51:1409(A). To recover, the plaintiff must \"prove some element of fraud, misrepresentation, deception or other unethical conduct.\" Tubos de Acero de Mexico, S.A. v. Am. Int'l Inv. Corp. , 292 F.3d 471, 480 (5th Cir. 2002) (quoting Omnitech Intern., Inc. v. Clorox Co., 11 F.3d 1316, 1332 (5th Cir. 1994) ).\n\"What constitutes an unfair trade practice is determined by the courts on a case-by-case basis.\" Id. But a court should find a practice \"unfair under the statute only when\" the practice \"offends established public policy and is immoral, unethical, oppressive or unscrupulous.\" Id. (quoting Computer Mgmt. Assistance Co. v. Robert F. DeCastro, Inc. , 220 F.3d 396, 404 (5th Cir. 2000) ); see also Monroe v. McDaniel , 207 So.3d 1172, 1180 (La. App. 5 Cir. 2016) (\"[T]he range of prohibited practices under LUTPA is extremely narrow and includes 'only egregious actions involving elements of fraud, misrepresentation, deception, or other unethical conduct.' \" (quoting Cheramie Servs., Inc. v. Shell Deepwater Prod., Inc. , 35 So.3d 1053, 1060 (La. 2010) ) ). The \"defendant's motivation\"\nis a critical factor-his \"actions must have been taken with the specific purpose of harming the competition.\" Monroe , 207 So.3d at 1180.\nThe trial court concluded that IberiaBank was not entitled to relief under LUTPA because: (1) \"a LUTPA violation should be found only when the plaintiff has no other means of recourse,\" and (2) IberiaBank failed to present evidence establishing \"acts or omissions by Broussard that were unfair to the Bank's customers or were undertaken in Broussard's activities on behalf of the Bank in the course of its commercial activities.\" But these are not prerequisites for a LUTPA claim.\nAlthough LUTPA does not provide an alternative remedy for simple breaches of contract, see Turner v. Purina Mills, Inc. , 989 F.2d 1419, 1422 (5th Cir. 1993), it does not follow that \"a LUTPA violation should be found only when the plaintiff has no other means of recourse.\" To the contrary, Louisiana courts permit LUTPA claims based on breaches of ethical standards even if there are \"parallel remedies for similar conduct.\" Computer Mgmt. , 220 F.3d at 405.\nFurther, a LUTPA plaintiff need not show that harm accrued to its customers. See, e.g. , Cheramie , 35 So.3d at 1057 (\"LUTPA grants a right of action to any person, natural or juridical, who suffers an ascertainable loss as a result of another person's use of unfair methods of competition and unfair or deceptive acts or practices in the conduct of any trade or commerce.\" (emphasis added) ). Additionally, LUTPA is not limited to misconduct committed \"on behalf of the [plaintiff] in the course of [the plaintiff's] commercial activities.\" The statute instead covers unfair \"acts or practices in the conduct of any trade or commerce.\" La. Rev. Stat. \u00a7 51:1405(A) (emphasis added). LUTPA defines \"trade or commerce\" broadly: \"the advertising, offering for sale, sale, or distribution of any services ... and any other ... thing of value wherever situated.\" La. Rev. Stat. \u00a7 51:1402(10). By its own terms, the statute covers \"offering for sale\" of \"services,\" which is what Broussard offered JD Bank as his lending team's mouthpiece.\nBecause the trial court focused on narrowing requirements which are not determinative under LUTPA, the trial court erred in denying relief on those bases. Furthermore, it appears that the trial court did not assess a \"critical factor\" in any LUTPA claim: \"the defendant's motivation.\" Balthazar v. Hensley R. Lee Contracting, Inc. , 214 So.3d 1032, 1041 (La. App. 4 Cir. 2017) ; accord, e.g. , Monroe , 207 So.3d at 1180 ; Nursing Enters., Inc. v. Marr , 719 So.2d 524, 528 (La. App. 2 Cir. 1998). As courts frequently explain, LUTPA claims must be assessed on a \"case-by-case basis.\" See, e.g. , Cheramie , 35 So.3d at 1059. Although breach of fiduciary duty does not necessarily amount to a LUTPA violation, see Monroe , 207 So.3d at 1177, 1180, many successful LUTPA actions have resulted from abuses of the \"special relationship of trust between the employer and employee.\" Turner , 989 F.2d at 1422.\nUltimately, we decline to resolve whether there has been a LUTPA violation here. Unresolved factual complexities abound in the areas of causation and damages, which we cannot determine on appeal. Accordingly, the LUTPA judgment is vacated and remanded. On remand, the trial court shall consider IberiaBank's legal claim and its supporting facts in accordance with Louisiana's LUTPA case law.\nVII. Whether the District Court Properly Granted Summary Judgment Against Broussard on his Claim for Interference with Business Relations\nLouisiana recognizes a cause of action for tortious interference with business relations. Junior Money Bags, Ltd. v. Segal , 970 F.2d 1, 10 (5th Cir. 1992). \"Although this cause of action has an ancient vintage,\" Louisiana courts view it \"with disfavor.\" JCD Mktg. Co. v. Bass Hotels & Resorts, Inc. , 812 So.2d 834, 841 (La. App. 4 Cir. 2002).\nThe claim's animating concept is that \"the right to influence others not to deal is not absolute.\" Junior Money Bags , 970 F.2d at 10. It \"protects the businessman from 'malicious and wanton interference,' permitting only interferences designed to protect a legitimate interest of the actor.\" Dussouy v. Gulf Coast Inv. Corp. , 660 F.2d 594, 601 (5th Cir. 1981). To succeed, a plaintiff must prove by a preponderance of the evidence that the defendant: (1) \"acted with actual malice\"; (2) \"actually prevented the plaintiff from dealing with a third party\"; (3) acted \"improperly,\" i.e., not to \"protect legitimate interests\"; and (4) caused damage to the plaintiff. See Bogues v. La. Energy Consultants, Inc. , 71 So.3d 1128, 1134-35 (La. App. 2 Cir. 2011) ; Henderson v. Bailey Bark Materials , 116 So.3d 30, 37 (La. App. 2 Cir. 2013).\nBroussard's claim for tortious interference highlights that IberiaBank sent a \"litigation hold letter\" and a copy of its arbitration demand to JD Bank. Broussard alleges that this correspondence tortiously interfered with his business relations because JD Bank ultimately rescinded Broussard's employment.\nThe district court concluded that IberiaBank had acted with a \"good faith, reasonable belief that Broussard had improperly handled IberiaBank's proprietary data and potentially shared that data with IberiaBank's competitor JD Bank.\" After reviewing the record, we agree. In such circumstances, sending a litigation hold letter protected IberiaBank's legitimate interests. See, e.g. , In re Ex Parte Glob. Energy Horizons Corp. , 647 F. App'x 83, 87 (3d Cir. 2016) (noting that failure to seek a litigation hold can support the denial of a motion to compel in the 28 U.S.C. \u00a7 1782 context). We also hold, affirming the district court's finding, that attaching the arbitration demand was a reasonable way to ensure that JD Bank understood what kinds of documents it should retain and preserve pursuant to the litigation hold. IberiaBank's litigation behavior, the district court correctly held, did not demonstrate actual malice. Accordingly, we affirm the district court's ruling.\nVIII. Rulings on Attorneys' Fees\nBroussard alleges that, under the CCSA, IberiaBank owes him the attorneys' fees he incurred during this entire litigation. IberiaBank argues primarily that Louisiana law does not permit an officer of a state-chartered bank to recover attorneys' fees when that officer breached his fiduciary duties to the bank and, in the alternative, that the trial court properly limited Broussard's recovery to arbitration fees. As a threshold matter, the court must determine whether Louisiana law permits a state-chartered bank to indemnify an officer who breached his or her fiduciary duty.\nA. Whether Louisiana Law Permits an Officer of a State-Chartered Bank to Recover Attorneys' Fees when that Officer Breached his Fiduciary Duties to the Bank\nThe court's review here is de novo, because this is both a summary judgment issue, Davidson v. Fairchild Controls Corp. , 882 F.3d 180, 184 (5th Cir. 2018), and a question of statutory interpretation, see Bombardier Aerospace Corp. v. United States , 831 F.3d 268, 272 (5th Cir. 2016).\nUnder Louisiana law, \"[t]he paramount question in all cases of statutory interpretation is legislative intent.\" Anderson v. Ochsner Health Sys. , 172 So.3d 579, 581 (La. 2014). This enterprise \"begins with the language of the statute itself.\" Arabie v. CITGO Petroleum Corp. , 89 So.3d 307, 312 (La. 2012). \"When the provision is clear and unambiguous and its application does not lead to absurd consequences, its language must be given effect, and its provisions must be construed so as to give effect to the purpose indicated by a fair interpretation of the language used.\" McGlothlin v. Christus St. Patrick Hosp. , 65 So.3d 1218, 1227-28 (La. 2011). \"Words and phrases must be read with their context and construed according to the common and approved usage of the language,\" and courts should \"give effect to all parts of a statute and to construe no sentence, clause, or word as meaningless and surplusage if a construction giving force to and preserving all words can legitimately be found.\" Id. at 1228. If \"doubt exists as to the proper interpretation of a statute, the title or preamble may be used to determine legislative intent.\" Anderson , 172 So.3d at 581.\nIberiaBank argues that Broussard is disentitled to attorneys' fees because he breached his fiduciary duties to Teche and IberiaBank. This argument mistakenly conflates the indemnification scheme for officers and directors. Specifically, IberiaBank argues that under La. Rev. Stat. \u00a7 6:286(A)(4), a bank \"may not\" indemnify a director if \"the director was adjudged liable to the state bank.\" Id. \u00a7 6:286(A)(4)(a). Thus, according to IberiaBank, and despite their agreement oppositely, Broussard is ineligible for indemnification because the trial court found him liable for breach of fiduciary duties. The linchpin of IberiaBank's argument is that an officer, like Broussard, is treated the same under state law as a director.\nBut we conclude that the statute does not permit such a reading. Subsections 6:286(F)(1) and (F)(2) treat officers and directors similarly. Compare \u00a7 6:286(F)(1) (\"An officer ... who is not a director is entitled to mandatory indemnification ... to the same extent as to a director.\"), with \u00a7 6:286(F)(2) (\"A state bank may indemnify ... an officer ... who is not a director to the same extent as to a director\"), but subsection (F)(3) explicitly creates an officer/director distinction by providing that a bank \"may also indemnify\" an officer, \"to the extent, consistent with law, that may be provided by ... contract.\" Id. \u00a7 6:286(F)(3) (emphasis added). By that plain language, officers are given greater power to contract for indemnification than directors. Because subsection (F)(2) establishes the same floor for directors and officers, subsection (F)(3)'s use of the word \"also\" must add something beyond (F)(2) to avoid surplusage. See McGlothlin , 65 So.3d at 1228.\nAlthough \"the Official Revision Comments are not the law, they may be helpful in determining legislative intent.\" Arabie , 89 So.3d at 312. The official comment to the Louisiana statute states that \u00a7 6:286\"is derived from the more extensive provisions on indemnification contained in the 1983 Revised Model Business Corporation Act.\" La. Rev. Stat. \u00a7 6:286 cmt. (citing Model Business Corporation Act \u00a7 8.56(3) (Am. Bar Ass'n 1984) [hereinafter, \"Model Act\"] ). The Model Act expressly contemplated that directors and officers would be treated differently; its official comment states that \"[officer] indemnification may be broader than the right of indemnification granted to directors....\" Id. \u00a7 8.56 cmt.1; see also id. cmt.3 (\"[T]he net effect of section 8.56 is to provide officers with no less protection than is provided directors ... and, additionally, to permit the corporation to provide broader indemnification for officers who are not directors.\").\nIberiaBank flags subsection (F)(3)'s requirement that officer indemnification be \"consistent with law,\" La. Rev. Stat. \u00a7 6:286(F)(3), however, neither party, nor this court, could identify Louisiana law prohibiting officer indemnification following a breach of fiduciary duty.\nIberiaBank also asserts that public policy should disfavor indemnification here because \"it is ultimately depositors' funds that are placed at risk when a state bank pledges to indemnify its officers.\" Yet depositors' funds are always at risk with indemnification, and \"public policy\" is distinct from \"law.\" Compare La. Rev. Stat. \u00a7 6:286(F)(3) (\"consistent with law\"), with Model Act \u00a7 8.56(3) (\"consistent with public policy\"). IberiaBank also leans on the separate statutory provision, La. Rev. Stat. \u00a7 6:286(D)(2), which permits directors to \"apply for indemnification to the court\" and requires the judge to \"decide whether exceptional circumstances exist demonstrating that 'fairness' and 'reason' justify indemnification.\" Finally, IberiaBank argues that indemnifying Broussard would unleash \"absurd consequences\" because \"an officer with enough bargaining power could have his attorney's fees covered-no matter what kind of legal proceeding he might be force to defend (say, for embezzlement).\" We are not in the position to say that such a circumstance would be \"absurd.\"\nB. Whether Broussard May Recover Fees Incurred during Litigation or Only Those Incurred during Arbitration\nHaving concluded that no generally applicable Louisiana law bars Broussard from recovering attorneys' fees under the indemnification clause of the CCSA, the question is which fees are covered by the contract. The trial court limited Broussard's recovery to fees incurred during arbitration. Broussard fails to show reversible error.\nBecause Broussard challenges a summary judgment on his contract claim for fees, the panel reviews de novo. See Davidson , 882 F.3d at 184.\nThe issue hinges on contract interpretation-a legal question in Louisiana. Mobil Expl. & Producing U.S. Inc. , 837 So.2d at 26. Louisiana's \"general rule\" is that \"attorney[s'] fees are not allowed except where authorized by statute or contract.\" Nassif v. Sunrise Homes, Inc. , 739 So.2d 183, 185 (La. 1999). Agreements to indemnify \"are strictly construed.\" McGill v. Cochran-Sysco Foods , 818 So.2d 301, 306 (La. App. 2 Cir. 2002).\nBroussard's claim for fees stems from \u00a7 8(c) of the CCSA:\n(c) Arbitration. Any controversy or claim arising out of or relating to this Agreement, or the breach thereof, shall be settled by arbitration in accordance with the rules then in effect of the district office of the American Arbitration Association (\"AAA\") nearest to the home office of the Bank ... The Bank shall incur the cost of all fees and expenses associated with filing a request for arbitration with the AAA, whether such filing is made on behalf of the Bank or the Employee, and the costs and administrative fees associated with employing the arbitrator and related administrative expenses assessed by the AAA. The Bank shall reimburse Employee for all costs and expenses, including reasonable attorneys' fees, arising from such dispute, proceedings or actions, notwithstanding the ultimate outcome thereof, following the delivery of the decision of the arbitrator or upon delivery of other legal judgment or settlement of the matter ... The provisions of this Section 8(c) shall survive the expiration or termination of this Agreement.\nOn appeal, Broussard argues that the CCSA's \"provision for attorney's fees\" was not \"limited to fees incurred in arbitration.\" He contends this court should award fees because the CCSA permits reimbursement broadly, \"in connection with [a] dispute, proceeding[ ] or action.\"\nThe more sensible interpretation is that the CCSA's fees provision, which falls under the heading, \"Arbitration,\" would be limited to just that-arbitration. See La. Civ. Code art. 2050 (\"Each provision in a contract must be interpreted in light of the other provisions so that each is given the meaning suggested by the contract as a whole.\"). Moreover, the clause begins with a mandatory \"shall,\" which links any dispute described thereunder to arbitration (without exception). When the attorneys' fees sentence refers to \"such dispute,\" the only reasonable reading is that the dispute must be one in arbitration.\nBroussard also posits that he and IberiaBank \"materially altered the terms of the CCSA ... through [the Amendment to Employment Agreement].\" This alteration, he contends, permitted Broussard to recover fees outside of arbitration. There is no question that two contracts applied to Broussard: the CCSA (with Teche) and the Employment Agreement (with IberiaBank). Both agreements had arbitration clauses. The CCSA included an attorneys' fees provision; the Employment Agreement did not. The Amendment to Employment Agreement explicitly nullified the arbitration clause of the Employment Agreement so that the parties could proceed to litigation, but it never mentioned the CCSA. Had the parties intended to incorporate and expand the CCSA's attorneys' fees provision to the Employment Agreement through the Amendment to Employment Agreement, it is unlikely that they would have done so without ever mentioning the CCSA provision specifically or even fees generally. Agreements to indemnify must be strictly construed. See McGill , 818 So.2d at 306.\nThe trial court's judgment is affirmed.\nCONCLUSION\nThe trial court's judgment on IberiaBank's LUTPA claim is VACATED and REMANDED. In all other respects, the judgment below is AFFIRMED.\nBroussard testified that he was upset because he had cashed in certain stock options valued at $270-300,000, which he would have kept had he known about a forthcoming merger. He also explained that he was upset, as a senior leader at Teche, that he was not told sooner about the decision.\nAs its name suggests, the CCSA contemplated a change in control, so it provided that if another bank took over Teche, the CCSA would \"inure to the benefit of and be binding upon\" Teche's successor. Cf. La. Rev. Stat. \u00a7 6:355(C) (\"Upon the effectiveness of [a] merger[,] ... the effect thereof shall be that ... [t]he surviving or new bank shall possess all the rights, privileges, and franchises possessed by each of the former banks merged or consolidated.\").\nThe trial court was tasked with resolving the factual question of whether the title \"birthday.doc\" was intended to be deceptive. Comeaux testified in his deposition that he named the file \"birthday.doc\" because he was \"possibly trying to hide the document\" from Teche. At trial, Comeaux testified that he did not know why he chose that title but surmised, \"I had a couple [documents] actually under happy birthday . And I would typically, when it was an employee's birthday, I would send them some sort of comical strip or something and do that for their birthday.\" IberiaBank impeached Comeaux with his deposition testimony. In its factual findings, the trial court found it more likely than not that Comeaux \"entitled the document birthday.doc in an effort to hide it from Teche and IberiaBank.\" The trial court's credibility conclusion enjoys extra deference, see, e.g. , Guzman v. Hacienda Records & Recording Studio, Inc. , 808 F.3d 1031, 1036 (5th Cir. 2015) (quoting In re Luhr Bros., Inc. , 157 F.3d 333, 338 (5th Cir. 1998) ), and we discern no clear error in that finding.\nBroussard conceded that he lacked Teche's \"specific permission\" to send this document.\nIn summarizing these exchanges, Boudreaux confirmed, \"Mr. Broussard [was] helping [me] work with the Teche facilities manager to get a good deal for JD Bank to compete against IberiaBank....\"\nThe same legal rules outlined above apply here because, like the CCSA, the Employment Agreement designated Louisiana as the source of applicable law.\nLouisiana courts acknowledge that this element's \"meaning is not perfectly clear,\" but note that it \"seems to require a showing of spite or ill will, which is difficult (if not impossible) to prove in most commercial cases in which conduct is driven by the profit motive, not by bad feelings.\" Bogues , 71 So.3d 1128, 1135 (La. App. 2 Cir. 2011) (quoting JCD Mktg. , 812 So.2d at 841 ).\nBroussard insists that there were \"many other actions by IberiaBank\" that support his claim. His response brief lists the following as \"other actions ... which indicated malice\" but does not explain them: \"retaliation for Caswell's refusal,\" \"witch-hunt after the at-will employment commitments were rescinded,\" \"escalation of the allegations in the subsequent lawsuit accusing Broussard of 'stealing',\" \"lack of any probable cause for that accusation,\" and \"failure to pursue either a TRO or injunction.\" Even if these alleged actions had been properly elaborated, we would construe them as Broussard characterized them: as possible evidence that IberiaBank harbored malice rather than as events that interfered with Broussard's employment at JD Bank. It remains that the only conduct Broussard has cited to support his claim is the sending of the \"litigation hold letter\" and arbitration demand.\nThe trial court entered judgment against Broussard for \"breach of fiduciary duties,\" which Broussard did not appeal.\nIberiaBank argues that the remainder of \u00a7 6:286 is the other \"law\" that prohibits Broussard's indemnification. That is unpersuasive for the reasons explained above-namely, it would render subsection (F)(2) superfluous, contra McGlothlin , 65 So.3d at 1228, and would ignore the Model Act's express permission for broader officer than director indemnification.",
+        "type": "majority",
+        "author": "STEPHEN A. HIGGINSON, Circuit Judge:"
+      }
+    ],
+    "attorneys": [
+      "Francis X. Neuner, Jr., Cliff A. LaCour, NeunerPate, Lafayette, LA, Andrew Russell Lee, Trial Attorney, Jones Walker, L.L.P., New Orleans, LA, for Plaintiff-Appellee Cross-Appellant.",
+      "Steven G. Durio, Travis J. Broussard, Daniel Josef Phillips, Esq., Durio, McGoffin, Stagg & Ackermann, Lafayette, LA, for Defendant-Appellant Cross-Appellee."
+    ],
+    "corrections": "",
+    "head_matter": "IBERIABANK, Plaintiff - Appellee Cross-Appellant\nv.\nDarryl R. BROUSSARD, Defendant - Appellant Cross-Appellee\nNo. 17-30662\nUnited States Court of Appeals, Fifth Circuit.\nFILED October 25, 2018\nFrancis X. Neuner, Jr., Cliff A. LaCour, NeunerPate, Lafayette, LA, Andrew Russell Lee, Trial Attorney, Jones Walker, L.L.P., New Orleans, LA, for Plaintiff-Appellee Cross-Appellant.\nSteven G. Durio, Travis J. Broussard, Daniel Josef Phillips, Esq., Durio, McGoffin, Stagg & Ackermann, Lafayette, LA, for Defendant-Appellant Cross-Appellee.\nBefore STEWART, Chief Judge, and WIENER and HIGGINSON, Circuit Judges."
+  },
+  "file_name": "0826-01",
+  "first_page_order": 826,
+  "last_page_order": 845
+}

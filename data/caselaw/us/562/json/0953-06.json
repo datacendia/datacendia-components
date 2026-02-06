@@ -1,0 +1,61 @@
+{
+  "id": 5975860,
+  "name": "Kyles v. United States",
+  "name_abbreviation": "Kyles v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5210",
+  "first_page": "953",
+  "last_page": "953",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 953"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 152,
+    "ocr_confidence": 0.572,
+    "sha256": "81c7d4bf5fce4f22ab74a5b3fda81e16d5316c2abcc33a5c7bfd22210a2a024d",
+    "simhash": "1:9d329a824b06f648",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Sotomayor took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Kyles v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.\nJustice Sotomayor took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5210.\nKyles v. United States."
+  },
+  "file_name": "0953-06",
+  "first_page_order": 975,
+  "last_page_order": 975
+}

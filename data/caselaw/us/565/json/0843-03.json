@@ -1,0 +1,59 @@
+{
+  "id": 12203964,
+  "name": "Draganov v. Washington",
+  "name_abbreviation": "Draganov v. Washington",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10659",
+  "first_page": "843",
+  "last_page": "843",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 843"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 72,
+    "ocr_confidence": 0.696,
+    "sha256": "aea970ea1c284c3d0dc9ab8e3e8a62aafb721ef0c1c5f6b49a14cded5d2ab750",
+    "simhash": "1:00e1a4a0082de94a",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Draganov v. Washington."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10659.\nDraganov v. Washington."
+  },
+  "file_name": "0843-03",
+  "first_page_order": 925,
+  "last_page_order": 925
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5926448,
+  "name": "Dabbs v. Illinois",
+  "name_abbreviation": "Dabbs v. Illinois",
+  "decision_date": "2011-04-25",
+  "docket_number": "No. 10-9161",
+  "first_page": "964",
+  "last_page": "964",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 964"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 65,
+    "ocr_confidence": 0.659,
+    "sha256": "cab6c1a53721355fff17d2b49aa6125e92d660368b683c17972fcde5fcc231ed",
+    "simhash": "1:33d6991f9c51c749",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dabbs v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ill. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9161.\nDabbs v. Illinois."
+  },
+  "file_name": "0964-08",
+  "first_page_order": 990,
+  "last_page_order": 990
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12432267,
+  "name": "Plaza-Andrades v. United States",
+  "name_abbreviation": "Plaza-Andrades v. United States",
+  "decision_date": "2013-02-25",
+  "docket_number": "No. 12-8342",
+  "first_page": "1202",
+  "last_page": "1202",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1202"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 79,
+    "ocr_confidence": 0.595,
+    "sha256": "67841d8316185093dcebab3811197c3f8a7f4c7a1ba3d39f2512e41185574570",
+    "simhash": "1:25e182930e139419",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Plaza-Andrades v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8342.\nPlaza-Andrades v. United States."
+  },
+  "file_name": "1202-13",
+  "first_page_order": 1278,
+  "last_page_order": 1278
+}

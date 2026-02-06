@@ -1,0 +1,59 @@
+{
+  "id": 6011843,
+  "name": "Pressley v. Kansas",
+  "name_abbreviation": "Pressley v. Kansas",
+  "decision_date": "2010-10-12",
+  "docket_number": "No. 09-11218",
+  "first_page": "961",
+  "last_page": "961",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 961"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 67,
+    "ocr_confidence": 0.612,
+    "sha256": "334cd79510e43e47e59de86fced65926ef172ab6b9e1ba059eeb9e6e869db612",
+    "simhash": "1:bae951485d548f9e",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Pressley v. Kansas."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Kan. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11218.\nPressley v. Kansas."
+  },
+  "file_name": "0961-05",
+  "first_page_order": 983,
+  "last_page_order": 983
+}

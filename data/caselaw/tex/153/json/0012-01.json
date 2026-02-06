@@ -1,0 +1,456 @@
+{
+  "id": 2247925,
+  "name": "Ex Parte Harvey Winfree",
+  "name_abbreviation": "Ex parte Winfree",
+  "decision_date": "1953-12-16",
+  "docket_number": "No. A-4391",
+  "first_page": "12",
+  "last_page": "16",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "153 Tex. 12"
+    },
+    {
+      "type": "parallel",
+      "cite": "263 S.W.2d 154"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "71 App. D.C. 108",
+      "category": "reporters:state",
+      "reporter": "App. D.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "37 So. 2d. 276",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        5209612
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ala/251/0011-02"
+      ]
+    },
+    {
+      "cite": "251 Ala. 11",
+      "category": "reporters:state",
+      "reporter": "Ala.",
+      "case_ids": [
+        5212778,
+        5209612
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ala/251/0011-01",
+        "/ala/251/0011-02"
+      ]
+    },
+    {
+      "cite": "107 Fla. 858",
+      "category": "reporters:state",
+      "reporter": "Fla.",
+      "case_ids": [
+        1228730
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/fla/107/0858-01"
+      ]
+    },
+    {
+      "cite": "133 S.W. 2d 565",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2319520,
+        12063659
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/134/0148-01",
+        "/sw2d/133/0565-01"
+      ]
+    },
+    {
+      "cite": "134 Texas 148",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2319520
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/134/0148-01"
+      ]
+    },
+    {
+      "cite": "52 S.W. 2d 367",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10238464,
+        2304243
+      ],
+      "pin_cites": [
+        {
+          "page": "368"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/52/0367-01",
+        "/tex/122/0080-01"
+      ]
+    },
+    {
+      "cite": "122 Texas 80",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2304243
+      ],
+      "pin_cites": [
+        {
+          "page": "82"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/122/0080-01"
+      ]
+    },
+    {
+      "cite": "71 Sup. Ct. 28",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "95 L. Ed. 616",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "340 U.S. 840",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6938028,
+        6938060,
+        6937999,
+        6938224,
+        6938195,
+        6938170,
+        6938261,
+        6938102,
+        6938135,
+        6938074
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/340/0840-02",
+        "/us/340/0840-03",
+        "/us/340/0840-01",
+        "/us/340/0840-09",
+        "/us/340/0840-08",
+        "/us/340/0840-07",
+        "/us/340/0840-10",
+        "/us/340/0840-05",
+        "/us/340/0840-06",
+        "/us/340/0840-04"
+      ]
+    },
+    {
+      "cite": "231 S.W. 2d 411",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2330533,
+        10194047
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/149/0267-01",
+        "/sw2d/231/0411-01"
+      ]
+    },
+    {
+      "cite": "149 Texas 267",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2330533
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/149/0267-01"
+      ]
+    },
+    {
+      "cite": "57 A.L.R. 541",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "3 S.W. 2d 406",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2274824,
+        10283538
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/117/0325-01",
+        "/sw2d/3/0406-01"
+      ]
+    },
+    {
+      "cite": "117 Texas 325",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2274824
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/117/0325-01"
+      ]
+    },
+    {
+      "cite": "60 A.L.R. 631",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "71 S.W. 593",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "144 S.W. 962",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8289294
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/144/0962-01"
+      ]
+    },
+    {
+      "cite": "2 A.L.R. 222",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "182 S.W. 313",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8246962
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/182/0313-01"
+      ]
+    },
+    {
+      "cite": "189 S.W. 487",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8251593,
+        8251620
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/189/0487-01",
+        "/sw/189/0487-02"
+      ]
+    },
+    {
+      "cite": "126 S.W. 2d 626",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10238817
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/126/0626-01"
+      ]
+    },
+    {
+      "cite": "123 S.W. 2d 306",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10231228
+      ],
+      "pin_cites": [
+        {
+          "page": "311"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/123/0306-01"
+      ]
+    },
+    {
+      "cite": "133 Texas 1",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2321137
+      ],
+      "pin_cites": [
+        {
+          "page": "10"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/133/0001-01"
+      ]
+    },
+    {
+      "cite": "127 S.W. 2d 443",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10236608,
+        2321111
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/127/0443-01",
+        "/tex/133/0152-01"
+      ]
+    },
+    {
+      "cite": "133 Texas 152",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2321111
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/133/0152-01"
+      ]
+    },
+    {
+      "cite": "191 S.W. 2d 6",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10186547
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/191/0006-01"
+      ]
+    },
+    {
+      "cite": "144 Texas 392",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2336691
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/144/0392-01"
+      ]
+    },
+    {
+      "cite": "229 S.W. 2d 1002",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2330544,
+        10219098
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/149/0155-01",
+        "/sw2d/229/1002-01"
+      ]
+    },
+    {
+      "cite": "149 Texas 155",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2330544
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/149/0155-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 628,
+    "char_count": 10293,
+    "ocr_confidence": 0.607,
+    "pagerank": {
+      "raw": 3.271478086575285e-07,
+      "percentile": 0.8701094156454682
+    },
+    "sha256": "878e7d9ed25813b389474dfa6502babbab11c5e1e2591ec1d5d91c836cabfc28",
+    "simhash": "1:f5a08ac79f0c7a5b",
+    "word_count": 1739
+  },
+  "last_updated": "2024-02-27T22:44:17.710833+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ex Parte Harvey Winfree"
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Garwood\ndelivered the opinion of the Court.\nThis original habeas corpus proceeding was brought by D. P. Winfree on behalf of Harvey Winfree (hereinafter called relator) who has been committed to the custody of the sheriff of Freestone county by the District Court for the 87th Judicial District for contempt in failing, to pay some $50.00 temporary alimony due by him under a previous and valid order of the same court. The contempt judgment followed a written but unsworn complaint of the other party to the divorce proceeding, a show cause order of the court, due service of the latter upon the relator and a proper hearing. The judgment assessed a fine of $5.00 and court costs of $5.50 and provided that relator be confined until he should pay these sums together with the delinquent alimony. After releasing the relator on bail and considering the arguments presented in support of and against his position, we have concluded that on the record before us his commitment was not invalid.\nOur sole ground for issuing the writ was the above-mentioned fact that the complaint, which initiated the contempt proceedings, is unverified. Ex Parte White, 149 Texas 155, 229 S.W. 2d 1002; Ex Parte Freeman, 144 Texas 392, 191 S.W. 2d 6; Ex Parte Cox, 133 Texas 152, 127 S.W. 2d 443; Ex Parte Scott, 133 Texas 1, 10, 123 S.W. 2d 306, 311, 126 S.W. 2d 626; Ex Parte Sturrock, 80 Texas Cr. R. 307, 189 S.W. 487; Ex Parte Duncan, 78 Texas Cr. R. 447, 182 S.W. 313, 2 A.L.R. 222; Ex Parte Landry, 65 Texas Cr. R. 440, 144 S.W. 962; Ex Parte Foster, 44 Texas Cr. R. 423, 71 S.W. 593, 60 A.L.R. 631. The thesis that verification is essential includes, of course, the proposition that there must be a complaint to verify. Ex Parte White, supra. The latter decision, as well as those in the Duncan and Landry cases, stand for the further point of present interest, that a show cause order or rule nisi followed by due service and proper hearing, while obviously sufficient to apprise the contempt defendant of the charge against him and afford him an opportunity to present his defense, is yet no substitute for an affidavit of accusation. The philosophy of the White, Freeman and Cox cases is the somewhat general one of Ex Parte Scott \u2014 that contempt proceedings are essentially criminal in nature, so that \u201cjurisdiction\u201d must arise from a sworn complaint as for the perpetration of a crime, although no written law specifies that it must, except in the case of Rule 692, Texas Rule Civ. Proc., (disobedience of an injunction) hereinafter mentioned and in Art. 666-7, Vernon\u2019s P.C. Texas Ann. (recalcitrance of witness before the Texas Liquor Control Board). The same idea \u2014 somewhat blended with that of due process \u2014 is found in Ex Parte Landry, in which the Court of Criminal Appeals leaned expressly on our Texas \u201cBill of Rights\u201d provision that in all criminal prosecutions the accused \u201cshall have the right to demand the nature and cause of the accusation against him and to have a copy thereof.\u201d Art. 1, Sec. 10, Const, (the preceding sentence of which guarantees \u201cthe accused\u201d trial by jury).\nThere are, indeed, obvious similarities between contempt proceedings and criminal proceedings, in that some of the former involve, in a sense, punishment, and all of them involve actually or potentially the restraint of the body of the contempt defendant as dintinguished from the more usual civil procedure of appropriating his property by execution. In this sense even classical civil processes such as mandamus bear ultimate resemblance to the criminal law. On the other hand there are equally obvious differences. The prime object of bodily restraint in many, no doubt most, contempt proceedings is simply the enforcement of a limited class of civil or procedural judicial orders or judgments, although a consequence of disobedience may be in terms of punishment, accompanied or not accompanied with duration of confinement until the violated order should be complied with. Even in cases such as disorderly conduct in the courtroom, the object of the corresponding punishment is largely one of enabling the court to perform its regular functions as distinguished from the protection of society as a whole; and thus in our elaborate codes of criminal law and procedure we find no provision defining contempt in terms of crime or (with exception of Art. 666-7, supra) prescribing machinery for its prosecution, even as to cases wherein the idea of punishment is more conspicuous than that of mere enforcement of some prior court order. On the contrary, the instances wherein contempt is mentioned, for example, Art. 40, Vernon\u2019s Texas Code Grim. Proc., rather clearly refrain from confusing it with crime. Sec. 10 of the Bill of Rights mentioned above in connection with Ex Parte Landry, specifies no method of procedure for contempt cases and, with its various requirements such as trial by jury, rather clearly refers only criminal prosecutions in the ordinary sense. Doubtless one of several important reasons for requiring a complaint or indictment and verification thereof as the initial and a jurisdictional step in criminal prosecutions is that the complaint is generally followed automatically by the bodily apprehension of the accused, who thus suffers at least a temporary loss of liberty, with all the attendant inconvenience and embarrassment, without a previous opportunity to defend himself. While one cannot say that attachments of,the person are foreign to the initial stages of contempt proceedings, they are unlikely to occur except when the defendant fails to appear in response to service of a rule nisi or show cause order apprising him of the charges. In this connection it is perhaps noteworthy that Rule 692, supra, which requires an affidavit of accusation in all cases of contempt for disobedience of an injunction, authorizes attachment of the person of the defendant in lieu of a show cause order.\nIt is our view that the question before us is to be resolved, not on a concept of jurisdiction judicially borrowed from the detailed requirements of our written law for criminal prosecutions, but on the broader ground of due process. In Ex Parte Ratliff, 117 Texas 325, 3 S.W. 2d 406, 57 A.L.R. 541 (in which notice of a hearing of a motion to dissolve a restraining order directed against Ratliff was held not to be notice adequate to sustain a contempt judgment against him for violation of the order) Justice Greenwood, though citing some of the abovementioned decisions of the Court of Criminal Appeals, spoke altogether in terms of due process based on proper notice and hearing of the contempt charge. That no complaint had been filed was evidently considered important only for its bearing on the broader matter of notice.\nPrior to Ex Parte White we had evidently decided that due process did not require a complaint in cases where the court itself should in effect make the charge by issuing a show cause order, give notice by timely service of the latter and in due course afford a proper hearing. Rule 308A, Texas Rule Civ. Proc., reaffirmed in Ex Parte Nix, 149 Texas 267, 231 S.W. 2d 411, cert, den., 340 U.S. 840, 95 L. Ed. 616, 71 Sup. Ct. 28, expressly provides for such a procedure in cases of contempt for failure to comply with child support orders, and our action in adopting this provision of the rule is clearly inconsistent with a contrary view of due process. The effect of this action on our part is not offset by our abovementioned requirement in Rule 692. We might well have considered the complaint desirable in that instance although due process did not require it or, what is perhaps more likely, we felt that the provision for immediate attachment of the person of the contempt defendant by way of citing him to appear, while itself desirable from some standpoints, should yet be accompanied by additional safeguards. Rule 308A has no such provision, although we do not mean to suggest that it forbids attachment of the defendant in cases such as one in which he should fail to appear in response to the show cause order.\nAnd, as indicated in Ex Parte White, the pronouncements of our courts have not invariably followed the view of that decision and of the Duncan and Landry cases, that a formal complaint is required in instances of constructive contempt like the present. The language in Ex Parte Hill, 122 Texas 80, 82, 52 S.W. 2d 367, 368, indicates that in that case (contempt by an attorney in appearing late for a trial) although the contempt was considered as constructive, and no complaint had been filed, the punishment might have been sustained, had a show cause order been issued and duly served. Similar expressions are found in Ex Parte Pyle, 134 Texas 148, 133 S.W. 2d 565. While evidently a substantial number of courts of other jurisdictions consider the rule nisi or show cause procedure no substitute for a formal complaint, several take the view we now take that it is. Baumgartner v. Joughin, 107 Fla. 858, 143 So. 436; Hunter v. State, 251 Ala. 11, 37 So. 2d. 276; In Re Fletcher, 71 App. D.C. 108, 107 Fed. 2d 666. In the Baumgartner case, it was said:\n\u201cThe gist of the offense was stated in the rule nisi, which operates as the charge. How the circuit judge arrived at the basis of this charge, whether by testimony taken in chambers, personal view, or hearsay report, is utterly immaterial to the validity of a subsequent commitment for contempt which the record shows was duly heard and determined against contemnor after a \u2018full\u2019 hearing, with opportunity to him to defend.\u201d\nAs first above indicated, we hold that, upon the record, including particularly the show cause order, its timely service and an adequate hearing, the contempt judgment is valid, notwithstanding non-verification of the complaint. As this holding departs to greater or less degree from the decisions listed in the second paragraph of this opinion, the latter must be deemed to that extent no longer controlling. Relator, Harvey Winfree, is remanded to the custody of the sheriff of Freestone county.\nOpinion delivered December 16, 1953.",
+        "type": "majority",
+        "author": "Mr. Justice Garwood"
+      }
+    ],
+    "attorneys": [
+      "Bowlen Bond, of Teague, for relator.",
+      "Ralph W. Yarborough and E. Wayne Thode, both of Austin, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "Ex Parte Harvey Winfree\nNo. A-4391.\nDecided December 16, 1953.\n(263 S.W. 2d Series 154)\nBowlen Bond, of Teague, for relator.\nRalph W. Yarborough and E. Wayne Thode, both of Austin, for respondent."
+  },
+  "file_name": "0012-01",
+  "first_page_order": 28,
+  "last_page_order": 32
+}

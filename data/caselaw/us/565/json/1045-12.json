@@ -1,0 +1,59 @@
+{
+  "id": 12234556,
+  "name": "Florida v. Garland",
+  "name_abbreviation": "Florida v. Garland",
+  "decision_date": "2011-11-14",
+  "docket_number": "No. 10-1519",
+  "first_page": "1045",
+  "last_page": "1045",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1045"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 23,
+    "char_count": 153,
+    "ocr_confidence": 0.613,
+    "sha256": "2a42c69235b27e1babe1c1834df515b3a77b09179295f083b4956cad33ac6e8f",
+    "simhash": "1:72b8019b0563e811",
+    "word_count": 24
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Florida v. Garland."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 1st Dist. Motion of respondent for leave to proceed in forma pau-peris granted. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1519.\nFlorida v. Garland."
+  },
+  "file_name": "1045-12",
+  "first_page_order": 1127,
+  "last_page_order": 1127
+}

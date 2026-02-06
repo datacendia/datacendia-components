@@ -1,0 +1,59 @@
+{
+  "id": 5910625,
+  "name": "Aster v. Ward et al.",
+  "name_abbreviation": "Aster v. Ward",
+  "decision_date": "2011-04-18",
+  "docket_number": "No. 10-988",
+  "first_page": "936",
+  "last_page": "936",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 936"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 82,
+    "ocr_confidence": 0.573,
+    "sha256": "f15c07a2f748d4f40d7c077242b5183a4363c5a9f2a11689556136bb7c00d23d",
+    "simhash": "1:02852a0493a0538b",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Aster v. Ward et al."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 6th App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-988.\nAster v. Ward et al."
+  },
+  "file_name": "0936-10",
+  "first_page_order": 962,
+  "last_page_order": 962
+}

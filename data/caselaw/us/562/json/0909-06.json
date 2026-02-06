@@ -1,0 +1,59 @@
+{
+  "id": 5982347,
+  "name": "Gatson v. Forrest",
+  "name_abbreviation": "Gatson v. Forrest",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5203",
+  "first_page": "909",
+  "last_page": "909",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 909"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 79,
+    "ocr_confidence": 0.652,
+    "sha256": "f7584e0f9c6002148785889abb96f9cacff9b6e55ede2326ea9563cbaf9ee75c",
+    "simhash": "1:6bcda63808ae9535",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gatson v. Forrest."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. N. J., App. Div. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5203.\nGatson v. Forrest."
+  },
+  "file_name": "0909-06",
+  "first_page_order": 931,
+  "last_page_order": 931
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5952526,
+  "name": "Rice v. Illinois",
+  "name_abbreviation": "Rice v. Illinois",
+  "decision_date": "2011-04-18",
+  "docket_number": "No. 10-9172",
+  "first_page": "946",
+  "last_page": "946",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 946"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.686,
+    "sha256": "8e75e42b1f4d65c4743cc621e0f9693bdfb54dcdc38b56d298288f023c0099e5",
+    "simhash": "1:60f1d0df1525edbe",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rice v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Ill., 1st Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9172.\nRice v. Illinois."
+  },
+  "file_name": "0946-09",
+  "first_page_order": 972,
+  "last_page_order": 972
+}

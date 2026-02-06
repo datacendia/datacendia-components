@@ -1,0 +1,59 @@
+{
+  "id": 12199571,
+  "name": "Battles v. New York",
+  "name_abbreviation": "Battles v. New York",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-9465",
+  "first_page": "828",
+  "last_page": "828",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 828"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 68,
+    "ocr_confidence": 0.758,
+    "sha256": "5c62321f19385cad27907f7c0b6a5f21f961c21ed3de38fe635a6375bbc01af6",
+    "simhash": "1:69ed38f601392ed0",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Battles v. New York."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. N. Y. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9465.\nBattles v. New York."
+  },
+  "file_name": "0828-14",
+  "first_page_order": 910,
+  "last_page_order": 910
+}

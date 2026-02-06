@@ -1,0 +1,1356 @@
+{
+  "id": 12189887,
+  "name": "BLUEFORD v. ARKANSAS",
+  "name_abbreviation": "Blueford v. Arkansas",
+  "decision_date": "2012-05-24",
+  "docket_number": "No. 10-1320",
+  "first_page": "599",
+  "last_page": "623",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 599"
+    },
+    {
+      "type": "parallel",
+      "cite": "182 L. Ed. 2d 937"
+    },
+    {
+      "type": "parallel",
+      "cite": "132 S. Ct. 2044"
+    },
+    {
+      "type": "vendor",
+      "cite": "2012 U.S. LEXIS 3941"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2011-057"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "347 Ark. 696",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        683209
+      ],
+      "weight": 2,
+      "year": 2002,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/347/0696-01"
+      ]
+    },
+    {
+      "cite": "559 U. S. 766",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12448445,
+        3581999
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "775"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/176/0678-01",
+        "/us/559/0766-01"
+      ]
+    },
+    {
+      "cite": "434 U. S. 497",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6185127
+      ],
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "509"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/434/0497-01"
+      ]
+    },
+    {
+      "cite": "9 Wheat. 579",
+      "category": "reporters:scotus_early",
+      "reporter": "Wheat.",
+      "case_ids": [
+        1421261
+      ],
+      "year": 1824,
+      "pin_cites": [
+        {
+          "page": "580"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/22/0579-01"
+      ]
+    },
+    {
+      "cite": "336 U. S. 684",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3939222
+      ],
+      "year": 1949,
+      "pin_cites": [
+        {
+          "page": "690"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/336/0684-01"
+      ]
+    },
+    {
+      "cite": "398 U. S. 323",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6170963
+      ],
+      "weight": 2,
+      "year": 1970,
+      "pin_cites": [
+        {
+          "page": "329"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/398/0323-01"
+      ]
+    },
+    {
+      "cite": "528 U. S. 225",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9476268
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "234"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/528/0225-01"
+      ]
+    },
+    {
+      "cite": "355 U. S. 184",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6164126
+      ],
+      "weight": 3,
+      "year": 1957,
+      "pin_cites": [
+        {
+          "page": "188"
+        },
+        {
+          "page": "190"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/355/0184-01"
+      ]
+    },
+    {
+      "cite": "430 U. S. 564",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12126181
+      ],
+      "weight": 2,
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "569",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "571"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/430/0564-01"
+      ]
+    },
+    {
+      "cite": "565 U. S. 941",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12226863,
+        12226864,
+        12226866,
+        12226869,
+        12226873,
+        12226878,
+        12226884,
+        12226891,
+        12226899,
+        12443605,
+        12443606,
+        12443607,
+        12443608,
+        12443609,
+        12443610,
+        12443611,
+        12226908,
+        12443885,
+        12443886,
+        12443887,
+        12443888
+      ],
+      "year": 2011,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/565/0941-01",
+        "/us/565/0941-02",
+        "/us/565/0941-03",
+        "/us/565/0941-04",
+        "/us/565/0941-05",
+        "/us/565/0941-06",
+        "/us/565/0941-07",
+        "/us/565/0941-08",
+        "/us/565/0941-09",
+        "/l-ed-2d/181/0254-07",
+        "/l-ed-2d/181/0255-01",
+        "/l-ed-2d/181/0255-02",
+        "/l-ed-2d/181/0255-03",
+        "/l-ed-2d/181/0255-04",
+        "/l-ed-2d/181/0255-05",
+        "/l-ed-2d/181/0255-06",
+        "/us/565/0941-10",
+        "/l-ed-2d/181/0290-07",
+        "/l-ed-2d/181/0290-08",
+        "/l-ed-2d/181/0290-09",
+        "/l-ed-2d/181/0291-01"
+      ]
+    },
+    {
+      "cite": "2011 Ark. 8",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        7315040
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "p. 9"
+        },
+        {
+          "page": "601"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/370/0496-01"
+      ]
+    },
+    {
+      "cite": "164 U. S. 492",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3591459
+      ],
+      "weight": 3,
+      "year": 1896,
+      "pin_cites": [
+        {
+          "page": "501-502"
+        },
+        {
+          "page": "501"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/164/0492-01"
+      ]
+    },
+    {
+      "cite": "Ark. Code Ann. \u00a7 5-10-101",
+      "category": "laws:leg_statute",
+      "reporter": "Ark. Code Ann.",
+      "weight": 6,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "(a)(9)(A)"
+        },
+        {
+          "page": "55"
+        },
+        {
+          "page": "59"
+        },
+        {
+          "page": "51"
+        },
+        {
+          "page": "62"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "563 U. S. 170",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12458282,
+        5943445
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "202-203"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/l-ed-2d/179/0557-01",
+        "/us/563/0170-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 2254",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(d)(1)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "15 Ky. 137",
+      "category": "reporters:state",
+      "reporter": "Ky.",
+      "case_ids": [
+        4217887
+      ],
+      "year": 1824,
+      "pin_cites": [
+        {
+          "page": "139"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ky/15/0137-01"
+      ]
+    },
+    {
+      "cite": "18 Wall. 163",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3426585
+      ],
+      "year": 1874,
+      "pin_cites": [
+        {
+          "page": "171",
+          "parenthetical": "quoting Commonwealth v. Olds, 15 Ky. 137, 139 (1824)"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/85/0163-01"
+      ]
+    },
+    {
+      "cite": "518 U. S. 81",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1730168
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "100"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/518/0081-01"
+      ]
+    },
+    {
+      "cite": "410 U. S. 458",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11957586
+      ],
+      "year": 1973,
+      "pin_cites": [
+        {
+          "page": "469",
+          "parenthetical": "critiquing \"erratic\" mistrial inquiry"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/410/0458-01"
+      ]
+    },
+    {
+      "cite": "505 N. E. 2d 594",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "597"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "69 N. Y. 2d 174",
+      "category": "reporters:state",
+      "reporter": "N.Y.2d",
+      "case_ids": [
+        76080
+      ],
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "182"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ny-2d/69/0174-01"
+      ]
+    },
+    {
+      "cite": "90 N. M. 608",
+      "category": "reporters:state",
+      "reporter": "N.M.",
+      "case_ids": [
+        2867349
+      ],
+      "weight": 2,
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "611"
+        },
+        {
+          "page": "1149"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/nm/90/0608-01"
+      ]
+    },
+    {
+      "cite": "422 A. 2d 1319",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "1321",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "120 N. H. 728",
+      "category": "reporters:state",
+      "reporter": "N.H.",
+      "case_ids": [
+        4449851
+      ],
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "730",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/nh/120/0728-01"
+      ]
+    },
+    {
+      "cite": "808 P. 2d 270",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "case_ids": [
+        10369233
+      ],
+      "weight": 2,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "274"
+        },
+        {
+          "page": "274"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/p2d/808/0270-01"
+      ]
+    },
+    {
+      "cite": "367 U. S. 364",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1785585
+      ],
+      "weight": 2,
+      "year": 1961,
+      "pin_cites": [
+        {
+          "page": "369"
+        },
+        {
+          "page": "371, n. 3",
+          "parenthetical": "Douglas, J., dissenting"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/367/0364-01"
+      ]
+    },
+    {
+      "cite": "25 F. Cas. 622",
+      "category": "reporters:federal",
+      "reporter": "F. Cas.",
+      "case_ids": [
+        6596083
+      ],
+      "pin_cites": [
+        {
+          "page": "623"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f-cas/25/0622-01"
+      ]
+    },
+    {
+      "cite": "437 U. S. 28",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6177204
+      ],
+      "weight": 2,
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "34"
+        },
+        {
+          "page": "52",
+          "parenthetical": "Powell, J., dissenting"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/437/0028-01"
+      ]
+    },
+    {
+      "cite": "450 U. S. 40",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6181267
+      ],
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "41, n. 1"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/450/0040-01"
+      ]
+    },
+    {
+      "cite": "263 Ark. 77",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1672637
+      ],
+      "weight": 2,
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "85",
+          "parenthetical": "\"The jury may prepare and present its own form of verdict\""
+        },
+        {
+          "page": "594",
+          "parenthetical": "\"The jury may prepare and present its own form of verdict\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ark/263/0077-01"
+      ]
+    },
+    {
+      "cite": "372 U. S. 734",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1765418
+      ],
+      "weight": 2,
+      "year": 1963,
+      "pin_cites": [
+        {
+          "page": "738"
+        },
+        {
+          "page": "736",
+          "parenthetical": "\"imperious necessity\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/372/0734-01"
+      ]
+    },
+    {
+      "cite": "572 F. 2d 340",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1234647
+      ],
+      "weight": 2,
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "346",
+          "parenthetical": "Friendly, J."
+        },
+        {
+          "page": "346"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/572/0340-01"
+      ]
+    },
+    {
+      "cite": "19 Ark. 476",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        8726690
+      ],
+      "year": 1858,
+      "pin_cites": [
+        {
+          "parenthetical": "\"The verdict was of no validity until delivered, by the jury, in Court\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ark/19/0476-01"
+      ]
+    },
+    {
+      "cite": "29 Ark. 165",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1882926
+      ],
+      "year": 1874,
+      "pin_cites": [
+        {
+          "page": "171",
+          "parenthetical": "technical defect in verdict \"is of no consequence whatever, for the verdict need not be in writing, but may be announced by the foreman of the jury orally\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ark/29/0165-01"
+      ]
+    },
+    {
+      "cite": "776 N. E. 2d 437",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "450-451",
+          "parenthetical": "declining to give effect to \"'\"the verdict received from the lips of the foreman in open court\" ' \" would \"elevate form over substance\""
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "437 Mass. 777",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        734998
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "796",
+          "parenthetical": "declining to give effect to \"'\"the verdict received from the lips of the foreman in open court\" ' \" would \"elevate form over substance\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/mass/437/0777-01"
+      ]
+    },
+    {
+      "cite": "640 F. 3d 888",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4203388
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "906",
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/640/0888-01"
+      ]
+    },
+    {
+      "cite": "451 U. S. 430",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6187109
+      ],
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "445"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/451/0430-01"
+      ]
+    },
+    {
+      "cite": "646 P. 2d 809",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "weight": 4,
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "815, n. 5"
+        },
+        {
+          "page": "814-815",
+          "parenthetical": "\"[I]n determining what verdict, if any, a jury intended to return, the oral declaration of the jurors endorsing the result is the true return of the verdict\" (internal quotation marks omitted)"
+        },
+        {
+          "page": "815, n. 5"
+        },
+        {
+          "page": "820"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "31 Cal. 3d 503",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1979966
+      ],
+      "weight": 4,
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "511-512, n. 5"
+        },
+        {
+          "page": "511"
+        },
+        {
+          "page": "511-512, n. 5"
+        },
+        {
+          "page": "519"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-3d/31/0503-01"
+      ]
+    },
+    {
+      "cite": "773 A. 2d 308",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "weight": 3,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "323-324"
+        },
+        {
+          "page": "324-325"
+        },
+        {
+          "page": "323-324"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "256 Conn. 262",
+      "category": "reporters:state",
+      "reporter": "Conn.",
+      "case_ids": [
+        966968
+      ],
+      "weight": 3,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "283-285"
+        },
+        {
+          "page": "285-287"
+        },
+        {
+          "page": "284-285"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/conn/256/0262-01"
+      ]
+    },
+    {
+      "cite": "397 U. S. 358",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12054393
+      ],
+      "year": 1970,
+      "pin_cites": [
+        {
+          "page": "363"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/397/0358-01"
+      ]
+    },
+    {
+      "cite": "184 P. 3d 755",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "case_ids": [
+        8243244
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "764, n. 7"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/p3d/184/0755-01"
+      ]
+    },
+    {
+      "cite": "476 U. S. 140",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12401
+      ],
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "144"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/476/0140-01"
+      ]
+    },
+    {
+      "cite": "543 U. S. 462",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5967659
+      ],
+      "weight": 2,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "468"
+        },
+        {
+          "page": "468"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/543/0462-01"
+      ]
+    },
+    {
+      "cite": "437 U. S. 54",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6177463
+      ],
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "66"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/437/0054-01"
+      ]
+    },
+    {
+      "cite": "449 U. S. 117",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11715584
+      ],
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "136"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/449/0117-01"
+      ]
+    },
+    {
+      "cite": "163 U. S. 662",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        468196
+      ],
+      "weight": 2,
+      "year": 1896,
+      "pin_cites": [
+        {
+          "page": "671"
+        },
+        {
+          "page": "671"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/163/0662-01"
+      ]
+    },
+    {
+      "cite": "437 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6176664
+      ],
+      "weight": 3,
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "17"
+        },
+        {
+          "page": "10"
+        },
+        {
+          "page": "10"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/437/0001-01"
+      ]
+    },
+    {
+      "cite": "400 U. S. 470",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12047837
+      ],
+      "weight": 3,
+      "year": 1971,
+      "pin_cites": [
+        {
+          "page": "486, 481",
+          "parenthetical": "plurality opinion"
+        },
+        {
+          "page": "485",
+          "parenthetical": "plurality opinion"
+        },
+        {
+          "page": "486",
+          "parenthetical": "plurality opinion"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/400/0470-01"
+      ]
+    },
+    {
+      "cite": "347 Ark. 696",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        683209
+      ],
+      "weight": 4,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "706-707"
+        },
+        {
+          "page": "651"
+        },
+        {
+          "page": "707"
+        },
+        {
+          "page": "651"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ark/347/0696-01"
+      ]
+    },
+    {
+      "cite": "559 U. S. 766",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12448445,
+        3581999
+      ],
+      "weight": 3,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "775"
+        },
+        {
+          "page": "772-773"
+        },
+        {
+          "page": "778, n. 3"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/l-ed-2d/176/0678-01",
+        "/us/559/0766-01"
+      ]
+    },
+    {
+      "cite": "434 U. S. 497",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6185127
+      ],
+      "weight": 7,
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "503"
+        },
+        {
+          "page": "507-508"
+        },
+        {
+          "page": "506",
+          "parenthetical": "requiring a \" 'high degree' \" of necessity"
+        },
+        {
+          "page": "514-515"
+        },
+        {
+          "page": "514"
+        },
+        {
+          "page": "525",
+          "parenthetical": "Marshall, J., dissenting"
+        },
+        {
+          "page": "510, n. 28",
+          "parenthetical": "\"If the record reveals that the trial judge has failed to exercise the 'sound discretion' entrusted to him, the reason for . . . deference by an appellate court disappears\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/434/0497-01"
+      ]
+    },
+    {
+      "cite": "9 Wheat. 579",
+      "category": "reporters:scotus_early",
+      "reporter": "Wheat.",
+      "case_ids": [
+        1421261
+      ],
+      "weight": 4,
+      "year": 1824,
+      "pin_cites": [
+        {
+          "page": "580"
+        },
+        {
+          "page": "580"
+        },
+        {
+          "page": "580"
+        },
+        {
+          "page": "580"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/22/0579-01"
+      ]
+    },
+    {
+      "cite": "336 U. S. 684",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3939222
+      ],
+      "year": 1949,
+      "pin_cites": [
+        {
+          "page": "689"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/336/0684-01"
+      ]
+    },
+    {
+      "cite": "398 U. S. 323",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6170963
+      ],
+      "weight": 3,
+      "year": 1970,
+      "pin_cites": [
+        {
+          "page": "329"
+        },
+        {
+          "page": "329"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/398/0323-01"
+      ]
+    },
+    {
+      "cite": "355 U. S. 184",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6164126
+      ],
+      "weight": 8,
+      "year": 1957,
+      "pin_cites": [
+        {
+          "page": "187"
+        },
+        {
+          "page": "190"
+        },
+        {
+          "page": "190-191"
+        },
+        {
+          "page": "190, n. 11"
+        },
+        {
+          "page": "194, n. 14"
+        },
+        {
+          "page": "191"
+        },
+        {
+          "page": "188"
+        },
+        {
+          "page": "189"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/355/0184-01"
+      ]
+    },
+    {
+      "cite": "430 U. S. 564",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12126181
+      ],
+      "weight": 2,
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "571"
+        },
+        {
+          "page": "571"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/430/0564-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1779,
+    "char_count": 46696,
+    "ocr_confidence": 0.574,
+    "pagerank": {
+      "raw": 3.6996808488815206e-07,
+      "percentile": 0.8928593906440105
+    },
+    "sha256": "33abcd22a13aa2ab74b0c599c1b0a503833f00efb636c7a8e4d189dde9b0e1d4",
+    "simhash": "1:a73aef2c8a0f47da",
+    "word_count": 7691
+  },
+  "last_updated": "2024-02-27T23:45:15.365324+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Roberts, C. J., delivered the opinion of the Court, in which Scalia, Kennedy, Thomas, Breyer, and Auto, JJ., joined. Sotomayor, J., filed a dissenting opinion, in which GiNSBURG and Kagan, JJ., joined, post, p. 610."
+    ],
+    "parties": [
+      "BLUEFORD v. ARKANSAS"
+    ],
+    "opinions": [
+      {
+        "text": "Chief Justice Roberts\ndelivered the opinion of the Court.\nThe Double Jeopardy Clause protects against being tried twice for the same offense. The Clause does not, however, bar a second trial if the first ended in a mistrial. Before the jury concluded deliberations in this case, it reported that it was unanimous against guilt on charges of capital murder and first-degree murder, was deadlocked on manslaughter, and had not voted on negligent homicide. The court told the jury to continue to deliberate. The jury did so but still could not reach a verdict, and the court declared a mistrial. All agree that the defendant may be retried on charges of manslaughter and negligent homicide. The question is whether he may also be retried on charges of capital and first-degree murder.\nH-1\nOne-year-old Matthew McFadden, Jr., suffered a severe head injury on November 28, 2007, while home with his mother\u2019s boyfriend, Alex Blueford. Despite treatment at a hospital, McFadden died a few days later.\nThe State of Arkansas charged Blueford with capital murder, but waived the death penalty. The State\u2019s theory at trial was that Blueford had injured McFadden intentionally, causing the boy\u2019s death \u201c[u]nder circumstances manifesting extreme indifference to the value of human life.\u201d Ark. Code Ann. \u00a7 5-10-101(a)(9)(A) (Supp. 2011). The defense, in contrast, portrayed the death as the result of Blueford accidentally knocking McFadden onto the ground.\nThe trial court instructed the jury that the charge of capital murder included three lesser offenses: first-degree murder, manslaughter, and negligent homicide. In addition to describing these offenses, the court addressed the order in which the jury was to consider them: \u201cIf you have a reasonable doubt of the defendant\u2019s guilt on the charge of capital murder, you will consider the charge of murder in the first degree.... If you have a reasonable doubt of the defendant\u2019s guilt on the charge of murder in the first degree, you will then consider the charge of manslaughter. ... If you have a reasonable doubt of the defendant\u2019s guilt on the charge of manslaughter, you will then consider the charge of negligent homicide.\u201d . App. 51-52.\nThe prosecution commented on these instructions in its closing argument. It told the jury, for example, that \u201cbefore you can consider a lesser included of capital murder, you must first, all 12, vote that this man is not guilty of capital murder.\u201d Id., at 55. The prosecution explained that this was \u201cnot a situation where you just lay everything out here and say, well, we have four choices. Which one does it fit the most?\u201d Id., at 59. Rather, the prosecution emphasized, \u201cunless all 12 of you agree that this man\u2019s actions were not consistent with capital murder, then and only then would you go down to murder in the first degree.\u201d Ibid.\nAfter the parties concluded their arguments, the court presented the jury with a set of five verdict forms, each representing a possible verdict. There were four separate forms allowing the jury to convict on each of the charged offenses: capital murder, first-degree murder, manslaughter, and negligent homicide. A fifth form allowed the jury to return a verdict of acquittal, if the jury found Blueford not guilty of any offense. There was no form allowing the jury to acquit on some offenses but not others. As stated in the court\u2019s instructions, the jury could either \u201cfind the defendant guilty of one of these offenses\u201d or \u201cacquit him outright.\u201d Id., at 51. Any verdict \u2014 whether to convict on one or to acquit on all \u2014 had to be unanimous.\nA few hours after beginning its deliberations, the jury sent the court a note asking \u201cwhat happens if we cannot agree on a charge at all.\u201d Id., at 62. The court called the jury back into the courtroom and issued a so-called \u201cAllen instruction,\u201d emphasizing the importance of reaching a verdict. See Allen v. United States, 164 U. S. 492, 501-502 (1896). The jury then deliberated for a half hour more before sending out a second note, stating that it \u201ccannot agree on any one charge in this case.\u201d App. 64. When the court summoned the jury again, the jury foreperson reported that the jury was \u201chopelessly\u201d deadlocked. Ibid. The court asked the foreperson to disclose the jury\u2019s votes on each offense:\n\u201cTHE COURT: All right. If you have your numbers together, and I don\u2019t want names, but if you have your numbers I would like to know what your count was on capital murder.\n\u201cJUROR NUMBER ONE: That was unanimous against that. No.\n\u201cTHE COURT: Okay, on murder in the first degree?\n\u201cJUROR NUMBER ONE: That was unanimous, against that.\n\u201cTHE COURT: Okay. Manslaughter?\n\u201cJUROR NUMBER ONE: Nine for, three against.\n\u201cTHE COURT: Okay. And negligent homicide?\n\u201cJUROR NUMBER ONE: We did not vote on that, sir.\n\u201cTHE COURT: Did not vote on that.\n\u201cJUROR NUMBER ONE: No, sir. We couldn\u2019t get past the manslaughter. Were we supposed to go past that? I thought we were supposed to go one at a time.\u201d Id., at 64-65.\nFollowing this exchange, the court gave another Allen instruction and sent the jurors back to the jury room. After deliberations resumed, Blueford\u2019s counsel asked the court to submit new verdict forms to the jurors, to be completed \u201cfor those counts that they have reached a verdict on.\u201d Id., at 67. The prosecution objected on the grounds that the jury was \u201cstill deliberating\u201d and that a verdict of acquittal had to be \u201call or nothing.\u201d Id., at 68. The court denied Blueford\u2019s request. To allow for a partial verdict, the court explained, would be \u201clike changing horses in the middle of the stream,\u201d given that the jury had already received instructions and verdict forms. Ibid. The court informed counsel that it would declare a mistrial \u201cif the jury doesn\u2019t make a decision.\u201d Id., at 69.\nWhen the jury returned a half hour later, the foreperson stated that they had not reached a verdict. The court declared a mistrial and discharged the jury.\nThe State subsequently sought to retry Blueford. He moved to dismiss the capital and first-degree murder charges on double jeopardy grounds, citing the foreperson\u2019s report that the jurors had voted unanimously against guilt on those offenses. The trial court denied the motion, and the Supreme Court of Arkansas affirmed on interlocutory appeal. According to the State Supreme Court, the foreperson\u2019s report had no effect on the State\u2019s ability to retry Blueford, because the foreperson \u201cwas not making a formal announcement of acquittal\u201d when she disclosed the jury\u2019s votes. 2011 Ark. 8, p. 9, 370 S. W. 3d 496, 601. This was not a case, the court observed, \u201cwhere a formal verdict was announced or entered of record.\u201d Ibid. The court added that the trial .court did not err in denying Blueford\u2019s request for new verdict forms that would have allowed the jury to render a partial verdict on the charges of capital and first-degree murder.\nBlueford sought review in this Court, and we granted cer-tiorari. 565 U. S. 941 (2011).\nII\nThe Double Jeopardy Clause provides that no person shall \u201cbe subject for the same offence to be twice put in jeopardy of life or limb.\u201d U. S. Const., Arndt. 5. The Clause \u201cguarantees that the State shall not be permitted to make repeated attempts to convict the accused, thereby subjecting him to embarrassment, expense and ordeal and compelling him to live in a continuing state of anxiety and insecurity, as well as enhancing the possibility that even though innocent he may be found guilty.\u201d United States v. Martin Linen Supply Co., 430 U. S. 564, 569 (1977) (internal quotation marks omitted).\nBlueford contends that the foreperson\u2019s report means that he cannot be tried again on charges of capital and first-degree murder. According to Blueford, the Double Jeopardy Clause prohibits a second trial on those charges, for two reasons.\nA\nBlueford\u2019s primary submission is that he cannot be retried for capital and first-degree murder because the jury actually acquitted him of those offenses. See Green v. United States, 355 U. S. 184, 188 (1957). The Arkansas Supreme Court noted \u2014 and Blueford acknowledges \u2014 that no formal judgment of acquittal was entered in his case. But none was necessary, Blueford maintains, because an acquittal is a matter of substance, not form. Quoting from our decision in Martin Linen, supra, at 571, Blueford contends that despite the absence of a formal verdict, a jury\u2019s announcement constitutes an acquittal if it \u201c 'actually represents a resolution ... of some or all of the factual elements of the offense charged.\u2019 \u201d Brief for Petitioner 21. Here, according to Blueford, the foreperson\u2019s announcement of the jury\u2019s unanimous votes on capital and first-degree murder represented just that: a resolution of some or all of the elements of those offenses in Blueford\u2019s favor.\nWe disagree. The foreperson\u2019s report was not a final resolution of anything. When the foreperson told the court how the jury had voted on each offense, the jury\u2019s deliberations had not yet concluded. The jurors in fact went back to the jury room to deliberate further, even after the foreperson had delivered her report. When they emerged a half hour later, the foreperson stated only that they were unable to reach a verdict. She gave no indication whether it was still the case that all 12 jurors believed Blueford was not guilty of capital or first-degree murder, that 9 of them believed he was guilty of manslaughter, or that a vote had not been taken on negligent homicide. The fact that deliberations continued after the report deprives that report of the finality necessary to constitute an acquittal on the murder offenses.\nBlueford maintains, however, that any possibility that the jurors revisited the murder offenses was foreclosed by the instructions given to the jury. Those instructions, he contends, not only required the jury to consider the offenses in order, from greater to lesser, but also prevented it from transitioning from one offense to the next without unanimously \u2014 and definitively \u2014 resolving the greater offense in his favor. \u201cA jury is presumed to follow its instructions.\u201d Weeks v. Angelone, 528 U. S. 225, 234 (2000). So, Blueford says, the foreperson\u2019s report that the jury was deadlocked on manslaughter necessarily establishes that the jury had acquitted Blueford of the greater offenses of capital and first-degree murder.\nBut even if we assume that the instructions required a unanimous vote before the jury could consider a lesser offense \u2014 as the State assumes for purposes of this case, see Brief for Respondent 25, n. 3 \u2014 nothing in the instructions prohibited the jury from reconsidering such a vote. The instructions said simply, \u201cIf you have a reasonable doubt of the defendant\u2019s guilt on the charge of [the greater offense], you will [then] consider the charge of [the lesser offense].\u201d App. 51-52. The jurors were never told that once they had a reasonable doubt, they could not rethink the issue. The jury was free to reconsider a greater offense, even after considering a lesser one.\nA simple example illustrates the point. A jury enters the jury room, having just been given these instructions. The foreperson decides that it would make sense to determine the extent of the jurors\u2019 agreement before discussions begin. Accordingly, she conducts a vote on capital murder, and everyone votes against guilt. She does the same for first-degree murder, and again, everyone votes against guilt. She then calls for a vote on manslaughter, and there is disagreement. Only then do the jurors engage in a discussion about the circumstances of the crime. While considering the arguments of the other jurors on how the death was caused, one of the jurors starts rethinking his own stance on a greater offense. After reflecting on the evidence, he comes to believe that the defendant did knowingly cause the death \u2014 satisfying the definition of first-degree murder. At that point, nothing in the instructions prohibits the jury from doing what juries often do: revisit a prior vote. \u201cThe very object of the jury system,\u201d after all, \u201cis to secure unanimity by a comparison of views, and by arguments among the jurors themselves.\u201d Allen, 164 U. S., at 501. A single juror\u2019s change of mind is all it takes to require the jury to reconsider a greater offense.\nIt was therefore possible for Blueford\u2019s jury to revisit the offenses of capital and first-degree murder, notwithstanding its earlier votes. And because of that possibility, the foreperson\u2019s report prior to the end of deliberations lacked the finality necessary to amount to an acquittal on those offenses, quite apart from any requirement that a formal verdict be returned or judgment entered.\nThat same lack of finality undermines Blueford\u2019s reliance on Green v. United States, 355 U. S. 184 (1957), and Price v. Georgia, 398 U. S. 323 (1970). In those cases, we held that the Double Jeopardy Clause is violated when a defendant, tried for a greater offense and convicted of a lesser included offense, is later retried for the greater offense. See Green, supra, at 190; Price, supra, at 329. Blueford argues that the only fact distinguishing his case from Green and Price is that his case involves a deadlock on the lesser included offense, as opposed to a conviction. In his view, that distinction only favors him, because the Double Jeopardy Clause should, if anything, afford greater protection to a defendant who is not found guilty of the lesser included offense.\nBlueford\u2019s argument assumes, however, that the votes reported by the foreperson did not change, even though the jury deliberated farther after that report. That assumption is unjustified, because the reported votes were, for the reasons noted, not final. Blueford thus overlooks the real distinction between the cases: In Green and Price, the verdict of the jury was a final decision; here, the report of the foreperson was not.\nB\nBlueford maintains that even if the jury did not acquit him of capital and first-degree murder, a second trial on those offenses would nonetheless violate the Double Jeopardy Clause, because the trial court\u2019s declaration of a mistrial was improper. Blueford acknowledges that a trial can be discontinued without barring a subsequent one for the same offense when \u201cparticular circumstances manifest a necessity\u201d to declare a mistrial. Wade v. Hunter, 336 U. S. 684, 690 (1949); see also United States v. Perez, 9 Wheat. 579, 580 (1824). He also acknowledges that the trial court\u2019s reason for declaring a mistrial here \u2014 that the jury was unable to reach a verdict \u2014 has long been considered the \u201cclassic basis\u201d establishing such a necessity. Arizona v. Washington, 434 U. S. 497, 509 (1978). Blueford therefore accepts that a second trial on manslaughter and negligent homicide would pose no double jeopardy problem. He contends, however, that there was no necessity for a mistrial on capital and first-degree murder, given the foreperson\u2019s report that the jury had voted unanimously against guilt on those charges. According to Blueford, the court at that time should have taken \u201csome action,\u201d whether through partial verdict forms or other means, to allow the jury to give effect to those votes, and then considered a mistrial only as to the remaining charges. Reply Brief 11, n. 8.\nWe reject that suggestion. We have never required a trial court, before declaring a mistrial because of a hung jury, to consider any particular means of breaking the impasse\u2014 let alone to consider giving the jury new options for a verdict. See Renico v. Lett, 559 U. S. 766, 775 (2010). As permitted under Arkansas law, the jury\u2019s options in this case were limited to two: either convict on one of the offenses, or acquit on all. The instructions explained those options in plain terms, and the verdict forms likewise contemplated no other outcome. There were separate forms to convict on each of the possible offenses, but there was only one form to acquit, and it was to acquit on all of them. When the foreperson disclosed the jury\u2019s votes on capital and first-degree murder, the trial court did not abuse its discretion by refusing to add another option \u2014 that of acquitting on some offenses but not others. That, however, is precisely the relief Blueford seeks \u2014 relief the Double Jeopardy Clause does not afford him.\n* \u215d *\nThe jury in this case did not convict Blueford of any offense, but it did not acquit him of any either. When the jury was unable to return a verdict, the trial court properly declared a mistrial and discharged the jury. As a consequence, the Double Jeopardy Clause does not stand in the way of a second trial on the same offenses.\nThe judgment of the Supreme Court of Arkansas is\nAffirmed.\nIn reaching a contrary conclusion, post, at 615 (opinion of Sotomayor, J.), the dissent construes the jury instructions to \u201crequire a jury to complete its deliberations on a greater offense before it may consider a lesser,\u201d post, at 612 (emphasis added). But no such requirement can be found in the text of the instructions themselves. And the dissent\u2019s attempt to glean such a requirement from the Arkansas Supreme Court\u2019s decision in Hughes v. State, 347 Ark. 696, 66 S. W. 3d 645 (2002), is unavailing, for that decision nowhere addresses the issue here \u2014 whether a jury can reconsider a greater offense after considering a lesser one.\nFinding our reliance on Renico \u201cperplexing,\u201d the dissent reads that decision to have \u201clittle to say about a trial judge\u2019s responsibilities, or this Court\u2019s, on direct review.\u201d Post, at 620-621, n. 4. But Renico\u2019s discussion of the applicable legal principles- concerns just that, and the dissent in any event does not dispute that we have never required a trial court to consider any particular means of breaking a jury impasse.",
+        "type": "majority",
+        "author": "Chief Justice Roberts"
+      },
+      {
+        "text": "Justice Sotomayor,\nwith whom Justice Ginsburg and Justice Kagan join, dissenting.\nThe Double Jeopardy Clause \u201cunequivocally prohibits a second trial following an acquittal.\u201d Arizona v. Washington, 434 U. S. 497, 503 (1978). To implement this rule, orn-eases have articulated two principles. First, an acquittal occurs if a jury\u2019s decision, \u201cwhatever its label, actually represents a resolution, correct or not, of some or all of the factual elements of the offense charged.\u201d United States v. Martin Linen Supply Co., 430 U. S. 564, 571 (1977). Second, a trial judge may not defeat a defendant\u2019s entitlement to \u201cthe verdict of a tribunal he might believe to be favorably disposed to his fate\u201d by declaring a mistrial before deliberations end, absent a defendant's consent or a \u201c\u2018manifest necessity\u2019\u201d to do so. United States v. Jorn, 400 U. S. 470, 486, 481 (1971) (plurality opinion) (quoting United States v. Perez, 9 Wheat. 579, 580 (1824)).\nToday's decision misapplies these longstanding principles. The Court holds that petitioner Alex Blueford was not acquitted of capital or first-degree murder, even though the forewoman of the Arkansas jury empaneled to try him announced in open court that the jury was \u201cunanimous against\u201d convicting Blueford of those crimes. App. 64-65. Nor, the Court concludes, did the Double Jeopardy Clause oblige the trial judge to take any action to give effect to the jury\u2019s unambiguous decision before declaring a mistrial as to those offenses. The Court thus grants the State what the Constitution withholds: \u201cthe proverbial \u2018second bite at the apple.'\u201d Burks v. United States, 437 U. S. 1,17 (1978).\nI respectfully dissent.\nI\nA\nThe bar on retrials following acquittals is \u201cthe most fundamental rule in the history of double jeopardy jurisprudence.\u201d Martin Linen, 430 U. S., at 571; see, e. g., United States v. Ball, 163 U. S. 662, 671 (1896); 4 W. Blackstone, Commentaries on the Laws of England 329 (1769). This prohibition stops the State, \u201cwith all its resources and power,\u201d from mounting abusive, harassing reprosecutions, Green v. United States, 355 U. S. 184, 187 (1957), which subject a defendant to \u201cembarrassment, expense, anxiety, and insecurity, and the possibility that he may be found guilty even though innocent,\u201d United States v. DiFrancesco, 449 U. S. 117, 136 (1980).\nIn ascertaining whether an acquittal has occurred, \u201cform is not to be exalted over substance.\u201d Sanabria v. United States, 437 U. S. 54, 66 (1978). Rather, we ask whether the factfinder has made \u201ca substantive determination that the prosecution has failed to carry its burden.\u201d Smith v. Massachusetts, 543 U. S. 462,468 (2005). Jurisdictions have different procedures respecting the announcement of verdicts and the entry of judgments, but that diversity has no constitutional significance. Jeopardy terminates upon a determination, however characterized, that the \u201cevidence is insufficient\u201d to prove a defendant\u2019s \u201cfactual guilt.\u201d Smalis v. Pennsylvania, 476 U. S. 140, 144 (1986). Thus, we have treated as acquittals a trial judge\u2019s directed verdict of not guilty, Smith, 543 U. S., at 468; an appellate reversal of a conviction for insufficiency of the evidence, Burks, 437 U. S., at 10; and, most pertinent here, a jury\u2019s announcement of a not guilty verdict that was \u201cnot followed by any judgment,\u201d Ball, 163 U. S., at 671.\nA straightforward application of that principle suffices to decide this case. Arkansas is a classic \u201cacquittal-first\u201d or \u201chard-transition\u201d jurisdiction. See generally People v. Richardson, 184 P. 3d 755, 764, n. 7 (Colo. 2008). Arkansas\u2019 model jury instructions require a jury to complete its deliberations on a greater offense before it may consider a lesser. 1 Ark. Model Jury Instr., Crim., No. 302 (2d ed. 1994). As a matter of Arkansas law, \u201c[b]efore it may consider any lesser-included offense, the jury must first determine that the proof is insufficient to convict on the greater offense. Thus, the jury must, in essence, acquit the defendant of the greater offense before considering his or her guilt on the lesser-included offense.\u201d Hughes v. State, 347 Ark. 696, 706-707, 66 S. W. 3d 645, 651 (2002).\nHere, the trial judge instructed Blueford\u2019s jury to consider the offenses in order, from the charged offense of capital murder to the lesser included offenses of first-degree murder, manslaughter, and negligent homicide. The judge told the jury to proceed past capital murder only upon a unanimous finding of a \u201creasonable doubt\u201d as to that offense \u2014 that is, upon an acquittal. See In re Winship, 397 U. S. 358, 363 (1970). The State\u2019s closing arguments repeated this directive: \u201c[B]efore you can consider a lesser included of capital murder, you must first, all 12, vote that this man is not guilty of capital murder.\u201d App. 55. And the forewoman\u2019s colloquy with the judge leaves no doubt that the jury understood the instructions to mandate unanimous acquittal on a greater offense as a prerequisite to consideration of a lesser: The forewoman reported that the jury had not voted on negligent homicide because the jurors \u201ccouldn\u2019t get past the manslaughter\u201d count on which they were deadlocked. Id., at 65.\nIn this context, the forewoman\u2019s announcement in open court that the jury was \u201cunanimous against\u201d conviction on capital and first-degree murder, id., at 64-65, was an acquittal for double jeopardy purposes. Per Arkansas law, the jury\u2019s determination of reasonable doubt as to those offenses was an acquittal \u201cin essence.\u201d Hughes, 347 Ark., at 707, 66 S. W. 3d, at 651. By deciding that the State \u201chad failed to come forward with sufficient proof,\u201d the jury resolved the charges of capital and first-degree murder adversely to the State. Burks, 437 U. S., at 10. That acquittal cannot be reconsidered without putting Blueford twice in jeopardy.\nGreen and Price v. Georgia, 398 U. S. 323 (1970), bolster that conclusion. In Green, the jury convicted the defendant on the lesser included offense of second-degree murder without returning a verdict on the charged offense of first-degree murder. This Court concluded that this result was an \u201cimplicit acquittal\u201d on the greater offense of first-degree murder, barring retrial. 355 U. S., at 190. The defendant \u201cwas forced to run the gantlet once on that charge and the jury refused to convict him. When given the choice between finding him guilty of either first or second degree murder it chose the latter.\u201d Ibid.; see also Price, 398 U. S., at 329 (\u201c[T]his Court has consistently refused to rule that jeopardy for an offense continues after an acquittal, whether that acquittal is express or implied by a conviction on a lesser included offense when the jury was given a full opportunity to return a verdict on the greater charge\u201d (footnote omitted)). Notably, Green acknowledged that its finding of an \u201cimplicit acquittal\u201d was an \u201cassumption,\u201d because the jury had made no express statement with respect to the greater offense. 355 U. S., at 190-191.\nBlueford\u2019s position is even stronger because his jury was not silent on the murder counts, but announced that it was \u201cunanimous against\u201d conviction. And the trial judge specifically instructed the jury to consider manslaughter only after acquitting Blueford of the murder counts. Courts in several acquittal-first jurisdictions have held that a jury\u2019s deadlock on a lesser included offense justifies the assumption that the jury acquitted on any greater offenses. See State v. Tate, 256 Conn. 262, 283-285, 773 A. 2d 308, 323-324 (2001); Stone v. Superior Ct. of San Diego Cty., 31 Cal. 3d 503, 511-512, n. 5, 646 P. 2d 809, 815, n. 5 (1982). That assumption is not even necessary here because the jury unmistakably announced acquittal.\nB\nThe majority holds that the forewoman\u2019s announcement was not an acquittal because it \u201cwas not a final resolution of anything.\u201d Ante, at 606. In the majority\u2019s view, the jury might have revisited its decisions on the murder counts during the 31 minutes of deliberations that followed the forewoman\u2019s announcement. We cannot know whether the jury did so, the majority reasons, because the jury was discharged without confirming that it remained \u201cunanimous against\u201d convicting Blueford of capital and first-degree murder. Ante, at 606-608.\nPutting to one side the lack of record evidence to support this speculation \u2014 by far the more plausible inference is that the jurors spent those 31 minutes attempting to resolve their deadlock on manslaughter \u2014 I do not agree that the jury was free to reconsider its decisions when its deliberations resumed. \u201cA verdict of acquittal on the issue of guilt or innocence is, of course, absolutely final.\u201d Bullington v. Missouri, 451 U. S. 430,445 (1981). The jury heard instructions and argument that it was required unanimously to acquit on capital and first-degree murder before it could reach manslaughter. And as the forewoman\u2019s colloquy makes plain, the jury followed those instructions scrupulously. There is no reason to believe that the jury\u2019s vote was anything other than a verdict in substance \u2014 that is, a \u201cfinal collective decision . . . reached after full deliberation, consideration, and compromise among the individual jurors.\u201d Harrison v. Gillespie, 640 F. 3d 888, 906 (CA9 2011) (en banc). And when that decision was announced in open court, it became entitled to full double jeopardy protection. See, e. g., Commonwealth v. Roth, 437 Mass. 777, 796, 776 N. E. 2d 437, 450-451 (2002) (declining to give effect to \u201c\u2018\u201cthe verdict received from the lips of the foreman in open court\u201d \u2019 \u201d would \u201celevate form over substance\u201d); Stone, 31 Cal. 3d, at 511, 646 P. 2d, at 814-815 (\u201c[I]n determining what verdict, if any, a jury intended to return, the oral declaration of the jurors endorsing the result is the true return of the verdict\u201d (internal quotation marks omitted)); see also, e. g., Dixon v. State, 29 Ark. 165, 171 (1874) (technical defect in verdict \u201cis of no consequence whatever, for the verdict need not be in writing, but may be announced by the foreman of the jury orally\u201d); State v. Mills, 19 Ark. 476 (1858) (\u201cThe verdict was of no validity until delivered, by the jury, in Court\u201d).\nThe majority\u2019s example of a jury that takes a preliminary vote on greater offenses, advances to the consideration of a lesser, and then returns to a greater, is inapposite. See ante, at 607-608. In the majority\u2019s example, the jury has not announced its vote in open court. Moreover, the instructions in this case did not contemplate that the jury\u2019s deliberations could take the course that the majority imagines. Arkansas\u2019 model instruction requires acquittal as a prerequisite to consideration of a lesser offense, and the Double Jeopardy Clause entitles an acquittal to finality. Indeed, the purpose of an acquittal-first instruction is to ensure careful and conclusive deliberation on a greater offense. See United States v. Tsanas, 572 F. 2d 340, 346 (CA2 1978) (Friendly, J.) (acquittal-first instruction avoids \u201cthe danger that the jury will not adequately discharge its duties with respect to the greater offense, and instead will move too quickly to the lesser\u201d)- True, Arkansas\u2019 instruction does not expressly forbid reconsideration, but it does not expressly permit reconsideration either. In any event, nothing indicates that the jury\u2019s announced decisions were tentative, compromises, or mere steps en route to a final verdict, and the Double Jeopardy Clause demands that ambiguity be resolved in favor of the defendant. See Downum v. United States, 372 U. S. 734, 738 (1963).\nThe fact that the jury was not given the express option of acquitting on individual offenses is irrelevant. See ante, at 603, 609-610. Arkansas law ascribes no significance to the presence of such options on a verdict form. See Rowland v. State, 263 Ark. 77, 85, 562 S. W. 2d 590, 594 (1978) (\u201cThe jury may prepare and present its own form of verdict\u201d). The lack of a state procedural vehicle for the entry of a judgment of acquittal does not prevent the recognition of an acquittal for constitutional purposes. See Hudson v. Louisiana, 450 U. S. 40, 41, n. 1 (1981).\nFinally, the majority\u2019s distinction of Green and Price is unavailing. The majority observes that Green and Price, unlike this case, involved final decisions. Ante, at 608. As I have explained, I view the forewoman\u2019s announcements of acquittal in this ease as similarly final. In any event, Green clarified that the defendant\u2019s \u201cclaim of former jeopardy\u201d was \u201cnot based on his previous conviction for second degree murder but instead on the original jury\u2019s refusal to convict him of first degree murder.\u201d 355 U. S., at 190, n. 11; accord, id., at 194, n. 14. That is, the jury\u2019s silence on the greater offense spoke with sufficient clarity to justify the assumption of acquittal and to invoke the Double Jeopardy Clause. Id., at 191; see also Price, 398 U. S., at 329. In light of the forewoman\u2019s announcement, this is an a fortiori case.\nIn short, the Double Jeopardy Clause demands an inquiry into the substance of the jury\u2019s actions. Blueford\u2019s jury had the option to convict him of capital and first-degree murder, but expressly declined to do so. That ought to be the end of the matter.\nII\nA\nEven if the majority were correct that the jury might have reconsidered an acquitted count \u2014 a doubtful assumption for the reasons just explained \u2014 that would not defeat Blueford\u2019s double jeopardy claim. It \u201chas been long established as an integral part of double jeopardy jurisprudence\u201d that \u201ca defendant could be put in jeopardy even in a prosecution that did not culminate in a conviction or an acquittal.\u201d Crist v. Bretz, 437 U. S. 28, 34 (1978). This rule evolved in response to the \u201c \u2018abhorrent\u2019 \u201d practice under the Stuart monarchs of terminating prosecutions, and thereby evading the bar on retrials, when it appeared that the Crown\u2019s proof might be insufficient. Washington, 434 U. S., at 507-508; see, e. g., Ireland\u2019s Case, 7 How. St. Tr. 79, 120 (1678). Accordingly, retrial is barred if a jury is discharged before returning a verdict unless the defendant consents or there is a \u201cmanifest necessity\u201d for the discharge. Perez, 9 Wheat., at 580; see also King v. Perkins, 90 Eng. Rep. 1122 (K. B. 1698).\nIn Perez, this Court explained that \u201cmanifest necessity\u201d is a high bar: \u201c[T]he power ought to be used with the greatest caution, under urgent circumstances, and for very plain and obvious causes.\u201d 9 Wheat., at 580. Since Perez, this Court has not relaxed the showing required. See, e. g., Washington, 434 U. S., at 506 (requiring a \u201c \u2018high degree\u2019 \u201d of necessity); Downum, 372 U. S., at 736 (\u201cimperious necessity\u201d); see also, e. g., United States v. Coolidge, 25 F. Cas. 622, 623 (No. 14,858) (CC Mass. 1815) (Story, J.) (\u201cextraordinary and striking circumstances\u201d), before declaring a mistrial, therefore, a trial judge must weigh heavily a \u201cdefendant\u2019s valued right to have his trial completed by a particular tribunal.\u201d Wade v. Hunter, 336 U. S. 684, 689 (1949). And in light of the historical abuses against which the Double Jeopardy Clause guards, a trial judge must tread with special care where a mistrial would \u201chelp the prosecution, at a trial in which its case is going badly, by affording it another, more favorable opportunity to convict the accused.\u201d Gori v. United States, 367 U. S. 364, 369 (1961); see Green, 355 U. S., at 188.\nA jury\u2019s genuine inability to reach a verdict constitutes manifest necessity. But in an acquittal-first jurisdiction, a jury that advances to the consideration of a lesser included offense has not demonstrated an inability to decide a defendant\u2019s guilt or innocence on a greater \u2014 it has acquitted on the greater. Under Green, that is unquestionably true if the jury convicts on the lesser. See id., at 189. It would be anomalous if the Double Jeopardy Clause offered less protection to a defendant whose jury has deadlocked on the lesser and thus convicted of nothing at all. See Stone, 31 Cal. 3d, at 511-512, n. 5, 646 P. 2d, at 815, n. 5.\nI would therefore hold that the Double Jeopardy Clause requires a trial judge, in an acquittal-first jurisdiction, to honor a defendant\u2019s request for a partial verdict before declaring a mistrial on the ground of jury deadlock. Courts in acquittal-first jurisdictions have so held. See, e. g., Tate, 256 Conn., at 285-287, 773 A. 2d, at 324-325; Whiteaker v. State, 808 P. 2d 270, 274 (Alaska App. 1991); Stone, 31 Cal. 3d, at 519, 646 P 2d, at 820; State v. Pugliese, 120 N. H. 728, 730, 422 A. 2d 1319, 1321 (1980) (per curiam); State v. Castrillo, 90 N. M. 608, 611, 566 P 2d 1146, 1149 (1977); see also N. Y. Crim. Proc. Law Ann. \u00a7310.70 (West 2002). Requiring a partial verdict in an acquittal-first jurisdiction ensures that the jurisdiction takes the bitter with the sweet. In general, an acquittal-first instruction increases the likelihood of conviction on a greater offense. See People v. Boettcher, 69 N. Y. 2d 174, 182, 505 N. E. 2d 594, 597 (1987). True, such an instruction may also result in deadlock on a greater, preventing a State \u201cfrom obtaining a conviction on the lesser charge that would otherwise have been forthcoming and thus require the expense of a retrial.\u201d Tsanas, 572 F. 2d, at 346. But a State willing to incur that expense loses nothing by overcharging in an acquittal-first regime. At worst, the State enjoys a second opportunity to convict, \u201cwith the possibility that the earlier \u2018trial run\u2019 will strengthen the prosecution\u2019s case.\u201d Crist, 437 U. S., at 52 (Powell, J., dissenting). If a State wants the benefits of requiring a jury to acquit before compromising, it should not be permitted to deprive a defendant of the corresponding benefits of having been acquitted. The Double Jeopardy Clause expressly prohibits that outcome.\nThe majority observes that we \u201chave never required a trial court, before declaring a mistrial because of a hung jury, to consider any particular means of breaking the impasse\u2014 let alone to consider giving the jury new options for a verdict.\u201d Ante, at 609 (citing Renico v. Lett, 559 U. S. 766, 775 (2010)). That hands-off approach dilutes Perez beyond recognition. This Court has never excused a trial judge from exercising \u201cscrupulous\u201d care before discharging a jury. Jorn, 400 U. S., at 485 (plurality opinion). Rather, we have insisted that a trial judge may not act \u201cirrationally,\u201d \u201cirresponsibly,\u201d or \u201cprecipitately.\u201d Washington, 434 U. S., at 514-515. Nor have we retreated from the rule that \u201creviewing courts have an obligation to satisfy themselves that .. . the trial judge exercised \u2018sound discretion' in declaring a mistrial.\u201d Id., at 514 (quoting Perez, 9 Wheat., at 580).\nB\nEven if the Double Jeopardy Clause did not compel that broader rule, the facts of this case confirm that there was no necessity, let alone manifest necessity, for a mistrial. There was no reason for the judge not to have asked the jury, prior to discharge, whether it remained \u201cunanimous against\u201d conviction on capital and first-degree murder. There would have been no intrusion on the jury\u2019s deliberative process. The judge was not required to issue new instructions or verdict forms, allow new arguments, direct further deliberations, or take any other action that might haye threatened to coerce the jury. Merely repeating his earlier question would have sufficed. Because the judge failed to take even this modest step \u2014 or indeed, to explore any alternatives to a mistrial, or even to make an on-the-record finding of manifest necessity \u2014 I conclude that there was an abuse of discretion. See, e. g., Jorn, 400 U. S., at 486 (plurality opinion); see also Washington, 434 U. S., at 525 (Marshall, J., dissenting) (manifest necessity requires showing \u201cthat there were no meaningful and practical alternatives to a mistrial, or that the trial court scrupulously considered available alternatives and found all wanting but a termination of the proceedings\u201d).\nIndeed, the only reason I can divine for the judge\u2019s failure to take this modest step is his misperception of Arkansas law with respect to the transitional instruction. After the colloquy with the forewoman, the judge commented at sidebar that the jurors \u201chaven\u2019t even taken a vote on [negligent homicide].... I don\u2019t think they\u2019ve completed their deliberation. ... I mean, under any reasonable circumstances, they would at least take a vote on negligent homicide.\u201d App. 65-66. And after the jury retired for the last half hour of deliberations, the judge said, \u201cI don\u2019t think they have an understanding of really that they don't have to get past every charge unanimously before they can move to the next charge.\u201d Id., at 69. That misstated Arkansas law as well as the judge\u2019s own instructions. The jury was required to reach a unanimous decision on a greater offense before considering a lesser. See supra, at 612. In discharging the jury, the judge said, \u201cMadam Foreman, there seems to be a lot of confusion on the part... of the jury about some of the instructions. And because of the confusion and because of the timeliness and the amount of hours that has gone by without being able to reach a verdict, the Court is going to declare a mistrial.\u201d App. 69-70.\nIf, as these comments suggest, the judge wrongly believed that the jury was not required to reach unanimity on a greater offense before considering a lesser, then he accorded insufficient finality and weight to the forewoman\u2019s earlier announcement of acquittal on capital and first-degree murder. That mistake of law negates the deference due the judge\u2019s decision to declare a mistrial. The judge explained that the jury was being discharged in part based on its \u201cconfusion\u201d with respect to the instructions, when in fact, the confusion was the judge\u2019s. Ibid.; see, e. g., Washington, 434 U. S., at 510, n. 28 (\u201cIf the record reveals that the trial judge has failed to exercise the \u2018sound discretion\u2019 entrusted to him, the reason for . . . deference by an appellate court disappears\u201d); Illinois v. Somerville, 410 U. S. 458, 469 (1973) (critiquing \u201cerratic\u201d mistrial inquiry); Gori, 367 U. S., at 371, n. 3 (Douglas, J., dissenting) (noting that \u201c[i]n state cases, a second prosecution has been barred where the jury was discharged through the trial judge\u2019s misconstruction of the law,\u201d and collecting cases). And a trial court \u201cby definition abuses its discretion when it makes an error of law.\u201d Koon v. United States, 518 U. S. 81, 100 (1996).\n* * *\nAt its core, the Double Jeopardy Clause reflects the wisdom of the founding generation, familiar to \u201c \u2018every person acquainted with the history of governments,\u2019 \u201d that \u201c \u2018state trials have been employed as a formidable engine in the hands of a dominant administration.... To prevent this mischief the ancient common law ... provided that one acquittal or conviction should satisfy the law.\u2019 \u201d Ex parte Lange, 18 Wall. 163,171 (1874) (quoting Commonwealth v. Olds, 15 Ky. 137, 139 (1824)). The Double Jeopardy Clause was enacted \u201c \u2018[t]o perpetuate this wise rule, so favorable and necessary to the liberty of the citizen in a government like ours:\u2019 \u201d 18 Wall., at 171. This case demonstrates that the threat to individual freedom from reprosecutions that favor States and unfairly rescue them from weak cases has not waned with time. Only this Court\u2019s vigilance has.\nI respectfully dissent.\nThe State has taken the same position. See Brief for Appellee in Boyd v. State, No. CR 06-973 (Ark.), p. 13 (\u201c[U]nanimity is the essence of a jury verdict as it pertains to acquitting a defendant of the charged offense and the subsequent consideration of lesser-included offenses\u201d).\nThe jury\u2019s acquittals on the murder counts were unsurprising in light of the deficiencies in the State\u2019s case. For example, Dr. Adam Craig \u2014 the medical examiner who autopsied the victim, Matthew McFadden, Jr., and whose testimony was essential to the State\u2019s theory of the crime \u2014 was not board certified in anatomical pathology, having failed the certification examination five times. Dr. Craig took only 2 slides of Matthew\u2019s brain, not the 10 to 20 called for by prevailing professional standards. He dismissed Blueford\u2019s explanation for Matthew\u2019s death \u2014 that Blueford accidentally knocked Matthew to the floor \u2014 on the basis of an outdated paper on child head injuries, acknowledging that he was only \u201cvaguely aware\u201d of a more recent, seminal paper that supported Blueford\u2019s account. Record 390; see Goldsmith & Plunkett, A Biomechanical Analysis of the Causes of Traumatic Brain Injury in Infants and Children, 25 Am. J. Forensic Med. & Pathology 89 (2004). Blueford\u2019s expert pathologist, Dr. Robert Bux, testified that Dr. Craig\u2019s autopsy was inadequate to establish whether Matthew\u2019s death was accidental or intentional. And Blueford\u2019s expert pediatrician, Dr. John Galaznik, testified that the State\u2019s theory \u2014 that Blueford slammed Matthew into a mattress on the floor \u2014 was \u201cnot a likely cause\u201d of the boy\u2019s injuries when assessed in view of current medical literature. Record 766. Even the trial judge observed that the State\u2019s proof was \u201ccircumstantial at best,\u201d and that this was \u201cprobably ... a lesser included offense case.\u201d Id., at 610.\nThis Court granted certiorari to decide \u201c[w]hether, if a jury deadlocks on a lesser-included offense, the Double Jeopardy Clause bars reprosecution of a greater offense after a jury announces that it has voted against guilt on the greater offense.\u201d Pet. for Cert. i. The majority resolves the question presented by determining that the forewoman\u2019s announcements were not final, such that Blueford\u2019s jury did not necessarily deadlock on the lesser included offense of manslaughter. See ante, at 609, n. 2. In light of that determination, I do not read today\u2019s opinion to express any view with respect to the requirements of the Double Jeopardy Clause where a jury does deadlock on a-lesser included offense. Cf., e. g., State v. Tate, 256 Conn. 262, 284-285, 773 A. 2d 308, 323-324 (2001); Whiteaker v. State, 808 P. 2d 270, 274 (Alaska App. 1991).\nThe majority\u2019s reliance on Renico, a habeas corpus case decided under the deferential standard of review prescribed by the Antiterrorism and Effective Death Penalty Act of 1996 (AEDPA), is perplexing. As Renico made clear, the question there was \u201cnot whether the trial judge should have declared a mistrial. It is not even whether it was an abuse of discretion for her to have done so \u2014 the applicable standard on direct review. The question under AEDPA is instead whether the determination of the Michigan Supreme Court that there was no abuse of discretion was \u2018an unreasonable application of . . . clearly established Federal law.\u2019\u201d 559 U. S., at 772-773 (quoting 28 U. S. C. \u00a7 2254(d)(1)); accord, 559 U. S., at 778, n. 3. Renico thus has little to say about a trial judge\u2019s responsibilities, or this Court\u2019s, on direct review. Cf. Cullen v. Pinholster, 563 U. S. 170, 202-203 (2011).",
+        "type": "dissent",
+        "author": "Justice Sotomayor,"
+      }
+    ],
+    "attorneys": [
+      "Clifford M. Sloan argued the cause for petitioner. With him on the briefs were Geoffrey M. Wyatt, David W. Foster, William R. Simpson, Jr., Sharon Kiel, and Clint Miller.",
+      "Dustin McDaniel, Attorney General of Arkansas, argued the cause for respondent. With him on the brief were David R. Raupp, Senior Assistant Attorney General, Eileen W. Harrison, Lauren Elizabeth Heil, and Valerie Glover Fortner, Assistant Attorneys General, and Dan Schweitzer"
+    ],
+    "corrections": "",
+    "head_matter": "BLUEFORD v. ARKANSAS\nNo. 10-1320.\nArgued February 22, 2012\nDecided May 24, 2012\nRoberts, C. J., delivered the opinion of the Court, in which Scalia, Kennedy, Thomas, Breyer, and Auto, JJ., joined. Sotomayor, J., filed a dissenting opinion, in which GiNSBURG and Kagan, JJ., joined, post, p. 610.\nClifford M. Sloan argued the cause for petitioner. With him on the briefs were Geoffrey M. Wyatt, David W. Foster, William R. Simpson, Jr., Sharon Kiel, and Clint Miller.\nDustin McDaniel, Attorney General of Arkansas, argued the cause for respondent. With him on the brief were David R. Raupp, Senior Assistant Attorney General, Eileen W. Harrison, Lauren Elizabeth Heil, and Valerie Glover Fortner, Assistant Attorneys General, and Dan Schweitzer\nBriefs of amici curiae urging reversal were filed for the Constitutional Accountability Center by Douglas T. Kendall, Elizabeth B. Wydra, and David H. Gans; for Criminal Law Professors by Lisa S. Blatt and Charles G. Curtis, Jr.; and for the National Association of Criminal Defense Lawyers by Christopher M. Egleson and Jeffrey T. Green.\nA brief of amici curiae urging affirmance was filed for the State of Michigan et al. by Bill Schuette, Attorney General of Michigan, John J. Bursch, Solicitor General, and B. Eric Restuccia, Deputy Solicitor General, and by the Attorneys General for their respective jurisdictions as follows: Lather Strange of Alabama, Fepulea\u2019i Arthur Ripley, Jr., of American Samoa, Tom Horne of Arizona, John W. Suthers of Colorado, Joseph R. Biden III of Delaware, Pamela Jo Bondi of Florida, David M. Louie of Hawaii, Lawrence G. Wasden of Idaho, Tom Miller of Iowa, Derek Schmidt of Kansas, James D. \u201cBuddy\u201d Caldwell of Louisiana, Lori Swanson of Minnesota, Steve Bullock of Montana, Catherine Cortez Masto of Nevada, Gary K. King of New Mexico, Roy Cooper of North Carolina, Wayne Stenehjem of North Dakota, E. Scott Pruitt of Oklahoma, Alan Wilson of South Carolina, Marty J. Jackley of South Dakota, Mark Shurt-leff of Utah, J. B. Van Hollen of Wisconsin, and Gregory A Phillips of Wyoming."
+  },
+  "file_name": "0599-01",
+  "first_page_order": 679,
+  "last_page_order": 703
+}

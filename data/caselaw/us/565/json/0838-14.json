@@ -1,0 +1,59 @@
+{
+  "id": 12202891,
+  "name": "Brown v. Columbus Board of Education et al.",
+  "name_abbreviation": "Brown v. Columbus Board of Education",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10495",
+  "first_page": "838",
+  "last_page": "838",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 838"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 92,
+    "ocr_confidence": 0.647,
+    "sha256": "3cd2884fe5bbd4a832b6360ce957e60ea43d9822f7e051ab42e1352f63731a8f",
+    "simhash": "1:939a22e47f1ad866",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Brown v. Columbus Board of Education et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10495.\nBrown v. Columbus Board of Education et al."
+  },
+  "file_name": "0838-14",
+  "first_page_order": 920,
+  "last_page_order": 920
+}

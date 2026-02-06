@@ -1,0 +1,59 @@
+{
+  "id": 12247388,
+  "name": "Ceja v. McEwen, Acting Warden",
+  "name_abbreviation": "Ceja v. McEwen",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-7939",
+  "first_page": "1214",
+  "last_page": "1214",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1214"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 78,
+    "ocr_confidence": 0.717,
+    "sha256": "43367c843beaeb560b23898e69ab58f79eb798f904e173dc7852db916646c87a",
+    "simhash": "1:50b1069101890043",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ceja v. McEwen, Acting Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7939.\nCeja v. McEwen, Acting Warden."
+  },
+  "file_name": "1214-12",
+  "first_page_order": 1296,
+  "last_page_order": 1296
+}

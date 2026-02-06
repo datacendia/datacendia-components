@@ -1,0 +1,59 @@
+{
+  "id": 12410809,
+  "name": "Partin v. Florida",
+  "name_abbreviation": "Partin v. Florida",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-9736",
+  "first_page": "828",
+  "last_page": "828",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 828"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 65,
+    "ocr_confidence": 0.663,
+    "sha256": "4ce9fe2306e421fccb9f936e58198fdbd4cd151a9c0456189b42b99b225fb484",
+    "simhash": "1:64ded2625462aa37",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Partin v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Fla. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9736.\nPartin v. Florida."
+  },
+  "file_name": "0828-13",
+  "first_page_order": 904,
+  "last_page_order": 904
+}

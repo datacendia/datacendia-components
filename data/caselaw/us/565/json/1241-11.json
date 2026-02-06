@@ -1,0 +1,61 @@
+{
+  "id": 12250000,
+  "name": "Mountaire Farms, Inc., et al. v. Perez et al.",
+  "name_abbreviation": "Mountaire Farms, Inc. v. Perez",
+  "decision_date": "2012-02-27",
+  "docket_number": "No. 11-497",
+  "first_page": "1241",
+  "last_page": "1241",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1241"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 27,
+    "char_count": 170,
+    "ocr_confidence": 0.618,
+    "sha256": "2c921156010e164921b388e725dbddb8cfe6d11d06be6a6ffa5453a092991aec",
+    "simhash": "1:9bc17a907f0eb804",
+    "word_count": 30
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Mountaire Farms, Inc., et al. v. Perez et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-497.\nMountaire Farms, Inc., et al. v. Perez et al."
+  },
+  "file_name": "1241-11",
+  "first_page_order": 1323,
+  "last_page_order": 1323
+}

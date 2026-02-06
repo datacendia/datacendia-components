@@ -1,0 +1,79 @@
+{
+  "id": 6008051,
+  "name": "Owens v. United States",
+  "name_abbreviation": "Owens v. United States",
+  "decision_date": "2010-11-29",
+  "docket_number": "No. 09-11567",
+  "first_page": "1056",
+  "last_page": "1056",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1056"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "559 U. S. 133",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12446767,
+        3581927
+      ],
+      "year": 2010,
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/176/0001-01",
+        "/us/559/0133-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 36,
+    "char_count": 265,
+    "ocr_confidence": 0.613,
+    "pagerank": {
+      "raw": 4.688403287882615e-08,
+      "percentile": 0.17532243420440438
+    },
+    "sha256": "afad3e9d0ce30eaac82333ba33f7c6dc1d7318ee30d5c2a74bf326598534967e",
+    "simhash": "1:4622eb9584c6901a",
+    "word_count": 43
+  },
+  "last_updated": "2024-02-27T22:51:28.129297+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Owens v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Motion of petitioner for leave to proceed in forma pauperis granted. Certiorari granted, judgment vacated, and case remanded for further consideration in light of Johnson v. United States, 559 U. S. 133 (2010).",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11567.\nOwens v. United States."
+  },
+  "file_name": "1056-04",
+  "first_page_order": 1078,
+  "last_page_order": 1078
+}

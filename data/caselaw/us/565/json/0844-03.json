@@ -1,0 +1,59 @@
+{
+  "id": 12204213,
+  "name": "Torres v. Hartley, Warden",
+  "name_abbreviation": "Torres v. Hartley",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10684",
+  "first_page": "844",
+  "last_page": "844",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 844"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.632,
+    "sha256": "8bc2a84c978461dfb5d35d89cc6baeba53969fd20a807fee17b240d7c1f0d8e3",
+    "simhash": "1:1112a2812dffa554",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Torres v. Hartley, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10684.\nTorres v. Hartley, Warden."
+  },
+  "file_name": "0844-03",
+  "first_page_order": 926,
+  "last_page_order": 926
+}

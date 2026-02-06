@@ -1,0 +1,59 @@
+{
+  "id": 12422169,
+  "name": "Lozano-Galvan v. United States",
+  "name_abbreviation": "Lozano-Galvan v. United States",
+  "decision_date": "2012-11-05",
+  "docket_number": "No. 12-6502",
+  "first_page": "1003",
+  "last_page": "1003",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1003"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 79,
+    "ocr_confidence": 0.661,
+    "sha256": "d49f9e1f322dd4d680c574ce62452599229106f906d3525206f00825196cefed",
+    "simhash": "1:048ad2024b2e0c0e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lozano-Galvan v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6502.\nLozano-Galvan v. United States."
+  },
+  "file_name": "1003-07",
+  "first_page_order": 1079,
+  "last_page_order": 1079
+}

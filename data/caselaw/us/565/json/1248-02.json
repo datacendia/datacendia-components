@@ -1,0 +1,59 @@
+{
+  "id": 12250337,
+  "name": "McNaughton v. Auburn Correctional Facility",
+  "name_abbreviation": "McNaughton v. Auburn Correctional Facility",
+  "decision_date": "2012-03-05",
+  "docket_number": "No. 11-8115",
+  "first_page": "1248",
+  "last_page": "1248",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1248"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 90,
+    "ocr_confidence": 0.661,
+    "sha256": "95635b9b75e96ffc4215e9de08341911acb88bbf563b29641ee9ae5fe4e309ab",
+    "simhash": "1:391fc2c3281b2044",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McNaughton v. Auburn Correctional Facility."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8115.\nMcNaughton v. Auburn Correctional Facility."
+  },
+  "file_name": "1248-02",
+  "first_page_order": 1330,
+  "last_page_order": 1330
+}

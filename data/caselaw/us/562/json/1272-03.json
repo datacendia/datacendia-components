@@ -1,0 +1,59 @@
+{
+  "id": 5977052,
+  "name": "Forest v. California",
+  "name_abbreviation": "Forest v. California",
+  "decision_date": "2011-03-07",
+  "docket_number": "No. 10-943",
+  "first_page": "1272",
+  "last_page": "1272",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1272"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 83,
+    "ocr_confidence": 0.594,
+    "sha256": "81c715ad21093d958dce8b43e73b82917cf361493f0687ce72f8b463b6fd753a",
+    "simhash": "1:64a5238021430821",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Forest v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 1st App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-943.\nForest v. California."
+  },
+  "file_name": "1272-03",
+  "first_page_order": 1294,
+  "last_page_order": 1294
+}

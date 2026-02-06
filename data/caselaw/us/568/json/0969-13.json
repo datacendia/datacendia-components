@@ -1,0 +1,59 @@
+{
+  "id": 12419800,
+  "name": "Davis v. United States",
+  "name_abbreviation": "Davis v. United States",
+  "decision_date": "2012-10-15",
+  "docket_number": "No. 12-6271",
+  "first_page": "969",
+  "last_page": "969",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 969"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.663,
+    "sha256": "2d6b70bda435c237c321d15ab522baefc09f983b249543c21cea869d117ac872",
+    "simhash": "1:c188db8b89001e22",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Davis v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6271.\nDavis v. United States."
+  },
+  "file_name": "0969-13",
+  "first_page_order": 1045,
+  "last_page_order": 1045
+}

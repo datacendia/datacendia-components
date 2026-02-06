@@ -1,0 +1,59 @@
+{
+  "id": 12429607,
+  "name": "Lowery v. North Carolina",
+  "name_abbreviation": "Lowery v. North Carolina",
+  "decision_date": "2013-01-14",
+  "docket_number": "No. 12-7455",
+  "first_page": "1133",
+  "last_page": "1133",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1133"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.657,
+    "sha256": "d9a108fbcdf5ee15d5b89998c4745572521b956f78d457f54a97332b81d4cb15",
+    "simhash": "1:fdab4ccbc933b73a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lowery v. North Carolina."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. N. C. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7455.\nLowery v. North Carolina."
+  },
+  "file_name": "1133-01",
+  "first_page_order": 1209,
+  "last_page_order": 1209
+}

@@ -1,0 +1,59 @@
+{
+  "id": 6005852,
+  "name": "Hill v. Byrd, Warden",
+  "name_abbreviation": "Hill v. Byrd",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5086",
+  "first_page": "903",
+  "last_page": "903",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 903"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 69,
+    "ocr_confidence": 0.657,
+    "sha256": "fc739d362717e77d45bc09eaa709f4fae3d0285088ed862999421b80d16fc634",
+    "simhash": "1:9698d196cd3e3ea6",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hill v. Byrd, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5086.\nHill v. Byrd, Warden."
+  },
+  "file_name": "0903-02",
+  "first_page_order": 925,
+  "last_page_order": 925
+}

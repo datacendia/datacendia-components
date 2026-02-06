@@ -1,0 +1,59 @@
+{
+  "id": 6021333,
+  "name": "Franklin v. United States",
+  "name_abbreviation": "Franklin v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5238",
+  "first_page": "910",
+  "last_page": "910",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 910"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.673,
+    "sha256": "487c6ea0b2adfadcf0458d251a86c9ed5c550fe44383d85a7ea1e16ae0fe6892",
+    "simhash": "1:761b64e8ff2f3356",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Franklin v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. D. C. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5238.\nFranklin v. United States."
+  },
+  "file_name": "0910-13",
+  "first_page_order": 932,
+  "last_page_order": 932
+}

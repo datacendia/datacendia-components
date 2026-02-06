@@ -1,0 +1,123 @@
+{
+  "id": 2253985,
+  "name": "State Board of Morticians v. Frank G. Cortez",
+  "name_abbreviation": "State Board of Morticians v. Cortez",
+  "decision_date": "1957-12-11",
+  "docket_number": "No. A-6579",
+  "first_page": "649",
+  "last_page": "650",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "157 Tex. 649"
+    },
+    {
+      "type": "parallel",
+      "cite": "308 S.W.2d 12"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "223 S.W. 2d 613",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10205786,
+        2332179
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/223/0613-01",
+        "/tex/148/0242-01"
+      ]
+    },
+    {
+      "cite": "148 Texas 242",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2332179
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/148/0242-01"
+      ]
+    },
+    {
+      "cite": "294 S.W. 2d 798",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10181256,
+        2252400
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/294/0798-01",
+        "/tex/156/0324-01"
+      ]
+    },
+    {
+      "cite": "156 Texas 324",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2252400
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/156/0324-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 85,
+    "char_count": 684,
+    "ocr_confidence": 0.638,
+    "pagerank": {
+      "raw": 5.70429327040787e-07,
+      "percentile": 0.9497018938169755
+    },
+    "sha256": "85d24da01280e9abe754f960cdc294cf45770b97efa2175a538ec8d2a670ae5c",
+    "simhash": "1:60f7b82f38ec94db",
+    "word_count": 114
+  },
+  "last_updated": "2024-02-27T18:48:18.334778+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "State Board of Morticians v. Frank G. Cortez"
+    ],
+    "opinions": [
+      {
+        "text": "PER CURIAM:\nNo motion for rehearing was filed in the Court of Civil Appeals, and this application for writ of error is therefore DISMISSED FOR WANT OF JURISDICTION. Rule 469(c), Texas Rules of Civil Procedure; East Texas Motor Freight Lines v. Loftis, 148 Texas 242, 223 S.W. 2d 613; Harris v. Windsor, 156 Texas 324, 294 S.W. 2d 798.\nOpinion delivered December 11, 1957.",
+        "type": "majority",
+        "author": "PER CURIAM:"
+      }
+    ],
+    "attorneys": [
+      "Allen Melton, Geo. M. Elliott, both of Dallas, John G. Murray, Assistant Criminal District Attorney, of San Antonio, for petitioner.",
+      "Alter & Waddell, Henry Castillo, both of San Antonio, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "State Board of Morticians v. Frank G. Cortez\nNo. A-6579.\nDecided December 11, 1957.\n(308 S.W. 2d Series 12.)\nAllen Melton, Geo. M. Elliott, both of Dallas, John G. Murray, Assistant Criminal District Attorney, of San Antonio, for petitioner.\nAlter & Waddell, Henry Castillo, both of San Antonio, for respondent."
+  },
+  "file_name": "0649-01",
+  "first_page_order": 665,
+  "last_page_order": 666
+}

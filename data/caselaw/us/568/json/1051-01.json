@@ -1,0 +1,59 @@
+{
+  "id": 12426608,
+  "name": "Gray v. Gipson, Warden",
+  "name_abbreviation": "Gray v. Gipson",
+  "decision_date": "2012-12-03",
+  "docket_number": "No. 12-6504",
+  "first_page": "1051",
+  "last_page": "1051",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1051"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.632,
+    "sha256": "8ad1525951fc9cd3649c0e96c9695378e8df98c859c9b1de4898e031ca994521",
+    "simhash": "1:09e107c83d9770fc",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gray v. Gipson, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6504.\nGray v. Gipson, Warden."
+  },
+  "file_name": "1051-01",
+  "first_page_order": 1127,
+  "last_page_order": 1127
+}

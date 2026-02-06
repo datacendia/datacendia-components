@@ -1,0 +1,59 @@
+{
+  "id": 12245256,
+  "name": "Dufour v. Florida",
+  "name_abbreviation": "Dufour v. Florida",
+  "decision_date": "2012-01-23",
+  "docket_number": "No. 11-7574",
+  "first_page": "1185",
+  "last_page": "1185",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1185"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 29,
+    "char_count": 195,
+    "ocr_confidence": 0.661,
+    "sha256": "1fbd5ee0d997227df37ec50ce3d88f96b7163657c834c561fdfee3b4e8f637ce",
+    "simhash": "1:23ccdf37db233d18",
+    "word_count": 29
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dufour v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Fla. Motion of American Association on Intellectual and Developmental Disabilities for leave to file a brief as amicus curiae granted. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7574.\nDufour v. Florida."
+  },
+  "file_name": "1185-08",
+  "first_page_order": 1267,
+  "last_page_order": 1267
+}

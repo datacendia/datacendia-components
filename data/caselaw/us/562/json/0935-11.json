@@ -1,0 +1,59 @@
+{
+  "id": 5995119,
+  "name": "Webb v. United States",
+  "name_abbreviation": "Webb v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5716",
+  "first_page": "935",
+  "last_page": "935",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 935"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.741,
+    "sha256": "463184850052624ebd2d575cd5fbf567b891c10bcacd67c966530d321dc3b0c1",
+    "simhash": "1:949a12024e378808",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Webb v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5716.\nWebb v. United States."
+  },
+  "file_name": "0935-11",
+  "first_page_order": 957,
+  "last_page_order": 957
+}

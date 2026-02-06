@@ -1,0 +1,59 @@
+{
+  "id": 5912604,
+  "name": "Engle v. Ohio",
+  "name_abbreviation": "Engle v. Ohio",
+  "decision_date": "2011-05-23",
+  "docket_number": "No. 10-9866",
+  "first_page": "1012",
+  "last_page": "1012",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1012"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 81,
+    "ocr_confidence": 0.537,
+    "sha256": "151016141a79e602ac20c93f210026c9e1191bb6231b5ad4562a15a97732e864",
+    "simhash": "1:eb9aaefc5e88cf99",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Engle v. Ohio."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Ohio, Montgomery County. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9866.\nEngle v. Ohio."
+  },
+  "file_name": "1012-09",
+  "first_page_order": 1038,
+  "last_page_order": 1038
+}

@@ -1,0 +1,115 @@
+{
+  "id": 2257119,
+  "name": "M. V. Watson v. E. O. Prewitt, Guardian",
+  "name_abbreviation": "Watson v. Prewitt",
+  "decision_date": "1959-02-04",
+  "docket_number": "No. A-7111",
+  "first_page": "305",
+  "last_page": "306",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "159 Tex. 305"
+    },
+    {
+      "type": "parallel",
+      "cite": "320 S.W.2d 815"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "244 S.W. 2d 660",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10212202,
+        2328399
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/244/0660-01",
+        "/tex/150/0662-01"
+      ]
+    },
+    {
+      "cite": "150 Texas 662",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2328399
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/150/0662-01"
+      ]
+    },
+    {
+      "cite": "317 S.W. 2d 958",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "317 S.W. 2d 954",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10181567
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/317/0954-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 160,
+    "char_count": 1934,
+    "ocr_confidence": 0.598,
+    "pagerank": {
+      "raw": 1.3386974967467146e-06,
+      "percentile": 0.9899077127662655
+    },
+    "sha256": "06a340c02ca9ff33b2cae69c319bf71114cce376304cc249315bf8dfa1851ee2",
+    "simhash": "1:0a6fec8f26af42fc",
+    "word_count": 339
+  },
+  "last_updated": "2024-02-27T19:26:07.846026+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "M. V. Watson v. E. O. Prewitt, Guardian"
+    ],
+    "opinions": [
+      {
+        "text": "PER CURIAM:\nThe Court of Civil Appeals sustained a point of error presented in that court by E. 0. Prewitt, respondent here and appellant there, that the verdict of the jury and judgment of the trial court were so contrary to the great weight and preponderance of the evidence as to be manifestly unjust. 317 S.W. 2d 954. In doing so the Court of Civil Appeals acted under the rule of law which, as it stated it, imposed upon it the duty to weigh and consider the evidence \u201cwhich supports the verdict and that which does not, and to set aside the judgment and remand the case if after such consideration we conclude the verdict is so contrary to the overwhelming weight of all the evidence as to be manifestly unjust, regardless of whether there is some evidence to support it.\u201d 317 S.W. 2d 958.\nWe approve the rule of law under which the Court of Civil Appeals acted and its application of that rule in passing on the point of error before it. In re King\u2019s Estate, 150 Texas 662, 244 S.W. 2d 660. We accordingly hold that the principles of law declared in the opinion of the court are correctly determined, but we cannot stamp the application \u201cRefused.\u201d Before we can mark an application \u201cRefused,\u201d we must also hold that \u201cthe judgment of the Court of Civil Appeals is a correct one.\u201d This court has no jurisdiction to review and either approve or disapprove a judgment of reversal based on the insufficiency of the evidence to support a jury verdict or a trial court judgment. Article V, section 6, Constitution of Texas. For that reason the application for writ of error is \u201cRefused. No Reversible Error.\u201d Rule 483, Texas Rules of Civil Procedure.\nOpinion delivered February 4, 1959.",
+        "type": "majority",
+        "author": "PER CURIAM:"
+      }
+    ],
+    "attorneys": [
+      "Renfro & Johnson, of Dallas, for petitioner.",
+      "Stafford, Stafford, Freeman, Hamlin, Gay & Russell and Warren Whitham, of Dallas, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "M. V. Watson v. E. O. Prewitt, Guardian\nNo. A-7111.\nDecided February 4, 1959.\n(320 S. W. 2d Series 815)\nRenfro & Johnson, of Dallas, for petitioner.\nStafford, Stafford, Freeman, Hamlin, Gay & Russell and Warren Whitham, of Dallas, for respondent."
+  },
+  "file_name": "0305-01",
+  "first_page_order": 319,
+  "last_page_order": 320
+}

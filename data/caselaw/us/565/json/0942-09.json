@@ -1,0 +1,59 @@
+{
+  "id": 12226954,
+  "name": "Moore v. United States",
+  "name_abbreviation": "Moore v. United States",
+  "decision_date": "2011-10-11",
+  "docket_number": "No. 10-11089",
+  "first_page": "942",
+  "last_page": "942",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 942"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.647,
+    "sha256": "73d731ef41ee63e914f15a20b432150e8ae6dfa7192ca0165d149c184c9b6f25",
+    "simhash": "1:970ac382490eb41f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Moore v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-11089.\nMoore v. United States."
+  },
+  "file_name": "0942-09",
+  "first_page_order": 1024,
+  "last_page_order": 1024
+}

@@ -1,0 +1,59 @@
+{
+  "id": 6020730,
+  "name": "White v. Fairfax County, Virginia",
+  "name_abbreviation": "White v. Fairfax County",
+  "decision_date": "2010-11-29",
+  "docket_number": "No. 10-6559",
+  "first_page": "1067",
+  "last_page": "1067",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1067"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 82,
+    "ocr_confidence": 0.623,
+    "sha256": "927eb631d939d980ac830a968966e1f8add2f6dd9850c8fde31e5275164744f6",
+    "simhash": "1:85d78875daecba5e",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "White v. Fairfax County, Virginia."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6559.\nWhite v. Fairfax County, Virginia."
+  },
+  "file_name": "1067-12",
+  "first_page_order": 1089,
+  "last_page_order": 1089
+}

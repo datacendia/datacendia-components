@@ -1,0 +1,61 @@
+{
+  "id": 6033424,
+  "name": "Segarra v. United States",
+  "name_abbreviation": "Segarra v. United States",
+  "decision_date": "2010-11-29",
+  "docket_number": "No. 09-8536",
+  "first_page": "1078",
+  "last_page": "1078",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1078"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 152,
+    "ocr_confidence": 0.534,
+    "sha256": "a5a33663ee8db735dc55e47bd6090d3b813b356b0b2b6e6bd3090dd87f75bea7",
+    "simhash": "1:9f339a82218e98ce",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Segarra v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir.\nCertiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-8536.\nSegarra v. United States."
+  },
+  "file_name": "1078-09",
+  "first_page_order": 1100,
+  "last_page_order": 1100
+}

@@ -1,0 +1,1888 @@
+{
+  "id": 12522353,
+  "name": "UNITED STATES of America, Plaintiff-Appellee, v. Miguel Angel CANO, Defendant-Appellant.",
+  "name_abbreviation": "United States v. Cano",
+  "decision_date": "2019-08-16",
+  "docket_number": "No. 17-50151",
+  "first_page": "1002",
+  "last_page": "1026",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "934 F.3d 1002"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "9th Cir.",
+    "id": 18869,
+    "name": "United States Court of Appeals for the Ninth"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "131 S.Ct. 2419",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12450488,
+        5928256
+      ],
+      "weight": 5,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "parenthetical": "quoting Stone v. Powell , 428 U.S. 465, 486, 96 S.Ct. 3037, 49 L.Ed.2d 1067 (1976) "
+        },
+        {
+          "parenthetical": "quoting Stone v. Powell , 428 U.S. 465, 486, 96 S.Ct. 3037, 49 L.Ed.2d 1067 (1976) "
+        },
+        {
+          "parenthetical": "quoting Davis , 564 U.S. at 232, 131 S.Ct. 2419 "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/180/0285-01",
+        "/us/564/0229-01"
+      ]
+    },
+    {
+      "cite": "564 U.S. 229",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5928256,
+        12450488
+      ],
+      "weight": 2,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "236",
+          "parenthetical": "quoting Stone v. Powell , 428 U.S. 465, 486, 96 S.Ct. 3037, 49 L.Ed.2d 1067 (1976) "
+        },
+        {
+          "page": "232"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/564/0229-01",
+        "/l-ed-2d/180/0285-01"
+      ]
+    },
+    {
+      "cite": "401 F. Supp. 2d 1069",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        1611128
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "1076",
+          "parenthetical": "\"Whether exculpatory information is in the government's possession for Brady purposes is measured by the same ... test used under Rule 16(a)(1)(E) for discovery.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/401/1069-01"
+      ]
+    },
+    {
+      "cite": "332 F.3d 568",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9114942
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "570-71"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/332/0568-01"
+      ]
+    },
+    {
+      "cite": "990 F. Supp. 2d 536",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        4316760
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/990/0536-01"
+      ]
+    },
+    {
+      "cite": "103 F. Supp. 3d 32",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "case_ids": [
+        4360475
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "parenthetical": "exports in violation of Iranian trade embargo"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-3d/103/0032-01"
+      ]
+    },
+    {
+      "cite": "803 F.3d 1059",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4347102
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1079"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/803/1059-01"
+      ]
+    },
+    {
+      "cite": "887 F.3d 870",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516610
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "876",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/887/0870-01"
+      ]
+    },
+    {
+      "cite": "621 F.3d 1162",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3783527
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "1175-77",
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/621/1162-01"
+      ]
+    },
+    {
+      "cite": "526 F.2d 966",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1089293
+      ],
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "967-68",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/526/0966-01"
+      ]
+    },
+    {
+      "cite": "393 F.3d 501",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9171173
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "503-05",
+          "parenthetical": "upholding the post-arrest search of a laptop computer at the border where the officials had reason to suspect the computer carried child pornography"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/393/0501-01"
+      ]
+    },
+    {
+      "cite": "190 F. Supp. 3d 992",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "case_ids": [
+        12137275
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "999"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-3d/190/0992-01"
+      ]
+    },
+    {
+      "cite": "240 F. Supp. 3d 1005",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "case_ids": [
+        12267921
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1007-08"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-3d/240/1005-01"
+      ]
+    },
+    {
+      "cite": "597 F.2d 1303",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        386096
+      ],
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "1305-06",
+          "parenthetical": "holding a border search reasonable where it was conducted \"at the behest\" of DEA agents and included a search for certain items of evidence in addition to a search for contraband"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/597/1303-01"
+      ]
+    },
+    {
+      "cite": "517 U.S. 806",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11746960
+      ],
+      "weight": 3,
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "813",
+          "parenthetical": "upholding a \"pretextual\" stop because \"[s]ubjective intentions play no role in ordinary ... Fourth Amendment analysis\""
+        },
+        {
+          "parenthetical": "upholding a \"pretextual\" stop because \"[s]ubjective intentions play no role in ordinary ... Fourth Amendment analysis\""
+        },
+        {
+          "parenthetical": "upholding a \"pretextual\" stop because \"[s]ubjective intentions play no role in ordinary ... Fourth Amendment analysis\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/517/0806-01"
+      ]
+    },
+    {
+      "cite": "890 F.3d 1227",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516918
+      ],
+      "weight": 4,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1234"
+        },
+        {
+          "page": "1234-35"
+        },
+        {
+          "page": "1237"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/890/1227-01"
+      ]
+    },
+    {
+      "cite": "367 F.2d 1",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        2060163
+      ],
+      "year": 1966,
+      "pin_cites": [
+        {
+          "page": "3",
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/367/0001-01"
+      ]
+    },
+    {
+      "cite": "769 F.2d 625",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        361098
+      ],
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "628"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/769/0625-01"
+      ]
+    },
+    {
+      "cite": "880 F.3d 1151",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12266837
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1163"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/880/1151-01"
+      ]
+    },
+    {
+      "cite": "271 F.R.D. 148",
+      "category": "reporters:specialty",
+      "reporter": "F.R.D.",
+      "case_ids": [
+        4274410
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "156",
+          "parenthetical": "concluding that \"[t]he need for formal process in the acquisition of documents [from another agency] is the antithesis of 'access' \""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/frd/271/0148-01"
+      ]
+    },
+    {
+      "cite": "399 F.3d 197",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1546986
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "218"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/399/0197-01"
+      ]
+    },
+    {
+      "cite": "929 F.2d 753",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10544291
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "762"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/929/0753-01"
+      ]
+    },
+    {
+      "cite": "929 F.2d 967",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10545380
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "971"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/929/0967-01"
+      ]
+    },
+    {
+      "cite": "475 F.3d 381",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3753132,
+        3560823
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "386-89"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/475/0381-01",
+        "/us-app-dc/374/0372-01"
+      ]
+    },
+    {
+      "cite": "642 F.3d 1161",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3383192,
+        3555731
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "1175-76"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/642/1161-01",
+        "/us-app-dc/395/0340-01"
+      ]
+    },
+    {
+      "cite": "5 U.S.C. \u00a7 552",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(b)(7)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "960 F.2d 1488",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10526084
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "1490-91"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/960/1488-01"
+      ]
+    },
+    {
+      "cite": "46 F.3d 885",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7412674
+      ],
+      "weight": 3,
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "893"
+        },
+        {
+          "page": "894",
+          "parenthetical": "analyzing whether the prosecutor had knowledge of and access to certain inmate files"
+        },
+        {
+          "page": "894",
+          "parenthetical": "concluding that the prosecutor had access to other inmates' prison files where the prosecutor was able to obtain the defendant's prison file from the Bureau of Prisons"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/46/0885-01"
+      ]
+    },
+    {
+      "cite": "566 F.3d 900",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3647929
+      ],
+      "weight": 2,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "908-09"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/566/0900-01"
+      ]
+    },
+    {
+      "cite": "547 U.S. 867",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3275893
+      ],
+      "weight": 3,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "869-70",
+          "parenthetical": "per curiam"
+        },
+        {
+          "parenthetical": "per curiam"
+        },
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/547/0867-01"
+      ]
+    },
+    {
+      "cite": "514 U.S. 419",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1339057
+      ],
+      "weight": 7,
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "437",
+          "parenthetical": "describing how the \"individual prosecutor has a duty to learn of any favorable evidence known to [those] acting on the government's behalf\""
+        },
+        {
+          "parenthetical": "describing how the \"individual prosecutor has a duty to learn of any favorable evidence known to [those] acting on the government's behalf\""
+        },
+        {
+          "parenthetical": "describing how the \"individual prosecutor has a duty to learn of any favorable evidence known to [those] acting on the government's behalf\""
+        },
+        {
+          "page": "438"
+        },
+        {
+          "page": "437"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/514/0419-01"
+      ]
+    },
+    {
+      "cite": "132 F.3d 463",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11887643
+      ],
+      "weight": 2,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "480",
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/132/0463-01"
+      ]
+    },
+    {
+      "cite": "868 F.2d 1032",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10533271
+      ],
+      "weight": 8,
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "1036"
+        },
+        {
+          "page": "1036"
+        },
+        {
+          "parenthetical": "\"The prosecutor will be deemed to have knowledge of and access to anything in the possession, custody or control of any federal agency participating in the same investigation of the defendant.\""
+        },
+        {
+          "page": "1036",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "1034-37"
+        },
+        {
+          "page": "1036",
+          "parenthetical": "emphases added"
+        },
+        {
+          "page": "1037",
+          "parenthetical": "using the same \"knowledge and access\" test to determine \"possession\" for both Rule 16 and Brady "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/868/1032-01"
+      ]
+    },
+    {
+      "cite": "201 L.Ed.2d 1014",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12613441,
+        12613442,
+        12613443,
+        12613445,
+        12613448,
+        12612243,
+        12613400
+      ],
+      "year": 2018,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/2614-02",
+        "/s-ct/138/2614-03",
+        "/s-ct/138/2614-04",
+        "/s-ct/138/2614-06",
+        "/s-ct/138/2615-03",
+        "/s-ct/138/1793-01",
+        "/s-ct/138/2608-03"
+      ]
+    },
+    {
+      "cite": "138 S. Ct. 2608",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12613398,
+        12613399,
+        12613400,
+        12613401,
+        12613402,
+        12613403
+      ],
+      "year": 2018,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/2608-01",
+        "/s-ct/138/2608-02",
+        "/s-ct/138/2608-03",
+        "/s-ct/138/2608-04",
+        "/s-ct/138/2608-05",
+        "/s-ct/138/2608-06"
+      ]
+    },
+    {
+      "cite": "875 F.3d 444",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12264893
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "460"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/875/0444-01"
+      ]
+    },
+    {
+      "cite": "50 F.3d 1448",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7415950
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "1453"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/50/1448-01"
+      ]
+    },
+    {
+      "cite": "603 F.3d 747",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4228212
+      ],
+      "weight": 3,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "752"
+        },
+        {
+          "page": "752"
+        },
+        {
+          "page": "752"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/603/0747-01"
+      ]
+    },
+    {
+      "cite": "718 F.3d 1180",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4050663
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "1183-84",
+          "parenthetical": "quoting United States v. Stever , 603 F.3d 747, 752 (9th Cir. 2010) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/718/1180-01"
+      ]
+    },
+    {
+      "cite": "473 U.S. 667",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6205331
+      ],
+      "weight": 3,
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "682"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/473/0667-01"
+      ]
+    },
+    {
+      "cite": "830 F.3d 1075",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5927280
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1082"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/830/1075-01"
+      ]
+    },
+    {
+      "cite": "815 F.3d 605",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4146415
+      ],
+      "weight": 3,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "613",
+          "parenthetical": "quoting Davis , 564 U.S. at 232, 131 S.Ct. 2419 "
+        },
+        {
+          "page": "613-14"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/815/0605-01"
+      ]
+    },
+    {
+      "cite": "428 U.S. 465",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6178753
+      ],
+      "weight": 3,
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "486"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/428/0465-01"
+      ]
+    },
+    {
+      "cite": "569 U.S. 141",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12697040
+      ],
+      "weight": 3,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "154"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/569/0141-01"
+      ]
+    },
+    {
+      "cite": "136 S. Ct. 2160",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12597986
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "2192",
+          "parenthetical": "quoting Missouri v. McNeely , 569 U.S. 141, 154, 133 S.Ct. 1552, 185 L.Ed.2d 696 (2013) "
+        },
+        {
+          "parenthetical": "quoting Missouri v. McNeely , 569 U.S. 141, 154, 133 S.Ct. 1552, 185 L.Ed.2d 696 (2013) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/136/2160-01"
+      ]
+    },
+    {
+      "cite": "392 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6167798
+      ],
+      "weight": 5,
+      "year": 1968,
+      "pin_cites": [
+        {
+          "page": "19"
+        },
+        {
+          "page": "18"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/392/0001-01"
+      ]
+    },
+    {
+      "cite": "460 U.S. 491",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6195479
+      ],
+      "weight": 3,
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "500"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/460/0491-01"
+      ]
+    },
+    {
+      "cite": "387 U.S. 294",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11336837
+      ],
+      "weight": 3,
+      "year": 1967,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/387/0294-01"
+      ]
+    },
+    {
+      "cite": "116 U.S. 616",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3516335
+      ],
+      "weight": 4,
+      "year": 1886,
+      "pin_cites": [
+        {
+          "page": "622-23"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/116/0616-01"
+      ]
+    },
+    {
+      "cite": "402 U.S. 363",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11733663
+      ],
+      "weight": 3,
+      "year": 1971,
+      "pin_cites": [
+        {
+          "page": "376",
+          "parenthetical": "\"Customs officers characteristically inspect luggage and their power to do so is not questioned in this case; it is an old practice and is intimately associated with excluding illegal articles from the country\""
+        },
+        {
+          "parenthetical": "\"Customs officers characteristically inspect luggage and their power to do so is not questioned in this case; it is an old practice and is intimately associated with excluding illegal articles from the country\""
+        },
+        {
+          "parenthetical": "\"Customs officers characteristically inspect luggage and their power to do so is not questioned in this case; it is an old practice and is intimately associated with excluding illegal articles from the country\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/402/0363-01"
+      ]
+    },
+    {
+      "cite": "413 U.S. 123",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11339242
+      ],
+      "weight": 3,
+      "year": 1973,
+      "pin_cites": [
+        {
+          "page": "125",
+          "parenthetical": "border searches are \"necessary to prevent smuggling and to prevent prohibited articles from entry\""
+        },
+        {
+          "parenthetical": "border searches are \"necessary to prevent smuggling and to prevent prohibited articles from entry\""
+        },
+        {
+          "parenthetical": "border searches are \"necessary to prevent smuggling and to prevent prohibited articles from entry\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/413/0123-01"
+      ]
+    },
+    {
+      "cite": "15 U.S.C. \u00a7 1",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 2252",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 1462",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "890 F.3d 133",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516927
+      ],
+      "weight": 8,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "137",
+          "parenthetical": "concluding that a \"forensic examination of Kolsuz's phone must be considered a nonroutine border search, requiring some measure of individualized suspicion\" but declining to decide whether the standard should be reasonable suspicion or probable cause"
+        },
+        {
+          "page": "138-39"
+        },
+        {
+          "page": "139"
+        },
+        {
+          "page": "139-42"
+        },
+        {
+          "page": "143",
+          "parenthetical": "quoting the district court; citation omitted"
+        },
+        {
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "139",
+          "parenthetical": "describing how the forensic search \"lasted for a full month, and yielded an 896-page report\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/890/0133-01"
+      ]
+    },
+    {
+      "cite": "919 F.3d 472",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12520562
+      ],
+      "weight": 4,
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "485",
+          "parenthetical": "\"[N]o circuit court, before or after Riley , has required more than reasonable suspicion for a border search of cell phones or electronically-stored data.\""
+        },
+        {
+          "page": "477",
+          "parenthetical": "noting that a forensic \"preview\" takes one to three hours; the full examination \"could take months\""
+        },
+        {
+          "page": "485-86",
+          "parenthetical": "finding that agents had reasonable suspicion to search the defendant's cell phone, laptop, and portable hard drive for child pornography; holding that, if probable cause was required, the officials acted in good faith"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/919/0472-01"
+      ]
+    },
+    {
+      "cite": "449 U.S. 411",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11716341
+      ],
+      "weight": 3,
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "417-18"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/449/0411-01"
+      ]
+    },
+    {
+      "cite": "202 L.Ed.2d 47",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12623905,
+        12623910,
+        12623911,
+        12623912,
+        12623913,
+        12623914,
+        12623917,
+        12622239
+      ],
+      "year": 2018,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/139/0069-03",
+        "/s-ct/139/0070-01",
+        "/s-ct/139/0070-02",
+        "/s-ct/139/0070-03",
+        "/s-ct/139/0070-04",
+        "/s-ct/139/0070-05",
+        "/s-ct/139/0071-01",
+        "/s-ct/139/0317-03"
+      ]
+    },
+    {
+      "cite": "139 S. Ct. 70",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12623910,
+        12623911,
+        12623912,
+        12623913,
+        12623914,
+        12623915
+      ],
+      "year": 2018,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/139/0070-01",
+        "/s-ct/139/0070-02",
+        "/s-ct/139/0070-03",
+        "/s-ct/139/0070-04",
+        "/s-ct/139/0070-05",
+        "/s-ct/139/0070-06"
+      ]
+    },
+    {
+      "cite": "884 F.3d 1309",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516152
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "1311"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/884/1309-01"
+      ]
+    },
+    {
+      "cite": "884 F.3d 287",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516175
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "parenthetical": "Costa, J., specially concurring"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/884/0287-01"
+      ]
+    },
+    {
+      "cite": "267 U.S. 132",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6137701
+      ],
+      "weight": 3,
+      "year": 1925,
+      "pin_cites": [
+        {
+          "page": "154"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/267/0132-01"
+      ]
+    },
+    {
+      "cite": "471 F.2d 771",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        268943
+      ],
+      "year": 1973,
+      "pin_cites": [
+        {
+          "page": "773",
+          "parenthetical": "stating that \"customs agents are not general guardians of the public peace\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/471/0771-01"
+      ]
+    },
+    {
+      "cite": "19 U.S.C. \u00a7 482",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 7,
+      "pin_cites": [
+        {
+          "page": "(a)",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "598 F.2d 545",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        493707
+      ],
+      "weight": 6,
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "549",
+          "parenthetical": "citing 19 U.S.C. \u00a7 482 "
+        },
+        {
+          "page": "549"
+        },
+        {
+          "parenthetical": "affirming the suppression of evidence where an FBI agent stopped and searched the vehicle of an alien to determine whether the car had been stolen"
+        },
+        {
+          "page": "548-49"
+        },
+        {
+          "page": "549"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/598/0545-01"
+      ]
+    },
+    {
+      "cite": "547 F.3d 993",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6051774,
+        6051871
+      ],
+      "weight": 3,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "999",
+          "parenthetical": "en banc"
+        },
+        {
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/547/0993-02",
+        "/f3d/547/0993-01"
+      ]
+    },
+    {
+      "cite": "413 U.S. 266",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11340163
+      ],
+      "weight": 3,
+      "year": 1973,
+      "pin_cites": [
+        {
+          "page": "272"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/413/0266-01"
+      ]
+    },
+    {
+      "cite": "541 U.S. 149",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5879348
+      ],
+      "weight": 10,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "152",
+          "parenthetical": "suggesting that nonroutine searches are limited to \"highly intrusive searches of the person\" involving \"dignity and privacy interests\""
+        },
+        {
+          "parenthetical": "suggesting that nonroutine searches are limited to \"highly intrusive searches of the person\" involving \"dignity and privacy interests\""
+        },
+        {
+          "parenthetical": "suggesting that nonroutine searches are limited to \"highly intrusive searches of the person\" involving \"dignity and privacy interests\""
+        },
+        {
+          "page": "152"
+        },
+        {
+          "page": "152, 154"
+        },
+        {
+          "page": "152"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/541/0149-01"
+      ]
+    },
+    {
+      "cite": "473 U.S. 531",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6203102
+      ],
+      "weight": 21,
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "533"
+        },
+        {
+          "page": "533-34"
+        },
+        {
+          "page": "534-35"
+        },
+        {
+          "page": "536"
+        },
+        {
+          "page": "536-37, 540"
+        },
+        {
+          "page": "537-41"
+        },
+        {
+          "parenthetical": "suggesting that nonroutine searches are limited to \"highly intrusive searches of the person\" involving \"dignity and privacy interests\""
+        },
+        {
+          "page": "538-40"
+        },
+        {
+          "page": "537"
+        },
+        {
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/473/0531-01"
+      ]
+    },
+    {
+      "cite": "134 S.Ct. 2473",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12581677
+      ],
+      "weight": 22,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/134/2473-01"
+      ]
+    },
+    {
+      "cite": "573 U.S. 373",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "weight": 10,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "394"
+        },
+        {
+          "page": "393-97"
+        },
+        {
+          "page": "385, 393"
+        },
+        {
+          "page": "401"
+        },
+        {
+          "page": "393"
+        },
+        {
+          "page": "401"
+        },
+        {
+          "page": "387"
+        },
+        {
+          "page": "397-98"
+        },
+        {
+          "page": "388-91"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "367 U.S. 643",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1785580
+      ],
+      "weight": 3,
+      "year": 1961,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/367/0643-01"
+      ]
+    },
+    {
+      "cite": "232 U.S. 383",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3672825
+      ],
+      "weight": 3,
+      "year": 1914,
+      "pin_cites": [
+        {
+          "page": "392",
+          "parenthetical": "searches incident to arrest"
+        },
+        {
+          "parenthetical": "searches incident to arrest"
+        },
+        {
+          "parenthetical": "searches incident to arrest"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/232/0383-01"
+      ]
+    },
+    {
+      "cite": "431 U.S. 606",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1727
+      ],
+      "weight": 12,
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "616",
+          "parenthetical": "border searches"
+        },
+        {
+          "parenthetical": "border searches"
+        },
+        {
+          "parenthetical": "border searches"
+        },
+        {
+          "page": "621"
+        },
+        {
+          "page": "616"
+        },
+        {
+          "page": "616"
+        },
+        {
+          "page": "620"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/431/0606-01"
+      ]
+    },
+    {
+      "cite": "547 U.S. 398",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3275413
+      ],
+      "weight": 3,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "403",
+          "parenthetical": "exigent circumstances; listing other exceptions, including warrantless entry to fight a fire, to prevent the imminent destruction of evidence, or in \"hot pursuit\" of a fleeing suspect"
+        },
+        {
+          "parenthetical": "exigent circumstances; listing other exceptions, including warrantless entry to fight a fire, to prevent the imminent destruction of evidence, or in \"hot pursuit\" of a fleeing suspect"
+        },
+        {
+          "parenthetical": "exigent circumstances; listing other exceptions, including warrantless entry to fight a fire, to prevent the imminent destruction of evidence, or in \"hot pursuit\" of a fleeing suspect"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/547/0398-01"
+      ]
+    },
+    {
+      "cite": "556 U.S. 332",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3653882
+      ],
+      "weight": 6,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "343",
+          "parenthetical": "vehicle searches"
+        },
+        {
+          "parenthetical": "vehicle searches"
+        },
+        {
+          "parenthetical": "vehicle searches"
+        },
+        {
+          "page": "343"
+        },
+        {
+          "page": "387"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/556/0332-01"
+      ]
+    },
+    {
+      "cite": "389 U.S. 347",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11339173
+      ],
+      "weight": 3,
+      "year": 1967,
+      "pin_cites": [
+        {
+          "page": "357",
+          "parenthetical": "footnote omitted"
+        },
+        {
+          "parenthetical": "footnote omitted"
+        },
+        {
+          "parenthetical": "footnote omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/389/0347-01"
+      ]
+    },
+    {
+      "cite": "437 U.S. 385",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6180644
+      ],
+      "weight": 3,
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "393-94",
+          "parenthetical": "citation omitted"
+        },
+        {
+          "parenthetical": "citation omitted"
+        },
+        {
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/437/0385-01"
+      ]
+    },
+    {
+      "cite": "373 U.S. 83",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11716714
+      ],
+      "weight": 5,
+      "year": 1963,
+      "pin_cites": [
+        {
+          "page": "87"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/373/0083-01"
+      ]
+    },
+    {
+      "cite": "709 F.3d 952",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3545805
+      ],
+      "weight": 27,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "parenthetical": "en banc"
+        },
+        {
+          "page": "957"
+        },
+        {
+          "page": "960"
+        },
+        {
+          "page": "964"
+        },
+        {
+          "page": "962-68"
+        },
+        {
+          "page": "957"
+        },
+        {
+          "page": "958"
+        },
+        {
+          "page": "958-59"
+        },
+        {
+          "page": "960"
+        },
+        {
+          "page": "961"
+        },
+        {
+          "page": "964"
+        },
+        {
+          "page": "966"
+        },
+        {
+          "page": "960-61, 966, 967",
+          "parenthetical": "citation omitted"
+        },
+        {
+          "page": "968"
+        },
+        {
+          "page": "968"
+        },
+        {
+          "page": "957"
+        },
+        {
+          "page": "960"
+        },
+        {
+          "page": "963"
+        },
+        {
+          "page": "959",
+          "parenthetical": "describing how the first forensic search was conducted over five days; additional evidence was found \"[o]ver the next few months\""
+        },
+        {
+          "page": "962-68"
+        },
+        {
+          "page": "968"
+        },
+        {
+          "page": "956"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/709/0952-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 2255,
+    "char_count": 72693,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2595120410494975
+    },
+    "sha256": "5576af22681b82ccb412dfd9dca120a0cca7bc291328188da031a64ce7185d7d",
+    "simhash": "1:baedd6158d034301",
+    "word_count": 11659
+  },
+  "last_updated": "2024-02-27T18:47:10.696993+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "UNITED STATES of America, Plaintiff-Appellee,\nv.\nMiguel Angel CANO, Defendant-Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "BYBEE, Circuit Judge:\nDefendant-Appellant Miguel Cano was arrested for carrying cocaine as he attempted to cross into the United States from Mexico at the San Ysidro Port of Entry. Following his arrest, a Customs and Border Protection official seized Cano's cell phone and searched it, first manually and then using software that accesses all text messages, contacts, call logs, media, and application data. When Cano moved to suppress the evidence obtained from the warrantless searches of his cell phone, the district court held that the searches were valid under the border search exception to the Fourth Amendment's warrant requirement.\nApplying United States v. Cotterman , 709 F.3d 952 (9th Cir. 2013) (en banc), we conclude that manual cell phone searches may be conducted by border officials without reasonable suspicion but that forensic cell phone searches require reasonable suspicion. We clarify Cotterman by holding that \"reasonable suspicion\" in this context means that officials must reasonably suspect that the cell phone contains digital contraband. We further conclude that cell phone searches at the border, whether manual or forensic, must be limited in scope to a search for digital contraband. In this case, the officials violated the Fourth Amendment when their warrantless searches exceeded the permissible scope of a border search. Accordingly, we hold that most of the evidence from the searches of Cano's cell phone should have been suppressed. We also conclude that Cano's Brady claims are unpersuasive. Because we vacate Cano's conviction, we do not reach his claim of prosecutorial misconduct.\nWe reverse the district court's order denying Cano's motion to suppress and vacate Cano's conviction.\nI. THE BACKGROUND\nA. The Facts\nDefendant-Appellant Miguel Cano worked in the flooring and carpet installation trade and lived with his wife and children in the Mission Hills community north of Los Angeles. In the summer of 2016, however, Cano moved from Los Angeles to Tijuana, Mexico, where he stayed with his cousin Jose Medina. While staying with Medina, Cano crossed the border into the United States six times, sometimes remaining in the United States for less than thirty minutes. On two of those trips, Cano was referred to secondary inspection, but no contraband was found.\nOn July 25, 2016, Cano arrived at the San Ysidro Port of Entry from Tijuana. In primary inspection, Cano stated that \"he was living in Mexico, working in San Diego, but going to LA on that day.\" Pursuant to a random Customs and Border Protection (CBP) computer referral, Cano was referred to secondary inspection, where a narcotic-detecting dog alerted to the vehicle's spare tire. A CBP official removed the spare tire from the undercarriage of the truck and discovered 14 vacuum-sealed packages inside, containing 14.03 kilograms (30.93 pounds) of cocaine.\nCano was arrested, and a CBP official administratively seized his cell phone. The CBP officials called Homeland Security Investigations (HSI), which dispatched Agents Petonak and Medrano to investigate. After arriving, Agent Petonak \"briefly\" and manually reviewed Cano's cell phone, noticing a \"lengthy call log\" but no text messages. Agent Petonak later stated that the purpose of this manual search was \"two-pronged\": \"to find some brief investigative leads in the current case,\" and \"to see if there's evidence of other things coming across the border.\"\nAgent Petonak proceeded to question Cano, who waived his Miranda rights and agreed to talk. During that interview, Cano denied any knowledge of the cocaine. Cano stated that he had moved to Tijuana to look for work in nearby San Diego, because work was slow in Los Angeles. He also said he had crossed the border every day for the previous three weeks looking for work. He told Agent Petonak that he was headed to a carpet store in Chula Vista that day to seek work. When pressed, Cano was not able to provide the name or address of the store, claiming that he intended to look it up on Google after crossing the border. Cano also explained that he did not have his flooring tools with him in his pickup truck so as to avoid problems with border crossings; Cano intended to drive to Los Angeles to retrieve his tools if he located work in San Diego.\nDuring the interrogation, Agent Petonak specifically asked Cano about the lack of text messages on his cell phone. Cano responded that his cousin had advised him to delete his text messages \"just in case\" he got pulled over in Mexico and police were to check his cell phone. Cano stated that he erased his messages to avoid \"any problems\" with the Mexican police.\nWhile Agent Petonak questioned Cano, Agent Medrano conducted a second manual search of the cell phone. Agent Medrano browsed the call log and wrote down some of the phone numbers on a piece of paper. He also noticed two messages that arrived after Cano had reached the border, and he took a photograph of the messages. The first message stated, \"Good morning,\" and the second message stated, \"Primo, are you coming to the house?\" Agent Medrano gave all of this information-the recorded list of calls and the photograph-to Agent Petonak.\nFinally, Agent Medrano conducted a \"logical download\" of the phone using Cellebrite software. A Cellebrite search enables the user to access text messages, contacts, call logs, media, and application data on a cell phone and to select which types of data to download. It does not, however, allow the user to access data stored within third-party applications. Agent Medrano typically does not select the option to download photographs.\nAfter Agent Petonak interviewed Cano, he reviewed the results of the Cellebrite download of Cano's phone by Agent Medrano. The Cellebrite results revealed that Cano had sent no text messages, and it listed all the calls made by Cano. Agent Petonak later concluded that none of the phone numbers in the call log corresponded to carpeting stores in San Diego.\nB. The Proceedings\nCano was indicted for importing cocaine. Before trial, Cano moved to suppress any evidence obtained from Agents Petonak and Medrano's warrantless searches of his cell phone at the border. The district court denied Cano's motion, ruling that the manual searches and the Cellebrite search of Cano's phone were valid border searches. During trial, the government introduced evidence that resulted from the manual searches of the phone and from Agent Medrano's Cellebrite download of the phone.\nIn preparation for trial, Cano indicated his intent to present a third-party culpability defense claiming that his cousin, Jose Medina, was responsible for placing the drugs in Cano's spare tire without Cano's knowledge. Cano proffered evidence that Medina had a key to Cano's car and had driven it shortly before Cano's attempted border crossing, that Medina had a criminal record including a conviction for cocaine possession, that Medina was a member of a Chicago-based gang called the Latin Kings, and that the Latin Kings sold cocaine within the United States and were involved with a cartel that trafficked drugs across the border.\nFollowing Cano's implication of Medina, the government contacted Medina and promised him immunity and immigration papers in exchange for his cooperation. Medina initially denied being involved with drugs, but later contacted the government on his own and offered to help them with the \"biggest RICO case\" and \"drug seizures of 20 to 25 kilograms at a time.\" All of this information was made available to Cano.\nAs part of his defense, Cano sought additional discovery from HSI, the Federal Bureau of Investigation (FBI), and the Drug Enforcement Agency (DEA) regarding: (1) records linking Medina to drug sales, distribution, or trafficking; and (2) records linking the Latin Kings to drug trafficking from Mexico to Southern California. The government opposed Cano's discovery motion, arguing that the evidence was not material under Federal Rule of Criminal Procedure 16(a)(1)(E)(i) and that discovery should be limited to HSI, as neither the DEA nor the FBI had participated in the investigation of Cano. The district court originally overruled both objections, finding the evidence material under Rule 16 and exculpatory under Brady v. Maryland , 373 U.S. 83, 83 S.Ct. 1194, 10 L.Ed.2d 215 (1963). The court also reasoned that, because HSI could inquire of the DEA and FBI if it sought inculpatory evidence, HSI had access to the files and was required to provide any exculpatory evidence held by the DEA or FBI.\nIn response to the court's discovery order, HSI produced Medina's immigration file and his Bureau of Prisons record. Agent Petonak also searched for Medina's name in two different police clearinghouses, but neither returned any hits. Both Agent Petonak and the United States Attorney's Office (USAO) subsequently requested information showing a link between the Latin Kings and drug trafficking from Mexico from the legal counsel of both the FBI and DEA. Both agencies denied the requests without providing any explanation or any indication as to whether the requested information existed.\nFollowing these attempts, the government moved for the district court to reconsider its discovery order and excuse it from discovery relating to files held by the FBI and DEA. The district court granted the motion to reconsider, finding that the prosecutor did not have access to the evidence when he was \"rebuffed\" by agencies over which he had no control.\nThe case proceeded to trial and Cano presented his third-party culpability defense. The first trial resulted in a hung jury and a mistrial. On retrial, Cano again relied on his third-party culpability defense. The second trial resulted in Cano's conviction. This appeal followed, in which Cano raises three issues: (1) whether the warrantless searches of his cell phone violated the Fourth Amendment and whether the resulting evidence should be suppressed; (2) whether the government's non-disclosure of materials that may have been held by the DEA and FBI violated his right to due process under Brady and Federal Rule of Criminal Procedure 16 ; and (3) whether the government raised an improper propensity inference in its closing argument. We address Cano's first two arguments in turn. Because we conclude that the district court erred in denying Cano's motion to suppress, we vacate Cano's conviction and do not reach his claim of prosecutorial misconduct.\nII. THE WARRANTLESS SEARCH OF CANO'S CELL PHONE\nThe Fourth Amendment protects \"[t]he right of the people to be secure in their persons, houses, papers, and effects, against unreasonable searches and seizures.\" U.S. Const. amend. IV. Ordinarily, before conducting a search, police must obtain a warrant issued by a judicial officer based \"upon probable cause, supported by Oath or affirmation, and particularly describing the place to be searched, and the persons or things to be seized.\" Id . Warrants are generally required \"unless 'the exigencies of the situation' make the needs of law enforcement so compelling that the warrantless search is objectively reasonable under the Fourth Amendment.\" Mincey v. Arizona , 437 U.S. 385, 393-94, 98 S.Ct. 2408, 57 L.Ed.2d 290 (1978) (citation omitted). Consequently, \"searches conducted outside the judicial process, without prior approval by judge or magistrate, are per se unreasonable under the Fourth Amendment-subject only to a few specifically established and well-delineated exceptions.\" Katz v. United States , 389 U.S. 347, 357, 88 S.Ct. 507, 19 L.Ed.2d 576 (1967) (footnote omitted).\nSuch \"specifically established and well-delineated exceptions\" include exigent circumstances, searches incident to arrest, vehicle searches, and border searches. See Arizona v. Gant , 556 U.S. 332, 343, 129 S.Ct. 1710, 173 L.Ed.2d 485 (2009) (vehicle searches); Brigham City v. Stuart , 547 U.S. 398, 403, 126 S.Ct. 1943, 164 L.Ed.2d 650 (2006) (exigent circumstances; listing other exceptions, including warrantless entry to fight a fire, to prevent the imminent destruction of evidence, or in \"hot pursuit\" of a fleeing suspect); United States v. Ramsey , 431 U.S. 606, 616, 97 S.Ct. 1972, 52 L.Ed.2d 617 (1977) (border searches); Weeks v. United States , 232 U.S. 383, 392, 34 S.Ct. 341, 58 L.Ed. 652 (1914) (searches incident to arrest), overruled in part on other grounds by Mapp v. Ohio , 367 U.S. 643, 81 S.Ct. 1684, 6 L.Ed.2d 1081 (1961).\nExceptions to the warrant requirement are subject to two important constraints. First, any search conducted under an exception must be within the scope of the exception. Second, some searches, even when conducted within the scope of the exception, are so intrusive that they require additional justification, up to and including probable cause and a warrant.\nThe first constraint is illustrated by the Supreme Court's decision in Riley v. California , 573 U.S. 373, 134 S.Ct. 2473, 189 L.Ed.2d 430 (2014), a case involving the search incident to arrest exception. In Riley , the Court addressed \"whether the police may, without a warrant, search digital information on a cell phone seized from an individual who has been arrested\"; in other words, whether cell phones fell within the scope of the search incident to arrest exception. Id. at 378, 134 S.Ct. 2473. The Court began by recognizing the increasing role in our lives of \"minicomputers that also happen to have the capacity to be used as a telephone\"; \"[m]odern cell phones, as a category, implicate privacy concerns far beyond those implicated by the search of a cigarette pack, a wallet, or a purse.\" Id. at 393, 134 S.Ct. 2473. Acknowledging that \"it has been well accepted that [a search incident to lawful arrest] constitutes an exception to the warrant requirement,\" id. at 382, 134 S.Ct. 2473, the Court pointed out that such searches serve two purposes: (1) to secure \"the officer's safety\" and (2) to \"prevent ... concealment or destruction [of evidence],\" id. at 383, 134 S.Ct. 2473 (citation omitted). The Court then considered whether a cell phone search qualified as a search incident to arrest by considering \"whether application of the search incident to arrest doctrine to [cell phones] would 'untether the rule from the justifications underlying the ... exception.' \" Id. at 386, 134 S.Ct. 2473 (quoting Gant , 556 U.S. at 343, 129 S.Ct. 1710 ).\nThe Court concluded that neither purpose for the search incident to arrest exception justified the search of a cell phone. The Court rejected the government's argument that searching a cell phone incident to arrest would \"help ensure officer safety in ... indirect ways, for example by alerting officers that confederates of the arrestee are headed to the scene.\" Id. at 387, 134 S.Ct. 2473. The Court reasoned that the government's position \"would ... represent a broadening\" of the exception's foundational concern that \"an arrestee himself might grab a weapon and use it against an officer.\" Id. at 387-88, 134 S.Ct. 2473. The Court observed that \"once law enforcement officers have secured a cell phone, there is no longer any risk that the arrestee himself will be able to delete incriminating data from the phone,\" id. at 388, 134 S.Ct. 2473, and police have means to ensure that data cannot be wiped from the phone remotely, id. at 390, 134 S.Ct. 2473. The Court concluded \"not that the information on a cell phone is immune from search; [but rather] that a warrant is generally required before such a search, even when a cell phone is seized incident to arrest.\" Id. at 401, 134 S.Ct. 2473.\nThe second constraint on warrantless searches is illustrated by the Court's decision in United States v. Montoya de Hernandez , 473 U.S. 531, 105 S.Ct. 3304, 87 L.Ed.2d 381 (1985). Montoya was stopped at Los Angeles International Airport and referred to secondary inspection. Id. at 533, 105 S.Ct. 3304. She had arrived from Bogota and was carrying $5,000 in cash. Id. She had no credit cards and no hotel reservations. Id. at 533-34, 105 S.Ct. 3304. Because border officials suspected that Montoya may have swallowed cocaine-filled balloons, Montoya was held in the customs office and, after a magistrate judge issued an order, taken to a hospital for a rectal examination. Id. at 534-35, 105 S.Ct. 3304. Over the next four days, she passed 88 balloons containing cocaine. Id. at 536, 105 S.Ct. 3304. Montoya argued that the search she was subjected to, though a border search, was so intrusive that it could not be conducted without a high level of particularized suspicion. Id. at 536-37, 540, 105 S.Ct. 3304. The Court balanced her privacy interests against the interests of the government at the border and concluded that, while routine searches may be conducted at the border without any showing of suspicion, a more intrusive, nonroutine search must be supported by \"reasonable suspicion.\" Id. at 537-41, 105 S.Ct. 3304 ; see also United States v. Flores-Montano , 541 U.S. 149, 152, 124 S.Ct. 1582, 158 L.Ed.2d 311 (2004) (suggesting that nonroutine searches are limited to \"highly intrusive searches of the person\" involving \"dignity and privacy interests\").\nCano recognizes that he was subject to search at the border, but Cano and amicus Electronic Frontier Foundation (\"EFF\") raise two categorical challenges and one as-applied challenge to the searches conducted here. First, EFF argues that any warrantless search of a cell phone falls outside the scope of the border search exception. Second, EFF argues that even if the search is within the scope of the border search exception, a warrantless cell phone search is so intrusive that it requires probable cause. We address these categorical challenges in Part II.A. Third, Cano asserts that, even if cell phones are generally subject to search at the border, the manual and forensic searches of his cell phone exceeded the \"well delineated\" scope of the border search. We address this as-applied question in Part II.B. Finally, the government argues that even if the border search exceeded the limits of the Fourth Amendment, the search was conducted in good faith, and the evidence is admissible. We consider the good faith exception in Part II.C.\nA. Border Searches and Cell Phones\n\"[B]order searches constitute a 'historically recognized exception to the Fourth Amendment's general principle that a warrant be obtained.' \" Cotterman , 709 F.3d at 957 (quoting Ramsey , 431 U.S. at 621, 97 S.Ct. 1972 ). Indeed, border searches typically do not require any particularized suspicion, so long as they are \"routine inspections and searches of individuals or conveyances seeking to cross our borders.\" Almeida-Sanchez v. United States , 413 U.S. 266, 272, 93 S.Ct. 2535, 37 L.Ed.2d 596 (1973) ; see United States v. Seljan , 547 F.3d 993, 999 (9th Cir. 2008) (en banc). Such searches are \"reasonable simply by virtue of the fact they occur at the border.\" Ramsey , 431 U.S. at 616, 97 S.Ct. 1972. The exception is \"rooted in 'the long-standing right of the sovereign to protect itself by stopping and examining persons and property crossing into this country,' \" Cotterman , 709 F.3d at 960 (quoting Ramsey , 431 U.S. at 616, 97 S.Ct. 1972 ), to \"prevent[ ] the entry of unwanted persons and effects,\" id. (quoting Flores-Montano , 541 U.S. at 152, 124 S.Ct. 1582 ).\nThe sovereign's right to conduct suspicionless searches at the border \"does not mean, however, that at the border 'anything goes.' \" Id. (quoting Seljan , 547 F.3d at 1000 ). Rather, the border search exception is a \"narrow exception\" that is limited in two important ways. Id. (citation omitted). First, \"[t]he authorizing statute limits the persons who may legally conduct a 'border search' to 'persons authorized to board or search vessels.' \" United States v. Soto-Soto , 598 F.2d 545, 549 (9th Cir. 1979) (citing 19 U.S.C. \u00a7 482 ). This includes customs and immigration officials, but not general law enforcement officers such as FBI agents. Id. ; see United States v. Diamond , 471 F.2d 771, 773 (9th Cir. 1973) (stating that \"customs agents are not general guardians of the public peace\"). Second, a border search must be conducted \"in enforcement of customs laws.\" Soto-Soto , 598 F.2d at 549. A border search must be conducted to \"enforce importation laws,\" and not for \"general law enforcement purposes.\" Id. A general search cannot be \"justif[ied] ... on the mere basis that it occurred at the border.\" Id. (affirming the suppression of evidence where an FBI agent stopped and searched the vehicle of an alien to determine whether the car had been stolen).\n1. Cell Phone Data as Contraband\nAs we discussed briefly above, the Supreme Court has identified two principal purposes behind warrantless border searches: First, to identify \"[t]ravellers ... entitled to come in\" and, second, to verify their \"belongings as effects which may be lawfully brought in.\" Carroll v. United States , 267 U.S. 132, 154, 45 S.Ct. 280, 69 L.Ed. 543 (1925) ; see Ramsey , 431 U.S. at 620, 97 S.Ct. 1972 (\"The border-search exception is grounded in the recognized right of the sovereign to control ... who and what may enter the country.\").\nEFF argues that applying the border search exception to a cell phone's data would \"untether\" the exception from the purposes underlying it. EFF contends that a border search encompasses only a search for illegal persons and physical contraband located on the body of the applicant for admission or among his effects. Because digital data on a cell phone cannot conceal objects such as drugs, guns, or smuggled persons, EFF asserts that digital cell phone searches are always beyond the scope of the border search exception.\nWe agree with EFF that the purpose of the border search is to interdict contraband, but we disagree with its premise that cell phones cannot contain contraband. Although cell phone data cannot hide physical objects, the data can contain digital contraband . The best example is child pornography. See United States v. Molina-Isidoro , 884 F.3d 287, 295 n.3 (5th Cir. 2018) (Costa, J., specially concurring) (\"One type of contraband that can be stored within the data of a cell phone ... is child pornography.\"). And because cell phones may ultimately be released into the interior, even if the owner has been detained, the United States has a strong interest in preventing the entry of such material. See , e.g. , United States v. Vergara , 884 F.3d 1309, 1311 (11th Cir.) (describing how agents returned one of the defendant's phones to a family member after defendant had been arrested for possessing child pornography on his other two phones), cert. denied , --- U.S. ----, 139 S. Ct. 70, 202 L.Ed.2d 47 (2018). We find no basis for the proposition that the border search exception is limited to searching for physical contraband. At the very least, a cell phone that has photos stored on it is the equivalent of photographs, magazines, and books. See Riley , 573 U.S. at 394, 134 S.Ct. 2473 ; Cotterman , 709 F.3d at 964. The contents may be digital when they are on the phone, but the physicality of the phone itself and the possibility that the phone's contents can be printed or shared electronically gives border officials sufficient reason to inspect it at the border. We conclude that cell phones-including the phones' data-are subject to search at the border.\n2. Forensic Cell Phone Searches as an Intrusive Search\nThe second question we must address in response to amicus EFF is whether forensic searches of a cell phone are so intrusive that they require reasonable suspicion or even probable cause. We answered this question in our en banc decision in Cotterman , but with respect to laptop computers. Cotterman , 709 F.3d at 962-68. Cotterman was a United States citizen returning to the United States from Mexico. Id. at 957. When he reached the port of entry, border officials noted that Cotterman had various convictions for sexual conduct with children. Id. Concerned that Cotterman might be involved in child sex tourism, officials conducted a brief search of his laptop computers and digital cameras and noted that the laptops had password-protected files. Id. at 958. The officials detained the computers for several days in order to run a comprehensive forensic search of the hard drive, which revealed hundreds of images of child pornography. Id. at 958-59. For us, \"the legitimacy of the initial search of Cotterman's electronic devices at the border [was] not in doubt,\" id. at 960, \"[t]he difficult question ... [was] the reasonableness, without a warrant, of the forensic examination that comprehensively analyzed the hard drive of the computer,\" id. at 961.\nWe acknowledged the \"substantial personal privacy interests\" in \"[e]lectronic devices ... capable of storing warehouses full of information.\" Id. at 964. At the same time, we recognized \"the important security concerns that prevail at the border\" and the legitimacy of \"[t]he effort to interdict child pornography.\" Id. at 966. We held that a routine, manual search of files on a laptop computer-\"a quick look and unintrusive search\"-is reasonable \"even without particularized suspicion,\" but that officials must \"possess a particularized and objective basis for suspecting the person stopped of criminal activity\" to engage in a forensic examination, which is \"essentially a computer strip search.\" Id. at 960-61, 966, 967 (citation omitted). We concluded that reasonable suspicion was \"a modest, workable standard that is already applied in the extended border search, Terry stop, and other contexts.\" Id. at 966 ; see id. at 968 (defining reasonable suspicion as \"a particularized and objective basis for suspecting the particular person stopped of criminal activity\" (quoting United States v. Cortez , 449 U.S. 411, 417-18, 101 S.Ct. 690, 66 L.Ed.2d 621 (1981) )).\nWe think that Cotterman 's reasoning applies equally to cell phones. In large measure, we anticipated the Supreme Court's reasoning in Riley , 573 U.S. at 393-97, 134 S.Ct. 2473, when we recognized in Cotterman that digital devices \"contain the most intimate details of our lives\" and \"the uniquely sensitive nature of data on electronic devices carries with it a significant expectation of privacy,\" Cotterman , 709 F.3d at 965-66 ; see Riley , 573 U.S. at 385, 393, 134 S.Ct. 2473 (describing cell phones as \"a pervasive and insistent part of daily life\" that, \"as a category, implicate privacy concerns far beyond those implicated by the search of a cigarette pack, a wallet, or a purse\"). The Court's view of cell phones in Riley so closely resembles our own analysis of laptop computers in Cotterman that we find no basis to distinguish a forensic cell phone search from a forensic laptop search.\nNor do we believe that Riley renders the Cotterman standard insufficiently protective. Riley , of course, held that \"a warrant is generally required\" before searching a cell phone, \"even when a cell phone is seized incident to arrest.\" 573 U.S. at 401, 134 S.Ct. 2473. But here we deal with the border search exception-not the search incident to arrest exception-and the difference in context is critical. In light of the government's enhanced interest in protecting the \"integrity of the border\" and the individual's decreased expectation of privacy, the Court has emphasized that \"the Fourth Amendment's balance of reasonableness is qualitatively different at the international border than in the interior\" and is \"struck much more favorably to the Government.\" Montoya de Hernandez , 473 U.S. at 538-40, 105 S.Ct. 3304. As a result, post- Riley , no court has required more than reasonable suspicion to justify even an intrusive border search. See United States v. Wanjiku , 919 F.3d 472, 485 (7th Cir. 2019) (\"[N]o circuit court, before or after Riley , has required more than reasonable suspicion for a border search of cell phones or electronically-stored data.\"); Touset , 890 F.3d at 1234 (\" Riley , which involved the search-incident-to-arrest exception, does not apply to searches at the border.\"); Molina-Isidoro , 884 F.3d at 291 (\"For border searches both routine and not, no case has required a warrant.\"); id. at 293 (\"The bottom line is that only two of the many federal cases addressing border searches of electronic devices have ever required any level of suspicion. They both required only reasonable suspicion and that was for the more intrusive forensic search.\"); see also United States v. Kolsuz , 890 F.3d 133, 137 (4th Cir. 2018) (concluding that a \"forensic examination of Kolsuz's phone must be considered a nonroutine border search, requiring some measure of individualized suspicion\" but declining to decide whether the standard should be reasonable suspicion or probable cause).\nAccordingly, we hold that manual searches of cell phones at the border are reasonable without individualized suspicion, whereas the forensic examination of a cell phone requires a showing of reasonable suspicion. See Cotterman , 709 F.3d at 968.\nB. The Searches of Cano's Cell Phone and the Scope of the Border Search Exception\nHaving concluded that border officials may conduct suspicionless manual searches of cell phones, but must have reasonable suspicion before they conduct a forensic search, we still must address the core of Cano's argument: whether the manual and forensic searches of his cell phone were not searches for digital contraband, but searches for evidence of a crime, and thus exceeded the proper scope of a border search.\n1. The Border Exception and the Search for Contraband\nAs a threshold matter, Cano argues that border searches are limited in both purpose and scope to searches for contraband. In response, the government argues that searches for evidence that would aid in prosecuting past and preventing future border-related crimes are tethered to the purpose of the border search exception-namely, interdicting foreign contraband-and thus fall within its scope.\nThis is a close question, but we think Cano has the better of the argument. There is a difference between a search for contraband and a search for evidence of border-related crimes, although the distinction may not be apparent. Cotterman helps us focus on the difference. There, border officials had been alerted that Cotterman had a criminal record of sex abuse of minors and might be involved in \"child sex tourism.\" Cotterman , 709 F.3d at 957. The officials seized his laptop and subjected it to searches for child pornography, which they found. In Cotterman , the child pornography was contraband subject to seizure at the border. As contraband, the child pornography is also evidence of various crimes, including possession of child pornography, 18 U.S.C. \u00a7 2252A(a)(5)(B), and importation of obscene material, 18 U.S.C. \u00a7 1462(a). But nothing in Cotterman authorized border officials to conduct a search for evidence that Cotterman was involved in sex-related crimes generally.\nBorder officials are authorized to seize \"merchandise which ... shall have been introduced into the United States in any manner contrary to law.\" 19 U.S.C. \u00a7 482(a) (emphasis added). The photos on Cotterman's laptop computer were such merchandise. 18 U.S.C. \u00a7 2252(a). But border officials have no general authority to search for crime. This is true even if there is a possibility that such crimes may be perpetrated at the border in the future. So, for example, if U.S. officials reasonably suspect that a person who has presented himself at the border may be engaged in price fixing, see 15 U.S.C. \u00a7 1, they may not conduct a forensic search of his phone or laptop. Evidence of price fixing-texts or emails, for example-is not itself contraband whose importation is prohibited by law. Such emails may be evidence of a crime, but they are not contraband, and there is no law prohibiting the importation of mere evidence of crime.\nWe recognize that our analysis is in tension with the Fourth Circuit's decision in Kolsuz . Kolsuz was detained at Washington Dulles International Airport when customs agents discovered firearm parts in his luggage. Kolsuz , 890 F.3d at 138-39. Kolsuz was arrested and his cell phone seized. Id. at 139. The agents subjected the phone to a month-long forensic search, producing a 896-page report. Id . Kolsuz challenged the search, which the district court upheld and the Fourth Circuit affirmed. Id. at 139-42. The court approved the forensic search because the agents had \"reason to believe ... that Kolsuz was attempting to export firearms illegally\" and that \"their search would reveal not only evidence of the export violation they already had detected, but also 'information related to other ongoing attempts to export illegally various firearm parts.' \" Id. at 143 (quoting the district court; citation omitted). According to the Fourth Circuit, \"[t]he justification behind the border search exception is broad enough to accommodate not only the direct interception of contraband as it crosses the border, but also the prevention and disruption of ongoing efforts to export contraband illegally .\" Id. (emphasis added).\nWe agree with much of the Fourth Circuit's discussion of foundational principles, but we respectfully disagree with the final step approving the search for further evidence that Kolsuz was smuggling weapons. Our disagreement focuses precisely on the critical question that we previously identified: Does the proper scope of a border search include the power to search for evidence of contraband that is not present at the border? Or, put differently, can border agents conduct a warrantless search for evidence of past or future border-related crimes? We think that the answer must be \"no.\" The \"[d]etection of ... contraband is the strongest historic rationale for the border-search exception.\" Molina-Isidoro , 884 F.3d at 295 (Costa, J., specially concurring). Indeed, \"every border-search case the Supreme Court has decided involved searches to locate items being smuggled \" rather than evidence. Id. (emphasis added); see Montoya de Hernandez , 473 U.S. at 537, 105 S.Ct. 3304 (the border search is \"to prevent the introduction of contraband into this country\"); United States v. 12 200-Foot Reels of Super 8mm. Film , 413 U.S. 123, 125, 93 S.Ct. 2665, 37 L.Ed.2d 500 (1973) (border searches are \"necessary to prevent smuggling and to prevent prohibited articles from entry\"); United States v. Thirty-Seven Photographs , 402 U.S. 363, 376, 91 S.Ct. 1400, 28 L.Ed.2d 822 (1971) (\"Customs officers characteristically inspect luggage and their power to do so is not questioned in this case; it is an old practice and is intimately associated with excluding illegal articles from the country\"). In fact, the Court has long \"draw[n] a sharp distinction between searches for contraband and those for evidence that may reveal the importation of contraband.\" Molina-Isidoro , 884 F.3d at 296 (Costa, J., specially concurring). The classic statement on the distinction between seizing goods at the border because their importation is prohibited and seizing goods at the border because they may be useful in prosecuting crimes is found in Boyd v. United States :\nIs a search and seizure, or, what is equivalent thereto, a compulsory production of a man's private papers, to be used in evidence against him in a proceeding to forfeit his property for alleged fraud against the revenue laws-is such a proceeding for such a purpose an \"unreasonable search and seizure\" within the meaning of the fourth amendment of the constitution? .... The search for and seizure of stolen or forfeited goods, or goods liable to duties and concealed to avoid the payment thereof, are totally different things from a search for and seizure of a man's private books and papers for the purpose of obtaining information therein contained, or of using them as evidence against him. The two things differ toto coelo .\n116 U.S. 616, 622-23, 6 S.Ct. 524, 29 L.Ed. 746 (1886), overruled in part on other grounds by Warden, Md. Penitentiary v. Hayden , 387 U.S. 294, 87 S.Ct. 1642, 18 L.Ed.2d 782 (1967) ; see also id. at 633, 6 S.Ct. 524 (stating that compelling a man to produce the evidence against himself not only violates the Fifth Amendment, but makes the seizure of his \"books and papers\" unreasonable under the Fourth Amendment).\nAlthough we continue to acknowledge that \"[t]he Government's interest in preventing the entry of unwanted persons and effects is at its zenith at the international border\" and that \"the expectation of privacy is less at the border than it is in the interior,\" Flores-Montano , 541 U.S. at 152, 154, 124 S.Ct. 1582, we hold that the border search exception authorizes warrantless searches of a cell phone only to determine whether the phone contains contraband. A broader search cannot be \"justified by the particular purposes served by the exception.\"\nFlorida v. Royer , 460 U.S. 491, 500, 103 S.Ct. 1319, 75 L.Ed.2d 229 (1983).\n2. The Impact of a Limited Scope for Border Searches\nOur conclusion that the border search exception is restricted in scope to searches for contraband implicates two practical limitations on warrantless border searches. First, border officials are limited to searching for contraband only; they may not search in a manner untethered to the search for contraband. The Supreme Court has repeatedly emphasized that \"[t]he scope of the search must be 'strictly tied to and justified by' the circumstances which rendered its initiation permissible.\" Terry v. Ohio , 392 U.S. 1, 19, 88 S.Ct. 1868, 20 L.Ed.2d 889 (1968).\nThe validity of the manual searches conducted by Agents Petonak and Medrano at their inception is beyond dispute. Manual searches of a cell phone at the border can be conducted without any suspicion whatsoever, see Cotterman , 709 F.3d at 960, and both agents were officers of HSI and thus had authority to conduct border searches, Soto-Soto , 598 F.2d at 548-49. As the Supreme Court explained in Terry , however, \"a search which is reasonable at its inception may violate the Fourth Amendment by virtue of its intolerable intensity and scope.\" 392 U.S. at 18, 88 S.Ct. 1868.\nOnce Cano was arrested, Agent Petonak briefly searched Cano's phone and observed that there were no text messages. The observation that the phone contained no text messages falls comfortably within the scope of a search for digital contraband. Child pornography may be sent via text message, so the officers acted within the scope of a permissible border search in accessing the phone's text messages.\nAgent Medrano conducted a second manual search of the phone log and text messages on Cano's phone. Medrano, however, did more than thumb through the phone consistent with a search for contraband. He also recorded phone numbers found in the call log, and he photographed two messages received after Cano had reached the border. Those actions have no connection whatsoever to digital contraband. Criminals may hide contraband in unexpected places, so it was reasonable for the two HSI officers to open the phone's call log to verify that the log contained a list of phone numbers and not surreptitious images or videos. But the border search exception does not justify Agent Medrano's recording of the phone numbers and text messages for further processing, because that action has no connection to ensuring that the phone lacks digital contraband. Accordingly, to the extent that Agent Medrano's search of Cano's phone went beyond a verification that the phone lacked digital contraband, the search exceeded the proper scope of a border search and was unreasonable as a border search under the Fourth Amendment.\nSecond, because the border search exception is limited in scope to searches for contraband, border officials may conduct a forensic cell phone search only when they reasonably suspect that the cell phone contains contraband. We have held that a \"highly intrusive\" search-such as a forensic cell phone search-requires some level of particularized suspicion. Cotterman , 709 F.3d at 963, 968 ; see Flores-Montano , 541 U.S. at 152, 124 S.Ct. 1582. But that just begs the question: Particularized suspicion of what? Contraband? Or evidence of future border-related crimes? Having concluded above that border searches are limited in scope to searches for contraband and do not encompass searches for evidence of past or future border-related crimes, we think the answer here is clear: to conduct a more intrusive, forensic cell phone search border officials must reasonably suspect that the cell phone to be searched itself contains contraband.\nWere we to rule otherwise, the government could conduct a full forensic search of every electronic device of anyone arrested at the border, for the probable cause required to justify an arrest at the border will always satisfy the lesser reasonable suspicion standard needed to justify a forensic search. As the Court pointed out in Riley , modern cell phones are \"minicomputers\" with \"immense storage capacity.\" 573 U.S. at 393, 134 S.Ct. 2473. Such phones \"carry a cache of sensitive personal information\"-\"[t]he sum of an individual's private life\"-such that a search of a cell phone may give the government not only \"sensitive records previously found in the home,\" but a \"broad array of private information never found in a home in any form-unless the phone is.\" Id. at 393-97, 134 S.Ct. 2473. Were we to give the government unfettered access to cell phones, we would enable the government to evade the protections laid out in Riley \"on the mere basis that [the searches] occurred at the border.\" Soto-Soto , 598 F.2d at 549.\nMoreover, in cases such as this, where the individual suspected of committing the border-related crime has already been arrested, there is no reason why border officials cannot obtain a warrant before conducting their forensic search. This \"is particularly true in light of 'advances' in technology that now permit 'the more expeditious processing of warrant applications.' \" Birchfield v. North Dakota , --- U.S. ----, 136 S. Ct. 2160, 2192, 195 L.Ed.2d 560 (2016) (quoting Missouri v. McNeely , 569 U.S. 141, 154, 133 S.Ct. 1552, 185 L.Ed.2d 696 (2013) ); see Riley , 573 U.S. at 401, 134 S.Ct. 2473. Indeed, in most cases the time required to obtain a warrant would seem trivial compared to the hours, days, and weeks needed to complete a forensic electronic search. See , e.g. , Wanjiku , 919 F.3d at 477 (noting that a forensic \"preview\" takes one to three hours; the full examination \"could take months\"); Kolsuz , 890 F.3d at 139 (describing how the forensic search \"lasted for a full month, and yielded an 896-page report\"); Cotterman , 709 F.3d at 959 (describing how the first forensic search was conducted over five days; additional evidence was found \"[o]ver the next few months\"). We therefore conclude that border officials may conduct a forensic cell phone search only when they reasonably suspect that the cell phone to be searched itself contains contraband.\nApplied here, if the Cellebrite search of Cano's cell phone qualifies as a forensic search, the entire search was unreasonable under the Fourth Amendment. Although Agents Petonak and Medrano had reason to suspect that Cano's phone would contain evidence leading to additional drugs, the record does not give rise to any objectively reasonable suspicion that the digital data in the phone contained contraband. Absent reasonable suspicion, the border search exception did not authorize the agents to conduct a warrantless forensic search of Cano's phone, and evidence obtained through a forensic search should be suppressed.\nC. Good Faith Exception\nWe next consider whether the evidence uncovered by the searches is nevertheless allowed by the good faith exception. Having held that the manual searches partially violated the Fourth Amendment and having held that, if the Cellebrite search of Cano's phone was a forensic search, it violated the Fourth Amendment, we must determine whether the appropriate remedy is suppression of the evidence. The exclusionary rule is \"a 'prudential' doctrine\"; it is \" 'not a personal constitutional right,' nor is it designed to 'redress the injury' occasioned by an unconstitutional search.\" Davis v. United States , 564 U.S. 229, 236, 131 S.Ct. 2419, 180 L.Ed.2d 285 (2011) (quoting Stone v. Powell , 428 U.S. 465, 486, 96 S.Ct. 3037, 49 L.Ed.2d 1067 (1976) ). Because \"[e]xclusion exacts a heavy toll on both the judicial system and society at large,\" we invoke the rule when we are confident that it will \"deter future Fourth Amendment violations.\" Id . at 236-37, 131 S.Ct. 2419. The exclusionary rule does not deter such violations \"when the police conduct a search in objectively reasonable reliance on binding judicial precedent.\" Id. at 239, 131 S.Ct. 2419. We have said that the good faith exception applies only to searches where \"binding appellate precedent ... 'specifically authorizes' the police's search.\" United States v. Lara , 815 F.3d 605, 613 (9th Cir. 2016) (quoting Davis , 564 U.S. at 232, 131 S.Ct. 2419 ). It is not sufficient for the question to be \"unclear\" or for the government's position to be \"plausibly ... permissible.\" Id. at 613-14. At the same time, the \"precedent [does not have] to constitute a factual match with the circumstances of the search in question for the good-faith exception to apply\" so as not to \"make the good-faith exception a nullity.\" United States v. Lustig , 830 F.3d 1075, 1082 (9th Cir. 2016).\nThe government points to Cotterman as support for the good faith of the officials. We fail to see how border officials could believe that Cotterman was \"binding appellate precedent\" authorizing their search. Although we have concluded that Cotterman is still good law after Riley , the officials could not rely on Cotterman to justify a search for evidence ; Cotterman was a search for contraband that the government has a right to seize at the border. Here, the officials' search was objectively tied only to proving their case against Cano and finding evidence of future crimes. Searching for evidence and searching for contraband are not the same thing.\nWe understand that border officials might have thought that their actions were reasonable, and we recognize that border officials have to make in-the-moment decisions about how to conduct their business-whether or not they have written guidance from the courts. But as we understand the Davis rule, the good faith exception to the exclusionary rule applies only when the officials have relied on \"binding appellate precedent.\" See Lara , 815 F.3d at 613 ; see also Wanjiku , 919 F.3d at 485-86 (finding that agents had reasonable suspicion to search the defendant's cell phone, laptop, and portable hard drive for child pornography; holding that, if probable cause was required, the officials acted in good faith). This is a rapidly developing area, not an area of settled law. Even if our decision in Cotterman rendered the searches \"plausibly ... permissible,\" it did not \"specifically authorize\" the cell phone searches at issue here. Lara , 815 F.3d at 613-14.\n* * *\nIn sum, the manual searches and the Cellebrite search of Cano's cell phone exceeded the scope of a valid border search. Because the good faith exception does not apply, most of the evidence obtained from the searches of Cano's cell phone should have been suppressed. We thus reverse the district court's order denying Cano's motion to suppress, and we vacate Cano's conviction. On any retrial, the district court should determine whether any additional evidence from the warrantless searches of Cano's cell phone should be suppressed, either because the Cellebrite search qualifies as a forensic search, which the government lacked reasonable suspicion to conduct, or because the evidence exceeds the proper scope of a border search.\nIII. DISCOVERY ISSUES\nCano has also alleged that the government violated his rights under both Brady and Federal Rule of Criminal Procedure 16 when it failed to turn over certain information that Cano requested from the FBI and DEA. We address Cano's discovery claims, as the issues may be relevant on any retrial.\nUnder Brady , the prosecution has an obligation, imposed by the Due Process Clause, to produce \"evidence favorable to an accused upon request ... where the evidence is material either to guilt or to punishment.\" 373 U.S. at 87, 83 S.Ct. 1194. \"[E]vidence is material only if there is a reasonable probability that, had the evidence been disclosed to the defense, the result of the proceeding would have been different.\" United States v. Bagley , 473 U.S. 667, 682, 105 S.Ct. 3375, 87 L.Ed.2d 481 (1985).\nUnder Rule 16, the government must, upon request, turn over any documents \"within the government's possession, custody, or control\" that are \"material to preparing the defense.\" Fed. R. Crim. P. 16(a)(1)(E)(i). The defendant \"must make a threshold showing of materiality, which requires a presentation of facts which would tend to show that the Government is in possession of information helpful to the defense.\" United States v. Muniz-Jaquez , 718 F.3d 1180, 1183-84 (9th Cir. 2013) (quoting United States v. Stever , 603 F.3d 747, 752 (9th Cir. 2010) ). Because \"[i]nformation that is not exculpatory or impeaching may still be relevant to developing a possible defense,\" Rule 16 is \"broader than Brady .\" Id. at 1183.\nUnder both Brady and Rule 16, the government \"has no obligation to produce information which it does not possess or of which it is unaware.\" Sanchez v. United States , 50 F.3d 1448, 1453 (9th Cir. 1995). It has an obligation to turn over only material, exculpatory or otherwise helpful to the defense, that it has in its possession. \"Possession\" is not limited to what the prosecutor personally knows. Browning v. Baker , 875 F.3d 444, 460 (9th Cir. 2017), cert. denied , --- U.S. ----, 138 S. Ct. 2608, 201 L.Ed.2d 1014 (2018) ; United States v. Bryan , 868 F.2d 1032, 1036 (9th Cir. 1989). Because prosecutors are in a \"unique position to obtain information known to other agents of the government,\" they have an obligation to \"disclos[e] what [they] do[ ] not know but could have learned.\" Carriger v. Stewart , 132 F.3d 463, 480 (9th Cir. 1997) (en banc); see also Kyles v. Whitley , 514 U.S. 419, 437, 115 S.Ct. 1555, 131 L.Ed.2d 490 (1995) (describing how the \"individual prosecutor has a duty to learn of any favorable evidence known to [those] acting on the government's behalf\"); Youngblood v. West Virginia , 547 U.S. 867, 869-70, 126 S.Ct. 2188, 165 L.Ed.2d 269 (2006) (per curiam). This includes information held by subordinates such as investigating police officers, see Kyles , 514 U.S. at 438, 115 S.Ct. 1555 ; United States v. Price , 566 F.3d 900, 908-09 (9th Cir. 2009), and sometimes extends to information held by other executive branch agencies, see United States v. Santiago , 46 F.3d 885, 893 (9th Cir. 1995) ; United States v. Jennings , 960 F.2d 1488, 1490-91 (9th Cir. 1992).\nDocuments held by another executive branch agency are deemed to be \"in the possession of the government\" if the prosecutor has \"knowledge of and access to\" the documents. Bryan , 868 F.2d at 1036. Knowledge and access are presumed if the agency participates in the investigation of the defendant. Id. (\"The prosecutor will be deemed to have knowledge of and access to anything in the possession, custody or control of any federal agency participating in the same investigation of the defendant.\"). However, \"a federal prosecutor need not comb the files of every federal agency which might have documents regarding the defendant in order to fulfill his or her obligations under [ Rule 16 ].\" Id. ; see also Kyles , 514 U.S. at 437, 115 S.Ct. 1555 (\"We have never held that the Constitution demands an open file policy ....\").\nHere, Cano asserted a third-party defense theory: he was staying in Tijuana with his cousin, Jose Medina; Medina was a member of the Latin Kings gang which was involved in the drug trade; and Medina had access to Cano's car before Cano was stopped at the border. Cano requested that the U.S. Attorney's Office turn over any material held by HSI, the FBI, and the DEA relating to: (1) records linking his cousin Jose Medina to drug sales, distribution, and trafficking; and (2) documentation showing a link between the Latin Kings and drug trafficking through the United States-Mexico border. The district court found that both requests might produce evidence that was exculpatory under Brady and material under Rule 16, but limited Cano's discovery to only material held by HSI. The court concluded that the prosecutor did not have access to evidence held by the FBI and DEA, and thus had no obligation to provide such evidence, because both agencies had \"rebuffed\" the prosecutor's attempts to obtain information. Thus, the only issue raised on appeal is whether any material held by the DEA and FBI should be deemed \"within the government's possession.\"\nWe find no evidence that the prosecution had knowledge or possession of evidence showing that Medina or the Latin Kings were involved in drug trafficking at the Mexico-California border. Medina had one drug-related conviction, and it was for simple possession of cocaine, not trafficking. Before trial, however, the prosecution team reached out to Medina and promised him immunity and immigration documents in exchange for cooperation and information concerning drug importation. Although Medina originally rebuffed the government, he eventually offered to work with the government and \"stated that he would be able to assist the Government with the ... biggest RICO ... case and drug seizures of 20 to 25 kilograms at a time.\" The district court found that Medina's statements \"spawn[ed] an inference that [he] is closely connected to the drug-traffickers in Tijuana.\" Based on this inference, Cano argues that the government had sufficient knowledge of a possible connection between Medina and drug trafficking to trigger the government's discovery obligations.\nCano's argument, however, misstates the test we first set out in Bryan . Cano has argued only that the prosecutor had knowledge that certain facts might exist. However, we have said that the prosecutor's disclosure obligations turn on \"the extent to which the prosecutor has knowledge of and access to the documents sought by the defendant.\" Bryan , 868 F.2d at 1036 (emphasis added); see also Santiago , 46 F.3d at 894 (analyzing whether the prosecutor had knowledge of and access to certain inmate files). We have required disclosure only of documents that the prosecutor knew existed. Bryan , 868 F.2d at 1034-37.\nHere, although Cano has presented evidence alleging a plausible connection between Medina and drug trafficking, Cano has failed to adduce any evidence showing that prosecutors or investigators knew that the FBI or the DEA possessed documents showing that connection. In fact, the record established the opposite. One of the HSI agents ran Medina's name through two different law enforcement clearinghouses-in which the FBI and DEA both participate-and neither search returned any hits.\nMoreover, the prosecutor did not have access to FBI or DEA files and thus was under no obligation to \"comb the files\" of the FBI and DEA for documents relating to Medina. We have occasionally presumed that a prosecutor has access to an agency's files where the prosecutor actually obtained inculpatory information from the agency, even if the agency was not involved in the investigation or prosecution. See Santiago , 46 F.3d at 894 (concluding that the prosecutor had access to other inmates' prison files where the prosecutor was able to obtain the defendant's prison file from the Bureau of Prisons). Here, however, the U.S. Attorney's Office advised the district court that it did not obtain any evidence-inculpatory or exculpatory-from the FBI or the DEA. Following the district court's initial discovery order, HSI's agent-Agent Petonak-made a formal request to the legal counsel for the FBI and the DEA for any \"materials related to the Latin Kings importing cocaine from Mexico to the United States,\" but both agencies \"declined to provide [him] with any such information.\" Neither agency revealed whether any such information existed or provided a reason for its refusal. The U.S. Attorney's Office also reached out to the FBI and the DEA for Latin Kings-related discovery. That request was also denied.\nCano argues that the FBI and DEA's refusal to turn over information in this particular case should not be determinative and that the test for access under Bryan and Santiago requires only that the U.S. Attorney's Office or investigating agency generally have access to this type of information. Cano points to evidence from both prosecution and defense witnesses that HSI regularly works with the FBI and the DEA; that \"interagency cooperation has been emphasized\" after September 11, 2001; that agents from the different agencies regularly access information for one another; that a DEA representative worked in Agent Petonak's office; and that agents are often cross-listed between agencies. From this, Cano argues that HSI generally has access to FBI and DEA files for inculpatory purposes, and thus asserts that the refusal of the FBI and DEA to provide information in this particular case should not relieve HSI of its discovery obligations. To rule otherwise, Cano contends, would allow these withholding agencies \"to effectively wall off exculpatory information from the government in a particular defendant's case, all the while providing the government free-flowing access to information in its overall investigations.\"\nAlthough we are sympathetic to Cano's concerns regarding strategic withholding, the rule Cano urges us to adopt is much too broad. Brady and Rule 16 obligations are case specific. In Bryan we stated that the test for \"possession\" turns on the prosecutor's \"knowledge of and access to the documents sought by the defendant in each case \" and that \"[t]he prosecutor will be deemed to have knowledge of and access to anything in the possession, custody or control of any federal agency participating in the same investigation of the defendant .\" 868 F.2d at 1036 (emphases added). Such a case-by-case approach makes sense, as the FBI and DEA may have valid concerns over revealing sensitive information in cases wholly unrelated to the agencies' own workload; the agencies may be reluctant to cooperate in a particular investigation if it means opening their files in other investigations. If Cano thinks that the FBI or the DEA have other information, not known to the U.S. Attorney's Office or the investigating officers, he may file a request under the Freedom of Information Act, subject to that Act's own restrictions on releasing \"records or information compiled for law enforcement purposes.\" 5 U.S.C. \u00a7 552(b)(7). Brady and Rule 16 are not a means for a defendant to require the prosecutor to do this work for him. See generally Roth v. U.S. Dep't of Justice , 642 F.3d 1161, 1175-76 (D.C. Cir. 2011) ; Boyd v. Crim. Div. of U.S. Dep't of Justice , 475 F.3d 381, 386-89 (D.C. Cir. 2007).\nCano is unable to identify any case in which the prosecutor was required to obtain discovery from an agency wholly unrelated to the investigation of the defendant in spite of that agency's refusal to comply; all of the cases cited by Cano imposing a \"duty to learn\" on the prosecutor involve independent federal agencies that had participated in the investigation of the defendant. See Price , 566 F.3d at 908-09 ; Carriger , 132 F.3d at 479-80 ; United States v. Perdomo , 929 F.2d 967, 971 (3d Cir. 1991) ; United States v. Osorio , 929 F.2d 753, 762 (1st Cir. 1991). Indeed, the Third Circuit has held that a Brady obligation is not triggered where the agency did not participate in the investigation in any way, did not share any information with the prosecuting team, and where the prosecutor had no authority or control over the agency's members. United States v. Pelullo , 399 F.3d 197, 218 (3d Cir. 2005) ; see also United States v. Salyer , 271 F.R.D. 148, 156 (E.D. Cal. 2010) (concluding that \"[t]he need for formal process in the acquisition of documents [from another agency] is the antithesis of 'access' \"). We similarly now hold that the prosecutor should not be held to have \"access\" to any information that an agency not involved in the investigation or prosecution of the case refuses to turn over.\nBecause the HSI agents and prosecutors in Cano's case neither knew of nor had access to any additional files relating to Medina and the Latin Kings, we conclude that the government has satisfied its discovery obligations under Brady and Rule 16.\nIV. CONCLUSION\nWe REVERSE the district court's order denying Cano's motion to suppress and VACATE Cano's conviction.\nSome-but not all-of the evidence was available through alternative channels. For example, the government introduced a call log, unchallenged by Cano, that the government received from Cano's phone company. Similarly, the government later obtained a warrant to search the phone, and an agent conducted further searches. Because the government introduced at trial much evidence pre-dating those events, and because the government has not argued that any Fourth Amendment error was harmless, those later events do not affect our Fourth Amendment analysis of the warrantless searches. United States v. Rodriguez , 880 F.3d 1151, 1163 (9th Cir. 2018)\nA police clearinghouse works for the purpose of \"deconfliction\" by notifying an agency if another agency has an investigation pending against the same person or item. The DEA and FBI participate in the two clearinghouses searched by Agent Petonak.\nWe review de novo \"the district court's determination that [a] warrantless search ... was a valid border search.\" United States v. Cardona , 769 F.2d 625, 628 (9th Cir. 1985).\nSection 482 now reads in relevant part:\nAny of the officers or persons authorized to board or search vessels may stop, search, and examine ... any vehicle, beast, or person, on which or whom he or they shall suspect there is merchandise which is subject to duty, or shall have been introduced into the United States in any manner contrary to law .... [and may] seize and secure the same for trial.\n19 U.S.C. \u00a7 482(a) ; see id. \u00a7 1467 (\"[T]he appropriate customs officer for [a] port or place of arrival may ... enforce, cause inspection, examination, and search to be made of the persons, baggage, and merchandise discharged or unladen from [an arriving] vessel ....\"); id. \u00a7 1496 (\"The appropriate customs officer may cause an examination to be made of the baggage of any persons arriving in the United States in order to ascertain what articles are contained therein and whether subject to duty, free of duty, or prohibited ....\"); id. \u00a7 1582 (\"[A]ll persons coming into the United States from foreign countries shall be liable to detention and search by authorized officers or agents ....\").\nThe Court has described \u00a7 482 as granting the executive \"plenary authority to conduct routine searches and seizures at the border, without probable cause or a warrant.\" Montoya de Hernandez , 473 U.S. at 537 [105 S.Ct. 3304]. We have held that the \"outer limits of authority delegated by [\u00a7 482 are] available only in border searches.\" Corngold v. United States , 367 F.2d 1, 3 (9th Cir. 1966) (en banc).\nNo one contests that a border official could, consistent with the Fourth Amendment, examine the physical body of a cell phone to see if the phone itself is contraband-because, for example, it is a pirated copy of a patented U.S. phone-or if the phone itself presents a physical threat to officers. See Riley , 573 U.S. at 387, 134 S.Ct. 2473 (\"Law enforcement officers remain free to examine the physical aspects of a phone to ensure that it will not be used as a weapon-say, to determine whether there is a razor blade hidden between the phone and its case.\"). The dispute here concerns only whether border officials may search the digital data contained within the phone.\nWe need not address here questions surrounding the use of \"cloud computing,\" where the phone gives access to, but does not contain in its own memory, digital data stored in the cloud. See Riley , 573 U.S. at 397-98, 134 S.Ct. 2473 ; Cotterman , 709 F.3d at 965 & n.12.\nAlthough Cotterman referred to \"electronic devices\" generally, see 709 F.3d at 962-68, our holding was limited to the \"examination of Cotterman's computer,\" id. at 968, and did not address cell phones. We mentioned cell phones only once-in the first paragraph of the introduction describing the modern \"digital world.\" Id. at 956.\nWe note that the Eleventh Circuit disagreed with Cotterman in United States v. Touset , 890 F.3d 1227, 1234 (11th Cir. 2018). The court held that no level of suspicion was required to conduct a forensic search of a cell phone. Id. at 1234-35. Nevertheless, the Touset court held, in the alternative, that the forensic search of various electronic devices seized at the border were supported by reasonable suspicion. Id. at 1237. As with most cell phone search cases, in Touset border agents were looking for child pornography.\nCano emphasizes that the officials who arrested him were looking for evidence of a crime, not contraband that could be seized at the border, and this renders the search unconstitutional. He points to Officers Petonak and Medrano, who searched Cano's cell phone, and who testified that their searches had a dual purpose: \"to find some brief investigative leads in the current case\" and \"to see if there[ ] [was] evidence of other things coming across the border.\" Because the agents acknowledged that they sought evidence to use against Cano in building a criminal case, Cano argues that the court should treat the search as one conducted for \"general law enforcement purposes\" rather than a border search.\nCano's focus on the officials' subjective motivations is misplaced, however. As the district court recognized, \"courts have repeatedly held that the Fourth Amendment's reasonableness analysis is 'predominantly an objective inquiry.' \" See Whren v. United States , 517 U.S. 806, 813, 116 S.Ct. 1769, 135 L.Ed.2d 89 (1996) (upholding a \"pretextual\" stop because \"[s]ubjective intentions play no role in ordinary ... Fourth Amendment analysis\"). We have upheld border searches of persons seeking entry even when those searches were conducted \"at the behest\" of DEA agents seeking criminal evidence. See United States v. Schoor , 597 F.2d 1303, 1305-06 (9th Cir. 1979) (holding a border search reasonable where it was conducted \"at the behest\" of DEA agents and included a search for certain items of evidence in addition to a search for contraband). Thus, the mere fact that Officers Petonak and Medrano subjectively hoped to find \"investigative leads\" pertaining to the seized shipment of cocaine does not render their searches of Cano's phone beyond the border search exception.\nAs support for this proposition, the Fourth Circuit cited two district court cases originating within our circuit. Both of those cases addressed fact-patterns almost identical to Cano's, and in each case the district court held that the border-search exception was not limited to searching for contraband directly. See United States v. Mendez , 240 F. Supp. 3d 1005, 1007-08 (D. Ariz. 2017) ; United States v. Ramos , 190 F. Supp. 3d 992, 999 (S.D. Cal. 2016). In neither case was the issue appealed to our circuit. Thus, Cano's case presents the first opportunity for us to consider the matter.\nThe fact of Cano's arrest does not affect our analysis. The border search does not lose its identity as such once Cano was arrested. The United States retains a strong interest in preventing contraband from entering the United States, whether it is brought in inadvertently, smuggled, or admitted into the United States once its owner is arrested. See United States v. Ickes , 393 F.3d 501, 503-05 (4th Cir. 2005) (upholding the post-arrest search of a laptop computer at the border where the officials had reason to suspect the computer carried child pornography); see also United States v. Bates , 526 F.2d 966, 967-68 (5th Cir. 1976) (per curiam) (upholding a search of the defendant's vehicle after he had been arrested at the border for violating his bond in connection with a previous drug crime under both the search incident to arrest and the border search exception).\nThe government has not argued that the forensic search of Cano's phone can be justified as a search incident to lawful arrest. Such an argument is foreclosed by Riley . See Riley , 573 U.S. at 388-91, 134 S.Ct. 2473. Nor has the government argued that once Medrano saw the phone numbers in the call log and the text messages that he could record them consistent with the plain view exception. See United States v. Comprehensive Drug Testing , 621 F.3d 1162, 1175-77 (9th Cir. 2010) (en banc) (per curiam), overruled in part on other grounds as recognized by Demaree v. Pederson , 887 F.3d 870, 876 (9th Cir. 2018) (per curiam).\nWhether the Cellebrite search constitutes a forensic search is disputed. Because the district court passed on the issue without deciding it, because neither party has briefed the question to us, and because we are vacating Defendant's conviction, we decline to reach the merits of the parties' dispute. See ASSE Int'l, Inc. v. Kerry , 803 F.3d 1059, 1079 (9th Cir. 2015).\nIndeed, the detection-of-contraband justification would rarely seem to apply to an electronic search of a cell phone outside the context of child pornography. The courts of appeals have just begun to confront the difficult questions attending cell phone searches at the border. Most of the cases have involved child pornography. See , e.g. , Wanjiku , 919 F.3d 472 ; Touset , 890 F.3d 1227 ; Molina-Isidoro , 884 F.3d 287 ; Vergara, 884 F.3d 1309 ; Cotterman , 709 F.3d 952. Among the courts of appeals, only the Fourth Circuit has addressed the question outside the context of pornography. Kolsuz , 890 F.3d 133 (exportation of firearms parts); see also United States v. Kim , 103 F. Supp. 3d 32 (D.D.C. 2015) (exports in violation of Iranian trade embargo); United States v. Saboonchi , 990 F. Supp. 2d 536 (D. Md. 2014) (same).\nWe review de novo whether a Brady violation has occurred. United States v. Stever , 603 F.3d 747, 752 (9th Cir. 2010).\nAlthough discovery rulings are generally reviewed for abuse of discretion, Stever , 603 F.3d at 752, we review a district court's interpretation of the discovery rules de novo, United States v. Cedano-Arellano , 332 F.3d 568, 570-71 (9th Cir. 2003).\nThe \"possession\" element of Brady is treated as coextensive with that of Rule 16. See , e.g. , United States v. Bryan , 868 F.2d 1032, 1037 (9th Cir. 1989) (using the same \"knowledge and access\" test to determine \"possession\" for both Rule 16 and Brady ); United States v. Grace , 401 F. Supp. 2d 1069, 1076 (D. Mont. 2005) (\"Whether exculpatory information is in the government's possession for Brady purposes is measured by the same ... test used under Rule 16(a)(1)(E) for discovery.\").\nCano sought to introduce a 2015 report from the FBI's National Gang Intelligence Center listing the Latin Kings as one of the top gangs involved in cross border crime, and including drug importation in its list of cross-border crimes. (The evidence was not ultimately presented at trial.) Cano also proffered information concerning two government informants working within the Latin Kings. Although these reports may suggest that the FBI may have had further information regarding a connection between the Latin Kings and drug importation, Cano has not established that the prosecutor had access to the FBI's or the DEA's files.",
+        "type": "majority",
+        "author": "BYBEE, Circuit Judge:"
+      }
+    ],
+    "attorneys": [
+      "Harini P. Raghupathi, Federal Defenders of San Diego, Inc., San Diego, California, for Defendant-Appellant.",
+      "Mark R. Rehe, Assistant United States Attorney; Helen H. Hong, Assistant United States Attorney, Chief, Appellate Section, Criminal Division; Adam L. Braverman, United States Attorney; United States Attorney's Office, San Diego, California; for Plaintiff-Appellee.",
+      "Sophia Cope and Adam Schwartz, Electronic Frontier Foundation, San Francisco, California, for Amicus Curiae Electronic Frontier Foundation."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff-Appellee,\nv.\nMiguel Angel CANO, Defendant-Appellant.\nNo. 17-50151\nUnited States Court of Appeals, Ninth Circuit.\nArgued and Submitted April 10, 2019 Pasadena, California\nFiled August 16, 2019\nHarini P. Raghupathi, Federal Defenders of San Diego, Inc., San Diego, California, for Defendant-Appellant.\nMark R. Rehe, Assistant United States Attorney; Helen H. Hong, Assistant United States Attorney, Chief, Appellate Section, Criminal Division; Adam L. Braverman, United States Attorney; United States Attorney's Office, San Diego, California; for Plaintiff-Appellee.\nSophia Cope and Adam Schwartz, Electronic Frontier Foundation, San Francisco, California, for Amicus Curiae Electronic Frontier Foundation.\nBefore: Susan P. Graber and Jay S. Bybee, Circuit Judges, and M. Douglas Harpool, District Judge.\nThe Honorable M. Douglas Harpool, United States District Judge for the Western District of Missouri, sitting by designation"
+  },
+  "file_name": "1002-01",
+  "first_page_order": 1002,
+  "last_page_order": 1026
+}

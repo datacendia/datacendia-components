@@ -1,0 +1,59 @@
+{
+  "id": 12236127,
+  "name": "Munoz v. United States",
+  "name_abbreviation": "Munoz v. United States",
+  "decision_date": "2011-11-28",
+  "docket_number": "No. 11-6959",
+  "first_page": "1069",
+  "last_page": "1069",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1069"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.658,
+    "sha256": "b7af0de27e63ffdd9705c9d7596e738f996ee7d544ce95017f0a09e814d724a1",
+    "simhash": "1:85aad3822c899c6b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Munoz v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6959.\nMunoz v. United States."
+  },
+  "file_name": "1069-12",
+  "first_page_order": 1151,
+  "last_page_order": 1151
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12207730,
+  "name": "Blake v. Maley",
+  "name_abbreviation": "Blake v. Maley",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10912",
+  "first_page": "856",
+  "last_page": "856",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 856"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.688,
+    "sha256": "c76123da02e7bccd5c894db3f76500e1cb81c13370049f94b00c9c8f7ad3d6ce",
+    "simhash": "1:50275d50a007f323",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Blake v. Maley."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. La., 2d Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10912.\nBlake v. Maley."
+  },
+  "file_name": "0856-12",
+  "first_page_order": 938,
+  "last_page_order": 938
+}

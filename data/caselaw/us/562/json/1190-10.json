@@ -1,0 +1,59 @@
+{
+  "id": 6016979,
+  "name": "Thomas v. United States",
+  "name_abbreviation": "Thomas v. United States",
+  "decision_date": "2011-01-18",
+  "docket_number": "No. 10-7894",
+  "first_page": "1190",
+  "last_page": "1190",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1190"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.627,
+    "sha256": "d969a83ddf067cb45f492127f6944be7fc78838d68096001478693e03647d26e",
+    "simhash": "1:050b6f210fbd113b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Thomas v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7894.\nThomas v. United States."
+  },
+  "file_name": "1190-10",
+  "first_page_order": 1212,
+  "last_page_order": 1212
+}

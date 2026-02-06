@@ -1,0 +1,2363 @@
+{
+  "id": 3644410,
+  "name": "BILSKI et al. v. KAPPOS, UNDER SECRETARY OF COMMERCE FOR INTELLECTUAL PROPERTY AND DIRECTOR, PATENT AND TRADEMARK OFFICE",
+  "name_abbreviation": "Bilski v. Kappos",
+  "decision_date": "2010-06-28",
+  "docket_number": "No. 08-964",
+  "first_page": "593",
+  "last_page": "660",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "561 U.S. 593"
+    },
+    {
+      "type": "parallel",
+      "cite": "177 L. Ed. 2d 792"
+    },
+    {
+      "type": "parallel",
+      "cite": "130 S. Ct. 3218"
+    },
+    {
+      "type": "vendor",
+      "cite": "2010 U.S. LEXIS 5521"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2009-089"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "35 U. S. C. \u00a7 101",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "20"
+        },
+        {
+          "page": "21"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "149 F. 3d 1368",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1362611
+      ],
+      "weight": 2,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "1373"
+        },
+        {
+          "page": "1373"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/149/1368-01"
+      ]
+    },
+    {
+      "cite": "172 F. 3d 1352",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11634684
+      ],
+      "weight": 2,
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "1357"
+        },
+        {
+          "page": "1357"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/172/1352-01"
+      ]
+    },
+    {
+      "cite": "545 F. 3d 943",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3857791
+      ],
+      "weight": 14,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "959-960",
+          "parenthetical": "en banc"
+        },
+        {
+          "page": "954"
+        },
+        {
+          "page": "955"
+        },
+        {
+          "page": "956"
+        },
+        {
+          "page": "963-966"
+        },
+        {
+          "page": "966-976"
+        },
+        {
+          "page": "998"
+        },
+        {
+          "page": "1010"
+        },
+        {
+          "page": "1011"
+        },
+        {
+          "page": "997"
+        },
+        {
+          "page": "954"
+        },
+        {
+          "page": "966-976",
+          "parenthetical": "concurring opinion"
+        },
+        {
+          "page": "1015"
+        },
+        {
+          "page": "1013",
+          "parenthetical": "Rader, J., dissenting"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/545/0943-01"
+      ]
+    },
+    {
+      "cite": "556 U. S. 1268",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "year": 2009,
+      "opinion_index": 0
+    },
+    {
+      "cite": "447 U. S. 303",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6183863
+      ],
+      "weight": 7,
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "308"
+        },
+        {
+          "page": "308-309",
+          "parenthetical": "quoting 5 Writings of Thomas Jefferson 75-76 (H. Washington ed. 1871)"
+        },
+        {
+          "page": "309"
+        },
+        {
+          "page": "308"
+        },
+        {
+          "page": "315"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/447/0303-01"
+      ]
+    },
+    {
+      "cite": "14 How. 156",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        3477982
+      ],
+      "weight": 2,
+      "year": 1853,
+      "pin_cites": [
+        {
+          "page": "174-175"
+        },
+        {
+          "page": "175"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/55/0156-01"
+      ]
+    },
+    {
+      "cite": "333 U. S. 127",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6157395
+      ],
+      "year": 1948,
+      "pin_cites": [
+        {
+          "page": "130"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/333/0127-01"
+      ]
+    },
+    {
+      "cite": "450 U. S. 175",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6183273
+      ],
+      "weight": 10,
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "182",
+          "parenthetical": "quoting Chakrabarty, supra, at 308; some internal quotation marks omitted"
+        },
+        {
+          "page": "182"
+        },
+        {
+          "page": "182"
+        },
+        {
+          "page": "195",
+          "parenthetical": "Stevens, J., dissenting"
+        },
+        {
+          "page": "192-193",
+          "parenthetical": "majority opinion"
+        },
+        {
+          "page": "191-192"
+        },
+        {
+          "page": "177"
+        },
+        {
+          "page": "187"
+        },
+        {
+          "page": "188"
+        },
+        {
+          "page": "192-193"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/450/0175-01"
+      ]
+    },
+    {
+      "cite": "444 U. S. 37",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11304612
+      ],
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "42"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/444/0037-01"
+      ]
+    },
+    {
+      "cite": "283 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        434428
+      ],
+      "year": 1931,
+      "pin_cites": [
+        {
+          "page": "11"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/283/0001-01"
+      ]
+    },
+    {
+      "cite": "149 F. Supp. 279",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        4276765
+      ],
+      "year": 1957,
+      "pin_cites": [
+        {
+          "page": "280"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/149/0279-01"
+      ]
+    },
+    {
+      "cite": "437 U. S. 584",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6182949
+      ],
+      "weight": 6,
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "588-589"
+        },
+        {
+          "page": "588, n. 9"
+        },
+        {
+          "page": "585-586"
+        },
+        {
+          "page": "589-590"
+        },
+        {
+          "page": "590"
+        },
+        {
+          "page": "594"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/437/0584-01"
+      ]
+    },
+    {
+      "cite": "559 U. S. 460",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3582194,
+        12448252
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "474",
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/559/0460-01",
+        "/l-ed-2d/176/0435-01"
+      ]
+    },
+    {
+      "cite": "553 U. S. 124",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3674213
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "130",
+          "parenthetical": "\"When a statute includes an explicit definition, we must follow that definition\" (internal quotation marks omitted)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/553/0124-01"
+      ]
+    },
+    {
+      "cite": "94 U. S. 780",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5645478
+      ],
+      "year": 1877,
+      "pin_cites": [
+        {
+          "page": "788"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/94/0780-01"
+      ]
+    },
+    {
+      "cite": "409 U. S. 63",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6171477
+      ],
+      "weight": 7,
+      "year": 1972,
+      "pin_cites": [
+        {
+          "page": "70"
+        },
+        {
+          "page": "71"
+        },
+        {
+          "page": "71",
+          "parenthetical": "to \"freeze process patents to old technologies, leaving no room for the revelations of the new, onrushing technology [,]... is not our purpose\""
+        },
+        {
+          "page": "64-67"
+        },
+        {
+          "page": "67"
+        },
+        {
+          "page": "71"
+        },
+        {
+          "page": "72"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/409/0063-01"
+      ]
+    },
+    {
+      "cite": "534 U. S. 124",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9108062
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "135"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/534/0124-01"
+      ]
+    },
+    {
+      "cite": "35 U. S. C. \u00a7 273",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(b)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "556 U. S. 303",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3653414
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "314"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/556/0303-01"
+      ]
+    },
+    {
+      "cite": "307 U. S. 496",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6140933
+      ],
+      "year": 1939,
+      "pin_cites": [
+        {
+          "page": "529-530",
+          "parenthetical": "opinion of Stone, J."
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/307/0496-01"
+      ]
+    },
+    {
+      "cite": "547 U. S. 388",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3276206
+      ],
+      "weight": 2,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "397",
+          "parenthetical": "Kennedy, J., concurring"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/547/0388-01"
+      ]
+    },
+    {
+      "cite": "15 How. 252",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        3481838
+      ],
+      "weight": 5,
+      "year": 1854,
+      "pin_cites": [
+        {
+          "page": "268",
+          "parenthetical": "\"[T]he term process is often used in a more vague sense, in which it cannot be the subject of a patent\""
+        },
+        {
+          "page": "267-268"
+        },
+        {
+          "page": "267",
+          "parenthetical": "listing the \"arts of tanning, dyeing, making water-proof cloth, vulcanizing India rubber, [and] smelting ores\""
+        },
+        {
+          "page": "267-268"
+        },
+        {
+          "page": "267"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/56/0252-01"
+      ]
+    },
+    {
+      "cite": "35 U. S. C. \u00a7 101",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "opinion_index": 1
+    },
+    {
+      "cite": "149 F. 3d 1368",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1362611
+      ],
+      "weight": 4,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "parenthetical": "State Street"
+        },
+        {
+          "page": "1373"
+        },
+        {
+          "page": "1375"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/149/1368-01"
+      ]
+    },
+    {
+      "cite": "172 F. 3d 1352",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11634684
+      ],
+      "year": 1999,
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/172/1352-01"
+      ]
+    },
+    {
+      "cite": "545 F. 3d 943",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3857791
+      ],
+      "weight": 19,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "959-960"
+        },
+        {
+          "page": "954-955"
+        },
+        {
+          "page": "955",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "956"
+        },
+        {
+          "page": "963-966"
+        },
+        {
+          "page": "966"
+        },
+        {
+          "page": "972"
+        },
+        {
+          "page": "998"
+        },
+        {
+          "page": "1011"
+        },
+        {
+          "page": "977-978, 985-990"
+        },
+        {
+          "page": "978-985"
+        },
+        {
+          "page": "990-992"
+        },
+        {
+          "page": "992-994"
+        },
+        {
+          "page": "970",
+          "parenthetical": "Dyk, J., concurring"
+        },
+        {
+          "page": "974",
+          "parenthetical": "Dyk, J., concurring"
+        },
+        {
+          "page": "976"
+        },
+        {
+          "page": "974",
+          "parenthetical": "case below"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/545/0943-01"
+      ]
+    },
+    {
+      "cite": "94 U. S. 780",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5645478
+      ],
+      "weight": 3,
+      "year": 1877,
+      "pin_cites": [
+        {
+          "page": "787-788"
+        },
+        {
+          "page": "787-788"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/94/0780-01"
+      ]
+    },
+    {
+      "cite": "447 U. S. 303",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6183863
+      ],
+      "weight": 7,
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "308-309"
+        },
+        {
+          "page": "315-316"
+        },
+        {
+          "page": "316"
+        },
+        {
+          "page": "309"
+        },
+        {
+          "page": "309"
+        },
+        {
+          "page": "308",
+          "parenthetical": "\"In choosing such expansive terms as 'manufacture' and 'composition of matter,' modified by the comprehensive 'any,' Congress plainly contemplated that the patent laws would be given wide scope\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/447/0303-01"
+      ]
+    },
+    {
+      "cite": "450 U. S. 175",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6183273
+      ],
+      "weight": 10,
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "185"
+        },
+        {
+          "page": "184"
+        },
+        {
+          "page": "184"
+        },
+        {
+          "page": "184"
+        },
+        {
+          "page": "184"
+        },
+        {
+          "page": "184"
+        },
+        {
+          "page": "185"
+        },
+        {
+          "page": "219",
+          "parenthetical": "Stevens, J., dissenting"
+        },
+        {
+          "page": "184"
+        },
+        {
+          "page": "192",
+          "parenthetical": "explaining that a \"claim satisfies the requirements of \u00a7 101\" when it \"is performing a function which the patent laws were designed to protect\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/450/0175-01"
+      ]
+    },
+    {
+      "cite": "437 U. S. 584",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6182949
+      ],
+      "weight": 10,
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "589",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "588"
+        },
+        {
+          "page": "588"
+        },
+        {
+          "page": "588"
+        },
+        {
+          "page": "588"
+        },
+        {
+          "page": "589"
+        },
+        {
+          "page": "593"
+        },
+        {
+          "page": "596, 593"
+        },
+        {
+          "page": "588-590, 593"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/437/0584-01"
+      ]
+    },
+    {
+      "cite": "409 U. S. 63",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6171477
+      ],
+      "weight": 3,
+      "year": 1972,
+      "pin_cites": [
+        {
+          "page": "67"
+        },
+        {
+          "page": "67"
+        },
+        {
+          "page": "67"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/409/0063-01"
+      ]
+    },
+    {
+      "cite": "534 U. S. 124",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9108062
+      ],
+      "weight": 2,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "130"
+        },
+        {
+          "page": "135"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/534/0124-01"
+      ]
+    },
+    {
+      "cite": "35 U. S. C. \u00a7 273",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 9,
+      "pin_cites": [
+        {
+          "page": "11"
+        },
+        {
+          "page": "20-22"
+        },
+        {
+          "page": "12-19"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "556 U. S. 303",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3653414
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "314",
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/556/0303-01"
+      ]
+    },
+    {
+      "cite": "307 U. S. 496",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6140933
+      ],
+      "weight": 4,
+      "year": 1939,
+      "pin_cites": [
+        {
+          "page": "528-530"
+        },
+        {
+          "page": "530"
+        },
+        {
+          "page": "528-530"
+        },
+        {
+          "page": "528"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/307/0496-01"
+      ]
+    },
+    {
+      "cite": "547 U. S. 388",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3276206
+      ],
+      "weight": 3,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "397",
+          "parenthetical": "Kennedy, J., concurring"
+        },
+        {
+          "page": "397",
+          "parenthetical": "Kennedy, J., concurring"
+        },
+        {
+          "page": "396-397",
+          "parenthetical": "opinion of Kennedy, J."
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/547/0388-01"
+      ]
+    },
+    {
+      "cite": "416 U. S. 470",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        84466
+      ],
+      "weight": 3,
+      "year": 1974,
+      "pin_cites": [
+        {
+          "page": "483"
+        },
+        {
+          "page": "480"
+        },
+        {
+          "page": "483"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/416/0470-01"
+      ]
+    },
+    {
+      "cite": "489 U. S. 141",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12031713
+      ],
+      "weight": 6,
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "151"
+        },
+        {
+          "page": "146"
+        },
+        {
+          "page": "146"
+        },
+        {
+          "page": "146"
+        },
+        {
+          "page": "146"
+        },
+        {
+          "page": "146"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/489/0141-01"
+      ]
+    },
+    {
+      "cite": "553 U. S. 285",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3674164
+      ],
+      "weight": 2,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "294"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/553/0285-01"
+      ]
+    },
+    {
+      "cite": "442 U. S. 330",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1531959
+      ],
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "338"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/442/0330-01"
+      ]
+    },
+    {
+      "cite": "256 U. S. 345",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3678530
+      ],
+      "year": 1921,
+      "pin_cites": [
+        {
+          "page": "349"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/256/0345-01"
+      ]
+    },
+    {
+      "cite": "383 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6166987
+      ],
+      "weight": 20,
+      "year": 1966,
+      "pin_cites": [
+        {
+          "page": "5"
+        },
+        {
+          "page": "5"
+        },
+        {
+          "page": "12",
+          "parenthetical": "describing the \"'new and useful' tests which have always existed in the statutory scheme\" and apply to all categories of subject matter"
+        },
+        {
+          "page": "9-10",
+          "parenthetical": "discussing Thomas Jefferson's observations"
+        },
+        {
+          "page": "7"
+        },
+        {
+          "page": "9"
+        },
+        {
+          "page": "7"
+        },
+        {
+          "page": "10",
+          "parenthetical": "quoting Letter to Issac McPherson, in VI Writings of Thomas Jefferson 181-182 (H. Washington ed. 1861)"
+        },
+        {
+          "page": "10"
+        },
+        {
+          "page": "16-17"
+        },
+        {
+          "page": "5"
+        },
+        {
+          "page": "6"
+        },
+        {
+          "page": "6"
+        },
+        {
+          "page": "11"
+        },
+        {
+          "page": "6"
+        },
+        {
+          "page": "6",
+          "parenthetical": "emphasis deleted"
+        },
+        {
+          "page": "10"
+        },
+        {
+          "page": "6"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/383/0001-01"
+      ]
+    },
+    {
+      "cite": "2 Pet. 1",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "case_ids": [
+        11335131
+      ],
+      "weight": 3,
+      "year": 1829,
+      "pin_cites": [
+        {
+          "page": "18"
+        },
+        {
+          "page": "18",
+          "parenthetical": "\"[M]any of the provisions of our patent act are derived from the principles and practice which have prevailed in the construction of that of England\""
+        },
+        {
+          "page": "77",
+          "parenthetical": "\" 'method of producing a yellow colour for painting in oil or water, making white lead, and separating the mineral alkali from common salt, all to be performed in one single process' \""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/27/0001-01"
+      ]
+    },
+    {
+      "cite": "1 Stat. 109",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "1 Stat. 319",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "14 Berkeley Tech. L. J. 577",
+      "category": "journals:journal",
+      "reporter": "Berkeley Tech. L.J.",
+      "weight": 3,
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "585",
+          "parenthetical": "hereinafter Merges"
+        },
+        {
+          "page": "581-582"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "5 Stat. 117",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "53 F. 818",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3809976
+      ],
+      "year": 1893,
+      "pin_cites": [
+        {
+          "page": "819",
+          "parenthetical": "\"method of insuring against loss by bad debts\" could not be patented \"as an art\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f/53/0818-01"
+      ]
+    },
+    {
+      "cite": "160 F. 467",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6732220
+      ],
+      "year": 1908,
+      "pin_cites": [
+        {
+          "page": "469",
+          "parenthetical": "\"A system of transacting business disconnected from the means for carrying out the system is not, within the most liberal interpretation of the term, an art\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f/160/0467-01"
+      ]
+    },
+    {
+      "cite": "10 F. 2d 725",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1653626
+      ],
+      "year": 1926,
+      "pin_cites": [
+        {
+          "page": "726",
+          "parenthetical": "method of abbreviating rail tariff schedules, \"if it be novel, is not the kind of art protected by the patent acts\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/10/0725-01"
+      ]
+    },
+    {
+      "cite": "127 F. 2d 324",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        6080077,
+        1077750
+      ],
+      "year": 1942,
+      "pin_cites": [
+        {
+          "page": "327-328"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ccpa/29-2/0982-01",
+        "/f2d/127/0324-01"
+      ]
+    },
+    {
+      "cite": "174 F. 2d 547",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        306140
+      ],
+      "year": 1949,
+      "pin_cites": [
+        {
+          "page": "552"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/174/0547-01"
+      ]
+    },
+    {
+      "cite": "180 F. 2d 26",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1251221
+      ],
+      "weight": 2,
+      "year": 1950,
+      "pin_cites": [
+        {
+          "page": "28",
+          "parenthetical": "method of focus-group testing for beverages is not patentable subject matter"
+        },
+        {
+          "page": "28",
+          "parenthetical": "\"To give appellant a monopoly, through the issuance of a patent, upon so great an area .. . would in our view impose without warrant of law a serious restraint upon the advance of science and industry\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/180/0026-01"
+      ]
+    },
+    {
+      "cite": "394 F. 2d 869",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        2153739
+      ],
+      "weight": 2,
+      "year": 1968,
+      "pin_cites": [
+        {
+          "page": "872",
+          "parenthetical": "Kirkpatrick, J., concurring"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/394/0869-01"
+      ]
+    },
+    {
+      "cite": "214 U. S. 366",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3650415
+      ],
+      "weight": 2,
+      "year": 1909,
+      "pin_cites": [
+        {
+          "page": "382",
+          "parenthetical": "\"The word 'process' has been brought into the decisions because it is supposedly an equivalent form of expression or included in the statutory designation of a new and useful art\""
+        },
+        {
+          "page": "383, 385-386"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/214/0366-01"
+      ]
+    },
+    {
+      "cite": "347 U. S. 637",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11302136
+      ],
+      "year": 1954,
+      "pin_cites": [
+        {
+          "page": "641",
+          "parenthetical": "\"While it is true that statutory language should be interpreted whenever possible according to common usage, some terms acquire a special technical meaning by a process of judicial construction\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/347/0637-01"
+      ]
+    },
+    {
+      "cite": "28 Geo. Wash. L. Rev. 393",
+      "category": "journals:journal",
+      "reporter": "Geo. Wash. L. Rev.",
+      "weight": 2,
+      "year": 1960,
+      "pin_cites": [
+        {
+          "page": "394"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "531 U. S. 457",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9505769
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "468"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/531/0457-01"
+      ]
+    },
+    {
+      "cite": "361 U. S. 304",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6168295
+      ],
+      "year": 1960,
+      "pin_cites": [
+        {
+          "page": "313"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/361/0304-01"
+      ]
+    },
+    {
+      "cite": "356 U. S. 590",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6165448
+      ],
+      "weight": 2,
+      "year": 1958,
+      "pin_cites": [
+        {
+          "page": "593"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/356/0590-01"
+      ]
+    },
+    {
+      "cite": "340 U. S. 147",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6930932
+      ],
+      "weight": 3,
+      "year": 1950,
+      "pin_cites": [
+        {
+          "page": "154",
+          "parenthetical": "Douglas, J., concurring"
+        },
+        {
+          "page": "154",
+          "parenthetical": "Douglas, J., concurring"
+        },
+        {
+          "page": "154",
+          "parenthetical": "Douglas, J., concurring"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/340/0147-01"
+      ]
+    },
+    {
+      "cite": "6 Pet. 218",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "case_ids": [
+        1439680
+      ],
+      "year": 1832,
+      "pin_cites": [
+        {
+          "page": "241-242",
+          "parenthetical": "explaining that patent \"laws which are passed to give effect to this [constitutional] purpose ought, we think, to be construed in the spirit in which they have been made\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/31/0218-01"
+      ]
+    },
+    {
+      "cite": "360 U. S. 109",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8873
+      ],
+      "year": 1959,
+      "pin_cites": [
+        {
+          "page": "139-140",
+          "parenthetical": "Black, J., dissenting"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/360/0109-01"
+      ]
+    },
+    {
+      "cite": "360 U. S. 474",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8871
+      ],
+      "year": 1959,
+      "pin_cites": [
+        {
+          "page": "507",
+          "parenthetical": "\"[Decisions of great constitutional import and effect\" \"requir[e] careful and purposeful consideration by those responsible for enacting and implementing our laws\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/360/0474-01"
+      ]
+    },
+    {
+      "cite": "15 How. 62",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        3482000
+      ],
+      "year": 1854,
+      "pin_cites": [
+        {
+          "page": "113",
+          "parenthetical": "explaining that Morse's patent on electromagnetism for writing would pre-empt a wide swath of technological developments"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/56/0062-01"
+      ]
+    },
+    {
+      "cite": "535 U. S. 722",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        355200
+      ],
+      "weight": 2,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "730-731",
+          "parenthetical": "\"The monopoly is a property right; and like any property right, its boundaries should be clear. This clarity is essential to promote progress\""
+        },
+        {
+          "page": "730-731"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/535/0722-01"
+      ]
+    },
+    {
+      "cite": "525 U. S. 55",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11076321
+      ],
+      "weight": 3,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "63"
+        },
+        {
+          "page": "63"
+        },
+        {
+          "page": "63",
+          "parenthetical": "\"[T]he patent system represents a carefully crafted bargain that encourages both the creation and the public disclosure of new and useful advances in technology\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/525/0055-01"
+      ]
+    },
+    {
+      "cite": "11 Wall. 516",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        3412564
+      ],
+      "year": 1871,
+      "pin_cites": [
+        {
+          "page": "533-544"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/78/0516-01"
+      ]
+    },
+    {
+      "cite": "383 U. S. 519",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6172438
+      ],
+      "year": 1966,
+      "pin_cites": [
+        {
+          "page": "533",
+          "parenthetical": "\"[0]ne of the purposes of the patent system is to encourage dissemination of information concerning discoveries and inventions\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/383/0519-01"
+      ]
+    },
+    {
+      "cite": "548 U. S. 124",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3500354
+      ],
+      "weight": 2,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "126-127",
+          "parenthetical": "Breyer, J., dissenting from dismissal of certiorari"
+        },
+        {
+          "page": "127"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/548/0124-01"
+      ]
+    },
+    {
+      "cite": "40 RAND J. Econ. 611",
+      "category": "journals:journal",
+      "reporter": "RAND J. Econ.",
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "613"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "90 Va. L. Rev. 465",
+      "category": "journals:journal",
+      "reporter": "Va. L. Rev.",
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "487-488",
+          "parenthetical": "hereinafter Long"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "107 U. S. 192",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3499227
+      ],
+      "weight": 2,
+      "year": 1883,
+      "pin_cites": [
+        {
+          "page": "200"
+        },
+        {
+          "page": "200"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/107/0192-01"
+      ]
+    },
+    {
+      "cite": "126 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3529883
+      ],
+      "weight": 3,
+      "year": 1888,
+      "pin_cites": [
+        {
+          "page": "531"
+        },
+        {
+          "page": "533-537"
+        },
+        {
+          "page": "533"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/126/0001-01"
+      ]
+    },
+    {
+      "cite": "435 U. S. 679",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        2377
+      ],
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "688"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/435/0679-01"
+      ]
+    },
+    {
+      "cite": "28 Rutgers Computer & Tech. L. J. 61",
+      "category": "journals:journal",
+      "reporter": "Rutgers Computer & Tech. L.J.",
+      "weight": 2,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "94-96",
+          "parenthetical": "hereinafter Pollack"
+        },
+        {
+          "page": "95"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "517 U. S. 370",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11744942
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "381",
+          "parenthetical": "\"[T]he state of patent law in the common-law courts before 1800 led one historian to observe that 'the reported cases are destitute of any decision of importance' \" (quoting Hulme, On the Consideration of the Patent Grant, Past and Present, 13 L. Q. Rev. 313, 318 (1897))"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/517/0370-01"
+      ]
+    },
+    {
+      "cite": "2 J. Intell. Prop. L. 1",
+      "category": "journals:journal",
+      "reporter": "J. Intell. Prop. L.",
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "26",
+          "parenthetical": "hereinafter Walterscheid, Background and Origin"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "36 Am. J. Legal Hist. 361",
+      "category": "journals:journal",
+      "reporter": "Am. J. Legal Hist.",
+      "weight": 2,
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "372"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "18 Geo. Wash. L. Rev. 50",
+      "category": "journals:journal",
+      "reporter": "Geo. Wash. L. Rev.",
+      "pin_cites": [
+        {
+          "page": "54"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "39 Emory L. J. 1025",
+      "category": "journals:journal",
+      "reporter": "Emory L.J.",
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "1033, n. 24"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "457 F. 2d 997",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        6080467,
+        733694
+      ],
+      "year": 1972,
+      "pin_cites": [
+        {
+          "page": "1003",
+          "parenthetical": "Rich, J., concurring"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ccpa/59-2/0940-01",
+        "/f2d/457/0997-01"
+      ]
+    },
+    {
+      "cite": "760 F. 2d 1270",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        23276
+      ],
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "1276",
+          "parenthetical": "explaining that \"useful arts\" is \"the process today called technological innovation\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/760/1270-01"
+      ]
+    },
+    {
+      "cite": "553 U. S. 617",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3674197
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "626",
+          "parenthetical": "\" '[T]he primary purpose of our patent laws is not the creation of private fortunes for the owners of patents but is \"to promote the progress of science and useful arts\" ' \" (quoting Motion Picture Patents Co. v. Universal Film Mfg. Co., 243 U. S. 502, 511 (1917))"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/553/0617-01"
+      ]
+    },
+    {
+      "cite": "243 U. S. 502",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3692764
+      ],
+      "year": 1917,
+      "pin_cites": [
+        {
+          "page": "511"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/243/0502-01"
+      ]
+    },
+    {
+      "cite": "89 Va. L. Rev. 1575",
+      "category": "journals:journal",
+      "reporter": "Va. L. Rev.",
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "1577-1589",
+          "parenthetical": "hereinafter Burk & Lemley"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "150 U. Pa. L. Rev. 761",
+      "category": "journals:journal",
+      "reporter": "U. Pa. L. Rev.",
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "826",
+          "parenthetical": "hereinafter Carrier"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "16 Santa Clara Computer & High Tech. L. J. 263",
+      "category": "journals:journal",
+      "reporter": "Santa Clara Computer & High Tech. L.J.",
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "274-277",
+          "parenthetical": "hereinafter Dreyfuss"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "83 N. Y. U. L. Rev. 337",
+      "category": "journals:journal",
+      "reporter": "N.Y.U. L. Rev.",
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "340-342"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "82 Temp. L. Rev. 181",
+      "category": "journals:journal",
+      "reporter": "Temp. L. Rev.",
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "231"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "90 Colum. L. Rev. 839",
+      "category": "journals:journal",
+      "reporter": "Colum. L. Rev.",
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "873-878"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "53 Vand. L. Rev. 2081",
+      "category": "journals:journal",
+      "reporter": "Vand. L. Rev.",
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "2090"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "113 Stat. 1536",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "82 N. Y. U. L. Rev. 69",
+      "category": "journals:journal",
+      "reporter": "N.Y.U. L. Rev.",
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "90-91"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "57 Wash. & Lee L. Rev. 337",
+      "category": "journals:journal",
+      "reporter": "Wash. & Lee L. Rev.",
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "346-347"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "35 U. S. C. \u00a7 101",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "149 F. 3d 1368",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1362611
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "1373"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/f3d/149/1368-01"
+      ]
+    },
+    {
+      "cite": "545 F. 3d 943",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3857791
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "1004",
+          "parenthetical": "Mayer, J., dissenting"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/f3d/545/0943-01"
+      ]
+    },
+    {
+      "cite": "447 U. S. 303",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6183863
+      ],
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "309"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/447/0303-01"
+      ]
+    },
+    {
+      "cite": "450 U. S. 175",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6183273
+      ],
+      "weight": 3,
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "185"
+        },
+        {
+          "page": "184",
+          "parenthetical": "emphasis added; internal quotation marks omitted"
+        },
+        {
+          "page": "192"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/450/0175-01"
+      ]
+    },
+    {
+      "cite": "437 U. S. 584",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6182949
+      ],
+      "weight": 3,
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "588, n. 9"
+        },
+        {
+          "page": "589"
+        },
+        {
+          "page": "590"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/437/0584-01"
+      ]
+    },
+    {
+      "cite": "94 U. S. 780",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5645478
+      ],
+      "year": 1877,
+      "pin_cites": [
+        {
+          "page": "788"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/94/0780-01"
+      ]
+    },
+    {
+      "cite": "409 U. S. 63",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6171477
+      ],
+      "weight": 3,
+      "year": 1972,
+      "pin_cites": [
+        {
+          "page": "67, 72"
+        },
+        {
+          "page": "70"
+        },
+        {
+          "page": "71"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/409/0063-01"
+      ]
+    },
+    {
+      "cite": "489 U. S. 141",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12031713
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "151"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/489/0141-01"
+      ]
+    },
+    {
+      "cite": "383 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6166987
+      ],
+      "year": 1966,
+      "pin_cites": [
+        {
+          "page": "10-11",
+          "parenthetical": "quoting Letter from Thomas Jefferson to Isaac McPherson (Aug. 13, 1813), in 6 Writings of Thomas Jefferson 181 (H. Washington ed.)"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/383/0001-01"
+      ]
+    },
+    {
+      "cite": "15 How. 62",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        3482000
+      ],
+      "year": 1854,
+      "pin_cites": [
+        {
+          "page": "117"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/56/0062-01"
+      ]
+    },
+    {
+      "cite": "548 U. S. 124",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3500354
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "136",
+          "parenthetical": "Breyer, J., dissenting from dismissal of certiorari as improvidently granted"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/548/0124-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 3854,
+    "char_count": 136743,
+    "ocr_confidence": 0.611,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.1050700253180784
+    },
+    "sha256": "42654d6e565ee8ac817986d72f8061a81536c2515d8bd7493291892e21bcc1f7",
+    "simhash": "1:bc0bea96e9acd5bc",
+    "word_count": 22162
+  },
+  "last_updated": "2024-02-27T21:47:26.985116+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Kennedy, J., delivered the opinion of the Court, except for Parts II-B-2 and II-C-2. Roberts, C. J., and Thomas and Alito, JJ., joined the opinion in full, and Scalia, J., joined except for Parts II-B-2 and II-C-2. Stevens, J., filed an opinion concurring in the judgment, in which Ginsburg, Breyer, and Sotomayor, JJ., joined, post, p. 613. Breyer, J., filed an opinion concurring in the judgment, in which Scalia, J., joined as to Part II, post, p. 657.",
+      "Justice Ginsburg, Justice Breyer, and Justice Sotomayor join, concurring in the judgment.",
+      "Justice Scalia joins as to Part II, concurring in the judgment."
+    ],
+    "parties": [
+      "BILSKI et al. v. KAPPOS, UNDER SECRETARY OF COMMERCE FOR INTELLECTUAL PROPERTY AND DIRECTOR, PATENT AND TRADEMARK OFFICE"
+    ],
+    "opinions": [
+      {
+        "text": "Justice Kennedy\ndelivered the opinion of the Court, except as to Parts II-B-2 and II-C-2.\nThe question in this case turns on whether a patent can be issued for a claimed invention designed for the business world. The patent application claims a procedure for instructing buyers and sellers how to protect against the risk of price fluctuations in a discrete section of the economy. Three arguments are advanced for the proposition that the claimed invention is outside the scope of patent law: (1) It is not tied to a machine and does not transform an article; (2) it involves a method of conducting business; and (3) it is merely an abstract idea. The Court of Appeals ruled that the first mentioned of these, the so-called machine-or-transformation test, was the sole test to be used for determining the patent-ability of a \u201cprocess\u201d under the Patent Act, 35 U. S. C. \u00a7 101.\nI\nPetitioners\u2019 application seeks patent protection for a claimed invention that explains how buyers and sellers of commodities in the energy market can protect, or hedge, against the risk of price changes. The key claims are claims 1 and 4. Claim 1 describes a series of steps instructing how to hedge risk. Claim 4 puts the concept articulated in claim 1 into a simple mathematical formula. Claim 1 consists of the following steps:\n\u201c(a) initiating a series of transactions between said commodity provider and consumers of said commodity wherein said consumers purchase said commodity at a fixed rate based upon historical averages, said fixed rate corresponding to a risk position of said consumers;\n\u201c(b) identifying market participants for said commodity having a counter-risk position to said consumers; and\n\u201c(c) initiating a series of transactions between said commodity provider and said market participants at a second fixed rate such that said series of market participant transactions balances the risk position of said series of consumer transactions.\u201d App. 19-20.\nThe remaining claims explain how claims 1 and 4 can be applied to allow energy suppliers and consumers to minimize the risks resulting from fluctuations in market demand for energy. For example, claim 2 claims \u201c[t]he method of claim 1 wherein said commodity is energy and said market participants are transmission distributors.\u201d Id., at 20. Some of these claims also suggest familiar statistical approaches to determine the inputs to use in claim 4\u2019s equation. For example, claim 7 advises using well-known random analysis techniques to determine how much a seller will gain \u201cfrom each transaction under each historical weather pattern.\u201d Id., at 21.\nThe patent examiner rejected petitioners\u2019 application, explaining that it \u201c \u2018is not implemented on a specific apparatus and merely manipulates [an] abstract idea and solves a purely mathematical problem without any limitation to a practical application, therefore, the invention is not directed to the technological arts.\u2019\u201d App. to Pet. for Cert. 148a. The Board of Patent Appeals and Interferences affirmed, concluding that the application involved only mental steps that do not transform physical matter and was directed to an abstract idea. Id., at 181a-186a.\nThe United States Court of Appeals for the Federal Circuit heard the case en banc and affirmed. The case produced five different opinions. Students of patent law would be well advised to study these scholarly opinions.\nChief Judge Michel wrote the opinion of the court. The court rejected its prior test for determining whether a claimed invention was a patentable \u201cprocess\u201d under \u00a7 101\u2014 whether it produces a \u201c'useful, concrete and tangible result\u2019\u201d \u2014 as articulated in State Street Bank & Trust Co. v. Signature Financial Group, Inc., 149 F. 3d 1368, 1373 (1998), and AT&T Corp. v. Excel Communications, Inc., 172 F. 3d 1352, 1357 (1999). See In re Bilski, 545 F. 3d 943, 959-960, and n. 19 (CA Fed. 2008) (en banc). The court held that \u201c[a] claimed process is surely patent-eligible under \u00a7 101 if: (1) it is tied to a particular machine or apparatus, or (2) it transforms a particular article into a different state or thing.\u201d Id., at 954. The court concluded this \u201cmachine-or-transformation test\u201d is \u201cthe sole test governing \u00a7 101 analyses,\u201d id., at 955, and thus the \u201ctest for determining patent eligibility of a process under \u00a7101,\u201d id., at 956. Applying the machine-or-transformation test, the court held that petitioners\u2019 application was not patent eligible. Id., at 963-966. Judge Dyk wrote a separate concurring opinion, providing historical support for the court\u2019s approach. Id., at 966-976.\nThree judges wrote dissenting opinions. Judge Mayer argued that petitioners\u2019 application was \u201cnot eligible for patent protection because it is directed to a method of conducting business.\u201d Id., at 998. He urged the adoption of a \u201ctechnological standard for patentability.\u201d Id., at 1010. Judge Rader would have found petitioners\u2019 claims were an unpatentable abstract idea. Id., at 1011. Only Judge Newman disagreed with the court\u2019s conclusion that petitioners\u2019 application was outside of the reach of \u00a7 101. She did not say that the application should have been granted but only that the issue should be remanded for farther proceedings to determine whether the application qualified as patentable under other provisions. Id., at 997.\nThis Court granted certiorari. 556 U. S. 1268 (2009).\nII\nA\nSection 101 defines the subject matter that may be patented under the Patent Act:\n\u201cWhoever invents or discovers any new and useful process, machine, manufacture, or composition of matter, or any new and useful improvement thereof, may obtain a patent therefor, subject to the conditions and requirements of this title.\u201d\nSection 101 thus specifies four independent categories of inventions or discoveries that are eligible for protection: processes, machines, manufactures, and compositions of matter. \u201cIn choosing such expansive terms .. . modified by the comprehensive \u2018any,\u2019 Congress plainly contemplated that the patent laws would be given wide scope.\u201d Diamond v. Chakrabarty, 447 U. S. 303, 308 (1980). Congress took this permissive approach to patent eligibility to ensure that \u201c \u2018ingenuity should receive a liberal encouragement.\u2019\u201d Id., at 308-309 (quoting 5 Writings of Thomas Jefferson 75-76 (H. Washington ed. 1871)).\nThe Court\u2019s precedents provide three specific exceptions to \u00a7 101\u2019s broad patent-eligibility principles: \u201claws of nature, physical phenomena, and abstract ideas.\u201d Chakrabarty, supra, at 309. While these exceptions are not required by the statutory text, they are consistent with the notion that a patentable process must be \u201cnew and useful.\u201d And, in any case, these exceptions have defined the reach of the statute as a matter of statutory stare *decisis going back 150 years. See Le Roy v. Tatham, 14 How. 156, 174-175 (1853). The concepts covered by these exceptions are \u201cpart of the storehouse of knowledge of all men . . . free to all men and reserved exclusively to none.\u201d Funk Brothers Seed Co. v. Kalo Inoculant Co., 333 U. S. 127, 130 (1948).\nThe \u00a7 101 patent-eligibility inquiry is only a threshold test. Even if an invention qualifies as a process, machine, manufacture, or composition of matter, in order to receive the Patent Act\u2019s protection the claimed invention must also satisfy \u201cthe conditions and requirements of this title.\u201d \u00a7101. Those requirements include that the invention be novel, see \u00a7102, nonobvious, see \u00a7 103, and fully and particularly described, see \u00a7 112.\nThe present case involves an invention that is claimed to be a \u201cprocess\u201d under \u00a7101. Section 100(b) defines \u201cprocess\u201d as:\n\u201cprocess, art or method, and includes a new use of a known process, machine, manufacture, composition of matter, or material.\u201d\nThe Court first considers two proposed categorical limitations on \u201cprocess\u201d patents under \u00a7 101 that would, if adopted, bar petitioners\u2019 application in the present case: the machine- or-transformation test and the categorical exclusion of business method patents.\nB\n1\nUnder the Court of Appeals\u2019 formulation, an invention is a \u201cprocess\u201d only if: \u201c(1) it is tied to a particular machine or apparatus, or (2) it transforms a particular article into a different state or thing.\u201d 545 F. 3d, at 954. This Court has \u201cmore than once cautioned that courts 'should not read into the patent laws limitations and conditions which the legislature has not expressed.\u2019 \u201d Diamond v. Diehr, 450 U. S. 175, 182 (1981) (quoting Chakrabarty, supra, at 308; some internal quotation marks omitted). In patent law, as in all statutory-construction, \u201c[ujnless otherwise defined, \u2018words will be interpreted as taking their ordinary, contemporary common meaning.\u2019\u201d Diehr, supra, at 182 (quoting Perrin v. United States, 444 U. S. 37, 42 (1979)). The Court has read the \u00a7 101 term \u201cmanufacture\u201d in accordance with dictionary definitions, see Chakrabarty, supra, at 308 (citing American Fruit Growers, Inc. v. Brogdex Co., 283 U. S. 1, 11 (1931)), and approved a construction of the term \u201ccomposition of matter\u201d consistent with common usage, see Chakrabarty, supra, at 308 (citing Shell Development Co. v. Watson, 149 F. Supp. 279, 280 (DC 1957)).\nAny suggestion in this Court\u2019s case law that the Patent Act\u2019s terms deviate from their ordinary meaning has only been an explanation for the exceptions for laws of nature, physical phenomena, and abstract ideas. See Parker v. Flook, 437 U. S. 584, 588-589 (1978). This Court has not indicated that the existence of these well-established exceptions gives the Judiciary carte blanche to impose other limitations that are inconsistent with the text and the statute\u2019s purpose and design. Concerns about attempts to call any form of human activity a \u201cprocess\u201d can be met by making sure the claim meets the requirements of \u00a7 101.\nAdopting the machine-or-transformation test as the sole test for what constitutes a \u201cprocess\u201d (as opposed to just an important and useful clue) violates these statutory interpretation principles. Section 100(b) provides that \u201c[t]he term \u2018process\u2019 means process, art or method, and includes a new use of a known process, machine, manufacture, composition of matter, or material.\u201d The Court is unaware of any \u201c \u2018ordinary, contemporary, common meaning,\u2019\u201d Diehr, supra, at 182, of the definitional terms \u201cprocess, art or method\u201d that would require these terms to be tied to a machine or to transform an article. Respondent urges the Court to look to the other patentable categories in \u00a7 101 \u2014 machines, manufactures, and compositions of matter \u2014 to confine the meaning of \u201cprocess\u201d to a machine or transformation, under the doctrine of noscitur a sociis. - Under this canon, \u201can ambiguous term may be given more precise content by the neighboring words with which it is associated.\u201d United States v. Stevens, 559 U. S. 460, 474 (2010) (internal quotation marks omitted). This canon is inapplicable here, for \u00a7 100(b) already explicitly defines the term \u201cprocess.\u201d See Burgess v. United States, 553 U. S. 124, 130 (2008) (\u201cWhen a statute includes an explicit definition, we must follow that definition\u201d (internal quotation marks omitted)).\nThe Court of Appeals incorrectly concluded that this Court has endorsed the'machine-or-transformation test as the exclusive test. It is true that Cochrane v. Deener, 94 U. S. 780, 788 (1877), explained that a \u201cprocess\u201d is \u201can act, or a series of acts, performed upon the subject-matter to be transformed and reduced to a different state or thing.\u201d More recent cases, however, have rejected the broad implications of this dictum; and, in all events, later authority shows that it was not intended to be an exhaustive or exclusive test. Gottschalk v. Benson, 409 U. S. 63, 70 (1972), noted that \u201c[transformation and reduction of an article 'to a different state or thing\u2019 is the clue to the patentability of a process claim that does not include particular machines.\u201d At the same time, it explicitly declined to \u201chold that no process patent could ever qualify if it did not meet [machine-or-transformation] requirements.\u201d Id., at 71. Flook took a similar approach, \u201cassum[ing] that a valid process patent may issue even if it does not meet [the machine-or-transformation test].\u201d 437 U. S., at 588, n. 9.\nThis Court\u2019s precedents establish that the machine-or-transformation test is a useful and important clue, an investigative tool, for determining whether some claimed inventions are processes under \u00a7 101. The machine-or-transformation test is not the sole test for deciding whether an invention is a patent-eligible \u201cprocess.\u201d\n2\nIt is true that patents for inventions that did not satisfy the machine-or-transformation test were rarely granted in earlier eras, especially in the Industrial Age, as explained by Judge Dyk\u2019s thoughtful historical review. See 545 F. 3d, at 966-976 (concurring opinion). But times change. Technology and other innovations progress in unexpected ways. For example, it was once forcefully argued that until recent times, \u201cwell-established principles of patent law probably would have prevented the issuance of a valid patent on almost any conceivable computer program.\u201d Diehr, 450 U. S., at 195 (Stevens, J., dissenting). But this fact does not mean that unforeseen innovations such as computer programs are always unpatentable. See id., at 192-193 (majority opinion) (holding a procedure for molding rubber that included a computer program is within patentable subject matter). Section 101 is a \u201cdynamic provision designed to encompass new and unforeseen inventions.\u201d J. E. M. Ag Supply, Inc. v. Pioneer Hi-Bred Int'l, Inc., 534 U. S. 124, 135 (2001). A categorical rule denying patent protection for \u201cinventions in areas not contemplated by Congress . . . would frustrate the purposes of the patent law.\u201d Chakrabarty, 447 U. S., at 315.\nThe machine-or-transformation test may well provide a sufficient basis for evaluating processes similar to those in the Industrial Age \u2014 for example, inventions grounded in a physical or other tangible form. But there are reasons to doubt whether the test should be the sole criterion for determining the patentability of inventions in the Information Age. As numerous amicus briefs argue, the machine-or-transformation test would create uncertainty as to the patentability of software, advanced diagnostic medicine techniques, and inventions based on linear programming, data compression, and the manipulation of digital signals. See, e. g., Brief for Business Software Alliance 24-25; Brief for Biotechnology Industry Organization et al. 14-27; Brief for Boston Patent Law Association 8-15; Brief for Houston Intellectual Property Law Association 17-22; Brief for Dolby Laboratories, Inc., et al. 9-10.\nIn the course of applying the machine-or-transformation test to emerging technologies, courts may pose questions of such intricacy and refinement that they risk obscuring the larger object of securing patents for valuable inventions without transgressing the public domain. The dissent by Judge Rader refers to some of these difficulties. 545 F. 3d, at 1015. As a result, in deciding whether previously unforeseen inventions qualify as patentable \u201cprocess[es],\u201d it may not make sense to require courts to confine themselves to asking the questions posed by the machine-or-transformation test. Section 101\u2019s terms suggest that new technologies may call for new inquiries. See Benson, supra, at 71 (to \u201cfreeze process patents to old technologies, leaving no room for the revelations of the new, onrushing technology [,]... is not our purpose\u201d).\nIt is important to emphasize that the Court today is not commenting on the patentability of any particular invention, let alone holding that any of the above-mentioned technologies from the Information Age should or should not receive patent protection. This Age puts the possibility of innovation in the hands of more people and raises new difficulties for the patent law. With ever more people trying to innovate and thus seeking patent protections for their inventions, the patent law faces a great challenge in striking the balance between protecting inventors and not granting monopolies over procedures that others would discover by independent, creative application of general principles. Nothing in this opinion should be read to take a position on where that balance ought to be struck.\nC\n1\nSection 101 similarly precludes the broad contention that the term \u201cprocess\u201d categorically excludes business methods. The term \u201cmethod,\u201d which is within \u00a7 100(b)\u2019s definition of \u201cprocess,\u201d at least as a textual matter and before consulting other limitations in the Patent Act and this Court\u2019s precedents, may include at least some methods of doing business. See, e. g., Webster\u2019s New International Dictionary 1548 (2d ed. 1954) (defining \u201cmethod\u201d as \u201c[a]n orderly procedure or process ... regular way or manner of doing anything; hence, a set form of procedure adopted in investigation or instruction\u201d). The Court is unaware of any argument that the \u201c 'ordinary, contemporary, common meaning,\u2019 \u201d Diehr, supra, at 182, of \u201cmethod\u201d excludes business methods. Nor is it clear how far a prohibition on business method patents would reach, and whether it would exclude technologies for conducting a business more efficiently. See, e. g., Hall, Business and Financial Method Patents, Innovation, and Policy, 56 Scottish J. Pol. Econ. 443, 445 (2009) (\u201cThere is no precise definition of . . . business method patents\u201d).\nThe argument that business methods are categorically outside of \u00a7101\u2019s scope is further undermined by the fact that federal law explicitly contemplates the existence of at least some business method patents. Under 35 U. S. C. \u00a7 273(b)(1), if a patent holder claims infringement based on \u201ca method in [a] patent,\u201d the alleged infringer can assert a defense of prior use. For purposes of this defense alone, \u201cmethod\u201d is defined as \u201ca method of doing or conducting business.\u201d \u00a7 273(a)(3). In other words, by allowing this defense the statute itself acknowledges that there may be business method patents. Section 273\u2019s definition of \u201cmethod,\u201d to be sure, cannot change the meaning of a prior-enacted statute. But what \u00a7273 does is clarify the understanding that a business method is simply one kind of \u201cmethod\u201d that is, at least in some circumstances, eligible for patenting under \u00a7 101.\nA conclusion that business methods are not patentable in any circumstances would render \u00a7273 meaningless. This would violate the canon against interpreting any statutory provision in a manner that would render another provision superfluous. See Corley v. United States, 556 U. S. 303, 314 (2009). This principle, of course, applies to interpreting any two provisions in the U. S. Code, even when Congress enacted the provisions at different times. See, e. g., Hague v. Committee for Industrial Organization, 307 U. S. 496, 529-530 (1939) (opinion of Stone, J.). This established rule of statutory interpretation cannot be overcome by judicial speculation as to the subjective intent of various legislators in enacting the subsequent provision. Finally, while \u00a7273 appears to leave open the possibility of some business method patents, it does not suggest broad patentability of such claimed inventions.\n2\nInterpreting \u00a7 101 to exclude all business methods simply because business method patents were rarely issued until modern times revives many of the previously discussed difficulties. See supra, at, 605-606. At the same time, some business method patents raise special problems in terms of vagueness and suspect validity. See eBay Inc. v. MercExchange, L. L. C., 547 U. S. 388, 397 (2006) (Kennedy, J., concurring). The Information Age empowers people with new capacities to perform statistical analyses and mathematical calculations with a speed and sophistication that enable the design of protocols for more efficient performance of a vast number of business tasks. If a high enough bar is not set when considering patent applications of this sort, patent examiners and courts could be flooded with claims that would put a chill on creative endeavor and dynamic change.\nIn searching for a limiting principle, this Court\u2019s precedents on the unpatentability of abstract ideas provide useful tools. See infra, at 609-612. Indeed, if the Court of Appeals were to succeed in defining a narrower category or class of patent applications that claim to instruct how business should be conducted, and then rule that the category is unpatentable because, for instance, it represents an attempt to patent abstract ideas, this conclusion might well be in accord with controlling precedent. See ibid. But beyond this or some other limitation consistent with the statutory text, the Patent Act leaves open the possibility that there are at least some processes that can be fairly described as business methods that are within patentable subject matter under \u00a7101.\nFinally, even if a particular business method fits into the statutory definition of a \u201cprocess,\u201d that does not mean that the application claiming that method should be granted. In order to receive patent protection, any claimed invention must be novel, \u00a7 102, nonobvious, \u00a7 103, and fully and particularly described, \u00a7 112. These limitations serve a critical role in adjusting the tension, ever present in patent law, between stimulating innovation by protecting inventors and impeding progress by granting patents when not justified by the statutory design.\nIll\nEven though petitioners\u2019 application is not categorically outside of \u00a7 101 under the two broad and atextual approaches the Court rejects today, that does not mean it is a \u201cprocess\u201d under \u00a7 101. Petitioners seek to patent both the concept of hedging risk and the application of that concept to energy markets. App. 19-20. Rather than adopting categorical rules that might have wide-ranging and unforeseen impacts, the Court resolves this case narrowly on the basis of this Court\u2019s decisions in Benson, Flook, and Diehr, which show that petitioners\u2019 claims are not patentable processes because they are attempts to patent abstract ideas. Indeed, all Members of the Court agree that the patent application at issue here falls outside of \u00a7101 because it claims an abstract idea.\nIn Benson, the Court considered whether a patent application for an algorithm to convert binary-coded decimal numerals into pure binary code was a \u201cprocess\u201d under \u00a7 101. 409 U. S., at 64-67. The Court first explained that \u201c\u2018[a] principie, in the abstract, is a fundamental truth; an original cause; a motive; these cannot be patented, as no one can claim in either of them an exclusive right.\u2019\u201d Id., at 67 (quoting Le Roy, 14 How., at 175). The Court then held the application at issue was not a \u201cprocess,\u201d but an unpatentable abstract idea. \u201cIt is conceded that one may not patent an idea. But in practical effect that would be the result if the formula for converting . . . numerals to pure binary numerals were patented in this case.\u201d 409 U. S., at 71. A contrary holding \u201cwould wholly pre-empt the mathematical formula and in practical effect would be a patent on the algorithm itself.\u201d Id., at 72.'\nIn Flook, the Court considered the next logical step after Benson. The applicant there attempted to patent a procedure for monitoring the conditions during the catalytic conversion process in the petrochemical and oil-refining industries. The application\u2019s only innovation was reliance on a mathematical algorithm. 437 U. S., at 585-586. Flook held the invention was not a patentable \u201cprocess.\u201d The Court conceded the invention at issue, unlike the algorithm in Benson, had been limited so that it could still be freely used outside the petrochemical and oil-refining industries. 437 U. S., at 589-590. Nevertheless, Flook rejected \u201c[t]he notion that post-solution activity, no matter how conventional or obvious in itself, can transform an unpatentable principle into a patentable process.\u201d Id., at 590. The Court concluded that the process at issue there was \u201cunpatentable under \u00a7 101, not because it contained] a mathematical algorithm as one component, but because once that algorithm [wa]s assumed to be within the prior art, the application, considered as a whole, contained] no patentable invention.\u201d Id., at 594. As the Court later explained, Flook stands for the proposition that the prohibition against patenting abstract ideas \u201ccannot be circumvented by attempting to limit the use of the formula to a particular technological environment\u201d or adding \u201cinsignificant postsolution activity.\u201d Diehr, 450 U. S., at 191-192.\nFinally, in Diehr, the Court established a limitation on the principles articulated in Benson and Flook. The application in Diehr claimed a previously unknown method for \u201cmolding raw, uncured synthetic rubber into cured precision products,\u201d using a mathematical formula to complete some of its several steps by way of a computer. 450 U. S., at 177. Diehr explained that while an abstract idea, law of nature, or mathematical formula could not be patented, \u201can application of a law of nature or mathematical formula to a known structure or process may well be deserving of patent protection.\u201d Id., at 187. Diehr emphasized the need to consider the invention as a whole, rather than \u201cdissecting] the claims into old and new elements and then . . . ignoring] the presence of the old elements in the analysis.\u201d Id., at 188. Finally, the Court concluded that because the claim was not \u201can attempt to patent a mathematical formula, but rather [was] an industrial process for the molding of rubber products,\u201d it fell within \u00a7 101\u2019s patentable subject matter. Id., at 192-193.\nIn light of these precedents, it is clear that petitioners\u2019 application is not a patentable \u201cprocess.\u201d Claims 1 and 4 in petitioners\u2019 application explain the basic concept of hedging, or protecting against risk: \u201cHedging is a fundamental economic practice long prevalent in our system of commerce and taught in any introductory finance class.\u201d 545 F. 3d, at 1013 (Rader, J., dissenting); see, e. g., D. Chorafas, Introduction to Derivative Financial Instruments 75-94 (2008); C. Stickney, R. Weil, K. Schipper, & J. Francis, Financial Accounting: An Introduction to Concepts, Methods, and Uses 581-582 (13th ed. 2010); S. Ross, R. Westerfield, & B. Jordan, Fundamentals of Corporate Finance 743-744 (8th ed. 2008). The concept of hedging, described in claim 1 and reduced to a mathematical formula in claim 4, is an unpatentable abstract idea, just like the algorithms at issue in Benson and Flook. Allowing petitioners to patent risk hedging would pre-empt use of this approach in all fields, and would effectively grant a monopoly over an abstract idea.\nPetitioners\u2019 remaining claims are broad examples of how hedging can be used in commodities and energy markets. Flook established that limiting an abstract idea to one field of use or adding token postsolution components did not make the concept patentable. That is exactly what the remaining claims in petitioners\u2019 application do. These claims attempt to patent the use of the abstract idea of hedging risk in the energy market and then instruct the use of well-known random analysis techniques to help establish some of the inputs into the equation. Indeed, these claims add even less to the underlying abstract principle than the invention in Flook did, for the Flook invention was at least directed to the narrower domain of signaling dangers in operating a catalytic converter.\n* * *\nToday, the Court once again declines to impose limitations on the Patent Act that are inconsistent with the Act\u2019s text. The patent application here can be rejected under our precedents on the unpatentability of abstract ideas. The Court, therefore, need not define further what constitutes a patentable \u201cprocess,\u201d beyond pointing to the definition of that term provided in \u00a7 100(b) and looking to the guideposts in Benson, Flook, and Diehr.\nAnd nothing in today\u2019s opinion should be read as endorsing interpretations of \u00a7101 that the Court of Appeals for the Federal Circuit has used in the past. See, e. g., State Street, 149 F. 3d, at 1373; AT&T Corp., 172 F. 3d, at 1357. It may be that the Court of Appeals thought it needed to make the machine-or-transformation test exclusive precisely because its case law had not adequately identified less extreme means of restricting business method patents, including (but not limited to) application of our opinions in Benson, Flook, and Diehr. In disapproving an exclusive machine- or-transformation test, we by no means foreclose the Federal Circuit\u2019s development of other limiting criteria that further the purposes of the Patent Act and are not inconsistent with its text.\nThe judgment of the Court of Appeals is affirmed.\nIt is so ordered.\nJustice Scalia does not join Parts II-B-2 and II-C-2.",
+        "type": "majority",
+        "author": "Justice Kennedy"
+      },
+      {
+        "text": "Justice Stevens,\nwith whom\nJustice Ginsburg, Justice Breyer, and Justice Sotomayor join, concurring in the judgment.\nIn the area of patents, it is especially important that the law remain stable and clear. The only question presented in this case is whether the so-called machine-or-transformation test is the exclusive test for what constitutes a patentable \u201cprocess\u201d under 35 U. S. C. \u00a7 101. It would be possible to answer that question simply by holding, as the entire Court agrees, that although the machine-or-transformation test is reliable in most cases, it is not the exclusive test.\nI agree with the Court that, in light of the uncertainty that currently pervades this field, it is prudent to provide further guidance. But I would take a different approach. Rather than making any broad statements about how to define the term \u201cprocess\u201d in \u00a7 101 or tinkering with the bounds of the category of unpatentable, abstract ideas, I would restore patent law to its historical and constitutional moorings.\nFor centuries, it was considered well established that a series of steps for conducting business was not, in itself, patentable. In the late 1990\u2019s, the Federal Circuit and others called this proposition into question. Congress quickly responded to a Federal Circuit decision with a stopgap measure designed to limit a potentially significant new problem for the business community. It passed the First Inventor Defense Act of 1999 (1999 Act), 113 Stat. 1501A-555 (codified at 35 U. S. C. \u00a7 273), which provides a limited defense to claims of patent infringement, see \u00a7 273(b), for \u201cmethod[s] of doing or conducting business,\u201d \u00a7 273(a)(3). Following several more years of confusion, the Federal Circuit changed course, overruling recent decisions and holding that a series of steps may constitute a patentable process only if it is tied to a machine or transforms an article into a different state or thing. This \u201cmachine-or-transformation test\u201d excluded general methods of doing business as well as, potentially, a variety of other subjects that could be called processes.\nThe Court correctly holds that the machine-or-transformation test is not the sole test for what constitutes a patentable process; rather, it is a critical clue. But the Court is quite wrong, in my view, to suggest that any series of steps that is not itself an abstract idea or law of nature may constitute a \u201cprocess\u201d within the meaning of \u00a7 101. The language in the Court\u2019s opinion to this effect can only cause mischief. The wiser course would have been to hold that petitioners\u2019 method is not a \u201cprocess\u201d because it describes only a general method of engaging in business transactions\u2014 and business methods are not patentable. More precisely, although a process is not patent ineligible simply because it is useful for conducting business, a claim that merely describes a method of doing business does not qualify as a \u201cprocess\u201d under \u00a7 101.\nI\nAlthough the Court provides a brief statement of facts, ante, at 597-601, a more complete explication may be useful for those unfamiliar with petitioners\u2019 patent application and this case\u2019s procedural history.\nPetitioners\u2019 patent application describes a series of steps for managing risk amongst buyers and sellers of commodities. The general method, described in claim 1, entails \u201cmanaging the consumption risk costs of a commodity sold by a commodity provider at a fixed price,\u201d and consists of the following steps:\n\u201c(a) initiating a series of transactions between said commodity provider and consumers of said commodity wherein said consumers purchase said commodity at a fixed rate based upon historical averages, said fixed rate corresponding to a risk position of said consumers;\n\u201c(b) identifying market participants for said commodity having a counter-risk position to said consumers; and\n\u201c(c) initiating a series of transactions between said commodity provider and said market participants at a second fixed rate such that said series of market participant transactions balances the risk position of said series of consumer transactions.\u201d App. 19-20.\nAlthough the patent application makes clear that the \u201cmethod can be used for any commodity to manage consumption risk in a fixed bill price product,\u201d id., at 11, it includes specific applications of the method, particularly in the field of energy, as a means of enabling suppliers and consumers to minimize the risks resulting from fluctuations in demand during specified time periods, see id., at 20-22. Energy suppliers and consumers may use that method to hedge their risks by agreeing upon a fixed series of payments at regular intervals throughout the year instead of charging or paying prices that fluctuate in response to changing weather conditions. The patent application describes a series of steps, including the evaluation of historical costs and weather variables and the use of economic and statistical formulas, to analyze these data and to estimate the likelihood of certain outcomes. See id., at 12-19.\nThe patent examiner rejected petitioners\u2019 application on the ground that it \u201cis not directed to the technological arts,\u201d insofar as it \u201cis not implemented on a specific apparatus and merely manipulates [an] abstract idea and solves a purely mathematical problem without any limitation to a practical application.\u201d App. to Pet. for Cert. 148a.\nThe Board of Patent Appeals and Interferences affirmed the examiner\u2019s decision, but it rejected the position that a patentable process must relate to \u201ctechnological arts\u201d or be performed on a machine. Id., at 180a-181a. Instead, the Board denied petitioners\u2019 patent on two alternative, although similar, grounds: first, that the patent involves only mental steps that do not transform physical subject matter, id., at 181a-184a; and, second, that it is directed to an \u201cabstract idea,\u201d id., at 184a-187a.\nPetitioners appealed to the United States Court of Appeals for the Federal Circuit. After briefing and argument before a three-judge panel, the court sua sponte decided to hear the case en banc and ordered the parties to address: (1) whether petitioners\u2019 \u201cclaim 1 . . . claims patent-eligible subject matter under 35 U. S. C. \u00a7 101\u201d; (2) \u201cfwjhat standard should govern in determining whether a process is patent-eligible subject matter\u201d; (3) \u201c[wjhether the claimed subject matter is not patent-eligible because it constitutes an abstract idea or mental process\u201d; (4) \u201c[wjhether a method or process must result in a physical transformation of an article or be tied to a machine to be patent-eligible subject matter\u201d; and (5) whether the court\u2019s decisions in State Street Bank & Trust Co. v. Signature Financial Group, Inc., 149 F. 3d 1368 (1998) (State Street), and AT&T Corp. v. Excel Communications, Inc., 172 F. 3d 1352 (1999), should be overruled in any respect. App. to Pet. for Cert. 144a-145a.\nThe en banc Court of Appeals affirmed the Board\u2019s decision. Eleven of the twelve judges agreed that petitioners\u2019 claims do not describe a patentable \u201cprocess,\u201d \u00a7 101. Chief Judge Michel\u2019s opinion, joined by eight other judges, rejected several possible tests for what is a patent-eligible process, including whether the patent produces a \u201c \u2018useful, concrete and tangible result,\u2019\u201d whether the process relates to \u201ctechnological arts,\u201d and \u201ccategorical exclusions\u201d for certain processes such as business methods. In re Bilski, 545 F. 3d 943, 959-960 (2008). Relying on several of our cases in which we explained how to differentiate a claim on a \u201cfundamental principle\u201d from a claim on a \u201cprocess,\u201d the court concluded that a \u201cclaimed process is surely patent-eligible under \u00a7 101 if: (1) it is tied to a particular machine or apparatus, or (2) it transforms a particular article into a different state or thing.\u201d Id., at 954-955. The court further concluded that this \u201cmachine-or-transformation test\u201d is \u201cthe sole test governing \u00a7101 analyses,\u201d id., at 955 (emphasis added), and therefore the \u201ctest for determining patent eligibility of a process under \u00a7101,\u201d id., at 956. Applying that test, the court held that petitioners\u2019 claim is not a patent-eligible process. Id., at 963-966.\nIn a separate opinion reaching the same conclusion, Judge Dyk carefully reviewed the history of American patent law and English precedents upon which our law is based, and found that \u201cthe unpatentability of processes not involving manufactures, machines, or compositions of matter has been firmly embedded . . . since the time of the Patent Act of 1793.\u201d Id., at 966. Judge Dyk observed, moreover, that \u201c[t]here is no suggestion in any of this early consideration of process patents that processes for organizing human activity were or ever had been patentable.\u201d Id., at 972.\nThree judges wrote dissenting opinions, although two of those judges agreed that petitioners\u2019 claim is not patent eligible. Judge Mayer would have held that petitioners\u2019 claim \u201cis not eligible for patent protection because it is directed to a method of conducting business.\u201d Id., at 998. He submitted that \u201c[t]he patent system is intended to protect and promote advances in science and technology, not ideas about how to structure commercial transactions.\u201d Ibid. \u201cAffording patent protection to business methods lacks constitutional and statutory support, serves to hinder rather than promote innovation!,] and usurps that which rightfully belongs in the public domain.\u201d Ibid.\nJudge Rader would have rejected petitioners\u2019 claim on the ground that it seeks to patent merely an abstract idea. Id., at 1011.\nOnly Judge Newman disagreed with the court\u2019s conclusion that petitioners\u2019 claim seeks a patent on ineligible subject matter. Judge Newman urged that the en banc court\u2019s machine-or-transformation test ignores the text and history of \u00a7 101, id., at 977-978, 985-990, is in tension with several decisions by this Court, id., at 978-985, and the Federal Circuit, id., at 990-992, and will invalidate thousands of patents that were issued in reliance on those decisions, id., at 992-994\nBefore explaining in more detail how I would decide this case, I will comment briefly on the Court\u2019s opinion. The opinion is less than pellucid in more than one respect, and, if misunderstood, could result in confusion or upset settled areas of the law. Three preliminary observations may be clarifying.\nFirst, the Court suggests that the terms in the Patent Act must be read as lay speakers use those terms, and not as they have traditionally been understood in the context of patent law. See, e. g., ante, at 603 (terms in \u00a7 101 must be viewed in light of their \u201c\u2018ordinary, contemporary, common meaning\u2019 \u201d); ante, at 607 (patentable \u201cmethod\u201d is any \u201corderly procedure or process,\u201d \u201cregular way or manner of doing anything,\u201d or \u201cset form of procedure adopted in investigation or instruction\u201d (internal quotation marks omitted)). As I will explain at more length in Part III, infra, if this portion of the Court\u2019s opinion were taken literally, the results would be absurd: Anything that constitutes a series of steps would be patentable so long as it is novel, nonobvious, and described with specificity. But the opinion cannot be taken literally on this point. The Court makes this clear when it accepts that the \u201catextual\u201d machine-or-transformation test, ante, at 609, is \u201cuseful and important,\u201d ante, at 604, even though it \u201cviolates\u201d the stated \u201cstatutory interpretation principles,\u201d ante, at 603; and when the Court excludes processes that tend to pre-empt commonly used ideas, see ante, at 610-611.\nSecond, in the process of addressing the sole issue presented to us, the opinion uses some language that seems inconsistent with our centuries-old reliance on the machine- or-transformation criteria as clues to patentability. Most notably, the opinion for a plurality suggests that these criteria may operate differently when addressing technologies of a recent vintage. See ante, at 605 (machine-or-transformation test is useful \u201cfor evaluating processes similar to those in the Industrial Age,\u201d but is less useful \u201cfor determining the patentability of inventions in the Information Age\u201d). In moments of caution, however, the opinion for the Court explains \u2014 correctly\u2014that the Court is merely restoring the law to its historical state of rest. See ante, at 604 (\u201cThis Court\u2019s precedents establish that the machine-or-transformation test is a useful and important clue, an investigative tool, for determining whether some claimed inventions are processes under \u00a7101\u201d). Notwithstanding this internal tension, I understand the Court\u2019s opinion to hold only that the machine-or-transformation test remains an important test for patentability. Few, if any, processes cannot effectively be evaluated using these criteria.\nThird, in its discussion of an issue not contained in the questions presented \u2014 whether the particular series of steps in petitioners\u2019 application is an abstract idea \u2014 the Court uses language that could suggest a shift in our approach to that issue. Although I happen to agree that petitioners seek to patent an abstract idea, the Court does not show how this conclusion follows \u201cclearfly],\u201d ante, at 611, from our case law. The patent now before us is not for \u201c[a] principle, in the abstract,\u201d or a \u201cfundamental truth.\u201d Parker v. Flook, 437 U. S. 584, 589 (1978) (internal quotation marks omitted). Nor does it claim the sort of phenomenon of nature or abstract idea that was embodied by the mathematical formula at issue in Gottschalk v. Benson, 409 U. S. 63, 67 (1972), and in Flook.\nThe Court construes petitioners\u2019 claims on processes for pricing as claims on \u201cthe basic concept of hedging, or protecting against risk,\u201d ante, at 611, and thus discounts the application\u2019s discussion of what sorts of data to use, and how to analyze those data, as mere \u201ctoken postsolution components,\u201d ante, at 612. In other words, the Court artificially limits petitioners\u2019 claims to hedging, and then concludes that hedging is an abstract idea rather than a term that describes a category of processes including petitioners\u2019 claims. Why the Court does this is never made clear. One might think that the Court\u2019s analysis means that any process that utilizes an abstract idea is itself an unpatentable, abstract idea. But we have never suggested any such rule, which would undermine a host of patentable processes. It is true, as the Court observes, that petitioners\u2019 application is phrased broadly. See ante, at 611-612. But claim specification is covered by \u00a7 112, not \u00a7 101; and if a series of steps constituted an unpatentable idea merely because it was described without sufficient specificity, the Court could be calling into question some of our own prior decisions. At points, the opinion suggests that novelty is the clue. See ante, at 610-611. But the fact that hedging is \u201c \u2018long prevalent in our system of commerce,\u2019\u201d ante, at 611, cannot justify the Court\u2019s conclusion, as \u201cthe proper construction of \u00a7101 . . . does not involve the familiar issu[e] of novelty\u201d that arises under \u00a7 102, Flook, 437 U. S., at 588. At other points, the opinion for a plurality suggests that the analysis turns on the category of patent involved. See, e. g., ante, at 608 (courts should use the abstract-idea rule as a \u201ctoo[l]\u201d to set \u201ca high enough bar\u201d \u201cwhen considering patent applications of this sort\u201d). But we have never in the past suggested that the inquiry varies by subject matter.\nThe Court, in sum, never provides a satisfying account of what constitutes an unpatentable abstract idea. Indeed, the Court does not even explain if it is using the maehine-ortransformation criteria. The Court essentially asserts its conclusion that petitioners\u2019 application claims an abstract idea. This mode of analysis (or lack thereof) may have led to the correct outcome in this case, but it also means that the Court\u2019s musings on this issue stand for very little.\nIll\nI agree with the Court that the text of \u00a7 101 must be the starting point of our analysis. As I shall explain, however, the text must not be the end point as well.\nPursuant to its power \u201c[t]o promote the Progress of . . . useful Arts, by securing for limited Times to . . . Inventors the exclusive Right to their . . . Discoveries,\u201d U. S. Const., Art. I, \u00a7 8, cl. 8, Congress has passed a series of patent laws that grant certain exclusive rights over certain inventions and discoveries as a means of encouraging innovation. In the latest iteration, the Patent Act of 1952 (1952 Act), Congress has provided that \u201c[w]hoever invents or discovers any new and useful process, machine, manufacture, or composition of matter, or any new and useful improvement thereof, may obtain a patent therefor, subject to the conditions and requirements of this title,\u201d 35 U. S. C. \u00a7 101, which include that the patent also be novel, \u00a7 102, and nonobvious, \u00a7 103. The statute thus authorizes four categories of subject matter that may be patented: processes, machines, manufactures, and compositions of matter. Section 101 imposes a threshold condition. \u201c[N]o patent is available for a discovery, however useful, novel, and nonobvious, unless it falls within one of the express categories of patentable subject matter.\u201d Kewanee Oil Co. v. Bicron Corp., 416 U. S. 470, 483 (1974).\nSection 101 undoubtedly defines in \u201cexpansive terms\u201d the subject matter eligible for patent protection, as the statute was meant to ensure that \u201c \u2018ingenuities] receive a liberal encouragement.\u2019\u201d Diamond v. Chakrabarty, 447 U. S. 303, 308-309 (1980); see also J. E. M. Ag Supply, Inc. v. Pioneer Hi-Bred Int\u2019l, Inc., 534 U. S. 124, 130 (2001). Nonetheless, not every new invention or discovery may be patented. Certain things are \u201cfree for all to use.\u201d Bonito Boats, Inc. v. Thunder Craft Boats, Inc., 489 U. S. 141, 151 (1989).\nThe text of the Patent Act does not on its face give much guidance about what constitutes a patentable process. The statute defines the term \u201cprocess\u201d as a \u201cprocess, art or method [that] includes a new use of a known process, machine, manufacture, composition of matter, or material.\u201d \u00a7 100(b). But, this definition is not especially helpful, given that it also uses the term \u201cprocess\u201d and is therefore somewhat circular.\nAs lay speakers use the word \u201cprocess,\u201d it constitutes any series of steps. But it has always been clear that, as used in \u00a7 101, the term does not refer to a \u201c \u2018process\u2019 in the ordinary sense of the word,\u201d Flook, 437 U. S., at 588; see also Corning v. Burden, 15 How. 252, 268 (1854) (\u201c[T]he term process is often used in a more vague sense, in which it cannot be the subject of a patent\u201d). Rather, as discussed in some detail in Part IV, infra, the term \u201cprocess\u201d (along with the definitions given to that term) has long accumulated a distinctive meaning in patent law. When the term was used in the 1952 Act, it was neither intended nor understood to encompass any series of steps or any way to do any thing.\nWith that understanding in mind, the Government has argued that because \u201ca word\u201d in a statute \u201cis given more precise content by the neighboring words with which it\u201d associates, United States v. Williams, 553 U. S. 285, 294 (2008), we may draw inferences from the fact that \u201c[t]he other three statutory categories of patent-eligible subject matter identified in Section 101 \u2014 \u2018machine, manufacture, or composition of matter\u2019 \u2014 all \u2018are things made by man, and involve technology.\u2019\u201d Brief for Respondent 26. Specifically, the Government submits, we may infer \u201cthat the term \u2018process\u2019 is limited to technological and industrial methods.\u201d Ibid. The Court rejects this submission categorically, on the ground that \u201c\u00a7 100(b) already explicitly defines the term \u2018process.\u2019 \u201d Ante, at 604. But \u00a7 100(b) defines the term \u201cprocess\u201d by using the term \u201cprocess,\u201d as well as several other general terms. This is not a case, then, in which we must either \u201cfollow\u201d a definition, ibid., or rely on neighboring words to understand the scope of an ambiguous term. The definition itself contains the very ambiguous term that we must define.\nIn my view, the answer lies in between the Government\u2019s and the Court\u2019s positions: The terms adjacent to \u201cprocess\u201d in \u00a7 101 provide a clue as to its meaning, although not a very strong clue. Section 101\u2019s list of categories of patentable subject matter is phrased in the disjunctive, suggesting that the term \u201cprocess\u201d has content distinct from the other items in the list. It would therefore be illogical to \u201crob\u201d the word \u201cprocess\u201d of all independent meaning. Reiter v. Sonotone Corp., 442 U. S. 330, 338 (1979). Moreover, to the extent we can draw inferences about what is a \u201cprocess\u201d from common attributes in \u00a7 101, it is a dangerous endeavor to do so on the basis of a perceived overarching theme. Given the many moving parts at work in the Patent Act, there is a risk of merely confirming our preconceived notions of what should be patentable or of seeing common attributes that track \u201cthe familiar issues of novelty and obviousness\u201d that arise under other sections of the statute but are not relevant to \u00a7 101, Flook, 437 U. S., at 588. The placement of \u201cprocess\u201d next to other items thus cannot prove that the term is limited to any particular categories; it does, however, give reason to be skeptical that the scope of a patentable \u201cprocess\u201d extends to cover any series of steps at all.\nThe Court makes a more serious interpretive error. As briefly discussed in Part II, supra, the Court at points appears to reject the well-settled proposition that the term \u201cprocess\u201d in \u00a7 101 is not a \u201c \u2018process\u2019 in the ordinary sense of the word,\u201d Flook, 437 U. S., at 588. Instead, the Court posits that the word \u201cprocess\u201d must be understood in light of its \u201cordinary, contemporary, common meaning,\u201d ante, at 603 (internal quotation marks omitted). Although this is a fine approach to statutory interpretation in general, it is a deeply flawed approach to a statute that relies on complex terms of art developed against a particular historical background. Indeed, the approach would render \u00a7 101 almost comical. A process for training a dog, a series of dance steps, a method of shooting a basketball, maybe even words, stories, or songs if framed as the steps of typing letters or uttering sounds\u2014 all would be patent eligible. I am confident that the term \u201cprocess\u201d in \u00a7 101 is not nearly so capacious.\nSo is the Court, perhaps. What is particularly incredible about the Court\u2019s stated method of interpreting \u00a7 101 (other than that the method itself may be patent eligible under the Court\u2019s theory of \u00a7 101) is that the Court deviates from its own professed commitment to \u201cordinary, contemporary, common meaning.\u201d As noted earlier, the Court accepts a role for the \u201catextual\u201d machine-or-transformation \u201cclue.\u201d Ante, at 609, 604. The Court also accepts that we have \u201cforeclose[d] a purely literal reading of \u00a7 101,\u201d Flook, 437 U. S., at 589, by holding that claims that are close to \u201claws of nature, natural phenomena, and abstract ideas,\u201d Diamond v. Diehr, 450 U. S. 175, 185 (1981), do not count as \u201cprocesses\u201d under \u00a7101, even if they can be colloquially described as such. The Court attempts to justify this latter exception to \u00a7 101 as \u201ca matter of statutory stare decisis.\u201d Ante, at 602. But it is strange to think that the very same term must be interpreted literally on some occasions, and in light of its historical usage on others.\nIn fact, the Court\u2019s understanding of \u00a7 101 is even more remarkable because its willingness to exclude general principles from the provision\u2019s reach is in tension with its apparent willingness to include steps for conducting business. The history of patent law contains strong norms against patenting these two categories of subject matter. Both norms were presumably incorporated by Congress into the 1952 Act.\nIV\nBecause the text of \u00a7 101 does not on its face convey the scope of patentable processes, it is necessary, in my view, to review the history of our patent law in some detail. This approach yields a much more straightforward answer to this case than the Court\u2019s. As I read the history, it strongly supports the conclusion that a method of doing business is not a \u201cprocess\u201d under \u00a7 101.\nI am, of course, mindful of the fact that \u00a7 101 \u201cis a dynamic provision designed to encompass new and unforeseen inventions,\u201d and that one must therefore view historical conceptions of patent-eligible subject matter at an appropriately high level of generality. J. E. M. Ag Supply, 534 U. S., at 135; see also Chakmbarty, 447 U. S., at 315-316. But it is nonetheless significant that while people have long innovated in fields of business, methods of doing business fall outside of the subject matter that has \u201chistorically been eligible to receive the protection of our patent laws,\u201d Diehr, 450 U. S., at 184, and likely go beyond what the modern patent \u201cstatute was enacted to protect,\u201d Flook, 437 U. S., at 593. It is also significant that when Congress enacted the 1952 Act, it did so against the background of a well-settled understanding that a series of steps for conducting business cannot be patented. These considerations ought to guide our analysis. As Justice Holmes noted long ago, sometimes, \u201ca page of history is worth a volume of logic.\u201d New York Trust Co. v. Eisner, 256 U. S. 345, 349 (1921).\nEnglish Backdrop\nThe Constitution\u2019s Patent Clause was written against the \u201cbackdrop\u201d of English patent practices, Graham v. John Deere Co. of Kansas City, 383 U. S. 1, 5 (1966), and early American patent law was \u201clargely based on and incorporated\u201d features of the English patent system, E. Walterscheid, To Promote the Progress of Useful Arts: American Patent Law and Administration, 1798-1836, p. 109 (1998) (hereinafter Walterscheid, To Promote the Progress). The governing English law, the Statute of Monopolies, responded to abuses whereby the Crown would issue letters patent, \u201cgranting monopolies to court favorites in goods or businesses which had long before been enjoyed by the public.\u201d Graham, 383 U. S., at 5. The statute generally prohibited the Crown from granting such exclusive rights, 21 Jam. 1, ch. 3, \u00a7 1 (1623), in 4 Statutes of the Realm 1213, but it contained exceptions that, inter alia, permitted grants of exclusive rights to the \u201cworking or makinge of any manner of new Manufactures,\u201d \u00a76.\nPursuant to that provision, patents issued for the \u201cmode, method, or way of manufacturing,\u201d P. Campin, Law of Patents for Inventions 11 (1869) (emphasis deleted), and English courts construed the phrase \u201cworking or makinge of any manner of new Manufactures\u201d to encompass manufacturing processes, see, e. g., Boulton v. Bull, 2 H. Bl. 463, 471, 492, 126 Eng. Rep. 651, 655, 666 (C. P. 1795) (holding that the term \u201cmanufacture\u201d \u201capplied not only to things made, but to the practice of making, to principles carried into practice in a new manner, to new results of principles carried into practice\u201d). Thus, English courts upheld James Watt\u2019s famous patent on a method for reducing the consumption of fuel in steam engines, as well as a variety of patents issued for methods of synthesizing substances or building mechanical devices.\nAlthough it is difficult to derive a precise understanding of what sorts of methods were patentable under English law, there is no basis in the text of the Statute of Monopolies, nor in pre-1790 English precedent, to infer that business methods could qualify. There was some debate throughout the relevant time period about what processes could be patented. But it does not appear that anyone seriously believed that one could patent \u201ca method for organizing human activity.\u201d 545 F. 3d, at 970 (Dyk, J., concurring).\nThere were a small number of patents issued between 1623 and 1790 relating to banking or lotteries and one for a method of life insurance, but these did not constitute the \u201cprevailing]\u201d \u201cprinciples and practice\u201d in England on which our patent law was based, Pennock v. Dialogue, 2 Pet. 1, 18 (1829). Such patents were exceedingly rare, and some of them probably were viewed not as inventions or discoveries but rather as special state privileges that until the mid-1800\u2019s were recorded alongside inventions in the patent records, see MacLeod 1-2 (explaining that various types of patents were listed together). It appears that the only English patent of the time that can fairly be described as a business method patent was one issued in 1778 on a \u201cPlan for assurances on lives of persons from 10 to 80 years of Age.\u201d Woodcroft 324. And \u201c[t]here is no indication\u201d that this patent \u201cwas ever enforced or its validity tested,\u201d 545 F. 3d, at 974 (Dyk, J., concurring); the patent may thus have represented little more than the whim \u2014 or error \u2014 of a single patent clerk.\nIn any event, these patents (or patent) were probably not known to the Framers of early patent law. In an era before computerized databases, organized ease law, and treatises, the American drafters probably would have known about particular patents only if they were well publicized or subject to reported litigation. So far as I am aware, no published cases pertained to patents on business methods.\nAlso noteworthy is what was not patented under the English system. During the 17th and 18th centuries, Great Britain saw innovations in business organization, business models, management techniques, and novel solutions to the challenges of operating global firms in which subordinate managers could be reached only by a long sea voyage. New if any of these methods of conducting business were patented.\nEarly American Patent Law\nAt the Constitutional Convention, the Founders decided to give Congress a patent power so that it might \u201cpromote the Progress of . . . useful Arts.\u201d Art. I, \u00a78, cl. 8. There is little known history of that Clause. We do know that the Clause passed without objection or debate. This is striking because other proposed powers, such as a power to grant charters of incorporation, generated discussion about the fear that they might breed \u201cmonopolies.\u201d Indeed, at the ratification conventions, some States recommended amendments that would have prohibited Congress from granting \u201c 'exclusive advantages of commerce.\u2019 \u201d If the original understanding of the Patent Clause included the authority to patent methods of doing business, it might not have passed so quietly.\nIn 1790, Congress passed the first Patent Act, an \u201cAct to promote the progress of useful Arts\u201d that authorized patents for persons who had \u201cinvented or discovered any useful art, manufacture, engine, machine, or device, or any improvement therein not before known or used,\u201d if \u201cthe invention or discovery [was] sufficiently useful and important.\u201d 1 Stat. 109-110. Three years later, Congress passed the Patent Act of 1793 and slightly modified the language to cover \u201cany new and useful art, machine, manufacture or composition of matter, or any new and useful improvement on any art, machine, manufacture or composition of matter.\u201d 1 Stat. 319.\nThe object of the constitutional patent power and the statutory authorization for process patents in the early patent Acts was the term \u201cuseful art.\u201d It is not evident from the face of the statutes or the Constitution whether the objects of the patent system were \u201carts\u201d that are also useful, or rather a more specific category, the class of arts known as \u201cuseful arts.\u201d Cf. Graham, 383 U. S., at 12 (describing the \u201c'new and useful\u2019 tests which have always existed in the statutory scheme\u201d and apply to all categories of subject matter). However, we have generally assumed that \u201cuseful art,\u201d at least as it is used in the Patent Act, is itself a term of art. See Burden, 15 How., at 267-268.\nThe word \u201cart\u201d and the phrase \u201cuseful arts\u201d are subject to many meanings. There is room on the margins to debate exactly what qualifies as either. There is room, moreover, to debate at what level of generality we should understand these broad and historical terms, given that \u201c[a] rule that unanticipated inventions are without protection would conflict with the core concept of the patent law,\u201d Chakrabarty, 447 U. S., at 316. It appears, however, that regardless of how one construes the term \u201cuseful arts,\u201d business methods are not included.\nNoah Webster\u2019s first American dictionary defined the term \u201cart\u201d as the \u201cdisposition or modification of things by human skill, to answer the purpose intended,\u201d and differentiated between \u201cuseful or mechanic\u201d arts, on the one hand, and \u201cliberal or polite\u201d arts, on the other. 1 An American Dictionary of the English Language (1828) (facsimile edition) (emphasis added). Although other dictionaries defined the word \u201cart\u201d more broadly, Webster\u2019s definition likely conveyed a message similar to the meaning of the word \u201cmanufactures\u201d in the earlier English statute. And we know that the term \u201cuseful arts\u201d was used in the founding era to refer to manufacturing and similar applied trades. See Coulter, The Field of the Statutory Useful Arts, 34 J. Pat. Off. Soc. 487, 493-500 (1952); see also Thomas, The Patenting of the Liberal Professions, 40 Boston College L. Rev. 1139, 1164 (1999) (\u201c[The Framers of the Constitution] undoubtedly contemplated the industrial, mechanical and manual arts of the late eighteenth century, in contrast to the seven \u2018liberal arts\u2019 and the four \u2018fine arts\u2019 of classical learning\u201d). Indeed, just days before the Constitutional Convention, one delegate listed examples of American progress in \u201cmanufactures and the useful arts,\u201d all of which involved the creation or transformation of physical substances. See T. Coxe, An Address to an Assembly of the Friends of American Manufactures 17-18 (1787) (listing, inter alia, meal, ships, liquors, potash, gunpowder, paper, starch, articles of iron, stone work, carriages, and harnesses). Numerous scholars have suggested that the term \u201cuseful arts\u201d was widely understood to encompass the fields that we would now describe as relating to technology or \u201ctechnological arts.\u201d\nThus, fields such as business and finance were not generally considered part of the \u201cuseful arts\u201d in the founding era. See, e. g., The Federalist No. 8, p. 69 (C. Rossiter ed. 1961) (A. Hamilton) (distinguishing between \u201cthe arts of industry, and the science of finance\u201d); 30 The Writings of George Washington 1745-1799, p. 186 (J. Fitzpatrick ed. 1939) (writing in a letter that \u201cour commerce has been considerably-curtailed,\u201d but \u201cthe useful arts have been almost imperceptibly pushed to a considerable degree of perfection\u201d). Indeed, the same delegate to the Constitutional Convention who gave an address in which he listed triumphs in the useful arts distinguished between those arts and the conduct of business. He explained that investors were now attracted to the \u201cmanufactures and the useful arts,\u201d much as they had long invested in \u201ccommerce, navigation, stocks, banks, and insurance companies.\u201d T. Coxe, A Statement of the Arts and Manufactures of the United States of America for the Year 1810 (1814), in 2 American State Papers, Finance 666, 688 (1832).\nSome scholars have remarked, as did Thomas Jefferson, that early patent statutes neither included nor reflected any serious debate about the precise scope of patentable subject matter. See, e. g., Graham, 383 U. S., at 9-10 (discussing Thomas Jefferson\u2019s observations). It has been suggested, however, that \u201c[p]erhaps this was in part a function of an understanding \u2014 shared widely among legislators, courts, patent office officials, and inventors \u2014 about what patents were meant to protect. Everyone knew that manufactures and machines were at the core of the patent system.\u201d Merges, Property Rights for Business Concepts and Patent System Reform, 14 Berkeley Tech. L. J. 577, 585 (1999) (hereinafter Merges). Thus, although certain processes, such as those related to the technology of the time, might have been considered patentable, it is possible that \u201c[ajgainst this background, it would have been seen as absurd for an entrepreneur to file a patent\u201d on methods of conducting business. Ibid.\nDevelopment of American Patent Law\nDuring the first years of the patent system, no patents were issued on methods of doing business. Indeed, for some time, there were serious doubts as to \u201cthe patentability of processes per se,\u201d as distinct from the physical end product or the tools used to perform a process. Id., at 581-582.\nThomas Jefferson was the \u201c 'first administrator of our patent system\u2019 \u201d and \u201cthe author of the 1793 Patent Act.\u201d Graham, 383 U. S., at 7. We have said that his \u201cconclusions as to conditions for patentability ... are worthy of note.\u201d Ibid. During his time administering the system, Jefferson \u201csaw clearly the difficulty\u201d of deciding what should be patentable. Id., at 9. He drafted the 1793 Act, id., at 7, and, years later, explained that in that Act '\"the whole was turned over to the judiciary, to be matured into a system, under which every one might know when his actions were safe and lawful,\u2019 \u201d id., at 10 (quoting Letter to Issac McPherson, in VI Writings of Thomas Jefferson 181-182 (H. Washington ed. 1861)). As the Court has explained, \u201cCongress agreed with Jefferson . . . that the courts should develop additional conditions for patentability.\u201d Graham, 383 U. S., at 10. Thus \"[a]lthough the Patent Act was amended, revised or codified some 50 times between 1790 and 1950, Congress steered clear\u201d of adding statutory requirements of patentability. Ibid. For nearly 160 years, Congress retained the term \u201cuseful arts,\u201d see, e. g., Act of July 4,1836, ch. 357, 5 Stat. 117, leaving \u201cwide latitude for judicial construction . . . to keep pace with industrial development,\u201d Berman, Method Claims, 17 J. Pat. Off. Soc. 713, 714 (1935) (hereinafter Berman).\nAlthough courts occasionally struggled with defining what was a patentable \u201cart\u201d during those 160 years, they consistently rejected patents on methods of doing business. The rationales for those decisions sometimes varied. But there was an overarching theme, at least in dicta: Business methods are not patentable arts. See, e. g., United States Credit System Co. v. American Credit Indemnity Co., 53 F. 818, 819 (CCNY 1893) (\u201cmethod of insuring against loss by bad debts\u201d could not be patented \u201cas an art\u201d); Hotel Security Checking Co. v. Lorraine Co., 160 F. 467, 469 (CA2 1908) (\u201cA system of transacting business disconnected from the means for carrying out the system is not, within the most liberal interpretation of the term, an art\u201d); Guthrie v. Curlett, 10 F. 2d 725, 726 (CA2 1926) (method of abbreviating rail tariff schedules, \u201cif it be novel, is not the kind of art protected by the patent acts\u201d); In re Patton, 127 F. 2d 324, 327-328 (CCPA 1942) (holding that novel \u201c 'interstate and national fire-fighting system\u2019 \u201d was not patentable because, inter alia, \u201ca system of transacting business, apart from the means for carrying out such system, is not\u201d an art within the meaning of the patent law, \u201cnor is an abstract idea or theory, regardless of its importance or . . . ingenuity\u201d); Loew\u2019s Drive-In Theatres, Inc. v. Park-In Theatres, Inc., 174 F. 2d 547, 552 (CA1 1949) (\u201c[A] system for the transaction of business, such, for example, as the cafeteria system for transacting the restaurant business . . . however novel, useful, or commercially successful is not patentable apart from the means for making the system practically useful, or carrying it out\u201d); Joseph E. Seagram & Sons, Inc. v. Marzall, 180 F. 2d 26, 28 (CADC 1950) (method of focus-group testing for beverages is not patentable subject matter); see also In re Howard, 394 F. 2d 869, 872 (CCPA 1968) (Kirkpatrick, J., concurring) (explaining that a \u201cmethod of doing business\u201d cannot be patented). Between 1790 and 1952, this Court never addressed the patentability of business methods. But we consistently focused the inquiry on whether an \u201cart\u201d was connected to a machine or physical transformation, an inquiry that would have excluded methods of doing business.\nBy the early 20th century, it was widely understood that a series of steps for conducting business could not be patented. A leading treatise, for example, listed \u201c \u2018systems\u2019 of business\u201d as an \u201cunpatentable subjec[t].\u201d 1 A. Deller, Walker on Patents \u00a7 18, p. 62 (1937). Citing many of the cases listed above, the treatise concluded that a \u201cmethod of transacting business\u201d is not an \u201c\u2018art.\u2019\u201d Id., \u00a722, at 69; see also L. Amdur, Patent Law and Practice \u00a739, p. 53 (1935) (listing \u201cMethods of doing business\u201d as an \u201cUnpatentable [A]r[t]\u201d); Berman 718 (\u201c[C]ases have been fairly unanimous in denying patentability to such methods\u201d); Tew, Method of Doing Business, 16 J. Pat. Off. Soc. 607 (1934) (\u201cIt is probably settled by long practice and many precedents that \u2018methods of doing business,\u2019 as these words are generally understood, are unpatentable\u201d). Indeed, \u201c[u]ntil recently\u201d it was still \u201cconsidered well established that [business] methods were non-statutory.\u201d 1 R. Moy, Walker on Patents \u00a7 5:28, p. 5-104 (4th ed. 2009).\nModern American Patent Law\nBy the mid-1900\u2019s, many courts were construing the term \u201cart\u201d by using words such as \u201cmethod, process, system, or like terms.\u201d Berman 713; see Expanded Metal Co. v. Bradford, 214 U. S. 366, 382 (1909) (\u201cThe word \u2018process\u2019 has been brought into the decisions because it is supposedly an equivalent form of expression or included in the statutory designation of a new and useful art\u201d). Thus in 1952, when Congress updated the patent laws as part of its ongoing project to revise the United States Code, it changed the operative language in \u00a7 101, replacing the term \u201cart\u201d with \u201cprocess\u201d and adding a definition of \u201cprocess\u201d as a \u201cprocess, art or method,\u201d \u00a7 100(b).\nThat change was made for clarity and did not alter the scope of a patentable \u201cprocess.\u201d See Diehr, 450 U. S., at 184. The new terminology was added only in recognition of the fact that courts had been interpreting the category \u201cart\u201d by using the terms \u201cprocess or method\u201d; Congress thus wanted to avoid \u201cthe necessity of explanation that the word \u2018art\u2019 as used in this place means \u2018process or method.\u2019\u201d S. Rep. No. 1979, 82d Cong., 2d Sess., 5 (1952) (hereinafter S. Rep. 1979); accord, H. R. Rep. No. 1923, 82d Cong., 2d Sess., 6 (1952) (hereinafter H. R. Rep. 1923); see also id., at 17 (explaining that \u201c[t]he word \u2018art\u2019 \u201d in \u00a7 101 \u201chas been interpreted by the courts as being practically synonymous with process or method,\u201d and that the switch to the word \u201c \u2018[process\u2019 \u201d was intended only for clarity).\nIt appears that when Congress changed the language in \u00a7 101 to incorporate the prevailing judicial terminology, it merely codified the prevailing judicial interpretation of that category of subject matter. See Diehr, 450 U. S., at 184; see also Barber v. Gonzales, 347 U. S. 637, 641 (1954) (\u201cWhile it is true that statutory language should be interpreted whenever possible according to common usage, some terms acquire a special technical meaning by a process of judicial construction\u201d). Both the Senate and House Committee Reports explained that the word \u201cprocess\u201d was used in \u00a7 101 \u201cto clarify the present law as to the patentability of certain types of processes or methods as to which some insubstantial doubts have been expressed.\u201d S. Rep. 1979, at 5; accord, H. R. Rep. 1923, at 6. And both noted that those terms were used to convey the prevailing meaning of the term \u201cart,\u201d \u201cas interpreted\u201d by courts, S. Rep. 1979, at 17; accord, H. R. Rep. 1923, at 17. Indeed, one of the main drafters of the Act explained that the definition of the term \u201cprocess\u201d in \u00a7 100(b) reflects \u201chow the courts have construed the term 'art.\u2019\u201d Tr. of Address by Judge Giles S. Rich to the New York Patent Law Association 7-8 (Nov. 6, 1952).\nAs discussed above, by this time, courts had consistently construed the term \u201cart\u201d to exclude methods of doing business. The 1952 Act likely captured that same meaning. Cf. Graham, 383 U. S., at 16-17 (reasoning that because a provision of the 1952 Act \u201cparaphrases language which has often been used in decisions of the courts\u201d and was \u201cadded to the statute for uniformity and definiteness,\u201d that provision should be treated as \u201ca codification of judicial precedents\u201d (internal quotation marks omitted)). Indeed, Judge Rich, the main drafter of the 1952 Act, later explained that \u201cthe invention of a more effective organization of the materials in, and the techniques of teaching a course in physics, chemistry, or Russian is not a patentable invention because it is outside of the enumerated categories of \u2018process, machine, manufacture, or composition of matter, or any new and useful improvement thereof.\u2019 \u201d Principles of Patentability, 28 Geo. Wash. L. Rev. 393, 394 (1960). \u201cAlso outside that group,\u201d he added, was a process for doing business: \u201cthe greatest inventio[n] of our times, the diaper service.\u201d Ibid.\n\u201cAnything Under the Sun\u201d\nDespite strong evidence that Congress has consistently authorized patents for a limited class of subject matter and that the 1952 Act' did not alter the nature of the then-existing limits, petitioners and their amici emphasize a single phrase in the 1952 Act\u2019s legislative history, which suggests that the statutory subject matter \u201c \u2018include[s] anything under the sun that is made by man.\u2019\u201d Brief for Petitioners 19 (quoting Chakrabarty, 447 U. S., at 309, in turn quoting S. Rep. 1979, at 5). Similarly, the Court relies on language from our opinion in Chakrabarty that was based in part on this piece of legislative history. See ante, at 601, 602-603.\nThis reliance is misplaced. We have never understood that piece of legislative history to mean that any series of steps is a patentable process. Indeed, if that were so, then our many opinions analyzing what is a patentable process were simply wastes of pages in the U. S. Reports. And to accept that errant piece of legislative history as widening the scope of the patent law would contradict other evidence in the congressional record, as well as our presumption that the 1952 Act merely codified the meaning of \u201cprocess\u201d and did not expand it, see Diehr, 450 U. S., at 184.\nTaken in context, it is apparent that the quoted language has a far less expansive meaning. The full sentence in the Committee Reports reads: \u201cA person may have \u2018invented\u2019 a machine or a manufacture, which may include anything under the sun that is made by man, but it is not necessarily patentable under section 101 unless the conditions of [this] title are fulfilled.\u201d S. Rep. 1979, at 5; H. R. Rep. 1923, at 6. Viewed as a whole, it seems clear that this language does not purport to explain that \u201canything under the sun\u201d is patentable. Indeed, the language may be understood to state the exact opposite: that \u201c[a] person may have \u2018invented\u2019... anything under the sun,\u201d but that thing \u201cis not necessarily patentable under section 101.\u201d Thus, even in the Chakrabarty opinion, which relied on this quote, we cautioned that the 1952 Reports did not \u201csuggest that \u00a7 101 has no limits or that it embraces every discovery.\u201d 447 U. S., at 309.\nMoreover, even if the language in the Committee Reports was meant to flesh out the meaning of any portion of \u00a7 101, it did not purport to define the term \u201cprocess.\u201d The language refers only to \u201cmanufacture^]\u201d and \u201cmachine[s],\u201d tangible objects \u201cmade by man.\u201d It does not reference the \u201cprocess\u201d category of subject matter (nor could a process be comfortably described as something \u201cmade by man\u201d). The language may also be understood merely as defining the term \u201cinvents\u201d in \u00a7101. As Judge Dyk explained in his opinion below, the phrase \u201cmade by man\u201d \u201cis reminiscent\u201d of a 1790\u2019s description of the limits of English patent law, that an \u201cinvention must be \u2018made by man\u2019 \u201d and cannot be \u201c \u2018a philosophical principle only, neither organized or capable of being organized\u2019 from a patentable manufacture.\u201d 545 F. 3d, at 976 (quoting Hornblower v. Boulton, 8 T. R. 95, 98, 101 Eng. Rep. 1285, 1288 (K. B. 1799)).\nThe 1952 Act, in short, cannot be understood as expanding the scope of patentable subject matter by suggesting that any series of steps may be patented as a \u201cprocess\u201d under \u00a7 101. If anything, the 1952 Act appears to have codified the conclusion that subject matter which was understood not to be patentable in 1952 was to remain unpatentable.\nOur recent case law reinforces my view that a series of steps for conducting business is not a \u201cprocess\u201d under \u00a7 101. Since Congress passed the 1952 Act, we have never ruled on whether that Act authorizes patents on business methods. But we have cast significant doubt on that proposition by giving substantial weight to the machine-or-transformation test, as general methods of doing business do not pass that test. And more recently, Members of this Court have noted that patents on business methods are of \u201csuspect validity.\u201d eBay Inc. v. MercExchange, L. L. C., 547 U. S. 388, 397 (2006) (Kennedy, J., concurring).\n* * *\nSince at least the days of Assyrian merchants, people have devised better and better ways to conduct business. Yet it appears that neither the Patent Clause, nor early patent law, nor the current \u00a7 101 contemplated or was publicly understood to mean that such innovations are patentable. Although it may be difficult to define with precision what is a patentable \u201cprocess\u201d under \u00a7 101, the historical clues converge on one conclusion: A business method is not a \u201cprocess.\u201d And to the extent that there is ambiguity, we should be mindful of our judicial role. \u201c[W]e must proceed cautiously when we are asked to extend patent rights\u201d into an area that the Patent Act likely was not \u201cenacted to protect,\u201d Flook, 437 U. S., at 596, 593, lest we create a legal regime that Congress never would have endorsed, and that can be repaired only by disturbing settled property rights.\nV\nDespite the strong historical evidence that a method of doing business does not constitute a \u201cprocess\u201d under \u00a7 101, petitioners nonetheless argue \u2014 and the Court suggests in dicta, ante, at 607-608 \u2014 that a subsequent law, the First Inventor Defense Act of 1999, \u201cmust be read together\u201d with \u00a7 101 to make business methods patentable. Brief for Petitioners 29. This argument utilizes a flawed method of statutory interpretation and ignores the motivation for the 1999 Act.\nIn 1999, following a Federal Circuit decision that intimated business methods could be patented, see State Street, 149 F. 3d 1368, Congress moved quickly to limit the potential fallout. Congress passed the 1999 Act, codified at 35 U. S. C. \u00a7273, which provides a limited defense to claims of patent infringement, see \u00a7 273(b), regarding certain \u201cmethod[s] of doing or conducting business,\u201d \u00a7 273(a)(3).\nIt is apparent, both from the content and history of the 1999 Act, that Congress did not in any way ratify State Street (or, as petitioners contend, the broadest possible reading of State Street). The 1999 Act merely limited one potential effect of that decision: that businesses might suddenly find themselves liable for innocently using methods they assumed could not be patented. The 1999 Act did not purport to amend the limitations in \u00a7101 on eligible subject matter. Indeed, Congress placed the statute in Part III of Title 35, which addresses \u201cPatents and Protection of Patent Rights,\u201d rather than in Part II, which contains \u00a7101 and addresses \u201cPatentability of Inventions and Grant of Patents.\u201d Particularly because petitioners\u2019 reading of the 1999 Act would expand \u00a7101 to cover a category of processes that have not \u201chistorically been eligible\u201d for patents, Diehr, 450 U. S., at 184, we should be loath to conclude that Congress effectively amended \u00a7 101 without saying so clearly. We generally presume that Congress \u201cdoes not, one might say, hide elephants in mouseholes.\u201d Whitman v. American Trucking Assns., Inc., 531 U. S. 457, 468 (2001).\nThe 1999 Act therefore is, at best, merely evidence of 1999 legislative views on the meaning of the earlier, 1952 Act. \u201c[T]he views of a subsequent Congress,\u201d however, \u201cform a hazardous basis for inferring the intent of an earlier one.\u201d United States v. Price, 361 U. S. 304, 313 (1960). When a later statute is offered as \u201can expression of how the . . . Congress interpreted a statute passed by another Congress ... a half century before,\u201d \u201csuch interpretation has very little, if any, significance.\u201d Rainwater v. United States, 356 U. S. 590, 593 (1958).\nFurthermore, even assuming that Congress\u2019 views at the turn of the 21st century could potentially serve as a valid basis for interpreting a statute passed in the mid-20th century, the First Inventor Defense Act does not aid petitioners because it does not show that the later Congress itself understood \u00a7 101 to cover business methods. If anything, it shows that a few judges on the Federal Circuit understood \u00a7 101 in that manner and that Congress understood what those judges had done. The 1999 Act appears to reflect surprise and perhaps even dismay that business methods might be patented. Thus, in the months following State Street, congressional authorities lamented that \u201cbusiness methods and processes . . . until recently were thought not to be patentable,\u201d H. R. Rep. No. 106-464, p. 121 (1999); accord, H. R. Rep. No. 106-287, pt. 1, p. 31 (1999). The fact that Congress decided it was appropriate to create a new defense to claims that business method patents were being infringed merely demonstrates recognition that such claims could create a significant new problem for the business community.\nThe Court nonetheless states that the 1999 Act \u201cacknowledges that there may be business method patents,\u201d thereby \u201cclarifying]\u201d its \u201cunderstanding\u201d of \u00a7101. Ante, at 607. More specifically, the Court worries that if we were to interpret the 1952 Act to exclude business methods, our interpretation \u201cwould render \u00a7273 meaningless.\u201d Ibid. I agree that \u201c[a] statute should be construed so that effect is given to all its provisions.\u201d Corley v. United States, 556 U. S. 303, 314 (2009) (internal quotation marks omitted). But it is a different matter altogether when the Court construes one statute, the 1952 Act, to give effect to a different statute, the 1999 Act. The canon on which the Court relies is predicated upon the idea that \u201c[a] statute is passed as a whole.\u201d 2A N. Singer & J. Singer, Statutes and Statutory Construction \u00a7 46:5, p. 189 (7th ed. 2007). But the two statutes in question were not passed as a whole.\nPut another way, we ordinarily assume, quite sensibly, that Congress would not in one statute include two provisions that are at odds with each other. But as this case shows, that sensible reasoning can break down when applied to different statutes. The 1999 Act was passed to limit the impact of the Federal Circuit\u2019s then-recent statements on the 1952 Act. Although repudiating that judicial dictum (as we should) might effectively render the 1999 Act a nullity going forward, such a holding would not mean that it was a nullity when Congress enacted it. Section 273 may have been a technically unnecessary response to confusion about patentable subject matter, but it appeared necessary in 1999 in light of what was being discussed in legal circles at the time. Consider the logical implications of the Court\u2019s approach to this question: If, tomorrow, Congress were to conclude that patents on business methods are so important that the special infringement defense in \u00a7273 ought to be abolished, and thus repealed that provision, this could paradoxically strengthen the case against such patents because there would no longer be a \u00a7273 that \u201cacknowledges . . . business method patents,\u201d ante, at 607. That is not a sound method of statutory interpretation.\nIn light of its history and purpose, I think it obvious that the 1999 Congress would never have enacted \u00a7 273 if it had foreseen that this Court would rely on the provision as a basis for concluding that business methods are patentable. Section 273 is a red herring; we should be focusing our attention on \u00a7 101 itself.\nVI\nThe constitutionally mandated purpose and function of the patent laws bolster the conclusion that methods of doing business are not \u201cprocesses\u201d under \u00a7 101.\nThe Constitution allows Congress to issue patents \u201c[t]o promote the Progress of . . . useful Arts,\u201d Art. I, \u00a7 8, cl. 8. This clause \u201cis both a grant of power and a limitation.\u201d Graham, 383 U. S., at 5. It \u201creflects a balance between the need to encourage innovation and the avoidance of monopolies which stifle competition without any concomitant advance in the 'Progress of Science and useful Arts.\u2019 \u201d Bonito Boats, 489 U. S., at 146. \u201cThis is the standard expressed in the Constitution and it may not be ignored. And it is in this light that patent validity 'requires reference to [the] standard written into the Constitution'\u201d Graham, 383 U. S., at 6 (quoting Great Atlantic & Pacific Tea Co. v. Supermarket Equipment Corp., 340 U. S. 147, 154 (1950) (Douglas, J., concurring) (emphasis deleted)); see also Grant v. Raymond, 6 Pet. 218, 241-242 (1832) (explaining that patent \u201claws which are passed to give effect to this [constitutional] purpose ought, we think, to be construed in the spirit in which they have been made\u201d).\nThus, although it is for Congress to \u201cimplement the stated purpose of the Framers by selecting the policy which in its judgment best effectuates the constitutional aim,\u201d Graham, 383 U. S., at 6, we interpret ambiguous patent laws as a set of rules that \u201cwee[d] out those inventions which would not be disclosed or devised but for the inducement of a patent,\u201d id., at 11, and that \u201cembod[y]\u201d the \u201ccareful balance between the need to promote innovation and the recognition that imitation and refinement through imitation are both necessary to invention itself and the very lifeblood of a competitive economy,\u201d Bonito Boats, 489 U. S., at 146. And absent a discernible signal from Congress, we proceed cautiously when dealing with patents that press on the limits of the \u201c'standard written into the Constitution,\u2019\u201d Graham, 383 U. S., at 6, for at the \u201cfringes of congressional power,\u201d \u201cmore is required of legislatures than a vague delegation to be filled in later,\u201d Barenblatt v. United States, 360 U. S. 109, 139-140 (1959) (Black, J., dissenting); see also Greene v. McElroy, 360 U. S. 474, 507 (1959) (\u201c[Decisions of great constitutional import and effect\u201d \u201crequir[e] careful and purposeful consideration by those responsible for enacting and implementing our laws\u201d). We should not casually risk exceeding the constitutional limitation on Congress\u2019 behalf.\nThe Court has kept this \u201cconstitutional standard\u201d in mind when deciding what is patentable subject matter under \u00a7 101. For example, we have held that no one can patent \u201claws of nature, natural phenomena, and abstract ideas.\u201d Diehr, 450 U. S., at 185. These \u201care the basic tools of scientific and technological work,\u201d Benson, 409 U. S., at 67, and therefore, if patented, would stifle the very progress that Congress is authorized to promote, see, e. g., O\u2019Reilly v. Morse, 15 How. 62, 113 (1854) (explaining that Morse\u2019s patent on electromagnetism for writing would pre-empt a wide swath of technological developments).\nWithout any legislative guidance to the contrary, there is a real concern that patents on business methods would press on the limits of the \u201cstandard expressed in the Constitution,\u201d Graham, 383 U. S., at 6 (emphasis deleted), more likely stifling progress than \u201cpromoting]\u201d it. U. S. Const., Art. I, \u00a7 8, cl. 8. I recognize that not all methods of doing business are the same, and that therefore the constitutional \u201cbalance,\u201d Bonito Boats, 489 U. S., at 146, may vary within this category. Nevertheless, I think that this balance generally supports the historic understanding of the term \u201cprocess\u201d as excluding business methods. And a categorical analysis fits with the purpose, as Thomas Jefferson explained, of ensuring that \u201c \u2018every one might know when his actions were safe and lawful,\u2019 \u201d Graham, 383 U. S., at 10; see also Festo Corp. v. Shoketsu Kinzoku Kogyo Kabushiki Co., 535 U. S. 722, 730-731 (2002) (\u201cThe monopoly is a property right; and like any property right, its boundaries should be clear. This clarity is essential to promote progress\u201d); Diehr, 450 U. S., at 219 (Stevens, J., dissenting) (it is necessary to have \u201crules that enable a conscientious patent lawyer to determine with a fair degree of accuracy\u201d what is patentable).\nOn one side of the balance is whether a patent monopoly is necessary to \u201cmotivate the innovation,\u201d Pfaff v. Wells Electronics, Inc., 525 U. S. 55, 63 (1998). Although there is certainly disagreement about the need for patents, scholars generally agree that when innovation is expensive, risky, and easily copied, inventors are less likely to undertake the guaranteed costs of innovation in order to obtain the mere possibility of an invention that others can copy. Both common sense and recent economic scholarship suggest that these dynamics of cost, risk, and reward vary by the type of thing being patented. And the functional case that patents promote progress generally is stronger for subject matter that has \u201chistorically been eligible to receive the protection of our patent laws,\u201d Diehr, 450 U. S., at 184, than for methods of doing business.\nMany have expressed serious doubts about whether patents are necessary to encourage business innovation. Despite the fact that we have long assumed business methods could not be patented, it has been remarked that \u201cthe chief business of the American people is business.\u201d Federal Express developed an overnight delivery service and a variety of specific methods (including shipping through a central hub and online package tracking) without a patent. Although counterfactuals are a dubious form of analysis, I find it hard to believe that many of our entrepreneurs forwent business innovation because they could not claim a patent on their new methods.\n\u201c[C]ompanies have ample incentives to develop business methods even without patent protection, because the competitive marketplace rewards companies that use more efficient business methods.\u201d Burk & Lemley 1618. Innovators often capture advantages from new business methods notwithstanding the risk of others copying their innovation. Some business methods occur in secret and therefore can be protected with trade secrecy. And for those methods that occur in public, firms that innovate often capture long-term benefits from doing so, thanks to various first-mover advantages, including lock-ins, branding, and networking effects. Business innovation, moreover, generally does not entail the same kinds of risk as does more traditional, technological innovation. It generally does not require the same \u201cenormous costs in terms of time, research, and development,\u201d Bicron, 416 U. S., at 480, and thus does not require the same kind of \u201ccompensation to [innovators] for their labor, toil, and expense,\u201d Seymour v. Osborne, 11 Wall. 516, 533-544 (1871).\nNor, in many cases, would patents on business methods promote progress by encouraging \u201cpublic disclosure.\u201d Pf&ff, 525 U. S., at 63; see also Brenner v. Manson, 383 U. S. 519, 533 (1966) (\u201c[0]ne of the purposes of the patent system is to encourage dissemination of information concerning discoveries and inventions\u201d). Many business methods are practiced in public, and therefore a patent does not necessarily encourage the dissemination of anything not already known. And for the methods practiced in private, the benefits of disclosure may be small: Many such methods are distributive, not productive \u2014 that is, they do not generate any efficiency but only provide a means for competitors to one-up each other in a battle for pieces of the pie. And as the Court has explained, \u201cit is hard to see how the public would be benefited by disclosure\u201d of certain business tools, since the nondisclosure of these tools \u201cencourages businesses to initiate new and individualized plans of operation,\u201d which, \u201cin turn, leads to a greater variety of business methods.\u201d Bicron, 416 U. S., at 483.\nIn any event, even if patents on business methods were useful for encouraging innovation and disclosure, it would still be questionable whether they would, on balance, facilitate or impede the progress of American business. For even when patents encourage innovation and disclosure, \u201ctoo much patent protection can impede rather than \u2018promote the Progress of . . . useful Arts.\u2019\u201d Laboratory Corp. of America Holdings v. Metabolite Laboratories, Inc., 548 U. S. 124, 126-127 (2006) (Breyer, J., dissenting from dismissal of certiorari). Patents \u201ccan discourage research by impeding the free exchange of information,\u201d for example, by forcing people to \u201cavoid the use of potentially patented ideas, by leading them to conduct costly and time-consuming searches of existing or pending patents, by requiring complex licensing arrangements, and by raising the costs of using the patented\u201d methods. Id., at 127. Although \u201c[e]very patent is the grant of a privilege of exacting tolls from the public,\u201d Great Atlantic, 340 U. S., at 154 (Douglas, J., concurring), the tolls of patents on business methods may be especially high.\nThe primary concern is that patents on business methods may prohibit a wide swath of legitimate competition and innovation. As one scholar explains, \u201cit is useful to conceptualize knowledge as a pyramid: the big ideas are on top; specific applications are at the bottom.\u201d Dreyfuss 275. The higher up a patent is on the pyramid, the greater the social cost and the greater the hindrance to further innovation. Thus, this Court stated in Benson that \u201c[phenomena of nature ..., mental processes, and abstract intellectual concepts are not patentable, as they are the basic tools of scientific and technological work,\u201d 409 U. S., at 67; see also Joseph E. Seagram & Sons, Inc., 180 F. 2d, at 28 (\u201cTo give appellant a monopoly, through the issuance of a patent, upon so great an area .. . would in our view impose without warrant of law a serious restraint upon the advance of science and industry\u201d). Business methods are similarly often closer to \u201cbig ideas,\u201d as they are the basic tools of commercial work. They are also, in many cases, the basic tools of further business innovation: Innovation in business methods is often a sequential and complementary process in which imitation may be a \u201cspur to innovation\u201d and patents may \u201cbecome an impediment.\u201d Bessen & Maskin, Sequential Innovation, Patents, and Imitation, 40 RAND J. Econ. 611, 613 (2009). \u201cThink how the airline industry might now be structured if the first company to offer frequent flyer miles had enjoyed the sole right to award them.\u201d Dreyfuss 264. \u201c[limitation and refinement through imitation are both necessary to invention itself and the very lifeblood of a competitive economy.\u201d Bonito Boats, 489 U. S., at 146.\nIf business methods could be patented, then many business decisions, no matter how small, could be potential patent violations. Businesses would either live in constant fear of litigation or would need to undertake the costs of searching through patents that describe methods of doing business, attempting to decide whether their innovation is one that remains in the public domain. See Long, Information Costs in Patent and Copyright, 90 Va. L. Rev. 465, 487-488 (2004) (hereinafter Long). But as we have long explained, patents should not \u201cembarras[s] the honest pursuit of business with fears and apprehensions of concealed liens and unknown liabilities to lawsuits and vexatious accountings for profits made in good faith.\u201d Atlantic Works v. Brady, 107 U. S. 192, 200 (1883).\nThese effects are magnified by the \u201cpotential vagueness\u201d of business method patents, eBay Inc., 547 U. S., at 397 (Kennedy, J., concurring). When it comes to patents, \u201cclarity is essential to promote progress.\u201d Festo Corp., 535 U. S., at 730-731. Yet patents on methods of conducting business generally are composed largely or entirely of intangible steps. Compared to \u201cthe kinds of goods . . . around which patent rules historically developed,\u201d it thus tends to be more costly and time consuming to search through, and to negotiate licenses for, patents on business methods. See Long 539, 470.\nThe breadth of business methods, their omnipresence in our society, and their potential vagueness also invite a particularly pernicious use of patents that we have long criticized. As early as the 19th century, we explained that the patent laws are not intended to \u201ccreat[e] a class of speculative schemers who make it their business to watch the advancing wave of improvement, and gather its foam in the form of patented monopolies, which enable them to lay a heavy tax upon the industry of the country, without contributing anything to the real advancement of the arts.\u201d Atlantic Works, 107 U. S., at 200. Yet business method patents may have begun to do exactly that. See eBay Inc., 547 U. S., at 396-397 (opinion of Kennedy, J.).\nThese many costs of business method patents not only may stifle innovation, but they are also likely to \u201cstifle competition,\u201d Bonito Boats, 489 U. S., at 146. Even if a business method patent is ultimately held invalid, patent holders may be able to use it to threaten litigation and to bully competitors, especially those that cannot bear the costs of a drawn-out, fact-intensive patent litigation. That can take a particular toll on small and upstart businesses. Of course, patents always serve as a barrier to competition for the type of subject matter that is patented. But patents on business methods are patents on business itself. Therefore, unlike virtually every other category of patents, they are by their very nature likely to depress the dynamism of the marketplace.\n* * *\nThe constitutional standard for patentability is difficult to apply with any precision, and Congress has significant discretion to \u201cimplement the stated purpose of the Framers by selecting the policy which in its judgment best effectuates the constitutional aim,\u201d Graham, 383 U. S., at 6. But Congress has not, either explicitly or implicitly, determined that patents on methods of doing business would effectuate this aim. And as I understand their practical consequences, it is hard to see how they would.\nYII\nThe Constitution grants to Congress an important power to promote innovation. In its exercise of that power, Congress has established an intricate system of intellectual property. The scope of patentable subject matter under that system is broad. But it is not endless. In the absence of any clear guidance from Congress, we have only limited textual, historical, and functional clues on which to rely. Those clues all point toward the same conclusion: that petitioners\u2019 claim is not a \u201cprocess\u201d within the meaning of \u00a7 101 because methods-of doing business are not, in themselves, covered by the statute. In my view, acknowledging as much would be a far more sensible and restrained way to resolve this case. Accordingly, while I concur in the judgment, I strongly disagree with the Court\u2019s disposition of this case.\nEven if the machine-or-transformation test may not define the scope of a patentable process, it would be a grave mistake to assume that anything with a \u201c \u2018useful, concrete and tangible result,\u2019 \u201d State Street Bank & Trust Co. v. Signature Financial Group, Inc., 149 F. 3d 1368, 1373 (CA Fed. 1998), may be patented.\nFor example, a rule that broadly phrased claims cannot constitute patentable processes could call into question our approval of Alexander Graham Bell\u2019s famous fifth claim on \u201c\u2018[t]he method of, and apparatus for, transmitting vocal or other sounds telegraphically, as herein described, by causing electrical undulations, similar in form to the vibrations of the air accompanying the said vocal or other sounds, substantially as set forth,\u2019 \u201d The Telephone Cases, 126 U. S. 1, 531 (1888).\nThe Court quotes our decision in Diamond v. Chakrabarty, 447 U. S. 303 (1980), for the proposition that, \u201c \u2018[i]n choosing such expansive terms . . . modified by the comprehensive \u201cany,\u201d Congress plainly contemplated that the patent laws would be given wide scope.\u2019 \u201d Ante, at 601. But the Court fails to mention which terms we were discussing in Chakrabarty: the terms \u201cmanufacture\u201d and \u201ccomposition of matter.\u201d See 447 U. S., at 308 (\u201cIn choosing such expansive terms as \u2018manufacture\u2019 and \u2018composition of matter,\u2019 modified by the comprehensive \u2018any,\u2019 Congress plainly contemplated that the patent laws would be given wide scope\u201d). As discussed herein, Congress\u2019 choice of the term \u201cprocess\u201d reflected a background understanding of what sorts of series of steps could be patented, and likely reflected an intentional design to codify that settled, judicial understanding. This may not have been the case with the terms at issue in Chakrabarty.\nFor example, if this Court were to interpret the Sherman Act according to the Act\u2019s plain text, it could prohibit \u201cthe entire body of private contract,\u201d National Soc. of Professional Engineers v. United States, 435 U. S. 679, 688 (1978).\nThe Court attempts to avoid such absurd results by stating that these \u201c[e]oneerns\u201d \u201ccan be met by making sure the claim meets the requirements of \u00a7 101.\u201d Ante, at 603. Because the only limitation on the plain meaning of \u201cprocess\u201d that the Court acknowledges explicitly is the bar on abstract ideas, laws of nature, and the like, it is presumably this limitation that is left to stand between all conceivable human activity and patent monopolies. But many processes that would make for absurd patents are not abstract ideas. Nor can the requirements of novelty, nonobviousness, and particular description pick up the slack. Cf. ante, at 609 (plurality opinion). A great deal of human activity was at some time novel and nonobvious.\nCuriously, the Court concedes that \u201cthese exceptions are not required by the statutory text,\u201d but urges that \u201cthey are consistent with the notion that a patentable process must be \u2018new and useful.\u2019 \u201d Ante, at 601-602 (emphasis added). I do not see how these exceptions find a textual home in the term \u201cnew and useful.\u201d The exceptions may be consistent with those words, but they are sometimes inconsistent with the \u201cordinary, contemporary, common meaning,\u201d ante, at 603, 607 (internal quotation marks omitted), of the words \u201cprocess\u201d and \u201cmethod.\u201d\nSee Pennock v. Dialogue, 2 Pet. 1, 18 (1829) (\u201c[M]any of the provisions of our patent act are derived from the principles and practice which have prevailed in the construction of that of England\u201d); Proceedings in Congress During the Years 1789 and 1790 Relating to the First Patent and Copyright Laws, 22 J. Pat. Off. Soc. 352, 363 (1940) (explaining that the 1790 Patent Act was \u201cframed according to the Course of Practice in the English Patent Office\u201d); see also Walterscheid, The Early Evolution of the United States Patent Law: Antecedents, 76 J. Pat. & Trademark Off. Soc. 697, 698 (1994) (describing the role of the English backdrop).\nSee Hornblower v. Boulton, 8 T. R. 95 (K. B. 1799).\nSee, e. g., Roebuck and Garbett v. William Stirling & Son (H. L. 1774), reprinted in 1 T. Webster, Reports and Notes of Cases on Letters Patent for Inventions 45 (1844) (\u201cmethod of making acid spirit by burning sulphur and saltpetre, and collecting the condensed fumes\u201d); id., at 77 (\u201c \u2018method of producing a yellow colour for painting in oil or water, making white lead, and separating the mineral alkali from common salt, all to be performed in one single process\u2019 \u201d); see also C. MacLeod, Inventing the Industrial Revolution: The English Patent System, 1660-1800, pp. 84-93, 100\u2014104, 109-110, 152-155 (1988) (hereinafter MacLeod) (listing patents).\nSome English cases made reference to the permissibility of patents over new \u201ctrades.\u201d But so far as I can tell, the term \u201ctrade\u201d referred not to the methods of conducting business but rather to methods of making and using physical items or to the object of the trade. See, e. g., Cloth-workers of Ipswich Case, Godb. 252, 254, 78 Eng. Rep. 147, 148 (K. B. 1615) (\u201c[I]f a man hath brought in a new invention and a new trade within the kingdom ... [the King] may grant by charter unto him\u201d).\nSee also Pollack, The Multiple Uneonstitutionality of Business Method Patents: Common Sense, Congressional Consideration, and Constitutional History, 28 Rutgers Computer & Tech. L. J. 61, 94-96 (2002) (hereinafter Pollack) (describing English practice).\nSee id., at 95; B. Woodcroft, Alphabetical Index of Patentees of Inventions, from March 2, 1617 (14 James I) to October 1, 1852 (16 Victoriae) 383, 410 (2d ed. 1969) (hereinafter Woodcroft).\nSee, e. g., C. Ewen, Lotteries and Sweepstakes 70-71 (1932) (describing the \u201cletters patent\u201d to form a colony in Virginia and to operate lotteries to fund that colony).\nSee also Renn, John Knox\u2019s Plan for Insuring Lives: A Patent of Invention in 1778, 101 J. Inst. Actuaries 285, 286 (1974) (hereinafter Renn) (describing the patent).\n\u201cThe English patent system\u201d at that time \u201cwas one of simple registration. Extensive scrutiny was not expected of the law officers administering it.\u201d MacLeod 41. Thus, as one scholar suggested of the patent on life insurance, \u201cperhaps the Law Officer was in a very good humour that day, or perhaps he had forgotten the wording of the statute; most likely he was concerned only with the promised \u2018very considerable Consumption of [Revenue] Stamps\u2019 which [the patent holder] declared, would \u2018contribute to the increase of the Public Revenues.\u2019 \u201d Renn 285.\nSee Markman v. Westview Instruments, Inc., 517 U. S. 370, 381 (1996) (\u201c[T]he state of patent law in the common-law courts before 1800 led one historian to observe that \u2018the reported cases are destitute of any decision of importance\u2019 \u201d (quoting Hulme, On the Consideration of the Patent Grant, Past and Present, 13 L. Q. Rev. 313, 318 (1897))); MacLeod 1, 61-62 (explaining the dearth of clear case law); see also Boulton v. Bull, 2 H. Bl. 463, 491, 126 Eng. Rep. 651, 665 (C. P. 1795) (Eyre, C. J.) (\u201cPatent rights are no where that I can find accurately discussed in our books\u201d).\nSee, e. g., A. DuBois, The English Business Company After the Bubble Act, 1720-1800, pp. 38-40, 435-438 (1938); Harris, The Bubble Act: Its Passage and Its Effects on Business Organization, 54 J. Econ. Hist. 610, 624-625 (1994).\nSee Pollack 97-100. For example, those who held patents on oil lamps developed firms that contracted to provide street lighting. See M. Falkus, Lighting in the Dark Ages of English Economic History: Town Streets Before the Industrial Revolutions, in Trade, Government and Economy in Pre-Industrial England 249, 255-257, 259-260 (D. Coleman & A. John eds. 1976).\nSee, e. g., G. Hammersley, The State and the English Iron Industry in the Sixteenth and Seventeenth Centuries, in id., at 166, 173, 175-178 (describing the advent of management techniques for efficiently running a major ironworks).\nSee, e. g., Carlos & Nicholas, Agency Problems in Early Chartered Companies: The Case of the Hudson\u2019s Bay Company, 50 J. Econ. Hist. 853, 853-875 (1990).\nNor, so far as I can tell, were business method patents common in the United States in the brief period between independence and the creation of our Constitution \u2014 despite the fact that it was a time of great business innovation, including new processes for engaging in risky trade and transport, one of which has been called \u201cthe quintessential business innovation of the 1780s.\u201d T. Doerflinger, A Vigorous Spirit of Enterprise: Merchants and Economic Development in Revolutionary Philadelphia 291 (1986) (describing new methods of conducting and financing trade with China).\nSee Seidel, The Constitution and a Standard of Patentability, 48 J. Pat. Off. Soc. 5, 10 (1966) (hereinafter Seidel); Walterscheid, To Promote the Progress of Science and Useful Arts: The Background and Origin of the Intellectual Property Clause of the United States Constitution, 2 J. Intell. Prop. L. 1, 26 (1994) (hereinafter Walterscheid, Background and Origin); Walterscheid, To Promote the Progress 59, and n. 12; Prager, A History of Intellectual Property From 1545 to 1787, 26 J. Pat. Off. Soc. 711, 746 (1944).\nWalterscheid, Background and Origin 26; 2 Records of the Federal Convention of 1787, pp. 509-510 (M. Farrand ed. 1966).\nJ. Madison, Notes of Debates in the Federal Convention of 1787, pp. 638-639 (Ohio Univ. Press ed. 1966).\nSee Walterscheid, Background and Origin 38, n. 124, 55-56 (collecting sources); see also The Objections of Hon. George Mason, One of the Delegates From Virginia, in the Late Continental Convention, to the Proposed Federal Constitution, Assigned as His Reasons for Not Signing the Same, 2 American Museum or Repository of Ancient and Modern Fugitive Pieces, etc. 534, 536 (1787); Ratification of the New Constitution by the Convention of the State of New York, 4 id., at 153, 156 (1789); Remarks on the Amendments to the Federal Constitution Proposed by The Conventions of Massachusetts, New Hampshire, New York, Virginia, South and North Carolina, With the Minorities of Pennsylvania and Maryland by the Rev. Nicholas Collin, D. D., 6 id., at 303.\nSome scholars suggest that Webster\u2019s \u201cclose proximity to the Constitutional Convention coupled with his familiarity with the delegates makes it likely that he played some indirect role in the development\u201d of the Constitution\u2019s Intellectual Property Clause- \u2014 a Clause that established not only the power to create patents but also copyrights, a subject in which Webster had great interest. Donner, Copyright Clause of the U. S. Constitution: Why Did the Framers Include It With Unanimous Approval? 36 Am. J. Legal Hist. 361, 372 (1992). But there is no direct evidence of this fact. See Walterscheid, Background and Origin 40-41.\nSee, e. g., 1 S. Johnson, Dictionary of the English Language (1773) (listing as definitions of an \u201cart\u201d: \u201c[t]he power of doing something not taught by nature and instinct,\u201d \u201c[a] science; as, the liberal arts,\u201d \u201c[a] trade,\u201d \u201c[a]rtfulness; skill; dexterity,\u201d \u201c[ejunning,\u201d and \u201c[s]peeulation\u201d). One might question the breadth of these definitions. This same dictionary offered as an example of \u201cdoing something not taught by nature and instinct,\u201d the art of \u201cdance\u201d; and as an example of a \u201ctrade,\u201d the art of \u201cmaking sugar.\u201d Ibid.\nFor examples of this usage, see Book of Trades or Library of Useful Arts (1807) (describing in a three-volume work 68 trades, each of which is the means of creating a product, such as feather worker or cork cutter); 1 J. Bigelow, The Useful Arts Considered in Connexion With the Applications of Science (1840) (surveying a history of what we would today call mechanics, technology, and engineering). See also D. Defoe, A General History of Discoveries and Improvements, in Useful Arts (1727); T. Coxe, An Address to an Assembly of the Friends of American Manufactures 17-18 (1787); G. Logan, A Letter to the Citizens of Pennsylvania, on the Necessity of Promoting Agriculture, Manufactures, and the Useful Arts 12-13 (2d ed. 1800); W. Kenrick, An Address to the Artists and Manufacturers of Great Britain 21-38 (1774); cf. Corning v. Burden, 15 How. 252, 267 (1854) (listing the \u201carts of tanning, dyeing, making water-proof cloth, vulcanizing India rubber, [and] smelting ores\u201d).\nSee, e. g., 1 D. Chisum, Patents Gl-23 (2010); Lutz, Patents and Science: A Clarification of the Patent Clause of the U. S. Constitution, 18 Geo. Wash. L. Rev. 50, 54 (1949-1950); Samuelson, Benson Revisited: The Case Against Patent Protection for Algorithms and Other Computer Program-Related Inventions, 39 Emory L. J. 1025, 1033, n. 24 (1990); Seidel 10,13; see also Great Atlantic & Pacific Tea Co. v. Supermarket Equipment Corp., 340 U. S. 147, 154 (1950) (Douglas, J., concurring) (explaining that in the Framers\u2019 view, an \u201cinvention, to justify a patent, had to serve the ends of science \u2014 to push back the frontiers of chemistry, physics, and the like; to make a distinctive contribution to scientific knowledge\u201d); In re Waldbaum, 457 F. 2d 997, 1003 (CCPA 1972) (Rich, J., concurring) (\u201c \u2018The phrase \u201ctechnological arts,\u201d as we have used it, is synonymous with the phrase \u201cuseful arts\u201d as it appears in Article I, Section 8 of the Constitution\u2019 \u201d); Paulik v. Rizkalla, 760 F. 2d 1270, 1276 (CA Fed. 1985) (explaining that \u201cuseful arts\u201d is \u201cthe process today called technological innovation\u201d); Thomas, The Post-Industrial Patent System, 10 Ford. Intell. Prop. Media & Ent. L. J. 3, 32-55 (1999) (cataloguing early understandings of technological arts). This view may be supported, for example, by an 1814 grant to Harvard University to create a \u201cProfessorship on the Application of Science to the Useful Arts,\u201d something that today might be akin to applied science or engineering. See M. James, Engineering an Environment for Change: Bigelow, Peirce, and Early Nineteenth-Century Practical Education at Harvard, in Science at Harvard University: Historical Perspectives 59 (C. Elliott & M. Rossiter eds. 1992).\nSee Walterscheid, To Promote the Progress 173-178; Pollack 107-108.\nThese doubts ended by the time of Cochrane v. Deener, 94 U. S. 780 (1877), in which we held that \u201ca process may be patentable, irrespective of the particular form of the instrumentalities used,\u201d and therefore one may patent \u201can act, or a series of acts, performed upon the subject-matter to be transformed and reduced to a different state or thing.\u201d Id., at 787-788.\nA skeptic of patents, Jefferson described this as \u201cdrawing a line between the things which are worth to the public the embarrassment of an exclusive patent, and those which are not.\u201d 13 Writings of Thomas Jefferson 335 (Memorial ed. 1904).\nSee, e. g., Expanded Metal Co. v. Bradford, 214 U. S. 366, 383, 385-386 (1909); The Telephone Cases, 126 U. S., at 533-537; Cochrane, 94 U. S., at 787-788; Burden, 15 How., at 267-268.\nSee also 1 A. Deller, Walker on Patents \u00a726, p. 152 (2d ed. 1964) (A \u201c \u2018system\u2019 or method of transacting business is not [a process], nor does it come within any other designation of patentable subject matter\u201d).\nAlthough a few patents issued before 1952 related to methods of doing business, see United States Patent and Trademark Office, Automated Financial or Management Data Processing Methods, online at http://www. uspto.gov/web/menu/busmethp/index.html (as visited June 26, 2010, and available in Clerk of Court\u2019s case file), these patents were rare, often issued through self-registration rather than any formalized patent examination, generally were not upheld by courts, and arguably are distinguishable from pure patents on business methods insofar as they often involved the manufacture of new objects. See In re Bilski, 545 F. 3d 943, 974, and n. 18 (CA Fed. 2008) (case below) (Dyk, J., concurring); Pollack 74-75; Walterscheid, To Promote the Progress 243.\nFor examples of such usage, see The Telephone Cases, 126 U. S., at 533, and Burden, 15 How., at 267.\nSee also 98 Cong. Rec. A415 (1952) (remarks of Rep. Bryson) (describing, after the fact, the 1952 Act, and explaining that \u201c[t]he word \u2018art\u2019 was changed to \u2018process\u2019 in order to clarify its meaning. No change in substance was intended\u201d).\nThe 1952 Act also retained the language \u201cinvents or discovers,\u201d which by that time had taken on a connotation that would tend to exclude business methods. See B. Evans & C. Evans, A Dictionary of Contemporary American Usage 137 (1957) (explaining that \u201cdiscover; invent\u201d means \u201cto make or create something new, especially, in modern usage, something ingeniously devised to perform mechanical operations\u201d).\nAs explained in Part II, supra, the Court engages in a Jekyll-and-Hyde form of interpretation with respect to the word \u201cprocess\u201d in \u00a7 101. It rejects the interpretation I proffer because the words \u201cprocess\u201d and \u201cmethod\u201d do not, on their face, distinguish between different series of acts. Ante, at 606-607. But it also rejects many sorts of processes without a textual basis for doing so. See ante, at 601-602, 604, 609-612. And while the Court rests a great deal of weight on Parker v. Flook, 437 U. S. 584 (1978), for its analysis of abstract ideas, the Court minimizes Flook\u2019s rejection of \u201ca purely literal reading of \u00a7 101,\u201d as well as Flook\u2019s reliance on the historical backdrop of \u00a7 101 and our understanding of what \u201cthe statute was enacted to protect,\u201d id., at 588-590, 593; see also Diamond v. Diehr, 450 U. S. 175, 192 (1981) (explaining that a \u201cclaim satisfies the requirements of \u00a7 101\u201d when it \u201cis performing a function which the patent laws were designed to protect\u201d).\nForty years later, Judge Rich authored the State Street opinion that some have understood to make business methods patentable. But State Street dealt with whether a piece of software could be patented and addressed only claims directed at machines, not processes. His opinion may therefore be better understood merely as holding that an otherwise patentable process is not unpatentable simply because it is directed toward the conduct of doing business \u2014 an issue the Court has no occasion to address today. See 149 F. 3d, at 1375.\nSee also 145 Cong. Ree. 30985 (1999) (remarks of Sen. Schumer) (explaining that \u201c[i]n State Street, the Court did away with the so-called \u2018business methods\u2019 exception to statutory patentable subject matter,\u201d and \u201c[t]he first inventor defense will provide ... important, needed protections in the face of the uncertainty presented by ... the State Street case\u201d); id., at 31007 (remarks of Sen. DeWine) (\u201cVirtually no one in the industry believed that these methods or processes were patentable\u201d); id., at 19281 (remarks of Rep. Manzullo) (\u201cBefore the State Street Bank and Trust case ... it was universally thought that methods of doing or conducting business were not patentable items\u201d).\nThe Court opines that \u201c[t]his principle, of course, applies to interpreting any two provisions in the U. S. Code, even when Congress enacted the provisions at different times.\u201d Ante, at 608 (emphasis added). The only support the Court offers for this proposition is a 1939 opinion for three Justices, in Hague v. Committee for Industrial Organization, 307 U. S. 496, 528-530 (opinion of Stone, J.). But that opinion is inapposite. Although Justice Stone stated that two provisions \u201cmust be read together,\u201d id., at 530, he did so to explain that an ambiguity in a later-in-time statute must be understood in light of the earlier-in-time framework against which the ambiguous statute was passed, id., at 528-530, particularly because the later statute explicitly stated that it \u201c \u2018shall not be construed to apply\u2019 \u201d to the provision created by an earlier Act, id., at 528.\nI am not trying to \u201covercome\u201d an \u201cestablished rule of statutory interpretation\u201d with \u201cjudicial speculation as to the subjective intent of various legislators,\u201d ante, at 608, but, rather, I am explaining why the Court has illogieally expanded the canon upon which it relies beyond that canon\u2019s logical underpinnings.\nSee also Quanta Computer, Inc. v. LG Electronics, Inc., 553 U. S. 617, 626 (2008) (\u201c \u2018[T]he primary purpose of our patent laws is not the creation of private fortunes for the owners of patents but is \u201cto promote the progress of science and useful arts\u201d \u2019 \u201d (quoting Motion Picture Patents Co. v. Universal Film Mfg. Co., 243 U. S. 502, 511 (1917))); Pfaffv. Wells Electronics, Inc., 525 U. S. 55, 63 (1998) (\u201c[T]he patent system represents a carefully crafted bargain that encourages both the creation and the public disclosure of new and useful advances in technology\u201d).\nSee generally W. Landes & R. Posner, The Economic Structure of Intellectual Property Law 13-15 (2003).\nSee, e. g., Burk & Lemley, Policy Levers in Patent Law, 89 Va. L. Rev. 1575, 1577-1589 (2003) (hereinafter Burk & Lemley).\nSee, e. g., id,., at 1618; Carrier, Unraveling the Patent-Antitrust Paradox, 150 U. Pa. L. Rev. 761, 826 (2002) (hereinafter Carrier); Dreyfuss, Are Business Method Patents Bad for Business? 16 Santa Clara Computer & High Tech. L. J. 263, 274-277 (2000) (hereinafter Dreyfuss); Posner, The Law and Economics of Intellectual Property, 131 Daedalus 5 (Spring 2002).\nC. Coolidge, The Press Under a Free Government, in Foundations of the Republic: Speeches and Addresses 187 (1926).\nSee also Pollack 75-76 (\u201cSince business methods are \u2018useful\u2019 when they directly earn revenue, they are inherently unlikely to be under-produced\u201d).\nSee R. Levin et ah, Appropriating the Returns From Industrial Research and Development, in 3 Brookings Papers on Economic Activity 794-795 (1987).\nSee Burk & Lemley 1618; Dreyfuss 275; see generally Carrier 821-823. Coneededly, there may be some methods of doing business that do not confer sufficient first-mover advantages. See Abramowicz & Duffy, Intellectual Property for Market Experimentation, 83 N. Y. U. L. Rev. 337, 340-342 (2008).\nSee Burk & Lemley 1618; Carrier 826; Olson, Taking the Utilitarian Basis for Patent Law Seriously: The Case for Restricting Patentable Subject Matter, 82 Temp. L. Rev. 181, 231 (2009).\nSee Dreyfuss 276; Merges & Nelson, On the Complex Economics of Patent Scope, 90 Colum. L. Rev. 839, 873-878 (1990).\nSee also Raskind, The State Street Bank Decision: The Bad Business of Unlimited Patent Protection for Methods of Doing Business, 10 Ford. Intell. Prop. Media & Ent. L. J. 61,102 (1999) (\u201cInteractive emulation more than innovation is the driving force of business method changes\u201d).\nThere is substantial academic debate, moreover, about whether the normal process of screening patents for novelty and obviousness can function effectively for business methods. The argument goes that because business methods are both vague and not confined to any one industry, there is not a well-confined body of prior art to consult, and therefore many \u201cbad\u201d patents are likely to issue,, a problem that would need to be sorted out in later litigation. See, e. g., Dreyfuss 268-270; Eisenberg, Analyze This: A Law and Economics Agenda for the Patent System, 53 Vand. L. Rev. 2081, 2090 (2000); Merges 589-590.\nSee also J. Bessen & M. Meurer, Patent Failure: How Judges, Bureaucrats, and Lawyers Put Innovators at Risk 46-72 (2008) (hereinafter Bessen & Meurer); P. Menell & S. Seotehmer, Intellectual Property Law, in 2 Handbook of Law and Economics 1500-1501, 1506 (M. Polinsky & S. Shavell eds. 2007). Concededly, alterations in the remedy structure, such as the First Inventor Defense Act of 1999, \u00a7 4301 et seq., 113 Stat. 1536, codified at 35 U. S. C. \u00a7 273, mitigate these costs.\nSee generally Farrell & Shapiro, How Strong Are Weak Patents? 98 Am. Econ. Rev. 1347 (2008); Meurer, Controlling Opportunistic and Anti-Competitive Intellectual Property Litigation, 44 Boston College L. Rev. 509 (2003); Moore, Populism and Patents, 82 N. Y. U. L. Rev. 69, 90-91 (2007).\nSee Bessen & Meurer 176; Lessig, The Death of Cyberspace, 57 Wash. & Lee L. Rev. 337, 346-347 (2000).\nCongress and the courts have worked long and hard to create and administer antitrust laws that ensure businesses cannot prevent each other from competing vigorously. If methods of conducting business were themselves patentable, then virtually any novel, nonobvious business method could be granted a federally protected monopoly. The tension this might create with our antitrust regime provides yet another reason for skepticism that Congress would have wanted the patent laws to extend to business methods.",
+        "type": "concurrence",
+        "author": "Justice Stevens,"
+      },
+      {
+        "text": "Justice Breyer,\nwith whom\nJustice Scalia joins as to Part II, concurring in the judgment.\nI\nI agree with Justice Stevens that a \u201cgeneral method of engaging in business transactions\u201d is not a patentable \u201cprocess\u201d within the meaning of 35 U. S. C. \u00a7 101. Ante, at 614 (opinion concurring in judgment). This Court has never before held that so-called \u201cbusiness methods\u201d are patentable, and, in my view, the text, history, and purposes of the Patent Act make clear that they are not. Ante, at 621-657 (same). I would therefore decide this case on that ground, and I join Justice Stevens\u2019 opinion in full.\nI write separately, however, in order to highlight the substantial agreement among many Members of the Court on many of the fundamental issues of patent law raised by this case. In light of the need for clarity and settled law in this highly technical area, I think it appropriate to do so.\nII\nIn addition to the Court\u2019s unanimous agreement that the claims at issue here are unpatentable abstract ideas, it is my view that the following four points are consistent with both the opinion of the Court and Justice Stevens\u2019 opinion concurring in the judgment:\nFirst, although the text of \u00a7 101 is broad, it is not without limit. See ante, at 601-602 (opinion of the Court); ante, at 622 (opinion of Stevens, J.). \u201c[T]he underlying policy of the patent system [is] that \u2018the things which are worth to the public the embarrassment of an exclusive patent,\u2019 . . . must outweigh the restrictive effect of the limited patent monopoly.\u201d Graham v. John Deere Co. of Kansas City, 383 U. S. 1, 10-11 (1966) (quoting Letter from Thomas Jefferson to Isaac McPherson (Aug. 13, 1813), in 6 Writings of Thomas Jefferson 181 (H. Washington ed.)). The Court has thus been careful in interpreting the Patent Act to \u201cdetermine not only what is protected, but also what, is free for all to use.\u201d Bonito Boats, Inc. v. Thunder Craft Boats, Inc., 489 U. S. 141, 151 (1989). In particular, the Court has long held that \u201c[phenomena of nature, though just discovered, mental processes, and abstract intellectual concepts are not patentable\u201d under \u00a7 101, since allowing individuals to patent these fundamental principles would \u201cwholly pre-empt\u201d the public\u2019s access to the \u201cbasic tools of scientific and technological work.\u201d Gottschalk v. Benson, 409 U. S. 63, 67, 72 (1972); see also, e. g., Diamond v. Diehr, 450 U. S. 175, 185 (1981); Diamond v. Chakrabarty, 447 U. S. 303, 309 (1980).\nSecond, in a series of cases that extend back over a century, the Court has stated that \u201c[transformation and reduction of an article to a different state or thing is the clue to the patentability of a process claim that does not include particular machines.\u201d Diehr, supra, at 184 (emphasis added; internal quotation marks omitted); see also, e. g., Benson, supra, at 70; Parker v. Flook, 437 U. S. 584, 588, n. 9 (1978); Cochrane v. Deener, 94 U. S. 780, 788 (1877). Application of this test, the so-called \u201cmachine-or-transformation test,\u201d has thus repeatedly helped the Court to determine what is \u201ca patentable \u2018process.\u2019\u201d Flook, supra, at 589.\nThird, while the machine-or-transformation test has always been a \u201cuseful and important clue,\u201d it has never been the \u201csole test\u201d for determining patentability. Ante, at 604; see also ante, at 614 (opinion of Stevens, J.); Benson, supra, at 71 (rejecting the argument that \u201cno process patent could ever qualify\u201d for protection under \u00a7 101 \u201cif it did not meet the [machine-or-transformation] requirements\u201d). Rather, the Court has emphasized that a process claim meets the requirements of \u00a7 101 when, \u201cconsidered as a whole,\u201d it \u201cis performing a function which the patent laws were designed to protect (e. g., transforming or reducing an article to a different state or thing).\u201d Diehr, supra, at 192. The machine- or-transformation test is thus an important example of how a court can determine patentability under \u00a7 101, but the Federal Circuit erred in this case by treating it as the exclusive test.\nFourth, although the machine-or-transformation test is not the only test for patentability, this by no means indicates that anything which produces a \u201c \u2018useful, concrete and tangible result,\u2019 \u201d State Street Bank & Trust Co. v. Signature Financial Group, Inc., 149 F. 3d 1368, 1373 (CA Fed. 1998), is patentable. \u201c[T]his Court has never made such a statement and, if taken literally, the statement would cover instances where this Court has held the contrary.\u201d Laboratory Corp. of America Holdings v. Metabolite Laboratories, Inc., 548 U. S. 124, 136 (2006) (Breyer, J., dissenting from dismissal of certiorari as improvidently granted); see also, e. g., O\u2019Reilly v. Morse, 15 How. 62, 117 (1854); Flook, supra, at 590. Indeed, the introduction of the \u201cuseful, concrete and tangible result\u201d approach to patentability, associated with the Federal Circuit\u2019s State Street decision, preceded the granting of patents that \u201cranged from the somewhat ridiculous to the truly absurd.\u201d In re Bilski, 545 F. 3d 943, 1004 (CA Fed. 2008) (Mayer, J., dissenting) (citing patents on, inter alia, a \u201cmethod of training janitors to dust and vacuum using video displays,\u201d a \u201csystem for toilet reservations,\u201d and a \u201cmethod of using color-coded bracelets to designate dating status in order to limit \u2018the embarrassment of rejection\u2019\u201d); see also Brief for Respondent 40-41, and n. 20 (listing dubious patents). To the extent that the Federal Circuit\u2019s decision in this case rejected that approach, nothing in today\u2019s decision should be taken as disapproving of that determination. See ante, at 612; ante, at 614, n. 1 (opinion of Stevens, J.).\nIn sum, it is my view that, in reemphasizing that the \u201cmachine-or-transformation\u201d test is not necessarily the sole test of patentability, the Court intends neither to deemphasize the test\u2019s usefulness nor to suggest that many patentable processes lie beyond its reach.\nIll\nWith these observations, I concur in the Court\u2019s judgment.",
+        "type": "concurrence",
+        "author": "Justice Breyer,"
+      }
+    ],
+    "attorneys": [
+      "J Michael Jakes argued the cause for petitioners. With him on the briefs were Erika H. Arner, Ronald E. Myrick, and Denise W. DeFranco.",
+      "Deputy Solicitor General Stewart argued the cause for respondent. With him on the brief were Solicitor General Kagan, Assistant Attorney General West, Ginger D. Anders, Scott R. McIntosh, Cameron F. Kerry, Raymond T. Chen, Thomas W. Krause, and Scott C. Weidenfeller."
+    ],
+    "corrections": "",
+    "head_matter": "BILSKI et al. v. KAPPOS, UNDER SECRETARY OF COMMERCE FOR INTELLECTUAL PROPERTY AND DIRECTOR, PATENT AND TRADEMARK OFFICE\nNo. 08-964.\nArgued November 9, 2009\nDecided June 28, 2010\nKennedy, J., delivered the opinion of the Court, except for Parts II-B-2 and II-C-2. Roberts, C. J., and Thomas and Alito, JJ., joined the opinion in full, and Scalia, J., joined except for Parts II-B-2 and II-C-2. Stevens, J., filed an opinion concurring in the judgment, in which Ginsburg, Breyer, and Sotomayor, JJ., joined, post, p. 613. Breyer, J., filed an opinion concurring in the judgment, in which Scalia, J., joined as to Part II, post, p. 657.\nJ Michael Jakes argued the cause for petitioners. With him on the briefs were Erika H. Arner, Ronald E. Myrick, and Denise W. DeFranco.\nDeputy Solicitor General Stewart argued the cause for respondent. With him on the brief were Solicitor General Kagan, Assistant Attorney General West, Ginger D. Anders, Scott R. McIntosh, Cameron F. Kerry, Raymond T. Chen, Thomas W. Krause, and Scott C. Weidenfeller.\nBriefs of amici curiae urging reversal were filed for the American Intellectual Property Law Association by William K. West, Jr.; for the Association Internationale Pour la Protection de la Propri\u00e9t\u00e9 Intellectuelle et al. by R. Mark Halligan; for AwakenIP, LLC, by Joel H. Thornton and Jeffrey R. Kuester; for Borland Software Corp. by Scott S. Kokka; for the Boston Patent Law Association by Joel R. Leeman, Steven J. Henry, and Han N. Barzilay; for Caris Diagnostics, Inc., by Gideon A. Schor; for the Eagle Forum Education and Legal Defense Fund by Andrew L. Schlafly; for Entrepreneurial Software Companies by Robert Greene Sterne, Michael D. Sp\u00e9cht, and Michelle K. Holoubek; for the F\u00e9d\u00e9ration Internationale des Conseils en Propri\u00e9t\u00e9 Industrielle by Maxim H. Waldbaum; for the Franklin Pierce Law Center by Ann M. McCrackin and Thomas G. Field, Jr.; for the Georgia Biomedical Partnership, Inc., by William H. Kitchens; for the Intellectual Property Section of the Nevada State Bar by Robert C. Ryan, Charles Dominick Lombino, and Bryce K. Earl; for Regulatory Datacorp, Inc., et al. by John F. Duffy, John A. Squires, Walter G. Hanchuk, and Charles M. Fish; for the University of South Florida by Jeff Lloyd; and for Raymond C. Meiers by Gregg W. Emch.\nBriefs of amici curiae urging affirmance were filed for the American Bar Association by Carolyn B. Lamm and Thomas C. Goldstein; for Bank of America Corp. et al. by Seth P. Waxman, Randolph D. Moss, Catherine M. A. Carroll, and William F. Lee; for Bloomberg L. P. by Kelsey I. Nix; for the Business Software Alliance by Andrew J. Pincus and Dan Himmelfarb; for the Center for Advanced Study and Research in Intellectual Property of the University of Washington School of Law et al. by Richard H. Stern; for the Computer & Communications Industry Association by Glenn B. Manishin; for Eleven Law Professors et al. by Joshua D. Sarnoff, pro se, and Barbara A. Jones; for Entrepreneurial and Consumer Advocates by Jason M. Schultz and Pamela Samuelson; for the Free Software Foundation by Jerry Cohen; for Internet Retailers by Peter J. Brann; for Microsoft Corp. et al. by Mark A. Perry, Matthew D. McGill, Horacio E. Guti\u00e9rrez, T. Andrew Culbert, Jack E. Haken, Kevin C. Ecker, and Todd A. Holmbo; for Red Hat, Inc., by Robert H. Tiller; for the Software Freedom Law Center by Eben Moglen; for the Software & Information Industry Association by Scott E. Bain; for the William Mitchell College of Law, Intellectual Property Institute, by R. Carl Moy; for Lee A. Hollaar et al. by David M. Bennion; for Mark Landesmann by Mr. Landesmann, pro se; and for Timothy F. McDonough by William M. Lamoreaux.\nBriefs of amici curiae were filed for Accenture et al. by Meredith Martin Addy, Charles M. McMahon, and Steven J. Shapiro; for Adamas Pharmaceuticals, Inc., et al. by Karen I. Boyd; for the American Insurance Association et al. by James R. Myers and Jesse J. Jenner; for the American Medical Association et al. by Katherine J. Strandburg, Jonathan E. Singer, and John A. Dragseth; for the Austin Intellectual Property Law Association by Jennifer C. Kuhn; for the Biotechnology Industry Organization et al. by E. Anthony Figg, Nancy J. Linde, Minaksi Bhatt, Martha Cassidy, Howard W. Bremer, and P. Martin Simpson, Jr.; for the Conejo Valley Bar Association by Steven C. Sereboff, M. Kola Sarvaiya, Mark A. Goldstein, and Michael D. Harris; for Dolby Laboratories, Inc., et al. by John L. Cooper, Nan E. Joesten, and Deepak Gupta; for Double Rock Corp. et al. by Charles R. Macedo, Anthony F. Lo Cicero, and Norajean McCaf frey; for the Federal Circuit Bar Association by James F. McKeown; for the Foundation for a Free Information Infrastructure et al. by Mlonn E. Levy; for the Houston Intellectual Property Law Association by Howard L. Speight; for the Intellectual Property Law Association of Chicago by Edward D. Manzo, Patrick G. Burns, Donald W. Rupert, and John R. Crossan; for the Intellectual Property Owners Association by George L. Graff, Eric E. Bensen, and Steven W. Miller; for International Business Machines Corp. by Catherine E. Stetson, Jessica L. Ellsworth, and Kenneth R. Corsello; for Knowledge Ecology International by Michael H. Davis; for Legal OnRamp by Catriona M. Collins; for Medtronic, Inc., by Lawrence M. Sung and Jeff E. Schwartz; for Monogram Biosciences, Inc., et al. by Narinder S. Banait, Tyler Baker, Daniel R. Brownstone, Stuart P. Meyer, and Robert R. Sachs; for Novartis Corp. by Jeffrey A. Lam-ken; for the Pharmaceutical Research and Manufacturers of America by Harry J. Roper, Paul M. Smith, and Marc A. Goldman; for Prometheus Laboratories Inc. by Richard P. Bress, J. Scott Ballenger, and Alexander Maltas; for the San Diego Intellectual Property Law Association by Robert C. Laurenson and Douglas E. Olson; for Telecommunication Systems, Inc., by Robert P. Greenspoon and William W. Flachsbart; for TELES AG by Thomas S. Biemer and Philip J. Foret; for Time Systems, Inc., by Stuart P. Meyer and Tyler A. Baker; for the Washington State Patent Law Association by Peter J. Knudsen and Michael J. Swope; for Yahoo! Inc. by Christopher J. Wright and Timothy J. Simeone; for Dr. Ananda Chakrabarty by F. Scott Kieff and Richard A. Epstein; for Kevin Emerson Collins by Mr. Collins, pro se; for Peter S. Menell et al. by Mr. Menell, pro se; for Gary W. Odom et al. by Jonathan E. Mansfield; for Robert R. Sachs et al. by Mr. Sachs and Daniel R. Brownstone, both pro se; for John P. Sutton by Mr. Sutton, pro se; and for 20 Law and Business Professors by Mark A. Lemley, Ted M. Sichelman, and Michael V. Risch, all pro se."
+  },
+  "file_name": "0593-01",
+  "first_page_order": 643,
+  "last_page_order": 710
+}

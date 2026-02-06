@@ -1,0 +1,59 @@
+{
+  "id": 5976817,
+  "name": "Chavez v. United States",
+  "name_abbreviation": "Chavez v. United States",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8216",
+  "first_page": "1239",
+  "last_page": "1239",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1239"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.566,
+    "sha256": "ed86d1bf3edb14cc78a942d20db354dc6dabe5204b6c6de0a963a0ade148ce19",
+    "simhash": "1:811be28b2fbf305c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Chavez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8216.\nChavez v. United States."
+  },
+  "file_name": "1239-07",
+  "first_page_order": 1261,
+  "last_page_order": 1261
+}

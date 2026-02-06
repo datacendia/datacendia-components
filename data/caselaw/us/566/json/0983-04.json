@@ -1,0 +1,82 @@
+{
+  "id": 12214732,
+  "name": "Flores v. Holder, Attorney General, et al.",
+  "name_abbreviation": "Flores v. Holder",
+  "decision_date": "2012-05-14",
+  "docket_number": "No. 11-9316",
+  "first_page": "983",
+  "last_page": "984",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 983"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "506 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11924825
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/506/0001-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 74,
+    "char_count": 552,
+    "ocr_confidence": 0.531,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.24764744971618036
+    },
+    "sha256": "095c79ec1f25c38ace7290d71dbaca8ec9db29e81ffec5bff3307d624ac3f740",
+    "simhash": "1:6522348c4524d66d",
+    "word_count": 93
+  },
+  "last_updated": "2024-02-27T23:45:15.365324+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Flores v. Holder, Attorney General, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. D. C. Cir. Motion of petitioner for leave to proceed in forma pauperis denied, and certiorari dismissed. See this Court\u2019s Rule 39.8. As petitioner has repeatedly abused this Court\u2019s process, the Clerk is directed not to accept any further petitions in noncriminal matters from petitioner unless the docketing fee required by Rule 38(a) is paid and the petition is submitted in compliance with Rule 33.1. See Martin v. District of Columbia Court of Appeals, 506 U. S. 1 (1992) (per curiam).",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9316.\nFlores v. Holder, Attorney General, et al."
+  },
+  "file_name": "0983-04",
+  "first_page_order": 859,
+  "last_page_order": 860
+}

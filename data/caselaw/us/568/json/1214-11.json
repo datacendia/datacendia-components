@@ -1,0 +1,59 @@
+{
+  "id": 12432571,
+  "name": "Williams v. United States",
+  "name_abbreviation": "Williams v. United States",
+  "decision_date": "2013-03-04",
+  "docket_number": "No. 12-7504",
+  "first_page": "1214",
+  "last_page": "1214",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1214"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.558,
+    "sha256": "e99f9eb937dad32805bfb055b8e6afd762271c8f6b55627bbeb3e25479ec9fd2",
+    "simhash": "1:a51be6230ebd126d",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Williams v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7504.\nWilliams v. United States."
+  },
+  "file_name": "1214-11",
+  "first_page_order": 1290,
+  "last_page_order": 1290
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12432469,
+  "name": "Lebowitz v. United States",
+  "name_abbreviation": "Lebowitz v. United States",
+  "decision_date": "2013-03-04",
+  "docket_number": "No. 12-429",
+  "first_page": "1212",
+  "last_page": "1212",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1212"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.656,
+    "sha256": "d02f78459298e7764670d65df21bd3195e5750b7fcbbe25fe3c982e6b345ba89",
+    "simhash": "1:adaacaa343c9904a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lebowitz v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-429.\nLebowitz v. United States."
+  },
+  "file_name": "1212-03",
+  "first_page_order": 1288,
+  "last_page_order": 1288
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5995848,
+  "name": "Epps v. United States",
+  "name_abbreviation": "Epps v. United States",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8284",
+  "first_page": "1241",
+  "last_page": "1241",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1241"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.612,
+    "sha256": "7b05a149076211ec78f3142fdc1218ba039caa68940c758ca4cf6c18df2dc05b",
+    "simhash": "1:972b8a23478fb41e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Epps v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8284.\nEpps v. United States."
+  },
+  "file_name": "1241-04",
+  "first_page_order": 1263,
+  "last_page_order": 1263
+}

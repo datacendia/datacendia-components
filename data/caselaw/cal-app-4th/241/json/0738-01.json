@@ -1,0 +1,249 @@
+{
+  "id": 4137164,
+  "name": "In re STEVEN G. WILLIAMS on Habeas Corpus",
+  "name_abbreviation": "In re Williams",
+  "decision_date": "2015-10-07",
+  "docket_number": "No. D066887",
+  "first_page": "738",
+  "last_page": "745",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "241 Cal. App. 4th 738"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "427 U.S. 215",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6175486
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "225"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/427/0215-01"
+      ]
+    },
+    {
+      "cite": "855 F.2d 639",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10531218
+      ],
+      "pin_cites": [
+        {
+          "page": "640"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/855/0639-01"
+      ]
+    },
+    {
+      "cite": "334 F.3d 850",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1530144
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "860"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/334/0850-01"
+      ]
+    },
+    {
+      "cite": "545 U.S. 209",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8209063
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "223"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/545/0209-01"
+      ]
+    },
+    {
+      "cite": "515 U.S. 472",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1563880
+      ],
+      "weight": 4,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/515/0472-01"
+      ]
+    },
+    {
+      "cite": "83 Cal.Rptr.3d 479",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "165 Cal.App.4th 1445",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6051056
+      ],
+      "pin_cites": [
+        {
+          "page": "1461"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/165/1445-01"
+      ]
+    },
+    {
+      "cite": "124 Cal.Rptr. 616",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 2008,
+      "opinion_index": 0
+    },
+    {
+      "cite": "51 Cal.App.3d 919",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4455432
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "920, fn. 1"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/51/0919-01"
+      ]
+    },
+    {
+      "cite": "44 Cal.2d 1",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4373212
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "5-6"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/44/0001-01"
+      ]
+    },
+    {
+      "cite": "855 P.2d 391",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 Cal.Rptr.2d 373",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "5 Cal.4th 813",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1998553
+      ],
+      "pin_cites": [
+        {
+          "page": "824-825"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/5/0813-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 635,
+    "char_count": 13542,
+    "ocr_confidence": 0.874,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.13377555988785447
+    },
+    "sha256": "e712791250bf8af06f4e56af9ceb43ccb608130927aeb63b67ef8f04cb9cf3b4",
+    "simhash": "1:0c67433232ba0412",
+    "word_count": 2049
+  },
+  "last_updated": "2024-02-27T23:24:54.318392+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "McDonald, J., and McIntyre, J., concurred."
+    ],
+    "parties": [
+      "In re STEVEN G. WILLIAMS on Habeas Corpus."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nNARES, Acting P. J.\nSteven G. Williams, an inmate at the Richard J. Donovan Correctional Facility (Donovan) in San Diego, has filed a petition for writ of habeas corpus. Williams alleges the appeals coordinators at Donovan abused their discretion and violated his due process rights and his rights under California\u2019s Department of Corrections and Rehabilitation (CDCR) regulations by improperly canceling his inmate appeal in which he requested that prison officials \u201caccept liability\u201d for various items of his personal property he claims were lost or damaged when he was transferred to Donovan from the California Medical Facility (CMF). We conclude Williams has failed to demonstrate he has a protected liberty interest in the prison\u2019s administrative lost-property appeal process, and he has failed to satisfy the habeas corpus jurisdictional requirements under California law. Accordingly, we deny his petition.\nFACTUAL AND PROCEDURAL BACKGROUND\nA. Cancellation of Williams\u2019s Lost-property Appeal\nOn April 10, 2014, Williams transferred to Donovan from the CMF. One week later, prison staff provided Williams with his personal property. One of the items, a television, was confiscated as contraband.\nWilliams filed an inmate appeal (lost-property appeal) \u2014 assigned log No. RJD-A-14-1831 for tracking purposes \u2014 alleging that following the transfer of his personal property from the CMF to Donovan, he found some of the property was damaged or missing. He requested that CDCR \u201caccept liability\u201d for his loss.\nThe Donovan appeals coordinators rejected Williams\u2019s lost-property appeal, asserting he had failed to follow CDCR\u2019s regulations. Specifically, the appeals coordinators \u2014 citing California Code of Regulations, title 15, sections 3084.3 and 3084.6, subdivision (b)(7) and (12) \u2014 found that Williams (1) failed to include the original inmate-request form (CDCR form 22 (the inmate-request form)) and the property inventory form (CDCR form 1083) after the prison gave him his property on April 17; (2) improperly attached dividers and tabs to the appeal; and (3) needed to remove extraneous paper.\nWilliams resubmitted his rejected lost-property appeal and separately submitted an inmate-request form with a copy of his appeal explaining why he could not include the original inmate-request form and the property-inventory form regarding his allegedly lost or damaged property. The appeals coordinators rejected the appeal on the same grounds.\nWilliams resubmitted his rejected lost-property appeal a second time. The appeal coordinators found he needed to attach the property-inventory form with his original signature, and he needed to remove the \u201cducat, list of property\u201d and the dividers and tabs attached to his appeal. The appeals coordinators did not reference the inmate-request form. They also notified Williams that his repeated failure to follow instructions could lead to the cancellation of his appeal.\nWilliams resubmitted his rejected lost-property appeal a third time. The appeals coordinators canceled the appeal based on Williams\u2019s repeated failure to comply with CDCR\u2019s regulations and the appeals coordinators\u2019 instructions, including Williams\u2019s failure to remove the property list and his failure to attach the property-inventory form and any inmate-request forms. The appeals coordinators advised Williams he could file an appeal challenging the cancellation of his lost-property appeal, which he did.\nIn this second appeal (cancellation appeal) \u2014 assigned log. No. RJD-A-14-2426 \u2014 -Williams alleged his lost-property appeal was improperly canceled because the appeals coordinators should have transferred the lost-property appeal to the CMF, and because he had informed the appeals coordinators why he could not provide the original inmate-request form to his lost-property appeal. In support of his cancellation appeal, Williams attached inmate request forms, dated June 1 and June 8, which indicated he told the appeals coordinators he could not provide the original inmate-request form or the property-inventory form to his lost-property appeal.\nThe appeals coordinators rejected, and then canceled, Williams\u2019s cancellation appeal on the ground he repeatedly failed to comply with CDCR\u2019s regulations and the appeal coordinators\u2019 instructions.\nB. Williams\u2019s Petition for Writ of Habeas Corpus\n1. Petition, informal response, order to show cause, and appointment of counsel\nAfter Williams filed a petition for writ of habeas corpus in the superior court, which was denied, he filed, in propria persona, a petition for writ of habeas corpus in this court seeking to compel respondent to \u201cprocess [his lost-property appeal] by forwarding the appeal to CMF-Appeals Office in accordance with [section 3084.9[, subdivision] (f)(2).\u201d Williams alleges the appeals coordinators at Donovan violated his due process rights and his rights under CDCR regulations by improperly canceling his lost-property appeal.\nAfter the Attorney General filed an informal response on respondent\u2019s behalf, this court issued an order to show cause why the relief requested by Williams should not be granted. This court appointed counsel for Williams and directed Williams to file a supplemental petition.\n2. Williams\u2019s supplemental petition\nIn his supplemental petition, Williams seeks an order \u201cdirecting] [CDCR] to entertain [his lost-property] appeal on the merits\u201d and to \u201cprovide [him] with the needed form 1083 [(property-inventory form)] of April 17, 2014, when his property was received at [Donovan].\u201d Williams argues (1) his petition for writ of habeas corpus is \u201cthe proper vehicle for [him] to obtain review of his grievances,\u201d (2) he \u201chas effectively exhausted his administrative remedies as the actions of the [CDCR] in canceling his appeal have effectively placed him in a position where he no longer has a remedy,\u201d and (3) the appeals coordinators\u2019 decision to \u201ccancel [his lost-property] appeal based upon failure to provide a form that was simply unavailable to [him] constitutes an abuse of discretion.\u201d\n3. Attorney General\u2019s return\nIn the return the Attorney General argues Williams \u201cdoes not have a protected liberty interest in how his inmate appeals are processed,\u201d and thus his petition \u201cfails to establish that prison officials infringed on a liberty interest protected under the due process clause.\u201d The Attorney General further asserts Williams\u2019s petition is \u201calso- barred because he failed to exhaust his administrative remedies,\u201d and \u201ceven if a due process right exists, the appeals coordinators properly exercised their discretion to cancel Williams\u2019s appeal because he failed to comply with the [CDCR] regulations.\u201d\n4. Williams\u2019s traverse\nIn his traverse Williams contends that \u201chabeas corpus is the proper vehicle by which to obtain review of his claims\u201d because he \u201cis in custodyf,] which meets the fundamental prerequisite for habeas corpus jurisdiction.\u201d He also contends he \u201chas exhausted his administrative remedies as the actions of the [CDCR] in cancelling his appeal do not comply with the rules and effectively placed [him] in a position where he has no remedy.\u201d Williams further contends that, \u201c[g]iven the totality of the circumstances, the appeal[s] coordinator [s\u2019] decision to cancel [his] final property appeal was an abuse of discretion.\u201d\nDISCUSSION\nWilliams contends he is entitled to habeas corpus relief because the appeals coordinators at Donovan violated his due process rights and his rights under CDCR regulations by improperly canceling his lost-property appeal in which he requested that prison officials \u201caccept liability\u201d for various items of his personal property he claims were lost or damaged when he was transferred to Donovan from the CMF. The Attorney General argues that \u201c[prisoners do not have a protected liberty interest in the prison\u2019s administrative appeals process either under the federal due process clause or through a state-created liberty interest.\u201d In response, Williams asserts \u201c[h]abeas corpus is the proper vehicle [for him] to obtain review of his claims\u201d because (1) he \u201cis in custody[,] which meets the fundamental prerequisite for habeas corpus jurisdiction,\u201d and (2) \u201c[p]rison conditions and administrative decisions arising after judgment are appropriate for consideration pursuant to a petition for writ of habeas corpus.\u201d\nWilliams\u2019s contention and assertions are unavailing. \u201cThe right to file a petition for a writ of habeas corpus is guaranteed by the state Constitution (Cal. Const., art. I, \u00a7 11), and regulated by statute ([Pen. Code,] \u00a7 1473 et seq.).\u201d (In re Harris (1993) 5 Cal.4th 813, 824-825 [21 Cal.Rptr.2d 373, 855 P.2d 391].) \u201cThe function of the writ of habeas corpus is solely to effect \u2018discharge\u2019 from unlawful restraint, though the illegality in respect to which the discharge from restraint is sought may not go to the fact of continued detention but may be simply as to the circumstances under which the prisoner is held . . . .\u201d (In re Chessman (1955) 44 Cal.2d 1, 5-6 [279 P.2d 24], italics added.) Thus, for example, habeas corpus jurisdiction has been expanded to encompass challenges to illegal conditions of confinement such as \u201calleged mistreatment or illegal treatment of prisoners inside penal institutions.\u201d (Frias v. Superior Court (1975) 51 Cal.App.3d 919, 920, fn. 1 [124 Cal.Rptr. 616]; see In re Estevez (2008) 165 Cal.App.4th 1445, 1461 [83 Cal.Rptr.3d 479] [\u201calleged violations of the Eighth Amendment arising from inadequate medical care may be brought to courts\u2019 attention in California by means of a petition for writ of habeas corpus\u201d].)\nIn Sandin v. Conner (1995) 515 U.S. 472 [132 L.Ed.2d 418, 115 S.Ct. 2293] (Sandin), the United States Supreme Court held that an alleged deprivation occasioned by prison conditions or a prison regulation does not reach protected liberty interest status requiring procedural due process protection unless it imposes an \u201catypical and significant hardship on the inmate in relation to the ordinary incidents of prison life.\u201d (Id. at p. 484; see Wilkinson v. Austin (2005) 545 U.S. 209, 223 [162 L.Ed.2d 174, 125 S.Ct. 2384] [\u201cAfter Sandin, it is clear that the touchstone of the inquiry into the existence of a protected, state-created liberty interest in avoiding restrictive conditions of confinement is not the language of regulations regarding those conditions but the nature of those conditions themselves \u2018in relation to the ordinary incidents of prison life.\u2019 \u201d].)\nHere, Williams acknowledges his habeas corpus petition challenges a condition of his prison confinement. As noted, he specifically challenges the manner in which the Donovan appeals coordinators processed his lost-property appeal. However, he has failed to meet his burden of showing the manner in which the appeals coordinators exercised their discretion in processing his lost-property appeal \u201cpresents] the type of atypical, significant deprivation in which a State might conceivably create a liberty interest\u201d (Sandin, supra, 515 U.S. at p. 486). A prison inmate\u2019s \u201cclaimed loss of a liberty interest in the processing of his [administrative] appeals does not satisfy this standard, because inmates lack a separate constitutional entitlement to a specific prison grievance procedure.\u201d (Ramirez v. Galaza (9th Cir. 2003) 334 F.3d 850, 860; accord, Mann v. Adams (9th Cir. 1988) 855 F.2d 639, 640.)\n\u201c[T]o hold as we are urged to do that any substantial deprivation imposed by prison authorities triggers the procedural protections of the Due Process Clause would subject to judicial review a wide spectrum of discretionary actions that traditionally have been the business of prison administrators . . . .\u201d (Meachum v. Fano (1976) 427 U.S. 215, 225 [49 L.Ed.2d 451, 96 S.Ct. 2532].)\nBecause Williams\u2019s challenge to the manner in which the appeals coordinators processed his lost-property appeal does not implicate any liberty interest protected by the due process clause, we conclude his petition for writ of habeas corpus does not meet the habeas corpus jurisdictional requirements of California law. Accordingly, his petition must be denied.\nDISPOSITION\nThe petition for writ of habeas corpus is denied.\nMcDonald, J., and McIntyre, J., concurred.\nPetitioner\u2019s petition for review by the Supreme Court was denied January 27, 2016, S230831.\nThe following facts, which are primarily taken from the Attorney General\u2019s return to Williams\u2019s petition and are supported by the exhibits attached to the petition and the return, are undisputed. Williams states in his traverse that he \u201cagrees with respondent\u2019s factual background of proceedings set forth at pages 3-6 of [the] return.\u201d\nAll further dates are to calendar year 2014.\nAll further regulatory references are to the California Code of Regulations, title 15.\nWe need not, and do not, further discuss the habeas corpus proceeding Williams commenced in the superior court because he has commenced an original habeas corpus proceeding in this court by filing the pending petition.\nWilliams identifies respondent as \u201cDaniel Paramo, Warden of [Donovan].\u201d\nIn light of our conclusion, we need not, and do not, address Williams\u2019s remaining contentions on appeal.",
+        "type": "majority",
+        "author": "NARES, Acting P. J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Patrick J. Hennessey, Jr., under appointment by the Court of Appeal, for Petitioner Steven G. Williams.",
+      "Kamala D. Harris, Attorney General, Jennifer A. Neill, Assistant Attorney General, Phillip J. Lindsay and Amanda J. Murray, Deputy Attorneys General, for Respondent the People."
+    ],
+    "corrections": "",
+    "head_matter": "[No. D066887.\nFourth Dist., Div. One.\nOct. 7, 2015.]\nIn re STEVEN G. WILLIAMS on Habeas Corpus.\nCounsel\nPatrick J. Hennessey, Jr., under appointment by the Court of Appeal, for Petitioner Steven G. Williams.\nKamala D. Harris, Attorney General, Jennifer A. Neill, Assistant Attorney General, Phillip J. Lindsay and Amanda J. Murray, Deputy Attorneys General, for Respondent the People."
+  },
+  "file_name": "0738-01",
+  "first_page_order": 604,
+  "last_page_order": 611
+}

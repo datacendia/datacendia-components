@@ -1,0 +1,59 @@
+{
+  "id": 12247247,
+  "name": "Garber v. Superior Court of California, Los Angeles County, et al.",
+  "name_abbreviation": "Garber v. Superior Court of California",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-7892",
+  "first_page": "1213",
+  "last_page": "1213",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1213"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 19,
+    "char_count": 114,
+    "ocr_confidence": 0.622,
+    "sha256": "d315f766643dc7f8462fecd3f2ab314f730b474f86b028b1aed1079ffa6d45ae",
+    "simhash": "1:1873a4a25d258146",
+    "word_count": 19
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Garber v. Superior Court of California, Los Angeles County, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7892.\nGarber v. Superior Court of California, Los Angeles County, et al."
+  },
+  "file_name": "1213-06",
+  "first_page_order": 1295,
+  "last_page_order": 1295
+}

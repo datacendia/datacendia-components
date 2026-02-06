@@ -1,0 +1,59 @@
+{
+  "id": 5925125,
+  "name": "Bigelow v. Florida Parole Commission et al.",
+  "name_abbreviation": "Bigelow v. Florida Parole Commission",
+  "decision_date": "2011-03-28",
+  "docket_number": "No. 10-9064",
+  "first_page": "910",
+  "last_page": "910",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 910"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 107,
+    "ocr_confidence": 0.608,
+    "sha256": "dfe3c64f556e8b39096f64854b11d88c02afa9b3e22eae5de01b8e7fed39e6ef",
+    "simhash": "1:501931d049ce28a3",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bigelow v. Florida Parole Commission et al."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 1st Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9064.\nBigelow v. Florida Parole Commission et al."
+  },
+  "file_name": "0910-12",
+  "first_page_order": 936,
+  "last_page_order": 936
+}

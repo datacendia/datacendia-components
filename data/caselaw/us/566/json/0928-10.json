@@ -1,0 +1,59 @@
+{
+  "id": 12202210,
+  "name": "Fruge v. United States",
+  "name_abbreviation": "Fruge v. United States",
+  "decision_date": "2012-04-02",
+  "docket_number": "No. 11-9053",
+  "first_page": "928",
+  "last_page": "928",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 928"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.599,
+    "sha256": "ece1b0e1ecb5a690fdf856241551147821465432d5bb71041feb3be14bab4503",
+    "simhash": "1:06a8de125c2cdc68",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Fruge v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9053.\nFruge v. United States."
+  },
+  "file_name": "0928-10",
+  "first_page_order": 804,
+  "last_page_order": 804
+}

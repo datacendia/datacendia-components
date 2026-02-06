@@ -1,0 +1,59 @@
+{
+  "id": 12415301,
+  "name": "Dillon v. United States",
+  "name_abbreviation": "Dillon v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5123",
+  "first_page": "896",
+  "last_page": "896",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 896"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.577,
+    "sha256": "f1c323c98c8df8fb0cf1233fcbf500f8cec12cc12416c8e4cc3aebd36339a1f1",
+    "simhash": "1:8128db8a81818e10",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dillon v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5123.\nDillon v. United States."
+  },
+  "file_name": "0896-05",
+  "first_page_order": 972,
+  "last_page_order": 972
+}

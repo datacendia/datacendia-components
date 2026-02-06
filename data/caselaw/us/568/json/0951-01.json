@@ -1,0 +1,59 @@
+{
+  "id": 12418506,
+  "name": "Johnson v. New York",
+  "name_abbreviation": "Johnson v. New York",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 12-5780",
+  "first_page": "951",
+  "last_page": "951",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 951"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 95,
+    "ocr_confidence": 0.71,
+    "sha256": "015e958a7d5367fc8c3f52e5f31aa7a0515032a967f030e374a7c68eb411490e",
+    "simhash": "1:6480684421055933",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Johnson v. New York."
+    ],
+    "opinions": [
+      {
+        "text": "App. Div., Sup. Ct. N. Y., 1st Jud. Dept. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5780.\nJohnson v. New York."
+  },
+  "file_name": "0951-01",
+  "first_page_order": 1027,
+  "last_page_order": 1027
+}

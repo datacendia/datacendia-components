@@ -1,0 +1,59 @@
+{
+  "id": 5945571,
+  "name": "Harford v. United States",
+  "name_abbreviation": "Harford v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11272",
+  "first_page": "871",
+  "last_page": "871",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 871"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.581,
+    "sha256": "225a697424631ba545264cc216e7339d40ff8f6769d901587aa6e36b966e1b71",
+    "simhash": "1:e49aca1b4a8fad2c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Harford v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11272.\nHarford v. United States."
+  },
+  "file_name": "0871-05",
+  "first_page_order": 893,
+  "last_page_order": 893
+}

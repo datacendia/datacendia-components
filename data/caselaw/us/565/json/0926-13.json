@@ -1,0 +1,59 @@
+{
+  "id": 12225388,
+  "name": "Graure v. United States",
+  "name_abbreviation": "Graure v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-6000",
+  "first_page": "926",
+  "last_page": "926",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 926"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.632,
+    "sha256": "d5fa92bd25cd4293624a435cbaab46b07e261035143a48351cccf1359de159e5",
+    "simhash": "1:a539fc682bed17d4",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Graure v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. D. C. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6000.\nGraure v. United States."
+  },
+  "file_name": "0926-13",
+  "first_page_order": 1008,
+  "last_page_order": 1008
+}

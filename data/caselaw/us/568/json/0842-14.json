@@ -1,0 +1,59 @@
+{
+  "id": 12412848,
+  "name": "Hardy v. West et al.",
+  "name_abbreviation": "Hardy v. West",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10412",
+  "first_page": "842",
+  "last_page": "842",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 842"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 70,
+    "ocr_confidence": 0.716,
+    "sha256": "c5dfe6ecdb1ff0e9843ee4d6c1b8e92a8c03152e5b3c56d118bfc4fca970a5ab",
+    "simhash": "1:d02931ae902ed13e",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hardy v. West et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10412.\nHardy v. West et al."
+  },
+  "file_name": "0842-14",
+  "first_page_order": 918,
+  "last_page_order": 918
+}

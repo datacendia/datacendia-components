@@ -1,0 +1,59 @@
+{
+  "id": 12211761,
+  "name": "Hubbard v. Steele, Warden",
+  "name_abbreviation": "Hubbard v. Steele",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-11181",
+  "first_page": "871",
+  "last_page": "871",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 871"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.627,
+    "sha256": "8f80411a15af302aedc0a1712f094d8ed8752cd92bde78945dc6dfd592358daa",
+    "simhash": "1:95bb46b23c3d12e7",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hubbard v. Steele, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-11181.\nHubbard v. Steele, Warden."
+  },
+  "file_name": "0871-09",
+  "first_page_order": 953,
+  "last_page_order": 953
+}

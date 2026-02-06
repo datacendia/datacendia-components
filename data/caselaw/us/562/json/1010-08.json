@@ -1,0 +1,59 @@
+{
+  "id": 6015055,
+  "name": "Harris v. Florida",
+  "name_abbreviation": "Harris v. Florida",
+  "decision_date": "2010-11-01",
+  "docket_number": "No. 10-6144",
+  "first_page": "1010",
+  "last_page": "1010",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1010"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 82,
+    "ocr_confidence": 0.538,
+    "sha256": "fda7e15802816241db396e68132e349422f763ce5aa5cc537b46b617c8fdc417",
+    "simhash": "1:9918d5127641ff3a",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Harris v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 4th Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6144.\nHarris v. Florida."
+  },
+  "file_name": "1010-08",
+  "first_page_order": 1032,
+  "last_page_order": 1032
+}

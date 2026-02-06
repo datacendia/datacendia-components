@@ -1,0 +1,932 @@
+{
+  "id": 12520648,
+  "name": "UNITED STATES of America, Plaintiff-Appellee, v. Monique A. LOZOYA, Defendant-Appellant.",
+  "name_abbreviation": "U.S. v. Lozoya",
+  "decision_date": "2019-04-11",
+  "docket_number": "No. 17-50336",
+  "first_page": "1231",
+  "last_page": "1245",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "920 F.3d 1231"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "9th Cir.",
+    "id": 18869,
+    "name": "United States Court of Appeals for the Ninth"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "752 F.3d 1182",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4307890
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "1184",
+          "parenthetical": "\"In interpreting a criminal statute, we begin with the plain statutory language.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/752/1182-01"
+      ]
+    },
+    {
+      "cite": "458 U.S. 564",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        636708
+      ],
+      "weight": 3,
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "575"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/458/0564-01"
+      ]
+    },
+    {
+      "cite": "995 F.2d 793",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10516939
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "801"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/995/0793-01"
+      ]
+    },
+    {
+      "cite": "407 F.3d 379",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8971870
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "379-80"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/407/0379-01"
+      ]
+    },
+    {
+      "cite": "510 U.S. 135",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        231570
+      ],
+      "weight": 3,
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "147-48"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/510/0135-01"
+      ]
+    },
+    {
+      "cite": "487 U.S. 336",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "487 U.S. 326",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1774801
+      ],
+      "weight": 4,
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "332"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/487/0326-01"
+      ]
+    },
+    {
+      "cite": "279 U.S. 337",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3907508
+      ],
+      "weight": 3,
+      "year": 1929,
+      "pin_cites": [
+        {
+          "page": "338"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/279/0337-01"
+      ]
+    },
+    {
+      "cite": "691 F.2d 48",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1477860
+      ],
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "50-51"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/691/0048-01"
+      ]
+    },
+    {
+      "cite": "323 U.S. 273",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1229533
+      ],
+      "weight": 3,
+      "year": 1944,
+      "pin_cites": [
+        {
+          "page": "275"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/323/0273-01"
+      ]
+    },
+    {
+      "cite": "868 F.2d 1020",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10533137
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "1021"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/868/1020-01"
+      ]
+    },
+    {
+      "cite": "314 F.3d 344",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9381550
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "351"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/314/0344-01"
+      ]
+    },
+    {
+      "cite": "783 F.2d 852",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1544101
+      ],
+      "weight": 2,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "853-55"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/783/0852-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 3238",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "676 F.3d 1219",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3756402
+      ],
+      "weight": 2,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "1225"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/676/1219-01"
+      ]
+    },
+    {
+      "cite": "673 F.2d 346",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1412826
+      ],
+      "weight": 2,
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "350"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/673/0346-01"
+      ]
+    },
+    {
+      "cite": "357 F.3d 1249",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9066677
+      ],
+      "weight": 2,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "1253"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/357/1249-01"
+      ]
+    },
+    {
+      "cite": "224 F.3d 302",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11236420
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "310"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/224/0302-01"
+      ]
+    },
+    {
+      "cite": "748 F.3d 525",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5886434
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "533",
+          "parenthetical": "\"Only 'essential conduct elements' can provide the basis for venue; 'circumstance elements' cannot.\" (quoting United States v. Bowens , 224 F.3d 302, 310 (4th Cir. 2000) )"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/748/0525-01"
+      ]
+    },
+    {
+      "cite": "393 F.3d 192",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3434872,
+        9169780
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "200",
+          "parenthetical": "\"[R]eceipt of stolen property ... is not an 'offense involving' transportation in interstate commerce, for it does not require any such transportation for the commission of the offense.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/364/0169-01",
+        "/f3d/393/0192-01"
+      ]
+    },
+    {
+      "cite": "647 F.3d 1196",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6050542
+      ],
+      "weight": 2,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "1204",
+          "parenthetical": "\"Venue is not proper when all that occurred in the charging district was a 'circumstance element ... [that] occurred after the fact of an offense begun and completed by others.' \" (alterations in original) (quoting Rodriguez-Moreno , 526 U.S. at 280 n.4, 119 S.Ct. 1239 )"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/647/1196-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 3237",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(a)",
+          "parenthetical": "emphases added"
+        },
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "490 F.2d 907",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        228718
+      ],
+      "weight": 3,
+      "year": 1973,
+      "pin_cites": [
+        {
+          "page": "911"
+        },
+        {
+          "page": "910-11"
+        },
+        {
+          "page": "911",
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/490/0907-01"
+      ]
+    },
+    {
+      "cite": "524 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11181102
+      ],
+      "weight": 3,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "6-7"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/524/0001-01"
+      ]
+    },
+    {
+      "cite": "694 F.3d 1107",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3523219
+      ],
+      "weight": 2,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "1119-20",
+          "parenthetical": "exploring the interests underlying venue and noting that it is \"a question of fact that the government must prove by a preponderance of the evidence\""
+        },
+        {
+          "page": "1120"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/694/1107-01"
+      ]
+    },
+    {
+      "cite": "526 U.S. 275",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11133092
+      ],
+      "weight": 7,
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "278",
+          "parenthetical": "alterations in original"
+        },
+        {
+          "parenthetical": "alterations in original"
+        },
+        {
+          "parenthetical": "alterations in original"
+        },
+        {
+          "page": "279"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/526/0275-01"
+      ]
+    },
+    {
+      "cite": "189 F.3d 785",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1733450
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "787"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/189/0785-01"
+      ]
+    },
+    {
+      "cite": "108 F.3d 1155",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7638115
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "1156"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/108/1155-01"
+      ]
+    },
+    {
+      "cite": "219 F.3d 1056",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11200281
+      ],
+      "weight": 3,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "1060"
+        },
+        {
+          "parenthetical": "\"The indictment alleged that [the defendant] was 'found in' the United States 'within the Southern District of California.' On its face, therefore, the indictment alleged proper venue because it alleged facts which, if proven, would have sustained venue in the Southern District of California.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/219/1056-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 3162",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "726 F.2d 1456",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1929754
+      ],
+      "weight": 2,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "1459-60"
+        },
+        {
+          "page": "1460"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/726/1456-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 3161",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1291",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "778 F.3d 738",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6052578
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "745"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/778/0738-01"
+      ]
+    },
+    {
+      "cite": "611 F.3d 1172",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3698215
+      ],
+      "weight": 2,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "1175",
+          "parenthetical": "citations omitted"
+        },
+        {
+          "page": "1175",
+          "parenthetical": "citing United States v. Taylor , 487 U.S. 326, 332, 108 S.Ct. 2413, 101 L.Ed.2d 297 (1988) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/611/1172-01"
+      ]
+    },
+    {
+      "cite": "214 F.3d 1052",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9973181
+      ],
+      "weight": 3,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "1055"
+        },
+        {
+          "page": "1055",
+          "parenthetical": "footnote omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/214/1052-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 3559",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(6)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 113",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(a)(4)"
+        },
+        {
+          "page": "(a)(5)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "49 U.S.C. \u00a7 46506",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "506 U.S. 194",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11925147
+      ],
+      "weight": 3,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "200",
+          "parenthetical": "describing \"the common mandate of statutory construction to avoid absurd results\""
+        },
+        {
+          "parenthetical": "describing \"the common mandate of statutory construction to avoid absurd results\""
+        },
+        {
+          "parenthetical": "describing \"the common mandate of statutory construction to avoid absurd results\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/506/0194-01"
+      ]
+    },
+    {
+      "cite": "712 F.3d 436",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3554792
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "440",
+          "parenthetical": "citation and alteration omitted"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/712/0436-01"
+      ]
+    },
+    {
+      "cite": "75 Stat. 466",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "458 U.S. 564",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        636708
+      ],
+      "weight": 3,
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "575",
+          "parenthetical": "stating that \"interpretations of a statute which would produce absurd results are to be avoided\""
+        },
+        {
+          "parenthetical": "stating that \"interpretations of a statute which would produce absurd results are to be avoided\""
+        },
+        {
+          "parenthetical": "stating that \"interpretations of a statute which would produce absurd results are to be avoided\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/458/0564-01"
+      ]
+    },
+    {
+      "cite": "691 F.2d 48",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1477860
+      ],
+      "weight": 2,
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "50-51"
+        },
+        {
+          "page": "50"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/691/0048-01"
+      ]
+    },
+    {
+      "cite": "676 F.3d 1219",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3756402
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "1224-25"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/676/1219-01"
+      ]
+    },
+    {
+      "cite": "673 F.2d 346",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1412826
+      ],
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "349-50"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/673/0346-01"
+      ]
+    },
+    {
+      "cite": "357 F.3d 1249",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9066677
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "1253-54"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/357/1249-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 3237",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 113",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "parenthetical": "assaults"
+        }
+      ],
+      "opinion_index": 1
+    }
+  ],
+  "analysis": {
+    "cardinality": 1709,
+    "char_count": 44213,
+    "pagerank": {
+      "raw": 4.4793276177203605e-08,
+      "percentile": 0.28103375911105244
+    },
+    "sha256": "04dcfb6c9215b35ecd1dbadf9ba90371c648e3fd595372804176d068b74dfa7b",
+    "simhash": "1:fb7a2d92e6958de8",
+    "word_count": 7055
+  },
+  "last_updated": "2024-02-27T18:46:47.899627+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "UNITED STATES of America, Plaintiff-Appellee,\nv.\nMonique A. LOZOYA, Defendant-Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "M. SMITH, Circuit Judge:\nDefendant-Appellant Monique A. Lozoya was convicted of assaulting a fellow passenger on a commercial flight from Minneapolis to Los Angeles. Following several months of pretrial activity, the government filed a superseding information charging Lozoya with simple assault, a Class B misdemeanor. At a bench trial, the magistrate judge rendered a guilty verdict, and the district court subsequently affirmed the conviction. We hold that venue was not proper in the Central District of California, and therefore reverse Lozoya's conviction.\nFACTUAL AND PROCEDURAL BACKGROUND\nI. Factual Background\nOn the evening of July 19, 2015, Lozoya and her boyfriend, Joshua Moffie, flew on Delta Airlines Flight 2321 from Minneapolis to Los Angeles. Lozoya sat in the middle seat of the second-to-last row on the aircraft's starboard side; Moffie occupied the aisle seat to her left, while another passenger, Charles Goocher, sat in the window seat to her right. Oded Wolff, traveling with his wife Merav and their family, sat immediately behind Lozoya in the middle seat of the last row, with Merav in the window seat to his right.\nAs Flight 2321 soared above the Great Plains, Lozoya wanted to sleep. However, her attempts at slumber were foiled because the passenger behind her-Wolff-repeatedly jostled her seat. This purported annoyance was verified by Goocher, who recalled that \"the people that were behind us were causing commotion behind-behind our chairs, wrestling around with their stuff .... hitting the chairs, the tray up and down, up and down, up and down.\" Wolff denied causing a commotion; instead, he claims that, after tapping the TV screen on the back of Lozoya's seat in a vain attempt to turn it off, he and Merav went to sleep.\nThe incident that led to this appeal occurred later in the flight, when Wolff and his wife left their seats to use the lavatory. While the pair was away, Lozoya told Moffie about the jostling. Although Moffie offered to say something, Lozoya opted instead to speak to Wolff herself when he returned to his seat. Lozoya claimed that when Wolff returned, while she was still seated, she turned to her left to address the standing Wolff and politely asked him to stop hitting her seat, to which Wolff abrasively shouted \"What?\" and \"quickly\" moved his hand to within a half-inch of her face. Lozoya testified, \"I got really scared and nervous, and I didn't know what was going on, and it felt like he was about to hit me,\" and so \"without even thinking ... pushed him away\" with an open palm, which made contact with Wolff's face. Wolff and Merav, by contrast, testified that Wolff's hands were resting on the seats behind and in front of him, and that Lozoya yelled at him to stop tapping his TV screen and then hit him with the back of her hand, causing his nose to bleed.\nAs the various parties responded in shock to the incident, flight attendant Divone Morris approached them to calm the situation, and lead flight attendant Terry Sullivan began to investigate. Sullivan spoke with Lozoya and Wolff, and asked the latter if he preferred to file charges or would instead accept an apology from Lozoya. Wolff agreed to meet with Lozoya at the airport after the flight, and indicated that he would listen to her explanation before deciding whether to accept an apology. However, after discussing the issue with Moffie, Lozoya decided against meeting with Wolff, and left the airport without apologizing.\nII. Procedural Background\nA. Pretrial\nIn August 2015, about three weeks after the incident on Flight 2321, FBI special agent Meredith Burke, who had investigated the assault and interviewed the participants, issued Lozoya a violation notice charging her with assault pursuant to 18 U.S.C. \u00a7 113(a)(4). Because the maximum custodial status of this offense is one year, it is classified as a Class A misdemeanor. 18 U.S.C. \u00a7 3559(a)(6). Burke also prepared a fourteen-page statement of probable cause detailing her investigation. She dated the statement August 7, 2015.\nOn September 16, 2015, Lozoya was arraigned before a magistrate judge. Although the judge granted Lozoya's request for counsel, he also required a monthly contribution of $200 towards attorneys' fees. Lozoya pleaded not guilty, and the magistrate judge set a trial date of February 4, 2016. The judge warned Lozoya, \"[I]f you fail to appear on the date of your trial, that will result in the issuance of an arrest warrant,\" but set no bond.\nOn January 14, 2016, approximately four months after the arraignment, Lozoya moved to dismiss the case. She argued that the government failed to comply with the Federal Rules of Criminal Procedure, which require that \"[t]he trial of a misdemeanor [ ] proceed on an indictment, information, or complaint,\" Fed. R. Crim. P. 58(b)(1), and that under the Speedy Trial Act (the Act), the government should have filed an indictment or information within thirty days of her arraignment. The government opposed the motion, arguing that the Act had not been triggered because \"the issuance of a violation notice does not trigger the Speedy Trial Act.\" It also claimed that the procedure it employed in Lozoya's case was consistent with standard practices, which Lozoya countered was incompatible with both the Act and the Central District of California's internal guidelines.\nOn February 1, 2016, before the magistrate judge heard Lozoya's motion to dismiss, the government filed an information charging her with the Class A misdemeanor.\nThree days later-the date set for trial-the magistrate judge first addressed Lozoya's pending motion. The judge denied the motion, determining that, under United States v. Boyd , 214 F.3d 1052 (9th Cir. 2000), the issuance of a notice violation\ndid not constitute a complaint and did not start the running of the 30-day clock. ... The fact that there was arguably an arrest as that term is used under the Speedy Trial Act Plan here in the Central District does not meet the requirement for a complaint, which is a separate requirement from the issue of an arrest.\nEven if there had been a violation of the Act, the judge continued, he would not have dismissed the case with prejudice. Because the government had filed the subsequent information, the judge granted its motion to dismiss the violation notice without prejudice.\nLozoya was arraigned on the Class A misdemeanor information on February 9, 2016, at which time she pleaded not guilty.\nSubsequently, Lozoya filed two additional motions to dismiss the information with prejudice, again arguing that the Act had been violated. At a February 29, 2016 hearing on the motions, the government offered to \"file a superseding information and make it a Class B\" misdemeanor, which would \"eliminate all the Speedy Trial Act problems.\" The magistrate judge then indicated that she would reject Lozoya's request to dismiss the case with prejudice, noting that \"consideration of the seriousness of the offense, the facts and circumstances of this case, and the impact of the reprosecution, particularly in light of the fact that it's now going to be a Class B misdemeanor, does not warrant a dismissal with prejudice.\" The judge ultimately decided to defer ruling on the issue until after the government responded to Lozoya's third motion to dismiss and filed a new information.\nSoon thereafter, the government filed the superseding information charging Lozoya with simple assault in violation of 18 U.S.C. \u00a7 113(a)(5), a Class B misdemeanor. The magistrate judge then denied Lozoya's outstanding motions to dismiss, and arraigned Lozoya on the superseding information on April 5, 2016.\nB. Trial\nAt the bench trial, the government called Wolff and Merav, as well as Sullivan (the lead flight attendant) and Burke (the FBI special agent who investigated the incident). After the government rested, Lozoya moved for acquittal pursuant to Federal Rule of Criminal Procedure 29, arguing that venue in the Central District of California was improper. The magistrate judge denied the motion, stating that \"[a]ny offense that involves transportation in interstate or foreign commerce is a continuing offense and may be prosecuted in any district from, through or into which such commerce moves,\" and concluding that \"to establish venue, the government only needs to prove that the crime took place on a form of transportation in interstate commerce.\" As part of her defense, Lozoya called Morris (another flight attendant), Goocher (the passenger who sat next to Lozoya on the flight), and Moffie (her boyfriend), and testified on her own behalf.\nBefore pronouncing judgment, the magistrate judge acknowledged that \"[t]his is really an unfortunate situation borne out of a misunderstanding in a situation that I think almost anybody that flies commercially can relate to.\" Nevertheless, she concluded that \"in this case there was sufficient evidence to establish that the defendant struck the victim on his face, and ... striking the victim would be sufficient to meet the standard for simple assault.\"\nShe also found that\ndefendant's testimony and her statements to the special agent and to the flight attendants contained inconsistencies regarding her perceived threat from the victim, and also the Court found that the testimony of the defendant's witnesses were themselves inconsistent and failed to establish beyond a reasonable doubt that the defendant was in a position where she felt threatened.\nThus, the magistrate judge concluded that, as to the issue of self-defense, \"based on the testimony presented [ ] the defendant used more force than what was reasonably necessary to defend herself against what she perceived to be a threat to her physical safety.\" The judge therefore found Lozoya guilty of simple assault.\nC. Post-Trial\nFollowing the trial, Lozoya again moved for a judgment of acquittal under Rule 29, based on an argument relating to venue. The magistrate judge denied the motion, finding her challenge to venue waived and her motion therefore untimely. The judge further concluded that the venue challenge was meritless in any event, as \"[ 18 U.S.C.] \u00a7 3237(a) 's broad language and the difficulties inherent in pinpointing the exact location of a crime occurring on an aircraft traveling in interstate commerce gave rise to venue in the arriving district.\"\nLozoya was ultimately sentenced to pay a fine of $750 and a special assessment of $10; she was not sentenced to any custodial term.\nOn August 11, 2016, Lozoya appealed to the district court, raising the same three claims now before us. In an eighteen-page order, the district court rejected her arguments and affirmed the conviction. This timely appeal followed.\nSTANDARD OF REVIEW AND JURISDICTION\n\"We review de novo a district court's application of, and questions of law arising under, the Speedy Trial Act. We review for abuse of discretion a district court's decision to dismiss an indictment without prejudice for a violation of the Speedy Trial Act.\" United States v. Lewis , 611 F.3d 1172, 1175 (9th Cir. 2010) (citations omitted). We review de novo whether venue was proper. United States v. Hui Hsiung , 778 F.3d 738, 745 (9th Cir. 2015). We have jurisdiction pursuant to 28 U.S.C. \u00a7 1291.\nANALYSIS\nI. Speedy Trial Act\nLozoya was initially charged with a Class A misdemeanor, to which the Act applies. See Boyd , 214 F.3d at 1055.\nThe Act requires that \"[a]ny information or indictment charging an individual with the commission of an offense shall be filed within thirty days from the date on which such individual was arrested or served with a summons in connection with such charges.\" 18 U.S.C. \u00a7 3161(b). Subsequently,\n[i]n any case in which a plea of not guilty is entered, the trial of a defendant charged in an information or indictment with the commission of an offense shall commence within seventy days from the filing date (and making public) of the information or indictment, or from the date the defendant has appeared before a judicial officer of the court in which such charge is pending, whichever date last occurs.\nId. \u00a7 3161(c)(1). Failure to adhere to these limits results in dismissal, which may be with or without prejudice. Id. \u00a7 3162(a). Because \u00a7\u00a7 3161(b) and 3162(a)(1)\"must be read together,\" the latter's dismissal provision only applies \"when a suspect is formally charged at the time of, or immediately following, arrest, or when a suspect is subject to some continuing restraint on liberty imposed in connection with the charge on which the subject is eventually tried.\" Boyd , 214 F.3d at 1055 (footnote omitted).\nCongress passed the Act to effectuate the Sixth Amendment right to a speedy trial. United States v. Pollock , 726 F.2d 1456, 1459-60 (9th Cir. 1984). We noted in Pollock that \"Congress was concerned about a number of problems-such as disruption of family life, loss of employment, anxiety, suspicion, and public obloquy-that vex an individual who is forced to await trial for long periods of time.\" Id. at 1460. Lozoya justifiably concludes that \"[b]y the time [she] appeared in court and was ordered to return for trial, at the latest, these concerns were implicated.\" It would therefore be somewhat disconcerting if, as the magistrate judge and district court concluded, the government could hale Lozoya into court-which, it noted in its answering brief, was consistent with its standard practice of prosecuting misdemeanors-without triggering the Act's protections, even though the Act indisputably applies to Class A misdemeanors.\nHowever, we find it unnecessary to determine whether the government's prolonged prosecution of Lozoya constituted a violation of the Act. Even if she were correct that either her initial September 16, 2015 appearance before a magistrate judge or the purported restraint on her liberty triggered the Act's thirty-day clock-and that therefore dismissal pursuant to \u00a7 3162(a)(1) was required, because the government did not file the required information until more than four months later, on February 1, 2016-the magistrate judge offered an alternative ruling that dismissal would have been without prejudice:\nAlthough this is a misdemeanor, I think the allegations of an assault on a commercial airliner are not necessarily minor charges. ...\nThere's an interest in justice. The court finds in a resolution on the merits.\nThe only-the only evidence of prejudice is this issue of contribution of attorney's fees, which the court doesn't find that that is a form of prejudice I think of the type that would apply here to seeking a dismissal with prejudice. And there's no bad faith by the government in terms of its actions here.\nAlthough brief, this analysis indicates that the magistrate judge considered the relevant factors-specifically, \"the seriousness of the offense; the facts and circumstances of the case which led to the dismissal; and the impact of a reprosecution on the administration of [the Act] and on the administration of justice,\" 18 U.S.C. \u00a7 3162(a)(1) -and did not rely on any clearly erroneous factual assumptions.\nTherefore, the court did not abuse its discretion when making this determination, and any erroneous application of the Speedy Trial Act would not have changed the outcome. Even if the Act had been violated in this case, dismissal would have been without prejudice, leaving the government free to file the superseding information on which Lozoya was eventually convicted.\nII. Venue\nAlthough the government's conduct did not violate the Act, we conclude that reversal of Lozoya's conviction is nonetheless required because venue was improper in the Central District of California.\nA. Waiver\nAs an initial matter, the government maintains that Lozoya waived her venue argument by failing to raise it until after the government's case-in-chief. Our decision in United States v. Ruelas-Arreguin , in which we \"decide[d] whether [a defendant] preserved his objection to venue when he moved for a judgment of acquittal on grounds of improper venue at the close of the government's case,\" is directly on point. 219 F.3d 1056, 1060 (9th Cir. 2000). There, we held that \"[i]f a defect in venue is clear on the face of the indictment, a defendant's objection must be raised before the government has completed its case.\" Id . However, \"if the venue defect is not evident on the face of the indictment, a defendant may challenge venue in a motion for acquittal at the close of the government's case.\" Id .\nHere, the superseding information alleged that Lozoya, while \"in Los Angeles County, within the Central District of California and elsewhere,\" assaulted another passenger on Flight 2321. Therefore, on the face of the information, the venue defect was not apparent. If true, the scant allegations in the information would have proven that at least part of the offense occurred in the Central District, and so venue there would have been proper. See id. (\"The indictment alleged that [the defendant] was 'found in' the United States 'within the Southern District of California.' On its face, therefore, the indictment alleged proper venue because it alleged facts which, if proven, would have sustained venue in the Southern District of California.\"). That Lozoya might have known that venue was incorrect-and, as the government notes, \"possessed [the] Statement of Probable Cause, which set forth that the assault took place about one-hour to one-hour-and-a-half before landing\"-is immaterial, since \"only the indictment may be considered in pretrial motions to dismiss for lack of venue, and [ ] the allegations must be taken as true.\" United States v. Mendoza , 108 F.3d 1155, 1156 (9th Cir. 1997).\nBecause venue was proper on the face of the superseding information, Lozoya was permitted to move for acquittal on venue grounds following the government's case-in-chief, and did not waive the issue. And, because she preserved the issue for appeal, we review it de novo. See United States v. Hernandez , 189 F.3d 785, 787 (9th Cir. 1999).\nB. Whether Venue Was Proper in the Central District of California\nThe government asserts that because \"[t]he evidence at trial showed-and [Lozoya] does not dispute-that Flight 2321 landed in Los Angeles,\" and \"also showed that [she] assaulted the victim while the plane was in flight heading toward Los Angeles,\" it was therefore \"entirely proper for the government to bring the case in the Central District.\" Given our case law, as well as the Supreme Court's guidance on the proper determination of venue, we disagree.\n\"Article III of the Constitution requires that '[t]he Trial of all Crimes ... shall be held in the State where the said Crimes shall have been committed.' \" United States v. Rodriguez-Moreno , 526 U.S. 275, 278, 119 S.Ct. 1239, 143 L.Ed.2d 388 (1999) (alterations in original) (quoting U.S. Const. art. III, \u00a7 2, cl. 3 ); see also United States v. Lukashov , 694 F.3d 1107, 1119-20 (9th Cir. 2012) (exploring the interests underlying venue and noting that it is \"a question of fact that the government must prove by a preponderance of the evidence\"). To ascertain venue,\nthe \" 'locus delicti [of the charged offense] must be determined from the nature of the crime alleged and the location of the act or acts constituting it.' \" In performing this inquiry, a court must initially identify the conduct constituting the offense (the nature of the crime) and then discern the location of the commission of the criminal acts.\nRodriguez-Moreno , 526 U.S. at 279, 119 S.Ct. 1239 (alteration in original) (footnote and citation omitted) (quoting United States v. Cabrales , 524 U.S. 1, 6-7, 118 S.Ct. 1772, 141 L.Ed.2d 1 (1998) ).\nHere, Lozoya correctly asserts that \"[t]he only essential conduct element here is the assault,\" and so the first prong of this inquiry is straightforward. The second prong-the location of the assault-is a trickier matter.\nLozoya demonstrates, and the government does not dispute, that the trial evidence established that the brief assault occurred before Flight 2321 entered the Central District's airspace. Therefore, there is no doubt that the assault did not occur within the Central District of California, since we have held that \"the navigable airspace above [a] district is a part of [that] district.\" United States v. Barnard , 490 F.2d 907, 911 (9th Cir. 1973).\nIn response, the government argues, and the magistrate judge and district court agreed, that either of two statutes conferred venue in the Central District. We consider each statute in turn.\ni. Section 3237(a)\nThe government first argues that 18 U.S.C. \u00a7 3237 provided the needed statutory conferral of venue. The relevant provision reads,\nExcept as otherwise expressly provided by enactment of Congress, any offense against the United States begun in one district and completed in another, or committed in more than one district , may be inquired of and prosecuted in any district in which such offense was begun, continued, or completed .\nAny offense involving the use of the mails, transportation in interstate or foreign commerce , or the importation of an object or person into the United States is a continuing offense and, except as otherwise expressly provided by enactment of Congress, may be inquired of and prosecuted in any district from, through, or into which such commerce, mail matter, or imported object or person moves .\n18 U.S.C. \u00a7 3237(a) (emphases added).\nWe agree with Lozoya that the first paragraph of \u00a7 3237(a) does not apply here. By its plain text and obvious meaning, it concerns continuing offenses that occur in multiple districts. See Barnard , 490 F.2d at 910-11 (applying \u00a7 3237(a) in a case where the defendant imported marijuana from Mexico into the Central District, and concluding that venue in the Southern District of California was proper because the offense continued through its airspace). Here, by contrast, Lozoya's offense-the assault-occurred in an instant and likely in the airspace of only one district, and the government did not prove that any part of that assault occurred once Flight 2321 entered the airspace over the Central District; indeed, it concedes that the assault ended before then. Section 3237(a) does not provide a basis for extending venue into the Central District simply because Flight 2321 continued into its airspace after the offense was complete. Once the assault had concluded, any subsequent activity was incidental and therefore irrelevant for venue purposes. See United States v. Stinson , 647 F.3d 1196, 1204 (9th Cir. 2011) (\"Venue is not proper when all that occurred in the charging district was a 'circumstance element ... [that] occurred after the fact of an offense begun and completed by others.' \" (alterations in original) (quoting Rodriguez-Moreno , 526 U.S. at 280 n.4, 119 S.Ct. 1239 )).\nThe magistrate judge also determined that \u00a7 3237(a) 's second paragraph supported the government's position. But that paragraph, in relevant part, pertains to \"offense[s] involving the ... transportation in interstate or foreign commerce.\" 18 U.S.C. \u00a7 3237(a). The government maintains that \"[b]ecause the charged offense involved transportation in interstate commerce, it was a continuing offense\" for purposes of \u00a7 3237(a). This assertion is untenable, however, because although the assault occurred on a plane, the offense itself did not implicate interstate or foreign commerce. Cf. United States v. Morgan , 393 F.3d 192, 200 (D.C. Cir. 2004) (\"[R]eceipt of stolen property ... is not an 'offense involving' transportation in interstate commerce, for it does not require any such transportation for the commission of the offense.\"). Here, the conduct constituting the offense was the assault, which had nothing to do with interstate commerce. As Lozoya notes, \"[T]he jurisdictional element requiring the offense to have occurred on an aircraft does not convert the offense to one that involves transportation in interstate commerce,\" and even if it could be so construed, if would not be a conduct element of the offense, but rather a \"circumstance element\" that does not support venue. Stinson , 647 F.3d at 1204 ; see also United States v. Auernheimer , 748 F.3d 525, 533 (3d Cir. 2014) (\"Only 'essential conduct elements' can provide the basis for venue; 'circumstance elements' cannot.\" (quoting United States v. Bowens , 224 F.3d 302, 310 (4th Cir. 2000) )).\nIt is true, as recognized by the district court, the magistrate judge, and the government, that other circuits have rejected our interpretation of \u00a7 3237(a) in cases with similar facts. However, the reasoning in those cases is not persuasive. In United States v. Breitweiser , 357 F.3d 1249 (11th Cir. 2004), the Eleventh Circuit determined that an inflight assault could be prosecuted where the aircraft landed, but it did not analyze the conduct of the charged offense, as required by Rodriguez-Moreno . Instead, the court merely emphasized that \"[i]t would be difficult if not impossible for the government to prove, even by a preponderance of the evidence, exactly which federal district was beneath the plane when [the defendant] committed the crimes.\" Id. at 1253. In reaching this decision, the Breitweiser court relied primarily on a pre- Rodriguez-Moreno case, United States v. McCulley , 673 F.2d 346 (11th Cir. 1982), which had concluded that \u00a7 3237\"is a catchall provision designed to prevent a crime which has been committed in transit from escaping punishment for lack of venue\" without citing any authority for that proposition. Id. at 350. Similarly, the Tenth Circuit in United States v.Cope , 676 F.3d 1219 (10th Cir. 2012), simply relied on Breitweiser , without considering Rodriguez-Moreno or the conduct of the offense with which the defendant was charged. Id. at 1225. Accordingly, we decline to adopt the reasoning or holding of these opinions.\nii. Section 3238\nAlternatively, the district court concluded that venue was proper under \u00a7 3238, which provides that \"[t]he trial of all offenses begun or committed upon the high seas, or elsewhere out of the jurisdiction of any particular State or district, shall be in the district in which the offender, or any one of two or more joint offenders, is arrested or is first brought ....\" 18 U.S.C. \u00a7 3238. To support application of this statute to the facts here, the district court relied on United States v. Walczak , 783 F.2d 852 (9th Cir. 1986), which is readily distinguishable. There, the defendant made a false statement in Canada-an offense committed outside U.S. borders-and so the court concluded that venue was proper in the U.S. district where the defendant was later arrested. Id. at 853-55. That holding was consistent with the rule that \" \u00a7 3238 does not apply unless the offense was committed entirely on the high seas or outside the United States (unless, of course, the offense was 'begun' there).\" United States v. Pace , 314 F.3d 344, 351 (9th Cir. 2002). Although the government argues that \"[j]ust as offenses committed on the 'high seas' are considered to be outside the jurisdiction of any particular state or district, offenses committed in the 'high skies' are similarly not committed,\" that position is at odds with our binding precedent, which holds that \"the navigable airspace above [a] district is a part of the district .\" Barnard , 490 F.2d at 911 (emphasis added). Here, the assault occurred entirely within the jurisdiction of a particular district. It neither began nor was committed entirely outside the United States, and so \u00a7 3238 is inapplicable.\nC. Remedy\n\"When venue has been improperly laid in a district, the district court should either transfer the case to the correct venue upon the defendant's request, or, in the absence of such a request, dismiss the indictment without prejudice.\" Ruelas-Arreguin , 219 F.3d at 1060 n.1 (citation omitted) (citing Fed. R. Crim. P. 21(b) ; United States v. Kaytso , 868 F.2d 1020, 1021 (9th Cir. 1988) ). We therefore direct the district court, on remand, to dismiss the charge without prejudice, unless Lozoya consents to transfer the case to the proper district.\nThe proper district is, pursuant to our reasoning and holding, the district above which the assault occurred. The government stressed at oral argument that it would be \"impossible\" to pinpoint this location, but we are not so pessimistic. There is no doubt that such an undertaking would require some effort. At the time Flight 2321 made its Minneapolis-to-Los Angeles run in December 2018, it apparently traveled at an average speed 368 miles-per-hour, and its route map suggests that is crossed over at least eight different districts during its flight time. But Sullivan, Flight 2321's lead flight attendant, testified (for the government, incidentally) that the flight lasted \"[a]pproximately three hours,\" that he received word of \"an assault of some sort\" \"at least an hour\" after takeoff, that he spent \"30 to 45 minutes at least\" investigating the incident, and that the captain made the announcement that the aircraft would soon be landing-which usually occurs \"[t]wenty-five minutes before landing\"-after Sullivan finished his investigation. Accordingly, it seems wholly reasonable, using this and other testimony as well as flight data, for the government to determine where exactly the assault occurred by the preponderance of the evidence necessary to establish venue. See Lukashov , 694 F.3d at 1120.\nWe acknowledge a creeping absurdity in our holding. Should it really be necessary for the government to pinpoint where precisely in the spacious skies an alleged assault occurred? Imagine an inflight robbery or homicide-or some other nightmare at 20,000 feet-that were to occur over the northeastern United States, home to three circuits, fifteen districts, and a half-dozen major airports, all in close proximity. How feasible would it be for the government to prove venue in such cluttered airspace? And given that the purpose of venue is to prevent \"the unfairness and hardship to which trial in an environment alien to the accused exposes him,\" United States v. Johnson , 323 U.S. 273, 275, 65 S.Ct. 249, 89 L.Ed. 236 (1944), is it not fair to conclude, as the First Circuit did, that setting venue in a district where a plane lands \"creates no unfairness to defendants, for an air passenger accused of a crime of this type is unlikely to care whether he is tried in one rather than another of the states over which he was flying\"? United States v. Hall , 691 F.2d 48, 50-51 (1st Cir. 1982).\nHowever valid these questions and the practical concerns that underlie them might be, they are insufficient to overcome the combined force of the Constitution, Rodriguez-Moreno , and our own case law. These authorities compel our conclusion: that the proper venue for an assault on a commercial aircraft is the district in whose airspace the alleged offense occurred. The dissent contends that common sense supports the positions of the Tenth and Eleventh Circuits, as well as its own conclusion. Dissent at 1244-45. Fair enough. But while \"there is no canon against using common sense in construing laws as saying what they obviously mean,\" Roschen v. Ward , 279 U.S. 337, 338, 49 S.Ct. 336, 73 L.Ed. 722 (1929), the statutes at issue here are not obviously applicable, and we cannot ignore the binding effect of precedent and the Constitution.\nCongress can-consistent with constitutional requirements, of course-enact a new statute to remedy any irrationality that might follow from our conclusion. Indeed, we share the dissent's hope, considering the \"significant increase\" in inflight criminal activities and the myriad federal offenses that can occur on an aircraft, Dissent at 1243-44, 1244-45, that Congress will address this issue by establishing a just, sensible, and clearly articulated venue rule for this and similar airborne offenses. For now, though, if the government wishes to reprosecute Lozoya, it will need to dust off its navigational charts and ascertain where in U.S. airspace her hand made contact with Wolff's face. We know that it did not happen in the Central District of California. That conclusion provides sufficient ground to reverse Lozoya's conviction.\nCONCLUSION\nWe conclude that the proper venue for Lozoya's prosecution is the district in whose airspace the assault occurred. Because the parties do not dispute that the assault ended before Flight 2321 entered the airspace of the Central District of California, venue in that district was improper. We therefore REVERSE Lozoya's conviction and REMAND for further proceedings consistent with this opinion.\nAlthough Magistrate Judge Alexander F. MacKinnon presided over the first hearing, Magistrate Judge Alka Sagar presided over the second arraignment and subsequent proceedings.\nAt her initial court appearance, the magistrate judge ordered Lozoya to contribute $200 per month towards attorneys' fees, and warned her of the possibility of an arrest warrant if she did not appear for trial.\nThe parties dispute which standard of review to apply to the magistrate judge's prejudice determination, but our precedent is clear: \"We review for abuse of discretion a district court's decision to dismiss an indictment without prejudice for a violation of the Speedy Trial Act.\" United States v. Lewis , 611 F.3d 1172, 1175 (9th Cir. 2010) (citing United States v. Taylor , 487 U.S. 326, 332, 108 S.Ct. 2413, 101 L.Ed.2d 297 (1988) ). Lozoya suggests that \"the Supreme Court actually requires something more than typical abuse-of-discretion review,\" and cites language from the Court's decision in Taylor . See 487 U.S. 336-37, 108 S.Ct. 2413 (\"A judgment that must be arrived at by considering and applying statutory criteria ... constitutes the application of law to fact and requires the reviewing court to undertake more substantive scrutiny to ensure that the judgment is supported in terms of the factors identified in the statute.\"). But this language merely offers color and content to guide our review. It does not suggest that abuse of discretion is an inappropriate standard of review, and it certainly does not, as Lozoya concludes, require de novo review. Abuse of discretion remains, consistent with our pronouncement in Lewis , the correct standard to apply.\nCertain aspects of the legislative history suggest that \u00a7 3237 might have been intended as something of a catchall provision. As part of Congress's revision of Title 18 during the 1940s, the venue provisions for several enumerated crimes were omitted because they were \"covered by section 3237.\" H.R. Rep. No. 79-152, at A109, A112, A120, A133-35 (1945); see also H.R. Rep. No. 80-304, at A161 (1947) (indicating that \u00a7 3237\"was completely rewritten to clarify legislative intent and in order to omit special venue provisions from many sections\"). But one relevant report also explained that\n[t]he phrase \"committed in more than one district\" may be comprehensive enough to include \"begun in one district and completed in another\", but the use of both expressions precludes any doubt as to legislative intent. ... The revised section removes all doubt as to the venue of continuing offenses and makes unnecessary special venue provisions ....\nH.R. Rep. No. 80-304, at A161 (emphasis added). If the purpose of \u00a7 3237 were to \"make[ ] unnecessary special venue provisions,\" then a catchall intent might be inferred, but this report also clarified that \u00a7 3237 was directed at continuing offenses , not to offenses generally. And at any rate, even if the legislative history were more conclusive, the text of \u00a7 3237 is not ambiguous, and \"we do not resort to legislative history to cloud a statutory text that is clear.\" Ratzlaf v. United States , 510 U.S. 135, 147-48, 114 S.Ct. 655, 126 L.Ed.2d 615 (1994).\nLozoya observes that there is a circuit conflict concerning the appropriate remedy when the government fails to prove venue at trial, and urges us to adopt the approach taken by the Fifth and Eighth Circuits-remanding for a judgment of acquittal. See United States v. Strain , 407 F.3d 379, 379-80 (5th Cir. 2005) ; United States v. Greene , 995 F.2d 793, 801 (8th Cir. 1993). But we are bound by Ruelas-Arreguin , and will follow the remedy prescribed in that opinion.\nSee DL2321 Delta Air Lines Flight: Minneapolis to Los Angeles 22/12/2018 , Airportia, http://www.airportia.com/flights/dl2321/minneapolis/los_angeles/2018-12-22 (last visited Apr. 4, 2019).\nThe dissent suggests that the Supreme Court's admonition that \"interpretations of a statute which would produce absurd results are to be avoided\" requires that we reach a contrary conclusion, Dissent at 1244 (quoting Griffin v. Oceanic Contractors, Inc. , 458 U.S. 564, 575, 102 S.Ct. 3245, 73 L.Ed.2d 973 (1982) ), but that canon does not permit us to ignore the plain texts of the statutes at issue. See United States v. Ezeta , 752 F.3d 1182, 1184 (9th Cir. 2014) (\"In interpreting a criminal statute, we begin with the plain statutory language.\").\nLozoya also contends that the magistrate judge applied the wrong legal standard for self-defense when rendering the guilty verdict. The parties agree that \"[t]he government must prove beyond a reasonable doubt that [a] defendant did not act in reasonable self-defense,\" which becomes an element of the charged offense. Manual of Model Criminal Jury Instructions for the District Courts of the Ninth Circuit \u00a7 6.8 (Ninth Cir. Jury Instructions Comm. 2010). But because improper venue provides sufficient ground to reverse Lozoya's conviction, we need not determine whether the magistrate judge applied the wrong standard.",
+        "type": "majority",
+        "author": "M. SMITH, Circuit Judge:"
+      },
+      {
+        "text": "OWENS, Circuit Judge, concurring in part and dissenting in part:\nWhile I agree with much of the majority opinion, I disagree with its ultimate holding on venue, which creates a circuit split and makes prosecuting crimes on aircraft (including cases far more serious than this one) extremely difficult.\nThe friendly skies are not always so friendly. You do not need to watch Passenger 57 , Flightplan , Turbulence , or even the vastly underrated Executive Decision to know that dangerous criminal activity occurs on airplanes. For example, federal law enforcement has tracked a significant increase in sexual assaults on airplanes in recent years (including abuse of children), and yet there remains little ability to combat these crimes 30,000 feet in the air.\nCongress recognized this problem over 50 years ago when it passed comprehensive legislation to protect flight crews and passengers from serious crimes. See Federal Aviation Act Amendments of 1961, Pub. L. No. 87-197, 75 Stat. 466, 466-68. Congress extended the application of certain federal criminal laws, including the assault statute at issue in this case, to acts on airplanes to combat the \"unique problems\"\ninvolved in determining jurisdiction for state prosecutions:\nIn this age of jet aircraft a moment of time can mean many miles have been traversed. Present aircraft pass swiftly from county to county and from State to State. As a result serious legal questions can arise as to the situs of the aircraft at the time the crime was committed. The question as to the law of which jurisdiction should apply to a given offense can be the subject of endless debate, and excessive delay in the prosecution becomes inevitable. The difficulties encountered by the overflown State in collecting evidence sufficient to support an indictment are obvious .... \"To contrast, if the offense were also a crime under Federal law, the aircraft would be met on landing by Federal officers. The offender could be taken into custody immediately and the criminal prosecution instituted.\"\nS. Rep. No. 87-694, at 2-3 (1961) (quoting the testimony of Najeeb Halaby, Administrator of the Federal Aviation Agency). Until now, no court has disturbed the ability to prosecute federal offenders in the district where the airplane landed. See United States v. Cope , 676 F.3d 1219, 1224-25 (10th Cir. 2012) ; United States v. Breitweiser , 357 F.3d 1249, 1253-54 (11th Cir. 2004) ; United States v. McCulley , 673 F.2d 346, 349-50 (11th Cir. 1982) ; cf. United States v. Hall , 691 F.2d 48, 50-51 (1st Cir. 1982).\nI acknowledge that the venue provision at issue-the second paragraph of 18 U.S.C. \u00a7 3237(a) -could be clearer. But considering what the majority recognizes as the \"creeping absurdity\" of its position, Majority Opinion 1242, we should heed the advice of our court-and the Supreme Court-that \"statutory interpretations which would produce absurd results are to be avoided.\" United States v. LKAV , 712 F.3d 436, 440 (9th Cir. 2013) (citation and alteration omitted); see also Rowland v. Cal. Men's Colony , 506 U.S. 194, 200, 113 S.Ct. 716, 121 L.Ed.2d 656 (1993) (describing \"the common mandate of statutory construction to avoid absurd results\"); Griffin v. Oceanic Contractors, Inc. , 458 U.S. 564, 575, 102 S.Ct. 3245, 73 L.Ed.2d 973 (1982) (stating that \"interpretations of a statute which would produce absurd results are to be avoided\"). I agree with the Tenth and Eleventh Circuits that the \"transportation in interstate ... commerce\" language in \u00a7 3237(a) covers the conduct at issue here. It may be that the Tenth and Eleventh Circuits' opinions are not \"tenure track\" in their analyses, but not every legal question requires a law review article. Sometimes, common sense is enough.\nThe troubling result of this case is not limited to these rather innocuous facts. It applies to any offense that the majority deems non-continuous, which includes sexual assault, murder, and so on. See 49 U.S.C. \u00a7 46506 (applying certain criminal laws to acts on aircraft, including, but not limited to, 18 U.S.C. \u00a7\u00a7 113 (assaults), 114 (maiming), 661 (theft), 1111 (murder), 1112 (manslaughter), 2241 (aggravated sexual abuse), and 2243 (sexual abuse of a minor or ward)).\nNor is the result limited to the smaller states of the Northeastern United States. See Majority Opinion 1242. Under the majority's rule, the government must prove which district-not merely which state-an airplane was flying over when the crime was committed. A flight from San Francisco to Houston potentially crosses eight judicial districts. A flight from San Francisco to Miami crosses far more. Asking a traumatized victim, especially a child, to pinpoint the precise minute when a sexual assault occurred is something I cannot imagine the Framers intended, or the more recent Congress wished when it enacted our venue and flight laws. Yet without the precision that the majority now requires, prosecutions of violent crimes on board aircraft could be impossible. In fact, the government insists that it cannot pinpoint when the assault occurred in this case, and I doubt that the majority's back-of-the-envelope calculation will be of much assistance. See Majority Opinion 1241-42.\nVenue in criminal cases protects defendants' rights to a fair trial. But here, limiting venue to a \"flyover state,\" where the defendant and potential witnesses have no ties, makes no sense. In contrast, a prosecution in the landing district \"creates no unfairness to defendants.\" Hall , 691 F.2d at 50. And a defendant who is truly inconvenienced may request a transfer of venue. Fed. R. Crim. P. 21(b).\nI respectfully dissent, and urge the Supreme Court (or Congress) to restore quickly the just and sensible venue rule that, until now, applied to domestic air travel.\nSee Sexual Assault Aboard Aircraft , FBI (Apr. 26, 2018), https://www.fbi.gov/news/stories/raising-awareness-about-sexual-assault-aboard-aircraft-042618 (reporting that sexual assaults aboard aircraft are \"on the rise\"); Lynh Bui, Sexual Assaults on Airplanes are Increasing, FBI Warns Summer Travelers , Wash. Post (June 20, 2018), https://www.washingtonpost.com/local/public-safety/sexual-assaults-on-airplanes-are-increasing-fbi-warns-summer-travelers/2018/06/20/64d54598-73fd-11e8-b4b7-308400242c2e_story.html (FBI in Maryland alerting the public that sexual assaults on commercial flights are \"increasing every year ... at an alarming rate\").",
+        "type": "concurring-in-part-and-dissenting-in-part",
+        "author": "OWENS, Circuit Judge, concurring in part and dissenting in part:"
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff-Appellee,\nv.\nMonique A. LOZOYA, Defendant-Appellant.\nNo. 17-50336\nUnited States Court of Appeals, Ninth Circuit.\nArgued and Submitted March 7, 2019 Pasadena, California\nFiled April 11, 2019"
+  },
+  "file_name": "1231-01",
+  "first_page_order": 1231,
+  "last_page_order": 1245
+}

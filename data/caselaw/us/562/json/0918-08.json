@@ -1,0 +1,59 @@
+{
+  "id": 5994943,
+  "name": "Willard v. New York",
+  "name_abbreviation": "Willard v. New York",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5377",
+  "first_page": "918",
+  "last_page": "918",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 918"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 67,
+    "ocr_confidence": 0.658,
+    "sha256": "c5c3bd864a84e109ad9e4ee6c0723be71b002eeb86bc303c897cff10543a61dd",
+    "simhash": "1:bdcfcab10f1f38c2",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Willard v. New York."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5377.\nWillard v. New York."
+  },
+  "file_name": "0918-08",
+  "first_page_order": 940,
+  "last_page_order": 940
+}

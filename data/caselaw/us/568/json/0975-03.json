@@ -1,0 +1,82 @@
+{
+  "id": 12419883,
+  "name": "Lewis v. Washington",
+  "name_abbreviation": "Lewis v. Washington",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 12-6070",
+  "first_page": "975",
+  "last_page": "975",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 975"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "506 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11924825
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/506/0001-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 69,
+    "char_count": 528,
+    "ocr_confidence": 0.598,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2562039331250586
+    },
+    "sha256": "92117d0307c04236def3af18488b83106256dd93885cb2a02a5abec89e231be6",
+    "simhash": "1:e522148d052cdf2f",
+    "word_count": 87
+  },
+  "last_updated": "2024-02-27T23:44:49.194693+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lewis v. Washington."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Wash. Motion of petitioner for leave to proceed in forma pauperis denied, and certiorari dismissed. See this Court\u2019s Rule 39.8. As petitioner has repeatedly abused this Court\u2019s process, the Clerk is directed not to accept any further petitions in noncriminal matters from petitioner unless the docketing fee required by Rule 38(a) is paid and the petition is submitted in compliance with Rule 33.1. See Martin v. District of Columbia Court of Appeals, 506 U. S. 1 (1992) (per curiam).",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6070.\nLewis v. Washington."
+  },
+  "file_name": "0975-03",
+  "first_page_order": 1051,
+  "last_page_order": 1051
+}

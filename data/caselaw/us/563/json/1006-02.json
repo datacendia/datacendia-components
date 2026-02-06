@@ -1,0 +1,98 @@
+{
+  "id": 5924375,
+  "name": "In re Disbarment of Ehrlich",
+  "name_abbreviation": "In re Disbarment of Ehrlich",
+  "decision_date": "2011-05-23",
+  "docket_number": "No. D-2526",
+  "first_page": "1006",
+  "last_page": "1006",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1006"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "562 U. S. 812",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12437760,
+        12437761,
+        12437762,
+        6023877,
+        5972486,
+        5977709,
+        5935826,
+        6022451,
+        5950330,
+        5994971,
+        12437756,
+        12437757,
+        12437758,
+        12437759
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/178/0267-06",
+        "/l-ed-2d/178/0268-01",
+        "/l-ed-2d/178/0268-02",
+        "/us/562/0812-01",
+        "/us/562/0812-02",
+        "/us/562/0812-05",
+        "/us/562/0812-04",
+        "/us/562/0812-03",
+        "/us/562/0812-07",
+        "/us/562/0812-06",
+        "/l-ed-2d/178/0267-02",
+        "/l-ed-2d/178/0267-03",
+        "/l-ed-2d/178/0267-04",
+        "/l-ed-2d/178/0267-05"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 108,
+    "ocr_confidence": 0.588,
+    "sha256": "eba8d9437171828a0cff0265fbc158424db2c949d46ac0fbe358edd003acfbd0",
+    "simhash": "1:bb6cc88ad3c0aaa4",
+    "word_count": 18
+  },
+  "last_updated": "2024-02-27T23:44:09.189648+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Ehrlich."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered. [For earlier order herein, see 562 U. S. 812.]",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2526.\nIn re Disbarment of Ehrlich."
+  },
+  "file_name": "1006-02",
+  "first_page_order": 1032,
+  "last_page_order": 1032
+}

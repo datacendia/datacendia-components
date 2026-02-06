@@ -1,0 +1,59 @@
+{
+  "id": 12214027,
+  "name": "Wooten et al. v. Quicken Loans Inc.",
+  "name_abbreviation": "Wooten v. Quicken Loans Inc.",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-43",
+  "first_page": "880",
+  "last_page": "880",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 880"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 82,
+    "ocr_confidence": 0.696,
+    "sha256": "814a814167148488bf3b9c3e9a8535a27920941825f674c58b74fc6269b780da",
+    "simhash": "1:1e5b8a8721eed050",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wooten et al. v. Quicken Loans Inc."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-43.\nWooten et al. v. Quicken Loans Inc."
+  },
+  "file_name": "0880-03",
+  "first_page_order": 962,
+  "last_page_order": 962
+}

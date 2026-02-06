@@ -1,0 +1,59 @@
+{
+  "id": 5919883,
+  "name": "Watson v. Florida",
+  "name_abbreviation": "Watson v. Florida",
+  "decision_date": "2011-05-16",
+  "docket_number": "No. 10-9337",
+  "first_page": "992",
+  "last_page": "992",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 992"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 82,
+    "ocr_confidence": 0.626,
+    "sha256": "d4d8a20d1d65bcc124d9ee2a043b0330793bca6465c3d259d721063015117983",
+    "simhash": "1:8019979246c16a94",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Watson v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 1st Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9337.\nWatson v. Florida."
+  },
+  "file_name": "0992-12",
+  "first_page_order": 1018,
+  "last_page_order": 1018
+}

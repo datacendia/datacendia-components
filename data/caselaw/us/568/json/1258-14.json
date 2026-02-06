@@ -1,0 +1,61 @@
+{
+  "id": 12434241,
+  "name": "Jones v. Castillo, Warden",
+  "name_abbreviation": "Jones v. Castillo",
+  "decision_date": "2013-03-25",
+  "docket_number": "No. 12-6925",
+  "first_page": "1258",
+  "last_page": "1258",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1258"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 152,
+    "ocr_confidence": 0.628,
+    "sha256": "4e4bd2264e7f1826cf13b20d7ec4a6c4ab9f4810ee9472a8781af2c0d88cb248",
+    "simhash": "1:cb9a3a826e2e1862",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Jones v. Castillo, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6925.\nJones v. Castillo, Warden."
+  },
+  "file_name": "1258-14",
+  "first_page_order": 1334,
+  "last_page_order": 1334
+}

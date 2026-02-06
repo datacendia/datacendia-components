@@ -1,0 +1,59 @@
+{
+  "id": 12410682,
+  "name": "Pike v. Tennessee",
+  "name_abbreviation": "Pike v. Tennessee",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-9152",
+  "first_page": "827",
+  "last_page": "827",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 827"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 72,
+    "ocr_confidence": 0.719,
+    "sha256": "e750f2a4b669dc4cc24d5478f3a41d9a6a3efaef03310498ce9f2f46133e2a04",
+    "simhash": "1:8731d4927b84d9a2",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Pike v. Tennessee."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Tenn. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9152.\nPike v. Tennessee."
+  },
+  "file_name": "0827-13",
+  "first_page_order": 903,
+  "last_page_order": 903
+}

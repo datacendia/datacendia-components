@@ -1,0 +1,908 @@
+{
+  "id": 4225237,
+  "name": "THE PEOPLE, Plaintiff and Respondent, v. AMALIA CATHERINE BRYANT, Defendant and Appellant",
+  "name_abbreviation": "People v. Bryant",
+  "decision_date": "2013-06-03",
+  "docket_number": "No. S196365",
+  "first_page": "959",
+  "last_page": "975",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "56 Cal. 4th 959"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal.",
+    "id": 9021,
+    "name": "Supreme Court of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "603 P.2d 1",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "160 Cal.Rptr. 84",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 Cal.3d 668",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2270569
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "679"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/25/0668-01"
+      ]
+    },
+    {
+      "cite": "872 P.2d 574",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "30 Cal.Rptr.2d 33",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "7 Cal.4th 768",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1981835
+      ],
+      "pin_cites": [
+        {
+          "page": "774"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/7/0768-01"
+      ]
+    },
+    {
+      "cite": "820 P.2d 588",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1994,
+      "opinion_index": 0
+    },
+    {
+      "cite": "2 Cal.Rptr.2d 364",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1994,
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 Cal.3d 1103",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1946385
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "1113"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/54/1103-01"
+      ]
+    },
+    {
+      "cite": "411 P.2d 911",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "49 Cal.Rptr. 815",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "64 Cal.2d 310",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        12126657
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/64/0310-01"
+      ]
+    },
+    {
+      "cite": "48 Cal. 436",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        1953815
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "437"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal/48/0436-01"
+      ]
+    },
+    {
+      "cite": "960 P.2d 1094",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "77 Cal.Rptr.2d 870",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "19 Cal.4th 142",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1709356
+      ],
+      "pin_cites": [
+        {
+          "page": "154"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/19/0142-01"
+      ]
+    },
+    {
+      "cite": "111 P.3d 973",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 Cal.Rptr.3d 708",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.4th 964",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        873222
+      ],
+      "pin_cites": [
+        {
+          "page": "966"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/35/0964-01"
+      ]
+    },
+    {
+      "cite": "257 P.3d 748",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2005,
+      "opinion_index": 0
+    },
+    {
+      "cite": "129 Cal.Rptr.3d 145",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2005,
+      "opinion_index": 0
+    },
+    {
+      "cite": "52 Cal.4th 580",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3919622
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "587"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/52/0580-01"
+      ]
+    },
+    {
+      "cite": "999 P.2d 675",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "96 Cal.Rptr.2d 451",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "23 Cal.4th 82",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        277028
+      ],
+      "pin_cites": [
+        {
+          "page": "88-91"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/23/0082-01"
+      ]
+    },
+    {
+      "cite": "303 P.2d 1018",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.2d 406",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2340881
+      ],
+      "pin_cites": [
+        {
+          "page": "413"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/47/0406-01"
+      ]
+    },
+    {
+      "cite": "402 P.2d 825",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1956,
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 Cal.Rptr. 753",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1956,
+      "opinion_index": 0
+    },
+    {
+      "cite": "62 Cal.2d 847",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2334009
+      ],
+      "year": 1956,
+      "pin_cites": [
+        {
+          "page": "852"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/62/0847-01"
+      ]
+    },
+    {
+      "cite": "450 P.2d 580",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "75 Cal.Rptr. 188",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "70 Cal.2d 522",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2308197
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/70/0522-01"
+      ]
+    },
+    {
+      "cite": "406 P.2d 647",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1969,
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.Rptr. 7",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1969,
+      "opinion_index": 0
+    },
+    {
+      "cite": "63 Cal.2d 452",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2335709
+      ],
+      "year": 1969,
+      "pin_cites": [
+        {
+          "page": "457"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/63/0452-01"
+      ]
+    },
+    {
+      "cite": "678 P.2d 894",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "201 Cal.Rptr. 319",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.3d 824",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4471238
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "829"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/35/0824-01"
+      ]
+    },
+    {
+      "cite": "489 P.2d 1361",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "98 Cal.Rptr. 33",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "6 Cal.3d 28",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2274675
+      ],
+      "pin_cites": [
+        {
+          "page": "43"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/6/0028-01"
+      ]
+    },
+    {
+      "cite": "278 P.3d 1242",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "142 Cal.Rptr.3d 893",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 Cal.4th 643",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        5720765
+      ],
+      "pin_cites": [
+        {
+          "page": "654"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/54/0643-01"
+      ]
+    },
+    {
+      "cite": "957 P.2d 869",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "76 Cal.Rptr.2d 180",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 Cal.4th 470",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        344164
+      ],
+      "pin_cites": [
+        {
+          "page": "490, fn. 12"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/18/0470-01"
+      ]
+    },
+    {
+      "cite": "414 P.2d 353",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1998,
+      "opinion_index": 0
+    },
+    {
+      "cite": "51 Cal.Rptr. 225",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1998,
+      "opinion_index": 0
+    },
+    {
+      "cite": "64 Cal.2d 574",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        12132958
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "587"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/64/0574-01"
+      ]
+    },
+    {
+      "cite": "783 P.2d 200",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "264 Cal.Rptr. 841",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "49 Cal.3d 1212",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1974318
+      ],
+      "pin_cites": [
+        {
+          "page": "1217"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/49/1212-01"
+      ]
+    },
+    {
+      "cite": "999 P.2d 666",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "96 Cal.Rptr.2d 441",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "23 Cal.4th 101",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        277043
+      ],
+      "pin_cites": [
+        {
+          "page": "107"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/23/0101-01"
+      ]
+    },
+    {
+      "cite": "203 P.3d 425",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "91 Cal.Rptr.3d 106",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Cal.4th 1172",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3892652
+      ],
+      "pin_cites": [
+        {
+          "page": "1181"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/45/1172-01"
+      ]
+    },
+    {
+      "cite": "74 Cal.Rptr.3d 912",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "162 Cal.App.4th 18",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6049174
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/162/0018-01"
+      ]
+    },
+    {
+      "cite": "96 P.3d 170",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "17 Cal.Rptr.3d 877",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "34 Cal.4th 283",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        633002
+      ],
+      "pin_cites": [
+        {
+          "page": "312"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-4th/34/0283-01"
+      ]
+    },
+    {
+      "cite": "2 P.3d 1066",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "97 Cal.Rptr.2d 512",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "23 Cal.4th 450",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        277023
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-4th/23/0450-01"
+      ]
+    },
+    {
+      "cite": "911 P.2d 1374",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "50 Cal.Rptr.2d 699",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "12 Cal.4th 979",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1957533
+      ],
+      "pin_cites": [
+        {
+          "page": "986"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-4th/12/0979-01"
+      ]
+    },
+    {
+      "cite": "302 P.2d 5",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1996,
+      "opinion_index": 1
+    },
+    {
+      "cite": "47 Cal.2d 167",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2341374
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "173"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-2d/47/0167-01"
+      ]
+    },
+    {
+      "cite": "603 P.2d 1",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "160 Cal.Rptr. 84",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "25 Cal.3d 668",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2270569
+      ],
+      "pin_cites": [
+        {
+          "page": "681"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-3d/25/0668-01"
+      ]
+    },
+    {
+      "cite": "257 P.3d 748",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2005,
+      "opinion_index": 1
+    },
+    {
+      "cite": "129 Cal.Rptr.3d 145",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2005,
+      "opinion_index": 1
+    },
+    {
+      "cite": "52 Cal.4th 580",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3919622
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "587"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-4th/52/0580-01"
+      ]
+    },
+    {
+      "cite": "450 P.2d 580",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "75 Cal.Rptr. 188",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "70 Cal.2d 522",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2308197
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-2d/70/0522-01"
+      ]
+    },
+    {
+      "cite": "203 P.3d 425",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "91 Cal.Rptr.3d 106",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "45 Cal.4th 1172",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3892652
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-4th/45/1172-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1256,
+    "char_count": 36682,
+    "ocr_confidence": 0.916,
+    "pagerank": {
+      "raw": 1.2333767321474913e-07,
+      "percentile": 0.6062023307150339
+    },
+    "sha256": "35bd148e2cb31e2e17f4c93618d8f372db3230abdb22fb632cd30b9d1c4ace48",
+    "simhash": "1:bafccbcd6c1917f4",
+    "word_count": 5844
+  },
+  "last_updated": "2024-02-27T22:02:26.082259+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE, Plaintiff and Respondent, v. AMALIA CATHERINE BRYANT, Defendant and Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nLIU, J.\nDuring an altercation in an apartment they shared, defendant Amalia Catherine Bryant stabbed her boyfriend once in the chest, killing him. The jury convicted her of second degree murder. On appeal, the Court of Appeal reversed the murder conviction, concluding that the trial court erred by failing to sua sponte instruct the jury on voluntary manslaughter as a lesser included offense of murder on the theory that defendant killed without malice in the commission of an inherently dangerous assaultive felony. We granted review to decide whether such a theory of voluntary manslaughter exists and whether the trial court should have instructed sua sponte on that theory. We conclude that such a killing is not voluntary manslaughter and that the trial court therefore did not err in failing to so instruct the jury. Accordingly, we reverse the judgment of the Court of Appeal.\nI.\nOn November 24, 2005, neighbors responded to the apartment in which defendant lived with her boyfriend Robert Golden to find defendant screaming and Golden lying facedown in the front doorway. Defendant was pleading with Golden to \u201cwake up.\u201d Golden had a stab wound to the chest and no pulse; he was pronounced dead at the hospital. During two police interviews and in testimony at trial, defendant later recounted what happened. She stated that during a physical altercation, she grabbed a knife from the kitchen and threatened to hurt Golden if he did not let her leave. Golden lunged for the knife, and the two struggled over it. Defendant broke free with the knife in her hand. When Golden then came toward defendant, she made a thrusting motion at him with the knife, and it went into his chest. Defendant claimed she never intended to kill Golden.\nThe trial court instructed the jury regarding first degree premeditated murder, second degree murder, and voluntary manslaughter based upon heat of passion and unreasonable self-defense, as well as the defense of reasonable self-defense. The jury convicted defendant of second degree murder and found true the allegation that she personally used a deadly weapon. The trial court sentenced defendant to 15 years to life in prison for murder plus a consecutive year for the weapon enhancement.\nOn appeal, defendant claimed the trial court erred by not sua sponte instructing on involuntary manslaughter as a lesser included offense of murder on the theory that defendant killed unlawfully in the commission of misdemeanor brandishing a weapon or in the commission of a lawful act committed with criminal negligence. The Attorney General responded that defendant\u2019s conduct exceeded brandishing a weapon and that no evidence showed she had performed a lawful act negligently. Thereafter, on its own initiative, the Court of Appeal requested supplemental briefing on the following question: \u201cDid the trial court commit reversible error by not instructing the jury sua sponte that an unintentional killing without malice during the course of [an] inherently dangerous assaultive felony constitutes voluntary manslaughter? (See People v. Garcia (2008) 162 Cal.App.4th 18 [74 Cal.Rptr.3d 912].)\u201d The Court of Appeal instructed the parties to \u201cassume that the People are correct that there is substantial evidence that appellant committed, at a minimum, a felony assault with a deadly weapon (Pen. Code, \u00a7 245, subd. (a)(1)).\u201d Defendant argued that the trial court should have the jury instructed on voluntary manslaughter based upon that theory, and that the error was prejudicial. The Attorney General responded that there was no evidentiary basis for the instruction and, alternatively, that any error was harmless. The Court of Appeal reversed defendant\u2019s murder conviction, concluding that \u201cthe trial court erred in failing to instruct the jury on the lesser included offense of voluntary manslaughter, based on the theory articulated in Garcia.\u201d We granted the Attorney General\u2019s petition for review and now reverse.\nII.\nMurder is defined as \u201cthe unlawful killing of a human being, or a fetus, with malice aforethought.\u201d (Pen. Code, \u00a7 187, subd. (a); all further statutory references are to the Penal Code.) Malice aforethought \u201cmay be express or implied. It is express when there is manifested a deliberate intention unlawfully to take away the life of a fellow creature. It is implied, when no considerable provocation appears, or when the circumstances attending the killing show an abandoned and malignant heart.\u201d (\u00a7 188.) As we have noted, the statutory definition of implied malice \u201cis quite vague\u201d and \u201cpermits, even requires, judicial interpretation.\u201d (People v. Chun (2009) 45 Cal.4th 1172, 1181 [91 Cal.Rptr.3d 106, 203 P.3d 425] (Chun); see People v. Lasko (2000) 23 Cal.4th 101, 107 [96 Cal.Rptr.2d 441, 999 P.2d 666] (Lasko); People v. Dellinger (1989) 49 Cal.3d 1212, 1217 [264 Cal.Rptr. 841, 783 P.2d 200] [\u201cThe statutory definition of implied malice has never proved of much assistance in defining the concept in concrete terms.\u201d].) \u201cWe have interpreted implied malice as having \u2018both a physical and a mental component. The physical component is satisfied by the performance of \u201can act, the natural consequences of which are dangerous to life.\u201d [Citation.] The mental component is the requirement that the defendant \u201cknows that his conduct endangers the life of another and . . . acts with a conscious disregard for life.\u201d [Citation.]\u2019 [Citation.]\u201d (Chun, at p. 1181; see People v. Phillips (1966) 64 Cal.2d 574, 587 [51 Cal.Rptr. 225, 414 P.2d 353], overruled on another ground in People v. Flood (1998) 18 Cal.4th 470, 490, fn. 12 [76 Cal.Rptr.2d 180, 957 P.2d 869] (Flood).)\n\u201cA defendant may also be found guilty of murder under the felony-murder rule. The felony-murder rule makes a tilling while committing certain felonies murder without the necessity of further examining the defendant\u2019s mental state.\u201d (Chun, supra, 45 Cal.4th at p. 1182.) \u201cUnder the felony-murder doctrine, when the defendant or an accomplice tills someone during the commission, or attempted commission, of an inherently dangerous felony, the defendant is liable for either first or second degree murder, depending on the felony committed. If the felony is listed in section 189, the murder is of the first degree; if not, the murder is of the second degree. [Citations.] Felony-murder liability does not require an intent to till, or even implied malice, but merely an intent to commit the underlying felony. [Citation.]\u201d (People v. Gonzalez (2012) 54 Cal.4th 643, 654 [142 Cal.Rptr.3d 893, 278 P.3d 1242], italics omitted; see Chun, at p. 1182.) \u201cThe felony-murder doctrine, whose ostensible purpose is to deter those engaged in felonies from tilling negligently or accidentally, operates to posit the existence of that crucial mental state\u2014and thereby to render irrelevant evidence of actual malice or the lack thereof\u2014when the tiller is engaged in a felony whose inherent danger to human life renders logical an imputation of malice on the part of all who commit it.\u201d (People v. Satchell (1971) 6 Cal.3d 28, 43 [98 Cal.Rptr. 33, 489 P.2d 1361], overruled on another ground in Flood, supra, 18 Cal.4th at p. 490, fn. 12.)\nAlthough we affirmed the constitutionality of the second degree felony-murder rule in Chun, we recognized that \u201cthe rale has often been criticized and, indeed, described as disfavored.\u201d (Chun, supra, 45 Cal.4th at p. 1188.) As such, we have \u201crestricted its scope in at least two respects to ameliorate its perceived harshness.\u201d (Ibid.) First, the second degree felony-murder rule applies only to felonies inherently dangerous to human life. (People v. Burroughs (1984) 35 Cal.3d 824, 829 [201 Cal.Rptr. 319, 678 P.2d 894] (Burroughs); People v. Williams (1965) 63 Cal.2d 452, 457 [47 Cal.Rptr. 7, 406 P.2d 647].) Second, we have limited the second degree felony-murder rule through the so-called merger doctrine articulated in People v. Ireland (1969) 70 Cal.2d 522 [75 Cal.Rptr. 188, 450 P.2d 580] (Ireland).\nIn Ireland, we concluded that second degree felony murder could not be predicated upon a killing during the commission of assault with a deadly weapon. We explained: \u201cTo allow such use of the felony-murder rule would effectively preclude the jury from considering the issue of malice aforethought in all cases wherein homicide has been committed as a result of a felonious assault\u2014a category which includes the great majority of all homicides. This kind of bootstrapping finds support neither in logic nor in law. We therefore hold that a second degree felony-murder instruction may not properly be given when it is based upon a felony which is an integral part of the homicide and which the evidence produced by the prosecution shows to be an offense included in fact within the offense charged.\u201d (Ireland, supra, 70 Cal.2d at p. 539.) We clarified in Chun that the merger rule applies when \u201cthe underlying felony is assaultive in nature,\u201d including situations where \u201cthe elements of the crime have an assaultive aspect. . . even if the elements also include conduct that is not assaultive.\u201d (Chun, supra, 45 Cal.4th at p. 1200.)\nThus, under the' felony-murder rule, a defendant who kills in the commission of an inherently dangerous felony not enumerated in section 189 is liable for second degree murder. However, under Ireland and Chun, if that inherently dangerous felony \u201cis assaultive in nature\u201d (Chun, supra, 45 Cal.4th at p. 1200), the felony-murder rule does not apply, and a defendant may not be found guilty of murder without proof of malice. Here, as the Court of Appeal reasoned, defendant, if she committed any crime at all, committed at least assault with a deadly weapon, an offense we assume to be inherently dangerous. Under the merger doctrine, that offense is an assaultive felony to which the felony-murder rule does not apply, and a defendant who kills in the commission of assault with a deadly weapon cannot be convicted of murder on that basis alone. Proof of malice is required. But suppose, as the Court of Appeal posited, that the killing was committed without malice. In that case, what offense has defendant committed?\nWe addressed a related question in Burroughs, in which we held that a killing without malice in the commission of a noninherently dangerous felony would constitute involuntary manslaughter if \u201ccommitted without due caution and circumspection.\u201d (Burroughs, supra, 35 Cal.3d at p. 835.) In that case, the defendant, a \u201cself-styled \u2018healer,\u2019 \u201d convinced a cancer patient to undergo the defendant\u2019s alternative treatments, culminating in \u201c \u2018deep\u2019 abdominal massages,\u201d which led to \u201ca massive hemorrhage\u201d causing the victim\u2019s death. (Id. at pp. 826-828.) The jury convicted the defendant of second degree felony murder on the theory that the killing occurred in the commission of felony practicing medicine without a license. Burroughs reversed the murder conviction, concluding that practicing medicine without a license could not support a felony-murder conviction because it was not an inherently dangerous felony. (Id. at pp. 829-833.) To give guidance to the trial court on remand, Burroughs said the defendant \u201cwas susceptible to a possible conviction of involuntary manslaughter.\u201d (Id. at p. 834.) Burroughs reasoned in part that the defendant in that case could not be convicted of voluntary manslaughter because there had been no evidence that the defendant had any intent to kill his victim. (Id. at p. 835, fn. 8.) This conclusion followed from our statements in a number of prior cases that intent to kill is an element of voluntary manslaughter. (See, e.g., People v. Forbs (1965) 62 Cal.2d 847, 852 [44 Cal.Rptr. 753, 402 P.2d 825]; People v. Bridgehouse (1956) 47 Cal.2d 406, 413 [303 P.2d 1018].)\nWe have since held, however, that intent to kill is not an element of voluntary manslaughter. (See Lasko, supra, 23 Cal.4th at pp. 108-111; People v. Blakeley (2000) 23 Cal.4th 82, 88-91 [96 Cal.Rptr.2d 451, 999 P.2d 675] (Blakeley).) In the context of heat of passion voluntary manslaughter, we reasoned in Lasko that \u201c[j]ust as an unlawful killing with malice is murder regardless of whether there was an intent to kill, an unlawful killing without malice (because of a sudden quarrel or heat of passion) is voluntary manslaughter, regardless of whether there was an intent to kill.\u201d (Lasko, at pp. 109-110.) In Blakeley, we rejected the defendant\u2019s claim that an unintentional killing in unreasonable self-defense constituted involuntary manslaughter, noting that the defendant\u2019s position was based on the erroneous \u201cassumption that intent to kill is a necessary element of voluntary manslaughter.\u201d (Blakeley, at p. 89.)\nGarcia, the decision on which the Court of Appeal below premised its holding, relied on these decisions in suggesting that a killing committed without malice in the commission of an inherently dangerous assaultive felony constitutes voluntary manslaughter. (People v. Garcia, supra, 162 Cal.App.4th at p. 31.) The defendant in Garcia struck the victim in the face with the butt of a shotgun. The victim fell, fractured his skull on the sidewalk, and died. The jury acquitted the defendant of murder but convicted him of voluntary manslaughter. (Id. at p. 23.) On appeal, the defendant argued that the trial court should have instructed the jury regarding involuntary manslaughter \u201cbecause there was substantial evidence the killing of [the victim] was committed without malice and without either an intent to kill or conscious disregard for human life and, therefore, was neither murder nor voluntary manslaughter.\u201d (Id. at p. 26.) Garcia accepted the premise that a killing without malice committed in the course of an inherently dangerous assaultive felony constitutes a form of manslaughter. (Id. at pp. 31-32.) However, it nevertheless rejected the defendant\u2019s claim. Garcia reasoned: \u201cIn light of the Supreme Court\u2019s holdings in [Blakeley] and [Lasko] that a specific intent to kill is not an element of the crime of voluntary manslaughter, and particularly its express disapproval of the statement in [Burroughs] . . . that proof of such an intent is required [citation], we . . . conclude an unlawful killing during the commission of an inherently dangerous felony, even if unintentional, is at least voluntary manslaughter.\u201d (Garcia, at p. 31, citations omitted.)\nThe Attorney General contends that such a killing cannot be voluntary manslaughter because \u201ceither intent to kill or a conscious disregard for life is an essential element of voluntary manslaughter.\u201d We understand the term \u201cconscious disregard for life\u201d to refer to the mental component of our definition of implied malice\u2014i.e., that the act which resulted in death be \u201c \u2018performed by a person who knows that his conduct endangers the life of another and who acts with conscious disregard for life\u2019 [citation].\u201d (Lasko, supra, 23 Cal.4th at p. 107; see ibid. [referring to this mental state \u201c[f]or convenience\u201d simply as \u201c \u2018conscious disregard for life\u2019 \u201d]; Chun, supra, 45 Cal.4th at p. 1182 [same].) We conclude that the Attorney General\u2019s understanding of voluntary manslaughter is correct.\nA defendant commits voluntary manslaughter when a homicide that is committed either with intent to kill or with conscious disregard for life\u2014and therefore would normally constitute murder\u2014is nevertheless reduced or mitigated to manslaughter. (See 2 LaFave, Substantive Criminal Law (2d ed. 2003) \u00a7 15.2(a), p. 493 [\u201cThe usual view of voluntary manslaughter . . . presupposes an intent to kill (or perhaps an intent to do serious injury or to engage in very reckless conduct), holding that in spite of the existence of this bad intent the circumstances may reduce the homicide to manslaughter.\u201d].) We have often described both provocation and unreasonable self-defense as \u201cnegating\u201d the malice required for murder or as causing that malice to be \u201cdisregarded.\u201d (See, e.g., People v. Milward (2011) 52 Cal.4th 580, 587 [129 Cal.Rptr.3d 145, 257 P.3d 748] [\u201cMalice is negated when the defendant kills as a result of provocation or in \u2018imperfect self-defense.\u2019 \u201d]; People v. Wright (2005) 35 Cal.4th 964, 966 [28 Cal.Rptr.3d 708, 111 P.3d 973] [\u201c[A]n actual, though unreasonable, belief in the need to defend oneself from an imminent threat of death or great bodily injury negates the malice element of murder, reducing the offense to manslaughter.\u201d]; Lasko, supra, 23 Cal.4th at p. 110 [\u201c \u2018[S]ince the homicide must be committed under circumstances which would otherwise be murder, defendant may act with the intent to kill or with any mental state which amounts to \u201cmalice\u201d; the malice is negated by the provocation and the offense is mitigated from murder to voluntary manslaughter.\u2019 (2 Wharton\u2019s Criminal Law (15th ed. 1994) \u00a7 155, pp. 347-348.)\u201d]; People v. Breverman (1998) 19 Cal.4th 142, 154 [77 Cal.Rptr.2d 870, 960 P.2d 1094] (Breverman) [\u201c[H]eat of passion and unreasonable self-defense reduce an intentional, unlawful killing from murder to voluntary manslaughter by negating the element of malice that otherwise inheres in such a homicide . . . .\u201d]; People v. Freel (1874) 48 Cal. 436, 437 (Freel) [\u201c[W]hen the mortal blow is struck in the heat of passion, excited by a quarrel, sudden, and of sufficient violence to amount to adequate provocation, the law, out of forbearance for the weakness of human nature, will disregard the actual intent and will reduce the offense to manslaughter.\u201d].)\nAlthough we have on occasion employed somewhat different formulations to define the offense of voluntary manslaughter, we have never suggested that it could be committed without either an intent to kill or a conscious disregard for life. In People v. Conley (1966) 64 Cal.2d 310 [49 Cal.Rptr. 815, 411 P.2d 911] (Conley), for example, we developed the doctrine, since abrogated by statute (see People v. Saille (1991) 54 Cal.3d 1103, 1113 [2 Cal.Rptr.2d 364, 820 P.2d 588]; In re Christian S. (1994) 7 Cal.4th 768, 774 [30 Cal.Rptr.2d 33, 872 P.2d 574]), that a defendant\u2019s diminished mental capacity could reduce murder to voluntary manslaughter. We reasoned that malice aforethought requires that a defendant possess an \u201cawareness of the obligation to act within the general body of laws regulating society\u201d and that diminished capacity could therefore preclude a defendant from having the requisite mens rea for murder. (Conley, supra, 64 Cal.2d at p. 322; cf. \u00a7 188 [now providing that \u201c[njeither an awareness of the obligation to act within the general body of laws regulating society nor acting despite such awareness is included within the definition of malice\u201d].) We applied similar logic in Flannel to justify the doctrine of imperfect self-defense, reasoning in part that \u201can individual cannot genuinely perceive the need to repel imminent peril or bodily injury and simultaneously be aware that society expects conformity to a different standard.\u201d (People v. Flannel (1979) 25 Cal.3d 668, 679 [160 Cal.Rptr. 84, 603 P.2d 1] (Flannel).)\nThe thrust of our reasoning in Conley and Flannel was that the offense constituted voluntary manslaughter instead of murder because a key element of malice aforethought was lacking, not because malice aforethought was actually present but was \u201cnegated\u201d or \u201cdisregarded\u201d due to some other consideration as in cases like Breverman, supra, 19 Cal.4th at page 154, and Freel, supra, 48 Cal. at page 437. Crucially, however, we did not hold in Conley or Flannel\u2014or in any other case applying similar logic (cf. In re Christian S., supra, 7 Cal.4th at pp. 778-780)\u2014that a killing could be voluntary manslaughter absent proof that the defendant possessed the other basic mental requirements of malice, namely, either intent to kill or conscious disregard for life. Indeed, in Conley and Flannel, we confronted only the question of whether diminished capacity or imperfect self-defense could reduce an intentional killing to voluntary manslaughter. (See Conley, supra, 64 Cal.2d at pp. 318, 323; Flannel, supra, 25 Cal.3d at p. 681.)\nThus, the offenses that constitute voluntary manslaughter\u2014a killing upon a sudden quarrel or heat of passion (\u00a7 192, subd. (a)), a killing in unreasonable self-defense (Flannel, supra, 25 Cal.3d 668), and, formerly, a tilling committed by one with diminished capacity (Conley, supra, 64 Cal.2d 310)\u2014are united by the principle that when a defendant acts with an intent to till or a conscious disregard for life (i.e., the mental state ordinarily sufficient to constitute malice aforethought), other circumstances relating to the defendant\u2019s mental state may preclude the jury from finding that the defendant acted with malice aforethought. But in all of these circumstances, a defendant convicted of voluntary manslaughter has acted either with an intent to till or with conscious disregard for life.\nIn concluding that intent is not a necessary element of voluntary manslaughter, Lasko and Blakeley did not hold that a defendant may be found guilty of voluntary manslaughter when he tills unintentionally and without conscious disregard for life. Instead, Lasko and Blakeley clarified that not all convictions for voluntary manslaughter must result from killings that would otherwise constitute intentional murder but for the circumstances negating malice. (See Lasko, supra, 23 Cal.4th at pp. 109-111; Blakeley, supra, 23 Cal.4th at p. 89.) Indeed, we were careful in Lasko and Blakeley to state our holding that an unintentional tilling may constitute voluntary manslaughter in terms that expressly acknowledged that the defendants in those cases had been acting \u201cwith conscious disregard for life\u201d and with the knowledge that their conduct was life endangering. (Lasko, supra, 23 Cal.4th at p. 104; Blakeley, supra, 23 Cal.4th at p. 85.) It was for this reason that the court in Blakeley observed that it had \u201cno quarrel\u201d with Justice Mosk\u2019s contention in dissent \u201cthat a defendant who tills in unreasonable self-defense may sometimes be guilty of involuntary manslaughter.\u201d (Blakeley, supra, 23 Cal.4th at p. 91; see id. at p. 99 (dis. opn. by Mosk, J.).) Because the court had concluded only that \u201ca defendant who, with the intent to kill or with conscious disregard for life, unlawfully tills in unreasonable self-defense is guilty of voluntary manslaughter\u201d (Blakeley, at p. 91), Justice Mosk likewise had \u201cno quarrel with [the majority\u2019s] view\u201d (id. at p. 99, fn. 2 (dis. opn. by Mosk, J.)).\nThe offenses we have held to constitute voluntary manslaughter are distinct from the offense we consider here. A defendant who has tilled without malice in the commission of an inherently dangerous assaultive felony must have tilled without either an intent to till or a conscious disregard for fife. Such a tilling cannot be voluntary manslaughter because voluntary manslaughter requires either an intent to till or a conscious disregard for life. To the extent that People v. Garcia, supra, 162 Cal.App.4th 18 suggested otherwise, it is now disapproved.\nBecause a tilling without malice in the commission of an inherently dangerous assaultive felony is not voluntary manslaughter, the trial court could not have erred in failing to instruct the jury that it was. We decline to address defendant\u2019s alternative contention that, because assault with a deadly weapon is not an inherently dangerous felony, the trial court erred in failing to instruct the jury on the theory of involuntary manslaughter recognized in Burroughs, supra, 35 Cal.3d 824. This contention was not considered by the Court of Appeal and is distinct from the question on which we granted review.\nCONCLUSION\nWe reverse the Court of Appeal\u2019s judgment reversing defendant\u2019s murder conviction and remand for further proceedings consistent with this opinion.\nCantil-Sakauye, C. J., Baxter, J., Werdegar, J., Chin, J., and Corrigan, J., concurred.",
+        "type": "majority",
+        "author": "LIU, J."
+      },
+      {
+        "text": "KENNARD, J., Concurring.\nDefendant was charged with murder after fatally stabbing her boyfriend during an argument. Defendant testified that she \u201cthrust [a] knife at\u201d the victim as he lunged at her, causing the knife to enter his chest, but the stabbing \u201cwasn\u2019t deliberate.\u201d\nThe trial court instructed the jury on first and second degree murder. The court also instructed the jury on voluntary manslaughter, a lesser offense necessarily included within the greater crime of murder, based on two theories: that defendant killed her boyfriend in a sudden quarrel or heat of passion, and that she killed him in an unreasonable, but genuine, belief in the necessity of self-defense. The jury convicted defendant of second degree murder.\nThe Court of Appeal reversed the judgment, holding that the trial court should have instructed the jury on a third theory of voluntary manslaughter. In the Court of Appeal\u2019s view, a killing without malice committed during an inherently dangerous assaultive felony is voluntary manslaughter, and here the jury could reasonably have concluded that the killing occurred during an assault with a deadly weapon (Pen. Code, \u00a7 245, subd. (a)(1)). Today this court\u2019s majority rejects that theory, holding that a killing done in this manner is not voluntary manslaughter. I agree. I write separately to set forth my views on a matter that, although not a ground on which this court granted review, is an important question closely connected to the facts of this case: Can an assault with a deadly weapon constitute an unlawful act that makes a killing occurring during the assault involuntary manslaughter? My answer is \u201cyes.\u201d\nI\nAs relevant here, involuntary manslaughter is statutorily defined as an unlawful killing that takes place \u201cin the commission of an unlawful act, not amounting to felony.'\u201d (\u00a7 192, subd. (b), italics added.) Unquestionably, a killing during an assault with a deadly weapon is a killing \u201cin the commission of an unlawful act.\u201d But what about the statute\u2019s immediately following phrase, \u201cnot amounting to felony?\u201d Did the Legislature, through that wording, intend to preclude a conviction for involuntary manslaughter when the killing happens during any unlawful act that is a felony? That is the issue I explore below.\nThe statutory phrase \u201cnot amounting to felony\u201d has its origins in the common law, which is a \u201cbody of judge-made law . . . developed originally in England . . . .\u201d (Garner, Dict. of Modern Legal Usage (2d ed. 1995) p. 177.) The phrase can be traced to the late 18th century, when Sir William Blackstone published his famous treatise, Commentaries on the Laws of England, which summarized English common law. (See People v. Stuart (1956) 47 Cal.2d 167, 173 [302 P.2d 5] [\u201cWords such as \u2018unlawful act, not amounting to felony\u2019 have been included in most definitions of manslaughter since the time of Blackstone ....\u201d]; see also People v. Wells (1996) 12 Cal.4th 979, 986 [50 Cal.Rptr.2d 699, 911 P.2d 1374] [same].)\nUnder that body of common law, a killing committed during a felony was murder (see Browne, Blackstone Commentaries on the Law (Gavit ed. 1941) p. 835 [\u201cAnd if one intends to commit felony, and undesignedly kills a man, it is murder.\u201d]; 1 Michie, A Treatise on the Law of Homicide (1914) p. 112 [\u201cThe mle of the common law is that when death occurs by the act of one who is in pursuit of an unlawful design, without any intention to kill, it will be either murder or manslaughter, according as the intended offense is a felony or only a misdemeanor.\u201d]; 1 Warren on Homicide (1938) \u00a7 74, p. 320 [same]). Thus, the common law phrase \u201cnot amounting to felony\u201d served to distinguish involuntary manslaughter from felony murder. That phrase eventually made its way into California\u2019s involuntary manslaughter statute, as discussed below.\nCalifornia\u2019s first penal law was the Crimes and Punishments Act of 1850 (Act of 1850) (Stats. 1850, ch. 99, p. 229). Section 25 defined involuntary manslaughter in these words: \u201cInvoluntary manslaughter shall consist in the killing of a human being, without any intent so to do; in the commission of an unlawful act, or a lawful act, which probably might produce such a consequence in an unlawful manner; Provided, that where such involuntary killing shall happen in the commission of an unlawful act, which in its consequences naturally tends to destroy the life of a human being, or is committed in the prosecution of a felonious intent, the offense shall be deemed and adjudged to be murder.\u201d (Stats. 1850, ch. 99, \u00a7 25, p. 231.)\nWhen the California Legislature thereafter, in 1872, enacted section 192 (defining both voluntary and involuntary manslaughter) as part of California\u2019s first Penal Code, it replaced the above quoted concluding proviso in section 25 of the Act of 1850 with the phrase \u201cnot amounting to felony.\u201d Recently, in People v. Chun (2009) 45 Cal.4th 1172 [91 Cal.Rptr.3d 106, 203 P.3d 425] (Chun), this court explained: \u201cThe proviso [in section 25] simply [made] clear that involuntary manslaughter does not include killings in the course of a felony, which remain murder. . . . The new section 192 merely simplified the definition of involuntary manslaughter by replacing the earlier proviso with the new language, \u2018not amounting to felony.\u2019 In this way, the Legislature avoided the awkwardness of having a broad definition of involuntary manslaughter followed by a proviso limiting that definition.\u201d (Chun, supra, at p. 1186.)\nThus, when the 1872 Legislature defined involuntary manslaughter in section 192 as a killing occurring \u201cin the commission of an unlawful act, not amounting to felony,\u201d it must have meant that a killing during an unlawful act is involuntary manslaughter unless the unlawful act is the type of felony that turns the killing into the greater crime of murder. Numerous felonies are of this type: A killing during any of the felonies specified in section 189 (arson, rape, carjacking, robbery, burglary, mayhem, kidnapping, train wrecking, and certain specified sex offenses) is first degree murder under the felony murder rule, and a killing during a nonassaultive felony that is inherently dangerous to life is second degree murder under the second degree felony-murder rule (see Chun, supra, 45 Cal.4th at pp. 1188, 1200). But the felony of assault with a deadly weapon is not listed in section 189\u2019s enumerated felonies. Nor is that offense a nonassaultive felony inherently dangerous to fife; rather, it is an assaultive felony, to which, Chun said, the second degree felony-murder rule does not apply. A killing during an assault with a deadly weapon can be murder if the prosecution proves that the defendant acted with malice aforethought; but the circumstance that a killing occurs during an assault with a deadly weapon does not make the killing murder, because assault with a deadly weapon is not one of the felonies described above. It follows, therefore, that a killing during an assault with a deadly weapon is involuntary manslaughter.\nMoreover, even if one were to assume that a killing during an assault with a deadly weapon is always murder, the killer could still be convicted of the lesser crime of involuntary manslaughter, because the phrase \u201cnot amounting to felony\u201d in section 192\u2019s subdivision (b) (describing involuntary manslaughter as a killing during an \u201cunlawful act, not amounting to felony\u201d) is not an element of involuntary manslaughter. On point here is this court\u2019s decision in People v. Rios (2000) 23 Cal.4th 450 [97 Cal.Rptr.2d 512, 2 P.3d 1066]. That case construed section 192\u2019s introductory sentence, which describes manslaughter as \u201cthe unlawful killing of a human being without malice.\u201d (Italics added.) The italicized words, Rios said, do not constitute an element of manslaughter (whether voluntary or involuntary), and a defendant who kills with malice can nevertheless be convicted of manslaughter, because the words \u201cwithout malice\u201d merely describe the difference between manslaughter and murder (an unlawful killing without malice can only be manslaughter, while an unlawful killing with malice is also murder). (Id. at pp. 465, 469; see People v. Milward (2011) 52 Cal.4th 580, 587 [129 Cal.Rptr.3d 145, 257 P.3d 748] [holding that under Rios\u2019s reasoning the phrase \u201cother than a firearm,\u201d as it appears in \u00a7 245\u2019s subd. (a)(1), which describes the crime of \u201cassault . . . with a deadly weapon . . . other than a firearm,\u201d is not an element of that crime].)\nSimilarly, the phrase \u201cnot amounting to felony\u201d in the involuntary manslaughter statute (\u00a7 192, subd. (b)) simply describes the difference between involuntary manslaughter and murder, namely, that a killing during an unlawful act \u201cnot amounting to felony\u201d is involuntary manslaughter, whereas a killing in the commission of certain felonies (see p. 973, ante) constitutes the greater crime of murder. Thus, the statutory phrase in question does not describe an element of involuntary manslaughter. Consequently, a killing committed during an unlawful act amounting to a felony is involuntary manslaughter, notwithstanding the appearance of the phrase \u201cnot amounting to felony\u201d in section 192\u2019s subdivision (b). Any other conclusion would lead to the absurdity that a defendant who killed in the commission of a less serious unlawful act (i.e., a misdemeanor) could be convicted of involuntary manslaughter, but a defendant who killed in the commission of a more serious unlawful act (i.e., a felony) could not.\nn\nI now turn to a jury instruction issue. Because the defense here presented evidence from which the jury could have reasonably concluded that defendant lacked malice, but killed while committing an assault with a deadly weapon (see p. 971, ante), a jury instruction on involuntary manslaughter as a lesser offense necessarily included within the charged crime of murder would have been proper. The trial court, however, had no duty to give such an instruction on its own initiative, as explained below.\nOrdinarily, a trial court must instruct the jury, even without a request, on any lesser included offense that \u201cfind[s] substantial support in the evidence.\u201d (People v. Haley (2004) 34 Cal.4th 283, 312 [17 Cal.Rptr.3d 877, 96 P.3d 170].) This duty arises from the court\u2019s obligation to \u201cinstruct on the general principles of law governing the case.\u201d (People v. Flannel (1979) 25 Cal.3d 668, 681 [160 Cal.Rptr. 84, 603 P.2d 1].) But a trial court has no duty to instruct on a legal principle that has been so \u201cobfuscated by infrequent reference and inadequate elucidation\u201d that it cannot be considered a general principle of law. (Ibid.) That is the case here. Therefore, the trial court here had no duty to instruct the jury, on the court\u2019s own initiative, on involuntary manslaughter, a lesser offense necessarily included in the charged crime of murder.\nAll statutory citations are to the Penal Code.\nAssault with a deadly weapon is not a felony in its purest sense but a \u201cwobbler,\u201d an offense that, at the prosecutor\u2019s discretion, can be charged as either a felony or a misdemeanor. For the purposes of my analysis here, however, I assume for the sake of argument that the term \u201cfelony\u201d in the phrase \u201cnot amounting to felony\u201d in section 192\u2019s subdivision (b) includes wobblers. For if assault with a deadly weapon is regarded as a misdemeanor, it necessarily qualifies as \u201can unlawful act, not amounting to felony\u201d under that subdivision, in which case a killing that occurs in the commission of such an offense is involuntary manslaughter, as explained in the text of this opinion.\nAlthough the second degree felony-murder rule \u201coriginally applied to all felonies\u201d (Chun, supra, 45 Cal.4th at p. 1188), the law has evolved such that not every felony can support a murder conviction under the second degree felony-murder rule. This court held in Chun that the rule does not apply to assaultive felonies because of the \u201cmerger doctrine,\u201d which originated in this court\u2019s decision in People v. Ireland (1969) 70 Cal.2d 522 [75 Cal.Rptr. 188, 450 P.2d 580]. \u201cThe merger doctrine developed due to the understanding that the underlying felony must be an independent crime and not merely the killing itself. Thus, certain underlying felonies \u2018merge\u2019 with the homicide and cannot be used for purposes of felony murder.\u201d (Chun, supra, 45 Cal.4th at p. 1189.)",
+        "type": "concurrence",
+        "author": "KENNARD, J., Concurring."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Anthony J. Dain, under appointment by the Supreme Court, and Eric R. Larson for Defendant and Appellant.",
+      "Kamala D. Harris, Attorney General, Dane R. Gillette, Chief Assistant Attorney General, Gary W. Schons and Julie L. Garland, Assistant Attorneys General, James H. Flaherty HI, Steven T. Getting, Kristen Kinnaird Chenelia and Lynne McGinnis, Deputy Attorneys General, for Plaintiff and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. S196365.\nJune 3, 2013.]\nTHE PEOPLE, Plaintiff and Respondent, v. AMALIA CATHERINE BRYANT, Defendant and Appellant.\nCounsel\nAnthony J. Dain, under appointment by the Supreme Court, and Eric R. Larson for Defendant and Appellant.\nKamala D. Harris, Attorney General, Dane R. Gillette, Chief Assistant Attorney General, Gary W. Schons and Julie L. Garland, Assistant Attorneys General, James H. Flaherty HI, Steven T. Getting, Kristen Kinnaird Chenelia and Lynne McGinnis, Deputy Attorneys General, for Plaintiff and Respondent."
+  },
+  "file_name": "0959-01",
+  "first_page_order": 997,
+  "last_page_order": 1013
+}

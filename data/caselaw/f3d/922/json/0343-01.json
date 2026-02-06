@@ -1,0 +1,111 @@
+{
+  "id": 12520927,
+  "name": "UNITED STATES of America, Plaintiff-Appellee, v. Myshawn BONDS, Defendant-Appellant.",
+  "name_abbreviation": "U.S. v. Bonds",
+  "decision_date": "2019-04-24",
+  "docket_number": "No. 18-2670",
+  "first_page": "343",
+  "last_page": "346",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "922 F.3d 343"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "7th Cir.",
+    "id": 9010,
+    "name": "United States Court of Appeals for the Seventh Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "568 U.S. 237",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12407425
+      ],
+      "weight": 3,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "247-49"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/568/0237-01"
+      ]
+    },
+    {
+      "cite": "831 F.3d 931",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4349957
+      ],
+      "year": 2016,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/831/0931-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 2113",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 602,
+    "char_count": 9373,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2592813326182337
+    },
+    "sha256": "dbbeca0834d1bb83aaee23e45a5e7d2255e2bfc4f65d85420f9146ae6cb4b077",
+    "simhash": "1:dd653fe238ab3a46",
+    "word_count": 1431
+  },
+  "last_updated": "2024-02-27T18:46:53.504629+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Easterbrook, Kanne, and Scudder, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff-Appellee,\nv.\nMyshawn BONDS, Defendant-Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Easterbrook, Circuit Judge.\nA jury convicted Myshawn Bonds of bank robbery, 18 U.S.C. \u00a7 2113(a), and a judge sentenced him to sixty months' imprisonment plus three years' supervised release. The evidence against him included the testimony of Kira Glass, a fingerprint examiner in the FBI's Latent Print Operations Unit. Glass concluded that Bonds's fingerprints appeared on the demand notes used in the two robberies.\nIn 2004 the Latent Print Operations Unit incorrectly identified Brandon Mayfield as a person whose fingerprints suggested involvement in a terrorist bombing in Spain. Mayfield was arrested and held for more than two weeks as a material witness, until the FBI acknowledged that its assessment resulted from operational errors. The United States released Mayfield, apologized, and paid him substantial compensation. Bonds wanted to use this episode to illustrate for the jury the potential for mistakes in the application of a method that fingerprint analysts dub ACE-V, for analysis, comparison, evaluation, and verification. That method miscarried for Mayfield, and Bonds contended that it could miscarry for him too.\nBut the district judge concluded that evidence about Mayfield's arrest in 2004 would take the trial far afield from the question whether Bonds robbed two banks in 2015. The judge permitted Bonds to cross-examine Glass about the reliability of the ACE-V method and to present other evidence suggesting that the approach is more error-prone than jurors are likely to believe after watching forensic labs operate to perfection on television. Evidence about one particular error, the judge concluded, would be more distracting and time consuming than its incremental value could justify.\nBonds contends that the district court's decision to exclude evidence about Mayfield's mistaken identification and arrest violated the Confrontation Clause of the Constitution's Sixth Amendment. United States v. Rivas, 831 F.3d 931 (7th Cir. 2016), rejected an identical contention, holding that a district court did not violate the Constitution when excluding evidence about the Mayfield situation. Bonds asks us to distinguish Rivas on the ground that Glass works in the same FBI division that mistakenly identified Mayfield, but Bonds does not contend that Glass was involved in that error. Guilt by association would be a poor reason to deny a district judge the discretion otherwise available under Fed. R. Evid. 403.\nDefense counsel suggested at oral argument that jurors respond more strongly to concrete examples than to data about error rates. That may well be true-but it is a reason to limit the use of extrinsic evidence, not to require judges to admit it. Presenting jurors with details of one wrongful imprisonment (especially on a mistaken charge of terrorism) would appeal to their emotion rather than to their reason. Emotional responses can be strong, but reason should underlie a verdict.\nBonds had ample opportunity to supply the jury with evidence about the reliability of the ACE-V method, including the extent to which changes the FBI made in the last decade have improved its reliability. Shortly after the Mayfield fiasco the National Research Council concluded that the ACE-V method is too subjective and too unreliable to deserve the label \"scientific.\" Strengthening Forensic Science in the United States: A Path Forward 136-45 (2009). More recently, the President's Council of Advisors on Science and Technology concluded that changes in ACE-V have bolstered its accuracy. Forensic Science in the Criminal Courts: Ensuring Scientific Validity of Feature-Comparison Methods 87-103 (2016). This report concluded that the error rates shown by well-designed studies ranged from 1 in 18 to 1 in 604. (These are rates of false positives-incorrectly declaring a match when the prints differ-taking account of statistical confidence intervals.) The bottom line ( id. at 101-02; emphasis in original):\nFoundational validity. Based largely on two recent appropriately designed ... studies, [we find] that latent fingerprint analysis is a foundationally valid subjective methodology-albeit with a false positive rate that is substantial and is likely to be higher than expected by many jurors based on longstanding claims about the infallibility of fingerprint analysis.\nConclusions of a proposed identification may be scientifically valid, provided that they are accompanied by accurate information about limitations on the reliability of the conclusion-specifically, that (1) only two properly designed studies of the foundational validity and accuracy of latent fingerprint analysis have been conducted, (2) these studies found false positive rates that could be as high as 1 error in 306 cases in one study and 1 error in 18 cases in the other, and (3) because the examiners were aware they were being tested, the actual false positive rate in casework may be higher. At present, claims of higher accuracy are not warranted or scientifically justified. Additional ... studies are needed to clarify the reliability of the method.\nValidity as applied. Although we conclude that the method is foundationally valid, there are a number of important issues related to its validity as applied.\n(1) Confirmation bias. Work by FBI scientists has shown that examiners typically alter the features that they initially mark in a latent print based on comparison with an apparently matching exemplar. Such circular reasoning introduces a serious risk of confirmation bias. Examiners should be required to complete and document their analysis of a latent fingerprint before looking at any known fingerprint and should separately document any additional data used during their comparison and evaluation.\n(2) Contextual bias. Work by academic scholars has shown that examiners' judgments can be influenced by irrelevant information about the facts of a case. Efforts should be made to ensure that examiners are not exposed to potentially biasing information.\n(3) Proficiency testing. Proficiency testing is essential for assessing an examiner's capability and performance in making accurate judgments. As discussed elsewhere in this report, proficiency testing needs to be improved by making it more rigorous, by incorporating it within the flow of casework, and by disclosing tests for evaluation by the scientific community.\nFrom a scientific standpoint, validity as applied requires that an expert: (1) has undergone appropriate proficiency testing to ensure that he or she is capable of analyzing the full range of latent fingerprints encountered in casework and reports the results of the proficiency testing; (2) discloses whether he or she documented the features in the latent print in writing before comparing it to the known print; (3) provides a written analysis explaining the selection and comparison of the features; (4) discloses whether, when performing the examination, he or she was aware of any other facts of the case that might influence the conclusion; and (5) verifies that the latent print in the case at hand is similar in quality to the range of latent prints considered in the foundational studies.\nThis summary provides the defense bar with paths to cross-examine witnesses who used the ACE-V approach. Have they avoided confirmation bias? Have they avoided contextual bias? Has their proficiency been confirmed by testing? Cf. Florida v. Harris, 568 U.S. 237, 247-49, 133 S.Ct. 1050, 185 L.Ed.2d 61 (2013). And the report's observation about the rate of false positives will inform jurors that TV shows do not depict the actual state of latent fingerprint analysis. Bonds does not contest any restrictions the district court placed on how these matters were explored on cross-examination; his sole appellate contention is that the court erred by preventing reference to Mayfield.\nTo say that an error rate is troubling is not to suggest that ACE-V is too uncertain for use in litigation. Assessment must be comparative. What are the alternatives? Grainy pictures taken by bank surveillance cameras of robbers wearing masks, or confederates who testify for the prosecution, have problems of their own. Witnesses may lie on the stand; there is no science of credibility enabling jurors to detect who is telling the truth, and some witnesses who think that they are telling the truth nonetheless may be confused or incorrect. Eyewitness identification is notoriously subject to the vagaries of memory. A judicial system that relies heavily on fallible lay testimony cannot be improved by excluding professional analysis that may well have a lower error rate-or by diverting jurors' attention to particular errors made by other analysts years earlier. What the judicial system can do is subject the forensic evidence to cross-examination about a method's reliability and whether the witness took appropriate steps to reduce errors. Bonds enjoyed that opportunity.\nAFFIRMED",
+        "type": "majority",
+        "author": "Easterbrook, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Kalia Marquita Coleman, Attorney, OFFICE OF THE UNITED STATES ATTORNEY, Chicago, IL, for Plaintiff-Appellee.",
+      "Molly E. Armour, Attorney, LAW OFFICE OF MOLLY ARMOUR, Chicago, IL, for Defendant-Appellant."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff-Appellee,\nv.\nMyshawn BONDS, Defendant-Appellant.\nNo. 18-2670\nUnited States Court of Appeals, Seventh Circuit.\nArgued April 16, 2019\nDecided April 24, 2019\nKalia Marquita Coleman, Attorney, OFFICE OF THE UNITED STATES ATTORNEY, Chicago, IL, for Plaintiff-Appellee.\nMolly E. Armour, Attorney, LAW OFFICE OF MOLLY ARMOUR, Chicago, IL, for Defendant-Appellant.\nBefore Easterbrook, Kanne, and Scudder, Circuit Judges."
+  },
+  "file_name": "0343-01",
+  "first_page_order": 343,
+  "last_page_order": 346
+}

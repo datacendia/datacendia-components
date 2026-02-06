@@ -1,0 +1,61 @@
+{
+  "id": 12417224,
+  "name": "Rogers v. Dickinson, Warden",
+  "name_abbreviation": "Rogers v. Dickinson",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10774",
+  "first_page": "930",
+  "last_page": "930",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 930"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 156,
+    "ocr_confidence": 0.651,
+    "sha256": "cdc593fbe7b5984db202c78740a313512e9ac2350cafab3f1b8c110ee7314594",
+    "simhash": "1:8c532880f5cd24d6",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Breyer took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Rogers v. Dickinson, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.\nJustice Breyer took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10774.\nRogers v. Dickinson, Warden."
+  },
+  "file_name": "0930-10",
+  "first_page_order": 1006,
+  "last_page_order": 1006
+}

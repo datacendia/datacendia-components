@@ -1,0 +1,59 @@
+{
+  "id": 5911717,
+  "name": "Rivera v. United States",
+  "name_abbreviation": "Rivera v. United States",
+  "decision_date": "2011-04-25",
+  "docket_number": "No. 10-9699",
+  "first_page": "967",
+  "last_page": "967",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 967"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.641,
+    "sha256": "7086947660bc41a26b038e635973e36395aa0fe2515ed897dd7b87c73990745a",
+    "simhash": "1:8208db23eabeb33c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rivera v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9699.\nRivera v. United States."
+  },
+  "file_name": "0967-03",
+  "first_page_order": 993,
+  "last_page_order": 993
+}

@@ -50,7 +50,7 @@ export type {
   ModelState
 } from './DeterministicReplayService.js';
 
-// QR Air-Gap Bridge - Zero-media transfer
+// QR Air-Gap Bridge - No-USB, no-network transfer via QR sequencing
 export { qrAirGapBridgeService, QRAirGapBridgeService } from './QRAirGapBridgeService.js';
 export type { 
   QRPayload, 
@@ -113,17 +113,17 @@ export type {
 // =============================================================================
 
 export const SOVEREIGN_SERVICES = {
-  dataDiode: 'Unidirectional data ingest - "We never make outbound calls"',
-  localRLHF: 'Zero-cloud learning - "Your AI learns your judgment locally"',
+  dataDiode: 'Unidirectional data ingest - "Inbound-only data flow"',
+  localRLHF: 'Zero-cloud learning - "Local RLHF with LoRA adapters"',
   decisionDNA: 'Audit export - "One-click audit artifact for regulators"',
-  shadowCouncil: 'Sandbox mode - "Test radical ideas without record"',
-  deterministicReplay: 'Reproducibility - "Re-run any decision, get identical output"',
-  qrAirGapBridge: 'Zero-media sync - "Transfer across air gaps without physical media"',
-  canaryTripwires: 'Leak detection - "We\'ll know if data ever leaks"',
+  shadowCouncil: 'Sandbox mode - "Test scenarios without ledger impact"',
+  deterministicReplay: 'Reproducibility - "Bit-perfect decision replay"',
+  qrAirGapBridge: 'Air-gap transfer - "No-USB, no-network via QR sequencing (encrypted + signed)"',
+  canaryTripwires: 'Leak detection - "Honeytokens for exfiltration detection"',
   tpmAttestation: 'Hardware signing - "Cryptographic proof on specific machine"',
-  timeLock: 'Embargo - "Impossible to leak early—cryptographically"',
-  federatedMesh: 'Multi-site - "Learn across sites without connectivity"',
-  portableInstance: 'USB deploy - "Boot Datacendia from a thumb drive"',
+  timeLock: 'Embargo - "Cryptographic time-lock under defined compute assumptions"',
+  federatedMesh: 'Multi-site - "Offline delta exchange for federated collaboration"',
+  portableInstance: 'USB deploy - "Bootable sovereign instance configuration"',
 } as const;
 
 export const SOVEREIGN_VERSION = '1.0.0';

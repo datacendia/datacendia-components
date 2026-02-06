@@ -6,7 +6,7 @@
 import { describe, it, expect, beforeAll } from 'vitest';
 
 // Keycloak test configuration
-const KEYCLOAK_URL = 'http://localhost:8080';
+const KEYCLOAK_URL = 'http://localhost:8180';
 const REALM = 'cendia';
 const CLIENT_ID = 'cendia-api';
 const CLIENT_SECRET = 'cendia-test-secret';

@@ -1,0 +1,59 @@
+{
+  "id": 6016027,
+  "name": "Odum v. New York",
+  "name_abbreviation": "Odum v. New York",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5608",
+  "first_page": "931",
+  "last_page": "931",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 931"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 92,
+    "ocr_confidence": 0.615,
+    "sha256": "8a187bd506603ab277af129ca7a4b545874aa6ebf722946da4257a4e0ca383c6",
+    "simhash": "1:43b6424c61b5f132",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Odum v. New York."
+    ],
+    "opinions": [
+      {
+        "text": "App. Div., Sup. Ct. N. Y., 4th Jud. Dept. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5608.\nOdum v. New York."
+  },
+  "file_name": "0931-07",
+  "first_page_order": 953,
+  "last_page_order": 953
+}

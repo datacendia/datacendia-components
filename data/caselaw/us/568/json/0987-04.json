@@ -1,0 +1,59 @@
+{
+  "id": 12420826,
+  "name": "Baczynski v. Holder, Attorney General",
+  "name_abbreviation": "Baczynski v. Holder",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 12-6089",
+  "first_page": "987",
+  "last_page": "987",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 987"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 87,
+    "ocr_confidence": 0.648,
+    "sha256": "5818083d0413cae187e8af1694de4e809acf8c5522226e08699942556072927b",
+    "simhash": "1:40094e28452d3456",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Baczynski v. Holder, Attorney General."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6089.\nBaczynski v. Holder, Attorney General."
+  },
+  "file_name": "0987-04",
+  "first_page_order": 1063,
+  "last_page_order": 1063
+}

@@ -1,0 +1,902 @@
+{
+  "id": 2260367,
+  "name": "Pearl Hilley v. Garland Hilley",
+  "name_abbreviation": "Hilley v. Hilley",
+  "decision_date": "1961-01-25",
+  "docket_number": "No. A-7563",
+  "first_page": "569",
+  "last_page": "584",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "161 Tex. 569"
+    },
+    {
+      "type": "parallel",
+      "cite": "342 S.W.2d 565"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "273 S.W. 799",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        2279811,
+        10320252
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/114/0535-01",
+        "/sw/273/0799-01"
+      ]
+    },
+    {
+      "cite": "114 Texas 535",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2279811
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/114/0535-01"
+      ]
+    },
+    {
+      "cite": "253 S.W. 2d 953",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10223250
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/253/0953-01"
+      ]
+    },
+    {
+      "cite": "305 S.W. 2d 817",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10179839
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/305/0817-01"
+      ]
+    },
+    {
+      "cite": "343 Pac. 2d 867",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 Wash. 2d 616",
+      "category": "reporters:state",
+      "reporter": "Wash. 2d",
+      "case_ids": [
+        1013591
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/wash-2d/54/0616-01"
+      ]
+    },
+    {
+      "cite": "37 A.L.R. 2d 1216",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "64 So. 2d 234",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9910454
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/64/0234-01"
+      ]
+    },
+    {
+      "cite": "222 La. 962",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2898317,
+        9910454
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/222/0961-01",
+        "/so2d/64/0234-01"
+      ]
+    },
+    {
+      "cite": "169 S.W. 2d 962",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10223334
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/169/0962-01"
+      ]
+    },
+    {
+      "cite": "140 Texas 538",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "172 S.W. 2d 307",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2308518,
+        10207759
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/141/0299-01",
+        "/sw2d/172/0307-01"
+      ]
+    },
+    {
+      "cite": "141 Texas 299",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2308518
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/141/0299-01"
+      ]
+    },
+    {
+      "cite": "288 S.W. 2d 481",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10174100,
+        2250974
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/288/0481-01",
+        "/tex/155/0413-01"
+      ]
+    },
+    {
+      "cite": "155 Texas 413",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2250974
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/155/0413-01"
+      ]
+    },
+    {
+      "cite": "168 A.L.R. 337",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "197 S.W. 2d 105",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2335026,
+        10187132
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/145/0245-01",
+        "/sw2d/197/0105-01"
+      ]
+    },
+    {
+      "cite": "145 Texas 245",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2335026
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/145/0245-01"
+      ]
+    },
+    {
+      "cite": "56 L.R.A. 585",
+      "category": "reporters:federal",
+      "reporter": "L.R.A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "63 S.W. 624",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "94 Texas 567",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2233538
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/94/0567-01"
+      ]
+    },
+    {
+      "cite": "352 U.S. 29",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6159107
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/352/0029-01"
+      ]
+    },
+    {
+      "cite": "158 A.L.R. 470",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "184 S.W. 2d 823",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2338509,
+        10219807
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/143/0307-01",
+        "/sw2d/184/0823-01"
+      ]
+    },
+    {
+      "cite": "143 Texas 307",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2338509
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/143/0307-01"
+      ]
+    },
+    {
+      "cite": "25 S.W. 2d 881",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10284415
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/25/0881-01"
+      ]
+    },
+    {
+      "cite": "276 S.W. 690",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10307290
+      ],
+      "pin_cites": [
+        {
+          "page": "691"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/276/0690-01"
+      ]
+    },
+    {
+      "cite": "79 S.W. 2d 1107",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10272251
+      ],
+      "pin_cites": [
+        {
+          "page": "1108"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/79/1107-01"
+      ]
+    },
+    {
+      "cite": "144 S.W. 2d 320",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10226539
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/144/0320-01"
+      ]
+    },
+    {
+      "cite": "130 Am. St. Rep. 869",
+      "category": "reporters:state",
+      "reporter": "Am. St. Rep.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "109 S.W. 911",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "101 Texas 490",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2263346
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/101/0490-01"
+      ]
+    },
+    {
+      "cite": "171 S.W. 2d 328",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2308461,
+        10207767
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/141/0134-01",
+        "/sw2d/171/0328-01"
+      ]
+    },
+    {
+      "cite": "141 Texas 134",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2308461
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/141/0134-01"
+      ]
+    },
+    {
+      "cite": "301 S.W. 2d 621",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2254030,
+        10181030
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/157/0240-01",
+        "/sw2d/301/0621-01"
+      ]
+    },
+    {
+      "cite": "157 Texas 240",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2254030
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/157/0240-01"
+      ]
+    },
+    {
+      "cite": "54 Texas 16",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2182826
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/54/0016-01"
+      ]
+    },
+    {
+      "cite": "220 S.W. 2d 637",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2332188,
+        10205461
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/148/0102-01",
+        "/sw2d/220/0637-01"
+      ]
+    },
+    {
+      "cite": "148 Texas 102",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2332188
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/148/0102-01"
+      ]
+    },
+    {
+      "cite": "66 S.W. 51",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "95 Texas 160",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2231337
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/95/0160-01"
+      ]
+    },
+    {
+      "cite": "56 Am. Dec. 41",
+      "category": "reporters:federal",
+      "reporter": "Am. Dec.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "7 Texas 6",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        6767432
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/7/0003-01"
+      ]
+    },
+    {
+      "cite": "30 A.L.R. 2d 1241",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "318 S.W. 2d 439",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2257137,
+        10165626
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/159/0280-01",
+        "/sw2d/318/0439-01"
+      ]
+    },
+    {
+      "cite": "159 Texas 280",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2257137
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/159/0280-01"
+      ]
+    },
+    {
+      "cite": "343 S.W. 2d 234",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2260345,
+        10152268
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/161/0594-01",
+        "/sw2d/343/0234-01"
+      ]
+    },
+    {
+      "cite": "161 Texas 594",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2260345
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/161/0594-01"
+      ]
+    },
+    {
+      "cite": "319 S.W. 2d 447",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10168265
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/319/0447-01"
+      ]
+    },
+    {
+      "cite": "283 S.W. 2d 311",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10179887
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/283/0311-01"
+      ]
+    },
+    {
+      "cite": "220 S.W. 2d 489",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10200025
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/220/0489-01"
+      ]
+    },
+    {
+      "cite": "258 S.W. 2d 401",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10206082
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/258/0401-01"
+      ]
+    },
+    {
+      "cite": "130 S.W. 2d 327",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10234348
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/130/0327-01"
+      ]
+    },
+    {
+      "cite": "327 S.W. 2d 467",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10165912
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/327/0467-01"
+      ]
+    },
+    {
+      "cite": "215 S.W. 2d 867",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10267532,
+        2333789
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/215/0867-01",
+        "/tex/147/0404-01"
+      ]
+    },
+    {
+      "cite": "147 Texas 404",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2333789
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/147/0404-01"
+      ]
+    },
+    {
+      "cite": "19 S.W. 292",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "pin_cites": [
+        {
+          "page": "294"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "83 Texas 684",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2211546
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/83/0684-01"
+      ]
+    },
+    {
+      "cite": "37 A.L.R. 2d 1223",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R. 2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "15 A.L.R. 470",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "253 S.W. 2d 953",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10223250
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/253/0953-01"
+      ]
+    },
+    {
+      "cite": "37 A.L.R. 2d 1216",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R. 2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "64 So. 2d 234",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9910454
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/so2d/64/0234-01"
+      ]
+    },
+    {
+      "cite": "222 La. 962",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        2898317,
+        9910454
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/la/222/0961-01",
+        "/so2d/64/0234-01"
+      ]
+    },
+    {
+      "cite": "184 S.W. 2d 823",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2338509,
+        10219807
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/143/0307-01",
+        "/sw2d/184/0823-01"
+      ]
+    },
+    {
+      "cite": "143 Texas 307",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2338509
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/143/0307-01"
+      ]
+    },
+    {
+      "cite": "301 S.W. 2d 621",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2254030,
+        10181030
+      ],
+      "pin_cites": [
+        {
+          "page": "625"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/157/0240-01",
+        "/sw2d/301/0621-01"
+      ]
+    },
+    {
+      "cite": "157 Texas 240",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2254030
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/157/0240-01"
+      ]
+    },
+    {
+      "cite": "318 S.W. 2d 439",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2257137,
+        10165626
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/159/0280-01",
+        "/sw2d/318/0439-01"
+      ]
+    },
+    {
+      "cite": "159 Texas 280",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2257137
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/159/0280-01"
+      ]
+    },
+    {
+      "cite": "220 S.W. 2d 489",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10200025
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/220/0489-01"
+      ]
+    },
+    {
+      "cite": "130 S.W. 2d 327",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10234348
+      ],
+      "pin_cites": [
+        {
+          "page": "328"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/130/0327-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1223,
+    "char_count": 36154,
+    "ocr_confidence": 0.598,
+    "pagerank": {
+      "raw": 9.353150485176849e-07,
+      "percentile": 0.9803592796336775
+    },
+    "sha256": "a21fed2d16ef7ca552bebb97dac7da8bb79c16bcef012890e574cc5c89fc6207",
+    "simhash": "1:1abf845364988dc5",
+    "word_count": 6150
+  },
+  "last_updated": "2024-02-27T18:05:23.850581+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Pearl Hilley v. Garland Hilley."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Walker\ndelivered the opinion of the Court.\nThis is an action for a declaratory judgment to determine whether corporate stock purchased with community funds and issued in the names of the husband and wife \u201cas joint tenants with right of survivorship and not as tenants in common\u201d constitutes community property or belongs to the wife as her separate estate upon the husband\u2019s death. The trial court held that the stock is community property, and the Court of Civil Appeals affirmed. 327 S.W. 2d 467. We affirm the judgment of the Court of Civil Appeals.\nMrs. Pearl Hilley, petitioner, and W. E. Hilley were married in 1920 and lived together as husband and wife until his death in 1956. At the time the stock was purchased, W. E. Hilley instructed the broker in petitioner\u2019s presence to have the certificates issued in their joint names and in such manner and form that upon the death of either the securities would belong to the survivor. The certificates as delivered to and accepted by the husband contained the language quoted above. They were thereafter kept in a safety deposit box carried in the joint names of the husband and wife, but the contract with the bank contains no survivorship provision with reference to the box or its contents. Each of the parties had a key to the box and was authorized to enter the same at will. W. E. Hilley, who died intestate, was survived by petitioner and Garland Hilley, respondent. The latter is the son of W. E. Hilley by a former marriage.\nArticle 2580, Texas Rev. Civ. Stat. 1925, provided that where two or more persons held an estate jointly the interest of one who died before severance would vest in his heirs or legal representatives and not survive to the other joint owners. It was held in Chandler v. Kountze, Texas Civ. App., 130 S.W. 2d 327 (wr. ref.), that while the relationship of joint tenancy, including the doctrine of survivorship, was thereby abolished in situations where the same would otherwise have been created by law, the statute did not prevent the grantees in a deed from making an effective agreement among themselves that the property conveyed should pass to and vest in the survivor as at common law. A written survivor-ship contract covering a joint bank account was also upheld in Adams v. Jones, Texas Civ. App., 258 S.W. 2d 401 (no writ). When Article 2580 was carried into and became Section 46 of the Probate Code, the language of the earlier statute was preserved with the express proviso that \u201cby an agreement in writing of joint owners of property, the interest of any joint owner who dies may be made to survive to the surviving joint owner or joint owners, but no such agreement shall be inferred from the mere fact that the property is held in joint ownership.\u201d We assume for the purpose of this opinion that in view of the instructions given to the broker by the husband in the wife\u2019s presence, the issuance and acceptance of the stock certificates in their names as joint tenants with right of survivorship constitutes a written agreement within the meaning of the statute.\nThe Chandler and Adams cases did not involve community property or a survivorship agreement between husband and wife, but there are a number of Texas decisions which bear directly or indirectly on the question here presented. In Shroff v. Deaton, Texas Civ. App., 220 S.W. 2d 489 (no writ), community funds were deposited in a savings and loan association pursuant to an optional share subscription contract signed by the husband and wife. It provided that the stock was held by the association for their account as joint tenants with right of survivorship, and the trial court also found as a fact that a short time before his death the husband delivered the pass book to the wife and made a valid gift to her of all his interest in the stock. The Court of Civil Appeals expressed the view that the survivorship agreement should be enforced in the absence of fraud, undue influence, mistake or other infirmity, but then pointed out that if this conclusion was erroneous the trial court\u2019s finding of a valid gift made shortly before the husband\u2019s death would still stand as determinative of the whole case.\nAn agreement in substantially the same form was considered in Reed v. Reed, Texas Civ. App., 283 S.W. 2d 311 (no writ), and the court concluded that under our Constitution and statutes the husband and wife have no power to convert their community estate into the separate property of the survivor by such a contract. Three years later in Steffens v. Pollard, Texas Civ. App., 319 S.W. 2d 447 (affirmed on another ground, but now pending on motion for rehearing, [161 Texas 594, 343 S.W. 2d 234,]) the same court refused to follow the Reed case and held on the authority of our decision in Ricks v. Smith, 159 Texas 280, 318 S.W. 2d 439, that building and loan shares purchased with community funds vested in the wife at her husband\u2019s death because of the survivorship provision in the certificates.\nThe Ricks case involved United States Savings Bonds purchased by the husband with community funds and payable to the husband or wife as co-owners. He predeceased her without having cashed the bonds and after her death a controversy arose as to the ownership of the securities. The Treasury regulations applicable to bonds so issued provide that the surviving co-owner shall be recognized as the sole and absolute owner thereof. In affirming the judgment of the Court of Civil Appeals holding that the bonds vested in the wife at her husband\u2019s death, this Court said:\n\u201c* * * we agree with the Court of Civil Appeals that the purchase of the bonds was by a contract which created a property right, \u2014 not merely a method of payment for the convenience of the Treasury Department. There is no sanctity of the community property law above that of other types of law. To give supremacy to Federal regulations no more affects community property law than laws of descent and distribution. The solution as to the property rights of the surviving co-owner of \u2018or\u2019 bonds rests in contract, and that contract becomes a part of the bonds. The decisions in this jurisdiction cited in the opinion of the Court of Civil Appeals, while not deciding the precise question here presented, are certainly in harmony with the majority rule followed by that court. We, therefore, approve that holding.\u201d\nThe power of the husband and wife to transmute their community property into property held by the spouses in joint tenancy with right of survivorship has been recognized in other community property jurisdictions where the question has arisen. See Annotation 30 A.L.R. 2d 1241. As will be pointed out later, we are inclined to the view that the marital partners also have that power in Texas, but the question to be decided here is whether they may accomplish this result by purchasing securities or other property and having the same conveyed or transferred to them as joint tenants with right of survivorship.\nArticle XVI, Section 15, of the Constitution, and Article 4614 of the statutes define the wife\u2019s separate property as that owned or claimed by her before marriage and that acquired afterward by gift, devise or descent. The husband\u2019s separate property is defined in similar terms by Article 4613. Article 4619 provides that all property acquired by either the husband or wife during marriage, except that which is the separate property of either, shall be deemed community property. All marital property is thus either separate or community. If acquired before marriage by any method, or after marriage by gift, devise or descent, it is separate; otherwise it is community. There are only two exceptions. Property purchased with separate funds is separate, Love v. Robertson, 7 Texas 6, 56 Am. Dec. 41, and community property partitioned in the manner provided in Articles 4624a and 881a-23, becomes separate property.\nThe stock involved in this case was acquired by purchase during marriage, and by definition became community property unless the survivorship provision inserted in the certificates with the knowledge and consent of the husband and wife converted the same into the latter\u2019s separate property upon her husband\u2019s death. The parties clearly intended that result, but as pointed out in Kellett v. Trice, 95 Texas 160, 66 S.W. 51, \u201cthe question whether particular property is separate or community must depend upon the existence or non-existence of the facts, which, by the rules of law, give character to it, and not merely upon the stipulations that it shall belong to one class or the other. Thus, when one spouse passes to the other by gift his or her title to separate property, it could not become the community property of both, because the law declares that property so acquired shall be the separate property of the donee; and a gift by the husband to the wife of his interest in community property would become the separate property of the donee for the same reason. And so property acquired in the name of either spouse during marriage, otherwise than by gift, devise or descent, or in exchange for separate property, would, by force of the statute, be community property. It is true that in the acquisition or afterwards the husband may give to the wife all his interest in the property, and thus, by gift, make it hers; but at last this would be true only because the facts defined in the law exist, and the separate right is derived through a gift, the husband having full power over the community estate.\u201d See also Tittle v. Tittle, 148 Texas 102, 220 S.W. 2d 637. In Cox v. Miller, 54 Texas 16, it was said that while the husband may make a direct gift of his separate property or the community estate to his wife, the spouses cannot by a mere agreement change the character and nature of the rights and interest in property owned or acquired by them from that prescribed by law.\nThe survivorship agreement made by petitioner and her husband is not effective as a partition under Article XVI, Section 15, because it is not subscribed and acknowledged by both spouses as required in Article 4624a. It also is clear that the securities did not pass to petitioner by devise or descent, and no interest or right therein was acquired with her separate funds. There is nothing to suggest that Mr. Hilley made a gift in praesenti of all his interest in the stock. The parties did not intend that the same should immediately pass to petitioner as her separate property. Instead it was agreed that the securities would be held by the spouses as joint owners while both lived and then vest in the survivor upon the death of either.\nIf their contract is to be regarded as an agreement that the stock would remain community property as long as both parties lived and then pass to and become the separate property of the survivor, it clearly contravenes Article 4610. Persons intending to marry are there prohibited from making any agreement which would alter the legal order of descent. While the literal wording of the statute applies only to ante-nuptial agreements, the courts have extended its terms to post-nuptial agreements as a matter of public policy. See Weidner v. Crowther, 157 Texas 240, 301 S.W. 2d 621, and authorities there cited. Even if we disregard Article 4610 or hold that its provisions do not apply to survivorship agreements, the title which petitioner asserts had its inception in the contract she made with her husband and is therefore deemed to have been acquired during marriage for the purpose of determining its separate or community status. Colden v. Alexander, 141 Texas 134, 171 S.W. 2d 328; Creamer v. Briscoe, 101 Texas 490, 109 S.W. 911, 17 A.L.R. N.S. 154, 130 Am. St. Rep. 869; MacRae v. MacRae, Texas Civ. App., 144 S.W. 2d 320 (wr. ref.) If petitioner now owns the stock as her separate property, it must be the theory that when the same was purchased she acquired as a gift from her husband the right or interest therein which ripened into absolute ownership upon his death.\nA gift is a transfer of property made voluntarily and gratuitously. When an inter vivos transfer is made to either or both of the spouses during marriage, the separate or community character of the property is determined by looking to the consideration given in exchange for it. Any right, title or interest acquired for a valuable consideration paid out of the community necessarily becomes community property, and this is so whether the transfer be made by some third person or by one of the marital partners to the other.\nThe parties here did not merely agree that petitioner would own the securities in event she survived; it was also stipulated that the stock would vest in the husband if petitioner died first. Prior to the making of this agreement, each spouse owned a community one-half interest in the money used to purchase the stock. If the agreement had not been made, each would have acquired a similar interest in the stock with all of the rights and powers incident thereto. Each would have had the power to dispose of his or her interest by will or to permit the same to pass and vest in accordance with the statutes of descent and distribution. Under the terms of their contract if the same is effective, each relinquished at least some of the legal incidents of community ownership and received in lieu thereof the right to become absolute owner in the event he or she survived the other contracting party. If they became joint tenants, it is by virtue of a transaction in which each surrendered a community interest in exchange for the interest of a joint tenant. Aside from the fact that their life expectancies might not be the same, the right or interest acquired by the husband is no less valuable than that received by the wife. The detriment to the husband is no greater than that suffered by the wife. There is no gift then but an attempted transfer of a survivorship right or interest from each spouse to the other for a valuable consideration. Since the consideration paid by each is derived from the communitly estate, the right or interest which each expected to acquire necessarily remains part of that estate.\nIn this respect their agreement is not materially different from the deed involved in Pevehouse v. Lubbock National Bank, Texas Civ. App., 79 S.W. 2d 1107, 1108 (no writ). Community land was conveyed by the husband to his wife in consideration of her relinquishing all rights to other community property. It was held that the land which the deed purported to convey remained the community property of the parties, and the court said:\n\u201cThis instrument does not evidence a gift by the husband to the wife, since \u2018gift\u2019 means a voluntary transfer of property by one party to another without any consideration. If there is a consideration for the transfer, the rights of the parties to the trnasaction are contractual and determined by the law of contracts. Kearse v. Kearse et al. (Texas Com. App.), 276 S.W. 690, 691; Brito v. Slack (Texas Civ. App.) 25 S.W. 2d 881. * * * This instrument constituted an agreement between the husband and wife to divide or partition their community property and create therefrom a separate estate for each, which, so long as they continue their marital relation, is not authorized by law.\u201d\nAlthough supremacy of Federal regulations was mentioned in the majority opinion, the holding of the Ricks case is based on the premise that a husband who uses community funds to purchase U. S. Savings Bonds and has the same issued in the names of the spouses as co-owners thereby makes a contract with the government for the benefit of a third party, the wife. It stems from Edds v. Mitchell, 143 Texas 307, 184 S.W. 2d 823, 158 A.L.R. 470, where \u201cp. o. d.\u201d bonds purchased by a life tenant with power of disposition were likened to a policy of life insurance. The opinion in the Edds case states that a life insurance policy for the benefit of another is perhaps the best illustration of a contract for the benefit of a donee beneficiary, and that the situation of the parties to the bonds then under consideration was substantially the same as that of the parties to an insurance policy.\nAfter further consideration of the question, we are convinced that the Ricks decision cannot be reconciled with the provisions of our Constitution and statutes. The \u201ccontract\u201d which a purchaser of bonds makes with the government does not simply provide that the securities shall become the property of the other co-owner at the purchaser\u2019s death. It stipulates that if either co-owner dies, the surviving co-owner shall be recognized as sole and absolute owner. This is nothing more than a survivorship agreement although the contracting parties are usually the purchaser and the government rather than the two co-owners. Under the provisions of the Probate Code, the interest of a joint owner who dies may be made to survive only by agreement of the joint owners in writing. As applied to community property, the statute means that the interest of one spouse cannot survive to the other except by contract of the husband and wife. Such an agreement when made is for the mutual benefit of the contracting parties, and there is no semblance of a gift even though some third party may also agree to recognize the survivor as absolute owner. The fact that a third person is involved in the transaction, either as grantor, transferor, borrower, issuing corporation, depository, or otherwise, is thus of no legal consequence. Dealings with a third party cannot give rise to a survivorship interest unless the joint owners have the power to and do make an effective written contract so providing. There is no basis for saying that the spouses have even attempted to make such an agreement when one buys government bonds without the knowledge or consent of the other.\nIt is clear that the Federal regulations do not override our local laws in matters of purely private ownership where the interests of the United States are not involved. Bank of America National Trust & Savings Ass\u2019n. v. Parnell, 352 U.S. 29, 77 Sup. Ct. 119, 1 L. Ed. 2d 93. We might continue to treat \u201cor\u201d bonds purchased with community funds as though they were legally analogous to a life insurance contract and look to the insurance decisions for precedents in determiinng the ownership of such securities after the death of one co-owner. This or some equally unrealistic approach seems to be the only alternative to overruling the Ricks case if title is to vest in the husband when the wife dies first. Before Article 23 was amended to provide that the word \u201cproperty\u201d as used in the statutes would include life insurance policies and the effects thereof, it was generally held that in the absence of fraud the proceeds of a policy on the life of one spouse became the property of the designated benficiary although the premiums were paid with community funds. This was so even where the policy insured the wife\u2019s life in favor of her husband. The courts reasoned that an insurance contract is not property, and that the policy proceeds paid to the husband after the death of the insured wife were not acquired during marriage and therefore became his separate property. It was said that the husband as manager of the community was authorized to purchase the contract with community funds and that there should be no interference with his statutory right of control unless it was exercised in fraud of the wife\u2019s rights. See Martin v. McAllister, 94 Texas 567, 63 S.W. 624, 56 L.R.A. 585; Volunteer State Life Ins. Co. v. Hardin, 145 Texas 245, 197 S.W. 2d 105, 168 A.L.R. 337; Warthan v. Haynes, 155 Texas 413, 288 S.W. 2d 481. On the other hand the cash surrender value of a policy purchased with community funds was regarded as community property. Womack v. Womack, 141 Texas 299, 172 S.W. 2d 307. And the policy proceeds were treated as community property for inheritance tax purposes. Blackmon v. Hansen, 140 Texas 538, 169 S.W. 2d 962.\nThe decided cases demonstrate the difficulties that were encountered once the courts refused to recognize the property aspects of life insurance. There is no material difference between \u201cor\u201d bonds and other types of property, and any departure from established principles of community property law in dealing with the same will almost certainly lead to confusion and uncertainty as well as inconsistent or undesirable results in particular cases. The insurance decisions suggest that the wife\u2019s estate can be protected when she has been defrauded by her husband, but it will usually be difficult or impossible to establish actual fraud and we do not anticipate that constructive fraud will be defined with such clarity as to provide a satisfactory standard that will insure even reasonably fair treatment of the marital partners and their estates in the various situations that may arise. These considerations lead us to the conclusion that the Ricks case should be overruled, and we will not follow the same where \u201cor\u201d bonds are purchased with community funds and issued in the names of the spouses as co-owners. See Slater v. Culpepper, 222 La. 962, 64 So. 2d 234, 37 A.L.R. 2d 1216; In Re Allen\u2019s Estate, 54 Wash. 2d 616, 343 Pac. 2d 867.\nThis does not require that the holdings of Chamberlain v. Robinson, Texas Civ. App., 305 S.W. 2d 817 (wr. ref.), or McFarland v. Phillips, Texas Civ. App., 253 S.W. 2d 953 (wr. ref. n.r.e.) be disturbed. Community property apparently was not involved in those cases, and there seems to be no legal impediment to recognition of a contract for the benefit of a third party when the bonds are acquired with the purchaser\u2019s separate funds. The case in which bonds are purchased by one spouse with community funds and issued in his or her name and that of some third person as co-owners will be decided when it arises.\nWe do not think the Legislature in amending Article 2580 intended to modify other statutes and provide that separate ownership might result from a transaction which does not meet the requirements of Articles 4613, 4614, 4619, 4624a and 881a-23. In the first place, any such attempt could not be effectual in so far as the wife is concerned. Under the Constitution, property which she acquires during marriage in any manner other than by gift, devise, descent, purchase with separate funds, or partition as authorized by Articles 4624a and 881a-23, does not and cannot be made to constitute her separate property. Arnold v. Leonard, 114 Texas 535, 273 S.W. 799. In the second place and while we do not attempt to decide the question here, it seems that our Constitution and statutes already provide a method whereby the spouses may arrange for property which once constituted part of their community estate to vest in the survivor if the necessary formalities are observed. Community property may be partitioned in the manner provided in Article 4624a, and the portion set apart to each spouse thereupon becomes his or her separate estate. Article 4614 provides that the wife, if she is at least twenty-one years of age and elects in the manner set out therein, shall have the sole management, control and disposition of her separate property, and in connection therewith may contract without the joinder of her husband. If the wife thus acquires power to contract with the husband regarding her separate estate, there apparently is no legal reason for saying that they cannot make an effective survivorship agreement covering property separately owned by either or both. Under such circumstances the survivorship right or interest acquired by each at the time of making the contract would be by gift or purchase for a consideration paid out of separate property.\nAn amicus curiae brief suggests that the parties should be presumed to have intended to take any intervening steps that might be necessary to accomplish the result they desired. We are urged to say that Mr. Hilley first gave the community funds to petitioner and that the latter then used her separate property thus acquired to purchase the stock and create a joint tenancy with her husband. This argument, which has already been answered by the opinion in Kellett v. Trice, supra, implicitly recognizes that the agreement in the present case can be upheld only by resorting to legal fiction. A transaction in which each party receives something of value for that which is relinquished has none of the earmarks of and cannot be given the same legal effect as successive and unrelated gifts. We agree with the Court of Civil Appeals that instead of becoming petitioner\u2019s separate property upon her husband\u2019s death ,the stock passed and vested in accordance with the laws of descent and distribution applicable to community property. The question whether an issuing corporation will be protected when it deals with the survivor without notice that the stock was purchased with community funds is not presented or decided.\nThe judgment of the Court of Civil Appeals is affirmed.\nAssociate Justice Steakley not sitting.\nOpinion delivered January 25, 1961.\n. \u2014 Except as otherwise indicated all statutes are referred to by the article number under which they appear in Vernon\u2019s Annotated Texas Civil Statutes.",
+        "type": "majority",
+        "author": "Mr. Justice Walker"
+      },
+      {
+        "text": "Mr. Justice Norvell,\njoined by Justices Griffin and Culver, dissenting.\nI agree with the court that as a logical proposition Ricks v. Smith, 159 Texas 280, 318 S.W. 2d 439 should be overruled if the judgment of the Court of Civil Appeals is to be affirmed.\nIn the Ricks case this Court held that \u201cthe purchase of the (United States Savings) bonds was by a contract which created a property right, \u2014 not merely a method of payment for the convenience of the Treasury Department. There is no sanctity of the community property law above that of other types of law. To give supremacy to Federal regulations no more affects community property law than laws of descent and distribution. The solution as to the property rights of the surviving co-owner of \u2018or\u2019 bonds rests in contract, and that contract becomes a part of the bonds.\u201d\nIn the present case the securities in dispute, (mutual fund certificates) were issued to \u201cW. E. Hilley and Pearl Hilley as joint tenants with full right of survivorship and not as tenants in common.\u201d\nHowever, instead of overruling the Ricks case, I would reverse the judgment of the Court of Civil Appeals as being contrary thereto.\nWhen writing in opposition to a decision which overrules a case which is considered sound there is not much to be said other than that one regrets the departure of the departed. Ricks v. Smith speaks for itself. In my opinion it was supported in principle by Edds v. Mitchell, 143 Texas 307, 184 S.W. 2d 823, 15 A.L.R. 470; Shroff v. Deaton, Texas Civ. App., 220 S.W, 2d 489, no wr. hist., and McFarland v. Phillips, Texas Civ. App., 253 S.W. 2d 953, wr. ref. n.r.e., and is in accord with the weight of American authority on the point. In the annotation following the report of Slater v. Culpepper, 222 La. 962, 64 So. 2d 234 in the American Law Reports (37 A.L.R. 2d 1216) it is said that:\n\u201cThe rule followed by a majority of the courts, frequently called the \u2018majority rule,\u2019 with respect to rights in United States savings bonds registered in the names of two individuals in the alternative, upon the death of one of the co-owners, is that the surviving co-owner is vested with the sole ownership in such bonds, at least in the absence of fraud or other inequitable conduct on the part of the survivor.\u201d (37 A.L.R. 2d 1223).\nTexas is listed as one of the states following the majority rule along with California, another community property state.\nOne may well rest his argument upon the authorities mentioned along with the observation suggested in one of the briefs relating to the question before us:\nUnder modern social conditions there now exists a true family community wherein the wife upon the death of the husband succeeds to the head of the family and is conceded the competency to handle the family finances. The holding of securities under the contractual relationship here involved offers a means for the modern family to pool the husband\u2019s and wife\u2019s resources and keep them in a flexible state for use during the marriage and at the same time providing for unfettered passage of title of the whole to the surviving head of the family unit. There is no public policy upon which such an arrangement could infringe. In fact, public policy should be to foster such procedures.\nMr. and Mrs. Hilley purchased shares in the issuing corporations which carried with them certain contract rights which accrued to them as certificate holders. The rights which they acquired by contract and purchase were similar to those held by owners of the common law estate of joint tenancy, notably the right of survivorship. While at common law agreements attempting to \u201calter the legal orders of descent\u201d were not sanctioned, Protzel v. Schroeder, 83 Texas 684, 19 S.W. 292, 294, it was never considered that agreements giving rise to joint tenancies were comprehended by the rule. The right of survivorship arose with the purchase and acquisition of the title, and such expectancies as the heirs of either of the parties may have had were deflected, so to speak, by the contractual consequences incident to and a part of the property rights acquired. While the contractual interest to the property acquired was not a technical common law estate, the right of survivorship was clearly expressed and that is the matter with which we are here concerned. The right of the survivor to take the property upon dissolution of the marriage by death had its genesis in and arose from the contract of purchase. To receive and accept property under such arrangement is no more violative of the community property scheme of things than the purchase of a life estate with community funds would be. For property to be community it is not essential that it be held in fee simple. It is not required that the interest of the person who dies first should pass to his or her heirs, absent a valid testamentary provision. The clear import of the Ricks case supports these statements. I believe them to be sound and in accordance with an enlightened policy which in the absence of fraud would allow persons to freely contract and choose the species of property which they wish to possess. Accordingly, I dissent from the court\u2019s action in overruling Ricks v. Smith.\nI am further in disagreement with the court upon its holding that an agreement between husband and wife complying with the provisions of Article 46 of the Probate Code is insufficient as a tjasis for a right of survivorship in property purchased with community funds.\nIn Chandler v. Kountze, Texas Civ. App., 130 S.W. 2d 327, 328, wr. ref., it appeared that Texas Land & Cattle Company conveyed various tracts of land to Charles T Kountze and Luther L. Kountze \u201cas joint tenants, with all the rights of such tenants at common law including the right of survivorship.\u201d\nThe Court of Civil Appeals held that:\n\u201cWhile the wording of Article 2580 indicates a legislative intent to abolish the relationship of joint tenancy where it would otherwise have been created by law, including the common-law doctrine of survivorship, there is nothing in the subject matter of the act which would, in our opinion, justify the presumption that the legislature intended to thereby prevent the parties to a contract, a will, or a deed of conveyance, from providing among themselves that the property in question should pass to and vest in the survivor as at common law.\u201d\nAfter a rather exhaustive consideration of the American authorities, the court concluded that the provisions relating to survivorship were not void as being in contravention of the statute, \u201cbut that such provisions are valid and enforcible as the clearly, expressed intention and desires of the contracting parties.\u201d\nThis court refused a writ of error in the case and its soundness, as applied to the factual situation then before the court, has never been questioned.\nThe substance of Article 2580 now appears in Article 46 of the Probate Code, viz:\n\u201cWhere two ore more persons hold an estate, real, personal, or mixed, jointly, and one joint owner dies before severance, his interest in said joint estate shall not survive to the remaining joint owner or joint owners, but shall descend to, and be vested in, the heirs or legal representatives of such deceased joint owner in the same manner as if his interest had been severed and ascertained. Provided, however, that by an agreement in writing of joint owners of property, the interest of any joint oioner who dies may be made to survive to the surviving joint owner, or joint owners, but no such agreement shall be inferred from the mere fact that the property is held in joint ownership.\u201d\nThe proviso above italicized was added in 1955 at the time of the adoption of the Probate Code.\nIn adopting this proviso, the Legislature undoubtedly had in mind the decision in Chandler v. Kountze and legislated in regard thereto. The wording of the proviso is that joint owners may provide by an engagement in writing that the interest of any joint owner who dies may be made to survive to the surviving joint owner. It is not here disputed that at the time of inception of title; there was an agreement providing that the mutual fund shares involved should be held subject to the \u201cfull right of survivorship\u201d of the surviving joint owner. It seems therefore that we have direct statutory authority for the issuance of the form of security involved in this case.\nIt is the position of the court that while the holding of Chandler v. Kountze and the proviso of the statute above quoted may apply to properties purchased by husband wife using monies from their separate estates, they cannot be applied to properties purchased with community funds. It is contended that a husband and wife must first partition community property, as permitted by Article 16, section 15 of the Constitution and Article 4624a, Vernon\u2019s Ann. Texas Stats., before they may purchase securities of the type here involved, namely those carrying a valid contractual provision for the right of survivorship.\nThe court\u2019s holding seems to be that the use of community funds to purchase survivorship contracts in some way interfere with the provisions of Article 4610, Vernon\u2019s Texas Stats., which expressly proscribes pre-nuptial agreements altering the legal orders of descent and by implication render invalid post-nuptial agreements which would have that effect.\nDespite the provisions of Article 4610, this Court has held that mutual wills based on contract are enforceable in this State, in Weidner v. Crowther, 157 Texas 240, 301 S.W. 2d 621, 625, this court said:\n\u201cThe mutual will of Hugo and Sophie Weidner was not rendered invalid by Article 4610. Of equal dignity with Article 4610 is the statute which permits every person, competent under the provisions thereof, to dispose of his property by will, Texas Probate Code, sec. 57, V.A.T.S. Article 8281, Revised Civil Statutes of Texas 1925, repealed by adoption of the Probate Code.\u201d\nSee also, Graser v. Graser, 147 Texas 404, 215 S.W. 2d 867.\nCan it not be said with equal logic that a written agreement providing for contractual survivorship with reference to property is not rendered invalid by Article 4610? Of equal dignity with Article 4610 is the statute which permits joint owners of property by agreement in writing to provide that the interest of any joint owner who dies may be made to survive to the surviving joint owner or joint owners. I believe it can and would so construe the statutory enactments involved. On this basis as well as the rule of Ricks v. Smith, survivorship agreements should be upheld.\nFor the reasons set forth, I respectfully dissent from the order affirming the judgment of the Court of Civil Appeals.\nOpinion delivered January 25,1961.\nRehearing overruled March 1,1961.",
+        "type": "dissent",
+        "author": "Mr. Justice Norvell,"
+      }
+    ],
+    "attorneys": [
+      "Dunnam & Dunnam, of Waco, for petitioner.",
+      "Beard, Kultgen & Beard, of Waco, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "Pearl Hilley v. Garland Hilley.\nNo. A-7563.\nDecided January 25, 1961.\nRehearing Overruled March 1, 1961.\n(342 S.W. 2d Series 565)\nDunnam & Dunnam, of Waco, for petitioner.\nBeard, Kultgen & Beard, of Waco, for respondent."
+  },
+  "file_name": "0569-01",
+  "first_page_order": 583,
+  "last_page_order": 598
+}

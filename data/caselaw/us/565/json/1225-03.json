@@ -1,0 +1,59 @@
+{
+  "id": 12248601,
+  "name": "Edwards v. United States",
+  "name_abbreviation": "Edwards v. United States",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-8327",
+  "first_page": "1225",
+  "last_page": "1225",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1225"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.701,
+    "sha256": "1926014f2b508984f86cfe14b38db1fe8164fb0b0f42289e0400af98b869cda4",
+    "simhash": "1:9f3bca0b4687943e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Edwards v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8327.\nEdwards v. United States."
+  },
+  "file_name": "1225-03",
+  "first_page_order": 1307,
+  "last_page_order": 1307
+}

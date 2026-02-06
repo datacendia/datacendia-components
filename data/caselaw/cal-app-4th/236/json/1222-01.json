@@ -1,0 +1,590 @@
+{
+  "id": 6844650,
+  "name": "In re ROY THINNES BUTLER on Habeas Corpus",
+  "name_abbreviation": "In re Butler",
+  "decision_date": "2015-05-15",
+  "docket_number": "No. A139411",
+  "first_page": "1222",
+  "last_page": "1245",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "236 Cal. App. 4th 1222"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Dist. Ct. App.",
+    "id": 9209,
+    "name": "District Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "9 Pac. L.J. 1",
+      "category": "journals:journal",
+      "reporter": "Pac. L.J.",
+      "pin_cites": [
+        {
+          "page": "5, 16"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "87 Or. L.Rev. 783",
+      "category": "journals:journal",
+      "reporter": "Or. L. Rev.",
+      "pin_cites": [
+        {
+          "page": "786"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "241 P.3d 840",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "117 Cal.Rptr.3d 342",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "50 Cal.4th 1206",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3910267
+      ],
+      "pin_cites": [
+        {
+          "page": "1226"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/50/1206-01"
+      ]
+    },
+    {
+      "cite": "14 Cal.Rptr.3d 917",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "120 Cal.App.4th 175",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1109277
+      ],
+      "pin_cites": [
+        {
+          "page": "191"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/120/0175-01"
+      ]
+    },
+    {
+      "cite": "219 Cal.Rptr. 664",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "173 Cal.App.3d 1187",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2156600
+      ],
+      "pin_cites": [
+        {
+          "page": "1202"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/173/1187-01"
+      ]
+    },
+    {
+      "cite": "612 P.2d 966",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1985,
+      "opinion_index": 0
+    },
+    {
+      "cite": "165 Cal.Rptr. 876",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1985,
+      "opinion_index": 0
+    },
+    {
+      "cite": "27 Cal.3d 687",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2261869
+      ],
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "689"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/27/0687-01"
+      ]
+    },
+    {
+      "cite": "668 P.2d 697",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "194 Cal.Rptr. 390",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "34 Cal.3d 441",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4553604
+      ],
+      "pin_cites": [
+        {
+          "page": "479"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/34/0441-01"
+      ]
+    },
+    {
+      "cite": "157 P.3d 973",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1983,
+      "opinion_index": 0
+    },
+    {
+      "cite": "58 Cal.Rptr.3d 368",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1983,
+      "opinion_index": 0
+    },
+    {
+      "cite": "40 Cal.4th 1370",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3159281
+      ],
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "1426"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/40/1370-01"
+      ]
+    },
+    {
+      "cite": "89 Minn. L.Rev. 571",
+      "category": "journals:journal",
+      "reporter": "Minn. L. Rev.",
+      "pin_cites": [
+        {
+          "page": "589-593"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "58 Stan. L.Rev. 67",
+      "category": "journals:journal",
+      "reporter": "Stan. L. Rev.",
+      "pin_cites": [
+        {
+          "page": "74-79"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "534 P.2d 1001",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "121 Cal.Rptr. 97",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "14 Cal.3d 169",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2279708
+      ],
+      "pin_cites": [
+        {
+          "page": "175-183"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/14/0169-01"
+      ]
+    },
+    {
+      "cite": "537 P.2d 384",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "122 Cal.Rptr. 552",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "14 Cal.3d 639",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2279721
+      ],
+      "pin_cites": [
+        {
+          "page": "646-656"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/14/0639-01"
+      ]
+    },
+    {
+      "cite": "262 P.3d 568",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "132 Cal.Rptr.3d 358",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "52 Cal.4th 1018",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3919366
+      ],
+      "pin_cites": [
+        {
+          "page": "1027"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/52/1018-01"
+      ]
+    },
+    {
+      "cite": "174 P.3d 192",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "70 Cal.Rptr.3d 372",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 Cal.4th 945",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3673751
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/42/0945-01"
+      ]
+    },
+    {
+      "cite": "155 Cal.Rptr.3d 639",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "215 Cal.App.4th 596",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4264880
+      ],
+      "pin_cites": [
+        {
+          "page": "617"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/215/0596-01"
+      ]
+    },
+    {
+      "cite": "104 P.3d 783",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "23 Cal.Rptr.3d 417",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "34 Cal.4th 1061",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        633006
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "1096"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/34/1061-01"
+      ]
+    },
+    {
+      "cite": "652 P.2d 437",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "186 Cal.Rptr. 589",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "32 Cal.3d 668",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1950686
+      ],
+      "pin_cites": [
+        {
+          "page": "685"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/32/0668-01"
+      ]
+    },
+    {
+      "cite": "39 Cal.Rptr.3d 550",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "136 Cal.App.4th 1331",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3727206
+      ],
+      "pin_cites": [
+        {
+          "page": "1345"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/136/1331-01"
+      ]
+    },
+    {
+      "cite": "721 P.2d 65",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "228 Cal.Rptr. 184",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 Cal.3d 223",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4464491
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "229"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/42/0223-01"
+      ]
+    },
+    {
+      "cite": "569 P.2d 1303",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "141 Cal.Rptr. 315",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "20 Cal.3d 25",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2288543
+      ],
+      "pin_cites": [
+        {
+          "page": "46, fn. 18"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/20/0025-01"
+      ]
+    },
+    {
+      "cite": "667 P.2d 704",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1977,
+      "opinion_index": 0
+    },
+    {
+      "cite": "193 Cal.Rptr. 900",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1977,
+      "opinion_index": 0
+    },
+    {
+      "cite": "34 Cal.3d 311",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4553851
+      ],
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "318"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/34/0311-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1827,
+    "char_count": 55116,
+    "ocr_confidence": 0.864,
+    "pagerank": {
+      "raw": 6.93057228686388e-08,
+      "percentile": 0.42046080678834946
+    },
+    "sha256": "c8ce92bc490d338fc09638955c1cb4a3c5496f7a9d55e50052d2a5de61b6e44d",
+    "simhash": "1:fffb63004c4720db",
+    "word_count": 8714
+  },
+  "last_updated": "2024-02-27T23:08:12.832294+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Richman, J., and Stewart, J., concurred."
+    ],
+    "parties": [
+      "In re ROY THINNES BUTLER on Habeas Corpus."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nKLINE, P. J.\n-Roy Thinnes Butler, a parole-eligible life prisoner, challenged the constitutionality of the process used by the Board of Parole Hearings (Board) to determine whether prisoners such as him are suitable for release on parole. Specifically, he contended that the Board\u2019s practice of deferring the fixing of a prisoner\u2019s base term (which measures individual culpability for the commitment offense) and adjusted base term (which modifies the base term on the basis of factors relating to other offenses) until after he or she is deemed suitable for release, effectively eliminated any meaningful consideration of proportionality in sentencing during the most crucial portion of the parole process, and therefore facilitated imposition of constitutionally excessive punishment.\nBefore the completion of briefing, the parties settled their dispute by stipulating to an order of this court directing the Board to publicly announce and implement new policies and procedures that would result in the setting of base terms and adjusted base terms at life inmates\u2019 initial parole consideration hearings or, if that hearing had already taken place, at the next hearing resulting in a grant or denial of parole. We have issued that order.\nRemaining before the court is petitioner\u2019s motion for an award of reasonable attorney fees under Code of Civil Procedure section 1021.5 (section 1021.5). The motion raises two distinct issues: whether such fees may be awarded under section 1021.5 and, if so, the reasonable amount of such fees.\nBACKGROUND\nClaiming that the Board \u201cfailed to fix his term at a number of years proportionate to his crime,\u201d as required by law, Butler\u2019s petition focused on the Board\u2019s regulations and practice of deferring the setting of a base term for a parole-eligible life prisoner unless and until he or she is found suitable for release on parole. (Cal. Code Regs., tit. 15 (Regulations), \u00a7\u00a7 2282, subd. (a), 2403, subd. (a).) According to Butler, the challenged practice failed to comport with article I, section 17, of the California Constitution and the Eighth Amendment to the United States Constitution, deprived him and all parole-eligible life prisoners a fair parole hearing and the due process guaranteed by the state and federal Constitutions, and obstructed judicial review of claims that the denial of parole resulted in constitutionally excessive punishment.\nOn January 30, 2012, we ordered the appointment of counsel to represent Butler, investigate and research whether to file a supplemental petition to refine his claim, and determine the need for the discovery Butler sought. On February 11, 2013, we appointed Jon B. Streeter, then a partner in the firm of Keker & Van Nest, counsel for Butler.\nOn May 28, 2013, appointed counsel filed a supplemental petition for writ of habeas corpus refining the contentions Butler had asserted in his own behalf together with a motion for discovery. We issued an order to show cause on August 9, 2013, but deferred briefing on the constitutional claims until resolution of Butler\u2019s discovery motion. On the same day we issued an order directing the Board to produce some of the materials Butler requested and directed the parties to meet and confer regarding the remaining requests. On September 9, 2013, after they met and conferred, the parties filed a joint status report.\nSeveral weeks later, after the court conducted an informal discovery conference, counsel for the parties informed the court they wished to commence settlement discussions and requested designation of a justice of another division to facilitate that enterprise. Justice Jim Humes, then a member of Division Four of this court and now Presiding Justice of Division One, agreed to be so designated. Counsel for the parties, as well as the executive officer of the Board and its general- counsel, participated in three settlement conferences with Justice Humes.\nAt the final conference, on December 13, 2013, the parties settled the case by stipulating to an order of this court directing, among other things, that \u201cas soon as is practicable, the Board shall begin implementation of new policies and procedures that will result in the setting of base terms and adjusted base terms for life term inmates at their initial parole consideration hearing, or at the next scheduled parole consideration hearing that results in a grant of parole, a denial of parole, a tie vote, or a stipulated denial of parole.\u201d The stipulation also provided that \u201cthe Board will commence rulemaking proceedings designed to memorialize and embody said new policies and procedures.\u201d\nOn December 16, 2013, upon the request of the parties set forth in their stipulation, this court issued an order directing that \u201cthe Board shall, at the next publicly noticed Board meeting, announce a policy of calculating the base term and adjusted base term for all life inmates at the initial parole consideration hearing. The Board will implement this policy on the first day of the calendar month following the aforementioned meeting.\u201d\nOn October 21, 2014, Butler filed a motion requesting an award of reasonable attorney fees under section 1021.5. The amount sought is $439,421.65.\nThe Board maintains the motion is deficient in two respects; that Butler is not entitled to fees \u201cbecause the settlement agreement did not result in the enforcement of an important right affecting the public interest,\u201d as required by section 1021.5, and that, even if he is entitled to fees under the statute, the amount Butler requests is unreasonable. We disagree with the Attorney General\u2019s first contention, but agree with the second.\nL\nButler Is Entitled to an Award of Fees Under Section 1021.5\nAs material, section 1021.5 provides that \u201ca court may award attorneys\u2019 fees to a successful party ... in any action which has resulted in the enforcement of an important right affecting the public interest if: (a) a significant benefit, whether pecuniary or nonpecuniary, has been conferred on the general public or a large class of persons, (b) the necessity and financial burden of private enforcement, or of enforcement by one public entity against another public entity, are such as to make the award appropriate, and (c) such fees should not in the interest of justice be paid out of the recovery, if any.\u201d (\u00a7 1021.5.) \u201c \u2018The determination that the public policy vindicated is one of constitutional stature . . . establishes the first of the . . . elements requisite to the award (i.e., the relative societal importance of the public policy vindicated).\u2019 \u201d (Press v. Lucky Stores, Inc. (1983) 34 Cal.3d 311, 318 [193 Cal.Rptr. 900, 667 P.2d 704], quoting Serrano v. Priest (1977) 20 Cal.3d 25, 46, fn. 18 [141 Cal.Rptr. 315, 569 P.2d 1303].) Moreover, the California Supreme Court has recognized that prisoners\u2019 constitutional rights \u201creflect strong public policies, any institutional violation of which of necessity affects a large number of persons, most of whom are ill equipped by education, training, or financial ability to initiate and adequately prosecute legal actions to vindicate those rights without the assistance of counsel.\u201d (In re Head (1986) 42 Cal.3d 223, 229 [228 Cal.Rptr. 184, 721 P.2d 65].)\n\u201c[R]elief obtained through a settlement may qualify a [litigant] as the prevailing party, even in the presence of a stipulation disclaiming liability on the merits.\u201d (Lyons v. Chinese Hospital Assn. (2006) 136 Cal.App.4th 1331, 1345 [39 Cal.Rptr.3d 550].) \u201cThe critical fact is the impact of the action, not the manner of its resolution.\u201d (Folsom v. Butte County Assn. of Governments (1982) 32 Cal.3d 668, 685 [186 Cal.Rptr. 589, 652 P.2d 437].) It is also undisputed that prison inmates who successfully challenge in habeas corpus proceedings the procedures they are subjected to by prison authorities may be awarded attorney fees under section 1021.5. (In re Head, supra, 42 Cal.3d 223.)\nThe controversy in this case thus comes down to whether \u201ca significant benefit, whether pecuniary or nonpecuniary, has been conferred on the general public or a large class of persons . . . (\u00a7 1021.5.) The parties\u2019 fundamental disagreement is over the role of the \u201cbase term\u201d and \u201cadjusted base term\u201d in the sentencing scheme prescribed by the determinate sentencing law (DSL) (Pen. Code, \u00a7 1170 et seq.) and the practical significance of prompt term setting.\nA.\nThe Competing Contentions of the Parties\nThe penal purpose of the DSL and the sentencing principles it is built upon are set forth in the statute\u2019s opening sentences: \u201cThe Legislature finds and declares that the purpose of imprisonment for crime is punishment. This purpose is best served by terms proportionate to the seriousness of the offense with provision for uniformity in the sentences of offenders committing the same offense under similar circumstances.\u201d (Pen. Code, \u00a7 1170, subd. (a)(1).) Proportionality refers to individual culpability based on the circumstances of a particular crime (In re Dannenberg (2005) 34 Cal.4th 1061, 1096 [23 Cal.Rptr.3d 417, 104 P.3d 783] (Dannenberg)), while uniformity, as indicated in Penal Code section 1170, refers to a comparison between offenders committing similar offenses in similar circumstances. Butler believes the base and adjusted base terms referred to in the settlement are the measure of the proportionality in sentencing the DSL was designed to achieve, whereas the Board sees these terms as measures only of uniformity in sentencing.\nAccording to Butler, the Board\u2019s former policy of deferring the setting of the base and adjusted base terms term until the inmate was found suitable for release was conducive to disproportionate sentencing because it excluded any consideration of individual culpability for the commitment offense \u2014 which is the referent of proportionality \u2014 during the most crucial portion of the parole process. Butler maintains that the effect of the Board\u2019s former practice of deferring the setting of the base term was to \u201cuntether\u201d the Board\u2019s determinations of inmate suitability for release on parole from any consideration of the proportionality of the sentence that resulted from denying parole. As Butler sees it, under the Board\u2019s former practice, proportionality (and uniformity) were not taken into account by the Board until after constitutionally excessive punishment had already been imposed by the systematic denial of prior requests for release on parole. Butler\u2019s request for an award of fees under section 1021.5 is based on the theory that prompt setting of the base and adjusted base term required by the settlement helps \u201censure life prisoners do not serve terms disproportionate to the culpability of the individual offender.\u201d (In re Stoneroad (2013) 215 Cal.App.4th 596, 617 [155 Cal.Rptr.3d 639].)\nFocusing on uniformity rather than proportionality, the Board sees the issue very differently. According to it, the settlement and stipulated order merely create \u201ca new, mutually beneficial term-setting policy,\u201d not \u201cthe vindication of a right the Board had previously violated or curtailed.\u201d This is so, the Board argues, \u201cbecause the \u2018right\u2019 [Butler] asserts \u2014 that of a base term calculation at the initial parole suitability hearing \u2014 did not exist until the settlement went into effect.\u201d According to the Board, \u201cButler did not demonstrate, and no court has held, that the Board\u2019s previous practice of setting the base term only after a finding of parole suitability was unlawful or violated a public right. On the contrary, the Supreme Court explicitly upheld this practice in In re Dannenberg, supra, 34 Cal.4th at page 1095, finding that the Board need not \u2018refer to its base term matrices . . . before deeming a particular life inmate unsuitable\u2019 for parole. Nor is there a statutory requirement that a base term be set before a finding of suitability for parole. [Citation.] Put simply, Butler cannot establish that the settlement resulted in the enforcement of an important right when the right he asserts never existed in the first place.\u201d\nPutting aside for a moment the meaning and effect of Dannenberg, supra, 34 Cal.4th 1061, the Board mischaracterizes Butler\u2019s contention. Butler did not assert a preexisting right to calculation of a base term before the determination of suitability for parole release. His claim was that the Board\u2019s prior term-setting practice permitted the violation of his and other inmates\u2019 right to a constitutionally proportionate sentence. The prompt term setting agreed to in the settlement, which will ensure consideration of proportionality at a meaningful stage of the parole process, is a means of rectifying this problem.\nThe Board\u2019s contention that Butler cannot be awarded fees under section 1021.5 without demonstrating that the Board\u2019s previous term-setting practice \u201cwas unlawful or violated a public right\u201d or \u201cthat the Board did \u2018something to adversely affect the public interest\u2019 that was cured through [this] litigation\u201d is misguided. The only authority the Board cites in support of its interpretation of the requirements of section 1021.5 is language in Adoption of Joshua S. (2008) 42 Cal.4th 945 [70 Cal.Rptr.3d 372, 174 P.3d 192] (Joshua S.). Unlike the present case, Joshua S. was not settled and did not relate to the question whether the litigation enforced an important right or conferred a \u201csubstantial benefit.\u201d The issue in the case related instead to \u201cthe necessity and financial burden of private enforcement\u201d (ibid.) requirement. Most importantly, as the Supreme Court later noted, Joshua S. \u201cdid not explicate or apply the usual section 1021.5 criteria. . . . Instead, ... we recognized an exception to be applied in cases where all three factors [required by section 1021.5] are satisfied, but the party from whom fees are sought \u2018is not the type of party on whom private attorney general fees were intended to be imposed.\u2019 (Joshua S., at p. 953.)\u201d (Serrano v. Stefan Merit Plastering Co., Inc. (2011) 52 Cal.4th 1018, 1027 [132 Cal.Rptr.3d 358, 262 P.3d 568].)\nFurther, contrary to the Board\u2019s suggestion, Dannenberg did not render Butler\u2019s legal claim untenable. The Board relies upon the Dannenberg court\u2019s holding that, because dangerousness and public safety take precedence over uniformity in sentencing, the Board need not set the base term for an inmate until after it has found the inmate not dangerous (i.e., suitable for release on parole). But, unlike the defendant in Dannenberg, Butler\u2019s challenge to the Board\u2019s former term-setting practice was based on proportionality, not uniformity, in sentencing. While uniformity is mandated by statute, proportionality is mandated by the cruel and/or unusual punishment provisions of the state and federal Constitutions. (Dannenberg, supra, 34 Cal.4th at p. 1096.)\nThe central issue in Dannenberg was how to reconcile the tension between the commands of subdivisions (a) and (b) of Penal Code section 3041. The Court of Appeal had determined that subdivision (a) \u2014 which provides that a \u201crelease date shall be set in a manner that will provide uniform terms for offenses of similar gravity and magnitude with respect to their threat to the public . . .\u201d \u2014 took precedence over Penal Code section 3041, subdivision (b) \u2014 which provides that the Board \u201cshall set a release date unless . . . consideration of the public safety requires a more lengthy period of incarceration for this individual, and that a parole date, therefore, cannot be fixed\u201d \u2014 so that the parole board (then the Board of Prison Terms) \u201c(1) must first compare the inmate\u2019s actual period of confinement with the minimum statutory confinement for the offense, and with the actual confinements served by others who have committed similar crimes, (2) must thereupon set a firm, \u2018uniform\u2019 release date unless it finds the public-safety exception applicable, and (3) may not deny parole, on grounds the commitment offense reflects a continuing threat to public safety, unless the offense is particularly egregious in comparison to others.\u201d (Dannenberg, supra, 34 Cal.4th at p. 1081.)\nThe Supreme Court disagreed, holding that \u201c[t]he words of [Penal Code] section 3041 strongly suggest that the public-safety provision of subdivision (b) takes precedence over the \u2018uniform terms\u2019 principle of subdivision (a). The statute expressly provides that the fixing of a \u2018uniform\u2019 parole release date shall occur unless the Board finds the indeterminate life inmate unsuitable on grounds of \u2018public safety.\u2019 \u201d (Dannenberg, supra, 34 Cal.4th at p. 1082.) Pointing out that the DSL treats life prisoners differently from determinately sentenced prisoners, and that subdivision (b) of Penal Code section 3041 does not say that in evaluating suitability for release the parole authority \u201cmust consider term uniformity in any respect\u201d (Dannenberg, at p. 1083), the Dannenberg majority approved Board regulations specifying that, \u201cwhen considering parole for a particular indeterminate life [prisoner], the Board shall first determine suitability and shall set a base term (thus establishing a parole release date) if the prisoner is deemed suitable for parole.\u201d {Id. at p. 1091, citing Regs., \u00a7\u00a7 2402, subd. (a), 2403, subd. (a).)\nDannenberg thus stands for the proposition that dangerousness, or \u201cpublic safety,\u201d trumps the uniformity in sentencing also prescribed by the DSL. The point the Board draws from Dannenberg is that the matrices used to set the base term do not measure the constitutional proportionality of a sentence, as Butler maintains, but simply indicate that a disparate sentence resulting from a denial of parole does not violate the uniformity requirement set forth in Penal Code section 3041. Because it sees the base term as a measure of uniformity, and Dannenberg says uniformity is subordinate to public safety, the Board reasons that determining whether a sentence is uniform or disparate before an inmate is found suitable for release is no more beneficial to the inmate than the prior practice of doing so afterward. Therefore, the Board believes that fixing the base term at the initial parole hearing, as it has agreed to do, does not result in the enforcement of a right and an award of attorney fees under section 1021.5 is unwarranted.\nThis reasoning makes a mockery of the settlement, is based on a far too limited reading of Dannenberg, and disregards the relationship between uniformity and proportionality in sentencing. Most importantly, it ignores the role the base and adjusted base terms play in promoting proportionality, which is both constitutionally mandated and an express goal of the DSL.\nDannenberg explained that although dangerousness trumps uniformity, it does not trump proportionality. The Dannenberg majority stated: \u201cOf course, even if sentenced to a life-maximum term, no prisoner can be held for a period grossly disproportionate to his or her individual culpability for the commitment offense. Such excessive confinement, we have held, violates the cruel or unusual punishment clause (art. I, \u00a7 17) of the California Constitution.\u201d (Dannenberg, supra, 34 Cal.4th at p. 1096, citing In re Rodriguez (1975) 14 Cal.3d 639, 646-656 [122 Cal.Rptr. 552, 537 P.2d 384] (Rodriguez) and People v. Wingo (1975) 14 Cal.3d 169, 175-183 [121 Cal.Rptr. 97, 534 P.2d 1001] (Wingo).) \u201cThus, we acknowledge, [Penal Code,] section 3041, subdivision (b), cannot authorize such an inmate\u2019s retention, even for reasons of public safely, beyond this constitutional maximum period of confinement.\u201d (Dannenberg, at p. 1096, italics added.) The Board conveniently ignores this portion of Dannenberg, but it is the part of the opinion Butler most heavily relies upon. While Dannenberg focused on the base term matrices as a measure of uniformity in sentencing, nothing in the opinion suggests they do not also provide a basis upon which to analyze the proportionality of punishment resulting from the denial of parole.\nAs we shall explain, we agree with Butler that the base and adjusted base terms relate to proportionality, as well as uniformity, although we agree with the Board that the adjusted base term does not necessarily represent the maximum punishment that may constitutionally be imposed on a prisoner.\nB.\nThe Base and Adjusted Base Terms Relate to Both Uniformity and Proportionality\nThe parties\u2019 conflicting contentions as to the purpose and effect of the prompt term fixing required by the settlement and stipulated order boil down to (1) the question whether the base and adjusted base terms relate only to uniformity or to proportionality as well, and (2) the significance of whether the Board considers the bearing of uniformity and proportionality on the decision whether to grant a prisoner parole early in the parole process or only after the prisoner has been found suitable for release.\nThe Board\u2019s position is concisely summed up in the following provision of its regulations (which is not among the regulations referred to in the stipulation and order regarding settlement): \u201cRegardless of the length of time served, a life prisoner shall be found unsuitable for and denied parole if in the judgment of the panel the prisoner will pose an unreasonable risk of danger to society if released from prison.\u201d (Regs., \u00a7 2402, subd. (a), italics added; see id., \u00a72422, subd. (a).) This declaration of authority is staggering. Blinding itself to the fact that, as Dannenberg acknowledges, there is a point at which any sentence will become constitutionally excessive if it is \u201cgrossly disproportionate\u201d to the prisoner\u2019s individual culpability for the commitment offense, the Board rejects any limit on its authority to deny a prisoner release from prison based on its prediction that he or she presents a public safety risk.\nAs we shall see, the base and adjusted base terms relate to proportionality, as well as uniformity. But even if, as the Board says, they related only to uniformity, the settlement would confer a substantial benefit on life prisoners because uniformity remains an important purpose of the DSL even after Dannenberg. In determining suitability for parole, the Board is required by its own regulations to consider \u201c[a]ll relevant, reliable information available\u201d to it. (Regs., \u00a7\u00a7 2281, subd. (b), 2402, subd. (b).) Since the DSL was designed to discourage disparate sentencing, the resulting uniformity or disparity of a sentence is surely \u201crelevant\u201d to the Board\u2019s parole decision. Whether the prison term resulting from a denial of parole would be disparate to terms imposed on others who committed the same offense in similar ways and circumstances is not reduced to irrelevance simply because it is not controlling. Moreover, prompt term setting would make the Board, other interested parties, and the public, aware of the extent to which the denial of parole led to disparate sentencing.\nThe effect of fixing of the base and adjusted base terms at the time of the initial parole hearing is to introduce uniformity in sentencing into the process of determining inmates\u2019 suitability for release on parole. Doing so promotes one of the two sentencing principles that inform the DSL and will advance its goals and benefit life prisoners. Accordingly, even if the settlement served only this purpose, it would confer a significant benefit warranting an award of attorney fees under section 1021.5.\nIn any case, it is clear that the base and adjusted base terms relate to proportionality as well. Uniformity and proportionality, the dual sentencing principles the Legislature thought best served the punitive purpose of the DSL (Pen. Code, \u00a7 1170, subd. (a)(1)), are conceptually related. The principles can conflict; Imposing the same sentence on all persons convicted of an offense would serve the purpose of uniformity, but it would disserve the principle of proportionality because no offense is always committed in the same circumstances and those who commit the same offense are not all equally culpable or blameworthy. But the two sentencing principles usually do not conflict and in practice they are largely complementary. Both are linked to retribution and both also serve the law\u2019s preference for discernible norms and enhance public respect for the criminal law and criminal justice systems, which is essential to the reduction of crime. (Frase, Punishment Purposes (2005) 58 Stan. L.Rev. 67, 74-79.) \u201c[Proportionality and uniformity of sentencing are based on widely shared fairness concerns, so highly disparate penalties are likely to reduce the public\u2019s willingness to obey the law and cooperate with law enforcement.\u201d (Id. at p. 75; see Hart, Punishment and Responsibility: Essays in the Philosophy of Law (1968) p. 25 [if \u201cthe relative severity of penalties diverges sharply from this rough [proportionality] scale, there is a risk of either confusing common morality or flouting it and bringing the law into contempt\u201d].)\nThe declaration in the first sentence of the DSL that \u201cthe purpose of imprisonment for crime is punishment\u201d (Pen. Code, \u00a7 1170, subd. (a)(1)) bespeaks a retributive theory of punishment. But the statement is leavened by the declaration in the following sentence that the punitive purpose \u201cis best served by terms proportionate to the seriousness of the offense with provision for uniformity in the sentences of offenders,\u201d which operates to limit the severity of the punishment that can be imposed. Virtually all contemporary sentencing systems adopt some form of what has been referred to as \u201climiting retributivism\u201d or a \u201cmodified just deserts\u201d approach. (Morris, Madness and the Criminal Law (1982) pp. 161, 182-187, 196-200.) Punishment based solely on a retributive principle \u201cleaves very little room for consideration of other punishment purposes, and no jurisdiction in the United States or elsewhere has ever adopted such a one-dimensional approach.\u201d (Frase, Punishment Purposes, supra, 58 Stan. L.Rev. at p. 76; See Frase, Excessive Prison Sentences, Punishment Goals, and the Eighth Amendment: \u201cProportionality\u201d Relative to What? (2005) 89 Minn. L.Rev. 571, 589-593.) The dual requirements of uniformity and proportionality clearly reflect a legislative desire to place limits on the largely unmitigated retributivism that might otherwise result from a parole system governed solely by predictions of whether an inmate presented a threat to public safety. In the wake of Dannenberg, the only limitation that may be placed on the retributivism that can be visited on life prisoners through the systematic denial of parole is the constitutional prohibition of excessive punishment. The Board\u2019s position that it may deny a prisoner release on parole based on its determination that he or she presents a danger to public safety \u201c[r]egardless of the length of time served\u201d by the prisoner (Regs., \u00a7\u00a7 2281, subd. (a), 2402, subd. (a), italics added) would remove all limits on the severity of punishment the Board can impose.\nThat the base term and adjusted base term relate to proportionality, and can serve as useful indicators of whether denial of parole will result in constitutionally excessive punishment, is evident in the fact that the matters considered by the Board when it sets the base term relate almost entirely to a prisoner\u2019s individual culpability for the base offense. It is also clear from the genesis of these concepts and the guidelines that define them, which were adopted by a former parole board precisely in order to measure constitutional proportionality during the parole granting process.\nUnder current regulations, the base term is \u201cestablished solely on the gravity of the base crime, taking into account all of the circumstances of that crime.\u201d (Regs., \u00a7 2403, subd. (a), italics added.) The manner in which calculation of the base and adjusted base terms takes the circumstances of the commitment offense into account can be illustrated by using Butler\u2019s crime, second degree murder, as an example.\nThe matrix of base terms for this offense, which carries a term of 15 years to life, prescribes sentence triads ranging from 15, 16 or 17 years to 19, 20 or 21 years. The horizontal axis of the matrix applicable to second degree murder relates to the manner in which the inmate murdered his victim, dividing culpability into three categories: (1) cases in which the victim died of causes only indirectly related to the prisoner\u2019s act (as where a crime partner actually did the killing), (2) cases in which death was directly caused by the prisoner but the victim contributed (as by goading the prisoner), and (3) cases in which death resulted from severe trauma inflicted by the prisoner with deadly intensity. (Regs., \u00a7 2403, subd. (c).) The vertical axis of the matrix for second degree murder relates to the relationship of the prisoner to his victim and also divides culpability into three categories: (1) the victim was an accomplice or otherwise implicated in the commission of the prisoner\u2019s base offense; (2) the victim was involved in a personal relationship with the prisoner, such as a spouse or friend, which contributed to the motivation for the act resulting in death; and (3) the prisoner had little or no personal relationship with the victim or the motivation for the criminal act was related to the commission of another crime, as where the victim was killed by the prisoner in the course of a robbery. The Board panel must \u201cdetermine the category [on each axis] most closely related to the circumstances of the crime\u201d and must \u201cimpose the middle base term reflected in the matrix unless the panel finds circumstances in aggravation or mitigation.\u201d (Regs., 2403, subd. (a).)\nThe \u201cadjusted base term\u201d refers to additional terms, or \u201cenhancements,\u201d the Board may impose for using a deadly or dangerous weapon, being armed with or using a firearm, causing \u201cgreat loss,\u201d having served prior prison terms, or for the concomitant commission of \u201cother offenses.\u201d (Regs., \u00a7\u00a7 2285, 2286, 2406, 2407.) Such additional terms may in turn be increased or lowered for enumerated aggravating or mitigating circumstances relating to \u201cother crimes.\u201d (Regs., \u00a7\u00a7 2287, 2288, 2408, 2409.)\nFocusing on the particular circumstances of the commitment offense and the offender at the time it was committed, the regulations make clear that the base term is meant to reflect individual culpability. Individual culpability, as we have discussed, is the measure of proportionality. (Dannenberg, supra, 34 Cal.4th at p. 1096.) In determining whether a sentence is cruel or unusual as applied to a particular offender, \u201c \u2018a reviewing court must examine the circumstances of the offense, including its motive, the extent of the defendant\u2019s involvement in the crime, the manner in which the crime was committed, and the consequences of the defendant\u2019s acts.\u2019 \u201d (People v. Leonard (2007) 40 Cal.4th 1370, 1426 [58 Cal.Rptr.3d 368, 157 P.3d 973], quoting People v. Dillon (1983) 34 Cal.3d 441, 479 [194 Cal.Rptr. 390, 668 P.2d 697].) These are precisely the considerations focused upon by the base term matrices and other directives regarding calculation of the base and adjusted base terms. Thus, while the Board\u2019s matrices and associated directives and adjustments promote uniformity by applying the same yardstick to all inmates who have committed the same crime for similar purposes in similar circumstances, it is absurd to think the base and adjusted base terms are not also measures of proportionality.\nThe history of the base term concept underscores this point. Prior to enactment of the DSL, under the ISL, the parole authority was empowered both to fix a prisoner\u2019s actual maximum term and to grant earlier parole. (Dannenberg, supra, 34 Cal.4th at pp. 1096-1097.) In Rodriguez, the California Supreme Court condemned the parole authority\u2019s practice of deferring setting of a maximum term until the prisoner was deemed ready for parole, which failed to ensure prisoners would be subjected to terms \u201cproportionate to their individual culpability\u201d (Rodriguez, supra, 14 Cal.3d at p. 650), and required it to promptly \u201cset a maximum term for every indeterminate sentence, tailored to his or her individual culpability.\u201d (Dannenberg, at p. 1097; see Rodriguez, at pp. 650-653.) In order to avoid unconstitutional disproportionate punishment, the fixed maximum term (referred to as the \u201cprimary term\u201d) was required to be based on \u201cthe circumstances existing at the time of the offense,\u201d while the decision to grant earlier parole was based largely \u201con occurrences subsequent to the commission of the offense.\u201d (Rodriguez, at p. 652.)\nIn response to Rodriguez, the parole authority adopted regulations applying its requirements to prisoners sentenced to indeterminate life terms under the DSL. These regulations (former Cal. Admin. Code, tit. 15, \u00a7\u00a7 2000-2725 (1976 Regulations)) required the setting of a \u201cprimary term\u201d shortly after an inmate entered prison, and defined that term as \u201cthe maximum period of time which is constitutionally proportionate to the individual\u2019s culpability for the crime.\u201d (1976 Regs., \u00a7 2100, subd. (a), italics added.) Under the regulations, the primary term consisted of a \u201cbase term\u201d reflecting the circumstances of the crime pertinent to the inmate\u2019s culpability, and \u201cadjustments for the individual\u2019s criminal history\u201d (prior prison terms and current commitments). (Id., \u00a7 2150.) Thus, the original purpose of the base term concept was to establish the constitutional limit of punishment by reference to proportionality.\nThe current Board\u2019s past practice of deferring the setting of base and adjusted base terms until an inmate was found suitable for parole meant that neither uniformity nor proportionality was considered until an inmate was deemed ready for release. Although the DSL provides that the Board \u201cshall normally set a parole release date\u201d for life prisoners prior to the inmate\u2019s initial parole hearing (Pen. Code, \u00a7 3041, subd. (a)), it is common knowledge among all familiar with the Board\u2019s administration of the parole system that this almost never happens. A 2011 study found that life prisoners, who due primarily to their age when they become eligible for parole have a \u201cminuscule\u201d rate of recidivism, were granted parole during the studied period at only 2.2 percent of initial parole hearings and at less than 15 percent of all subsequent hearings. (Weisberg et al., Stanford Criminal Justice Center, Life in Limbo: An Examination of Parole Release for Prisoners Serving Life Sentences with the Possibility of Parole in California (Sept. 2011) p. 17) (Stanford Study).) The Stanford Study also examined the result of subsequent parole hearings afforded 239 inmates who, like Butler, were convicted of second degree murder. Of that group, 195 (81.6 percent) were denied parole and only 44 (18.4 percent) were granted parole. The average time already served by all 239 inmates at the time of the hearing was 20.1 years. (Stanford Study, chart 14, p. 20.) Twenty years is the midterm specified by the most aggravated sentence triad applicable to second degree murder, which is appropriate only in the extreme situation in which the prisoner inflicted severe trauma \u201ccalculated to induce terror in the victim\u201d with whom he has \u201clittle or no personal relationship.\u201d (Regs., \u00a7 2403, subd. (c).)\nAssuming the Board would not knowingly subject inmates to disproportionate sentences, it is logical to conclude that the high rates of parole denial resulted in significant measure from the fact that the Board\u2019s former practice did not consider the uniformity and proportionality of a sentence until after it had been imposed by a grant of release. The Stanford Study thus indicates that the Board\u2019s failure to promptly fix terms and consider uniformity and proportionality during the process of determining suitability for release on parole resulted in the denial of parole to many prisoners who had already been serving sentences which, under the Board\u2019s own criteria, were both disparate and disproportionate.\nThe settlement and stipulated order will rectify or at least diminish this and other problems attributable to the Board\u2019s former policy and practice. As discussed in Rodriguez, prompt term fixing will not only alleviate the uncertainty and anxiety of prisoners, which is a cause of violence and a disincentive to rehabilitation, but reduce the likelihood that the postconviction factors that formerly dominated the determination of punishment will result in disproportionate sentences. (Rodriguez, supra, 14 Cal.3d at p. 654, fn. 18.) Given the Legislature\u2019s declaration that the purpose of imprisonment in this state \u2014 namely, \u201cpunishment\u201d \u2014 \u201cis best served by terms proportionate to the seriousness of the offense\u201d (Pen. Code, \u00a7 1170, subd. (a)(1)), this is no small achievement.\nFurther, as also discussed in Rodriguez, the prompt determination of base and adjusted base terms to which the Board has agreed will facilitate judicial review. (Rodriguez, supra, 14 Cal.3d at p. 654, fn. 18.) Whether the punishment imposed on a particular prisoner is constitutionally excessive is of course ultimately for the courts to decide, not the Board. Unlike the 1976 regulations promulgated in response to Rodriguez (see discussion, ante, at p. 1240), the Board regulations specified in the settlement and stipulated order as governing establishment of the base and adjusted base terms (cited, ante, at p. 1229, fn. 3) do not indicate that the base and adjusted base terms the Board promptly fixes for a particular prisoner constitute the Board\u2019s estimate of the maximum prison term constitutionally proportionate to that prisoner\u2019s culpability for his or her base crime. Nor do any of the specified regulations prohibit the Board from refixing a base or adjusted base term. Nevertheless, the base and adjusted base terms represent an approximation of the punishment the Board deems proportionate to the particular prisoner\u2019s offense. Having those terms set promptly therefore will greatly strengthen life prisoners\u2019 ability to present claims of constitutionally excessive punishment.\nA reviewing court can most usefully analyze a life prisoner\u2019s claim that the denial of parole results in a cruel and/or unusual punishment after the parole authority has established a term that can be subjected to judicial review. Drawing again on Rodriguez, \u201c[wjere unrepres\u00e9nted prisoners required to take the initiative by seeking relief at such time as they believed their continued imprisonment to be constitutionally impermissible, not only might abuses such as that in the instant case . . . recur, but courts would continue, as now, to receive inadequate petitions unaccompanied by necessary supporting data. Since prison inmates understandably lack perspective as to the propriety of their continued incarceration, and also lack the ability to marshal the facts and applicable law in support of their claims, it is probable that courts would be burdened by a flood of meritless petitions. Each inmate would seek relief . . . when denied parole and/or term-fixing by the [parole authority] in the hope that the court would agree that he had been imprisoned for a sufficient length of time. Once the primary term is fixed by the [parole authority], however, all of the relevant data regarding the particular inmate, the circumstances of his offense, and the criteria upon which the term is based will have been marshaled by the [parole authority], thus enabling petitioner to set out the basis or bases for his complaint, while at the same time providing the court with a record adequate to permit meaningful review.\u201d (Rodriguez, supra, 14 Cal.3d at p. 654, fn. 18.)\nUnder the stipulated order, prisoners like Butler, repeatedly denied parole after having served their adjusted base terms, would at least be able \u2014 as they formerly were not \u2014 to credibly represent to a reviewing court that the denial of parole resulted in the imposition of punishment that so exceeds his or her culpability that it is constitutionally excessive.\nFor the foregoing reasons, we reject the Board\u2019s view that fixing the base and adjusted base terms at the outset of the parole process will not \u201csubstantially benefit\u201d life prisoners. We conclude that the order stipulated to by the parties to enforce the terms of their settlement confers a significant benefit on a large class of persons.\nII.\nThe Amount of Fees Sought by the Motion Is Not Reasonable\nAs stated at the outset of this opinion, Butler seeks fees in the amount of $439,000, which we believe excessive and unreasonable. Because this matter is an original proceeding in this court, we are unable to follow the usual practice of remanding the request for fees to the court in which the trial was held for the purpose of taking evidence on, and fixing, the reasonable amount of fees to be awarded under section 1021.5. (See Mack v. Younger (1980) 27 Cal.3d 687, 689 [165 Cal.Rptr. 876, 612 P.2d 966]; Serrano v. Priest, supra, 20 Cal.3d at p. 50.) Accordingly, as we did in Planned Parenthood Affiliates v. Swoap (1985) 173 Cal.App.3d 1187, 1202 [219 Cal.Rptr. 664], and as other appellate courts have done (see, e.g., Cruz v. Superior Court (2004) 120 Cal.App.4th 175, 191 [14 Cal.Rptr.3d 917]), we invite the parties to agree within 20 days as to the appropriate amount of costs and fees. If the parties are unable to agree, this court will decide the matter on the basis of the declarations and other evidence pertaining to the reasonable amount of fees the parties have submitted to us. The parties should know that while the members of this panel are not currently in agreement as to the specific amount of a reasonable fee, all agree it is somewhat less than half the amount requested.\nDISPOSITION\nButler\u2019s request for attorney fees is granted. The parties are ordered to meet and confer in an attempt to come to an agreement as to the precise amount to which Butler is entitled. No more than 20 days from the date of this ruling, the parties must inform this court in writing whether they were able to reach an agreement. If the parties were not able to agree, the court will decide the matter of the basis on the declarations and other evidence that has been submitted.\nRichman, J., and Stewart, J., concurred.\nAfter Jon B. Streeter was nominated by the Governor for appointment to this court, which occurred after the filing of the fee motion before us, he withdrew from the case and was replaced by Susan J. Harriman, also a partner at Keker & Van Nest, who was assisted by Sharif E. Jacob and Benita Brahmbhatt, firm associates, who had also assisted Streeter.\nThe supplemental petition also added a claim that the Board\u2019s decision to deny Butler parole was unsupported by some evidence. Because this individual claim was distinct from Butler\u2019s constitutional claims, which challenged the parole process applicable to all life prisoners, we bifurcated the issues into separate cases. With respect to the individual claim (In re Butler (Mar. 5, 2014, A137273) [nonpub. opn.]), we granted Butler\u2019s habeas corpus petition on March 5, 2014. In response to that ruling the Board vacated its decision denying parole and held a new hearing at which Butler was granted parole. Butler does not seek to recover fees for his counsel\u2019s work on the individual claim that he was unlawfully denied parole. (See Conservatorship of Whitley (2010) 50 Cal.4th 1206, 1226 [117 Cal.Rptr.3d 342, 241 P.3d 840] [pointing out that fees may be awarded under \u00a7 1021.5 \u201cto only that portion of ;he attorneys\u2019 efforts that furthered the litigation issues of public importance\u201d].)\nThe stipulation and order regarding settlement include the following specific provisos: \u201cThe base term will be established pursuant to the matrices and directives found in California Code of Regulations, title 15, sections 2282-2284, 2320-2321, 2329, 2403-2405, 2423-2425, and 2433-2435. [\u00b6] The adjusted base term refers to the base term after it has been adjusted for enhancements pursuant to California Code of Regulations, title 15, sections 2285-2288, 2322-2326, 2406-2409, 2426-2428, and 2436-2438.\u201d\nThe terminology of the stipulation and order regarding settlement is not entirely consistent with that of the regulations. Many of the relevant regulations refer to \u201cbase term\u201d but some use \u201cbase period of confinement\u201d instead. (Regs., \u00a7\u00a7 2320, 2329.) More significantly, the phrase \u201cadjusted base term\u201d does not appear in the regulations. Regulations section 2289 employs \u201cadjusted life term\u201d to describe the result of adding the \u201cspecific enhancements\u201d to the term set for the \u201clife crime,\u201d then deducting preprison credit and adding time \u201cat large.\u201d (See Regs., \u00a7\u00a7 2285, 2286.) Other regulations provide for \u201cadjustments\u201d to be added to the base term. (Regs., \u00a7\u00a7 2406, 2407, 2408, 2411, 2426, 2427, 2428; see \u00a7 2408.) Under Regulations section 2411, the \u201cadjusted period of confinement\u201d is the result of adding the term for the base crime and \u201cadjustments,\u201d then subtracting postconviction credit. (Regs., \u00a7 2411.) Still other regulations refer to \u201cadjustments\u201d- for preconviction, conviction, and postconviction factors which may increase or decrease the \u201ctotal period of confinement.\u201d (Regs., \u00a7\u00a7 2319, 2323; see \u00a7\u00a7 2322, 2324.)\nIt is to be hoped that in promulgating its new regulations pursuant to the settlement, the Board will take advantage of the opportunity to simplify the regulations and reduce the confusion that may result from the varying terminology.\nJoshua S. was a suit between former domestic partners concerning the validity of a \u201csecond parent\u201d adoption for unmarried same-sex parents. The birth mother tried but failed to prevent her former partner from legally adopting the child, and the parties agreed, as did the Court of Appeal and the Supreme Court, that the litigation \u201cdid yield a substantial and widespread public benefit.\u201d (Joshua S., supra, 42 Cal.4th at p. 952.) Nevertheless, the Supreme Court concluded that \u201ceven when an important right has been vindicated and a substantial benefit conferred, and when a plaintiff\u2019s litigation has transcended her personal interest, . . . section 1021.5 was not intended to impose fees on an individual seeking a judgment that determines only his or her private rights, but who has done nothing to adversely affect the public interest other than being on the losing side of an important appellate case.\u201d {Id. at p. 958.) The situation in this case bears no similarity to that in Joshua S. Unlike his distinct claim that there is not some evidence justifying the denial of his application for parole, which we have separated from the present proceeding, Butler\u2019s challenge to the constitutionality of the parole process \u2014 which was the only claim he advanced in propria persona prior to the appointment of counsel \u2014 was designed to protect the rights of a large class of similarly situated prison inmates.\nFor example, the opinion refers to the Board\u2019s \u201cown uniform-term \u2018matrices.\u2019\u201d (Dannenberg, supra, 34 Cal.4th at p. 1069.)\nIf the prisoner has been sentenced for more than one murder, the \u201cbase crime\u201d is the \u201cmost serious of the murders considering the facts and circumstances of the crime.\u201d (Regs., \u00a7 2403, subd. (a).)\nThe existing Board regulations specify different parole procedures and considerations for different categories of prisoners, and determining the regulations applicable to a given case can be challenging. Prisoners who, like Butler, were sentenced for first or second degree murders committed on or after November 8, 1978, or for certain types of attempted murder, are governed by title 15, division 2, chapter 3, article 11 (Regs., \u00a7\u00a7 2400-2411; id., \u00a7 2400). Parole for life prisoners whose crimes were committed before July 1, 1977, is governed by \u201crules in effect prior to 7/1/77.\u201d (Regs., \u00a7 2292, subd. (a).) The regulations applicable to life prisoners whose offenses were committed after July 1, 1977, and before November 8, 1978, as well as those whose offenses do not put them within the purview of article 11, are governed by Regulations, title 15, division 2, chapter 3, article 5 (Regs., \u00a7\u00a7 2280-2292; id., \u00a7\u00a7 2292, 2400). The provisions of articles 6 (Regs., \u00a7\u00a7 2300-2310) and 7 (Regs., \u00a7\u00a7 2315-2329) apply to ISL (indeterminate sentencing law) prisoners. (Regs., \u00a7 2300.) Regulations, title 15, division 2, chapter 3, article 12 (Regs., \u00a7\u00a7 2420-2429.1) governs parole procedures for habitual offenders sentenced to life terms and article 13 (Regs., \u00a7\u00a7 2430-2439.1) applies to sex offenders sentenced to life terms. Among other things, the regulations set forth different base term matrices for the different categories of prisoners. (Regs., \u00a7\u00a7 2282, subd. (b), 2329, 2403, subd. (b), 2423, subd. (b).)\nThe factors that may later serve to reduce the base term, such as credit for presentence custody and prison conduct (Regs., \u00a7\u00a7 2290, 2410), are based on circumstances occurring after commission of the base crime and are therefore unrelated to proportionality analysis.\nThus, for example, aggravating factors permitting the Board to increase the additional term include commission of other crimes in which \u201c[a] victim was seriously injured or killed in the course of the other crime . . . ,\u201d \u201c[t]he other crime was one of a series of crimes which occurred during a single period of time . . .,\u201d the other crime \u201cindicate^] a significant pattern of increasingly serious criminal conduct,\u201d the prisoner committed multiple crimes indicating \u201ca significant pattern of criminal behavior rather than a single period of aberrant behavior,\u201d \u201c[t]he prisoner was on probation or parole or was in custody or had escaped from custody when the crime was committed,\u201d or \u201c[t]he victim was particularly vulnerable.\u201d (Regs., \u00a7 2408, subds. (a)-(f); see Regs., \u00a7 2287, subds. (a)-(e).) The mitigating factors allowing the Board to lower the additional term include successful completion of probation or parole, \u201can insignificant pattern of prior criminal behavior,\u201d and \u201c[t]he prisoner was granted probation after conviction of the other crime.\u201d (Regs., \u00a7 2409, subds. (a)-(c); see Regs., \u00a7 2288, subds. (a)-(d).)\nThe concept of proportionality, which has roots in the Old Testament (Exodus 21:23-21:24 (King James)), rests on the moral proposition that it is just to punish a wrongdoer by inflicting on him a type and degree of harm comparable to that he or she inflicted on the victim. Because the biblical concept of punishment \u2014 \u201can eye for an eye,\u201d or lex talionis \u2014 was based only on the injury suffered by the victim and ignored the circumstances in which it was inflicted, the concept of punishment came to be seen as morally questionable as early as the 18th century. As Blackstone said, \u201cthe difference of persons, place, time, provocation, or other circumstances, may enhance or mitigate the offense; and in such cases retaliation can never be a proper measure of justice.\u201d (4 Blackstone, Commentaries 13; see Beccaria, On Crimes and Punishments (Paolucci trans., 1963) (1768).) As a result, the formulation of proportionality evolved over time into a broader inquiry about culpability; that is to \u201cthe proportionality between the crime or offense \u2014 a concept that includes the mental state of the wrongdoer, other circumstances of the crime, and the victim\u2019s injury \u2014 and the punishment.\u201d (Balmer, Some Thoughts on Proportionality (2008) 87 Or. L.Rev. 783, 786, italics omitted; see id., at p. 791, fn. 35; accord, Model Pen. Code, \u00a7 1.02, subd. (2)(a)(l) [first \u201cpurpose\u201d of the sentencing provisions is \u201cto render sentences in all cases within a range of severity proportionate to the gravity of sentences, the harms done to crime victims, and the blameworthiness of offenders\u201d].)\nAs a justice of the Oregon Supreme Court has observed, the rationality and proportionality promoted by matrices and related sentencing guidelines similar to those in the Board regulations (and specified in the settlement and stipulated order) \u201cwere undermined in the 1990\u2019s by the widespread adoption of \u2018three strikes you\u2019re out\u2019 provisions . . . and mandatory minimum sentences for many specific offenses . . . [which] often were adopted without regard for the gradations established in the existing sentencing guidelines.\u201d (Balmer, Some Thoughts on Proportionality, supra, 87 Or. L.Rev. at p. 792, fn. 41.)\nThe 1976 Regulations provided suggested ranges of punishment for a given crime, with alternatives depending on whether the parole authority characterized the crime as a mitigated, typical or aggravated crime of that type, and suggested adjustment ranges. (1976 Regs., \u00a7\u00a7 2151, 2152, 2225, 2226.) Once fixed, the primary term could not be \u201crefixed upward\u201d unless the term was illegally fixed, a clerical error was made, or significant information was fraudulently withheld from the parole board. (Id., \u00a7 2102, subd. (a).)\nThe 1976 Regulations derived from a directive issued by the director of the parole authority on September 2, 1975, about two months after Rodriguez was decided, entitled \u201cImplementation of Rodriguez.\u201d (Chairman\u2019s Directive No. 75/30). Under the directive, the setting of the primary term could be based only on information pertaining to the inmate\u2019s culpability for the commitment offense; past history and personality could be considered, but not information relating to conduct \u201csubsequent to the offense.\u201d (Id., \u00a7 IV.A.) The directive stated that because prior to Rodriguez inmates\u2019 terms could be refixed based on events subsequent to the commitment offense, some inmates were currently \u201cserving terms disproportionate to the commitment offense, based on their subsequent history\u201d and would be \u201centitled to discharge under the new procedures.\u201d (Id., \u00a7 V.F.; see Cassou & Taugher, Determinate Sentencing in California: The New Numbers Game (1978) 9 Pac. L.J. 1, 5, 16.)\nIndeed, this appears to have happened in Butler\u2019s case. At the time he filed his supplemental habeas corpus petition in 2013, Butler had been incarcerated for 26 years and been eligible for parole since 1998, i.e., for 15 years. At his last parole hearing \u2014 which was conducted on April 25, 2014, after we had set aside the Board\u2019s fifth denial of parole \u2014 Butler was granted parole and the Board then calculated his base term to be 17 years and awarded him 82 months of postconviction credit. Thus, when at his sixth parole hearing, the Board finally measured Butler\u2019s individual culpability for the commission of his life offense he had already served almost a decade longer than required by his base term \u2014 even without taking into account the nearly seven years of postconviction credit by which his term was reduced.\nAs we have indicated, this is the only aspect of entitlement to fees under section 1021.5 the Board has challenged.",
+        "type": "majority",
+        "author": "KLINE, P. J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Jon B. Streeter, Susan J. Hardman, Sharif E. Jacob and Benita A. Brauhmbhatt, under appointments by the Court of Appeal, for Petitioner Roy Thinnes Butler.",
+      "Kamala D. Harris, Attorney General, Jennifer A. Neill, Assistant Attorney General, Claudia H. Amaral and Amber N. Wipfler, Deputy Attorneys General, for Respondent the People."
+    ],
+    "corrections": "",
+    "head_matter": "[No. A139411.\nFirst Dist., Div. Two.\nMay 15, 2015.]\nIn re ROY THINNES BUTLER on Habeas Corpus.\nCounsel\nJon B. Streeter, Susan J. Hardman, Sharif E. Jacob and Benita A. Brauhmbhatt, under appointments by the Court of Appeal, for Petitioner Roy Thinnes Butler.\nKamala D. Harris, Attorney General, Jennifer A. Neill, Assistant Attorney General, Claudia H. Amaral and Amber N. Wipfler, Deputy Attorneys General, for Respondent the People."
+  },
+  "file_name": "1222-01",
+  "first_page_order": 1034,
+  "last_page_order": 1057
+}

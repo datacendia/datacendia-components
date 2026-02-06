@@ -1,0 +1,59 @@
+{
+  "id": 12244769,
+  "name": "Polk v. Superior Court of California, County of Contra Costa, et al.",
+  "name_abbreviation": "Polk v. Superior Court of California, County of Contra Costa",
+  "decision_date": "2012-01-23",
+  "docket_number": "No. 11-7543",
+  "first_page": "1181",
+  "last_page": "1181",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1181"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 20,
+    "char_count": 131,
+    "ocr_confidence": 0.583,
+    "sha256": "2e4e3995d4605109b863a4b615ea720614259c01b652ec00d9e88326d40123c3",
+    "simhash": "1:afc977457e231a86",
+    "word_count": 22
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Polk v. Superior Court of California, County of Contra Costa, et al."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 1st App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7543.\nPolk v. Superior Court of California, County of Contra Costa, et al."
+  },
+  "file_name": "1181-07",
+  "first_page_order": 1263,
+  "last_page_order": 1263
+}

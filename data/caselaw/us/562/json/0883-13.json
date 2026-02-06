@@ -1,0 +1,59 @@
+{
+  "id": 5998046,
+  "name": "Van Branch v. United States",
+  "name_abbreviation": "Van Branch v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11490",
+  "first_page": "883",
+  "last_page": "883",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 883"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 77,
+    "ocr_confidence": 0.587,
+    "sha256": "8f9ce5cd86da455674b1bd07c0e0928e34703a7b570c1356920603ddc89c8021",
+    "simhash": "1:851326010b96007e",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Van Branch v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11490.\nVan Branch v. United States."
+  },
+  "file_name": "0883-13",
+  "first_page_order": 905,
+  "last_page_order": 905
+}

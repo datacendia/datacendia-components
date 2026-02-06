@@ -1,0 +1,59 @@
+{
+  "id": 5933944,
+  "name": "Williams v. Rader, Warden",
+  "name_abbreviation": "Williams v. Rader",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5492",
+  "first_page": "925",
+  "last_page": "925",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 925"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.583,
+    "sha256": "f0f6b591344e34d348bbc2ed7b72104a35200e626ca4fc7d4adc5285f23cb95b",
+    "simhash": "1:f6bc93823b3bb67b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Williams v. Rader, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5492.\nWilliams v. Rader, Warden."
+  },
+  "file_name": "0925-02",
+  "first_page_order": 947,
+  "last_page_order": 947
+}

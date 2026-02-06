@@ -1,0 +1,68 @@
+{
+  "id": 12705290,
+  "name": "John DOE, petitioner, v. Tom NEER, et al.",
+  "name_abbreviation": "John Doe v. Neer",
+  "decision_date": "2014-03-31",
+  "docket_number": "No. 13\u2013914.",
+  "first_page": "1035",
+  "last_page": "1035",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "572 U.S. 1035"
+    },
+    {
+      "type": "parallel",
+      "cite": "188 L. Ed. 2d 594"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 1766"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 29,
+    "char_count": 201,
+    "sha256": "650c7eea6b943face78f772f10c0292b7b1bfcb9b83490383641e30f6adc76f4",
+    "simhash": "1:58bf860facc0459c",
+    "word_count": 34
+  },
+  "last_updated": "2021-08-27T20:44:00.426858+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "John DOE, petitioner,\nv.\nTom NEER, et al."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of certiorari to the Court of Appeals of Missouri, Eastern District, denied."
+    ],
+    "corrections": "",
+    "head_matter": "John DOE, petitioner,\nv.\nTom NEER, et al.\nNo. 13-914.\nSupreme Court of the United States\nMarch 31, 2014.\nPetition for writ of certiorari to the Court of Appeals of Missouri, Eastern District, denied."
+  },
+  "file_name": "1035-06",
+  "first_page_order": 1035,
+  "last_page_order": 1035
+}

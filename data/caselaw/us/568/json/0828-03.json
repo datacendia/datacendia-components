@@ -1,0 +1,59 @@
+{
+  "id": 12410722,
+  "name": "Smith v. Tennessee",
+  "name_abbreviation": "Smith v. Tennessee",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-9384",
+  "first_page": "828",
+  "last_page": "828",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 828"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 68,
+    "ocr_confidence": 0.688,
+    "sha256": "913c2aa6c4695554ba26b9896528720d2b04095a7e5e832149cb73d0788c73f1",
+    "simhash": "1:402264081500560c",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Smith v. Tennessee."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Tenn. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9384.\nSmith v. Tennessee."
+  },
+  "file_name": "0828-03",
+  "first_page_order": 904,
+  "last_page_order": 904
+}

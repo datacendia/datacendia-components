@@ -1,0 +1,59 @@
+{
+  "id": 5988936,
+  "name": "Family PAC v. McKenna, Attorney General of Washington, et al.",
+  "name_abbreviation": "Family PAC v. McKenna",
+  "decision_date": "2010-10-12",
+  "docket_number": "No. 10A357",
+  "first_page": "958",
+  "last_page": "958",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 958"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 35,
+    "char_count": 264,
+    "ocr_confidence": 0.524,
+    "sha256": "1d18db0374fc6aaafaa4cdcc3a9c6685bc989a6af759c7661a54c6023a46a98b",
+    "simhash": "1:a5e770ddaf0f9bc5",
+    "word_count": 44
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Family PAC v. McKenna, Attorney General of Washington, et al."
+    ],
+    "opinions": [
+      {
+        "text": "Application to vacate the stay entered by the United States Court of Appeals for the Ninth Circuit, case No. 10-35832, addressed to Justice Kennedy and by him referred to the Court, denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10A357.\nFamily PAC v. McKenna, Attorney General of Washington, et al."
+  },
+  "file_name": "0958-01",
+  "first_page_order": 980,
+  "last_page_order": 980
+}

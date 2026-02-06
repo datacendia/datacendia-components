@@ -1,0 +1,61 @@
+{
+  "id": 12431759,
+  "name": "Weatherspoon v. United States",
+  "name_abbreviation": "Weatherspoon v. United States",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-8195",
+  "first_page": "1188",
+  "last_page": "1188",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1188"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 155,
+    "ocr_confidence": 0.613,
+    "sha256": "e12c2e15d245431d17af375d9af042482d8bea580f6886543c7c10bdc80a9e51",
+    "simhash": "1:cd92fb824a068a46",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Weatherspoon v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8195.\nWeatherspoon v. United States."
+  },
+  "file_name": "1188-03",
+  "first_page_order": 1264,
+  "last_page_order": 1264
+}

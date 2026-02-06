@@ -1,0 +1,59 @@
+{
+  "id": 5955557,
+  "name": "Glover v. Booker, Warden",
+  "name_abbreviation": "Glover v. Booker",
+  "decision_date": "2011-05-16",
+  "docket_number": "No. 10-9401",
+  "first_page": "993",
+  "last_page": "993",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 993"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.527,
+    "sha256": "4619e1d47a5fcf5ed829583a71548ea9202d1a3eac64e5d400c7151d0a758dbc",
+    "simhash": "1:f2bf82828ebf0026",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Glover v. Booker, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9401.\nGlover v. Booker, Warden."
+  },
+  "file_name": "0993-14",
+  "first_page_order": 1019,
+  "last_page_order": 1019
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12208072,
+  "name": "Torres-Alicea v. Florida",
+  "name_abbreviation": "Torres-Alicea v. Florida",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10942",
+  "first_page": "858",
+  "last_page": "858",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 858"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 90,
+    "ocr_confidence": 0.688,
+    "sha256": "c17f96db385c0d8f818199e78e103cd17b7d6ac9fbbfc37cb60dcc773a4915ab",
+    "simhash": "1:95784417a875cb02",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Torres-Alicea v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 5th Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10942.\nTorres-Alicea v. Florida."
+  },
+  "file_name": "0858-06",
+  "first_page_order": 940,
+  "last_page_order": 940
+}

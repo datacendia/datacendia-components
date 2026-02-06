@@ -1,0 +1,132 @@
+{
+  "id": 2246231,
+  "name": "Ex Parte Ross Smart",
+  "name_abbreviation": "Ex parte Smart",
+  "decision_date": "1953-04-01",
+  "docket_number": "No. A-4050",
+  "first_page": "229",
+  "last_page": "231",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "152 Tex. 229"
+    },
+    {
+      "type": "parallel",
+      "cite": "256 S.W.2d 398"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "42 N. W. 2d. 11",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "230 Minn. 460",
+      "category": "reporters:state",
+      "reporter": "Minn.",
+      "case_ids": [
+        376090
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/minn/230/0460-01"
+      ]
+    },
+    {
+      "cite": "102 N. E. 2d. 764",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "230 Ind. 201",
+      "category": "reporters:state",
+      "reporter": "Ind.",
+      "case_ids": [
+        1729376
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ind/230/0201-01"
+      ]
+    },
+    {
+      "cite": "243 S. W. 2d. 160",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2328409,
+        10193095
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/150/0510-01",
+        "/sw2d/243/0160-01"
+      ]
+    },
+    {
+      "cite": "150 Texas 510",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2328409
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/150/0510-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 277,
+    "char_count": 3517,
+    "ocr_confidence": 0.616,
+    "pagerank": {
+      "raw": 3.9309026693644224e-07,
+      "percentile": 0.903019828569156
+    },
+    "sha256": "72df167506cafd38551e612ab4f46ea7fbb91a13226a32338eb1762d3027c902",
+    "simhash": "1:1236d0b0b604ef57",
+    "word_count": 586
+  },
+  "last_updated": "2024-02-27T22:50:49.138434+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ex Parte Ross Smart."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Garwood\ndelivered the opinion of the Court.\nFollowing a judgment of the..District Court of Bowie County, holding him in contempt, relator, Ross Smart, was confined by the sheriff in the county jail until he should purge himself by paying part of a large number of defaulted obligations for support of his minor son pursuant to a previous decree of divorce, together with court costs and attorney\u2019s fees incident to the contempt proceedings. Contemporaneously with granting the writ of habeas corpus we ordered relator released on bail pending this decision.\nThe petition for the writ, sworn to by Rex Houston, Esq., attorney for relator, and standing unanswered in this court, alleges among other grounds for relator\u2019s discharge that:\n\u201cThe Petitioner is illegally confined and restrained in his liberty by the Sheriff of Bowie County, Texas, without any order of commitment in any form having issued from any tribunal or magistrate to said court ordering the confinement of Ross Smart. At the most, the only authority that said officer could have for jailing this Petitioner would be a verbal order from the District Court of Bowie County, Texas. Because of the fact that there is no order of commitment, his confinement by said sheriff is illegal.\u201d\nThe contempt judgment in the accompanying transcript contains no provision whereby the judgment itself might be treated, as an order of commitment. It does provide in a final sentence that \u201cthe clerk of this court will issue an attachment addressed to the proper officer, commanding him to enforce the terms of this judgment.\u201d However, the transcript, which is certified by the district clerk to contain \u201ca true and correct copy of all proceedings filed in this office in said entitled and numbered cause\u201d, and includes an itemized bill of costs, does not contain any reference whatever to the attachment or other written direction to the sheriff or other officer. No doubt a proper writ of attachment issued by the clerk at the direction of the court would be a commitment within the purview of Ex Parte Palmateer, 150 Texas 510, 243 S. W. 2d. 160. At the same time we can only interpret the uncontested affidavit of Mr. Houston and the accompanying transcript as conclusive evidence, for the purpose of this hearing, that no attachment or other written commitment was ever issued, and accordingly, under the decision cited, relator was illegally confined.\nRelator raises the additional and serious point that the court was without jurisdiction to enforce the original support order by contempt proceedings under Art. 4639a, Vernon\u2019s Tex. Civ. Stats., Ann. because the minor in question had reached the age of 16 years prior to the commencement of the contempt proceedings (see cases collected in Note 172, A. L. R. 869,892; also Corbridge v. Corbridge, 230 Ind. 201, 102 N. E. 2d. 764 and Lieder v. Straub, 230 Minn. 460, 42 N. W. 2d. 11). Relator also claims to have been denied due process by an alleged refusal of the court to hear evidence on his behalf to the effect that he was totally unable to make the payments in question. Having held relator\u2019s confinement to be illegal on another ground, however, we consider it unnecessary to pass on these additional questions.\nThe relator is discharged and he and his sureties are discharged from obligation under his bail bond.\nOpinion delivered April 1, 1953.",
+        "type": "majority",
+        "author": "Mr. Justice Garwood"
+      }
+    ],
+    "attorneys": [
+      "Gordon R. Wellborn and Rex Houston, of Henderson, for relator."
+    ],
+    "corrections": "",
+    "head_matter": "Ex Parte Ross Smart.\nNo. A-4050.\nDecided April 1,1953.\n(256 S.W. 2d Series 398)\nGordon R. Wellborn and Rex Houston, of Henderson, for relator."
+  },
+  "file_name": "0229-01",
+  "first_page_order": 245,
+  "last_page_order": 247
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12429656,
+  "name": "Noriega v. United States",
+  "name_abbreviation": "Noriega v. United States",
+  "decision_date": "2013-01-14",
+  "docket_number": "No. 12-7594",
+  "first_page": "1134",
+  "last_page": "1134",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1134"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.744,
+    "sha256": "ae7b42726a888302912165519b567a88ca525b629a0453cc893d0ac9a7cd63dd",
+    "simhash": "1:17098b3387ad901c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Noriega v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7594.\nNoriega v. United States."
+  },
+  "file_name": "1134-01",
+  "first_page_order": 1210,
+  "last_page_order": 1210
+}

@@ -1,0 +1,59 @@
+{
+  "id": 4336935,
+  "name": "In re Rose",
+  "name_abbreviation": "In re Rose",
+  "decision_date": "2011-06-27",
+  "docket_number": "No. 10-10138",
+  "first_page": "1035",
+  "last_page": "1035",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1035"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 83,
+    "ocr_confidence": 0.492,
+    "sha256": "3ad71039d7376636a12a8be16ac0c69690ed8e03ac0920649fb0fccc27fb19f3",
+    "simhash": "1:da6a727d88dd281e",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Rose."
+    ],
+    "opinions": [
+      {
+        "text": "Petition for writ of mandamus and/or prohibition denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10138.\nIn re Rose."
+  },
+  "file_name": "1035-06",
+  "first_page_order": 1029,
+  "last_page_order": 1029
+}

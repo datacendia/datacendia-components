@@ -1,0 +1,59 @@
+{
+  "id": 6023844,
+  "name": "Mills v. New York",
+  "name_abbreviation": "Mills v. New York",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11062",
+  "first_page": "860",
+  "last_page": "860",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 860"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 86,
+    "ocr_confidence": 0.66,
+    "sha256": "173dc2422473b2c11cc09c60d66edccdbfb128420f7e1ae4b26850a009899d61",
+    "simhash": "1:4aa830d30d8878f6",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mills v. New York."
+    ],
+    "opinions": [
+      {
+        "text": "County Ct., Genesee County, N. Y. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11062.\nMills v. New York."
+  },
+  "file_name": "0860-13",
+  "first_page_order": 882,
+  "last_page_order": 882
+}

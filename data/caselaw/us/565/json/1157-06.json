@@ -1,0 +1,59 @@
+{
+  "id": 12242471,
+  "name": "Tartak del Palacio v. Michael et al.",
+  "name_abbreviation": "del Palacio v. Michael",
+  "decision_date": "2012-01-17",
+  "docket_number": "No. 11-576",
+  "first_page": "1157",
+  "last_page": "1157",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1157"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 83,
+    "ocr_confidence": 0.677,
+    "sha256": "d7856e800f994c81e436bd9097ea3f139eeb0ea2b328d9303671ea01de4e69c5",
+    "simhash": "1:d0b2bed6112502d1",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Tartak del Palacio v. Michael et al."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. P. R. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-576.\nTartak del Palacio v. Michael et al."
+  },
+  "file_name": "1157-06",
+  "first_page_order": 1239,
+  "last_page_order": 1239
+}

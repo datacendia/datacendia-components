@@ -1,0 +1,59 @@
+{
+  "id": 12248024,
+  "name": "Collazo-Castro v. United States",
+  "name_abbreviation": "Collazo-Castro v. United States",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-8130",
+  "first_page": "1220",
+  "last_page": "1220",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1220"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 80,
+    "ocr_confidence": 0.654,
+    "sha256": "1ca628c22aa08fb1fb74d707cccbb623311584ba8e1a8b8f1ff3e1156eca2c12",
+    "simhash": "1:441ad2220e9c2c6a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Collazo-Castro v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8130.\nCollazo-Castro v. United States."
+  },
+  "file_name": "1220-10",
+  "first_page_order": 1302,
+  "last_page_order": 1302
+}

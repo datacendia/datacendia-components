@@ -1,0 +1,59 @@
+{
+  "id": 12206102,
+  "name": "Pyatt v. South Carolina",
+  "name_abbreviation": "Pyatt v. South Carolina",
+  "decision_date": "2012-04-16",
+  "docket_number": "No. 11-8857",
+  "first_page": "946",
+  "last_page": "946",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 946"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.631,
+    "sha256": "266aa7ae2db0e043729ee780cbb5209adc2735fb910121fdc43e163803123bcb",
+    "simhash": "1:f00bab789b7daff4",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Pyatt v. South Carolina."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. S. C. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8857.\nPyatt v. South Carolina."
+  },
+  "file_name": "0946-10",
+  "first_page_order": 822,
+  "last_page_order": 822
+}

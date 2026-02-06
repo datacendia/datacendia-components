@@ -1,0 +1,59 @@
+{
+  "id": 12212786,
+  "name": "Clark v. Bondi, Attorney General of Florida, et al.",
+  "name_abbreviation": "Clark v. Bondi",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-11258",
+  "first_page": "875",
+  "last_page": "875",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 875"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 101,
+    "ocr_confidence": 0.639,
+    "sha256": "51e394de67a3feaf9dec7e9a9945af9796c070b75506dcb6e14203a03badda0b",
+    "simhash": "1:174828aa150bd016",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Clark v. Bondi, Attorney General of Florida, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-11258.\nClark v. Bondi, Attorney General of Florida, et al."
+  },
+  "file_name": "0875-12",
+  "first_page_order": 957,
+  "last_page_order": 957
+}

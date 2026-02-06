@@ -1,9 +1,9 @@
 # DATACENDIA SERVICE CATALOG
 ## Complete Service, Pricing & Agent Reference — Product Bible
 
-**Generated:** December 13, 2025  
-**Platform Version:** Enterprise Platinum v2.0  
-**Total Services:** 60+ across 7 major categories
+**Generated:** February 4, 2026  
+**Platform Version:** Enterprise Platinum v4.5  
+**Total Services:** 70+ across 8 major categories
 
 ---
 
@@ -54,6 +54,14 @@
 | Frontier Collection | CendiaOmniShield™ | $10M–$25M/yr | National cyber-defence/resilience grid | Frontier Partnership | Custom / Gov |
 | Frontier Collection | CendiaMarketSovereign™ | $12M–$18M/yr | Financial brain for central banks/systemic risk | Frontier Partnership | Custom / Gov |
 | Frontier Collection | CendiaEternum™ | $75M–$100M+/yr | Civilization-scale resilience/existential risk engine | Frontier Partnership | Custom / Gov |
+| Enterprise Platinum | CendiaConstitutionalCourt™ | $250k/yr | AI dispute resolution with precedent database and binding opinions | Enterprise Platinum | $500,000 / yr |
+| Enterprise Platinum | CendiaRegulatorySandbox™ | $300k/yr | Test against proposed regulations (EU AI Act, Colorado AI Act) | Enterprise Platinum | $500,000 / yr |
+| Enterprise Platinum | CendiaZKP™ | $200k/yr | Zero-knowledge proofs for compliance without revealing algorithms | Enterprise Platinum | $500,000 / yr |
+| Enterprise Platinum | CendiaInsure™ | $150k/yr | Per-decision AI liability insurance with real-time risk scoring | Enterprise Platinum | $500,000 / yr |
+| Enterprise Platinum | CendiaPostQuantumKMS™ | $400k/yr | Quantum-resistant signatures (Dilithium, SPHINCS+, Falcon) | Enterprise Platinum | $500,000 / yr |
+| Enterprise Platinum | CendiaCarbonAware™ | $100k/yr | Carbon-aware AI workload scheduling with ESG reporting | Enterprise Platinum | $500,000 / yr |
+| Enterprise Platinum | CendiaContinuousCompliance™ | $350k/yr | Real-time compliance monitoring across 10 frameworks | Enterprise Platinum | $500,000 / yr |
+| Enterprise Platinum | CendiaCrossJurisdiction™ | $300k/yr | Multi-jurisdiction conflict detection (17 jurisdictions) | Enterprise Platinum | $500,000 / yr |
 
 ---
 

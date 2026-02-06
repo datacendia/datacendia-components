@@ -1,0 +1,61 @@
+{
+  "id": 5944393,
+  "name": "Bunke v. United States",
+  "name_abbreviation": "Bunke v. United States",
+  "decision_date": "2011-05-16",
+  "docket_number": "No. 10-9808",
+  "first_page": "1002",
+  "last_page": "1002",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1002"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 149,
+    "ocr_confidence": 0.554,
+    "sha256": "91caee115ad33ae8bb6e06fb4ec2cf30a337346e2a37154e983ca112bb16f083",
+    "simhash": "1:8d13ba82680e1844",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Bunke v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9808.\nBunke v. United States."
+  },
+  "file_name": "1002-08",
+  "first_page_order": 1028,
+  "last_page_order": 1028
+}

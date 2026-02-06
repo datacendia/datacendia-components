@@ -1,0 +1,59 @@
+{
+  "id": 12423035,
+  "name": "Kelly v. Tennessee",
+  "name_abbreviation": "Kelly v. Tennessee",
+  "decision_date": "2012-11-13",
+  "docket_number": "No. 12-6375",
+  "first_page": "1015",
+  "last_page": "1015",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1015"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 73,
+    "ocr_confidence": 0.583,
+    "sha256": "c8236485462c1dadc2f156149a327c2d7761ebaac6b0c15882ea9b040ffea39a",
+    "simhash": "1:0062d7b43a864c6a",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Kelly v. Tennessee."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Tenn. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6375.\nKelly v. Tennessee."
+  },
+  "file_name": "1015-15",
+  "first_page_order": 1091,
+  "last_page_order": 1091
+}

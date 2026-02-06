@@ -1,0 +1,110 @@
+{
+  "id": 5928640,
+  "name": "Davis v. United States",
+  "name_abbreviation": "Davis v. United States",
+  "decision_date": "2011-04-04",
+  "docket_number": "No. 09-11328",
+  "first_page": "916",
+  "last_page": "916",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 916"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "562 U. S. 1002",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6034176,
+        6014848,
+        6009477,
+        5937546,
+        5989262,
+        5997714,
+        12438305,
+        12438306,
+        12438307,
+        12438308,
+        12438309,
+        12438310,
+        12438311,
+        12438312,
+        12438313,
+        12438314,
+        5942211,
+        6019401,
+        5932629,
+        5952360
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/562/1002-03",
+        "/us/562/1002-01",
+        "/us/562/1002-08",
+        "/us/562/1002-05",
+        "/us/562/1002-10",
+        "/us/562/1002-09",
+        "/l-ed-2d/178/0368-06",
+        "/l-ed-2d/178/0369-01",
+        "/l-ed-2d/178/0369-02",
+        "/l-ed-2d/178/0369-03",
+        "/l-ed-2d/178/0369-04",
+        "/l-ed-2d/178/0369-05",
+        "/l-ed-2d/178/0369-06",
+        "/l-ed-2d/178/0369-07",
+        "/l-ed-2d/178/0370-01",
+        "/l-ed-2d/178/0370-02",
+        "/us/562/1002-06",
+        "/us/562/1002-04",
+        "/us/562/1002-02",
+        "/us/562/1002-07"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 36,
+    "char_count": 258,
+    "ocr_confidence": 0.585,
+    "sha256": "8d658b051a9c6c7ff8246c757a6947c9cb3490043188ee97262275db0bbaf9ec",
+    "simhash": "1:639cfe129681359a",
+    "word_count": 42
+  },
+  "last_updated": "2024-02-27T23:44:09.189648+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Davis v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. [Certiorari granted, 562 U. S. 1002.] Motion of petitioner for appointment of counsel granted. William W. Whatley, Esq., of Montgomery, Ala., is appointed to serve as counsel for petitioner in this case.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11328.\nDavis v. United States."
+  },
+  "file_name": "0916-01",
+  "first_page_order": 942,
+  "last_page_order": 942
+}

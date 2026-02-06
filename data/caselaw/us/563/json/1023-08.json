@@ -1,0 +1,59 @@
+{
+  "id": 4223375,
+  "name": "Scott v. Padula et al.",
+  "name_abbreviation": "Scott v. Padula",
+  "decision_date": "2011-05-31",
+  "docket_number": "No. 10-9665",
+  "first_page": "1023",
+  "last_page": "1023",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1023"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 70,
+    "ocr_confidence": 0.687,
+    "sha256": "75aaf0d6a56a42638b8b2f227463c4426e0e5ec313e61468a8943bd179fc7c3f",
+    "simhash": "1:b3c840a8530db2f6",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Scott v. Padula et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9665.\nScott v. Padula et al."
+  },
+  "file_name": "1023-08",
+  "first_page_order": 1049,
+  "last_page_order": 1049
+}

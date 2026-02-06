@@ -1,0 +1,59 @@
+{
+  "id": 12414689,
+  "name": "Cardenas v. California",
+  "name_abbreviation": "Cardenas v. California",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-11037",
+  "first_page": "875",
+  "last_page": "875",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 875"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 72,
+    "ocr_confidence": 0.595,
+    "sha256": "dac08988e8cb056903018e944393b5948552e317637aca02b9909d0df4be71f6",
+    "simhash": "1:85ac3939da429032",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cardenas v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Cal. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-11037.\nCardenas v. California."
+  },
+  "file_name": "0875-11",
+  "first_page_order": 951,
+  "last_page_order": 951
+}

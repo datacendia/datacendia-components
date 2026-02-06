@@ -1,0 +1,59 @@
+{
+  "id": 12415709,
+  "name": "Evans v. Booker, Warden",
+  "name_abbreviation": "Evans v. Booker",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5320",
+  "first_page": "906",
+  "last_page": "906",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 906"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.684,
+    "sha256": "ffda20476c512ad0c05c85cad249625f6a0c8774ab7b0a120e27d4e35fd94b30",
+    "simhash": "1:97ea8aa3de7b306e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Evans v. Booker, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5320.\nEvans v. Booker, Warden."
+  },
+  "file_name": "0906-13",
+  "first_page_order": 982,
+  "last_page_order": 982
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5953412,
+  "name": "Berry v. Lee, Superintendent, Green Haven Correctional Facility",
+  "name_abbreviation": "Berry v. Lee",
+  "decision_date": "2011-04-04",
+  "docket_number": "No. 10-9092",
+  "first_page": "923",
+  "last_page": "923",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 923"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 111,
+    "ocr_confidence": 0.605,
+    "sha256": "2796359107a2c1a1d97994161743460353976677069c98dcfebde90057df49ee",
+    "simhash": "1:d96ec28b98152165",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Berry v. Lee, Superintendent, Green Haven Correctional Facility."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9092.\nBerry v. Lee, Superintendent, Green Haven Correctional Facility."
+  },
+  "file_name": "0923-14",
+  "first_page_order": 949,
+  "last_page_order": 949
+}

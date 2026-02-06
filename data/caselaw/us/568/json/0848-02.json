@@ -1,0 +1,59 @@
+{
+  "id": 12413250,
+  "name": "Botello v. United States",
+  "name_abbreviation": "Botello v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10543",
+  "first_page": "848",
+  "last_page": "848",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 848"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.637,
+    "sha256": "012312e3fe244b56c104e01e608b2afa7e6062f36098061d3aa50d54d75c7798",
+    "simhash": "1:1593c2c3299d515a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Botello v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10543.\nBotello v. United States."
+  },
+  "file_name": "0848-02",
+  "first_page_order": 924,
+  "last_page_order": 924
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12250415,
+  "name": "Gordon v. Florida et al.",
+  "name_abbreviation": "Gordon v. Florida",
+  "decision_date": "2012-03-05",
+  "docket_number": "No. 11-8139",
+  "first_page": "1248",
+  "last_page": "1248",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1248"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 73,
+    "ocr_confidence": 0.68,
+    "sha256": "5cc5b7208e254bff17739e210702d8992df82f5e4184222c4af49365321d34e1",
+    "simhash": "1:904829b8556a9230",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gordon v. Florida et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8139.\nGordon v. Florida et al."
+  },
+  "file_name": "1248-13",
+  "first_page_order": 1330,
+  "last_page_order": 1330
+}

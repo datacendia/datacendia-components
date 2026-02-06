@@ -1,0 +1,59 @@
+{
+  "id": 12432650,
+  "name": "Carr v. Traffic Court of Tyler, Texas",
+  "name_abbreviation": "Carr v. Traffic Court of Tyler",
+  "decision_date": "2013-03-04",
+  "docket_number": "No. 12-8079",
+  "first_page": "1216",
+  "last_page": "1216",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1216"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 86,
+    "ocr_confidence": 0.571,
+    "sha256": "a1fb0f8d560c70697275a737cc59c2b71a5c039004b87874495187cebe73d282",
+    "simhash": "1:110752023922a4ef",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Carr v. Traffic Court of Tyler, Texas."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8079.\nCarr v. Traffic Court of Tyler, Texas."
+  },
+  "file_name": "1216-08",
+  "first_page_order": 1292,
+  "last_page_order": 1292
+}

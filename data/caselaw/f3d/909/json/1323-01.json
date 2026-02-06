@@ -1,0 +1,718 @@
+{
+  "id": 12519252,
+  "name": "UNITED STATES of America, Plaintiff-Appellee, v. Robert William BARTON, Defendant-Appellant.",
+  "name_abbreviation": "United States v. Barton",
+  "decision_date": "2018-12-06",
+  "docket_number": "No. 17-10559",
+  "first_page": "1323",
+  "last_page": "1339",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "909 F.3d 1323"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "11th Cir.",
+    "id": 9031,
+    "name": "United States Court of Appeals for the Eleventh Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "955 F.2d 703",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        11289910
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "708-09",
+          "parenthetical": "finding any possible error harmless where the district court \"carefully instructed the jury\" and \"admonished [it] to give no special deference to the expert testimony\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/955/0703-01"
+      ]
+    },
+    {
+      "cite": "972 F.2d 1566",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1871113
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "1578",
+          "parenthetical": "\"This error, however, was harmless in light of the court's instructions to the jury that it was their 'duty to decide ... the specific facts,' and whether to 'accept ... [and] rely upon an expert witness.' \""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/972/1566-01"
+      ]
+    },
+    {
+      "cite": "378 F.3d 1154",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9216560
+      ],
+      "weight": 2,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "1162"
+        },
+        {
+          "page": "1162"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/378/1154-01"
+      ]
+    },
+    {
+      "cite": "328 U.S. 750",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        377132
+      ],
+      "weight": 3,
+      "year": 1946,
+      "pin_cites": [
+        {
+          "page": "776"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/328/0750-01"
+      ]
+    },
+    {
+      "cite": "474 U.S. 438",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6206855
+      ],
+      "weight": 3,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "449"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/474/0438-01"
+      ]
+    },
+    {
+      "cite": "167 F.3d 1350",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11604564
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "1353",
+          "parenthetical": "quoting United States v. Lane, 474 U.S. 438, 449, 106 S.Ct. 725, 88 L.Ed.2d 814 (1986) ; Kotteakos v. United States, 328 U.S. 750, 776, 66 S.Ct. 1239, 90 L.Ed. 1557 (1946) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/167/1350-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 2111",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "880 F.2d 1216",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10538792,
+        10538704
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "1224"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/880/1216-02",
+        "/f2d/880/1216-01"
+      ]
+    },
+    {
+      "cite": "459 F.3d 1121",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3645929
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "1151"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/459/1121-01"
+      ]
+    },
+    {
+      "cite": "487 U.S. 552",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1775136
+      ],
+      "weight": 3,
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "561-62"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/487/0552-01"
+      ]
+    },
+    {
+      "cite": "496 U.S. 384",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12123482
+      ],
+      "weight": 3,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "404-05",
+          "parenthetical": "quoting Pierce v. Underwood, 487 U.S. 552, 561-62, 108 S.Ct. 2541, 101 L.Ed.2d 490 (1988) "
+        },
+        {
+          "parenthetical": "quoting Pierce v. Underwood, 487 U.S. 552, 561-62, 108 S.Ct. 2541, 101 L.Ed.2d 490 (1988) "
+        },
+        {
+          "parenthetical": "quoting Pierce v. Underwood, 487 U.S. 552, 561-62, 108 S.Ct. 2541, 101 L.Ed.2d 490 (1988) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/496/0384-01"
+      ]
+    },
+    {
+      "cite": "341 F.3d 1273",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9101297
+      ],
+      "weight": 3,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "1285"
+        },
+        {
+          "page": "1285",
+          "parenthetical": "noting in the Rule 403 context that \"the district court is uniquely situated to make nuanced judgments on questions that require careful balancing of fact-specific concepts like probativeness and prejudice\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/341/1273-01"
+      ]
+    },
+    {
+      "cite": "470 U.S. 564",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11299693
+      ],
+      "weight": 3,
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "574",
+          "parenthetical": "explaining the underpinnings of clear error review of factual findings"
+        },
+        {
+          "parenthetical": "explaining the underpinnings of clear error review of factual findings"
+        },
+        {
+          "parenthetical": "explaining the underpinnings of clear error review of factual findings"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/470/0564-01"
+      ]
+    },
+    {
+      "cite": "415 F.3d 1257",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8948410
+      ],
+      "weight": 2,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "1265"
+        },
+        {
+          "page": "1265"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/415/1257-01"
+      ]
+    },
+    {
+      "cite": "499 U.S. 225",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11318566
+      ],
+      "weight": 3,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "233",
+          "parenthetical": "\"Those circumstances in which Congress or [the] Court has articulated a standard of deference for appellate review of district-court determinations reflect an accommodation of the respective institutional advantages of trial and appellate courts.\""
+        },
+        {
+          "parenthetical": "\"Those circumstances in which Congress or [the] Court has articulated a standard of deference for appellate review of district-court determinations reflect an accommodation of the respective institutional advantages of trial and appellate courts.\""
+        },
+        {
+          "parenthetical": "\"Those circumstances in which Congress or [the] Court has articulated a standard of deference for appellate review of district-court determinations reflect an accommodation of the respective institutional advantages of trial and appellate courts.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/499/0225-01"
+      ]
+    },
+    {
+      "cite": "630 F.3d 1314",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6053814
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "parenthetical": "\"In his brief, Diaz has citations to medical journal articles that he did not submit as evidence to the district court. This evidence is not part of the record on appeal, and we decline to consider it.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/630/1314-01"
+      ]
+    },
+    {
+      "cite": "12 F.3d 540",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10527227
+      ],
+      "weight": 6,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "552"
+        },
+        {
+          "page": "553"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/12/0540-01"
+      ]
+    },
+    {
+      "cite": "101 F.3d 129",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7632075,
+        3698149
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "141"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/101/0129-01",
+        "/us-app-dc/322/0019-01"
+      ]
+    },
+    {
+      "cite": "285 F.3d 1174",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9448308
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "1188"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/285/1174-01"
+      ]
+    },
+    {
+      "cite": "654 F.3d 1190",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3825134
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "1193",
+          "parenthetical": "\"Indeed, 'in most cases, objections to the inadequacies of a study are more appropriately considered an objection going to the weight of the evidence rather than its admissibility.' \""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/654/1190-01"
+      ]
+    },
+    {
+      "cite": "158 F.3d 548",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11670161
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "562"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/158/0548-01"
+      ]
+    },
+    {
+      "cite": "905 F.2d 1489",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1806830
+      ],
+      "weight": 2,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "1493"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/905/1489-01"
+      ]
+    },
+    {
+      "cite": "396 F.3d 1303",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9038944
+      ],
+      "weight": 3,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "1315",
+          "parenthetical": "quoting United States v. Hawkins, 905 F.2d 1489, 1493 (11th Cir. 1990) "
+        },
+        {
+          "page": "1315"
+        },
+        {
+          "page": "1315"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/396/1303-01"
+      ]
+    },
+    {
+      "cite": "253 F.3d 641",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1269334
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "667"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/253/0641-01"
+      ]
+    },
+    {
+      "cite": "522 U.S. 136",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11471033
+      ],
+      "weight": 8,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "143"
+        },
+        {
+          "page": "142"
+        },
+        {
+          "page": "146"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/522/0136-01"
+      ]
+    },
+    {
+      "cite": "526 U.S. 137",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11132917
+      ],
+      "weight": 7,
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "152",
+          "parenthetical": "\"[A] court of appeals is to apply an abuse-of-discretion standard when it reviews a trial court's decision to admit or exclude expert testimony.\""
+        },
+        {
+          "parenthetical": "\"[A] court of appeals is to apply an abuse-of-discretion standard when it reviews a trial court's decision to admit or exclude expert testimony.\""
+        },
+        {
+          "parenthetical": "\"[A] court of appeals is to apply an abuse-of-discretion standard when it reviews a trial court's decision to admit or exclude expert testimony.\""
+        },
+        {
+          "page": "152"
+        },
+        {
+          "page": "150"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/526/0137-01"
+      ]
+    },
+    {
+      "cite": "387 F.3d 1244",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9155932
+      ],
+      "weight": 8,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "1258",
+          "parenthetical": "en banc"
+        },
+        {
+          "page": "1259"
+        },
+        {
+          "page": "1258"
+        },
+        {
+          "page": "1259"
+        },
+        {
+          "page": "1260"
+        },
+        {
+          "page": "1262",
+          "parenthetical": "\"These factors are illustrative, not exhaustive; not all of them will apply in every case, and in some cases other factors will be equally important in evaluating the reliability of proffered expert opinion.\""
+        },
+        {
+          "page": "1260"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/387/1244-01"
+      ]
+    },
+    {
+      "cite": "326 F.3d 1333",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9321196
+      ],
+      "weight": 8,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "1341"
+        },
+        {
+          "page": "1341"
+        },
+        {
+          "page": "1344"
+        },
+        {
+          "page": "1346"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/326/1333-01"
+      ]
+    },
+    {
+      "cite": "509 U.S. 579",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        355769
+      ],
+      "weight": 21,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "592-93"
+        },
+        {
+          "page": "596"
+        },
+        {
+          "page": "590"
+        },
+        {
+          "page": "593"
+        },
+        {
+          "page": "593-94"
+        },
+        {
+          "page": "597"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/509/0579-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 922",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(g)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1809,
+    "char_count": 46100,
+    "pagerank": {
+      "raw": 4.565170110192638e-08,
+      "percentile": 0.28658331045555163
+    },
+    "sha256": "3da136ab0e17dd4d9414aab612ee1af9f185e95583a427dcec1dab3b49f89c6b",
+    "simhash": "1:b46ae2226a921439",
+    "word_count": 7195
+  },
+  "last_updated": "2024-02-27T18:46:42.116673+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before MARCUS, NEWSOM and ANDERSON, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff-Appellee,\nv.\nRobert William BARTON, Defendant-Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "MARCUS, Circuit Judge:\nRobert Barton was charged by a grand jury sitting in the Middle District of Florida, tried by a petit jury, and convicted in a single count of being a felon in possession of a firearm in violation of 18 U.S.C. \u00a7 922(g). The evidence adduced at trial was overwhelming, including Barton's two confessions, first at the scene of his arrest and later to a jailhouse informant, corroborating testimony from the passenger in Barton's vehicle at the time of the arrest, and deoxyribonucleic acid (DNA) evidence directly linking Barton to the firearm. The single issue raised on appeal is whether the district court abused its considerable discretion under Daubert v. Merrell Dow Pharmaceuticals, Inc., 509 U.S. 579, 113 S.Ct. 2786, 125 L.Ed.2d 469 (1993), in admitting expert testimony concerning the DNA evidence. We can discern no error in the trial court's exercise of its critical gatekeeping function and, accordingly, affirm the conviction.\nI.\nA.\nAt approximately 10 p.m. on August 5th, 2014, Robert Barton was driving with his girlfriend, Lisa Moore, and her young daughter, Emma, in Hillsborough County, Florida. Hillsborough County Sheriff's Department Lieutenant William Gergel encountered the vehicle, ran its license plate, and discovered it to be a stolen tag that did not match the vehicle. Gergel switched on his lights to pull Barton over and called for backup. Barton quickly complied. Gergel approached the vehicle, explained why he had pulled the car over, and asked for Barton's license and registration. Gergel observed that Barton appeared \"nervous.\" Barton produced his license and claimed he had borrowed the car from his \"soon-to-be ex-wife\" and did not know that the tag was stolen. Gergel went to his car and confirmed that the car was unregistered and that the tag and vehicle did not match. He then asked Barton to walk to the back of the vehicle, explained that he would probably have to impound the car because it was not registered, and asked Barton if there was anything illegal in it. Barton initially insisted there was nothing in the car, but when Gergel reiterated to Barton that the vehicle would be impounded and anything inside would be discovered, Barton simply put his head down and shook it.\nMeanwhile, one of the officers who arrived on the scene, Deputy Geraldine Charles, saw in the back seat what appeared to be a firearm-but turned out to be a BB gun-and then initiated a search of the vehicle. In the course of the search, Deputy Charles discovered on the front floor under the passenger's seat a loaded .22-caliber revolver whose serial number had been scratched off. Both Barton and Moore had felony convictions. After Deputy Charles read Barton his Miranda rights, but before she asked him about the gun, Barton stated, \"I will say the gun is mine.\" Deputy Charles told Barton that she did not want him to just \"say\" it was his; she wanted Barton to tell the truth. Barton responded that the gun was in fact his and that he had thrown it under the passenger's seat when he saw Gergel's lights. Barton explained that he bought the firearm from a guy off the street in Zephyrhills.\nAt trial, the Government presented substantial evidence corroborating Barton's confession. Moore testified that while they were being pulled over, she felt a gun being thrown at her feet and she kicked it under the passenger's seat. Willie Sims, a jailhouse informant, testified that Barton had confessed while the two shared a holding cell awaiting court appearances. Finally, the Government introduced DNA evidence analyzed from the firearm through its expert, Candy Zuleger, Director of Trinity DNA Solutions, a private laboratory that performed the Barton DNA testing. She opined that the DNA profile found on the firearm would match with only 1 out of 41 million people in the general population. Barton presented his own DNA expert, Dr. Elizabeth Johnson, who, after extensive examination, disagreed with Zuleger's opinion.\nB.\nBefore trial, Barton moved in limine to exclude the DNA evidence and Zuleger's testimony. The district court referred the motion to a magistrate judge, who held a Daubert hearing at which Zuleger and Johnson both testified.\nThe issues raised at the Daubert hearing and in this appeal warrant a word of background on DNA. DNA is a complex molecule that contains the biological coding of human traits. Within a typical human cell, DNA is wrapped tightly into forty-six chromosomes forming twenty-three pairs. Physical locations (known to scientists as \"loci\") on one chromosome correspond with physical locations on its paired chromosome; for each locus on a chromosome that influences an attribute, there is a related locus on its paired chromosome that also influences the attribute. The DNA found at these loci are called \"alleles,\" and alleles, like chromosomes, come in pairs. While more than 99% of DNA is identical from person to person, scientists have determined that certain alleles are highly variable between individuals, and have likewise determined the statistical probability of finding those alleles in the greater population. Forensic DNA analysis focuses on these loci and alleles known to vary widely: when a profile of such alleles from a known person is compared to a profile of alleles from an unknown DNA sample, statistical analysis can determine the frequency with which a sample from a random member of the general population would also be a match.\nAt the Daubert hearing, Zuleger explained Trinity's methodology for testing and analyzing DNA. As a laboratory accredited by the ANSI-ASQ National Accreditation Board (ANAB), Trinity adheres to the International Organization for Standardization (ISO) 17025 Standards and the FBI Quality Assurance Standards for Forensic DNA Testing Laboratories (QAS). These standards are operationalized through Trinity's Forensic Biology Procedures Manual, which is audited biennially as part of the accreditation process. The ISO standards govern laboratory management, while the QAS standards govern DNA testing and analysis. Trinity's procedures manual also incorporates the guidelines set forth by the Scientific Working Group on DNA Analysis Methods (SWGDAM), a group of approximately fifty scientists representing federal, state, and local forensic DNA laboratories in the United States and Canada. Zuleger testified-and Barton does not dispute-that she fully adhered to Trinity's procedures manual in this case.\nZuleger explained that the DNA in Barton's case was tested using the Polymerase Chain Reaction /Short Tandem Repeat (PCR/STR) method-a method used by every accredited laboratory in the country. Importantly, Barton does not challenge the reliability of PCR/STR generally. This testing process involves five basic steps: collection, extraction, quantitation, amplification, and profile analysis. To begin, the sample is collected from the source-in this case, the firearm. The DNA is then extracted from the sample and put into a solution for testing. Next, quantitation estimates how much DNA is present in the sample. As Zuleger testified, this is a critical step because either too much or too little DNA in the sample can interfere with later stages of analysis: too much DNA can make the results unreadable, while too little can prevent the lab from obtaining a DNA profile at all. Zuleger testified, however, that even when quantitation estimates very little or no DNA at all in the sample, the lab continues with later stages of analysis because the manufacturer's validation studies revealed that it is nevertheless possible to obtain usable data. Zuleger indicated that the optimal amount of DNA is .5 nanograms, or 500 picograms, and that in this case, quantitation estimated 210 picograms in the sample obtained from the firearm.\nUsing PCR in the amplification step, the analyst then makes millions of copies of the DNA by adding it to a \"DNA kit,\" a combination of chemicals that produces the reaction. Before laboratory use, a DNA kit is subjected to validation testing, which establishes interpretation guidelines for profile analysis. The interpretation guidelines from validation testing on the DNA kit used in this case, the PowerPlex Fusion, appear in Trinity's procedures manual, and include the parameters in which an analyst may conclude that there is a \"major donor\" in a sample that contains more than one person's DNA. Finally, Zuleger explained, the sample is analyzed by a computer, which produces an electropherogram, a visualization of the genetic data from which the analyst conducts profile analysis. The alleles at each loci appear as \"peaks\" on the electropherogram.\nProfile analysis is relatively straightforward where the DNA in the sample comes from one individual. One or two peaks will appear at each loci and a DNA profile will be readily determined. The process becomes more complicated where the DNA in the sample is a mixture from two or more individuals. In that case, more than two peaks may appear at any given locus and an individual profile may be determined only if the analyst is able to distinguish between donors, including by isolating a so-called \"major donor.\" Major donors are determined by peak-height differences, and Trinity's procedures manual dictates the peak-height ratios and peak-height intensity considerations necessary to identify a major donor.\nHere, because one individual can have a maximum of two peaks at any one locus and because there were five peaks at certain loci, Zuleger determined that the DNA mixture came from at least three individuals. Following Trinity's procedures, Zuleger determined that there was a major donor in the mixture, identified a partial DNA profile for that major donor, and then compared that profile to the known Barton profile. During analysis, Zuleger excluded data that fell below Trinity's so-called \"analytical threshold\" and its so-called \"stochastic threshold\"-that is, data that could be subject to stochastic effects, random distortions including allele drop-out or drop-in, which can occur particularly with mixture samples. Zuleger testified that exclusion of this data leads to a more conservative statistic.\nZuleger used a modified random match probability statistical analysis, and concluded that the frequency of occurrence of the major DNA profile derived from the firearm sample was 1 in 41 million in the general population. The obvious implication of Zuleger's testimony was that it is extraordinarily unlikely that the DNA found on the firearm came from someone other than Barton.\nOn the second day of the Daubert hearing, defense DNA expert Dr. Elizabeth Johnson testified that there were three major problems with Zuleger's methodology and analysis: (1) that the \"major donor\" call was unreliable because Trinity's standards regarding peak-height ratios were inadequate; (2) that no validation studies pertaining to three-or-more person mixtures had been performed on the PowerPlex Fusion DNA kit; and (3) that the quantity of DNA material (210 picograms) was so low as to be classified as \"low copy,\" and thus inherently unreliable. In support of her contentions, Johnson cited the procedures manuals from the Harris County crime lab and the California Department of Justice, and claimed that they are representative of what is generally accepted in the scientific community.\nIn his 16-page Report and Recommendation-with the benefit of over six hours of expert testimony and argument of counsel-the magistrate judge recommended that Barton's motion be denied. For starters, he concluded that Barton's argument regarding the validation studies lacked merit because the studies were done under well-accepted standards and Zuleger testified that the same principles outlined in the validation studies for mixtures applied whether the mixture contained DNA from two, three, or more donors. Meanwhile, Barton failed to present anything demonstrating the result would have differed if Trinity's validation studies were conducted with complex mixtures from three or more donors. Next, the court found that while 210 picograms is below the optimal amount of DNA for testing and may increase the risk of stochastic effects, those effects may be \"appropriately considered by trained forensic biologists under acceptable standards.\"\nThe magistrate judge thus concluded that \"assigning a blanket DNA minimum threshold is misguided when the real interpretive challenge-the presence of stochastic effects-is not perfectly correlated with quantity and can typically be determined by reviewing [the] ... test results.\" And in this case, because Zuleger \"identified the presence of stochastic effects[,] she proceed[ed] more cautiously in interpreting the data from the unknown sample, and did so by following the interpretation guidelines memorialized from the PowerPlex Fusion validation studies, along with Trinity's procedures, as outlined in the Manual.\"\nFinally, the magistrate judge determined that the third argument regarding major peak heights likewise lacked merit. Because Johnson based her testimony on the procedures utilized by two different laboratories-both of which \"went through the same or similar accreditation process as Trinity\"-the magistrate judge concluded that these sources offered \"at best an alternative procedure in comparison with the procedures outlined in Trinity's Manual and the validation studies performed by Trinity on the PowerPlex Fusion kit.\" Relying on this Court's opinion in Quiet Technology DC-8 v. Hurel-Dubois UK Ltd., 326 F.3d 1333 (11th Cir. 2003), the magistrate judge concluded that each of Barton's three arguments appropriately went to the weight of the evidence, and did not warrant its exclusion under Daubert. After a de novo review, the district court adopted the Report and Recommendation over Barton's objections.\nOn September 14, 2016, the jury returned a guilty verdict on the single count of the indictment. The district court sentenced Barton to serve a 210-month term of imprisonment, followed by three years of supervised release.\nOn appeal, Barton argues only that the district court erred in admitting Zuleger's expert testimony and asks this Court to overturn his conviction and remand the case for a new trial.\nII.\n\"We review for abuse of discretion the district court's decisions regarding the admissibility of expert testimony and the reliability of an expert opinion.\" United States v. Frazier, 387 F.3d 1244, 1258 (11th Cir. 2004) (en banc); see also Kumho Tire Co., Ltd. v. Carmichael, 526 U.S. 137, 152, 119 S.Ct. 1167, 143 L.Ed.2d 238 (1999) (\"[A] court of appeals is to apply an abuse-of-discretion standard when it reviews a trial court's decision to admit or exclude expert testimony.\") (quotations and alterations omitted).\nThis abuse-of-discretion standard \"recognizes the range of possible conclusions the trial judge may reach,\" Frazier, 387 F.3d at 1259, and thus affords the district court \"considerable leeway\" in evidentiary rulings, id. at 1258. Accordingly, \"the 'deference that is the hallmark of abuse-of-discretion review,' requires that we not reverse an evidentiary decision of a district court 'unless the ruling is manifestly erroneous.' \" Id. at 1259 (first quoting Gen. Elec. Co. v. Joiner, 522 U.S. 136, 143, 118 S.Ct. 512, 139 L.Ed.2d 508 (1997) ; then quoting id. at 142, 118 S.Ct. 512 ). That is, this Court \"must affirm unless we find that the district court has made a clear error of judgment, or has applied the wrong legal standard.\" Id.\nFurther, even an abuse of discretion will not warrant reversal where the resulting error was harmless. We \"will not overturn an evidentiary ruling and order a new trial unless the objecting party has shown a substantial prejudicial effect from the ruling.\" Maiz v. Virani, 253 F.3d 641, 667 (11th Cir. 2001). Substantial prejudice goes to the outcome of the trial; \"where an error had no substantial influence on the outcome, and sufficient evidence uninfected by error supports the verdict, reversal is not warranted.\" United States v. Drury, 396 F.3d 1303, 1315 (11th Cir. 2005) (quoting United States v. Hawkins, 905 F.2d 1489, 1493 (11th Cir. 1990) ).\nIII.\nA.\nOur analysis begins with Rule 702 of the Federal Rules of Evidence, which provides:\nA witness who is qualified as an expert by knowledge, skill, experience, training, or education may testify in the form of an opinion or otherwise if:\n(a) the expert's scientific, technical, or other specialized knowledge will help the trier of fact to understand the evidence or to determine a fact in issue;\n(b) the testimony is based on sufficient facts or data;\n(c) the testimony is the product of reliable principles and methods; and\n(d) the expert has reliably applied the principles and methods to the facts of the case.\nFed. R. Evid. 702.\n\"As the Supreme Court made abundantly clear in Daubert, Rule 702 compels the district courts to perform the critical 'gatekeeping' function concerning the admissibility of expert scientific evidence.\" Frazier, 387 F.3d at 1260 (quoting Daubert v. Merrell Dow Pharm., Inc., 509 U.S. 579, 589 n.7, 597, 113 S.Ct. 2786, 125 L.Ed.2d 469 (1993) ) (emphasis added in original). Because expert testimony can be both highly persuasive and difficult for a lay jury to evaluate, the importance of this gatekeeping function \"cannot be overstated.\" Id. To faithfully discharge its gatekeeping duty, the trial court must engage in a rigorous three-part analysis and consider whether:\n(1) the expert is qualified to testify competently regarding the matters he intends to address; (2) the methodology by which the expert reaches his conclusions is sufficiently reliable as determined by the sort of inquiry mandated in Daubert; and (3) the testimony assists the trier of fact, through the application of scientific, technical, or specialized expertise, to understand the evidence or to determine a fact in issue.\nId. (quoting City of Tuscaloosa v. Harcros Chems., Inc., 158 F.3d 548, 562 (11th Cir. 1998) ).\nOnly the second prong-reliability-is at issue in this case. \"When evaluating the reliability of scientific expert opinion, the trial judge must assess 'whether the reasoning or methodology underlying the testimony is scientifically valid and ... whether that reasoning or methodology properly can be applied to the facts in issue.' \" Id. at 1261-62 (footnote omitted) (quoting Daubert, 509 U.S. at 592-93, 113 S.Ct. 2786 ). Daubert sets forth a number of illustrative, though not exhaustive, factors that should be considered in determining reliability, including:\n(1) whether the expert's theory can be and has been tested; (2) whether the theory has been subjected to peer review and publication; (3) the known or potential rate of error of the particular scientific technique; and (4) whether the technique is generally accepted in the scientific community.\nQuiet Tech. DC-8 v. Hurel-Dubois UK Ltd., 326 F.3d 1333, 1341 (11th Cir. 2003) ; see also Frazier, 387 F.3d at 1262 (\"These factors are illustrative, not exhaustive; not all of them will apply in every case, and in some cases other factors will be equally important in evaluating the reliability of proffered expert opinion.\").\nNotwithstanding its critical gatekeeping function, the trial court is just that-a gatekeeper-and Rule 702 is a screening procedure, not an opportunity to substitute the trial court's judgment for that of a jury. In that regard, \"it is not the role of the district court to make ultimate conclusions as to the persuasiveness of the proffered evidence,\" Quiet Tech., 326 F.3d at 1341, and \"[v]igorous cross-examination, presentation of contrary evidence, and careful instruction on the burden of proof are the traditional and appropriate means of attacking shaky but admissible evidence,\" id. (quoting Daubert, 509 U.S. at 596, 113 S.Ct. 2786 ).\nB.\nHere, the trial court could fairly determine that Zuleger's opinions were based on reliable methods and sufficiently reliable application of those methods to satisfy Daubert and warrant admission. The reliability of the basic methodology-PCR/STR testing-is not in dispute. Barton agrees that this type of testing is reliable and generally accepted within the scientific community. He instead argues that the use of this testing with the low quantity of a complex DNA mixture present in this case, and in the absence of appropriate validation testing and interpretive thresholds for complex mixtures, rendered the data unreliable and Zuleger's opinion drawn from the data inappropriate. Thus, he argues that the trial court abused its discretion in admitting the evidence.\nWe remain unpersuaded. The magistrate judge had before him the competing scientific testimony of two qualified experts. One relied on Trinity's procedures manual, while the other relied on the procedures of two other laboratories. All of these procedures, though different, were reviewed and approved by a highly regarded accrediting body. Looking at the explanations, methodology, and procedures used by Zuleger, the magistrate judge concluded that the Daubert standard was met. And far from \"rubber stamp[ing]\" the expert testimony, as Barton claims, the magistrate judge carefully considered each of Barton's arguments against the reliability of Zuleger's proposed testimony and found the opinions reliable based on the methods she employed and in reference to Trinity's audited procedures. While it is true that \"[t]he trial court's gatekeeping function requires more than simply 'taking the expert's word for it,' \" Fed. R. Evid. 702 advisory committee's note (2000 amends.), Zuleger explained in detail how she formed her expert opinion based on reliable and generally accepted methods.\nMoreover, the magistrate judge credited Zuleger's testimony only in light of other indicia of reliability, including the auditing and accreditation process. Barton argues for the first time in this Court that accreditation and auditing history are not useful indicia of a lab's adherence to reliable methodology. In support of this argument, Barton cites a number of news articles regarding laboratories that were either closed or reprimanded for serious lapses despite having been accredited. This information was not presented to the trial court. But even if it had been, the failure of accreditation and auditing to uncover problems in a few different labs does not make it an abuse of discretion for the court to have found accreditation probative of reliability.\nUltimately, the trial court concluded that the arguments raised by Barton did not undermine admissibility under Daubert, but rather went to the weight of the evidence and could be presented to the jury at trial. In so holding, the trial judge relied heavily on our opinion in Quiet Technology, which is analogous to this case. In that case, the appellant argued not about the reliability of the particular kind of study or methodology, but rather that the expert \"misapplied the generally valid principles underlying\" the type of study he performed. Quiet Tech., 326 F.3d at 1344. Specifically, appellant argued that the expert had failed to use the proper equations in calculating certain data that was ultimately put into analysis software. Similarly here, Barton argues that Zuleger failed to perform certain calculations that would have altered the data ultimately used to determine that the frequency of occurrence of the major DNA profile derived from the firearm sample was 1 in 41 million in the general population. The Quiet Technology Court found that the \"identification of such flaws in generally reliable scientific evidence is precisely the role of cross-examination.\" Id. at 1345 ; see also Rosenfeld v. Oceania Cruises, Inc., 654 F.3d 1190, 1193 (11th Cir. 2011) (\"Indeed, 'in most cases, objections to the inadequacies of a study are more appropriately considered an objection going to the weight of the evidence rather than its admissibility.' \") (quoting Hemmings v. Tidyman's Inc., 285 F.3d 1174, 1188 (9th Cir. 2002) ). The Court concluded that \"[b]ecause [the expert's] methods and results were discernible and rooted in real science-i.e., were 'intellectual[ly] rigor[ous]'-they were empirically testable. As such, they were subject to effective cross examination and, indeed, were questioned vigorously\" by the appellant at trial. Quiet Tech., 326 F.3d at 1346 (quoting Kumho Tire, 526 U.S. at 152, 119 S.Ct. 1167 ). The same is true here: Zuleger testified at trial, Barton vigorously cross-examined Zuleger and offered the rebutting testimony of Johnson, another expert, and the jury was left to evaluate the evidence. Moreover, the district judge appropriately instructed the jury that they were to treat expert scientific testimony like \"any other witness's testimony\" and \"decide for [themselves] whether to rely upon the opinion.\"\nThe trial court rightly reached its decision based on an evaluation of the foundations of Zuleger's testimony and the failure of the defense to rebut it with anything but the testimony of a competing expert, who employed the same general methodology. Indeed, it would have gone beyond the gatekeeping function of the trial court to exclude Zuleger's testimony on the basis of a credibility determination favoring Johnson's. See Ambrosini v. Labarraque, 101 F.3d 129, 141 (D.C. Cir. 1996) (\"The district court[ ] err[ed] ... [by] misconce[iving] of the limited 'gatekeeper' role envisioned in Daubert. By attempting to evaluate the credibility of opposing experts and the persuasiveness of competing scientific studies, the district court conflated the questions of the admissibility of expert testimony and the weight appropriately to be accorded such testimony by a fact finder.\") (cited approvingly in Quiet Tech., 326 F.3d at 1341 ). The issues raised by Johnson's competing testimony went to the weight owed Zuleger's expert opinion, and were properly left to the jury. Under these circumstances, the trial court did not abuse its discretion in allowing the presentation of Zuleger's expert testimony to the jury.\nIV.\nOn appeal, Barton offers substantial additional evidence on the reliability of Zuleger's methodology, including several scientific journal articles and the updated 2017 SWGDAM guidelines. Much of this evidence is potentially probative of reliability. The 2017 SWGDAM guidelines in particular contain an important update relating to validation studies for greater-than-two-person mixtures. Barton acknowledges on appeal that Trinity's procedures were developed in accordance with the 2010 SWGDAM guidelines, but argues that those guidelines were primarily designed to cover single-source samples and two-person mixtures. He points to SWGDAM's Frequently Asked Questions (FAQs) relating to the 2010 guidelines, which note that the \"nuances and limitations to the interpretation of ... more complex mixtures ... are not fully explored in the 2010 guidelines,\" and thus \"encourage\" laboratories \"to perform additional validation studies of complex mixtures to further their understanding of the issues related to these challenging samples.\"\nThe 2017 guidelines, on the other hand, explicitly address such complex mixtures, and take a strong position on mixture validation testing. Under the new guidelines:\nInterpretation guidelines for mixtures must be based on mixture studies conducted using known contributors that represent the number of contributors and the range of general mixture types (e.g., mixture proportions and template quantities) for which the procedure will be used in casework. If a laboratory will be interpreting mixtures containing stochastic level data, the validation studies on which the interpretation guidelines are based should contain mixtures with stochastic level data.\nSWGDAM Interpretation Guidelines for Autosomal STR Typing by Forensic DNA Testing Laboratories, \u00a7 2.3 (2017) (emphasis added). In other words, the updated SWGDAM guidelines support Barton's claim that analysis of a low-quantity three-person mixture should be based on interpretation guidelines drawn from validation studies performed on low-quantity three-person mixtures. Validation studies go to the heart of reliability. See Daubert, 509 U.S. at 590, 113 S.Ct. 2786 (\"Proposed testimony must be supported by appropriate validation-i.e., 'good grounds,' based on what is known.\"). Accordingly, the 2017 guidelines modifying scientific standards for validation studies are potentially important evidence cutting against reliability. Nevertheless, these 2017 SWGDAM guidelines were not available at the time of the trial and thus were not presented to the district court. The important question before us, then, is whether and how to consider these new guidelines-or the scientific journal articles-in the context of an appeal.\nThe Sixth Circuit confronted a strikingly similar question in United States v. Bonds, 12 F.3d 540 (6th Cir. 1993). There, appellant asked the court to take judicial notice of a report of the National Research Committee of the National Academy of Sciences, issued a year after appellant's conviction, which questioned the reliability of certain FBI DNA interpretation procedures. Id. at 552. First, the court noted that the Federal Rules of Appellate Procedure confine the record on appeal to the original papers and exhibits filed in the district court, the transcript of proceedings, if any, and a certified copy of the docket entries prepared by the district clerk. Id. (citing Fed. R. App. P. 10(a) ). Thus, the report, which was not before the district court, could not be considered on appeal. The court likewise declined to take judicial notice of the report because it did not contain the sort of facts \"not subject to reasonable dispute\" contemplated by the Federal Rule's judicial notice provision. Id. at 553. Most importantly, the Sixth Circuit reasoned that consideration of the report would subvert the fact-finding role of the district court and inappropriately impose de novo review on appeal. Id. (\"Most importantly, if we were to look at new scientific data available to us but not available to the district court that made the admissibility determination, we would not be confining ourselves to reviewing the district court's admissibility ruling, but would be making a de novo determination based on post-conviction developments or articles.\")\nWe agree with the Sixth Circuit and reach the same result here. The 2017 SWGDAM guidelines are not and, given their timing, could not be part of the record on appeal. We thus decline to consider them. The same is true for the medical journal articles Barton newly submits. See United States v. Diaz, 630 F.3d 1314, 1334 n.13 (11th Cir. 2011) (\"In his brief, Diaz has citations to medical journal articles that he did not submit as evidence to the district court. This evidence is not part of the record on appeal, and we decline to consider it.\") (citing Bonds, 12 F.3d at 552 ).\nBarton now argues that this Court should consider the additional evidence anyway, primarily because it was the Government's burden, not his, to lay a proper foundation for its proffered expert opinion testimony. This argument misses the mark. The Supreme Court has made it abundantly clear that the question for an appellate court is only whether the trial court abused its discretion in making its gatekeeping determination. See Joiner, 522 U.S. at 146, 118 S.Ct. 512 (\"We hold, therefore, that abuse of discretion is the proper standard by which to review a district court's decision to admit or exclude scientific evidence.\"). We cannot find an abuse of discretion based on our consideration of new evidence-evidence never considered by the trial court and never explained by the DNA expert-on appeal. The trial court simply could not have abused its discretion in failing to credit information not presented in that forum because the evidence did not yet exist. Based on the expert evidence presented to the trial court, we cannot say that it abused its discretion.\nIndeed, to take the opposite position would effectively mandate de novo factual review in this Court; we would be compelled to consider all the evidence afresh in light of the new evidence rather than focus on what was before the trial court. This would utterly undermine the deference we owe to the district court and profoundly alter the role of an appellate court. The virtues of deference to trial courts in evidentiary determinations are many, and the sound policy underpinnings for our deferential standard of review illustrate the danger of ignoring it. Chief among those underpinnings is that district courts are simply best-positioned to make fact-intensive evidentiary calls. See Salve Regina Coll. v. Russell, 499 U.S. 225, 233, 111 S.Ct. 1217, 113 L.Ed.2d 190 (1991) (\"Those circumstances in which Congress or [the] Court has articulated a standard of deference for appellate review of district-court determinations reflect an accommodation of the respective institutional advantages of trial and appellate courts.\"); United States v. Brown, 415 F.3d 1257, 1265 (11th Cir. 2005). It is undeniable that Daubert and its progeny set forth an individualized, fact-laden reliability inquiry.\nDaubert, 509 U.S. at 593, 113 S.Ct. 2786 (\"Many factors will bear on the inquiry, and we do not presume to set out a definitive checklist or test.\"); see also Kumho Tire, 526 U.S. at 150, 119 S.Ct. 1167 (explaining that Daubert's \"gatekeeping inquiry must be 'tied to the facts' of a particular 'case' \"). Daubert's suggested factors that a district court might employ include whether the scientific theory can be and has been tested and the known and potential error rate of a particular technique. Daubert, 509 U.S. at 593-94, 113 S.Ct. 2786. These are potentially complex factual questions. And if one principle is clear, it is that appellate courts are not fact finders. The institutional advantages of trial courts in such an inquiry-and thus the virtues of deferential review by appellate courts-are numerous. For starters, \"[t]he trial judge's major role is the determination of fact, and with experience in fulfilling that role comes expertise.\" Anderson v. City of Bessemer City, 470 U.S. 564, 574, 105 S.Ct. 1504, 84 L.Ed.2d 518 (1985) (explaining the underpinnings of clear error review of factual findings). We defer, in part, therefore, because district judges (and juries) are the expert fact finders of the federal courts.\nAdditionally, the trial court has before it the evidence and expert witnesses themselves. They are subject to confrontation and cross-examination in that court. Because it has \"first-hand access to documentary evidence and is physically proximate to testifying witnesses,\" Brown, 415 F.3d at 1265 (quoting United States v. Jernigan, 341 F.3d 1273, 1285 (11th Cir. 2003) ), the district court can evaluate the witnesses and, where necessary, clarify its understanding of the complex science and its application to the case. See Jernigan, 341 F.3d at 1285 (noting in the Rule 403 context that \"the district court is uniquely situated to make nuanced judgments on questions that require careful balancing of fact-specific concepts like probativeness and prejudice\"). Any effort at duplicating at the appellate level the trial court's familiarity with the record or nuanced insights gained throughout the life of the case is wholly impractical, if not impossible. Id.\nMoreover, where the law affords discretion, deference not only respects the choice and the judgment inherent in discretion, but also promotes certainty for the litigants. Almost nowhere is the rationale for abuse-of-discretion review more powerful than when the district court makes an evidentiary ruling. Evidentiary issues-whether particular evidence is relevant, or cumulative, or unfairly prejudicial-frequently demand the trial court make close judgment calls. There may be no clearly correct answer and, indeed, reasonable minds can readily disagree on the appropriateness of admitting or excluding particular evidence. Any rule allowing appellate courts to supplant their own judgment on these close evidentiary calls would create enormous uncertainty-uncertainty that would come with little benefit for the development of the law. Quite simply, de novo appellate review of \"questions involving 'multifarious, fleeting, special, narrow facts that utterly resist generalization,' ... is unlikely to establish clear guidelines for lower courts.\" Cooter & Gell v. Hartmarx Corp., 496 U.S. 384, 404-05, 110 S.Ct. 2447, 110 L.Ed.2d 359 (1990) (quoting Pierce v. Underwood, 487 U.S. 552, 561-62, 108 S.Ct. 2541, 101 L.Ed.2d 490 (1988) ) (describing the fact-specific inquiry in a Rule 11 sanctions determination).\nThis is not to say that a defendant is left without any remedy if postconviction scientific advances cast doubt on the reliability of forensic evidence used to establish his guilt. As science progresses, and \"[s]cientific conclusions are subject to perpetual revision,\" Daubert, 509 U.S. at 597, 113 S.Ct. 2786, and best methods are replaced by those still better, reliability is an inherently moving target. Id. While methods of forensic analysis, once widely accepted, can be discredited or discarded altogether, the law has mechanisms to revisit convictions arguably infected by unreliable evidence. Here, for instance, Barton could seek a new trial. Under Rule 33 of the Federal Rules of Criminal Procedure, a district court may grant a motion for a new trial \"if the interest of justice so requires.\" Fed. R. Crim. P. 33(a). A motion for a new trial based on \"newly discovered evidence\" must be filed within three years after the guilty verdict. Fed. R. Crim. P. 33(b)(1).\nWe acknowledge that a Rule 33 motion is an uphill climb. Such motions \"are highly disfavored in the Eleventh Circuit and should be granted only with great caution.\" United States v. Campa, 459 F.3d 1121, 1151 (11th Cir. 2006). To succeed on a Rule 33 motion based on newly discovered evidence, a defendant must demonstrate the following conditions:\n(1) the evidence must be discovered following trial; (2) the movant must show due diligence to discover the evidence; (3) the evidence must not be merely cumulative or impeaching; (4) the evidence must be material to issues before the court; and (5) the evidence must be of such a nature that a new trial would probably produce a new result.\nUnited States v. DiBernardo, 880 F.2d 1216, 1224 (11th Cir. 1989). Given the law's interest in certainty and finality, that the new trial standard is difficult to meet is a feature, not a flaw; only under limited circumstances should the law disturb the considered judgments of trial courts and juries after the fact. Nevertheless, real remedies exist to correct injustices where postconviction scientific developments seriously undermine the validity of those judgments. But turning appellate courts into basic fact finders is not one of them.\nV.\nBeyond all of that, any error in admitting the DNA evidence here-and we see none-was harmless. The Federal Rules of Criminal Procedure direct courts to disregard \"[a]ny error, defect, irregularity, or variance that does not affect substantial rights.\" Fed. R. Crim. P. 52(a). At the appellate level, we read this rule in conjunction with the federal harmless-error statute, which compels us to decide appeals \"without regard to errors or defects which do not affect the substantial rights of the parties.\" 28 U.S.C. \u00a7 2111. \"In applying this test, we use the Kotteakos standard, which teaches that a nonconstitutional error requires reversal only if it resulted 'in actual prejudice because it had substantial and injurious effect or influence in determining the jury's verdict.' \" United States v. Guzman, 167 F.3d 1350, 1353 (11th Cir. 1999) (quoting United States v. Lane, 474 U.S. 438, 449, 106 S.Ct. 725, 88 L.Ed.2d 814 (1986) ; Kotteakos v. United States, 328 U.S. 750, 776, 66 S.Ct. 1239, 90 L.Ed. 1557 (1946) ); see also Frazier, 387 F.3d at 1266 n.20. In other words, \" 'where an error had no substantial influence on the outcome, and sufficient evidence uninfected by error supports the verdict, reversal is not warranted.' \" Drury, 396 F.3d at 1315 (quoting Hawkins, 905 F.2d at 1493 ); Peat, Inc. v. Vanguard Research, Inc., 378 F.3d 1154, 1162 (11th Cir. 2004) (\"Our cases, consistent with Rule 61 of the Federal Rules of Civil Procedure, hold that a new trial is warranted only where the error has caused substantial prejudice to the affected party (or, stated somewhat differently, affected the party's 'substantial rights' or resulted in 'substantial injustice'). Notwithstanding the difference in terminology, the inquiry is always the same-how much of an effect did the improperly admitted or excluded evidence have on the verdict?\").\nThough the harmlessness inquiry is necessarily case-specific, our precedents set forth a number of useful factors in answering the question, including \"the number of errors, the closeness of the factual disputes (i.e., the strength of the evidence on the issues affected by the error), ... the prejudicial effect of the evidence at issue[,] ... whether counsel focused on the evidence during the trial, and whether any cautionary or limiting instructions were given.\" Id. at 1162.\nWe are mindful both that DNA evidence is powerful and it could be highly prejudicial. Nevertheless, the other evidence of Barton's guilt was overwhelming. For starters, Barton was driving the car in which the gun was found. Barton confessed not once, but twice. At the scene of his arrest, Barton told Deputy Charles that the gun was his and that he had thrown it under the passenger's seat when he saw Gergel's lights. He said he got it from a guy off the street in Zephyrhills. While sharing a holding cell at the courthouse with Sims, Barton again confessed. When Barton discovered that Sims was from Pasco County, Barton began naming possible common acquaintances from the area. When it turned out they both knew Rosa Linda from Lock Street in Dade City (a neighboring town of Zephyrhills), Barton told Sims he purchased his firearms from Rosa Linda, including the .22-caliber revolver with a scratched-off serial number for which he was then facing charges. Sims said Barton also told him that Barton was driving his wife's car with another woman when he was pulled over, and that he attempted to wipe fingerprints off the gun because he knew with his record that the police were likely to search the car. Sims's detailed knowledge of the crime and arrest-though not entirely consistent with Barton's initial confession-made his testimony particularly credible.\nBarton's confessions were corroborated in still other ways. Both at the scene and later at trial, his passenger, Lisa Moore, implicated him, and her story matched with his. Moore said that after seeing Sergeant Gergel's lights, she felt a gun being thrown at her feet, and that she kicked it under the passenger's seat, precisely where the gun was found. Moore gave a written statement to police on the night of the arrest that similarly said Barton had thrown the gun at her feet. All told, this evidence painted a powerful picture of Barton's guilt. Thus, it is clear that sufficient evidence uninfected by any conceivable error in admitting the DNA testimony supports Barton's conviction. Drury, 396 F.3d at 1315.\nIn addition to the strength of the other evidence against Barton, the trial judge properly instructed the jury on weighing expert testimony. As we have repeatedly found, proper instruction to the jury on weighing expert testimony may render errors in admitting the evidence harmless. See United States v. Myers, 972 F.2d 1566, 1578 (11th Cir. 1992) (\"This error, however, was harmless in light of the court's instructions to the jury that it was their 'duty to decide ... the specific facts,' and whether to 'accept ... [and] rely upon an expert witness.' \"); United States v. Herring, 955 F.2d 703, 708-09 (11th Cir. 1992) (finding any possible error harmless where the district court \"carefully instructed the jury\" and \"admonished [it] to give no special deference to the expert testimony\"). Here, using this Circuit's pattern jury instruction, the district judge told the jurors to treat expert scientific testimony like \"any other witness's testimony\" and \"decide for [themselves] whether to rely upon the opinion.\" After hearing the extensive testimony from dueling DNA experts, the jury was properly directed to evaluate the competing testimony of Zuleger and Johnson and decide for itself what weight, if any, to accord the DNA evidence.\nIn short, even if we were to conclude that the district court had abused its discretion in allowing the expert testimony of Ms. Zuleger, any claimed error would have been harmless. The evidence was overwhelming and we can find no reasonable likelihood that the claimed error affected the Defendant's substantial rights.\nAccordingly, we affirm.\nAFFIRMED.\nANAB is jointly named for the American National Standards Institute (ANSI) and the American Society for Quality (ASQ).\nIndeed, the first and third prongs are beyond dispute. Zuleger has extensive scientific training and decades of work in DNA testing laboratories, and Barton stipulated at the Daubert hearing that she is a qualified DNA expert. As for the third prong, the presence or absence of the Defendant's DNA on the firearm goes to the very heart of the case-whether the Defendant, a convicted felon, was in fact in possession of a firearm-and thus indisputably assists the jury \"to determine a fact at issue.\" Frazier, 387 F.3d at 1260.",
+        "type": "majority",
+        "author": "MARCUS, Circuit Judge:"
+      }
+    ],
+    "attorneys": [
+      "Roberta Josephina Bodnar, U.S. Attorney's Office-FLM, Ocala, FL, Germaine Seider, Michael V. Leeman, James A. Muench, U.S. Attorney's Office, Tampa, FL, for Plaintiff-Appellee.",
+      "Cory Lee Chandler, Amy L. Christiansen, Spector Gadon & Rosen, LLP, St. Petersburg, FL, for Defendant-Appellant."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff-Appellee,\nv.\nRobert William BARTON, Defendant-Appellant.\nNo. 17-10559\nUnited States Court of Appeals, Eleventh Circuit.\nDecember 6, 2018\nRoberta Josephina Bodnar, U.S. Attorney's Office-FLM, Ocala, FL, Germaine Seider, Michael V. Leeman, James A. Muench, U.S. Attorney's Office, Tampa, FL, for Plaintiff-Appellee.\nCory Lee Chandler, Amy L. Christiansen, Spector Gadon & Rosen, LLP, St. Petersburg, FL, for Defendant-Appellant.\nBefore MARCUS, NEWSOM and ANDERSON, Circuit Judges."
+  },
+  "file_name": "1323-01",
+  "first_page_order": 1323,
+  "last_page_order": 1339
+}

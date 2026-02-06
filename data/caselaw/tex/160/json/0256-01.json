@@ -1,0 +1,107 @@
+{
+  "id": 2258988,
+  "name": "L. C. Smith v. State of Texas",
+  "name_abbreviation": "Smith v. State",
+  "decision_date": "1959-10-14",
+  "docket_number": "No. A-7437",
+  "first_page": "256",
+  "last_page": "258",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "160 Tex. 256"
+    },
+    {
+      "type": "parallel",
+      "cite": "328 S.W.2d 294"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "200 S.W. 375",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8253614
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/200/0375-01"
+      ]
+    },
+    {
+      "cite": "109 Texas 97",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2288313
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/109/0097-01"
+      ]
+    },
+    {
+      "cite": "325 S.W. 2d 209",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10160325
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/325/0209-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 159,
+    "char_count": 1668,
+    "ocr_confidence": 0.624,
+    "pagerank": {
+      "raw": 4.648505175908852e-08,
+      "percentile": 0.2918955892795294
+    },
+    "sha256": "a7b325753edd9e6291db17a97b25f429b5ce6b7c664a24b7dc7c95c471c8c055",
+    "simhash": "1:21439ed26044c5ea",
+    "word_count": 285
+  },
+  "last_updated": "2024-02-27T22:54:30.640255+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "L. C. Smith v. State of Texas."
+    ],
+    "opinions": [
+      {
+        "text": "PER CURIAM:\nThe Court of Civil Appeals has sustained the authority of the Attorney General to maintain suits in the District Courts of this State to enjoin those who habitually loan money at usurious interest rates. See, State of Texas v. Walker - Texas Investment Co., et al, 325 S.W. 2d 209. L. C. Smith has filed an application for writ of error in this Court.\n1 Chapter 144 of the Acts of the 48th Legislature (Acts 1943, p. 227, Article 4646b, Vernon\u2019s Ann. Texas Stats.) provides that the State of Texas may secure an injunction against those engaged in the business of habitually loaning money at usurious rates of interest. The statute created a new cause of action in favor of the State and expressly authorized the Attorney General, as well as any District or County Attorney, to institute and prosecute the statutory suit thus created.\n2 Under the holding of this Court in Maud v. Terrell, 109 Texas 97, 200 S.W. 375, it is clear that when the Legislature creates a new or additional cause of action in favor of the State it may also constitutionally authorize the Attorney General to prosecute such cause of action in both the trial and appellate courts of the State.\nThe application for writ of error is refused, no reversible error.\nOpinion delivered October 14, 1959.",
+        "type": "majority",
+        "author": "PER CURIAM:"
+      }
+    ],
+    "attorneys": [
+      "Louis W. Graves, Jr., John A. Croom, of Houston, Head & Lyles, JohnE. Lyles, Jr., and Gerald D. James, of Corpus Christi, for petitioner.",
+      "Will Wilson, Attorney General, C. K. Richards, and Tom I. McFarling, Assistants Attorney General, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "L. C. Smith v. State of Texas.\nNo. A-7437.\nDecided October 14, 1959.\nRehearing Overruled November 11, 1959.\n(328 S.W. 2d Series 294)\nLouis W. Graves, Jr., John A. Croom, of Houston, Head & Lyles, JohnE. Lyles, Jr., and Gerald D. James, of Corpus Christi, for petitioner.\nWill Wilson, Attorney General, C. K. Richards, and Tom I. McFarling, Assistants Attorney General, for respondent."
+  },
+  "file_name": "0256-01",
+  "first_page_order": 270,
+  "last_page_order": 272
+}

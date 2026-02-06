@@ -1,0 +1,59 @@
+{
+  "id": 6000162,
+  "name": "Reece v. Sisto, Warden",
+  "name_abbreviation": "Reece v. Sisto",
+  "decision_date": "2010-10-12",
+  "docket_number": "No. 10-5699",
+  "first_page": "965",
+  "last_page": "965",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 965"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.639,
+    "sha256": "f56e1bbc9352bd0400843bf86aa18703e941dd8920e77b38c3831bfb3dd99984",
+    "simhash": "1:97f723e6299ec2f7",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Reece v. Sisto, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5699.\nReece v. Sisto, Warden."
+  },
+  "file_name": "0965-10",
+  "first_page_order": 987,
+  "last_page_order": 987
+}

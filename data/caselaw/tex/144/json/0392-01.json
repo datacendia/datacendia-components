@@ -1,0 +1,120 @@
+{
+  "id": 2336691,
+  "name": "Ex Parte David Freeman",
+  "name_abbreviation": "Ex parte Freeman",
+  "decision_date": "1945-12-29",
+  "docket_number": "No. A-719",
+  "first_page": "392",
+  "last_page": "393",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "144 Tex. 392"
+    },
+    {
+      "type": "parallel",
+      "cite": "141 S.W.2d 6"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "186 S. W. (2d) 225",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2338583,
+        10200367
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/143/0476-01",
+        "/sw2d/186/0225-01"
+      ]
+    },
+    {
+      "cite": "143 Texas 476",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2338583
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/143/0476-01"
+      ]
+    },
+    {
+      "cite": "123 S. W. (2d) 306",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10231228
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/123/0306-01"
+      ]
+    },
+    {
+      "cite": "133 Texas 1",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2321137
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/133/0001-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 221,
+    "char_count": 2584,
+    "ocr_confidence": 0.597,
+    "pagerank": {
+      "raw": 1.5606618342199956e-07,
+      "percentile": 0.676862048714037
+    },
+    "sha256": "7871278f4dfe7a17ae306c432f402a341de9cb2402e5753e803ad2eb19a41645",
+    "simhash": "1:e549dcddef371116",
+    "word_count": 436
+  },
+  "last_updated": "2024-02-27T23:17:38.113242+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ex Parte David Freeman."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Simpson\ndelivered the opinion of the Court.\nDavid Freeman, the relator here, contends that he is illegally restrained under a contempt order of one of the district courts of Dallas County, Texas. The record shows that his divorced wife, Thelma Freeman, filed a motion in which she alleged the entry of an order against Freeman directing him to pay into the registry of the court a certain sum weekly for the support of their two minor children. She alleged further that Freeman had wilfully and without excuse failed to make these payments, and prayed that he be held in contempt and imprisoned until he complied with the order. Mrs. Freeman undertook to verify this motion by an affidavit made before a notary public who was also one of her attorneys of record. On the basis of the facts averred in the motion, and after a hearing, the district court found Freeman guilty of contempt, assessed a fine of $100.00 against him, and ordered him confined for three days and until he had purged himself of contempt by making the payments as to which he was in default.\nFreeman urges here that because of the relation of attorney and client existing between the notary public and Mrs. Freeman, the former was incompetent to take her affidavit, and consequently, that no duly verified information or complaint, informing Freeman of the particulars of the accusation against him, had ever been filed. He contends further that without the lodging of such an information or complaint, the court was without jurisdiction to proceed.\nThe contention thus presented by the relator must be sustained. Precisely such a situation obtained in Ex parte Scott, 133 Texas 1, 123 S. W. (2d) 306, where it was held that a complaint sworn to before the complainant\u2019s attorney charging a defendant with contempt \u201cwas insufficient to invoke the jurisdiction of the district court.\u201d We feel bound by that decision and the authorities it follows and adhere to the holding there announced.\nSince the jurisdiction of the trial court was not effectively invoked in this proceeding, its order adjudging the relator in contempt was void and may be collaterally questioned by this original application for a writ of habeas corpus. Ex parte Genecov, 143 Texas 476, 186 S. W. (2d) 225, and cases there cited.\nWe conclude the writ will properly lie. Accordingly, the relator is ordered released.\nOpinion delivered December 29, 1945.",
+        "type": "majority",
+        "author": "Mr. Justice Simpson"
+      }
+    ],
+    "attorneys": [
+      "Milton K. Norton, Carl E. Broyles and J E.. McLemore, Jr., all of Dallas, for relator."
+    ],
+    "corrections": "",
+    "head_matter": "Ex Parte David Freeman.\nNo. A-719.\nDecided December 29, 1945.\n(141 S. W., 2d Series, 6.)\nMilton K. Norton, Carl E. Broyles and J E.. McLemore, Jr., all of Dallas, for relator."
+  },
+  "file_name": "0392-01",
+  "first_page_order": 418,
+  "last_page_order": 419
+}

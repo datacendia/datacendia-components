@@ -1,0 +1,59 @@
+{
+  "id": 6029623,
+  "name": "Menner v. United States",
+  "name_abbreviation": "Menner v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11394",
+  "first_page": "878",
+  "last_page": "878",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 878"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.554,
+    "sha256": "5158cef28706d1b1f04f67210f5bfe56c0499ee8710419b9b5d0217fafecc551",
+    "simhash": "1:258ace494e8d1d1b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Menner v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11394.\nMenner v. United States."
+  },
+  "file_name": "0878-01",
+  "first_page_order": 900,
+  "last_page_order": 900
+}

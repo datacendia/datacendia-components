@@ -1,0 +1,3085 @@
+{
+  "id": 4001068,
+  "name": "THE PEOPLE, Plaintiff and Respondent, v. DEWEY JOE DUFF, Defendant and Appellant",
+  "name_abbreviation": "People v. Duff",
+  "decision_date": "2014-01-30",
+  "docket_number": "No. S105097",
+  "first_page": "527",
+  "last_page": "572",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "58 Cal. 4th 527"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal.",
+    "id": 9021,
+    "name": "Supreme Court of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "176 L.Ed.2d 1098",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12449208,
+        3641704
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/176/1098-01",
+        "/us/560/0370-01"
+      ]
+    },
+    {
+      "cite": "560 U.S. 370",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3641704,
+        12449208
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "381"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/560/0370-01",
+        "/l-ed-2d/176/1098-01"
+      ]
+    },
+    {
+      "cite": "283 Cal.Rptr. 361",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "232 Cal.App.3d 248",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        6036489
+      ],
+      "pin_cites": [
+        {
+          "page": "256"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/232/0248-01"
+      ]
+    },
+    {
+      "cite": "122 P.3d 765",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.Rptr.3d 644",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "37 Cal.4th 428",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3771953
+      ],
+      "pin_cites": [
+        {
+          "page": "435-437"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/37/0428-01"
+      ]
+    },
+    {
+      "cite": "512 U.S. 452",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        39831
+      ],
+      "weight": 3,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "461"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/512/0452-01"
+      ]
+    },
+    {
+      "cite": "572 P.2d 43",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "142 Cal.Rptr. 429",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "20 Cal.3d 285",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2288570
+      ],
+      "pin_cites": [
+        {
+          "page": "295, fn. 11"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/20/0285-01"
+      ]
+    },
+    {
+      "cite": "83 P.3d 480",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1977,
+      "opinion_index": 0
+    },
+    {
+      "cite": "9 Cal.Rptr.3d 76",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1977,
+      "opinion_index": 0
+    },
+    {
+      "cite": "32 Cal.4th 236",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        801065
+      ],
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "254, fn. 5"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/32/0236-01"
+      ]
+    },
+    {
+      "cite": "933 P.2d 1134",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "62 Cal.Rptr.2d 437",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "15 Cal.4th 264",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1006058
+      ],
+      "pin_cites": [
+        {
+          "page": "266-267"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/15/0264-01"
+      ]
+    },
+    {
+      "cite": "187 P.3d 1041",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "80 Cal.Rptr.3d 211",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 Cal.4th 758",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3888116
+      ],
+      "pin_cites": [
+        {
+          "page": "786"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/44/0758-01"
+      ]
+    },
+    {
+      "cite": "137 P.3d 229",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Cal.Rptr.3d 407",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "39 Cal.4th 1",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3582872
+      ],
+      "pin_cites": [
+        {
+          "page": "43-44"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/39/0001-01"
+      ]
+    },
+    {
+      "cite": "65 P.3d 749",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "132 Cal.Rptr.2d 271",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "30 Cal.4th 43",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        269732
+      ],
+      "pin_cites": [
+        {
+          "page": "126, fn. 32"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/30/0043-01"
+      ]
+    },
+    {
+      "cite": "232 P.3d 663",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "110 Cal.Rptr.3d 673",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "49 Cal.4th 472",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3905046
+      ],
+      "pin_cites": [
+        {
+          "page": "516"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/49/0472-01"
+      ]
+    },
+    {
+      "cite": "93 P.3d 344",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "15 Cal.Rptr.3d 743",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "33 Cal.4th 536",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        493328
+      ],
+      "pin_cites": [
+        {
+          "page": "595"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/33/0536-01"
+      ]
+    },
+    {
+      "cite": "549 U.S. 270",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3553669
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/549/0270-01"
+      ]
+    },
+    {
+      "cite": "542 U.S. 296",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5868041
+      ],
+      "weight": 3,
+      "year": 2007,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/542/0296-01"
+      ]
+    },
+    {
+      "cite": "536 U.S. 584",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1254507
+      ],
+      "weight": 3,
+      "year": 2004,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/536/0584-01"
+      ]
+    },
+    {
+      "cite": "530 U.S. 466",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9413911
+      ],
+      "weight": 5,
+      "year": 2002,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/530/0466-01"
+      ]
+    },
+    {
+      "cite": "188 P.3d 580",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2000,
+      "opinion_index": 0
+    },
+    {
+      "cite": "80 Cal.Rptr.3d 630",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2000,
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 Cal.4th 691",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3888242
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "755"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/44/0691-01"
+      ]
+    },
+    {
+      "cite": "281 P.3d 361",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "144 Cal.Rptr.3d 366",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 Cal.4th 908",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        5721010
+      ],
+      "pin_cites": [
+        {
+          "page": "949"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/54/0908-01"
+      ]
+    },
+    {
+      "cite": "281 P.3d 924",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2012,
+      "opinion_index": 0
+    },
+    {
+      "cite": "144 Cal.Rptr.3d 865",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2012,
+      "opinion_index": 0
+    },
+    {
+      "cite": "55 Cal.4th 82",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3931858
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "179"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/55/0082-01"
+      ]
+    },
+    {
+      "cite": "512 U.S. 967",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        39795
+      ],
+      "weight": 3,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "975-976"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/512/0967-01"
+      ]
+    },
+    {
+      "cite": "118 P.3d 496",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "33 Cal.Rptr.3d 451",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "37 Cal.4th 168",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3772262
+      ],
+      "pin_cites": [
+        {
+          "page": "237, fn. 23"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/37/0168-01"
+      ]
+    },
+    {
+      "cite": "278 P.3d 754",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "142 Cal.Rptr.3d 481",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 Cal.4th 205",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        5721181
+      ],
+      "pin_cites": [
+        {
+          "page": "267"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/54/0205-01"
+      ]
+    },
+    {
+      "cite": "279 P.3d 547",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2012,
+      "opinion_index": 0
+    },
+    {
+      "cite": "143 Cal.Rptr.3d 215",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2012,
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 Cal.4th 395",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        5721071
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "443"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/54/0395-01"
+      ]
+    },
+    {
+      "cite": "279 P.3d 1072",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2012,
+      "opinion_index": 0
+    },
+    {
+      "cite": "143 Cal.Rptr.3d 589",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2012,
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 Cal.4th 668",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        5721281
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "731"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/54/0668-01"
+      ]
+    },
+    {
+      "cite": "294 P.3d 1005",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2012,
+      "opinion_index": 0
+    },
+    {
+      "cite": "152 Cal.Rptr.3d 778",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2012,
+      "opinion_index": 0
+    },
+    {
+      "cite": "56 Cal.4th 165",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        4224928
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "201"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/56/0165-01"
+      ]
+    },
+    {
+      "cite": "256 P.3d 543",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "128 Cal.Rptr.3d 417",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "52 Cal.4th 254",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3919178
+      ],
+      "pin_cites": [
+        {
+          "page": "305"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/52/0254-01"
+      ]
+    },
+    {
+      "cite": "210 P.3d 361",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "96 Cal.Rptr.3d 191",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.4th 1053",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3896621
+      ],
+      "pin_cites": [
+        {
+          "page": "1109"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/46/1053-01"
+      ]
+    },
+    {
+      "cite": "58 P.3d 391",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "127 Cal.Rptr.2d 544",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 Cal.4th 381",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        777212
+      ],
+      "pin_cites": [
+        {
+          "page": "444-445"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/29/0381-01"
+      ]
+    },
+    {
+      "cite": "101 P.3d 478",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 Cal.Rptr.3d 575",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "34 Cal.4th 494",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        633029
+      ],
+      "pin_cites": [
+        {
+          "page": "528"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/34/0494-01"
+      ]
+    },
+    {
+      "cite": "118 P.3d 545",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "33 Cal.Rptr.3d 509",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "37 Cal.4th 310",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3771918
+      ],
+      "pin_cites": [
+        {
+          "page": "352-353"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/37/0310-01"
+      ]
+    },
+    {
+      "cite": "304 P.3d 124",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2005,
+      "opinion_index": 0
+    },
+    {
+      "cite": "159 Cal.Rptr.3d 626",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2005,
+      "opinion_index": 0
+    },
+    {
+      "cite": "57 Cal.4th 296",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6053927
+      ],
+      "weight": 2,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "346"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/57/0296-01"
+      ]
+    },
+    {
+      "cite": "482 U.S. 496",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6216766
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "506-507"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/482/0496-01"
+      ]
+    },
+    {
+      "cite": "501 U.S. 808",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1108176
+      ],
+      "weight": 4,
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "823"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/501/0808-01"
+      ]
+    },
+    {
+      "cite": "229 P.3d 12",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "108 Cal.Rptr.3d 87",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "48 Cal.4th 574",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6050860
+      ],
+      "pin_cites": [
+        {
+          "page": "651-652"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/48/0574-01"
+      ]
+    },
+    {
+      "cite": "501 U.S. 624",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1108013
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "648"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/501/0624-01"
+      ]
+    },
+    {
+      "cite": "111 P.3d 987",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 Cal.Rptr.3d 725",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.4th 987",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        873196
+      ],
+      "pin_cites": [
+        {
+          "page": "991"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/35/0987-01"
+      ]
+    },
+    {
+      "cite": "301 P.3d 1120",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "157 Cal.Rptr.3d 503",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "56 Cal.4th 935",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        4225185
+      ],
+      "pin_cites": [
+        {
+          "page": "957"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/56/0935-01"
+      ]
+    },
+    {
+      "cite": "872 P.2d 574",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "30 Cal.Rptr.2d 33",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "7 Cal.4th 768",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1981835
+      ],
+      "pin_cites": [
+        {
+          "page": "771"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/7/0768-01"
+      ]
+    },
+    {
+      "cite": "123 P.3d 614",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1994,
+      "opinion_index": 0
+    },
+    {
+      "cite": "36 Cal.Rptr.3d 340",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1994,
+      "opinion_index": 0
+    },
+    {
+      "cite": "37 Cal.4th 547",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3772115
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "581"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/37/0547-01"
+      ]
+    },
+    {
+      "cite": "208 P.3d 634",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "94 Cal.Rptr.3d 699",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.4th 680",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3896220
+      ],
+      "pin_cites": [
+        {
+          "page": "705"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/46/0680-01"
+      ]
+    },
+    {
+      "cite": "236 P.3d 1035",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2009,
+      "opinion_index": 0
+    },
+    {
+      "cite": "113 Cal.Rptr.3d 803",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2009,
+      "opinion_index": 0
+    },
+    {
+      "cite": "50 Cal.4th 263",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3910285
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "293"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/50/0263-01"
+      ]
+    },
+    {
+      "cite": "960 P.2d 1094",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "77 Cal.Rptr.2d 870",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "19 Cal.4th 142",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1709356
+      ],
+      "pin_cites": [
+        {
+          "page": "154-155"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/19/0142-01"
+      ]
+    },
+    {
+      "cite": "447 U.S. 625",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6187280
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "627"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/447/0625-01"
+      ]
+    },
+    {
+      "cite": "157 Cal.Rptr. 107",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "95 Cal.App.3d 299",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2004893
+      ],
+      "pin_cites": [
+        {
+          "page": "305-307"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/95/0299-01"
+      ]
+    },
+    {
+      "cite": "71 Cal.Rptr.2d 415",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1979,
+      "opinion_index": 0
+    },
+    {
+      "cite": "61 Cal.App.4th 282",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1240511
+      ],
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "286-289"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/61/0282-01"
+      ]
+    },
+    {
+      "cite": "826 P.2d 274",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "6 Cal.Rptr.2d 276",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "2 Cal.4th 271",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        2005390
+      ],
+      "pin_cites": [
+        {
+          "page": "324"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/2/0271-01"
+      ]
+    },
+    {
+      "cite": "162 P.3d 596",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "63 Cal.Rptr.3d 82",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "41 Cal.4th 1038",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3818944
+      ],
+      "pin_cites": [
+        {
+          "page": "1052-1053"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/41/1038-01"
+      ]
+    },
+    {
+      "cite": "302 P.3d 981",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "158 Cal.Rptr.3d 585",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "57 Cal.4th 1",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6054068
+      ],
+      "pin_cites": [
+        {
+          "page": "57"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/57/0001-01"
+      ]
+    },
+    {
+      "cite": "289 P.3d 791",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "150 Cal.Rptr.3d 1",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "55 Cal.4th 816",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3932274
+      ],
+      "pin_cites": [
+        {
+          "page": "865"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/55/0816-01"
+      ]
+    },
+    {
+      "cite": "117 P.3d 591",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "32 Cal.Rptr.3d 894",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "37 Cal.4th 1",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3771844
+      ],
+      "pin_cites": [
+        {
+          "page": "35"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/37/0001-01"
+      ]
+    },
+    {
+      "cite": "267 P.3d 1135",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "136 Cal.Rptr.3d 66",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "53 Cal.4th 599",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6050970
+      ],
+      "pin_cites": [
+        {
+          "page": "617"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/53/0599-01"
+      ]
+    },
+    {
+      "cite": "939 P.2d 748",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "859 P.2d 673",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "23 Cal.Rptr.2d 593",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "6 Cal.4th 1",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1995115
+      ],
+      "pin_cites": [
+        {
+          "page": "27"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/6/0001-01"
+      ]
+    },
+    {
+      "cite": "5 P.3d 130",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "99 Cal.Rptr.2d 69",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "23 Cal.4th 1153",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        277038
+      ],
+      "pin_cites": [
+        {
+          "page": "1194"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/23/1153-01"
+      ]
+    },
+    {
+      "cite": "518 F.3d 1072",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3555886
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "1078-1080"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/518/1072-01"
+      ]
+    },
+    {
+      "cite": "187 P.3d 970",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "80 Cal.Rptr.3d 126",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 Cal.4th 636",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3888662
+      ],
+      "pin_cites": [
+        {
+          "page": "668"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/44/0636-01"
+      ]
+    },
+    {
+      "cite": "469 U.S. 91",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11958689
+      ],
+      "weight": 3,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "98"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/469/0091-01"
+      ]
+    },
+    {
+      "cite": "212 P.3d 692",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "97 Cal.Rptr.3d 412",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.4th 318",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3899473
+      ],
+      "pin_cites": [
+        {
+          "page": "346"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/47/0318-01"
+      ]
+    },
+    {
+      "cite": "269 P.3d 543",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "137 Cal.Rptr.3d 117",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "53 Cal.4th 735",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6051045
+      ],
+      "pin_cites": [
+        {
+          "page": "753"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/53/0735-01"
+      ]
+    },
+    {
+      "cite": "211 P.3d 617",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "97 Cal.Rptr.3d 117",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.4th 145",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3899649
+      ],
+      "pin_cites": [
+        {
+          "page": "169"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/47/0145-01"
+      ]
+    },
+    {
+      "cite": "282 P.3d 173",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2009,
+      "opinion_index": 0
+    },
+    {
+      "cite": "145 Cal.Rptr.3d 146",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2009,
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 Cal.4th 952",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        5720874
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "993"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/54/0952-01"
+      ]
+    },
+    {
+      "cite": "257 P.3d 703",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "129 Cal.Rptr.3d 91",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "52 Cal.4th 452",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3919531
+      ],
+      "pin_cites": [
+        {
+          "page": "480"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/52/0452-01"
+      ]
+    },
+    {
+      "cite": "233 P.3d 1000",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "111 Cal.Rptr.3d 589",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "49 Cal.4th 405",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6050603
+      ],
+      "pin_cites": [
+        {
+          "page": "425"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/49/0405-01"
+      ]
+    },
+    {
+      "cite": "302 P.3d 927",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2010,
+      "opinion_index": 0
+    },
+    {
+      "cite": "158 Cal.Rptr.3d 521",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2010,
+      "opinion_index": 0
+    },
+    {
+      "cite": "56 Cal.4th 1146",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        4224770
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "1171"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/56/1146-01"
+      ]
+    },
+    {
+      "cite": "227 P.3d 342",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "106 Cal.Rptr.3d 771",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "48 Cal.4th 347",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6051005
+      ],
+      "pin_cites": [
+        {
+          "page": "384"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/48/0347-01"
+      ]
+    },
+    {
+      "cite": "384 U.S. 436",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12046400
+      ],
+      "weight": 4,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/384/0436-01"
+      ]
+    },
+    {
+      "cite": "163 P.3d 896",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "63 Cal.Rptr.3d 896",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 Cal.4th 1",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3673767
+      ],
+      "pin_cites": [
+        {
+          "page": "42"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/42/0001-01"
+      ]
+    },
+    {
+      "cite": "164 P.3d 590",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2007,
+      "opinion_index": 0
+    },
+    {
+      "cite": "64 Cal.Rptr.3d 163",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2007,
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 Cal.4th 147",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3673470
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "187"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/42/0147-01"
+      ]
+    },
+    {
+      "cite": "235 P.3d 873",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "113 Cal.Rptr.3d 190",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "49 Cal.4th 846",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6050669
+      ],
+      "pin_cites": [
+        {
+          "page": "878"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/49/0846-01"
+      ]
+    },
+    {
+      "cite": "488 U.S. 51",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1495598
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "58"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/488/0051-01"
+      ]
+    },
+    {
+      "cite": "189 P.3d 911",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1988,
+      "opinion_index": 0
+    },
+    {
+      "cite": "81 Cal.Rptr.3d 651",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1988,
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 Cal.4th 1032",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3888539
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "1083"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/44/1032-01"
+      ]
+    },
+    {
+      "cite": "117 P.3d 544",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "32 Cal.Rptr.3d 838",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "36 Cal.4th 1215",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3122514
+      ],
+      "pin_cites": [
+        {
+          "page": "1246"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/36/1215-01"
+      ]
+    },
+    {
+      "cite": "467 U.S. 479",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6202648
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "488-489"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/467/0479-01"
+      ]
+    },
+    {
+      "cite": "187 P.3d 946",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "80 Cal.Rptr.3d 98",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 Cal.4th 602",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3888634
+      ],
+      "pin_cites": [
+        {
+          "page": "613"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/44/0602-01"
+      ]
+    },
+    {
+      "cite": "231 P.3d 289",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "109 Cal.Rptr.3d 549",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "49 Cal.4th 79",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6050532
+      ],
+      "pin_cites": [
+        {
+          "page": "108-109"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/49/0079-01"
+      ]
+    },
+    {
+      "cite": "767 P.2d 1047",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "255 Cal.Rptr. 569",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.3d 1194",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1971412
+      ],
+      "pin_cites": [
+        {
+          "page": "1220"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/47/1194-01"
+      ]
+    },
+    {
+      "cite": "140 P.3d 657",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1989,
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.Rptr.3d 326",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1989,
+      "opinion_index": 0
+    },
+    {
+      "cite": "39 Cal.4th 641",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3582965
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "679"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/39/0641-01"
+      ]
+    },
+    {
+      "cite": "226 P.3d 276",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "106 Cal.Rptr.3d 153",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "48 Cal.4th 158",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6050600
+      ],
+      "pin_cites": [
+        {
+          "page": "176-177"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/48/0158-01"
+      ]
+    },
+    {
+      "cite": "133 P.3d 1076",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 Cal.Rptr.3d 1",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 Cal.4th 491",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3852905
+      ],
+      "pin_cites": [
+        {
+          "page": "554-555"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/38/0491-01"
+      ]
+    },
+    {
+      "cite": "160 P.3d 84",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2006,
+      "opinion_index": 0
+    },
+    {
+      "cite": "60 Cal.Rptr.3d 209",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2006,
+      "opinion_index": 0
+    },
+    {
+      "cite": "41 Cal.4th 313",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3819406
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "343"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/41/0313-01"
+      ]
+    },
+    {
+      "cite": "163 P.3d 4",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "63 Cal.Rptr.3d 297",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "41 Cal.4th 1082",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3819049
+      ],
+      "pin_cites": [
+        {
+          "page": "1106"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/41/1082-01"
+      ]
+    },
+    {
+      "cite": "537 U.S. 322",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9191097
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "338-339"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/537/0322-01"
+      ]
+    },
+    {
+      "cite": "247 P.3d 886",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "121 Cal.Rptr.3d 521",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "51 Cal.4th 449",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3914515
+      ],
+      "pin_cites": [
+        {
+          "page": "474"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/51/0449-01"
+      ]
+    },
+    {
+      "cite": "269 P.3d 494",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2011,
+      "opinion_index": 0
+    },
+    {
+      "cite": "137 Cal.Rptr.3d 59",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2011,
+      "opinion_index": 0
+    },
+    {
+      "cite": "53 Cal.4th 535",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        5719358
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "560-561"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/53/0535-01"
+      ]
+    },
+    {
+      "cite": "305 P.3d 1175",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2012,
+      "opinion_index": 0
+    },
+    {
+      "cite": "161 Cal.Rptr.3d 1",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2012,
+      "opinion_index": 0
+    },
+    {
+      "cite": "57 Cal.4th 986",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6054012
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "1050"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/57/0986-01"
+      ]
+    },
+    {
+      "cite": "220 P.3d 872",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "102 Cal.Rptr.3d 852",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.4th 850",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3899136
+      ],
+      "pin_cites": [
+        {
+          "page": "886"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/47/0850-01"
+      ]
+    },
+    {
+      "cite": "545 U.S. 162",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8208918
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "168"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/545/0162-01"
+      ]
+    },
+    {
+      "cite": "514 U.S. 765",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1340390
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "768"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/514/0765-01"
+      ]
+    },
+    {
+      "cite": "264 P.3d 292",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1995,
+      "opinion_index": 0
+    },
+    {
+      "cite": "133 Cal.Rptr.3d 496",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1995,
+      "opinion_index": 0
+    },
+    {
+      "cite": "53 Cal.4th 1",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6050706
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "19"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/53/0001-01"
+      ]
+    },
+    {
+      "cite": "259 P.3d 370",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "130 Cal.Rptr.3d 191",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "52 Cal.4th 769",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3919159
+      ],
+      "pin_cites": [
+        {
+          "page": "801"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/52/0769-01"
+      ]
+    },
+    {
+      "cite": "583 P.2d 748",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "148 Cal.Rptr. 890",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "22 Cal.3d 258",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2282118
+      ],
+      "pin_cites": [
+        {
+          "page": "276"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/22/0258-01"
+      ]
+    },
+    {
+      "cite": "476 U.S. 79",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12787
+      ],
+      "weight": 3,
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "97"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/476/0079-01"
+      ]
+    },
+    {
+      "cite": "236 P.3d 1074",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "113 Cal.Rptr.3d 850",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "50 Cal.4th 401",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6050754
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "441"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/50/0401-01"
+      ]
+    },
+    {
+      "cite": "275 P.3d 496",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "140 Cal.Rptr.3d 383",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 Cal.4th 1",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        5721090
+      ],
+      "pin_cites": [
+        {
+          "page": "43"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/54/0001-01"
+      ]
+    },
+    {
+      "cite": "301 P.3d 150",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "157 Cal.Rptr.3d 1",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "56 Cal.4th 823",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        4225316
+      ],
+      "pin_cites": [
+        {
+          "page": "847"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/56/0823-01"
+      ]
+    },
+    {
+      "cite": "281 P.3d 1",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "144 Cal.Rptr.3d 84",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 Cal.4th 758",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        5720951
+      ],
+      "pin_cites": [
+        {
+          "page": "782"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/54/0758-01"
+      ]
+    },
+    {
+      "cite": "281 P.3d 887",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "144 Cal.Rptr.3d 820",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "55 Cal.4th 1",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3932296
+      ],
+      "pin_cites": [
+        {
+          "page": "10"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/55/0001-01"
+      ]
+    },
+    {
+      "cite": "266 P.3d 966",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "135 Cal.Rptr.3d 262",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "53 Cal.4th 306",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6051100
+      ],
+      "pin_cites": [
+        {
+          "page": "327"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/53/0306-01"
+      ]
+    },
+    {
+      "cite": "281 P.3d 412",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2012,
+      "opinion_index": 0
+    },
+    {
+      "cite": "144 Cal.Rptr.3d 427",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2012,
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 Cal.4th 1302",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        5720796
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "1328"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/54/1302-01"
+      ]
+    },
+    {
+      "cite": "261 P.3d 243",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "131 Cal.Rptr.3d 225",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "52 Cal.4th 856",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3919295
+      ],
+      "pin_cites": [
+        {
+          "page": "895"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/52/0856-01"
+      ]
+    },
+    {
+      "cite": "213 P.3d 77",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "97 Cal.Rptr.3d 732",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.4th 399",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3899330
+      ],
+      "pin_cites": [
+        {
+          "page": "425"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/47/0399-01"
+      ]
+    },
+    {
+      "cite": "551 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3573490
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "9"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/551/0001-01"
+      ]
+    },
+    {
+      "cite": "990 P.2d 506",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "91 Cal.Rptr.2d 623",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "22 Cal.4th 48",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        157891
+      ],
+      "pin_cites": [
+        {
+          "page": "72-73"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/22/0048-01"
+      ]
+    },
+    {
+      "cite": "105 P.3d 1099",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2000,
+      "opinion_index": 0
+    },
+    {
+      "cite": "24 Cal.Rptr.3d 507",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2000,
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.4th 69",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        873220
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "88-89"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/35/0069-01"
+      ]
+    },
+    {
+      "cite": "245 P.3d 366",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2005,
+      "opinion_index": 0
+    },
+    {
+      "cite": "119 Cal.Rptr.3d 722",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2005,
+      "opinion_index": 0
+    },
+    {
+      "cite": "51 Cal.4th 141",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3914846
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "159-161"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/51/0141-01"
+      ]
+    },
+    {
+      "cite": "469 U.S. 412",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11959771
+      ],
+      "weight": 9,
+      "pin_cites": [
+        {
+          "page": "p. 416"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/469/0412-01"
+      ]
+    },
+    {
+      "cite": "391 U.S. 510",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1767501
+      ],
+      "weight": 7,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/391/0510-01"
+      ]
+    },
+    {
+      "cite": "65 Cal.Rptr.2d 348",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "16 Cal.4th 1",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1217886
+      ],
+      "pin_cites": [
+        {
+          "page": "13-19"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/16/0001-01"
+      ]
+    },
+    {
+      "cite": "226 P.3d 949",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1997,
+      "opinion_index": 0
+    },
+    {
+      "cite": "106 Cal.Rptr.3d 459",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1997,
+      "opinion_index": 0
+    },
+    {
+      "cite": "48 Cal.4th 257",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6050629
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "298"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/48/0257-01"
+      ]
+    },
+    {
+      "cite": "814 P.2d 290",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "284 Cal.Rptr. 511",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 Cal.3d 140",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1946368
+      ],
+      "pin_cites": [
+        {
+          "page": "171"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/54/0140-01"
+      ]
+    },
+    {
+      "cite": "857 P.2d 1099",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "22 Cal.Rptr.2d 689",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "5 Cal.4th 950",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1998556
+      ],
+      "pin_cites": [
+        {
+          "page": "991"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/5/0950-01"
+      ]
+    },
+    {
+      "cite": "33 Cal.Rptr.3d. 509",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "118 P.3d 545",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "37 Cal.4th 310",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3771918
+      ],
+      "pin_cites": [
+        {
+          "page": "372-376"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-4th/37/0310-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 3328,
+    "char_count": 105533,
+    "ocr_confidence": 0.912,
+    "pagerank": {
+      "raw": 1.2005233434573594e-07,
+      "percentile": 0.5934929024819594
+    },
+    "sha256": "3301aa146cc457392320e773d353bac440c6f2ac5bae5997e4dfbe375e402471",
+    "simhash": "1:90ed831e63021f7c",
+    "word_count": 17393
+  },
+  "last_updated": "2024-02-27T23:07:49.858399+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE, Plaintiff and Respondent, v. DEWEY JOE DUFF, Defendant and Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nWERDEGAR, J.\nA jury convicted defendant Dewey Joe Duff of two counts of first degree murder with robbery and multiple-murder special circumstances, as well as various lesser crimes, for the 1998 killings of Roscoe Riley and Brandon Hagan. (Pen. Code, \u00a7\u00a7 187, 189, 190.2, subd. (a)(3), (17).) It thereafter returned a death verdict. On automatic appeal, we affirm the judgment in its entirety.\nI. Factual and Procedural Background\nA. Guilt Phase Trial\nIt is undisputed that on February 23, 1998, Duff shot and killed Riley and Hagan. The principal issue during the guilt phase was why: Whether, as the People argued, Duff acted with premeditation to settle a grudge against Riley, or whether, as Duff argued, he acted in self-defense after Riley and Hagan pointed three guns at him and opened fire.\n1. Prosecution Evidence\nOn the afternoon of February 23, 1998, bartender Diana Flint and customer Filomeno Lujan witnessed shootings in the parking lot outside Taylor\u2019s Comer Bar in Sacramento. Flint saw a man enter the bar, use the restroom, and leave. Minutes later, Flint heard a gunshot and through a window saw the man standing next to the rear passenger side of a car in the parking lot, shooting into the car. The car\u2019s doors were closed. The man then walked around the car, pushed something out of the driver\u2019s seat, and drove off. Hearing shots, Lujan ran first to a window and then outside and saw two people, later determined to be Roscoe Riley and Brandon Hagan, slumped over in the front seats; he saw a third man with a gun take another gun from the motionless driver, climb into the driver\u2019s seat, and drive off. Moments later, as the car was driving away, Flint and Lujan both heard a further shot. Flint called 911.\nThat night, police seeking a suspect on an unrelated warrant spotted Duff fleeing on foot near where he lived. Thinking he might be the suspect they were seeking, officers pursued him and eventually, after a brief straggle, arrested him. An officer recognized Duff and, knowing that until recently he had lived across the street with his mother, obtained consent from Duff\u2019s mother to search her house. When .22-caliber bullets were found, Duff was held on charges of being a felon in possession of ammunition. When arrested, Duff had in his possession two of Riley\u2019s rings. A search of the area where Duff was arrested produced a .357-caliber revolver with blood in its chambers and a matching gun holster.\nPolice received a tip concerning a car with bodies in it parked in a muddy field behind the house of Sheri Sanchez and Walter Payne, friends with whom Duff sometimes lived. Police found the car with Riley\u2019s and Hagan\u2019s bodies inside and had the car towed to a crime laboratory for inspection.\nAfter discovering Riley\u2019s and Hagan\u2019s bodies, police questioned Duff about the shootings. In a taped interview played for the jury, he confessed to killing both men. He explained that he had set up a deal with Riley to trade guns for drags; they were on their way from Sacramento to Rio Linda to secure the drags when Duff asked for a restroom stop. Duff had met Hagan, who was accompanying Riley, only once before. When Duff returned to the car, Riley pointed one gun and Hagan pointed two guns at him, and they demanded his guns and money. Duff said he did not want trouble and was getting out of the car, someone fired a shot, and as Duff was getting out he returned fire with a .38. He then ran to the driver\u2019s side, pushed Riley aside, and drove off. One of the men was still alive, so Duff shot him again as he was driving away. Duff took jewelry, a .357, and other guns from the men.\nForensic examination of the bodies and car revealed that Riley had been shot four times and Hagan twice. Each had been shot with both a .357 and a .38. All bullets recovered were .38-caliber but could be fired from either a .38 or a .357. There were no bullet holes in the back of the car or any other evidence that would suggest a gun had been fired from the front seat toward the rear. Riley was wearing an elastic strap that could have been part of a gun holster. Hagan had dice in his lap, as if the men had been playing a game when they were shot. Expert reconstruction of the scene suggested both Riley and Hagan had been shot from behind with the .38 and from the side with the .357.\nDuff\u2019s friend, Cynthia Fernando, who was staying with Duff at the Sanchez/Payne house, testified that Duff had sold Riley a .357 for $100 or its equivalent in methamphetamine and was very angry because Riley had never paid him and had ignored and \u201cdisrespected\u201d him. In the month or two preceding the shootings, Duff repeatedly discussed setting up Riley by agreeing to meet him to do a drug deal but then robbing him of drugs and jewelry and killing him. In the days before the murders, Fernando saw Duff with multiple guns, including a .38, and saw him taking shooting practice.\nOne day when Duff was at another friend\u2019s house, he spoke to Fernando on the phone and asked her to come over. When she arrived, Duff had showered and was trying on clean clothes; his clothes were folded in a box he intended to bury. She saw him wipe blood off a .357. Duff said he had killed two people, including one who was not supposed to be there. He never mentioned that either man had pulled a gun or that he had acted in self-defense. The bodies were in a car in back of the Sanchez/Payne house.\nFernando and Duff soon met up with his friend Ronald Greathouse, and Duff gave Greathouse a few items. Duff gave Fernando the methamphetamine he had taken from the victims. She also saw other items from the car, including jewelry, a cell phone, and numerous guns, including Duff\u2019s .38 and the .357 Duff had sold Riley. Duff kept the .357 and Fernando took the jewelry and other guns, including the .38, with directions that the .38 go to Duff\u2019s half brother. That night, as they were walking toward Duff\u2019s mother\u2019s house with the guns and with items from the robbery in a shopping cart, Duff spotted police officers and took off without a word. The next day, Fernando gave the .38 and another gun to Duff\u2019s half brother.\nRonald Greathouse testified that, in the weeks before the murders, Duff had asked for help robbing a man named Roscoe and Roscoe\u2019s friend and shooting one of them in the buttocks. Duff was going to set up a deal for drugs and jewelry and then rob Roscoe because he was \u201clame and easy to do.\u201d Duff had a .38-caliber gun with him. Weeks after that first conversation, Duff gave Greathouse a ring and five spent .357- or .38-caliber shell casings and had Greathouse sell the ring, splitting the profits, and dispose of the shells so no one would find them.\nLloyd Dunham, a friend of Duff\u2019s half brother, testified that Duff was angry with Riley because Duff had set up a guns-for-drugs deal for Riley but had not received anything. Duff had asked Dunham for help in setting up a fake drug buy from Riley with the intent of then robbing Riley of his drugs, money, and jewelry.\nDuff\u2019s nephew, Lloyd Duff, told police that the week before the murders Duff said he planned to set someone up, rob them, and \u201cleave no witnesses.\u201d\n2. Defense Evidence\nDuff did not testify, relying on his taped confession to convey his version of events. The defense called only one witness, Detective Toni Winfield, to impeach Fernando with statements she had made to Detective Winfield before trial, including that Duff had led her to believe the second victim was a woman and that she had not seen him wipe blood off the .357.\nB. Penalty Phase Trial\n1. Prosecution Evidence\nIn addition to the circumstances of the crime, the People relied principally on Duff\u2019s history of prior violent criminal acts, including eight felony convictions and other malfeasance not leading to a conviction. (\u00a7 190.3, factors (b), (c).) In the 20 years preceding the murders, Duff had been convicted of false imprisonment, assault on a police officer, assault with a semiautomatic rifle, possessing methamphetamine (twice), theft, vehicle theft, and possessing a dagger.\nThe false imprisonment victim testified that when she was 16, Duff grabbed her from behind and dragged her toward an alley. She struggled and screamed; when someone heard the screams, Duff released her and she fled.\nA woman testified to an uncharged incident in which Duff exposed himself and masturbated toward her while she was sitting in the passenger seat of a car at a drive-in restaurant, grabbed the breasts of two other women walking by, then stuck his erect penis through the driver\u2019s side window at the witness\u2019s female companion.\nThe officer who had been assaulted testified that Duff slipped a handcuff and hit him. In the ensuing struggle, the officer tore ligaments in his hand and hit his head on a telephone pole.\nAnother woman testified that Duff, shirtless, entered her home with a loaded sawed-off rifle. She, her husband, and six children escaped the house and called police, who caught Duff. Earlier that same night, Duff had approached three teenagers, cocked the rifle, and pointed it at them.\nIn a partially uncharged incident, a woman testified that late one night, while she was at a closed gas station going through mail she had stolen, Duff approached her and struck up a conversation. When she started to leave, he hit her on the head from behind. When she tried to run, he grabbed her by the hair, held a knife to her throat, forced her to orally copulate him, and then raped her. When police responded to a call regarding the rape, Duff drove off but crashed; he was found in possession of a bayonet-style dagger. The woman admitted that she had originally lied about some aspects of the incident, including by claiming that Duff had forced her to take methamphetamine and that she was returning from bingo, not out stealing mail. Pursuant to a plea bargain, rape charges were dropped, but Duff pleaded guilty to possession of a dagger.\nIn another incident, Duff shot at his friend, Ronald Greathouse, grazing his head. The night before the murders, he beat Cynthia Fernando extensively, knocking her to the ground at least four times, kicking her, picking her up to beat her again, and breaking her ribs.\nThe prosecution concluded with brief victim impact evidence from Marie Correa, the mother of two daughters by Riley, and Makala Tiller, a friend of Hagan\u2019s.\n2. Defense Evidence\nDuff introduced evidence that he had been raised in a dysfunctional home. Duff\u2019s mother had given birth to six living children and had had six or seven additional miscarriages or stillbirths. She was married at least four and possibly as many as eight times, though never to Duff\u2019s father, whose identity was unknown. Duff fell on his head when he was three and was \u201cslower\u201d thereafter. Duff\u2019s mother was an alcoholic, and there was domestic violence in the home, some of it directed toward Duff, from both his mother and stepfathers. Duff\u2019s mother used her children to help her lure men to her home and then rob them. Duff\u2019s mother and family members were involved in distributing drugs.\nDuff was married for 10 years and had three daughters.\nDefense experts testified that Duff had low intelligence (an overall I.Q. of 87 and individual I.Q.\u2019s in various areas of between 62 and 99), a learning disability, and mild brain damage that caused learning and attention difficulties.\nC. Procedural History\nDuff was charged with two counts of first degree murder with two special circumstances for each count, murder during the commission of robbery, and multiple murder. (\u00a7\u00a7 187, 189, 190.2, subd. (a)(3), (17).) He was also charged with robbery (\u00a7211), possession by a felon of a handgun and reloadable ammunition (former \u00a7 12021, subd. (a) [now \u00a7 29800]; former \u00a7 12316, subd. (b)(1) [now \u00a7 30305, subd. (a)]), firearm-use enhancements (former \u00a7 12022.53), and a prior serious felony conviction qualifying as a strike (\u00a7\u00a7 245, subd. (b), 667, subds. (a)-(i), 667.5, subd. (b), 1170.12). Before trial, the court dismissed the reloadable ammunition count on the prosecution\u2019s motion.\nA jury convicted Duff on both first degree murder counts and found the special circumstances true. It also convicted Duff of all remaining lesser offenses and found the firearm-use enhancements true. Duff admitted the strike. At the penalty phase, the jury returned a verdict of death.\nII. Discussion\nA. Jury Selection Issues\n1. Excus\u00e1is Pursuant to Stipulation\nIn the course of voir dire, the trial court permitted counsel for both sides to prescreen juror questionnaires and arrive at stipulations as to particular jurors they mutually agreed were unsuitable. Under this procedure, Duff and the prosecution stipulated to the exclusion of numerous prospective jurors, including jury pool members C.L., S.K., and D.L., and the trial court accepted these stipulations. Duff now contends the trial court committed error by excusing these three jurors under Witherspoon v. Illinois (1968) 391 U.S. 510 [20 L.Ed.2d 776, 88 S.Ct. 1770] (Witherspoon) and Wainwright v. Witt (1985) 469 U.S. 412 [83 L.Ed.2d 841, 105 S.Ct. 844] (Witt) without adequate voir dire into their views on the death penalty.\nThis contention is misguided. The trial court did not dismiss these prospective jurors on Witherspoon-Witt grounds; it did not dismiss them on any particular ground or make findings as to the basis for their dismissal, but instead accepted the parties\u2019 stipulation that the jurors be dismissed. Nothing in the record suggests these jurors\u2019 views of the death penalty played any role in their dismissal. Indeed, the court anticipated there would be stipulations wholly unrelated to Witherspoon-Witt concerns; while explaining that the plan for voir dire was to focus questioning on the death penalty, the court noted: \u201cI would not be at all surprised if counsel collaborate on stipulating to excuse people who have issues that preclude them from being fair to both sides in this case that have nothing to do with the penalty discussion.\u201d\nA court may allow counsel to screen juror questionnaires and stipulate to juror dismissals. (People v. Booker (2011) 51 Cal.4th 141, 159-161 [119 Cal.Rptr.3d 722, 245 P.3d 366]; People v. Benavides (2005) 35 Cal.4th 69, 88-89 [24 Cal.Rptr.3d 507, 105 P.3d 1099]; People v. Ervin (2000) 22 Cal.4th 48, 72-73 [91 Cal.Rptr.2d 623, 990 P.2d 506].) When prospective jurors are formally dismissed pursuant to stipulation rather than cause, the trial court makes no findings, and we have nothing we can review. (Booker, at p. 161.) Consequently, a stipulation to the excusal of jurors forfeits any subsequent objection to their omission from the jury pool. (Id. at p. 159; Benavides, at pp. 87-88; Ervin, at p. 73.)\nDuff argues that because the court made no findings, we do not know why each juror was objectionable. Next, he concludes that in the absence of findings, we must assume Witherspoon-Witt concerns underlay each dismissal, and he argues such concerns are not borne out by the jurors\u2019 questionnaires. While it is true that the trial court made no findings, the conclusion does not follow. As the trial court recognized, any number of reasons unrelated to a prospective juror\u2019s views on the death penalty might lead both sides to conclude the juror is unsuitable or otherwise subject to excusal. (See Code Civ. Proc., \u00a7\u00a7 204, subd. (b), 225, subd. (b)(1), 228, 229.) The absence of a record, attributable to Duff\u2019s stipulation to each dismissal, precludes us from speculating and entertaining Duff\u2019s claim on appeal.\n2. Excusal for Cause: Witherspoon-Witt\nIn the course of voir dire, the trial court granted over Duff\u2019s objection the prosecution\u2019s motion to excuse Prospective Juror S.L. for cause on Witherspoon-Witt grounds. Duff renews his objection on appeal, arguing the excusal of S.L. violated his rights under Witherspoon, supra, 391 U.S. 510, Witt, supra, 469 U.S. 412, and their progeny. In an essentially related argument, he contends that his equal protection rights were violated because Prospective Juror S.L. was excused on account of her religious beliefs.\n\u201cUnder both the state and federal Constitutions, a criminal defendant is guaranteed the right to be tried by an impartial jury. (Cal. Const., art. I, \u00a7 16; U.S. Const., 6th & 14th Amends.) A prospective juror may be excused for cause only if his or her views in favor of or against capital punishment \u2018would \u201cprevent or substantially impair the performance of his [or her] duties as a juror in accordance with [the court\u2019s] instructions and [the juror\u2019s oath].\u201d \u2019 (Witt, supra, 469 U.S. at p. 424; see Uttecht v. Brown (2007) 551 U.S. 1, 9 [167 L.Ed.2d 1014, 127 S.Ct. 2218].) Although opposition to the death penalty does not necessarily afford a basis for excusing a juror for cause (People v. Martinez (2009) 47 Cal.4th 399, 425 [97 Cal.Rptr.3d 732, 213 P.3d 77]), the prosecutor may properly challenge those prospective jurors whose opposition to the death penalty \u2018would not allow them to view the proceedings impartially, and who therefore might frustrate administration of [the] death penalty scheme.\u2019 (Witt, supra, at p. 416.)\u201d (People v. Clark (2011) 52 Cal.4th 856, 895 [131 Cal.Rptr.3d 225, 261 P.3d 243].)\nOn appeal, we consider whether the trial court\u2019s ruling is fairly supported by the record. (People v. McKinzie (2012) 54 Cal.4th 1302, 1328 [144 Cal.Rptr.3d 427, 281 P.3d 412]; People v. Pearson (2012) 53 Cal.4th 306, 327 [135 Cal.Rptr.3d 262, 266 P.3d 966].) \u201cWhen the prospective juror\u2019s answers on voir dire are conflicting or equivocal, the trial court\u2019s findings as to the prospective juror\u2019s state of mind are binding on appellate courts if supported by substantial evidence.\u201d (People v. Duenas (2012) 55 Cal.4th 1, 10 [144 Cal.Rptr.3d 820, 281 P.3d 887].) \u201c \u2018Deference to the trial court is appropriate because it is in a position to assess the demeanor of the venire, and of the individuals who compose it, a factor of critical importance in assessing the attitude and qualifications of potential jurors.\u2019 \u201d (McKinzie, at p. 1329, quoting Uttecht v. Brown, supra, 551 U.S. at p. 9.)\nProspective Juror S.L.\u2019s questionnaire revealed someone profoundly conflicted as to whether she could ever personally vote to impose the death penalty. She checked that she could give honest consideration to both life and death and circled that she was only \u201cSomewhat Opposed\u201d to the death penalty. But she also wrote, \u201cI am Catholic and I do not believe I could send someone to their death\u201d and \u201cI\u2019m just not sure if I could live with myself if I had to send someone to their death.\u201d Numerous other answers elaborated on the internal tension she felt. (E.g., \u201cI feel [the] death penalty is a deterrent, I understand why it is necessary. But I also believe that only God has the right to take away life. It is a conflict in my life that I have not yet been able to resolve. I err on the side of God.\u201d \u201cI understand why it works as a deterrent so I can\u2019t oppose it (as I know I should). But I cannot condone it as it is not what I believe God would want us to do.\u201d) Answering whether her views would always cause her to vote against the death penalty, she checked \u201cYes,\u201d then crossed that out, checked \u201cNo,\u201d and explained: \u201cI would follow the law, I would not intentionally break the law, but I am not sure I could live with it.\u201d\nShe clarified that the tension she experienced was personal, and not because she felt obligated to follow her church\u2019s or anyone else\u2019s views; although religion was for her \u201c100% of my life\u201d and the death penalty was \u201cagainst the Catholic beliefs,\u201d she felt \u201cthis way because of what I have read about God in the Bible, not because the Church says so.\u201d In that vein, she noted, \u201cMy husband is strongly in favor [of the death penalty] but I follow my own path, God holds \u00a1\u00a1\u00a1g accountable for my acts. I must decide what is correct for myself.\u201d\nPresented with a questionnaire that left it ultimately unclear whether the prospective juror would be able to be guided by the court\u2019s instructions as opposed to her personal views, the trial court and counsel appropriately conducted a lengthy voir dire to ascertain the precise nature of the juror\u2019s sentiments. (Cf. People v. Riccardi (2012) 54 Cal.4th 758, 782 [144 Cal.Rptr.3d 84, 281 P.3d 1] [court committed reversible error by failing to conduct voir dire before excusing on Witherspoon-Witt grounds a juror with ambiguous questionnaire answers].) As the court explored her views, S.L. repeatedly avowed that while she would try to do what the law asked of her notwithstanding her religious beliefs, she was unsure whether she \u201ccould separate\u2014completely separate those beliefs from me and my decision making because that\u2019s what has influenced all of my decisions all of my life.\u201d (E.g., \u201cI don\u2019t know that [my religious beliefs] would not influence me. It\u2019s been my whole life. I mean my\u2014my belief\u2014it\u2019s my whole life. So I don\u2019t know that it would not influence me. [f] I wouldn\u2019t try\u2014I would try not to allow that to influence me. [f] But I\u2019ve never been in a position where I have to make that kind of a decision before. I don\u2019t know. [][] I mean I can\u2019t say 100 percent that never\u2014it would never influence me at all. [|] It\u2019s not something that I have ever had to separate from my life before.\u201d)\nQuestioned by defense counsel as to whether she could vote for death if the aggravating circumstances outweighed the mitigating circumstances, S.L. offered, \u201cI think that if it was\u2014like you said it would have to be something that would be so completely\u2014I could\u2014I\u2019m not sure how well I would live with myself after that. [][] But I think that I could. That\u2019s my job and my responsibility to do that.\u201d Asked if she could vote for death even though it was personally unpleasant, she indicated, \u201cI believe so, yes.\u201d\nAfter confirming to the prosecution that she thought it wrong to put someone to death, S.L. was asked how it could ever be right to vote to put someone to death: \u201cTruthfully I don\u2019t know. [][] I\u2019ve never faced this before. I\u2019ve never been in a position to have to do that before. [][] I\u2014I could only tell you that I would do the best that I could do if I was put in this position.\u201d After agreeing that the right thing to do would be to always vote for life, she explained, \u201cI guess basically my conflict resides in that doing the right thing could mean not doing something correct in the law. [f] I don\u2019t know.\u201d Moments later, after agreeing that voting for death would \u201cbe directly violating what God told you not to do,\u201d S.L. offered, \u201c/ do think it would be wrong for me to sit on the jury. [][] It is just because I don\u2019t think that\u2014I know what I\u2019m capable of doing. I don\u2019t know that I would 100 percent be capable of doing this.\u201d The prosecutor asked if S.L. \u201ccould not really live with yourself if you actually vote for the death penalty?\u201d and S.L. replied, \u201cYeah, [f] That\u2019s true.\u201d\nThereafter, the trial court considered the prosecution\u2019s motion to excuse S.L. for cause and concluded the juror had made clear she was \u201cnot open minded\u201d and that while she thought \u201cshe might be able\u201d to reach a death verdict, \u201cshe doesn\u2019t know how she could live with that decision\u201d and \u201carticulated that this is not something she should do.\u201d Accordingly, the court found S.L. \u201csubstantially impaired\u201d and excused her from the jury.\nProspective Juror S.L.\u2019s questionnaire and responses to voir dire reveal a deep-seated internal conflict as to whether she could set aside her profound devotion to the perceived dictates of her religious faith in order to follow the court\u2019s instructions and render a verdict of life or death based on the evidence before her. She made clear that she certainly desired to follow the law, but in the end could not shake substantial doubts that she would be able to do so. The record also makes apparent that the trial court ultimately excused her not because of her religious affiliation, but because in its judgment, after viewing her responses to its own questions and those of counsel, the prospective juror would be substantially impaired in her ability to follow the court\u2019s instructions and fulfill her duties as a juror. (See Witt, supra, 469 U.S. at p. 424; People v. Rountree (2013) 56 Cal.4th 823, 847 [157 Cal.Rptr.3d 1, 301 P.3d 150] [The \u201ctrial court did not excuse [the juror] because he belonged to any particular religious denomination, or even because he had any particular religious beliefs. Rather it excused him because he made it clear that his beliefs would have substantially impaired the performance of his duties as a juror. Prospective jurors whose beliefs\u2014whether religiously or otherwise based\u2014prevent them from impartially performing the duties of a juror, which includes deciding the case impartially and, ultimately, sitting in judgment, may be excused for cause.\u201d].)\nThe uncertainty S.L. displayed about her own ability to actually vote for death exceeded that reflected in the record in any number of recent cases where we have upheld excus\u00e1is for cause based on the effect a juror\u2019s religious beliefs would have on her or his ability to act. (See, e.g., People v. Rountree, supra, 56 Cal.4th at p. 847 [the \u201cjuror could hardly have been more equivocal about whether he could set aside his religious convictions and perform a juror\u2019s duties\u201d]; People v. Jones (2012) 54 Cal.4th 1, 43 [140 Cal.Rptr.3d 383, 275 P.3d 496] [\u201cequivocal and conflicting\u201d answers \u201cindicated that [the prospective juror] harbored very serious doubts concerning whether, if seated on a capital jury, she could ever personally vote to impose the death penalty\u201d and supported the trial court\u2019s conclusion that her religious beliefs would substantially impair the performance of her duties]; People v. Cowan (2010) 50 Cal.4th 401, 441 [113 Cal.Rptr.3d 850, 236 P.3d 1074] [the trial court is in the best position to determine whether a juror uncertain about her ability to impose death because \u201cpunishment was for God alone\u201d can serve or would be substantially impaired].) As in these cases, substantial evidence supports the trial court\u2019s assessment that a juror deeply conflicted about her ability to follow the court\u2019s instructions and disregard her personal belief that it would never be right for mortals to put someone to death is substantially impaired, and we accordingly defer to that determination.\n3. Wheeler-Batson Motion\nDuring jury selection, the prosecution at one point used three consecutive peremptory challenges on African-American prospective jurors. Duff challenged this exercise of peremptories as race based. The trial court ruled Duff had not made out a prima facie case of discrimination but invited the prosecutor to make a record of his reasons, and the prosecutor did so. Thereafter, the trial court denied Duff\u2019s motion. The jury as seated included no African-Americans. Duff renews his objection on appeal. We find no error.\na. Legal Principles\nThe federal Constitution, state Constitution, and state statutory law all prohibit the use of peremptory challenges to exclude prospective jurors based on race. (Batson v. Kentucky (1986) 476 U.S. 79, 97 [90 L.Ed.2d 69, 106 S.Ct. 1712]; People v. Wheeler (1978) 22 Cal.3d 258, 276 [148 Cal.Rptr. 890, 583 P.2d 748] (Wheeler); Code Civ. Proc., \u00a7 231.5.) \u201cThe prosecution\u2019s use of peremptory challenges to remove prospective jurors based on group bias, such as race or ethnicity, violates a defendant\u2019s right to trial by a jury drawn from a representative cross-section of the community under article I, section 16 of the California Constitution and his right to equal protection under the Fourteenth Amendment to the United States Constitution.\u201d (People v. Blacksher (2011) 52 Cal.4th 769, 801 [130 Cal.Rptr.3d 191, 259 P.3d 370].)\n\u201c \u2018There is a rebuttable presumption that a peremptory challenge is being exercised properly, and the burden is on the opposing party to demonstrate impermissible discrimination.\u2019 \u201d (People v. Dement (2011) 53 Cal.4th 1, 19 [133 Cal.Rptr.3d 496, 264 P.3d 292]; see Purkett v. Elem (1995) 514 U.S. 765, 768 [131 L.Ed.2d 834, 115 S.Ct. 1769].) Under a now-familiar three-step process, to carry this burden a defendant must first \u201cmake out a prima facie case \u2018by showing that the totality of the relevant facts gives rise to an inference of discriminatory purpose.\u2019 [Citation.] Second, once the defendant has made out a prima facie case, the \u2018burden shifts to the State to explain adequately the racial exclusion\u2019 by offering permissible race-neutral justifications for the strikes. [Citations.] Third, \u2018[i]f a race-neutral explanation is tendered, the trial court must then decide . . . whether the opponent of the strike has proved purposeful racial discrimination.\u2019 [Citation.]\u201d (Johnson v. California (2005) 545 U.S. 162, 168 [162 L.Ed.2d 129, 125 S.Ct. 2410], fn. omitted.) The same rules apply to state constitutional claims. (People v. Taylor (2009) 47 Cal.4th 850, 886 [102 Cal.Rptr.3d 852, 220 P.3d 872].)\nHere, although the trial court found no prima facie case had been made out, it permitted the prosecutor to make a complete record of his reasons as to each of the three challenges. Consequently, as in People v. Cowan, supra, 50 Cal.4th 401, we may \u201cassume without deciding that defendant established a prima facie case by pointing out that the prosecutor used three of the 18 peremptory challenges she exercised to strike all of the African-American prospective jurors called to the jury box, resulting in no African-Americans serving on defendant\u2019s jury\u201d (id. at pp. 447-448) and directly \u201cproceed to the second and third steps of the Batson/Wheeler analysis\u201d (id. at p. 448; see People v. Mai (2013) 57 Cal.4th 986, 1050 [161 Cal.Rptr.3d 1, 305 P.3d 1175]; People v. Elliott (2012) 53 Cal.4th 535, 560-561 [137 Cal.Rptr.3d 59, 269 P.3d 494]; People v. Thomas (2011) 51 Cal.4th 449, 474 [121 Cal.Rptr.3d 521, 247 P.3d 886]). The key question at this juncture is how persuasive the prosecutor\u2019s proffered justifications are, considering, inter alia, their inherent plausibility and their relation to accepted trial strategy considerations. (Miller-El v. Cockrell (2003) 537 U.S. 322, 338-339 [154 L.Ed.2d 931, 123 S.Ct. 1029]; Cowan, at p. 448.) For each of the three excused jurors, we conclude the prosecutor\u2019s stated reasons are fully supported by the record and are plausible, nondiscriminatory bases for exercising a peremptory challenge. (See Mai, at pp. 1050-1054; Cowan, at p. 448; People v. Zambrano (2007) 41 Cal.4th 1082, 1106 [63 Cal.Rptr.3d 297, 163 P.3d 4].)\nb. Prospective Juror T.T.\nThe prosecutor offered four reasons for excusing Prospective Juror T.T. First, his brother had just been released after six years in prison. Second, T.T. was uncertain as to whether the People should have a higher burden of proof in a murder case. Third, T.T. came across during voir dire as \u201cincredibly timid,\u201d \u201cprobably the quietest person that we interviewed. He was very quiet, and I characterized him as being timid,\u201d and he \u201cseemed scared\u201d about the possibility of having to vote on the death penalty. Fourth, the prosecutor observed the prospective juror apparently sleeping in the hallway outside the courtroom with sunglasses on, and was concerned about how he would fit in with other jurors.\nThe record supports the first three of these reasons that are rooted in T.T.\u2019s questionnaire or voir dire responses. T.T.\u2019s brother had in fact just been released after an apparent six-year prison sentence, and we have routinely recognized a prospective juror\u2019s family\u2019s negative experience with the justice system as a legitimate potential reason to want to excuse a juror (e.g., People v. Booker, supra, 51 Cal.4th at p. 167, fn. 13; People v. Bonilla (2007) 41 Cal.4th 313, 343 [60 Cal.Rptr.3d 209, 160 P.3d 84]; People v. Avila (2006) 38 Cal.4th 491, 554-555 [43 Cal.Rptr.3d 1, 133 P.3d 1076]). In his questionnaire, T.T. was unsure whether the People should face a higher standard of proof in murder cases, and in voir dire he indicated the People should have to prove guilt \u201cwithout a reasonable shadow of a doubt\u201d (see People v. Mills (2010) 48 Cal.4th 158, 176-177 [106 Cal.Rptr.3d 153, 226 P.3d 276] [legitimate for prosecutor to want to excuse juror who may wish to impose higher standard of proof]). In his questionnaire, T.T. described himself as a \u201cFollower[.] I just don\u2019t like the responsibility . . .\u201d and \u201ckind of scared at the possible thought of\u2019 the death penalty. During voir dire, he described himself as a \u201clittle nervous\u201d about the prospect of being on the jury and at another point dropped his voice so low counsel had to ask him to repeat himself. We have recognized that prosecutors may legitimately choose to shy away from followers or unduly timid jurors. (People v. Ledesma (2006) 39 Cal.4th 641, 679 [47 Cal.Rptr.3d 326, 140 P.3d 657]; People v. Johnson (1989) 47 Cal.3d 1194, 1220 [255 Cal.Rptr. 569, 767 P.2d 1047].)\nc. Prospective Juror L.T.\nThe prosecutor described Prospective Juror L.T.\u2019s questionnaire answers as jumping out as \u201cunusual.\u201d He believed the juror had been significantly late to court one day, and was bothered that L.T. thought lawyers made too much money, that he was overly eager to be on the jury, that his mannerisms seemed unusual, and that he pressed the bailiff with a wealth of questions, giving rise to concern that he would be a potential annoyance or problem juror. The trial court thought the record \u201cquite clear\u201d as to reasons one might want to excuse L.T., even before the prosecutor put his justifications on the record.\nThe prosecutor did not identify particular questionnaire answers he thought unusual. Among those that might have stood out, L.T. disclosed he had been arrested for driving with a suspended license and was not happy about being fined and losing his car. Prosecutors and defense attorneys were necessary \u201cbut make way too much money,\u201d a view he confirmed on voir dire, adding that as a result \u201cnot everyone is given the same access to the resource.\u201d Victim impact evidence was in his mind irrelevant because the \u201ccrime wasn\u2019t necessarily against the family.\u201d\nOn voir dire, asked about the prospect of being a juror, L.T. replied, \u201cTo be honest I\u2019m actually kind of looking forward to it. [][] I\u2019ve wanted to be in jury duty for some time now, and I feel that it\u2019s the perfect thing here. The first time around I get a case where I get to really get involved in and understand the legal system a little more. So I welcome the chance.\u201d The record does not confirm whether L.T. frequently questioned court staff, but he did interrupt jury selection to ask how many peremptori.es the parties got just moments before he himself was excused.\nThe reasons that can be confirmed in the record are plausible nonpretextual grounds for choosing to excuse a juror. (See, e.g., People v. Thompson (2010) 49 Cal.4th 79, 108-109 [109 Cal.Rptr.3d 549, 231 P.3d 289] [upholding excusal of prospective juror for, inter alia, being too eager to be on a jury]; People v. Ervin, supra, 22 Cal.4th at pp. 76-77 [same].) The prosecutor could reasonably be concerned that L.T. would not consider penalty phase victim impact evidence and that he might feel hostility toward one or both side\u2019s attorneys that would color his deliberations. \u201c[T]he law recognizes that a peremptory challenge may be predicated on a broad spectrum of evidence suggestive of juror partiality. The evidence may range from the obviously serious to the apparently trivial, from the virtually certain to the highly speculative.\u201d (Wheeler, supra, 22 Cal.3d at p. 275; see People v. Lenix (2008) 44 Cal.4th 602, 613 [80 Cal.Rptr.3d 98, 187 P.3d 946] [\u201c \u2018[E]ven a \u201ctrivial\u201d reason, if genuine and neutral, will suffice.\u2019 [Citation.] A prospective juror may be excused based upon facial expressions, gestures, hunches, and even for arbitrary or idiosyncratic reasons.\u201d].)\nd. Prospective Juror TM.\nThe prosecutor identified three concerns about Prospective Juror T.M. First, she indicated on her questionnaire that she had seen police brutality. As the prosecutor noted, during various points in Duff\u2019s interrogation and subsequent calls to his mother and girlfriend, Duff complained that he had been beaten up and hurt by the police officers who arrested him. The prosecutor was concerned that, given T.M.\u2019s past experience, she might be more open to an argument that Duff\u2019s confession was involuntary or a product of police brutality.\nSecond, asked whether a person\u2019s background and upbringing can affect his or her adult life, T.M. indicated on her questionnaire, \u201cPeople generally are products of their environment.\u201d The prosecutor explained that Duff\u2019s penalty phase argument was likely to focus heavily on the contention that Duff \u201cis, in fact, a product of his own environment, that he was\u2014that he was mistreated when he was younger, that he had a bad childhood, and that it\u2019s no wonder that he ended up in the place he is. [f] And I think that kind of an argument, just from my reading of the questionnaire and watching [T.M.], listening to the answers she gave in court, I think she is going to be more susceptible to that kind of an argument.\u201d\nFinally, the prosecutor noted that T.M. had failed to show up for the final day of jury selection, the day she was peremptorily challenged and the court heard the Wheeler-Batson motion. The prosecutor could reasonably be concerned that future tardiness or absences might delay trial proceedings. The other two proffered reasons\u2014susceptibility to an argument that Duff\u2019s confession was in part due to police brutality and to an argument that Duff was simply a product of his environment and thus his culpability was mitigated\u2014 are likewise wholly plausible and firmly grounded in acceptable trial strategy considerations. Duff thus has not carried his burden of showing the prosecutor\u2019s justifications for exercising peremptories were a pretext for invidious racial discrimination. (See People v. Taylor, supra, 47 Cal.4th at p. 891 [defendant\u2019s burden is to show discrimination, not just that one or more nondiscriminatory reasons are unsupported by the record].)\nB. Guilt Phase Issues\n1. Disposal of the Car in Which the Victims Were Shot\nRiley\u2019s and Hagan\u2019s bodies were found in a hatchback car stolen from a third party. Police used a superglue process to test the interior for fingerprints and, because that procedure involved toxic chemicals, purchased the car from the owner rather than returning it to her. The interior was photographed and videotaped and then, in accordance with standard procedures for cars subjected to the superglue process, the car was towed away in March 1998 with the expectation it would be crushed. The car was still in a salvage yard in September 1998, but was apparently destroyed sometime thereafter.\nIn October 2001, because his expert was no longer able to examine and test the car, Duff brought a motion for sanctions for the spoliation of evidence. He argued that the state had breached its duty to preserve exculpatory evidence and thus violated his due process rights. (See California v. Trombetta (1984) 467 U.S. 479, 488-489 [81 L.Ed.2d 413, 104 S.Ct. 2528] (Trombetta).) The trial court concluded that because it was extremely unlikely anything of exculpatory value had been lost and Duff had not shown the car\u2019s destruction was an act of bad faith, no sanctions were warranted. We review the trial court\u2019s denial of Duff\u2019s Trombetta motion for substantial evidence (People v. Carter (2005) 36 Cal.4th 1215, 1246 [32 Cal.Rptr.3d 838, 117 P.3d 544]) and find no error.\n\u201cDue process does not impose upon law enforcement \u2018an undifferentiated and absolute duty to retain and to preserve all material that might be of conceivable evidentiary significance in a particular prosecution.\u2019 \u201d (People v. Wallace (2008) 44 Cal.4th 1032, 1083 [81 Cal.Rptr.3d 651, 189 P.3d 911], quoting Arizona v. Youngblood (1988) 488 U.S. 51, 58 [102 L.Ed.2d 281, 109 S.Ct. 333].) At most, the state\u2019s obligation to preserve evidence extends to \u201cevidence that might be expected to play a significant role in the suspect\u2019s defense.\u201d (Trombetta, supra, 467 U.S. at p. 488; accord, People v. Alexander (2010) 49 Cal.4th 846, 878 [113 Cal.Rptr.3d 190, 235 P.3d 873].) If the evidence\u2019s exculpatory value is apparent and no comparable evidence is reasonably available, due process precludes the state from destroying it. (Trombetta, at p. 489; Alexander, at p. 878.) If, however, \u201cno more can be said [of the evidence] than that it could have been subjected to tests, the results of which might have exonerated the defendant\u201d (Youngblood, at p. 57, italics added), the proscriptions of the federal Constitution are narrower; \u201cunless a criminal defendant can show bad faith on the part of the police, failure to preserve potentially useful evidence does not constitute a denial of due process of law\u201d (Youngblood, at p. 58; accord, People v. Tafoya (2007) 42 Cal.4th 147, 187 [64 Cal.Rptr.3d 163, 164 P.3d 590]; People v. DePriest (2007) 42 Cal.4th 1, 42 [63 Cal.Rptr.3d 896, 163 P.3d 896]).\nThe loss of the hatchback car falls in the latter category. Duff did not demonstrate to the trial court, and does not establish here, that the car had any exculpatory value apparent to the police such that an obligation to preserve evidence would arise. Rather, he contends only that if it had been preserved, the car could have been subjected to additional tests beyond those conducted by the People\u2019s expert, tests whose results might have supported Duff\u2019s theory that he was shot at and acted in self-defense.\nDuff\u2019s claim of error fails because he cannot demonstrate the bad faith required under these circumstances by Arizona v. Youngblood, supra, 488 U.S. at page 58. Duff argues that the prosecution\u2019s failure to notify defense counsel of the intention to eventually destroy the car demonstrates bad faith, but (1) there was no showing of such a failure, as the original prosecutor simply could not recall whether she ever advised Duff\u2019s then defense counsel, who was deceased by the time of the Trombetta hearing and thus unable to testify, and (2) Duff does nothing to rebut the showing that the car was disposed of in accordance with the police department\u2019s usual procedures for cars subjected to the particular toxic fingerprinting procedure employed in this case. A showing that evidence was disposed of in accordance with standard procedures in the ordinary course of business suggests police acted in good faith. (People v. Tafoya, supra, 42 Cal.4th at p. 187.) Accordingly, no due process violation occurred.\n2. Introduction of Duff\u2019s Statements\nDuff moved pretrial to suppress all statements he made to the police while in custody on February 26, 1998, based on alleged violations of Miranda v. Arizona (1966) 384 U.S. 436 [16 L.Ed.2d 694, 86 S.Ct. 1602] and due process. The trial court held an evidentiary hearing and denied the motion, concluding that Duff was advised of his rights and knowingly and voluntarily waived them, police were not required to readvise him when questioning resumed after a short break that same day, and nothing he said was the product of unlawful coercion or threats. After Duff\u2019s change in counsel resulted in a postponement of trial, a new trial judge afforded Duff the opportunity to reargue the motion, but the court again denied it. The prosecution thereafter played for the jury a videotape of a portion of Duff\u2019s interrogation, during which Duff confessed to shooting Riley and Hagan. Duff argues reliance on this evidence violated his privilege against self-incrimination and due process rights. (U.S. Const., 5th & 14th Amends.; Cal. Const., art. I, \u00a7\u00a7 7, 15.)\n\u201cMiranda v. Arizona, supra, 384 U.S. 436, and its progeny protect the privilege against self-incrimination by precluding suspects from being subjected to custodial interrogation unless and until they have knowingly and voluntarily waived their rights to remain silent, to have an attorney present, and, if indigent, to have counsel appointed. [Citations.] \u2018If a suspect indicates \u201cin any manner and at any stage of the process,\u201d prior to or during questioning, that he or she wishes to consult with an attorney, the defendant may not be interrogated.\u2019 [Citation.]\u201d (People v. Gamache (2010) 48 Cal.4th 347, 384 [106 Cal.Rptr.3d 771, 227 P.3d 342].) \u201cTo establish a valid Miranda waiver, the prosecution bears the burden of establishing by a preponderance of the evidence that the waiver was knowing, intelligent, and voluntary under the totality of the circumstances of the interrogation.\u201d (People v. Linton (2013) 56 Cal.4th 1146, 1171 [158 Cal.Rptr.3d 521, 302 P.3d 927], citing People v. Williams (2010) 49 Cal.4th 405, 425 [111 Cal.Rptr.3d 589, 233 P.3d 1000].)\nAs well, \u201c[b]oth the state and federal Constitutions bar the prosecution from introducing a defendant\u2019s involuntary confession into evidence at trial.\u201d (People v. Linton, supra, 56 Cal.4th at p. 1176; see People v. Scott (2011) 52 Cal.4th 452, 480 [129 Cal.Rptr.3d 91, 257 P.3d 703]; People v. Williams, supra, 49 Cal.4th at p. 436.) As with Miranda waivers, the People bear the burden of establishing by a preponderance of the evidence the voluntariness of a confession. (People v. Tully (2012) 54 Cal.4th 952, 993 [145 Cal.Rptr.3d 146, 282 P.3d 173]; Scott, at p. 480; People v. Carrington (2009) 47 Cal.4th 145, 169 [97 Cal.Rptr.3d 117, 211 P.3d 617].)\nIn reviewing the trial court\u2019s denial of a suppression motion on Miranda and involuntariness grounds, \u201c \u2018 \u201cwe accept the trial court\u2019s resolution of disputed facts and inferences, and its evaluations of credibility, if supported by substantial evidence. We independently determine from the undisputed facts and the facts properly found by the trial court whether the challenged statement was illegally obtained.\u201d \u2019 \u201d (People v. Enraca (2012) 53 Cal.4th 735, 753 [137 Cal.Rptr.3d 117, 269 P.3d 543]; accord, People v. Williams, supra, 49 Cal.4th at pp. 425, 436.) Where, as was the case here, an interview is recorded, the facts surrounding the admission or confession are undisputed and we may apply independent review. (People v. McWhorter (2009) 47 Cal.4th 318, 346 [97 Cal.Rptr.3d 412, 212 P.3d 692].)\nAs we shall explain, the trial court did not err in admitting any of Duff\u2019s statements.\na. Initial Waiver of Miranda Rights\nOn February 24, 1998, Duff was arrested on unrelated charges. The next day, police discovered the car with Riley\u2019s and Hagan\u2019s bodies inside not far from where Duff lived and where he had been picked up. On February 26, police questioned Duff about the Riley/Hagan murders.\nAt the outset of questioning, Detective Toni Winfield advised Duff of his Miranda rights to silence, to an attorney, and so on. Duff replied that he understood them. Asked whether he still wished to talk with Detective Winfield, Duff initially replied, \u201cI don\u2019t know. Sometimes they say it\u2019s\u2014it\u2019s better if I have a\u2014a lawyer.\u201d The detective continued:\n\u201cWINFIELD: You know, sometimes they do. Yeah. Yeah. You know, but sometimes\u2014uh\u2014a lot of times people want to talk and\u2014and want to\u2014uh\u2014 clarify, let\u2019s say for instance\u2014um\u2014where they were during that period of time. Because, really, you could provide me\u2014and it\u2019s entirely up to you. It\u2019s\u2014it really is. You can provide me with individuals who could verify where you were that I wouldn\u2019t otherwise get. You know what I mean? And so that\u2019s\u2014um\u2014that\u2019s kind of\u2014uh\u2014you know, the way it\u2014the\u2014the way it works. And in\u2014in most cases, the individuals that I talk to do, in fact, give me\u2014um\u2014other circumstances for me to go and check out. That\u2019s why one person\u2019s interview leads to another person\u2019s, and another\u2019s, and another\u2019s, and we end up, you know, doing a lot of interviews. So that\u2019s why I told you I\u2019ve all\u2014I\u2019ve\u2014I have already spoken with quite a few people. And that\u2019s what, eventually, you know, led us to trying to talk to you.\n\u201cDUFF: Yeah.\n\u201cWINFIELD: And if at any time\u2014like I say, if at any time you want to stop the interview and say, \u2018Hey, I don\u2019t\u2014I don\u2019t\u2014I don\u2019t feel like answering that question,\u2019 then you have that option.\n\u201cDUFF: Okay. Okay. I understand.\n\u201cWINFIELD: You understand?\n\u201cDUFF: Yeah.\n\u201cWINFIELD: Okay. So are you willing to talk about the\u2014you know, where you were and that kind of a thing?\n\u201cDUFF: Yeah. (Unintelligible.)\n\u201cWINFIELD: Okay. I mean, I just want you to feel confident with that. You do feel\u2014you feel confident with that?\n\u201cDUFF: Yeah.\n\u201cWINFIELD: Okay. All right. So\u2014um\u2014then you keep your rights in mind. And if at some time, you know, you don\u2019t feel like answering another question, then you\u2014you just tell me no. Okay?\n\u201cDUFF: Okay.\u201d\nDuff does not contend his remark, \u201cSometimes they say it\u2019s\u2014it\u2019s better if I have a\u2014a lawyer,\u201d was an unambiguous invocation of the right to counsel sufficient to require that all questioning cease. (See, e.g., Smith v. Illinois (1984) 469 U.S. 91, 98 [83 L.Ed.2d 488, 105 S.Ct. 490]; People v. Cruz (2008) 44 Cal.4th 636, 668 [80 Cal.Rptr.3d 126, 187 P.3d 970].) He does, however, argue that it was at least an equivocal invocation of the right to counsel, that it placed Detective Winfield under a duty to clarify Duff\u2019s desires and obtain a clear and unequivocal waiver, and that she never did so.\nWe agree with Duff that because his reference to a lawyer occurred at the beginning of questioning, the rules respecting pre-Miranda waiver invocations of the right to counsel apply. (See People v. Williams, supra, 49 Cal.4th at p. 427 [inquiries into the initial waiver of the right to counsel and the sufficiency of subsequent postwaiver invocation are distinct]; U.S. v. Rodriguez (9th Cir. 2008) 518 F.3d 1072, 1078-1080 [articulating different rules for police conduct before and after an initial waiver of the right to counsel].) Thus, the postwaiver rule rejecting any duty to clarify ambiguous invocations and permitting an officer to continue substantive questioning \u201c \u2018until and unless the suspect clearly requests an attorney,\u2019 \u201d upon which the People principally rely, is inapposite here.\nIn the face of an initial equivocal reference to counsel, we have held that an officer is permitted to clarify the suspect\u2019s intentions and desire to waive his or her Miranda rights. (People v. Williams, supra, 49 Cal.4th at p. 428 [collecting cases].) The Ninth Circuit has explicitly declared that an officer not only may, but must, clarify the suspect\u2019s intentions before initiating substantive questioning. (U.S. v. Rodriguez, supra, 518 F.3d at p. 1080 [\u201cPrior to obtaining an unambiguous and unequivocal waiver, a duty rests with the interrogating officer to clarify any ambiguity before beginning general interrogation.\u201d]; but cf. Berghuis v. Thompkins, supra, 560 U.S. at p. 387 [rejecting the argument that a clear waiver must always precede questioning because \u201c[t]he Miranda rule and its requirements are met if a suspect receives adequate Miranda warnings, understands them, and has an opportunity to invoke the rights before giving any answers or admissions.\u201d].) We have occasionally implied the same rule as the Ninth Circuit\u2019s. (See, e.g., People v. Box (2000) 23 Cal.4th 1153, 1194 [99 Cal.Rptr.2d 69, 5 P.3d 130] [\u201cIf a suspect\u2019s request for counsel or invocation of the right to remain silent is ambiguous, the police may \u2018continue talking with him for the limited purpose of clarifying whether he is waiving or invoking those rights.\u2019 \u201d (Quoting People v. Johnson (1993) 6 Cal.4th 1, 27 [23 Cal.Rptr.2d 593, 859 P.2d 673]; italics added)].)\nEven so, no Miranda violation occurred here. If we assume Duff\u2019s remark was an equivocal invocation of the right to counsel and that Detective Winfield was obligated to clarify Duff\u2019s desire to waive his rights before proceeding with the interrogation, she did so. Before asking any other questions, Detective Winfield reiterated that the decision whether to talk was \u201centirely up to [Duff]\u201d and he could \u201cat any time . . . stop the interview.\u201d She then asked directly, \u201cSo are you willing to talk about the\u2014you know, where you were and that kind of a thing?\u201d; he replied, \u201cYeah.\u201d She asked again, \u201c. . . I just want you to feel confident with that. You do feel\u2014you feel confident with that?\u201d; he repeated, \u201cYeah.\u201d She confirmed a third time, \u201c[Y]ou keep your rights in mind. And if at some time, you know, you don\u2019t feel like answering another question, then you\u2014you just tell me no. Okay?\u201d; he assented a third time to speak with her. We agree with the trial court that Detective Winfield was not under a legal obligation to follow any particular script in ascertaining Duff\u2019s desires; she did not badger Duff but instead lawfully \u201cproceeded to talk to him to see whether or not he wanted to talk without having to ask him specifically to clarify his ambiguous statement any more than he did by continuing to talk.\u201d (See People v. Clark (1993) 5 Cal.4th 950, 991 [22 Cal.Rptr.2d 689, 857 P.2d 1099] [no Miranda violation where the \u201cinterrogators did not ask defendant substantive questions until defendant\u2019s position was clarified and a valid waiver was obtained\u201d and \u201cno coercive tactics were employed in order to obtain defendant\u2019s Miranda waiver.\u201d].)\nb. Duty to Readvise of Miranda Rights\nAfter less than an hour of questioning, Duff asked to stop, explaining that his head was \u201ckind of numb\u201d and he was \u201ckind of brain boggled.\u201d Detective Winfield ended her questioning and prepared to leave. As she did, Duff asked if Detective Dick Woods was still around. Detective Winfield indicated Woods was and asked if Duff wanted to talk with him. Duff affirmed that he did.\nWinfield left, and after 23 minutes, Detective Woods appeared. Woods and Duff engaged in small talk for a few minutes. After Duff asked for and was allowed a bathroom break, Woods indicated he wanted to ask Duff a few questions and offered to bring Detective Winfield back. Duff declined, explaining, \u201cWell, it don\u2019t really matter, just\u2014I just want to hurry up and get this over with, man.\u201d Detective Woods proceeded to question Duff; eventually, Duff confessed to shooting both Riley and Hagan.\nDuff contends everything he said to Detective Woods should have been suppressed because he asked to stop the interview and because he did not receive new Miranda warnings after the break between questioning by Detective Winfield and Detective Woods.\nThe trial court correctly found no error. The record supports its conclusion that Detective Winfield promptly stopped questioning Duff when he asked for the interview to stop. It also supports the trial court\u2019s conclusion that Detective Woods only arrived to talk with Duff at Duffs request. Under these circumstances, no readvisement was required. \u201cAfter a valid Miranda waiver, readvisement prior to continued custodial interrogation is unnecessary \u2018so long as a proper warning has been given, and \u201cthe subsequent interrogation is \u2018reasonably contemporaneous\u2019 with the prior knowing and intelligent waiver.\u201d [Citations.]\u2019 [Citation.] The necessity for readvisement depends upon various circumstances, including the amount of time that has elapsed since the first waiver, changes in the identity of the interrogating officer and the location of the interrogation, any reminder of the prior advisement, the defendant\u2019s experience with the criminal justice system, and \u2018[other] indicia that the defendant subjectively understood] and waive[d] his rights.\u2019 \u201d (People v. Williams, supra, 49 Cal.4th at p. 434.) We have permitted as \u201creasonably contemporaneous\u201d the resumption of interrogation without a readvisement even a day or two after the initial waiver. (E.g., Williams, at p. 435; People v. Mickle (1991) 54 Cal.3d 140, 171 [284 Cal.Rptr. 511, 814 P.2d 290].) Questioning here just minutes later, in the very same location as before, by a detective specifically summoned by the defendant, a defendant the trial court found had been in prison four times before and was quite familiar with the criminal justice system, was entirely constitutional notwithstanding the absence of renewed Miranda warnings.\nc. Involuntariness\nFinally, Duff argues his confession should have been suppressed because it was involuntary. \u201c \u2018A statement is involuntary if it is not the product of \u201c \u2018a rational intellect and free will.\u2019 \u201d [Citation.] The test for determining whether a confession is voluntary is whether the defendant\u2019s \u201cwill was overborne at the time he confessed.\u201d \u2019 \u201d (People v. McWhorter, supra, 47 Cal.4th at pp. 346-347.) In assessing whether statements were the product of free will or coercion, we consider the totality of the circumstances, including \u201c \u2018 \u201cthe cracial element of police coercion,\u201d \u2019 \u201d the length, location, and continuity of the interrogation, and the defendant\u2019s maturity, education, and physical and mental health. (People v. Williams, supra, 49 Cal.4th at p. 436.)\nDuff emphasizes his low intelligence, his past drag use, and pain he was suffering from a scuffle with police when he tried to flee the night of his arrest. As evidence of police coercion, Duff asserts Detective Woods threatened to cause problems for Duff\u2019s friends and family. Duff offers no cites to the record, and with good reason; the transcript and videotape of his interview do not support the assertion. To the contrary, as the trial court found, no threats were made. Our own review of the transcript and videotape of Duff\u2019s interrogation reveals Detectives Winfield and Woods were trying not to get others in trouble and repeatedly steered clear of questions that might incriminate anyone other than Duff. We thus affirm the trial court\u2019s finding that neither Detective Winfield nor Detective Woods ever threatened or sought to coerce Duff. From the record, it appears Duff confessed to shooting Riley and Hagan not because his will was overborne, but because he was capable of making, and made, the rational choice to offer his side of events, in which he shot Riley and Hagan in self-defense, rather than out of a premeditated desire to obtain revenge for past slights. Accordingly, Duff\u2019s confession was not involuntary and was properly admitted.\n3. Admission of Victims\u2019Images\nAt trial, the People sought to introduce several videotapes and photographs of the victims. The videotapes were of the area where the car containing the victims\u2019 bodies was discovered and showed, inter alia, Riley\u2019s and Hagan\u2019s bodies in the state in which they were found. One set of still photographs likewise showed the interior of the car and the bodies in situ; another consisted of autopsy photos showing the location of the victims\u2019 bullet wounds. Duff objected to the jury being permitted to see closeups of the victims\u2019 wounds as unduly prejudicial, but the trial court overruled the objection and concluded the evidence as a whole was far more probative than prejudicial. The autopsy photographs were introduced in conjunction with the expert testimony of Dr. Gregory Reiber, a forensic pathologist; the videotapes were played in conjunction with the testimony of Detective Jeffrey Gardner, the investigating officer who recorded them.\nDuff renews his objection here, asserting that the introduction of images of the victims\u2019 wounds was an abuse of discretion and violated his constitutional rights to a fair trial and due process. (U.S. Const., 14th Amend.; Evid. Code, \u00a7 352.) \u201c \u2018The admission of allegedly gmesome photographs is basically a question of relevance over which the trial court has broad discretion.\u2019 [Citations.] The further decision whether to nevertheless exclude relevant photographs as unduly prejudicial is similarly committed to the trial court\u2019s discretion: \u2018A trial court\u2019s decision to admit photographs under Evidence Code section 352 will be upheld on appeal unless the prejudicial effect of such photographs clearly outweighs their probative value.\u2019 \u201d (.People v. Bonilla, supra, 41 Cal.4th at p. 353; see People v. McKinzie, supra, 54 Cal.4th at p. 1351; People v. D\u2019Arcy (2010) 48 Cal.4th 257, 298 [106 Cal.Rptr.3d 459, 226 P.3d 949]; People v. Scheid (1997) 16 Cal.4th 1, 13-19 [65 Cal.Rptr.2d 348, 939 P.2d 748].)\nThe videotape and photographs were plainly relevant; indeed, Duff does not offer any argument against their relevance. The critical issue in the case was whether Duff acted in self-defense, firing at two men who were turned and facing him with guns drawn, or whether he acted without provocation, shooting the victims while they may have been facing away. Officer testimony about the position of the victims\u2019 bodies and forensic testimony about the location of bullet wounds could help the jury reach a decision, but images of the victims necessarily provided cmcial corroboration as to their positions and injuries and would have made it much easier to visualize which version of events fit. In these circumstances, a picture could be worth a thousand words; the images were not simply cumulative of other testimony. (See People v. McKinzie, supra, 54 Cal.4th at p. 1351 [autopsy and crime scene photos of a victim can be \u201chighly probative of how the victim was killed\u201d]; People v. Brents (2012) 53 Cal.4th 599, 617 [136 Cal.Rptr.3d 66, 267 P.3d 1135] [the People are not obligated to rely solely on live witnesses to the exclusion of photographic evidence]; People v. Cruz, supra, 44 Cal.4th at p. 671 [autopsy photos are admissible to corroborate coroner testimony].)\nNor were the images more prejudicial than probative. While they carried substantial probative value\u2014showing, for example, that both Riley and Hagan were shot from behind\u2014they depicted minimal blood and were no more gruesome than one would expect of any pictures of gunshot victims. (See People v. Moon (2005) 37 Cal.4th 1, 35 [32 Cal.Rptr.3d 894, 117 P.3d 591] [\u201c \u2018 \u201c \u2018[M]urder is seldom pretty, and pictures, testimony and physical evidence in such a case are always unpleasant.\u2019 \u201d \u2019 \u201d].) The trial court\u2019s exercise of discretion to admit images of the victims was neither statutory nor constitutional error.\n4. Exclusion of Photo of Victim\u2019s Tattoo\nBefore trial, the People moved to exclude reference to and photographs of Roscoe Riley\u2019s tattoos, in particular a tattoo on his right arm of a hand pointing a revolver. The trial court granted the motion. Duff contends exclusion of a photograph of Riley\u2019s gun tattoo violated his statutory and constitutional rights to admission of relevant evidence. (U.S. Const., 14th Amend.; Cal. Const., art. I, \u00a7 7; Evid. Code, \u00a7 351.) The trial court did not err.\nEvidence must be relevant to be admissible. (Evid. Code, \u00a7 350.) Moreover, even if relevant, it may be excluded if the court determines that its prejudicial impact substantially outweighs any probative value. (Id., \u00a7 352.) We afford trial courts wide discretion in assessing whether in a given case a particular piece of evidence is relevant and whether it is more prejudicial than probative. (See People v. Homick (2012) 55 Cal.4th 816, 865 [150 Cal.Rptr.3d 1, 289 P.3d 791]; People v. Tully, supra, 54 Cal.4th at p. 1010.)\nDuff argues the photograph was relevant to show both that Riley was armed (because it indicated an affinity for guns) and that Duff believed Riley to be armed and dangerous and thus had acted in self-defense. As to the tattoo tending to prove Riley carried a real gun on the day he was shot, the trial court correctly recognized it would be cumulative of considerable other testimony showing Riley was armed with a .357\u2014a point, moreover, that the People freely conceded. As to the tattoo bearing on Duff\u2019s justifications for his actions, any such relevance would depend entirely on proving as a foundational matter that Duff knew Riley had such a tattoo, a point Duff acknowledges. The trial court invited Duff to introduce evidence that he knew of the tattoo. Duff did not. In the absence of such a foundation, it was not error to conclude the photograph of the tattoo was cumulative or simply irrelevant.\nNor was exclusion of the photograph a violation of Duff\u2019s equal protection rights simply because the trial court simultaneously admitted numerous photographs of the decedents\u2019 gunshot wounds. Gunshot wound photographs, in combination with expert forensic testimony, supported the People\u2019s theory as to how Duff shot Riley and Hagan. The photograph of Riley\u2019s tattoo had no comparable relevance.\n5. Dismissal of Two Jurors for Illness\nAt two different junctures during trial, jurors called in sick. Each time, the trial court consulted with counsel and, over defense objection, elected to replace the juror with an alternate. Duff contends these changes in the composition of the jury were an abuse of discretion and violated both his statutory rights and his federal and state constitutional rights to trial by an impartial jury. (U.S. Const., 6th & 14th Amends.; Cal. Const., art. I, \u00a7 16; \u00a7 1089.) We disagree.\nOn October 30, 2001, during presentation of guilt phase evidence, Juror No. 6 called in sick with the stomach flu and indicated she would likely be out for at least the next two days. Duff argued for a two-day continuance but volunteered that if the juror was then still sick, she would likely have to be replaced. The People opposed any continuance because the cross-examination of Cynthia Fernando, their most important witness, was scheduled to begin. Though Femando was present and ready to testify, she had proved difficult to get to court; she had already failed to appear on two other occasions in the immediately preceding few days. If Femando failed to show again after a continuance, the People feared either a motion to strike the direct testimony Fernando had already given or, in light of the significance of Fernando\u2019s testimony and the absence of any opportunity for cross-examination, a motion for mistrial. The trial court shared these concerns and replaced Juror No. 6.\nOn November 28, the first day of the penalty phase, Juror No. 3 called in sick. On November 24, while court was out of session over Thanksgiving, the juror was taken ill and went to the emergency room because of bouts of vomiting. By the fifth day of her illness, she was still sufficiently unwell to appear. Defense counsel expressed reservations about substituting an alternate who had not participated in guilt phase deliberations and asked the court to continue the matter for one day before replacing the juror. Relying on its evaluation of the juror\u2019s voice on the voice mail she left, the juror\u2019s subsequent conversation with the court clerk, and concerns the juror had expressed about her health during voir dire, the trial court removed her and substituted an alternate. To address Duff\u2019s concerns about the alternate\u2019s absence from guilt phase deliberations, the court offered to give, and ultimately gave, a pinpoint instruction approved by the defense.\nTrial courts may remove any juror who \u201cbecomes ill, or upon other good cause shown to the court is found to be unable to perform his or her duty . . . .\u201d (\u00a7 1089.) A trial court learning of grounds for dismissal \u201chas an affirmative obligation to investigate.\u201d (People v. Bonilla, supra, 41 Cal.4th at p. 350.) However, \u201c[bjoth the scope of any investigation and the ultimate decision whether to discharge a given juror are committed to the sound discretion of the trial court.\u201d (Ibid.-, see People v. Nunez and Satele (2013) 57 Cal.4th 1, 57 [158 Cal.Rptr.3d 585, 302 P.3d 981]; People v. Thompson, supra, 49 Cal.4th at p. 137.)\nDuff emphasizes that in reviewing a decision to excuse a juror, we do not ask only whether substantial evidence supports the decision\u2014i.e., whether there is evidence from which a reasonable trial court could have concluded dismissal was warranted\u2014but further whether it appears as a \u201cdemonstrable reality\u201d that the trial court actually did rely on such evidence as the basis for its decision. (People v. Barnwell (2007) 41 Cal.4th 1038, 1052-1053 [63 Cal.Rptr.3d 82, 162 P.3d 596].) He contends reversal under this standard is required because the trial court dismissed the jurors as a matter of administrative convenience without obtaining proof to a demonstrable reality that each juror would be unable to continue.\nThis argument mistakes the effect of the \u201cless deferential review\u201d (People v. Barnwell, supra, 41 Cal.4th at p. 1052) we apply to decisions to remove jurors. The requirement we add to traditional substantial evidence review is that the record establish the actual basis for the trial court\u2019s decision. So long as it does, we ask only whether the evidence relied upon was sufficient to support that basis as grounds for dismissal; we do not independently reweigh the evidence or demand more compelling proof than that which could satisfy a reasonable jurist. (Id. at pp. 1052-1053.)\nHere, it is undisputed each excused juror was ill and that the illnesses occasioned their dismissals. By statute, illness is cause to dismiss a juror. (\u00a7 1089; People v. Roberts (1992) 2 Cal.4th 271, 324 [6 Cal.Rptr.2d 276, 826 P.2d 274].) The demonstrable reality test does not demand of trial judges confronted with sick jurors that they elicit conclusive proof of the length of future incapacitation; judges are lawyers, not doctors. Nor does it demand that incapacitation exceed some preset length; in the right circumstances, an absence of a day or less may warrant excusal. (People v. Bell (1998) 61 Cal.App.4th 282, 286-289 [71 Cal.Rptr.2d 415]; People v. Hall (1979) 95 Cal.App.3d 299, 305-307 [157 Cal.Rptr. 107].) Whether a juror\u2019s illness can best be accommodated by a continuance or replacement with an alternate is a matter committed to the trial court\u2019s discretion.\nWith respect to Juror No. 6, the trial court shared the People\u2019s concern about witness Fernando\u2019s unreliability and the consequent risks a continuance would pose; additionally, it was concerned that a two-day continuance would result in a lengthy gap between presentation of evidence and closing arguments on one or both sides, a gap that might impair either party\u2019s presentations or impact juror deliberations. With respect to Juror No. 3, the trial court was presented with a juror who had already been ill for five days and was not guaranteed to be well on the sixth day. Neither decision to substitute an alternate was an abuse of discretion.\n6. Refusal to Instruct on Lesser Included Offenses\nAt the close of the guilt phase, Duff sought instructions on second degree murder and voluntary manslaughter under theories of imperfect self-defense and heat of passion. The trial court denied the request and confined its instructions to first degree murder and justifiable homicide in perfect self-defense. In this court, Duff argues the refusal to instmct on voluntary manslaughter as a lesser included offense of first degree murder violated his federal constitutional rights by foisting on the jury an all-or-nothing choice between capital murder and acquittal. (U.S. Const., 8th & 14th Amends.; see Beck v. Alabama (1980) 447 U.S. 625, 627 [65 L.Ed.2d 392, 100 S.Ct. 2382].)\nA trial court must instmct on all lesser included offenses supported by substantial evidence. (People v. Booker, supra, 51 Cal.4th at p. 181; People v. Breverman (1998) 19 Cal.4th 142, 154-155 [77 Cal.Rptr.2d 870, 960 P.2d 1094].) The duty applies whenever there is evidence in the record from which a reasonable jury could conclude the defendant is guilty of the lesser, but not the greater, offense. (People v. Verdugo (2010) 50 Cal.4th 263, 293 [113 Cal.Rptr.3d 803, 236 P.3d 1035]; People v. Avila (2009) 46 Cal.4th 680, 705 [94 Cal.Rptr.3d 699, 208 P.3d 634].) That voluntary manslaughter is a lesser included offense of murder is undisputed. (Booker, at p. 181; Verdugo, at p. 293; Avila, at p. 705, Breverman, at p. 154.)\nImperfect self-defense, which reduces murder to voluntary manslaughter, arises when a defendant acts in the actual but unreasonable belief that he is in imminent danger of death or great bodily injury. (People v. Booker, supra, 51 Cal.4th at p. 182; People v. Manriquez (2005) 37 Cal.4th 547, 581 [36 Cal.Rptr.3d 340, 123 P.3d 614]; In re Christian S. (1994) 7 Cal.4th 768, 771 [30 Cal.Rptr.2d 33, 872 P.2d 574].) Heat of passion, which likewise reduces murder to voluntary manslaughter, arises when the defendant is provoked by acts that would \u201crender an ordinary person of average disposition \u2018liable to act rashly or without due deliberation and reflection, and from this passion rather than from judgment\u2019 \u201d (People v. Beltran (2013) 56 Cal.4th 935, 957 [157 Cal.Rptr.3d 503, 301 P.3d 1120]) and kills while under the actual influence of such a passion (People v. Enraca, supra, 53 Cal.4th at p. 759). Duff is correct that if substantial evidence supported either theory, the trial court was obligated to agree to instruct on voluntary manslaughter.\nThe difficulty for Duff is that, as the People argued below and reiterate here, there simply was no such evidence. Duff points to the confession that was played for the jury, in which he described Riley and Hagan pulling multiple guns on him and then opening fire, and argues the jury could have credited that version of events. Indeed it could have. But the problem, at least for finding an obligation to instruct on voluntary manslaughter, is that if believed, Duff\u2019s version could lead only to a finding of justifiable homicide and a total acquittal on the murder charges. The use of lethal force in response to being shot at repeatedly is perfect self-defense and no crime. (\u00a7 197; People v. Randle (2005) 35 Cal.4th 987, 991 [28 Cal.Rptr.3d 725, 111 P.3d 987].) While Duff argues the jury could have concluded he unreasonably misperceived the situation, the circumstances described by Duff leave no room for such shades of gray. Either he was attacked, in which case he committed no crime, or he was not, in which case he committed murder.\nAccordingly, it was not state law error to refuse an instruction on voluntary manslaughter. Nor was it federal constitutional error. As Duff concedes, the constitutional requirement that capital juries be instructed on lesser included offenses extends only to those lesser included offenses supported by substantial evidence. (See Schad v. Arizona (1991) 501 U.S. 624, 648 [115 L.Ed.2d 555, 111 S.Ct. 2491]; Beck v. Alabama, supra, 447 U.S. at p. 627.) Here, none were.\n7. Cumulative Guilt Phase Error\nDuff contends that if we do not conclude that any individual guilt phase error mandates guilt phase reversal, the cumulative effect of the guilt phase errors nevertheless rendered his trial unreliable. We disagree. We have identified no errors. In the absence of error, there is nothing to cumulate.\nC. Penalty Phase Issues\n1. Use of Prior Crimes\nThe People\u2019s penalty phase case consisted principally of evidence of Duff\u2019s extensive history of prior violent criminal acts. (\u00a7 190.3, factor (b).) Duff objected on Evidence Code section 352 and unspecified state and federal constitutional grounds but conceded that settled law permitted the People to prove these acts. The trial court deemed Duff\u2019s objection a continuing one and over his objection permitted extensive evidence of past bad acts.\nOn appeal, relying on a panoply of out-of-state decisions, Duff asks that we reconsider whether the Legislature\u2019s decision to permit penalty phase consideration of unrelated, and occasionally unadjudicated, violent acts renders death penalty decisions unreliable in violation of the Eighth and Fourteenth Amendments of the federal Constitution. We have repeatedly reaffirmed the constitutionality of section 190.3, factor (b), and Duff offers no persuasive reason to overrule these decisions. (See, e.g., People v. Tally, supra, 54 Cal.4th at p. 1029; People v. Thomas, supra, 51 Cal.4th at p. 504; People v. Booker, supra, 51 Cal.4th at pp. 187-188; People v. Taylor (2010) 48 Cal.4th 574, 651-652 [108 Cal.Rptr.3d 87, 229 P.3d 12].)\nIn the alternative, Duff argues that even if section 190.3, factor (b) is not per se unconstitutional, to permit the jury to consider together a series of unrelated incidents from a 20-year time period that in some instances resulted in neither charges nor convictions was unconstitutional. The objection that the incidents involved neither charges nor convictions is a rephrasing of the objection to the Legislature\u2019s decision to permit consideration of unadjudicated conduct under factor (b) and fails in light of our long-standing reaffirmation of the constitutionality of that factor. As for the objection that the incidents were unrelated and covered a long timeframe, \u201c[t]he purpose of section 190.3, factor (b) \u2018is to enable the jury to make an individualized assessment of the character and history of a defendant to determine the nature of the punishment to be imposed.\u2019 \u201d (People v. Tully, supra, 54 Cal.4th at p. 1029.) If permitting the jury to consider the presence or absence of a prior pattern of violent misfeasance is constitutional, it surely is no less constitutional to allow the jury to consider that factor where, as here, a defendant has compiled a two-decade history of widespread and varied misconduct. While some acts the People relied on were far removed in time from the double homicide, \u201c[r]emoteness of the prior criminal conduct affects the weight of the evidence, not its admissibility.\u201d (People v. Tafoya, supra, 42 Cal.4th at p. 186.)\nFinally, Duff argues that admission of his extensive prior misconduct was enormously prejudicial and thus unfairly skewed the jury\u2019s deliberations. But \u201c \u2018[p]rejudice\u2019 in the context of Evidence Code section 352 is not synonymous with \u2018damaging\u2019: it refers to evidence that poses an intolerable risk to the fairness of the proceedings or reliability of the outcome. [Citation.] Although the evidence of his violent criminal activity likely was damaging to defendant, he fails to demonstrate how it was unduly prejudicial\u2014the inference that he was dangerous was entirely proper. Accordingly, the trial court did not abuse its discretion in admitting this evidence, and defendant\u2019s constitutional rights were not violated.\u201d (People v. Booker, supra, 51 Cal.4th at p. 188.)\n2. Exclusion of Rebuttal Victim Impact Evidence\nBefore the start of the penalty phase, Duff moved to be permitted to introduce rebuttal evidence of the decedents\u2019 character in the event the People presented positive victim impact evidence. The trial court agreed that to the extent testimony opened the door to rebuttal, Duff should be permitted to introduce evidence to controvert the picture the prosecution presented of Hagan and Riley and the impact their deaths had on others. For example, testimony that Riley\u2019s children were saddened by his death would, in the court\u2019s eyes, open the door to testimony that the children had witnessed and/or been the victims of domestic violence at Riley\u2019s hand.\nIn light of the court\u2019s comments, and to avoid extensive rebuttal, the People confined their victim impact evidence to testimony that (1) Riley was survived by grandparents, his mother, a sister, and two children; (2) it had been difficult for his children\u2019s mother, Marie Correa, to tell them of his death; (3) Hagan was likewise survived by family; and (4) Hagan\u2019s best friend had fainted when she learned of his death and had kept some of his ashes and devoted a shelf in her bedroom to mementos of him. The People also introduced without comment a photo of Correa with her and Riley\u2019s two daughters. Given an offer of proof as to this abbreviated presentation, the trial court precluded Duff from presenting evidence of Riley\u2019s and Hagan\u2019s criminal backgrounds and child support delinquency histories, Riley\u2019s domestic violence toward Correa, and a statement by Correa reflecting her relief that Riley was dead. Duff contends this exclusion violated his right to rebut favorable victim impact testimony.\nIn the course of concluding that victim impact evidence is constitutionally admissible at the penalty phase of a capital trial, the United States Supreme Court has recognized that a defendant necessarily will have the opportunity to cross-examine prosecution witnesses and submit contrary relevant evidence. (Payne v. Tennessee (1991) 501 U.S. 808, 823 [115 L.Ed.2d 720, 111 S.Ct. 2597]; see Booth v. Maryland (1987) 482 U.S. 496, 506-507 [96 L.Ed.2d 440, 107 S.Ct. 2529], overruled on other grounds in Payne, at\np. 830; Booth, at p. 518 (dis. opn. of White, J.).) The right to present rebuttal, or \u201cnegative,\u201d victim impact evidence to counter evidence offered by the People in their penalty case-in-chief is subject to the usual evidentiary constraints that proffered evidence must be relevant and more probative than prejudicial. (Evid. Code, \u00a7\u00a7 350, 352; People v. Rogers (2013) 57 Cal.4th 296, 346 [159 Cal.Rptr.3d 626, 304 P.3d 124]; People v. Harris (2005) 37 Cal.4th 310, 352-353 [33 Cal.Rptr.3d 509, 118 P.3d 545]; see Harris, at pp. 374-375 (conc. & dis. opn. of Kennard, J.) [agreeing that proffered evidence must be relevant while disagreeing with the majority over whether the specific excluded evidence actually was].) We review the trial court\u2019s decision to limit or exclude rebuttal victim impact evidence on these grounds for abuse of discretion. (Rogers, at p. 347; see People v. Ramos (2004) 34 Cal.4th 494, 528 [21 Cal.Rptr.3d 575, 101 P.3d 478].)\nThe admissibility of evidence as rebuttal depends on the nature of the case-in-chief evidence a defendant seeks to rebut. In People v. Boyette (2002) 29 Cal.4th 381, 444-445 [127 Cal.Rptr.2d 544, 58 P.3d 391], for example, we upheld exclusion of evidence of the murder victims\u2019 poor character the defendant sought to introduce as a rejoinder to testimony from survivors about their grief and love for the decedents. Payne endorses the introduction of two types of impact evidence: (1) \u201c \u2018a quick glimpse of the life\u2019 which a defendant \u2018chose to extinguish\u2019 \u201d and (2) a demonstration of \u201cthe loss to the victim\u2019s family and to society which has resulted from the defendant\u2019s homicide\u201d (Payne v. Tennessee, supra, 501 U.S. atp. 822)\u2014what may be thought of as decedent impact evidence and survivor impact evidence. The prosecution in Boyette limited itself to survivor impact evidence in a way that left no misleading portrayal of the victim to which the defendant\u2019s proffered negative impact evidence might offer relevant rebuttal; evidence of the victims\u2019 character could do nothing to rebut the genuineness of any loss felt by survivors. (Boyette, at p. 445.)\nThe same is true here. The prosecution called only two impact witnesses, Marie Correa, the mother of Riley\u2019s daughters, and Makala Tiller, a friend of Hagan\u2019s. In light of the trial court\u2019s rulings, the prosecutor omitted any questions that might have shed light on Riley\u2019s and Hagan\u2019s character, questions the trial court made clear would have permitted the defense to elicit testimony about their criminal conduct, Riley\u2019s domestic abuse of Correa, and the mixed emotions Correa felt at the death of her abuser. Given the very limited scope of the actual direct examination, it was not an abuse of discretion for the trial court to foreclose the defense from cross-examining Correa or Tiller about domestic violence, child support, or criminal conduct. There was no misleading favorable testimony of Riley\u2019s and Hagan\u2019s roles as family men to discredit, nor was there testimony about survivors\u2019 reactions that painted for the jury a misleadingly incomplete picture. (See Evid. Code, \u00a7\u00a7 761, 773, subd. (a) [scope of cross-examination limited by scope of direct examination]; People v. Farley (2009) 46 Cal.4th 1053, 1109 [96 Cal.Rptr.3d 191, 210 P.3d 361] [cross-examination permitted to disabuse jury of misimpressions created by direct examination].)\nDuff relies heavily on People v. Rogers, supra, 57 Cal.4th 296, in which the trial court, while excluding some evidence as cumulative or unduly prejudicial, permitted considerable defense evidence concerning the murder victim\u2019s character. Rogers is inapposite; there, unlike here, the prosecution introduced extensive victim impact evidence relating not only to survivor impact but to the decedent\u2019s character, and the defendant was accordingly afforded an opportunity to respond. (Id. at pp. 345-347.)\n3. Prosecutorial Misconduct: Penalty Phase Closing Argument\nDuring penalty phase closing argument, the prosecution sought to defuse defense expert testimony that Duff had a diminished IQ by illustrating the sorts of books he read. Defense mental health expert Dr. Albert Globus had testified on direct examination that Duff read novels and the Bible; on cross-examination, the prosecutor elicited the names of particular authors Duff read, including Stephen King, John Grisham, Dean Koontz, and L. Ron Hubbard. During closing, the prosecutor displayed to the jury five novels and told the jury, \u201cAll these books, not necessarily these particular books, but are books that apparently the defendant likes to read. Doctor Globus told us that although [Duff] has this incredibly low IQ, he actually enjoys reading novels. He reads these. [1] He reads\u2014some of his favorite authors are, I don\u2019t know, Grisham, Dean Koontz, and Stephen King, and I think he mentioned L. Ron Hubbard also. Books he reads, books he can digest, books he has the mental capacity to understand. [][] Probably some or all of you have read some of these authors, and what does that tell us[?] Really when you come down to it, what does it say about his IQ[?] So his IQ is 87, upper end of low normal. You make whatever you want out of his IQ.\u201d\nDuring a break between the prosecutor\u2019s and defendant\u2019s closing arguments, Duff\u2019s counsel was for the first time able to see what books the prosecutor had shown the jury: Dean Koontz\u2019s Mr. Murder (1993) and The Bad Place (1990), John Grisham\u2019s The Runaway Jury (1996) and The Client (1993), and Stephen King\u2019s The Tommylcnockers (1987). Counsel moved for a mistrial, arguing that the titles prejudiced Duff and could impermissibly sway the jury. The prosecutor argued that he had cautioned these were not necessarily books Duff himself had read, and offered that the court could admonish the jury again that there should be no suggestion Duff had ever read the particular books the prosecutor showed them. The trial court took the matter under advisement, simultaneously asking defense counsel to mull over the prosecution\u2019s suggested admonishment.\nAfter a break, the court denied the motion for mistrial. Off the record, defense counsel apparently elected to waive admonishment in lieu of an opportunity to directly respond during closing argument, and the court made note of the fact that at the defense\u2019s request the five novels remained on display in the courtroom. During closing, Duff\u2019s counsel addressed the issue and dismissed the display of books as a cheap gimmick: \u201cThen he brings up some books here. And I have to comment on them because they were sitting here for about an hour. And first one\u2014Dean Koontz, The Bad Place\u2014a good choice for the type of environment here. The Bad Place. What we found out during the break here\u2014during lunch\u2014is\u2014all of these books here didn\u2019t come from Mr. Duff obviously\u2014they came from [the prosecutor\u2019s] personal library. So he\u2019s\u2014these selections have nothing to do with Mr. Duff. But they\u2019re interesting choices by [the prosecutor] to put them here. So we have The Bad Place. We have Mr. Murder by Dean Koontz. We have The Runaway Jury by John Grisham. And we have Stephen King The Tommyknockers anyway.[] [][] I will say this. What you hear the doctor say was when he talked to Mr. Duff he was reading the Bible. We don\u2019t have the Bible here. But\u2014I guess that that should have been placed on there by [the prosecutor]. But he chose not to. But this is what you do\u2014kind of bolster your case with little bitty gimmicks here\u2014the books, the photos, which really don\u2019t have much to do with anything.\u201d\nFollowing the death verdict, Duff moved for a new trial based, inter alia, on the display of the five novels to the jury. The trial court denied the motion, explaining that Duff had waived the issue by electing to respond rather than have the jury admonished and, in any event, \u201cthe remedy that was employed was far more effective than whatever curative instruction I would have given, and that was essentially to embarrass [the prosecutor] in front of the jury by having to admit that all of those books were his.\u201d\nOn appeal, Duff contends that the prosecutor\u2019s misconduct deprived him of a fair trial and a reliable penalty determination. (U.S. Const., 8th & 14th Amends.) The claim is forfeited. Although Duff timely objected, he thereafter elected to forego a curative instruction in favor of highlighting the prosecutor\u2019s argument and using it to argue that the case for death rested on a series of gimmicks. To preserve a claim of prosecutorial misconduct, a defendant must seek a jury admonition or show one would have been futile. (E.g., People v. Blacksher, supra, 52 Cal.4th at p. 829; People v. Ledesma, supra, 39 Cal.4th at p. 726.) Notwithstanding Duff\u2019s \u201c \u2018ritual incantation\u2019 [citation] that a jury admonition would have made no difference, [he] identifies nothing in the record to suggest this would have been so.\u201d (People v. Gamache, supra, 48 Cal.4th at p. 388.)\nIn any event, we find no prejudicial misconduct. \u201cA prosecutor commits misconduct when his or her conduct either infects the trial with such unfairness as to render the subsequent conviction a denial of due process, or involves deceptive or reprehensible methods employed to persuade the trier of fact.\u201d (People v. Avila, supra, 46 Cal.4th at p. 711.) A defendant asserting prosecutorial misconduct must further establish a reasonable likelihood the jury construed the remarks in an objectionable fashion. (People v. Gonzales and Soliz (2011) 52 Cal.4th 254, 305 [128 Cal.Rptr.3d 417, 256 P.3d 543].)\nThe prosecutor\u2019s choice of books to show the jury was ill-considered. To make the point that Duff was not especially low functioning by illustrating the sorts of \u201cbooks that apparently the defendant likes to read,\u201d the prosecutor surely could have found novels with titles less inflammatory and potentially prejudicial than Mr. Murder. But the prosecutor simultaneously cautioned that these particular books were not necessarily ones Duff had read, and defense counsel reiterated that the chosen novels were from the prosecutor\u2019s personal collection, not Duff\u2019s. The prosecutor\u2019s remarks are neither reprehensible nor alone a due process violation and, considering everything that was said during closing argument, there is no reasonable likelihood the jury was deceived into believing Duff in fact read any of the proffered books.\n4. Cumulative Prejudice from Errors\nDuff contends that even if we do not conclude any individual error mandates reversal, the cumulative effect of the penalty phase errors requires reversal of the penalty verdict. We disagree. We have identified no errors; there is, accordingly, nothing to cumulate.\n5. Constitutionality of California\u2019s Death Penalty\nFinally, Duff raises a series of challenges to the constitutionality of California\u2019s death penalty. We have rejected each before. As Duff offers no compelling arguments in favor of reconsidering any of these rulings, we do so again.\nCalifornia\u2019s special circumstances (see \u00a7 190.2) adequately narrow the class of murderers eligible for the death penalty. (People v. Williams (2013) 56 Cal.4th 165, 201 [152 Cal.Rptr.3d 778, 294 P.3d 1005]; People v. Homick, supra, 55 Cal.4th at p. 903; People v. Tully, supra, 54 Cal.4th at p. 1067; People v. Lightsey (2012) 54 Cal.4th 668, 731 [143 Cal.Rptr.3d 589, 279 P.3d 1072]; People v. McDowell (2012) 54 Cal.4th 395, 443 [143 Cal.Rptr.3d 215, 279 P.3d 547]; People v. Streeter (2012) 54 Cal.4th 205, 267 [142 Cal.Rptr.3d 481, 278 P.3d 754].) While Duff contends the ballot arguments in favor of Proposition 7, \u201cwhich became the current death penalty law, reflect an intent to expose every murderer to the death penalty, we have rejected that assertion as a misconstruction of the ballot arguments.\u201d (People v. Bonilla, supra, 41 Cal.4th at p. 358; see People v. Gray (2005) 37 Cal.4th 168, 237, fn. 23 [33 Cal.Rptr.3d 451, 118 P.3d 496].)\nSection 190.3, factor (a), which permits the jury to consider the circumstances of the crime in deciding whether to impose the death penalty, does not license the arbitrary and capricious imposition of the death penalty. (Tuilaepa v. California (1994) 512 U.S. 967, 975-976 [129 L.Ed.2d 750, 114 S.Ct. 2630]; People v. Williams, supra, 56 Cal.4th at p. 201; People v. Valdez (2012) 55 Cal.4th 82, 179 [144 Cal.Rptr.3d 865, 281 P.3d 924]; People v. Tully, supra, 54 Cal.4th at p. 1067; People v. Thomas (2012) 54 Cal.4th 908, 949 [144 Cal.Rptr.3d 366, 281 P.3d 361]; People v. Lightsey, supra, 54 Cal.4th at p. 731; People v. McDowell, supra, 54 Cal.4th at p. 443.)\nNothing in the state or federal Constitution requires that the penalty jury (1) issue written findings, (2) unanimously agree on any particular aggravating circumstances, (3) find true beyond a reasonable doubt any particular aggravating circumstances, or (4) find that aggravating factors outweigh mitigating factors beyond a reasonable doubt. (E.g., People v. Homick, supra, 55 Cal.4th at pp. 902-903; People v. Valdez, supra, 55 Cal.4th at pp. 179-180; People v. Gamache, supra, 48 Cal.4th at pp. 406-407; People v. Loker (2008) 44 Cal.4th 691, 755 [80 Cal.Rptr.3d 630, 188 P.3d 580].) Duff argues we should reconsider these conclusions in light of Apprendi v. New Jersey (2000) 530 U.S. 466 [147 L.Ed.2d 435, 120 S.Ct. 2348], Ring v. Arizona (2002) 536 U.S. 584 [153 L.Ed.2d 556, 122 S.Ct. 2428], Blakely v. Washington (2004) 542 U.S. 296 [159 L.Ed.2d 403, 124 S.Ct. 2531], and Cunningham v. California (2007) 549 U.S. 270 [166 L.Ed.2d 856, 127 S.Ct. 856], cases which impose procedural constraints on factfinding in criminal trials, but we have repeatedly explained that this argument rests on a misconception of the nature of California\u2019s capital sentencing scheme. \u201c[T]he ultimate determination of the appropriateness of the penalty and the subordinate determination of the balance of evidence of aggravation and mitigation do not entail the finding of facts that can increase the punishment for murder of the first degree beyond the maximum otherwise prescribed. Moreover, those determinations do not amount to the finding of facts, but rather constitute a single fundamentally normative assessment [citations] that is outside the scope of\u2019 Apprendi and its progeny. (People v. Griffin (2004) 33 Cal.4th 536, 595 [15 Cal.Rptr.3d 743, 93 P.3d 344]; accord, People v. Lightsey, supra, 54 Cal.4th at p. 731; People v. McDowell, supra, 54 Cal.4th at p. 443; People v. Jones, supra, 54 Cal.4th at p. 86; People v. Taylor, supra, 47 Cal.4th at p. 899; Loker, at p. 755.)\nThe inclusion of the adjectives \u201cextreme\u201d and \u201csubstantial\u201d in the list of mitigating factors (\u00a7 190.3, factors (d) & (g)) does not impermissibly constrict consideration of mitigating evidence and is consistent with the state and federal Constitutions. (People v. Valdez, supra, 55 Cal.4th at p. 180; People v. Tully, supra, 54 Cal.4th at pp. 1068-1069; People v. Thomas, supra, 54 Cal.4th at p. 949; People v. Lightsey, supra, 54 Cal.4th at pp. 731-732; People v. McDowell, supra, 54 Cal.4th at p. 444; People v. Hartsch (2010) 49 Cal.4th 472, 516 [110 Cal.Rptr.3d 673, 232 P.3d 663].) Nor was the trial court constitutionally required to instruct the jury that section 190.3\u2019s mitigating factors could be considered only as mitigating factors and that the absence of evidence supporting any one of them should not be viewed as an aggravating factor. (E.g., Lightsey, at p. 731; People v. Jones, supra, 54 Cal.4th at p. 87; People v. Gamache, supra, 48 Cal.4th at p. 406.)\nNeither the state nor the federal Constitution requires intercase proportionality review, also known as comparative proportionality review. (E.g., People v. Homick, supra, 55 Cal.4th at p. 903; People v. Valdez, supra, 55 Cal.4th at p. 180; People v. Tully, supra, 54 Cal.4th at p. 1068; People v. Thomas, supra, 54 Cal.4th at p. 950; People v. Lightsey, supra, 54 Cal.4th at p. 732; People v. McDowell, supra, 54 Cal.4th at p. 444.)\nConsideration by the jury of unadjudicated criminal conduct at the penalty phase does not violate the state or federal Constitution. (E.g., People v. Tully, supra, 54 Cal.4th at p. 1068; People v. Thomas, supra, 54 Cal.4th at p. 949; People v. Streeter, supra, 54 Cal.4th at p. 268; People v. Loker, supra, 44 Cal.4th at p. 756.) Nor do Apprendi v. New Jersey, supra, 530 U.S. 466 and its progeny require the jury to unanimously agree beyond a reasonable doubt on any prior criminal conduct before considering it; as previously discussed, these decisions are inapplicable to California\u2019s capital sentencing scheme. (People v. Bonilla, supra, 41 Cal.4th at p. 359; People v. Griffin, supra, 33 Cal.4th at p. 595; People v. Snow (2003) 30 Cal.4th 43, 126, fn. 32 [132 Cal.Rptr.2d 271, 65 P.3d 749].)\nThe equal protection clause does not require California to include in its capital sentencing scheme every procedural protection provided noncapital defendants. (People v. Valdez, supra, 55 Cal.4th at p. 180; People v. Tully, supra, 54 Cal.4th at p. 1069; People v. Thomas, supra, 54 Cal.4th at p. 949; People v. Lightsey, supra, 54 Cal.4th at p. 732; People v. Loker, supra, 44 Cal.4th at p. 756; People v. Manriquez, supra, 37 Cal.4th at p. 590.)\nDuff\u2019s \u201cargument that the use of capital punishment \u2018as regular punishment for substantial numbers of crimes\u2019 violates international norms of human decency and hence the Eighth Amendment to the United States Constitution fails, at the outset, because California does not employ capital punishment in such a manner. The death penalty is available only for the crime of first degree murder, and only when a special circumstance is found true; furthermore, administration of the penalty is governed by constitutional and statutory provisions different from those applying to \u2018regular punishment\u2019 for felonies. (E.g., Cal. Const., art. VI, \u00a7 11; \u00a7\u00a7 190.1-190.9, 1239, subd. (b).)\u201d (People v. Demetrulias (2006) 39 Cal.4th 1, 43-44 [45 Cal.Rptr.3d 407, 137 P.3d 229]; accord, People v. Homick, supra, 55 Cal.4th at p. 904; People v. Tully, supra, 54 Cal.4th at p. 1070; People v. Thomas, supra, 54 Cal.4th at p. 950; People v. Lightsey, supra, 54 Cal.4th at p. 732.)\nFinally, Duff\u2019s sentence is not so disproportionate to his conduct, the double murders of a virtual stranger and a second man over a possible $100 debt, as to shock the conscience, offend fundamental notions of human dignity, and violate the Eighth and Fourteenth Amendments. (See People v. Rountree, supra, 56 Cal.4th at pp. 860-862; People v. Loker, supra, 44 Cal.4th at p. 756.)\nWe thus adhere to our conclusion that, whether considered individually or collectively, the aspects of California\u2019s death penalty Duff challenges do not render it unconstitutional.\nHI. Disposition\nThe trial court\u2019s judgment is affirmed in its entirety.\nBaxter, J., Chin, J., Corrigan, J., Liu, J., and McConnell, J., concurred.\nAll further unlabeled statutory references are to the Penal Code.\nDuff later confirmed the .357 was a gun he had taken from Riley.\nAnother witness also saw a man matching Duff\u2019s description taking target practice in the backyard of the Sanchez/Payne house the day before the shootings.\nUnder Witherspoon, supra, 391 U.S. 510 and Witt, supra, 469 U.S. 412, prospective jurors may be excused for cause based on their views on the death penalty if the jurors\u2019 attitudes will prevent or substantially impair the performance of their duties as jurors in accordance with their instructions and oath. (People v. Wilson (2008) 44 Cal.4th 758, 786 [80 Cal.Rptr.3d 211, 187 P.3d 1041].)\nIndeed, when Prospective Juror D.L. was excused by stipulation at the same time as two other jurors, the trial court noted that different unspecified reasons lay behind the excusal of each juror.\nDuff is Caucasian. Hagan was also Caucasian. Riley was African-American.\nThe question, coming at the very tail of the selection process, was apparently posed with some impatience, because the trial court rejoined, \u201cMr. [T.j, there is an end.\u201d\nWe note as well that on the morning of the final day of jury selection, when T.M. failed to appear, the trial court offered the parties a choice between recessing for the day, pressing on with a placeholder in T.M.\u2019s seat to indicate her continuing provisional inclusion on the jury, or summary dismissal of T.M. Had the prosecution been looking for any pretextual excuse to dismiss T.M., it could have availed itself of the opportunity to lobby for her summary dismissal at that point. The prosecution did not, electing instead to carry on with a placeholder, until it ultimately exercised one of its peremptories to excuse T.M.\nFor the first time in his reply brief, Duff argues that the failure to conduct further tests on the car in the six months or more it sat in a junk lot was ineffective assistance of counsel. It is rarely appropriate to resolve an ineffective assistance claim on direct appeal (People v. Mendoza Tello (1997) 15 Cal.4th 264, 266-267 [62 Cal.Rptr.2d 437, 933 P.2d 1134]); we certainly will not do so where, as here, the claim is omitted from the opening brief and thus waived (People v. Barragan (2004) 32 Cal.4th 236, 254, fn. 5 [9 Cal.Rptr.3d 76, 83 P.3d 480]; Varjabedian v. City of Madera (1977) 20 Cal.3d 285, 295, fn. 11 [142 Cal.Rptr. 429, 572 P.2d 43]).\nPeople v. Williams, supra, 49 Cal.4th at page 427, quoting Davis v. United States (1994) 512 U.S. 452, 461 [129 L.Ed.2d 362, 114 S.Ct. 2350]; see Berghuis v. Thompkins (2010) 560 U.S. 370, 381 [176 L.Ed.2d 1098, 130 S.Ct. 2250] (If after waiver \u201can accused makes a statement concerning the right to counsel \u2018that is ambiguous or equivocal\u2019 or makes no statement, the police are not required to end the interrogation, [citation], or ask questions to clarify whether the accused wants to invoke his or her Miranda rights.\u201d).\nDuff\u2019s constitutional argument was preserved by his trial objection on state statutory grounds. (People v. Partida (2005) 37 Cal.4th 428, 435\u2014437 [35 Cal.Rptr.3d 644, 122 P.3d 765].)\nThe trial court did not specify whether it was provisionally excluding the photograph on grounds of irrelevance or prejudice. To the extent its ruling rested in part on a conclusion the photograph\u2019s prejudicial impact outweighed any slender relevance it might have, because of negative associations jurors might have concerning people with tattoos, that conclusion would not have been an abuse of discretion.\nThat testimony included Duff\u2019s statements to Femando that he was angry with Riley, that he planned to set him up, rob him, and kill him, and that he had in fact killed Riley and his friend, as well as her testimony that in the immediate aftermath of the shootings Duff never mentioned self-defense. (See ante, p. 536.)\nBefore trial, the juror asked to be excused for cause on health grounds, but the trial court at that point declined to excuse her.\nWhile Duff takes issue with the extent of the trial court\u2019s investigation, the Legislature has left the procedure for determining whether grounds for dismissal exist in the trial court\u2019s hands. (People v. Bonilla, supra, 41 Cal.4th at p. 350; People v. Dell (1991) 232 Cal.App.3d 248, 256 [283 Cal.Rptr. 361].) In cases of illness, a court is not obligated to call a juror into court to substantiate his or her excuse and can rely on phone calls instead. (Dell, at p. 256.) Moreover, in neither instance here does Duff dispute the facts surrounding the jurors\u2019 unavailability; instead, he takes issue with the trial court\u2019s chosen remedy. It is unclear what, if any, impact further investigation would have had on that choice.\nThe fifth novel, The Client, had only author John Grisham\u2019s name on the spine. Because the jury had not been exposed to the title, counsel at the court\u2019s direction did not disclose it.\nPresiding Justice of the Court of Appeal, Fourth Appellate District, Division One, assigned by the Acting Chief Justice pursuant to article VI, section 6 of the California Constitution.",
+        "type": "majority",
+        "author": "WERDEGAR, J."
+      },
+      {
+        "text": "KENNARD, Acting C. J.,\nConcurring.\u2014I concur in the majority opinion, except for its analysis concerning the exclusion of defendant\u2019s rebuttal victim impact evidence. (Maj. opn., ante, at pp. 564-566.) On that issue, I agree with the majority that the trial court did not err in excluding the evidence defendant offered to rebut the prosecution\u2019s victim impact evidence, a conclusion that is consistent with the views I expressed in my concurring and dissenting opinion in People v. Harris (2005) 37 Cal.4th 310, 372-376 [33 Cal.Rptr.3d. 509, 118 P.3d 545], Defendant here did not seek to introduce the evidence in question as evidence pertaining to the circumstances of the crime under Penal Code section 190.3, subdivision (a), and it was not relevant to rebut the prosecution\u2019s limited victim impact evidence. (People v. Harris, supra, 37 Cal.4th at pp. 372-376 (conc. & dis. opn. of Kennard, J.).)\nAppellant\u2019s petition for a rehearing was denied April 16, 2014. Cantil-Sakauye, C. J., did not participate therein.",
+        "type": "concurrence",
+        "author": "KENNARD, Acting C. J.,"
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Jonathan P. Milberg, under appointment by the Supreme Court, for Defendant and Appellant.",
+      "Edmund G. Brown, Jr., and Kamala D. Harris, Attorneys General, Dane R. Gillette, Chief Assistant Attorney General, Michael P. Farrell, Assistant Attorney General, Harry Joseph Colombo and John A. Bachman, Deputy Attorneys General, for Plaintiff and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. S105097.\nJan. 30, 2014.]\nTHE PEOPLE, Plaintiff and Respondent, v. DEWEY JOE DUFF, Defendant and Appellant.\nCounsel\nJonathan P. Milberg, under appointment by the Supreme Court, for Defendant and Appellant.\nEdmund G. Brown, Jr., and Kamala D. Harris, Attorneys General, Dane R. Gillette, Chief Assistant Attorney General, Michael P. Farrell, Assistant Attorney General, Harry Joseph Colombo and John A. Bachman, Deputy Attorneys General, for Plaintiff and Respondent."
+  },
+  "file_name": "0527-01",
+  "first_page_order": 565,
+  "last_page_order": 610
+}

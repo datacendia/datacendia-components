@@ -1,0 +1,68 @@
+{
+  "id": 12704676,
+  "name": "In re Paul SATTERFIELD, petitioner.",
+  "name_abbreviation": "In re Satterfield",
+  "decision_date": "2013-11-04",
+  "docket_number": "No. 13\u20136145.",
+  "first_page": "989",
+  "last_page": "989",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 989"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 396"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 525"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 21,
+    "char_count": 137,
+    "sha256": "13544efda3688ae6e5a7beab80381c7325e8afbf5a9438d403f51eb8baee1440",
+    "simhash": "1:c847440cbb996475",
+    "word_count": 22
+  },
+  "last_updated": "2021-08-27T20:47:23.363448+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Paul SATTERFIELD, petitioner."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of mandamus denied."
+    ],
+    "corrections": "",
+    "head_matter": "In re Paul SATTERFIELD, petitioner.\nNo. 13-6145.\nSupreme Court of the United States\nNov. 4, 2013.\nPetition for writ of mandamus denied."
+  },
+  "file_name": "0989-17",
+  "first_page_order": 989,
+  "last_page_order": 989
+}

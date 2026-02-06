@@ -1,0 +1,59 @@
+{
+  "id": 12194040,
+  "name": "Vann v. Oklahoma",
+  "name_abbreviation": "Vann v. Oklahoma",
+  "decision_date": "2012-03-26",
+  "docket_number": "No. 11-8399",
+  "first_page": "909",
+  "last_page": "909",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 909"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 71,
+    "ocr_confidence": 0.651,
+    "sha256": "2e67f6fce4831fb47b47f1dcaa060dad7302ecd3fa6d1280ddcc79e588fbbd60",
+    "simhash": "1:0413510ac72a2d4c",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Vann v. Oklahoma."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Okla. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8399.\nVann v. Oklahoma."
+  },
+  "file_name": "0909-04",
+  "first_page_order": 785,
+  "last_page_order": 785
+}

@@ -1,0 +1,61 @@
+{
+  "id": 4225875,
+  "name": "Bengis et al. v. United States",
+  "name_abbreviation": "Bengis v. United States",
+  "decision_date": "2011-05-23",
+  "docket_number": "No. 10-1208",
+  "first_page": "1016",
+  "last_page": "1017",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1016"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 26,
+    "char_count": 160,
+    "ocr_confidence": 0.59,
+    "sha256": "2e287c03bbeb1a33d2d0b216247a14fd02c0deea5e5356a713942a3da2865d07",
+    "simhash": "1:9d33da814b2efc48",
+    "word_count": 27
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Sotomayor took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Bengis et al. v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.\nJustice Sotomayor took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1208.\nBengis et al. v. United States."
+  },
+  "file_name": "1016-14",
+  "first_page_order": 1042,
+  "last_page_order": 1043
+}

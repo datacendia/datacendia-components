@@ -1,0 +1,59 @@
+{
+  "id": 12424739,
+  "name": "Jackson v. Barrow, Warden",
+  "name_abbreviation": "Jackson v. Barrow",
+  "decision_date": "2012-11-26",
+  "docket_number": "No. 12-6347",
+  "first_page": "1032",
+  "last_page": "1032",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1032"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.645,
+    "sha256": "e87a217708ef6bed7836b9df1771b693afd08706c211f83f5f2f57c5dcecc251",
+    "simhash": "1:9ee34a7b67aef26e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jackson v. Barrow, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6347.\nJackson v. Barrow, Warden."
+  },
+  "file_name": "1032-10",
+  "first_page_order": 1108,
+  "last_page_order": 1108
+}

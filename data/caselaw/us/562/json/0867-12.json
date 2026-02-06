@@ -1,0 +1,59 @@
+{
+  "id": 6025215,
+  "name": "Cogdell v. United States",
+  "name_abbreviation": "Cogdell v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11210",
+  "first_page": "867",
+  "last_page": "867",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 867"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.541,
+    "sha256": "c8e96142a4f129bcbcfbf6aa9459cf048b99f6166e0a74d9de12bbe8d8f3950a",
+    "simhash": "1:26e39a03ce8dbd3e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cogdell v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari deni\u00e9d.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11210.\nCogdell v. United States."
+  },
+  "file_name": "0867-12",
+  "first_page_order": 889,
+  "last_page_order": 889
+}

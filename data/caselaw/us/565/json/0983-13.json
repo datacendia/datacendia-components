@@ -1,0 +1,59 @@
+{
+  "id": 12230906,
+  "name": "Byrd v. Virginia",
+  "name_abbreviation": "Byrd v. Virginia",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. 11-6074",
+  "first_page": "983",
+  "last_page": "983",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 983"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 63,
+    "ocr_confidence": 0.672,
+    "sha256": "047e2300df3af167bffe8c8f3290c878bf68417d5fac43c7e1c0b538f7d716cd",
+    "simhash": "1:a8fb56692ec83e0a",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Byrd v. Virginia."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Va. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6074.\nByrd v. Virginia."
+  },
+  "file_name": "0983-13",
+  "first_page_order": 1065,
+  "last_page_order": 1065
+}

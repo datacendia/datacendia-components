@@ -1,0 +1,59 @@
+{
+  "id": 12246995,
+  "name": "Mettle v. Mettle",
+  "name_abbreviation": "Mettle v. Mettle",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-7817",
+  "first_page": "1211",
+  "last_page": "1211",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1211"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 9,
+    "char_count": 66,
+    "ocr_confidence": 0.642,
+    "sha256": "8a0afa390f4b1f3ef8ebcb371feb80f42b2a753b48f68a8392ee082958f95012",
+    "simhash": "1:82290ced190b678a",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mettle v. Mettle."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Wash. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7817.\nMettle v. Mettle."
+  },
+  "file_name": "1211-04",
+  "first_page_order": 1293,
+  "last_page_order": 1293
+}

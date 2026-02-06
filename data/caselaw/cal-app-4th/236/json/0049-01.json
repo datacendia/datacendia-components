@@ -1,0 +1,834 @@
+{
+  "id": 6840704,
+  "name": "THE PEOPLE, Plaintiff and Respondent, v. CHRISTOPHER JAMES LLOYD, Defendant and Appellant",
+  "name_abbreviation": "People v. Lloyd",
+  "decision_date": "2015-04-21",
+  "docket_number": "No. G049197",
+  "first_page": "49",
+  "last_page": "64",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "236 Cal. App. 4th 49"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Dist. Ct. App.",
+    "id": 9209,
+    "name": "District Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "397 U.S. 742",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12058257
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "747-748"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/397/0742-01"
+      ]
+    },
+    {
+      "cite": "400 U.S. 25",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12045986
+      ],
+      "weight": 3,
+      "year": 1970,
+      "pin_cites": [
+        {
+          "page": "31"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/400/0025-01"
+      ]
+    },
+    {
+      "cite": "18 P.3d 2",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "104 Cal.Rptr.2d 572",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 Cal.4th 19",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        265454
+      ],
+      "pin_cites": [
+        {
+          "page": "23"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/25/0019-01"
+      ]
+    },
+    {
+      "cite": "530 U.S. 466",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9413911
+      ],
+      "weight": 3,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "476"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/530/0466-01"
+      ]
+    },
+    {
+      "cite": "515 P.2d 273",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "110 Cal.Rptr. 329",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "10 Cal.3d 288",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2299822
+      ],
+      "pin_cites": [
+        {
+          "page": "305, fn. 15"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/10/0288-01"
+      ]
+    },
+    {
+      "cite": "460 P.2d 449",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "81 Cal.Rptr. 577",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "299 P.2d 243",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.2d 818",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4370142
+      ],
+      "pin_cites": [
+        {
+          "page": "836"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/46/0818-01"
+      ]
+    },
+    {
+      "cite": "199 P.3d 535",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "88 Cal.Rptr.3d 131",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Cal.4th 577",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3893098
+      ],
+      "pin_cites": [
+        {
+          "page": "595"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/45/0577-01"
+      ]
+    },
+    {
+      "cite": "137 Cal.Rptr. 652",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "67 Cal.App.3d 379",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2029280
+      ],
+      "pin_cites": [
+        {
+          "page": "384"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/67/0379-01"
+      ]
+    },
+    {
+      "cite": "548 U.S. 163",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3500516
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "180, fn. 7"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/548/0163-01"
+      ]
+    },
+    {
+      "cite": "755 P.2d 253",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "248 Cal.Rptr. 69",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Cal.3d 660",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4528807
+      ],
+      "pin_cites": [
+        {
+          "page": "695, fn. 15"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/45/0660-01"
+      ]
+    },
+    {
+      "cite": "184 P.2d 673",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "30 Cal.2d 560",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2233602
+      ],
+      "pin_cites": [
+        {
+          "page": "571"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/30/0560-01"
+      ]
+    },
+    {
+      "cite": "101 Cal.Rptr.3d 122",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "178 Cal.App.4th 1260",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3985865
+      ],
+      "pin_cites": [
+        {
+          "page": "1269"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/178/1260-01"
+      ]
+    },
+    {
+      "cite": "25 P.3d 618",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "108 Cal.Rptr.2d 409",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 Cal.4th 1046",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        265414
+      ],
+      "pin_cites": [
+        {
+          "page": "1069, fn. 13"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/25/1046-01"
+      ]
+    },
+    {
+      "cite": "229 P.3d 101",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "108 Cal.Rptr.3d 192",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "48 Cal.4th 691",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6050556
+      ],
+      "pin_cites": [
+        {
+          "page": "735"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/48/0691-01"
+      ]
+    },
+    {
+      "cite": "906 P.2d 2",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.Rptr.2d 165",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "11 Cal.4th 694",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1960658
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/11/0694-01"
+      ]
+    },
+    {
+      "cite": "338 P.3d 938",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "180 Cal.Rptr.3d 649",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "60 Cal.4th 659",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3991107
+      ],
+      "pin_cites": [
+        {
+          "page": "666-667"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/60/0659-01"
+      ]
+    },
+    {
+      "cite": "952 P.2d 673",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "72 Cal.Rptr.2d 656",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "17 Cal.4th 800",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1550671
+      ],
+      "pin_cites": [
+        {
+          "page": "821"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/17/0800-01"
+      ]
+    },
+    {
+      "cite": "189 P.3d 911",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "81 Cal.Rptr.3d 651",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 Cal.4th 1032",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3888539
+      ],
+      "pin_cites": [
+        {
+          "page": "1070-1071"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/44/1032-01"
+      ]
+    },
+    {
+      "cite": "270 Cal.Rptr. 573",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "221 Cal.App.3d 675",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        6036190
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/221/0675-01"
+      ]
+    },
+    {
+      "cite": "824 P.2d 1315",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "5 Cal.Rptr.2d 268",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "1 Cal.4th 1132",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1201306
+      ],
+      "pin_cites": [
+        {
+          "page": "1178"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/1/1132-01"
+      ]
+    },
+    {
+      "cite": "1 Cal.3d 122",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1183268
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/1/0122-01"
+      ]
+    },
+    {
+      "cite": "395 U.S. 238",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1771759
+      ],
+      "weight": 6,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/395/0238-01"
+      ]
+    },
+    {
+      "cite": "304 U.S. 458",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        10805
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "466"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/304/0458-01"
+      ]
+    },
+    {
+      "cite": "31 Cal.Rptr.2d 103",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 Cal.App.4th 1660",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1943988
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/25/1660-01"
+      ]
+    },
+    {
+      "cite": "48 Cal.Rptr.2d 421",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1994,
+      "opinion_index": 0
+    },
+    {
+      "cite": "41 Cal.App.4th 223",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4728431
+      ],
+      "year": 1994,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/41/0223-01"
+      ]
+    },
+    {
+      "cite": "53 Cal.Rptr.2d 256",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1995,
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Cal.App.4th 1242",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6044856
+      ],
+      "weight": 2,
+      "year": 1995,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/45/1242-01"
+      ]
+    },
+    {
+      "cite": "51 Cal.Rptr.2d 77",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1996,
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 Cal.App.4th 1073",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6044708
+      ],
+      "weight": 2,
+      "year": 1996,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/43/1073-01"
+      ]
+    },
+    {
+      "cite": "54 Cal.Rptr.2d 868",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1996,
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.App.4th 892",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4790554
+      ],
+      "weight": 2,
+      "year": 1996,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/47/0892-01"
+      ]
+    },
+    {
+      "cite": "22 Cal.Rptr.3d 861",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "weight": 2,
+      "year": 1996,
+      "opinion_index": 0
+    },
+    {
+      "cite": "125 Cal.App.4th 688",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1237832
+      ],
+      "weight": 2,
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "697"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/125/0688-01"
+      ]
+    },
+    {
+      "cite": "92 P.3d 841",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2005,
+      "opinion_index": 0
+    },
+    {
+      "cite": "15 Cal.Rptr.3d 262",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2005,
+      "opinion_index": 0
+    },
+    {
+      "cite": "33 Cal.4th 353",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        493344
+      ],
+      "weight": 4,
+      "year": 2005,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/33/0353-01"
+      ]
+    },
+    {
+      "cite": "519 P.2d 561",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "112 Cal.Rptr. 513",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "10 Cal.3d 857",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2299840
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/10/0857-01"
+      ]
+    },
+    {
+      "cite": "116 Cal.Rptr.3d 98",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "188 Cal.App.4th 1182",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6054242
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "1207"
+        },
+        {
+          "page": "1207"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/188/1182-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1415,
+    "char_count": 36452,
+    "ocr_confidence": 0.866,
+    "pagerank": {
+      "raw": 5.055231026182732e-08,
+      "percentile": 0.3169065069044566
+    },
+    "sha256": "fa232e7c4c4d73453c2b3657d89fbeaf8372df230322829d82ef8ec8a6dee1fa",
+    "simhash": "1:44e1b76115178124",
+    "word_count": 6019
+  },
+  "last_updated": "2024-02-27T23:08:12.832294+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Rylaarsdam, Acting P. J., and Aronson, J., concurred."
+    ],
+    "parties": [
+      "THE PEOPLE, Plaintiff and Respondent, v. CHRISTOPHER JAMES LLOYD, Defendant and Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nMOORE, J.\nA jury convicted defendant Christopher James Lloyd of assault with a deadly weapon (Pen. Code, \u00a7 245, subd. (a)(1)), and found he inflicted great bodily injury (Pen. Code, \u00a7 12022.7, subd. (a)) during the assault. Trial on defendant\u2019s five separate prior state prison commitments (Pen. Code, \u00a7 667.5, subd. (b)) was bifurcated from the trial on the assault. Defendant eventually admitted the five state prison priors more than seven months after the jury\u2019s verdict. The trial court sentenced defendant to 11 years in state prison, consisting of a three-year midterm on the assault, a consecutive three-year term on the great bodily injury enhancement, and five consecutive one-year terms imposed pursuant to Penal Code section 667.5, subdivision (b).\nWe find two prejudicial errors. First, the prosecutor repeatedly argued in ways that diminished the reasonable doubt standard. When the court overruled defendant\u2019s earlier objection, the prosecutor argued in rebuttal, \u201cWell, what does not guilty mean? It means he did not commit a crime.\u201d The prosecutor thus misstated the law, playing on a common misconception. Even though the jury was properly instructed with regard to reasonable doubt, we must conclude those instructions were weakened under the totality of the circumstances we find in this record. (People v. Vance (2010) 188 Cal.App.4th 1182, 1207 [116 Cal.Rptr.3d 98].) This was a close case. It was basically a swearing contest and there were credibility problems with witnesses on both sides. Had the prosecutor not misstated the law, there is a reasonable probability the jury would have returned a more favorable verdict for defendant.\nThe second critical error occurred when the court did not adequately advise defendant of his right to trial, to confront adverse witnesses, and to remain silent just prior to accepting defendant\u2019s admission of his prior convictions. Just before accepting defendant\u2019s admissions, the court only advised defendant of his right to a trial. The court did not advise defendant of his right to silence or to confront and cross-examine witnesses against him. According to the record on appeal, the last time defendant was advised of his Boykin-Tahl rights was when he was arraigned on the felony complaint, almost 15 months prior to his admission.\nTimely advisement of these fundamental rights has been the law in this state for more than 40 years. (In re Yurko (1974) 10 Cal.3d 857 [112 Cal.Rptr. 513, 519 P.2d 561].) But because trial courts have failed on a number of occasions to make the three clearly required advisements and obtain express waivers of each right, a line of cases involving incomplete Boykin-Tahl advisements has developed. (See People v. Mosby (2004) 33 Cal.4th 353 [15 Cal.Rptr.3d 262, 92 P.3d 841]; People v. Christian (2005) 125 Cal.App.4th 688 [22 Cal.Rptr.3d 861]; People v. Carroll (1996) 47 Cal.App.4th 892 [54 Cal.Rptr.2d 868]; People v. Torres (1996) 43 Cal.App.4th 1073 [51 Cal.Rptr.2d 77]; People v. Garcia (1996) 45 Cal.App.4th 1242 [53 Cal.Rptr.2d 256]; People v. Witcher (1995) 41 Cal.App.4th 223 [48 Cal.Rptr.2d 421]; People v. Howard (1994) 25 Cal.App.4th 1660 [31 Cal.Rptr.2d 103].) We publish this opinion to stress the need for trial courts to advise defendants of all their Boykin-Tahl rights and to obtain express waivers thereof. A defendant may knowingly and voluntarily enter an admission of a prior conviction even though the trial court failed to advise the defendant of the right to confront witnesses and to remain silent if a defendant \u201cjust\u201d or \u201cimmediately\u201d completed a jury trial at which he or she did not testify and counsel confronted witnesses on the defendant\u2019s behalf. (People v. Mosby, supra, 33 Cal.4th at pp. 364-365.) We conclude, however, such an advisement occurring more than seven months later does not mandate the same result. A few scant minutes spent by a trial court advising a defendant and obtaining an express waiver of the right to a jury trial, the right to confrontation, and the right to silence, saves hours of time for both the appellate court and the trial court when a case must be remanded because the record does not demonstrate the defendant\u2019s admission was entered freely and voluntarily. As Benjamin Franklin observed, \u201cAn ounce of prevention is worth a pound of cure.\u201d\nWe conclude defendant was prejudiced by these errors. We therefore reverse both defendant\u2019s conviction and his admissions of having served separate terms in state prison. The matter is remanded for retrial.\nI\nFACTS\nIn June 2012, defendant and Karli Kellogg lived with two other males in a room at a Motel 6 in Westminster. Kellogg was working as a prostitute at the time. She admitted engaging in an act of prostitution on June 22, 2012.\nOn June 22, 2012, the night before the charged incident, Derwin Kemp, the victim, had an encounter with Kellogg. Although she had only had contact with Kemp two or three times before that night, Kellogg said she felt uncomfortable around Kemp and did not like him because he is Black. Kellogg said Kemp is a pimp and wanted her to work for him. She said she told him she did not want to work for him. According to Kellogg, Kemp then threatened to \u201csmash [her] face in.\u201d Kellogg took the threat seriously.\nThe next afternoon, Jason Herbold and Amber Baird visited Kellogg and defendant in their motel room. Around 4:00 p.m., Kemp, his friend Stephan Rice, Rice\u2019s nephew Sean Joyner, and a girl named PJ went to the motel room uninvited. Kemp knew Kellogg would be there.\nKellogg told defendant about the previous night\u2019s encounter with Kemp. She felt she needed to avoid contact with Kemp \u201cat all costs\u201d and was afraid he would make good on his threat. She told defendant she wanted Kemp and his friends to leave. Although she slammed the door in Kemp\u2019s face, someone else in the room let Kemp and his friends in because it was thought what was being said at the front door was too loud.\nOnce inside the room, the dialogue between Kemp and Kellogg became heated. Kellogg testified Kemp said something demeaning about the money she was making. Kemp testified he did not threaten or insult Kellogg inside the motel room because \u201cshe\u2019s a cripple,\u201d but he admitted he might have called her names.\nDuring the argument, defendant went to Kellogg\u2019s defense. She told him to calm down but the dispute became physical.\nKemp testified he argued with Kellogg and PJ got involved in the argument. According to Kemp, he got in between the two women, and defendant pulled out a knife and swung it at him. Kemp ducked and ran into the bathroom. Baird was already in the bathroom and cried out for help. Defendant successfully pushed the door open and got Baird out of the bathroom. Kellogg said defendant entered the bathroom once he got Baird out. Kemp said defendant forced his way into the bathroom and as soon as he did, defendant \u201cliterally was like on me.\u201d Kemp said they fought and slipped on what Kemp thought was water, but turned out to be Ms own blood on the floor. He did not realize he had been stabbed. A female screamed, \u201cYou\u2019re bleeding from your neck.\u201d Kemp\u2019s friend Rice entered the bathroom and pulled defendant off Kemp. Rice then beat defendant into unconsciousness. Joyner, Rice\u2019s nephew, took Kemp to the hospital. Kemp\u2019s T-shirt and sweater were drenched with blood.\nOnce Kemp left, Kellogg entered the bathroom and saw defendant getting up from the floor. He told Kellogg he had blacked out. Kellogg helped defendant up. Defendant is larger than Kemp, but has multiple physical difficulties and was in a wheelchair during the trial.\nKemp spent the night in the hospital and was released the next day. He has a one-quarter-inch scar on his neck from the stab wound and suffers a loss of feeling in his neck.\nThe defense introduced Kemp\u2019s prior inconsistent statement made at the hospital. The officer who interviewed Kemp at the hospital recorded the interview. Kemp said he was in the motel room with his friend Robert, another male, and a 40-year-old White male whose name he did not know. He said there were also two females in the room, Jennifer and Clarissa. Kemp never mentioned Kellogg, Baird, Rice, Joyner, or PJ. Kemp said his friend Robert drove him to the hospital.\nKemp told the officer he met Clarissa and Jennifer about two weeks earlier in a bar in Fullerton. He said Robert had helped him move from Massachusetts. Kemp said he had been at the motel for about two weeks and that day he heard what sounded like fighting and saw shadows outside the room. He said one individual fighting was male and had a blonde ponytail. Kemp attempted to break up the fight. According to Kemp, he stepped into the fray, pushing the male with a ponytail. Then Kemp saw the male had a six-inch knife in his left hand. The male with the ponytail stabbed Kemp. The officer who obtained Kemp\u2019s statements sent other officers to the motel, where they received statements that conflicted with Kemp\u2019s version of events. The officer believed Kemp did not want to participate in the investigation.\nDetective Jeremy Hill also interviewed Kemp at the hospital and recorded the interview. Although Kemp mentioned his friend Robert again, he did not mention Rice, Joyner, or PJ as having been involved. He said Robert met Kellogg at the motel and he and Robert went to the motel to meet up with Kellogg and a female friend of hers for a date. He did not say he went to the motel in a car with two males and a female. He did say Kellogg and Jennifer got into an argument at some point and he got in between them to keep it from escalating into a physical confrontation. Kemp said an unidentified male attacked him. Hill said Kemp was evasive during the interview, but when Hill falsely told Kemp \u201cthe guy already confessed,\u201d Kemp\u2019s story changed, although he still seemed to be protecting his friends.\nDetective Michael Nguyen interrogated defendant after his arrest. Defendant said he did not intentionally stab anyone and Kemp fell on the knife during the altercation. Nguyen asked defendant how it started. Defendant said he and Kellogg were hanging out at the motel with Herbold and Baird when Kemp arrived at the room and called for Kellogg to come outside. He explained about Kemp having made a threat to smash Kellogg\u2019s face and having said he should have a female friend of his beat her up as well. Defendant added he saw Kemp take a backhanded swing at Kellogg. When Nguyen interviewed Kellogg, she did not mention being struck.\nDefendant said he told Kellogg to go back inside. He followed her and then Kemp barged in. When Kellogg backed away from Kemp in fear, defendant went after Kemp. Defendant said Kemp went into the bathroom. Baird was already in there. Defendant took out his folding knife because he thought he might have to \u201cjimmy\u201d the door to get Baird out if Kemp had locked the door. He had the knife in his right hand and pushed on the door with his left. Defendant said they got Baird out of the bathroom and he squeezed inside, where it was just him and Kemp. Kemp latched on to defendant\u2019s shoulder and they wrestled to the ground. Defendant said he may have hit his head on something and the knife fell. The next thing he knew, Kemp was bleeding. Defendant said he blacked out.\nAnother officer interviewed Baird and listened to a voicemail message defendant left on her cell phone. In the message left at 9:22 p.m. that night, defendant said, \u201cTell your man to get rid of everything. Tell my wife I love her and not to say nothing, don\u2019t say nada, and you don\u2019t know anything.\u201d\nAs stated above, trial on defendant\u2019s five state prison prior allegations was bifurcated from the trial on the assault. Seven months after he was convicted of the assault, and almost 15 months after he was advised of his constitutional rights, defendant waived his right to a trial on his state prison priors and admitted them.\nII\nDISCUSSION\nA. Defendant\u2019s Admission of His Prison Priors\nIn 1938, the United States Supreme Court held a defendant\u2019s guilty plea violates due process when the plea is not voluntary and knowing. (Johnson v. Zerbst (1938) 304 U.S. 458, 466 [82 L.Ed. 1461, 58 S.Ct. 1019].) More than 30 years later, the high court decided Boykin v. Alabama, supra, 395 U.S. 238. The court noted a defendant\u2019s guilty plea involves the waiver of certain federal constitutional rights, including the right against compulsory self-incrimination, the right to confront one\u2019s accusers, and the right to a trial. (Id. at p. 243.) In Boykin, the court held a finding of a voluntary waiver of those rights cannot be based on a silent record. (Ibid.)\nLater that year the California Supreme Court decided In re Tahl, supra, 1 Cal.3d 122. After reviewing the United States Supreme Court\u2019s recent decision in Boykin v. Alabama, supra, 395 U.S. 238, our Supreme Court held \u201cthe record must contain on its face direct evidence that the accused was aware, or made aware, of his right to confrontation, to a jury trial, and against self-incrimination, as well as the nature of the charge and the consequences of his plea. Each must be enumerated and responses elicited from the person of the defendant.\u201d (In re Tahl, supra, 1 Cal.3d at p. 132.) The Tahl court \u201cforewarned\u201d courts and prosecutors they would \u201cbe well advised to avoid any . . . uncertainty and to produce for the record the required information.\u201d (In re Tahl, at p. 133.)\nIn In re Yurko, supra, 10 Cal.3d 857, our Supreme Court held admission of a prior conviction requires the same waivers as a guilty plea. {Id. at p. 863.) Specifically, a defendant \u201cmust be advised of (1) specific constitutional protections waived by an admission of the truth of an allegation of prior felony convictions, and (2) those penalties and other sanctions imposed as a consequence of a finding of the truth of the allegation.\u201d (In re Yurko, at p. 860.) \u201cProper advisement and waivers of these rights in the record establish a defendant\u2019s voluntary and intelligent admission of the prior conviction. [Citations.]\u201d (People v. Mosby, supra, 33 Cal.4th at p. 356.)\nThose cases in which a defendant was not expressly advised of his or her trial rights (right to trial, confrontation, and right to remain silent) generally fall into two categories: those cases where the record is completely silent as to an advisement of rights; and those where the Boykin-Tahl advisements are incomplete. (See People v. Mosby, supra, 33 Cal.4th at pp. 361-364.) The present case falls into the latter category. Defendant was advised of his right to a court trial \u2014 he had already waived his right to a jury trial on the state prison prior allegations \u2014 but he was not advised of the remaining Boykin-Tahl rights.\nWhen an admission has been entered without an express waiver of one of the defendant\u2019s trial rights (confrontation or silence), \u201c[t]he pertinent inquiry\u201d is \u201cwhether \u2018the record affirmatively shows that [the admission] is voluntary and intelligent under the totality of the circumstances\u2019 [citation] applying \u2018the test used to determine the validity of guilty pleas under the federal Constitution.\u2019 [Citation.]\u201d (People v. Mosby, supra, 33 Cal.4th at p. 360.) Use of the totality of the circumstances test means California has rejected the rule that \u201c \u2018express admonitions and waivers\u2019 \u201d are the sine qua non of a knowing and intelligent waiver. (Id. at p. 361, quoting People v. Howard (1992) 1 Cal.4th 1132, 1178 [5 Cal.Rptr.2d 268, 824 P.2d 1315].)\nIn People v. Mosby, supra, 33 Cal.4th 353, the defendant was charged with selling cocaine. The information alleged he had suffered a prior conviction for possessing a controlled substance. (Id. at p. 356.) Trial on the prior conviction allegation was bifurcated from the trial on the substantive offense. (Id. at p. 357.) Immediately after the jury returned a guilty verdict, the defendant admitted the truth of the prior conviction allegation upon being advised by the court of his right to a court trial on the prior conviction allegation. The defendant had already waived his right to a jury trial. (Id. at pp. 357-358.) On appeal, the defendant contended his admission was not voluntary and intelligent because he was only advised of his right to a court trial; he was not advised an admission would require him to forgo his right to confrontation and his right to be free from compulsory self-incrimination. (Id. at pp. 356, 359.)\nThe Mosby court stated the issue to be decided as follows: \u201cWhen, immediately after a jury verdict of guilty, a defendant admits a prior conviction after being advised of and waiving only the right to trial, can that admission be voluntary and intelligent even though the defendant was not told of, and thus did not expressly waive, the concomitant rights to remain silent and to confront adverse witnesses?\u201d (People v. Mosby, supra, 33 Cal.4th at p. 356.) The court found the defendant\u2019s admission in that matter was voluntarily and intelligently made under the totality of the circumstances, despite the trial court\u2019s failure to expressly advise the defendant and obtain an express waiver of his right to confrontation and his right to be free from compulsory self-incrimination. {Ibid.) It reasoned that because the defendant entered his admission after he had \u201cjust undergone a jury trial at which he did not testify\u201d (id. at p. 364), the defendant \u201cnot only would have known of, but had just exercised, his right to remain silent at trial, forcing the prosecution to prove he had sold cocaine. And, because he had, through counsel, confronted witnesses at that immediately concluded trial, he would have understood that at a trial he had the right of confrontation.\u201d (Ibid.) Additionally, the court noted the defendant\u2019s prior conviction was the result of a guilty plea and he would have been advised of his Boykin-Tahl rights in the earlier case. (Id. at p. 365.)\nIn the present case, defendant was charged with having previously served five separate terms in state prison. (Pen. Code, \u00a7 667.5, subd. (b).) Trial on the prior conviction allegations was bifurcated from the trial on the assault charge and great bodily injury enhancement. Once the jury began its deliberations, defense counsel indicated defendant would waive his right to a jury trial and agree to a court trial on the issue of the state prison priors. On February 14, 2013, the jury returned its verdict, finding defendant guilty of the assault and the great bodily injury enhancement true. Defendant\u2019s admission of the five separate prior terms in state prison, however, was not made until more than seven months later on September 27, 2013. In the interim, defendant\u2019s trial counsel declared a conflict of interest and was relieved as counsel of record, new counsel was appointed to represent defendant, and the matter was continued a number of times for trial on the state prison priors and sentencing.\nViewing the totality of the circumstances, we conclude the record does not demonstrate defendant knowingly and intelligently waived his rights. As noted above, in People v. Mosby, supra, 33 Cal.4th 353, the Supreme Court stressed the defendant\u2019s admission \u201cimmediately\u201d followed a trial in which he had \u201cjusf\u2019 exercised his right to silence and his right to confrontation, such that it was reasonable to infer he would have been aware of the right to silence and confrontation at the time he entered his admission. (Id. at pp. 364-365.) Here, on the other hand, defendant\u2019s admission did not immediately follow his trial. In fact, the admission was not made until seven months later. Additionally, while the Mosby court also found the defendant\u2019s prior conviction, the result of an earlier guilty plea, lent support to an inference the defendant knew his rights when he entered his admission (id. at p. 365), the appellate record in this matter does not include information about how defendant was convicted on any of the five felony cases resulting in state prison commitment. We do not know whether they were the result of trials or guilty pleas. Consequently, \u201cwe cannot infer that he would have received advisements in his prior cases.\u201d (People v. Christian (2005) 125 Cal.App.4th 688, 697 [22 Cal.Rptr.3d 861].) On this record, defendant\u2019s experience in the criminal justice system does not permit a reasonable inference he was aware of and intended to waive his right to silence and confrontation by admitting the state prison priors.\nAlthough our Supreme Court was able to find the admission in People v. Mosby, supra, 33 Cal.4th 353, was voluntarily and intelligently made, the court made clear that \u201c[i]deally, a defendant admits a prior conviction only after receiving, and expressly waiving, standard advisements of the rights to a trial, to remain silent, and to confront adverse witnesses. [Citation.]\u201d (Id. at p. 365, fn. 3.)\nThe Attorney General\u2019s reliance on People v. Forrest (1990) 221 Cal.App.3d 675 [270 Cal.Rptr. 573] is misplaced. Contrary to the Attorney General\u2019s assertion, Forrest does not resolve the issue presented herein. There, in one act, the defendant pled guilty to the charged substantive offense and admitted having served two prior separate terms in state prison after the court expressly advised the defendant not only of his right to a trial, but also advised him and obtained an express waiver of his right to confront adverse witnesses and his right to silence. (Id. at p. 678, fn. 3.) The appellate court in Forrest rejected the defendant\u2019s contention the court should have separately advised the defendant an admission involved a waiver of the same constitutional rights involved with his guilty plea to the underlying offense, even though the guilty plea and admission took place at the same time. (Id. at pp. 678-679.) In the present case, and unlike the situation presented in Forrest, not only was there no guilty plea at the time defendant entered the admission of the state prison priors, there was no advisement by the court of the right of confrontation and the right to silence. Forrest has no application in the present case. It is inapposite.\nB. Prosecutorial Misconduct\n\u201c[0]n claims of prosecutorial misconduct our state law standards differ from those under the federal Constitution. With respect to the latter, conduct by the prosecutor constitutes prosecutorial misconduct only if it \u2018 \u201c \u2018 \u201cso infect[s] the trial with unfairness as to make the resulting conviction a denial of due process.\u201d \u2019 \u201d \u2019 [Citations.] By contrast, our state law considers it misconduct when a prosecutor uses \u2018 \u201c \u2018 \u201cdeceptive or reprehensible methods to attempt to persuade either the court or the jury.\u201d \u2019 \u201d \u2019 [Citations.] . . . \u2018A defendant\u2019s conviction will not be reversed for prosecutorial misconduct\u2019 that violates state law, however, \u2018unless it is reasonably probable that a result more favorable to the defendant would have been reached without the misconduct.\u2019 [Citation.]\u201d (People v. Wallace (2008) 44 Cal.4th 1032, 1070-1071 [81 Cal.Rptr.3d 651, 189 P.3d 911].) Bad faith on the prosecutor\u2019s part is not a prerequisite to finding prosecutorial misconduct under state law. (People v. Hill (1998) 17 Cal.4th 800, 821 [72 Cal.Rptr.2d 656, 952 P.2d 673].) In fact, our Supreme Court has stated, \u201c \u2018[T]he term prosecutorial \u201cmisconduct\u201d is somewhat of a misnomer to the extent that it suggests a prosecutor must act with a culpable state of mind. A more apt description of the transgression is prosecutorial error.\u2019 [Citation.]\u201d (People v. Centeno (2014) 60 Cal.4th 659, 666-667 [180 Cal.Rptr.3d 649, 338 P.3d 938].)\nDefendant contends the prosecutor committed misconduct by disparaging defense counsel. During her closing argument, the prosecutor told the jury \u201cnot to be fooled\u201d by defense counsel\u2019s \u201cdramatics\u201d and not to \u201cbe fooled by the big, loud voice.\u201d The prosecutor continued, \u201cHe got up here. He got loud. He got aggressive. And he\u2019s asking you to buy one tiny little piece of the puzzle that suits his interest, that tells the story the way he wants you to hear it. And, oh, just disregard everybody else. They are all liars. Just listen to the one little thing that my client said that I actually like. [\u00b6] That\u2019s what you heard up here. That\u2019s exactly what I am talking about here. Don\u2019t be fooled. Listen to all the evidence.\u201d The court overruled defendant\u2019s objections.\nA prosecutor commits misconduct when he or she \u201cattacks the integrity of defense counsel, or casts aspersions on defense counsel. [Citations.]\u201d (People v. Hill, supra, 17 Cal.4th at p. 832.) Still, a \u201c \u2018prosecutor has wide latitude in describing the deficiencies in opposing counsel\u2019s tactics and factual account. [Citations.]\u2019 [Citation.] For example, we concluded in People v. Medina (1995) 11 Cal.4th 694 [47 Cal.Rptr.2d 165, 906 P.2d 2] that it was unobjectionable for the prosecutor to state that \u2018 \u201cany experienced defense attorney can twist a little, poke a little, try to draw some speculation, try to get you to buy something ....\u201d\u2019 [Citation.] Similarly, the prosecutor\u2019s comments in the present case concerning defense counsel\u2019s speculation \u2018[did] not amount to a personal attack on counsel\u2019s integrity. [Citations.]\u2019 [Citation.] In addition, these comments focused the jury upon the evidence rather than distracting it from its task. [Citation.]\u201d (People v. Redd (2010) 48 Cal.4th 691, 735 [108 Cal.Rptr.3d 192, 229 P.3d 101].)\nWhile they may have indicated a lack of civility, the prosecutor\u2019s comments in this matter did not attack defense counsel\u2019s integrity or slander him. She said he had been loud and aggressive during his argument. Defense counsel admitted during his argument he was loud and upset. In saying the jury should not be fooled by defense counsel, the prosecutor explained what she meant: defense counsel was asking the jury to look at one piece of evidence favorable to the defense and to ignore the rest. The prosecutor\u2019s comment was not misconduct.\n\u201c \u2018[I]t is improper for the prosecutor to misstate the law generally [citation], and particularly to attempt to absolve the prosecution from its prima facie obligation to overcome reasonable doubt on all elements. [Citation.]\u2019 [Citation.]\u201d (People v. Hill, supra, 17 Cal.4th at pp. 829-830, overruled on another ground in Price v. Superior Court (2001) 25 Cal.4th 1046, 1069, fn. 13 [108 Cal.Rptr.2d 409, 25 P.3d 618].) A prosecutor\u2019s misstatement of the reasonable doubt standard is misconduct. (People v. Katzenberger (2009) 178 Cal.App.4th 1260, 1269 [101 Cal.Rptr.3d 122].)\nDefendant argues the prosecutor committed misconduct in closing argument by repeatedly misstating the reasonable doubt standard. During her argument to the jury, the prosecutor focused on the issue of self-defense and told the jury the law does not support a conclusion the defendant acted in self-defense. She argued, \u201cIf you find there is self-defense, you are saying his actions, the defendant\u2019s conduct was absolutely acceptable.\u201d This is a misstatement of the law. \u201c \u2018[I]t is not necessary for the defendant to establish self defense by evidence sufficient to satisfy the jury that the self defense was true, but if the evidence is sufficient to raise a reasonable doubt as to whether the defendant was justified, then he is entitled to an acquittal.\u2019 \u201d (People v. Sanchez (1947) 30 Cal.2d 560, 571 [184 P.2d 673].)\nThe court overruled defense counsel\u2019s timely objection to the prosecutor\u2019s statement. Defense counsel addressed the prosecutor\u2019s comments in his address to the jury, telling them to look at the court\u2019s instructions and they would see the law does not hold a determination of self-defense equates to concluding defendant\u2019s actions were \u201cacceptable.\u201d As stated above, the defendant is not obligated to prove he acted in self-defense or the defense of others before being entitled to a verdict of not guilty. The defendant need only point to evidence creating a reasonable doubt as to whether he acted in self-defense or in defense of Kellogg. (People v. Babbitt (1988) 45 Cal.3d 660, 695, fn. 15 [248 Cal.Rptr. 69, 755 P.2d 253]; accord, People v. Centeno, supra, 60 Cal.4th at p. 673 [prosecution duty to prove case beyond a reasonable doubt even if jury rejects the defense\u2019s evidence].)\nIn her rebuttal argument the prosecutor returned to the issue of self-defense and acquittal. \u201cAnd he talks about, you know, voting not guilty is not saying that you condone his behavior. Well, what does not guilty mean? It means you didn\u2019t commit a crime.\u201d This too was a misstatement of the law.\nA not guilty verdict is not the equivalent of finding the defendant innocent. (Kansas v. Marsh (2006) 548 U.S. 163, 180, fn. 7 [165 L.Ed.2d 429, 126 S.Ct. 2516].) A not guilty verdict simply means the prosecution did not prove the defendant\u2019s guilt beyond a reasonable doubt. Were the rule otherwise, there would be no need for Penal Code section 851.8. (See Pen. Code, \u00a7 851.8, subd. (e) [a judge may make a finding of factual innocence \u201c[wjhenever any person is acquitted of a charge and it appears to the judge presiding at the trial at which the acquittal occurred that the defendant was factually innocent of the charge\u201d (italics added)].) The prosecutor\u2019s statement played on a common misconception and misstated the law, but we cannot tell from this record whether the prosecutor deliberately intended to mislead the jury or the statements merely were the result of sloppiness or inattention.\nBy equating a not guilty verdict based on self-defense or defense of others as meaning the defendant must establish the defense to the point the jury considers his actions \u201cabsolutely acceptable\u201d and by arguing not guilty means the defendant is innocent, the prosecutor misstated the law, reducing the prosecution\u2019s burden of proof. As stated above, defendant is not required to establish self-defense or the defense of others to be entitled to a not guilty verdict; he need only raise a reasonable doubt. It ultimately is the prosecution\u2019s burden to prove the absence of justification beyond a reasonable doubt. (People v. Banks (1976) 67 Cal.App.3d 379, 384 [137 Cal.Rptr. 652].)\nThe jury was instructed pursuant to CALCRIM No. 3470 (self-defense and prosecution\u2019s burden to prove beyond a reasonable doubt the absence of defendant having acted in self-defense or defense of another). Had the court sustained defendant\u2019s objection and admonished the jury, we would normally presume the jury followed the court\u2019s admonishment and instruction. (People v. Bennett (2009) 45 Cal.4th 577, 595 [88 Cal.Rptr.3d 131, 199 P.3d 535].) That presumption, however, is ill suited to the present situation where the prosecutor misstated the law with the effect of lightening her burden of proof, defense counsel objected, and the court overruled the objection. The court\u2019s action in overruling the defense objection gave the appearance of condoning the prosecutor\u2019s interpretation of the reasonable doubt standard and the law on self-defense as it relates to a not guilty verdict. The court\u2019s action in overruling the defendant\u2019s objection aggravated the situation. (People v. Vance (2010) 188 Cal.App.4th 1182, 1207 [116 Cal.Rptr.3d 98].) In failing to cure the misstatement of law, the court placed its considerable weight behind the misstatement. In such a situation the court gives the jury two conflicting legal interpretations. Under these circumstances, we may not presume the jury followed the court\u2019s instruction when the court also signaled to the jury the prosecutor\u2019s misstatements of law were correct.\nMoreover, this was a close case that turned on the credibility of the civilian witnesses on each side. Both sides had credibility problems. Kemp, the alleged victim, gave multiple versions of what happened that night. Some people he named were not present at the incident, and there was evidence he was working as a pimp at the time of the incident. Kellogg, defendant\u2019s girlfriend at the time, was impeached with her activity as a prostitute. She testified Kemp threatened her the night before the incident when she refused to work as a prostitute for him, and that she told defendant about the threat. Additionally, Kemp testified he argued with Kellogg after he entered her motel room. There is a reasonable likelihood the result would have been different had the prosecutor not made the subject statements to the jury. (People v. Watson (1956) 46 Cal.2d 818, 836 [299 P.2d 243].) Accordingly, we reverse defendant\u2019s conviction for assault with a deadly weapon and the great bodily injury true finding.\nIll\nDISPOSITION\nThe judgment is reversed and the matter is remanded for further proceedings.\nRylaarsdam, Acting P. J., and Aronson, J., concurred.\nBoykin v. Alabama (1969) 395 U.S. 238 [23 L.Ed.2d 274, 89 S.Ct. 1709]; In re Tahl (1969) 1 Cal.3d 122 [81 Cal.Rptr. 577, 460 P.2d 449].\nJust prior to instructing the jury on the substantive charge and great bodily injury enhancement, the court advised defendant he had a right to testify or to remain silent. Contrary to the Attorney General\u2019s assertion, the court did not advise defendant he had a right to confront and cross-examine witnesses at that time. It merely told defendant that if he decided to testify, his attorney would ask him questions and then the prosecutor would ask him questions.\nPeople v. Carroll, supra, 47 Cal.App.4th 892, People v. Garcia, supra, 45 Cal.App.4th 1242; People v. Torres, supra, 43 Cal.App.4th 1073, and People v. Howard, supra, 25 Cal.App.4th 1660 were disapproved in People v. Mosby, supra, 33 Cal.4th at page 365, footnote 3.\nKemp denied participating in any illegal moneymaking enterprise. Although he acknowledged they do not get along, he denied knowing Kellogg was a prostitute and said there was no physical or verbal altercation between them that night.\nDefendant did not raise the issue, but we note the court failed to inform him of the consequences of his admission, i.e., his admission of five state prison priors made him eligible for an additional live years of confinement. (Pen. Code, \u00a7 667.5, subd. (b).)\nThere is nothing in In re Tahl mandating the trial judge be the one to advise the defendant of the applicable constitutional rights. (Mills v. Municipal Court (1973) 10 Cal.3d 288, 305, fn. 15 [110 Cal.Rptr. 329, 515 P.2d 273].) \u201c \u2018What is required is evidence that the particular right was known to and waived by the defendant. The explanation need not necessarily be by the court, although the waiver must be by the defendant.\u2019 [Citation.]\u201d (Ibid., quoting In re Tahl, supra, 1 Cal.3d at p. 133, fn. 6.)\nAlthough a defendant does not have a federal or state constitutional right to a jury trial on the existence of a prior conviction (Apprendi v. New Jersey (2000) 530 U.S. 466, 476 [147 L.Ed.2d 435, 120 S.Ct. 2348] [6th Amend, right to a jury trial does not extend to prior conviction allegations]; People v. Epps (2001) 25 Cal.4th 19, 23 [104 Cal.Rptr.2d 572, 18 P.3d 2] [state constitutional right to jury trial does not extend to prior conviction allegations]), a defendant has a statutory right to a jury trial on a prior conviction allegation (Pen. Code, \u00a7 1025; People v. Epps, supra, 25 Cal.4th at p. 23).\n\u201c[W]e now hold that Yurko error involving Boykinlfahl admonitions should be reviewed under the test used to determine the validity of guilty pleas under the federal Constitution. Under that test, a plea is valid if the record affirmatively shows that it is voluntary and intelligent under the totality of the circumstances. (See North Carolina v. Alford (1971) 400 U.S. 25, 31 [27 L.Ed.2d 162, 91 S.Ct. 160]; Brady v. United States (1970) 397 U.S. 742, 747-748 [25 L.Ed.2d 747, 90 S.Ct. 1463]; [citation].) In the exercise of our supervisory powers, we shall continue to require that trial courts expressly advise defendants on the record of their Boykin/Tahl rights. However, errors in the articulation and waiver of those rights shall require the plea to be set aside only if the plea fails the federal test.\u201d (People v. Howard, supra, 1 Cal.4th at p. 1175.)\nThe reversal makes it unnecessary to address other alleged errors raised by defendant.",
+        "type": "majority",
+        "author": "MOORE, J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Jill M. Klein, under appointment by the Court of Appeal, for Defendant and Appellant.",
+      "Kamala D. Harris, Attorney General, Julie L. Garland, Assistant Attorney General, Peter Quon, Jr., and Anthony Da Silva, Deputy Attorneys General, for Plaintiff and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. G049197.\nFourth Dist., Div. Three.\nApr. 21, 2015.]\nTHE PEOPLE, Plaintiff and Respondent, v. CHRISTOPHER JAMES LLOYD, Defendant and Appellant.\nCounsel\nJill M. Klein, under appointment by the Court of Appeal, for Defendant and Appellant.\nKamala D. Harris, Attorney General, Julie L. Garland, Assistant Attorney General, Peter Quon, Jr., and Anthony Da Silva, Deputy Attorneys General, for Plaintiff and Respondent."
+  },
+  "file_name": "0049-01",
+  "first_page_order": 73,
+  "last_page_order": 88
+}

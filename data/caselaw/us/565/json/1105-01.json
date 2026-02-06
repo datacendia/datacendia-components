@@ -1,0 +1,82 @@
+{
+  "id": 12238737,
+  "name": "Frederick v. Holder, Attorney General; Umer v. Holder, Attorney General",
+  "name_abbreviation": "Frederick v. Holder",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-135; No. 11-144",
+  "first_page": "1105",
+  "last_page": "1105",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1105"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "417 Fed. Appx. 403",
+      "category": "reporters:federal",
+      "reporter": "Fed. Appx.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "644 F. 3d 357",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5648212
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/644/0357-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 41,
+    "char_count": 327,
+    "ocr_confidence": 0.677,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2476543999283356
+    },
+    "sha256": "3ae71369824d36338d2c161918b433d02e243d49e66fd9163def5ac0d98cdf5b",
+    "simhash": "1:42c1f298e860f782",
+    "word_count": 54
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Frederick v. Holder, Attorney General. Umer v. Holder, Attorney General."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Reported below: 644 F. 3d 357; and\nC. A. 5th Cir. Reported below: 417 Fed. Appx. 403. Certiorari granted, judgments vacated, and cases remanded for further consideration in light of Judulang v. Holder, ante, p. 42.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-135.\nNo. 11-144.\nFrederick v. Holder, Attorney General. Umer v. Holder, Attorney General."
+  },
+  "file_name": "1105-01",
+  "first_page_order": 1187,
+  "last_page_order": 1187
+}

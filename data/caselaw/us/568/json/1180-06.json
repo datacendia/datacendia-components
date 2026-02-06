@@ -1,0 +1,59 @@
+{
+  "id": 12431413,
+  "name": "Dorsey v. Ohio",
+  "name_abbreviation": "Dorsey v. Ohio",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-8016",
+  "first_page": "1180",
+  "last_page": "1180",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1180"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 79,
+    "ocr_confidence": 0.645,
+    "sha256": "02e95647115fb463fba77a340bb3c39c9c9a2328c8ac4aa87894e86bc624278b",
+    "simhash": "1:e34a2df31da8dcfb",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dorsey v. Ohio."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Ohio, Licking County. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8016.\nDorsey v. Ohio."
+  },
+  "file_name": "1180-06",
+  "first_page_order": 1256,
+  "last_page_order": 1256
+}

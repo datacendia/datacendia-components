@@ -1,0 +1,59 @@
+{
+  "id": 12245901,
+  "name": "Morgan v. Webster University, Inc., dba Webster University",
+  "name_abbreviation": "Morgan v. Webster University, Inc.",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-767",
+  "first_page": "1200",
+  "last_page": "1200",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1200"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 106,
+    "ocr_confidence": 0.692,
+    "sha256": "1b3b34a2ff89aad52ed2545e35cca46dc4069bc35ba7ed7ab29b53654684d542",
+    "simhash": "1:863a539f6f5a827e",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Morgan v. Webster University, Inc., dba Webster University."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-767.\nMorgan v. Webster University, Inc., dba Webster University."
+  },
+  "file_name": "1200-12",
+  "first_page_order": 1282,
+  "last_page_order": 1282
+}

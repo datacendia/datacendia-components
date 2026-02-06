@@ -1,0 +1,59 @@
+{
+  "id": 12212226,
+  "name": "In re Discipline of Seto",
+  "name_abbreviation": "In re Discipline of Seto",
+  "decision_date": "2012-04-30",
+  "docket_number": "No. D-2674",
+  "first_page": "973",
+  "last_page": "973",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 973"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 40,
+    "char_count": 284,
+    "ocr_confidence": 0.587,
+    "sha256": "5f1db2de49d50b106c8e9bab2c0f0f167fb4c278084ec6e0359c7f6b67dfc8ff",
+    "simhash": "1:718a73b636da27a6",
+    "word_count": 53
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of Seto."
+    ],
+    "opinions": [
+      {
+        "text": "Robert M. M. Seto, of Virginia Beach, Va., is suspended from the practice of law. in this Court, and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2674.\nIn re Discipline of Seto."
+  },
+  "file_name": "0973-01",
+  "first_page_order": 849,
+  "last_page_order": 849
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12408336,
+  "name": "Forney v. Florida",
+  "name_abbreviation": "Forney v. Florida",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12M7",
+  "first_page": "808",
+  "last_page": "808",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 808"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 78,
+    "ocr_confidence": 0.664,
+    "sha256": "ff6fcba1e8a973d17cc53138efff2d86300531c1fb317417e80fd6cd5436f9b7",
+    "simhash": "1:b5c1d83000e4ab18",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Forney v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Motion for leave to proceed as a veteran denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12M7.\nForney v. Florida."
+  },
+  "file_name": "0808-02",
+  "first_page_order": 884,
+  "last_page_order": 884
+}

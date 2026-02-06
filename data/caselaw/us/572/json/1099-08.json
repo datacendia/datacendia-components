@@ -1,0 +1,68 @@
+{
+  "id": 12706154,
+  "name": "In re Tiran Rodez CASTEEL, petitioner.",
+  "name_abbreviation": "In re Casteel",
+  "decision_date": "2014-05-05",
+  "docket_number": "No. 13\u20139504.",
+  "first_page": "1099",
+  "last_page": "1099",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "572 U.S. 1099"
+    },
+    {
+      "type": "parallel",
+      "cite": "188 L. Ed. 2d 1142"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 2150"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 22,
+    "char_count": 139,
+    "sha256": "0497bd659314ff775caad6a5269137fdc6bfce8586614b6eda2832d004fcd960",
+    "simhash": "1:786f5654fcb14036",
+    "word_count": 23
+  },
+  "last_updated": "2021-08-27T20:44:00.426858+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Tiran Rodez CASTEEL, petitioner."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of mandamus denied."
+    ],
+    "corrections": "",
+    "head_matter": "In re Tiran Rodez CASTEEL, petitioner.\nNo. 13-9504.\nSupreme Court of the United States\nMay 5, 2014.\nPetition for writ of mandamus denied."
+  },
+  "file_name": "1099-08",
+  "first_page_order": 1099,
+  "last_page_order": 1099
+}

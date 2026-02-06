@@ -1,0 +1,59 @@
+{
+  "id": 5983194,
+  "name": "Gould v. United States",
+  "name_abbreviation": "Gould v. United States",
+  "decision_date": "2010-11-08",
+  "docket_number": "No. 10-407",
+  "first_page": "1030",
+  "last_page": "1030",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1030"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.582,
+    "sha256": "67824640ee072bdc103792d0b27147ac2ef64ada9206ff6d27e5ac5d529a888b",
+    "simhash": "1:04888e6baea50018",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gould v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-407.\nGould v. United States."
+  },
+  "file_name": "1030-05",
+  "first_page_order": 1052,
+  "last_page_order": 1052
+}

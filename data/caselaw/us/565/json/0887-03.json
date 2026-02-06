@@ -1,0 +1,59 @@
+{
+  "id": 12215757,
+  "name": "Padgett v. United States",
+  "name_abbreviation": "Padgett v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5043",
+  "first_page": "887",
+  "last_page": "887",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 887"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.699,
+    "sha256": "95228887e9d45de3e234261e21147dfde389fa242bddc51169915d5028599f20",
+    "simhash": "1:95ab9a1bcf8db472",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Padgett v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5043.\nPadgett v. United States."
+  },
+  "file_name": "0887-03",
+  "first_page_order": 969,
+  "last_page_order": 969
+}

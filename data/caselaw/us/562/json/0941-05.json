@@ -1,0 +1,59 @@
+{
+  "id": 6021506,
+  "name": "Thercy v. United States",
+  "name_abbreviation": "Thercy v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5903",
+  "first_page": "941",
+  "last_page": "941",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 941"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.588,
+    "sha256": "3eb70f3b0f9d6d964bf7f5235574175c563c8b05665edc7cb49eb1dca77a810d",
+    "simhash": "1:173acf2307cd901e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Thercy v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5903.\nThercy v. United States."
+  },
+  "file_name": "0941-05",
+  "first_page_order": 963,
+  "last_page_order": 963
+}

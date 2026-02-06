@@ -1,0 +1,59 @@
+{
+  "id": 12218109,
+  "name": "Fulcher v. New York",
+  "name_abbreviation": "Fulcher v. New York",
+  "decision_date": "2012-05-14",
+  "docket_number": "No. 11-9447",
+  "first_page": "999",
+  "last_page": "999",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 999"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 94,
+    "ocr_confidence": 0.592,
+    "sha256": "3ad5c7ad60c78e5b9273e8b8d03e3ba446223b054f0309e4ccb3acf7202e7364",
+    "simhash": "1:26b2d14421155552",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Fulcher v. New York."
+    ],
+    "opinions": [
+      {
+        "text": "App. Div., Sup. Ct. N. Y., 2d Jud. Dept. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9447.\nFulcher v. New York."
+  },
+  "file_name": "0999-01",
+  "first_page_order": 875,
+  "last_page_order": 875
+}

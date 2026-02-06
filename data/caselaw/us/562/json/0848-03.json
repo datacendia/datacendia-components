@@ -1,0 +1,59 @@
+{
+  "id": 6029770,
+  "name": "Reed v. Cain, Warden",
+  "name_abbreviation": "Reed v. Cain",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-10626",
+  "first_page": "848",
+  "last_page": "848",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 848"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.573,
+    "sha256": "ec999efb6d06ad07bb14c21bffc2f8b21018f1688dbdc8dd1d37ed9822019d86",
+    "simhash": "1:a5f8da82610a96ee",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Reed v. Cain, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10626.\nReed v. Cain, Warden."
+  },
+  "file_name": "0848-03",
+  "first_page_order": 870,
+  "last_page_order": 870
+}

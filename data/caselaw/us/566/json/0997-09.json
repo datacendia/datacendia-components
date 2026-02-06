@@ -1,0 +1,59 @@
+{
+  "id": 12217748,
+  "name": "Jackson v. Brown, Warden",
+  "name_abbreviation": "Jackson v. Brown",
+  "decision_date": "2012-05-14",
+  "docket_number": "No. 11-9288",
+  "first_page": "997",
+  "last_page": "997",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 997"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 92,
+    "ocr_confidence": 0.6,
+    "sha256": "c42af783938385b6803fe33ea2d805bd1963d413cebd51963c56f712e9572aa6",
+    "simhash": "1:021180c41391e485",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jackson v. Brown, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. Montgomery County, Ga. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9288.\nJackson v. Brown, Warden."
+  },
+  "file_name": "0997-09",
+  "first_page_order": 873,
+  "last_page_order": 873
+}

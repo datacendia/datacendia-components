@@ -1,0 +1,59 @@
+{
+  "id": 12414046,
+  "name": "Warrener v. Suthers, Attorney General of Colorado",
+  "name_abbreviation": "Warrener v. Suthers",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10761",
+  "first_page": "860",
+  "last_page": "860",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 860"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 100,
+    "ocr_confidence": 0.609,
+    "sha256": "ac3e6f8a2bd5930d28d036e51054683a9b089d8ca0ca52b033be6b22954410fe",
+    "simhash": "1:971410710916fb34",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Warrener v. Suthers, Attorney General of Colorado."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10761.\nWarrener v. Suthers, Attorney General of Colorado."
+  },
+  "file_name": "0860-15",
+  "first_page_order": 936,
+  "last_page_order": 936
+}

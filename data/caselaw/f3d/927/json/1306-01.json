@@ -1,0 +1,577 @@
+{
+  "id": 12521505,
+  "name": "CELLSPIN SOFT, INC., Plaintiff-Appellant v. FITBIT, INC., Moov, Inc., dba Moov Fitness, Inc., Nike, Inc., Fossil Group, Inc., Misfit, Inc., Garmin International, Inc., Garmin USA, Inc., Canon U.S.A., Inc., GoPro, Inc., Panasonic Corporation of North America, JK Imaging Ltd., Defendants-Appellees Cellspin Soft, Inc., Plaintiff-Appellant v. Fitbit, Inc., Moov, Inc., dba Moov Fitness, Inc., Nike, Inc., Fossil Group, Inc., Misfit, Inc., Canon U.S.A., Inc., GoPro, Inc., Defendants-Appellees",
+  "name_abbreviation": "Cellspin Soft, Inc. v. Fitbit, Inc.",
+  "decision_date": "2019-06-25",
+  "docket_number": "2018-1817; 2018-1819; 2018-1820; 2018-1821; 2018-1822; 2018-1823; 2018-1824; 2018-1825; 2018-1826; 2018-2178; 2018-2179; 2018-2180; 2018-2181; 2018-2183; 2018-2184",
+  "first_page": "1306",
+  "last_page": "1320",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "927 F.3d 1306"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Fed. Cir.",
+    "id": 8955,
+    "name": "United States Court of Appeals for the Federal Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "35 U.S.C. \u00a7 282",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "95-96"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "564 U.S. 91",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5933721,
+        12450135
+      ],
+      "weight": 8,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "100",
+          "parenthetical": "citing 35 U.S.C. \u00a7 282 "
+        },
+        {
+          "parenthetical": "citing 35 U.S.C. \u00a7 282 "
+        },
+        {
+          "parenthetical": "citing 35 U.S.C. \u00a7 282 "
+        },
+        {
+          "page": "96-97"
+        },
+        {
+          "page": "100"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/564/0091-01",
+        "/l-ed-2d/180/0131-01"
+      ]
+    },
+    {
+      "cite": "920 F.3d 777",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12520727
+      ],
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "780"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/920/0777-01"
+      ]
+    },
+    {
+      "cite": "822 F.3d 1302",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4282797
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1312",
+          "parenthetical": "\"Because we vacate and remand judgment on the pleadings and no other relief runs in Vivid Seats' favor, Vivid Seats is no longer the 'prevailing party' under \u00a7 285.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/822/1302-01"
+      ]
+    },
+    {
+      "cite": "714 F.2d 1573",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1886554
+      ],
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "1580",
+          "parenthetical": "\"Most, if not all, inventions are combinations and mostly of old elements.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/714/1573-01"
+      ]
+    },
+    {
+      "cite": "827 F.3d 1341",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5924463
+      ],
+      "weight": 4,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1350",
+          "parenthetical": "\"[A]n inventive concept can be found in the non-conventional and non-generic arrangement of known, conventional pieces.\""
+        },
+        {
+          "page": "1350"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/827/1341-01"
+      ]
+    },
+    {
+      "cite": "899 F.3d 1281",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12518052
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1290-91"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/899/1281-01"
+      ]
+    },
+    {
+      "cite": "830 F.3d 1350",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4349286
+      ],
+      "weight": 4,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1354",
+          "parenthetical": "explaining that the claims in Enfish were eligible \"because [they] focused not on asserted advances in uses to which existing computer capabilities could be put, but on a specific improvement ... in how computers could carry out one of their basic functions\""
+        },
+        {
+          "page": "1353",
+          "parenthetical": "acknowledging that claims reciting \"collecting information, analyzing it, and displaying certain results\" fall into \"a familiar class of claims 'directed to' a patent-ineligible concept\""
+        },
+        {
+          "page": "1354-55"
+        },
+        {
+          "page": "1355",
+          "parenthetical": "noting that the limitations there did not \"differentiate\" the claims from the underlying mental process"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/830/1350-01"
+      ]
+    },
+    {
+      "cite": "822 F.3d 1327",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4282681
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1335"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/822/1327-01"
+      ]
+    },
+    {
+      "cite": "683 F.3d 1102",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3895642
+      ],
+      "weight": 2,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "1108",
+          "parenthetical": "noting that the analysis under Rule 12(b)(6) and Rule 12(c) is \"substantially identical\""
+        },
+        {
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/683/1102-01"
+      ]
+    },
+    {
+      "cite": "788 F.3d 1359",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4229263
+      ],
+      "weight": 2,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1362"
+        },
+        {
+          "page": "1363"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/788/1359-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1295",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "772 F.3d 709",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4314980
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "721",
+          "parenthetical": "Mayer, J., concurring"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/772/0709-01"
+      ]
+    },
+    {
+      "cite": "876 F.3d 1372",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12267309
+      ],
+      "weight": 6,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1377-78"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/876/1372-01"
+      ]
+    },
+    {
+      "cite": "823 F.3d 607",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5923224
+      ],
+      "weight": 4,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "610-12",
+          "parenthetical": "concluding that claims reciting \"recording ... transmitting ... and storing\" digital images were directed to an abstract idea"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/823/0607-01"
+      ]
+    },
+    {
+      "cite": "134 S.Ct. 2347",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12581589
+      ],
+      "weight": 11,
+      "year": 2014,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/134/2347-01"
+      ]
+    },
+    {
+      "cite": "573 U.S. 208",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "weight": 5,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "216"
+        },
+        {
+          "page": "221"
+        },
+        {
+          "page": "217"
+        },
+        {
+          "page": "226"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "566 U.S. 66",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12188353
+      ],
+      "weight": 9,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "72-73, 77-79"
+        },
+        {
+          "page": "73"
+        },
+        {
+          "page": "77"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/566/0066-01"
+      ]
+    },
+    {
+      "cite": "881 F.3d 1360",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12275489
+      ],
+      "weight": 6,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1368",
+          "parenthetical": "\"Any fact, such as [whether a claim element or combination is well-understood or routine], that is pertinent to the invalidity conclusion must be proven by clear and convincing evidence.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/881/1360-01"
+      ]
+    },
+    {
+      "cite": "882 F.3d 1121",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12515907
+      ],
+      "weight": 7,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1128"
+        },
+        {
+          "page": "1128",
+          "parenthetical": "internal quotation marks and brackets omitted"
+        },
+        {
+          "page": "1128",
+          "parenthetical": "\"There are concrete allegations in the second amended complaint that individual elements and the claimed combination are not well-understood, routine, or conventional activity.\""
+        },
+        {
+          "page": "1126-27"
+        },
+        {
+          "page": "1128",
+          "parenthetical": "\"Aatrix is entitled to file its proposed second amended complaint ....\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/882/1121-01"
+      ]
+    },
+    {
+      "cite": "2018 WL 3328164",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 17,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "parenthetical": "\" Attorney Fees Order \""
+        },
+        {
+          "page": "*2"
+        },
+        {
+          "page": "*1"
+        },
+        {
+          "page": "*4",
+          "parenthetical": "citing 35 U.S.C. \u00a7 282 "
+        },
+        {
+          "page": "*3"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "316 F. Supp. 3d 1138",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "case_ids": [
+        12525746
+      ],
+      "weight": 10,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1143",
+          "parenthetical": "\" 101 Order \""
+        },
+        {
+          "page": "1143"
+        },
+        {
+          "page": "1146-48, 1150"
+        },
+        {
+          "page": "1150"
+        },
+        {
+          "page": "1150"
+        },
+        {
+          "page": "1154"
+        },
+        {
+          "page": "1153",
+          "parenthetical": "\"The other proffered benefits which relate to ... [the] order or timing of the Bluetooth wireless pairing; and elimination of the need for bulky hardware and costly cell phone services; do not appear in the patent's specification.\" (internal footnote omitted)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-3d/316/1138-01"
+      ]
+    },
+    {
+      "cite": "35 U.S.C. \u00a7 285",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 U.S.C. \u00a7 101",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1427,
+    "char_count": 41060,
+    "pagerank": {
+      "raw": 4.621887471290392e-08,
+      "percentile": 0.2903485878906454
+    },
+    "sha256": "6202d195e6a0d34fd79fcca8589e8cae232ab0733935dc85080d4c68f7a0090b",
+    "simhash": "1:1780f313b39b3d51",
+    "word_count": 6412
+  },
+  "last_updated": "2024-02-27T18:36:41.085222+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Lourie, O'Malley, and Taranto, Circuit Judges."
+    ],
+    "parties": [
+      "CELLSPIN SOFT, INC., Plaintiff-Appellant\nv.\nFITBIT, INC., Moov, Inc., dba Moov Fitness, Inc., Nike, Inc., Fossil Group, Inc., Misfit, Inc., Garmin International, Inc., Garmin USA, Inc., Canon U.S.A., Inc., GoPro, Inc., Panasonic Corporation of North America, JK Imaging Ltd., Defendants-Appellees"
+    ],
+    "opinions": [
+      {
+        "text": "O'Malley, Circuit Judge.\nCellspin Soft, Inc. (\"Cellspin\") sued Fitbit, Inc. (\"Fitbit\"), Moov, Inc. (\"Moov\"), Nike, Inc. (\"Nike\"), Fossil Group, Inc. and Misfit, Inc. (\"Fossil\"), Garmin International, Inc. and Garmin U.S.A., Inc. (\"Garmin\"), Canon U.S.A., Inc. (\"Canon\"), GoPro, Inc. (\"GoPro\"), Panasonic Corporation of America (\"Panasonic\"), and JK Imaging LTD (\"JKI\") (collectively \"Appellees\") for infringing various claims of four different patents. Appellees moved to dismiss, arguing that the patents are ineligible for patent protection under 35 U.S.C. \u00a7 101. The district court granted these motions and subsequently awarded attorney fees to Fitbit, Moov, Nike, Fossil, Canon, and GoPro under 35 U.S.C. \u00a7 285. See Cellspin Soft, Inc. v. Fitbit, Inc. , 316 F. Supp. 3d 1138, 1143 (N.D. Cal. 2018) (\" 101 Order \"); Cellspin Soft, Inc. v. Fitbit, Inc. , No. 4:17-cv-5928-YGR, 2018 WL 3328164 (N.D. Cal. July 6, 2018) (\" Attorney Fees Order \"). Because we conclude that the district court misapplied our precedent in granting Appellees' motions to dismiss, we vacate its grant of the motions to dismiss, vacate its award of attorney fees, and remand for further proceedings consistent with this opinion.\nI. BACKGROUND\nA. The Asserted Patents\nAll four asserted patents- U.S. Pat. No. 8,738,794 (\"the '794 patent\"), U.S. Pat. No. 8,892,752 (\"the '752 patent\"), U.S. Pat. No. 9,258,698 (\"the '698 patent\"), and U.S. Pat. No. 9,749,847 (\"the '847 patent\") -share the same specification and generally relate to connecting a data capture device, e.g. , a digital camera, to a mobile device so that a user can automatically publish content from the data capture device to a website. Each patent is described in more detail below.\n1. The '794 Patent\nAccording to the '794 patent, which issued May 2014, prior art devices could digitally capture images, video, or other types of content. To upload that content on the Internet, however, users had to transfer their content onto a personal computer using a memory stick or cable.\nThe '794 patent teaches a way to transfer and upload data \"automatically or with minimal user intervention\" using a \"data capture device\" and a \"mobile device.\" '794 patent, col. 1, ll. 64 - col. 2, ll. 1. These two devices communicate via short-range wireless communication protocols such as Bluetooth. Id. at col. 2, ll. 18-22. In particular, a \"client application\" on the mobile device detects and receives content from the data capture device over the wireless connection. The mobile device then \"publish[es] the data and multimedia content on one or more websites automatically or with minimal user intervention.\" Id. at col. 5, ll. 55-59.\nCellspin asserts claims 1-4, 7, 9, 16-18, and 20-21 of the '794 patent. On appeal, Cellspin does not agree that any of its claims are representative of the '794 patent or the asserted patents as a whole. Even so, Cellspin offers separate arguments only as to independent claims 1 and 16. The remaining claims depend from these two independent claims.\nClaim 1 recites:\n1. A method for acquiring and transferring data from a Bluetooth enabled data capture device to one or more web services via a Bluetooth enabled mobile device, the method comprising:\nproviding a software module on the Bluetooth enabled data capture device;\nproviding a software module on the Bluetooth enabled mobile device;\nestablishing a paired connection between the Bluetooth enabled data capture device and the Bluetooth enabled mobile device;\nacquiring new data in the Bluetooth enabled data capture device, wherein new data is data acquired after the paired connection is established;\ndetecting and signaling the new data for transfer to the Bluetooth enabled mobile device, wherein detecting and signaling the new data for transfer comprises:\ndetermining the existence of new data for transfer, by the software module on the Bluetooth enabled data capture device; and\nsending a data signal to the Bluetooth enabled mobile device , corresponding to existence of new data, by the software module on the Bluetooth enabled data capture device automatically, over the established paired Bluetooth connection, wherein the software module on the Bluetooth enabled mobile device listens for the data signal sent from the Bluetooth enabled data capture device, wherein if permitted by the software module on the Bluetooth enabled data capture device, the data signal sent to the Bluetooth enabled mobile device comprises a data signal and one or more portions of the new data;\ntransferring the new data from the Bluetooth enabled data capture device to the Bluetooth enabled mobile device automatically over the paired Bluetooth connection by the software module on the Bluetooth enabled data capture device;\nreceiving, at the Bluetooth enabled mobile device, the new data from the Bluetooth enabled data capture device;\napplying, using the software module on the Bluetooth enabled mobile device, a user identifier to the new data for each destination web service, wherein each user identifier uniquely identifies a particular user of the web service;\ntransferring the new data received by the Bluetooth enabled mobile device along with a user identifier to the one or more web services , using the software module on the Bluetooth enabled mobile device;\nreceiving, at the one or more web services, the new data and user identifier from the Bluetooth enabled mobile device, wherein the one or more web services receive the transferred new data corresponding to a user identifier; and\nmaking available, at the one or more web services, the new data received from the Bluetooth enabled mobile device for public or private consumption over the internet, wherein one or more portions of the new data correspond to a particular user identifier.\n'794 patent, col. 11, ll. 48 - col. 12, ll. 38 (emphases added).\nAs relevant here, claim 1 requires establishing a paired connection between the data capture device and the mobile device before data is transmitted between the two. The claim also describes a \"push\" mode for sending files in which a \"data signal\" is sent from the data capture device to the mobile device to initiate a data transfer. Id. at col. 12, ll. 1-2.\nClaim 16 is essentially the same as claim 1, but instead of reciting a \"push\" mode it describes a \"pull\" mode in which the mobile device \"poll[s] the Bluetooth enabled data capture device\" to ask whether the data capture device has files to upload. Id. at col. 14, ll. 30-35; see also id. at col. 4, ll. 30-34 (\"In the pull mode, the client application 203 [on the mobile device] periodically polls the digital data capture device 201 to determine the creation of a new file in the digital capture device 201.\").\n2. The '752 Patent\nThe '752 patent, which issued November 2014, shares its specification with the '794 patent. Cellspin asserts claims 1, 2, 4-5, and 12-14 of the '752 patent, but only offers separate arguments as to eligibility with respect to claim 1.\nClaim 1 of the '752 patent includes limitations that are substantially similar to the limitations of claim 1 of the '794 patent, but the patents differ in two important respects. First, the '752 patent requires the mobile device and data capture device to establish a connection using a \"cryptographic encryption key.\" '752 patent, col. 11, ll. 54-56. This allows each device to \"authenticate the identity\" of the other so the data capture device can \"trust[ ]\" that its data is being securely transmitted to the right mobile device. Id. at col. 3, ll. 61-63. Second, the '752 patent requires the mobile device to transmit data from the mobile device to an \"internet service\" according to the hypertext transfer protocol (\"HTTP\"). Id. at col. 12, ll. 16-36.\n3. The '698 Patent\nThe '698 patent, which issued February 2016, also shares its specification with the '752 patent and the '794 patent. Cellspin asserts claims 1, 3-5, 7-8, 10-13, 15-20 of the '698 patent, but it only offers separate arguments as to claim 5.\nUnlike the '794 and the '752 patents, claim 5 of the '698 patent does not claim a generic data capture device nor does it mention Bluetooth. Instead, the claim recites a \"digital camera\" that communicates with a cellular phone using \"short-range wireless\" signals. Id. The '698 patent acknowledges, however, that Bluetooth is an example of a short-range wireless communication protocol. Id. at col. 3, ll. 55-59 (\"[Bluetooth] provides a method of connecting and exchanging information between devices, for example, mobile phones, laptops, personal computers (PCs), printers, digital cameras, etc. over a secure and globally unlicensed short-range wireless frequency.\"). Otherwise, claim 5 includes limitations that are substantially similar to the limitations of claim 1 of the '752 patent.\n4. The '847 Patent\nThe '847 patent, which issued August 2017, shares its specification with the other three asserted patents. Cellspin asserts claims 1-3 of the '847 patent, but it only offers separate arguments as to claim 1.\nClaim 1 of the '847 patent includes limitations that are substantially similar to the limitations of claim 1 of the '752 patent. For example, claim 1 of the '847 patent recites \"a Bluetooth enabled data capture device\" that can establish a connection with a mobile device after \"cryptographically authenticat[ing] [the] identity of the Bluetooth enabled cellular phone\" and before transmitting data. '847 patent, col. 12, ll. 14-25. Claim 1 also requires the mobile device to include \"a mobile application\" that \"listen[s] for the event notification, sent from the Bluetooth enabled data capture device ... wherein the event notification corresponds to the acquired new-data.\" Id. at col. 12, ll. 42-51. Claim 1 further recites that the mobile application \"use[s] HTTP to transfer the new-data ... to the website, over the cellular data network.\" Id. at col. 12, ll. 62-67.\nB. Procedural History\n1. Pretrial Disputes\nCellspin filed more than a dozen cases alleging infringement of the asserted patents. 101 Order , 316 F. Supp. 3d at 1143. As relevant here, Cellspin asserted the '794, '752, and '847 patents against Appellees Fitbit, Moov, Nike, and Fossil. In another set of cases, Cellspin asserted the '698 patent against Appellees Canon, GoPro, Panasonic, and JKI. Cellspin also asserted all four patents against Garmin.\nOn January 16, 2018, Appellees, except for Garmin, filed an omnibus motion to dismiss under Federal Rule of Civil Procedure 12(b)(6), arguing that the asserted patents are ineligible for patent protection under 35 U.S.C. \u00a7 101. Garmin separately filed a similar motion to dismiss under Rule 12(c).\nOn February 16, 2018, Cellspin filed a notice of supplemental authority citing Aatrix Software, Inc. v. Green Shades Software, Inc. , 882 F.3d 1121 (Fed. Cir. 2018), and Berkheimer v. HP Inc. , 881 F.3d 1360 (Fed. Cir. 2018). J.A. 2143. Cellspin then amended its complaints on March 2, 2018, just a few days before the district court's scheduled hearing on Appellees' motions to dismiss. Attorney Fees Order , 2018 WL 3328164, at *2. Even so, the amendments were within the time permitted by the district court's scheduling order. J.A. 2261 (permitting pleadings to be amended \"without the need for leave of Court, up to, and including, June 5, 2018\").\nAfter the March 6, 2018 hearing on Appellees' motions, the district court ordered Appellees to file supplemental briefing addressing Cellspin's amended complaints. 101 Order , 316 F. Supp. 3d at 1154 n.12. In response, Appellees argued that Cellspin's amended complaints \"d[id] not change the legal conclusion that Cellspin's patents are invalid under Section 101.\" J.A. 2355.\n2. The District Court's 101 Order\nThe district court granted Appellees' motions based on the two-step framework for analyzing patent eligibility articulated in Mayo Collaborative Services v. Prometheus Laboratories, Inc. , 566 U.S. 66, 132 S.Ct. 1289, 182 L.Ed.2d 321 (2012), and Alice Corp. v. CLS Bank International , 573 U.S. 208, 134 S.Ct. 2347, 189 L.Ed.2d 296 (2014). 101 Order , 316 F. Supp. 3d at 1146-48, 1150.\nAs to step one, the district court concluded that the asserted claims of the '794 patent are directed to the abstract idea of \"acquiring, transferring, and publishing data and multimedia content on one or more websites.\" Id. at 1150. Analogizing to In re TLI Communications LLC Patent Litigation , 823 F.3d 607 (Fed. Cir. 2016), the district court explained that the asserted claims use \"generic computer hardware and software components\" to automate the conventional, manual process of transferring data from one device to another. Id. at 1150-52. It therefore concluded that \"Cellspin fail[ed] to show that the data acquisition, transfer, and publication described in the '794 Patent represents something more than a simple automation of [a] conventional (manual) process,\" i.e. , an abstract idea. Id. at 1151.\nAs to step two, the district court found that the asserted claims of the '794 patent do not recite an \"inventive concept.\" Id. at 1152. In particular, the district court concluded that the various claim elements, e.g. , the data capture device and Bluetooth enabled mobile device, represent generic computer components performing \"as expected according to their ordinary use.\" Id. (quoting TLI , 823 F.3d at 615 ). In a footnote, the district court acknowledged Cellspin's argument that there was a factual dispute about whether the \"combination\" of these elements was \"well-understood, routine and conventional.\" Id. at 1154-55 n.12 (citing Berkheimer , 881 F.3d 1360 ). But the district court concluded that it \"need not reach the issue\" for two reasons. Id. First, the district court distinguished Berkheimer because it arose \"at the summary judgment stage, not in the context of a motion to dismiss.\" Id. Second, the district court faulted Cellspin for not \"identify[ing] any portion of the [ '794 patent's] specification\" that described the inventive concepts Cellspin alleged in its amended complaints. Id.\nThe district court also concluded that the remaining asserted claims from the other asserted patents were all directed to a \"substantially similar abstract idea\" as the '794 patent. Id. at 1155. And, while the court recognized various differences between the asserted claims across the different patents, it explained that none of these differences evidenced an inventive concept. Id. The district court therefore concluded that none of the asserted claims, from any of the asserted patents, were patent eligible. Id.\n3. The District Court's Attorney Fees Order\nAfter the district court granted the motions to dismiss, Appellees Fitbit, Moov, Nike, Fossil, Canon, and GoPro moved for attorney fees under 35 U.S.C. \u00a7 285. Attorney Fees Order , 2018 WL 3328164, at *1. The district court subsequently awarded attorney fees.\nIn finding that the case was \"exceptional\" under \u00a7 285, the district court found that Cellspin's claims were \"manifestly directed to an abstract idea.\" Id. at *3 (quoting Inventor Holdings, LLC v. Bed Bath & Beyond, Inc. , 876 F.3d 1372, 1377-78 (Fed. Cir. 2017) ). Although the district court's fees order did not discuss the second step of Alice , the court concluded that Cellspin's claims were \"exceptionally meritless.\" Id. The district court also found that Cellspin litigated its claims \"aggressively.\" Id. In doing so, the district court noted that Cellspin \"did not agree to stay discovery pending resolution of [the \u00a7 101 motions] until after the hearing on [the motions].\" Id. The court also faulted Cellspin for amending its complaint \"only three days prior to the hearing on [the motions to dismiss].\" Id. Acknowledging that \"this conduct may not amount to bad faith litigation,\" the district court still viewed it as \"contribut[ing] to the totality of the circumstances weighing in favor of a fee award.\" Id.\nThe district court also criticized Cellspin for a \"refusal to analyze its patents critically\" before filing suit. Id. at *4. According to the district court, Cellspin \"could have litigated a test case but instead chose to file and pursue aggressively fourteen lawsuits simultaneously.\" Id. While Cellspin argued that it did not need to file a test case because its patents were presumptively valid, the district court concluded that Cellspin's patents \"are not presumed eligible under Section 101.\" Id. at *3-4 (citing UltramercIal, Inc. v. Hulu, LLC , 772 F.3d 709, 721 (Fed. Cir. 2014) (Mayer, J., concurring)).\nThe district court ultimately awarded fees for the entire case because \"the exceptionally meritless nature of this case extend[ed] well beyond the [motions to dismiss] and applie[d] to Cellspin's decision to bring these actions in the first place.\" Id. at *5. Even so, the district court found that the fee requests by Nike, Fossil, and Canon were \"excessive.\" Id. It therefore capped their fee awarded at $ 180,000, $ 100,000, and $ 100,000 respectively. Id.\nCellspin timely appealed the district court's dismissal and attorney fees orders. We have jurisdiction with respect to both under 28 U.S.C. \u00a7 1295(a)(1).\nII. DISCUSSION\nCellspin argues that its asserted claims are patent eligible and so we should reverse the district court's dismissal and attorney fees awards. We address each argument below.\nA. Patent Eligibility\nWe review the grant of a motion to dismiss under applicable regional circuit law. OIP Techs., Inc. v. Amazon.com, Inc. , 788 F.3d 1359, 1362 (Fed. Cir. 2015). As relevant here, the Ninth Circuit reviews the grant of a motion to dismiss de novo. See Chavez v. United States , 683 F.3d 1102, 1108 (9th Cir. 2012) (noting that the analysis under Rule 12(b)(6) and Rule 12(c) is \"substantially identical\"). This means we \"determine whether the facts alleged in the complaint, taken as true, entitle the plaintiff to a legal remedy.\" Id. (internal quotation marks omitted).\nUnder \u00a7 101, patents may be granted for \"any new and useful process, machine, manufacture, or composition of matter, or any new and useful improvement thereof.\" 35 U.S.C. \u00a7 101. According to the Supreme Court, this statutory text includes an important but implicit exception for laws of nature, natural phenomena, and abstract ideas. See Alice , 573 U.S. at 216, 134 S.Ct. 2347. Claims for these categories of inventions are not patent eligible. Id.\nTo distinguish between eligible and ineligible patent claims, the Supreme Court has fashioned a two-step test. Id. at 217-18, 134 S.Ct. 2347 (citing Mayo , 566 U.S. at 72-73, 77-79, 132 S.Ct. 1289 ). At step one of the Alice / Mayo framework, we ask whether the claim at issue is \"directed to ... [a] patent-ineligible concept[ ],\" such as an abstract idea. Id. at 217, 134 S.Ct. 2347. If so, we proceed to step two, which the Supreme Court has described as \"a search for an 'inventive concept'-i.e. , an element or combination of elements that is 'sufficient to ensure that the patent in practice amounts to significantly more than a patent upon the [ineligible concept] itself.' \" Id. at 217-18, 134 S.Ct. 2347 (quoting Mayo , 566 U.S. at 73, 132 S.Ct. 1289 ). We have held that deciding whether claims recite an \"inventive concept,\" or something more than \"well-understood, routine, conventional activities previously known to the industry,\" id. at 225, 134 S.Ct. 2347 (internal brackets omitted), may turn on underlying \"question[s] of fact,\" Aatrix , 882 F.3d at 1128.\nApplying this two-step framework, we agree with the district court that the asserted claims are directed to an abstract idea. 101 Order , 316 F. Supp. 3d at 1150. The district court erred with respect to the inventive concept inquiry, however, by ignoring allegations that, when properly accepted as true, preclude the grant of a motion to dismiss.\n1. Step One\nAlice did not establish any \"precise contours\" for defining whether claims are directed to \"abstract ideas\" or something else. 573 U.S. at 221, 134 S.Ct. 2347 (\"[W]e need not labor to delimit the precise contours of the 'abstract ideas' category in this case.\"). But we have declined to read Alice \"broadly [to] hold that all improvements in computer-related technology are inherently abstract and, therefore, must be considered at step two.\" Enfish, LLC v. Microsoft Corp. , 822 F.3d 1327, 1335 (Fed. Cir. 2016). In fact, we have explained that claims directed to \"an improvement to computer functionality itself, not on economic or other tasks for which a computer is used in its ordinary capacity,\" are patent eligible. Id. at 1336 ; Elec. Power Grp., LLC v. Alstom S.A. , 830 F.3d 1350, 1354 (Fed. Cir. 2016) (explaining that the claims in Enfish were eligible \"because [they] focused not on asserted advances in uses to which existing computer capabilities could be put, but on a specific improvement ... in how computers could carry out one of their basic functions\").\nAccording to Cellspin, the asserted claims are directed to improving Internet-incapable data capture devices and mobile networks. We disagree. The asserted claims are drawn to the idea of capturing and transmitting data from one device to another. See, e.g. , '794 patent, col. 1, ll. 32-36 (\"This invention, in general, relates to distribution of multimedia content. More particularly, this invention relates to pairing a digital data capture device in conjunction with a mobile device for automatically publishing data ... on one or more websites simultaneously.\"). As the district court recognized, we have consistently held that similar claims reciting the collection, transfer, and publishing of data are directed to an abstract idea. See, e.g. , Elec. Power , 830 F.3d at 1353 (acknowledging that claims reciting \"collecting information, analyzing it, and displaying certain results\" fall into \"a familiar class of claims 'directed to' a patent-ineligible concept\"); TLI , 823 F.3d at 610-12 (concluding that claims reciting \"recording ... transmitting ... and storing\" digital images were directed to an abstract idea). These cases compel the conclusion that the asserted claims are directed to an abstract idea as well.\nCellspin argues that these cases are distinguishable because its claims recite \"technological improvements.\" Appellant's Br. at 25. For example, Cellspin argues that its claims improve data capture devices by allowing even \"Internet-incapable capture device[s]\" to \"transfer[ ] newly captured data to the internet\" via an \"internet capable mobile device.\" Id. at 26, 54-58. But the patents' shared specification acknowledges that users could already transfer data from a data capture device-even an Internet-incapable device-to a website. '794 patent, col. 1, ll. 42-45 (describing how users can \"transfer the image off-line to [a] PC, us[ing] a cable such as a universal serial bus (USB)\"). What the patents offered was a way to automate this process. Id. at col. 1, ll. 48-54 (\"[T]here is a need for a method and system to utilize a digital data capture device ... with a mobile device for automatically detecting capture of data ..., transferring the captured data ... to the mobile device, and publishing the data ... on one or more websites automatically ....\"). But the need to perform tasks automatically is not a unique technical problem. OIP Techs. , 788 F.3d at 1363.\nCellspin also faults the district court for adopting an \"overly simplistic characterization\" of the claims that ignores important limitations. Appellant's Br. at 46. We are not persuaded. While some of the limitations noted by Cellspin-e.g. , using HTTP-may evidence an inventive concept, as explained below, none of them change the fact that the claims as a whole, across all four patents, are directed to an abstract idea.\n2. Step Two\nHaving concluded that the claims are directed to an abstract idea, we next consider whether the claimed elements-\"individually and as an ordered combination\"-recite an inventive concept. Alice , 573 U.S. at 217, 134 S.Ct. 2347 (internal quotation marks omitted). An inventive concept reflects something more than the application of an abstract idea using \"well-understood, routine, and conventional activities previously known to the industry.\" Aatrix , 882 F.3d at 1128 (internal quotation marks and brackets omitted). It must be \" 'enough ' to transform an abstract idea into a patent-eligible invention.\" Alice , 573 U.S. at 226, 134 S.Ct. 2347 (quoting Mayo , 566 U.S. at 77, 132 S.Ct. 1289 ). But \"[i]f a claim's only 'inventive concept' is the application of an abstract idea using conventional and well-understood techniques, the claim has not been transformed into a patent-eligible application of an abstract idea.\" BSG Tech LLC v. Buyseasons, Inc. , 899 F.3d 1281, 1290-91 (Fed. Cir. 2018).\nCellspin's allegations identify several ways in which its application of capturing, transferring, and publishing data was unconventional. For example, Cellspin's amended complaints noted that prior art devices included \"a capture device with built in mobile wireless Internet.\" J.A. 2290. But these devices were \"inferior,\" Cellspin alleged, \"because, especially at the time of the patent priority date ... the combined apparatus [was] bulky, expensive in terms of hardware, and expensive in terms of requiring a user to purchase an extra and/or separate cellular service for the data capture device.\" Id. Against this backdrop, Cellspin alleged that it was unconventional to separate the steps of capturing and publishing data so that each step would be performed by a different device linked via a wireless, paired connection. J.A. 2292-2293. This two-step, two-device structure is discussed throughout the shared specification. See, e.g. , '794 patent, col. 2, ll. 2-54; J.A. 2290 (citing '794 patent, col. 2, ll. 2-3). Cellspin also alleged that this structure provided various benefits over prior art systems. For example, it means the device capturing data only needs to serve one core function-capturing data-and does not need to incorporate other hardware and software components that might be needed to store data or publish it onto the Internet. J.A. 2290. Instead, the data capture device can \"[l]everag[e]\" the hardware and software on a user's mobile device. J.A. 2292-2293. According to Cellspin, this allows data capture devices to be smaller and cheaper to build. J.A. 2293 (discussing how reducing the complexity of hardware allows for smaller size, etc.). It also makes using data capture devices simpler, e.g. , one mobile device with one data plan controls several data capture devices. J.A. 2293-2294. And uploading data via a separate device, wirelessly paired to the data capture device, allows users to access and upload data even if the capture device is physically inaccessible to the user. J.A. 2291.\nCellspin also alleged that its specific ordered combination of elements was inventive. For example, Cellspin alleged that \"inferior\" prior art data capture devices \"forward[ed] data to a mobile device as captured.\" J.A. 2290. By contrast, the claimed inventions require establishing a paired connection between the mobile device and the data capture device before data is transmitted. '794 patent, col. 11, ll. 60-61. According to Cellspin, this ensures that data is only transmitted if the mobile device is capable of receiving it. J.A. 2290 (\"[H]av[ing] the capture device simply forward data to a mobile device as captured ... is inferior because, without a paired connection, there is no assurance that the mobile device is capable (e.g. , on and sufficiently near) of receiving the data.\"). Cellspin also pointed to its use of HTTP, by an \"intermediary device\" and while the data is \"in transit,\" as being inventive. J.A. 2293-2294. Indeed, it specifically alleged that \"HTTP transfers of data received over [a] paired wireless connection to web services [were] non-existent\" prior to its inventions. J.A. 2289; see also '794 patent, col. 10, ll. 4-9 (discussing the use of HTTP); '752 patent, col. 12, ll. 16-36 (reciting the use of HTTP); '698 patent, col. 13, ll. 8-22 (same); '847 patent, col. 12, ll. 62-67 (same).\nThe district court discounted these allegations in granting Appellees' motions to dismiss because Cellspin \"fail[ed] to cite to support in the [shared specification]\" for its allegations. 101 Order , 316 F. Supp. 3d at 1154. In particular, the district court required Cellspin to cite instances where the patents treat this application of HTTP as inventive or contemplate benefits like smaller, streamlined data capture devices. Id. at 1153 (\"The other proffered benefits which relate to ... [the] order or timing of the Bluetooth wireless pairing; and elimination of the need for bulky hardware and costly cell phone services; do not appear in the patent's specification.\" (internal footnote omitted)). In Aatrix , however, we repeatedly cited allegations in the complaint to conclude that the disputed claims were potentially inventive. See, e.g. , 882 F.3d at 1128 (\"There are concrete allegations in the second amended complaint that individual elements and the claimed combination are not well-understood, routine, or conventional activity.\"). While we do not read Aatrix to say that any allegation about inventiveness, wholly divorced from the claims or the specification, defeats a motion to dismiss, plausible and specific factual allegations that aspects of the claims are inventive are sufficient. Id. As long as what makes the claims inventive is recited by the claims, the specification need not expressly list all the reasons why this claimed structure is unconventional. In this case, Cellspin made specific, plausible factual allegations about why aspects of its claimed inventions were not conventional, e.g. , its two-step, two-device structure requiring a connection before data is transmitted. The district court erred by not accepting those allegations as true.\nThe district court also decided that it need not credit Cellspin's allegations because the case Cellspin relied on for that proposition, Berkheimer , could be distinguished because it arose in the context of a motion for summary judgment. 101 Order , 316 F. Supp. 3d 1138, 1154-55 n.12 (\" Berkheimer addressed a defendant's burden at the summary judgment stage, not in the context of a motion to dismiss.\"). That conclusion is impossible to reconcile with Aatrix , where we expressly stated that \"patentees who adequately allege their claims contain inventive concepts survive a \u00a7 101 eligibility analysis under Rule 12(b)(6).\" Aatrix , 882 F.3d at 1126-27. The district court thus further erred by ignoring the principle, implicit in Berkheimer and explicit in Aatrix , that factual disputes about whether an aspect of the claims is inventive may preclude dismissal at the pleadings stage under \u00a7 101.\nAccepting the allegations stated above as true, we cannot conclude that the asserted claims lack an inventive concept. BASCOM Global Internet Services, Inc. v. AT&T Mobility LLC is particularly instructive on this point. 827 F.3d 1341, 1350 (Fed. Cir. 2016) (\"[A]n inventive concept can be found in the non-conventional and non-generic arrangement of known, conventional pieces.\"). In BASCOM , we explained that the placement of a filtering tool \"at a specific location,\" and configured in a particular way, evidenced an inventive concept because the \"limited record\" before us did not demonstrate that the \"specific method of filtering\" claimed \"ha[d] been conventional or generic.\" Id. On the limited record here, and at this stage in the case, we reach the same result with respect to the elements recited by the asserted claims. As noted above, Cellspin specifically alleged that using HTTP at a specific location, here at the intermediary mobile device, was inventive. J.A. 2289, 2293-2294. It further alleged that establishing a paired connection before transmitting data was inventive. J.A. 2290. We have no basis, at the pleadings stage, to say that these claimed techniques, among others, were well-known or conventional as a matter of law.\nAppellees distinguish BASCOM by arguing that the asserted claims simply \"replace a USB or similar cable with Bluetooth.\" Appellees' Br. at 33. But even assuming that Bluetooth was conventional at the time of these inventions, implementing a well-known technique with particular devices in a specific combination, like the two-device structure here, can be inventive. Cf. Richdel, Inc. v. Sunspool Corp. , 714 F.2d 1573, 1580 (Fed. Cir. 1983) (\"Most, if not all, inventions are combinations and mostly of old elements.\"); see also BASCOM , 827 F.3d at 1350. As noted above, Cellspin specifically alleged that its implementation of Bluetooth, using a two-step, two-device structure, was inventive. J.A. 2290-2294. The same is true for the claimed combination of steps-sharing data only after a certain step is performed, using HTTP at another particular step, etc. Id. Cellspin did more than simply label these techniques as inventive. It pointed to evidence suggesting that these techniques had not been implemented in a similar way. See, e.g. , J.A. 2289 (\"It was not until 2009 or later when the leading tech companies, such as Facebook and Google, started releasing HTTP APIs for developers to utilize a HTTP transfer protocol for mobile devices.\"). This sufficiently alleges that Cellspin has claimed significantly more than the idea of capturing, transferring, or publishing data.\nAppellees argue that the limitations relied on by Cellspin \"amount to nothing more than minor variations in the technological environment in which the abstract ideas are implemented.\" Appellees' Br. at 37-38. We disagree. In Electric Power , we explained that merely applying an abstract idea to a \"particular technological environment,\" there \"power-grid monitoring,\" was not enough to transform the underlying idea into something patent eligible. 830 F.3d at 1354-55. But claims that use an environment-a computer, a mobile phone, etc.-to do significantly more than simply carry out an abstract idea are patent eligible. Id. at 1355 (noting that the limitations there did not \"differentiate\" the claims from the underlying mental process). Cellspin's asserted claims do precisely that, at least based on the allegations we must accept as true at this stage. In particular, they recite a specific, plausibly inventive way of arranging devices and using protocols rather than the general idea of capturing, transferring, and publishing data.\nAccordingly, the district court erred by granting the motions to dismiss.\nB. Attorney Fees\nThe district court's error in granting the motions to dismiss necessitates vacatur of its attorney fees award. See, e.g. , Mankes v. Vivid Seats Ltd. , 822 F.3d 1302, 1312 (Fed. Cir. 2016) (\"Because we vacate and remand judgment on the pleadings and no other relief runs in Vivid Seats' favor, Vivid Seats is no longer the 'prevailing party' under \u00a7 285.\"). In the interest of judicial economy, however, we also address certain errors in the district court's attorney fees analysis that could remain issues on remand. See TEK Glob., S.R.L. v. Sealant Sys. Int'l, Inc. , 920 F.3d 777, 780 (Fed. Cir. 2019).\nAccording to the district court, Cellspin should have filed a \"test case\" before asserting its patents here. Attorney Fees Order , 2018 WL 3328164, at *4. But patents granted by the Patent and Trademark Office are presumptively valid. Microsoft Corp. v. i4i Ltd. P'ship , 564 U.S. 91, 100, 131 S.Ct. 2238, 180 L.Ed.2d 131 (2011) (citing 35 U.S.C. \u00a7 282 ). This presumption reflects the fact that the Patent and Trademark Office has already examined whether the patent satisfies \"the prerequisites for issuance of a patent,\" including \u00a7 101. Id. at 95-96, 131 S.Ct. 2238. While an alleged infringer \"may attempt to prove that the patent never should have issued in the first place,\" i.e. , challenge its validity, the alleged infringer must prove that the patent does not satisfy these prerequisites before the patent loses its presumption of validity. Id. at 96-97, 131 S.Ct. 2238. To the extent the district court departed from this principle by concluding that issued patents are presumed valid but not presumed patent eligible , it was wrong to do so. See Berkheimer , 881 F.3d at 1368 (\"Any fact, such as [whether a claim element or combination is well-understood or routine], that is pertinent to the invalidity conclusion must be proven by clear and convincing evidence.\"); see also Microsoft , 564 U.S. at 100, 131 S.Ct. 2238.\nThe district court also faulted Cellspin for amending its complaint just a few days before the scheduled hearing on Appellees' motions to dismiss. Attorney Fees Order , 2018 WL 3328164, at *3. But Cellspin's amendment was timely based on a scheduling order entered by the district court just three days before Cellspin's amendment. J.A. 2264. In fact, the order allowed the parties to amend their pleadings through June 5, 2018 \"without the need for leave of Court.\" Id. Cellspin's decision to amend was also justified in light of Berkheimer and Aatrix , decided just a few weeks earlier. Cf. Aatrix , 882 F.3d at 1128 (\"Aatrix is entitled to file its proposed second amended complaint ....\"). The district court's finding that the timing of Cellspin's amendment contributed to making the case exceptional is therefore clearly erroneous.\nIII. CONCLUSION\nThe district court erred by not accepting Cellspin's well-pleaded allegations as true with respect to whether its patents capture, transfer, and publish data in a way that is plausibly inventive. And, accepting those allegations as true, we cannot say that the asserted claims are ineligible under \u00a7 101 as a matter of law. The district court erred in holding otherwise. We therefore vacate the district court's dismissal and vacate its subsequent award of attorney fees. We remand this case for further proceedings consistent with this opinion.\nVACATED AND REMANDED\nCOSTS\nNo costs.\nSeveral other defendants dropped out of the case before the district court reached a decision on the merits. 101 Order , 316 F. Supp. 3d at 1143 n.1.\nThe district court entered individual but essentially identical orders in each related case. We will refer to a single order throughout.\nCellspin filed separate amended complaints with respect to each Appellee. In relevant part, however, the amended complaints are essentially identical. We will therefore refer to a single amended complaint throughout.\nGiven the similarities between the asserted claims, our eligibility analysis applies equally to all claims asserted across all four patents.",
+        "type": "majority",
+        "author": "O'Malley, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "John J. Edmonds, Edmonds & Schlather, PLLC, Hou-ston, TX, argued for plaintiff-appellant.",
+      "Stanley Joseph Panikowski, III, DLA Piper LLP (US), San Diego, CA, argued for all defendants-appellees in 2018-1817. Defendant-appellee Nike, Inc. in 2018-1817 and 2018-2178 also represented by Richard T. Mulloy ; Amy Walters, East Palo Alto, CA.",
+      "Ricardo Bonilla, Fish & Richardson PC, Dallas, TX, argued for all defendants-appellees in 2018-2178. Defendants-appellees Fossil Group, Inc., Misfit, Inc. in 2018-1817 and 2018-2178 also represented by David Brandon Conrad, Theresa Dawson, Neil J. Mcnabnay ; Dalia Beth Kothari, Redwood City, CA.",
+      "David Shane Brun, Venable, LLP, San Francisco, CA, for defendants-appellees Fitbit, Inc., Moov, Inc. Also represented by Indra Neel Chatterjee, Redwood City, CA; Leslie A. Lee, Washington, DC.",
+      "Rachael D. Lamkin, Lamkin IP Defense, San Francisco, CA, for defendants-appellees Garmin International, Inc., Garmin USA, Inc. in 2018-1817.",
+      "Ryan Seth Goldstein, Quinn Emanuel Urquhart & Sullivan, LLP, Los Angeles, CA, for defendant-appellee Canon U.S.A., Inc. Also represented by Jeffrey Jakhong Ung; Jared Weston Newton, Washington, DC.",
+      "Karineh Khachatourian, Rimon, P.C., Palo Alto, CA, for defendant-appellee GoPro, Inc. Also represented by Nikolaus A. Woloszczuk. Defendant-appellee GoPro, Inc. in 2018-1817 also represented by Daniel T. Mccloskey, Duane Morris LLP, Palo Alto, CA.",
+      "T. Vann Pearce, JR., Orrick, Herrington & Sutcliffe LLP, Washington, DC, for defendant-appellee Panasonic Corporation of North America in 2018-1817. Also represented by Melanie L. Bostwick, Sten Jensen ; Jason Kang Yu, Menlo Park, CA.",
+      "Irfan A. Lateef, Knobbe, Martens, Olson & Bear, LLP, Irvine, CA, for defendant-appellee JK Imaging Ltd. in 2018-1817. Also represented by Daniel C. Kiang."
+    ],
+    "corrections": "",
+    "head_matter": "CELLSPIN SOFT, INC., Plaintiff-Appellant\nv.\nFITBIT, INC., Moov, Inc., dba Moov Fitness, Inc., Nike, Inc., Fossil Group, Inc., Misfit, Inc., Garmin International, Inc., Garmin USA, Inc., Canon U.S.A., Inc., GoPro, Inc., Panasonic Corporation of North America, JK Imaging Ltd., Defendants-Appellees\nCellspin Soft, Inc., Plaintiff-Appellant\nv.\nFitbit, Inc., Moov, Inc., dba Moov Fitness, Inc., Nike, Inc., Fossil Group, Inc., Misfit, Inc., Canon U.S.A., Inc., GoPro, Inc., Defendants-Appellees\n2018-1817\n2018-1819\n2018-1820\n2018-1821\n2018-1822\n2018-1823\n2018-1824\n2018-1825\n2018-1826\n2018-2178\n2018-2179\n2018-2180\n2018-2181\n2018-2183\n2018-2184\nUnited States Court of Appeals, Federal Circuit.\nDecided: June 25, 2019\nJohn J. Edmonds, Edmonds & Schlather, PLLC, Hou-ston, TX, argued for plaintiff-appellant.\nStanley Joseph Panikowski, III, DLA Piper LLP (US), San Diego, CA, argued for all defendants-appellees in 2018-1817. Defendant-appellee Nike, Inc. in 2018-1817 and 2018-2178 also represented by Richard T. Mulloy ; Amy Walters, East Palo Alto, CA.\nRicardo Bonilla, Fish & Richardson PC, Dallas, TX, argued for all defendants-appellees in 2018-2178. Defendants-appellees Fossil Group, Inc., Misfit, Inc. in 2018-1817 and 2018-2178 also represented by David Brandon Conrad, Theresa Dawson, Neil J. Mcnabnay ; Dalia Beth Kothari, Redwood City, CA.\nDavid Shane Brun, Venable, LLP, San Francisco, CA, for defendants-appellees Fitbit, Inc., Moov, Inc. Also represented by Indra Neel Chatterjee, Redwood City, CA; Leslie A. Lee, Washington, DC.\nRachael D. Lamkin, Lamkin IP Defense, San Francisco, CA, for defendants-appellees Garmin International, Inc., Garmin USA, Inc. in 2018-1817.\nRyan Seth Goldstein, Quinn Emanuel Urquhart & Sullivan, LLP, Los Angeles, CA, for defendant-appellee Canon U.S.A., Inc. Also represented by Jeffrey Jakhong Ung; Jared Weston Newton, Washington, DC.\nKarineh Khachatourian, Rimon, P.C., Palo Alto, CA, for defendant-appellee GoPro, Inc. Also represented by Nikolaus A. Woloszczuk. Defendant-appellee GoPro, Inc. in 2018-1817 also represented by Daniel T. Mccloskey, Duane Morris LLP, Palo Alto, CA.\nT. Vann Pearce, JR., Orrick, Herrington & Sutcliffe LLP, Washington, DC, for defendant-appellee Panasonic Corporation of North America in 2018-1817. Also represented by Melanie L. Bostwick, Sten Jensen ; Jason Kang Yu, Menlo Park, CA.\nIrfan A. Lateef, Knobbe, Martens, Olson & Bear, LLP, Irvine, CA, for defendant-appellee JK Imaging Ltd. in 2018-1817. Also represented by Daniel C. Kiang.\nBefore Lourie, O'Malley, and Taranto, Circuit Judges."
+  },
+  "file_name": "1306-01",
+  "first_page_order": 1306,
+  "last_page_order": 1320
+}

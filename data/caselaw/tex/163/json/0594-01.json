@@ -1,0 +1,113 @@
+{
+  "id": 2263583,
+  "name": "James F. Bland v. J. W. Free",
+  "name_abbreviation": "Bland v. Free",
+  "decision_date": "1962-07-11",
+  "docket_number": "No. A-8079",
+  "first_page": "594",
+  "last_page": "596",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "163 Tex. 594"
+    },
+    {
+      "type": "parallel",
+      "cite": "359 S.W.2d 297"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "8 L. Ed. 2d 180",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        6171175
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/369/0663-01"
+      ]
+    },
+    {
+      "cite": "337 S.W. 2d 805",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10165988
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/337/0805-01"
+      ]
+    },
+    {
+      "cite": "344 S.W. 2d 435",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2261896,
+        2261876,
+        10160291,
+        10160452
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/162/0042-01",
+        "/tex/162/0072-01",
+        "/sw2d/344/0435-01",
+        "/sw2d/344/0435-02"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 155,
+    "char_count": 1548,
+    "ocr_confidence": 0.58,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.07822541005286408
+    },
+    "sha256": "2dbd460390332dd04715c170f961613ac00a40649f894567108b5cb64eca38a6",
+    "simhash": "1:3ae2a4b5e35e4d9a",
+    "word_count": 268
+  },
+  "last_updated": "2024-02-27T22:19:56.646811+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "James F. Bland v. J. W. Free"
+    ],
+    "opinions": [
+      {
+        "text": "PER CURIAM.\nAs reported in 344 S.W. 2d 435, acting under Rule 483, Rules of Civil Procedure, we reversed the judgment of the Court of Civil Appeals and affirmed the judgment of the trial court in this cause. (337 S.W. 2d 805.)\nThe Supreme Court of the United States granted a writ of certiorari, and on May 21, 1962, reversed our decision and remanded the cause to us for proceedings not inconsistent with their opinion._____JJ.S.______; 82 S. Ct._____; 8 L. Ed. 2d 180.\nIn the course of its opinion the Court said:\n\u201cThe regulations are not intended to be a shield for fraud, and relief would be available in a case where the circumstances manifest fraud or a breach of trust tantamount thereto on the part of a husband while acting in his capacity as manager of the general community property. However, the doctrine of fraud applicable under federal law in such a case must be determined on another day, for this issue is not presently here.\u2019*\nWe have examined the transcript of the pleadings in the trial court, and there are no allegations of fraud contained in any of the pleadings filed by petitioner, James F. Bland. Under this record no such issue is raised in this cause.\nOur judgment heretofore entered March 8, 1961 is set aside, and the application for writ of error is refused, no reversible error.\nOpinion delivered July 11, 1962.",
+        "type": "majority",
+        "author": "PER CURIAM."
+      }
+    ],
+    "attorneys": [
+      "Olin P. McWhirter, Greenville, Florence, Garrison & Holt, for petitioner.",
+      "Fulton, Hancock & McClain, Gilmer, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "James F. Bland v. J. W. Free\nNo. A-8079.\nDecided July 11, 1962\n359 S.W. 2d 297\nOlin P. McWhirter, Greenville, Florence, Garrison & Holt, for petitioner.\nFulton, Hancock & McClain, Gilmer, for respondent."
+  },
+  "file_name": "0594-01",
+  "first_page_order": 622,
+  "last_page_order": 624
+}

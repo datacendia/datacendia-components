@@ -1,0 +1,59 @@
+{
+  "id": 5963200,
+  "name": "Williams v. ALFA Insurance Cos.",
+  "name_abbreviation": "Williams v. ALFA Insurance Cos.",
+  "decision_date": "2011-04-04",
+  "docket_number": "No. 10-8705",
+  "first_page": "919",
+  "last_page": "919",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 919"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 83,
+    "ocr_confidence": 0.649,
+    "sha256": "73fa801b6cbef17122e4350008bda727bdb6340408b33a0825834f7a41b2af0a",
+    "simhash": "1:c7732bf1561d6140",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Williams v. ALFA Insurance Cos."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Civ. App. Ala. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8705.\nWilliams v. ALFA Insurance Cos."
+  },
+  "file_name": "0919-14",
+  "first_page_order": 945,
+  "last_page_order": 945
+}

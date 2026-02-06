@@ -1,0 +1,451 @@
+{
+  "id": 2308503,
+  "name": "Mrs. Minnie Lee Fleck et al. v. Robert B. Baldwin et al.",
+  "name_abbreviation": "Fleck v. Baldwin",
+  "decision_date": "1943-07-07",
+  "docket_number": "No. 8100",
+  "first_page": "340",
+  "last_page": "348",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "141 Tex. 340"
+    },
+    {
+      "type": "parallel",
+      "cite": "172 S.W.2d 975"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "6 S. W. (2d) 499",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "opinion_index": -1
+    },
+    {
+      "cite": "224 Ky. 493",
+      "category": "reporters:state",
+      "reporter": "Ky.",
+      "case_ids": [
+        5010585
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ky/224/0493-01"
+      ]
+    },
+    {
+      "cite": "55 Atl. 1091",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "65 N. J. Eq. 721",
+      "category": "reporters:state",
+      "reporter": "N.J. Eq.",
+      "case_ids": [
+        196179
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/nj-eq/65/0721-01"
+      ]
+    },
+    {
+      "cite": "94 Texas 547",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2233551
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/94/0547-01"
+      ]
+    },
+    {
+      "cite": "75 N. Y. 134",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        536939
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ny/75/0134-01"
+      ]
+    },
+    {
+      "cite": "153 S. W. (2d) 440",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10219930,
+        2314987
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/153/0440-01",
+        "/tex/137/0387-01"
+      ]
+    },
+    {
+      "cite": "137 Texas 387",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2314987
+      ],
+      "pin_cites": [
+        {
+          "page": "390"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/137/0387-01"
+      ]
+    },
+    {
+      "cite": "185 Atl. 319",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "322 Pa. 17",
+      "category": "reporters:state",
+      "reporter": "Pa.",
+      "case_ids": [
+        1167898
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/pa/322/0017-01"
+      ]
+    },
+    {
+      "cite": "153 Atl. 382",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "107 N. J. Eq. 547",
+      "category": "reporters:state",
+      "reporter": "N.J. Eq.",
+      "case_ids": [
+        963990
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nj-eq/107/0547-01"
+      ]
+    },
+    {
+      "cite": "2 N. E. (2d) 446",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "294 Mass. 396",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        481427
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/294/0396-01"
+      ]
+    },
+    {
+      "cite": "258 S. W. 1000",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "302 Mo. 334",
+      "category": "reporters:state",
+      "reporter": "Mo.",
+      "case_ids": [
+        1860577
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mo/302/0334-01"
+      ]
+    },
+    {
+      "cite": "71 Atl. 1135",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "71 N. J. Eq. 777",
+      "category": "reporters:state",
+      "reporter": "N.J. Eq.",
+      "case_ids": [
+        161584
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nj-eq/71/0777-01"
+      ]
+    },
+    {
+      "cite": "61 Atl. 267",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "69 N. J. Eq. 743",
+      "category": "reporters:state",
+      "reporter": "N.J. Eq.",
+      "case_ids": [
+        206432
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nj-eq/69/0743-01"
+      ]
+    },
+    {
+      "cite": "22 N. E. 940",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "117 N. Y. 421",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        564499
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/117/0421-01"
+      ]
+    },
+    {
+      "cite": "123 A. L. R. 1331",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "130 S. W. (2d) 809",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "279 Ky. 334",
+      "category": "reporters:state",
+      "reporter": "Ky.",
+      "case_ids": [
+        5313717
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ky/279/0334-01"
+      ]
+    },
+    {
+      "cite": "96 A. L. R. 379",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "156 Atl. 69",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "304 Pa. 481",
+      "category": "reporters:state",
+      "reporter": "Pa.",
+      "case_ids": [
+        1132387
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/pa/304/0481-01"
+      ]
+    },
+    {
+      "cite": "230 Mo. App. 524",
+      "category": "reporters:state",
+      "reporter": "Mo. App.",
+      "case_ids": [
+        1839235
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/mo-app/230/0524-01"
+      ]
+    },
+    {
+      "cite": "104 N. W. 620",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "141 Mich. 370",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1505700
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/141/0370-01"
+      ]
+    },
+    {
+      "cite": "154 S. W. (2d) 961",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10226473
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/154/0961-01"
+      ]
+    },
+    {
+      "cite": "91 S. W. (2d) 372",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10251250
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/91/0372-01"
+      ]
+    },
+    {
+      "cite": "71 S. W. (2d) 544",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10244993
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/71/0544-01"
+      ]
+    },
+    {
+      "cite": "207 S. W. 626",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8270766
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/207/0626-01"
+      ]
+    },
+    {
+      "cite": "39 S. W. (2d) 587",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10267709
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/39/0587-01"
+      ]
+    },
+    {
+      "cite": "1 Texas 161",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        6769985
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/1/(112)-01"
+      ]
+    },
+    {
+      "cite": "168 S. W. (2d) 904",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10223914
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/168/0904-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 958,
+    "char_count": 19933,
+    "ocr_confidence": 0.615,
+    "pagerank": {
+      "raw": 4.752716132890282e-07,
+      "percentile": 0.9300727571375783
+    },
+    "sha256": "800ba931893a4592dd544df42955bd498c7f8d0d60fe79c2a77e0265027168c1",
+    "simhash": "1:fb77e0177c1e6d2c",
+    "word_count": 3434
+  },
+  "last_updated": "2024-02-27T17:50:53.882340+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mrs. Minnie Lee Fleck et al. v. Robert B. Baldwin et al."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Judge Hickman\nof the Commission of Appeals delivered the opinion for the Court.\nBy this litigation- petitioners seek to establish title to, and right of possession of certain savings accounts and stock certificates in building and loan associations, which accounts were opened and which certificates were purchased by Mr. J. C. Baldwin during her lifetime. Mrs. Baldwin died intestate on June 15, 1941. The petitioners are her sisters, brothers and other collateral kin and the respondents are her grandsons, who are administrators of her estate and sole heirs thereto. Other respondents are the banks in which the accounts were parried and the building and loan associations in which certificates were purchased by Mrs. Baldwin. Three separate suits were filed by the different petitioners, but all were consolidated and tried as one suit before the court without the aid of a jury. Findings of fact and conclusions of law were filed by the trial judge, upon which findings and conclusions judgment was rendered in favor, of petitioners \u2022 severally in accordance with their respective prayers. In a well considered opinion the trial court\u2019s judgment was reversed by the Court of Civil Appeals at Galveston and judgment was rendered that the petitioners take nothing by their suit. 168 S. W. (2d) 904.\nOn December 8, 1928, Mrs. Baldwin opened two savings accounts in The South Texas Commercial National Bank in Houston and two days later one such account in The Union National Bank of Houston. These accounts were in the following names respectively: \u201cMrs. J. C. Baldwin, in trust for Mrs. Annie T. Lomax,\u201d Mrs. J. C. Baldwin, in trust for Mrs. Cora Winn,\u201d and. \u201cMrs. J. C. Baldwin, in trust for Mrs. L. J. Fleck.\u201d Mrs. L. J. Fleck and Mrs. Minnie Lee Fleck are one and the same person. When these accounts were opened she deposited $5,000.00 of her own funds in each. The following July she withdrew from the first account approximately $2,400.00, and from the second account $2,500.00, and on the following January withdrew from each approximately $250.00. She made no withdrawals from the third account. No additional deposits were made on any of these accounts until \u25a0 August, '1936, at which time she deposited $400.00 to the account in the name of Mrs. Winn. Thereafter, beginning-in March, 1938, she made deposits at various .times and in varying amounts to the first two accounts, so that at the time of her death the amounts in these accounts were $5,146.69 and $5,-148.18, respectively. The account in the name of Mrs. Fleck, from which no withdrawals were made, amounted at that time to $6,506.74. On April 16, 1928, abotit eight months before she opened these savings accounts, Mrs. Baldwin wrote in her own handwriting the following instrument:\n\u201cTo Whom it May Concern:\n\u201cI, Mrs. J. C. Baldwin wills & decrees all her property known as Baker Addition & Rummell\u2019s Addition in the 4th Ward in the City of Houston with all improvements and appurtainces to my daughter-in-law Myrta Lynch Baldwin, to have & to hold & dispose of as she sees best. I also leave her in charge of a trust fund for my five Bros. & Sisters, to wit Cora Winn, Annie Lomax, Minnie Fleck, William A. Thomson and June C. Thomson, also Annie May Burkhart; $5000.00 each making $30,000.00 Thirty Thousand Dollars. This money is to be placed in Banks & only the interest drawn for each one, annually shall be paid, Each one to receive the interest only from $5,000.00 each which will be $200.00 per year to spend as they see fit. The $30,000.00 so placed is to revert back to my estate at the death of any of the beneficiaries so named in this will & only the interest of $5000.00 is to go to each one so long as they live; signed & witnessed, Hattie O. Baldwin by my grandson, J. C. Baldwin\u2014 J. C. Baldwin \u2014 Age 13.\u201d\nThe above instrument was revoked by will written by Mrs. Baldwin in the fall of 1929, unless same had been revoked in some manner prior thereto. The will written in the fall of 1929 was not found after the death of Mrs. Badwin and its contents were not established upon the trial. Neither Mrs. Lomax, Mrs. Winn, nor Mrs. Fleck, who were sisters of Mrs. Baldwin, had any knowledge of the existence of these accounts until after Mrs. Baldwin\u2019s death. During her lifetime Mrs. Baldwin retained exclusive possession of the pass books issued by the banks on each of these accounts and from time to time presented same for entry and posting of interest, withdrawals and deposits.\nBeginning in 1936, and extending to January, 1941, Mrs. Baldwin purchased many shares of stock in different building and loan associations. In general she followed the same procedure in purchasing and handling some of the stock that she employed in opening and handling.the bank accounts. The certificates would be made to her as trustees for various named persons. These persons included her sisters, her brothers and a brother\u2019s wife. In purchasing these stock certificates she executed cards in the nature of applications to purchase. In a few instances the applications were made on forms provided by one of the building and loan associations to be used in the purchase of stock in trust for other persons. By the terms of such applications no present trusts were created, but only contingent gifts from her to the named beneficiaries conditioned upon the fact that they survived her. Most of the certificates of stock were purchased upon the forms generally employed by purchasers of stock. Mrs. Baldwin retained exclusive possession of all the building and loan certificates involved in this litigation throughout her lifetime and, as in the case of the savings accounts, not one of the petitioners had any knowledge of the existence of these certificates until after the death of Mrs. Baldwin. The associations paid dividend checks semi-annually. Mrs. Baldwin received these checks, endorsed them in the name of the person to whom the certificates were issued, and in all instances deposited them in her own personal checking account and used the proceeds in such manner as she wished.\nIt was stipulated that at the time of her death Mrs. Baldwin had a savings account in every bank in the City of Houston, with the single exception of one bank, and that she owned stocks and certificates in three separate building and loan associations \u2019 in Houston. The stipulation lists eleven separate savings accounts not involved herein standing in her individual name. Another stipulation was that no representative of the banks recalled having had any conversation with Mrs. Baldwin as to the savings account, the title thereto, or as to her reasons for opening said accounts in such manner. Other stipulations were to the effect that Mrs. Baldwin\u2019s sisters and brothers ranged in ages from 62 to 79; that one of her brothers had been adjudged non compos mentis and was confined in the State Hospital for the insane at Austin; that none of the petitioners owned properties exceeding in value the sum of $2,000.00; that Mrs. Fleck and Mrs. Lomax for a period of at least two years prior to the making of the stipulation had been receiving state old age pensions averaging approximately $15.00 per month, and that there had been no material change in the financial status or condition of any of the petitioners during the past five years.\nThe trial court found, in substance, that all deposits and purchases of stock made by Mrs. Baldwin and involved in this suit were made for the persons named as beneficiaries, respectively, and were completed gifts in equity at the time of such deposits and purchases. That court further found that all amounts withdrawn from the savings accounts by Mrs. Baldwin were withdrawn in her capacity as trustee \u201cand without authority,\u201d and that the additional deposits were made with the same intent and the same effect as her original deposits. The Court of Civil Appeals held that the evidence was insufficient, as a matter of law, to support the trial court\u2019s findings and, as indicated above, rendered judgment that the petitioners take nothing.\nWhile the transactions under review are in the form of voluntary trusts, they are governed in general by the rules applicable to gifts. The principal difference between such a trust and a gift lies in the fact that in the case of a gift the thing given passes to the donee, while in the case of a voluntary trust only the equitable or beneficial title passes to the cestui qui trust. In each case the equitable title must pass immediately and unconditionally and the transfer thereof must be so complete that the donee might maintain an action for the conversion of the property. Absent a completed gift of the equitable title, no trust is created, for an imperfect gift will not be enforced as a trust merely because of its imperfection. A gift cannot be made to take effect in the future, for the reason that a promise to give is without consideration. Neither can the donor retain the right to use and enjoy the property during his lifetime and direct its disposition after his death in any manner other than by the making of a will. Unless Mrs. Baldwin, therefore, intended at the very time she opened these several accounts and purchased these various stock certificates to pass the equitable .title thereto so that the exercise by her of any further dominion over same, except in the fiduciary capacity of trustee, would be wrongful, then no gifts were made or trusts created by such transactions. Each of the foregoing statements is supported by one or more of the following authorities: Chevallier v. Wilson, 1 Texas 161; Harmon v. Schmitz, (Com. App.) 39 S. W. (2d) 587; Samuell v. Brooks, 207 S. W. 626 (Error Refused); Peterson v. Weiner, 71 S. W. (2d) 544 (Error Refused); Benavides v. Laredo National Bank, 91 S. W. (2d) 372; Chaison v. Chaison, 154 S. W. (2d) 961 (Error refused for want of merit); Botsford v. Burr, 141 Mich. 370, 104 N. W. 620; Coon v. Stanley, 230 Mo. App. 524, 94 S. W. (2d) 96; Re Allshouse, 304 Pa. 481, 156 Atl. 69, 96 A. L. R. 379; Frazier v. Hudson, 279 Ky. 334, 130 S. W. (2d) 809, 123 A. L. R. 1331.\nMuch has been written on the subject of voluntary trusts created by the deposit of money in savings accounts. There is a minority view to the effect that the mere fact that a deposit was made by one person in trust for another creates a presumption that the depositor intended to set up an irrevocable trust, but the overwhelming weight of authority establishes the rule to be made that such fact, standing alone, does not even create a .presumption that an irrevocable trust was intended. As stated in Bogert\u2019s Trust and Trustees, Vol. l, Sec. 47:\n\u201cBut the peculiarity with respect to these so-called \u2018savings bank trusts\u2019 is that the courts require that the declarant shall express his intent to create a trust more clearly and by a larger number of acts than in the case of an ordinary trust. The deposit of money in a bank under a trust title is considered equivocal. Men frequently deposit money under a trust title from other motives than that of creating a trust. * * *\n\u201cThe possibility that the depositor may be influenced by other' motives than the trust motive has caused the courts very generally to hold that the bare deposit under a trust title does not result in the creation of a trust. The claimant must show by other facts than the mere deposit that the object was the. creation of a true trust.\u201d\nThe following authorities, among others, are to the- same general effect: Beaver v. Beaver, 117 N. Y. 421, 22 N. E. 940; Nicklas v. Parker, 69 N. J. Eq. 743, 61 Atl. 267 (affirmed 71 N. J. Eq. 777, 71 Atl. 1135, 14 Ann. Cas. 921); Frank v. Heimann, 302 Mo. 334, 258 S. W. 1000; Hogarth-Swann v. Steele, 294 Mass. 396, 2 N. E. (2d) 446; Johnson v. Savings Investment & Trust Co., 107 N. J. Eq. 547, 153 Atl. 382; E. P. Wilbur Trust Co. v. Knadler, 322 Pa. 17, 185 Atl. 319; 7 Am. Jur., Banks, Sec. 438.\nSome authorities speak of these transactions as being equivocal, while others refer to them as being ambiguous. The two words are synonymous and, as used in this connection, both connote that such transactions have two or more equally applicable significations. The ultimate, controlling fact to be determined is the intention of the donor. Such a transaction does or does not create a trust according as the donor intended. Since in this case no one but Mrs. Baldwin knew or could have known what were her real intentions in these transactions, that fact must be arrived at by a consideration of her relevant acts and declarations prior to, at the time of, and subsequent to the various transactions. As stated in the application for writ of error:\n\u201cThe intention referred to is to be ascertained, not by the application of barren concepts to a single fact, but \u2018by rational deductions\u2019 based upon all the facts.\u201d\nA careful consideration of the record as a whole has created in our minds the firm conviction that Mrs. Baldwin never intended by any of the transactions under review to part with all dominion and control over the funds involved in such manner as to create an irrevocable trust. It may be true, and doubtless it is true, that Mrs. Baldwin entertained at times the thought of rendering some character of financial assistance at some future date to her sisters and brothers in their straitened financial circumstances. That she had such intention a few months prior to the opening by her of the savings accounts is made manifest by the instrument copied above, which she wrote in the form of a will on April 16, 1928. The character and extent of assistance which she then intended, as reflected by that instrument, was the income on $5,000.00 for each of her six named relatives, but that was not to pass to them until after her death. She estimated that the income on $5,000.00 would amount to $200.00 per year. It might well be concluded that, in the creation of these savings accounts she then had in mind, in part, the carrying out of that intention. But we do not base our decision upon that conclusion.\nAt the time of the opening of these various accounts and the purchasing of these various stock certificates Mrs. Baldwin made no statements to the persons with whom she was dealing, or to others, so far as this record discloses, indicating that she thereby intended to part with the equitable title to the'funds involved. Her acts after the opening of these accounts and the purchasing of these shares of stock can be explained in no other manner than that she regarded them as her own. A conclusion that she did not so regard them would convict her of having despoiled the trust funds. The trial court found that she withdrew funds from these accounts and appropriated the income therefrom in her capacity as trustee and \u201cwithout authority.\u201d Its judgment rests, as of necessity it must, upon the presumption that Mrs. Baldwin violated the trust which she \u25a0voluntarily assumed to execute. Such presumption cannot be indulged, but, on the contrary, the presumption must be indulged that she acted honestly; That presumption is inconsistent with the theory-that she intended to give these various funds to petitioners.\nIt is claimed that the relative financial conditions of the parties afford evidence that Mrs. Baldwin intended to make these various gifts. It is disclosed that Mrs. Baldwin\u2019s estate was valued at approximately $400,000.00, and that her relatives were very poor. These facts suggest that she could have well afforded to be generous and charitable toward them, but, when considered in the light of her actions, they all but compel the opposite conclusion to that insisted upon by petitioners. She knew that they were old and that their conditions were necessitous. If she also knew that each had money to meet his or her needs, which she would have known had she created trusts for them, it would have been quite unnatural for her, not only to withhold that information from them, but to have appropriated the income derived from .their money to her own use.\nIt is claimed that subsequent declarations made by Mrs. Baldwin disclosed that she * recognized the funds as belonging to her sisters and brothers. These declarations consisted of statements made by her to two witnesses. One of these witnesses was a Mr. Barclay, a bank official, who was asked this question: \u201cIn connection with that conversation, or any other that you had with her, did she say anything about what she had done for her sisters ?\u201d Answer. \u201cNot that I recall, in detail, no, sir. She did say that she had, if I recall correctly, she said that she had done something for them, but what it was, I do not recall. I don\u2019t think she went into detail with me about what she had done, if anything.\u201d Another statement was made to a neighbor, but it was no more enlightening than the one just above quoted. This testimony is too indefinite and uncertain to lend support to the conclusion that Mrs. Baldwin intended at the time of these various transactions to create irrevocable trusts.\nThe authorities cited herein in the main deal with savings accounts. The same rules of decision applicable to such accounts would govern as to these stock transactions. There is no more evidence that she intended to pass title to these shares of stock than that she intended to pass title to the savings accounts. In fact, an investment motive was apparent as to them.\nPetitioners point out that before some of the shares of this stock were purchased there came into effect an act of the Second Called Session of the 41st Legislature, ch. 61, Vernon\u2019s Texas Civil Statutes, art. 881a~24, authorizing a fiduciary, in such capacity, to acquire and hold shares in building and loan associations. As we view that statute, it has no bearing upon the question here for decision. It deals with the investment by a fiduciary of trust funds. The argument of petitioners assumes the very question at issue, namely, that Mrs. Baldwin acted as a fiduciary and invested trust funds.\nThis record falls short of establishing- by clear, satisfactorily and convincing evidence that trusts were created, but rather it presents the picture of a widow charged with the responsibility of administering a rather large estate who was in a constant state of indecision as to the method of disposing of it. One fact, we think, clearly stands out, and that is that she never intentionally parted with her right personally to exercise dominion and control over any part of her estate, but constantly retained and exercised the authority to use and dispose of it as she willed.\nThe judgment of the Court of Civil Appeals reversing and rendering this case is affirmed.\nOpinion adopted by the Supreme Court July 7, 1943.",
+        "type": "majority",
+        "author": "Mr. Judge Hickman"
+      }
+    ],
+    "attorneys": [
+      "M. G. Fakes, H. E. Bell, Jesse J. Lee and Williams, Lee, Kennerly & Cameron, all of Houston, and Black, Graves & Stay ton and Charles L. Black, all of Austin, for petitioners.",
+      "Leon M. Payne, Harry R. Jones, Anclretvs, Kelley, Kurth & Campbell, all of Houston, and Dan Moody, of Austin, for respondents. ."
+    ],
+    "corrections": "",
+    "head_matter": "Mrs. Minnie Lee Fleck et al. v. Robert B. Baldwin et al.\nNo. 8100.\nDecided July 7, 1943.\n(172 S. W., 2d Series, 975.)\nM. G. Fakes, H. E. Bell, Jesse J. Lee and Williams, Lee, Kennerly & Cameron, all of Houston, and Black, Graves & Stay ton and Charles L. Black, all of Austin, for petitioners.\nThe making of the deposits and the issuance of the certificates in the form in which they were made and issued constituted written declarations by Mrs. Baldwin, directly and clearly evidencing her intention to create trusts in favor of the petitioners. In making the deposits and in purchasing the shares, she transferred money personally from herself to herself as trusts for petitioners, thereby surrendering all personal control over them except in her capacity as trustee. Peacock v. Joy, 137 Texas 387, 390, 153 S. W. (2d) 440; Martin v. Funk, 75 N. Y. 134; Cowen v. First Natl. Bank, 94 Texas 547.\nLeon M. Payne, Harry R. Jones, Anclretvs, Kelley, Kurth & Campbell, all of Houston, and Dan Moody, of Austin, for respondents. .\nThe facts proven are sufficient, to establish either an intention to give a complete gift, or an executed trust. Stevenson v. Earl, 65 N. J. Eq. 721, 55 Atl. 1091; Peters v. Peters, 224 Ky. 493, 6 S. W. (2d) 499."
+  },
+  "file_name": "0340-01",
+  "first_page_order": 358,
+  "last_page_order": 366
+}

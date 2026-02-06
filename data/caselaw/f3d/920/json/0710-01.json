@@ -1,0 +1,827 @@
+{
+  "id": 12520722,
+  "name": "Pablo GUEVARA, Plaintiff-Appellant, v. NCL (BAHAMAS) LTD., a Bermuda Company doing business as Norwegian Cruise Line, Defendant-Appellee.",
+  "name_abbreviation": "Guevara v. NCL (Bahamas) Ltd.",
+  "decision_date": "2019-04-01",
+  "docket_number": "No. 17-14889",
+  "first_page": "710",
+  "last_page": "729",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "920 F.3d 710"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "11th Cir.",
+    "id": 9031,
+    "name": "United States Court of Appeals for the Eleventh Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "770 F.2d 1012",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        332962
+      ],
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "1014",
+          "parenthetical": "holding that once a duty to warn is established, the adequacy of the warning is usually a question for the jury"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/770/1012-01"
+      ]
+    },
+    {
+      "cite": "203 F.Supp.3d 1189",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1192"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "359 F.3d 892",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9286407
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "896"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/359/0892-01"
+      ]
+    },
+    {
+      "cite": "2017 WL 3405531",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "*4"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "945 F.Supp.2d 1351",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        4231069
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "1355",
+          "parenthetical": "finding no evidence of notice where plaintiff cannot offer \"any accident reports, passenger comment reviews or forms, or reports from safety inspections\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/945/1351-01"
+      ]
+    },
+    {
+      "cite": "64 F.3d 590",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7414260
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "593"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/64/0590-01"
+      ]
+    },
+    {
+      "cite": "477 U.S. 317",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6207800
+      ],
+      "weight": 3,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "325"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/477/0317-01"
+      ]
+    },
+    {
+      "cite": "677 F. App'x 599",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        12396702
+      ],
+      "weight": 5,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "600"
+        },
+        {
+          "page": "601"
+        },
+        {
+          "page": "602",
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/677/0599-01"
+      ]
+    },
+    {
+      "cite": "861 F.2d 655",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10531099
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "661-62"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/861/0655-01"
+      ]
+    },
+    {
+      "cite": "2009 WL 10666976",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "*3"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "838 F.2d 63",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1310195
+      ],
+      "weight": 3,
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "65"
+        },
+        {
+          "page": "66"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/838/0063-01"
+      ]
+    },
+    {
+      "cite": "358 U.S. 625",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3651900
+      ],
+      "weight": 3,
+      "year": 1959,
+      "pin_cites": [
+        {
+          "page": "630"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/358/0625-01"
+      ]
+    },
+    {
+      "cite": "616 F.2d 825",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1392103
+      ],
+      "weight": 2,
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "827"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/616/0825-01"
+      ]
+    },
+    {
+      "cite": "693 F.3d 1333",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3518610
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "1336",
+          "parenthetical": "quoting Daigle v. Point Landing, Inc. , 616 F.2d 825, 827 (5th Cir. 1980) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/693/1333-01"
+      ]
+    },
+    {
+      "cite": "867 F.2d 1318",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10536863
+      ],
+      "weight": 5,
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "1320-21"
+        },
+        {
+          "page": "1322"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/867/1318-01"
+      ]
+    },
+    {
+      "cite": "477 U.S. 242",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6206897
+      ],
+      "weight": 3,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "248"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/477/0242-01"
+      ]
+    },
+    {
+      "cite": "749 F.3d 1318",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4065838
+      ],
+      "weight": 2,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "1321"
+        },
+        {
+          "page": "1321"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/749/1318-01"
+      ]
+    },
+    {
+      "cite": "527 F.3d 1253",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3567651
+      ],
+      "weight": 6,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "1264-65"
+        },
+        {
+          "page": "1265"
+        },
+        {
+          "page": "1266"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/527/1253-01"
+      ]
+    },
+    {
+      "cite": "2016 WL 3102225",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "*6"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "549 F.3d 1344",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5735409
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "1363",
+          "parenthetical": "\"Under Rule 37(c)(1), a district court clearly has authority to exclude an expert's testimony where a party has failed to comply with Rule 26(a) unless the failure is substantially justified or harmless.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/549/1344-01"
+      ]
+    },
+    {
+      "cite": "796 F.3d 1275",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5768232
+      ],
+      "weight": 5,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1281"
+        },
+        {
+          "page": "1279"
+        },
+        {
+          "page": "1288-89"
+        },
+        {
+          "page": "1288"
+        },
+        {
+          "page": "1279",
+          "parenthetical": "citing Mihailovich v. Laatsch , 359 F.3d 892, 896, 921 n.2 (7th Cir. 2004) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/796/1275-01"
+      ]
+    },
+    {
+      "cite": "475 F.3d 1239",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3754684
+      ],
+      "weight": 2,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "1250"
+        },
+        {
+          "page": "1252",
+          "parenthetical": "\"[A] supplemental expert report may be excluded pursuant to Federal Rule of Civil Procedure 37(c) if a party fails to file it prior to the deadline imposed.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/475/1239-01"
+      ]
+    },
+    {
+      "cite": "93 F.Supp.3d 1311",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "case_ids": [
+        4334533
+      ],
+      "weight": 2,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1323"
+        },
+        {
+          "page": "1322-23"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-3d/93/1311-01"
+      ]
+    },
+    {
+      "cite": "709 F. App'x 563",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        12410002
+      ],
+      "weight": 6,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "parenthetical": "unpublished"
+        },
+        {
+          "page": "564"
+        },
+        {
+          "page": "563-64"
+        },
+        {
+          "page": "564"
+        },
+        {
+          "page": "566-67"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f-appx/709/0563-01"
+      ]
+    },
+    {
+      "cite": "912 F.2d 1355",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        9052748
+      ],
+      "weight": 4,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "1357"
+        },
+        {
+          "page": "1359"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/912/1355-01"
+      ]
+    },
+    {
+      "cite": "2017 WL 8794706",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "*4",
+          "parenthetical": "concluding that cruise ship operator had notice of dangerous condition created by zip line from prior reports of substantially similar incidents"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "910 F.3d 1359",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12519396
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1370",
+          "parenthetical": "accepting that that prior reports of similar incidents are sufficient to provide a cruise ship operator with notice of a dangerous condition"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/910/1359-01"
+      ]
+    },
+    {
+      "cite": "693 F.3d 1333",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3518610
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "1336",
+          "parenthetical": "identifying duty and breach as separate elements of a negligence claim"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/693/1333-01"
+      ]
+    },
+    {
+      "cite": "867 F.2d 1318",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10536863
+      ],
+      "weight": 4,
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "1322",
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/867/1318-01"
+      ]
+    },
+    {
+      "cite": "796 F.3d 1275",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5768232
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1288-89",
+          "parenthetical": "concluding that a cruise ship operator had notice that the ship's pool deck could be slippery after rain from evidence that crew members sometimes posted warning signs on the pool deck after rain"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/796/1275-01"
+      ]
+    },
+    {
+      "cite": "741 F. App'x 607",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "weight": 5,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        },
+        {
+          "page": "608"
+        },
+        {
+          "page": "609"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "713 F. App'x 905",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        12414004
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "908",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/f-appx/713/0905-01"
+      ]
+    },
+    {
+      "cite": "709 F. App'x 563",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        12410002
+      ],
+      "weight": 4,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "566-67",
+          "parenthetical": "per curiam"
+        },
+        {
+          "parenthetical": "per curiam"
+        },
+        {
+          "page": "564-66"
+        },
+        {
+          "page": "565"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/f-appx/709/0563-01"
+      ]
+    },
+    {
+      "cite": "912 F.2d 1355",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        9052748
+      ],
+      "weight": 6,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "1358-59"
+        },
+        {
+          "page": "1359"
+        },
+        {
+          "page": "1357"
+        },
+        {
+          "page": "1359"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/f2d/912/1355-01"
+      ]
+    },
+    {
+      "cite": "867 F.2d 1318",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10536863
+      ],
+      "weight": 3,
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "1322",
+          "parenthetical": "per curiam"
+        },
+        {
+          "page": "1322"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/f2d/867/1318-01"
+      ]
+    },
+    {
+      "cite": "796 F.3d 1275",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5768232
+      ],
+      "weight": 2,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1287-88"
+        },
+        {
+          "page": "1287-88"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/f3d/796/1275-01"
+      ]
+    },
+    {
+      "cite": "93 F.Supp.3d 1311",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "case_ids": [
+        4334533
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1323"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/f-supp-3d/93/1311-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1646,
+    "char_count": 54222,
+    "pagerank": {
+      "raw": 4.89950402824256e-08,
+      "percentile": 0.30901878835407004
+    },
+    "sha256": "976ad3d4ea8edfb26db131a63da034ba84fb26b23d7267088143c87acec147cb",
+    "simhash": "1:9b6ca3076a8103d3",
+    "word_count": 9011
+  },
+  "last_updated": "2024-02-27T18:46:47.899627+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before WILSON, JILL PRYOR, and SUTTON, Circuit Judges."
+    ],
+    "parties": [
+      "Pablo GUEVARA, Plaintiff-Appellant,\nv.\nNCL (BAHAMAS) LTD., a Bermuda Company doing business as Norwegian Cruise Line, Defendant-Appellee."
+    ],
+    "opinions": [
+      {
+        "text": "WILSON, Circuit Judge:\nPablo Guevara slipped and fell as he stepped down from a landing located on the outer deck of a cruise ship operated by NCL (Bahamas) Ltd. Guevara claimed that he did not perceive the step down because NCL failed to adequately warn him of the change in elevation. Moreover, a lightbulb was out in the area where Guevara fell, making it harder for him to navigate the floor level change at night. Guevara sued NCL, alleging that NCL negligently failed to (1) warn passengers of the step down and (2) maintain and inspect the lighting in the area. The district court granted summary judgment in favor of NCL on both claims, holding that Guevara failed to create a genuine issue of material fact regarding NCL's actual or constructive notice of the allegedly dangerous conditions posed by the step down or the unilluminated light.\nGuevara appeals the district court's orders (1) striking his expert's supplemental reports and (2) granting summary judgment in favor of NCL. After careful review and with the benefit of oral argument, we reverse and remand the district court's ruling on Guevara's failure to warn claim. We affirm, however, the district court's orders (1) striking Guevara's expert's supplemental reports and (2) granting summary judgment on Guevara's negligent maintenance claim.\nI. Factual Background\nGuevara was a cruise passenger on the Norwegian Spirit , which departed from Barcelona, Spain. On his first night aboard, at approximately 11:30 p.m., Guevara was walking on an outdoor deck near the pool, searching for the ship's cigar lounge. He walked up three steps to a landing. After the landing, there is a single step down, which Guevara claims he did not see. When he stepped down, Guevara slipped on the deck and fell, landing with his arm wedged between the wall and a handrail. As a result, Guevara broke his arm.\nAfter he fell, Guevara noticed a \"sheen\" of water on the floor where he slipped and that a lightbulb was out in one of the globe lamps at the top of the steps. Directly underneath the unilluminated lamp was a permanently affixed warning sign: \"ATTENTION! FOR YOUR OWN SAFETY PLEASE USE THE HANDRAIL. WATCH YOUR STEP.\" Guevara contends that he could not see the warning sign because the bulb immediately above the sign was out.\nII. Procedural History\nGuevara filed a complaint against NCL in the Southern District of Florida. He alleged that NCL negligently failed to (1) warn passengers of the step down, and (2) maintain and inspect the lighting in the area.\nA. Expert Witness Reports\nThe parties proceeded to discovery. The district court's Scheduling Order set Guevara's expert disclosure deadline for June 18th, NCL's expert disclosure deadline for July 2nd, and the disclosure deadline for any rebuttal expert witness reports for July 16th.\nGuevara disclosed Dr. Ronald Zollo as an expert and served a copy of his report on June 20th-two days after the expert disclosure deadline.\nNCL's human factors and illumination expert, Dr. Joseph B. Sala, opined that there was sufficient lighting on the deck of the Spirit for a reasonably alert and attentive person walking in the area to safely navigate the floor level change. Guevara successfully moved for an extension of time to file rebuttal expert reports. He served Dr. Zollo's rebuttal expert report on July 26th. Dr. Zollo's rebuttal report addressed the step's dimensions and the insufficient slip resistance on the flooring.\nOn August 19th-the Friday before Dr. Zollo's Monday deposition-Guevara served NCL with a copy of a thirteen-page \"Addendum to the Preliminary Report\" (First Supplemental Report) that supplemented both Dr. Zollo's initial and rebuttal expert opinions. The First Supplemental Report contained previously undisclosed opinions and references to authoritative materials. NCL proceeded with Dr. Zollo's deposition notwithstanding its objection to the submission of the First Supplemental Report. Dr. Zollo terminated his deposition after three hours and refused to resume later in the day.\nDiscovery closed on August 26th.\nOn September 26th-a month after the close of discovery and three days after the district court's deadline for dispositive and Daubert motions-Guevara filed a second, three-page addendum to Dr. Zollo's preliminary report (Second Supplemental Report).\nNCL moved to strike Dr. Zollo's testimony and reports because of Guevara's untimely disclosure of Dr. Zollo as an expert witness, Dr. Zollo's early termination of his deposition, and the presentation of new arguments in Dr. Zollo's supplemental reports that were not addressed in NCL's expert's report or alleged in the complaint. NCL also filed a Daubert motion to exclude Dr. Zollo's opinions, arguing that (1) he was not qualified to offer opinions on the construction of seaworthy vessels or human factors; (2) he did not use a sufficiently reliable methodology; (3) his opinions were based on assumptions and speculation; and (4) his opinions would not assist the trier of fact.\nThe district court did not strike Dr. Zollo's initial expert report as untimely, even though it was filed two days late. In considering Dr. Zollo's First and Second Supplemental Reports, the district court acknowledged that NCL was dilatory in setting the deposition of NCL's corporate representative, which was taken well after the expert discovery deadlines and a week before discovery closed on August 26th. During the corporate representative's deposition, NCL produced for the first time a drawing of the deck area, photographs of the area taken the night of Guevara's fall, and a coefficient of friction (COF) testing report of the deck. The district court found that, given NCL's late production, Dr. Zollo was justified in supplementing his initial report based on the new information obtained during the corporate representative's deposition. Dr. Zollo did not, however, have \"carte blanche to supplement everything in both his initial and rebuttal expert reports.\" As such, the district court excluded certain portions of the First Supplemental Report and the entirety of the Second Supplemental Report because Guevara failed to show that their late disclosure was either justified or harmless.\nThe district court struck the portion of Dr. Zollo's First Supplemental Report listing industry standards on lighting because it was produced too close in time to Dr. Zollo's deposition. In reaching this conclusion, the district court explained that none of Dr. Zollo's opinions on lighting in the First Supplemental Report referred to any of the late discovery produced by NCL. The district court found that the late submission of the report was not harmless.\nThe district court struck the entirety of Dr. Zollo's Second Supplemental Report because its late disclosure harmed NCL. While Dr. Zollo was justified in supplementing his initial expert reports on account of NCL's late production of the COF report, the court found no justification for Dr. Zollo supplementing his expert opinion more than five weeks after he received the COF report, over a month after the close of discovery, and three days after the district court's dispositive and Daubert motions deadline. Guevara did not seek leave to extend discovery, which left NCL with no opportunity to depose Dr. Zollo about his Second Supplemental Report.\nB. NCL's Motion for Summary Judgment\nNCL moved for summary judgment, arguing that there was no record evidence of a dangerous condition, or evidence of actual or constructive notice of a dangerous condition, in the area where Guevara fell. Guevara opposed NCL's motion, asserting two theories of NCL's negligence liability: duty to warn and negligent maintenance. Under the first theory, Guevara argued that NCL failed to adequately warn him of the dangerous condition posed by the step down. Under the negligent maintenance theory, Guevara argued that NCL \"permit[ed] the light to go out and remain out and [did] not post[ ] warning signs (or other more effective warnings such as yellow tape) that could have been seen by passengers traveling from the direction that Mr. Guevara was traveling.\"\nThe district court granted summary judgment in favor of NCL, holding that Guevara did not create a genuine issue of material fact regarding NCL's actual or constructive notice of the allegedly dangerous condition posed by the step down. The district court rejected Guevara's argument that the presence of the warning sign alone was sufficient to create an issue of fact regarding NCL's notice of the dangerous step. The court reasoned that Guevara offered no evidence that NCL created or affixed the warning sign, and thus failed to create a \"logical inference that [NCL] had prior knowledge of the dangerous condition necessitating the warning.\" Lipkin v. Norwegian Cruise Line Ltd. , 93 F.Supp.3d 1311, 1323 (S.D. Fla. 2015).\nGuevara also argued that NCL was on constructive notice that the light had been out because, under NCL's normal practices, the light was checked at 7:00 or 8:00 p.m. The light thus theoretically could have been out for up to four hours before Guevara fell. The district court disagreed. The court reasoned that the possibility that the light could have been out for four hours was not evidence of when the light actually went out. The district court held that Guevara failed to create a genuine dispute of material fact about NCL's notice of the alleged dangerous condition posed by the unilluminated light. Guevara appealed.\nIII. Discussion\nWe now consider Guevara's argument that the district court erred in excluding Dr. Zollo's supplemental expert reports and in granting summary judgment to NCL.\nA. Exclusion of Supplemental Expert Reports\nGuevara challenges the district court's ruling to exclude his expert's supplemental reports, arguing that those reports would have created a genuine dispute of material fact. \"We ... review a district court's exclusion of expert reports for abuse of discretion.\" Corwin v. Walt Disney Co. , 475 F.3d 1239, 1250 (11th Cir. 2007). \"A district court abuses its discretion when it makes a clear error of judgment or applies an incorrect legal standard.\" Sorrels v. NCL (Bahamas) Ltd. , 796 F.3d 1275, 1281 (11th Cir. 2015).\nFederal Rule of Civil Procedure 26 requires that \"[a] party must make [expert witness] disclosures at the times and in the sequence the court orders.\" Fed. R. Civ. P. 26(a)(2)(D). In order to make a proper disclosure, parties must, by the deadline, disclose the identity of their experts \"accompanied by a written report.\" Fed. R. Civ. P. 26(a)(2)(B). This written report \"must contain a complete statement of all opinions the witness will express and the basis and reasons for them\" and \"the facts or data considered by the witness in forming them.\" Fed. R. Civ. P. 26(a)(2)(B)(i)-(ii).\nRule 26(e) imposes a duty on an expert to supplement her report \"in a timely manner if the party learns that in some material respect the disclosure ... is incomplete or incorrect, and if the additional or corrective information has not otherwise been made known to the other parties during the discovery process or in writing.\" Fed. R. Civ. P. 26(e)(1)(A). But \"[a]ny additions or changes to\" the expert report \"must be disclosed by the time the party's pretrial disclosures under Rule 26(a)(3) are due.\" Fed. R. Civ. P. 26(e)(2) (emphasis added).\nIf a party violates Rule 26(a) or (e), Rule 37(c) provides for the exclusion of the expert evidence \"unless the failure was substantially justified or is harmless.\" Fed. R. Civ. P. 37(c)(1) ; see also OFS Fitel, LLC v. Epstein, Becker and Green, P.C. , 549 F.3d 1344, 1363 (11th Cir. 2008) (\"Under Rule 37(c)(1), a district court clearly has authority to exclude an expert's testimony where a party has failed to comply with Rule 26(a) unless the failure is substantially justified or harmless.\"). Courts have broad discretion to exclude untimely expert testimony-even when they are designated as \"supplemental\" reports. See Corwin , 475 F.3d at 1252 (\"[A] supplemental expert report may be excluded pursuant to Federal Rule of Civil Procedure 37(c) if a party fails to file it prior to the deadline imposed.\").\nGuevara submitted Dr. Zollo's supplemental reports out of time. The district court set deadlines for Guevara to produce initial and rebuttal reports from his experts. But Guevara produced Dr. Zollo's two supplemental reports after these deadlines. The district court set a June 18th deadline for Guevara to identify his expert witnesses and produce their reports. Guevara identified Dr. Zollo as an expert and produced his initial report on June 20th. In his initial report, Dr. Zollo opined that Guevara's fall was caused by the inadequate design of the stairway landing, insufficient maintenance of the landing and surrounding area (including insufficient lighting), and the use of improper flooring material that was unreasonably slippery when wet. On August 19th, Guevara filed Dr. Zollo's First Supplemental Report, which listed a host of industry standards on lighting. The standards were not included in Dr. Zollo's initial or rebuttal reports and were not produced ahead of his deposition. A month after the close of discovery and three days after the deadline for dispositive and Daubert motions, Guevara filed Dr. Zollo's Second Supplemental Report. The Second Supplemental Report largely addressed the COF report disclosed by NCL's corporate representative. The district court excluded certain portions of the First Supplemental Report addressing the industry standards on lighting and the entirety of the Second Supplemental Report because Guevara failed to show that the late disclosure of these reports was either justified or harmless. We conclude that the district court did not abuse its discretion.\nGuevara argues that the district court erred in excluding portions of the First Supplemental Report because his delay in disclosing these opinions was harmless as NCL had delayed producing documents and responding to discovery. The problem with this argument is that the district court did not strike the opinions in Dr. Zollo's First Supplemental Report that incorporated or relied upon NCL's late discovery. The portions of the First Supplemental Report that the district court excluded made no reference to any of NCL's late discovery. The district court did not abuse its discretion in finding that NCL's late production did not give Dr. Zollo \"carte blanche to supplement everything in both his initial and rebuttal expert reports.\"\nWe also cannot say that the district court's conclusion that the late disclosure harmed NCL was an abuse of discretion given the timing of Guevara's disclosure of the First Supplemental Report immediately before Dr. Zollo's deposition. Guevara only produced Dr. Zollo's First Supplemental Report on the eve of Dr. Zollo's deposition, which gave NCL little time to review or prepare questions on the new information. The severity of the harm to NCL increased when Dr. Zollo left his deposition after only three hours without the prior agreement of the parties. NCL attempted to object to Dr. Zollo's early departure. In response, Guevara moved for a protective order, claiming that NCL's counsel took an \"inordinate amount of time\" going through Dr. Zollo's file. But Guevara, not NCL, created the problem by disclosing Dr. Zollo's First Supplemental Report on the eve of Dr. Zollo's deposition.\nThe First Supplemental Report attempts to bolster Dr. Zollo's preliminary and rebuttal opinions regarding lighting conditions in response to NCL's expert report. But \"a party cannot abuse Rule 26(e) to merely bolster a defective or problematic expert witness report.\" Companhia Energetica Potiguar v. Caterpillar Inc. , No. 14-cv-24277, 2016 WL 3102225, at *6 (S.D. Fla. June 2, 2016). Given these facts, we cannot say that the district court abused its discretion when it struck portions of Dr. Zollo's First Supplemental Report.\nWe also cannot say that the district court abused its discretion in striking Dr. Zollo's Second Supplemental Report in its entirety. The district court acknowledged that NCL was not diligent in producing the COF report, and permitted Dr. Zollo to supplement his initial expert report after receiving the new information. But Guevara unreasonably delayed in filing that supplement. Guevara filed Dr. Zollo's Second Supplemental Report more than five weeks after he received the COF report, over a month after the close of discovery, and three days after the district court's deadline for dispositive and Daubert motions. Guevara did not seek leave of the district court prior to disclosing the Second Supplemental Report, nor did he move to extend discovery.\nOur decision in Reese v. Herbert , 527 F.3d 1253 (11th Cir. 2008), is instructive. In Reese , a plaintiff filed his expert report almost seven weeks after the close of discovery. 527 F.3d at 1264-65. This late filing harmed the defendants because it \"foreclosed the defendants' opportunity to depose [the expert].\" Id. at 1265. We found that, at a minimum, the plaintiff could have filed a motion to extend discovery to permit a proper disclosure, but he failed to do so. Id. at 1266. \"Because the expert witness discovery rules are designed to allow both sides in a case to prepare their cases adequately and to prevent surprise,\" we reasoned, \"compliance with the requirements of Rule 26 is not merely aspirational.\" Id. Accordingly, we held that the district court did not abuse its discretion in striking the expert's report in its entirety. Id.\nSimilarly, the district court did not abuse its discretion in striking the Second Supplemental Report, which Guevara unreasonably delayed in filing. By that point, NCL had already filed its motion for summary judgment and Daubert motions. As in Reese , Guevara never sought leave of the district court for the late filing or moved to extend discovery.\nWe thus conclude that the district court did not abuse its discretion in striking a portion of Dr. Zollo's First Supplemental Report and the entirety of his Second Supplemental Report.\nB. Summary Judgment\nGuevara contends that the district court erred in holding that (1) the warning sign was insufficient to establish NCL's actual or constructive notice of the dangerous condition posed by the step down, and (2) Guevara failed to present evidence of negligent maintenance of the lightbulb.\n\"We review a district court's grant of summary judgment de novo, viewing all the evidence, and drawing all reasonable factual inferences, in favor of the nonmoving party.\" Stephens v. Mid-Continent Cas. Co. , 749 F.3d 1318, 1321 (11th Cir. 2014). Summary judgment must be granted \"if the movant shows that there is no genuine dispute as to any material fact and the movant is entitled to judgment as a matter of law.\" Fed. R. Civ. P. 56(a). Summary judgment is improper, however, \"if the evidence is such that a reasonable jury could return a verdict for the nonmoving party.\" Anderson v. Liberty Lobby, Inc. , 477 U.S. 242, 248, 106 S.Ct. 2505, 91 L.Ed.2d 202 (1986).\nMaritime law governs actions arising from alleged torts committed aboard a ship sailing in navigable waters. See Keefe v. Bahama Cruise Line, Inc. , 867 F.2d 1318, 1320-21 (11th Cir. 1989). \"In analyzing a maritime tort case, [we] rely on general principles of negligence law.\" Chaparro v. Carnival Corp. , 693 F.3d 1333, 1336 (11th Cir. 2012) (quoting Daigle v. Point Landing, Inc. , 616 F.2d 825, 827 (5th Cir. 1980) ).\nTo prevail on a negligence claim, a plaintiff must show that \"(1) the defendant had a duty to protect the plaintiff from a particular injury, (2) the defendant breached that duty, (3) the breach actually and proximately caused the plaintiff's injury, and (4) the plaintiff suffered actual harm.\" Id. With respect to the duty element in a maritime context, \"a shipowner owes the duty of exercising reasonable care towards those lawfully aboard the vessel who are not members of the crew.\" Kermarec v. Compagnie Generale Transatlantique , 358 U.S. 625, 630, 79 S.Ct. 406, 3 L.Ed.2d 550 (1959). This standard \"requires, as a prerequisite to imposing liability, that the carrier have had actual or constructive notice of [a] risk-creating condition, at least where, as here, the menace is one commonly encountered on land and not clearly linked to nautical adventure.\" Keefe , 867 F.2d at 1322. In this circumstance, a cruise ship operator's liability \"hinges on whether it knew or should have known\" about the dangerous condition. Id.\nA maritime plaintiff can establish constructive notice with evidence that the \"defective condition exist[ed] for a sufficient period of time to invite corrective measures.\" Monteleone v. Bahama Cruise Line, Inc. , 838 F.2d 63, 65 (2d Cir. 1988) ; see Keefe , 867 F.2d at 1322 ; Rodgers v. Costa Crociere, S.p.A. , No. 08-60233, 2009 WL 10666976, at *3 (S.D. Fla. July 6, 2009). Alternatively, a plaintiff can establish constructive notice with evidence of substantially similar incidents in which \"conditions substantially similar to the occurrence in question must have caused the prior accident.\" Jones v. Otis Elevator Co. , 861 F.2d 655, 661-62 (11th Cir. 1988).\ni. Guevara's Failure to Warn Claim\nGuevara argues that NCL failed to adequately warn him of the dangerous condition posed by the step down. NCL responds that summary judgment is warranted because it lacked prior notice of the dangerous condition and therefore had no duty to warn Guevara of the step down. Guevara points to the warning sign alerting passengers to \"watch your step\" as evidence that NCL was on actual or constructive notice of the deceptive, and therefore dangerous, nature of the step down.\nNCL contends that the mere presence of a warning sign does not automatically establish a cruise line's notice of a potentially dangerous condition. Specifically, NCL asserts that the warning sign at issue was installed by either the original owner or the builder of the Spirit , and there is no evidence as to why the sign was placed at that location or what specific condition, if any, it was affixed to address.\nIn analyzing whether the warning sign raises a genuine issue of material fact as to NCL's knowledge, we look to our recent decision in Sorrels . In Sorrels , a cruise ship passenger slipped and fell on the deck of a Norwegian ship, which was wet from rain. 796 F.3d at 1279. We held that the cruise ship employees' testimony-that the cruise line regularly placed warning signs advising passengers that the deck was \"slippery when wet\"-was enough to create a genuine issue of material fact regarding whether the cruise line had actual or constructive knowledge that the deck could be slippery after precipitation. Id. at 1288-89.\nNot all warning signs will be evidence of notice; there must also be a connection between the warning and the danger. See, e.g. , Taiariol v. MSC Crociere S.A. , 677 F. App'x 599 (11th Cir. 2017). The district court cited Taiariol in support of its ruling against Guevara, but we find Taiariol favors Guevara. In Taiariol , the plaintiff slipped on the metal nosing of a step while leaving a theater on a cruise ship. Id. at 600. The plaintiff argued that the presence of a \"watch your step\" sticker affixed to the nosing of the step was evidence that the cruise line had notice of the nosing's slippery condition. Id. at 601. We disagreed, holding that \"[c]ommon sense dictates that the sticker served to caution persons on the ship that the step was there; that is, it warned passengers that the surface was not flat . There is no evidence that it was intended to warn passengers that the nosing may be slippery.\" Id. at 602 (emphasis added).\nIn Taiariol , the plaintiff attempted to utilize the \"watch your step\" sticker as evidence of notice for a different purpose: that the stair's nosing was slippery. By contrast, Guevara argues that the \"watch your step\" warning sign means precisely what it says, and what this Court interpreted a similar warning to mean in Taiariol : \"to caution persons on the ship that the step was there.\" Id. Contrary to the district court's application of Taiariol against Guevara, we find that the similarity of the signs establishes a sufficient connection between the warning and the danger-the step down.\nNCL argues that Sorrels does not control here because the cruise line in that case was responsible for creating and placing the warning. But we see no significant distinction between a cruise line placing a warning sign and a cruise line having knowledge of a permanently affixed warning sign that has been present on its ship for years. A warning sign's primary function is to warn of dangers. Whether a cruise line places the warning sign itself or becomes aware of the warning sign after taking ownership is of little significance. Both situations allow for an inference that NCL had actual or constructive knowledge that the step down could be deceiving, and therefore dangerous, to cruise passengers. See Sorrels , 796 F.3d at 1288.\nThe district court noted that the language of the warning sign did not demonstrate notice of the dangerous condition posed by the step down because it only \"generically advises passengers to 'hold the handrail' and 'watch your step' as they climb the three steps to the landing. It does not warn of a potential danger associated with the small step from the landing to the deck.\" At the summary judgment stage, however, we must view all evidence and factual inferences in favor of Guevara. See Stephens , 749 F.3d at 1321. Contrary to the district court's conclusion, NCL's corporate representative testified that the warning sign was intended to draw passengers' attention to the step down in the area at issue. A reasonable jury could conclude that the warning sign's language applies to the step down, particularly where, as here, the warning sign immediately precedes the very step at issue and expressly warns passengers to \"watch your step.\" Guevara has thus raised a genuine issue of material fact regarding NCL's prior notice of the dangerous condition posed by the step down.\nNCL contends that by holding that the warning sign here put it on notice of the dangerous condition, we are improperly transforming cruise ship operators into insurers of their passengers' safety. But NCL overstates the effect of our decision. We are merely holding that a cruise ship operator has notice of a condition-and thus a duty to warn-if a sign is posted on a ship warning about the condition. This decision does not mean that a cruise ship operator is automatically liable any time a passenger is injured in the area of the sign. After all, the cruise ship operator may be able to defeat the negligence claim by showing that it did not breach its duty to warn because the sign provided passengers with a sufficient warning about the dangerous condition in the area. In this case, NCL still may argue at trial that it is not liable because it fulfilled its duty to warn through the posted sign.\nAccordingly, we reverse and remand the district court's ruling regarding Guevara's failure to warn claim.\nii. Guevara's Negligent Maintenance Claim\nGuevara argues that the district court erroneously granted summary judgment based on its finding that he failed to present any evidence of NCL's negligent maintenance of the unilluminated lightbulb. Guevara asserts that he was not required to present evidence of negligent maintenance because NCL did not present any admissible evidence of its proper maintenance of the lightbulb. We disagree.\nNCL may carry its burden of showing no genuine issue of material fact by showing \"an absence of evidence to support the nonmoving party's case.\" Celotex Corp. v. Catrett , 477 U.S. 317, 325, 106 S.Ct. 2548, 91 L.Ed.2d 265 (1986) ; Jeffery v. Sarasota White Sox, Inc. , 64 F.3d 590, 593 (11th Cir. 1995). In its motion for summary judgment, NCL argued that there was no evidence in the record establishing \"a condition requiring maintenance or inspection of the subject deck or light fixtures, that [NCL] failed to maintain or inspect the subject deck or lighting fixtures, or that [NCL's] alleged failure to maintain or inspect the subject deck or lighting fixtures caused [Guevara's] injuries.\"\nGuevara has failed to adduce evidence proving that NCL had actual or constructive notice that the subject lightbulb was out on the night that Guevara fell. Guevara does not point to any prior passenger complaints or reported issues about the ship's lighting that would alert NCL to any potential safety concern. See Cohen v. Carnival Corp. , 945 F.Supp.2d 1351, 1355 (S.D. Fla. 2013) (finding no evidence of notice where plaintiff cannot offer \"any accident reports, passenger comment reviews or forms, or reports from safety inspections\"); see also Klein v.Seven Seas Cruises S. DE R.L. , No. 16-21981, 2017 WL 3405531, at *4 (S.D. Fla. Aug. 7, 2017). Moreover, the record indicates that NCL retained four electrical engineers who were responsible for inspecting the lighting on the Spirit at 8:00 a.m. and 7:00 or 8:00 p.m. each day. Given these routine inspections, and that Guevara cannot identify when the light went out, he has failed to make a sufficient showing that the dangerous condition was \"present for a period of time so lengthy as to invite corrective measures.\" Keefe , 867 F.2d at 1322 (citing Monteleone , 838 F.2d at 65 ). Accordingly, the district court did not err in concluding that Guevara failed to create a triable issue of fact on whether NCL had notice of the allegedly dangerous condition posed by the unilluminated lightbulb.\nIV. Conclusion\nWe affirm in part and reverse in part the district court's ruling granting summary judgment in favor of NCL. We affirm the district court's orders (1) striking Dr. Zollo's supplemental reports and (2) granting summary judgment on Guevara's negligent maintenance claim. But we reverse and vacate the grant of summary judgment on Guevara's failure to warn claim. We remand for further proceedings consistent with this opinion.\nAFFIRMED IN PART, REVERSED IN PART, AND REMANDED.\nGuevara claims that the landing appeared flush with the brown deck area below the step.\nCoefficient of friction measures a surface's \"degree of slip resistance.\" Sorrels v. NCL (Bahamas) Ltd. , 796 F.3d 1275, 1279 (11th Cir. 2015) (citing Mihailovich v. Laatsch , 359 F.3d 892, 896, 921 n.2 (7th Cir. 2004) ).\nGuevara conceded that NCL did not design, manufacture, construct, or install the step or decking materials. Guevara also conceded that there had been no prior injuries, accidents, or claims against NCL related to the step.\nFederal Rule of Civil Procedure 30(d)(1) limits a deposition to one day of seven hours.\nAn operator of a cruise ship has a duty to warn only of known dangers that are not open and obvious. See Thomas v. NCL (Bahamas) Ltd. , 203 F.Supp.3d 1189, 1192 (S.D. Fla. 2016).\nThe district court heavily relied on its previous decision in Lipkin , in which it held that a warning label affixed to a moving walkway off of the vessel in the port of Miami was insufficient to establish Norwegian's notice because \"the undisputed evidence shows that the walkway manufacturer, not Norwegian, affixed the warning labels, and that Miami-Dade County, not Norwegian, was responsible for maintenance of the walkway.\" 93 F.Supp.3d at 1322-23. We find Lipkin distinguishable on its facts, and therefore unpersuasive. In Lipkin , the warning in question was affixed to a moving walkway off of the vessel in the port of Miami. And it was Miami-Dade County, not Norwegian , who was responsible for maintaining the walkway. It is one thing to find that a cruise line cannot be responsible for a sign that is off of the vessel-it is another thing entirely to rule that a cruise line is not responsible for a sign that has been permanently affixed on the vessel for years. In further contrast to Lipkin , NCL itself was responsible for maintaining the deck area in the present case.\nGuevara contends that he did not see the warning sign alerting him to the change in elevation because the bulb immediately above the sign was out. At trial, the factfinder can decide whether Guevara could see the sign at the time of his fall and, if Guevara could see the sign prior to falling, whether the warning was sufficient to satisfy NCL's duty to warn. See Outlaw v. Firestone Tire & Rubber , 770 F.2d 1012, 1014 (11th Cir. 1985) (holding that once a duty to warn is established, the adequacy of the warning is usually a question for the jury).\nNCL's regular inspections weigh against a finding of constructive notice. See Monteleone , 838 F.2d at 66.",
+        "type": "majority",
+        "author": "WILSON, Circuit Judge:"
+      },
+      {
+        "text": "JILL PRYOR, Circuit Judge, concurring:\nI concur fully in the majority's opinion. I write this special concurrence to respond in more detail to the dissent's argument that our decision today is in tension with the admiralty law of this circuit.\nPlaintiff Pablo Guevara contends that defendant NCL (Bahamas), Inc. was negligent because it failed to warn him of a hidden step down on its cruise ship, the Spirit . To determine whether the district court erred in granting summary judgment to NCL, we must decide whether NCL owed Guevara a duty.\nLike the dissent, I begin with the premise that a cruise ship operator \"is not liable to passengers as an insurer.\" See Keefe v. Bahama Cruise Line, Inc. , 867 F.2d 1318, 1322 (11th Cir. 1989) (internal quotation marks omitted). But a cruise ship operator remains liable for its negligence and thus must exercise \"ordinary reasonable care under the circumstances.\" Id. The reasonable care standard \"requires, as a prerequisite to imposing liability, that the carrier have had actual or constructive notice of the risk-creating condition,\" at least when the menace is commonly encountered on land. Id. The dissent accepts that when a cruise ship operator has actual or constructive notice of a dangerous condition, it generally owes a duty to warn its passengers of that condition.\nWhether NCL had a duty to warn Guevara of the step down turns on whether it had notice of the dangerous condition. Guevara contends that NCL had notice of the dangerous condition based on a sign installed immediately before the step down that cautioned \"WATCH YOUR STEP.\" As an initial matter, the entire panel agrees that a reasonable jury could find that the sign warned about the dangerous condition created by the step down (as opposed to some other dangerous condition). See Dissent at 34 (observing that the risk created by the step down \"came with a warning\").\nThe dissent nonetheless concludes that NCL had no notice of the dangerous condition because the ship's manufacturer, rather than NCL, installed the sign. But I see no reason to require that NCL must have installed the sign for a factfinder to conclude that NCL had notice. A reasonable jury could infer that NCL understood or at least should have understood from the sign that the step down created a dangerous condition. After all, the dissent acknowledges, \"[w]arning signs are meant to be seen,\" id. , and this sign could be seen by the ship's crew and passengers alike.\nInstead of allowing this question of fact to be decided by a jury, the dissent would prefer a legal rule that a cruise ship operator can be put on notice of a dangerous condition by a warning sign only if the ship operator installed the warning sign. See id. at 35 (\"Because the boat came with the warning sign, [NCL] never took any affirmative act in connection with the alleged risk and cannot be held liable for it.\"). The dissent's bright-line rule would require courts to ignore facts establishing that the cruise ship's officers and crew learned or should have learned of the dangerous condition from the sign. Nothing in our precedent establishes such a rule. We have held that a cruise ship operator's affirmative act of warning of a risk is sufficient to establish that it had notice of a danger. See, e.g. , Sorrels v. NCL (Bahamas) Ltd. , 796 F.3d 1275, 1288-89 (11th Cir. 2015) (concluding that a cruise ship operator had notice that the ship's pool deck could be slippery after rain from evidence that crew members sometimes posted warning signs on the pool deck after rain). But we have never held that it is necessary that a cruise ship operator have taken an affirmative act regarding a risk to establish that it had knowledge of the danger. To the contrary, we have recognized that a cruise ship operator may be put on notice of a danger after the dangerous condition causes an injury, even though the operator has taken no affirmative act. See Caron v. NCL (Bahamas), Ltd. , 910 F.3d 1359, 1370 (11th Cir. 2018) (accepting that that prior reports of similar incidents are sufficient to provide a cruise ship operator with notice of a dangerous condition); see generally Chimene v. Royal Caribbean Cruises, Ltd. , No. 16-23775-CV, 2017 WL 8794706, at *4 (S.D. Fla. Nov. 14, 2017) (concluding that cruise ship operator had notice of dangerous condition created by zip line from prior reports of substantially similar incidents).\nThe dissent contends that our previous decision in Everett v. Carnival Cruise Lines , 912 F.2d 1355 (11th Cir. 1990), bars us from concluding that a cruise ship operator could receive notice of a dangerous condition from a sign that it did not install. In that case, a cruise ship passenger sustained injuries when she tripped over a metal threshold on the ship. Id. at 1357. The passenger argued that the cruise ship operator had knowledge of the dangerous condition because it created and maintained the threshold. Id. at 1359. We rejected this argument, explaining that accepting the passenger's argument would effectively \"defeat[ ]\" the notice requirement. Id. Although we recognized in Everett that a cruise ship operator does not have knowledge of a dangerous condition simply because the condition is present on the ship that it maintains, Everett did not address whether a warning posted on a cruise ship-that is, a posting identifying a condition as dangerous-could put the operator on notice of that dangerous condition.\nThe majority opinion runs afoul of the rule established by Everett , the dissent argues, because if the warning sign put NCL on notice, it must have also put Guevara on notice, unless NCL's ability to understand the sign differed from Guevara's. And \"the only thing that differentiates Guevara from [NCL],\" according to the dissent, \"is [NCL's] operation of the Spirit .\" Dissent at 36. The dissent glosses over another important difference between NCL and Guevara, however. A reasonable jury could find that NCL received notice before Guevara's fall when the Spirit's officers and crew members encountered the area with the sign in daylight or at night time when the sign was lit. In contrast, a reasonable jury could find that Guevara encountered this area just once-the night of the incident when the light above the sign was not lit, which made the sign unreadable.\nThe dissent also asserts that NCL should not be held liable because it was due only to \"bad luck\" that the light was out and Guevara could not see the sign. Id. at 34. This argument addresses a different issue, though: whether, assuming NCL had a duty to warn, the sign was sufficient to discharge NCL's duty. At trial, the jury could find that the warning sign was visible and adequately warned Guevara of the danger, meaning that NCL had discharged its duty to warn. But whether NCL gave an adequate warning, assuming it had a duty to warn, does not tell us whether it had notice and thus owed such a duty. See Chaparro v. Carnival Corp. , 693 F.3d 1333, 1336 (11th Cir. 2012) (identifying duty and breach as separate elements of a negligence claim).\nReturning to where it began, the dissent closes with the concern that our decision will make a cruise ship operator a general insurer liable for every warning any manufacturer places on a ship. To answer that concern, the dissent would adopt a bright-line rule that a cruise ship operator can never receive notice of a dangerous condition from a warning sign installed by a manufacturer or other third party. By eliminating one way in which a cruise ship operator could actually gain knowledge of a danger, the dissent's approach defies common experience and would erode the long-standing principle of admiralty law that a cruise ship operator must warn its passengers of known dangerous conditions. Because questions of fact remain about whether the warning sign installed by the ship's manufacturer put NCL on notice of the danger associated with the step down, I voted with the majority to allow the case to go to a jury.\nI want to emphasize that the majority's decision today is narrow. Even assuming the dissent is correct that the decision means a cruise ship operator owes a duty to warn of any danger for which a warning is posted on a ship, only in rare cases will a passenger attempting to hold a cruise ship operator liable for a breach of that duty get past summary judgment. To get to trial, the passenger will have to come forward with evidence, not speculation, that the warning was sufficiently visible to put the cruise ship operator on notice yet was not visible to the passenger. Guevara has carried this burden given the cruise ship operator's \"bad luck\" that the light over the sign went out, but I doubt many operators will be so unlucky.\nThe dissent also relies on our unpublished decision in Pizzino v. NCL (Bahamas) Ltd. , 709 F. App'x 563 (11th Cir. 2017) (unpublished). Like Everett , Pizzino did not address whether a warning sign placed by a third party can put a cruise ship operator on notice. In Pizzino , a passenger sued a cruise ship operator for negligence after slipping on the cruise ship's floor. Id. at 564. The hazard was created by water that appeared to splash out of a ship employee's bucket. Id. at 563-64. After the district court instructed the jury that the passenger had to show that the operator had actual or constructive notice of the dangerous condition, the jury returned a verdict in favor of the cruise ship operator. Id. at 564. The passenger appealed, arguing that the cruise ship operator could be held liable on the basis that its employee had created the dangerous condition by spilling water on the floor. Id. We affirmed, concluding that the district court had properly instructed the jury that a cruise ship operator must have actual or constructive notice of a dangerous condition, even if it created the danger. Id. at 566-67. There was no posted warning in Pizzino that arguably put the cruise ship operator on notice of the dangerous condition, so Pizzino did not decide or address the issue we face here.\nSome warnings posted by third parties on a ship would be insufficient to put a cruise ship operator on notice of the dangerous condition identified by the warning. To take the dissent's example, a sticker placed on a lamp in a cabin stateroom warning that the lamp becomes hot may not give the cruise ship operator actual or constructive notice of the danger. The question of whether such a sticker would put the cruise ship operator on notice could depend on factual issues such as: the access that officers and crew had to the cabin stateroom to see the sticker, the size of the sticker, and the location of the sticker (in this example, the warning could be hidden by the lamp shade). In contrast, here there is ample evidence from which a reasonable jury could infer that the warning sign informed NCL of the danger caused by the step down because the warning sign was large and prominently posted in a public area that was accessible to anyone on the ship.",
+        "type": "concurrence",
+        "author": "JILL PRYOR, Circuit Judge, concurring:"
+      },
+      {
+        "text": "SUTTON, Circuit Judge, concurring in part and dissenting in part:\nAs a visiting judge, I am reluctant to quibble over the meaning of local law. And as a visiting judge from a largely land-locked and exclusively fresh-water circuit, I am especially reluctant to quibble over the meaning of admiralty law with judges from a circuit whose every State touches the sea. In overcoming that hesitation, I take some comfort in the reality that the Miami-based district court judge who handled this case reached the same conclusion I do and the view that one does not have to be a seaworthy judge to see some tension between today's decision and the admiralty law of this circuit.\nEleventh Circuit admiralty law establishes three related propositions when it comes to slip-and-fall accidents at sea. The first is that cruise ships are not general insurers of their passengers. See Keefe v. Bahama Cruise Line, Inc. , 867 F.2d 1318, 1322 (11th Cir. 1989) (per curiam). The second is that cruise ships may be liable only if they knew or should have known about the danger that caused the accident. Id. The third is that such knowledge does not arise from buying and operating a ship with pre-existing signage about pre-existing risks. See Everett v. Carnival Cruise Lines , 912 F.2d 1355, 1358-59 (11th Cir. 1990) ; see also Malley v. Royal Caribbean Cruises Ltd. , 713 F. App'x 905, 908 (11th Cir. 2017) (per curiam); Pizzino v. NCL (Bahamas) Ltd. , 709 F. App'x 563, 566-67 (11th Cir. 2017) (per curiam); cf. Lipkin v. Norwegian Cruise Line Ltd ., 93 F.Supp.3d 1311, 1323 (S.D. Fla. 2015).\nApplied here, these principles should make short work of this case. On November 26, 2014, Pablo Guevara and his wife boarded a cruise ship, the Spirit , in Barcelona, Spain. Later that first night, at around 11:30 p.m., Guevara left his wife in the casino and went in search of the cigar lounge. The accident occurred on Spirit 's pool deck. Here's the scene: Three steps lead up to a small landing, followed by a step down. Two pillars flank the landing. Each pillar has a light and a handrail; one pillar bears a sign warning pedestrians to \"please use the handrail\" and \"watch your step.\" R. 66-1.\nAccording to Guevara, the light next to the sign was out and the deck was wet. After he ascended the three steps, he didn't notice the step down, tripped, slipped, and broke his arm.\nGuevara's negligence complaint against Norwegian targeted three defects: (1) The company \"[f]ailed to adequately inspect the lights in the subject area to make sure operational\"; (2) the company \"[f]ailed to warn plaintiff of the danger of a wet and slippery floor in the subject area\"; and (3) the company \"failed to warn of the change of level in the area.\" R. 1 at 3-4.\nEach theory does not work.\nBegin with the broken-light-bulb theory. The unrebutted evidence shows that Norwegian did not notice the spent light bulb, that no one identified any such problem before the accident, and that its employees checked the area (and the light bulbs) twice a day and did not see any problem. On this record, Norwegian did not act negligently. The majority agrees.\nTurn to the wet-deck theory. Here too Norwegian did nothing wrong, as it had no notice of any problem. The record does not contain any evidence of prior accidents on this part of the ship due to a wet deck. This thus is not a case in which the cruise ship identified the problem, say by putting orange cones near the hazard, and could be liable if its precautions did not adequately address the risk.\nThink by comparison of Horne v. Carnival Corporation , 741 F. App'x 607 (11th Cir. 2018) (per curiam). A passenger sued the cruise line after high winds caused a door to slam and chop off part of his finger. Id. at 608. The cruise line had previously \"put up signs warning of strong winds\" but failed to provide notice on the day of the accident. Id. at 609. The prior signs, the court reasoned, could show that the cruise line had \"notice of the hazardous condition.\" Id.\nNor is this a case in which passengers had slipped on this same wet deck before, placing the cruise ship on notice of the danger. See Sorrels v. NCL (Bahamas) Ltd. , 796 F.3d 1275, 1287-88 (11th Cir. 2015). No evidence of any such accidents appears in the record. Apparently appreciating these gaps in this theory of liability, Guevara does not develop on appeal his claim premised on a wet deck, which explains why the court (correctly) does not address it.\nThat leaves the last theory-that Norwegian did not adequately warn of the risk from the step down. But that's the least plausible theory of the three. It takes up the one risk that night (a drop down in the steps) that came with a warning (a \"please use the handrail\" and \"watch your step\" sign). It involves a risk and a warning sign that predated Norwegian's ownership of the cruise ship. And it involves a warning sign that by Guevara's own admission could not be seen given the broken light. For many of the reasons that Judge Kathleen Williams rejected this claim as a matter of law, so would I.\nStart with a problem of Guevara's making. By his own account, Guevara could not see the sign \"because the bulb immediately above the sign was not functioning.\" Appellant's Br. 6; id. at 36 (\"[T]he light on the pedestal just above the warning sign was out.\"); see also Reply Br. 6 (\"The sign is clearly visible in daylight, or at night with appropriate lighting.\"). Warning signs are meant to be seen. Just as arguments are meant to be heard. And briefs and opinions are meant to be read. The law does not hold parties liable for signs that, by a claimant's own account, cannot be seen. I am not aware of any case from any court that holds a property owner liable for posting an inadequate warning sign when the source of the inadequacy-darkness-turned on bad luck, not the negligence of the owner. Guevara never acknowledges, much less fills, this yawning gap in his theory of the case.\nNo less importantly, Norwegian had nothing to do with the sign. It came with the boat. And no evidence shows that the sign did not do its job. The record does not contain any evidence of prior accidents during the day based on the step down or accidents during the night (whether the light worked or not) based on the step down. Because the boat came with the warning sign, Norwegian never took any affirmative act in connection with the alleged risk and cannot be held liable for it. See Horne , 741 F. App'x at 609 ; Sorrels , 796 F.3d at 1287-88.\nLast of all, precedent does not allow us to hold that Norwegian knew about the sign and realized that the step was dangerous simply because Norwegian bought and operated the vessel. See Everett , 912 F.2d at 1359. That's simply another way of making Norwegian a general insurer-liable for all risks of running a cruise ship and transporting passengers-which is just what this court's decisions foreclose. See Keefe , 867 F.2d at 1322.\nEverett v. Carnival Cruise Lines illustrates the point. 912 F.2d 1355 (11th Cir. 1990). A passenger tripped over a metal door threshold. Id. at 1357. She argued that she did not need to prove the cruise line knew about the threshold because the cruise line \"created the threshold and maintained it. In other words, [the shipowner] should have known that there was a danger of passenger injury because it was the owner and operator of the ship.\" Id. at 1359. The court rejected the theory as a matter of law, holding that it would \"defeat[ ]\" the point of having a notice requirement and the point of \"limit[ing] ... the shipowner's liability\" so that it was not a general insurer of its passengers. Id.\nPizzino v. NCL (Bahamas) Ltd. is of a piece. 709 F. App'x 563 (11th Cir. 2017) (per curiam). A crew member spilled water on the deck, and the Eleventh Circuit re-affirmed that operation of a ship alone does not create notice. Id. at 564-66. Something more is required-namely that the passenger prove that the shipowner knew about the danger. Id. at 565.\nSize up this aspect of Guevara's argument-that the pre-existing warning sign gave Norwegian notice of this risk-from another direction. If it's fair to say that the warning sign put Norwegian on notice of the danger posed by the step down, the sign also must have made Guevara aware of the danger as well-unless daylight exists between Guevara's ability to understand the sign and Norwegian's. But the only thing that differentiates Guevara from Norwegian is Norwegian's operation of the Spirit . And we cannot attribute notice to a shipowner simply because it operates a ship, as case after case from this circuit says. See supra .\nAny other approach to this case will make shipowners liable for every warning that a manufacturer places on any part of the ship. Imagine a manufacturer who places a sticker on lamps in cabin bedrooms, warning patrons that they can become hot to the touch. Or a manufacturer who warns that children might suffocate if they play with the plastic trash bags in cabin bathrooms. Under the majority's rule, the cruise line now possesses constructive notice of these dangers and can become liable to the first passenger who burns himself or the first child who asphyxiates. Cruise ships are floating cities, and these types of scenarios end only when the horizon does.\nThat Norwegian may argue at trial that this sign fulfilled its duty to warn and thus may still prevail, as the court points out, offers cold comfort to this shipowner and any other. All that means is that in some number of cases juries will not treat shipowners as general insurers and in some number of cases they will. But never , not sometimes , is the point of the court's steadfast commitment to declining to make shipowners the general insurers of their passengers. That is a rule of law, not a rule of fact.\nI respectfully dissent.",
+        "type": "concurring-in-part-and-dissenting-in-part",
+        "author": "SUTTON, Circuit Judge, concurring in part and dissenting in part:"
+      }
+    ],
+    "attorneys": [
+      "Philip D. Parrish, South Miami, FL, Michael F. Guilford, Michael F. Guilford, PA, Tonya Jean Meister, Meister Law, LLC, Miami, FL, for Plaintiff-Appellant.",
+      "Lauri Waldman Ross, Ross & Girten, Rachael M. Fagenson, Jeffrey Eric Foreman, Raquel Lauren Loret de Mola, Noah D. Silverman, Foreman Friedman, PA, Geoffrey Edward Probst, Norwegian Cruise Lines, Inc., Miami, FL, for Defendant-Appellee."
+    ],
+    "corrections": "",
+    "head_matter": "Pablo GUEVARA, Plaintiff-Appellant,\nv.\nNCL (BAHAMAS) LTD., a Bermuda Company doing business as Norwegian Cruise Line, Defendant-Appellee.\nNo. 17-14889\nUnited States Court of Appeals, Eleventh Circuit.\nApril 1, 2019\nPhilip D. Parrish, South Miami, FL, Michael F. Guilford, Michael F. Guilford, PA, Tonya Jean Meister, Meister Law, LLC, Miami, FL, for Plaintiff-Appellant.\nLauri Waldman Ross, Ross & Girten, Rachael M. Fagenson, Jeffrey Eric Foreman, Raquel Lauren Loret de Mola, Noah D. Silverman, Foreman Friedman, PA, Geoffrey Edward Probst, Norwegian Cruise Lines, Inc., Miami, FL, for Defendant-Appellee.\nBefore WILSON, JILL PRYOR, and SUTTON, Circuit Judges.\nHonorable Jeffrey S. Sutton, United States Circuit Judge for the Sixth Circuit, sitting by designation."
+  },
+  "file_name": "0710-01",
+  "first_page_order": 710,
+  "last_page_order": 729
+}

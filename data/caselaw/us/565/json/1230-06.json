@@ -1,0 +1,61 @@
+{
+  "id": 12249138,
+  "name": "Plugh v. United States",
+  "name_abbreviation": "Plugh v. United States",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-8365",
+  "first_page": "1230",
+  "last_page": "1230",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1230"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 26,
+    "char_count": 171,
+    "ocr_confidence": 0.622,
+    "sha256": "5277c725dec58553840edac5d0b7be026c5b7f78b05b962df8a3894c54475166",
+    "simhash": "1:9d21aa02dbfe5d08",
+    "word_count": 28
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Sotomayor and Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Plugh v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Cer-tiorari denied.\nJustice Sotomayor and Justice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8365.\nPlugh v. United States."
+  },
+  "file_name": "1230-06",
+  "first_page_order": 1312,
+  "last_page_order": 1312
+}

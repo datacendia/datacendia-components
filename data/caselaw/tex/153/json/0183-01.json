@@ -1,0 +1,242 @@
+{
+  "id": 2247939,
+  "name": "In the Matter of the Removal of C. Woodrow Laughlin, District Judge",
+  "name_abbreviation": "In re the Removal of Laughlin",
+  "decision_date": "1954-03-17",
+  "docket_number": "No. A-4295",
+  "first_page": "183",
+  "last_page": "193",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "153 Tex. 183"
+    },
+    {
+      "type": "parallel",
+      "cite": "265 S.W.2d 805"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "183 S.W. 505",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "134 Tenn. 121",
+      "category": "reporters:state",
+      "reporter": "Tenn.",
+      "case_ids": [
+        8534617
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tenn/134/0121-01"
+      ]
+    },
+    {
+      "cite": "155 A.L.R. 180",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "182 S.W. 2d 251",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10199277,
+        2338535
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/182/0251-01",
+        "/tex/143/0001-01"
+      ]
+    },
+    {
+      "cite": "143 Texas 1",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2338535
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/143/0001-01"
+      ]
+    },
+    {
+      "cite": "43 Texas 330",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2124241
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "339"
+        },
+        {
+          "page": "339-340"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/43/0330-01"
+      ]
+    },
+    {
+      "cite": "263 S.W. 888",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        2279772,
+        10321118
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/114/0085-01",
+        "/sw/263/0888-01"
+      ]
+    },
+    {
+      "cite": "114 Texas 85",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2279772
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/114/0085-01"
+      ]
+    },
+    {
+      "cite": "263 S.W. 2d 154",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10186339,
+        2247925
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/263/0154-01",
+        "/tex/153/0012-01"
+      ]
+    },
+    {
+      "cite": "152 Texas 12",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "231 S.W. 2d 734",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10206607
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/231/0734-01"
+      ]
+    },
+    {
+      "cite": "10 S.W. 737",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "72 Texas 625",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2190699
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/72/0625-01"
+      ]
+    },
+    {
+      "cite": "44 Texas 137",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2162118
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/44/0137-01"
+      ]
+    },
+    {
+      "cite": "9 S.W. 2d 478",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10289882
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/9/0478-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 950,
+    "char_count": 21350,
+    "ocr_confidence": 0.622,
+    "pagerank": {
+      "raw": 5.031427768267663e-07,
+      "percentile": 0.9367410995776202
+    },
+    "sha256": "236b17845103345edf5d784272d1b06c0fdd9957b9dfc7d0995c7c52b05056a6",
+    "simhash": "1:8f67cd821a39080f",
+    "word_count": 3628
+  },
+  "last_updated": "2024-02-27T22:44:17.710833+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In the Matter of the Removal of C. Woodrow Laughlin, District Judge"
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Calvert\ndelivered the opinion of the Court.\nThis proceeding for the removal of C. Woodrow Laughlin, Judge of the District Court in and for the 79th Judicial District, had its origin in Article XV, Section 6 of the Constitution of Texas, which reads as follows:\n\u201cSec. 6. Any judge of the District Courts of the State who is incompetent to discharge the duties of his office, or who shall be guilty of partiality, or oppression, or other official misconduct, or whose habits and conduct are such as to render him unfit to hold such office, or who shall negligently fail to perform his duties as judge; or who shall fail to execute in a reasonable measure the business in his courts may be removed by the Supreme Court. The Supreme Court shall have original jurisdiction to hear and determine the causes aforesaid when presented in writing upon the oaths taken before some judge of a court of record of not less than ten lawyeers, practicing in the courts held by such judge, and licensed to practice in the Supreme Court; said presentment to be founded either upon the knowledge of the persons making it or upon the written oaths as to the facts of creditable witnesses. The Supreme Court may issue all needful process and prescribe all needful rules to give effect to this section. Causes of this kind shall have precedence and be tried as soon as practicable.\u201d\nAs originally filed the petition for removal contained twelve Causes, each presenting separate incidents said to constitute grounds for removal.\nOn exceptions filed by respondent, this Court dismissed Causes Nos. Six, Nine, Ten and Eleven and, proceeding under the delegated power to prescribe all needful rules to give effect to the foregoing section of the Constitution, appointed Honorable D. B. Wood, Judge of the 26th Judicial District as Master, with extensive powers, to hear testimony on the remaining Causes and to report his findings to this Court. In due course and after much labor the Master filed his report with this Court in which findings of fact were made, said by the Master to be upon clear and convincing evidence, sustaining Causes One, Two, Three, Seven and Eight. As to Causes Four, Five and Twelve, he found the evidence insufficient to show grounds for removal.\nAs originally filed, and subsequently amended, the Causes were presented upon the oaths of eleven lawyers, practicing in the court held by respondent and otherwise satisfying the constitutional requirements, and were founded upon the knowledge of such lawyers as to the facts charged in Causes Three, Four, Five, Eight and Twelve and upon the written oaths of single witnesses as to each of Causes One, Two and Seven.\nRespondent challenges now, as he did originally, the sufficiency of the oaths of the witnesses to Causes One, Two and Seven to invoke the jurisdiction of the Court to hear and determine those Causes. In response to this challenge, relators have filed a motion for leave to file an amendment to their petition for removal and in connection with this motion have tendered for filing an amended presentment conforming the oaths to Causes One, Two and Seven with those made to Causes Three, Four, Five, Eight and Twelve.\nWe have concluded that the amendment may and should be allowed.\nWhile a proceeding of this character involves the imposition of a penalty in that it may result in depriving one of a public office and the emoluments thereof, it is not, strictly speaking, a criminal proceeding, McDaniel v. State, Texas Civ. App., 9 S.W. 2d 478, writ refused; Glavecke v. State, 44 Texas 137; and the rules of law preventing amendment of criminal indictments do not apply. Rather, it is supplementary of the constitutional and statutory provisions for the removal of other public officers in which it is specifically provided and held that the trial and proceedings connected therewith shall be conducted as far as is possible in accordance with the rules and practice in other civil cases. Article 5981, Revised Civil Statutes, 1925; Poe v. State, 72 Texas 625, 10 S.W. 737. In the absence of a showing of prejudice, our rules governing procedure in civil actions are extremely liberal in allowing amendment to cure defects, faults or omissions in a pleading, either of form or substance. Rule 66, Texas Rules of Civil Procedure. Under this Rule it has been held that amendment should be allowed to supply a necessary verification of a pleading. Ramsey v. Cook, Texas Civ. App., 231 S.W. 2d 734, no writ history.\nCauses One, Two and Seven contained detailed allegations of facts pertinent thereto. The Court directed the Master to receive and the parties to present evidence thereon. In obedience to that order the parties presented their evidence and there is no showing that respondent was deprived of a full and fair hearing on any of the charges, or that in the presentation of his defense to the causes he would suffer any prejudice by virtue of the amendment. When a full hearing is granted, the fact that it is based upon an unsworn pleading is not a denial of due process. Ex Parte Winfree, 152 Texas 12, 263 S.W. 2d 154. Relators\u2019 motion for leave to file their amended presentment of causes is granted. As amended, the nature of the oaths to the enumerated causes is undoubtedly suificient to invoke the jurisdiction of this Court to act on respondent\u2019s removal.\nRespondent has presented a motion to dismiss the proceeding in its entirety on the ground that the nature of the proceeding as prescribed by Article XV, Sec. 6 of the Constitution of Texas constitutes a denial of due process under the Fourteenth Amendment to the Constitution of the United States. His argument in support of this contention suggests that due process is denied because our constitutional provision permits private attorneys, who may be disgruntled practitioners before the judge, to impinge upon or interfere with the independence of the judiciary on vague and general charges of partiality, unfitness, and negligence. It is said that due process can only be guaranteed through proceedings initiated on behalf of the public by public agencies. We do not agree.\nThe Constitution of Texas provides three methods for the removal of judges of the District Courts. One is by impeachment by the House of Representatives, the articles of impeachment to be tried by the Senate, as provided in Sections 1, 2, 3, 4 and 5 of Article XV. A second is by the Governor on address of two-thirds of each House of the Legislature as provided in Section 8 of Article XV. The other is as provided in Section 6 of Article XV, above quoted. In each the judge is guaranteed a full and fair trial on the charges preferred against him, whether the charges be by way of articles of impeachment preferred by the House of Representatives and tried by the Senate, or by way of legislative address to the Governor, or by way of a presentment of causes filed by lawyers and tried by the Supreme Court. Ferguson v. Maddox, 114 Texas 85, 263 S.W. 888; Gordon v. State, 43 Texas 330, 339.\nNeither proceeding may be resorted to lightly nor may its consequences be lightly regarded. Frivolous charges, or charges involving no more than mistakes of judgment honestly arrived at or the mere erroneous exercise of discretionary power entrusted by law to a district judge, will not be entertained by this Court as grounds for removal. Neither may removal be predicated upon acts antedating election, not in themselves disqualifying under the Constitution and laws of this State, when such acts were a matter of public record or otherwise known to the electors and were sanctioned and approved or forgiven by them at the election. This holding is in harmony with the public policy declared by the Legislature with respect to other public officials. Article 5986, R.C.S. 1925. It was in keeping with the foregoing policy that Causes Six, Nine, Ten and Eleven were dismissed without putting respondent to the expense and concern of a hearing thereon. Nor may a removal proceeding against a district judge be resorted to as a means of satisfying personal animosities growing out of disappointing litigation results; nor to equate political factions or settle political differences which properly find their solution at the ballot box. While we should not close our eyes to the political turmoil in the area of the State where respondent presides, a condition of which we may take judicial notice, Seay v. Latham, 143 Texas 1, 182 S.W. 2d 251, 155 A.L.R. 180, no more should we lend ourselves to the idea, in exercising our judicial function of passing on the merits of a case before us, that the court should become a party to a movement to dispel that condition.\nOn the other hand, the people residing in a judicial district are rightfully entitled to be relieved of the impositions of a judge who, though chosen by them, proves by his. official conduct to be partial to some and oppressive to others, or unfit or incompetent to hold his office, or neglectful of its duties. Since they cannot relieve themselves before the expiration of the incumbent\u2019s full term of office, and since a session of the Legislature from whence must come removal by impeachment or by address may be neither in progress nor imminent when the need for relief arises, we think it not unreasonable and not a denial of due process that the coordinate and cumulative power to grant relief is delegated to the supreme judicial agency of the State.\nWhen lawyers appear before this Court they appear as officers of the Court, and it must be presumed that relators filed this proceeding with a full understanding and consciousness of the legal, moral and ethical obligations inherent in their office and imposed by their oath to honestly demean themselves in their profession.\nIf it can be supposed that this Court would abuse its power by arbitrarily and summarily removing a district judge without fair notice of the charges against him or without an opportunity on his part to appear and defend against the charges in a full and open hearing, the exercise of the power of removal might well amount to a denial of due process under the Fourteenth Amendment. We have no such case before us.\nThe charges against respondent were presented and fully argued in this Court, both orally and by brief, before the taking of testimony was ordered. Thereafter, a motion by relators that they be permitted to bring new charges into the proceeding was denied. A motion by the State Bar of Texas that it be permitted to intervene in aid of the prosecution of the charges, to be represented by the Attorney General of Texas and by private counsel, was denied. A district judge with a background of learning and experience and a reputation for impartiality and fairness was appointed Master. The Master was ordered to gather all evidence pertinent to the charges, and pursuant to the order he conducted an open hearing of many days\u2019 duration at which respondent appeared in person and by able counsel and offered all testimony and evidence he wished to offer. The respondent testified in his own behalf, occupying the witness chair for several days. He was confronted by the witnesses against him. Following the filing of the Master\u2019s report, a motion by relators to suspend the respondent from office while the Court had the Master\u2019s findings under consideration was denied. The parties were given thirty days from the date of filing of the Master\u2019s report in which to except thereto and to file briefs on the questions raised thereby. Later, the parties were granted twice the time customarily allowed in civil cases in which to present oral argument on the findings of the Master and the law questions arising therefrom. Every safeguard, conceivable to the Court, was erected around the respondent to protect him against unfounded charges, personal animosities and recriminations, and politically-inspired persecution.\nWe conclude that the constitutional provision delegating the power of removal to this Court and prescribing the method by which the power may be invoked is not in itself a denial of due process and that there has been no denial of due process in the manner of the exercise of the power. The motion to dismiss on this ground is overruled.\nWe come now to a consideration of the merits of the charges against respondent and to a weighing of the evidence adduced in support thereof. While the taking of testimony was entrusted to the Master who was directed to file findings of fact, it is recognized that the ultimate right and duty to decide whether the evidence taken supports the charges and constitutes grounds for removal could not be entrusted to the Master or to any other agency. Tha.t right and duty belongs alone to this Court. The decision must be the Court\u2019s decision. In reaching our decision, we agree with the rule followed by the Master and while the charges need be sustained only by a preponderance of the evidence, as distinguished from the rule in criminal cases of proof beyond a reasonable doubt, the serious nature of the proceeding in depriving one of a public office to which a majority of the electors have chosen hito and in nullifying the choice of the electors ought, at the very least, to require proof by clear and convincing evidence. We are also of the opinion that the evidence must establish the charges as laid in the presentment of causes. It is not .sufficient for removal that the evidence establish some uncharged dereliction or that it establish misconduct on the part of some other public official.\nCause One charges respondent with having been guilty of partiality, or in the alternative, official misconduct, in that, without just cause or authority in law, he discharged a grand jury of Jim Wells County after it had returned two indictments against him and while it was yet investigating the conduct of his brother, W. M. Laughlin, County Commissioner of Precinct No. 4 of Jim Wells County, it being alleged that respondent \u201cwas apprehensive that unless such Grand Jury was discharged, it might indict his brother, W. M. Laughlin, for the illegal sale to said County of certain private property in violation of the Penal Laws of the State of Texas.\u201d\nThe Court is of the opinion that the order entered by respondent on January 1, 1953, discharging the Grand Jury of Jim Wells County was entered, under the circumstances of this case, without lawful authority, and that the evidence is clear and convincing that the order of discharge was entered by respondent because of his apprehension that, unless discharged, the Grand Jury might indict his brother. The Court is therefore of the opinion that the charges against respondent contained in Cause One are supported by clear and convincing evidence and that, as established, these charges constitute such partiality and official misconduct as to justify and require his removal from office. A brief summary of the evidence on which this conclusion is based follows. That which follows immediately is without substantial dispute.\nRespondent was elected to a four-year term as Judge of the 79th Judicial District composed of Starr, Brooks, Duval and Jim Wells Counties at the General Election held on November 4, 1952, the term to begin on January 1, 1953.\nOn October 6, 1952, a grand jury was duly empaneled for the October, 1952, Term of the District Court in Jim Wells County and it thereafter entered upon an investigation of certain illegal transactions between the County and certain public officials, including respondent and his brother, W. M. Laughlin, who was a member of the Commissioners Court of the County. Both were called before the grand jury and both were aware that their official conduct was under investigation.\nOn December 2, 1952, the grand jury filed an interim report in which it called attention to a number of illegal transactions between the County and certain public officials, including the respondent, the most severely criticized transactions, however, being some to which respondent\u2019s brother, W. M. Laughlin, was a party, some of which involved the sale by W. M. Laughlin to the County of certain personal property. Both respondent and his brother were acquainted with the contents of this report. On December 29th the grand jury returned two indictments against respondent growing out of the sale by him to the County of his law library and sought, and received, permission to recess until February 16, 1953.\nOn December 26th respondent, accompanied by his family, left for the State of New Mexico where he vacationed until December 31st, learning by radio while there of the indictments returned against him on the 29th. On December 31st he drove to Alpine, Texas, where he received a long-distance telephone call from his brother and where he took his oath of office before his father-in-law shortly after midnight. He testified that he had made up his mind before leaving home that he would discharge the grand jury and that such an order was written in longhand while in Alpine on December 27th. Shortly after taking his oath of office he left for his home in Alice, Jim Wells County, stopping en route at Laredo for a short period of time where he visited friends and had the order discharging the grand jury reduced to typewritten form. He arrived in Alice on January 1st at about 1:30 p.m., and after posting bond in the cases against him went immediately to the home of the District Clerk (January 1st being a legal holiday) and filed with the Clerk his oath of office and the order discharging the grand jury, requesting the Clerk at the same time to advise the grand jurors that they had been discharged. At the time the order was entered respondent thought the grand jury was in a three-day recess and would be back in session on January 2nd. Although importuned to do so, respondent would not cancel the order of discharge until a proceeding had been filed in this Court seeking a writ of mandamus to compel him to do so.\nAlthough there is some dispute of some of the matters now to be stated, we are satisfied by the evidence that following the interim report of the grand jury on December 2nd respondent expressed his fear for the fate of his brother at the hands of the grand jury to a member of the Commissioners Court; that thereafter W. M. Laughlin visited individual members of the grand jury seeking to forestall his indictment, and that on December 29th he appeared voluntarily before the grand jury to request that he not be indicted, offering to do whatever was necessary to prevent indictment.\nIn spite of respondent\u2019s testimony that he had no such fear, the foregoing facts and circumstances lead our minds unerringly to the conclusion that when respondent returned to Alice on January 1st and entered his discharge order both he and his brother were apprehensive that, unless discharged, the grand jury would indict the brother.\nThe evidence taken by the Master in this proceeding covers 2,765 pages with many additional exhibits. The Master\u2019s report covers 64 pages. Having concluded that the evidence in support of the charges in Cause One is such as to justify and require respondent\u2019s removal from office, no good purpose, present or future, would be served by a discussion of the other Causes.\nIt is accordingly ordered that C. Woodrow Laughlin be, and he is hereby removed from the office of Judge of the 79th Judicial District, this order to be effective at 12 o\u2019clock noon, March 17, 1954.\nCiting State v. Crump, 134 Tenn. 121, 183 S.W. 505, L.R.A. 1916D, 951, relators suggest that our order of removal should extend to and include the limits of respondent\u2019s present term of office so as to debar him from election to or the holding of any unexpired portion of that term. What was said by the Supreme Court of Tennessee in the cited case is not without certain logic and reason. But the question is not an open one in this state. The precise question was presented to and decided by this Court with relation to a county official (sheriff) directly contrary to relators\u2019 suggestion. Gordon v. State, 43 Texas 330, 339-340. In that case the court treated the suggestion as one of disqualification and stated that the suggested course \u201cwas unsupported by anything in the Constitution or the law.\u201d There can be no sound basis for saying that a different rule should apply when the official removed is a district judge. Section 4 of Article XV of the Constitution specifically provides that a district judge impeached by the Senate shall be disqualified \u201cfrom holding any office of honor, trust or profit under this State,\u201d but there is no such provision in Section 6 dealing with removal by this Court or in Section 8 dealing with removal by the Governor on address of the Legislature. Neither is there any statute making removal of a district judge a ground of disqualification for the remainder of the current term of office or otherwise.\nNo motion for rehearing will be entertained. Rule 515, Texas Rules of Civil Procedure.\nOpinion delivered March 17, 1954.",
+        "type": "majority",
+        "author": "Mr. Justice Calvert"
+      }
+    ],
+    "attorneys": [
+      "Hyde, Barber & Shireman and Wm. H. Shireman, of Corpus Christi, and Elton M. Hyder, Jr., of Fort Worth, for relators.",
+      "Small, Small & Craig, C. C. Small and C. C. Small, Jr., of Austin, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "In the Matter of the Removal of C. Woodrow Laughlin, District Judge\nNo. A-4295.\nDecided March 17, 1954.\n(265 S.W. 2d Series 805)\nHyde, Barber & Shireman and Wm. H. Shireman, of Corpus Christi, and Elton M. Hyder, Jr., of Fort Worth, for relators.\nSmall, Small & Craig, C. C. Small and C. C. Small, Jr., of Austin, for respondent."
+  },
+  "file_name": "0183-01",
+  "first_page_order": 199,
+  "last_page_order": 209
+}

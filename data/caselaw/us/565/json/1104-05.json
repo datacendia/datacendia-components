@@ -1,0 +1,59 @@
+{
+  "id": 12238722,
+  "name": "Florida v. Jardines",
+  "name_abbreviation": "Florida v. Jardines",
+  "decision_date": "2012-01-06",
+  "docket_number": "No. 11-564",
+  "first_page": "1104",
+  "last_page": "1104",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1104"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 26,
+    "char_count": 184,
+    "ocr_confidence": 0.656,
+    "sha256": "fe491c0d1b74fa310acff963a09efef33d8151f363077b900b2c10ccf841e3b6",
+    "simhash": "1:6fccd45a51f16b0e",
+    "word_count": 28
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Florida v. Jardines."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Fla. Motion of respondent for leave to proceed informa pauperis granted. Cer-tiorari granted limited to Question 1 presented by the petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-564.\nFlorida v. Jardines."
+  },
+  "file_name": "1104-05",
+  "first_page_order": 1186,
+  "last_page_order": 1186
+}

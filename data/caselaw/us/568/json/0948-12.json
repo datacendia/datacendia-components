@@ -1,0 +1,59 @@
+{
+  "id": 12418326,
+  "name": "Richardson v. Branker, Warden",
+  "name_abbreviation": "Richardson v. Branker",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 12-5643",
+  "first_page": "948",
+  "last_page": "948",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 948"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 78,
+    "ocr_confidence": 0.621,
+    "sha256": "28e4042121ac619bf3ae4097fd73e9003dd7c7abbf94051c8cd2d05e4a85d8d3",
+    "simhash": "1:95c89698c44bb011",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Richardson v. Branker, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5643.\nRichardson v. Branker, Warden."
+  },
+  "file_name": "0948-12",
+  "first_page_order": 1024,
+  "last_page_order": 1024
+}

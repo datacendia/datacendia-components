@@ -1,0 +1,859 @@
+{
+  "id": 12520271,
+  "name": "UNITED STATES of America, Plaintiff - Appellee, v. Ian Alexander BOWLINE, Defendant - Appellant.",
+  "name_abbreviation": "United States v. Bowline",
+  "decision_date": "2019-03-11",
+  "docket_number": "No. 17-7080",
+  "first_page": "1227",
+  "last_page": "1238",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "917 F.3d 1227"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "10th Cir.",
+    "id": 8771,
+    "name": "United States Court of Appeals for the Tenth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "553 U.S. 242",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3673873
+      ],
+      "weight": 3,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "248",
+          "parenthetical": "\"What suffices for waiver depends on the nature of the right at issue.\" (internal quotation marks omitted)."
+        },
+        {
+          "parenthetical": "\"What suffices for waiver depends on the nature of the right at issue.\" (internal quotation marks omitted)."
+        },
+        {
+          "parenthetical": "\"What suffices for waiver depends on the nature of the right at issue.\" (internal quotation marks omitted)."
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/553/0242-01"
+      ]
+    },
+    {
+      "cite": "229 F. App'x 721",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        3500190
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "725",
+          "parenthetical": "\"We review the district court's decision to decline to hear untimely pretrial motions for an abuse of discretion.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/229/0721-01"
+      ]
+    },
+    {
+      "cite": "544 F.2d 1215",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1020920
+      ],
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "1217",
+          "parenthetical": "requiring good cause"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/544/1215-01"
+      ]
+    },
+    {
+      "cite": "794 F.3d 635",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4285314
+      ],
+      "weight": 2,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "652, 655",
+          "parenthetical": "reasoning that the removal of \"waiver\" from the Rule indicates that an untimely Rule 12 motion does not \"waive\" a defendant's claim unless defendant has intentionally relinquished a known right"
+        },
+        {
+          "page": "655"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/794/0635-01"
+      ]
+    },
+    {
+      "cite": "804 F.3d 1113",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4357829
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1119",
+          "parenthetical": "because amended Rule 12 makes no mention of \"waiver,\" a defendant merely forfeits his claim by raising it in an untimely fashion, and it is subject to plain-error review"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/804/1113-01"
+      ]
+    },
+    {
+      "cite": "855 F.3d 265",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12276779
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "270",
+          "parenthetical": "court will not review untimely duplicity challenge absent showing of good cause or plain error"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/855/0265-01"
+      ]
+    },
+    {
+      "cite": "899 F.3d 363",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12518078
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "372-73",
+          "parenthetical": "interpreting the deletion of \"waiver\" from Rule 12 as signaling that an untimely argument under the Rule may be forfeited rather than waived and would be reviewable for plain error"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/899/0363-01"
+      ]
+    },
+    {
+      "cite": "810 F.3d 833",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12310421,
+        4061014
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "836",
+          "parenthetical": "declining to decide what standard of appellate review applies after the 2014 amendments"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/420/0469-01",
+        "/f3d/810/0833-01"
+      ]
+    },
+    {
+      "cite": "786 F.3d 630",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4192402
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "635-36",
+          "parenthetical": "if defendant raises untimely motion to suppress, court will review for plain error if defendant shows good cause"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/786/0630-01"
+      ]
+    },
+    {
+      "cite": "724 F. App'x 606",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "607",
+          "parenthetical": "review of defendant's suppression argument was precluded when he failed to timely raise it before trial and \"further failed to make the requisite showing of good cause to excuse that failure\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "903 F.3d 887",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12518598
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "895"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/903/0887-01"
+      ]
+    },
+    {
+      "cite": "792 F.3d 884",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6055149
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "888",
+          "parenthetical": "denying review of untimely multiplicity challenge when defendant did not show good cause"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/792/0884-01"
+      ]
+    },
+    {
+      "cite": "742 F. App'x 646",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "662",
+          "parenthetical": "\"In this Circuit, suppression issues raised for the first time on appeal are waived absent good cause under Rule of Criminal Procedure 12, and Rule 52 's plain error rule does not apply.\" (internal quotation marks omitted)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "858 F.3d 801",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12276559
+      ],
+      "year": 2017,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/858/0801-01"
+      ]
+    },
+    {
+      "cite": "862 F.3d 223",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12275846
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "234",
+          "parenthetical": "untimely argument is excused only where \"there is a showing of cause\" (internal quotation marks omitted)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/862/0223-01"
+      ]
+    },
+    {
+      "cite": "887 F.3d 529",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516574
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "534",
+          "parenthetical": "refusing to address merits of defendant's suppression argument subject to Rule 12 when defendant did not \"argue that his delay in filing the motion to suppress was excused by good cause\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/887/0529-01"
+      ]
+    },
+    {
+      "cite": "893 F.3d 763",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12517415
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "parenthetical": "noting in dictum the continued vitality of Burke "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/893/0763-01"
+      ]
+    },
+    {
+      "cite": "72 F.3d 1217",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7415449
+      ],
+      "weight": 2,
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "1227"
+        },
+        {
+          "page": "1227"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/72/1217-01"
+      ]
+    },
+    {
+      "cite": "227 F.3d 874",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11193084
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "880-81"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/227/0874-01"
+      ]
+    },
+    {
+      "cite": "691 F.3d 960",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3508425
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "964-65"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/691/0960-01"
+      ]
+    },
+    {
+      "cite": "186 F.3d 948",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        857905,
+        3670474
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "957"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/186/0948-01",
+        "/us-app-dc/337/0362-01"
+      ]
+    },
+    {
+      "cite": "433 U.S. 72",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6177021
+      ],
+      "weight": 5,
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "84",
+          "parenthetical": "stating that the Court in Davis held that an untimely claim is barred absent cause \"on habeas, as on direct appeal \" (emphasis added)"
+        },
+        {
+          "parenthetical": "stating that the Court in Davis held that an untimely claim is barred absent cause \"on habeas, as on direct appeal \" (emphasis added)"
+        },
+        {
+          "parenthetical": "stating that the Court in Davis held that an untimely claim is barred absent cause \"on habeas, as on direct appeal \" (emphasis added)"
+        },
+        {
+          "page": "84"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/433/0072-01"
+      ]
+    },
+    {
+      "cite": "27 L.Ed. 857",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "case_ids": [
+        8217,
+        8202
+      ],
+      "year": 1883,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/109/0065-01",
+        "/us/109/0063-01"
+      ]
+    },
+    {
+      "cite": "109 U.S. 65",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8217
+      ],
+      "weight": 2,
+      "year": 1883,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/109/0065-01"
+      ]
+    },
+    {
+      "cite": "394 U.S. 217",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6170433
+      ],
+      "weight": 4,
+      "year": 1969,
+      "pin_cites": [
+        {
+          "page": "237"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/394/0217-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 2255",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "411 U.S. 233",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9958
+      ],
+      "weight": 30,
+      "year": 1973,
+      "pin_cites": [
+        {
+          "page": "234"
+        },
+        {
+          "page": "236"
+        },
+        {
+          "page": "245"
+        },
+        {
+          "page": "241"
+        },
+        {
+          "page": "242"
+        },
+        {
+          "page": "239-40"
+        },
+        {
+          "page": "242"
+        },
+        {
+          "page": "241"
+        },
+        {
+          "page": "242"
+        },
+        {
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "244-45"
+        },
+        {
+          "page": "241"
+        },
+        {
+          "page": "245"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/411/0233-01"
+      ]
+    },
+    {
+      "cite": "507 U.S. 725",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6237509
+      ],
+      "weight": 6,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "732-34"
+        },
+        {
+          "page": "733"
+        },
+        {
+          "parenthetical": "\"What suffices for waiver depends on the nature of the right at issue.\" (internal quotation marks omitted)."
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/507/0725-01"
+      ]
+    },
+    {
+      "cite": "835 F.3d 1195",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4354870
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1205"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/835/1195-01"
+      ]
+    },
+    {
+      "cite": "443 F.3d 718",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        2655531
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "722",
+          "parenthetical": "affirming dismissal of habeas application as untimely"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/443/0718-01"
+      ]
+    },
+    {
+      "cite": "500 F.3d 1099",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3699672
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "1104",
+          "parenthetical": "\"[T]he omission of an issue in an opening brief generally forfeits appellate consideration of that issue.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/500/1099-01"
+      ]
+    },
+    {
+      "cite": "361 F.3d 1282",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        645576
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "1289",
+          "parenthetical": "\"The failure to raise an issue in an opening brief waives that issue.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/361/1282-01"
+      ]
+    },
+    {
+      "cite": "551 U.S. 205",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3573311
+      ],
+      "weight": 3,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "211-13",
+          "parenthetical": "untimely notice of appeal in civil case creates jurisdictional bar to appellate review"
+        },
+        {
+          "parenthetical": "untimely notice of appeal in civil case creates jurisdictional bar to appellate review"
+        },
+        {
+          "parenthetical": "untimely notice of appeal in civil case creates jurisdictional bar to appellate review"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/551/0205-01"
+      ]
+    },
+    {
+      "cite": "506 F.3d 1287",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6046554
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "1290-91",
+          "parenthetical": "untimely notice of appeal in criminal case precludes appellate review if the government raises an untimeliness objection"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/506/1287-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 451",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "429 U.S. 6",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        7350
+      ],
+      "weight": 5,
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "7-8"
+        },
+        {
+          "page": "8"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/429/0006-01"
+      ]
+    },
+    {
+      "cite": "633 F.3d 984",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4091424
+      ],
+      "weight": 5,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "988-91",
+          "parenthetical": "considering untimely motion to suppress evidence"
+        },
+        {
+          "page": "990-91"
+        },
+        {
+          "page": "988-91"
+        },
+        {
+          "page": "988"
+        },
+        {
+          "page": "991",
+          "parenthetical": "supporting our holding that good cause must always be shown by noting that the term waiver had not been removed from Rule 12 "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/633/0984-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 1952",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(3)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 U.S.C. \u00a7\u00a7 841",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "674 F. App'x 781",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        12394035
+      ],
+      "weight": 5,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "782-83"
+        },
+        {
+          "page": "786",
+          "parenthetical": "brackets and internal quotation marks omitted"
+        },
+        {
+          "page": "784-85"
+        },
+        {
+          "page": "784"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/674/0781-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1291",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1359,
+    "char_count": 37829,
+    "pagerank": {
+      "raw": 6.754617515956616e-08,
+      "percentile": 0.4090431527089031
+    },
+    "sha256": "7f03c883b9cb3ac385ea1210b874e33e9e5aa8fce8745c00ee79cab60ffbf873",
+    "simhash": "1:92bcff062ca8adba",
+    "word_count": 6269
+  },
+  "last_updated": "2024-02-27T18:46:27.088999+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before HARTZ, HOLMES, and CARSON, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff - Appellee,\nv.\nIan Alexander BOWLINE, Defendant - Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "HARTZ, Circuit Judge.\nDefendant Ian Alexander Bowline was convicted by a jury in the United States District Court for the Eastern District of Oklahoma on a number of charges involving unlawful prescriptions for oxycodone. He appeals his conviction, raising only one issue: whether the district court properly denied his untimely pretrial motion to dismiss his indictment on the ground of vindictive prosecution. The district court ruled (1) that he was procedurally barred because he had not shown good cause under Fed. R. Crim. P. 12(c)(3) to excuse his untimeliness and (2) that on the merits he had not demonstrated that he was being subjected to a vindictive prosecution. Defendant appeals. He does not argue that he had good cause for his untimely motion but contends that he can nevertheless raise his vindictive-prosecution claim on appeal under a plain-error standard of review, which he claims he satisfied. Exercising jurisdiction under 28 U.S.C. \u00a7 1291, we affirm because Defendant is not entitled to relief on appeal absent a showing of good cause to excuse the untimeliness of his motion. We therefore need not reach the merits of his vindictive-prosecution claim.\nI. BACKGROUND\nDefendant's trial was his second on charges arising out of the oxycodone prescriptions. We reversed his convictions after the first trial. See United States v. Bowline , 674 F. App'x 781 (10th Cir. 2016). Although, as we will describe more fully later, the charges at the second trial were different, the evidence concerned the same scheme. Defendant, who was not a doctor, was able to write false prescriptions for oxycodone by obtaining watermarked prescription pads online and then using Drug Enforcement Administration physician identifiers and license numbers that he purchased online. \"[H]is confederates-acting individually or in small groups-passed those prescriptions at various pharmacies. In exchange for their time and trouble, his confederates kept either a share of the pills they acquired, cash in lieu of their share, or some combination of the two. The rest of the pills went to [Defendant].\" Id. at 782-83.\nAt his first trial in March 2015, Defendant was convicted of conspiracy to distribute, and possess with intent to distribute, oxycodone, see 21 U.S.C. \u00a7\u00a7 841, 846, and interstate travel in aid of a racketeering enterprise (which was based on the drug conspiracy), see 18 U.S.C. \u00a7 1952(a)(3). On appeal we held that the government had failed to prove that Defendant and his confederates conspired to distribute oxycodone. We explained that \"the circumstances in this case don't lend themselves to an inference that [Defendant] and his confederates shared a common purpose to distribute Oxycodone. Instead, ... they shared only a common goal to obtain that drug.\" Bowline , 674 F. App'x. at 786 (brackets and internal quotation marks omitted). And \"to the extent that [Defendant] entered into agreements with his various confederates under which they agreed to distribute Oxycodone to [Defendant], ... those agreements are insufficient to support [Defendant's] conviction for conspiracy to distribute.\" Id. at 784-85. Were it otherwise, we said, every drug sale would amount to a conspiracy to distribute between the transferor and transferee. See id. at 784. We reversed the convictions and remanded to the district court with instructions to vacate its judgment and 108-month sentence.\nIn January 2017 the government filed a new indictment against Defendant. Rather than again pursuing conspiracy-based charges, the government obtained an indictment on a number of previously uncharged substantive offenses: 11 counts of passing fraudulent prescriptions, see 21 U.S.C. 843(a)(3), and 11 counts of using a registration number of another in creating those prescriptions, see 21 U.S.C. 843(a)(2). Two counts were later dismissed on the government's motion.\nThe court set January 26 as the deadline for all pretrial motions. After that deadline passed, the government filed an unopposed motion to continue the trial, and the court issued an amended scheduling order postponing the trial date to April 4 and setting March 9 as the new deadline to file all pretrial motions. On April 1, the Saturday before the Tuesday trial and after both pretrial-motion deadlines had expired, Defendant filed a motion to dismiss his indictment for vindictive prosecution. The district court denied the motion as untimely under Fed. R. Crim. P. 12(c)(3). It found that \"Defendant's basis for the motion to dismiss was known since the time the Indictment was returned\" and Defendant had not shown good cause that would excuse his delay. R., Vol. 1 at 142. The court also rejected Defendant's motion on the merits. Defendant was convicted on 16 counts and sentenced to concurrent terms of 16 months on each count with credit for time served.\nII. DISCUSSION\nWe hold that we cannot review an untimely motion claiming vindictive prosecution absent a showing of good cause. This court so held before the 2014 amendments to Rule 12, see United States v. Burke , 633 F.3d 984, 988-91 (10th Cir. 2011) (considering untimely motion to suppress evidence), and we reject the view that the amendments effect any relevant change.\nOur conclusion follows from a straightforward reading of the Rule. The pertinent parts of Rule 12 state:\n(b) Pretrial Motions\n...\n(2) Motions That May Be Made at Any Time. A motion that the court lacks jurisdiction may be made at any time while the case is pending.\n(3) Motions That Must Be Made Before Trial. The following defenses, objections, and requests must be raised by pretrial motion if the basis for the motion is then reasonably available and the motion can be determined without a trial on the merits:\n(A) a defect in instituting the prosecution, including:\n(i) improper venue;\n(ii) preindictment delay;\n(iii) a violation of the constitutional right to a speedy trial;\n(iv) selective or vindictive prosecution ; and\n(v) an error in the grand-jury proceeding or preliminary hearing;\n(B) a defect in the indictment or information, including:\n(i) joining two or more offenses in the same count (duplicity);\n(ii) charging the same offense in more than one count (multiplicity);\n(iii) lack of specificity;\n(iv) improper joinder; and\n(v) failure to state an offense;\n(C) suppression of evidence;\n(D) severance of charges or defendants under Rule 14; and\n(E) discovery under Rule 16....\n(c) Deadline for a Pretrial Motion; Consequences of Not Making a Timely Motion.\n(1) Setting the Deadline. The court may, at the arraignment or as soon afterward as practicable, set a deadline for the parties to make pretrial motions and may also schedule a motion hearing. If the court does not set one, the deadline is the start of trial.\n(2) Extending or Resetting the Deadline. At any time before trial, the court may extend or reset the deadline for pretrial motions.\n(3) Consequences of Not Making a Timely Motion Under Rule 12(b)(3). If a party does not meet the deadline for making a Rule 12(b)(3) motion, the motion is untimely. But a court may consider the defense, objection, or request if the party shows good cause.\nFed. R. Crim. P. 12(b), (c) (emphasis added).\nThe Rule clearly provides only one circumstance in which an untimely motion can be considered-when the movant \"shows good cause.\" Fed. R. Crim. P. 12(c)(3). Defendant acknowledges that a district court has no authority to consider an untimely motion absent good cause, but he contends that this court is not so bound. This makes little sense. Correction of error is almost always better if done at the trial level rather than on appeal. In United States v. Dieter , 429 U.S. 6, 7-8, 97 S.Ct. 18, 50 L.Ed.2d 8 (1976), the Supreme Court held that the time for the government to appeal is tolled until disposition of a timely government motion to reconsider. It explained: \"[P]lenary consideration of an issue by an appellate court ordinarily requires more time than is required for disposition by a trial court of a petition for rehearing. [In light of] the wisdom of giving district courts the opportunity promptly to correct their own alleged errors ... , we must ... be wary of imposing added and unnecessary burdens on the courts of appeals.\" Id. at 8, 97 S.Ct. 18 (citation omitted). It would be contrary to that same wisdom to bar relief in the district court but permit appellate review. We can see no reason why the rulemakers would countenance, much less create, such a scheme.\nThe present language of the Rule supports this commonsense view. In all but one of the 11 times that Rule 12 uses the word court , it speaks in terms of \"the court\"-clearly referring to the court in which the trial is pending. Rule 12(c)(3), in contrast, states, \"But a court may consider the defense, objection, or request if the party shows good cause.\" (emphasis added). Why the change in locution if the Rule is still referring to the trial court? We think it clear that in this paragraph the Rule is referring to an appellate court (or perhaps a court hearing a postconviction challenge) as well as the trial court. We note that the Rules of Criminal Procedure, although directed principally at the trial courts, plainly state that the word court can refer to an appellate court as well. The Rules \"govern the procedure in all criminal proceedings in the United States district courts, the United States courts of appeals , and the Supreme Court of the United States.\" Fed. R. Crim. Proc. 1(a)(1) (emphasis added). Also, they define Court as a \"federal judge performing functions authorized by law.\" Fed. R. Crim. Proc. 1(b)(2). And the definition of federal judge incorporates the definition of judge in 28 U.S.C. \u00a7 451, see Fed. R. Crim. Proc. 1(b)(3)(A), which defines that term to include \"judges of the courts of appeals [and] district courts.\" 28 U.S.C. \u00a7 451.\nDespite this clear language, Defendant argues that the 2014 amendments to Rule 12 indicate that plain-error review of an untimely motion is permissible. Before the amendments, Rule 12(e) (the counterpart of present Rule 12(c)(3) ) read: \"A party waives any Rule 12(b)(3) defense, objection, or request not raised by the deadline the court sets under Rule 12(c) or by any extension the court provides. For good cause, the court may grant relief from the waiver.\" Defendant interprets the removal of the words waive and waiver from the Rule in 2014 as signaling a change in the operative standard of review.\nDefendant's argument appears to be as follows: First, the only time a party is precluded from raising an issue on appeal is when the party has \"waived\" the issue in the district court. Otherwise, the party may seek relief for plain error under Fed. R. Crim. P. 52(b) (which states, \"A plain error that affects substantial rights may be considered even though it was not brought to the court's attention.\"). Second, a party waives an issue only if the failure to raise it is an intentional relinquishment of a known right. Otherwise (for example, when the failure to raise an issue was an oversight or mere negligence), the failure amounts to only a forfeiture, and the issue is reviewable for plain error. Third, elimination of the word waiver from the Rule indicates that a failure to raise a timely motion subject to Rule 12 may be a forfeiture, rather than a waiver, and the issue is then reviewable under plain error.\nDefendant's analysis rests on the false premise that there are only two alternatives with respect to appellate review of an issue not properly raised by a party: One alternative is that a party knowingly and intentionally relinquishes a known right, thereby precluding appellate review. The other is that a party fails to raise an issue by some action (or inaction) short of a knowing relinquishment of a right, in which case appellate review for plain error is available. But there are common circumstances in which appellate review of an issue is precluded even when a party's failure to raise the issue was not an intentional relinquishment of a known right. The failure to raise an issue in a timely fashion may have institutional consequences that justify precluding review even if the untimeliness was the result of mere oversight or negligence, even when barring review would be of great consequence to the neglectful party.\nFor example, failure to file a timely notice of appeal in a criminal case is generally dispositive whenever the failure is raised by the opposing party. See United States v. Garduno , 506 F.3d 1287, 1290-91 (10th Cir. 2007) (untimely notice of appeal in criminal case precludes appellate review if the government raises an untimeliness objection); cf. Bowles v. Russell , 551 U.S. 205, 211-13, 127 S.Ct. 2360, 168 L.Ed.2d 96 (2007) (untimely notice of appeal in civil case creates jurisdictional bar to appellate review). Likewise, when a party omits an argument from its opening brief, an appellate court has no obligation to consider that argument. See United States v. Abdenbi , 361 F.3d 1282, 1289 (10th Cir. 2004) (\"The failure to raise an issue in an opening brief waives that issue.\"); see also Bronson v. Swensen , 500 F.3d 1099, 1104 (10th Cir. 2007) (\"[T]he omission of an issue in an opening brief generally forfeits appellate consideration of that issue.\"). We do not consider whether the omission was intentional and, if not, review the issue under a plain-error standard. The expiration of a statute of limitations can also preclude a cause of action or a claim for postconviction relief even if the delay was not an intentional relinquishment of that cause of action. See Robinson v. Golder , 443 F.3d 718, 722 (10th Cir. 2006) (affirming dismissal of habeas application as untimely). And when a party chooses to pursue litigation instead of arbitration, we have held that it may be barred from later raising the right to arbitrate if the court litigation has progressed too far, even if the party has not \"intentionally relinquishe[d] or abandon[ed] [its] right\" to arbitrate. In re Cox Enters. Set-top Cable Television Box Antitrust Litig. , 835 F.3d 1195, 1205 (10th Cir. 2016).\nTo be sure, the Supreme Court has used the two-alternative framework advanced by Defendant when describing in general the consequences for appeal of a failure to timely raise an issue. In United States v. Olano , 507 U.S. 725, 732-34, 113 S.Ct. 1770, 123 L.Ed.2d 508 (1993), it held that failure to timely assert a right ordinarily merely forfeits the issue and the issue can be reviewed on appeal for plain error; but if the failure to raise the issue was a waiver-that is, \"the intentional relinquishment or abandonment of a known right,\" id . at 733, 113 S.Ct. 1770 (internal quotation marks omitted)-appellate review is barred. But Olano does not address statutes or rules that preclude appellate review even absent an intentional relinquishment of a known right.\nIn particular, Olano did not overrule, or even cite, Davis v. United States , 411 U.S. 233, 93 S.Ct. 1577, 36 L.Ed.2d 216 (1973), which considered the original 1944 version of Rule 12. That version provided:\nDefenses and objections based on defects in the institution of the prosecution or in the indictment or information other than that it fails to show jurisdiction in the court or to charge an offense may be raised only by motion before trial. The motion shall include all such defenses and objections then available to the defendant. Failure to present any such defense or objection as herein provided constitutes a waiver thereof, but the court for cause shown may grant relief from the waiver ....\nFed. R. Crim. P. 12(b)(2) (1944), as quoted in 1A Charles Alan Wright & Arthur R. Miller, Federal Practice & Procedure \u00a7 190 n.2 (4th ed. 2018) (emphasis added), and 24 Moore's Federal Practice, \u00a7 612.100 (3d ed. 2018) (emphasis added). One might have questioned whether the term waiver as used in the original Rule required an intentional relinquishment of a known right and whether the rule had any consequences for appellate review. But Davis answered those questions: waiver under Rule 12 did not require an intentional relinquishment of a known right, and a waiver barred appellate (or collateral) review absent a showing of cause and prejudice.\nIn Davis the defendant raised a constitutional challenge to the composition of his grand jury for the first time in a 28 U.S.C. \u00a7 2255 postconviction motion. See 411 U.S. at 234, 93 S.Ct. 1577. He urged the Court to review his motion because he had not \"deliberately bypassed or understandingly and knowingly waived his claim of unconstitutional grand jury composition.\" Id. at 236, 93 S.Ct. 1577 (internal quotation marks omitted). The meaning the defendant sought to give waiver matched that later set forth in Olano . See Pet. Br., Davis v. United States , No. 71-6481, at 23 (Jan. 8, 1973) (arguing that the defendant waived his claim \"only if his failure to comply with Rule 12 is found to be the result of an understanding and knowing waiver, or a deliberate by-pass\"); cf. Davis , 411 U.S. at 245, 93 S.Ct. 1577 (Marshall, J., dissenting) (contending that failure to timely raise a Rule 12 issue \"does not bar\" the claim when the failure was \"not an intentional relinquishment or abandonment of a known right or privilege\" (internal quotation marks omitted)).\nBut the Court rejected that argument, explaining that when a rule \"promulgated by this Court and ... adopted by Congress, governs by its terms the manner in which the claims of defects in the institution of criminal proceedings may be waived,\" the standard specified in the rule controls. Davis , 411 U.S. at 241, 93 S.Ct. 1577 (internal quotation marks omitted). The Court thus held that the \"cause\" standard expressly set forth in Rule 12-not the Olano -like standard proposed by the defendant-governed. See id. at 242, 93 S.Ct. 1577. The Court's holding was not confined to the postconviction context; it stemmed directly from the plain language of Rule 12. See id. at 239-40, 93 S.Ct. 1577 (distinguishing Kaufman v. United States , 394 U.S. 217, 89 S.Ct. 1068, 22 L.Ed.2d 227 (1969), a \u00a7 2255 case permitting review of an untimely argument raised in postconviction proceeding, because \"the Court in Kaufman was not dealing with the sort of express waiver provision contained in Rule 12... which specifically provides for the waiver of a particular kind of constitutional claim if it be not timely asserted\").\nInterpreting Rule 12 in this manner, the Court explained, accords with both the Rule's origins and good policy. Rule 12 was intended to codify the long-recognized notion that \"defendants who pleaded to an indictment and went to trial without making any nonjurisdictional objection to the grand jury, even one unconstitutionally composed, waived any right of subsequent complaint on account thereof.\" Id. at 237, 93 S.Ct. 1577 (citing United States v. Gale , 109 U.S. 65, 3 S.Ct. 1, 27 L.Ed. 857 (1883) ). The Rule reflects the view that certain alleged defects are best raised early in the proceedings when \"inquiry into an alleged defect may be concluded and, if necessary, cured before the court, the witnesses, and the parties have gone to the burden and expense of a trial.\" Id. at 241, 93 S.Ct. 1577. Adopting the Olano -like standard proposed by the defendant, the Court observed, would \"perversely negate the Rule's purpose by permitting an entirely different but much more liberal requirement of waiver.\" Id. at 242, 93 S.Ct. 1577. As the Court explained:\nIf defendants were allowed to flout [the] time limitations [in Rule 12 ], ... there would be little incentive to comply with its terms when a successful attack might simply result in a new indictment prior to trial. Strong tactical considerations would militate in favor of delaying the raising of the claim in hopes of an acquittal, with the thought that if those hopes did not materialize, the claim could be used to upset an otherwise valid conviction at a time when reprosecution might well be difficult.\nId. at 241, 93 S.Ct. 1577. The Court thought it \"inconceivable\" that \"Congress, having in the criminal proceeding foreclosed the raising of a claim such as [that raised by the defendant] after the commencement of trial in the absence of a showing of 'cause' for relief from waiver, nonetheless intended [to permit later review].\" Id. at 242, 93 S.Ct. 1577. Accordingly, the Court held that \"the necessary effect of the congressional adoption of Rule 12(b)(2) [was] to provide that a claim once waived pursuant to that Rule [could] not later be resurrected, either in the criminal proceedings or in federal habeas , in the absence of the showing of 'cause' which that Rule requires.\" Id. (emphasis added); see Wainwright v. Sykes , 433 U.S. 72, 84, 97 S.Ct. 2497, 53 L.Ed.2d 594 (1977) (stating that the Court in Davis held that an untimely claim is barred absent cause \"on habeas, as on direct appeal \" (emphasis added)).\nDavis on its own might be read as permitting review of an untimely claim if either \"cause\" or \"prejudice\" is shown. See 411 U.S. at 244-45, 93 S.Ct. 1577. But later decisions make clear that to excuse a waiver under Rule 12, a defendant must show both cause for his untimeliness and prejudice suffered as a result of the error. See Sykes , 433 U.S. at 84, 97 S.Ct. 2497 (\"[W]e concluded [in Davis ] that review of the claim should be barred on habeas, as on direct appeal, absent a showing of cause for the noncompliance and some showing of actual prejudice resulting from the alleged constitutional violation.\" (emphasis added)).\nIn sum, relevant to this decision Davis establishes that (1) waiver as used in Rule 12 did not require an intentional relinquishment of a known right, and (2) an untimely argument subject to Rule 12 is not reviewable either in district court or in any subsequent proceedings absent a showing of an excuse for being untimely.\nAs previously noted, Olano did not overrule Davis . It did not even mention Davis . Nor did it purport to address the meaning or consequence of the term waiver in any specific rule or statute. As the D.C. Circuit nicely explained the point:\nOlano and Davis ... are not inconsistent with each other. Although Olano indicates that untimely objections are generally regarded as forfeitures subject to [plain-error review under] Rule 52(b), Davis dictates that untimely objections that come within the ambit of Rule 12(b)(2) must be considered waivers and may not be revived on appeal. We cannot conclude that the Court intended Olano , a case which mentioned neither Rule 12 nor Davis , to overrule Davis by redefining sub silentio the meaning of the word \"waiver\" in Rule 12.\nUnited States v. Weathers , 186 F.3d 948, 957 (D.C. Cir. 1999) ; accord United States v. Green , 691 F.3d 960, 964-65 (8th Cir. 2012). Our decision in Burke , 633 F.3d at 990-91, although it did not cite Davis , likewise held that an untimely argument could be waived under Rule 12 even if the Olano standard for waiver was not met.\nUnfortunately, some appellate decisions concluded that the Olano standard must be pasted into Rule 12, at least for purposes of appellate review, so that a \"waiver\" under Rule 12 did not preclude appellate review unless the waiver was knowing and intelligent. See, e.g. , United States v. Clarke , 227 F.3d 874, 880-81 (7th Cir. 2000) ; United States v. Buchanon , 72 F.3d 1217, 1227 (6th Cir. 1995). These courts decided that a Rule 12\"waiver\" falling short of an intentional relinquishment of a known right permitted review on appeal for plain error. But the opinions permitting plain-error review of issues waived under Rule 12 did not analyze Davis or explain how Olano , which never cited Davis , nevertheless overruled it.\nThis confusion about the meaning and consequences of the word waiver led to its elimination from Rule 12. Under Davis there could be a waiver without satisfaction of the Olano intentional-relinquishment standard. But the Olano standard had become dominant in the case law in determining when there had been a waiver, rendering the use of that term in Rule 12 idiosyncratic. Consistent use of a legal term of art is good practice, particularly when there is no need to retain a term with a meaning that differs from its ordinary sense. The Advisory Committee on Criminal Rules thus decided to remove the term waiver . As the Advisory Committee Notes explain:\nAlthough the term waiver in the context of a criminal case ordinarily refers to the intentional relinquishment of a known right, Rule 12(e) has never required any determination that a party who failed to make a timely motion intended to relinquish a defense, objection, or request that was not raised in a timely fashion. Accordingly, to avoid possible confusion the Committee decided not to employ the term \"waiver\" in new paragraph (c)(3).\nAdvisory Comm. Notes to Fed. R. Crim. Proc. 12 (2014); see also Advisory Comm. on Crim. Rules Report (May 2011) (\"May 2011 Report\") at 375 (\"Because the ordinary meaning of waiver is a knowing and intentional relinquishment of a right, the non-standard use of that term in Rule 12 creates unnecessary confusion and difficulties. ... After discussion the Advisory Committee concluded that it would be feasible and desirable to revise the rule to avoid [using the term waiver ].\").\nBut elimination of the word waiver from the Rule did not change the operative standard. The Advisory Committee Notes could not be clearer on this point. See Advisory Comm. Notes to Fed. R. Crim. Proc. 12 (2014) (\"New paragraph 12(c)(3) retains the existing standard for untimely claims . The party seeking relief must show 'good cause' for failure to raise a claim by the deadline, a flexible standard that requires consideration of all interests in the particular case.\" (emphasis added)); see also 1A Charles Alan Wright & Arthur R. Miller, Federal Practice & Procedure \u00a7 193 (4th ed. 2018) (\"One immediate benefit of [removing 'waiver' from the Rule] is that it allows courts to free themselves from the waiver/forfeiture distinction, and apply instead the familiar 'good cause' standard.\"). And the plain text of the Rule still states that review of any untimely claim subject to Rule 12 is permissible only if the party shows \"good cause.\" Fed. R. Crim. P. 12(c)(3). A term to describe that effect-whether it be waiver or procedural bar or the equivalent-is hardly essential.\nFinally, we recognize that the Advisory Committee considered, but ultimately rejected, new language in Rule 12 expressly excluding plain-error review. But the omission of that language from the Rule was not because the committee had endorsed plain-error review. As mentioned above, in the wake of Olano some circuit authority (misbegotten in our view because of the failure to consider Davis ) would apply plain-error review to untimely Rule 12 claims even in the absence of a showing of good cause. See, e.g. , Buchanon , 72 F.3d at 1227. The Advisory Committee-believing this application of Rule 12 to be contrary to Davis -proposed amending the language of the Rule to direct the appellate courts that \" Rule 52 does not apply.\" May 2011 Report at 376; see id. at 378-79 (explaining that several courts of appeals had interpreted the term waiver as requiring an intentional relinquishment of a known right and had accordingly reviewed untimely Rule 12 arguments for plain error, even though \"none of the [Supreme] Court's cases discussing Rule 52-including Olano v. United States -even mention Rule 12\" (footnote omitted)); id . at 387 (\"It would be odd indeed if the waiver/good cause standard of Rule 12 applied in the district court ... , but the more generous plain error standard applied in the court of appeals.\"). In later removing that language from the proposed amendments to the Rule, the Advisory Committee merely wished to avoid debate that threatened to delay or prevent adoption of the rule amendments. See Advisory Comm. Notes to Fed. R. Crim. Proc. 12, Changes Made After Publication and Comment (2014) (\"[T]he cross reference to Rule 52 was omitted as unnecessarily controversial.\"); Reporters Memo to Advisory Comm. on Crim. Rules at 16-17 (Mar. 2013) (\"The Subcommittee weighed the benefits of including this language, and explicitly mandating a uniform approach in the appellate courts, against the possibility that objections to this one aspect of the rule might be sufficient to prevent adoption of the proposal. The Subcommittee concluded that it would be prudent to delete this language ....\") The Committee thus permitted the appellate courts to independently interpret Rule 12 and determine which standard to apply.\nAt a minimum, the 2014 amendments did not purport to reject Davis and authorize plain-error review under the Olano standard even when there was no good cause for the failure to raise a timely Rule 12 motion. Given the discretion granted the appellate courts, we would, as a matter of first impression, adhere to the Davis standard. But there is an even more compelling reason to do so: circuit precedent. In Burke , 633 F.3d at 988-91, we held that the term waiver as used in the Rule before the 2014 amendments included defaults beyond an intentional relinquishment of a known right. We said that when an untimely argument subject to Rule 12 is raised for the first time on appeal the \" Rule 12 [good-cause standard], and not Rule 52, applies.\" Id. at 988. Because the 2014 amendments did not change the standard for appellate review, Burke remains good law. See United States v. Vance , 893 F.3d 763, 769 n.5 (10th Cir. 2018) (noting in dictum the continued vitality of Burke ).\nSeveral other circuit courts to consider this issue have reached the same conclusion. See, e.g. , United States v. Sweeney , 887 F.3d 529, 534 (1st Cir. 2018) (refusing to address merits of defendant's suppression argument subject to Rule 12 when defendant did not \"argue that his delay in filing the motion to suppress was excused by good cause\"); United States v. Martinez , 862 F.3d 223, 234 (2d Cir. 2017) (untimely argument is excused only where \"there is a showing of cause\" (internal quotation marks omitted)); United States v. Fattah , 858 F.3d 801, 807-08 & n.4 (3d Cir. 2017) ; United States v. Wheeler , 742 F. App'x 646, 662 (3d. Cir. 2018) (\"In this Circuit, suppression issues raised for the first time on appeal are waived absent good cause under Rule of Criminal Procedure 12, and Rule 52 's plain error rule does not apply.\" (internal quotation marks omitted)); United States v. Fry , 792 F.3d 884, 888 (8th Cir. 2015) (denying review of untimely multiplicity challenge when defendant did not show good cause); United States v. Garcia-Lopez , 903 F.3d 887, 895 (9th Cir. 2018) ; United States v. Robinson , 724 F. App'x 606, 607 (9th Cir. 2018) (review of defendant's suppression argument was precluded when he failed to timely raise it before trial and \"further failed to make the requisite showing of good cause to excuse that failure\"); see also United States v. McMillian , 786 F.3d 630, 635-36 (7th Cir. 2015) (if defendant raises untimely motion to suppress, court will review for plain error if defendant shows good cause). But cf. United States v. Burroughs , 810 F.3d 833, 836 (D.C. Cir. 2016) (declining to decide what standard of appellate review applies after the 2014 amendments).\nWe recognize that other circuits have said that they would apply plain-error review to untimely Rule 12 claims raised for the first time on appeal without requiring good cause. See, e.g. , United States v. Vasquez , 899 F.3d 363, 372-73 (5th Cir. 2018) (interpreting the deletion of \"waiver\" from Rule 12 as signaling that an untimely argument under the Rule may be forfeited rather than waived and would be reviewable for plain error); United States v. Robinson , 855 F.3d 265, 270 (4th Cir. 2017) (court will not review untimely duplicity challenge absent showing of good cause or plain error); United States v. Sperrazza , 804 F.3d 1113, 1119 (11th Cir. 2015) (because amended Rule 12 makes no mention of \"waiver,\" a defendant merely forfeits his claim by raising it in an untimely fashion, and it is subject to plain-error review); United States v. Soto , 794 F.3d 635, 652, 655 (6th Cir. 2015) (reasoning that the removal of \"waiver\" from the Rule indicates that an untimely Rule 12 motion does not \"waive\" a defendant's claim unless defendant has intentionally relinquished a known right). But see United States v. Williams , 544 F.2d 1215, 1217 (4th Cir. 1976) (requiring good cause). In our view, however, those opinions either misinterpret waiver as requiring an intentional relinquishment of a right (a result contrary to Davis ), or misinterpret the removal of that term from the Rule as changing the appellate standard of review (despite the statement in the Advisory Committee Notes that untimely claims are still subjected to the same standard). Moreover, they fail to rebut the compelling policy reasons set forth in Davis for requiring a showing of good cause before permitting appellate review. See Davis , 411 U.S. at 241, 93 S.Ct. 1577 (\"If defendants were allowed to flout [ Rule 12 's] time limitations, ... there would be little incentive to comply with its terms when a successful attack might simply result in a new indictment prior to trial. Strong tactical considerations would militate in favor of delaying the raising of the claim in hopes of an acquittal, with the thought that if those hopes did not materialize, the claim could be used to upset an otherwise valid conviction at a time when prosecution might well be difficult.\"); May 2011 Report at 388 (\"[I]f the courts of appeal revert to Rule 52 's plain error standard when a Rule 12 claim is raised for the first time on appeal, the effect is to give the defendant a more lenient standard to satisfy than he would have faced if his motion were late but still made in the district court. This is an illogical result if Rule 12 's policy of requiring certain motions to be made before trial is to have any real meaning.\"). Finally, we note that requiring good cause to excuse an untimely claim subject to Rule 12 does not leave a defendant without a remedy. There is always the possibility of a postconviction claim based on counsel's possible ineffectiveness in failing to timely raise an argument.\nIn sum, we will not review an untimely Rule 12 argument absent good cause. Because Defendant raised his untimely argument before the district court, and the district court ruled that Defendant failed to demonstrate good cause, we review that ruling for abuse of discretion. See Davis , 411 U.S. at 245, 93 S.Ct. 1577 (district court did not abuse its discretion in finding argument barred under Rule 12 ); see also 24 Moore's Federal Practice, \u00a7 612.06 (3d ed. 2018) (\"For good cause, the court may grant relief from the failure to timely raise the [ Rule 12 ] motion. The trial court's decision to grant or deny relief will not be overturned absent a showing of abuse of discretion.\" (footnote omitted)); United States v. Gonzales , 229 F. App'x 721, 725 (10th Cir. 2007) (\"We review the district court's decision to decline to hear untimely pretrial motions for an abuse of discretion.\"). Defendant here concedes that he cannot show good cause for his delay. The district court therefore did not abuse its discretion in denying Defendant's motion to dismiss.\nIII. CONCLUSION\nWe AFFIRM the district court's denial of Defendant's motion to dismiss. We grant Defendant's unopposed motion to take judicial notice of the record in his prior appeal.\nWe need not address what, if any, requirement of prejudice must be satisfied before a court can consider an excusably tardy Rule 12 motion.\nEven absent such a rule or statute, Olano recognized that \"[w]hether a particular right is waivable; whether the defendant must participate personally in the waiver; whether certain procedures are required for waiver; and whether the defendant's choice must be particularly informed or voluntary, all depend on the right at stake.\" 507 U.S. at 733, 113 S.Ct. 1770 ; accord Gonzalez v. United States , 553 U.S. 242, 248, 128 S.Ct. 1765, 170 L.Ed.2d 616 (2008) (\"What suffices for waiver depends on the nature of the right at issue.\" (internal quotation marks omitted).).\nAbsent the language in the committee note, there would be a better argument that failure to make a timely Rule 12 motion might sometimes be merely a forfeiture and the appellate court could review for plain error. See Burke , 633 F.3d at 991 (supporting our holding that good cause must always be shown by noting that the term waiver had not been removed from Rule 12 ). But we believe that such an argument would still fail.\nOne argument made against applying the good-cause standard on appellate review is that it \"may be difficult to apply on appeal if the issue was not first raised at the district court because review for good cause often requires developing and analyzing facts to determine whether a defendant has shown good cause for the late filing.\" Soto , 794 F.3d at 655. But the advisory committee noted that the appellate courts have found various ways to apply the cause standard in that context. See May 2011 Report at 390-91.",
+        "type": "majority",
+        "author": "HARTZ, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Howard A. Pincus, Assistant Federal Public Defender (Virginia L. Grady, Federal Public Defender, with him on the briefs), Denver, Colorado for Defendant-Appellant.",
+      "Shannon L. Henson, Assistant United States Attorney (Brian J. Kuester, United States Attorney, Linda A. Epperley, Assistant United States Attorney and John David Luton, Assistant United States Attorney, with her on the brief), Muskogee, Oklahoma, for Plaintiff-Appellee."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff - Appellee,\nv.\nIan Alexander BOWLINE, Defendant - Appellant.\nNo. 17-7080\nUnited States Court of Appeals, Tenth Circuit.\nFILED March 11, 2019\nHoward A. Pincus, Assistant Federal Public Defender (Virginia L. Grady, Federal Public Defender, with him on the briefs), Denver, Colorado for Defendant-Appellant.\nShannon L. Henson, Assistant United States Attorney (Brian J. Kuester, United States Attorney, Linda A. Epperley, Assistant United States Attorney and John David Luton, Assistant United States Attorney, with her on the brief), Muskogee, Oklahoma, for Plaintiff-Appellee.\nBefore HARTZ, HOLMES, and CARSON, Circuit Judges."
+  },
+  "file_name": "1227-01",
+  "first_page_order": 1227,
+  "last_page_order": 1238
+}

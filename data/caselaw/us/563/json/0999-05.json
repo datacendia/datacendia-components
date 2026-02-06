@@ -1,0 +1,59 @@
+{
+  "id": 5929196,
+  "name": "Patterson v. United States",
+  "name_abbreviation": "Patterson v. United States",
+  "decision_date": "2011-05-16",
+  "docket_number": "No. 10-9935",
+  "first_page": "999",
+  "last_page": "999",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 999"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.592,
+    "sha256": "f726c70caca2ed0c17af3702b3c301d5c122d17629dfb121cc287ca27cf22346",
+    "simhash": "1:17badb82497e9a3a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Patterson v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9935.\nPatterson v. United States."
+  },
+  "file_name": "0999-05",
+  "first_page_order": 1025,
+  "last_page_order": 1025
+}

@@ -1,0 +1,102 @@
+{
+  "id": 12234659,
+  "name": "Roberts v. Sea-Land Services, Inc., et al.",
+  "name_abbreviation": "Roberts v. Sea-Land Services, Inc.",
+  "decision_date": "2011-11-22",
+  "docket_number": "No. 10-1399",
+  "first_page": "1050",
+  "last_page": "1050",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1050"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "564 U. S. 1066",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12451296,
+        12451297,
+        5923234,
+        5930275,
+        4332740,
+        12451300,
+        12451302,
+        12451303,
+        5925928,
+        12451299,
+        5930730,
+        12451298,
+        12451301,
+        4335311,
+        5924029,
+        5929503
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/180/0939-01",
+        "/l-ed-2d/180/0939-02",
+        "/us/564/1066-06",
+        "/us/564/1066-07",
+        "/us/564/1066-08",
+        "/l-ed-2d/180/0939-05",
+        "/l-ed-2d/180/0939-07",
+        "/l-ed-2d/180/0940-01",
+        "/us/564/1066-01",
+        "/l-ed-2d/180/0939-04",
+        "/us/564/1066-02",
+        "/l-ed-2d/180/0939-03",
+        "/l-ed-2d/180/0939-06",
+        "/us/564/1066-03",
+        "/us/564/1066-05",
+        "/us/564/1066-04"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 29,
+    "char_count": 184,
+    "ocr_confidence": 0.679,
+    "sha256": "d1c03927d672e289774d3304e6c6892a057843a2bb12a969d442de4bf5fd9170",
+    "simhash": "1:989065eaed1541cc",
+    "word_count": 30
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Roberts v. Sea-Land Services, Inc., et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. [Certiorari granted, 564 U. S. 1066.] Motion of petitioner to dispense with printing the joint appendix granted.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1399.\nRoberts v. Sea-Land Services, Inc., et al."
+  },
+  "file_name": "1050-04",
+  "first_page_order": 1132,
+  "last_page_order": 1132
+}

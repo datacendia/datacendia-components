@@ -1,0 +1,61 @@
+{
+  "id": 12431744,
+  "name": "Strong v. United States",
+  "name_abbreviation": "Strong v. United States",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-7969",
+  "first_page": "1187",
+  "last_page": "1187",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1187"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 151,
+    "ocr_confidence": 0.647,
+    "sha256": "a97b20b1191eabeba277f21b01f4d11e80a646c0e471b1d3d637aab16b1bd75e",
+    "simhash": "1:9d33ca82200ed048",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Strong v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7969.\nStrong v. United States."
+  },
+  "file_name": "1187-09",
+  "first_page_order": 1263,
+  "last_page_order": 1263
+}

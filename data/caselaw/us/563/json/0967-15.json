@@ -1,0 +1,59 @@
+{
+  "id": 5957596,
+  "name": "Franks v. United States",
+  "name_abbreviation": "Franks v. United States",
+  "decision_date": "2011-04-25",
+  "docket_number": "No. 10-9738",
+  "first_page": "967",
+  "last_page": "967",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 967"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.574,
+    "sha256": "3ba144575aeeb7b3bf4ec82344344d3f87cfaec5ca5a2fee5a78d87a7f62043a",
+    "simhash": "1:b6bad38309cbc57e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Franks v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9738.\nFranks v. United States."
+  },
+  "file_name": "0967-15",
+  "first_page_order": 993,
+  "last_page_order": 993
+}

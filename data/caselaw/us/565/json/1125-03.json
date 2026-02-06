@@ -1,0 +1,59 @@
+{
+  "id": 12240484,
+  "name": "Woods v. Marshall, Warden, et al.",
+  "name_abbreviation": "Woods v. Marshall",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-7165",
+  "first_page": "1125",
+  "last_page": "1125",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1125"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 81,
+    "ocr_confidence": 0.657,
+    "sha256": "f7c83fbb557666a848dd09ca55c51f3bb5c61ba5370ec824b5f6e1284bfa5457",
+    "simhash": "1:d12326a92bdff47a",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Woods v. Marshall, Warden, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7165.\nWoods v. Marshall, Warden, et al."
+  },
+  "file_name": "1125-03",
+  "first_page_order": 1207,
+  "last_page_order": 1207
+}

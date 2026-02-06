@@ -1,0 +1,59 @@
+{
+  "id": 12243580,
+  "name": "Singleton v. Eagleton, Warden",
+  "name_abbreviation": "Singleton v. Eagleton",
+  "decision_date": "2012-01-17",
+  "docket_number": "No. 11-7629",
+  "first_page": "1167",
+  "last_page": "1167",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1167"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 78,
+    "ocr_confidence": 0.647,
+    "sha256": "65ae665b194941de36e8c04cf4b3f992727c041cd7ebed16f759d8aef8a61fe1",
+    "simhash": "1:b6c268c0dccbb0d7",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Singleton v. Eagleton, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7629.\nSingleton v. Eagleton, Warden."
+  },
+  "file_name": "1167-14",
+  "first_page_order": 1249,
+  "last_page_order": 1249
+}

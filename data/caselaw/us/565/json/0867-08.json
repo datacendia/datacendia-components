@@ -1,0 +1,59 @@
+{
+  "id": 12210549,
+  "name": "Sanders v. California",
+  "name_abbreviation": "Sanders v. California",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-11108",
+  "first_page": "867",
+  "last_page": "867",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 867"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 85,
+    "ocr_confidence": 0.65,
+    "sha256": "df6cac939a90e9183b463ab49643abacd06b572123ffe85540139c55e37a5474",
+    "simhash": "1:4205d28041031203",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sanders v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 2d App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-11108.\nSanders v. California."
+  },
+  "file_name": "0867-08",
+  "first_page_order": 949,
+  "last_page_order": 949
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12421019,
+  "name": "Wellington v. United States",
+  "name_abbreviation": "Wellington v. United States",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 12-6312",
+  "first_page": "989",
+  "last_page": "989",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 989"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.658,
+    "sha256": "48f6cb866ba408288d97af55d7c0528341000e6f369db9f9df6120c71aecd077",
+    "simhash": "1:16a8d3032d8fd74b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wellington v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6312.\nWellington v. United States."
+  },
+  "file_name": "0989-06",
+  "first_page_order": 1065,
+  "last_page_order": 1065
+}

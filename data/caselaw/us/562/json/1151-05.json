@@ -1,0 +1,59 @@
+{
+  "id": 6027146,
+  "name": "Hirata v. Lewis, Warden",
+  "name_abbreviation": "Hirata v. Lewis",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7325",
+  "first_page": "1151",
+  "last_page": "1151",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1151"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.517,
+    "sha256": "8577430e2902d81b61e2f561866e56b72dac07abeebcc6929ba177e479da0a89",
+    "simhash": "1:34077829bdbd7066",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hirata v. Lewis, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7325.\nHirata v. Lewis, Warden."
+  },
+  "file_name": "1151-05",
+  "first_page_order": 1173,
+  "last_page_order": 1173
+}

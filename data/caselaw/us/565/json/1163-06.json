@@ -1,0 +1,59 @@
+{
+  "id": 12243061,
+  "name": "Hall v. Clarke, Director, Virginia Department of Corrections",
+  "name_abbreviation": "Hall v. Clarke",
+  "decision_date": "2012-01-17",
+  "docket_number": "No. 11-7347",
+  "first_page": "1163",
+  "last_page": "1163",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1163"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 109,
+    "ocr_confidence": 0.683,
+    "sha256": "47fdfb90c57ba965103eebb99a6cf6a139dbdcb8d87d3bc5fea81d0de309d8bd",
+    "simhash": "1:b26248619b20b041",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hall v. Clarke, Director, Virginia Department of Corrections."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7347.\nHall v. Clarke, Director, Virginia Department of Corrections."
+  },
+  "file_name": "1163-06",
+  "first_page_order": 1245,
+  "last_page_order": 1245
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5955234,
+  "name": "Perez-Ochoa, aka Perez-Soto v. United States",
+  "name_abbreviation": "Perez-Ochoa v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11506",
+  "first_page": "884",
+  "last_page": "884",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 884"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 94,
+    "ocr_confidence": 0.578,
+    "sha256": "5b0abf2acda8c996ad9ad798d22f690a3a3778e8a461a4e2a61c305ee2dd4a12",
+    "simhash": "1:d4b002ab2326f906",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Perez-Ochoa, aka Perez-Soto v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11506.\nPerez-Ochoa, aka Perez-Soto v. United States."
+  },
+  "file_name": "0884-11",
+  "first_page_order": 906,
+  "last_page_order": 906
+}

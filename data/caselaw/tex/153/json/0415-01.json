@@ -1,0 +1,240 @@
+{
+  "id": 2247897,
+  "name": "U. S. Insurance Company of Waco, Texas v. C. E. Boyer",
+  "name_abbreviation": "U. S. Insurance v. Boyer",
+  "decision_date": "1954-06-23",
+  "docket_number": "No. A-4538",
+  "first_page": "415",
+  "last_page": "420",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "153 Tex. 415"
+    },
+    {
+      "type": "parallel",
+      "cite": "269 S.W.2d 340"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "270 S.W. 1055",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10330076
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw/270/1055-01"
+      ]
+    },
+    {
+      "cite": "5 S.W. 2d 252",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10285760
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/5/0252-01"
+      ]
+    },
+    {
+      "cite": "35 S.W. 1060",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "89 Texas 590",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2243268
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/89/0590-01"
+      ]
+    },
+    {
+      "cite": "23 A.L.R. 2d 385",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "222 Pac. 2d 833",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "37 Wash. 2d 181",
+      "category": "reporters:state",
+      "reporter": "Wash. 2d",
+      "case_ids": [
+        4950880
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/wash-2d/37/0181-01"
+      ]
+    },
+    {
+      "cite": "236 S.W. 2d 108",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10191170,
+        2330547
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/236/0108-01",
+        "/tex/149/0587-02"
+      ]
+    },
+    {
+      "cite": "149 Texas 587",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2330520,
+        2330547
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/149/0587-01",
+        "/tex/149/0587-02"
+      ]
+    },
+    {
+      "cite": "196 S.W. 575",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10322688
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/196/0575-01"
+      ]
+    },
+    {
+      "cite": "239 S.W. 2d 379",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2328402,
+        10200647
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "381"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/150/0207-01",
+        "/sw2d/239/0379-01"
+      ]
+    },
+    {
+      "cite": "150 Texas 207",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2328402
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/150/0207-01"
+      ]
+    },
+    {
+      "cite": "264 S.W. 2d 151",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10186774
+      ],
+      "pin_cites": [
+        {
+          "page": "152"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/264/0151-01"
+      ]
+    },
+    {
+      "cite": "5 S.W. 2d 252",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10285760
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/5/0252-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 545,
+    "char_count": 10150,
+    "ocr_confidence": 0.599,
+    "pagerank": {
+      "raw": 4.4261924652973593e-07,
+      "percentile": 0.9206826343929704
+    },
+    "sha256": "2eea54f0d8bafa328abd39e32615d750a4e80a55f44bda828b9caa5184f53029",
+    "simhash": "1:d25dd26f34339746",
+    "word_count": 1711
+  },
+  "last_updated": "2024-02-27T22:44:17.710833+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "U. S. Insurance Company of Waco, Texas v. C. E. Boyer"
+    ],
+    "opinions": [
+      {
+        "text": "Justice Wilson\ndelivered the opinion of the Court.\nThis is a suit upon the collision clause of a standard automobile insurance policy issued August 17, 1953. While the insured car was parked on a downtown street in Waco, a windstorm demolished a building and left the car crushed under brick and timbers.\nIn affirming the judgment against the insurance company 264 S.W. 2d 151,152, the Court of Civil Appeals stated the principal question to be:\n\u201c* * * Whether a stationary vehicle damaged by falling debris from a building damaged by a tornado is\u201d within \u201can insurance policy insuring against damage or loss to an automobile in collision with another object.\u201d\nIt based its decision upon Providence Washington Insurance Company v. Proffitt, 150 Texas 207, 239 S.W. 2d 379, and reached the conclusion that the impact between the timbers, brick, etc., and the car was a collision within Coverage E-l. Petitioner contends this holding conflicts with O\u2019Leary v. St. Paul Fire & Marine Ins. Co., 196 S.W. 575, and American Automobile Insurance Co. v. Baker, 5 S.W. 2d 252.\nIn construing contracts, the time-honored method of the courts has been to search for the intent of the parties and this is true in cases construing insurance contracts just as in other contracts. While undoubtedly in the early days of the insurance business the actual intent of the immediate parties to the contract was material, now with the insurance business regulated and the policy forms prescribed by a State Insurance Commission, the court in construing a policy determines the everyday meaning of the words to the general public \u2014 the meaning of the words \u201cin common parlance\u201d \u2014 \u201cthe usual and popular understanding of the term.\u201d American Automobile Ins. Co. v. Baker, supra. As a practical matter, the actual intent involved in the precise words is as much or more the intent of the Insurance Commission which prescribes the wording of the policy as it is the intent of the parties. It is unlawful to issue a policy in words other than those expressly approved by the Insurance Commission, and every insurance company selling this type of insurance is required to word its policies precisely alike. Art. 5.06 Insurance Code, V.A.C.S. Uniform policies are necessary to a uniform rate structure, which in turn resulted from the public injury caused by highly competitive wildcat insurance schemes. Therefore, a true search for what the courts usually speak of as the intent of parties will not be an inquiry as to what the words of the contract meant to this particular insurer or insured. It is, first, an effort to determine the ordinary lay meaning of the words to the general public, and, in the light of this meaning, it is, second, an examination of the choice the purchaser had and the choice he made. Glen Falls Ins. Co. v. McCown, 149 Texas 587, 236 S.W. 2d 108.\nUnder the policy form prescribed by the Insurance Commission, a windstorm is defined as a separate peril. It might be that the Insurance Commission could prescribe one all-inclusive risk policy on automobiles and give the public the choice of that or nothing. But the Insurance Commission has not done that. It has attempted to divide up the risks and allow the public the oppor-. tunity to purchase collision without purchasing hail or windstorm if that seems desirable. If the impact of hailstones on a car is a collision, why should anyone purchase collision and hail? Likewise, if the impact of objects blown through the air by the wind is a collision, why purchase collision and windstorm? Under the method of basing premiums upon the loss experience, the effect of the respondent\u2019s construction would be to drive up the premium rate on collision by including losses from wind and hail in the loss experience and make it impossible for the public to purchase collision without some wind and hail coverage. This construction tends toward one all-inclusive risk policy contrary to the policy of the Insurance Commission and therefore contrary to its intent.\nHere the insured elected to purchase Coverage E-l and elected not to purchase Coverage H (which would include windstorm) , or Coverage I (which would also include windstorm). We know this much about his specific intent. He intended to purchase collision and he intended not to purchase windstorm.\nIn Providence Washington Ins. Co. v. Proffitt, supra, this court held these things: (1) The rush of water against an automobile was a \u201ccollision,\u201d both within the lay definition of that term as given by lexicographers and within the legal definition thereof as found in the decided cases; (2) the policy coverage against the hazard or peril of collision, which the insured purchased, protected him against loss or damage sustained as a proximate result of the collision of rushing water against the automobile. (3) the language of the comprehensive coverage provision of the policy which recited that loss resulting from certain named perils should not be deemed loss caused by collision was written therein for the purpose of enlarging the liability of the insurer under that coverage and not for the purpose of limiting liability under the provision for collision coverage, and therefore could not be used for the latter purpose; (4) the collision having \u201cset in motion the series of events which, unbroken by the intervention of any new and independent cause, led to the destruction of the automobile,\u201d it was immaterial that the injury was done in fact by water. This court did not hold that the court could not and would not look to other coverages in the policy for the purpose of determining the rights of the parties. We specifically reaffirmed Providence Washington Ins. Co. v. Proffitt, supra, 150 Texas 207, 239 S.W. 2d 379, 381 (7), 382.\nIn the case at bar, the windstorm set in motion the series of events which, unbroken by the intervention of any new and independent cause, led to the destruction of the automobile. The fact that a windstorm blows two objects together does not bring the claim within the collision clause. Any other construction would eventually nullify the policy of giving the public some freedom of choice in selecting insurance against particular perils. Here the actual and dominant peril which destroyed the automobile was the windstorm and no one could seriously contend that the windstorm was not a sine qua non to the destruction of the automobile. The insured could have purchased protection against this peril but elected not to do so.\nAccordingly, we hold that the impact of the bricks, stone, and timbers upon the automobile was simply incidental to and a part of the destruction caused by the dominant force of the windstorm. In view of the effort of the Insurance Commission to segregate and define specific perils in order to give the public a choice in purchasing, insurance, we hold that this loss falls within the windstorm provision of the policy and not within the collision provision. Our conclusion is strengthened by the thought that it would have been absurd for the insurance company to defend a claim here under the windstorm provision on the grounds that this set of facts constitued a collision loss and not a windstorm loss. This might be the holding under a case like Bruener v. Twin City Fire Insurance Co., 37 Wash. 2d 181, 222 Pac. 2d 833, 23 A.L.R. 2d 385, wherein it is pointed out that causation in insurance contract questions is not the same as causation in questions of tort liability. However, in the A.L.R. Annotation following this case is this comment:\n\u201cThe test applied under the rule of proximate cause seems to be that where, and only where, an insured peril sets other causes in motion which in unbroken sequence and connection produce the final result for which the insured seeks to recover under his policy, the peril insured against will be regarded as the direct and proximate cause of the entire loss, so as to render the insurer liable for the entire loss within the limits fixed by the policy. The rationale behind this rule is that the scope of insurance protection is defined by the application of the proximate cause standard, according to which a specified loss is compensable if and only .if caused by a peril covered by the policy.\u201d\nWe base our holding principally upon Glen Falls Ins. Co. v. McCown, supra.\nThe judgment of the trial court and that of the Court of Civil Appeals is reversed and judgment is here rendered that respondent take nothing. Costs are taxed against respondent.\nOpinion delivered June 23, 1954.\nRehearing overruled July 21, 1954.\n. \u2014 \u201cTo pay for direct and accidental loss of or damage to the automobile, hereinafter called loss, caused by collision of the automobile with another object or by upset of the automobile, but only for the amount of each such loss in excess of the deductible amount, if any, stated in the declarations as applicable hereto.\u201d\n. \u2014See note 1 on page 417.\n. \u2014\u201cTo pay for direct and accidental loss of or damage to the automobile, hereinafter called loss, caused by windstorm, hail, earthquake, explosion, external discharge or leakage of water except loss resulting from rain, snow or sleet.\u201d\n. \u2014\u201cTo pay for direct and accidental loss of or damage to the automobile, hereinafter called loss, caused by windstorm, hail, earthquake, explosion, riot or civil commotion, or the forced landing or falling of any aircraft or of its parts or equipment, flood or rising waters, external discharge or leakage of water except loss resulting from rain, snow or sleet.\u201d",
+        "type": "majority",
+        "author": "Justice Wilson"
+      }
+    ],
+    "attorneys": [
+      "Phenix, Reeves <fe Oubre, and Larry Oubre, all of Waco, for petitioner.",
+      "Maddin & Copeland and Gene Maddm, all of Waco, for respondent"
+    ],
+    "corrections": "",
+    "head_matter": "U. S. Insurance Company of Waco, Texas v. C. E. Boyer\nNo. A-4538.\nDecided June 23, 1954.\nRehearing overruled July 21, 1954.\n(269 S.W. 2d Series 340)\nPhenix, Reeves <fe Oubre, and Larry Oubre, all of Waco, for petitioner.\nThe Court of Civil Appeals erred in holding that as a matter of law the damage to the automobile of plaintiff was the result of a collision as that term is used in the policy of insurance involved in this suit. Brown v. Palestine Ins. Co., 89 Texas 590, 35 S.W. 1060; American Auto Ins. Co. v. Baker, 5 S.W. 2d 252; Wood v. Southern Cas. Co., 270 S.W. 1055.\nMaddin & Copeland and Gene Maddm, all of Waco, for respondent"
+  },
+  "file_name": "0415-01",
+  "first_page_order": 431,
+  "last_page_order": 436
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12206599,
+  "name": "Gray v. Clarke, Director, Virginia Department of Corrections",
+  "name_abbreviation": "Gray v. Clarke",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10847",
+  "first_page": "852",
+  "last_page": "852",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 852"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 110,
+    "ocr_confidence": 0.67,
+    "sha256": "8cda71b9bba9f6f0106595b72f8840844c944e8f07c5f12732e31166fab03d5c",
+    "simhash": "1:b3c248a1982eb461",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gray v. Clarke, Director, Virginia Department of Corrections."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10847.\nGray v. Clarke, Director, Virginia Department of Corrections."
+  },
+  "file_name": "0852-15",
+  "first_page_order": 934,
+  "last_page_order": 934
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5994879,
+  "name": "Maiden v. United States",
+  "name_abbreviation": "Maiden v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5800",
+  "first_page": "938",
+  "last_page": "938",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 938"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.624,
+    "sha256": "871beb2b86e239d7bf8acf7c87c2e21972a509ef6d82fd76f24f75bc1adcd049",
+    "simhash": "1:860bc7ab2fcd1408",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Maiden v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5800.\nMaiden v. United States."
+  },
+  "file_name": "0938-05",
+  "first_page_order": 960,
+  "last_page_order": 960
+}

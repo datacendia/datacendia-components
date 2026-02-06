@@ -1,0 +1,59 @@
+{
+  "id": 12427265,
+  "name": "In re Bourgeois",
+  "name_abbreviation": "In re Bourgeois",
+  "decision_date": "2012-12-10",
+  "docket_number": "No. 12-7217",
+  "first_page": "1068",
+  "last_page": "1068",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1068"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.599,
+    "sha256": "87f50fb8bc0c24aaa9dd9bef8cca024c1b687173ccde87d23c6d60f6ee08e73b",
+    "simhash": "1:4f5a61ecc57b8319",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Bourgeois."
+    ],
+    "opinions": [
+      {
+        "text": "Petition for writ of habeas corpus denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7217.\nIn re Bourgeois."
+  },
+  "file_name": "1068-01",
+  "first_page_order": 1144,
+  "last_page_order": 1144
+}

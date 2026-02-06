@@ -1,0 +1,100 @@
+{
+  "id": 12221806,
+  "name": "In re Disbarment of Squire",
+  "name_abbreviation": "In re Disbarment of Squire",
+  "decision_date": "2012-05-29",
+  "docket_number": "No. D-2624",
+  "first_page": "1020",
+  "last_page": "1020",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 1020"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "565 U. S. 1257",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12251235,
+        12251204,
+        12251174,
+        12251195,
+        12251242,
+        12251180,
+        12251214,
+        12251215,
+        12251217,
+        12251250,
+        12251187,
+        12251220,
+        12251224,
+        12251259,
+        12251229
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/565/1257-12",
+        "/us/565/1257-05",
+        "/us/565/1257-01",
+        "/us/565/1257-04",
+        "/us/565/1257-13",
+        "/us/565/1257-02",
+        "/us/565/1257-06",
+        "/us/565/1257-07",
+        "/us/565/1257-08",
+        "/us/565/1257-14",
+        "/us/565/1257-03",
+        "/us/565/1257-09",
+        "/us/565/1257-10",
+        "/us/565/1257-15",
+        "/us/565/1257-11"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 108,
+    "ocr_confidence": 0.582,
+    "sha256": "5a48ffd13e3cde477a67af4dd25d710c318cdd7a5142dcf0a582f2bb168a178d",
+    "simhash": "1:7a191e8b6fd0a264",
+    "word_count": 18
+  },
+  "last_updated": "2024-02-27T23:45:15.365324+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Squire."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2624.\nIn re Disbarment of Squire.\n[For earlier order herein, see 565 U. S. 1257.]"
+  },
+  "file_name": "1020-01",
+  "first_page_order": 896,
+  "last_page_order": 896
+}

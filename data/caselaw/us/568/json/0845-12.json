@@ -1,0 +1,59 @@
+{
+  "id": 12413109,
+  "name": "Jones v. Thomas et al.",
+  "name_abbreviation": "Jones v. Thomas",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10483",
+  "first_page": "845",
+  "last_page": "845",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 845"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 73,
+    "ocr_confidence": 0.706,
+    "sha256": "8201e59ebe08b0f1b810e2e9cc3cdf915ce162b1f14c3de1f90cb359c515a992",
+    "simhash": "1:db6bfaeefbc3d392",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jones v. Thomas et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10483.\nJones v. Thomas et al."
+  },
+  "file_name": "0845-12",
+  "first_page_order": 921,
+  "last_page_order": 921
+}

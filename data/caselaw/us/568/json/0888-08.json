@@ -1,0 +1,59 @@
+{
+  "id": 12415123,
+  "name": "Driscoll et ux. v. Commissioner of Internal Revenue",
+  "name_abbreviation": "Driscoll v. Commissioner",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-153",
+  "first_page": "888",
+  "last_page": "888",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 888"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 100,
+    "ocr_confidence": 0.676,
+    "sha256": "5794059d38ff38e132e836dfe703865508e73f51ccf9a6864e81b8a1a4867a55",
+    "simhash": "1:4c9b6d23262f92fa",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Driscoll et ux. v. Commissioner of Internal Revenue."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-153.\nDriscoll et ux. v. Commissioner of Internal Revenue."
+  },
+  "file_name": "0888-08",
+  "first_page_order": 964,
+  "last_page_order": 964
+}

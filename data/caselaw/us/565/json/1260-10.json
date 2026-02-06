@@ -1,0 +1,59 @@
+{
+  "id": 12251450,
+  "name": "Smith v. Friedman et al.",
+  "name_abbreviation": "Smith v. Friedman",
+  "decision_date": "2012-03-19",
+  "docket_number": "No. 11-863",
+  "first_page": "1260",
+  "last_page": "1260",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1260"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.623,
+    "sha256": "e8900420b578730e902031d8e4f3327749537f29c28c8482736c30a411a0716e",
+    "simhash": "1:408ed44ad8248294",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Smith v. Friedman et al."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Md. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-863.\nSmith v. Friedman et al."
+  },
+  "file_name": "1260-10",
+  "first_page_order": 1342,
+  "last_page_order": 1342
+}

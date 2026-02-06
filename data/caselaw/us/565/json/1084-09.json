@@ -1,0 +1,59 @@
+{
+  "id": 12237259,
+  "name": "Martin v. Wisconsin",
+  "name_abbreviation": "Martin v. Wisconsin",
+  "decision_date": "2011-12-05",
+  "docket_number": "No. 11-7094",
+  "first_page": "1084",
+  "last_page": "1084",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1084"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 68,
+    "ocr_confidence": 0.736,
+    "sha256": "9011ed4f4b614ad18f6def718e3cb858c3c2e5cb8d6c0fa3057c33d7e5dbc34e",
+    "simhash": "1:aa1705a311e89c02",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Martin v. Wisconsin."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Wis. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7094.\nMartin v. Wisconsin."
+  },
+  "file_name": "1084-09",
+  "first_page_order": 1166,
+  "last_page_order": 1166
+}

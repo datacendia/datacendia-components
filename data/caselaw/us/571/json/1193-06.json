@@ -1,0 +1,68 @@
+{
+  "id": 12701246,
+  "name": "John DOE, petitioner, v. Kamala D. HARRIS, Attorney General of California.",
+  "name_abbreviation": "John Doe v. Harris",
+  "decision_date": "2014-02-24",
+  "docket_number": "No. 13M74.",
+  "first_page": "1193",
+  "last_page": "1193",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 1193"
+    },
+    {
+      "type": "parallel",
+      "cite": "188 L. Ed. 2d 292"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 1360"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 38,
+    "char_count": 259,
+    "sha256": "2fbd6100370c488d889d282d6fbc361c93d2cb7d4b1f35f978bb8c3e6f3c3a6c",
+    "simhash": "1:f8677026ffc85519",
+    "word_count": 43
+  },
+  "last_updated": "2021-09-08T21:16:17.237805+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "John DOE, petitioner,\nv.\nKamala D. HARRIS, Attorney General of California."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Motion for leave to file a petition for writ of certiorari under seal with redacted copies for the public record granted."
+    ],
+    "corrections": "",
+    "head_matter": "John DOE, petitioner,\nv.\nKamala D. HARRIS, Attorney General of California.\nNo. 13M74.\nSupreme Court of the United States\nFeb. 24, 2014.\nMotion for leave to file a petition for writ of certiorari under seal with redacted copies for the public record granted."
+  },
+  "file_name": "1193-06",
+  "first_page_order": 1193,
+  "last_page_order": 1193
+}

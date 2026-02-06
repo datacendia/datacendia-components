@@ -1,0 +1,550 @@
+{
+  "id": 5928397,
+  "name": "DePIERRE v. UNITED STATES",
+  "name_abbreviation": "DePierre v. United States",
+  "decision_date": "2011-06-09",
+  "docket_number": "No. 09-1533",
+  "first_page": "70",
+  "last_page": "90",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 70"
+    },
+    {
+      "type": "parallel",
+      "cite": "180 L. Ed. 2d 114"
+    },
+    {
+      "type": "parallel",
+      "cite": "131 S. Ct. 2225"
+    },
+    {
+      "type": "vendor",
+      "cite": "2011 U.S. LEXIS 4374"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2010-058"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "21 U. S. C. \u00a7802",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(17)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "498 U. S. 337",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6225911
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "342",
+          "parenthetical": "\"In the absence of contrary indication, we assume that when a statute uses ... a term [of art], Congress intended it to have its established meaning\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/498/0337-01"
+      ]
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 922",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(k)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "124 Stat. 2372",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "515 U. S. 50",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1564550
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "65",
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/515/0050-01"
+      ]
+    },
+    {
+      "cite": "508 U. S. 223",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11457
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "239",
+          "parenthetical": "internal quotation marks and brackets omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/508/0223-01"
+      ]
+    },
+    {
+      "cite": "553 U. S. 507",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3674087
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "514",
+          "parenthetical": "plurality opinion"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/553/0507-01"
+      ]
+    },
+    {
+      "cite": "516 U. S. 284",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        327837
+      ],
+      "weight": 2,
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "290-296"
+        },
+        {
+          "page": "291-292"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/516/0284-01"
+      ]
+    },
+    {
+      "cite": "486 U. S. 107",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6211220
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "120",
+          "parenthetical": "plurality opinion"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/486/0107-01"
+      ]
+    },
+    {
+      "cite": "560 U. S. 205",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12449200,
+        3641751
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "215",
+          "parenthetical": "\"It is not for us to rewrite [a] statute so that it covers only what we think is necessary to achieve what we think Congress really intended\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/176/0967-01",
+        "/us/560/0205-01"
+      ]
+    },
+    {
+      "cite": "523 U, S. 75",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11503242
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "79"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/523/0075-01"
+      ]
+    },
+    {
+      "cite": "529 U. S. 728",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9509053
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "746-747",
+          "parenthetical": "suggesting that a \"statute's basic purpose\" might support the conclusion that \"two sets of different words mean the same thing\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/529/0728-01"
+      ]
+    },
+    {
+      "cite": "508 U. S. 129",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12096
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "134",
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/508/0129-01"
+      ]
+    },
+    {
+      "cite": "542 U. S. 692",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5862480
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "711, n. 9",
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/542/0692-01"
+      ]
+    },
+    {
+      "cite": "473 U. S. 531",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6203102
+      ],
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "536, 544",
+          "parenthetical": "repeatedly referring to cocaine hydrochloride as \"cocaine\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/473/0531-01"
+      ]
+    },
+    {
+      "cite": "553 U. S. 377",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3674133
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "384",
+          "parenthetical": "eschewing an interpretation that was \"not faithful to the statutory text\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/553/0377-01"
+      ]
+    },
+    {
+      "cite": "489 U. S. 235",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12031939
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "241"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/489/0235-01"
+      ]
+    },
+    {
+      "cite": "562 U. S. 960",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6000769,
+        12438072,
+        5980984,
+        12438073,
+        12438074,
+        12438075,
+        6008764,
+        12437829,
+        6027206,
+        12437830,
+        12437831,
+        12437833,
+        5993162,
+        12437834,
+        12437835,
+        12437832,
+        5957583,
+        6021842,
+        5905646,
+        6021231
+      ],
+      "year": 2010,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/562/0960-06",
+        "/l-ed-2d/178/0317-04",
+        "/us/562/0960-03",
+        "/l-ed-2d/178/0317-05",
+        "/l-ed-2d/178/0317-06",
+        "/l-ed-2d/178/0317-07",
+        "/us/562/0960-07",
+        "/l-ed-2d/178/0285-04",
+        "/us/562/0960-09",
+        "/l-ed-2d/178/0285-05",
+        "/l-ed-2d/178/0285-06",
+        "/l-ed-2d/178/0286-02",
+        "/us/562/0960-02",
+        "/l-ed-2d/178/0286-03",
+        "/l-ed-2d/178/0286-04",
+        "/l-ed-2d/178/0286-01",
+        "/us/562/0960-08",
+        "/us/562/0960-05",
+        "/us/562/0960-04",
+        "/us/562/0960-01"
+      ]
+    },
+    {
+      "cite": "452 F. 3d 66",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3330041
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "86-87"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/452/0066-01"
+      ]
+    },
+    {
+      "cite": "599 F. 3d 25",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4224078
+      ],
+      "weight": 2,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "30-31"
+        },
+        {
+          "page": "30-31"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/599/0025-01"
+      ]
+    },
+    {
+      "cite": "100 Stat. 3207",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "3207-2"
+        },
+        {
+          "page": "3207-3"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "552 U. S. 85",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3675682
+      ],
+      "weight": 7,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "94"
+        },
+        {
+          "page": "95-96"
+        },
+        {
+          "page": "96-97"
+        },
+        {
+          "page": "95-96"
+        },
+        {
+          "page": "107-108"
+        },
+        {
+          "page": "106",
+          "parenthetical": "\"Ordinarily, we resist reading congressional intent into congressional inaction\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/552/0085-01"
+      ]
+    },
+    {
+      "cite": "21 U. S. C. \u00a7 841",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 7,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "54, 180"
+        },
+        {
+          "page": "12"
+        },
+        {
+          "page": "14"
+        },
+        {
+          "page": "14-22"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1360,
+    "char_count": 36507,
+    "ocr_confidence": 0.537,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.17195075851912603
+    },
+    "sha256": "009a15da5ed65033e6b84182d221cbdaa26d5c4d8fa17b8db58e7b77d53b38e7",
+    "simhash": "1:fac89f5209fd6559",
+    "word_count": 5881
+  },
+  "last_updated": "2024-02-27T23:47:04.462735+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "DePIERRE v. UNITED STATES"
+    ],
+    "opinions": [
+      {
+        "text": "Justice Sotomayor\ndelivered the opinion of the Court.\nAt the time of petitioner\u2019s conviction and sentence, federal law mandated a minimum 10-year sentence for persons convicted of certain drug offenses, 21 U. S. C. \u00a7 841(a), including those involving 50 grams or more of \u201ca mixture or substance . . . which contains cocaine base,\u201d \u00a7 841(b)(1)(A)(iii), and a minimum 5-year sentence for offenses involving 5 grams or more of the same, \u00a7841(b)(1)(B)(iii). This case requires us to decide whether the term \u201ccocaine base\u201d as used in this statute refers generally to cocaine in its chemically basic form or exclusively to what is colloquially known as \u201ccrack cocaine.\u201d We conclude that \u201ccocaine base\u201d means the former.\nI\nA\nAs a matter of chemistry, cocaine is an alkaloid with the molecular formula C17H21N04. Webster\u2019s Third New International Dictionary 434 (2002). An alkaloid is a base\u2014 that is, a compound capable of reacting with an acid to form a salt. Id., at 54, 180; see also Brief for Individual Physicians and Scientists as Amici Curiae 2-8 (hereinafter Physicians Brief). Cocaine is derived from the coca plant native to South America. The leaves of the coca plant can be processed with water, kerosene, sodium carbonate, and sulfuric acid to produce a pastelike substance. R. Weiss, S. Mirin, & R. Bartel, Cocaine 10 (2d ed. 1994). When dried, the resulting \u201ccoca paste\u201d can be vaporized (through the application of heat) and inhaled, i. e., \u201csmoked.\u201d See United States Sentencing Commission, Special Report to the Congress: Cocaine and Federal Sentencing Policy 11-12 (1995) (hereinafter Commission Report). Coca paste contains C17H21N04 \u2014 that is, cocaine in its base form.\nDissolving coca paste in water and hydrochloric acid produces (after several intermediate steps) cocaine hydrochloride, which is a salt with the molecular formula C17H22N04+C1'. Id., at 12; Physicians Brief 3. Cocaine hydrochloride, therefore, is not a, base. It generally comes in powder form, which we will refer to as \u201cpowder cocaine.\u201d It is usually insufflated (breathed in through the nose), though it can also be ingested or diluted in water and injected. Because cocaine hydrochloride vaporizes at a much higher temperature than chemically basic cocaine (at which point the cocaine molecule tends to decompose), it is generally not smoked. See Commission Report 11, n. 15, 12-13.\nCocaine hydrochloride can be converted into cocaine in its base form by combining powder cocaine with water and a base, like sodium bicarbonate (also known as baking soda). Id., at 14. The chemical reaction changes the cocaine hydrochloride molecule into a chemically basic cocaine molecule, Physicians Brief 4, and the resulting solid substance can be cooled and broken into small pieces and then smoked, Commission Report 14. This substance is commonly known as \u201ccrack\u201d or \u201ccrack cocaine.\u201d Alternatively, powder cocaine can be dissolved in water and ammonia (also a base); with the addition of ether, a solid substance \u2014 known as \u201cfreebase\u201d\u2014 separates from the solution, and can be smoked. Id., at IS. As with crack cocaine, freebase contains cocaine in its chemically basic form. Ibid.\nChemically, therefore, there is no difference between the cocaine in coca paste, crack cocaine, and freebase \u2014 all are cocaine in its base form. On the other hand, cocaine in its base form and in its salt form (i. e., cocaine hydrochloride) are chemically different, though they have the same active ingredient and produce the same physiological and psychotropic effects. See id., at 14-22. The key difference between them is the method by which they generally enter the body; smoking cocaine in its base form \u2014 whether as coca paste, freebase, or crack cocaine \u2014 allows the body to absorb the active ingredient quickly, thereby producing a shorter, more intense high than obtained from insufflating cocaine hydrochloride. Ibid.; see generally Kimbrough v. United States, 552 U. S. 85, 94 (2007).\nB\nIn 1986, increasing public concern over the dangers associated with illicit drugs \u2014 and the new phenomenon of crack cocaine in particular \u2014 prompted Congress to revise the penalties for criminal offenses involving cocaine-related substances. See id., at 95-96. At the time, federal law generally tied the penalties for drug offenses to both the type of drug and the quantity involved, with no provision for mandatory minimum sentences. See, e. g., \u00a7 841(b)(1) (1982 ed., Supp. III). After holding several hearings specifically addressing the emergence of crack cocaine, Congress enacted the Anti-Drug Abuse Act of 1986 (ADAA), 100 Stat. 3207, which provided mandatory minimum sentences for controlled-substance offenses involving specific quantities of drugs.\nAs relevant here, the ADAA provided a mandatory 10-year sentence for certain drug offenses involving 6 kilograms or more of \u201ca mixture or substance containing a detectable amount of\u201d various cocaine-related elements, including coca leaves, cocaine, and cocaine salts; it also called for the same sentence for offenses involving only 50 grams or more of \u201ca mixture or substance . . . which contains cocaine base.\u201d \u00a71002, id., at 3207-2 (amending \u00a7\u00a7841(b)(1)(A)(ii)-(iii)) (emphasis added). The ADAA also stipulated a mandatory 5-year sentence for offenses involving 500 grams of a mixture or substance containing coca leaves, cocaine,- and cocaine salts, or 5 grams of a mixture or substance containing \u201ccocaine base.\u201d Id., at 3207-3 (amending \u00a7\u00a7 841(b)(1)(B) (ii)-(iii)).\nThus, the ADAA established a 100-to-l ratio for the threshold quantities of cocaine-related substances that triggered the statute\u2019s mandatory minimum penalties. That is, 5 grams or more of \u201ca mixture or substance . . . which contains cocaine base\u201d was penalized as severely as 100 times that amount of the other cocaine-related elements enumerated in the statute. These provisions were still in effect at the time of petitioner\u2019s conviction and sentence. See \u00a7\u00a7841(b)(1)(AMB) (2000 ed. and Supp. Y).\nThe United States Sentencing Commission subsequently promulgated Sentencing Guidelines for drug-trafficking offenses. Under the Guidelines, the offense levels for drug crimes are tied to the drug type and quantity involved. See United States Sentencing Commission, Guidelines Manual \u00a72D1.1(c) (Nov. 2010) (USSG). The Commission originally adopted the ADAA\u2019s 100-to-1 ratio for offenses involving \u201ccocaine\u201d and \u201ccocaine base,\u201d though instead of setting only two quantity thresholds, as the ADAA did, the Guidelines \u201cset sentences for the full range of possible drug quantities.\u201d Commission Report 1; see generally Kimbrough, 552 U. S., at 96-97.\nThe original version of \u00a72Dl.l(c) did not define \u201ccocaine base\u201d as used in that provision, but in 1993 the Commission issued an amendment to explain that \u201c \u2018[e]ocaine base,\u2019 for the purposes of this guideline, means \u2018crack/ \u201d that is, \u201cthe street name for a form of cocaine base, usually prepared by processing cocaine hydrochloride and sodium bicarbonate, and usually appearing in a lumpy, rocklike form.\u201d USSG App. C, Arndt. 487 (effective Nov. 1,1993); see also \u00a72D1.1(c), n. (D). The Commission noted that \u201cforms of cocaine base other than crack (e. g., coca paste . . . ) will be treated as cocaine.\u201d App. C, Arndt. 487.\nC\nTn April 2005, petitioner Frantz DePierre sold two bags of drugs to a Government informant. DePierre was subsequently indicted on a charge of distributing 50 grams or more of cocaine base under \u00a7\u00a7 841(a)(1) and (b)(1)(A)(iii). At trial, a Government chemist testified that the substance in the bags, which weighed 55.1 grams, was \u201ccocaine base.\u201d Tr. 488, 490. She was not able to identify any sodium bicarbonate. Id., at 499. A police officer testified that the substance in question was \u201coff-white [and] chunky.\u201d Id., at 455.\nDePierre asked the District Court to instruct the jury that, in order to find him guilty of distribution of cocaine base, it must find that his offense involved \u201cthe form of cocaine base known as crack cocaine.\u201d App. in No. 08-2101 (CAI), p. 43. His proposed jury instruction defined \u201ccrack\u201d identically to the Guidelines definition. See id., at 43-44; see also USSG \u00a72D1.1(c), n. (D). In addition, DePierre asked the court to instruct the jury that \u201c[c]hemical analysis cannot establish a substance as crack because crack is chemically identical to other forms of cocaine base, although it can reveal the presence of sodium bicarbonate, which is usually used in the processing of crack.\u201d App. in No. 08-2101, at 44.\nThe court, however, instructed the jury that \u201cthe statute that\u2019s relevant asks about cocaine base. Crack cocaine is a form of cocaine base, so you\u2019ll tell us whether or not what was involved is cocaine base ....\u201d Tr. 585 (paragraph break omitted). The jury form asked whether the offense involved \u201cover 50 grams of cocaine base.\u201d App. to Pet. for Cert. 17a. The jury found DePierre guilty of distributing 50 grams or more of cocaine base, and the court sentenced DePierre to 120 months in prison as required by the statute.\nThe United States Court of Appeals for the First Circuit affirmed, rejecting DePierre\u2019s argument that \u00a7 841(b) (l)(A)(iii) should be read only to apply to offenses involving crack cocaine. 599 F. 3d 25, 30-31 (2010). While noting the division on this question among the Courts of Appeals, ibid., and nn. B, 4, the First Circuit adhered to its own precedent and \u201cread the statute according to its terms,\u201d holding that \u201c\u2018cocaine base\u2019 refers to \u2018all forms of cocaine base, including but not limited to crack cocaine.\u2019\u201d Id., at 30-31 (quoting United States v. Anderson, 452 F. 3d 66, 86-87 (CA1 2006)). We granted certiorari to resolve the longstanding division in authority among the Courts of Appeals on this question. 562 U. S. 960 (2010).\nII\nA\nWe begin with the statutory text. See United States v. Ron Pair Enterprises, Inc., 489 U. S. 235, 241 (1989). Section 841(b)(1)(A) provides a mandatory 10-year minimum sentence for certain drug offenses involving\n\u201c(ii) 5 kilograms or more of a mixture or substance containing a detectable amount of\u2014\n\u201c(I) coca leaves, except coca leaves and extracts of coca leaves from which cocaine, ecgonine, and derivatives of ecgonine or their salts have been removed;\n\u201c(II) cocaine, its salts, optical and geometric isomers, and salts of isomers;\n\u201c(III) ecgonine, its derivatives, their salts, isomers, and salts of isomers; or\n\u201c(IV) any compound, mixture, or preparation which contains any quantity of any of the substances referred to in subclauses (I) through (III); [or]\n\u201c(iii) 50 grams or more of a mixture or substance described in clause (ii) which contains cocaine base.\u201d\nWe agree with the Government that the most natural reading of the term \u201ccocaine base\u201d is \u201ccocaine in its base form\u201d \u2014 i. e., C17H21N04j the molecule found in crack cocaine, freebase, and coca paste. On its plain terms, then, \u201ccocaine base\u201d reaches more broadly than just crack cocaine. In arguing to the contrary, DePierre asks us to stray far from the statute\u2019s text, as the term \u201ccrack cocaine\u201d appears nowhere in the ADAA (or the United States Code, for that matter). While the Government\u2019s reading is not without its problems, that reading follows from the words Congress chose to include in the text. See United States v. Rodriquez, 553 U. S. 377, 384 (2008) (eschewing an interpretation that was \u201cnot faithful to the statutory text\u201d). In short, the term \u201ccocaine base\u201d is more plausibly read to mean the \u201cchemically basic form of cocaine,\u201d Brief for United States 15, than it is \u201ccrack cocaine,\u201d Brief for Petitioner 24, 28.\nWe agree with DePierre that using the term \u201ccocaine base\u201d to refer to C17H21N04 is technically redundant; as noted earlier, chemically speaking cocaine is a base. If Congress meant in clause (iii) to penalize more severely offenses involving \u201ca mixture or substance . . . which contains\u201d cocaine in its base form it could have simply (and more correctly) used the word \u201ccocaine\u201d instead. But Congress had good reason to use \u201ccocaine base\u201d in the ADAA \u2014 to distinguish the substances covered by clause (iii) from other cocaine-related substances. For example, at the time Congress enacted the statute, the word \u201ccocaine\u201d was commonly used to refer to cocaine hydrochloride, i e., powder cocaine. See, e. g, United States v. Montoya de Hernandez, 473 U. S. 531, 536, 544 (1985) (repeatedly referring to cocaine hydrochloride as \u201ccocaine\u201d); \u201cCrack\u201d Cocaine, Hearing before the Permanent Subcommittee on Investigations of the Senate Committee on Governmental Affairs, 99th Cong., 2d Sess., 94 (1986) (hereinafter Crack Cocaine Hearing) (prepared statement of David L. Westrate, Assistant Administrator, Drug Enforcement Admin., Dept, of Justice) (discussing production of \u201ca white, crystalline powder, cocaine hydrochloride, otherwise known simply as cocaine\u201d).\nTo make things more confusing, in the scientific and medical literature the word \u201ccocaine\u201d is often used to refer to all cocaine-related substances, including powder cocaine. See, e. g., J. Fay, The Alcohol/Drug Abuse Dictionary and Encyclopedia 26-27 (1988); Weiss et al., Cocaine, at 15-25; R. Lewis, Hawley\u2019s Condensed Chemical Dictionary 317 (15th ed. 2007). Accordingly, Congress\u2019 choice to use the admittedly redundant term \u201ccocaine base\u201d to refer to chemically basic cocaine is best understood as an effort to make clear that clause (iii) does not apply to offenses involving powder cocaine or other nonbasic cocaine-related substances.\nB\nNotwithstanding DePierre\u2019s arguments to the contrary, reading \u201ccocaine base\u201d to mean chemically basic cocaine is also consistent with \u00a7841(b)(1)\u2019s somewhat confounding structure. DePierre is correct that the interpretation we adopt today raises the question why Congress included the word \u201ccocaine\u201d in subclause (II) of clause (ii). That sub-clause lists \u201ccocaine, its salts, optical and geometric isomers, and salts of isomers\u201d as elements subject to clause (ii)'s higher quantity threshold. \u00a7\u00a7 841(b)(1)(A)(ii)(II), (B)(ii)(II) (emphasis added). If, as we conclude, the terms \u201ccocaine\u201d and \u201ccocaine base\u201d both mean chemically basic cocaine, offenses involving a mixture or substance which contains such cocaine will always be penalized according to the lower quantity thresholds of clause (iii), and never the higher quantity thresholds clause (ii) establishes for mixtures and substances containing \u201ccocaine.\u201d\nWhile this much is true, we do not agree with DePierre that the word \u201ccocaine\u201d in subclause (II) is therefore superfluous. For without the word \u201ccocaine\u201d subclause (II) makes no sense: It would provide a minimum sentence for offenses involving a specified quantity of simply \u201cits salts, optical and geometric isomers, and salts of isomers.\u201d In light of the structure of the subclause, the word \u201ccocaine\u201d is needed as the reference point for \u201csalts\u201d and \u201cisomers.\u201d\nThe word \u201ccocaine\u201d in subclause (II) also performs another critical function. Clause (iii) penalizes offenses involving \u201ca mixture or substance described in clause (ii) which contains cocaine base.\u201d \u00a7\u00a7841(b)(1)(A)(iii), (B)(iii) (emphasis added). In other words, clause (ii) imposes a penalty for offenses involving cocaine-related substances generally, and clause (iii) imposes a higher penalty for a subset of those substances \u2014 the ones that \u201ccontai[n] cocaine base.\u201d For this structure to work, however, \u00a7 841(b)(1) must \u201cdescrib[e] in clause (ii)\u201d substances containing chemically basic cocaine, which then comprise the subset described in clause (iii). If such substances were not present in clause (ii), clause (iii) would only apply to substances that contain both chemically basic cocaine and one of the other elements enumerated in clause (ii). Presumably, the result would be that clause (iii) would not apply to crack cocaine, freebase, or coca paste offenses, as there is no indication that, in addition to \u201ccocaine base\u201d (i. e., C17H21N04), those substances contain cocaine \u201csalts\u201d (e. g., cocaine hydrochloride), ecgonine, or any of the other elements enumerated in clause (ii). In short, the exclusion of \u201ccocaine\u201d from clause (ii) would result in clause (iii) effectively describing a null set, which obviously was not Congress\u2019 intent.\nOf course, this redundancy could have been avoided by simply drafting clause (iii) to penalize offenses involving \u201ca mixture or substance which contains cocaine base,\u201d without reference to clause (ii) \u2014 that is, Congress could have drafted clause (iii) to specify a separate set of cocaine-related substances, not a subset of those in clause (ii). That we may rue inartful legislative drafting, however, does not excuse us from the responsibility of construing a statute as faithfully as possible to its actual text. And as noted earlier, there is no textual support for DePierre\u2019s interpretation of \u201ccocaine base\u201d to mean \u201ccrack cocaine.\u201d\nWe also recognize that our reading of \u201ccocaine\u201d in sub-clause (II) and \u201ccocaine base\u201d in clause (iii) to both refer to chemically basic cocaine is in tension with the usual rule that \u201cwhen the legislature uses certain language in one part of the statute and different language in another, the court assumes different meanings were intended.\u201d Sosa v. Alvarez-Machain, 542 U. S. 692, 711, n. 9 (2004) (internal quotation marks omitted). However, because \u201cCongress sometimes uses slightly different language to convey the same message,\u201d Deal v. United States, 508 U. S. 129, 134 (1993) (internal quotation marks omitted), we must be careful not to place too much emphasis on the marginal semantic divergence between the terms \u201ccocaine\u201d and \u201ccocaine base.\u201d As we have already explained, Congress had good reason to employ the latter term in clause (iii), and the slight inconsistency in nomenclature is insufficient reason to adopt DePierre\u2019s interpretation: Cf. Public Lands Council v. Babbitt, 529 U. S. 728, 746-747 (2000) (suggesting that a \u201cstatute\u2019s basic purpose\u201d might support the conclusion that \u201ctwo sets of different words mean the same thing\u201d).\nIII\nDePierre offers four additional arguments in support of his view that the term \u201ccocaine base\u201d in clause (iii) is best read to mean \u201ccrack cocaine.\u201d We do not find them convincing.\nA\nDePierre first argues that we should read \u201ccocaine base\u201d to mean \u201ccrack cocaine\u201d because, in passing the ADAA, Congress in 1986 intended to penalize crack cocaine offenses more severely than those involving other substances containing C17H21N04 As is evident from the preceding discussion, this position is not supported by the statutory text. To be sure, the records of the contemporaneous congressional hearings suggest that Congress was most concerned with the particular dangers posed by the advent of crack cocaine. See, e. g., Crack Cocaine Hearing 1 (statement of Chairman Roth) (\u201c[We] mee[t] today to examine a frightening and dangerous new twist in the drug abuse problem \u2014 the growing availability and use of a cheap, highly addictive, and deadly form of cocaine known on the streets as \u2018crack\u2019 \u201d); see generally Commission Report 116-118; Kimbrough, 552 U. S., at 95-96.\nIt does not necessarily follow, however, that in passing the ADAA Congress meant for clause (iii)\u2019s lower quantity thresholds to apply exclusively to crack cocaine offenses. Numerous witnesses at the hearings testified that the primary reason crack cocaine was so dangerous was because\u2014 contrary to powder cocaine \u2014 cocaine in its base form is smoked, which was understood to produce a faster, more intense, and more addictive high than powder cocaine. See, e. g., Crack Cocaine Hearing 20 (statement of Dr. Robert Byck, Yale University School of Medicine) (stating that the ability to inhale vapor \u201cis the reason why crack, or cocaine free-base, is so dangerous\u201d). This is not, however, a feature unique to crack cocaine, and freebase and coca paste were also acknowledged as dangerous, smokeable forms of cocaine. See, e. g., id., at 70 (prepared statement of Dr. Charles R. Schuster, Director, National Institute on Drug Abuse) (reporting on the shift from snorting powder cocaine to \u201cnewer more dangerous routes of administration, such as freebase smoking\u201d); id., at 19-20 (statement of Dr. Byck) (describing the damaging effects of cocaine smoking on people in Peru).\nMoreover, the testimony of witnesses before Congress did not clearly distinguish between these base forms of cocaine; witnesses repeatedly used terms like \u201ccocaine base,\u201d \u201cfreebase,\u201d or \u201ccocaine freebase\u201d in a manner that grouped crack cocaine with other substances containing chemically basic forms of cocaine. See, e. g., Trafficking and Abuse of \u201cCrack\u201d in New York City, Hearing before the House Select Committee on Narcotics Abuse and Control, 99th Cong., 2d Sess., 258 (1986) (statement of Robert M. Stutman, Special Agent in Charge, Drug Enforcement Admin., Dept, of Justice) (\u201c[C]ocaine in its alkaloid form [is] commonly known on the street as crack, rock, base, or freebase\u201d); Crack Cocaine Hearing 71 (statement of Dr. Schuster) (\u201cIn other words, 'crack\u2019 is a street name for cocaine freebase\u201d). In fact, prior to passage of the ADAA, multiple bills were introduced in Congress that imposed enhanced penalties on those who trafficked in \u201ccocaine base,\u201d e. g., S. 2787, 99th Cong, 2d Sess., \u00a7 1 (1986), as well as \u201ccocaine freebase,\u201d e. g., H. R. 5394, 99th Cong., 2d Sess., \u00a7 101 (1986); H. R. 5484, 99th Cong, 2d Sess., \u00a7 608(a) (1986).\nGiven crack cocaine\u2019s sudden emergence and the similarities it shared with other forms of cocaine, this lack of clarity is understandable, as is Congress\u2019 desire to adopt a statutory term that would encompass all forms. Congress faced what it perceived to be a new threat of massive scope. See, e. g., Crack Cocaine Hearing 4 (statement of Sen. Nunn) (\u201c[C]o-caine use, particularly in the more pure form known as crack, is at near epidemic proportions\u201d); id., at 21 (statement of Dr. Byck) (\u201cWe are dealing with a worse drug . . . than we have ever dealt with, or that anybody has ever dealt with in history\u201d). Accordingly, Congress chose statutory language broad enough to meet that threat. As we have noted, \u201cstatutory prohibitions often go beyond the principal evil to cover reasonably comparable evils.\u201d Oncale v. Sundowner Offshore Services, Inc., 523 U, S. 75, 79 (1998). In the absence of any indication in the statutory text that Congress intended only to subject crack cocaine offenses to enhanced penalties, we cannot adopt DePierre\u2019s narrow construction. See Lewis v. Chicago, 560 U. S. 205, 215 (2010) (\u201cIt is not for us to rewrite [a] statute so that it covers only what we think is necessary to achieve what we think Congress really intended\u201d).\nB\nDePierre also argues that we should read the term \u201ccocaine base\u201d to mean \u201ccrack cocaine,\u201d rather than chemically basic cocaine, because the latter definition leads to an absurd result. Cf. EEOC v. Commercial Office Products Co., 486 U. S. 107, 120 (1988) (plurality opinion). He contends that, because coca leaves themselves contain cocaine, under the Government's approach an offense involving 5 grams of coca leaves will be subject to the 5-year minimum sentence in \u00a7 841(b)(1)(B)(iii), even though those leaves would produce only 0.05 grams of smokeable cocaine. See Brief for Petitioner 41-42. While we agree that it would be questionable to treat 5 grams of coca leaves as equivalent to 500 grams of powder cocaine for minimum-sentence purposes, we are not persuaded that such a result would actually obtain in light of our decision today.\nTo begin with, it is a matter of dispute between the parties whether coca leaves in their natural, unprocessed form actually contain chemically basic cocaine. Compare Brief for Petitioner 15, 17, n. 10, with Brief for United States 43. Even assuming that DePierre is correct as a matter of chemistry that coca leaves contain cocaine in its base form, see Physicians Brief 2, 11, the Government has averred that it \u201cwould not be able to make that showing in court,\u201d Tr. of Oral Arg. 28, and that \u201ccoca leaves should not be treated as containing \u2018cocaine base\u2019 for purposes of Clause (iii),\u201d Brief for United States 45.\nIt is unsurprising, therefore, that the Government in its brief disclaimed awareness of any prosecution in which it had sought, or the defendant had received, a statutory-minimum sentence enhanced under clause (iii) for an offense involving coca leaves. Id., at 44. And although this question is not before us today, we note that Congress\u2019 deliberate choice to enumerate \u201ccoca leaves\u201d in clause (ii) strongly indicates its intent that offenses involving such leaves be subject to the higher quantity thresholds of that clause. Accordingly, there is little danger that the statute will be read in the \u201cabsurd\u201d manner DePierre fears.\nC\nIn addition, DePierre suggests that because the Sentencing Commission has, since 1993, defined \u201ccocaine base\u201d to mean \u201ccrack\u201d for the purposes of the Federal Sentencing Guidelines, we should do the same with respect to \u00a7 841(b)(1). We do not agree. We have never held that, when interpreting a term in a criminal statute, deference is warranted to the Sentencing Commission\u2019s definition of the same term in the Guidelines. Cf. Neal v. United States, 516 U. S. 284, 290-296 (1996). And we need not decide now whether such deference would be appropriate, because the Guidelines do not purport to interpret \u00a7 841(b)(1). See USSG \u00a7 2D1.1(c), n. (D) (\u201c \u2018Cocaine base,\u2019 for the \u2018purposes of this guideline, means \u2018crack\u2019 \u201d (emphasis added)).\nWe recognize that, because the definition of \u201ccocaine base\u201d in clause (iii) differs from the Guidelines definition, certain sentencing anomalies may result. For example, an offense involving 5 grams of crack cocaine and one involving 5 grams of coca paste both trigger a minimum 5-year sentence under \u00a7 841(b)(1)(B)(iii). But defendants convicted of offenses involving only 4 grams of each substance \u2014 which do not trigger the statutory m\u00ednimums \u2014 would likely receive different sentences, because of the Guidelines\u2019 differential treatment of those substances with respect to offense level. Compare USSG \u00a72D1.1(c)(9) (providing an offense level of 22 for at least 4 grams of \u201ccocaine base,\u201d i. e., \u201ccrack\u201d) with \u00a72D1.1(c)(14) (providing an offense level of 12 for less than 25 grams of \u201ccocaine,\u201d which, under the Guidelines, includes coca paste). As we have noted in previous opinions, however, such disparities are the inevitable result of the dissimilar operation of the fixed minimum sentences Congress has provided by statute and the graduated sentencing scheme established by the Guidelines. See Kimbrough, 552 U. S., at 107-108; Neal, 516 U. S., at 291-292. Accordingly, we reject DePierre\u2019s suggestion that the term \u201ccocaine base\u201d as used in clause (iii) must be given the same definition as it has under the Guidelines.\nD\nFinally, DePierre argues that, because \u00a7 841(b)(1) is at the very least ambiguous, the rule of lenity requires us to interpret the statute in his favor. See United States v. Santos, 553 U. S. 507, 514 (2008) (plurality opinion) (\u201cThe rule of lenity requires ambiguous criminal laws to be interpreted in favor of the defendants subjected to them\u201d). As evinced by the preceding discussion, we cannot say that the statute is crystalline. The rule, however, is reserved for cases where, \u201cafter seizing every thing from which aid can be derived, the Court is left with an ambiguous statute.\u201d Smith v. United States, 508 U. S. 223, 239 (1993) (internal quotation marks and brackets omitted). Applying the normal rules of statutory construction in this case, it is clear that Congress used the term \u201ccocaine base\u201d in clause (iii) to penalize more severely not only offenses involving \u201ccrack cocaine,\u201d but those involving substances containing chemically basic cocaine more generally. There is no persuasive justification for reading the statute otherwise. Because the statutory text allows us to make far more than \u201ca guess as to what Congress intended,\u201d Reno v. Koray, 515 U. S. 50, 65 (1995) (internal quotation marks omitted), the rule of lenity does not apply in DePierre\u2019s favor.\n* * *\nWe hold that the term \u201ccocaine base\u201d as used in \u00a7 841(b)(1) means not just \u201ccrack cocaine,\u201d but cocaine in its chemically basic form. We therefore affirm the judgment of the Court of Appeals.\nIt is so ordered.\nThere are more detailed theories of how acids and bases intprart For our purposes, j.t is sufficient to note the fundamental proposition that a baso and an aeid can combine to form a calt, and all three are different types of compounds. See generally Brief for Individual Physicians and Scientists ac Amici Curiao 8; A Dictionary of Chemistry 6-7, 62- 63, 196 (J. Daintith ed., 5th ed. 2004).\nThough the terms \u201ccrack\u201d and \u201ccrack cocaine\u201d are interchangeable, in this opinion wc adopt DcPicrrc\u2019c practice and generally employ the latter.\nDuo to a recent amendment, the quantity ratio in \u00a7 841(b)(1) is now roughly 18 to 1, but otherwise the relevant statutory provisions are unchanged from those in effect at the time DePierre was sentenced. See Fair Sentencing Act of 2010, \u00a72, 124 Stat. 2372 (changing the quantity in \u00a7 841(b)(1)(A)(iii) from 50 to 280 grams and in subparagraph (B)(iii) from 5 to 28 grams).\nIn 2007, the Commission increased the quantity of cocaine base required to trigger each offense level, reducing the cocaine-base-to-eocaine-sentencing ratio under the Guidelines. See USSG Supp. App. C, Arndt. 706 (effective Nov. 1, 2007). Unless otherwise noted, we cite to the current versions of the relevant Guidelines provisions.\nThe Guidelines\u2019 Drug Quantity Table only lists \u201ccocaine\u201d and \u201ccocaine base\u201d among ito enumerated controlled eubstances, but the application notes make clear that the term \u201ccocaine\u201d includes \u201ceegonine and coca leaves,\u201d as well as \u201csalts, isomers, [and] salts of isomers\u201d of cocaine. \u00a72D1.1(c), and comment., n. 5.\nDePierre was also indicted for diotribution of powder cocaine under \u00a7 841(a)(1) and possession of a firearm with an obliterated serial number under 18 U. S. C. \u00a7 922(k). He was convicted by jury of the former offense and pleaded guilty to the latter prior to trial.\nAs noted earlier, \u00a7 841(b)(1)(B) calls for a mandatory minimum 5-year acntcnco for offenses involving exactly the same substances; the only difference in subparagraph (B) is that the threshold quantity in clause (ii) is 500 grams, and in clause (iii) it is 5 grams. Because the 100-to-1 ratio is a feature of both \u00a7\u00a7 841(b)(1)(A) and (B), and those subparagraphs are identical in all other respecta, throughout thio opinion wo use the terms \u201cclause (ii)\u201d and \u201cclause (iii)\u201d to refer to those clauses as present in either subparagraph.\nThe Government urges us to give \u201ccocaine base\u201d its \u201csettled, unambiguous scientific meaning,\u201d i. e., \u201cthe form of cocaine classified chemically as a base, with the chemical formula C17H21N04 and a particular molecular structure.\u201d Brief for United States 20; cf. McDermott Int\u2019l, Inc. v. Wilander, 498 U. S. 337, 342 (1991) (\u201cIn the absence of contrary indication, we assume that when a statute uses ... a term [of art], Congress intended it to have its established meaning\u201d). But the scientifically proper appellation for C17H21N04 is \u201ccocaine\u201d tout court, and the Government cites no source that uses \u201ccocaine base\u201d to refer to C17H21N04 (save lower court opinions construing the statute at issue in this case). Therefore, there is no \u201csettled meaning\u201d \u2014 scientific or otherwise \u2014 of \u201ccocaine base\u201d for us to apply to \u00a7 841(b)(1).\nThe statute itself gives us good reason to reject DePierre\u2019s reading. Substituting \u201ccrack cocaine\u201d for \u201ccocaine base\u201d would mean that clause (iii) only applies to a \u201cmixture or substance . . . which contains [crack cocaine].\u201d But crack cocaine is itself a \u201csubstance\u201d involved in drug offenses; it is the end product that is bought, sold, and consumed. We are aware of no substance that \u201ccontains\u201d crack cocaine.\nDePierre makes a similar argument with respect to coca lcavco: Because they contain chemically basic cocaine, he contends, under the Government\u2019s interpretation offenses involving coca leaves will never be subject to the lower quantity threshold associated with subelause (I), rendering that provision superfluous. For reasons discussed later, see infra, at 85-87, we are not convinced.\nAt the time the ADA A was enacted, the definition of \u201cnarcotic drug\u201d in the same subchapter of the United States Code included, as relevant, the following:\n\u201c(C) Coca leaves, except coca leaves and extracts of coca leaves from which cocaine, ecgonine, and derivatives of ecgonine or their salts have been removed.\n\u201c(D) Cocaine, its salts, optical and geometric isomers, and salts of isomers.\n\u201c(E) Ecgonine, its derivatives, their salts, isomers, and salts of isomers.\n\u201c(F) Any compound, mixture, or preparation which contains any quantity of any of the substances referred to in [the preceding] subpara-graphs _\u201d 21 U. S. C. \u00a7802(17) (1982 ed., Supp. III).\nAccordingly, the likely explanation for the ADAA\u2019s curious structure is that Congress simply adopted this pre-existing enumeration of cocaine-related controlled substances, and then engrafted clause (iii) to provide enhanced penalties for the subset of offenses involving chemically basic cocaine.\nIt appears that Congress itself is of the view that coca leaves contain \u201ccocaine,\u201d as subclause (I) exempts offenses involving \u201ccoca leaves from which cocaine ... ha[s] been removed.\u201d \u00a7\u00a7841(b)(1)(A)(ii)(I), (B)(ii)(I).\nWe also disagree with DePierre\u2019s contention that Congress\u2019 failure to reject the Guidelines definition of \u201ccocaine base\u201d means that it has effectively adopted that interpretation with respect to the statute. See Kimbrough v. United States, 552 U. S. 85, 106 (2007) (\u201cOrdinarily, we resist reading congressional intent into congressional inaction\u201d).\nIn defining \u201ccocaine base\u201d as \u201ccrack,\u201d the Commission explained that \u201cforms of cocaine base other than crack\u201d are treated as \u201ccocaine\" for purposes of the Guidelines. USSG App. C, Arndt. 487 (effective Nov. 1,1998). This includes coca paste, which the Commission described as \u201can intermediate step in the processing of coca leaves into cocaine hydrochloride.\u201d Ibid. As we have explained, however, coca paste is a smokeable form of cocaine in its own right, and we see no reason why, as a statutory matter, it should be subject to lesser penalties than crack or freebase.",
+        "type": "majority",
+        "author": "Justice Sotomayor"
+      },
+      {
+        "text": "Justice Scalia,\nconcurring in part and concurring in the judgment.\nI concur in the Court\u2019s judgment and in all of its opinion except for Part III-A, which needlessly contradicts De-Pierre\u2019s version of legislative history. Our holding today is that the statutory term \u201ccocaine base\u201d refers to cocaine base, rather than, as DePierre contends, one particular type of cocaine base. This holding is in my view obvious, and the Court does not disagree. It begins its discussion of the legislative history by saying that DePierre\u2019s position \u201cis not supported by the statutory text,\u201d ante, at 83; and ends the discussion by saying that \u201c[i]n the absence of any indication in the statutory text that Congress intended only to subject crack cocaine offenses to enhanced penalties, we cannot adopt DePierre\u2019s narrow construction,\u201d ante, at 85.\nEverything in between could and should have been omitted. Even if Dr. Byck had not lectured an undetermined number of likely somnolent Senators on \u201cthe damaging effects of cocaine smoking on people in Peru,\u201d ante, at 84, we would still hold that the words \u201ccocaine base\u201d mean cocaine base. And here, as always, the needless detour into legislative history is not harmless. It conveys the mistaken impression that legislative history could modify the text of a criminal statute as clear as this. In fact, however, even a hypothetical House Report expressing the Committee\u2019s misunderstanding (or perhaps just the Committee staff\u2019s misunderstanding, who knows?) that \u201ccocaine base means crack cocaine\u201d could not have changed the outcome of today\u2019s opinion.",
+        "type": "concurring-in-part-and-dissenting-in-part",
+        "author": "Justice Scalia,"
+      }
+    ],
+    "attorneys": [
+      "Andrew J. Pincus argued the cause for petitioner. With him on the briefs were Charles A. Rothfeld and Jeffrey A. Meyer.",
+      "Nicole A. Saharsky argued the cause for the United States. With her on the brief were Acting Solicitor General Katyal, Assistant Attorney General Breuer, Deputy Solicitor General Dreeben, Benjamin J. Norwich, and Deborah Watson."
+    ],
+    "corrections": "",
+    "head_matter": "DePIERRE v. UNITED STATES\nNo. 09-1533.\nArgued February 28, 2011\nDecided June 9, 2011\nAndrew J. Pincus argued the cause for petitioner. With him on the briefs were Charles A. Rothfeld and Jeffrey A. Meyer.\nNicole A. Saharsky argued the cause for the United States. With her on the brief were Acting Solicitor General Katyal, Assistant Attorney General Breuer, Deputy Solicitor General Dreeben, Benjamin J. Norwich, and Deborah Watson.\nShelley R. Sadin filed a brief for Individual Physicians and Scientists as amici curiae."
+  },
+  "file_name": "0070-01",
+  "first_page_order": 114,
+  "last_page_order": 134
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5949238,
+  "name": "Mosher v. Michigan",
+  "name_abbreviation": "Mosher v. Michigan",
+  "decision_date": "2011-05-02",
+  "docket_number": "No. 10-9210",
+  "first_page": "976",
+  "last_page": "976",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 976"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 67,
+    "ocr_confidence": 0.633,
+    "sha256": "6ba21008ba10dfbc0b283a47ba08bad12358557e841e481277da6fdbb8cc73cc",
+    "simhash": "1:9d4ed3b7e88ddbd0",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mosher v. Michigan."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Mich. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9210.\nMosher v. Michigan."
+  },
+  "file_name": "0976-14",
+  "first_page_order": 1002,
+  "last_page_order": 1002
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12414691,
+  "name": "Davis v. McDuffie",
+  "name_abbreviation": "Davis v. McDuffie",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-11038",
+  "first_page": "875",
+  "last_page": "875",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 875"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 67,
+    "ocr_confidence": 0.673,
+    "sha256": "4ae8cf951354187a10c7864f10fd6c6773440cba37ebc32258f80fe8b4e4bfda",
+    "simhash": "1:160a9380a90eb46e",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Davis v. McDuffie."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-11038.\nDavis v. McDuffie."
+  },
+  "file_name": "0875-12",
+  "first_page_order": 951,
+  "last_page_order": 951
+}

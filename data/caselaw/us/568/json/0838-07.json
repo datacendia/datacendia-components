@@ -1,0 +1,59 @@
+{
+  "id": 12412317,
+  "name": "Kidd v. Norman, Warden",
+  "name_abbreviation": "Kidd v. Norman",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10271",
+  "first_page": "838",
+  "last_page": "838",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 838"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.675,
+    "sha256": "6c9ed81ccf51f7d1e2309f0ac1455b2ebae43351c337dae986eb980dba9be281",
+    "simhash": "1:b0c347b32e3f1047",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Kidd v. Norman, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10271.\nKidd v. Norman, Warden."
+  },
+  "file_name": "0838-07",
+  "first_page_order": 914,
+  "last_page_order": 914
+}

@@ -73,7 +73,7 @@ interface ApiResponse<T> {
 }
 
 class VerticalAgentsApiService {
-  private baseUrl = '/api/v1/vertical-agents';
+  private baseUrl = '/vertical-agents';
 
   // ===========================================================================
   // VERTICAL QUERIES

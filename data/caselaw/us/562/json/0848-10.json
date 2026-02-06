@@ -1,0 +1,59 @@
+{
+  "id": 6008699,
+  "name": "Meeks v. McKune, Warden, et al.",
+  "name_abbreviation": "Meeks v. McKune",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-10657",
+  "first_page": "848",
+  "last_page": "848",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 848"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 81,
+    "ocr_confidence": 0.608,
+    "sha256": "e8ce5f0ef3529f8c02588533e631ade1449d0c343f552b49b4a1567d858a577c",
+    "simhash": "1:dd98f02dd6579138",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Meeks v. McKune, Warden, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10657.\nMeeks v. McKune, Warden, et al."
+  },
+  "file_name": "0848-10",
+  "first_page_order": 870,
+  "last_page_order": 870
+}

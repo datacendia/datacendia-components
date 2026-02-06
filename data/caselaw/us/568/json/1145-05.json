@@ -1,0 +1,59 @@
+{
+  "id": 12430045,
+  "name": "Bigesby v. United States",
+  "name_abbreviation": "Bigesby v. United States",
+  "decision_date": "2013-01-22",
+  "docket_number": "No. 12-6349",
+  "first_page": "1145",
+  "last_page": "1145",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1145"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.629,
+    "sha256": "a77da9803d38bd7b7e05091ac2fdccb24d032d0992680bf610678a1696a831ec",
+    "simhash": "1:17aa8241423e800c",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bigesby v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. D. C. Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6349.\nBigesby v. United States."
+  },
+  "file_name": "1145-05",
+  "first_page_order": 1221,
+  "last_page_order": 1221
+}

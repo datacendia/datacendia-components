@@ -1,0 +1,59 @@
+{
+  "id": 6023968,
+  "name": "Vasquez-Martinez v. United States",
+  "name_abbreviation": "Vasquez-Martinez v. United States",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7694",
+  "first_page": "1158",
+  "last_page": "1158",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1158"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 82,
+    "ocr_confidence": 0.621,
+    "sha256": "e34cae785b1294c22dd0743dcc62fcc9b04dd32498c5aab81e31497ce347f8c0",
+    "simhash": "1:870a52820a3d0804",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Vasquez-Martinez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7694.\nVasquez-Martinez v. United States."
+  },
+  "file_name": "1158-15",
+  "first_page_order": 1180,
+  "last_page_order": 1180
+}

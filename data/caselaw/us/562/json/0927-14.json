@@ -1,0 +1,59 @@
+{
+  "id": 5980453,
+  "name": "Johnson v. Basinger",
+  "name_abbreviation": "Johnson v. Basinger",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5537",
+  "first_page": "927",
+  "last_page": "927",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 927"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 68,
+    "ocr_confidence": 0.601,
+    "sha256": "48b700ed849c5b207303124d35e64991eb863cad3ac4431c75265f6f12e2582e",
+    "simhash": "1:024262888349c008",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Johnson v. Basinger."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5537.\nJohnson v. Basinger."
+  },
+  "file_name": "0927-14",
+  "first_page_order": 949,
+  "last_page_order": 949
+}

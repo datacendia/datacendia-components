@@ -1,0 +1,59 @@
+{
+  "id": 5930230,
+  "name": "In re Discipline of Kordell",
+  "name_abbreviation": "In re Discipline of Kordell",
+  "decision_date": "2011-06-20",
+  "docket_number": "No. D-2592",
+  "first_page": "1016",
+  "last_page": "1016",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1016"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 39,
+    "char_count": 285,
+    "ocr_confidence": 0.509,
+    "sha256": "e3c3e269b2c00c505235aedfce865002e3ef5e1d5e96d824e18b9cf255719171",
+    "simhash": "1:748a3136bece27e6",
+    "word_count": 51
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of Kordell."
+    ],
+    "opinions": [
+      {
+        "text": "James Michael Kordell, of Woodlake, Cal., is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2592.\nIn re Discipline of Kordell."
+  },
+  "file_name": "1016-04",
+  "first_page_order": 1010,
+  "last_page_order": 1010
+}

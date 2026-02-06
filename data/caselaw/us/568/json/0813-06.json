@@ -1,0 +1,59 @@
+{
+  "id": 12408627,
+  "name": "Mangone v. Wong",
+  "name_abbreviation": "Mangone v. Wong",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-1080",
+  "first_page": "813",
+  "last_page": "813",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 813"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 63,
+    "ocr_confidence": 0.752,
+    "sha256": "846443013de7431b0ae5c59f16cb797053472d72b9b92ac786214e54086b64d8",
+    "simhash": "1:19b010b1030cf602",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mangone v. Wong."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1080.\nMangone v. Wong."
+  },
+  "file_name": "0813-06",
+  "first_page_order": 889,
+  "last_page_order": 889
+}

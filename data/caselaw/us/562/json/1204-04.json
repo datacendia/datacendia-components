@@ -1,0 +1,59 @@
+{
+  "id": 6033172,
+  "name": "Dunn v. Parker, Warden",
+  "name_abbreviation": "Dunn v. Parker",
+  "decision_date": "2011-01-24",
+  "docket_number": "No. 10-7673",
+  "first_page": "1204",
+  "last_page": "1204",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1204"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.627,
+    "sha256": "797e66e6b30a1748e6788f191b990fc244757de4c1464f8d31bfc1768c93a5db",
+    "simhash": "1:9684dd61b627d2f6",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dunn v. Parker, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7673.\nDunn v. Parker, Warden."
+  },
+  "file_name": "1204-04",
+  "first_page_order": 1226,
+  "last_page_order": 1226
+}

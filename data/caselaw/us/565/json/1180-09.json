@@ -1,0 +1,59 @@
+{
+  "id": 12244662,
+  "name": "Warren v. Virginia",
+  "name_abbreviation": "Warren v. Virginia",
+  "decision_date": "2012-01-23",
+  "docket_number": "No. 11-7497",
+  "first_page": "1180",
+  "last_page": "1180",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1180"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 65,
+    "ocr_confidence": 0.686,
+    "sha256": "0231dda61b5125594aacb4cdb9bbc8ec38569092655aa30db53730439e8b5a05",
+    "simhash": "1:c8eb66c33eed6f2b",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Warren v. Virginia."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Va. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7497.\nWarren v. Virginia."
+  },
+  "file_name": "1180-09",
+  "first_page_order": 1262,
+  "last_page_order": 1262
+}

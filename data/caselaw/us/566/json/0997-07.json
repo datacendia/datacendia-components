@@ -1,0 +1,59 @@
+{
+  "id": 12217726,
+  "name": "Deanda v. California",
+  "name_abbreviation": "Deanda v. California",
+  "decision_date": "2012-05-14",
+  "docket_number": "No. 11-9280",
+  "first_page": "997",
+  "last_page": "997",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 997"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 84,
+    "ocr_confidence": 0.563,
+    "sha256": "0813502fbd0fb1fd38676de1934cf2cf2a68172d38abf070690ad3676612773b",
+    "simhash": "1:c925a0811181f861",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Deanda v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 6th App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9280.\nDeanda v. California."
+  },
+  "file_name": "0997-07",
+  "first_page_order": 873,
+  "last_page_order": 873
+}

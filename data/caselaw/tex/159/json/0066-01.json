@@ -1,0 +1,474 @@
+{
+  "id": 2257125,
+  "name": "John B. Pearson, Jr. v. State of Texas",
+  "name_abbreviation": "Pearson v. State",
+  "decision_date": "1958-07-09",
+  "docket_number": "No. A-6627",
+  "first_page": "66",
+  "last_page": "78",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "159 Tex. 66"
+    },
+    {
+      "type": "parallel",
+      "cite": "315 S.W.2d 935"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "299 S.W. 213",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10290499,
+        2274855,
+        10290538,
+        2274829,
+        10290480
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/299/0213-02",
+        "/tex/117/0142-01",
+        "/sw/299/0213-03",
+        "/tex/117/0144-01",
+        "/sw/299/0213-01"
+      ]
+    },
+    {
+      "cite": "228 S.W. 605",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10321114
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/228/0605-01"
+      ]
+    },
+    {
+      "cite": "19 S.W. 518",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "84 Texas 333",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2209993
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/84/0333-01"
+      ]
+    },
+    {
+      "cite": "133 S.W. 1043",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10342971
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/133/1043-01"
+      ]
+    },
+    {
+      "cite": "104 Texas 90",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2256951
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/104/0090-01"
+      ]
+    },
+    {
+      "cite": "44 S.W. 2d 465",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10262937
+      ],
+      "pin_cites": [
+        {
+          "page": "466"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/44/0465-01"
+      ]
+    },
+    {
+      "cite": "62 S.W. 2d 1104",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10267641
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/62/1104-01"
+      ]
+    },
+    {
+      "cite": "88 S.W. 2d 1095",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10276080
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/88/1095-01"
+      ]
+    },
+    {
+      "cite": "213 S.W. 2d 726",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10200699
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/213/0726-01"
+      ]
+    },
+    {
+      "cite": "276 S.W. 2d 950",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10185394
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/276/0950-01"
+      ]
+    },
+    {
+      "cite": "23 S.W. 976",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "pin_cites": [
+        {
+          "page": "978"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "86 Texas 172",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2206254
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/86/0172-01"
+      ]
+    },
+    {
+      "cite": "155 S.W. 348",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8284293
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/155/0348-01"
+      ]
+    },
+    {
+      "cite": "307 S.W. 2d 159",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10161627
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/307/0159-01"
+      ]
+    },
+    {
+      "cite": "155 S.W. 2d 402",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10217069
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/155/0402-01"
+      ]
+    },
+    {
+      "cite": "225 S.W. 2d 232",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10193853
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/225/0232-01"
+      ]
+    },
+    {
+      "cite": "220 S.W. 2d 692",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10208187
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/220/0692-01"
+      ]
+    },
+    {
+      "cite": "5 Texas 528",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        6769961
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/5/0264-01"
+      ]
+    },
+    {
+      "cite": "50 S.W. 498",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "108 S.W. 155",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "101 Texas 382",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2263312
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/101/0382-01"
+      ]
+    },
+    {
+      "cite": "25 S.W. 2d 820",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10283572
+      ],
+      "pin_cites": [
+        {
+          "page": "822"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/25/0820-01"
+      ]
+    },
+    {
+      "cite": "49 S.W. 2d 723",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10246885
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/49/0723-01"
+      ]
+    },
+    {
+      "cite": "256 S.W. 2d 236",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10201396
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/256/0236-01"
+      ]
+    },
+    {
+      "cite": "181 S.W. 2d 719",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10217878
+      ],
+      "pin_cites": [
+        {
+          "page": "723"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/181/0719-01"
+      ]
+    },
+    {
+      "cite": "34 S.W. 2d 682",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10273484
+      ],
+      "pin_cites": [
+        {
+          "page": "683"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/34/0682-01"
+      ]
+    },
+    {
+      "cite": "44 S.W. 2d 465",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10262937
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "466"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/44/0465-01"
+      ]
+    },
+    {
+      "cite": "88 S.W. 2d 1095",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10276080
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/88/1095-01"
+      ]
+    },
+    {
+      "cite": "213 S.W. 2d 726",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10200699
+      ],
+      "pin_cites": [
+        {
+          "page": "729"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/213/0726-01"
+      ]
+    },
+    {
+      "cite": "23 S.W. 976",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "86 Texas 172",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2206254
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/86/0172-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 950,
+    "char_count": 27826,
+    "ocr_confidence": 0.6,
+    "pagerank": {
+      "raw": 1.2960512876208345e-06,
+      "percentile": 0.989321192084944
+    },
+    "sha256": "6a82dd82972dced803213af7e8db679a42ae9574d8e22fc647217852192cbbcf",
+    "simhash": "1:c00d97a2670e4540",
+    "word_count": 4762
+  },
+  "last_updated": "2024-02-27T19:26:07.846026+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "John B. Pearson, Jr. v. State of Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Walker\ndelivered the opinion of the Court.\nThis is a condemnation proceeding in which neither party filed timely objections to the award of the commissioners. The attempted appeal of the landowner, John B. Pearson, Jr., who is petitioner here, from the judgment entered by the County Judge has been dismissed by the Court of Civil Appeals for want of jurisdiction. 307 S.W. 2d 159. It is our opinion that the intermediate court had no jurisdiction of the appeal, and its judgment of dismissal will accordingly be affirmed.\nAn account of the events leading up to the appeal is necessary to an understanding of petitioner\u2019s argument. The initial statement filed with the county judge names petitioner and Texas Good Roads Association as the owners of the property sought to be condemned. Petitioner appeared at the hearing before the commissioners and waived notice. The Association, which held a lease on the premises, was not served with and did not waive notice or appear at the hearing. After considering the evidence introduced, the commissioners filed their decision with the county judge reciting the appearance of \u201cthe defendant (sic) John B. Pearson, Jr., and Texas Good Roads Association by their attorneys of record,\u201d that the market value of the land is $46,100.00 and that \u201csuch sum is hereby awarded to the defendant.\u201d\nNo objections having been filed within ten days, the amount of the award was deposited in the registry of the court. Petitioner went to the clerk\u2019s office for the purpose of withdrawing the money but declined to do so upon being advised that the check would be made payable to him and the Association. Although counsel for the State later filed a statement with the clerk that the money had been deposited subject to petitioner\u2019s order, the funds were not withdrawn.\nThe State then obtained a quitclaim deed from the Association and filed a motion to record the award and make it the judgment of the county court. Petitioner countered with a motion to strike the award and abate the proceeding on three grounds which will be noticed later. At the hearing held by the county judge on these motions, the parties stipulated certain facts and offered the testimony of several witnesses. The State introduced its quitclaim deed, and one of the commissioners testified that no evidence was introduced at their hearing as to the value of the Association\u2019s interest in the premises. The judgment from which this appeal is taken was then entered by the county judge. After reciting that the Association was not notified of the commissioners\u2019 hearing, that no evidence was offered as to the value of its interest in the premises, and that the commissioners had filed their decision awarding $46,100.00 to petitioner, it decrees that the State recover title to the property from petitioner, that petitioner recover the amount of the award from the State, and that the money deposited with the clerk be paid to petitioner.\nUnder the provisions of Arts. 1819 and 2249, Vernon\u2019s Ann. Texas Civ. Stat., appeals may be taken to the Court of Civil Appeals from final judgments in civil cases of which the district and county courts have or assume jurisdiction. An action to condemn land is a special statutory proceeding, wholly administrative in nature, at least until the commissioners\u2019 decision is filed with the county judge. The course which it takes after the filing of their award is governed by Sections 6 and 7 of Art. 3266, Vernon\u2019s Ann. Texas Civ. Stat., which read as follows:\n\u201c6. If either party be dissatisfied with the decision, such party may within ten days after the same has been filed with the county judge file his objection thereto in writing, setting forth the grounds of his objection, and thereupon the adverse party shall be cited and the cause shall be tried and determined as in other civil causes in the county court.\n\u201c7. If no objections to the decision are filed within ten (10) days, the County Judge shall cause said decision to be recorded in the minutes of the County Court, and shall make the same the judgment of the court and issue the necessary process to enforce the same.\u201d\nBy the express terms of Section 6, the filing of timely objections confers jurisdiction upon the county court to hear and determine the issues in the exercise of its judicial powers. It thus is clear that the proceeding becomes a civil case if objections are filed within the prescribed period, and either party has the right to appeal from a final judgment thereafter entered by the county court. Article 3268, Vernon\u2019s Ann. Texas Civ. Stat., expressly recognizes the right to appeal \u201cfrom the decision of the county court,\u201d but there is no provision authorizing an appeal from a judgment entered on the award. In the present case neither party complied with the provisions of Section 6 of Art. 3266, and we must decide whether the proceeding, originally administrative in character, may be converted into a judicial action in any other manner.\nThe parties do not cite and we have not found a decision which can be regarded as squarely in point. A civil case has been defined as \u201ca proceeding in a court of justice by one party against another for the enforcement or protection of a private right or for the redress or prevention of a private wrong.\u201d See Lane v. Hewgley, Texas Civ. App., 155 S.W. 348 (no writ.') We have said that a statutory proceeding in which the controversy is not submitted to and determined by the court as a judicial tribunal \u201cis neither a suit at law nor a case in equity\u201d even though the same culminates in a judgment. See Fortune v. Killebrew, 86 Texas 172, 23 S.W. 976, 978. Several of our immediate courts have also expressed the view that a condemnation proceeding becomes a judicial action only when an appeal is taken from the award of the commissioners. See Lewis v. Texas Power & Light Co., Texas Civ. App., 276 S.W. 2d 950 (wr. ref., n.r.e.) ; City of El Paso v. Ward, Texas Civ. App., 213 S.W. 2d 726 (no writ) ; City of Big Spring v. Garlington, Texas Civ. App., 88 S.W. 2d 1095 (no writ) ; Hardy v. City of Throckmorton, 62 S.W. 2d 1104 (no writ). In one case it was pointed out that the timely filing of objections is necessary to remove the proceeding from the effect of the decision of a special tribunal to a regularly constituted court, but the opinion then concludes by saying that \u201cthe proceedings do not become an action in the county court in the true sense until such objections are filed or until the time for filing same has expired and the judge is required to enter judgment on the award.\u201d Sinclair v. City of Dallas, Texas Civ. App., 44 S.W. 2d 465, 466, (wr. ref.).\nA condemnation proceeding is not within the general jurisdiction of the county court as defined by Art. 5, Sec. 16, of the Constitution and Arts. 1949 and 1950, Vernon\u2019s Ann. Texas Civ. Stat. The jurisdiction of the court over such matters is special and depends upon the provisions of Art. 3266 quoted above, which were enacted by the Legislature pursuant to its authority under Art. 5, Sec. 22, of the Constitution. See Southern Kansas Ry. Co. of Texas v. Vance, 104 Texas 90, 133 S.W. 1043. The power of the county court as a judicial tribunal in eminent domain proceedings is thus limited to that which has been conferred upon it by statute.\nSection 7 of Art. 3266 requires the county judge, if no objections are filed within ten days, to cause the award to be recorded in the minutes and make the same the judgment of the court. No jurisdiction is conferred upon the court to do anything more than accept and adopt the award as its judgment, and this follows by operation of law and the ministerial act of the county judge. There is nothing which the court, as distinguished from the county judge in his administrative capacity, can hear and determine by the exercise of its judicial powers. It seems clear to us, therefore, that an order directing that the award be recorded and making the same the judgment of the court does not constitute a judgment in a civil case, and that there is no right of appeal therefrom. This conclusion is inescapable in view of the provisions of Arts. 3266 and 3268 and is also consistent with our holdings in Parker v. Ft. Worth & D.C. Ry. Co., 84 Texas 333, 19 S.W. 518, and Fortune v. Killebrew, supra. See also Temple v. Riverland Co., Texas Civ. App., 228 S.W. 605 (no writ) and 28 Texas Law Rev. 112.\nPetitioner recognizes that a condemnation decree entered strictly in accordance with the award is not appealable. He argues, however, that the judgment entered in this case materially alters the award, and that the county court assumed jurisdiction and the proceeding became a civil case when the judge held a hearing and on the basis of evidence introduced entered an order decreeing that the entire amount of the award be paid to petitioner. While cases may arise in which it appears that the county court has assumed jurisdiction and thereby converted the proceeding into a judicial action, the right of appeal cannot be made to turn upon whether there is a material variance between the award and judgment. Such a rule would be confusing and uncertain in application and at best could afford only limited relief in unusual cases.\nThe present suit will serve to illustrate the narrow scope of possible appellate review in cases of this character. It is well settled that the jurisdiction of the appellate court as to the merits of a case extends no further than that of the court from which the appeal is taken. See Perkins v. United States Fidelity & Guaranty Co., Texas Com. App., 299 S.W. 213. Petitioner has never complained of a variance between the award and judgment and does not seek to reform the judgment entered by the county judge. He urges a difference between the judgment and award solely as the basis for his argument that the Court of Civil Appeals has jurisdiction of his appeal. The only points presented there raise the same contentions that were urged in his motion argued before the county judge. They are: (1) that neither the commissioners nor the county court acquired jurisdiction of the proceedings because the same were filed by an attorney who is not authorized to institute and prosecute an action in the name of the state: (2) that the commissioners had no jurisdiction and their award is void because the Association was not notified of the hearing; and (3) that the county court had no jurisdiction and its judgment is void because the same was entered at a term subsequent to that during which the award was filed. His prayer is that the judgment of the county court be dismissed and the proceedings abated. The purpose of his appeal is thus to attack the validity of the award, set aside the entire proceedings, and compel the condemning authority to make a new start.\nUnder the plain provisions of Art. 3266, the County Court as a judicial tribunal had no authority to consider or sustain any of these contentions, and it would have been improper for the Court of Civil Appeals to do so even if petitioner were correct in his argument that the judgment is appealable. If his basic contention were sound, therefore, we could only direct the intermediate court to overrule his points and affirm the condemnation decree. A party appealing from a judgment entered in the absence of proper objections to the award would never be entitled to a review of any question except one relating to a variance between the award and judgment. If the appellate court found that the judgment did not conform to the award, it could only reverse and render the judgment that should have been entered by the county judge.\nCases in which one of the parties is prejudiced by the entry of a j udgment that differs from the award will arise only infrequently, and those in which such a variance is the only question in issue will be even more rare. If the proceedings are regular through the commissioners\u2019 decision, a party who is aggrieved by the county judge\u2019s refusal to proceed or by the entry of a judgment that does not conform to the award has his remedy by a mandamus proceeding to compel the entry of judgment in accordance with the award. Questions pertaining to irregularities which might render the award or judgment void can be determined in such a proceeding as well as in a direct action to set aside the judgment, but could never be properly considered in an appeal from the judgment. Since the parties thus have an adequate and readily available remedy, we are unwilling to make the distinction urged by petitioner because such a rule would serve almost no purpose except to create uncertainty as to the right of appeal in cases of this kind. We hold instead that when no timely objections to the award are filed, there is no right of appeal from the judgment subsequently entered in the proceedings even though the same does not conform to the award.\nThe judgment of the Court of Civil Appeals is affirmed.\nOpinion delivered July 9, 1958.",
+        "type": "majority",
+        "author": "Mr. Justice Walker"
+      },
+      {
+        "text": "Mr. Justice Norvell,\njoined by Justices Garwood and Griffin, dissenting.\nIn my opinion the order of the Court of Civil Appeals dismissing the appeal for want of jurisdiction was not the proper order to enter in this case.\nEven if we consider the \u201ccause\u201d in the county court which culminated in the rendition of a judgment upon the award of the commissioners as being a special statutory proceeding, yet nevertheless the Court of Civil Appeals would have jurisdiction to reverse the judgment if it were void because it did not conform to the award or for some other reason such as a failure to acquire jurisdiction of the subject matter and parties affected by the condemnation proceedings. Therefore the court should have considered the appeal to determine if such questions were efficiently raised by the appellant in that court. If they were not, then the proper order would have been one affirming the judgment of the county court rather than dismissing the appeal. I doubt if there is a matter other than voidness of judgment which could be effectively raised without filing objections to the award, but it is a rather common thing to encounter points in an appellate brief which cannot be sustained because the required record showing is not made. This circumstance does not however deprive the appellate court of jurisdiction of the cause.\nUnless one is willing to draw a rather fine distinction between a \u201cdecision of the county court\u201d and a \u201cjudgment of the [county] court,\u201d it would seem that the Court of Civil Appeals had jurisdiction of this appeal. Article 3266, Sec. 7, Vernon\u2019s Ann. Texas Civ. Stats., expressly provides for a judgment upon the decision of the commissioners and makes the same \u201cthe judgment of the court.\u201d We should simply say that as the decision of the commissioners becomes the judgment of the court, such judgment is appealable under the provisions of Article 3268 which authorizes appeals from \u201cthe decision of the county court\u201d in an eminent domain cause.\nIt may be that in so far as this particular case is concerned, it would make little difference to petitioner whether the judgment of the county court stands as a result of a dismissal of his appeal or a decision on the merits to the effect that the points which he urges are not efficiently raised, largely due to the circumstances that they are not supported by proper objections to the commissioners\u2019 decision or award.\nBe that as it may, the merits of the appeal are not before us. There is, however, an important point of appellate jurisdiction and practice to be decided which will necessarily control future cases of like nature. It is difficult for me to consider a judgment of a county court as a non-appealable judgment. Likewise, it seems undesirable to determine jurisdiction of courts upon the efficacy of the contentions raised in a brief when jurisdiction, as fixed by statute, seems to be based upon cases, causes and judgments.\nThe constitutional provision setting forth the jurisdiction of the Courts of Civil Appeals is as follows:\n\u201c* * * Said Courts of Civil Appeals shall have appellate jurisdiction co-extensive with the limits of their respective districts which shall extend to all civil cases of which the District Courts or County Courts have original or appellate jurisdiction under such restrictions and regulations as may be prescribed by law. * * * Said courts shall have such other jurisdiction, original and appellate as may be presented by law. * * *\u201d Article 5, Sec. 6, Texas Constitution.\nThe general statutory provision relating to such jurisdiction is as follows :\n\u201cThe appellate jurisdiction of the Court of Civil Appeals shall extend to all civil cases within the limits of their respective districts of which the District Courts and County Courts have or assume jurisdiction when the amount in controversy or the judgment rendered shall exceed One Hundred Dollars exclusive of interest and costs.\u201d Article 1819, Vernon\u2019s Ann. Texas Stats.\nThe particular statutory provision relating to appeals in eminent domain cases is as follows:\n\u201c* * * If the cause should be appealed from the decision of the county court, the appeal shall be governed by the law governing appeals in other cases; except the judgment of the county court shall not be suspended thereby.\u201d Article 3268.\nSections 6 and 7 of Article 3266 read as follows:\n6. \u201cIf either party be dissatisfied with the decision, such party may within ten days after the same has been filed with the county judge file his objection thereto in writing, setting forth the grounds of his objection, and thereupon the adverse party shall be cited and the cause shall be tried and determined as in other civil causes in the county court.\n7. \u201cIf no objections to the decision are filed within ten (10) days, the County Judge shall cause said decision to be recorded in the minutes of the County Court, and shall make the same the judgment of the court and issue the necessary process to enforce the same.\u201d\nIn Sinclair v. City of Dallas, 44 S.W. 2d 465, 466, wr. ref., Mr. Justice Alexander, afterwards Chief Justice of this Court, writing for the Waco Court of Civil Appeals, clearly indicated that an eminent domain proceeding, whether concluded under the procedure of Article 3266, Sec. 6, or that prescribed in Article 3266, Sec. 7, culminates in an action in the County Court, either as a judgment of the court based upon findings (by a judge or jury) or an award made by commissioners. Condemnation proceedings admittedly originate as administrative proceedings, \u201cand do not become an action in the county court in the true sense until such objections are filed (Art. 3266, Sec. 6) or until the time for filing same has expired and the judge is required to enter judgment on the award.\u201d (Art. 3266, Sec. 7). Sinclair v. City of Dallas, supra.\nSimilarly, the clear import of Fitzgerald v. City of Dallas, Texas Civ. App., 34 S.W. 2d 682, 683, wr. ref., is that there is no distinction between a judgment rendered under Art. 3266, Sec. 6, and one rendered under Art. 3266, Sec. 7. It was said:\n\u201cAll proceedings from the date of the qualification of said appointees [commissioners] up to and including the filing of their decision with the county judge were had exclusively before, and determined by, them. The authority of said commissioners ceased on the filing of their decision, and the authority of the county judge was to be exercised under subdivision 7 of Articl 3266, R.S. 1925, viz.: if no objections to the decision had been filed as authorized by subdivision 6 of article 3266 within ten days after the filing of said decision, to \u2018cause said decision to be recorded in the minutes * * * and * * * make the same the judgment of the [county] court,\u2019 thus a final judgment would have been rendered disposing of said condemnation proceedings.\u201d\nIn Milam v. Akers, Texas Civ. App., 181 S.W. 2d 719, 723, no writ history, the Court said:\n\u201c* * * The two sections, taken together, clearly provide for a judgment of the county court, upon trial, Sec. 6, or upon the award, Sec. 7. If neither party files objection within the time prescribed, then it becomes the mandatory duty of the county judge to render judgment thereon. If either party files objection within the stated time, the adverse party must be cited and the cause tried \u2018as in other civil causes in the county court.\u2019 This language clearly calls for an original or \u2018de novo\u2019 trial, and effectually does away with the award altogether.\u201d\nThe only opinion prior to those rendered in the present case which says that a judgment rendered under Article 3266, Sec. 7, is not appealable is that of the El Paso Court of Civil Appeals in City of El Paso v. Ward, 213 S.W. 2d. 726, 729, no writ history. In this case, however, Mr. Justice Sutton filed a dissenting opinion on the point which seems to express the preferable view. He said:\n\u201cIt seems to me equally clear we have the jurisdiction to entertain the proceeding. As said in the Big Spring case [Big Spring v. Garlington, Texas Civ. App., 88 S.W. 2d 1095] when Commissioners filed their report that is the end of their services. That is the end of the activities of the agency set up by the statute in condemnation proceedings. All acts after the filing of the report are judicial acts of the Court. There may be a maximum period of ten days of dormancy. If there be no objections filed within the ten day period then the Court acts, not the agency. The statute makes it the duty of the Judge to enter the decision of the Commissioners as the judgment of the Court and \u2018issue the necessary process to enforce the same.\u2019 \u201d\nThe contention that the action of the county judge in rendering judgment upon the commissioners\u2019 award is not an action in \u201ca civil case\u201d seems to be without force in determining the jurisdictional point involved. In setting forth the general appellate jurisdiction of the Court of Civil Appeals, the term, \u201ccivil cases,\u201d is used. This undoubtedly was intended to mean non-criminal cases as the Court of Criminal Appeals was created in the same year as the Courts of Civil Appeals and vested with appellate jurisdiction in all \u201ccriminal cases.\u201d However that may be, the Constitution also contains a provision that, \u201cSaid courts shall have such other jurisdiction original and appellate as may be prescribed by law.\u201d Under this provision and enabling legislation, the Courts of Civil Appeals exercise appellate jurisdiction over election contests which are legislative proceedings and not civil suits. Gonzales v. Laughlin, Texas Civ. App., 256 S.W. 2d 236. Similarly, here we have a special legislative provision relating to appeals in eminent domain causes.\nI do not regard the case of Fortune v. Killebrew, 86 Texas 172, 23 S.W. 976, as being decisive of this appeal. That case involved an arbitration award which \u201cwas entered and recorded as the judgment of the Court.\u201d This Court held that this proceeding was purely statutory and unknown to the common law and that the jurisdiction conferred upon the court should be considered as special rather than general and that accordingly an award not based upon a binding and legal agreement was void and subject to collateral attack. While this holding may be considered as doing some violence to the wording of the statutory provision that such \u201caward shall be entered and recorded as the judgment of the court, with like effect as other judgments of the court,\" it is not a holding that such judgment is not appeal-able; for after all, an appeal lies from a judgment which is wholly void, Jones v. Bass, Texas Com. App., 49 S.W. 2d 723, holdings approved by the Supreme Court, 3-A Texas Jur. 89, Appeal and Error, Sec. 69, 16 Texas Jur., 788, Eminent Domain, Sec. 452, and the appellate court is authorized to set aside the judgment of a trial court on the ground that such court had acted beyond the scope of its legitimate powers. In Leslie v. Griffin, Texas Com. App., 25 S.W. 2d 820, 822, it was said:\n\u201cThe trial court, in hearing the- complaint of the defendant in error, and in rendering judgment granting the relief it did, assumed powers which the court did not possess. The proceedings and the judgment rendered herein are void; and the Supreme Court has jurisdiction, on appeal, to declare them so, and to set them aside. Williams v. Steele, 101 Texas 382, 108 S.W. 155; Roy v. Whitaker (Texas Civ. App.) 50 S.W. 498; Gray v. Maddox, 5 Texas 528; 3 Texas Jur. p. 130.\u201d\nIt seems much simpler to regard judgments rendered under both Sections 6 and 7 of Article 3266 as appealable judgments without reference to classification of acts in rendering judgment as judicial, administrative, or ministerial. It has been held that the rendition of a judgment upon a jury\u2019s finding is a \u201cministerial act.\u201d Fredericksburg Hospital & Clinic v. Spring-all, Texas Civ. App., 220 S.W. 2d 692, no writ history, Springall v. Fredericksburg Hospital & Clinic, Texas Civ. App., 225 S.W. 2d 232, no writ history, and from this premise, should the judicial-ministerial distinction be recognized, it could be argued that there is h distinction between a judgment rendered upon the findings of a judge and one rendered upon a jury verdict under Article 3266, Sec. 6, in so far as appealability is concerned.\nI would reverse the order of dismissal entered by the Court of Civil Appeals and remand the cause to that court for a consideration of the appeal upon its merits. Accordingly I respectfully dissent from the order of affirmance.\nOpinion delivered July 9, 1958.\nRehearing overruled October 1, 1958.\n. \u2014 The distinction between the appellate jurisdictional statutes applying- to the Supreme Court and the Courts of Civil Appeals should be noted. Under Article 1728, the jurisdiction of the Supreme Ciurt extends to questions of law arising in certain species or types of cases which have been brought to the Courts of Civil Appeals from appealable judgments of trial courts. These species or types of cases are set forth in six numbered paragraphs. Obviously, one invoking the jurisdiction of the Supreme Court must show that his case comes within one or more of the classifications set forth in the statute, i.e., that the case involved the construction or validity of statutes necessary to a determination of. the case or that the Court of Civil Appeals has committed an error of substantive law which affects the jurgment in a case where the jurisdiction of the Court of Civil Appeals is not made final by statute. This jurisdictional statute is obviously of a different type from our eminent domain statutory provision relating to the jurisdiction of the Courts of Civil Appeals.\nBy way of example, in Burgess v. City and County of Dallas Levee Imp. District, Texas Civ. App., 155 S.W. 2d 402, wr. dism. w.o.m., the court held that the question of the extention to which property should be taken for public use was one resting within the discretion of the Legislature; yet the proposition asserting the contrary was simply overruled, although it perhaps could have been said that absent a showing that compensation had not been made, no judicial question was presented and the court was without authority or jurisdiction to decide the issue. This is a common occurrence in lawsuits. Issues are often determined by authorities other than judicial tribunals. These determinations the court must accept, but the fact that one or more of this type of issues occurs in a cause on trial in a court does not destroy the jurisdiction of the appellate court to review the cause.",
+        "type": "dissent",
+        "author": "Mr. Justice Norvell,"
+      }
+    ],
+    "attorneys": [
+      "Tisinger & Sloan, of Austin, for petitioner.",
+      "Will Wilson, Attorney General, James H. Rogers, Assistant Attorney General, for the State, and Robert L. Burns, of Houston, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "John B. Pearson, Jr. v. State of Texas.\nNo. A-6627.\nDecided July 9, 1958.\nRehearing Overruled October 1, 1958.\n(315 S.W. 2d Series 935)\nTisinger & Sloan, of Austin, for petitioner.\nWill Wilson, Attorney General, James H. Rogers, Assistant Attorney General, for the State, and Robert L. Burns, of Houston, for respondent."
+  },
+  "file_name": "0066-01",
+  "first_page_order": 80,
+  "last_page_order": 92
+}

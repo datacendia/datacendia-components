@@ -1,0 +1,864 @@
+{
+  "id": 3915496,
+  "name": "DONALD SULLIVAN et al., Plaintiffs and Appellants, v. ORACLE CORPORATION et al., Defendants and Respondents",
+  "name_abbreviation": "Sullivan v. Oracle Corp.",
+  "decision_date": "2011-06-30",
+  "docket_number": "No. S170577",
+  "first_page": "1191",
+  "last_page": "1209",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "51 Cal. 4th 1191"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal.",
+    "id": 9021,
+    "name": "Supreme Court of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "236 Cal.Rptr. 605",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "191 Cal.App.3d 605",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2210921
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/191/0605-01"
+      ]
+    },
+    {
+      "cite": "110 Cal.Rptr.2d 145",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1987,
+      "opinion_index": 0
+    },
+    {
+      "cite": "91 Cal.App.4th 224",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        226385
+      ],
+      "year": 1987,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/91/0224-01"
+      ]
+    },
+    {
+      "cite": "535 U.S. 137",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        355054
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/535/0137-01"
+      ]
+    },
+    {
+      "cite": "56 Cal.Rptr.3d 534",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "148 Cal.App.4th 1440",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6046490
+      ],
+      "pin_cites": [
+        {
+          "page": "1462"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/148/1440-01"
+      ]
+    },
+    {
+      "cite": "85 Cal.Rptr.2d 18",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "72 Cal.App.4th 214",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        872731
+      ],
+      "pin_cites": [
+        {
+          "page": "222-225"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/72/0214-01"
+      ]
+    },
+    {
+      "cite": "162 P. 93",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "174 Cal. 1",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        2098454
+      ],
+      "pin_cites": [
+        {
+          "page": "4"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal/174/0001-01"
+      ]
+    },
+    {
+      "cite": "968 P.2d 539",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "80 Cal.Rptr.2d 828",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "19 Cal.4th 1036",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1709352
+      ],
+      "pin_cites": [
+        {
+          "page": "1059"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/19/1036-01"
+      ]
+    },
+    {
+      "cite": "63 P.3d 937",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "131 Cal.Rptr.2d 29",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 Cal.4th 1134",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        777211
+      ],
+      "pin_cites": [
+        {
+          "page": "1143"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/29/1134-01"
+      ]
+    },
+    {
+      "cite": "29 U.S.C. \u00a7 255",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "999 P.2d 706",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "96 Cal.Rptr.2d 518",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "23 Cal.4th 163",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        277036
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "177"
+        },
+        {
+          "page": "177"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/23/0163-01"
+      ]
+    },
+    {
+      "cite": "491 U.S. 324",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6213752
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "336-337"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/491/0324-01"
+      ]
+    },
+    {
+      "cite": "472 U.S. 797",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1512277
+      ],
+      "weight": 6,
+      "pin_cites": [
+        {
+          "page": "822"
+        },
+        {
+          "page": "822"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/472/0797-01"
+      ]
+    },
+    {
+      "cite": "142 Ariz. 57",
+      "category": "reporters:state",
+      "reporter": "Ariz.",
+      "case_ids": [
+        743404
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "707"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ariz/142/0057-01"
+      ]
+    },
+    {
+      "cite": "Ariz. Rev. Stat. \u00a7 23-904",
+      "category": "laws:leg_statute",
+      "reporter": "Ariz. Rev. Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "143 P.3d 1187",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "case_ids": [
+        8463360
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "1189"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/p3d/143/1187-01"
+      ]
+    },
+    {
+      "cite": "Colo. Rev. Stat. \u00a7 8-41-204",
+      "category": "laws:leg_statute",
+      "reporter": "Colo. Rev. Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "450 U.S. 728",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6189685
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "739"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/450/0728-01"
+      ]
+    },
+    {
+      "cite": "7 Colo. Code Regs. \u00a7 1103-1",
+      "category": "laws:admin_compilation",
+      "reporter": "Colo. Code Regs.",
+      "weight": 2,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "(4)"
+        },
+        {
+          "page": "(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "432 P.2d 727",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "63 Cal.Rptr. 31",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "67 Cal.2d 551",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2328489
+      ],
+      "pin_cites": [
+        {
+          "page": "554-556"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/67/0551-01"
+      ]
+    },
+    {
+      "cite": "546 P.2d 719",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1967,
+      "opinion_index": 0
+    },
+    {
+      "cite": "128 Cal.Rptr. 215",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1967,
+      "opinion_index": 0
+    },
+    {
+      "cite": "16 Cal.3d 313",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2295072
+      ],
+      "weight": 3,
+      "year": 1967,
+      "pin_cites": [
+        {
+          "page": "320-321"
+        },
+        {
+          "page": "320"
+        },
+        {
+          "page": "320"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/16/0313-01"
+      ]
+    },
+    {
+      "cite": "583 P.2d 721",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1976,
+      "opinion_index": 0
+    },
+    {
+      "cite": "148 Cal.Rptr. 867",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1976,
+      "opinion_index": 0
+    },
+    {
+      "cite": "22 Cal.3d 157",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2282085
+      ],
+      "weight": 3,
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "163-170"
+        },
+        {
+          "page": "163, fn. 5"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/22/0157-01"
+      ]
+    },
+    {
+      "cite": "137 P.3d 914",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Cal.Rptr.3d 730",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "39 Cal.4th 95",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3583219
+      ],
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "100"
+        },
+        {
+          "page": "107-108"
+        },
+        {
+          "page": "107"
+        },
+        {
+          "page": "107-108"
+        },
+        {
+          "page": "108"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/39/0095-01"
+      ]
+    },
+    {
+      "cite": "225 P.3d 516",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2006,
+      "opinion_index": 0
+    },
+    {
+      "cite": "105 Cal.Rptr.3d 378",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2006,
+      "opinion_index": 0
+    },
+    {
+      "cite": "48 Cal.4th 68",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6050833
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "83, 87-88"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/48/0068-01"
+      ]
+    },
+    {
+      "cite": "397 U.S. 137",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12050581
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "142"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/397/0137-01"
+      ]
+    },
+    {
+      "cite": "240 P.3d 237",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "116 Cal.Rptr.3d 762",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "50 Cal.4th 1131",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6050623
+      ],
+      "pin_cites": [
+        {
+          "page": "1161"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/50/1131-01"
+      ]
+    },
+    {
+      "cite": "359 U.S. 520",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6167525
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/359/0520-01"
+      ]
+    },
+    {
+      "cite": "434 U.S. 429",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6184505
+      ],
+      "weight": 3,
+      "year": 1959,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/434/0429-01"
+      ]
+    },
+    {
+      "cite": "153 P.3d 846",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "159 Wn.2d 700",
+      "category": "reporters:state",
+      "reporter": "Wash. 2d",
+      "case_ids": [
+        3592816
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/wash-2d/159/0700-01"
+      ]
+    },
+    {
+      "cite": "927 P.2d 296",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "59 Cal.Rptr.2d 186",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "14 Cal.4th 557",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        341424
+      ],
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "564"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/14/0557-01"
+      ]
+    },
+    {
+      "cite": "165 P.3d 556",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "64 Cal.Rptr.3d 773",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 Cal.4th 443",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3673532
+      ],
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "456"
+        },
+        {
+          "page": "456"
+        },
+        {
+          "page": "456"
+        },
+        {
+          "page": "456"
+        },
+        {
+          "page": "456"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/42/0443-01"
+      ]
+    },
+    {
+      "cite": "424 U.S. 351",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12026492
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "356"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/424/0351-01"
+      ]
+    },
+    {
+      "cite": "547 F.3d 1177",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "pin_cites": [
+        {
+          "page": "1187"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 U.S.C. \u00a7 207",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)(2)(C)"
+        },
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "557 F.3d 979",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3381547
+      ],
+      "weight": 13,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "981-982"
+        },
+        {
+          "page": "983"
+        },
+        {
+          "page": "983"
+        },
+        {
+          "page": "983"
+        },
+        {
+          "page": "983"
+        },
+        {
+          "page": "983"
+        },
+        {
+          "page": "983"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/557/0979-01"
+      ]
+    },
+    {
+      "cite": "29 C.F.R. \u00a7 541.303",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "year": 2010,
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 U.S.C. \u00a7 201",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1603,
+    "char_count": 44757,
+    "ocr_confidence": 0.899,
+    "pagerank": {
+      "raw": 3.74540841543627e-07,
+      "percentile": 0.8949761163681743
+    },
+    "sha256": "3465b34d7ddb48736c2befaea4803d49bc4367ba910a69de21d9d027db75bb5a",
+    "simhash": "1:1faff3227a84563a",
+    "word_count": 6962
+  },
+  "last_updated": "2024-02-27T18:27:19.698038+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "DONALD SULLIVAN et al., Plaintiffs and Appellants, v. ORACLE CORPORATION et al., Defendants and Respondents."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nWERDEGAR, J.\nIn this proceeding we address, at the request of the United States Court of Appeals for the Ninth Circuit, questions about the applicability of California law to nonresident employees who work both here and in other states for a California-based employer. We conclude the Labor Code\u2019s overtime provisions (id., \u00a7\u00a7 510, 1194) do apply to plaintiffs\u2019 claims for compensation for work performed in this state, and that the same claims can serve as predicates for claims under California\u2019s unfair competition law (UCL) (Bus. & Prof. Code, \u00a7 17200 et seq.). We also conclude that plaintiffs\u2019 claims for overtime compensation under the federal Fair Labor Standards Act of 1938 (ELSA) (29 U.S.C. \u00a7 201 et seq.; see id., \u00a7 207(a)) for work performed in other states cannot serve as predicates for UCL claims.\nI. Background\nPlaintiffs Donald Sullivan, Deanna Evich and Richard Burkow formerly worked as \u201cInstructors\u201d for defendant Oracle Corporation, a large software company headquartered in California. As Instructors, plaintiffs\u2019 job was to train Oracle\u2019s customers in the use of the company\u2019s products. Plaintiffs Sullivan and Evich reside in Colorado, and plaintiff Burkow resides in Arizona. Required by Oracle to travel, plaintiffs worked mainly in their home states but also in California and several other states. During the time period relevant to this litigation (2001-2004), Sullivan worked 74 days in California, Evich worked 110 days, and Burkow worked 20 days.\nFor years, Oracle did not pay its Instmctors overtime. Oracle\u2019s practice in this regard followed the company\u2019s determination that its Instructors were exempt, as teachers, from California and federal overtime laws. (See generally Industrial Welfare Com., wage order No. 4-2001, \u00a7 1(A)(3)(a), codified as Cal. Code Regs., tit. 8, \u00a7 11040, subd. (l)(A)(3)(a); 29 C.F.R. \u00a7 541.303 (2010).) In 2003, Oracle\u2019s Instructors sued the company in a federal class action alleging misclassification and seeking unpaid overtime compensation. (Gabel & Sullivan v. Oracle Corp. (C.D.Cal. Mar. 29, 2005, No. CV-03-00348-AHS); see Sullivan III, supra, 557 F.3d 979, 981-982.) Shortly thereafter, Oracle reclassified its Instructors and began paying them overtime under the Labor Code (in 2003) and the FLSA (in 2004). In 2005, the federal action was settled and the claims of the plaintiff class dismissed with prejudice, except for the present claims concerning nonresident Instructors. (See Sullivan III, supra, 557 F.3d at p. 982.)\nThe present claims are three: First, plaintiffs claim overtime compensation under the Labor Code for days longer than eight hours, and weeks longer than 40 hours, worked entirely in California. (See Lab. Code, \u00a7\u00a7 510, subd. (a), 1194.) Second, plaintiffs restate the same claim as one for restitution under the UCL. (Bus. & Prof. Code, \u00a7 17203.) Plaintiffs contend, in other words, that Oracle\u2019s failure to pay overtime for work performed in California was an \u201cunlawful [or] unfair . . . business act or practice\u201d (id., \u00a7 17200) for purposes of the UCL. Third, and again under the UCL, plaintiffs claim restitution in the amount of overtime compensation due under the FLSA (29 U.S.C. \u00a7 207(a)) for weeks longer than 40 hours worked entirely in states other than California. Plaintiffs thus seek to use Oracle\u2019s alleged violation of the FLSA in other states as the predicate unlawful act for a UCL claim under California law.\nPlaintiffs pled the claims just described in a complaint filed in the United States District Court for the Central District of California. That court granted Oracle\u2019s motion for summary judgment based on stipulated facts. (Sullivan v. Oracle Corp. (C.D.Cal. Oct. 18, 2006, No. CV-05-00392-AHS).) On appeal, the Ninth Circuit affirmed in part and reversed in part. (Sullivan v. Oracle Corp. (9th Cir. 2008) 547 F.3d 1177, 1187.) Reversing on tire first and second claims, the court held the Labor Code and the UCL did apply to plaintiffs\u2019 claims for overtime days and weeks worked entirely in California. Affirming on the third claim, the court held the UCL did not apply to plaintiffs\u2019 claims under the FLSA for overtime worked in other states. Subsequently, however, the Ninth Circuit withdrew its opinion and asked us to decide the underlying questions of California law, on which it had found no directly controlling precedent. (Sullivan III, supra, 557 F.3d 979, 983.) The court noted the answers to its questions would have both \u201cconsiderable practical importance\u201d because \u201c[a] large but undetermined number of California-based employers employ out-of-state residents to perform work in California,\u201d and possibly also \u201can appreciable economic impact on the overall labor market in California, given the competitive cost advantage out-of-state employees may have over California-resident employees if overtime pay under California law is not required for work they perform in California.\u201d (Ibid.)\nWe granted the Ninth Circuit\u2019s request. Accordingly, the following certified questions are now before us: \u201cFirst, does the California Labor Code apply to overtime work performed in California for a California-based employer by out-of-state plaintiffs in the circumstances of this case, such that overtime pay is required for work in excess of eight hours per day or in excess of forty hours per week? [f] Second, does [Business and Professions Code section] 17200 apply to the overtime work described in question one? [][] Third, does [section] 17200 apply to overtime work performed outside California for a California-based employer by out-of-state plaintiffs in the circumstances of this case if the employer failed to comply with the overtime provisions of the FLSA?\u201d (Sullivan III, supra, 557 F.3d 979, 983.)\nWe note that, while plaintiffs\u2019 complaint contains class action allegations, the federal district court has not yet certified a class, and no question concerning class certification is before us. Also not before us is the question whether Oracle properly classified plaintiffs as exempt from the overtime laws during the relevant time period.\nII. Discussion\nA. Do the Labor Code\u2019s Overtime Provisions Apply to Work Performed in California by Nonresidents?\nThe question whether California\u2019s overtime law applies to work performed here by nonresidents entails two distinct inquiries: first, whether the relevant provisions of the Labor Code apply as a matter of statutory construction, and second, whether conflict-of-laws principles direct us to apply California law in the event another state also purports to regulate work performed here. These inquiries lead to the conclusion that California law does apply.\n1. Statutory Construction.\nCalifornia\u2019s overtime laws apply by their terms to all employment in the state, without reference to the employee\u2019s place of residence. The overtime statute declares simply that \u201c[a]ray work in excess of eight hours in one workday and ... 40 hours in any one workweek . . . shall be compensated at the rate of no less than one and one-half times the regular rate of pay . . , (Lab. Code, \u00a7 510, subd. (a), italics added.) The civil enforcement provision provides that \u201cany employee receiving less than . . . the legal overtime compensation applicable to the employee is entitled to recover in a civil action the unpaid balance . . . .\u201d (Id., \u00a7 1194, subd. (a), italics added.) Moreover, a preambular section of the wage law (Lab. Code, div. 2, pt. 4, ch. 1, \u00a7 1171 et seq.) confirms that our employment laws apply to \u201call individuals\u201d employed in this state (id., \u00a7 1171.5, subd. (a), italics added).\nThat the overtime laws speak broadly, without distinguishing between residents and nonresidents, does not create ambiguity or uncertainty. The Legislature knows how to create exceptions for nonresidents when that is its intent. The Legislature has, for example, exempted certain out-of-state employers who temporarily send employees into California from the obligation to comply with the workers\u2019 compensation law (Lab. Code, \u00a7 3200 et seq.), on the conditions of compliance with the home state\u2019s compensation laws and interstate reciprocity (see id., \u00a7 3600.5, subd. (b)). In contrast, the Legislature has not chosen to authorize an exemption from the overtime law on the basis of an employee\u2019s residence, even though it has authorized exemptions on a variety of other bases. (See id., \u00a7\u00a7 510, subd. (a)(l)-(3), 511, 514, 515.)\nThat California would choose to regulate all nonexempt overtime work within its borders without regard to the employee\u2019s residence is neither improper nor capricious. As a matter of federal constitutional law, \u201c[sjtates possess broad authority under their police powers to regulate the employment relationship to protect workers within the State. Child labor laws, minimum and other wage laws, laws affecting occupational health and safety, and workmen\u2019s compensation laws are only a few examples.\u201d (De Canas v. Bica (1976) 424 U.S. 351, 356 [47 L.Ed.2d 43, 96 S.Ct. 933].) Furthermore, the overtime laws serve important public policy goals, such as protecting the health and safety of workers and the general public, protecting employees in a relatively weak bargaining position from the evils associated with overwork, and expanding the job market by giving employers an economic incentive to spread employment throughout the workforce. (Gentry v. Superior Court (2007) 42 Cal.4th 443, 456 [64 Cal.Rptr.3d 773, 165 P.3d 556].) The Legislature has considered these purposes sufficiently important to make the right to overtime compensation unwaivable (Lab. Code, \u00a7 1194) and the failure to pay overtime a crime (id., \u00a7 1199; see Gentry, at p. 456). To exclude nonresidents from the overtime laws\u2019 protection would tend to defeat their purpose by encouraging employers to import unprotected workers from other states. Nothing in the language or history of the relevant statutes suggests the Legislature ever contemplated such a result. A contrary conclusion would be difficult, if not impossible, to reconcile with the Legislature\u2019s express declaration that \u201c[a]ll protections, rights, and remedies available under state law ... are available to all individuals . . . who are or who have been employed, in this state.\u201d (Lab. Code, \u00a7 1171.5, subd. (a).)\nOracle, arguing that California\u2019s overtime law does exclude nonresidents, relies not on the language or history of the relevant statutes but on a misreading of our decision in Tidewater Marine Western, Inc. v. Bradshaw (1996) 14 Cal.4th 557 [59 Cal.Rptr.2d 186, 927 P.2d 296] (Tidewater). Oracle reads Tidewater as holding that California overtime law follows California residents wherever they go throughout the United States; based on that premise, Oracle contends that other states\u2019 overtime laws must be allowed to follow their own residents into California to avoid an offense to interstate comity. The argument fails because the premise is incorrect: Tidewater says no such thing.\nAt issue in Tidewater, supra, 14 Cal.4th 557, was whether wage orders promulgated by the Industrial Welfare Commission (IWC) applied to California residents who worked for California employers on boats that transported workers and supplies from the California coast to oil-drilling platforms stationed offshore within California\u2019s state law boundaries, between the Santa Barbara coast and the Channel Islands. When the boats\u2019 crew members sued their employers for overtime, the employers sued for an injunction to prohibit the wage orders\u2019 enforcement. We held the wage orders did apply. Federal law, we explained, did not preclude California\u2019s assertion of jurisdiction, and \u201cCalifornia employment laws implicitly extend to employment occurring within California\u2019s state law boundaries, including all of the Santa Barbara Channel.\u201d (14 Cal.4th at p. 565; see Gov. Code, \u00a7 110 [\u201cThe sovereignty and jurisdiction of this State extends to all places within its boundaries as established by the Constitution.\u201d].)\nOur opinion in Tidewater, supra, 14 Cal.4th 557, includes language intended to caution against overly broad conclusions about the extraterritorial application of employment laws. Ironically, this is the language Oracle reads as holding that a state\u2019s employment laws follow its residents wherever they go. In fact, our remarks were more limited. We wrote: \u201cIn some circumstances, state employment law explicitly governs employment outside the state\u2019s territorial boundaries. (Lab. Code, \u00a7\u00a7 3600.5, 5305 [California workers\u2019 compensation law applies to workers hired in California but injured out of state].) The Legislature may have similarly intended extraterritorial enforcement of IWC wage orders in limited circumstances, such as when California residents working for a California employer travel temporarily outside the state during the course of the normal workday but return to California at the end of the day. On the other hand, the Legislature may not have intended IWC wage orders to govern out-of-state businesses employing nonresidents, though the nonresident employees enter California temporarily during the course of the workday. Thus, we are not prepared, without more thorough briefing of the issues, to hold that IWC wage orders apply to all employment in California, and never to employment outside California.\u201d (!Tidewater, at pp. 577-578.)\nWe thus foresaw in Tidewater, supra, 14 Cal.4th 557, as a possibility, only limited extraterritorial application of California\u2019s employment laws, precisely balanced by interstate comity: California law, we suggested, might follow California resident employees of California employers who leave the state \u201ctemporarily . . . during the course of the normal workday\u201d (id., at p. 578), and California law might not apply to nonresident employees of out-of-state businesses who \u201center California temporarily during the course of the workday\u201d (ibid., italics added). In contrast, plaintiffs here claim overtime only for entire days and weeks worked in California, in accordance with the statutory definition of overtime. (See Lab. Code, \u00a7 510.) Nothing in Tidewater suggests a nonresident employee, especially a nonresident employee of a California employer such as Oracle, can enter the state for entire days or weeks without the protection of California law.\nOracle attempts to bolster its argument with a Washington decision, Bostain v. Food Express, Inc. (2007) 159 Wn.2d 700 [153 P.3d 846], but the case offers Oracle no assistance. Bostain involved a claim for unpaid overtime brought by an interstate truckdriver hired in Washington and based at the Washington terminal facility of a California motor carrier. The court held the plaintiff was entitled to overtime compensation under Washington law for the time he spent driving outside that state. (Id., 153 P.3d at pp. 851-854.) The question before the court was not whether another state\u2019s overtime law applied, but whether the plaintiff would be paid overtime under Washington law, or not at all. Bostain says nothing about a case such as this, in which nonresident employees seek to apply the overtime law of the state in which they worked and in which the employer is based, and the employer seeks to avoid that law by applying the less favorable law of plaintiffs\u2019 home states. Such disputes are resolved under the applicable conflict-of-laws analysis, which we address below. (See post, at p. 1202 et seq.)\nSpeaking further to the issue of statutory construction, Oracle contends the Legislature would not likely have intended that California\u2019s wage law apply to visiting, nonresident employees if compliance imposed practical burdens on employers. Such burdens, Oracle suggests, might arise not just from the effort and expense of complying with the overtime law, but from complying as well with other provisions of California wage law governing such matters as the contents of pay stubs, meal periods, the compensability of travel time, the accrual and forfeiture of vacation time, and the timing of payment to employees who quit or are discharged. Because the laws on these subjects vary from state to state, Oracle argues, to require an employer to comply with the laws of every state in which its employees work might amount to an undue burden on interstate commerce and, thus, violate the commerce clause. (U.S. Const., art. I, \u00a7 8, cl. 3.) Oracle analogizes the situation to that of a trucking company required to comply with the conflicting laws of various states governing such matters as trailer length and mud flaps. (See generally, e.g., Raymond Motor Transportation, Inc. v. Rice (1978) 434 U.S. 429 [54 L.Ed.2d 664, 98 S.Ct. 787]; Bibb v. Navajo Freight Lines (1959) 359 U.S. 520 [3 L.Ed.2d 1003, 79 S.Ct. 962].) We should, Oracle contends, construe the overtime statutes to avoid any such constitutional problem. We find the argument unpersuasive for several reasons:\nFirst, the case before us presents no issue concerning the applicability of any provision of California wage law other than the provisions governing overtime compensation. While we conclude the applicable conflict-of-laws analysis does require us to apply California\u2019s overtime law to full days and weeks of work performed here by nonresidents (see post, at p. 1202 et seq.), one cannot necessarily assume the same result would obtain for any other aspect of wage law. California, as mentioned, has expressed a strong interest in governing overtime compensation for work performed in California. In contrast, California\u2019s interest in the content of an out-of-state business\u2019s pay stubs, or the treatment of its employees\u2019 vacation time, for example, may or may not be sufficient to justify choosing California law over the conflicting law of the employer\u2019s home state. No such question is before us.\nSecond, the asserted burdens on out-of-state businesses to which Oracle refers are entirely conjectural. The stipulated facts contain nothing supporting Oracle\u2019s assertions, and no out-of-state employer is a party to this litigation; Oracle itself is based in California.\nThird, the Ninth Circuit has not asked us to address, nor do we address, any question concerning the commerce clause. (U.S. Const., art. I, \u00a78, cl. 3.) This does not mean, of course, that in reaching our decision we would ignore any constitutional ramifications. Certainly we would not construe a statute in a manner that raised serious constitutional questions if the statute\u2019s language reasonably permitted any other construction. (See People v. Engram (2010) 50 Cal.4th 1131, 1161 [116 Cal.Rptr.3d 762, 240 P.3d 237].) Oracle, however, has raised no constitutional question of sufficient gravity to require us to undertake the exercise of determining whether California\u2019s overtime statutes might bear a restrictive, .nonliteral interpretation. Challenges to state statutes under the commerce clause are typically addressed under the test set out in Pike v. Bruce Church, Inc. (1970) 397 U.S. 137, 142 [25 L.Ed.2d 174, 90 S.Ct. 844]: \u201cWhere [a challenged] statute regulates even-handedly to effectuate a legitimate local public interest, and its effects on interstate commerce are only incidental, it will be upheld unless the burden imposed on such commerce is clearly excessive in relation to the putative local benefits.\u201d California\u2019s overtime law, applying to all work performed in the state, regulates evenhandedly to effectuate the legitimate local public interests we have previously identified, namely, protecting health and safety, expanding the job market, and guarding against the evils of overwork. (See Gentry v. Superior Court, supra, 42 Cal.4th 443, 456.) Oracle\u2019s argument that California\u2019s overtime laws might burden interstate commerce more than incidentally, by imposing onerous regulations on businesses that bring or send employees to work temporarily in California, is based in large part on the assumption that, if out-of-state employers must pay overtime under California law, they must also comply with every other technical aspect of California wage law. The assumption, as noted, is of doubtful validity. (See ante, at p. 1200.) In any event, to the extent other states have legitimate interests in applying their own wage laws to their own residents for work performed in California, the applicable conflict-of-laws analysis takes those interests into account. We turn to that analysis now.\n2. Conflict of Laws.\nPlaintiffs, as mentioned, contend California\u2019s overtime law governs their work in this state, while Oracle contends the laws of plaintiffs\u2019 home states (Colo, and Ariz.) govern. For over four decades, California courts have resolved such conflicts by applying governmental interest analysis. (See, e.g., McCann v. Foster Wheeler LLC (2010) 48 Cal.4th 68, 83, 87-88 [105 Cal.Rptr.3d 378, 225 P.3d 516]; Kearney v. Salomon Smith Barney, Inc. (2006) 39 Cal.4th 95, 100 [45 Cal.Rptr.3d 730, 137 P.3d 914] (Kearney)-, Offshore Rental Co. v. Continental Oil Co. (1978) 22 Cal.3d 157, 163-170 [148 Cal.Rptr. 867, 583 P.2d 721]; Bernhard, v. Harrah\u2019s Club (1976) 16 Cal.3d 313, 320-321 [128 Cal.Rptr. 215, 546 P.2d 719]; Reich v. Purcell (1967) 67 Cal.2d 551, 554-556 [63 Cal.Rptr. 31, 432 P.2d 727].) Section 196 of the Restatement Second of Conflict of Laws, which Oracle suggests might also be relevant, has nothing to do with this case. Section 196 identifies the state whose law governs the validity of an employment contract. The right to overtime under California law is unaffected by contract. (See Lab. Code, \u00a7 1194, subd. (a) [\u201cNotwithstanding any agreement to work for a lesser wage, any employee receiving less than ... the legal overtime compensation ... is entitled to recover ... the unpaid balance . . . .\u201d (italics added)]; see also Gentry v. Superior Court, supra, 42 Cal.4th 443, 456 [statutory right to overtime compensation is unwaivable].)\nWe typically summarize governmental interest analysis as involving three steps: \u201cFirst, the court determines whether the relevant law of each of the potentially affected jurisdictions with regard to the particular issue in question is the same or different. Second, if there is a difference, the court examines each jurisdiction\u2019s interest in the application of its own law under the circumstances of the particular case to determine whether a true conflict exists. Third, if the court finds that there is a true conflict, it carefully evaluates and compares the nature and strength of the interest of each jurisdiction in the application of its own law \u2018to determine which state\u2019s interest would be more impaired if its policy were subordinated to the policy of the other state\u2019 [citation], and then ultimately applies \u2018the law of the state whose interest would be the more impaired if its law were not applied.\u2019 \u201d (.Kearney, supra, 39 Cal.4th 95, 107-108, quoting Bernhard, v. Harrah\u2019s Club, supra, 16 Cal.3d 313, 320.)\na. Do the relevant laws differ?\nWe determine, first, \u201cwhether the relevant law of each of the potentially affected jurisdictions with regard to the particular issue in question is the same or different.\u201d (.Kearney, supra, 39 Cal.4th 95, 107.) California's overtime law clearly differs from that of Colorado and Arizona, plaintiffs\u2019 home states. California law requires overtime compensation at the rate of one and one-half times the regular rate of pay for work in excess of eight hours in one workday, 40 hours in one workweek, and the first eight hours on the seventh workday in one week. Overtime compensation increases to twice the regular rate for work in excess of eight hours on the seventh workday. (Lab. Code, \u00a7 510, subd. (a).) In contrast, Colorado requires pay at one and one-half times the regular rate for work in excess of 40 hours in one workweek, 12 hours in one workday, and 12 consecutive hours without regard to when the workday starts and ends. (7 Colo. Code Regs. \u00a7 1103-1(4) (2011).) Arizona has no overtime law, so the federal FLSA applies by default, requiring overtime compensation at one and one-half times the regular rate for hours worked in excess of 40 hours in one workweek. (29 U.S.C. \u00a7 207(a)(2)(C).) Unlike California law, neither Colorado law nor the FLSA requires double pay for any work.\nb. Does a true conflict exist?\nBecause the relevant laws differ, we next \u201cexamine[] each jurisdiction\u2019s interest in the application of its own law under the circumstances of the particular case to determine whether a true conflict exists.\u201d (Kearney, supra, 39 Cal.4th 95, 107-108.) In conducting this inquiry, \u201cwe may make our own determination of [the relevant] policies and interests, without taking \u2018evidence\u2019 as such on the matter.\u201d (Offshore Rental Company, Inc. v. Continental Oil Co., supra, 22 Cal.3d 157, 163, fn. 5.)\nWhether a true conflict exists under the circumstances of this case is doubtful, at best. California has, and has unambiguously asserted, a strong interest in applying its overtime law to all nonexempt workers, and all work performed, within its borders. (See Lab. Code, \u00a7 1171.5, subd. (a) [\u201cAll protections, rights, and remedies available under state law ... are available to all individuals . . . employed, in this state.\u201d]; see also id., \u00a7\u00a7 510, subd. (a) [\u201c[a]ny work\u201d], 1194, subd. (a) [\u201cany employee\u201d], 1199 [criminal sanctions]; see also discussion ante, at p. 1197 et seq.) California\u2019s interests, as this court has identified them, are in protecting health and safety, expanding the labor market, and preventing the evils associated with overwork. (Gentry v. Superior Court, supra, 42 Cal.4th 443, 456.) Similar interests underlie the FLSA\u2019s overtime provisions (Barrentine v. Arkansas-Best Freight System (1981) 450 U.S. 728, 739 [67 L.Ed.2d 641, 101 S.Ct. 1437]) and, we may assume, Colorado law as well. Neither Arizona nor Colorado, however, has asserted an interest in regulating overtime work performed in other states. Arizona, as mentioned, has no overtime law at all, and Colorado\u2019s overtime law purports to govern only \u201cwork performed within the boundaries of the state of Colorado . . .\u201d (7 Colo. Code Regs. \u00a7 1103-1(1) (2011)). These circumstances reveal no genuine basis for concluding a true conflict exists.\nArguing against this conclusion, Oracle points out that Colorado\u2019s and Arizona\u2019s workers\u2019 compensation statutes, like California\u2019s, expressly have extraterritorial effect for certain resident employees who suffer industrial injuries outside their home states. (See Colo. Rev. Stat. \u00a7 8-41-204 [discussed in Hathaway Lighting v. Industrial Claim Appeals Office (Colo.Ct.App. 2006) 143 P.3d 1187, 1189]; Ariz. Rev. Stat. \u00a7 23-904.A [discussed in DiMuro v. Industrial Com. of Arizona (Ct.App. 1984) 142 Ariz. 57 [688 P.2d 703, 707]]; cf. Lab. Code, \u00a7 3600.5, subd. (a).) Broadly extrapolating from these statutes, Oracle argues that Colorado and Arizona have an interest in extending the protection of their employment laws to their residents who work in other states. Certainly a state has such an interest, at least in the abstract, when the traveling, resident employee of a domestic employer would otherwise be left without the protection of another state\u2019s law. (Cf. Tidewater, supra, 14 CalAth 557 [Cal. overtime law protects residents working offshore within Cal.\u2019s state law boundaries]; Bostain v. Food Express, Inc., supra, 153 P.3d 846 [Wn. overtime law protects resident interstate truckdriver; no other state\u2019s law claimed to apply].) But the statutes on which Oracle relies speak narrowly to the subject of workers\u2019 compensation. Accordingly, those statutes for present purposes show only that Colorado and Arizona know how to assert an interest in applying their laws extraterritorially, and thus highlight the same states\u2019 failure to assert any extraterritorial interests with respect to overtime compensation. In any event, Colorado and Arizona have expressed no interest in disabling their residents from receiving the full protection of California overtime law when working here, or in requiring their residents to work side-by-side with California residents in California for lower pay. (Cf. Phillips Petroleum Co. v. Shutts (1985) 472 U.S. 797, 822 [86 L.Ed.2d 628, 105 S.Ct. 2965] [as a matter of due process, a state \u201c \u2018may not abrogate the rights of parties beyond its borders having no relation to anything done or to be done within them\u2019 \u201d].)\nOracle next posits that Colorado and Arizona have an interest in providing hospitable regulatory environments for their own businesses and, based on that premise, argues those states also have an interest in shielding their own businesses from more costly and burdensome regulatory environments in other states. We do not doubt the premise that a state can properly choose to create a business-friendly environment within its own boundaries. \u201c[T]he federal system contemplates that individual states may adopt distinct policies to protect their own residents and generally may apply those policies to businesses that choose to conduct business within that state.\u201d (Kearney, supra, 39 CalAth 95, 105.) However, every state enjoys the same power in this respect. Therefore, \u201c[i]t follows from this basic characteristic of our federal system that, at least as a general matter, a company that conducts business in numerous states ordinarily is required to make itself aware of and comply with the law of a state in which it chooses to do business.\u201d (Ibid.) The federal Constitution does not require a state \u201c \u2018to substitute for its own [laws], applicable to persons and events within it, the conflicting statute of another state\u2019 \u201d (Phillips Petroleum v. Shutts, supra, 472 U.S. 797, 822 [discussing the full faith and credit and due process clauses (U.S. Const., art. IV, \u00a7 1 & 14th Amend.)]) or permit one state to project its regulatory regime into the jurisdiction of another state (Healy v. The Beer Institute (1989) 491 U.S. 324, 336-337 [105 L.Ed.2d 275, 109 S.Ct. 2491] [discussing the commerce clause (U.S. Const., art. I, \u00a7 8, cl. 3)]). Consequently, neither Colorado nor Arizona has a legitimate interest in shielding Oracle from the requirements of California wage law as to work performed here.\nc. Which state\u2019s interest would be more impaired?\nThe final step in governmental interest analysis requires us \u201c \u2018to determine which state\u2019s interest would be more impaired if its policy were subordinated to the policy of the other state\u2019 \u201d and to apply \u201c \u2018the law of the state whose interest would be the more impaired if its law were not applied.\u2019 \u201d (Kearney, supra, 39 Cal.4th 95, 108, quoting Bernard v. Harrah\u2019s Club, supra, 16 Cal.3d 313, 320.) Assuming for the sake of argument a genuine conflict does exist (see ante, at pp. 1203-1204), to subordinate California\u2019s interests to those of Colorado and Arizona unquestionably would bring about the greater impairment. To permit nonresidents to work in California without the protection of our overtime law would completely sacrifice, as to those employees, the state\u2019s important public policy goals of protecting health and safety and preventing the evils associated with overwork. (Gentry v. Superior Court, supra, 42 Cal.4th 443, 456.) Not to apply California law would also encourage employers to substitute lower paid temporary employees from other states for California employees, thus threatening California\u2019s legitimate interest in expanding the job market. (Ibid.) By way of comparison, not to apply the overtime laws of Colorado and Arizona would impact those states\u2019 interests negligibly, or not at all. Colorado overtime law expressly does not apply outside the state\u2019s boundaries, and Arizona has no overtime law. (See ante, at p. 1203.) Alternatively, viewing Colorado\u2019s and Arizona\u2019s overtime regimens as expressions of a general interest in providing hospitable regulatory environments to businesses within their own boundaries, that interest .is not perceptibly impaired by requiring a California employer to comply with California overtime law for work performed here.\nFor these reasons, we answer the first of the certified questions as follows: The California Labor Code does apply to overtime work performed in California for a California-based employer by out-of-state plaintiffs in the circumstances of this case, such that overtime pay is required for work in excess of eight hours per day or in excess of 40 hours per week. (See Sullivan III, supra, 557 F.3d 979, 983.)\nB. Does the UCL Apply to Violations of the Labor Code in California?\nWith the second certified question, the Ninth Circuit asks us in effect to decide whether Oracle\u2019s alleged violations of the overtime provisions of California law (Lab. Code, \u00a7\u00a7510, 1194) constitute unlawful acts potentially triggering liability under the UCL (Bus. & Prof. Code, \u00a7 17200 et seq.). We have already decided that the failure to pay legally required overtime compensation falls within the UCL\u2019s definition of an \u201cunlawful . . . business act or practice\u201d (Bus. & Prof. Code, \u00a7 17200; see Cortez v. Purolator Air Filtration Products Co. (2000) 23 Cal.4th 163, 177 [96 Cal.Rptr.2d 518, 999 P.2d 706] [UCL authorizes, as restitution, order for payment of unlawfully withheld wages]), and the parties offer no argument on the point.\nAccordingly, we answer the second certified question as follows: Business and Professions Code section 17200 does apply to the overtime work described in question one. (See Sullivan III, supra, 557 F.3d 979, 983.)\nC. Does the UCL Apply to Claims Under the FLSA for Overtime Work Performed by Nonresidents in Other States?\nOur discussion thus far has exclusively concerned Oracle\u2019s alleged failure to compensate plaintiffs according to California law for overtime worked in this state. We turn now to the third certified question, which concerns plaintiffs\u2019 claim that Oracle has also failed to compensate them according to the FLSA (29 U.S.C. \u00a7 207(a)) for overtime worked in other states. This claim, despite its reference to the FLSA, arises under California and not federal law. In the prior class action (see ante, at p. 1194), plaintiffs settled their timely claims under the FLSA, which were subject to a limitation period of two or three years, depending on the circumstances. (29 U.S.C. \u00a7 255(a).) Now, in this action, plaintiffs attempt to restate time-barred FLSA claims, which were excluded from the prior settlement, as UCL claims based on the predicate \u201cunlawful . . . act\u201d (Bus. & Prof. Code, \u00a7 17200) of violating the FLSA. (See Korea Supply Co. v. Lockheed Martin Corp. (2003) 29 Cal.4th 1134, 1143 [131 Cal.Rptr.2d 29, 63 P.3d 937] [UCL borrows violations from other laws, making them independently actionable as unfair practices].) The question before us is whether the UCL reaches plaintiffs\u2019 FLSA claims under the circumstances of this case. We conclude it does not.\nPlaintiffs\u2019 claim implicates the so-called presumption against extraterritorial application. (See generally Diamond Multimedia Systems, Inc. v. Superior Court (1999) 19 Cal.4th 1036, 1059 [80 Cal.Rptr.2d 828, 968 P.2d 539].) However far the Legislature\u2019s power may theoretically extend, we presume the Legislature did not intend a statute to be \u201c \u2018operative, with respect to occurrences outside the state, . . . unless such intention is clearly expressed or reasonably to be inferred \u201cfrom the language of the act or from its purpose, subject matter or history.\u201d \u2019 \u201d (Ibid., quoting North Alaska Salmon Co. v. Pillsbury (1916) 174 Cal. 1, 4 [162 P. 93].) Neither the language of the UCL nor its legislative history provides any basis for concluding the Legislature intended the UCL to operate extratenitorially. Accordingly, the presumption against extraterritoriality applies to the UCL in full force. (See, e.g., Norwest Mortgage, Inc. v. Superior Court (1999) 72 Cal.App.4th 214, 222-225 [85 Cal.Rptr.2d 18].) We thus proceed to consider whether plaintiffs\u2019 proposed application of the UCL would cause it to operate, impermissibly, with respect to occurrences outside the state.\nThe Ninth Circuit has asked us to decide whether the UCL applies to plaintiffs\u2019 FLSA claims \u201cin the circumstances of this case\u201d (Sullivan III, supra, 557 F.3d 979, 983), which we understand to mean in accordance with the same stipulated facts on which the federal courts have based their decisions. Those stipulated facts identify only a single instance of relevant conduct occurring in California: \u201cThe decision-mating process to classify Instructors as exempt from the requirement to be paid overtime wages under the FLSA occurred primarily from within the headquarters offices of Oracle Corporation located in Redwood Shores, California.\u201d Certainly the UCL reaches any unlawful business act or practice committed in California. (See Bus. & Prof. Code, \u00a7 17200 [\u201cAs used in this chapter, unfair competition shall mean and include any unlawful, unfair or fraudulent business act or practice . . . .\u201d].) But for an employer to adopt an erroneous classification policy is not unlawful in the abstract. (Cf. Walsh v. IKON Office Solutions, Inc. (2007) 148 Cal.App.4th 1440, 1462 [56 Cal.Rptr.3d 534] [addressing Cal. wage law].) What is unlawful, and what creates liability under the FLSA, is the failure to pay overtime when due. (See 29 U.S.C. \u00a7 207(a)(1) [\u201cno employer shall employ any of his employees ... for a workweek longer than forty hours unless such employee receives [overtime] compensation\u201d].) Accordingly, that Oracle\u2019s decision to classify its Instructors as exempt was made in California does not, standing alone, justify applying the UCL to the nonresident plaintiffs\u2019 FLSA claims for overtime worked in other states. Nor does any other basis for applying the UCL to those claims appear in the stipulated facts.\nIn contrast to the abstract classification decision, the failure to pay legally required overtime compensation certainly is an unlawful business act or practice for purposes of the UCL. (Bus. & Prof. Code, \u00a7 17200; see Cortez v. Purolator Air Filtration Products Co., supra, 23 Cal.4th 163, 177 [UCL authorizes, as restitution, order for payment of unlawfully withheld wages].) Thus, the UCL might conceivably apply to plaintiffs\u2019 claims if their wages were paid (or underpaid) in California, but the stipulated facts do not speak to the location of payment. The parties invite us to speculate about the place of payment as a basis for holding the UCL does, or does not, apply. We decline to do so. Whether the parties are entitled to rely on facts or assertions beyond the stipulated facts to support or defeat the motion for summary judgment is a question of federal procedure for the federal courts. Given the limitations of the certified question procedure, which does not confer on us plenary jurisdiction over cases pending in the courts of other sovereign entities, our answer must be confined to the circumstances of this case as established by the stipulated facts.\nAccordingly, we answer the third certified question as follows: Business and Professions Code section 17200 does not apply to overtime work performed outside California for a California-based employer by out-of-state plaintiffs in the circumstances of this case based solely on the employer\u2019s failure to comply with the overtime provisions of the FLSA.\nCantil-Sakauye, C. J., Kennard, J., Baxter, J., Chin, J., Corrigan, J., and Boren, J., concurred.\n(See Sullivan v. Oracle Corp. (9th Cir. 2009) 557 F.3d 979, 983 (Sullivan III); Cal. Rules of Court, rule 8.548 [decision on request of a court of another jurisdiction].)\nIncluding Alabama, Colorado, Florida, Georgia, Illinois, Indiana, Kansas, Maryland, Massachusetts, Minnesota, New Mexico, New York, Ohio, Oklahoma, Oregon, Texas, Utah, Virginia and Washington.\n\u201cThe Legislature finds and declares the following: [f] (a) All protections, rights, and remedies available under state law, except any reinstatement remedy prohibited by federal law, are available to all individuals regardless of immigration status who have applied for employment, or who are or who have been employed, in this state.\u201d (Lab. Code, \u00a7 1171.5, subd. (a), added by Stats. 2002, ch. 1071, \u00a7 4, p. 6915.)\nThe immediate impetus for Labor Code section 1171.5\u2019s enactment was the Legislature\u2019s desire to protect undocumented workers from sharp practices in the wake of Hoffman Plastic Compounds, Inc. v. NLRB (2002) 535 U.S. 137 [152 L.Ed.2d 271, 122 S.Ct. 1275], in which the high court held the National Labor Relations Board could not award backpay to a foreign national not legally entitled to work in the United States. (See, e.g., Sen. Rules Com., Off. of Sen. Floor Analyses, 3d reading analysis of Sen. Bill No. 1818 (2001-2002 Reg. Sess.) as amended Aug. 22, 2002, pp. 2-6; Assem. Com. on Labor & Employment, Analysis of Sen. Bill No. 1818 (2001-2002 Reg. Sess.) June 22, 2002, pp. 2-3.) Section 1171.5, however, cannot reasonably be read as speaking only to undocumented workers, given that it was drafted and codified as a general preamble to the wage law and broadly refers to \u201call individuals\u201d employed in the state. (Id., subd. (a).) More importantly, no reason exists to believe the Legislature intended to afford stronger protection under the employment laws to persons working illegally than to legal nonresident workers.\nThe question arose because state and federal law defined California\u2019s boundaries in the Santa Barbara Channel differently. (See Tidewater, supra, 14 Cal.4th 557, 564.)\n\u201cAny work in excess of eight hours in one workday and any work in excess of 40 hours in any one workweek and the first eight hours worked on the seventh day of work in any one workweek shall be compensated at the rate of no less than one and one-half times the regular rate of pay for an employee.\u201d (Lab. Code, \u00a7 510, subd. (a).)\nDifferences also exist in the way California law, Colorado law and the FLSA determine whether an employee is exempt from the requirement of overtime compensation. These additional differences do not, however, affect our analysis or conclusion.\nPlaintiffs do not specifically identify the states in which they performed the overtime work relevant to this claim. As noted, plaintiffs worked in several states other than California and their home states. (See ante, at p. 1195 & fn. 2.)\nPlaintiffs candidly explained at oral argument in the Ninth Circuit that their reason for suing under the UCL is to obtain recovery for a year the FLSA no longer reaches by invoking the UCL\u2019s four-year statute of limitations. (Bus. & Prof. Code, \u00a7 17208.)\nPlaintiffs\u2019 claim also potentially implicates the due process clause of the United States Constitution (14th Amend.), which places additional limitations on the extraterritorial application of state law. (See, e.g., Phillips Petroleum Co. v. Shutts, supra, All U.S. 797, 818.) We need not address any such constitutional issue, however, given our conclusion that the UCL does not apply.\nThe decisions on which plaintiffs rely in arguing to the contrary, Wershba v. Apple Computer, Inc. (2001) 91 Cal.App.4th 224 [110 Cal.Rptr.2d 145], and Clothesrigger, Inc. v. GTE Corp. (1987) 191 Cal.App.3d 605 [236 Cal.Rptr. 605], are inapposite. In each case, the unlawful conduct that formed the basis of the out-of-state plaintiffs\u2019 claims (i.e., fraudulent misrepresentations made to induce consumer transactions), and that justified the application of California law to resolve those claims, occurred in California. (See Wershba v. Apple Computer, Inc., supra, at pp. 241-242; Clothesrigger, Inc. v. GTE Corp., supra, at p. 613.)\nPresiding Justice of the Court of Appeal, Second Appellate District, Division Two, assigned by the Chief Justice pursuant to article VI, section 6 of the California Constitution.",
+        "type": "majority",
+        "author": "WERDEGAR, J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Callahan, Thompson, Sherman & Caudill, Robert W. Thompson and Charles S. Russell for Plaintiffs and Appellants.",
+      "Law Offices of Jeffrey K. Winikow and Jeffrey K. Winikow for California Employment Lawyers Association as Amicus Curiae on behalf of Plaintiffs and Appellants.",
+      "Paul, Hastings, Janofsky & Walker, Paul W. Cane, Jr., and Stephen L. Berry for Defendants and Respondents.",
+      "Steinbrecher & Span, Robert S. Span and Alan K. Steinbrecher for Air Transport Association of America, Inc., California Hotel & Lodging Association and California Restaurant Association as Amici Curiae on behalf of Defendants and Respondents.",
+      "Mitchell Silberberg & Knupp, Lawrence A. Michaels and Adam Levin for Employers Group as Amicus Curiae on behalf of Defendants and Respondents.",
+      "Gibson Dunn & Crutcher, Pamela L. Hemminger, Gail E. Lees, Elisabeth C. Watson and Christopher Chorba for California Employment Law Council as Amicus Curiae on behalf of Defendants and Respondents."
+    ],
+    "corrections": "",
+    "head_matter": "[No. S170577.\nJune 30, 2011.]\nDONALD SULLIVAN et al., Plaintiffs and Appellants, v. ORACLE CORPORATION et al., Defendants and Respondents.\nCounsel\nCallahan, Thompson, Sherman & Caudill, Robert W. Thompson and Charles S. Russell for Plaintiffs and Appellants.\nLaw Offices of Jeffrey K. Winikow and Jeffrey K. Winikow for California Employment Lawyers Association as Amicus Curiae on behalf of Plaintiffs and Appellants.\nPaul, Hastings, Janofsky & Walker, Paul W. Cane, Jr., and Stephen L. Berry for Defendants and Respondents.\nSteinbrecher & Span, Robert S. Span and Alan K. Steinbrecher for Air Transport Association of America, Inc., California Hotel & Lodging Association and California Restaurant Association as Amici Curiae on behalf of Defendants and Respondents.\nMitchell Silberberg & Knupp, Lawrence A. Michaels and Adam Levin for Employers Group as Amicus Curiae on behalf of Defendants and Respondents.\nGibson Dunn & Crutcher, Pamela L. Hemminger, Gail E. Lees, Elisabeth C. Watson and Christopher Chorba for California Employment Law Council as Amicus Curiae on behalf of Defendants and Respondents."
+  },
+  "file_name": "1191-01",
+  "first_page_order": 1229,
+  "last_page_order": 1247
+}

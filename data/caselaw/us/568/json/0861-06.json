@@ -1,0 +1,59 @@
+{
+  "id": 12414069,
+  "name": "Cornelius v. California",
+  "name_abbreviation": "Cornelius v. California",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10767",
+  "first_page": "861",
+  "last_page": "861",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 861"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 88,
+    "ocr_confidence": 0.664,
+    "sha256": "55881cd2d58b786cadcd6f3c53f7aec1edf55a280cd2b8e028a03c9b86cbdeb9",
+    "simhash": "1:e480968131934a42",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cornelius v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 1st App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10767.\nCornelius v. California."
+  },
+  "file_name": "0861-06",
+  "first_page_order": 937,
+  "last_page_order": 937
+}

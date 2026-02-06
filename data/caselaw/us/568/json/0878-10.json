@@ -1,0 +1,76 @@
+{
+  "id": 12414766,
+  "name": "Jean-Guerrier v. United States",
+  "name_abbreviation": "Jean-Guerrier v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-11088",
+  "first_page": "878",
+  "last_page": "878",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 878"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "666 F. 3d 1087",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6050308
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/666/1087-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 18,
+    "char_count": 112,
+    "ocr_confidence": 0.717,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2560508353961949
+    },
+    "sha256": "28ba3bec703437b2a57f700e8f8b147843cd91c78fb51c5363c0317c5e7fb2db",
+    "simhash": "1:259be2b122350750",
+    "word_count": 18
+  },
+  "last_updated": "2024-02-27T23:44:49.194693+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jean-Guerrier v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.\nReported below: 666 F. 3d 1087.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-11088.\nJean-Guerrier v. United States."
+  },
+  "file_name": "0878-10",
+  "first_page_order": 954,
+  "last_page_order": 954
+}

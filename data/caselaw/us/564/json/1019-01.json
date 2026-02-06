@@ -1,0 +1,59 @@
+{
+  "id": 5919843,
+  "name": "Banjo v. Cullen, Acting Warden",
+  "name_abbreviation": "Banjo v. Cullen",
+  "decision_date": "2011-06-20",
+  "docket_number": "No. 10-803",
+  "first_page": "1019",
+  "last_page": "1019",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1019"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 77,
+    "ocr_confidence": 0.622,
+    "sha256": "3d395b09e6b81786902ad295d4d0ed0bb8921b1580e450642086fa02a05a0889",
+    "simhash": "1:10d1a2c16b8dc478",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Banjo v. Cullen, Acting Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-803.\nBanjo v. Cullen, Acting Warden."
+  },
+  "file_name": "1019-01",
+  "first_page_order": 1013,
+  "last_page_order": 1013
+}

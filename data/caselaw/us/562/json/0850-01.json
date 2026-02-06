@@ -1,0 +1,59 @@
+{
+  "id": 6027655,
+  "name": "Smith v. South Carolina Department of Highway Patrol et al.",
+  "name_abbreviation": "Smith v. South Carolina Department of Highway Patrol",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-10702",
+  "first_page": "850",
+  "last_page": "850",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 850"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 18,
+    "char_count": 108,
+    "ocr_confidence": 0.618,
+    "sha256": "f2a4f60188adae7ffca830e4832567d1db76aa24c0d41723a814abce372f429d",
+    "simhash": "1:b4c928e8fd0ef1bc",
+    "word_count": 18
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Smith v. South Carolina Department of Highway Patrol et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10702.\nSmith v. South Carolina Department of Highway Patrol et al."
+  },
+  "file_name": "0850-01",
+  "first_page_order": 872,
+  "last_page_order": 872
+}

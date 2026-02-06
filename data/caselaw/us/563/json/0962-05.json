@@ -1,0 +1,59 @@
+{
+  "id": 5956278,
+  "name": "Sparks v. Texas",
+  "name_abbreviation": "Sparks v. Texas",
+  "decision_date": "2011-04-25",
+  "docket_number": "No. 10-8538",
+  "first_page": "962",
+  "last_page": "962",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 962"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 69,
+    "ocr_confidence": 0.598,
+    "sha256": "f6f3bb864ed1df578f1c83b953b9b57bdaa8b2be7ea18d45f331c6f42b59277d",
+    "simhash": "1:2964d8d6469d6470",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sparks v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Tex. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8538.\nSparks v. Texas."
+  },
+  "file_name": "0962-05",
+  "first_page_order": 988,
+  "last_page_order": 988
+}

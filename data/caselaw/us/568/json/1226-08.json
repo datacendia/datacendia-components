@@ -1,0 +1,61 @@
+{
+  "id": 12432986,
+  "name": "Craig v. United States",
+  "name_abbreviation": "Craig v. United States",
+  "decision_date": "2013-03-18",
+  "docket_number": "No. 12M100",
+  "first_page": "1226",
+  "last_page": "1227",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1226"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 29,
+    "char_count": 199,
+    "ocr_confidence": 0.559,
+    "sha256": "3aac5c54181a1d050ea7d6416583f8b701be3afc20db06a574e7803752184335",
+    "simhash": "1:5b879216c5c8b3aa",
+    "word_count": 35
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this motion."
+    ],
+    "parties": [
+      "Craig v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "Motion to direct the Clerk to file petition for writ of certiorari out of time denied.\nJustice Kagan took no part in the consideration or decision of this motion.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12M100.\nCraig v. United States."
+  },
+  "file_name": "1226-08",
+  "first_page_order": 1302,
+  "last_page_order": 1303
+}

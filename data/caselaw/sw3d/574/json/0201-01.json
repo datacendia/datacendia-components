@@ -1,0 +1,657 @@
+{
+  "id": 12659711,
+  "name": "Robert Jamar FIELDS, Appellant v. STATE of Arkansas, Appellee",
+  "name_abbreviation": "Fields v. State",
+  "decision_date": "2019-03-13",
+  "docket_number": "No. CR-17-985",
+  "first_page": "201",
+  "last_page": "211",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "574 S.W.3d 201"
+    },
+    {
+      "type": "parallel",
+      "cite": "2019 Ark. App. 162"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Ark. App. Ct.",
+    "id": 30091,
+    "name": "Court of Appeals of Arkansas, DIVISION I"
+  },
+  "jurisdiction": {
+    "id": 34,
+    "name_long": "Arkansas",
+    "name": "Ark."
+  },
+  "cites_to": [
+    {
+      "cite": "330 Ark. 627",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        298644
+      ],
+      "weight": 2,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "632"
+        },
+        {
+          "page": "902"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ark/330/0627-01"
+      ]
+    },
+    {
+      "cite": "358 Ark. 469",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        8452751
+      ],
+      "weight": 6,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "479, 480-81"
+        },
+        {
+          "page": "255, 256"
+        },
+        {
+          "page": "480"
+        },
+        {
+          "page": "255"
+        },
+        {
+          "page": "480-81"
+        },
+        {
+          "page": "255-56"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ark/358/0469-01"
+      ]
+    },
+    {
+      "cite": "200 Ark. 767",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1453379
+      ],
+      "weight": 2,
+      "year": 1940,
+      "opinion_index": -1,
+      "case_paths": [
+        "/ark/200/0767-01"
+      ]
+    },
+    {
+      "cite": "549 S.W.3d 356",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12656751
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "358"
+        },
+        {
+          "page": "358"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw3d/549/0356-01"
+      ]
+    },
+    {
+      "cite": "2018 Ark. 227",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "pin_cites": [
+        {
+          "page": "2"
+        }
+      ],
+      "opinion_index": -1
+    },
+    {
+      "cite": "2012 Ark. 270",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        6946184
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "4"
+        },
+        {
+          "page": "25"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw3d/423/0020-01"
+      ]
+    },
+    {
+      "cite": "354 Ark. 414",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        36068
+      ],
+      "weight": 2,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "417"
+        },
+        {
+          "page": "157"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ark/354/0414-01"
+      ]
+    },
+    {
+      "cite": "373 U.S. 83",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11716714
+      ],
+      "weight": 3,
+      "year": 1963,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/373/0083-01"
+      ]
+    },
+    {
+      "cite": "2018 WL 343630",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 1963,
+      "opinion_index": -1
+    },
+    {
+      "cite": "2018 Ark. App. 12",
+      "category": "reporters:state",
+      "reporter": "Ark. App.",
+      "year": 1963,
+      "opinion_index": -1
+    },
+    {
+      "cite": "328 Ark. 724",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        50381
+      ],
+      "weight": 2,
+      "year": 1997,
+      "opinion_index": -1,
+      "case_paths": [
+        "/ark/328/0724-01"
+      ]
+    },
+    {
+      "cite": "340 Ark. 53",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1365318
+      ],
+      "weight": 4,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "61"
+        },
+        {
+          "page": "496"
+        },
+        {
+          "page": "61"
+        },
+        {
+          "page": "496"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ark/340/0053-01"
+      ]
+    },
+    {
+      "cite": "Ark. Code Ann. \u00a7 16-97-103",
+      "category": "laws:leg_statute",
+      "reporter": "Ark. Code Ann.",
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "(1)"
+        }
+      ],
+      "opinion_index": -1
+    },
+    {
+      "cite": "2017 Ark. App. 286",
+      "category": "reporters:state",
+      "reporter": "Ark. App.",
+      "case_ids": [
+        12384960
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "5-6"
+        },
+        {
+          "page": "4"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw3d/524/0001-01"
+      ]
+    },
+    {
+      "cite": "322 Ark. 45",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1447476
+      ],
+      "weight": 2,
+      "year": 1995,
+      "opinion_index": -1,
+      "case_paths": [
+        "/ark/322/0045-01"
+      ]
+    },
+    {
+      "cite": "329 Ark. 513",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        236249
+      ],
+      "weight": 2,
+      "year": 1997,
+      "opinion_index": -1,
+      "case_paths": [
+        "/ark/329/0513-01"
+      ]
+    },
+    {
+      "cite": "365 Ark. 192",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        3287391
+      ],
+      "weight": 2,
+      "year": 2006,
+      "opinion_index": -1,
+      "case_paths": [
+        "/ark/365/0192-01"
+      ]
+    },
+    {
+      "cite": "2012 Ark. 222",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        7087853
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw3d/408/0055-01"
+      ]
+    },
+    {
+      "cite": "353 Ark. 384",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1155514
+      ],
+      "weight": 7,
+      "year": 2003,
+      "opinion_index": -1,
+      "case_paths": [
+        "/ark/353/0384-01"
+      ]
+    },
+    {
+      "cite": "270 Ark. 781",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1709251
+      ],
+      "weight": 4,
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "786"
+        },
+        {
+          "page": "369"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ark/270/0781-01"
+      ]
+    },
+    {
+      "cite": "2011 Ark. 391",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        7095252
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "15"
+        },
+        {
+          "page": "508"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw3d/384/0498-01"
+      ]
+    },
+    {
+      "cite": "500 U.S. 352",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6223686
+      ],
+      "weight": 3,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "365"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/500/0352-01"
+      ]
+    },
+    {
+      "cite": "354 Ark. 364",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        36026
+      ],
+      "weight": 5,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "380"
+        },
+        {
+          "page": "450"
+        },
+        {
+          "page": "450-51"
+        },
+        {
+          "page": "450-51"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ark/354/0364-01"
+      ]
+    },
+    {
+      "cite": "334 Ark. 390",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1655433
+      ],
+      "weight": 16,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "398-99"
+        },
+        {
+          "page": "296-97"
+        },
+        {
+          "page": "398-99"
+        },
+        {
+          "page": "296-97"
+        },
+        {
+          "page": "399"
+        },
+        {
+          "page": "296"
+        },
+        {
+          "page": "398"
+        },
+        {
+          "page": "296"
+        },
+        {
+          "page": "399"
+        },
+        {
+          "page": "297"
+        },
+        {
+          "page": "398"
+        },
+        {
+          "page": "296"
+        },
+        {
+          "page": "296"
+        },
+        {
+          "page": "399"
+        },
+        {
+          "page": "297"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ark/334/0390-01"
+      ]
+    },
+    {
+      "cite": "476 U.S. 79",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12787
+      ],
+      "weight": 3,
+      "year": 1986,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/476/0079-01"
+      ]
+    },
+    {
+      "cite": "890 S.W.2d 602",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        1455739,
+        1453575
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "607"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ark/318/0689-01",
+        "/ark/319/0291-01"
+      ]
+    },
+    {
+      "cite": "318 Ark. 689",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1455739
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "699-700"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ark/318/0689-01"
+      ]
+    },
+    {
+      "cite": "318 Ark. 39",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1455779
+      ],
+      "weight": 2,
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "41"
+        },
+        {
+          "page": "468"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ark/318/0039-01"
+      ]
+    },
+    {
+      "cite": "354 Ark. 313",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        36057
+      ],
+      "weight": 2,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "320"
+        },
+        {
+          "page": "817"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ark/354/0313-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1056,
+    "char_count": 23370,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.26511005081763456
+    },
+    "sha256": "bca6ab358ab37c9f6e7fb78bb4781849e563512b359cde785715255aeb775191",
+    "simhash": "1:dbfdd9164cdbc385",
+    "word_count": 3856
+  },
+  "last_updated": "2024-02-27T16:05:00.629633+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Virden and Hixson, JJ., agree."
+    ],
+    "parties": [
+      "Robert Jamar FIELDS, Appellant\nv.\nSTATE of Arkansas, Appellee"
+    ],
+    "opinions": [
+      {
+        "text": "--------",
+        "type": "majority",
+        "author": "--------"
+      }
+    ],
+    "attorneys": [
+      "James Law Firm, by: Michael Kiel Kaiser, Megan M. Wilson, and William O. \"Bill\" James, Jr., Little Rock, for appellant.",
+      "Leslie Rutledge, Att'y Gen., by: Karen Virginia Wallace, Ass't Att'y Gen., for appellee.",
+      "On appeal, Fields argues the following five points: (1) the circuit court clearly erred in denying his motion in limine to exclude the pretrial identification of him made by the victim, Jennifer New; (2) the circuit court's denial of his Batson challenge was against the preponderance of the evidence; (3) the circuit court failed to control the prosecutor's closing argument during sentencing, \"allowing him to misstate the law regarding parole eligibility to the jury\"; (4) the circuit court failed to exercise discretion in sentencing him to consecutive terms of imprisonment; and (5) the circuit court abused its discretion in denying his petition for writ of error coram nobis. We affirm.",
+      "On July 25, 2017, one day before trial, Fields filed a motion in limine to exclude victim Jennifer New's pretrial photo identification of him as the person who had shot her. Before trial, the circuit court conducted a brief hearing on the motion. The circuit court denied the motion, ruling that the proffered evidence was hearsay and that the objections went to New's credibility. Fields argues that the circuit court clearly erred in denying his motion in limine, but his argument is not preserved for appeal. Issues raised for the first time on appeal, even constitutional ones, will not be considered because the circuit court never had an opportunity to rule on them. E.g. , London v. State , 354 Ark. 313, 320, 125 S.W.3d 813, 817 (2003).",
+      "New's identification of Fields from the photo she saw on the internet and subsequently verified for police is not preserved for appellate review because Fields did not object to New's in-court identification of him based on the alleged taint from the photo identification. See, e.g. , Jackson v. State , 318 Ark. 39, 41, 883 S.W.2d 466, 468 (1994) ; Goins v. State , 318 Ark. 689, 699-700, 890 S.W.2d 602, 607 (1995).",
+      "Fields's motion in limine did not ask for exclusion of any prospective in-court identification. At trial, New first identified Fields in the courtroom based on having seen him during commission of the crimes, without mentioning the online mug shot or the two photos shown to her by police when she contacted them after having seen his photo online. New testified at a later point in trial about seeing Fields's photo on the internet and also identifying it from photos shown to her by police. Fields's only objection to the in-court identification was that the prosecutor \"need[ed] to lay more groundwork\"-he did not relate his objection to any of the grounds from his motion in limine or allege that her in-court identification was tainted by her prior photo identification. Thus, because Fields's suppression argument was not preserved by an objection alleging that the in-court identification was tainted by the previous photo identification, the argument is not preserved for our review.",
+      "Fields's second point on appeal is that the circuit court clearly erred by rejecting his Batson challenge after two African-American women were struck from the jury by the prosecutor. See Batson v. Kentucky , 476 U.S. 79, 106 S.Ct. 1712, 90 L.Ed.2d 69 (1986). The prosecutor noted that more than one African-American was already on the jury and then gave a race-neutral explanation for the strike. Fields did not present any further evidence or argument to support his position, and the Batson challenge was denied.",
+      "In MacKintrush v. State , 334 Ark. 390, 398-99, 978 S.W.2d 293, 296-97 (1998), the Arkansas Supreme Court set forth the three-step process to be followed in challenges under Batson . First, the strike's opponent must present facts to raise an inference of purposeful discrimination; second, if the inference is established, the proponent of the strike must present a race-neutral explanation for the strike; and third, if a race-neutral explanation is given, the circuit court must decide whether the strike's opponent has proved purposeful discrimination. MacKintrush , 334 Ark. at 398-99, 978 S.W.2d at 296-97. In the third step, the strike's opponent must persuade the circuit court that the expressed motive of the striking party is not genuine but rather is the product of discriminatory intent. Id. at 399, 978 S.W.2d at 296. The burden of persuasion establishing purposeful discrimination never leaves the opponent of the strike. Id. at 398, 978 S.W.2d at 296. \"[F]ollowing step two, it is incumbent upon the strike's opponent to present additional evidence or argument, if the matter is to proceed further.\" Id. at 399, 978 S.W.2d at 297.",
+      "On appeal, a circuit court's ruling on a Batson objection is reversed only when the court's findings of fact are clearly against the preponderance of the evidence. E.g. , Holder v. State , 354 Ark. 364, 380, 124 S.W.3d 439, 450 (2003). In making Batson rulings, an appellate court accords some measure of deference to the circuit court, as the circuit court is in a superior position to make the determinations because it has the opportunity to observe the parties and jurors and determine their credibility. E.g. , Holder , 354 Ark. at 380, 124 S.W.3d at 450-51. Unless discriminatory intent appears in the striking party's explanation, the reason can be considered neutral. E.g. , id. , 124 S.W.3d at 450-51. This explanation must be more than a mere denial of discrimination or an assertion that a shared race would render the challenged juror partial to the one opposing the challenge. E.g. , MacKintrush , 334 Ark. at 398, 978 S.W.2d at 296. The explanation need not be persuasive or even plausible; indeed, it may be silly or superstitious. E.g. , id. , 978 S.W.2d at 296. \"[E]valuation of the prosecutor's state of mind based on demeanor and credibility lies peculiarly within a trial judge's province.\" Hernandez v. New York , 500 U.S. 352, 365, 111 S.Ct. 1859, 114 L.Ed.2d 395 (1991). In the instant case, Fields's counsel made a Batson challenge to the prosecutor's striking an African-American juror, stating that the juror had said nothing that would cause her to be disqualified. The prosecutor responded by noting that two or more African-American jurors already were seated and that he had exercised two peremptory challenges against white jurors and two against African-American jurors, including the challenge at issue. The circuit court stated that was not a race-neutral reason, and the prosecutor then provided one, explaining that the prospective juror had hung onto defense counsel's every word during voir dire. The circuit court was satisfied with that response. Fields did not offer any argument or evidence that the race-neutral reason stated for the strike was pretextual or incredible, and thus he failed to meet his burden of proof. E.g. , MacKintrush , 334 Ark. at 399, 978 S.W.2d at 297. In fact, defense counsel pronounced the jury \"good\" for the defense at the end of jury selection. Under our standard of review, we hold that the circuit court's ruling was not clearly against the preponderance of the evidence when it denied Fields's Batson challenge.",
+      "Fields next argues that \"[t]hroughout closing argument during the penalty phase, prosecutor Rogers repeatedly misstated the law regarding parole eligibility, instructing the jury that Fields would only serve the minimum sentence allowed by law on each charge rather than merely being parole-eligible at those times,\" and the circuit court erred by failing to strike this part of the State's sentencing-phase closing arguments. However, Fields's counsel did not object to any portion of the prosecutor's closing argument; therefore, the issue is not preserved for appeal. E.g. , Holt v. State , 2011 Ark. 391, at 15, 384 S.W.3d 498, 508 (argument that prejudice resulted from prosecuting attorney's misstating facts regarding parole eligibility during closing argument at end of sentencing phase was not preserved because there was no objection at trial).",
+      "Fields argues that it falls under the third Wicks exception, which entails the \"trial court's duty to intervene, without an objection, and correct a serious error either by an admonition to the jury or by ordering a mistrial.\" Wicks v. State , 270 Ark. 781, 786, 606 S.W.2d 366, 369 (1980). The circuit court instructed the jury regarding sentencing, parole, transfer, and meritorious good time just before the closing argument. The prosecuting attorney began by saying, \"When you're talking about transfer eligibility we're talking about parole. It's a term we've all heard for years and years about when will they get eligible for parole.\" In describing sentencing possibilities for the first crime discussed--aggravated robbery--the prosecutor said:",
+      "If you want him to serve fourteen years, you write twenty. It's just simple math, .70 times the number. Thirty is twenty-one. If you want him to serve twenty-one years you write thirty in the blank. If you want him to serve twenty-eight years, you write forty in there. It is just doing the simple math. It's complicated and hearing the instructions it's hard to wrap your head around it because it's a whole new language for ya'll. You've not been in this situation. If you write life, it means life.",
+      "Here, there is no basis for our court to apply the third Wicks exception or to reverse the sentences based on the prosecutor's closing argument. Although in some portions of the prosecutor's closing argument he mentions release eligibility and good time, we note that some of his comments could be viewed as essentially telling the jury to impose a sentence under the assumption that Fields will be paroled at the earliest possible eligibility date. While the prosecutor may comment on the law applicable to parole, he or she is not allowed to misstate the law applicable to parole. The law related to parole, meritorious good time, and transfer is evidence relevant to sentencing. Ark. Code Ann. \u00a7 16-97-103(1) (Repl. 2016). Neither the State nor Fields has cited any Arkansas case that discusses the issue of a prosecutor suggesting to the jury that the defendant would be released at the earliest parole date. Accordingly, we hold that the circuit court did not err by failing to strike this part of the prosecutor's sentencing-phase closing arguments.",
+      "Fields's fourth appellate point is that the circuit court erred by sentencing him to consecutive sentences for his convictions. He argues the circuit court failed to exercise its discretion when it made his sentences consecutive. It is well established that whether sentences should run consecutively or concurrently lies solely within the province of the circuit court. E.g. , Pyle v. State , 340 Ark. 53, 61, 8 S.W.3d 491, 496 (2000). A circuit court is not required to explain its reason for running sentences consecutively. E.g. , id. at 61, 8 S.W.3d at 496. The appellant assumes a heavy burden of demonstrating that the circuit court failed to give due consideration to the exercise of its discretion in the matter of the consecutive sentences. Teague v. State , 328 Ark. 724, 946 S.W.2d 670 (1997).",
+      "Fields did not request or proffer an instruction for the jury regarding whether the sentences for his multiple convictions should be concurrent rather than consecutive. However, he did ask the circuit court during sentencing to consider making at least some of the sentences concurrent as opposed to all consecutive. The circuit court ordered consecutive sentences for a total aggregate sentence of fifty-four years. Fields's allegation of a blanket consecutive-sentence policy simply is not consistent with the record. The circuit court clearly exercised, and did not abuse, its discretion by ordering Fields's relatively light-to-moderate sentences run consecutively. The circuit court asked for comments before sentencing, which indicated that it wanted to hear the attorneys' viewpoints on the matter. Fields has not met his burden of demonstrating that the circuit court failed to give due consideration, and we hold the circuit court did not abuse its discretion here in ordering Fields's sentences to run consecutively.",
+      "Fields's fifth and final point is that the circuit court abused its discretion by denying his petition for a writ of error coram nobis. We disagree. Our court reinvested jurisdiction in the circuit court to consider a petition for a writ of error coram nobis based on an alleged third-party confession and an alleged withheld-evidence claim. Fields v. State , 2018 Ark. App. 12, 2018 WL 343630. Fields's claim is based on an alleged third-party \"confession\" that he claims exonerates him and on his contention that the State withheld evidence of a codefendant's identity in violation of Brady v. Maryland , 373 U.S. 83, 83 S.Ct. 1194, 10 L.Ed.2d 215 (1963).",
+      "The writ of error coram nobis is an extraordinarily rare remedy available only on a showing of fundamental error extrinsic to the record, such as insanity at the time of trial; a coerced guilty plea; material evidence withheld by the prosecutor; or a third-party confession occurring during the time between conviction and appeal. E.g. , Echols v. State , 354 Ark. 414, 417, 125 S.W.3d 153, 157 (2003). It is the petitioner's burden to show that the writ is warranted, and the proceedings for the writ are attended by a strong presumption that the judgment of conviction is valid. E.g. , Anderson v. State , 2012 Ark. 270, at 4, 423 S.W.3d 20, 25.",
+      "After Fields's convictions, Turner was charged with crimes related to those for which Fields was convicted, though Turner was charged as an accomplice and not as the shooter. On November 9, 2017, he pleaded guilty to first-degree battery and an amended charge of robbery. During the plea hearing, he claimed to have no memory of the events because he was high on drugs at the time. He never contested assertions made during the plea hearing that Fields was the shooter in the crimes.",
+      "Fields's original petition for writ of error coram nobis contained as an attachment an unnotarized purported affidavit from Turner dated November 22, 2017, in which Turner claimed that he had never met Fields, that Fields was not involved in the crimes, and that the shooter was Derek Brown. Turner testified to the same effect at the coram nobis hearing. When asked to explain why, at his plea hearing, Turner claimed no memory of the crimes and did not contradict the statements that Fields was the shooter in the crimes, he said he did not know and gave other contradictory answers. Turner also gave his address as 2014 Lakeland, the same address New had provided for Turner's grandmother's house.",
+      "At the coram nobis hearing, Harwell testified that while New had identified Turner as \"Dee\" to him from an internet mug shot sometime after April 29, 2017, which was before Fields's trial, she was not shown a known photo of Turner by police until July 27, 2017, after the trial. His notes did not reflect Turner's full name until that date. He testified that Turner had refused to be interviewed by police. Harwell again testified that police tried several times to make contact with Turner at 2014 Lakeland, the address New had given for him, and when he did speak with Turner's grandmother there, she told him that Turner did not live there anymore.",
+      "Regarding the delay between New's call alerting Harwell to \"Dee's\" possible identity and the July 27, 2017, formal photo identification, Harwell testified that he was a supervisor in the Detective Division, that he was one of only two certified crime-scene technicians and had to be at every crime scene processed, that he had a large felony case load, and that he was focused on trial preparation for Fields's trial during that time.",
+      "Based on the record and the facts presented, it is clear that there was no third-party confession that would support coram nobis relief. Indeed, there is no third-party confession when the alleged third party is convicted of the same crime. E.g. , Clark , 358 Ark. at 480, 192 S.W.3d at 255. Moreover, Turner did not confess to being the shooter in the crimes for which Fields was convicted. Instead, he testified that Derek Brown was the shooter and that Fields was not present at the crimes. There is nothing in the record to indicate that Derek Brown confessed to being the shooter. This is not a third-party confession to support the requested relief.",
+      "As the State notes, even if Turner's testimony did constitute a third-party confession, the circuit court did not err by denying relief. The mere fact that another person has confessed to a crime is not, standing alone, grounds for coram nobis relief because such confessions are not uncommon and must be approached with some skepticism. E.g. , Brown v. State , 330 Ark. 627, 632, 955 S.W.2d 901, 902 (1997). At the time of Fields's trial, Turner refused to give a statement to police, and on November 9, 2017, in his plea hearing, he testified that he did not remember anything about the crime because he was high on drugs. Furthermore, he never corrected the prosecutor or anyone else who mentioned Fields's name as the shooter in the crimes during his plea hearing. Yet only thirteen days later, he executed an unnotarized purported affidavit claiming he did remember the crimes, he did not know Fields, Fields was not involved in the crimes, and Derek Brown was the shooter. He could not explain this discrepancy at the coram nobis hearing. The circuit court found Turner to be \"completely without credibility,\" and it did not abuse its discretion by denying relief on a claim based solely on Turner's ever-changing testimony. See, e.g. , Clark , 358 Ark. at 480-81, 192 S.W.3d at 255-56. Accordingly, we affirm."
+    ],
+    "corrections": "",
+    "head_matter": "Robert Jamar FIELDS, Appellant\nv.\nSTATE of Arkansas, Appellee\nNo. CR-17-985\nCourt of Appeals of Arkansas, DIVISION I.\nOpinion Delivered: March 13, 2019\nJames Law Firm, by: Michael Kiel Kaiser, Megan M. Wilson, and William O. \"Bill\" James, Jr., Little Rock, for appellant.\nLeslie Rutledge, Att'y Gen., by: Karen Virginia Wallace, Ass't Att'y Gen., for appellee.\nRAYMOND R. ABRAMSON, Judge Robert Jamar Fields was convicted by a Union County Circuit Court jury of one count of aggravated robbery, three counts of aggravated assault with two child enhancements, one count of terroristic act, and one count of first-degree battery with a child enhancement. He was sentenced to consecutive sentences totaling fifty-four years' imprisonment in the Arkansas Department of Correction.\nOn appeal, Fields argues the following five points: (1) the circuit court clearly erred in denying his motion in limine to exclude the pretrial identification of him made by the victim, Jennifer New; (2) the circuit court's denial of his Batson challenge was against the preponderance of the evidence; (3) the circuit court failed to control the prosecutor's closing argument during sentencing, \"allowing him to misstate the law regarding parole eligibility to the jury\"; (4) the circuit court failed to exercise discretion in sentencing him to consecutive terms of imprisonment; and (5) the circuit court abused its discretion in denying his petition for writ of error coram nobis. We affirm.\nOn July 25, 2017, one day before trial, Fields filed a motion in limine to exclude victim Jennifer New's pretrial photo identification of him as the person who had shot her. Before trial, the circuit court conducted a brief hearing on the motion. The circuit court denied the motion, ruling that the proffered evidence was hearsay and that the objections went to New's credibility. Fields argues that the circuit court clearly erred in denying his motion in limine, but his argument is not preserved for appeal. Issues raised for the first time on appeal, even constitutional ones, will not be considered because the circuit court never had an opportunity to rule on them. E.g. , London v. State , 354 Ark. 313, 320, 125 S.W.3d 813, 817 (2003).\nNew's identification of Fields from the photo she saw on the internet and subsequently verified for police is not preserved for appellate review because Fields did not object to New's in-court identification of him based on the alleged taint from the photo identification. See, e.g. , Jackson v. State , 318 Ark. 39, 41, 883 S.W.2d 466, 468 (1994) ; Goins v. State , 318 Ark. 689, 699-700, 890 S.W.2d 602, 607 (1995).\nFields's motion in limine did not ask for exclusion of any prospective in-court identification. At trial, New first identified Fields in the courtroom based on having seen him during commission of the crimes, without mentioning the online mug shot or the two photos shown to her by police when she contacted them after having seen his photo online. New testified at a later point in trial about seeing Fields's photo on the internet and also identifying it from photos shown to her by police. Fields's only objection to the in-court identification was that the prosecutor \"need[ed] to lay more groundwork\"-he did not relate his objection to any of the grounds from his motion in limine or allege that her in-court identification was tainted by her prior photo identification. Thus, because Fields's suppression argument was not preserved by an objection alleging that the in-court identification was tainted by the previous photo identification, the argument is not preserved for our review.\nFields's second point on appeal is that the circuit court clearly erred by rejecting his Batson challenge after two African-American women were struck from the jury by the prosecutor. See Batson v. Kentucky , 476 U.S. 79, 106 S.Ct. 1712, 90 L.Ed.2d 69 (1986). The prosecutor noted that more than one African-American was already on the jury and then gave a race-neutral explanation for the strike. Fields did not present any further evidence or argument to support his position, and the Batson challenge was denied.\nIn MacKintrush v. State , 334 Ark. 390, 398-99, 978 S.W.2d 293, 296-97 (1998), the Arkansas Supreme Court set forth the three-step process to be followed in challenges under Batson . First, the strike's opponent must present facts to raise an inference of purposeful discrimination; second, if the inference is established, the proponent of the strike must present a race-neutral explanation for the strike; and third, if a race-neutral explanation is given, the circuit court must decide whether the strike's opponent has proved purposeful discrimination. MacKintrush , 334 Ark. at 398-99, 978 S.W.2d at 296-97. In the third step, the strike's opponent must persuade the circuit court that the expressed motive of the striking party is not genuine but rather is the product of discriminatory intent. Id. at 399, 978 S.W.2d at 296. The burden of persuasion establishing purposeful discrimination never leaves the opponent of the strike. Id. at 398, 978 S.W.2d at 296. \"[F]ollowing step two, it is incumbent upon the strike's opponent to present additional evidence or argument, if the matter is to proceed further.\" Id. at 399, 978 S.W.2d at 297.\nOn appeal, a circuit court's ruling on a Batson objection is reversed only when the court's findings of fact are clearly against the preponderance of the evidence. E.g. , Holder v. State , 354 Ark. 364, 380, 124 S.W.3d 439, 450 (2003). In making Batson rulings, an appellate court accords some measure of deference to the circuit court, as the circuit court is in a superior position to make the determinations because it has the opportunity to observe the parties and jurors and determine their credibility. E.g. , Holder , 354 Ark. at 380, 124 S.W.3d at 450-51. Unless discriminatory intent appears in the striking party's explanation, the reason can be considered neutral. E.g. , id. , 124 S.W.3d at 450-51. This explanation must be more than a mere denial of discrimination or an assertion that a shared race would render the challenged juror partial to the one opposing the challenge. E.g. , MacKintrush , 334 Ark. at 398, 978 S.W.2d at 296. The explanation need not be persuasive or even plausible; indeed, it may be silly or superstitious. E.g. , id. , 978 S.W.2d at 296. \"[E]valuation of the prosecutor's state of mind based on demeanor and credibility lies peculiarly within a trial judge's province.\" Hernandez v. New York , 500 U.S. 352, 365, 111 S.Ct. 1859, 114 L.Ed.2d 395 (1991). In the instant case, Fields's counsel made a Batson challenge to the prosecutor's striking an African-American juror, stating that the juror had said nothing that would cause her to be disqualified. The prosecutor responded by noting that two or more African-American jurors already were seated and that he had exercised two peremptory challenges against white jurors and two against African-American jurors, including the challenge at issue. The circuit court stated that was not a race-neutral reason, and the prosecutor then provided one, explaining that the prospective juror had hung onto defense counsel's every word during voir dire. The circuit court was satisfied with that response. Fields did not offer any argument or evidence that the race-neutral reason stated for the strike was pretextual or incredible, and thus he failed to meet his burden of proof. E.g. , MacKintrush , 334 Ark. at 399, 978 S.W.2d at 297. In fact, defense counsel pronounced the jury \"good\" for the defense at the end of jury selection. Under our standard of review, we hold that the circuit court's ruling was not clearly against the preponderance of the evidence when it denied Fields's Batson challenge.\nFields next argues that \"[t]hroughout closing argument during the penalty phase, prosecutor Rogers repeatedly misstated the law regarding parole eligibility, instructing the jury that Fields would only serve the minimum sentence allowed by law on each charge rather than merely being parole-eligible at those times,\" and the circuit court erred by failing to strike this part of the State's sentencing-phase closing arguments. However, Fields's counsel did not object to any portion of the prosecutor's closing argument; therefore, the issue is not preserved for appeal. E.g. , Holt v. State , 2011 Ark. 391, at 15, 384 S.W.3d 498, 508 (argument that prejudice resulted from prosecuting attorney's misstating facts regarding parole eligibility during closing argument at end of sentencing phase was not preserved because there was no objection at trial).\nFields argues that it falls under the third Wicks exception, which entails the \"trial court's duty to intervene, without an objection, and correct a serious error either by an admonition to the jury or by ordering a mistrial.\" Wicks v. State , 270 Ark. 781, 786, 606 S.W.2d 366, 369 (1980). The circuit court instructed the jury regarding sentencing, parole, transfer, and meritorious good time just before the closing argument. The prosecuting attorney began by saying, \"When you're talking about transfer eligibility we're talking about parole. It's a term we've all heard for years and years about when will they get eligible for parole.\" In describing sentencing possibilities for the first crime discussed--aggravated robbery--the prosecutor said:\nUnder the parole eligibility on aggravated robbery he is required to serve seventy percent of whatever time you pick between ten and forty and including ten and forty, life is life. If you write life in that line, which you have every right to do as jurors, whatever number of the word life in that line is what your sentence is. If you put a term of years, seventy percent of whatever number you write in that blank is what [sic] he should make parole if he does what he's supposed to do in prison. So if you want him to serve seven years, you impose ten.\nIf you want him to serve fourteen years, you write twenty. It's just simple math, .70 times the number. Thirty is twenty-one. If you want him to serve twenty-one years you write thirty in the blank. If you want him to serve twenty-eight years, you write forty in there. It is just doing the simple math. It's complicated and hearing the instructions it's hard to wrap your head around it because it's a whole new language for ya'll. You've not been in this situation. If you write life, it means life.\nThe Wicks exceptions are narrow exceptions to the contemporaneous-objection rule. Our court has explained that the third Wicks exception rarely applies:\nThe third Wicks exception to the contemporaneous-objection rule applies when the error is so flagrant and so highly prejudicial in character as to make it the duty of the court on its own motion to instruct the jury correctly. Wicks v. State , 270 Ark. 781, 606 S.W.2d 366 (1980). Our supreme court has allowed issues to be considered under the third exception when the error affects the very structure of the criminal trial. Anderson v. State , 353 Ark. 384, 108 S.W.3d 592 (2003). Our caselaw is clear that Wicks presents only narrow exceptions that are to be rarely applied. Chunestudy v. State , 2012 Ark. 222, 408 S.W.3d 55 (citing Anderson , 353 Ark. 384, 108 S.W.3d 592 ). Specifically, the third exception has been applied very rarely to cases including the right to a twelve-person jury, violations of Arkansas Code Annotated section 16-89-125(e) (Repl. 2005), and statements by a prosecutor in voir dire that have the effect of shifting the burden of proof. Id. (citing Ayala v. State , 365 Ark. 192, 226 S.W.3d 766 (2006) ; Anderson , 353 Ark. 384, 108 S.W.3d 592 ; Goff v. State , 329 Ark. 513, 953 S.W.2d 38 (1997) ; Grinning v. City of Pine Bluff , 322 Ark. 45, 907 S.W.2d 690 (1995) ).\nJones v. State , 2017 Ark. App. 286, at 5-6, 524 S.W.3d 1, 4.\nHere, there is no basis for our court to apply the third Wicks exception or to reverse the sentences based on the prosecutor's closing argument. Although in some portions of the prosecutor's closing argument he mentions release eligibility and good time, we note that some of his comments could be viewed as essentially telling the jury to impose a sentence under the assumption that Fields will be paroled at the earliest possible eligibility date. While the prosecutor may comment on the law applicable to parole, he or she is not allowed to misstate the law applicable to parole. The law related to parole, meritorious good time, and transfer is evidence relevant to sentencing. Ark. Code Ann. \u00a7 16-97-103(1) (Repl. 2016). Neither the State nor Fields has cited any Arkansas case that discusses the issue of a prosecutor suggesting to the jury that the defendant would be released at the earliest parole date. Accordingly, we hold that the circuit court did not err by failing to strike this part of the prosecutor's sentencing-phase closing arguments.\nFields's fourth appellate point is that the circuit court erred by sentencing him to consecutive sentences for his convictions. He argues the circuit court failed to exercise its discretion when it made his sentences consecutive. It is well established that whether sentences should run consecutively or concurrently lies solely within the province of the circuit court. E.g. , Pyle v. State , 340 Ark. 53, 61, 8 S.W.3d 491, 496 (2000). A circuit court is not required to explain its reason for running sentences consecutively. E.g. , id. at 61, 8 S.W.3d at 496. The appellant assumes a heavy burden of demonstrating that the circuit court failed to give due consideration to the exercise of its discretion in the matter of the consecutive sentences. Teague v. State , 328 Ark. 724, 946 S.W.2d 670 (1997).\nFields did not request or proffer an instruction for the jury regarding whether the sentences for his multiple convictions should be concurrent rather than consecutive. However, he did ask the circuit court during sentencing to consider making at least some of the sentences concurrent as opposed to all consecutive. The circuit court ordered consecutive sentences for a total aggregate sentence of fifty-four years. Fields's allegation of a blanket consecutive-sentence policy simply is not consistent with the record. The circuit court clearly exercised, and did not abuse, its discretion by ordering Fields's relatively light-to-moderate sentences run consecutively. The circuit court asked for comments before sentencing, which indicated that it wanted to hear the attorneys' viewpoints on the matter. Fields has not met his burden of demonstrating that the circuit court failed to give due consideration, and we hold the circuit court did not abuse its discretion here in ordering Fields's sentences to run consecutively.\nFields's fifth and final point is that the circuit court abused its discretion by denying his petition for a writ of error coram nobis. We disagree. Our court reinvested jurisdiction in the circuit court to consider a petition for a writ of error coram nobis based on an alleged third-party confession and an alleged withheld-evidence claim. Fields v. State , 2018 Ark. App. 12, 2018 WL 343630. Fields's claim is based on an alleged third-party \"confession\" that he claims exonerates him and on his contention that the State withheld evidence of a codefendant's identity in violation of Brady v. Maryland , 373 U.S. 83, 83 S.Ct. 1194, 10 L.Ed.2d 215 (1963).\nThe writ of error coram nobis is an extraordinarily rare remedy available only on a showing of fundamental error extrinsic to the record, such as insanity at the time of trial; a coerced guilty plea; material evidence withheld by the prosecutor; or a third-party confession occurring during the time between conviction and appeal. E.g. , Echols v. State , 354 Ark. 414, 417, 125 S.W.3d 153, 157 (2003). It is the petitioner's burden to show that the writ is warranted, and the proceedings for the writ are attended by a strong presumption that the judgment of conviction is valid. E.g. , Anderson v. State , 2012 Ark. 270, at 4, 423 S.W.3d 20, 25.\nThe function of the writ is to secure relief from a judgment rendered while there existed some fact that would have prevented its rendition if it had been known to the circuit court and which, through no negligence or fault of the defendant, was not brought forward before rendition of the judgment. Jackson v. State , 2018 Ark. 227, at 2, 549 S.W.3d 356, 358. The petitioner has the burden of demonstrating a fundamental error of fact extrinsic to the record. Id. at 2, 549 S.W.3d at 358. The writ is granted only to correct some error of fact, and it does not lie to correct trial error or to contradict any fact already adjudicated. Smith v. State , 200 Ark. 767, 140 S.W.2d 675 (1940). On appeal from the denial of error coram nobis relief, we defer to the circuit court's credibility determinations and will not reverse unless the circuit court abused its discretion. E.g. , Clark v. State , 358 Ark. 469, 479, 480-81, 192 S.W.3d 248, 255, 256 (2004).\nNew testified at trial that one of the three men involved in the crimes was a man who lived nearby and whom she knew only by the nickname \"Dee.\" She had given him a ride once \"down the road to his grandmother's house.\" Detective Sergeant Scott Harwell of the El Dorado Police Department testified at trial that both New and Blake Pepper told police that one of the black males who participated in the crime was named \"Dee.\" Harwell attempted to locate and apprehend the man known as \"Dee\" and eventually was able to make contact with a woman who lived at the address that had been identified as his grandmother's, though she told officers that her grandson did not live there. Harwell testified that at the time of trial, there was still a pending investigation regarding the other two assailants. Harwell also testified that New had seen a photo of Markeitheon \"Dee\" Turner--who recently had been arrested on a theft-of-property warrant--on the Union County Sheriff's Office website and that New had contacted him to identify Turner as the \"Dee\" who took part in the crime. Harwell testified that Turner had declined to make a statement and that he had not yet been charged as a participant in the crimes with appellant.\nAfter Fields's convictions, Turner was charged with crimes related to those for which Fields was convicted, though Turner was charged as an accomplice and not as the shooter. On November 9, 2017, he pleaded guilty to first-degree battery and an amended charge of robbery. During the plea hearing, he claimed to have no memory of the events because he was high on drugs at the time. He never contested assertions made during the plea hearing that Fields was the shooter in the crimes.\nFields's original petition for writ of error coram nobis contained as an attachment an unnotarized purported affidavit from Turner dated November 22, 2017, in which Turner claimed that he had never met Fields, that Fields was not involved in the crimes, and that the shooter was Derek Brown. Turner testified to the same effect at the coram nobis hearing. When asked to explain why, at his plea hearing, Turner claimed no memory of the crimes and did not contradict the statements that Fields was the shooter in the crimes, he said he did not know and gave other contradictory answers. Turner also gave his address as 2014 Lakeland, the same address New had provided for Turner's grandmother's house.\nFields's defense counsel, Daren Nelson, testified at the coram nobis hearing that he did not hear Turner's name until Fields's trial. However, Nelson also testified that he had been provided with the nickname \"Dee\" \"from the beginning\" and that, before trial, he had a court reporter prepare a transcript of an interview between Sergeant Harwell and New dated August 24, 2016, that contained the 2014 Lakeland address. He testified that he did not go to that address to try to locate \"Dee\" before trial. He also admitted that before Fields's trial, he received notes prepared by Harwell via discovery that also contained the 2014 Lakeland address. He admitted that he did not object when Turner's name was first provided during Harwell's testimony at Fields's trial.\nAt the coram nobis hearing, Harwell testified that while New had identified Turner as \"Dee\" to him from an internet mug shot sometime after April 29, 2017, which was before Fields's trial, she was not shown a known photo of Turner by police until July 27, 2017, after the trial. His notes did not reflect Turner's full name until that date. He testified that Turner had refused to be interviewed by police. Harwell again testified that police tried several times to make contact with Turner at 2014 Lakeland, the address New had given for him, and when he did speak with Turner's grandmother there, she told him that Turner did not live there anymore.\nRegarding the delay between New's call alerting Harwell to \"Dee's\" possible identity and the July 27, 2017, formal photo identification, Harwell testified that he was a supervisor in the Detective Division, that he was one of only two certified crime-scene technicians and had to be at every crime scene processed, that he had a large felony case load, and that he was focused on trial preparation for Fields's trial during that time.\nBased on the record and the facts presented, it is clear that there was no third-party confession that would support coram nobis relief. Indeed, there is no third-party confession when the alleged third party is convicted of the same crime. E.g. , Clark , 358 Ark. at 480, 192 S.W.3d at 255. Moreover, Turner did not confess to being the shooter in the crimes for which Fields was convicted. Instead, he testified that Derek Brown was the shooter and that Fields was not present at the crimes. There is nothing in the record to indicate that Derek Brown confessed to being the shooter. This is not a third-party confession to support the requested relief.\nAs the State notes, even if Turner's testimony did constitute a third-party confession, the circuit court did not err by denying relief. The mere fact that another person has confessed to a crime is not, standing alone, grounds for coram nobis relief because such confessions are not uncommon and must be approached with some skepticism. E.g. , Brown v. State , 330 Ark. 627, 632, 955 S.W.2d 901, 902 (1997). At the time of Fields's trial, Turner refused to give a statement to police, and on November 9, 2017, in his plea hearing, he testified that he did not remember anything about the crime because he was high on drugs. Furthermore, he never corrected the prosecutor or anyone else who mentioned Fields's name as the shooter in the crimes during his plea hearing. Yet only thirteen days later, he executed an unnotarized purported affidavit claiming he did remember the crimes, he did not know Fields, Fields was not involved in the crimes, and Derek Brown was the shooter. He could not explain this discrepancy at the coram nobis hearing. The circuit court found Turner to be \"completely without credibility,\" and it did not abuse its discretion by denying relief on a claim based solely on Turner's ever-changing testimony. See, e.g. , Clark , 358 Ark. at 480-81, 192 S.W.3d at 255-56. Accordingly, we affirm.\nAffirmed.\nVirden and Hixson, JJ., agree.\nThat objection was overruled, and Fields does not appeal from that ruling."
+  },
+  "file_name": "0201-01",
+  "first_page_order": 201,
+  "last_page_order": 211
+}

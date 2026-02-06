@@ -1,0 +1,59 @@
+{
+  "id": 5929056,
+  "name": "Bailey v. Smith et al.",
+  "name_abbreviation": "Bailey v. Smith",
+  "decision_date": "2011-04-18",
+  "docket_number": "No. 10-994",
+  "first_page": "936",
+  "last_page": "936",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 936"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 68,
+    "ocr_confidence": 0.554,
+    "sha256": "aa9e94c182233c7f8713724b07688dadb54c4ee3b9753d735dd4093ae6ad3359",
+    "simhash": "1:8810e0a05d32b5a6",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bailey v. Smith et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-994.\nBailey v. Smith et al."
+  },
+  "file_name": "0936-11",
+  "first_page_order": 962,
+  "last_page_order": 962
+}

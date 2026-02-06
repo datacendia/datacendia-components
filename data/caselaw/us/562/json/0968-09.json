@@ -1,0 +1,59 @@
+{
+  "id": 5906821,
+  "name": "Polk v. Kansas",
+  "name_abbreviation": "Polk v. Kansas",
+  "decision_date": "2010-10-12",
+  "docket_number": "No. 10-5840",
+  "first_page": "968",
+  "last_page": "968",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 968"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 62,
+    "ocr_confidence": 0.659,
+    "sha256": "c58077b742f32b116a9402489718a3e46a5897b25dfccc42b6c54c1d57c104ae",
+    "simhash": "1:e8b6634ca755fdc3",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Polk v. Kansas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Kan. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5840.\nPolk v. Kansas."
+  },
+  "file_name": "0968-09",
+  "first_page_order": 990,
+  "last_page_order": 990
+}

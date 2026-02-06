@@ -1,0 +1,66 @@
+{
+  "id": 12704988,
+  "name": "In the Matter of Elie S. COURY.",
+  "name_abbreviation": "In re Coury",
+  "decision_date": "2014-03-24",
+  "docket_number": "No. D\u20132768.",
+  "first_page": "1013",
+  "last_page": "1013",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "572 U.S. 1013"
+    },
+    {
+      "type": "parallel",
+      "cite": "188 L. Ed. 2d 588"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 1581"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 49,
+    "char_count": 388,
+    "sha256": "f596167c91f0d64d4d8a73dbb7a068302338a806843330733b30ef0128200827",
+    "simhash": "1:7a281154078ab56b",
+    "word_count": 71
+  },
+  "last_updated": "2021-08-27T20:44:00.426858+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In the Matter of Elie S. COURY."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "In the Matter of Elie S. COURY.\nNo. D-2768.\nSupreme Court of the United States\nMarch 24, 2014.\nElie S. Coury, of Danbury, Connecticut, having requested to resign as a member of the Bar of this Court, it is ordered that his name be stricken from the roll of attorneys permitted to the practice of law before this Court. The Rule to Show Cause, issued on February 24, 2014, is discharged."
+  },
+  "file_name": "1013-07",
+  "first_page_order": 1013,
+  "last_page_order": 1013
+}

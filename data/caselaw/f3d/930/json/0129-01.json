@@ -1,0 +1,617 @@
+{
+  "id": 12521870,
+  "name": "Emerald Zodwa NKOMO, Petitioner v. ATTORNEY GENERAL OF the UNITED STATES of America, Respondent",
+  "name_abbreviation": "Nkomo v. Attorney Gen. of the United States",
+  "decision_date": "2019-07-12",
+  "docket_number": "No. 18-3109",
+  "first_page": "129",
+  "last_page": "136",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "930 F.3d 129"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "3rd Cir.",
+    "id": 9319,
+    "name": "United States Court of Appeals for the Third Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "855 F.3d 509",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12276846
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "516-17"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/855/0509-01"
+      ]
+    },
+    {
+      "cite": "528 F.3d 180",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3581494
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "184",
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/528/0180-01"
+      ]
+    },
+    {
+      "cite": "18 I. & N. Dec. 244",
+      "category": "reporters:federal",
+      "reporter": "I. & N. Dec.",
+      "year": 1982,
+      "opinion_index": 0
+    },
+    {
+      "cite": "602 F.3d 260",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3920287
+      ],
+      "weight": 2,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "267"
+        },
+        {
+          "page": "268"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/602/0260-01"
+      ]
+    },
+    {
+      "cite": "24 I. & N. Dec. 336",
+      "category": "reporters:federal",
+      "reporter": "I. & N. Dec.",
+      "weight": 3,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "342"
+        },
+        {
+          "page": "342-43"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "633 F.3d 201",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4090045
+      ],
+      "weight": 4,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "214"
+        },
+        {
+          "page": "214"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/633/0201-01"
+      ]
+    },
+    {
+      "cite": "456 F.3d 88",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3349480
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "105"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/456/0088-01"
+      ]
+    },
+    {
+      "cite": "8 C.F.R. \u00a7 1003.15",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "908 F.3d 144",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12519135
+      ],
+      "year": 2018,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/908/0144-01"
+      ]
+    },
+    {
+      "cite": "756 F. App'x 291",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "294",
+          "parenthetical": "non-precedential per curiam"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "746 F. App'x 269",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "269-70",
+          "parenthetical": "non-precedential per curiam"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "911 F.3d 305",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12519546
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "314-15"
+        },
+        {
+          "page": "314"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/911/0305-01"
+      ]
+    },
+    {
+      "cite": "913 F.3d 1158",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12519741
+      ],
+      "weight": 2,
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "1160-61"
+        },
+        {
+          "page": "1161"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/913/1158-01"
+      ]
+    },
+    {
+      "cite": "917 F.3d 486",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12520313
+      ],
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "489-90"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/917/0486-01"
+      ]
+    },
+    {
+      "cite": "768 F. App'x 796",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "801-02",
+          "parenthetical": "non-precedential"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "922 F.3d 101",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12520870
+      ],
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "110-12"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/922/0101-01"
+      ]
+    },
+    {
+      "cite": "924 F.3d 983",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12521240
+      ],
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "986"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/924/0983-01"
+      ]
+    },
+    {
+      "cite": "924 F.3d 956",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12521237
+      ],
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "957-58, 962-64"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/924/0956-01"
+      ]
+    },
+    {
+      "cite": "8 C.F.R. \u00a7 1003.13",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "8 C.F.R. \u00a7 1003.14",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "8 U.S.C. \u00a7 1229",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(a)(1)(G)(i)"
+        },
+        {
+          "page": "2114"
+        },
+        {
+          "page": "2115"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "866 F.3d 1",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12275304
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "2"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/866/0001-01"
+      ]
+    },
+    {
+      "cite": "467 U.S. 837",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6209106
+      ],
+      "weight": 3,
+      "year": 1984,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/467/0837-01"
+      ]
+    },
+    {
+      "cite": "912 F.3d 133",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12519652
+      ],
+      "weight": 3,
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "138"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/912/0133-01"
+      ]
+    },
+    {
+      "cite": "27 I. & N. Dec. 441",
+      "category": "reporters:federal",
+      "reporter": "I. & N. Dec.",
+      "weight": 2,
+      "year": 2018,
+      "opinion_index": 0
+    },
+    {
+      "cite": "138 S. Ct. 2105",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12612847
+      ],
+      "weight": 11,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "2109"
+        },
+        {
+          "page": "2113-14"
+        },
+        {
+          "page": "2114"
+        },
+        {
+          "page": "2110"
+        },
+        {
+          "page": "2121",
+          "parenthetical": "Alito, J., dissenting"
+        },
+        {
+          "page": "2110",
+          "parenthetical": "\"A notice that does not inform a noncitizen when and where to appear for removal proceedings is not a 'notice to appear under section 1229(a) ' and therefore does not trigger the stop-time rule.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/2105-01"
+      ]
+    },
+    {
+      "cite": "580 F.3d 196",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4057363
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "201"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/580/0196-01"
+      ]
+    },
+    {
+      "cite": "837 F.3d 331",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12125654
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "340-41"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/837/0331-01"
+      ]
+    },
+    {
+      "cite": "894 F.3d 535",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12517503
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "543",
+          "parenthetical": "quoting Ordonez-Tevalan v. Att'y Gen ., 837 F.3d 331, 340-41 (3d Cir. 2016) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/894/0535-01"
+      ]
+    },
+    {
+      "cite": "8 C.F.R. \u00a7\u00a7 1003.1",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "pin_cites": [
+        {
+          "page": "(b)(3)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "8 U.S.C. \u00a7 1252",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "(b)(1)"
+        },
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)(2)(C)"
+        },
+        {
+          "page": "(a)(2)(C)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "8 U.S.C. \u00a7 1231",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "(b)(3)(B)(ii)"
+        },
+        {
+          "page": "(b)(3)(B)"
+        },
+        {
+          "page": "(b)(3)(B)"
+        },
+        {
+          "page": "(b)(3)(B)(ii)",
+          "parenthetical": "barring withholding eligibility if the Attorney General determines \"the alien, having been convicted by a final judgment of a particularly serious crime is a danger to the community of the United States\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7\u00a7 1342",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 943,
+    "char_count": 18321,
+    "pagerank": {
+      "raw": 5.156413588920004e-08,
+      "percentile": 0.32480484383452474
+    },
+    "sha256": "16a5f7ffd5bf0bdd3cf190296aee92a1506980ef21554e0af0a2f2c785c4a3ef",
+    "simhash": "1:f57cc6807e154b43",
+    "word_count": 3078
+  },
+  "last_updated": "2024-02-27T18:47:03.658527+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before: CHAGARES, HARDIMAN, and SILER, JR. Circuit Judges."
+    ],
+    "parties": [
+      "Emerald Zodwa NKOMO, Petitioner\nv.\nATTORNEY GENERAL OF the UNITED STATES of America, Respondent"
+    ],
+    "opinions": [
+      {
+        "text": "HARDIMAN, Circuit Judge.\nEmerald Nkomo petitions for review of her final order of removal. Her petition requires us to decide a question of first impression in this Court: whether a notice to appear that fails to specify the time and place of an initial removal hearing deprives an immigration judge of jurisdiction over the removal proceedings. We hold that it does not.\nNkomo also seeks review of the denials of her application for withholding of removal and her request for protection under the Convention Against Torture (CAT). We are unpersuaded by the merits of her withholding claim and we lack jurisdiction over her CAT claim. So we will deny Nkomo's petition in part and dismiss it in part.\nI\nA lawful permanent resident of the United States and a citizen of Zimbabwe, Nkomo was convicted in 2017 of conspiracy to commit wire fraud in violation of 18 U.S.C. \u00a7\u00a7 1342 and 1349. This conviction is for an \"aggravated felony,\" which makes Nkomo removable and ineligible for most relief. About a month after she was sentenced to time served for that offense, the Government initiated these removal proceedings.\nAdopting much of the Immigration Judge's analysis, the Board of Immigration Appeals found Nkomo ineligible for withholding because her wire fraud conviction was for a \"particularly serious crime\" under 8 U.S.C. \u00a7 1231(b)(3)(B)(ii). Although that finding did not foreclose CAT protection, the Board denied that too, adopting the IJ's finding that Nkomo had not shown a probability she would be tortured by or with the acquiescence of the government of Zimbabwe. Nkomo filed this timely petition for review. See 8 U.S.C. \u00a7 1252(b)(1).\nII\nThe Board had jurisdiction under 8 C.F.R. \u00a7\u00a7 1003.1(b)(3) and 1003.2(c). We have jurisdiction under 8 U.S.C. \u00a7 1252(a). Because Nkomo is a criminal alien, our review is limited to colorable legal and constitutional claims. 8 U.S.C. \u00a7 1252(a)(2)(C)-(D). We review the Board's decision, but where \"the BIA adopt[s] and affirm[s] the IJ's decisions and orders as well as [conducting] an independent analysis, we review both the IJ's and the BIA's decisions and orders.\" S.E.R.L. v. Att'y Gen. , 894 F.3d 535, 543 (3d Cir. 2018) (quoting Ordonez-Tevalan v. Att'y Gen ., 837 F.3d 331, 340-41 (3d Cir. 2016) ). \"[W]e look to the IJ's opinion 'only where the BIA has substantially relied on that opinion.' \" Id. (quoting Camara v. Att'y Gen. , 580 F.3d 196, 201 (3d Cir. 2009), as amended (Nov. 4, 2009)).\nIII\nWe begin with Nkomo's jurisdictional challenge to the immigration proceedings. While her appeal was pending before the BIA, Nkomo filed a motion to remand to the IJ, claiming that her proceedings should be terminated in light of the Supreme Court's decision in Pereira v. Sessions , --- U.S. ----, 138 S. Ct. 2105, 201 L.Ed.2d 433 (2018). Nkomo Br. 21-23, 25. The BIA denied Nkomo's motion to remand, citing its decision in Matter of Bermudez-Cota , 27 I. & N. Dec. 441 (BIA 2018). Nkomo claims the Board erred in this regard. Because her jurisdictional challenge is a purely legal one, our review is plenary. Chiao Fang Ku v. Att'y Gen. , 912 F.3d 133, 138 (3d Cir. 2019).\nAt issue in Pereira was cancellation of removal, a form of discretionary relief available under 8 U.S.C. \u00a7 1229b(b)(1). To be eligible for cancellation of removal, an alien must accrue 10 years of continuous physical presence in the United States \"immediately preceding the date\" of the application for cancellation. Id. \u00a7 1229b(b)(1)(A). That continuous physical presence ceases to accrue, however, \"when the alien is served a notice to appear under section 1229(a).\" Id. \u00a7 1229b(d)(1)(A). This is known as the \"stop-time rule.\" Pereira , 138 S. Ct. at 2109. Pereira was denied cancellation of removal by the agency because he was served with a notice to appear before he had accrued the requisite 10 years. Applying deference under Chevron, U.S.A., Inc. v. Nat. Res. Def. Council, Inc. , 467 U.S. 837, 104 S.Ct. 2778, 81 L.Ed.2d 694 (1984), the Court of Appeals for the First Circuit denied Pereira's petition for review. Pereira v. Sessions , 866 F.3d 1, 2 (1st Cir. 2017).\nThe Supreme Court reversed. Eschewing Chevron deference in favor of the text of the statute, the Court held that the notice to appear served on Pereira did not trigger the stop-time rule because \u00a7 1229(a) requires that the notice to appear specify, inter alia , \"[t]he time and place at which the [removal] proceedings will be held.\" Pereira , 138 S. Ct. at 2113-14 (quoting 8 U.S.C. \u00a7 1229(a)(1)(G)(i) ). The Court reasoned: \"By expressly referencing \u00a7 1229(a), the statute specifies where to look to find out what 'notice to appear' means.\" Id. at 2114. And looking to \u00a7 1229(a), one finds a requirement that time and place be specified. The Court explained that \"[i]f the three words 'notice to appear' mean anything in this context, they must mean that, at a minimum, the Government has to provide noncitizens 'notice'\nof the information, i.e. , the 'time' and 'place,' that would enable them 'to appear' at the removal hearing.\" Id. at 2115. Because the notice to appear served on Pereira failed to include that information, he was not ineligible for cancellation of removal.\nIn this case, Nkomo appeared at, and participated in, her removal hearing. She nevertheless argues that the IJ, the BIA, and this Court all lack jurisdiction because her notice to appear was deficient under Pereira . Her argument boils down to the following logical sequence: (1) Pereira defined \"notice to appear\" for all purposes; (2) 8 C.F.R. \u00a7 1003.14(a) provides that \"[j]urisdiction vests, and proceedings before an Immigration Judge commence, when a charging document is filed with the Immigration Court\"; (3) 8 C.F.R. \u00a7 1003.13 defines \"charging document\" as \"the written instrument which initiates a proceeding before an Immigration Judge .... includ[ing] a Notice to Appear\"; (4) because a notice to appear lacking time and place information is not actually a notice to appear under Pereira , it's not a charging document; so (5) jurisdiction never vested when that document was filed.\nThe argument Nkomo makes here has been made to seven of our sister courts in the past two years and it has been rejected each time. See Ortiz-Santiago v. Barr , 924 F.3d 956, 957-58, 962-64 (7th Cir. 2019) ; Ali v. Barr , 924 F.3d 983, 986 (8th Cir. 2019) ; Banegas Gomez v. Barr , 922 F.3d 101, 110-12 (2d Cir. 2019) ; Soriano-Mendosa v. Barr , 768 F. App'x 796, 801-02 (10th Cir. 2019) (non-precedential); Santos-Santos v. Barr , 917 F.3d 486, 489-90 (6th Cir. 2019) ; Karingithi v. Whitaker , 913 F.3d 1158, 1160-61 (9th Cir. 2019) ; Hernandez-Perez v. Whitaker , 911 F.3d 305, 314-15 (6th Cir. 2018) ; Leonard v. Whitaker , 746 F. App'x 269, 269-70 (4th Cir. 2018) (non-precedential per curiam); United States v. Perez-Arellano , 756 F. App'x 291, 294 (4th Cir. 2018) (non-precedential per curiam). And, as we noted already, the BIA rejected the argument in Matter of Bermudez-Cota , 27 I. & N. Dec. 441 (BIA 2018). Today we join our sister courts and the BIA for three reasons.\nFirst , unlike the stop-time rule, which is explicitly tied to the list of elements in \u00a7 1229(a), see Pereira , 138 S. Ct. at 2114, the jurisdiction-vesting regulation upon which Nkomo relies does not cross-reference that section. See Karingithi , 913 F.3d at 1161 (\" Pereira treats this statutory cross-reference as crucial .... There is no 'glue' to bind \u00a7 1229(a) and the jurisdictional regulations: the regulations do not reference \u00a7 1229(a), which itself makes no mention of the IJ's jurisdiction.\"). A critical piece of Pereira 's reasoning is thus inapplicable here. And not only is the word \"jurisdiction\" nowhere to be found in \u00a7 1229(a), but it also would be an odd place to find a jurisdictional limitation. Congress would have placed \u00a7 1229(a)(1) 's requirements in \u00a7 1229a-the section establishing the IJ's authority-if it meant them to limit the IJ's subject matter jurisdiction.\nSecond , Pereira did not purport to resolve issues beyond the \u00a7 1229b(d)(1)(A) stop-time rule context, and the Supreme Court repeatedly emphasized the narrowness of its holding, Pereira , 138 S. Ct. at 2110, 2113 ; see id. at 2121 (Alito, J., dissenting). That limitation makes sense, and we should hesitate to extend Pereira 's reach, because the cancellation of removal context at issue in Pereira and the reopening/remand context at issue in Nkomo's case are quite different. Filing a notice to appear commences removal proceedings-and serving it stops the accrual of time for an alien's \"ten years of continuous presence\" if it complies with \u00a7 1229(a). By contrast, reopening and remand are available only when proceedings before the IJ\nhave been completed. See Mauricio-Benitez v. Sessions , 908 F.3d 144, 148 n.1 (5th Cir. 2018). So while Pereira 's holding expands the class of those eligible for discretionary relief in removal proceedings, Nkomo's argument would invalidate scores of removal orders (and, presumably, grants of relief). And it would do so without even requiring the alien to allege she lacked sufficient notice of her hearing, see Hernandez-Perez , 911 F.3d at 314. We doubt the Supreme Court made so dramatic a change sub silentio .\nThird , the majority and dissent in Pereira debated whether a notice to appear under \u00a7 1229(a) might be understood as a charging document rather than a notice focused on informing the alien of the time and place of her hearing. See Pereira , 138 S. Ct. at 2115 n.7 ; id. at 2128 & n.6 (Alito, J., dissenting). The Court observed that \"[e]ven if a notice to appear functions as a 'charging document,' that is not mutually exclusive with the conclusion that a notice to appear serves another equally integral function: telling a noncitizen when and where to appear.\" Id. at 2115 n.7. But the regulation at issue in Nkomo's case explicitly describes the relevant filing as a \"charging document.\" 8 C.F.R. \u00a7 1003.14. This suggests \u00a7 1003.14 's filing requirement serves a different purpose than the \"notice to appear under section 1229(a)\" in the stop-time rule, 8 U.S.C. \u00a7 1229b(d)(1)(A).\nOther regulatory provisions likewise confirm that Pereira 's holding is not readily transferable to 8 C.F.R. \u00a7 1003.14. One rule lists what must be included in a notice to appear under \u00a7 1003.14, and time and place are conspicuously absent. 8 C.F.R. \u00a7 1003.15(b), (c). The regulation further provides that failure to include the required information \"shall not be construed as affording the alien any substantive or procedural rights.\" Id. \u00a7 1003.15(c). Nkomo does not argue that these provisions are inconsistent with the statute or otherwise invalid.\nWe recognize that Pereira 's reasoning at times suggests a breadth that is at odds with the Court's insistence that its opinion was addressed to the \"narrow question\" of the effect of a non-compliant notice to appear on \u00a7 1229b(d)(1)(A) 's stop-time rule. See Pereira , 138 S. Ct. at 2110 (\"A notice that does not inform a noncitizen when and where to appear for removal proceedings is not a 'notice to appear under section 1229(a) ' and therefore does not trigger the stop-time rule.\"). But given the distinguishing factors we have noted along with the Court's emphasis on Pereira 's limitations, and the fact that \u00a7 1229(a) says nothing about jurisdiction-we do not believe Pereira 's interpretation of \"notice to appear\" implicates the IJ's authority to adjudicate. So we reject Nkomo's jurisdictional challenge.\nIV\nHaving determined that the BIA did not err when it denied Nkomo's motion to remand, we turn to the Board's denial of Nkomo's application for withholding of removal. She argues that the Board erred in deciding as a matter of discretion that her conviction for wire fraud was a \"particularly serious crime\" that made her ineligible for relief under 8 U.S.C. \u00a7 1231(b)(3)(B).\nIt is undisputed that Nkomo's fraud conviction was for an \"aggravated felony.\" See Alaka v. Att'y Gen. , 456 F.3d 88, 105 (3d Cir. 2006), as amended (Aug. 23, 2006). It is also undisputed that Nkomo was not sentenced to at least five years' imprisonment for wire fraud. So her crime is not ipso facto a \"particularly serious\" one, though the Board may yet conclude that it is based on its circumstances. See 8 U.S.C. \u00a7 1231(b)(3)(B). The Board has broad discretion to make that decision. See Denis v. Att'y Gen. , 633 F.3d 201, 214 (3d Cir. 2011).\nNkomo's principal argument is that the Board erred in failing to address whether she was a danger to the community. She cites statutory language that might suggest such a requirement. See 8 U.S.C. \u00a7 1231(b)(3)(B)(ii) (barring withholding eligibility if the Attorney General determines \"the alien, having been convicted by a final judgment of a particularly serious crime is a danger to the community of the United States\"). But we need not analyze this argument since it is foreclosed by precedent. See Denis , 633 F.3d at 215 n.19 (\"[N]either the IJ nor the BIA, nor we, need opine as to [the alien's] potential danger to the community.\" (citing Matter of N-A-M- , 24 I. & N. Dec. 336, 342 (BIA 2007) )).\nBesides the question of danger to the community, Nkomo contends the Board erred in failing to take proper account of her minimal participation in the fraudulent scheme underlying her conviction. Her level of participation, she argues, led to a non-custodial sentence that should have been taken into account. We have jurisdiction to review claims that the Board misapplied its precedents. See Kaplun v. Att'y Gen. , 602 F.3d 260, 267 (3d Cir. 2010). But we see no legal error in the Board's analysis on this point.\nThe Board acknowledged Nkomo had been adjudged a minimal participant in a much broader fraudulent scheme, but agreed with the IJ that the gravity of the offense outweighed her lower culpability as compared to her co-conspirators. Nkomo participated in a fraudulent scheme totaling $40 million in losses and she was held personally responsible for nearly $3 million. Because financial crimes may be \"particularly serious,\" Kaplun , 602 F.3d at 268, and in light of the substantial deference due the Board in this area, we perceive no error. Nor does Nkomo point to any Board precedent supporting a different result.\nRelying on Matter of Frentescu , 18 I. & N. Dec. 244 (BIA 1982), Nkomo argues that the Board failed to account for the non-custodial sentence she received. It bears noting the Board did cite her sentence in its analysis. AR 4. What Nkomo seems to suggest is that Board precedent requires consideration of a non-custodial sentence as a mitigating factor. But the Board lists the sentence imposed as a factor that \"may\" be used in its determination-and sometimes the Board relies exclusively on the elements of the offense. Denis , 633 F.3d at 215 ; N-A-M- , 24 I. & N. Dec. at 342-43. This approach necessarily gives no weight to the sentence imposed. As the Board explained in N-A-M- , its \"approach to determining whether a crime is particularly serious has evolved since ... Matter of Frentescu \" and \"the sentence imposed is not a dominant factor in determining whether a conviction is for a particularly serious crime.\" Id. In any event, the \"particularly serious crime\" determination lacks \"textual or contextual indicators in the INA\" and is not amenable to bright line rules like the one Nkomo seems to propose. Denis , 633 F.3d at 214. We will therefore deny the petition for review as to withholding of removal.\nV\nFinally, we consider Nkomo's CAT claim. Nkomo's father was deeply involved with the Zimbabwe African People's Union (ZAPU) party, a onetime rival of the Zimbabwe African National Union (ZANU) party. She argues the Board erred in relying on the merger of these parties (into the ZANU-PF party) in finding she would not likely be tortured by or with the acquiescence of the government of Zimbabwe. The merger, she contends, was \"only symbolic in nature,\" and she would still be in danger as an outsider to Zimbabwe's dominant political party. Nkomo Br. 21. In essence, she takes issue with the IJ's finding that she is unlikely to suffer harm upon return because the party that once posed a threat has merged with her own. This presents a factual challenge over which we have no jurisdiction. See Pierre v. Att'y Gen. , 528 F.3d 180, 184 (3d Cir. 2008) (en banc) (\"Because the basis for removal is [the alien's] conviction for an aggravated felony, our jurisdiction is limited under the REAL ID Act to 'constitutional claims or questions of law.' \" (quoting 8 U.S.C. \u00a7 1252(a)(2)(C)-(D) )).\nNkomo also rehashes evidence that she might suffer harm upon her return to Zimbabwe, without addressing evidence to the contrary relied on by the IJ and the Board. Here again, what is likely to happen on Nkomo's return to Zimbabwe (as opposed to whether those predicted events meet the legal definitions of \"torture\" or \"acquiescence\") is a factual question over which we lack jurisdiction. See Myrie v. Att'y Gen. , 855 F.3d 509, 516-17 (3d Cir. 2017). So we cannot review, much less disturb, the Board's determination that if Nkomo is returned to Zimbabwe, she is not likely to suffer harm because her party merged with the party in power, the government has not targeted her for three decades, and she has previously traveled there without being questioned by the government.\n* * *\nFor these reasons, we will deny Nkomo's petition for review as to withholding of removal and otherwise dismiss it for lack of jurisdiction over her claim for protection under the Convention Against Torture.",
+        "type": "majority",
+        "author": "HARDIMAN, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Jerard A. Gonzalez, Cheryl Lin, Bastarrika Soto Gonzalez & Somohano, 3 Garret Mountain Plaza, Suite 302, Woodland Park, NJ 07424, Counsel for petitioner",
+      "Rachel L. Browning, Jessica E. Burns, Rosanne M. Perry, United States Department of Justice, Office of Immigration Litigation, P.O. Box 878, Ben Franklin Station, Washington, DC 20044, Counsel for respondent"
+    ],
+    "corrections": "",
+    "head_matter": "Emerald Zodwa NKOMO, Petitioner\nv.\nATTORNEY GENERAL OF the UNITED STATES of America, Respondent\nNo. 18-3109\nUnited States Court of Appeals, Third Circuit.\nSubmitted April 1, 2019\nFiled: July 12, 2019\nJerard A. Gonzalez, Cheryl Lin, Bastarrika Soto Gonzalez & Somohano, 3 Garret Mountain Plaza, Suite 302, Woodland Park, NJ 07424, Counsel for petitioner\nRachel L. Browning, Jessica E. Burns, Rosanne M. Perry, United States Department of Justice, Office of Immigration Litigation, P.O. Box 878, Ben Franklin Station, Washington, DC 20044, Counsel for respondent\nBefore: CHAGARES, HARDIMAN, and SILER, JR. Circuit Judges.\nOPINION OF THE COURT\nThe Honorable Eugene E. Siler, Jr., Senior Circuit Judge for the United States Court of Appeals for the Sixth Circuit, sitting by designation."
+  },
+  "file_name": "0129-01",
+  "first_page_order": 129,
+  "last_page_order": 136
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5936693,
+  "name": "Brooks v. United States",
+  "name_abbreviation": "Brooks v. United States",
+  "decision_date": "2011-06-06",
+  "docket_number": "No. 10-10384",
+  "first_page": "1041",
+  "last_page": "1041",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1041"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.651,
+    "sha256": "8a21da813d190471e8d40817b5b077d2e05b84c4bf19a1cf7daeac0ecb1aa4aa",
+    "simhash": "1:8418ef8bcda7a46e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Brooks v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10384.\nBrooks v. United States."
+  },
+  "file_name": "1041-01",
+  "first_page_order": 1067,
+  "last_page_order": 1067
+}

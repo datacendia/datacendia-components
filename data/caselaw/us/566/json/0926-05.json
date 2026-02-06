@@ -1,0 +1,59 @@
+{
+  "id": 12201517,
+  "name": "Rivera v. Tucker, Secretary, Florida Department of Corrections",
+  "name_abbreviation": "Rivera v. Tucker",
+  "decision_date": "2012-04-02",
+  "docket_number": "No. 11-8634",
+  "first_page": "926",
+  "last_page": "926",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 926"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 110,
+    "ocr_confidence": 0.559,
+    "sha256": "34323c2a6585d3bfca65132ee365376b0e553dc6477f8433dacf78a1a8b0df52",
+    "simhash": "1:307910e3c8f0ba7a",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rivera v. Tucker, Secretary, Florida Department of Corrections."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Fla. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8634.\nRivera v. Tucker, Secretary, Florida Department of Corrections."
+  },
+  "file_name": "0926-05",
+  "first_page_order": 802,
+  "last_page_order": 802
+}

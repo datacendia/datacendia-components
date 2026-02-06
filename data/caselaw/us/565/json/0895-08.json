@@ -1,0 +1,59 @@
+{
+  "id": 12218039,
+  "name": "Stinson v. Nebraska Furniture Mart",
+  "name_abbreviation": "Stinson v. Nebraska Furniture Mart",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5213",
+  "first_page": "895",
+  "last_page": "895",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 895"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 82,
+    "ocr_confidence": 0.689,
+    "sha256": "3a51e4e07d81a6c7349f9b704a0f2e9ac6d933eac574867882048ab3bead864c",
+    "simhash": "1:afd7743b7d6bf994",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Stinson v. Nebraska Furniture Mart."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Neb. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5213.\nStinson v. Nebraska Furniture Mart."
+  },
+  "file_name": "0895-08",
+  "first_page_order": 977,
+  "last_page_order": 977
+}

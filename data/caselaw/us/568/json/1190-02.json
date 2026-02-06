@@ -1,0 +1,59 @@
+{
+  "id": 12431784,
+  "name": "Childers v. Floyd, Warden",
+  "name_abbreviation": "Childers v. Floyd",
+  "decision_date": "2013-02-25",
+  "docket_number": "No. 11-42",
+  "first_page": "1190",
+  "last_page": "1190",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1190"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 31,
+    "char_count": 201,
+    "ocr_confidence": 0.597,
+    "sha256": "2d046e0c7615fd2e29cb1c77f1e09da703ded540be0b5b00bd512ca6debe10b8",
+    "simhash": "1:080a6c16ccd3b2de",
+    "word_count": 32
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Childers v. Floyd, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari granted, judgment vacated, and case remanded for further consideration in light of Johnson v. Williams, ante, p. 289.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "February 25, 2013\nNo. 11-42.\nChilders v. Floyd, Warden."
+  },
+  "file_name": "1190-02",
+  "first_page_order": 1266,
+  "last_page_order": 1266
+}

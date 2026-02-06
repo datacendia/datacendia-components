@@ -1,0 +1,59 @@
+{
+  "id": 12411618,
+  "name": "Hutchison v. Colson, Warden",
+  "name_abbreviation": "Hutchison v. Colson",
+  "decision_date": "2012-06-25",
+  "docket_number": "No. 11-9125",
+  "first_page": "937",
+  "last_page": "937",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 937"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.685,
+    "sha256": "dfd940f341caacebc5c9d16c2bfdef9bf302137d545c6e6a6796e1b39ca3c525",
+    "simhash": "1:b61a3ac0ce5f38f2",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hutchison v. Colson, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9125.\nHutchison v. Colson, Warden."
+  },
+  "file_name": "0937-14",
+  "first_page_order": 841,
+  "last_page_order": 841
+}

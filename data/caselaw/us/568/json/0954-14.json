@@ -1,0 +1,59 @@
+{
+  "id": 12418820,
+  "name": "Carden v. United States",
+  "name_abbreviation": "Carden v. United States",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 12-6045",
+  "first_page": "954",
+  "last_page": "954",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 954"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.729,
+    "sha256": "320f5c4fde128aa223dc4442b1c4383b7e868ea62d2b033d75af193880afec29",
+    "simhash": "1:9f28cb338789901a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Carden v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6045.\nCarden v. United States."
+  },
+  "file_name": "0954-14",
+  "first_page_order": 1030,
+  "last_page_order": 1030
+}

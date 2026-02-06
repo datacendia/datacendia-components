@@ -1,0 +1,59 @@
+{
+  "id": 5981666,
+  "name": "Mahan v. United States",
+  "name_abbreviation": "Mahan v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11290",
+  "first_page": "872",
+  "last_page": "872",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 872"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.617,
+    "sha256": "539fb612a06079158d76411e4d74c44908bd6d749d6c96cc1d05989c82937a77",
+    "simhash": "1:548be6032dbd0d18",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mahan v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11290.\nMahan v. United States."
+  },
+  "file_name": "0872-04",
+  "first_page_order": 894,
+  "last_page_order": 894
+}

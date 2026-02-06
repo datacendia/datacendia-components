@@ -1,0 +1,61 @@
+{
+  "id": 4337297,
+  "name": "McCall v. United States",
+  "name_abbreviation": "McCall v. United States",
+  "decision_date": "2011-06-20",
+  "docket_number": "No. 10-10643",
+  "first_page": "1031",
+  "last_page": "1031",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1031"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 151,
+    "ocr_confidence": 0.586,
+    "sha256": "ef9ab189d0fd08b139d841c8c8e8884fe3ac446e050f72f1f1433f89e6c75bbd",
+    "simhash": "1:9da2da82292e9cca",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "McCall v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10643.\nMcCall v. United States."
+  },
+  "file_name": "1031-01",
+  "first_page_order": 1025,
+  "last_page_order": 1025
+}

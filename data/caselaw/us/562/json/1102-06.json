@@ -1,0 +1,61 @@
+{
+  "id": 6006726,
+  "name": "Goodson v. United States",
+  "name_abbreviation": "Goodson v. United States",
+  "decision_date": "2010-12-06",
+  "docket_number": "No. 10-592",
+  "first_page": "1102",
+  "last_page": "1102",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1102"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 150,
+    "ocr_confidence": 0.601,
+    "sha256": "d032dd96c59b2ed240f4a612ea0ab37bea8007e766351ada36f6a86149afe259",
+    "simhash": "1:8d3adb82480e984e",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Goodson v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-592.\nGoodson v. United States."
+  },
+  "file_name": "1102-06",
+  "first_page_order": 1124,
+  "last_page_order": 1124
+}

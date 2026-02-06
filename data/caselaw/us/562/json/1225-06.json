@@ -1,0 +1,59 @@
+{
+  "id": 6033507,
+  "name": "Wilson v. Virginia",
+  "name_abbreviation": "Wilson v. Virginia",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-7699",
+  "first_page": "1225",
+  "last_page": "1225",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1225"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 65,
+    "ocr_confidence": 0.61,
+    "sha256": "97fbe2e351f7105f1861f2413ccb260966769a72133a80fd729782cb5c802e40",
+    "simhash": "1:c8e740472fa86e4b",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wilson v. Virginia."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Va. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7699.\nWilson v. Virginia."
+  },
+  "file_name": "1225-06",
+  "first_page_order": 1247,
+  "last_page_order": 1247
+}

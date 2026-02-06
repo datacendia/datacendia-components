@@ -1,0 +1,59 @@
+{
+  "id": 12246902,
+  "name": "Cervantes v. McEwan, Acting Warden",
+  "name_abbreviation": "Cervantes v. McEwan",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-7776",
+  "first_page": "1210",
+  "last_page": "1210",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1210"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 83,
+    "ocr_confidence": 0.68,
+    "sha256": "02ffef2f82bb35559a35bf0cc03640c188d78b14cfc70e6237b2c5cee96c6466",
+    "simhash": "1:103006b1719bc037",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cervantes v. McEwan, Acting Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7776.\nCervantes v. McEwan, Acting Warden."
+  },
+  "file_name": "1210-05",
+  "first_page_order": 1292,
+  "last_page_order": 1292
+}

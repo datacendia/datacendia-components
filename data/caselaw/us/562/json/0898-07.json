@@ -1,0 +1,59 @@
+{
+  "id": 6005627,
+  "name": "Coyle v. Aquila, Inc.",
+  "name_abbreviation": "Coyle v. Aquila, Inc.",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5005",
+  "first_page": "898",
+  "last_page": "898",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 898"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 69,
+    "ocr_confidence": 0.626,
+    "sha256": "e97e83928aee8d68b795ab30e536a4e880dedde3b1fb725579d56611b1e828de",
+    "simhash": "1:34c8e2a7cd6594c7",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Coyle v. Aquila, Inc."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5005.\nCoyle v. Aquila, Inc."
+  },
+  "file_name": "0898-07",
+  "first_page_order": 920,
+  "last_page_order": 920
+}

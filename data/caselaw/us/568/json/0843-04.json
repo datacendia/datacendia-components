@@ -1,0 +1,59 @@
+{
+  "id": 12412875,
+  "name": "Lenoir v. Florida",
+  "name_abbreviation": "Lenoir v. Florida",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10418",
+  "first_page": "843",
+  "last_page": "843",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 843"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 66,
+    "ocr_confidence": 0.686,
+    "sha256": "ed8eaf77f8399eb74599b019a9d88d481ddbaf28483af78aa7a4a4a7c4d388cb",
+    "simhash": "1:275ef243e4e7b636",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lenoir v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Fla. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10418.\nLenoir v. Florida."
+  },
+  "file_name": "0843-04",
+  "first_page_order": 919,
+  "last_page_order": 919
+}

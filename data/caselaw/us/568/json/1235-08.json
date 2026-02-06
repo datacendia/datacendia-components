@@ -1,0 +1,59 @@
+{
+  "id": 12433328,
+  "name": "Black v. Wilkinson, Warden",
+  "name_abbreviation": "Black v. Wilkinson",
+  "decision_date": "2013-03-18",
+  "docket_number": "No. 12-8139",
+  "first_page": "1235",
+  "last_page": "1235",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1235"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.62,
+    "sha256": "3c79f65c747f1599666973101ba21c3689d6736c61a5b05e157c442a6b132ca8",
+    "simhash": "1:9fdc3dbcde1712ea",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Black v. Wilkinson, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8139.\nBlack v. Wilkinson, Warden."
+  },
+  "file_name": "1235-08",
+  "first_page_order": 1311,
+  "last_page_order": 1311
+}

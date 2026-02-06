@@ -1,0 +1,59 @@
+{
+  "id": 12243394,
+  "name": "Clarke v. Lewis et al.",
+  "name_abbreviation": "Clarke v. Lewis",
+  "decision_date": "2012-01-17",
+  "docket_number": "No. 11-7450",
+  "first_page": "1166",
+  "last_page": "1166",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1166"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 72,
+    "ocr_confidence": 0.656,
+    "sha256": "4050ecb30856883c14c8580e639613aec643ed62d5b840eb803c382726b7f69f",
+    "simhash": "1:98480e3eddc79032",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Clarke v. Lewis et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7450.\nClarke v. Lewis et al."
+  },
+  "file_name": "1166-09",
+  "first_page_order": 1248,
+  "last_page_order": 1248
+}

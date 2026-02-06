@@ -1,0 +1,59 @@
+{
+  "id": 12241288,
+  "name": "Edwards v. Tucker, Secretary, Florida Department of Corrections",
+  "name_abbreviation": "Edwards v. Tucker",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-7472",
+  "first_page": "1132",
+  "last_page": "1132",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1132"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 113,
+    "ocr_confidence": 0.642,
+    "sha256": "d3100909121297c2ef79aa8f76ae4970bbf99043f0a58eb436bec6b78f1691c6",
+    "simhash": "1:1bf3ca33acef9258",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Edwards v. Tucker, Secretary, Florida Department op Corrections."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7472.\nEdwards v. Tucker, Secretary, Florida Department op Corrections."
+  },
+  "file_name": "1132-06",
+  "first_page_order": 1214,
+  "last_page_order": 1214
+}

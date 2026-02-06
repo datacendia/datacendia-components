@@ -1,0 +1,59 @@
+{
+  "id": 6004984,
+  "name": "Lemus v. United States",
+  "name_abbreviation": "Lemus v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-10988",
+  "first_page": "858",
+  "last_page": "858",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 858"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.631,
+    "sha256": "dcf4f4cf0ea63979952445b8cc2dbb80c3944c4b209f23de5677fe9820f71e4b",
+    "simhash": "1:158a80a521bf683a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lemus v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10988.\nLemus v. United States."
+  },
+  "file_name": "0858-04",
+  "first_page_order": 880,
+  "last_page_order": 880
+}

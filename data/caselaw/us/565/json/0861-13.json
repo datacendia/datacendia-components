@@ -1,0 +1,59 @@
+{
+  "id": 12209047,
+  "name": "Brown v. Clarke, Director, Virginia Department of Corrections",
+  "name_abbreviation": "Brown v. Clarke",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-11003",
+  "first_page": "861",
+  "last_page": "861",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 861"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 111,
+    "ocr_confidence": 0.663,
+    "sha256": "25022730669de02357740849d6864235f18a258c7364a1788f510440b0d7cba2",
+    "simhash": "1:37e2e8218c2ab221",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Brown v. Clarke, Director, Virginia Department of Corrections."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-11003.\nBrown v. Clarke, Director, Virginia Department of Corrections."
+  },
+  "file_name": "0861-13",
+  "first_page_order": 943,
+  "last_page_order": 943
+}

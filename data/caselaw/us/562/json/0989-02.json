@@ -1,0 +1,59 @@
+{
+  "id": 5985362,
+  "name": "Razo v. United States",
+  "name_abbreviation": "Razo v. United States",
+  "decision_date": "2010-10-18",
+  "docket_number": "No. 10-6453",
+  "first_page": "989",
+  "last_page": "989",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 989"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.556,
+    "sha256": "4c9268369c13d3dcf5fed00f3752825c22d1a30c4bc8ac1be1145937d9b17a8c",
+    "simhash": "1:04bbc7a74d3d1e01",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Razo v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6453.\nRazo v. United States."
+  },
+  "file_name": "0989-02",
+  "first_page_order": 1011,
+  "last_page_order": 1011
+}

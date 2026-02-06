@@ -1,0 +1,1660 @@
+{
+  "id": 3573000,
+  "name": "RITA v. UNITED STATES",
+  "name_abbreviation": "Rita v. United States",
+  "decision_date": "2007-06-21",
+  "docket_number": "No. 06-5754",
+  "first_page": "338",
+  "last_page": "392",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "551 U.S. 338"
+    },
+    {
+      "type": "parallel",
+      "cite": "127 S. Ct. 2456"
+    },
+    {
+      "type": "parallel",
+      "cite": "168 L. Ed. 2d 203"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2006-067"
+    },
+    {
+      "type": "vendor",
+      "cite": "2007 U.S. LEXIS 8269"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "458 F. 3d 491",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3387687
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "496"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/458/0491-01"
+      ]
+    },
+    {
+      "cite": "451 F. 3d 352",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3269751
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "358"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/451/0352-01"
+      ]
+    },
+    {
+      "cite": "445 F. 3d 1",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        2781528
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "4"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/445/0001-01"
+      ]
+    },
+    {
+      "cite": "437 F. 3d 424",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        969571
+      ],
+      "weight": 2,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "433"
+        },
+        {
+          "page": "434"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/437/0424-01"
+      ]
+    },
+    {
+      "cite": "439 F. 3d 415",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        31230
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "417"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/439/0415-01"
+      ]
+    },
+    {
+      "cite": "450 F. 3d 633",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3087694
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "642"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/450/0633-01"
+      ]
+    },
+    {
+      "cite": "454 F. 3d 700",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5561774
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "703"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/454/0700-01"
+      ]
+    },
+    {
+      "cite": "543 U. S. 371",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3442797
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "380-381"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/543/0371-01"
+      ]
+    },
+    {
+      "cite": "530 U. S. 466",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9413911
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "471"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/530/0466-01"
+      ]
+    },
+    {
+      "cite": "536 U. S. 584",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1254507
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "602"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/536/0584-01"
+      ]
+    },
+    {
+      "cite": "542 U. S. 296",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5868041
+      ],
+      "weight": 2,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "304-305"
+        },
+        {
+          "page": "303-304",
+          "parenthetical": "\"When a judge inflicts punishment that the jury's verdict alone does not allow, the jury has not found all the facts which the law makes essential to the punishment and the judge exceeds his proper authority\" (internal quotation marks and citation omitted)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/542/0296-01"
+      ]
+    },
+    {
+      "cite": "549 U. S. 270",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3553669
+      ],
+      "weight": 2,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "281-282",
+          "parenthetical": "citing Booker, supra, at 243-244; Blakely v. Washington, 542 U. S. 296, 304-305 (2004); Ring v. Arizona, 536 U. S. 584, 602 (2002); and Apprendi v. New Jersey, 530 U. S. 466, 471 (2000)"
+        },
+        {
+          "page": "283-284",
+          "parenthetical": "discussing Blakely"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/549/0270-01"
+      ]
+    },
+    {
+      "cite": "501 U. S. 129",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1108055
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "136",
+          "parenthetical": "recognizing importance of notice and meaningful opportunity to be heard at sentencing"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/501/0129-01"
+      ]
+    },
+    {
+      "cite": "488 U. S. 361",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1494660
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "393-394"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/488/0361-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7\u00a7 994",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "(f)"
+        },
+        {
+          "page": "\u00b6 3"
+        },
+        {
+          "page": "\u00b6 3"
+        },
+        {
+          "page": "(p)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 991",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "411 U. S. 792",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        10002
+      ],
+      "year": 1973,
+      "pin_cites": [
+        {
+          "page": "802"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/411/0792-01"
+      ]
+    },
+    {
+      "cite": "530 U. S. 133",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9413371
+      ],
+      "weight": 2,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "143"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/530/0133-01"
+      ]
+    },
+    {
+      "cite": "540 U. S. 44",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8896889
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "49-50, n. 3",
+          "parenthetical": "citing Reeves v. Sanderson Plumbing Products, Inc., 530 U. S. 133, 143 (2000), and McDonnell Douglas Corp. v. Green, 411 U. S. 792, 802 (1973)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/540/0044-01"
+      ]
+    },
+    {
+      "cite": "431 F. 3d 784",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1618099
+      ],
+      "weight": 2,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "788",
+          "parenthetical": "per curiam"
+        },
+        {
+          "page": "788"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/431/0784-01"
+      ]
+    },
+    {
+      "cite": "437 F. 3d 324",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        969527
+      ],
+      "weight": 2,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "331",
+          "parenthetical": "same"
+        },
+        {
+          "page": "331"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/437/0324-01"
+      ]
+    },
+    {
+      "cite": "443 F. 3d 19",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        2655278
+      ],
+      "weight": 2,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "27",
+          "parenthetical": "same"
+        },
+        {
+          "page": "27"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/443/0019-01"
+      ]
+    },
+    {
+      "cite": "440 F. 3d 514",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        81848
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "518",
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/440/0514-01"
+      ]
+    },
+    {
+      "cite": "437 F. 3d 1050",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        969605
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "1053-1054",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/437/1050-01"
+      ]
+    },
+    {
+      "cite": "413 F. 3d 716",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8970568
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "717",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/413/0716-01"
+      ]
+    },
+    {
+      "cite": "415 F. 3d 606",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8947007
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "608",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/415/0606-01"
+      ]
+    },
+    {
+      "cite": "436 F. 3d 706",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        939945
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "708",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/436/0706-01"
+      ]
+    },
+    {
+      "cite": "435 F. 3d 551",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        936348
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "554",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/435/0551-01"
+      ]
+    },
+    {
+      "cite": "436 F. 3d 449",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        939815
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "457",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/436/0449-01"
+      ]
+    },
+    {
+      "cite": "454 F. 3d 366",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3457562,
+        5561351
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "376",
+          "parenthetical": "uses presumption"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/372/0170-01",
+        "/f3d/454/0366-01"
+      ]
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 3553",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)(2)"
+        },
+        {
+          "page": "(a)",
+          "parenthetical": "2000 ed. and Supp. IV"
+        },
+        {
+          "page": "(a)",
+          "parenthetical": "2000 ed., Supp. IV"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "22 U. S. C. \u00a7 2778",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 8,
+      "pin_cites": [
+        {
+          "page": "(b)(2)"
+        },
+        {
+          "page": "125"
+        },
+        {
+          "page": "126"
+        },
+        {
+          "page": "126-132"
+        },
+        {
+          "page": "132"
+        },
+        {
+          "page": "133"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 3552",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "122"
+        },
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "177 Fed. Appx. 357",
+      "category": "reporters:federal",
+      "reporter": "Fed. Appx.",
+      "weight": 2,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "358",
+          "parenthetical": "per curiam"
+        },
+        {
+          "page": "358",
+          "parenthetical": "internal quotation marks and citations omitted"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "543 U. S. 220",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5925862
+      ],
+      "weight": 6,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "261-263"
+        },
+        {
+          "page": "259-260"
+        },
+        {
+          "page": "259-260"
+        },
+        {
+          "page": "243-244"
+        },
+        {
+          "page": "244",
+          "parenthetical": "\"Any fact (other than a prior conviction) which is necessary to support a sentence exceeding the maximum authorized by the facts established by a plea of guilty or a jury verdict must be admitted by the defendant or proved to a jury beyond a reasonable doubt\""
+        },
+        {
+          "page": "232",
+          "parenthetical": "discussing Blakely"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/543/0220-01"
+      ]
+    },
+    {
+      "cite": "487 U. S. 326",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1774801
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "336-337"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/487/0326-01"
+      ]
+    },
+    {
+      "cite": "454 F. 3d 1285",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5560620
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "1291-1292"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/454/1285-01"
+      ]
+    },
+    {
+      "cite": "469 F. 3d 896",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3755206
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "907"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/469/0896-01"
+      ]
+    },
+    {
+      "cite": "404 F. 3d 1029",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9017387
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "1033"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/404/1029-01"
+      ]
+    },
+    {
+      "cite": "414 F. 3d 725",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8970797
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "729"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/414/0725-01"
+      ]
+    },
+    {
+      "cite": "543 U. S. 371",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3442797
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "380-381"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/543/0371-01"
+      ]
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 3553",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(1)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "543 U. S. 220",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5925862
+      ],
+      "weight": 3,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "272",
+          "parenthetical": "Stevens, J., dissenting"
+        },
+        {
+          "page": "260"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/543/0220-01"
+      ]
+    },
+    {
+      "cite": "17 Hofstra L. Rev. 1",
+      "category": "journals:journal",
+      "reporter": "Hofstra L. Rev.",
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "19-20"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "2007 U. S. App. LEXIS 12872",
+      "category": "reporters:specialty_lexis",
+      "reporter": "U.S. App. LEXIS",
+      "year": 2007,
+      "pin_cites": [
+        {
+          "parenthetical": "McConnell, J., concurring"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "454 U. S. 464",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6189548
+      ],
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "472"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/454/0464-01"
+      ]
+    },
+    {
+      "cite": "463 U. S. 277",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6194264
+      ],
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "290, n. 16"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/463/0277-01"
+      ]
+    },
+    {
+      "cite": "503 U. S. 193",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6224736
+      ],
+      "weight": 3,
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "205"
+        },
+        {
+          "page": "205"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/503/0193-01"
+      ]
+    },
+    {
+      "cite": "474 U. S. 104",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6199234
+      ],
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "114"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/474/0104-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 2412",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(d)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "496 U. S. 384",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12123482
+      ],
+      "weight": 4,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "403-405"
+        },
+        {
+          "page": "403-405"
+        },
+        {
+          "page": "404"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/496/0384-01"
+      ]
+    },
+    {
+      "cite": "487 U. S. 552",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1775136
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "558-560"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/487/0552-01"
+      ]
+    },
+    {
+      "cite": "117 Stat. 670",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "518 U. S. 81",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1730168
+      ],
+      "weight": 5,
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "99"
+        },
+        {
+          "page": "98"
+        },
+        {
+          "page": "113"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/518/0081-01"
+      ]
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 3742",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(e)"
+        },
+        {
+          "page": "(e)(3)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "543 U. S. 371",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3442797
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "380-381",
+          "parenthetical": "opinion for the Court by Scalia, J., joined by, inter alios, Stevens, Kennedy, Ginsburg, and Breyer, JJ."
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/543/0371-01"
+      ]
+    },
+    {
+      "cite": "530 U. S. 466",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9413911
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "481"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/530/0466-01"
+      ]
+    },
+    {
+      "cite": "542 U. S. 296",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5868041
+      ],
+      "weight": 5,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "305"
+        },
+        {
+          "page": "308"
+        },
+        {
+          "page": "305"
+        },
+        {
+          "page": "305"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/542/0296-01"
+      ]
+    },
+    {
+      "cite": "549 U. S. 270",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3553669
+      ],
+      "weight": 6,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "309"
+        },
+        {
+          "page": "293, n. 15"
+        },
+        {
+          "page": "288, n. 13"
+        },
+        {
+          "page": "293, n. 15",
+          "parenthetical": "opinion for the Court by Ginsburg, J."
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/549/0270-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7\u00a7 994",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "parenthetical": "2000 ed. and Supp. IV"
+        },
+        {
+          "parenthetical": "2000 ed. and Supp. IV"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 3553",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "543 U. S. 220",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5925862
+      ],
+      "weight": 8,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "233"
+        },
+        {
+          "page": "260-261"
+        },
+        {
+          "page": "248"
+        },
+        {
+          "page": "275-277",
+          "parenthetical": "Stevens, J., dissenting in part"
+        },
+        {
+          "page": "257-258, 266"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/543/0220-01"
+      ]
+    },
+    {
+      "cite": "486 U. S. 717",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6223308
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "726-727"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/486/0717-01"
+      ]
+    },
+    {
+      "cite": "494 F. Supp. 2d 1",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        3446826
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "12-14",
+          "parenthetical": "Young, J."
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/f-supp-2d/494/0001-01"
+      ]
+    },
+    {
+      "cite": "536 U. S. 545",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1254843
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "568-569"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/536/0545-01"
+      ]
+    },
+    {
+      "cite": "480 U. S. 678",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1131466
+      ],
+      "weight": 2,
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "684"
+        },
+        {
+          "page": "684"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/480/0678-01"
+      ]
+    },
+    {
+      "cite": "32 F. R. D. 249",
+      "category": "reporters:specialty",
+      "reporter": "F.R.D.",
+      "year": 1962,
+      "pin_cites": [
+        {
+          "page": "260"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "418 U. S. 424",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6173326
+      ],
+      "weight": 2,
+      "year": 1974,
+      "pin_cites": [
+        {
+          "page": "431",
+          "parenthetical": "noting \"the general proposition that once it is determined that a sentence is within the limitations set forth in the statute under which it is imposed, appellate review is at an end\""
+        },
+        {
+          "page": "443",
+          "parenthetical": "\"[W]ell-established doctrine bars review of the exercise of sentencing discretion\""
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/418/0424-01"
+      ]
+    },
+    {
+      "cite": "497 U. S. 62",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6213129
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "95-96",
+          "parenthetical": "Scalia, J., dissenting"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/497/0062-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a73742",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 3742",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(e)",
+          "parenthetical": "2000 ed. and Supp. IV"
+        },
+        {
+          "page": "(f)"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "530 U. S. 466",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9413911
+      ],
+      "weight": 4,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "490"
+        },
+        {
+          "page": "489-490"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/530/0466-01"
+      ]
+    },
+    {
+      "cite": "542 U. S. 296",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5868041
+      ],
+      "weight": 2,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "305-306"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/542/0296-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 991",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 3
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 3553",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(b)(1)",
+          "parenthetical": "2000 ed., Supp. IV"
+        },
+        {
+          "page": "(c)(2)"
+        }
+      ],
+      "opinion_index": 3
+    },
+    {
+      "cite": "543 U. S. 220",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5925862
+      ],
+      "weight": 2,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "263",
+          "parenthetical": "calling for a reasonableness standard \"across the board\""
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/543/0220-01"
+      ]
+    },
+    {
+      "cite": "523 U. S. 224",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11503479
+      ],
+      "year": 1998,
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/523/0224-01"
+      ]
+    },
+    {
+      "cite": "98 Stat. 1987,18",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 3
+    },
+    {
+      "cite": "18 U. S. C. \u00a72119",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 3
+    },
+    {
+      "cite": "526 U. S. 227",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11133049
+      ],
+      "weight": 5,
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "230"
+        },
+        {
+          "page": "233"
+        },
+        {
+          "page": "243-244"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/526/0227-01"
+      ]
+    },
+    {
+      "cite": "337 U. S. 241",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        572499
+      ],
+      "year": 1949,
+      "pin_cites": [
+        {
+          "page": "246-247"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/337/0241-01"
+      ]
+    },
+    {
+      "cite": "441 U. S. 130",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1780316
+      ],
+      "year": 1979,
+      "pin_cites": [
+        {
+          "parenthetical": "prohibiting nonunanimous six-person juries"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/441/0130-01"
+      ]
+    },
+    {
+      "cite": "406 U. S. 404",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6171091
+      ],
+      "year": 1972,
+      "pin_cites": [
+        {
+          "parenthetical": "allowing nonunanimous juries in state criminal trials"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/406/0404-01"
+      ]
+    },
+    {
+      "cite": "435 U. S. 223",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        2790
+      ],
+      "year": 1978,
+      "pin_cites": [
+        {
+          "parenthetical": "prohibiting five-person state juries but allowing juries of six"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/435/0223-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 2802,
+    "char_count": 105898,
+    "ocr_confidence": 0.665,
+    "pagerank": {
+      "raw": 0.00011047601516071393,
+      "percentile": 0.9999888024359721
+    },
+    "sha256": "b22ed561d1916b37472d54b769087b29b19020a4dae86ae66f8036e524bacae2",
+    "simhash": "1:a8fc07877b2e344f",
+    "word_count": 16930
+  },
+  "last_updated": "2024-02-27T20:23:21.737771+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Breyek, J., delivered the opinion of the Court, in which Roberts, C. J., and Stevens, Kennedy, Ginsburg, and Auto, JJ., joined, and in which Scaua and Thomas, JJ., joined as to Part III. Stevens, J., filed a concurring opinion, in which Ginsburg, J., joined as to all but Part II, post, p. 360. Scaua, J., filed an opinion concurring in part and concurring in the judgment, in which Thomas, J., joined, post, p. 368. Souter, J., filed a dissenting opinion, post, p. 384."
+    ],
+    "parties": [
+      "RITA v. UNITED STATES"
+    ],
+    "opinions": [
+      {
+        "text": "Justice Breyer\ndelivered the opinion of the Court.\nThe federal courts of appeals review federal sentences and set aside those they find \u201cunreasonable.\u201d See, e. g., United States v. Booker, 543 U. S. 220, 261-263 (2005). Several Circuits have held that, when doing so, they will presume that a sentence imposed within a properly calculated United States Sentencing Guidelines range is a reasonable sentence. See, e. g., 177 Fed. Appx. 357, 358 (CA4 2006) (per curiam) (case below); see also United States Sentencing Commission, Guidelines Manual (Nov. 2006) (USSG or Guidelines). The most important question before us is whether the law permits the courts of appeals to use this presumption. We hold that it does.\nI\nA\nThe basic crime in this case concerns two false statements which Victor Rita, the petitioner, made under oath to a federal grand jury. The jury was investigating a gun company called InterOrdnance. Prosecutors believed that buyers of an InterOrdnance kit, called a \u201cPPSH 41 machinegun \u2018parts kit,\u2019\u201d could assemble a machinegun from the kit, that those kits consequently amounted to machineguns, and that Inter-Ordnance had not secured proper registrations for the importation of the guns. App. 7, 16-19, 21-22.\nRita had bought a PPSH 41 machinegun parts kit. Rita, when contacted by the Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF), agreed to let a federal agent inspect the kit. Id., at 119-120; Supp. App. 5-8. But before meeting with the agent, Rita called InterOrdnance and then sent back the kit. He subsequently turned over to ATF a different kit that apparently did not amount to a maehinegun. App. 23-24,120; Supp. App. 2-5,8-10,13-14.\nThe investigating prosecutor brought Rita before the grand jury, placed him under oath, and asked him about these matters. Rita denied that the Government agent had asked him for the PPSH kit, and also denied that he had spoken soon thereafter about the PPSH kit to someone at InterOrdnance. App. 19, 120-121; Supp. App. 11-12. The Government claimed these statements were false, charged Rita with perjury, making false statements, and obstructing justice, and, after a jury trial, obtained convictions on all counts. App. 7-13, 94, 103.\nB\nThe parties subsequently proceeded to sentencing. Initially, a probation officer, with the help of the parties, and after investigating the background both of the offenses and of the offender, prepared a presentence report. See Fed. Rules Crim. Proc. 32(c)-(d); 18 U. S. C. \u00a7 3552(a). The completed report describes \u201coffense characteristics,\u201d \u201coffender characteristics,\u201d and other matters that might be relevant to the sentence, and then calculates a Guidelines sentence. The report also sets forth factors potentially relevant to a departure from the Guidelines or relevant to the imposition of an other-than-Guidelines sentence. It ultimately makes a sentencing recommendation based on the Guidelines. App. 115-136.\nIn respect to \u201coffense characteristics,\u201d for example, the report points out that the five counts of conviction all stem from a single incident. Id., at 122. Hence, pursuant to the Guidelines, the report, in calculating a recommended sentence, groups the five counts of conviction together, treating them as if they amounted to the single most serious count among them (and ignoring all others). See USSG \u00a7 3B1.1. The single most serious offense in Rita's case is \u201cperjury.\u201d The relevant Guideline, \u00a72J1.3(c)(l), instructs the sentencing court (and the probation officer) to calculate the Guidelines sentence for \u201cperjury ... in respect to a criminal offense\u201d by applying the Guideline for an \u201caccessory after the fact,\u201d as to that criminal offense, \u00a72X3.1. And that latter Guideline says that the judge, for calculation purposes, should take as a base offense level, a level that is \u201c6 levels lower than the offense level for the underlying offense\u201d (emphasis added) (the offense that the perjury may have helped someone commit). Here the \u201cunderlying offense\u201d consisted of InterOrdnance\u2019s possible violation of the machinegun registration law. App. 124; USSG \u00a72M5.2 (providing sentence for violation of 22 U. S. C. \u00a7 2778(b)(2), importation of defense articles without authorization). The base offense level for the gun registration crime is 26. See USSG \u00a72M5.2. Six levels less is 20. And 20, says the presentence report, is the base offense level applicable to Rita for purposes of Guidelines sentence calculation. App. 45.\nThe presentence report next considers Rita\u2019s \u201cCriminal History.\u201d Id., at 125. Rita was convicted in May 1986, and sentenced to five years\u2019 probation for making false statements in connection with the purchase of firearms. Because this conviction took place more than 10 years before the present offense, it did not count against Rita. And because Rita had no other relevant convictions, the Guidelines considered him as having no \u201ccriminal history points.\u201d Ibid. The report consequently places Rita in criminal history category I, the lowest category for purposes of calculating a Guidelines\u2019 sentence.\nThe report goes on to describe other \u201cOffender Characteristics.\u201d Id., at 126. The description includes Rita\u2019s personal and family data, Rita\u2019s physical condition (including a detailed description of ailments), Rita\u2019s mental and emotional health, the lack of any history of substance abuse, Rita\u2019s vocational and nonvocational education, and Rita\u2019s employment record. It states that he served in the Armed Forces for over 25 years, on active duty and in the Reserve. During that time he received 35 commendations, awards, or medals of different kinds. The report analyzes Rita\u2019s financial condition. Id., at 126-132.\nUltimately, the report calculates the Guidelines sentencing range. Id., at 132. The Guidelines specify for base level 20, criminal history category I, a sentence of 33-to-41 months\u2019 imprisonment. Ibid. The report adds that there \u201cappears to be no circumstance or combination of circumstances that warrant a departure from the prescribed sentencing guidelines.\u201d Id., at 133.\nC\nAt the sentencing hearing, both Rita and the Government presented their sentencing arguments. Each side addressed the report. Rita argued for a sentence outside (and lower than) the recommended Guidelines 33-to-41 month range.\nThe judge made clear that Rita's argument for a lower sentence could take either of two forms. First, Rita might argue within the Guidelines\u2019 framework, for a departure from the applicable Guidelines range on the ground that his circumstances present an \u201catypical case\u201d that falls outside the \u201cheartland\u201d to which the United States Sentencing Commission intends each individual Guideline to apply. USSG \u00a7 5K2.0(a)(2). Second, Rita might argue that, independent of the Guidelines, application of the sentencing factors set forth in 18 U. S. C. \u00a7 3553(a) (2000 ed. and Supp. IV) warrants a lower sentence. See Booker, 543 U. S., at 259-260.\nThus, the judge asked Rita\u2019s counsel, \u201cAre you going to put on evidence to show that [Rita] should be getting a downward departure, or under 3553, your client would be entitled to a different sentence than he should get under sentencing guidelines?\u201d App. 52. And the judge later summarized:\n\u201c[Y]ou\u2019re asking for a departure from the guidelines or a sentence under 3553 that is lower than the guidelines, and here are the reasons:\n\u201cOne, he is a vulnerable defendant because he\u2019s been involved in [government criminal justice] work which has caused people to become convicted criminals who are in prison and there may be retribution against him.\n\u201cTwo, his military experience ....\u201d Id., at 64-65.\nCounsel agreed, while adding that Rita\u2019s poor physical condition constituted a third reason. And counsel said that he rested his claim for a lower sentence on \u201c[j]ust [those] three\u201d special circumstances, \u201c[p]hysical condition, vulnerability in prison and the military service.\u201d Id., at 65. Rita presented evidence and argument related to these three factors. The Government, while not asking for a sentence higher than the report\u2019s recommended Guidelines range, said that Rita\u2019s perjury had interfered with the Government\u2019s potential \u201cobstruction of justice\u201d claim against InterOrdnance and that Rita, as a former Government criminal justice employee, should have known better than to commit perjury. Id., at 74-77. The sentencing judge asked questions about each factor.\nAfter hearing the arguments, the judge concluded that he was \u201cunable to find that the [report\u2019s recommended] sentencing guideline range ... is an inappropriate guideline range for that, and under 3553 ... the public needs to be protected if it is true, and I must accept as true the jury verdict.\u201d Id., at 87. The court concluded: \u201cSo the Court finds that it is appropriate to enter\u201d a sentence at the bottom of the Guidelines range, namely, a sentence of imprisonment \u201cfor a period of 33 months.\u201d Ibid.\nD\nOn appeal, Rita argued that his 33-month sentence was \u201cunreasonable\u201d because (1) it did not adequately take account of \u201cthe defendant\u2019s history and characteristics,\u201d and (2) it \u201cis greater than necessary to comply with the purposes of sentencing set forth in 18 U. S. C. \u00a7 3553(a)(2).\u201d Brief for Appellant in No. 05-4674 (CA4), pp. i, 8. The Fourth Circuit observed that it must set aside a sentence that is not \u201creasonable.\u201d The Circuit stated that \u201ca sentence imposed within the properly calculated Guidelines range ... is presumptively reasonable.\u201d 177 Fed. Appx., at 358 (internal quotation marks and citations omitted). It added that \u201cwhile we believe that the appropriate circumstances for imposing a sentence outside the guideline range will depend on the facts of individual cases, we have no reason to doubt that most sentences will continue to fall within the applicable guideline range.\u201d The Fourth Circuit then rejected Rita\u2019s arguments and upheld the sentence. Ibid, (internal quotation marks omitted).\nE\nRita petitioned for a writ of certiorari. He pointed out that the Circuits are split as to the use of a presumption of reasonableness for within-Guidelines sentences. Compare United States v. Dorcely, 454 F. 3d 366, 376 (CADC 2006) (uses presumption); United States v. Green, 436 F. 3d 449, 457 (CA4 2006) (same); United States v. Alonzo, 435 F. 3d 551, 554 (CA5 2006) (same); United States v. Williams, 436 F. 3d 706, 708 (CA6 2006) (same); United States v. Mykytiuk, 415 F. 3d 606, 608 (CA7 2005) (same); United States v. Lincoln, 413 F. 3d 716, 717 (CA8 2005) (same); and United States v. Kristl, 437 F. 3d 1050, 1053-1054 (CA10 2006) (per curiam) (same), with United States v. Jimenez-Beltre, 440 F. 3d 514, 518 (CA1 2006) (en banc) (does not use presumption); United States v. Fernandez, 443 F. 3d 19, 27 (CA2 2006) (same); United States v. Cooper, 437 F. 3d 324, 331 (CA3 2006) (same); and United States v. Talley, 431 F. 3d 784, 788 (CA11 2005) (per curiam) (same).\nWe consequently granted Rita\u2019s petition. We agreed to decide whether a court of appeals may afford a \u201cpresumption of reasonableness\u201d to a \u201cwithin-Guidelines\u201d sentence. We also agreed to decide whether the District Court properly analyzed the relevant sentencing factors and whether, given the record, the District Court\u2019s ultimate choice of a 33-month sentence was \u201cunreasonable.\u201d\nII\nThe first question is whether a court of appeals may apply a presumption of reasonableness to a district court sentence that reflects a proper application of the Sentencing Guidelines. We conclude that it can.\nA\nFor one thing, the presumption is not binding. It does not, like a trial-related evidentiary presumption, insist that one side, or the other, shoulder a particular burden of persuasion or proof lest they lose their case. Cf., e. g., Raytheon Co. v. Hernandez, 540 U. S. 44, 49-50, n. 3 (2003) (citing Reeves v. Sanderson Plumbing Products, Inc., 530 U. S. 133, 143 (2000), and McDonnell Douglas Corp. v. Green, 411 U. S. 792, 802 (1973)). Nor does the presumption reflect strong judicial deference of the kind that leads appeals courts to grant greater factfinding leeway to an expert agency than to a district judge. Rather, the presumption reflects the fact that, by the time an appeals court is considering a within-Guidelines sentence on review, both the sentencing judge and the Sentencing Commission will have reached the same conclusion as to the proper sentence in the particular case. That double determination significantly increases the likelihood that the sentence is a reasonable one.\nFurther, the presumption reflects the nature of the Guidelines-writing task that Congress set for the Commission and the manner in which the Commission carried out that task. In instructing both the sentencing judge and the Commission what to do, Congress referred to the basic sentencing objectives that the statute sets forth in 18 U. S. C. \u00a7 3553(a) (2000 ed. and Supp. IV). That provision tells the sentencing judge to consider (1) offense and offender characteristics; (2) the need for a sentence to reflect the basic aims of sentencing, namely, (a) \u201cjust punishment\u201d (retribution), (b) deterrence, (c) incapacitation, (d) rehabilitation; (3) the sentences legally available; (4) the Sentencing Guidelines; (5) Sentencing Commission policy statements; (6) the need to avoid unwarranted disparities; and (7) the need for restitution. The provision also tells the sentencing judge to \u201cimpose a sentence sufficient, but not greater than necessary, to comply with\u201d the basic aims of sentencing as set out above.\nCongressional statutes then tell the Commission to write Guidelines that will carry out these same \u00a7 3553(a) objectives. Thus, 28 U. S. C. \u00a7 991(b) indicates that one of the Commission\u2019s basic objectives is to \u201cassure the meeting of the purposes of sentencing as set forth in [\u00a7 3553(a)(2)].\u201d The provision adds that the Commission must seek to \u201cprovide certainty and fairness\u201d in sentencing, to \u201cavoi[d] unwarranted sentencing disparities,\u201d to \u201cmaintai[n] sufficient flexibility to permit individualized sentences when warranted by mitigating or aggravating factors not taken into account in the establishment of general sentencing practices,\u201d and to \u201creflect, to the extent practicable, [sentencing-relevant] advancement in [the] knowledge of human behavior.\u201d Later provisions specifically instruct the Commission to write the Guidelines with reference to this statement of purposes, the statement that itself refers to \u00a7 3553(a). See 28 U. S. C. \u00a7\u00a7 994(f), 994(m).\nThe upshot is that the sentencing statutes envision both the sentencing judge and the Commission as carrying out the same basic \u00a7 3553(a) objectives, the one, at retail, the other at wholesale.\nThe Commission has made a serious, sometimes controversial, effort to carry out this mandate. The Commission, in describing its Guidelines-writing efforts, refers to these same statutory provisions. It says that it has tried to embody in the Guidelines the factors and considerations set forth in \u00a7 3553(a). The Commission\u2019s introductory statement recognizes that Congress \u201cforesees guidelines that will further the basic purposes of criminal punishment, i. e., deterring crime, incapacitating the offender, providing just punishment, and rehabilitating the offender.\u201d USSG \u00a7 1A1.1, intro, to comment., pt. A, \u00b62 (The Statutory Mission). It adds that Congress \u201csought uniformity in sentencing by narrowing the wide disparity in sentences imposed by different federal courts for similar criminal conduct,\u201d as well as \u201cproportionality in sentencing through a system that imposes appropriately different sentences for criminal conduct of different severity.\u201d Id., \u00b6 3, at 2 (The Basic Approach).\nThe Guidelines commentary explains how, despite considerable disagreement within the criminal justice community, the Commission has gone about writing Guidelines that it intends to embody these ends. It says, for example, that the goals of uniformity and proportionality often conflict. The commentary describes the difficulties involved in developing a practical sentencing system that sensibly reconciles the two ends. It adds that a \u201cphilosophical problem arose when the Commission attempted to reconcile the differing perceptions of the purposes of criminal punishment.\u201d Some would emphasize moral culpability and \u201cjust punishment\u201d; others would emphasize the need for \u201ccrime control.\u201d Rather than choose among differing practical and philosophical objectives, the Commission took an \u201cempirical approach,\u201d beginning with an empirical examination of 10,000 presentence reports setting forth what judges had done in the past and then modifying and adjusting past practice in the interests of greater rationality, avoiding inconsistency, complying with congressional instructions, and the like. Id., \u00b6 3, at 3.\nThe Guidelines as written reflect the fact that the Sentencing Commission examined tens of thousands of sentences and worked with the help of many others in the law enforcement community over a long period of time in an effort to fulfill this statutory mandate. They also reflect the fact that different judges (and others) can differ as to how best to reconcile the disparate ends of punishment.\nThe Commission\u2019s work is ongoing. The statutes and the Guidelines themselves foresee continuous evolution helped by the sentencing courts and courts of appeals in that process. The sentencing courts, applying the Guidelines in individual cases, may depart (either pursuant to the Guidelines or, since Booker, by imposing a non-Guidelines sentence). The judges will set forth their reasons. The courts of appeals will determine the reasonableness of the resulting sentence. The Commission will collect and examine the results. In doing so, it may obtain advice from prosecutors, defenders, law enforcement groups, civil liberties associations, experts in penology, and others. And it can revise the Guidelines accordingly. See generally 28 U. S. C. \u00a7 994(p) and note following \u00a7 994 (Commission should review and amend Guidelines as necessary, and Congress has power to revoke or amend Guidelines); Mistretta v. United States, 488 U. S. 361, 393-394 (1989); USSG \u00a71B1.10(c) (listing 24 amendments promulgated in response to evolving sentencing concerns); USSG \u00a7 1A1.1, comment.\nThe result is a set of Guidelines that seek to embody the \u00a7 3553(a) considerations, both in principle and in practice. Given the difficulties of doing so, the abstract and potentially conflicting nature of \u00a7 3553(a)\u2019s general sentencing objectives, and the differences of philosophical view among those who work within the criminal justice community as to how best to apply general sentencing objectives, it is fair to assume that the Guidelines, insofar as practicable, reflect a rough approximation of sentences that might achieve \u00a73553(a)\u2019s objectives.\nAn individual judge who imposes a sentence within the range recommended by the Guidelines thus makes a decision that is fully consistent with the Commission\u2019s judgment in general. Despite Justice Souter\u2019s fears to the contrary, post, at 390-392 (dissenting opinion), the courts of appeals\u2019 \u201creasonableness\u201d presumption, rather than having independent legal effect, simply recognizes the real-world circumstance that when the judge\u2019s discretionary decision accords with the Commission\u2019s view of the appropriate application of \u00a7 3553(a) in the mine run of cases, it is probable that the sentence is reasonable. Indeed, even the Circuits that have declined to adopt a formal presumption also recognize that a Guidelines sentence will usually be reasonable, because it reflects both the Commission\u2019s and the sentencing court\u2019s judgment as to what is an appropriate sentence for a given offender. See Fernandez, 443 F. 3d, at 27; Cooper, 437 F. 3d, at 331; Talley, 431 F. 3d, at 788.\nWe repeat that the presumption before us is an appellate court presumption. Given our explanation in Booker that appellate \u201creasonableness\u201d review merely asks whether the trial court abused its discretion, the presumption applies only on appellate review. The sentencing judge, as a matter of process, will normally begin by considering the presentence report and its interpretation of the Guidelines. 18 U. S. C. \u00a7 3552(a); Fed. Rule Crim. Proc. 32. He may hear arguments by prosecution or defense that the Guidelines sentence should not apply, perhaps because (as the Guidelines themselves foresee) the case at hand falls outside the \u201cheartland\u201d to which the Commission intends individual Guidelines to apply, USSG \u00a75K2.0, perhaps because the Guidelines sentence itself fails properly to reflect \u00a7 3553(a) considerations, or perhaps because the case warrants a different sentence regardless, see Rule 32(f). Thus, the sentencing court subjects the defendant\u2019s sentence to the thorough adversarial testing contemplated by federal sentencing procedure. See Rules 32(f), (h), (i)(1)(C), and (i)(1)(D); see also Burns v. United States, 501 U. S. 129, 136 (1991) (recognizing importance of notice and meaningful opportunity to be heard at sentencing). In determining the merits of these arguments, the sentencing court does not enjoy the benefit of a legal presumption that the Guidelines sentence should apply. Booker, 543 U. S., at 259-260.\nB\nRita and his supporting amici make two further arguments against use of the presumption. First, Rita points out that many individual Guidelines apply higher sentences in the presence of special facts, for example, brandishing a weapon. In many cases, the sentencing judge, not the jury, will determine the existence of those facts. A pro-Guidelines \u201cpresumption of reasonableness\u201d will increase the likelihood that courts of appeals will affirm such sentences, thereby increasing the likelihood that sentencing judges will impose such sentences. For that reason, Rita says, the presumption raises Sixth Amendment \u201cconcerns.\u201d Brief for Petitioner 28.\nIn our view, however, the presumption, even if it increases the likelihood that the judge, not the jury, will find \u201csentencing facts,\u201d does not violate the Sixth Amendment. This Court\u2019s Sixth Amendment cases do not automatically forbid a sentencing court to take account of factual matters not determined by a jury and to increase the sentence in consequence. Nor do they prohibit the sentencing judge from taking account of the Sentencing Commission\u2019s factual findings or recommended sentences. See Cunningham v. California, 549 U. S. 270, 281-282 (2007) (citing Booker, supra, at 243-244; Blakely v. Washington, 542 U. S. 296, 304-305 (2004); Ring v. Arizona, 536 U. S. 584, 602 (2002); and Apprendi v. New Jersey, 530 U. S. 466, 471 (2000)).\nThe Sixth Amendment question, the Court has said, is whether the law forbids a judge to increase a defendant\u2019s sentence unless the judge finds facts that the jury did not find (and the offender did not concede). Blakely, supra, at 303-304 (\u201cWhen a judge inflicts punishment that the jury\u2019s verdict alone does not allow, the jury has not found all the facts which the law makes essential to the punishment and the judge exceeds his proper authority\u201d (internal quotation marks and citation omitted)); see Cunningham, supra, at 283-284 (discussing Blakely) (\u201cThe judge could not have sentenced Blakely above the standard range without finding the additional fact of deliberate cruelty,\u201d \u201c[b]ecause the judge in Blakely\u2019s case could not have imposed a sentence outside the standard range without finding an additional fact, the top of that range... was the relevant\u201d maximum sentence for Sixth Amendment purposes); Booker, 543 U. S., at 244 (\u201cAny fact (other than a prior conviction) which is necessary to support a sentence exceeding the maximum authorized by the facts established by a plea of guilty or a jury verdict must be admitted by the defendant or proved to a jury beyond a reasonable doubt\u201d); id., at 232 (discussing Blakely) (\u201cWe rejected the State\u2019s argument that the jury verdict was sufficient to authorize a sentence within the general 10-year sentence for class B felonies, noting that under Washington law, the judge was required to find additional facts in order to impose the greater 90-month sentence\u201d (emphasis in original)).\nA nonbinding appellate presumption that a Guidelines sentence is reasonable does not require the sentencing judge to impose that sentence. Still less does it prohibit the sentencing judge from imposing a sentence higher than the Guidelines provide for the jury-determined facts standing alone. As far as the law is concerned, the judge could disregard the Guidelines and apply the same sentence (higher than the statutory minimum or the bottom of the unenhanced Guidelines range) in the absence of the special facts (say, gun brandishing) which, in the view of the Sentencing Commission, would warrant a higher sentence within the statutorily permissible range. Thus, our Sixth Amendment cases do not forbid appellate court use of the presumption.\nJustice Scalia concedes that the Sixth Amendment concerns he foresees are not presented by this case. Post, at 373-374 (opinion concurring in part and concurring in judgment). And his need to rely on hypotheticals to make his point is consistent with our view that the approach adopted here will not \u201craise a multitude of constitutional problems.\u201d Clark v. Martinez, 543 U. S. 371, 380-381 (2005). Similarly, Justice Scalia agrees that we have never held that \u201cthe Sixth Amendment prohibits judges from ever finding any facts\u201d relevant to sentencing. Post, at 373. In sentencing, as in other areas, district judges at times make mistakes that are substantive. At times, they will impose sentences that are unreasonable. Circuit courts exist to correct such mistakes when they occur. Our decision in Booker recognized as much, 543 U. S., at 260-264. Booker held unconstitutional that portion of the Guidelines that made them mandatory. Id., at 233-234, 243-244. It also recognized that when district courts impose discretionary sentences, which are reviewed under normal appellate principles by courts of appeals, such a sentencing scheme will ordinarily raise no Sixth Amendment concern. Ibid.; see id., at 233 (opinion for the Court by Stevens, J.) (\u201cIndeed, everyone agrees that the constitutional issues presented by these cases would have been avoided entirely if Congress had omitted from the [federal sentencing statute] the provisions that make the Guidelines binding on district judges\u201d). That being so, our opinion in Booker made clear that today\u2019s holding does not violate the Sixth Amendment.\nRita may be correct that the presumption will encourage sentencing judges to impose Guidelines sentences. But we do not see how that fact could change the constitutional calculus. Congress sought to diminish unwarranted sentencing disparity. It sought a Guidelines system that would bring about greater fairness in sentencing through increased uniformity. The fact that the presumption might help achieve these congressional goals does not provide cause for holding the presumption unlawful as long as the presumption remains constitutional. And, given our case law, we cannot conclude that the presumption itself violates the Sixth Amendment.\nThe fact that we permit courts of appeals to adopt a presumption of reasonableness does not mean that courts may adopt a presumption of unreasonableness. Even the Government concedes that appellate courts may not presume that every variance from the advisory Guidelines is unreasonable. See Brief for United States 34-35. Several courts of appeals have also rejected a presumption of unreasonableness. See, e. g., United States v. Howard, 454 F. 3d 700, 703 (CA7 2006); United States v. Matheny, 450 F. 3d 633, 642 (CA6 2006); United States v. Myers, 439 F. 3d 415, 417 (CA8 2006); United States v. Moreland, 437 F. 3d 424, 433 (CA4 2006). However, a number of Circuits adhere to the proposition that the strength of the justification needed to sustain an outside-Guidelines sentence varies in proportion to the degree of the variance. See, e. g., United States v. Smith, 445 F. 3d 1, 4 (CA1 2006); Moreland, supra, at 434; United States v. Armendariz, 451 F. 3d 352, 358 (CA5 2006); United States v. Davis, 458 F. 3d 491, 496 (CA6 2006); United States v. Dean, 414 F. 3d 725, 729 (CA7 2005); United States v. Dalton, 404 F. 3d 1029, 1033 (CA8 2005); United States v. Bishop, 469 F. 3d 896, 907 (CA10 2006); United States v. Crisp, 454 F. 3d 1285, 1291-1292 (CA11 2006). We will consider that approach next Term in Gall v. United States, No. 06-7949, cert. granted, post, p. 1113.\nSecond, Rita and his amici claim that use of a pro-Guidelines presumption on appeal conflicts with Congress\u2019 insistence that sentencing judges apply the factors set forth in 18 U. S. C. \u00a7 3553(a) (2000 ed., Supp. IV) (and that the resulting sentence be \u201csufficient, but not greater than necessary, to comply with the purposes\u201d of sentencing set forth in that statute). We have explained above, however, why we believe that, where judge and Commission both determine that the Guidelines sentence is an appropriate sentence for the case at hand, that sentence likely reflects the \u00a7 3553(a) factors (including its \u201cnot greater than necessary\u201d requirement). See supra, at 348. This circumstance alleviates any serious general conflict between \u00a7 3553(a) and the Guidelines, for the purposes of appellate review. And, for that reason, we find that nothing in \u00a7 3553(a) renders use of the presumption unlawful.\nIll\nWe next turn to the question whether the District Court properly analyzed the relevant sentencing factors. In particular, Rita argues that the court took inadequate account of \u00a7 3553(c) (2000 ed., Supp. IV), a provision that requires a sentencing judge, \u201cat the time of sentencing,\u201d to \u201cstate in open court the reasons for its imposition of the particular sentence.\u201d In our view, given the straightforward, conceptually simple arguments before the judge, the judge\u2019s statement of reasons here, though brief, was legally sufficient.\nThe statute does call for the judge to \u201cstate\u201d his \u201creasons.\u201d And that requirement reflects sound judicial practice. Judicial decisions are reasoned decisions. Confidence in a judge's use of reason underlies the public\u2019s trust in the judicial institution. A public statement of those reasons helps provide the public with the assurance that creates that trust.\nThat said, we cannot read the statute (or our precedent) as insisting upon a full opinion in every case. The appropriateness of brevity or length, conciseness or detail, when to write, what to say, depends upon circumstances. Sometimes a judicial opinion responds to every argument; sometimes it does not; sometimes a judge simply writes the word \u201cgranted\u201d or \u201cdenied\u201d on the face of a motion while relying upon context and the parties\u2019 prior arguments to make the reasons clear. The law leaves much, in this respect, to the judge\u2019s own professional judgment.\nIn the present context, a statement of reasons is important. The sentencing judge should set forth enough to satisfy the appellate court that he has considered the parties\u2019 arguments and has a reasoned basis for exercising his own legal decisionmaking authority. See, e. g., United States v. Taylor, 487 U. S. 326, 336-337 (1988). Nonetheless, when a judge decides simply to apply the Guidelines to a particular case, doing so will not necessarily require lengthy explanation. Circumstances may well make clear that the judge rests his decision upon the Commission\u2019s own reasoning that the Guidelines sentence is a proper sentence (in terms of \u00a7 3553(a) and other congressional mandates) in the typical case, and that the judge has found that the case before him is typical. Unless a party contests the Guidelines sentence generally under \u00a7 3553(a) \u2014 that is, argues that the Guidelines reflect an unsound judgment, or, for example, that they do not generally treat certain defendant characteristics in the proper way \u2014 or argues for departure, the judge normally need say no more. Cf. \u00a7 3553(c)(2) (2000 ed., Supp. IV). (Although, often at sentencing a judge will speak at length to a defendant, and this practice may indeed serve a salutary purpose.)\nWhere the defendant or prosecutor presents nonfrivolous reasons for imposing a different sentence, however, the judge will normally go further and explain why he has rejected those arguments. Sometimes the circumstances will call for a brief explanation; sometimes they will call for a lengthier explanation. Where the judge imposes a sentence outside the Guidelines, the judge will explain why he has done so. To our knowledge, an ordinary explanation of judicial reasons as to why the judge has, or has not, applied the Guidelines triggers no Sixth Amendment \u201cjury trial\u201d requirement. Cf. Booker, 543 U. S., at 233 (\u201cFor when a trial judge exercises his discretion to select a specific sentence within a defined range, the defendant has no right to a jury determination of the facts that the judge deems relevant\u201d), and id., at 242 (requirement of finding, not articulation of it, creates Sixth Amendment problem).\nBy articulating reasons, even if brief, the sentencing judge not only assures reviewing courts (and the public) that the sentencing process is a reasoned process but also helps that process evolve. The sentencing judge has access to, and greater familiarity with, the individual case and the individual defendant before him than the Commission or the appeals court. That being so, his reasoned sentencing judgment, resting upon an effort to filter the Guidelines\u2019 general advice through \u00a73553(a)\u2019s list of factors, can provide relevant information to both the court of appeals and ultimately the Sentencing Commission. The reasoned responses of these latter institutions to the sentencing judge\u2019s explanation should help the Guidelines constructively evolve over time, as both Congress and the Commission foresaw. See generally supra, at 351.\nIn the present case the sentencing judge\u2019s statement of reasons was brief but legally sufficient. Rita argued for a downward departure from the 33-to-41 month Guidelines sentence on the basis of three sets of special circumstances: health, fear of retaliation in prison, and military record. See App. 40-47. He added that, in any event, these same circumstances warrant leniency beyond that contemplated by the Guidelines.\nThe record makes clear that the sentencing judge listened to each argument. The judge considered the supporting evidence. The judge was fully aware of defendant\u2019s various physical ailments and imposed a sentence that takes them into account. The judge understood that Rita had previously worked in the immigration service where he had been involved in detecting criminal offenses. And he considered Rita\u2019s lengthy military service, including over 25 years of service, both on active duty and in the Reserve, and Rita\u2019s receipt of 35 medals, awards, and nominations.\nThe judge then simply found these circumstances insufficient to warrant a sentence lower than the Guidelines range of 33 to 45 months. Id., at 87. He said that this range was mot \u201cinappropriate.\u201d (This, of course, is not the legal standard for imposition of sentence, but taken in context it is plain that the judge so understood.) He immediately added that he found that the 33-month sentence at the bottom of the Guidelines range was \u201cappropriate.\u201d Ibid. He must have believed that there was not much more to say.\nWe acknowledge that the judge might have said more. He might have added explicitly that he had heard and considered the evidence and argument; that (as no one before him denied) he thought the Commission in the Guidelines had determined a sentence that was proper in the mine run of roughly similar perjury cases; and that he found that Rita\u2019s personal circumstances here were simply not different enough to warrant a different sentence. But context and the record make clear that this, or similar, reasoning underlies the judge\u2019s conclusion. Where a matter is as conceptually simple as in the case at hand and the record makes clear that the sentencing judge considered the evidence and arguments, we do not believe the law requires the judge to write more extensively.\nIV\nWe turn to the final question: Was the Court of Appeals, after applying its presumption, legally correct in holding that Rita\u2019s sentence (a sentence that applied, and did not depart from, the relevant Sentencing Guideline) was not \u201cunreasonable\u201d? In our view, the Court of Appeals\u2019 conclusion was lawful.\nAs we previously said, see Part I, supra, the crimes at issue are perjury and obstruction of justice. In essence those offenses involved the making of knowingly false, material statements under oath before a grand jury, thereby impeding its criminal investigation. The Guidelines provide for a typical such offense a base offense ievel of 20, 6 levels below the level provided for a simple violation of the crime being investigated (here, the unlawful importation of machineguns). The offender, Rita, has no countable prior offenses and consequently falls within criminal history category I. The intersection of base offense level 20 and criminal history category I sets forth a sentencing range of imprisonment of 33 to 41 months.\nRita argued at sentencing that his circumstances are special. He based this argument upon his health, his fear of retaliation, and his prior military record. His sentence explicitly takes health into account by seeking assurance that the Bureau of Prisons will provide appropriate treatment. The record makes out no special fear of retaliation, asserting only that the threat is one that any former law enforcement official might suffer. Similarly, though Rita has a lengthy and distinguished military record, he did not claim at sentencing that military service should ordinarily lead to a sentence more lenient than the sentence the Guidelines impose. Like the District Court and the Court of Appeals, we simply cannot say that Rita\u2019s special circumstances are special enough that, in light of \u00a7 3553(a), they require a sentence lower than the sentence the Guidelines provide.\nFinally, Rita and supporting amici here claim that the Guidelines sentence is not reasonable under \u00a7 3553(a) because it expressly declines to consider various personal characteristics of the defendant, such as physical condition, employment record, and military service, under the view that these factors are \u201cnot ordinarily relevant.\u201d USSG \u00a7\u00a75H1.4, 5H1.5, 5H1.11. Rita did not make this argument below, and we shall not consider it.\n* * *\nFor the foregoing reasons, the judgment of the Court of Appeals is\nAffirmed.",
+        "type": "majority",
+        "author": "Justice Breyer"
+      },
+      {
+        "text": "Justice Stevens,\nwith whom Justice Ginsburg joins as to all but Part II, concurring.\nIt is no secret that the Court\u2019s remedial opinion in United States v. Booker, 543 U. S. 220 (2005), was not unanimous. See id., at 272 (Stevens, J., dissenting). But Booker is now settled law and must be accepted as such. See B. Cardozo, The Nature of the Judicial Process 149 (1921) (\u201c[T]he labor of judges would be increased almost to the breaking point if every past decision could be reopened in every case, and one could not lay one\u2019s own course of bricks on the secure foundation of the courses laid by others who had gone before him\u201d). Therefore, our task today is to apply Booker\u2019s \u201creasonableness\u201d standard to a District Judge\u2019s decision to impose a sentence within the range recommended by United States Sentencing Guidelines that are now advisory, rather than binding.\nI\nSimply stated, Booker replaced the de novo standard of review required by 18 U. S. C. \u00a7 3742(e) with an abuse-of-discretion standard that we called \u201c \u2018reasonableness\u2019 \u201d review. 543 U. S., at 262. We noted in Booker that the de novo standard was a recent addition to the law. Prior to 2003, appellate courts reviewed sentencing departures for abuse of discretion under our decision in Koon v. United States, 518 U. S. 81 (1996). In 2003, however, Congress overruled Koon and added the de novo standard to \u00a7 3742(e). See Prosecutorial Remedies and Other Tools to end the Exploitation of Children Today Act of 2003, \u00a7 401(d)(1), 117 Stat. 670. Recognizing that \u201cthe reasons for th[is] revisio[n] \u2014 to make Guidelines sentencing even more mandatory than it had been\u2014 . . . ceased to be relevant\u201d in light of the Court\u2019s constitutional holding, Booker excised the portion of \u00a7 3742(e) that directed courts of appeals to apply the de novo standard. 543 U. S., at 261. Critically, we did not touch the portions of \u00a7 3742(e) requiring appellate courts to \u201cgive due regard to the opportunity of the district court to judge the credibility of the witnesses,\u201d to \"accept the findings of fact of the district court unless they are clearly erroneous,\u201d and to \"give due deference to the district court\u2019s application of the guidelines to the facts.\u201d By leaving those portions of the statute intact while severing the portion mandating a de novo standard of review, Booker restored the abuse-of-discretion standard identified in three earlier cases: Pierce v. Underwood, 487 U. S. 552, 558-560 (1988), Cooter & Gell v. Hartmarx Corp., 496 U. S. 384, 403-405 (1990), and Koon. See Booker, 543 U. S., at 260.\nIn Pierce, we considered whether the District Court had properly awarded attorney\u2019s fees based on a determination that the Government\u2019s litigation position was not \u201csubstantially justified\u201d within the meaning of the Equal Access to Justice Act, 28 U. S. C. \u00a7 2412(d). Because the Act did not specify a standard of review, we found it necessary to rely on several \u201csignificant relevant factors\u201d that persuaded us to apply an \u201c \u2018abuse of discretion\u2019 \u201d standard. 487 U. S., at 559. One factor was that a district judge was \u201c\u2018better positioned\u2019 \u201d than an appellate judge to decide the issue. Id., at 560 (quoting Miller v. Fenton, 474 U. S. 104, 114 (1985)). We noted that a district court, through its participation in \u201csettlement conferences and other pretrial activities,\u201d \u201cmay have insights not conveyed by the record, into such matters as whether particular evidence was worthy of being relied upon.\u201d 487 U. S., at 560. We likewise noted that \u201ceven where the district judge\u2019s full knowledge of the factual setting can be acquired by the appellate court, that acquisition will often come at unusual expense.\u201d Ibid. A second factor that we found significant was the impracticability of formulating a rule of decision for an issue that may involve \u201c \u2018multifarious, fleeting, special, narrow facts that utterly resist generalization.\u2019 \u201d Id., at 561-562. In Cooter & Gell, we held that both of these factors supported an \u201cabuse-of-discretion\u201d standard for review of a district judge\u2019s imposition of sanctions for violations of Rule 11 of the Federal Rules of Civil Procedure. See 496 U. S., at 403-405. A third factor, the District Court\u2019s special knowledge about \u201cthe local bar\u2019s litigation practices,\u201d also supported the abuse-of-discretion standard. Id., at 404. We further noted that \u201c[djeference to the determination of courts on the front lines of litigation will enhance these courts\u2019 ability to control the litigants before them.\u201d Ibid.\nRecognizing that these factors bear equally upon a trial judge\u2019s sentencing decision, Koon expressly applied the principles of Pierce and Cooter & Gell to the sentencing context. See Koon, 518 U. S., at 99. We adopted the same abuse-of-discretion standard, unanimously holding that a district court\u2019s decision to depart from the Guidelines \u201cwill in most cases be due substantial deference, for it embodies the traditional exercise of discretion by a sentencing court.\u201d Id., at 98. Echoing our earlier opinions, we added that \u201c[district courts have an institutional advantage over appellate courts\u201d because they \u201cmust make a refined assessment of the many facts bearing on the outcome, informed by its vantage point and day-to-day experience in criminal sentencing.\u201d Ibid. We also relied on the following statement in our opinion in Williams v. United States, 503 U. S. 193 (1992):\n\u201cThe development'of the guideline sentencing regime has not changed our view that, except to the extent specifically directed by statute, \u2018it is not the role of an appellate court to substitute its judgment for that of the sentencing court as to the appropriateness of a particular sentence.\u2019 \u201d Id., at 205 (quoting Solem v. Helm, 463 U. S. 277, 290, n. 16 (1983)).\nThese basic considerations about the nature of sentencing have not changed in a post-Booker world. While the specific holding in Koon concerned only the scope of the trial judge\u2019s discretion on whether to depart from the Guidelines, now that the Guidelines are no longer mandatory, our reasoning applies with equal force to the sentencing judge\u2019s decision \u201c \u2018as to the appropriateness of a particular sentence.\u2019 \u201d Williams, 503 U. S., at 205. After Booker, appellate courts are now to assess a district court\u2019s exercise of discretion \u201cwith regard to \u00a7 3553(a).\u201d 543 U. S., at 261. As we explained: \u201cSection 3553(a) remains in effect, and sets forth numerous factors that guide sentencing. Those factors in turn will guide appellate courts, as they have in the past, in determining whether a sentence is unreasonable.\u201d Ibid.\nGuided by these \u00a7 3553(a) factors, Booker\u2019s abuse-of-discretion standard directs appellate courts to evaluate what motivated the district judge\u2019s individualized sentencing decision. While reviewing courts may presume that a sentence within the advisory Guidelines is reasonable, appellate judges must still always defer to the sentencing judge\u2019s individualized sentencing determination. As we stated in Koon, \u201c[ijt has been uniform and constant in the federal judicial tradition for the sentencing judge to consider every convicted person as an individual and every case as a unique study in the human failings that sometimes mitigate, sometimes magnify, the crime and the punishment to ensue.\u201d 518 U. S., at 113. The Commission has not developed any standards or recommendations that affect sentencing ranges for many individual characteristics. Matters such as age, education, mental or emotional condition, medical condition (including drug or alcohol addiction), employment history, lack of guidance as a youth, family ties, or military, civic, charitable, or public service are not ordinarily considered under the Guidelines. See United States Sentencing Commission, Guidelines Manual \u00a7\u00a75Hl.l-6, 11, and 12 (Nov. 2006). These are, however, matters that \u00a7 3553(a) authorizes the sentencing judge to consider. See, e. g., 18 U. S. C. \u00a7 3553(a)(1). As such, they are factors that an appellate court must consider under Booker\u2019s abuse-of-discretion standard.\nMy disagreement with Justice Scalia and Justice Souter rests on the above understanding of Booker\u2019s standard of appellate review. I do not join Justice Scalia\u2019s opinion because I believe that the purely procedural review he advocates is inconsistent with our remedial opinion in Booker, which plainly contemplated that reasonableness review would contain a substantive component. See 543 U. S., at 260-264. After all, a district judge who gives harsh sentences to Yankees fans and lenient sentences to Red Sox fans would not be acting reasonably even if her procedural rulings were impeccable. Moreover, even if some future unusually harsh sentence might violate the Sixth Amendment because it exceeds some yet-to-be-defined judicial standard of reasonableness, Justice Scalia correctly acknowledges this case does not present such a problem. See post, at 373-374 (opinion concurring in part and concurring in judgment) (\u201cNor is my claim that the Sixth Amendment was violated in this case, for petitioner cannot demonstrate that his relatively low sentence would have been unreasonable if the District Court had relied on nothing but jury-found or admitted facts\u201d); see also ante, at 353-354 (\u201cJustice Scalia concedes that the Sixth Amendment concerns he foresees are not presented by this case. Post, at 373-374 (opinion concurring in part and concurring in judgment). And his need to rely on hypotheticals to make his point is consistent with our view that the approach adopted here will not \u2018raise a multitude of constitutional problems.\u2019 Clark v. Martinez, 543 U. S. 371, 380-381 (2005)\u201d). Such a hypothetical case should be decided if and when it arises. See, e. g., Valley Forge Christian College v. Americans United for Separation of Church and State, Inc., 454 U. S. 464, 472 (1982).\nAs to Justice Souter\u2019s opinion, I think he overestimates the \u201cgravitational pull\u201d toward the advisory Guidelines that will result from a presumption of reasonableness. Post, at 390 (dissenting opinion). Booker\u2019s standard of review allows \u2014 indeed, requires \u2014 district judges to consider all of the factors listed in \u00a7 3553(a) and to apply them to the individual defendants before them. Appellate courts must then give deference to the sentencing decisions made by those judges, whether the resulting sentence is inside or outside the advisory Guidelines range, under traditional abuse-ofdiseretion principles. As the Court acknowledges, moreover, presumptively reasonable does not mean always reasonable; the presumption, of course, must be genuinely rebuttable. See ante, at 347. I am not blind to the fact that, as a practical matter, many federal judges continued to treat the Guidelines as virtually mandatory after our decision in Booker. See post, at 373-374, n. 3 (Scalia, J., concurring in part and concurring in judgment). One well-respected federal judge has even written that, \u201cafter watching this Court \u2014 and the other Courts of Appeals, whether they have formally adopted such a presumption or not \u2014 affirm hundreds upon hundreds of within-Guidelines sentences, it seems to me that the rebuttability of the presumption is more theoretical than real.\u201d United States v. Pruitt, No. 06-3152, 2007 U. S. App. LEXIS 12872, *35-*36 (CA10, June 4, 2007) (McConnell, J., concurring). Our decision today makes clear, however, that the rebuttability of the presumption is real. It should also be clear that appellate courts must review sentences individually and deferentially whether they are inside the Guidelines range (and thus potentially subject to a formal \u201cpresumption\u201d of reasonableness) or outside that range. Given the clarity of our holding, I trust that those judges who had treated the Guidelines as virtually mandatory during the ipost-Booker interregnum will now recognize that the Guidelines are truly advisory.\nApplying this standard, I would affirm the sentence imposed by the District Court. Although I would have imposed a lower sentence had I been the District Judge, I agree that he did not abuse his discretion in making the particular decision that he did. I also agree with the Court that his decision is entitled to added respect because it was consistent with the advice in the Guidelines.\nII\nThat said, I do believe that there was a significant flaw in the sentencing procedure in this case. The petitioner is a veteran who received significant recognition for his service to his country. That aspect of his background is not taken into consideration in the Sentencing Guidelines and was not mentioned by the District Judge in his explanation of his choice of the sentence that defendant received. I regard this as a serious omission because I think the judge\u2019s statement to the defendant, made at the time of sentencing, is an especially important part of the criminal process. If the defendant is convinced that justice has been done in his case \u2014 that society has dealt with him fairly \u2014 the likelihood of his successful rehabilitation will surely be enhanced. Nevertheless, given the importance of paying appropriate respect to the exercise of a sentencing judge\u2019s discretion, I join the Court\u2019s opinion and judgment.\nSee 543 U. S., at 233 (opinion for the Court by Stevens, J.) (\u201cWe have never doubted the authority of a judge to exercise broad discretion in imposing a sentence within a statutory range. Indeed, everyone agrees that the constitutional issues presented by these cases would have been avoided entirely if Congress had omitted from the [Sentencing Reform Act of 1984] the provisions that make the Guidelines binding on district judges\u201d (citations omitted)).\nIn fact, Booker expressly equated the new \u201creasonableness\u201d standard with the old abuse-of-discretion standard used to review sentencing departures. See id,., at 262 (\u201c\u2018Reasonableness\u2019 standards are not foreign to sentencing law. The Act has long required their use in important sentencing circumstances \u2014 both on review of departures, see 18 U. S. C. \u00a7 3742(e)(3) (1994 ed.), and on review of sentences imposed where there was no applicable Guideline, see \u00a7\u00a7 3742(a)(4), (b)(4), (e)(4)\u201d (emphasis added)).\nSee also Breyer, The Federal Sentencing Guidelines and the Key Compromises Upon Which They Rest, 17 Hofstra L. Rev. 1,19-20 (1988) (\u201cThe Commission extensively debated which offender characteristics should make a difference in sentencing; that is, which characteristics were important enough to warrant formal reflection within the Guidelines and which should constitute possible grounds for departure.... Eventually, in light of the arguments based in part on considerations of fairness and in part on the uncertainty as to how a sentencing judge would actually account for the aggravating and/or mitigating factors . . . the current offender characteristics rules look primarily to past records of convictions\u201d).",
+        "type": "concurrence",
+        "author": "Justice Stevens,"
+      },
+      {
+        "text": "Justice Scalia,\nwith whom Justice Thomas joins, concurring in part and concurring in the judgment.\nIn United States v. Booker, 543 U. S. 220 (2005), five Justices of this Court, I among them, held that our previous decision in Blakely v. Washington, 542 U. S. 296 (2004), applied to sentences imposed under the Federal Sentencing Guidelines because those Guidelines were mandatory and binding on judges. See 543 U. S., at 233-234, 243-244. We thus reaffirmed that \u201c[a]ny fact (other than a prior conviction) which is necessary to support a sentence exceeding the maximum authorized by the facts established by a plea of guilty or a jury verdict must be admitted by the defendant or proved to a jury beyond a reasonable doubt.\u201d Id., at 244. In response to this constitutional holding, a different majority of five Justices held that the appropriate remedy was to make the Guidelines nonmandatory in all cases and to review sentences on appeal only for reasonableness. See id., at 258-265. I disagreed with the Court\u2019s remedial choice, believing instead that the proper remedy was to maintain the mandatory character of the Guidelines and simply to require, for that small category of cases in which a fact was legally essential to the sentence imposed, that the fact be proved to a jury beyond a reasonable doubt or admitted by the defendant. See id., at 272-291 (Stevens, J., joined by Scalia and Souter, JJ., dissenting in part).\nI do not mean to reopen that debate. As a matter of statutory stare decisis, I accept Booker\u2019s remedial holding that district courts are no longer bound by the Guidelines and that appellate courts should review the sentences imposed for reasonableness. As should be clear from our need to decide the case today, however, precisely what \u201creasonableness\u201d review entails is not dictated by Booker. As I lamented then, \u201c[t]he worst feature of the scheme is that no one knows \u2014 and perhaps no one is meant to know \u2014 how advisory Guidelines and \u2018unreasonableness\u2019 review will function in practice.\u201d Id., at 311 (Scalia, J., dissenting in part).\nEarlier this Term, the Court intensified its silence when it declined to flesh out what it had in mind in the face of an argument that the form of reasonableness review had constitutional implications. In Cunningham v. California, 549 U. S. 270 (2007), Justice Alito defended the constitutionality of California\u2019s sentencing system in part by arguing that, even post-Booker, some federal sentences will be upheld as reasonable only if the judge makes additional findings of fact beyond those encompassed by the jury verdict or guilty plea. 549 U. S., at 309, and n. 11 (dissenting opinion). The Cunningham majority\u2019s response, much like the Booker remedial opinion, was cryptic. While the Court did not explain why Justice Alito was incorrect, it strongly intimated that his premise was wrong: that he had erroneously \u201c \u2018anticipate!/!]\u2019 \u201d how \u201creasonableness review operates in practice.\u201d Cunningham, 549 U. S., at 293, n. 15. Because that question is squarely presented in this case that was then pending, the Court found it \u201cneither necessary nor proper ... to join issue with Justice Alito on this matter,\u201d suggesting that all would be revealed in the opinion we issue today. See id., at 288, n. 13.\nToday has arrived, and the Court has broken its promise. Nothing in the Court\u2019s opinion explains why, under the advisory Guidelines scheme, judge-found facts are never legally necessary to justify the sentence. By this I mean the Court has failed to establish that every sentence which will be imposed under the advisory Guidelines scheme could equally have been imposed had the judge relied upon no facts other than those found by the jury or admitted by the defendant. In fact, the Court implicitly, but quite plainly, acknowledges that this will not be the case, by treating as a permissible post-jBooker claim petitioner\u2019s challenge of his within-Guidelines sentence as substantively excessive. See ante, at Part IV. Under the scheme promulgated today, some sentences reversed as excessive will be legally authorized in later cases only because additional judge-found facts are present; and, as Justice Alito argued in Cunningham, some lengthy sentences will be affirmed (i e., held lawful) only because of the presence of aggravating facts, not found by the jury, that distinguish the case from the mine run. The Court does not even attempt to explain how this is consistent with the Sixth Amendment.\nNo explanation is given because no explanation is possible. The Court has reintroduced the constitutional defect that Booker purported to eliminate. I cannot acquiesce in this course. If a sentencing system is permissible in which some sentences cannot lawfully be imposed by a judge unless the judge finds certain facts by a preponderance of the evidence, then we should have left in place the compulsory Guidelines that Congress enacted, instead of imposing this jerry-rigged scheme of our own. In order to avoid the possibility of a Sixth Amendment violation, which was the object of the Booker remedy, district courts must be able, without finding any facts not embraced in the jury verdict or guilty plea, to sentence to the maximum of the statutory range. Because, therefore, appellate courts cannot reverse within-range sentences for being too high; and because no one would contend that Congress intended that sentences be reviewed only for being too low; I would hold that reasonableness review cannot contain a substantive component at all. I believe, however, that appellate courts can nevertheless secure some amount of sentencing uniformity through the procedural reasonableness review made possible by the Booker remedial opinion.\nI\nA\nThe Sixth Amendment requires that \u201c[a]ny fact (other than a prior conviction) which is necessary to support a sentence exceeding the maximum authorized by the facts established by a plea of guilty or a jury verdict must be admitted by the defendant or proved to a jury beyond a reasonable doubt.\u201d Booker, 543 U. S., at 244. Two hypotheticals will suffice to reveal why the notion of excessive sentences within the statutory range, and the ability of appellate courts to reverse such sentences, inexorably produces, in violation of the Sixth Amendment, sentences whose legality is premised on a judge's finding some fact (or combination of facts) by a preponderance of the evidence.\nFirst, consider two brothers with similar backgrounds and criminal histories who are convicted by a jury of respectively robbing two banks of an equal amount of money. Next assume that the district judge finds that one brother, fueled by racial animus, had targeted the first bank because it was owned and operated by minorities, whereas the other brother had selected the second bank simply because its location enabled a quick getaway. Further assume that the district judge imposes the statutory maximum upon both brothers, basing those sentences primarily upon his perception that bank robbery should be punished much more severely than the Guidelines base level advises, but explicitly noting that the racially biased decisionmaking of the first brother further justified his sentence. Now imagine that the appellate court reverses as excessive only the sentence of the non-racist brother. Given the dual holdings of the appellate court, the racist has a valid Sixth Amendment claim that his sentence was reasonable (and hence lawful) only because of the judicial finding of his motive in selecting his victim.\nSecond, consider the common case in which the district court imposes a sentence within an advisory Guidelines range that has been substantially enhanced by certain judge-found facts. For example, the base offense level for robbery under the Guidelines is 20, United States Sentencing Commission, Guidelines Manual \u00a72B3.1(a) (Nov. 2006), which, if the defendant has a criminal history of I, corresponds to an advisory range of 33-41 months, id., eh. 5, pt. A, Sentencing Table. If, however, a judge finds that a firearm was discharged, that a victim incurred serious bodily injury, and that more than $5 million was stolen, then the base level jumps by 18, \u00a7\u00a72B3.1(b)(2), (3), (7), producing an advisory range of 235-293 months, id., ch. 5, pt. A, Sentencing Table. When a judge finds all of those facts to be true and then imposes a within-Guidelines sentence of 293 months, those judge-found facts, or some combination of them, are not merely facts that the judge finds relevant in exercising his discretion; they are the legally essential predicate for his imposition of the 293-month sentence. His failure to find them would render the 293-month sentence unlawful. That is evident because, were the district judge explicitly to find none of those facts true and nevertheless to impose a 293-month sentence (simply because he thinks robbery merits seven times the sentence that the Guidelines provide) the sentence would surely be reversed as unreasonably excessive.\nThese hypothetical are stylized ways of illustrating the basic problem with a system in which district courts lack full discretion to sentence within the statutory range. Under such a system, for every given crime there is some maximum sentence that will be upheld as reasonable based only on the facts found by the jury or admitted by the defendant. Every sentence higher than that is legally authorized only by some judge-found fact, in violation of the Sixth Amendment. Appellate courts\u2019 excessiveness review will explicitly or implicitly accept those judge-found facts as justifying sentences that would otherwise be unlawful. The only difference between this system and the pre-Booker mandatory Guidelines is that the maximum sentence based on the jury verdict or guilty plea was specified under the latter but must be established by appellate courts, in case-by-case fashion, under the former. Ibis is, if anything, an additional constitutional disease, not a constitutional cure.\nTo be clear, I am not suggesting that the Sixth Amendment prohibits judges from ever finding any facts. We have repeatedly affirmed the proposition that judges can find facts that help guide their discretion within the sentencing range that is authorized by the facts found by the jury or admitted by the defendant. See, e. g., Booker, supra, at 233; Apprendi v. New Jersey, 530 U. S. 466, 481 (2000). But there is a fundamental difference, one underpinning our entire Apprendi jurisprudence, between facts that must be found in order for a sentence to be lawful, and facts that individual judges choose to make relevant to the exercise of their discretion. The former, but not the latter, must be found by the jury beyond a reasonable doubt in order \u201cto give intelligible content to the right of jury trial.\u201d Blakely, 542 U. S., at 305.\n1 am also not contending that there is a Sixth Amendment problem with, the Court\u2019s affirmation of a presumption of reasonableness for within-Guidelines sentences. I agree with the Court that such a presumption never itself makes judge-found facts legally essential to the sentence imposed, since it has no direct relevance to whether the sentence would have been unreasonable in the absence of any judge-found facts. See ante, at 352-354. Nor is my claim that the Sixth Amendment was violated in this case, for petitioner cannot demonstrate that his relatively low sentence would have been unreasonable if the District Court had relied on nothing but jury-found or admitted facts.\nRather, my position is that there will inevitably be some constitutional violations under a system of substantive reasonableness review, because there will be some sentences that will be upheld as reasonable only because of the existence of judge-found facts. Booker itself reveals why that reality dooms the construct of reasonableness review established and applied by today\u2019s opinion. Booker made two things quite plain. First, reasonableness is the standard of review implicitly contained within the Sentencing Reform Act of 1984 (SRA). 543 U. S., at 260-261. Second, Congress wanted a uniform system of sentencing review, rather than different schemes depending on whether there were Sixth Amendment problems in particular cases. Id., at 265-267. Thus, if the contours of reasonableness review must be narrowed in some cases because of constitutional concerns, then they must be narrowed in all cases in light of Congress\u2019s desire for a uniform standard of review. The Justices composing today\u2019s Court were in total agreement with this principle of statutory interpretation the day Booker was decided:\n\u201c[W]hen deciding which of two plausible statutory constructions to adopt, a court must consider the necessary consequences of its choice. If one of them would raise a multitude of constitutional problems, the other should prevail \u2014 whether or not those constitutional problems pertain to the particular litigant before the Court.\u201d Clark v. Martinez, 543 U. S. 371,380-381 (2005) (opinion for the Court by Scalia, J., joined by, inter alios, Stevens, Kennedy, Ginsburg, and Breyer, JJ.).\nYet they now adopt substantive reasonableness review without offering any rebuttal to my charge of patent constitutional flaw inherent in such review. The one comfort to be found in the Court\u2019s opinion \u2014 though it does not excuse the failure to apply Martinez\u2019s interpretive principle \u2014 is that it does not rule out as-applied Sixth Amendment challenges to sentences that would not have been upheld as reasonable on the facts encompassed by the jury verdict or guilty plea. Ante, at 353-354; ante, at 365-366 (Stevens, J., joined by Ginsburg, J., concurring).\nB\nHad the Court bothered to frame objections to the constitutional analysis undertaken above, there are four conceivable candidates.\n1\nThe most simplistic objection is that the Sixth Amendment is not violated because the judge-found facts are made legaily necessary by the decision of appellate courts rather than the decision of Congress. This rebuttal errs both in premise and in conclusion.\nThe premise is wrong because, according to the remedial majority in Booker, the facts that excessiveness review renders legally essential are made such by Congress. Reasonableness is the standard of review implicitly contained within 18 U.S.C. \u00a73742 (2000 ed. and Supp. IV). See Booker, supra, at 260-261. But the Sixth Amendment would be violated even if appellate courts really were exercising some type of common-law power to prescribe the facts legally necessary to support specific sentences. Neither Apprendi nor any of its progeny suggests that violation of the Sixth Amendment depends upon what branch of government has made the prescription. To the contrary, Booker flatly rejected the argument that the mandatory Guidelines were constitutional because it was the Sentencing Commission rather than Congress that specified the facts essential to punishment. See 543 U. S., at 237-239. And for good reason. The Sixth Amendment is \u201ca reservation of jury power.\u201d Blakely, 542 U. S., at 308. It makes no difference whether it is a legislature, a Sentencing Commission, or an appellate court that usurps the jury\u2019s prerogative. Were it otherwise, this Court could prescribe that the only reasonable sentences are those consistent with the same mandatory Guidelines that Booker invalidated. And the California Supreme Court could effectively reverse our decision in Cunningham simply by setting aside as unreasonable any trial-court sentence that does not conform to pre-Cunningham California law.\n2\nThe next objection minimizes the extent to which excessiveness review makes judge-found facts legally essential to punishment. If appellate courts will uphold, based only on the facts found by the jury, a district court\u2019s decision to impose all but the lengthiest sentences, then the number of sentences that are legally dependent on judge-found facts will be quite small. Thus, the argument goes, there is no reason to prohibit substantive reasonableness review altogether: Absent a claim that such review creates a constitutional problem in a given case, why prohibit it? I have already explained why this line of defense is inconsistent with established principles of statutory interpretation. See supra, at 374-375. But even on its own terms, the defense is inconsistent with Booker because reasonableness review is an improper and inadequate remedial scheme unless it ensures that judge-found facts are never legally necessary to justify the sentence imposed under the advisory Guidelines.\nThe mandatory Guidelines system that was invalidated in Booker had the same attribute of producing unconstitutional results in only a small proportion of cases. Because of guilty pleas and Guidelines ranges that did not depend on judge-found facts, the overwhelming majority of sentences imposed under the pre-Booker federal system were perfectly in accord with the Sixth Amendment. See Booker, 543 U. S., at 248; id., at 275-277 (Stevens, J., dissenting in part). Booker nevertheless excised key statutory provisions governing federal sentencing, in order to eliminate constitutional violations entirely. If our conjured-up system does not accomplish that goal, then by what right have we supplanted the congressionally enacted mandatory Guidelines?\nIf it is true that some sentences under today\u2019s Court-prescribed system will still violate the Sixth Amendment, nonetheless allowing the system to go forward will produce chaos. Most cases do not resemble my stylized hypothetical, and ordinarily defendants and judges will be unable to figure out, based on a comparison of the facts in their case with the facts of all of the previously decided appellate cases, whether the sentence imposed would have been upheld as reasonable based only on the facts supporting the jury verdict or guilty plea. That will not stop defendants from making the argument, however, and the Court certainly has not foreclosed them from trying. See supra, at 375, and n. 4. Judges will have in theory two options: create complicated charts and databases, based on appellate precedents, to ascertain what facts are legally essential to justify what sentences; or turn a deaf ear to these claims, though knowing full well that some of them are justified. I bet on the latter. Things were better under the mandatory Guidelines system, where every judge could readily identify when the Sixth Amendment was being violated, and could rule accordingly.\n3\nProponents of substantive reasonableness review could next argue that actual sentencing involves the consideration of dozens of different facts in order to make an individualized determination about each defendant. In the real world, they would contend, it is difficult, if not impossible, to determine whether any given fact was legally essential to the punishment imposed. But identifying the particular fatal fact is not necessary to identifying a constitutional violation. In the second hypothetical given above, for example, it is not possible to say which single fact, or which combination of facts, sufficed to bring the sentence within the bounds of the \u201creasonable.\u201d But it is possible to say (indeed, it must be said) that some judge-found fact or combination of facts had that effect \u2014 and that suffices to establish a Sixth Amendment violation.\n\u201cWhether the judge\u2019s authority to impose an enhanced sentence depends on finding a specified fact . . . , one of several specified facts ... , or any aggravating fact ... , it remains the case that the jury\u2019s verdict alone does not authorize the sentence. The judge acquires that authority only upon finding some additional fact.\u201d Blakely, 542 U. S., at 305.\n4\nThe last conceivable defense of the Guidelines-light would be to wrap them in the mantle of history and tradition.\n\u201c[W]hen a practice not expressly prohibited by the text of the Bill of Rights bears the endorsement of a long tradition of open, widespread, and unchallenged use that dates back to the beginning of the Republic, we have no proper basis for striking it down. Such a venerable and accepted tradition is not to be laid on the examining table and scrutinized for its conformity to some abstract principle of [constitutional] adjudication devised by this Court. To the contrary, such traditions are themselves the stuff out of which the Court\u2019s principles are to be formed.\u201d Rutan v. Republican Party of Ill., 497 U. S. 62, 95-96 (1990) (Scalia, J., dissenting) (footnote omitted).\nThis consideration has no application here. In the federal system, prior to the SRA, substantive appellate review of a district court\u2019s sentencing discretion essentially did not exist. See, e. g., Dorszynski v. United States, 418 U. S. 424, 431 (1974) (noting \u201cthe general proposition that once it is determined that a sentence is within the limitations set forth in the statute under which it is imposed, appellate review is at an end\u201d); id., at 443 (\u201c[W]ell-established doctrine bars review of the exercise of sentencing discretion\u201d). As for state appellate review of sentences, as late as 1962, at least 39 States did not permit appellate courts to modify sentences imposed within the statutory limits. See Appellate Review of Sentences, A Symposium at the Judicial Conference of the United States Court of Appeals for the Second Circuit, 32 F. R. D. 249, 260 (1962). It would be an exaggeration to say that history reflects an established understanding that appellate review of excessive sentences conflicts with the Sixth Amendment. But it would also be an exaggeration to say that the historical pedigree of substantive appellate review of sentencing is so strong and clear as to overcome the basic principle underlying the jury-trial right applied by this Court in Apprendi, Blakely, Booker, and Cunningham.\nC\nA final defense of substantive reasonableness review would be to invoke the intent of Congress or of the Booker remedial opinion. As for congressional intent: Of course Congress intended that judge-found facts be legally essential to the punishment imposed; that was the whole reason the mandatory Guidelines violated the Sixth Amendment. If we are now to indulge a newfound respect for unconstitutional congressional intent, we should reimpose the mandatory Guidelines system. The quasi-Guidelines system the Court creates today manages to contravene both congressional intent and the Sixth Amendment.\nAs for the \u201cintent\u201d of the Booker remedial opinion: That opinion purported to be divining congressional intent in light of what the Sixth Amendment compelled. See 543 U. S., at 263-265. Absent some explanation of why substantive reasonableness review does not cause judge-found facts to justify greater punishment than the jury\u2019s verdict or the defendant\u2019s guilty plea would sustain, I fail to understand how such review could possibly have been intended by all five Justices who composed the Booker remedial majority. After all, at least one of them did not intend \u201cto override Blakely, and to render academic the entire first part of Booker itself,\u201d and has confirmed that \u201c[t]here would have been no majority in Booker for the revision of Blakely essayed in [Justice Auto\u2019s Cunningham] dissent.\u201d Cunningham, 549 U. S., at 293, n. 15 (opinion for the Court by Ginsburg, J.).\nII\nAbandoning substantive reasonableness review does not require a return to the pre-SRA regime that the Booker remedial opinion sought to avoid. See 543 U. S., at 263-265. As I said at the outset, I believe it is possible to give some effect to the Booker remedial opinion and the purposes that it sought to serve while still avoiding the constitutional defect identified in the Booker merits opinion. Specifically, I would limit reasonableness review to the sentencing procedures mandated by statute.\nA\nA central feature of the Booker remedial opinion was its conclusion that the SRA was not completely inseverable. See id., at 258-265. As a result, the Sentencing Commission \u201cremains in place, writing Guidelines, collecting information about actual district court sentencing decisions, undertaking research, and revising the Guidelines accordingly.\u201d Id., at 264. Likewise, sentencing courts remain obligated to consider the various factors delineated in 18 U. S. C. \u00a7 3553(a) (2000 ed., Supp. IV), including the now-advisory Guidelines range. 543 U. S., at 259-260. And they are still instructed by that subsection to \u201cimpose a sentence sufficient, but not greater than necessary, to comply with the purposes set forth in paragraph (2) of [that] subsection.\u201d Significantly, \u00a7 3553(c) (2000 ed. and Supp. IV) continues to require that district courts give reasons for their sentencing decisions, a requirement the requisite detail of which depends on whether the sentence is: (1) within the advisory Guidelines range; (2) within an advisory Guidelines range that spans more than 24 months; or (3) outside the advisory Guidelines range. These explanations, in turn, help the Commission revise the advisory Guidelines to reflect actual sentencing practices consistent with the statutory goals. See Booker, supra, at 264 (citing 28 U. S. C. \u00a7 994 (2000 ed. and Supp. IV)).\nBooker\u2019s retention of these statutory procedural provisions furthered the congressional purpose of \u201ciron[ing] out sentencing differences,\u201d 543 U. S., at 263, and \u201cavoiding] excessive sentencing disparities,\u201d id., at 264. It is important that appellate courts police their observance. Booker excised the provision of the SRA containing the standards for appellate review, see id., at 260 (invalidating 18 U. S. C. \u00a7 3742(e) (2000 ed. and Supp. IV)), but the remedial majority\u2019s creation of reasonableness review gave appellate courts the necessary means to reverse a district court that: appears not to have considered \u00a7 3553(a); considers impermissible factors; selects a sentence based on clearly erroneous facts; or does not comply with \u00a73553(c)\u2019s requirement for a statement of reasons. In addition to its direct effect on sentencing uniformity, this procedural review will indirectly produce, over time, reduction of sentencing disparities. By ensuring that district courts give reasons for their sentences, and more specific reasons when they decline to follow the advisory Guidelines range, see \u00a7 3553(c)(2) (2000 ed., Supp. IV), appellate courts will enable the Sentencing Commission to perform its function of revising the Guidelines to reflect the desirable sentencing practices of the district courts. See Booker, supra, at 264 (citing 28 U. S. C. \u00a7 994 (2000 ed. and Supp. IV)). And as that occurs, district courts will have less reason to depart from the Commission\u2019s recommendations, leading to more sentencing uniformity.\nOne possible objection to procedural review that the Booker remedial opinion appears not to have considered is 18 U. S. C. \u00a7 3742(f) (2000 ed., Supp. IV), which limits appellate courts to reversing sentences that are imposed \u201cin violation of law\u201d or \u201cas a result of an incorrect application of the sentencing guidelines,\u201d \u00a73742(f)(1), or that fall in certain categories and are either \u201ctoo high\u201d or \u201ctoo low,\u201d \u00a7 3742(f)(2). But, as I noted in Booker, \u00a7 3742(e) and \u00a7 3742(f) are inextricably intertwined: Having excised \u00a7 3742(e)\u2019s provisions setting forth the standards for appellate review, it is nonsensical to continue to apply \u00a7 3742(f )\u2019s provisions governing the \u201cDecision and Disposition\u201d of appeals, which clearly track those now-excised standards. See 543 U. S., at 306-307 (Scalia, J., dissenting in part). I would hold that \u00a7 3742(f) is \u201cincapable of functioning independently\u201d of the provisions excised in Booker, and is thus inseverable from them. See Alaska Airlines, Inc. v. Brock, 480 U. S. 678, 684 (1987); 2 N. Singer, Sutherland Statutes and Statutory Construction \u00a7 44:4, p. 576 (6th ed. 2001) (\u201cEven where part of an act is independent and valid, other parts which are not themselves substantively invalid but have no separate function to perform independent of the invalid portions of the act are also held invalid\u201d).\nB\nApplying procedural review in this case does not require much further discussion on my part. I join Part III of the Court\u2019s opinion. See ante, at 356-359.\n* * *\nThe Court\u2019s decision today leaves unexplained why the mandatory Guidelines were unconstitutional, but the Court-created substantive-review system that contains the same potential for Sixth Amendment violation is not. It is irresponsible to leave this patent inconsistency hanging in the air, threatening in the fiiture yet another major revision of Guidelines practices to which the district courts and courts of appeals will have to adjust. Procedural review would lay the matter to rest, comporting with both parts of the Booker opinion and achieving the maximum degree of sentencing uniformity on the basis of judge-found facts that the Constitution permits.\nOf course, it may be that some fact other than racial animus would also have sufficed to sustain the increased sentence. But it is undeniable that in the case at hand the judicial finding of racial animus filled that role. See Blakely v. Washington, 542 U. S. 296, 305 (2004).\nFor similar reasons, I recognize that the Sixth Amendment problem with reasonableness review is created only by the lack of district court discretion to impose high sentences, since eliminating discretion to impose low sentences is the equivalent of judicially creating mandatory minimums, which are not a concern of the Sixth Amendment. See Harris v. United States, 536 U. S. 545, 568-569 (2002). But since reasonableness review should not function as a one-way ratchet, United States v. Booker, 543 U. S. 220, 257-258, 266 (2005), we must forswear the notion that sentences can be too low in light of the need to abandon the concept that sentences can be too high.\nFor this reason, I do not join Justice Souter\u2019s dissent. He wishes to give \u201cdistrict courts [assurance] that the entire sentencing range set by statute is available to them.\u201d Post, at 391. That is a proper goal\u2014indeed, an essential one to prevent the Booker remedy from effectively overturning Apprendi and Blakely. But eliminating the presumption of reasonableness will not achieve it. In those Circuits that already decline to employ the presumption, a within-Guidelines sentence has never been reversed as substantively excessive, Brief for New York Council of Defense Lawyers as Amicus Curiae 5, refuting the belief that mere elimination of the presumption will destroy the \u201cgravitational pull,\u201d post, at 390 (Souter, J., dissenting), to stay safely within the Guidelines. The only way to assure district courts that they can deviate from the advisory Guidelines, and to ensure that judge-found facts are never legally essential to the sentence, is to prohibit appellate courts from reviewing the substantive sentencing choices made by district courts.\nThe Court suggests that my reliance on hypothetical indicates that its interpretation of reasonableness will not create a multitude of constitutional problems. Ante, at 353-354; see also ante, at 366 (Stevens, J., concurring). Setting aside the question whether the volume of constitutional violations has any relevance to the application of Martinez\u2019s interpretive principle, the Court is wrong to think that the constitutional problem today\u2019s opinion ignores is hypothetical, merely because I have used hypotheticals to describe it. It is all too real that advisory Guidelines sentences routinely change months and years of imprisonment to decades and centuries on the basis of judge-found facts \u2014 as Booker itself recognized, see 543 U. S., at 236-237 (citing, inter alia, a case in which a defendant\u2019s sentence increased from 57 months to 155 years).\nPerhaps I am too cynical. At least one conscientious District Judge has decided to shoulder the burden of ascertaining what the maximum reasonable sentence is in each case based only on the verdict and appellate precedent, correctly concluding that this is the only way to eliminate Sixth Amendment problems after Cunningham v. California, 549 U. S. 270 (2007), if Booker mandates substantive reasonableness review. See United States v. Griffin, 494 F. Supp. 2d 1, 12-14 (D. Mass. 2007) (Young, J.) (Sentencing Memorandum).\n\u201cSubstance\u201d and \u201cprocedure\u201d are admittedly chameleon-like terms. See Sun Oil Co. v. Wortman, 486 U. S. 717, 726-727 (1988). As the text indicates, my use of the term \u201cprocedure\u201d here includes the limiting of sentencing factors to permissible ones \u2014 as opposed to using permissible factors but reaching a result that is \u201csubstantively\u201d wrong. I therefore disagree with Justice Stevens that a district court which discriminates against Yankees fans is acting in a procedurally \u201cimpeccable\u201d way. Ante, at 365 (concurring opinion).\nCourts must resist, however, the temptation to make procedural review more stringent because substantive review is off the table. The judicial role when conducting severability analysis is limited to determining whether the balance of a statute that contains an unconstitutional provision is capable \u201cof functioning independently.\u201d Alaska Airlines, Inc. v. Brock, 480 U. S. 678, 684 (1987). Courts have no power to add provisions that might be desirable now that certain provisions have been excised. Thus, when engaging in reasonableness review to determine whether the district court has complied with the various procedures in \u00a7 3553, an appellate court cannot subject the district court to any greater requirements than existed pre-Booker.\nI say \u201cpossible\u201d because one could claim that the failure to comply with 18 U. S. C. \u00a73553\u2019s procedural requirements results in a sentence imposed in violation of law, and thereby covered by \u00a7 3742(f)(1). But \u00a7 3742(f)(l)\u2019s applicability to such procedural errors is called into question by \u00a7 3742(f)(2) (2000 ed., Supp. IV), which specifically addresses sentences where \u201cthe district court failed to provide the required statement of reasons [mandated by \u00a7 3553(c)(2)].\u201d For the reasons specified in the text, however, I see no need to grapple, post-Booker, with the proper interpretation of \u00a7 3742(f).",
+        "type": "concurrence",
+        "author": "Justice Scalia,"
+      },
+      {
+        "text": "Justice Souter,\ndissenting.\nApplying the Sixth Amendment to current sentencing law has gotten complicated, and someone coming cold to this case might wonder how we reached this point. A very general overview of the course of decisions over the past eight years may help to put today\u2019s holding in perspective.\nMembers of a criminal jury are guaranteed to be impartial residents of the State and district of the crime, but the Sixth Amendment right to trial by jury otherwise relies on history for details, and the practical instincts of judges and legislators for implementation in the courts. Litigation has, for example, worked through issues of size, see Ballew v. Georgia, 435 U. S. 223 (1978) (prohibiting five-person state juries but allowing juries of six), and unanimity, see Apodaca v. Oregon, 406 U. S. 404 (1972) (allowing nonunanimous juries in state criminal trials); Burch v. Louisiana, 441 U. S. 130 (1979) (prohibiting nonunanimous six-person juries). Such decisions go to what William James would have called the \u201ccash-value\u201d of the Constitution\u2019s guarantee. See W. James, Pragmatism: A New Name for Some Old Ways of Thinking 200 (1907).\nOne additional issue of both detail and implementation is the line between judge and jury in determining facts, and in particular the legitimate extent of factfinding by a judge when sentencing a defendant after a guilty plea or a jury\u2019s verdict of guilty. Since the very inception of judicial discretion in determining a sentence, judges have acted on what they learn in the course of a trial (and later what they gather from a presentenee report or other evidence at time of sentencing), including details a trial jury may not have found to be true when it returned the guilty verdict or answered a special question. But historically, also, the customary judicial use of these extraverdict facts has been in deciding on a sentence within a range set in advance by the statute defining the crime in question. See Williams v. New York, 337 U. S. 241, 246-247 (1949). Thus, traditionally when a judge imposed a sentence at some point in the range, say, of Q-to-5 years specified by statute for some offense, every fact necessary to go as high as five years had been found by the jury (or admitted), even though the jury had not made particular or implicit findings of the facts the judge might consider in exercising discretion to set the sentence higher or lower within the 5-year range.\nIt was against this background, in Jones v. United States, 526 U. S. 227 (1999), that we called attention to a serious threat to the practical value of a criminal defendant\u2019s jury right. Jones had been prosecuted under a statute that exemplified a growing practice of providing a definition and penalty for some basic crime subject to the right of jury trial, but then identifying variants carrying higher ranges of penalties depending on facts that arguably might be found by a judge sitting alone. Thus, Jones was convicted solely of carjacking, but if the further fact of causing \u2018\u201cserious bodily injury\u2019 \u201d was shown, the maximum penalty jumped from 15 years to 25. Id., at 230 (quoting 18 U. S. C. \u00a72119 (1988 ed., Supp. V)). The Government\u2019s position was that the extra fact of serious bodily injury raising the penalty range required no jury finding because it was only a condition for imposing an enhanced sentence, up to a judge, not an element of a more serious crime, subject to the right to a jury\u2019s determination. See Jones, 526 U. S., at 233.\nIt was an unsettling argument, because in prosecutions under these statutory schemes the most serious issue in the case might well be not guilt or innocence of the basic offense, but liability to the substantially enhanced penalty. If, for example, the judge found that Jones had caused not just serious bodily injury, but death, such extraverdict factfinding could have made the difference between 15 years and life imprisonment. Id., at 230 (citing \u00a72119). In a case like that, giving judges the exclusive power to find the facts necessary to sentence in the higher range would make the jury a mere gatekeeper to the more important trial before a judge alone. Id., at 243-244. The Sixth Amendment does not, of course, speak expressly to such a scheme, but that is not a sufficient reason to give it constitutional approval. For if judicial factfinding necessary for an enhanced sentencing range were held to be adequate in the face of a defendant\u2019s objection, a defendant\u2019s right to have a jury standing between himself and the power of the government to curtail his liberty would take on a previously unsuspected modesty.\nJones accordingly treated this practice as suspect enough to call for applying the doctrine of constitutional avoidance when the Court interpreted the statute in question. What the Government called a mere condition for imposing a sentencing enhancement was treated as an element of a more serious offense and made subject to a jury\u2019s factfinding. This interpretation obviated the constitutional decision whether subjecting an unwilling defendant to a more onerous range of sentence on facts found solely by a judge would violate the Sixth Amendment.\nThe issue did not go away with Jones, and the constitutional challenge was soon presented inescapably, in Apprendi v. New Jersey, 530 U. S. 466 (2000). We held that exposing a defendant to an increased penalty beyond the range for a basic crime, based on facts determined exclusively by a judge, violated the Sixth Amendment, in the absence of a jury waiver; a defendant could not be subjected to a penalty more serious than one authorized by the facts found by the jury or admitted by the defendant. Id., at 490. A judge could constitutionally determine facts for exercising discretion in sentencing up to that point, but a fact that raised the range of possible penalties functioned like an element of a more serious offense, even if a statute ostensibly tied that fact to the sentence alone. Hence, in the absence of waiver, a sentence in that weightier range could be imposed by a judge only if the enhancing fact was found beyond, a reasonable doubt by the trial jury. Ibid. In placing disputed fact-finding off judicial limits when, but only when, its effect would be to raise the range of possible sentences, we made a practical judgment that maintained the historical judicial role in finding facts relevant to sentencing within the range set by a jury\u2019s verdict, but we recognized that the jury right would be trivialized beyond recognition if that traditional practice could be extended to the point that a judge alone (over objection) could find a fact necessary to raise the upper limit of a sentencing range.\nFrom the moment Apprendi drew that line, however, its holding carried apparent implications for the regime of Guidelines sentencing adopted in 1984, see Sentencing Reform Act of 1984,98 Stat. 1987,18 U. S. C. \u00a73551 et seq. (2000 ed. and Supp. IV); 28 U. S. C. \u00a7 991 et seq. (2000 ed. and Supp. IV). The general object of Guidelines sentencing was the eminently laudable one of promoting substantial consistency in exercising judicial discretion to sentence within the range set by statute for a given crime. Thus, at the elementary level, the Guidelines law limits the sentence that a judge may impose even within the sentencing range provided by the statute creating a particular offense. In effect, it divides a basic sentencing range into subranges and assigns an offender to a subrange based on the particular facts of the case and the offender\u2019s criminal history. A judge may depart from the assigned subrange only if the case presents a circumstance \u201cnot adequately taken into consideration by the Sentencing Commission in formulating the guidelines.\u201d 18 U. S. C. \u00a7 3553(b)(1) (2000 ed., Supp. IV). It follows that a judge must find facts beyond those necessary for the jury\u2019s guilty verdict to sentence above (or below, for that matter) the subrange designated for an offender with a comparable criminal history whose c\u00e1se presents no relevant facts beyond the formal elements of the crime itself. The result is a hybrid sentencing practice. One could describe it by emphasizing that the judge\u2019s factfinding could never increase the sentence beyond the range set by the law defining the crime, or one could stress that a principal motivation for Guidelines sentencing is eliminating some traditional judicial discretion by forbidding a judge to impose a high sentence except on the basis of some fact beyond those necessary for a guilty verdict (and thus subject to the right to a jury\u2019s determination).\nIn Blakely v. Washington, 542 U. S. 296 (2004), considering a state sentencing system, similar to the federal scheme, we decided that the latter way of looking at it made more sense, if Apprendi was going to mean something in preserving the historical significance of the jury. See 542 U. S., at 305-306. We held that the additional factfinding necessary for a judge to sentence within a high subrange was comparable to the finding of additional fact required for a judge to impose an enhanced sentence under the law considered in Apprendi. If Blakely had come out the other way, the significance of Apprendi itself would be in jeopardy: a legislature would be free to bypass Apprendi by providing an abnormally spacious sentencing range for any basic crime (theoretically exposing a defendant to the highest sentence just by the jury\u2019s guilty verdict), then leaving it to a judge to make supplementary findings not only appropriate but necessary for a sentence in a subrange at the high end. That would spell the end of Apprendi and diminish the real significance of jury protection that Apprendi had shored up.\nIn United States v. Booker, 543 U. S. 220 (2005), a majority of the Court applied Blakely\u2019s reasoning and held that the Federal Guidelines, too, subjected defendants to unconstitutional sentences in upper subranges, absent a jury finding or waiver. So far, so good for the Sixth Amendment, but there was the further issue of remedy, and at that step consistency began to falter. If statutory Guidelines were to survive, there were two serious alternatives. One was already in place in courts with the foresight to apply Apprendi to the Guidelines: require any additional facts necessary for a possible high subrange sentence to be charged and submitted to the jury. True, the Government would have to think ahead (and could not charge relevant facts that emerged unexpectedly at trial). But the mandatory character of the Guidelines would be preserved, the goal of consistency would continue to be served, and the practical value of the jury right would not face erosion.\nThe second remedial alternative was a declaration by the Court that the Guidelines were not mandatory but discretionary, so that finding extraverdict facts was not strictly necessary for sentencing in a high subrange under the Guidelines. On this alternative, a judge who found a subsidiary fact specified as a condition for a high subrange sentence might decide to impose a low sentence (independently of the Guidelines\u2019 own provisions for downward departure), and a judge who found no such fact might sentence within the high subrange for other reasons that seemed sufficient. If the Guidelines were not mandatory, the subsidiary fact merely provided one reasoned basis for a traditional exercise of discretion to sentence at the high end of the sentencing range provided by the statute defining the crime.\nBut that second alternative could not be so simple: it raised yet further issues, and the reconfigured majority of the Court that in fact adopted it, see 543 U. S., at 244, guaranteed that we would have the case now before us. If district judges treated the now-discretionary Guidelines simply as worthy of consideration but open to rejection in any given case, the Booker remedy would threaten a return to the old sentencing regime and would presumably produce the apparent disuniformity that convinced Congress to adopt Guidelines sentencing in the first place. But if sentencing judges attributed substantial gravitational pull to the now-discretionary Guidelines, if they treated the Guidelines result as persuasive or presumptively appropriate, the Booker remedy would in practical terms preserve the very feature of the Guidelines that threatened to trivialize the jury right. For a presumption of Guidelines reasonableness would tend to produce Guidelines sentences almost as regularly as mandatory Guidelines had done, with judges finding the facts needed for a sentence in an upper subrange. This would open the door to undermining Apprendi itself, and this is what has happened today.\nWithout a powerful reason to risk reversal on the sentence, a district judge faced with evidence supporting a high subrange Guidelines sentence will do the appropriate fact-finding in disparagement of the jury right and will sentence within the high subrange. This prediction is weakened not a whit by the Court\u2019s description of within-Guidelines reasonableness as an \u201cappellate\u201d presumption, ante, at 351 (emphasis deleted). What works on appeal determines what works at trial, and if the Sentencing Commission\u2019s views are as weighty as the Court says they are, see ante, at 348-351, a trial judge will find it far easier to make the appropriate findings and sentence within the appropriate Guideline, than to go through the unorthodox factfinding necessary to justify a sentence outside the Guidelines range, see 18 U. S. C. \u00a7 3553(c)(2) (2000 ed., Supp. IV). The upshot is that today\u2019s decision moves the threat to the practical value of the Sixth Amendment jury right closer to what it was when this Court flagged it in Jones, and it seems fair to ask just what has been accomplished in real terms by all the judicial labor imposed by Apprendi and its associated cases.\nTaking the Booker remedy (of discretionary Guidelines) as a given, however, the way to avoid farther risk to Apprendi and the jury right is to hold that a discretionary within-Guidelines sentence carries no presumption of reasonableness. Only if sentencing decisions are reviewed according to the same standard of reasonableness whether or not they fall within the Guidelines range will district courts be assured that the entire sentencing range set by statute is available to them. See Booker, supra, at 263 (calling for a reasonableness standard \u201cacross the board\u201d). And only then will they stop replicating the unconstitutional system by imposing appeal-proof sentences within the Guidelines ranges determined by facts found by them alone.\nI would therefore reject the presumption of reasonableness adopted in this case, not because it is pernicious in and of itself, but because I do not think we can recognize such a presumption and still retain the full effect of Apprendi in aid of the Sixth Amendment guarantee. But I would not stop at rejecting the presumption. Neither my preferred course nor the choice of today\u2019s majority can avoid being at odds to some degree with the intent of Congress; there is no question that Congress meant to impose mandatory Guidelines as the means of bringing greater uniformity to sentencing. So I point out that the congressional objective can still be attained, but that Booker\u2019s remedial holding means that only Congress can restore the scheme to what it had in mind, and in a way that gives full measure to the right to a jury trial. If Congress has not had a change of heart about the value of a Guidelines system, it can reenact the Guidelines law to give it the same binding force it originally had, but with provision for jury, not judicial, determination of any fact necessary for a sentence within an upper Guidelines subrange. At this point, only Congress can make good on both its enacted policy of mandatory Guidelines sentencing and the guarantee of a robust right of jury trial.\nI respectfully dissent.\nWe recognized a single exception to this rule, permitting reliance on the fact of a prior conviction without a jury determination that the defendant had previously been convicted. See Apprendi, 530 U. S., at 489-490; see also Almendarez-Torres v. United States, 523 U. S. 224 (1998).\nBecause I would ask the Court of Appeals to review the sentence for reasonableness without resort to any presumption, I would not reach the other issues in this case.",
+        "type": "dissent",
+        "author": "Justice Souter,"
+      }
+    ],
+    "attorneys": [
+      "Thomas N. Cochran argued the cause for petitioner. With him on the briefs were Louis C. Allen III, William C. Ingram, Elizabeth A. Flagg, Jeffrey T. Green, Robert N. Hochman, and Eric A. Shumsky.",
+      "Deputy Solicitor General Dreeben argued the cause for the United States. With him on the brief were Solicitor General Clement, Assistant Attorney General Fisher, Dan Himmelfarb, Matthew D. Roberts, Nina Goodman, and Jeffrey P. Singdahlsen."
+    ],
+    "corrections": "",
+    "head_matter": "RITA v. UNITED STATES\nNo. 06-5754.\nArgued February 20, 2007\nDecided June 21, 2007\nBreyek, J., delivered the opinion of the Court, in which Roberts, C. J., and Stevens, Kennedy, Ginsburg, and Auto, JJ., joined, and in which Scaua and Thomas, JJ., joined as to Part III. Stevens, J., filed a concurring opinion, in which Ginsburg, J., joined as to all but Part II, post, p. 360. Scaua, J., filed an opinion concurring in part and concurring in the judgment, in which Thomas, J., joined, post, p. 368. Souter, J., filed a dissenting opinion, post, p. 384.\nThomas N. Cochran argued the cause for petitioner. With him on the briefs were Louis C. Allen III, William C. Ingram, Elizabeth A. Flagg, Jeffrey T. Green, Robert N. Hochman, and Eric A. Shumsky.\nDeputy Solicitor General Dreeben argued the cause for the United States. With him on the brief were Solicitor General Clement, Assistant Attorney General Fisher, Dan Himmelfarb, Matthew D. Roberts, Nina Goodman, and Jeffrey P. Singdahlsen.\nBriefs of amici curiae urging reversal were filed for Families Against Mandatory Minimums by Gregory L. Poe, Mary Price, and Peter Goldberger; for Federal Public and Community Defenders et al. by Thomas W. H\u00fclier II, Amy Baron-Evans, Laura E. Mate, and Sara E. Noonan; for the National Association of Criminal Defense Lawyers by Miguel A Estrada, David Debold, and Jeffrey L. Fisher; for the National Veterans Legal Services Program et al. by Louis R. Cohen and Jonathan Nuechterlein; for the New York Council of Defense Lawyers by Alexandra A E. Shapiro and Paul H. Schwartz; for the Washington Legal Foundation et al. by Daniel J. Popeo and Paul D. Kamenar; and for Marc L. Miller et al. by Mr. Miller, pro se, Robert B. Fiske, Earl J. Silbert, and Peter Vaira.\nBriefs of amici curiae were filed for Law Professors Who Study Sentencing Reform by Edward S. Lee; and for the United States Sentencing Commission by David C. Frederick and Pamela O. Barron."
+  },
+  "file_name": "0338-01",
+  "first_page_order": 390,
+  "last_page_order": 444
+}

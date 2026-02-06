@@ -1,0 +1,59 @@
+{
+  "id": 12420065,
+  "name": "Kulesa v. Rex",
+  "name_abbreviation": "Kulesa v. Rex",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 12-252",
+  "first_page": "979",
+  "last_page": "979",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 979"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 61,
+    "ocr_confidence": 0.682,
+    "sha256": "29f199f25d9170a2202889e2ef10dba85899dfe3f1dba744db6a321155915010",
+    "simhash": "1:c2ce87501f38e834",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Kulesa v. Rex."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. Pa. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-252.\nKulesa v. Rex."
+  },
+  "file_name": "0979-05",
+  "first_page_order": 1055,
+  "last_page_order": 1055
+}

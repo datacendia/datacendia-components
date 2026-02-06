@@ -1,0 +1,59 @@
+{
+  "id": 12213881,
+  "name": "Malone v. Sherman, Warden",
+  "name_abbreviation": "Malone v. Sherman",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-29",
+  "first_page": "879",
+  "last_page": "879",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 879"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.723,
+    "sha256": "10026f8a0f965dae6db60cfeef7b5a422af8adfbea8d8d7d1c1bf2b34b2eda50",
+    "simhash": "1:b382b253ee3b1896",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Malone v. Sherman, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-29.\nMalone v. Sherman, Warden."
+  },
+  "file_name": "0879-09",
+  "first_page_order": 961,
+  "last_page_order": 961
+}

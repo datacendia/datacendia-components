@@ -1,0 +1,83 @@
+{
+  "id": 2252434,
+  "name": "Gulf Oil Corporation v. Bob Alexander",
+  "name_abbreviation": "Gulf Oil Corp. v. Alexander",
+  "decision_date": "1956-10-24",
+  "docket_number": "Application No. A-5986",
+  "first_page": "455",
+  "last_page": "455",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "156 Tex. 455"
+    },
+    {
+      "type": "parallel",
+      "cite": "295 S.W.2d 901"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "291 S.W. 2d 792",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10181705
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/291/0792-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 125,
+    "char_count": 1105,
+    "ocr_confidence": 0.625,
+    "pagerank": {
+      "raw": 6.312876811318344e-08,
+      "percentile": 0.38828016614096034
+    },
+    "sha256": "9c9dc99728421ef842fbe003f0418017c7324ec3a6347909e889480a0e3a452f",
+    "simhash": "1:18081cfc74bd7c7b",
+    "word_count": 178
+  },
+  "last_updated": "2024-02-27T22:45:04.681911+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gulf Oil Corporation v. Bob Alexander"
+    ],
+    "opinions": [
+      {
+        "text": "PER CURIAM\nAlthough both parties have filed applications for writs of error, it is evident that Bob Alexander, who was successful in both of the courts below, only seeks to preserve the judgment in his favor. We have concluded that there is evidence to support the jury findings of common law negligence and proximate cause, and both applications are denied with the notation \u201cRefused. No reversible error.\u201d This order must not be taken as indicating either approval or disapproval of the views expressed by the Court of Civil Appeals as to the legal effect of Rule 20 promulgated by the Railroad Commission of Texas. 291 S.W. 2d 792.\nOpinion delivered October 24, 1956.\nRehearing overruled December 19, 1956.",
+        "type": "majority",
+        "author": "PER CURIAM"
+      }
+    ],
+    "attorneys": [
+      "Kisei & Tabor, of Levelland, David W. Stevens, Jesse P. Luton, Jr., John E. Thomason, of Ft. Worth, and Archie D. Gray of Pittsburg, Pa., for Petitioner, Gulf Oil Corporation.",
+      "Allison, Steel & Allison, of Levelland, for respondent, Alexander."
+    ],
+    "corrections": "",
+    "head_matter": "Gulf Oil Corporation v. Bob Alexander\nApplication No. A-5986\nDecided October 24, 1956.\nRehearing overruled December 19, 1956.\n(295 S.W. 2d Series 901).\nKisei & Tabor, of Levelland, David W. Stevens, Jesse P. Luton, Jr., John E. Thomason, of Ft. Worth, and Archie D. Gray of Pittsburg, Pa., for Petitioner, Gulf Oil Corporation.\nAllison, Steel & Allison, of Levelland, for respondent, Alexander."
+  },
+  "file_name": "0455-01",
+  "first_page_order": 467,
+  "last_page_order": 467
+}

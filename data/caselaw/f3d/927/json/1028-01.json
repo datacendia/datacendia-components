@@ -1,0 +1,198 @@
+{
+  "id": 12521482,
+  "name": "UNITED STATES of America Plaintiff - Appellee v. Sergio DIAZ-ORTIZ Defendant - Appellant",
+  "name_abbreviation": "United States v. Diaz-Ortiz",
+  "decision_date": "2019-06-20",
+  "docket_number": "No. 18-2948",
+  "first_page": "1028",
+  "last_page": "1031",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "927 F.3d 1028"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "8th Cir.",
+    "id": 8821,
+    "name": "United States Court of Appeals for the Eighth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "502 F.3d 54",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5526655
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "59",
+          "parenthetical": "\"[T]he reasoning in Hudson applies with equal force to \u00a7 3109.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/502/0054-01"
+      ]
+    },
+    {
+      "cite": "487 F.3d 304",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3105477
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "305-06",
+          "parenthetical": "collecting cases and holding that \" Hudson compels the conclusion that suppression is not the remedy for a violation of \u00a7 3109\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/487/0304-01"
+      ]
+    },
+    {
+      "cite": "452 F.3d 1007",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3329041
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "1008",
+          "parenthetical": "\"[Defendant's] motion to suppress was premised entirely on his contention that officers violated the Fourth Amendment by failing to knock and announce their presence, and Hudson disposes of his claim.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/452/1007-01"
+      ]
+    },
+    {
+      "cite": "547 U.S. 586",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3276422
+      ],
+      "weight": 8,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "592"
+        },
+        {
+          "page": "594"
+        },
+        {
+          "parenthetical": "\"[Defendant's] motion to suppress was premised entirely on his contention that officers violated the Fourth Amendment by failing to knock and announce their presence, and Hudson disposes of his claim.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/547/0586-01"
+      ]
+    },
+    {
+      "cite": "648 F.3d 884",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3739415
+      ],
+      "weight": 2,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "887"
+        },
+        {
+          "page": "887"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/648/0884-01"
+      ]
+    },
+    {
+      "cite": "353 F.3d 606",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9295910
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "612"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/353/0606-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 3109",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 4,
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 438,
+    "char_count": 7397,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25935952250498
+    },
+    "sha256": "296822b391a56b5f553edbaf61d923da2d3ef14a75c8d48e07e1f0bc35beb4de",
+    "simhash": "1:9b672123264abafb",
+    "word_count": 1169
+  },
+  "last_updated": "2024-02-27T18:36:41.085222+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before SHEPHERD, MELLOY, and GRASZ, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America Plaintiff - Appellee\nv.\nSergio DIAZ-ORTIZ Defendant - Appellant"
+    ],
+    "opinions": [
+      {
+        "text": "MELLOY, Circuit Judge.\nAppellant Sergio Diaz-Ortiz seeks, for the first time on appeal, suppression of evidence obtained after an alleged violation of the knock-and-announce rule under the Fourth Amendment and 18 U.S.C. \u00a7 3109. Applying plain-error review, we affirm the judgment of the district court.\nI. Background\nOn June 16, 2016, officers with the Ozark Drug Enforcement Team and the Bureau of Alcohol, Tobacco, Firearms and Explosives took Justin Thurston, a methamphetamine dealer, into custody. Prior to being taken into custody, Thurston told the officers that his supplier, whom he knew as \"Pedro,\" had a room at the Microtel Hotel, located in Joplin, Missouri. Thurston also indicated that he had seen a large amount of methamphetamine in the room earlier that day. The officers then drove to the Microtel Hotel and contacted hotel management. They eventually learned that the man Thurston identified as \"Pedro\" was actually Diaz-Ortiz and that Diaz-Ortiz was renting room 239. Based upon the information provided by Thurston, the officers applied for a search warrant.\nWhile waiting for the search warrant, the officers learned that Thurston had been released from custody. The officers became worried that Thurston would alert Diaz-Ortiz to their presence and that Diaz-Ortiz would begin destroying evidence. They therefore decided to enter the room and secure Diaz-Ortiz to prevent the potential destruction of evidence. The officers went to room 239 and knocked on the door. Hearing Diaz-Ortiz approach the door, they used a key card obtained from hotel management and entered. Upon entering, the officers detained Diaz-Ortiz and advised him of his Miranda rights. They did not search the room. According to the district court, Diaz-Ortiz implied to the officers that he did not wish to speak with them until he had a lawyer present. Officers engaged in conversation with Diaz-Ortiz while they were waiting for the search warrant, however, and Diaz-Ortiz told them that there were three pounds of methamphetamine in the room.\nA few hours after entering the room and detaining Diaz-Ortiz, more officers arrived with a signed search warrant. Only then did the officers search the room. Their search uncovered: approximately three pounds of methamphetamine, $ 10,331 in cash, a loaded handgun, and sample amounts of heroin and cocaine. Diaz-Ortiz was arrested and transported to the Newton County Jail.\nAt a suppression hearing, Diaz-Ortiz argued that the officers conducted an unlawful, warrantless entry into room 239 and that any evidence or statements obtained as a result of that entry should be suppressed. The district court concluded that the officers' entry was unlawful and suppressed Diaz-Ortiz's unprompted statement regarding the amount of methamphetamine in the room. The district court, however, did not suppress the evidence discovered during the search of the room. The court held that the search warrant, which was issued based solely on evidence obtained prior to the officers' unlawful entry, was an independent source of the evidence obtained during the search, and thus suppression was not warranted.\nOn appeal, Diaz-Ortiz argues for the first time that the search evidence should have been suppressed because it was obtained after an alleged violation of the knock-and-announce rule under the Fourth Amendment and 18 U.S.C. \u00a7 3109.\nII. Standard of Review\nBecause Diaz-Ortiz did not timely raise the knock-and-announce issue before the district court, we review his appeal for plain error. United States v. James, 353 F.3d 606, 612 (8th Cir. 2003). \"To obtain relief under a plain-error standard of review, [Diaz-Ortiz] must show that there was an error, the error is clear or obvious under current law, the error affected [his] substantial rights, and the error seriously affects the fairness, integrity, or public reputation of judicial proceedings.\" United States v. Poitra, 648 F.3d 884, 887 (8th Cir. 2011).\nIII. Discussion\nThe district court did not commit plain error. The Supreme Court's ruling in Hudson v. Michigan, 547 U.S. 586, 126 S.Ct. 2159, 165 L.Ed.2d 56 (2006) disposes of this case. In Hudson, the Supreme Court considered whether a gun and drugs seized by officers pursuant to a search warrant should be suppressed because the officers had violated the knock-and-announce rule in the course of executing the warrant. Id. at 592, 126 S.Ct. 2159. Based on the facts of that case, the Court found that \"whether that preliminary misstep had occurred or not , the police would have executed the warrant they had obtained, and would have discovered the gun and drugs inside the house.\" Id. The Court then held that because the knock-and-announce violation had \"nothing to do with the seizure of the evidence, the exclusionary rule [was] inapplicable.\" Id. at 594, 126 S.Ct. 2159 ; see also United States v. Gaver, 452 F.3d 1007, 1008 (8th Cir. 2006) (\"[Defendant's] motion to suppress was premised entirely on his contention that officers violated the Fourth Amendment by failing to knock and announce their presence, and Hudson disposes of his claim.\").\nSimilarly, in this case, the officers' alleged violation of the knock-and-announce rule had nothing to do with their seizure of the gun, drugs, and cash in Diaz-Ortiz's hotel room pursuant to their search warrant. As the district court found, the search warrant was based solely on evidence obtained prior to the officers' entry. Therefore, regardless of whether the officers violated the knock-and-announce rule, they still would have obtained and executed the warrant and discovered the aforementioned evidence. Accordingly, Diaz-Ortiz's claim is foreclosed.\nTo the extent Diaz-Ortiz argues that the Supreme Court's analysis in Hudson does not apply to knock-and-announce violations under 18 U.S.C. \u00a7 3109, a number of circuits have found otherwise. See United States v. Bruno, 487 F.3d 304, 305-06 (5th Cir. 2007) (collecting cases and holding that \" Hudson compels the conclusion that suppression is not the remedy for a violation of \u00a7 3109\"); see also United States v. Acosta, 502 F.3d 54, 59 (2d Cir. 2007) (\"[T]he reasoning in Hudson applies with equal force to \u00a7 3109.\"). This Court has not yet addressed the issue, but even assuming it might be error to apply Hudson to violations of 18 U.S.C. \u00a7 3109, that error is certainly not \"clear or obvious under current law.\" Poitra, 648 F.3d at 887.\nIV. Conclusion\nWe affirm the judgment of the district court.\nThe Honorable M. Douglas Harpool, United States District Judge for the Western District of Missouri.\nSection 3109 reads: \"[An] officer may break open any outer or inner door or window of a house, or any part of a house, or anything therein, to execute a search warrant, if, after notice of his authority and purpose, he is refused admittance or when necessary to liberate himself or a person aiding him in the execution of the warrant.\"",
+        "type": "majority",
+        "author": "MELLOY, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Abram McGull, II, Nhan Duc Nguyen, Assistant U.S. Attorneys, U.S. ATTORNEY'S OFFICE, Springfield, MO, for Plaintiff-Appellee.",
+      "Sergio Diaz-Ortiz, Winton, NC, pro se.",
+      "Nancy Price, Attorney, NANCY PRICE LAW, Springfield, MO, for Defendant-Appellant."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America Plaintiff - Appellee\nv.\nSergio DIAZ-ORTIZ Defendant - Appellant\nNo. 18-2948\nUnited States Court of Appeals, Eighth Circuit.\nSubmitted: April 18, 2019\nFiled: June 20, 2019\nAbram McGull, II, Nhan Duc Nguyen, Assistant U.S. Attorneys, U.S. ATTORNEY'S OFFICE, Springfield, MO, for Plaintiff-Appellee.\nSergio Diaz-Ortiz, Winton, NC, pro se.\nNancy Price, Attorney, NANCY PRICE LAW, Springfield, MO, for Defendant-Appellant.\nBefore SHEPHERD, MELLOY, and GRASZ, Circuit Judges."
+  },
+  "file_name": "1028-01",
+  "first_page_order": 1028,
+  "last_page_order": 1031
+}

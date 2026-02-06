@@ -126,7 +126,7 @@ router.post('/import', upload.single('file'), async (req: Request, res: Response
     }
 
     const tableName = req.body.tableName || path.basename(filePath, path.extname(filePath));
-    const organizationId = req.body.organizationId || 'demo-org';
+    const organizationId = req.body.organizationId || req.organizationId!;
     const userId = req.body.userId || 'demo-user';
 
     // Parse the file
@@ -247,7 +247,7 @@ router.get('/tables/:tableName', async (req: Request, res: Response) => {
  */
 router.post('/tables/:tableName/query', async (req: Request, res: Response) => {
   try {
-    const organizationId = req.body.organizationId || 'demo-org';
+    const organizationId = req.body.organizationId || req.organizationId!;
     const tableName = req.params.tableName;
 
     const queryResult = spreadsheetConnector.queryImportedData(organizationId, tableName, {

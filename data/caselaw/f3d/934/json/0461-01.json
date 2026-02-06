@@ -1,0 +1,620 @@
+{
+  "id": 12522411,
+  "name": "John BRINDLEY, Plaintiff-Appellant, v. CITY OF MEMPHIS, TENNESSEE ; Michael Rallings, in his official capacity as Director for the Memphis Police Department; Daniel Barham, individually and in his official capacity as Lieutenant for the Memphis Police Department, Defendants-Appellees.",
+  "name_abbreviation": "Brindley v. City of Memphis",
+  "decision_date": "2019-07-24",
+  "docket_number": "No. 18-5753",
+  "first_page": "461",
+  "last_page": "472",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "934 F.3d 461"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "6th Cir.",
+    "id": 21296,
+    "name": "United States Court of Appeals for the Six Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "28 U.S.C. \u00a7 46",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(d)"
+        }
+      ],
+      "opinion_index": -1
+    },
+    {
+      "cite": "693 F.3d 681",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3518184
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "parenthetical": "\"Issues adverted to in a perfunctory manner, unaccompanied by some effort at developed argumentation, are deemed [forfeited].\" (citation omitted)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/693/0681-01"
+      ]
+    },
+    {
+      "cite": "49 Tenn. App. 514",
+      "category": "reporters:state",
+      "reporter": "Tenn. App.",
+      "case_ids": [
+        8508879
+      ],
+      "weight": 2,
+      "year": 1961,
+      "pin_cites": [
+        {
+          "page": "520"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tenn-app/49/0514-01"
+      ]
+    },
+    {
+      "cite": "1 Tenn. App. 211",
+      "category": "reporters:state",
+      "reporter": "Tenn. App.",
+      "case_ids": [
+        4743723
+      ],
+      "year": 1925,
+      "pin_cites": [
+        {
+          "page": "216",
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tenn-app/1/0211-01"
+      ]
+    },
+    {
+      "cite": "1988 WL 138934",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 2,
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "*2",
+          "parenthetical": "\"[A] sale of lots with reference to such plat, or describing lots as bounded by streets, etc., will amount to an irrevocable and immediate dedication, binding on both vendor and vendee[ ] ... without any act of acceptance on the part of the public.\""
+        },
+        {
+          "page": "*2"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "508 S.W.2d 342",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10126128
+      ],
+      "year": 1973,
+      "pin_cites": [
+        {
+          "page": "345"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/508/0342-01"
+      ]
+    },
+    {
+      "cite": "788 S.W.2d 365",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9996335
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "366-67"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/788/0365-01"
+      ]
+    },
+    {
+      "cite": "329 S.W.3d 786",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7322328
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "793-94",
+          "parenthetical": "quoting West Meade Homeowners Ass'n, Inc. v. WPMC, Inc. , 788 S.W.2d 365, 366-67 (Tenn. Ct. App. 1989) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/329/0786-01"
+      ]
+    },
+    {
+      "cite": "869 S.W.2d 928",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10021828
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "932"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/869/0928-01"
+      ]
+    },
+    {
+      "cite": "547 S.W.2d 947",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9956069
+      ],
+      "weight": 4,
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "951",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "952"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/547/0947-01"
+      ]
+    },
+    {
+      "cite": "257 F.3d 937",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11087072
+      ],
+      "weight": 2,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "947"
+        },
+        {
+          "page": "945-46",
+          "parenthetical": "\"Property that is dedicated to public use is no longer truly private. Although the owner of the property retains title, by dedicating the property to public use, the owner has given over ... the right to exclude others.\" (citation and internal quotation marks omitted)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/257/0937-01"
+      ]
+    },
+    {
+      "cite": "461 U.S. 171",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11298296
+      ],
+      "weight": 3,
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "180"
+        },
+        {
+          "parenthetical": "finding sidewalk next to the Supreme Court building was a traditional public forum because \"[t]here [wa]s no separation, no fence, and no indication whatever to persons stepping from the street to the curb ... that they ha[d] entered some special type of enclave\""
+        },
+        {
+          "parenthetical": "finding sidewalk next to the Supreme Court building was a traditional public forum because \"[t]here [wa]s no separation, no fence, and no indication whatever to persons stepping from the street to the curb ... that they ha[d] entered some special type of enclave\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/461/0171-01"
+      ]
+    },
+    {
+      "cite": "497 U.S. 720",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6218908
+      ],
+      "weight": 10,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "727"
+        },
+        {
+          "page": "728"
+        },
+        {
+          "page": "727"
+        },
+        {
+          "page": "728"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/497/0720-01"
+      ]
+    },
+    {
+      "cite": "424 U.S. 828",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12027550
+      ],
+      "weight": 7,
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "837-38"
+        },
+        {
+          "page": "837"
+        },
+        {
+          "page": "835"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/424/0828-01"
+      ]
+    },
+    {
+      "cite": "383 F.3d 449",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9207394
+      ],
+      "weight": 5,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "452-53",
+          "parenthetical": "same"
+        },
+        {
+          "page": "452"
+        },
+        {
+          "page": "452"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/383/0449-01"
+      ]
+    },
+    {
+      "cite": "681 F.3d 718",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3884897
+      ],
+      "weight": 4,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "733",
+          "parenthetical": "finding sidewalk was a public forum even though it was privately owned because it looked and functioned like a public sidewalk"
+        },
+        {
+          "page": "733"
+        },
+        {
+          "page": "732-33"
+        },
+        {
+          "page": "733"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/681/0718-01"
+      ]
+    },
+    {
+      "cite": "307 U.S. 496",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6140933
+      ],
+      "weight": 3,
+      "year": 1939,
+      "pin_cites": [
+        {
+          "page": "515",
+          "parenthetical": "\"Wherever the title of streets and parks may rest, they have immemorially been held in trust for the use of the public ....\""
+        },
+        {
+          "parenthetical": "\"Wherever the title of streets and parks may rest, they have immemorially been held in trust for the use of the public ....\""
+        },
+        {
+          "parenthetical": "\"Wherever the title of streets and parks may rest, they have immemorially been held in trust for the use of the public ....\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/307/0496-01"
+      ]
+    },
+    {
+      "cite": "518 U.S. 727",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1729885
+      ],
+      "weight": 3,
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "792",
+          "parenthetical": "Kennedy, J., concurring in part"
+        },
+        {
+          "parenthetical": "Kennedy, J., concurring in part"
+        },
+        {
+          "parenthetical": "Kennedy, J., concurring in part"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/518/0727-01"
+      ]
+    },
+    {
+      "cite": "354 F.3d 540",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9295928
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "549-50",
+          "parenthetical": "recognizing that \"the Supreme Court considers streets ... to be public fora for purposes of First Amendment scrutiny\" and assuming that the street at issue was a traditional public forum without further analysis"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/354/0540-01"
+      ]
+    },
+    {
+      "cite": "689 F.3d 506",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3502080
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "517",
+          "parenthetical": "noting that \"streets and parks\" have for \"time out of mind ... been used for purposes of assembly, communicating thoughts between citizens, and discussing public questions\" (citation and internal quotation marks omitted)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/689/0506-01"
+      ]
+    },
+    {
+      "cite": "487 U.S. 474",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1774764
+      ],
+      "weight": 5,
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "480"
+        },
+        {
+          "page": "481"
+        },
+        {
+          "parenthetical": "recognizing that \"the Supreme Court considers streets ... to be public fora for purposes of First Amendment scrutiny\" and assuming that the street at issue was a traditional public forum without further analysis"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/487/0474-01"
+      ]
+    },
+    {
+      "cite": "622 F.3d 524",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3786290
+      ],
+      "weight": 4,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "534-36"
+        },
+        {
+          "page": "534",
+          "parenthetical": "citation and internal quotation marks omitted"
+        },
+        {
+          "page": "535",
+          "parenthetical": "citation and internal quotation marks omitted"
+        },
+        {
+          "page": "534",
+          "parenthetical": "citation and internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/622/0524-01"
+      ]
+    },
+    {
+      "cite": "826 F.3d 326",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4324316
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "335",
+          "parenthetical": "Merritt, J., dissenting in part"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/826/0326-01"
+      ]
+    },
+    {
+      "cite": "668 F.3d 814",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6048967
+      ],
+      "weight": 6,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "819"
+        },
+        {
+          "parenthetical": "citation and internal quotation marks omitted"
+        },
+        {
+          "page": "819",
+          "parenthetical": "citation omitted"
+        },
+        {
+          "page": "825",
+          "parenthetical": "citation and internal quotation marks omitted"
+        },
+        {
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/668/0814-01"
+      ]
+    },
+    {
+      "cite": "878 F.3d 524",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12264991
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "526-27",
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/878/0524-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1188,
+    "char_count": 26923,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2595222733062816
+    },
+    "sha256": "6bfc7a7f3ad827a383f8dab2933b804e8fae0353d0386b51f7eb7b58880d90a3",
+    "simhash": "1:b678a22591e3fbc2",
+    "word_count": 4348
+  },
+  "last_updated": "2024-02-27T18:47:10.696993+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before: STRANCH and DONALD, Circuit Judges."
+    ],
+    "parties": [
+      "John BRINDLEY, Plaintiff-Appellant,\nv.\nCITY OF MEMPHIS, TENNESSEE ; Michael Rallings, in his official capacity as Director for the Memphis Police Department; Daniel Barham, individually and in his official capacity as Lieutenant for the Memphis Police Department, Defendants-Appellees."
+    ],
+    "opinions": [
+      {
+        "text": "JANE B. STRANCH, Circuit Judge.\nVirginia Run Cove is a privately owned street that offers access to the parking lots of several businesses, including a Planned Parenthood clinic, in Memphis, Tennessee. John Brindley seeks a preliminary injunction requiring the City of Memphis to let him stand near the entrance to this clinic and spread his pro-life message. He argues that Virginia Run Cove is a traditional public forum and that his exclusion from the street violates the First Amendment. The district court denied his motion for a preliminary injunction, and he now appeals.\nThe Supreme Court has long held that public streets are traditional public fora. And even when a street is privately owned, it remains a traditional public forum if it looks and functions like a public street. The roadway at issue here-which connects directly to a busy public thoroughfare, displays no sign of private ownership, and is used by the general public to access many nearby buildings, including the clinic, a gas station, a church, and a U.S. Immigration and Customs Enforcement (ICE) office-has all the trappings of a public street. We therefore REVERSE the district court's denial of Brindley's preliminary injunction motion.\nI. BACKGROUND\nA. Factual History\nIn 1999, 5325 Summer Avenue Properties, LLC (SAP) bought the land on which Virginia Run Cove (the Cove) and its surrounding businesses now sit. In January 2007, SAP signed a final plat that subdivided the land into six units. On the last page of the plat, Curtis Wegener, SAP's property manager, signed an \"owner's certificate\" that stated:\nWe, 5325 Summer Ave. Prop., the undersigned owner of the property shown hereon, hereby adopt this plat as [our] plan of subdivision, and dedicate the streets, right-of-ways, easements and rights of access as shown to the public use forever ....\nA few weeks after he signed the final plat, Wegener also signed a quitclaim deed that transferred ownership of the Cove-but not the rest of the land-from SAP to 5325 Summer Avenue Property Owners Association, Inc. That deed described the Cove this way:\nA Private Drive designated as COMMON AREA SPACE on the Final Plan of 5325 Summer Avenue P.D., as shown on plat of record in Plat Book 230, Page 56, in the Register's Office of Shelby County, Tennessee, to which plat reference is hereby made for a more particular description of said property ....\nIn the ensuing years, several businesses bought lots on either side of the Cove. Those businesses now include a gas station, an auto repair shop, a church, an ICE office, and the Planned Parenthood clinic.\nToday, the Cove is a two-lane asphalt street that provides access to the parking lots of these buildings. The street has no sidewalks, and grassy medians with manicured hedges separate the Cove from the parking lots. The Cove turns directly off Summer Avenue, a busy public thoroughfare. There are no signs or other indicators notifying the public that the Cove is privately owned.\nPlanned Parenthood opened its clinic adjacent to the Cove on May 1, 2017. Early that morning, Brindley stood near the entrance to the clinic's parking lot and began promoting his pro-life message. A Planned Parenthood employee met him outside, told him that the Cove was a private street, and asked him to leave. He refused to leave, and eventually a Memphis police officer arrived at the scene. The officer spoke to the Planned Parenthood employee, who repeated that the Cove was a private street. After Brindley disputed that characterization, the officer contacted his supervisor, Lieutenant Daniel Barham. Barham spoke to his own superior about the Cove's status and confirmed that it was privately owned. He then drove to the scene and ordered Brindley to relocate to Summer Avenue, which lies several hundred feet away from the clinic. Brindley abandoned his effort and left the area.\nB. Proceedings Below\nBrindley filed this suit against the City of Memphis, Michael Rallings in his official capacity as Director of the Memphis Police Department, and Barham in his individual capacity (collectively, the Appellees). He claimed that (1) his exclusion from the Cove violated his First Amendment rights because the Cove is a traditional public forum, and (2) the City of Memphis violated his due process rights by adopting an unconstitutionally vague \"policy\" of excluding certain speakers from traditional public fora. Shortly thereafter, Brindley sought a preliminary injunction requiring the Appellees to give him access to the Cove. The district court found that Brindley had not demonstrated a strong likelihood of success on the merits and denied his motion. He timely appeals.\nII. ANALYSIS\nA. Preliminary Injunction Standard\nDistrict courts weigh four factors when deciding whether to grant a preliminary injunction: \"(1) whether the movant has a strong likelihood of success on the merits; (2) whether the movant would suffer irreparable injury absent the injunction; (3) whether the injunction would cause substantial harm to others; and (4) whether the public interest would be served by the issuance of an injunction.\"\nHall v. Edgewood Partners Ins. Ctr. , 878 F.3d 524, 526-27 (6th Cir. 2017) (citation omitted).\nWe typically review a district court's weighing of these factors for abuse of discretion and its legal conclusions, including its assessment of the plaintiff's likelihood of success on the merits, de novo. Bays v. City of Fairborn , 668 F.3d 814, 819 (6th Cir. 2012). But in First Amendment cases, \"the crucial inquiry is usually whether the plaintiff has demonstrated a likelihood of success on the merits. This is so because ... the issues of the public interest and harm to the respective parties largely depend on the constitutionality of the [challenged action].\" Id. (citation and internal quotation marks omitted). For that reason, our review of the district court's decision here-which rests on its conclusion that Brindley is unlikely to succeed on the merits of his First Amendment claim-is de novo. Id.\nB. First Amendment Claim\n1. Traditional Public Forum\na. The test\nAll parties agree that Brindley's speech is protected under the First Amendment; this dispute turns on the Cove's forum classification. \"Forum analysis requires a court first to categorize a location (or forum) to which a speaker seeks access for the purpose of expressive activity, and then to analyze the government's restriction on speech against the constitutional standard that governs in that forum.\" Agema v. City of Allegan , 826 F.3d 326, 335 (6th Cir. 2016) (Merritt, J., dissenting in part) (citation and internal quotation marks omitted). Courts recognize four types of fora: (1) the traditional public forum, (2) the designated public forum, (3) the limited public forum, and (4) the nonpublic forum. Miller v. City of Cincinnati , 622 F.3d 524, 534-36 (6th Cir. 2010). Restrictions on speech in traditional or designated public fora receive strict scrutiny, which means they must be \"necessary to serve a compelling state interest\" and \"narrowly drawn to achieve that interest.\" Id. at 534 (citation and internal quotation marks omitted). Restrictions on speech in limited or nonpublic fora, however, need only be \"reasonable in light of the purpose served by the forum and ... viewpoint neutral.\" Id. at 535 (citation and internal quotation marks omitted). The first question, then, is whether the Cove is a traditional public forum; Brindley says it is, and the Appellees say it is not.\nTwo considerations guide our analysis. The first is that the Supreme Court has \"repeatedly referred to public streets as the archetype of a traditional public forum.\" Frisby v. Schultz , 487 U.S. 474, 480, 108 S.Ct. 2495, 101 L.Ed.2d 420 (1988) ; see also Satawa v. Macomb Cty. Rd. Comm'n , 689 F.3d 506, 517 (6th Cir. 2012) (noting that \"streets and parks\" have for \"time out of mind ... been used for purposes of assembly, communicating thoughts between citizens, and discussing public questions\" (citation and internal quotation marks omitted)). In fact, the presumption that streets are traditional public fora is so strong that, ordinarily, \"[n]o particularized inquiry into the precise nature of a specific street is necessary\" because \"all public streets are held in the public trust and are properly considered traditional public fora.\" Frisby , 487 U.S. at 481, 108 S.Ct. 2495 ; see also Dean v. Byerley , 354 F.3d 540, 549-50 (6th Cir. 2004) (recognizing that \"the Supreme Court considers streets ... to be public fora for purposes of First Amendment scrutiny\" and assuming that the street at issue was a traditional public forum without further analysis).\nThe second consideration is that a street does not lose its status as a traditional public forum simply because it is privately owned. If the street looks and functions like a public street, then it is a traditional public forum regardless of who holds title to the street. See, e.g. , Denver Area Educ. Telecommunications Consortium, Inc. v. F.C.C. , 518 U.S. 727, 792, 116 S.Ct. 2374, 135 L.Ed.2d 888 (1996) (Kennedy, J., concurring in part) (noting that public fora are not \"limited to property owned by the government\" and, in many cases, \"title to some of the most traditional of public fora, streets and sidewalks, remains in private hands\"); Hague v. Comm. for Indus. Org. , 307 U.S. 496, 515, 59 S.Ct. 954, 83 L.Ed. 1423 (1939) (\"Wherever the title of streets and parks may rest, they have immemorially been held in trust for the use of the public ....\"); McGlone v. Bell , 681 F.3d 718, 733 (6th Cir. 2012) (finding sidewalk was a public forum even though it was privately owned because it looked and functioned like a public sidewalk); United Church of Christ v. Gateway Econ. Dev. Corp. of Greater Cleveland , 383 F.3d 449, 452-53 (6th Cir. 2004) (same).\nThere are some exceptions to these rules in a very limited number of cases. In Greer v. Spock , the Supreme Court found that a sidewalk inside a military compound was a nonpublic forum. 424 U.S. 828, 837-38, 96 S.Ct. 1211, 47 L.Ed.2d 505 (1976). The Court emphasized the \"special constitutional function of the military in our national life\" and the military's associated \"special interest\" in regulating speech \"within the confines of [a] military reservation.\" Id. at 837, 96 S.Ct. 1211. The Court further distinguished the compound's internal sidewalks from \"a municipality's open streets, sidewalks, and parks.\" Id. at 835, 96 S.Ct. 1211. Similarly, in United States v. Kokinda , the Court decided that an internal sidewalk owned by the Postal Service, which led \"only from the parking area to the front door of the post office,\" was a nonpublic forum. 497 U.S. 720, 727, 110 S.Ct. 3115, 111 L.Ed.2d 571 (1990). The Court rejected the plaintiff's claim that this internal sidewalk was \"not distinguishable from the municipal sidewalk across the parking lot from the post office's entrance,\" noting that \"[t]he mere physical characteristics of the property cannot dictate forum analysis.\" Id. The Court reasoned that the internal sidewalk \"was constructed solely to assist postal patrons to negotiate the space between the parking lot and the front door of the post office, not to facilitate the daily commerce and life of the neighborhood or city.\" Id. at 728, 110 S.Ct. 3115. The sidewalk on the opposite end of the parking lot, by contrast, ran \"parallel to the road\" and served as \"a public passageway.\" Id. at 727, 110 S.Ct. 3115.\nRelying on Kokinda 's recognition that \"[t]he mere physical characteristics of the property cannot dictate forum analysis,\" the Appellees urge us to turn our attention away from the Cove's objective characteristics and focus instead on the references to private ownership in the Cove's underlying property records. In context, however, Kokinda stands for a much narrower principle: the appearance of a street does not make it a traditional public forum if its function is not that of a public street. The Kokinda Court dismissed the plaintiff's reliance on the \"physical characteristics\" of the post office's internal sidewalk because its function was simply to create a passageway from the parking lot to the building's entrance, not to facilitate the daily commerce and life of the surrounding neighborhood. Id. at 728, 110 S.Ct. 3115. But the Court identified that function using a common-sense appraisal of the sidewalk's location and purpose, not by resort to the precise language used in the building's property records.\nOur caselaw supports this common-sense approach. In United Church of Christ , we found that a privately owned sidewalk encircling a sports complex was a traditional public forum for two reasons. 383 F.3d at 452. First, the sidewalk's appearance was indistinguishable from a public sidewalk: it \"blend[ed] into the urban grid, border[ed] the road, and look[ed] just like any public sidewalk.\" Id. Second, it functioned like a public sidewalk: rather than simply \"leading to the rest of the Complex,\" it \"contribute[d] to the City's downtown transportation grid and [wa]s open to the public for general pedestrian passage.\" Id. For the same reason, we decided in McGlone that a privately owned sidewalk on a university campus was a traditional public forum. 681 F.3d at 733. Citing Church of Christ , we held that \"[b]ecause the perimeter sidewalks at [the university] blend into the urban grid and are physically indistinguishable from public sidewalks, they constitute traditional public fora.\" Id. at 732-33.\nThese cases carry a simple takeaway: if a privately owned street (1) is physically indistinguishable from a public street and (2) functions like a public street, then it is a traditional public forum. We next apply these criteria to the facts of this case.\nAs in McGlone , the Cove is \"physically indistinguishable\" from a public street. 681 F.3d at 733. It is a paved, two-lane roadway with no signs or other specific indicators signaling its private ownership. Likewise, the Cove serves the same function as most public streets: it gives cars and pedestrians access to the businesses on the Cove. And as in Church of Christ , it \"blends into the urban grid\" by virtue of its direct intersection with Summer Avenue, a busy public thoroughfare. 383 F.3d at 452. More fundamentally, the photos of the Cove in the record demonstrate that a reasonable member of the public visiting one of the many buildings on the street would encounter nothing to indicate that he or she had turned onto a private drive. See, e.g. , United States v. Grace , 461 U.S. 171, 180, 103 S.Ct. 1702, 75 L.Ed.2d 736 (1983) (finding sidewalk next to the Supreme Court building was a traditional public forum because \"[t]here [wa]s no separation, no fence, and no indication whatever to persons stepping from the street to the curb ... that they ha[d] entered some special type of enclave\"). And that impression would apply equally to Brindley, to a patron of the gas station, to a visitor at the nearby church, or to a protester outside the ICE office on the same street. The Cove looks and functions like a public street, and that is enough to classify it as a traditional public forum.\nb. The dedication in the final plat\nThe district court also considered whether the Cove is a \"dedicated public right-of-way\" under Tennessee property law. As an initial matter, we do not defer to state property law in determining whether a contested forum deserves First Amendment protection. Evidence of the Cove's dedication to public use under Tennessee law is not necessary to show that the street is a traditional public forum; but state property law can provide additional evidence of its status as a public forum. See, e.g. , Venetian Casino Resort, L.L.C. v. Local Joint Exec. Bd. of Las Vegas , 257 F.3d 937, 947 (9th Cir. 2001) (finding that a sidewalk was a traditional public forum because of the sidewalk's \"historically public character ..., the sidewalk's continued use by the general public, the fact that the sidewalk is connected to and virtually indistinguishable from the public sidewalks to its north and south, and the dedication of the sidewalk to public use\" (emphasis added)).\nThe Cove's property records reinforce the public character of the street. On the last page of SAP's final plat, Wegener signed an \"owner's certificate\" that stated:\nWe, 5325 Summer Ave. Prop., the undersigned owner of the property shown hereon, hereby adopt this plat as [our] plan of subdivision, and dedicate the streets, right-of-ways, easements and rights of access as shown to the public use forever ....\nThis dedication cuts against the Appellees' claim that the Cove is for only limited, private use. See Venetian Casino Resort , L.L.C. , 257 F.3d at 945-46 (\"Property that is dedicated to public use is no longer truly private. Although the owner of the property retains title, by dedicating the property to public use, the owner has given over ... the right to exclude others.\" (citation and internal quotation marks omitted)).\nThe Appellees try to sidestep this dedication in two ways. First, they argue that \"if certain language on the Final Plat is interpreted as a dedication to the public, such dedication is limited to a specific public purpose, to wit, the City's utility easements.\" But this claim ignores the plain language of the dedication, which includes not only the property's easements but also its \"streets, right-of-ways ... and rights of access as shown\" in the plat.\nThe Appellees next argue that even if the final plat dedicated the Cove to public use, the quitclaim deed signed by Wegener a few weeks later revoked the dedication. The quitclaim deed described the Cove as:\nA Private Drive designated as COMMON AREA SPACE on the Final Plan of 5325 Summer Avenue P.D., as shown on plat of record in Plat Book 230, Page 56, in the Register's Office of Shelby County, Tennessee, to which plat reference is hereby made for a more particular description of said property ....\nThe Appellees suggest that this language \"could constitute a revocation of [the final plat's] dedication where, as here, the [deed]. . . refers to the Final Plat, but not explicitly to the dedication.\" But the case cited to support this claim, Smith v. Black , found only that the \"conveyance of [a] subject property may effect a revocation\" if the conveyance does not \"recognize[ ] the existence of the dedication (offer), as by reference in the description of the property.\" 547 S.W.2d 947, 951 (Tenn. Ct. App. 1976) (emphasis added). Even assuming that Smith 's inconclusive dicta is persuasive authority, it does not help the Appellees. In Smith , the property owners acquired a deed \"that did not contain an express reservation of easements, but described the property as being the same as that conveyed in the previous deed which did contain the express reservations.\" Id. at 952. The Smith court found this language sufficient to preserve the dedication. Id. The court's note that a conveyance \"may\" need to recognize the dedication \"as by reference in the description of the property\" meant only that the conveyance should refer to the record containing the dedication, not that the conveyance must expressly include this dedication. See id. That is what the deed's language did here: it identified the dedicated plat and then stated, \"[This] plat reference is hereby made for a more particular description of said property.\" The direct reference to the plat served to incorporate its contents, including the dedication. See, e.g., Brewer v. Brewer , 869 S.W.2d 928, 932 (Tenn. Ct. App. 1993) (defining \"[i]ncorporation by reference\" as \"[t]he method of making one document of any kind become a part of another separate document by referring to the former in the latter, and declaring that the former shall be taken and considered as a part of the latter the same as if it were fully set out therein\").\nThe next question is whether the public \"accepted\" the final plat's dedication. Ordinarily, \"[t]o establish a dedicated public right-of-way, there must be a showing of an offer of dedication and a public acceptance of the offer. Both the offer of dedication and the public acceptance may be express or implied.\" Gentry v. McCain , 329 S.W.3d 786, 793-94 (Tenn. Ct. App. 2010) (quoting West Meade Homeowners Ass'n, Inc. v. WPMC, Inc. , 788 S.W.2d 365, 366-67 (Tenn. Ct. App. 1989) ). But there is an exception to this rule. When a developer purchases a property, records a final plat that dedicates the property to public use, and then sells the property to the public, the sale itself creates \"an irrevocable and immediate dedication\" without any additional showing of public acceptance. Varallo v. Metro. Gov't of Nashville & Davidson Cnty. , 508 S.W.2d 342, 345 (Tenn. Ct. App. 1973) ; see also Wolfe v. Jarnigan , No. C.A. 16 , 1988 WL 138934, at *2 (Tenn. Ct. App. Dec. 30, 1988) (\"[A] sale of lots with reference to such plat, or describing lots as bounded by streets, etc., will amount to an irrevocable and immediate dedication, binding on both vendor and vendee[ ] ... without any act of acceptance on the part of the public.\"). In this case, SAP bought the land, subdivided it into lots for sale to businesses, recorded a final plat that identified the Cove as running alongside each lot, dedicated the Cove to public use forever, and then sold the Cove to the property owners' association as common open space. On these facts, the dedication became complete at the moment of transfer.\nEven if the quitclaim transfer had not made the dedication irrevocable, the public's longstanding use of the Cove would serve as an implied acceptance of the final plat's dedication. This is consistent with the purpose of a dedicated public right-of-way in the context of land development. If a street is not dedicated to public use, then owners of adjacent lots-in many cases, business owners whose lots are generally open to the public-lose the ability to facilitate easy access to their properties. That is why developers typically dedicate common spaces to public use. See, e.g. , Wolfe , 1988 WL 138934, at *2 (explaining that a street's dedication to public use \"operates ... not only in favor of those who buy from the donor, relying upon the existence of the road, street or alley , but also in favor of all who buy on the general plan of the locality\" (quoting Long v. Garrison , 1 Tenn. App. 211, 216 (1925) (emphasis added))). This interpretation is also in line with the settled expectations of the Cove's property owners and patrons. See, e.g. , Payton v. Richardson , 49 Tenn. App. 514, 520, 356 S.W.2d 289 (1961) (noting that public acceptance of a dedication is implied \"where it was received and acted upon by the public for such length of time that the public accommodation and private rights would be materially affected by a denial or interruption of the enjoyment of the easement\" and adding that \"[t]he manner of its use is more material than the length of time the use has continued\").\n2. Conclusion\nFor all the reasons explained above, the Cove is a traditional public forum. It looks and functions like a public street, and the final plat dedicated the street to public use forever. Because the Cove is a traditional public forum, the Appellees' restriction on Brindley's speech must be \"necessary to serve a compelling state interest\" and \"narrowly drawn to achieve that interest.\" Miller , 622 F.3d at 534 (citation and internal quotation marks omitted). The Appellees do not claim on appeal that the restriction at issue here would survive strict scrutiny, nor could they. There is no compelling state interest in excluding demonstrators from the Cove, and even if there were, the Appellees offer no argument that the disputed restriction is narrowly tailored to that interest.\nC. Remaining Preliminary Injunction Factors\nBecause Brindley has shown a strong likelihood of success on the merits of his First Amendment claim, the remaining preliminary injunction factors fall into place. \"This is so because ... the issues of the public interest and harm to the respective parties largely depend on the constitutionality of the [challenged action].\" Bays , 668 F.3d at 819 (citation omitted). Restricting a citizen's \"First Amendment freedoms, for even minimal periods of time, unquestionably constitutes irreparable injury,\" and \"no substantial harm to others can be said to inhere [in the restriction's] enjoinment.\" Id. at 825 (citation and internal quotation marks omitted). And \"it is always in the public interest to prevent violation of a party's constitutional rights.\" Id. (citation omitted).\nIII. CONCLUSION\nWe REVERSE the district court's denial of Brindley's preliminary injunction motion and REMAND for proceedings consistent with this opinion.\nThe Appellees note that the Cove's street sign is blue, whereas publicly owned streets ordinarily have green signs. But apart from this difference in color, nothing on the sign indicates that the Cove is privately owned.\nBrindley relegates his due process claim to a footnote. He has forfeited this argument on appeal by failing to develop it. See, e.g. , Hensley v. Gassman , 693 F.3d 681, 687 n.6 (6th Cir. 2012) (\"Issues adverted to in a perfunctory manner, unaccompanied by some effort at developed argumentation, are deemed [forfeited].\" (citation omitted)). At any rate, because we find that his exclusion likely violated the First Amendment-and because a due process violation would require an identical remedy-we need not reach his due process claim.",
+        "type": "majority",
+        "author": "JANE B. STRANCH, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "ARGUED: Nathan W. Kellum, CENTER FOR RELIGIOUS EXPRESSION, Memphis, Tennessee, for Appellant. Barbaralette G. Davis, CITY OF MEMPHIS, Memphis, Tennessee, for Appellees City of Memphis and Michael Rallings. Mary Elizabeth McKinney, GODWIN, MORRIS, LAURENZI & BLOOMFIELD, P.C., Memphis, Tennessee, for Appellee Daniel Barham. ON BRIEF: Nathan W. Kellum, CENTER FOR RELIGIOUS EXPRESSION, Memphis, Tennessee, for Appellant. Barbaralette G. Davis, CITY OF MEMPHIS, Memphis, Tennessee, for Appellees City of Memphis and Michael Rallings. Mary Elizabeth McKinney, Deborah Godwin, GODWIN, MORRIS, LAURENZI & BLOOMFIELD, P.C., Memphis, Tennessee, for Appellee Daniel Barham."
+    ],
+    "corrections": "",
+    "head_matter": "John BRINDLEY, Plaintiff-Appellant,\nv.\nCITY OF MEMPHIS, TENNESSEE ; Michael Rallings, in his official capacity as Director for the Memphis Police Department; Daniel Barham, individually and in his official capacity as Lieutenant for the Memphis Police Department, Defendants-Appellees.\nNo. 18-5753\nUnited States Court of Appeals, Sixth Circuit.\nArgued: March 13, 2019\nDecided and Filed: July 24, 2019\nARGUED: Nathan W. Kellum, CENTER FOR RELIGIOUS EXPRESSION, Memphis, Tennessee, for Appellant. Barbaralette G. Davis, CITY OF MEMPHIS, Memphis, Tennessee, for Appellees City of Memphis and Michael Rallings. Mary Elizabeth McKinney, GODWIN, MORRIS, LAURENZI & BLOOMFIELD, P.C., Memphis, Tennessee, for Appellee Daniel Barham. ON BRIEF: Nathan W. Kellum, CENTER FOR RELIGIOUS EXPRESSION, Memphis, Tennessee, for Appellant. Barbaralette G. Davis, CITY OF MEMPHIS, Memphis, Tennessee, for Appellees City of Memphis and Michael Rallings. Mary Elizabeth McKinney, Deborah Godwin, GODWIN, MORRIS, LAURENZI & BLOOMFIELD, P.C., Memphis, Tennessee, for Appellee Daniel Barham.\nBefore: STRANCH and DONALD, Circuit Judges.\nThis decision was originally filed as an unpublished opinion on July 24, 2019. The court has now designated the opinion publication.\nThe Honorable Damon J. Keith, a member of the original panel, passed away on April 28, 2019. Judge Stranch and Judge Donald act as a quorum pursuant to 28 U.S.C. \u00a7 46(d)."
+  },
+  "file_name": "0461-01",
+  "first_page_order": 461,
+  "last_page_order": 472
+}

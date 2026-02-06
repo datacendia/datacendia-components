@@ -1,0 +1,113 @@
+{
+  "id": 12519813,
+  "name": "Floyd MAY, Plaintiff-Appellant, v. Sylvia MAHONE, et al., Defendants-Appellees.",
+  "name_abbreviation": "May v. Mahone",
+  "decision_date": "2019-01-18",
+  "docket_number": "No. 15-3395",
+  "first_page": "682",
+  "last_page": "682",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "913 F.3d 682"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "7th Cir.",
+    "id": 9010,
+    "name": "United States Court of Appeals for the Seventh Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "138 S.Ct. 13",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12611264
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "16-17",
+          "parenthetical": "statutory timelines for appeal are jurisdictional and cannot be waived, forfeited, or excused"
+        },
+        {
+          "parenthetical": "statutory timelines for appeal are jurisdictional and cannot be waived, forfeited, or excused"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/0013-01"
+      ]
+    },
+    {
+      "cite": "876 F.3d 896",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12266087
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "898"
+        },
+        {
+          "page": "897",
+          "parenthetical": "describing the computation that fixed the deadline at August 19, 2015"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/876/0896-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 213,
+    "char_count": 2373,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2591637581959412
+    },
+    "sha256": "f2edf69280c624aa60f059c9304bce7c2f13dd5c527306ad1a99cb1d32a3134c",
+    "simhash": "1:8e484993fa99892d",
+    "word_count": 379
+  },
+  "last_updated": "2024-02-27T18:46:17.308091+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Flaum, Ripple, and Rovner, Circuit Judges."
+    ],
+    "parties": [
+      "Floyd MAY, Plaintiff-Appellant,\nv.\nSylvia MAHONE, et al., Defendants-Appellees."
+    ],
+    "opinions": [
+      {
+        "text": "Per Curiam.\nIn our earlier examination of this case, we questioned whether Mr. May filed a timely notice of appeal from the decision of the district court but decided that we lacked sufficient information to answer that question. See May v. Mahone , 876 F.3d 896, 898 (7th Cir. 2017). While retaining jurisdiction over the case, we therefore ordered a limited remand to the district court with instructions to determine whether Mr. May had submitted a notice of appeal on or before August 10, 2015, in compliance with Rule 4(c) of the Federal Rules of Appellate Procedure. Id . at 899.\nOn September 12, 2018, the district court, after affording the parties an opportunity to engage in discovery, held a hearing. The evidence consisted of the testimony of two witnesses and seven exhibits. Mr. May testified on his own behalf.\nThe district court, upon evaluation of the evidence, held that Mr. May had not carried the burden of establishing that he mailed his notice of appeal in a timely fashion. Order, May v. Mahone , No. 11-cv-07503 (N.D. Ill. Oct. 10, 2018). Specifically, the district court determined that Mr. May's testimony lacked credibility and that the remaining evidence established that the notice of appeal was not filed until sometime around October 15, 2015.\nThe factual finding of the district court establishes that Mr. May's notice of appeal was filed outside of the time prescribed for such a filing. See id. at 897 (describing the computation that fixed the deadline at August 19, 2015). Accordingly, this court lacks jurisdiction over the appeal. See Hamer v. Neighborhood Hous. Servs. of Chicago , --- U.S. ----, 138 S.Ct. 13, 16-17, 199 L.Ed.2d 249 (2017) (statutory timelines for appeal are jurisdictional and cannot be waived, forfeited, or excused).\nThe appeal is therefore dismissed.",
+        "type": "majority",
+        "author": "Per Curiam."
+      }
+    ],
+    "attorneys": [
+      "Michael R. Slovis, Peter J. Strauss, Attorneys, CUNNINGHAM, MEYER & VEDRINE, Chicago, IL, for Defendants - Appellees."
+    ],
+    "corrections": "",
+    "head_matter": "Floyd MAY, Plaintiff-Appellant,\nv.\nSylvia MAHONE, et al., Defendants-Appellees.\nNo. 15-3395\nUnited States Court of Appeals, Seventh Circuit.\nSubmitted October 18, 2017\nDecided January 18, 2019\nFloyd May, Pro Se.\nMichael R. Slovis, Peter J. Strauss, Attorneys, CUNNINGHAM, MEYER & VEDRINE, Chicago, IL, for Defendants - Appellees.\nBefore Flaum, Ripple, and Rovner, Circuit Judges.\nAfter examining the briefs and record, we have concluded that oral argument is unnecessary. Thus, the appeal is submitted on the briefs and record. See Fed. R. App. P. 34(a)(2)(C)."
+  },
+  "file_name": "0682-01",
+  "first_page_order": 682,
+  "last_page_order": 682
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5985215,
+  "name": "VandenBerg v. Michigan",
+  "name_abbreviation": "VandenBerg v. Michigan",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11554",
+  "first_page": "887",
+  "last_page": "887",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 887"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 72,
+    "ocr_confidence": 0.588,
+    "sha256": "9b40c4a8396e9f2757f7932dd983228586c30d5927bc7243cb337749f14955bd",
+    "simhash": "1:d44fb5bfaecd91e6",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "VandenBerg v. Michigan."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Mich. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11554.\nVandenBerg v. Michigan."
+  },
+  "file_name": "0887-11",
+  "first_page_order": 909,
+  "last_page_order": 909
+}

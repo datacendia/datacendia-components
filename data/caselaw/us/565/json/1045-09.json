@@ -1,0 +1,59 @@
+{
+  "id": 12234526,
+  "name": "Gevers v. United States",
+  "name_abbreviation": "Gevers v. United States",
+  "decision_date": "2011-11-14",
+  "docket_number": "No. 11-6968",
+  "first_page": "1045",
+  "last_page": "1045",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1045"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.652,
+    "sha256": "1bed9a6725a07558e2f81e6687d1bfe1b85388b501801536628140f856e7c366",
+    "simhash": "1:8008fb03fa90dc06",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gevers v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6968.\nGevers v. United States."
+  },
+  "file_name": "1045-09",
+  "first_page_order": 1127,
+  "last_page_order": 1127
+}

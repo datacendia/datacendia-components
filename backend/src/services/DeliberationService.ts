@@ -6,7 +6,8 @@
 import { BaseService, ServiceConfig, ServiceHealth } from '../core/services/BaseService.js';
 import { aiModelSelector } from '../config/aiModels.js';
 import { druidEventStream } from './DruidEventStream.js';
-// Note: Database persistence can be added later when Prisma model is created
+import { prisma } from '../config/database.js';
+import type { SocketServer } from '../websocket/SocketServer.js';
 
 // =============================================================================
 // TYPES
@@ -97,15 +98,17 @@ export interface ActionItem {
 export class DeliberationService extends BaseService {
   private deliberationCache: Map<string, Deliberation[]> = new Map();
   private ollamaEndpoint: string;
+  private socketServer: SocketServer | null = null;
 
-  constructor(config?: Partial<ServiceConfig>) {
+  constructor(config?: Partial<ServiceConfig>, socketServer?: SocketServer | null) {
     super({
       name: 'deliberation-service',
       version: '1.0.0',
       dependencies: ['database'],
       ...config,
     });
-    this.ollamaEndpoint = process.env.OLLAMA_HOST || 'http://localhost:11434';
+    this.ollamaEndpoint = process.env['OLLAMA_HOST'] || 'http://localhost:11434';
+    this.socketServer = socketServer || null;
   }
 
   async initialize(): Promise<void> {
@@ -135,14 +138,42 @@ export class DeliberationService extends BaseService {
 
   async saveDeliberation(deliberation: Omit<Deliberation, 'id' | 'createdAt'>): Promise<Deliberation> {
     const id = `delib-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
+    const createdAt = new Date();
     
+    // Save to database for persistence
+    try {
+      await prisma!.deliberations.create({
+        data: {
+          id,
+          organization_id: deliberation.organizationId,
+          question: deliberation.question,
+          mode: (deliberation.mode?.toUpperCase() || 'STANDARD') as any,
+          status: (deliberation.status?.toUpperCase() || 'COMPLETED') as any,
+          confidence: deliberation.confidence,
+          decision: deliberation.synthesis,
+          context: {
+            councilMode: deliberation.councilMode,
+            userId: deliberation.userId,
+            tags: deliberation.tags,
+            agentResponses: JSON.parse(JSON.stringify(deliberation.agentResponses)),
+            crossExaminations: JSON.parse(JSON.stringify(deliberation.crossExaminations || [])),
+          } as any,
+          created_at: createdAt,
+        },
+      });
+
+      this.logger.info(`Saved deliberation ${id} to database`);
+    } catch (error) {
+      this.logger.warn(`Failed to save deliberation to database, using cache only: ${error}`);
+    }
+
     const saved: Deliberation = {
       ...deliberation,
       id,
-      createdAt: new Date(),
+      createdAt,
     };
 
-    // Save to cache
+    // Also save to cache for fast access
     const orgDeliberations = this.deliberationCache.get(deliberation.organizationId) || [];
     orgDeliberations.unshift(saved);
     this.deliberationCache.set(deliberation.organizationId, orgDeliberations.slice(0, 100));
@@ -174,27 +205,169 @@ export class DeliberationService extends BaseService {
   // ---------------------------------------------------------------------------
 
   async getDeliberations(
-    organizationId: string,
+    organizationId?: string,
     options?: { limit?: number; offset?: number; status?: string }
-  ): Promise<Deliberation[]> {
-    // Get from cache
-    let cached = this.deliberationCache.get(organizationId) || [];
-    
-    // Filter by status if provided
-    if (options?.status) {
-      cached = cached.filter(d => d.status === options.status);
+  ): Promise<any[]> {
+    // Query database directly for reliability
+    const where: any = {};
+    if (organizationId) {
+      where.organization_id = organizationId;
     }
-    
-    return cached.slice(options?.offset || 0, (options?.offset || 0) + (options?.limit || 50));
+    if (options?.status) {
+      where.status = options.status.toUpperCase();
+    }
+
+    const dbResults = await prisma!.deliberations.findMany({
+      where,
+      orderBy: { created_at: 'desc' },
+      skip: options?.offset || 0,
+      take: options?.limit || 50,
+      include: {
+        deliberation_messages: {
+          include: { agents: true },
+          orderBy: { created_at: 'asc' },
+        },
+      },
+    });
+
+    // Handle undefined/null results
+    if (!dbResults || !Array.isArray(dbResults)) {
+      return [];
+    }
+
+    // Map to Deliberation format
+    return dbResults.map(d => ({
+      id: d.id,
+      organizationId: d.organization_id,
+      question: d.question || '',
+      status: d.status as any,
+      mode: (d.mode as any) || 'council',
+      config: (d.config as any) || {},
+      context: (d.context as any) || {},
+      currentPhase: d.current_phase || undefined,
+      progress: d.progress || 0,
+      decision: d.decision || undefined,
+      confidence: d.confidence || undefined,
+      startedAt: d.started_at || undefined,
+      completedAt: d.completed_at || undefined,
+      createdAt: d.created_at,
+      responses: d.deliberation_messages.map(m => ({
+        agentId: m.agent_id,
+        agentCode: m.agents?.code || 'unknown',
+        agentName: m.agents?.name || 'Unknown Agent',
+        content: m.content,
+        timestamp: m.created_at,
+        phase: m.phase || 'response',
+      })),
+      crossExaminations: [],
+      synthesis: d.decision || undefined,
+    }));
   }
 
-  async getDeliberation(deliberationId: string): Promise<Deliberation | null> {
-    // Search cache
-    for (const deliberations of this.deliberationCache.values()) {
-      const found = deliberations.find(d => d.id === deliberationId);
-      if (found) return found;
+  async getDeliberation(deliberationId: string): Promise<any | null> {
+    // Query database directly for reliability
+    const d = await prisma!.deliberations.findUnique({
+      where: { id: deliberationId },
+      include: {
+        deliberation_messages: {
+          include: { agents: true },
+          orderBy: { created_at: 'asc' },
+        },
+      },
+    });
+
+    if (!d) return null;
+
+    // First check if agentResponses are stored in context (from frontend save)
+    const contextData = (d.context as any) || {};
+    const contextAgentResponses = contextData.agentResponses || [];
+
+    // Build responses from context.agentResponses (preferred) or deliberation_messages (fallback)
+    let responses: any[];
+    if (contextAgentResponses.length > 0) {
+      // Use the rich agent data saved from frontend
+      responses = contextAgentResponses.map((r: any) => ({
+        agentId: r.agentId,
+        agentCode: r.agentCode || r.agentId?.replace('agent-', '') || 'unknown',
+        agentName: r.agentName || 'Unknown Agent',
+        agentRole: r.agentRole || 'Council Member',
+        agentAvatar: r.agentAvatar || '🤖',
+        agentColor: r.agentColor || '#6366F1',
+        content: r.response || r.content || '',
+        response: r.response || r.content || '',
+        duration: r.duration || 0,
+        phase: 'response',
+      }));
+    } else {
+      // Fallback to deliberation_messages
+      responses = d.deliberation_messages.map(m => ({
+        agentId: m.agent_id,
+        agentCode: (m as any).agents?.code || 'unknown',
+        agentName: (m as any).agents?.name || 'Unknown Agent',
+        agentRole: (m as any).agents?.role || 'Council Member',
+        content: m.content,
+        response: m.content,
+        timestamp: m.created_at,
+        phase: m.phase || 'response',
+        duration: 0,
+      }));
     }
-    return null;
+
+    // Extract synthesis from messages or decision field
+    const synthesisMsg = d.deliberation_messages.find(m => m.phase === 'synthesis');
+    const synthesis = synthesisMsg?.content || (d.decision as string) || 
+      responses.map(r => `${r.agentName}: ${r.content?.substring(0, 200)}...`).join('\n\n');
+
+    // Extract cross-examinations from context (preferred) or messages (fallback)
+    const contextCrossExams = contextData.crossExaminations || [];
+    let crossExaminations: any[];
+    if (contextCrossExams.length > 0) {
+      crossExaminations = contextCrossExams.map((ce: any) => ({
+        challengerId: ce.challengerId,
+        challengerName: ce.challengerName || 'Agent',
+        challengerAvatar: ce.challengerAvatar,
+        challengerColor: ce.challengerColor,
+        targetId: ce.targetId,
+        targetName: ce.targetName || 'Agent',
+        challenge: ce.challenge,
+        rebuttal: ce.rebuttal || '',
+      }));
+    } else {
+      crossExaminations = d.deliberation_messages
+        .filter(m => m.phase === 'cross_examination')
+        .map(m => ({
+          challengerId: m.agent_id,
+          challengerName: (m as any).agents?.name || 'Agent',
+          targetId: '',
+          targetName: '',
+          challenge: m.content,
+          rebuttal: '',
+        }));
+    }
+
+    return {
+      id: d.id,
+      organizationId: d.organization_id,
+      question: d.question || '',
+      status: d.status,
+      mode: d.mode || 'council',
+      config: d.config || {},
+      context: d.context || {},
+      currentPhase: d.current_phase || undefined,
+      progress: d.progress || 0,
+      decision: d.decision || undefined,
+      confidence: d.confidence || 0.8,
+      startedAt: d.started_at || undefined,
+      completedAt: d.completed_at || undefined,
+      createdAt: d.created_at,
+      created_at: d.created_at,
+      completed_at: d.completed_at,
+      deliberation_messages: d.deliberation_messages,
+      responses,
+      agentResponses: responses, // Alias for compatibility
+      crossExaminations,
+      synthesis,
+    };
   }
 
   // ---------------------------------------------------------------------------
@@ -244,7 +417,7 @@ QUESTION: ${deliberation.question}
 
 SYNTHESIS: ${deliberation.synthesis}
 
-AGENTS CONSULTED: ${deliberation.agentResponses.map(r => r.agentName).join(', ')}
+AGENTS CONSULTED: ${(deliberation.responses || deliberation.agentResponses || []).map((r: any) => r.agentName || r.agentCode || 'Agent').join(', ')}
 
 Generate this exact JSON structure (fill in ALL arrays with at least 2-3 items each):
 {
@@ -359,14 +532,15 @@ IMPORTANT: Every array MUST have at least 2 items. Return ONLY the JSON, no othe
       type: 'statement',
     });
 
-    // Agent responses
-    for (const response of deliberation.agentResponses) {
+    // Agent responses - use responses or agentResponses
+    const agentResps = deliberation.responses || deliberation.agentResponses || [];
+    for (const response of agentResps) {
       timestamp = new Date(timestamp.getTime() + 60000); // +1 minute
       proceedings.push({
         timestamp,
-        speaker: response.agentName,
-        speakerRole: response.agentRole,
-        content: response.response,
+        speaker: response.agentName || response.agentCode || 'Agent',
+        speakerRole: response.agentRole || 'Council Member',
+        content: response.response || response.content || '',
         type: 'statement',
       });
     }
@@ -408,9 +582,9 @@ IMPORTANT: Every array MUST have at least 2 items. Return ONLY the JSON, no othe
       deliberationId,
       title: `Council Minutes - ${deliberation.question.substring(0, 50)}...`,
       date: deliberation.createdAt,
-      attendees: deliberation.agentResponses.map(r => ({
-        name: r.agentName,
-        role: r.agentRole,
+      attendees: agentResps.map((r: any) => ({
+        name: r.agentName || r.agentCode || 'Agent',
+        role: r.agentRole || 'Council Member',
       })),
       agenda: deliberation.question,
       proceedings,
@@ -452,6 +626,8 @@ IMPORTANT: Every array MUST have at least 2 items. Return ONLY the JSON, no othe
 
   generatePDFReport(deliberation: Deliberation, summary: ExecutiveSummary): string {
     // In production, use a PDF library. For now, return HTML that can be printed as PDF
+    const agentNames = deliberation.agentResponses?.map(r => r.agentName).join(', ') || 'Council Members';
+    
     return `
 <!DOCTYPE html>
 <html>
@@ -468,16 +644,23 @@ IMPORTANT: Every array MUST have at least 2 items. Return ONLY the JSON, no othe
     .low { background: #fee2e2; color: #991b1b; }
     ul { line-height: 1.8; }
     .synthesis { background: #f3f4f6; padding: 20px; border-radius: 8px; margin: 20px 0; }
+    .agents { background: #eff6ff; padding: 12px; border-radius: 6px; margin: 10px 0; }
   </style>
 </head>
 <body>
   <h1>${summary.title}</h1>
   <div class="meta">
     <strong>Date:</strong> ${summary.date.toLocaleDateString()}<br>
+    <strong>Deliberation ID:</strong> ${deliberation.id}<br>
+    <strong>Mode:</strong> ${deliberation.councilMode || deliberation.mode}<br>
     <strong>Confidence:</strong> 
     <span class="confidence ${summary.confidence >= 80 ? 'high' : summary.confidence >= 60 ? 'medium' : 'low'}">
       ${summary.confidence}%
     </span>
+  </div>
+  
+  <div class="agents">
+    <strong>Participating Agents:</strong> ${agentNames}
   </div>
   
   <h2>Question</h2>
@@ -502,7 +685,7 @@ IMPORTANT: Every array MUST have at least 2 items. Return ONLY the JSON, no othe
   
   <hr style="margin-top: 40px;">
   <p style="color: #9ca3af; font-size: 12px;">
-    Generated by Datacendia Council • ${new Date().toISOString()}
+    Generated by Datacendia Council • Deliberation ${deliberation.id} • ${new Date().toISOString()}
   </p>
 </body>
 </html>`;

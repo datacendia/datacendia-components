@@ -1,0 +1,59 @@
+{
+  "id": 12250690,
+  "name": "Thompkins v. United States",
+  "name_abbreviation": "Thompkins v. United States",
+  "decision_date": "2012-03-05",
+  "docket_number": "No. 11-8578",
+  "first_page": "1251",
+  "last_page": "1251",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1251"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.687,
+    "sha256": "f2b971773045c609eec3a9d03184d483564a383fe3ae11304f255ee1f02673b5",
+    "simhash": "1:25abe3b32f37140b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Thompkins v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8578.\nThompkins v. United States."
+  },
+  "file_name": "1251-02",
+  "first_page_order": 1333,
+  "last_page_order": 1333
+}

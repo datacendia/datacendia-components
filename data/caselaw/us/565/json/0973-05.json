@@ -1,0 +1,82 @@
+{
+  "id": 12229957,
+  "name": "Crutcher v. Nevada",
+  "name_abbreviation": "Crutcher v. Nevada",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. 11-6143",
+  "first_page": "973",
+  "last_page": "974",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 973"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "506 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11924825
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/506/0001-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 69,
+    "char_count": 526,
+    "ocr_confidence": 0.648,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.24765150400660424
+    },
+    "sha256": "b2b3b6b21271377577864a17d339786ee9c332db2c8669b4335638fb99d88e2e",
+    "simhash": "1:6d22348d0524f64b",
+    "word_count": 87
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Crutcher v. Nevada."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Nev. Motion of petitioner for leave to proceed in forma pauperis denied, and certiorari dismissed. See this Court\u2019s Rule 39.8. As petitioner has repeatedly abused this Court\u2019s process, the Clerk is directed not to accept any further petitions in noncriminal matters from petitioner unless the docketing fee required by Rule 38(a) is paid and the petition is submitted in compliance with Rule 33.1. See Martin v. District of Columbia Court of Appeals, 506 U. S. 1 (1992) (per curiam).",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6143.\nCrutcher v. Nevada."
+  },
+  "file_name": "0973-05",
+  "first_page_order": 1055,
+  "last_page_order": 1056
+}

@@ -1,0 +1,59 @@
+{
+  "id": 6009907,
+  "name": "Guillen-Reyes v. United States",
+  "name_abbreviation": "Guillen-Reyes v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5254",
+  "first_page": "911",
+  "last_page": "911",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 911"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 79,
+    "ocr_confidence": 0.577,
+    "sha256": "4ff9ec14c98801adf99205aa4a927d581e612f6209234988bef136db438e2a9b",
+    "simhash": "1:14a89781084fb40a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Guillen-Reyes v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5254.\nGuillen-Reyes v. United States."
+  },
+  "file_name": "0911-11",
+  "first_page_order": 933,
+  "last_page_order": 933
+}

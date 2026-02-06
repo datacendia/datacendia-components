@@ -1,0 +1,59 @@
+{
+  "id": 12228973,
+  "name": "Pacheco-Garcia v. United States",
+  "name_abbreviation": "Pacheco-Garcia v. United States",
+  "decision_date": "2011-10-17",
+  "docket_number": "No. 10-9445",
+  "first_page": "962",
+  "last_page": "962",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 962"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 80,
+    "ocr_confidence": 0.704,
+    "sha256": "82b6b6c98686a0c9ccc9c78ebd0b96c7a91bca6e5e8dac96b5bd6858f0bd8126",
+    "simhash": "1:860ad303098a1f22",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Pacheco-Garcia v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9445.\nPacheco-Garcia v. United States."
+  },
+  "file_name": "0962-08",
+  "first_page_order": 1044,
+  "last_page_order": 1044
+}

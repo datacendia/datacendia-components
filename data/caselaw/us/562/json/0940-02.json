@@ -1,0 +1,59 @@
+{
+  "id": 5982783,
+  "name": "Love v. Chester, Warden",
+  "name_abbreviation": "Love v. Chester",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5865",
+  "first_page": "940",
+  "last_page": "940",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 940"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.614,
+    "sha256": "c89fe91553ceaf1615667a55dd559d2bc844267907a2fa35aa03aeae8a74cc20",
+    "simhash": "1:2f97f1eb83b792f6",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Love v. Chester, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5865.\nLove v. Chester, Warden."
+  },
+  "file_name": "0940-02",
+  "first_page_order": 962,
+  "last_page_order": 962
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12241108,
+  "name": "Mitchell v. University Medical Center, Inc.",
+  "name_abbreviation": "Mitchell v. University Medical Center, Inc.",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-7413",
+  "first_page": "1130",
+  "last_page": "1130",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1130"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 91,
+    "ocr_confidence": 0.678,
+    "sha256": "e53d3e0c2dfdfa0a2aa104152d35a2e60cd9ef3c4478f646d3385d84e8c74b59",
+    "simhash": "1:e28a02026b9e9404",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mitchell v. University Medical Center, Inc."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7413.\nMitchell v. University Medical Center, Inc."
+  },
+  "file_name": "1130-12",
+  "first_page_order": 1212,
+  "last_page_order": 1212
+}

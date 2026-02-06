@@ -1,0 +1,61 @@
+{
+  "id": 6017539,
+  "name": "Robles v. United States",
+  "name_abbreviation": "Robles v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5882",
+  "first_page": "955",
+  "last_page": "955",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 955"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 153,
+    "ocr_confidence": 0.6,
+    "sha256": "ec58e183282a282191011e66b3f086051d97b3cc3b27f23d03a4d57971a7aca5",
+    "simhash": "1:9d33fa82470ef644",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Sotomayor took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Robles v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.\nJustice Sotomayor took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5882.\nRobles v. United States."
+  },
+  "file_name": "0955-07",
+  "first_page_order": 977,
+  "last_page_order": 977
+}

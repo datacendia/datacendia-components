@@ -1,0 +1,59 @@
+{
+  "id": 12250776,
+  "name": "Berry, aka Punch v. United States",
+  "name_abbreviation": "Berry v. United States",
+  "decision_date": "2012-03-05",
+  "docket_number": "No. 11-8617",
+  "first_page": "1251",
+  "last_page": "1251",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1251"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 84,
+    "ocr_confidence": 0.691,
+    "sha256": "9c4e2552497a276e0c416bf9fea870952892acbdbd50ad66879c6caa51c38055",
+    "simhash": "1:05cbd603460ec568",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Berry, aka Punch v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. D. C. Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8617.\nBerry, aka Punch v. United States."
+  },
+  "file_name": "1251-13",
+  "first_page_order": 1333,
+  "last_page_order": 1333
+}

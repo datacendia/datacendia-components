@@ -1,0 +1,59 @@
+{
+  "id": 12243192,
+  "name": "Hollingshead v. Kansas",
+  "name_abbreviation": "Hollingshead v. Kansas",
+  "decision_date": "2012-01-17",
+  "docket_number": "No. 11-7395",
+  "first_page": "1164",
+  "last_page": "1164",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1164"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 70,
+    "ocr_confidence": 0.618,
+    "sha256": "d11e26aa30cf7809fe19ad40bcc00be87a063c2cc0e0e089021f8f6435be0104",
+    "simhash": "1:78b1614c43c0fd93",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hollingshead v. Kansas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Kan. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7395.\nHollingshead v. Kansas."
+  },
+  "file_name": "1164-10",
+  "first_page_order": 1246,
+  "last_page_order": 1246
+}

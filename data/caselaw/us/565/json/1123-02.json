@@ -1,0 +1,59 @@
+{
+  "id": 12240258,
+  "name": "Williams v. Mullen et al.",
+  "name_abbreviation": "Williams v. Mullen",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-7075",
+  "first_page": "1123",
+  "last_page": "1123",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1123"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 73,
+    "ocr_confidence": 0.671,
+    "sha256": "1d6c5c9bc57b1f01ccee1adb44dab1955d44da336f23be9c7bce4ee6efcfbde1",
+    "simhash": "1:308860a1c2559061",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Williams v. Mullen et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7075.\nWilliams v. Mullen et al."
+  },
+  "file_name": "1123-02",
+  "first_page_order": 1205,
+  "last_page_order": 1205
+}

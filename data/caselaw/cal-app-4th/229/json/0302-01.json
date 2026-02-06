@@ -1,0 +1,699 @@
+{
+  "id": 4341628,
+  "name": "THE PEOPLE, Plaintiff and Respondent, v. LETICIA GARCIA, Defendant and Appellant",
+  "name_abbreviation": "People v. Garcia",
+  "decision_date": "2014-08-28",
+  "docket_number": "No. G048020",
+  "first_page": "302",
+  "last_page": "319",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "229 Cal. App. 4th 302"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "539 U.S. 558",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8898517
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "571"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/539/0558-01"
+      ]
+    },
+    {
+      "cite": "145 Cal.Rptr.3d 898",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "208 Cal.App.4th 1067",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4257541
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/208/1067-01"
+      ]
+    },
+    {
+      "cite": "18 Cal.Rptr.2d 511",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "14 Cal.App.4th 1303",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6037310
+      ],
+      "pin_cites": [
+        {
+          "page": "1313"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/14/1303-01"
+      ]
+    },
+    {
+      "cite": "95 P.3d 811",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "17 Cal.Rptr.3d 532",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "33 Cal.4th 1158",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        493342
+      ],
+      "pin_cites": [
+        {
+          "page": "1201"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/33/1158-01"
+      ]
+    },
+    {
+      "cite": "122 P.3d 765",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.Rptr.3d 644",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "37 Cal.4th 428",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3771953
+      ],
+      "pin_cites": [
+        {
+          "page": "438"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/37/0428-01"
+      ]
+    },
+    {
+      "cite": "139 P.3d 492",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.Rptr.3d 22",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "39 Cal.4th 566",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3582783
+      ],
+      "pin_cites": [
+        {
+          "page": "608"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/39/0566-01"
+      ]
+    },
+    {
+      "cite": "198 P.3d 11",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "87 Cal.Rptr.3d 209",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Cal.4th 390",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3893024
+      ],
+      "pin_cites": [
+        {
+          "page": "444"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/45/0390-01"
+      ]
+    },
+    {
+      "cite": "802 P.2d 330",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "276 Cal.Rptr. 827",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "52 Cal.3d 754",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2375274
+      ],
+      "pin_cites": [
+        {
+          "page": "793"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/52/0754-01"
+      ]
+    },
+    {
+      "cite": "254 Cal.Rptr. 822",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "207 Cal.App.3d 697",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        6038188
+      ],
+      "pin_cites": [
+        {
+          "page": "704"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/207/0697-01"
+      ]
+    },
+    {
+      "cite": "952 P.2d 673",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1988,
+      "opinion_index": 0
+    },
+    {
+      "cite": "72 Cal.Rptr.2d 656",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1988,
+      "opinion_index": 0
+    },
+    {
+      "cite": "17 Cal.4th 800",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1550671
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "845"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/17/0800-01"
+      ]
+    },
+    {
+      "cite": "8 F.3d 1315",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10515907
+      ],
+      "pin_cites": [
+        {
+          "page": "1323"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/8/1315-01"
+      ]
+    },
+    {
+      "cite": "295 U.S. 78",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        333750
+      ],
+      "weight": 4,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "88"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/295/0078-01"
+      ]
+    },
+    {
+      "cite": "96 P.3d 30",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "17 Cal.Rptr.3d 710",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "34 Cal.4th 1",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        633001
+      ],
+      "pin_cites": [
+        {
+          "page": "107"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/34/0001-01"
+      ]
+    },
+    {
+      "cite": "183 P.3d 384",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "76 Cal.Rptr.3d 683",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 Cal.4th 757",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3884087
+      ],
+      "pin_cites": [
+        {
+          "page": "821-822"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/43/0757-01"
+      ]
+    },
+    {
+      "cite": "207 P.3d 48",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2008,
+      "opinion_index": 0
+    },
+    {
+      "cite": "93 Cal.Rptr.3d 591",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2008,
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.4th 364",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3895998
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "402"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/46/0364-01"
+      ]
+    },
+    {
+      "cite": "611 P.2d 883",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "165 Cal.Rptr. 289",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "27 Cal.3d 303",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2261846
+      ],
+      "pin_cites": [
+        {
+          "page": "316"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/27/0303-01"
+      ]
+    },
+    {
+      "cite": "92 Nw.U. L.Rev. 1459",
+      "category": "journals:journal",
+      "reporter": "Nw. U. L. Rev.",
+      "pin_cites": [
+        {
+          "page": "1467"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "302 P.2d 813",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "145 Cal.App.2d 539",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2202890
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/145/0539-01"
+      ]
+    },
+    {
+      "cite": "189 P.2d 554",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "83 Cal.App.2d 586",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        6038637
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/83/0586-01"
+      ]
+    },
+    {
+      "cite": "820 N.E.2d 302",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "pin_cites": [
+        {
+          "page": "306"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2004 Ohio 6550",
+      "category": "reporters:state",
+      "reporter": "Ohio",
+      "opinion_index": 0
+    },
+    {
+      "cite": "104 Ohio St.3d 432",
+      "category": "reporters:state",
+      "reporter": "Ohio St. 3d",
+      "case_ids": [
+        430608
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ohio-st-3d/104/0432-01"
+      ]
+    },
+    {
+      "cite": "50 P.3d 332",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "122 Cal.Rptr.2d 545",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 Cal.4th 703",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        947685
+      ],
+      "pin_cites": [
+        {
+          "page": "738"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/28/0703-01"
+      ]
+    },
+    {
+      "cite": "129 P.3d 321",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "40 Cal.Rptr.3d 118",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "37 Cal.4th 1067",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3772164
+      ],
+      "pin_cites": [
+        {
+          "page": "1113"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/37/1067-01"
+      ]
+    },
+    {
+      "cite": "141 Cal.Rptr.3d 193",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2006,
+      "opinion_index": 0
+    },
+    {
+      "cite": "205 Cal.App.4th 1086",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6054589
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "1094"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/205/1086-01"
+      ]
+    },
+    {
+      "cite": "189 P.3d 911",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "81 Cal.Rptr.3d 651",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 Cal.4th 1032",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3888539
+      ],
+      "pin_cites": [
+        {
+          "page": "1068"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/44/1032-01"
+      ]
+    },
+    {
+      "cite": "1 P.3d 3",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "96 Cal.Rptr.2d 682",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "23 Cal.4th 225",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        277033
+      ],
+      "pin_cites": [
+        {
+          "page": "282"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/23/0225-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1667,
+    "char_count": 41470,
+    "ocr_confidence": 0.905,
+    "pagerank": {
+      "raw": 6.22383782585142e-08,
+      "percentile": 0.3851135722584599
+    },
+    "sha256": "562abb2e88f0b9b5b4ef222d83ac649390a3853b6f8808ff9ca465d0c5690db2",
+    "simhash": "1:6ea16224d3264de2",
+    "word_count": 6690
+  },
+  "last_updated": "2024-02-27T22:35:03.020141+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE, Plaintiff and Respondent, v. LETICIA GARCIA, Defendant and Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nBEDSWORTH, J.\nAppellant Leticia Garcia was charged with sexually abusing a girl she babysat. At trial, the prosecutor attempted to show she is a lesbian. The prosecutor asserted during closing argument that her supposed attraction to other women gave her a motive to sexually abuse the victim. While disavowing the notion that all lesbians are child molesters, she nonetheless argued it was very telling that appellant \u201cis attracted to females\u201d and the victim was \u201ca female child.\u201d In the end, the jury convicted appellant as charged, and the trial court sentenced her to 16 years in prison.\nWe do not believe appellant\u2019s sexual orientation was relevant to any issue in this case. The trial court was largely successful in limiting the jury\u2019s exposure to evidence regarding appellant\u2019s sexual orientation however, so we find no abuse of discretion in the denial of appellant\u2019s requests for a mistrial during the evidentiary phase of the trial. But we cannot overlook the fact the prosecutor repeatedly attempted to make an issue out of appellant\u2019s sexual orientation and emphasized this issue to the jury in closing argument. This was prejudicial misconduct. It leaves us with no confidence the jury could have evaluated the charges against appellant in a fair and impartial manner and requires us to reverse the judgment.\nFACTS\nOverview of the Case\nThe events at issue occurred between 1991 and 1995. During that time, A.G., who was six years old in 1991, lived in Santa Ana with her mother, Maria, her two younger sisters, and Maria\u2019s boyfriend, Mario. Appellant was the family\u2019s live-in babysitter but really functioned as a maid. She not only looked after the children when Maria and Mario were at work, she also cooked for the family and cleaned their residence. Maria was never happy with this arrangement, though. Although appellant is a member of her extended family and had previously cared for her brother\u2019s children, Maria distrusted her and wanted to get rid of her.\nAppellant worked for the family until March 2, 1995. When Maria came home from work that day, she found appellant in the bedroom with A.G. It appeared to Maria that appellant was kissing and caressing A.G. in a sexual manner, but when she asked appellant what was going on, appellant insisted she was merely comforting A.G. In the wake of this incident, Maria fired appellant and notified the authorities, to whom A.G. reported appellant had been sexually abusing her for a long time. Police were unable to find appellant after she left Maria\u2019s employ, and she was not formally charged until 2011.\nEvidence Concerning the Allegations\nTrial commenced in 2012. At that time, A.G. was 28 years old. She testified appellant molested her virtually every day from the time appellant moved into her house in 1991 until the bedroom incident in 1995. The molestation occurred mostly at night, was sometimes forceful, and included digital penetration of A.G.\u2019s vagina. Appellant would not only touch and kiss A.G.\u2019s breasts and vagina, but would also have A.G. do the same to her. She said appellant told A.G. she would kill her parents and molest her sisters if she told anyone about the abuse.\nDescribing the bedroom incident, A.G. testified she and appellant were on the bed in Maria\u2019s room, and her younger sisters were sitting on the floor.\nThey were all watching television when appellant got on top of her and started kissing her and touching her breasts and vagina. When Maria came into the room, she yelled at appellant and told her to leave. Then Maria asked A.G. what was going on. A.G. said appellant had been touching her private parts, and this was not the first time she had done so.\nAbout a week later, A.G. was interviewed by a social worker on the child abuse services team (C.A.S.T.). During the interview, A.G. claimed that not only had appellant been sexually molesting her on a regular basis, her teenage cousin Emilio had also touched her inappropriately at times. She said appellant knew Emilio was molesting her and had threatened to tell Maria about the molestation if A.G. ever revealed what appellant was doing to her. A.G. also claimed she was once sexually molested by her uncle when she was four years old and that one of her sisters was once molested by a neighbor. At trial, A.G. testified she had no memory of Emilio ever touching her inappropriately. However, she did recall that appellant had once locked her in a room with Emilio. She said appellant threatened to tell Maria that Emilio had molested her if she ever reported what appellant was doing to her. She said appellant repeated this threat so often she eventually came to believe Emilio had actually molested her.\nMaria testified that when she walked in on appellant and A.G. during the bedroom incident, appellant \u201cwas caressing [A.G.] as if she was a man.\u201d Their legs were intertwined and appellant was touching A.G.\u2019s chest and kissing her. Maria also testified A.G. had complained about appellant touching her inappropriately before this incident occurred. However, whenever Maria confronted appellant about this, she denied any wrongdoing. It was only after Maria caught appellant \u201cin the act\u201d during the bedroom incident that she decided to report appellant to the authorities.\nAppellant denied ever touching A.G. in an inappropriate manner. She said she loved A.G. and her sisters and would never do anything to harm them. As for the bedroom incident, appellant said she had sent A.G. to the room for a \u201ctime out\u201d because she had been misbehaving. A.G. was on the bed crying for quite some time, so appellant went into the room to calm her down. In doing so, appellant bent over to wipe away her tears and tickle her. That\u2019s when Maria came into the room and accused her of sexually molesting A.G. Appellant testified she was only trying to comfort A.G. She said the reason she stayed away from A.G.\u2019s family so long after the allegations surfaced was that she feared Maria.\nAppellant continued to work as a babysitter after she was fired by Maria. Several of the parents appellant worked for testified appellant was great with their children and never caused any problems. They did not believe appellant was the type of person who would ever sexually abuse a child.\nThe Evidence Code Section 402 Hearing on the Issue of Appellant\u2019s Sexual Orientation\nBefore trial, defense counsel moved to exclude any evidence of appellant\u2019s sexual orientation on the grounds such evidence was irrelevant, speculative and unduly prejudicial under Evidence Code section 352. Defense counsel also sought to exclude appellant\u2019s booking photo, which was taken at the time of her arrest in 2011. With respect to that photo, defense counsel told the court, \u201cThis ties into the sexual preference motion. It\u2019s a bad booking photo, Your Honor. She looks like a man with a polo shirt.\u201d The prosecutor took the position that evidence of appellant\u2019s sexual orientation was admissible to show she touched A.G. for a sexual purpose.\nThe trial court commented extensively in ruling on the matter. While initially stating appellant\u2019s sexual orientation was not germane to the case, and it did not anticipate the prosecutor would present any direct evidence on that issue, the court surmised there might be some evidence that \u201cspeaks for itself.\u201d The judge told the attorneys, \u201cI could care less whether [appellant] likes women, men [or] both .... It\u2019s irrelevant. I think the evidence is going to be the evidence. We have an appropriate jury instruction that will indicate to [the jurors] that they\u2019re not to speculate and go beyond that. And if a question suggests otherwise or testimony is elicited otherwise, I\u2019ll be prepared to either jump in ahead of you all or entertain any objections you have.\u201d \u201cThis is not a case . . . that is bom of one\u2019s sexual preference. [It] is bom of elements that have to be made by the People proving beyond a reasonable doubt, and these deal with facts, not preferences.\u201d\nThe prosecutor differed. Without expounding on her position, she said, \u201cI tend to disagree with the court a little bit in . . . that I think sexual preference is an issue in this case.\u201d The judge responded, \u201cWell, let me correct. Sexual preference is, obviously, an issue. This is a woman on woman. Therefore, meaning that you are a lesbian, that\u2019s another thing. So there\u2019s no denying this is a woman on woman. And you have to prove the elements you have to prove. But one of the elements is not that they\u2019re a lesbian.\u201d\nAfter the prosecutor acknowledged this, the judge continued, saying \u201c[tjhat\u2019s where it stops, at least in the way I\u2019m looking at it. The elements are gender neutral. We obviously have a female on female. People may assume things, think things. We\u2019ll be telling them in the jury instmctions that they can\u2019t think those things. They\u2019re irrelevant, [f] If the jury instmctions don\u2019t seem to handle it, and for some reason [defense counsel] . . . think[s] that the case has unfolded in a way that may subliminally or may subconsciously place that as an issue, I will entertain a special instruction.\u201d\nAt that point, defense counsel expressed his concern the prosecutor might try to use appellant\u2019s booking photo to make her sexual orientation an issue in the case. The court ruled that, because appellant\u2019s hair in the photo was shorter than it was at trial, the photo was relevant to the issue of identification. However, the court stated appellant\u2019s sexual preference was \u201cnot an issue and . . . not relevant.\u201d It assured defense counsel that if the prosecutor \u201cdoes a 360 on us and goes nuts with this photo and feels it now portrays all these subliminal monstrous things, then yeah, we\u2019ll be talking in chambers. . . . [][] I think [your] concerns have been raised. You put [the prosecutor] on notice [of] your concerns. We\u2019ll see how it unfolds.\u201d\nHow It Unfolded\nOn direct examination, Maria testified one of the reasons she did not like appellant was that appellant sometimes entered the bathroom without knocking while she was taking a shower. After Maria testified appellant was always looking at her legs and body, the prosecutor asked her if she thought appellant was a lesbian. Before Maria answered, defense counsel objected, \u201cSpeculation. Relevance. Pursuant to a 402 discussion.\u201d The court sustained the objection and instructed Maria not to answer the question.\nMaria\u2019s testimony resumed. During the next break in the proceedings, outside the presence of the jury, defense counsel moved for a mistrial. He argued the prosecutor violated the court\u2019s pretrial ruling by asking Maria if she thought appellant was a lesbian. The court denied the motion on the basis it had sustained defense counsel\u2019s objection to the question, so Maria never answered the question. The court observed \u201cthere was no evidence as to [appellant\u2019s] sexual preference,\u201d and the jury would be instructed the questions of counsel are not evidence.\nLater, while questioning one of the police investigators, the prosecutor established appellant\u2019s booking photo was taken after she was arrested in 2011. The investigator testified appellant\u2019s hair was longer now than when the photo was taken and she had lost some weight. Over defense counsel\u2019s objection, the photo was admitted into evidence, and the prosecutor published it to the jury.\nDuring the defense case, appellant called Maria\u2019s sister Margarita to the stand for the purpose of eliciting prior inconsistent statements that Maria had made to her about the bedroom incident. On cross-examination, the prosecutor asked Margarita how long she had known appellant, and she said since appellant was about 20 years old. The prosecutor then asked Margarita if she had \u201cever seen [appellant] with a boyfriend?\u201d That prompted defense counsel to object again, \u201cRelevance. 402.\u201d The court overruled the objection, but before Margarita could answer the question, defense counsel asked to approach the bench, and the court conducted an off-the-record sidebar with counsel.\nWhen questioning resumed, the prosecutor asked Margarita if she had \u201cever known [appellant] to have a romantic relationship with anyone?\u201d Defense counsel objected, \u201cRelevance. 402 for the record.\u201d After the court overruled the objection, Margarita answered no, and the prosecutor announced she had no further questions for her.\nDuring a subsequent recess, defense counsel renewed his request for a mistrial. He contended that by asking Margarita about appellant\u2019s relationships, the prosecutor engaged in prejudicial misconduct by eliciting irrelevant evidence in violation of the court\u2019s pretrial ruling. In response, the prosecutor argued the court\u2019s ruling did not preclude evidence of appellant\u2019s sexual orientation altogether. While recognizing the court had imposed limitations, she continued to insist appellant\u2019s sexual orientation was \u201cvery relevant to the case.\u201d At that point, the court and defense counsel debated whether there had actually been any evidence received about appellant\u2019s sexual orientation. Convinced there had not been, the court denied appellant\u2019s motion for a mistrial.\nClosing Arguments\nHaving sidestepped a mistrial, the prosecutor was emboldened to press the issue even further in her closing argument. And press she did. She repeatedly urged the jury to consider appellant\u2019s sexual orientation in deciding the truth of the charges against her. Here is how she framed the issue in her initial opening argument: \u201c[Appellant\u2019s] attracted to women? Okay? She has the motive. [][] I\u2019m not saying that everyone who\u2019s attracted to women is going to attack children or going to molest children, but we know that she is attracted to females, and [A.G.] is a female child.\u201d When defense counsel objected to this argument on the basis the prosecutor was misstating the evidence, the court told the jurors that nothing the attorneys say is evidence.\nIn his closing argument, defense counsel implored the jury not to judge appellant based on her sexual orientation or her booking photo. He accused the prosecutor of misusing the photo to tarnish appellant\u2019s character and to show she was the type of person who would be inclined to molest children. He maintained \u201cthe only crime that she committed is to have a heart for kids.\u201d\nThe prosecutor spent a good part of her rebuttal argument defending her use of appellant\u2019s booking photo. She asserted, \u201cThe evidentiary value of that photograph is, believe it or not, folks, we live in a world where we all have preconceived ideas about what a woman who looks like that would like. Does she look like a lesbian to you? [f] Of course not every lesbian looks like that. But you have to ask yourself, why would a woman dress this way? Why would a woman have her hair that short? Is it because she is sexually attracted to other females? It had evidentiary value. [][] And the defendant is charged with sexually molesting a female child, so her sexual orientation and whether or not she\u2019s ever had a boyfriend or whether or not she\u2019s attracted to females or whether or not she looks like this when she\u2019s arrested and then looks like that for trial is absolutely relevant.\u201d\nPertinent Jury Instructions\nThe trial court instructed the jurors, \u201cDo not let bias, sympathy, prejudice, or public opinion influence your decision. Bias includes . . . bias for or against the . . . defendant. . . based on disability, gender, nationality, national origin, race or ethnicity, religion, gender identity, sexual orientation, age, or socioeconomic status.\u201d The court also instructed the jurors that \u201c[njothing the attorneys say is evidence. . . . Their questions are not evidence. Only the witnesses\u2019 answers are evidence. ... Do not assume that something is true just because one of the attorneys asked a question that suggested it was true.\u201d \u201cIf I sustained an objection, you must ignore the question. If the witness was not permitted to answer, do not guess what the answer might have been or why I ruled as I did.\u201d\nVerdict and Sentencing\nThe jury found appellant guilty as charged of one count of continuous sexual abuse of a child. (Pen. Code, \u00a7 288.5, subd. (a).) It also found true an allegation that appellant engaged in substantial sexual conduct, so as to make her presumptively ineligible for probation. (Pen. Code, \u00a7 1203.066.) The court thereupon sentenced her to 16 years in prison.\nDISCUSSION\nAppellant argues the trial court erred in denying her request for a mistrial. In her view, the evidence about her sexual orientation was not only irrelevant and unduly prejudicial, its admission rendered her trial fundamentally unfair in violation of due process. Based on the state of the case at the time appellant moved for a mistrial, we can discern no abuse of discretion in the trial court\u2019s decision to deny her motions.\nThe law is clear. A motion for a mistrial should only be granted when the defendant\u2019s chances of receiving a fair trial have been irretrievably damaged. (People v. Ayala (2000) 23 Cal.4th 225, 282 [96 Cal.Rptr.2d 682, 1 P.3d 3].) \u201c \u2018Whether a particular incident is incurably prejudicial is by its nature a speculative matter, and the trial court is vested with considerable discretion in ruling on mistrial motions. [Citation.]\u2019 [Citation.]\u201d (People v. Wallace (2008) 44 Cal.4th 1032, 1068 [81 Cal.Rptr.3d 651, 189 P.3d 911].) Unless the trial court\u2019s ruling is \u201c \u2018arbitrary, capricious, or patently absurd,\u2019 \u201d we are powerless to disturb it. (People v. Dunn (2012) 205 Cal.App.4th 1086, 1094 [141 Cal.Rptr.3d 193], quoting People v. Guerra (2006) 37 Cal.4th 1067, 1113 [40 Cal.Rptr.3d 118, 129 P.3d 321].)\nAs we explain below, the trial judge\u2019s initial instincts in this case were correct: Appellant\u2019s sexual orientation had no logical bearing on whether she was guilty of sexually abusing A.G. However, in making his pretrial ruling, the trial judge did not take the issue of appellant\u2019s sexual orientation completely off the table. Although the judge obviously did not want the trial to center on that issue, he decided to wait and see how the evidence unfolded at trial rather than make a definitive ruling at the outset of the case. The lid of the evidentiary box having been left open, the prosecutor pried at it like Pandora until the legal consequences leaped out in closing argument.\nPrior to that argument, the prosecutor had largely failed to elicit concrete evidence of appellant\u2019s sexual orientation. In questioning Maria, the prosecutor elicited evidence that while appellant was working for Maria\u2019s family, she had a habit of entering rooms without knocking and sometimes looked at Maria in a way that made her feel uncomfortable. However, when the prosecutor asked Maria if she thought appellant was a lesbian, the court sustained defense counsel\u2019s objection. In effect, the court also sustained defense counsel\u2019s objection to the prosecutor\u2019s question to Margarita about whether she had ever seen appellant with a boyfriend. Because the court granted defense counsel\u2019s request for a sidebar on that issue, Margarita never did answer that question. Later on, the court did allow into evidence that Margarita had never known appellant to have a romantic relationship with anyone, and it did admit appellant\u2019s booking photo into evidence. But this evidence did not necessarily establish appellant is gay. Although the prosecutor was clearly trying to paint appellant as a lesbian\u2014and the rephrasing of the \u201cboyfriend\u201d question to cover relationships with either gender is likely to have succeeded in highlighting that issue to some jurors\u2014little had risen above the level of innuendo.\nConsidering that, we are unable to quarrel with the trial court\u2019s decision the jury instructions would be sufficient to cure any prejudice that arose from the prosecutor\u2019s efforts. Those instructions not only prohibited the jurors from considering the prosecutor\u2019s questions as evidence, they also precluded any speculation about what a witness\u2019s answer might have been absent a successful objection. (CALCRIM No. 222.) In addition, the jurors were told not to hold appellant\u2019s sexual orientation against her in deciding the case. (CALCRIM No. 200.)\nGiven these instructions and the state of the record at the time appellant made her mistrial motions, we cannot say the trial court abused its discretion in denying them. In fact, had the prosecutor subsequently left the issue alone, our analysis would be over; we would likely affirm the conviction\u2014though regretfully, considering the tactics employed\u2014on the basis of the trial court\u2019s broad discretion to assess the impact of such tactics. But the issue was most decidedly not left alone. Given the prosecutor\u2019s repeated emphasis on appellant\u2019s sexual orientation in closing argument, we are compelled to consider whether the jury\u2019s cumulative exposure to the issue violated appellant\u2019s right to due process and a fair trial.\nIn examining the issue of whether appellant received a fair trial, we note that while the prosecutor argued to the court before trial that appellant\u2019s sexual orientation was relevant to the issue of intent, she told the jury it was relevant to the issue of motive. Intent and motive are not the same thing. Whereas intent refers to the mental state required for a particular offense, motive describes the reason a person chooses to commit a crime. (People v. Cash (2002) 28 Cal.4th 703, 738 [122 Cal.Rptr.2d 545, 50 P.3d 332].) So by linking appellant\u2019s sexual orientation to the issue of motive, the prosecutor essentially told the jury the reason appellant chose to victimize A.G. is because she is gay.\nWe have grown beyond that notion. \u201c[T]he modem understanding of pedophilia is that it exists wholly independently from homosexuality. The existence or absence of one neither establishes nor disproves the other.\u201d (State v. Crotts (2004) 104 Ohio St.3d 432 [2004 Ohio 6550, 820 N.E.2d 302, 306].) While there are some early cases to the contrary (see, e.g., People v. O\u2019Moore (1948) 83 Cal.App.2d 586 [189 P.2d 554] [equating homosexuality with sexual perversion]), California courts have long recognized that a defendant\u2019s sexual attraction to adults of the same sex has nothing to do with whether they are sexually attracted to children of the same sex. (People v. Giani (1956) 145 Cal.App.2d 539 [302 P.2d 813] (Giani).)\nIn Giani, the trial court granted a new trial to a male defendant accused of sexually molesting a boy, due to the fact the prosecutor elicited evidence the defendant was a homosexual. (Giani, supra, 145 Cal.App.2d at p. 541.) In affirming that ruling, the Giani court rejected the notion that a person\u2019s sexual orientation has any bearing on the propensity to commit sex crimes against children. (Id. at pp. 543-544.) Indeed, the court considered the idea of using evidence of a defendant\u2019s homosexuality to prove he or she molested a child of the same sex about as farfetched as using evidence of a defendant\u2019s heterosexuality to prove he or she committed rape. (Id. at p. 543.) It is painful to find this battle still being fought 58 years later.\nThe Attorney General argues, \u201cAppellant\u2019s sexual preference for females only went to the gender of her victim, not to her predilection for children over adults.\u201d \u201c[T]here is a modicum of relevance concerning appellant\u2019s sexual preference for females given that she and her victim were females.\u201d This argument assumes gay child molesters are more likely to victimize children of their own sex than those of the opposite sex. However, \u201cthere is no evidence that lesbians are especially likely to abuse girls\u201d as compared to boys. (Becker, The Abuse Excuse and Patriarchal Narratives (1998) 92 Nw.U. L.Rev. 1459, 1467.)\nThe point the Giani court made before the lawyers in this case were bom is no less true today. Trying to draw a connection between a child molester\u2019s sexual orientation and a preference for children of one gender or the other is problematic to the point of counterproductivity. \u201c[M]any child molesters cannot be meaningfully described as homosexuals, heterosexuals, or bisexuals (in the usual sense of those terms) because they are not really capable of a relationship with an adult man or woman. Instead of gender, their sexual attractions are based primarily on age.\u201d (Herek, Facts About Homosexuality and Child Molestation, p. 3, <http://psychology.ucdavis.edu/faculty_ sites/rainbow/html/facts_molestation.html> [as of Aug. 28, 2014] (hereafter Herek, Homosexuality); see Murray, Psychological Profile of Pedophiles and Child Molesters (2000) 134(2) J. Psychol. 211, 215 [an important factor in child sexual abuse cases is \u201cthe availability and vulnerability of children rather than a particular sexual attraction\u201d]; McCloskey et al., Adult Perpetrator Gender Asymmetries in Child Sexual Assault Victim Selection: Results from the 2000 National Incident-Based Reporting System (2005) 14(4) J. Child Sexual Abuse 1, 2 [female sex offenders choose child victims of both genders with equal regularity]; Freund et al., Erotic Gender Differentiation in Pedophilia (1991) 20 Archives Sexual Behav. 555 [sexual arousal study indicating pedophiles are far less likely to choose their victims based on gender than are other adults in selecting their sexual partners].)\nThat being the case, we do not believe the evidence of appellant\u2019s sexual orientation was relevant to her prosecution. Period. Whether designed to show appellant\u2019s intent, motive or why she would select A.G. as a victim, the evidence, standing alone, simply did not hold up in terms of facilitating the jury\u2019s understanding of the case or \u201chaving any tendency in reason\u201d to prove a disputed fact \u201cof consequence to the determination of the action.\u201d (Evid. Code, \u00a7 210; see generally People v. Thompson (1980) 27 Cal.3d 303, 316 [165 Cal.Rptr. 289, 611 P.2d 883] [evidence of a defendant\u2019s conduct on a prior occasion may only be admitted in a criminal prosecution if the past conduct logically and naturally establishes a material fact in the case].) In short, the prosecutor argued rather forcefully for a jury verdict based upon irrelevant factors.\nAppellant contends the evidence and arguments regarding her sexual orientation were incurably harmful because they portrayed her as a sexual deviant likely to commit such offenses. She cites cases from the 1970\u2019s and 1980\u2019s for the proposition that evidence of an accused\u2019s homosexuality is inherently prejudicial. Public attitudes toward homosexuality have changed considerably since that time. While 70 percent of respondents to a national survey in 1970 believed homosexuals were a threat to children, a 1999 national poll revealed that view was \u201cendorsed by only 19% of heterosexual men and 10% of heterosexual women. Even fewer\u20149% of men and 6% of women\u2014regarded most lesbians as child molesters.\u201d (Herek, Homosexuality, supra, at p. 2.)\nMoreover, since the turn of the century, \u201c \u2018there has been a fundamental and dramatic transformation in this state\u2019s understanding and legal treatment of gay individuals and gay couples\u2019 resulting in a general recognition \u2018that gay individuals are entitled to the same legal rights and the same respect and dignity afforded all other individuals and are protected from discrimination on the basis of their sexual orientation . . . .\u2019 \u201d (Strauss v. Horton (2009) 46 Cal.4th 364, 402 [93 Cal.Rptr.3d 591, 207 P.3d 48], quoting In re Marriage Cases (2008) 43 Cal.4th 757, 821-822 [76 Cal.Rptr.3d 683, 183 P.3d 384].) While it would be naive to believe that prejudice against homosexuals is a thing of the past, we acknowledge it is not as antithetical to a fair trial as it once was.\nBut evidence and argument regarding appellant\u2019s sexual orientation was still potentially inflammatory. To guard against the possibility that some of the jurors might harbor bias toward gays, the trial court admonished the jury on the point. (CALCRIM No. 200.) We presume the jury followed this instruction in deciding the case. (People v. Coffman and Marlow (2004) 34 Cal.4th 1, 107 [17 Cal.Rptr.3d 710, 96 P.3d 30].) But that instruction only went so far. It did not, as the Attorney General maintains, tell the jurors to disregard the issue of appellant\u2019s sexual orientation altogether. And as it turned out, that issue was kept alive by a confluence of factors.\nMost important among these is that the prosecutor told the jurors in closing argument that appellant\u2019s sexual orientation was a relevant issue they could consider in deciding the case. She told them appellant\u2019s sexual orientation was relevant to the issue of motive. And in its standard jury instructions, the court informed the jurors they could consider the issue of motive in deciding the truth of the charges. (CALCRIM No. 370.) In effect, these two factors created a lacuna in the anti-bias instruction that allowed the prosecutor to interject\u2014and the jury to consider\u2014the issue of appellant\u2019s sexual orientation.\nAs we have explained, appellant\u2019s sexual orientation was not relevant to motive or any other issue in the case. Yet, the prosecutor\u2019s assertion to the contrary was a prominent component of her closing argument. The assertion has enough facial verisimilitude that at least some of the jurors may have considered it to be true, especially when spoken with such confidence by the government\u2019s representative, the prosecuting attorney. (See Berger v. United States (1935) 295 U.S. 78, 88 [79 L.Ed. 1314, 55 S.Ct. 629] [recognizing a prosecutor\u2019s arguments \u201care apt to carry much weight\u201d in the eyes of the jury]; U.S. v. Kojayan (9th Cir. 1993) 8 F.3d 1315, 1323 [statements from the prosecutor in closing argument \u201cmatter a great deal\u201d].) It is just not the sort of argument that can be easily ignored in a case like this.\nIts likely effect on a jury is illustrated by the fact even clinical researchers have been inclined to read too much into same-sex molestation. The temptation is to report or describe the phenomenon as homosexual molestation, due solely to the common gender of the victim and the perpetrator. (Herek, Homosexuality, supra, at p. 3.) This has often led to \u201cunwarranted assumptions about the perpetrator\u2019s sexual orientation.\u201d {Ibid.) This tendency underscores the need for \u201c \u2018rigorous insistence upon observance of the rules of the admission of evidence and conduct of the trial\u2019 \u201d in cases like this one, where the nature of the charges alone is \u201c \u2018sufficient to inflame the mind of the average person . . . .\u2019 [Citation.]\u201d (Giani, supra, 145 Cal.App.2d at pp. 546-547.)\nUnder our rules of evidence, the introduction of irrelevant evidence is strictly prohibited. (Evid. Code, \u00a7 350.) And as far as trial advocacy is concerned, it is well established that a prosecutor may not rely on misleading or spurious arguments to obtain a conviction. (See, e.g., People v. Hill (1998) 17 Cal.4th 800, 845 [72 Cal.Rptr.2d 656, 952 P.2d 673] [prosecutor\u2019s \u201cpervasive campaign to mislead the jury on key legal points\u201d may well have required reversal in and of itself had reversal not been warranted on other grounds]; People v. Valentine (1988) 207 Cal.App.3d 697, 704 [254 Cal.Rptr. 822] [reversal required where prosecutor\u2019s case and argument were based on \u201cspecious reasoning\u201d].) Although a prosecutor \u201cmay strike hard blows, he [or she] is not at liberty to strike foul ones. It is as much his [or her] duty to refrain from improper methods calculated to produce a wrongful conviction as it is to use every legitimate means to bring about a just one.\u201d (Berger v. United States, supra, 295 U.S. at p. 88.)\nHaving carefully reviewed the record in this case, we do not believe the prosecutor set out to prejudice the jury by trying to make an issue out of irrelevant considerations. We think she mistook\u2014as we have shown many others have\u2014the import of appellant\u2019s perceived sexual orientation. While reasonable minds could differ as to whether the prosecutor exceeded the boundaries of the trial court\u2019s pretrial ruling (she certainly pushed them), or whether the trial court should have set clearer parameters on the issue (\u201cNo\u201d should be enough. The judge should not have to say, \u201cNo . . . and I really mean it.\u201d), what is done is done. In the end, it really does not matter whether or not the prosecutor acted in good faith; our concern is the potential injury to appellant. (People v. Benson (1990) 52 Cal.3d 754, 793 [276 Cal.Rptr. 827, 802 P.2d 330].) More particularly, we must endeavor to ascertain whether the prosecutor\u2019s conduct infected appellant\u2019s trial with such unfairness as to render her conviction violative of due process. (People v. Doolin (2009) 45 Cal.4th 390, 444 [87 Cal.Rptr.3d 209, 198 P.3d 11].)\nAs to that issue, it is quite possible the prosecutor\u2019s closing argument confirmed preconceived notions some of the jurors may have had about this case. Although it is not true, some of the jurors may have suspected that any woman who sexually molests a girl would have to be a lesbian, or at least bisexual. So by attempting to elicit evidence that appellant is gay, and by arguing appellant\u2019s purported attraction to other women gave her a motive to sexually abuse A.G., the prosecutor validated the jurors\u2019 application of any misconceptions they may have had about the role of sexual orientation in a case such as this.\nAnd she did so with little subtlety. Alluding to appellant\u2019s booking photo in closing argument, the prosecutor told the jurors \u201cwe live in a world where we all have preconceived ideas about what a woman who looks like that would like.\u201d In the prosecutor\u2019s view, the photograph suggested appellant was attracted to \u201cother females,\u201d and not just adults. Emphasizing appellant\u2019s appearance and \u201cwhether or not she\u2019s ever had a boyfriend,\u201d the prosecutor told the jurors these things were \u201cabsolutely relevant\u201d to the charges in this case. Indeed, the prosecutor argued appellant\u2019s sexual orientation provided the motivation for why she was attracted to A.G. and would want to molest her. The prosecutor\u2019s argument essentially worked into the fabric of the prosecution case the very threads the court had precluded. Distilled to its essence, it was, \u201cShe\u2019s a lesbian. We know this because she looks like a lesbian and she\u2019s never had a boyfriend. So we know she would have been sexually attracted to a six-to-10-year-old girl. So she probably molested her.\u201d\nMotive evidence can be very powerful. The natural human thought process in analyzing actions we do not understand is to ask ourselves, \u201cWhy would someone do that?\u201d In using the issue of appellant\u2019s sexual orientation to explain why she would have committed the charged offense, the prosecutor employed logic that was tantalizingly attractive on its face but deeply flawed and fundamentally unfair at its core. Considering all of the evidence and argument on the issue, we simply do not believe appellant was afforded her right to a fair trial.\nMisconduct that undermines a defendant\u2019s federal constitutional rights requires reversal unless it is harmless beyond a reasonable doubt. (People v. Cook (2006) 39 Cal.4th 566, 608 [47 Cal.Rptr.3d 22, 139 P.3d 492].) Pointing to A.G.\u2019s C.A.S.T. interview, her trial testimony, Maria\u2019s testimony, and appellant\u2019s flight, the Attorney General maintains \u201cthe evidence of appellant\u2019s guilt was very strong.\u201d However, in her C.A.S.T. interview, A.G. alleged she was not only molested by appellant, but by her cousin Emilio and her uncle\u2014things she denied 17 years later. Maria testified she saw appellant molesting A.G. during the bedroom incident, but Maria made inconsistent statements about what she saw in the bedroom that day and she clearly disliked appellant before that incident occurred. The fact Maria despised appellant from the beginning could very well have affected A.G.\u2019s impression of appellant and influenced how she perceived and reported events.\nAs for appellant\u2019s \u201cflight,\u201d the record is unclear as to exactly where appellant was in the years after Maria fired her. And there is no evidence of actual flight. Appellant not only stayed in the area, she stayed in the same occupation. She testified she was homeless for a while and stayed away from Maria\u2019s family for fear that Maria would try to hurt her. But if she was hiding, she was hiding in very plain sight.\nOn this record, we do not believe the evidence and argument concerning appellant\u2019s sexual orientation can be said to be harmless beyond a reasonable doubt. The judgment against her must therefore be reversed. Due process and the interests of fairness dictate that appellant be judged by what she did, not who she is. Nothing less will do.\nDISPOSITION\nThe judgment is reversed.\nO\u2019Leary, P. J., and Thompson, J., concurred.\nAt the time of trial, appellant was 42 years old.\nThe Attorney General contends appellant forfeited her right to challenge her conviction on due process grounds because her attorney did not raise any constitutional objections in the trial court. However, in arguing that appellant\u2019s sexual orientation was irrelevant and prejudicial, defense counsel made it clear to the court and opposing counsel that he considered evidence of appellant\u2019s sexual orientation to be fundamentally unfair. Although he did not expressly invoke the due process clause, the essence of his objections was that appellant simply could not get a fair shake at trial if the prosecutor made her sexual orientation an issue in the case. Under these circumstances, the Attorney General\u2019s forfeiture argument is not well taken. (See People v. Partida (2005) 37 Cal.4th 428, 438 [35 Cal.Rptr.3d 644, 122 P.3d 765] [despite failing to object on constitutional grounds at trial, a \u201cdefendant may argue an additional legal consequence of [an] asserted error in overruling [an] Evidence Code section 352 objection is a violation of due process\u201d].) Moreover, given the trial court\u2019s failure to keep a tighter lid on the sexual orientation issue, defense counsel may have justifiably felt any further objections to the issue would have been futile. (See People v. Cole (2004) 33 Cal.4th 1158, 1201 [17 Cal.Rptr.3d 532, 95 P.3d 811].) We cannot fault defense counsel for finally giving up on objecting to the issue and instead trying to mitigate it in his own remarks in closing argument because, by that time, the genie was long since out of the bottle. (Pandora\u2019s \u201cbox\u201d was, in the original Greek, a \u201cpithos,\u201d usually translated as \u201cjar\u201d or \u201cbottle.\u201d)\nContinuous sexual abuse of a child, the crime of which appellant was convicted, is a curious hybrid. It prohibits anyone who has continuing access to a child from engaging in three or more acts of substantial sexual conduct or lewd and lascivious conduct with the child. (Pen. Code, \u00a7 288.5, subd. (a).) Substantial sexual conduct refers to certain acts (penetration, oral copulation or masturbation) but does not require any kind of specific intent. (Pen. Code, \u00a7 1203.066, subd. (b); People v. Avina (1993) 14 Cal.App.4th 1303, 1313 [18 Cal.Rptr.2d 511].) However, to commit a lewd and lascivious act, the perpetrator must harbor the intent to arouse the sexual desires of the child or him or herself. (Pen. Code, \u00a7 288, subd. (a); People v. Cuellar (2012) 208 Cal.App.4th 1067 [145 Cal.Rptr.3d 898].)\nFor a broader explication of the topics discussed in this article, see Herek, Myths About Sexual Orientation: A Lawyer\u2019s Guide to Social Science Research (1991) 1 Law & Sexuality 133.\nUnlike the evidence of appellant\u2019s sexual orientation, the evidence that appellant was not known to have romantic adult relationships of any kind whatsoever was arguably relevant to show she may have had pedophilic tendencies. (See Hall & Hall, A Profile of Pedophilia: Definition, Characteristics of Offenders, Recidivism, Treatment Outcomes, and Forensic Issues (2009) vol. 7, No. 4 Focus 522, 527 [noting pedophiles \u201chave difficulty with mature age-appropriate interpersonal interactions\u201d and \u201care more socially alienated\u201d than other people].) However, instead of limiting her argument to that theory, the prosecutor asserted more broadly that appellant\u2019s sexual orientation motivated her to molest A.G.\nJust this summer, a candidate for state office in Oklahoma stated it would be justifiable to execute homosexuals by stoning because \u201c[t]hat was done in the Old Testament under a law that came directly from God.\u201d (Stem, Oklahoma Tea Party Candidate Supports Stoning Gay People to Death <http://www.slate.com/blogs/outward/2014/06/ll/oklahoma_tea_party _candidate_scott_esk_supports_stoning_gay_people_to_death.html> [as of Aug. 28, 2014]; see Lawrence v. Texas (2003) 539 U.S. 558, 571 [156 L.Ed.2d 508, 123 S.Ct. 2472] [recognizing that throughout history \u201cpowerful voices\u201d have condemned homosexual conduct as being immoral].)\nIndeed, Maria testified she saw appellant on the street one day, but did nothing about it.\nIn her opening brief, appellant raised two additional arguments concerning the propriety of her sentence, one of which she has since abandoned. In light of our holding that reversal is required on due process grounds, her remaining sentencing argument is moot.",
+        "type": "majority",
+        "author": "BEDSWORTH, J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Robert L.S. Angres, under appointment by the Court of Appeal, for Defendant and Appellant.",
+      "Kamala D. Harris, Attorney General, Dane R. Gillette, Chief Assistant Attorney General, Julie L. Garland, Assistant Attorney General, Kristen Chenelia and A. Natasha Cortina, Deputy Attorneys General, for Plaintiff and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. G048020.\nFourth Dist., Div. Three.\nAug. 28, 2014.]\nTHE PEOPLE, Plaintiff and Respondent, v. LETICIA GARCIA, Defendant and Appellant.\nCounsel\nRobert L.S. Angres, under appointment by the Court of Appeal, for Defendant and Appellant.\nKamala D. Harris, Attorney General, Dane R. Gillette, Chief Assistant Attorney General, Julie L. Garland, Assistant Attorney General, Kristen Chenelia and A. Natasha Cortina, Deputy Attorneys General, for Plaintiff and Respondent."
+  },
+  "file_name": "0302-01",
+  "first_page_order": 278,
+  "last_page_order": 295
+}

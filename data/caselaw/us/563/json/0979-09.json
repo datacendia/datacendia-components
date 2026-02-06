@@ -1,0 +1,59 @@
+{
+  "id": 5946667,
+  "name": "Kowal v. Rhode Island",
+  "name_abbreviation": "Kowal v. Rhode Island",
+  "decision_date": "2011-05-02",
+  "docket_number": "No. 10-9480",
+  "first_page": "979",
+  "last_page": "979",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 979"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.54,
+    "sha256": "eb11f0439ed30a9640b278b288ca984c40a0ee2ac7bbc6af9ab9d6aa33a2454c",
+    "simhash": "1:44f5adf979128f33",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Kowal v. Rhode Island."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. R. I. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9480.\nKowal v. Rhode Island."
+  },
+  "file_name": "0979-09",
+  "first_page_order": 1005,
+  "last_page_order": 1005
+}

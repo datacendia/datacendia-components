@@ -1,0 +1,59 @@
+{
+  "id": 5946368,
+  "name": "Lujan v. United States",
+  "name_abbreviation": "Lujan v. United States",
+  "decision_date": "2011-03-28",
+  "docket_number": "No. 10-9201",
+  "first_page": "912",
+  "last_page": "912",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 912"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.499,
+    "sha256": "b6e6bad5771cad49fb6c73cdd4e39a8d34bab4f09b2c35d67a215106a67d37d8",
+    "simhash": "1:979bd688a6871378",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lujan v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9201.\nLujan v. United States."
+  },
+  "file_name": "0912-11",
+  "first_page_order": 938,
+  "last_page_order": 938
+}

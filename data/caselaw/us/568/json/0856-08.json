@@ -1,0 +1,59 @@
+{
+  "id": 12413810,
+  "name": "Torres v. Nevada",
+  "name_abbreviation": "Torres v. Nevada",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10688",
+  "first_page": "856",
+  "last_page": "856",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 856"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 65,
+    "ocr_confidence": 0.695,
+    "sha256": "ce00f96d6e33320b7dbe20646cb10b81aad1135ff690688e37c779da68255166",
+    "simhash": "1:8bf48e2f8c2f2fcd",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Torres v. Nevada."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Nev. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10688.\nTorres v. Nevada."
+  },
+  "file_name": "0856-08",
+  "first_page_order": 932,
+  "last_page_order": 932
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12412810,
+  "name": "Rigo Ramirez v. California",
+  "name_abbreviation": "Rigo Ramirez v. California",
+  "decision_date": "2012-06-29",
+  "docket_number": "No. 11-7424",
+  "first_page": "952",
+  "last_page": "952",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 952"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 89,
+    "ocr_confidence": 0.638,
+    "sha256": "9546abe065a37da836860bc97cd5bb90a732d89c25d867c27162d11eabd1f961",
+    "simhash": "1:6485f38155020a43",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rigo Ramirez v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 2d App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7424.\nRigo Ramirez v. California."
+  },
+  "file_name": "0952-04",
+  "first_page_order": 856,
+  "last_page_order": 856
+}

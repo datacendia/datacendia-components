@@ -1,0 +1,94 @@
+{
+  "id": 12413101,
+  "name": "Ryan, Director, Arizona Department of Corrections v. Valencia Gonzales",
+  "name_abbreviation": "Ryan v. Gonzales",
+  "decision_date": "2012-08-13",
+  "docket_number": "No. 10-930",
+  "first_page": "960",
+  "last_page": "960",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 960"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "565 U. S. 1259",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12251362,
+        12251363,
+        12251365,
+        12251368,
+        12251337,
+        12251372,
+        12251340,
+        12251344,
+        12251377,
+        12251349,
+        12251383,
+        12251355
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/565/1259-06",
+        "/us/565/1259-07",
+        "/us/565/1259-08",
+        "/us/565/1259-09",
+        "/us/565/1259-01",
+        "/us/565/1259-10",
+        "/us/565/1259-02",
+        "/us/565/1259-03",
+        "/us/565/1259-11",
+        "/us/565/1259-04",
+        "/us/565/1259-12",
+        "/us/565/1259-05"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 37,
+    "char_count": 262,
+    "ocr_confidence": 0.66,
+    "sha256": "1d8237902cbe240f3531eb661ec12f048fe4328c467117453f5e88013c9e1341",
+    "simhash": "1:508010c08b900e10",
+    "word_count": 41
+  },
+  "last_updated": "2024-02-27T23:46:21.325002+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ryan, Director, Arizona Department of Corrections v. Valencia Gonzales."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. [Certiorari granted, 565 U. S. 1259.] Motion of the Solicitor General for leave to participate in oral argument as amicus curiae and for divided argument granted.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-930.\nRyan, Director, Arizona Department of Corrections v. Valencia Gonzales."
+  },
+  "file_name": "0960-04",
+  "first_page_order": 864,
+  "last_page_order": 864
+}

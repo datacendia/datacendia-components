@@ -1,0 +1,59 @@
+{
+  "id": 6033686,
+  "name": "Wilson v. Kautex",
+  "name_abbreviation": "Wilson v. Kautex",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11415",
+  "first_page": "879",
+  "last_page": "879",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 879"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 66,
+    "ocr_confidence": 0.625,
+    "sha256": "93f1dc2b51c0f221f2190971bea25bfa5964836d94ed0c311f56734ea05ad4c8",
+    "simhash": "1:226500a0e5058800",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wilson v. Kautex."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11415.\nWilson v. Kautex."
+  },
+  "file_name": "0879-06",
+  "first_page_order": 901,
+  "last_page_order": 901
+}

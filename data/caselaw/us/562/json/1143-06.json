@@ -1,0 +1,59 @@
+{
+  "id": 5944955,
+  "name": "Williams v. Johnson, Director, Virginia Department of Corrections",
+  "name_abbreviation": "Williams v. Johnson",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-6969",
+  "first_page": "1143",
+  "last_page": "1143",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1143"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 112,
+    "ocr_confidence": 0.659,
+    "sha256": "c54d0dec8acaefb498a7002f66e23b8b3a3b8f4e67434afebf6907560eab8347",
+    "simhash": "1:eae700e81ba83a3a",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Williams v. Johnson, Director, Virginia Department of Corrections."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Va. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6969.\nWilliams v. Johnson, Director, Virginia Department of Corrections."
+  },
+  "file_name": "1143-06",
+  "first_page_order": 1165,
+  "last_page_order": 1165
+}

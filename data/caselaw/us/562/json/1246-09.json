@@ -1,0 +1,59 @@
+{
+  "id": 6026854,
+  "name": "Fofana v. Clark",
+  "name_abbreviation": "Fofana v. Clark",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8481",
+  "first_page": "1246",
+  "last_page": "1246",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1246"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 64,
+    "ocr_confidence": 0.583,
+    "sha256": "ff997ba03c7f274f9e8a9a3552cbb1022e29db6a956899a44242aed61a441211",
+    "simhash": "1:009166a309ad28a2",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Fofana v. Clark."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8481.\nFofana v. Clark."
+  },
+  "file_name": "1246-09",
+  "first_page_order": 1268,
+  "last_page_order": 1268
+}

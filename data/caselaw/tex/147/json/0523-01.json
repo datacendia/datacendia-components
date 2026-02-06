@@ -1,0 +1,97 @@
+{
+  "id": 2333807,
+  "name": "Mrs. Georgia B. Lloyd et vir v. P. R. Bonds",
+  "name_abbreviation": "Lloyd v. Bonds",
+  "decision_date": "1949-03-02",
+  "docket_number": "No. A-2081",
+  "first_page": "523",
+  "last_page": "525",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "147 Tex. 523"
+    },
+    {
+      "type": "parallel",
+      "cite": "217 S.W.2d 1000"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "87 S. W. (2d) 463",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2296181,
+        10255158
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/126/0209-01",
+        "/sw2d/87/0463-01"
+      ]
+    },
+    {
+      "cite": "126 Texas 209",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2296181
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/126/0209-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 160,
+    "char_count": 1704,
+    "ocr_confidence": 0.558,
+    "pagerank": {
+      "raw": 2.2505353337630934e-07,
+      "percentile": 0.7814932453590924
+    },
+    "sha256": "e263b2e89f0c0ad55d93885bbc4b3064a8b06305fde33c2be77cb752b6830c58",
+    "simhash": "1:204d5233e78c73c8",
+    "word_count": 303
+  },
+  "last_updated": "2024-02-27T21:30:02.118491+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mrs. Georgia B. Lloyd et vir v. P. R. Bonds."
+    ],
+    "opinions": [
+      {
+        "text": "per curiam:\nBy this action petitioners seek to set aside a portion of a decree theretofore rendered in a divorce suit between Mrs. Lloyd and her former husband, P. R. Bonds. The prayer of the petition was that that portion of the judgment in the divorce case wherein certain shares of the captal stock of Bonds and Dillard Drilling Corporation were awarded to Mrs. Lloyd be set aside, and that she be given judgment for additional shares of stock or the value thereof.\nIt has been definitely settled by the decisions of this court that, although an action to set aside a portion of a divorce decree is brought as an independent suit after the divorce decree becomes final, and although it seeks to set aside or disturb only that portion of the judgment dealing with property rights, the action is nevertheless a case of divorce, in which case the judgment of the court of civil appeals is final under Article 1821, R. C. S., and this court is without jurisdiction to grant a writ of error therein. Burgieres v. Farrell, 126 Texas 209, 87 S. W. (2d) 463.\nBecause this question has recurred several times recently in cases in which the case just above cited seems to have been overlooked, this memorandum opinion is written in order that the attention of the bar may be called to the holding in that case.\nThe application for writ of error will be dismissed for want of jurisdiction.\nOpinion delivered March 2, 1949.\nNo motion for rehearing filed.",
+        "type": "majority",
+        "author": "per curiam:"
+      }
+    ],
+    "attorneys": [
+      "J. W. Madden, Jr., and Paul T. McMahon, both of Dallas, for petitioners.",
+      "Marvin B. Simpson and Sam Billingsley, both of Fort Worth, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "Mrs. Georgia B. Lloyd et vir v. P. R. Bonds.\nNo. A-2081.\nDecided March 2, 1949.\n(217 S. W., 2d Series, 1000.)\nJ. W. Madden, Jr., and Paul T. McMahon, both of Dallas, for petitioners.\nMarvin B. Simpson and Sam Billingsley, both of Fort Worth, for respondent."
+  },
+  "file_name": "0523-01",
+  "first_page_order": 539,
+  "last_page_order": 541
+}

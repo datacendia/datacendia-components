@@ -1,0 +1,59 @@
+{
+  "id": 12413324,
+  "name": "Avalos Cerpas v. United States",
+  "name_abbreviation": "Avalos Cerpas v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10568",
+  "first_page": "849",
+  "last_page": "849",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 849"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 81,
+    "ocr_confidence": 0.636,
+    "sha256": "ea518448a01876bd06d0bd0ccf17d9612e9612d811acdfb4782a6ec2740fcb70",
+    "simhash": "1:17a9ca03008f1018",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Avalos Cerpas v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10568.\nAvalos Cerpas v. United States."
+  },
+  "file_name": "0849-08",
+  "first_page_order": 925,
+  "last_page_order": 925
+}

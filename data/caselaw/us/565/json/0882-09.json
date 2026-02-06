@@ -1,0 +1,59 @@
+{
+  "id": 12214619,
+  "name": "Osterbur v. United States et al.",
+  "name_abbreviation": "Osterbur v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-100",
+  "first_page": "882",
+  "last_page": "882",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 882"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 79,
+    "ocr_confidence": 0.624,
+    "sha256": "c6c4f31b0d4d93f271d4f361fa3106830334a2910675664c1ed324f7cb20c788",
+    "simhash": "1:62c174ab7505529e",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Osterbur v. United States et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-100.\nOsterbur v. United States et al."
+  },
+  "file_name": "0882-09",
+  "first_page_order": 964,
+  "last_page_order": 964
+}

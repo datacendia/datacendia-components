@@ -1,0 +1,59 @@
+{
+  "id": 12217096,
+  "name": "Hilton v. Florida Parole Commission et al.",
+  "name_abbreviation": "Hilton v. Florida Parole Commission",
+  "decision_date": "2012-05-14",
+  "docket_number": "No. 11-9187",
+  "first_page": "994",
+  "last_page": "994",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 994"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 106,
+    "ocr_confidence": 0.563,
+    "sha256": "6caa8506432135e7294a653d6ee4e8e103af12b0bed145e01c8f7a5d21ef57f2",
+    "simhash": "1:1159b9aa77472e02",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hilton v. Florida Parole Commission et al."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 4th Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9187.\nHilton v. Florida Parole Commission et al."
+  },
+  "file_name": "0994-12",
+  "first_page_order": 870,
+  "last_page_order": 870
+}

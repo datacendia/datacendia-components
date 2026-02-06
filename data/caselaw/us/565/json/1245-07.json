@@ -1,0 +1,59 @@
+{
+  "id": 12250123,
+  "name": "In re Crompton; In re Cain; and In re Walker",
+  "name_abbreviation": "In re Crompton",
+  "decision_date": "2012-03-05",
+  "docket_number": "No. 11-8732; No. 11-8750; No. 11-8839",
+  "first_page": "1245",
+  "last_page": "1245",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1245"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 130,
+    "ocr_confidence": 0.624,
+    "sha256": "f182b079888e292c6cd718c3a8f1edf44a527026c7bda1540ec07ecd3d694fb7",
+    "simhash": "1:58101023945f4115",
+    "word_count": 23
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Crompton; In re Cain; and In re Walker."
+    ],
+    "opinions": [
+      {
+        "text": "Petitions for writs of habeas corpus denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8732.\nNo. 11-8750.\nNo. 11-8839.\nIn re Crompton; In re Cain; and In re Walker."
+  },
+  "file_name": "1245-07",
+  "first_page_order": 1327,
+  "last_page_order": 1327
+}

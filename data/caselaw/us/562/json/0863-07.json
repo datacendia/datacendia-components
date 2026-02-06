@@ -1,0 +1,59 @@
+{
+  "id": 5933876,
+  "name": "Keith v. California",
+  "name_abbreviation": "Keith v. California",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11135",
+  "first_page": "863",
+  "last_page": "863",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 863"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 83,
+    "ocr_confidence": 0.589,
+    "sha256": "26fd0c708b750f31d40dde0a2bf022229aa4fc23d40b92cf430c0bf2083af801",
+    "simhash": "1:6705938028c33a01",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Keith v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 2d App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11135.\nKeith v. California."
+  },
+  "file_name": "0863-07",
+  "first_page_order": 885,
+  "last_page_order": 885
+}

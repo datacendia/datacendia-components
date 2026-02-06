@@ -1,0 +1,59 @@
+{
+  "id": 12433929,
+  "name": "Reynolds v. Florida",
+  "name_abbreviation": "Reynolds v. Florida",
+  "decision_date": "2013-03-25",
+  "docket_number": "No. 12-7779",
+  "first_page": "1251",
+  "last_page": "1251",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1251"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 68,
+    "ocr_confidence": 0.572,
+    "sha256": "08aa177862316611005d3017160fa09355a072b28159b56a68a9cbfbe1964fcf",
+    "simhash": "1:a34e9042748611a6",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Reynolds v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Fla. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7779.\nReynolds v. Florida."
+  },
+  "file_name": "1251-13",
+  "first_page_order": 1327,
+  "last_page_order": 1327
+}

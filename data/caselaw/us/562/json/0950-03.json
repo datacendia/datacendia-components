@@ -1,0 +1,61 @@
+{
+  "id": 5952525,
+  "name": "McDarrah v. United States",
+  "name_abbreviation": "McDarrah v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-10411",
+  "first_page": "950",
+  "last_page": "950",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 950"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 26,
+    "char_count": 174,
+    "ocr_confidence": 0.609,
+    "sha256": "dde245eabb31edce508537426aaf36449db6a198fb56a5741c210754d85417ee",
+    "simhash": "1:9d73ea824f9c7c4a",
+    "word_count": 28
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Sotomayor and Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "McDarrah v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.\nJustice Sotomayor and Justice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10411.\nMcDarrah v. United States."
+  },
+  "file_name": "0950-03",
+  "first_page_order": 972,
+  "last_page_order": 972
+}

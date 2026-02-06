@@ -1,0 +1,61 @@
+{
+  "id": 12226622,
+  "name": "Kiderlen v. United States",
+  "name_abbreviation": "Kiderlen v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5150",
+  "first_page": "934",
+  "last_page": "934",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 934"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 152,
+    "ocr_confidence": 0.624,
+    "sha256": "6b3eae7cce179ec09356eb0fe3d1d2e0298f0a49baf47ce1af7c32ae8c3a2b8f",
+    "simhash": "1:9d13fa820f2c4842",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Kiderlen v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5150.\nKiderlen v. United States."
+  },
+  "file_name": "0934-11",
+  "first_page_order": 1016,
+  "last_page_order": 1016
+}

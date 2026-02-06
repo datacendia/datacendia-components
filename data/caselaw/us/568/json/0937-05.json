@@ -1,0 +1,92 @@
+{
+  "id": 12417524,
+  "name": "In re Disbarment of House",
+  "name_abbreviation": "In re Disbarment of House",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. D-2665",
+  "first_page": "937",
+  "last_page": "937",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 937"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "567 U. S. 959",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12413056,
+        12413025,
+        12413032,
+        12413064,
+        12413070,
+        12413039,
+        12413075,
+        12413015,
+        12413048,
+        12413081,
+        12413051
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/567/0959-07",
+        "/us/567/0959-02",
+        "/us/567/0959-03",
+        "/us/567/0959-08",
+        "/us/567/0959-09",
+        "/us/567/0959-04",
+        "/us/567/0959-10",
+        "/us/567/0959-01",
+        "/us/567/0959-05",
+        "/us/567/0959-11",
+        "/us/567/0959-06"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 106,
+    "ocr_confidence": 0.654,
+    "sha256": "374b664866900aa0f077a065b734e2206540d9963ec0e60f799c728f088c1a02",
+    "simhash": "1:323c448fda903afc",
+    "word_count": 18
+  },
+  "last_updated": "2024-02-27T23:44:49.194693+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of House."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2665.\nIn re Disbarment of House.\n[For earlier order herein, see 567 U. S. 959.]"
+  },
+  "file_name": "0937-05",
+  "first_page_order": 1013,
+  "last_page_order": 1013
+}

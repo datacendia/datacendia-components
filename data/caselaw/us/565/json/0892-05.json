@@ -1,0 +1,59 @@
+{
+  "id": 12217209,
+  "name": "Campbell v. Social Security Administration",
+  "name_abbreviation": "Campbell v. Social Security Administration",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5148",
+  "first_page": "892",
+  "last_page": "892",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 892"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 90,
+    "ocr_confidence": 0.694,
+    "sha256": "7b075b83fa06fe7196b2529a6037ca4598eaeed9b402d73e13362d768d5c7984",
+    "simhash": "1:a040c0114e29b044",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Campbell v. Social Security Administration."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5148.\nCampbell v. Social Security Administration."
+  },
+  "file_name": "0892-05",
+  "first_page_order": 974,
+  "last_page_order": 974
+}

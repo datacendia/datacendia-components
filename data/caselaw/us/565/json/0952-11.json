@@ -1,0 +1,59 @@
+{
+  "id": 12227990,
+  "name": "Bledsoe v. Tennessee",
+  "name_abbreviation": "Bledsoe v. Tennessee",
+  "decision_date": "2011-10-11",
+  "docket_number": "No. 11-5911",
+  "first_page": "952",
+  "last_page": "952",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 952"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 70,
+    "ocr_confidence": 0.735,
+    "sha256": "667cbdb8848c61dafa0f5c319babc147b63f77f003b5c48113bfb32d84a6731d",
+    "simhash": "1:03aaa4dc17901086",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bledsoe v. Tennessee."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Tenn. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5911.\nBledsoe v. Tennessee."
+  },
+  "file_name": "0952-11",
+  "first_page_order": 1034,
+  "last_page_order": 1034
+}

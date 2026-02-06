@@ -1,0 +1,59 @@
+{
+  "id": 12415291,
+  "name": "Fox v. United States",
+  "name_abbreviation": "Fox v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5116",
+  "first_page": "896",
+  "last_page": "896",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 896"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.683,
+    "sha256": "cbd2de64847189883ac9c215b5411c26e07486af98b0f2591b1e2fc1c84200f6",
+    "simhash": "1:a18b82028c959339",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Fox v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5116.\nFox v. United States."
+  },
+  "file_name": "0896-01",
+  "first_page_order": 972,
+  "last_page_order": 972
+}

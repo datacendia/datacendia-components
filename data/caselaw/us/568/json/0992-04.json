@@ -1,0 +1,59 @@
+{
+  "id": 12421289,
+  "name": "Upshaw v. United States",
+  "name_abbreviation": "Upshaw v. United States",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 12-6417",
+  "first_page": "992",
+  "last_page": "992",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 992"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.653,
+    "sha256": "1417925bfe4f01af6417afb8eb3c5225a9604c2c18d36c3d61ad85e038dee40d",
+    "simhash": "1:17aa9a53cf9fb115",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Upshaw v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6417.\nUpshaw v. United States."
+  },
+  "file_name": "0992-04",
+  "first_page_order": 1068,
+  "last_page_order": 1068
+}

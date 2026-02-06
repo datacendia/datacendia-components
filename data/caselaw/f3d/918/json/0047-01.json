@@ -1,0 +1,751 @@
+{
+  "id": 12520436,
+  "name": "UNITED STATES of America, Appellee, v. Jay KROLL, Defendant-Appellant.",
+  "name_abbreviation": "U.S. v. Kroll",
+  "decision_date": "2019-03-05",
+  "docket_number": "No. 16-4310; August Term, 2017",
+  "first_page": "47",
+  "last_page": "57",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "918 F.3d 47"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "2nd Cir.",
+    "id": 9993,
+    "name": "United States Court of Appeals for the Second Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "18 U.S.C. \u00a7 2559",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(e)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "630 F.3d 1181",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6052257
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "1197-97"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/630/1181-01"
+      ]
+    },
+    {
+      "cite": "202 L.Ed.2d 364",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12622667
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/139/0399-01"
+      ]
+    },
+    {
+      "cite": "139 S.Ct. 399",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12622667,
+        12622668
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "405",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/139/0399-01",
+        "/s-ct/139/0399-02"
+      ]
+    },
+    {
+      "cite": "139 S.Ct. 544",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12623291
+      ],
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "549-50",
+          "parenthetical": "applying the categorical approach to determine whether the defendant qualifies for a mandatory minimum sentence under the ACCA"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/139/0544-01"
+      ]
+    },
+    {
+      "cite": "622 F.3d 152",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3786698
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "158",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/622/0152-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 3553",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "136 S.Ct. 1338",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12595701
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1346"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/136/1338-01"
+      ]
+    },
+    {
+      "cite": "773 F.3d 389",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6055422
+      ],
+      "weight": 2,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "391-93",
+          "parenthetical": "holding that a defendant's substantial rights were prejudicially affected when the district court erroneously concluded that his offense carried a mandatory minimum of twenty years instead of ten, and both parties relied on that error in arguing for an appropriate sentence"
+        },
+        {
+          "page": "393-94",
+          "parenthetical": "finding that the district court's erroneous determination that a twenty-year mandatory minimum sentence applied seriously affected the fairness of judicial proceedings"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/773/0389-01"
+      ]
+    },
+    {
+      "cite": "455 F.3d 96",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3252555
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "103",
+          "parenthetical": "alteration and internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/455/0096-01"
+      ]
+    },
+    {
+      "cite": "699 F.3d 265",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5868532
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "279",
+          "parenthetical": "finding that plain error review applies to forfeited objections at sentencing"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/699/0265-01"
+      ]
+    },
+    {
+      "cite": "771 F.3d 137",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4290586
+      ],
+      "weight": 4,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "parenthetical": "explaining that waiver analysis \"focuse[s] on strategic, deliberate decisions that litigants consciously make\""
+        },
+        {
+          "page": "148-49"
+        },
+        {
+          "page": "146-148",
+          "parenthetical": "holding that it was plain error for the district court to rely on materials that it was not allowed to consider in determining that prior offenses were committed \"on occasions different from one another for purposes of sentencing under the ACCA\" (internal quotations omitted)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/771/0137-01"
+      ]
+    },
+    {
+      "cite": "507 U.S. 725",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6237509
+      ],
+      "weight": 3,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "733",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/507/0725-01"
+      ]
+    },
+    {
+      "cite": "137 S.Ct. 1562",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12604345
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1568",
+          "parenthetical": "holding that there was no categorical match where federal law proscribed sexual intercourse with a person younger than sixteen, while the relevant state statute proscribed sexual intercourse with a person younger than eighteen"
+        },
+        {
+          "parenthetical": "holding that there was no categorical match where federal law proscribed sexual intercourse with a person younger than sixteen, while the relevant state statute proscribed sexual intercourse with a person younger than eighteen"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/137/1562-01"
+      ]
+    },
+    {
+      "cite": "723 F.3d 315",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4065454
+      ],
+      "weight": 3,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "321",
+          "parenthetical": "per curiam"
+        },
+        {
+          "page": "320",
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/723/0315-01"
+      ]
+    },
+    {
+      "cite": "869 F.3d 136",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12263981
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "145"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/869/0136-01"
+      ]
+    },
+    {
+      "cite": "544 U.S. 13",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5879404
+      ],
+      "weight": 3,
+      "year": 2005,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/544/0013-01"
+      ]
+    },
+    {
+      "cite": "530 U.S. 466",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9413911
+      ],
+      "weight": 3,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "490"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/530/0466-01"
+      ]
+    },
+    {
+      "cite": "691 F.3d 252",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3509870
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "260"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/691/0252-01"
+      ]
+    },
+    {
+      "cite": "570 U.S. 254",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12698469
+      ],
+      "weight": 13,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "270",
+          "parenthetical": "stating, for example, that \"during plea hearings, the defendant may not wish to irk the prosecutor or court by squabbling about superfluous factual allegations\""
+        },
+        {
+          "parenthetical": "stating, for example, that \"during plea hearings, the defendant may not wish to irk the prosecutor or court by squabbling about superfluous factual allegations\""
+        },
+        {
+          "parenthetical": "stating, for example, that \"during plea hearings, the defendant may not wish to irk the prosecutor or court by squabbling about superfluous factual allegations\""
+        },
+        {
+          "page": "269"
+        },
+        {
+          "page": "278"
+        },
+        {
+          "page": "257-58"
+        },
+        {
+          "parenthetical": "per curiam"
+        },
+        {
+          "page": "263"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/570/0254-01"
+      ]
+    },
+    {
+      "cite": "495 U.S. 575",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        634101
+      ],
+      "weight": 5,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "602"
+        },
+        {
+          "page": "601"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/495/0575-01"
+      ]
+    },
+    {
+      "cite": "135 S.Ct. 2551",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12591035
+      ],
+      "weight": 5,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "2555",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "2578-80",
+          "parenthetical": "Alito, J. , dissenting"
+        },
+        {
+          "page": "2562"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/135/2551-01"
+      ]
+    },
+    {
+      "cite": "136 S.Ct. 2243",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12598042
+      ],
+      "weight": 6,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "2252"
+        },
+        {
+          "parenthetical": "alterations, internal quotation marks, and citation omitted"
+        },
+        {
+          "page": "2253",
+          "parenthetical": "citation omitted"
+        },
+        {
+          "parenthetical": "internal quotation marks and citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/136/2243-01"
+      ]
+    },
+    {
+      "cite": "903 F.3d 166",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12518534
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "181",
+          "parenthetical": "emphasis omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/903/0166-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 2241",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "(c)"
+        },
+        {
+          "page": "(c)"
+        },
+        {
+          "page": "(c)"
+        },
+        {
+          "page": "(c)"
+        },
+        {
+          "page": "(c)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "N.Y. Penal Law \u00a7 130.45",
+      "category": "laws:leg_act",
+      "reporter": "N.Y.",
+      "weight": 5,
+      "year": 1965,
+      "pin_cites": [
+        {
+          "parenthetical": "amended 2000, 2003"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 2252",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(4)(B)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "878 F.3d 62",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12263461
+      ],
+      "weight": 3,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "67"
+        },
+        {
+          "page": "67"
+        },
+        {
+          "parenthetical": "internal quotation marks and citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/878/0062-01"
+      ]
+    },
+    {
+      "cite": "679 F.3d 95",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3876392
+      ],
+      "weight": 11,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "98",
+          "parenthetical": "per curiam"
+        },
+        {
+          "page": "98"
+        },
+        {
+          "page": "98"
+        },
+        {
+          "page": "99-100"
+        },
+        {
+          "page": "99-100"
+        },
+        {
+          "page": "98"
+        },
+        {
+          "page": "98"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/679/0095-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 3559",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 14,
+      "pin_cites": [
+        {
+          "page": "(e)"
+        },
+        {
+          "page": "(e)"
+        },
+        {
+          "page": "(e)(1)"
+        },
+        {
+          "page": "(e)(1)"
+        },
+        {
+          "page": "(e)"
+        },
+        {
+          "page": "(e)"
+        },
+        {
+          "page": "(e)(1)"
+        },
+        {
+          "page": "(e)(2)(C)"
+        },
+        {
+          "page": "(e)(2)(B)"
+        },
+        {
+          "page": "(e)(2)(B)"
+        },
+        {
+          "page": "(e)(2)(C)"
+        },
+        {
+          "page": "(e)(2)(B)"
+        },
+        {
+          "page": "(e)(1)"
+        },
+        {
+          "page": "(e)",
+          "parenthetical": "1-2"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 2251",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1027,
+    "char_count": 30032,
+    "pagerank": {
+      "raw": 4.3288477722853265e-08,
+      "percentile": 0.2724886663276508
+    },
+    "sha256": "5d5c6b89104e6fefe1d86345646ea30585dc91970011b487cf7e0efb9c17c29f",
+    "simhash": "1:8740df156bca33b1",
+    "word_count": 4874
+  },
+  "last_updated": "2024-02-27T18:46:20.843221+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before: Leval, Lynch, and Droney, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Appellee,\nv.\nJay KROLL, Defendant-Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Droney, Circuit Judge:\nDefendant-Appellant Jay Kroll appeals his sentence of life imprisonment based on his guilty plea to two counts of sexual exploitation of a child in violation of 18 U.S.C. \u00a7 2251(a) and \u00a7 2251(e). At sentencing, the district court concluded that a life sentence was mandatory based on its determination that Kroll's prior conviction from 1993 for sodomy in the second degree under New York law was a \"prior sex conviction\" under 18 U.S.C. \u00a7 3559(e). Kroll contends that the district court plainly erred in that determination by failing to apply the \"categorical approach,\" which requires comparing the New York statute under which he was convicted with its equivalent federal criminal statute.\nWe agree. We held in United States v. Rood that the categorical approach applies to 18 U.S.C. \u00a7 3559(e). 679 F.3d 95, 98 (2d Cir. 2012) (per curiam) (\"In order to determine whether a state offense is equivalent to a federal offense, courts must compare the elements of the state offense to the elements of the federal offense.\"). Under the categorical approach, a prior state conviction qualifies as a \"prior sex conviction\" under \u00a7 3559(e) only if \"the least of conduct made criminal by the state statute [of conviction] falls within the scope of activity\" punishable under one of the statutes constituting a \"Federal sex offense.\" Stuckey v. United States , 878 F.3d 62, 67 (2d Cir. 2017). Accordingly, the district court erred in considering Kroll's underlying conduct to determine whether his 1993 conviction constituted a \"prior sex conviction.\" Applying the categorical approach, Kroll's 1993 conviction does not qualify as a \"prior sex conviction\" under \u00a7 3559(e) because the state statute under which he was convicted sweeps more broadly than its federal equivalent.\nBACKGROUND\nOn multiple occasions from June to December 2011, Kroll sexually abused a twelve-year-old boy in New York and Pennsylvania and produced sexually explicit photographs and video of himself and the child. Kroll was indicted by a grand jury in the United States District Court for the Eastern District of New York for two counts of sexual exploitation of a child in violation of 18 U.S.C. \u00a7 2251(a) and \u00a7 2251(e) (\"Count One\" and \"Count Two\"), possession of child pornography in violation of 18 U.S.C. \u00a7 2252(a)(4)(B) and \u00a7 2252(b)(2) (\"Count Three\"), and committing Counts One and Two as a registered sex offender in violation of 18 U.S.C. \u00a7 2260A (\"Count Four\").\nBecause Kroll had a particular prior New York state sex offense conviction, the government sought a life sentence for Counts One and Two pursuant to 18 U.S.C. \u00a7 3559(e)(1). Section 3559(e)(1) mandates a life sentence upon conviction for certain sex offenses (including those charged under Counts One and Two) if the defendant has a \"prior sex conviction\" in which a minor was the victim. 18 U.S.C. \u00a7 3559(e)(1).\nThe circumstances of Kroll's prior New York state conviction are as follows. On March 8, 1993, Kroll pleaded guilty in the County Court of the State of New York, Sullivan County, to sodomy in the second degree in violation of New York Penal Law \u00a7 130.45. In 1993, New York Penal Law \u00a7 130.45 applied to conduct with a minor under the age of fourteen. N.Y. Penal Law \u00a7 130.45 (1965) (amended 2000, 2003).\nAt a hearing on September 22, 2014, shortly before the federal trial was scheduled to begin, Kroll moved to proceed pro se . As part of the district court's colloquy with Kroll to determine if he knowingly and voluntarily waived his right to counsel, the court asked Kroll if he knew that the court \"must impose life imprisonment\" if Kroll were found guilty of either Count One or Count Two. Joint App'x at 40. Kroll responded that he did know. The court granted Kroll's motion, appointed his former counsel as standby counsel, and adjourned the trial date.\nKroll ultimately pleaded guilty to all four counts of the indictment. At his guilty plea hearing on May 15, 2015, he stipulated that the prior New York state conviction involved an eleven-year-old boy. The United States Magistrate Judge informed Kroll that a life sentence was \"both the minimum and the maximum\" sentence for Counts One and Two, and Kroll stated that he understood. Joint App'x at 60-61. The district court accepted Kroll's guilty plea, as the magistrate judge had recommended, and on December 14, 2016, the district court sentenced him to concurrent life sentences on Counts One and Two; twenty years on Count Three, concurrent with Counts One and Two; and ten years on Count Four, to be served consecutively to the life sentences.\nAt the sentencing proceeding, Kroll's standby counsel argued that a life sentence was not justified. The district court disagreed, stating:\nNormally, I agree that giving someone a life sentence who didn't kill somebody seems irrational. Th[is is] one of the exceptions. Based upon what I have heard and what I have read, the torture [to Kroll's victims] is lifetime. The punishment is equal to that. The sentence of the court[:] Count One, life. Count Two, life. Both to run concurrently. And that is the law. I have no authority to go under that, even if I wanted to, which I don't.\nJoint App'x at 139. The district court gave no further explanation for the life sentences on Counts One and Two.\nNotwithstanding the request for a lesser sentence by his standby counsel, Kroll did not object at his sentencing to the legal applicability of the mandatory life sentence provided by 18 U.S.C. \u00a7 3559(e). On appeal, however, Kroll contends that the district court erred in concluding that his 1993 conviction was a \"prior sex conviction\" within the meaning of \u00a7 3559(e)(1) because the New York statute under which he was convicted in 1993 punishes a broader range of conduct than the most comparable federal sex offense.\nDISCUSSION\nWe first address whether, as Kroll contends, the categorical approach applies to determine whether his 1993 state conviction triggered the mandatory life sentence provision in 18 U.S.C. \u00a7 3559(e). Then, we consider whether Kroll waived his right to challenge the applicability of \u00a7 3559(e) and, finally, whether the district court committed plain error by failing to apply the categorical approach.\nA. The Categorical Approach Applies to Kroll's Offenses\nSection 3559(e)(1) states in relevant part that \"[a] person who is convicted of a Federal sex offense in which a minor is the victim shall be sentenced to life imprisonment if the person has a prior sex conviction in which a minor was the victim.\" 18 U.S.C. \u00a7 3559(e)(1). A \"Federal sex offense\" is an offense under one of several enumerated federal statutes, including 18 U.S.C. \u00a7 2251, under which Kroll was convicted of Counts One and Two. Id. \u00a7 3559(e)(2)(A). Thus, we must determine whether Kroll's 1993 state conviction is a \"prior sex conviction\" for purposes of \u00a7 3559(e)(1) 's sentencing enhancement.\nA \"prior sex conviction\" comprises either a \"Federal sex offense\" as defined in \u00a7 3559(e)(2)(A), or, as is relevant here, a \"State sex offense\" as defined in \u00a7 3559(e)(2)(B). 18 U.S.C. \u00a7 3559(e)(2)(C). For a prior state conviction to qualify as a \"State sex offense,\" it must \"consist[ ] of conduct that would be a Federal sex offense\" if there were a basis for federal jurisdiction. 18 U.S.C. \u00a7 3559(e)(2)(B). Of the enumerated Federal sex offenses under \u00a7 3559(e)(2)(A), we agree with the parties that 18 U.S.C. \u00a7 2241(c) is the most comparable to New York Penal Law \u00a7 130.45.\nWhen Kroll was convicted of the state offense of sodomy in the second degree in 1993, New York Penal Law \u00a7 130.45 stated that \"[a] person is guilty of sodomy in the second degree when, being eighteen years old or more, he engages in deviate sexual intercourse with another person less than fourteen years old.\" N.Y. Penal Law \u00a7 130.45. By contrast, 18 U.S.C. \u00a7 2241(c) applies to a defendant who \"knowingly engages in a sexual act with another person who has not attained the age of 12 years ... or attempts to do so.\" 18 U.S.C. \u00a7 2241(c). The state statute thus punishes some conduct that the federal statute does not: deviate sexual intercourse with twelve- and thirteen-year-old children. As mentioned above, Kroll stipulated at his plea proceeding in the instant case that his victim in the 1993 state offense was eleven years old, below the age limit for both statutes. Therefore, whether Kroll's 1993 conviction is a \"prior sex conviction\" turns on whether we look to the statutory elements of the prior conviction or to his conduct underlying that conviction, as admitted in the guilty-plea stipulation in this case.\nIn United States v. Rood , 679 F.3d 95 (2d Cir. 2012), we addressed how to determine whether a prior state conviction consists of conduct, which, but for the additional element of federal jurisdiction, would be a \"Federal sex offense,\" and thus constitutes both a \"State sex offense\" under 18 U.S.C. \u00a7 3559(e)(2)(B) and makes a conviction for that conduct a \"prior sex conviction\" under 18 U.S.C. \u00a7 3559(e)(2)(C). 679 F.3d at 98. Looking to the text of \u00a7 3559(e), we stated that \"[i]n order to determine whether a state offense is equivalent to a federal offense, courts must compare the elements of the state offense to the elements of the federal offense.\" Id. (citing 18 U.S.C. \u00a7 3559(e)(2)(B) ). In other words, to this extent, the Rood court adopted a categorical approach.\nUnder the categorical approach, we \"ask[ ] whether the least of conduct made criminal by the state statute falls within the scope of activity that the federal statute penalizes.\" Stuckey , 878 F.3d at 67. \"If the state statute sweeps more broadly\" than the federal statute-\"i.e., it punishes activity that the federal statute does not encompass-then the state crime cannot count as a predicate [offense].\" Id. (internal quotation marks and citation omitted).\nThe categorical approach is distinct from the conduct-specific approach, under which courts \"look[ ] to the facts of the specific [prior] case\" to determine whether the conduct underlying a predicate conviction qualifies for a sentencing enhancement under the federal statute. United States v. Barrett , 903 F.3d 166, 173 n.3 (2d Cir. 2018). Here, the government argues that we should abandon the categorical approach applied in Rood in favor of the conduct-specific approach, because the language of \u00a7 3559(e), which refers to the \"conduct\" of the defendant, requires it. However, Rood's application of the categorical approach to \u00a7 3559(e) has only been reinforced by subsequent precedent and remains binding on us.\nIndeed, in Mathis v. United States , the Supreme Court interpreted a phrase similar to \u00a7 3559(e) 's \"prior ... convictions\" language: the Armed Career Criminal Act's (\"ACCA\") requirement of a sentencing enhancement for individuals with three \"previous convictions\" for violent felonies. --- U.S. ----, 136 S.Ct. 2243, 2252, 195 L.Ed.2d 604 (2016). The Court found that the ACCA's emphasis on \"convictions\" directed sentencing courts to \"ask only about whether the defendant had been convicted of crimes falling within certain categories, and not about what the defendant had actually done.\" Id . (internal quotation marks and citations omitted). The Court distinguished the use of the word \"convictions\" in the ACCA from language in statutes requiring a conduct-specific approach, such as those imposing a sentencing enhancement for a prior \"offense committed\" by the defendant. Id. (alterations, internal quotation marks, and citation omitted) (\"Congress well knows how to instruct sentencing judges to look into the facts of prior crimes.\").\nThe government attempts to distinguish Mathis by arguing that \u00a7 3559 defines \"prior sex conviction\" with reference to the offense \"conduct,\" which, it contends, suggests a conduct-specific approach. However, the Supreme Court rejected a similar argument in Johnson v. United States , --- U.S. ----, 135 S.Ct. 2551, 192 L.Ed.2d 569 (2015). There, the Court examined a provision of the ACCA defining a \"violent felony\" as a crime that \"involves conduct that presents a serious or potential risk of physical injury to another.\" Id. at 2555 (emphasis added). Justice Alito, in dissent, urged the Court to apply a conduct-specific approach to that clause in order to save it from being struck down as unconstitutionally vague. Id. at 2578-80 (Alito, J. , dissenting). The majority rejected that approach, instead finding that the categorical approach was the \"only plausible interpretation of the law.\" Id. at 2562 (quoting Taylor v. United States , 495 U.S. 575, 602, 110 S.Ct. 2143, 109 L.Ed.2d 607 (1990) ).\nIn addition, the Mathis Court observed that the categorical approach \"avoids unfairness to defendants\" by preventing courts in subsequent prosecutions from relying on non-elemental facts that may be \"prone to error precisely because their proof is unnecessary\" at the time of the prior conviction. Mathis , 136 S.Ct. at 2253 (citation omitted). Where the truth of a fact made no difference in the underlying case, the defendant \"ha[s] no incentive to contest what does not matter under the law,\" and in fact \"may have good reason not to.\" Id. (internal quotation marks and citation omitted); see also Descamps v. United States , 570 U.S. 254, 270, 133 S.Ct. 2276, 186 L.Ed.2d 438 (2013) (stating, for example, that \"during plea hearings, the defendant may not wish to irk the prosecutor or court by squabbling about superfluous factual allegations\").\nMoreover, in United States v. Barrett , this Court recently found that practical and constitutional reasons weigh heavily in favor of applying the categorical approach over the conduct-specific approach where a sentencing enhancement statute requires \"judicial identification of what crimes ... of prior conviction fit federal definitions of [predicate] crimes so as to expose a defendant to enhanced penalties or other adverse consequences in subsequent federal proceedings.\" Barrett , 903 F.3d at 181 (emphasis omitted).\nThe categorical approach has certain practical advantages where a federal court applies a sentencing enhancement provision based on a prior state conviction. District courts will often face difficulties ascertaining the nature of the conduct underlying a prior conviction that could be decades old. See Taylor , 495 U.S. at 601, 110 S.Ct. 2143 ;\nUnited States v. Beardsley , 691 F.3d 252, 260 (2d Cir. 2012). Most important, a court's attempt to determine facts about that conduct from a limited past record raises serious constitutional concerns. See Descamps , 570 U.S. at 269, 133 S.Ct. 2276. The Sixth Amendment requires that \"only a jury, and not a judge, may find facts that increase a maximum penalty, except for the simple fact of a prior conviction.\" Mathis , 136 S.Ct. at 2252 (citing Apprendi v. New Jersey, 530 U.S. 466, 490, 120 S.Ct. 2348, 147 L.Ed.2d 435 (2000) ). Thus, Rood's application of the categorical approach to \u00a7 3559(e) remains binding on us, and for good reasons.\nThe government contends that the analytic step taken by the Rood court after its comparison of the elements of the state and federal statutes justified the district court in this case relying on certain documents related to Kroll's 1993 conviction to determine whether the \u00a7 3559(e) sentencing enhancement was warranted. We disagree.\nIn Rood , \"[i]n order to determine whether [the] state offense [was] equivalent to [the] federal offense,\" the court first \"compare[d] the elements\" of the two offenses. 679 F.3d at 98. It found that \"[t]here is ... a category of [the state offense] that would not constitute a federal offense,\" such that the elements of the state offense did not categorically fit the federal offense. However, rather than stopping its analysis there, concluding that the state conviction was not a predicate conviction, Rood concluded that \"the District Court could not have determined from the statutory language alone whether the offenses were equivalent,\" id. , and faulted the district court for failing \"to analyze whether the facts underlying the state conviction satisfied the elements of the federal statute,\" id. at 99-100. It then went on to examine the limited class of documents described by Shepard v. United States , 544 U.S. 13, 125 S.Ct. 1254, 161 L.Ed.2d 205 (2005) -also known as \" Shepard documents,\" see United States v. Genao , 869 F.3d 136, 145 (2d Cir. 2017) -in order to \"analyze whether the facts underlying the state conviction satisfied the elements of the federal statute.\" Rood , 679 F.3d at 99-100. The Rood court described that process as the \"so-called modified categorical approach.\" Id. at 98.\nThe Supreme Court later clarified that courts may look to Shepard documents only where the state statute is divisible into alternative elements, and only for the limited purpose of \"determin[ing] which alternative element ... formed the basis of the [predicate] conviction.\"\nDescamps , 570 U.S. at 278, 133 S.Ct. 2276. Descamps described that inquiry as the \"modified categorical approach.\" Id. at 257-58, 133 S.Ct. 2276. Therefore, as we have recognized, Rood's purported application of the modified categorical approach \"was erroneous in two respects.\" United States v. Barker , 723 F.3d 315, 321 (2d Cir. 2013) (per curiam). \"First, the modified categorical approach is 'applicable only to divisible statutes.' \" Id. (quoting Descamps , 570 U.S. at 263, 133 S.Ct. 2276 ). Second, \"the modified categorical approach simply provides a tool enabling courts to discover the elements of the defendant's prior conviction,\" id. , and may not be used to \"analyze whether facts underlying the state conviction satisfied the elements of the federal statute,\" id. (quoting Rood , 679 F.3d at 99-100 ).\nAlthough Rood's version of the \"modified categorical approach\" is no longer good law, its assertion that we apply the categorical approach to \u00a7 3559(c) stands. Because the New York state statute underlying Kroll's predicate conviction prohibited sexual conduct involving victims older than twelve years old, it swept more broadly than the federal equivalent, 18 U.S.C. \u00a7 2241(c). See Esquivel-Quintana v. Sessions , --- U.S. ----, 137 S.Ct. 1562, 1568, 198 L.Ed.2d 22 (2017) (holding that there was no categorical match where federal law proscribed sexual intercourse with a person younger than sixteen, while the relevant state statute proscribed sexual intercourse with a person younger than eighteen). Therefore, the 1993 state conviction does not qualify as a \"prior sex conviction,\" and it does not trigger the mandatory enhancement of life imprisonment under 18 U.S.C. \u00a7 3559(e)(1).\nB. Kroll Did Not Waive His Challenge to the Application of \u00a7 3559(e)(1)\nThe government also contends that Kroll waived his challenge to the application of \u00a7 3559(e)(1) by admitting that the conduct underlying his New York conviction consisted of performing a sexual act on an eleven-year-old. Even assuming that Kroll could waive his challenge in these circumstances, we disagree that this admission effected a waiver.\n\"[W]aiver is the intentional relinquishment or abandonment of a known right.\" United States v. Olano , 507 U.S. 725, 733, 113 S.Ct. 1770, 123 L.Ed.2d 508 (1993) (internal quotation marks omitted) (emphasis added); see also United States v. Dantzler , 771 F.3d 137, 146 n.5 (2d Cir. 2014) (explaining that waiver analysis \"focuse[s] on strategic, deliberate decisions that litigants consciously make\"). In United States v. Dantzler , we held that it was error for the district court to rely on facts that the defendant provided at the time of sentencing to determine that his prior offenses were predicate crimes under the ACCA. 771 F.3d at 148-49. In so holding, we rejected the government's argument that the defendant waived his challenge to the district court's consideration of those facts because the record did not indicate that either party contemplated whether the facts could be considered or the potential effects of their introduction on the application of the ACCA to the defendant's sentence. Id. at 146 n.5.\nThe reasoning from Dantzler applies here. There is no indication in the record that Kroll knew that, by stipulating to his 1993 victim's age, he would give up the opportunity to challenge the mandatory life sentences that would be imposed under Counts One and Two through the categorical approach to \u00a7 3559(e). Indeed, the record shows that the court and parties did not review applying the categorical approach to the 1993 conviction, and at the September 22, 2014 hearing, the court told Kroll that a conviction on Count One or Two at trial would necessarily result in a mandatory life sentence. Therefore, Kroll did not knowingly and intentionally waive his objection.\nC. The District Court Plainly Erred\nHaving concluded that Kroll did not waive his challenge to the application of \u00a7 3559(e), we nonetheless apply plain error review because Kroll did not raise this argument below. See United States v. Broxmeyer , 699 F.3d 265, 279 (2d Cir. 2012) (finding that plain error review applies to forfeited objections at sentencing). To find such an error, we must determine that \"(1) there was error, (2) the error was plain, ... (3) the error prejudicially affected [the defendant's] substantial rights,\" and (4) \"the error seriously affected the fairness, integrity or public reputation of judicial proceedings.\" United States v. Torrellas , 455 F.3d 96, 103 (2d Cir. 2006) (alteration and internal quotation marks omitted). All four elements of the standard are met here.\nFirst, the court erred by concluding that Kroll's 1993 conviction was a \"State sex offense\" and thus a \"prior sex conviction\" under \u00a7 3559(e)(2). That is because, as discussed above, under the categorical approach, the state statute underlying the 1993 conviction was broader than 18 U.S.C. \u00a7 2241(c), the closest federal equivalent.\nSecond, the error was plain. Our decisions are clear that, under the categorical approach, \"to determine whether a state offense is equivalent to a federal offense [under \u00a7 3559(e)(2) ], courts must compare the elements of the state offense to the elements of the federal offense.\" Rood , 679 F.3d at 98. After Descamps , our case law made it equally clear that in following the categorical approach, \"the context and facts of the defendant's crime\" are not relevant to the comparison except to \"determine which alternative element in a divisible statute formed the basis of the defendant's conviction.\" Barker , 723 F.3d at 320 (internal quotation marks omitted). As mentioned above, alternative elements in a divisible statute are not at issue here. Yet, the district court erroneously concluded it could consider Kroll's stipulated conduct to determine whether his 1993 conviction would have been punishable under \u00a7 2241(c). Cf. Dantzler , 771 F.3d at 146-148 (holding that it was plain error for the district court to rely on materials that it was not allowed to consider in determining that prior offenses were committed \"on occasions different from one another for purposes of sentencing under the ACCA\" (internal quotations omitted)).\nThird, the erroneous determination that a life sentence was mandatory prejudicially affected Kroll's substantial rights because it influenced the sentence he ultimately received. See United States v. Sanchez , 773 F.3d 389, 391-93 (2d Cir. 2014) (holding that a defendant's substantial rights were prejudicially affected when the district court erroneously concluded that his offense carried a mandatory minimum of twenty years instead of ten, and both parties relied on that error in arguing for an appropriate sentence).\nThe government contends that Kroll did not suffer prejudice because the district court's comments at sentencing demonstrate that it would have given Kroll a life sentence even if it had concluded it had the discretion not to do so. The Supreme Court has held that \"[i]n most cases a defendant who has shown that the district court mistakenly deemed applicable an incorrect, higher [Sentencing] Guidelines range has demonstrated a reasonable probability of a different outcome\" without a further showing of prejudice, because the Guidelines calculation frequently is determinative of the sentence the defendant receives. Molina-Martinez v. United States , --- U.S. ----, 136 S.Ct. 1338, 1346, 194 L.Ed.2d 444 (2016). That reasoning applies with even greater force where, as here, the district court mistakenly found itself lacking any discretion to impose a sentence other than a mandatory minimum life sentence.\nMoreover, while the lack of prejudice due to a procedural error at sentencing may be apparent because, for example, a \"detailed explanation of the reasons ... make[s] it clear that the judge based the sentence ... on factors independent of\" the error, this is not such a case. Molina-Martinez , 136 S.Ct. at 1346-47. Here, the court did not discuss how it would have applied the Sentencing Guidelines or balanced the 18 U.S.C. \u00a7 3553(a) factors had it not determined that a life sentence was mandatory under \u00a7 3559(e). Rather, the court merely stated (incorrectly) that it had \"no authority\" to impose less than a life sentence. Joint App'x at 139.\nFinally, the error seriously affected the fairness of the judicial proceedings below. Instead of making an individualized determination as to whether a life sentence was warranted, the district court imposed a mandatory life sentence based on a statute that did not apply. See Sanchez , 773 F.3d at 393-94 (finding that the district court's erroneous determination that a twenty-year mandatory minimum sentence applied seriously affected the fairness of judicial proceedings); see also United States v. Folkes , 622 F.3d 152, 158 (2d Cir. 2010) (per curiam) (finding that the district court's use of a Guidelines range more than twice the correct range seriously affected the fairness of judicial proceedings).\n* * *\nAccordingly, vacating Kroll's sentence is warranted to correct the district court's imposition of mandatory life sentences on Counts One and Two.\nIn reaching that conclusion, we recognize that Kroll still faces a Sentencing Guidelines range of decades in prison. In determining what sentence is appropriate, the district court retains full discretion to take account of all relevant factors, including the abhorrent circumstances underlying the four counts of conviction in this case, as well as those underlying the 1993 state-court conviction.\nCONCLUSION\nFor the foregoing reasons, we VACATE the district court's sentence and REMAND the cause to the district court for proceedings consistent with this opinion.\nCounts One and Two involved the same minor victim. Count One concerned activity within the Western and Eastern Districts of New York between June and December 2011, and Count Two involved activity within the Eastern District of New York and the Western District of Pennsylvania in July 2011.\nThe full text of the statute as it existed in 1993 is as follows:\nA person is guilty of sodomy in the second degree when, being eighteen years old or more, he engages in deviate sexual intercourse with another person less than fourteen years old.\nSodomy in the second degree is a class D felony.\nN.Y. Penal Law \u00a7 130.45 (1965).\nThere was no plea agreement.\nSection 2241(c) also applies to a defendant who knowingly engages in a sexual act with a person between the ages of twelve and fifteen through force, threat of force, or various forms of incapacitation. Id. \u00a7 2241(c) ; see id. \u00a7 2241(a), (b). The government does not argue that this portion of \u00a7 2241(c) is relevant here.\nThe use of the categorical approach in the ACCA context has been repeatedly affirmed by the Supreme Court, including recently. See Stokeling v. United States , --- U.S. ----, 139 S.Ct. 544, 549-50, --- L.Ed.2d ---- (2019) (applying the categorical approach to determine whether the defendant qualifies for a mandatory minimum sentence under the ACCA); United States v. Stitt , --- U.S. ----, 139 S.Ct. 399, 405, 202 L.Ed.2d 364 (2018) (same).\nIn the alternative, the government contends that \u00a7 3559(e) is \"a hybrid statute, requiring a comparison of certain elements under a categorical approach ... but an examination of conduct to satisfy other elements of the statute.\" Appellee's Br. at 24. Section 3559(e)(1) lists two requirements for a predicate offense to qualify for sentencing enhancement: (1) that the predicate offense constitute a \"prior sex conviction\" as defined by \u00a7 3559(e)(2) ; and (2) that \"a minor\"-a person under seventeen years of age-\"was the victim\" of the predicate offense. 18 U.S.C. \u00a7 3559(e)(1-2). As advocated by the government, the Ninth Circuit has taken a \"hybrid\" approach to those requirements, applying a categorical approach to determine whether a predicate offense is a \"prior sex conviction,\" and applying a conduct-specific approach to determine whether \"a minor was the victim\" of the predicate offense. United States v. Doss , 630 F.3d 1181, 1197-97 (9th Cir. 2011), as amended on reh'g in part (Mar. 15, 2011) (quoting 18 U.S.C. \u00a7 2559(e)(1)).\nHere, the only issue is whether Kroll's 1993 offense qualifies as a \"prior sex conviction\"-a question to which the categorical approach applies. We need not reach the question of whether a different approach applies to aspects of \u00a7 3559 not at issue.\nBecause we conclude that Kroll did not knowingly and intentionally waive this challenge, we need not decide whether a criminal defendant can waive the application of the categorical approach.",
+        "type": "majority",
+        "author": "Droney, Circuit Judge:"
+      }
+    ],
+    "attorneys": [
+      "Saritha Komatireddy, Assistant United States Attorney (Amy Busa, Artie McConell, Assistant United States Attorneys, on the brief), for Richard P. Donoghue, United States Attorney for the Eastern District of New York, Brooklyn, NY, for Appellee.",
+      "Robert A. Culp, Garrison, NY, for Defendant-Appellant."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Appellee,\nv.\nJay KROLL, Defendant-Appellant.\nNo. 16-4310\nAugust Term, 2017\nUnited States Court of Appeals, Second Circuit.\nArgued: May 3, 2018\nDecided: March 5, 2019\nSaritha Komatireddy, Assistant United States Attorney (Amy Busa, Artie McConell, Assistant United States Attorneys, on the brief), for Richard P. Donoghue, United States Attorney for the Eastern District of New York, Brooklyn, NY, for Appellee.\nRobert A. Culp, Garrison, NY, for Defendant-Appellant.\nBefore: Leval, Lynch, and Droney, Circuit Judges."
+  },
+  "file_name": "0047-01",
+  "first_page_order": 47,
+  "last_page_order": 57
+}

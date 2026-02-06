@@ -1,0 +1,59 @@
+{
+  "id": 12415444,
+  "name": "McGaha v. Tennessee",
+  "name_abbreviation": "McGaha v. Tennessee",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5194",
+  "first_page": "900",
+  "last_page": "900",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 900"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 74,
+    "ocr_confidence": 0.715,
+    "sha256": "1487ec5a01e74a74996fc54759b75b67e1152c88e4e26bbf948bc31a27311623",
+    "simhash": "1:1412f6343dc7753a",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McGaha v. Tennessee."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Term. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5194.\nMcGaha v. Tennessee."
+  },
+  "file_name": "0900-03",
+  "first_page_order": 976,
+  "last_page_order": 976
+}

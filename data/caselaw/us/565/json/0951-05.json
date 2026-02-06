@@ -1,0 +1,59 @@
+{
+  "id": 12227840,
+  "name": "Thompson v. Illinois",
+  "name_abbreviation": "Thompson v. Illinois",
+  "decision_date": "2011-10-11",
+  "docket_number": "No. 11-5774",
+  "first_page": "951",
+  "last_page": "951",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 951"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 79,
+    "ocr_confidence": 0.721,
+    "sha256": "1e6672a6c367e119a0e46bf8f6b199370cc2819d680b9cf15ad03bc0c03009f1",
+    "simhash": "1:40c9d6d9552dec2c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Thompson v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Ill., 1st Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5774.\nThompson v. Illinois."
+  },
+  "file_name": "0951-05",
+  "first_page_order": 1033,
+  "last_page_order": 1033
+}

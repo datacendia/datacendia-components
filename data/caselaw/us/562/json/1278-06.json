@@ -1,0 +1,59 @@
+{
+  "id": 6014683,
+  "name": "Finley v. United States",
+  "name_abbreviation": "Finley v. United States",
+  "decision_date": "2011-03-07",
+  "docket_number": "No. 10-8824",
+  "first_page": "1278",
+  "last_page": "1278",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1278"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.631,
+    "sha256": "79ffdd50d923c05bee0eb0a5dd89923f832a1ff49101f52736798973794739a3",
+    "simhash": "1:9d088a3303df9056",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Finley v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8824.\nFinley v. United States."
+  },
+  "file_name": "1278-06",
+  "first_page_order": 1300,
+  "last_page_order": 1300
+}

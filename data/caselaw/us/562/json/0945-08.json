@@ -1,0 +1,59 @@
+{
+  "id": 6022583,
+  "name": "Dunn v. United States",
+  "name_abbreviation": "Dunn v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-6126",
+  "first_page": "945",
+  "last_page": "945",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 945"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.588,
+    "sha256": "63d6bedf8686b8090b7340a215a6083880f650e5eff47ef50557df4869f48ade",
+    "simhash": "1:06cbc60d4f8fc738",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dunn v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6126.\nDunn v. United States."
+  },
+  "file_name": "0945-08",
+  "first_page_order": 967,
+  "last_page_order": 967
+}

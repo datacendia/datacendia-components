@@ -1,0 +1,59 @@
+{
+  "id": 12246259,
+  "name": "In re Grand Jury Proceedings",
+  "name_abbreviation": "In re Grand Jury Proceedings",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-6696",
+  "first_page": "1204",
+  "last_page": "1204",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1204"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 77,
+    "ocr_confidence": 0.658,
+    "sha256": "239fed3db313a0647cd00209a9d296ecfbc12c42340ea2e47ca013f04da90433",
+    "simhash": "1:31cb6142d515752e",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Grand Jury Proceedings."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6696.\nIn re Grand Jury Proceedings."
+  },
+  "file_name": "1204-04",
+  "first_page_order": 1286,
+  "last_page_order": 1286
+}

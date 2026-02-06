@@ -1,0 +1,59 @@
+{
+  "id": 12218839,
+  "name": "Fournerat v. Wisconsin Law Review et al.",
+  "name_abbreviation": "Fournerat v. Wisconsin Law Review",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5273",
+  "first_page": "898",
+  "last_page": "898",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 898"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 89,
+    "ocr_confidence": 0.689,
+    "sha256": "7fb16258bf2f2430e0c82ddcc7b1cd43890c65d361f0a3f22875d531c1e58fa7",
+    "simhash": "1:938840a8db279200",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Fournerat v. Wisconsin Law Review et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5273.\nFournerat v. Wisconsin Law Review et al."
+  },
+  "file_name": "0898-14",
+  "first_page_order": 980,
+  "last_page_order": 980
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12220941,
+  "name": "White v. Dormire, Superintendent, Jefferson City Correctional Center",
+  "name_abbreviation": "White v. Dormire",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5455",
+  "first_page": "908",
+  "last_page": "908",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 908"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 117,
+    "ocr_confidence": 0.691,
+    "sha256": "4e3fe71f3c1156598f8fccf3766dadb81fa1261db337c3e7bf9262401ca96ecf",
+    "simhash": "1:8fd36d73db3d22ef",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "White v. Dormire, Superintendent, Jefferson City Correctional Center."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5455.\nWhite v. Dormire, Superintendent, Jefferson City Correctional Center."
+  },
+  "file_name": "0908-11",
+  "first_page_order": 990,
+  "last_page_order": 990
+}

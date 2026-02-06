@@ -1,0 +1,59 @@
+{
+  "id": 6019850,
+  "name": "Jackson v. Roe, Warden",
+  "name_abbreviation": "Jackson v. Roe",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5294",
+  "first_page": "914",
+  "last_page": "914",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 914"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.647,
+    "sha256": "fd420f0b047e658a5062b41936c5649e16c3380dd524ff2a576921a96012c9c0",
+    "simhash": "1:dc330ceb2dcd2046",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jackson v. Roe, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5294.\nJackson v. Roe, Warden."
+  },
+  "file_name": "0914-01",
+  "first_page_order": 936,
+  "last_page_order": 936
+}

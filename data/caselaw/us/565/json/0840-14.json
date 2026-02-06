@@ -1,0 +1,59 @@
+{
+  "id": 12203441,
+  "name": "Rowzie v. Virginia",
+  "name_abbreviation": "Rowzie v. Virginia",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10569",
+  "first_page": "840",
+  "last_page": "840",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 840"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 66,
+    "ocr_confidence": 0.672,
+    "sha256": "4f8f734c755a1533d957c54717857e74a399f456dce9ea4e8846f18ef0ebfa2c",
+    "simhash": "1:ae7bc2a56a8c6ecb",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rowzie v. Virginia."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Va. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10569.\nRowzie v. Virginia."
+  },
+  "file_name": "0840-14",
+  "first_page_order": 922,
+  "last_page_order": 922
+}

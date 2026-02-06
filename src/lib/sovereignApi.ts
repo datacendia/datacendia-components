@@ -4,6 +4,7 @@
 // =============================================================================
 
 const SOVEREIGN_API_BASE = '/api/v1/sovereign';
+const DRUID_API_BASE = '/api/v1/druid';
 
 // =============================================================================
 // TYPES
@@ -68,7 +69,7 @@ export const druidApi = {
         endTime: endTime.toISOString(),
         limit: String(limit),
       });
-      const response = await fetch(`${SOVEREIGN_API_BASE}/druid/chronos/decisions?${params}`);
+      const response = await fetch(`${DRUID_API_BASE}/chronos/decisions?${params}`);
       const data = await response.json();
       return data.success ? data.data : [];
     } catch (error) {
@@ -92,7 +93,7 @@ export const druidApi = {
         endTime: endTime.toISOString(),
         granularity,
       });
-      const response = await fetch(`${SOVEREIGN_API_BASE}/druid/pulse/agents?${params}`);
+      const response = await fetch(`${DRUID_API_BASE}/pulse/agents?${params}`);
       const data = await response.json();
       return data.success ? data.data : [];
     } catch (error) {
@@ -106,7 +107,7 @@ export const druidApi = {
    */
   async getRiskTrend(days = 30): Promise<any[]> {
     try {
-      const response = await fetch(`${SOVEREIGN_API_BASE}/druid/chronos/risk-trend?days=${days}`);
+      const response = await fetch(`${DRUID_API_BASE}/chronos/risk-trend?days=${days}`);
       const data = await response.json();
       return data.success ? data.data : [];
     } catch (error) {
@@ -133,7 +134,7 @@ export const druidApi = {
       if (options?.endTime) params.append('endTime', options.endTime.toISOString());
       if (options?.limit) params.append('limit', String(options.limit));
       
-      const response = await fetch(`${SOVEREIGN_API_BASE}/druid/witness/audit?${params}`);
+      const response = await fetch(`${DRUID_API_BASE}/witness/audit?${params}`);
       const data = await response.json();
       return data.success ? data.data : [];
     } catch (error) {
@@ -147,7 +148,7 @@ export const druidApi = {
    */
   async checkHealth(): Promise<boolean> {
     try {
-      const response = await fetch(`${SOVEREIGN_API_BASE}/druid/health`);
+      const response = await fetch(`${DRUID_API_BASE}/health`);
       const data = await response.json();
       return data.available;
     } catch {
@@ -160,7 +161,7 @@ export const druidApi = {
    */
   async seedData(): Promise<boolean> {
     try {
-      const response = await fetch(`${SOVEREIGN_API_BASE}/druid/seed`, { method: 'POST' });
+      const response = await fetch(`${DRUID_API_BASE}/seed`, { method: 'POST' });
       const data = await response.json();
       return data.success;
     } catch {

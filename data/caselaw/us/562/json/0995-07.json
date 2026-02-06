@@ -1,0 +1,61 @@
+{
+  "id": 6017741,
+  "name": "Stone v. United States",
+  "name_abbreviation": "Stone v. United States",
+  "decision_date": "2010-10-18",
+  "docket_number": "No. 10-6579",
+  "first_page": "995",
+  "last_page": "995",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 995"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 149,
+    "ocr_confidence": 0.533,
+    "sha256": "9bb2c4dbfcf549272b7e86fcb24b952e4ac7800ff044b65b23a1cf361837d902",
+    "simhash": "1:cf13fa822c0e0808",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Stone v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6579.\nStone v. United States."
+  },
+  "file_name": "0995-07",
+  "first_page_order": 1017,
+  "last_page_order": 1017
+}

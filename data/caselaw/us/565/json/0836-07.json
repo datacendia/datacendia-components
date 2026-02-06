@@ -1,0 +1,59 @@
+{
+  "id": 12202059,
+  "name": "Okoh v. Virginia",
+  "name_abbreviation": "Okoh v. Virginia",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10417",
+  "first_page": "836",
+  "last_page": "836",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 836"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 64,
+    "ocr_confidence": 0.658,
+    "sha256": "2a45d6e07ffc795f771a9c482be93de30617e5291c911e4bc3adeba38c5cda16",
+    "simhash": "1:a87f56642ecc68cb",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Okoh v. Virginia."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Va. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10417.\nOkoh v. Virginia."
+  },
+  "file_name": "0836-07",
+  "first_page_order": 918,
+  "last_page_order": 918
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12429359,
+  "name": "Forney v. Florida",
+  "name_abbreviation": "Forney v. Florida",
+  "decision_date": "2013-01-14",
+  "docket_number": "No. 12-7046",
+  "first_page": "1127",
+  "last_page": "1127",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1127"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 65,
+    "ocr_confidence": 0.664,
+    "sha256": "7f39dff9bb736e47ef04de17c52cb3e9c9b52657e1b675ca190b6240eba23c0a",
+    "simhash": "1:265f962071a22837",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Forney v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Fla. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7046.\nForney v. Florida."
+  },
+  "file_name": "1127-04",
+  "first_page_order": 1203,
+  "last_page_order": 1203
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12229904,
+  "name": "Rausch v. United States",
+  "name_abbreviation": "Rausch v. United States",
+  "decision_date": "2011-10-19",
+  "docket_number": "No. 11-133",
+  "first_page": "971",
+  "last_page": "971",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 971"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 20,
+    "char_count": 120,
+    "ocr_confidence": 0.685,
+    "sha256": "c4a06502a40249ac7a1cd5b81d898d68c83f1eefafd1a4f053b58093179b79f9",
+    "simhash": "1:8080368b8f87172a",
+    "word_count": 20
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rausch v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Cer-tiorari dismissed under this Court's Rule 46.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "October 19, 2011\nNo. 11-133.\nRausch v. United States."
+  },
+  "file_name": "0971-04",
+  "first_page_order": 1053,
+  "last_page_order": 1053
+}

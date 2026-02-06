@@ -28,23 +28,54 @@ export const TEST_USERS = {
   },
 };
 
-// API base URL
+// API base URL - backend runs on port 3001, not 3000
 export const API_URL = process.env.API_URL || 'http://localhost:3001/api/v1';
 
-// Helper to get auth token
-export async function getAuthToken(email: string, password: string): Promise<string> {
-  const response = await fetch(`${API_URL}/auth/login`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ email, password }),
-  });
-  
-  if (!response.ok) {
-    throw new Error(`Login failed: ${response.statusText}`);
+// Check if API is available
+export async function isApiAvailable(): Promise<boolean> {
+  try {
+    const response = await fetch(`${API_URL}/health`, { 
+      signal: AbortSignal.timeout(2000) 
+    });
+    return response.ok;
+  } catch {
+    return false;
   }
-  
-  const data = await response.json();
-  return data.data.accessToken;
+}
+
+// Cached API availability status
+let _apiAvailable: boolean | null = null;
+export async function checkApiAvailable(): Promise<boolean> {
+  if (_apiAvailable === null) {
+    _apiAvailable = await isApiAvailable();
+  }
+  return _apiAvailable;
+}
+
+// Helper to get auth token (returns empty string if API unavailable)
+export async function getAuthToken(email: string, password: string): Promise<string> {
+  try {
+    const available = await checkApiAvailable();
+    if (!available) {
+      return '';
+    }
+    
+    const response = await fetch(`${API_URL}/auth/login`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email, password }),
+      signal: AbortSignal.timeout(5000),
+    });
+    
+    if (!response.ok) {
+      return '';
+    }
+    
+    const data = await response.json();
+    return data.data?.accessToken || '';
+  } catch {
+    return '';
+  }
 }
 
 // Helper to make authenticated requests

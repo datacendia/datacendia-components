@@ -1,0 +1,563 @@
+{
+  "id": 12519626,
+  "name": "AMERICAN FAMILY MUTUAL INSURANCE COMPANY, Plaintiff - Appellee v. VEIN CENTERS FOR EXCELLENCE, INC., Defendant St. Louis Heart Center, Inc., Defendant - Appellant",
+  "name_abbreviation": "Am. Family Mut. Ins. Co. v. Vein Ctrs. for Excellence, Inc.",
+  "decision_date": "2019-01-03",
+  "docket_number": "No. 17-3266",
+  "first_page": "1076",
+  "last_page": "1084",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "912 F.3d 1076"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "8th Cir.",
+    "id": 8821,
+    "name": "United States Court of Appeals for the Eighth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "410 F.3d 1350",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8957672
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "parenthetical": "holding the district court did not have diversity jurisdiction over a class action brought by insured class members because the insureds' claims could not be aggregated to satisfy the amount in controversy threshold"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/410/1350-01"
+      ]
+    },
+    {
+      "cite": "689 F.3d 714",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3501991
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "parenthetical": "holding diversity jurisdiction did not exist where the insured defendant in a class lawsuit assigned its right to class plaintiffs, and the insurance companies in turn brought a declaratory action against the class claimants regarding coverage obligations"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/689/0714-01"
+      ]
+    },
+    {
+      "cite": "755 F.3d 39",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4064376
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "44-45",
+          "parenthetical": "holding class plaintiffs in an action alleging violation of the TCPA could not aggregate their claims or view the amount in controversy from the perspective of the defendant insurer"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/755/0039-01"
+      ]
+    },
+    {
+      "cite": "754 F.3d 367",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6056010
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "368-69, 372-73",
+          "parenthetical": "holding class members could not aggregate their claims to satisfy the amount in controversy threshold in a declaratory judgment against an insurer"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/754/0367-01"
+      ]
+    },
+    {
+      "cite": "886 F.3d 674",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516468
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "679"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/886/0674-01"
+      ]
+    },
+    {
+      "cite": "550 U.S. 544",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3556136
+      ],
+      "weight": 3,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "554-56"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/550/0544-01"
+      ]
+    },
+    {
+      "cite": "556 U.S. 662",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3653744
+      ],
+      "weight": 3,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "677-80"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/556/0662-01"
+      ]
+    },
+    {
+      "cite": "779 S.W.2d 297",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        11348694
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "299"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/779/0297-01"
+      ]
+    },
+    {
+      "cite": "72 S.W.2d 166",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "weight": 2,
+      "year": 1934,
+      "pin_cites": [
+        {
+          "page": "167"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "837 S.W.2d 524",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9978135
+      ],
+      "weight": 4,
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "528"
+        },
+        {
+          "page": "528"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/837/0524-01"
+      ]
+    },
+    {
+      "cite": "917 S.W.2d 592",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10015900
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "595",
+          "parenthetical": "citing Shelter Mut. Ins. Co. v. Flint , 837 S.W.2d 524, 528 (Mo. Ct. App. 1992) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/917/0592-01"
+      ]
+    },
+    {
+      "cite": "874 F.Supp. 961",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        7846952
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "967",
+          "parenthetical": "applying Missouri law"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/874/0961-01"
+      ]
+    },
+    {
+      "cite": "Mo. Rev. Stat. \u00a7 379.883",
+      "category": "laws:leg_statute",
+      "reporter": "Mo. Rev. Stat.",
+      "pin_cites": [
+        {
+          "page": "(2)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "856 F.3d 571",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12276843
+      ],
+      "weight": 3,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "576"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/856/0571-01"
+      ]
+    },
+    {
+      "cite": "893 F.3d 1098",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12517312
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1102",
+          "parenthetical": "omission in original"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/893/1098-01"
+      ]
+    },
+    {
+      "cite": "441 F.3d 536",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1037213
+      ],
+      "weight": 2,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "539"
+        },
+        {
+          "page": "539"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/441/0536-01"
+      ]
+    },
+    {
+      "cite": "313 F.2d 778",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        182041
+      ],
+      "year": 1963,
+      "pin_cites": [
+        {
+          "page": "780"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/313/0778-01"
+      ]
+    },
+    {
+      "cite": "482 F.2d 1255",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1322834
+      ],
+      "weight": 2,
+      "year": 1973,
+      "pin_cites": [
+        {
+          "page": "1259",
+          "parenthetical": "quoting Eagle Star Ins. Co. v. Maltes , 313 F.2d 778, 780 (5th Cir. 1963) "
+        },
+        {
+          "page": "1259-60",
+          "parenthetical": "holding two separate and distinct plaintiffs could not aggregate their claims"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/482/1255-01"
+      ]
+    },
+    {
+      "cite": "267 F.3d 760",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9499499
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "765"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/267/0760-01"
+      ]
+    },
+    {
+      "cite": "347 F.3d 1076",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9052531
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "1078",
+          "parenthetical": "omission in original"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/347/1076-01"
+      ]
+    },
+    {
+      "cite": "649 F.3d 817",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5714481
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "821"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/649/0817-01"
+      ]
+    },
+    {
+      "cite": "821 F.3d 973",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4257187
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "977",
+          "parenthetical": "quoting Schubert v. Auto Owners Ins. Co. , 649 F.3d 817, 821 (8th Cir. 2011) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/821/0973-01"
+      ]
+    },
+    {
+      "cite": "280 F.3d 883",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9396197
+      ],
+      "weight": 3,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "884"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/280/0883-01"
+      ]
+    },
+    {
+      "cite": "620 F.3d 926",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3781816
+      ],
+      "weight": 5,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "930-31"
+        },
+        {
+          "page": "931",
+          "parenthetical": "alteration in original"
+        },
+        {
+          "page": "931"
+        },
+        {
+          "page": "932"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/620/0926-01"
+      ]
+    },
+    {
+      "cite": "645 F.3d 954",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5651020
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "958"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/645/0954-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1332",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "(a)(1)"
+        },
+        {
+          "page": "(a)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 U.S.C. \u00a7 227",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 919,
+    "char_count": 18937,
+    "pagerank": {
+      "raw": 4.719567370958748e-08,
+      "percentile": 0.2969707886444345
+    },
+    "sha256": "75274644e22aa0787e4014dcbbbbaef3e7c1b6a7b36226be24af0c300bedd025",
+    "simhash": "1:8becfabdd1b134ca",
+    "word_count": 2942
+  },
+  "last_updated": "2024-02-27T18:46:08.625841+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before COLLOTON, BEAM, and GRASZ, Circuit Judges."
+    ],
+    "parties": [
+      "AMERICAN FAMILY MUTUAL INSURANCE COMPANY, Plaintiff - Appellee\nv.\nVEIN CENTERS FOR EXCELLENCE, INC., Defendant"
+    ],
+    "opinions": [
+      {
+        "text": "GRASZ, Circuit Judge.\nAmerican Family Mutual Insurance Company (\"American Family\") filed a complaint for declaratory judgment against its insured, Vein Centers for Excellence, Inc. (\"Vein Centers\"), disputing American Family's duty under certain policies to defend and indemnify Vein Centers in a class action lawsuit. St. Louis Heart Center, Inc. (\"St. Louis Heart\") was the class representative in the underlying suit against Vein Centers and was later joined as a defendant in the declaratory action. The district court concluded American Family's insurance policies did not cover the claims against Vein Centers in the class action lawsuit and awarded summary judgment in favor of American Family. On appeal, St. Louis Heart argues that subject matter jurisdiction is lacking and that summary judgment in favor of American Family was improper. We affirm.\nI. Background\nIn 2011, St. Louis Heart filed a class action petition against Vein Centers for sending unsolicited advertisements via facsimile to multiple recipients, alleging a violation of the Telephone Consumer Protection Act (\"TCPA\"), 47 U.S.C. \u00a7 227. The district court granted St. Louis Heart's motion for class certification on December 11, 2013. Vein Centers subsequently moved to decertify the class and the district court granted that motion in 2017.\nThe merits of the class action are not the subject of this appeal. Rather, the issue presented is whether the insurance policies of Vein Centers obligated its insurance provider, American Family, to defend and indemnify the lawsuit.\nVein Centers tendered the lawsuit to American Family for defense and indemnification under two insurance policies: a Businessowners Policy and a Commercial Liability Umbrella Policy. American Family agreed to provide a defense to Vein Centers subject to a full reservation of rights.\nBoth policies contained an exclusion for the \"Distribution of Material in Violation of Statutes.\" Under the Businessowners Policy, the relevant portion of this exclusion barred coverage for:\n\"Bodily injury\", \"property damage\", or \"personal and advertising injury\" arising directly or indirectly out of any action or omission that violates or is alleged to violate:\n(1) The Telephone Consumer Protection Act (TCPA), including any amendment of or addition to such law[.]\nIn 2015, American Family filed a complaint for declaratory judgment seeking a declaration that coverage did not exist for the claims alleged in the underlying lawsuit. American Family later amended its complaint in 2016, adding St. Louis Heart as an additional defendant.\nSt. Louis Heart moved to dismiss the declaratory action, claiming the district court lacked subject matter jurisdiction because the amount in controversy did not exceed $75,000 as required for diversity jurisdiction under 28 U.S.C. \u00a7 1332. St. Louis Heart contended the class members' claims were improperly aggregated to satisfy the amount-in-controversy threshold. The district court rejected this position and denied the motion to dismiss.\nThe parties filed cross-motions for summary judgment in 2017. American Family argued that neither the Business nor Umbrella policies provided coverage for the TCPA claim in part because both explicitly excluded coverage for violations of the TCPA. St. Louis Heart conceded the TCPA exclusion was enforceable under the Umbrella Policy. However, St. Louis Heart contended the exclusion in the Businessowners Policy never took effect because American Family failed to properly notify Vein Centers of the provision's addition when the policy was renewed. On this basis, St. Louis Heart argued Missouri law dictated it was entitled to indemnification under the Businessowners Policy.\nThe district court awarded summary judgment in favor of American Family. St. Louis Heart timely appealed both the district court's denial of its motion to dismiss for lack of subject matter jurisdiction and the district court's summary judgment order.\nII. Discussion\nWe begin our discussion with the jurisdictional question raised in St. Louis Heart's motion to dismiss.\nA. Subject Matter Jurisdiction\nSubject matter jurisdiction of the district courts where based on diversity of citizenship of the parties is governed by 28 U.S.C. \u00a7 1332(a)(1), which provides: \"The district courts shall have original jurisdiction of all civil actions where the matter in controversy exceeds the sum or value of $75,000, exclusive of interest and costs, and is between citizens of different States.\"\nSt. Louis Heart argues the district court lacked subject matter jurisdiction under 28 U.S.C. \u00a7 1332 because the $75,000 amount-in-controversy requirement was not met. \"The existence of subject-matter jurisdiction is a question of law that this court reviews de novo.\" ABF Freight Sys., Inc. v. Int'l Bhd. of Teamsters , 645 F.3d 954, 958 (8th Cir. 2011). However, we review the district court's factual findings made in conjunction with its amount-in-controversy ruling for clear error. Scottsdale Ins. Co. v. Universal Crop Prot. All., LLC , 620 F.3d 926, 930-31 (8th Cir. 2010).\nTypically, complaints need only allege the jurisdictional amount in good faith and will be dismissed only if it \"appear[s] to a legal certainty that the claim is really for less than the jurisdictional amount.\" Scottsdale , 620 F.3d at 931 (alteration in original) (quoting Kopp v. Kopp , 280 F.3d 883, 884 (8th Cir. 2002) ). However, \"[i]f the defendant challenges the plaintiff's allegations of the amount in controversy, then the plaintiff must establish jurisdiction by a preponderance of the evidence.\" Id. (quoting Kopp , 280 F.3d at 884-85 ). St. Louis Heart's challenge required American Family to prove, by a preponderance of evidence, that the amount in controversy did not appear to a legal certainty to be $75,000 or less.\n\"[T]he amount in controversy is measured by the value to the plaintiff of the right sought to be enforced.\" Federated Mut. Ins. Co. v. Moody Station & Grocery , 821 F.3d 973, 977 (8th Cir. 2016) (quoting Schubert v. Auto Owners Ins. Co. , 649 F.3d 817, 821 (8th Cir. 2011) ). This value is assessed at the time of filing the action. Scottsdale, 620 F.3d at 931. \"Subsequent events reducing the amount in controversy do not destroy diversity jurisdiction,\" but they may \"be relevant to prove the existence or nonexistence of diversity jurisdiction at the time of filing.\" Id. In measuring the value of the plaintiff's right to be enforced, this Court has recognized a \"general rule [ ] that 'individual class members' distinct claims for actual damages may not be aggregated to satisfy the ... amount-in-controversy requirement for diversity jurisdiction.' \" Kessler v. Nat'l Enters., Inc. , 347 F.3d 1076, 1078 (8th Cir. 2003) (omission in original) (quoting Crawford v. Hoffman-La Roche Ltd. , 267 F.3d 760, 765 (8th Cir. 2001) ).\nApplication of the foregoing legal standards convinces us the district court did not err in concluding American Family satisfied its burden of establishing the minimum amount in controversy for the reasons set forth below.\n\"In a declaratory judgment action such as this one, wherein an insurer sues an insured to determine its obligation to defend and indemnify, the amount in controversy ... ordinarily equals the probable costs of defense and indemnification of the underlying litigation less any applicable deductible.\" Scottsdale , 620 F.3d at 932. An adverse judgment against Vein Centers would have entitled St. Louis Heart to an award far exceeding the threshold, as evidenced by St. Louis Heart's motion for summary judgement requesting $17,605,500 plus prejudgment interest. American Family's insurance policies created the potential for a single indemnity obligation to Vein Centers in the millions of dollars. While the coverage limit is not the measure of the amount in controversy, the indemnification amount is, and in this case that amount clearly exceeds the jurisdictional threshold. And that is to say nothing of the costs of defending the underlying action, which would have likely exceeded $75,000.\nOn appeal, St. Louis Heart does not argue the potential indemnification was inaccurately calculated. Instead, it argues the cost of indemnification was only arrived at by improperly aggregating the claims of all the class plaintiffs. It is true that the class members here cannot aggregate the indemnification value of their claims to satisfy diversity jurisdiction. \"[W]here [plaintiffs'] interests are distinct, and their only relationship is that 'they form a class of parties whose rights or liabilities arose out of the same transaction, or have a relation to a common fund or mass or property sought to be administered, such distinct demands or liabilities cannot be aggregated.' \" Crenshaw v. Great Cent. Ins. Co. , 482 F.2d 1255, 1259 (8th Cir. 1973) (quoting Eagle Star Ins. Co. v. Maltes , 313 F.2d 778, 780 (5th Cir. 1963) ). But that is not what occurred here. \"From [American Family's] perspective, there is only one claim-by its insured,\" Vein Centers, \"for the sum of defense and indemnity costs.\"\nMeridian Sec. Ins. Co. v. Sadowski , 441 F.3d 536, 539 (7th Cir. 2006).\nAmerican Family relies only on its own potential indemnification liability and defense costs to satisfy the jurisdictional threshold, which distinguishes this case from the various cases cited by St. Louis Heart. As our sister circuit explained, \"the anti-aggregation rule does not apply to a federal declaratory-judgment action between a single plaintiff and a single defendant, just because the unitary controversy between these parties reflects the sum of many smaller controversies. No more need be said on this subject.\" Meridian , 441 F.3d at 539.\nSubject matter jurisdiction over this action was proper under 28 U.S.C. \u00a7 1332(a)(1).\nB. Summary Judgment\nWe next address St. Louis Heart's argument that summary judgment in favor of American Family was improper. The district court granted summary judgment after concluding the \"Distribution of Material in Violation of Statutes\" provision was a valid exclusion from the Businessowners Policy. St. Louis Heart appeals this conclusion, arguing the exclusion constituted a constructive nonrenewal of the Businessowners Policy, for which American Family failed to provide notice. American Family does not dispute their obligation to provide notice of the constructive nonrenewal. Instead, they claim they sufficiently demonstrated compliance with the notice obligation. We agree.\n\"We ... review de novo the district court's resolution of cross-motions for summary judgment viewing the evidence in the light most favorable to the nonmoving party and giving the nonmoving party the benefit of all reasonable inferences.\" Fed. Ins. Co. v. Great Am. Ins. Co. , 893 F.3d 1098, 1102 (8th Cir. 2018) (omission in original) (quoting LaCurtis v. Express Med. Transporters, Inc. , 856 F.3d 571, 576 (8th Cir. 2017) ). \"Summary judgment is required 'if the movant shows that there is no genuine dispute as to any material fact and the movant is entitled to judgment as a matter of law.' \" Id. (quoting LaCurtis , 856 F.3d at 576-77 ).\nUnder Missouri law, which both parties agree controls in this diversity case, \"[n]o notice of nonrenewal of a commercial casualty insurance policy shall be effective unless mailed or delivered by the insurer to the named insured at least sixty days prior to the effective date of the nonrenewal.\" Mo. Rev. Stat. \u00a7 379.883(2). An insurer's \"tendering of a policy with a significant change in coverage constitute[s] a constructive nonrenewal,\" triggering notice requirements. Resolution Tr. Corp. v. Am. Cas. Co. , 874 F.Supp. 961, 967 (E.D. Mo. 1995) (applying Missouri law).\nMissouri law recognizes a presumption as to receipt of mailed materials. Specifically, \"[t]here is a presumption that a letter duly mailed has been received by the addressee.\" Ins. Placements, Inc. v. Utica Mut. Ins. Co. , 917 S.W.2d 592, 595 (Mo. Ct. App. 1996) (citing Shelter Mut. Ins. Co. v. Flint , 837 S.W.2d 524, 528 (Mo. Ct. App. 1992) ). This presumption of receipt by the addressee can be triggered even in the absence of direct proof that a particular letter was mailed. See id . at 595-96 (citing same). In circumstances where the customary volume of mail would render proof impractical or infeasible, the purported sender may rely on \"evidence of the settled custom and usage of the sender in the regular and systematic transaction of its business\" to establish the presumption. Id. at 595 (citing same).\nIn light of this legal framework, American Family is entitled to the presumption that Vein Centers received notice of the policy exclusion. To establish compliance with the notice requirements under Missouri law, American Family offered the deposition testimony of Ms. Deborah Woodcock, one of its corporate representatives. Ms. Woodcock testified that American Family mailed a Coverage Summary Letter (\"CSL\") to Vein Centers more than sixty days prior to the Businessowners Policy renewal date. Ms. Woodcock further testified that it was American Family's standard business practice to include with the CSL a Policyholder Communication (\"PLC\"), which is a notification of changes made to an insured's policy. Ms. Woodcock went on to identify an internal communication sent to American Family agents and staff, which indicated current holders of the Businessowners Policy would be sent a PLC notification setting forth the newly instituted \"Distribution of Material in Violation of Statutes\" exclusion. While Ms. Woodcock could not produce an actual copy of this PLC addressed to Vein Centers, her testimony established it was likely mailed to Vein Centers as part of American Family's custom and procedure of transacting business. This evidence creates the presumption that Vein Centers received notice of the exclusion.\nThe presumption of a letter's receipt is not unassailable. When a purported sender presents evidence that a letter was mailed, the presumption of receipt \"may be rebutted by evidence it was not, in fact, received.\" Id. (citing Williams v. Northeast Mut. Ins. Ass'n , 72 S.W.2d 166, 167 (Mo. Ct. App. 1934) ). If the presumption is rebutted with evidence of non-receipt, the question of receipt is left \"for the determination of the jury under all of the facts and circumstances of the case.\" Id. However, St. Louis Heart has made no such rebuttal.\nSt. Louis Heart failed to submit any evidence which would indicate Vein Centers did not, in fact, receive the CSL and PLC. Instead, St. Louis Heart argues Ms. Woodcock's testimony was insufficient to establish the presumption of receipt in the first place. It highlights the lack of definitive proof that the PLC was sent and notes that Ms. Woodcock did not personally send the documents and lacks personal knowledge as to whether the documents were sent. But Missouri law does not require direct proof or personal knowledge of mailing; only \"evidence of the settled custom and usage of the sender in the regular and systematic transaction of its business.\" Flint , 837 S.W.2d at 528 (quoting Hills v. McComas Rentals, Inc. , 779 S.W.2d 297, 299 (Mo. Ct. App. 1989) ). Speculation that American Family's normal business procedures were not followed in this case is not the same as affirmative evidence that Vein Centers did not receive the documents. In short, St. Louis Heart has not provided a sufficient evidentiary basis to rebut the presumption that Vein Centers received notice.\nSummary judgment in favor of American Family was proper because St. Louis Heart has not provided any evidence that adequate notice of the exclusion was not provided to Vein Centers.\nIII. Conclusion\nWe affirm both the district court's finding of jurisdiction and its summary judgment order in favor of American Family.\nThe Honorable Jean C. Hamilton, United States District Judge for the Eastern District of Missouri.\nThe class action petition also included claims for common law conversion and violations of the Missouri Merchandising Practices Act, which were voluntarily dismissed.\nThe Umbrella Policy contained a substantially similar exclusion.\nWhen deciding a motion to dismiss under Fed. R. Civ. P. 12(b)(6), courts typically look only to the pleadings and determine whether they state a plausible claim for relief. See , e.g. , Ashcroft v. Iqbal , 556 U.S. 662, 677-80, 129 S.Ct. 1937, 173 L.Ed.2d 868 (2009) ; Bell Atl. Corp. v. Twombly , 550 U.S. 544, 554-56, 127 S.Ct. 1955, 167 L.Ed.2d 929 (2007). But a motion to dismiss for lack of subject matter jurisdiction under Fed. R. Civ. P. 12(b)(1) raises a factual challenge to the court's jurisdiction, and courts may look to evidence outside the pleadings and make factual findings. See Davis v. Anthony, Inc. , 886 F.3d 674, 679 (8th Cir. 2018).\nThe Businessowners Policy contained a liability limit of $2,000,000 per occurrence and/or $4,000,000 in the aggregate, and the Umbrella Policy contained a liability limit of up to $1,000,000.\nSee Crenshaw, 482 F.2d at 1259-60 (holding two separate and distinct plaintiffs could not aggregate their claims); Siding & Insulation Co., Inc. v. Acuity Mut. Ins. Co. , 754 F.3d 367, 368-69, 372-73 (6th Cir. 2014) (holding class members could not aggregate their claims to satisfy the amount in controversy threshold in a declaratory judgment against an insurer); CE Design Ltd. v. Am. Econ. Ins. Co. , 755 F.3d 39, 44-45 (1st Cir. 2014) (holding class plaintiffs in an action alleging violation of the TCPA could not aggregate their claims or view the amount in controversy from the perspective of the defendant insurer); Travelers Prop. Cas. v. Good , 689 F.3d 714 (7th Cir. 2012) (holding diversity jurisdiction did not exist where the insured defendant in a class lawsuit assigned its right to class plaintiffs, and the insurance companies in turn brought a declaratory action against the class claimants regarding coverage obligations); Friedman v. New York Life Ins. Co. , 410 F.3d 1350 (11th Cir. 2005) (holding the district court did not have diversity jurisdiction over a class action brought by insured class members because the insureds' claims could not be aggregated to satisfy the amount in controversy threshold).\nWe grant American Family's motion to supplement its Supplemental Appendix.",
+        "type": "majority",
+        "author": "GRASZ, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Kenneth M. Lander, KORTENHOF & MCGLYNN, Saint Louis, MO, Anthony L. Martin, Stephen Michael Murphy, SANDBERG & PHOENIX, Saint Louis, MO, for Plaintiff-Appellee.",
+      "Jeffrey A. Berman, ANDERSON & WANCA, Rolling Meadows, IL, Max G. Margulis, MARGULIS LAW GROUP, Chesterfield, MO, David Max Oppenheim, BOCK & HATCH, Chicago, IL, for Defendant-Appellant."
+    ],
+    "corrections": "",
+    "head_matter": "AMERICAN FAMILY MUTUAL INSURANCE COMPANY, Plaintiff - Appellee\nv.\nVEIN CENTERS FOR EXCELLENCE, INC., Defendant\nSt. Louis Heart Center, Inc., Defendant - Appellant\nNo. 17-3266\nUnited States Court of Appeals, Eighth Circuit.\nSubmitted: September 26, 2018\nFiled: January 3, 2019\nKenneth M. Lander, KORTENHOF & MCGLYNN, Saint Louis, MO, Anthony L. Martin, Stephen Michael Murphy, SANDBERG & PHOENIX, Saint Louis, MO, for Plaintiff-Appellee.\nJeffrey A. Berman, ANDERSON & WANCA, Rolling Meadows, IL, Max G. Margulis, MARGULIS LAW GROUP, Chesterfield, MO, David Max Oppenheim, BOCK & HATCH, Chicago, IL, for Defendant-Appellant.\nBefore COLLOTON, BEAM, and GRASZ, Circuit Judges."
+  },
+  "file_name": "1076-01",
+  "first_page_order": 1076,
+  "last_page_order": 1084
+}

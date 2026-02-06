@@ -1,0 +1,59 @@
+{
+  "id": 4336740,
+  "name": "S. G. v. J. H.",
+  "name_abbreviation": "S. G. v. J. H.",
+  "decision_date": "2011-06-13",
+  "docket_number": "No. 10-9988",
+  "first_page": "1008",
+  "last_page": "1008",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1008"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 73,
+    "ocr_confidence": 0.578,
+    "sha256": "0735e6a9762ddeea75c59396058ae316bf711f5403671e9ce1ff92468600e431",
+    "simhash": "1:d302063b2841a320",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "S. G. v. J. H."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Tex., 9th Dist. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9988.\nS. G. v. J. H."
+  },
+  "file_name": "1008-06",
+  "first_page_order": 1002,
+  "last_page_order": 1002
+}

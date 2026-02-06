@@ -1,0 +1,135 @@
+{
+  "id": 2258989,
+  "name": "Lamar Palmer v. D. O. K. K. Benevolent and Insurance Association",
+  "name_abbreviation": "Palmer v. D. O. K. K. Benevolent & Insurance",
+  "decision_date": "1960-04-13",
+  "docket_number": "No. A-7652",
+  "first_page": "513",
+  "last_page": "514",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "160 Tex. 513"
+    },
+    {
+      "type": "parallel",
+      "cite": "334 S.W.2d 149"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "296 S.W. 280",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        2276577,
+        10291740
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/116/0652-01",
+        "/sw/296/0280-01"
+      ]
+    },
+    {
+      "cite": "116 Texas 652",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2276577
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/116/0652-01"
+      ]
+    },
+    {
+      "cite": "304 S.W. 2d 265",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10162538,
+        2254027
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/304/0265-01",
+        "/tex/157/0475-01"
+      ]
+    },
+    {
+      "cite": "157 Texas 475",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2254027
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/157/0475-01"
+      ]
+    },
+    {
+      "cite": "329 S.W. 2d 916",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10180889
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/329/0916-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 124,
+    "char_count": 1362,
+    "ocr_confidence": 0.588,
+    "pagerank": {
+      "raw": 5.910438218714275e-07,
+      "percentile": 0.9529462914633247
+    },
+    "sha256": "c411f6f2c400bda7255aee8ef8555384f88810ad94e0f27673605a1e379af46f",
+    "simhash": "1:f4d90c6af72e9918",
+    "word_count": 233
+  },
+  "last_updated": "2024-02-27T22:54:30.640255+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lamar Palmer v. D. O. K. K. Benevolent and Insurance Association."
+    ],
+    "opinions": [
+      {
+        "text": "PER CURIAM:\nThis is a proceeding by bill of review to set aside a default judgment on the ground of fraud. The District Court limited the trial to a determination of whether the default judgment should be set aside, and at the conclusion of such trial entered an order setting the prior judgment aside and enjoining execution thereon. The amount of indebtedness, if any, actually owing by respondent was expressly reserved for determination in a later separate trial of that issue. See Rule 174(b), Texas Rules of Civil Procedure. Petitioner attempted to appeal from such order, and the Court of Civil Appeals affirmed. 329 S.W. 2d 916.\nThe order entered by the trial court in this proceeding is not a final judgment, and neither the Court of Civil Appeals nor this Court has any power to review the same. McCauley v. Consolidated Underwriters, 157 Texas 475, 304 S.W. 2d 265; Lynn v. Hanna, 116 Texas 652, 296 S.W. 280. Under the provisions of Rule 483, Texas Rules of Civil Procedure, the judgment of the Court of Civil Appeals is reversed and the appeal from the District Court is dismissed.\nOpinion delivered April 13, 1960.",
+        "type": "majority",
+        "author": "PER CURIAM:"
+      }
+    ],
+    "attorneys": [
+      "Lamar Palmer, of Houston, for petitioner.",
+      "Smith & Lehman and J. Edwin Smith, of Houston, for respondents."
+    ],
+    "corrections": "",
+    "head_matter": "Lamar Palmer v. D. O. K. K. Benevolent and Insurance Association.\n(334 S.W. 2d Series 149)\nNo. A-7652.\nDecided April 13, 1960.\nLamar Palmer, of Houston, for petitioner.\nSmith & Lehman and J. Edwin Smith, of Houston, for respondents."
+  },
+  "file_name": "0513-01",
+  "first_page_order": 527,
+  "last_page_order": 528
+}

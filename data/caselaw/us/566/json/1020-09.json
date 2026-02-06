@@ -1,0 +1,59 @@
+{
+  "id": 12221927,
+  "name": "In re Carrillo; and In re Noah",
+  "name_abbreviation": "In re Carrillo",
+  "decision_date": "2012-05-29",
+  "docket_number": "No. 11-9994; No. 11-10052",
+  "first_page": "1020",
+  "last_page": "1020",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 1020"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 104,
+    "ocr_confidence": 0.557,
+    "sha256": "897ae32ec335cac7e65f944aa15b419ceccc312d9f7b7e4fb94cfc6867968ddd",
+    "simhash": "1:58d298b09d182745",
+    "word_count": 18
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Carrillo; and In re Noah."
+    ],
+    "opinions": [
+      {
+        "text": "Petitions for writs of habeas corpus denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9994.\nNo. 11-10052.\nIn re Carrillo; and In re Noah."
+  },
+  "file_name": "1020-09",
+  "first_page_order": 896,
+  "last_page_order": 896
+}

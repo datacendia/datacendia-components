@@ -1,0 +1,87 @@
+{
+  "id": 12697258,
+  "name": "USPPS, Ltd., petitioner, v. AVERY DENNISON CORPORATION, et al.",
+  "name_abbreviation": "USPPS, Ltd. v. Avery Dennison Corp.",
+  "decision_date": "2013-04-15",
+  "docket_number": "No. 12\u2013539.",
+  "first_page": "915",
+  "last_page": "915",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "569 U.S. 915"
+    },
+    {
+      "type": "parallel",
+      "cite": "185 L. Ed. 2d 808"
+    },
+    {
+      "type": "parallel",
+      "cite": "133 S. Ct. 1794"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "133 S.Ct. 1059",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12407443
+      ],
+      "weight": 2,
+      "year": 2013,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/568/0251-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 48,
+    "char_count": 472,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.26653580961669965
+    },
+    "sha256": "e8ad38d0ee25072401f8c4857146c53cd874a74642d4c67d4388117368361a59",
+    "simhash": "1:ef2ff6ccbc0c02ec",
+    "word_count": 76
+  },
+  "last_updated": "2024-02-27T18:41:22.752108+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "USPPS, Ltd., petitioner,\nv.\nAVERY DENNISON CORPORATION, et al."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "On petition for writ of certiorari to the United States Court of Appeals for the Federal Circuit. Petition for writ of certiorari granted. Judgment vacated, and case remanded to the United States Court of Appeals for the Federal Circuit for further consideration in light of Gunn v. Minton, --- U.S. ----, 133 S.Ct. 1059, 185 L.Ed.2d 72 (2013)."
+    ],
+    "corrections": "",
+    "head_matter": "USPPS, Ltd., petitioner,\nv.\nAVERY DENNISON CORPORATION, et al.\nNo. 12-539.\nSupreme Court of the United States\nApril 15, 2013.\nOn petition for writ of certiorari to the United States Court of Appeals for the Federal Circuit. Petition for writ of certiorari granted. Judgment vacated, and case remanded to the United States Court of Appeals for the Federal Circuit for further consideration in light of Gunn v. Minton, --- U.S. ----, 133 S.Ct. 1059, 185 L.Ed.2d 72 (2013)."
+  },
+  "file_name": "0915-01",
+  "first_page_order": 915,
+  "last_page_order": 915
+}

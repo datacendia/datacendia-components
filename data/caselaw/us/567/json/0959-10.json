@@ -1,0 +1,59 @@
+{
+  "id": 12413075,
+  "name": "In re Discipline of Conour",
+  "name_abbreviation": "In re Discipline of Conour",
+  "decision_date": "2012-08-13",
+  "docket_number": "No. D-2685",
+  "first_page": "959",
+  "last_page": "959",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 959"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 40,
+    "char_count": 285,
+    "ocr_confidence": 0.651,
+    "sha256": "e8efda69317833f4d549e01c08bf0479e40693bafa2a3436fd45c5f785149260",
+    "simhash": "1:608a61b63bfa27e7",
+    "word_count": 51
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of Conour."
+    ],
+    "opinions": [
+      {
+        "text": "William F. Con-our, of Indianapolis, Ind., is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2685.\nIn re Discipline of Conour."
+  },
+  "file_name": "0959-10",
+  "first_page_order": 863,
+  "last_page_order": 863
+}

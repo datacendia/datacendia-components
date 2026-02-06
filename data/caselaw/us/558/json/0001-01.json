@@ -1,0 +1,127 @@
+{
+  "id": 3638886,
+  "name": "CORCORAN v. LEVENHAGEN, SUPERINTENDENT, INDIANA STATE PRISON",
+  "name_abbreviation": "Corcoran v. Levenhagen",
+  "decision_date": "2009-10-20",
+  "docket_number": "No. 08-10495",
+  "first_page": "1",
+  "last_page": "3",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "558 U.S. 1"
+    },
+    {
+      "type": "parallel",
+      "cite": "175 L. Ed. 2d 1"
+    },
+    {
+      "type": "parallel",
+      "cite": "130 S. Ct. 8"
+    },
+    {
+      "type": "vendor",
+      "cite": "2009 U.S. LEXIS 7479"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2009-009"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "483 F. Supp. 2d 709",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        3963973
+      ],
+      "weight": 3,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "719, 726"
+        },
+        {
+          "page": "725-726"
+        },
+        {
+          "page": "734"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/483/0709-01"
+      ]
+    },
+    {
+      "cite": "551 F. 3d 703",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5753347
+      ],
+      "weight": 2,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "712, 714"
+        },
+        {
+          "page": "714"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/551/0703-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 203,
+    "char_count": 2693,
+    "ocr_confidence": 0.593,
+    "pagerank": {
+      "raw": 1.9112468898524339e-07,
+      "percentile": 0.7317349389867903
+    },
+    "sha256": "4e878383bd829a9092e098b463059f83f2f9382a8bb2a740ad37780d0580c985",
+    "simhash": "1:27443e274f4827c4",
+    "word_count": 421
+  },
+  "last_updated": "2024-02-27T16:51:48.879996+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "CORCORAN v. LEVENHAGEN, SUPERINTENDENT, INDIANA STATE PRISON"
+    ],
+    "opinions": [
+      {
+        "text": "Per Curiam.\nAn Indiana jury convicted Joseph Corcoran of four counts of murder. Corcoran was sentenced to death. After Corcoran\u2019s challenges to his sentence in the Indiana courts failed, he sought federal habeas relief. Corcoran argued in his federal habeas petition that: (1) the Indiana trial court committed various errors at the sentencing phase; (2) his sentence violated the Sixth Amendment; (8) Indiana\u2019s capital sentencing statute was unconstitutional; (4) the prosecution committed misconduct at sentencing; and (5) he should not be executed because he suffers from a mental illness. See Corcoran v. Buss, 483 F. Supp. 2d 709, 719, 726 (ND Ind. 2007). The District Court granted habeas relief on Corcoran\u2019s claim of a Sixth Amendment violation, and ordered the state courts to resentence Corcoran to a penalty other than death. Id., at 725-726. The District Court did not address Corcoran\u2019s other arguments relating to his sentence, noting that they were \u201crendered moot\u201d by the order that Corcoran be resentenced because of the Sixth Amendment violation. Id., at 734.\nThe Seventh Circuit reversed the District Court\u2019s Sixth Amendment ruling. Corcoran v. Buss, 551 F. 3d 703, 712, 714 (2008). Then, without mentioning Corcoran\u2019s other sentencing claims, the Seventh Circuit remanded \u201cwith instructions to deny the writ,\u201d stating that \u201cIndiana is at liberty to reinstate the death penalty.\u201d Id., at 714. Corcoran sought rehearing, arguing that the Court of Appeals should have allowed the District Court to consider his additional attacks on his sentence. But the Court of Appeals denied rehearing, again without referring to Corcoran\u2019s undecided claims.\nWe now grant certiorari and hold that the Seventh Circuit erred in disposing of Corcoran\u2019s other claims without explanation of any sort. The Seventh Circuit should have permitted the District Court to consider Corcoran\u2019s unresolved challenges to his death sentence on remand, or should have itself explained why such consideration was unnecessary.\nIn its brief in opposition, the State argues that Corcoran\u2019s claims were waived, and that they were in any event frivolous, so that a remand would be wasteful. Brief in Opposition 9-10. Nothing in the Seventh Circuit\u2019s opinion, however, suggests that this was the basis for that court\u2019s order that the writ be denied.\nThe petition for certiorari and the motion for leave to proceed in forma pauperis are granted. The judgment of the Court of Appeals for the Seventh Circuit is vacated, and the case is remanded for further proceedings consistent with this opinion.\nIt is so ordered.",
+        "type": "majority",
+        "author": "Per Curiam."
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "CORCORAN v. LEVENHAGEN, SUPERINTENDENT, INDIANA STATE PRISON\nNo. 08-10495.\nDecided October 20, 2009"
+  },
+  "file_name": "0001-01",
+  "first_page_order": 163,
+  "last_page_order": 165
+}

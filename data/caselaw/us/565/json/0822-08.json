@@ -1,0 +1,59 @@
+{
+  "id": 12196416,
+  "name": "Taylor v. Taylor et al.",
+  "name_abbreviation": "Taylor v. Taylor",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-1455",
+  "first_page": "822",
+  "last_page": "822",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 822"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.682,
+    "sha256": "748649ff4363486040b91eed382643d7687a37ae4568766fab8716d54a5f1a5c",
+    "simhash": "1:46391815821c5852",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Taylor v. Taylor et al."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Civ. App. Ala. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1455.\nTaylor v. Taylor et al."
+  },
+  "file_name": "0822-08",
+  "first_page_order": 904,
+  "last_page_order": 904
+}

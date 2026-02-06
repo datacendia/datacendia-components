@@ -1,0 +1,59 @@
+{
+  "id": 5962566,
+  "name": "Byers v. United States",
+  "name_abbreviation": "Byers v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5740",
+  "first_page": "936",
+  "last_page": "936",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 936"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.591,
+    "sha256": "474e788b142df92ba84ed349af74b8502bb32bf7b0f71de0d3f9d4ec084b8f33",
+    "simhash": "1:359ae6b36fbd5407",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Byers v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5740.\nByers v. United States."
+  },
+  "file_name": "0936-10",
+  "first_page_order": 958,
+  "last_page_order": 958
+}

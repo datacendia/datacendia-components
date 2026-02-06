@@ -1,0 +1,59 @@
+{
+  "id": 12432977,
+  "name": "In re Discipline of Boyd",
+  "name_abbreviation": "In re Discipline of Boyd",
+  "decision_date": "2013-03-18",
+  "docket_number": "No. D-2712",
+  "first_page": "1226",
+  "last_page": "1226",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1226"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 39,
+    "char_count": 273,
+    "ocr_confidence": 0.602,
+    "sha256": "eab268ad556bed9556e56be4b6f65eafecbb8478a03bc8c0ce93d1d1abecdbcd",
+    "simhash": "1:7f8a513637fea74c",
+    "word_count": 51
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of Boyd."
+    ],
+    "opinions": [
+      {
+        "text": "Joan M. Boyd, of Gillett, Wis., is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring her to show cause why she should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2712.\nIn re Discipline of Boyd."
+  },
+  "file_name": "1226-05",
+  "first_page_order": 1302,
+  "last_page_order": 1302
+}

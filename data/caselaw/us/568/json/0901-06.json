@@ -1,0 +1,59 @@
+{
+  "id": 12415501,
+  "name": "Harris v. Progressive Casualty Insurance Co.",
+  "name_abbreviation": "Harris v. Progressive Casualty Insurance Co.",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5219",
+  "first_page": "901",
+  "last_page": "901",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 901"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 92,
+    "ocr_confidence": 0.661,
+    "sha256": "d3dd1261d99c1069323c9847e06f86337cc502dc10d0b0f614c524ac8e02c467",
+    "simhash": "1:26c640f9d34fb743",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Harris v. Progressive Casualty Insurance Co."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5219.\nHarris v. Progressive Casualty Insurance Co."
+  },
+  "file_name": "0901-06",
+  "first_page_order": 977,
+  "last_page_order": 977
+}

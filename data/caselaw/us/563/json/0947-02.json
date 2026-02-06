@@ -1,0 +1,59 @@
+{
+  "id": 5919052,
+  "name": "Pyle v. California",
+  "name_abbreviation": "Pyle v. California",
+  "decision_date": "2011-04-18",
+  "docket_number": "No. 10-9255",
+  "first_page": "947",
+  "last_page": "947",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 947"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 81,
+    "ocr_confidence": 0.632,
+    "sha256": "6c19b278e5f69a0e8207d9bf48e6c7e74deeb37337f1b0ed97aa6bba85017f2e",
+    "simhash": "1:4e05d6a019c32a01",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Pyle v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 2d App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9255.\nPyle v. California."
+  },
+  "file_name": "0947-02",
+  "first_page_order": 973,
+  "last_page_order": 973
+}

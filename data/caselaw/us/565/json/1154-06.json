@@ -1,0 +1,59 @@
+{
+  "id": 12242302,
+  "name": "Hill v. United States",
+  "name_abbreviation": "Hill v. United States",
+  "decision_date": "2012-01-17",
+  "docket_number": "No. 11-5721",
+  "first_page": "1154",
+  "last_page": "1154",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1154"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 36,
+    "char_count": 258,
+    "ocr_confidence": 0.611,
+    "sha256": "5104939f8433b96699d0fe298692e928d090897aaf891004e00e4e0fcac9363e",
+    "simhash": "1:6205d69c43850c18",
+    "word_count": 42
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hill v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. [Cer-tiorari granted, ante, p. 1057.] Motion of petitioner for appointment of counsel granted. Stephen E. Eberhardt, Esq., of Tinley Park, Ill., is appointed to serve as counsel for petitioner in this case.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5721.\nHill v. United States."
+  },
+  "file_name": "1154-06",
+  "first_page_order": 1236,
+  "last_page_order": 1236
+}

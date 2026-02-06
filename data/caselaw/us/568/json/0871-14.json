@@ -1,0 +1,59 @@
+{
+  "id": 12414616,
+  "name": "Prieto v. Virginia",
+  "name_abbreviation": "Prieto v. Virginia",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10967",
+  "first_page": "871",
+  "last_page": "871",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 871"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 66,
+    "ocr_confidence": 0.689,
+    "sha256": "787f33d164c9c1c3a11b2f19891cef0c0b2ab86730b9e60126134bd82f0241f9",
+    "simhash": "1:2afad2e0af9c7ecb",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Prieto v. Virginia."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Va. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10967.\nPrieto v. Virginia."
+  },
+  "file_name": "0871-14",
+  "first_page_order": 947,
+  "last_page_order": 947
+}

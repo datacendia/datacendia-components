@@ -1,0 +1,59 @@
+{
+  "id": 12202345,
+  "name": "Wallace v. Tucker, Secretary, Florida Department of Corrections",
+  "name_abbreviation": "Wallace v. Tucker",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10452",
+  "first_page": "837",
+  "last_page": "837",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 837"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 114,
+    "ocr_confidence": 0.641,
+    "sha256": "a9f3948a2540aac0c3f597ef8e52f1facc16ae0d9edb950f8bb2a300112b83be",
+    "simhash": "1:1f61ca3387ed907c",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wallace v. Tucker, Secretary, Florida Department of Corrections."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10452.\nWallace v. Tucker, Secretary, Florida Department of Corrections."
+  },
+  "file_name": "0837-05",
+  "first_page_order": 919,
+  "last_page_order": 919
+}

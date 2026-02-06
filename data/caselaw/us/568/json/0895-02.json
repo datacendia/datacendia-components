@@ -1,0 +1,59 @@
+{
+  "id": 12415257,
+  "name": "Webb v. United States",
+  "name_abbreviation": "Webb v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5098",
+  "first_page": "895",
+  "last_page": "895",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 895"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.655,
+    "sha256": "8b8927af457bdeac69563edf4b7d2c8e51d57a036df531b617207373abb7dad4",
+    "simhash": "1:06689b1b1c919010",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Webb v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5098.\nWebb v. United States."
+  },
+  "file_name": "0895-02",
+  "first_page_order": 971,
+  "last_page_order": 971
+}

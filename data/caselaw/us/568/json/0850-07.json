@@ -1,0 +1,59 @@
+{
+  "id": 12413395,
+  "name": "Walker v. Kemna et al.",
+  "name_abbreviation": "Walker v. Kemna",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10583",
+  "first_page": "850",
+  "last_page": "850",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 850"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 72,
+    "ocr_confidence": 0.681,
+    "sha256": "f6f438305211ca8625c49ee265d2aabdf5c1010e2f8de8d0a242bf09a560fd5b",
+    "simhash": "1:80fa31e95f3557b0",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Walker v. Kemna et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10583.\nWalker v. Kemna et al."
+  },
+  "file_name": "0850-07",
+  "first_page_order": 926,
+  "last_page_order": 926
+}

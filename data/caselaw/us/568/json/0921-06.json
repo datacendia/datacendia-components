@@ -1,0 +1,76 @@
+{
+  "id": 12416533,
+  "name": "Freeman v. United States; McGarity v. United States; and Lakey v. United States",
+  "name_abbreviation": "Freeman v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5685; No. 12-5740; No. 12-5790",
+  "first_page": "921",
+  "last_page": "921",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 921"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "669 F. 3d 1218",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3722795
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/669/1218-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 23,
+    "char_count": 187,
+    "ocr_confidence": 0.702,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2561139664899382
+    },
+    "sha256": "90fc74e941cb0187d416a24050d6fafc28c1a52700615aeae8409e3aeeb77b22",
+    "simhash": "1:140a9f330fa79000",
+    "word_count": 31
+  },
+  "last_updated": "2024-02-27T23:44:49.194693+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Freeman v. United States; McGarity v. United States; and Lakey v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied. Reported below: 669 F. 3d 1218.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5685.\nNo. 12-5740.\nNo. 12-5790.\nFreeman v. United States; McGarity v. United States; and Lakey v. United States."
+  },
+  "file_name": "0921-06",
+  "first_page_order": 997,
+  "last_page_order": 997
+}

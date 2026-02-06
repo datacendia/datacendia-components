@@ -1,0 +1,59 @@
+{
+  "id": 12210414,
+  "name": "Julian v. Louisiana",
+  "name_abbreviation": "Julian v. Louisiana",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-11096",
+  "first_page": "866",
+  "last_page": "866",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 866"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 67,
+    "ocr_confidence": 0.682,
+    "sha256": "1ef8e9307c8cbbcd8c02a4b6a1c7773188b3323e45c63535dd7279fed87736df",
+    "simhash": "1:15e53d93f7ffd533",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Julian v. Louisiana."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. La. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-11096.\nJulian v. Louisiana."
+  },
+  "file_name": "0866-15",
+  "first_page_order": 948,
+  "last_page_order": 948
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12415854,
+  "name": "Reyes v. California",
+  "name_abbreviation": "Reyes v. California",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5411",
+  "first_page": "911",
+  "last_page": "911",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 911"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 83,
+    "ocr_confidence": 0.688,
+    "sha256": "c3b2aa8c19b830186b9fd5b7d03d136a2e241a809c9f8fd9b5f43e7777af9ac7",
+    "simhash": "1:cc04838461c30a20",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Reyes v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 1st App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5411.\nReyes v. California."
+  },
+  "file_name": "0911-08",
+  "first_page_order": 987,
+  "last_page_order": 987
+}

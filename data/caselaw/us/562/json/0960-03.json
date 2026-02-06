@@ -1,0 +1,59 @@
+{
+  "id": 5980984,
+  "name": "Bond v. United States",
+  "name_abbreviation": "Bond v. United States",
+  "decision_date": "2010-10-12",
+  "docket_number": "No. 09-1227",
+  "first_page": "960",
+  "last_page": "960",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 960"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.657,
+    "sha256": "291953a7c96007bc2bf47a377d0013be89c43b0881ffb42666c70d5ea0cdab97",
+    "simhash": "1:8a0aef076a39242c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bond v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari granted.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-1227.\nBond v. United States."
+  },
+  "file_name": "0960-03",
+  "first_page_order": 982,
+  "last_page_order": 982
+}

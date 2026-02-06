@@ -7,6 +7,7 @@
 export { HealthcarePage } from './HealthcarePage';
 export { FinancialServicesPage } from './FinancialServicesPage';
 export { GovernmentLegalPage } from './GovernmentLegalPage';
+export { LegalPage } from './LegalPage';
 export { InsurancePage } from './InsurancePage';
 export { PharmaceuticalPage } from './PharmaceuticalPage';
 
@@ -21,9 +22,18 @@ export { MediaEntertainmentPage } from './MediaEntertainmentPage';
 export { ProfessionalServicesPage } from './ProfessionalServicesPage';
 export { HigherEducationPage } from './HigherEducationPage';
 export { SportsPage } from './SportsPage';
-
-// Tier 3: Coming Soon
 export { TelecommunicationsPage } from './TelecommunicationsPage';
+
+// Tier 3: Specialized Verticals
+export { AerospacePage } from './AerospacePage';
+export { AgriculturePage } from './AgriculturePage';
+export { AutomotivePage } from './AutomotivePage';
+export { ConstructionPage } from './ConstructionPage';
+export { HospitalityPage } from './HospitalityPage';
+export { NonProfitPage } from './NonProfitPage';
+
+// Tier 4: Smart City / Municipal
+export { SmartCityPage } from './SmartCityPage';
 
 // Verticals Hub
 export { VerticalsHubPage } from './VerticalsHubPage';

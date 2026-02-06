@@ -1,0 +1,92 @@
+{
+  "id": 2244774,
+  "name": "William R. Miller, Junior, v. Robert C. Tucker, Chairman of County Democratic Executive Committee of Harris County, Texas, et al.",
+  "name_abbreviation": "Miller v. Tucker",
+  "decision_date": "1952-06-04",
+  "docket_number": "No. A-3698",
+  "first_page": "277",
+  "last_page": "278",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "151 Tex. 277"
+    },
+    {
+      "type": "parallel",
+      "cite": "249 S.W.2d 947"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "249 S. W. 2d 591",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10211031
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/249/0591-01"
+      ]
+    },
+    {
+      "cite": "151 Texas 268",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2244748
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/151/0268-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 70,
+    "char_count": 555,
+    "ocr_confidence": 0.668,
+    "pagerank": {
+      "raw": 6.111505941232811e-08,
+      "percentile": 0.3809038673683292
+    },
+    "sha256": "077424511498eb0ff252ae52b8c431c36ef54357ad19901b8241f4b47c24f848",
+    "simhash": "1:467fc6b7e07f3b4e",
+    "word_count": 94
+  },
+  "last_updated": "2024-02-27T19:52:08.570687+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "William R. Miller, Junior, v. Robert C. Tucker, Chairman of County Democratic Executive Committee of Harris County, Texas, et al."
+    ],
+    "opinions": [
+      {
+        "text": "Relator\u2019s motion for leave to file petition for writ of mandamus is overruled. The relief sought is injunctive and this Court has no original jurisdiction to grant injunctive relief. See Lane et al. v. Ross, Secretary of State, et al., decided May 28, 1952, 151 Texas 268, 249 S. W. 2d 591.\nOpinion delivered June 4, 1952.\nAssociate Justice Smedley not sitting.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "William R. Miller, Junior, v. Robert C. Tucker, Chairman of County Democratic Executive Committee of Harris County, Texas, et al.\nNo. A-3698.\nDecided June 4, 1952.\n(249 S. W., 2d Series, 947.)"
+  },
+  "file_name": "0277-01",
+  "first_page_order": 293,
+  "last_page_order": 294
+}

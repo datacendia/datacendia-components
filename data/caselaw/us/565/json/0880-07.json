@@ -1,0 +1,59 @@
+{
+  "id": 12214060,
+  "name": "Archila v. KFC U. S. Properties, Inc.",
+  "name_abbreviation": "Archila v. KFC U. S. Properties, Inc.",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-52",
+  "first_page": "880",
+  "last_page": "880",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 880"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 83,
+    "ocr_confidence": 0.646,
+    "sha256": "2bef3fd0262e3f91da47bed41eef1fca9741cf14e29791cf09e74126795f0a68",
+    "simhash": "1:0033308068ad2002",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Archila v. KFC U. S. Properties, Inc."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-52.\nArchila v. KFC U. S. Properties, Inc."
+  },
+  "file_name": "0880-07",
+  "first_page_order": 962,
+  "last_page_order": 962
+}

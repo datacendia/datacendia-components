@@ -1,0 +1,59 @@
+{
+  "id": 6021976,
+  "name": "Doss v. Virginia",
+  "name_abbreviation": "Doss v. Virginia",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11505",
+  "first_page": "884",
+  "last_page": "884",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 884"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 64,
+    "ocr_confidence": 0.561,
+    "sha256": "e8762becf8b1acc583f3683bdbfa35a0f52b0df659abe068670ba65523f30329",
+    "simhash": "1:aaef42e13fec3ffb",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Doss v. Virginia."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Va. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11505.\nDoss v. Virginia."
+  },
+  "file_name": "0884-10",
+  "first_page_order": 906,
+  "last_page_order": 906
+}

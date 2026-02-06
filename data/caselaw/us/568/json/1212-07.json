@@ -1,0 +1,59 @@
+{
+  "id": 12432482,
+  "name": "Price v. Thomas, Commissioner, Alabama Department of Corrections",
+  "name_abbreviation": "Price v. Thomas",
+  "decision_date": "2013-03-04",
+  "docket_number": "No. 12-658",
+  "first_page": "1212",
+  "last_page": "1212",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1212"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 113,
+    "ocr_confidence": 0.673,
+    "sha256": "e11a4debefe45763f5ddc17aa1cb124b83509686e009be660442c61746472785",
+    "simhash": "1:5b79c8238f89b033",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Price v. Thomas, Commissioner, Alabama Department of Corrections."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-658.\nPrice v. Thomas, Commissioner, Alabama Department of Corrections."
+  },
+  "file_name": "1212-07",
+  "first_page_order": 1288,
+  "last_page_order": 1288
+}

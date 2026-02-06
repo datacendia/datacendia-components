@@ -1,0 +1,59 @@
+{
+  "id": 12227765,
+  "name": "LaFaele v. California (two judgments)",
+  "name_abbreviation": "LaFaele v. California",
+  "decision_date": "2011-10-11",
+  "docket_number": "No. 11-5758",
+  "first_page": "950",
+  "last_page": "950",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 950"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 85,
+    "ocr_confidence": 0.632,
+    "sha256": "82f8b143b75ab844e25e57823224fe6e967ceb4d769f043745d1fdb613501467",
+    "simhash": "1:dc0103fe443c1c7f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "LaFaele v. California (two judgments)."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Cal. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5758.\nLaFaele v. California (two judgments)."
+  },
+  "file_name": "0950-11",
+  "first_page_order": 1032,
+  "last_page_order": 1032
+}

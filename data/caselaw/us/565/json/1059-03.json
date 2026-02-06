@@ -1,0 +1,59 @@
+{
+  "id": 12235042,
+  "name": "Michigan v. Fackelman",
+  "name_abbreviation": "Michigan v. Fackelman",
+  "decision_date": "2011-11-28",
+  "docket_number": "No. 11-191",
+  "first_page": "1059",
+  "last_page": "1059",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1059"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 70,
+    "ocr_confidence": 0.626,
+    "sha256": "79d4e8fc67e1b9925f53e8781f6787e092aca8882e8ba8aa33eded6016c33ed1",
+    "simhash": "1:103800e0e4100012",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Michigan v. Fackelman."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Mich. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-191.\nMichigan v. Fackelman."
+  },
+  "file_name": "1059-03",
+  "first_page_order": 1141,
+  "last_page_order": 1141
+}

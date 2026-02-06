@@ -1,0 +1,59 @@
+{
+  "id": 12242554,
+  "name": "Anderson v. JPMorgan Chase & Co. et al.",
+  "name_abbreviation": "Anderson v. JPMorgan Chase & Co.",
+  "decision_date": "2012-01-17",
+  "docket_number": "No. 11-633",
+  "first_page": "1158",
+  "last_page": "1158",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1158"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 87,
+    "ocr_confidence": 0.71,
+    "sha256": "d219544be18b4dd76fef7c449b8d3d85e88488e236c18dd4b8de44fd8cc3dce6",
+    "simhash": "1:194848266302b036",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Anderson v. JPMorgan Chase & Co. et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-633.\nAnderson v. JPMorgan Chase & Co. et al."
+  },
+  "file_name": "1158-07",
+  "first_page_order": 1240,
+  "last_page_order": 1240
+}

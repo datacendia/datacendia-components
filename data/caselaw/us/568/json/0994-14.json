@@ -1,0 +1,59 @@
+{
+  "id": 12421530,
+  "name": "Bouyea v. United States",
+  "name_abbreviation": "Bouyea v. United States",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 12-6545",
+  "first_page": "994",
+  "last_page": "994",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 994"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.729,
+    "sha256": "7bf50fb8972f8cf4a56659c52b4a31fe20f95bfd6be716341a891b97595f4c88",
+    "simhash": "1:2180828bc0951f08",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bouyea v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6545.\nBouyea v. United States."
+  },
+  "file_name": "0994-14",
+  "first_page_order": 1070,
+  "last_page_order": 1070
+}

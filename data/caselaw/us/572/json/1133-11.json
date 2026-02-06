@@ -1,0 +1,68 @@
+{
+  "id": 12706628,
+  "name": "In re Martha A. AKERS, petitioner.",
+  "name_abbreviation": "In re Akers",
+  "decision_date": "2014-05-27",
+  "docket_number": "No. 13M124.",
+  "first_page": "1133",
+  "last_page": "1133",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "572 U.S. 1133"
+    },
+    {
+      "type": "parallel",
+      "cite": "189 L. Ed. 2d 207"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 2691"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 26,
+    "char_count": 146,
+    "sha256": "5317928354b75411d1070061b93287afa7c3d69819f0c8afa352b1a91e9fa632",
+    "simhash": "1:3183d01284ad3679",
+    "word_count": 26
+  },
+  "last_updated": "2021-08-27T20:44:00.426858+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Martha A. AKERS, petitioner."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Motion for leave to proceed as a veteran denied."
+    ],
+    "corrections": "",
+    "head_matter": "In re Martha A. AKERS, petitioner.\nNo. 13M124.\nSupreme Court of the United States\nMay 27, 2014.\nMotion for leave to proceed as a veteran denied."
+  },
+  "file_name": "1133-11",
+  "first_page_order": 1133,
+  "last_page_order": 1133
+}

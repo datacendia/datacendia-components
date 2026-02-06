@@ -1,0 +1,59 @@
+{
+  "id": 5988023,
+  "name": "Lockard v. United States",
+  "name_abbreviation": "Lockard v. United States",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7838",
+  "first_page": "1162",
+  "last_page": "1162",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1162"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.59,
+    "sha256": "c8279773ed030d8db5459574df28b0cb6c1feb8f42b14235c4be792b73a03db6",
+    "simhash": "1:95fbe6a12ba5a05e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lockard v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7838.\nLockard v. United States."
+  },
+  "file_name": "1162-08",
+  "first_page_order": 1184,
+  "last_page_order": 1184
+}

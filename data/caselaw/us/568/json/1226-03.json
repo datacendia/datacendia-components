@@ -1,0 +1,59 @@
+{
+  "id": 12432971,
+  "name": "In re Discipline of FitzGerald",
+  "name_abbreviation": "In re Discipline of FitzGerald",
+  "decision_date": "2013-03-18",
+  "docket_number": "No. D-2710",
+  "first_page": "1226",
+  "last_page": "1226",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1226"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 40,
+    "char_count": 292,
+    "ocr_confidence": 0.551,
+    "sha256": "47e493f800d494ec4322ce0373a769fa0f90d3930216137aa25f0b41bba5ee48",
+    "simhash": "1:738a7332bafab723",
+    "word_count": 52
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of FitzGerald."
+    ],
+    "opinions": [
+      {
+        "text": "Henry St. John FitzGerald, of Arlington, Va., is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2710.\nIn re Discipline of FitzGerald."
+  },
+  "file_name": "1226-03",
+  "first_page_order": 1302,
+  "last_page_order": 1302
+}

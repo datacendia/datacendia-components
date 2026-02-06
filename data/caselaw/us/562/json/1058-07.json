@@ -1,0 +1,59 @@
+{
+  "id": 6028234,
+  "name": "In re Harris",
+  "name_abbreviation": "In re Harris",
+  "decision_date": "2010-11-29",
+  "docket_number": "No. 10-5171",
+  "first_page": "1058",
+  "last_page": "1058",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1058"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 21,
+    "char_count": 143,
+    "ocr_confidence": 0.578,
+    "sha256": "35876ea8cd4a1ac114c993970d5e29a5db00a99c2ab6d0c267a24c1b26a2ca99",
+    "simhash": "1:42f4146a4904af81",
+    "word_count": 23
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Harris."
+    ],
+    "opinions": [
+      {
+        "text": "Motion of petitioner for reconsideration of order denying leave to proceed in forma pauperis [ante, p. 826] denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5171.\nIn re Harris."
+  },
+  "file_name": "1058-07",
+  "first_page_order": 1080,
+  "last_page_order": 1080
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12418898,
+  "name": "Ice v. United States",
+  "name_abbreviation": "Ice v. United States",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 12-6087",
+  "first_page": "955",
+  "last_page": "955",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 955"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.719,
+    "sha256": "713b032e55ef052d5787a103cdba6e831fc770ac277dabe73856c5e7e02eb088",
+    "simhash": "1:9028d10338a1d72b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ice v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6087.\nIce v. United States."
+  },
+  "file_name": "0955-13",
+  "first_page_order": 1031,
+  "last_page_order": 1031
+}

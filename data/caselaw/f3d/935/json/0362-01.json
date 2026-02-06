@@ -1,0 +1,933 @@
+{
+  "id": 12522518,
+  "name": "WAL-MART STORES, INCORPORATED; Wal-Mart Stores Texas, L.L.C.; Sam's East, Incorporated; Quality Licensing Corporation, Plaintiffs - Appellees Cross-Appellants v. TEXAS ALCOHOLIC BEVERAGE COMMISSION; Kevin Lilly, Presiding Officer of the Texas Alcoholic Beverage Commission; Ida Clement Steen, Defendants - Appellants Cross-Appellees Texas Package Stores Association, Incorporated, Movant - Appellant Cross-Appellee",
+  "name_abbreviation": "Wal-Mart Stores, Inc. v. Tex. Alcoholic Beverage Comm'n",
+  "decision_date": "2019-08-15",
+  "docket_number": "No. 18-50299",
+  "first_page": "362",
+  "last_page": "381",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "935 F.3d 362"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "5th Cir.",
+    "id": 8820,
+    "name": "United States Court of Appeals for the Fifth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "760 F.3d 1070",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4148178,
+        4148595
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "1099-1100",
+          "parenthetical": "Holmes, J., concurring"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/760/1070-01",
+        "/f3d/760/1070-02"
+      ]
+    },
+    {
+      "cite": "447 U.S. 27",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6180812
+      ],
+      "weight": 6,
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "42"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/447/0027-01"
+      ]
+    },
+    {
+      "cite": "468 U.S. 263",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11337939
+      ],
+      "weight": 3,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "270",
+          "parenthetical": "considering the constitutionality of a liquor excise tax"
+        },
+        {
+          "parenthetical": "considering the constitutionality of a liquor excise tax"
+        },
+        {
+          "parenthetical": "considering the constitutionality of a liquor excise tax"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/468/0263-01"
+      ]
+    },
+    {
+      "cite": "476 U.S. 573",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12427
+      ],
+      "weight": 3,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "579",
+          "parenthetical": "evaluating the constitutionality of state's lowest-price affirmation provision of alcohol control law"
+        },
+        {
+          "parenthetical": "evaluating the constitutionality of state's lowest-price affirmation provision of alcohol control law"
+        },
+        {
+          "parenthetical": "evaluating the constitutionality of state's lowest-price affirmation provision of alcohol control law"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/476/0573-01"
+      ]
+    },
+    {
+      "cite": "201 L.Ed.2d 1130",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12623272,
+        12623273,
+        12623274,
+        12623271
+      ],
+      "year": 2018,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/139/0052-03",
+        "/s-ct/139/0052-04",
+        "/s-ct/139/0052-05",
+        "/s-ct/139/0052-02"
+      ]
+    },
+    {
+      "cite": "139 S. Ct. 52",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12623270,
+        12623271,
+        12623272,
+        12623273,
+        12623274,
+        12623275
+      ],
+      "year": 2018,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/139/0052-01",
+        "/s-ct/139/0052-02",
+        "/s-ct/139/0052-03",
+        "/s-ct/139/0052-04",
+        "/s-ct/139/0052-05",
+        "/s-ct/139/0052-06"
+      ]
+    },
+    {
+      "cite": "883 F.3d 608",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516087
+      ],
+      "pin_cites": [
+        {
+          "page": "626, 628"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/883/0608-01"
+      ]
+    },
+    {
+      "cite": "449 U.S. 456",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11716456
+      ],
+      "weight": 4,
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "458"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/449/0456-01"
+      ]
+    },
+    {
+      "cite": "589 F. App'x 233",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        4335461
+      ],
+      "weight": 4,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "236"
+        },
+        {
+          "page": "235"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/589/0233-01"
+      ]
+    },
+    {
+      "cite": "665 F.2d 1387",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        472473
+      ],
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "1389",
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/665/1387-01"
+      ]
+    },
+    {
+      "cite": "98 F.3d 860",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7650222
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "868",
+          "parenthetical": "citing Broussard v. Southern Pac. Transp. Co. , 665 F.2d 1387, 1389 (1982) (en banc)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/98/0860-01"
+      ]
+    },
+    {
+      "cite": "429 U.S. 252",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6951
+      ],
+      "weight": 3,
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "266-68"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/429/0252-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1291",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1331",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "712 F.3d 215",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3555334
+      ],
+      "weight": 4,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "223"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/712/0215-01"
+      ]
+    },
+    {
+      "cite": "508 U.S. 307",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11912
+      ],
+      "weight": 3,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "313"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/508/0307-01"
+      ]
+    },
+    {
+      "cite": "900 F.3d 233",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12518190
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "244-45",
+          "parenthetical": "quoting FCC v. Beach Commc'ns, Inc. , 508 U.S. 307, 313, 113 S.Ct. 2096, 124 L.Ed.2d 211 (1993) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/900/0233-01"
+      ]
+    },
+    {
+      "cite": "783 F.3d 197",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4149186
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "202-03"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/783/0197-01"
+      ]
+    },
+    {
+      "cite": "107 S.Ct. 1637",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        6209836
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "95",
+          "parenthetical": "concurring"
+        },
+        {
+          "parenthetical": "concurring"
+        },
+        {
+          "parenthetical": "concurring"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/481/0069-01"
+      ]
+    },
+    {
+      "cite": "538 F.3d 608",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4127191
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "parenthetical": "striking down statute that was discriminatory in effect while citing Pike without addressing the Twenty-first Amendment"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/538/0608-01"
+      ]
+    },
+    {
+      "cite": "666 F.3d 455",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6051156
+      ],
+      "weight": 3,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "467",
+          "parenthetical": "Hamilton, J., concurring"
+        },
+        {
+          "page": "468",
+          "parenthetical": "Hamilton, J., concurring"
+        },
+        {
+          "page": "469",
+          "parenthetical": "Hamilton, J., concurring"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/666/0455-01"
+      ]
+    },
+    {
+      "cite": "397 U.S. 137",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12050581
+      ],
+      "weight": 9,
+      "year": 1970,
+      "pin_cites": [
+        {
+          "page": "142"
+        },
+        {
+          "page": "142"
+        },
+        {
+          "page": "142"
+        },
+        {
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/397/0137-01"
+      ]
+    },
+    {
+      "cite": "437 U.S. 117",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6178010
+      ],
+      "weight": 19,
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "125",
+          "parenthetical": "rejecting claims of disparate treatment because the statute did \"not discriminate against interstate goods\" or favor local companies over interstate companies"
+        },
+        {
+          "parenthetical": "rejecting claims of disparate treatment because the statute did \"not discriminate against interstate goods\" or favor local companies over interstate companies"
+        },
+        {
+          "parenthetical": "rejecting claims of disparate treatment because the statute did \"not discriminate against interstate goods\" or favor local companies over interstate companies"
+        },
+        {
+          "page": "125"
+        },
+        {
+          "page": "126"
+        },
+        {
+          "page": "128"
+        },
+        {
+          "page": "127"
+        },
+        {
+          "page": "125-26"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/437/0117-01"
+      ]
+    },
+    {
+      "cite": "264 F.3d 493",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9483891
+      ],
+      "weight": 10,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "500-01",
+          "parenthetical": "rejecting discriminatory purpose argument because \"the legislative history indicate[d] the legislature's intent to prevent manufacturers from utilizing their superior market position to compete against dealers in the retail car market\""
+        },
+        {
+          "page": "501"
+        },
+        {
+          "page": "502"
+        },
+        {
+          "page": "500"
+        },
+        {
+          "page": "501",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "503",
+          "parenthetical": "finding the plaintiff \"failed to demonstrate that [the statute] will burden commerce by inhibiting the flow of interstate goods\""
+        },
+        {
+          "page": "500-02",
+          "parenthetical": "relying on Exxon and rejecting discriminatory effect argument"
+        },
+        {
+          "page": "512",
+          "parenthetical": "Jones, J., concurring"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/264/0493-01"
+      ]
+    },
+    {
+      "cite": "486 F. Supp. 2d 626",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        4083771
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "633"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/486/0626-01"
+      ]
+    },
+    {
+      "cite": "11 F.3d 547",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11316231
+      ],
+      "weight": 2,
+      "year": 1994,
+      "pin_cites": [
+        {
+          "parenthetical": " Cooper I "
+        },
+        {
+          "page": "550-51, 554"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/11/0547-01"
+      ]
+    },
+    {
+      "cite": "544 U.S. 460",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5881890
+      ],
+      "weight": 5,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "487"
+        },
+        {
+          "page": "488-89"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/544/0460-01"
+      ]
+    },
+    {
+      "cite": "486 U.S. 269",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6215556
+      ],
+      "weight": 3,
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "273"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/486/0269-01"
+      ]
+    },
+    {
+      "cite": "139 S. Ct. 2449",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12620790
+      ],
+      "weight": 14,
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "2459"
+        },
+        {
+          "page": "2459"
+        },
+        {
+          "page": "2472",
+          "parenthetical": "alteration in original"
+        },
+        {
+          "page": "2461",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "2456"
+        },
+        {
+          "page": "2457"
+        },
+        {
+          "page": "2457"
+        },
+        {
+          "page": "2476"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/139/2449-01"
+      ]
+    },
+    {
+      "cite": "456 U.S. 273",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6185889
+      ],
+      "weight": 4,
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "292"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/456/0273-01"
+      ]
+    },
+    {
+      "cite": "830 F.3d 216",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5926243
+      ],
+      "weight": 12,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "229",
+          "parenthetical": "en banc"
+        },
+        {
+          "page": "230",
+          "parenthetical": "quotation marks omitted"
+        },
+        {
+          "page": "231",
+          "parenthetical": "applying the Arlington factors"
+        },
+        {
+          "parenthetical": "quotation marks omitted"
+        },
+        {
+          "page": "232"
+        },
+        {
+          "page": "234"
+        },
+        {
+          "page": "232"
+        },
+        {
+          "page": "235"
+        },
+        {
+          "page": "232",
+          "parenthetical": "noting that \"relatively contemporary examples of discrimination identified by the district court are limited in their probative value in connection with discerning the Texas Legislature's intent\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/830/0216-01"
+      ]
+    },
+    {
+      "cite": "138 S. Ct. 2305",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12612979
+      ],
+      "weight": 8,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "2326"
+        },
+        {
+          "page": "2324"
+        },
+        {
+          "page": "2324"
+        },
+        {
+          "page": "2325"
+        },
+        {
+          "page": "2326"
+        },
+        {
+          "page": "2327"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/2305-01"
+      ]
+    },
+    {
+      "cite": "495 F.3d 151",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3564450
+      ],
+      "weight": 26,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "160"
+        },
+        {
+          "page": "160-62"
+        },
+        {
+          "page": "160"
+        },
+        {
+          "page": "160"
+        },
+        {
+          "page": "161"
+        },
+        {
+          "page": "160"
+        },
+        {
+          "page": "160-61"
+        },
+        {
+          "page": "161-62",
+          "parenthetical": "rejecting Allstate's discriminatory purpose argument because the evidence indicated only a desire to treat business forms differently, without regard to location"
+        },
+        {
+          "page": "155"
+        },
+        {
+          "page": "156"
+        },
+        {
+          "page": "157"
+        },
+        {
+          "page": "162"
+        },
+        {
+          "page": "163"
+        },
+        {
+          "page": "163"
+        },
+        {
+          "parenthetical": "quotation marks omitted"
+        },
+        {
+          "parenthetical": "quotation marks omitted"
+        },
+        {
+          "page": "163-64"
+        },
+        {
+          "page": "160"
+        },
+        {
+          "page": "162-63",
+          "parenthetical": "relying on Exxon and rejecting discriminatory effect argument"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/495/0151-01"
+      ]
+    },
+    {
+      "cite": "612 F.3d 809",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3701041
+      ],
+      "weight": 2,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "818-19",
+          "parenthetical": "noting that Texas has a three-tier system \"in which producers sell to state-licensed wholesalers, who sell to state-licensed retailers\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/612/0809-01"
+      ]
+    },
+    {
+      "cite": "834 F.3d 562",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6055413
+      ],
+      "year": 2016,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/834/0562-01"
+      ]
+    },
+    {
+      "cite": "42 U.S.C. \u00a7 1983",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1916,
+    "char_count": 57334,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2595427378198497
+    },
+    "sha256": "d83b21357256c7ef30938288c09afdc4b07aca86f1d3f4d1d73e33b7f3c6b1ad",
+    "simhash": "1:91b4ce8aaabbdf43",
+    "word_count": 8841
+  },
+  "last_updated": "2024-02-27T18:47:13.464613+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before DAVIS, HAYNES, and GRAVES, Circuit Judges."
+    ],
+    "parties": [
+      "WAL-MART STORES, INCORPORATED; Wal-Mart Stores Texas, L.L.C.; Sam's East, Incorporated; Quality Licensing Corporation, Plaintiffs - Appellees Cross-Appellants\nv.\nTEXAS ALCOHOLIC BEVERAGE COMMISSION; Kevin Lilly, Presiding Officer of the Texas Alcoholic Beverage Commission; Ida Clement Steen, Defendants - Appellants Cross-Appellees"
+    ],
+    "opinions": [
+      {
+        "text": "JAMES E. GRAVES, JR., Circuit Judge:\nPlaintiff-Appellee Wal-Mart Stores, Incorporated and three of its subsidiaries (collectively, \"Walmart\"), brought 42 U.S.C. \u00a7 1983 claims against the Texas Alcoholic Beverage Commission and three of its commissioners (collectively, the \"TABC\"), to challenge four Texas statutes ( Tex. Alco. Bev. Code \u00a7\u00a7 22.04, 22.05, 22.06, 22.16 ) that govern the issuances of permits that allow for the retail sale of liquor in Texas (called \"package store\" permits, or \"P permits\"). Section 22.16 prohibits public corporations from obtaining P permits in Texas. Walmart argued that the ban violates the dormant Commerce Clause of the United States Constitution and the Equal Protection Clause of the Fourteenth Amendment. Later, we granted the Texas Package Store Association's (\"TPSA\") motion to intervene as a matter of right, in defense of the statutes. See Wal-Mart Stores, Inc. v. Tex. Alcoholic Beverage Comm'n, 834 F.3d 562 (5th Cir. 2016).\nWe now consider the TABC and TPSA's (\"appellants\") appeal of the district court's conclusion that the public corporation ban offends the dormant Commerce Clause, and Walmart's cross-appeal of the district court's determination that the public corporation ban does not violate the Equal Protection Clause. We affirm the part of the district court's judgment rejecting Walmart's Equal Protection challenge to the public corporation ban. Conversely, because the district court erred in its findings regarding the discriminatory nature and burden imposed by the public corporation ban, Walmart's dormant Commerce Clause challenge to \u00a7 22.16 is remanded.\nI. Facts\nA.\nTexas regulates the sale and importation of alcoholic beverages through a three-tier system that requires separate licenses and permits for producers, wholesalers, and retailers who meet certain eligibility requirements. See Wine Country Gift Baskets.com v. Steen , 612 F.3d 809, 818-19 (5th Cir. 2010) (noting that Texas has a three-tier system \"in which producers sell to state-licensed wholesalers, who sell to state-licensed retailers\"). Liquor retailers must obtain a separate permit for each physical location where liquor is sold for off-premises consumption. The permits authorize an unlimited volume of sales from the permitted location. The TABC is the state agency responsible for issuing permits and enforcing the Texas Alcoholic Beverage Code. The TPSA is the trade association of Texas package stores that are majority-owned by Texans.\nThere is one permit relevant to this appeal. P permits authorize the sale of liquor, wine, and ale for off-premises consumption. Tex. Alco. Bev. Code \u00a7 22.01. Texas liquor stores must hold a P permit.\nAt the time of this litigation, there were 2,578 active P permits issued by the TABC, and 574 were owned by a package store chain (a business holding six or more P permits). There were 21 active package store chains. Since 1944, package store chains have grown in size and volume of sales, although the total number of package stores has remained approximately the same. The package store chains have a significant share of the Texas market, but it is not clear how much. The largest package store chains control seven of the nine seats on the TPSA's executive committee.\nB.\nTexas' public corporation ban proscribes \"any entity which is directly or indirectly owned or controlled, in whole or in part, by a public corporation\" from obtaining a P permit. Tex. Alco. Bev. Code \u00a7 22.16(a). The statute defines a \"public corporation\" as a corporation \"whose shares ... are listed on a public stock exchange\" or \"in which more than 35 persons hold an ownership interest.\" Id. \u00a7 22.16(b). Public corporations can hold any of the other seventy-five types of alcohol permits that Texas issues.\nWalmart is a retailer that is the largest public company in the world. Operating approximately 5,000 stores in the U.S., Walmart currently sells beer or wine in forty-seven states, including 668 locations in Texas, and liquor in thirty-one states. Walmart's goal is to increase its sales and profits from alcoholic beverages in Texas. Walmart has plans to open liquor stores adjacent to some of its existing Texas retail locations. However, because it is a publicly traded corporation without a majority shareholder, Walmart cannot implement its plan unless the public corporation ban is invalidated.\nWalmart unsuccessfully lobbied the Texas Legislature to repeal \u00a7 22.16. After its failed attempt to obtain a legislative remedy, Walmart sued the TABC in federal court to have the judiciary neutralize the public corporation ban, and this court subsequently granted the TPSA's motion to intervene.\nAfter a week-long bench trail, the district court concluded, inter alia , that the public corporation ban: (1) has a discriminatory purpose and the ban's burden on interstate commerce is clearly excessive when compared to the local benefits, and (2) does not violate the Equal Protection Clause. The district court enjoined the TABC from enforcing the public corporation ban. This appeal and cross-appeal followed. We consider whether the public corporation ban is unconstitutional under the dormant Commerce Clause and the Equal Protection Clause.\nII. Standards of Review\nWe review a district court's judgment regarding the constitutionally of a statute de novo. Allstate Ins. Co. v. Abbott , 495 F.3d 151, 160 (5th Cir. 2007). The district court's findings of fact relevant to the constitutional question are reviewed for clear error. Id. Because this case involves a dormant Commerce Clause challenge, one threshold issue is whether the public corporation ban was enacted with the purpose to discriminate against interstate commerce. Id. at 160-62. In Allstate , this court applied the Arlington factors to determine whether purposeful discrimination inspired a state legislature's actions in violation of the dormant Commerce Clause. Therefore, we do the same. \"[A] district court's finding of fact on the question of discriminatory intent is reviewed for clear error.\" Abbott v. Perez , --- U.S. ----, 138 S. Ct. 2305, 2326, 201 L.Ed.2d 714 (2018). \"If the district court's findings are plausible in light of the record viewed in its entirety, we must accept them, even though we might have weighed the evidence differently if we had been sitting as a trier of fact.\" Veasey v. Abbott , 830 F.3d 216, 229 (5th Cir. 2016) (en banc) (quotation marks omitted). \"However, when the district court's 'findings are infirm because of an erroneous view of the law, a remand is the proper course unless the record permits only one resolution of the factual issue.' \" Id. (quoting Pullman-Standard v. Swint , 456 U.S. 273, 292, 102 S.Ct. 1781, 72 L.Ed.2d 66 (1982) ). In the latter case, we should reverse and render a decision. Id.\nIII. Challenges\nA.\nThe Supreme Court has long held that the Commerce Clause \"prohibits state laws that unduly restrict interstate commerce.\" Tennessee Wine & Spirits Retailers Ass'n v. Thomas , --- U.S. ----, 139 S. Ct. 2449, 2459, 204 L.Ed.2d 801 (2019). This interpretation is known as the dormant Commerce Clause. \" 'This negative aspect of the Commerce Clause' prevents the States from adopting protectionist measures and thus preserves a national market for goods and services.\" Tennessee Wine , 139 S. Ct. at 2459 (quoting New Energy Co. of Ind. v. Limbach , 486 U.S. 269, 273, 108 S.Ct. 1803, 100 L.Ed.2d 302 (1988) ).\n\"A statute violates the dormant Commerce Clause where it discriminates against interstate commerce either facially, by purpose, or by effect.\" Allstate , 495 F.3d at 160. Given that this case involves a law that regulates liquor retailers, the dormant Commerce Clause analysis must be considered in light of the Twenty-first Amendment. Section 2 of the Amendment grants states the authority to regulate the transportation, importation, possession, and use of alcohol within their own borders. See U.S. Const. amend. XXI, \u00a7 2.\nRecently, in Tennessee Wine , the Court reaffirmed what this court had previously concluded: Section 2 does not grant states the power to violate the \"nondiscrimination principle\" of the dormant Commerce Clause. 139 S. Ct. at 2470 (citing Granholm v. Heald , 544 U.S. 460, 487, 125 S.Ct. 1885, 161 L.Ed.2d 796 (2005) ). The Court acknowledged that, under \u00a7 2, states \"remai[n] free to pursue their legitimate interests\" in addressing the health and safety risks associated with the alcohol trade. Id. at 2472 (alteration in original) (quotation marks omitted). Therefore, \"each variation [of law] must be judged based on its own features.\" Id.\nThe Court clarified the standard for evaluating a discriminatory alcohol-related regulation, charging courts to \"ask whether the challenged [discriminatory] requirement can be justified as a public health or safety measure or on some other legitimate nonprotectionist ground.\" Id. at 2474. The standard has teeth. \"[M]ere speculation\" or \"unsupported assertions\" of fact are insufficient to validate an otherwise discriminatory law. Id. If the \"predominant effect\" of the discriminatory law is protectionism and not \"the protection of public health or safety,\" the law is not shielded by \u00a7 2. Id. at 2474. In conducting the inquiry, courts must look for \"concrete evidence\" that the statute \"actually promotes public health or safety,\" or evidence that \"nondiscriminatory alternatives would be insufficient to further those interests.\" Id.\nSection 22.16 is a facially neutral statute that bans all public corporations from obtaining P permits irrespective of domicile. Therefore, we focus on whether the ban was enacted with a discriminatory purpose or has a discriminatory effect on interstate commerce.\nB.\nAlthough the district court correctly cited the Arlington framework, some of its discriminatory purpose \"findings are infirm.\" Veasey , 830 F.3d at 230 (quotation marks omitted). The record does not support \"only one resolution of the factual issue,\" as there is evidence that could support the district court's finding of a purpose to discriminate, so we must remand for a reweighing of the evidence on that issue. Id.\n\"The burden of establishing that a challenged statute has a discriminatory purpose under the Commerce Clause falls on the party challenging the provision.\" Allstate , 495 F.3d at 160. We consider the following non-exhaustive factors when determining whether a state legislature's actions amount to purposeful discrimination against interstate commerce: (1) whether the effect of the state action creates a clear pattern of discrimination; (2) the historical background of the action, which may include any history of discrimination by the decisionmakers; (3) the \"specific sequence of events leading up\" to the challenged state action, including (4) any \"departures from normal procedures[;]\" and (5) \"the legislative or administrative history of the state action, including contemporary statements by decisionmakers.\" Id. Legislators' awareness of a discriminatory effect \"is not enough: the law must be passed because of\" that discriminatory effect. Veasey , 830 F.3d at 231 (applying the Arlington factors). The challenger must show that the discriminatory effect was \"a substantial or motivating factor\" leading to the enactment of the statute. Id. (quotation marks omitted). If the challenger meets that burden, defendants must \"demonstrate that the law would have been enacted without this factor.\" Id.\nFirst, the district court properly found that Texas has a clear history of discriminating against out-of-state alcohol retailers. From the passage of its Liquor Control Act in 1935, Texas had prohibited out-of-state individuals and companies from owning package stores. In Cooper v. McBeath , this court invalidated Texas laws imposing durational residency requirements on alcohol retail store owners. 11 F.3d 547 (5th Cir. 1994) ( Cooper I ) . While Cooper I was pending, the Texas Legislature enacted House Bill 1445, in an attempt to moot the Cooper I litigation. The bill repealed the residency requirements at issue in the case. Texas kept durational residency requirements for other permits. Soon after the governor of Texas signed the bill, the Cooper I plaintiffs moved to dismiss the appeal as moot. However, this court denied the motion and issued an opinion striking down the residency requirements, with language broad enough to apply to all the alcohol permits. Id. at 550-51, 554. Despite the Cooper I decision, Texas enforced durational residency requirements as applied to P permits for another twelve years-stopping enforcement only after the practice was permanently enjoined by a federal district court. S. Wine & Spirits of Texas, Inc. v. Steen , 486 F. Supp. 2d 626, 633 (W.D. Tex. 2007). The evidence relied on by the district court was \"not long past history.\" Veasey , 830 F.3d at 232. Texas decisionmakers have a history of discrimination.\nAddressing a second factor, the district court erred in finding that the legislative history of \u00a7 22.16 includes direct evidence of a purpose to discriminate against interstate commerce. The district court made much of the fact that \u00a7 22.16 was enacted in 1995, one year after Cooper I . A lawyer and lobbyist who worked on behalf of the TPSA drafted the corporation ban. The TPSA, which had vigorously defended the residency requirements struck down by this court, later admitted that there was a fear that \"large stores could disrupt what had been a very stable business climate\" and there could be a \"Wal-Martization\" of the Texas package store market. Further, the Texas legislature was aware that, but for the Cooper I decision, the TPSA would not have suggested and supported the public corporation ban.\nBased largely on those findings regarding the conduct and motivations of the TPSA, the district court concluded that the Texas legislature enacted the public corporation ban with the same protectionist motivations. This despite the provision's drafter testifying that he told legislators the purpose of the bill was accountability. He was the only witness at the committee hearings and told the legislators that the purpose of the bill was to promote accountability, or \"to have real human beings who are easily identifiable, who are close to the business, and who ultimately bear personal responsibility for the actions of the package store.\" Years later-at trial-he admitted that he \"knew that any bill [enacted] might be challenged\" and that his \"assignment was to craft a bill which ... would survive a commerce clause challenge.\" The district court determined that the \"TPSA's chief concern was maintaining the business climate created by the residency requirement,\" and that the legitimate rationales concerning accountability were \"pretextual.\" However, in Veasey , we reiterated that overreliance on \"post-enactment testimony\" from actual legislators is problematic, and not \"the best indicia of the Texas Legislature's intent.\" Veasey , 830 F.3d at 234. In light of Veasey , after-the-fact statements made by a non-legislator are certainly not sufficient indicia of legislative intent.\nThe district court did not find evidence connecting any Texas legislator to the conclusion that the accountability rationale was pretextual. The only comments from a Texas legislator the district court relied on were made by state Senator Kenneth Armbrister. When asked to explain the purpose of the public corporation ban, Armbrister stated that the ban meant \"you can't have a package store inside a Walmart\" and \"Walmart can't own the package store.\" As the district court noted, during the senate floor debate on Senate Bill 1063 (which became \u00a7 22.16 ), Armbrister agreed with state Senator Henderson's remark that the Legislature \"wanted to have somebody from Texas with a license that you could get ahold of ... to enforce the code.\"\nHowever, the district court did not provide the context of the senators' statements. Armbrister and Henderson were engaged in a discussion about the motivation for the public corporation ban when Armbrister stated that the purpose was to have a better way to \"track\" package store owners. Specifically, Armbrister stated, \"I think what\" both \"the industry ... and the [TABC] was trying to do is a better tracking system, because ... you've got large-scale corporations that operate ... it all ties in to(sic) the operation phase.\" Henderson replied by explaining that a corporation could own a package store by obtaining the permit through a local licensee (presumably because Texas previously had enforceable durational-residency requirements), referring to the mechanism employed by corporations as a \"fake-a-roo.\" Next, Armbrister attempted to explain some exemptions to the ban when Henderson replied that the \"fake-a-roo\" was used because the legislators previously wanted only people from Texas to hold P permits \"to enforce the code.\"\nSignificantly, Henderson asked Armbrister, \"It's not the bill ... that keeps foreign ownership from coming in and ... getting licenses, that kind of thing?\" (emphasis added). To which Armbrister answered, \"No. Those ... both those bills are still pending in committee.\" Henderson replied, \"Good. Thank you.\" Near the close of the floor debate, the Texas Senate voted to pass the bill. The floor debate was devoid of discriminatory remarks directed toward out-of-state competition generally. The transcript reveals that there were entirely separate bills being advanced to address foreign owners. Moreover, the \"Explanations and Arguments\" in support of Senate Bill 1063 indicate that the reason for the ban was to ensure that owners were known to the community and \"could be held accountable for responsible operation.\" The document further states, \"Courts have recently struck down ... Texas resident law saying that it penalized out of state citizens\" but there remained a need to have a human who is easily identifiable and responsible for the actions of a given package store business. The legislative history is merely \"evidence of a legislative desire to treat differently two business forms ... a distinction based not on domicile but on business form.\" Allstate , 495 F.3d at 161.\nThere is no direct evidence of a discriminatory purpose in the legislative history; Plaintiffs rely on circumstantial evidence. The motivations and lobbying efforts of the TPSA are not direct evidence of legislative purpose. An admission that the drafter sought to create a law that would survive a constitutional challenge is not evidence of a discriminatory legislative purpose. There are no \"stray protectionist remarks\" in the legislative history, and even if there were, such remarks \"are insufficient to condemn\" an otherwise nondiscriminatory statute. Id.\nTurning to a third factor, the district court failed to apply the \"presumption of legislative good faith\" in finding that the sequence of events that led to the enactment of \u00a7 22.16 evidences a discriminatory purpose. Perez , 138 S. Ct. at 2324. In line with the district court, Walmart relies on the Texas Legislature's failed attempt to moot Cooper I during the 1993 session and the Legislature's enactment of the public corporation ban during the 1995 session. The TABC argues that it is irrelevant that the corporation ban was enacted in response to Cooper I . TPSA argues that the district court's conclusion based in part on post- Cooper I conduct is inconsistent with controlling case law.\nIn Perez , the Supreme Court made it clear that \"[t]he allocation of the burden of proof and the presumption of legislative good faith are not changed by a finding of past discrimination.\" Id. at 2324. Past discrimination is merely one potential evidentiary source. Id. The district court specifically found that \"if not for the Fifth Circuit striking down Texas's residency requirement, TPSA would not have proposed, and the Legislature would not have enacted, the ban on public corporations holding package store permits.\"\nWhile that finding might be true, there are problems with concluding those events evidence a purpose to discriminate. As stated previously, the TPSA's motivations and actions are not sufficient indicia of legislative intent. As a result, the only remaining evidence is the Texas Legislature's actions in support of a discriminatory purpose during Cooper I . The district court flipped \"the evidentiary burden on its head\" based only on the recent history of discrimination. Id. at 2325. More than requiring Walmart to present specific events evidencing a discriminatory purpose connected to the public corporation ban, the district court placed the burden on appellants to provide evidence that the Texas Legislature had a true \"change of heart\" with respect to the residency requirements while enacting a ban that affects public corporations irrespective of location. Id. at 2326.\nThe burden flip was especially problematic because the district court's findings arguably indicate that the Legislature sought to comply with the demands of the dormant Commerce Clause. The district court noted that Texas did not stop enforcing durational residency requirements as applied to package store owners until 2007, more than twelve years after \u00a7 22.16 was enacted. This also meant that the public corporation ban was enforced against Texas corporations while Texans still believed it was proper to deny would-be package store owners from outside the state. As far as the record reveals, Texas corporations were the only companies affected by the public corporation ban for at least a decade after it was enacted. In any event, the district court committed clear error by failing to apply a presumption of good faith to the enactment of the public corporation ban.\nThe previously noted errors are further compounded because the district court misapplied the first Arlington factor. The first factor asks whether \"a clear pattern of discrimination emerges from the effect of the state action.\" Allstate , 495 F.3d at 160. The district court found that the corporation ban had the \"effect of barring nearly all out-of-state companies with the scale and capabilities necessary to serve the Texas retail liquor market.\" That finding does not answer the relevant question. For this dormant Commerce Clause inquiry, the question is: Does the legislative action affect Walmart based on its status as an out-of-state public corporation? See Allstate , 495 F.3d at 160-61. This error highlights a general flaw throughout the district court's findings.\nThe evidence indicates that the Legislature intended to ban public corporations from obtaining P permits after the state lost its ability to enforce the durational residency requirements for other permits. Based on the optics, the district court made several assertions without considering a critical point: Under the law of the Fifth Circuit, evidence that legislators intended to ban potential permittees based on company form alone is insufficient to meet the purpose element of a dormant Commerce Clause claim. See Allstate , 495 F.3d at 161-62 (rejecting Allstate's discriminatory purpose argument because the evidence indicated only a desire to treat business forms differently, without regard to location); Ford Motor Co. v. Texas Dep't of Transp. , 264 F.3d 493, 500-01 (5th Cir. 2001) (rejecting discriminatory purpose argument because \"the legislative history indicate[d] the legislature's intent to prevent manufacturers from utilizing their superior market position to compete against dealers in the retail car market\"); see also Exxon Corp. v. Maryland , 437 U.S. 117, 125, 98 S.Ct. 2207, 57 L.Ed.2d 91 (1978) (rejecting claims of disparate treatment because the statute did \"not discriminate against interstate goods\" or favor local companies over interstate companies). Section 22.16 bans public corporations from obtaining P permits irrespective of location. The ban's effect on all public corporations provides strong evidence that the Legislature did not purposefully discriminate against out-of-state corporations.\nWhile the district court committed several errors in finding that the Legislature adopted the public corporation ban with a purpose to discriminate against interest commerce, the record also contains circumstantial evidence that could support such a finding. As acknowledged, Texas has a history of discriminating against out-of-state alcohol retailers. That history has significant \"probative value in connection\" with the discriminatory purpose inquiry. Veasey , 830 F.3d at 232. However, affirming the district court's finding of a purpose to discriminate based on the history alone would create an odd result. States should be able to respond to a court deeming one of its laws unconstitutional. In addition, the present inquiry is further complicated because Texas enforced durational residency requirements against would be P permit holders for years after the public corporation ban was enacted. In this context, overreliance on the history alone would be a mistake. In line with Veasey , and the Supreme Court's analysis in Perez , the history of discrimination should be weighed \"with any other direct and circumstantial evidence of th[e] Legislature's intent.\" Perez , 138 S. Ct. at 2327.\nThe district court committed errors in its findings with respect to the other Arlington factors. The appropriate action is to remand the discriminatory purpose issue for reconsideration in light of this opinion. See Veasey , 830 F.3d at 235 (explaining that discriminatory intent is a factual matter that, when set aside for an error of law, should be remanded for further proceedings).\nC.\nMoving on in the dormant Commerce Clause analysis, the district court found that the public corporation ban does not have a discriminatory effect. The district court reached that determination by following Allstate , Ford , and Exxon .\nExxon is the controlling dormant Commerce Clause case for considering a facially neutral statute that bans particular companies from a retail market. In Exxon , oil companies brought a dormant Commerce Clause challenge to invalidate a Maryland statute prohibiting producers and refiners of petroleum products from operating retail service stations in the state. The oil companies argued that the statute had the effect of protecting in-state independent dealers from out-of-state competition. Exxon , 437 U.S. at 125, 98 S.Ct. 2207. The plaintiffs relied on the fact that the burden of the prohibition fell solely on interstate companies. Id.\nThe Supreme Court rejected the argument and explained that because \"the burden of [a] state regulation falls on some interstate companies does not, by itself, establish a claim of discrimination against interstate commerce.\" Id. at 126, 98 S.Ct. 2207. The Court's reasoning was based on the following factors: (1) The prohibition did not restrict interstate dealers in the retail market; (2) did not restrict the flow of interstate goods; (3) did not place added costs on interstate goods; and (4) did not distinguish between in-state and out-of-state retailers in the market. Id. The Court declared that the absence of those factors \"distinguishe[d] th[e] case from those in which a State has been found to have discriminated against interstate commerce.\" Id. A burden on some interstate companies is not a violation if \"in-state [retailers] will have no competitive advantage over out-of-state [retailers].\" Id.\nIn Ford, this court considered Exxon and rejected the plaintiff's discriminatory effect argument. The case involved a Texas statute that banned automobile manufacturers from obtaining a license to become car dealers in the state. This court explained that a statute should be examined by \"its effect on similarly situated business entities.\" Ford , 264 F.3d at 501. Ford had failed to show that the Texas statute in question \"discriminate[d] according to the extent of a business entity's contacts with the State. ... [B]ut rather [showed discrimination] on the basis of Ford's status as an automobile manufacturer.\" Id. at 502. It was irrelevant whether Ford is domiciled in Texas or Michigan. Id. Either way, Ford was proscribed from entering the Texas automobile retail market. The statute, however, did not discriminate against independent automobile dealers seeking to enter the Texas market. Id. Even if the statute \"prevent[ed] manufacturers from utilizing their superior market position to compete against dealers in the retail car market[,]\" the statute did not have a discriminatory effect on interstate commerce. Id. at 500. A statute can have a discriminatory effect if it provides a \"competitive advantage to in-state interests vis-\u00e0-vis similarly situated out-of-state interests.\" Id. at 501 (emphasis added).\nAllstate is the most recent of the controlling cases. Allstate, which controlled approximately 15% of the automobile insurance market in Texas, initiated a plan to enter the auto body repair business by acquiring Sterling Collision Centers, Inc. (\"Sterling\"). Sterling was a multi-state chain of repair shops, including 15 shops in Texas. 495 F.3d at 155. Allstate believed it could minimize expenses for unnecessary or overpriced repairs, and eventually started funneling repair opportunities to Sterling instead of other local repair shops. Id. Texas later passed a bill that barred insurers from acquiring an interest in auto body shops. Id. at 156. Allstate later filed suit, arguing in part that the bill violated the dormant Commerce Clause. Allstate chiefly argued that the bill was part of a coordinated political effort to hurt its Sterling venture and to maintain the market dominance of local Texas body shops. Id. The district court rejected the claim. Id. at 157.\nOn appeal, the plaintiffs argued that the bill had a discriminatory effect because it favored in-state companies and would shift some services from out-of-state providers to in-state providers. 495 F.3d at 162. Relying principally on Exxon , this court rejected the discriminatory effect argument, stating that \"[a] statute impermissibly discriminates only when it discriminates between similarly situated in-state and out-of-state interests.\" Id. at 163.\nIn the present case, the public corporation ban treats in-state and out-of-state public corporations the same. Neither in-state nor out-of-state public corporations may obtain a P permit or own a package store. There are \"no barriers whatsoever to out-of-state\" companies obtaining P permits so long as they are not a public corporation as defined by the statute. Allstate , 495 F.3d at 163. Further, \u00a7 22.16 does not \"prohibit the flow of interstate [liquor retail products], place additional costs upon [out-of-state retailers], or distinguish between in-state and out-of-state companies in the retail market.\" Id. (quotation marks omitted). \"[T]he absence of any of these factors fully distinguishes this case from those in which a State has been found to have discriminated against interstate commerce.\" Id. (quotation marks omitted). As the district court noted, Texas-based public corporations are prohibited from selling liquor in the state. Meanwhile, several companies owned by out-of-state residents have entered the Texas liquor retail market, including one of the ten largest liquor retailers in the state. Despite the fact that the public corporation ban undoubtedly blocks some economic actors from entering the Texas liquor retail market, we agree with the district court that the ban does not have a discriminatory effect on interstate commerce.\nBecause the district court committed clear error in finding that \u00a7 22.16 was enacted with a purpose to discriminate against interstate commerce, and given that we have concluded that the facially neutral ban does not have a discriminatory effect, we must remand this case for reconsideration of whether the ban was enacted with a discriminatory purpose.\nD.\nThe district court analyzed another means by which it concluded could invalidate a statute under the dormant Commerce Clause even if the statute did not discriminate facially, in purpose or in effect. The district court concluded that \"a law that does not directly discriminate against interstate commerce\" can still violate the dormant Commerce Clause if it imposes a burden on interstate commerce that is \"clearly excessive\" in relation to the \"putative local benefits.\" Pike v. Bruce Church, Inc. , 397 U.S. 137, 142, 90 S.Ct. 844, 25 L.Ed.2d 174 (1970). The district court determined that \u00a7 22.16 violates the dormant Commerce Clause under the Pike test. We conclude that remand is needed on this ground as well.\nA court should consider: (1) whether the law burdens interstate commerce; (2) whether there is a \"legitimate local interest\" in the law; and (3) when both are present, if the extent of the burden should be tolerated based on the local interest involved, including if the interest \"could be promoted as well with a lesser impact on interstate activities.\" The inquiry is known as the Pike balancing test. Churchill Downs , 589 F. App'x at 237. When applying the Pike test in this context, \"[a] statute imposes a burden when it inhibits the flow of goods interstate.\" Allstate , 495 F.3d 151. Having already held that the public corporation ban was enacted with a purpose to discriminate, the district court further concluded that \"the burden imposed on [interstate] commerce\" by the public corporation ban \"is clearly excessive in relation to the putative local benefits.\" Pike , 397 U.S. at 142, 90 S.Ct. 844.\nAppellants argue that the Pike test does not apply to a nondiscriminatory regulation of alcohol beverage retailing under the Twenty-first Amendment. Walmart contends that the controlling case law is clear that Pike can be applied to alcohol-related laws despite the Twenty-first Amendment.\nThe Supreme Court has not considered the issue. Further, none of our sister circuits have struck down a state regulation of liquor under Pike while also concluding that the Twenty-first Amendment applied. See Lebamoff Enterprises, Inc. v. Huskey , 666 F.3d 455, 467 (7th Cir. 2012) (Hamilton, J., concurring) (\"What we do not find is a case applying Pike balancing and holding that a non-discriminatory state alcohol law flunks.\"). Compare Baude v. Heath , 538 F.3d 608 (7th Cir. 2008) (striking down statute that was discriminatory in effect while citing Pike without addressing the Twenty-first Amendment) with Lebamoff , 666 F.3d at 468 (Hamilton, J., concurring) (\"The Baude opinion does not, however, provide a persuasive basis for applying Pike balancing to nondiscriminatory state alcohol laws.\"). Application of Pike in the face of \u00a7 2 of the Twenty-first Amendment is questionable in light of the Court's recent declaration that states \"remai[n] free to pursue\" legitimate interests aimed at regulating the ill-effects and risks associated with the alcohol trade. Tennessee Wine , 139 S. Ct. at 2472 (alteration in original) (quotation marks omitted).\nHowever, in Tennessee Wine , the Court \"reiterate[d] that the Commerce Clause by its own force restricts state protectionism.\" 139 S. Ct. at 2461 (emphasis added). While that is an ambiguous statement from a case involving a facially discriminatory provision, it is a signal that we need not get ahead of the Court by concluding that Pike balancing cannot be applied to a facially neutral regulation of alcohol retailing. So we proceed with the test.\nThe inquiry ends at our first step in the analysis. The district court determined that the public corporation ban places a substantial burden on interstate commerce because it protects package stores owned by Texas residents from out-of-state market entrants. The district court relied on evidence that 98% of the package stores in Texas are owned by in-state residents. Additionally, Walmart provided evidence that numerous out-of-state companies would enter the Texas liquor retail market if the ban was not in place. Appellants argued that the ban places an equal burden on in-state companies, presenting evidence that the number of publicly traded companies domiciled in Texas that are barred by the ban is roughly proportional to Texas' share of the national population and national economy. The district court rejected appellants' evidence and declared that \"assessing disparate impact requires the Court to measure the effect the public corporation ban has on the in-state and out-of-state companies that would otherwise serve the market if not for the ban.\" There is no authority which supports that conclusion.\nThe district court's analysis overlooks the controlling precedent. In Exxon , the Court instructed that the Commerce \"Clause protects the interstate market , not particular interstate firms .\" Exxon , 437 U.S. at 128, 98 S.Ct. 2207 (emphases added). The Court explained that interstate commerce is not \"subjected to an impermissible burden\" because some potential participants are shifted out of the in-state market. Id. at 127, 98 S.Ct. 2207. As noted in Allstate , \"[t]he Supreme Court has 'rejected the notion that the Commerce Clause protects the particular structure or methods of operation in a ... market.' \" Allstate , 495 F.3d at 163-64 (quoting CTS Corp. , 481 U.S. at 93-94, 107 S.Ct. 1637 ). In that case, this court rejected the assertion that there was a substantial burden on interstate commerce, in part because the Texas law in question did not prohibit interstate economic actors from entering the in-state market. Id. at 164 (rejecting assertion that a company's inability to expand imposes a burden on interstate commerce). Similar to Allstate , appellants in the present case have provided evidence that several package stores in Texas are owned and operated by out-of-state residents. See id. (finding the same).\nThe district court should have considered evidence addressing the public corporation ban's effect on the flow of interstate goods, or how the ban affects the flow of the potential market participant's goods to the Texas liquor retail market. See id. at 163 (\"A statute imposes a burden when it inhibits the flow of goods interstate.\"); Ford , 264 F.3d at 503 (finding the plaintiff \"failed to demonstrate that [the statute] will burden commerce by inhibiting the flow of interstate goods\"); see also Exxon , 437 U.S. at 126 n.16, 98 S.Ct. 2207 (\"If the effect of a state regulation is to cause local goods to constitute a larger share, and goods with an out-of-state source to constitute a smaller share, of the total sales in the market ... the regulation may have a discriminatory effect on interstate commerce.\"). The record is devoid of such evidence. Therefore, a remand is necessary to allow the trial court to find facts for proper application of the Pike test.\nWe vacate the portion of the district court's judgment that the public corporation ban violates the dormant Commerce Clause because remand is warranted on two separate grounds.\nE.\nThe district court also determined that the public corporation ban does not violate the Equal Protection Clause because the ban is rationally related to the state's legitimate purpose of reducing the availability and consumption of liquor throughout Texas. Walmart argues that (1) heightened scrutiny should apply to the ban because the law imposes an \"absolute deprivation\" of a benefit due to the applicant's supposed wealth; and (2) the ban has the hallmarks of \"animus\" against public corporations. Walmart adds that the ban is also irrational. Appellants argue that the public corporation ban is an economic regulation that is not subject to heightened review and clearly survives rational basis review. We agree with the latter.\nUnder the Equal Protection Clause of the Fourteenth Amendment, \"[n]o State shall ... deny to any person within its jurisdiction the equal protection of the laws.\" U.S. Const. amend. XIV, \u00a7 1. Walmart has failed to provide support for its assertion that a general ban on public corporations warrants heightened scrutiny. Walmart is not a member of a protected class and the public corporation ban does not infringe upon a fundamental right. Therefore, we apply a rational basis review. Hines v. Alldredge , 783 F.3d 197, 202-03 (5th Cir. 2015). \"Under this standard, a legislative classification 'must be upheld against equal protection challenge if there is any reasonably conceivable state of facts that could provide a rational basis for the classification.' \" Glass v. Paxton , 900 F.3d 233, 244-45 (5th Cir. 2018) (quoting FCC v. Beach Commc'ns, Inc. , 508 U.S. 307, 313, 113 S.Ct. 2096, 124 L.Ed.2d 211 (1993) ). The parties challenging the \"presumption of validity\" granted to legislative classifications must negate every conceivable basis which might support the legislation. Id. at 245.\nRational basis review is fact intensive. The review \"places no affirmative evidentiary burden on the government, [but] plaintiffs may nonetheless negate a seemingly plausible basis for the law by adducing evidence of irrationality.\" St. Joseph Abbey v. Castille , 712 F.3d 215, 223 (5th Cir. 2013). While a \"hypothetical rationale\" is acceptable, it \"cannot be fantasy.\" Id. The government action \"must rationally relate to the state interests it articulates.\" Id. \"[W]e will examine the State['s] rationale informed by the setting and history of the challenged rule.\" Id.\nThe district court determined that the public corporation ban is conceivably related to Texas' legitimate purpose to reduce the availability and consumption of liquor. On appeal, Walmart contends that this conclusion was made up of \"hypothetical ... lawful links.\" Walmart adds that allowing the ban would \"justify banning any group the Legislature might conceivably believe would be more successful at retail\" and the hypothetical is \"contrary to basic economic truth.\" Walmart's pleas are unavailing.\nWalmart does not dispute that Texas has a legitimate interest in regulating the consumption of liquor and limiting the effects of liquor-related externalities. The state could believe that excluding public corporations reduces both the total number of package store firms and overall liquor consumption, driving up prices. Relatedly, it is more than reasonable to assume that the state believed that public corporations have the capital and scale to offer liquor well below current prices. In fact, that assumption was included in Walmart's argument that the public corporation ban keeps liquor prices \"artificially high\" and forces consumers to pay \"non-competitive prices.\" Walmart's own arguments support the district court's conclusion. Walmart has not negated the theory that excluding public corporations from the liquor retail market increases prices. We conclude that there is a rational basis for Texas' decision to ban all public corporations from obtaining P permits. The public corporation ban does not violate the Equal Protection Clause.\nF.\nWhile this appeal was pending, the governor of Texas signed into law House Bill 1545. Section 82 of the bill raises the five P permit limit created by Tex. Alco. Bev. Code \u00a7 22.04, to 250 P permits. A permittee may obtain up to 15 original P permits each year, and an unlimited number of permits purchased from already-existing stores. Section 85 of the bill repeals Tex. Alco. Bev. Code \u00a7 22.05, the consanguinity exception to the five-permit limit. The bill takes effect on September 1, 2019. Tex. H.B. 1545, \u00a7\u00a7 82, 84. Walmart now seeks to withdraw its challenges to \u00a7\u00a7 22.04 and 22.05, and has requested that we vacate the district court's judgment in its favor with respect to those challenges. The parties agree that we should vacate the district court's judgment in Walmart's favor with respect to those challenges. Accordingly, we do not address Walmart's challenges to \u00a7\u00a7 22.04 and 22.05. The challenges are withdrawn. Remand is warranted in this case, and we leave for the district court to consider in the first instance whether the judgment in favor of Walmart with respect to \u00a7\u00a7 22.04 and 22.05 should be vacated.\nIV. Conclusion\nFor the reasons stated above, the district court's judgment enjoining enforcement of \u00a7 22.16 is VACATED. The district court's judgment that \u00a7 22.16 does not violate the Equal Protection Clause is AFFIRMED. The district court's judgment that \u00a7 22.16 offends the dormant Commerce Clause is VACATED and REMANDED for further proceedings consistent with this opinion.\nWalmart's challenge to Tex. Alco. Bev. Code \u00a7 22.06 is not at issue on appeal.\nAs of 2018, Walmart had consolidated revenue of over $500 billion, making it the largest company in the world. Fortune 500 Companies 2018: Who Made the List , FORTUNE MAG. (May 21, 2018), http://fortune.com/global500/.\nAlong with the other aforementioned statutes that we do not address at this time.\nThe district court exercised subject matter jurisdiction over this case based on federal question jurisdiction under 28 U.S.C. \u00a7 1331. We have jurisdiction over this appeal pursuant to 28 U.S.C. \u00a7 1291.\nSee Village of Arlington Heights v. Metropolitan Hous. Dev. Corp. , 429 U.S. 252, 266-68, 97 S.Ct. 555, 50 L.Ed.2d 450 (1977).\nAllstate , 495 F.3d at 160.\nAlthough it is debatable whether the Arlington factors should be applied when considering whether purposeful discrimination motivated legislative action in a dormant Commerce Clause case, given our well-established rule that one panel of the Fifth Circuit cannot overrule the prior decision of another panel, we need not consider arguments challenging application of the factors to this case. See Gardes Directional Drilling v. U.S. Turnkey Expl. Co. , 98 F.3d 860, 868 (5th Cir. 1996) (citing Broussard v. Southern Pac. Transp. Co. , 665 F.2d 1387, 1389 (1982) (en banc)).\nIn Cooper II , this court rejected the TPSA's assertion that Commerce Clause protections do not apply to state alcohol laws regulating the retailers and wholesalers in a three-tier system. 820 F.3d at 743.\nWalmart also argues that actions taken by the TPSA evidence a history of discrimination. However, the actions of the TPSA do not control this inquiry.\nThe public corporation ban does have a \"grandfather clause\" that exempts corporations that held a P permit before the day the statute was enacted. Tex. Alco. Bev. Code. \u00a7 22.16(f). Because Texas enforced durational residency requirements for package store owners until 2007, the exempted corporations are Texas-based firms. This clause arguably provides some evidence of an effort by the Legislature to benefit in-state corporations, which the court can consider along with other evidence in this case.\nThe application of the first Arlington factor underscores why it is debatable whether the factors should be applied in the dormant Commerce Clause context. Under Allstate , Ford , and Exxon , a statute can create an obvious and significant barrier against out-of-state economic actors and, nevertheless, not evidence a discriminatory purpose. Good drafting can render the first Arlington factor hollow.\n830 F.3d at 232 (noting that \"relatively contemporary examples of discrimination identified by the district court are limited in their probative value in connection with discerning the Texas Legislature's intent\").\nThe district court also acknowledged its \"odd\" result, finding the public corporation ban has a discriminatory purpose but not a discriminatory effect. As stated in Section III.B of this opinion, that result was partially attributable to the district court's misapplication of the first Arlington factor. However, it also highlights the logical inconsistency that might result from applying the Arlington factors in a dormant Commerce Clause case.\n495 F.3d at 162-63 (relying on Exxon and rejecting discriminatory effect argument).\n264 F.3d at 500-02 (relying on Exxon and rejecting discriminatory effect argument).\n437 U.S. at 125-26, 98 S.Ct. 2207 (rejecting argument that statute had a discriminatory effect).\nIn Churchill Downs Inc. v. Trout , this court acknowledged that, \"[i]n cases where the challenged statutes are facially neutral, the Supreme Court has evinced a reluctance to take an expansive view of the concept of 'discriminatory effects.' \" 589 F. App'x 233, 236 (5th Cir. 2014). This court noted that the Court reached the conclusion in Exxon by using a narrow definition of \"substantially similarly entities.\" Id. The Court has been mostly reluctant to find that a facially neutral statute has a discriminatory effect. See id. (discussing Minnesota v. Clover Leaf Creamery Co. , 449 U.S. 456, 458, 101 S.Ct. 715, 66 L.Ed.2d 659 (1981), in which the court upheld a facially-neutral statute); id. at n.7 (citing Erwin Chemerinsky, Constitutional Law 447 (4th ed. 2011) (citing Clover Leaf as an additional example of a case where \"discriminatory impact\" did not invalidate a facially neutral statute)).\nThe bill also included a grandfather clause that exempted facilities already open for business at the time. Allstate , 495 F.3d at 157 n.6.\nFine Wines & Spirits of North Texas, LLC is owned by a Maryland resident.\nSee Ford , 264 F.3d at 512 (Jones, J., concurring) (concurring because Exxon is controlling but noting the barrier to retail competition from out-of-state).\nThere is a tension, however, between the Court's analysis in Exxon and dicta from its recent opinion in Tennessee Wine . 139 S. Ct. 2449. The case involved a set of Tennessee laws that placed durational-residency requirements on those seeking to obtain or renew a license to operate a liquor store in the state. Id. at 2456. One of the provisions provided that a corporation could not obtain a license to operate a liquor store unless all its stockholders are residents of Tennessee. Id. at 2457. The Sixth Circuit had previously found that provision facially discriminatory and affirmed that it violated the dormant Commerce Clause. Byrd v. Tennessee Wine & Spirits Retailers Ass'n , 883 F.3d 608, 626, 628 (6th Cir.), cert. granted , --- U.S. ----, 139 S. Ct. 52, 201 L.Ed.2d 1130 (2018), and aff'd sub nom. Tennessee Wine , --- U.S. ----, 139 S. Ct. 2449, 204 L.Ed.2d 801. The provision was not at issue in Tennessee Wine , but the majority commented on its discriminatory nature and its practical effect. The Court referred to the 100-percent-resident shareholder requirement as a \"blatant\" violation of the Commerce Clause. Id. at 2457. The Court also noted that the practical effect of the provision was that \"no corporation whose stock is publicly traded may operate a liquor store in the State.\" Id. But the Court did not say more on that point. Concluding the opinion, the majority added that \"the predominant effect\" of the 100-percent-resident shareholder provision was to protect members of the Tennessee Wine and Spirits Retailers Association from out-of-state competition. Id. at 2476. The dicta in that opinion leaves many questions to be answered. Was the predominant effect of the provision protectionism because it was facially discriminatory or because of its practical effect? The Tennessee laws were all facially discriminatory, so the Court never conducted a discriminatory effect analysis. As this court has previously noted, \"jurisprudence in the area of the dormant Commerce Clause is, quite simply, a mess.\" Churchill Downs , 589 F. App'x at 235. Because of the ambiguity in the dicta from Tennessee Wine , we decline to conclude that the Court meant to alter the discriminatory effect analysis when specifically considering a general public corporation ban. Exxon remains the controlling Supreme Court precedent.\nPike , 397 U.S. at 142, 90 S.Ct. 844.\nId.\nId. (emphasis added).\nThe TPSA asserts that Walmart failed to litigate Pike in the district court. However, Pike was either cited or raised by the parties numerous times during the district court proceedings. Walmart did not waive the Pike issue.\nThis is also true in light of the Court's acknowledgement that three-tier systems for the control and distribution of alcohol are \"unquestionably legitimate.\" Granholm , 544 U.S. at 488-89, 125 S.Ct. 1885 (quotation marks omitted). Various nondiscriminatory laws passed under three-tier systems place at least some burden on interstate commerce. Pike balancing might be decisive in many cases. See Lebamoff , 666 F.3d at 469 (Hamilton, J., concurring). Granting courts the power to substitute a legislature's policy considerations with its own when considering nondiscriminatory alcohol-related laws seems to be in direct tension with state power granted by \u00a7 2. Such tension lends support for Justice Scalia's contention that the Pike \"inquiry is ill suited to the judicial function and should be undertaken rarely if at all.\" CTS Corp. v. Dynamics Corp. of Am. , 481 U.S. 69, 95, 107 S.Ct. 1637, 95 L.Ed.2d 67 (1987) (concurring).\nThe Court has cited Pike in dormant Commerce Clause cases involving alcohol-related laws. See Brown-Forman Distillers Corp. v. New York State Liquor Auth. , 476 U.S. 573, 579, 106 S.Ct. 2080, 90 L.Ed.2d 552 (1986) (evaluating the constitutionality of state's lowest-price affirmation provision of alcohol control law); Bacchus Imports, Ltd. v. Dias , 468 U.S. 263, 270, 104 S.Ct. 3049, 82 L.Ed.2d 200 (1984) (considering the constitutionality of a liquor excise tax). In the absence of controlling authority, we will not exempt an entire category of laws from the Pike test.\nWalmart incorrectly asserts that Lewis v. BT Inv. Managers, Inc. , informs the Pike inquiry in this case. 447 U.S. 27, 100 S.Ct. 2009, 64 L.Ed.2d 702 (1980). The Court made it clear that the prohibition in that case discriminated among similarly situated business entities according to their contact with the local state economy. See id. at 42, 100 S.Ct. 2009 (\"It follows that [the statute] discriminates among affected business entities according to the extent of their contacts with the local economy. The absence of a similar discrimination between interstate and local producer-refiners was a most critical factor in Exxon .\") (emphasis in original). The Court determined that the statute had a discriminatory effect but concluded that it failed the Pike test. Id. Again, Exxon , Ford , and Allstate are controlling in this case.\nThe district court also found that the public corporation ban is rationally related to a legitimate state interest. However, because there is not a sufficient factual record to weigh against the state interest, we do not consider the issue at this time. A remand is warranted.\nWalmart's contention, that the ban was enacted with animus toward public corporations generally and animus toward Walmart specifically, may be true. However, Walmart has failed to provide a single case indicating that heightened scrutiny should be applied to such an Equal Protection Claim. Walmart cites Bishop v. Smith . 760 F.3d 1070, 1099-1100 (10th Cir. 2014) (Holmes, J., concurring). However, Bishop did not involve an application of heightened scrutiny based on animus toward corporations. Walmart has also failed to provide support for its contention that a corporation's perceived wealth warrants inclusion in a protected class.\nWalmart did not file a motion but made its request in a Federal Rule of Appellate Procedure 28(j) letter submitted to this court on June 17, 2019. On June 19, 2019, the TPSA submitted a response to the 28(j) letter agreeing with Walmart. The TABC submitted a response on June 20, 2019, agreeing that the district court's judgment should be vacated.",
+        "type": "majority",
+        "author": "JAMES E. GRAVES, JR., Circuit Judge:"
+      }
+    ],
+    "attorneys": [
+      "Neal Manne, Alexander L. Kaplan, Michael Craig Kelso, Chanler Ashton Langham, Susman Godfrey, L.L.P., Houston, TX, Steven Shepard, Susman Godfrey, L.L.P., New York, NY, Mark T. Mitchell, Foley Gardere, Austin, TX, for Plaintiff - Appellee Cross-Appellant",
+      "Rance Craft, Assistant Solicitor General, Office of the Attorney General for the State of Texas, Austin, TX, for Defendant - Appellant Cross-Appellee",
+      "G. Alan Waldrop, Ryan D. V. Greene, Terrill & Waldrop, Austin, TX, for Movant - Appellant Cross-Appellee",
+      "Harry Arthur Herzog, Herzog & Carp, Katy, TX, for Amicus Curiae Spec's Family Partners, Limited.",
+      "Michael L. Navarre, Beatty Navarre Strama, P.C., Austin, TX, for Amicus Curiae Wholesale Beer Distributors of Texas",
+      "Michael Madigan, Madigan, Dahl & Harlan, P.A., Minneapolis, MN, for Amicus Curiae National Beer Wholesalers Association",
+      "Gregg R. Kronenberger, Kronenberger Law Firm, P.L.L.C., Austin, TX, Anthony Stanley Kogut, Willingham & Cote, P.C., East Lansing, MI, for Amici Curiae American Beverage Licensees and Presidents' Forum of the Distilled Spirits Industry",
+      "Jeff Rowes, Staff Attorney, Institute for Justice, Texas Chapter, Austin, TX, for Amicus Curiae Institute for Justice",
+      "Daniel Ortner, Counsel, Lawrence G. Salzman, Erin Elizabeth Wilcox, Attorney, Pacific Legal Foundation, Sacramento, CA, for Amici Curiae Pacific Legal Foundation and Retail Litigation Center"
+    ],
+    "corrections": "",
+    "head_matter": "WAL-MART STORES, INCORPORATED; Wal-Mart Stores Texas, L.L.C.; Sam's East, Incorporated; Quality Licensing Corporation, Plaintiffs - Appellees Cross-Appellants\nv.\nTEXAS ALCOHOLIC BEVERAGE COMMISSION; Kevin Lilly, Presiding Officer of the Texas Alcoholic Beverage Commission; Ida Clement Steen, Defendants - Appellants Cross-Appellees\nTexas Package Stores Association, Incorporated, Movant - Appellant Cross-Appellee\nNo. 18-50299\nUnited States Court of Appeals, Fifth Circuit.\nFiled August 15, 2019\nNeal Manne, Alexander L. Kaplan, Michael Craig Kelso, Chanler Ashton Langham, Susman Godfrey, L.L.P., Houston, TX, Steven Shepard, Susman Godfrey, L.L.P., New York, NY, Mark T. Mitchell, Foley Gardere, Austin, TX, for Plaintiff - Appellee Cross-Appellant\nRance Craft, Assistant Solicitor General, Office of the Attorney General for the State of Texas, Austin, TX, for Defendant - Appellant Cross-Appellee\nG. Alan Waldrop, Ryan D. V. Greene, Terrill & Waldrop, Austin, TX, for Movant - Appellant Cross-Appellee\nHarry Arthur Herzog, Herzog & Carp, Katy, TX, for Amicus Curiae Spec's Family Partners, Limited.\nMichael L. Navarre, Beatty Navarre Strama, P.C., Austin, TX, for Amicus Curiae Wholesale Beer Distributors of Texas\nMichael Madigan, Madigan, Dahl & Harlan, P.A., Minneapolis, MN, for Amicus Curiae National Beer Wholesalers Association\nGregg R. Kronenberger, Kronenberger Law Firm, P.L.L.C., Austin, TX, Anthony Stanley Kogut, Willingham & Cote, P.C., East Lansing, MI, for Amici Curiae American Beverage Licensees and Presidents' Forum of the Distilled Spirits Industry\nJeff Rowes, Staff Attorney, Institute for Justice, Texas Chapter, Austin, TX, for Amicus Curiae Institute for Justice\nDaniel Ortner, Counsel, Lawrence G. Salzman, Erin Elizabeth Wilcox, Attorney, Pacific Legal Foundation, Sacramento, CA, for Amici Curiae Pacific Legal Foundation and Retail Litigation Center\nBefore DAVIS, HAYNES, and GRAVES, Circuit Judges."
+  },
+  "file_name": "0362-01",
+  "first_page_order": 362,
+  "last_page_order": 381
+}

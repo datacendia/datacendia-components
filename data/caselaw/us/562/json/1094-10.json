@@ -1,0 +1,59 @@
+{
+  "id": 6033535,
+  "name": "Maranian v. Michigan",
+  "name_abbreviation": "Maranian v. Michigan",
+  "decision_date": "2010-12-06",
+  "docket_number": "No. 10-6941",
+  "first_page": "1094",
+  "last_page": "1094",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1094"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 70,
+    "ocr_confidence": 0.598,
+    "sha256": "30b91a439bcc883fec30d98f9d8f7d78c1881f0b9aa91843ba2ea552cd97bac5",
+    "simhash": "1:912a3188e808119a",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Maranian v. Michigan."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Mich. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6941.\nMaranian v. Michigan."
+  },
+  "file_name": "1094-10",
+  "first_page_order": 1116,
+  "last_page_order": 1116
+}

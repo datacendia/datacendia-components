@@ -1,0 +1,254 @@
+{
+  "id": 2252436,
+  "name": "C. H. King Et Al v. Carlton Independent School District Et Al.",
+  "name_abbreviation": "King v. Carlton Independent School District",
+  "decision_date": "1956-11-07",
+  "docket_number": "No. A-5902",
+  "first_page": "365",
+  "last_page": "371",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "156 Tex. 365"
+    },
+    {
+      "type": "parallel",
+      "cite": "295 S.W. Series 408"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "231 S.W. 2d 641",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2330517,
+        10203375
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/149/0237-01",
+        "/sw2d/231/0641-01"
+      ]
+    },
+    {
+      "cite": "149 Texas 237",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2330517
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/149/0237-01"
+      ]
+    },
+    {
+      "cite": "252 S.W. 2d 720",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10220417
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/252/0720-01"
+      ]
+    },
+    {
+      "cite": "111 S.W. 2d 1225",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        12051204
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/111/1225-01"
+      ]
+    },
+    {
+      "cite": "221 S.W. 880",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10321984
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/221/0880-01"
+      ]
+    },
+    {
+      "cite": "218 S.W. 479",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8264393
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/218/0479-01"
+      ]
+    },
+    {
+      "cite": "110 Texas 369",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2286425
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/110/0369-01"
+      ]
+    },
+    {
+      "cite": "254 S.W. 2d 357",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10202752,
+        2246270
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/254/0357-01",
+        "/tex/152/0056-01"
+      ]
+    },
+    {
+      "cite": "152 Texas 56",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2246270
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/152/0056-01"
+      ]
+    },
+    {
+      "cite": "11 S.W. 2d 163",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10289193
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/11/0163-01"
+      ]
+    },
+    {
+      "cite": "101 S.W. 1080",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "100 Texas 532",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2265382
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/100/0532-01"
+      ]
+    },
+    {
+      "cite": "28 S.W. 1061",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "87 Texas 374",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2247610
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/87/0374-01"
+      ]
+    },
+    {
+      "cite": "12 S.W. 321",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "pin_cites": [
+        {
+          "page": "324"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "75 Texas 33",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2184943
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/75/0033-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 520,
+    "char_count": 11663,
+    "ocr_confidence": 0.631,
+    "pagerank": {
+      "raw": 1.3655743250422826e-07,
+      "percentile": 0.6372085785696386
+    },
+    "sha256": "726a9aa5eda5b528cc9162354f73c7294930e8a43f9738a8d17c1ad8433a5e70",
+    "simhash": "1:8af79900fba0bdb7",
+    "word_count": 1979
+  },
+  "last_updated": "2024-02-27T22:45:04.681911+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "C. H. King Et Al v. Carlton Independent School District Et Al."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Chief Justice Hickman\ndelivered the opinion of the Court.\nThis suit was instituted by appellants, C. H. King and other property taxpaying voters of Carlton Independent School District of Hamilton, Erath, and Comanche Counties, seeking an injunction restraining the trustees of the district from levying a maintenance tax and issuing bonds authorized by an election, upon the ground that the Act of the Legislature by authority of which the election was held is void. The prayer for an injunction was denied by the trial court, and the case has been brought to this court by direct appeal as authorized by Acts of the 48th Legislature, 1943, Chapter 14 (Vernon\u2019s Civ. Stats., Art. 1738a).\nThe Act under attack is Senate Bill No. 116, Acts of the 54th Legislature, 1955, Chapter 528 (Vernon\u2019s Civ. Stats., Art. 2784e-l). It provides that trustees of school districts shall have power to levy and cause to be collected annual maintenance taxes and to issue bonds. The power to levy the tax or to issue bonds is subject to certain restrictions. For the purposes of this opinion we need notice only these restrictions on their power: The annual maintenance tax \u201cmay not exceed the maximum established by a majority vote of the resident qualified taxpaying voters of the district, voting in an election or elections held for such purpose.\u201d A further provision is: \u201cNo tax shall be levied, collected, abrogated, diminished, or increased, and no bond shall be issued hereunder until such action has been authorized by a majority of the votes cast at an election held in the district for such purpose, at which none but property taxpaying qualified voters of such district, whose property has been duly rendered for taxation, shall be entitled to vote.\u201d Section 3 of the Act is as follows: \u201cIt is the intention of the Legislature that the provisions of this Act shall be cumulative of all other laws and it is further intended that the provisions hereof shall not apply to any district until such time as the provisions of this Act have been adopted by a majority vote of the qualified voters of such district who own property which has been duly rendered for taxation on the tax rolls of the county for that purpose.\u201d (Emphasis ours.)\nIt will be observed that the Act prescribes that at elections to authorize the levy of a tax or to authorize the issuance of bonds only qualified property taxpaying voters of the district are permitted to vote; while at an election for the adoption of the Act under the provisions of Section 3 only those qualified voters are entitled to participate whose property has been duly rendered for taxation on the tax rolls of the county. Because of uncertainty as to who should be entitled to participate in an election for the adoption of the Act, the Attorney General advised the holding of three separate elections, which advice was followed by the Board of Trustees. All of the elections were held on the same day. At one election three propositions were submitted, namely, (a) the adoption of Senate Bill No. 116, (b) the levying of an annual maintenance tax not exceeding $1.50 on the $100.00 valuation, and (c) the issuance of bonds in the amount of $60,000.00 for school building purposes. Only property taxpaying voters of the district were permitted to vote at that election (Constitution, Art. VI, Sec. 3a). At each of the other two elections only the proposition of the adoption of Senate Bill No. 116 was submitted. At one of those elections all qualified electors of the district under Article VI, Section 2, of the Constitution (ownership of taxable property not required), were permitted to vote and at the other election only qualified electors of the district owning property which had been duly rendered for taxation on the tax rolls of Hamilton, Comanche, or Erath County were allowed to vote, as provided in Section 3 of the Act. All propositions submitted in all the elections were adopted, and this suit was instituted to restrain the trustees from levying the tax or issuing the bonds authorized by election No. 1.\nAppellants\u2019 attack is upon Section 3 of the Act above quoted\u00bb which states that its provisions shall not apply to any district until the Act has been adopted by qualified voters owning property which has been duly rendered on the tax roll \u201cof the county.\u201d They point out that it is conceivable that the Act might be adopted by a majority vote of the qualified voters of the district who own no property in the district, but who own property within the county outside the district which has been rendered for taxation on the rolls of the county. They attack the Act, in the first place, upon the ground that Section 3 violates Article VI, Section 3a, of the Texas Constitution, which provides :\n\u201cWhen an election is held by any * * * political subdivision of a county, or any defined district * * * for the purpose of issuing bonds or otherwise lending credit, or expending money or assuming any debt, only qualified electors who own taxable property in the * * * district * * * where such election is held, and who have duly rendered the same for taxation, shall be qualified to vote * *\nThe provisions of the Act which authorize maintenance taxes and those which authorize the issuance of bonds are in strict compliance with the constitutional provisions just cited, and the record discloses that the propositions respecting the levy of a maintenance tax and the issuance of bonds were in fact approved by those voters only who met the requirements of the Act and the Constitution.\nIt is appellants\u2019 position that the very act of the district in adopting Senate Bill No. 116 is for the purpose of levying taxes and issuing bonds, and that the election for adoption falls squarely within the above Article of our Constitution. With that reasoning we cannot agree. It seems clear to us that adoption of the statute under the provisions of Section 3 thereof is not an election for either of those purposes. Under the express language of the Act taxes cannot be levied or bonds issued until authorized by a majority vote at an election at which only property taxpaying qualified voters of such district whose property has been duly rendered for taxation may participate. The qualifications for voters who may participate in elections authorizing the levy of taxes or the issuance of bonds meet the specifications of Section 3a, Article VI, of the Constitution. Since no taxes can be levied, money expended, or bonds issued based alone upon the results of an election to adopt the Act, it is our conclusion that Section 3 of the Act does not offend against the provisions of the section of the Constitution under consideration.\nIt is further contended by appellants that the Act is void under the provisions of Article III, Section 35, of our State Constitution, which provides that \u201cno bill * * * shall contain more than one subject, which shall be expressed in its title.\u201d It is not claimed that the bill contains more than one subject, but the claim is that the one subject which the bill does contain is not adequately expressed in its title. The only claimed deficiency in the title is that it does not mention the fact that an election to adopt the provisions of the Act is required. The title expressly gives notice that it authorizes school districts to vote maintenance taxes and issue bonds, and that a vote is required before such taxes may be levied and also before bonds may be issued. In Johnson v. Martin, 75 Texas 33, 12 S.W. 321, 324, the court adopted and applied this rule:\n\u201c \u2018This provision has been frequently construed to require only the general or ultimate object to be stated in the title, and not the details by which the object is to be attained. Any provision calculated to carry the declared object into effect is unobjectionable, although not specially indicated in the title.\u2019 \u201d\nThat rule has been approved consistently by this court in many cases, of which we cite the following: Snyder v. Compton, 87 Texas 374, 28 S.W. 1061; Doeppenschmidt v. International & G. N. R. Co., 100 Texas 532, 101 S.W. 1080; Bitter v. Bexar County, Texas Comm. App., 11 S.W. 2d 163; Central Education Agency v. Independent School District, 152 Texas 56, 254 S.W. 2d 357. The provision for an election to adopt the Act is related and incidental to the subject of the Act, which is the levying of maintenance taxes and the issuance of bonds. It is germane to the general subject of the Act, and is merely a procedural requisite to the accomplishment of the legislative purposes of the Act. We therefore conclude that it does not offend against the provisions of Article III, Section 35, of our Constitution.\nWe are called upon for a declaratory judgment construing Section 3 of the Act by defining the qualifications of voters who may participate in an election to adopt the Act.\nArticle VI, Section 2, of the Constitution defines a qualified voter in this language:\n\u201cEvery person subject to none of the foregoing disqualifications who shall have attained the age of twenty-one (21) years and who shall be a citizen of the United States and who shall have resided in this State one (1) year next preceding an election and the last six (6) months within the district or county in which such person offers to vote, shall be deemed a qualified elector; * *\nAny qualified elector, as defined by that Article, is entitled to vote in any election other than one for which additional qualifications are prescribed by some other provision of the Constitution. The Legislature was not authorized to prescribe any other standard for voters at the adoption election than that of qualified electors as defined by Article VI, Section 2. Koy v. Schneider, 110 Texas 369, 218 S.W. 479, and 221 S.W. 880; Texas Power & Light Co. v. Brownwood Public Service Co., 111 S.W. 2d 1225, er. ref.; Snelson v. Murray, 252 S.W. 2d 720, er. ref. n.r.e. More specifically stated, the Legislature was not authorized to limit the voters at the adoption election to \u201cqualified voters of such district who own property which has been duly rendered for taxation on the tax rolls of the county for that purpose.\u201d All of the language just quoted following the words \u201cqualified voters of such district\u201d is in conflict with the provisions of Article VI, Section 2, of the Constitution, and should therefore be stricken from the Act.\nIt does not follow that the Act must fall because of this void provision. Section 3a- of the Act provides that \u201cIf any provision or section of this Act is held unconstitutional or invalid, such invalidity shall not affect the remaining provisions hereof, but all other parts shall remain in full force and effect.\u201d When the invalid provision is stricken the Act is made workable, leaving the question of the adoption of the Act to be determined by an election at which \u201cqualified electors\u201d shall participate. Jordan v. Crudgington, 149 Texas 237, 231 S.W. 2d 641. Since at one of the elections all qualified voters were permitted to vote, it follows that the Act has been legally adopted.\nThe trial court did not err in its judgment upholding the constitutionality of the Act under review, and its judgment is accordingly affirmed.\nOpinion delivered November 7, 1956.\nRehearing overruled December 5, 1956.",
+        "type": "majority",
+        "author": "Mr. Chief Justice Hickman"
+      }
+    ],
+    "attorneys": [
+      "C. 0. McMillan, of Stephenville, for appellant.",
+      "A. Bryce Huguenin, of Dallas, Sam II. Russell, of Stephen-ville, John Ben Shepperd, Attorney General, Elbert M. Morrow, and Frank Pinedo, Assistants Attorney General, for appellee."
+    ],
+    "corrections": "",
+    "head_matter": "C. H. King Et Al v. Carlton Independent School District Et Al.\nNo. A-5902.\nDecided November 7, 1956.\nRehearing overruled December 5, 1956.\n(295 S.W. Series 408)\nC. 0. McMillan, of Stephenville, for appellant.\nA. Bryce Huguenin, of Dallas, Sam II. Russell, of Stephen-ville, John Ben Shepperd, Attorney General, Elbert M. Morrow, and Frank Pinedo, Assistants Attorney General, for appellee."
+  },
+  "file_name": "0365-01",
+  "first_page_order": 377,
+  "last_page_order": 383
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12250092,
+  "name": "Miller v. Alabama; Jackson v. Hobbs, Director, Arkansas Department of Correction",
+  "name_abbreviation": "Miller v. Alabama",
+  "decision_date": "2012-03-05",
+  "docket_number": "No. 10-9646; No. 10-9647",
+  "first_page": "1244",
+  "last_page": "1244",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1244"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 42,
+    "char_count": 337,
+    "ocr_confidence": 0.635,
+    "sha256": "8e5a26e315675763a1bf569c4495b0bb590e01bfa3a7510e2f63667b59b37da7",
+    "simhash": "1:1ffc633746f7ef1d",
+    "word_count": 53
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Miller v. Alabama. Jackson v. Hobbs, Director, Arkansas Department of Correction."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Ala. [Certiorari granted, ante, p. 1013]; and\nSup. Ct. Ark. [Certiorari granted, ante, p. 1013.] Motion of Michigan et al. for leave to participate in oral argument as amici curiae and for divided argument denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9646.\nNo. 10-9647.\nMiller v. Alabama. Jackson v. Hobbs, Director, Arkansas Department of Correction."
+  },
+  "file_name": "1244-03",
+  "first_page_order": 1326,
+  "last_page_order": 1326
+}

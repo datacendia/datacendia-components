@@ -1,0 +1,61 @@
+{
+  "id": 5961532,
+  "name": "Headley-Ombler v. Holder, Attorney General",
+  "name_abbreviation": "Headley-Ombler v. Holder",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-9804",
+  "first_page": "949",
+  "last_page": "949",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 949"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 25,
+    "char_count": 168,
+    "ocr_confidence": 0.584,
+    "sha256": "025231cbc498b7bac3d380c2010f8299b4d17313bb7269b88982cb390503e417",
+    "simhash": "1:dd03688021267642",
+    "word_count": 26
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Headley-Ombler v. Holder, Attorney General."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-9804.\nHeadley-Ombler v. Holder, Attorney General."
+  },
+  "file_name": "0949-09",
+  "first_page_order": 971,
+  "last_page_order": 971
+}

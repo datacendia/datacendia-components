@@ -1,0 +1,79 @@
+{
+  "id": 12234153,
+  "name": "Adkins v. Crow, Judge, United States District Court for the District of Kansas, et al.; Adkins v. Sanders, Judge, District Court of Kansas, Butler County, et al.; Adkins v. Martin, Judge, United States District Court for the District of Kansas, et al.; and Adkins v. Sapien et al.",
+  "name_abbreviation": "Adkins v. Crow",
+  "decision_date": "2011-11-14",
+  "docket_number": "No. 11-6782",
+  "first_page": "1042",
+  "last_page": "1042",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1042"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "432 Fed. Appx. 751",
+      "category": "reporters:federal",
+      "reporter": "Fed. Appx.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "450 Fed. Appx. 699",
+      "category": "reporters:federal",
+      "reporter": "Fed. Appx.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "432 Fed. Appx. 748",
+      "category": "reporters:federal",
+      "reporter": "Fed. Appx.",
+      "weight": 2,
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 37,
+    "char_count": 430,
+    "ocr_confidence": 0.632,
+    "sha256": "ab629436de1ca9389dd2c5d94bbd93f202d4347fee7eb2a3f9f2e9be02426664",
+    "simhash": "1:3d399a25dca8e187",
+    "word_count": 74
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Adkins v. Crow, Judge, United States District Court for the District of Kansas, et al. Adkins v. Sanders, Judge, District Court of Kansas, Butler County, et al. Adkins v. Martin, Judge, United States District Court for the District of Kansas, et al. and Adkins v. Sapien et al."
+    ],
+    "opinions": [
+      {
+        "text": "(Reported below: 432 Fed. Appx. 748);\n(432 Fed. Appx. 748);\n(450 Fed. Appx. 699);\n(432 Fed. Appx. 751). C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6782.\nAdkins v. Crow, Judge, United States District Court for the District of Kansas, et al. Adkins v. Sanders, Judge, District Court of Kansas, Butler County, et al. Adkins v. Martin, Judge, United States District Court for the District of Kansas, et al. and Adkins v. Sapien et al."
+  },
+  "file_name": "1042-05",
+  "first_page_order": 1124,
+  "last_page_order": 1124
+}

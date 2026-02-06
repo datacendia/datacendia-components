@@ -1,0 +1,61 @@
+{
+  "id": 12249039,
+  "name": "Robert v. Department of Justice et al.",
+  "name_abbreviation": "Robert v. Department of Justice",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-684",
+  "first_page": "1228",
+  "last_page": "1228",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1228"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 25,
+    "char_count": 166,
+    "ocr_confidence": 0.636,
+    "sha256": "30a9e5e5445d7dcd7a60c07eb65b54c0cde86a86f3f9ae26f4b2656a196acf13",
+    "simhash": "1:993a68c97b2ef7dc",
+    "word_count": 28
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Sotomayor took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Robert v. Department of Justice et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.\nJustice Sotomayor took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-684.\nRobert v. Department of Justice et al."
+  },
+  "file_name": "1228-07",
+  "first_page_order": 1310,
+  "last_page_order": 1310
+}

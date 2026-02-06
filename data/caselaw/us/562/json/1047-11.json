@@ -1,0 +1,59 @@
+{
+  "id": 6018771,
+  "name": "McDaniel v. Missouri",
+  "name_abbreviation": "McDaniel v. Missouri",
+  "decision_date": "2010-11-15",
+  "docket_number": "No. 10-6436",
+  "first_page": "1047",
+  "last_page": "1047",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1047"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 69,
+    "ocr_confidence": 0.617,
+    "sha256": "9b3ea5a6327bd3403eaf5282e0f268101fb7b4386fdea1fee3d9c28a5fb2c455",
+    "simhash": "1:981b22b0ed302065",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McDaniel v. Missouri."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6436.\nMcDaniel v. Missouri."
+  },
+  "file_name": "1047-11",
+  "first_page_order": 1069,
+  "last_page_order": 1069
+}

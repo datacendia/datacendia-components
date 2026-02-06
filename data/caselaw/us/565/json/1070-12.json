@@ -1,0 +1,59 @@
+{
+  "id": 12236232,
+  "name": "Krylov v. United States",
+  "name_abbreviation": "Krylov v. United States",
+  "decision_date": "2011-11-28",
+  "docket_number": "No. 11-6996",
+  "first_page": "1070",
+  "last_page": "1070",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1070"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.714,
+    "sha256": "82755299a153d7111db1d33b4ec92d272389f6ac1e2bd17c6a0b27b88857d81a",
+    "simhash": "1:12abb7812fad200a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Krylov v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6996.\nKrylov v. United States."
+  },
+  "file_name": "1070-12",
+  "first_page_order": 1152,
+  "last_page_order": 1152
+}

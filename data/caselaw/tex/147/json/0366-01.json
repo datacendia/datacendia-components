@@ -1,0 +1,542 @@
+{
+  "id": 2333834,
+  "name": "Board of Adjustment of the City of Fort Worth v. Phillip Stovall et al.",
+  "name_abbreviation": "Board of Adjustment v. Stovall",
+  "decision_date": "1949-01-05",
+  "docket_number": "No. A-1754",
+  "first_page": "366",
+  "last_page": "373",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "147 Tex. 366"
+    },
+    {
+      "type": "parallel",
+      "cite": "216 S.W.2d 171"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "133 S. W. 419",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10316274
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw/133/0419-01"
+      ]
+    },
+    {
+      "cite": "104 Texas 46",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2256938
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/104/0046-01"
+      ]
+    },
+    {
+      "cite": "15 Atl. (2d) 6",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "opinion_index": -1
+    },
+    {
+      "cite": "33 S. W. (2d) 187",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10257113,
+        2271174
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/33/0187-01",
+        "/tex/119/0466-01"
+      ]
+    },
+    {
+      "cite": "119 Texas 466",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2271174
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/119/0466-01"
+      ]
+    },
+    {
+      "cite": "155 S. W. 348",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8284293
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw/155/0348-01"
+      ]
+    },
+    {
+      "cite": "211 S. W. (2d) 743",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2333801,
+        10202955
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/147/0047-01",
+        "/sw2d/211/0743-01"
+      ]
+    },
+    {
+      "cite": "147 Texas 47",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2333801
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/147/0047-01"
+      ]
+    },
+    {
+      "cite": "169 S. W. 1108",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8284809
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/169/1108-01"
+      ]
+    },
+    {
+      "cite": "253 S. W. 813",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        2281745,
+        10319131
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/113/0264-01",
+        "/sw/253/0813-01"
+      ]
+    },
+    {
+      "cite": "113 Texas 264",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2281745
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/113/0264-01"
+      ]
+    },
+    {
+      "cite": "58 S. W. (2d) 555",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10249702
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/58/0555-01"
+      ]
+    },
+    {
+      "cite": "63 S. W. (2d) 849",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2304242,
+        5787811,
+        10258693,
+        10258791
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/122/0613-01",
+        "/tex-crim/124/0440-01",
+        "/sw2d/63/0849-01",
+        "/sw2d/63/0849-02"
+      ]
+    },
+    {
+      "cite": "122 Texas 613",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2304242
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/122/0613-01"
+      ]
+    },
+    {
+      "cite": "63 S. W. (2d) 379",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10240116
+      ],
+      "pin_cites": [
+        {
+          "page": "380"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/63/0379-01"
+      ]
+    },
+    {
+      "cite": "168 A. L. R. 134",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 Pac. (2d) 1057",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "165 Okla. 227",
+      "category": "reporters:state",
+      "reporter": "Okla.",
+      "case_ids": [
+        8883420
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/okla/165/0227-01"
+      ]
+    },
+    {
+      "cite": "45 N. W. 435",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 Minn. 312",
+      "category": "reporters:state",
+      "reporter": "Minn.",
+      "case_ids": [
+        553117
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/minn/43/0312-01"
+      ]
+    },
+    {
+      "cite": "127 Conn. 16",
+      "category": "reporters:state",
+      "reporter": "Conn.",
+      "case_ids": [
+        1622939
+      ],
+      "pin_cites": [
+        {
+          "page": "15"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/conn/127/0016-01"
+      ]
+    },
+    {
+      "cite": "117 A. L. R. 216",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "198 La. 758",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        3161380,
+        10077461
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/la/198/0758-01",
+        "/so2d/4/0820-01"
+      ]
+    },
+    {
+      "cite": "198 La. 766",
+      "category": "reporters:state",
+      "reporter": "La.",
+      "case_ids": [
+        10077642,
+        3161111
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/4/0822-01",
+        "/la/198/0766-01"
+      ]
+    },
+    {
+      "cite": "117 A. L. R. 207",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "199 Atl. 540",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "174 Md. 551",
+      "category": "reporters:state",
+      "reporter": "Md.",
+      "case_ids": [
+        2263098
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/md/174/0551-01"
+      ]
+    },
+    {
+      "cite": "170 Atl. 867",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "313 Pa. State 523",
+      "category": "reporters:state",
+      "reporter": "Pa.",
+      "case_ids": [
+        1152623
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/pa/313/0523-01"
+      ]
+    },
+    {
+      "cite": "131 S. W. (2d) 73",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10229224,
+        2319548
+      ],
+      "pin_cites": [
+        {
+          "page": "80"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/131/0073-01",
+        "/tex/134/0059-01"
+      ]
+    },
+    {
+      "cite": "134 Texas 59",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2319548
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/134/0059-01"
+      ]
+    },
+    {
+      "cite": "113 S. W. (2d) 968",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10274589
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/113/0968-01"
+      ]
+    },
+    {
+      "cite": "156 S. W. 911",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8295154
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/156/0911-01"
+      ]
+    },
+    {
+      "cite": "195 S. W. (2d) 594",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10198339
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/195/0594-01"
+      ]
+    },
+    {
+      "cite": "153 S. W. (2d) 510",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10221430
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/153/0510-01"
+      ]
+    },
+    {
+      "cite": "124 S. W. (2d) 401",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10237963,
+        10238063
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/124/0401-01",
+        "/sw2d/124/0401-02"
+      ]
+    },
+    {
+      "cite": "190 S. W. (2d) 67",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2336679,
+        10187239
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/144/0281-01",
+        "/sw2d/190/0067-01"
+      ]
+    },
+    {
+      "cite": "144 Texas 281",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2336679
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/144/0281-01"
+      ]
+    },
+    {
+      "cite": "211 S. W. (2d) 303",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10191396
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/211/0303-01"
+      ]
+    },
+    {
+      "cite": "155 S. W. 348",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8284293
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/155/0348-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 740,
+    "char_count": 15243,
+    "ocr_confidence": 0.588,
+    "pagerank": {
+      "raw": 7.257877056624493e-07,
+      "percentile": 0.9680492955380796
+    },
+    "sha256": "2bcb8e0d36d7c2b79cef3675439bc0ede18a632cf9e13e77dc6f80fec11979c4",
+    "simhash": "1:1a7fe1d0639cd85d",
+    "word_count": 2631
+  },
+  "last_updated": "2024-02-27T21:30:02.118491+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Board of Adjustment of the City of Fort Worth v. Phillip Stovall et al."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Hart\ndelivered the opinion of the Court.\nThe respondents, Philip Stovall, et al, filed this suit in the district court of Tarrant County under the provisions of Article lOllg, Vernon\u2019s Annotated Civil Statutes, to review the order of the Board of Adjustment of the City of Fort Worth, granting a permit to Interstate Circuit, Inc., to build an outdoor moving picture theater, as a nonconforming use of property zoned for two-family dwellings. The Board of Adjustment and its members, as well as the applicant and its agents, were named as defendants. Upon a trial, the district court rendered judgment setting aside the order of the Board of Adjustment, but dismissing the suit as to the defendants other than the Board of Adjustment without prejudice. Only the Board of Adjustment excepted to the judgment and gave notice of appeal.\nIn the Court of Civil Appeals the appellees, Philip Stovall, et al, filed a motion to dismiss the appeal on the ground that the appellant, the Board of Adjustment, had failed to file an appeal bond. This motion was overruled, but upon consideration of the record the Court of Civil Appeals upon its own motion dismissed the appeal upon the ground that the Board of Adjustment had no appealable interest in the subject matter of the controversy. 211 S. W. (2d) 303.\nThis court has not directly passed upon the question presented here, but in City of San Angelo v. Boehme Bakery, 144 Texas 281, 190 S. W. (2d) 67, a writ of error was granted upon the application of the Board of Adjustment of the City of San Angelo and it was necessarily assumed that the Board of Adjustment was a proper party to the suit and that it had an interest in the litigation sufficient to give it the right to prosecute an appeal. In other cases it has likewise been assumed that boards of adjustments are proper parties. See Harrington v. Board of Adjustment, 124 S. W. (2d) 401 (Tex. Civ. App., writ of error refused); Board of Adjustment v. Jones, 153 S. W. (2d) 510 (Tex. Civ. App.); Driskell v. Board of Adjustment, 195 S. W. (2d) 594 (Tex. Civ. App., writ of error refused, n. r. e.). Upon consideration of the question when directly raised in this case, we have concluded that our assumption in the San Angelo case was correct and that the Court of Civil Appeals erred in dismissing the appeal.\nAs the opinion in the San Angelo case points out, Articles lOllg through lOllj are a virtual adoption of a standard zoning statute sponsored by the Federal Department of Commerce. In providing that the review of the orders of the board of adjustment shall be by certiorari, the statute differs from the majority of Texas statutes prescribing the procedure for the review of orders of administrative boards. These statutes usually provide that a petition shall be filed against the board or commission as defendant and expressly authorize appeals. See for example, Articles 911a, Sec. 17, 911b, Sec. 20, 911d, Sec. 14, 6049c, Sec. 8, 6059, 6066a, Sec. 9, and 6453. V. A. C. S., relating to the review of orders of the Railroad Commission; Article 7567, V. A. C. S., relating to the review of orders of the Board of Water Engineers; and Article 666-14, V. A. P. C., relating to the review of orders of the Liquor Control Board.\nHowever, the review authorized by Article lOllg, although designated by a different name and involving somewhat different procedure, is not essentially different in nature from the review contemplated by the other statutes we have referred to. It was held in the San Angelo case that the review by certiorari under Article lOllg is broader than under the common-law certiorari, but the court does not undertake to substitute its discretion for that of the board, and merely determines whether on the whole record the board abused its discretion. Under other statutes, where essentially the same kind of review is authorized, the right of a board or commission to appeal from judgments nullifying its orders has apparently never been questioned in the numerous cases in which boards or commissions have prosecuted such appeals. Where a suit was brought against the State Comptroller to set aside his order cancelling a liquor license, it was directly held that the Comptroller had the power to -appeal from an adverse judgment under general statutes allowing appeals in civil cases, although no statute specifically granted the right of appeal in the particular kind of case there involved. Lane v. Hewgley, 155 S. W. 348 (Tex. Civ. App.). This holding was reaffirmed by the same court in a later appeal, Lane v. Hewgley, 156 S. W. 911 (Tex. Civ. App.), in which the court said: (156 S. W. at page 912).\n\u201cWe conclude, as in our former opinion, that this cause is a civil case, and that this court has appellate jurisdiction over it. We cannot believe that it was ever contemplated that the district court should be vested with the authority to set aside and render nugatory the acts of the Comptroller exercised in the control and regulation of the liquor traffic, or have the power given him, on the other hand, to sustain the actions of that official, and appellate courts have no revisory powers over his judgment and decrees.\u201d\nIn Article 1011 g there is no designation of the persons who shall be made defendants, but the plaintiffs in the district court in the present case made the Board of Adjustment a party defendant, and we think that they were correct in doing so. Under a comparable statute, Article 734a, Section 22-A, Vernon\u2019s Annotated Penal Code, providing for appeals from orders of the Board of Barber Examiners, it has been assumed that the Board is a proper defendant, although the statute does not say who shall be made parties. See Lackey v. State Board of Barber Examiners, 113 S. W. (2d) 968, (Tex. Civ. App.) ; see also 42 Am. Jur. 679, \u201cPublic Administrative Law\u201d, Sec. 239.\nIn proceedings of this kind, the board represents the public interest in the proper enforcement of the particular law or regulation involved. In zoning cases, the public is property interested in the granting or, withholding of permits for nonconforming uses. Article 1011 g authorizes the delegation of functions to boards of adjustment in the following terms:\n\u201cSuch local legislative body may provide for the appointment of a board of adjustment, and in the regulations and restrictions adopted pursuant to the authority of this Act may provide that the said board of adjustment may, in appropriate cases and subject to appropriate conditions and safeguards, make special exceptions to the terms of the ordinance in harmony with its general purpose and intent and in accordance with general or specific rules therein contained.\u201d\nThe ordinance of the City of Fort Worth creating the Board of Adjustment, and under which it claims authority to act in this case, provides in part as follows:\n\u201cJURISDICTION: The Board shall hear and decide appeals where it is alleged there is error in any order, reequirement, decision or determination made by the Building Commissioner in the enforcement of this ordinance, and it shall have the following powers:-\n\u201c (1) To permit the extension of a district where the boundary line of a district divides a lot in a single ownership at the time of the passage of this ordinance.\n\u201c(9) To authorize upon appeal in specific cases such variance from the terms of the ordinance as will not be contrary to the public interest; where, owing to special conditions, a literal enforcement of the provisions of the ordinance will result in unnecessary hardship, and so that the spirit of the ordinance shall be observed and substantial justice done.\u201d\nIn determining whether a permit applied for under the quoted ordinance shall be granted or denied, the board is engaged in a delegated policy-making function, and it is not merely adjudicating private rights. The functions of the Board of Adjustments are an integral part of the system of zoning regulations. In order that zoning may work fairly, the zoning ordinance authorizes the granting of permits for variances, and the determination of the question whether such permits shall be granted or denied is an essential part of the proper adminstration of the zoning ordinance. The public, as well as the affected private parties, has an interest in upholding the order of the Board if it is valid, and the Board itself is the proper party to represent this public interest where its order is under review. In these respects the functions of the Board of Adjustment are analogous to the action of the Railroad Commission in granting or denying drilling permits as exceptions to Rule 37. While in those cases, as in the case now before us, private property rights are involved in the granting or refusal of permits, the Commission\u2019s action also has an important bearing on the whole scheme of conversation regulations. See Gulf Land Co. v. Atlantic Refining Co., 134 Texas 59, 131 S. W. (2d) 73, 80. There is no question about the right of the Railroad Commission to prosecute appeals from judgments setting aside its orders in Rule 37 cases, and we believe that the same consideration sustain the same right in boards of adjustment in zoning cases.\nDecisions in other states are not harmonious on this question. Some courts hold that zoning boards have no right to appeal from court judgments setting aside their orders. Appeal of Board of Adjustment, Landsdowns Borough, 313 Pa. State 523, 170 Atl. 867; Miles v. McKinney, 174 Md. 551, 199 Atl. 540, 117 A. L. R. 207; State v. Zoning Board of Appeal and Adjustment, 198 La. 766, 4 So. (2d) 822; State v. Zoning Board of Appeal and Adjustment, 198 La. 758, 4 So. (2d) 820; see 4 C. J. 5. 389, \u201cAppeal and Error\u201d, Sec. 205; Annotation, 117 A. L. R. 216. However, the opposite conclusion was reached by the Supreme Court of Errors of Connecticut on what we believe to be sound reasoning in Rommell v. Walsh, 127 Conn. 16, 15. Atl. (2d) 6, in which the Court said: (15 Atl. (2d) at page 9.)\n\u201cIn other cases, however, there is a definite public interest to be protected. This is true, for instance, of many orders of the public utilities commission, and is particularly true with respect to zoning regulations. In appeals of this type, the public interest should be represented. In appeals in zoning cases the municipality might no doubt properly do this. However, under most, if not all, of our municipal charters, the function of protecting and advancing the public interest in establishing and maintaining a proper and adequate zoning system is entrusted to certain boards, who, in that respect, exerecise a large discretion. While these boards have ordinarily no corporate existence as such but are merely agencies of the municipality, and while they have no direct interest in the litigation, it would be a logical conclusion that because of the function they perform they should represent the public interests entrusted to them in appeals taken from their decisions.\n\u201cAdministrative boards differ radically from courts because frequently in the performance of their duties they are representing such interests, whereas courts are concerned with litigating the rights of parties with adverse interests who appear before them. Appeals taken from decisions of such boards are in a very different category than are appeals taken from a lower to a higher court, where the lower court, having acted, ceases to have any interest in the controversy, direct or representative. An appeal from an administrative board is not the means by which jurisdiction of a cause is transferred from one tribunal to another, but is a process by which a court may be called upon, not to substitute its judgment for that of the board, but to determine whether the latter has acted legally and in a proper exercise of the discretion vested in it.\u201d\nIn accord on principle are Moede v. Board of County Commissions, 43 Minn. 312, 45 N. W. 435; Board of Commissioners v. Woodford Consolidated School District, 165 Okla. 227, 25 Pac. (2d) 1057; see 58 Am. Jur. 1073,, \u201cZoning\u201d, Sec. 253; Annotation, 168 A. L. R. 134.\nWe therefore conclude that the Court of Civil Appeals erred in dismissing the appeal on the ground that the Board of Adjustment had no appealable interest in the controversy.\nRespondents urge, however, that the Court of Civil Appeals should have sustained their motion to dismiss the appeal because of the failure of the Board of Adjustment to file an appeal bond. In overruling this motion, in our opinion the Court of Civil Appeals did not err. The Board of Adjustment is. created by ordinance of the City of Fort Forth under authority granted by Article 101 lg and the city charter, and it is a governmental agency of the city. Articles 1174 and 2072, V. A. C. S., provide that incorporated cities shall not be required to give security for costs. In City of Athens v. Evans, (Com. App.) 63 S. W. (2d) 379, 380, it was held that these statutes should be given a liberal construction. In City of Wink v. R. B. George Machinery Co., 122 Texas 613, 63 S. W. (2d) 849, this Court reversed the decision of the Court of Civil Appeals, (58 S. W. (2d) 555) which has held that an appeal bond was required of the city and its officers. In line with those decisions, we hold that the Board of Adjustment, as a governmental agency of the City of Fort Worth, is not required to file an appeal bond. A similar liberal construction has been applied to appeals by state agencies. Herring v. Houston National Exchange Bank, 113 Texas 264, 253 S. W. 813; Collier v. Smith, 169 S. W. 1108 (Tex. Civ. App.,) writ of error refused.\nThe Court of Civil Appeals did not pass upon the merits of the case, and under our established practice the case should be remanded to that Court in order that it may do so. City of Wink v. R. B. George Machinery Co., supra; Hunt v. Wichita County Water Improvement District, 147 Texas 47, 211 S. W. (2d) 743.\nThe judgment of the Court of Civil Appeals is reversed and the cause is remanded to that Court.\nOpinion delivered January 5, 1949.\nNo motion for rehearing filed.",
+        "type": "majority",
+        "author": "Mr. Justice Hart"
+      }
+    ],
+    "attorneys": [
+      "R. E. Rouer, Heard L. Floore and Sam A. Woodward, of Fort Worth, for petitioner.",
+      "M. Hendricks Brown and A. L. Wardlaw, of Fort Worth, for respondents."
+    ],
+    "corrections": "",
+    "head_matter": "JANUARY, 1949\nBoard of Adjustment of the City of Fort Worth v. Phillip Stovall et al.\nNo. A-1754.\nDecided January 5, 1949.\n(216 S. W., 2d Series, 171.)\nR. E. Rouer, Heard L. Floore and Sam A. Woodward, of Fort Worth, for petitioner.\nThe Board of Adjustment of the City of Fort Worth having been, by virtue of the provisions of Article lOllg, of Vernon\u2019s Civil Statutes, duly constituted an administrative agency of the City of Fort Worth, charged with certain definite and explicit duties with reference to the supervision and enforcement of the comprehensive zoning ordinance of said city, and under the plain provisions of statute the Board of Adjustment was a party to the suit in the trial court, and as an agent and representative of the City it had a direct and substantial interest in the subject matter, and it was error for the Court of Civil Appeals to hold that it had no right of appeal from the final judgment of the trial court. Lane v. Hewgley, 155 S. W. 348; Lafield v. Maryland Casualty Co., 119 Texas 466, 33 S. W. (2d) 187; Rommell v. Walsh, 15 Atl. (2d) 6; Hamil v. Samuels, 104 Texas 46, 133 S. W. 419.\nM. Hendricks Brown and A. L. Wardlaw, of Fort Worth, for respondents."
+  },
+  "file_name": "0366-01",
+  "first_page_order": 382,
+  "last_page_order": 389
+}

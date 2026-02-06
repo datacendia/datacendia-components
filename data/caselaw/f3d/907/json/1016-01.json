@@ -1,0 +1,130 @@
+{
+  "id": 12518974,
+  "name": "Danelle DUNCAN, Plaintiff-Appellant, v. ASSET RECOVERY SPECIALISTS, INC., et al., Defendants-Appellees.",
+  "name_abbreviation": "Duncan v. Asset Recovery Specialists, Inc.",
+  "decision_date": "2018-10-31",
+  "docket_number": "No. 17-2598",
+  "first_page": "1016",
+  "last_page": "1018",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "907 F.3d 1016"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "7th Cir.",
+    "id": 9010,
+    "name": "United States Court of Appeals for the Seventh Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "129 F.3d 419",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11895736
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "425",
+          "parenthetical": "underscoring that, to survive summary judgment, the non-moving party must set forth specific facts to establish a genuine triable issue"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/129/0419-01"
+      ]
+    },
+    {
+      "cite": "445 F.3d 959",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        2783448
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "963",
+          "parenthetical": "explaining that \"[t]he burden of proof is on the plaintiffs to present evidence of confusion (beyond their own"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/445/0959-01"
+      ]
+    },
+    {
+      "cite": "169 F.3d 1084",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11770156
+      ],
+      "weight": 3,
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "1087",
+          "parenthetical": "\"So far as the Fair Debt Collection Practices Act is concerned, the only thing that's important is that the repossessor was not acting as the lender's agent when in effect it asserted a lien in order to enforce its $25 fee.\""
+        },
+        {
+          "page": "1086",
+          "parenthetical": "explaining that a repossessor does not act on behalf of a creditor or otherwise play the role of a debt collector by charging an administrative fee for its own services"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/169/1084-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 432,
+    "char_count": 6600,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2590934838285939
+    },
+    "sha256": "2146f4ef635856ccfec3d8b23b3e8a15669fe7036a1666b4542701cd6b7b4943",
+    "simhash": "1:41c2efc7ca80162c",
+    "word_count": 1074
+  },
+  "last_updated": "2024-02-27T18:46:00.884768+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Flaum, Easterbrook, and Scudder, Circuit Judges."
+    ],
+    "parties": [
+      "Danelle DUNCAN, Plaintiff-Appellant,\nv.\nASSET RECOVERY SPECIALISTS, INC., et al., Defendants-Appellees."
+    ],
+    "opinions": [
+      {
+        "text": "Scudder, Circuit Judge.\nWhen Danelle Duncan fell behind on her car payments, Asset Recovery Specialists repossessed the vehicle on behalf of the lender, Wells Fargo Bank. Duncan had left some personal items in the car, however, and when she sought to retrieve the property she alleged that Asset Recovery demanded a $100 payment from her-a demand she considered to constitute impermissible debt collection in violation of the Fair Debt Collection Practices Act, 15 U.S.C. \u00a7 1692f. At summary judgment, the factual record before the district court proved Duncan wrong: the $100 charge was not a demand for loan repayment by Duncan, but rather an administrative property-retrieval fee that Wells Fargo had agreed to pay. Having partaken in no impermissible debt collection, Asset Recovery was entitled to summary judgment, a decision we now affirm.\nThe repossession occurred on January 27, 2016, and, upon learning of it, Duncan called Wells Fargo, who told her she would need to satisfy the full amount of the defaulted loan to receive the car back. Unable to do so, Duncan focused on retrieving the personal items she had left in her car, and this resulted in discussions with a representative of Asset Recovery. Duncan alleges that Asset Recovery's president told her multiple times that she would have to pay $100 to receive her personal effects.\nA meeting ensued three weeks later in Asset Recovery's office. Duncan contends that Asset Recovery put before her an \"assessment fee\" form that stated she would have to pay a $100 fee to retrieve her property. She considered the $100 a demand for loan repayment. Asset Recovery denied making this demand of Duncan, and instead insisted that the $100 was nothing more than an administrative fee that Wells Fargo had agreed to pay. The discovery process turned up a document corroborating Asset Recovery's account. The document, entitled \"Receipt for Redeeming Personal Property,\" describes the $100 as a \"Handling Fee\" and contains a handwritten notation that \"All Fees billed to WFDS,\" plainly indicating that Wells Fargo Dealer Services would pay the fee. Apparently disbelieving that she did not owe $100, Duncan refused to sign the receipt form and thus never recovered her property. She instead brought suit in the district court alleging that Asset Recovery, its president, and Wells Fargo violated the Fair Debt Collection Practices Act.\nThe district court granted summary judgment for the defendants, concluding that Duncan could not overcome two necessary hurdles for a successful claim under 15 U.S.C. \u00a7 1692f. First, Duncan failed to come forward with any evidence (beyond her allegation to the contrary) refuting the defendants' showing, backed by the documentary record, that neither Asset Recovery nor Wells Fargo attempted to collect a $100 payment from her. Second, the court found that, even on Duncan's view that $100 was demanded of her, she had not come forward with any evidence casting doubt on the defendants' showing that the $100 was but an administrative handling fee owed to Asset Recovery, as opposed to a demand for repayment on the auto loan owed to Wells Fargo.\nOn appeal Duncan emphasizes the breadth of the prohibition on unfair debt collection practices in 15 U.S.C. \u00a7 1692f, while also underscoring that the prohibitions extend to repossession agents who undertake otherwise prohibited collection efforts on behalf of creditors. See 15 U.S.C. \u00a7 1692f(6). In an effort to distinguish Nadalin v. Automobile Recovery Bureau, Inc. , 169 F.3d 1084 (7th Cir. 1999), Duncan further contends that the facts here allow a conclusion-or at least raise enough of a question to get the case to trial-that Asset Recovery was working on behalf of Wells Fargo to collect $100 to apply toward her defaulted car loan.\nWe disagree. The record on summary judgment shows that Duncan was not able to back her allegation that Asset Recovery demanded the $100 fee of her with anything beyond her own say so. Asset Recovery, on the other hand, backed its contrary testimony with the Receipt for Redeeming Personal Property, which expressly established that Wells Fargo-not Duncan-would make the $100 payment. See Sims v. GC Servs. L.P. , 445 F.3d 959, 963 (7th Cir. 2006) (explaining that \"[t]he burden of proof is on the plaintiffs to present evidence of confusion (beyond their own) in the form of an objective measure\" and emphasizing that \"[m]ere speculation that the unsophisticated debtor could be confused\" is not enough to survive summary judgment).\nThe same documentary evidence shows that the $100 handling fee was just that-an administrative expense that Asset Recovery sought to recover for its role in processing requests to redeem personal property from repossessed vehicles. All of this stays within the bounds of Fair Debt Collection Practices Act and our caselaw. See Nadalin, 169 F.3d at 1087 (\"So far as the Fair Debt Collection Practices Act is concerned, the only thing that's important is that the repossessor was not acting as the lender's agent when in effect it asserted a lien in order to enforce its $25 fee.\"). There is no way on this record to view the handling fee as some sort of masked demand for a principal payment to Wells Fargo.\nDuncan fares no better if we accept her contention that her initial phone calls with Asset Recovery entailed a demand for a $100 payment. On summary judgment she needed to go further and create a genuine issue of fact as to whether Asset Recovery demanded such a payment on behalf of Wells Fargo as a lender. See id. at 1086 (explaining that a repossessor does not act on behalf of a creditor or otherwise play the role of a debt collector by charging an administrative fee for its own services); Smith ex rel. Smith v. Severn , 129 F.3d 419, 425 (7th Cir. 1997) (underscoring that, to survive summary judgment, the non-moving party must set forth specific facts to establish a genuine triable issue). This Duncan has not done, and, in the face of the evidence brought forth by Asset Recovery and Wells Fargo in discovery, the district court was right to enter summary judgment on their behalf.\nFor these reasons, we AFFIRM.",
+        "type": "majority",
+        "author": "Scudder, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Briane F. Pagel, Jr., Attorney, LAWTON & CATES SC, Madison, WI, for Plaintiff-Appellant.",
+      "William W. Ehrke, Attorney, CRIVELLO CARLSON, S.C., Milwaukee, WI, for Defendants-Appellees."
+    ],
+    "corrections": "",
+    "head_matter": "Danelle DUNCAN, Plaintiff-Appellant,\nv.\nASSET RECOVERY SPECIALISTS, INC., et al., Defendants-Appellees.\nNo. 17-2598\nUnited States Court of Appeals, Seventh Circuit.\nArgued October 22, 2018\nDecided October 31, 2018\nBriane F. Pagel, Jr., Attorney, LAWTON & CATES SC, Madison, WI, for Plaintiff-Appellant.\nWilliam W. Ehrke, Attorney, CRIVELLO CARLSON, S.C., Milwaukee, WI, for Defendants-Appellees.\nBefore Flaum, Easterbrook, and Scudder, Circuit Judges."
+  },
+  "file_name": "1016-01",
+  "first_page_order": 1016,
+  "last_page_order": 1018
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12252482,
+  "name": "Smith v. Murphy, Warden, et al.",
+  "name_abbreviation": "Smith v. Murphy",
+  "decision_date": "2012-03-19",
+  "docket_number": "No. 11-8638",
+  "first_page": "1270",
+  "last_page": "1270",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1270"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 80,
+    "ocr_confidence": 0.646,
+    "sha256": "f572c7e1d56463d2e42a5c1d4c608733327f47d40c26ad026118c08156a3551f",
+    "simhash": "1:b3181821f73790b6",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Smith v. Murphy, Warden, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8638.\nSmith v. Murphy, Warden, et al."
+  },
+  "file_name": "1270-05",
+  "first_page_order": 1352,
+  "last_page_order": 1352
+}

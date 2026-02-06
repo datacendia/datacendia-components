@@ -1,0 +1,59 @@
+{
+  "id": 12234625,
+  "name": "Brooks v. Ohio",
+  "name_abbreviation": "Brooks v. Ohio",
+  "decision_date": "2011-11-15",
+  "docket_number": "No. 11-7342 (11A484)",
+  "first_page": "1047",
+  "last_page": "1047",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1047"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 29,
+    "char_count": 215,
+    "ocr_confidence": 0.654,
+    "sha256": "b0fc59f7bc1915cbde5385e0c7f384558484b037ad011175b8baddc8eba9c324",
+    "simhash": "1:201b4a098f6f0ab4",
+    "word_count": 34
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Brooks v. Ohio."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Ohio, Cuyahoga County. Application for stay of execution of sentence of death, presented to Justice Kagan, and by her referred to the Court, denied. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7342 (11A484).\nBrooks v. Ohio."
+  },
+  "file_name": "1047-06",
+  "first_page_order": 1129,
+  "last_page_order": 1129
+}

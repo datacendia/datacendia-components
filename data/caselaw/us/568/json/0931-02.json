@@ -1,0 +1,61 @@
+{
+  "id": 12417244,
+  "name": "Pereira v. United States",
+  "name_abbreviation": "Pereira v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10897",
+  "first_page": "931",
+  "last_page": "931",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 931"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 153,
+    "ocr_confidence": 0.571,
+    "sha256": "1d71d01d37b4e965883065d7c1de41e55bb8a2d36df1b5844c69119b162c29bb",
+    "simhash": "1:9f23ca82070e984a",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Pereira v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10897.\nPereira v. United States."
+  },
+  "file_name": "0931-02",
+  "first_page_order": 1007,
+  "last_page_order": 1007
+}

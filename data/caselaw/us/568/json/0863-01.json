@@ -1,0 +1,59 @@
+{
+  "id": 12414197,
+  "name": "Inman v. South Carolina",
+  "name_abbreviation": "Inman v. South Carolina",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10798",
+  "first_page": "863",
+  "last_page": "863",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 863"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.67,
+    "sha256": "cc163001751121e2606c03699410c66048bc95008830591ee732e8e9e669be4b",
+    "simhash": "1:d00bc2d8bbfcd7f2",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Inman v. South Carolina."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. S. C. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10798.\nInman v. South Carolina."
+  },
+  "file_name": "0863-01",
+  "first_page_order": 939,
+  "last_page_order": 939
+}

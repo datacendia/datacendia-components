@@ -21,7 +21,7 @@ const router = Router();
 
 // All platform admin routes require authentication and admin-level role
 router.use(devAuth);
-router.use(requireRole('ADMIN', 'SUPER_ADMIN'));
+router.use(requireRole('OWNER', 'ADMIN', 'SUPER_ADMIN'));
 
 // =============================================================================
 // DASHBOARD
@@ -53,6 +53,17 @@ router.get('/tenants', async (req: Request, res: Response) => {
   } catch (error) {
     logger.error('Admin API: List tenants error', error);
     res.status(500).json({ error: 'Failed to list tenants' });
+  }
+});
+
+// NOTE: /tenants/metrics must be defined BEFORE /tenants/:id to avoid route collision
+router.get('/tenants/metrics', async (_req: Request, res: Response) => {
+  try {
+    const metrics = await tenantService.getMetrics();
+    res.json(metrics);
+  } catch (error) {
+    logger.error('Admin API: Tenant metrics error', error);
+    res.status(500).json({ error: 'Failed to get tenant metrics' });
   }
 });
 
@@ -118,16 +129,6 @@ router.post('/tenants/:id/suspend', async (req: Request, res: Response) => {
   } catch (error) {
     logger.error('Admin API: Suspend tenant error', error);
     res.status(500).json({ error: 'Failed to suspend tenant' });
-  }
-});
-
-router.get('/tenants/metrics', async (_req: Request, res: Response) => {
-  try {
-    const metrics = tenantService.getMetrics();
-    res.json(metrics);
-  } catch (error) {
-    logger.error('Admin API: Tenant metrics error', error);
-    res.status(500).json({ error: 'Failed to get tenant metrics' });
   }
 });
 
@@ -788,27 +789,27 @@ router.get('/mode-analytics', async (_req: Request, res: Response) => {
     const { prisma } = await import('../config/database.js');
     
     // Get deliberation counts by mode
-    const deliberations = await prisma.deliberation.groupBy({
-      by: ['council_mode'],
+    const deliberations = await prisma.deliberations.groupBy({
+      by: ['mode'],
       _count: { id: true },
-      _avg: { confidence_score: true },
+      _avg: { confidence: true },
     }).catch(() => []);
 
     // Get total counts
-    const totalDeliberations = await prisma.deliberation.count().catch(() => 0);
-    const completedDeliberations = await prisma.deliberation.count({
-      where: { status: 'completed' },
+    const totalDeliberations = await prisma.deliberations.count().catch(() => 0);
+    const completedDeliberations = await prisma.deliberations.count({
+      where: { status: 'COMPLETED' },
     }).catch(() => 0);
 
     // Get recent activity
-    const recentActivity = await prisma.deliberation.findMany({
+    const recentActivity = await prisma.deliberations.findMany({
       take: 10,
       orderBy: { created_at: 'desc' },
       select: {
         id: true,
         question: true,
-        council_mode: true,
-        confidence_score: true,
+        mode: true,
+        confidence: true,
         created_at: true,
         status: true,
       },
@@ -817,10 +818,10 @@ router.get('/mode-analytics', async (_req: Request, res: Response) => {
     // Build mode analytics
     const byMode: Record<string, { count: number; avgConfidence: number; avgTime: string }> = {};
     for (const d of deliberations) {
-      if (d.council_mode) {
-        byMode[d.council_mode] = {
+      if (d.mode) {
+        byMode[d.mode] = {
           count: d._count.id,
-          avgConfidence: Math.round(d._avg.confidence_score || 75),
+          avgConfidence: Math.round(d._avg.confidence || 75),
           avgTime: '2.3m', // Would calculate from actual data
         };
       }
@@ -848,10 +849,10 @@ router.get('/mode-analytics', async (_req: Request, res: Response) => {
           avgConfidence: 87,
         },
         byMode,
-        recentActivity: recentActivity.length > 0 ? recentActivity.map(a => ({
-          mode: a.council_mode || 'executive',
+        recentActivity: recentActivity.length > 0 ? recentActivity.map((a: any) => ({
+          mode: a.mode || 'executive',
           question: a.question,
-          confidence: a.confidence_score,
+          confidence: a.confidence,
           timestamp: a.created_at,
         })) : [
           { mode: 'executive', question: 'Q4 budget allocation review', confidence: 92, timestamp: new Date() },

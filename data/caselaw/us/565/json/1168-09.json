@@ -1,0 +1,59 @@
+{
+  "id": 12243635,
+  "name": "Richardson v. United States",
+  "name_abbreviation": "Richardson v. United States",
+  "decision_date": "2012-01-17",
+  "docket_number": "No. 11-7732",
+  "first_page": "1168",
+  "last_page": "1168",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1168"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.632,
+    "sha256": "39a4e48324118e8bc5b076da4017aae94bff723863e96bd7dc30e6adf1c55f2f",
+    "simhash": "1:b78ad23b4d85924d",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Richardson v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7732.\nRichardson v. United States."
+  },
+  "file_name": "1168-09",
+  "first_page_order": 1250,
+  "last_page_order": 1250
+}

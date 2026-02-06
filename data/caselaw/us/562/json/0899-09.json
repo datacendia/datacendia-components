@@ -1,0 +1,59 @@
+{
+  "id": 4127050,
+  "name": "Sapp v. United States",
+  "name_abbreviation": "Sapp v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5023",
+  "first_page": "899",
+  "last_page": "899",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 899"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.634,
+    "sha256": "c2d52233c765b83c483860496b11a2a8aac5e0a46d4e2a4a7deb6cc0146ed9c6",
+    "simhash": "1:0dabca22cb8d943a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sapp v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5023.\nSapp v. United States."
+  },
+  "file_name": "0899-09",
+  "first_page_order": 921,
+  "last_page_order": 921
+}

@@ -5,6 +5,7 @@
 // =============================================================================
 
 import React, { useState, useEffect, useCallback } from 'react';
+import { useNavigate } from 'react-router-dom';
 import {
   Settings,
   Check,
@@ -22,6 +23,8 @@ import {
   Loader2,
   Save,
   RotateCcw,
+  LayoutDashboard,
+  ArrowRight,
 } from 'lucide-react';
 import { cn } from '../../../lib/utils';
 import { verticalConfigApi } from '../../../services/VerticalConfigService';
@@ -202,6 +205,8 @@ const ToggleSwitch: React.FC<ToggleSwitchProps> = ({ enabled, onChange, disabled
 // =============================================================================
 
 export const VerticalConfigPage: React.FC = () => {
+  const navigate = useNavigate();
+  
   // State
   const [selectedVertical, setSelectedVertical] = useState<string>('financial-services');
   const [enabledServices, setEnabledServices] = useState<Set<string>>(new Set(['council', 'ledger', 'evidence-vault']));
@@ -486,6 +491,54 @@ export const VerticalConfigPage: React.FC = () => {
             </div>
           </div>
 
+          {/* View Dashboard Link */}
+          <button
+            onClick={() => {
+              // Map vertical IDs to their dashboard routes
+              const verticalRoutes: Record<string, string> = {
+                'financial-services': '/verticals/financial-services',
+                'healthcare': '/verticals/healthcare',
+                'manufacturing': '/verticals/manufacturing',
+                'technology': '/verticals/technology',
+                'energy': '/verticals/energy-utilities',
+                'government': '/verticals/government-legal',
+                'legal': '/verticals/government-legal',
+                'retail': '/verticals/retail-hospitality',
+                'real-estate': '/verticals/real-estate',
+                'telecommunications': '/verticals/telecommunications',
+                'hospitality': '/verticals/hospitality',
+                'education': '/verticals/higher-education',
+                'media': '/verticals/media-entertainment',
+                'agriculture': '/verticals/agriculture',
+                'logistics': '/verticals/transportation',
+                'insurance': '/verticals/insurance',
+                'nonprofit': '/verticals/nonprofit',
+                'construction': '/verticals/construction',
+                'mining': '/verticals/energy-utilities',
+                'aerospace': '/verticals/aerospace',
+                'pharmaceuticals': '/verticals/pharmaceutical',
+                'automotive': '/verticals/automotive',
+                'sports': '/verticals/sports',
+              };
+              const route = verticalRoutes[selectedVertical] || '/verticals';
+              navigate(route);
+            }}
+            className="w-full bg-gradient-to-r from-cyan-600/20 to-blue-600/20 border border-cyan-500/30 rounded-xl p-4 hover:border-cyan-500/50 transition-all group"
+          >
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 rounded-lg bg-cyan-500/20 flex items-center justify-center">
+                  <LayoutDashboard className="w-5 h-5 text-cyan-400" />
+                </div>
+                <div className="text-left">
+                  <div className="font-medium text-white">View Dashboard</div>
+                  <div className="text-xs text-gray-400">See your {currentVertical?.name} dashboard</div>
+                </div>
+              </div>
+              <ArrowRight className="w-5 h-5 text-cyan-400 group-hover:translate-x-1 transition-transform" />
+            </div>
+          </button>
+
           {/* Legend */}
           <div className="bg-sovereign-card border border-sovereign-border rounded-xl p-4">
             <h3 className="text-sm font-semibold text-gray-400 mb-3">Tier Legend</h3>
@@ -539,11 +592,13 @@ export const VerticalConfigPage: React.FC = () => {
             {servicesByCategory.map(category => (
               <div key={category.id} className="bg-sovereign-card border border-sovereign-border rounded-xl overflow-hidden">
                 {/* Category Header */}
-                <button
-                  onClick={() => toggleCategory(category.id)}
-                  className="w-full p-4 flex items-center justify-between bg-sovereign-elevated hover:bg-sovereign-hover transition-colors"
+                <div
+                  className="w-full p-4 flex items-center justify-between bg-sovereign-elevated hover:bg-sovereign-hover transition-colors cursor-pointer"
                 >
-                  <div className="flex items-center gap-3">
+                  <div 
+                    className="flex items-center gap-3 flex-1"
+                    onClick={() => toggleCategory(category.id)}
+                  >
                     <span className="text-xl">{category.icon}</span>
                     <div className="text-left">
                       <h3 className="font-semibold text-white">{category.name}</h3>
@@ -555,25 +610,27 @@ export const VerticalConfigPage: React.FC = () => {
                   <div className="flex items-center gap-3">
                     <div className="flex items-center gap-1">
                       <button
-                        onClick={(e) => { e.stopPropagation(); enableAllInCategory(category.id); }}
+                        onClick={() => enableAllInCategory(category.id)}
                         className="px-2 py-1 text-xs text-emerald-400 hover:bg-emerald-500/10 rounded"
                       >
                         Enable All
                       </button>
                       <button
-                        onClick={(e) => { e.stopPropagation(); disableAllInCategory(category.id); }}
+                        onClick={() => disableAllInCategory(category.id)}
                         className="px-2 py-1 text-xs text-red-400 hover:bg-red-500/10 rounded"
                       >
                         Disable All
                       </button>
                     </div>
-                    {expandedCategories.has(category.id) ? (
-                      <ChevronDown className="w-5 h-5 text-gray-400" />
-                    ) : (
-                      <ChevronRight className="w-5 h-5 text-gray-400" />
-                    )}
+                    <div onClick={() => toggleCategory(category.id)} className="cursor-pointer">
+                      {expandedCategories.has(category.id) ? (
+                        <ChevronDown className="w-5 h-5 text-gray-400" />
+                      ) : (
+                        <ChevronRight className="w-5 h-5 text-gray-400" />
+                      )}
+                    </div>
                   </div>
-                </button>
+                </div>
 
                 {/* Service List */}
                 {expandedCategories.has(category.id) && (

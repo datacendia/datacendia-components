@@ -1,0 +1,59 @@
+{
+  "id": 5923994,
+  "name": "LeBlanc et al. v. United States",
+  "name_abbreviation": "LeBlanc et al. v. United States",
+  "decision_date": "2011-06-13",
+  "docket_number": "No. 10-1376",
+  "first_page": "1005",
+  "last_page": "1005",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1005"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 81,
+    "ocr_confidence": 0.608,
+    "sha256": "7628c9a1e95c973cd3afbbf34e6686c46f5ebe29e1fcbd63a1f12160aa9b56a2",
+    "simhash": "1:955ada0d0fa7390a",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "LeBlanc et al. v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. Fed. Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1376.\nLeBlanc et al. v. United States."
+  },
+  "file_name": "1005-06",
+  "first_page_order": 999,
+  "last_page_order": 999
+}

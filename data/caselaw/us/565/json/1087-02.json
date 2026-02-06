@@ -1,0 +1,59 @@
+{
+  "id": 12237608,
+  "name": "Garcia-Aguilera v. United States",
+  "name_abbreviation": "Garcia-Aguilera v. United States",
+  "decision_date": "2011-12-05",
+  "docket_number": "No. 11-7221",
+  "first_page": "1087",
+  "last_page": "1087",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1087"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 81,
+    "ocr_confidence": 0.722,
+    "sha256": "fd37449f40d0b8e7f49ba6538b68f7d822b684669c6ee65054b6e48039c10aa8",
+    "simhash": "1:1082eaf08e2d390c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Garcia-Aguilera v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7221.\nGarcia-Aguilera v. United States."
+  },
+  "file_name": "1087-02",
+  "first_page_order": 1169,
+  "last_page_order": 1169
+}

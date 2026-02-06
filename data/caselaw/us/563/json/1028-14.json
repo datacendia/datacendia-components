@@ -1,0 +1,61 @@
+{
+  "id": 5929872,
+  "name": "Kumar v. United States",
+  "name_abbreviation": "Kumar v. United States",
+  "decision_date": "2011-05-31",
+  "docket_number": "No. 10-961",
+  "first_page": "1028",
+  "last_page": "1028",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1028"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 151,
+    "ocr_confidence": 0.557,
+    "sha256": "5022f997b7026ade246d3f9d9dd15ec7259994cf7a21de5a0587613a25be06b9",
+    "simhash": "1:9d321882462ad648",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Sotomayor took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Kumar v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.\nJustice Sotomayor took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-961.\nKumar v. United States."
+  },
+  "file_name": "1028-14",
+  "first_page_order": 1054,
+  "last_page_order": 1054
+}

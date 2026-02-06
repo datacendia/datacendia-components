@@ -1,0 +1,59 @@
+{
+  "id": 12420269,
+  "name": "Shigley v. United States",
+  "name_abbreviation": "Shigley v. United States",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 12-5363",
+  "first_page": "981",
+  "last_page": "981",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 981"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.699,
+    "sha256": "743f4c89e2ea21d950ca104c2306c2d605f77350b2ce57df1ffc990dd87e326e",
+    "simhash": "1:57a2f6032dbd011e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Shigley v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5363.\nShigley v. United States."
+  },
+  "file_name": "0981-10",
+  "first_page_order": 1057,
+  "last_page_order": 1057
+}

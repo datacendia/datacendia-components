@@ -1,0 +1,59 @@
+{
+  "id": 4224429,
+  "name": "Rodriguez v. United States Tax Court",
+  "name_abbreviation": "Rodriguez v. United States Tax Court",
+  "decision_date": "2011-04-04",
+  "docket_number": "No. 10-1066",
+  "first_page": "918",
+  "last_page": "918",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 918"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 87,
+    "ocr_confidence": 0.583,
+    "sha256": "23c7429be2f33a26e98f1035f9c2253f94002665bd94409e9f6fc09a99adb9bb",
+    "simhash": "1:4f934621025fb000",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rodriguez v. United States Tax Court."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. D. C. Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1066.\nRodriguez v. United States Tax Court."
+  },
+  "file_name": "0918-06",
+  "first_page_order": 944,
+  "last_page_order": 944
+}

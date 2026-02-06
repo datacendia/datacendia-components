@@ -1,0 +1,59 @@
+{
+  "id": 12243306,
+  "name": "Killian v. California",
+  "name_abbreviation": "Killian v. California",
+  "decision_date": "2012-01-17",
+  "docket_number": "No. 11-7434",
+  "first_page": "1165",
+  "last_page": "1165",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1165"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 85,
+    "ocr_confidence": 0.639,
+    "sha256": "026683411d78465f6cf8d2540f4ba546cbc2c57f04f30c3c05e2ffeed6b373c8",
+    "simhash": "1:4101b24002c39361",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Killian v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 6th App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7434.\nKillian v. California."
+  },
+  "file_name": "1165-11",
+  "first_page_order": 1247,
+  "last_page_order": 1247
+}

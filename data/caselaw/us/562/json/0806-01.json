@@ -1,0 +1,82 @@
+{
+  "id": 6025367,
+  "name": "Sibley v. District of Columbia Court of Appeals",
+  "name_abbreviation": "Sibley v. District of Columbia Court of Appeals",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5172",
+  "first_page": "806",
+  "last_page": "806",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 806"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "506 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11924825
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/506/0001-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 69,
+    "char_count": 557,
+    "ocr_confidence": 0.532,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.17199825163552007
+    },
+    "sha256": "df4c92a9f9e938ae661d189cf2786e036d0b9e812b02b0abb03ec058cc0dff10",
+    "simhash": "1:653214cd2525d64b",
+    "word_count": 93
+  },
+  "last_updated": "2024-02-27T22:51:28.129297+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sibley v. District of Columbia Court of Appeals."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. D. C. Motion of petitioner for leave to proceed in forma pauperis denied, and certiorari dismissed. See this Court\u2019s Rule 39.8. As petitioner has repeatedly abused this Court\u2019s process, the Clerk is directed not to accept any further petitions in noncriminal matters from petitioner unless the docketing fee required by' Rule 38(a) is paid and the petition is submitted in compliance with Rule 33.1. See Martin v. District of Columbia Court of Appeals, 506 U. S. 1 (1992) (per curiam).",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5172.\nSibley v. District of Columbia Court of Appeals."
+  },
+  "file_name": "0806-01",
+  "first_page_order": 828,
+  "last_page_order": 828
+}

@@ -1,0 +1,79 @@
+{
+  "id": 12224417,
+  "name": "Smith v. United States",
+  "name_abbreviation": "Smith v. United States",
+  "decision_date": "2012-06-04",
+  "docket_number": "No. 11-8806",
+  "first_page": "1032",
+  "last_page": "1032",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 1032"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "565 U. S. 432",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12186464,
+        12446026
+      ],
+      "year": 2012,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/565/0432-01",
+        "/l-ed-2d/181/0935-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 36,
+    "char_count": 264,
+    "ocr_confidence": 0.63,
+    "pagerank": {
+      "raw": 4.688403287882615e-08,
+      "percentile": 0.25244845562868384
+    },
+    "sha256": "ec69c8ee5e3ee58ee20eb10c0effa3843f05b2f7497a1465b0775840170ae464",
+    "simhash": "1:e682e9068483969c",
+    "word_count": 43
+  },
+  "last_updated": "2024-02-27T23:45:15.365324+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Smith v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Motion of petitioner for leave to proceed in forma pauperis granted. Certiorari granted, judgment vacated, and case remanded for further consideration in light of Reynolds v. United States, 565 U. S. 432 (2012).",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8806.\nSmith v. United States."
+  },
+  "file_name": "1032-03",
+  "first_page_order": 908,
+  "last_page_order": 908
+}

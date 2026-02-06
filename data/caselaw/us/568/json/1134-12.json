@@ -1,0 +1,59 @@
+{
+  "id": 12429688,
+  "name": "Comstock v. United States",
+  "name_abbreviation": "Comstock v. United States",
+  "decision_date": "2013-01-14",
+  "docket_number": "No. 12-7636",
+  "first_page": "1134",
+  "last_page": "1134",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1134"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.623,
+    "sha256": "c277c154501fd0d2f4fdbfe778573f8ddc7d80645530a64d4c0a8f6defd8bd85",
+    "simhash": "1:a4dbc7a38fbd1a0a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Comstock v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7636.\nComstock v. United States."
+  },
+  "file_name": "1134-12",
+  "first_page_order": 1210,
+  "last_page_order": 1210
+}

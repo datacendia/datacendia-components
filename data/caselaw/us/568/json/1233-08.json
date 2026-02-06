@@ -1,0 +1,59 @@
+{
+  "id": 12433242,
+  "name": "Washington v. Hirsch",
+  "name_abbreviation": "Washington v. Hirsch",
+  "decision_date": "2013-03-18",
+  "docket_number": "No. 12-8002",
+  "first_page": "1233",
+  "last_page": "1233",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1233"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 69,
+    "ocr_confidence": 0.689,
+    "sha256": "f4557aaad4dd6985a875dd3f1d99faca02c4608d1a872dead596f09766a5cd5c",
+    "simhash": "1:f0cf49639f03f7e4",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Washington v. Hirsch."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8002.\nWashington v. Hirsch."
+  },
+  "file_name": "1233-08",
+  "first_page_order": 1309,
+  "last_page_order": 1309
+}

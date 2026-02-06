@@ -1,0 +1,68 @@
+{
+  "id": 12700246,
+  "name": "SUSAN B. ANTHONY LIST, et al., petitioners, Steven DRIEHAUS, et al.",
+  "name_abbreviation": "Susan B. Anthony List v. Driehaus",
+  "decision_date": "2014-01-10",
+  "docket_number": "No. 13\u2013193.",
+  "first_page": "1118",
+  "last_page": "1118",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 1118"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 701"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 895"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 30,
+    "char_count": 232,
+    "sha256": "7bd42cb135a19e3c67f858cfbbc3ee423116e7a797b71c5885d7992416428459",
+    "simhash": "1:b9add40c2b841518",
+    "word_count": 39
+  },
+  "last_updated": "2021-08-27T20:47:23.363448+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "SUSAN B. ANTHONY LIST, et al., petitioners, Steven DRIEHAUS, et al."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of certiorari to the United States Court of Appeals for the Sixth Circuit granted."
+    ],
+    "corrections": "",
+    "head_matter": "SUSAN B. ANTHONY LIST, et al., petitioners, Steven DRIEHAUS, et al.\nNo. 13-193.\nSupreme Court of the United States\nJan. 10, 2014.\nPetition for writ of certiorari to the United States Court of Appeals for the Sixth Circuit granted."
+  },
+  "file_name": "1118-05",
+  "first_page_order": 1118,
+  "last_page_order": 1118
+}

@@ -1,0 +1,684 @@
+{
+  "id": 6052809,
+  "name": "THE PEOPLE, Plaintiff and Respondent, v. FRANCISCO SOLIS, Defendant and Appellant",
+  "name_abbreviation": "People v. Solis",
+  "decision_date": "2015-01-06",
+  "docket_number": "No. B244487",
+  "first_page": "1108",
+  "last_page": "1125",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "232 Cal. App. 4th 1108"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "41 P.3d 556",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "117 Cal.Rptr.2d 550",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "27 Cal.4th 735",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1103386
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/27/0735-01"
+      ]
+    },
+    {
+      "cite": "105 Cal.Rptr.3d 887",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "182 Cal.App.4th 1009",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4215610
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/182/1009-01"
+      ]
+    },
+    {
+      "cite": "917 P.2d 628",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "53 Cal.Rptr.2d 789",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "13 Cal.4th 497",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1965926
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/13/0497-01"
+      ]
+    },
+    {
+      "cite": "115 Cal.Rptr.3d 519",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "188 Cal.App.4th 700",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6054157
+      ],
+      "pin_cites": [
+        {
+          "page": "706"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/188/0700-01"
+      ]
+    },
+    {
+      "cite": "100 P.3d 870",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 Cal.Rptr.3d 179",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "34 Cal.4th 535",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        633030
+      ],
+      "pin_cites": [
+        {
+          "page": "550, fn. 6"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/34/0535-01"
+      ]
+    },
+    {
+      "cite": "909 P.2d 1354",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 2004,
+      "opinion_index": 0
+    },
+    {
+      "cite": "49 Cal.Rptr.2d 732",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 2004,
+      "opinion_index": 0
+    },
+    {
+      "cite": "12 Cal.4th 652",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1957556
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "668"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/12/0652-01"
+      ]
+    },
+    {
+      "cite": "279 P.3d 1131",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "143 Cal.Rptr.3d 659",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 Cal.4th 868",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        5720966
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/54/0868-01"
+      ]
+    },
+    {
+      "cite": "538 U.S. 11",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9030344
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "20"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/538/0011-01"
+      ]
+    },
+    {
+      "cite": "92 P.3d 369",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "14 Cal.Rptr.3d 880",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "33 Cal.4th 367",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        493327
+      ],
+      "pin_cites": [
+        {
+          "page": "376-378"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/33/0367-01"
+      ]
+    },
+    {
+      "cite": "948 P.2d 429",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "69 Cal.Rptr.2d 917",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "17 Cal.4th 148",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1550686
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/17/0148-01"
+      ]
+    },
+    {
+      "cite": "381 P.2d 947",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "31 Cal.Rptr. 67",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "59 Cal.2d 703",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4391969
+      ],
+      "pin_cites": [
+        {
+          "page": "712"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/59/0703-01"
+      ]
+    },
+    {
+      "cite": "999 P.2d 95",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "96 Cal.Rptr.2d 205",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "23 Cal.4th 40",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        277041
+      ],
+      "pin_cites": [
+        {
+          "page": "78"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/23/0040-01"
+      ]
+    },
+    {
+      "cite": "83 Cal.Rptr.2d 519",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "71 Cal.App.4th 62",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        585017
+      ],
+      "pin_cites": [
+        {
+          "page": "79"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/71/0062-01"
+      ]
+    },
+    {
+      "cite": "139 Cal.Rptr.3d 484",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "204 Cal.App.4th 1034",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4250073
+      ],
+      "pin_cites": [
+        {
+          "page": "1036-1038"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/204/1034-01"
+      ]
+    },
+    {
+      "cite": "957 P.2d 928",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "76 Cal.Rptr.2d 239",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 Cal.4th 558",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        344190
+      ],
+      "pin_cites": [
+        {
+          "page": "568, fn. 3"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/18/0558-01"
+      ]
+    },
+    {
+      "cite": "766 P.2d 577",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1998,
+      "opinion_index": 0
+    },
+    {
+      "cite": "254 Cal.Rptr. 811",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1998,
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.3d 966",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1971427
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "973"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/47/0966-01"
+      ]
+    },
+    {
+      "cite": "137 P.3d 184",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Cal.Rptr.3d 353",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 Cal.4th 1224",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3853053
+      ],
+      "pin_cites": [
+        {
+          "page": "1227"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/38/1224-01"
+      ]
+    },
+    {
+      "cite": "151 P.3d 1177",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 Cal.Rptr.3d 766",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "40 Cal.4th 668",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3159560
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/40/0668-01"
+      ]
+    },
+    {
+      "cite": "301 P.3d 1157",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "157 Cal.Rptr.3d 547",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "56 Cal.4th 999",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        4224840
+      ],
+      "pin_cites": [
+        {
+          "page": "1010-1011"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/56/0999-01"
+      ]
+    },
+    {
+      "cite": "20 Cal.Rptr.3d 371",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2013,
+      "opinion_index": 0
+    },
+    {
+      "cite": "123 Cal.App.4th 855",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        585396
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "863, fn. 5"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/123/0855-01"
+      ]
+    },
+    {
+      "cite": "960 P.2d 1073",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "77 Cal.Rptr.2d 848",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "19 Cal.4th 108",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1709353
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/19/0108-01"
+      ]
+    },
+    {
+      "cite": "674 P.2d 1303",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "199 Cal.Rptr. 45",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.3d 510",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4472057
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/35/0510-01"
+      ]
+    },
+    {
+      "cite": "328 P.3d 1020",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "174 Cal.Rptr.3d 277",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "59 Cal.4th 635",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        4263799
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/59/0635-01"
+      ]
+    },
+    {
+      "cite": "328 P.3d 69",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "174 Cal.Rptr.3d 82",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "59 Cal.4th 650",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        4263978
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/59/0650-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1392,
+    "char_count": 40433,
+    "ocr_confidence": 0.896,
+    "pagerank": {
+      "raw": 4.518461695170957e-08,
+      "percentile": 0.28330937440754267
+    },
+    "sha256": "65fd3413a5e026ada798125964773de182a96f271abf09a3c35758c0ec1678fc",
+    "simhash": "1:d321864a24065e79",
+    "word_count": 6541
+  },
+  "last_updated": "2024-02-27T16:22:52.668012+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE, Plaintiff and Respondent, v. FRANCISCO SOLIS, Defendant and Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nBIGELOW, P. J.\nIn People v. Bid (2014) 59 Cal.4th 650 [174 Cal.Rptr.3d 82, 328 P.3d 69] (Bid), the Supreme Court ruled that a defendant who was charged with one offense was properly convicted by a jury of two lesser included offenses, where neither of the two lesser offenses was included in the other. Eid based its decision on Penal Code section 1159, as construed in light of the \u201ctruth-ascertainment function\u201d which guides a trial court\u2019s duty to instruct on lesser included offenses.\nIn the appeal before us today, the issue is whether a defendant who was charged with one offense was properly convicted by a jury of two lesser related offenses, where neither of the two lesser related offenses was included in the other. We hold that two convictions for lesser related offenses may properly stem from one charged offense.\nFACTS\nAfter midnight, defendant and appellant Francisco Solis went to the home of his former girlfriend, Judith M., and climbed through a window into a bedroom where Judith and her children were sleeping. Solis began stabbing Judith with a screwdriver. Before he stopped, Solis had stabbed Judith about 20 times. Judith suffered wounds to her neck, arm, chest, face and hands, including a life-threatening wound to her carotid artery. As he stabbed Judith, Solis made comments to the effect that he had warned her \u201csomething bad was going to happen,\u201d and that she \u201cdeserved to die.\u201d Later the same day, Solis went to the police and gave a taped interview in which he confessed that he attacked Judith, but stated he had been drinking beer and was \u201cout of it\u201d at the time of the incident. Solis also wrote by hand a statement implicating himself.\nThe People filed an information charging Solis with attempted willful, deliberate and premeditated murder (count 1; Pen. Code, \u00a7\u00a7 664, 187, subd. (a)), first degree burglary with the allegation that another person, not an accomplice, was present during the commission of the offense (count 2; \u00a7\u00a7 459, 667.5, subd. (c)), and criminal threats (count 3; \u00a7 422). As to count 1, the information further alleged that Solis had personally inflicted great bodily injury under circumstances involving domestic violence (\u00a7 12022.7, subd. (e)), and that he personally used a deadly weapon (\u00a7 12022, subd. (b)(1)). The information alleged that Solis had suffered two prior strike convictions (\u00a7\u00a7 667, subds. (b)-(i), 1170.2, subds. (a)-(d)), two prior serious felony convictions (\u00a7 667, subd. (a)(1)), and that he served four prior prison terms (\u00a7 667.5, subd. (b)).\nThe case was tried to a jury. On the attempted premeditated murder charge, the trial court instructed on the elements of the charged offense. Further, with the express agreement of the prosecution and defense, the court instructed with an amalgam of lesser uncharged offenses pursuant to CALCRIM No. 3517 as follows:\n\u201cIf all of you find that the defendant is not guilty of a greater crime, you may find him guilty of a lesser crime, if you are convinced beyond a reasonable doubt that the defendant is guilty of that lesser crime. A defendant may not be convicted of both a greater and lesser crime for the same conduct. Now I will explain to you which charges are affected by this instruction:\n\u201cSecond degree attempted murder is a lesser crime of attempted murder charged in count one.[]\n\u201cAttempted voluntary manslaughter is a lesser crime of attempted murder charged in count one.\n\u201cMayhem is a lesser crime of attempted murder charged in count one.\n\u201cAssault with a deadly weapon is a lesser crime of attempted murder charged in count one.\n\u201cIt is up to you to decide the order in which you consider each crime and the relevant evidence, but I can accept a verdict of guilty of a lesser crime only if you have found the defendant not guilty of the corresponding greater crime. [f\\ . . . [H\n\u201c3. If all of you agree that the People have not proven beyond a reasonable doubt that the defendant is guilty of the greater crime and you also agree that the People have proven beyond a reasonable doubt that he is guilty of the lesser crime, complete and sign the verdict form for not guilty of the greater crime and the verdict form for guilty of the lesser crime.\u201d\nThe court instmcted the jury on the elements of the identified lesser crimes, and provided verdict sheets to the jury for all of the lesser crimes. As described above, the court identified each of the lesser crimes as a lesser crime of the attempted premeditated murder count charged in count 1. (Compare CALCRIM No. 640 with CALCRIM Nos. 3515-3519.)\nDuring deliberations, the jury sent a note to the trial court: \u201cCan the defendant be [convicted] of two lesser crimes?\u201d With both counsel\u2019s express agreement, the court responded to the note by advising the jury that its question was not clear, and referring the jurors to the jury instructions on greater and lesser crimes as quoted above, specifically noting CALCRIM No. 3517.\nShortly thereafter, the jury returned verdicts finding Solis not guilty of attempted murder as charged in count 1, not guilty of \u201csecond degree attempted murder\u201d as a lesser offense of that charged in count 1, and not guilty of attempted voluntary manslaughter as a lesser offense of that charged in count \u00cd. The jury returned verdicts finding Solis guilty of mayhem and assault with a deadly weapon, both as lesser offenses of that charged in count 1. As to both of the convictions, the jury found true allegations that Solis personally used a deadly weapon and personally inflicted great bodily injury. The jury further found Solis guilty of first degree burglary, with another person, not an accomplice, present during its commission as charged in count 2, and not guilty of making criminal threats as charged in count 3. After the jury returned its verdicts, Solis admitted the prior strike convictions, prior serious felony convictions, and the prior prison term convictions.\nThe trial court denied Solis\u2019s Romero motion and sentenced him to an aggregate term of 36 years to life in state prison comprised of a third strike term of 25 years to life on count 1 for mayhem, plus 10 years for the prior serious felony convictions, and one year for the deadly weapon enhancement. It struck the great bodily injury enhancement. The court also designated assault with a deadly weapon as count 1, and imposed another 25-year-to-life term. The court added an additional one year on that count for the great bodily injury enhancement, then struck the deadly weapon enhancement. The court ordered the sentence stayed on the \u201csecond\u201d (our term) count 1 conviction for aggravated assault pursuant to section 654. On the first degree burglary count, the court imposed and stayed another 25-year-to-life sentence. The court struck the prior prison terms, and imposed various fines and fees, which are not at issue in this appeal.\nDISCUSSION\nI. The Jury Properly Convicted Solis of Two Lesser Related Offenses Stemming from One Charged Offense\nWe initially issued an opinion determining that conviction of two lesser related offenses \u2014 each of which was a strike \u2014 was unauthorized where only a single strike offense was charged. Thereafter, the California Supreme Court transferred this case back to our court with directions to vacate our decision and to reconsider it in light of the Eid case. As we have indicated, in Eid, the court determined that defendants may properly be convicted of more than one lesser included offense stemming from a single count, so long as the lesser offenses are not included in one another. The Eid case and a second, newly decided case from the California Supreme Court, People v. Vargas (2014) 59 Cal.4th 635 [174 Cal.Rptr.3d 277, 328 P.3d 1020] (Vargas), now steer our analysis in the opposite direction of our prior opinion. In Vargas, a case implicating the Three Strikes law, the court held that \u201cwhen faced with two prior strike convictions based on the same act, ... the trial court [is] required to dismiss one of them.\u201d (59 Cal.4th at p. 640.)\nSolis contends the Eid and Vargas cases should not change our previous analysis. He maintains the jury did not have authority to convict him of two lesser related serious felony offenses stemming from a single charge of attempted murder and that we must strike his conviction for assault with a deadly weapon and the related enhancements. Specifically, Solis argues section 1159 does not authorize multiple convictions for lesser related offenses. Further, he argues that he had no notice he could be convicted of two lesser related offenses and his convictions violate both the separation of powers doctrine, and section 654\u2019s prohibition against successive prosecution. We are not persuaded.\nA. Instruction on Lesser Related Offenses\nWe start our discussion with a brief synopsis of the rules governing instruction on lesser related offenses. In the now overruled case of People v. Geiger (1984) 35 Cal.3d 510 [199 Cal.Rptr. 45, 674 P.2d 1303] (Geiger), the California Supreme Court determined that a trial court is required to instruct on lesser offenses when the defendant requests it, if the offense is closely related to the charged offense and the evidence provides a basis for finding the defendant guilty of the lesser, but innocent of the charged offense. Further, the court indicated that the rule barring conviction of both a greater and lesser offense holds true as to lesser related offenses. In short, \u201c[t]he conviction of a [lesser] related offense constitutes an acquittal of the charged offense.\u201d (Id. at p. 528.)\nIn People v. Birks (1998) 19 Cal.4th 108 [77 Cal.Rptr.2d 848, 960 P.2d 1073] (Birks), the Supreme Court overruled Geiger, and held that a defendant is not entitled to instructions on a lesser related offense. (Id. at pp. 116-137.) At the same time, however, the Supreme Court stated the following rule with regard to agreements for instructions on lesser related charges: \u201c[Q]ur decision does not foreclose the parties from agreeing that the defendant may be convicted of a lesser offense not necessarily included in the original charge.\u201d (Birks, supra, at p. 136, fn. 19.) Thus, one of the main differences between instructing on lesser included and lesser related offenses is that instruction on lesser included offenses is mandatory, while both parties must agree to have the court instruct on lesser related offenses.\nAll parties agree that the crimes for which Solis stands convicted\u2014 assault with a deadly weapon and mayhem \u2014 are not lesser included offenses of attempted premeditated murder. In addition, neither party contends assault with a deadly weapon is a lesser included offense of mayhem, or vice versa. (See People v. Ausbie (2004) 123 Cal.App.4th 855, 863, fn. 5 [20 Cal.Rptr.3d 371], overruled in part by People v. Santana (2013) 56 Cal.4th 999, 1010-1011 [157 Cal.Rptr.3d 547, 301 P.3d 1157].) With this framework in mind, we turn now to the Eid decision to guide our resolution of the issues presented.\nB. The Eid Decision\nIn Eid, defendants Reynoldo Eid and Alaor Oliveira were charged with two counts of the kidnapping for ransom of Ana and logo Ribeiro. (\u00a7 209, subd. (b).) The evidence at trial established that Jefferson Ribeiro, Ana\u2019s husband and Iago\u2019s father, traveled from Brazil to Florida on a six-month tourist visa. Jefferson, however, planned to stay in the United States indefinitely. Less than a year later, Jefferson met Mauricio Freitas, who agreed to arrange for Ana and logo to illegally enter the United States in exchange for $18,000. Jefferson paid Freitas $4,000 and was to pay the remaining balance in monthly installments of $1,000. Pursuant to that agreement, Ana and logo flew from Brazil to Mexico City, and were eventually smuggled across the border into the United States. The defendants kept Ana and iago in a motel room in Costa Mesa. In the meantime, Freitas repeatedly asked Jefferson for more money, and Jefferson paid him approximately $13,000 in additional cash. Eid then called Jefferson and demanded $14,000 more. Jefferson had no more money and did not agree to the demand. Eid said he would not release Ana and logo, took their passports, and threatened to take Ana to New York and make her work to pay off the debt if the defendants were not paid. Thereafter, Jefferson located the motel where his son and wife were being held and sent a friend who lived locally to pick them up. When the friend arrived, the defendants refused to allow Ana and logo to leave and the police were called. The police arrested the defendants and Ana informed police she had been held against her will. (Eid, supra, 59 Cal.4th at pp. 652-654.)\nIn addition to being instructed on the crime of kidnapping for ransom, the jury was also instructed on four lesser included offenses. The jurors were informed that they could find the defendants guilty of a lesser crime if they found the defendants not guilty of the charged crime. The jury found the defendants not guilty on the kidnapping for ransom charges, but guilty of two lesser offenses \u2014 attempted extortion and misdemeanor false imprisonment. The defendants did not object to being convicted of the two lesser offenses, but argued for the first time on appeal that they could not be convicted of two lesser included offenses from one greater offense. (Eid, supra, 59 Cal.4th at p. 655.) The Court of Appeal agreed and struck the convictions for misdemeanor false imprisonment. The California Supreme Court granted review and reversed the Court of Appeal\u2019s decision. (Ibid.)\nThe Supreme Court determined that multiple convictions for lesser included offenses, when not included in each other, are statutorily authorized under section 1159 when a defendant is charged with one offense. \u201cSection 1159 provides that \u2018[t]he jury . . . may find the defendant guilty of any offense, the commission of which is necessarily included in that with which he is charged ....\u2019\u201d (Eid, supra, 59 Cal.4th at p. 656.) The words \u201cany offense\u201d in the statute are susceptible of a singular or plural meaning in common usage, the court explained, depending upon the context. When \u201cany\u201d is considered in the framework of the jury\u2019s \u201ctruth-ascertainment function,\u201d a jury is statutorily allowed to return multiple guilty verdicts to reflect the jury\u2019s determination of the defendant\u2019s criminal culpability, even if only one offense was charged in the first instance. (Id. at pp. 656-659.)\nThe court reiterated the rationale for instructing a jury on lesser included offenses: \u201cA jury instructed on only the charged offense might be tempted to convict the defendant \u201cof a greater offense than that established by the evidence\u201d \u2019 rather than acquit the defendant altogether, or it may be forced to acquit the defendant because the charged crime is not proven even though the \u201cevidence is sufficient to establish a lesser included offense.\u201d \u2019 [Citation.] Instructing the jury on lesser included offenses avoids presenting the jury with \u2018an \u201cunwarranted all-or-nothing choice\u201d \u2019 [citation], thereby \u2018protecting] both the defendant and the prosecution against a verdict contrary to the evidence\u2019 [citation].\u201d (Eid, supra, 59 Cal.4th at p. 657.)\nThe court then determined that \u201c[t]he purposes underlying the rule requiring instruction on lesser included offenses are served by allowing the jury to convict on more than one lesser offense if, in the jury\u2019s determination, such convictions more accurately reflect the defendant\u2019s culpability in light of the evidence.\u201d (Eid, supra, 59 Cal.4th at p. 657.) As applied to the Eid case, the jury\u2019s decision to convict the defendants of attempted extortion and misdemeanor false imprisonment instead of kidnapping for ransom \u201cacknowledged that although defendants had not kidnapped the victims and held them for ransom, they had held the victims against their will and attempted to extort money from their family. By convicting defendants of two lesser included offenses, the jury tailored its verdict to reflect its determination of the full extent of defendants\u2019 criminal acts.\u201d (Ibid.)\nThe Supreme Court also indicated the appellate court improperly relied on the decision in People v. Navarro (2007) 40 Cal.4th 668, 674 \u2014 675 [54 Cal.Rptr.3d 766, 151 P.3d 1177] (Navarro) for the conclusion that defendants could be convicted of only one lesser included offense. (Eid, supra, 59 Cal.4th at pp. 658-659.) In Navarro, the Supreme Court interpreted section 1181, subdivision 6, which allows an appellate court to modify a verdict or judgment \u201c \u2018if the evidence shows the defendant to be not guilty of the degree of the crime of which he was convicted, but guilty of a lesser degree thereof, or a lesser crime included therein\u2019 \u201d and a similar provision found in section 1260. (Navarro, supra, at p. 676.) The Court of Appeal had found there was insufficient evidence of a completed carjacking and modified the judgment to instead reflect convictions on two lesser included offenses. The Supreme Court reversed, stating it was deciding only a \u201cnarrow\u201d issue \u2014 that those statutes did not provide an appellate court the authority to substitute two lesser included offenses for one greater offense. (Id. at pp. 675, 679.) In distinguishing the situation in Navarro from the one presented in Eid, the high court in Eid stated that in sections 1181, subdivision 6 and 1260: \u201cthe Legislature restricted the reviewing court to the \u2018corrective function\u2019 of \u2018replacing] a single greater offense with a single lesser offense . . . .\u2019 [Citation.] This limitation does not apply here; a jury determining the extent of a defendant\u2019s culpability in the first instance exercises no similar corrective function.\u201d (Eid, supra, 59 Cal.4th at p. 659.)\nThe court also rejected the argument that section 954 prohibited multiple convictions of uncharged offenses. That provision states, in pertinent part: \u201c \u2018the defendant may be convicted of any number of the offenses charged.\u2019 \u201d (Eid, supra, 59 Cal.4th at p. 659.) The court pointed out that the charged offense provided the defendants notice of, and the opportunity to defend against, the two uncharged lesser included offenses of which they were convicted. The defendants were not entitled to notice of the number of convictions they faced, the court said, stating that the defendants \u201cmarshal[ed] no authority [for the proposition] or any argument that outweigh[ed] the truth-seeking purpose of instructing and authorizing convictions on multiple lesser included offenses.\u201d (Eid, supra, at p. 660.)\nC. Application to This Case\nWe start by acknowledging that section 1159 expressly applies only to lesser included offenses, not lesser related offenses. Thus, it does not dictate the result in a case involving lesser related offenses. However, contrary to Solis\u2019s contention, allowing multiple convictions on lesser related offenses the parties have agreed to submit to the jury similarly serves the jury\u2019s truth-ascertainment function. A jury instructed only on the charged offense might choose to acquit or convict a defendant of a greater offense than that demonstrated by the evidence if not presented with the alternative of an agreed upon lesser related offense. Indeed, that is precisely the reason parties agree to instruction on lesser related offenses \u2014 they hope to avoid giving the jury an all-or-nothing choice. As a result, in the context of lesser related offenses requested by the parties, we see no reason to depart from the wisdom of encouraging juries to convict defendants of the number and type of crimes which accurately reflect their culpability.\nSolis contends the reasoning underlying Bid is not applicable in this context because instruction on lesser related offenses promotes inaccurate factfinding, not the \u201ctruth-ascertainment\u201d function underlying instruction on lesser included offenses. He claims this explains the Supreme Court decision in Birks to overrule Geiger. Solis is mistaken in his analysis. The Birks court found instruction on lesser related offenses led to unreliable results because, under the mandatory instruction rule enunciated in Geiger, a criminal defendant had a unilateral entitlement to instructions on lesser related offenses. The court stated: \u201cThe Geiger rule can be unfair to the prosecution, and actually promotes inaccurate factfinding, because it gives the defendant a superior trial right to seek and obtain conviction for a lesser uncharged offense whose elements the prosecution has neither pied nor sought to prove.\u201d (Birks, supra, 19 Cal.4th at pp. 112-113.) Specifically, \u201c[w]here lesser related offenses are concerned, the Geiger rule . . . may actually permit and encourage a one-sided use of the \u2018gambling hall\u2019 strategies we have consistently denounced. If the' evidence suggests the possibility of a related lesser offense neither charged nor tried by the prosecution, the defendant either may demand that instructions on that offense be given, or may raise notice objections which, if successful, will prevent such instructions from being given at the prosecution\u2019s behest.\u201d (Birks, at p. 128.) The decision in Birks did not hold that instruction on lesser related offenses alone led to inaccurate results; it instead observed that a defendant\u2019s unilateral right under Geiger to demand instruction on lesser related offenses was unfair to the prosecution. This is why the court left open the possibility, as we have noted, for instructions on lesser related offenses when both parties agree to them. In fact, the Supreme Court in Birks expressly approved of the instructional procedures employed at Solis\u2019s trial.\nII. Notice\nWe also find unpersuasive Solis\u2019s argument that his conviction for assault with a deadly weapon should be stricken because he did not have notice of or agree to be convicted of two uncharged offenses.\nIn Eid, the California Supreme Court found the defendant was given notice of the charges because \u201ca charged offense puts a defendant on notice of all uncharged lesser included offenses (People v. Reed (2006) 38 Cal.4th 1224, 1227 [45 Cal.Rptr.3d 353, 137 P.3d 184])____\u201d (Eid, supra, 59 Cal.4th at p. 660.) Here, Solis\u2019s request that the jury be instructed with the lesser related offenses likewise gave him notice of the charges against him. \u201c[A]n exception to [the clearly established rule that a defendant has a due process right to notice of the charges] has long been recognized in cases where a defendant expressly or impliedly consents to have the trier of fact consider a nonincluded offense: \u2018. . . a defendant who requests or acquiesces in conviction of a lesser offense cannot legitimately claim lack of notice, [and] the court has jurisdiction to convict him of that offense.\u2019 \u201d (People v. Toro (1989) 47 Cal.3d 966, 973 [254 Cal.Rptr. 811, 766 P.2d 577], dictum on another point disapproved in People v. Guiuan (1998) 18 Cal.4th 558, 568, fn. 3 [76 Cal.Rptr.2d 239, 957 P.2d 928].) Solis unequivocally agreed to have the trial court instruct on every lesser related offense that was read to the jury. Under well-established precedent, he cannot complain of a lack of notice of the offenses of which he was convicted.\nSolis\u2019s real complaint is that he should have been given notice of the number of convictions he faced. We disagree. First, Solis did not ask the trial judge to clarify that the jury could convict him of only one lesser related offense when responding to the jury\u2019s direct question on the point. This may be considered implied consent to conviction of the two lesser related convictions he suffered. But aside from that, and most persuasive to us, is that in Eid, the California Supreme Court rejected the claim that the defendants were entitled to \u201cnotice of the number of convictions they faced if that number could be greater than one.\u201d (Eid, supra, 59 Cal.4th at p. 660.) The court explained: \u201c[Defendants marshal no authority for this claim or any argument that outweighs the truth-seeking purpose of instructing and authorizing convictions on multiple lesser included offenses. Defendants do not contend, for example, that their lack of notice as to the number of possible convictions on lesser included offenses implicated the \u2018Three Strikes\u2019 law or resulted in a sentence greater than what could be imposed upon conviction of the charged greater offense.\u201d (59 Cal.4th at p. 660.) We see no reason to depart from this Supreme Court precedent in the context of, lesser related offenses.\nThe fact that Solis was convicted of two strike offenses does not alter our analysis. The court in Eid expressly declined to decide whether a defendant convicted of multiple lesser included offenses, each of which implicated the Three Strikes law, would change its analysis of the notice issue. We are squarely presented with that issue here, as the lesser related offenses of which Solis was convicted are strike offenses and he claims he did not have notice he could be convicted of two offenses which could severely increase his punishment in the future. We initially found this argument persuasive but, as we have noted, the Three Strikes landscape has changed since we filed our previous opinion.\nIn Vargas, supra, 59 Cal.4th 635, the Supreme Court held that \u201cwhen faced with two prior strike convictions based on the same act, ... the trial court [is] required to dismiss one of them.\u201d (Id. at p. 640.) There, the defendant had two prior strikes \u2014 carjacking and robbery- \u2014 -which were based on the same act of taking the victim\u2019s car by force. (Ibid.) The trial court counted each prior conviction separately to sentence the defendant to a 25-year-to-life prison sentence. The Supreme Court determined that treating such a defendant \u201cas a third strike offender . . . was inconsistent with the intent underlying both the legislative and initiative versions of the Three Strikes law.\u201d (Vargas, supra, 59 Cal.4th at p. 645.) The court explained \u201cthe voting public would reasonably have understood the \u2018Three Strikes\u2019 baseball metaphor to mean that a person would have three chances \u2014 three swings of the bat, if you will \u2014 before the harshest penalty could be imposed. The public also would have understood that no one can be called for two strikes on just one swing.\u201d (Id. at p. 646.) It concluded that \u201c[treating [the defendant] more harshly than that \u2014 i.e., as a third strike offender \u2014 when she has committed but one prior qualifying act, upsets this tiered penalty structure, skipping the second step.\u201d (Id. at p. 647.)\nApplying the analysis in Vargas to this case, it is apparent that if Solis is subsequently convicted of a serious or violent felony, he would not be eligible for treatment as a third strike offender based on the two convictions he incurred in this case. Solis\u2019s convictions arise from the same single act of stabbing the victim some 20 times. This is not a case in which there was an initial assault followed by the attacker\u2019s return 30 minutes later to inflict further injury, which is not considered a single act. (See People v. Finney (2012) 204 Cal.App.4th 1034, 1036-1038 [139 Cal.Rptr.3d 484].) In sum, a subsequent sentencing court could not use Solis\u2019s two convictions separately to qualify him as a third strike offender without impermissibly \u201cskipping the second step\u201d of the Three Strikes law, requiring a second conviction based on a different act. Solis was not entitled to any further notice than that which he received.\nIII. Separation of Powers\nSolis next argues that only one of his two convictions may stand because \u201cpermitting the jury to make two crimes out of one charge violated [the] separation of powers doctrine.\u201d We disagree.\n\u201c \u2018[T]he powers of state government are legislative, executive, and judicial. Persons charged with the exercise of one power may not exercise either of the others except as permitted by [the state] Constitution.\u2019 \u201d (Birks, supra, 19 Cal.4th at p. 134.) As relevant to Solis\u2019s current case, the prosecution of crimes is recognized as an executive function, vesting in our state\u2019s prosecutors the discretion to control and determine whom to charge and what charges to bring. (Ibid.) Thus, under the separation of powers doctrine, our state\u2019s courts must avoid interfering with the executive\u2019s prosecutorial functions, including the exercise of its broad charging discretion. (People v. Cortes (1999) 71 Cal.App.4th 62, 79 [83 Cal.Rptr.2d 519]; see Birks, supra, 19 Cal.4th at pp. 134-136 [separation of powers concerns may arise when a prosecuting authority\u2019s exclusive power to bring charges against a criminal defendant is infringed].) When one branch of the state government trammels on a core function assigned to another branch, a court has the authority to declare the usurper\u2019s activities to be invalid. (Cf. Obrien v. Jones (2000) 23 Cal.4th 40, 78 [96 Cal.Rptr.2d 205, 999 P.2d 95] [generally discussing remedies for violations of separation of power].)\nThe Birks court rejected Geiger's rule of mandatory instruction on lesser related offenses in part because it implicated the separation of powers. The court found that requiring instruction on lesser related offenses undermines the prosecutor\u2019s exclusive executive discretion to choose which charges to bring from \u201camong those potentially available,\u201d which \u201carises from \u2018 \u201cthe complex considerations necessary for the effective and efficient administration of law enforcement.\u201d \u2019 \u201d (Birks, supra, 19 Cal.4th at p. 134.) It necessarily follows that if the prosecution agrees to submit lesser related offenses to the jury, as it did here, the prosecutor\u2019s discretion is unaffected, and there is no separation of powers issue. Indeed, requiring the parties\u2019 agreement to instruction on lesser related offenses was the antidote suggested by Birks to avoid a separation of powers problem. (Id. at p. 136, fn. 19.)\nWe also reject Solis\u2019s extensive reliance on Navarro, supra, 40 Cal.4th 668, for a different conclusion regarding the separation of powers doctrine. As the California Supreme Court in Bid indicated, Navarro dealt with different statutes not relevant to the issues presented here. (Bid, supra, 59 Cal.4th at pp. 658-659.) In addressing the narrow question presented in Navarro, the Supreme Court did not rely on or even discuss the separation of powers doctrine. Instead, the Supreme Court ruled that under the statutes which delineate the powers of an appellate court to modify the judgment in a criminal case (see \u00a7\u00a7 1181, subd. 6, 1260), an appellate court does not have the authority to change a verdict on one offense into two verdicts on two lesser offenses. Navarro has nothing to do with separation of power concerns arising from an invasion of prosecutorial discretion in bringing criminal charges in the first instance.\nIV. Section 654\nLast, Solis contends section 654 bars his convictions for the uncharged lesser offenses of mayhem and assault with a deadly weapon based on one charged count for attempted murder. He argues the jury could properly return a single conviction for an uncharged lesser offense and no more. We disagree.\nSolis\u2019s argument is based on the final sentence of section 654 which reads: \u201cAn acquittal or conviction and sentence under any one [provision of law] bars a prosecution for the same act or omission under any other [provision of law].\u201d\nThat portion of section 654 bars multiple prosecutions based upon the same act or omission; it is designed to prevent the prosecution from bringing a defendant back into court, over and over, based on what is essentially a single incident. In short, the section has largely an antiharassment purpose. \u201cThe proscription against multiple prosecution does not apply where there has been but one prosecution, i.e., a single criminal action; it prohibits only a subsequent prosecution for the same act or omission, which, of course, means the filing and pressing of a new criminal action.\u201d (People v. Seiterle (1963) 59 Cal.2d 703, 712 [31 Cal.Rptr. 67, 381 P.2d 947], original italics.) Here, there was only one criminal action against Solis; there was no violation of section 654.\nV. Romero\nSolis contends the trial court abused its discretion in denying his Romero motion to dismiss two of his three prior strike convictions. At trial, Solis admitted he suffered two strike convictions in April 1983 for violations of section 245, subdivision (a)(1), and a prior strike conviction in February 1995 for a violation of section 459. On appeal, Solis argues the trial court abused its discretion in imposing a sentence that took into account the 1983 strikes that he suffered roughly 30 years before he committed his attack on the victim in his current case. We disagree.\nIn Romero, the state Supreme Court ruled that the Three Strikes law did not remove a sentencing court\u2019s discretion to dismiss a defendant\u2019s prior strike or strikes to achieve a punishment in the furtherance of justice. (Romero, supra, 13 Cal.4th at p. 504.) In People v. Williams (1998) 17 Cal.4th 148 [69 Cal.Rptr.2d 917, 948 P.2d 429] (Williams), the Supreme Court explained that a sentencing court\u2019s exercise of discretion to dismiss a prior strike is to be guided by the following standard: May the defendant, in light of his or her current crime, and his or her criminal history, background, character, and prospects, be deemed \u201coutside the . . . spirit\u201d of the Three Strikes law, in whole or in part, and, hence, be treated as though he or she had not suffered the prior strike conviction. (Williams at p. 161.) When the factors cited in Williams, supra, 17 Cal.4th 148 \u201cmanifestly support the striking of a prior conviction and no reasonable minds could differ[,] the failure to strike would constitute an abuse of discretion.\u201d (People v. Carmony (2004) 33 Cal.4th 367, 376-378 [14 Cal.Rptr.3d 880, 92 P.3d 369].)\nWe do not find an abuse of discretion in Solis\u2019s current case. Solis was convicted in the instant case of mayhem, and the jury found true two enhancements to that crime \u2014 that he personally used a deadly and dangerous weapon, and that he inflicted great bodily injury under circumstances involving domestic violence. He was also convicted of first degree burglary with a true finding on the allegation that another person was present during its commission. The facts reveal a particularly violent attack with a screwdriver. Solis stabbed Judith about 20 times, inflicting wounds to her neck, arm, chest, face and hands, including a life-threatening wound to her carotid artery. Solis suffered three prior strike convictions, two for aggravated assault in 1983, and one for first degree burglary in 1995. He suffered four convictions with a prison term prior to his attack on the victim in this case. The probation officer\u2019s report shows additional incidents involving Solis in the criminal justice system. In light of all of the circumstances, the trial court did not abuse its discretion in denying Solis\u2019s Romero motion. The record does not \u201cmanifestly support the striking of a prior conviction\u201d because Solis is not a defendant who must be deemed \u201coutside the . . . spirit\u201d of the Three Strikes law. On the contrary, Solis\u2019s current offense and his criminal history support sentencing under the Three Strikes law.\nSolis contends his sentence violates the Eighth Amendment\u2019s prohibition against cruel and unusual punishment unless his Romero motion is granted. We disagree. When examining whether the length of a sentence violates the Eighth Amendment, a court may only apply a \u201c \u2018narrow proportionality\u2019 \u201d analysis. (Ewing v. California (2003) 538 U.S. 11, 20 [155 L.Ed.2d 108, 123 S.Ct. 1179].) We do not find Solis\u2019s sentence to be so disproportionate to his crime and his life\u2019s criminal history that it violates constitutionally prescribed sentencing limits.\nDISPOSITION\nThe judgment is affirmed.\nRubin, J., and Flier, J., concurred.\nAppellant\u2019s petition for review by the Supreme Court was denied April 22, 2015, S224442.\nAll further undesignated section references are to the Penal Code.\nThe crime of \u201csecond degree attempted murder\u201d was a misnomer. As explained in People v. Favor (2012) 54 Cal.4th 868 [143 Cal.Rptr.3d 659, 279 P.3d 1131] (Favor), the imposition of a greater sentence for an attempted murder that is premeditated is a matter of punishment, and does not create a greater degree of attempted murder. \u201c \u2018[T]he statutory language employed in prescribing an additional penalty for attempted murder . . . reflects a legislative intent to create a penalty provision specifying a greater term, rather than a substantive offense.\u2019 \u201d (Id. at p. 877, quoting People v. Bright (1996) 12 Cal.4th 652, 668 [49 Cal.Rptr.2d 732, 909 P.2d 1354], deemed no longer controlling on a different point in People v. Seel (2004) 34 Cal.4th 535, 550, fn. 6 [21 Cal.Rptr.3d 179, 100 P.3d 870].) In short, the offense of premeditated attempted murder is not a separate offense from attempted murder. (Favor, supra, 54 Cal.4th at p. 877, citing Anthony v. Superior Court (2010) 188 Cal.App.4th 700, 706 [115 Cal.Rptr.3d 519].) We use \u201csecond degree attempted murder\u201d in this opinion only to accurately reflect the trial court\u2019s instruction to the jury.\nPeople v. Superior Court (Romero) (1996) 13 Cal.4th 497 [53 Cal.Rptr.2d 789, 917 P.2d 628] (Romero).\nBecause the defendant received notice of the possible convictions he faced, the California Supreme Court indicated it was not persuaded by the argument that section 954 authorizes multiple convictions of charged, but not uncharged, offenses. (Eid, supra, 59 Cal.4th at p. 660.) We reject Solis\u2019s identical argument for the same reason.\nMayhem is both a serious and violent felony (see \u00a7\u00a7 667.5, subd. (c)(2), 1192.7, subd. (c)(2)), and assault with a deadly weapon is a serious felony in this case because Solis used a knife (see \u00a7 1192.7, subd. (c)(23)).\nThe cases cited in the briefs on appeal do not squarely address the issue presented. Solis first relies on People v. Arias (2010) 182 Cal.App.4th 1009 [105 Cal.Rptr.3d 887] (Arias). In Arias, the defendant was charged with two counts of attempted murder, with no premeditation allegation. Over a defense objection, the trial court instructed the jurors that if they found the defendant guilty of attempted murder, they then needed to determine whether the prosecution proved the attempted murder was premeditated. The jury returned verdicts finding the defendant guilty of two counts of \u201c \u2018first degree attempted murder.\u2019 \u201d (Id. at p. 1017.) The Court of Appeal reversed the jury\u2019s findings that the murders were premeditated, finding the defendant was not given notice that an attempted premeditated charge would be applied to him. (Id. at pp. 1020-1022.) Solis\u2019s current case is not like Arias. Solis was not exposed to a greater uncharged offense at trial than that which was charged in the information, or to any charge he did not agree could be submitted to the jury.\nSolis\u2019s reliance on People v. Mancebo (2002) 27 Cal.4th 735 [117 Cal.Rptr.2d 550, 41 P.3d 556] (Mancebo) is similarly misplaced. In Mancebo, the trial court imposed an unpleaded \u201cmultiple victim\u201d circumstance at the time of sentencing to impose life terms under the one strike law (see \u00a7 667.61), so that a firearm enhancement which was actually pleaded could be used separately to enhance the defendant\u2019s sentence under section 12022.5, subdivision (a). (Mancebo, supra, 27 Cal.4th at pp. 738-742.) The Supreme Court invalidated the trial court\u2019s sentence, ruling that the \u201c[substitution of [the] unpleaded circumstance for the first time at sentencing as a basis for imposing the indeterminate terms violated the explicit pleading provisions of the One Strike law.\u201d (Id. at p. 743.) In so ruling, the court emphasized that its decision was driven by due process concerns as well as statutory interpretation. (Id. at p. 747.) Solis\u2019s current case is unlike Mancebo. Solis was neither convicted nor sentenced based on an unpleaded allegation. The lesser offenses that were submitted to the jury were submitted openly and with Solis\u2019s agreement.",
+        "type": "majority",
+        "author": "BIGELOW, P. J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Lise M. Breakey, under appointment by the Court of Appeal, for Defendant and Appellant.",
+      "Kamala D. Harris, Attorney General, Dane R. Gillette, Chief Assistant Attorney General, Lance E. Winters, Assistant Attorney General, Victoria B. Wilson, Shawn McGahey Webb and Jonathan J. Kline, Deputy Attorneys General, for Plaintiff and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. B244487.\nSecond Dist., Div. Eight.\nJan. 6, 2015.]\nTHE PEOPLE, Plaintiff and Respondent, v. FRANCISCO SOLIS, Defendant and Appellant.\nCounsel\nLise M. Breakey, under appointment by the Court of Appeal, for Defendant and Appellant.\nKamala D. Harris, Attorney General, Dane R. Gillette, Chief Assistant Attorney General, Lance E. Winters, Assistant Attorney General, Victoria B. Wilson, Shawn McGahey Webb and Jonathan J. Kline, Deputy Attorneys General, for Plaintiff and Respondent."
+  },
+  "file_name": "1108-01",
+  "first_page_order": 936,
+  "last_page_order": 953
+}

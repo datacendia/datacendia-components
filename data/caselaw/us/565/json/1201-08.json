@@ -1,0 +1,59 @@
+{
+  "id": 12245988,
+  "name": "Kirby v. King, Attorney General of New Mexico, et al.",
+  "name_abbreviation": "Kirby v. King",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-790",
+  "first_page": "1201",
+  "last_page": "1201",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1201"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 18,
+    "char_count": 101,
+    "ocr_confidence": 0.646,
+    "sha256": "0e31c77784bb3dff077785db2565577af1f772c5b8fe9f00fcfd832ec9fb065d",
+    "simhash": "1:1340b435db9792b2",
+    "word_count": 18
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Kirby v. King, Attorney General of New Mexico, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-790.\nKirby v. King, Attorney General of New Mexico, et al."
+  },
+  "file_name": "1201-08",
+  "first_page_order": 1283,
+  "last_page_order": 1283
+}

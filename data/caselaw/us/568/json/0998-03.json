@@ -1,0 +1,59 @@
+{
+  "id": 12421765,
+  "name": "Klein et al. v. City of Jackson, Michigan",
+  "name_abbreviation": "Klein v. City of Jackson",
+  "decision_date": "2012-11-05",
+  "docket_number": "No. 12-216",
+  "first_page": "998",
+  "last_page": "998",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 998"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 89,
+    "ocr_confidence": 0.606,
+    "sha256": "de3d2d069bc12c3ea83a99e4447d873ed1d0f477597b560f7d4aa6840c5eeaaf",
+    "simhash": "1:a28b66900ebbb420",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Klein et al. v. City of Jackson, Michigan."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-216.\nKlein et al. v. City of Jackson, Michigan."
+  },
+  "file_name": "0998-03",
+  "first_page_order": 1074,
+  "last_page_order": 1074
+}

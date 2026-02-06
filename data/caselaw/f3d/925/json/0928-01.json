@@ -1,0 +1,136 @@
+{
+  "id": 12521344,
+  "name": "COMMON CAUSE INDIANA, et al., Plaintiffs-Appellees, v. MARION COUNTY ELECTION BOARD, et al., Defendants. Appeal of: State of Indiana",
+  "name_abbreviation": "Common Cause Ind. v. Marion Cnty. Election Bd.",
+  "decision_date": "2019-06-03",
+  "docket_number": "No. 18-2735",
+  "first_page": "928",
+  "last_page": "931",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "925 F.3d 928"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "7th Cir.",
+    "id": 9010,
+    "name": "United States Court of Appeals for the Seventh Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "95 L.Ed. 36",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "year": 1950,
+      "opinion_index": 0
+    },
+    {
+      "cite": "340 U.S. 36",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6930686
+      ],
+      "weight": 2,
+      "year": 1950,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/340/0036-01"
+      ]
+    },
+    {
+      "cite": "819 F.3d 384",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4253851
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "385",
+          "parenthetical": "citing United States v. Munsingwear, Inc. , 340 U.S. 36, 71 S.Ct. 104, 95 L.Ed. 36 (1950) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/819/0384-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 2106",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "Ind. Code \u00a7 3-11-18.1",
+      "category": "laws:leg_statute",
+      "reporter": "Ind. Code",
+      "weight": 3,
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 U.S.C. \u00a7 1983",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "Ind. Code \u00a7 3-6-5-2",
+      "category": "laws:leg_statute",
+      "reporter": "Ind. Code",
+      "weight": 2,
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 486,
+    "char_count": 8355,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25933732043837304
+    },
+    "sha256": "96fdb741b29abb65690918d2c480938fa54113a6cd75b51589efe21da79324ff",
+    "simhash": "1:b37ce383e8a437b5",
+    "word_count": 1287
+  },
+  "last_updated": "2024-02-27T18:46:49.974673+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Flaum, Kanne, and Sykes, Circuit Judges."
+    ],
+    "parties": [
+      "COMMON CAUSE INDIANA, et al., Plaintiffs-Appellees,\nv.\nMARION COUNTY ELECTION BOARD, et al., Defendants."
+    ],
+    "opinions": [
+      {
+        "text": "Flaum, Circuit Judge.\nIndiana counties must maintain a three-member election board, made up of the circuit court clerk and two individuals the clerk appoints, one \"from each of the major political parties of the county.\" Ind. Code \u00a7 3-6-5-2. The board makes various decisions about a county's voting system, including rules for in-person early voting.\nUntil December 2018, Marion County used a precinct-based voting system. Under that scheme, the Marion County Election Board (the \"Board\") could establish in-person early voting \"satellite offices\" each year by unanimous vote. See id. \u00a7 3-11-10-26.3 (the \"Satellite Office Provision\"). A satellite office resolution \"expires January 1 of the year immediately after the year in which the resolution is adopted.\"Id. \u00a7 3-11-10-26.3(i). The Board approved in-person early voting satellite offices for the 2008 presidential election. It did not approve any satellite offices for the 2010, 2012, 2014, or 2016 elections; each year, the two Democrat Board members voted in favor of opening satellite offices, while the one Republican Board member voted against.\nIn May 2017, Common Cause Indiana, the Greater Indianapolis Branch of the NAACP, and two Marion County registered voters sued the Board and its members in their official capacities pursuant to 42 U.S.C. \u00a7 1983. Plaintiffs alleged the Board's decision to not approve in-person early voting satellite offices from 2010 to 2016-and more specifically, the application of the Satellite Office Provision's unanimity requirement and the Republican Board member's decision to withhold consent-burdened voters' rights to cast early votes without any relationship to a legitimate government interest, in violation of the First and Fourteenth Amendments and Section 2 of the Voting Rights Act of 1965. Indiana moved to intervene, arguing plaintiffs' complaint \"calls into question the federal and state constitutional validity\" of the Satellite Office Provision. The district court issued a conditional grant, allowing Indiana to attend a settlement conference, challenge a settlement agreement at a fairness hearing, and seek permission to appeal any approved settlement.\nOn April 25, 2018, the district court granted plaintiffs' motion for a preliminary injunction, ordering the Board to establish two in-person early voting satellite offices for the November 2018 election. Soon thereafter, on July 10, 2018, the district court entered a Consent Decree (the \"Decree\"). The Board agreed to establish five in-person early voting satellite offices for the 2018 general election, and going forward, a minimum of two satellite offices for primary elections and five satellite offices for general and municipal elections. The Decree did not address any underlying issues of law, other than to note that the district court, in its preliminary injunction ruling, held that plaintiffs made a prima facie showing of likelihood of success on the merits. On July 25, the Board unanimously adopted two resolutions. The first ratified the Decree and acknowledged the Board's intent to comply with the Decree's terms. In the second, the Board approved the establishment of six satellite offices for the 2018 general election.\nOn August 7, 2018, Indiana filed a motion to alter or amend the Decree. It argued the Decree is contrary to Indiana law because there was \"no finding in the Consent Decree that the Board voted unanimously to establish additional satellite voting for 2019 and beyond.\" Indiana also maintained that because the Decree had no end date, it precluded future Board members from exercising their statutory authority to vote against establishing satellite offices and effectively disregarded the Satellite Office Provision's unanimity requirement. The district court denied Indiana's motion, finding the Board unanimously ratified the Decree, and concluding that even if it hadn't, the Decree \"was necessary to remedy a probable violation of federal law.\" Indiana filed a notice of appeal.\nAfter Indiana submitted its opening appellate brief, the Board changed the legal paradigm governing Marion County's voting scheme, replacing the precinct-based structure with a vote center plan. The vote center plan specifies that Marion County will have two in-person early voting satellite offices for primary elections and six in-person early voting satellite offices for general and municipal elections. See Ind. Code \u00a7 3-11-18.1-4(17) (a vote center plan must include \"[t]he total number and locations of satellite offices to be established under [the Satellite Office Provision] at vote center locations\"). As statutorily required, the Board voted unanimously to adopt the vote center plan, see id. \u00a7 3-11-18.1-3(f), and Marion County officially became a vote center county on December 6, 2018.\nPlaintiffs and the Board (\"joint-appellees\") then moved to dismiss Indiana's appeal as moot. They argue the vote center plan moots the Consent Decree and Indiana's appeal because to make any change-including to in-person early voting satellite offices-the Board must unanimously agree to amend the plan or rescind Marion County's vote center status. See id. \u00a7\u00a7 3-11-18.1-8(c); 3-11-18.1-15(b). Thus, according to joint-appellees, the plan \"guarantees that the partisan considerations underlying the consent decree will not infect, or be a basis, for reducing voters' access to early in-person voting.\" They ask that we remand to the district court with instructions to vacate the Consent Decree and dismiss the case.\nIndiana does not believe the appeal is moot because the Consent Decree is still in effect. It contends the district court did not have authority to enter the Consent Decree in the first place and therefore asks that we vacate the Decree on the merits. However, Indiana \"does not disagree with the Board and Common Cause that, under the Board's new vote center plan, the consent decree is unnecessary.\" It acknowledges that its \"main objective with [its] appeal is vacatur of the consent decree,\" and \"[w]hether that occurs because the State prevails on the merits, because the case is moot, or merely because the parties voluntarily agree to vacatur is unimportant.\" And at oral argument, Indiana reiterated this view, stating that \"as long as the Consent Decree is vacated, [it] will be happy with that end result.\"\nIn short, Indiana asks us to vacate the Decree, while joint-appellees ask us to remand to the district court with instructions to vacate. Though the result they seek differs slightly, in essence, they seek the same relief: a vacatur of the Consent Decree. Indeed, at oral argument, the Board's counsel recognized that \"whether the district court is ordered to vacate the Consent Decree or this Court vacates the Consent Decree on its own ... makes no practical difference.\" Because both sides ultimately agree that the Decree should no longer be in effect, we have no need to address whether the district court had authority to enter the Decree. And we need not remand the case to the district court for vacatur. Given our authority to vacate district court judgments-including consent decrees-we can and should vacate the Decree ourselves. See 28 U.S.C. \u00a7 2106 ; cf. Frank v. Walker , 819 F.3d 384, 385 (7th Cir. 2016) (citing United States v. Munsingwear, Inc. , 340 U.S. 36, 71 S.Ct. 104, 95 L.Ed. 36 (1950) ).\nAccordingly, we VACATE the Consent Decree and REMAND to the district court with instructions to dismiss the case.",
+        "type": "majority",
+        "author": "Flaum, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "William R. Groth, Attorney, FILLENWARTH, DENNERLINE, GROTH & TOWE, LLP, Indianapolis, IN, for Plaintiffs - Appellees.",
+      "Anthony Scott Chinn, Daniel Pulliam, Anne K. Ricchiuto, Attorney, FAEGRE BAKER DANIELS LLP, Indianapolis, IN, Andrew J. Mallon, Attorney, OFFICE OF THE CORPORATION COUNSEL, Indianapolis, IN, for Defendants - Appellees.",
+      "Thomas M. Fisher, Kian James Hudson, Julia Catherine Payne, Esq., Attorney, OFFICE OF THE ATTORNEY GENERAL, Indianapolis, IN, for Intervenor - Appellant STATE OF INDIANA.",
+      "Lawrence John Joseph, Attorney, Washington, DC, for Amicus Curiae EAGLE FORUM EDUCATION & LEGAL DEFENSE FUND."
+    ],
+    "corrections": "",
+    "head_matter": "COMMON CAUSE INDIANA, et al., Plaintiffs-Appellees,\nv.\nMARION COUNTY ELECTION BOARD, et al., Defendants.\nAppeal of: State of Indiana\nNo. 18-2735\nUnited States Court of Appeals, Seventh Circuit.\nArgued May 21, 2019\nDecided June 3, 2019\nWilliam R. Groth, Attorney, FILLENWARTH, DENNERLINE, GROTH & TOWE, LLP, Indianapolis, IN, for Plaintiffs - Appellees.\nAnthony Scott Chinn, Daniel Pulliam, Anne K. Ricchiuto, Attorney, FAEGRE BAKER DANIELS LLP, Indianapolis, IN, Andrew J. Mallon, Attorney, OFFICE OF THE CORPORATION COUNSEL, Indianapolis, IN, for Defendants - Appellees.\nThomas M. Fisher, Kian James Hudson, Julia Catherine Payne, Esq., Attorney, OFFICE OF THE ATTORNEY GENERAL, Indianapolis, IN, for Intervenor - Appellant STATE OF INDIANA.\nLawrence John Joseph, Attorney, Washington, DC, for Amicus Curiae EAGLE FORUM EDUCATION & LEGAL DEFENSE FUND.\nBefore Flaum, Kanne, and Sykes, Circuit Judges."
+  },
+  "file_name": "0928-01",
+  "first_page_order": 928,
+  "last_page_order": 931
+}

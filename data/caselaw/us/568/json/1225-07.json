@@ -1,0 +1,82 @@
+{
+  "id": 12432959,
+  "name": "Jameson v. Beard, Secretary, California Department of Corrections and Rehabilitation",
+  "name_abbreviation": "Jameson v. Beard",
+  "decision_date": "2013-03-18",
+  "docket_number": "No. 12-8278",
+  "first_page": "1225",
+  "last_page": "1225",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1225"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "506 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11924825
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/506/0001-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 74,
+    "char_count": 593,
+    "ocr_confidence": 0.597,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2562798062744199
+    },
+    "sha256": "09246edfe8f0096fe9df67f7fd80c4ef16bbc8c6f250d18899e500f697d9d107",
+    "simhash": "1:6d2214cc0504d66e",
+    "word_count": 95
+  },
+  "last_updated": "2024-02-27T23:44:49.194693+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jameson v. Beard, Secretary, California Department of Corrections and Rehabilitation."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Motion of petitioner for leave to proceed in forma pauperis denied, and certiorari dismissed. See this Court\u2019s Rule 39.8. As petitioner has repeatedly abused this Court\u2019s process, the Clerk is directed not to accept any further petitions in noncriminal matters from petitioner unless the docketing fee required by Rule 38(a) is paid and the petition is submitted in compliance with Rule 33.1. See Martin v. District of Columbia Court of Appeals, 506 U. S. 1 (1992) (per curiam).",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8278.\nJameson v. Beard, Secretary, California Department of Corrections and Rehabilitation."
+  },
+  "file_name": "1225-07",
+  "first_page_order": 1301,
+  "last_page_order": 1301
+}

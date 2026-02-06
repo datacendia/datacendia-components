@@ -1,0 +1,59 @@
+{
+  "id": 5951242,
+  "name": "Paige v. United States",
+  "name_abbreviation": "Paige v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5658",
+  "first_page": "933",
+  "last_page": "933",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 933"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.609,
+    "sha256": "fc3138309be4503535e3579c38e62ec9f2c1a22398c959747da6257dd8ce77c8",
+    "simhash": "1:0f2b8a1307eb9036",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Paige v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5658.\nPaige v. United States."
+  },
+  "file_name": "0933-13",
+  "first_page_order": 955,
+  "last_page_order": 955
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5912967,
+  "name": "Kelson v. Louisiana",
+  "name_abbreviation": "Kelson v. Louisiana",
+  "decision_date": "2011-05-31",
+  "docket_number": "No. 10-10066",
+  "first_page": "1026",
+  "last_page": "1026",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1026"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.561,
+    "sha256": "af5e961a931ceb320686016c2a8dfe867f59a41690568b21022d9250ce97e24e",
+    "simhash": "1:0342ead9c30eb267",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Kelson v. Louisiana."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. La., 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10066.\nKelson v. Louisiana."
+  },
+  "file_name": "1026-04",
+  "first_page_order": 1052,
+  "last_page_order": 1052
+}

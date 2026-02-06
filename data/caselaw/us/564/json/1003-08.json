@@ -1,0 +1,59 @@
+{
+  "id": 4334820,
+  "name": "In re Del Rio",
+  "name_abbreviation": "In re Del Rio",
+  "decision_date": "2011-06-13",
+  "docket_number": "No. 10-9904",
+  "first_page": "1003",
+  "last_page": "1003",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1003"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 66,
+    "ocr_confidence": 0.568,
+    "sha256": "11ff14cf0e583747a46c4f2e285a231f21b902e3ffe8de28f6849ae84de8c0cb",
+    "simhash": "1:5f67e2363719711b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Del Rio."
+    ],
+    "opinions": [
+      {
+        "text": "Petition for writ of mandamus denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9904.\nIn re Del Rio."
+  },
+  "file_name": "1003-08",
+  "first_page_order": 997,
+  "last_page_order": 997
+}

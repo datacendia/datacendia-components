@@ -1,0 +1,59 @@
+{
+  "id": 12428861,
+  "name": "Furlow v. United States",
+  "name_abbreviation": "Furlow v. United States",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-7427",
+  "first_page": "1110",
+  "last_page": "1110",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1110"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.686,
+    "sha256": "e244c3c6c672a12381e0f266e706b3e487767184a26c55919996019eb3f0c9df",
+    "simhash": "1:07bbcf234ead947a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Furlow v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7427.\nFurlow v. United States."
+  },
+  "file_name": "1110-14",
+  "first_page_order": 1186,
+  "last_page_order": 1186
+}

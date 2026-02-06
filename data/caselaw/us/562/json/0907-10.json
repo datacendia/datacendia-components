@@ -1,0 +1,59 @@
+{
+  "id": 5927811,
+  "name": "Coleman v. United States",
+  "name_abbreviation": "Coleman v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5169",
+  "first_page": "907",
+  "last_page": "907",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 907"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.623,
+    "sha256": "b91989f2433fedb9bfbdc38730a97a09aef71e94fc37af1eefc6434fefd20221",
+    "simhash": "1:a61bf6edafea17d6",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Coleman v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. D. C. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5169.\nColeman v. United States."
+  },
+  "file_name": "0907-10",
+  "first_page_order": 929,
+  "last_page_order": 929
+}

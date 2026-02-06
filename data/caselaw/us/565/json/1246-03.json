@@ -1,0 +1,59 @@
+{
+  "id": 12250150,
+  "name": "Fedora Inc. et al. v. Thomas",
+  "name_abbreviation": "Fedora Inc. v. Thomas",
+  "decision_date": "2012-03-05",
+  "docket_number": "No. 11-815",
+  "first_page": "1246",
+  "last_page": "1246",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1246"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 76,
+    "ocr_confidence": 0.659,
+    "sha256": "1b36cbc189fa0eb5e10ee0f523adcd9d90cc01b66e08ae2b89ae011ed35d4cdc",
+    "simhash": "1:23d5763e2a208c55",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Fedora Inc. et al. v. Thomas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. D. C. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-815.\nFedora Inc. et al. v. Thomas."
+  },
+  "file_name": "1246-03",
+  "first_page_order": 1328,
+  "last_page_order": 1328
+}

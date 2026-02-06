@@ -1,0 +1,59 @@
+{
+  "id": 12215307,
+  "name": "Davila v. Texas",
+  "name_abbreviation": "Davila v. Texas",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5016",
+  "first_page": "885",
+  "last_page": "885",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 885"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 70,
+    "ocr_confidence": 0.703,
+    "sha256": "3105bae3699ea42448fdf6a38cae4d079fff6b74bb2891812415486b9ff7cf44",
+    "simhash": "1:10bed4ed1cedf5b2",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Davila v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Tex. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5016.\nDavila v. Texas."
+  },
+  "file_name": "0885-11",
+  "first_page_order": 967,
+  "last_page_order": 967
+}

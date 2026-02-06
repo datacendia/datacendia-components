@@ -1,0 +1,59 @@
+{
+  "id": 5956233,
+  "name": "Franklin v. Tennessee",
+  "name_abbreviation": "Franklin v. Tennessee",
+  "decision_date": "2011-03-07",
+  "docket_number": "No. 10-5746",
+  "first_page": "1272",
+  "last_page": "1272",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1272"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 71,
+    "ocr_confidence": 0.611,
+    "sha256": "f7b41d0586765c6774d0c079ff9c78e117c1dce575867f358ef62959a9d0090a",
+    "simhash": "1:02caf6dd13807b92",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Franklin v. Tennessee."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Tenn. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5746.\nFranklin v. Tennessee."
+  },
+  "file_name": "1272-11",
+  "first_page_order": 1294,
+  "last_page_order": 1294
+}

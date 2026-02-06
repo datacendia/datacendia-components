@@ -1,0 +1,59 @@
+{
+  "id": 5991984,
+  "name": "Purnell v. Illinois",
+  "name_abbreviation": "Purnell v. Illinois",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11508",
+  "first_page": "884",
+  "last_page": "884",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 884"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 79,
+    "ocr_confidence": 0.606,
+    "sha256": "1751ed50cd51905ff9bcdc160a0f56dbb5df3832204f4faf8f98136f1995e34d",
+    "simhash": "1:41add37e77b42569",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Purnell v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Ill., 4th Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11508.\nPurnell v. Illinois."
+  },
+  "file_name": "0884-13",
+  "first_page_order": 906,
+  "last_page_order": 906
+}

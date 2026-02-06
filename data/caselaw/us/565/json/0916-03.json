@@ -1,0 +1,59 @@
+{
+  "id": 12222687,
+  "name": "McKnight v. United States",
+  "name_abbreviation": "McKnight v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5602",
+  "first_page": "916",
+  "last_page": "916",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 916"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.671,
+    "sha256": "57b5a63eb5bad513639a665371eec870f9cec8743618190aaaff605e3cc314e7",
+    "simhash": "1:87aed383c94f940e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McKnight v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5602.\nMcKnight v. United States."
+  },
+  "file_name": "0916-03",
+  "first_page_order": 998,
+  "last_page_order": 998
+}

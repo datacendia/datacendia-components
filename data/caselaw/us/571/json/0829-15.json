@@ -1,0 +1,68 @@
+{
+  "id": 12702389,
+  "name": "Anthony SMITH, et al., petitioners, v. John WILSON, et al.",
+  "name_abbreviation": "Smith v. Wilson",
+  "decision_date": "2013-10-07",
+  "docket_number": "No. 12\u20131491.",
+  "first_page": "829",
+  "last_page": "829",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 829"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 46"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 201"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 29,
+    "char_count": 224,
+    "sha256": "7a0b5fb770ff1c298cf011bd6048a9c1f0b3d21636a1c1798bfdb16e2002f4a9",
+    "simhash": "1:732e644dbfc206b8",
+    "word_count": 38
+  },
+  "last_updated": "2021-08-27T20:47:23.363448+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Anthony SMITH, et al., petitioners,\nv.\nJohn WILSON, et al."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of certiorari to the United States Court of Appeals for the Seventh Circuit denied."
+    ],
+    "corrections": "",
+    "head_matter": "Anthony SMITH, et al., petitioners,\nv.\nJohn WILSON, et al.\nNo. 12-1491.\nSupreme Court of the United States\nOct. 7, 2013.\nPetition for writ of certiorari to the United States Court of Appeals for the Seventh Circuit denied."
+  },
+  "file_name": "0829-15",
+  "first_page_order": 829,
+  "last_page_order": 829
+}

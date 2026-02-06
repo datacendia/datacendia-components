@@ -1,0 +1,59 @@
+{
+  "id": 12416560,
+  "name": "Patterson v. Rios, Warden",
+  "name_abbreviation": "Patterson v. Rios",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5694",
+  "first_page": "921",
+  "last_page": "921",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 921"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.677,
+    "sha256": "395d54009b7b92a26634c481a4f3e7017270b9dae6e3e9d3eaa7d10c770a3ffd",
+    "simhash": "1:32cb06a97d4fd8d2",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Patterson v. Rios, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5694.\nPatterson v. Rios, Warden."
+  },
+  "file_name": "0921-10",
+  "first_page_order": 997,
+  "last_page_order": 997
+}

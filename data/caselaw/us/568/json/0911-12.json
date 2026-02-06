@@ -1,0 +1,59 @@
+{
+  "id": 12415866,
+  "name": "Brown v. Unemployment Compensation Board of Review",
+  "name_abbreviation": "Brown v. Unemployment Compensation Board of Review",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5416",
+  "first_page": "911",
+  "last_page": "911",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 911"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 99,
+    "ocr_confidence": 0.682,
+    "sha256": "1e985ad3b6492a2af400aba82be1ca2c20dfb582ec37c9954e870884fe265151",
+    "simhash": "1:7ae7825d60ea0db4",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Brown v. Unemployment Compensation Board of Review."
+    ],
+    "opinions": [
+      {
+        "text": "Commw. Ct. Pa. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5416.\nBrown v. Unemployment Compensation Board of Review."
+  },
+  "file_name": "0911-12",
+  "first_page_order": 987,
+  "last_page_order": 987
+}

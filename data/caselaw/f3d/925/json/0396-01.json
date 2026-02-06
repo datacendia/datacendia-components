@@ -1,0 +1,997 @@
+{
+  "id": 12521302,
+  "name": "Isaias Lorenzo LOPEZ, Petitioner, v. William P. BARR, Attorney General, Respondent.",
+  "name_abbreviation": "Lopez v. Barr",
+  "decision_date": "2019-05-22",
+  "docket_number": "No. 15-72406",
+  "first_page": "396",
+  "last_page": "410",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "925 F.3d 396"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "9th Cir.",
+    "id": 18869,
+    "name": "United States Court of Appeals for the Ninth"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "542 F.3d 653",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3841110
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "parenthetical": "declining to remand where \"no additional information would be available that previously was not\" and the panel \"can resolve the legal question on the basis of available evidence\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/542/0653-01"
+      ]
+    },
+    {
+      "cite": "933 F.2d 735",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10542849
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "741",
+          "parenthetical": "\"[A] purely legal inquiry ... does not require remand.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/933/0735-01"
+      ]
+    },
+    {
+      "cite": "758 Fed.Appx. 893",
+      "category": "reporters:federal",
+      "reporter": "Fed. Appx.",
+      "weight": 3,
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "898"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "535 U.S. 106",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        353010
+      ],
+      "weight": 3,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "116"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/535/0106-01"
+      ]
+    },
+    {
+      "cite": "124 S.Ct. 1856",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        9259203,
+        5932838
+      ],
+      "weight": 2,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "parenthetical": "quoting Edelman v. Lynchburg Coll. , 535 U.S. 106, 116, 122 S.Ct. 1145, 152 L.Ed.2d 188 (2002) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/vet-app/17/1856-01",
+        "/us/541/0401-01"
+      ]
+    },
+    {
+      "cite": "541 U.S. 401",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5932838
+      ],
+      "weight": 2,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "416",
+          "parenthetical": "quoting Edelman v. Lynchburg Coll. , 535 U.S. 106, 116, 122 S.Ct. 1145, 152 L.Ed.2d 188 (2002) "
+        },
+        {
+          "parenthetical": "quoting Edelman v. Lynchburg Coll. , 535 U.S. 106, 116, 122 S.Ct. 1145, 152 L.Ed.2d 188 (2002) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/541/0401-01"
+      ]
+    },
+    {
+      "cite": "532 U.S. 757",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9302146
+      ],
+      "weight": 3,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "760"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/532/0757-01"
+      ]
+    },
+    {
+      "cite": "817 F.3d 78",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6808390
+      ],
+      "year": 2016,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/817/0078-01"
+      ]
+    },
+    {
+      "cite": "139 S. Ct. 893",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12624604
+      ],
+      "weight": 2,
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "899"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/139/0893-01"
+      ]
+    },
+    {
+      "cite": "545 U.S. 967",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8210237
+      ],
+      "weight": 3,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "982-83"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/545/0967-01"
+      ]
+    },
+    {
+      "cite": "534 U.S. 438",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9108314
+      ],
+      "weight": 3,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "450",
+          "parenthetical": "quotation marks omitted"
+        },
+        {
+          "parenthetical": "quotation marks omitted"
+        },
+        {
+          "parenthetical": "quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/534/0438-01"
+      ]
+    },
+    {
+      "cite": "524 U.S. 11",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11181205
+      ],
+      "weight": 3,
+      "year": 1998,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/524/0011-01"
+      ]
+    },
+    {
+      "cite": "101 F.3d 731",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7638188,
+        3697789
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "740",
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/101/0731-01",
+        "/us-app-dc/322/0058-01"
+      ]
+    },
+    {
+      "cite": "27 I. & N. Dec. 520",
+      "category": "reporters:federal",
+      "reporter": "I. & N. Dec.",
+      "weight": 7,
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "529",
+          "parenthetical": "en banc"
+        },
+        {
+          "page": "529-30"
+        },
+        {
+          "page": "540-41",
+          "parenthetical": "dissenting opinion"
+        },
+        {
+          "page": "530"
+        },
+        {
+          "page": "541-43",
+          "parenthetical": "dissenting opinion"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "263 U.S. 640",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6144466
+      ],
+      "weight": 3,
+      "year": 1924,
+      "pin_cites": [
+        {
+          "page": "657"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/263/0640-01"
+      ]
+    },
+    {
+      "cite": "1 U.S.C. \u00a7 1",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "648 F.3d 1095",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3741210
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "1112",
+          "parenthetical": "Reinhardt, J., concurring"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/648/1095-01"
+      ]
+    },
+    {
+      "cite": "555 U.S. 415",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3679422
+      ],
+      "weight": 5,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "421",
+          "parenthetical": "\"We note as an initial matter that [the statute] uses the word 'element' in the singular, which suggests that Congress intended to describe only one required element.\""
+        },
+        {
+          "parenthetical": "\"We note as an initial matter that [the statute] uses the word 'element' in the singular, which suggests that Congress intended to describe only one required element.\""
+        },
+        {
+          "parenthetical": "\"We note as an initial matter that [the statute] uses the word 'element' in the singular, which suggests that Congress intended to describe only one required element.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/555/0415-01"
+      ]
+    },
+    {
+      "cite": "309 F.3d 1181",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11413718
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "1190",
+          "parenthetical": "\"An agency simply may not interpret a regulation in a way that contravenes a statute.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/309/1181-01"
+      ]
+    },
+    {
+      "cite": "298 F.3d 832",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11452065
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "839",
+          "parenthetical": "\"[A] decision to [rearrange] or rewrite the statute falls within the legislative, not the judicial, prerogative.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/298/0832-01"
+      ]
+    },
+    {
+      "cite": "482 U.S. 117",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6210216
+      ],
+      "weight": 3,
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "121",
+          "parenthetical": "per curiam"
+        },
+        {
+          "parenthetical": "per curiam"
+        },
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/482/0117-01"
+      ]
+    },
+    {
+      "cite": "913 F.3d 1158",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12519741
+      ],
+      "weight": 3,
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "1160-61"
+        },
+        {
+          "page": "1161"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/913/1158-01"
+      ]
+    },
+    {
+      "cite": "8 C.F.R. \u00a7 1003.18",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "(b)",
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "438 F.3d 902",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        996842
+      ],
+      "weight": 2,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "907"
+        },
+        {
+          "page": "907"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/438/0902-01"
+      ]
+    },
+    {
+      "cite": "471 F.3d 806",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6045630
+      ],
+      "weight": 2,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "809-10"
+        },
+        {
+          "page": "809"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/471/0806-01"
+      ]
+    },
+    {
+      "cite": "560 F.3d 354",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3429287
+      ],
+      "weight": 2,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "359"
+        },
+        {
+          "page": "359"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/560/0354-01"
+      ]
+    },
+    {
+      "cite": "335 F.3d 889",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1533829
+      ],
+      "weight": 2,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "900",
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/335/0889-01"
+      ]
+    },
+    {
+      "cite": "571 F.3d 890",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3668807
+      ],
+      "weight": 7,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "896"
+        },
+        {
+          "page": "896"
+        },
+        {
+          "page": "895",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "894-96"
+        },
+        {
+          "page": "895-96"
+        },
+        {
+          "page": "896"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/571/0890-01"
+      ]
+    },
+    {
+      "cite": "901 F.3d 1093",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12518291
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1096"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/901/1093-01"
+      ]
+    },
+    {
+      "cite": "467 U.S. 837",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6209106
+      ],
+      "weight": 4,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "842-43"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/467/0837-01"
+      ]
+    },
+    {
+      "cite": "989 F.2d 1085",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10517215
+      ],
+      "year": 1993,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/989/1085-01"
+      ]
+    },
+    {
+      "cite": "480 U.S. 421",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1131295
+      ],
+      "weight": 3,
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "446"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/480/0421-01"
+      ]
+    },
+    {
+      "cite": "945 F.2d 288",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10521842
+      ],
+      "weight": 2,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "294",
+          "parenthetical": "quoting INS v. Cardoza-Fonseca , 480 U.S. 421, 446, 107 S.Ct. 1207, 94 L.Ed.2d 434 (1987) "
+        },
+        {
+          "page": "294"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/945/0288-01"
+      ]
+    },
+    {
+      "cite": "769 F.3d 699",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4265502
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "703"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/769/0699-01"
+      ]
+    },
+    {
+      "cite": "258 F.3d 1038",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11084741
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "1041"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/258/1038-01"
+      ]
+    },
+    {
+      "cite": "8 U.S.C. \u00a7 1229",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "138 S. Ct. 2105",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12612847
+      ],
+      "weight": 27,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "2116"
+        },
+        {
+          "page": "2110"
+        },
+        {
+          "page": "2113-14"
+        },
+        {
+          "page": "2113",
+          "parenthetical": "quotation marks omitted"
+        },
+        {
+          "page": "2113-14"
+        },
+        {
+          "page": "2112",
+          "parenthetical": "emphasis omitted"
+        },
+        {
+          "page": "2118",
+          "parenthetical": "quotation marks omitted"
+        },
+        {
+          "page": "2116"
+        },
+        {
+          "page": "2116"
+        },
+        {
+          "page": "2118-19"
+        },
+        {
+          "page": "2118-19"
+        },
+        {
+          "page": "2114"
+        },
+        {
+          "page": "2115"
+        },
+        {
+          "page": "2110"
+        },
+        {
+          "page": "2116"
+        },
+        {
+          "page": "2113"
+        },
+        {
+          "page": "2116-17",
+          "parenthetical": "citations, quotation marks, and brackets omitted"
+        },
+        {
+          "page": "2114-15"
+        },
+        {
+          "page": "2116"
+        },
+        {
+          "page": "2111"
+        },
+        {
+          "page": "2119"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/2105-01"
+      ]
+    },
+    {
+      "cite": "27 I. & N. Dec. 441",
+      "category": "reporters:federal",
+      "reporter": "I. & N. Dec.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "447"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "27 I. & N. Dec. 520",
+      "category": "reporters:federal",
+      "reporter": "I. & N. Dec.",
+      "weight": 3,
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "531",
+          "parenthetical": "en banc"
+        },
+        {
+          "page": "529"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "1 U.S.C. \u00a7 1",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "555 U.S. 415",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3679422
+      ],
+      "weight": 4,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "421"
+        },
+        {
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/555/0415-01"
+      ]
+    },
+    {
+      "cite": "913 F.3d 1158",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12519741
+      ],
+      "weight": 2,
+      "year": 2019,
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/913/1158-01"
+      ]
+    },
+    {
+      "cite": "571 F.3d 890",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3668807
+      ],
+      "year": 2009,
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/571/0890-01"
+      ]
+    },
+    {
+      "cite": "8 U.S.C. \u00a7 1229",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "(a)(1)"
+        },
+        {
+          "page": "(a)(2)(b)(1)",
+          "parenthetical": "requiring that in order to allow the noncitizen to secure counsel, the hearing date shall not be scheduled earlier than 10 days after the service of the notice"
+        },
+        {
+          "page": "(b)(1)"
+        },
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)(1)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "138 S. Ct. 2105",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12612847
+      ],
+      "weight": 9,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "2112"
+        },
+        {
+          "page": "2115"
+        },
+        {
+          "page": "2113"
+        },
+        {
+          "page": "2109"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/s-ct/138/2105-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1488,
+    "char_count": 45679,
+    "pagerank": {
+      "raw": 5.848194907344201e-08,
+      "percentile": 0.3631891280147993
+    },
+    "sha256": "93df8680a9d53506d3f0ac04e8022f61a845bce348702eaf86532c9ee7d6bb00",
+    "simhash": "1:d5f5c7ca101b0341",
+    "word_count": 7565
+  },
+  "last_updated": "2024-02-27T18:46:49.974673+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Isaias Lorenzo LOPEZ, Petitioner,\nv.\nWilliam P. BARR, Attorney General, Respondent."
+    ],
+    "opinions": [
+      {
+        "text": "KORMAN, District Judge:\nIsaias Lorenzo Lopez was born in Oaxaca, Mexico in 1984. In September 1998, when he was fourteen years old, he arrived in the United States to be with his father, a lawful permanent resident (\"LPR\"). Lorenzo was paroled into the United States and, two years later, on February 12, 2002, he became an LPR. While in the United States, Lorenzo graduated from high school, receiving good grades while working to support his family. After graduating, he continued to work six days a week on a farm to support his two U.S. citizen children and their mother.\nBut his record, which includes two misdemeanor convictions for which he served a total of 10 days in jail, is not unblemished. This case arises out of a separate incident that occurred on March 14, 2008: Lorenzo agreed to help Adriana Lopez Estevez enter the United States illegally by furnishing her with a U.S. citizen's birth certificate and driving to Tijuana to pick her up. When they attempted to return to the United States through the San Ysidro port of entry, border agents discovered that Adriana was not actually a U.S. citizen and had no documents authorizing her entry into the country. The agents arrested Lorenzo, and he confessed to attempting to assist Adriana to enter the United States because he felt pity for her. Immediately following his arrest, the Department of Homeland Security (\"DHS\") commenced removal proceedings by filing a Notice to Appear and serving it on Lorenzo.\nAt his removal proceeding, Lorenzo sought cancellation of removal under 8 U.S.C. \u00a7 1229b(a) based on his LPR status. To be eligible for cancellation of removal, an LPR must, among other requirements, \"reside[ ] in the United States continuously for 7 years after having been admitted in any status.\" 8 U.S.C. \u00a7 1229b(a)(2). The IJ concluded that Lorenzo was admitted in February 2002 when he became an LPR and that the March 2008 Notice to Appear terminated his residence period. Because Lorenzo had resided in the United States for only six years and one month, he was deemed ineligible for cancellation of removal. The Board of Immigration Appeals (\"BIA\") affirmed the IJ's decision. Lorenzo appealed.\nWhile his appeal was pending, the Supreme Court decided Pereira v. Sessions , --- U.S. ----, 138 S. Ct. 2105, 201 L.Ed.2d 433 (2018). Pereira held that, as defined in 8 U.S.C. \u00a7 1229(a), a Notice to Appear must contain \"[t]he time and place at which the [removal] proceedings will be held,\" and that such definition applies wherever the term is used. Pereira , 138 S. Ct. at 2116. Because an alien's residence is terminated by service of a \"notice to appear under section 1229(a),\" 8 U.S.C. \u00a7 1229b(d)(1), absent time and place information, a purported Notice to Appear may not trigger the \"stop-time\" provision. Id. at 2110. Because the Notice to Appear issued to Lorenzo did not contain that information, it was defective and did not trigger the stop-time provision. Nevertheless, in April 2008, the Immigration Court advised Lorenzo of the time, date, and location of his proceeding by issuing a separate document labeled \"Notice of Hearing.\" In light of Pereira , we ordered supplemental briefing on \"[w]hether a Notice of Hearing that contains the time and place at which an alien must appear cures a Notice to Appear that is defective under Pereira v. Sessions , --- U.S. ----, 138 S. Ct. 2105, 201 L.Ed.2d 433 (2018), such that the 'stop-time' rule is triggered upon receipt of the Notice of Hearing.\"\nSTANDARD OF REVIEW\nWe review questions of law, such as \"the interpretation and construction of statutes,\" de novo, Soltani v. W. & S. Life Ins. Co. , 258 F.3d 1038, 1041 (9th Cir. 2001), \"except to the extent that deference is owed to the BIA's determination of the governing statutes and regulations.\" Aragon-Salazar v. Holder , 769 F.3d 699, 703 (9th Cir. 2014). \"Questions of law that can be answered with 'traditional tools of statutory construction' are within the special expertise of courts, not agencies, and are therefore answered by the court de novo.\" Ayala-Chavez v. INS , 945 F.2d 288, 294 (9th Cir. 1991) (quoting INS v. Cardoza-Fonseca , 480 U.S. 421, 446, 107 S.Ct. 1207, 94 L.Ed.2d 434 (1987) ), superseded by statute on other grounds as stated in Urbina-Mauricio v. INS , 989 F.2d 1085, 1088 n.3 (9th Cir. 1993). If \"the intent of Congress is clear, that is the end of the matter; for the court, as well as the agency, must give effect to the unambiguously expressed intent of Congress.\" Chevron, U.S.A., Inc. v. Nat. Res. Def. Council, Inc. , 467 U.S. 837, 842-43, 104 S.Ct. 2778, 81 L.Ed.2d 694 (1984).\nDISCUSSION\nSection 1229b(a) provides for \"[c]ancellation of removal for certain permanent residents\" who satisfy three prerequisites: \"the alien (1) has been an alien lawfully admitted for permanent residence for not less than 5 years, (2) has resided in the United States continuously for 7 years after having been admitted in any status, and (3) has not been convicted of any aggravated felony.\" 8 U.S.C. \u00a7 1229b(a). As to the second requirement, two events may terminate an alien's residence, even if he still lives in the country: service of a Notice to Appear under Section 1229(a), or commission of \"an offense referred to in section 1182(a)(2) ... that renders the alien inadmissible ... or removable.\" Id. \u00a7 1229b(d)(1) (the \"stop-time\" rule); see also Nguyen v. Sessions , 901 F.3d 1093, 1096 (9th Cir. 2018). Only the former is relevant here.\nTo trigger the stop-time rule, a Notice to Appear must contain all items listed in Section 1229(a)(1), including the date, time, and place of the removal proceeding. Pereira , 138 S. Ct. at 2113-14. Although \"much of the information Section 1229(a)(1) calls for does not change and is therefore included in standardized language on the I-862 notice-to-appear form,\" \"time-and-place information in a notice to appear will vary from case to case.\" Id. at 2113 (quotation marks omitted). Accordingly, Pereira focused its analysis on the omission of that information, ultimately holding that \"[a] putative notice to appear that fails to designate the specific time or place of the noncitizen's removal proceedings is not a 'notice to appear under section 1229(a),' and so does not trigger the stop-time rule.\" Id. at 2113-14 (quoting 8 U.S.C. \u00a7 1229b(d)(1) ). Under Pereira , the Notice to Appear Lorenzo received in March 2008 did not terminate his residence. The Notice of Hearing he subsequently received in April 2008 contained the time and place of his removal proceeding but did not contain many of the other requirements of a Notice to Appear. Nevertheless, relying on our holding in Popa v. Holder , 571 F.3d 890, 896 (9th Cir. 2009), the Attorney General argues that this Notice of Hearing cured the defective Notice to Appear and triggered the stop-time provision.\nThe plain language of the statute forecloses such a result. Popa 's holding that \"a Notice to Appear that fails to include the date and time of an alien's deportation hearing, but that states that a date and time will be set later, is not defective so long as a notice of the hearing is in fact later sent to the alien\" rested on three grounds. Popa , 571 F.3d at 896. These grounds have been \"undercut\" by Pereira such that \"the cases are clearly irreconcilable.\" Miller v. Gammie , 335 F.3d 889, 900 (9th Cir. 2003) (en banc). Thus, we reject Popa \"as having been effectively overruled.\" Id.\nFirst, Popa explained that we \"silently ... adopted the rule that the time and date of a removal proceeding can be sent after the first notice to appear\" because we \"never held that the [Notice to Appear] cannot state that the time and place of the proceedings will be set at a future time.\" 571 F.3d at 895 (emphasis added). Putting aside the propriety of adopting rules through judicial silence, Pereira resoundingly rejected what Popa deemed \"silently adopted.\" Pereira , like Popa , involved a Notice to Appear ordering the alien to appear at a time and date \"to be set.\" 138 S. Ct. at 2112 (emphasis omitted). But the Supreme Court held that a notice lacking specific time and date information is \"not a notice to appear.\" Id. at 2118 (quotation marks omitted).\nMore precisely-indeed, more compellingly-the Supreme Court held that \"when the term 'notice to appear' is used elsewhere in the statutory section, including as the trigger for the stop-time rule, it carries with it the substantive time-and-place criteria required by \u00a7 1229(a).\" Id. at 2116. Unlike Popa , this holding relies on unambiguous statutory language. Specifically, 8 U.S.C. \u00a7 1229b(d)(1) provides that \"any period of continuous residence ... shall be deemed to end ... when the alien is served a notice to appear under section 1229(a),\" incorporating the definition of a Notice to Appear found in Section 1229(a), which includes information regarding the \"time and place\" of the hearing. Id. \u00a7 1229(a). In other words, any document containing less than the full set of requirements listed in Section 1229(a)(1) is not a Notice to Appear within the meaning of the statute-regardless of how it is labeled by DHS-and does not terminate an alien's residence. While Popa held that a Notice to Appear that states \"the time and place of the proceedings will be set at a future time,\" is \"not statutorily defective,\" 571 F.3d at 894-96, Pereira makes clear that it is.\nSecond, Popa relied on now-outmoded out-of-circuit case law in adopting a \"two-step notice procedure.\" See id. at 895-96 (citing Gomez-Palacios v. Holder , 560 F.3d 354, 359 (5th Cir. 2009) ; Dababneh v. Gonzales , 471 F.3d 806, 809-10 (7th Cir. 2006) ; Haider v. Gonzales , 438 F.3d 902, 907 (8th Cir. 2006) ). Each of the three decisions upon which Popa relied were issued before Pereira , and none binds us today. More importantly, none of these cases comports with the unambiguous statutory text. Haider held that the law \"simply requires that an alien be provided written notice of his hearing; it does not require that the [Notice to Appear] served on Haider satisfy all of \u00a7 1229(a)(1)'s notice requirements.\" 438 F.3d at 907. This is flatly wrong. As Pereira explained, the term \"Notice to Appear\" carries with it all of Section 1229(a)(1)'s notice requirements wherever it appears. Pereira , 138 S. Ct. at 2116. Dababneh , in turn, relied on Haider and certain inapposite regulations, discussed below, rather than the statute. 471 F.3d at 809. And Gomez-Palacios merely concluded \"that information may be provided in a subsequent [ Notice of Hearing],\" primarily relying on Haider and Dababneh . 560 F.3d at 359. Popa likewise hung its hat on Haider 's faulty premise. See Popa , 571 F.3d at 895-96.\nThird, the final ground undergirding Popa was a regulation-namely, 8 C.F.R. \u00a7 1003.18. That provision requires that DHS\nprovide in the Notice to Appear, the time, place and date of the initial removal hearing, where practicable . If that information is not contained in the Notice to Appear, the Immigration Court shall be responsible for scheduling the initial removal hearing and providing notice ... of the time, place, and date of hearing.\n8 C.F.R. \u00a7 1003.18(b) (emphasis added). We reasoned that such a regulation is necessary \"[b]ecause circumstances may arise in which it is not feasible ... to state the date, time, and place of a removal hearing at the time the [Notice to Appear] is sent.\" Popa , 571 F.3d at 896. Pereira rejected this rationale, see 138 S. Ct. at 2118-19, and we have acknowledged that \" Pereira appears to discount the relevance of 8 C.F.R. \u00a7 1003.18 in the ... context of eligibility for cancellation of removal.\" Karingithi v. Whitaker , 913 F.3d 1158, 1160 n.1 (9th Cir. 2019).\nIn any event, the regulation rewrites the statute. As an initial matter, 8 C.F.R. \u00a7 1003.18 does not, on its face, relate to the stop-time rule. It pertains to scheduling cases and providing notice, implicating the stop-time rule only to the extent it purports to alter the requirements of a Notice to Appear. But the statute already enumerates what a Notice to Appear must contain. Even if we agreed with DHS that it makes sense to only issue time and place information \"where practicable,\" neither we nor DHS can override the clear statutory command that time and place information be included in all Notices to Appear. Pereira , 138 S. Ct. at 2118-19 ; see also Comm'r v. Asphalt Prods. Co. , 482 U.S. 117, 121, 107 S.Ct. 2275, 96 L.Ed.2d 97 (1987) (per curiam) (\"Judicial perception that a particular result would be unreasonable may enter into the construction of ambiguous provisions, but cannot justify disregard of what Congress has plainly and intentionally provided.\").\nMoreover, the Supreme Court scrapped the notion that \"practical considerations\"-namely, that DHS may not be able to access the Immigration Court's calendar and properly schedule proceedings when it issues a Notice to Appear-excuse the failure to provide \"specific time, date, and place\" information. Pereira , 138 S. Ct. at 2118-19. Such \"considerations ... do not justify departing from the statute's clear text.\" Id . at 2118. Yet Popa did just that. We cannot now rely on those same considerations to advance a policy other than what Congress passed and the President signed. See Xi v. INS , 298 F.3d 832, 839 (9th Cir. 2002) (\"[A] decision to [rearrange] or rewrite the statute falls within the legislative, not the judicial, prerogative.\"). Nor may DHS displace legislation with regulation. See League of Wilderness Defs./Blue Mountains Biodiversity Project v. Forsgren , 309 F.3d 1181, 1190 (9th Cir. 2002) (\"An agency simply may not interpret a regulation in a way that contravenes a statute.\").\nThe Attorney General charts his course around the statute by arguing that a Notice of Hearing may cure a defective Notice to Appear. The phrase \"notice of hearing\"-or anything resembling it-does not appear in the law. Rather, the statute refers to a \"notice to appear\" and a \"notice of change in time or place of proceedings\" and delineates when each document may be issued and what it must contain. See 8 U.S.C. \u00a7 1229(a) ; see also Pereira , 138 S. Ct. at 2114. Nevertheless, the Attorney General counters that the law is silent on whether the required notice must consist of one document or if it may consist of multiple documents that collectively contain the necessary information.\nFar from silent, the statute speaks clearly: residence is terminated \"when the alien is served a notice to appear.\" 8 U.S.C. \u00a7 1229b(d)(1) (emphasis added). The use of the singular indicates that service of a single document-not multiple-triggers the stop-time rule. Cf. United States v. Hayes , 555 U.S. 415, 421, 129 S.Ct. 1079, 172 L.Ed.2d 816 (2009) (\"We note as an initial matter that [the statute] uses the word 'element' in the singular, which suggests that Congress intended to describe only one required element.\"); Delgado v. Holder , 648 F.3d 1095, 1112 (9th Cir. 2011) (Reinhardt, J., concurring) (\"The singular article 'a' could not make any clearer the singular nature of 'a particularly serious crime': the agency must identify one offense of conviction ....\").\nRather than contending, as the Attorney General does, that the statute is silent, the dissent argues that the Dictionary Act, 1 U.S.C. \u00a7 1, requires all references to \"a notice\" or \"the notice\" in the statute be read as referring to both the singular and the plural, thus permitting multiple documents to collectively satisfy the requirements of a Notice to Appear. We reject this position for two reasons.\nFirst, the Supreme Court has held that reliance on the Dictionary Act's rule regarding \"words importing the singular,\" 1 U.S.C. \u00a7 1, is appropriate only \"[o]n the rare occasions when ... doing so [is] 'necessary to carry out the evident intent of the statute.' \" Hayes , 555 U.S. at 422 n.5, 129 S.Ct. 1079 (quoting First Nat'l Bank in St. Louis v. Missouri , 263 U.S. 640, 657, 44 S.Ct. 213, 68 L.Ed. 486 (1924) ). The \"essential function of a notice to appear\" is to \"[c]onvey[ ] ... time-and-place information to a noncitizen\" and \"facilitate appearance at [the] proceedings.\" Pereira , 138 S. Ct. at 2115. A single, complete Notice to Appear achieves that aim, so resort to the Dictionary Act's singular/plural rule and attendant context-driven guidance is unnecessary. Second, reading Section 1229b as the dissent does, the stop-time provision would be triggered \"when the alien is served notices to appear under section 1229(a).\" Nevertheless, no matter how many documents are sent, none qualifies as a \"notice to appear\" unless it contains the information Section 1229(a) prescribes. See Pereira , 138 S. Ct. at 2110.\nThe BIA has reached a conclusion contrary to our holding. Over a vigorous dissent, a closely divided BIA held that \"where a notice to appear does not specify the time or place of an alien's initial removal hearing, the subsequent service of a notice of hearing containing that information perfects the deficient notice to appear, triggers the 'stop-time' rule, and ends the alien's period of continuous residence or physical presence in the United States.\" Matter of Mendoza-Hernandez , 27 I. & N. Dec. 520, 529 (BIA 2019) (en banc). We do not defer to this conclusion for three reasons.\nFirst, the threshold issue addressed by the BIA was whether Pereira definitively resolved whether \"subsequent service of a notice of hearing containing [time and place] information perfects the deficient notice to appear, trigger[ing] the 'stop-time' rule.\" Id. The BIA acknowledged that \" Pereira can be ... read in a literal sense to reach a different result,\" i.e. , a result contrary to the BIA's ultimate holding. Id. Nevertheless, the BIA rejected such a \"literal reading\" and now the Attorney General invites us to defer to the BIA's conclusion. But \"a reviewing court should defer to an administrative agency only in those areas where that agency has particular expertise.\" Ayala-Chavez , 945 F.2d at 294. \"There is therefore no reason for courts-the supposed experts in analyzing judicial decisions-to defer to agency interpretations of the Court's opinions.\" Akins v. FEC , 101 F.3d 731, 740 (D.C. Cir. 1996) (en banc), vacated on other grounds by FEC v. Akins , 524 U.S. 11, 118 S.Ct. 1777, 141 L.Ed.2d 10 (1998). Accordingly, we do not accord Chevron deference to the BIA's reading of Pereira .\nSecond, the BIA's analysis is disingenuous. Pereira did not merely \"include[ ] language stating that a notice lacking the specific time and place of the removal proceeding does not equate to a notice to appear under [ Section 1229(a)(1) ].\" Mendoza-Hernandez , 27 I. & N. Dec. at 529-30. Rather, the Supreme Court held that Section 1229(a)(1)defines what a notice to appear is, and that the definition is imported every time the term \"notice to appear\" is used in the statute-especially when it is used in the stop-time rule, 8 U.S.C. \u00a7 1229b(d)(1), which refers to \"a notice to appear under section 1229(a).\" Pereira , 138 S. Ct. at 2116. The BIA ignored the plain text of the statute, violating a fundamental tenet of statutory interpretation: \"The inquiry ceases if the statutory language is unambiguous and the statutory scheme is coherent and consistent.\" Barnhart v. Sigmon Coal Co. , 534 U.S. 438, 450, 122 S.Ct. 941, 151 L.Ed.2d 908 (2002) (quotation marks omitted). More than that, the BIA disregarded the Supreme Court's holding construing the statute in accordance with its plain language.\nAs the dissenting opinion in Mendoza-Hernandez explained:\nThe reasoning of the Supreme Court in Pereira ... leaves little room for doubt that the Court's decision requires us to follow the plain language of the Act that the DHS must serve a [ 8 U.S.C. \u00a7 1229(a)(1) ] \"notice to appear\" that includes the date, time, and place of hearing in order to trigger the \"stop-time\" rule. The Court in Pereira repeatedly emphasized the \"plain text\" of the \"stop-time\" rule and left no room for agency gap-filling as to whether an Immigration Court can \"complete\" or \"cure\" a putative \"notice to appear\" by subsequent issuance of a \"notice of hearing\" that would trigger the \"stop-time\" rule on the date of that event. Quite simply, ... a \"notice of hearing\" is not a \"notice to appear\" and, therefore, it does not satisfy the requirement that the DHS serve a [ Section 1229(a)(1) ] \"notice to appear\" that specifies the date and time of hearing, in order to trigger the \"stop-time\" rule.\n27 I. & N. Dec. at 540-41 (dissenting opinion) (footnote omitted). This rationale accords with our holding above and the plain language of the statute. The lack of ambiguity in the statutory language provides us with yet another reason to \"not resort to Chevron deference,\" Pereira , 138 S. Ct. at 2113, and to not accord any deference to the BIA's contrary holding, as it was unmoored from the text, see Nat'l Cable & Telecomms. Ass'n v. Brand X Internet Servs. , 545 U.S. 967, 982-83, 125 S.Ct. 2688, 162 L.Ed.2d 820 (2005). In so holding, we follow the lead of the Supreme Court's recent decision in BNSF Railway Co. v. Loos , --- U.S. ----, 139 S. Ct. 893, 899, 203 L.Ed.2d 160 (2019), which interpreted a statute as we do here-relying on cross-references to similar terms across provisions-without any reference to the agency's interpretation of the same provision.\nThird, to the extent the BIA relied upon the Third Circuit's holding in Orozco-Velasquez v. Attorney General , 817 F.3d 78 (3d Cir. 2016), or other similar holdings such as Popa , those cases cannot be reconciled with Pereira . The BIA cannot rely on abrogated decisions in hopes of securing deference from the very courts that issued the now-defunct precedent. Such an approach would be hopelessly circular. Moreover, the BIA presumes that because the issue of whether a \" 'perfected' notice to appear\" may stop time \"was not before the Court,\" prior decisions interpreting the stop-time rule were unaffected by Pereira . Mendoza-Hernandez , 27 I. & N. Dec. at 530. The BIA reads too much into the Court's judicial restraint and fails to recognize that none of these pre- Pereira decisions \"take into account the Supreme Court's determination that the 'stop-time' rule contains plain and unambiguous language\" that the \" 'stop-time' rule is triggered by service of a ... 'notice to appear' that specifies the time and place of a hearing as an essential part of the charging document.\" Id. at 541-43 (dissenting opinion). Thus, we agree with the dissenters in Mendoza-Hernandez and accord no deference to the BIA's flawed analysis.\nSkirting the statutory text, the Attorney General points to purportedly analogous areas of law where an initial defect may be cured by a litigant's subsequent acts. For instance, Becker v. Montgomery held that an unsigned notice of appeal is timely if signed after the time to appeal has expired. 532 U.S. 757, 760, 121 S.Ct. 1801, 149 L.Ed.2d 983 (2001). But Pereira distinguished Becker , explaining that \"omission of time-and-place information is not ... some trivial, ministerial defect, akin to an unsigned notice of appeal. Failing to specify integral information like the time and place of removal proceedings unquestionably would deprive the notice to appear of its essential character.\" Pereira , 138 S. Ct. at 2116-17 (citations, quotation marks, and brackets omitted). Similarly, in Scarborough v. Principi , the Supreme Court held that amendment of a timely application that failed to include a necessary allegation was permissible because the rule requiring specific allegations was aimed, like the signature requirement in Becker , \"at stemming the urge to litigate irresponsibly.\" 541 U.S. 401, 416, 124 S.Ct. 1856, 158 L.Ed.2d 674 (2004) (quoting Edelman v. Lynchburg Coll. , 535 U.S. 106, 116, 122 S.Ct. 1145, 152 L.Ed.2d 188 (2002) ). The Scarborough Court went on to explain that \"the allegation does not serve an essential notice-giving function,\" and so curative amendment was appropriate. Id. at 416-17, 124 S.Ct. 1856.\nConversely, the primary function of a Notice to Appear is to give notice, which is essential to the removal proceeding, Pereira , 138 S. Ct. at 2114-15, so the Attorney General's reliance on Becker , Scarborough , and Edelman is misplaced. Each of those cases allowed litigants to correct trivial or ministerial errors. The requirements of a Notice to Appear, however, are \"substantive.\" Id. at 2116. Substantive defects may not be cured by a subsequent Notice of Hearing that likewise fails to conform with the substantive requirements of Section 1229(a)(1). As nothing precludes DHS from issuing a Notice to Appear that conforms to the statutory definition, that is the appropriate course of action for the agency to follow in such situations.\nDHS's ability to issue a Notice that complies with the statute limits the set of cases affected by our holding. Retrospectively, although nearly all Notices to Appear issued between 2015 and 2018 lacked time and date information, see Pereira , 138 S. Ct. at 2111, the Attorney General conceded at oral argument that DHS can reissue complete Notices to Appear to those who have been served defective ones. The cases most affected by our holding will be those where a defective Notice to Appear issued so near to when an alien attained the requisite years of residence that DHS cannot reissue a complete Notice to Appear before the statutory period elapses. Prospectively, the Supreme Court noted that software exists that would enable DHS and the Immigration Court to \"schedule hearings before sending notices to appear.\" Pereira , 138 S. Ct. at 2119.\nIn a final attempt to salvage his argument, the Attorney General suggests that Karingithi should inform our decision. But Karingithi addressed whether a defective Notice to Appear vests the Immigration Court with jurisdiction. Karingithi , 913 F.3d at 1160-61. It did not address whether a Notice of Hearing can cure a defective Notice to Appear. Instead, we held that because a regulation properly governs what a notice must contain to vest jurisdiction, the statutory definition of a Notice to Appear did not control. Id. at 1161. As we explained, \" Pereira simply has no application [to the Immigration Court's jurisdiction]. ... [T]he only question [in Pereira ] was whether the petitioner was eligible for cancellation of removal.\" Id . But our decision here is based on the statute's text, not a regulation, and we are assessing eligibility for cancellation of removal.\nFinally, the dicta from the Eleventh Circuit's unpublished non-precedential opinion in Molina-Guillen v. U.S. Attorney General , 758 Fed.Appx. 893 (11th Cir. 2019), does not alter our conclusion. Not only had the petitioner abandoned the argument that a Notice of Hearing cannot cure a defective Notice to Appear, but Molina-Guillen does not engage the statutory text. Id. at 898. It merely notes that a subsequent \"Notice of Hearing, which contained the date and time of the removal hearing, was served on Molina-Guillen .... Together, the December 2005 Notice to Appear and the March 2006 Notice of Hearing fulfilled the notice requirements in \u00a7 1229(a)(1).\" Id. We are unpersuaded by this cursory analysis.\nCONCLUSION\nWe hold that a Notice to Appear that is defective under Pereira cannot be cured by a subsequent Notice of Hearing. The law does not permit multiple documents to collectively satisfy the requirements of a Notice to Appear. Thus, Lorenzo never received a valid Notice to Appear and his residency continued beyond 2008. Accordingly, he has resided in the United States for over seven years and is eligible for cancellation of removal.\nBecause we hold that Lorenzo's residence was not terminated, there is no need to opine on his other arguments. Moreover, the question presented here is purely legal, so remand to consider the impact of Pereira is unwarranted. See Ceguerra v. Sec'y of Health & Human Servs. , 933 F.2d 735, 741 (9th Cir. 1991) (\"[A] purely legal inquiry ... does not require remand.\"); see also Ortiz-Magana v. Mukasey , 542 F.3d 653, 658 n.1 (9th Cir. 2008) (declining to remand where \"no additional information would be available that previously was not\" and the panel \"can resolve the legal question on the basis of available evidence\"). Accordingly, we GRANT the petition for review.",
+        "type": "majority",
+        "author": "KORMAN, District Judge:"
+      },
+      {
+        "text": "CALLAHAN, Circuit Judge dissenting:\nI agree with the majority that the United States Supreme Court's opinion in Pereira v. Sessions , --- U.S. ----, 138 S. Ct. 2105, 201 L.Ed.2d 433 (2018), incontrovertibly establishes that for a notice to appear to trigger the \"stop-time rule,\" the noncitizen must be provided with the time and place of the removal proceedings. However, I do not read Pereira as holding that the notice of the time and place must be provided in a single document. Rather, I read Pereira as not prohibiting the Government from supplementing a deficient notice to appear by subsequently providing notice of the time and place of the removal proceedings, with the consequence that the stop-time rule is triggered upon receipt of the supplemental notice.\nInitially, it should be noted that the majority's critical holding-that all items listed in 8 U.S.C. \u00a7 1229(a)(1) must be contained in a single Notice to Appear-was not in issue in Pereira , and accordingly was not directly addressed by the Supreme Court. Pereira entered the United States as a temporary \"non-immigrant visitor\" in 2000. Pereira , 138 S. Ct. at 2112. He was arrested for operating a vehicle while under the influence of alcohol in 2006. Id . In May 2006, the Department of Homeland Security (\"DHS\") served him with a \"Notice to Appear,\" which stated that removal proceedings were being initiated against him for overstaying his visa, but \"the notice did not specify the date and time of Pereira's removal hearing.\" Id . More than a year later, DHS attempted to mail Pereira \"a more specific notice setting the date and time for his initial removal hearing.\" Id. \"But that second notice was sent to Pereira's street address rather than his post office box (which he had provided to DHS), so it was returned as undeliverable.\" Id . In 2013, Pereira was arrested for driving without his headlights on and was subsequently detained by DHS. Id. By this time, if the stop-time rule was not triggered by the 2006 notice, Pereira had long since accrued the necessary years of continuous physical presence in the United States to be eligible for cancellation of removal. See 8 U.S.C. \u00a7 1229b(b)(1). Because DHS failed to serve Pereira with a supplemental notice prior to Pereira having been in the United States for over a dozen years, the Supreme Court was not called upon to, and did not, address whether all the requirements of a notice to appear listed in \u00a7 1229(a) must be contained in a single document.\nInstead, the Court first narrowed the dispositive question to whether \"a 'notice to appear' that does not specify the 'time and place at which the proceedings will be held,' as required by \u00a7 1229(a)(1)(G)(i), trigger[s] the stop-time rule.\" Id . at 2113. It then held, contrary to the position advocated by the Government, that \"[a] putative notice to appear that fails to designate the specific time or place of the noncitizen's proceeding is not a 'notice to appear under section 1229(a),' and so does not trigger the stop-time rule.\" Id . at 2114.\nFrom the Pereira holding, the majority leaps to the conclusion that the notice of hearing that Lorenzo subsequently received-that did provide notice of the time and place of his removal proceeding-did not, as a matter of law, cure the defect in the initial notice to appear, and that the only cure is for DHS to issue, now years later, a new \"Notice To Appear.\" Maj. Op. at 405.\nThe majority first supports its conclusion not by relying on the Supreme Court's opinion in Pereira , but by rejecting the Government's reliance on our opinion in Popa v. Holder , 571 F.3d 890 (9th Cir. 2009). Maj. Op. at 399-401. But the Supreme Court's rejection of our holding in Popa that a notice to appear need not contain the time and place of the proceedings, says nothing about whether all items listed in \u00a7 1229(a)(1) need to be contained in a single document.\nSimilarly, the majority's assertion that the Supreme Court \"scrapped the notion that 'practical considerations' ... excuse[d] the failure to provide 'specific time, date and place' information,' \" Maj. Op. at 401, again says nothing about whether a notice that fails to provide this information can be cured by a subsequent document that fully provides specific time, date, and place information.\nInstead, the majority asserts that \u00a7 1229(a)\"speaks clearly\" in rejecting the position that the requisite notice may be contained in more than one document. The majority reasons that because 8 U.S.C. \u00a7 1229b(d)(1) states \"when the alien is served a notice to appear,\" the \"use of the singular indicates that service of a single document-not multiple-triggers the stop-time rule.\" Maj. Op. at 402. But even if \u00a7 1229b(d)(1)'s use of the singular contemplates that the notice to appear is generally issued in a single document, it does not follow that all the criteria listed in \u00a7 1229(a)must be contained in a single document.\nThe majority reads too much into the \"use of the singular\" in \u00a7 1229b. Title 1 U.S.C. \u00a7 1 states that \"[i]n determining the meaning of any Act of Congress, unless the context indicates otherwise- words importing the singular include and apply to several persons, parties or things. ...\" The statutory context provides no indication that the use of the singular in \u00a7 1229b(d)(1) imposes a formalistic requirement that the notice be provided within a single document and that a deficiency may not be \"cured\" by a subsequent notice that includes the previously missing time and place information. Section 1229(a)(2) contemplates that there may be changes in the time or place of the removal proceedings of which the noncitizen must be notified. Here, Lorenzo was served with an April 11, 2008 notice of hearing setting forth the time and place for his removal proceedings and he appeared, with counsel, before the IJ on June 27, 2018. There can be no doubt that Lorenzo had actual notice of the time and place of his removal proceedings well before his June 27, 2018 hearing. The statute's use of the singular is too slender a reed to support the majority's insistence that all the criteria in \u00a7 1229(a)(1) must be contained in a single document.\nThe majority's cite to United States v. Hayes , 555 U.S. 415, 421, 129 S.Ct. 1079, 172 L.Ed.2d 816 (2009), hardly strengthens the reed because, in my view, the majority's reliance on \"a notice\" frustrates, rather than furthers, \"Congress' aim.\" Id . at 422 n.5, 129 S.Ct. 1079. Furthermore, the Board of Immigration Appeals, sitting en banc, has declined to read the provision as requiring that the \"written notice be in a single document.\" Matters of Mendoza-Hernandez and Capula-Cortes , 27 I. & N. Dec. 520, 531 (BIA 2019) (en banc).\nThe Supreme Court's concern in Pereira was with noncitizens receiving notification of the time and place of the removal proceedings and not with whether all the information was contained in a single document, entitled \"Notice to Appear.\" In other words, the court was concerned with the noncitizen receiving the information rather than the form of the notice. Indeed, all the concerns underlying the Supreme Court's ruling in Pereira are satisfied by a properly served second document that supplements a deficient initial notice. The second notice then provides noncitizens with notice of the time and place of the proceedings that \"is the essential function of a notice to appear, for without it, the Government cannot reasonably expect the noncitizen to appear for his removal proceeding.\" Pereira , 138 S. Ct. at 2115. Similarly, such a notice would assure the noncitizen of the opportunity to secure counsel before the hearing. See id . at 2114-15 ; see also 8 U.S.C. \u00a7 1229(a)(2)(b)(1) (requiring that in order to allow the noncitizen to secure counsel, the hearing date shall not be scheduled earlier than 10 days after the service of the notice). Also, allowing the Government to furnish time and place information in a second document and triggering the stop-time rule on receipt of that notice make it more difficult for a noncitizen \"to manipulate or delay removal proceedings to 'buy time.' \" Id . at 2119.\nMy reading of Pereira is also the BIA's position. Mendoza-Hernandez , 27 I. & N. Dec. 520. In reading Pereira , the BIA stressed the Court's restriction of its ruling to a narrow issue, and its choice not to address the two-part notice process. Id . at 527-28. The BIA noted that the Court \"explained that the fundamental purpose of notice is to convey essential information to the [noncitizen], such that the notice creates a reasonable expectation of the [noncitizen's] appearance at the removal proceeding.\" Id . at 531. The BIA held:\nWe conclude that in cases where a notice to appear does not specify the time or place of [a noncitizen's] initial removal hearing, the subsequent service of a notice of hearing containing that information perfects the deficient notice to appear, triggers the \"stop-time\" rule, and ends the [noncitizen's] period of continuous residence or physical presence in the United States.\nId. at 529. Id . at 535. The BIA further observed that \"[n]one of the courts involved in the circuit split had held that service of a subsequent notice of hearing that included time and place information was insufficient to perfect the notice to appear.\" Id . at 534-35.\nThe majority declines to defer to Mendoza-Hernandez , but the majority's reasoning is not persuasive. It first suggests that we do not defer to an agency's interpretation of a Supreme Court opinion. Maj. Op. at 402-03. True enough, but this does not mean that the position of the agency most effected by a statute does not deserve some consideration. Moreover, as I have explained, my reading of Pereira , although consistent with the BIA's reading, is in no way based on the BIA's decision. Second, the majority asserts that the BIA's analysis is disingenuous. Maj. Op. at 402-03. But this is just another way of disagreeing with my perspective and the BIA's perspective, as demonstrated by the majority's reliance on the dissent in Mendoza-Hernandez . The majority asserts that there is no ambiguity in the statute, but I find the BIA's recognition that Pereira can be read in a literal sense to reach a different result to be a fairer description of the overall question. Finally, the majority argues that the BIA may not rely on prior circuit decisions, such as Popa , because they were abrogated by Pereira . Maj. Op. at 403-04. But Pereira 's abrogation of cases such as Popa was not a ruling on the two-part notice process at issue in this case.\nI continue to read Pereira as allowing for a two-part notice process and find this approach to be consistent with our opinion in Karingithi v. Whitaker , 913 F.3d 1158 (9th Cir. 2019). Karingithi, like Lorenzo, had received a notice to appear that did not specify the date and time of the removal hearing. Id . at 1159. Karingithi argued \"that if a notice to appear does not state the time for her initial removal hearing, it is not only defective under \u00a7 1229(a), but also does not vest jurisdiction with the IJ.\" Id . at 1160. We disagreed, holding that the Immigration Court's jurisdiction was governed by regulation, not by \u00a7 1229(a), and thus a notice to appear need not include time and date information to vest jurisdiction in the IJ. Id. We held that \" Pereira simply has no application here,\" noting that the only question in Pereira \"was whether the petitioner was eligible for cancellation of removal,\" and the \"Court's resolution of that 'narrow question' cannot be recast into a broad jurisdictional rule.\" Id . at 1161.\nAlthough Karingithi , as well as Bermudez-Cota , 27 I. & N. Dec. 441, concerned the interpretation of regulations that are not applicable to Lorenzo's case, the majority, like Karingithi and Bermudez-Cota, seeks to expand the \"narrow question\" addressed in Pereira into a broad pronouncement. The sounder approach, as reflected in our opinion in Karingithi , and in the BIA's en banc opinion in Mendoza-Hernandez is to abide by the Supreme Court's statement that it decided the \"much narrower\" issue. Pereira , 138 S. Ct. at 2113.\nFurthermore, we should not frustrate Congressional intent by expanding Pereira beyond its narrow holding. Section 1229b sets forth a clear policy that a noncitizen becomes eligible for cancellation of removal only after residing in the country for a certain number of years. Furthermore, \u00a7 1229b(d)(1) clearly states that \"any period of continuous residence or continuous physical presence\" ends \"when the alien is served a notice to appear.\" Pereira requires that DHS's misinterpretation of the statute as permitting notices that do not set forth the time and place for removal proceedings be corrected. That misinterpretation and the concerns underlying Pereira are resolved by allowing DHS to cure an initial notice to appear with a subsequent notice of hearing setting forth the time and place of the removal proceeding and stopping the clock upon the noncitizen's receipt of the subsequent notice. Requiring DHS to serve new notices to appear on all noncitizens who received deficient notices to appear, rather than allowing for subsequent notices of hearing, is a windfall for noncitizens and unnecessarily interferes with Congress's intent.\nI read Pereira as allowing DHS to cure a deficient notice to appear by subsequently providing a noncitizen with actual notice of the time and place of the removal proceedings, with the result that the stop-time rule is triggered upon the noncitizen's receipt of the supplemental notice. Accordingly, I dissent from the majority's opinion.\nNoncitizens who are subject to removal proceedings but have accrued 10 years of continuous physical presence in the United States may be eligible for cancellation of removal. 8 U.S.C. \u00a7 1229(b)(1). The \"stop-time rule\" set forth in \u00a7 1229b(d)(1) provides that the period of continuous physical presence ends when a noncitizen is served with a notice to appear under 8 U.S.C. \u00a7 1229(a). See Pereira , 138 S. Ct. at 2109.\nConsistent with the Supreme Court's opinion in Pereira , 138 S. Ct. at 2110 n.1, the term \"noncitizen\" is used to refer to any person who is not a citizen or national of the United States.\nTitle 8 U.S.C. \u00a7 1229(a)(1) states:\n(a) Notice to appear\n(1) In general\nIn removal proceedings under section 1229a of this title, written notice (in this section referred to as a \"notice to appear\") shall be given in person to the alien (or, if personal service is not practicable, through service by mail to the alien or to the alien's counsel of record, if any) specifying the following:\n(A) The nature of the proceedings against the alien.\n(B) The legal authority under which the proceedings are conducted.\n(C) The acts or conduct alleged to be in violation of law.\n(D) The charges against the alien and the statutory provisions alleged to have been violated.\n(E) The alien may be represented by counsel and the alien will be provided (i) a period of time to secure counsel under subsection (b)(1) and (ii) a current list of counsel prepared under subsection (b)(2).\n(F)(i) The requirement that the alien must immediately provide (or have provided) the Attorney General with a written record of an address and telephone number (if any) at which the alien may be contacted respecting proceedings under section 1229a of this title.\n(ii) The requirement that the alien must provide the Attorney General immediately with a written record of any change of the alien's address or telephone number.\n(iii) The consequences under section 1229a(b)(5) of this title of failure to provide address and telephone information pursuant to this subparagraph.\n(G)(i) The time and place at which the proceedings will be held. (ii) The consequences under section 1229a(b)(5) of this title of the failure, except under exceptional circumstances, to appear at such proceedings.\nA further indication that the Supreme Court in Pereira was concerned with the general need for notice of the time and place of the removal proceedings may be gleaned from its discussion of the need for a \"notice to appear,\" rather than a single \"Notice to Appear\" containing all of the criteria set forth in \u00a7 1229(a)(1).\nThe BIA continued:\nRather, it may be provided in one or more documents-in a single or multiple mailings. And it may be served personally, by mail, or by a combination of both, so long as the essential information is conveyed in writing and fairly informs the alien of the time and place of the proceeding.\nMendoza-Hernandez , 27 I. & N. Dec. at 531.\nThis position was foretold in the BIA's decision in Matter of Bermudez-Cota , 27 I. & N. Dec. 441, 447 (BIA 2018). There the BIA held that a notice to appear that did not specify the time and place of a noncitizen's removal hearing nonetheless vests the IJ with jurisdiction over the removal proceedings. The BIA emphasized that unlike Pereira, Bermudez-Cota \"was properly served with both a notice to appear and a subsequent notice of hearing.\" Id . at 443.\nOur opinion also noted that Karingithi \"had actual notice of the hearings through multiple follow-up notices that provided the date and time of each hearing.\" Id . at 1159.",
+        "type": "dissent",
+        "author": "CALLAHAN, Circuit Judge dissenting:"
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "Isaias Lorenzo LOPEZ, Petitioner,\nv.\nWilliam P. BARR, Attorney General, Respondent.\nNo. 15-72406\nUnited States Court of Appeals, Ninth Circuit.\nArgued and Submitted February 12, 2019 Pasadena, California\nFiled May 22, 2019"
+  },
+  "file_name": "0396-01",
+  "first_page_order": 396,
+  "last_page_order": 410
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12430829,
+  "name": "Diaz v. Felker, Warden",
+  "name_abbreviation": "Diaz v. Felker",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-7509",
+  "first_page": "1167",
+  "last_page": "1167",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1167"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.644,
+    "sha256": "ef35e052ce31cc8c954d3986f21b0748ebc9eb7d018f6477fe4ad01349bcb51b",
+    "simhash": "1:006111c93c912012",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Diaz v. Felker, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7509.\nDiaz v. Felker, Warden."
+  },
+  "file_name": "1167-01",
+  "first_page_order": 1243,
+  "last_page_order": 1243
+}

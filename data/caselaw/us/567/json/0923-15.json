@@ -1,0 +1,59 @@
+{
+  "id": 12410459,
+  "name": "Warren v. United States",
+  "name_abbreviation": "Warren v. United States",
+  "decision_date": "2012-06-18",
+  "docket_number": "No. 11-10435",
+  "first_page": "923",
+  "last_page": "923",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 923"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.686,
+    "sha256": "250910c94c90d77c67cda76967b1732defc63ca6ca52decc5ae39b580d1aee08",
+    "simhash": "1:06aad383081e9d5f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Warren v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10435.\nWarren v. United States."
+  },
+  "file_name": "0923-15",
+  "first_page_order": 827,
+  "last_page_order": 827
+}

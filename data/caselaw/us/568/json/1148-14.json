@@ -1,0 +1,59 @@
+{
+  "id": 12430200,
+  "name": "Lozano v. United States",
+  "name_abbreviation": "Lozano v. United States",
+  "decision_date": "2013-01-22",
+  "docket_number": "No. 12-7787",
+  "first_page": "1148",
+  "last_page": "1148",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1148"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.648,
+    "sha256": "a1db04670a2b36ee1e8a7583873fc923ef25c3f52bc5638a7cc81cd9b31077b2",
+    "simhash": "1:0528938b2ab50118",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lozano v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7787.\nLozano v. United States."
+  },
+  "file_name": "1148-14",
+  "first_page_order": 1224,
+  "last_page_order": 1224
+}

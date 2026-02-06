@@ -1,0 +1,96 @@
+{
+  "id": 12190540,
+  "name": "Frederick v. Graham",
+  "name_abbreviation": "Frederick v. Graham",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-9712",
+  "first_page": "810",
+  "last_page": "810",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 810"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "563 U. S. 984",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12459712,
+        12459713,
+        5935340,
+        4225518,
+        5930801,
+        4223507,
+        5940888,
+        12459706,
+        12459707,
+        12459708,
+        12459709,
+        12459710,
+        12459711
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/179/1206-03",
+        "/l-ed-2d/179/1206-04",
+        "/us/563/0984-03",
+        "/us/563/0984-04",
+        "/us/563/0984-05",
+        "/us/563/0984-02",
+        "/us/563/0984-01",
+        "/l-ed-2d/179/1205-05",
+        "/l-ed-2d/179/1205-06",
+        "/l-ed-2d/179/1205-07",
+        "/l-ed-2d/179/1205-08",
+        "/l-ed-2d/179/1206-01",
+        "/l-ed-2d/179/1206-02"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 25,
+    "char_count": 164,
+    "ocr_confidence": 0.645,
+    "sha256": "8afa621479197c72f785c5f755e56c99c434cf22e11ef890fe4c3727ca8399d5",
+    "simhash": "1:22f4147a4805e2db",
+    "word_count": 26
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Frederick v. Graham."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Wis. Motion of petitioner for reconsideration of order denying leave to proceed informa pauperis [563 U. S. 984] denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9712.\nFrederick v. Graham."
+  },
+  "file_name": "0810-04",
+  "first_page_order": 892,
+  "last_page_order": 892
+}

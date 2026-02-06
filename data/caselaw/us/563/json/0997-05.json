@@ -1,0 +1,59 @@
+{
+  "id": 4225276,
+  "name": "Entler v. Supreme Court of Washington et al.",
+  "name_abbreviation": "Entler v. Supreme Court",
+  "decision_date": "2011-05-16",
+  "docket_number": "No. 10-9718",
+  "first_page": "997",
+  "last_page": "997",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 997"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 92,
+    "ocr_confidence": 0.644,
+    "sha256": "3bd4a64518429cd959c4e14e30b937eaa19ae7e217097fb3d697da423366149e",
+    "simhash": "1:18f130a969b79032",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Entler v. Supreme Court of Washington et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9718.\nEntler v. Supreme Court of Washington et al."
+  },
+  "file_name": "0997-05",
+  "first_page_order": 1023,
+  "last_page_order": 1023
+}

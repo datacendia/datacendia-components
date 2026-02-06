@@ -1,0 +1,59 @@
+{
+  "id": 12244950,
+  "name": "Head v. United States",
+  "name_abbreviation": "Head v. United States",
+  "decision_date": "2012-01-23",
+  "docket_number": "No. 11-7870",
+  "first_page": "1182",
+  "last_page": "1182",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1182"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.659,
+    "sha256": "641d786a4ada5b427ee3d997a1a0b29f18b211e21d8828ff1efcef042a089ba6",
+    "simhash": "1:a70afe2c22a25984",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Head v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. D. C. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7870.\nHead v. United States."
+  },
+  "file_name": "1182-15",
+  "first_page_order": 1264,
+  "last_page_order": 1264
+}

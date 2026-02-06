@@ -1,0 +1,59 @@
+{
+  "id": 12431327,
+  "name": "Morrow v. Bharara",
+  "name_abbreviation": "Morrow v. Bharara",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-7945",
+  "first_page": "1178",
+  "last_page": "1178",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1178"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 66,
+    "ocr_confidence": 0.687,
+    "sha256": "867c7cba7a4d92f1b22fae45ee2b5c45f5e742c0d40144135837fee53f6799d2",
+    "simhash": "1:d92704d31b1bdd24",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Morrow v. Bharara."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7945.\nMorrow v. Bharara."
+  },
+  "file_name": "1178-07",
+  "first_page_order": 1254,
+  "last_page_order": 1254
+}

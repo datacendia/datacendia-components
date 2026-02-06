@@ -1,0 +1,59 @@
+{
+  "id": 12195478,
+  "name": "Iturralde v. New Jersey",
+  "name_abbreviation": "Iturralde v. New Jersey",
+  "decision_date": "2012-03-26",
+  "docket_number": "No. 11-8504",
+  "first_page": "911",
+  "last_page": "911",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 911"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 85,
+    "ocr_confidence": 0.634,
+    "sha256": "cd3bcda0770c283a367c4ae5f4bc2b5a47b0894e9719d4b7a456096fbbf226c6",
+    "simhash": "1:4acdbe1c0ec791f5",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Iturralde v. New Jersey."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. N. J., App. Div. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8504.\nIturralde v. New Jersey."
+  },
+  "file_name": "0911-06",
+  "first_page_order": 787,
+  "last_page_order": 787
+}

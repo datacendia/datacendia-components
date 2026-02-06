@@ -1,0 +1,599 @@
+{
+  "id": 4308379,
+  "name": "THE PEOPLE, Plaintiff and Respondent, v. GLORIA RAMOS, Defendant and Appellant",
+  "name_abbreviation": "People v. Ramos",
+  "decision_date": "2016-01-22",
+  "docket_number": "No. G050315",
+  "first_page": "99",
+  "last_page": "105",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "244 Cal. App. 4th 99"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "32 Cal.Rptr.2d 288",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "26 Cal.App.4th 1726",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6043882
+      ],
+      "pin_cites": [
+        {
+          "page": "1732, fn. 4"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/26/1726-01"
+      ]
+    },
+    {
+      "cite": "82 Cal.Rptr.2d 541",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1994,
+      "opinion_index": 0
+    },
+    {
+      "cite": "70 Cal.App.4th 222",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        732087
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "227"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/70/0222-01"
+      ]
+    },
+    {
+      "cite": "268 Cal.Rptr. 8",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "219 Cal.App.3d 455",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4427122
+      ],
+      "pin_cites": [
+        {
+          "page": "466"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/219/0455-01"
+      ]
+    },
+    {
+      "cite": "45 Cal.Rptr.2d 844",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 Cal.App.4th 1741",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4896379
+      ],
+      "pin_cites": [
+        {
+          "page": "1745-1746"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/38/1741-01"
+      ]
+    },
+    {
+      "cite": "181 P.3d 105",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "75 Cal.Rptr.3d 289",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 Cal.4th 327",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3884489
+      ],
+      "pin_cites": [
+        {
+          "page": "357-358"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/43/0327-01"
+      ]
+    },
+    {
+      "cite": "606 P.2d 738",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "162 Cal.Rptr. 431",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "26 Cal.3d 557",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2263733
+      ],
+      "pin_cites": [
+        {
+          "page": "578"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/26/0557-01"
+      ]
+    },
+    {
+      "cite": "204 P.3d 306",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1980,
+      "opinion_index": 0
+    },
+    {
+      "cite": "91 Cal.Rptr.3d 709",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1980,
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Cal.4th 1282",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3893380
+      ],
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "1296"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/45/1282-01"
+      ]
+    },
+    {
+      "cite": "443 U.S. 307",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6182418
+      ],
+      "weight": 3,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "318-319"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/443/0307-01"
+      ]
+    },
+    {
+      "cite": "386 U.S. 18",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6168882
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "24"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/386/0018-01"
+      ]
+    },
+    {
+      "cite": "24 Cal.Rptr.2d 368",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "20 Cal.App.4th 65",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4532736
+      ],
+      "pin_cites": [
+        {
+          "page": "72"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/20/0065-01"
+      ]
+    },
+    {
+      "cite": "159 P.2d 17",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "26 Cal.2d 297",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2168410
+      ],
+      "pin_cites": [
+        {
+          "page": "304-306"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/26/0297-01"
+      ]
+    },
+    {
+      "cite": "408 P.2d 948",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1945,
+      "opinion_index": 0
+    },
+    {
+      "cite": "63 Cal.2d 740",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2335643
+      ],
+      "year": 1945,
+      "pin_cites": [
+        {
+          "page": "744-748"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/63/0740-01"
+      ]
+    },
+    {
+      "cite": "555 P.2d 1313",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1965,
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 Cal.3d 295",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2286271
+      ],
+      "year": 1965,
+      "pin_cites": [
+        {
+          "page": "301"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/18/0295-01"
+      ]
+    },
+    {
+      "cite": "577 P.2d 1026",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1976,
+      "opinion_index": 0
+    },
+    {
+      "cite": "145 Cal.Rptr. 686",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1976,
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 Cal.3d 208",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2284119
+      ],
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "213"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/21/0208-01"
+      ]
+    },
+    {
+      "cite": "146 P.3d 531",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1978,
+      "opinion_index": 0
+    },
+    {
+      "cite": "51 Cal.Rptr.3d 80",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1978,
+      "opinion_index": 0
+    },
+    {
+      "cite": "40 Cal.4th 81",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3159406
+      ],
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "90"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/40/0081-01"
+      ]
+    },
+    {
+      "cite": "278 P.3d 1182",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2006,
+      "opinion_index": 0
+    },
+    {
+      "cite": "142 Cal.Rptr.3d 824",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2006,
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 Cal.4th 314",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        5721040
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "319-320"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/54/0314-01"
+      ]
+    },
+    {
+      "cite": "957 P.2d 869",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "76 Cal.Rptr.2d 180",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 Cal.4th 470",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        344164
+      ],
+      "pin_cites": [
+        {
+          "page": "481"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/18/0470-01"
+      ]
+    },
+    {
+      "cite": "515 U.S. 506",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1564227
+      ],
+      "weight": 3,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "510"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/515/0506-01"
+      ]
+    },
+    {
+      "cite": "80 Cal.Rptr.2d 907",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "68 Cal.App.4th 1313",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        783213
+      ],
+      "pin_cites": [
+        {
+          "page": "1316"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/68/1313-01"
+      ]
+    },
+    {
+      "cite": "486 P.2d 129",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1998,
+      "opinion_index": 0
+    },
+    {
+      "cite": "95 Cal.Rptr. 601",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1998,
+      "opinion_index": 0
+    },
+    {
+      "cite": "5 Cal.3d 129",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2324349
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "134-135"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/5/0129-01"
+      ]
+    },
+    {
+      "cite": "384 U.S. 436",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12046400
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/384/0436-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 735,
+    "char_count": 12167,
+    "ocr_confidence": 0.863,
+    "pagerank": {
+      "raw": 1.0722156613123361e-07,
+      "percentile": 0.560018943189352
+    },
+    "sha256": "a3639a384de6aa2fb7f178a176cb4f74a9a69e8ed039ca899a2bab8af71dc070",
+    "simhash": "1:023e5422ce8205c7",
+    "word_count": 1905
+  },
+  "last_updated": "2024-02-27T23:18:53.036695+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Rylaarsdam, Acting P. J., and Ikola, J., concurred."
+    ],
+    "parties": [
+      "THE PEOPLE, Plaintiff and Respondent, v. GLORIA RAMOS, Defendant and Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nTHOJMPSQN, J.\nA jury found defendant Gloria Ramos guilty of several crimes, including transportation of heroin (Health & Saf. Code, \u00a7 11352, subd. (a) (section 11352)), and possession of methamphetamine for sale (Health & Saf. Code, \u00a7 11378 (section 11378)), both with various firearm enhancements. The court granted probation and ordered defendant to serve 365 days in jail.\nDefendant contends her transportation of heroin conviction must be reversed, and may not be retried, in light of a recent amendment to section 11352 that makes transportation for sale, i.e., nonpersonal use, an element of the charge. The People concede the amendment applies, but argue the conviction should nevertheless be affirmed under the harmless error standard of review. Alternatively, the People contend retrial on the transportation of heroin charge is not barred by the double jeopardy clause.\nDefendant also contends her possession of methamphetamine for sale conviction must be reversed because there is insufficient evidence to prove she harbored any intent to personally sell the methamphetamine. The People disagree and argue there is sufficient evidence defendant possessed the methamphetamine with the intent to sell it.\nWe conclude the transportation of heroin conviction must be reversed and remanded for further proceedings, but there is substantial evidence defendant possessed the methamphetamine with the requisite intent to sell it, so we affirm that conviction.\nFACTS\nOn April 4, 2013, Costa Mesa police detectives George Maridakis and Jacob Slechta, and Patrol Officer Sean Leffingwell were watching a Nissan Versa as part of a narcotics investigation. The Nissan belonged to Roger Hernandez, defendant\u2019s husband and a well-known drug dealer. At one point the police observed Hernandez take a duffel bag from someone he encountered on the street and put it in the trunk of the Nissan. About 20 minutes later, Leffingwell stopped the Nissan at Maridakis\u2019s direction. Hernandez was the driver and defendant was the front seat passenger.\nMaridakis asked Hernandez if there was anything illegal in the car. Hernandez responded, \u201cWhat\u2019s going on,\u201d while he manipulated something under his seat and then reached for a large black purse sitting between defendant\u2019s legs on the floor. Maridakis told Hernandez to get out of his car and tried to grab Hernandez\u2019s wrist. Hernandez resisted and started to yell.\nAt that point, Slechta told defendant to get out of the car. She appeared nervous and made furtive glances at the black purse. She also repeatedly asked, \u201cWhy?\u201d Slechta grabbed defendant to pull her out of the car, and she screamed \u201chysterically.\u201d\nEventually, Hernandez and defendant were arrested and searched. Hernandez was carrying $233 in cash. The officers also searched Hernandez\u2019s car. Inside the black purse, the officers found a small plastic baggie containing a hairbrush, deodorant, and hair ties; a small, silver metal case containing a digital scale, multiple small, clear plastic bags, 16.8 grams of heroin, 2.9 grams of methamphetamine separated into two baggies, a glass pipe, a round pill marked \u201cRx7,\u201d and 28 rectangular pills marked \u201cG3722\u201d; and an unregistered and loaded, .25-caliber pistol underneath the metal case. In the duffel bag in the trunk, they found 13 hypodermic needles and Suboxone.\nDefendant agreed to be interviewed and voluntarily waived her Miranda rights. (Miranda v. Arizona (1966) 384 U.S. 436 [16 L.Ed.2d 694, 86 S.Ct. 1602].) She acknowledged the black purse was hers, and admitted it had been within her control when she was in the car. However, defendant denied knowing anything about the drugs and gun found inside her purse. And, though she \u201chad heard people say that [her husband] was possibly involved in drug sales,\u201d she did not believe these rumors.\nAt trial, Maridakis opined defendant and Hernandez possessed the methamphetamine for sale. He based this opinion on the amount of the drugs possessed, the scale, cash, and baggies, and the fact some of the methamphetamine had been packaged into smaller plastic baggies. As for the heroin, Maridakis testified defendant and Hernandez possessed a usable quantity, but did not opine they possessed it for sale.\nDISCUSSION\n1. Transportation of Heroin \u2014 Section 11352\nWhen defendant was convicted, section 11352 made any transportation of specified controlled substances, including heroin, punishable as a felony. Section 11352 then provided, \u201cevery person who transports ... (1) any controlled substance specified in subdivision ... (c) ... of Section 11054 . . . shall be punished by imprisonment . . . .\u201d At the time, section 11352 was interpreted to criminalize transportation of the specified drugs for personal use. (People v. Rogers (1971) 5 Cal.3d 129, 134-135 [95 Cal.Rptr. 601, 486 P.2d 129]; People v. Emmal (1998) 68 Cal.App.4th 1313, 1316 [80 Cal.Rptr.2d 907].)\nAfter defendant was convicted, section 11352 was amended by adding subdivision (c), which now provides, \u201cFor purposes of this section, \u2018transports\u2019 means to transport for sale.\u201d Accordingly, transportation of heroin for personal use no longer constitutes a violation of section 11352. The practical effect of this amendment is that transportation of heroin for sale as opposed to personal use is now an element of the offense that must be decided by a jury by proof beyond a reasonable doubt. (United States v. Gaudin (1995) 515 U.S. 506, 510 [132 L.Ed.2d 444, 115 S.Ct. 2310]; People v. Flood (1998) 18 Cal.4th 470, 481 [76 Cal.Rptr.2d 180, 957 P.2d 869].)\nDefendant contends, the People concede, and we agree, the amendment is retroactive and it applies to defendant. (People v. Brown (2012) 54 Cal.4th 314, 319-320 [142 Cal.Rptr.3d 824, 278 P.3d 1182]; People v. Wright (2006) 40 Cal.4th 81, 90 [51 Cal.Rptr.3d 80, 146 P.3d 531]; People v. Collins (1978) 21 Cal.3d 208, 213 [145 Cal.Rptr. 686, 577 P.2d 1026]; People v. Rossi (1976) 18 Cal.3d 295, 301 [134 CaLRptr. 64, 555 P.2d 1313]; In re Estrada (1965) 63 Cal.2d 740 744-748 [48 CaLRptr. 172, 408 P.2d 948]; Sekt v. Justice\u2019s Court (1945) 26 Cal.2d 297, 304-306 [159 P.2d 17].)\nHowever, the parties do not agree what the application of the amendment means here. Defendant contends, and we agree, her transportation of heroin conviction must be reversed, because the jury did not determine whether the heroin she transported was for sale rather than personal use. Further, defendant argues she cannot be retried because the amendment decriminalized her transportation of the heroin in this case. This argument must fail, because it presumes the heroin she transported was for personal use.\nDefendant also suggests remand is inappropriate because Maridakis did not opine the heroin was possessed for sale, and the evidence supports a theory of personal use and simple possession. Defendant is not correct. \u201cWhere, as here, evidence is not introduced at trial because the law at that time would have rendered it irrelevant, the remand to prove that element is proper and the reviewing court does not treat the issue as one of sufficiency of the evidence.\u201d (People v. Figueroa (1993) 20 Cal.App.4th 65, 72 [24 Cal.Rptr.2d 368].)\nThe People, citing People v. Wright, supra, 40 Cal.4th at pages 98-99, contend the transportation of heroin conviction need not be reversed, because the omission of the sale or personal use element was harmless beyond a reasonable doubt under the standard set forth in Chapman v. California (1967) 386 U.S. 18, 24 [17 L.Ed.2d 705, 87 S.Ct. 824]. To this end, the People argue the same evidence which supported defendant\u2019s possession of methamphetamine for sale conviction also supports the conclusion the heroin she transported was not for personal use.\nWe are not persuaded it is proper to assess the problem under the harmless error rubric. In Wright, the retroactive application of a newly enacted affirmative defense resulted in an instructional error which implicated the defendant\u2019s \u201cdue process right to present a defense . . . .\u201d (People v. Wright, supra, 40 Cal.4th at p. 98.) In this case, the retroactive application of the amendment impermissibly deprives defendant of her constitutional right to a jury trial on an element of the charged offense. (People v. Figueroa, supra, 20 Cal.App.4th at p. 71 [defendant entitled to have the jury decide every essential element of the crime charged, no matter how compelling the evidence may be].) But even if it is proper to assess the problem under the Chapman standard, under these circumstances we cannot say omission of the sale or personal use element was harmless beyond a reasonable doubt. Thus, the heroin transportation conviction must be reversed.\nFinally, the People contend, defendant does not dispute, and we conclude, remand and retrial on the transportation of heroin charge is not barred by the double jeopardy clause. (.People v. Figueroa, supra, 20 Cal.App.4th at p. 72, fn. 2.)\n2. Possession of Methamphetamine for Sale \u2014 Section 11378\nDefendant contends her possession of methamphetamine for sale conviction must be reversed because there is insufficient evidence to prove she personally harbored any intent to sell the methamphetamine. We reject this claim.\nOur role when reviewing the sufficiency of the evidence is to evaluate the whole record in the light most favorable to the judgment to determine whether it discloses substantial evidence \u2014 evidence that is reasonable, credible, and of solid value \u2014 from which a reasonable trier of fact could find the defendant guilty beyond a reasonable doubt. (Jackson v. Virginia (1979) 443 U.S. 307, 318-319 [61 L.Ed.2d 560, 99 S.Ct. 2781]; People v. Story (2009) 45 Cal.4th 1282, 1296 [91 Cal.Rptr.3d 709, 204 P.3d 306]; People v. Johnson (1980) 26 Cal.3d 557, 578 [162 Cal.Rptr. 431, 606 P.2d 738].) Moreover, we must accept any logical inferences the jury could have drawn from any circumstantial evidence, because \u201c \u2018it is the jury, not the appellate court that must be convinced of the defendant\u2019s guilt beyond a reasonable doubt.\u2019 \u201d (People v. Zamudio (2008) 43 Cal.4th 327, 357-358 [75 Cal.Rptr.3d 289, 181 P.3d 105].)\nDefendant admitted ownership and control over her purse, and large quantities of heroin and methamphetamine, a digital scale, and packaging materials were found in it. Consequently, there is ample circumstantial evidence from which the jury could reasonably infer she possessed the methamphetamine \u201cwith the intent of selling it and with knowledge of both its presence and illegal character. [Citation.]\u201d (People v. Meza (1995) 38 Cal.App.4th 1741, 1745-1746 [45 Cal.Rptr.2d 844].)\nLastly, defendant points to In re Christopher B. (1990) 219 Cal.App.3d 455, 466 [268 Cal.Rptr. 8], and argues possession for sale requires the defendant to possess the controlled substance with the specific intent to personally sell it. We disagree. \u201c[T]he defendant needs to either (1) possess the specific intent to sell the controlled substance personally, or (2) possess the specific intent that someone else will sell the controlled substance.\u201d (People v. Parra (1999) 70 Cal.App.4th 222, 227 [82 Cal.Rptr.2d 541]; see also People v. Consuegra (1994) 26 Cal.App.4th 1726, 1732, fn. 4 [32 Cal.Rptr.2d 288].)\nDISPOSITION\nThe transportation of heroin conviction is conditionally reversed. On remand, defendant is entitled to either admit the \u201ctransport for sale\u201d element of the current version of section 11352, or have a new jury trial on that charge. If she chooses the former option, her sentence shall remain the same and the conviction on that charge shall be reinstated as of that date. The judgment is affirmed in all other respects.\nRylaarsdam, Acting P. J., and Ikola, J., concurred.",
+        "type": "majority",
+        "author": "THOJMPSQN, J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Correen Ferrentino, under appointment by the Court of Appeal, for Defendant and Appellant.",
+      "Kamala D. Harris, Attorney General, Gerald A. Engler, Chief Assistant Attorney General, Julie L. Garland, Assistant Attorney General, Melissa Mandel, Alana Cohen Butler and Laura Baggett, Deputy Attorneys General, for Plaintiff and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. G050315.\nFourth Dist., Div. Three.\nJan. 22, 2016.]\nTHE PEOPLE, Plaintiff and Respondent, v. GLORIA RAMOS, Defendant and Appellant.\nCounsel\nCorreen Ferrentino, under appointment by the Court of Appeal, for Defendant and Appellant.\nKamala D. Harris, Attorney General, Gerald A. Engler, Chief Assistant Attorney General, Julie L. Garland, Assistant Attorney General, Melissa Mandel, Alana Cohen Butler and Laura Baggett, Deputy Attorneys General, for Plaintiff and Respondent."
+  },
+  "file_name": "0099-01",
+  "first_page_order": 111,
+  "last_page_order": 117
+}

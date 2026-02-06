@@ -1,0 +1,59 @@
+{
+  "id": 12414257,
+  "name": "Terry v. United States",
+  "name_abbreviation": "Terry v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10812",
+  "first_page": "863",
+  "last_page": "863",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 863"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.699,
+    "sha256": "736d2cdc62fc2ddd174caba07b1c3e29ce8028f2ac89b45ccd9c741a82086c52",
+    "simhash": "1:8582920bda859119",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Terry v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10812.\nTerry v. United States."
+  },
+  "file_name": "0863-13",
+  "first_page_order": 939,
+  "last_page_order": 939
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12419062,
+  "name": "Mobley v. United States",
+  "name_abbreviation": "Mobley v. United States",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 12-6168",
+  "first_page": "957",
+  "last_page": "957",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 957"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.714,
+    "sha256": "4210a7b74ce8b0a2cf916748d0bb7ecd3fcaf4bc6536b222281eac3b2b7d0538",
+    "simhash": "1:b58aea93ce9d9419",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mobley v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6168.\nMobley v. United States."
+  },
+  "file_name": "0957-07",
+  "first_page_order": 1033,
+  "last_page_order": 1033
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12433607,
+  "name": "Orr v. United States",
+  "name_abbreviation": "Orr v. United States",
+  "decision_date": "2013-03-18",
+  "docket_number": "No. 12-8678",
+  "first_page": "1241",
+  "last_page": "1241",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1241"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.598,
+    "sha256": "1e8cc0af981c3726e205a5aa8c3d59a0a0596a33bb75a4db7cb4fc605676e199",
+    "simhash": "1:20489a038ec1901a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Orr v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8678.\nOrr v. United States."
+  },
+  "file_name": "1241-13",
+  "first_page_order": 1317,
+  "last_page_order": 1317
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12409462,
+  "name": "Corbett v. United States",
+  "name_abbreviation": "Corbett v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-1413",
+  "first_page": "819",
+  "last_page": "819",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 819"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.701,
+    "sha256": "5b48f13f4be8b5f2a7ad3fd05e7deef44e9d412c6ef61928c6593ca7f0b11d08",
+    "simhash": "1:1e9a8b27e78f9c18",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Corbett v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1413.\nCorbett v. United States."
+  },
+  "file_name": "0819-12",
+  "first_page_order": 895,
+  "last_page_order": 895
+}

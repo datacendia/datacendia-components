@@ -1,0 +1,59 @@
+{
+  "id": 12421995,
+  "name": "McCormick v. Schmidt",
+  "name_abbreviation": "McCormick v. Schmidt",
+  "decision_date": "2012-11-05",
+  "docket_number": "No. 12-6239",
+  "first_page": "1000",
+  "last_page": "1000",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1000"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 71,
+    "ocr_confidence": 0.693,
+    "sha256": "0a9cb6c220b6a955d1a86610158b85863580ad2053c9e1910721eb5e5eb9b5d3",
+    "simhash": "1:a49e3ab7be0550d9",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McCormick v. Schmidt."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6239.\nMcCormick v. Schmidt."
+  },
+  "file_name": "1000-14",
+  "first_page_order": 1076,
+  "last_page_order": 1076
+}

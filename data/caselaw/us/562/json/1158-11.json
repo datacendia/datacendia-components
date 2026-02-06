@@ -1,0 +1,59 @@
+{
+  "id": 5938172,
+  "name": "Malloy v. United States",
+  "name_abbreviation": "Malloy v. United States",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7686",
+  "first_page": "1158",
+  "last_page": "1158",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1158"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.593,
+    "sha256": "2cf037490bba9279db90c09cd688c7beded17343df344db7e0fdc92bc0da968b",
+    "simhash": "1:173bce336baf9018",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Malloy v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7686.\nMalloy v. United States."
+  },
+  "file_name": "1158-11",
+  "first_page_order": 1180,
+  "last_page_order": 1180
+}

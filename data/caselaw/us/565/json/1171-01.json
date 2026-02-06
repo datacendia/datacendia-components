@@ -1,0 +1,59 @@
+{
+  "id": 12243967,
+  "name": "Ford v. United States",
+  "name_abbreviation": "Ford v. United States",
+  "decision_date": "2012-01-17",
+  "docket_number": "No. 11-7823",
+  "first_page": "1171",
+  "last_page": "1171",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1171"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.689,
+    "sha256": "0d4a17610288aaa60d79d8bd8122ad48a8e05f2665d17901f8f9f7867eae09b4",
+    "simhash": "1:940a879108e57139",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ford v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7823.\nFord v. United States."
+  },
+  "file_name": "1171-01",
+  "first_page_order": 1253,
+  "last_page_order": 1253
+}

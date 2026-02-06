@@ -1,0 +1,66 @@
+{
+  "id": 12700863,
+  "name": "In the Matter of DISBARMENT OF Karl W. CARTER, Jr.",
+  "name_abbreviation": "In re Carter",
+  "decision_date": "2014-01-21",
+  "docket_number": "No. D\u20132739.",
+  "first_page": "1162",
+  "last_page": "1162",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 1162"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 866"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 1021"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 20,
+    "char_count": 140,
+    "sha256": "af18bfe0b857bc12a9f5a5647ca58ba83b77535d7daa12277b8f30ee6d88c799",
+    "simhash": "1:7df77cc0decea1f7",
+    "word_count": 24
+  },
+  "last_updated": "2021-08-27T20:47:23.363448+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In the Matter of DISBARMENT OF Karl W. CARTER, Jr."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "In the Matter of DISBARMENT OF Karl W. CARTER, Jr.\nNo. D-2739.\nSupreme Court of the United States\nJan. 21, 2014.\nDisbarment order entered."
+  },
+  "file_name": "1162-01",
+  "first_page_order": 1162,
+  "last_page_order": 1162
+}

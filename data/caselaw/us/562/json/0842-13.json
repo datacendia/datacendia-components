@@ -1,0 +1,59 @@
+{
+  "id": 5958618,
+  "name": "Jones v. Shaw Group et al.",
+  "name_abbreviation": "Jones v. Shaw Group",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-9871",
+  "first_page": "842",
+  "last_page": "842",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 842"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 75,
+    "ocr_confidence": 0.505,
+    "sha256": "12c79a54ab67677d628bb87400ee7cd9efdce3756719043aab8290ad4beb19e1",
+    "simhash": "1:9af848b20b04d65a",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jones v. Shaw Group et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-9871.\nJones v. Shaw Group et al."
+  },
+  "file_name": "0842-13",
+  "first_page_order": 864,
+  "last_page_order": 864
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12249302,
+  "name": "Doe v. Keathley",
+  "name_abbreviation": "Doe v. Keathley",
+  "decision_date": "2012-02-27",
+  "docket_number": "No. 11-848",
+  "first_page": "1235",
+  "last_page": "1235",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1235"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.679,
+    "sha256": "f061ca25cf5c465b4949e785a885ea6eeb50cdebd07d790b0d27449404a784b0",
+    "simhash": "1:6643c34be6c0ad48",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Doe v. Keathley."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Mo., Western Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-848.\nDoe v. Keathley."
+  },
+  "file_name": "1235-10",
+  "first_page_order": 1317,
+  "last_page_order": 1317
+}

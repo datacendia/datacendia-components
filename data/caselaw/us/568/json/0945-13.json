@@ -1,0 +1,59 @@
+{
+  "id": 12418124,
+  "name": "Lozano v. Curry, Warden",
+  "name_abbreviation": "Lozano v. Curry",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 12-5526",
+  "first_page": "945",
+  "last_page": "945",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 945"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.656,
+    "sha256": "e46995a8dc28b56d047458f9c9aa5f5f652bb816cfb7443e57cbd56f78c53320",
+    "simhash": "1:1cb36eb97dbea0d3",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lozano v. Curry, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5526.\nLozano v. Curry, Warden."
+  },
+  "file_name": "0945-13",
+  "first_page_order": 1021,
+  "last_page_order": 1021
+}

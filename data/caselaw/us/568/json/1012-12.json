@@ -1,0 +1,59 @@
+{
+  "id": 12422718,
+  "name": "Hurd v. Texas",
+  "name_abbreviation": "Hurd v. Texas",
+  "decision_date": "2012-11-13",
+  "docket_number": "No. 12-6109",
+  "first_page": "1012",
+  "last_page": "1012",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1012"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 68,
+    "ocr_confidence": 0.658,
+    "sha256": "2e543d28800d1392d9b42a77a798ef3071ff9414f689fe1eddc9fd0798148a5a",
+    "simhash": "1:0877b1e05edff1ee",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hurd v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Tex. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6109.\nHurd v. Texas."
+  },
+  "file_name": "1012-12",
+  "first_page_order": 1088,
+  "last_page_order": 1088
+}

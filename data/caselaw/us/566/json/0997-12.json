@@ -1,0 +1,59 @@
+{
+  "id": 12217796,
+  "name": "Knapp v. Knapp",
+  "name_abbreviation": "Knapp v. Knapp",
+  "decision_date": "2012-05-14",
+  "docket_number": "No. 11-9297",
+  "first_page": "997",
+  "last_page": "997",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 997"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 80,
+    "ocr_confidence": 0.595,
+    "sha256": "73eda4a42eeecabbccc67570408ecb0fa94898e363bf5d01671d2e34b68023ec",
+    "simhash": "1:a2e798b5c027128f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Knapp v. Knapp."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. Gwinnett County, Ga. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9297.\nKnapp v. Knapp."
+  },
+  "file_name": "0997-12",
+  "first_page_order": 873,
+  "last_page_order": 873
+}

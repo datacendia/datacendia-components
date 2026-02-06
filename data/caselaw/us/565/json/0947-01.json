@@ -1,0 +1,59 @@
+{
+  "id": 12227379,
+  "name": "Smith v. Ballard, Warden",
+  "name_abbreviation": "Smith v. Ballard",
+  "decision_date": "2011-10-11",
+  "docket_number": "No. 11-5594",
+  "first_page": "947",
+  "last_page": "947",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 947"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.7,
+    "sha256": "149bc3550b66a00d935f036c01223ae79c76e1f814cedf82e85d01753815f766",
+    "simhash": "1:b283e378fc9b3167",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Smith v. Ballard, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5594.\nSmith v. Ballard, Warden."
+  },
+  "file_name": "0947-01",
+  "first_page_order": 1029,
+  "last_page_order": 1029
+}

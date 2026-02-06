@@ -1,0 +1,59 @@
+{
+  "id": 12250288,
+  "name": "Krantz v. Hartley, Warden",
+  "name_abbreviation": "Krantz v. Hartley",
+  "decision_date": "2012-03-05",
+  "docket_number": "No. 11-8094",
+  "first_page": "1247",
+  "last_page": "1247",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1247"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.671,
+    "sha256": "7ab30350a6c2d80c28d537d9e020f7c84911bfea9dcebc801e49a5a7cc3656fc",
+    "simhash": "1:509706b93dbe0044",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Krantz v. Hartley, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8094.\nKrantz v. Hartley, Warden."
+  },
+  "file_name": "1247-09",
+  "first_page_order": 1329,
+  "last_page_order": 1329
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12431060,
+  "name": "Cervantes v. California",
+  "name_abbreviation": "Cervantes v. California",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-7746",
+  "first_page": "1172",
+  "last_page": "1172",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1172"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 87,
+    "ocr_confidence": 0.615,
+    "sha256": "907c01d894418ad409872e1b6b1d3bbbee5e7a36d8884ed9e529a4f4a5945a70",
+    "simhash": "1:648223c011435803",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cervantes v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 1st App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7746.\nCervantes v. California."
+  },
+  "file_name": "1172-08",
+  "first_page_order": 1248,
+  "last_page_order": 1248
+}

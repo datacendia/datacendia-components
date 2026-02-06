@@ -1,0 +1,59 @@
+{
+  "id": 12429885,
+  "name": "Gleason v. Pearson, Warden",
+  "name_abbreviation": "Gleason v. Pearson",
+  "decision_date": "2013-01-16",
+  "docket_number": "No. 12A706",
+  "first_page": "1140",
+  "last_page": "1140",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1140"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 27,
+    "char_count": 187,
+    "ocr_confidence": 0.63,
+    "sha256": "d05b7fa6cd168d7045a6235091bd3e7a9ab3f0cbd368d8f023066bb4cf107626",
+    "simhash": "1:649fdab1960713e5",
+    "word_count": 31
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gleason v. Pearson, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "Application for stay of execution of sentence of death, presented to The Chief Justice, and by him referred to the Court, denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "January 16, 2013\nNo. 12A706.\nGleason v. Pearson, Warden."
+  },
+  "file_name": "1140-02",
+  "first_page_order": 1216,
+  "last_page_order": 1216
+}

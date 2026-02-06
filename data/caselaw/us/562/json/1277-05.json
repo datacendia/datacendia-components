@@ -1,0 +1,59 @@
+{
+  "id": 5938785,
+  "name": "Graham v. Wilson, Attorney General of South Carolina, et al.",
+  "name_abbreviation": "Graham v. Wilson",
+  "decision_date": "2011-03-07",
+  "docket_number": "No. 10-8545",
+  "first_page": "1277",
+  "last_page": "1277",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1277"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 18,
+    "char_count": 108,
+    "ocr_confidence": 0.593,
+    "sha256": "c6ecee20f1989ad618c535cf96c01bbb60b52f9c638ce8f01e006af8ea5f9287",
+    "simhash": "1:9f63a0f9c14ff057",
+    "word_count": 18
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Graham v. Wilson, Attorney General of South Carolina, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8545.\nGraham v. Wilson, Attorney General of South Carolina, et al."
+  },
+  "file_name": "1277-05",
+  "first_page_order": 1299,
+  "last_page_order": 1299
+}

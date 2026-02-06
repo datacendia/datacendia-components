@@ -1,0 +1,59 @@
+{
+  "id": 5926887,
+  "name": "Clemens v. McNamee",
+  "name_abbreviation": "Clemens v. McNamee",
+  "decision_date": "2011-06-28",
+  "docket_number": "No. 10-966",
+  "first_page": "1052",
+  "last_page": "1052",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1052"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 67,
+    "ocr_confidence": 0.57,
+    "sha256": "b59b6bf357bd44fbde70af403786768a932edf7cef53a4bcdb8164c9fcdbd8e7",
+    "simhash": "1:502d55f21d30f6ab",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Clemens v. McNamee."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-966.\nClemens v. McNamee."
+  },
+  "file_name": "1052-07",
+  "first_page_order": 1046,
+  "last_page_order": 1046
+}

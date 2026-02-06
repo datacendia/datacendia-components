@@ -1,0 +1,59 @@
+{
+  "id": 5960911,
+  "name": "Britton v. Commissioner of Internal Revenue",
+  "name_abbreviation": "Britton v. Commissioner",
+  "decision_date": "2011-06-06",
+  "docket_number": "No. 10-1345",
+  "first_page": "1034",
+  "last_page": "1034",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1034"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 92,
+    "ocr_confidence": 0.656,
+    "sha256": "fe06be4085e6b71e70ff51ee3cbba195cab7074db9538b21c2578b8c20c4a01b",
+    "simhash": "1:e4136668274fd23e",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Britton v. Commissioner of Internal Revenue."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1345.\nBritton v. Commissioner of Internal Revenue."
+  },
+  "file_name": "1034-06",
+  "first_page_order": 1060,
+  "last_page_order": 1060
+}

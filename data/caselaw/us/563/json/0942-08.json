@@ -1,0 +1,59 @@
+{
+  "id": 5920355,
+  "name": "Kolosha v. Oklahoma",
+  "name_abbreviation": "Kolosha v. Oklahoma",
+  "decision_date": "2011-04-18",
+  "docket_number": "No. 10-8944",
+  "first_page": "942",
+  "last_page": "942",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 942"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 74,
+    "ocr_confidence": 0.59,
+    "sha256": "657cb3bc8f87f78cacda18ee0d72d98d381b99fb210d5d4b2ad9513e43d29cc8",
+    "simhash": "1:0024a100c722ee49",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Kolosha v. Oklahoma."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Okla. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8944.\nKolosha v. Oklahoma."
+  },
+  "file_name": "0942-08",
+  "first_page_order": 968,
+  "last_page_order": 968
+}

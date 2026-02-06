@@ -1,0 +1,59 @@
+{
+  "id": 12415208,
+  "name": "Vasquez-Olea v. United States",
+  "name_abbreviation": "Vasquez-Olea v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5047",
+  "first_page": "892",
+  "last_page": "892",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 892"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 78,
+    "ocr_confidence": 0.695,
+    "sha256": "8ee86b5181e66959c34c3595552c97d692ee27dd6b343a14c2ef6b638ca6f0a4",
+    "simhash": "1:00abe2830daf8028",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Vasquez-Olea v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5047.\nVasquez-Olea v. United States."
+  },
+  "file_name": "0892-03",
+  "first_page_order": 968,
+  "last_page_order": 968
+}

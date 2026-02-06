@@ -1,0 +1,59 @@
+{
+  "id": 5975133,
+  "name": "Morace v. United States",
+  "name_abbreviation": "Morace v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5483",
+  "first_page": "924",
+  "last_page": "924",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 924"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.599,
+    "sha256": "450cff247e5a4e551625123b64000b2cf87d1fdad9dd1a59bdda5d077b8c0021",
+    "simhash": "1:b78bc219ce87b035",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Morace v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5483.\nMorace v. United States."
+  },
+  "file_name": "0924-08",
+  "first_page_order": 946,
+  "last_page_order": 946
+}

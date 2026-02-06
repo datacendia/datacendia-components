@@ -1,0 +1,59 @@
+{
+  "id": 12227720,
+  "name": "Knight v. Pennsylvania",
+  "name_abbreviation": "Knight v. Pennsylvania",
+  "decision_date": "2011-10-11",
+  "docket_number": "No. 11-5748",
+  "first_page": "950",
+  "last_page": "950",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 950"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 72,
+    "ocr_confidence": 0.709,
+    "sha256": "2ca1170d11397cee2a3d63c02fc857be061248cb82d45626297eb7d8427bbfad",
+    "simhash": "1:866ca1d2bd4db514",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Knight v. Pennsylvania."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. Pa. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5748.\nKnight v. Pennsylvania."
+  },
+  "file_name": "0950-05",
+  "first_page_order": 1032,
+  "last_page_order": 1032
+}

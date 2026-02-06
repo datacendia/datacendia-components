@@ -1,0 +1,59 @@
+{
+  "id": 5985719,
+  "name": "Belk v. United States",
+  "name_abbreviation": "Belk v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5152",
+  "first_page": "906",
+  "last_page": "906",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 906"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.651,
+    "sha256": "7c5809eb7996320e40759e4aaba862d2c1dbac43cdf2a367e60eae43b482c1bb",
+    "simhash": "1:358b8a83ce35b019",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Belk v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5152.\nBelk v. United States."
+  },
+  "file_name": "0906-11",
+  "first_page_order": 928,
+  "last_page_order": 928
+}

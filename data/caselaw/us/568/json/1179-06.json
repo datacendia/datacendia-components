@@ -1,0 +1,59 @@
+{
+  "id": 12431369,
+  "name": "Page v. Warren, Warden",
+  "name_abbreviation": "Page v. Warren",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-7985",
+  "first_page": "1179",
+  "last_page": "1179",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1179"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.551,
+    "sha256": "50cec83b5149d4c47f42fea0ede91b56d77dfc4970e35cc1f244d2f096df0ec4",
+    "simhash": "1:b731b6875e5f1046",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Page v. Warren, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7985.\nPage v. Warren, Warden."
+  },
+  "file_name": "1179-06",
+  "first_page_order": 1255,
+  "last_page_order": 1255
+}

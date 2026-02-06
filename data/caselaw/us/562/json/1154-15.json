@@ -1,0 +1,59 @@
+{
+  "id": 6021453,
+  "name": "Hill v. Carlton, Warden",
+  "name_abbreviation": "Hill v. Carlton",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7546",
+  "first_page": "1154",
+  "last_page": "1154",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1154"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.651,
+    "sha256": "dbcb1e332a9e090bc77218078cf27288200d5d26e656fae934ad153b997ca75a",
+    "simhash": "1:961a3289fa3d3070",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hill v. Carlton, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7546.\nHill v. Carlton, Warden."
+  },
+  "file_name": "1154-15",
+  "first_page_order": 1176,
+  "last_page_order": 1176
+}

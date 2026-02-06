@@ -1,0 +1,59 @@
+{
+  "id": 4337174,
+  "name": "Ramos v. United States",
+  "name_abbreviation": "Ramos v. United States",
+  "decision_date": "2011-06-20",
+  "docket_number": "No. 10-10590",
+  "first_page": "1028",
+  "last_page": "1028",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1028"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.562,
+    "sha256": "3ec36c86b19d11a9b4237709bfa85f2b2b92e5e09a62058f4347ce3a0b87f45f",
+    "simhash": "1:01aa98ca4b95904c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ramos v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10590.\nRamos v. United States."
+  },
+  "file_name": "1028-12",
+  "first_page_order": 1022,
+  "last_page_order": 1022
+}

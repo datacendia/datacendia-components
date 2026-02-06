@@ -1,0 +1,59 @@
+{
+  "id": 12426279,
+  "name": "Brasure v. Chapell, Warden",
+  "name_abbreviation": "Brasure v. Chapell",
+  "decision_date": "2012-12-03",
+  "docket_number": "No. 12-5535",
+  "first_page": "1049",
+  "last_page": "1049",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1049"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.6,
+    "sha256": "3a8270af510664e865ff527a3c9cc975aa8a9b7873f17e69edd9162e3f9dfe5c",
+    "simhash": "1:129320233fac1067",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Brasure v. Chapell, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5535.\nBrasure v. Chapell, Warden."
+  },
+  "file_name": "1049-02",
+  "first_page_order": 1125,
+  "last_page_order": 1125
+}

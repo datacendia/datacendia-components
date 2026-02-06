@@ -1,0 +1,76 @@
+{
+  "id": 12221263,
+  "name": "Augustine v. United States; and Batiste et al. v. United States",
+  "name_abbreviation": "Augustine v. United States",
+  "decision_date": "2012-05-21",
+  "docket_number": "No. 11-9883; No. 11-9913",
+  "first_page": "1015",
+  "last_page": "1015",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 1015"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "661 F. 3d 1105",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3847534
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/661/1105-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 23,
+    "char_count": 158,
+    "ocr_confidence": 0.59,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.24764841502342413
+    },
+    "sha256": "858afacbfd0da45594bcb34669614c15a9908580fe1ca00ed0fd9aefa685b78a",
+    "simhash": "1:871faf1b0dbd900c",
+    "word_count": 27
+  },
+  "last_updated": "2024-02-27T23:45:15.365324+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Augustine v. United States; and Batiste et al. v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. llth Cir. Certiorari denied. Reported below: 661 F. 3d 1105.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9883.\nNo. 11-9913.\nAugustine v. United States; and Batiste et al. v. United States."
+  },
+  "file_name": "1015-12",
+  "first_page_order": 891,
+  "last_page_order": 891
+}

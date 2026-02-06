@@ -1,0 +1,59 @@
+{
+  "id": 12244979,
+  "name": "Hatcher v. United States",
+  "name_abbreviation": "Hatcher v. United States",
+  "decision_date": "2012-01-23",
+  "docket_number": "No. 11-7874",
+  "first_page": "1183",
+  "last_page": "1183",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1183"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.682,
+    "sha256": "f5e602e2a27c47b01bf8ca80f4defc1b65b9c8e25553bb04a6230105d4e13932",
+    "simhash": "1:e6abb20fae1f184c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hatcher v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7874.\nHatcher v. United States."
+  },
+  "file_name": "1183-02",
+  "first_page_order": 1265,
+  "last_page_order": 1265
+}

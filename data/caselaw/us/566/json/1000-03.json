@@ -1,0 +1,59 @@
+{
+  "id": 12218314,
+  "name": "Doyle v. Law, Warden, et al.",
+  "name_abbreviation": "Doyle v. Law",
+  "decision_date": "2012-05-14",
+  "docket_number": "No. 11-9645",
+  "first_page": "1000",
+  "last_page": "1000",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 1000"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 76,
+    "ocr_confidence": 0.618,
+    "sha256": "c9009fe721548799109872efa8bcda472f30318a34887607b983ec6cc15f277d",
+    "simhash": "1:105020a979afc052",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Doyle v. Law, Warden, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9645.\nDoyle v. Law, Warden, et al."
+  },
+  "file_name": "1000-03",
+  "first_page_order": 876,
+  "last_page_order": 876
+}

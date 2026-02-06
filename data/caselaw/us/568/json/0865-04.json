@@ -1,0 +1,59 @@
+{
+  "id": 12414337,
+  "name": "Weber v. Delaware",
+  "name_abbreviation": "Weber v. Delaware",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10842",
+  "first_page": "865",
+  "last_page": "865",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 865"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 67,
+    "ocr_confidence": 0.595,
+    "sha256": "bfa0f008cc3c9da46e2c6cef44961af99951d3bce4440ae87955638e7fb4da6a",
+    "simhash": "1:d486841704ffe4a8",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Weber v. Delaware."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Del. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10842.\nWeber v. Delaware."
+  },
+  "file_name": "0865-04",
+  "first_page_order": 941,
+  "last_page_order": 941
+}

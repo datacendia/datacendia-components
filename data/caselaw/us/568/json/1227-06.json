@@ -1,0 +1,59 @@
+{
+  "id": 12433004,
+  "name": "In re Robinson",
+  "name_abbreviation": "In re Robinson",
+  "decision_date": "2013-03-18",
+  "docket_number": "No. 12-8905",
+  "first_page": "1227",
+  "last_page": "1227",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1227"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 26,
+    "char_count": 175,
+    "ocr_confidence": 0.589,
+    "sha256": "aead253c0d085ab5a7788572cbbdf5c561b3d4e3a1da5bba6484e4bf5faf1298",
+    "simhash": "1:68894d4d47f1871a",
+    "word_count": 29
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Robinson."
+    ],
+    "opinions": [
+      {
+        "text": "Motion of petitioner for leave to proceed in forma pauperis denied, and petition for writ of habeas corpus dismissed. See this Court\u2019s Rule 39.8.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8905.\nIn re Robinson."
+  },
+  "file_name": "1227-06",
+  "first_page_order": 1303,
+  "last_page_order": 1303
+}

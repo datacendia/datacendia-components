@@ -1,0 +1,59 @@
+{
+  "id": 6033215,
+  "name": "Curtner v. United States",
+  "name_abbreviation": "Curtner v. United States",
+  "decision_date": "2011-02-28",
+  "docket_number": "No. 10-8643",
+  "first_page": "1261",
+  "last_page": "1261",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1261"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.61,
+    "sha256": "5070cdf82aab81a462fb34d96a7e6c6b6e852a1a10d5ea233c81fbafab398cd5",
+    "simhash": "1:a62eff094b955e30",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Curtner v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8643.\nCurtner v. United States."
+  },
+  "file_name": "1261-03",
+  "first_page_order": 1283,
+  "last_page_order": 1283
+}

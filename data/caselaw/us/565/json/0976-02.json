@@ -1,0 +1,59 @@
+{
+  "id": 12230107,
+  "name": "Temperly v. Indiana",
+  "name_abbreviation": "Temperly v. Indiana",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. 10-1445",
+  "first_page": "976",
+  "last_page": "976",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 976"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 68,
+    "ocr_confidence": 0.671,
+    "sha256": "887a02ee01e674dc7be6b804bb7da703e08d95ea4402d3bfedb27d697f7d93ab",
+    "simhash": "1:8c4b003502c3669e",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Temperly v. Indiana."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Ind. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1445.\nTemperly v. Indiana."
+  },
+  "file_name": "0976-02",
+  "first_page_order": 1058,
+  "last_page_order": 1058
+}

@@ -1,0 +1,754 @@
+{
+  "id": 4138441,
+  "name": "THE PEOPLE, Plaintiff and Respondent, v. JARROD JOSEPH MILLER, Defendant and Appellant",
+  "name_abbreviation": "People v. Miller",
+  "decision_date": "2014-11-26",
+  "docket_number": "No. A135650",
+  "first_page": "1301",
+  "last_page": "1314",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "231 Cal. App. 4th 1301"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "77 Cal.Rptr.3d 14",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "162 Cal.App.4th 1311",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6048873
+      ],
+      "pin_cites": [
+        {
+          "page": "1326"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/162/1311-01"
+      ]
+    },
+    {
+      "cite": "519 P.2d 588",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "112 Cal.Rptr. 540",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "10 Cal.3d 874",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2299833
+      ],
+      "pin_cites": [
+        {
+          "page": "894"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/10/0874-01"
+      ]
+    },
+    {
+      "cite": "38 Cal.Rptr.2d 113",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "32 Cal.App.4th 304",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        2405429
+      ],
+      "pin_cites": [
+        {
+          "page": "308"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/32/0304-01"
+      ]
+    },
+    {
+      "cite": "51 Cal.Rptr.2d 185",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 Cal.App.4th 38",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4771557
+      ],
+      "pin_cites": [
+        {
+          "page": "53"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/44/0038-01"
+      ]
+    },
+    {
+      "cite": "39 P.3d 432",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "116 Cal.Rptr.2d 401",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "27 Cal.4th 287",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1103404
+      ],
+      "pin_cites": [
+        {
+          "page": "338-339"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/27/0287-01"
+      ]
+    },
+    {
+      "cite": "143 Cal.Rptr.3d 823",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "207 Cal.App.4th 850",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6054297
+      ],
+      "pin_cites": [
+        {
+          "page": "857"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/207/0850-01"
+      ]
+    },
+    {
+      "cite": "89 P.3d 353",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2012,
+      "opinion_index": 0
+    },
+    {
+      "cite": "13 Cal.Rptr.3d 34",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2012,
+      "opinion_index": 0
+    },
+    {
+      "cite": "32 Cal.4th 1153",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        801086
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "1172"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/32/1153-01"
+      ]
+    },
+    {
+      "cite": "541 U.S. 36",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5873383
+      ],
+      "weight": 3,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "61"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/541/0036-01"
+      ]
+    },
+    {
+      "cite": "30 Cal.Rptr.3d 582",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "130 Cal.App.4th 1202",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        2884166
+      ],
+      "pin_cites": [
+        {
+          "page": "1209-1210"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/130/1202-01"
+      ]
+    },
+    {
+      "cite": "162 Cal.Rptr.3d 722",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "220 Cal.App.4th 16",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3801797
+      ],
+      "pin_cites": [
+        {
+          "page": "31-32"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/220/0016-01"
+      ]
+    },
+    {
+      "cite": "286 P.3d 442",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "147 Cal.Rptr.3d 527",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "55 Cal.4th 608",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3932008
+      ],
+      "pin_cites": [
+        {
+          "page": "627"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/55/0608-01"
+      ]
+    },
+    {
+      "cite": "183 L.Ed.2d 89",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12407017
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "2256-2257"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/567/0050-01"
+      ]
+    },
+    {
+      "cite": "94 Cal.Rptr.3d 478",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "174 Cal.App.4th 186",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3971819
+      ],
+      "pin_cites": [
+        {
+          "page": "199"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/174/0186-01"
+      ]
+    },
+    {
+      "cite": "183 P.3d 1250",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "77 Cal.Rptr.3d 287",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 Cal.4th 1096",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3884281
+      ],
+      "pin_cites": [
+        {
+          "page": "1106-1107"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/43/1096-01"
+      ]
+    },
+    {
+      "cite": "935 P.2d 708",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 2008,
+      "opinion_index": 0
+    },
+    {
+      "cite": "63 Cal.Rptr.2d 1",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 2008,
+      "opinion_index": 0
+    },
+    {
+      "cite": "15 Cal.4th 312",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1005964
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "403"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/15/0312-01"
+      ]
+    },
+    {
+      "cite": "3 Cal.Rptr.2d 833",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "2 Cal.App.4th 1516",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        2304413
+      ],
+      "pin_cites": [
+        {
+          "page": "1524"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/2/1516-01"
+      ]
+    },
+    {
+      "cite": "817 P.2d 893",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1992,
+      "opinion_index": 0
+    },
+    {
+      "cite": "286 Cal.Rptr. 628",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1992,
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 Cal.3d 551",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1946374
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "582"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/54/0551-01"
+      ]
+    },
+    {
+      "cite": "253 P.3d 185",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1991,
+      "opinion_index": 0
+    },
+    {
+      "cite": "126 Cal.Rptr.3d 1",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1991,
+      "opinion_index": 0
+    },
+    {
+      "cite": "51 Cal.4th 894",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3914585
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "923"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/51/0894-01"
+      ]
+    },
+    {
+      "cite": "151 P.3d 292",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 Cal.Rptr.3d 453",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "40 Cal.4th 582",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3159063
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "608"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/40/0582-01"
+      ]
+    },
+    {
+      "cite": "281 P.3d 1",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "144 Cal.Rptr.3d 84",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 Cal.4th 758",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        5720951
+      ],
+      "pin_cites": [
+        {
+          "page": "824, fn. 32"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/54/0758-01"
+      ]
+    },
+    {
+      "cite": "695 P.2d 189",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "211 Cal.Rptr. 102",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 Cal.3d 69",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1977101
+      ],
+      "pin_cites": [
+        {
+          "page": "92"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/38/0069-01"
+      ]
+    },
+    {
+      "cite": "855 P.2d 1277",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 Cal.Rptr.2d 705",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "5 Cal.4th 877",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1998586
+      ],
+      "pin_cites": [
+        {
+          "page": "919"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/5/0877-01"
+      ]
+    },
+    {
+      "cite": "56 Cal.Rptr.3d 6",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "148 Cal.App.4th 731",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        5571180
+      ],
+      "pin_cites": [
+        {
+          "page": "746"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/148/0731-01"
+      ]
+    },
+    {
+      "cite": "26 P.3d 357",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "109 Cal.Rptr.2d 31",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "26 Cal.4th 81",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        456839
+      ],
+      "pin_cites": [
+        {
+          "page": "137"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/26/0081-01"
+      ]
+    },
+    {
+      "cite": "927 P.2d 713",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "59 Cal.Rptr.2d 356",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "14 Cal.4th 605",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        341437
+      ],
+      "pin_cites": [
+        {
+          "page": "618"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/14/0605-01"
+      ]
+    },
+    {
+      "cite": "120 Cal.Rptr.3d 251",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "191 Cal.App.4th 1104",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4228412
+      ],
+      "pin_cites": [
+        {
+          "page": "1122"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/191/1104-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1296,
+    "char_count": 28422,
+    "ocr_confidence": 0.904,
+    "pagerank": {
+      "raw": 6.414793680993681e-08,
+      "percentile": 0.3966128913307301
+    },
+    "sha256": "6e1368c00559a0f50f6a1ad9c0603a7f464710bf431cd7c61c82b480b4376a07",
+    "simhash": "1:09afae2c7e9c4f23",
+    "word_count": 4512
+  },
+  "last_updated": "2024-02-27T21:00:33.800425+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE, Plaintiff and Respondent, v. JARROD JOSEPH MILLER, Defendant and Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nSIMONS, Acting P. J.\nDefendant and appellant Jarrod Joseph Miller (defendant) was convicted of first degree murder and residential burglary with firearm enhancements. Defendant contends that the trial court abused its discretion in precluding the defense expert psychologist from disclosing statements by defendant that appear in the report of another psychologist, which the expert relied upon in reaching his opinion that defendant has paranoid schizophrenia. In the published portion of this decision, we reject this argument. In the unpublished portion of this decision, we reject defendant\u2019s contentions the trial court erred in its instructions regarding imperfect self-defense and in permitting a member of the jail\u2019s mental health staff to testify as an expert at trial. We affirm the judgment below.\nPROCEDURAL BACKGROUND\nIn November 2011, the Sonoma County District Attorney filed an information charging defendant with first degree murder (Pen. Code, \u00a7 187, subd. (a); count one) and residential burglary (Pen. Code, \u00a7 459; count two). The information alleged in connection with count one that defendant intentionally discharged a firearm causing death (Pen. Code, \u00a7 12022.53, subd. (d)) and in count two that he personally used a firearm (Pen. Code, \u00a7 12022.5, subd. (a)).\nIn February 2012, a jury convicted defendant of both counts as charged and found the firearm use allegations true. In April, the trial court sentenced defendant to a prison term of 25 years to life on count one and a consecutive term of 25 years to life for the firearm use enhancement; the court stayed the sentence on count two.\nFACTUAL BACKGROUND\nThe Prosecution Evidence\nIn or around the year 2009, defendant\u2019s sister, Amanda Miller, and her boyfriend Tim Neuer moved from a rented house in Cloverdale to a residence in Healdsburg. Amanda and Neuer continued to rent the Cloverdale residence, where Amanda grew marijuana; Amanda testified it was for medical marijuana clubs. Neuer grew marijuana at the Healdsburg residence.\nDefendant was living in Las Vegas; sometime in 2010 he told Amanda he was moving to Sonoma County and he asked whether he could stay with her for a couple of weeks. Defendant lived with Amanda and Neuer in Healdsburg for a few months. Eventually, Neuer became frustrated by defendant because defendant would frequently walk around at 3:00 or 4:00 in the morning and wake up Neuer. Neuer also felt defendant was not making enough of an effort to find another place to live. Amanda asked defendant to move out, but she allowed him to move to the Cloverdale residence because she did not want him to be homeless.\nOn the evening of March 8, 2011, Amanda and Neuer went to Cloverdale and visited with the owners of the Cloverdale house. Subsequently, they went to the house where defendant was staying. Amanda went to check on her marijuana plants, and Neuer talked with defendant. Neuer asked defendant in an agitated voice why defendant was still living there, called him a \u201cmooch,\u201d and made other similar remarks. Defendant criticized Neuer about an incident during which Neuer called Amanda a \u201cbitch.\u201d Amanda and Neuer then returned to the Healdsburg house, arriving about 10:00 p.m.; defendant stayed in Cloverdale.\nOnce back at the Healdsburg house, Neuer spent time with a friend, Ross Parent. Parent was cutting Neuer\u2019s hair in a bathroom and Amanda was on a couch watching television when defendant drove up to the house. He walked in and said he wanted to speak to Neuer; he sat next to Amanda on the couch when she explained Neuer was getting his hair cut. Neuer called out from the bathroom and said defendant should say whatever he wanted to say. Defendant calmly said he would wait until Neuer was done getting his hair cut.\nAccording to Amanda\u2019s trial testimony, Neuer emerged from the bathroom after a few minutes and defendant asked Neuer to have a seat. Neuer, who had nothing in his hands, refused and told defendant to get out of the house. Defendant then stood up and shot Neuer with a handgun. Neuer was over five feet away at the time. Amanda grabbed defendant but could not stop him from shooting a second and third time. Then defendant told Amanda, \u201cIt\u2019s going to be okay now, Mandy,\u201d and calmly walked out of the house. Deputy sheriffs responded to the scene and a paramedic determined Neuer was dead.\nAmanda testified Neuer did not own any firearms. Neuer was tall and skinny; defendant was an inch or two shorter, but \u201c[a] lot larger,\u201d due to going to the gym.\nShortly before 11:30 p.m. on the evening of the shooting, a deputy sheriff detained defendant after hearing a dispatch describing defendant\u2019s car. When asked, defendant indicated where his gun could be found, and a handgun was found on the side of the road in the area pointed out by defendant. Deputies located a backpack in defendant\u2019s car that contained firearm accessories and a plastic bag from a store in Nevada that contained a box of ammunition. Also in the bag was a receipt from the Nevada store dated March 5, 2011, for the purchase of a gun matching defendant\u2019s, as well as ammunition. The Nevada store was about 200 miles away. A receipt in defendant\u2019s car showed he rented a car in San Francisco on March 5, 2011.\nThe Defense Evidence\nThe focus of the defense evidence was on defendant\u2019s mental health. His mother testified that defendant\u2019s demeanor changed after, at the age of 17, a car he was driving was involved in an accident in which two of his friends were seriously injured. Defendant was prescribed psychiatric medication, but he refused to take it and his mental health did not improve. When defendant was 18 his uncle committed suicide, and defendant became completely withdrawn for four months, refusing to speak to anyone.\nDefendant subsequently joined the Marines, but he went AWOL. Later, defendant moved to Las Vegas, where he became homeless. Defendant frequently sought money from various family members.\nDr. Thomas Cushing, an expert in forensic psychology, interviewed defendant for about seven hours, which included the administration of the Minnesota Multiphasic Personality Inventory-2 (MMPI-2) assessment. Dr. Cushing also reviewed other doctors\u2019 reports, an interview of defendant by law enforcement, and interviews of Amanda. Dr. Cushing testified defendant\u2019s MMPI-2 scores were consistent with a diagnosis of paranoid schizophrenia, and paranoia was \u201cthe most persistent factor or condition of his mental illness.\u201d A paranoid individual might have difficulty perceiving the degree of a threat and would deem a \u201cperceived threat\u201d to be a \u201creal threat.\u201d Stress or danger would heighten defendant\u2019s paranoia and could cause him to react impulsively to a perceived threat. When a person acts impulsively, there is \u201cnot a lot of thinking or cognition or weighing or deliberating.\u201d Defendant\u2019s results also showed \u201cbizarre thinking,\u201d which \u201cis consistent with an individual who is experiencing hallucinations and delusions. In common language, they experience crazy thinking and crazy beliefs.\u201d The data also indicated that defendant experienced both auditory and visual hallucinations, as well as delusionary thinking.\nDr. Cushing testified defendant \u201creported the auditory hallucinations, that Tim [Neuer] knew people who had guns and could take care of the problem, which [defendant] believed was himself.\u201d Defendant also said he felt unsafe living at the Healdsburg and Cloverdale houses because of the marijuana production occurring there and traffic in the Healdsburg house from various individuals coming and going. Defendant\u2019s fears were consistent with his paranoia and the data obtained from the MMPI-2 assessment. Notwithstanding defendant\u2019s mental illness, Dr. Cushing agreed defendant was capable of planning and deliberation, and he agreed various circumstances surrounding the shooting were indicative of planning and deliberation.\nA narcotics detective testified there was a \u201cvery large\u201d and \u201ccommercial\u201d marijuana grow operation at the Healdsburg property, and violence is often associated with marijuana production.\nRebuttal Evidence\nDr. Dale McNeil, a psychologist specializing in forensic psychology and clinical neuropsychology, reviewed the results of defendant\u2019s MMPI-2 assessment. He testified defendant\u2019s score on the \u201cvalidity scales\u201d indicated defendant was exaggerating symptoms of mental illness. Dr. McNeil opined the MMPI-2 assessment was invalid and, therefore, the results could not be interpreted. He stated, \u201cYou couldn\u2019t interpret the test results with confidence as being an accurate reflection of the respondent\u2019s personality based on the validity scales.\u201d\nStephen Leupold, a licensed therapist on the mental health staff at the jail where defendant was incarcerated, interviewed defendant when he entered the jail on March 9, 2011. Leupold did not see \u201cany signs or symptoms of psychosis during the interview.\u201d Leupold explained, \u201cpeople who are psychotic, it becomes evident as you talk with them that they\u2019re looking at the world through a particular kind of a different lens and they don\u2019t make sense.\u201d Defendant understood and responded appropriately to Leupold\u2019s questions. Defendant had a flat affect; he acted as if he were in shock or wanted to be left alone. Defendant was placed in an observation cell, and after several days he was transferred to the general population. On cross-examination, Leupold admitted he is not a licensed psychologist and did not administer a psychological assessment tool in evaluating defendant. He also admitted that defendant was \u201cwary and guarded,\u201d which was consistent with paranoid schizophrenia, and that defendant expressed the \u201cirrational\u201d belief that he would \u201cbe released after court tomorrow.\u201d\nDISCUSSION\nI. The Trial Court Did Not Abuse Its Discretion in Excluding Certain Out-of-court Statements from Dr. Cushing\u2019s Expert Testimony\nDefendant contends the trial court erred in precluding his expert witness, Dr. Cushing, from disclosing certain out-of-court statements by defendant found in a report prepared by another psychologist, Dr. Donald Apostle, where Dr. Cushing relied upon the report in formulating his opinion that defendant suffered from paranoid schizophrenia. Dr. Apostle examined defendant at the end of 2011 at the request of the trial court, \u201cin order to determine his sanity as of March 8, 2011.\u201d At issue on appeal are defendant\u2019s statements to Dr. Apostle regarding the events surrounding the March 8 killing: defendant\u2019s statements he had the gun with him on March 8 for protection because of the large quantity of marijuana at the Healdsburg house; he intended only to talk with Neuer; he \u201csnapped\u201d when Neuer began \u201c \u2018flipping out\u2019 with rage and yelling\u201d; and he threw the gun away when he saw the police because he feared they would shoot him.\nWe review the trial court\u2019s rulings on the admission of expert testimony for abuse of discretion. (People v. Hill (2011) 191 Cal.App.4th 1104, 1122 [120 Cal.Rptr.3d 251] (Hill).) \u201cThe trial court\u2019s exercise of discretion will not be reversed on appeal except on a showing that that discretion was exercised \u2018 \u201c \u2018in an arbitrary, capricious or patently absurd manner that resulted in a manifest miscarriage of justice.\u2019 \u201d \u2019 \u201d (Ibid.) Defendant has the burden of establishing an abuse of discretion and resulting prejudice. (Ibid.)\nEvidence Code, section 801, subdivision (b), permits expert opinion testimony on an opinion \u201c[b]ased on matter . . . perceived by or personally known to the witness or made known to [the witness] at or before the hearing, whether or not admissible, that is of a type that reasonably may be relied upon by an expert in forming an opinion upon the subject to which [the witness] testimony relates . . . .\u201d Section 802 permits \u201c[a] witness testifying in the form of an opinion\u201d to \u201cstate on direct examination the reasons for his opinion and the matter (including, in the case of an expert, his special knowledge, skill, experience, training, and education) upon which it is based, unless [the witness] is precluded by law from using such reasons or matter as a basis for his opinion.\u201d\nIn People v. Gardeley (1996) 14 Cal.4th 605, 618 [59 Cal.Rptr.2d 356, 927 P.2d 713] (Gardeley), the California Supreme Court explained that \u201cany material that forms the basis of an expert\u2019s opinion testimony must be reliable. [Citation.] For \u2018the law does not accord to the expert\u2019s opinion the same degree of credence or integrity as it does the data underlying the opinion. Like a house built on sand, the expert\u2019s opinion is no better than the facts on which it is based.\u2019 \u201d Gardeley continued, \u201cSo long as this threshold requirement of reliability is satisfied, even matter that is ordinarily inadmissible can form the proper basis for an expert\u2019s opinion testimony. [Citations.] And because . . . section 802 allows an expert witness to \u2018state on direct examination the reasons for [the witness\u2019s] opinion and the matter .. . upon which it is based,\u2019 an expert witness whose opinion is based on such inadmissible matter can, when testifying, describe the material that forms the basis of the opinion.\u201d (Gardeley, at p. 618.)\nIn particular, an expert may testify under section 802 about basis evidence consisting of out-of-court statements. In People v. Catlin (2001) 26 Cal.4th 81, 137 [109 Cal.Rptr.2d 31, 26 P.3d 357], the court stated, \u201c \u2018[a]n expert may generally base his opinion on any \u201cmatter\u201d known to him, including hearsay not otherwise admissible .... [Citations.] On direct examination, the expert may explain the reasons for [the] opinions, including the matters [the expert] considered in forming them.\u2019 \u201d (See Gardeley, supra, 14 Cal.4th at pp. 618-619; Hill, supra, 191 Cal.App.4th atp. 1128 [listing cases]; People v. Cooper (2007) 148 Cal.App.4th 731, 746 [56 Cal.Rptr.3d 6] [\u201c[i]t is the long-standing rule in California that experts may rely upon and testify to the sources on which they base their opinions [citations], including hearsay of a type reasonably relied upon by professionals in the field\u201d].)\nHowever, \u201ca witness\u2019s on-the-record recitation of sources relied on for an expert opinion does not transform inadmissible matter into \u2018independent proof\u2019 of any fact.\u201d (Gardeley, supra, 14 Cal.4th at p. 619.) Accordingly, trial courts have long instructed juries that out-of-court statements related by experts as basis evidence may not be considered for the truth of the matter stated but only for the purpose of evaluating the expert\u2019s opinion. (See People v. Montiel (1993) 5 Cal.4th 877, 919 [21 Cal.Rptr.2d 705, 855 P.2d 1277] (Montiel) [\u201cMost often, hearsay problems will be cured by an instruction that matters admitted through an expert go only to the basis of [the] opinion and should not be considered for their truth.\u201d]; see also Gardeley, at p. 612 [trial court instructed jury that it \u201c \u2018may not consider those [hearsay] statements for the truth of the matter, but only as they give rise ... to the expert opinion in which questions will be asked which will follow\u2019 \u201d].)\nThe courts have also recognized that the use of a limiting instruction is not always sufficient to alleviate the risk that jurors will use out-of-court statements admitted as expert basis evidence as independent proof on disputed factual issues. (People v. Coleman (1985) 38 Cal.3d 69, 92 [211 Cal.Rptr. 102, 695 P.2d 189] (Coleman), disapproved on another ground in People v. Riccardi (2012) 54 Cal.4th 758, 824, fn. 32 [144 Cal.Rptr.3d 84, 281 P.3d 1].) Therefore, \u201cCalifornia law gives the trial court discretion to weigh the probative value of inadmissible evidence relied upon by an expert witness as a partial basis for [the expert\u2019s] opinion against the risk that the jury might improperly consider it as independent proof of the facts recited therein.\u201d (Coleman, at p. 91; accord, People v. Bell (2007) 40 Cal.4th 582, 608 [54 Cal.Rptr.3d 453, 151 P.3d 292] (Bell); Gardeley, supra, 14 Cal.4th at p. 619.) In particular, \u201cthe trial court must exercise its discretion pursuant to . . . section 352 in order to limit the [basis] evidence to its proper uses. The exercise of this discretion may require exclusion of portions of inadmissible hearsay which were not related to the expert opinion. [Citation.] Or it may be necessary to sever portions of the testimony in order to protect the rights of the defendant without totally destroying the value of the expert witness\u2019 testimony. [Citation.] In still other cases where the risk of improper use of the hearsay outweighs its probative value as a basis for the expert opinion it may be necessary to exclude the evidence altogether.\u201d (Coleman, at pp. 92-93; accord, People v. Gonzales (2011) 51 Cal.4th 894, 923 [126 Cal.Rptr.3d 1, 253 P.3d 185]; see Montiel, supra, 5 Cal.4th at p. 919; People v. Nicolaus (1991) 54 Cal.3d 551, 582 [286 Cal.Rptr. 628, 817 P.2d 893] [\u201cIt is well established that the court may, within its sound discretion, exclude the hearsay basis of an expert\u2019s opinion.\u201d]; Korsak v. Atlas Hotels, Inc. (1992) 2 Cal.App.4th 1516, 1524 [3 Cal.Rptr.2d 833] [noting that, although experts are \u201cgiven considerable leeway as to the material on which they may rely, the rules governing actual communication to the jury of any hearsay matter reasonably relied on by an expert are more restrictive\u201d].) \u201cThe discretion to exclude hearsay applies to defense, as well as prosecution, expert evidence.\u201d (People v. Carpenter (1997) 15 Cal.4th 312, 403 [63 Cal.Rptr.2d 1, 935 P.2d 708], superseded by statute on another ground as stated in Verdin v. Superior Court (2008) 43 Cal.4th 1096, 1106-1107 [77 Cal.Rptr.3d 287, 183 P.3d 1250].)\nIt is important to properly frame the inquiry in applying section 352 to out-of-court statements admitted as expert basis evidence. \u201cWithin this context, \u2018probative value\u2019 refers to the relative reliability of the inadmissible evidence and its necessity to the jury\u2019s understanding of the credibility and [basis] for the expert opinion. This must be weighed against the risk that the jury will view and use this inadmissible evidence for an improper purpose, i.e., as substantive evidence against the defendant.\u201d (People v. Dean (2009) 174 Cal.App.4th 186, 199 [94 Cal.Rptr.3d 478]; see Coleman, supra, 38 Cal.3d at p. 91; Gardeley, supra, 14 Cal.4th at p. 619.)\nA majority of the justices of the United States and the California Supreme Courts have recognized that when an expert relies on hearsay basis evidence as true when forming an opinion and relates that basis evidence to the jury as true, the statements are admitted for their truth for purposes of the confrontation clause. (See Williams v. Illinois (2012) 567 U.S. _ [183 L.Ed.2d 89, 132 S.Ct. 2221, 2256-2257] (conc. opn. of Thomas, J.); id. at p. _ [132 S.Ct. at p. 2272] (dis. opn. of Kagan, J.); People v. Dungo (2012) 55 Cal.4th 608, 627 [147 Cal.Rptr.3d 527, 286 P.3d 442] (conc. opn. of Werdegar, J.); id. at p. 635, fn. 3 (dis. opn. of Corrigan, J.); see also People v. Valadez (2013) 220 Cal.App.4th 16, 31-32 [162 Cal.Rptr.3d 722] [discussing various opinions in Williams and Dungo).) This conclusion rests on the insight that the jury, in evaluating expert testimony, will almost always assume or determine the truth of this basis evidence. (See, e.g., Williams, 567 U.S. at p. ___ [132 S.Ct. at p. 2257] (conc. opn. of Thomas, J.) [\u201c \u2018To use the inadmissible information in evaluating the expert\u2019s testimony, the jury must make a preliminary judgment about whether this information is true.\u2019 \u201d]; Hill, supra, 191 Cal.App.4th at pp. 1129-1131.)\nThis insight undermines cases like People v. Thomas (2005) 130 Cal.App.4th 1202, 1209-1210 [30 Cal.Rptr.3d 582], that uphold the admissibility of hearsay basis evidence testified to by prosecution expert witnesses when challenged under the confrontation clause. However, it does not alter the long-standing interpretation of sections 801 and 802, which, as a matter of state law, permits an expert to testify to otherwise inadmissible hearsay basis evidence, for the limited purpose of enabling the trier of fact to better evaluate the opinion. Nevertheless, in light of this insight in the confrontation clause cases, when the hearsay basis evidence is case specific, trial judges should be particularly hesitant to admit it. On the other hand, when the hearsay relates to the expertise of the witness \u2014 to their training, experience, and special knowledge in their field \u2014 courts should be far less inclined to utilize section 352 to exclude it. This is because there is a much greater risk that jurors will rely on case-specific basis evidence as \u201c \u2018independent proof\u2019 \u201d (Gardeley, supra, 14 Cal.4th at p. 619) of a disputed factual issue at trial.\nIn the present case it is clear the exclusion of defendant\u2019s statements in Dr. Apostle\u2019s report was wholly appropriate. As noted previously, defendant sought to have Dr. Cushing disclose at trial defendant\u2019s case-specific statements to Dr. Apostle that he had the gun with him on March 8 for protection because he was afraid due to the large marijuana grow at the Healdsburg house; he intended only to talk with Neuer; he \u201csnapped\u201d when Neuer began \u201c \u2018flipping out\u2019 with rage and yelling\u201d; and he threw the gun when he saw the police because he feared they would shoot him. All of those statements relate to the specific events at issue in the trial, and are directly relevant to the charge of premeditated murder and the defense theory that defendant acted in imperfect self-defense. Because of this overlap between the basis evidence and the disputed issues at trial, there was a substantial risk the jury would consider defendant\u2019s out-of-court statements as independent proof of what happened the night of the shooting. Moreover, defendant\u2019s out-of-court statements were unreliable \u2014 a self-serving substitute for trial testimony tested \u201cin the crucible of cross-examination.\u201d (Crawford v. Washington (2004) 541 U.S. 36, 61 [158 L.Ed.2d 177, 124 S.Ct. 1354]; see Bell, supra, 40 Cal.4th at p. 608; People v. Pollock (2004) 32 Cal.4th 1153, 1172 [13 Cal.Rptr.3d 34, 89 P.3d 353]; People v. Yuksel (2012) 207 Cal.App.4th 850, 857 [143 Cal.Rptr.3d 823].) The hearsay had little \u201cproper probative value\u201d (Montiel, supra, 5 Cal.4th at p. 919) because Dr. Cushing was permitted to testify to a substantial body of other information underlying his diagnosis of paranoid schizophrenia. Defendant fails to cite to any portion of the record showing that the hearsay in Dr. Apostle\u2019s report was important information that the jury needed to consider to be able to evaluate Dr. Cushing\u2019s opinion.\nThe California Supreme Court\u2019s decision in Bell, supra, 40 Cal.4th 582 is on point. There, the trial court excluded under section 352 proposed testimony by a defense psychologist recounting the defendant\u2019s statements about the murder on trial. (Bell, at p. 607.) The trial court permitted the expert to testify to the defendant\u2019s statements about his \u201c \u2018psychological background,\u2019 \u201d but the court reasoned that \u201ca limiting instruction would be insufficient to prevent the jury from considering defendant\u2019s statements about the crimes themselves ... as evidence of the truth of the events, effectively permitting defendant to testify to his version of events without being subject to cross-examination. The potential for such prejudice was less as to defendant\u2019s psychological history, the court found, because that issue was less central to the case.\u201d (Id. at p. 608.) The Supreme Court affirmed, explaining, \u201cThough the excluded statements were not particularly inflammatory, for the jury to separate their proper and improper uses would have been difficult.\u201d (Id. at p. 609.) Thus, under Bell, out-of-court statements about the crime at trial, offered as expert basis evidence, should commonly be excluded under section 352. (See People v. Hughes (2002) 27 Cal.4th 287, 338-339 [116 Cal.Rptr.2d 401, 39 P.3d 432] [no abuse of discretion to preclude expert from disclosing as basis evidence defendant\u2019s statements to defense investigator about charged offense, which differed from his statements to the police].)\nThe trial court did not abuse its discretion in precluding Dr. Cushing from testifying to defendant\u2019s statements related in Dr. Apostle\u2019s report.\nII., III.\nDISPOSITION\nThe trial court\u2019s judgment is affirmed.\nNeedham, J., and Bruiniers, J., concurred.\nA petition for a rehearing was denied December 10, 2014, and appellant\u2019s petition for review by the Supreme Court was denied March 11, 2015, S223524.\nTo avoid confusion between defendant and his sister, we will refer to Amanda Miller by her first name in this decision. No disrespect is intended.\nParent testified that Neuer said, \u201cGet the fuck out of my house.\u201d\nParent testified that defendant stepped toward Neuer before shooting him a third time; Neuer was falling down and defendant aimed the gun at Neuer\u2019s head.\nThe trial court advised the jury, \u201call this evidence that [defendant] related to Dr. Cushing is not coming in for the truth of the matter, only if Dr. Cushing relied on it for his opinion in this case.\u201d\nThe trial court ruled, \u201cThe experts for the defense will be permitted to refer to other doctors\u2019 reports . . . which they relied upon to formulate their opinions,\u201d but \u201cthe expert may not reveal the contents of those reports.\u201d The court also ruled, \u201cthe defense experts are precluded from discussing in front of the jury any statements made by the defendant to the expert about the events at or near the time of the commission of the crimes.\u201d Defendant\u2019s briefs on appeal reference reports of other psychologists and \u201cpreclusion of Dr. Cushing\u2019s reference in his testimony to things told to him by [defendant] with regard to the events and his mental state on the day of the shooting.\u201d However, defendant fails to identify what specific statements were excluded by the trial court in those areas, and it is not possible to determine whether the court abused its discretion without the excluded evidence being identified. (See People v. Schmies (1996) 44 Cal.App.4th 38, 53 [51 Cal.Rptr.2d 185].) Defendant only references statements from Dr. Apostle\u2019s report in arguing he was prejudiced by the trial court\u2019s rulings. Accordingly, the identified excluded statements from Dr. Apostle\u2019s report are the only possible basis for defendant\u2019s claim on appeal.\nAll further undesignated statutory references are to the Evidence Code.\n7 Section 352 states: \u201cThe court in its discretion may exclude evidence if its probative value is substantially outweighed by the probability that its admission will (a) necessitate undue consumption of time or (b) create substantial danger of undue prejudice, of confusing the issues, or of misleading the jury.\u201d\nWe reject the People\u2019s assertion that defendant\u2019s statements to Dr. Apostle were properly excluded under People v. Campos (1995) 32 Cal.App.4th 304, 308 [38 Cal.Rptr.2d 113] (Campos), which states, \u201cAn expert witness may not, on direct examination, reveal the content of reports prepared or opinions expressed by nontestifying experts.\u201d In support of that blanket assertion, Campos cited Whitfield, v. Roth (1974) 10 Cal.3d 874, 894 [112 Cal.Rptr. 540, 519 P.2d 588] (Whitfield). However, as explained in People v. Bordelon (2008) 162 Cal.App.4th 1311, 1326 [77 Cal.Rptr.3d 14], \u201cCampos and Whilfield were concerned with preventing the introduction of multiple opinions, insulated from cross-examination, into evidence. Since this concern does not arise unless the expert is relying on other expert opinions, the reasoning of those cases is confined to that situation.\u201d Here, Dr. Cushing did not rely on Dr. Apostle\u2019s opinion concerning defendant, only on his notes of what defendant said. Campos is therefore distinguishable.\nSee footnote, ante, page 1301.",
+        "type": "majority",
+        "author": "SIMONS, Acting P. J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Kyle Gee, under appointment by the Court of Appeal, for Defendant and Appellant.",
+      "Kamala D. Harris, Attorney General, Dane R. Gillette, Chief Assistant Attorney General, Gerald A. Engler, Assistant Attorney General, Jeffrey M. Laurence and Christopher W. Grove, Deputy Attorneys General, for Plaintiff and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. A135650.\nFirst Dist., Div. Five.\nNov. 26, 2014.]\nTHE PEOPLE, Plaintiff and Respondent, v. JARROD JOSEPH MILLER, Defendant and Appellant.\n[CERTIFIED FOR PARTIAL PUBLICATION]\nCounsel\nKyle Gee, under appointment by the Court of Appeal, for Defendant and Appellant.\nKamala D. Harris, Attorney General, Dane R. Gillette, Chief Assistant Attorney General, Gerald A. Engler, Assistant Attorney General, Jeffrey M. Laurence and Christopher W. Grove, Deputy Attorneys General, for Plaintiff and Respondent.\nPursuant to California Rules of Court, rules 8.1105(b) and 8.1110, this opinion is certified for publication with the exception of parts II. and III."
+  },
+  "file_name": "1301-01",
+  "first_page_order": 1117,
+  "last_page_order": 1130
+}

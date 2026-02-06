@@ -1,0 +1,59 @@
+{
+  "id": 5905593,
+  "name": "Dykes v. Murphy et al.",
+  "name_abbreviation": "Dykes v. Murphy",
+  "decision_date": "2010-12-13",
+  "docket_number": "No. 10-7388",
+  "first_page": "1115",
+  "last_page": "1115",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1115"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 71,
+    "ocr_confidence": 0.542,
+    "sha256": "b20e2fec5df00683e352cf0e9042778623f7d3ce5cb7474ffa78fe7beb2392db",
+    "simhash": "1:a0fe60e91d359034",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dykes v. Murphy et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7388.\nDykes v. Murphy et al."
+  },
+  "file_name": "1115-10",
+  "first_page_order": 1137,
+  "last_page_order": 1137
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12430172,
+  "name": "Deer v. Washington",
+  "name_abbreviation": "Deer v. Washington",
+  "decision_date": "2013-01-22",
+  "docket_number": "No. 12-7660",
+  "first_page": "1148",
+  "last_page": "1148",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1148"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 68,
+    "ocr_confidence": 0.61,
+    "sha256": "96acf60f786afa54505e879d2fb268b5c7387243e8337d5f39d82db1a27755de",
+    "simhash": "1:912b49a38b93a1aa",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Deer v. Washington."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Wash. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7660.\nDeer v. Washington."
+  },
+  "file_name": "1148-04",
+  "first_page_order": 1224,
+  "last_page_order": 1224
+}

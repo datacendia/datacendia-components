@@ -1,0 +1,59 @@
+{
+  "id": 12422364,
+  "name": "Book v. Parks et al.",
+  "name_abbreviation": "Book v. Parks",
+  "decision_date": "2012-11-13",
+  "docket_number": "No. 12-6135",
+  "first_page": "1007",
+  "last_page": "1007",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1007"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 30,
+    "char_count": 170,
+    "ocr_confidence": 0.606,
+    "sha256": "a8e8941431326540a929ae0e3a611c0c43503fa6a53898f846482d432cdc3a4a",
+    "simhash": "1:79a065c8c1459792",
+    "word_count": 30
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Book v. Parks et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Motion of petitioner for leave to proceed in forma pauperis denied, and certiorari dismissed. See this Court\u2019s Rule 39.8.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6135.\nBook v. Parks et al."
+  },
+  "file_name": "1007-05",
+  "first_page_order": 1083,
+  "last_page_order": 1083
+}

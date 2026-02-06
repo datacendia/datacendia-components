@@ -1,0 +1,59 @@
+{
+  "id": 12221778,
+  "name": "Anderson v. Amawi et al.",
+  "name_abbreviation": "Anderson v. Amawi",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5517",
+  "first_page": "912",
+  "last_page": "912",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 912"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 73,
+    "ocr_confidence": 0.706,
+    "sha256": "689c0eb76314ebf94cd31c0d1b8dc7a33279f90623fbbfe97f73dce25b63efac",
+    "simhash": "1:a34a31acfa9e9bb0",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Anderson v. Amawi et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5517.\nAnderson v. Amawi et al."
+  },
+  "file_name": "0912-04",
+  "first_page_order": 994,
+  "last_page_order": 994
+}

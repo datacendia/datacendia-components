@@ -1,0 +1,59 @@
+{
+  "id": 12418293,
+  "name": "Cox v. Small, Warden, et al.",
+  "name_abbreviation": "Cox v. Small",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 12-5624",
+  "first_page": "948",
+  "last_page": "948",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 948"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 76,
+    "ocr_confidence": 0.694,
+    "sha256": "f6edaecf50c63e05d24b4efd90acf8d2ea164a45746f731ece2bc404ec438780",
+    "simhash": "1:10b8e4b07d1df41e",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cox v. Small, Warden, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5624.\nCox v. Small, Warden, et al."
+  },
+  "file_name": "0948-06",
+  "first_page_order": 1024,
+  "last_page_order": 1024
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12204373,
+  "name": "Span v. Barders et al.",
+  "name_abbreviation": "Span v. Barders",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10696",
+  "first_page": "844",
+  "last_page": "844",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 844"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 72,
+    "ocr_confidence": 0.686,
+    "sha256": "a7a92703b6cba81a9ef5839a7f600420987120dc4214c674d920ffc7ae71e390",
+    "simhash": "1:115982e00543b178",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Span v. Barders et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10696.\nSpan v. Barders et al."
+  },
+  "file_name": "0844-12",
+  "first_page_order": 926,
+  "last_page_order": 926
+}

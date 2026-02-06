@@ -1,0 +1,59 @@
+{
+  "id": 12237844,
+  "name": "Lin v. Rohm & Haas Co.",
+  "name_abbreviation": "Lin v. Rohm & Haas Co.",
+  "decision_date": "2011-12-12",
+  "docket_number": "No. 11-472",
+  "first_page": "1093",
+  "last_page": "1093",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1093"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.684,
+    "sha256": "ccff1148d604c7eee829b8e0f902bc85ad343776c598d31fe1dd203a7c53c1de",
+    "simhash": "1:8642a196e8f87352",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lin v. Rohm & Haas Co."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. Pa. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-472.\nLin v. Rohm & Haas Co."
+  },
+  "file_name": "1093-12",
+  "first_page_order": 1175,
+  "last_page_order": 1175
+}

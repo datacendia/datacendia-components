@@ -1,0 +1,491 @@
+{
+  "id": 12659636,
+  "name": "Juan Jiminez RODRIGUEZ, Appellant v. Carolina RIVAS, Appellee",
+  "name_abbreviation": "Rodriguez v. Rivas",
+  "decision_date": "2019-04-01",
+  "docket_number": "No. 07-18-00033-CV",
+  "first_page": "447",
+  "last_page": "455",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "573 S.W.3d 447"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex. App. Ct.",
+    "id": 30081,
+    "name": "Court of Appeals of Texas, Amarillo"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "3 S.W.3d 256",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        11554892
+      ],
+      "pin_cites": [
+        {
+          "page": "259"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/3/0256-01"
+      ]
+    },
+    {
+      "cite": "921 S.W.2d 338",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10012249
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "344"
+        },
+        {
+          "page": "342"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/921/0338-01"
+      ]
+    },
+    {
+      "cite": "94 S.W.2d 1141",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10276450,
+        2294773
+      ],
+      "year": 1936,
+      "pin_cites": [
+        {
+          "page": "1144"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/94/1141-01",
+        "/tex/127/0583-01"
+      ]
+    },
+    {
+      "cite": "127 Tex. 583",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2294773
+      ],
+      "year": 1936,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/127/0583-01"
+      ]
+    },
+    {
+      "cite": "586 S.W.2d 927",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9954626
+      ],
+      "pin_cites": [
+        {
+          "page": "930"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/586/0927-01"
+      ]
+    },
+    {
+      "cite": "722 S.W.2d 533",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9976835
+      ],
+      "pin_cites": [
+        {
+          "page": "537"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/722/0533-01"
+      ]
+    },
+    {
+      "cite": "170 S.W.2d 472",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10211104,
+        2308455
+      ],
+      "year": 1943,
+      "pin_cites": [
+        {
+          "page": "476"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/170/0472-01",
+        "/tex/141/0120-01"
+      ]
+    },
+    {
+      "cite": "141 Tex. 120",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2308455
+      ],
+      "year": 1943,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/141/0120-01"
+      ]
+    },
+    {
+      "cite": "2017 WL 4479653",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "pin_cites": [
+        {
+          "page": "*4"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2009 WL 3151348",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "*2-3"
+        },
+        {
+          "page": "*2"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "200 S.W.2d 661",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10195421
+      ],
+      "pin_cites": [
+        {
+          "page": "665"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/200/0661-01"
+      ]
+    },
+    {
+      "cite": "161 S.W.2d 769",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2311443,
+        10223878
+      ],
+      "year": 1942,
+      "pin_cites": [
+        {
+          "page": "772"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/139/0057-01",
+        "/sw2d/161/0769-01"
+      ]
+    },
+    {
+      "cite": "139 Tex. 57",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2311443
+      ],
+      "year": 1942,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/139/0057-01"
+      ]
+    },
+    {
+      "cite": "619 S.W.2d 293",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9965913
+      ],
+      "pin_cites": [
+        {
+          "page": "295"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/619/0293-01"
+      ]
+    },
+    {
+      "cite": "853 S.W.2d 667",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10009375
+      ],
+      "pin_cites": [
+        {
+          "page": "671-72"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/853/0667-01"
+      ]
+    },
+    {
+      "cite": "287 S.W.3d 914",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7303309
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "919"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/287/0914-01"
+      ]
+    },
+    {
+      "cite": "2009 WL 35353",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "pin_cites": [
+        {
+          "page": "*3"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "12 S.W.3d 848",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        11464902
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "853"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/12/0848-01"
+      ]
+    },
+    {
+      "cite": "951 S.W.2d 955",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        11912795
+      ],
+      "pin_cites": [
+        {
+          "page": "957"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/951/0955-01"
+      ]
+    },
+    {
+      "cite": "2005 WL 910144",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "pin_cites": [
+        {
+          "page": "*2"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "171 S.W.2d 337",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10207913
+      ],
+      "weight": 3,
+      "year": 1943,
+      "pin_cites": [
+        {
+          "page": "338"
+        },
+        {
+          "page": "338-39",
+          "parenthetical": "emphasis in original"
+        },
+        {
+          "page": "338",
+          "parenthetical": "\"There is no requirement for the showing of equitable grounds as a prerequisite to the exercise of the right [to partition], nor is there any provision that the right may be defeated by the showing of inequities.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/171/0337-01"
+      ]
+    },
+    {
+      "cite": "141 Tex. 280",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2308376
+      ],
+      "year": 1943,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/141/0280-01"
+      ]
+    },
+    {
+      "cite": "2018 WL 6053580",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "pin_cites": [
+        {
+          "page": "*5"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "701 S.W.2d 238",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9933866,
+        9933677
+      ],
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "241-42"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/701/0238-02",
+        "/sw2d/701/0238-01"
+      ]
+    },
+    {
+      "cite": "282 S.W.3d 419",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6946229
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "428-29"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/282/0419-01"
+      ]
+    },
+    {
+      "cite": "2010 WL 1241300",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "pin_cites": [
+        {
+          "page": "*3"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 871,
+    "char_count": 18267,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.26509885325360666
+    },
+    "sha256": "aaa3f055224ce61166ed9a737982c4df88d3876b30d7e93f79eea4fc384f568e",
+    "simhash": "1:8f6bc804118fd7f2",
+    "word_count": 3054
+  },
+  "last_updated": "2024-02-27T16:12:26.815586+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before QUINN, C.J., and PIRTLE and PARKER, JJ."
+    ],
+    "parties": [
+      "Juan Jiminez RODRIGUEZ, Appellant\nv.\nCarolina RIVAS, Appellee"
+    ],
+    "opinions": [
+      {
+        "text": "Judy C. Parker, Justice Juan Jiminez Rodriguez appeals from a judgment in a suit he brought to partition real property. We reverse and remand.\nBackground\nIn 2006, Rodriguez and appellee Carolina Rivas purchased a 1.322-acre tract of land in Navarro County. They built a house on the property, where they lived together until 2011. They borrowed money to purchase the property and paid the loan off together. Around July of 2011, Rodriguez moved out. Rivas changed the locks in September of 2011 and did not give Rodriguez a key. According to Rodriguez, Rivas then obtained a court order excluding him from the property, but Rivas disputed this testimony. Rivas and her two children, including her son with Rodriguez, continued to occupy the property.\nIn 2014, Rodriguez filed an action for partition of the property under Chapter 23 of the Texas Property Code and Rules 756 through 771 of the Texas Rules of Civil Procedure. Rodriguez alleged he had a three-fourths undivided interest in the property and Rivas had a one-fourth undivided interest. He also sought an accounting for rental income, alleging he was ousted from the property. Rivas answered with a general denial.\nThe court conducted a bench trial on February 24, 2017, at which it heard testimony from Rivas, Rodriguez, and a residential appraiser. The appraiser testified that the house, which is approximately 1500 square feet, sits in the middle of the lot, toward the front. He appraised the property at $59,000. Rodriguez testified to the cash and labor he contributed to the house. Rivas testified that she had been responsible for the taxes, insurance, and maintenance on the property. In her opinion, the value of the property was $60,000. The trial court also heard testimony from Rivas and Rodriguez about their relationship, Rodriguez's departure and exclusion from the property, and the parties' child support issues.\nRodriguez asserted that the property is not capable of fair and equitable division and asked the trial court to order a sale. Rivas argued that Rodriguez did not meet his burden to establish that the property cannot be partitioned in kind. She requested that, if the court found the property was not susceptible of partition, the court either (1) allow her to pay Rodriguez the value of his interest in the property in monthly installments over a ten-year period, or (2) postpone the sale of the property until the parties' minor child graduated from high school. The child was in seventh grade at the time of trial.\nThe trial court made findings of fact, which included, among other things, that Rodriguez and Rivas each own an undivided one-half interest in the property, that the property is not susceptible of partition, and that the fair market value of the property is $59,000. The court further found that Rodriguez is entitled to $29,500 equity in the property and ordered Rivas to pay Rodriguez that amount in monthly installments of $409.72 over a period of 72 months, beginning on May 1, 2017. The court's order made no provision for the payment of interest. The final judgment based on these findings also made Rivas responsible for all taxes, maintenance, and insurance on the property, and provided that Rodriguez shall maintain a lien on the property until he is fully paid for his interest. Following other post-judgment motions and objections, the trial court ultimately signed its final judgment on January 10, 2018. Rodriguez then filed this appeal.\nAnalysis\nStandard of Review\nThe rules of equity govern the trial court's partition of property. McGehee v. Campbell , No. 01-08-01023-CV, 2010 WL 1241300, at *3, 2010 Tex. App. LEXIS 2306, at *7 (Tex. App.-Houston [1st Dist.] Mar. 25, 2010, no pet.) (mem. op.). We review a trial court's decision granting or denying equitable relief for an abuse of discretion. See Wagner & Brown, Ltd. v. Sheppard , 282 S.W.3d 419, 428-29 (Tex. 2008). A trial court abuses its discretion when it acts without reference to any guiding rules or principles. See Downer v. Aquamarine Operators, Inc. , 701 S.W.2d 238, 241-42 (Tex. 1985).\nRight to Partition\nIn his first issue, Rodriguez argues that the trial court abused its discretion by not ordering the property to be sold after it found that the property was not susceptible to a partition in kind. In response, Rivas asserts that the trial court was not limited to \"the strict legal scheme provided for in the Texas Property Code,\" but had the right to fashion an appropriate remedy under the rules of equity. She maintains that the court conducted an \"owelty partition,\" which was a fair and equitable result considering Rivas's homestead rights and the age of the parties' son.\nTexas law will not force a reluctant joint owner of real property to maintain joint ownership. Bowman v. Stephens , No. 01-17-00522-CV, 2018 WL 6053580, at *5, 2018 Tex. App. LEXIS 9484, at *15 (Tex. App.-Houston [1st Dist.] Nov. 20, 2018, no pet.). The Texas Property Code allows a joint owner of real property to \"compel a partition of the interest or the property among the joint owners or claimants\" as provided by the Code and the Texas Rules of Civil Procedure. TEX. PROP. CODE ANN . \u00a7 23.001 (West 2014). This right to partition is considered absolute. Moseley v. Hearrell , 141 Tex. 280, 171 S.W.2d 337, 338 (1943) ; Jimmie Luecke Children P'ship, Ltd. v. Pruncutz , No. 03-03-00388-CV, 2005 WL 910144, at *2, 2005 Tex. App. LEXIS 2991, at *5-6 (Tex. App.-Austin Apr. 2, 2005, pet. denied) (mem. op.); Phillips v. Phillips , 951 S.W.2d 955, 957 (Tex. App.-Waco 1997, no pet.).\nRule 770 of the Texas Rules of Civil Procedure governs the judicially-ordered sale of land held by cotenants. It provides that, if the court determines that a fair and equitable division of the property itself, i.e., a partition in kind, cannot be made, then\n... it shall order a sale of so much as is incapable of partition, which sale shall be for cash, or upon such other terms as the court may direct, and shall be made as under execution or by private or public sale through a receiver, if the court so order, and the proceeds thereof shall be returned into court and be partitioned among the persons entitled thereto, according to their respective interests.\nTEX. R. CIV . P. 770. Whether a property can fairly be partitioned in kind is a question of fact for the factfinder to decide. Cecola v. Ruley , 12 S.W.3d 848, 853 (Tex. App.-Texarkana 2000, no pet.). Texas law favors partition in kind over partition by sale, and the burden is on the party seeking a sale to justify it. Id. \"If the proponent carries his burden and establishes that the property is not susceptible to partition in kind, there must be a partition by sale.\" Johnson v. La Mesa Farms, Inc. , No. 07-07-00241-CV, 2009 WL 35353, at *3, 2009 Tex. App. LEXIS 57, at *8 (Tex. App.-Amarillo Jan. 7, 2009, pet. denied) (mem. op.). As we explained in Johnson , \"even though the law may favor a partition in kind, partition may nonetheless occur through a forced sale of the entire property. Which option to apply is simply dependent upon the evidence presented at trial, despite the respective desires of the parties.\" Id. at *3, 2009 Tex. App. LEXIS 57, at *9.\nHere, neither party contested the trial court's finding that the property is not susceptible to partition in kind, nor have they challenged its determination that they each own an undivided one-half interest in the property. Instead, they disagree on the propriety of the remedy ordered by the court.\nRodriguez urges that, once the trial court determined that the property was not susceptible of partition, a sale was required. The law supports Rodriguez's position. \"If the property cannot be partitioned in kind, there must be a partition by sale.\" Grant v. Clouser , 287 S.W.3d 914, 919 (Tex. App.-Houston [14th Dist.] 2009, no pet.) (citing TEX. R. CIV . P. 770, Carter v. Charles , 853 S.W.2d 667, 671-72 (Tex. App.-Houston [14th Dist.] 1993, no writ), and Beago v. Ceres , 619 S.W.2d 293, 295 (Tex. Civ. App.-Houston [1st Dist.] 1981, no writ) ). Rule 770, set forth above, states that the court \"shall\" order the sale of property incapable of partition. TEX. R. CIV . P. 770. The rules and statutes governing partition do not give the trial court the option of awarding one cotenant a cash payment or money judgment equal to the value of his or her share of the property.\nRivas asserts that the trial court implicitly found that a fair and equitable division could not be conducted under Rule 770, and it therefore chose to \"[bypass] the statutory partition provided for in the Texas Property Code\" by conducting an \"equitable owelty partition\" pursuant to its authority under Rule 776. She suggests that by finding the property \"not susceptible of partition,\" the court signified that the property was not subject to the rules of partition and thus selected a different remedy. We are not persuaded that the trial court was authorized to so act.\nFirst, we find no authority for an \"owelty partition.\" An \"owelty\" is defined as: \"Equality as achieved by a compensatory sum of money given after an exchange of parcels of land having different values or after an unequal partition of real property.\" Owelty , BLACK'S LAW DICTIONARY 1214 (9th ed. 2009). As the Texas Supreme Court has explained, owelty is the difference in value that results when a court divides property into shares of unequal value in partition proceedings. Sayers v. Pyland , 139 Tex. 57, 161 S.W.2d 769, 772 (1942). That is, \"In case there be a partition in kind , owelty may be adjudged to achieve a fair and equitable partition.\" Travelers Ins. Co. v. Nauert , 200 S.W.2d 661, 665 (Tex. Civ. App.-El Paso 1941, no writ) (emphasis added). Owelty may be awarded as a necessary incident to partition in kind as a means of correcting an inequality; however, it is not a substitute for or subtype of partition. Application of the doctrine of owelty is limited to those cases in which partition in kind is adjudged.\nSecond, we find Rivas's reliance on Rule 776 of the Texas Rules of Civil Procedure misplaced. The Rule provides, \"[n]o provision of the statutes or rules relating to partition shall ... preclude partition in any other manner authorized by the rules of equity, which rules shall govern in proceedings for partition in all respects not provided for by law or these rules.\" TEX. R. CIV . P. 776. Rule 776 allows for an adjustment of equities, but not a complete circumvention of the partition scheme. See, e.g., McQuigg v. Carr , No. 03-08-00338-CV, 2009 WL 3151348, at *2-3, 2009 Tex. App. LEXIS 7743, at *6-7 (Tex. App.-Austin Oct. 2, 2009, no pet.) (mem. op.) (citing Rule 776 as authority for the exercise of equitable power to adjust the amount of sales proceeds delivered to an owner in partition suit where court determined that owner was responsible for damaging the property, thus reducing its fair and reasonable sales price). Rivas has cited no authority, and we have found none, affirming a manner of \"partition\" in which the entire property is awarded to one cotenant.\nMoreover, neither the property's character as Rivas's homestead nor the age of the parties' child alters the partition analysis. \"Generally, homestead rights attaching to property interests held by a cotenant are subordinate to another cotenant's right to partition.\" Wallace v. Wallace , No. 05-17-00447-CV, 2017 WL 4479653, at *4, 2017 Tex. App. LEXIS 9468, at *9 (Tex. App.-Dallas Oct. 9, 2017, no pet.) (mem. op). (citing Cleveland v. Milner , 141 Tex. 120, 170 S.W.2d 472, 476 (Tex. 1943) and Grant , 287 S.W.3d at 920 ). In divorce proceedings, for example, if a homestead cannot be partitioned, it is subject to sale and a division of the proceeds. McIntyre v. McIntyre , 722 S.W.2d 533, 537 (Tex. App.-San Antonio 1986, no writ) ; Brock v. Brock , 586 S.W.2d 927, 930 (Tex. Civ. App.-El Paso 1979, no writ). As explained in Moseley ,\n[e]quitable rules apply in determining how the property is to be partitioned, once partition is granted, but equitable principales [sic] are not material in determining whether or not the right of partition may be exercised. It may sometimes be inequitable to one or more of the joint owners if another co-owner is permitted to enforce partition of the jointly owned property; but this is one of the consequences which one assumes when he becomes a co[ ]tenant in land. If he does not provide against it by contract, he may expect his cotenant to exercise his statutory right of partition at will.\nMoseley , 171 S.W.2d at 338-39 (emphasis in original). Thus, although \"[a] partition suit does not proceed independently of the rules of equity,\" it cannot proceed independently of the rules of partition. McQuigg , 2009 WL 3151348, at *2, 2009 Tex. App. LEXIS 7743, at *4 ; see also Moseley , 171 S.W.2d at 338 (\"There is no requirement for the showing of equitable grounds as a prerequisite to the exercise of the right [to partition], nor is there any provision that the right may be defeated by the showing of inequities.\").\nHere, the trial court found that the property was not susceptible to partition in kind, but rather than order a sale, it structured what is in essence a private buyout. By awarding Rodriguez a cash payment equal to the value of his full share of the property, payable by Rivas over six years, the trial court fashioned a remedy not contemplated by partition law. We therefore sustain Rodriguez's first issue.\nApportionment of Costs\nIn his second issue, Rodriguez claims the trial court abused its discretion by not splitting the costs of the partition action proportionally between the two parties. In his suit, Rodriguez incurred both court costs and $400 related to the appraisement of the property in preparation for this litigation. The trial court assessed all costs of court against the party who incurred them. It made no finding regarding whether the appraisal was a cost of court.\nUnder Rule 778 of the Rules of Civil Procedure, the trial court \"shall adjudge the costs in a partition suit to be paid by each party to whom a share has been allotted in proportion to the value of such share.\" TEX. R. CIV . P. 778. Thus, the trial court erred by not assessing costs equally between Rivas and Rodriguez, based on the unchallenged finding that each of them own an undivided one-half interest in the property.\nAs Rivas notes, Rule 141 of the Texas Rules of Civil Procedure allows the trial court to \"adjudge the costs otherwise than as provided by law or these rules\"; however, any such variation must be made only for good cause, stated upon the record. TEX. R. CIV . P. 141. The trial court deviated from Rule 778 but did not state on the record any cause for doing so.\nMoreover, the trial court erred by not determining whether the appraisal was a reasonable cost of partition. Because the trial court made no finding on this issue, and because the trial court improperly assessed costs, we remand for a proper reassessment of court costs by the trial court.\nAdjustment for Unjust Enrichment\nIn his third issue, Rodriguez claims that, since Rivas has been allowed to live on the property, to Rodriguez's exclusion, since the trial court's judgment on April 5, 2017, Rivas has received benefits which are unjust for her to retain. He requests that we award him compensation for such unjust enrichment.\nThe trial court has the power to adjust the obligations and equities between the parties to a partition suit. Goodloe & Meredith v. Harris , 127 Tex. 583, 94 S.W.2d 1141, 1144 (Tex. 1936). A claim involving Rodriguez's exclusion from the property since, and as a result of, the trial court's 2017 judgment is an equitable matter for the trial court to resolve. See Yturria v. Kimbro , 921 S.W.2d 338, 344 (Tex. App.-Corpus Christi 1996, no writ). Upon reversal and remand of this cause, the trial court shall have authority to make any such adjustments as the court deems appropriate as part of its equitable considerations in the distribution of the sales proceeds in order that justice may be done. We overrule Rodriguez's third issue.\nPost-Judgment Interest\nBased on our resolution of the preceding issues, we need not address Rodriguez's fourth issue, in which he requests post-judgment interest on the trial court's money judgment as an alternative remedy. TEX. R. APP . P. 47.1.\nConclusion\nFor the foregoing reasons, we reverse the judgment of the trial court and remand this cause for further proceedings consistent with Rules 756 through 771 and Rule 778 of the Texas Rules of Civil Procedure and this opinion.\nThe Rules of Civil Procedure set forth a two-stage process for the partition of real estate, in which each stage results in a final, appealable judgment. See Tex. R. Civ . P. 756 -771. In the first stage, the trial court determines whether the property is susceptible to partition in kind, decides the fractional interest of each joint owner, resolves questions of law or equity affecting title, and determines the value of improvements so as to provide for the adjustment of equities between the parties. See Tex. R. Civ. P. 761 ; Yturria v. Kimbro , 921 S.W.2d 338, 342 (Tex. App.-Corpus Christi 1996, no writ). In the second stage, the court approves the commissioners' report, if applicable, and partitions the property in kind or by sale. Campbell v. Tufts , 3 S.W.3d 256, 259 (Tex. App.-Waco 1999, no pet.). Matters decided in the first decree cannot be reviewed in an appeal from the second judgment. Here, the trial court did not follow that process and enter two separate judgments. However, neither party has contested the trial court's determination of the first-stage questions, so those matters are not before us for review.\nRivas's response to this issue indicates that she has interpreted Rodriguez's request as one for compensation beginning in September of 2011, when she changed the locks on the house. Although Rodriguez sought such relief in the trial court, he has not asserted such a claim on appeal.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "James E. Polk II, Dallas, Joseph Aguilar, for Appellant.",
+      "Kerri Anderson-Donica, Corsicana, for Appellee."
+    ],
+    "corrections": "",
+    "head_matter": "Juan Jiminez RODRIGUEZ, Appellant\nv.\nCarolina RIVAS, Appellee\nNo. 07-18-00033-CV\nCourt of Appeals of Texas, Amarillo.\nApril 1, 2019\nJames E. Polk II, Dallas, Joseph Aguilar, for Appellant.\nKerri Anderson-Donica, Corsicana, for Appellee.\nBefore QUINN, C.J., and PIRTLE and PARKER, JJ."
+  },
+  "file_name": "0447-01",
+  "first_page_order": 447,
+  "last_page_order": 455
+}

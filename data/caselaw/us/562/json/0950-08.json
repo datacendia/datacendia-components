@@ -1,0 +1,61 @@
+{
+  "id": 6032564,
+  "name": "Connelly v. Lantz",
+  "name_abbreviation": "Connelly v. Lantz",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-10977",
+  "first_page": "950",
+  "last_page": "950",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 950"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 23,
+    "char_count": 148,
+    "ocr_confidence": 0.577,
+    "sha256": "c742615d22a2d1b6ddb55a0fc227c5f5c062cb0ed9b12a877927e9f721d0157c",
+    "simhash": "1:b9b73882670ef64a",
+    "word_count": 24
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Sotomayor took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Connelly v. Lantz."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.\nJustice Sotomayor took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10977.\nConnelly v. Lantz."
+  },
+  "file_name": "0950-08",
+  "first_page_order": 972,
+  "last_page_order": 972
+}

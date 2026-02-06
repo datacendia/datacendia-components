@@ -1,0 +1,59 @@
+{
+  "id": 12229720,
+  "name": "Galindo v. United States",
+  "name_abbreviation": "Galindo v. United States",
+  "decision_date": "2011-10-17",
+  "docket_number": "No. 11-6401",
+  "first_page": "969",
+  "last_page": "969",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 969"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.694,
+    "sha256": "23513ee92fdc47824923f224ab1ef1e747fc40c9e4cc421472be9027540057e8",
+    "simhash": "1:96b9d7828908ac26",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Galindo v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6401.\nGalindo v. United States."
+  },
+  "file_name": "0969-13",
+  "first_page_order": 1051,
+  "last_page_order": 1051
+}

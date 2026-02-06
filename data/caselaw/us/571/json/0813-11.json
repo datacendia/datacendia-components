@@ -1,0 +1,68 @@
+{
+  "id": 12702142,
+  "name": "In re Warren Lee HILL, Jr., petitioner.",
+  "name_abbreviation": "In re Hill",
+  "decision_date": "2013-10-07",
+  "docket_number": "No. 12\u201310469.",
+  "first_page": "813",
+  "last_page": "813",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 813"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 265"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 118"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 147,
+    "sha256": "3b134cdb1d86afc8b25c402b46cd8d09bc0ebf9965a9a3d72d4a579f63b5f3d0",
+    "simhash": "1:434b160e1ad9c111",
+    "word_count": 25
+  },
+  "last_updated": "2021-08-27T20:47:23.363448+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Warren Lee HILL, Jr., petitioner."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of habeas corpus denied."
+    ],
+    "corrections": "",
+    "head_matter": "In re Warren Lee HILL, Jr., petitioner.\nNo. 12-10469.\nSupreme Court of the United States\nOct. 7, 2013.\nPetition for writ of habeas corpus denied."
+  },
+  "file_name": "0813-11",
+  "first_page_order": 813,
+  "last_page_order": 813
+}

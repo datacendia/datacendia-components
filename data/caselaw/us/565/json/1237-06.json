@@ -1,0 +1,59 @@
+{
+  "id": 12249488,
+  "name": "Shanklin v. Colorado",
+  "name_abbreviation": "Shanklin v. Colorado",
+  "decision_date": "2012-02-27",
+  "docket_number": "No. 11-8034",
+  "first_page": "1237",
+  "last_page": "1237",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1237"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 70,
+    "ocr_confidence": 0.689,
+    "sha256": "d934c5bf444c17d976eb77c477c3a42e04e6eda6f78d780937c950ed0a255fee",
+    "simhash": "1:34182691f5424102",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Shanklin v. Colorado."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Colo. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8034.\nShanklin v. Colorado."
+  },
+  "file_name": "1237-06",
+  "first_page_order": 1319,
+  "last_page_order": 1319
+}

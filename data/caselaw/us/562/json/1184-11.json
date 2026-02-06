@@ -1,0 +1,59 @@
+{
+  "id": 5962832,
+  "name": "Bright v. Pennsylvania et al.",
+  "name_abbreviation": "Bright v. Pennsylvania",
+  "decision_date": "2011-01-18",
+  "docket_number": "No. 10-7461",
+  "first_page": "1184",
+  "last_page": "1184",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1184"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 76,
+    "ocr_confidence": 0.597,
+    "sha256": "252a9eea62cdb61fdb5886e7932855130951713421d706178fbac44bbd7346cc",
+    "simhash": "1:48c8e829991eb536",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bright v. Pennsylvania et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7461.\nBright v. Pennsylvania et al."
+  },
+  "file_name": "1184-11",
+  "first_page_order": 1206,
+  "last_page_order": 1206
+}

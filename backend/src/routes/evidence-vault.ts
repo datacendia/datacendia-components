@@ -118,6 +118,7 @@ router.post('/packets/generate', async (req: Request, res: Response) => {
       user.role,
       dataSourceId,
       {
+        title: `Decision ${decisionId}`,
         mode: mode || 'operational',
         businessUnit: businessUnit || 'General',
         systemsImpacted: systemsImpacted || [],

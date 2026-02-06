@@ -1,0 +1,77 @@
+{
+  "id": 12518709,
+  "name": "Michael Daniel CUERO, Petitioner-Appellant, v. Scott KERNAN, Respondent-Appellee.",
+  "name_abbreviation": "Cuero v. Kernan",
+  "decision_date": "2018-09-19",
+  "docket_number": "No. 12-55911",
+  "first_page": "865",
+  "last_page": "866",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "904 F.3d 865"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "9th Cir.",
+    "id": 18869,
+    "name": "United States Court of Appeals for the Ninth"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "138 S.Ct. 4",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12614892
+      ],
+      "weight": 2,
+      "year": 2017,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/0004-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 53,
+    "char_count": 453,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25907205400778194
+    },
+    "sha256": "3282b7a5724a8b269ed83395f0297645338589b6451338cb711cf75b005ff2db",
+    "simhash": "1:0c6e6b220b648ec2",
+    "word_count": 63
+  },
+  "last_updated": "2024-02-27T18:45:53.632327+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Michael Daniel CUERO, Petitioner-Appellant,\nv.\nScott KERNAN , Respondent-Appellee."
+    ],
+    "opinions": [
+      {
+        "text": "In light of Kernan v. Cuero , ---- U.S. ----, 138 S.Ct. 4, 199 L.Ed.2d 236 (2017), we affirm the judgment of the district court.\nAFFIRMED.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "Michael Daniel CUERO, Petitioner-Appellant,\nv.\nScott KERNAN , Respondent-Appellee.\nNo. 12-55911\nUnited States Court of Appeals, Ninth Circuit.\nFiled September 19, 2018\nORDER\nScott Kernan has been substituted for his predecessor, Matthew Cate, as Secretary, California Department of Corrections and Rehabilitation."
+  },
+  "file_name": "0865-01",
+  "first_page_order": 865,
+  "last_page_order": 866
+}

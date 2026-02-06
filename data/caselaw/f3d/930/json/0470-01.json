@@ -1,0 +1,1332 @@
+{
+  "id": 12521903,
+  "name": "UNITED STATES of America, Appellee v. Michael M. MONZEL, Appellant",
+  "name_abbreviation": "United States v. Monzel",
+  "decision_date": "2019-07-19",
+  "docket_number": "No. 16-3108",
+  "first_page": "470",
+  "last_page": "487",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "930 F.3d 470"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "D.C. Cir.",
+    "id": 11448,
+    "name": "Court of Appeals of the District of Columbia"
+  },
+  "jurisdiction": {
+    "id": 56,
+    "name_long": "District of Columbia",
+    "name": "D.C."
+  },
+  "cites_to": [
+    {
+      "cite": "777 F.3d 1171",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3985929
+      ],
+      "weight": 2,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1181"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/777/1171-01"
+      ]
+    },
+    {
+      "cite": "511 U.S. 244",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1147362
+      ],
+      "weight": 3,
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "264",
+          "parenthetical": "declining to apply civil law enacted on appeal because \"rules will not be construed to have retroactive effect unless their language requires this result\""
+        },
+        {
+          "parenthetical": "declining to apply civil law enacted on appeal because \"rules will not be construed to have retroactive effect unless their language requires this result\""
+        },
+        {
+          "parenthetical": "declining to apply civil law enacted on appeal because \"rules will not be construed to have retroactive effect unless their language requires this result\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/511/0244-01"
+      ]
+    },
+    {
+      "cite": "132 Stat. 4383",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "year": 2018,
+      "opinion_index": 0
+    },
+    {
+      "cite": "495 U.S. 103",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        634195
+      ],
+      "weight": 3,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "111",
+          "parenthetical": "Child pornography \"haunt[s] [the victim] in years to come.\""
+        },
+        {
+          "parenthetical": "Child pornography \"haunt[s] [the victim] in years to come.\""
+        },
+        {
+          "parenthetical": "Child pornography \"haunt[s] [the victim] in years to come.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/495/0103-01"
+      ]
+    },
+    {
+      "cite": "458 U.S. 747",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        636693
+      ],
+      "weight": 3,
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "759"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/458/0747-01"
+      ]
+    },
+    {
+      "cite": "824 F.3d 1113",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12310404,
+        4323628
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1125-1126"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/423/0102-01",
+        "/f3d/824/1113-01"
+      ]
+    },
+    {
+      "cite": "786 F.3d 11",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4222810,
+        4192135
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "12, 14"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/415/0168-01",
+        "/f3d/786/0011-01"
+      ]
+    },
+    {
+      "cite": "786 F.3d 672",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4192237
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "683"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/786/0672-01"
+      ]
+    },
+    {
+      "cite": "551 U.S. 338",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3573000
+      ],
+      "weight": 3,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "356"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/551/0338-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 3553",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "138 S. Ct. 1959",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12612351
+      ],
+      "weight": 3,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1965",
+          "parenthetical": "with respect to 18 U.S.C. \u00a7 3553(a) 's sentencing factors, district court's explanation must be sufficient \"to allow for meaningful appellate review\" in \"the circumstances of the particular case\""
+        },
+        {
+          "parenthetical": "with respect to 18 U.S.C. \u00a7 3553(a) 's sentencing factors, district court's explanation must be sufficient \"to allow for meaningful appellate review\" in \"the circumstances of the particular case\""
+        },
+        {
+          "page": "1964",
+          "parenthetical": "In sentencing, \"[t]he appropriateness of brevity or length, conciseness or detail, when to write, what to say, depends upon circumstances.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/1959-01"
+      ]
+    },
+    {
+      "cite": "699 F.3d 508",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3661065,
+        3632885
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "513",
+          "parenthetical": "citations omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/403/0039-01",
+        "/f3d/699/0508-01"
+      ]
+    },
+    {
+      "cite": "623 F. App'x 318",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        4368459
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "319",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/623/0318-01"
+      ]
+    },
+    {
+      "cite": "647 F. App'x 718",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        5923915
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "721",
+          "parenthetical": "same"
+        },
+        {
+          "page": "720",
+          "parenthetical": "upholding restitution award even though \"[i]t would have been helpful for the court to have provided more detail as to how it reached the $8,000 figure for each victim,\" because \"the awards appear 'reasonable and circumscribed,' and neither 'token or nominal' nor 'severe' \""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/647/0718-01"
+      ]
+    },
+    {
+      "cite": "703 F. App'x 520",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        12405218
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "521",
+          "parenthetical": "unpublished decision reversing for failure to disaggregate"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/703/0520-01"
+      ]
+    },
+    {
+      "cite": "2016 WL 816741",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "*3",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2016 WL 370712",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "*2",
+          "parenthetical": "denying recovery because government could not surmount the \"monumental difficulty associated with * * * disaggregation\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "804 F.3d 1287",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4356863
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1290",
+          "parenthetical": "reading Paroline as \"plainly perceiv[ing] a need for separation\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/804/1287-01"
+      ]
+    },
+    {
+      "cite": "617 F. App'x 102",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        4354428
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "103",
+          "parenthetical": "explaining that, in the disaggregation context, Paroline does not require a \"detailed accounting\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/617/0102-01"
+      ]
+    },
+    {
+      "cite": "802 F.3d 942",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4342662
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "950",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/802/0942-01"
+      ]
+    },
+    {
+      "cite": "826 F.3d 1207",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4324902
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1221",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/826/1207-01"
+      ]
+    },
+    {
+      "cite": "2014 WL 3966381",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "*6-7"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2014 WL 4187936",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "*6"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2014 WL 5314834",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "*2"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2014 WL 5422215",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "*6"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2014 WL 7073287",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 2,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "*3"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2014 WL 7215214",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 2,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "*6"
+        },
+        {
+          "page": "*4"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2015 WL 4162924",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "*2"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2015 WL 5972421",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "*2"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2017 WL 5177647",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "*4"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2015 WL 7259765",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2015,
+      "opinion_index": 0
+    },
+    {
+      "cite": "2018 WL 445112",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "*6"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2018 WL 3887506",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "*3"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "653 F. App'x 512",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        4352220
+      ],
+      "year": 2016,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/653/0512-01"
+      ]
+    },
+    {
+      "cite": "63 F. Supp. 3d 1238",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "case_ids": [
+        4171272
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "1246"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-3d/63/1238-01"
+      ]
+    },
+    {
+      "cite": "58 F. Supp. 3d 239",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "case_ids": [
+        4126636
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "245"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-3d/58/0239-01"
+      ]
+    },
+    {
+      "cite": "113 F. Supp. 3d 91",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "case_ids": [
+        4363874
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "96"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-3d/113/0091-01"
+      ]
+    },
+    {
+      "cite": "31 F. Supp. 3d 361",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "case_ids": [
+        4323515
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "364"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-3d/31/0361-01"
+      ]
+    },
+    {
+      "cite": "695 F. App'x 985",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        12402879
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "988",
+          "parenthetical": "\" Paroline does not require an analysis of each of its permissive factors.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/695/0985-01"
+      ]
+    },
+    {
+      "cite": "203 L.Ed.2d 902",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "weight": 2,
+      "year": 2019,
+      "opinion_index": 0
+    },
+    {
+      "cite": "139 S. Ct. 1618",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12619790,
+        12619791,
+        12619792,
+        12619793,
+        12619794,
+        12619795
+      ],
+      "year": 2019,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/139/1618-01",
+        "/s-ct/139/1618-02",
+        "/s-ct/139/1618-03",
+        "/s-ct/139/1618-04",
+        "/s-ct/139/1618-05",
+        "/s-ct/139/1618-06"
+      ]
+    },
+    {
+      "cite": "895 F.3d 1048",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12517563
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1059",
+          "parenthetical": "quoting Paroline , 134 S. Ct. at 1728 "
+        },
+        {
+          "page": "1059",
+          "parenthetical": "explaining that it would transform Paroline 's \"rough guideposts\" into a \"rigid formula\" to treat initial-abuse disaggregation as a threshold requirement"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/895/1048-01"
+      ]
+    },
+    {
+      "cite": "897 F.3d 645",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12517866
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "parenthetical": "endorsing a diversity of calculation methods because the Paroline factors \"need not be converted into a rigid formula\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/897/0645-01"
+      ]
+    },
+    {
+      "cite": "758 F.3d 37",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4158891
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "39",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/758/0037-01"
+      ]
+    },
+    {
+      "cite": "827 F.3d 602",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5923554
+      ],
+      "weight": 3,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "607",
+          "parenthetical": "explaining that failure of proof with respect to some Paroline factors \"should not be a barrier to all compensation for victims of child pornography\""
+        },
+        {
+          "page": "606",
+          "parenthetical": "\"We do not read Paroline as requiring district courts to consider in every case every factor mentioned.\""
+        },
+        {
+          "page": "607",
+          "parenthetical": "This information \"may not even be reliably known.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/827/0602-01"
+      ]
+    },
+    {
+      "cite": "923 F.3d 1309",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12521032
+      ],
+      "weight": 3,
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "1336-1337",
+          "parenthetical": "agreeing with Dillard that, once the government proves possession and outstanding losses, restitution must issue"
+        },
+        {
+          "page": "1333-1334",
+          "parenthetical": "same"
+        },
+        {
+          "page": "1333",
+          "parenthetical": "\"Dunn must be read in the factual context of a reversal of a district court's ruling that a defendant was jointly and severally liable with all other defendants, including the abuser, for the entirety of the victim's * * * total losses[.]\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/923/1309-01"
+      ]
+    },
+    {
+      "cite": "891 F.3d 151",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12517064
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "161",
+          "parenthetical": "faulting the district court for denying recovery even though the government had proven the defendant possessed the victim's image and that the victim had outstanding losses from trafficking"
+        },
+        {
+          "page": "161",
+          "parenthetical": "district court made \"fundamental error\" when it decided not to order restitution because it disagreed with government's proposed formula"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/891/0151-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 3664",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(e)"
+        },
+        {
+          "page": "(e)",
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "518 U.S. 81",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1730168
+      ],
+      "weight": 3,
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "100"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/518/0081-01"
+      ]
+    },
+    {
+      "cite": "702 F.3d 59",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3646233,
+        5870469
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "66"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/702/0059-01",
+        "/us-app-dc/403/0194-01"
+      ]
+    },
+    {
+      "cite": "209 F. Supp. 3d 73",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "case_ids": [
+        12272248
+      ],
+      "weight": 23,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "77",
+          "parenthetical": "\" Monzel II \""
+        },
+        {
+          "page": "76"
+        },
+        {
+          "page": "76"
+        },
+        {
+          "page": "76"
+        },
+        {
+          "page": "77"
+        },
+        {
+          "page": "76"
+        },
+        {
+          "page": "76"
+        },
+        {
+          "page": "76"
+        },
+        {
+          "page": "77"
+        },
+        {
+          "page": "76"
+        },
+        {
+          "page": "76-77"
+        },
+        {
+          "page": "76-77"
+        },
+        {
+          "page": "77",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "76"
+        },
+        {
+          "page": "77"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-3d/209/0073-01"
+      ]
+    },
+    {
+      "cite": "186 L.Ed.2d 932",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12698848,
+        12698860,
+        12698854,
+        12698855
+      ],
+      "year": 2013,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/570/0930-02",
+        "/us/570/0931-11",
+        "/us/570/0931-05",
+        "/us/570/0931-06"
+      ]
+    },
+    {
+      "cite": "133 S.Ct. 2886",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12698860,
+        12698861,
+        12698839,
+        12698840,
+        12698847
+      ],
+      "year": 2013,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/570/0931-11",
+        "/us/570/0931-12",
+        "/us/570/0928-02",
+        "/us/570/0928-03",
+        "/us/570/0930-01"
+      ]
+    },
+    {
+      "cite": "570 U.S. 931",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12698850,
+        12698851,
+        12698852,
+        12698853,
+        12698854,
+        12698855,
+        12698856,
+        12698857,
+        12698858,
+        12698859,
+        12698860,
+        12698861
+      ],
+      "year": 2013,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/570/0931-04",
+        "/us/570/0931-01",
+        "/us/570/0931-02",
+        "/us/570/0931-03",
+        "/us/570/0931-05",
+        "/us/570/0931-06",
+        "/us/570/0931-07",
+        "/us/570/0931-08",
+        "/us/570/0931-09",
+        "/us/570/0931-10",
+        "/us/570/0931-11",
+        "/us/570/0931-12"
+      ]
+    },
+    {
+      "cite": "2012 WL 12069547",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 2,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "*6",
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 3771",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(d)(3)",
+          "parenthetical": "authorizing mandamus actions by victims challenging restitutionary awards"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2011 WL 10549405",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 2,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "*2-3"
+        },
+        {
+          "page": "*2"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 2252",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(2)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "641 F.3d 528",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3555931,
+        4206123
+      ],
+      "weight": 8,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "530",
+          "parenthetical": "\" Monzel I \""
+        },
+        {
+          "page": "530"
+        },
+        {
+          "page": "531"
+        },
+        {
+          "page": "530"
+        },
+        {
+          "page": "539"
+        },
+        {
+          "page": "540"
+        },
+        {
+          "page": "534",
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/395/0162-01",
+        "/f3d/641/0528-01"
+      ]
+    },
+    {
+      "cite": "134 S. Ct. 1710",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12706995,
+        12579853
+      ],
+      "weight": 39,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "1727"
+        },
+        {
+          "page": "1728"
+        },
+        {
+          "page": "1716"
+        },
+        {
+          "page": "1710"
+        },
+        {
+          "page": "1722"
+        },
+        {
+          "page": "1728"
+        },
+        {
+          "page": "1727"
+        },
+        {
+          "page": "1726"
+        },
+        {
+          "page": "1727"
+        },
+        {
+          "page": "1728"
+        },
+        {
+          "page": "1729"
+        },
+        {
+          "page": "1728, 1729"
+        },
+        {
+          "page": "1728"
+        },
+        {
+          "page": "1727-1729"
+        },
+        {
+          "page": "1727"
+        },
+        {
+          "page": "1727"
+        },
+        {
+          "page": "1727"
+        },
+        {
+          "page": "1728",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "1728"
+        },
+        {
+          "page": "1728"
+        },
+        {
+          "page": "1728"
+        },
+        {
+          "page": "1728"
+        },
+        {
+          "page": "1717"
+        },
+        {
+          "page": "1727",
+          "parenthetical": "describing goal of \"impressing upon offenders the fact that child-pornography crimes, even simple possession, affect real victims\""
+        },
+        {
+          "page": "1722"
+        },
+        {
+          "page": "1734",
+          "parenthetical": "Roberts, C.J., dissenting"
+        },
+        {
+          "page": "1728",
+          "parenthetical": "majority op."
+        },
+        {
+          "page": "1744",
+          "parenthetical": "Sotomayor, J., dissenting"
+        },
+        {
+          "page": "1717",
+          "parenthetical": "third alteration in original"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/572/0434-01",
+        "/s-ct/134/1710-01"
+      ]
+    },
+    {
+      "cite": "572 U.S. 434",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12706995
+      ],
+      "weight": 2,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "460"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/572/0434-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 2259",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 12,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "(a)",
+          "parenthetical": "cross-referencing the offenses specified in Chapter 110 of Title 18"
+        },
+        {
+          "page": "(b)(1)"
+        },
+        {
+          "page": "(b)(2)"
+        },
+        {
+          "page": "(b)(2)"
+        },
+        {
+          "page": "(b)(4)"
+        },
+        {
+          "page": "(b)(4)(B)",
+          "parenthetical": "barring district courts from \"declin[ing] to issue [restitution] because of * * * the fact that a victim has, or is entitled to, receive compensation for his or her injuries from the proceeds of insurance or any other source\""
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1689,
+    "char_count": 41767,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25942941074942977
+    },
+    "sha256": "42684377cce2c7fa291593fd33d2f29e8cec9e3533700b87d7e4e3b353b5c55f",
+    "simhash": "1:dfeaf956ebb80603",
+    "word_count": 6684
+  },
+  "last_updated": "2024-02-27T18:47:03.658527+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before: Rogers, Millett and Katsas, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Appellee\nv.\nMichael M. MONZEL, Appellant"
+    ],
+    "opinions": [
+      {
+        "text": "Millett, Circuit Judge:\nCongress has mandated that those convicted of child pornography offenses pay \"full\" restitution to their victims for any injuries they \"proximate[ly]\" caused. 18 U.S.C. \u00a7 2259 (2012). That directive recognizes that every perpetrator's viewing of a child's image inflicts distinct harm on that child in that it effects \"a repetition of the victim's abuse.\" See Paroline v. United States , 572 U.S. 434, 134 S. Ct. 1710, 1727, 188 L.Ed.2d 714 (2014).\nIn Paroline , the Supreme Court prescribed a general method and \"rough guideposts\" for trial courts to follow in determining a perpetrator's \"relative causal role\" in a victim's injury. 134 S. Ct. at 1728. This case asks what portion of a victim's damages a single, non-distributing possessor can be ordered to pay. Because the district court followed Paroline in calculating a restitutionary amount that is reasonably tailored to the defendant Michael Monzel's causal role, we affirm.\nI\nSection 2259(a) of Title 18 requires district courts to \"order restitution for any offense\" involving \"Sexual Exploitation and Other Abuse of Children.\" 18 U.S.C. \u00a7 2259(a) (cross-referencing the offenses specified in Chapter 110 of Title 18). So as not to leave any doubt, Congress declared that \"[t]he issuance of a restitution order under this section is mandatory .\" Id. \u00a7 2259(b)(4) (emphasis added). Both distribution and possession of child pornography offenses fall under Section 2259 's mandatory restitution scheme. See id. \u00a7 2252(a)(2), (4)(B).\nUnder Section 2259, convicted defendants must pay their victim the \"full amount of the victim's losses as determined by the court[.]\" 18 U.S.C. \u00a7 2259(b)(1) ; see also id. \u00a7 2259(c) (defining the victim entitled to restitution as \"the individual harmed as a result of a commission of a crime under this chapter\"). The statute, in turn, defines the \"full amount of the victim's losses\" as including \"costs incurred\" for medical services (physical, psychiatric, and psychological), therapy, necessary transportation, temporary housing and child care expenses, lost income, and attorneys' fees, as well as \"any other losses suffered * * * as a proximate result of the offense.\" Id. \u00a7 2259(b)(3)(A)-(F). The government bears the burden of \"demonstrating the amount of the loss sustained by a victim as a result of the offense.\" Id. \u00a7 3664(e) (incorporated by reference in 18 U.S.C. \u00a7 2259(b)(2) ).\nII\nIn December 2009, Michael Monzel pled guilty to one count each of distributing and of possessing child pornography. See United States v. Monzel , 641 F.3d 528, 530 (D.C. Cir. 2011) (\" Monzel I \"); 18 U.S.C. \u00a7 2252(a)(2), (4)(B). The child pornography collection amassed by Monzel included an image of \"Amy.\" See Monzel I , 641 F.3d at 530. Amy is the same victimized individual who sought restitution in Paroline . 134 S. Ct. at 1716. Her story is, at this point, tragically familiar. When she was \"eight and nine years old, [Amy] was sexually abused by her uncle in order to produce child pornography.\" Id . at 1717. She underwent therapy from 1998 through 1999, and, according to her therapist, was \"back to normal\" \"[b]y the end of this period.\" Id. But then a \"major blow to her recovery came when, at the age of 17, she learned that images of her abuse were being trafficked on the Internet.\" Id. Naturally, \"[t]he knowledge that her images were circulated far and wide renewed [Amy's] trauma and made it difficult for her to recover from her abuse.\" Id. By the time Paroline was decided in 2014, possessors of her image \"easily number[ed] in the thousands.\" Id .\nFollowing Monzel's conviction, the district court sentenced him to ten years of imprisonment. Amy then sought restitution for all of her losses on a theory of joint and several liability. Monzel I , 641 F.3d at 531. Monzel, on the other hand, thought Amy should receive only $100 because the government had failed to show \"what portion of [her] losses he had caused.\" Id. at 530. The district court initially awarded Amy $5,000 of \"nominal\" restitution. Id. Although \"the Government ha[d] not * * * suggested any rational, evidence-based procedure for ascertaining the dollar value of the harms\" attributable to Monzel, the district court explained that it had \"no doubt\" the $5,000 award was \"less than the actual harm\" Monzel had caused. United States v. Monzel , Criminal Case No. 09-243 (GK), 2011 WL 10549405, at *2-3 (D.D.C. Jan. 11, 2011).\nAmy filed a petition for a writ of mandamus in this court to challenge the amount of the district court's award. See 18 U.S.C. \u00a7 3771(d)(3) (authorizing mandamus actions by victims challenging restitutionary awards). This court granted the petition in part. While we held that the rule of joint and several liability does not apply to the child-pornography restitution scheme, we agreed that the district court could not \"award[ ] an amount of restitution it acknowledged was less than the harm Monzel had caused.\" Monzel I , 641 F.3d at 539. We directed the district court on remand to \"rely upon some principled method for determining the harm Monzel proximately caused.\" Id. at 540.\nBut, alas, the district court's quest for a fair causal benchmark proved unfruitful. \"[F]or reasons not of its making,\" the district court explained, the government was unable to offer anything more than \"speculati[on]\" as to Monzel's individual causal contribution to Amy's harm. See United States v. Monzel , Criminal Case No. 09-243 (GK), 2012 WL 12069547, at *6, *4 n.4 (D.D.C. Nov. 6, 2012) (emphasis added). Recognizing that the result was \"most unpalatable,\" the district court ruled that the government had left it no choice but to deny completely the restitution request. Id. at *6.\nThe government appealed, and while that appeal was pending, the Supreme Court granted certiorari in Paroline . See Paroline v. United States , 570 U.S. 931, 133 S.Ct. 2886, 186 L.Ed.2d 932 (2013). Because that case involved the same victim, the same crime, and the same underlying legal question, we held the appeal in abeyance pending the Supreme Court's disposition of Paroline . See Order, In re: Amy, Child Pornography Victim , No. 12-3093, 1:09-cr-00243-GK-1 (D.C. Cir. June 27, 2013).\nTen months later, the Supreme Court decided Paroline . 134 S. Ct. at 1710. Paroline rejected Amy's theory of joint and several liability, holding instead that restitution is available \"only to the extent the defendant's offense proximately caused a victim's losses.\" Id. at 1722.\nThis court vacated and remanded for the district court \"to redetermine restitution for Amy consistent with\" the Paroline framework. See Order, In re: Amy, Child Pornography Victim , No. 12-3093 (D.C. Cir. June 13, 2014).\nThe district court then awarded Amy $7,500 in restitution. See United States v. Monzel , 209 F. Supp. 3d 73, 77 (D.D.C. 2016) (\" Monzel II \"). The court began, as Paroline directed, by calculating Amy's total losses from the continued trafficking of her image, finding that they amounted to $3,243,195. Id. at 76. That amount was based on \"the Government's second request for restitution,\" minus $20,563 for certain \"specific expenses.\" Id.\nTo determine Monzel's individual causal contribution, the district court tracked Paroline 's \"guideposts,\" 134 S. Ct. at 1728. The court adopted the government's statement that, to its knowledge, there had been \"197 restitution orders on behalf of Amy.\" Monzel II , 209 F. Supp. 3d at 76. The court also accepted the government's representation that it lacked \"sufficient, reliable data from which to make reasonable estimates\" of two other Paroline guideposts: the anticipated number of future convictions related to Amy's image, or of \"future offenders\" who will possess and distribute Amy's image while evading conviction. Id.\nNext, the district court found that Monzel's possession of a single image of Amy made only a relatively \"minor\" contribution to her losses. Monzel II , 209 F. Supp. 3d at 76. Based on Monzel's individual role, as well as information about \"prior restitution awards for Amy,\" the district court, \"in its discretion, determine[d] that an award of $7,500 in restitution [was] appropriate.\" Id. at 77. That amount, the district court found, \"comport[ed] with [Monzel's] causal-but minor-role in Amy's ongoing losses resulting from the continued trafficking of her images.\" Id.\nMonzel appeals.\nIII\nWe review a restitution order for an abuse of discretion, and we \"examine the factual findings underpinning the order for clear error.\" In re Sealed Case , 702 F.3d 59, 66 (D.C. Cir. 2012). \"A district court by definition abuses its discretion when it makes an error of law.\" Koon v. United States , 518 U.S. 81, 100, 116 S.Ct. 2035, 135 L.Ed.2d 392 (1996).\nA\nWe are not the first, and surely will not be the last, court to wrestle with giving practical effect to Section 2259 's proximate-cause test for mandatory restitution in the context of child-pornography offenses. While \"every viewing\" of a child's pornographic image itself re-inflicts \"the victim's abuse,\" Paroline , 134 S. Ct. at 1727, no \"discrete, readily definable incremental loss\" can easily be traced to each individual possessor's exploitation of the image, id. 1726. As a result, there can be no \"precise algorithm\" for computing individual restitution awards. Id . at 1728.\nHere, as in Paroline , the defendant was a non-distributing possessor of an image that thousands have trafficked. Paroline , 134 S. Ct. at 1727. In such cases, the perpetrator's relative share \"[sh]ould not be severe,\" but neither should it be \"token or nominal.\" Id . Instead, it should be \"reasonable and circumscribed,\" geared to the statute's dual purposes of \"helping the victim achieve eventual restitution for all her child-pornography losses and impressing upon offenders the fact that child-pornography crimes, even simple possession, affect real victims.\" Id.\nTo that end, Paroline identified seven \"rough guideposts\" that district courts \"might consider\" in navigating between the Scylla and Charybdis of prohibited \"severe\" and \"nominal\" awards. 134 S. Ct. at 1728. The considerations identified by the Court include:\n\u2022 \"[W]hether the defendant reproduced or distributed images of the victim\";\n\u2022 \"[W]hether the defendant had any connection to the initial production of the images\";\n\u2022 \"[H]ow many images of the victim the defendant possessed\";\n\u2022 \"[T]he number of past criminal defendants found to have contributed to the victim's general losses\";\n\u2022 \"[R]easonable predictions of the number of future offenders likely to be caught and convicted for crimes contributing to the victim's general losses\";\n\u2022 \"[A]ny available and reasonably reliable estimate of the broader number of offenders involved (most of whom will, of course, never be caught or convicted)\"; and\n\u2022 \"[O]ther facts relevant to the defendant's relative causal role.\"\nId. The Court added that \"restitution sought and ordered in other [like] cases\" could also be informative. Id. at 1729.\nThe Supreme Court stressed that those factors are neither a mandatory checklist nor a \"rigid formula,\" but instead are meant to guide the sentencing court's \"wide discretion\" and \"sound judgment.\" Paroline , 134 S. Ct. at 1728, 1729. Once a sentencing court has made its best judgment about a defendant's relative share of causal blame, the resulting amount-if it is both \"reasonable and circumscribed\"-is then \"deemed the amount of the victim's general losses\" proximately caused by the offense. Id. at 1728.\nB\nThe district court's decision in this case reflects a reasonable exercise of discretion guided by the Paroline guideposts and principles of analysis. The court began, as it should have, by calculating Amy's general losses from the trafficking of her image. Monzel II , 209 F. Supp. 3d at 76. The court then marched carefully through each of Paroline 's factors and delineated Monzel's individual contribution to and responsibility for Amy's losses. Id. ; see also Paroline , 134 S. Ct. at 1727-1729. The court emphasized that Monzel possessed \"only one single image of Amy.\" Monzel II , 209 F. Supp. 3d at 76. There was no evidence he distributed her image, knew her, attempted to discover her identity or to contact her in any way, sought out her image in particular, paid for or sold her image, or \"groom[ed] other minors for sexual exploitation\" using her image. Id. In view of Monzel's real, but still \"minor,\" role, the court's chosen award of $7,500 was neither \"severe,\" nor \"nominal,\" but rather \"reasonable and circumscribed\" to fit Monzel's contribution to Amy's damages, Paroline , 134 S. Ct. at 1727. That is all that Paroline requires.\nC\nMonzel's arguments on appeal fall into three general buckets. First, he argues that the government failed to carry its burden of proving \"the amount of the loss sustained by a victim as a result of the offense.\" 18 U.S.C. \u00a7 3664(e) (incorporated by reference in 18 U.S.C. \u00a7 2259(b)(2) ). Second, he asserts that the district court's explanation for its award was insufficient and unreviewable. And he contends, thirdly, that the district court made several fatal factual mistakes. None of those challenges succeeds.\n1\nMonzel offers a laundry list of asserted deficiencies in the government's proof of the amount of Amy's losses. Specifically, he objects that the government failed (i) to identify a particular amount of restitution, (ii) to formulate a discrete methodology for the district court to follow, (iii) to submit evidence about total offenders and future prosecutions, (iv) to disaggregate Amy's initial-abuse losses from her general loss figure, and (v) to update the 2008 loss projections relied upon by the district court. Monzel's Br. 40-45. Those objections misunderstand the Paroline mission.\nAt the outset, Monzel's argument that the government's asserted evidentiary omissions preclude any award at all misses the mark. Monzel does not dispute that the district court put the burden of proof where it belonged-on the government. He makes no claim, for instance, that the district court erroneously assigned him the burden of proof for any aspect of the case. Nor does Monzel dispute the government's evidentiary showing that he possessed an image of Amy, and that Amy has \"outstanding losses caused by the continuing traffic in those images.\" Paroline , 134 S. Ct. at 1727.\nGiven that showing by the government and the court's agreement with it, an award of restitution was mandatory. 18 U.S.C. \u00a7 2259(b)(4). The only question, then, is whether the district court abused its discretion in calculating the award based on the record before it. See United States v. Dillard , 891 F.3d 151, 161 (4th Cir. 2018) (faulting the district court for denying recovery even though the government had proven the defendant possessed the victim's image and that the victim had outstanding losses from trafficking) (citing Paroline , 134 S. Ct. at 1728 ); United States v. Rothenberg , 923 F.3d 1309, 1336-1337 (11th Cir. 2019) (agreeing with Dillard that, once the government proves possession and outstanding losses, restitution must issue).\nSo while the purported evidentiary gaps that Monzel has identified might bear upon the \"reasonableness\" of the amount awarded, they would not let him off scot free. Cf. United States v. Sainz , 827 F.3d 602, 607 (7th Cir. 2016) (explaining that failure of proof with respect to some Paroline factors \"should not be a barrier to all compensation for victims of child pornography\").\nViewed as challenges to the reasonableness of the restitution award, all five of Monzel's evidentiary arguments fail.\nFirst , Monzel complains that the government did not request a specific amount of restitution on Amy's behalf. But that is neither here nor there. A party's claim for a particular amount of restitution is not proof of causation. Instead, Section 3664(e) requires the government to \"demonstrat[e] the amount of the loss,\" not to propose a mathematical calculation or to specifically assert a dollar amount. 18 U.S.C. \u00a7 3664(e) (emphasis added). So the question on appeal is not what the government asked for, but what the district court found. We are, after all, reviewing the district court's judgment, not the United States' briefs. And the lack of a particular dollar amount in the government's request does not, by itself, establish as a matter of law the \"unreasonableness\" of the district court's order.\nSecond , Monzel faults the government for failing to proffer, and the district court for failing to adopt, a formulaic methodology for computing the restitution award. No dice. What Paroline requires is that courts issue \"reasonable and circumscribed\" awards. 134 S. Ct. at 1727. Beyond that, Paroline was explicit that the district court's judgment \"cannot be a precise mathematical inquiry\"; \"algorithm[s]\" and \"rigid formula[s]\" are not required. Id. at 1728 (emphasis added); see also United States v. Rogers , 758 F.3d 37, 39 (1st Cir. 2014) (per curiam) (affirming award in apparent absence of any formula); Dillard , 891 F.3d at 161 (district court made \"fundamental error\" when it decided not to order restitution because it disagreed with government's proposed formula); cf. United States v. Halverson , 897 F.3d 645, 650 & n.1, 654 (5th Cir. 2018) (endorsing a diversity of calculation methods because the Paroline factors \"need not be converted into a rigid formula\").\nThird , Monzel faults the government for failing to provide estimates on two of the Paroline factors-the number of future convictions and the total offenders predicted to possess Amy's image.\nAgain, Paroline says otherwise. Those numbers were only two among a number of \"rough guideposts\" flagged in Paroline . 134 S. Ct. at 1728. Those particular factors are not \"rigid\" evidentiary requirements that the government is bound to satisfy, or that the district court is obliged to analyze, in every restitution case. United States v. Bordman , 895 F.3d 1048, 1059 (8th Cir. 2018) (quoting Paroline , 134 S. Ct. at 1728 ), cert. denied , --- U.S. ----, 139 S. Ct. 1618, 203 L.Ed.2d 902 (Apr. 29, 2019). Instead, the factors are permissive, and a district court is generally free to disregard them if it reasonably concludes they are unknowable or otherwise uninstructive. See id. ; Sainz , 827 F.3d at 606 (\"We do not read Paroline as requiring district courts to consider in every case every factor mentioned.\"); United States v. Knapp , 695 F. App'x 985, 988 (8th Cir. 2017) (\" Paroline does not require an analysis of each of its permissive factors.\").\nOf course, it may not be reasonable for a district court to disregard those guideposts that describe the essential character of the individual perpetrator's offense, such as the number of images possessed and the number of acts of distribution. Those facts would generally seem to be indispensable to evaluating a defendant's relative causal role.\nIn addition to the nature of the perpetrator's role, the number of images involved, and the number of acts of distribution, there can be \"other facts relevant to the defendant's relative causal role,\" Paroline , 134 S. Ct. at 1728, which often will include: (i) the frequency of views and shares, because \"every viewing * * * is a repetition of the victim's abuse,\" id . at 1727 ; (ii) the means by which the images were acquired (e.g. , the trading of other images in exchange, the payment of money encouraging the abuse, requests for images of escalating levels of abuse); (iii) any stalking or attempts at victim contact; (iv) the defendant's individual contribution to the market for the victim's image over time-that is, whether he sought out this particular victim's images, the length of his involvement in child pornography, whether he displayed a pattern of offenses, and whether he has distributed other images; and (v) the use of images to groom other children for abuse or exposure to pornography. Additional considerations may also include the imperative of ensuring that the individual perpetrator is internalizing the costs of harm to the victim, and the need to deter recidivism by encouraging the perpetrator to express remorse, to obtain treatment, or to otherwise pursue rehabilitative steps that will prevent him from generating further demand for child pornography.\nBut the factors Monzel cites-those seeking to predict the future behavior of third parties-will often have less salience. For starters, those factors are aimed mainly at preventing over-compensation of the victim, which is not an issue in this case (or in many cases).\nBeyond that, many courts have concluded that, as restitution factors, future convictions and total offenders are \"virtually unknown and unknowable.\" United States v. Crisostomi , 31 F. Supp. 3d 361, 364 (D.R.I. 2014) ; see United States v. Hite , 113 F. Supp. 3d 91, 96 (D.D.C. 2015) ; United States v. DiLeo , 58 F. Supp. 3d 239, 245 (E.D.N.Y. 2014) ; United States v. Wencewicz , 63 F. Supp. 3d 1238, 1246 (D. Mont. 2014), vacated and remanded on other grounds , United States v. Grovo , 653 F. App'x 512 (9th Cir. 2016) ; United States v. Moody , CR 417-256, 2018 WL 3887506, at *3 (S.D. Ga. Aug. 15, 2018) ; United States v. Reddick , CASE No. 2:17-CR-208-WKW, 2018 WL 445112, at *6 (M.D. Ala. Jan. 16, 2018) ; United States v. Ayer , Case No. 2:15-cr-86-APG-NJK, 2015 WL 7259765, at *2 n.2 (D. Nev. Nov. 17, 2015) ; United States v. Romero-Medrano , 2017 WL 5177647, at *4 (S.D. Tex. Nov. 8, 2017) ; United States v. Schultz , CRIMINAL ACTION NO. 14-10085-RGS, 2015 WL 5972421, at *2 (D. Mass. Oct. 14, 2015) ; United States v. Gamble , No. 1:10-CR-137, 2015 WL 4162924, at *2 (E.D. Tenn. July 9, 2015) ; United States v. Campbell-Zorn , No. CR-14-41-BLG-SPW, 2014 WL 7215214, at *6 (D. Mont. Dec. 17, 2014) ; United States v. Bellah , No. 13-10169-EFM, 2014 WL 7073287, at *3 (D. Kan. Dec. 12, 2014) ; United States v. McIntosh , No. 4:14cr28, 2014 WL 5422215, at *6 (E.D. Va. Oct. 22, 2014) ; United States v. Daniel , No. 3:07-CR-142-O, 2014 WL 5314834, at *2 (N.D. Tex. Oct. 17, 2014) ; United States v. Reynolds, No. 12-20843, 2014 WL 4187936, at *6 (E.D. Mich. Aug. 22, 2014) ; United States v. Watkins , No. 2:13-cr-00268 LKK AC, 2014 WL 3966381, at *6-7 (E.D. Cal. Aug. 13, 2014) ; accord Sainz , 827 F.3d at 607 (This information \"may not even be reliably known.\"); United States v. Grovo , 826 F.3d 1207, 1221 (9th Cir. 2016) (same); United States v. Evans , 802 F.3d 942, 950 (8th Cir. 2015) (same).\nThe bottom line is that that Paroline provided a \"starting point\" for the district courts' analyses. The Supreme Court did not carve its permissive guideposts into doctrinal stone. See Paroline , 134 S. Ct. at 1728. In many cases, the district courts have concluded that total offenders and future convictions are unknowable and uninstructive. The government in this case stated that it lacked \"sufficient, reliable data from which to make reasonable estimates\" of the number of future convictions likely to involve images of Amy. Monzel II , 209 F. Supp. 3d at 76. The government added that it has no way to estimate the broader number of offenders who possess images of Amy. Id. The district court accepted both representations. Id. Under these circumstances, the district court did not abuse its discretion by focusing instead on the more defendant-focused and market-perpetuating factors, as well as the practical impact of the award. See id. at 77.\nFourth , the district court relied upon a 2008 economic report that estimated Amy would suffer $512,681 in future treatment expenses and $2,751,077 in future vocational losses. Monzel argues that the government was obligated to update the report with the actual rather than predicted cost projections for the period between 2009 and 2015, and to adjust the report's future projections based upon more recent developments in Amy's treatment patterns.\nBut a determination of Monzel's relative causal role does not require a perpetual nickeling and diming of the victim through the imposition of a never-ending accounting requirement-a mandate that would force the victim to constantly confront the growing number of offenders who trade in her image.\nIn any event, Monzel has not shown that, without his requested adjustments, there would be a significant temporal gap or a material dollar disparity between the initial projection and actual costs. For example, the projected treatment costs for the 2009 to 2015 period constituted only a minute fraction of Amy's losses. And even then, the record reveals no clear disparity between the report's projections and the costs actually incurred. Cf. FED . R. CRIM . P. 52(a). As for Amy's future treatment, the record confirms the core assumptions that underlay the 2008 projections. In other words, on this record, demanding an update for the sake of an update would not be worth the candle.\nFifth , Monzel argues that the district court was required to formally backout of Amy's lifetime of psychological treatment and social and vocational impacts those future damages attributable to both her initial abuse and the initial distribution of her image. That argument, again, seeks to impose a mathematical rigidity that Paroline eschews. The Supreme Court made \"connection to the initial production of the images\" one of several factors that could be considered. See Paroline , 572 U.S. at 460, 134 S.Ct. 1710. Here, the district court expressly took into account that Monzel was in no way \"connected to the initial production\" of Amy's images. Monzel II , 209 F. Supp. 3d at 76. Paroline requires no more than that.\nThe argument also proves too much. Courts already consider whether the defendant's conduct was connected to \"the initial production of the images.\" Paroline , 134 S. Ct. at 1728. Monzel's demand that courts also mathematically disaggregate the losses from before the images entered the marketplace simply blinks away the compounding effects of demand for child-pornography images on their production in the first place. It also ignores the distinct harm that Amy suffered upon learning that the images of her already-completed abuse were being viewed for pleasure by perpetrators like Monzel. Paroline , 134 S. Ct. at 1717. For the type of long-term harms at issue here, courts cannot be expected to formally disaggregate the intertwined. See Bordman , 895 F.3d at 1059 (explaining that it would transform Paroline 's \"rough guideposts\" into a \"rigid formula\" to treat initial-abuse disaggregation as a threshold requirement) (citation omitted); Rothenberg , 923 F.3d at 1333-1334 (same); cf. United States v. Miner , 617 F. App'x 102, 103 (2d Cir. 2015) (explaining that, in the disaggregation context, Paroline does not require a \"detailed accounting\").\nThe Ninth Circuit has taken the opposite tack. See United States v. Galan , 804 F.3d 1287, 1290 (9th Cir. 2015) (reading Paroline as \"plainly perceiv[ing] a need for separation\"). But in our view, that court's categorical test demands a level of forensic precision in the causal analysis that fails to account for the synergistic effect of possessors' demand for images on the harms unleashed by production. The complexity of the Ninth Circuit's approach also demands in most cases more linear precision than a comparative \"relative\" causal role seeks to measure. Not to mention the continuing need to ensure, through the award, that each perpetrator internalizes the costs of his actions. See Paroline , 134 S. Ct. at 1727 (describing goal of \"impressing upon offenders the fact that child-pornography crimes, even simple possession, affect real victims\").\nThe test's difficulties are seemingly reflected in the large number of district court cases within the Ninth Circuit in which victims have been denied restitution because the government cannot meet its \"impossible [evidentiary] task\" of disaggregating, in a coherent way, a victim's lifetime of costs from the marketing of her images. See United States v. Chan , CR No. 15-00224 DKW, 2016 WL 370712, at *2 (D. Haw. Jan. 29, 2016) (denying recovery because government could not surmount the \"monumental difficulty associated with * * * disaggregation\"); accord United States v. Kugler , No. CR 14-73-BLG-SPW, 2016 WL 816741, at *3 (D. Mont. Feb. 29, 2016) (same); cf. United States v. Young , 703 F. App'x 520, 521 (9th Cir. 2017) (unpublished decision reversing for failure to disaggregate); United States v. Massa , 647 F. App'x 718, 721 (9th Cir. 2016) (same); United States v. Blurton , 623 F. App'x 318, 319 (9th Cir. 2015) (same); Campbell-Zorn , 2014 WL 7215214, at *4 (Disaggregation \"only seems possible in the rather unique situation presented in Paroline where there is some kind of demarcation between the losses from the initial abuse and the losses from continued trafficking.\") (emphasis omitted).\n2\nIn addition to those evidentiary objections, Monzel takes aim at the district court's reasoning. He argues, first, that the opinion is so devoid of analysis as to be unreviewable for all intents and purposes. Monzel's Br. 46. Monzel contends, secondly, that the district court wrongly failed to address \"any\" of his mitigation arguments. Id. at 47. Both challenges are mistaken.\nAs for reviewability, district courts generally are required to \"articulate the specific factual findings underlying * * * restitution order[s] in order to enable appellate review.\" United States v. Fair , 699 F.3d 508, 513 (D.C. Cir. 2012) (citations omitted); cf. Chavez-Meza v. United States , --- U.S. ----, 138 S. Ct. 1959, 1965, 201 L.Ed.2d 359 (2018) (with respect to 18 U.S.C. \u00a7 3553(a) 's sentencing factors, district court's explanation must be sufficient \"to allow for meaningful appellate review\" in \"the circumstances of the particular case\").\nThe district court's opinion here easily passes that test. The court discussed each of the Paroline factors, emphasizing and delineating Monzel's relatively \"minor\" role. Monzel II , 209 F. Supp. 3d at 76-77. Whether or not those record-based determinations are correct, they are certainly amenable to appellate review.\nMonzel insists the district court opinion must leave \"some way for [us] to trace the derivation of the court's $7,500 award[.]\" Monzel's Br. 46 (second emphasis added). The question, however, is not whether the district court showed every step of its homework. The decision being made is one of reasoned judgment, not formulaic computation. Cf. Chavez-Meza , 138 S. Ct. at 1964 (In sentencing, \"[t]he appropriateness of brevity or length, conciseness or detail, when to write, what to say, depends upon circumstances.\") (quoting Rita v. United States , 551 U.S. 338, 356, 127 S.Ct. 2456, 168 L.Ed.2d 203 (2007) ).\nSo we ask only whether the district court reasonably exercised its discretion in weighing the Paroline and other relevant factors, applying them to the record in this case, and then choosing a \"circumscribed\" award that is consistent with the restitutionary purposes of the statutory scheme. See Paroline , 134 S. Ct. at 1727 ; Massa , 647 F. App'x at 720 (upholding restitution award even though \"[i]t would have been helpful for the court to have provided more detail as to how it reached the $8,000 figure for each victim,\" because \"the awards appear 'reasonable and circumscribed,' and neither 'token or nominal' nor 'severe' \"); accord United States v. Beckmann , 786 F.3d 672, 683 (8th Cir. 2015). The district court did just that, discussing the relevant factors and emphasizing Monzel's limited role as the possessor of a single image. Monzel II , 209 F. Supp. 3d at 76-77.\nTaking a 180-degree turn, Monzel next argues that the district court was too mathematical in its approach. Monzel speculates that the district court randomly selected five post- Paroline awards, averaged the amounts to $7,432.63, and rounded that figure \"to an even $7,500.\" Monzel's Br. 37, 45. But that reconstruction of the district court's reasoning is as implausible as it is uncharitable. First, Monzel concedes that his argument fudged the math. His calculation relied upon the $7,500 that was in fact \"award[ed]\" in United States v. Bellah , No. 13-10169-EFM, 2014 WL 7073287 (D. Kan. Dec. 12, 2014), rather than the $7,000 figure cited by the district court below. Monzel's Br. 37 n.15.\nAnyhow, the district court here explained that its decision was based on \"the parties' arguments, the relevant Paroline factors, * * * and * * * information provided regarding prior restitution awards for Amy ,\" and not on the small and random sampling of post- Paroline awards stressed in Monzel's briefing. See Monzel II , 209 F. Supp. 3d at 77 (emphasis added). We take the district court at its word. For more than a decade, the court has been immersed in this litigation and, throughout, has consistently demonstrated a good-faith effort to properly implement the evolving legal standard for restitution awards. See, e.g. , id. ; Monzel , 2012 WL 12069547, at *4 ; Monzel , 2011 WL 10549405, at *2. There is no basis for imputing a hidden and arbitrary decisionmaking process to the court.\nMonzel's next objection is that the district court \"did not address any of [his] arguments in mitigation[.]\" Monzel's Br. 47. That argument falls flat. A sentencing court must generally consider all \"nonfrivolous arguments for mitigation.\" See United States v. Bigley , 786 F.3d 11, 12, 14 (D.C. Cir. 2015) ; accord United States v. McKeever , 824 F.3d 1113, 1125-1126 (D.C. Cir. 2016). And that is what the district court did here. It acknowledged Monzel's \"minor\" role, and it specifically emphasized the lack of evidence that Monzel (i) knew Amy, attempted to discover her identity, or attempted to contact her; (ii) sought out images of Amy in particular; (iii) paid for or received anything of value for her images; or (iv) groomed other minors with her images. See Monzel II , 209 F. Supp. 3d at 76. With all of those considerations factored into the ultimate award, id. at 77, Monzel fails to identify any material mitigation arguments that the district court did not address.\n3\nFinally, Monzel offers a laundry list of factual errors he deems fatal to the district court's judgment. None are.\nFirst , he argues that the district court wrongly read Monzel I as setting a $5,000 floor below which his restitution payment could not go. And that erroneous starting point, Monzel contends, tainted the ultimate $7,500 award.\nThat argument is doubly flawed. As an exegetical matter, the district court's construction of Monzel I was quite reasonable. This court was explicit that it was \"grant[ing] [Amy's] petition\" because \"the $5,000 the court awarded was, by [the district court's] own acknowledgement, less than the amount of harm Monzel caused Amy [.]\" Monzel I , 641 F.3d at 534 (emphasis added). While the district court could have found that the dollar amount changed, the admonition not to order restitution in an amount less than what Monzel caused remained in place.\nAs a factual matter, the district court never indicated in any way that the $5,000 floor tied its hands in the wake of Paroline , somehow forcing it to award more restitution than warranted. See Order, In re: Amy, Child Pornography Victim , No. 12-3093 (D.C. Cir. June 13, 2014) (directing the district court \"to redetermine restitution for Amy consistent with\" the causation framework set out in Paroline ). Monzel points to nothing in the district court's opinion that even hints that its post- Paroline analysis proceeded with a $5000 weight already on the damages scale.\nSecond , Monzel claims the district court made a pair of factual errors, subtracting both too much and too little from Amy's general loss figure. According to him, the court should have subtracted $7,186 to exclude damages incurred prior to Monzel's arrest in 2009, and also should not have subtracted $20,563 in attorney's fees because Amy's submission consisted exclusively of vocational and treatment expenses. As to the purported $7,186 over-inclusion of loss, the impact-if any-in determining Monzel's share of Amy's more than $3 million in losses is at best de minimis , and at worst incalculable. And as to the asserted underestimation of Amy's general losses, that could only have inured to Monzel's benefit. See FED . R. CRIM . P. 52(a) (reversal only for prejudicial error). No harm, no foul.\nThird , Monzel faults the district court for failing to mention the amount of Amy's then-to-date recovery. That argument asks the wrong question. Under Paroline , restitution reflects not Monzel's share of Amy's unpaid balance, but rather his contribution to her \"general losses\"-\"the aggregate losses, including the costs of psychiatric treatment and lost income, that stem from the ongoing traffic in her images as a whole.\" Paroline , 134 S. Ct. at 1722. The harm that Monzel caused does not change just because other sources of compensation may have surfaced. Cf. 18 U.S.C. \u00a7 2259(b)(4)(B) (barring district courts from \"declin[ing] to issue [restitution] because of * * * the fact that a victim has, or is entitled to, receive compensation for his or her injuries from the proceeds of insurance or any other source\").\nLastly , Monzel returns to the \"math.\" He claims that $7,500 cannot represent his actual contribution to Amy's losses because it \"essentially assumes that Mr. Monzel is one of 432 people ($3,243,195/$7,500) who have harmed and will harm Amy,\" when in fact thousands continue to trade in her image. Monzel's Br. 52. Any effort to apportion Amy's losses evenly among the full universe of offenders would, by Monzel's account, yield something between fifteen dollars and less than a penny.\nThat is exactly the reasoning that Paroline rejected. See 134 S. Ct. at 1734 (Roberts, C.J., dissenting) (finding it \"hard to see how a court fairly assessing this defendant's relative contribution could do anything\" other than \"impose 'trivial restitution orders' \") (citation omitted). Under Paroline , restitution is a matter of \"discretion and sound judgment,\" not an exercise in long division. 134 S. Ct. at 1728 (majority op.) (no \"trivial\" awards); id. at 1744 (Sotomayor, J., dissenting) (\"[A] truly proportional approach to restitution would lead to an award of just $47 against any individual defendant. Congress obviously did not intend that outcome, and the Court wisely refuses to permit it.\") (citation omitted).\n* * * * *\nRestitution in child pornography cases is meant to address the very real and reverberating trauma that attends each perpetrator's acquisition and viewing of a victim's image. \"[C]hild pornography is 'a permanent record' of the depicted child's abuse, and 'the harm to the child is [only further] exacerbated by [its] circulation.' \" Paroline , 134 S. Ct. at 1717 (third alteration in original) (quoting New York v. Ferber , 458 U.S. 747, 759, 102 S.Ct. 3348, 73 L.Ed.2d 1113 (1982) ); cf. Osborne v. Ohio , 495 U.S. 103, 111, 110 S.Ct. 1691, 109 L.Ed.2d 98 (1990) (Child pornography \"haunt[s] [the victim] in years to come.\"). What Monzel's slide-rule approach fails to come to grips with is that the harm to Amy became greater, not less, when he joined the ranks of perpetrators, reinflicting and perpetuating her trauma. To value that pain in pennies would make the restitution statute an insult to the victims. It would also wrongly allow the individual possessor to hide among the sea of wrongdoers. The district court was correct to hold Monzel accountable for the harm that he caused by acquiring and viewing for personal pleasure the image of Amy's abuse.\nThe judgment of the district court is affirmed.\nSo ordered.\nCongress has since amended Section 2259 to both codify Paroline 's basic approach and to set a restitution floor of $3,000. See Amy, Vicky, and Andy Child Pornography Victim Assistance Act of 2018, Pub. L. No. 115-299, 132 Stat. 4383 (2018). We agree with the parties that this amendment does not apply to this case. 18 U.S.C.A. \u00a7 2259B(d) (West 2019) (describing \"the sense of Congress\" that this amendment does not apply retroactively); Oral Arg. Tr. 62-63; cf . Landgraf v. USI Film Prods. , 511 U.S. 244, 264, 114 S.Ct. 1483, 128 L.Ed.2d 229 (1994) (declining to apply civil law enacted on appeal because \"rules will not be construed to have retroactive effect unless their language requires this result\") (citation omitted).\nCertain statements from the Tenth Circuit's decision in United States v. Dunn , 777 F.3d 1171 (10th Cir. 2015), could also be read to endorse a categorical disaggregation requirement. See, e.g. , id. at 1181. But context is everything, and the Tenth Circuit made its statements in the course of overturning a trial court decision that had held a distributor jointly and severally liable with the abuser for the entirety of the outstanding losses. So disaggregation, as Dunn deployed the concept, may have meant simply that distributors and possessors should pay only for their relative roles. See Rothenberg , 923 F.3d at 1333 (\"Dunn must be read in the factual context of a reversal of a district court's ruling that a defendant was jointly and severally liable with all other defendants, including the abuser, for the entirety of the victim's * * * total losses[.]\").",
+        "type": "majority",
+        "author": "Millett, Circuit Judge:"
+      }
+    ],
+    "attorneys": [
+      "Rosanna M. Taormina, Assistant Federal Public Defender, argued the cause for appellant. With her on the briefs was A.J. Kramer, Federal Public Defender.",
+      "Eric Hansford, Assistant U.S. Attorney, argued the cause for appellee. With him on the brief were Jessie K. Liu, U.S. Attorney, and Elizabeth Trosman, Elizabeth H. Danello, and David B. Kent, Assistant U.S. Attorneys."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Appellee\nv.\nMichael M. MONZEL, Appellant\nNo. 16-3108\nUnited States Court of Appeals, District of Columbia Circuit.\nArgued January 23, 2019\nDecided July 19, 2019\nRosanna M. Taormina, Assistant Federal Public Defender, argued the cause for appellant. With her on the briefs was A.J. Kramer, Federal Public Defender.\nEric Hansford, Assistant U.S. Attorney, argued the cause for appellee. With him on the brief were Jessie K. Liu, U.S. Attorney, and Elizabeth Trosman, Elizabeth H. Danello, and David B. Kent, Assistant U.S. Attorneys.\nBefore: Rogers, Millett and Katsas, Circuit Judges."
+  },
+  "file_name": "0470-01",
+  "first_page_order": 470,
+  "last_page_order": 487
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12232258,
+  "name": "In re Johnson; In re Porras; In re Scott; In re Singh; and In re Walker",
+  "name_abbreviation": "In re Johnson",
+  "decision_date": "2011-11-07",
+  "docket_number": "No. 11-443; No. 11-6758; No. 11-6807; No. 11-6889; No. 11-6917",
+  "first_page": "1012",
+  "last_page": "1013",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1012"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 21,
+    "char_count": 182,
+    "ocr_confidence": 0.605,
+    "sha256": "56c50eb688fddffa84ecda846e8e30830d68f9adf9cbe4d6716399e2b27729f5",
+    "simhash": "1:de3c7541940b8b49",
+    "word_count": 33
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Johnson; In re Porras; In re Scott; In re Singh; and In re Walker."
+    ],
+    "opinions": [
+      {
+        "text": "Petitions for writs of habeas corpus denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-443.\nNo. 11-6758.\nIn re Johnson; In re Porras; In re Scott; In re Singh; and In re Walker.\nNo. 11-6807.\nNo. 11-6889.\nNo. 11-6917."
+  },
+  "file_name": "1012-09",
+  "first_page_order": 1094,
+  "last_page_order": 1095
+}

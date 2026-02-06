@@ -1,0 +1,59 @@
+{
+  "id": 12246131,
+  "name": "Stucky v. Hawaii Department of Education et al.",
+  "name_abbreviation": "Stucky v. Hawaii Department of Education",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-873",
+  "first_page": "1203",
+  "last_page": "1203",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1203"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 94,
+    "ocr_confidence": 0.73,
+    "sha256": "e1c4e3aa09527588b975ff08aeff8e70dd1d7e8564e2f94b9d873572d80c1ba1",
+    "simhash": "1:51ca62a96b1dc172",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Stucky v. Hawaii Department of Education et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-873.\nStucky v. Hawaii Department of Education et al."
+  },
+  "file_name": "1203-02",
+  "first_page_order": 1285,
+  "last_page_order": 1285
+}

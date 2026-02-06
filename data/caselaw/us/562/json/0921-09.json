@@ -1,0 +1,59 @@
+{
+  "id": 5900276,
+  "name": "Patrick v. Illinois",
+  "name_abbreviation": "Patrick v. Illinois",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5429",
+  "first_page": "921",
+  "last_page": "921",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 921"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.665,
+    "sha256": "43c0cd26b16179accb6207581fb8b3010070bfbac3d799a16af314577f5f2f8f",
+    "simhash": "1:6125d7ca6714ab6f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Patrick v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. 111., 2d Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5429.\nPatrick v. Illinois."
+  },
+  "file_name": "0921-09",
+  "first_page_order": 943,
+  "last_page_order": 943
+}

@@ -1,0 +1,61 @@
+{
+  "id": 4334773,
+  "name": "United States v. Gonzalez",
+  "name_abbreviation": "United States v. Gonzalez",
+  "decision_date": "2011-06-27",
+  "docket_number": "No. 10-82",
+  "first_page": "1032",
+  "last_page": "1032",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1032"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 46,
+    "char_count": 362,
+    "ocr_confidence": 0.52,
+    "sha256": "49ae16c644d41b5f5a922f250ae879c48fc3484cc27c8ebcd5a13247f8f16874",
+    "simhash": "1:9f22e082c5860a1e",
+    "word_count": 60
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this motion and this petition."
+    ],
+    "parties": [
+      "United States v. Gonzalez."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Motion of respondent for leave to proceed in forma pauperis granted. Certiorari granted, judgment vacated, and case remanded for further consideration in light of Davis v. United States, ante, p. 229.\nJustice Kagan took no part in the consideration or decision of this motion and this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "June 27, 2011\nNo. 10-82.\nUnited States v. Gonzalez."
+  },
+  "file_name": "1032-04",
+  "first_page_order": 1026,
+  "last_page_order": 1026
+}

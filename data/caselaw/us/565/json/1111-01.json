@@ -1,0 +1,94 @@
+{
+  "id": 12238969,
+  "name": "Prost v. Anderson, Warden; Brace v. United States et al.; and Mathison v. Wiley, Warden",
+  "name_abbreviation": "Prost v. Anderson",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-249",
+  "first_page": "1111",
+  "last_page": "1111",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1111"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "318 Fed. Appx. 650",
+      "category": "reporters:federal",
+      "reporter": "Fed. Appx.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "634 F. 3d 1167",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4096293
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/634/1167-01"
+      ]
+    },
+    {
+      "cite": "636 F. 3d 578",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4102206
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/636/0578-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 32,
+    "char_count": 206,
+    "ocr_confidence": 0.587,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.24765555829702812
+    },
+    "sha256": "9923d442a20e6d8b360546520a8db237d0eb93e7046929daa8221d7ae50165be",
+    "simhash": "1:17cb581b2e010234",
+    "word_count": 37
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Prost v. Anderson, Warden Brace v. United States et al. and Mathison v. Wiley, Warden"
+    ],
+    "opinions": [
+      {
+        "text": "(Reported below: 636 F. 3d 578);\n(634 F. 3d 1167); (318 Fed. Appx. 650). C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-249.\nProst v. Anderson, Warden Brace v. United States et al. and Mathison v. Wiley, Warden"
+  },
+  "file_name": "1111-01",
+  "first_page_order": 1193,
+  "last_page_order": 1193
+}

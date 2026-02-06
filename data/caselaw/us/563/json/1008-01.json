@@ -1,0 +1,59 @@
+{
+  "id": 5938380,
+  "name": "Tucker v. Cason, Warden",
+  "name_abbreviation": "Tucker v. Cason",
+  "decision_date": "2011-05-23",
+  "docket_number": "No. 10-835",
+  "first_page": "1008",
+  "last_page": "1008",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1008"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.573,
+    "sha256": "d6c87ecfc327d14c509a8d8255c7452eff30115123471822c5b9f5f66a71f003",
+    "simhash": "1:9aad22c4ee4b18c6",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Tucker v. Cason, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-835.\nTucker v. Cason, Warden."
+  },
+  "file_name": "1008-01",
+  "first_page_order": 1034,
+  "last_page_order": 1034
+}

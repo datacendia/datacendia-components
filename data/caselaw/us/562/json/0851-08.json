@@ -1,0 +1,59 @@
+{
+  "id": 6002848,
+  "name": "Evans v. Eldridge et al.",
+  "name_abbreviation": "Evans v. Eldridge",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-10763",
+  "first_page": "851",
+  "last_page": "851",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 851"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 84,
+    "ocr_confidence": 0.571,
+    "sha256": "ff8e1952688d288f5ad2c37e834280f4c375331569d6f3a53aeb934f3b239b8f",
+    "simhash": "1:db53d044b6212395",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Evans v. Eldridge et al."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Tex., 13th Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10763.\nEvans v. Eldridge et al."
+  },
+  "file_name": "0851-08",
+  "first_page_order": 873,
+  "last_page_order": 873
+}

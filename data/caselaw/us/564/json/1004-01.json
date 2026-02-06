@@ -1,0 +1,59 @@
+{
+  "id": 4337284,
+  "name": "Setser v. United States",
+  "name_abbreviation": "Setser v. United States",
+  "decision_date": "2011-06-13",
+  "docket_number": "No. 10-7387",
+  "first_page": "1004",
+  "last_page": "1004",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1004"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 21,
+    "char_count": 142,
+    "ocr_confidence": 0.53,
+    "sha256": "1fc3aac5eef290a4f42761b365e2b5942ed1c892bdf14de65917e124794aecb5",
+    "simhash": "1:678cd106c5332d38",
+    "word_count": 22
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Setser v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Motion of petitioner for leave to proceed informa pauperis granted-. Certiorari granted.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7387.\nSetser v. United States."
+  },
+  "file_name": "1004-01",
+  "first_page_order": 998,
+  "last_page_order": 998
+}

@@ -1,0 +1,59 @@
+{
+  "id": 6025401,
+  "name": "Missouri v. Vaca",
+  "name_abbreviation": "Missouri v. Vaca",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-387",
+  "first_page": "1249",
+  "last_page": "1249",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1249"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 21,
+    "char_count": 132,
+    "ocr_confidence": 0.586,
+    "sha256": "56e8219cd5c57e92d172cec77971675ee5844ce5c934575f2101a90910476f2c",
+    "simhash": "1:4fe2d86f76c1e606",
+    "word_count": 21
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Missouri v. Vaca."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Mo. Motion of respondent for leave to proceed in forma pauperis granted. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-387.\nMissouri v. Vaca."
+  },
+  "file_name": "1249-08",
+  "first_page_order": 1271,
+  "last_page_order": 1271
+}

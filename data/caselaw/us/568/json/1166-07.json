@@ -1,0 +1,59 @@
+{
+  "id": 12430802,
+  "name": "Foulk v. California",
+  "name_abbreviation": "Foulk v. California",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-7471",
+  "first_page": "1166",
+  "last_page": "1166",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1166"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 82,
+    "ocr_confidence": 0.632,
+    "sha256": "8b8830ab33677df8aa4e4542c26df664c0d365230f005a5caab06b196f3a0acb",
+    "simhash": "1:7005d68019400a43",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Foulk v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 2d App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7471.\nFoulk v. California."
+  },
+  "file_name": "1166-07",
+  "first_page_order": 1242,
+  "last_page_order": 1242
+}

@@ -1,0 +1,59 @@
+{
+  "id": 6028765,
+  "name": "Davis v. Booker, Warden",
+  "name_abbreviation": "Davis v. Booker",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-10601",
+  "first_page": "847",
+  "last_page": "847",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 847"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.532,
+    "sha256": "16caf96fa5677b76d608593907da8583f462b2954661672e3989158cb01545c9",
+    "simhash": "1:df921282be3b1046",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Davis v. Booker, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10601.\nDavis v. Booker, Warden."
+  },
+  "file_name": "0847-08",
+  "first_page_order": 869,
+  "last_page_order": 869
+}

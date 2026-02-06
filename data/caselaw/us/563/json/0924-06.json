@@ -1,0 +1,59 @@
+{
+  "id": 5953073,
+  "name": "Nelson v. Roberts, Warden",
+  "name_abbreviation": "Nelson v. Roberts",
+  "decision_date": "2011-04-04",
+  "docket_number": "No. 10-9130",
+  "first_page": "924",
+  "last_page": "924",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 924"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.629,
+    "sha256": "4d21cf2cc586ee1038631401c40e15089fc6484ea3cea25a90862296dd209416",
+    "simhash": "1:94aaca22064bb276",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Nelson v. Roberts, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9130.\nNelson v. Roberts, Warden."
+  },
+  "file_name": "0924-06",
+  "first_page_order": 950,
+  "last_page_order": 950
+}

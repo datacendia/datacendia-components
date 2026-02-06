@@ -1,0 +1,59 @@
+{
+  "id": 12430694,
+  "name": "Butler v. Texas",
+  "name_abbreviation": "Butler v. Texas",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-6469",
+  "first_page": "1163",
+  "last_page": "1163",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1163"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 70,
+    "ocr_confidence": 0.682,
+    "sha256": "221b03eb354f51fa95092da1dc37e8835540f296438fca9e6437ea6362fa6e71",
+    "simhash": "1:897bf8c8569a7ad4",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Butler v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Tex. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6469.\nButler v. Texas."
+  },
+  "file_name": "1163-14",
+  "first_page_order": 1239,
+  "last_page_order": 1239
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5953396,
+  "name": "Fields v. West Virginia",
+  "name_abbreviation": "Fields v. West Virginia",
+  "decision_date": "2011-01-24",
+  "docket_number": "No. 10-6756",
+  "first_page": "1202",
+  "last_page": "1202",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1202"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 78,
+    "ocr_confidence": 0.645,
+    "sha256": "96ad91e70ffcf52fc0135b469f9c4a4e7626b9d78d15cc8b97a054e260bb7845",
+    "simhash": "1:6236a0ab9628b039",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Fields v. West Virginia."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. App. W. Va. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6756.\nFields v. West Virginia."
+  },
+  "file_name": "1202-05",
+  "first_page_order": 1224,
+  "last_page_order": 1224
+}

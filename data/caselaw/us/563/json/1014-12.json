@@ -1,0 +1,59 @@
+{
+  "id": 5943906,
+  "name": "Reynoso v. United States",
+  "name_abbreviation": "Reynoso v. United States",
+  "decision_date": "2011-05-23",
+  "docket_number": "No. 10-10113",
+  "first_page": "1014",
+  "last_page": "1014",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1014"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.608,
+    "sha256": "1c3ae9ec37e5a255d9c0d9be8ae1b1a6e528794828f65ee035890ad1d0757803",
+    "simhash": "1:551af78b4fd0903c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Reynoso v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10113.\nReynoso v. United States."
+  },
+  "file_name": "1014-12",
+  "first_page_order": 1040,
+  "last_page_order": 1040
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12210188,
+  "name": "Leonard v. Federal Bureau of Investigation et al.",
+  "name_abbreviation": "Leonard v. Federal Bureau of Investigation",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-11084",
+  "first_page": "866",
+  "last_page": "866",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 866"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 99,
+    "ocr_confidence": 0.643,
+    "sha256": "2aca81fac709ab83afeee790694b98a824625d705fac22989fe2f7c34b734307",
+    "simhash": "1:97e980a3852cb036",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Leonard v. Federal Bureau of Investigation et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-11084.\nLeonard v. Federal Bureau of Investigation et al."
+  },
+  "file_name": "0866-05",
+  "first_page_order": 948,
+  "last_page_order": 948
+}

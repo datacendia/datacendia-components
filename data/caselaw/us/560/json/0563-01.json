@@ -1,0 +1,821 @@
+{
+  "id": 3641562,
+  "name": "CARACHURI-ROSENDO v. HOLDER, ATTORNEY GENERAL",
+  "name_abbreviation": "Carachuri-Rosendo v. Holder",
+  "decision_date": "2010-06-14",
+  "docket_number": "No. 09-60",
+  "first_page": "563",
+  "last_page": "585",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "560 U.S. 563"
+    },
+    {
+      "type": "parallel",
+      "cite": "177 L. Ed. 2d 68"
+    },
+    {
+      "type": "parallel",
+      "cite": "130 S. Ct. 2577"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2009-068"
+    },
+    {
+      "type": "vendor",
+      "cite": "2010 U.S. LEXIS 4764"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "5th Cir.",
+    "id": 8820,
+    "name": "United States Court of Appeals for the Fifth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "553 U. S. 377",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3674133
+      ],
+      "weight": 5,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "382"
+        },
+        {
+          "page": "389"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/553/0377-01"
+      ]
+    },
+    {
+      "cite": "557 U. S. 29",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3658219
+      ],
+      "weight": 3,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "38"
+        },
+        {
+          "page": "36-39"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/557/0029-01"
+      ]
+    },
+    {
+      "cite": "280 F. 3d 297",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9393285
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/280/0297-01"
+      ]
+    },
+    {
+      "cite": "548 F. 3d 207",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3954070
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/548/0207-01"
+      ]
+    },
+    {
+      "cite": "464 F. 3d 74",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3729197
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "parenthetical": "taking contrary view"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/464/0074-01"
+      ]
+    },
+    {
+      "cite": "544 P. 3d 862",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2008,
+      "pin_cites": [
+        {
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "8 U. S. C. \u00a7 1227",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(2)(B)(i)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "287 F. 3d 725",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9439651
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "727-728"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/287/0725-01"
+      ]
+    },
+    {
+      "cite": "302 F. 3d 679",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11438589
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "690-692"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/302/0679-01"
+      ]
+    },
+    {
+      "cite": "495 F. 3d 142",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3563703
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "148"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/495/0142-01"
+      ]
+    },
+    {
+      "cite": "520 U. S. 751",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11652916
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "754, n. 1",
+          "parenthetical": "\"We note that imposition of an enhanced penalty [for recidivism] is not automatic. ... If the Government does not file such notice [under 21 U. S. C. \u00a7 851(a)(1"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/520/0751-01"
+      ]
+    },
+    {
+      "cite": "21 U. S. C. \u00a7802",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(13)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "543 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3442217
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "11, n. 8"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/543/0001-01"
+      ]
+    },
+    {
+      "cite": "531 F. 3d 438",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3654546
+      ],
+      "weight": 2,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "445"
+        },
+        {
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/531/0438-01"
+      ]
+    },
+    {
+      "cite": "Tex. Penal Code Ann. \u00a7\u00a7 12.42",
+      "category": "laws:leg_statute",
+      "reporter": "Tex. Code Ann.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "288 F. 3d 153",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9436420
+      ],
+      "weight": 2,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "159",
+          "parenthetical": "\"Whereas the prior version of [\u00a7 851(a)] made enhancements for prior offenses mandatory, the new statutory scheme gave prosecutors discretion whether to seek enhancements based on prior convictions\""
+        },
+        {
+          "page": "159"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/288/0153-01"
+      ]
+    },
+    {
+      "cite": "523 U. S. 224",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11503479
+      ],
+      "weight": 3,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "247"
+        },
+        {
+          "page": "247"
+        },
+        {
+          "page": "247"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/523/0224-01"
+      ]
+    },
+    {
+      "cite": "558 U. S. 1091",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "year": 2009,
+      "opinion_index": 0
+    },
+    {
+      "cite": "513 F. 3d 776",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3163631
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "779",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/513/0776-01"
+      ]
+    },
+    {
+      "cite": "570 F. 3d 263",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3664242
+      ],
+      "weight": 5,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "267",
+          "parenthetical": "citing Lopez, 549 U. S., at 60"
+        },
+        {
+          "page": "266"
+        },
+        {
+          "page": "266, n. 3"
+        },
+        {
+          "page": "265"
+        },
+        {
+          "parenthetical": "holding state conviction for simple possession after prior conviction for simple possession is a felony under the Controlled Substances Act and thus an aggravated felony"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/570/0263-01"
+      ]
+    },
+    {
+      "cite": "24 I. & N. Dec. 382",
+      "category": "reporters:federal",
+      "reporter": "I. & N. Dec.",
+      "weight": 4,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "387, 391"
+        },
+        {
+          "page": "388"
+        },
+        {
+          "page": "389"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "Tex. Health & Safety Code Ann. \u00a7\u00a7 481.117",
+      "category": "laws:leg_statute",
+      "reporter": "Tex. Code Ann.",
+      "pin_cites": [
+        {
+          "page": "(a) and (b)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "Tex. Health & Safety Code Ann. \u00a7\u00a7 481.121",
+      "category": "laws:leg_statute",
+      "reporter": "Tex. Code Ann.",
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "(a) and (b)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "549 U. S. 47",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3553511
+      ],
+      "weight": 17,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "56"
+        },
+        {
+          "page": "60"
+        },
+        {
+          "page": "55",
+          "parenthetical": "\"Unless a state offense is punishable as a federal felony it does not count\""
+        },
+        {
+          "page": "60"
+        },
+        {
+          "page": "60"
+        },
+        {
+          "page": "53"
+        },
+        {
+          "page": "53"
+        },
+        {
+          "page": "54"
+        },
+        {
+          "page": "75"
+        },
+        {
+          "page": "54"
+        },
+        {
+          "page": "60"
+        },
+        {
+          "page": "57-58"
+        },
+        {
+          "page": "60"
+        },
+        {
+          "page": "55, n. 6"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/549/0047-01"
+      ]
+    },
+    {
+      "cite": "21 U. S. C. \u00a7 851",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 9,
+      "pin_cites": [
+        {
+          "page": "(a)(1)"
+        },
+        {
+          "page": "391"
+        },
+        {
+          "page": "(a)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 924",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 8,
+      "pin_cites": [
+        {
+          "page": "(c)(2)"
+        },
+        {
+          "page": "(c)(2)"
+        },
+        {
+          "page": "(c)(2)"
+        },
+        {
+          "page": "(e)(2)"
+        },
+        {
+          "page": "(c)(2)"
+        },
+        {
+          "page": "(c)(2)"
+        },
+        {
+          "page": "(e)"
+        },
+        {
+          "page": "(e)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 U. S. C. \u00a7 844",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 3559",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)(5)"
+        },
+        {
+          "page": "(a)(5)"
+        },
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "8 U. S. C. \u00a7 1101",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 6,
+      "pin_cites": [
+        {
+          "page": "et seq."
+        },
+        {
+          "page": "(a)(43)"
+        },
+        {
+          "page": "(a)(43)(B)"
+        },
+        {
+          "page": "(a)(43)"
+        },
+        {
+          "page": "(a)(43)(B)"
+        },
+        {
+          "page": "(a)(43)(M)(i)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "66 Stat. 163",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "523 U. S. 224",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11503479
+      ],
+      "year": 1998,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/523/0224-01"
+      ]
+    },
+    {
+      "cite": "Tex. Health & Safety Code Ann. \u00a7\u00a7 481.117",
+      "category": "laws:leg_statute",
+      "reporter": "Tex. Code Ann.",
+      "pin_cites": [
+        {
+          "page": "(a) and (b)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "549 U. S. 47",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3553511
+      ],
+      "weight": 2,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "57"
+        },
+        {
+          "page": "55, n. 6"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/549/0047-01"
+      ]
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 924",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(c)"
+        },
+        {
+          "page": "(c)(2)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "21 U. S. C. \u00a7 844",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "8 U. S. C. \u00a7 1101",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(a)(43)(B)"
+        },
+        {
+          "page": "(a)(43)(B)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "549 U. S. 47",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3553511
+      ],
+      "weight": 4,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "61",
+          "parenthetical": "Thomas, J., dissenting"
+        },
+        {
+          "page": "60",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "67",
+          "parenthetical": "Thomas, J., dissenting"
+        },
+        {
+          "page": "60-63"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/549/0047-01"
+      ]
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 924",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(c)(2)"
+        },
+        {
+          "page": "(c)"
+        },
+        {
+          "page": "(c)(2)",
+          "parenthetical": "defining \"drug trafficking crime\" to mean \"any felony punishable under the Controlled Substances Act\""
+        }
+      ],
+      "opinion_index": 2
+    }
+  ],
+  "analysis": {
+    "cardinality": 1327,
+    "char_count": 43555,
+    "ocr_confidence": 0.629,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.10492349167847237
+    },
+    "sha256": "99be1a6ba0fcab18b7dcda90e71a8f4c69aa1bde73267652d4215d1e2f171319",
+    "simhash": "1:f6db7e854b2b6d38",
+    "word_count": 7164
+  },
+  "last_updated": "2024-02-27T22:21:48.731632+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "CARACHURI-ROSENDO v. HOLDER, ATTORNEY GENERAL"
+    ],
+    "opinions": [
+      {
+        "text": "Justice Stevens\ndelivered the opinion of the Court.\nPetitioner Jose Angel Carachuri-Rosendo, a lawful permanent resident who has lived in the United States since he was five years old, faced deportation under federal law after he committed two misdemeanor drug possession offenses in Texas. For the first, possession of less than two ounces of marijuana, he received 20 days in jail. For the second, possession without a prescription of one tablet of a common anti-anxiety medication, he received 10 days in jail. After this second offense, the Federal Government initiated removal proceedings against him. He conceded that he was removable, but claimed he was eligible for discretionary relief from removal under 8 U. S. C. \u00a7 1229b(a).\nTo decide whether Carachuri-Rosendo is eligible to seek cancellation of removal or waiver of inadmissibility under \u00a7 1229b(a), we must decide whether he has been convicted of an \u201caggravated felony,\u201d \u00a71229b(a)(3), a category of crimes singled out for the harshest deportation consequences. The Court of Appeals held that a simple drug possession offense, committed after the conviction for a first possession offense became final, is always an aggravated felony. We now reverse and hold that second or subsequent simple possession offenses are not aggravated felonies under \u00a7 1101(a)(43) when, as in this case, the state conviction is not based on the fact of a prior conviction.\nI\nUnder the Immigration and Nationality Act (INA), 66 Stat. 163, as amended, 8 U. S. C. \u00a7 1101 et seq., a lawful permanent resident subject to removal from the United States may apply for discretionary cancellation of removal if, inter alia, he \u201chas not been convicted of any aggravated felony,\u201d \u00a7 1229b(a)(3). The statutory definition of the term \u201caggravated felony\u201d includes a list of numerous federal offenses, one of which is \u201cillicit trafficking in a controlled substance .. . including a drug trafficking crime (as defined in section 924(c) of title 18).\u201d \u00a7 1101(a)(43)(B). Section 924(c)(2), in turn, defines a \u201cdrug trafficking crime\u201d to mean \u201cany felony punishable under,\u201d inter alia, \u201cthe Controlled Substances Act (21 U. S. C. 801 et seq.).\u201d A felony is a crime for which the \u201cmaximum term of imprisonment authorized\u201d is \u201cmore than one year.\u201d 18 U. S. C. \u00a7 3559(a).\nThe maze of statutory cross-references continues. Section 404 of the Controlled Substances Act criminalizes simple possession offenses, the type of offense at issue in this case. But it prescribes punishment for both misdemeanor and felony offenses. Except for simple possession of crack cocaine or flunitrazepam, a first-time simple possession offense is a federal misdemeanor; the maximum term authorized for such a conviction is less than one year. 21 U. S. C. \u00a7 844(a). However, a conviction for a simple possession offense \u201cafter a prior conviction under this subchapter [or] under the law of any State .. . has become final\u201d \u2014 what we will call recidivist simple possession \u2014 may be punished as a felony, with a prison sentence of up to two years. Ibid.* ** Thus, except for simple possession offenses involving isolated categories of drugs not presently at issue, only recidivist simple possession offenses are \u201cpunishable\u201d as a federal \u201cfelony\u201d under the Controlled Substances Act, 18 U. S. C. \u00a7 924(c)(2). And thus only a conviction within this particular category of simple possession offenses might, conceivably, be an \u201caggravated felony\u201d under 8 U. S. C. \u00a7 1101(a)(43).\nFor a subsequent simple possession offense to be eligible for an enhanced punishment, i. e., to be punishable as a felony, the Controlled Substances Act requires that a prosecutor charge the existence of the prior simple possession conviction before trial, or before a guilty plea. See 21 U. S. C. \u00a7 851(a)(1). Notice, plus an opportunity to challenge the validity of the prior conviction used to enhance the current conviction, \u00a7\u00a7851(b)-(c), are mandatory prerequisites to obtaining a punishment based on the fact of a prior conviction. And they are also necessary prerequisites under federal law to \u201cauthorize\u201d a felony punishment, 18 U. S. C. \u00a7 3559(a), for the type of simple possession offense at issue in this case.\nNeither the definition of an \u201cillicit trafficking\u201d offense under 8 U. S. C. \u00a7 1101(a)(43)(B) nor that of a \u201cdrug trafficking crime\u201d under 18 U. S. C. \u00a7 924(c)(2) describes or references any state offenses. The \u201caggravated felony\u201d definition does explain that the term applies \u201cto an offense described in this paragraph whether in violation of Federal or State law.\u201d \u00a7 1101(a)(43). But in Lopez v. Gonzales, 549 U. S. 47, 56 (2006), we determined that, in order to be an \u201caggravated felony\u201d for immigration law purposes, a state drug conviction must be punishable as a felony under federal law. We held that \u201ca state offense constitutes a 'felony punishable under the Controlled Substances Act\u2019 only if it proscribes conduct punishable as a felony under that federal law.\u201d Id., at 60. Despite the fact that the Lopez petitioner had been punished as a felon under state law \u2014 and, indeed, received a 5-year sentence \u2014 the conduct of his offense was not punishable as a felony under federal law, and this prevented the state conviction from qualifying as an aggravated felony for immigration law purposes. Id., at 55 (\u201cUnless a state offense is punishable as a federal felony it does not count\u201d).\nIn the case before us, the Government argues that Carachuri-Rosendo, despite having received only a 10-day sentence for his Texas misdemeanor simple possession offense, nevertheless has been \u201cconvicted\u201d of an \u201caggravated felony\u201d within the meaning of the INA. This is so, the Government contends, because had Carachuri-Rosendo been prosecuted in federal court instead of state court, he could have been prosecuted as a felon and received a 2-year sentence based on the fact of his prior simple possession offense. Our holding in Lopez teaches that, for a state conviction to qualify as an \u201caggravated felony\u201d under the INA, it is necessary for the underlying conduct to be punishable as a federal felony. Id., at 60. We now must determine whether the mere possibility, no matter how remote, that a 2-year sentence might have been imposed in a federal trial is a sufficient basis for concluding that a state misdemeanant who was not charged as a recidivist has been \u201cconvicted\u201d of an \u201caggravated felony\u201d within the meaning of \u00a7 1229b(a)(3).\nII\nCarachuri-Rosendo was born in Mexico in 1978. He came to the United States with his parents in 1983 and has been a lawful permanent resident of Texas ever since. His common-law wife and four children are American citizens, as are his mother and two sisters.\nLike so many in this country, Carachuri-Rosendo has gotten into some trouble with our drug laws. In 2004, he pleaded guilty to possessing less than two ounces of marijuana, a class B misdemeanor, and was sentenced to confinement for 20 days by a Texas court. See App. 19a-22a; Tex. Health & Safety Code Ann. \u00a7\u00a7 481.121(a) and (b)(1) (West Supp. 2009). In 2005, he pleaded nolo contendere to possessing less than 28 grams \u2014 one tablet \u2014 of alprazolam (known commercially as Xanax) without a prescription, a class A misdemeanor. See App. 31a-34a; Tex. Health & Safety Code Ann. \u00a7\u00a7 481.117(a) and (b). Although Texas law, like federal law, authorized a sentencing enhancement if the prosecutor proved that Carachuri-Rosendo had been previously convicted of an offense of a similar class, the State did not elect to seek an enhancement based on his criminal history. App. 32a.\nIn 2006, on the basis of Carachuri-Rosendo\u2019s second possession offense, the Federal Government initiated removal proceedings against him. Appearing pro se before the Immigration Judge, Carachuri-Rosendo did not dispute that his conviction for possessing one tablet of Xanax without a prescription made him removable, but he applied for a discretionary cancellation of removal pursuant to 8 U. S. C. \u00a71229b(a). Under that statutory provision, the Attorney General may cancel an order of removal or an order of inadmissibility so long as, inter alia, the noncitizen \u201chas not been convicted of a[n] aggravated felony.\u201d \u00a7 1229b(a)(3). The Immigration Judge held that petitioner\u2019s second simple possession conviction was an \u201caggravated felony\u201d that made him ineligible for cancellation of removal.\nThe Board of Immigration Appeals (BIA) followed Circuit precedent and affirmed that decision, but it disagreed with the Immigration Judge\u2019s legal analysis. In its en bane opinion, the BIA ruled that in cases arising in Circuits in which the question had not yet been decided, the BIA would not treat a second or successive misdemeanor conviction as an aggravated felony unless the conviction contained a finding that the offender was a recidivist. In re Carachuri-Rosendo, 24 I. & N. Dec. 382, 387, 391 (2007).\nThe BIA explained that the statutory question is complicated by the fact that \u201c\u2018recidivist possession\u2019\u201d is not a \u201cdiscrete offense under Federal law.\u201d Id., at 388. While most federal offenses are defined by elements that must be proved to a jury beyond a reasonable doubt, recidivist possession is an \u201camalgam of elements, substantive sentencing factors, and procedural safeguards.\u201d Id., at 389. Section 844(a) defines simple possession by reference to statutory elements, but \u201cfacts leading to recidivist felony punishment, such as the existence of a prior conviction, do not qualify as \u2018elements\u2019 in the traditional sense.\u201d Ibid.\nThe BIA observed, however, that \u201c21 U. S. C. \u00a7851 precludes a Federal judge from enhancing a drug offender\u2019s sentence on the basis of recidivism absent compliance with a number of safeguards that, among other things, serve to protect the right of the accused to notice and an opportunity to be heard as to the propriety of an increased punishment based on prior convictions.\u201d Ibid. Therefore, these requirements \u201care part and parcel of what it means for a crime to be a \u2018recidivist\u2019 offense.\u201d Id., at 391. \u201c[Ujnless the State successfully sought to impose punishment for a recidivist drug conviction,\u201d the BIA concluded, a state simple possession \u201cconviction cannot \u2018proscribe conduct punishable as\u2019 recidivist possession\u201d under federal law. Ibid.\nOn review, the Court of Appeals affirmed the BIA\u2019s decision in Carachuri-Rosendo\u2019s case, reading our decision in Lopez as dictating its outcome. \u201c[I]f the conduct proscribed by state offense could have been prosecuted as a felony\u201d under the Controlled Substances Act, the court reasoned, then the defendant\u2019s conviction qualifies as an aggravated felony. 570 F. 3d 263, 267 (CA5 2009) (citing Lopez, 549 U. S., at 60). The court deemed its analysis \u201c[t]he hypothetical approach,\u201d a term it derived from its understanding of our method of analysis in Lopez. 570 F. 3d, at 266, and n. 3; see also United States v. Pacheco-Diaz, 513 F. 3d 776, 779 (CA7 2008) (per curiam) (employing the \u201chypothetical-federal-felony approach\u201d). Under this approach, as the Court of Appeals understood it, courts \u201cg[o] beyond the state statute\u2019s elements to look at the hypothetical conduct a state statute proscribes.\u201d 570 F. 3d, at 266, n. 3. Accordingly, any \u201cconduct\u201d that \u201chypothetically\u201d \u201ccould have been punished as a felony\u201d \u201chad [it] been prosecuted in federal court\u201d is an \u201caggravated felony\u201d for federal immigration law purposes. Id., at 265. In applying this hypothetical approach, the Court of Appeals did not discuss the \u00a7851 procedural requirements. Instead, it concluded that because Carachuri-Rosendo\u2019s \u201cconduct\u201d could have been prosecuted as simple possession with a recidivist enhancement under state law \u2014 even though it was not \u2014 it could have also been punished as a felony under federal law. Thus, in the Court of Appeals\u2019 view, his conviction for simple possession under state law, without a recidivist enhancement, was an \u201caggravated felony\u201d for immigration law purposes.\nWe granted certiorari to resolve the conflict among the Courts of Appeals over whether subsequent simple possession offenses are aggravated felonies. 558 U. S. 1091 (2009).\nIll\nWhen interpreting the statutory provisions under dispute, we begin by looking at the terms of the provisions and the \u201ceommonsense conception\u201d of those terms. Lopez, 549 U. S., at 53. Carachuri-Rosendo is ineligible for cancellation of removal only if he was \u201cconvicted of a[n] aggravated felony,\u201d 8 U. S. C. \u00a7 1229b(a)(3), which, in this case, could only be a conviction for \u201cillicit trafficking in a controlled substance ... including a drug trafficking crime,\u201d \u00a7 1101(a)(43)(B).\nA recidivist possession offense such as Carachuri-Rosendo\u2019s does not fit easily into the \u201ceveryday understanding\u201d of those terms, Lopez, 549 U. S., at 53. This type of petty simple possession offense is not typically thought of as an \u201caggravated felony\u201d or as \u201cillicit trafficking.\u201d We explained in Lopez that \u201cordinarily \u2018trafficking\u2019 means some sort of commercial dealing.\u201d Id., at 53-54 (citing Black\u2019s Law Dictionary 1534 (8th ed. 2004\u00bb. And just as in Lopez, \u201c[cjommerce . . . was no part of\u201d Caraehuri-Rosendo\u2019s possessing a single tablet of Xanax, \u201cand certainly it is no element of simple possession.\u201d 549 U. S., at 54. As an initial matter, then, we observe that a reading of this statutory scheme that would apply an \u201caggravated\u201d or \u201ctrafficking\u201d label to any simple possession offense is, to say the least, counterintuitive and \u201cunorthodox,\u201d ibid.\nThe same is true for the type of penalty at issue. We do not usually think of a 10-day sentence for the unauthorized possession of a trivial amount of a prescription drug as an \u201caggravated felony.\u201d A \u201cfelony,\u201d we have come to understand, is a \u201cserious crime usu[ally] punishable by imprisonment for more than one year or by death.\u201d Black\u2019s Law Dictionary 694 (9th ed. 2009) (hereinafter Black\u2019s). An \u201caggravated\u201d offense is one \u201cmade worse or more serious by circumstances such as violence, the presence of a deadly weapon, or the intent to commit another crime.\u201d Id., at 75. The term \u201caggravated felony\u201d is unique to Title 8, which covers immigration matters; it is not a term used elsewhere within the United States Code. Our statutory criminal law classifies the most insignificant of federal felonies \u2014 \u201cClass E\u201d felonies \u2014 as carrying a sentence of \u201cless than five years but more than one year.\u201d 18 U. S. C. \u00a73559(a)(5). While it is true that a defendant\u2019s criminal history might be seen to make an offense \u201cworse\u201d by virtue thereof, Black\u2019s 75, it is nevertheless unorthodox to classify this type of petty simple possession recidivism as an \u201caggravated felony.\u201d\nOf course, as Justice Souter observed in his opinion for the Court in Lopez, Congress, like \u201cHumpty Dumpty,\u201d has the power to give words unorthodox meanings. 549 U. S., at 54. But in this case the Government argues for a result that \u201cthe English language tells us not to expect,\u201d so we must be \u201cvery wary of the Government\u2019s position.\u201d Ibid. Because the English language tells us that most aggravated felonies are punishable by sentences far longer than 10 days, and that mere possession of one tablet of Xanax does not constitute \u201ctrafficking,\u201d Lopez instructs us to be doubly wary of the Government\u2019s position in this ease.\nIV\nThe Government\u2019s position, like the Court of Appeals\u2019 \u201chypothetical approach,\u201d would treat all \u201cconduct punishable as a felony\u201d as the equivalent of a \u201cconviction\u201d of a felony whenever, hypothetically speaking, the underlying conduct could have received felony treatment under federal law. We find this reasoning \u2014 and the \u201chypothetical approach\u201d itself \u2014 unpersuasive for the following reasons.\nFirst, and most fundamentally, the Government\u2019s position ignores the text of the INA, which limits the Attorney General\u2019s cancellation power only when, inter alia, a nonciti-zen \u201chas . . . been convicted of a[n] aggravated felony.\u201d 8 U. S. C. \u00a7 1229b(a)(3) (emphasis added). The text thus indicates that we are to look to the conviction itself as our starting place, not to what might have or could have been charged. And to be convicted of an aggravated felony punishable as such under the Controlled Substances Act, the \u201cmaximum term of imprisonment authorized\u201d must be \u201cmore than one year,\u201d 18 U. S. C. \u00a7 3559(a)(5). Congress, recall, chose to authorize only a 1-year sentence for nearly all simple possession offenses, but it created a narrow exception for those cases in which a prosecutor elects to charge the defendant as a recidivist and the defendant receives notice and an opportunity to defend against that charge. See 21 U. S. C. \u00a7851; Part I, supra.\nIndisputably, Carachuri-Rosendo\u2019s record of conviction contains no finding of the fact of his prior drug offense. Carachuri-Rosendo argues that even such a finding would be insufficient, and that a prosecutorial charge of recidivism and an opportunity to defend against that charge also would be required before he could be deemed \u201cconvicted\u201d of a felony punishable under the Controlled Substances Act. In the absence of any finding of recidivism, we need not, and do not, decide whether these additional procedures would be necessary. Although a federal immigration court may have the power to make a recidivist finding in the first instance, see, e. g., Almendarez-Torres v. United States, 523 U. S. 224, 247 (1998), it cannot, ex post, enhance the state offense of record just because facts known to it would have authorized a greater penalty under either state or federal law. Carachuri-Rosendo was not actually \u201cconvicted,\u201d \u00a7 1229b(a)(3), of a drug possession offense committed \u201cafter a prior conviction . . . has become final,\u201d \u00a7 844(a), and no subsequent development can undo that history.\nThe Government contends that if Carachuri-Rosendo had been prosecuted in federal court for simple possession under 21 U. S. C. \u00a7 844(a) under identical circumstances, he would have committed an \u201caggravated felony\u201d for immigration law purposes. Tr. of Oral Arg. 36-37. This is so, the Government suggests, because the only statutory text that matters is the word \u201cpunishable\u201d in 18 U. S. C. \u00a7 924(c)(2): Whatever conduct might be \u201cpunishable\u201d as a felony, regardless of whether it actually is so punished or not, is a felony for immigration law purposes. But for the reasons just stated, the circumstances of Carachuri-Rosendo\u2019s prosecution were not identical to those hypothesized by the Government. And the Government\u2019s abstracted approach to \u00a7 924(c)(2) cannot be reconciled with the more concrete guidance of 8 U. S. C. \u00a7 1229b(a)(3), which limits the Attorney General\u2019s cancellation authority only when the noncitizen has actually been \u201cconvicted of a[n] aggravated felony\u201d \u2014 not when he merely could have been convicted of a felony but was not.\nSecond, and relatedly, the Government\u2019s position fails to give effect to the mandatory notice and process requirements contained in 21 U. S. C. \u00a7851. For federal-law purposes, a simple possession offense is not \u201cpunishable\u201d as a felony unless a federal prosecutor first elects to charge a defendant as a recidivist in the criminal information. The statute, as described in Part I, supra, at 568-569, speaks in mandatory terms, permitting \u201c[n]o person\u201d to be subject to a recidivist enhancement \u2014 and therefore, in this case, a felony sentence \u2014 \u201cunless\u201d he has been given notice of the Government\u2019s intent to prove the fact of a prior conviction. Federal law also gives the defendant an opportunity to challenge the fact of the prior conviction itself. \u00a7\u00a7851(b)-(c). The Government would dismiss these procedures as meaningless, so long as they may be satisfied during the immigration proceeding.\nBut these procedural requirements have great practical significance with respect to the conviction itself and are integral to the structure and design of our drug laws. They authorize prosecutors to exercise discretion when electing whether to pursue a recidivist enhancement. See United States v. Dodson, 288 F. 3d 153, 159 (CA5 2002) (\u201cWhereas the prior version of [\u00a7 851(a)] made enhancements for prior offenses mandatory, the new statutory scheme gave prosecutors discretion whether to seek enhancements based on prior convictions\u201d). Because the procedure^ are prerequisites to an enhanced sentence, \u00a7851 allows federal prosecutors to choose whether to seek a conviction that is \u201cpunishable\u201d as a felony under \u00a7 844(a). Underscoring the significance of the \u00a7851 procedures, the United States Attorney\u2019s Manual places decisions with respect to seeking recidivist enhancements on par with the filing of a criminal charge against a defendant. See Dept, of Justice, United States Attorneys\u2019 Manual \u00a79-27.300(B) (1997), online at http:// www.justice.gov/usao/eousa/foia_reading_room/usam/title9/ 27mcrm.htm#9-27.300 (as visited June 3, 2010, and available in Clerk of Court\u2019s case file) (\u201cEvery prosecutor should regard the filing of an information under 21 U. S. C. \u00a7 851 . . . as equivalent to the filing of charges\u201d).\nMany state criminal codes, like the federal scheme, afford similar deference to prosecutorial discretion when prescribing recidivist enhancements. Texas is one such State. See, e. g., Tex. Penal Code Ann. \u00a7\u00a7 12.42, 12.43 (West 2003 and Supp. 2009) (recidivist enhancement is available \u201c[i]f it is shown on the trial\u201d that defendant was previously convicted of identified categories of felonies and misdemeanors). And, in this case, the prosecutor specifically elected to \u201c[ajbandon\u201d a recidivist enhancement under state law. App. 32a (reproducing state judgment). Were we to permit a federal immigration judge to apply his own recidivist enhancement after the fact so as to make the noncitizen\u2019s offense \u201cpunishable\u201d as a felony for immigration law purposes, we would denigrate the independent judgment of state prosecutors to execute the laws of those sovereigns.\nThird, the Court of Appeals\u2019 hypothetical felony approach is based on a misreading of our decision in Lopez. We never used the term \u201chypothetical\u201d to describe our analysis in that case. We did look to the \u201cproscribed conduct\u201d of a state offense to determine whether it is \u201cpunishable as a felony under that federal law.\u201d 549 U. S., at 60. But the \u201chypothetical approach\u201d employed by the Court of Appeals introduces a level of conjecture at the outset of this inquiry that has no basis in Lopez. It ignores both the conviction (the relevant statutory hook) and the conduct actually punished by the state offense. Instead, it focuses on facts known to the immigration court that could have but did not serve as the basis for the state conviction and punishment. As the Sixth Circuit has explained, this approach is really a \u201c \u2018hypothetical to a hypothetical.\u2019\u201d Rashid v. Mukasey, 531 F. 3d 438, 445 (2008). Not only does the Government wish us to consider a fictional federal felony \u2014 whether the crime for which Carachuri-Rosendo was actually convicted would be a felony under the Controlled Substances Act \u2014 but the Government also wants us to consider facts not at issue in the crime of conviction (i. e., the existence of a prior conviction) to determine whether Carachuri-Rosendo could have been charged with a federal felony. This methodology is far removed from the more focused, categorical inquiry employed in Lopez.\nFourth, it seems clear that the Government\u2019s argument is inconsistent with common practice in the federal courts. It is quite unlikely that the \u201cconduct\u201d that gave rise to Caraehuri-Rosendo\u2019s conviction would have been punished as a felony in federal court. Under the United States Sentenc-' ing Guidelines, Carachuri-Rosendo\u2019s recommended sentence, based on the type of controlled substance at issue, would not have exceeded one year and very likely would have been less than six months. See United States Sentencing Commission, Guidelines Manual \u00a72D2.1(a)(3) (Nov. 2009) (base offense level of 4). And as was true in Lopez, the Government has provided us with no empirical data suggesting that \u201ceven a single eager Assistant United States Attorney\u201d has ever sought to prosecute a comparable federal defendant as a felon. 549 U. S., at 57-58. The Government\u2019s \u201chypothetical\u201d approach to this case is therefore misleading as well as speculative, in that Carachuri-Rosendo\u2019s federal-court counterpart would not, in actuality, have faced any felony charge.\nFinally, as we noted in Leocal v. Ashcroft, 543 U. S. 1, 11, n. 8 (2004), ambiguities in criminal statutes referenced in immigration laws should be construed in the noncitizen\u2019s favor. And here the critical language appears in a criminal statute, 18 U. S. C. \u00a7 924(e)(2).\nWe note that whether a noncitizen has committed an \u201caggravated felony\u201d is relevant, inter alia, to the type of relief he may obtain from a removal order, but not to whether he is in fact removable. In other words, to the extent that our rejection of the Government\u2019s broad understanding of the scope of \u201caggravated felony\u201d may have any practical effect on policing our Nation\u2019s borders, it is a limited one. Carachuri-Rosendo, and others in his position, may now seek cancellation of removal and thereby avoid the harsh consequence of mandatory removal. But he will not avoid the fact that his conviction makes him, in the first instance, removable. Any relief he may obtain depends upon the discretion of the Attorney General.\n* % *\nIn sum, the Government is correct that to qualify as an \u201caggravated felony\u201d under the INA, the conduct prohibited by state law must be punishable as a felony under federal law. See Lopez, 549 U. S., at 60. But as the text and structure of the relevant statutory provisions demonstrate, the defendant must also have been actually convicted of a crime that is itself punishable as a felony under federal law. The mere possibility that the defendant\u2019s conduct, coupled with facts outside of the record of conviction, could have authorized a felony conviction under federal law is insufficient to satisfy the statutory command that a noncitizen be \u201cconvicted of a[n] aggravated felony\u201d before he loses the opportunity to seek cancellation of removal. 8 U. S. C. \u00a7 1229b(a)(3). The Court of Appeals, as well as the Government, made the logical error of assuming that a necessary component of an aggravated felony is also sufficient to satisfy its statutory definition.\nV\nWe hold that when a defendant has been convicted of a simple possession offense that has not been enhanced based on the fact of a prior conviction, he has not been \u201cconvicted\u201d under \u00a7 1229b(a)(3) of a \u201cfelony punishable\u201d as such \u201cunder the Controlled Substances Act,\u201d 18 U. S. C. \u00a7 924(c)(2). The prosecutor in Carachuri-Rosendo\u2019s case declined to charge him as a recidivist. He has, therefore, not been convicted of a felony punishable under the Controlled Substances Act.\nThe judgment of the Court of Appeals is reversed.\nIt is so ordered.\nThe term \u201caggravated felony\u201d \u201capplies to an offense . . . whether in violation of Federal or State law\u201d (or, in certain circumstances, \u201cthe law of a foreign country\u201d). 8 U. S. C. \u00a7 1101(a)(43).\nThe Controlled Substances Act itself defines the term \u2018Tel\u00f3n/\u2019 as \u201cany Federal or State offense classified by applicable Federal or State law as a felony.\u201d 21 U. S. C. \u00a7802(13). The Government concedes that the classification of felonies under 18 U. S. C. \u00a7 3559(a) controls in this case. Brief for Respondent 4.\nAlthough \u00a7 844(a) does not expressly define a separate offense of \u201crecidivist simple possession,\u201d the fact of a prior conviction must nonetheless be found before a defendant is subject to a felony sentence. True, the statutory scheme comports with Almendarez-Torres v. United, States, 523 U. S. 224, 247 (1998), in which we explained that the Constitution does not require treating recidivism as an element of the offense. In other words, Congress has permissibly set out a criminal offense for simple possession whereby a recidivist finding by the judge, by a preponderance of the evidence, authorizes a punishment that exceeds the statutory maximum penalty for a simple possession offense. But the fact of a prior conviction must still be found \u2014 if only by a judge and if only by a preponderance of the evidence \u2014 before a defendant is subject to felony punishment. For present purposes, we therefore view \u00a7844(a)\u2019s felony simple possession provision as separate and distinct from the misdemeanor simple possession offense that section also prescribes.\nThe statute provides in relevant part: \u201cAny person who violates this subsection may be sentenced to a term of imprisonment of not more than 1 year ... except that if he commits such offense after a prior conviction ... he shall be sentenced to a term of imprisonment for not less than 15 days but not more than 2 years ....\u201d 21 U. S. C. \u00a7 844(a).\nThis subsection provides: \u201cNo person who stands convicted of an offense under this part shall be sentenced to increased punishment by reason of one or more prior convictions, unless before trial, or before entry of a plea of guilty, the United States attorney files an information with the court (and serves a copy of such information on the person or counsel for the person) stating in writing the previous convictions to be relied upon.\u201d \u00a7 851(a)(1).\nWe have previously recognized the mandatory nature of these requirements, as have the Courts of Appeals. See United States v. LaBonte, 520 U. S. 751, 754, n. 1 (1997) (\u201cWe note that imposition of an enhanced penalty [for recidivism] is not automatic. ... If the Government does not file such notice [under 21 U. S. C. \u00a7 851(a)(1)] ... the lower sentencing range will he applied even though the defendant may otherwise be eligible for the increased penalty\u201d); see also, e. g., United States v. Beasley, 495 F. 3d 142, 148 (CA4 2007); United States v. Ceballos, 302 F. 3d 679, 690-692 (CA7 2002); United States v. Dodson, 288 F. 3d 153, 159 (CA5 2002); United States v. Mooring, 287 F. 3d 725, 727-728 (CA8 2002). Although \u00a7851\u2019s procedural safeguards are not constitutionally compelled, see Almendarez-Torres, 523 U. S., at 247, they are nevertheless a mandatory feature of the Controlled Substances Act and a prerequisite to securing a felony conviction under \u00a7 844(a) for a successive simple possession offense.\nBut for trivial marijuana possession offenses (such as CarachuriRosendo's 2004 state offense), virtually all drug offenses are grounds for removal under 8 U. S. C. \u00a7 1227(a)(2)(B)(i).\nSince the Court of Appeals issued its decision in this case, CarachuriRosendo has been removed. Brief for Respondent 10-11. Neither party, however, has suggested that this case is now moot. If Carachuri-Rosendo was not convicted of an \u201caggravated felony,\u201d and if he continues to satisfy the requirements of 8 U. S. C. \u00a7 1229b(a), he may still seek cancellation of removal even after having been removed. See \u00a7 1229b(a) (\u201cThe Attorney General may cancel removal in the case of an alien who is inadmissible or deportable horn the United States if the alien\u201d meets several criteria).\nCompare 570 F. 3d 263 (CA5 2009) (holding state conviction for simple possession after prior conviction for simple possession is a felony under the Controlled Substances Act and thus an aggravated felony) and Fernandez v. Mukasey, 544 P. 3d 862 (CA7 2008) (same), with Berhe v. Gonzales, 464 F. 3d 74 (CA1 2006) (taking contrary view), Alsol v. Mukasey, 548 F. 3d 207 (CA2 2008) (same), Gerbier v. Holmes, 280 F. 3d 297 (CA3 2002) (same), and Rashid v. Mukasey, 531 F. 3d 438 (CA6 2008) (same).\nThe Court stated in Lopez that \"recidivist possession, see 21 U. S. C. \u00a7 844(a), clearly fall[s] within the definitions used by Congress in 8 U. S. C. \u00a7 1101(a)(43)(B) and 18 U. S. C. \u00a7 924(c)(2), regardless of whether these federal possession felonies or their state counterparts constitute \u2018illicit trafficking in a controlled substance\u2019 or \u2018drug trafficking\u2019 as those terms are used in ordinary speech.\u201d 549 U. S., at 55, n. 6. Our decision today is not in conflict with this footnote; it is still true that recidivist simple possession offenses charged and prosecuted as such \u201cclearly fall\u201d within the definition of an aggravated felony. What we had no occasion to decide in Lopez, and what we now address, is what it means to be convicted of an aggravated felony. Lopez teaches us that it is necessary that the conduct punished under state law correspond to a felony punishable under the Controlled Substances Act to be an aggravated felony under \u00a7 1101(a)(43)(B). But it does not instruct as to whether the mere possibility that conduct could be \u2014 but is not \u2014 charged as an offense punishable as a felony under federal law is sufficient. ibid., the Government will not have established that the defendant had a prior conviction for which the maximum term of imprisonment was 10 years or more (assuming the recidivist finding is a necessary precursor to such a sentence).\nOur decision last Term in Nijhawan v. Holder, 557 U. S. 29 (2009), also relied upon by the Government, is not to the contrary. In that case, we rejected the so-called categorical approach employed in cases like United States v. Rodriquez, 553 U. S. 377 (2008), when assessing whether, under 8 U. S. C. \u00a7 1101(a)(43)(M)(i), a noncitizen has committed \u201can offense that . . . involves fraud or deceit in which the loss to the . . . victims exceeds $10,000.\u201d Our analysis was tailored to the \u201ccircumstance-specific\u201d language contained in that particular subsection of the aggravated felony definition. Nijhawan, 557 U. S., at 38. And we specifically distinguished the \u201cgeneric\u201d categories of aggravated felonies for which .a categorical approach might be appropriate \u2014 including the \u201cillicit trafficking\u201d provision \u2014 from the \u201ccircumstance-specific\u201d offense at hand. Id., at 36-39. Moreover, unlike the instant ease, there was no debate in Nijhawan over whether the petitioner actually had been \u201cconvicted\u201d of fraud; we only considered how to calculate the amount of loss once a conviction for a particular category of aggravated felony has occurred.\nLinking our inquiry to the record of conviction comports with how we have categorized convictions for state offenses within the definition of generic federal criminal sanctions under the Armed Career Criminal Act (ACCA), 18 U. S. C. \u00a7 924(e). The United States urges that our decision in Rodriquez, 553 U. S. 377, an ACCA ease, supports its position in this case. Brief for Respondent 29-30. To the extent that Rodriquez is relevant to the issue at hand, we think the contrary is true. In that decision we considered whether a recidivist finding under state law that had the effect of increasing the \u201cmaximum term of imprisonment\u201d to 10 years, irrespective of the actual sentence imposed, made the offense a \u201cserious drug offense\u201d within the meaning of 18 U. S. C. \u00a7 924(e)(1) and therefore an ACCA predicate offense. 553 U. S., at 382. We held that a recidivist finding could set the \u201cmaximum term of imprisonment,\u201d but only when the finding is a part of the record of conviction. Id., at 389. Indeed, we specifically observed that \u201cin those cases in which the records that may properly be consulted do not show that the defendant faced the possibility of a recidivist enhancement, it may well be that the Government will be precluded from establishing that a conviction was for a qualifying offense.\u201d Ibid. In other words, when the recidivist finding giving rise to a 10-year sentence is not apparent from the sentence itself, or appears neither as part of the \u201cjudgment of conviction\u201d nor the \u201cformal charging document,\u201d",
+        "type": "majority",
+        "author": "Justice Stevens"
+      },
+      {
+        "text": "Justice Scalia,\nconcurring in the judgment.\nI agree with the Court that Carachuri-Rosendo\u2019s 2005 conviction for simple possession of a tablet of Xanax in violation of Texas law is not a conviction for an \u201caggravated felony\u201d under 8 U. S. C. \u00a7 1101(a)(43)(B). But my reasoning is more straightforward than the Court\u2019s, and so I concur only in the judgment.\nUnder the Immigration and Nationality Act, the Attorney General may cancel the removal of an alien from the United States provided the alien \u201chas not been convicted of any aggravated felony.\u201d \u00a7 1229b(a)(3). There is no statutory definition of \u201cconvicted,\u201d but a \u201cconviction\u201d is defined to mean a \u201cformal judgment of guilt of the alien entered by a court.\u201d \u00a7 1101(a)(48)(A). The term \u201caggravated felony\u201d includes, among many other offenses, \u201ca drug trafficking crime (as defined in [18 U. S. C. \u00a7 924(c)]).\u201d \u00a7 1101(a)(43)(B). A \u201cdrug trafficking crime\u201d is in turn defined as \u201cany felony punishable under the Controlled Substances Act.\u201d 18 U. S. C. \u00a7 924(c)(2).\nIt could be concluded from the provisions discussed above that only a federal conviction for a felony offense under the Controlled Substances Act would qualify under 8 U. S. C. \u00a7 1101(a)(43)(B). But the penultimate sentence in \u00a7 1101(a)(43) provides that the statutory definition of \u201caggravated felony\u201d \u201capplies to an offense described in this paragraph whether in violation of Federal or State law.\u201d This language, we have said, confirms that \u201ca state offense whose elements include the elements of a felony punishable under the [Controlled Substances Act] is an aggravated felony.\u201d Lopez v. Gonzales, 549 U. S. 47, 57 (2006).\nThe conceptual problem in the present case is that the only crime defined by 21 U. S. C. \u00a7 844(a) of the Controlled Substances Act, simple possession of prohibited drugs, is a misdemeanor. That misdemeanor becomes a \u201cfelony punishable under the Controlled Substances Act\u201d only because the sentencing factor of recidivism authorizes additional punishment beyond one year, the criterion for a felony. We held in Almendarez-Torres v. United States, 523 U. S. 224 (1998), that recidivism can constitutionally be made a sentencing factor rather than an element of the crime, despite the fact that it is used to increase the allowable sentence. And we said in Lopez that a \u201cstate possession crim[e] that correspond[s] to\u201d the \u201cfelony violatio[n]\u201d of \u201crecidivist possession\u201d in \u00a7 844(a) \u201cclearly fall[s] within the definitions used by Congress in . . . \u00a71101(a)(43)(B) and . . . \u00a7 924(c)(2).\u201d 549 U. S., at 55, n. 6.\nBut to say all that is not to say that an alien has been \u201cconvicted of\u201d an aggravated felony (which is what \u00a7 1229b(a)(3) requires) when he has been convicted of nothing more than a second state misdemeanor violation, the punishment for which could, because of recidivism, be extended beyond one year. Just because, by reason of Almendarez-Torres, the federal misdemeanor offense has been raised to a felony offense without changing its elements, solely by increasing its penalty pursuant to a recidivist \u201csentencing factor\u201d; it does not follow that when the question is asked whether someone has been \u201cconvicted of\u201d a state offense that \u201ccorresponds\u201d to the federal misdemeanor-become-felony, the answer can be sought in sentencing factors. A defendant is not \u201cconvicted\u201d of sentencing factors, but only of the elements of the crime charged in the indictment. In other words, a misdemeanor offense with a sentencing factor that raises its punishment to the felony level qualifies for purposes of establishing the elements of a \u201cfelony punishable under the Controlled Substances Act\u201d; but does not qualify for purposes of determining what elements the alien has been \u201cconvicted of.\u201d\nHere, Carachuri-Rosendo was only \u201cconvicted of\u201d the crime of knowing possession of a controlled substance without a valid prescription, a class A misdemeanor under Texas law. Tex. Health & Safety Code Ann. \u00a7\u00a7 481.117(a) and (b) (West Supp. 2009). Since the elements of that crime did not include recidivism, the crime of his conviction did not \u201ccorrespond\u201d to the Controlled Substances Act felony of possession-plus-recidivism under 21 U. S. C. \u00a7 844(a).\nFor these reasons, I concur in the judgment.",
+        "type": "concurrence",
+        "author": "Justice Scalia,"
+      },
+      {
+        "text": "Justice Thomas,\nconcurring in the judgment.\nA plain reading of 18 U. S. C. \u00a7 924(c)(2) identifies two requirements that must be satisfied for Carachuri-Rosendo\u2019s state conviction to qualify as a \u201c\u2018drug trafficking crime\u2019\u201d that renders him ineligible for cancellation of removal: \u201cFirst, the offense must be a felony; second, the offense must be capable of punishment under the Controlled Substances Aet (CSA).\u201d Lopez v. Gonzales, 549 U. S. 47, 61 (2006) (Thomas, J., dissenting). Carachuri-Rosendo\u2019s offense of simple possession was \u201cpunishable under the [CSA],\u201d \u00a7 924(c)(2), and thus satisfied the second requirement, but his crime of conviction in state court was only a misdemeanor. Accordingly, that offense does not bar him from obtaining cancellation of removal.\nThe Fifth Circuit understandably felt constrained by this Court\u2019s decision in Lopez to rule otherwise. In Lopez, this Court held that \u201ca state offense constitutes a \u2018felony punishable under the [CSA]\u2019 only if it proscribes conduct punishable as a felony under that federal law.\u201d Id., at 60 (emphasis added). Though Lopez addressed a felony conviction under state law that did not correlate to a felony under the CSA, the Court\u2019s rule preordained the result in this case:\n\u201c[T]he Court admits that its reading will subject an alien defendant convicted of a state misdemeanor to deportation if his conduct was punishable as a felony under the CSA. Accordingly, even if never convicted of an actual felony, an alien defendant becomes eligible for deportation based on a hypothetical federal prosecution.\u201d Id., at 67 (Thomas, J., dissenting).\nToday, the Court engages in jurisprudential gymnastics to avoid Lopez. I will not contort the law to fit the case. Lopez was wrongly decided. But because a proper reading of the statutory text, see id., at 60-63, supports the result the Court reaches today, I concur in the judgment.\nSee 8 U. S. C. \u00a7 1229b(a) (permitting cancellation of removal); \u00a7 1229b(a)(3) (barring aliens convicted of an \u201caggravated felony\u201d from cancellation of removal); \u00a7 1101(a)(43)(B) (defining \u201caggravated felony\u201d as \u201cillicit trafficking in a controlled substance .. . including a drug trafficking crime (as defined in [18 U. S. C. \u00a7 924(c)])\u201d); 18 U. S. C. \u00a7 924(c)(2) (defining \u201cdrug trafficking crime\u201d to mean \u201cany felony punishable under the Controlled Substances Act\u201d).",
+        "type": "concurrence",
+        "author": "Justice Thomas,"
+      }
+    ],
+    "attorneys": [
+      "Sri Srinivasan argued the cause for petitioner. With him on the briefs were Irving L. Gornstein, Kathryn E. Tarbert, and Geoffrey A. Hoffman.",
+      "Nicole A. Saharsky argued the cause for respondent. With her on the brief were Solicitor General Kagan, Assistant Attorney General West, Deputy Solicitors General Kneedler and Dreeben, Donald E. Keener, W. Manning Evans, Saul Greenstein, Andrew MacLachlan, and Holly M. Smith."
+    ],
+    "corrections": "",
+    "head_matter": "CARACHURI-ROSENDO v. HOLDER, ATTORNEY GENERAL\nCERTIORARI TO THE UNITED STATES COURT OF APPEALS FOR THE FIFTH CIRCUIT\nNo. 09-60.\nArgued March 31,2010 \u2014\nDecided June 14, 2010\nStevens, J., delivered the opinion of the Court, in which Roberts, C. J., and Kennedy, Ginsburg, Breyer, Auto, and Sotomayor, JJ., joined. Scalia, J., post, p. 582, and Thomas, J., post, p. 584, filed opinions concurring in the judgment.\nSri Srinivasan argued the cause for petitioner. With him on the briefs were Irving L. Gornstein, Kathryn E. Tarbert, and Geoffrey A. Hoffman.\nNicole A. Saharsky argued the cause for respondent. With her on the brief were Solicitor General Kagan, Assistant Attorney General West, Deputy Solicitors General Kneedler and Dreeben, Donald E. Keener, W. Manning Evans, Saul Greenstein, Andrew MacLachlan, and Holly M. Smith.\nBriefs of amici curiae urging reversal were filed for the Center on the Administration of Criminal Law by Catherine M. Amirfar, Jill van Berg, Anthony S. Barkow, and David B. Edwards; for the National Association of Criminal Defense Lawyers et al. by Jim Walden and Richard A. Bierschbach; for the National Association of Federal Defenders et al. by Iris E. Bennett, Paul M. Rashkind, Frances H. Pratt, Brett G. Sweitzer, Mary Price, and Margaret Colgate Love; and for Organizations Representing Asylum Seekers by Linda T. Coberly.\nNancy Morawetz filed a brief for the Asian American Justice Center et al. as amici curiae."
+  },
+  "file_name": "0563-01",
+  "first_page_order": 611,
+  "last_page_order": 633
+}

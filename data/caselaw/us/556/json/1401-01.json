@@ -1,0 +1,115 @@
+{
+  "id": 3653834,
+  "name": "CONKRIGHT et al. v. FROMMERT et al.",
+  "name_abbreviation": "Conkright v. Frommert",
+  "decision_date": "2009-04-30",
+  "docket_number": "No. 08A884 (08-810)",
+  "first_page": "1401",
+  "last_page": "1403",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "556 U.S. 1401"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "415 U. S. 61",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6172076
+      ],
+      "year": 1974,
+      "pin_cites": [
+        {
+          "page": "90"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/415/0061-01"
+      ]
+    },
+    {
+      "cite": "448 U. S. 1306",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1787657
+      ],
+      "weight": 3,
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "1308",
+          "parenthetical": "Brennan, J., in chambers"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/448/1306-01"
+      ]
+    },
+    {
+      "cite": "535 F. 3d 111",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5895184
+      ],
+      "year": 2008,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/535/0111-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 310,
+    "char_count": 3967,
+    "ocr_confidence": 0.636,
+    "pagerank": {
+      "raw": 1.2728909298031015e-07,
+      "percentile": 0.6151843215569711
+    },
+    "sha256": "d1b70708d8f56f520fad65f3734ccac039f311221c6260a360f62fda368b5b36",
+    "simhash": "1:63b6519e0dc4f5ad",
+    "word_count": 636
+  },
+  "last_updated": "2024-02-27T20:53:05.274471+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "CONKRIGHT et al. v. FROMMERT et al."
+    ],
+    "opinions": [
+      {
+        "text": "Justice Ginsburg,\nCircuit Justice.\nSally L. Conkright, Administrator of the Xerox Corporation Pension Plan, et al., have reapplied for a stay of the mandate of the United States Court of Appeals for the Second Circuit. In their initial application, filed October 16, 2008, the applicants sought a stay pending the filing and disposition of their petition for certiorari. The Second Circuit\u2019s decision in their case, 535 F. 3d 111 (2008), they asserted, was erroneous, created a Circuit conflict, and would cause irreparable harm if given effect. Without a stay, the applicants explained, they would be required to make additional payments to dozens of pension plan beneficiaries \u2014 money that could prove difficult to recoup if this Court were to grant certiorari and rule in their favor.\nActing in my capacity as Circuit Justice, I denied the stay application on October 20, 2008. Denial of such in-chambers stay applications is the norm; relief is granted only in \u201cextraordinary cases.\u201d Rostker v. Goldberg, 448 U. S. 1306, 1308 (1980) (Brennan, J., in chambers). Specifically, the applicant must demonstrate (1) \u201ca \u2018reasonable probability\u2019 that four Justices will consider the issue sufficiently meritorious to grant certiorari or to note probable jurisdiction\u201d; (2) \u201ca fair prospect that a majority of the Court will conclude that the decision below was erroneous\u201d; and (3) a likelihood that \u201cirreparable harm [will] result from the denial of a stay.\u201d Ibid. In addition, \u201cin a close case it may be appropriate to \u2018balance the equities\u2019 \u2014 to explore the relative harms to applicant and respondent, as well as the interests of the public at large.\u201d Ibid. I earlier determined, taking account of the Second Circuit\u2019s evaluation, that this case did not meet the above-stated criteria.\nThe applicants seek reconsideration based on a change in circumstances. Specifically, after I denied their initial application, the applicants filed their petition for certiorari, and, on March 2,2009, the Court called for the views of the Solicitor General (CVSG). The Solicitor General has yet to respond. According to the applicants, a stay is now in order because the Court\u2019s invitation to the Solicitor General \u2014 a step taken in only a small fraction of cases \u2014 establishes a \u201creasonable probability\u201d that certiorari will be granted.\nOur request for the Solicitor General\u2019s view, although relevant to the \u201creasonable probability\u201d analysis, is hardly dis-positive of an application to block implementation of a Court of Appeals\u2019 judgment. CVSG\u2019d petitions, it is true, are granted at a far higher rate than other petitions. But it is also true that the Court denies certiorari in such cases more often than not. Consideration of the guiding criteria in the context of the particular case remains appropriate.\nA \u201creasonable probability\u201d of a grant is only one of the hurdles an applicant must clear. Relief is not warranted unless the other factors also counsel in favor of a stay. The Court\u2019s invitation to the Solicitor General does not lead me to depart from my previous assessment of those factors. With respect to irreparable harm, the applicants urge that, should they prevail in this Court, they may have trouble recouping any funds they disburse to beneficiaries. But they do not establish that recoupment will be impossible; nor do they suggest that the outlays at issue will place the plan itself in jeopardy. Cf. Sampson v. Murray, 415 U. S. 61, 90 (1974) (\u201cMere injuries, however substantial, in terms of money, time and energy necessarily expended in the absence of a stay, are not enough. The possibility that adequate compensatory or other corrective relief will be available at a later date, in the ordinary course of litigation, weighs heavily against a claim of irreparable harm\u201d (internal quotation marks omitted)).\nAccordingly, the request for a stay is denied.\nIt is so ordered.",
+        "type": "majority",
+        "author": "Justice Ginsburg,"
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "CONKRIGHT et al. v. FROMMERT et al.\nNo. 08A884 (08-810).\nDecided April 30, 2009"
+  },
+  "file_name": "1401-01",
+  "first_page_order": 1349,
+  "last_page_order": 1351
+}

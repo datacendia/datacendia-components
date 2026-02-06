@@ -1,0 +1,545 @@
+{
+  "id": 3653636,
+  "name": "UNITED STATES v. NAVAJO NATION",
+  "name_abbreviation": "United States v. Navajo Nation",
+  "decision_date": "2009-04-06",
+  "docket_number": "No. 07-1410",
+  "first_page": "287",
+  "last_page": "302",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "556 U.S. 287"
+    },
+    {
+      "type": "parallel",
+      "cite": "173 L. Ed. 2d 429"
+    },
+    {
+      "type": "parallel",
+      "cite": "129 S. Ct. 1547"
+    },
+    {
+      "type": "vendor",
+      "cite": "2009 U.S. LEXIS 2550"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2008-042"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "452 U. S. 264",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1313944
+      ],
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "268-272"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/452/0264-01"
+      ]
+    },
+    {
+      "cite": "30 U. S. C. \u00a7 1201",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "91 Stat. 445",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "30 U.S.C. \u00a71201",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 U. S. C. \u00a7638",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "554 U. S. 944",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "year": 2008,
+      "opinion_index": 0
+    },
+    {
+      "cite": "30 U. S. C. \u00a7 1300",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(e)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 U. S. C. \u00a7\u00a7 635",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "68 Fed. Cl. 805",
+      "category": "reporters:specialty",
+      "reporter": "Fed. Cl.",
+      "case_ids": [
+        1614789
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "811"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/fed-cl/68/0805-01"
+      ]
+    },
+    {
+      "cite": "347 F. 3d 1327",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1200930,
+        9054069
+      ],
+      "year": 2003,
+      "opinion_index": 0,
+      "case_paths": [
+        "/fed-cl/58/1327-01",
+        "/f3d/347/1327-01"
+      ]
+    },
+    {
+      "cite": "25 U. S. C. \u00a72101",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "96 Stat. 1938",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 U. S. C. \u00a7399",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 U. S. C. \u00a7 406",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 CFR \u00a7 211.15",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "(c)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "535 U. S. 1111",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        352513,
+        353571,
+        354309,
+        353388,
+        353329,
+        354170,
+        353181,
+        354494,
+        354431
+      ],
+      "year": 2002,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/535/1111-08",
+        "/us/535/1111-07",
+        "/us/535/1111-04",
+        "/us/535/1111-05",
+        "/us/535/1111-09",
+        "/us/535/1111-02",
+        "/us/535/1111-03",
+        "/us/535/1111-06",
+        "/us/535/1111-01"
+      ]
+    },
+    {
+      "cite": "263 F. 3d 1325",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9487970
+      ],
+      "weight": 2,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "1330-1332"
+        },
+        {
+          "page": "1327, 1330-1331"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/263/1325-01"
+      ]
+    },
+    {
+      "cite": "52 Stat. 347",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Fed. Cl. 217",
+      "category": "reporters:specialty",
+      "reporter": "Fed. Cl.",
+      "case_ids": [
+        7743493
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "236"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/fed-cl/46/0217-01"
+      ]
+    },
+    {
+      "cite": "537 U. S. 465",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9191282
+      ],
+      "weight": 3,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "477"
+        },
+        {
+          "page": "473"
+        },
+        {
+          "page": "477"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/537/0465-01"
+      ]
+    },
+    {
+      "cite": "463 U. S. 206",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6193185
+      ],
+      "weight": 2,
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "218",
+          "parenthetical": "Mitchell II"
+        },
+        {
+          "page": "224"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/463/0206-01"
+      ]
+    },
+    {
+      "cite": "372 F. 2d 1002",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10816584,
+        2043562
+      ],
+      "year": 1967,
+      "pin_cites": [
+        {
+          "page": "1009"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-ct-cl/178/0599-01",
+        "/f2d/372/1002-01"
+      ]
+    },
+    {
+      "cite": "178 Ct. Cl. 599",
+      "category": "reporters:specialty",
+      "reporter": "Ct. Cl.",
+      "case_ids": [
+        10816584
+      ],
+      "year": 1967,
+      "pin_cites": [
+        {
+          "page": "607"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-ct-cl/178/0599-01"
+      ]
+    },
+    {
+      "cite": "445 U. S. 535",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1777845
+      ],
+      "weight": 2,
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "538",
+          "parenthetical": "Mitchell I"
+        },
+        {
+          "page": "542"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/445/0535-01"
+      ]
+    },
+    {
+      "cite": "424 U. S. 392",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12026657
+      ],
+      "weight": 2,
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "400"
+        },
+        {
+          "page": "400"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/424/0392-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 1505",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "510 U. S. 471",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        230419
+      ],
+      "weight": 4,
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "475"
+        },
+        {
+          "page": "495-502"
+        },
+        {
+          "page": "507-508"
+        },
+        {
+          "page": "509"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/510/0471-01"
+      ]
+    },
+    {
+      "cite": "501 F. 3d 1327",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3706097,
+        7346135
+      ],
+      "weight": 5,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "1346"
+        },
+        {
+          "page": "1341"
+        },
+        {
+          "page": "1342"
+        },
+        {
+          "page": "1342-1343"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/501/1327-01",
+        "/am-tribal-law/7/1327-01"
+      ]
+    },
+    {
+      "cite": "537 U. S. 488",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9191320
+      ],
+      "weight": 4,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "493",
+          "parenthetical": "Navajo I"
+        },
+        {
+          "page": "503"
+        },
+        {
+          "page": "506"
+        },
+        {
+          "page": "514-521",
+          "parenthetical": "dissenting opinion"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/537/0488-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1192,
+    "char_count": 26884,
+    "ocr_confidence": 0.674,
+    "pagerank": {
+      "raw": 2.056354676867177e-06,
+      "percentile": 0.9952167095456145
+    },
+    "sha256": "c2fbd7bd1dad6a1436b284d0ef996246cd1a247ed092a746d34142ab7f3d9979",
+    "simhash": "1:d97cd634cf0b872a",
+    "word_count": 4442
+  },
+  "last_updated": "2024-02-27T20:53:05.274471+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Souter, with whom Justice Stevens joins, concurring."
+    ],
+    "parties": [
+      "UNITED STATES v. NAVAJO NATION"
+    ],
+    "opinions": [
+      {
+        "text": "Justice Scalia\ndelivered the opinion of the Court.\nFor over 15 years, the Indian Tribe known as the Navajo Nation has been pursuing a claim for money damages against the Federal Government based on an asserted breach of trust by the Secretary of the Interior in connection with his approval of amendments to a coal lease executed by the Tribe. The original lease took effect in 1964. The amendments were approved in 1987. The litigation was initiated in 1993. Six years ago, we held that \u201cthe Tribe\u2019s claim for compensation... fails,\u201d United States v. Navajo Nation, 537 U. S. 488, 493 (2003) (Navajo I), but after further proceedings on remand the United States Court of Appeals for the Federal Circuit resuscitated it. 501 F. 3d 1327 (2007). Today we hold, once again, that the Tribe\u2019s claim for compensation fails. This matter should now be regarded as closed.\nI. Legal Background\nThe Federal Government cannot be sued without its consent. FDIC v. Meyer, 510 U. S. 471, 475 (1994). Limited consent has been granted through a variety of statutes, including one colloquially referred to as the Indian Tucker Act:\n\u201cThe United States Court of Federal Claims shall have jurisdiction of any claim against the United States accruing after August 13, 1946, in favor of any tribe ... whenever such claim is one arising under the Constitution, laws or treaties of the United States, or Executive orders of the President, or is one which otherwise would be cognizable in the Court of Federal Claims if the claimant were not an Indian tribe, band or group.\u201d 28 U. S. C. \u00a7 1505.\nThe last clause refers to the (ordinary) Tucker Act, which waives immunity with respect to any claim \u201cfounded either upon the Constitution, or any Act of Congress or any regulation of an executive department, or upon any express or implied contract with the United States, or for liquidated or unliquidated damages in cases not sounding in tort.\u201d \u00a7 1491(a)(1).\nNeither the Tucker Act nor the Indian Tucker Act creates substantive rights; they are simply jurisdictional provisions that operate to waive sovereign immunity for claims premised on other sources of law (e. g., statutes or contracts). United States v. Testan, 424 U. S. 392, 400 (1976); United States v. Mitchell, 445 U. S. 535, 538 (1980) (Mitchell I). The other source of law need not explicitly provide that the right or duty it creates is enforceable through a suit for damages, but it triggers liability only if it \u201c \u2018can fairly be interpreted as mandating compensation by the Federal Government.\u2019\u201d Testan, supra, at 400 (quoting Eastport S. S. Corp. v. United States, 178 Ct. Cl. 599, 607, 372 F. 2d 1002, 1009 (1967)); see also United States v. Mitchell, 463 U. S. 206, 218 (1983) (Mitchell II); Navajo I, 537 U. S., at 503.\nAs we explained in Navajo I, there are thus two hurdles that must be cleared before a tribe can invoke jurisdiction under the Indian Tucker Act. First, the tribe \u201cmust identify a substantive source of law that establishes specific fiduciary or other duties, and allege that the Government has failed faithfully to perform those duties.\u201d Id., at 506. \u201cIf that threshold is passed, the court must then determine whether the relevant source of substantive law \u2018can fairly be interpreted as mandating compensation for damages sustained as a result of a breach of the duties [the governing law] impose[s].\u2019\u201d Ibid, (alteration in original). At the second stage, principles of trust law might be relevant \u201cin drawing the inference that Congress intended damages to remedy a breach.\u201d United States v. White Mountain Apache Tribe, 537 U. S. 465, 477 (2003).\nII. History of the Present Case\nA. The Facts\nA comprehensive recitation of the facts can be found in Navajo I, supra, at 495-502. By way of executive summary: The Tribe occupies a large Indian reservation in the American Southwest, on which there are significant coal deposits. In 1964 the Secretary of the Interior approved a lease (Lease 8580), executed by the Tribe and the predecessor of Peabody Coal Company, allowing the company to engage in coal mining on a tract of the reservation in exchange for royalty payments to the Tribe. The term of the lease was set at \u201cten (10) years from the date hereof, and for so long thereafter as the substances produced are being mined by the Lessee in accordance with its terms, in paying quantities,\u201d App. 189; it is still in effect today. The royalty rates were originally set at a maximum of 37.5 cents per ton of coal, but the lease also said that the rates were \u201csubject to reasonable adjustment by the Secretary of the Interior\u201d after 20 years and again \u201cat the end of each successive ten-year period thereafter.\u201d Id., at 194.\nThe dispute in this case concerns the Tribe\u2019s attempt to secure such an adjustment to the royalty rate after the initial 20-year period elapsed in 1984. At that point, the Tribe requested that the Secretary exercise his power to increase the royalty rate, and the Director of the Bureau of Indian Affairs for the Navajo Area issued an opinion letter imposing a new rate of 20 percent of gross proceeds. Id., at 8-9. But Peabody filed an administrative appeal, and while it was pending the Tribe and the company reached a negotiated agreement to set a rate of 12.5 percent of gross proceeds instead. As a result, the Area Director\u2019s decision was vacated, the administrative appeal was dismissed, and the Secretary approved the amendments to the lease.\nB. This Litigation Through Navajo I\nThe Tribe launched the present lawsuit in 1993, claiming that the Secretary\u2019s actions in connection with the approval of the lease amendments constituted a breach of trust. In particular, the Tribe alleged that the Secretary, following upon improper ex parte contacts with Peabody, had delayed action on Peabody\u2019s administrative appeal in order to pressure the economically desperate Tribe to return to the bargaining table. This, the complaint charged, was in violation of the United States\u2019 fiduciary duty to act in the Indians\u2019 best interests. The Tribe sought $600 million in damages, invoking the Indian Tucker Act to bypass sovereign immunity.\nThe Court of Federal Claims granted summary judgment to the United States, concluding that \u201cthe Navajo Nation has failed to present statutory authority which can be fairly interpreted as mandating compensation for the government\u2019s fiduciary wrongs,\u201d Navajo Nation v. United States, 46 Fed. Cl. 217, 236 (2000), and therefore could not sue under the Indian Tucker Act. The Federal Circuit reversed that ruling and held that the Indian Mineral Leasing Act of 1938 (IMLA), Ch. 198, 52 Stat. 347, 25 U. S. C. \u00a7396a et seq., among other statutes, gave the Government broad control over mineral leasing on Indian lands, thus creating a fiduciary duty enforceable through suits for monetary damages. Navajo Nation v. United States, 263 F. 3d 1325, 1330-1332 (2001). Finding that the Government had in fact violated its obligations, the Court of Appeals reinstated the suit.\nWe granted certiorari, United States v. Navajo Nation, 535 U. S. 1111 (2002), and (as described by the author of the ensuing opinion, concurring in a companion case) considered \u201cthe threshold question\u201d presented by the Tribe\u2019s attempt to invoke the Indian Tucker Act: \u201cwhether the IMLA and its regulations impose any concrete substantive obligations, fiduciary or otherwise, on the Government,\u201d White Mountain, supra, at 480 (Ginsburg, J., concurring). The answer was an unequivocal no.\nThe relevant provision of the IMLA provided as follows:\n\u201c[U]nallotted lands within any Indian reservation or lands owned by any tribe . .. may, with the approval of the Secretary of the Interior, be leased for mining purposes, by authority of the tribal council or other authorized spokesmen for such Indians, for terms not to exceed ten years and as long thereafter as minerals are produced in paying quantities.\u201d 25 U. S. C. \u00a7 396a.\nAnother provision of the IMLA authorized the Secretary to promulgate regulations governing operations under such leases, \u00a7 396d, but during the relevant period the regulations applicable to coal leases, beyond setting a minimum royalty rate of 10 cents per ton, 25 CFR \u00a7 211.15(c) (1985), did not limit the Secretary\u2019s approval authority.\nWe construed the IMLA in light of its purpose: to \u201cenhance tribal self-determination by giving Tribes, not the Government, the lead role in negotiating mining leases with third parties.\u201d Navajo I, 537 U. S., at 508. Consistent with that goal, the IMLA gave the Secretary not a \u201ccomprehensive managerial role,\u201d id., at 507, but only the power to approve coal leases already negotiated by Tribes. That authority did not create, expressly or otherwise, a trust duty with respect to coal leasing and so there existed no enforceable fiduciary obligations that the Tribe could sue the Government for having neglected. Id., at 507-508.\nWe distinguished Mitchell II, which involved a series of statutes and regulations that gave the Federal Government \u201cfull responsibility to manage Indian resources and land for the benefit of the Indians.\u201d 463 U. S., at 224. Title 25 U. S. C. \u00a7 406(a) permitted Indians to sell timber with the consent of the Secretary of the Interior, but directed the Secretary to base his decisions on \u201ca consideration of the needs and best interests of the Indian owner and his heirs\u201d and enumerated specific factors to guide that decision-making. We understood that statute \u2014 in combination with several other provisions and the applicable regulations \u2014 to create a fiduciary duty with respect to Indian timber. Mitchell II, supra, at 219-224. But neither the IMLA nor its regulations established any analogous duties or obligations in the coal context. Navajo I, supra, at 507-508.\nNor did the other statutes cited by the Tribe \u2014 25 U. S. C. \u00a7399 and the Indian Mineral Development Act of 1982 (IMDA), 96 Stat. 1938, 25 U. S. C. \u00a72101 et seq. \u2014 help its case. Section 399 \u201cis not part of the IMLA and [did] not govern Lease 8580,\u201d Navajo I, 537 U. S., at 509; rather, it granted to the Secretary the power to lease Indian land on his own say-so. We therefore found it irrelevant to the question whether \u201cthe Secretary\u2019s more limited approval role under the IMLA\u201d created any enforceable duties. Ibid. And while the IMDA did set standards to govern the Secretary\u2019s approval of other mining-related agreements, Lease 8580 \u201cfalls outside the IMDA\u2019s domain,\u201d ibid.; that law was accordingly beside the point.\nHaving resolved that \u201cwe ha[d] no warrant from any relevant statute or regulation to conclude that [the Secretary\u2019s] conduct implicated a duty enforceable in an action for damages under the Indian Tucker Act,\u201d this Court reversed the Federal Circuit\u2019s judgment in favor of the Tribe and \u201cremanded for further proceedings consistent with this opinion.\u201d Id., at 514.\nC. Proceedings on Remand\nOn remand, the Tribe argued that even if its suit could not be maintained on the basis of the IMLA, the IMDA, or \u00a7 399, a \u201cnetwork\u201d of other statutes, treaties, and regulations could provide the basis for its claims. The Government objected that our opinion foreclosed that possibility, but the Federal Circuit disagreed and remanded for consideration of the argument in the first instance. 347 F. 3d 1327 (2003). The Court of Federal Claims, however, persisted in its original decision to dismiss the Tribe\u2019s claim, explaining that nothing in the suggested \u201cnetwork\u201d succeeded in tying \u201cspecific laws or regulatory provisions to the issue at hand,\u201d namely, the Secretary\u2019s approval of royalty rates in coal leases negotiated by tribes. 68 Fed. Cl. 805, 811 (2005).\nOnce again the Federal Circuit reversed, this time relying primarily on three statutory provisions \u2014 two sections of the Navajo-Hopi Rehabilitation Act of 1950, \u00a7\u00a75,8,64 Stat. 46,25 U. S. C. \u00a7\u00a7 635(a), 638; and one section of the Surface Mining Control and Reclamation Act of 1977, 30 U. S. C. \u00a7 1300(e)\u2014 to allow the Tribe\u2019s claim to proceed. The court held that the Government had violated the specific duties created by those statutes, as well as \u201ccommon law trust duties of care, candor, and loyalty\u201d that arise from the comprehensive control over tribal coal that is exercised by the Government. 501 F. 3d 1327, 1346 (2007).\nOnce again we granted the Government\u2019s petition for a writ of certiorari. 554 U. S. 944 (2008).\nIII. Analysis\nA. Threshold Matter\nThe Government points to our categorical concluding language in Navajo I: \u201c[W]e have no warrant from any relevant statute or regulation to conclude that [the Secretary\u2019s] conduct implicated a duty enforceable in an action for damages under the Indian Tucker Act,\u201d 537 U. S., at 514. This proves, the Government claims, that this Court definitively terminated the Tribe\u2019s claim last time around, so that the lower court\u2019s later resurrection of the suit was flatly inconsistent with our mandate. But, to be fair, our opinion (like the Court of Appeals decision we were reviewing, Navajo Nation, 263 F. 3d, at 1327, 1330-1331) did not analyze any statutes beyond the IMLA, the IMDA, and \u00a7 399. It is thus conceivable, albeit unlikely, that some other relevant statute, though invoked by the Tribe at the outset of the litigation, might have gone unmentioned by the Federal Circuit and unanalyzed by this Court.\nSo we cannot say that our mandate completely foreclosed the possibility that such a statute might allow for the Tribe to succeed on remand. What we can say, however, is that our reasoning in Navajo I \u2014 in particular, our emphasis on the need for courts to \u201ctrain on specific rights-creating or duty-imposing statutory or regulatory prescriptions,\u201d 537 U. S., at 506 \u2014 left no room for that result based on the sources of law that the Court of Appeals relied upon.\nB. 25U.S.C. \u00a7 635(a)\nThe first of the two discussed provisions of the Navajo-Hopi Rehabilitation Act of 1950 \u2014 like the IMLA \u2014 permits Indians to lease reservation lands if the Secretary approves of the deal:\n\u201cAny restricted Indian lands owned by the Navajo Tribe, members thereof, or associations of such members . . . may be leased by the Indian owners, with the approval of the Secretary of the Interior, for public, religious, educational, recreational, or business purposes, including the development or utilization of natural resources in connection with operations under such leases. All leases so granted shall be for a term of not to exceed twenty-five years, but may include provisions authorizing their renewal for an additional term of not to exceed twenty-five years, and shall be made under such regulations as may be prescribed by the Secretary.... Nothing contained in this section shall be construed to repeal or affect any authority to lease restricted Indian lands conferred by or pursuant to any other provision of law.\u201d 25 U. S. C. \u00a7 635(a).\nThe Tribe contends that this section renders the Government liable for any breach of trust in connection with the approval of leases executed pursuant to the authority it grants. Whether or not that is so, the provision only even arguably matters if Lease 8580 was issued under its authority.\nIn Navajo I we presumed, as did the parties, that the lease had been issued pursuant to the IMLA. 537 U. S., at 495. But now the Tribe has changed its tune, and contends that Lease 8580 was approved under \u00a7 635(a), not under the IMLA at all. Brief for Respondent 39. The Government says otherwise. Section 635(a) permits leasing only for \u201cpublic, religious, educational, recreational, or business purposes,\u201d and the Government contends that mining is not embraced by those terms. While leases under \u00a7 635(a) may provide for \u201cthe development or utilization of natural resources,\u201d they may do so only \u201cin connection with operations under such leases,\u201d i. e., in connection with operations for the enumerated purposes. By contrast, mining leases were permitted and governed by the IMLA even before the Navajo-Hopi Rehabilitation Act was enacted in 1950.\nWe need not decide whether the Government is correct on that point, or whether mining could ever qualify as a \u201cbusiness purpos[e]\u201d under the statute, because the Tribe\u2019s argument suffers from a more fundamental problem. Section 635(a) authorizes leases only for terms of up to 25 years, renewable for up to another 25 years. In contrast, the IMLA allows \u201cfor terms not to exceed ten years and as long thereafter as minerals are produced in paying quantities.\u201d 25 U. S. C. \u00a7 396a. Lease 8580, mirroring the latter language, sets a term of \u201cten (10) years from the date hereof, and for so long thereafter as the substances produced are being mined by the Lessee in accordance with its terms, in paying quantities.\u201d App. 189. That indefinite lease term strongly suggests that it was negotiated by the Tribe and approved by the Secretary under the powers authorized by the IMLA, not the Rehabilitation Act.\nThe Tribe\u2019s only responses to this apparently fatal defect in its argument are (1) that \u00a7 635(a) expressly leaves unaffected \u201cany authority to lease restricted Indian lands conferred by or pursuant to any other provision of law,\u201d including the authority to lease for indefinite terms; and (2) that Stewart Udall, who served as Secretary of the Interior during the 1960\u2019s, recently testified that \u201ccoal leasing and related development was the centerpiece of the resources development program\u201d under the Rehabilitation Act, id., \u00b63, at 569.\nAs to the former: That is precisely the point. Section 635(a) creates a supplemental authority for leasing Indian land; it does not displace authority granted elsewhere. But in light of the different conditions attached to the different grants, it is apparent that a particular lease must be executed and approved pursuant to a particular authorization. The saving clause in \u00a7 635(a) does not allow the Tribe to mix-and-match, to combine the (allegedly) duty-creating mechanism of the Rehabilitation Act with the indefinite lease term of the IMLA. It must be one or the other, and the record persuasively demonstrates that Lease 8580 is an IMLA lease.\nAs to Secretary Udall\u2019s testimony: That is not inconsistent with our conclusion. The Interior Department may have viewed coal leasing as an important part of the program to rehabilitate the Navajo Tribe but that does not prove that Lease 8580 was issued pursuant to the supplemental leasing authority granted by the Rehabilitation Act, rather than the pre-existing leasing authority of the IMLA preserved by the Rehabilitation Act. The latter, perhaps because of its longer lease terms, was evidently preferable to the Tribe or the coal company or both.\nBecause the lease in this case \u201cfalls outside\u201d \u00a7 635(a)\u2019s \u201cdomain,\u201d Navajo I, supra, at 509, the Tribe cannot invoke it as a source of money-mandating rights or duties.\nC. 25 U. S. C. \u00a7638\nNext, the Tribe points to a second provision in the Navajo-Hopi Rehabilitation Act:\n\u201cThe Tribal Councils of the Navajo and Hopi Tribes and the Indian communities affected shall be kept informed and afforded opportunity to consider from their inception plans pertaining to the program authorized by this subchapter. In the administration of the program, the Secretary of the Interior shall consider the recommendations of the tribal councils and shall follow such recommendations whenever he deems them feasible and consistent with the objectives of this subchapter.\u201d 25 U.S. C. \u00a7638.\nIn the Tribe\u2019s view, the Secretary violated this provision by failing promptly to abide by its wishes to affirm the Area Director\u2019s order increasing the royalty rate under Lease 8580 to a full 20 percent of gross proceeds.\nWe cannot agree. The \u201cprogram\u201d twice mentioned in \u00a7638 refers back to the Act\u2019s opening provision, which directs the Secretary to undertake \u201ca program of basic improvements for the conservation and development of the resources of the Navajo and Hopi Indians, the more productive employment of their manpower, and the supplying of means to be used in their rehabilitation.\u201d \u00a7 631. The statute then enumerates various projects to be included in that program, and authorizes appropriation of funds (in specific amounts) for each. E. g., \u201cSoil and water conservation and range improvement work, $10,000,000.\u201d \u00a7631(1).\nThe only listed project even remotely related to this case is \u201c[s]urveys and studies of timber, coal, mineral, and other physical and human resources.\u201d \u00a7 631(3). Of course a lease is neither a survey nor a study. To read \u00a7688 as imposing a money-mandating duty on the Secretary to follow recommendations of the Tribe as to royalty rates under coal leases executed pursuant to another Act, and to allow for the enforcement of that duty through the Indian Tucker Act, would simply be too far a stretch.\nD. 30 U.S.C. \u00a71201 etseq.\nThe final statute invoked by the Tribe is the most easily dispensed with. The Surface Mining Control and Reclamation Act of 1977 (SMCRA), 91 Stat. 445, 30 U. S. C. \u00a7 1201 et seq., is a comprehensive statute that regulates all surface coal mining operations. See generally \u00a7 1202; Hodel v. Virginia Surface Mining & Reclamation Assn., Inc., 452 U. S. 264, 268-272 (1981). One section of the Act, \u00a71300, deals with coal mining specifically on Indian lands, and the Tribe cites subsection (e): \u201cWith respect to leases issued after [the date of enactment of this Act], the Secretary shall include and enforce terms and conditions in addition to those required by subsections (c) and (d) of this section as may be requested by the Indian tribe in such leases.\u201d\nAccording to the Tribe, this provision requires the Secretary to enforce whatever terms the Indians request with respect to coal leases. In light of the fact that the referenced subsections (c) and (d) refer exclusively to environmental protection standards, that interpretation is highly suspect. In any event, because Lease 8580 was issued in 1964 \u2014 some 13 years before the date of enactment of the SMCRA \u2014 the provision is categorically inapplicable. The Federal Circuit concluded otherwise on the theory that the amendments to the lease were approved after 1977. But \u00a7 1300(e) is limited to leases \u201cissued\u201d after that date; and even the Tribe does not contend that a lease is \u201cissued\u201d whenever it is amended. The SMCRA is irrelevant here.\nE. Government\u2019s \u201cComprehensive Control\u201d Over Coal\nThe Federal Circuit\u2019s opinion also suggested that the Government\u2019s \u201ccomprehensive control\u201d over coal on Indian land gives rise to fiduciary duties based on common-law trust principles. It noted that the Government had conducted surveys and studies of the Tribe\u2019s coal resources, 501 F. 3d, at 1341; that the Interior Department imposed various requirements on coal mining operations on Indian land \u2014 regulating, for example, \u201csigns and markers, postmining use of land, backfilling and grading, waste disposal, topsoil handling, protection of hydrologic systems, revegetation, and steep-slope mining,\u201d id., at 1342; and that the Government in practice exercised control over the calculation of coal values and quantities for royalty purposes, even though such control was codified by regulation only after the events at issue here, id., at 1342-1343.\nThe Federal Government\u2019s liability cannot be premised on control alone. The text of the Indian Tucker Act makes clear that only claims arising under \u201cthe Constitution, laws or treaties of the United States, or Executive orders of the President\u201d are cognizable (unless the claim could be brought by a non-Indian plaintiff under the ordinary Tucker Act). 28 U. S. C. \u00a7 1505. In Navajo I we reiterated that the analysis must begin with \u201cspecific rights-creating or duty-imposing statutory or regulatory prescriptions.\u201d 537 U. S., at 506. If a plaintiff identifies such a prescription, and if that prescription bears the hallmarks of a \u201cconventional fiduciary relationship,\u201d White Mountain, 537 U. S., at 473, then trust principles (including any such principles premised on \u201ccontrol\u201d) could play a role in \u201cinferring that the trust obligation [is] enforceable by damages,\u201d id., at 477. But that must be the second step of the analysis, not (as the Federal Circuit made it) the starting point.\nNavajo I determined that the IMLA, which governs the lease at issue here, does not create even a \u201c\u2018limited trust relationship\u2019 \u201d with respect to coal leasing. 537 U. S., at 508 (quoting Mitchell I, 445 U. S., at 542). Since the statutes discussed in the preceding subparts, supra, at 296-300, do not apply to the lease at all, they likewise create no such relationship. Because the Tribe cannot identify a specific, applicable, trust-creating statute or regulation that the Government violated, we do not reach the question whether the trust duty was money mandating. Thus, neither the Government\u2019s \u201ccontrol\u201d over coal nor common-law trust principles matter.\n* * *\nNone of the sources of law cited by the Federal Circuit and relied upon by the Tribe provides any more sound a basis for its breach-of-trust lawsuit against the Federal Government than those we analyzed in Navajo I. This case is at an end. The judgment of the Court of Appeals is reversed, and the case is remanded with instructions to affirm the Court of Federal Claims\u2019 dismissal of the Tribe\u2019s complaint.\nIt is so ordered.\nJustice Souter, with whom Justice Stevens joins, concurring.\nI am not through regretting that my position in United States v. Navajo Nation, 537 U. S. 488, 514-521 (2003) (dissenting opinion), did not carry the day. But it did not, and I agree that the precedent of that case calls for the result reached here.",
+        "type": "majority",
+        "author": "Justice Scalia"
+      }
+    ],
+    "attorneys": [
+      "Then-Acting Solicitor General Kneedler argued the cause for the United States. With him on the briefs were former Solicitor General Garre, Assistant Attorney General Tencas, Anthony A. Yang, and Elizabeth A. Peterson.",
+      "Carter G. Phillips argued the cause for respondent. With him on the brief were Virginia A. Seitz, Robert A. Parker, Paul E. Frye, Lisa M. Enfield, and Louis Denetsosie"
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES v. NAVAJO NATION\nNo. 07-1410.\nArgued February 23, 2009\nDecided April 6, 2009\nThen-Acting Solicitor General Kneedler argued the cause for the United States. With him on the briefs were former Solicitor General Garre, Assistant Attorney General Tencas, Anthony A. Yang, and Elizabeth A. Peterson.\nCarter G. Phillips argued the cause for respondent. With him on the brief were Virginia A. Seitz, Robert A. Parker, Paul E. Frye, Lisa M. Enfield, and Louis Denetsosie\nA brief of amici curiae urging reversal was filed for Peabody Western Coal Co. et al. by Charles G. Cole, Antonia B. lanniello, Shannen W. Coffin, Paul R. Hurst, G. Michael Halfenger, and Lawrence G. McBride.\nBriefs of amici curiae urging affirmance were filed for the State of New Mexico et al. by Gary King, Attorney General of New Mexico, and David Thomson, Deputy Attorney General, and by the Attorneys General for their respective States as follows: Terry Goddard of Arizona and Mark Shurtleff of Utah; for Law Professors by Richard B. Collins and Carole E. Goldberg, both pro se; for the National Congress of American Indians et al. by Reid Peyton Chambers, Douglas B. L. Endreson, William R. Perry, and John T. Harrison; and for former Secretary of the Interior Cecil D. Andrus et al. by Kathleen M. Sullivan, Daniel H. Bromberg, and Margret M. Caruso."
+  },
+  "file_name": "0287-01",
+  "first_page_order": 387,
+  "last_page_order": 402
+}

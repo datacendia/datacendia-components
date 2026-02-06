@@ -342,7 +342,7 @@ export const councilApi = {
     synthesis: string;
     confidence: number;
   }) {
-    return api.post<any>('/council/deliberations', data);
+    return api.post<any>('/council/deliberations/save', data);
   },
 
   async generateExecutiveSummary(deliberationId: string) {
@@ -372,7 +372,7 @@ const mapMetricDefinition = (m: any): Types.MetricDefinition => ({
 });
 
 export const metricsApi = {
-  async getMetrics(params?: { category?: string; search?: string; page?: number }) {
+  async getMetrics(params?: { organizationId?: string; category?: string; search?: string; page?: number }) {
     const response = await api.get<any[]>('/metrics', params);
 
     if (response.success && response.data) {
@@ -761,6 +761,112 @@ export const forecastsApi = {
     return api.post<{
       scenarios: Array<{ id: string; name: string; values: Record<string, number[]> }>;
     }>('/predict/scenarios/compare', { scenarioIds, metrics, timeRange });
+  },
+};
+
+// ============================================================================
+// FRED FORECASTING API (Real Economic Data)
+// ============================================================================
+export interface FREDSeries {
+  key: string;
+  id: string;
+  name: string;
+  frequency: string;
+  unit: string;
+}
+
+export interface FREDDataPoint {
+  date: string;
+  value: number;
+}
+
+export interface ForecastPoint {
+  date: string;
+  predicted: number;
+  lowerBound: number;
+  upperBound: number;
+  confidence: number;
+}
+
+export interface AccuracyMetrics {
+  mape: number;
+  rmse: number;
+  mae: number;
+  r2: number;
+  trainSize: number;
+  testSize: number;
+}
+
+export interface ForecastResult {
+  seriesId: string;
+  seriesName: string;
+  historicalData: FREDDataPoint[];
+  predictions: ForecastPoint[];
+  accuracy: AccuracyMetrics;
+  model: {
+    type: string;
+    parameters: Record<string, number>;
+    trainedOn: string;
+    dataSource: string;
+  };
+  generatedAt: string;
+}
+
+export const fredForecastingApi = {
+  async getSeries() {
+    return api.get<{ series: FREDSeries[]; count: number; source: string }>('/forecasting/series');
+  },
+
+  async getSeriesData(seriesId: string) {
+    return api.get<{
+      seriesId: string;
+      name: string;
+      observations: FREDDataPoint[];
+    }>(`/forecasting/series/${seriesId}/data`);
+  },
+
+  async forecast(seriesId: string, periodsAhead: number = 12, confidenceLevel: number = 0.95) {
+    return api.post<ForecastResult>('/forecasting/forecast', {
+      seriesId,
+      periodsAhead,
+      confidenceLevel,
+    });
+  },
+
+  async forecastBatch(seriesIds: string[], periodsAhead: number = 12) {
+    return api.post<{ forecasts: Record<string, ForecastResult>; count: number }>('/forecasting/forecast/batch', {
+      seriesIds,
+      periodsAhead,
+    });
+  },
+
+  async getAccuracy() {
+    return api.get<{
+      summary: {
+        averageMAPE: number;
+        averageAccuracy: number;
+        modelType: string;
+        dataSource: string;
+        disclaimer: string;
+      };
+      byIndicator: Array<{
+        seriesId: string;
+        seriesName: string;
+        mape: number;
+        rmse: number;
+        r2: number;
+      }>;
+    }>('/forecasting/accuracy');
+  },
+
+  async getStatus() {
+    return api.get<{
+      status: string;
+      dataSource: string;
+      hasApiKey: boolean;
+      availableSeries: number;
+      modelType: string;
+    }>('/forecasting/status');
   },
 };
 
@@ -1390,6 +1496,23 @@ export const druidApi = {
   },
 };
 
+// ============================================================================
+// CORTEX CORE API (Intelligence Gateway)
+// ============================================================================
+export { cortexApi } from './cortex';
+export type {
+  PillarName,
+  QueryParams,
+  QueryResponse,
+  AnalyzeParams,
+  AnalyzeResponse,
+  SimulateParams,
+  SimulateResponse,
+  GovernParams,
+  GovernResponse,
+  ContextResponse,
+} from './cortex';
+
 // Default export with all APIs
 export default {
   auth: authApi,
@@ -1414,4 +1537,5 @@ export default {
   redteam: redteamApi,
   gnosis: gnosisApi,
   druid: druidApi,
+  cortex: {} as typeof import('./cortex').cortexApi, // Lazy reference
 };

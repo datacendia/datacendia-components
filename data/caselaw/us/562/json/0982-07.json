@@ -1,0 +1,59 @@
+{
+  "id": 5925611,
+  "name": "Jackim v. Ohio",
+  "name_abbreviation": "Jackim v. Ohio",
+  "decision_date": "2010-10-18",
+  "docket_number": "No. 10-340",
+  "first_page": "982",
+  "last_page": "982",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 982"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 9,
+    "char_count": 62,
+    "ocr_confidence": 0.647,
+    "sha256": "a809f2229168b4059d8f48c84b433abbce5db4a00ea19f8b858cf3bab5fba29b",
+    "simhash": "1:5944667ee28e81cb",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jackim v. Ohio."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ohio. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-340.\nJackim v. Ohio."
+  },
+  "file_name": "0982-07",
+  "first_page_order": 1004,
+  "last_page_order": 1004
+}

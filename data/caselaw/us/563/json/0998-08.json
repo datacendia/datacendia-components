@@ -1,0 +1,59 @@
+{
+  "id": 5931518,
+  "name": "Escobedo v. United States",
+  "name_abbreviation": "Escobedo v. United States",
+  "decision_date": "2011-05-16",
+  "docket_number": "No. 10-9906",
+  "first_page": "998",
+  "last_page": "998",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 998"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.608,
+    "sha256": "4c7379052d85354b5e1db50dc6edcba55bdbaa72dc1179e90279ed4625f0a670",
+    "simhash": "1:866bc608691553a8",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Escobedo v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9906.\nEscobedo v. United States."
+  },
+  "file_name": "0998-08",
+  "first_page_order": 1024,
+  "last_page_order": 1024
+}

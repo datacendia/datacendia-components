@@ -1,0 +1,59 @@
+{
+  "id": 6002990,
+  "name": "In re Discipline of Orci",
+  "name_abbreviation": "In re Discipline of Orci",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. D-2496",
+  "first_page": "808",
+  "last_page": "808",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 808"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 42,
+    "char_count": 292,
+    "ocr_confidence": 0.563,
+    "sha256": "7b7f0887465864d76fb0ce8e060aa7005d69c665b14254e85f32467e8a4ba86a",
+    "simhash": "1:758a71b237fab7aa",
+    "word_count": 54
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of Orci."
+    ],
+    "opinions": [
+      {
+        "text": "Daniel S. Orci, Jr., of St. Petersburg Beach, Fla., is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2496.\nIn re Discipline of Orci."
+  },
+  "file_name": "0808-06",
+  "first_page_order": 830,
+  "last_page_order": 830
+}

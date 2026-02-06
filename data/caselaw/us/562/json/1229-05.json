@@ -1,0 +1,59 @@
+{
+  "id": 6020022,
+  "name": "Bin Xu v. Holder, Attorney General",
+  "name_abbreviation": "Bin Xu v. Holder",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-7908",
+  "first_page": "1229",
+  "last_page": "1229",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1229"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 84,
+    "ocr_confidence": 0.567,
+    "sha256": "d8163ec22b7a1be8b85574843f6a15eb13dcb542978cb272d0bb509b43d9774e",
+    "simhash": "1:564b463ae507b070",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bin Xu v. Holder, Attorney General."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7908.\nBin Xu v. Holder, Attorney General."
+  },
+  "file_name": "1229-05",
+  "first_page_order": 1251,
+  "last_page_order": 1251
+}

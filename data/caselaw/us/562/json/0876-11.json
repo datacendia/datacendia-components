@@ -1,0 +1,59 @@
+{
+  "id": 5992387,
+  "name": "Brewer v. Virginia",
+  "name_abbreviation": "Brewer v. Virginia",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11371",
+  "first_page": "876",
+  "last_page": "876",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 876"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 66,
+    "ocr_confidence": 0.62,
+    "sha256": "3c4ee7422659302dc4920ce91bd61cc52976a25380aeabb13f78871689acfe08",
+    "simhash": "1:4aff60ec3eec7fcb",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Brewer v. Virginia."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Va. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11371.\nBrewer v. Virginia."
+  },
+  "file_name": "0876-11",
+  "first_page_order": 898,
+  "last_page_order": 898
+}

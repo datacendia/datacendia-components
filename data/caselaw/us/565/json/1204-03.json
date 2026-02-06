@@ -1,0 +1,76 @@
+{
+  "id": 12246247,
+  "name": "Durham v. United States; and Collins v. United States",
+  "name_abbreviation": "Durham v. United States",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-6639; No. 11-6641",
+  "first_page": "1204",
+  "last_page": "1204",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1204"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "645 F. 3d 883",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5650796
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/645/0883-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 21,
+    "char_count": 146,
+    "ocr_confidence": 0.667,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.24765729585006693
+    },
+    "sha256": "7eaf1b2dc967c2981fc95011332c9c8e7a938dcc64075138c5a9106470ce2c9f",
+    "simhash": "1:e25f859edfde8408",
+    "word_count": 25
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Durham v. United States; and Collins v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied. Reported below: 645 F. 3d 883.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6639.\nNo. 11-6641.\nDurham v. United States; and Collins v. United States."
+  },
+  "file_name": "1204-03",
+  "first_page_order": 1286,
+  "last_page_order": 1286
+}

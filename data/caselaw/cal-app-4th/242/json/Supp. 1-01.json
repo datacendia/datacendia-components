@@ -1,0 +1,916 @@
+{
+  "id": 6053275,
+  "name": "THE PEOPLE, Plaintiff and Appellant, v. STEVEN ALFRED AGNEW, Defendant and Respondent",
+  "name_abbreviation": "People v. Agnew",
+  "decision_date": "2015-10-26",
+  "docket_number": "No. 1-14-AP-001652",
+  "first_page": "Supp. 1",
+  "last_page": "Supp. 23",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "242 Cal. App. 4th Supp. 1"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. App. Dep't Super. Ct.",
+    "id": 9003,
+    "name": "Appellate Division of the Superior Court of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "185 L.Ed.2d 696",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12697040
+      ],
+      "weight": 5,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/569/0141-01"
+      ]
+    },
+    {
+      "cite": "9 P.3d 993",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "100 Cal.Rptr.2d 617",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "24 Cal.4th 387",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1180123
+      ],
+      "pin_cites": [
+        {
+          "page": "394"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/24/0387-01"
+      ]
+    },
+    {
+      "cite": "561 P.2d 1135",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "137 Cal.Rptr. 447",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "19 Cal.3d 99",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2291155
+      ],
+      "pin_cites": [
+        {
+          "page": "109-110"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/19/0099-01"
+      ]
+    },
+    {
+      "cite": "101 P.3d 956",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1977,
+      "opinion_index": 0
+    },
+    {
+      "cite": "22 Cal.Rptr.3d 1",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1977,
+      "opinion_index": 0
+    },
+    {
+      "cite": "34 Cal.4th 743",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        633016
+      ],
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "758"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/34/0743-01"
+      ]
+    },
+    {
+      "cite": "210 F.Supp. 357",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        88759
+      ],
+      "pin_cites": [
+        {
+          "page": "360"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/210/0357-01"
+      ]
+    },
+    {
+      "cite": "391 U.S. 543",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1767611
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/391/0543-01"
+      ]
+    },
+    {
+      "cite": "334 P.3d 573",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "178 Cal.Rptr.3d 185",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "60 Cal.4th 335",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3990882
+      ],
+      "pin_cites": [
+        {
+          "page": "364-365"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/60/0335-01"
+      ]
+    },
+    {
+      "cite": "235 P.3d 62",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "112 Cal.Rptr.3d 746",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "50 Cal.4th 99",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6050854
+      ],
+      "pin_cites": [
+        {
+          "page": "145"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/50/0099-01"
+      ]
+    },
+    {
+      "cite": "71 Cal.Rptr. 123",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "264 Cal.App.2d 788",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2183112
+      ],
+      "pin_cites": [
+        {
+          "page": "792-793"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/264/0788-01"
+      ]
+    },
+    {
+      "cite": "135 Cal.Rptr. 534",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "63 Cal.App.3d 742",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4463900
+      ],
+      "pin_cites": [
+        {
+          "page": "746"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/63/0742-01"
+      ]
+    },
+    {
+      "cite": "108 Cal.Rptr. 620",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "32 Cal.App.3d 971",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4448989
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/32/0971-01"
+      ]
+    },
+    {
+      "cite": "40 Cal.Rptr.3d 48",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "137 Cal.App.4th 107",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3818302
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/137/0107-01"
+      ]
+    },
+    {
+      "cite": "25 Cal.Rptr.3d 879",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "127 Cal.App.4th 734",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        18369
+      ],
+      "pin_cites": [
+        {
+          "page": "748"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/127/0734-01"
+      ]
+    },
+    {
+      "cite": "749 F.3d 825",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4064348
+      ],
+      "pin_cites": [
+        {
+          "page": "830"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/749/0825-01"
+      ]
+    },
+    {
+      "cite": "380 U.S. 609",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1524757
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/380/0609-01"
+      ]
+    },
+    {
+      "cite": "423 U.S. 411",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6177768
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/423/0411-01"
+      ]
+    },
+    {
+      "cite": "64 Cal.Rptr. 599",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "257 Cal.App.2d 82",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2221339
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/257/0082-01"
+      ]
+    },
+    {
+      "cite": "55 Cal.Rptr. 62",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1967,
+      "opinion_index": 0
+    },
+    {
+      "cite": "246 Cal.App.2d 715",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        464377
+      ],
+      "year": 1967,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/246/0715-01"
+      ]
+    },
+    {
+      "cite": "536 U.S. 194",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1254966
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/536/0194-01"
+      ]
+    },
+    {
+      "cite": "459 U.S. 553",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6200055
+      ],
+      "weight": 7,
+      "pin_cites": [
+        {
+          "page": "564"
+        },
+        {
+          "page": "565",
+          "parenthetical": "explaining that one's 'right to refuse' a blood alcohol test is not of constitutional origin; it is 'simply a matter of grace bestowed by' state legislatures"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/459/0553-01"
+      ]
+    },
+    {
+      "cite": "354 Ore. 493",
+      "category": "reporters:state",
+      "reporter": "Or.",
+      "case_ids": [
+        5759004
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "1138"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/or/354/0493-01"
+      ]
+    },
+    {
+      "cite": "184 Cal.Rptr.3d 198",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "234 Cal.App.4th 671",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4294826
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/234/0671-01"
+      ]
+    },
+    {
+      "cite": "534 U.S. 112",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9108037
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "118"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/534/0112-01"
+      ]
+    },
+    {
+      "cite": "488 P.2d 630",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 2001,
+      "opinion_index": 0
+    },
+    {
+      "cite": "97 Cal.Rptr. 302",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 2001,
+      "opinion_index": 0
+    },
+    {
+      "cite": "5 Cal.3d 759",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2324365
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "765"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/5/0759-01"
+      ]
+    },
+    {
+      "cite": "738 P.2d 336",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1971,
+      "opinion_index": 0
+    },
+    {
+      "cite": "238 Cal.Rptr. 282",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1971,
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 Cal.3d 600",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4627500
+      ],
+      "year": 1971,
+      "pin_cites": [
+        {
+          "page": "611"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/43/0600-01"
+      ]
+    },
+    {
+      "cite": "3 P.3d 311",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1987,
+      "opinion_index": 0
+    },
+    {
+      "cite": "97 Cal.Rptr.2d 914",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1987,
+      "opinion_index": 0
+    },
+    {
+      "cite": "23 Cal.4th 789",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        276996
+      ],
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "795"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/23/0789-01"
+      ]
+    },
+    {
+      "cite": "131 Cal.Rptr. 256",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "60 Cal.App.3d 130",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4517822
+      ],
+      "pin_cites": [
+        {
+          "page": "143"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/60/0130-01"
+      ]
+    },
+    {
+      "cite": "493 P.2d 1145",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "100 Cal.Rptr. 281",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "6 Cal.3d 757",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2274610
+      ],
+      "pin_cites": [
+        {
+          "page": "764"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/6/0757-01"
+      ]
+    },
+    {
+      "cite": "809 P.2d 404",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "280 Cal.Rptr. 745",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "53 Cal.3d 753",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2358544
+      ],
+      "pin_cites": [
+        {
+          "page": "759"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/53/0753-01"
+      ]
+    },
+    {
+      "cite": "156 P.3d 328",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "57 Cal.Rptr.3d 306",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "40 Cal.4th 1121",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3158645
+      ],
+      "pin_cites": [
+        {
+          "page": "1139"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/40/1121-01"
+      ]
+    },
+    {
+      "cite": "634 P.2d 917",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "177 Cal.Rptr. 566",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "30 Cal.3d 70",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2013870
+      ],
+      "pin_cites": [
+        {
+          "page": "73, fn. 1"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/30/0070-01"
+      ]
+    },
+    {
+      "cite": "519 U.S. 33",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11594631
+      ],
+      "weight": 7,
+      "pin_cites": [
+        {
+          "page": "39"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/519/0033-01"
+      ]
+    },
+    {
+      "cite": "412 U.S. 218",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6172008
+      ],
+      "weight": 10,
+      "pin_cites": [
+        {
+          "page": "219"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/412/0218-01"
+      ]
+    },
+    {
+      "cite": "497 U.S. 177",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6214176
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/497/0177-01"
+      ]
+    },
+    {
+      "cite": "389 U.S. 347",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11339173
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "360"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/389/0347-01"
+      ]
+    },
+    {
+      "cite": "500 U.S. 248",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6221328
+      ],
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "250"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/500/0248-01"
+      ]
+    },
+    {
+      "cite": "547 U.S. 398",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3275413
+      ],
+      "weight": 3,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "403"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/547/0398-01"
+      ]
+    },
+    {
+      "cite": "563 U.S. 452",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5911971,
+        12458997
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "459"
+        },
+        {
+          "page": "1856"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/563/0452-01",
+        "/l-ed-2d/179/0865-01"
+      ]
+    },
+    {
+      "cite": "384 U.S. 757",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12047531
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "767, 770"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/384/0757-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1697,
+    "char_count": 60541,
+    "ocr_confidence": 0.876,
+    "pagerank": {
+      "raw": 5.4958655209546245e-08,
+      "percentile": 0.34400538409768294
+    },
+    "sha256": "11068dcdbe73fb1c258a85fae1e5b7708212bd4fc5fedaf7cc86ccb4c2c9ed26",
+    "simhash": "1:3521a707255183c8",
+    "word_count": 9794
+  },
+  "last_updated": "2024-02-27T21:58:10.433418+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Bonini, J., and Arand, J., concurred."
+    ],
+    "parties": [
+      "THE PEOPLE, Plaintiff and Appellant, v. STEVEN ALFRED AGNEW, Defendant and Respondent."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nCHIARELLO, Acting P. J.\nThe People appeal from the granting of respondent\u2019s motion to suppress evidence of his blood draw in this prosecution for driving under the influence of alcohol. We find that, in granting the motion, the trial court did not examine the totality of the circumstances in the context of California\u2019s implied consent law. We therefore reverse the granting of the motion to suppress and remand the case.\nFACTS AND PROCEDURAL BACKGROUND\nDefendant and respondent Steven Alfred Agnew was charged with driving under the influence of alcohol in violation of both subdivisions (a) and (b) of Vehicle Code section 23152, misdemeanors. On February 4, 2014, he filed a motion to suppress evidence under Penal Code section 1538.5. At the conclusion of the hearing on February 14, 2014, the trial court granted the motion.\nCampbell Police Officer William Nunn testified at the hearing on the motion to suppress. Officer Nunn testified that, on September 9, 2013, at approximately 2:45 a.m., he pulled over respondent Steven Agnew for pulling away from the curb without signaling and for making an unsafe U-tum in a business district, violations of sections 24953, subdivision (a) and 22102 of the Vehicle Code. Respondent told Officer Nunn that he had come from a downtown bar/diner, where he drank three beers between 8:00 p.m. and midnight. Officer Nunn smelled an odor of alcohol on respondent\u2019s breath and noticed that he had slurred speech. Officer Nunn checked respondent\u2019s eyes, and noticed the presence of nystagmus. Officer Nunn then asked respondent to perform two field sobriety tests, the \u201cone-leg raise\u201d and the \u201cwalk-and-turn.\u201d Officer Nunn testified that respondent did not perform those tests as Officer Nunn had explained and demonstrated, and that Officer Nunn\u2019s observations were consistent with someone who was under the influence of alcohol. Respondent also had red, bloodshot eyes.\nOfficer Nunn advised respondent that a preliminary alcohol screening (PAS) test was voluntary and he did not need to provide that breath sample. Respondent replied that, since it was voluntary, he did not want to provide the sample. Based on respondent\u2019s driving, his performance on the field sobriety tests, and the objective symptoms of alcohol, Officer Nunn believed that respondent was under the influence of alcohol, and placed him under arrest in handcuffs. Respondent then, without any further request from Officer Nunn, advised Officer Nunn that he wanted to provide the PAS breath sample, and took the PAS test.\nOfficer Nunn then advised respondent that he was required by California law to provide a blood or breath sample, and asked which test he preferred. Respondent chose to provide a blood sample. Officer Nunn testified that he believed he admonished respondent about the requirement to provide a breath or blood test while in the field, after respondent was in handcuffs. Officer Nunn testified that he did not obtain a warrant because respondent did not refuse to provide the blood or breath sample.\nOfficer Nunn then transported respondent to a building near the Santa Clara County main jail, and called for a certified nurse technician to obtain a blood sample from respondent. The certified nurse technician put on gloves, cleaned the area to be punctured with a new cotton swab, removed the needle from a sealed package, and, after the blood was drawn, cleaned and bandaged the wound. Officer Nunn testified that the certified nurse technician did not use any force when attempting to draw blood, that he did not recall respondent exhibiting any discomfort or pain during the blood draw, and that, while in the officer\u2019s presence, respondent did not suffer any complications after the procedure.\nAt the conclusion of the hearing on February 14, 2014, the trial court found that there was consent for the PAS test, which was a voluntary request by the defendant after he was arrested without a further prompt by the officer, but, for the blood test, \u201cthe fact that the officer informed the defendant that he was required by law to give a blood or breath test without informing him of the consequences did not provide adequate evidence of choice, voluntary choice on the part of the defendant.\u201d The trial court then granted the motion to suppress the blood draw, and set a date for a pretrial conference.\nOn March 3, 2014, the People timely filed a notice of appeal. On March 25, 2014, the trial court granted a temporary stay of the proceedings until the conclusion of this appeal.\nANALYSIS\nThe Consent Exception Under the Fourth Amendment\nBlood draws are searches covered by the Fourth Amendment to the United States Constitution. (Schmerber v. California (1966) 384 U.S. 757, 767, 770 [16 L.Ed.2d 908, 86 S.Ct. 1826] (Schmerber).) In this case, the officer did not seek a search warrant for the blood draw, but the People rely on an exception to the warrant requirement based on respondent\u2019s consent.\nThe Fourth Amendment states that \u201c[t]he right of the people to be secure in their persons, houses, papers, and effects, against unreasonable searches and seizures, shall not be violated, and no Warrants shall issue, but upon probable cause . . . .\u201d \u201cAlthough the text of the Fourth Amendment does not specify when a search warrant must be obtained, this Court has inferred that a warrant must generally be secured.\u201d (Kentucky v. King (2011) 563 U.S. 452, 459 [179 L.Ed.2d 865, 131 S.Ct. 1849, 1856] (King).) The United States Supreme Court, however, has also long held that \u201cthe ultimate touchstone of the Fourth Amendment is \u2018reasonableness.\u2019 \u201d (Brigham City v. Stuart (2006) 547 U.S. 398, 403 [164 L.Ed.2d 650, 126 S.Ct. 1943]; see Florida v. Jimeno (1991) 500 U.S. 248, 250 [114 L.Ed.2d 297, 111 S.Ct. 1801] (Jimeno); Katz v. United States (1967) 389 U.S. 347, 360 [19 L.Ed.2d 576, 88 S.Ct. 507].) The warrant requirement is therefore subject to certain reasonable exceptions. (King, supra, 563 U.S. at p. 459.) \u201cThe Fourth Amendment does not proscribe all state-initiated searches and seizures; it merely proscribes those which are unreasonable.\u201d (Jimeno, supra, 500 U.S. at p. 250, citing Illinois v. Rodriguez (1990) 497 U.S. 177 [111 L.Ed.2d 148, 110 S.Ct. 2793].) \u201cThus, we have long approved consensual searches because it is no doubt reasonable for the police to conduct a search once they have been permitted to do so.\u201d (Jimeno, supra, 500 U.S. at pp. 250-251, citing Schneckloth v. Bustamonte (1973) 412 U.S. 218, 219 [36 L.Ed.2d 854, 93 S.Ct. 2041] (Schneckloth).)\nReasonableness under the Fourth Amendment \u201cis measured in objective terms by examining the totality of the circumstances.\u201d (Ohio v. Robinette (1996) 519 U.S. 33, 39 [136 L.Ed.2d 347, 117 S.Ct. 417].) \u201cThe Fourth Amendment test for a valid consent to search is that, the consent be voluntary, and \u2018[v]oluntariness is a question of fact to be determined from all the circumstances ....\u2019\u201d (Id. at p. 40, quoting Schneckloth, supra, 412 U.S. at pp. 248-249.)\nCalifornia\u2019s Implied Consent Law\nThe totality of the circumstances in this case includes California\u2019s implied consent law. Under section 23612 of California\u2019s Vehicle Code, \u201c[a] person who drives a motor vehicle is deemed to have given his or her consent to chemical testing of his or her blood or breath for the purpose of determining the alcoholic content of his or her blood, if lawfully arrested for an offense allegedly committed in violation of Section 23140, 23152, or 23153.\u201d (Id., subd. (a)(1)(A).) That a person is \u201c \u2018deemed to have given\u2019 \u201d consent in advance by driving explains the \u201c \u2018implied consent\u2019 \u201d label. (Hernandez v. Department of Motor Vehicles (1981) 30 Cal.3d 70, 73, fn. 1 [177 Cal.Rptr. 566, 634 P.2d 917], italics omitted (Hernandez).) The California Supreme Court has held that \u201csection 23612 applies broadly and generally to \u2018those who drive\u2019 \u2014 that is, to those who avail themselves of the public streets, roads, and highways to operate motor vehicles in this state.\u201d (Troppman v. Valverde (2007) 40 Cal.4th 1121, 1139 [57 Cal.Rptr.3d 306, 156 P.3d 328] (Troppman).)\nThe Legislature adopted the implied consent law in 1966 in response to the United States Supreme Court decision in Schmerber, which had approved forcible, warrantless chemical testing of arrested persons under certain conditions, including certain exigent circumstances. \u201c \u2018Although it is clear under Schmerber that a person who has been lawfully arrested may have a blood sample forcibly removed without his consent, provided [certain conditions are met], nevertheless such an episode remains an unpleasant, undignified and undesirable one.\u2019 \u201d (Mercer v. Department of Motor Vehicles (1991) 53 Cal.3d 753, 759 [280 Cal.Rptr. 745, 809 P.2d 404], quoting People v. Superior Court (Hawkins) (1972) 6 Cal.3d 757, 764 [100 Cal.Rptr. 281, 493 P.2d 1145].) \u201cWe observed in Mercer and Hawkins that by enacting the implied consent law, thereby providing an alternative method of compelling a person arrested for driving while under the influence to submit to chemical testing, the Legislature afforded officers a means of enforcement that does not involve physical compulsion.\u201d (Troppman, supra, 40 Cal.4th at p. 1136.) In enacting the initial implied consent law, \u201cthe Legislature sought to obviate these consequences for the driver and \u2018avoid the possible violence which could erupt if forcible tests were made upon a recalcitrant and belligerent inebriate\u2019 [citation], while at the same time preserving the state\u2019s strong interest in obtaining the best evidence of the defendant\u2019s blood alcohol content at the time of the arrest.\u201d (Hernandez, supra, 30 Cal.3d at p. 77, quoting Anderson v. Cozens (1976) 60 Cal.App.3d 130, 143 [131 Cal.Rptr. 256].)\nThe Legislature therefore has determined that the ability to drive in California is a privilege, and that it is important to condition that privilege on implied consent to testing if lawfully arrested for drunk driving. By driving on California\u2019s roads, respondent accepted that condition of implied, advance consent if lawfully arrested for drunk driving. California courts have upheld advance consent to search, for example, as a condition of probation. (People v. Robles (2000) 23 Cal.4th 789, 795 [97 Cal.Rptr.2d 914, 3 P.3d 311] [person may validly consent in advance to warrantless searches as a condition of probation; such searches aid in deterring further offenses and in monitoring compliance with terms of probation]; People v. Bravo (1987) 43 Cal.3d 600, 611 [238 Cal.Rptr. 282, 738 P.2d 336] [probation warrantless search condition permits search even without reasonable cause]; People v. Mason (1971) 5 Cal.3d 759, 765 [97 Cal.Rptr. 302, 488 P.2d 630] [defendant who agreed to permit warrantless searches to obtain the privilege of probation waives in advance traditional 4th Amend, protection]; cf. United States v. Knights (2001) 534 U.S. 112, 118 [151 L.Ed.2d 497, 122 S.Ct. 587] [holding that warrantless search, supported by reasonable suspicion and authorized as a condition of probation, was reasonable under general 4th Amend, approach of examining totality of circumstances, without deciding whether it constituted consent].)\nEven with advance consent, however, respondent could have withdrawn that consent and objected to any blood draw. The totality of the circumstances, therefore, includes not only the advance consent, but respondent\u2019s conduct and the circumstances surrounding the testing.\nIn Missouri v. McNeely (2013) 569 U.S. ___ [185 L.Ed.2d 696, 133 S.Ct. 1552] (McNeely), the United States Supreme Court recognized the tool of advance consent. In McNeely, the Supreme Court addressed whether the natural metabolization of alcohol in the bloodstream presented a per se exigency that justifies an exception to the Fourth Amendment\u2019s warrant requirement for nonconsensual blood testing in all drunk-driving cases, and held that it did not. (McNeely, at p. _ [133 S.Ct. at p. 1556].) The Supreme Court held that exigency must be determined instead case by case based on the totality of the circumstances. (Ibid.) In McNeely, of course, the court was addressing the exigency exception to the warrant requirement, not the consent exception. In fact, in that case the defendant, McNeely, had refused when asked whether he would consent to a blood test under Missouri\u2019s implied consent law. (Id., at p. _ [133 S.Ct. at p. 1558].) A plurality of the court, however, addressed why the arguments advanced to support a per se exigency, particularly the important governmental interest in preventing and prosecuting drunk-driving offenses, were not persuasive. \u201cAs an initial matter, States have a broad range of legal tools to enforce their drunk-driving laws and to secure BAC [blood-alcohol concentration] evidence without undertaking warrantless nonconsensual blood draws. For example, all 50 States have adopted implied consent laws that require motorists, as a condition of operating a motor vehicle within the State, to consent to BAC testing if they are arrested or otherwise detained on suspicion of a drunk-driving offense.\u201d (Id., at p. _ [133 S.Ct. at p. 1566].) The plurality opinion continued: \u201cSuch laws impose significant consequences when a motorist withdraws consent; typically the motorist\u2019s driver\u2019s license is immediately suspended or revoked, and most States allow the motorist\u2019s refusal to take a BAC test to be used as evidence against him in a subsequent criminal prosecution.\u201d (Ibid.) This recognition of implied consent \u201cas a condition of operating a motor vehicle,\u201d and recognition of the consequences when a motorist \u201cwithdraws consent,\u201d suggests that the implied advance consent is valid.\nIn a recent opinion, People v. Harris (2015) 234 Cal.App.4th 671 [184 Cal.Rptr.3d 198] (Harris), the Court of Appeal held that warrantless blood draws are not limited to the exception of exigent circumstances under McNeely. (Id. at p. 684.) The Court of Appeal found that actual consent under the implied consent statute satisfies the Fourth Amendment. (Harris, at p. 689.) The court, applying \u201cthe normal totality of circumstances analysis,\u201d found that the defendant\u2019s submission to the blood draw was free and voluntary. (Ibid.)\nCalifornia\u2019s Statutory Admonition\nBefore oral argument on this appeal, this court ordered supplemental briefing to address the Harris decision. In his supplemental brief, respondent distinguished Harris on the ground that the police there gave an admonishment informing the defendant of the consequences of refusing to submit to chemical testing, and argued that the officer\u2019s failure to give respondent the admonishment here was a factor tending to show that respondent did not voluntarily consent to the chemical test. As mentioned above, the trial court went even further than respondent\u2019s argument by relying on the fact that the officer did not inform defendant of the consequences of failing to test as the sole factor in finding no voluntary consent. We actually agree with respondent that whether the admonition is given should be considered in the totality of the circumstances, but the admonition is not required and is not the critical factor here.\nIn Harris, the officer told the defendant that, based on the officer\u2019s belief that the defendant was under the influence of a drug, the defendant was required to submit to a chemical blood test. (Harris, supra, 234 Cal.App.4th at p. 678.) The officer did tell the defendant that he did not have the right to talk to a lawyer when deciding to submit to the chemical test, that refusal to submit to the test would result in the suspension of his driver\u2019s license, and that refusal could be used against him in court. (Ibid.) The Court of Appeal, though, considered all the circumstances in finding the consent to be free and voluntary, including that the officer twice told the defendant that he was required to submit to the blood test, that the defendant responded \u201cokay\u201d to the officer\u2019s advisement, that at no time did the defendant appear unwilling to provide a blood sample, and that the defendant \u201cdid not resist the blood draw or say, \u2018no, I don\u2019t want to do this.\u2019 \u201d (Id. at pp. 678, 690.) The Court of Appeal did not hold that an admonition of the consequences of refusing to submit to testing is required in order to find voluntary consent. In fact, the defendant in Harris argued \u201cthat a driver\u2019s submission to a blood draw, given only after admonition by the police pursuant to California\u2019s implied consent law, can never (or almost never) be considered valid consent under the Fourth Amendment because submission is extracted under the threat of serious consequences for refusal.\u201d (Id. at p. 686.) The court rejected this categorical rule, holding that \u201c[t]he fact that a motorist is told he will face serious consequences if he refuses to submit to a blood test does not, in itself, mean that his submission was coerced.\u201d (Id. at p. 687.) The Court of Appeal did quote language from an out-of-state case suggesting that \u201c \u2018the failure to disclose accurate information regarding the potential legal consequences of certain behavior would seem to be a more logical basis for a defendant to assert that his or her decision to engage in that behavior was coerced and involuntary.\u2019 \u201d (Id. at p. 689, original italics, quoting State v. Moore (2013) 354 Ore. 493 [318 P.3d 1133, 1138].) This quoted language was dicta, however, and the Court of Appeal in Harris did not hold that the admonishment was required in order to find voluntary consent. Again, the court considered the totality of all the circumstances. Indeed, the court summarized its conclusion as holding \u201cthat admonition under the implied consent law of the consequences of refusing to submit to a chemical test does not always result in coerced consent,\u201d suggesting that in certain cases the admonition might result in coercion. (Harris, at p. 682, italics added.)\nIn Harris, moreover, the court addressed the defendant\u2019s further contention that consent was invalid because the officer\u2019s admonition was false in certain respects. The Court of Appeal found \u201cnothing in the record to support defendant\u2019s suggestion that Deputy Robinson intentionally deceived him about the contours of the implied consent law.\u201d (Harris, supra, 234 Cal.App.4th at p. 691.) The admonition, \u201cthough not entirely accurate, was not patently false,\u201d and the officer correctly informed the defendant of certain consequences. (Id. at p. 692.) The Court of Appeal recognized that \u201cfailure to strictly follow the implied consent law does not violate a defendant\u2019s constitutional rights.\u201d (Ibid., citation omitted.)\nSection 23612, subdivision (a)(1)(D), of California\u2019s Vehicle Code states that \u201c[t]he person shall be told that his or her failure to submit to, or the failure to complete, the required chemical testing will result in a fine, mandatory imprisonment if the person is convicted of a violation of Section 23152 or 23153 . . . ,\u201d and the suspension of the person\u2019s privilege to operate a motor vehicle for one year, or the revocation for two or three years depending on certain prior Vehicle Code violations. The actual text of the admonishment, describing the conditions for the various periods of license suspension or revocation, extends many, many lines. Section 23612, subdivision (a)(4), of the Vehicle Code states that \u201c[t]he officer shall also advise the person that he or she does not have the right to have an attorney present before stating whether he or she will submit to a test or tests, before deciding which test or tests to take, or during administration of the test or tests chosen, and that, in the event of refusal to submit to a test or tests, the refusal may be used against him or her in a court of law.\u201d\nThe admonition is intended to encourage arrested motorists to take the required test, because \u201cthe inference of intoxication arising from a positive blood-alcohol test is far stronger than that arising from a refusal to take the test.\u201d (South Dakota v. Neville (1983) 459 U.S. 553, 564 [74 L.Ed.2d 748, 103 S.Ct. 916].) The admonition therefore encourages consent to testing and reduces the need for forced blood draws by informing arrested motorists of the serious consequences of refusing to test. (See id. at p. 566, fn. 17 [\u201cSince the State wants the suspect to submit to the test, it is in its interest fully to warn suspects of the consequences of refusal.\u201d].) In fact, although consent is measured under an objective standard, the officer in this case actually explained during his testimony his general practice of providing admonitions. Officer Nunn testified that when arrested motorists refuse to provide a sample by saying that they do not want to provide the breath or blood sample that is mandated under California law, he advises them that their license can be suspended, that their refusal to complete a test may be used against them in court, that it will result in a fine and imprisonment if the arrest results in a conviction, and that they do not have a right to talk to an attorney before stating whether they will submit to the test, before deciding which test to take, or during the test.\nThe failure to provide the admonition of the consequences of refusing to test might preclude the imposition of those consequences for any refusal to test, in any later administrative license proceedings. (See Veh. Code, \u00a7\u00a7 13353, subd. (d)(4), 13557, subd. (b)(1)(D) [based on explicit statutory language; there is no comparable language excluding the results of testing if the admonition is not given].) As mentioned above, in his supplemental briefing on this appeal, respondent raised the failure to give the admonition as a factor showing that consent was not voluntary under the Fourth Amendment. At the actual oral argument, though, respondent\u2019s counsel did not assert that failure as a basis for involuntary consent under the Fourth Amendment, and seemed to concede that the admonition was relevant only for potential administrative remedies. (Respondent, of course, was not subject to any of these consequences, because he did consent to the test.) Contrary to both those arguments, though, in his initial brief on this appeal, respondent argued: \u201cOn its face, if such an admonishment [under Vehicle Code section 23612, subdivision (a)(1)(D)] is administered subsequent to an arrest in the search and seizure context, respondent submits that such a chemical testing requirement is inherently coercive. An arrestee is not \u2018free\u2019 to decline chemical testing.\u201d Respondent therefore was initially arguing that giving the admonition, not failing to give the admonition, would support a finding of involuntary consent. As described above, the defendant in Harris raised the same argument, which the Court of Appeal addressed.\nAlthough providing the admonition about the consequences of withdrawing consent would be considered in the totality of the circumstances surrounding the consent, the admonition is not required in order to find voluntary consent. Requiring the admonition as a condition for voluntary consent would, in effect, elevate the statutory admonition to a constitutional requirement under the Fourth Amendment. United States Supreme Court cases and California cases have rejected similar advisements as constitutional requirements.\nThe United States Supreme Court, in evaluating consent under the Fourth Amendment in other contexts, has consistently refused to require informing the person of the right to refuse a request to search. In United States v. Drayton (2002) 536 U.S. 194 [153 L.Ed.2d 242, 122 S.Ct. 2105] (Drayton), for example, the court considered the searches of two passengers traveling together on a bus. The federal court of appeals in that case had reversed denials of motions to suppress, adopting \u201cwhat is in effect a per se rule that evidence obtained during suspicionless drug interdiction efforts aboard buses must be suppressed unless the officers have advised passengers of their right not to cooperate and to refuse consent to a search.\u201d (Id. at p. 202.) The Supreme Court reversed the court of appeals. \u201cThe Court has rejected in specific terms the suggestion that police officers must always inform citizens of their right to refuse when seeking permission to conduct a warrantless consent search.\u201d (Id. at p. 206.) \u201cNor do this Court\u2019s decisions suggest that even though there are no per se rules, a presumption of invalidity attaches if a citizen consented without explicit notification that he or she was free to refuse to cooperate. Instead, the Court has repeated that the totality of the circumstances must control, without giving extra weight to the absence of this type of warning.\u201d (Id. at p. 207.)\nIn Drayton, the court cited its earlier decisions in Schneckloth v. Bustamonte, supra, 412 U.S. 218, and Ohio v. Robinette, supra, 519 U.S. 33. In Schneckloth, the United States Supreme Court reviewed a federal court of appeals decision that had held, on a writ of habeas corpus from a California case, that the state had to demonstrate that consent to search after a traffic stop was not only uncoerced, but that it had been given with the understanding that it could be freely and effectively withheld. (Schneckloth, supra, 412 U.S. at pp. 221-222.) In other words, the state had to prove that a person knows he or she has the right to refuse consent. (Id. at p. 223.) After discussing the expositions of the meaning of \u201cvoluntariness\u201d in its earlier decisions, the court concluded that the question whether consent to a search was voluntary, at least in the context of someone not in custody, is a question of fact to be determined from the totality of all the circumstances. (Id. at p. 227.) \u201cWhile knowledge of the right to refuse consent is one factor to be taken into account, the government need not establish such knowledge as the sine qua non of an effective consent.\u201d (Ibid.) The court recognized that one alternative that \u201cwould go far toward proving\u201d that the subject of a search did know that he or she had a right to refuse consent would be to advise the subject of that right before eliciting consent. (Id. at p. 231.) \u201cThat, however, is a suggestion that has been almost universally repudiated by both federal and state courts, and, we think, rightly so.\u201d (Ibid., fns. omitted.) In a footnote, the court cited two California cases, People v. Roberts (1966) 246 Cal.App.2d 715 [55 Cal.Rptr. 62] and People v. Dahlke (1967) 257 Cal.App.2d 82 [64 Cal.Rptr. 599] (Dahlke). (Schneckloth, supra, 412 U.S. at p. 231, fn. 14.) In Dahlke, one defendant consented to a search of a car after being arrested and taken to the police station. The Court of Appeal stated: \u201cDefendants\u2019 contention that a consent is invalid when obtained from a defendant who is in police custody and who has not first been advised of his right to refuse consent may not be sustained.\u201d (257 Cal.App.2d at p. 87.) Whether the consent was voluntary was to be determined in light of all the circumstances. (Ibid.)\nIn United States v. Watson (1976) 423 U.S. 411 [46 L.Ed.2d 598, 96 S.Ct. 820], the Supreme Court applied the holding of Schneckloth to a consent given while under arrest and in custody. \u201c[T]he fact of custody alone has never been enough in itself to demonstrate a coerced confession or consent to search. Similarly, under Schneckloth, the absence of proof that Watson knew he could withhold his consent, though it may be a factor in the overall judgment, is not to be given controlling significance.\u201d (Id. at p. 424.) \u201cIn these circumstances, to hold that illegal coercion is made out from the fact of arrest and the failure to inform the arrestee that he could withhold consent would not be consistent with Schneckloth and would distort the voluntariness standard that we reaffirmed in that case.\u201d (Id. at p. 425.)\nIn Robinette, the United States Supreme Court reviewed a decision of the Supreme Court of Ohio that had held, under the Fourth Amendment, that citizens stopped for a traffic offense must be informed by the officer when they are free to go after the valid detention based on the traffic stop, before the officer attempts to engage in a consensual interrogation. The United States Supreme Court recognized that, in applying the touchstone test of reasonableness under the Fourth Amendment, measured in objective terms by examining the totality of the circumstances, \u201cwe have consistently eschewed bright-line rules, instead emphasizing the fact-specific nature of the reasonableness inquiry.\u201d (Robinette, supra, 519 U.S. at p. 39.) The court cited and quoted Schneckloth, and concluded that \u201cjust as it \u2018would be thoroughly impractical to impose on the normal consent search the detailed requirements of an effective warning,\u2019 [citation], so too would it be unrealistic to require police officers to always inform detainees that they are free to go before a consent to search may be deemed voluntary.\u201d (Robinette, supra, 519 U.S. at pp. 39-40, quoting Schneckloth, supra, 412 U.S. at p. 231.) The court confirmed that voluntariness is a question of fact to be determined from all the circumstances, and reversed the decision of the Supreme Court of Ohio. (Robinette, supra, 519 U.S. at p. 40.)\nIn South Dakota v. Neville, supra, 459 U.S. 553 (Neville), the United States Supreme Court considered whether admitting into evidence at trial a defendant\u2019s refusal to submit to a test under an implied consent law violated the defendant\u2019s right against self-incrimination under the Fifth Amendment. At the outset, the court distinguished the holding in Griffin v. California (1965) 380 U.S. 609 [14 L.Ed.2d 106, 85 S.Ct. 1229], which had held that a prosecutor\u2019s or trial court\u2019s comments on a defendant\u2019s refusal to take the stand impermissibly burdened the defendant\u2019s Fifth Amendment right to refuse to testify. \u201cUnlike the defendant\u2019s situation in Griffin, a person suspected of drunk driving has no constitutional right to refuse to take a blood-alcohol test.\u201d (Neville, supra, 459 U.S. at p. 560, fn. 10.) The court then held that a refusal to take a blood-alcohol test, after an officer has lawfully requested it, is not an act coerced by the officer and is therefore not protected by the Fifth Amendment privilege against self-incrimination. In Neville, the officer had informed the defendant of certain consequences of refusing to test under South Dakota\u2019s implied consent law, including license revocation, but had failed to advise the defendant that the refusal could be used against him at trial. The Supreme Court therefore then addressed the defendant\u2019s argument that admitting at trial his refusal to test violated the due process clause because he was not fully warned of the consequences of refusal. The Supreme Court also rejected this challenge. \u201c[W]e do not think it fundamentally unfair for South Dakota to use the refusal to take the test as evidence of guilt, even though respondent was not specifically warned that his refusal could be used against him at trial.\u201d (459 U.S. at p. 565.) The court held again that, in contrast to the constitutional right to silence, the defendant\u2019s right to refuse the blood-alcohol test \u201cis simply a matter of grace bestowed by the South Dakota Legislature.\u201d (Ibid.) The court also recognized that other warnings made it clear that refusing to test was not free of adverse consequences.\nIn Neville, in addressing the consequences under the due process clause of the fact that the officers did not specifically warn the defendant that the test results could be used against him at trial, the Supreme Court added a note about the effect of warnings under the Fourth Amendment, applying the principles discussed above from earlier Supreme Court cases: \u201cEven though the officers did not specifically advise respondent that the test results could be used against him in court, no one would seriously contend that this failure to warn would make the test results inadmissible, had respondent chosen to submit to the test. Cf. Schneckloth v. Bustamonte[, supra,] 412 U.S. 218 . . . (knowledge of right to refuse not an essential part of proving effective consent to a search).\u201d (Neville, supra, 459 U.S. at pp. 565-566, fn. 16.) In a recent Ninth Circuit Court of Appeals decision, the court considered whether an admonition that incorrectly informed the suspect that his refusal to test was not a freestanding crime under federal law violated due process. The court cited Neville and McNeely in stating: \u201cWe doubt that the Constitution requires any admonition be given to DUI suspects. Cf. Missouri v. McNeely), supra,] 185 L.Ed.2d 696, 133 S.Ct. 1552, 1566 . . . (noting that \u2018States have a broad range of legal tools to enforce their drunk-driving laws,\u2019 with \u2018all 50 States hav[ing] adopted implied consent laws\u2019); Neville, 459 U.S. at 565 (explaining that one\u2019s \u2018right to refuse\u2019 a blood alcohol test is not of constitutional origin; it is \u2018simply a matter of grace bestowed by\u2019 state legislatures).\u201d (U.S. v. Harrington (9th Cir. 2014) 749 F.3d 825, 830.) The court held, though, that when an admonition is given, due process is violated when it \u201cincorrectly informs the suspect that his refusal is not a freestanding crime, when in fact it is.\u201d (Ibid.)\nIn all the above cases addressing consent under the Fourth Amendment, of course, the Supreme Court was addressing the purported failure to inform persons of the right to refuse voluntary consent, where there was no advance consent and where the consequences of refusing consent were not codified. Here, respondent already provided advance consent under the implied consent law, and respondent is relying upon the failure to inform him of the consequences of withdrawing that consent, which are stated in the statute. As an initial matter, respondent should be presumed to know the law. (People v. Hagedorn (2005) 127 Cal.App.4th 734, 748 [25 Cal.Rptr.3d 879].) In any event, even applying the Supreme Court\u2019s analysis in the cases discussed above, the statutory admonishment of the consequences of refusing to submit to testing under Vehicle Code section 23612 should not be a constitutional requirement under the Fourth Amendment.\nIn fact, the California courts have held that a similar statutorily required admonition is not constitutionally required. Subdivision (a)(2)(A) of that same section 23612 of the Vehicle Code states: \u201cIf the person is lawfully arrested for driving under the influence of an alcoholic beverage, the person has the choice of whether the test shall be of his or her blood or breath and the officer shall advise the person that he or she has that choice.\u201d This requirement that the officer \u201cshall advise\u201d the arrested person of the choice of test is therefore similar to the requirement that a person \u201cshall be told\u201d of certain consequences of failing to submit to testing under subdivision (a)(1)(D), and that the officer \u201cshall advise\u201d the person of other matters under subdivision (a)(4). The courts have nevertheless held that the failure to inform defendants of the choice of tests does not render the blood draw unconstitutional. (Respondent here was told of that choice.)\nIn Ritschel v. City of Fountain Valley (2006) 137 Cal.App.4th 107 [40 Cal.Rptr.3d 48] (Ritschel), the Court of Appeal affirmed the dismissal of civil rights claims that were based on officers\u2019 forcible taking of a blood sample. The plaintiff alleged that the officers had failed to comply with California\u2019s implied consent law by not offering him a choice between blood or breath tests, and therefore had violated his constitutional rights. The court rejected the claim under the Fourth Amendment, holding that \u201ceven assuming the officers violated plaintiff\u2019s statutory rights under California\u2019s implied consent law, it was not a violation of his federal constitutional rights.\u201d (137 Cal.App.4th at p. 118, original italics.) The court then cited the California cases supporting that principle. \u201cCalifornia case law unequivocally establishes a police officer\u2019s failure to comply with the implied consent law does not amount to a violation of an arrestee\u2019s constitutional rights.\u201d (Ibid.) \u201cMore apropos to the present appeal, case law has rejected contentions that a failure to advise an arrestee of the tests available or to honor the arrestee\u2019s choice of a particular test amounts to a constitutional violation.\u201d (Id. at p. 119, citations omitted.) The court concluded: \u201cThus, California decisional law holds a police officer\u2019s mere failure to comply with the requirements of this state\u2019s implied consent law does not equate with or amount to a violation of the arrestee\u2019s rights under the federal Constitution.\u201d (Ibid.) In Harris, as discussed above, in addressing the contention that the admonition there about the consequences of refusing to test was false, the Court of Appeal relied on this same principle: \u201cAs the appellate division recognized in its opinion, failure to strictly follow the implied consent law does not violate a defendant\u2019s constitutional rights.\u201d (Harris, supra, 234 Cal.App.4th at p. 692, citing 225 Cal.App.4th at p. Supp. 10, fn. 3, which in turn was quoting Ritschel, at p. 118).)\nIn People v. Brannon (1973) 32 Cal.App.3d 971 [108 Cal.Rptr. 620], the Court of Appeal much earlier concluded that, even though the officer had intentionally failed to advise the defendant of his right to choose among blood, breath, or urine tests, such a violation of the implied consent statute \u201cinvolves no violation of any constitutionally protected interest,\u201d and, without an express statutory provision making the evidence obtained as a result of such statutory violation inadmissible, the evidence was properly admitted. (Id. at p. 975; see People v. Puccinelli (1976) 63 Cal.App.3d 742, 746 [135 Cal.Rptr. 534] [\u201cThe desirability of obtaining blood samples in a noncoercive manner by one of the tests provided for in [the implied consent statute] may not be equated, however, with constitutionality.\u201d].)\nJust as the failure to advise arrestees about the choice of tests in violation of the statute is not a constitutional violation, the failure to inform respondent of certain consequences of refusing to submit to testing under the statute cannot be elevated to a constitutional requirement. In fact, under the statute, the Legislature did not even require an admonition of the consequences of refusing to submit to testing in all cases. Under Vehicle Code section 23612, subdivision (a)(5): \u201cA person who is unconscious or otherwise in a condition rendering him or her incapable of refusal is deemed not to have withdrawn his or her consent and a test or tests may be administered whether or not the person is told that his or her failure to submit to, or the noncompletion of, the test or tests will result in the suspension or revocation of his or her privilege to operate a motor vehicle.\u201d Under the implied consent law, then, a person incapable of refusing could be tested, and the results presumably would be admissible in court, even though the person was not admonished of the consequences of failing to test, because that person\u2019s implied advance consent would be deemed not to have been withdrawn. (Cf. Bush v. Bright (1968) 264 Cal.App.2d 788, 792-793 [71 Cal.Rptr. 123] [the statute\u2019s provision allowing the chemical test of a person unconscious or otherwise unable to refuse makes \u201cit clear that even in such cases the earlier provision that the person shall be deemed to have given his consent shall nevertheless apply\u201d; and the person is subject to the license suspension provisions].)\nUnder the above principles, requiring the statutory admonition about the consequences of withdrawing consent in every case, or even treating that as the critical factor, would improperly elevate the admonishment to a constitutional requirement under the Fourth Amendment. Providing the statutory admonishment therefore should be only a factor in weighing the voluntariness of consent under the totality of the circumstances. Indeed, it is not even clear how the admonishment would always affect voluntariness. As discussed above, in his initial briefing on this appeal, respondent asserted that the statutory admonition would make the testing requirement \u201cinherently coercive,\u201d so that any implied consent would be \u201cobviated.\u201d As also discussed above, the defendant in Harris raised the same argument, which the Court of Appeal addressed.\nThe Trial Court\u2019s Ruling\nRespondent urges us to affirm the trial court\u2019s granting of his motion to suppress on the ground that we must defer to the trial court\u2019s factual findings that the prosecution had not met its burden of establishing free and voluntary consent. Respondent argues that substantial evidence supports the trial court\u2019s ruling. The People, of course, do bear the burden of proving voluntary consent. (Schneckloth, supra, 412 U.S. at p. 222.) Further, respondent has cited the general standard of review: \u201cIn ruling on a motion to suppress, the trial court must find the historical facts, select the rule of law, and apply it to the facts in order to determine whether the law as applied has been violated. We review the court\u2019s resolution of the factual inquiry under the deferential substantial-evidence standard.\u201d (People v. Letner and Tobin (2010) 50 Cal.4th 99, 145 [112 Cal.Rptr.3d 746, 235 P.3d 62] (Letner and Tobin); see Harris, supra, 234 Cal.App.4th at p. 681, quoting People v. Bryant, Smith and Wheeler (2014) 60 Cal.4th 335, 364-365 [178 Cal.Rptr.3d 185, 334 P.3d 573], which was, in turn, quoting Letner and Tobin.) However, \u201c \u2018[t]he ruling on whether the applicable law applies to the facts is a mixed question of law and fact that is subject to independent review.\u2019 \u201d (Letner and Tobin, supra, 50 Cal.4th at p. 145; Harris, supra, 234 Cal.App.4th at p. 681.)\nIn this case, the trial court did not actually make any findings of fact, as the facts were not disputed. Officer Nunn was the only witness who testified. The trial court accepted his testimony, and did not judge witness credibility or resolve any conflicts in testimony. Then, in applying the law to the facts, the trial court did not even seem to apply the test of whether, under the totality of all the circumstances, the People had proved voluntary consent.\nIn ruling, the trial court stated that there was no published California case discussing \u201cthe implied consent requirement vis-a-vis the Fourth Amendment issues that McNeely touches on.\u201d The court continued: \u201cThe Fourth Amendment aspects are elevated over the implied consent law. The implied consent law is approved of by the Supreme Court in McNeely, but it doesn\u2019t rise to the level of the Fourth Amendment.\u201d The court said that it seemed that \u201cthe question is whether factually there was consent for the blood test.\u201d As mentioned above, the court found consent for the PAS test. \u201cBut with respect to the later blood test, the fact that the officer informed the defendant that he was required by law to give a blood or breath test without informing him of the consequences did not provide adequate evidence of choice, voluntary choice on the part of the defendant. The fact that the officer said you are required by law to provide one or the other is indicative of the factual scenario in the Bumper case, . . . that the consent that\u2019s given is vitiated by a representation about legal authority.\u201d\nThe trial court therefore relied solely on the fact that the officer told respondent that the test was \u201crequired by law,\u201d and did not inform him of the consequences of refusing. The trial court relied exclusively on Bumper v. North Carolina (1968) 391 U.S. 543 [20 L.Ed.2d 797, 88 S.Ct. 1788] (Bumper). In that case, the defendant\u2019s grandmother had allowed officers to enter her home after they announced that they had a search warrant to search her house. \u201cThe issue thus presented is whether a search can be justified as lawful on the basis of consent when that \u2018consent\u2019 has been given only after the official conducting the search has asserted that he possesses a warrant. We hold that there can be no consent under such circumstances.\u201d (Id. at p. 548, fn. omitted.) The court reasoned that \u201c[a] search conducted in reliance upon a warrant cannot later be justified on the basis of consent if it turns out that the warrant was invalid. The result can be no different when it turns out that the State does not even attempt to rely upon the validity of the warrant, or fails to show that there was, in fact, any warrant at all.\u201d (Id. at pp. 549-550, fhs. omitted.) \u201cWhen a law enforcement officer claims authority to search a home under a warrant, he announces in effect that the occupant has no right to resist the search. The situation is instinct with coercion \u2014 albeit colorably lawful coercion. Where there is coercion there cannot be consent.\u201d (Id. at p. 550.) In a footnote, the Supreme Court cited a court stating that \u201c \u2018[orderly submission to law-enforcement officers who, in effect, represented to the defendant that they had the authority to enter and search the house, against his will if necessary, was not such consent as constituted an understanding, intentional and voluntary waiver by the defendant of his fundamental rights under the Fourth Amendment to the Constitution.\u2019 \u201d (Id. at p. 549, fh. 14, quoting United States v. Elliott (D.Mass. 1962) 210 F.Supp. 357, 360.)\nIn Harris, the defendant cited Bumper in arguing that submitting to a blood draw, given only after admonition by the police under the implied consent law, \u201ccan never (or almost never) be considered valid consent under the Fourth Amendment.\u201d (Harris, supra, 234 Cal.App.4th at p. 686.) As described above, the court rejected this categorical rule, holding that \u201c[t]he fact that a motorist is told he will face serious consequences if he refuses to submit to a blood test does not, in itself, mean his submission was coerced.\u201d (Id. at p. 687.)\nThis case did not involve the type of coercion or \u201cclaim of lawful authority\u201d demonstrated in Bumper, where the officer coerced \u201cconsent\u201d by falsely announcing a search warrant that presumably either did not exist or was not valid. Here, the officer simply informed respondent that he was \u201crequired\u201d by California law to submit to a blood or breath test, which is an accurate statement of the implied consent law. Vehicle Code section 23612, subdivision (a)(1)(D) refers to the \u201crequired chemical testing.\u201d As quoted above, even the United States Supreme Court recognized, as a legal tool to enforce drunk-driving laws without undertaking warrantless nonconsensual blood draws, implied consent laws that \u201crequire\u201d motorists, as a condition of operating a motor vehicle, to consent to testing. (McNeely, supra, 569 U.S. at p. _ [133 S.Ct. at p. 1566].) To equate this accurate statement of the law with the false statement of having a search warrant in Bumper is to ignore the implied consent law. Under the implied consent law, moreover, a motorist consents in advance to testing if arrested for driving under the influence, and the issue is then whether the arrested motorist withdraws that consent by refusing to test. Again, in citing the legal tool of implied consent laws, the Supreme Court recognized that such laws impose significant consequences when a motorist \u201cwithdraws\u201d consent. (McNeely, supra, at p. _ [133 S.Ct. at p. 1566].) The implied consent statute is not framed in terms of having to request consent once a motorist is arrested, with a choice at that time of whether to consent to test or face later specified consequences. The issue under the implied consent law is whether respondent withdrew advance consent to testing. The fact that the officer did not provide the statutory admonition concerning the consequences of the refusal to test is a fact to be considered in weighing consent under the totality of all the circumstances, which is what respondent seemed to be arguing at least in his supplemental briefing. Relying on that fact as the only dispositive fact to defeat consent, however, in effect elevates that statutory admonition into a constitutional requirement under the Fourth Amendment. As discussed above, California cases have rejected elevating a similar admonition under the implied consent law to a constitutional requirement, and the United States Supreme Court has rejected imposing analogous admonitions as constitutional requirements.\nThe Totality of the Circumstances in This Case\nWe therefore find that the trial court did not apply the appropriate test of weighing the totality of the circumstances in the context of the implied consent law. The motion to suppress was based solely on the testimony of Officer Nunn. Officer Nunn testified that, after placing respondent under arrest, he advised him that he was required by California law to provide a blood or breath sample, and asked him which one he would prefer. Respondent chose a blood test. According to Officer Nunn\u2019s testimony, respondent did not indicate in any way that he did not want to provide a blood or breath sample. Officer Nunn did not threaten respondent with force or state that, even if respondent refused, a test would be forced. Respondent then did not object or resist in any way in actually providing the sample to the certified nurse technician. These facts would support a finding that respondent voluntarily consented to the blood test, and did not withdraw his consent.\nAs discussed above, the fact that Officer Nunn did not advise respondent of the consequences of refusing to test would be another fact to consider in the totality of the circumstances. Respondent argues that the fact that he had been arrested and was handcuffed in the field when offered the choice of tests, and later when he provided the sample, supports a finding that there was no voluntary consent. Those facts, however, are always present when motorists are tested after being arrested for suspected driving under the influence. The facts that a person is under arrest and in handcuffs do not by themselves show that the blood test was involuntary, or that the respondent could not have withdrawn consent by refusing to test. (People v. Monterroso (2004) 34 Cal.4th 743, 758 [22 Cal.Rptr.3d 1, 101 P.3d 956]; People v. James (1977) 19 Cal.3d 99, 109-110 [137 Cal.Rptr. 447, 561 P.2d 1135].)\nThe fact that advising motorists, even after being arrested and handcuffed, that they are required to test under California law is not inherently coercive is demonstrated by Officer Nunn\u2019s own testimony. As discussed above, Officer Nunn described his general practice under which he does read certain admonitions about the consequences of refusing to test if an arrested motorist refuses to test. Officer Nunn explained the context for those admonitions: \u201cOnce a person is placed under arrest, I advise them that it is required by the State of California to provide a blood or breath sample. Sometimes they will say I would like to provide a blood sample, sometimes a breath sample. Sometimes they say they don\u2019t want to provide either, at which point I continue and tell them, you must realize that if you do not provide a breath sample required by the State of California, your license can be suspended for a year and whatnot from the back of [a DMV form].\u201d This testimony based on the officer\u2019s experience shows that others have refused to test, after being advised that it is required under California law.\nFinally, in this case we have the additional facts that earlier, after completing certain field sobriety tests and before being placed under arrest, respondent was advised by Officer Nunn that a PAS test was voluntary, and respondent replied that he did not want to provide it. After being arrested and handcuffed, and before being informed of the required testing, though, respondent, voluntarily and without prompting, offered to take the PAS test. This fact would support the voluntariness and lack of coercion, under the totality of the circumstances, of respondent\u2019s then providing the blood sample.\nOn , this appeal, the People offered, to further support the conclusion that respondent\u2019s consent was voluntary, additional information to show that respondent would have been made aware of the terms of California\u2019s implied consent law when he applied for his driver\u2019s license. We discuss that request for judicial notice below.\nThe Request for Judicial Notice\nIn its initial brief on this appeal, the People noted that \u201cin California, a motorist is also made aware of California\u2019s implied consent law and the terms thereof (i.e. their advance consent to provide a chemical sample), the moment the person applies for and receives a California driver\u2019s license.\u201d Based on that statement, this court issued an order requesting further briefing, asking the People to address whether there are any forms or other documents that persons submit or receive when applying for, receiving, or renewing a California driver\u2019s license that contain any information, agreements, representations, or certifications concerning California\u2019s implied consent law or the terms of that law, including the advance consent to provide a chemical sample. The People were also asked to address whether those or other materials, including any driver\u2019s handbook, describe the consequences of refusing a chemical test. The court further asked the People to address whether, if the People were offering any such documents, this court could take judicial notice of the documents under Evidence Code section 452, subdivision (h), section 459, or any other basis. In that order, the court allowed respondent, if the People did offer any such documents, to present any information relevant to (1) the propriety of this court\u2019s taking judicial notice of any such matter, and (2) the tenor of the matter to be noticed.\nFurther, in that order requesting further briefing, the court noted that the clerk\u2019s transcript on appeal appeared to contain information concerning respondent\u2019s California driver\u2019s license, including the issue date. This court asked whether it could consider this information or any other information concerning respondent\u2019s driver\u2019s license status as part of the record and, if so, whether any materials offered by the People would cover the date of respondent\u2019s license.\nIn its second supplemental brief filed July 6, 2015, in response to that order, the People submitted a 2015 California driver handbook. Under the \u201cApplication Requirements for a Basic Class C Driver License,\u201d the handbook states that a person must submit a signed application (DL 44) form, and that \u201c[s]igning this form means you agree to submit to a chemical test to determine the alcohol or drug content of your blood when requested by a peace officer.\u201d (Some capitalization omitted.) Under a section entitled \u201cAdmin Per Se,\u201d the handbook again states: \u201cWhen you drive in California, you consent to have your breath, blood or, under certain circumstances, urine tested if you are arrested for driving under the influence of alcohol, drugs, or a combination of both.\u201d (Some capitalization omitted.) The section then discusses certain consequences if a person is arrested, including that the \u201carresting officer may require you to submit to either a breath or blood test,\u201d and that a person does not have the right to consult with a lawyer before selecting or completing a test. That section also states: \u201cIf you refuse to submit to the required blood and/or urine test(s), your driving privilege may be suspended because of your refusal.\u201d\nIn a footnote, the People stated that respondent received his California driver\u2019s license in November 2009, and that the 2009 version of the California driver handbook contained \u201csimilar provisions regarding implied consent.\u201d The People stated that a \u201ctrue and correct copy\u201d of the 2009 handbook could be viewed at a cited Web site, but that site appears to allow viewing of past documents that can be printed only by subscription.\nThe People also submitted a copy of a driver license or identification card application (DL 44). A person must sign the form below the statement: \u201cI certify that I have read, understand and agree with the contents of this form. I acknowledge that I have received a copy of the declarations and certification statements pertaining to the issuance of a driver license or identification card.\u201d Below the signature line, the application states: \u201cIT IS IMPORTANT THAT YOU READ AND UNDERSTAND THE FOLLOWING INFORMATION AND CERTIFICATIONS.\u201d In a separate section on another page titled \u201cCERTIFICATIONS,\u201d the first line states: \u201cI agree to submit to a chemical test of my blood, breath, or urine for the purpose of determining the alcohol or drug content of my blood when testing is requested by a peace officer acting in accordance with California Vehicle Code \u00a723612.\u201d The People also submitted a driver license renewal form with the same certification.\nIn its second supplemental brief, the People cited cases to support this court\u2019s taking judicial notice of the above materials under Evidence Code sections 452 and 459. Finally, the People also cited cases to support this court\u2019s taking judicial notice of the information in the appellate record concerning respondent\u2019s driver\u2019s license, including the issuance date.\nIn response, respondent filed a second supplemental brief on July 27, 2015. That brief states: \u201cRespondent does not dispute that under certain circumstances, not presented here, that it may be proper for an appellate or trial court to take judicial notice of the items that appellant urges this Court to notice in this case.\u201d Respondent argues, however, that it would be improper for this court to take judicial notice because, as a general rule, an appellate court should not take judicial notice of matters that were not presented to the trial court. Respondent cites, among other cases, People v. Amador (2000) 24 Cal.4th 387, 394 [100 Cal.Rptr.2d 617, 9 P.3d 993] (\u201cThe facts relevant to a suppression motion should be litigated and decided at trial, not on appeal.\u201d). Respondent also concedes that the information concerning respondent\u2019s California driver\u2019s license is contained in the appellate record, but again argues that it would be improper for this court to take judicial notice of that information because it was not marked as an exhibit at the suppression hearing before the trial court.\nWe do not decide whether it would be appropriate for this court to take judicial notice of the materials offered by the People under Evidence Code sections 452, subdivision (h) and 459, and under the cases applying those sections. Rather, we decline to take judicial notice of the materials based on the apparent missing information about their effective dates. As mentioned above, the information in the appellate record suggests that respondent received his California driver\u2019s license in November 2009. The People submitted a 2015 handbook, and suggested in a footnote that the 2009 handbook contains similar provisions regarding implied consent, but did not submit that version, instead referring the court to view the materials on a Web site. The DL 44 form that the People submitted, moreover, bears a footer that appears to indicate that it is a version that was revised in 2014. The People did not submit information showing that the form in effect when respondent applied for his license contained the same certification.\nCONCLUSION\nThe trial court did not consider all the facts discussed above, in the context of the implied consent law and under the totality of the circumstances, to decide whether respondent voluntarily consented to the blood draw and did not withdraw his advance consent. We will remand the case for the trial court, as the initial finder of fact, to weigh all the facts under the appropriate test we have discussed. The trial court may consider, on remand, the appropriateness of any party\u2019s request to reopen the suppression hearing or to take judicial notice of any information.\nFor the reasons discussed above, the granting of the motion to suppress the results of the blood test is reversed, and the case is remanded for further proceedings consistent with this opinion.\nBonini, J., and Arand, J., concurred.",
+        "type": "majority",
+        "author": "CHIARELLO, Acting P. J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Jeffrey F. Rosen, District Attorney, and Jen Jiang, Deputy District Attorney, for Plaintiff and Appellant.",
+      "Law Offices of Eloy I. Trujillo and Eloy I. Trujillo for Defendant and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "Appellate Division, Superior Court, Santa Clara County\n[No. 1-14-AP-001652.\nOct. 26, 2015.]\nTHE PEOPLE, Plaintiff and Appellant, v. STEVEN ALFRED AGNEW, Defendant and Respondent.\nCounsel\nJeffrey F. Rosen, District Attorney, and Jen Jiang, Deputy District Attorney, for Plaintiff and Appellant.\nLaw Offices of Eloy I. Trujillo and Eloy I. Trujillo for Defendant and Respondent."
+  },
+  "file_name": "Supp. 1-01",
+  "first_page_order": 1499,
+  "last_page_order": 1521
+}

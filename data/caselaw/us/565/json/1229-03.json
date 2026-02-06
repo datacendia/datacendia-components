@@ -1,0 +1,61 @@
+{
+  "id": 12249059,
+  "name": "Cavanaugh v. United States",
+  "name_abbreviation": "Cavanaugh v. United States",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-7379",
+  "first_page": "1229",
+  "last_page": "1229",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1229"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 153,
+    "ocr_confidence": 0.614,
+    "sha256": "38fac0dc647342ffa0adfd2f40fbf2f1f3296d6195b20d39876282aa263c4c2e",
+    "simhash": "1:8d33fa82052698c2",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Cavanaugh v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7379.\nCavanaugh v. United States."
+  },
+  "file_name": "1229-03",
+  "first_page_order": 1311,
+  "last_page_order": 1311
+}

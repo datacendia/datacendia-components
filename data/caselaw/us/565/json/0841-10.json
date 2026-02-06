@@ -1,0 +1,59 @@
+{
+  "id": 12203569,
+  "name": "Mohrmann v. California",
+  "name_abbreviation": "Mohrmann v. California",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10611",
+  "first_page": "841",
+  "last_page": "841",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 841"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 87,
+    "ocr_confidence": 0.643,
+    "sha256": "1582bdd694e23308280c48b3f10dabafc3440d6319d6c6eb3107d72597f67ee5",
+    "simhash": "1:2925348403a11243",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mohrmann v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 6th App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10611.\nMohrmann v. California."
+  },
+  "file_name": "0841-10",
+  "first_page_order": 923,
+  "last_page_order": 923
+}

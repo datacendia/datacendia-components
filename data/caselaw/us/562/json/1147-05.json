@@ -1,0 +1,59 @@
+{
+  "id": 5963105,
+  "name": "Bourgeois v. Bergeron, Warden",
+  "name_abbreviation": "Bourgeois v. Bergeron",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7174",
+  "first_page": "1147",
+  "last_page": "1147",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1147"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 78,
+    "ocr_confidence": 0.497,
+    "sha256": "d2cbeabf74c4176ee5909f7201363b97e4e6ede86f752db1be37a0c38e98573d",
+    "simhash": "1:96c0b682f94fb2e7",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bourgeois v. Bergeron, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7174.\nBourgeois v. Bergeron, Warden."
+  },
+  "file_name": "1147-05",
+  "first_page_order": 1169,
+  "last_page_order": 1169
+}

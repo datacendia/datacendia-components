@@ -1,0 +1,59 @@
+{
+  "id": 12252350,
+  "name": "Isaac v. Holder, Attorney General, et al.",
+  "name_abbreviation": "Isaac v. Holder",
+  "decision_date": "2012-03-19",
+  "docket_number": "No. 11-8499",
+  "first_page": "1269",
+  "last_page": "1269",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1269"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 91,
+    "ocr_confidence": 0.66,
+    "sha256": "ef4cc5a4d43c4f58d8452b3f64526393af04eb26f8f9d2bd0bdb1b87661f7bb9",
+    "simhash": "1:d0d144a12d3df065",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Isaac v. Holder, Attorney General, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. D. C. Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8499.\nIsaac v. Holder, Attorney General, et al."
+  },
+  "file_name": "1269-04",
+  "first_page_order": 1351,
+  "last_page_order": 1351
+}

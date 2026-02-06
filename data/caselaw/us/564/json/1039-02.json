@@ -1,0 +1,59 @@
+{
+  "id": 5927869,
+  "name": "Clellan v. Ohio",
+  "name_abbreviation": "Clellan v. Ohio",
+  "decision_date": "2011-06-27",
+  "docket_number": "No. 10-1313",
+  "first_page": "1039",
+  "last_page": "1039",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1039"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 81,
+    "ocr_confidence": 0.541,
+    "sha256": "5c89aa05ecf1a4320f7e9a23952295da33ed4c216d3afb5a2df046f875843147",
+    "simhash": "1:a55aa61b8be8aa55",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Clellan v. Ohio."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Ohio, Franklin County. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1313.\nClellan v. Ohio."
+  },
+  "file_name": "1039-02",
+  "first_page_order": 1033,
+  "last_page_order": 1033
+}

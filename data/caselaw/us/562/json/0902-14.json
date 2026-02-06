@@ -1,0 +1,59 @@
+{
+  "id": 5945342,
+  "name": "Moddison v. United States",
+  "name_abbreviation": "Moddison v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5084",
+  "first_page": "902",
+  "last_page": "902",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 902"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.639,
+    "sha256": "04249a5aa41973a5c7164ee7ba0082ee7ae0fe29a7ce070d268bfc90bdb8d265",
+    "simhash": "1:06a3a6896f951058",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Moddison v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5084.\nModdison v. United States."
+  },
+  "file_name": "0902-14",
+  "first_page_order": 924,
+  "last_page_order": 924
+}

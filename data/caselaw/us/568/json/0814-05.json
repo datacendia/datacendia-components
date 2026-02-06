@@ -1,0 +1,59 @@
+{
+  "id": 12408751,
+  "name": "Young v. California ex rel. Parker, City Attorney, City of Oakland, California",
+  "name_abbreviation": "Young v. California ex rel. Parker",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-1254",
+  "first_page": "814",
+  "last_page": "814",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 814"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 19,
+    "char_count": 142,
+    "ocr_confidence": 0.62,
+    "sha256": "aace8cc2c9c786448d579bbb816fae0bd221db90c694277da1e7dcb777859b63",
+    "simhash": "1:c3925b5d0dc75a53",
+    "word_count": 22
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Young v. California ex rel. Parker, City Attorney, City of Oakland, California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 1st App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1254.\nYoung v. California ex rel. Parker, City Attorney, City of Oakland, California."
+  },
+  "file_name": "0814-05",
+  "first_page_order": 890,
+  "last_page_order": 890
+}

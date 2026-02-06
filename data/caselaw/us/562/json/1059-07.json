@@ -1,0 +1,61 @@
+{
+  "id": 5995867,
+  "name": "In re Travelers Indemnity Co. et al.",
+  "name_abbreviation": "In re Travelers Indemnity Co.",
+  "decision_date": "2010-11-29",
+  "docket_number": "No. 10-245",
+  "first_page": "1059",
+  "last_page": "1059",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1059"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 169,
+    "ocr_confidence": 0.544,
+    "sha256": "f783bc1f7e65dc77cc179722415ea560d88c1660810fddb0a0ede2f10599cfaa",
+    "simhash": "1:5b73ba1efd6ed65e",
+    "word_count": 28
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Sotomayor took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "In re Travelers Indemnity Co. et al."
+    ],
+    "opinions": [
+      {
+        "text": "Petition for writ of mandamus denied.\nJustice Sotomayor took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-245.\nIn re Travelers Indemnity Co. et al."
+  },
+  "file_name": "1059-07",
+  "first_page_order": 1081,
+  "last_page_order": 1081
+}

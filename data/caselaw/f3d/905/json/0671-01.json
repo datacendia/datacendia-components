@@ -1,0 +1,81 @@
+{
+  "id": 12518807,
+  "name": "OLD DOMINION ELECTRIC COOPERATIVE, Petitioner v. FEDERAL ENERGY REGULATORY COMMISSION, Respondent LSP Transmission Holdings, LLC, et al., Intervenors",
+  "name_abbreviation": "Old Dominion Elec. Coop. v. Fed. Energy Regulatory Comm'n",
+  "decision_date": "2018-10-16",
+  "docket_number": "No. 17-1040; C/w 17-1041",
+  "first_page": "671",
+  "last_page": "671",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "905 F.3d 671"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "D.C. Cir.",
+    "id": 11448,
+    "name": "Court of Appeals of the District of Columbia"
+  },
+  "jurisdiction": {
+    "id": 56,
+    "name_long": "District of Columbia",
+    "name": "D.C."
+  },
+  "cites_to": [
+    {
+      "cite": "898 F.3d 1254",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12517934
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1263"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/898/1254-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 150,
+    "char_count": 1849,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2590803556500784
+    },
+    "sha256": "d837489321bbdf73e885f66a946920f2cd19039a9ce3ac74cc6753b59a7a078f",
+    "simhash": "1:64e6c0450b3b98e4",
+    "word_count": 278
+  },
+  "last_updated": "2024-02-27T18:46:01.347439+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "OLD DOMINION ELECTRIC COOPERATIVE, Petitioner\nv.\nFEDERAL ENERGY REGULATORY COMMISSION, Respondent"
+    ],
+    "opinions": [
+      {
+        "text": "Per Curiam\nUpon consideration of the petition for panel rehearing and/or clarification filed by Intervenor-respondents Exelon Corporation, et al., and the motion for clarification filed by Intervenor-respondents Linden VFT, LLC and Consolidated Edison Co. of New York, the opposition thereto, and the reply, it is\nORDERED that the petition for rehearing and/or clarification be denied. It is\nFURTHER ORDERED that the motion for clarification be denied.\nKatsas, Circuit Judge:\nThe petition for panel rehearing or clarification filed by intervenor Exelon Corporation and others is denied. The panel opinion \"hold[s] only that FERC did not adequately justify its approval of the [tariff] amendment at issue.\" Old Dominion Elec. Coop. v. FERC , 898 F.3d 1254, 1263 (D.C. Cir. 2018). Nothing in the opinion prevents FERC on remand from attempting to \"provide a better justification for its approval of the tariff amendment,\" as Exelon would like. Pet. at 2. Accordingly, there is no need for clarification.\nThe motion for clarification filed by intervenors Consolidated Edison and Linden VFT is denied. Because the panel opinion set aside FERC's approval of the proposed tariff amendment, the unamended tariff remains in effect. On remand, the parties remain free to address the appropriate treatment of low-voltage or other facilities, either under the unamended tariff or under any proposed tariff amendment that FERC may now wish to consider. We express no opinion regarding the appropriate treatment of the contested Sewaren project-an issue not addressed in the orders under review.",
+        "type": "majority",
+        "author": "Per Curiam"
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "OLD DOMINION ELECTRIC COOPERATIVE, Petitioner\nv.\nFEDERAL ENERGY REGULATORY COMMISSION, Respondent\nLSP Transmission Holdings, LLC, et al., Intervenors\nNo. 17-1040\nC/w 17-1041\nUnited States Court of Appeals, District of Columbia Circuit.\nFiled: October 16, 2018\nORDER"
+  },
+  "file_name": "0671-01",
+  "first_page_order": 671,
+  "last_page_order": 671
+}

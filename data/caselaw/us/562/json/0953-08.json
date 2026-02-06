@@ -1,0 +1,61 @@
+{
+  "id": 6020296,
+  "name": "Adkins v. Semple, Warden",
+  "name_abbreviation": "Adkins v. Semple",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5231",
+  "first_page": "953",
+  "last_page": "953",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 953"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 154,
+    "ocr_confidence": 0.567,
+    "sha256": "a356727d7c6eae981b6b322d0a6e1d23ee93da1fcc239f5febb935f0eadbdade",
+    "simhash": "1:9d730a887a2af640",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Sotomayor took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Adkins v. Semple, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.\nJustice Sotomayor took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5231.\nAdkins v. Semple, Warden."
+  },
+  "file_name": "0953-08",
+  "first_page_order": 975,
+  "last_page_order": 975
+}

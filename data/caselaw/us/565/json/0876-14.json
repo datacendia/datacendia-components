@@ -1,0 +1,59 @@
+{
+  "id": 12213191,
+  "name": "Aparicio-Lopez v. United States",
+  "name_abbreviation": "Aparicio-Lopez v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-11282",
+  "first_page": "876",
+  "last_page": "876",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 876"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 81,
+    "ocr_confidence": 0.72,
+    "sha256": "949bfc513832349eccac3607b8760505cdfd8c05159eec397e7222d758958dd4",
+    "simhash": "1:160b860069bd211e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Aparicio-Lopez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-11282.\nAparicio-Lopez v. United States."
+  },
+  "file_name": "0876-14",
+  "first_page_order": 958,
+  "last_page_order": 958
+}

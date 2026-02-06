@@ -1,0 +1,957 @@
+{
+  "id": 6055372,
+  "name": "MARVALYN DeCAMBRE, Plaintiff and Appellant, v. RADY CHILDREN'S HOSPITAL-SAN DIEGO et al., Defendants and Respondents",
+  "name_abbreviation": "DeCambre v. Rady Children's Hospital-San Diego",
+  "decision_date": "2015-03-11",
+  "docket_number": "No. D063462",
+  "first_page": "1",
+  "last_page": "28",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "235 Cal. App. 4th 1"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "56 Cal.Rptr.3d 728",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "149 Cal.App.4th 91",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3623984
+      ],
+      "pin_cites": [
+        {
+          "page": "113"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/149/0091-01"
+      ]
+    },
+    {
+      "cite": "74 P.3d 737",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "3 Cal.Rptr.3d 636",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "31 Cal.4th 728",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        18381
+      ],
+      "pin_cites": [
+        {
+          "page": "732, fn. 1"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/31/0728-01"
+      ]
+    },
+    {
+      "cite": "142 Cal.Rptr.3d 646",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "206 Cal.App.4th 1095",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4253863
+      ],
+      "pin_cites": [
+        {
+          "page": "1123"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/206/1095-01"
+      ]
+    },
+    {
+      "cite": "42 Cal.Rptr.2d 110",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.App.4th 1545",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4872186
+      ],
+      "pin_cites": [
+        {
+          "page": "1554"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/35/1545-01"
+      ]
+    },
+    {
+      "cite": "703 P.2d 58",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "216 Cal.Rptr. 718",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "39 Cal.3d 311",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2011359
+      ],
+      "pin_cites": [
+        {
+          "page": "318"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/39/0311-01"
+      ]
+    },
+    {
+      "cite": "80 Cal.Rptr.3d 316",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "164 Cal.App.4th 1583",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3938250
+      ],
+      "pin_cites": [
+        {
+          "page": "1589"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/164/1583-01"
+      ]
+    },
+    {
+      "cite": "132 Cal.Rptr.3d 660",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "200 Cal.App.4th 480",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4242353
+      ],
+      "pin_cites": [
+        {
+          "page": "493"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/200/0480-01"
+      ]
+    },
+    {
+      "cite": "113 Cal.Rptr.2d 399",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "93 Cal.App.4th 700",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        974574
+      ],
+      "pin_cites": [
+        {
+          "page": "717-718"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/93/0700-01"
+      ]
+    },
+    {
+      "cite": "64 Cal.Rptr.3d 467",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "154 Cal.App.4th 97",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3615392
+      ],
+      "pin_cites": [
+        {
+          "page": "108"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/154/0097-01"
+      ]
+    },
+    {
+      "cite": "67 Cal.Rptr.2d 483",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "57 Cal.App.4th 997",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        19494
+      ],
+      "pin_cites": [
+        {
+          "page": "1005"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/57/0997-01"
+      ]
+    },
+    {
+      "cite": "4 Cal.Rptr.2d 522",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "3 Cal.App.4th 467",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        2307491
+      ],
+      "pin_cites": [
+        {
+          "page": "476"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/3/0467-01"
+      ]
+    },
+    {
+      "cite": "93 Cal.Rptr.3d 338",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "173 Cal.App.4th 986",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6051837
+      ],
+      "pin_cites": [
+        {
+          "page": "1004"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/173/0986-01"
+      ]
+    },
+    {
+      "cite": "151 Cal.Rptr.3d 117",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "212 Cal.App.4th 97",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3701168
+      ],
+      "pin_cites": [
+        {
+          "page": "108, fn. 9"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/212/0097-01"
+      ]
+    },
+    {
+      "cite": "132 Cal.Rptr.2d 57",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "106 Cal.App.4th 1219",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        157517
+      ],
+      "pin_cites": [
+        {
+          "page": "1237"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/106/1219-01"
+      ]
+    },
+    {
+      "cite": "50 P.3d 733",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "123 Cal.Rptr.2d 19",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 Cal.4th 811",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        947659
+      ],
+      "pin_cites": [
+        {
+          "page": "821"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/28/0811-01"
+      ]
+    },
+    {
+      "cite": "55 Cal.Rptr.3d 600",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "148 Cal.App.4th 71",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6046176
+      ],
+      "pin_cites": [
+        {
+          "page": "80"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/148/0071-01"
+      ]
+    },
+    {
+      "cite": "52 P.3d 685",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "124 Cal.Rptr.2d 507",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 Cal.4th 53",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        777220
+      ],
+      "pin_cites": [
+        {
+          "page": "67"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/29/0053-01"
+      ]
+    },
+    {
+      "cite": "33 Cal.Rptr.3d 644",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "132 Cal.App.4th 359",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        5567528
+      ],
+      "pin_cites": [
+        {
+          "page": "373"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/132/0359-01"
+      ]
+    },
+    {
+      "cite": "74 Cal.Rptr.3d 873",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "161 Cal.App.4th 1275",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3994996
+      ],
+      "pin_cites": [
+        {
+          "page": "1288"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/161/1275-01"
+      ]
+    },
+    {
+      "cite": "41 Cal.Rptr.3d 1",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2008,
+      "opinion_index": 0
+    },
+    {
+      "cite": "137 Cal.App.4th 1118",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3818000
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "1125"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/137/1118-01"
+      ]
+    },
+    {
+      "cite": "110 Cal.Rptr.3d 129",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "184 Cal.App.4th 1539",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4220220
+      ],
+      "pin_cites": [
+        {
+          "page": "1551"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/184/1539-01"
+      ]
+    },
+    {
+      "cite": "142 Cal.Rptr.3d 74",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "206 Cal.App.4th 751",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4253638
+      ],
+      "pin_cites": [
+        {
+          "page": "767"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/206/0751-01"
+      ]
+    },
+    {
+      "cite": "138 Cal.Rptr.3d 446",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "204 Cal.App.4th 65",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4250142
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/204/0065-01"
+      ]
+    },
+    {
+      "cite": "159 Cal.Rptr.3d 901",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "218 Cal.App.4th 384",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6050104
+      ],
+      "pin_cites": [
+        {
+          "page": "395"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/218/0384-01"
+      ]
+    },
+    {
+      "cite": "198 P.3d 66",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "87 Cal.Rptr.3d 275",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Cal.4th 467",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3892635
+      ],
+      "pin_cites": [
+        {
+          "page": "477"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/45/0467-01"
+      ]
+    },
+    {
+      "cite": "52 P.3d 703",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "124 Cal.Rptr.2d 530",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 Cal.4th 82",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        777250
+      ],
+      "pin_cites": [
+        {
+          "page": "92"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/29/0082-01"
+      ]
+    },
+    {
+      "cite": "26 Cal.Rptr.3d 744",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "128 Cal.App.4th 85",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        54929
+      ],
+      "pin_cites": [
+        {
+          "page": "98"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/128/0085-01"
+      ]
+    },
+    {
+      "cite": "138 P.3d 193",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.Rptr.3d 41",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "39 Cal.4th 192",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3582928
+      ],
+      "pin_cites": [
+        {
+          "page": "199"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/39/0192-01"
+      ]
+    },
+    {
+      "cite": "35 Cal.Rptr.3d 31",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "133 Cal.App.4th 658",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3684976
+      ],
+      "pin_cites": [
+        {
+          "page": "670"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/133/0658-01"
+      ]
+    },
+    {
+      "cite": "12 Cal.Rptr.3d 786",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "118 Cal.App.4th 204",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1377180
+      ],
+      "pin_cites": [
+        {
+          "page": "212"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/118/0204-01"
+      ]
+    },
+    {
+      "cite": "117 Cal.Rptr.3d 805",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "190 Cal.App.4th 40",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4227049
+      ],
+      "pin_cites": [
+        {
+          "page": "52"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/190/0040-01"
+      ]
+    },
+    {
+      "cite": "148 Cal.Rptr.3d 119",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "210 Cal.App.4th 35",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4260724
+      ],
+      "pin_cites": [
+        {
+          "page": "54"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/210/0035-01"
+      ]
+    },
+    {
+      "cite": "52 P.3d 695",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "124 Cal.Rptr.2d 519",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 Cal.4th 69",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        777221
+      ],
+      "pin_cites": [
+        {
+          "page": "78"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/29/0069-01"
+      ]
+    },
+    {
+      "cite": "250 P.3d 1115",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "124 Cal.Rptr.3d 256",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "51 Cal.4th 811",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3915310
+      ],
+      "pin_cites": [
+        {
+          "page": "819"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/51/0811-01"
+      ]
+    },
+    {
+      "cite": "230 P.3d 1117",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "109 Cal.Rptr.3d 329",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "49 Cal.4th 12",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6050888
+      ],
+      "pin_cites": [
+        {
+          "page": "21"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/49/0012-01"
+      ]
+    },
+    {
+      "cite": "58 Cal.Rptr.3d 305",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "150 Cal.App.4th 242",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3676623
+      ],
+      "pin_cites": [
+        {
+          "page": "249-250"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/150/0242-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1884,
+    "char_count": 63552,
+    "ocr_confidence": 0.863,
+    "pagerank": {
+      "raw": 8.348755399840375e-08,
+      "percentile": 0.4811266988924837
+    },
+    "sha256": "a2c024401bfabfdd57972be67f427b8d457f475ec018600a49cab99500a78753",
+    "simhash": "1:9f2fc76b5897d4dc",
+    "word_count": 9696
+  },
+  "last_updated": "2024-02-27T17:59:06.676148+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "O\u2019Rourke, Acting P. J., and Irion, J., concurred."
+    ],
+    "parties": [
+      "MARVALYN DeCAMBRE, Plaintiff and Appellant, v. RADY CHILDREN\u2019S HOSPITAL-SAN DIEGO et al., Defendants and Respondents."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nAARON, J.\nI\nINTRODUCTION\nMarvalyn DeCambre, M.D., appeals a judgment entered after the trial court granted special motions to strike pursuant to Code of Civil Procedure section 425.16 brought by defendants Rady Children\u2019s Hospital-San Diego (RCHSD), Children\u2019s Specialist San Diego (CSSD) and the Regents of the University of California (Regents) (collectively, defendants), and also sustained defendants\u2019 demurrers to certain causes of action in DeCambre\u2019s complaint. DeCambre, a physician specializing in pediatric urology, filed an action against RCHSD, CSSD and the Regents alleging retaliation, harassment, racial discrimination, failure to prevent discrimination and wrongful termination under the California Fair Employment and Housing Act (FEHA) (Gov. Code, \u00a7 12900 et seq.). DeCambre also brought claims against all defendants for intentional infliction of emotional distress (IIED), defamation, and violations of the unfair competition law (UCL) (Bus. & Prof. Code, \u00a7 17200 et seq.) and the Cartwright Act (Bus. & Prof. Code, \u00a7 16700 et seq.). The theme of DeCambre\u2019s complaint is that throughout her tenure at RCHSD, defendants discriminated against her because of her race and gender.\nEach defendant filed a special motion to strike DeCambre\u2019s complaint. The trial court granted the motions in full on the ground that all of DeCambre\u2019s causes of action arose from RCHSD\u2019s decision not to renew its contract for DeCambre\u2019s services, which was the culmination of a peer review process that is protected as an official proceeding authorized by law under section 425.16, subdivision (e). The court also sustained defendants\u2019 demurrers to DeCambre\u2019s claims for IIED, defamation, unfair competition and violation of the Cartwright Act and denied DeCambre\u2019s request for leave to amend.\nOn appeal, DeCambre contends that the trial court erred in granting the special motions to strike because defendants\u2019 peer review process was not entitled to protection under the anti-SLAPP statute and even if it was, her claims did not arise from that process. DeCambre also challenges the resulting attorney fee awards and the trial court\u2019s order sustaining defendants\u2019 demurrers. We conclude that the trial court erred in granting defendants\u2019 anti-SLAPP motions as to DeCambre\u2019s claims for harassment and IIED. These claims do not arise from protected activity under section 425.16 and we reject defendants\u2019 attempt to cloak them in the protections afforded to peer review proceedings under the anti-SLAPP statute. Because we reverse this portion of the anti-SLAPP ruling, we also reverse and remand the attorney fee awards. In addition, we remand with directions that the court determine whether DeCambre should be afforded leave to amend her claim for defamation.\nII\nFACTUAL AND PROCEDURAL BACKGROUND\nA. Factual background\nDeCambre was hired by CSSD in 2006 to provide pediatric urology services to RCHSD. At the time, George W. Kaplan, M.D., headed the hospital\u2019s pediatric urology department. According to DeCambre, after she was hired, RCHSD\u2019s pediatric urology department became the highest ranked in the state. DeCambre is an African-American woman. During her tenure at RCHSD, she was the only female minority physician in its department of surgery.\nDeCambre alleges that defendants discriminated against her from the outset of her employment. DeCambre asserts that she was initially promised a housing allowance of $100,000, but when she arrived in San Diego, she was provided only $75,000 and \u201conly after several months of extended negotiation and hardship.\u201d DeCambre also contends that she was promised an office but was not provided one, and instead had to share an office with a physician who was continuing training in a fellowship program. She maintains that she was also denied appropriate support staff and was treated as \u201cancillary\u201d to Kaplan. When DeCambre complained to another physician about the staff\u2019s treatment of her, she was advised not to complain. When another male pediatric urologist joined the department in mid-2007, DeCambre claims that he was immediately provided the accommodations that DeCambre had requested, but had been denied.\nAccording to DeCambre, in late 2008 or early 2009, she asked Kaplan, RCHSD Director of Surgical Services Donald Kearns, M.D., and CSSD Executive Director Herbert Kimmons, M.D., to provide her with a mentor. She alleges that they denied her request, but provided mentors to other male, nonminority doctors. DeCambre similarly alleges that in 2010, the support staff responsible for implementing a new electronic medical records system denied her requests for information, while providing the same type of information to Kaplan. DeCambre\u2019s complaint also contains allegations of specific statements made by various hospital employees over the course of her tenure that she asserts were racially and/or sexually discriminatory.\nAccording to DeCambre, she complained about the disparate treatment to the hospital\u2019s ombudsman in February 2011 and reported one incident of racially discriminatory language to the hospital\u2019s vice-chief of staff Gail Knight, M.D. In May 2011, DeCambre requested a meeting with Kimmons and Knight because she felt that the then pediatric urology department head, Nicholas Holmes, M.D., was trying to force her out of her position. DeCambre alleges that Kimmons and Knight told her to ignore racial and sexual discrimination. DeCambre claims that. she met with personnel from the Regents\u2019 Office for the Prevention of Harassment and Discrimination on May 20, 2011, to complain about her circumstances. On that occasion, she was given a letter from the Regents notifying her that she would not be reappointed beyond June 30, 2011, effectively terminating her employment, because CSSD would no longer compensate the Regents for her medical services. DeCambre also alleges that after her termination, defendants made defamatory statements about her to prospective employers.\nDefendants tell a vastly different story about DeCambre\u2019s employment. They assert that DeCambre\u2019s termination was solely a result of her own inappropriate conduct. Defendants allege that throughout her employment at RCHSD, both coworkers and patients complained about DeCambre\u2019s disrespectful and insensitive behavior, and that defendants\u2019 administrators worked tirelessly to support DeCambre and help her to improve her ability to interact appropriately with staff and patients.\nAccording to CSSD, in 2007, after nurses had complained that DeCambre\u2019s behavior was demeaning to them, CSSD hired a consultant to provide support to DeCambre. However, after her first meeting with the consultant, DeCambre refused to meet with him again. After this episode, defendants continued to receive complaints from both hospital staff and patients about DeCambre\u2019s rude behavior. In January 2009, a nurse complained to hospital administrators that DeCambre had retaliated against her after she filed a complaint in November 2008 regarding DeCambre\u2019s angry and intimidating behavior. As a result, RCHSD conducted an investigation that concluded with a letter in February 2009 from the hospital chief of staff to DeCambre advising her that the investigation had raised concerns about her behavior. The letter also stated that DeCambre would be required to attend the next meeting of the hospital\u2019s well-being committee for assessment\nRCHSD notified CSSD of the retaliation complaint and subsequent investigation. CSSD retained an outside consultant, National Business Investigations (NBI), to conduct its own investigation. That investigation was conducted from March to May 2009 and resulted in an 86-page report that found that the nurse\u2019s claims of retaliation by DeCambre were unfounded, but further found that DeCambre had \u201cengaged in behaviors that have negatively interfered with the work environment and the organization\u2019s operations.\u201d NBI\u2019s report also stated that despite having been provided opportunities to improve her interactions with patients and staff, DeCambre had not shown sufficient or sustained improvement. NBI also addressed concerns that DeCambre had raised in her interview with NBI\u2019s investigator concerning retaliatory treatment and discrimination based on her race and gender. NBI concluded that DeCambre\u2019s allegations could not be substantiated.\nAs a result of NBI\u2019s investigation, on June 1, 2009, CSSD sent DeCambre a \u201cFinal Warning\u201d letter informing her that she would be required to complete an offsite intensive behavioral counseling program. The letter also advised DeCambre that her failure to treat all people with whom she interacted on behalf of CSSD with respect and dignity was a violation of the hospital\u2019s policies, and that any future failure to comply with the policy would result in her immediate termination. According to RCHSD\u2019s Chief Medical Officer Irvin A. Kaufman, M.D., the medical staff\u2019s well-being committee required DeCambre to enter into a behavior monitoring agreement, and DeCambre was provided with \u201cinformal corrective activities with mentoring and counseling from 2009 through her termination\u201d in 2011. After the final warning letter was issued, defendants allege that they continued to receive complaints and grievances from both patients\u2019 families and staff about DeCambre. According to Holmes and Kaufman, in the last two years of her employment, DeCambre received five times as many complaints as the next most complained about physician.\nBecause of these continuing complaints and DeCambre\u2019s apparent inability or unwillingness to change her behavior, on May 12, 2011, RCHSD notified CSSD that it was exercising its contractual right to reject the services of DeCambre. In his declaration in support of RCHSD\u2019s special motion to strike, Kaufman states that \u201c[tjhe decision by [RCHSD] to exercise its right to reject Dr. DeCambre as a Medical Group Physician was based upon all of this information that was addressed by the peer review process of [RCHSD\u2019s] [mjedical [s]taff.\u201d After DeCambre was notified that the Regents would not renew her appointment, DeCambre complained to the Regents that she felt that she had been subjected to a racially and sexually discriminatory working environment. This prompted the Regents to conduct their own internal investigation, which found no evidence of harassment or discrimination against DeCambre.\nB. Procedural background\nDeCambre filed suit against CSSD, RCHSD and the Regents on May 18, 2012. Her complaint alleged nine separate causes of action: retaliation under Government Code section 12940, subdivision (h); harassment under Government Code section 12940, subdivision (j); discrimination based on race, color, national origin, ancestry, marital status, age and gender under Government Code section 12940, subdivision (a); failure to prevent discrimination under Government Code section 12940, subdivision (k); wrongful termination in violation of public policy; IIED; defamation; unfair competition in violation of the UCL; and violation of the Cartwright Act. Each defendant filed its own anti-SLAPP motion seeking dismissal of DeCambre\u2019s complaint. Each defendant also filed a separate demurrer: RCHSD and CSSD sought dismissal of the entire complaint as uncertain and also sought dismissal of DeCambre\u2019s causes of action for IIED, defamation, and violations of the UCL and Cartwright Act; the Regents sought dismissal of DeCambre\u2019s defamation claim.\nAfter issuing a tentative order denying the special motions to strike, the trial court heard argument on all six motions on December 7, 2012, and took the matter under submission. On December 13, 2012, the trial court issued its order granting defendants\u2019 anti-SLAPP motions in their entirety and sustaining the demurrers as to DeCambre\u2019s claims for IIED, defamation, and violations of the UCL and Cartwright Act. Based on its ruling on the anti-SLAPP motions, the court denied DeCambre\u2019s request for leave to amend. In granting the special motions to strike, the court concluded that all ' of DeCambre\u2019s claims arose from protected activity because in each cause of action, DeCambre requested damages for lost earnings, employment benefits and staff privileges, which losses were the result of the nonrenewal of her contract with the Regents.\nDefendants subsequently sought attorney fees and costs incurred in bringing the anti-SLAPP motions. DeCambre opposed the motions. Following a hearing, the court awarded attorney fees and costs to each defendant on April 4, 2013.\nIII\nDISCUSSION\nDeCambre contends that the trial court erred in granting defendants\u2019 anti-SLAPP motions and in awarding attorney fees to defendants. She argues that defendants\u2019 decision to terminate her was not the result of a properly constituted peer review body. DeCambre further contends that even if her termination was the result of peer review activity, her claims arise not from the termination but, rather, from unprotected, discriminatory conduct that occurred outside the peer review proceeding.\nDeCambre also argues that the trial court improperly sustained the demurrers to her claims for IIED, defamation and violations of the UCL and the Cartwright Act. DeCambre further contends that even if the demurrers were properly sustained, the trial court erred in denying her leave to amend.\nA. The anti-SLAPP motions\n1. The law governing anti-SLAPP motions\nA SLAPP \u201cis a civil lawsuit that is aimed at preventing citizens from exercising their political rights or punishing those who have done so. \u2018 \u201cWhile SLAPP suits masquerade as ordinary lawsuits such as defamation and interference with prospective economic advantage, they are generally meritless suits brought primarily to chill the exercise of free speech or petition rights by the threat of severe economic sanctions against the defendant, and not to vindicate a legally cognizable right.\u201d \u2019 (Castillo v. Pacheco (2007) 150 Cal.App.4th 242, 249-250 [58 Cal.Rptr.3d 305], quoting Sen. Com. on Judiciary, Analysis of Sen. Bill No. 1296 (1997-1998 Reg. Sess.) as amended May 12, 1997, pp. 1-2.)\u201d (Simpson Strong-Tie Co., Inc. v. Gore (2010) 49 Cal.4th 12, 21 [109 Cal.Rptr.3d 329, 230 P.3d 1117].) To combat \u201c \u2018a disturbing increase\u2019 \u201d in this type of lawsuit, in 1992 the Legislature enacted the anti-SLAPP statute, authorizing a \u201cspecial motion to strike to expedite the early dismissal of these unmeritorious claims.\u201d {Ibid.)\nThat statute, section 425.16, \u201cprovides: \u2018A cause of action against a person arising from any act of that person in furtherance of the person\u2019s right of petition or free speech under the United States Constitution or the California Constitution in connection with a public issue shall be subject to a special motion to strike, unless the court determines that the plaintiff has established that there is a probability that the plaintiff will prevail on the claim.\u2019 \u201d (Oasis West Realty, LLC v. Goldman (2011) 51 Cal.4th 811, 819 [124 Cal.Rptr.3d 256, 250 P.3d 1115].) \u201cThe analysis of an anti-SLAPP motion thus involves two steps. \u2018First, the court decides whether the defendant has made a threshold showing that the challenged cause of action is one \u201carising from\u201d protected activity. [Citation.] If the court finds such a showing has been made, it then must consider whether the plaintiff has demonstrated a probability of prevailing on the claim.\u2019 \u201d (Id. at pp. 819-820.) \u201c \u2018Only a cause of action that satisfies both prongs of the anti-SLAPP statute \u2014 i.e., that arises from protected speech or petitioning and lacks even minimal merit \u2014 is a SLAPP, subject to being stricken under the statute.\u2019 \u201d (Id. at p. 820.)\nAs used in section 425.16, subdivision (e), an \u201c \u2018act in furtherance of a person\u2019s right of petition or free speech under the United States or California Constitution in connection with a public issue\u2019 includes: (1) any written or oral statement or writing made before a legislative, executive, or judicial proceeding, or any other official proceeding authorized by law, (2) any written or oral statement or writing made in connection with an issue under consideration or review by a legislative, executive, or judicial body, or'any other official proceeding authorized by law, (3) any written or oral statement or writing made in a place open to the public or a public forum in connection with an issue of public interest, or (4) any other conduct in furtherance of the exercise of the constitutional right of petition or the constitutional right of free speech in connection with a public issue or an issue of public interest.\u201d\nThe Supreme Court has explained that \u201cthe statutory phrase \u2018cause of action . . . arising from\u2019 means simply that the defendant\u2019s act underlying the plaintiff\u2019s cause of action must itself have been an act in furtherance of the right of petition or free speech. [Citation.] . . . [T]he critical point is whether the plaintiff\u2019s cause of action itself was based on an act in furtherance of the defendant\u2019s right of petition or free speech. [Citations.] \u2018A defendant meets this burden by demonstrating that the act underlying the plaintiff\u2019s cause fits one of the categories spelled out in section 425.16, subdivision (e) . . . .\u2019 \u201d (City of Cotati v. Cashman (2002) 29 Cal.4th 69, 78 [124 Cal.Rptr.2d 519, 52 P.3d 695] (Cashman).)\nIn an anti-SLAPP analysis we accept as true the plaintiff\u2019s pleaded facts. (Young v. Tri-City Healthcare Dist. (2012) 210 Cal.App.4th 35, 54 [148 Cal.Rptr.3d 119] (Young).) \u201cThe evidence of the moving party ... is considered for whether it defeats, as a matter of law, the evidence submitted by [plaintiff].\u201d (Ibid.) \u201cWe do not resolve the merits of the overall dispute, but rather identify whether its pleaded facts fall within the statutory purpose, \u2018to prevent and deter \u201clawsuits [referred to as SLAPPs] brought primarily to chill the valid exercise of the constitutional rights of freedom of speech and petition for the redress of grievances.\u201d \u2019 \u201d (Ibid.)\n\u201cWhen considering the declarations and affidavits submitted, the court does not weigh credibility or compare the weight of the evidence.\u201d (Smith v. Adventist Health System/West (2010) 190 Cal.App.4th 40, 52 [117 Cal.Rptr.3d 805].) \u201cRather, the court\u2019s responsibility is to accept as true the evidence favorable to the plaintiff [citation] and evaluate the defendant\u2019s evidence only to determine if it has defeated that submitted by the plaintiff as a matter of law.\u201d (HMS Capital, Inc. v. Lawyers Title Co. (2004) 118 Cal.App.4th 204, 212 [12 Cal.Rptr.3d 786].) \u201cOn appeal, we independently determine whether this material demonstrates that the cause of action arises from protected activity.\u201d (Peregrine Funding, Inc. v. Sheppard Mullin Richter & Hampton LLP (2005) 133 Cal.App.4th 658, 670 [35 Cal.Rptr.3d 31].)\n2. Application of the anti-SLAPP statute to medical peer review proceedings\nAs discussed, section 425.16, subdivision (e) identifies four categories of activities that are \u201c \u2018in furtherance of\u2019 \u201d a defendant\u2019s free speech or petition rights. The second category of conduct pertains to a defendant\u2019s statements or writings \u201cin connection with an issue under consideration or review by a legislative, executive, or judicial body, or any other official proceeding authorized by law.\u201d (Id., subd. (e)(2).) \u201cPeer review is the process by which a committee comprised of licensed medical personnel at a hospital \u2018evaluate^] physicians applying for staff privileges, establishes] standards and procedures for patient care, assess [es] the performance of physicians currently on staff,\u2019 and reviews other matters critical to the hospital\u2019s functioning.\u201d (Kibler v. Northern Inyo County Local Hospital Dist. (2006) 39 Cal.4th 192, 199 [46 Cal.Rptr.3d 41, 138 P.3d 193] (Kibler)) The California Supreme Court has defined the phrase \u201c \u2018other official proceeding authorized by law\u2019 \u201d to include the proceedings of a hospital peer review committee. (Id. at pp. 198, 199, 200-201.)\nThe Kibler court identified several attributes of hospital peer review that support this conclusion: hospital peer review is legally mandated, and serves the essential role of assisting public agencies to regulate the medical profession and \u201cprotect[] the public against incompetent, impaired, or negligent physicians.\u201d (Kibler, supra, 39 Cal.4th at pp. 200, 199; see Bus. & Prof. Code, \u00a7 809.05.) Additionally, \u201cthe Legislature has accorded a hospital\u2019s peer review decisions a status comparable to that of quasi-judicial public agencies . . .\u201d by providing that decisions of both entities are reviewable by administrative mandate after a quasi-judicial hearing. (Kibler, at p. 200.)\nKibler emphasized the important public policy reasons for extending the anti-SLAPP law to the peer review context: \u201c[Membership on a hospital\u2019s peer review committee is voluntary and unpaid, and many physicians are reluctant to join peer review committees so as to avoid sitting in judgment of their peers. To hold . . . that hospital peer review proceedings are not \u2018official proceeding^] authorized by law\u2019 . . . would further discourage participation in peer review by allowing disciplined physicians to file harassing lawsuits against hospitals and their peer review committee members rather than seeking judicial review of the committee\u2019s decision by the available means of a petition for administrative mandate.\u201d (Kibler, supra, 39 Cal.4th at p. 201.)\nDeCambre argues that the anti-SLAPP protections afforded to the defendants in Kibler are not appropriate in this case because defendants\u2019 conduct did not occur within the context of a medical peer review process. Specifically, she contends that because defendants did not file a report concerning her contract nonrenewal with the medical board under Business and Professions Code section 805, the process that culminated in her termination cannot properly be deemed peer review activity.\nWe agree with defendants that their decision not to renew DeCambre\u2019s contract was the result of RCHSD\u2019s peer review process. The declarations of Holmes and Kaufman state that the decision not to renew occurred after consultation with the medical staff, the medical staff executive committee and the hospital\u2019s governing board, each of which constitutes a peer review body. Further, the decision not to renew came after years of intervention by the medical staff\u2019s well-being committee. DeCambre does not dispute that she remained under the supervision of that committee from the time she was referred in 2009 until the end of her employment with defendants.\nDeCambre\u2019s assertion that because defendants did not report their decision not to renew DeCambre\u2019s contract to the Medical Board of California, there was no peer review, is incorrect. The statutory scheme governing physician peer review specifically sets forth the legislative intent that \u201cpeer review of professional health care services be done efficiently, on an ongoing basis, and with an emphasis on early detection of potential quality problems and resolutions through informal educational interventions.\u201d (Bus. & Prof. Code, \u00a7 809, subd. (a)(7).) The scheme, in turn, requires reporting to the Medical Board of California only when a \u201c \u2018licentiate\u2019s membership, staff privileges, or employment is terminated or revoked for a medical disciplinary cause or reason.\u2019 \u201d (Kaiser Foundation Hospitals v. Superior Court (2005) 128 Cal.App.4th 85, 98 [26 Cal.Rptr.3d 744].) \u201c \u2018Medical disciplinary cause or reason\u2019 \u201d is defined as the \u201caspect of a licentiate\u2019s competence or professional conduct that is reasonably likely to be detrimental to patient safety or to the delivery of patient care.\u201d (Bus. & Prof. Code, \u00a7 805, subd. (a)(6).) Defendants maintain that the behavior that led to the decision to terminate DeCambre did not involve a \u201cmedical disciplinary cause or reason.\u201d The fact that defendants did not report the action to the Medical Board of California does not show that there was no peer review in DeCambre\u2019s case, but only that no report was required under these circumstances.\n3. DeCambre\u2019s causes of action for harassment, intentional infliction of emotional distress and defamation do not arise from protected activity\nAlthough we conclude that the decision not to renew DeCambre\u2019s contract resulted from a peer review process and thus falls within the protections of the anti-SLAPP statute, we are not persuaded that every cause of action that DeCambre asserts arises from that protected activity. The question whether a cause of action arises from protected activity concerns \u201cthe strength of the connection between [that] activity and the lawsuit . . . .\u201d (Smith v. Adventist Health System/West, supra, 190 Cal.App.4th at p. 51.) To be afforded protection \u201c \u2018the defendant\u2019s act underlying the plaintiff\u2019s cause of action must itself have been an act in furtherance of the right of petition or free speech. [Citation.] In the anti-SLAPP context, the critical point is whether the plaintiff\u2019s cause of action itself was based on an act in furtherance of the defendant\u2019s right of petition or free speech. [Citations.]\u2019 \u201d (Ibid.; see Navellier v. Sletten (2002) 29 Cal.4th 82, 92 [124 Cal.Rptr.2d 530, 52 P.3d 703] [\u201cThe anti-SLAPP statute\u2019s definitional focus is not the form of the plaintiff\u2019s cause of action but, rather, the defendant\u2019s activity that gives rise to his or her asserted liability \u2014 and whether that activity constitutes protected speech or petitioning.\u201d].) Further, \u201c \u2018[t]he mere fact that an action was filed after protected activity took place does not mean the action arose from that activity for the purposes of the anti-SLAPP statute.\u2019 \u201d (Episcopal Church Cases (2009) 45 Cal.4th 467, 477 [87 Cal.Rptr.3d 275, 198 P.3d 66]; see Cashman, supra, 29 Cal.4th at p. 77 [\u201cCalifornia courts rightly have rejected the notion \u2018that a lawsuit is adequately shown to be one \u201carising from\u201d an act in furtherance of the rights of petition or free speech as long as suit was brought after the defendant engaged in such an act, whether or not the purported basis for the suit is that act itself.\u2019 \u201d].)\nWhen a complaint presents a cause of action that involves both protected and nonprotected activities, it is \u201c[t]he principal thrust or gravamen\u2019 of the plaintiff\u2019s claim [that] determines whether section 425.16 applies.\u201d (Renewable Resources Coalition, Inc. v. Pebble Mines Corp. (2013) 218 Cal.App.4th 384, 395 [159 Cal.Rptr.3d 901].) The court must \u201clook to the allegedly wrongful and injurious conduct of the defendant, rather than the damage which flows from said conduct.\u201d (Id. at pp. 396-397.) \u201cIf the core injury-producing conduct by the defendant that allegedly gave rise to the plaintiff\u2019s claim is properly described with only collateral or incidental allusions to protected activity, then the claim does not arise out of protected speech or petitioning activity.\u201d (Young, supra, 210 Cal.App.4th at p. 55.)\nDefendants maintain that the trial court correctly concluded that DeCambre\u2019s claims all arose from protected conduct because in each cause of action, DeCambre sought damages that resulted from the nonrenewal of her contract. In reaching the conclusion that DeCambre\u2019s complaint arose from protected activity, i.e., the peer review process, the trial court\u2019s order notes that each of DeCambre\u2019s causes of action contains a request for \u201cdamages for lost earnings, employment benefits and/or staff privileges as a result of her [nonrenewal].\u201d The trial court\u2019s order proceeds to state that DeCambre had not \u201ccited any evidence of retaliation or discrimination which is not connected with the [nonrenewal],\u201d and concludes that, therefore, all of her \u201callegations are included within the anti-SLAPP statute.\u201d\nThese findings are not supported by the record before the trial court. First, the trial court erroneously focused on DeCambre\u2019s damage allegations in determining that all of her claims arose from protected conduct. However, the proper focus is \u201cthe \u2018allegedly wrongful and injury-producing conduct\u2019 \u201d that gave rise to DeCambre\u2019s claims, not the damages that she claims. (Renewable Resources Coalition, Inc. v. Pebble Mines Corp., supra, 218 Cal.App.4th at p. 396, italics added.) Second, contrary to the court\u2019s statement, DeCambre did cite evidence of harassment that was not connected to the nonrenewal.\nThe gravamen and principal thrust of DeCambre\u2019s causes of action for harassment and IIED is conduct that occurred independent of the peer review proceedings. More specifically, these claims are not based on defendants\u2019 investigation of staff complaints, their referral of DeCambre to the well-being committee, or the ultimate decision not to renew her contract. Rather, the claims arise from incidents of allegedly disparate treatment that DeCambre claims occurred throughout her employment by defendants. Thus, these causes of action do not arise from the nonrenewal of DeCambre\u2019s contract and the peer review activity that preceded that decision.\nFor instance, DeCambre alleges that at the outset of her employment in 2006, long before the peer review process began, she was denied adequate support staff and was also provided a lower housing allowance than what she had originally been promised. She also alleges that male physicians were provided with privileges and assistance that she was denied. For instance, DeCambre claims that \u201c[wjhile the staff would obtain and document the vitals of other physician\u2019s patients including Dr. Kaplan\u2019s patients, the staff repeatedly failed to take the vitals of [her] patients\u201d and failed to customize the operating room to her requirements, instead insisting she use the same setup Kaplan used. DeCambre asserts that throughout her employment, support staff and other physicians made racially discriminatory statements and treated her in a discriminatory manner.\nNone of this conduct occurred within the context of, or in furtherance of, the peer review proceedings. The evidence submitted by defendants does not demonstrate otherwise. RCHSD asserts that because DeCambre made allegations of adverse treatment when she was interviewed by NBI\u2019s investigator and those allegations were reported to CSSD\u2019s board of directors and \u201crelied on by other peer review committees in deciding not to renew her contract,\u201d the allegedly discriminatory conduct was an \u201cintegral part\u201d of the peer review process. We disagree. The fact that DeCambre\u2019s allegations of harassment may have been repeated in the peer review setting does not mean that her claim arose from that process.\nDeCambre does not dispute that some of her allegations of harassment occurred during the same period of time that defendants were investigating staff complaints about her, and that NBI\u2019s investigation report, which was provided to the hospital\u2019s peer review bodies, addressed DeCambre\u2019s claims of harassment. However, the conduct underlying DeCambre\u2019s claims for harassment and IIED did not occur as part of the peer review proceeding. Rather, the conduct that is the gravamen of these claims occurred separate from defendants\u2019 peer review activity. The references in these two causes of action to damages resulting from the nonrenewal of DeCambre\u2019s contract are properly described as \u201ccollateral or incidental allusions\u201d to defendants\u2019 nonprotected conduct on which the claims are based. (Young, supra, 210 Cal.App.4th at p. 55.)\nDefendants rely on Nesson v. Northern Inyo County Local Hospital Dist. (2012) 204 Cal.App.4th 65 [138 Cal.Rptr.3d 446] (Nesson) to support their contention that the trial court properly dismissed DeCambre\u2019s entire complaint. In Nesson, the hospital\u2019s medical executive committee (MEC) summarily suspended plaintiff physician Nesson\u2019s medical staff privileges and then terminated his contract to provide radiology services. (Id. at pp. 73-74.) The MEC took these actions after \u201c \u2018incidents of substandard and dangerous patient care\u2019 and \u2018abrupt change in [Nesson\u2019s] behavior characterized by volatile and erratic actions.\u2019 \u201d (Ibid.) After the termination, Nesson filed a complaint against the hospital for breach of contract, retaliation and discrimination, and the hospital successfully moved to strike the suit under section 425.16. (204 Cal.App.4th at pp. 75-76.)\nOn appeal, Nesson argued that because his claims were based on the termination of his contract to provide services, and not the suspension of privileges resulting from the peer review proceedings conducted by the hospital, section 425.16 did not apply. (Nesson, supra, 204 Cal.App.4th at p. 78.) The court rejected the argument, concluding that the hospital\u2019s decision to terminate its contract with Nesson was a direct consequence of the summary suspension of his privileges. (Id. at p. 81.) The court stated \u201c[t]he gravamen of each cause of action asserted by Nesson is that the Hospital somehow acted wrongfully when it terminated the Agreement because Nesson\u2019s privileges were summarily suspended, as he was deemed by the MEC to be a likely imminent danger to patient safety.\u201d (Id. at p. 83.) The court also noted that Nesson had failed to \u201ccite any evidence of retaliation or discrimination which is not connected with his summary suspension.\u201d (Id. at p. 84.)\nIn contrast, as discussed, DeCambre\u2019s claims are premised on allegations of harassing conduct unrelated to defendants\u2019 decision not to renew her contract, and which were not a basis for that decision. The gravamen of DeCambre\u2019s claims for harassment and IIED is the harassing conduct that DeCambre alleges she was subjected to over the course of her employment by defendants and their employees, some of which predated any peer review activity.\nCSSD asserts \u201cDeCambre tried ... to dodge the anti-SLAPP statute by arguing that the \u2018thrust\u2019 or \u2018gist\u2019 of her claims was somehow based on perceived harassment and a \u2018culture of disrespect\u2019 (allegedly non-peer review activities), and not on her contract [nonrenewal].\u201d We agree with DeCambre, however, that the thrust of her claims for harassment and IIED was the allegedly harassing conduct that occurred outside of the peer review proceedings. The acts of harassment that DeCambre alleges against defendants are distinct from DeCambre\u2019s own conduct, which was the subject of the protected peer review. DeCambre\u2019s reporting of this conduct to NBI, and NBI in turn sharing DeCambre\u2019s allegations with the peer review entities, did not serve to bring that conduct within the scope of the anti-SLAPP protection that is afforded to medical peer review under Kibler. (See ante, pp. 14-16.) The anti-SLAPP protection afforded to peer review proceedings cannot insulate defendants from liability for harassing conduct that DeCambre alleges occurred over the history her employment.\nFinally, DeCambre\u2019s seventh cause of action for defamation does not arise from defendants\u2019 peer review proceedings. This claim is based on statements allegedly made by defendants to prospective employers of DeCambre after defendants had decided not to renew her contract. Any defamatory statements made by defendants to employers after the peer review process concluded were not statements in furtherance of defendants\u2019 right of petition or free speech and, therefore, are not protected by section 425.16. (See Cashman, supra, 29 Cal.4th at p. 78 [\u201cdefendant\u2019s act underlying the plaintiff\u2019s cause of action must itself have been an act in furtherance of the right of petition or free speech\u201d].)\nBecause we conclude that defendants failed to meet their threshold burden to show that DeCambre\u2019s claims for harassment, IIED and defamation arose from constitutionally protected activity, it is unnecessary to address whether DeCambre met her burden to establish a reasonable probability that she could prevail on these claims.\n4. Retaliation, discrimination, failure to prevent discrimination, wrongful termination and violations of the UCL and Cartwright Act\nThese claims arise from protected activity\nIn contrast to the causes of action discussed in the preceding section, defendants\u2019 special motions to strike did adequately demonstrate that DeCambre\u2019s claims for retaliation, discrimination, failure to prevent discrimination, wrongful termination and violations of the UCL and Cartwright Act are protected by the anti-SLAPP statutes. As discussed, \u201c[w]hen a [complaint] presents a mixed cause of action that involves protected and nonprotected activities, ... the question presented is \u2018whether the gravamen of the cause of action targets protected activity. [Citation.] . . .\u2019 Stated differently, the question is whether the protected activity is merely an incidental part of the cause of action.\u201d (City of Colton v. Singletary (2012) 206 Cal.App.4th 751, 767 [142 Cal.Rptr.3d 74].) Allegations of acts that \u201ccould each be the sole and adequate basis for liability under the cause of action\u201d are not properly categorized as incidental to the cause of action. (Haight Ashbury Free Clinics, Inc. v. Happening House Ventures (2010) 184 Cal.App.4th 1539, 1551 [110 Cal.Rptr.3d 129].) In determining whether allegations pertaining to protected activity are incidental, courts often consider whether the allegations constitute a substantial or significant part of the factual allegations underlying the claim. (See, e.g., A.F. Brown Electrical Contractor, Inc. v. Rhino Electric Supply, Inc. (2006) 137 Cal.App.4th 1118, 1125 [41 Cal.Rptr.3d 1] [a \u201ccause of action is vulnerable to a special motion to strike under the anti-SLAPP statute only if the protected conduct forms a substantial part of the factual basis for the claim\u201d]; Salma v. Capon (2008) 161 Cal.App.4th 1275, 1288 [74 Cal.Rptr.3d 873] [\u201c[Allegations of protected conduct in the original intentional interference claim were not merely incidental to the allegations of unprotected conduct. They represent the bulk of the allegations underlying the cause of action.\u201d].)\nUnlike DeCambre\u2019s claims for harassment and IIED, defendants\u2019 decision not to renew DeCambre\u2019s contract is central to her causes of action for retaliation, discrimination, failure to prevent discrimination and wrongful termination. Liability for each of these claims rests on that decision. A wrongful termination claim requires a termination, and an essential element of DeCambre\u2019s claims for retaliation, discrimination and failure to prevent discrimination under FEHA is an adverse employment action. (Gov. Code, \u00a7 12940, subds. (a), (h) & (k); Horsford v. Board of Trustees of California State University (2005) 132 Cal.App.4th 359, 373 [33 Cal.Rptr.3d 644].) The only adverse employment action that DeCambre alleges is the nonrenewal of her contract.\nDeCambre contends that the motive for her termination was discriminatory and, therefore, the termination is not protected by the anti-SLAPP statute. \u201cBut the anti-SLAPP statute applies to claims made in connection with the protected activity, regardless of the defendant\u2019s motive, or the motive the plaintiff may be ascribing to the defendant\u2019s conduct.\u201d (Nesson, supra, 204 Cal.App.4th at p. 83.) Defendants showed that their decision not to renew DeCambre\u2019s contract stemmed from the protected peer review activity that began in 2009. This showing is sufficient to satisfy the first prong of the anti-SLAPP analysis.\nThe same is true for DeCambre\u2019s UCL and Cartwright Act causes of action. Her UCL cause of action asserts that defendants \u201cdeprived Plaintiff of the right to earn a living as a pediatric urologist in San Diego County and have attempted to deprive her of staff privileges to treat patients.\u201d Similarly, her Cartwright Act claim alleges that defendants threatened \u201cto deny and revoke from Plaintiff, a duly licensed and accomplished pediatric urologist, the medical staff privileges to which she was rightfully entitled, and access to the patient population she seeks to serve.\u201d Without defendants\u2019 decision to terminate DeCambre, these claims would be baseless. The thrust of both claims is that defendants\u2019 termination of DeCambre was itself unlawful, and that her termination unlawfully had the effect of restricting competition in the market for pediatric urology services.\nB. DeCambre failed to show a probability of succeeding on the merits of her claims for retaliation, discrimination, failure to prevent discrimination, wrongful termination and violations of the UCL and Cartwright Act\nBecause defendants made the requisite prima facie showing that these claims are based on protected conduct, DeCambre was required to demonstrate a probability of prevailing on these claims. (Equilon Enterprises v. Consumer Cause, Inc. (2002) 29 Cal.4th 53, 67 [124 Cal.Rptr.2d 507, 52 P.3d 685].) In assessing whether \u00e1 plaintiff has shown a probability of prevailing, courts consider the pleadings and evidence submitted by both the plaintiff and the defendant. (Christian Research Institute v. Alnor (2007) 148 Cal.App.4th 71, 80 [55 Cal.Rptr.3d 600].)\nAlthough \u201cthe court does not weigh the credibility or comparative probative strength of competing evidence, it should grant the motion if, as a matter of law, the defendant\u2019s evidence supporting the motion defeats the plaintiff\u2019s attempt to establish evidentiary support for the claim.\u201d (Wilson v. Parker, Covert & Chidester (2002) 28 Cal.4th 811, 821 [123 Cal.Rptr.2d 19, 50 P.3d 733].) For this prong of the anti-SLAPP analysis, a plaintiff cannot rely on the allegations of his or her complaint, but must present competent and admissible evidence showing that she has a legally sufficient claim. (Tuchscher Development Enterprises, Inc. v. San Diego Unified Port Dist. (2003) 106 Cal.App.4th 1219, 1237 [132 Cal.Rptr.2d 57].)\nWe agree with the trial court that DeCambre failed to adequately show a probability of prevailing on the merits of these claims. With respect to DeCambre\u2019s claim of wrongful termination under the FEHA, DeCambre provides no argument or discussion of the merits of the claim. We therefore deem it abandoned. (See Oviedo v. Windsor Twelve Properties, LLC (2012) 212 Cal.App.4th 97, 108, fn. 9 [151 Cal.Rptr.3d 117] [\u201cIssues as to which an appellant provides no argument or discussion are deemed waived and are properly disregarded.\u201d].) With respect to her claims for retaliation, discrimination and failure to prevent discrimination, dismissal of these claims was appropriate because DeCambre failed to make a sufficient showing that defendants\u2019 asserted rationale for the decision not to renew her contract was pretextual.\nIn order to defeat summary adjudication of retaliation and discrimination claims under the FEHA, a plaintiff must show that she was engaged in a protected activity or was a member of a protected class, that she was subjected to an adverse employment action, and that there was a causal connection between the protected activity or class and the alleged adverse action. (Scotch v. Art Institute of California (2009) 173 Cal.App.4th 986, 1004 [93 Cal.Rptr.3d 338].) Once this prima facie case is established, the burden shifts to the defendants to show that they have a \u201clegitimate nonretaliatory explanation\u201d for the adverse employment action. (Flait v. North American Watch Corp. (1992) 3 Cal.App.4th 467, 476 [4 Cal.Rptr.2d 522].) If the defendants make this showing, the plaintiff must then establish that the \u201cdefendant\u2019s proffered explanation is merely a pretext for the illegal termination.\u201d (Ibid.) \u201c \u2018The [employee] cannot simply show that the employer\u2019s decision was wrong or mistaken .... Rather, the [employee] must demonstrate such weaknesses, implausibilities, inconsistencies, incoherencies, or contradictions in the employer\u2019s proffered legitimate reasons for its action that a reasonable factfinder could rationally find them \u201cunworthy of credence,\u201d [citation], and hence infer \u201cthat the employer did not act for the [the asserted] non-discriminatory reasons.\u201d [Citations.]\u2019 \u201d (Hersant v. Department of Social Services (1997) 57 Cal.App.4th 997, 1005 [67 Cal.Rptr.2d 483].)\nDefendants do not dispute that DeCambre is a member of a protected class, that any complaints she made concerning discrimination constituted protected activity, or that the nonrenewal of her employment contract was a material adverse employment action. However, defendants contend that DeCambre failed to show a nexus between her protected status or activity and their decision not to renew her contract. Further, defendants assert that, even if DeCambre could show a causal connection, they had a legitimate, nonretaliatory explanation for their decision not to renew DeCambre\u2019s contract.\nDefendants presented evidence of a legitimate, nonretaliatory explanation for their decision not to renew DeCambre\u2019s contract. The undisputed evidence showed that defendants received a significant number of complaints from patients\u2019 families about DeCambre. In the two years prior to her termination, there were five times as many patient complaints about DeCambre as there were regarding the physician with the next highest number. As the trial court found, \u201c[d]espite feedback, mentoring and coaching, [DeCambre\u2019s] behavior did not change. The declarations of Dr[s]. Holmes and Kaufman and the supporting evidence demonstrate specific instances of conduct warranting review . . . and ultimately [nonrenewal].\u201d\nIn the trial court, DeCambre argued that defendants\u2019 proffered justification of patient complaints was pretextual because, according to her own declaration, she \u201cperformed her duties as a surgeon at an exceedingly high level\u201d and she had excellent outcomes for patients. DeCambre further pointed to her cooperation with the well-being committee, which, she asserts, commended her for improving interpersonal relationships with staff and also expressed concerns to DeCambre that the complaints against her were frivolous just a few months before her termination. On appeal, DeCambre does not address defendants\u2019 justification for their decision not to renew her contract. Instead, she asserts that she \u201ccould establish sufficient facts\u201d to prove her claims. This assertion is not sufficient to carry DeCambre\u2019s burden. (McGarry v. University of San Diego (2007) 154 Cal.App.4th 97, 108 [64 Cal.Rptr.3d 467] [Plaintiff must show that \u201cthere is admissible evidence that, if credited, would be sufficient to sustain a favorable judgment.\u201d].)\nEven if we look to the evidence that DeCambre relied on in the trial court, it does not establish that defendants\u2019 justification for the nonrenewal of her contract was pretextual. With respect to DeCambre\u2019s claim that she was a competent surgeon, this evidence does not refute defendants\u2019 assertion that their contract nonrenewal was the result of patient complaints. Nor does DeCambre\u2019s statement show that her contract nonrenewal was related to her gender or race, or that it constituted punishment for her complaints about discrimination. (See Hersant v. Department of Social Services, supra, 57 Cal.App.4th at p. 1005 [\u201cIt is not enough for the employee simply to raise triable issues of fact concerning whether the employer\u2019s reasons for taking the adverse action were sound.\u201d].) Similarly, even if the well-being committee commended DeCambre for \u201cimproving interpersonal relationships with staff,\u201d this fact does not undermine defendants\u2019 assertion that DeCambre\u2019s contract was not renewed because of ongoing patient complaints.\nDeCambre has also failed to meet her burden as to her claims under the UCL and Cartwright Act. DeCambre alleges that defendants engaged in a pattern and practice of discrimination against her and other African-American and female physicians, and that this constitutes an unlawful business practice in violation of the UCL. Under the UCL, \u201c[a]n \u2018unlawful\u2019 business activity includes \u2018 \u201canything that can properly be called a business practice and ... at the same time is forbidden by law.\u201d [Citation.]\u2019 \u201d (Smith v. State Farm Mutual Automobile Ins. Co. (2001) 93 Cal.App.4th 700, 717\u2014718 [113 Cal.Rptr.2d 399].) DeCambre presented no evidence to support this theory of liability in response to the special motions to strike.\nIn order to state a claim under the Cartwright Act, a plaintiff must allege \u201c \u2018 \u201c \u2018(1) the formation and operation of the conspiracy, (2) the wrongful act or acts done pursuant thereto, and (3) the damage resulting from such act or acts. [Citations.]\u2019 \u201d \u2019 \u201d (Marsh v. Anesthesia Services Medical Group, Inc. (2011) 200 Cal.App.4th 480, 493 [132 Cal.Rptr.3d 660] {Marsh).) \u201c \u2018An antitrust claim must plead the formation and operation of the conspiracy and the illegal acts done in furtherance of the conspiracy. [Citation.] California requires a \u201chigh degree of particularity\u201d in the pleading of Cartwright Act violations [citation], and therefore generalized allegations of antitrust violations are usually insufficient.\u2019 \u201d (Ibid.) Further, \u201c[i]t is well accepted that \u2018the \u201c \u2018antitrust laws . . . were enacted for \u201cthe protection of competition, not competitors.\u201d \u2019 \u201d [Citation.] . . . Injury to a competitor is not equivalent to injury to competition; only the latter is the proper focus of antitrust laws.\u2019 \u201d (Id. at p. 495.)\n\u201cInjury to an individual plaintiff is insufficient to establish standing to assert antitrust violations. [Citation.] In the medical field, sufficient, successful allegations of antitrust injury might include negative impacts upon overall prices, quantity or quality of medical services, resulting from the plaintiff\u2019s absence as an available provider at the facility.\u201d (Marsh, supra, 200 Cal.App.4th at p. 495.) Importantly, \u201c \u2018[a] staffing decision does not itself constitute an antitrust injury.\u2019 [Citation.] Unless the effect of the conduct of a single health care provider is to deny patients reasonable access to any health care, the marketplace is not significantly affected by such individualized conduct.\u201d (Id. at p. 498.)\n\u201cBefore a court will interfere with how one hospital staffs its physician needs, a strong showing would be required that the puipose and effect of the anticompetitive conduct, within the relevant market defined by the plaintiffs, was outside of reasonable professional standards.\u201d (Marsh, supra, 200 Cal.App.4th at p. 499.) DeCambre alleges that defendants\u2019 actions have prevented her, alone, from working as a pediatric urologist in San Diego. This is insufficient to show antitrust injury. DeCambre has thus failed to show that she is likely to succeed on the merits of her Cartwright Act claim.\nC. Demurrer to the defamation and intentional infliction of emotional distress claims\nIn addition to filing anti-SLAPP motions, each defendant also demurred to DeCambre\u2019s complaint. RCHSD and CSSD each demurred to the entire complaint as uncertain and also demurred specifically to DeCambre\u2019s causes of action for IIED, defamation and violations of the UCL and Cartwright Act. The Regents demurred to DeCambre\u2019s defamation cause of action. The trial court sustained the demurrers as to DeCambre\u2019s causes of action for IIED, defamation and violations of the UCL and Cartwright Act, and \u201c[b]ased on the ruling on the [a]nti~SLAPP motions,\u201d denied leave to amend.\n\u201cIn evaluating a trial court\u2019s order sustaining a demurrer, we review the complaint de novo to determine whether it contains sufficient facts to state a cause of action.\u201d (Peterson v. Cellco Partnership (2008) 164 Cal.App.4th 1583, 1589 [80 Cal.Rptr.3d 316].) When a demurrer \u201cis sustained without leave to amend, we decide whether there is a reasonable possibility that the defect can be cured by amendment: if it can be, the trial court has abused its discretion and we reverse; if not, there has been no abuse of discretion and we affirm. [Citations.] The burden of proving such reasonable possibility is squarely on the plaintiff.\u201d (Blank v. Kirwan (1985) 39 Cal.3d 311, 318 [216 Cal.Rptr. 718, 703 P.2d 58].)\nBecause we affirm the court\u2019s ruling granting defendants\u2019 special motions to strike DeCambre\u2019s causes of action for violations of the UCL and Cartwright Act, it is unnecessary to address the demurrers to these claims. As for DeCambre\u2019s IIED cause of action, she does not present any argument or discussion of the merits of her claim, nor does she address possible amendment of the claim in her briefing. The cause of action is therefore deemed abandoned, (Oviedo v. Windsor Twelve Properties, LLC, supra, 212 Cal.App.4th at p. 108, fn. 9.)\nWith respect to the demurrer to DeCambre\u2019s claim for defamation, we agree with the trial court that DeCambre failed to adequately allege that defendants\u2019 statements were actionably defamatory. DeCambre\u2019s claim is based on statements purportedly made to prospective employers that she was \u201c \u2018not a team player.\u2019 \u201d This statement is a nonactionable statement of opinion and is also protected by the common interest privilege that applies to communications concerning job performance. (See Civ. Code, \u00a7 47, subd. (c); Banks v. Dominican College (1995) 35 Cal.App.4th 1545, 1554 [42 Cal.Rptr.2d 110] [statements of opinion regarding teacher\u2019s unsuitability were not actionable as slander or libel].)\nIn view of its ruling on the special motions to strike, the trial court did not address DeCambre\u2019s request for leave to amend. (See Salma v. Capon, supra, 161 Cal.App.4th at p. 1293 [\u201cWhen a cause of action is dismissed pursuant to [\u00a7] 425.16, the plaintiff has no right to amend the claim.\u201d].) On remand, the trial court is directed to determine whether DeCambre met her burden to show that the defects in her defamation cause of action can reasonably be cured by amendment.\nD. Attorney fees\nA defendant who prevails on an anti-SLAPP motion is entitled to recover his or her attorney fees and costs for the motion. (\u00a7425.16, subd. (c)(1).) \u201cWhere the motion is partially successful, the question is whether the results obtained are insignificant and of no practical benefit to the moving party. [Citation.] A court awarding fees and costs for a partially successful anti-SLAPP motion must exercise its discretion in determining their amount in light of the moving party\u2019s relative success in achieving his or her litigation objectives.\u201d (Cole v. Patricia A. Meyer & Associates, APC (2012) 206 Cal.App.4th 1095, 1123 [142 Cal.Rptr.3d 646].)\nEach of the defendants brought a motion for attorney fees and costs under section 425.16, subdivision (c)(1). The trial court granted the motions in full, awarding RCHSD $37,848, CSSD $53,149.23 and the Regents $24,559.40. Because we reverse the order granting defendants\u2019 anti-SLAPP motions in part, the award of attorney fees and costs also must be reversed. On remand, the trial court must exercise its discretion to determine the appropriate amount of fees and costs, if any, to which defendants are entitled.\nIV\nDISPOSITION\nThe December 13, 2012, order granting defendants\u2019 special motions to strike is reversed as to DeCambre\u2019s causes of action for harassment (Gov. Code, \u00a7 12940, subd. (j)), IIED, and defamation. The order sustaining defendants\u2019 demurrers to DeCambre\u2019s cause of action for defamation is affirmed, but on remand the trial court is directed to determine whether DeCambre should be afforded leave to amend the claim. In all other respects the December 13, 2012, order is affirmed.\nThe April 4, 2013, order awarding attorney fees and costs to defendants is reversed. On remand the trial court is directed to determine whether defendants are entitled to attorney fees and costs for their partially successful special motions to strike and, if so, the reasonable amounts of such awards.\nThe trial court is to conduct further proceedings consistent with this decision. The parties shall bear their own costs on appeal.\nO\u2019Rourke, Acting P. J., and Irion, J., concurred.\nA petition for a rehearing was denied April 2, 2015, and the opinion was modified to read as printed above. Appellant\u2019s petition for review by the Supreme Court was denied June 17, 2015, S225812.\nFurther statutory references are to the Code of Civil Procedure unless otherwise indicated. Section 425.16 is commonly referred to as the anti-SLAPP (strategic lawsuit against public participation) statute. (Jarrow Formulas, Inc. v. LaMarche (2003) 31 Cal.4th 728, 732, fn. 1 [3 Cal.Rptr.3d 636, 74 P.3d 737].)\nWe take these facts from the allegations of DeCambre\u2019s complaint and evidentiary exhibits in the record.\nAt the time DeCambre was hired by CSSD, it was a stand-alone pediatric medical group that provided medical services to pediatric patients in San Diego in connection with RCHSD and the Regents. In September 2009, CSSD, RCHSD and the Regents\u2019 department of pediatric surgery formalized a new business structure through the creation of the medical practice foundation, Rady Children\u2019s Specialists (RCS). RCS is a department of RCHSD. Physicians provide services to RCS through a professional services agreement. As a result of the restructuring, DeCambre and the other physicians formerly employed by CSSD became employees of the Regents. The funding for their employment by the Regents is based on services provided to RCS.\nOnly a recitation of these facts by Holmes in his declaration in support of CSSD\u2019s special motion to strike is included in the record before this court; the letter itself is not included in the record.\nApart from assertions by Kaufman and Holmes in their declarations in support of CSSD\u2019s special motion to strike, the record contains no documentation of these activities.\nDeCambre also contends that the trial court should not have considered defendants\u2019 special motions to strike because the hearing took place more than 30 days after the motions were served. We do not find merit in this argument. DeCambre did not raise this objection in the trial court and the statutory provision on which DeCambre relies, section 425.16, subdivision (f), requires the clerk of the court to schedule a \u201chearing not more than 30 days after the service of the motion unless the docket conditions of the court require a later hearing.\u201d (\u00a7 425.16, subd. (f), italics added.)\nDeCambre\u2019s additional assertion that defendants did not engage in peer review activity because they did not properly form a \u201cpeer review body\u201d is not well taken. RCHSD is required by law to engage in peer review activities through its medical staff. (Bus. & Prof. Code, \u00a7 800 et seq.; Kibler, supra, 39 Cal.4th at p. 199.) Business and Professions Code section 805, subdivision (a)(1)(B) defines a peer review body to include: \u201c(i) A medical or professional staff of any health care facility or clinic licensed under Division 2 (commencing with Section 1200) of the Health and Safety Code or of a facility certified to participate in the federal Medicare program as an ambulatory surgical center. [\u00b6] (ii) A health care service plan licensed under Chapter 2.2 (commencing with Section 1340) of Division 2 of the Health and Safety Code or a disability insurer that contracts with licentiates to provide services at alternative rates of payment pursuant to Section 10133 of the Insurance Code. [\u00b6] (iii) Any medical, psychological, marriage and family therapy, social work, professional clinical counselor, dental, or podiatric professional society having as members at least 25 percent of the eligible licentiates in the area in which it functions (which must include at least one county), which is not organized for profit and which has been determined to be exempt from taxes pursuant to Section 23701 of the Revenue and Taxation Code. [\u00b6] (iv) A committee organized by any entity consisting of or employing more than 25 licentiates of the same class that functions for the purpose of reviewing the quality of professional care provided by members or employees of that entity.\u201d\nThe committees in question fall under Business and Professions Code section 805, subdivision (a)(l)(B)(i) (medical staff of a \u201chealth care facility\u201d licensed under div. 2 of the Health & Saf. Code) as well as subdivision (a)(l)(B)(iv). DeCambre\u2019s assertion that Business and Professions Code section 805, subdivision (a)(l)(B)(iv) requires that each committee, itself, is required to have 25 licentiates is incorrect. The plain meaning of Business and Professions Code section 805, subdivision (a)(l)(B)(iv) is that the entity that organizes the committee, and not the committee itself, must consist of more than 25 licentiates. (Bus. & Prof. Code, \u00a7 805, subd. (a)(l)(B)(iv).)\nFurther, to the extent that DeCambre claims she was not afforded the fair process mandated by the peer review statutory scheme, she was entitled to seek judicial review of the decision not to renew her contract \u201cby the available means of a petition for administrative mandate.\u201d (Kibler, supra, 39 Cal.4th at p. 201; see Bus. & Prof. Code, \u00a7 809.1.)\nAlthough the court sustained some of the evidentiary objections to DeCambre\u2019s declaration in which she repeated many of the allegations contained in her complaint, at this stage we must accept as true DeCambre\u2019s pleaded facts. (Young, supra, 210 Cal.App.4th at p. 54.) To the extent that DeCambre asserted additional facts in her declaration opposing the special motions to strike, we disagree with DeCambre\u2019s claim that the court\u2019s evidentiary rulings constituted an abuse of its discretion, and we rely only on those portions to which the court did not sustain defendants\u2019 objections.\nWe express no opinion on the substantive merits of DeCambre\u2019s harassment claim or the defenses RCHSD, CSSD and the Regents may have to this claim.\nWe also reject defendants\u2019 contention that DeCambre\u2019s claims fall under subdivision (e)(4) of section 425.16, a catch-all that protects \u201cany other conduct in furtherance of the exercise of the constitutional right[s] of petition [or free speech] in connection with a public issue or an issue of public interest.\u201d We take no issue with defendants\u2019 assertion that physician competence and behavior are matters of public interest and may be entitled to anti-SLAPP protection under subdivision (e)(4). However, we do not agree with defendants that DeCambre\u2019s claims of harassment, IIED and defamation are based on defendants\u2019 efforts to address DeCambre\u2019s allegedly improper behavior. As discussed, the claims are based on harassing conduct that DeCambre alleges defendants perpetrated against her, apart from her own conduct. The allegedly harassing statements and actions that DeCambre sets out in her complaint were not matters of public interest in the sense that defendants assert.\nDeCambre\u2019s \u201cfailure to present all relevant evidence on the point \u2018is fatal.\u2019 [Citation.] \u2018A reviewing court will not independently review the record to make up for appellant\u2019s failure to carry his burden.\u2019 \u201d (Citizens for a Megaplex-Free Alameda v. City of Alameda (2007) 149 Cal.App.4th 91, 113 [56 Cal.Rptr.3d 728].)\nFurther, other than her own declaration, DeCambre offered no evidence concerning the well-being committee\u2019s evaluation of her performance.\nThe court overruled the demurrer on this ground and RCHSD and CSSD have not appealed that aspect of the trial court\u2019s order.",
+        "type": "majority",
+        "author": "AARON, J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Donald Aquinas Lancaster, Jr., for Plaintiff and Appellant.",
+      "Lewis Brisbois Bisgaard & Smith, Marilyn R. Moriarty, Lann G. McIntyre and Jeffry A. Miller for Defendant and Respondent Rady Children\u2019s Hospital-San Diego.",
+      "Paul, Plevin, Sullivan & Connaughton, E. Joseph Connaughton, Sandra L. McDonough and Corrie J. Klekowski for Defendant and Respondent Children\u2019s Specialists of San Diego.",
+      "Andrews Lagasse Branch & Bell, Margaret C. Bell and Lisa Marie Magorien for Defendant and Respondent the Regents of the University of California."
+    ],
+    "corrections": "",
+    "head_matter": "[No. D063462.\nFourth Dist., Div. One.\nMar. 11, 2015.]\nMARVALYN DeCAMBRE, Plaintiff and Appellant, v. RADY CHILDREN\u2019S HOSPITAL-SAN DIEGO et al., Defendants and Respondents.\nCounsel\nDonald Aquinas Lancaster, Jr., for Plaintiff and Appellant.\nLewis Brisbois Bisgaard & Smith, Marilyn R. Moriarty, Lann G. McIntyre and Jeffry A. Miller for Defendant and Respondent Rady Children\u2019s Hospital-San Diego.\nPaul, Plevin, Sullivan & Connaughton, E. Joseph Connaughton, Sandra L. McDonough and Corrie J. Klekowski for Defendant and Respondent Children\u2019s Specialists of San Diego.\nAndrews Lagasse Branch & Bell, Margaret C. Bell and Lisa Marie Magorien for Defendant and Respondent the Regents of the University of California."
+  },
+  "file_name": "0001-01",
+  "first_page_order": 23,
+  "last_page_order": 50
+}

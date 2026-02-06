@@ -1,0 +1,59 @@
+{
+  "id": 5984317,
+  "name": "Ulloa v. California",
+  "name_abbreviation": "Ulloa v. California",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5436",
+  "first_page": "922",
+  "last_page": "922",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 922"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 92,
+    "ocr_confidence": 0.621,
+    "sha256": "f8b90fea8c47ba7a4ee536f4c013c257bba35a0c326edf51b29894f4d44414e4",
+    "simhash": "1:4505195000fb78a2",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ulloa v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 4th App. Dist., Div. 2. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5436.\nUlloa v. California."
+  },
+  "file_name": "0922-01",
+  "first_page_order": 944,
+  "last_page_order": 944
+}

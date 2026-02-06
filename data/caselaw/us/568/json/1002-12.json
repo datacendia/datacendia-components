@@ -1,0 +1,59 @@
+{
+  "id": 12422125,
+  "name": "Staton v. Reynolds, Warden",
+  "name_abbreviation": "Staton v. Reynolds",
+  "decision_date": "2012-11-05",
+  "docket_number": "No. 12-6457",
+  "first_page": "1002",
+  "last_page": "1002",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1002"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.688,
+    "sha256": "aa96aa1a80dca60917f29b3fd7de3111731aa2c756183298834f65b7d06e1862",
+    "simhash": "1:3783ac78df5db8f7",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Staton v. Reynolds, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6457.\nStaton v. Reynolds, Warden."
+  },
+  "file_name": "1002-12",
+  "first_page_order": 1078,
+  "last_page_order": 1078
+}

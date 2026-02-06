@@ -1,0 +1,1482 @@
+{
+  "id": 12521290,
+  "name": "CIC SERVICES, LLC, Plaintiff-Appellant, v. INTERNAL REVENUE SERVICE; Department of Treasury; United States of America, Defendants-Appellees.",
+  "name_abbreviation": "Cic Servs., LLC v. Internal Revenue Serv.",
+  "decision_date": "2019-05-22",
+  "docket_number": "No. 18-5019",
+  "first_page": "247",
+  "last_page": "264",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "925 F.3d 247"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "6th Cir.",
+    "id": 21296,
+    "name": "United States Court of Appeals for the Six Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "553 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3673923
+      ],
+      "weight": 3,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "10",
+          "parenthetical": "quotation omitted"
+        },
+        {
+          "parenthetical": "quotation omitted"
+        },
+        {
+          "parenthetical": "quotation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/553/0001-01"
+      ]
+    },
+    {
+      "cite": "706 F. Supp. 2d 342",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        3956226
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "346",
+          "parenthetical": "\"[U]nder the [AIA], a plaintiff cannot even seek an injunction preventing the IRS from investigating tax liabilities in an allegedly discriminatory or harassing fashion.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/706/0342-01"
+      ]
+    },
+    {
+      "cite": "723 F.3d 1114",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4065690,
+        4064991
+      ],
+      "weight": 2,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "1127"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/723/1114-02",
+        "/f3d/723/1114-01"
+      ]
+    },
+    {
+      "cite": "735 F.3d 654",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3722443
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "669"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/735/0654-01"
+      ]
+    },
+    {
+      "cite": "661 F.3d 1",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3847664,
+        3767820
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "8-9"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/661/0001-01",
+        "/us-app-dc/398/0134-01"
+      ]
+    },
+    {
+      "cite": "855 F.3d 1111",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12277126
+      ],
+      "weight": 3,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1118"
+        },
+        {
+          "page": "1119"
+        },
+        {
+          "page": "1116"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/855/1111-01"
+      ]
+    },
+    {
+      "cite": "387 U.S. 136",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11335008
+      ],
+      "weight": 3,
+      "year": 1967,
+      "pin_cites": [
+        {
+          "page": "140-41"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/387/0136-01"
+      ]
+    },
+    {
+      "cite": "725 F.2d 398",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1924697
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "404-05"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/725/0398-01"
+      ]
+    },
+    {
+      "cite": "26 U.S.C. \u00a7 831",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "3 I.R.B. 423",
+      "category": "reporters:federal",
+      "reporter": "I.R.B.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "671 F.2d 969",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        671047
+      ],
+      "weight": 2,
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "971"
+        },
+        {
+          "page": "971",
+          "parenthetical": "\"The [AIA] is equally applicable to activities which are intended to or may culminate in the assessment or collection of taxes.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/671/0969-01"
+      ]
+    },
+    {
+      "cite": "465 U.S. 367",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11335994
+      ],
+      "weight": 12,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "370"
+        },
+        {
+          "page": "373"
+        },
+        {
+          "page": "378"
+        },
+        {
+          "page": "374-75"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/465/0367-01"
+      ]
+    },
+    {
+      "cite": "962 F.2d 1209",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10524686
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "1213"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/962/1209-01"
+      ]
+    },
+    {
+      "cite": "189 L.Ed.2d 852",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12583008,
+        12583032,
+        12583033,
+        12583034,
+        12583004
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "parenthetical": "\"The plaintiffs seek to enjoin a part of the coverage requirements imposed by the [ACA] mandate, not the IRS's mechanism for collecting 'tax' from noncompliant employers. Such suits are common in other regulatory contexts ....\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/134/2899-03",
+        "/s-ct/134/2901-04",
+        "/s-ct/134/2902-01",
+        "/s-ct/134/2902-02",
+        "/s-ct/134/2898-04"
+      ]
+    },
+    {
+      "cite": "134 S. Ct. 2901",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12583032,
+        12583029,
+        12583030,
+        12583031
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "parenthetical": "\"The plaintiffs seek to enjoin a part of the coverage requirements imposed by the [ACA] mandate, not the IRS's mechanism for collecting 'tax' from noncompliant employers. Such suits are common in other regulatory contexts ....\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/134/2901-04",
+        "/s-ct/134/2901-01",
+        "/s-ct/134/2901-02",
+        "/s-ct/134/2901-03"
+      ]
+    },
+    {
+      "cite": "573 U.S. 956",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "year": 2014,
+      "pin_cites": [
+        {
+          "parenthetical": "\"The plaintiffs seek to enjoin a part of the coverage requirements imposed by the [ACA] mandate, not the IRS's mechanism for collecting 'tax' from noncompliant employers. Such suits are common in other regulatory contexts ....\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "730 F.3d 618",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3702683
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "622"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/730/0618-01"
+      ]
+    },
+    {
+      "cite": "791 F.3d 24",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4279602,
+        4274125
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "28-30",
+          "parenthetical": "\"In other words, unlike the plaintiffs in Bob Jones and [ Alexander ], Z Street does not have the 'obvious purpose' of [restraining the assessment of collection of taxes].\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/416/0201-01",
+        "/f3d/791/0024-01"
+      ]
+    },
+    {
+      "cite": "862 F.3d 1087",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12276044
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1092",
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/862/1087-01"
+      ]
+    },
+    {
+      "cite": "527 F.2d 597",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1084339
+      ],
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "599"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/527/0597-01"
+      ]
+    },
+    {
+      "cite": "701 F.2d 131",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        12129439
+      ],
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "132"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/701/0131-01"
+      ]
+    },
+    {
+      "cite": "735 F.2d 797",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        581290
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "798"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/735/0797-01"
+      ]
+    },
+    {
+      "cite": "753 F.2d 712",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        292622
+      ],
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "714"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/753/0712-01"
+      ]
+    },
+    {
+      "cite": "651 F.3d 529",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3754637
+      ],
+      "weight": 2,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "540"
+        },
+        {
+          "page": "539",
+          "parenthetical": "internal citations omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/651/0529-01"
+      ]
+    },
+    {
+      "cite": "259 U.S. 16",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        423280
+      ],
+      "weight": 3,
+      "year": 1922,
+      "pin_cites": [
+        {
+          "page": "42"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/259/0016-01"
+      ]
+    },
+    {
+      "cite": "416 U.S. 752",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        84612
+      ],
+      "weight": 5,
+      "year": 1974,
+      "pin_cites": [
+        {
+          "page": "760"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/416/0752-01"
+      ]
+    },
+    {
+      "cite": "567 U.S. 519",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12407356
+      ],
+      "weight": 13,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "544"
+        },
+        {
+          "page": "546"
+        },
+        {
+          "page": "544"
+        },
+        {
+          "page": "519"
+        },
+        {
+          "page": "519"
+        },
+        {
+          "page": "544"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/567/0519-01"
+      ]
+    },
+    {
+      "cite": "26 U.S.C. \u00a7 6671",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "1068"
+        },
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "370 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6164669
+      ],
+      "weight": 5,
+      "year": 1962,
+      "pin_cites": [
+        {
+          "page": "6",
+          "parenthetical": "\"The enactment of the comparable [TIA] ... throws light on the proper construction to be given [to the AIA].\""
+        },
+        {
+          "parenthetical": "\"The enactment of the comparable [TIA] ... throws light on the proper construction to be given [to the AIA].\""
+        },
+        {
+          "parenthetical": "\"The enactment of the comparable [TIA] ... throws light on the proper construction to be given [to the AIA].\""
+        },
+        {
+          "page": "7"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/370/0001-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1341",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "799 F.3d 1065",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12173165,
+        4340966
+      ],
+      "weight": 31,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1069"
+        },
+        {
+          "page": "1067"
+        },
+        {
+          "page": "1068"
+        },
+        {
+          "page": "1069"
+        },
+        {
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "1070"
+        },
+        {
+          "parenthetical": "\"[Plaintiffs] contend instead that they are seeking relief from a regulatory mandate that exists separate and apart from the assessment or collection of taxes.\""
+        },
+        {
+          "page": "1071",
+          "parenthetical": "\"A taxpayer could almost always characterize a challenge to a regulatory tax as a challenge to the regulatory component of the tax. That would reduce the [AIA] to dust in the context of challenges to regulatory taxes.\""
+        },
+        {
+          "page": "1070-71"
+        },
+        {
+          "page": "1067"
+        },
+        {
+          "page": "1068"
+        },
+        {
+          "page": "1067, 1072"
+        },
+        {
+          "page": "1069"
+        },
+        {
+          "page": "1067"
+        },
+        {
+          "page": "1070-71"
+        },
+        {
+          "page": "1071"
+        },
+        {
+          "page": "1071"
+        },
+        {
+          "page": "1066"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/419/0031-01",
+        "/f3d/799/1065-01"
+      ]
+    },
+    {
+      "cite": "135 S. Ct. 1124",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12587005
+      ],
+      "weight": 18,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1129"
+        },
+        {
+          "page": "1132"
+        },
+        {
+          "parenthetical": "quotation omitted"
+        },
+        {
+          "page": "1133",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "1129"
+        },
+        {
+          "page": "1130"
+        },
+        {
+          "page": "1129-31"
+        },
+        {
+          "page": "1128, 1134"
+        },
+        {
+          "page": "1131"
+        },
+        {
+          "page": "1133"
+        },
+        {
+          "page": "1130"
+        },
+        {
+          "page": "1131"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/135/1124-01"
+      ]
+    },
+    {
+      "cite": "416 U.S. 725",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        84348
+      ],
+      "weight": 15,
+      "year": 1974,
+      "pin_cites": [
+        {
+          "page": "742"
+        },
+        {
+          "page": "737, 742"
+        },
+        {
+          "page": "732"
+        },
+        {
+          "page": "738"
+        },
+        {
+          "page": "736"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/416/0725-01"
+      ]
+    },
+    {
+      "cite": "103 Va. L. Rev. 1683",
+      "category": "journals:journal",
+      "reporter": "Va. L. Rev.",
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1686"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "696 F.3d 467",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3530593
+      ],
+      "weight": 10,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "470",
+          "parenthetical": "\"With few exceptions, no court has jurisdiction over a suit to preemptively challenge a tax.\""
+        },
+        {
+          "page": "471"
+        },
+        {
+          "page": "471"
+        },
+        {
+          "page": "471"
+        },
+        {
+          "page": "471"
+        },
+        {
+          "page": "472"
+        },
+        {
+          "parenthetical": "quotation omitted"
+        },
+        {
+          "page": "472"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/696/0467-01"
+      ]
+    },
+    {
+      "cite": "15 F.3d 592",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1527474
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "598"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/15/0592-01"
+      ]
+    },
+    {
+      "cite": "589 F.3d 835",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3499107
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "843"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/589/0835-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 2201",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "parenthetical": "collectively, the \"AIA\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "26 U.S.C. \u00a7 7421",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 8,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "26 C.F.R. \u00a7 1.6011-4",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "pin_cites": [
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "5 U.S.C. \u00a7 801",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 7,
+      "pin_cites": [
+        {
+          "page": "et seq."
+        },
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "5 U.S.C. \u00a7 500",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "et seq."
+        },
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 I.R.B. 745",
+      "category": "reporters:federal",
+      "reporter": "I.R.B.",
+      "weight": 5,
+      "opinion_index": 0
+    },
+    {
+      "cite": "149 Tax Notes 1493",
+      "category": "journals:journal",
+      "reporter": "Tax Notes",
+      "pin_cites": [
+        {
+          "page": "1493",
+          "parenthetical": "Dec. 21, 2015"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "92 Wash. L. Rev. 1317",
+      "category": "journals:journal",
+      "reporter": "Wash. L. Rev.",
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1368"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "545 U.S. 308",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8209152
+      ],
+      "weight": 3,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "321",
+          "parenthetical": "Thomas, J., concurring"
+        },
+        {
+          "parenthetical": "Thomas, J., concurring"
+        },
+        {
+          "parenthetical": "Thomas, J., concurring"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/545/0308-01"
+      ]
+    },
+    {
+      "cite": "2017 WL 9496075",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "*1",
+          "parenthetical": "unpublished"
+        },
+        {
+          "page": "*2"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "2018 WL 2247497",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "*1",
+          "parenthetical": "unpublished"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "92 U.S. 575",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8768
+      ],
+      "weight": 2,
+      "year": 1875,
+      "pin_cites": [
+        {
+          "page": "613"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/92/0575-01"
+      ]
+    },
+    {
+      "cite": "387 U.S. 167",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11335267
+      ],
+      "weight": 3,
+      "year": 1967,
+      "pin_cites": [
+        {
+          "page": "172",
+          "parenthetical": "concluding that a \"proposed avenue of review [ ] beset with penalties and other impediments [is] inadequate as a satisfactory alternative to [pre-enforcement review]\""
+        },
+        {
+          "parenthetical": "concluding that a \"proposed avenue of review [ ] beset with penalties and other impediments [is] inadequate as a satisfactory alternative to [pre-enforcement review]\""
+        },
+        {
+          "parenthetical": "concluding that a \"proposed avenue of review [ ] beset with penalties and other impediments [is] inadequate as a satisfactory alternative to [pre-enforcement review]\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/387/0167-01"
+      ]
+    },
+    {
+      "cite": "549 U.S. 118",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3553591
+      ],
+      "weight": 5,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "129"
+        },
+        {
+          "page": "128-29"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/549/0118-01"
+      ]
+    },
+    {
+      "cite": "561 U.S. 477",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3644210,
+        12455286
+      ],
+      "weight": 3,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "490",
+          "parenthetical": "\"We normally do not require plaintiffs to 'bet the farm ... by taking the violative action' before 'testing the validity of the law.' \""
+        },
+        {
+          "parenthetical": "\"We normally do not require plaintiffs to 'bet the farm ... by taking the violative action' before 'testing the validity of the law.' \""
+        },
+        {
+          "parenthetical": "\"We normally do not require plaintiffs to 'bet the farm ... by taking the violative action' before 'testing the validity of the law.' \""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/561/0477-01",
+        "/l-ed-2d/177/0706-01"
+      ]
+    },
+    {
+      "cite": "26 U.S.C. \u00a7 7203",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "opinion_index": 1
+    },
+    {
+      "cite": "707 F.3d 364",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3536224,
+        3661910,
+        4170302
+      ],
+      "weight": 3,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "parenthetical": "alteration in original"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/707/0364-01",
+        "/us-app-dc/404/0066-01",
+        "/br/488/0364-01"
+      ]
+    },
+    {
+      "cite": "26 U.S.C. \u00a7\u00a7 6707",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "661 F.3d 1",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3847664,
+        3767820
+      ],
+      "weight": 2,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "10"
+        },
+        {
+          "page": "10"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/661/0001-01",
+        "/us-app-dc/398/0134-01"
+      ]
+    },
+    {
+      "cite": "387 U.S. 136",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11335008
+      ],
+      "weight": 5,
+      "year": 1967,
+      "pin_cites": [
+        {
+          "page": "140"
+        },
+        {
+          "page": "152"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/387/0136-01"
+      ]
+    },
+    {
+      "cite": "725 F.2d 398",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1924697
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "404-05"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/725/0398-01"
+      ]
+    },
+    {
+      "cite": "416 U.S. 752",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        84612
+      ],
+      "weight": 6,
+      "year": 1974,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/416/0752-01"
+      ]
+    },
+    {
+      "cite": "567 U.S. 519",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12407356
+      ],
+      "weight": 3,
+      "year": 2012,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/567/0519-01"
+      ]
+    },
+    {
+      "cite": "26 U.S.C. \u00a7 6671",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "370 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6164669
+      ],
+      "weight": 4,
+      "year": 1962,
+      "pin_cites": [
+        {
+          "page": "7"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/370/0001-01"
+      ]
+    },
+    {
+      "cite": "799 F.3d 1065",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12173165,
+        4340966
+      ],
+      "weight": 12,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1069"
+        },
+        {
+          "page": "1072"
+        },
+        {
+          "page": "1070"
+        },
+        {
+          "page": "1071"
+        },
+        {
+          "page": "1080",
+          "parenthetical": "Henderson, J., dissenting"
+        },
+        {
+          "page": "1067"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us-app-dc/419/0031-01",
+        "/f3d/799/1065-01"
+      ]
+    },
+    {
+      "cite": "135 S. Ct. 1124",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12587005
+      ],
+      "weight": 19,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1129",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "1130"
+        },
+        {
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "1130-31"
+        },
+        {
+          "page": "1131"
+        },
+        {
+          "page": "1132"
+        },
+        {
+          "page": "1131"
+        },
+        {
+          "page": "1131"
+        },
+        {
+          "page": "1132"
+        },
+        {
+          "page": "1129"
+        },
+        {
+          "page": "1132"
+        },
+        {
+          "page": "1133"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/s-ct/135/1124-01"
+      ]
+    },
+    {
+      "cite": "416 U.S. 725",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        84348
+      ],
+      "weight": 6,
+      "year": 1974,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/416/0725-01"
+      ]
+    },
+    {
+      "cite": "103 Va. L. Rev. 1683",
+      "category": "journals:journal",
+      "reporter": "Va. L. Rev.",
+      "weight": 4,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1685"
+        },
+        {
+          "page": "1686"
+        },
+        {
+          "page": "1685"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "26 U.S.C. \u00a7 7421",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)",
+          "parenthetical": "emphases added"
+        },
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "47 I.R.B. 745",
+      "category": "reporters:federal",
+      "reporter": "I.R.B.",
+      "weight": 2,
+      "opinion_index": 1
+    }
+  ],
+  "analysis": {
+    "cardinality": 1846,
+    "char_count": 59398,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25932940491897405
+    },
+    "sha256": "b769bcbcec4733b414b9a4dc4a8deb6b5802718bf16ab9eb265d60b6fb59ae5b",
+    "simhash": "1:3a2a87704d8772d7",
+    "word_count": 9699
+  },
+  "last_updated": "2024-02-27T18:46:49.974673+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "CIC SERVICES, LLC, Plaintiff-Appellant,\nv.\nINTERNAL REVENUE SERVICE; Department of Treasury; United States of America, Defendants-Appellees."
+    ],
+    "opinions": [
+      {
+        "text": "CLAY, Circuit Judge.\nPlaintiff CIC Services, LLC appeals the district court's November 2, 2017 order granting Defendants' motion to dismiss Plaintiff's complaint for lack of subject matter jurisdiction. Plaintiff's complaint alleges that Defendants' Notice 2016-66, 2016-47 I.R.B. 745 was promulgated in violation of the Administrative Procedure Act, 5 U.S.C. \u00a7 500 et seq. and the Congressional Review Act, 5 U.S.C. \u00a7 801 et seq. , and seeks to enjoin its enforcement. For the reasons that follow, we AFFIRM the district court's dismissal.\nBACKGROUND\nFactual Background\nAs a part of the American Jobs Creation Act of 2004, Congress delegated authority to the Internal Revenue Service (\"IRS\") to identify and gather information about potential tax shelters. See 26 U.S.C. \u00a7 6707A. In exercising that authority, the IRS requires taxpayers and certain third parties to maintain and submit records pertaining to any \"reportable transaction[s].\" Id. \u00a7 6707A(c). Reportable transactions are those transactions deemed as such by IRS regulations. Id .\nFailure to adhere to these IRS requirements can result in significant penalties. For instance, a taxpayer who fails to submit to the IRS a return listing his or her reportable transactions faces a penalty of 75% of his or her tax savings resulting from those transactions, from a minimum of $ 5,000 to a maximum of $ 200,000. Id. \u00a7\u00a7 6011, 6707A(b). A \"material advisor\"-one who provides material aid to a taxpayer in his or her carrying out reportable transactions and who derives a threshold amount of gross income from that aid, see id. \u00a7 6111(b)-faces similar penalties. For instance, a material advisor who fails to submit to the IRS a return listing the reportable transactions in which he or she aided faces a penalty of between $ 50,000 and $ 200,000. Id. \u00a7\u00a7 6111(a), 6707(b). And a material advisor who fails to maintain a list of the taxpayers that he or she aided in carrying out reportable transactions faces a penalty of $ 10,000 per day if the list is not produced within 20 business days of a request from the IRS. Id. \u00a7\u00a7 6112(a), 6708(a).\nOn November 21, 2016, Defendants published Notice 2016-66 (the \" Notice\"). See 2016-47 I.R.B. 745.The Notice identified certain \"micro-captive transactions\" as \"transactions of interest,\" a subset of reportable transactions. Id. ; see also 26 C.F.R. \u00a7 1.6011-4(b). The Notice explained that these transactions have \"a potential for tax avoidance or evasion,\" but that the IRS \"lack[s] sufficient information\" to distinguish between those that are lawful and those that are unlawful. 2016-47 I.R.B. 745. By deeming these transactions to be reportable transactions, the Notice imposed the requirements and potential penalties noted above on taxpayers engaging in them, and on material advisors aiding in them. Id.\nProcedural History\nOn March 27, 2017, Plaintiff, a material advisor to taxpayers engaging in micro-captive transactions, filed a complaint in the United States District Court for the Eastern District of Tennessee. Plaintiff's complaint alleges that Defendants promulgated Notice 2016-66 in violation of the Administrative Procedure Act (\"APA\"), 5 U.S.C. \u00a7 500 et seq. and the Congressional Review Act (\"CRA\"), 5 U.S.C. \u00a7 801 et seq. , and seeks to enjoin its enforcement. Specifically, Plaintiff alleges that the Notice (1) is a legislative rule that required notice-and-comment rulemaking, (2) is arbitrary and capricious, and therefore ultra vires , and (3) is a rule that required submission for congressional review before it could go into effect. Plaintiff also filed a motion for a preliminary injunction.\nOn April 21, 2017, the district court denied Plaintiff's motion for a preliminary injunction, reasoning that it would not be in the public interest and that Plaintiff was unlikely to succeed on the merits. Defendants then moved to dismiss Plaintiff's complaint for lack of subject matter jurisdiction. Defendants asserted that Plaintiff's complaint was barred by the Anti-Injunction Act, 26 U.S.C. \u00a7 7421(a) and the tax exception to the Declaratory Judgment Act, 28 U.S.C. \u00a7 2201 (collectively, the \"AIA\"), which divest federal district courts of jurisdiction over suits \"for the purpose of restraining the assessment or collection of any tax.\" On November 2, 2017, the district court granted Defendants' motion to dismiss for lack of subject matter jurisdiction.\nThis appeal followed.\nDISCUSSION\nI. Standard of Review\nWe review de novo questions of subject matter jurisdiction, including whether a complaint is barred by the AIA. Lorillard Tobacco Co. v. Chester, Willcox & Saxbe , 589 F.3d 835, 843 (6th Cir. 2009). In reviewing a district court's grant of a motion to dismiss pursuant to Federal Rule of Civil Procedure 12(b)(1), we accept all material allegations in the complaint as true and construe the complaint in the light most favorable to the nonmoving party. United States v. Ritchie , 15 F.3d 592, 598 (6th Cir. 1994).\nII. Analysis\nA. The AIA\nThe AIA provides that \"no suit for the purpose of restraining the assessment or collection of any tax shall be maintained in any court by any person.\" 26 U.S.C. \u00a7 7421(a). While there exist some statutory and judicial exceptions to this prohibition, they are few and circumscribed. See RYO Mach., LLC v. U.S. Dep't of Treasury , 696 F.3d 467, 470 (6th Cir. 2012) (\"With few exceptions, no court has jurisdiction over a suit to preemptively challenge a tax.\"). Thus, \"whether an injunction can legally issue under the AIA\" requires only two inquiries. Id. at 471.\n\"First, we must consider whether the ... complaint[ ] [is] within the purview of the AIA as a 'suit for the purpose of restraining the assessment or collection of any tax.' \" Id. (quoting 26 U.S.C. \u00a7 7421(a) ). Second, \"[i]f so, we must [consider] whether [the] case falls into an exception to the AIA that would [nevertheless] allow us to [reach] the merits.\" Id.\nThe problem with these ostensibly straightforward inquiries is that \"courts lack an overarching theory of the AIA's meaning and scope against which to evaluate individual [complaints].\" Kristin E. Hickman & Gerald Kerska, Restoring the Lost Anti-Injunction Act , 103 Va. L. Rev. 1683, 1686 (2017). At times, the Supreme Court has given the AIA \"literal force,\" without regard to the character of the tax, the characterization of the preemptive challenge to it, or other non-textual factors. Bob Jones Univ. v. Simon , 416 U.S. 725, 742, 94 S.Ct. 2038, 40 L.Ed.2d 496 (1974). At other times, it has given the AIA \"almost literal\" force, considering such factors with an eye towards furthering the AIA's underlying purposes. Id. at 737, 742, 94 S.Ct. 2038. The result, according to some commentators, has been \"jurisprudential chaos.\" Hickman & Kerska, supra , at 1686.\nWe attempt to find some order amidst the chaos, addressing each of the AIA inquiries in turn.\n1. Whether Plaintiff's complaint is within the purview of the AIA\nWhether a complaint is within the purview of the AIA depends, commonsensically, on whether it is properly characterized as a \"suit for the purpose of restraining the assessment or collection of any tax.\" RYO , 696 F.3d at 471 (quoting 26 U.S.C. \u00a7 7421(a) ). Plaintiff argues that its complaint is not a suit for the purpose of restraining the assessment or collection of taxes. Defendants argue that it is. Reducing the briefs to their cores, Plaintiff asserts that the Supreme Court's recent decision in Direct Marketing Ass'n v. Brohl , 575 U.S. ----, 135 S. Ct. 1124, 191 L.Ed.2d 97 (2015) controls this issue, while Defendants assert that the D.C. Circuit's subsequent decision in Florida Bankers Ass'n v. U.S. Dep't of the Treasury , 799 F.3d 1065 (D.C. Cir. 2015), distinguishing Direct Marketing , is more persuasive. We agree with Defendants and hold that Plaintiff's complaint is within the purview of the AIA.\nIn Direct Marketing , the Supreme Court analyzed the scope of the Tax Injunction Act (\"TIA\"), which provides that no federal district court shall \"enjoin, suspend, or restrain the assessment, levy or collection of any tax under State law where a plain, speedy and efficient remedy may be had in the court of such State.\" 28 U.S.C. \u00a7 1341. Although the TIA concerns state as opposed to federal taxes, it was \"modeled on\" the AIA and the Supreme Court has long looked to one in construing the other. Direct Marketing , 135 S. Ct. at 1129 ; see also Enochs v. Williams Packing & Nav. Co. , 370 U.S. 1, 6, 82 S.Ct. 1125, 8 L.Ed.2d 292 (1962) (\"The enactment of the comparable [TIA] ... throws light on the proper construction to be given [to the AIA].\"). The Court began its opinion in Direct Marketing by reaffirming this close connection between the two Acts, and making clear that \"[it] assume[s] that words used in both Acts are generally used in the same way.\" 135 S. Ct. at 1129.\nAt issue in Direct Marketing were the meanings of \"restrain,\" \"assessment,\" \"levy,\" and \"collection,\" all words, apart from \"levy,\" used in both the TIA and the AIA. See 28 U.S.C. \u00a7 1341 ; 26 U.S.C. \u00a7 7421(a).\nWith regard to \"restrain,\" the Court explained that \"standing alone [it] can have several meanings.\" Direct Marketing , 135 S. Ct. at 1132. One is a \"broad meaning\" that \"captures orders that merely inhibit acts of assessment, levy and collection.\" Id .\"Another, narrower meaning, however, is 'to prohibit from action; to put compulsion upon ... [or] to enjoin,' \" and this meaning \"captures only those orders that stop (or perhaps compel) acts of assessment, levy and collection.\" Id. (quotation omitted). The Court held that the TIA uses \"restrain\" in the latter, narrower sense. Id. And in doing so, it relied on two contextual clues: the words preceding \"restrain\" in the TIA-\"enjoin\" and \"suspend,\" both of which are \"terms of art in equity\"-and the \"carefully selected list of technical terms\" on which \"restrain\" acts-\"assessment,\" \"levy,\" and \"collection.\" Id. The Court explained that to give \"restrain\" the broad meaning would \"defeat the precision\" of these contextual clues, and would render several of the terms superfluous. Id. Thus, the question that the TIA asks is \"whether the relief [sought] to some degree stops 'assessment, levy or collection,' not whether it merely inhibits them.\" Id. at 1133 (emphasis added).\nWith regard to \"assessment\" and \"collection,\" the Court noted that it need not \"comprehensively define these terms\" in order to hold that they did not encompass the reporting requirements at issue. Id. at 1129. Nevertheless, the Court explained that \"assessment\" refers to \"the official recording of a taxpayer's liability.\" Id. at 1130. \"Collection,\" in turn, \"is the act of obtaining payment of taxes due.\" Id . While both \"might also be understood more broadly,\" the Court held that under either the narrow or the broad definition, each is a \"separate step in the taxation process\" that occurs after the step of reporting to the taxing authority information used to determine tax liability. Id. at 1129-31. (\"[T]he Federal Tax Code has long treated information gathering as a phase of tax administration procedure that occurs before assessment, levy, or collection.\").\nBased on these definitions, the Supreme Court in Direct Marketing ultimately held that the TIA did not bar the plaintiff's suit. The plaintiff had sought to enjoin the enforcement of a Colorado law that required certain retailers to maintain and submit records pertaining to sales on which the retailers did not collect state sales and use taxes. Id. at 1128, 1134. The Court reasoned that while enforcement of the law might \"improve Colorado's ability to assess and ultimately collect its sales and use taxes from consumers,\" the law was focused on information gathering as opposed to the discrete, subsequent acts of assessment, levy, and collection. Id. at 1131. Accordingly, a suit seeking to enjoin its enforcement would, if successful, \"merely inhibit[ ]\" those acts as opposed to \"restrain[ing]\" them. Id. at 1133. And thus the merits of the plaintiff's suit could be reached.\nShortly after Direct Marketing , the D.C. Circuit distinguished it in Florida Bankers with then-Judge Kavanaugh writing for the majority. 799 F.3d at 1069. At issue in Florida Bankers were the meanings of \"tax\" and \"for the purpose of\" as used in the AIA. See 26 U.S.C. \u00a7 7421(a).\nWith regard to \"tax,\" the court asked whether that term covers a \"penalty\" imposed to enforce a \"tax-related statutory or regulatory requirement.\" Fla. Bankers , 799 F.3d at 1067. The court explained that while \"[t]he answer to that question is often no ... the Tax Code defines some penalties as taxes for purposes of the [AIA].\" Id. \"In those cases, the [AIA] ordinarily applies because the suit, if successful, would invalidate the regulation and thereby directly prevent [the] collection of [that] tax.\" Id. The court held that this is exactly what occurs when the penalty at issue is located in Chapter 68, Subchapter B of the Tax Code. Id. In 26 U.S.C. \u00a7 6671(a), the Tax Code explicitly defines such penalties as taxes for the purposes of the AIA, and that practice has been \"clear[ly] and unequivocal[ly]\" acknowledged by the Supreme Court. Id. at 1068. Specifically, in Nat'l Fed'n of Indep. Bus. v. Sebelius , the Court explained:\nCongress can, of course, describe something as a penalty but direct that it nonetheless be treated as a tax for purposes of the [AIA]. For example, 26 U.S.C. \u00a7 6671(a) provides that \"any reference in this title to 'tax' imposed by this title shall be deemed also to refer to the penalties and liabilities provided by\" Subchapter 68B of the [Tax] Code. Penalties in Subchapter 68B are thus treated as taxes under Title 26, which includes the [AIA].\n567 U.S. 519, 544, 132 S.Ct. 2566, 183 L.Ed.2d 450 (2012). Thus, the court in Florida Bankers reasoned that the relevant \"tax\" in its AIA analysis was the penalty-located in Chapter 68, Subchapter B-that would be imposed upon violation of the challenged regulation. 799 F.3d at 1068.\nIt is on this basis that the court distinguished Direct Marketing . The penalty in that case \"was not itself a tax, or at least it was never argued or suggested that the penalty in that case was itself a tax.\" Id. at 1069. The court explained that \"[i]f the penalty here were not itself a tax, the [AIA] would not bar this suit. But because this penalty is deemed a tax by Section 6671(a), the [AIA] bars this suit as premature.\" Id. In other words, unlike in Direct Marketing , the tax in Florida Bankers was not \"two or three steps removed from the regulation in question.\" Id. Rather, \"because the Code define[d] the penalty as a tax, a tax [was] imposed as a direct consequence of violating the regulation.\" Id. And \"[i]nvalidating the regulation would directly bar collection of that tax.\" Id. (emphasis added). This distinction put the complaint in Florida Bankers \"at the heartland of the [AIA].\" Id. at 1070.\nWith regard to \"for the purpose of,\" the court rejected the argument that even if the penalty were a tax, the case was still not within the purview of the AIA because the plaintiffs sought relief not from the penalty but from the underlying regulatory mandate. Id. (\"[Plaintiffs] contend instead that they are seeking relief from a regulatory mandate that exists separate and apart from the assessment or collection of taxes.\"). The court held that \"plaintiffs cannot evade the [AIA] by purporting to challenge only the regulatory aspect of a regulatory tax;\" the AIA \"cannot be sidestepped by such nifty wordplay.\" Id. And in doing so, the court relied on (1) a line of Supreme Court cases describing the \"circular\" nature of that argument and looking only to whether the relief sought \"would necessarily preclude\" the collection of taxes within the meaning of the AIA, Bob Jones Univ. , 416 U.S. 725, 732, 94 S.Ct. 2038, 40 L.Ed.2d 496 (1974) ; see also Alexander v. \"Americans United\" Inc. , 416 U.S. 752, 760, 94 S.Ct. 2053, 40 L.Ed.2d 518 (1974) ; Bailey v. George , 259 U.S. 16, 42, 42 S.Ct. 419, 66 L.Ed. 816 (1922), (2) the Supreme Court's \"recent[ ] indicat[ion]\" in NFIB that that argument is meritless, see 567 U.S. at 546, 132 S.Ct. 2566, and (3) the policy implications of accepting that argument, see Fla. Bankers , 799 F.3d at 1071 (\"A taxpayer could almost always characterize a challenge to a regulatory tax as a challenge to the regulatory component of the tax. That would reduce the [AIA] to dust in the context of challenges to regulatory taxes.\"). Id. at 1070-71. Thus, the court refused to give any significance to the part of the regulation the plaintiffs purportedly sought to challenge.\nBased on these definitions, the court in Florida Bankers held that the AIA barred the plaintiffs' suit. The plaintiffs had sought to enjoin the enforcement of an IRS regulation requiring banks to report certain interest payments made to account holders. Id. at 1067. The court began with its holding that the relevant tax for its AIA analysis was the penalty that the banks would have to pay if they violated the reporting requirements, not the account-holder taxes the collection of which those requirements were designed to facilitate. Id. at 1068. The court then reasoned that the plaintiffs' suit would, if successful, \"invalidate the reporting requirement and restrain (indeed eliminate) the assessment and collection of the tax paid for not complying with [it].\" See id. at 1067, 1072. Accordingly, the suit was \"for the purpose of restraining the assessment or collection of a tax,\" and the merits could not be reached. Id.\nAgainst this backdrop, Plaintiff asserts that Direct Marketing controls, analogizing the TIA to the AIA and the Colorado law to the Notice. Defendants assert that Florida Bankers , distinguishing Direct Marketing , is more persuasive. We agree with Defendants, as Florida Bankers is directly on point, consistent with Direct Marketing , and in accordance with a broader survey of Supreme Court and circuit court precedent. Plaintiff's reply brief provides a useful structure for illustrating this conclusion.\nFirst, Plaintiff contends that \"[t]he purpose of this suit is not to restrain the assessment or collection of taxes .\" (Reply Brief for Appellant at 6.) Plaintiff argues that the penalties imposed for violation of the Notice's requirements are not taxes for purposes of the AIA, and that the only remaining taxes that the Notice implicates are the \"nebulous down-stream\" taxes of third parties. (Id. ) This argument is unpersuasive.\nThe third-party taxes the collection of which the Notice is designed to facilitate are not the relevant taxes for this AIA analysis. The relevant taxes are instead the penalties imposed for violation of the Notice's requirements. Like the penalty in Florida Bankers , the penalties here are all located in Chapter 68, Subchapter B of the Tax Code, and as a result are treated as taxes themselves for purposes of the AIA. The Supreme Court has explained as much. See NFIB , 567 U.S. at 544, 132 S.Ct. 2566. We have held as much. See Thomas More Law Ctr. v. Obama , 651 F.3d 529, 540 (6th Cr. 2011), abrogated on other grounds by NFIB , 567 U.S. at 519, 132 S.Ct. 2566. And other circuits have consistently held as much. See, e.g. , Nuttelman v. Vossberg , 753 F.2d 712, 714 (8th Cir. 1985) ; Herring v. Moore , 735 F.2d 797, 798 (5th Cir. 1984) ; Souther v. Mihlbachler , 701 F.2d 131, 132 (10th Cir. 1983) ; Prof'l Eng'rs, Inc. v. United States , 527 F.2d 597, 599 (4th Cir. 1975).\nSecond, Plaintiff contends that \"[t]he purpose of this suit is not to restrain the assessment or collection of taxes.\" (Rely Brief for Appellant at 11.) Plaintiff argues that the \"information gathering\" and \"records maintenance\" requirements of the Notice are focused on the act of reporting to the taxing authority information used to determine tax liability, not the discrete, subsequent acts of assessment or collection of that liability. (Id. ) This argument misses the mark.\nWhile it is true that information reporting is a separate step in the taxation process that occurs before assessment or collection, see Direct Marketing , 135 S. Ct. at 1130, Plaintiff's argument presupposes that the relevant taxes in this AIA analysis are the third-party taxes the collection of which the Notice is designed to facilitate. As previously discussed, that is incorrect. Like the challenged regulation in Florida Bankers , the Notice is indeed \"two or three steps removed\" from any third-party taxes. 799 F.3d at 1069. But once it is established that the relevant tax is the penalty imposed for violation of the Notice's requirements, it becomes clear that Plaintiff's suit is focused on that tax's assessment or collection. Plaintiff's suit seeks to invalidate the Notice, which is the entire basis for that tax. If successful, Plaintiff's suit would \"restrain (indeed eliminate)\" it. Id. at 1067.\nThird, Plaintiff contends that \"[t]he purpose of this suit is not to restrain the assessment or collection of taxes. (Reply Brief for Appellant at 15.) Plaintiff argues that under the narrower definition of \"restrain\" articulated in Direct Marketing , its suit would not restrain any tax's assessment or collection. This argument also misses the mark, for the same reason as Plaintiff's prior argument.\nIf the relevant taxes in this AIA analysis were the third-party taxes, and if we decided that the Direct Marketing definition of \"restrain\" should be extended from the TIA to the AIA, then Plaintiff's argument would likely have merit. Yet, as previously discussed, the former proposition is incorrect. And as a result, we need not engage with the latter. Even assuming arguendo that the Direct Marketing definition should be extended to the AIA, Plaintiff's suit \"would have the effect of restraining-fully stopping \" the IRS from collecting the penalties imposed for violating the Notice's requirements. See Maze v. Internal Revenue Serv. , 862 F.3d 1087, 1092 (D.C. Cir. 2017) (emphasis added) (also assuming extension of the Direct Marketing definition arguendo ). Plaintiff admits as much. (See Rely Brief for Appellant at 7) (\"[I]t is true that the IRS certainly could never collect any penalties ... for noncompliance if Notice 2016-66 is struck down.\").\nFourth, Plaintiff contends that \"[t]he purpose of this suit is not to restrain the assessment or collection of taxes.\" (Reply Brief for Appellant at 18.) Plaintiff argues that its suit is challenging the Notice's regulatory requirement and not the penalty. This argument, though intuitive at first glance, is unpersuasive.\nAny distinction that once existed in the Supreme Court's AIA jurisprudence between \"regulatory\" taxes and \"revenue-raising\" taxes appears to have been \"abandoned.\" Fla. Bankers , 799 F.3d at 1070 ; see also Bob Jones , 416 U.S. at 741 n.12, 94 S.Ct. 2038. In Bob Jones , the Court instead emphasized the effect of the plaintiff's suit. It held that where the relief sought would \"necessarily preclude\" the assessment or collection of the relevant tax, the suit \"falls squarely within the literal scope\" of the AIA and federal courts lack jurisdiction over it. Bob Jones , 416 U.S. at 731, 94 S.Ct. 2038. Yet, the Court has made clear that the purpose of the suit is still a factor in any AIA analysis. In Bob Jones , the Court noted that there was little doubt that a \"primary purpose of [the suit]\" was to prevent assessment or collection of the relevant tax, regardless of how the challenge was characterized. Id. at 738, 94 S.Ct. 2038. And in Alexander , the Court similarly noted that the \"obvious purpose of [the suit]\" was to prevent assessment or collection of the relevant tax, regardless of how the challenge was characterized. 416 U.S. at 761, 94 S.Ct. 2053.\nThe Court thus seems willing to infer a purpose to restrain the assessment or collection of taxes in instances where it appears that the plaintiff is-in the words of the D.C. Circuit-trying to \"sidestep\" the AIA with \"nifty wordplay.\" Fla. Bankers , 799 F.3d at 1070 ; see also Alexander , 416 U.S. at 761, 94 S.Ct. 2053 (\"The [plaintiff's purported] goal is merely a restatement of the [the plaintiff's actual goal] and can be accomplished only by restraining the assessment and collection of a tax in contravention of [the AIA].\"); Z Street v. Koskinen , 791 F.3d 24, 28-30 (D.C. Cir. 2015) (\"In other words, unlike the plaintiffs in Bob Jones and [ Alexander ], Z Street does not have the 'obvious purpose' of [restraining the assessment of collection of taxes].\"). Relying largely on these cases, the court in Florida Bankers paid even less mind to the subjective purpose of the suit, holding unequivocally that \"[a] challenge to a regulatory tax comes within the scope of the [AIA], even if the plaintiff claims to be targeting the regulatory aspect of the regulatory tax.\" 799 F.3d at 1070-71. The court explained that a challenge to the regulatory aspect of a regulatory tax is \"necessarily\" also a challenge to the tax aspect of a regulatory tax because invalidating the former would \"necessarily\" invalidate latter. Id. at 1071.\nNevertheless, a panel of this Court recently seemed prepared to recognize the distinction urged by Plaintiff and subsequently rejected by the Florida Bankers court. See Autocam Corp. v. Sebelius , 730 F.3d 618, 622 (6th Cir. 2013), vacated by Autocam Corp. v. Burwell , 573 U.S. 956, 134 S. Ct. 2901, 189 L.Ed.2d 852 (2014) (\"The plaintiffs seek to enjoin a part of the coverage requirements imposed by the [ACA] mandate, not the IRS's mechanism for collecting 'tax' from noncompliant employers. Such suits are common in other regulatory contexts ....\"). But Autocam was decided before Florida Bankers , dedicated few words to its AIA analysis, and in any event, having been vacated by the Supreme Court, is no longer good law. See Hill v. Marshall , 962 F.2d 1209, 1213 (6th Cir. 1992). Additional cases cited by Plaintiff and by the dissent in Florida Bankers in support of this distinction are similarly unhelpful.\nUltimately, especially in light of the Supreme Court's rule favoring \"clear boundaries\" in the interpretation of jurisdictional statutes, see Direct Marketing , 135 S. Ct. at 1131, we find the D.C. Circuit's recent, unequivocal pronouncement on this issue in Florida Bankers persuasive. As the Supreme Court has explained \"time and again,\" the AIA is \"more than a pleading exercise,\" and to allow Plaintiff's argument to succeed would \"reduce the [AIA] to dust in the context of challenges to regulatory taxes.\" Fla. Bankers , 799 F.3d at 1071. A challenge to a regulatory tax comes within the scope of the AIA, even if the plaintiff claims to be targeting the regulatory aspect of the regulatory tax, because a challenge to the regulatory aspect of a regulatory tax is necessarily also a challenge to the tax aspect of a regulatory tax. Id. Invalidating the former would \"necessarily\" invalidate the latter. Id .\nIn sum, we hold that Plaintiff's complaint seeking to enjoin the enforcement of the Notice is properly characterized as a \"suit for the purpose of restraining the assessment or collection of any tax.\" RYO , 696 F.3d at 471 (quoting 26 U.S.C. \u00a7 7421(a) ). Thus, Plaintiff's complaint is within the purview of the AIA and the district court does not have subject matter jurisdiction over it unless an exception applies.\n2. Whether this case falls into an exception to the AIA\nAs noted above, the statutory and judicial exceptions to the AIA are few and circumscribed. See RYO , 696 F.3d at 471. Plaintiff asserts that this case falls into the judicial exception created by the Supreme Court in South Carolina v. Regan , 465 U.S. 367, 104 S.Ct. 1107, 79 L.Ed.2d 372 (1984). In that case, South Carolina sought to enjoin a federal law that made interest on state-issued bearer bonds taxable. Id. at 370, 104 S.Ct. 1107. The Court allowed the merits of this challenge to be reached, even though it was within the purview of the AIA, because there was no \"alternative legal avenue\" by which South Carolina could challenge the legality of the tax. Id. at 373, 104 S.Ct. 1107. South Carolina did not bear the tax itself-the bondholders did-and as a result South Carolina lacked the legal avenues available to the bondholders. Id. at 378, 104 S.Ct. 1107. Without a newly crafted exception to the AIA, it had no way to challenge the law's constitutionality. Id.\nHowever, as these facts suggest, and as we have explained, \"this exception is very narrow.\" RYO , 696 F.3d at 472. \"Because of the strong policy animating the [AIA], and the sympathetic, almost unique facts in South Carolina , courts have construed the South Carolina exception very narrowly, undermining [the] plaintiff's efforts to fit its own claims within the confines of this exception.\" Id. (quotation omitted). As in RYO , this case \"is distinguishable from South Carolina in various ways.\" Id.\nMost significantly, the Supreme Court contrasted the facts of South Carolina with cases in which plaintiffs have \"the alternative remedy of a suit for a refund.\" 465 U.S. at 374-75, 104 S.Ct. 1107 ; accord RYO , 696 F.3d at 472. Plaintiff does not contest that it has this alterative remedy. Rather, Plaintiff challenges whether that remedy is sufficiently meaningful. Plaintiff contends that having to \"break the law\" by violating the Notice, and then sue for a refund, is \"no remedy at all.\" (Brief for Appellant at 38-40.) Contrary to Plaintiff's contention however, that is exactly what the AIA is designed to require. The AIA \"serves two related purposes,\" Dickens v. United States , 671 F.2d 969, 971 (6th Cir. 1982), \"to permit the United States to assess and collect taxes alleged to be due without judicial intervention, and to require that the legal right to disputed sums be determined in a suit for refund.\" Williams Packing , 370 U.S. 1 at 7, 82 S.Ct. 1125. Thus, we hold that Plaintiff's complaint does not fall into the South Carolina exception to the AIA.\nCONCLUSION\nThe broader legal context in which this case has been brought is not lost on this Court. Defendants \"do not have a great history of complying with APA procedures, having claimed for several decades that their rules and regulations are exempt from those requirements.\" Hickman & Gerska, supra , at 1712-13. And despite the jurisdictional nature of this appeal, Plaintiff has made its thoughts on the merits abundantly clear, emphasizing that \" Notice 2016-66 's Issuance and Enforcement is an Obvious Violation of the APA.\" (Reply Brief for Appellant at 4.) But that does not in and of itself give federal district courts subject matter jurisdiction over suits seeking to enjoin the assessment or collection of taxes. Absent further instruction from Congress or the Supreme Court, such suits are barred by the AIA.\nFor the reasons set forth above, we AFFIRM the district court's dismissal.\nDISSENT\nNotice 2016-66 was amended by Notice 2017-08, but only with regard to various deadlines. See 2017-3 I.R.B. 423. Accordingly, we refer only to Notice 2016-66.\nMicro-captive transactions are \"a type of transaction ... in which a taxpayer attempts to reduce the aggregate taxable income of the taxpayer, related persons, or both, using contracts that the parties treat as insurance contracts and a related company that the parties treat as a captive insurance company.\" Id. The details of these transactions and their tax implications for those that engage in them are not relevant to this appeal. If desired, more information can be found at 26 U.S.C. \u00a7 831(b) and at IRS News Release IR-2018-62 (Mar. 19, 2018).\nThe Anti-Injunction Act and the tax exception to the Declaratory Judgment Act are \"to be interpreted coterminously.\" Ecclesiastical Order of the ISM of AM, Inc. v. Internal Revenue Serv. , 725 F.2d 398, 404-05 (6th Cir. 1984). For simplicity, we refer to both as the \"AIA.\"\nIn this way, the AIA \"creates a narrow exception to the general administrative law principle that pre-enforcement review of agency regulations is available in federal court.\" Fla. Bankers Ass'n v. U.S. Dep't of the Treasury , 799 F.3d 1065, 1066 (D.C. Cir. 2015) ; see also Bob Jones Univ. v. Simon , 416 U.S. 725, 736, 94 S.Ct. 2038, 40 L.Ed.2d 496 (1974). Cf. Abbott Laboratories v. Gardner , 387 U.S. 136, 140-41, 87 S.Ct. 1507, 18 L.Ed.2d 681 (1967).\nIn Thomas More Law Ctr. , we explained at length that:\nIn many contexts, the law treats \"taxes\" and \"penalties\" as mutually exclusive. ... [but] [o]ther provisions of the Internal Revenue Code, to be sure, show that some \"penalties\" amount to \"taxes\" for purposes of the [AIA]. Not surprisingly, for example, Chapter 68 of the Revenue Code imposes \"penalties\" on individuals who fail to pay their \"taxes.\" Less obviously, but to similar effect, subchapter B of chapter 68 of the Revenue Code imposes other \"penalties\" related to the enforcement of traditional taxes. Under section 6671, \"any reference in this title to 'tax' imposed by this title shall be deemed also to refer to the penalties and liabilities provided by [subchapter B of chapter 68].\" All of these \"penalties\" thus count as \"taxes,\" including for purposes of the [AIA]. Otherwise, the recalcitrant tax protester could sue to preempt collection of a substantial monetary charge (accumulated penalties and interest) but not what will often be a smaller charge (the tax owed).\n651 F.3d at 539 (internal citations omitted).\nWhether the Direct Marketing definition should be extended from the TIA to the AIA is unclear. The Tenth Circuit chose not to do so in Green Solution Retail, Inc. v. United States , 855 F.3d 1111, 1118 (10th Cir. 2017). In that case, the court explained that one of the two reasons behind the Supreme Court's choice of the narrower definition in Direct Marketing was the fact that it was surrounded by \"enjoin\" and \"suspend,\" both of which are terms of art in equity, and both of which are absent from the AIA. Id. at 1119. In light of that difference, the court in Green Solution held that Direct Marketing did not implicitly overrule its prior cases applying the broad definition of \"restrain.\" Id. at 1116. This circuit has similar precedent. See, e.g. , Dickens v. United States , 671 F.2d 969, 971 (6th Cir. 1982) (\"The [AIA] is equally applicable to activities which are intended to or may culminate in the assessment or collection of taxes.\") (internal quotations omitted).\nIn Seven-Sky v. Holder , 661 F.3d 1, 8-9 (D.C. Cir. 2011), abrogated on other grounds by NFIB , 567 U.S. at 519, 132 S.Ct. 2566, the D.C. Circuit noted that \"[t]he harms appellants allege ... exist as a result of the [ACA coverage] mandate, not the penalty. ... The individual mandate and the shared responsibility payment create different legal obligations, for different categories of people, at different times.\" But the D.C. Circuit's more recent decision in Florida Bankers deemed that passage dicta. See 799 F.3d at 1072 n.3. Additionally, in Korte v. Sebelius , 735 F.3d 654, 669 (7th Cir. 2013) and Hobby Lobby Stores, Inc. v. Sebelius , 723 F.3d 1114, 1127 (10th Cir. 2013), the courts emphasized that the regulation at issue was a separate provision of the U.S. Code structured not as a predicate to the imposition of a tax, but as a mandate enforceable by a variety of different mechanisms. That is not the case here.\nThe dissent poses a hypothetical that it finds problematic in light of our holding: a reporting requirement discriminatorily imposed upon a protected class and enforced by a penalty located in Chapter 68, Subchapter B of the Tax Code. See Dis. Op. at 261. According to the dissent, the AIA could not bar a pre-emptive challenge to this requirement, \"without warping the meaning of the statute beyond recognition,\" at least in part because the purpose of the suit plainly would be \"to end discriminatory action by the Government,\" not to enjoin the assessment or collection of a tax. Id.\nWhat troubles the dissent about its hypothetical result is not entirely clear. To the extent that it is the clarity of the purpose of such a suit that troubles the dissent, the same purpose would clearly underlie, for instance, a preemptive challenge to tax investigations discriminatorily targeted at a protected class; yet that challenge would likely be barred by the AIA. See, e.g. , Clavizzao v. United States , 706 F. Supp. 2d 342, 346 (S.D.N.Y. 2009) (\"[U]nder the [AIA], a plaintiff cannot even seek an injunction preventing the IRS from investigating tax liabilities in an allegedly discriminatory or harassing fashion.\"). To the extent that it is the constitutional nature of such a suit that troubles the dissent, \"decisions of [the Supreme] Court make it unmistakably clear that the constitutional nature of a taxpayer's claim ... is of no consequence\" under the AIA; \"the taxpayer must succumb to an unconstitutional tax, and seek recourse only after it has been unlawfully exacted.\" United States v. Clintwood Elkhorn Min. Co. , 553 U.S. 1, 10, 128 S.Ct. 1511, 170 L.Ed.2d 392 (2008) (quotation omitted) (alteration in original). And to the extent that it is the treatment of certain penalties as taxes for purposes of the AIA that troubles the dissent, we are bound by the Supreme Court's allowance of that practice, whatever its merits or shortcomings. See NFIB , 567 U.S. at 544, 132 S.Ct. 2566 (\"Congress can, of course, describe something as a penalty but direct that it nonetheless be treated as a tax for purposes of the [AIA].\").",
+        "type": "majority",
+        "author": "CLAY, Circuit Judge."
+      },
+      {
+        "text": "NALBANDIAN, Circuit Judge, dissenting.\nOrdinarily, administrative law does not intend to leave regulated parties caught between a hammer and an anvil. That is why the Supreme Court has recognized a norm in favor of pre-enforcement judicial review of final agency action. See, e.g. , Abbott Laboratories v. Gardner , 387 U.S. 136, 140, 87 S.Ct. 1507, 18 L.Ed.2d 681 (1967). Judicial review obviates the dilemma of either complying with potentially unlawful (and onerous) regulations or \"risk[ing] prosecution.\" Id. at 152, 87 S.Ct. 1507. But that is the choice CIC Services is left with today. The majority holds that the Anti-Injunction Act bars us from reviewing CIC's pre-enforcement challenge of an Internal Revenue Service reporting requirement. I disagree.\nThe Anti-Injunction Act bars all \"suit[s] for the purpose of restraining the assessment or collection of any tax.\" 26 U.S.C. \u00a7 7421(a). This provision ensures the \"prompt collection\" of the Government's \"lawful revenue.\" Enochs v. Williams Packing & Nav. Co. , 370 U.S. 1, 7, 82 S.Ct. 1125, 8 L.Ed.2d 292 (1962). It allows the Government \"to assess and collect taxes alleged to be due without judicial intervention\" by requiring taxpayers to seek relief in a refund suit, after the disputed tax is paid. Id. The question here is whether CIC's challenge falls within this statute: Is it a \"suit for the purpose of restraining the assessment or collection of any tax?\" 26 U.S.C. \u00a7 7421(a).\nPerhaps at some level of abstraction, it could be. CIC seeks to enjoin an IRS notice that requires it to report certain transactions and to maintain a (reportable) list of clients who engage in those transactions. See Notice 2016-66, 2016-47 I.R.B. 745. CIC contends that the IRS promulgated the notice in violation of the Administrative Procedure Act and the Congressional Review Act.\nOf course, the reports themselves are not taxes. Nor do they necessarily contain information showing that CIC or its clients owe taxes. And CIC does not allege tax liability as its injury. Rather, it takes issue with the hundreds of hours of labor and tens of thousands of dollars the requirement will cost to comply with. And all so that, CIC argues, the IRS can unfairly and publicly portray its \"industry as one filled with crooked operatives and tax scammers.\" Put simply, this is not a dispute over taxes.\nThat said, the IRS promulgated the notice because the agency \"lack[s] sufficient information to identify which\" transactions have a potential for tax avoidance and which do not. 2016-47 I.R.B. 745. Presumably, once the IRS uses the reported information to identify which ones do, there will be tax consequences for some taxpayers. So it is plausible that CIC's challenge could eventually hinder the assessment and collection of taxes down the road.\nBut is that enough to trigger the Anti-Injunction Act? According to Direct Marketing Ass'n v. Brohl , --- U.S. ----, 135 S. Ct. 1124, 191 L.Ed.2d 97 (2015), the answer is a resounding \"No.\" What Direct Marketing taught us in interpreting the similarly worded Tax-Injunction Act is that the text of the statute is paramount. And a suit to enjoin the enforcement of a reporting requirement is not a \"suit for the purpose of restraining the assessment or collection of any tax.\" 26 U.S.C. \u00a7 7421(a) (emphases added).\nAs the Supreme Court explained there, \"information gathering\" (such as the reporting requirement here) is \"a phase of tax administration procedure that occurs before assessment ... or collection.\" Direct Marketing , 135 S. Ct. at 1129 (emphasis added). \" 'Assessment' is the next step in the process, and it refers to the official recording of a taxpayer's liability.\" Id. at 1130. But that does not occur until \"after information relevant to the calculation of that liability is reported to the taxing authority.\" Id. (emphasis added). And \"collection\" comes even later. See id. It is the \"act of obtaining payment of taxes due.\" Id. To be sure, the Court acknowledged that \"assessment\" and \"collection\" could be understood more broadly. See id. at 1130-31. But no matter how broadly those terms might stretch, they refer to phases in the process distinct from \"information gathering.\" See id.\nAnd so, the Court reasoned, the Tax-Injunction Act \"is not keyed to all activities that may improve [the Government's] ability to assess and collect taxes.\" Id. at 1131. \"Such a rule would be inconsistent not only with the text of the statute, but also with our rule favoring clear boundaries in the interpretation of jurisdictional statutes.\" Id. District courts may not \"restrain\"-i.e., \"enjoin,\" \"stop,\" or \"prohibit\" -the \"assessment\" or \"collection\" of taxes. Id. at 1132. \"[A]nd enforcement of ... reporting requirements is none of these.\" Id. at 1131.\nAlthough Direct Marketing appears to settle the matter, the Government notes a distinction between that case and this one. In Direct Marketing , the penalty that enforced the reporting requirement \"was not itself a tax\"-or at least no one argued that it was. Florida Bankers Ass'n v. U.S. Dep't of the Treasury , 799 F.3d 1065, 1069 (D.C. Cir. 2015). Here, in contrast, the reporting requirement is enforced by penalties in Chapter 68, Subchapter B of the Tax Code. See 26 U.S.C. \u00a7\u00a7 6707, 6707A, 6708. And the Tax Code deems those penalties \"taxes.\" 26 U.S.C. \u00a7 6671(a).\nSo the specific issue here is whether a reporting requirement that is enforced by a \"tax\" is shielded from pre-enforcement judicial review under the Anti-Injunction Act. The majority adopts the reasoning of Florida Bankers to answer that question affirmatively.\nIn Florida Bankers , a divided panel of the D.C. Circuit held that the Anti-Injunction Act barred a similar suit challenging the legality of a reporting requirement that the IRS enforced with a tax. See 799 F.3d at 1072. That is because, the court reasoned, the tax is \"imposed as a direct consequence of violating the regulation,\" and so \"[i]nvalidating the regulation would directly bar collection of that tax.\" Id . at 1069. For the D.C. Circuit majority, this distinguished the case from Direct Marketing because \"the tax ... is not two or three steps removed from the regulation in question.\" Id. In other words, there was no attenuation between the assessment and collection of the tax, on the one hand, and invalidating the regulation on the other.\nThat misses the mark. Enjoining a reporting requirement enforced by a tax does not necessarily bar the assessment or collection of that tax. That is because the tax does not result from the requirement per se. The only way for the IRS to assess and collect the tax is for a party to violate the requirement. So enjoining the requirement only stops the assessment and collection of the tax in the sense that a party cannot first violate the requirement and then become liable for the tax. Surely, this is the kind of attenuated relationship between \"restrain,\" \"assessment,\" and \"collection\" that Direct Marketing rejected. At best, the difference is one of degree-there may not be three steps of attenuation here or in Florida Bankers , but there certainly is attenuation.\nThe Florida Bankers court would reject this reasoning as \"nifty wordplay.\" Id. at 1070. To show why it is not, consider this hypothetical: Imagine if the IRS notice here unlawfully discriminated against a group of Americans by subjecting only that group to its reporting requirement. The logic of Florida Bankers would require us to characterize an Equal Protection challenge to the discriminatory notice as a \"suit for the purpose of restraining the assessment or collection of [a] tax\" simply because it is enforced by a penalty in Chapter 68, Subchapter B of the Tax Code. Intuitively, we know that description cannot stand without warping the meaning of the statute beyond recognition. No one thinks that the plaintiffs in that hypothetical case would care about enjoining the collection of a tax. The purpose of the suit would be to end discriminatory action by the Government. And yet the tax in that hypothetical is no further removed from the notice there than the tax in this case is removed from the notice here.\nThe Florida Bankers court dismissed an argument based on similar reasoning, stating, \"plaintiffs cannot evade the Anti-Injunction Act by purporting to challenge only the regulatory aspect of a regulatory tax.\" Id . In doing so, the court mainly relied on Bob Jones University v. Simon , 416 U.S. 725, 94 S.Ct. 2038, 40 L.Ed.2d 496 (1974) and Alexander v. \"Americans United\" Inc. , 416 U.S. 752, 94 S.Ct. 2053, 40 L.Ed.2d 518 (1974). Both cases involved non-profit organizations that brought constitutional challenges to IRS letter-rulings revoking their tax-exempt status. See Bob Jones , 416 U.S. at 735-36, 94 S.Ct. 2038 ; Alexander , 416 U.S. at 755-56, 94 S.Ct. 2053. And the plaintiffs in both cases argued that the purpose of their suits was \"to ensure that donors seeking tax deductions would continue to contribute to their organizations,\" not to restrain the assessment or collection of taxes. Seven-Sky v. Holder , 661 F.3d 1, 10 (D.C. Cir. 2011), abrogated on other grounds by Nat'l Fed'n of Indep. Bus. v. Sebelius , 567 U.S. 519, 132 S.Ct. 2566, 183 L.Ed.2d 450 (2012).\nBut the critical distinction between those cases and this one is that \"challenges to IRS letter-rulings revoking tax-exempt status are inextricably linked to the assessment and collection of taxes.\" Id . The direct consequence of the IRS letter-rulings for both cases was that the organization became liable for federal unemployment taxes. Bob Jones , 416 U.S. at 730, 94 S.Ct. 2038 ; Alexander , 416 U.S. at 755, 94 S.Ct. 2053. In fact, \"the only injuries plaintiffs identified involved tax liability.\" Seven-Sky , 661 F.3d at 10. So the Supreme Court unsurprisingly saw through the plaintiffs' arguments and held that each suit was barred by the Anti-Injunction Act because, if successful, each would \"necessarily preclude\" the collection of taxes. Bob Jones , 416 U.S. at 732, 94 S.Ct. 2038 ; see also Alexander , 416 U.S. at 761, 94 S.Ct. 2053.\nThat is not the case here. The regulation that CIC seeks to enjoin does not directly result in any tax liability. Indeed, the IRS cannot even assess the tax unless Plaintiff first violates the regulation. This attenuation means that, unlike in Bob Jones or Alexander , an injunction does not \"necessarily preclude\" an assessment or collection of taxes. This also alleviates any worry that plaintiffs could avoid the Anti-Injunction Act by always recharacterizing their suits as challenges to a regulation instead of a tax. Plaintiffs may make those arguments, but as in Bob Jones and Alexander , they will often fail.\nThe other case that the Florida Bankers court substantially relied on, NFIB v. Sebelius , is not to the contrary. There, the plaintiffs argued that the Anti-Injunction Act should not apply since they were challenging a regulatory mandate to purchase health insurance, not the penalty for failing to purchase the insurance. Florida Bankers , 799 F.3d at 1071. Though the Supreme Court agreed that the Anti-Injunction Act did not apply, it did so because it held that the penalty at issue was not a tax under the statute. Id. The Florida Bankers court read the decision to mean that \"the Anti-Injunction Act would have applied if the penalty were a tax under the Act.\" Id. It gave two reasons for reaching that conclusion. First, it relied on the Supreme Court's statement that because the penalty was not a tax under the Anti-Injunction Act, the statute did not apply, and so the Court could go on to reach the merits. Id. Second, the court noted that the Supreme Court failed to expressly address plaintiffs' argument despite \"the extensive briefing and [oral] argument focused on [it].\" Id.\nBut as Judge Henderson explained in her dissent, the first reason falls victim to the fallacy of \"denying the antecedent.\" Id. at 1080 (Henderson, J., dissenting). Stated abstractly, it means one is wrong to assume that because a conditional premise is true, so is its inverse. See id. (citing New England Power Generators Ass'n, Inc. v. FERC , 707 F.3d 364, 370 & n.3 (D.C. Cir. 2013) ). Stated in terms of this case, it means one is wrong to assume that a suit implicating a tax triggers the Anti-Injunction Act simply because a suit not implicating a tax does not trigger the Anti-Injunction Act.\nOn top of that, and again as Judge Henderson noted, the first reason is not textually sound. Id. Even if a suit implicates a tax, that does not mean it is necessarily barred by the Anti-Injunction Act: \"the suit may nonetheless not seek to 'restrain[ ] the assessment or collection' of said tax.\" Id. (alteration in original) (quoting 26 U.S.C. \u00a7 7421(a) ).\nThe second reason is inherently speculative and, regardless, cuts in both directions. For it is just as likely that the Supreme Court intentionally avoided the issue since it was unnecessary to reach in that case. At bottom, the NFIB Court never said that pre-enforcement review of a regulatory mandate is barred under the Anti-Injunction Act simply because it is enforced by a tax. A search for that proposition in the opinion leaves one emptyhanded.\nMore importantly, the NFIB Court did not have the benefit of its later decision in Direct Marketing . We do. And there the Court did not mince its words: \"[E]nforcement of ... reporting requirements is\" neither \"assessment\" nor \"collection.\" 135 S. Ct. at 1131. Nothing in the Court's decision causes me to think it would have held differently if someone had argued that the $ 5 or $ 10 penalties in that case were taxes.\nUnder the majority's decision, CIC now only has two options: (1) acquiesce to a potentially unlawful reporting requirement that will cost it significant money and reputational harm or (2) flout the requirement, i.e., \"break the law,\" to the tune of $ 50,000 in penalties for each transaction it fails to report. See 26. U.S.C. \u00a7 6707(a)-(b). Only if it (or someone else) follows the latter path-and only when (or if) the Government comes to collect the penalty-will any court be able to pass judgment on the legality of the regulatory action.\nMoreover, plaintiffs who do follow that path are not only subject to financial penalties but also criminal penalties. The Tax Code makes it a misdemeanor for any person who \"willfully fails\" to \"make any return, keep any records, or supply any information\" required under its title and its regulations. 26 U.S.C. \u00a7 7203. And it fines that person $ 25,000 ($ 100,000 if it's a corporation). See id.\nIn other words, the only lawful means a person has of challenging the reporting requirement here is to violate the law and risk financial ruin and criminal prosecution. That is probably enough to test the intestinal fortitude of anyone. And it leaves CIC in precisely the bind that pre-enforcement judicial review was meant to avoid. See, e.g. , Free Enter. Fund v. Pub. Co. Accounting Oversight Bd. , 561 U.S. 477, 490, 130 S.Ct. 3138, 177 L.Ed.2d 706 (2010) (\"We normally do not require plaintiffs to 'bet the farm ... by taking the violative action' before 'testing the validity of the law.' \") (quoting MedImmune, Inc. v. Genentech, Inc. , 549 U.S. 118, 129, 127 S.Ct. 764, 166 L.Ed.2d 604 (2007) ); MedImmune, Inc. , 549 U.S. at 128-29, 127 S.Ct. 764 (\"[W]here threatened action by government is concerned, we do not require a plaintiff to expose himself to liability before bringing suit to challenge the basis for the threat.\"); Gardner v. Toilet Good Ass'n , 387 U.S. 167, 172, 87 S.Ct. 1526, 18 L.Ed.2d 704 (1967) (concluding that a \"proposed avenue of review [ ] beset with penalties and other impediments [is] inadequate as a satisfactory alternative to [pre-enforcement review]\").\nThat might not be so alarming if this predicament was confined to this notice. But at least two commentators predict that the reasoning of Florida Bankers would apply to \"most if not all Treasury regulations and IRS guidance documents.\" Kristin E. Hickman & Gerald Kersa, Restoring the Lost Anti-Injunction Act , 103 Va. L. Rev. 1683, 1685 (2017). The inevitable consequence of our decision today is that \"many\" of those regulations and guidance documents will be rendered \"effectively unreviewable.\" Id. at 1686. In the process, something more may be lost than the private stakes in each meritorious case that would have otherwise been brought. And that is, \"public confidence in the quality and legitimacy of agency action\" for which judicial review was meant to serve as a protective bulwark. Id.\nAnd to what end? The chief \"evil[ ]\" the Anti-Injunction Act sought to ward off was undue judicial \"interfere[nce] with the process of collecting the taxes on which the government depends for its continued existence.\" Taylor v. Secor , 92 U.S. 575, 613, 23 L.Ed. 663 (1875). But the reporting requirement here generates no revenue for the Government. And the point of the penalty is to incentivize compliance with the requirement-not to incentivize its own assessment and collection. So it is not at all clear to me that barring CIC's suit serves the purpose of the Anti-Injunction Act. Indeed, the opposite appears true.\nIf all this seems rather anomalous, that is because it is. In the typical Anti-Injunction Act case, a plaintiff seeks to prevent some imminent process of assessment or collection relating to the taxes that he owes for a given year. See, e.g. , Tatar v. United States , No. 17-2088, 2018 WL 2247497 at *1 (6th Cir. Apr. 24, 2018) (unpublished); Dunlap v. Lew , No. 16-3658, 2017 WL 9496075 at *1 (6th Cir. June 2, 2017) (unpublished). To seek judicial review, all the plaintiff must do is (leaving aside some procedural hoops) pay the tax and sue for a refund. See Dunlap , 2017 WL 9496075 at *2. In that way, the Anti-Injunction Act's goal of ensuring the Nation's efficient collection of tax revenues is fulfilled, and the plaintiff has every incentive to seek judicial review if he has a meritorious claim.\nContrast that with the situation here: the path to judicial review is fraught with threats of penalties, fines, and prosecution-all intended to encourage compliance with a reporting requirement that collects not a penny for the Government. The anomalous implications of today's decision should convince us that we have given an anomalous reading to the Anti-Injunction Act.\nFor these reasons, I would hold that the Anti-Injunction Act does not bar CIC's suit.\nHere, references to the Anti-Injunction Act also refer to the tax exception to the Declaratory Judgment Act, both of which are \"to be interpreted coterminously.\" Ecclesiastical Order of the ISM of AM, Inc. v. Internal Revenue Serv. , 725 F.2d 398, 404-05 (6th Cir. 1984).\nIn Direct Marketing , the Court opted to give \"restrain\" this narrower meaning as opposed to its broader meaning, which would apply to suits that \"merely inhibit \" assessment or collection. 135 S. Ct. at 1132. The majority nevertheless cautions that it is \"unclear\" that \"restrain\" carries the same meaning in the Anti-Injunction Act that it does in the Tax-Injunction Act. But the Court explained that the words used in both statutes \"are generally used in the same way.\" Id. at 1129. It also justified giving \"restrain\" its narrower meaning, in part, on the fact that, in the Tax-Injunction Act, \"restrain\" operates \"on a carefully selected list of technical terms-'assessment, levy, collection'-not on an all-encompassing term, like 'taxation.' \" Id. at 1132. To give restrain its broader meaning, the Court reasoned, \"would be to defeat the precision of that list, as virtually any court action related to any phase of taxation might be said to 'hold back' 'collection.' \" Id. The only difference between the Anti-Injunction Act and the Tax-Injunction Act in that respect is that the former omits the word \"levy\" from its text. Finally, the Court explained that the \"narrower definition is consistent with the rule that '[j]urisidictional rules should be clear.' \" Id. at 1133 (quoting Grable & Sons Metal Products, Inc. v. Darue Engineering & Mfg. , 545 U.S. 308, 321, 125 S.Ct. 2363, 162 L.Ed.2d 257 (2005) (Thomas, J., concurring) (alteration in original)). These reasons militate in favor of giving \"restrain\" its narrower meaning in the Anti-Injunction Act, too.\nAnd, unsurprisingly, commentators have recognized the tension between Florida Bankers and Direct Marketing . See, e.g. , Kristin E. Hickman & Gerald Kerska, Restoring the Lost Anti-Injunction Act , 103 Va. L. Rev. 1683, 1685 (2017) (\"Florida Bankers also arguably contradicts the Supreme Court's reading in Direct Marketing Ass'n v. Brohl of the similarly worded Tax Injunction Act ....\"); Stephanie Hunter McMahon, Pre-Enforcement Litigation Needed for Taxing Procedures , 92 Wash. L. Rev. 1317, 1368 (2017) (\"Direct Marketing is seemingly at odds with another case, discussed in the prior Part, Florida Bankers Ass'n v. Department of Treasury .\"); Patrick J. Smith, D.C. Circuit in Florida Bankers Misapplies Anti-Injunction Act , 149 Tax Notes 1493, 1493 (Dec. 21, 2015) (\"This report explains how the majority opinion in Florida Bankers is inconsistent with Direct Marketing , as well as D.C. Circuit precedent on the AIA.\").\nTo be sure, the court in Florida Bankers suggested that the regulation would have to be \"tax-related.\" 799 F.3d at 1067. But, as the hypothetical demonstrates, one can imagine any number of pernicious regulations that could be made to fit that description.\nIf that seems like it must be wrong, think again. The Government's only response to whether it could criminally prosecute a person seeking judicial review for failing to supply the required information was that it was \"not clear.\" [Government's Br. at 58.]",
+        "type": "dissent",
+        "author": "NALBANDIAN, Circuit Judge, dissenting."
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "CIC SERVICES, LLC, Plaintiff-Appellant,\nv.\nINTERNAL REVENUE SERVICE; Department of Treasury; United States of America, Defendants-Appellees.\nNo. 18-5019\nUnited States Court of Appeals, Sixth Circuit.\nArgued: October 19, 2018\nDecided and Filed: May 22, 2019"
+  },
+  "file_name": "0247-01",
+  "first_page_order": 247,
+  "last_page_order": 264
+}

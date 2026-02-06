@@ -1,0 +1,59 @@
+{
+  "id": 5933409,
+  "name": "Zarn v. United States",
+  "name_abbreviation": "Zarn v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5772",
+  "first_page": "937",
+  "last_page": "937",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 937"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.584,
+    "sha256": "bb558ad7131cfb4837a1bd180de507b4db584e3142008c825fa5d28794aab9fb",
+    "simhash": "1:843be6c3298d015e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Zarn v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5772.\nZarn v. United States."
+  },
+  "file_name": "0937-06",
+  "first_page_order": 959,
+  "last_page_order": 959
+}

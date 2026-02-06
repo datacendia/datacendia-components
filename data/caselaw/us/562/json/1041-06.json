@@ -1,0 +1,96 @@
+{
+  "id": 6010130,
+  "name": "Chase Bank USA, N. A. v. McCoy, Individually and on Behalf of All Others Similarly Situated",
+  "name_abbreviation": "Chase Bank USA, N. A. v. McCoy",
+  "decision_date": "2010-11-15",
+  "docket_number": "No. 09-329",
+  "first_page": "1041",
+  "last_page": "1041",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1041"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "561 U. S. 1005",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12455328,
+        12455329,
+        12455330,
+        12455331,
+        12455332,
+        12455535,
+        12455536,
+        12455537,
+        12455538,
+        12455539,
+        12455540,
+        12455326,
+        12455327
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/177/1054-06",
+        "/l-ed-2d/177/1054-07",
+        "/l-ed-2d/177/1055-01",
+        "/l-ed-2d/177/1055-02",
+        "/l-ed-2d/177/1055-03",
+        "/l-ed-2d/177/1081-02",
+        "/l-ed-2d/177/1081-03",
+        "/l-ed-2d/177/1081-04",
+        "/l-ed-2d/177/1081-05",
+        "/l-ed-2d/177/1081-06",
+        "/l-ed-2d/177/1081-07",
+        "/l-ed-2d/177/1054-04",
+        "/l-ed-2d/177/1054-05"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 44,
+    "char_count": 290,
+    "ocr_confidence": 0.558,
+    "sha256": "0ce29e620466c17a49f6d5f2b40f14d306312927f84ab5b7670da7c817c3740a",
+    "simhash": "1:d1a0a5218b61cd5d",
+    "word_count": 49
+  },
+  "last_updated": "2024-02-27T22:51:28.129297+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Chase Bank USA, N. A. v. McCoy, Individually and on Behalf of All Others Similarly Situated."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. [Certiorari granted, 561 U. S. 1005.] Motion of the Acting Solicitor General for leave to participate in oral argument as amicus curiae and for divided argument granted.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-329.\nChase Bank USA, N. A. v. McCoy, Individually and on Behalf of All Others Similarly Situated."
+  },
+  "file_name": "1041-06",
+  "first_page_order": 1063,
+  "last_page_order": 1063
+}

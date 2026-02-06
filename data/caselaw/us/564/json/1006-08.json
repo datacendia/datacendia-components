@@ -1,0 +1,59 @@
+{
+  "id": 5920116,
+  "name": "Bridges v. Dormire, Superintendent, Jefferson City Correctional Center",
+  "name_abbreviation": "Bridges v. Dormire",
+  "decision_date": "2011-06-13",
+  "docket_number": "No. 10-9895",
+  "first_page": "1006",
+  "last_page": "1006",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1006"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 120,
+    "ocr_confidence": 0.557,
+    "sha256": "8f2da6a421b402fec928bb065d77bb00d6634fcf5738d7a9b7d1ca501f460e67",
+    "simhash": "1:80db4c7318db23af",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bridges v. Dormire, Superintendent, Jefferson City Correctional Center."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9895.\nBridges v. Dormire, Superintendent, Jefferson City Correctional Center."
+  },
+  "file_name": "1006-08",
+  "first_page_order": 1000,
+  "last_page_order": 1000
+}

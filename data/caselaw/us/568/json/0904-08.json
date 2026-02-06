@@ -1,0 +1,59 @@
+{
+  "id": 12415638,
+  "name": "Judy v. Obama, President of the United States, et al.",
+  "name_abbreviation": "Judy v. Obama",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5276",
+  "first_page": "904",
+  "last_page": "904",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 904"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 99,
+    "ocr_confidence": 0.653,
+    "sha256": "09c09261fd81c265ddeb55a7cb6e3c8f6b7e14066b91f7e1a78eb12af789f687",
+    "simhash": "1:30256a909548000c",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Judy v. Obama, President of the United States, et al."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ga. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5276.\nJudy v. Obama, President of the United States, et al."
+  },
+  "file_name": "0904-08",
+  "first_page_order": 980,
+  "last_page_order": 980
+}

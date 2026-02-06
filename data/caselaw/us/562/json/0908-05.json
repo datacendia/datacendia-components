@@ -1,0 +1,59 @@
+{
+  "id": 5914050,
+  "name": "Roberts v. McCulloch",
+  "name_abbreviation": "Roberts v. McCulloch",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5184",
+  "first_page": "908",
+  "last_page": "908",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 908"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 69,
+    "ocr_confidence": 0.632,
+    "sha256": "0c7097ff7aa89eaa9759cc5f62f551330525edd74e93010a111abc89a67503fe",
+    "simhash": "1:064ba668504c1430",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Roberts v. McCulloch."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5184.\nRoberts v. McCulloch."
+  },
+  "file_name": "0908-05",
+  "first_page_order": 930,
+  "last_page_order": 930
+}

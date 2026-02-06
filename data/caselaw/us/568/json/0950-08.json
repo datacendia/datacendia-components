@@ -1,0 +1,59 @@
+{
+  "id": 12418465,
+  "name": "Williams v. United States Marshals Service et al.",
+  "name_abbreviation": "Williams v. United States Marshals Service",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 12-5738",
+  "first_page": "950",
+  "last_page": "950",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 950"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 98,
+    "ocr_confidence": 0.659,
+    "sha256": "f4c8d148edeaee37759103732f40796b88131fd6375407c9717785f5d8f42cda",
+    "simhash": "1:8569e06302cdd29f",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Williams v. United States Marshals Service et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5738.\nWilliams v. United States Marshals Service et al."
+  },
+  "file_name": "0950-08",
+  "first_page_order": 1026,
+  "last_page_order": 1026
+}

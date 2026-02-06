@@ -1,0 +1,59 @@
+{
+  "id": 12229252,
+  "name": "Gaskins v. Duval",
+  "name_abbreviation": "Gaskins v. Duval",
+  "decision_date": "2011-10-17",
+  "docket_number": "No. 11-5873",
+  "first_page": "965",
+  "last_page": "965",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 965"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 65,
+    "ocr_confidence": 0.673,
+    "sha256": "39e2558b0f8ab8c9135548701e33167dc67688ae2da76c58fa5a0a1ba35ef318",
+    "simhash": "1:4f4fba00456ab122",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gaskins v. Duval."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5873.\nGaskins v. Duval."
+  },
+  "file_name": "0965-10",
+  "first_page_order": 1047,
+  "last_page_order": 1047
+}

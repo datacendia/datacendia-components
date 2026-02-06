@@ -1,0 +1,59 @@
+{
+  "id": 12199802,
+  "name": "Pillette v. Berghuis, Warden",
+  "name_abbreviation": "Pillette v. Berghuis",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-9600",
+  "first_page": "829",
+  "last_page": "829",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 829"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.667,
+    "sha256": "d439876f2d28d1dd0804b926fefb1009186d3a9761fdeabf51cba1c9e630b149",
+    "simhash": "1:b5aaa6b20e1f1263",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Pillette v. Berghuis, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9600.\nPillette v. Berghuis, Warden."
+  },
+  "file_name": "0829-09",
+  "first_page_order": 911,
+  "last_page_order": 911
+}

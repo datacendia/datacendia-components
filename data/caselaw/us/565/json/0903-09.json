@@ -1,0 +1,59 @@
+{
+  "id": 12219847,
+  "name": "Shelton v. United States",
+  "name_abbreviation": "Shelton v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5362",
+  "first_page": "903",
+  "last_page": "903",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 903"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.703,
+    "sha256": "0d421e05c33ebed3ad31389d268d94f5fde7fce9d45021847f5690e46fb2bc86",
+    "simhash": "1:324a928be70d18b0",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Shelton v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5362.\nShelton v. United States."
+  },
+  "file_name": "0903-09",
+  "first_page_order": 985,
+  "last_page_order": 985
+}

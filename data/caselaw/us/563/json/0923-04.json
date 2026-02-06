@@ -1,0 +1,59 @@
+{
+  "id": 5926799,
+  "name": "Gallishaw v. South Carolina",
+  "name_abbreviation": "Gallishaw v. South Carolina",
+  "decision_date": "2011-04-04",
+  "docket_number": "No. 10-9013",
+  "first_page": "923",
+  "last_page": "923",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 923"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.572,
+    "sha256": "9f8b34ca0248d5bbc2e79966746b683936fea92b301a8bdde1735e888213a902",
+    "simhash": "1:a05b0c78ba7497d5",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gallishaw v. South Carolina."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. S. C. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9013.\nGallishaw v. South Carolina."
+  },
+  "file_name": "0923-04",
+  "first_page_order": 949,
+  "last_page_order": 949
+}

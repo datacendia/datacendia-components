@@ -1,0 +1,59 @@
+{
+  "id": 12250949,
+  "name": "Talbott v. Fisher, Warden",
+  "name_abbreviation": "Talbott v. Fisher",
+  "decision_date": "2012-03-05",
+  "docket_number": "No. 11-8671",
+  "first_page": "1253",
+  "last_page": "1253",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1253"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.693,
+    "sha256": "c7e262e27694997f2fcde7131bdea8495c08251a0b83d16ff5b53fec83e8d410",
+    "simhash": "1:a4d36632bc3e527f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Talbott v. Fisher, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8671.\nTalbott v. Fisher, Warden."
+  },
+  "file_name": "1253-02",
+  "first_page_order": 1335,
+  "last_page_order": 1335
+}

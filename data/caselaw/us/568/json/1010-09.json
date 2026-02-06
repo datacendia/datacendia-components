@@ -1,0 +1,59 @@
+{
+  "id": 12422505,
+  "name": "Zorbalas v. City of Minneapolis, Minnesota",
+  "name_abbreviation": "Zorbalas v. City of Minneapolis",
+  "decision_date": "2012-11-13",
+  "docket_number": "No. 12-295",
+  "first_page": "1010",
+  "last_page": "1010",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1010"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 90,
+    "ocr_confidence": 0.616,
+    "sha256": "cf7bf24f2f551b9b356e1f61d78ed1c86f5ac5d2a2861f7743f835464e159e55",
+    "simhash": "1:68e6490280489393",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Zorbalas v. City of Minneapolis, Minnesota."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Minn. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-295.\nZorbalas v. City of Minneapolis, Minnesota."
+  },
+  "file_name": "1010-09",
+  "first_page_order": 1086,
+  "last_page_order": 1086
+}

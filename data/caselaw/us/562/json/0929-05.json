@@ -1,0 +1,59 @@
+{
+  "id": 5955637,
+  "name": "Singleton v. United States",
+  "name_abbreviation": "Singleton v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5563",
+  "first_page": "929",
+  "last_page": "929",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 929"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.598,
+    "sha256": "2a7313b40c022eed80d50b2bfa8f83a98be382c3019091fd38d357e314214fdc",
+    "simhash": "1:072adb028becb22e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Singleton v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5563.\nSingleton v. United States."
+  },
+  "file_name": "0929-05",
+  "first_page_order": 951,
+  "last_page_order": 951
+}

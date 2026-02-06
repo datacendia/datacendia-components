@@ -1,0 +1,59 @@
+{
+  "id": 12242776,
+  "name": "Nunley v. Missouri",
+  "name_abbreviation": "Nunley v. Missouri",
+  "decision_date": "2012-01-17",
+  "docket_number": "No. 11-6936",
+  "first_page": "1160",
+  "last_page": "1160",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1160"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 65,
+    "ocr_confidence": 0.713,
+    "sha256": "5437db7a1ec4fa4348859fb2f480f2bba0f1794812810628ee8da1850236fd13",
+    "simhash": "1:e0319a4b66ea2442",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Nunley v. Missouri."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Mo. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6936.\nNunley v. Missouri."
+  },
+  "file_name": "1160-12",
+  "first_page_order": 1242,
+  "last_page_order": 1242
+}

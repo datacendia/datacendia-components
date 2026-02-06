@@ -1,0 +1,59 @@
+{
+  "id": 12412601,
+  "name": "Nelson v. Illinois",
+  "name_abbreviation": "Nelson v. Illinois",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10343",
+  "first_page": "840",
+  "last_page": "840",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 840"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 78,
+    "ocr_confidence": 0.71,
+    "sha256": "abe4510a8756ed2b866ab7715e0d2e774d74cb6e6f34d7fe5e5701c161113b15",
+    "simhash": "1:51265e5f65303d2b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Nelson v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Ill., 4th Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10343.\nNelson v. Illinois."
+  },
+  "file_name": "0840-12",
+  "first_page_order": 916,
+  "last_page_order": 916
+}

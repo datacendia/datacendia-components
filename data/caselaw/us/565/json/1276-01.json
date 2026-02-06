@@ -1,0 +1,61 @@
+{
+  "id": 12253135,
+  "name": "Fairbank v. Ayers, Warden",
+  "name_abbreviation": "Fairbank v. Ayers",
+  "decision_date": "2012-03-19",
+  "docket_number": "No. 11-8349",
+  "first_page": "1276",
+  "last_page": "1276",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1276"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 153,
+    "ocr_confidence": 0.653,
+    "sha256": "fedb64793f87fccae39b0d7b230bce06a074a113e7abdb1f3f404c6b20301dfc",
+    "simhash": "1:ddb35181f38ca256",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Breyer took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Fairbank v. Ayers, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.\nJustice Breyer took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8349.\nFairbank v. Ayers, Warden."
+  },
+  "file_name": "1276-01",
+  "first_page_order": 1358,
+  "last_page_order": 1358
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5948408,
+  "name": "Calhoun v. California",
+  "name_abbreviation": "Calhoun v. California",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-7236",
+  "first_page": "1224",
+  "last_page": "1224",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1224"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 84,
+    "ocr_confidence": 0.585,
+    "sha256": "ada00885af655e01b43a1e5311f5e1a84757610c11d1ea22758cf0e1a6dcdad8",
+    "simhash": "1:6d0de2a03fd25a63",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Calhoun v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 2d App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7236.\nCalhoun v. California."
+  },
+  "file_name": "1224-09",
+  "first_page_order": 1246,
+  "last_page_order": 1246
+}

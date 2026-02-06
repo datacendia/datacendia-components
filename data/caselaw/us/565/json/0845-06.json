@@ -1,0 +1,59 @@
+{
+  "id": 12204530,
+  "name": "Kish v. United States",
+  "name_abbreviation": "Kish v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10706",
+  "first_page": "845",
+  "last_page": "845",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 845"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.614,
+    "sha256": "5930925b09e23c71fbdaf300155e1b0f47530404b084c196e0369a8a2064140a",
+    "simhash": "1:d7ba32076a3f0804",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Kish v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10706.\nKish v. United States."
+  },
+  "file_name": "0845-06",
+  "first_page_order": 927,
+  "last_page_order": 927
+}

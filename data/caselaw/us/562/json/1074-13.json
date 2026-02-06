@@ -1,0 +1,59 @@
+{
+  "id": 6006837,
+  "name": "Clark v. Castillo, Warden",
+  "name_abbreviation": "Clark v. Castillo",
+  "decision_date": "2010-11-29",
+  "docket_number": "No. 10-7138",
+  "first_page": "1074",
+  "last_page": "1074",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1074"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.525,
+    "sha256": "b10ae48993f6b3cc80cf10e24e09487e1ef53cd9da9cd8e86a3dc281c60a1150",
+    "simhash": "1:469a3204ae3e1866",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Clark v. Castillo, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7138.\nClark v. Castillo, Warden."
+  },
+  "file_name": "1074-13",
+  "first_page_order": 1096,
+  "last_page_order": 1096
+}

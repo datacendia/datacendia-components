@@ -1,0 +1,61 @@
+{
+  "id": 12226198,
+  "name": "Harrimon v. United States",
+  "name_abbreviation": "Harrimon v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10558",
+  "first_page": "931",
+  "last_page": "931",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 931"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 153,
+    "ocr_confidence": 0.695,
+    "sha256": "0120e3af4e7b5876a86e558e0f775b2f4819c229499eafcc6cb6848a86ccb70e",
+    "simhash": "1:8fa2fb820d0ed842",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Harrimon v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10558.\nHarrimon v. United States."
+  },
+  "file_name": "0931-07",
+  "first_page_order": 1013,
+  "last_page_order": 1013
+}

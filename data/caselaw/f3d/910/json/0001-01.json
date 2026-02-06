@@ -1,0 +1,194 @@
+{
+  "id": 12519353,
+  "name": "UNITED STATES of America, Appellee, v. Franklyn MORILLO, Defendant, Appellant.",
+  "name_abbreviation": "United States v. Morillo",
+  "decision_date": "2018-12-04",
+  "docket_number": "No. 17-1506",
+  "first_page": "1",
+  "last_page": "4",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "910 F.3d 1"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "1st Cir.",
+    "id": 8809,
+    "name": "United States Court of Appeals for the First Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "769 F.3d 1",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4265138
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "7"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/769/0001-01"
+      ]
+    },
+    {
+      "cite": "480 F.3d 605",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3896477
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "608"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/480/0605-01"
+      ]
+    },
+    {
+      "cite": "893 F.3d 14",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12517344
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "23-29"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/893/0014-01"
+      ]
+    },
+    {
+      "cite": "617 F.3d 27",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3771466
+      ],
+      "weight": 2,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "36-37"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/617/0027-01"
+      ]
+    },
+    {
+      "cite": "533 F.3d 11",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4038895
+      ],
+      "weight": 4,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "13-14"
+        },
+        {
+          "page": "17-18"
+        },
+        {
+          "page": "13-14"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/533/0011-01"
+      ]
+    },
+    {
+      "cite": "257 F.3d 14",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11082752
+      ],
+      "weight": 6,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "24"
+        },
+        {
+          "page": "25"
+        },
+        {
+          "page": "25"
+        },
+        {
+          "page": "26"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/257/0014-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 507,
+    "char_count": 9293,
+    "pagerank": {
+      "raw": 8.809691169799156e-08,
+      "percentile": 0.4968714392229045
+    },
+    "sha256": "699ba3a19b6d5f233fc51fa0745d883b38174d67bfa0e50c66ab9f6299abe28d",
+    "simhash": "1:566cc7659065fc5b",
+    "word_count": 1454
+  },
+  "last_updated": "2024-02-27T18:46:13.639075+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Thompson, Boudin, and Kayatta, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Appellee,\nv.\nFranklyn MORILLO, Defendant, Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "BOUDIN, Circuit Judge.\nIn October 2016, Franklyn Morillo pled guilty in New Hampshire district court to conspiracy to distribute and possess with intent to distribute oxycodone and cocaine. In May 2017, the district judge sentenced Morillo to 168 months in prison. Morillo now appeals to contest his sentence. Morillo challenges the application of particular sentencing enhancements and the imposition of certain supervised-release conditions.\nAt the threshold, the government says that Morillo has no right to contest his sentence because his guilty plea, the result of a plea bargain with the government, includes an express waiver of his right to appeal his conviction or sentence if his sentence rests on a base offense level no lower than twenty six and no higher than thirty. At sentencing, the district judge ruled that Morillo had a base offense level of thirty, thus satisfying the condition on which the waiver rested. Morillo responds that the district judge (allegedly) \"failed to conduct any meaningful interrogation on the waiver.\"\nIn 1999, a new rule of criminal procedure became effective, now re-codified and designated Federal Rule of Criminal Procedure 11(b)(1)(N). Rule 11(b)(1)(N) requires that when a defendant seeks to waive his or her right to appeal a sentence when pleading guilty-today a common provision sought by the government in plea bargains-the judge \"must inform the defendant of, and determine that the defendant understands, ... the terms of any plea-agreement provision waiving the right to appeal or to collaterally attack the sentence ....\" Fed. R. Crim. P. 11(b)(1)(N).\nA year and a half later, this court, in an opinion by Judge Selya, addressed several legal questions relating to the new rule. United States v. Teeter, 257 F.3d 14 (1st Cir. 2001). By a formulation repeatedly cited by this court thereafter, Teeter requires that appeal waivers meet three criteria:\n- First, the written waiver must comprise \"a clear statement\" describing the waiver and specifying its scope. Teeter, 257 F.3d at 24.\n- Second, \"[m]indful\" of Rule 11(b)(1)(N), the record must show that the judge's interrogation \"suffice[d] to ensure that the defendant freely and intelligently agreed to waive [his or] her right to appeal [his or] her forthcoming sentence.\" Id.\n- Third, even if the plea agreement and the change of plea colloquy are satisfactory, the reviewing court retains discretion to refuse to honor a waiver if denying a right to appeal would \"work a miscarriage of justice.\" Id. at 25.\nNext, in United States v. Borrero-Acevedo, 533 F.3d 11 (1st Cir. 2008), Judge Lynch resolved another appeal from a sentence following a defendant's waiver of his right to appeal. At the change-of-plea proceeding, the magistrate judge had failed to comply with Rule 11(b)(1)(N). On appeal, the defendant attempted to avoid the effect of his appeal waiver because of the judge's failure to ask him specifically about the waiver; but the defendant had not made a contemporaneous objection to this failure.\nApplying Supreme Court plain-error decisions, Judge Lynch ruled that when a defendant fails to preserve an alleged error regarding his appeal-waiver colloquy, the defendant must show \"a reasonable probability that he would not have entered the plea had the error not been made.\" Borrero-Acevedo, 533 F.3d at 13-14. Borrero failed to make this showing, so the waiver foreclosed the appeal. Id. at 17-18.\nWhile Teeter's tripartite test remains in force in this circuit, Borrero-Acevedo's plain-error test applies to cases, such as Morillo's, where a defendant seeks to avoid the effect of his appeal waiver because of an unpreserved Rule 11(b)(1)(N) error. Even in such cases, Teeter's miscarriage-of-justice exception continues to apply. Sotirion v. United States, 617 F.3d 27, 36-37 (1st Cir. 2010). Where a defendant claims his waiver was not made knowingly or voluntarily for reasons other than an unpreserved Rule 11(b)(1)(N) error, Teeter's three-part inquiry alone governs. Id. at 34 n.6.\nHere, Morillo's appeal waiver bars his challenges to his sentence, including both the sentencing enhancements and the supervised-release conditions. He fails to satisfy the Borrero-Acevedo plain-error test because no error-plain or otherwise-occurred in the appeal-waiver colloquy. An appeal-waiver inquiry's adequacy depends on the specifics of the case, including questions asked or statements made by the judge, characteristics of the defendant, and evidence that the defendant understood that he was waiving his right to appeal as specified by the waiver.\nThe court explained to Morillo: \"[U]nder the terms of your agreement with the government you've waived or given up your right to file ... a direct appeal of your conviction or sentence ... but with four notable exceptions.\" The court identified for Morillo the circumstances in which he could appeal despite the waiver, none of which applies here. The court then asked whether Morillo had \"discussed each term of the written plea agreement\" with his attorney, and Morillo said that he had. The plea agreement included a clear statement explaining the appeal waiver and its scope.\nMorillo's brief poses lines of questioning employed in other cases assessing the adequacy of appeal-waiver colloquies but not used in this one, arguing that these alternatives show the colloquy in his case to be faulty; but the number of possible questions is infinite, and this mustering of questions asked by other judges does not itself show any inadequacy in the judge's colloquy in this case. It is the defendant's task to identify a substantive flaw-not merely to compare this colloquy with others.\nNothing suggested the waiver deserved enhanced scrutiny. Morillo was not an inexperienced youth on the fringes of a conspiracy but the leader of a major drug operation who has some college education. Morillo graduated from a Massachusetts high school and apparently studied for one year at a community college to pursue a career in education. Further, the plea bargain offered sufficient advantages in limiting his exposure in the face of strong evidence of guilt. Nothing suggested that Morillo had been coerced or offered other inducements warranting further inquiry.\nEven had the colloquy been plain error, Morillo fails to meet the prejudice standard set forth in Borrero-Acevedo. After Borrero-Acevedo, a defendant asserting an unpreserved claim of a Rule 11(b)(1)(N) error must establish that he would not have pled guilty but for the error in the colloquy. 533 F.3d at 13-14. Given the strong evidence of Morillo's guilt and the substantial reduction in the sentence that the plea bargain made available, Morillo cannot meet this standard.\nMorillo's last resort is Teeter's miscarriage-of-justice exception. When applying the exception, the court on appeal considers whether enforcing the waiver with respect to each claim would risk a miscarriage of justice. United States v. Cabrera-Rivera, 893 F.3d 14, 23-29 (1st Cir. 2018).\nTeeter's miscarriage-of-justice exception applies only in \"egregious cases.\" Teeter, 257 F.3d at 25. Morillo's claim that the district court abused its discretion by imposing particular sentencing enhancements is precisely a \"garden-variety\" claim outside the scope of the miscarriage-of-justice exception. Id. at 26. And Morillo's claim that the supervised-release conditions are inconsistent with the 2016 guidelines amendments is simply mistaken: far from being inconsistent, the conditions are identical to the amendments. Morillo's appeal waiver is enforceable and bars his appeal.\nAffirmed.\nThe government also contends that Morillo forfeited his right to contest the supervised-release conditions because he failed to confront head-on in his brief the waiver of appeal with respect to the supervised-release conditions. United States v. Miliano, 480 F.3d 605, 608 (1st Cir. 2007). We find that Morillo did contest the waiver both generally in his opening brief and specifically in challenging the supervised-release conditions.\nSupervised-release conditions are part of \"the sentence\" and so are embraced by an enforceable waiver of the right to appeal guilt and sentence. United States v. Santiago, 769 F.3d 1, 7 (1st Cir. 2014).\nThe evidence included multiple witnesses against Morillo as well as co-conspirators he supervised. He also had a substantial criminal history and committed the present offense while on probation. In exchange for Morillo's guilty plea, the government agreed to sentencing stipulations: First, Morillo's base offense level would be no lower than twenty six but no higher than thirty. Second, the government would not oppose a reduction in Morillo's adjusted offense level based upon his acceptance of personal responsibility for the offense. But for the plea bargain, a much longer sentence could easily have been imposed and almost certainly would have been.",
+        "type": "majority",
+        "author": "BOUDIN, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Steven A. Feldman and Feldman and Feldman on brief for appellant.",
+      "John J. Farley, Acting United States Attorney, and Seth R. Aframe, Assistant United States Attorney, on brief for appellee."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Appellee,\nv.\nFranklyn MORILLO, Defendant, Appellant.\nNo. 17-1506\nUnited States Court of Appeals, First Circuit.\nDecember 4, 2018\nSteven A. Feldman and Feldman and Feldman on brief for appellant.\nJohn J. Farley, Acting United States Attorney, and Seth R. Aframe, Assistant United States Attorney, on brief for appellee.\nBefore Thompson, Boudin, and Kayatta, Circuit Judges."
+  },
+  "file_name": "0001-01",
+  "first_page_order": 1,
+  "last_page_order": 4
+}

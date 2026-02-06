@@ -1,0 +1,59 @@
+{
+  "id": 12214990,
+  "name": "Puche et al. v. United States",
+  "name_abbreviation": "Puche v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-200",
+  "first_page": "884",
+  "last_page": "884",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 884"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 78,
+    "ocr_confidence": 0.711,
+    "sha256": "1bad4e383c1372b64b7cd740c474849e8a4a8bb33e9dc26793dc963a68b44fda",
+    "simhash": "1:1d7bcf032f8f1c2e",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Puche et al. v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-200.\nPuche et al. v. United States."
+  },
+  "file_name": "0884-08",
+  "first_page_order": 966,
+  "last_page_order": 966
+}

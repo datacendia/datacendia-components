@@ -1,0 +1,59 @@
+{
+  "id": 5946355,
+  "name": "Wells v. Washington",
+  "name_abbreviation": "Wells v. Washington",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5616",
+  "first_page": "931",
+  "last_page": "931",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 931"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 68,
+    "ocr_confidence": 0.686,
+    "sha256": "2a08bc5367bc1ad08c175ab5fadb7008a8180b22b2d72bb6b6e7a2eb83eb546b",
+    "simhash": "1:09aa6605092cfa8b",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wells v. Washington."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Wash. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5616.\nWells v. Washington."
+  },
+  "file_name": "0931-14",
+  "first_page_order": 953,
+  "last_page_order": 953
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5929531,
+  "name": "Martinez-Carmona v. United States",
+  "name_abbreviation": "Martinez-Carmona v. United States",
+  "decision_date": "2011-05-16",
+  "docket_number": "No. 10-9950",
+  "first_page": "999",
+  "last_page": "999",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 999"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 82,
+    "ocr_confidence": 0.646,
+    "sha256": "f83e9502453765d53112517704aeafffa1837fda806e1e75c41a79a2615c9064",
+    "simhash": "1:143bc409218d8078",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Martinez-Carmona v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9950.\nMartinez-Carmona v. United States."
+  },
+  "file_name": "0999-10",
+  "first_page_order": 1025,
+  "last_page_order": 1025
+}

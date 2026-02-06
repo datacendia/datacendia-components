@@ -1,0 +1,763 @@
+{
+  "id": 6050588,
+  "name": "THE PEOPLE, Plaintiff and Respondent, v. RAFAEL CEJA, Defendant and Appellant",
+  "name_abbreviation": "People v. Ceja",
+  "decision_date": "2010-05-17",
+  "docket_number": "No. S157932",
+  "first_page": "1",
+  "last_page": "11",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "49 Cal. 4th 1"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal.",
+    "id": 9021,
+    "name": "Supreme Court of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "111 P.3d 310",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 Cal.Rptr.3d 335",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.4th 866",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        873198
+      ],
+      "pin_cites": [
+        {
+          "page": "882"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/35/0866-01"
+      ]
+    },
+    {
+      "cite": "97 Cal.Rptr. 372",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 2005,
+      "opinion_index": 0
+    },
+    {
+      "cite": "19 Cal.App.3d 1034",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4403806
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "1037"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/19/1034-01"
+      ]
+    },
+    {
+      "cite": "115 Cal.Rptr. 405",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1976,
+      "opinion_index": 0
+    },
+    {
+      "cite": "40 Cal.App.3d 795",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4411776
+      ],
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "800-801"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/40/0795-01"
+      ]
+    },
+    {
+      "cite": "69 Cal.Rptr. 553",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1974,
+      "opinion_index": 0
+    },
+    {
+      "cite": "263 Cal.App.2d 211",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2225797
+      ],
+      "year": 1974,
+      "pin_cites": [
+        {
+          "page": "214"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/263/0211-01"
+      ]
+    },
+    {
+      "cite": "365 U.S. 551",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6167656
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/365/0551-01"
+      ]
+    },
+    {
+      "cite": "40 P.2d 870",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "4 Cal.App.2d 214",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2259819
+      ],
+      "pin_cites": [
+        {
+          "page": "219"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/4/0214-01"
+      ]
+    },
+    {
+      "cite": "144 Cal.Rptr. 199",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1935,
+      "opinion_index": 0
+    },
+    {
+      "cite": "78 Cal.App.3d 533",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2013732
+      ],
+      "year": 1935,
+      "pin_cites": [
+        {
+          "page": "539"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/78/0533-01"
+      ]
+    },
+    {
+      "cite": "267 Cal.Rptr. 66",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1978,
+      "opinion_index": 0
+    },
+    {
+      "cite": "218 Cal.App.3d 575",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4423809
+      ],
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "586"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/218/0575-01"
+      ]
+    },
+    {
+      "cite": "83 Cal.Rptr.3d 428",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1990,
+      "opinion_index": 0
+    },
+    {
+      "cite": "166 Cal.App.4th 1292",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3945743
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "1300"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/166/1292-01"
+      ]
+    },
+    {
+      "cite": "150 P.3d 1224",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2008,
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 Cal.Rptr.3d 245",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2008,
+      "opinion_index": 0
+    },
+    {
+      "cite": "40 Cal.4th 483",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3159218
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "522"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/40/0483-01"
+      ]
+    },
+    {
+      "cite": "424 U.S. 544",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12026899
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "550"
+        },
+        {
+          "page": "549"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/424/0544-01"
+      ]
+    },
+    {
+      "cite": "203 P.3d 425",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "91 Cal.Rptr.3d 106",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Cal.4th 1172",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3892652
+      ],
+      "pin_cites": [
+        {
+          "page": "1184"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/45/1172-01"
+      ]
+    },
+    {
+      "cite": "940 P.2d 323",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 2009,
+      "opinion_index": 0
+    },
+    {
+      "cite": "65 Cal.Rptr.2d 872",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 2009,
+      "opinion_index": 0
+    },
+    {
+      "cite": "16 Cal.4th 284",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1217915
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "297"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/16/0284-01"
+      ]
+    },
+    {
+      "cite": "169 Cal.Rptr. 245",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "111 Cal.App.3d 630",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        6042517
+      ],
+      "pin_cites": [
+        {
+          "page": "640"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/111/0630-01"
+      ]
+    },
+    {
+      "cite": "271 Cal.Rptr. 771",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "222 Cal.App.3d 523",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4385668
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/222/0523-01"
+      ]
+    },
+    {
+      "cite": "59 P.3d 738",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "128 Cal.Rptr.2d 407",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 Cal.4th 720",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        777251
+      ],
+      "pin_cites": [
+        {
+          "page": "722-723"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/29/0720-01"
+      ]
+    },
+    {
+      "cite": "960 P.2d 1073",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "77 Cal.Rptr.2d 848",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "19 Cal.4th 108",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1709353
+      ],
+      "pin_cites": [
+        {
+          "page": "134"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/19/0108-01"
+      ]
+    },
+    {
+      "cite": "117 Cal.Rptr. 905",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1998,
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 Cal.App.3d 697",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4428913
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "707"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/43/0697-01"
+      ]
+    },
+    {
+      "cite": "44 Cal.Rptr.2d 842",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 Cal.App.4th 86",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4898373
+      ],
+      "pin_cites": [
+        {
+          "page": "93"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/38/0086-01"
+      ]
+    },
+    {
+      "cite": "67 Cal.Rptr.3d 600",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "156 Cal.App.4th 719",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4057855
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "723"
+        },
+        {
+          "page": "726"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/156/0719-01"
+      ]
+    },
+    {
+      "cite": "548 P.2d 706",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "129 Cal.Rptr. 306",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "16 Cal.3d 752",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2295089
+      ],
+      "pin_cites": [
+        {
+          "page": "759"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/16/0752-01"
+      ]
+    },
+    {
+      "cite": "229 Cal.Rptr. 445",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "185 Cal.App.3d 197",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2183838
+      ],
+      "pin_cites": [
+        {
+          "page": "204"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/185/0197-01"
+      ]
+    },
+    {
+      "cite": "205 Cal.Rptr. 614",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "159 Cal.App.3d 466",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2162028
+      ],
+      "pin_cites": [
+        {
+          "page": "469"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/159/0466-01"
+      ]
+    },
+    {
+      "cite": "161 P.3d 187",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "61 Cal.Rptr.3d 677",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "41 Cal.4th 685",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3819247
+      ],
+      "pin_cites": [
+        {
+          "page": "701"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/41/0685-01"
+      ]
+    },
+    {
+      "cite": "821 P.2d 610",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "3 Cal.Rptr.2d 106",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "1 Cal.4th 324",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1201305
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "464"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/1/0324-01"
+      ]
+    },
+    {
+      "cite": "984 P.2d 486",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "89 Cal.Rptr.2d 279",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 Cal.4th 846",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        884902
+      ],
+      "pin_cites": [
+        {
+          "page": "857"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/21/0846-01"
+      ]
+    },
+    {
+      "cite": "463 P.2d 763",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "83 Cal.Rptr. 411",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "1 Cal.3d 755",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1183260
+      ],
+      "pin_cites": [
+        {
+          "page": "763"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/1/0755-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1020,
+    "char_count": 22422,
+    "ocr_confidence": 0.915,
+    "pagerank": {
+      "raw": 1.8840697238260177e-07,
+      "percentile": 0.7280727563653325
+    },
+    "sha256": "b3d69b477f1a99e9f30d5cbd651317aefefe808c4de091de879e552a4c39eb8a",
+    "simhash": "1:b63ec10357e41f76",
+    "word_count": 3605
+  },
+  "last_updated": "2024-02-27T22:03:05.071485+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE, Plaintiff and Respondent, v. RAFAEL CEJA, Defendant and Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nCORRIGAN, J.\nThe Penal Code specifies that a defendant may not be convicted of stealing and receiving the same property. (Pen. Code, \u00a7 496, subd. (a).) In this case, the trial court failed to instruct on this point, and the jury convicted defendant of both petty theft and receiving the property he had stolen. A divided Court of Appeal reversed the petty theft conviction. The majority reasoned that the \u201cgreater\u201d felony offense of receiving stolen property took precedence over the \u201clesser\u201d misdemeanor theft offense.\nSection 496(a) itself is inconclusive as to which conviction should stand when a defendant is erroneously convicted of theft and receiving stolen property. However, the rule against dual convictions, which was in effect long before its codification in 1992, is based on the premise that a theft conviction operates as a bar to a receiving conviction. California courts have consistently reversed the conviction on the receiving charge in cases of improper dual convictions. Because the Legislature gave no indication it meant to change this established practice, we conclude that it continues to apply under section 496(a). Accordingly, we reverse the judgment of the Court of Appeal.\nI. BACKGROUND\nThe facts are undisputed, and we accept the Court of Appeal\u2019s summary. Around 3:30 a.m. on June 18, 2006, a La Mesa police officer responded to a report of suspicious behavior in an apartment complex parking lot. He saw two men matching the suspects\u2019 descriptions. Defendant was carrying a speaker box, which he dropped as he ran away. He was found hiding under a pickup truck. The speaker box had been removed from a nearby vehicle.\nAfter a jury trial, defendant was convicted of misdemeanor petty theft and felony receipt of stolen property. The court sentenced defendant to two years in prison on the receiving count, with an additional year for a prior conviction. It stayed a 180-day jail term on the theft conviction. As noted above, the Court of Appeal reversed the theft conviction and allowed the receiving conviction to stand. The majority acknowledged that theft is not a necessarily included offense of receiving stolen property, but relied by analogy on the rule that when a defendant is convicted of both a greater and a lesser included offense, sentence is imposed on the greater offense. (People v. Moran (1970) 1 Cal.3d 755, 763 [83 Cal.Rptr. 411, 463 P.2d 763].) The dissenting justice reasoned that the common law origins of the rule against convictions for stealing and receiving the same property establish that once a defendant has been convicted of theft, there is no basis for a receiving conviction. The dissent has the better argument.\nn. DISCUSSION\nIn 1992, the Legislature amended the statutory definition of receiving stolen property to add this declaration: \u201cA principal in the actual theft of the property may be convicted pursuant to this section. However, no person may be convicted both pursuant to this section and of the theft of the same property.\u201d (\u00a7 496(a), as amended by Stats. 1992, ch. 1146, \u00a7 1, p. 5374; see People v. Allen (1999) 21 Cal.4th 846, 857 [89 Cal.Rptr.2d 279, 984 P.2d 486] {Allen).) The rule against dual convictions was originally a creature of the common law, founded on the notion that it is \u201clogically impossible for a thief who has stolen an item of property to buy or receive that property from himself.\u201d (Allen, at p. 854.)\nIn the case law, the rule had sometimes been applied narrowly, to prohibit only convictions of the two offenses, and sometimes more broadly, to preclude a conviction of receiving stolen property when there was evidence implicating the defendant in the theft. (Allen, supra, 21 Cal.4th at p. 853.) The broader application led to a number of problems, and was largely abandoned by the time the Legislature addressed the rule. (Allen, at pp. 853-857; see People v. Price (1991) 1 Cal.4th 324, 464 [3 Cal.Rptr.2d 106, 821 P.2d 610] [receiving conviction is proper \u201ceven though the evidence also strongly suggests that it was the defendant who stole the property\u201d].) The 1992 amendment of section 496(a) effectively abrogated the broad form of the common law rule, and adopted the narrow form barring only dual convictions. (Allen, at p. 857.)\nThe statute is silent on the question before us: when a defendant has been improperly convicted of stealing and receiving the same property, what is the appropriate remedy? On its face, section 496(a) is neutral as to which of the convictions should survive. Either is permissible, so long as the other is not allowed to stand. The Attorney General contends that because the Legislature indicated no preference for one conviction over the other, the Court of Appeal majority was properly guided by the general policy of holding defendants liable for the greatest offense they commit. Like the majority below, the Attorney General refers to the rule that conviction of a greater offense subsumes a necessarily included lesser offense, a principle we reaffirmed in People v. Medina (2007) 41 Cal.4th 685, 701 [61 Cal.Rptr.3d 677, 161 P.3d 187] (Medina). The Attorney General also points to section 654, which provides: \u201cAn act or omission that is punishable in different ways by different provisions of law shall be punished under the provision that provides for the longest potential term of imprisonment, but in no case shall the act or omission be punished under more than one provision.\u201d\nThe Attorney General\u2019s arguments are superficially appealing, but do not withstand close examination. The rule against multiple convictions of greater and lesser included offenses is based on considerations quite distinct from those supporting the rule against dual convictions of theft and receiving stolen property. The history of the rule now found in section 496(a) shows that the theft conviction has taken precedence, regardless of which offense carries the greater penalty. Section 654 requires no different result. It does not bar multiple convictions, but applies only to sentencing. Although section 654\u2019s proscription against multiple punishment was in some cases confused with the rule against convictions for stealing and receiving the same property, decisions of this court have rejected the attempt to conflate the two doctrines.\nWe first address the analogy to greater and lesser included offenses, which the Court of Appeal majority found persuasive. Convictions of a greater and a lesser included offense are barred because the defendant cannot commit the greater offense without also committing the lesser. Conviction on both counts would effectively permit two convictions for the lesser offense. (Medina, supra, 41 Cal.4th at p. 702.) As the court below recognized, theft is not a lesser included offense of receiving stolen property. (In re Greg F. (1984) 159 Cal.App.3d 466, 469 [205 Cal.Rptr. 614].) What the court failed to note is that the rationale of the rule against dual convictions of theft and receiving has nothing to do with double punishment. Rather, it evolved from the premise that \u201ca thief cannot receive from himself.\u201d (People v. Stewart (1986) 185 Cal.App.3d 197, 204 [229 Cal.Rptr. 445] (Stewart); see Allen, supra, 21 Cal.4th at p. 854.) By this logic, commission of the theft excludes the possibility of a receiving conviction. (Allen, at p. 851; People v. Jaramillo (1976) 16 Cal.3d 752, 759 [129 Cal.Rptr. 306, 548 P.2d 706] (Jaramillo); Stewart, at p. 206.)\nThe narrow form of the common law rule now found in section 496(a) permits a \u201cthief in fact\u201d to be convicted of receiving the stolen property, so long as he or she is not also convicted of the theft. However, this bar against dual convictions includes no consideration of which offense is \u201cgreater\u201d or \u201clesser.\u201d As the Stewart court explained: \u201c[T]heft or theft-related offenses and receiving stolen property are not mutually exclusive offenses; it is the theft or theft-related offense which has the preclusive effect. Thus, if the defendant is found to be the thief he cannot be convicted of receiving the same property, and where he is so convicted it is the receiving conviction which is improper. For this reason it is always the receiving conviction which cannot stand, regardless whether it is the lesser or the greater offense.\u201d (Stewart, supra, 185 Cal.App.3d at p. 209, italics added.)\nThe Attorney General contends Stewart is inapposite because it applied the broad form of the common law rule, which permitted evidence of theft to operate as a bar against a receiving conviction. Not so. Stewart involved improper dual convictions, not merely evidence of theft, and its analysis accurately describes the common law rationale for upholding the theft conviction. Although that rationale grew from the idea that an actual thief could not be convicted of receiving, the same reasoning has guided the courts in determining which of the two convictions takes precedence, even after codification of the narrow form of the common law rule. (See, e.g., People v. Redo (2007) 156 Cal.App.4th 719, 723 [67 Cal.Rptr.3d 600] (Redo); People v. DeRouen (1995) 38 Cal.App.4th 86, 93 [44 Cal.Rptr.2d 842].)\nThe Attorney General argues that permitting the court to impose the longest available sentence for theft or receiving would serve the same policies as the rule governing greater and lesser included offenses: providing the jury with \u201ca choice from the full range of crimes established by the evidence\u201d and \u201cassuring] that the defendant is convicted of the greatest crime a jury believes he committed.\u201d The Attorney General reasons that a different rule would discourage prosecutors from charging theft and receiving in the alternative, and instead motivate them to charge only the most serious offense. However, it is section 496(a) itself that limits the jury\u2019s choice to a single conviction. And whether theft or receiving is the \u201cgreater\u201d or \u201clesser\u201d crime is a matter that the Legislature has generally committed to the discretion of the prosecutor. Receiving stolen property may ordinarily be charged either as a misdemeanor or a felony, at the prosecutor\u2019s election. In any case, the prosecutor has the discretion to decide which offenses to charge. The courts do not generally supervise these \u201cpurely prosecutorial function[s].\u201d (People v. Adams (1974) 43 Cal.App.3d 697, 707 [117 Cal.Rptr. 905]; see People v. Birks (1998) 19 Cal.4th 108, 134 [77 Cal.Rptr.2d 848, 960 P.2d 1073].)\nTo find additional support for a rule favoring whichever conviction carries the greater punishment, the Attorney General turns to the provision of section 654 calling for imposition of the longest potential sentence when an act or omission is punishable in different ways. Again, however, the analogy is faulty and the case law contrary. Section 654 presumes multiple convictions but precludes multiple punishment. Section 496(a), on the other hand, precludes multiple convictions, making multiple punishment impossible. The provision of section 654 requiring the longest available term of imprisonment was added by the Legislature in response to a judicial decision permitting trial courts to choose a lesser sentence. (See People v. Kramer (2002) 29 Cal.4th 720, 722-723 [128 Cal.Rptr.2d 407, 59 P.3d 738]; Stats. 1997, ch. 410, \u00a7 1, p. 2753.) The amendment was intended to require punishment commensurate with culpability, and avoid the anomaly of a lesser sentence being imposed because the defendant had been convicted of two crimes instead of one. (Kramer, at pp. 723-724.)\nThe Attorney General asserts that it is similarly anomalous to allow a defendant to escape liability for a felony offense of receiving stolen property simply because he was also convicted of a misdemeanor petty theft. But that scenario of dual convictions is prohibited by section 496(a). Unlike section 654, section 496(a) does not contemplate a choice of sentences. The statutory proscription against convictions for stealing and receiving the same property was driven not by sentencing concerns, but by practical problems with the prosecution of receiving offenses. (See Allen, supra, 21 Cal.4th at pp. 853-858.) Furthermore, the Legislature was aware of the common law rule that a theft conviction precludes a further conviction for receiving the stolen property.\nThe Attorney General relies on People v. Black (1990) 222 Cal.App.3d 523 [271 Cal.Rptr. 771], in which the defendant was convicted of stealing and receiving the same truck. The court stated: \u201c[F]or the sake of judicial economy reviewing courts faced with the problem raised here have reversed the conviction of a lesser offense and let the conviction of the greater offense stand. (E.g., People v. Lawrence (1980) 111 Cal.App.3d 630, 640 [169 Cal.Rptr. 245].)\u201d {Black, at p. 525.) However, the only authority for this dictum was based on the erroneous notion that \u201c[t]he rule against twin-convictions announced in Jaramillo, supra, is based upon Penal Code section 654.\u201d {Lawrence, at p. 640.)\nTo the contrary, \u201cwe clarified in Jaramillo . . . that the common law rule at issue here is wholly distinct from the double punishment prohibition\u201d of section 654. (Allen, supra, 21 Cal.4th at p. 855, fn. 6.) Jaramillo held that the trial court erred in an apparent attempt to comply with section 654 by staying sentence on a Vehicle Code section 10851 conviction, which could have been based either on vehicle theft or mere driving, and sentencing the defendant on the \u201cgreater\u201d conviction of receiving stolen property. (Jaramillo, supra, 16 Cal.3d at p. 757.) \u201cThis treatment overlooks . . . the basic problem of whether defendant may properly be convicted of both charges, it being a fundamental principle that one may not be convicted of stealing and of receiving the same property. [Citations.]\u201d (Ibid.) The same error occurred in this case. After defendant was improperly convicted on both charges, the trial court stayed sentence on the lesser offense in an attempt to comply with section 654.\nThe Court of Appeal here broke new ground when it reversed defendant\u2019s theft conviction in order to preserve a longer sentence on the receiving conviction. The predominant practice in California courts, both before and after codification of the common law rule, has been to reverse the receiving conviction and allow the theft conviction to stand, without regard to penalty, often without discussion, and sometimes on the People\u2019s stipulation. This practice was well established when section 496(a) was amended in 1992, and the Legislature gave no indication that a change was intended.\n\u201cAs a general rule, \u2018[u]nless expressly provided, statutes should not be interpreted to alter the common law, and should be construed to avoid conflict with common law rules. [Citation.] \u201cA statute will be construed in light of common law decisions, unless its language \u2018 \u201cclearly and unequivocally discloses an intention to depart from, alter, or abrogate the common-law rule concerning the particular subject matter . . . .\u201d [Citations.]\u2019 [Citation.]\u201d \u2019 [Citation.] Accordingly, \u2018[t]here is a presumption that a statute does not, by implication, repeal the common law. [Citation.] Repeal by implication is recognized only where there is no rational basis for harmonizing two potentially conflicting laws.\u2019 [Citation.]\u201d (California Assn, of Health Facilities v. Department of Health Services (1997) 16 Cal.4th 284, 297 [65 Cal.Rptr.2d 872, 940 P.2d 323]; see also, e.g., People v. Chun (2009) 45 Cal.4th 1172, 1184 [91 Cal.Rptr.3d 106, 203 P.3d 425]; People v. Jackson, supra, 78 Cal.App.3d at p. 539.)\nMaintaining the practice of reversing a receiving stolen property conviction when the defendant is also convicted of stealing the property harmonizes the terms of section 496(a) with the common law origins of the rule against dual convictions.\nDefendant notes that the Redo court stated; \u201cWhere a defendant is charged with stealing and receiving the same property, the court should instruct the jury to determine the defendant\u2019s guilt on the theft count first, and if it finds the defendant guilty of the theft, to return the receiving verdict unsigned.\u201d (Redo, supra, 156 Cal.App.4th at p. 726; see also Stewart, supra, 185 Cal.App.3d at p. 207, fn. 6.) This is the prescribed practice in the federal courts. (United States v. Gaddis, supra, 424 U.S. 544, 550.) As defendant correctly observes, the instructional issue is not before us in this case. However, we briefly address it to provide guidance to the trial courts.\nWe agree with the Redo and Stewart courts that juries should be instructed to reach a verdict on the theft charge first when the defendant is also charged with receiving the stolen property. A guilty verdict on the theft charge makes it unnecessary to consider the receiving charge. This practice is consistent with our analysis in this case, promotes efficiency in the jury\u2019s deliberations, and will ensure that the statutory ban against dual convictions is applied.\nHI. DISPOSITION\nWe reverse the judgment of the Court of Appeal.\nGeorge, C. J., Kennard, J., Baxter, J., Werdegar, J., Chin, J., and Moreno, J., concurred.\nFurther unspecified statutory references are to the Penal Code. Hereafter, section 496, subdivision (a) is referred to as section 496(a).\nCalifornia Rules of Court, rule 8.500(c)(2).\nThere was no evidence of the speaker box\u2019s value. The court dismissed charges of unlawful taking and receiving a stolen vehicle, due to lack of evidence that defendant ever had possession of the vehicle from which the box was taken. A burglary charge was also dismissed, because the vehicle was unlocked.\nAmong other complications, defendants found room to argue that a conviction for receiving stolen property required proof that they did not commit the theft. {Allen, supra, 21 Cal.4th at p. 853.)\nExceptions were recognized when there was \u201ccomplete divorcement between the theft and a subsequent receiving ... in a transaction separate from the original theft,\u201d and in cases of conspiracy between thief and receiver. (Jaramillo, supra, 16 Cal.3d at p. 759, fn. 8.)\nSection 496(a); but see section 496d. Similarly, most grand thefts are \u201cwobblers.\u201d (\u00a7 489.) We note that when theft and receiving offenses are both felonies, the punishment is the same. The issue of which is \u201cgreater\u201d assumes practical significance only when, as here, the prosecutor decides to charge one offense as a misdemeanor and the other as a felony.\nA legislative committee analysis of the 1992 amendment to section 496(a) discusses and agrees with the holding in People v. Price, supra, 1 Cal.4th 324, then notes: \u201cthe bill permits a person who steals property to be convicted of receiving or concealing the same property only in those cases where there is no conviction for the theft of the property.\u201d (Assem. Com. on Public Safety, Analysis of Assem. Bill No. 3326 (1991-1992 Reg. Sess.) for hearing Mar. 24, 1992, p. 2, italics added.)\nThe legislative history reflects a preoccupation with making sure that a prosecution for receiving stolen property can be pursued after the statute of limitations for theft has expired. In Allen, we held that section 496(a) is not limited to that circumstance, but also permits prosecutions for either offense within the period of the statute of limitations for theft. (Allen, supra, 21 Cal.4th at pp. 860-861.)\nIn both Black and Lawrence, the receiving conviction carried the lesser penalty, and the theft conviction was allowed to stand. (People v. Black, supra, 222 Cal.App.3d at p. 525; People v. Lawrence, supra, 111 Cal.App.3d at p. 640.)\nE.g., People v. Smith (2007) 40 Cal.4th 483, 522 [54 Cal.Rptr.3d 245, 150 P.3d 1224]; People v. Love (2008) 166 Cal.App.4th 1292, 1300 [83 Cal.Rptr.3d 428]; Recio, supra, 156 Cal.App.4th 719, 726; People v. DeRouen, supra, 38 Cal.App.4th at page 93; People v. Stephens (1990) 218 Cal.App.3d 575, 586 [267 Cal.Rptr. 66]; Stewart, supra, 185 Cal.App.3d at page 209; People v. Jackson (1978) 78 Cal.App.3d 533, 539 [144 Cal.Rptr. 199]; People v. Taylor (1935) 4 Cal.App.2d 214, 219 [40 P.2d 870]. The opinions in a number of the older Court of Appeal cases were disapproved in Allen, supra, 21 Cal.4th at page 866, to the extent they held that a burglary conviction bars conviction of receiving stolen property. Burglary does not require a theft. However, the courts\u2019 rulings on the remedial issue before us are unaffected by the disapproval in Allen.\nFor a time some courts, following Milanovich v. United States (1961) 365 U.S. 551 [5 L.Ed.2d 773, 81 S.Ct. 728], held that both convictions were subject to reversal. (E.g., People v. Morales (1968) 263 Cal.App.2d 211, 214 [69 Cal.Rptr. 553]; but see, e.g., People v. Perez (1974) 40 Cal.App.3d 795, 800-801 [115 Cal.Rptr. 405].) However, in United States v. Gaddis (1976) 424 U.S. 544, 549 [47 L.Ed.2d 222, 96 S.Ct. 1023], the United States Supreme Court distinguished Milanovich and held that a theft conviction supported by substantial evidence may be affirmed and the receiving conviction reversed. (See Jaramillo, supra, 16 Cal.3d at p. 760, fn. 11.)\nIn cases where there was a question whether the theft conviction was actually based on theft, as opposed to merely driving a vehicle, courts sometimes reversed both convictions, gave the People the option of retrying the defendant on both charges, and specified that otherwise the theft/driving conviction was to be reinstated. (Jaramillo, supra, 16 Cal.3d at p. 760; People v. Briggs (1971) 19 Cal.App.3d 1034, 1037 [97 Cal.Rptr. 372].) In People v. Garza (2005) 35 Cal.4th 866, 882 [28 Cal.Rptr.3d 335, 111 P.3d 310], we reached a different disposition on facts similar to those of Jaramillo, reasoning that Jaramillo\u2019s harmless error analysis \u201cmay have been influenced by the then-prevailing uncertainty about the scope of the common law prohibition.\u201d However, nothing in Garza casts doubt on Jaramillo's reasoning as to which of the improper convictions would be allowed to stand.",
+        "type": "majority",
+        "author": "CORRIGAN, J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Richard De La Sota, under appointment by the Supreme Court, for Defendant and Appellant.",
+      "Edmund G. Brown, Jr., Attorney General, Dane R. Gillette, Chief Assistant Attorney General, Gary W. Schons, Assistant Attorney General, Lynne McGinnis, Teresa Torreblanca, Barry Carlton and Donald W. Ostertag, Deputy Attorneys General, for Plaintiff and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. S157932.\nMay 17, 2010.]\nTHE PEOPLE, Plaintiff and Respondent, v. RAFAEL CEJA, Defendant and Appellant.\nCounsel\nRichard De La Sota, under appointment by the Supreme Court, for Defendant and Appellant.\nEdmund G. Brown, Jr., Attorney General, Dane R. Gillette, Chief Assistant Attorney General, Gary W. Schons, Assistant Attorney General, Lynne McGinnis, Teresa Torreblanca, Barry Carlton and Donald W. Ostertag, Deputy Attorneys General, for Plaintiff and Respondent."
+  },
+  "file_name": "0001-01",
+  "first_page_order": 37,
+  "last_page_order": 47
+}

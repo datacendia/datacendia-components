@@ -1,0 +1,59 @@
+{
+  "id": 5958224,
+  "name": "Bush v. Florida",
+  "name_abbreviation": "Bush v. Florida",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7749",
+  "first_page": "1160",
+  "last_page": "1160",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1160"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 79,
+    "ocr_confidence": 0.584,
+    "sha256": "bd05918d8630c96f6987f6ca4a81f9f97386d3adf3150a6480a774059a23b67f",
+    "simhash": "1:f16925025e464a1b",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bush v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 2d Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7749.\nBush v. Florida."
+  },
+  "file_name": "1160-10",
+  "first_page_order": 1182,
+  "last_page_order": 1182
+}

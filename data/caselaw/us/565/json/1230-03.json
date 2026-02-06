@@ -1,0 +1,61 @@
+{
+  "id": 12249111,
+  "name": "Barnett v. United States",
+  "name_abbreviation": "Barnett v. United States",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-8238",
+  "first_page": "1230",
+  "last_page": "1230",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1230"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 151,
+    "ocr_confidence": 0.666,
+    "sha256": "3707ad7e9058250e71e9c980ff1ee38b483077249ffb1ae0bb1e7a0d40ed5784",
+    "simhash": "1:8d93eb826f2e18ca",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Barnett v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8238.\nBarnett v. United States."
+  },
+  "file_name": "1230-03",
+  "first_page_order": 1312,
+  "last_page_order": 1312
+}

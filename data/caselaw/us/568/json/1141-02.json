@@ -1,0 +1,82 @@
+{
+  "id": 12429904,
+  "name": "Wattleton v. United States District Court for the Northern District of Georgia",
+  "name_abbreviation": "Wattleton v. United States District Court for the Northern District of Georgia",
+  "decision_date": "2013-01-22",
+  "docket_number": "No. 12-7476",
+  "first_page": "1141",
+  "last_page": "1141",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1141"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "506 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11924825
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/506/0001-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 72,
+    "char_count": 588,
+    "ocr_confidence": 0.613,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2562774895370348
+    },
+    "sha256": "a448dbf9a8a5fc85e0f1c7836e2343a96c11d3102904098c7816e7309540b57a",
+    "simhash": "1:652a9f0e052cd61e",
+    "word_count": 97
+  },
+  "last_updated": "2024-02-27T23:44:49.194693+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wattleton v. United States District Court for the Northern District of Georgia."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Motion of petitioner for leave to proceed in forma pauperis denied, and certiorari dismissed. See this Court\u2019s Rule 39.8. As petitioner has repeatedly abused this Court\u2019s process, the Clerk is directed not to accept any further petitions in noncriminal matters from petitioner unless the docketing fee required by Rule 38(a) is paid and the petition is submitted in compliance with Rule 33.1. See Martin v. District of Columbia Court of Appeals, 506 U. S. 1 (1992) (per curiam).",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7476.\nWattleton v. United States District Court for the Northern District of Georgia."
+  },
+  "file_name": "1141-02",
+  "first_page_order": 1217,
+  "last_page_order": 1217
+}

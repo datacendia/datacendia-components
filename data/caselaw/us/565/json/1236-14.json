@@ -1,0 +1,59 @@
+{
+  "id": 12249419,
+  "name": "Virgil v. California",
+  "name_abbreviation": "Virgil v. California",
+  "decision_date": "2012-02-27",
+  "docket_number": "No. 11-7589",
+  "first_page": "1236",
+  "last_page": "1236",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1236"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 69,
+    "ocr_confidence": 0.646,
+    "sha256": "2c6004983753b851ae8a0842ae336009f26a34438459b471c4752b955e4c4266",
+    "simhash": "1:9a0f1966004a10aa",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Virgil v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Cal. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7589.\nVirgil v. California."
+  },
+  "file_name": "1236-14",
+  "first_page_order": 1318,
+  "last_page_order": 1318
+}

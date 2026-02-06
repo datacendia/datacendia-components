@@ -1,0 +1,59 @@
+{
+  "id": 12232870,
+  "name": "Rossi v. United States",
+  "name_abbreviation": "Rossi v. United States",
+  "decision_date": "2011-11-07",
+  "docket_number": "No. 11-6744",
+  "first_page": "1019",
+  "last_page": "1019",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1019"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.681,
+    "sha256": "b3abbcd099dcf1ac626b250237841fa960452d645ad303b2a8e761f30846d713",
+    "simhash": "1:a18ab29eced51958",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rossi v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6744.\nRossi v. United States."
+  },
+  "file_name": "1019-11",
+  "first_page_order": 1101,
+  "last_page_order": 1101
+}

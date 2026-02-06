@@ -1,0 +1,59 @@
+{
+  "id": 12202112,
+  "name": "Ayewoh v. United States",
+  "name_abbreviation": "Ayewoh v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10422",
+  "first_page": "836",
+  "last_page": "836",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 836"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.684,
+    "sha256": "3c34bb4ea3d339a84721135f7c6cfc03fad0e959348ef971d9c7ff17ad9838ca",
+    "simhash": "1:450b9e53efd51d68",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ayewoh v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10422.\nAyewoh v. United States."
+  },
+  "file_name": "0836-10",
+  "first_page_order": 918,
+  "last_page_order": 918
+}

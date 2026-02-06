@@ -1,0 +1,59 @@
+{
+  "id": 12251687,
+  "name": "Montgomery v. United States",
+  "name_abbreviation": "Montgomery v. United States",
+  "decision_date": "2012-03-19",
+  "docket_number": "No. 11-7377",
+  "first_page": "1263",
+  "last_page": "1263",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1263"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.631,
+    "sha256": "edb1b98a62717470f2e0ba5edddbec8b5bf4664b6035f98494140b427ba5a9bd",
+    "simhash": "1:87a9c68bc53d100e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Montgomery v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7377.\nMontgomery v. United States."
+  },
+  "file_name": "1263-05",
+  "first_page_order": 1345,
+  "last_page_order": 1345
+}

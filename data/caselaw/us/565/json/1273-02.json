@@ -1,0 +1,59 @@
+{
+  "id": 12252788,
+  "name": "Hayes v. United States",
+  "name_abbreviation": "Hayes v. United States",
+  "decision_date": "2012-03-19",
+  "docket_number": "No. 11-8816",
+  "first_page": "1273",
+  "last_page": "1273",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1273"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.669,
+    "sha256": "e5f41190cb5101aa3774449e7cf8ed52f4b9a0342c3fc0f2f78a2fd723baaa50",
+    "simhash": "1:21c2b8d3caa5915c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hayes v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8816.\nHayes v. United States."
+  },
+  "file_name": "1273-02",
+  "first_page_order": 1355,
+  "last_page_order": 1355
+}

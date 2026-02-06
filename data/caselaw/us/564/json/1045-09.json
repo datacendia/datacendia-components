@@ -1,0 +1,59 @@
+{
+  "id": 4334615,
+  "name": "Acrey v. United States",
+  "name_abbreviation": "Acrey v. United States",
+  "decision_date": "2011-06-27",
+  "docket_number": "No. 10-10746",
+  "first_page": "1045",
+  "last_page": "1045",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1045"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.594,
+    "sha256": "14a3a8758419f1ae67c3dd2f383e2fe935befa5c1289b36852e2b94b8026a9d6",
+    "simhash": "1:85aadb820906bd6e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Acrey v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10746.\nAcrey v. United States."
+  },
+  "file_name": "1045-09",
+  "first_page_order": 1039,
+  "last_page_order": 1039
+}

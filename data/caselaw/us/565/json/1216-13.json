@@ -1,0 +1,59 @@
+{
+  "id": 12247577,
+  "name": "Jacobs v. Pennsylvania",
+  "name_abbreviation": "Jacobs v. Pennsylvania",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-8002",
+  "first_page": "1216",
+  "last_page": "1216",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1216"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 72,
+    "ocr_confidence": 0.677,
+    "sha256": "7f58a43703d3e43df4054afdf72f06591b09ba995f71c20a91339e4f173dffd8",
+    "simhash": "1:866a29c2b83e6254",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jacobs v. Pennsylvania."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. Pa. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8002.\nJacobs v. Pennsylvania."
+  },
+  "file_name": "1216-13",
+  "first_page_order": 1298,
+  "last_page_order": 1298
+}

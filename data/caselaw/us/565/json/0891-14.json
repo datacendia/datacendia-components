@@ -1,0 +1,59 @@
+{
+  "id": 12217110,
+  "name": "Partin v. Simpson, Warden",
+  "name_abbreviation": "Partin v. Simpson",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5138",
+  "first_page": "891",
+  "last_page": "891",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 891"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.662,
+    "sha256": "3613d289f5f3fff81efa4bbc8159247b1d7173797771b111992731b800cc4c1c",
+    "simhash": "1:b38d06d2885b1876",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Partin v. Simpson, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5138.\nPartin v. Simpson, Warden."
+  },
+  "file_name": "0891-14",
+  "first_page_order": 973,
+  "last_page_order": 973
+}

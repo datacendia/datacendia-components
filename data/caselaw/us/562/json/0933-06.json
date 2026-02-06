@@ -1,0 +1,59 @@
+{
+  "id": 5923428,
+  "name": "Potts v. McEwen, Warden",
+  "name_abbreviation": "Potts v. McEwen",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5646",
+  "first_page": "933",
+  "last_page": "933",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 933"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.592,
+    "sha256": "db3a98511f47c5a0b3a5a454cb68ae6af5a5b168c860f20b9fef2b365acf93ee",
+    "simhash": "1:15f161833db38356",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Potts v. McEwen, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5646.\nPotts v. McEwen, Warden."
+  },
+  "file_name": "0933-06",
+  "first_page_order": 955,
+  "last_page_order": 955
+}

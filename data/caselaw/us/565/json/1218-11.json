@@ -1,0 +1,59 @@
+{
+  "id": 12247789,
+  "name": "Blyden v. United States",
+  "name_abbreviation": "Blyden v. United States",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-8054",
+  "first_page": "1218",
+  "last_page": "1218",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1218"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.624,
+    "sha256": "4cb96bc5eb97bff996666050778dca7083ef354a0f57cbc0b14ff11cb6bacfb5",
+    "simhash": "1:0300dd8b2a951a0a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Blyden v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8054.\nBlyden v. United States."
+  },
+  "file_name": "1218-11",
+  "first_page_order": 1300,
+  "last_page_order": 1300
+}

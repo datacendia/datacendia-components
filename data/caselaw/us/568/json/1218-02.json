@@ -1,0 +1,59 @@
+{
+  "id": 12432723,
+  "name": "Whitman v. Berghuis, Warden",
+  "name_abbreviation": "Whitman v. Berghuis",
+  "decision_date": "2013-03-04",
+  "docket_number": "No. 12-8390",
+  "first_page": "1218",
+  "last_page": "1218",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1218"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.581,
+    "sha256": "3714d5a2401b7731b192e913fee831dc557d99e7a3df36636e7aba2a1b67579f",
+    "simhash": "1:bcab16e86e3f10a2",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Whitman v. Berghuis, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8390.\nWhitman v. Berghuis, Warden."
+  },
+  "file_name": "1218-02",
+  "first_page_order": 1294,
+  "last_page_order": 1294
+}

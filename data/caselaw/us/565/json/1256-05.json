@@ -1,0 +1,59 @@
+{
+  "id": 12251154,
+  "name": "In re Disbarment of Mabry",
+  "name_abbreviation": "In re Disbarment of Mabry",
+  "decision_date": "2012-03-19",
+  "docket_number": "No. D-2605",
+  "first_page": "1256",
+  "last_page": "1256",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1256"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 106,
+    "ocr_confidence": 0.647,
+    "sha256": "3f63f139730fdb99bd874eb4e0bb07470ac237423cad99bd2a43315a27e9aa41",
+    "simhash": "1:38a88a02ead24087",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Mabry."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered. [For earlier order herein, see ante, p. 1052.]",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2605.\nIn re Disbarment of Mabry."
+  },
+  "file_name": "1256-05",
+  "first_page_order": 1338,
+  "last_page_order": 1338
+}

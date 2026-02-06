@@ -1,0 +1,59 @@
+{
+  "id": 12234249,
+  "name": "Ramirez-Garcia v. United States",
+  "name_abbreviation": "Ramirez-Garcia v. United States",
+  "decision_date": "2011-11-14",
+  "docket_number": "No. 11-6860",
+  "first_page": "1043",
+  "last_page": "1043",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1043"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 81,
+    "ocr_confidence": 0.68,
+    "sha256": "7f82b4639a3cf5306b9354db644a4ce579bbc664622ddf57f337a42eedcea96a",
+    "simhash": "1:072ac203278b9408",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ramirez-Garcia v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6860.\nRamirez-Garcia v. United States."
+  },
+  "file_name": "1043-06",
+  "first_page_order": 1125,
+  "last_page_order": 1125
+}

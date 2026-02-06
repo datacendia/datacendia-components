@@ -1,0 +1,59 @@
+{
+  "id": 12431038,
+  "name": "Sosa v. Louisiana",
+  "name_abbreviation": "Sosa v. Louisiana",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-7736",
+  "first_page": "1172",
+  "last_page": "1172",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1172"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 64,
+    "ocr_confidence": 0.686,
+    "sha256": "efac381c13f2dc4e4fc32265cb6d979533f54404a0a98ac3e04ff0143f642217",
+    "simhash": "1:31e306dd8967f112",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sosa v. Louisiana."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. La. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7736.\nSosa v. Louisiana."
+  },
+  "file_name": "1172-01",
+  "first_page_order": 1248,
+  "last_page_order": 1248
+}

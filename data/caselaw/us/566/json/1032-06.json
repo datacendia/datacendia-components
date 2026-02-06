@@ -1,0 +1,84 @@
+{
+  "id": 12224463,
+  "name": "Springer v. United States",
+  "name_abbreviation": "Springer v. United States",
+  "decision_date": "2012-06-04",
+  "docket_number": "No. 11-10134",
+  "first_page": "1032",
+  "last_page": "1033",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 1032"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "506 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11924825
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/506/0001-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 77,
+    "char_count": 630,
+    "ocr_confidence": 0.6,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.24764938033066794
+    },
+    "sha256": "bf1f934c11fae3d1d0d3244de0f76bed749e5cf2ca1719de399131f95c5f2a26",
+    "simhash": "1:ed22be8c0564dece",
+    "word_count": 105
+  },
+  "last_updated": "2024-02-27T23:45:15.365324+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this motion and this petition."
+    ],
+    "parties": [
+      "Springer v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Motion of petitioner for leave to proceed in forma pauperis denied, and certiorari dismissed. See this Court\u2019s Rule 39.8. As petitioner has repeatedly abused this Court's process, the Clerk is directed not to accept any further petitions in noncriminal matters from petitioner unless the docketing fee required by Rule 38(a) is paid and the petition is submitted in compliance with Rule 33.1. See Martin v. District of Columbia Court of Appeals, 506 U. S. 1 (1992) (per curiam).\nJustice Kagan took no part in the consideration or decision of this motion and this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10134.\nSpringer v. United States."
+  },
+  "file_name": "1032-06",
+  "first_page_order": 908,
+  "last_page_order": 909
+}

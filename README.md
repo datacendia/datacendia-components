@@ -7,6 +7,15 @@
 > 
 > Transform complex business decisions with AI-powered councils, multi-agent deliberation, and comprehensive audit trails.
 
+## ✨ What's New (January 28, 2026)
+
+- **Unified Docker Compose** — Single `docker-compose.unified.yml` with profiles for all services
+- **Defense & National Security Vertical** — DIU-ready with 24 agents, 35 council modes, FedRAMP High/CMMC/ITAR compliance
+- **Real-Time Deliberation Visualization** — Watch AI agents deliberate live with animated avatars
+- **Decision Replay Theater** — Watch past deliberations unfold like a movie
+- **Adversarial Red Team Mode** — "100 Ways This Could Fail" with 8 attack perspectives
+- **Regulator's Receipt Generator** — One-click court-admissible PDF with Merkle tree evidence
+
 ## 🚀 Quick Start
 
 ### Prerequisites
@@ -29,35 +38,56 @@ cd datacendia-components
 cp .env.example .env
 cp backend/.env.example backend/.env
 
-# Install all dependencies (uses npm workspaces)
+# Install all dependencies
 npm install
 
-# Start infrastructure (Postgres, Redis, Neo4j)
-npm run docker:dev
+# Start infrastructure with unified compose (RECOMMENDED)
+docker-compose -f docker-compose.unified.yml --profile core up -d
 
 # Run database migrations
-npm run db:migrate
+cd backend && npx prisma migrate deploy && cd ..
 
 # Seed demo data (optional)
 npm run db:seed
 
-# Start both frontend and backend
-npm run dev:all
-# Or start separately:
-npm run dev              # Frontend only - http://localhost:5173
-npm run dev:backend      # Backend only - http://localhost:3000
+# Start frontend and backend locally
+npm run dev              # Frontend - http://localhost:5173
+cd backend && npm run dev # Backend - http://localhost:3001
 ```
 
-### Using Docker (Full Stack)
+### Docker Compose Profiles
+
+| Profile | Services | RAM Required |
+|---------|----------|-------------|
+| `core` | PostgreSQL, Redis, Neo4j, Ollama | 8GB |
+| `sovereign` | + Druid, ClickHouse, MinIO, Keycloak, etc. | 32GB |
+| `observability` | + Prometheus, Grafana, Loki, Tempo | 48GB |
+| `security` | + Wazuh, Infisical, Step-CA | 64GB |
+| `full` | Everything | 64GB+ |
 
 ```bash
-# Build and start all services
-docker-compose -f docker-compose.production.yml up --build
+# Core only (minimal for development)
+docker-compose -f docker-compose.unified.yml --profile core up -d
 
-# Access the platform
-# Frontend: http://localhost
-# API: http://localhost:3000
+# Core + Sovereign services
+docker-compose -f docker-compose.unified.yml --profile core --profile sovereign up -d
+
+# Full stack
+docker-compose -f docker-compose.unified.yml up -d
 ```
+
+### Service URLs
+
+| Service | URL | Credentials |
+|---------|-----|-------------|
+| Frontend | http://localhost:5173 | See `.env` |
+| Backend API | http://localhost:3001 | - |
+| Neo4j Browser | http://localhost:7474 | See `.env` (`NEO4J_USER` / `NEO4J_PASSWORD`) |
+| MinIO Console | http://localhost:9001 | See `.env` (`MINIO_ROOT_USER` / `MINIO_ROOT_PASSWORD`) |
+| Grafana | http://localhost:3002 | See `.env` (`GRAFANA_USER` / `GRAFANA_PASSWORD`) |
+| Keycloak | http://localhost:8180 | See `.env` (`KEYCLOAK_ADMIN` / `KEYCLOAK_ADMIN_PASSWORD`) |
+
+> **Security:** Copy `.env.example` to `.env` and set strong, unique passwords before running. Never commit `.env` to version control.
 
 ## 📁 Project Structure
 
@@ -207,7 +237,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
 
 ## 📄 License
 
-**Proprietary** - Copyright © 2024-2025 Datacendia, Inc. All rights reserved.
+**Proprietary** - Copyright © 2024-2026 Datacendia, Inc. All rights reserved.
 
 This software is proprietary and confidential. Unauthorized copying, modification, distribution, or use of this software, via any medium, is strictly prohibited.
 

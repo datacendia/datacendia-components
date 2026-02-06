@@ -1,0 +1,59 @@
+{
+  "id": 12419717,
+  "name": "El Sayed v. United States",
+  "name_abbreviation": "El Sayed v. United States",
+  "decision_date": "2012-10-15",
+  "docket_number": "No. 12-6193",
+  "first_page": "968",
+  "last_page": "968",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 968"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 74,
+    "ocr_confidence": 0.628,
+    "sha256": "126170bf465bf58e8d69db1e8759ae0b1a8c50de24f0e551a80dbf9d489245bf",
+    "simhash": "1:872ae2026e1f0842",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "El Sayed v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6193.\nEl Sayed v. United States."
+  },
+  "file_name": "0968-07",
+  "first_page_order": 1044,
+  "last_page_order": 1044
+}

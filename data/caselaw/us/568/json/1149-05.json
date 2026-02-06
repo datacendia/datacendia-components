@@ -1,0 +1,59 @@
+{
+  "id": 12430220,
+  "name": "Massie v. United States",
+  "name_abbreviation": "Massie v. United States",
+  "decision_date": "2013-01-22",
+  "docket_number": "No. 12-7813",
+  "first_page": "1149",
+  "last_page": "1149",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1149"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.652,
+    "sha256": "6e0e67d6bd83c7c584ebf6c936c1eaf99c13971f77b5d32b60b64b2d4c70a256",
+    "simhash": "1:01aa985bcaa59138",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Massie v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7813.\nMassie v. United States."
+  },
+  "file_name": "1149-05",
+  "first_page_order": 1225,
+  "last_page_order": 1225
+}

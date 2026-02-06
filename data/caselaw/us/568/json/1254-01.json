@@ -1,0 +1,59 @@
+{
+  "id": 12434028,
+  "name": "Baggett v. Illinois",
+  "name_abbreviation": "Baggett v. Illinois",
+  "decision_date": "2013-03-25",
+  "docket_number": "No. 12-8362",
+  "first_page": "1254",
+  "last_page": "1254",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1254"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 78,
+    "ocr_confidence": 0.642,
+    "sha256": "7f064dba8afad9b729dfee106c0bb8fa3cf7f9de9d879feddfb8cc4ef266c465",
+    "simhash": "1:00d992df1dbde72c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Baggett v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Ill., 1st Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8362.\nBaggett v. Illinois."
+  },
+  "file_name": "1254-01",
+  "first_page_order": 1330,
+  "last_page_order": 1330
+}

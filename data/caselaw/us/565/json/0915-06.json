@@ -1,0 +1,59 @@
+{
+  "id": 12222506,
+  "name": "Cardon-Cortez v. United States",
+  "name_abbreviation": "Cardon-Cortez v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5584",
+  "first_page": "915",
+  "last_page": "915",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 915"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 80,
+    "ocr_confidence": 0.676,
+    "sha256": "5be478666010b9eda990b4e7bba719abc997dcf7d277eb47c4153154482888cd",
+    "simhash": "1:8f608a63a2891013",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cardon-Cortez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5584.\nCardon-Cortez v. United States."
+  },
+  "file_name": "0915-06",
+  "first_page_order": 997,
+  "last_page_order": 997
+}

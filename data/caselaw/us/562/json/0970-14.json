@@ -1,0 +1,59 @@
+{
+  "id": 5954136,
+  "name": "Settle v. Bell, Warden",
+  "name_abbreviation": "Settle v. Bell",
+  "decision_date": "2010-10-12",
+  "docket_number": "No. 10-6102",
+  "first_page": "970",
+  "last_page": "970",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 970"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.573,
+    "sha256": "209f5c0df8e751bda574cce99d163fd799c4b47824ce6b87247c57708e68611a",
+    "simhash": "1:b6a906baee7a1866",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Settle v. Bell, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6102.\nSettle v. Bell, Warden."
+  },
+  "file_name": "0970-14",
+  "first_page_order": 992,
+  "last_page_order": 992
+}

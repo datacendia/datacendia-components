@@ -1,0 +1,138 @@
+CASE BRIEF: Waymo LLC v. Uber Technologies, Inc.
+================================================================================
+
+Court: U.S. District Court, Northern District of California
+Case No.: 3:17-cv-00939
+Filed: February 23, 2017
+
+================================================================================
+PARTIES
+================================================================================
+
+Plaintiff: Waymo LLC (Alphabet/Google subsidiary)
+Defendant: Uber Technologies, Inc.; Otto Trucking LLC; Anthony Levandowski
+
+================================================================================
+FACTUAL BACKGROUND
+================================================================================
+
+Anthony Levandowski was a lead engineer at Google's self-driving car project 
+(now Waymo) from 2009-2016. In January 2016, Levandowski downloaded approximately 
+14,000 files (9.7 GB) from Google's design server, including proprietary LiDAR 
+designs. He resigned from Google on January 27, 2016, and founded Otto, a 
+self-driving truck company, which Uber acquired for $680 million in August 2016.
+
+Timeline of Key Events:
+- 2009: Levandowski joins Google's self-driving car project
+- December 2015: Levandowski begins discussions with Uber executives
+- January 14, 2016: Downloads 14,000 files to personal laptop
+- January 27, 2016: Resigns from Google
+- January 2016: Founds Otto with other former Google engineers
+- August 2016: Uber acquires Otto for $680 million
+- February 2017: Waymo files lawsuit
+
+================================================================================
+CLAIMS
+================================================================================
+
+1. Misappropriation of trade secrets (federal DTSA and California CUTSA)
+2. Patent infringement (U.S. Patent Nos. 8,836,922 and 9,368,936)
+3. Unfair competition (California Business & Professions Code § 17200)
+4. Breach of contract (confidentiality and invention assignment agreements)
+
+================================================================================
+KEY EVIDENCE
+================================================================================
+
+For Waymo:
+- Server logs showing 14,000 file downloads to personal laptop
+- Levandowski's resignation timing (days after download)
+- Uber's acquisition of Otto within 7 months of Levandowski's departure
+- Technical similarities between Waymo and Uber LiDAR designs
+- Levandowski invoked 5th Amendment 423 times during deposition
+- Email evidence of Uber executives' knowledge of Google technology
+- Forensic evidence of file transfers and deletions
+
+For Uber:
+- Independent development documentation
+- Uber's own LiDAR research predating Otto acquisition
+- Lack of direct evidence files were used at Uber
+- Levandowski's personal expertise vs. trade secrets
+
+================================================================================
+TRADE SECRET ELEMENTS (California CUTSA)
+================================================================================
+
+To prevail, Waymo must prove:
+1. Information qualifies as a trade secret
+2. Waymo took reasonable measures to protect secrecy
+3. Defendant acquired, disclosed, or used the trade secret
+4. Defendant knew or should have known of misappropriation
+
+================================================================================
+PRIOR RELEVANT CASES
+================================================================================
+
+1. Silvaco Data Systems v. Intel Corp. (2010)
+   - California trade secret elements
+   - Requirement of "use" for misappropriation
+
+2. DVD Copy Control Ass'n v. Bunner (2003)
+   - California trade secret injunction standards
+   - First Amendment considerations
+
+3. Defend Trade Secrets Act of 2016
+   - Federal cause of action for trade secret misappropriation
+   - Ex parte seizure provisions
+   - Whistleblower immunity provisions
+
+4. Kewanee Oil Co. v. Bicron Corp. (1974)
+   - Trade secret protection does not preempt patent law
+   - Reasonable secrecy measures standard
+
+================================================================================
+DAMAGES ANALYSIS
+================================================================================
+
+Waymo's Claimed Damages: $1.86 billion
+
+Calculation Methods:
+1. Unjust Enrichment: Value of R&D Uber avoided ($500M-$1B)
+2. Reasonable Royalty: What Uber would have paid for license
+3. Lost Profits: Waymo's competitive disadvantage
+4. Head Start: Time advantage gained by Uber (estimated 2-3 years)
+
+Uber's Counter-Arguments:
+- No evidence files were actually used
+- Uber had independent LiDAR development
+- Speculative damages calculation
+- No actual lost sales by Waymo
+
+================================================================================
+SETTLEMENT OUTCOME
+================================================================================
+
+Date: February 9, 2018 (5 days into trial)
+Terms: Uber paid Waymo $245 million in Uber equity (0.34% of company)
+Additional: Uber agreed not to use Waymo trade secrets
+
+Why Settlement?
+- Uber facing damaging testimony from former executives
+- Criminal investigation of Levandowski ongoing
+- Uber's IPO timeline at risk
+- Waymo achieved injunctive relief and validation
+
+================================================================================
+KEY LEGAL QUESTIONS FOR ANALYSIS
+================================================================================
+
+1. Did Uber have actual or constructive knowledge of misappropriation?
+2. Were the LiDAR designs actually "used" by Uber, or merely possessed?
+3. What is the appropriate damages measure for trade secret cases?
+4. How does the 5th Amendment invocation affect civil liability?
+5. Should Waymo have pursued trial for larger damages?
+
+================================================================================
+DOCUMENT PREPARED FOR: Datacendia Legal Demo
+CLASSIFICATION: Public Information (from court filings)
+================================================================================

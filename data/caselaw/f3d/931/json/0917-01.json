@@ -1,0 +1,227 @@
+{
+  "id": 12522087,
+  "name": "Trinity WARNER, Plaintiff-Appellant, v. EXPERIAN INFORMATION SOLUTIONS, INC., an Ohio corporation, Defendant-Appellee.",
+  "name_abbreviation": "Warner v. Experian Info. Solutions, Inc.",
+  "decision_date": "2019-07-24",
+  "docket_number": "No. 17-16910",
+  "first_page": "917",
+  "last_page": "922",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "931 F.3d 917"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "9th Cir.",
+    "id": 18869,
+    "name": "United States Court of Appeals for the Ninth"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "484 U.S. 301",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        599579
+      ],
+      "weight": 3,
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "304",
+          "parenthetical": "per curiam"
+        },
+        {
+          "parenthetical": "per curiam"
+        },
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/484/0301-01"
+      ]
+    },
+    {
+      "cite": "138 S. Ct. 1118",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12610425
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1128-29",
+          "parenthetical": "citing a treatise stating that consolidated cases \" 'remain separate as to parties, pleadings, and judgment' \" (quoting W. Simkins, Federal Practice 63 (rev. ed. 1923))"
+        },
+        {
+          "parenthetical": "citing a treatise stating that consolidated cases \" 'remain separate as to parties, pleadings, and judgment' \" (quoting W. Simkins, Federal Practice 63 (rev. ed. 1923))"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/1118-01"
+      ]
+    },
+    {
+      "cite": "854 F.3d 551",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12277003
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "555",
+          "parenthetical": "noting that in some bellwether cases, \"the parties in the other [consolidated] cases agree that they will be bound by the outcome\" of the bellwether case"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/854/0551-01"
+      ]
+    },
+    {
+      "cite": "132 S.Ct. 2065",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12189987,
+        3955285
+      ],
+      "year": 2012,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/566/0639-01",
+        "/br/470/2065-01"
+      ]
+    },
+    {
+      "cite": "566 U.S. 639",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12189987
+      ],
+      "weight": 2,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "645"
+        },
+        {
+          "parenthetical": "\"[I]t is a commonplace of statutory construction that the specific governs the general. That is particularly true where ... Congress has enacted a comprehensive scheme and has deliberately targeted specific problems with specific solutions.\" (internal quotation marks and citations omitted)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/566/0639-01"
+      ]
+    },
+    {
+      "cite": "2017 WL 2832738",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "*8"
+        },
+        {
+          "page": "*8"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "569 F.3d 946",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3660977
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "951",
+          "parenthetical": "internal quotation marks and brackets omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/569/0946-01"
+      ]
+    },
+    {
+      "cite": "332 F.3d 574",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7351576,
+        9114966
+      ],
+      "weight": 2,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "578"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/am-tribal-law/4/0574-02",
+        "/f3d/332/0574-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 623,
+    "char_count": 13721,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2594622311957184
+    },
+    "sha256": "6c4c5b7d663f800797bcfbebb5d068336beaf1529129ebb875739ca1a26b941f",
+    "simhash": "1:facef9e17b670e97",
+    "word_count": 2156
+  },
+  "last_updated": "2024-02-27T18:47:21.356099+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Trinity WARNER, Plaintiff-Appellant,\nv.\nEXPERIAN INFORMATION SOLUTIONS, INC., an Ohio corporation, Defendant-Appellee."
+    ],
+    "opinions": [
+      {
+        "text": "CLIFTON, Circuit Judge:\nPlaintiff-Appellant Trinity Warner appeals the district's court's order granting summary judgment in favor of Defendant-Appellee Experian Information on Warner's claims that Experian violated the Fair Credit Reporting Act. Those claims arise out of a series of letters that Go Clean Credit LLC, a credit repair organization, sent to Experian on Warner's behalf. The letters asserted that several items in Warner's credit file were incorrect and asked Experian to conduct a reinvestigation to verify the items' accuracy. Warner played no role in drafting the letters, and he did not review them before they were mailed. As a result, Warner never confirmed that the disputes presented to Experian by Go Clean Credit were legitimate.\nAfter receiving the letters sent by Go Clean Credit, Experian informed Warner that it would not take further action unless he personally contacted Experian. Warner now asserts that Experian's refusal to reinvestigate violated the Fair Credit Reporting Act. Experian, on the other hand, argues it did not have to reinvestigate because Warner did not communicate with Experian directly.\nWe agree with Experian. 15 U.S.C. \u00a7 1681i is the relevant statutory provision. It requires consumer reporting agencies to reinvestigate disputed items in a consumer's credit file if the consumer notifies the agency of the dispute \"directly.\" 15 U.S.C. \u00a7 1681i. Because Warner played no part in drafting, finalizing, or sending the letters Go Clean Credit sent to Experian on his behalf, those letters did not come directly from him. Consequently, under Section 1681i, Experian was not required to initiate a reinvestigation. We therefore affirm the district court's decision entering summary judgment on Warner's claims.\nI. Background\nIn his complaint, Warner alleged that by failing to take action in response to his letters, Experian violated two provisions of the Fair Credit Reporting Act: 15 U.S.C. \u00a7 1681i, which requires consumer reporting agencies to reinvestigate disputed items, and 15 U.S.C. \u00a7 1681e(b), which requires consumer reporting agencies to use reasonable care in preparing consumer reports. After he filed that complaint, the district court consolidated Warner's action with twenty-nine other cases that alleged similar facts and asserted similar claims. The court designated one of those cases, McIntyre v. Experian Information Solutions, Inc. , Case No. 16-cv-03039 (\"McIntyre \"), as the \"bellwether\" case. Because of the procedures employed by the district court, the only evidence in the record was adduced in the parties' motions for summary judgment in McIntyre . Because Warner has not contended that there are any material differences between his case and McIntyre , we relate those facts.\nJohn McIntyre hired Go Clean Credit to perform \"credit repair services.\" McIntyre and Go Clean Credit memorialized their agreement in a written contract that \"grant[ed] GCC a limited power of attorney to write and send letters to creditors and credit bureaus on McIntyre's behalf and in McIntyre's name and to utilize ... McIntyre's electronic signature or for a GCC representative to sign the letters on McIntyre's behalf.\"\nAs the agreement contemplated, Go Clean Credit sent a series of letters to Experian contending that several negative items in McIntyre's credit file were inaccurate. The letters asked Experian to reinvestigate the disputed items. For instance, the first letter sent by Go Clean Credit on McIntyre's behalf that was received by Experian was a letter dated April 20, 2015. In his deposition, McIntyre testified that he had \"absolutely no input\" in the preparation of that letter. Go Clean Credit did not show McIntyre the letter before sending it. As a result, Go Clean Credit did not give McIntyre the opportunity to confirm that there was some basis for the disputes it submitted. It appears that most, if not all, of the disputed items identified in that letter were, in fact, not inaccurate. Indeed, in his deposition, McIntyre could not identify a single disputed item that was inaccurate.\nExperian responded by sending a letter to McIntyre on May 8, 2015. The letter stated that Experian had \"received a suspicious request in the mail\" and \"determined that it was not sent by [McIntyre].\" Experian informed McIntyre that it would \"not be initiating any disputes based on the suspicious correspondence.\" Experian also explained that McIntyre could call Experian or visit Experian's website if he believed the information in his credit file was inaccurate or incomplete.\nMcIntyre did neither. Instead, Go Clean Credit sent several more letters to Experian on McIntyre's behalf. Again, Go Clean Credit neither sought McIntyre's input before drafting these letters nor asked him to review the letters before sending them. These letters also disputed a number of accurate items in McIntyre's credit file. Experian did not initiate a reinvestigation after it received the letters.\nBased on those facts, Experian moved for summary judgment in McIntyre . The district court granted the motion. As to McIntyre's Section 1681i claims, the district court held that the statute only required Experian to reinvestigate disputes that came from McIntyre directly. Because the undisputed evidence demonstrated that Go Clean Credit sent the letters at issue, the district court held that Section 1681i did not require a reinvestigation. It also concluded that Experian did not violate Section 1681e(b) because, in its view, that statute did not apply to reinvestigation procedures at all. The district court therefore entered summary judgment in McIntyre and in \"the consolidated cases for which [McIntyre ] serves as the bellwether.\"\nMcIntyre did not appeal. Warner, however, did. He argues that, based on the facts adduced in McIntyre , the district court erred in entering summary judgment against him.\nII. Discussion\nA district court's decision to grant summary judgment is reviewed de novo. United States v. City of Tacoma , 332 F.3d 574, 578 (9th Cir. 2003). On review, the appellate court must determine, viewing the evidence in the light most favorable to the nonmoving party, whether there are any genuine issues of material fact and whether the district court correctly applied the relevant law. Id.\nA. 15 U.S.C. \u00a7 1681i\nSection 1681i provides that consumer reporting agencies such as Experian must \"conduct a reasonable reinvestigation\" when an item in the consumer's credit file \"is disputed by the consumer and the consumer notifies the agency directly ... of such dispute.\" 15 U.S.C. \u00a7 1681i(a)(1)(A) (emphasis added). McIntyre hired Go Clean Credit to submit letters to credit agencies on his behalf, but he did little else. The question we must answer, therefore, is whether those letters came \"directly\" from McIntyre.\nWe conclude that they did not. \"The preeminent canon of statutory interpretation requires us to presume that the legislature says in a statute what it means and means in a statute what it says there. Thus, our inquiry begins with the statutory text, and ends there as well if the text is unambiguous.\" Satterfield v. Simon & Schuster, Inc. , 569 F.3d 946, 951 (9th Cir. 2009) (internal quotation marks and brackets omitted). This appeal can be resolved by considering the unambiguous meaning of the word \"directly.\" The most pertinent definition of directly is \"without any intervening agency or instrumentality or determining influence.\" Merriam-Webster's Third New International Dictionary 641 (2002). That definition demonstrates that to notify a consumer reporting agency of a dispute \"directly,\" a letter must come from the consumer and be sent to the agency. See Turner v. Experian Info. Sols., Inc. , 2017 WL 2832738, at *8 (N.D. Ohio June 30, 2017).\nMcIntyre played almost no part in submitting the dispute letter to Experian. He did not identify the items to be disputed. He did not review the letter Go Clean Credit drafted before it sent it to Experian. Indeed, his testimony was that he played no role in preparing the letters at all. For instance, he stated that he had \"absolutely no input\" into the contents of the letter Go Clean Credit sent on April 20. Under those circumstances, the letters did not come \"directly\" from McIntyre. See Turner , 2017 WL 2832738, at *8 (holding that the plaintiff did not notify Experian of a dispute \"directly\" because \"[s]he did not draft the dispute letter, provide documentation supporting its claims, review its accuracy, sign it, or mail it\").\nOur holding is limited to the facts before us. This case does not involve a letter sent to a consumer reporting agency by a consumer's attorney. Nor does it involve one family member assisting another by sending a letter on the other's behalf. It does not even involve a letter sent by a credit repair agency that a consumer reviewed and approved before it was submitted. We do not decide whether, in any of these circumstances, a consumer reporting agency would have a duty to reinvestigate. We only hold that, in this case, where McIntyre played no role in preparing the letters and did not review them before they were sent, the letters sent by Go Clean Credit did not come directly from McIntyre. We therefore hold that the district court correctly granted Experian's motion for summary judgment on Warner's Section 1681i claim.\nB. 15 U.S.C. \u00a7 1681e(b)\nWe also conclude that the district court correctly entered summary judgment on Warner's Section 1681e(b) claim. Section 1681e(b) states that consumer reporting agencies must \"follow reasonable procedures to assure maximum possible accuracy of the information concerning the individual about whom [a consumer report] relates.\" Warner argues that even if Section 1681i did not require Experian to conduct a reinvestigation, its refusal to reinvestigate nevertheless violated Section 1681e(b) because it was unreasonable.\nWe disagree. As the district court recognized, it would make little sense to use Section 1681e(b) to impose liability on Experian for conduct that satisfied Section 1681i. Section 1681i represents Congress's determination that a consumer reporting agency is only required to initiate a reinvestigation if a consumer notifies the agency of a dispute directly. It cannot be unreasonable for agencies to follow that guidance. See RadLAX Gateway Hotel, LLC v. Amalgamated Bank , 566 U.S. 639, 645, 132 S.Ct. 2065, 182 L.Ed.2d 967 (2012) (\"[I]t is a commonplace of statutory construction that the specific governs the general. That is particularly true where ... Congress has enacted a comprehensive scheme and has deliberately targeted specific problems with specific solutions.\" (internal quotation marks and citations omitted)). Because McIntyre did not dispute the items in his credit file directly, Experian had no duty to respond.\nWe therefore conclude that Experian did not act unreasonably and, as a result, did not violate Section 1681e(b). The district court correctly entered summary judgment on Warner's 1681e(b) claim.\nIII. Conclusion\nWe affirm the district court's order granting Experian summary judgment on Warner's claims under 15 U.S.C. \u00a7 1681i and 15 U.S.C. \u00a7 1681e(b).\nAFFIRMED.\nThose procedures were unusual. The district court relied upon its decision in the bellwether McIntyre case to enter summary judgment in all of the other consolidated cases. Nothing in the record confirms that the parties agreed that a decision in McIntyre would be binding in all the other cases. Cf. Dunson v. Cordis Corp. , 854 F.3d 551, 555 (9th Cir. 2017) (noting that in some bellwether cases, \"the parties in the other [consolidated] cases agree that they will be bound by the outcome\" of the bellwether case). Nevertheless, Warner apparently concedes that the district court's decision in McIntyre was controlling and that there are no material factual differences between this case and McIntyre .\nBecause Warner was not a party to any of the other consolidated cases, he can only appeal the district court's order dismissing his case. See Hall v. Hall , --- U.S. ----, 138 S. Ct. 1118, 1128-29, 200 L.Ed.2d 399 (2018) (citing a treatise stating that consolidated cases \" 'remain separate as to parties, pleadings, and judgment' \" (quoting W. Simkins, Federal Practice 63 (rev. ed. 1923))); Marino v. Ortiz , 484 U.S. 301, 304, 108 S.Ct. 586, 98 L.Ed.2d 629 (1988) (per curiam) (\"The rule that only parties to a lawsuit, or those that properly become parties, may appeal an adverse judgment, is well settled.\").\nThe Fair Credit Reporting Act defines consumer reporting agencies as:\nany person which, for monetary fees, dues, or on a cooperative nonprofit basis, regularly engages in whole or in part in the practice of assembling or evaluating consumer credit information or other information on consumers for the purpose of furnishing consumer reports to third parties, and which uses any means or facility of interstate commerce for the purpose of preparing or furnishing consumer reports.\n15 U.S.C. \u00a7 1681a(f). Consumer reporting agencies are commonly known as credit bureaus.",
+        "type": "majority",
+        "author": "CLIFTON, Circuit Judge:"
+      }
+    ],
+    "attorneys": [
+      "Edward Albert Mahl (argued), Law Offices of Edward A. Mahl, Troy, Michigan; Trinette G. Kent, Kent Law Offices, Phoenix, Arizona; for Plaintiff-Appellant.",
+      "Meir Feder (argued), Jones Day, New York, New York; Jeremy S. Close, John A. Vogt, and Richard J. Grabowski, Jones Day, Irvine, California; for Defendant-Appellee."
+    ],
+    "corrections": "",
+    "head_matter": "Trinity WARNER, Plaintiff-Appellant,\nv.\nEXPERIAN INFORMATION SOLUTIONS, INC., an Ohio corporation, Defendant-Appellee.\nNo. 17-16910\nUnited States Court of Appeals, Ninth Circuit.\nArgued and Submitted March 8, 2019 Phoenix, Arizona\nFiled July 24, 2019\nEdward Albert Mahl (argued), Law Offices of Edward A. Mahl, Troy, Michigan; Trinette G. Kent, Kent Law Offices, Phoenix, Arizona; for Plaintiff-Appellant.\nMeir Feder (argued), Jones Day, New York, New York; Jeremy S. Close, John A. Vogt, and Richard J. Grabowski, Jones Day, Irvine, California; for Defendant-Appellee.\nBefore: Richard R. Clifton, Sandra S. Ikuta, and Michelle T. Friedland, Circuit Judges."
+  },
+  "file_name": "0917-01",
+  "first_page_order": 917,
+  "last_page_order": 922
+}

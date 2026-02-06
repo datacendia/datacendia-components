@@ -1,0 +1,59 @@
+{
+  "id": 6023682,
+  "name": "Perez-Gutierrez v. United States",
+  "name_abbreviation": "Perez-Gutierrez v. United States",
+  "decision_date": "2011-03-21",
+  "docket_number": "No. 10-9029",
+  "first_page": "1300",
+  "last_page": "1300",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1300"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 81,
+    "ocr_confidence": 0.626,
+    "sha256": "c971b177c3fc05ea69da9d83a53413baaf7d9dc5a1c47a760af0bd84f45d7c6e",
+    "simhash": "1:0638d383487d0c4e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Perez-Gutierrez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9029.\nPerez-Gutierrez v. United States."
+  },
+  "file_name": "1300-10",
+  "first_page_order": 1322,
+  "last_page_order": 1322
+}

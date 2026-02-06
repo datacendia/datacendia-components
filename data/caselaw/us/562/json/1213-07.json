@@ -1,0 +1,59 @@
+{
+  "id": 5932238,
+  "name": "In re Rothschild",
+  "name_abbreviation": "In re Rothschild",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. D-2577",
+  "first_page": "1213",
+  "last_page": "1213",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1213"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 48,
+    "char_count": 337,
+    "ocr_confidence": 0.543,
+    "sha256": "582e0dfede46db94c4ea34487ce3d8c9c1c51133918c9a7d9eb530b8a91515eb",
+    "simhash": "1:0bc949e02d91356a",
+    "word_count": 61
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Rothschild."
+    ],
+    "opinions": [
+      {
+        "text": "John David Rothschild, of Sonoma, Cal., having requested to resign as a member of the Bar of this Court, it is ordered that his name be stricken from the roll of attorneys admitted to the practice of law before this Court. The rule to show cause, issued on November 15, 2010 {ante, p. 1039], is discharged.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2577.\nIn re Rothschild."
+  },
+  "file_name": "1213-07",
+  "first_page_order": 1235,
+  "last_page_order": 1235
+}

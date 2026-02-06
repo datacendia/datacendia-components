@@ -1,0 +1,519 @@
+{
+  "id": 12519153,
+  "name": "James R. BUNN, Plaintiff-Appellant, v. FEDERAL DEPOSIT INSURANCE CORPORATION, as receiver FOR VALLEY BANK ILLINOIS, Defendant-Appellee.",
+  "name_abbreviation": "Bunn v. Fed. Deposit Ins. Corp.",
+  "decision_date": "2018-11-08",
+  "docket_number": "No. 18-1907",
+  "first_page": "290",
+  "last_page": "300",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "908 F.3d 290"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "7th Cir.",
+    "id": 9010,
+    "name": "United States Court of Appeals for the Seventh Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "12 C.F.R. \u00a7 359.7",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "12 U.S.C. \u00a7 1813",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(c)(2)"
+        },
+        {
+          "page": "(u)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "12 C.F.R. \u00a7 359.4",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "62 Fed. Reg. 752",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "weight": 2,
+      "year": 1997,
+      "opinion_index": 0
+    },
+    {
+      "cite": "724 F.3d 957",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4068155
+      ],
+      "pin_cites": [
+        {
+          "page": "961"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/724/0957-01"
+      ]
+    },
+    {
+      "cite": "867 F.3d 799",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12275405
+      ],
+      "pin_cites": [
+        {
+          "page": "802"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/867/0799-01"
+      ]
+    },
+    {
+      "cite": "134 S.Ct. 557",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12701994,
+        12584652
+      ],
+      "weight": 2,
+      "year": 2013,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/571/0031-01",
+        "/s-ct/134/0557-01"
+      ]
+    },
+    {
+      "cite": "571 U.S. 31",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12701994
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "45"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/571/0031-01"
+      ]
+    },
+    {
+      "cite": "138 S.Ct. 1134",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12610439
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1141",
+          "parenthetical": "\" '[O]r' is 'almost always disjunctive.' \" (quoting United States v. Woods , 571 U.S. 31, 45, 134 S.Ct. 557, 187 L.Ed.2d 472 (2013) ) "
+        },
+        {
+          "parenthetical": "\" '[O]r' is 'almost always disjunctive.' \" (quoting United States v. Woods , 571 U.S. 31, 45, 134 S.Ct. 557, 187 L.Ed.2d 472 (2013) ) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/1134-01"
+      ]
+    },
+    {
+      "cite": "927 F.2d 1376",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1797044
+      ],
+      "pin_cites": [
+        {
+          "page": "1384"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/927/1376-01"
+      ]
+    },
+    {
+      "cite": "846 F.3d 972",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12136986
+      ],
+      "pin_cites": [
+        {
+          "page": "978"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/846/0972-01"
+      ]
+    },
+    {
+      "cite": "309 F.3d 433",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11405843
+      ],
+      "pin_cites": [
+        {
+          "page": "436"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/309/0433-01"
+      ]
+    },
+    {
+      "cite": "892 F.3d 887",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12517279
+      ],
+      "pin_cites": [
+        {
+          "page": "898"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/892/0887-01"
+      ]
+    },
+    {
+      "cite": "2014 WL 2593645",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 2,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "*4",
+          "parenthetical": " section 359.1(d)(2)(ii) satisfied when agreements at issue expressly stated they created an \"unfunded arrangement maintained primarily to provide supplemental retirement benefits for the Executive\" and described \"Executive\" as someone with \"exceptional merit\""
+        },
+        {
+          "page": "*5"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "12 C.F.R. \u00a7 359.1",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 8,
+      "pin_cites": [
+        {
+          "page": "(d)"
+        },
+        {
+          "page": "(d)(3)(vi)"
+        },
+        {
+          "page": "(d)(3)(vii)"
+        },
+        {
+          "page": "(d)(3)(i)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "12 C.F.R. \u00a7 359.2",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "621 F.3d 651",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3784303
+      ],
+      "pin_cites": [
+        {
+          "page": "656"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/621/0651-01"
+      ]
+    },
+    {
+      "cite": "475 U.S. 574",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6205783
+      ],
+      "weight": 3,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "586"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/475/0574-01"
+      ]
+    },
+    {
+      "cite": "477 U.S. 317",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6207800
+      ],
+      "weight": 4,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "323"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/477/0317-01"
+      ]
+    },
+    {
+      "cite": "520 F.3d 678",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3702670
+      ],
+      "pin_cites": [
+        {
+          "page": "685"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/520/0678-01"
+      ]
+    },
+    {
+      "cite": "98 F.3d 274",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7649546
+      ],
+      "pin_cites": [
+        {
+          "page": "276-77"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/98/0274-01"
+      ]
+    },
+    {
+      "cite": "477 U.S. 242",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6206897
+      ],
+      "weight": 3,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "248"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/477/0242-01"
+      ]
+    },
+    {
+      "cite": "739 F.3d 1055",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4083389
+      ],
+      "pin_cites": [
+        {
+          "page": "1060"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/739/1055-01"
+      ]
+    },
+    {
+      "cite": "825 F.3d 801",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4325560
+      ],
+      "pin_cites": [
+        {
+          "page": "805"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/825/0801-01"
+      ]
+    },
+    {
+      "cite": "12 U.S.C. \u00a7 1828",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(k)"
+        },
+        {
+          "page": "(k)(1)"
+        },
+        {
+          "page": "(k)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "374 F.3d 579",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9235123
+      ],
+      "pin_cites": [
+        {
+          "page": "581"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/374/0579-01"
+      ]
+    },
+    {
+      "cite": "12 U.S.C. \u00a7 1821",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 7,
+      "pin_cites": [
+        {
+          "page": "(d)(2)(A)"
+        },
+        {
+          "page": "(e)(1)"
+        },
+        {
+          "page": "(e)(3)(A)(i)",
+          "parenthetical": "receiver's liability for disaffirmance of a contract is \"limited to actual direct compensatory damages\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "706 F.3d 810",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6048416
+      ],
+      "pin_cites": [
+        {
+          "page": "812"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/706/0810-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1123,
+    "char_count": 29423,
+    "pagerank": {
+      "raw": 6.01541752456897e-08,
+      "percentile": 0.3731485889717895
+    },
+    "sha256": "0e64de762f7622a11f9afc78b81dfdefb9362702e2fca9c465828356552a1f33",
+    "simhash": "1:f137eae22baa56ca",
+    "word_count": 4687
+  },
+  "last_updated": "2024-02-27T16:20:33.568669+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Flaum, Easterbrook, and Brennan, Circuit Judges."
+    ],
+    "parties": [
+      "James R. BUNN, Plaintiff-Appellant,\nv.\nFEDERAL DEPOSIT INSURANCE CORPORATION, as receiver FOR VALLEY BANK ILLINOIS, Defendant-Appellee."
+    ],
+    "opinions": [
+      {
+        "text": "Flaum, Circuit Judge.\nAfter its appointment as receiver for Valley Bank Illinois (\"Valley Bank\"), the Federal Deposit Insurance Corporation (\"FDIC\") disaffirmed a benefits agreement between Valley Bank and James Bunn, a bank executive. Bunn sued the FDIC to recover a \"change of control termination benefit\" he claims he is entitled to receive pursuant to this agreement. The district court granted summary judgment to the FDIC because it determined the benefit Bunn seeks is a \"golden parachute payment\" prohibited by federal law. We affirm.\nI. Background\nA. Factual Background\nJames Bunn worked for Valley Bank as Executive Vice President from 2001 until the bank's failure on June 20, 2014. He also served as the bank's Director beginning in 2008 or 2009. During Bunn's employment, Valley Bank was an FDIC-insured, state-chartered nonmember bank regulated by both the FDIC in its corporate capacity (\"FDIC-C\") and the Illinois Department of Financial and Professional Regulation (\"IDFPR\").\n1. The Salary Continuation Agreement\nIn 2003, Valley Bank entered into a Salary Continuation Agreement (the \"Agreement\") with Bunn \"to provide salary continuation benefits to [Bunn] that are payable from [Valley Bank's] general assets for the purpose of encouraging [Bunn] to remain an employee of [Valley Bank].\" After amending and restating the document in 2005 and 2008, the parties signed the operative version of the Agreement on July 22, 2008.\nIn this Agreement, Valley Bank agreed to provide Bunn with certain termination benefits in the event Bunn \"ceases to be employed by [Valley Bank] for any reason, voluntary or involuntary.\" The Agreement provides for benefits to Bunn in various scenarios, including the event of his death, normal retirement, early termination before retirement, disability, and termination after a \"change of control\" in Valley Bank's ownership.\nThe \"change of control\" termination benefit is the only potential benefit provision that is relevant to this appeal. According to this provision, if Valley Bank terminated Bunn's employment \"within twelve months of a Change [of] Control, for reasons other than death, Disability, or retirement,\" then Bunn was entitled to receive from Valley Bank \"the dollar amount equal to the liability accrued on the books of [Valley Bank] at the effective time of closing of said Change of Control, which shall be reported to [Bunn] on an annual basis by [Valley Bank].\"\nThe Agreement provides that a \"change of control\" triggering Bunn's entitlement to this benefit would occur upon \"either a change in the ownership of [Valley Bank]'s capital stock ... or the sale or other disposition of substantially all of [Valley Bank]'s assets.\" Bunn would be entitled to payment of this benefit within sixty days following his termination under such circumstances.\nValley Bank purchased two life insurance policies, one from Massachusetts Mutual Life Insurance Company and one from New York Life Insurance and Annuity Corporation, for which Bunn was the named insured. Valley Bank retained ownership of these policies but, according to Bunn, Valley Bank purchased these policies for the express purpose of funding the Agreement. The Agreement references the existence of such policies:\n[Bunn] and beneficiary are general unsecured creditors of [Valley Bank] for the payment of benefits under this Agreement. The benefits represent the mere promise by [Valley Bank] to pay such benefits. The rights to benefits are not subject in any manner to anticipation, alienation, sale, transfer, assignment, pledge, encumbrance, attachment, or garnishment by creditors. Any insurance on [Bunn]'s life is a general asset of [Valley Bank] to which [Bunn] and beneficiary have no preferred or secured claim.\nThe Agreement further provides that Bunn's \"rights and the benefits provided under this Agreement are subject to and conditioned upon compliance with all applicable federal and state laws, regulations, rules and regulatory orders relating to the safety and soundness of banking institutions and the compensation of bank officers and employees.\"\n2. Valley Bank Suffers Financial Trouble and Ultimately Fails\nValley Bank began to experience financial trouble in 2009. Specifically, in February 2009, the FDIC-C and IDFPR downgraded Valley Bank's rating after an examination to a composite \"4\" under the Uniform Financial Institutions Rating System (the \"CAMELS\" rating system). The bank maintained its 4 rating through later examinations until April 2013, when it received a downgraded composite CAMELS rating of 5, the lowest possible score.\nOn June 20, 2014, the IDFPR took possession and control of Valley Bank, closed it after determining the bank was \"conducting its business in an unsafe and unsound manner,\" and requested the FDIC immediately accept appointment as Valley Bank's receiver. The FDIC accepted this appointment in its \"FDIC-R\" receiver capacity. See Veluchamy v. FDIC , 706 F.3d 810, 812 (7th Cir.2013) (the FDIC can act both in its corporate capacity as insurer of a bank's depositors and in its receiver capacity as receiver of a failed bank). By accepting this appointment, the FDIC succeeded \"by operation of law\" to Valley Bank's \"rights, titles, powers, and privileges.\" 12 U.S.C. \u00a7 1821(d)(2)(A) ; see also FDIC v. Ernst & Young LLP , 374 F.3d 579, 581 (7th Cir.2004) (\"FDIC-Receiver acquires the assets and legal interests of the failed bank and proceeds much as a trustee in bankruptcy ....\").\nUpon its appointment as receiver, the FDIC entered into a Purchase and Assumption Agreement with Great Southern Bank. Pursuant to this agreement, the FDIC transferred a portion of Valley Bank's assets to Great Southern Bank on June 20, 2014. The FDIC did not employ Bunn after these events; Great Southern Bank did, but only for approximately one week.\n3. The FDIC Disaffirms the Agreement\nAs receiver for a failed institution, the FDIC has the authority to \"disaffirm or repudiate any contract or lease\" to which the institution is a party, the performance of which it \"determines to be burdensome,\" and \"the disaffirmance or repudiation of which [it] determines, in [its] discretion, will promote the orderly administration of the institution's affairs.\" 12 U.S.C. \u00a7 1821(e)(1). The FDIC must determine whether or not to exercise this authority \"within a reasonable period\" following its appointment as receiver. Id. \u00a7 1821(e)(2).\nOn September 16, 2014, the FDIC advised Bunn in a letter that pursuant to these statutory provisions, it would disaffirm the Agreement. The FDIC further notified Bunn that if he intended to pursue a claim for the Agreement's benefits against the receivership estate, he was required to file a proof of claim with the FDIC within ninety days. Bunn submitted his proof of claim on September 28, 2014, seeking $230,000 to $240,000 for his \"accrued and vested\" change of control benefits under the Agreement. However, the FDIC disallowed Bunn's claim.\nB. Procedural Background\nAfter the FDIC disallowed his claim, Bunn filed the instant lawsuit in federal court. In his operative amended complaint, Bunn sought either $240,000 as the sum of the benefits he claimed to have accrued under the Agreement or, in the alternative, the $443,944 accrued cash value of the two bank-owned life insurance policies Valley Bank had purchased, as well as his costs and attorney's fees. The FDIC moved to dismiss the amended complaint. The district court denied the motion, and the parties proceeded with discovery.\nOn May 1, 2017, the FDIC moved for summary judgment, arguing in part that the change of control termination benefit was a \"golden parachute payment\" prohibited by 12 U.S.C. \u00a7 1828(k) and its implementing regulations, meaning Bunn was not entitled to payment. Bunn opposed the motion, arguing the Agreement qualified for an exception to the prohibition on golden parachute payments as a \"bona fide deferred compensation plan.\"\nThe district court granted the FDIC's motion for summary judgment. It held the change of control termination benefit met the definition of a golden parachute payment and did not qualify for the definition's bona fide deferred compensation plan exception. Therefore, Bunn could not recover any damages based on the FDIC's disaffirmation of the Agreement. The court further held that, even if the benefit was not a golden parachute payment, Bunn still could not prevail because he had not presented evidence of any damages incurred by virtue of the FDIC's disaffirmation. The district court entered judgment in the FDIC's favor, and Bunn appeals.\nII. Discussion\nWe review a district court's summary judgment ruling de novo. See C.G. Schmidt, Inc. v. Permasteelisa N. Am. , 825 F.3d 801, 805 (7th Cir.2016). \"Summary judgment is proper if the moving party 'shows that there is no genuine dispute as to any material fact and the movant is entitled to judgment as a matter of law.' \" Spurling v. C & M Fine Pack, Inc. , 739 F.3d 1055, 1060 (7th Cir.2014) (quoting Fed. R. Civ. P. 56(a) ). A genuine dispute exists if \"the evidence is such that a reasonable jury could return a verdict for the nonmoving party.\" Anderson v. Liberty Lobby, Inc. , 477 U.S. 242, 248, 106 S.Ct. 2505, 91 L.Ed.2d 202 (1986). We \"consider all of the evidence in the record in the light most favorable to the non-moving party, and we draw all reasonable inferences from that evidence in favor of the party opposing summary judgment.\" Feliberty v. Kemper Corp. , 98 F.3d 274, 276-77 (7th Cir.1996).\nThe party moving for summary judgment has the initial burden of demonstrating there is no genuine dispute of material fact: \"it may discharge this responsibility by showing 'that there is an absence of evidence to support the nonmoving party's case.' \" Chelios v. Heavener , 520 F.3d 678, 685 (7th Cir.2008) (quoting Celotex Corp. v. Catrett , 477 U.S. 317, 323, 106 S.Ct. 2548, 91 L.Ed.2d 265 (1986) ). \"To overcome a motion for summary judgment, the nonmoving party must come forward with specific facts demonstrating that there is a genuine issue for trial.\" Id. (quoting Matsushita Elec. Indus. Co. v. Zenith Radio Corp. , 475 U.S. 574, 586, 106 S.Ct. 1348, 89 L.Ed.2d 538 (1986) ). We may affirm a grant of summary judgment on any ground supported by the record. Goodman v. Nat'l Sec. Agency, Inc. , 621 F.3d 651, 656 (7th Cir.2010).\nBunn argues the district court erred by holding the change of control termination benefit in the Agreement is a golden parachute payment. We agree with the district court that the benefit meets this definition, and Bunn has presented no evidence sufficient to establish the benefit qualifies for the bona fide deferred compensation plan exception to such a payment.\nA. The Benefit is a Golden Parachute Payment.\nFederal law authorizes the FDIC in its corporate capacity to \"prohibit or limit, by regulation or order, any golden parachute payment or indemnification payment.\" 12 U.S.C. \u00a7 1828(k)(1). The FDIC has done so through implementing regulations that provide, \"[n]o insured depository institution or depository institution holding company shall make or agree to make any golden parachute payment.\" 12 C.F.R. \u00a7 359.2. Therefore, if the change of control termination benefit qualifies as a golden parachute payment, it is not something Valley Bank could agree to give to Bunn under the plain terms of the Agreement making benefits contingent on compliance with applicable federal laws. And, if Bunn is not entitled to receive this payment, he has suffered no damages for which the FDIC could be liable based on its disaffirmation of the Agreement. See 12 U.S.C. \u00a7 1821(e)(3)(A)(i) (receiver's liability for disaffirmance of a contract is \"limited to actual direct compensatory damages\").\nA golden parachute payment is:\n[A]ny payment (or any agreement to make any payment) in the nature of compensation by any insured depository institution or covered company for the benefit of any institution-affiliated party pursuant to an obligation of such institution or covered company that-\n(i) is contingent on the termination of such party's affiliation with the institution or covered company; and-\n(ii) is received on or after the date on which-\n(I) the insured depository institution or covered company, or any insured depository institution subsidiary of such covered company is insolvent;\n(II) any conservator or receiver is appointed for such institution;\n(III) the institution's appropriate Federal banking agency determines that the insured depository institution is in a troubled condition ...\n(IV) the insured depository institution has been assigned a composite rating by the appropriate Federal banking agency or the Corporation of 4 or 5 under the [CAMELS] System; or\n(V) the insured depository institution is subject to a proceeding initiated by the Corporation to terminate or suspend deposit insurance for such institution.\nId. \u00a7 1828(k)(4)(A).\nThe change of control termination benefit meets this definition. It is an agreement to make a \"payment,\" that is in the \"nature of compensation,\" by Valley Bank to Bunn. Bunn acknowledges Valley Bank is an \"insured depository institution\" and he is an \"institution-affiliated party.\" This satisfies the threshold requirements of \u00a7 1828(k)(4)(A). The benefit is also a contingent payment that Bunn can only receive upon his termination of employment with Valley Bank, meeting the requirement of \u00a7 1828(k)(4)(A)(i). And while the parties do not agree on the exact event terminating Bunn's employment, Bunn acknowledges this did not happen before June 20, 2014. Thus, any receipt of payment by Bunn pursuant to this provision would occur after his termination and on or after at least two of the potentially-qualifying events listed in \u00a7 1828(k)(4)(A)(ii). Specifically, any payment of the benefit would be after June 20, 2014, when a receiver was appointed for Valley Bank, and it would be after February 2009, when Valley Bank received a composite CAMELS rating of 4. Id. \u00a7 1828(k)(4)(A)(ii)(II), (IV).\nThe FDIC has met its burden and demonstrated the change of control payment falls within the ambit of prohibited golden parachute payments. Bunn does not contest this. Instead, he argues the benefit he seeks qualifies as a bona fide deferred compensation plan exception to such payments.\nB. The Benefit is Not a Bona Fide Deferred Compensation Plan.\nSection 1828(k)(4)(C) excludes some payments from the golden parachute payment definition, meaning a bank is free to make them even though they meet the above-stated requirements. As relevant here, \"any payment made pursuant to a bona fide deferred compensation plan\" is not a golden parachute payment. Id. \u00a7 1828(k)(4)(C)(ii). In opposing summary judgment, Bunn argues he has demonstrated that the change of control termination benefit qualifies for this exclusion, and he is therefore entitled to receive this benefit.\nImplementing regulations promulgated under 12 U.S.C. \u00a7 1828(k) define this exclusion. See 12 C.F.R. \u00a7 359.1(d). A bona fide deferred compensation plan is \"any plan, contract, agreement or other arrangement\" that meets the initial threshold requirements listed in either \u00a7 359.1(d)(1) or \u00a7 359.1(d)(2). A plan under \u00a7 359.1(d)(1) is one whereby \"[a]n [institution-affiliated party] voluntarily elects to defer all or a portion of the reasonable compensation, wages or fees paid for services rendered which otherwise would have been paid to such party at the time the services were rendered,\" and the institution recognizes that expense or otherwise segregates assets in certain ways. Id. \u00a7 359.1(d)(1). A plan under \u00a7 359.1(d)(2) is one whereby \"[a]n insured depository institution or depository institution holding company establishes a nonqualified deferred compensation or supplemental retirement plan\" either \"[p]rimarily for the purpose of providing benefits for certain [institution-affiliated parties] in excess of the limitations on contributions and benefits imposed by\" certain sections of the Internal Revenue Code, id. \u00a7 359.1(d)(2)(i), or \"[p]rimarily for the purpose of providing supplemental retirement benefits or other deferred compensation for a select group of directors, management or highly compensated employees ...,\" id. \u00a7 359.1(d)(2)(ii). Even if the threshold provisions of either \u00a7 359.1(d)(1) or \u00a7 359.1(d)(2) are met, \u00a7 359.1(d)(3) lists seven further criteria that \"shall apply\" to a plan in order for it to meet the bona fide deferred compensation plan exception.\nAlthough Bunn argues his change of control termination benefit fits this exception to golden parachute payments, his argument runs into two problems that independently prevent his recovery. First, Bunn has not come forward with any specific facts demonstrating the benefit could satisfy the threshold requirements in \u00a7 359.1(d)(1) or \u00a7 359.1(d)(2) for bona fide deferred compensation plans. Bunn quotes the language of \u00a7 359.1(d)(2) and affirmatively states the Agreement meets its criteria. But Bunn does not explain how the change of control termination benefit, or any other provision of the Agreement, meets the requirements of either \u00a7 359.1(d)(2)(i) or \u00a7 359.1(d)(2)(ii).\nBunn does state that the Agreement meets the statutory requirements for a \"non-qualified deferred compensation plan\" under 26 U.S.C. \u00a7 409A, a separate tax code provision. However, he does not explain why that is relevant to \u00a7 359.1(d)(2)(i). Additionally, the Agreement itself states it \"was entered into ... to provide salary continuation benefits to [Bunn] that are payable from its general assets for the purpose of encouraging [Bunn] to remain an employee.\" This clause could refer to the type of supplemental benefit \u00a7 359.1(d)(2)(ii) contemplates, but it does not clearly place the Agreement under its purview. Cf. Mulholland v. FDIC , 12-cv-1415, 2014 WL 2593645, at *4 (D. Colo. June 9, 2014) ( section 359.1(d)(2)(ii) satisfied when agreements at issue expressly stated they created an \"unfunded arrangement maintained primarily to provide supplemental retirement benefits for the Executive\" and described \"Executive\" as someone with \"exceptional merit\").\nBunn intimates through his other arguments that \u00a7 359.1(d)(2) applies, but he provides no evidence that this is so. As has become \"axiomatic\" in our Circuit, \" '[j]udges are not like pigs, hunting for truffles buried in' the record.\" Johnson v. Advocate Health & Hosps. Corp. , 892 F.3d 887, 898 (7th Cir.2018) (quoting Albrechtsen v. Bd. of Regents of Univ. of Wis. Sys. , 309 F.3d 433, 436 (7th Cir.2002) ). It is Bunn's responsibility in opposing summary judgment to identify the evidence that would sufficiently raise a disputed issue for trial. Absent such evidence or an adequate explanation why the Agreement meets these threshold requirements, Bunn has waived any argument the Agreement is a bona fide deferred compensation plan. See United States v. Cisneros , 846 F.3d 972, 978 (7th Cir.2017) (\"We have repeatedly and consistently held that 'perfunctory and undeveloped arguments, and arguments that are unsupported by pertinent authority, are waived.' \" (quoting United States v. Berkowitz , 927 F.2d 1376, 1384 (7th Cir.1991) ) ).\nSecond, even assuming Bunn had come forward with evidence that the change of control termination benefit meets the threshold requirements of \u00a7 359.1(d)(2), Bunn runs into another problem. Bunn did not come forward with any evidence sufficient to raise at least a material dispute of fact that the Agreement meets all seven required criteria listed in \u00a7 359.1(d)(3). Without such evidence, Bunn cannot recover the benefit as a bona fide deferred compensation plan exception to golden parachute payments.\nThe district court focused its analysis on \u00a7 359.1(d)(3)(vi) and (vii). We agree with the district court's conclusion that Bunn has not offered any evidence sufficient to raise a credible dispute that the Agreement meets these two criteria.\nSection 359.1(d)(3)(vi) requires that:\nThe insured depository institution ... has previously recognized compensation expense and accrued a liability for the benefit payments according to GAAP [ ] or segregated or otherwise set aside assets in a trust which may only be used to pay plan benefits, except that the assets of such trust may be available to satisfy claims of the institution's or holding company's creditors in the case of insolvency.\n12 C.F.R. \u00a7 359.1(d)(3)(vi). A plain reading of this provision creates two ways in which the depository institution could sufficiently identify the assets subject to a bona fide deferred compensation plan. The institution could \"recognize[ ] compensation expense and accrue[ ] a liability for the benefit payments according to GAAP,\" or the institution could \"segregate[ ] or otherwise set aside assets in a trust which may only be used to pay plan benefits.\" Id. ; see Encino Motorcars, LLC v.Navarro , --- U.S. ----, 138 S.Ct. 1134, 1141, 200 L.Ed.2d 433 (2018) (\" '[O]r' is 'almost always disjunctive.' \" (quoting United States v. Woods , 571 U.S. 31, 45, 134 S.Ct. 557, 187 L.Ed.2d 472 (2013) ) ).\nBunn argues the two bank-owned life insurance policies in his name satisfy this first pathway: Valley Bank purchased them for the express purpose of satisfying its obligations under the Agreement, they were approved in 2008 for use in this manner, and Valley Bank acknowledged it would follow GAAP applicable to these life insurance policies. Bunn also points to his testimony at his deposition that Valley Bank had listed on its general ledger an accrued liability of $4,300,000 for all of its executive employees under all of the Salary Continuation Agreements it had in place. According to Bunn, the combination of these two facts raises a credible dispute as to whether Valley Bank \"recognized compensation expense\" and \"accrued a liability\"\nfor the purpose of paying his change of control termination benefit.\nIn the district court, Bunn did not argue the life insurance policies represented the kind of asset segregation sufficient to meet this requirement: his only mention of the policies in opposing summary judgment was to \"concede[ ] that he does not have entitlement to the cash value of the bank owned life insurance based on ... the [Agreement].\" Bunn has waived this point by not arguing below that the life insurance policies themselves represented the necessary segregation of assets for this requirement. See Walker v. Groot , 867 F.3d 799, 802 (7th Cir.2017) (\"A 'party may not raise an issue for the first time on appeal.' \" (quoting Williams v. Dieball , 724 F.3d 957, 961 (7th Cir.2013) ) ).\nIn any event, the combination of the bank-owned life insurance policies and the $4,300,000 liability on Valley Bank's ledger cannot satisfy \u00a7 359.1(d)(3)(vi). Bunn has only presented evidence that Valley Bank accrued liability for all Valley Bank executives in the aggregate amount of $4,300,000. This does not indicate what accrued liability exists, if any, for Bunn pursuant to his own specific Agreement. In fact, he acknowledges the bank did not ever designate liability that is specific to him and the terms of his own potential benefits as outlined in the Agreement he signed.\nAdditionally, Bunn did not present any evidence sufficient to satisfy \u00a7 359.1(d)(3)(vii). This subsection requires that \"[p]ayments pursuant to such [bona fide deferred compensation] plans shall not be in excess of the accrued liability computed in accordance with GAAP.\" 12 C.F.R. \u00a7 359.1(d)(3)(vii). Bunn seeks approximately $240,000 for his change of control benefit, but without evidence of his own accrued liability, a court cannot evaluate whether this request exceeds the accrued liability for Bunn's plan. Cf. Mulholland , 2014 WL 2593645, at *5 (plaintiffs satisfied the bona fide deferred compensation plan exception by providing the bank's liability statements, \"which reflect the accrued balances of each [p]laintiff's benefits under the Agreements\" (emphasis added) ). And without such evidence, Bunn cannot demonstrate the Agreement, and the payment he seeks pursuant to that Agreement, satisfies the bona fide deferred compensation plan exception to golden parachute payments.\nIn sum, Bunn has not provided evidence that the benefit he seeks is anything other than a prohibited golden parachute payment. The payment is therefore prohibited under federal law, and Bunn cannot demonstrate he suffered any damages from the FDIC's disaffirmation of the Agreement.\nIII. Conclusion\nFor the foregoing reasons, we AFFIRM the judgment of the district court.\nThe Agreement sets out a calculation for the value of this benefit, which is based on the performance of River Valley Bancorp, Inc.'s stock during each year of Bunn's employment that the Agreement is in effect. River Valley Bancorp, Inc., a multi-bank holding company in Iowa, owned Valley Bank. For each plan year the company's stock value increased a specific percentage, Bunn would be entitled to receive 11.11% of his target retirement benefit ($66,667 payable for 15 years, for a total of approximately $1 million).\nThe CAMELS rating system \"evaluat[es] the soundness of financial institutions on a uniform basis\" and \"identif[ies] those institutions requiring special attention or concern.\" Uniform Financial Institutions Rating System, 62 Fed. Reg. 752-01, 752-01 (Jan. 6, 1997). A CAMELS rating of 4 indicates the institution \"generally exhibit[s] unsafe and unsound practices or conditions,\" and \"[f]ailure is a distinct possibility if the problems and weaknesses are not satisfactorily addressed and resolved.\"Id. at 753-01.\nA CAMELS rating of 5 indicates the financial institution \"exhibit[s] extremely unsafe and unsound practices or conditions\" and its \"failure is highly probable.\" 62 Fed. Reg. at 753-01 -54-01.\nCertain types of golden parachute payments are permissible pursuant to 12 C.F.R. \u00a7 359.4. Bunn does not claim that the change of control termination benefit is authorized by this specific regulation, however.\nThis term refers to \"any bank or savings association the deposits of which are insured by [the FDIC-C].\" 12 U.S.C. \u00a7 1813(c)(2).\nThis term refers to, as relevant here, \"any director, officer, employee or controlling stockholder ... of, or agent for, an insured depository institution.\" 12 U.S.C. \u00a7 1813(u)(1).\nRegarding the other criteria, because the original Agreement was signed in 2003, FDIC does not dispute that it meets the first requirement: \"[t]he plan was in effect at least one year prior\" to Valley Bank having a receiver appointed or receiving a 4 CAMELS rating. 12 C.F.R. \u00a7 359.1(d)(3)(i). However, the FDIC argues that Bunn has failed to provide any evidentiary support that the Agreement satisfies \u00a7 359.1(d)(3)(ii)-(v). We find it unnecessary to address each of these criteria individually; assuming Bunn had presented evidence that the Agreement satisfies them, the deficiencies in Bunn's presentation regarding \u00a7 359.1(d)(3)(vi)-(vii) prevent him from claiming this exception for the benefit.\n\"GAAP\" refers to generally accepted accounting principles.\nBunn does present evidence that, as of May 31, 2014, the value of the Massachusetts Mutual Life Insurance Company policy in his name was $230,854.89, and the value of the New York Life Insurance and Annuity Corporation policy was $230,372.95. However, Bunn correctly disclaimed any right to the full value of these policies in the district court: The Agreement provided these policies were \"general asset[s]\" of Valley Bank to which Bunn had no preferred claim. And even if these policies were purchased to give the Bank the funds to pay out the benefits under the Agreement, that does not indicate what portion of those policies represents the liability accrued under the Agreement for him personally. Moreover, Bunn's proof of claim requests approximately $240,000, and his deposition testimony shows that he \"believe[d]\" the bank's holding company was hitting its target objectives such that his benefits had been accruing over the life of the Agreement. But this does not show where on its books or elsewhere Valley Bank accrued liability according to the terms of Bunn's Agreement. In other words, Bunn does not provide evidence of where Valley Bank accrued and documented the $240,000 liability he seeks.\nThe FDIC further argues that Bunn is not entitled to payment of the change of control termination benefit because 12 C.F.R. \u00a7 359.7 precludes recovery and because he did not establish a \"change of control,\" as defined in the Agreement, actually occurred. Bunn also makes various arguments challenging the adequacy of the FDIC's disaffirmation of the Agreement. Because we conclude the benefit Bunn seeks is a prohibited golden parachute payment not subject to any exception, we need not address these alternative arguments.",
+        "type": "majority",
+        "author": "Flaum, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Stephen T. Fieweger, Esq., Attorney, STEPHEN T. FIEWEGER, P.C., Davenport, IA, Jack A. Schwartz, Attorney, Rock Island, IL, James R. Bunn, Pro Se, for Plaintiff - Appellant.",
+      "John W. Guarisco, Attorney, FEDERAL DEPOSIT INSURANCE CORPORATION, Legal Division, Appellate Litigation Unit, Arlington, VA, Antony S. Burt, Attorney, SCHIFF HARDIN LLP, Chicago, IL, for Defendant - Appellee."
+    ],
+    "corrections": "",
+    "head_matter": "James R. BUNN, Plaintiff-Appellant,\nv.\nFEDERAL DEPOSIT INSURANCE CORPORATION, as receiver FOR VALLEY BANK ILLINOIS, Defendant-Appellee.\nNo. 18-1907\nUnited States Court of Appeals, Seventh Circuit.\nArgued October 31, 2018\nDecided November 8, 2018\nStephen T. Fieweger, Esq., Attorney, STEPHEN T. FIEWEGER, P.C., Davenport, IA, Jack A. Schwartz, Attorney, Rock Island, IL, James R. Bunn, Pro Se, for Plaintiff - Appellant.\nJohn W. Guarisco, Attorney, FEDERAL DEPOSIT INSURANCE CORPORATION, Legal Division, Appellate Litigation Unit, Arlington, VA, Antony S. Burt, Attorney, SCHIFF HARDIN LLP, Chicago, IL, for Defendant - Appellee.\nBefore Flaum, Easterbrook, and Brennan, Circuit Judges."
+  },
+  "file_name": "0290-01",
+  "first_page_order": 290,
+  "last_page_order": 300
+}

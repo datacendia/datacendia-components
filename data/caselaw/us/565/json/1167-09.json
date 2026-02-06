@@ -1,0 +1,59 @@
+{
+  "id": 12243530,
+  "name": "Oliver v. Hardy, Warden",
+  "name_abbreviation": "Oliver v. Hardy",
+  "decision_date": "2012-01-17",
+  "docket_number": "No. 11-7564",
+  "first_page": "1167",
+  "last_page": "1167",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1167"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.588,
+    "sha256": "fb76549f8b867f27f24cd3253b795221ea5351436606315c0b70d915222f629a",
+    "simhash": "1:a2c32c81ffdf91e6",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Oliver v. Hardy, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7564.\nOliver v. Hardy, Warden."
+  },
+  "file_name": "1167-09",
+  "first_page_order": 1249,
+  "last_page_order": 1249
+}

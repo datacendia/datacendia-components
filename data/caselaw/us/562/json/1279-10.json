@@ -1,0 +1,59 @@
+{
+  "id": 5984369,
+  "name": "Idaho v. Shackelford",
+  "name_abbreviation": "Idaho v. Shackelford",
+  "decision_date": "2011-03-07",
+  "docket_number": "No. 10-589",
+  "first_page": "1279",
+  "last_page": "1279",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1279"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 20,
+    "char_count": 138,
+    "ocr_confidence": 0.612,
+    "sha256": "e84ff6229c59ff8219108b68e1855025389dc85d86f940464b525c1653865549",
+    "simhash": "1:6616a8960949b41f",
+    "word_count": 21
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Idaho v. Shackelford."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Idaho. Motion of respondent for leave to proceed in forma pauperis granted. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-589.\nIdaho v. Shackelford."
+  },
+  "file_name": "1279-10",
+  "first_page_order": 1301,
+  "last_page_order": 1301
+}

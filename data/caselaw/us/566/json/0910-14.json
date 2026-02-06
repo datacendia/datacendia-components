@@ -1,0 +1,59 @@
+{
+  "id": 12195273,
+  "name": "Brown v. Florida",
+  "name_abbreviation": "Brown v. Florida",
+  "decision_date": "2012-03-26",
+  "docket_number": "No. 11-8489",
+  "first_page": "910",
+  "last_page": "910",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 910"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 64,
+    "ocr_confidence": 0.601,
+    "sha256": "5bd428c171b426ce53fa7d0eb12a4b72cf4e33da34991e820da97d5cad069a38",
+    "simhash": "1:265ff2427863bca7",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Brown v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Fla. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8489.\nBrown v. Florida."
+  },
+  "file_name": "0910-14",
+  "first_page_order": 786,
+  "last_page_order": 786
+}

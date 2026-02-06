@@ -1,0 +1,59 @@
+{
+  "id": 5929170,
+  "name": "Prepetit v. United States",
+  "name_abbreviation": "Prepetit v. United States",
+  "decision_date": "2011-06-13",
+  "docket_number": "No. 10-10477",
+  "first_page": "1011",
+  "last_page": "1011",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1011"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.608,
+    "sha256": "c8a2360f8adcd656b07b2b2a5e31bb6f6dda11f4744cfb5f6ffcc80b64ddf819",
+    "simhash": "1:a74be6e282ee9e16",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Prepetit v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. D. C. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10477.\nPrepetit v. United States."
+  },
+  "file_name": "1011-07",
+  "first_page_order": 1005,
+  "last_page_order": 1005
+}

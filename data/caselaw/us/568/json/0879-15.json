@@ -1,0 +1,59 @@
+{
+  "id": 12414810,
+  "name": "Lunsford v. United States",
+  "name_abbreviation": "Lunsford v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-11110",
+  "first_page": "879",
+  "last_page": "879",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 879"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.674,
+    "sha256": "22f88bbd485d1114ca7f0cb7e3570ee8519df9066fb6556cce232b726c998cae",
+    "simhash": "1:258aced0ce8d330c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lunsford v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-11110.\nLunsford v. United States."
+  },
+  "file_name": "0879-15",
+  "first_page_order": 955,
+  "last_page_order": 955
+}

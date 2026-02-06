@@ -1,0 +1,59 @@
+{
+  "id": 6012652,
+  "name": "Tyler v. United States",
+  "name_abbreviation": "Tyler v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11199",
+  "first_page": "867",
+  "last_page": "867",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 867"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.641,
+    "sha256": "104aa36907b9e4d60e9cff4c68d9bff5fd63753b35f54da32ee55c25fe7a1032",
+    "simhash": "1:e62bee692ae81717",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Tyler v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. D. C. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11199.\nTyler v. United States."
+  },
+  "file_name": "0867-04",
+  "first_page_order": 889,
+  "last_page_order": 889
+}

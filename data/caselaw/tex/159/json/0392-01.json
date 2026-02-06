@@ -1,0 +1,130 @@
+{
+  "id": 2257067,
+  "name": "C. M. Grogan et al v. J. G. Grogan et al.",
+  "name_abbreviation": "Grogan v. Grogan",
+  "decision_date": "1959-02-11",
+  "docket_number": "No. A-6969",
+  "first_page": "392",
+  "last_page": "393",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "159 Tex. 392"
+    },
+    {
+      "type": "parallel",
+      "cite": "322 S.W.2d 514"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "131 N.E. 2d 425",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "year": 1952,
+      "opinion_index": 0
+    },
+    {
+      "cite": "102 Ohio App. 508",
+      "category": "reporters:state",
+      "reporter": "Ohio App.",
+      "case_ids": [
+        1425874
+      ],
+      "year": 1952,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ohio-app/102/0508-01"
+      ]
+    },
+    {
+      "cite": "102 N.Y.S. 2d 692",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.2d",
+      "year": 1952,
+      "opinion_index": 0
+    },
+    {
+      "cite": "76 Atl. 103",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "year": 1952,
+      "opinion_index": 0
+    },
+    {
+      "cite": "227 Pa. 398",
+      "category": "reporters:state",
+      "reporter": "Pa.",
+      "case_ids": [
+        1008713
+      ],
+      "year": 1952,
+      "opinion_index": 0,
+      "case_paths": [
+        "/pa/227/0398-01"
+      ]
+    },
+    {
+      "cite": "315 S.W. 2d 34",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10159203
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/315/0034-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 168,
+    "char_count": 1521,
+    "ocr_confidence": 0.603,
+    "pagerank": {
+      "raw": 5.12982294956584e-08,
+      "percentile": 0.32240624839517673
+    },
+    "sha256": "a4ebd1a8fc3a576bbca075592900d483fe755f86cfe1c318e07658ba6226cc85",
+    "simhash": "1:6b81bcd55d7c3ddf",
+    "word_count": 267
+  },
+  "last_updated": "2024-02-27T19:26:07.846026+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "C. M. Grogan Et Al v. J. G. Grogan Et Al."
+    ],
+    "opinions": [
+      {
+        "text": "PER CURIAM:\nThis case involves the validity of two voting trusts agreements. The trial court, sitting without a jury, entered a judgment holding both trusts to be invalid. The judgment was affirmed by the Court of Civil Appeals. 315 S.W. 2d 34.\nWe do not believe the voting trusts to be invalid simply because H. N. Grogan, a settlor and the person for whose benefit it was found the trusts were executed, was himself a party to the agreement and was named as a trustee in them. See Boyer v. Nesbitt, 227 Pa. 398, 76 Atl. 103; De Marco v. Paramount Ice Corp. [Supreme Court of New York] 102 N.Y.S. 2d 692; Whiting v. Bryant, 102 Ohio App. 508, 131 N.E. 2d 425; 5 Fletcher, Corporations, Sec. 2091, p. 401 (rev. ed. 1952).\nNor do we think that the trusts were invalid merely because H. N. Grogan was the person who had the agreements drawn and who secured the signatures of most of the other settlors to the agreements.\nEven though we feel the Court of Civil Appeals did not in all respects correctly declare the law, the application presents no error which requires reversal. The application for writ of error is Refused, No Reversible Error. Rule 483, Texas Rules of Civil Procedure.\nOpinion delivered February 11, 1959.\nSmith, A. J., recused himself.\nRehearing overruled March 25, 1959.",
+        "type": "majority",
+        "author": "PER CURIAM:"
+      }
+    ],
+    "attorneys": [
+      "Carney & Mays, of Atlanta, for petitioner.",
+      "McClain & Harrell, of Conroe, for respondents."
+    ],
+    "corrections": "",
+    "head_matter": "C. M. Grogan Et Al v. J. G. Grogan Et Al.\nNo. A-6969.\nDecided February 11, 1959.\nRehearing overruled March 25, 1959.\n(322 S.W. 2d Series 514)\nCarney & Mays, of Atlanta, for petitioner.\nMcClain & Harrell, of Conroe, for respondents."
+  },
+  "file_name": "0392-01",
+  "first_page_order": 406,
+  "last_page_order": 407
+}

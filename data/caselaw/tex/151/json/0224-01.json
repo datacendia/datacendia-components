@@ -1,0 +1,597 @@
+{
+  "id": 2244778,
+  "name": "T. J. Poole, Jr., et al. v. Bascom Giles, et al.",
+  "name_abbreviation": "Poole v. Giles",
+  "decision_date": "1952-03-26",
+  "docket_number": "No. A-3272",
+  "first_page": "224",
+  "last_page": "238",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "151 Tex. 224"
+    },
+    {
+      "type": "parallel",
+      "cite": "248 S.W.2d 464"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "131 S. W. 2d. 93",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10229274,
+        2321171,
+        10229292,
+        2321124
+      ],
+      "year": 1939,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/131/0093-01",
+        "/tex/133/0615-01",
+        "/sw2d/131/0093-02",
+        "/tex/133/0606-01"
+      ]
+    },
+    {
+      "cite": "133 Texas 606",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2321124
+      ],
+      "year": 1939,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/133/0606-01"
+      ]
+    },
+    {
+      "cite": "140 S. W. 2d. 166",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10229036,
+        2317773
+      ],
+      "year": 1940,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/140/0166-01",
+        "/tex/135/0156-01"
+      ]
+    },
+    {
+      "cite": "135 Texas 156",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2317773
+      ],
+      "year": 1940,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/135/0156-01"
+      ]
+    },
+    {
+      "cite": "130 S. W. 2d. 282",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10233008,
+        2321118
+      ],
+      "year": 1939,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/130/0282-01",
+        "/tex/133/0624-01"
+      ]
+    },
+    {
+      "cite": "133 Texas 624",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2321118
+      ],
+      "year": 1939,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/133/0624-01"
+      ]
+    },
+    {
+      "cite": "123 S. W. 2d. 638",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2322521,
+        10237326
+      ],
+      "year": 1939,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/132/0354-01",
+        "/sw2d/123/0638-01"
+      ]
+    },
+    {
+      "cite": "132 Texas 354",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2322521
+      ],
+      "year": 1939,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/132/0354-01"
+      ]
+    },
+    {
+      "cite": "288 S. W. 281",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10300184,
+        10300096
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/288/0281-02",
+        "/sw/288/0281-01"
+      ]
+    },
+    {
+      "cite": "59 S. W. 2d. 372",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10244676
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/59/0372-01"
+      ]
+    },
+    {
+      "cite": "122 Texas 257",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2304262
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/122/0257-01"
+      ]
+    },
+    {
+      "cite": "239 S. W. 2d. 665",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10212536
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/239/0665-01"
+      ]
+    },
+    {
+      "cite": "68 S. W. 2d 622",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10252950
+      ],
+      "pin_cites": [
+        {
+          "page": "624"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/68/0622-01"
+      ]
+    },
+    {
+      "cite": "84 S. W. 2d 359",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10240698
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/84/0359-01"
+      ]
+    },
+    {
+      "cite": "101 A. L. R. 1393",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "87 S. W. 2d 1069",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2296185,
+        10276604
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/126/0296-01",
+        "/sw2d/87/1069-01"
+      ]
+    },
+    {
+      "cite": "99 A. L. R. 1107",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "83 S. W. 2d 935",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10260312,
+        2296185
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/83/0935-01",
+        "/tex/126/0296-01"
+      ]
+    },
+    {
+      "cite": "126 Texas 296",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2296185
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/126/0296-01"
+      ]
+    },
+    {
+      "cite": "239 S. W. 2d 706",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10213444
+      ],
+      "pin_cites": [
+        {
+          "page": "716"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/239/0706-01"
+      ]
+    },
+    {
+      "cite": "166 S. W. 2d 197",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10206198
+      ],
+      "pin_cites": [
+        {
+          "page": "199"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/166/0197-01"
+      ]
+    },
+    {
+      "cite": "152 S. W. 2d 327",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10217426,
+        2314958
+      ],
+      "year": 1939,
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/152/0327-01",
+        "/tex/137/0021-01"
+      ]
+    },
+    {
+      "cite": "137 Texas 21",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2314958
+      ],
+      "year": 1939,
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/137/0021-01"
+      ]
+    },
+    {
+      "cite": "235 S. W. 2d 630",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2330515,
+        10207380
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/149/0532-01",
+        "/sw2d/235/0630-01"
+      ]
+    },
+    {
+      "cite": "149 Texas 532",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2330515
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/149/0532-01"
+      ]
+    },
+    {
+      "cite": "292 S. W. 854",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10315313,
+        2276540
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw/292/0854-01",
+        "/tex/116/0398-01"
+      ]
+    },
+    {
+      "cite": "116 Tex. 398",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2276540
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/116/0398-01"
+      ]
+    },
+    {
+      "cite": "15 S. W. 2d 541",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10296584,
+        2273199
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/15/0541-01",
+        "/tex/118/0331-01"
+      ]
+    },
+    {
+      "cite": "118 Tex. 331",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2273199
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/118/0331-01"
+      ]
+    },
+    {
+      "cite": "32 S. W. 2d 640",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10278021
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/32/0640-01"
+      ]
+    },
+    {
+      "cite": "17 S. W. 2d 765",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2273195,
+        10277717
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/118/0485-01",
+        "/sw2d/17/0765-01"
+      ]
+    },
+    {
+      "cite": "118 Tex. 485",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2273195
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/118/0485-01"
+      ]
+    },
+    {
+      "cite": "50 S. W. 2d 1065",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2305609,
+        10262977
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/121/0515-01",
+        "/sw2d/50/1065-01"
+      ]
+    },
+    {
+      "cite": "121 Texas 515",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2305609
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/121/0515-01"
+      ]
+    },
+    {
+      "cite": "128 S. W. 108",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "220 S. W. 768",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10327170
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw/220/0768-01"
+      ]
+    },
+    {
+      "cite": "110 Texas 468",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2286427
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/110/0468-01"
+      ]
+    },
+    {
+      "cite": "82 S. W. 1025",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "98 Texas 287",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "126 S. W. 2d 953",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10251258
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/126/0953-01"
+      ]
+    },
+    {
+      "cite": "133 Texas 202",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2321119
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/133/0202-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1210,
+    "char_count": 35797,
+    "ocr_confidence": 0.59,
+    "pagerank": {
+      "raw": 2.669636079755484e-07,
+      "percentile": 0.8256691799406066
+    },
+    "sha256": "124fc1c79f40342d49e840fa6f6b91d4b704a01e33c772ed8f06a94dfabcf556",
+    "simhash": "1:53dd89c32336c7e8",
+    "word_count": 6275
+  },
+  "last_updated": "2024-02-27T19:52:08.570687+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "T. J. Poole, Jr., et al. v. Bascom Giles, et al."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Wilson\ndelivered the opinion of the Court.\nPlaintiff below (T. J. Poole, Jr., et al. and Donald K. Poole) sought and gained an injunction against the School Land Board of Texas prohibiting that body from accepting bids and executing oil and gas leases to certain land in Brazoria County, Texas. The trial court granted a temporary injunction, which, on appeal, has been dissolved. (239 S. W. 2d. 665.) Immediately thereafter the School Land Board accepted bids and executed leases upon the land in question. Plaintiffs applied for and were granted writ of error.\nAn order dissolving a temporary injunction is effective immediately even though not final. Rule 385(d), T.R.C.P.; Alpha Petroleum Co. v. Terrell, 122 Texas 257, 59 S. W. 2d. 372; Duncan v. Boyd, CCA 1926, 288 S. W. 281.\nThe temporary injunction was sought on the basis that the Board exceeded its authority. Since the injunction was dissolved at the time the Board acted, an action for contempt would not lie. It would be a vain thing for this court to reinstate the injunction when the act sought to be prohibited has already occurred. Therefore this case is moot. City of West University Place v. Martin, 132 Texas 354, 123 S. W. 2d. 638, (S. Ct. 1939) ; International Ass\u2019n. of Machinists v. Federated Ass\u2019n. of Accessory Workers, 133 Texas 624, 130 S. W. 2d. 282 (Tex. Com. App., 1939) ; West v. Culpepper, 135 Texas 156, 140 S. W. 2d. 166, (Tex. Com. App., 1940) ; Service Finance Corporation v. Grote, 133 Texas 606, 131 S. W. 2d. 93, (Tex. Com. App., 1939). Plaintiffs are not without a remedy. See Art. 5421c, Vernon\u2019s Annotated Civil Statutes, et seq.\nWe do not pass upon the merits of the controversy. The case is dismissed. International Ass\u2019n. of Machinists v. Federal Ass\u2019n. of Accessory Workers, supra.\nOpinion delivered March 26, 1952.",
+        "type": "majority",
+        "author": "Mr. Justice Wilson"
+      },
+      {
+        "text": "Mr. Justice Sharp,\njoined by Justices Griffin and Smith, dissenting.\nThe majority opinion of the Court in this case decides a question of great public importance, and involves the determination of public rights or interests under conditions which may be repeated any time. By that opinion the rights of petitioners have been destroyed, as well as the rights of others similarly situated under the theory that, based upon the facts of this case, the issues involved have become moot, and that, therefore, this Court should not determine the questions now brought before it. By dismissing the case because the action has become moot, the results of the majority opinion affect not only the rights of petitioners, but also the rights of others, not parties to the suit. The following are some of the results of the majority opinion: (1) It permits the Commissioner of the General Land Office to cancel patents that , have been regularly issued by the State, and to execute mineral leases on the lands described in said patents, even though he is not authorized by law to do so; (2) it compels owners of land acquired by patents to litigate the title to the land, at great expense, with those holding rights or leases issued by the Commissioner of the General Land Office without any authority of law; and (3) it continues in force the theory that the State is a necessary party in a suit to prevent the Commissioner of the General Land Office from cancel-ling a patent and issuing mineral leases thereon, and that such suit cannot be maintained by the owner of the land without first obtaining the consent of the State through an act of the Legislature authorizing such suit, despite Subsection (j) of Section 6 of Article 5421c, enacted in 1939.\nTo get a clear picture of the issues involved, it is necessary to review the proceedings in the trial court, the proceedings in the Court of Civil Appeals, and the proceedings in this Court. This suit was brought by T. J. Poole, Jr., and Donald K. Poole against the School Land Board and the Commissioner of the General Land Office. The Brazos Oil & Gas Company intervened, and is aligned with the respondents; and J. L. Ducros intervened, and is aligned with petitioners.\nThe facts are undisputed. The purpose of this suit by petitioners was to enjoin the School Land Board and the Commissioner of the General Land Office from leasing, or attempting to lease, for mineral development, certain areas that had been patented by the State. On February 28, 1951, the trial court enjoined the members of the Board from \u201caccepting any bid or bids for an oil and gas lease or leases on any of the area located within the boundaries of the following grants and patents in Brazoria County, Texas, heretofore issued by the State of Texas and the Republic of Mexico and State of Coahuila and Texas\u201d: (1) The Calvin Sumrels Survey dated on or about August 28, 1849, to approximately 1476 acres of land; (2) the J. H. Gamble Survey dated on or about August 30, 1847, to approximately 1476 acres of land; (3) the William H. Butler Survey dated on or about July 3, 1847, to approximately 1476 acres of land; (4) the Rebecca A. Murrie Survey dated on or about February 11, 1886, to approximately 1280 acres of land; (5) the Parker Williams Grant dated December 13, 1832, to approximately 1107 acres of land; \u201cand from granting or purporting to grant any oil and gas lease or leases on any of the area within the boundaries of said patents, surveys or grants or any of them, or otherwise clouding or encumbering the title of said plaintiffs to said area or areas * * *.\u201d\nIt was also decreed: \u201cThe Temporary Injunction herein granted shall remain in full force and effect in accordance with prayer of Plaintiffs and Plaintiff Intervenor until a Final Hearing herein on the merits of this cause at which time there shall be determined whether such injunction shall be made permanent unless and until such time as the Attorney General of the State of Texas institutes suit in a proper court to cancel and annul said patents and by such action does cancel and annul said patents insofar as they affect the lands in question.\u201d\nIt is undisputed that the areas which the Board advertised for lease for mineral development are located within the patent calls of the surveys above described, and that petitioners own interests therein. It is also undisputed that the patents issued for such surveys have never been cancelled, nor Their validity questioned by judicial proceedings, and that they were declared void by the Commissioner of the General Land Office, for the purpose of executing mineral leases thereon.\nThe Court of Civil Appeals based its decision on the case of Short v. W. T. Carter & Brother, 133 Texas 202, 126 S. W. 2d 953. That case involved the authority of the General Land Commissoiner to execute mineral leases on certain tracts as being \u201cunsold, public free school land,\u201d described in Section 8 of Chapter 271, Acts, Regular Session, 42nd Legislature, enacted in 1931, the pertinent part of which Act reads as follows: \u201cAny person who discovers an unsurveyed area of school land which has not been listed on the records of the Land Office as school loMd, and is not in actual conflict on the ground with land previously sold or appropriated and which appears on the official Land Office map as unsurveyed land, may apply in writing to the county surveyor and have the same surveyed, and after the field notes thereof have been returned to the Land Office and approved and filed with the Land Commissioner, shall have a preference right for sixty (60) days thereafter to purchase a mineral lease thereon at the minimum price fixed by the Land Commissioner, in addition to the other consideration provided herein.\u201d (Emphasis supplied.) The question involved in that case was whether the Commissioner of the General Land Office was authorized to have the land described in the Morales League resurveyed, in order to ascertain if there was any land therein that was vacant and unsold. The facts show that the land was resurveyed, and that a vacancy of about 3000 acres was discovered. The question of declaring patents void without judicial process was not involved in that case.\nIt was held in the Short case that the plea to the Jurisdiction filed by the Commissioner of the General Land Office as being in effect a suit against the State should have been sustained, and the judgment of the trial court was reversed, and the temporary injunction issued by the trial court was dissolved. The Court of Civil Appeals in this case felt that the decision in the Short case controlled its decision, and so stated in its opinion, and it reversed and rendered the cause against petitioners by dismissing the suit, and dissolved the temporary injunction issued by the trial court.\nArticle 5420 expresses the public policy of this State relating to public lands held, occupied, or claimed by adverse claimants, and it places the duty upon the Attorney General to institute suit therefor. The applicable part of the Article reads: \u201cWhen any public lands are held, occupied, or claimed by any person, association or corporation, adversely to the State, or to any fund or when lands are forfeited to the State for any cause, the Attorney General shall institute suit therefor * * *.\u201d\nIt is undisputed that petitioners claim the land described in the patents issued thereon, and that no action has been instituted in the courts to cancel the patents. It is also undisputed that no one has claimed that there is a vacancy or an excess in such surveys subject to be leased by the State for mineral development, as was done in the Short case; but it is contended that the authority to support the action of the Commissioner of the General Land Office is found in Sections 8 and 8-A of Article 5421c and Article 5421c-5. The pertinent part of Section 8 reads: \u201cAll islands, salt water lakes, bays, inlets, marshes, and reefs owned by the State within tidewater limits, and that portion of the Gulf of Mexico within the jurisdiction of Texas, and all unsold public free school land, both surveyed and unsurveyed, shall be subject to lease by the Commissioner * * Section 8-A in part reads: \u201cThe beds of rivers and channels belonging to the State shall be subject to development by the State and to lease or contract for the recovery of petroleum oil and/or natural gas * * Article 5421e-5 provides that the islands, salt water lakes, etc., described therein \u201cbelonging to the State\u201d shall be subject to lease. (All emphases supplied.)\nIt will be noted that in Section 8 it is provided that the lands described therein \u201cowned by the State\u201d shall be subject to lease, and that in Section 8-A and Article 5421c-5 it is provided that the lands described therein \u201cbelonging to the State\u201d shall be subject to lease. Nowhere in the law is it shown that lands described in outstanding patents shall be subject to lease without first obtaining a judgment in judicial proceedings to cancel such patents.\nIn 1904 the case of Juencke v. Terrell, 98 Texas 287, 82 S. W. 1025, came to this Court for decision. Juencke, desiring to purchase a tract of 640 acres, filed his application to purchase and complied with the requirements of the statutes to make such application. Chief Justice Gaines, speaking for this Court, expressed the policy of this State with reference to lands that have been patented in the following language:\n\u201cThe Commissioner refused to approve the field notes and to classify and value the land and to place it upon the market, because the survey was \u2018in conflict with what appears to be a prior and incomplete grant of a league of land made by the governments of the States of Coahuila and Texas to Philip P. Dever.\u2019 * * *\n\u201cWe are of the opinion that where there is a dispute as between the State and another party as to the title to a tract of land, the Commissioner can not be compelled to make a sale. It is hardly within the scope of his functions or duties to pass upon titles in such cases; and we should be reluctant to hold that the Legislature intended to impose such duty upon him, in the absence of language in the statute showing clearly that intent. It is known that at the date of the original act which appropriated these lands to the school fund there were many large bodies of land lying in the State held by persons who asserted title thereto, and whose titles had never been adjudicated and were not conceded. It is unreasonable to suppose that the Legislature intended to put such lands upon the market for sale, and thus to turn loose upon the courts a flood of litigation as between the purchasers and the adverse claimants. On the contrary, we think that the purpose of the Legislature with reference to them is shown by the eighth section of the act. That section in part is as follows: 'When any of the lands described in this act, or any of the other public lands of the State held or owned by any fund, or any land in which this State or any such funds have an interest, are held, occupied or claimed by any person or association or corporation, adversely to the State, or to such fund, it shall be the duty of the Attorney General to institute suit therefor,\u2019 etc. From this we think it is to be inferred that the policy of the Legislature in reference to lands which were claimed by third parties was first to establish its title before putting them upon the market for sale; and that it was not intended that they should be sold until the controversy between the State and the claimants had been adjudicated.\u201d (Emphasis supplied.)\nIn 1920 the case of Fitzgerald v. Robison, 110 Texas 468, 220 S. W. 768, came to this Court. That case involved the power of the Commissioner of the General Land Office to issue a permit to prospect for oil and natural gas on certain lands alleged to have been unlawfully patented and to be the property of the State. The Commisisoner of the General Land Office ruled that he did not have such authority, and mandamus proceedings were instituted to compel him to issue such permit. Chief Justice Phillips, speaking for this Court, wrote the opinion in that case, and we quote the following from the opinion:\n\u201cThe land here involved was patented to Ashbel Smith in the year 1859 and it is now held under that patent. The patent has never been annulled by any suit at the hands of the State. For more than sixty years the State has recognized its validity so far as indicated by any action on its part. As between the State and other parties, therefore, the land has the status of titled land.\n\u201cWe do not think the Land Commisisoner, an executive officer, has the authority or is at liberty to disregard the patent, by his own action in effect declare it void, and grant rights in conflict with it; and he should not be compelled to do so.\n\u201cIt was for this reason that the Commissioner refused to issue the permit, and his action must be approved.\n\u201cThe Commissioner is not a judicial officer. It is not his fu\u00f1etion to annul grants of land formally made by the State, and because so made, entitled to be respected until set aside by appropriate judicial proceedings. A patent to land can only be attacked by the State or some one invested with a right prior to the patent. Dunn v. Wing, 103 Texas, 393, 128 S. W. 108.\n\u201cIf the particular land has been wrongfully patented, and it is rightfully a part of the public domain, the remedy of the State is an action in the District Court prosecuted by the Attorney General. Article 5468.\u201d\nTo support the decision in that case, Chief Justice Phillips quoted from the opinion in Juencke v. Terrell the part I quoted above.\nIn 1932 the case of State v. Bradford, 121 Texas 515, 50 S. W. 2d 1065, was decided by this Court, and in that opinion it was said:\n\u201cSo long as the patents and awards issued by the State, through its proper officers, covering the land in bed of the North Fork of Red River remain uncancelled, the Land Commissioner has no authority to annul them. To annul patents and awards is not a ministerial duty, and under the law no such duty in this respect rests upon the Land Commissioner. This requires the exercise of judicial authority. Nor has the Land Commissioner the power to permit others to acquire rights on the land covered by the patents and awards regularly issued by the proper authorities, representing the State, until the differences, if any, existing between the State and the patentees and awardees and their assignees, have been adjusted or adjudicated. The patents and awards issued by the proper officers stand as a barrier to the issuance of the mineral permits sought by Caswell and Reed. Guenther v. Robison, 118 Tex. 485, 17 S. W. 2d 765, 32 S. W. 2d 640; Ray v. Robison, 118 Tex. 331, 15 S. W. 2d 541; Fitzgerald v. Robison, 110 Tex. 468, 220 S. W. 768; O\u2019Keefe v. Robison, 116 Tex. 398, 292 S. W. 854.\u201d ,\nIn the recent case of Ohio Oil Co v. Giles, 149 Texas 532, 235 S. W. 2d 630, this Court in 1950 adhered to the prior decisions cited above.\nIn the Court of Civil Appeals it was urged in this case that the areas in question were submerged lands, and that the mineral estate in those lands comes under the terms of Article 5421c-5 and Sections 8 and 8-A of Article 5421c. I fail to find any language therein that authorizes the cancellation of patents and that mineral permits may be issued on the land described in the patents, without judicial proceedings to cancel such patents. To justify such action the language of the Act should clearly show that intent. I have found no decision upholding such theory, and neither has any decision been cited that will sustain that theory. The Court of Civil Appeals, after discussing Article 5421c-3-5, held: \u201cIn our opinion this proceeding is, in effect, a suit against the State and it not appearing that the State has given its consent to be sued in this instance, the suit cannot be maintained.\u201d\nLet us assume, for the purpose of passing upon this question, that the opinion of the court in the Short case was correct in holding that the State was a necessary party. That case involved the 1931 Act, and the opinion was rendered in 1938. The Legislature very promptly in 1939 amended the 1931 Act, and to meet the holding in that case adopted Subsection (j) of Section 6 of Article 5421c, which reads:\n\u201cAny person, firm, or corporation aggrieved by any action taken by the Commissioner under the provisions of this Act, or with reference to any application to purchase or lease vacancies, may institute suit in the District Court of the county where any part of the land is situated, but not elsewhere, and there try the issues of boundary, title, and ownership of any alleged vacancy involved, as well as the issues of the preference rights of such person, firm, or corporation, as herein provided. The plaintiff in such suit shall within thirty (30) days after the filing thereof cause a certified copy of the original petition therein to be served by any sheriff or constable of Travis County upon the Attorney General of Texas and the Commissioner, and cause such officer\u2019s return showing said service to be filed with the papers in said cause. Whether the Attorney General answers or intervenes in said cause or institutes suit in the first instance, following the filing of such application, the venue of all such suits shall be in the county where such land, or any part thereof, is located. When such litigation shall have been prosecuted to a final judgment, said judgment shall be binding upon the State of Texas. It shall be mandatory for the Attorney General to intervene in behalf of the State in such cases.\u201d (Emphasis supplied.)\nThe emergency clause of the 1939 Act throws light on the intention of the Legislature to prevent rights acquired under patents from being destroyed by the acts of the Commissioner of the General Land Office, and that clause, section 8, reads:\n\u201cThe fact that numerous persons commonly known as \u2018Vacancy Hunters\u2019 are encouraged by existing Statutes to seek to destroy or discredit old recognized lines and landmarks and to shift surveys into other positions in order to create alleged vacancies from which they can profit, but which seldom benefit the free school fund, and that many alleged but unproven vacancies have been recently granted and sold or leased in disregard of the rights of taxpaying citizens who have long believed themselves the true owners of such land, and that many suits have been filed and are being filed to recover such areas from the people who have in some cases been occupying the same for generations, and that many suits are now on file in which the arbitrary action of the Land Commissioner in granting' vacancies will throw upon the landowners the almost impossible task in many cases of retracing the lost \u2018footsteps of the original surveyor\u2019 made fifty to one hundred years ago in order to overcome the pronouncement of the Land Commissioner that the land is vacant, and that normal development in such areas is retarded to the detriment of landowners and of the schools which depend upon tax revenues for their operation, and that good faith owners and claimants of lands are given no sufficient preference rights thereon, create an emergency and an imperative public necessity that the Constitutional Rule requiring bills to be read on three several days be, and the same is, hereby suspended, and this Act shall take effect and shall be in force from and after the date of its enactment, and it is so enacted.\u201d (Emphasis supplied.)\nSubsection (j), quoted above, was construed by this Court in the case of United Production Corporation v. Hughes, 137 Texas 21, 152 S. W. 2d 327. In that case it was said: \u201cThe recent enactment of the legislature (1939) seems to permit one whose application has been rejected to file suit, but the State is required to intervene.\u201d\nIn the case of State v. Gulf Oil Corporation, Tex. Civ. App., 166 S. W. 2d 197, 199, it was said: \u201cNow, it seems to us that the Act of 1939 was passed in the belief that the better policy was to allow one claiming under a rejected application to litigate the question of vacancy \u2014 to litigate the same in a proceeding binding upon the State; that as to the prospective application of a law there can be no question but that this deduction is correct.\u201d\nIn the recent case of Giles, Commissioner of the General Land Office, et al. v. Kretzmeier et al., Writ Refused, N. R. E., 239 S. W. 2d 706, 716, the Court of Civil Appeals said: \u201cPlaintiffs being aggrieved by the action of the Commisisoner of the G. L. 0. in declaring that such vacancy existed and approving said application, and the purpose of this cause being to determine whether a vacancy did or did not exist, they had a right to join in said cause the Commissioner and the Attorney General of this state under Article 5421c, subsection (j).\u201d\nIn construing the Act of 1939, which governs the proceedings in this case, it should not be overlooked that Section 8 and Section 8-A and Subsection (j) of Section 6 are all included in Article 5421c of the 1939 Act, and Article 5421c-5 is part of the 1941 Act, and should be construed together in connection with Article 5420. The foregoing Sections describe the land owned and belonging to the State that is subject to lease; and if there should arise any dispute or controversy about the rights acquired under patents, and it is necessary to resort to the courts to settle such dispute, Subsection (j) provides: \u201cWhen such litigation shall have been prosecuted to a final judgment, said judgment shall be binding upon the State of Texas.\u201d It also provides: \u201cIt shall be mandatory for the Attorney General to intervene in behalf of the State in such cases.\u201d The Court of Civil Appeals did not mention Subsection (j) in its opinion, and based its conclusion on the holding in the Short case. The holding of that court appears to be based upon the ground that, since the State was not a party to the suit, neither the trial court nor the Court of Civil Appeals had any jurisdiction of the cause, and all orders entered therein were ineffective. To justify such action as being correct, it must be held that the trial court and the Court of Civil Appeals did not, under Subsection (j), have jurisdiction of this case. I cannot agree to such a holding.\nI will now consider the moot question presented to this Court by Brazos Oil & Gas Company, one of the respondents. In support of its motion it is shown that the Pooles filed this suit in the district court against the School Land Board, to restrain and enjoin it from leasing, or attempting to lease, for mineral development, the lands described in their petition, until it is first determined by final judicial decree that such lands belong to the State. On February 16, 1951, the trial court issued its restraining order. Thereafter Brazos Oil & Gas Company, which was the highest bidder on the land sought to be leased, was allowed to intervene as defendant, and J. L. Ducros was allowed to intervene as plaintiff. The School Land Board was temporarily enjoined from accepting bids awarding mineral leases on the land in question. The School Land Board gave notice of appeal to the Court of Civil Appeals, and the appeal was perfected.\nOn May 9, 1951, the C irt of Civil Appeals rendered its opinion, and held that the suit was one against the State, and therefore not maintainable except under legislative sanction. That court dissolved the injunction and rendered judgment dismissing respondents\u2019 suit. The motion for rehearing filed by respondents was denied May 30, 1951. On May 9, 1951, at a later time on the same day that the Court of Civil Appeals had rendered its judgment, the School Land Board accepted the bid of the Brazos Oil & Gas Company for mineral leases on the land, and awarded mineral leases to that company covering all the land in question, and delivered said leases to that company after the entry of the judgment dated May 9, 1951. The record further discloses that after respondents\u2019 motion for rehearing was overruled by the Court of Civil Appeals on May 30, 1951, an application for writ of error was filed, as required by law, and same was granted. Brazos Oil & Gas Company filed its motion to dismiss said application because said leases are now in full force and effect and because the question is moot, and on July 25, 1951, this Court overruled said motion. Subsequent to this action of this Court, and after submission of the cause, this Court sustained such motion, and dismissed the cause for the reason that the question had become moot. The action of this Court is based upon the theory that since the injunction was dissolved at the time the School Land Board acted, it will be a vain thing to reinstate the injunction when the act sought to be prohibited has already occurred. This Court in its majority opinion holds that plaintiffs are not without remedy, and dismiss the case.\nA summary of the material facts will be helpful. The Court of Civil Appeals rendered its opinion on May 9, 1951, and on the same day the mineral leases were executed. The law allowed petitioners fifteen days within which to file a motion for rehearing, which was done as required by law, and same was overruled on May 30, 1951; and the cause reached this Court in due time on an application for writ of error, which was granted.\nThe majority opinion cites certain cases to support the conclusion that the case is moot. To review the facts of each case cited would consume much time and space, but, suffice it to say, the facts in those cases are different from the facts in this case, and do not show that a question of great public interest was involved, and they should not control here. This case involves a very important question, vital to the interests of those who hold land in this State. The majority opinion is not sustained by the public policy of this State nor by the great weight of authority and the decisions dealing with the question. Besides its sanction of the execution of mineral leases on patented lands before judgments of courts in which the causes are pending have become final, if the majority opinion is permitted to remain the law of this State it will be a constant source of litigation.\nIn determining whether a question has become moot, the courts draw a clear distinction between cases that involve important public questions and cases that involve questions that are important only to the litigants before the court. In 132 A. L. R., on page 1186, this distinction is stated, based upon an exhaustive analysis of this question by the courts in other jurisdictions. It is as follows:\n\u201cThe proposition that an appellate court may retain an appeal for hearing and determination if it involves questions of public interest even though it has become moot so far as the parties or the particular action are concerned or though the parties desire that it be dismissed, is supported, either directly or by implication, by the great weight of authority.\u201d See also 1 C. J. S., Actions, page 1017, Subsection d under Section 7.\nAfter citing many cases from many different jurisdictions supporting the rule above stated, and quoting from many of the cases, the annotation, on page 1189 of 132 A. L. R., states: \u201cCourts are more inclined to retain an appeal on the ground of public interest if the questions involved are likely to arise frequently in the future unless they are settled by a court of last resort. This appears both from cases which mention the fact that the question will arise frequently as a reason for hearing and deciding the appeal and from cases in which the fact that the question is not likely to arise again or at least not often is given as a reason for dismissing the appeal.\u201d\nPetitioners\u2019 suit is based upon the alleged grounds that the School Land Board did not have the authority to execute mineral leases on the land described in the patents, and they obtained an injunction prohibiting the School Land Board from accepting bids for leases on said land. The district court sustained their allegations, and enjoined the School Land Board from executing the mineral leases on the land. On the same day that the Court of Civil Appeals held that the courts did not have jurisdiction of the cause, for the reason that the State was not a party to the suit, the School Land Board executed the mineral leases. The execution of the leases did not constitute the whole cause of action of petitioners. Their attack on the authority of the School Land Board to execute such leases still remains. The jurisdiction of the court, under the terms of Subsection (j), to pass upon such authority having attached, the execution of the leases did not render moot the issue, wherein the public interest is obvious, of whether the School Land Board has authority to execute such leases. That issue still remains the major question before the Court to be decided.\nThe courts of this State are not inclined to declare a question moot when a matter of public importance is concerned. In the case of Brown v. Humble Oil & Refining Co., 126 Texas 296, 83 S. W. 2d 935, 99 A. L. R. 1107 (reh. den. 126 Texas, 314, 87 S. W. 2d 1069, 101 A. L. R. 1393), in dealing with that question, it was said:\n\u201cThe first question presented for decision, as was presented in the Court of Civil Appeals, is that the question involved here is moot. This contention is based upon an affidavit which shows that the well in question was completed and had been producing oil under such permit since June 28, 1933. The permit was granted on April 21, 1933, and a drilling contract was made on May 4, 1933, to drill the well. A suit was filed in the district court to set aside the permit on May 12, 1933, and, upon the execution of a bond, a temporary restraining order was entered on that date. This order was continued to May 31, 1933, and, upon a hearing thereof, the order was on June 1, 1933, dissolved. An appeal was taken to the Court of Civil Appeals, and on June 2, 1933, the appeal bond was filed. The Court of Civil Appeals correctly held that the case was not moot. This holding is sound, because the order of the Railroad Commission upon this question is subject to review by the courts. See articles 4662, 6453, 6049c, Vernon\u2019s Ann. Civ. St. Certainly under the state of this record the rights of the parties are not settled until the litigation has terminated. We overrule this contention.\u201d\nIn the case of Gulf Production Co. v. Railroad Commission, Tex. Civ. App., 84 S. W. 2d 359, it was said:\n\u201cThe injunction asked for to restrain the drilling of said well did not constitute appellant\u2019s whole cause of action. Its attack upon the validity of the Commission\u2019s order granting said permit on the grounds alleged still remain. The jurisdiction of the court over the validity of said order having attached, the completion of the well would not render moot the issue of the validity of said order. That issue, being the major question involved in the suit, still remained to be litigated. Brown v. Humble Oil & Ref. Co., 126 Texas 296, 83 S. W. 2d 935; Humble Oil & Ref. Co. v. R. R. Comm, Tex Civ App., 68 S. W. 2d 622, 624.\u201d\nArticles 6453 and 6049c, cited above, relate to the duties of the Railroad Commission and how its orders may be reviewed by the courts. Subsections 12 and 13 of Section 8-A, Subsection (j) of Section 6, of Article 5421c, and Article 5421c-5 relate to the powers of the School Land Board, and how its orders may be reviewed by the courts. A comparison of the articles relating to the Railroad Commission with those relating to the School Land Board shows a similarity of purpose.\nThe majority opinion, after holding that this case is moot and dismissing same, states that petitioners are not without a remedy, and cites them to Article 5421c. That is a very elaborate and expansive article, and deals with many subjects relating to the public lands in this State; but I can perceive no specific remedy provided therein of which petitioners can avail themselves to protect their rights, unless it be inferred therefrom that they can go into the courts and litigate their rights with the Brazos Oil & Gas Company, which holds under the mineral leases. If this be one of the results of the majority opinion, then petitioners will have to institute a suit against the Brazos Oil & Gas Company to test the validity of the mineral leases to it by the State. This would negative the policy of the law that the rights of parties should be litigated \u201cwith as great expedition and dispatch and at the least expense both to the litigants and to the state as may be practicable.\u201d See Rule 1 of the Texas Rules of Civil Procedure. Too, if petitoners are forced to do this to protect their rights, then Article 5420 and Subsection (j) of Section 6 of Article 5421c must be set aside and ignored entirely. The opinion further states that \u201cwe do not pass upon the merits of the controversy.\u201d If the cause is moot, and should be dismissed, and the merits of the controversy will not be passed upon, I see no purpose in referring petitioners to Article 5421c for their remedy.\nI think the judgment of the Court of Civil Appeals should be reversed and the judgment of the trial court should be affirmed.\nAssociate Justice Griffin and Smith joins in this dissent.\nOpinion delivered March 26, 1952.",
+        "type": "dissent",
+        "author": "Mr. Justice Sharp,"
+      }
+    ],
+    "attorneys": [
+      "Master & Pope and Alex Pope, Jr., of Angleton, for the Pooles, Petitioners, and Rucks, Enlow & Kee, and Floyd Enlow of Angleton, for J. L. Ducroz, Intervenor.",
+      "Price Daniel, Attorney General, Charles D. Mathews, Jesse P. Luton, Jr., and E. Jacobson, Assistants Attorney General, for the Land Board, and J. P. Bryan, Guy L. Nevill, Roy L. Merrill, Bell, Ryche & Bell, W. C. Dyche, Jr., and Sourgeon E. Bell, all of Houston, for Brazos Oil & Gas Co., respondents."
+    ],
+    "corrections": "",
+    "head_matter": "T. J. Poole, Jr., et al. v. Bascom Giles, et al.\nNo. A-3272.\nDecided March 26, 1952.\nRehearing overruled May 21, 1952.\n(248 S. W., 2d Series, 464.)\nMaster & Pope and Alex Pope, Jr., of Angleton, for the Pooles, Petitioners, and Rucks, Enlow & Kee, and Floyd Enlow of Angleton, for J. L. Ducroz, Intervenor.\nPrice Daniel, Attorney General, Charles D. Mathews, Jesse P. Luton, Jr., and E. Jacobson, Assistants Attorney General, for the Land Board, and J. P. Bryan, Guy L. Nevill, Roy L. Merrill, Bell, Ryche & Bell, W. C. Dyche, Jr., and Sourgeon E. Bell, all of Houston, for Brazos Oil & Gas Co., respondents."
+  },
+  "file_name": "0224-01",
+  "first_page_order": 240,
+  "last_page_order": 254
+}

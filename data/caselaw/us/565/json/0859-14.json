@@ -1,0 +1,59 @@
+{
+  "id": 12208494,
+  "name": "Huber v. United States",
+  "name_abbreviation": "Huber v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10969",
+  "first_page": "859",
+  "last_page": "859",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 859"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.759,
+    "sha256": "ab01c534621b8341081f73b15eff2b0621da8a841371cc9e7aa98d9292dbf9d0",
+    "simhash": "1:869ab6824e9f1838",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Huber v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10969.\nHuber v. United States."
+  },
+  "file_name": "0859-14",
+  "first_page_order": 941,
+  "last_page_order": 941
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12415718,
+  "name": "Anderson v. California",
+  "name_abbreviation": "Anderson v. California",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5324",
+  "first_page": "907",
+  "last_page": "907",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 907"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 85,
+    "ocr_confidence": 0.642,
+    "sha256": "8e908da2dea3897690c61e4d8752075e1af2970cbfa608f63da445220ca9c11d",
+    "simhash": "1:310dd2a013832a03",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Anderson v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 2d App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5324.\nAnderson v. California."
+  },
+  "file_name": "0907-03",
+  "first_page_order": 983,
+  "last_page_order": 983
+}

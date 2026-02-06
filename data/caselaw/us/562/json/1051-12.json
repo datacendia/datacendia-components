@@ -1,0 +1,59 @@
+{
+  "id": 6025633,
+  "name": "Roe v. United States",
+  "name_abbreviation": "Roe v. United States",
+  "decision_date": "2010-11-15",
+  "docket_number": "No. 10-7014",
+  "first_page": "1051",
+  "last_page": "1051",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1051"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 69,
+    "ocr_confidence": 0.554,
+    "sha256": "337d2d9202ab09ed8196975965505fe58de6134b49e830540a5c6d47b7b63ab5",
+    "simhash": "1:b71af263ce8e9849",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Roe v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7014.\nRoe v. United States."
+  },
+  "file_name": "1051-12",
+  "first_page_order": 1073,
+  "last_page_order": 1073
+}

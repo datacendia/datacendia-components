@@ -1,0 +1,59 @@
+{
+  "id": 6027051,
+  "name": "Womble v. Arizona",
+  "name_abbreviation": "Womble v. Arizona",
+  "decision_date": "2010-12-13",
+  "docket_number": "No. 10-7031",
+  "first_page": "1114",
+  "last_page": "1114",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1114"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 66,
+    "ocr_confidence": 0.653,
+    "sha256": "d59ce250b4d5fdab546d727c534f90c1d1db9a1a444f69d2b38b9376ff3a6f6a",
+    "simhash": "1:2a3d15bfcd24bd51",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Womble v. Arizona."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ariz. Certiorari\ndenied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7031.\nWomble v. Arizona."
+  },
+  "file_name": "1114-02",
+  "first_page_order": 1136,
+  "last_page_order": 1136
+}

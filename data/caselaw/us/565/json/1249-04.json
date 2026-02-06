@@ -1,0 +1,59 @@
+{
+  "id": 12250478,
+  "name": "Randolph v. California et al.",
+  "name_abbreviation": "Randolph v. California",
+  "decision_date": "2012-03-05",
+  "docket_number": "No. 11-8158",
+  "first_page": "1249",
+  "last_page": "1249",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1249"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 77,
+    "ocr_confidence": 0.667,
+    "sha256": "f135c4a53f0bd8d360547eb6133ab0473ea3ff5c753351d358980cde90e5a8ec",
+    "simhash": "1:10c220a97bc7e07b",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Randolph v. California et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8158.\nRandolph v. California et al."
+  },
+  "file_name": "1249-04",
+  "first_page_order": 1331,
+  "last_page_order": 1331
+}

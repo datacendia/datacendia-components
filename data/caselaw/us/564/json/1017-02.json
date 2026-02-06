@@ -1,0 +1,59 @@
+{
+  "id": 5932675,
+  "name": "In re Discipline of Silva",
+  "name_abbreviation": "In re Discipline of Silva",
+  "decision_date": "2011-06-20",
+  "docket_number": "No. D-2597",
+  "first_page": "1017",
+  "last_page": "1017",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1017"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 41,
+    "char_count": 277,
+    "ocr_confidence": 0.498,
+    "sha256": "35b7b48e4eb8067889e58e1a8c7e09e9a443b3b026422ae268945eeba1044b18",
+    "simhash": "1:688a21b63fde372b",
+    "word_count": 53
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of Silva."
+    ],
+    "opinions": [
+      {
+        "text": "Zoila I. Silva, of New York, N. Y., is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2597.\nIn re Discipline of Silva."
+  },
+  "file_name": "1017-02",
+  "first_page_order": 1011,
+  "last_page_order": 1011
+}

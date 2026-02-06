@@ -1,0 +1,735 @@
+{
+  "id": 12522294,
+  "name": "UNITED STATES of America, Plaintiff - Appellee v. Jim C. HODGE; Allquest Home Mortgage Corporation, formerly known as Allied Home Mortgage Corporation; Americus Mortgage Corporation, formerly known as Allied Home Mortgage Capital Corporation, Defendants - Appellants",
+  "name_abbreviation": "United States v. Hodge",
+  "decision_date": "2019-08-08",
+  "docket_number": "No. 17-20720",
+  "first_page": "468",
+  "last_page": "481",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "933 F.3d 468"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "5th Cir.",
+    "id": 8820,
+    "name": "United States Court of Appeals for the Fifth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "44 F.3d 256",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7413104
+      ],
+      "year": 1995,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/44/0256-01"
+      ]
+    },
+    {
+      "cite": "526 U.S. 137",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11132917
+      ],
+      "weight": 3,
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "149"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/526/0137-01"
+      ]
+    },
+    {
+      "cite": "242 F.3d 567",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11126075
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "581",
+          "parenthetical": "quoting Kumho Tire Co. v. Carmichael , 526 U.S. 137, 149, 119 S.Ct. 1167, 143 L.Ed.2d 238 (1999) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/242/0567-01"
+      ]
+    },
+    {
+      "cite": "683 F.3d 105",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3895173
+      ],
+      "weight": 4,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "125"
+        },
+        {
+          "page": "126"
+        },
+        {
+          "page": "128"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/683/0105-01"
+      ]
+    },
+    {
+      "cite": "24 C.F.R. \u00a7 203.5",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "pin_cites": [
+        {
+          "page": "(c)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "826 F.2d 420",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1741528
+      ],
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "422"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/826/0420-01"
+      ]
+    },
+    {
+      "cite": "507 U.S. 725",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6237509
+      ],
+      "weight": 3,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "733"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/507/0725-01"
+      ]
+    },
+    {
+      "cite": "442 F.3d 382",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1063999
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "384",
+          "parenthetical": "quoting United States v. Olano , 507 U.S. 725, 733, 113 S.Ct. 1770, 123 L.Ed.2d 508 (1993) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/442/0382-01"
+      ]
+    },
+    {
+      "cite": "602 F.3d 346",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3920900
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "350-51"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/602/0346-01"
+      ]
+    },
+    {
+      "cite": "302 F.3d 448",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11437089
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "461"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/302/0448-01"
+      ]
+    },
+    {
+      "cite": "288 F.3d 239",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9436764
+      ],
+      "weight": 2,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "244"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/288/0239-01"
+      ]
+    },
+    {
+      "cite": "604 F.3d 840",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6054067
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "844"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/604/0840-01"
+      ]
+    },
+    {
+      "cite": "600 F.3d 389",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4224630
+      ],
+      "weight": 2,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "423"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/600/0389-01"
+      ]
+    },
+    {
+      "cite": "822 F.3d 194",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4282585
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "201",
+          "parenthetical": "quoting Rodriguez , 242 F.3d at 581 "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/822/0194-01"
+      ]
+    },
+    {
+      "cite": "509 U.S. 579",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        355769
+      ],
+      "weight": 7,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "594-95"
+        },
+        {
+          "page": "595"
+        },
+        {
+          "page": "596"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/509/0579-01"
+      ]
+    },
+    {
+      "cite": "515 U.S. 506",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1564227
+      ],
+      "weight": 3,
+      "year": 1995,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/515/0506-01"
+      ]
+    },
+    {
+      "cite": "29 F.3d 973",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1840501
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "982"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/29/0973-01"
+      ]
+    },
+    {
+      "cite": "920 F.2d 1241",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10547946
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "1246"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/920/1241-01"
+      ]
+    },
+    {
+      "cite": "788 F.3d 463",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4229898
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "476",
+          "parenthetical": "quoting United States v. Lopez-Escobar , 920 F.2d 1241, 1246 (5th Cir. 1991) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/788/0463-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7\u00a7 1006",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "600 F.3d 434",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4224465
+      ],
+      "year": 2010,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/600/0434-01"
+      ]
+    },
+    {
+      "cite": "80 F.3d 1074",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7641676
+      ],
+      "weight": 2,
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "1077"
+        },
+        {
+          "page": "1077"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/80/1074-01"
+      ]
+    },
+    {
+      "cite": "553 U.S. 639",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3674023
+      ],
+      "weight": 3,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "654"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/553/0639-01"
+      ]
+    },
+    {
+      "cite": "134 S.Ct. 1710",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12706995,
+        12579853
+      ],
+      "weight": 4,
+      "year": 2014,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/572/0434-01",
+        "/s-ct/134/1710-01"
+      ]
+    },
+    {
+      "cite": "572 U.S. 434",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12706995
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "445"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/572/0434-01"
+      ]
+    },
+    {
+      "cite": "568 F.2d 347",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        909946
+      ],
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "352"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/568/0347-01"
+      ]
+    },
+    {
+      "cite": "645 F.2d 473",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1213109
+      ],
+      "weight": 4,
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "476"
+        },
+        {
+          "page": "476"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/645/0473-01"
+      ]
+    },
+    {
+      "cite": "873 F.3d 999",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12266530
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1008"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/873/0999-01"
+      ]
+    },
+    {
+      "cite": "136 S. Ct. 1989",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12597555
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "2002"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/136/1989-01"
+      ]
+    },
+    {
+      "cite": "575 F.3d 458",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4035283
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "468"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/575/0458-01"
+      ]
+    },
+    {
+      "cite": "689 F.3d 470",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3500433
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "475"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/689/0470-01"
+      ]
+    },
+    {
+      "cite": "872 F.3d 645",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12265783
+      ],
+      "weight": 3,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "653-54",
+          "parenthetical": "quoting Gonzalez v. Fresenius Med. Care N. Am. , 689 F.3d 470, 475 (5th Cir. 2012) "
+        },
+        {
+          "page": "661",
+          "parenthetical": "emphasis omitted"
+        },
+        {
+          "page": "663"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/872/0645-01"
+      ]
+    },
+    {
+      "cite": "873 F.3d 500",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12264924
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "504"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/873/0500-01"
+      ]
+    },
+    {
+      "cite": "11 F.3d 1316",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11328837
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "1322"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/11/1316-01"
+      ]
+    },
+    {
+      "cite": "247 F.3d 229",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11106749
+      ],
+      "weight": 3,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "235",
+          "parenthetical": "citations omitted"
+        },
+        {
+          "page": "235",
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/247/0229-01"
+      ]
+    },
+    {
+      "cite": "31 U.S.C. \u00a7\u00a7 3729",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "(a)(1)(A)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "24 C.F.R. \u00a7 202.8",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1490,
+    "char_count": 34386,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2595008434854696
+    },
+    "sha256": "7d05de1d696849051fa15b46febf5c9b3bd77e219337328e71bed5a2cdfaf9c0",
+    "simhash": "1:f360fb22afbdff41",
+    "word_count": 5466
+  },
+  "last_updated": "2024-02-27T18:36:46.175025+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before BARKSDALE, SOUTHWICK, and HAYNES, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff - Appellee\nv.\nJim C. HODGE; Allquest Home Mortgage Corporation, formerly known as Allied Home Mortgage Corporation; Americus Mortgage Corporation, formerly known as Allied Home Mortgage Capital Corporation, Defendants - Appellants"
+    ],
+    "opinions": [
+      {
+        "text": "LESLIE H. SOUTHWICK, Circuit Judge:\nAfter a five-week trial on False Claims Act and Financial Institutions Reform, Recovery and Enforcement Act claims, the government secured judgments and penalties that totaled nearly $300 million. On appeal, the defendants challenge the sufficiency of the evidence, the admissibility of the government's expert evidence, and the district court's dismissal of a juror shortly before the remaining jurors reached their verdict. We AFFIRM.\nFACTUAL AND PROCEDURAL BACKGROUND\nThe Federal Housing Agency (\"FHA\") mortgage insurance program insures participating lenders against any losses on qualifying mortgage loans, which are primarily loans to first-time homebuyers.\nJim Hodge was the owner and chief executive officer of defendants Allied Home Mortgage Capital Corporation (\"Allied Capital\") and Allied Home Mortgage Corporation (\"Allied Corporation\"). Both companies participated in the FHA insurance program but in different ways.\nAllied Capital was a loan correspondent, meaning it could originate loans but was not permitted to hold loans. 24 C.F.R. \u00a7 202.8(a). Instead, information it collected was forwarded to Allied Corporation, the lender or mortgagee responsible for underwriting and funding the loan. Id. \u00a7 202.7(a). As a loan correspondent, Allied Capital was required to obtain Department of Housing and Urban Development (\"HUD\") approval for each branch office where it originated loans.\nParticipating lenders must submit a loan file to HUD to be endorsed for FHA insurance. Loan files submitted to HUD for endorsement are accompanied by Form 92900-A. That form requires the unique registration number for the originating branch as well as certification that the loan is eligible for insurance and compliant with HUD underwriting guidelines. Allied Corporation was a participant in HUD's \"direct endorsement lender\" program, which authorized it to determine eligibility on HUD's behalf by certifying that a given loan met FHA guidelines.\nIn 2011, an Allied Capital branch manager filed a qui tam action under the False Claims Act (\"FCA\") alleging that the defendants had defrauded the government by fraudulently obtaining FHA insurance for loans that later defaulted. See 31 U.S.C. \u00a7\u00a7 3729 - 33. The government exercised its right to intervene in the lawsuit. See id. \u00a7 3730(b)(2).\nOver the course of a five-week trial, the government advanced multiple theories of liability based on alleged violations of the FCA and the Financial Institutions Reform, Recovery and Enforcement Act (\"FIRREA\").\nThe jury did not immediately return a verdict, which led to a sequence of events that culminated in the district court excusing one of the jurors. The day after the juror was excused, the jury returned a verdict finding Allied Corporation liable under the FCA for misrepresentations about its compliance with FHA underwriting guidelines. See 31 U.S.C. \u00a7 3729(a)(1)(A), (B). The jury awarded $85.6 million in damages. It likewise found Hodge and Allied Capital liable under the FCA for misrepresenting that loans actually originated by unregistered \"shadow\" branches were loans instead originated by registered branches. See id. \u00a7 3729(a)(1)(B). For that violation of the FCA, the jury awarded $7.4 million in damages. Finally, the jury also found all three defendants were liable under FIRREA for false certifications about their compliance with HUD's quality control requirements. See 12 U.S.C. \u00a7 1833a(a), (c)(1).\nThe district court denied the defendants' motions for judgment as a matter of law and for a new trial. It also granted the government's post-trial motion for treble damages and civil penalties. It awarded treble damages and penalties under the FCA against Allied Capital and Hodge totaling $23.1 million, against Allied Corporation totaling $268.8 million, and FIRREA penalties of $2.2 million against each defendant.\nDISCUSSION\nWe start with analysis of the sufficiency of the evidence, then discuss the admission of expert testimony, and finally address the dismissal of a juror.\nI. Sufficiency of the Evidence\n\"A motion for judgment as a matter of law ... in an action tried by jury is a challenge to the legal sufficiency of the evidence supporting the jury's verdict.\" Flowers v. S. Reg'l Physician Servs. Inc. , 247 F.3d 229, 235 (5th Cir. 2001) (citations omitted); see also FED. R. CIV. P. 50. Our review of the ruling on such a motion is de novo , using the same analysis as the district court that the motion should be granted if \"there is no legally sufficient evidentiary basis for a reasonable jury to have found for that party with respect to that issue.\" Flowers , 247 F.3d at 235 (citation omitted). Granting the motion requires that the \"facts and inferences point 'so strongly and overwhelmingly in the movant's favor that reasonable jurors could not reach a contrary conclusion.' \" Id. (quoting Omnitech Int'l, Inc. v. Clorox Co. , 11 F.3d 1316, 1322 (5th Cir. 1994) ). \"The district court's damages and penalty determinations are reviewed for an abuse of discretion.\" SEC v. Kahlon , 873 F.3d 500, 504 (5th Cir. 2017).\n\"In determining whether liability attaches under the FCA, this court asks '(1) whether there was a false statement or fraudulent course of conduct; (2) made ... with ... scienter; (3) that was material; and (4) that caused the government to pay out money.' \" United States ex rel. Harman v. Trinity Indus. Inc. , 872 F.3d 645, 653-54 (5th Cir. 2017) (quoting Gonzalez v. Fresenius Med. Care N. Am. , 689 F.3d 470, 475 (5th Cir. 2012) ).\nA. False Claims Act - Unregistered Branches\nThe jury found Hodge and Allied Capital liable under the False Claims Act and awarded $7.4 million in damages for concealing that unregistered branches had originated many of the loans being endorsed for FHA insurance. Hodge and Allied Capital argue there was insufficient evidence of scienter, materiality, and causation to support the jury's verdict.\ni. Scienter\nTo prove scienter, the government must show \"the [d]efendants had (1) actual knowledge of falsity, (2) acted with deliberate ignorance of the truth or falsity of the information provided, or (3) acted with reckless disregard of the truth or falsity of the information provided.\" United States ex rel. Longhi v. United States , 575 F.3d 458, 468 (5th Cir. 2009).\nThe defendants argue there was no evidence that Hodge \"or anyone at Allied Capital ever had any form of knowledge that these entries concerning the mere identity of a branch location were 'material to a false or fraudulent claim.' \" The government, though, identifies evidence that Allied Capital, with Hodge's approval, hid the involvement of unregistered branches from HUD and that Hodge lied about them when the violations were discovered in a state audit. For example, Allied compliance chief Jeanne Stell Hammond testified that Hodge decided to continue originating loans from unregistered branches even after HUD notified them it was not permitted, and that Hodge did not want to register branches because of \"the scrutiny by HUD.\"\nThe jury could have relied on such evidence to find Hodge and Allied Capital acted with scienter.\nii. Materiality\nThe defendants argue there is insufficient evidence that the originating branch information was material. \"[T]he term 'material' means having a natural tendency to influence, or be capable of influencing, the payment or receipt of money or property,\" which requires us to evaluate \"the effect on the likely or actual behavior of the recipient of the alleged misrepresentation.\" Trinity Indus. Inc. , 872 F.3d at 661 (emphasis omitted) (quoting Universal Health Servs., Inc. v. United States ex rel. Escobar , --- U.S. ----, 136 S. Ct. 1989, 2002, 195 L.Ed.2d 348 (2016) ).\nThe gist of this inquiry is whether false representations about the originating branch for a loan induced HUD to issue insurance. The defendants rely on the fact that the form did not list the branch number as a matter certified to induce insurance; that underwriting certifications were more directly relevant; that HUD later eliminated the registration requirement; and that HUD knew about the unregistered branches when it issued insurance.\nThough the branch number was not listed as a matter certified to induce the insurance, there was testimony that the agency would not have insured loans originated by unregistered branches. The rationale for the rule was the agency's experience of higher default rates on loans from unregistered originators.\nThe information would not likely have been material if it were true that HUD knew loans were originated by unregistered branches and insured them anyway because \"continued payment by the federal government after it learns of the alleged fraud substantially increases the burden on the relator in establishing materiality.\" Trinity Indus. Inc. , 872 F.3d at 663. The evidence at trial, though, showed the opposite. The government's \"actions following its discovery of [the] fraud support, rather than undercut, a finding of materiality.\" United States v. Luce , 873 F.3d 999, 1008 (7th Cir. 2017).\nWhen HUD discovered a handful of loans originated from unregistered branches, it demanded the defendants agree to indemnify HUD in the event of claims \"due to the seriousness of the violation.\" When the full extent of the conduct became apparent, HUD promptly acted to suspend and bar Hodge and Allied Capital from the FHA program entirely. \"There was no prolonged period of acquiescence.\" Id. The defendants' assertion that the evidence showed HUD advised them to use registered branch numbers for loans originated by unregistered branches is not supported by the record.\niii. Causation\nThe defendants also challenge the sufficiency of the evidence to establish causation. The defendants argue that their incorrectly identifying the originating branch for a specific loan was not shown to have caused a specific default by a borrower. The defendants rely on caselaw that in \"a federal housing case, the United States must show that the false statements in the application were the cause of subsequent defaults.\" United States v. Miller , 645 F.2d 473, 476 (5th Cir. Unit A May 1981). In Miller , we acknowledged that not all false statements have a causal connection to a later default, but \"false statements regarding the ability of purchasers to afford housing could very well be the major factor for subsequent defaults.\" Id.\nThe defendants insist that a restrictive proximate cause inquiry is needed that connects specific false statements to individual defaults. There arguably is support for that proposal in a Miller footnote, where the court described favorably the facts of another precedent in which \"the false representations ... arguably had some relevance to the credit worthiness of the borrower as well as the value of security, and thus causal connection with the default which later occurred.\"\nId. at 476 n.3 (quoting United States v. Hibbs , 568 F.2d 347, 352 (3d Cir. 1977) ). Yet the facts of a specific case are not necessarily a limit on the legal principles.\nWe agree proximate cause is required. That is a common-law concept focused on the scope of risk and foreseeability. See Paroline v. United States , 572 U.S. 434, 445, 134 S.Ct. 1710, 188 L.Ed.2d 714 (2014). The Supreme Court has labeled proximate cause as \"a flexible concept.\" Id. at 444, 134 S.Ct. 1710 (quoting Bridge v. Phoenix Bond & Indem. Co. , 553 U.S. 639, 654, 128 S.Ct. 2131, 170 L.Ed.2d 1012 (2008) ). It \"is often explicated in terms of foreseeability or the scope of the risk created by the predicate conduct\" and \"thus serves, inter alia , to preclude liability in situations where the causal link between conduct and result is so attenuated that the consequence is more aptly described as mere fortuity.\" Id. at 445, 134 S.Ct. 1710.\nWe expect that connecting false statements and defaults with specific loans is not feasible in a case that relies on sampling and extrapolation, as does this one. The government fairly reasons that HUD linked unregistered branches to higher risks of default, and that the expert evidence showed those loans, as predicted, defaulted at higher rates. It then follows that the false statements distorted the risk perceived by HUD, which caused it to insure more loans and incur more losses than it would have otherwise.\nThis amounts to more than enough evidence for a jury to find that the false statements were a proximate cause of the losses. Viewing the risks and effects of the false statements in the aggregate reveals the relationship between the misconduct and the loss. Even if the defendants did not know which specific loans would eventually default, it was foreseeable that a higher percentage of them would result in claims.\nB. False Claims Act - Reckless Underwriting\nThe defendants also challenge the sufficiency of the evidence of scienter, materiality, and causation for the other FCA claims against Allied Corporation premised on a theory of reckless underwriting.\ni. Scienter\nThe jury could have found scienter based on, among other things, testimony that Allied Corporation's employees were aware of HUD underwriting guidelines, that the government's expert identified significant amounts of obvious and serious defects; and that management imposed impossible quotas on its underwriters.\nAllied Corporation's brief takes issue only with the expert evidence. For the reasons described later in our review of challenges to the experts, the defendants have failed to show that this evidence was unreliable. See Part II.B, infra . The jury was free to credit that testimony along with the other evidence not addressed by the defendants. See United States v. 14.38 Acres of Land , 80 F.3d 1074, 1077 (5th Cir. 1996).\nii. Materiality\nThe defendants' brief devoted two sentences to challenging the sufficiency of the evidence for materiality. The argument is conclusory, which means it is inadequately briefed and we therefore decline to discuss it further. United States v. McMillan , 600 F.3d 434, 457 n.75 (5th Cir. 2010).\niii. Causation\nThe defendants contend that the government put on no evidence that \"reckless underwriting\" caused defaults. The government's expert, though, testified explicitly about deficiently underwritten loans that resulted in claims. At the very least, \"false statements regarding the ability of purchasers to afford housing could very well be the major factor for subsequent defaults.\" Miller , 645 F.2d at 476. The jury could have found that they were such a factor here.\nC. FIRREA Penalties\nHodge challenges the jury's finding of FIRREA liability for false certifications and quality control documents. 12 U.S.C. \u00a7 1833a(a), (c) (incorporating 18 U.S.C. \u00a7\u00a7 1006, 1014 ). Hodge argues that the plain language of the statute requires him to have personally made false entries, not merely to have caused them to be made.\nHodge waived this issue when he requested a jury instruction providing for FIRREA liability if he \"made, or caused to be made\" false certifications or quality control documents. \"A party cannot complain on appeal of errors which he himself induced the district court to commit.\" McCaig v. Wells Fargo Bank (Texas), N.A. , 788 F.3d 463, 476 (5th Cir. 2015) (quoting United States v. Lopez-Escobar , 920 F.2d 1241, 1246 (5th Cir. 1991) ). Even if he had not waived the point, previous panels already held it is only necessary to have caused false entries to be made. See United States v. Beuttenmuller , 29 F.3d 973, 982 (5th Cir. 1994), overruled in part on other grounds by United States v. Gaudin , 515 U.S. 506, 115 S.Ct. 2310, 132 L.Ed.2d 444 (1995). We are required to reach the same result.\nII. Experts\nThree experts testified for the government at trial. The district court conducted a pre-trial hearing to examine the admissibility of the expert testimony pursuant to Daubert v. Merrell Dow Pharm., Inc. , 509 U.S. 579, 594-95, 113 S.Ct. 2786, 125 L.Ed.2d 469 (1993). The defendants argue that reversal is necessary because the district court failed to develop an adequate record when it denied their Daubert motions without making findings or stating its reasoning. The defendants also argue that, regardless, admitting the testimony was an abuse of discretion because the experts' methodologies were insufficiently reliable.\nA. District Court Record\nThe defendants contend that the district court abused its discretion because it did not make findings or articulate its reasoning when it summarily denied their Daubert motions. \"At a minimum, a district court must create a record of its Daubert inquiry and 'articulate its basis for admitting expert testimony.' \" Carlson v. Bioremedi Therapeutic Sys., Inc. , 822 F.3d 194, 201 (5th Cir. 2016) (quoting Rodriguez , 242 F.3d at 581 ).\nHow and when the district court expresses its reasoning can vary. The record here is sufficiently developed to analyze admissibility. This is not an instance where \"the record reflects that no Daubert inquiry took place.\" Id. The district court was closely engaged with the development of the sampling methodology relied upon by the government's experts; it heard arguments on the defendants' various Daubert motions; and it at least belatedly elaborated on its reasons for admitting the expert testimony when it later denied the defendants' motion for a new trial. Indeed, this is a particularly inappropriate case to remand to obtain the district court's reasoning as it has already been stated in its later order.\nThe district court's reasoning is clear, and we now examine the ruling.\nB. Admission of Expert Testimony\nWe \"review the admission of expert testimony for an abuse of discretion,\" which means that it \"will be upheld unless it was 'manifestly erroneous.' \" Id. at 199 (quoting United States v. Valencia , 600 F.3d 389, 423 (5th Cir. 2010) ). Even then, \"we still may affirm unless the ruling 'affected the substantial rights of the complaining party.' \" Id. (quoting Nunez v. Allstate Ins. Co. , 604 F.3d 840, 844 (5th Cir. 2010) ).\n\"[E]xpert testimony is admissible only if it is both relevant and reliable.\" Pipitone v. Biomatrix, Inc. , 288 F.3d 239, 244 (5th Cir. 2002). Factors that might inform whether testimony is reliable \"include whether the expert's theory or technique: (1) can be or has been tested; (2) has been subjected to peer review and publication; (3) has a known or potential rate of error or standards controlling its operation; and (4) is generally accepted in the relevant scientific community.\" Id.\nEven when a court \"rules that an expert's testimony is reliable, this does not necessarily mean that contradictory expert testimony is unreliable.\" FED. R. EVID . 702 advisory committee's note to 2000 amendment. Our \"focus, of course, must be solely on principles and methodology, not on the conclusions that they generate.\" Daubert , 509 U.S. at 595, 113 S.Ct. 2786. This means \"[t]he Daubert [inquiry] should not supplant trial on the merits.\" Mathis v. Exxon Corp. , 302 F.3d 448, 461 (5th Cir. 2002). \"Vigorous cross-examination, presentation of contrary evidence, and careful instruction on the burden of proof are the traditional and appropriate means of attacking shaky but admissible evidence.\" Daubert , 509 U.S. at 596, 113 S.Ct. 2786.\nThe defendants filed four separate Daubert motions in the district court. On appeal the defendants challenge the reliability of Dr. Katherine Ensor's sampling methodology, Dr. Richard Payne's re-underwriting methodology, and apparently the admission of any expert testimony about damages.\ni. Sampling Methodology\nDr. Ensor testified for the government as a statistical sampling expert. She described how she generated the stratified random samples of loan files that were then utilized by the other experts in their own analyses. The defendants' Daubert motions disputed the sampling on multiple grounds. At the Daubert hearing, the government argued that the defendants waived these challenges when they agreed to sampling during discovery.\nThe relevant chronology as to this issue is that in a November 2014 filing, the defendants objected to the government's request for all the loan files and sought to limit discovery to a \"random, statistically relevant sample size.\" In December 2014, the parties told the district court they hoped to agree on the sampling methodology to avoid unnecessary Daubert challenges.\nBy a January 2015 hearing where the district court heard from both sides' experts, the parties had agreed on the mechanics of the sampling methodology but continued to disagree about the number of loans that would be included in the sample. At this point, the government had proposed a sample consisting of 385 loans that resulted in FHA insurance claims (the \"Claim Loans\") and 106 loans that did not result in claims to HUD (the \"Non-Claim Loans\"). The defendants countered by proposing \"[u]niform sample sizes of 200 loan files\" for each category because they \"would be more quickly analyzed and more easily compared.\" The defendants similarly argued that different amounts of Claim and Non-Claim Loans would make comparisons between them \"very complex, and unnecessarily burdensome.\"\nIn other words, the defendants' objections were only to the number of loan files in each category and the burden that imposed, not to relevance or reliability. The district court then ordered the defendants to produce loan files \"pursuant to the sampling methodology as set forth by the Government.\"\nOn appeal, the defendants complain that Dr. Ensor \"failed to control for obvious causes of loan defaults\" or for the date of default, but these issues are unreviewable because they were waived. See United States v. Rodriguez , 602 F.3d 346, 350-51 (5th Cir. 2010). \"Waiver is the 'intentional relinquishment or abandonment of a known right.' \" United States v. Arviso-Mata , 442 F.3d 382, 384 (5th Cir. 2006) (quoting United States v. Olano , 507 U.S. 725, 733, 113 S.Ct. 1770, 123 L.Ed.2d 508 (1993) ). None of this came up during the extensive negotiations over the sampling methodology that would be used. The defendants' own expert informed the district court that there was no such disagreement:\nTHE COURT: So the bottom line - so I guess the bottom line we're just talking about - you're not disagreeing with the methodology, you're just really disagreeing with the numbers that are used to come up with the number of files to be sampled?\nDR. LASSITER: That is correct, Your Honor.\nThis testimony identified the argument being made now but it was not pursued. Any challenge to the sampling other than the number of files selected was waived.\nThe defendants do raise the preserved challenge to the number of Claim and Non-Claim Loans sampled, but they never explain in their brief how the amounts rendered any of the expert testimony unreliable. \"As a general rule, questions relating to the bases and sources of an expert's opinion affect the weight to be assigned that opinion rather than its admissibility and should be left for the jury's consideration.\" 14.38 Acres of Land , 80 F.3d at 1077 (quoting Viterbo v. Dow Chem. Co. , 826 F.2d 420, 422 (5th Cir. 1987) ).\nii. Re-Underwriting Methodology\nThe government called Dr. Richard Payne to testify about the FCA claims premised on Allied Corporation \"recklessly underwriting\" loans that were ineligible for FHA insurance. Dr. Payne undertook a \"re-underwriting review\" of 460 loans contained in the sample generated by Dr. Ensor. Dr. Payne ultimately concluded that 240 loans were ineligible for FHA insurance because they were deficient under the applicable HUD guidelines. The defendants claim that this testimony was unreliable because Dr. Payne \"consciously refused to apply the HUD [underwriting] standard\" and \"confect[ed] his own idiosyncratic eligibility standards.\"\nThere is nothing in the record to support the defendants' contention that Dr. Payne did not apply the HUD underwriting standards. To the contrary, Dr. Payne's report explained that he had \"instructed the re-underwriting team to review each Mortgage Loan file and compare the contents to the credit requirements from the HUD Handbooks in effect at the time, including, but not limited to, [sections] 4155.1, 4000.4 and 4150.2.\" At trial, Dr. Payne explained that the FHA supplements the HUD Handbooks with \"mortgagee letters, which usually get incorporated in the next version of the applicable underwriting guideline,\" and that any automated underwriting is covered by an FHA guide called the TOTAL Mortgage Scorecard.\nDr. Payne testified that these documents collectively represent HUD's underwriting guidelines, and that he applied them to determine whether the loans in the sample were eligible for FHA insurance. The government also introduced into evidence a spreadsheet listing the 240 loans Dr. Payne concluded had been ineligible for FHA insurance based on his finding \"a deficiency relative to the underwriting guidelines.\" For each ineligible loan, the spreadsheet included \"the Allied Home Mortgage loan number, the case number, a classification of the [deficiency] finding, a narrative describing the [deficiency] finding, and the applicable guidelines that were used.\" Importantly, the spreadsheet identified on a loan-by-loan basis the specific HUD guidelines on which Dr. Payne based his deficiency findings and eligibility conclusions.\nThe defendants do not question any specific component of Dr. Payne's methodology or any ineligibility finding for a specific loan. The defendants instead refer to a regulation that establishes the underwriting guidelines published by HUD as the minimum standard for due diligence. See 24 C.F.R. \u00a7 203.5(c). That regulation is consistent with Dr. Payne's methodology and only provides additional support for its reliability.\niii. Damages Methodology\nIn two sentences the defendants contend that \"the challenged expert testimony on FCA damages\" was irrelevant and unreliable because it \"failed to use, or even consider, the correct causation standard.\" They failed to identify specific testimony or even a specific expert they are challenging. \"We decline to review this argument as conclusory and inadequately briefed.\" McMillan , 600 F.3d at 457 n.75.\nIII. Juror No. 7\nA. The Deliberations and Discharge\nOn the second day of deliberations, the jury sent a note to the district court stating that one juror \"claim[ed] to have made up his mind,\" had stated that \"when the Government has it in for you, they will find a way to get you,\" and was wearing ear plugs to avoid hearing the \"remaining jurors try to work through the case.\" The district court instructed the jury to continue deliberating and not to disclose the contents of deliberations.\nOn the third day, the jury informed the court it was deadlocked. The defendants requested a mistrial, but the district court gave a standard Allen charge instead. See FIFTH CIRCUIT PATTERN JURY INSTRUCTIONS (CIVIL CASES) \u00a7 2.18. That afternoon, the jury sent a note that they had a \"substantial majority\" of eight jurors willing to deliberate, but still had \"one juror who refuse[d] to talk to the group\" despite the Allen charge. The note said the juror had \"shown through statements, bias and sympathy ... direct disregard of the Court's Charge.\" A second note that afternoon indicated that the juror was \"starting to make threats to peoples' (fellow jurors') physical safety,\" and that jurors were \"feeling insecure and threatened.\"\nAt this point the district court resolved to question the foreperson under oath. The foreperson explained:\nOne juror is - says that that person is - is - has made their mind up. They're not changing. And when other jurors try to engage and ask them - ask that person, Well, what is it - why do you think this way? That juror says, you know, You get a vote. I get a vote. You're not going to change my mind, and - and - and that person clams up.\nAnd then other jurors start to try to ask, Well, what - what - you know, what is it you think? How is it you think? And that person says, you know, Don't - don't push me. I believe that person said, \"Don't push me.\" But I do remember that person saying \"Hush. Hush or else.\" And I asked him - I said, \"Or else what? Are you going to do physical violence?\" And the ladies in the room took that as a threat of physical violence, that if we did not back off, this person would get violent. And they consider this person to be - one of the jurors said this person is unstable, and it - it's not a good situation.\nAt this point, the district court determined that further investigation was warranted because there was credible evidence a juror was not complying with its Allen instruction on the duty-to-deliberate. It then proceeded to question each juror individually and under oath.\nMost of the jurors testified that they were not personally threatened but felt that another juror had been specifically threatened. One juror answered that she felt threatened or uncomfortable after someone started \"downright shouting that they didn't have to [collaborate], that they were going to sit there as long as it took, that nothing was going to change their mind,\" and would \"become irate and yell ... to the point that it made [her] shaky.\"\nWhen the district court posed the standard questions to Juror No. 7, there were clear echoes of the alleged refusal to deliberate:\nTHE COURT: Are you willing to consider whether - if a substantial majority of fellow jurors disagrees with you, whether or not your position on the evidence is reasonable? That is, are you willing -\nJUROR: Yes. My - my decision is reasonable, yes.\nTHE COURT: Okay. But are you willing to consider if - if - are you willing to consider whether - if a substantial majority of fellow jurors disagrees with you, whether or not your position is in fact reasonable?\nJUROR: I say yes, my decision is reasonable.\nJuror No. 7 denied threatening anybody but admitted to wearing earplugs. After the jurors had each been questioned, the defendants renewed their motion for a mistrial. The district court denied the motion because it disagreed that the issue was \"about one lone holdout\" or \"a disagreement over the evidence\" but instead was about the juror's \"failure to follow the Court's instructions.\" It found there was credible evidence the juror had \"not participated in the deliberations\" and that \"he threatened at least one fellow juror who attempted to follow the court's instructions to deliberate.\" It pointed out that fellow jurors \"used words like 'scary,' 'felt threatened,' 'unstable' \" to describe the individual and concluded it did not \"believe [he was] telling the truth with respect to his deliberations and his compliance with the Court's order.\"\nB. Analysis\nThe defendants argue that the district court erred by denying their request for a mistrial and discharging the juror. A district court \"may excuse a juror for good cause.\" FED. R. CIV. P. 47(C). \"We review a district court's response to juror misconduct for abuse of discretion.\" United States v. Ebron , 683 F.3d 105, 125 (5th Cir. 2012).\nBased on \"the clear and credible nature of the foreperson's allegations, the district court had a sufficient basis for initiating an investigation to uncover whether a juror was in fact refusing to follow instructions.\" Id. at 126. The district court also did not abuse its discretion when it removed Juror No. 7 following that investigation.\nWe have previously declined to apply the rule used by some circuits that prohibits dismissing a juror unless there is \"no possibility\" that the failure to deliberate arises from their view of the evidence. Id. at 128. We observed that when the dismissal is due to a failure to be candid or a refusal to follow instructions, those are grounds that \"do not implicate the deliberative process.\" Id.\nHere, the district court found that Juror No. 7 had failed to follow instructions, exhibited a lack of candor during questioning, and had engaged in threatening behavior towards other jurors. Though defendants argue that this juror was removed for reasons that involve the deliberative process, there were sufficient independent reasons for his removal, namely, his lack of candor and his threatening behavior. No new rule about \"no possibility\" needs to be adopted or rejected in this case.\nAFFIRMED.\nNow known as Americus Mortgage Corporation.\nNow known as Allquest Home Mortgage Corporation.\nTo invoke this requirement, though, \"an expert's testimony, or its 'factual basis, data, principles, methods, or their application,' must be 'called sufficiently into question.' \" Rodriguez v. Riddell Sports, Inc. , 242 F.3d 567, 581 (5th Cir. 2001) (quoting Kumho Tire Co. v. Carmichael , 526 U.S. 137, 149, 119 S.Ct. 1167, 143 L.Ed.2d 238 (1999) ).\nIt is worth noting that the defendants offered no affirmative evidence in support of any of the Daubert motions, such as their own expert materials.\nIn their reply brief the defendants assert for the first time that Dr. Payne's testimony about eligibility was \"not even a relevant inquiry when it is recklessness and proximate cause that must be proved.\" \"Needless to say, we do not consider issues raised for the first time in a reply brief\" and \"the failure to provide any legal or factual analysis of an issue results in waiver of that issue.\" Cavallini v. State Farm Mut. Auto Ins. Co. , 44 F.3d 256, 260 n.9 (5th Cir. 1995).\nWe do note, however, that the government's damages expert Gordon Klein avoided any double-counting issues, and that the amounts awarded by the jury were clearly derived from his testimony.",
+        "type": "majority",
+        "author": "LESLIE H. SOUTHWICK, Circuit Judge:"
+      }
+    ],
+    "attorneys": [
+      "Jean-David Barnea, Assistant U.S. Attorney, Benjamin Henry Torrance, Assistant U.S. Attorney, U.S. Attorney's Office Southern District of New York, New York, NY, for Plaintiff-Appellee.",
+      "David Warrington, Esq., Kutak Rock, L.L.P., Washington, DC, Robert David Daniel, David M. Gunn, Beck Redden, L.L.P., Houston, TX, Laurin Howard Mills, Samek, Werther & Mills, L.L.C., Alexandria, VA, for Defendants-Appellants."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff - Appellee\nv.\nJim C. HODGE; Allquest Home Mortgage Corporation, formerly known as Allied Home Mortgage Corporation; Americus Mortgage Corporation, formerly known as Allied Home Mortgage Capital Corporation, Defendants - Appellants\nNo. 17-20720\nUnited States Court of Appeals, Fifth Circuit.\nFILED August 8, 2019\nREVISED August 9, 2019\nJean-David Barnea, Assistant U.S. Attorney, Benjamin Henry Torrance, Assistant U.S. Attorney, U.S. Attorney's Office Southern District of New York, New York, NY, for Plaintiff-Appellee.\nDavid Warrington, Esq., Kutak Rock, L.L.P., Washington, DC, Robert David Daniel, David M. Gunn, Beck Redden, L.L.P., Houston, TX, Laurin Howard Mills, Samek, Werther & Mills, L.L.C., Alexandria, VA, for Defendants-Appellants.\nBefore BARKSDALE, SOUTHWICK, and HAYNES, Circuit Judges."
+  },
+  "file_name": "0468-01",
+  "first_page_order": 468,
+  "last_page_order": 481
+}

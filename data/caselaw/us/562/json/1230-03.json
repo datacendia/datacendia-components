@@ -1,0 +1,59 @@
+{
+  "id": 5974988,
+  "name": "Lambert v. Felker, Warden",
+  "name_abbreviation": "Lambert v. Felker",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-7944",
+  "first_page": "1230",
+  "last_page": "1230",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1230"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.572,
+    "sha256": "94fb10fdb3b5c5ffe46afa5bb1f6d9d11dd271467a3ded75810052e67a85d8ea",
+    "simhash": "1:91e122a129ad24e2",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lambert v. Felker, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7944.\nLambert v. Felker, Warden."
+  },
+  "file_name": "1230-03",
+  "first_page_order": 1252,
+  "last_page_order": 1252
+}

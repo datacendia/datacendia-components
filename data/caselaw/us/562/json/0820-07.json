@@ -1,0 +1,84 @@
+{
+  "id": 5983041,
+  "name": "Kansas v. Nebraska et al.",
+  "name_abbreviation": "Kansas v. Nebraska",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 126",
+  "first_page": "820",
+  "last_page": "820",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 820"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "540 U. S. 1043",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8999361,
+        8999426,
+        8999305,
+        8999338,
+        8999404,
+        8999382,
+        8999322
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/540/1043-04",
+        "/us/540/1043-07",
+        "/us/540/1043-01",
+        "/us/540/1043-03",
+        "/us/540/1043-06",
+        "/us/540/1043-05",
+        "/us/540/1043-02"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 37,
+    "char_count": 209,
+    "ocr_confidence": 0.643,
+    "sha256": "edaa7c97f1615e8b3e02f14b790ea7c073dbd51919cf65490599543af7ed4020",
+    "simhash": "1:3e154c81fb54f66b",
+    "word_count": 39
+  },
+  "last_updated": "2024-02-27T22:51:28.129297+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Kansas v. Nebraska et al."
+    ],
+    "opinions": [
+      {
+        "text": "The Acting Solicitor General is invited to file a brief in this case expressing the views of the United States. [For earlier order herein, see, e. g., 540 U. S. 1043.]",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 126,\nOrig.\nKansas v. Nebraska et al."
+  },
+  "file_name": "0820-07",
+  "first_page_order": 842,
+  "last_page_order": 842
+}

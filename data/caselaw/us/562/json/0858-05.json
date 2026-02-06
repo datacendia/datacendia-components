@@ -1,0 +1,59 @@
+{
+  "id": 5942669,
+  "name": "Johnson v. Burris, Acting Warden, et al.",
+  "name_abbreviation": "Johnson v. Burris",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-10989",
+  "first_page": "858",
+  "last_page": "858",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 858"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 88,
+    "ocr_confidence": 0.58,
+    "sha256": "9060a11459e1d75bd86cc9a54939ad8fb7826e078fb630987cb1b1f0667081dd",
+    "simhash": "1:18186028db2fb406",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Johnson v. Burris, Acting Warden, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10989.\nJohnson v. Burris, Acting Warden, et al."
+  },
+  "file_name": "0858-05",
+  "first_page_order": 880,
+  "last_page_order": 880
+}

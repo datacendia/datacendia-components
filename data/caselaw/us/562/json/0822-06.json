@@ -1,0 +1,90 @@
+{
+  "id": 5951212,
+  "name": "Trimble v. Florida",
+  "name_abbreviation": "Trimble v. Florida",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-10157",
+  "first_page": "822",
+  "last_page": "822",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 822"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "560 U. S. 923",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12449504,
+        12449505,
+        12449506,
+        12449507,
+        12449508,
+        12449509,
+        12449685,
+        12449686,
+        12449502,
+        12449503
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/176/1217-07",
+        "/l-ed-2d/176/1218-01",
+        "/l-ed-2d/176/1218-02",
+        "/l-ed-2d/176/1218-03",
+        "/l-ed-2d/176/1218-04",
+        "/l-ed-2d/176/1218-05",
+        "/l-ed-2d/176/1241-01",
+        "/l-ed-2d/176/1241-02",
+        "/l-ed-2d/176/1217-05",
+        "/l-ed-2d/176/1217-06"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 28,
+    "char_count": 181,
+    "ocr_confidence": 0.555,
+    "sha256": "194a1ee6475ee3491a93e4682c51d153ed0ee3728ae00b9e9302ba4a6bf52ce6",
+    "simhash": "1:e2e8527ac12ccfb2",
+    "word_count": 30
+  },
+  "last_updated": "2024-02-27T22:51:28.129297+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Trimble v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 2d Dist. Motion of petitioner for reconsideration of order denying leave to proceed in forma pauperis [560 U. S. 923] denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10157.\nTrimble v. Florida."
+  },
+  "file_name": "0822-06",
+  "first_page_order": 844,
+  "last_page_order": 844
+}

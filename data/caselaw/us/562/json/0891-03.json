@@ -1,0 +1,59 @@
+{
+  "id": 5948226,
+  "name": "Marcavage v. Massachusetts",
+  "name_abbreviation": "Marcavage v. Massachusetts",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-41",
+  "first_page": "891",
+  "last_page": "891",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 891"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 73,
+    "ocr_confidence": 0.614,
+    "sha256": "7e1e5a51d2313048e9fae371a7e207a2d580c0730478266d43aa0626d441facd",
+    "simhash": "1:cd077df672c1ab12",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Marcavage v. Massachusetts."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Mass. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-41.\nMarcavage v. Massachusetts."
+  },
+  "file_name": "0891-03",
+  "first_page_order": 913,
+  "last_page_order": 913
+}

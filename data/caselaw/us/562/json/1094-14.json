@@ -1,0 +1,59 @@
+{
+  "id": 5918733,
+  "name": "Sveum v. Wisconsin",
+  "name_abbreviation": "Sveum v. Wisconsin",
+  "decision_date": "2010-12-06",
+  "docket_number": "No. 10-7083",
+  "first_page": "1094",
+  "last_page": "1094",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1094"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 66,
+    "ocr_confidence": 0.604,
+    "sha256": "9f305d5436ee6f43bcae9c8536d3d1a1261a5ca2fa38f025daea7a2f422de150",
+    "simhash": "1:0e0e593b84e4e3e5",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sveum v. Wisconsin."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Wis. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7083.\nSveum v. Wisconsin."
+  },
+  "file_name": "1094-14",
+  "first_page_order": 1116,
+  "last_page_order": 1116
+}

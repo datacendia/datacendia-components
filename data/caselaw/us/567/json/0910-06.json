@@ -1,0 +1,59 @@
+{
+  "id": 12408649,
+  "name": "Chandler v. Roncoli",
+  "name_abbreviation": "Chandler v. Roncoli",
+  "decision_date": "2012-06-11",
+  "docket_number": "No. 11-9931",
+  "first_page": "910",
+  "last_page": "910",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 910"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 69,
+    "ocr_confidence": 0.667,
+    "sha256": "6b96eb2b1a853071434da64212ccc01dd11f358d58b7e808cdc8d5ad5d8fae78",
+    "simhash": "1:d06a89821c23f5c3",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Chandler v. Roncoli."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9931.\nChandler v. Roncoli."
+  },
+  "file_name": "0910-06",
+  "first_page_order": 814,
+  "last_page_order": 814
+}

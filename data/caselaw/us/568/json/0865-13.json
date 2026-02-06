@@ -1,0 +1,59 @@
+{
+  "id": 12414370,
+  "name": "Marlow v. Supreme Court of Tennessee et al.",
+  "name_abbreviation": "Marlow v. Supreme Court of Tennessee",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10856",
+  "first_page": "865",
+  "last_page": "865",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 865"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 92,
+    "ocr_confidence": 0.659,
+    "sha256": "4f101f46a4502888ef540f75571e26f46231bd617a29690914361654bb90297e",
+    "simhash": "1:18fb521452a36e2c",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Marlow v. Supreme Court of Tennessee et al."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Tenn. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10856.\nMarlow v. Supreme Court of Tennessee et al."
+  },
+  "file_name": "0865-13",
+  "first_page_order": 941,
+  "last_page_order": 941
+}

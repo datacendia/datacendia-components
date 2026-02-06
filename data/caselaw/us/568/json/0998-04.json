@@ -1,0 +1,59 @@
+{
+  "id": 12421772,
+  "name": "Mahncke v. New York",
+  "name_abbreviation": "Mahncke v. New York",
+  "decision_date": "2012-11-05",
+  "docket_number": "No. 12-269",
+  "first_page": "998",
+  "last_page": "998",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 998"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 19,
+    "char_count": 104,
+    "ocr_confidence": 0.683,
+    "sha256": "f7637a3c028d20f7a8df9278ef2937fe874e4d58ede7158df9468c132d9487d5",
+    "simhash": "1:2cdae94c092cee06",
+    "word_count": 19
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mahncke v. New York."
+    ],
+    "opinions": [
+      {
+        "text": "App. Term, Sup. Ct. N. Y., 9th and 10th Jud. Dists. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-269.\nMahncke v. New York."
+  },
+  "file_name": "0998-04",
+  "first_page_order": 1074,
+  "last_page_order": 1074
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12412551,
+  "name": "Builes v. Coakley, Attorney General of Massachusetts",
+  "name_abbreviation": "Builes v. Coakley",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10326",
+  "first_page": "840",
+  "last_page": "840",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 840"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 102,
+    "ocr_confidence": 0.718,
+    "sha256": "d23c7db64ba97f4709b5a676d2982088de5eae90e74b1800a8fa34c67f695554",
+    "simhash": "1:054905604314706a",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Builes v. Coakley, Attorney General of Massachusetts."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10326.\nBuiles v. Coakley, Attorney General of Massachusetts."
+  },
+  "file_name": "0840-06",
+  "first_page_order": 916,
+  "last_page_order": 916
+}

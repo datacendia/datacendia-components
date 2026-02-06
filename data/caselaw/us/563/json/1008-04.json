@@ -1,0 +1,59 @@
+{
+  "id": 5934862,
+  "name": "Montello v. Ackerman",
+  "name_abbreviation": "Montello v. Ackerman",
+  "decision_date": "2011-05-23",
+  "docket_number": "No. 10-1143",
+  "first_page": "1008",
+  "last_page": "1008",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1008"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 82,
+    "ocr_confidence": 0.566,
+    "sha256": "4e02e455d27c973512a2929d90dfeefbb757a3c7614f0c7101bfe44f67e051ac",
+    "simhash": "1:1e382b1485394a1f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Montello v. Ackerman."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Ohio, Lake County. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1143.\nMontello v. Ackerman."
+  },
+  "file_name": "1008-04",
+  "first_page_order": 1034,
+  "last_page_order": 1034
+}

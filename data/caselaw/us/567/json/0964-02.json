@@ -1,0 +1,59 @@
+{
+  "id": 12413167,
+  "name": "In re Discipline of Gitomer",
+  "name_abbreviation": "In re Discipline of Gitomer",
+  "decision_date": "2012-08-31",
+  "docket_number": "No. D-2691",
+  "first_page": "964",
+  "last_page": "964",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 964"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 39,
+    "char_count": 288,
+    "ocr_confidence": 0.652,
+    "sha256": "358f54f13ce72c885409aed10ca83d4fa44f5eeda19966656b4b5507dbea3beb",
+    "simhash": "1:718233b43ffa27ee",
+    "word_count": 51
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of Gitomer."
+    ],
+    "opinions": [
+      {
+        "text": "Mark Lawrence Gitomer, of Reisterstown, Md., is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2691.\nIn re Discipline of Gitomer."
+  },
+  "file_name": "0964-02",
+  "first_page_order": 868,
+  "last_page_order": 868
+}

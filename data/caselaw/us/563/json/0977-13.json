@@ -1,0 +1,59 @@
+{
+  "id": 5941714,
+  "name": "Harris v. Illinois",
+  "name_abbreviation": "Harris v. Illinois",
+  "decision_date": "2011-05-02",
+  "docket_number": "No. 10-9268",
+  "first_page": "977",
+  "last_page": "977",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 977"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.625,
+    "sha256": "aa25ab41830507f7f2a0a1018730341ca95288d5a6efedacaf01ef1601dc8155",
+    "simhash": "1:40b9d4573d25edad",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Harris v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Ill., 1st Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9268.\nHarris v. Illinois."
+  },
+  "file_name": "0977-13",
+  "first_page_order": 1003,
+  "last_page_order": 1003
+}

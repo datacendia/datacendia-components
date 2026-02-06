@@ -1,0 +1,59 @@
+{
+  "id": 12249543,
+  "name": "Cohen v. New Jersey",
+  "name_abbreviation": "Cohen v. New Jersey",
+  "decision_date": "2012-02-27",
+  "docket_number": "No. 11-8076",
+  "first_page": "1238",
+  "last_page": "1238",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1238"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 81,
+    "ocr_confidence": 0.73,
+    "sha256": "e926d38db16b4b2ee2c1f8ccd98c0fc98a9bfe9f2035e374ea2bd2c9f097176d",
+    "simhash": "1:f5cdbe5c0be591f9",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cohen v. New Jersey."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. N. J., App. Div. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8076.\nCohen v. New Jersey."
+  },
+  "file_name": "1238-02",
+  "first_page_order": 1320,
+  "last_page_order": 1320
+}

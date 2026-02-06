@@ -1,0 +1,993 @@
+{
+  "id": 12188399,
+  "name": "ROBERTS v. SEA-LAND SERVICES, INC., et al.",
+  "name_abbreviation": "Roberts v. Sea-Land Services, Inc.",
+  "decision_date": "2012-03-20",
+  "docket_number": "No. 10-1399",
+  "first_page": "93",
+  "last_page": "119",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 93"
+    },
+    {
+      "type": "parallel",
+      "cite": "132 S. Ct. 1350"
+    },
+    {
+      "type": "parallel",
+      "cite": "182 L. Ed. 2d 341"
+    },
+    {
+      "type": "vendor",
+      "cite": "2012 U.S. LEXIS 2318"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2011-033"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "467 U. S. 837",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6209106
+      ],
+      "year": 1984,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/467/0837-01"
+      ]
+    },
+    {
+      "cite": "449 U. S. 268",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11715942
+      ],
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "269"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/449/0268-01"
+      ]
+    },
+    {
+      "cite": "595 F. 3d 447",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4215085
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "456"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/595/0447-01"
+      ]
+    },
+    {
+      "cite": "33 U. S. C. \u00a7 914",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(e)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "542 U. S. 692",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5862480
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "711, n. 9"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/542/0692-01"
+      ]
+    },
+    {
+      "cite": "662 F. 3d 1197",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3851781
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/662/1197-01"
+      ]
+    },
+    {
+      "cite": "125 F. 3d 904",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        910562
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "parenthetical": "time of order"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/125/0904-01"
+      ]
+    },
+    {
+      "cite": "625 F. 3d 1204",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3801492
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/625/1204-01"
+      ]
+    },
+    {
+      "cite": "86 Stat. 1253",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "452 F. 2d 1225",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        783845
+      ],
+      "year": 1971,
+      "pin_cites": [
+        {
+          "page": "1229"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/452/1225-01"
+      ]
+    },
+    {
+      "cite": "86 F. 3d 895",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        452681
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "900"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/86/0895-01"
+      ]
+    },
+    {
+      "cite": "154 F. 3d 1052",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11708576
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "1059"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/154/1052-01"
+      ]
+    },
+    {
+      "cite": "505 U. S. 469",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1480888
+      ],
+      "weight": 2,
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "477",
+          "parenthetical": "\"[A] person entitled to compensation need not be receiving compensation or have had an adjudication in his favor\""
+        },
+        {
+          "page": "478-479"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/505/0469-01"
+      ]
+    },
+    {
+      "cite": "533 U. S.. 167",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9312991
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "174",
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/533/0167-01"
+      ]
+    },
+    {
+      "cite": "1999 WL 35135283",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "*1",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2000 WL 35928576",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "*1",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "532 U. S. 200",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9301031
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "213"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/532/0200-01"
+      ]
+    },
+    {
+      "cite": "540 U. S. 581",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8897702
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "595",
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/540/0581-01"
+      ]
+    },
+    {
+      "cite": "33 U. S. C. \u00a7902",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(10)",
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "33 U. S. C. \u00a7\u00a7 928",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "20 CFR \u00a7 702.315",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "534 U. S. 19",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9107958
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "29"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/534/0019-01"
+      ]
+    },
+    {
+      "cite": "513 U. S. 561",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1330581
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "569"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/513/0561-01"
+      ]
+    },
+    {
+      "cite": "529 U. S. 120",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9508268
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "133",
+          "parenthetical": "\"A court must... interpret the statute 'as a symmetrical and coherent regulatory scheme'\" (quoting Gustafson v. Alloyd Co., 513 U. S. 561, 569 (1995))"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/529/0120-01"
+      ]
+    },
+    {
+      "cite": "489 U. S. 803",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12033629
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "809"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/489/0803-01"
+      ]
+    },
+    {
+      "cite": "33 U. S. C. \u00a7 906",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(d)",
+          "parenthetical": "1976 ed."
+        },
+        {
+          "page": "(c)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "440 U. S. 29",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6179141
+      ],
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "44, n. 16",
+          "parenthetical": "quoting \u00a7 906(c)'s predecessor provision, 33 U. S. C. \u00a7 906(d) (1976 ed.)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/440/0029-01"
+      ]
+    },
+    {
+      "cite": "501 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1108460
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "28",
+          "parenthetical": "Rehnquist, C. J., concurring in part and concurring in judgment"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/501/0001-01"
+      ]
+    },
+    {
+      "cite": "306 U. S. 493",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6141202
+      ],
+      "year": 1939,
+      "pin_cites": [
+        {
+          "page": "500",
+          "parenthetical": "California workers' compensation statute \"award[s] compensation for injuries to an employee\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/306/0493-01"
+      ]
+    },
+    {
+      "cite": "486 U. S. 269",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6215556
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "271",
+          "parenthetical": "Ohio statute \"awards a tax credit\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/486/0269-01"
+      ]
+    },
+    {
+      "cite": "560 U. S. 474",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3641522,
+        12454860
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "493",
+          "parenthetical": "appendix to majority opinion"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/560/0474-01",
+        "/l-ed-2d/177/0001-01"
+      ]
+    },
+    {
+      "cite": "560 U. S. 586",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12454865,
+        3641655
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "591",
+          "parenthetical": "referring to \"statutes that award attorney's fees to a prevailing party\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/177/0091-01",
+        "/us/560/0586-01"
+      ]
+    },
+    {
+      "cite": "498 U. S. 103",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6219942
+      ],
+      "weight": 2,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "108"
+        },
+        {
+          "parenthetical": "1971 ed."
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/498/0103-01"
+      ]
+    },
+    {
+      "cite": "519 U. S. 248",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11595381
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "255",
+          "parenthetical": "quoting Moskal v. United States, 498 U. S. 103, 108 (1990)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/519/0248-01"
+      ]
+    },
+    {
+      "cite": "519 U. S. 337",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11595510
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "340"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/519/0337-01"
+      ]
+    },
+    {
+      "cite": "359 U. S. 385",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6166086
+      ],
+      "year": 1959,
+      "pin_cites": [
+        {
+          "page": "389"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/359/0385-01"
+      ]
+    },
+    {
+      "cite": "564 U. S. 1066",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12451296,
+        12451297,
+        5923234,
+        5930275,
+        4332740,
+        12451301,
+        12451300,
+        12451299,
+        5925928,
+        12451298,
+        5930730,
+        12451302,
+        12451303,
+        4335311,
+        5924029,
+        5929503
+      ],
+      "year": 2011,
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/180/0939-01",
+        "/l-ed-2d/180/0939-02",
+        "/us/564/1066-06",
+        "/us/564/1066-07",
+        "/us/564/1066-08",
+        "/l-ed-2d/180/0939-06",
+        "/l-ed-2d/180/0939-05",
+        "/l-ed-2d/180/0939-04",
+        "/us/564/1066-01",
+        "/l-ed-2d/180/0939-03",
+        "/us/564/1066-02",
+        "/l-ed-2d/180/0939-07",
+        "/l-ed-2d/180/0940-01",
+        "/us/564/1066-03",
+        "/us/564/1066-05",
+        "/us/564/1066-04"
+      ]
+    },
+    {
+      "cite": "625 P. 3d 1204",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "1208",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "33 U. S. C. \u00a7\u00a7 919",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(c)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "20 CFR \u00a7\u00a7702.316",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "422 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9570
+      ],
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "4, n. 4"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/422/0001-01"
+      ]
+    },
+    {
+      "cite": "20 CFR \u00a7\u00a7702.251-702.262",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "year": 2011,
+      "opinion_index": 0
+    },
+    {
+      "cite": "461 U. S. 529",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11298883
+      ],
+      "weight": 2,
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "532"
+        },
+        {
+          "page": "534",
+          "parenthetical": "\"The term 'compensation order' in the LHWCA refers specifically to an administrative award of compensation following proceedings with respect to the claim\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/461/0529-01"
+      ]
+    },
+    {
+      "cite": "515 U. S. 291",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1564085
+      ],
+      "weight": 2,
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "294",
+          "parenthetical": "quoting \u00a7 903(a)"
+        },
+        {
+          "page": "297"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/515/0291-01"
+      ]
+    },
+    {
+      "cite": "33 U. S. C. \u00a7 901",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 Stat. 1424",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "33 U. S. C. \u00a7 930",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "33 U. S. C. \u00a7912",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "parenthetical": "describing the form, content, and timing of the necessary notice and requiring employers to designate a representative to receive the notice"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "33 U. S. C. \u00a7 914",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(a)",
+          "parenthetical": "requiring employers to pay compensation \"periodically, promptly, and directly\""
+        },
+        {
+          "page": "(e)"
+        },
+        {
+          "page": "(a)",
+          "parenthetical": "requiring employers either to pay benefits in full or to controvert \"liability to pay compensation\" at all"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "505 U. S. 469",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1480888
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "498",
+          "parenthetical": "Blackmun, J., dissenting"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/505/0469-01"
+      ]
+    },
+    {
+      "cite": "489 U. S. 803",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12033629
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "809"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/489/0803-01"
+      ]
+    },
+    {
+      "cite": "33 U. S. C. \u00a7 906",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(c)"
+        },
+        {
+          "page": "(b)(3)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "498 U. S. 103",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6219942
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "108",
+          "parenthetical": "internal quotation marks and citation omitted"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/498/0103-01"
+      ]
+    },
+    {
+      "cite": "461 U. S. 529",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11298883
+      ],
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "532"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/461/0529-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1643,
+    "char_count": 49305,
+    "ocr_confidence": 0.639,
+    "pagerank": {
+      "raw": 7.020021739196386e-07,
+      "percentile": 0.9659630735228193
+    },
+    "sha256": "5df4f0cee80250b69d7b78eaa27f6817eaf045a09de8a0fa3834f3075d9da4a2",
+    "simhash": "1:ede51dc0ddcc21b2",
+    "word_count": 7890
+  },
+  "last_updated": "2024-02-27T23:45:15.365324+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Sotomayor, J., delivered the opinion of the Court, in which Roberts, C. J., and Scalia, Kennedy, Thomas, Breyer, Alito, and Kagan, JJ., joined. Ginsburg, J., filed an opinion concurring in part and dissenting in part, post, p. 113."
+    ],
+    "parties": [
+      "ROBERTS v. SEA-LAND SERVICES, INC., et al."
+    ],
+    "opinions": [
+      {
+        "text": "Justice Sotomayor\ndelivered the opinion of the Court.\nThe Longshore and Harbor Workers\u2019 Compensation Act (LHWCA or Act), ch. 509, 44 Stat. 1424, as amended, 33 U. S. C. \u00a7 901 et seq., caps benefits for most types of disability at twice the national average weekly wage for the fiscal year in which an injured employee is \u201cnewly awarded compensation.\u201d \u00a7 906(c). We hold that an employee is \u201cnewly awarded compensation\u201d when he first becomes disabled and thereby becomes statutorily entitled to benefits, no matter whether, or when, a compensation order issues on his behalf.\nI\nA\nThe LHWCA \u201cis a comprehensive scheme to provide compensation \u2018in respect of disability or death of an employee ... if the disability or death results from an injury occurring upon the navigable waters of the United States.\u2019 \u201d Metropolitan Stevedore Co. v. Rambo, 515 U. S. 291, 294 (1995) (quoting \u00a7 903(a)); An employee\u2019s compensation depends on the severity of his disability and his preinjury pay. A totally disabled employee, for example, is entitled to two-thirds of his preinjury average weekly wage as long as he remains disabled. \u2022 \u00a7\u00a7 908(a)-(b), 910.\nSection 906, however, sets a cap on compensation. Disability benefits, \u201cshall not exceed\u201d twice \u201cthe applicable national average weekly wage.\u201d \u00a7 906(b)(1). The national average weekly wage \u2014 \u201cthe national average weekly earnings of production or nonsupervisory workers on private non-agricultural payrolls,\u201d \u00a7902(19) \u2014 is recalculated by the Secretary of Labor each fiscal year. \u00a7 906(b)(3). For most types of disability, the \u201capplicable\u201d national average weekly wage is the figure for the fiscal year in which a beneficiary is \u201cnewly awarded compensation,\u201d and the cap remains constant as long as benefits continue. \u00a7 906(c).\nConsistent with the central bargain of workers\u2019 compensation regimes \u2014 limited liability for employers; certain, prompt recovery for employees \u2014 the LHWCA requires that employers pay benefits voluntarily, without formal administrative proceedings. Once an employee provides notice of a disabling injury, his employer must pay compensation \u201cperiodically, promptly, and directly . . . without an award, except where liability to pay compensation is controverted.\u201d \u00a7 914(a). In general, employers pay benefits without contesting liability. See Pallas Shipping Agency, Ltd. v. Duris, 461 U. S. 529, 532 (1983). In the mine run of cases, therefore, no compensation orders issue.\nIf an employer controverts, or if an employee contests his employer\u2019s actions with respect to his benefits, the dispute advances to the Department of Labor\u2019s Office of Workers\u2019 Compensation Programs (OWCP). See 20 CFR \u00a7\u00a7702.251-702.262 (2011). The OWCP district directors \u201care empowered to amicably and promptly resolve such problems by informal procedures.\u201d \u00a7702.301. A district director\u2019s informal disposition may result in a compensation order. \u00a7 702.315(a). In practice, however, \u201cmany pending claims are amicably settled through voluntary payments .without the necessity of a formal order.\u201d Intercounty Constr. Corp. v. Walter, 422 U. S. 1, 4, n. 4 (1975). If informal resolution fails, the district director refers the dispute to an administrative law judge (ALJ). See 20 CFR \u00a7\u00a7702.316, 702.331-702.351. An ALJ\u2019s decision after a hearing culminates in the entry of a compensation order. 33 U. S. C. \u00a7\u00a7 919(c)-(e).\nB\nIn fiscal year 2002, petitioner Dana Roberts slipped and fell on a patch of ice while employed at respondent Sea-Land Services\u2019 marine terminal in Dutch Harbor, Alaska. Roberts injured his neck and shoulder and did not return to work. On receiving notice of his disability, Sea-Land (except for a 6-week period in 2003) voluntarily paid Roberts benefits absent a compensation order until fiscal year 2005. When Sea-Land discontinued voluntary payments, Roberts filed an LHWCA claim, and Sea-Land controverted. In fiscal year 2007, after a hearing, an ALJ awarded Roberts benefits at the statutory maximum rate of $966.08 per week. This was twice the national average weekly wage for fiscal year 2002, the fiscal year when Roberts became disabled.\nRoberts moved for reconsideration, arguing that the \u201capplicable\u201d national average weekly wage was the figure for fiscal year 2007, the fiscal year when he was \u201cnewly awarded compensation\u201d by the ALJ\u2019s order. The latter figure would have entitled Roberts to $1,114.44 per week. The ALJ denied reconsideration, and the Department of Labor\u2019s Benefits Review Board (or BRB) affirmed, concluding that \u201cthe pertinent maximum rate is determined by the date the disability commences.\u201d App. to Pet. for Cert. 20. The Ninth Circuit affirmed in relevant part, holding that an employee \u201cis \u2018newly awarded compensation\u2019 within the meaning of [\u00a7 906(c)] when he first becomes entitled to compensation.\u201d Roberts v. Director, OWCP, 625 P. 3d 1204, 1208 (2010) (per curiam). We granted certiorari, 564 U. S. 1066 (2011), to resolve a conflict among the Circuits with respect to the time when a beneficiary is \u201cnewly awarded compensation,\u201d and now affirm.\nII\nRoberts contends that \u201cawarded compensation\u201d means \u201cawarded compensation in a formal order.\u201d Sea-Land, supported by the Director, OWCP, responds that \u201cawarded compensation\u201d means \u201cstatutorily entitled to compensation because of disability.\u201d The text of \u00a7 906(c), standing alone, admits of either interpretation. But \u201cour task is to fit, if possible, all parts into an harmonious whole.\u201d FTC v. Mandel Brothers, Inc., 359 U. S. 385, 389 (1959). Only the interpretation advanced by Sea-Land and the Director makes \u00a7906 a working part of the statutory scheme; supplies an administrable rule that results in equal treatment of similarly situated beneficiaries; and avoids gamesmanship in the claims process. In light of these contextual and structural considerations, we hold that an employee is \u201cnewly awarded compensation\u201d when he first becomes disabled and thereby becomes statutorily entitled to benefits under the Act, no matter whether, or when, a compensation order issues on his behalf.\nA\nWe first consider \u201cwhether the language at issue has a plain and unambiguous meaning with regard to the particular dispute in the case.\u201d Robinson v. Shell Oil Co., 519 U. S. 337, 340 (1997). The LHWCA does not define \u201cawarded,\u201d but in construing the Act, as with any statute, \u201c\u2018we look first to its language, giving the words used their ordinary meaning.\u2019 \u201d Ingalls Shipbuilding, Inc. v. Director, Office of Workers\u2019 Compensation Programs, 519 U. S. 248, 255 (1997) (quoting Moskal v. United States, 498 U. S. 103, 108 (1990)). At first blush, Roberts\u2019 position is appealing. In ordinary usage, \u201caward\u201d most often means \u201cgive by judicial decree\u201d or \u201cassign after careful judgment.\u201d Webster\u2019s Third New International Dictionary 152 (2002); see also, e. g., Black\u2019s Law Dictionary 157 (9th ed. 2009) (\u201cgrant by formal process or by judicial decree\u201d).\nBut \u201caward\u201d can also mean \u201cgrant,\u201d or \u201cconfer or bestow upon.\u201d Webster\u2019s Third New International Dictionary, at 152; see also ibid. (1971 ed.) (same). The LHWCA \u201cgrants\u201d benefits to disabled employees, and so can be said to \u201caward\u201d compensation by force of its entitlement-creating provisions. Indeed, this Court has often said that statutes \u201caward\u201d entitlements. See, e. g., Astrue v. Ratliff, 560 U. S. 586, 591 (2010) (referring to \u201cstatutes that award attorney\u2019s fees to a prevailing party\u201d); Barber v. Thomas, 560 U. S. 474, 493 (2010) (appendix to majority opinion) (statute \u201cawards\u201d good-time credits to federal prisoners); New Energy Co. of Ind. v. Limbach, 486 U. S. 269, 271 (1988) (Ohio statute \u201cawards a tax credit\u201d); Pacific Employers Ins. Co. v. Industrial Accident Comm\u2019n, 306 U. S. 493, 500 (1939) (California workers\u2019 compensation statute \u201caward[s] compensation for injuries to an employee\u201d); see also, e. g., Connecticut v. Doehr, 501 U. S. 1, 28 (1991) (Rehnquist, C. J., concurring in part and concurring in judgment) (\u201cMaterialman\u2019s and mechanic\u2019s lien statutes award an interest in real property to workers\u201d). Similarly, this Court has described an employee\u2019s survivors as \u201chaving been \u2018newly awarded\u2019 death benefits\u201d by virtue of the employee\u2019s death, without any reference to a formal order. Director, Office of Workers\u2019 Compensation Programs v. Rasmussen, 440 U. S. 29, 44, n. 16 (1979) (quoting \u00a7 906(c)\u2019s predecessor provision, 33 U. S. C. \u00a7 906(d) (1976 ed.)).\nIn short, the text of \u00a7 906(c), in isolation, is indeterminate.\nB\nStatutory language, however, \u201ccannot be construed in a vacuum. It is a fundamental canon of statutory construction that the words of a statute must be read in their context and with a view to their place in the overall statutory scheme.\u201d Davis v. Michigan Dept. of Treasury, 489 U. S. 803, 809 (1989). In the context of the LHWCA\u2019s comprehensive, reticulated regime for worker benefits \u2014 in which \u00a7 906 plays a pivotal role \u2014 \u201cawarded compensation\u201d is much more sensibly interpreted to mean \u201cstatutorily entitled to compensation because of disability.\u201d\n1\nSection 906 governs compensation in all LHWCA cases. As explained above, see supra, at 98, the LHWCA requires employers to pay benefits voluntarily, and in the vast majority of cases, that is just what occurs. Under Roberts\u2019 interpretation of \u00a7 906(c), no employee receiving voluntary payments has been \u201cawarded compensation,\u201d so none is subject to an identifiable maximum rate of compensation. That' result is incompatible with the Act\u2019s design. Section 906(b)(1) caps \u201c[c]ompensation for disability or death (other than compensation for death required ... to be paid in a lump sum)\u201d at twice \u201cthe applicable national average weekly wage, as determined by the Secretary under paragraph (3).\u201d Section 906(b)(3), in turn, directs the Secretary to \u201cdetermine\u201d the national average weekly wage before each fiscal year begins on October 1 and provides that \u201c[s]uch determination shall be the applicable national average weekly wage\u201d for the coming fiscal year. And \u00a7 906(c), in its turn, provides that \u201c[d]eterminations under subsection (b)(3) . . . with respect to\u201d a fiscal year \u201cshall apply to ... those newly awarded compensation during such\u201d fiscal year. Through a series of cross-references, the three provisions work together to cap disability benefits.\nBy its terms, and subject to one express exception, \u00a7 906(b)(1) specifies that the cap applies globally, to all disability claims. But all three provisions interlock, so the cap functions as Congress intended only if \u00a7 906(c) also applies globally, to all such cases. See, e. g., FDA v. Brown & Williamson Tobacco Corp., 529 U. S. 120, 133 (2000) (\u201cA court must... interpret the statute \u2018as a symmetrical and coherent regulatory scheme\u2019\u201d (quoting Gustafson v. Alloyd Co., 513 U. S. 561, 569 (1995))). If Roberts\u2019 interpretation were correct, \u00a7 906(c) would have no application at all in the many cases in which no formal orders issue, because employers make voluntary payments or the parties reach informal settlements. We will not construe \u00a7 906(c) in a manner that renders it \u201centirely superfluous in all but the most unusual circumstances.\u201d TRW Inc. v. Andrews, 534 U. S. 19, 29 (2001).\nRecognizing this deficiency in his reading of \u00a7 906(c), Roberts proposes that orders issue in every case, so that employers can lock in the caps in effect at the time their employees become disabled. This is a solution in search of a problem. Under settled LHWCA practice, orders are rare. Roberts\u2019 interpretation would set needless administrative machinery in motion and would disrupt the congressionally preferred system of voluntary compensation and informal dispute resolution. The incongruity of Roberts' proposal is highlighted by his inability to identify a vehicle for the entry of an order in an uncontested case. Section 919(c), on which Roberts relies, applies only if an employee has filed a claim. Likewise, 20 CFR \u00a7 702.315(a) applies only in the case of a claim or an employer\u2019s notice of controversion. See \u00a7702.301. We doubt that an employee will file a claim for the sole purpose of assisting his employer in securing a lower cap. And we will not read \u00a7 906(c) to compel an employer to file a baseless notice of controversion. Cf. 33 U. S. C. \u00a7\u00a7 928(a), (d) (providing for assessment of attorney\u2019s fees and costs against employers who controvert unsuccessfully). Roberts suggests that employers could threaten to terminate benefits in order to induce their employees to file claims, and thus initiate the administrative process. Construing any workers\u2019 compensation regime to encourage gratuitous confrontation between employers and employees strikes us as unsound. .\n2\nUsing the national average weekly wage for the fiscal year in which an employee becomes disabled coheres with the LHWCA\u2019s administrative structure. Section 914(b) requires an employer to pay benefits within 14 days of notice of an employee\u2019s disability. To do so, an employer must be able to calculate the cap. An employer must also notify the Department of Labor of voluntary payments by filing a form that indicates, inter alia, whether the \u201cmaximum rate is being paid.\u201d Dept, of Labor, Form LS-206, Payment of Compensation Without Award (rev. Aug. 2011), online at http://www.dol.gov/owcp/dlhwc/ls-206.pdf. On receipt of this form, an OWCP claims examiner must verify the rate of compensation in light of the applicable cap. See Dept, of Labor, Longshore (DLHWC) Procedure Manual \u00a72-n201(3)(b)(3) (hereinafter Longshore Procedure Manual), online at http://www.dol.gov/owcp/dlhwe/lspm/lspm2-201.htm. It is difficult to see how an employer can apply or certify a national average weekly wage other than the one in effect at the time an employee becomes disabled. An employer is powerless to predict when an employee might file a claim, when a compensation order might issue, or what the national average weekly wage will be at that later time. Likewise for a claims examiner.\nMoreover, applying the national average weekly wage for the fiscal year in which an employee becomes disabled, advances the LHWCA\u2019s purpose to compensate disability, defined as \u201cincapacity because of injury to earn the wages which the employee was receiving at the time of injury.\u201d 33 U. S. C. \u00a7902(10) (emphasis added). Just as the LHWCA takes \u201cthe average weekly wage of the injured employee at the time of the injury\u201d as the \u201cbasis upon which to compute compensation,\u201d \u00a7 910, it is logical to apply the national average weekly wage for the same point in time. Administrative practice has long treated the time of injury as the relevant date. See, e.g., Dept, of Labor, Longshore Act Coverage and Benefits, Pamphlet LS-560 (rev. Dec. 2003) (\u201cCompensation payable under the Act may not exceed 200% of the national average weekly wage, applicable at the time of injury\u201d), online at http://www.dol.gov/owcp/dIhwc/ LS-560pam.htm; Dept, of Labor, Workers\u2019 Compensation Under the Longshoremen\u2019s Act, Pamphlet LS-560 (rev. Nov. 1979) (same); see also, e. g., Dept, of Labor, LHWCA Bulletin No. 11-01, p. 2 (2010) (national average weekly wage for particular fiscal year applies to \u201cdisability incurred during\u201d that fiscal year).\nApplying the national average weekly wage at the time of onset of disability avoids disparate treatment of similarly situated employees. Under Roberts\u2019 reading, two employees who earn the same salary and suffer the same injury on the same day could be entitled to different rates of compensation based on the happenstance of their obtaining orders in different fiscal years. We can imagine no reason why Congress would have intended, by choosing the words \u201cnewly awarded compensation,\u201d to differentiate between employees based on such an arbitrary criterion.\n8\nFinally, using the national average weekly wage for the fiscal year in which disability commences discourages gamesmanship in the claims process. If the fiscal year in which an order issues were to determine the cap, the fact that the national average weekly wage typically rises every year with inflation, see n. 2, supra, would become unduly significant. Every employee affected by the cap would seek the entry of a compensation order in a later fiscal year. Even an employee who has been receiving compensation at the proper rate for years would be well advised to file a claim for greater benefits in order to obtain an order at a later time. Likewise, an employee might delay the adjudicatory process to defer the entry of an order. And even in an adjudicated case where an employer is found to have paid benefits at the proper rate, an ALJ would adopt the later fiscal year\u2019s national average weekly wage, making the increased cap retroactively applicable to all of the employer\u2019s payments. Roberts candidly acknowledges that his position gives rise to such perverse incentives. See Tr. of Oral Arg. 58-59. We decline to adopt a rule that would reward employees with windfalls for initiating unnecessary administrative proceedings, while simultaneously punishing employers who have complied fully with their statutory obligations.\nIII\nWe find Roberts\u2019 counterarguments unconvincing.\nA\nFirst, Roberts observes that some provisions of the LHWCA clearly use \u201caward\u201d to mean \u201caward in a formal order,\u201d and contends that the same must be true of \u201cawarded compensation\u201d in \u00a7 906(c). We agree that the Act sometimes uses \u201caward\u201d as Roberts urges. Section 914(a), for example, refers to the payment of compensation \u201cto the person enti-tied thereto, without an award,\u201d foreclosing the equation of \u201centitlement\u201d and \u201caward\u201d that we adopt with respect to \u00a7 906(c) today. But the presumption that \u201cidentical words used in different parts of the same act are intended to have the same meaning . . . readily yields whenever there is such variation in the connection in which the words are used as reasonably to warrant the conclusion that they were employed in different parts of the act with different intent.\u201d General Dynamics Land Systems, Inc. v. Cline, 540 U. S. 581, 595 (2004) (internal quotation marks omitted); see also, e. g., United States v. Cleveland Indians Baseball Co., 532 U. S. 200, 213 (2001). Here, we find the presumption overcome because several provisions of the Act would make no sense if \u201caward\u201d were read as Roberts proposes. Those provisions confirm today\u2019s holding because they too, in context, use \u201caward\u201d to denote a statutory entitlement to compensation because of disability.\nFor example, \u00a7 908(c)(20) provides that \u201c[p]roper and equitable compensation not to exceed $7,500 shall be awarded for serious disfigurement.\u201d Roberts argues that \u00a7 908(e)(20) \u201cnecessarily contemplates administrative action to fix the amount of the liability and direct its payment.\u201d Reply Brief for Petitioner 11. In Roberts\u2019 view, no disfigured employee may receive benefits without invoking the administrative claims process. That argument, however, runs counter to \u00a7908\u2019s preface, which directs that \u201c[compensation for disability shall be paid to the employee,\u201d and to \u00a7 914(a), which requires the payment of compensation \u201cwithout an award.\u201d It is also belied by employers\u2019 practice of paying \u00a7 908(c)(20) benefits voluntarily. See, e. g., Williams-McDowell v. Newport News Shipbuilding & Dry Dock Co., No. 99-0627 etc., 2000 WL 35928576, *1 (BRB, Mar. 15, 2000) (per curiam); Evans v. Bergeron Barges, Inc., No. 98-1641, 1999 WL 35135283, *1 (BRB, Sept. 3, 1999) (per curiam). In light of the LHWCA\u2019s interest in prompt payment and settled practice, \u201cawarded\u201d in \u00a7 908(c)(20) can only be better read, as in \u00a7 906(c), to refer to a disfigured employee\u2019s entitlement to benefits.\nLikewise, \u00a7 908(d)(1) provides that if an employee who is receiving compensation for a scheduled disability dies before receiving the full amount of compensation to which the schedule entitles him, \u201cthe total amount of the award unpaid at the time of death shall be payable to or for the benefit of his survivors.\u201d See also \u00a7 908(d)(2). Roberts\u2019 interpretation of \u201caward\u201d would introduce an odd gap: Only survivors of those employees who were receiving schedule benefits pursuant to orders \u2014 not survivors of employees who were receiving voluntary payments \u2014 would be entitled to the unpaid balances due their decedents. There is no reason why Congress would have chosen to distinguish between survivors in this manner. And the Benefits Review Board has quite sensibly interpreted \u00a7 908(d) to mean that \u201can employee has a vested interest in benefits which accrue during his lifetime, and, after he dies, his estate is entitled to those benefits, regardless of when an award is made.\u201d Wood v. Ingalls Shipbuilding, Inc., 28 BRBS 27, 36 (1994) (per curiam).\nFinally, \u00a7 933(b) provides: \"For the purpose of this subsection, the term \u2018award\u2019 with respect to a compensation order means a formal order issued by the deputy commissioner, an administrative law judge, or Board.\u201d Unless award may mean something other than \u201caward in a compensation order,\u201d this specific definition would be unnecessary. Roberts contends that this provision', enacted in 1984, \u201cwas indeed \u2018unnecessary\u2019 \u201d in light of Pallas Shipping. Brief for Petitioner 29; see 461 U. S., at 534 (\u201cThe term \u2018compensation order\u2019 in the LHWCA refers specifically to an administrative award of compensation following proceedings with respect to the claim\u201d). Roberts\u2019 argument offends the canon against superfluity and neglects that \u00a7 933(b) defines the term \u201caward,\u201d whereas Pallas Shipping defines the term \u201ccompensation order.\u201d Moreover, Congress\u2019 definition of \u201caward,\u201d which tracks Roberts\u2019 preferred interpretation, was carefully limited to \u00a7 933(b). Had Congress intended to adopt a universal definition of \u201caward,\u201d it could have done so in \u00a7 902, the LHWCA\u2019s glossary. Read in light of the \u201cduty to give effect, if possible, to every clause and word of a statute,\u201d Duncan v. Walker, 533 U. S.. 167, 174 (2001) (internal quotation marks omitted), \u00a7 933(b) debunks Roberts\u2019 argument that the Act always uses \u201caward\u201d to mean \u201caward in a formal order\u201d and confirms that \u201caward\u201d has other meanings.\nB\nNext, Roberts notes that this Court has refused to read the statutory phrase \u201cperson entitled to compensation\u201d in \u00a7 933(g) to mean \u201cperson awarded compensation.\u201d See Estate of Cowart v. Nicklos Drilling Co., 505 U. S. 469, 477 (1992) (\u201c[A] person entitled to compensation need not be receiving compensation or have had an adjudication in his favor\u201d). In Roberts\u2019 view, the converse must also be true: \u201c[A]warded compensation\u201d in \u00a7 906(c) cannot mean \u201centitled to compensation.\u201d But Cowart\u2019s reasoning does not work in reverse. Cowart did not construe \u00a7 906(c) or the term \u201caward,\u201d but relied on the uniform meaning of the phrase \u201cperson entitled to compensation\u201d in the LHWCA. See id., at 478-479. As just explained, the LHWCA contains no uniform meaning of the term \u201caward.\u201d Moreover, Cowart did not hold that the groups of \u201cemployees entitled to compensation\u201d and \u201cemployees awarded compensation\u201d were mutually exclusive. The former group includes the latter: The entry of a compensation order is a sufficient but not necessary condition for membership in the former, \u00bffee id\u00bb at 477.\nc\nFinally, Roberts contends that his interpretation furthers the LHWCA\u2019s purpose of providing' employees with prompt compensation by encouraging employers to avoid delay and expedite administrative proceedings. But Roberts\u2019 remedy would also punish employers who voluntarily pay benefits at the proper rate from the time of their employees\u2019 injuries. These employers would owe benefits under the higher cap applicable in any future fiscal year when their employees chose to file claims. And Roberts\u2019 remedy would offer no relief at all to the many beneficiaries entitled to less than the statutory maximum rate.\nThe more measured deterrent to employer tardiness is interest that \u201caccrues from the date a benefit came due, rather than from the date of the ALJ\u2019s award.\u201d Matulic v. Director, OWCP, 154 F. 3d 1052, 1059 (CA9 1998). The Director has long taken the position that \u201cinterest is a necessary and inherent component of 'compensation\u2019 because it ensures that the delay in payment of compensation does not diminish the amount of compensation to which the employee is entitled.\u201d Sproull v. Director, OWCP, 86 F. 3d 895, 900 (CA9 1996); see also, e. g., Strachan Shipping Co. v. Wedemeyer, 452 F. 2d 1225, 1229 (CA5 1971). Moreover, \u201c[t]imely [cjontroversion does not relieve the responsible party from paying interest on unpaid compensation.\u201d Longshore Procedure Manual \u00a78-201, online at http://www.dol.gov/owcp/ dlhwc/lspm/lspm8-201.htm. Indeed, the ALJ awarded Roberts interest \u201con each unpaid installment of compensation from the date the compensation became due.\u201d App. to Pet. for Cert. 108, Order \u00b6\u215b.\n* * *\nWe hold that an employee is \u201cnewly awarded compensation\u201d when he first becomes disabled and thereby becomes statutorily entitled to benefits, no matter whether, or when, a compensation order issues on his behalf. The judgment of the Court of Appeals for the Ninth Circuit is affirmed.\nIt is so ordered.\nSection 906 provides, in pertinent part:\n\u201c(b) Maximum rate of compensation\n\u201c(1) Compensation for disability or death (other than compensation for death required ... to be paid in a lump sum) shall not exceed an amount equal to 200 per centum of the applicable national average weekly wage, as determined by the Secretary under paragraph (3).\n\u201c(3) As soon as practicable after June 30 of each year, and in any event prior to October 1 of such year, the Secretary shall determine the national average weekly wage for the three consecutive calendar quarters ending June 30. Such determination shall be the applicable national average weekly wage for the period beginning with October 1 of that year and ending with September 30 of the next year....\n\u201c(c) Applicability of determinations\n\u201cDeterminations under subsection (b)(3) . . . with respect to a period shall apply to employees or survivors currently receiving compensation for permanent total disability or death benefits during such period, as well as those newly awarded compensation during such period.\u201d\nFor those \u201ccurrently receiving compensation for permanent total disability or death benefits,\u201d \u00a7906(c), the cap is adjusted each fiscal year \u2014 and typically increases, in step with the usual inflation-driven rise in' the national average weekly wage. See Dept, of Labor, Division of Longshore and Harbor Workers\u2019 Compensation (DLHWC), NAWW Information, online at http://www.dol.gov/owcp/dlhwc/NAWWinfo.htm (all Internet materials as visited Mar. 16, 2012, and available in Clerk of Court\u2019s case file). Section 906(e)\u2019s \u201ccurrently receiving compensation\u201d clause is not at issue here.\nIn fiscal year 1971, only 209 cases out of the 17,784 in which compensation was paid resulted in orders. Hearings on S. 2318 et al. before the Subcommittee on Labor of the Senate Committee on Labor and Public Welfare, 92d Cong., 2d Sess., 757-758 (1972). Congress enacted \u00a7906\u215b predecessor provision, which included the \u201cnewly awarded compensation\u201d clause, in 1972. Longshoremen\u2019s and Harbor Workers\u2019 Compensation Act Amendments of 1972, \u00a7 5, 86 Stat. 1253.\nCompare 625 F. 3d 1204 (time of entitlement) with Wilkerson v. Ingalls Shipbuilding, Inc., 125 F. 3d 904 (CA5 1997) (time of order), and Boroski v. DynCorp Int'l, 662 F. 3d 1197 (CA11 2011) (same).\nJustice Ginsburg\u2019s view, not advanced by any party, is that an employee is \u201cawarded compensation\u201d when his employer \u201cvoluntarily pays compensation or is officially ordered to do so.\u201d Post, at 115 (opinion concurring in part and dissenting in part). But reading \u201cawarded compensation\u201d as synonymous with \u201creceiving compensation\u201d is further from the ordinary meaning of \u201caward\u201d than the Court\u2019s approach: A person who slipped and fell on a negligently maintained sidewalk would not say that she had been \u201cawarded money damages\u201d if the business responsible for the sidewalk voluntarily paid her hospital bills. Cf. post, at 115-116.\nMoreover, if Congress had intended \u201cawarded compensation\u201d to mean \u201creceiving compensation,\u201d it could have said so \u2014 as, in fact, it did in \u00a7 906(c)\u2019s parallel clause, which pertains to beneficiaries \u201ccurrently receiving compensation for permanent total disability or death.\u201d See nn. 1-2, supra. Justice Ginsburg\u2019s reading denies effect to Congress\u2019 textual shift, and therefore \u201cruns afoul of the usual rule that \u2018when the legislature uses certain language in one part of the statute and different language in another, the court assumes different meanings were intended.\u2019 \u201d Sosa v. Alvarez-Machain, 542 U. S. 692, 711, n. 9 (2004).\nNor is Justice Ginsburg\u2019s reliance on a single sentence of legislative history persuasive. See post, at 116-117. True, a Senate Committee Report described those \u201cnewly awarded compensation\u201d as those \u201cwho begin receiving compensation.\u201d S. Rep. No. 92-1125, p. 18 (1972). But a subsequent House Committee Report did not. Cf. H. R. Rep. No. 92-1441, p. 15 (1972) (statute provides a \u201cmethod for determining maximum and minimum compensation (to be applicable to persons currently receiving compensation as well as those newly awarded compensation)\u201d). The legislative materials are a wash.\nJustice Ginsburg \u215b approach is either easily circumvented or unworkable. For example, Justice Ginsburg determines that Roberts is entitled to the fiscal year 2002 maximum rate from March 11, 2002, to July 15, 2003, because Sea-Land was making voluntary payments during that time. Post, at 118. But SeaTLand was paying Roberts $933.82 per week, less than the $966.08 that the ALJ found Roberts was entitled to receive. Compare App. to Pet. for Cert. 101 with id., at 107, Order \u00b61. If any voluntary payment suffices, regardless of an employee\u2019s actual entitlement, then an employer can hedge against a later finding of liability by paying the smallest- amount to which the Act might entitle an employee but controverting liability as to the remainder. See, e. g., R. M. v. Sabre Personnel Assoc., Inc., 41 BRBS 727, 730 (2007). An employer who controverts is not subject to the Act\u2019s delinquency penalty. See 33 U. S. C. \u00a7 914(e). Perhaps Justice Ginsburg gives Sea-Land the benefit of the doubt because its voluntary payments were close to Roberts\u2019 actual entitlement. But if that is so, then how close is close enough?\nRoberts accurately notes that in some cases, the time of injury and the time of onset of disability differ. We have observed that \u201cthe LHWCA does not compensate physical injury alone but the disability produced by that injury.\u201d Metropolitan Stevedore Co. v. Rambo, 515 U. S. 291, 297 (1995). From that principle, lower courts have rightly concluded that when dates of injury and onset of disability diverge, the latter is the relevant date for determining the applicable national average weekly wage. See, e.g., Service Employees Int\u2019l, Inc. v. Director, OWCP, 595 F. 3d 447, 456 (CA2 2010); Kubin v. Pro-Football, Inc., 29 BRBS 117 (1995) (per curiam).\nLikewise, in a small group of cases \u2014 those in which disability lasts more than 3 but less than 15 days \u2014 the time of onset of disability and the time of entitlement will differ. See \u00a7 906(a) (\u201cNo compensation shall be allowed for the first three days of the disability . . . Provided, however, That in case the injury results in disability of more than fourteen days the compensation shall be allowed from the date of the disability\u201d). In these cases, the relevant date is that on which disability and entitlement coincide: the fourth day after the onset of disability.\nOther LHWCA provisions, read in context, also use award to mean \u201caward in a formal order.\u201d For example, \u00a7\u00a7 913(a) and 928(b), like \u00a7 914(a), refer to the payment of compensation \u201cwithout an award.\u201d And the LHWCA distinguishes between voluntary payments and those due under an order for purposes of punishing employer delinquency. Compare \u00a7 914(e) (10 percent penalty for late payment of \u201ccompensation payable without an award\u201d) with \u00a7 914(f) (20 percent penalty for late payment of \u201ccompensation, payable under the terms of an award\u201d).\nSections 908(c)(1) to (20) set forth a \u201cschedule\u201d of particular injuries that entitle an employee \u201cto receive two-thirds of his average weekly wages for a specific number of weeks, regardless of whether his earning capacity has actually been impaired.\u201d Potomac Elec. Power Co. v. Director, Office of Workers\u2019 Compensation Programs, 449 U. S. 268, 269 (1980). For example, an employee who loses an arm is entitled to two-thirds of his average weekly wage for 312 weeks. \u00a7 908(c)(1).\nRoberts\u2019 interpretation also would afford unwarranted significance to the entry of an order in other circumstances, resulting in arbitrary distinctions within other classes of beneficiaries. For example, \u00a7 908(c)(22) provides that if an employee suffers from more than one scheduled disability, the \u201cawards\u201d for each \u201cshall run consecutively.\u201d Under Roberts\u2019 interpretation, \u00a7908(c)(22) would require consecutive payments only for employees who were receiving scheduled disability benefits pursuant to orders; those receiving voluntary payments presumably would be entitled to concurrent payments. See \u00a7\u00a7 914(a) \u2014 <b). That result would conflict with \u00a7 908(c)(22)\u2019s text, which states that consecutive payments must be made \u201c[i]n any case\u201d involving multiple scheduled disabilities. See, e. g., Thornton v. Northrop Grumman Shipbuilding, Inc., 44 BRBS 111 (2010) (per curiam).\nSimilarly, \u00a7 910(h)(1) sets out two formulas for increasing benefits for pre-1972 disability or death in light of the higher rates Congress provided in the 1972 LHWCA amendments. The first applies to those receiving compensation at the then-applicable maximum rate; the second applies to those \u201cawarded compensation ... at less than the maximum rate.\u201d See Dept, of Labor, OWCP Bulletin No. 10-73, Adjustment of Compensation for Total Permanent Disability or Death Prior to LS/HW Amendments of 1972, pp. 2-4 (1973). Roberts\u2019 interpretation would make the second formula applicable only to beneficiaries receiving less than the maximum rate pursuant to orders, not to all such beneficiaries. Again, there is no reason to believe that Congress intended this distinction, nor has OWCP applied it. See ibid, (prescribing a \u201cuniform\u201d method for computing the increase in all \u201c[cjases being compensated at less than the maximum rate,\u201d with no reference to the existence of an order).\nThus, as under Justice Ginsburg\u2019s approach, an employer who controverts still \u201cruns the risk\u201d of greater liability if an AU awards an employee compensation at some point subsequent to the onset of disability. See post, at 117.\nBecause \u201cnewly awarded compensation,\u201d read in context, is unambiguous, we do not reach respondents\u2019 argument that the Director\u2019s interpretation of \u00a7 906(e) is entitled to deference under Chevron U. S. A. Inc. v. Natural Resources Defense Council, Inc., 467 U. S. 837 (1984).\nAs the Court notes, the maximum rate for a given fiscal year applies to two groups of injured workers: those who are \u201cnewly awarded compensation during such [year],\u201d and those who are \u201ccurrently receiving compensation for permanent total disability or death benefits during such [year].\u201d 33 U. S. C. \u00a7 906(c). Ante, at 102, n. 5. Contrary to the Court\u2019s charge, I do not read \u201cnewly awarded compensation\u201d as synonymous with \u201ccurrently receiving compensation.\u201d See ibid. An injured worker who is \u201ccurrently receiving compensation\u201d in a given fiscal year was \u201cnewly awarded compensation\u201d in a previous year. My interpretation therefore gives \u201ceffect to Congress\u2019 textual shift,\u201d ibid.: It identifies two distinct groups of workers who are entitled to a given year\u2019s maximum rate.",
+        "type": "majority",
+        "author": "Justice Sotomayor"
+      },
+      {
+        "text": "Justice Ginsburg,\nconcurring in part and dissenting in part.\nSection 6 of the Longshore and Harbor Workers\u2019 Compensation Act (LHWCA or Act) defines the maximum disability benefit an injured worker may receive under the Act. Specifically, \u00a7 6 states that an injured employee may receive, at most, twice the national average weekly wage for the fiscal year in which the employee is \u201cnewly awarded compensation.\u201d 33 U. S. C. \u00a7 906(c). The Court granted review in this case to answer the following question: When is an employee \u201cnewly awarded compensation\u201d?\nPetitioner Dana Roberts contends that an employee is \u201cnewly awarded compensation\u201d in the year she receives a formal compensation award. For the reasons cogently explained by the majority, that argument is untenable. See ante, at 100-111. Unlike the Court, however, I do not regard as reasonable respondent Sea-Land Services\u2019 view that an employee is \u201cnewly awarded compensation\u201d in the year she becomes \u201cstatutorily entitled to compensation.\u201d Ante, at 100 (internal quotation marks omitted). Applying the common meaning of the verb \u201caward\u201d and recognizing the Act\u2019s distinction between benefits paid voluntarily, and those paid pursuant to a compensation order, see ante, at 97-98,1 would hold that an injured worker is \u201cnewly awarded compensation\u201d when (1) the employer voluntarily undertakes to pay benefits to the employee, or (2) an administrative law judge (ALJ), the Benefits Review Board (BRB), or a reviewing court orders the employer to pay such benefits.\nI\nIn determining the meaning of a statutory phrase, \u201cwe look first to its language, giving the words used their ordinary meaning.\u201d Moskal v. United States, 498 U. S. 103, 108 (1990) (internal quotation marks and citation omitted). As the Court acknowledges, ante, at 100, the verb \u201caward\u201d ordinarily means \u201cto give by judicial decree\u201d or \u201c[to] assign after careful judgment.\u201d Webster\u2019s Third New International Dictionary 152 (2002). See also Black\u2019s Law Dictionary 157 (9th ed. 2009) (defining the verb \u201caward\u201d as \u201c[t]o grant by formal process or by judicial decree\u201d). Giving \u201caward\u201d this usual meaning, an employee is \u201cnewly awarded compensation,\u201d if not voluntarily paid, in the fiscal year in which payment is directed by administrative order or judicial decree.\nUnder the LHWCA, the Court recognizes, an employee is provided compensation voluntarily or in contested proceedings. See ante, at 98. Most commonly, an employer pays compensation voluntarily after receiving an employee\u2019s notice of disabling injury. See Pallas Shipping Agency, Ltd. v. Duris, 461 U. S. 529, 532 (1983); 33 U. S. C. \u00a7912 (describing the form, content, and timing of the necessary notice and requiring employers to designate a representative to receive the notice); \u00a7 914(b). If an employer declines to pay compensation voluntarily, an injured employee can file a claim with the Department of Labor\u2019s Office of Workers\u2019 Compensation Programs (OWCP). For employees with valid claims, OWCP proceedings culminate with an administrative or court decision ordering the employer to pay benefits. \u00a7919(c). .Thus, an injured worker is given \u2014 or \u201cawarded\u201d \u2014 compensation through one of two means contemplated by the Act: either the employer voluntarily pays compensation or is officially ordered to do so. Logically, then, the worker is \u201cnewly awarded compensation\u201d when one of those two events occurs.\nThe Court does not take this approach. After acknowledging that it is not relying on the typical meaning of the word \u201caward,\u201d see ante, at 100, the Court adopts Sea-Land\u2019s view that \u201cawarded compensation\u201d is synonymous with \u201c[became] statutorily entitled to benefits,\u201d ante, at 113. As a result, a person is \u201cnewly awarded compensation\u201d in the year in which she becomes entitled to benefits \u2014 i. e., in the year the employee \u201cfirst becomes disabled.\u201d Ibid. Such a reading is plausible, the Court asserts, because \u201cthis Court has often said that statutes \u2018award\u2019 entitlements.\u201d Ante, at 101 (citing cases).\nI do not dispute that statutes are often characterized as \u201cawarding\u201d relief to persons falling within their compass. But \u201ca statute must be read in [its] context.\u201d Ibid. (quoting Davis v. Michigan Dept. of Treasury, 489 U. S. 803, 809 (1989)). Section 906 does not address whether the LHWCA, as a general matter, \u201cawards\u201d disability benefits to injured longshore workers. Rather, it concerns a more specific question: When has a particular employee been \u201cnewly awarded compensation.\u201d In that context, equating \u201cawarded compensation\u201d with \u201cstatutorily entitled to compensation\u201d is not plausible. A person covered by the Act would not likely say he was \u201cawarded compensation\u201d the moment he became disabled, if, in fact, his employer contests liability. Only after some entity \u2014 the employer, an AU, the BRB, or a reviewing court \u2014 recognizes the employee\u2019s right to compensation would he comprehend that he had been \u201cawarded compensation.\u201d To borrow The Chief Justice\u2019s example: No person who slips and injures herself on a negligently maintained sidewalk would tell her friends the next day, \u201cGuess what, I was newly awarded money damages yesterday.\u201d See Tr. of Oral Arg. 28.\nThe inconsistency between the Court\u2019s interpretation of \u201cnewly awarded compensation\u201d and my reading of the phrase is best illustrated by contextual example. Assume an employee is injured in 2002 and the employer refuses to pay compensation voluntarily. Then, five years later, an ALJ finds in favor of the employee and orders the employer to pay benefits to the employee. Under the Court\u2019s view, the employee was \u201cnewly awarded compensation\u201d in 2002, even though the employee did not receive a penny \u2014 and the employer was not obligated to pay a penny \u2014 until 2007. Only the most strained interpretation of \u201cnewly awarded\u201d could demand that result.\nThe Court\u2019s view, moreover, does not fit the Act\u2019s design. As explained supra, at 114-115, the Act envisions that an eligible employee will begin receiving benefits in either of two ways. The Court\u2019s interpretation disregards this design, assuming instead that all employees are awarded benefits in the same way: by the Act at the time they become disabled.\nSection 906(c)\u2019s legislative history further confirms that Congress intended \u201cnewly awarded compensation\u201d to have its commonsense meaning. In describing \u00a7906, the Senate Committee on Labor and Public Welfare reported:\n\u201c[Section 906(c)] states that determinations of national average weekly wage made with respect to a [fiscal year] apply to employees or survivors currently receiving compensation for permanent total disability or death benefits, as well as those who begin receiving compensation for the first time during the [fiscal year].\u201d S. Rep. No. 92-1125, p. 18 (1972) (emphasis added).\nCongress therefore believed an injured worker is \u201cnewly awarded compensation\u201d in the year in which she \u201cbegin[s] receiving compensation for the first time.\u201d Ibid. Again, an employee begins receiving compensation either when an employer voluntarily agrees to pay the employee benefits or when an AU, the BRB, or a court orders the employer to do so. See supra, at 114-115. When the employer resists payment, the employee will not necessarily begin receiving compensation in the year in which she becomes disabled.\nFinally, interpreting \u201cnewly awarded compensation\u201d to mean awarded through an employer\u2019s voluntary decision or an official order is consistent with the Act\u2019s goal of encouraging employers to pay legitimate claims promptly. See 33 U. S. C. \u00a7 914(a) (requiring employers to pay compensation \u201cperiodically, promptly, and directly\u201d); Estate of Cowart v. Nicklos Drilling Co., 505 U. S. 469, 498 (1992) (Blackmun, J., dissenting) (\u201c[T]he Act presumes that employers, as a rule, will promptly recognize their LHWCA obligations and commence payments immediately.\u201d). Under my interpretation, an employer who chooses to contest a valid claim, rather than to pay the claim voluntarily, runs the risk that it may ultimately have to pay the injured employee a higher maximum benefit. For example, if an employer refuses to pay benefits to a worker injured in 2012, and an AU issues an order awarding compensation to the employee in 2015, the fiscal year 2015 maximum rate would apply to the employee\u2019s claim. Had the employer voluntarily begun paying benefits in 2012, on the other hand, the 2012 maximum rate would apply. Under the Court\u2019s reading, by contrast, an employer pays the prevailing rate for the year the employee became disabled, regardless of whether the employer in fact pays benefits immediately or years down the road.\nII\nIn this case, Roberts was injured on February 24, 2002, and stopped working two weeks later. App. to Pet. for Cert. 4. Sea-Land and its insurer paid benefits to Roberts from March 11, 2002, until July 15, 2003. Id., at 101. Sea-Land then resumed paying benefits on September 1, 2003, and continued to pay Roberts compensation until May 17, 2005, when it ceased making payments for good. Ibid. After Roberts filed a complaint with the OWCP, an ALJ, in October 2006, concluded that Roberts was entitled to compensation from March 11, 2002, onwards. Id., at 107-108.\nApplying my interpretation of \u00a7906, Roberts was newly awarded compensation three times: in March 2002 when Sea-Land voluntarily began paying benefits; in September 2003 when Sea-Land resumed making payments after it had stopped in July 2003; and in October 2006 when an ALJ ordered Sea-Land to pay benefits to Roberts for the uncompensated weeks in 2003 and from May 2005 onwards. Roberts was therefore entitled to the fiscal year 2002 maximum rate from March 11, 2002, until July 15, 2003; the fiscal year 2003 maximum rate from September 1, 2003, until May 17, 2005; and the fiscal year 2007 rate going forward and for all uncompensated weeks covered by the ALJ\u2019s order.\n* * *\nFor the foregoing reasons, I would reverse the Ninth Circuit\u2019s judgment and hold that an employee is \u201cnewly awarded compensation\u201d when her employer either voluntarily agrees to pay compensation to her or is officially ordered to do so.\nEmployers may have a particularly strong financial incentive to postpone paying claims that implicate \u00a7 906. That section applies only to injured workers who qualify for the maximum rate of compensation under the Act \u2014 i. e., to those claimants who are owed the largest possible benefit.\nFor \u00a7 906 purposes, a year runs from October 1 to September 30. See 33 U. S. C. \u00a7 906(b)(3). The 2007 maximum rate therefore applies to all employees \u201cnewly awarded compensation\u201d between October 1, 2006, and September 30, 2007.\nThe Court asserts that an employer could \u201ceasily circumven[t]\u201d my approach by making voluntary payments to an injured worker that are substantially below the employee\u2019s \u201cactual entitlement.\u201d Ante, at 105, n. 6. The prospect that an employer could successfully execute, or would even attempt, such a strategy is imaginary. Employers who make voluntary payments to employees are required to file a report with the Department of Labor describing the nature of the employee\u2019s injury and stating the amount of the payments made. See ante, at 104; 33 U. S. C. \u00a7 930(a). The employer must'also submit the results of a medical evaluation of the employee\u2019s condition. Dept, of Labor, Longshore (DLHWC) Procedure Manual \u00a72-201(2)(b) (hereinafter Longshore Procedure Manual), online at http://www.dol.gov/owcp/dlhwe/lspm/lspm2-201.htm (as visited Mar. 14, 2012, and in Clerk of Court\u2019s case file). Upon receiving the employer\u2019s report, a Department of Labor claims examiner verifies \u201cthe compensation rate for accuracy\u201d and must follow up with the employer \u201c[i]f the compensation rate appears low.\u201d Id., \u00a7 2-201(3)(b)(l). The chances are slim that a claims examiner would validate a substantial underpayment. Employers who underpay benefits, moreover, are subject to a penalty equal to 10% of the amount of the underpayment. See 33 U. S. C. \u00a7 914(e); Long-shore Procedure Manual \u00a78-202(3)(c) (\u201cIf partial payments are made by the employer, the [10% penalty] applies] ... to the difference between the amount owed and the amount paid.\u201d), http://www.dol.gov/owcp/dlhwc/ lspm/lspm8-202.htm. Employers would thus risk paying more, not less, were they to attempt to \u201ccircumvenft]\u201d my approach by deliberately un-dercompensating injured workers. And while it is true that an employer who controverts an employee\u2019s right to compensation does not have to pay the 10% penalty, see ante, at 105, n. 6, the Act does not permit an employer to pay any amount it likes and controvert the remainder. See 33 U. S. C. \u00a7 914(a) (requiring employers either to pay benefits in full or to controvert \u201cliability to pay compensation\u201d at all).",
+        "type": "concurring-in-part-and-dissenting-in-part",
+        "author": "Justice Ginsburg,"
+      }
+    ],
+    "attorneys": [
+      "Joshua T. G\u00fclelan II argued the cause for petitioner. With him on the briefs were Michael F. Pozzi and Charles Robinowitz.",
+      "Joseph R. Palmore argued the cause for the federal respondent. With him on the brief were Solicitor General Verrilli, Deputy Solicitor General Kneedler, and M. Patricia Smith. Peter D. Keisler argued the cause for respondent Sea-Land Services, Inc. With him on the brief were Carter G. Phillips, Eric D. McArthur, and Frank B. Hugg."
+    ],
+    "corrections": "",
+    "head_matter": "ROBERTS v. SEA-LAND SERVICES, INC., et al.\nNo. 10-1399.\nArgued January 11, 2012\nDecided March 20, 2012\nSotomayor, J., delivered the opinion of the Court, in which Roberts, C. J., and Scalia, Kennedy, Thomas, Breyer, Alito, and Kagan, JJ., joined. Ginsburg, J., filed an opinion concurring in part and dissenting in part, post, p. 113.\nJoshua T. G\u00fclelan II argued the cause for petitioner. With him on the briefs were Michael F. Pozzi and Charles Robinowitz.\nJoseph R. Palmore argued the cause for the federal respondent. With him on the brief were Solicitor General Verrilli, Deputy Solicitor General Kneedler, and M. Patricia Smith. Peter D. Keisler argued the cause for respondent Sea-Land Services, Inc. With him on the brief were Carter G. Phillips, Eric D. McArthur, and Frank B. Hugg.\nJeffrey R. White filed a brief for the American Association for Justice as amicus curiae urging reversal."
+  },
+  "file_name": "0093-01",
+  "first_page_order": 173,
+  "last_page_order": 199
+}

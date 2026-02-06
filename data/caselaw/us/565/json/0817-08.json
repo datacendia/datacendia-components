@@ -1,0 +1,59 @@
+{
+  "id": 12193367,
+  "name": "Schmier v. Justices of the Supreme Court of California et al.",
+  "name_abbreviation": "Schmier v. Justices of the Supreme Court of California",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-1344",
+  "first_page": "817",
+  "last_page": "817",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 817"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 18,
+    "char_count": 109,
+    "ocr_confidence": 0.663,
+    "sha256": "e8081c785675cd3f927139e63b85e48116f2f8413ab62b3d7893a7dcc7f2909c",
+    "simhash": "1:103900007127607c",
+    "word_count": 19
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Schmier v. Justices of the Supreme Court of California et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1344.\nSchmier v. Justices of the Supreme Court of California et al."
+  },
+  "file_name": "0817-08",
+  "first_page_order": 899,
+  "last_page_order": 899
+}

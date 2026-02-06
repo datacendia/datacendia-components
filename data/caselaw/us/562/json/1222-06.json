@@ -1,0 +1,59 @@
+{
+  "id": 6024819,
+  "name": "Clay v. United States",
+  "name_abbreviation": "Clay v. United States",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-926",
+  "first_page": "1222",
+  "last_page": "1222",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1222"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.615,
+    "sha256": "45cb7d8cb7daa6435dd0d9d852dcbf2b8692840a7c0b8458caca87dc84f16fb0",
+    "simhash": "1:003a2ed38569572f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Clay v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-926.\nClay v. United States."
+  },
+  "file_name": "1222-06",
+  "first_page_order": 1244,
+  "last_page_order": 1244
+}

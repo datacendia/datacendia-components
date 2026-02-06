@@ -1,0 +1,59 @@
+{
+  "id": 12413228,
+  "name": "Basat v. Bell, Warden",
+  "name_abbreviation": "Basat v. Bell",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10536",
+  "first_page": "847",
+  "last_page": "847",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 847"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.668,
+    "sha256": "ff42be8c4051b0f1422298412d7e76e3e848a49ca37edd600e22615c91ad2175",
+    "simhash": "1:a28b032cecfb9898",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Basat v. Bell, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10536.\nBasat v. Bell, Warden."
+  },
+  "file_name": "0847-12",
+  "first_page_order": 923,
+  "last_page_order": 923
+}

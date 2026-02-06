@@ -172,7 +172,7 @@ export interface RespondToDissentRequest {
 // =============================================================================
 
 class DissentService {
-  private baseUrl = '/api/v1/dissent';
+  private baseUrl = '/dissent';
 
   /**
    * File a new dissent

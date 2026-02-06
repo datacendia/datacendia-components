@@ -1,0 +1,59 @@
+{
+  "id": 12210430,
+  "name": "McCreary v. Skolnik et al.",
+  "name_abbreviation": "McCreary v. Skolnik",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-11098",
+  "first_page": "867",
+  "last_page": "867",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 867"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.699,
+    "sha256": "2b0eb787823d9ff8c814a1ee42b7be6bfc9a18b12980fbf261b0d25284a75658",
+    "simhash": "1:02e7e892c5275b56",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McCreary v. Skolnik et al."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Nev. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-11098.\nMcCreary v. Skolnik et al."
+  },
+  "file_name": "0867-01",
+  "first_page_order": 949,
+  "last_page_order": 949
+}

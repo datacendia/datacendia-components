@@ -1,0 +1,978 @@
+{
+  "id": 12518186,
+  "name": "PBBM-ROSE HILL, LIMITED; PBBM Corporation, Tax Matters Partner, Petitioners-Appellants v. COMMISSIONER OF INTERNAL REVENUE, Respondent-Appellee",
+  "name_abbreviation": "PBBM-Rose Hill, Ltd. v. Comm'r of Internal Revenue",
+  "decision_date": "2018-08-14",
+  "docket_number": "No. 17-60276",
+  "first_page": "193",
+  "last_page": "215",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "900 F.3d 193"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "5th Cir.",
+    "id": 8820,
+    "name": "United States Court of Appeals for the Fifth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "808 F.3d 657",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4366461
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "664"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/808/0657-01"
+      ]
+    },
+    {
+      "cite": "26 U.S.C. \u00a7 7491",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(c)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "620 F.3d 529",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3782459
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "531"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/620/0529-01"
+      ]
+    },
+    {
+      "cite": "262 S.C. 599",
+      "category": "reporters:state",
+      "reporter": "S.C.",
+      "case_ids": [
+        2145584
+      ],
+      "weight": 2,
+      "year": 1974,
+      "pin_cites": [
+        {
+          "page": "613-17"
+        },
+        {
+          "page": "894-95"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sc/262/0599-01"
+      ]
+    },
+    {
+      "cite": "308 S.C. 450",
+      "category": "reporters:state",
+      "reporter": "S.C.",
+      "case_ids": [
+        2191118
+      ],
+      "weight": 2,
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "457"
+        },
+        {
+          "page": "853"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sc/308/0450-01"
+      ]
+    },
+    {
+      "cite": "196 L.Ed.2d 516",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12608913,
+        12608914,
+        12608916,
+        12608919,
+        12608921,
+        12608923
+      ],
+      "year": 2017,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/137/0624-03",
+        "/s-ct/137/0624-04",
+        "/s-ct/137/0624-06",
+        "/s-ct/137/0625-03",
+        "/s-ct/137/0625-05",
+        "/s-ct/137/0626-01"
+      ]
+    },
+    {
+      "cite": "137 S.Ct. 624",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12608911,
+        12608912,
+        12608913,
+        12608914,
+        12608915,
+        12608916
+      ],
+      "year": 2017,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/137/0624-01",
+        "/s-ct/137/0624-02",
+        "/s-ct/137/0624-03",
+        "/s-ct/137/0624-04",
+        "/s-ct/137/0624-05",
+        "/s-ct/137/0624-06"
+      ]
+    },
+    {
+      "cite": "823 F.3d 282",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5917713
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "286"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/823/0282-01"
+      ]
+    },
+    {
+      "cite": "134 S.Ct. 557",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12701994,
+        12584652
+      ],
+      "weight": 4,
+      "year": 2013,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/571/0031-01",
+        "/s-ct/134/0557-01"
+      ]
+    },
+    {
+      "cite": "571 U.S. 31",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12701994
+      ],
+      "weight": 2,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "47"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/571/0031-01"
+      ]
+    },
+    {
+      "cite": "862 F.2d 540",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1825488
+      ],
+      "weight": 2,
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "541-45"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/862/0540-01"
+      ]
+    },
+    {
+      "cite": "26 U.S.C. \u00a7 6662",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "851 F.3d 190",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12277232
+      ],
+      "weight": 4,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "221"
+        },
+        {
+          "page": "220"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/851/0190-01"
+      ]
+    },
+    {
+      "cite": "812 F.3d 982",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4087184
+      ],
+      "weight": 4,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "996-97"
+        },
+        {
+          "page": "997"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/812/0982-01"
+      ]
+    },
+    {
+      "cite": "98 T.C. 554",
+      "category": "reporters:specialty",
+      "reporter": "T.C.",
+      "case_ids": [
+        6066172
+      ],
+      "weight": 3,
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "563"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tc/98/0554-01"
+      ]
+    },
+    {
+      "cite": "945 F.2d 92",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10521130,
+        10521146
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "96"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/945/0092-01",
+        "/f2d/945/0092-02"
+      ]
+    },
+    {
+      "cite": "218 F.3d 383",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11194707
+      ],
+      "weight": 3,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "385-86"
+        },
+        {
+          "parenthetical": "emphasis removed"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/218/0383-01"
+      ]
+    },
+    {
+      "cite": "26 U.S.C. \u00a7 6751",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(b)"
+        },
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "26 U.S.C. \u00a7 4988",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "949 F.2d 837",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        11940767
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "840",
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/949/0837-01"
+      ]
+    },
+    {
+      "cite": "369 U.S. 672",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6171355
+      ],
+      "weight": 4,
+      "year": 1962,
+      "pin_cites": [
+        {
+          "page": "686"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/369/0672-01"
+      ]
+    },
+    {
+      "cite": "827 F.3d 412",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4334700
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "parenthetical": "quoting Hanover Bank v. Comm'r , 369 U.S. 672, 686, 82 S.Ct. 1080, 8 L.Ed.2d 187 (1962) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/827/0412-01"
+      ]
+    },
+    {
+      "cite": "766 F.3d 380",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4199952
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "402",
+          "parenthetical": "\"[W]e do not need to reach this question of deference because the regulation's plain language bars the [agency's] interpretation.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/766/0380-01"
+      ]
+    },
+    {
+      "cite": "529 U.S. 576",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9508888
+      ],
+      "weight": 3,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "588",
+          "parenthetical": "\"[A]n agency's interpretation of its own regulation is entitled to deference ... only when the language of the regulation is ambiguous.\" (citations omitted) "
+        },
+        {
+          "parenthetical": "\"[A]n agency's interpretation of its own regulation is entitled to deference ... only when the language of the regulation is ambiguous.\" (citations omitted) "
+        },
+        {
+          "parenthetical": "\"[A]n agency's interpretation of its own regulation is entitled to deference ... only when the language of the regulation is ambiguous.\" (citations omitted) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/529/0576-01"
+      ]
+    },
+    {
+      "cite": "802 F.3d 699",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4341744
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "703",
+          "parenthetical": "concluding that the district court erred \"in its interpretation of [ 26 U.S.C.] \u00a7 7811(d) 's tolling provision by failing to follow the plain language of the statute and associated regulations\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/802/0699-01"
+      ]
+    },
+    {
+      "cite": "528 F.2d 645",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1079680
+      ],
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "649"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/528/0645-01"
+      ]
+    },
+    {
+      "cite": "519 U.S. 452",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11596027
+      ],
+      "weight": 3,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "461"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/519/0452-01"
+      ]
+    },
+    {
+      "cite": "612 F.3d 771",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3700542
+      ],
+      "weight": 2,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "777",
+          "parenthetical": "quoting Auer v. Robbins , 519 U.S. 452, 461, 117 S.Ct. 905, 137 L.Ed.2d 79 (1997) "
+        },
+        {
+          "page": "777",
+          "parenthetical": "stating that this court owes no deference to an agency's interpretation of its own ambiguous regulation if that interpretation is \"inconsistent with the regulation\" or not the \"agency's fair and considered judgment\" (citations omitted) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/612/0771-01"
+      ]
+    },
+    {
+      "cite": "146 T.C. 196",
+      "category": "reporters:specialty",
+      "reporter": "T.C.",
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "212",
+          "parenthetical": "\"[I]f a grantee is not absolutely entitled to a proportionate share of extinguishment proceeds, then the conservation purpose of the contribution is not protected in perpetuity.\" (emphasis added) "
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "687 F.3d 21",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5865657
+      ],
+      "weight": 2,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "26"
+        },
+        {
+          "page": "26",
+          "parenthetical": "discussing the extinguishment regulation's requirement that the donee organization be entitled to \"a proportionate share of post-extinguishment proceeds\" (emphasis added) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/687/0021-01"
+      ]
+    },
+    {
+      "cite": "775 F.3d 1243",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4341136
+      ],
+      "weight": 2,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1247"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/775/1243-01"
+      ]
+    },
+    {
+      "cite": "774 F.3d 221",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4340233
+      ],
+      "weight": 2,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "228-29"
+        },
+        {
+          "page": "229"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/774/0221-01"
+      ]
+    },
+    {
+      "cite": "270 S.C. 38",
+      "category": "reporters:state",
+      "reporter": "S.C.",
+      "case_ids": [
+        2162325
+      ],
+      "weight": 2,
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "41"
+        },
+        {
+          "page": "892"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sc/270/0038-01"
+      ]
+    },
+    {
+      "cite": "293 S.C. 23",
+      "category": "reporters:state",
+      "reporter": "S.C.",
+      "case_ids": [
+        2180488
+      ],
+      "weight": 3,
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "392"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sc/293/0023-01"
+      ]
+    },
+    {
+      "cite": "381 S.C. 192",
+      "category": "reporters:state",
+      "reporter": "S.C.",
+      "case_ids": [
+        3854245
+      ],
+      "weight": 4,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "parenthetical": "quoting Gardner v. Mozingo , 293 S.C. 23, 358 S.E.2d 390, 392 (1987) "
+        },
+        {
+          "page": "583",
+          "parenthetical": "quoting Gardner v. Mozingo , 293 S.C. 23, 358 S.E.2d 390, 392 (1987) "
+        },
+        {
+          "page": "199-201"
+        },
+        {
+          "page": "582-83"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sc/381/0192-01"
+      ]
+    },
+    {
+      "cite": "26 C.F.R. \u00a7 1",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 35,
+      "pin_cites": [
+        {
+          "parenthetical": "\"Example 2 ... [T]he donation would meet the public access requirement if the terms of the easement permitted the donee organization to open the property to the public every other weekend....\" (emphasis added) "
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "527 F.3d 443",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3568506
+      ],
+      "weight": 2,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "451"
+        },
+        {
+          "page": "452"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/527/0443-01"
+      ]
+    },
+    {
+      "cite": "152 F.3d 450",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11709031
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "455-56"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/152/0450-01"
+      ]
+    },
+    {
+      "cite": "889 F.3d 238",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516798
+      ],
+      "weight": 3,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "242"
+        },
+        {
+          "page": "243-44"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/889/0238-01"
+      ]
+    },
+    {
+      "cite": "867 F.3d 547",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12275320
+      ],
+      "weight": 8,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "551",
+          "parenthetical": "quoting 26 U.S.C. \u00a7 170(h)(2)(C) "
+        },
+        {
+          "page": "554"
+        },
+        {
+          "page": "559-60"
+        },
+        {
+          "page": "559"
+        },
+        {
+          "page": "560"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/867/0547-01"
+      ]
+    },
+    {
+      "cite": "471 F.3d 698",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5252455
+      ],
+      "weight": 2,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "706"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/471/0698-01"
+      ]
+    },
+    {
+      "cite": "615 F.3d 321",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3709944
+      ],
+      "weight": 5,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "329",
+          "parenthetical": "quoting Glass v. Comm'r , 471 F.3d 698, 706 (6th Cir. 2006) "
+        },
+        {
+          "page": "329"
+        },
+        {
+          "page": "335"
+        },
+        {
+          "page": "335"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/615/0321-01"
+      ]
+    },
+    {
+      "cite": "26 U.S.C. \u00a7 170",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 23,
+      "pin_cites": [
+        {
+          "page": "(h)(4)(A)(i)"
+        },
+        {
+          "page": "(h)(1)"
+        },
+        {
+          "page": "(h)(2)(C)"
+        },
+        {
+          "page": "(a)(1)",
+          "parenthetical": "\"A charitable contribution shall be allowable as a deduction only if verified under regulations prescribed by the Secretary.\""
+        },
+        {
+          "page": "(h)"
+        },
+        {
+          "page": "(h)(1)(C)"
+        },
+        {
+          "page": "(h)(1)(C)"
+        },
+        {
+          "page": "(h)(4)(A)"
+        },
+        {
+          "page": "(h)(5)(A)"
+        },
+        {
+          "page": "(h)(1)(C)"
+        },
+        {
+          "page": "(h)(4)(A)(i)"
+        },
+        {
+          "page": "(h)(4)(A)(i)"
+        },
+        {
+          "page": "(h)(1)(C)"
+        },
+        {
+          "page": "(h)(5)(A)"
+        },
+        {
+          "page": "(h)(5)(A)"
+        },
+        {
+          "page": "(h)(1)(C)"
+        },
+        {
+          "page": "(h)"
+        },
+        {
+          "page": "(h)"
+        },
+        {
+          "page": "(h)"
+        },
+        {
+          "page": "(h)"
+        },
+        {
+          "page": "(h)(4)(A)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1811,
+    "char_count": 66438,
+    "pagerank": {
+      "raw": 4.7492960360752035e-08,
+      "percentile": 0.29897399423672966
+    },
+    "sha256": "eea3c1297d26073a179ffd42580edc31703da38fea253bc1c34606a735c5b4e5",
+    "simhash": "1:880ee27a6c7252a1",
+    "word_count": 10757
+  },
+  "last_updated": "2024-02-27T18:45:52.975388+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before KING, SOUTHWICK, and HO, Circuit Judges."
+    ],
+    "parties": [
+      "PBBM-ROSE HILL, LIMITED; PBBM Corporation, Tax Matters Partner, Petitioners-Appellants\nv.\nCOMMISSIONER OF INTERNAL REVENUE, Respondent-Appellee"
+    ],
+    "opinions": [
+      {
+        "text": "KING, Circuit Judge:\nFor the 2007 tax year, PBBM Rose Hill, Ltd., claimed a charitable contribution deduction of $15,160,000 for its donation of a conservation easement to the North American Land Trust. Subsequently, the Commissioner of Internal Revenue issued a final partnership administrative adjustment that determined PBBM Rose Hill, Ltd., was not entitled to the deduction and assessed a penalty for the overvaluation of the conservation easement. PBBM Rose Hill, Ltd., and its tax matters partner, PBBM Corp., filed a petition for readjustment in tax court. The tax court concluded that the contribution was not exclusively for conservation purposes because it (1) did not protect any of the conservation purposes under 26 U.S.C. \u00a7 170(h)(4)(A)(i)-(iii) and (2) failed to satisfy the perpetuity requirement of \u00a7 170(h)(5)(A). Consequently, the tax court disallowed the deduction. The tax court also concluded that the value of the easement was $100,000 and PBBM Rose Hill, Ltd., was subject to a gross valuation misstatement penalty. We hold that while the contribution protected the conservation purpose of preserving land for outdoor recreation by the general public under \u00a7 170(h)(4)(A)(i), it did not meet the perpetuity requirement of \u00a7 170(h)(5)(A). Accordingly, the donation did not qualify for a deduction. We also find no error in the tax court's valuation of the easement or its determination of a penalty. Thus, we AFFIRM.\nI.\nA.\nIn 1996, Rose Hill Plantation Development Company Limited Partnership (\"RHP Development\") conveyed 241.48 acres of real property (the \"Property\") to Rose Hill Country Club, Inc. (\"RHCC\"). The Property is located in Beaufort County, South Carolina. The deed that conveyed the Property to RHCC contained a use restriction, which required the Property to \"be utilized only for recreational facilities or open space for a period of thirty (30) years.\" In 2002, RHCC conveyed the Property to PBBM Rose Hill, Ltd. (\"PBBM\")-the taxpayer in this case-for $2,442,148. The deed that conveyed the Property to PBBM contained the use restriction. When PBBM was the owner, the Property consisted of primarily a 27-hole golf course and also included facilities such as a club house for the neighboring residential community. As the golf course was not profitable, PBBM closed it in January 2006. Two months later, it filed for voluntary Chapter 11 bankruptcy. In October 2006, PBBM initiated an adversary proceeding before the bankruptcy court against RHP Development, RHCC, Red Star Capital, L.P., and the Rose Hill Plantation Property Owners Association, Inc. (\"POA\"), seeking, inter alia, to invalidate the use restriction.\nIn July 2007, PBBM entered into a settlement agreement with the POA, which the bankruptcy court approved. Specifically, the POA agreed that it would not contest or interfere with PBBM seeking invalidation or removal of the use restriction in any proceeding before the bankruptcy court. However, PBBM agreed that any final judgment rendering the use restriction invalid and removing it would not have a binding or preclusive effect as to the POA for purposes of res judicata or collateral estoppel. The POA also agreed to forbear from enforcing the use restriction until the 180th day that any such judgment became final, unless there was an attempt to develop the Property. Further, the POA obtained an option to purchase the Property.\nIn August 2007, the POA decided to exercise its purchase option, and PBBM filed a motion in the bankruptcy court to approve the sale of the Property for $2.3 million. The bankruptcy court approved the sale in mid-September 2007. A couple of weeks later, the bankruptcy court entered an order that confirmed the taxpayer's plan of reorganization under Chapter 11. In early December 2007, the bankruptcy court entered judgments that invalidated and removed the use restriction on the Property as to RHCC, RHP Development, and Red Star Capital. PBBM closed on the sale of the Property to the POA in early January 2008.\nB.\nPrior to the closing of the sale to the POA, on December 17, 2007, PBBM conveyed a conservation easement of about 234 acres of the Property (\"Conservation Area\") to the North American Land Trust (\"NALT\"). The Conservation Area consisted of the 27-hole golf course; the seven acres of the Property that were not conveyed included two acres of golf course maintenance areas and the five acres that held the club house. In the easement deed, PBBM \"voluntarily, unconditionally and absolutely\" granted NALT and its successors and assigns the \"easements, covenants, prohibitions and restrictions\" set forth in the deed \"in perpetuity\" in order to accomplish the \"Conservation Purposes.\" The deed lists four \"Conservation Purposes\":\nPreservation of the Conservation Area for outdoor recreation by, or the education of, the general public; and\nPreservation of the Conservation Area as a relatively natural habitat of fish, wildlife, or plants or similar ecosystem; and Preservation of the Conservation Area as open space which provides scenic enjoyment to the general public and yields a significant public benefit; and\nPreservation of the Conservation Area as open space which, if preserved, will advance a clearly delineated Federal, State or local governmental conservation policy and will yield a significant public benefit....\nParagraph 2.1 restricts the Conservation Area from being used \"for a residence or for any commercial, institutional, industrial or agricultural purpose or purposes.\" Paragraph 2.4.1 states that \"[t]he Property is and shall continue to be and remain open for substantial and regular use by the general public for outdoor recreation ..., whether for use in the game of golf ... or for other outdoor recreation.\" Paragraph 2.4.1 permits the \"charging of fees\" as long as \"the Property is open for the substantial and regular use of the general public\" and the fees do not defeat such use or \"result in the operation of the Property as a private membership club.\" Paragraph 2.4.2 states that if the Property ceases \"to be used as a golf course,\" then the Property \"shall be use[d] for passive recreation and no other use.\"\nIn Article 3 of the deed, PBBM reserved several rights including the right to construct, inter alia, a tennis facility, single-family dwellings, driveways, community gardens, parking areas, and fences. It also preserved the right to install \"no trespassing\" signs in paragraph 3.18.1. Paragraph 3.21.2 states that the reserved rights cannot be exercised unless that exercise \"will have no material adverse effect on the Conservation Purposes.\"\nParagraph 6.2 states that \"[a]ny general rule of construction to the contrary notwithstanding, [the deed] shall be liberally construed in favor of the grant to promote, protect and fulfill the Conservation Purposes\" and \"[i]f any provision ... is found to be ambiguous, an interpretation consistent with the Conservation Purposes that would render the provision valid should be favored over any interpretation that would render it invalid.\" Paragraph 6.5 provides that if \"any cause or circumstance gives rise to the extinguishment of [the easement] ... then [NALT], on any subsequent sale, exchange or involuntary conversion of the Conservation Area, shall be entitled to a portion of the proceeds of sale equal to the greater of\" the fair market value of the easement around the date of the deed, or a defined share of the amount of proceeds remaining after both the \"actual bona fide expenses\" of the sale and the \"amount attributable to improvements constructed upon the Conservation Area pursuant to\" the reserved rights, if any, are deducted. That defined share is the fair market value of the easement around the date of the deed, divided by the value of the land not burdened by the easement around the date of the deed. Paragraph 6.14 states that \"[n]othing in [the deed] shall be construed to create any right of access to the Conservation Area by the public.\"\nC.\nIn 2008, PBBM filed its partnership tax return for the 2007 tax year and claimed a charitable contribution deduction of $15,160,000 for its donation of the conservation easement. In 2014, the Commissioner of Internal Revenue (\"Commissioner\") issued a final partnership administrative adjustment (\"FPAA\"), which determined that PBBM was not entitled to the deduction and assessed a penalty for overvaluing the conservation easement. PBBM and its tax matters partner, PBBM Corp. (collectively \"PBBM\"), challenged the FPAA in tax court. After a five-day trial, the tax court concluded that, inter alia, the easement was not exclusively for conservation purposes and therefore no deduction was allowed; the value of the easement was only $100,000; and PBBM was subject to a gross valuation misstatement penalty.\nPBBM timely appealed.\nII.\n\"As a general rule, for charitable gifts of property, a taxpayer is 'not allowed to take a deduction if the charitable gift consists of less than the taxpayer's entire interest in that property.' \" Whitehouse Hotel Ltd. P'ship v. Comm'r , 615 F.3d 321, 329 (5th Cir. 2010) (quoting Glass v. Comm'r , 471 F.3d 698, 706 (6th Cir. 2006) ). A contribution of a \"qualified conservation easement\" is an exception to this rule. See id. To constitute such an easement, the contribution must be \"(A) of a qualified real property interest, (B) to a qualified organization, [and] (C) exclusively for conservation purposes.\" 26 U.S.C. \u00a7 170(h)(1). \"An easement qualifies ... if it is a 'restriction (granted in perpetuity) on the use which may be made of the real property.' \" BC Ranch II, L.P. v. Comm'r , 867 F.3d 547, 551 (5th Cir. 2017) (quoting 26 U.S.C. \u00a7 170(h)(2)(C) ). The taxpayer (here, PBBM) \"has the burden of proving entitlement to [its] claimed deduction.\" Id.\nWe review the tax court's conclusions of law de novo and findings of fact for clear error. Id. To the extent that this case involves statutory interpretation of the Internal Revenue Code (i.e., Title 26 of the U.S. Code), we review that interpretation de novo. See Schaeffler v. United States , 889 F.3d 238, 242 (5th Cir. 2018). \"We begin 'by examining the plain language of the relevant statute.' \" Id. (quoting Stanford v. Comm'r , 152 F.3d 450, 455-56 (5th Cir. 1998) ). If the plain language of the statute does not address the issue, then we look to the Internal Revenue Service (\"IRS\") regulations and legislative history. See Kornman & Assocs., Inc. v. United States , 527 F.3d 443, 451 (5th Cir. 2008) ; cf. 26 U.S.C. \u00a7 170(a)(1) (\"A charitable contribution shall be allowable as a deduction only if verified under regulations prescribed by the Secretary.\"). Only when the statute, the IRS regulations, and legislative history are uninstructive does this court look to the Commissioner's interpretation as reflected in other IRS guidance. See Kornman , 527 F.3d at 452. Further, \"we analyze tax deductions for the grant of conservation easements made pursuant to [ 26 U.S.C. \u00a7 170(h) ] under [this] ordinary standard of statutory construction,\" not a strict standard. BC Ranch , 867 F.3d at 554.\nThere are several issues on appeal. We begin by deciding whether the \"exclusively for conservation purposes\" requirement in 26 U.S.C. \u00a7 170(h)(1)(C) is met, therefore entitling PBBM to a deduction for its contribution of the conservation easement. We then address the issues related to the valuation of the easement and the applicability of a penalty.\nIII.\nUnder 26 U.S.C. \u00a7 170(h)(1)(C), the taxpayer's contribution must be \"exclusively for conservation purposes\" in order to constitute a qualified conservation easement. Section 170(h)(4)(A) enumerates five \"conservation purpose[s].\" They are (1) preservation of land for recreation, (2) protection of a natural habitat, (3) preservation of open space for scenic enjoyment, (4) preservation of open space pursuant to a government conservation policy, and (5) preservation of historic land or structures. 26 U.S.C. \u00a7 170(h)(4)(A). The level of public access required to satisfy each conservation purpose is different. See 26 C.F.R. \u00a7 1.170A-14(d)(2)(ii), (d)(3)(iii), (d)(4)(ii)(B), (d)(4)(iii)(C), (d)(5)(iv). The taxpayer's contribution is \"exclusively\" for a conservation purpose only if that purpose is \"protected in perpetuity.\" 26 U.S.C. \u00a7 170(h)(5)(A). The tax court determined that PBBM's contribution (1) did not protect any of the conservation purposes under \u00a7 170(h)(4)(A)(i)-(iii) and (2) failed to satisfy the perpetuity requirement of \u00a7 170(h)(5)(A) because the easement deed's extinguishment provision (paragraph 6.5) does not comply with 26 C.F.R. \u00a7 1.170A-14(g)(6). Accordingly, the tax court concluded that the \"exclusively for conservation purposes\" requirement in 26 U.S.C. \u00a7 170(h)(1)(C) was not satisfied and disallowed PBBM's deduction.\nIn order for PBBM to prevail on its challenge to the tax court's disallowance of its deduction, it must prove that the tax court erred in both of its determinations. PBBM fails to do so. For the reasons below, we conclude that the contribution protected the conservation purpose of preserving land for outdoor recreation by the general public under \u00a7 170(h)(4)(A)(i), but did not meet the perpetuity requirement of \u00a7 170(h)(5)(A).\nA.\nPBBM contended in the tax court that the contribution met the conservation purposes enumerated in \u00a7 170(h)(4)(A)(i)-(iii). On appeal, the only conservation purpose at issue is \"the preservation of land areas for outdoor recreation by ... the general public.\" 26 U.S.C. \u00a7 170(h)(4)(A)(i). The parties do not dispute that land has been preserved for outdoor recreation; they dispute whether it has been preserved for use by the general public. The plain language of the statute does not signify what such use must look like in order to qualify for a deduction. The accompanying regulation states that recreation on the preserved land must be \"for the substantial and regular use of the general public.\" 26 C.F.R. \u00a7 1.170A-14(d)(2)(ii) (emphasis added).\nBelow, the tax court noted conflicting provisions in the deed: the deed requires the Property to be open for use by the general public (paragraph 2.4.1), with this requirement to be enforced by NALT in court (paragraph 5.1), but also states that there exists no right of access by the public (paragraph 6.14). Ultimately, the tax court concluded that the contribution failed to protect the public use of the land for outdoor recreation. It based its conclusion on the actual use of the Property after the creation of the easement. After the POA bought the Property, it operated 18 holes of golf, but converted part of the Property into a park. Access to the Property is controlled by a gatehouse. A visitor who gains access is given a restricted pass for his or her vehicle. That pass limits the visitor's access to certain areas, such as the golf course and club restaurant, and warns that access to other areas constitutes trespassing. The public does not have access to the park; a sign on the road to the park states \"[p]roperty owners, residents & guests only beyond this point.\"\nThe parties first debate whether the tax court erroneously looked beyond the language of the deed and to the actions of the subsequent owner (i.e., the POA) in determining whether the contribution was exclusively for a conservation purpose. PBBM argues that the tax court should have examined only the terms of the deed in its inquiry. As support for its position, PBBM quotes a regulatory provision concerning the public-access requirement for historic preservation easements:\nThe amount of access afforded the public by the donation of an easement shall be determined with reference to the amount of access permitted by the terms of the easement which are established by the donor, rather than the amount of access actually provided by the donee organization.\n26 C.F.R. \u00a7 1.170A-14(d)(5)(iv)(C) (emphasis added). The Commissioner contends that this provision does not apply to recreation easements, such as the one here.\nIt is true that the regulatory provision cited by PBBM applies to historic preservation easements. Id. However, the regulations concerning open space easements also indicate that public access should be determined by examining the language of the deed. See id. \u00a7 1.170A-14(d)(4)(ii)(B) (\"Under the terms of an open space easement on scenic property, the entire property need not be visible to the public for a donation to qualify under this section....\" (emphasis added) ); id. \u00a7 1.170A-14(d)(4)(v) (\"A deduction will not be allowed for the preservation of open space under section 170(h)(4)(A)(iii), if the terms of the easement permit a degree of intrusion or future development that would interfere with the essential scenic quality of the land....\" (emphasis added) ). In addition, regulatory provisions concerning what it means for the conservation purpose to be \"protected in perpetuity\" imply that the analysis of whether the contribution qualifies for a deduction should be confined to the time of the contribution. See, e.g. , id. \u00a7 1.170A-14(g)(6)(ii) (\"[A ]t the time of the gift the donor must agree that the donation of the perpetual conservation restriction gives rise to a property right....\" (emphasis added) ); id. \u00a7 1.170A-14(h)(3) (\"The value of the contribution under section 170 in the case of a charitable contribution of a perpetual conservation restriction is the fair market value of the perpetual conservation restriction at the time of the contribution .\" (emphasis added) ). Read together, the regulations accompanying conservation easements strongly suggest that, in determining whether the public-access requirement for a recreation easement is fulfilled, the focus should generally be on the terms of the deed and not on the actual use of the land after the donation of the easement. This comports with South Carolina's rule of construction that \"[t]he intention of the grantor [of the easement] must be found within the four corners of the deed.\" Windham v. Riddle , 381 S.C. 192, 672 S.E.2d 578, 583 (2009) (quoting Gardner v. Mozingo , 293 S.C. 23, 358 S.E.2d 390, 392 (1987) ).\nThe regulations also signify that an exception to this general rule occurs when the donor knew or should have known, at the time of the donation, that the access eventually provided would be significantly less than the amount of access permitted under the terms of the easement. See 26 C.F.R. \u00a7 1.170A-14(d)(5)(iv)(C) (\"[I]f the donor is aware of any facts indicating that the amount of access that the donee organization will provide is significantly less than the amount of access permitted under the terms of the easement, then the amount of access afforded the public shall be determined with reference to this lesser amount.\"); cf. id. \u00a7 1.170A-14(g)(3) (\"A deduction shall not be disallowed under section 170(f)(3)(B)(iii) and this section merely because the interest which passes to, or is vested in, the donee organization may be defeated by the performance of some act or the happening of some event, if on the date of the gift it appears that the possibility that such act or event will occur is so remote as to be negligible.\"). The Commissioner argues that this exception applies here as PBBM had several pre-purchase meetings with the POA concerning the use restriction during the bankruptcy proceedings. This is unconvincing. While PBBM was familiar with the POA in past dealings, these dealings informed PBBM only that the POA was opposed to the removal of the use restriction (i.e., opposed to development), not that it objected to the public use of the Property.\nNext, we decide whether the terms of the recreation easement here fulfill the public-access requirement. We apply state law \"for determining the rights transferred by the easement at issue.\" Whitehouse Hotel , 615 F.3d at 329. Under South Carolina law, \"[i]n construing a deed, 'the intention of the grantor must be ascertained and effectuated, unless that intention contravenes some well settled rule of law or public policy.' \" Windham , 381 S.C. at 199-201, 672 S.E.2d at 582-83 (quoting Wayburn v. Smith , 270 S.C. 38, 41, 239 S.E.2d 890, 892 (1977) ). \"[T]he deed must be construed as a whole and effect given to every part if it can be done consistently with the law.\" Id. at 583 (quoting Gardner , 358 S.E.2d at 391-92 ).\nAs the tax court noted, there are conflicting provisions in the deed with respect to public access. In favor of public access, the deed lists, as a \"Conservation Purpose[ ],\" preservation of the land \"for outdoor recreation by ... the general public\" (mirroring the language of 26 U.S.C. \u00a7 170(h)(4)(A)(i) ), and paragraph 2.4.1 states that \"[t]he Property is and shall continue to be and remain open for substantial and regular use by the general public for outdoor recreation\" (mirroring the language of 26 C.F.R. \u00a7 1.170A-14(d)(2)(ii) ). Against public access, paragraph 6.14 states that the easement does not create \"any\" right of public access, and paragraph 3.18.1 preserves the right for the owner to post \"no trespassing\" signs.\nOn appeal, PBBM contends that the deed provides a right of public access for outdoor recreation, to be enforced by NALT in court. PBBM interprets paragraph 6.14 to mean that the right conveyed to the public is not \"unfettered.\" It argues that the deed requires the Property to remain open for public use (paragraph 2.4.1) and allows for the owner to fulfill this mandate by conveying licenses to members of the general public to play golf or engage in another recreational purpose. According to PBBM, paragraph 6.14 does not affect such a mandate. Additionally, PBBM asserts that paragraph 6.14 should be interpreted according to paragraph 6.2, which provides for liberal construction in line with the Conservation Purposes. In response, the Commissioner contends that the provisions of the deed, as a whole, convey that the owner is prohibited from using any part of the Property for purposes other than recreation, but is allowed to prevent the general public from accessing substantial areas of the land. The Commissioner states that the broad language of paragraph 6.14 does not permit it to be interpreted as a time-and-manner restriction. The Commissioner further adds that paragraph 6.2 does not apply because it is a savings clause as in Belk v. Commissioner , 774 F.3d 221, 228-29 (4th Cir. 2014), and paragraph 6.14 is not ambiguous.\nWe hold that the terms of the recreation easement here satisfy the public-access requirement in \u00a7 170(h)(4)(A)(i). In reaching this conclusion, we do not rely on paragraph 6.2. That paragraph states \"[a]ny general rule of construction to the contrary notwithstanding, [the deed] shall be liberally construed in favor of the grant to promote, protect and fulfill the Conservation Purposes\" and \"[i]f any provision ... is found to be ambiguous, an interpretation consistent with the Conservation Purposes that would render the provision valid should be favored over any interpretation that would render it invalid.\" Contra the Commissioner, this clause is not a savings clause as in Belk . In Belk , the Fourth Circuit held that the savings clause, which provided for \"a future event [to] alter[ ] the tax consequences of a conveyance,\" did not render the easement at issue eligible for a deduction. 774 F.3d at 229. Unlike the savings clause in Belk , paragraph 6.2 imposes no condition subsequent, but is merely a clause concerning the interpretation of the deed. Even so, paragraph 6.2 does not aid PBBM's position, as it provides that the deed be construed consistent with the \"Conservation Purposes.\" There are four \"Conservation Purposes\" listed at the beginning of the deed; they mirror the four conservation purposes enumerated in \u00a7 170(h)(4)(A)(i)-(iii). Each purpose requires a different level of public access, as described in the accompanying regulations. See 26 C.F.R. \u00a7 1.170A-14(d)(2)(ii), (d)(3)(iii), (d)(4)(ii)(B), (d)(4)(iii)(C). Thus, it is unclear that paragraph 6.2 provides that the deed be construed to give rise to the level of public access required for the recreation purpose.\nWe construe the deed as whole and give effect to all the provisions. In doing so, we give greater weight to the deed's specific terms in paragraph 2.4.1 than its general language in paragraph 6.14. See Restatement (Second) of Contracts \u00a7 203(c) (Am. Law Inst. 1981). Paragraph 2.4.1 provides that \"[t]he Property is and shall continue to be and remain open for substantial and regular use by the general public for outdoor recreation.\" It also states that any fees charged cannot defeat such use or \"result in the operation of the Property as a private membership club.\" Paragraph 2.4.1 creates an obligation on the owner to operate the Property in such a way that provides access to the public for \"substantial and regular\" recreational use. The general terms in paragraph 6.14 do not render this obligation meaningless. Finally, as this provision refers to \"[t]he Property\" in its entirety, the Commissioner's argument that the deed allows the owner to prevent the public from accessing certain areas of the land fails.\nIn sum, the terms of the recreation easement here fulfill the public-access requirement in \u00a7 170(h)(4)(A)(i).\nB.\nNext, 26 U.S.C. \u00a7 170(h)(1)(C) requires that the taxpayer's contribution be \"exclusively for conservation purposes.\" The taxpayer's contribution is \"exclusively\" for such a purpose only if that purpose is \"protected in perpetuity.\" 26 U.S.C. \u00a7 170(h)(5)(A). The tax code \"does not define the phrase 'protected in perpetuity,' or otherwise describe how a taxpayer may accomplish this statutory mandate.\" Mitchell v. Comm'r , 775 F.3d 1243, 1247 (10th Cir. 2015). As such, the Commissioner promulgated regulatory provisions \"to ensure that a conservation purpose be protected in perpetuity.\" Id. ; see 26 C.F.R. \u00a7 1.170A-14(g). The \"extinguishment regulation\"- 26 C.F.R. \u00a7 1.170A-14(g)(6) -is one of these provisions. The purpose of this regulation is (1) to prevent a taxpayer (or his successor) \"from reaping a windfall if the property is destroyed or condemned\" such that the easement cannot remain in place and (2) to assure that the donee can use its portion of any proceeds to advance the conservation purpose elsewhere. See Kaufman v. Shulman , 687 F.3d 21, 26 (1st Cir. 2012). In other words, the Commissioner recognized that the conservation interest that is the subject of a donation could be destroyed in the future and set forth a regulation to guarantee that such an interest is still protected in such an event.\nSubsection (g)(6)(i) states that \"[i]f a subsequent unexpected change\" in the property conditions \"can make impossible or impractical the continued use of the property for conservation purposes,\" these purposes are still \"protected in perpetuity if the restrictions are extinguished by judicial proceeding and all of the donee's proceeds ... from a subsequent sale or exchange of the property are used by the donee organization in a manner consistent\" with these purposes. 26 C.F.R. \u00a7 1.170A-14(g)(6)(i). The next subsection, which is particularly relevant here, states:\n[A]t the time of the gift the donor must agree that the donation of the perpetual conservation restriction gives rise to a property right ... with a fair market value that is at least equal to the proportionate value that the perpetual conservation restriction at the time of the gift, bears to the value of the property as a whole at that time.... [T]hat proportionate value of the donee's property rights shall remain constant.... [When the unexpected change occurs, the donee] must be entitled to a portion of the proceeds at least equal to that proportionate value of the perpetual conservation restriction....\nId. \u00a7 1.170A-14(g)(6)(ii).\nFirst, there is ambiguity as to whether the phrase \"that is at least equal to the proportionate value that the perpetual conservation restriction at the time of the gift, bears to the value of the property as a whole at that time\" modifies \"property right\" or \"fair market value.\" Id. Though this is not an issue that the parties have raised, resolving this ambiguity is important in determining what the extinguishment regulation requires.\nIf the aforementioned phrase is interpreted to modify \"fair market value,\" then the \"proportionate value\" would equal the dollar amount of the value of the conservation easement at the time of the gift. In favor of this interpretation is the use of the term \"value,\" which is \"the monetary worth of something.\" Value , Merriam-Webster's Collegiate Dictionary (11th ed. 2003); see also Value , Black's Law Dictionary (10th ed. 2014) (\"The monetary worth or price of something; the amount of goods, services, or money that something commands in an exchange.\"). The regulations discussing the determination of the \"fair market value\" of the conservation easement also support the notion that the \"proportionate value\" is a sum of money. See, e.g. , 26 C.F.R. \u00a7 1.170A-14(h)(3)(i) (\"If there is a substantial record of sales of easements comparable to the donated easement ..., the fair market value of the donated easement is based on the sales prices of such comparable easements.\"). Under this construction, the phrase \"bears to the value of the property as a whole at that time\" would be useful only to explain why the value is named \"proportionate.\" Id. \u00a7 1.170A-14(g)(6)(ii).\nOn the other side, if the aforementioned phrase is interpreted to modify \"property right,\" then the \"proportionate value\" would equal a fraction (or share), instead of a dollar figure. That fraction would be defined as what the value of the conservation easement at the time of the gift \"bears to the value of the property as a whole at that time.\" Id. This interpretation is supported by the reference to the \"proportionate value\" as a \"portion\" of the proceeds. Id.\nBoth parties and the tax court construed the \"proportionate value\" to be a fraction (or share). This interpretation is in line with the understanding of other tax courts and the First Circuit. See, e.g., Kaufman , 687 F.3d at 26 (discussing the extinguishment regulation's requirement that the donee organization be entitled to \"a proportionate share of post-extinguishment proceeds\" (emphasis added) ); Carroll v. Comm'r , 146 T.C. 196, 212 (2016) (\"[I]f a grantee is not absolutely entitled to a proportionate share of extinguishment proceeds, then the conservation purpose of the contribution is not protected in perpetuity.\" (emphasis added) ). This construction is also consistent with the Commissioner's interpretation in prior IRS private letter rulings. I.R.S. Priv. Ltr. Rul. 200836014 (Sept. 5, 2008) (\"[T]he Protected Property payable to the Donee represents a percentage interest in the fair market value of the Protected Property....\" (emphasis added) ); I.R.S. Priv. Ltr. Rul. 200403044 (Jan. 16, 2004) (\"The portion of the proceeds ... payable to the Donee equals an amount that is determined by dividing the fair market value of the Easement donation by the fair market value of the Subject Tract (at the time of the Easement).\"); I.R.S. Priv. Ltr. Rul. 200208019 (Feb. 22, 2002) (\"[T]he easement ... gives the donee a property right that satisfies the percentage values requirement of the regulation....\" (emphasis added) ); I.R.S. Priv. Ltr. Rul. 199933029 (Aug. 20, 1999) (\"[T]he easement ... meets the requisite percentage values ... with respect to property rights.\" (emphasis added) ).\nBecause the extinguishment regulation is ambiguous as to this issue and the Commissioner's construction is not \"plainly erroneous or inconsistent with the regulation,\"\nTex. Clinical Labs, Inc. v. Sebelius , 612 F.3d 771, 777 (5th Cir. 2010) (quoting Auer v. Robbins , 519 U.S. 452, 461, 117 S.Ct. 905, 137 L.Ed.2d 79 (1997) ), we interpret the phrase \"that is at least equal to the proportionate value that the perpetual conservation restriction at the time of the gift, bears to the value of the property as a whole at that time\" to modify \"property right.\" Accordingly, the \"proportionate value\" is a fraction equal to the value of the conservation easement at the time of the gift, divided by the value of the property as a whole at that time.\nThe tax court concluded that the contribution failed to satisfy the perpetuity requirement of 26 U.S.C. \u00a7 170(h)(5)(A) because the easement deed's extinguishment provision (paragraph 6.5) does not comply with 26 C.F.R. \u00a7 1.170A-14(g)(6)(ii). Paragraph 6.5 provides that if \"any cause or circumstance gives rise to the extinguishment of [the easement] ... then [NALT], on any subsequent sale, exchange or involuntary conversion of the Conservation Area, shall be entitled to a portion of the proceeds of the sale equal to the greater of\" the fair market value of the easement around the date of the deed, or a defined share of the amount of proceeds remaining after both the \"actual bona fide expenses\" of the sale and the \"amount attributable to improvements constructed upon the Conservation Area pursuant to\" the reserved rights, if any, are deducted. That defined share is the fair market value of the easement around the date of the deed, divided by the value of the land not burdened by the easement around the date of the deed. The tax court explained that under paragraph 6.5's formula, NALT would not receive the amount required by the extinguishment regulation in some circumstances.\nOn appeal, the parties dispute whether the extinguishment regulation is satisfied because paragraph 6.5 permits the value of improvements to be subtracted out of the proceeds, prior to the donee taking its share. PBBM argues that there is no statutory or regulatory requirement entitling the donee to the value of improvements on the property. It points out that an IRS private letter ruling supports its position. See I.R.S. Priv. Ltr. Rul. 200836014 (Sept. 5, 2008). In response, the Commissioner argues that, under the plain terms of 26 C.F.R. \u00a7 1.170A-14(g)(6)(ii), the extinguishment provision in a deed cannot include factors, such as the value of improvements, that could decrease the amount of proceeds below the minimum the donee must receive. It explains that the IRS private letter ruling does not reflect the Commissioner's current position and cannot be used as precedent or to alter the plain meaning of a regulation.\nWe agree with the Commissioner. \"A regulation should be construed to give effect to the natural and plain meaning of its words.\" Diamond Roofing Co. v. Occupational Safety & Health Review Comm'n , 528 F.2d 645, 649 (5th Cir. 1976) ; see Rothkamm v. United States , 802 F.3d 699, 703 (5th Cir. 2015) (concluding that the district court erred \"in its interpretation of [ 26 U.S.C.] \u00a7 7811(d) 's tolling provision by failing to follow the plain language of the statute and associated regulations\"). Here, the plain language states that upon judicial extinguishment, the donee \"must be entitled to a portion of the proceeds at least equal to that proportionate value.\" 26 C.F.R. \u00a7 1.170A-14(g)(6)(ii). The \"proceeds\" are specified to be from a \"sale, exchange, or involuntary conversion\" of the property. Id. The regulation does not define \"proceeds.\" The ordinary meaning of \"proceeds\" is \"the total amount brought in,\" such as \"the proceeds of a sale.\" Proceeds , Merriam-Webster's Collegiate Dictionary (11th ed. 2003) (emphasis added);\nsee also Proceeds , Black's Law Dictionary (10th ed. 2014) (\"The value of land, goods, or investments when converted into money; the amount of money received from a sale\"). The regulation does not indicate that any amount, including that attributable to improvements, may be subtracted out. The word \"must\" clearly mandates that the donee receive at least the proportionate value-which, as explained above, is a fraction-of the \"proceeds.\" 26 C.F.R. \u00a7 1.170A-14(g)(6)(ii). Accordingly, as paragraph 6.5 permits the deduction of the value of improvements from the proceeds, prior to the donee taking its share, the provision fails to meet the requirement set forth in \u00a7 1.170A-14(g)(6)(ii). Further, the regulatory provision preceding the extinguishment regulation elaborates on the protection of a conservation interest in perpetuity \"when the donor reserves rights the exercise of which may impair\" that interest. Id. \u00a7 1.170A-14(g)(5)(i). This suggests that the Commissioner recognized the possibility of improvements on the property after the donation of the easement, but chose not to carve out an exception for the allocation of proceeds in the event of extinguishment when such improvements have been made.\nWe need not look to PBBM's cited IRS private letter ruling because the regulation is not ambiguous in this regard. See Christensen v. Harris County , 529 U.S. 576, 588, 120 S.Ct. 1655, 146 L.Ed.2d 621 (2000) (\"[A]n agency's interpretation of its own regulation is entitled to deference ... only when the language of the regulation is ambiguous.\" (citations omitted) ); Exelon Wind 1, L.L.C. v. Nelson , 766 F.3d 380, 402 (5th Cir. 2014) (\"[W]e do not need to reach this question of deference because the regulation's plain language bars the [agency's] interpretation.\"). But even assuming arguendo the regulation were ambiguous, we would not defer to the interpretation in that IRS private letter ruling. While such a ruling can \"reveal the [agency's] interpretation,\" Smith v. Reg'l Transit Auth. , 827 F.3d 412, 420 n.3 (5th Cir. 2016) (quoting Hanover Bank v. Comm'r , 369 U.S. 672, 686, 82 S.Ct. 1080, 8 L.Ed.2d 187 (1962) ), it is \"not binding with respect to parties other than the taxpayer to whom it was issued,\" id. , and may not be \"cited as precedent,\" Transco Expl. Co. v. Comm'r , 949 F.2d 837, 840 (5th Cir. 1992) (citation omitted). In Transco Exploration Co. , we used the Commissioner's reading of 26 U.S.C. \u00a7 4988(b) in a private letter ruling as support when it lined up with our plain-meaning interpretations of that statute and the relevant regulations. Id.\nHere, PBBM is not the taxpayer to whom the ruling was issued. Under an ordinary reading of the regulation, \"proceeds\" means the total amount brought in from the sale, and the donee must be entitled to a portion-at least the proportionate value-of this amount. The IRS private letter ruling, which PBBM cites, concludes that the extinguishment regulation is satisfied by an easement deed that permits the \"amount attributable to the value of a permissible improvement made by Grantors, if any, after the date of the contribution\" to be deducted from the proceeds prior to multiplication by the proportionate value. I.R.S. Priv. Ltr. Rul. 200836014 (Sept. 5, 2008). The letter does not provide any rationale for this conclusion. Accordingly, even if the regulation were ambiguous, we would not follow the IRS's interpretation in the ruling because it contravenes a plain reading of the regulation without an explanation. See Tex. Clinical Labs , 612 F.3d at 777 (stating that this court owes no deference to an agency's interpretation of its own ambiguous regulation if that interpretation is \"inconsistent with the regulation\" or not the \"agency's fair and considered judgment\" (citations omitted) ).\nC.\nIn sum, the \"exclusively for conservation purposes\" requirement in 26 U.S.C. \u00a7 170(h)(1)(C) is not met because PBBM did not comply with the extinguishment regulation. Accordingly, PBBM is not entitled to a deduction for its conservation easement contribution.\nIV.\nWe next address the issues related to the valuation of the easement: (1) whether the tax court erred in valuing the conservation easement at $100,000; (2) whether the Commissioner complied with the managerial-approval requirement in 26 U.S.C. \u00a7 6751(b) in assessing the penalty for a gross valuation misstatement; and (3) whether the underpayments of tax at issue are \"attributable to\" a valuation misstatement.\nA.\nWe first address whether the tax court erred in valuing the conservation easement at $100,000. Generally, \"valuation of property for federal tax purposes is a question of fact that we review for clear error.\" Whitehouse Hotel , 615 F.3d at 335 (quoting Adams v. United States , 218 F.3d 383, 385-86 (5th Cir. 2000) ). \"[T]o the extent, however, the finding is 'predicated on a legal conclusion regarding the rights inherent in the property, its valuation is subject to de novo review.' \" Id. (emphasis removed) (quoting Adams , 218 F.3d at 386 ). A tax court's admissibility determination for expert evidence and assessment of the expert's qualifications and reliability are reviewed for an abuse of discretion. See id. at 330. The tax court \"is free either to accept or reject expert testimony in accordance with its own judgment.\" Lukens v. Comm'r , 945 F.2d 92, 96 (5th Cir. 1991).\nUnder the before-and-after valuation approach, the value of the easement \"is equal to the difference between the fair market value of the property it encumbers before the granting of the restriction and the fair market value of the encumbered property after the granting of the restriction.\" 26 C.F.R. \u00a7 1.170A-14(h)(3)(i) (emphasis added). A \"critical aspect\" in calculating fair market value is determining the \"highest and best use\" of the property before and after. Whitehouse Hotel , 615 F.3d at 335. \"A property's highest and best use is the 'reasonable and probable use that supports the highest present value.' \" Id. (quoting Frazee v. Comm'r , 98 T.C. 554, 563 (1992) ). We focus on \"[t]he highest and most profitable use for which the property is adaptable and needed or likely to be needed in the reasonably near future.\" Id. (quoting Frazee , 98 T.C. at 563 ). After arriving at a highest-and-best use, the next step is to calculate a dollar figure that reflects that use. One method of doing so is the comparable sales approach. See id. at 334. The before-value \"must take into account not only the current use of the property but also an objective assessment of how immediate or remote the likelihood is that the property, absent the restriction, would in fact be developed, as well as any effect from zoning, conservation, or historic preservation laws that already restrict the property's potential highest and best use.\" 26 C.F.R. \u00a7 1.170A-14(h)(3)(ii).\nOn its 2007 partnership return, PBBM claimed a deduction of $15,160,000 for its donation of the easement. This value relied on an appraisal performed by Raymond E. Veal on December 13, 2007. The appraisal states that the valuation rested on the \"Extraordinary Assumption\" that the Property \"could be rezoned to permit commercial uses\"; this assumption was based on a letter from attorney Edward M. Hughes. In that letter, Hughes opined that the Rose Hill Master Plan (initially proposed in 1980) and the Declaration of Covenants and Restrictions of RHP Development and the Rose Hill POA permitted utilization of the Property as a residential lot, or a public or commercial site. According to the letter, the Rose Hill Master Plan and the Declaration were grandfathered in at the time of the enactment of the Beaufort County Zoning and Development Standards Ordinance (\"BC Ordinance\"). And, thus, those documents-not the BC Ordinance-governed the permitted use of the Property, meaning that development was allowed. The letter also states that Hughes was not offering an opinion as to the legitimacy of the removal of the use restriction in the bankruptcy court proceedings.\nIn the tax court proceedings, both parties' valuation experts used the before-and-after valuation approach. They agreed that the post-easement highest-and-best use was recreational, yielding an after-value of $2,300,000. They disputed the before-value, specifically debating whether the Property could have been developed.\nDuring the trial, Veal served as PBBM's expert witness on valuation. Veal opined that the highest-and-best before-use was to develop the Property along the lines of a conceptual plan provided by Mark Baker, a land use planner. After Veal determined this use, he used the comparable sales method to calculate the value of the Property, specifically relying on sales of developed land. Veal concluded that the before-value was $15,680,000. Accordingly, he valued the easement at $13,380,000 (i.e., $15,680,000 minus $2,300,000). This figure was about $2 million lower than the figure of $15,160,000 used to claim the deduction. Baker also served as an expert witness for PBBM. He presented a conceptual plan-that, according to him, could have been adopted in 2007-to develop the Property to include commercial businesses, additional single-family residences, and multi-family residences. Veal's valuation again relied on the \"Extraordinary Assumption\" that the Property could have been developed, which was based on Hughes's letter; Baker's plan also rested on Hughes's letter.\nThe Commissioner's valuation expert was Terry Dunkin. He opined that the highest-and-best use was the same before as it was after: use as a golf course or for another recreational purpose. Like Veal, he also employed the comparable sales method, but used sales of golf courses instead of developed properties. Dunkin's before-value was $2,400,000. Accordingly, he valued the easement at $100,000 (i.e., $2,400,000 minus $2,300,000). His report states that the zoning permitted only recreational uses and that \"[a]ny other uses would be speculative at best.\" In determining that development was unlikely, Dunkin testified that he relied on conversations with Hillary Austin (a Beaufort County Zoning and Development Administrator), a couple of Rose Hill residents who opposed development, and three professional colleagues. Dunkin also testified that the validity of the use restriction caused uncertainty as to the potential development of the Property, as Hughes-in his letter-purposely refused to opine on it, even though the bankruptcy court had already issued judgments that removed that restriction.\nAustin served as one of the Commissioner's fact witnesses. She testified that around the time the BC Ordinance was adopted in 1990, the developer petitioned the county council to make the Property a planned unit development (\"PUD\"), so as to continue to build it out per the Rose Hill Master Plan from 1980. Consequently, the resulting Rose Hill PUD Master Plan was adopted and set the zoning, locking in land use and density requirements. Further, Austin testified that if a developer sought to build in a way contrary to the PUD Master Plan, the county could issue a stop work order.\nOn the question of whether the Property could have been developed, the tax court weighed the conflicting evidence and found: (1) it was \"uncertain\" that the owner could have developed the Property \"without permission of the county\"; (2) it was \"uncertain\" that, if asked, \"the county would have given its permission\"; (3) \"the adjoining homeowners were opposed to development of the [P]roperty\"; (4) \"this opposition would have reduced\" the probability that \"the county would have permitted development\"; (5) the opposition would have put pressure on the owner to leave the land undeveloped; and (6) accordingly, \"these uncertainties about the possibility of developing the [P]roperty were so great that an owner would have been discouraged from pursuing development of the [P]roperty.\" The tax court then agreed with Dunkin that the before-value was $2,400,000, thus implicitly accepting that the highest and best before-use was a golf course or other recreational use. Accordingly, it found that the easement was worth $100,000 (i.e., $2,400,000 minus $2,300,000).\nOn appeal, PBBM attacks Dunkin's reliance on the use restriction in his valuation because the bankruptcy court issued several judgments removing that restriction before PBBM donated the easement. PBBM's argument is unavailing. The tax court did not explicitly make a finding on the use restriction, but its opinion can be construed as accepting Dunkin's assessment, as the court accepted Dunkin's valuation. The tax court did not err in doing so. At the time of Dunkin's appraisal, the bankruptcy court had already issued judgments removing the use restriction; Dunkin testified that he was aware of this. However, Dunkin still considered the use restriction as a factor causing uncertainty as to whether the Property could have been used for anything other than a recreational purpose, in part because Hughes's letter-written after the bankruptcy judgments-refused to opine on that restriction's validity. Next, the bankruptcy judgments concerned only RHCC, RHP Development, and Red Star Capital. In PBBM's settlement agreement with the POA, PBBM agreed that any judgment in the bankruptcy proceedings that rendered the use restriction invalid or removed it would not have a binding or preclusive effect as to the POA for purposes of res judicata or collateral estoppel. Thus, it was unclear whether the use restriction was enforceable by parties other than those involved in the bankruptcy judgments (including the POA if it had not bought the Property). Finally, the tax court's conclusion on the likelihood of development depended on factors other than the use restriction (i.e., county approval of development and neighborhood opposition). Therefore, its opinion may be construed as finding development unlikely, even assuming a non-enforceable use restriction.\nPBBM also challenges the tax court's findings related to the likelihood of development of the Property, contending that county permission was not required and, even if it were, it would have been given. PBBM argues that the tax court should not have relied on Dunkin's assessment, but should have relied on Hughes's letter and Baker's testimony. PBBM's contentions fail. Dunkin based his conclusion that development was unlikely on information from Austin, a county zoning administrator. Austin serves on the county team that decides whether a change to the PUD Master Plan is \"major\" or \"minor.\" She testified that, if a change were deemed \"major,\" it would then require full review by the planning commission, natural resources committee, and county council. She stated that converting the golf course to commercial development would likely constitute a \"major\" change. According to Austin, such a change would likely not be approved because of neighborhood opposition and open space requirements, which the golf course fulfilled. PBBM specifically criticizes Dunkin's non-consultation of an attorney in forming his opinion. But Dunkin testified that there was no requirement in his profession as a real estate appraiser to consult with an attorney, nor did he consult with one routinely and chose not to do so here.\nWith respect to Baker's conceptual plan, it was created in reliance on Hughes's letter that development was permitted. Hughes's letter was not admitted as an expert report, nor did Hughes testify. Baker testified that, if Hughes were incorrect, Baker's proposed development plan could not have been done without a zoning change. Though he believed that a zoning change could have been obtained and that the plan could have garnered neighborhood approval, Baker stated that the plan had not been vetted by the county zoning authorities or the POA. Austin testified that Baker's conceptual plan could not be properly evaluated for zoning compliance without a drawing by an engineer. In addition to Dunkin and Austin, Bradley Ayres (a PBBM Corp. vice-president) and Michael Hagen (a Rose Hill resident and former POA president) testified that Rose Hill residents opposed development. Further, Baker stated that four parcels of land that were originally in the Rose Hill PUD Master Plan had been rezoned and commercially developed. But at least two of these parcels were no longer a part of the PUD Master Plan as of 2007. The golf course was in a central location of the Rose Hill neighborhood in 2007 and fulfilled the open space requirements, whereas land in the parcels that had already been rezoned at that time could not.\nFinally, this case is not akin to the one that PBBM cites: Palmer Ranch Holdings Ltd v. Commissioner , 812 F.3d 982 (11th Cir. 2016). In Palmer , the Eleventh Circuit agreed with the tax court that the county zoning authority would approve of a Moderate Density Residential (\"MDR\") development on a parcel of land. Id. at 996-97. Following the denial of two prior applications to develop that parcel, the county zoning authority issued an ordinance that provided guidance on future development applications concerning that parcel. Id. at 997. Because a MDR development could fulfill the criteria given in the ordinance, the tax court found that there was a reasonable probability that the county zoning authority would approve of such a development. Id. Here, no prior applications had been submitted to develop the golf course, and no such clear guidance had been provided by the county zoning authority.\nIn sum, the tax court did not err in finding that development was unlikely and in agreeing with Dunkin's valuation.\nB.\nNext, we address whether the Commissioner complied with the managerial-approval requirement in 26 U.S.C. \u00a7 6751(b) in assessing the penalty for a gross valuation misstatement. Section 6751(b) states that \"[n]o penalty ... shall be assessed unless the initial determination of such assessment is personally approved (in writing) by the immediate supervisor of the individual making such determination or such higher level official as the Secretary may designate.\" The tax court concluded that the managerial-approval requirement was fulfilled by a managerial signature on the cover letter of a summary report on the examination of PBBM that included the \"Gross Valuation Overstatement Penalty Issue Lead Sheet.\" The Lead Sheet showed that an IRS examiner had determined that the penalty was applicable to underpayments attributable to the claimed deduction for the conservation easement. The IRS sent the cover letter and summary report to PBBM in November 2011, prior to the issuance of the FPAA in August 2014. We agree with the tax court's conclusion.\nPBBM argues that the Commissioner did not meet the managerial-approval requirement, relying on Chai v. Commissioner , 851 F.3d 190 (2d Cir. 2017). In Chai , the Second Circuit held (1) \"that \u00a7 6751(b)(1) requires written approval of the initial penalty determination no later than the date the IRS issues the notice of deficiency ... asserting such penalty\" and (2) \"that compliance with \u00a7 6751(b) is part of the Commissioner's burden of production and proof in a deficiency case in which a penalty is asserted.\" Id. at 221. PBBM cites dicta in Chai to argue that \u00a7 6751(b) was not met by the managerial signature on the cover letter because the penalty was not on the same page: \"[T]he IRS's current administrative practice requires a supervisor's approval to be noted on the form reflecting the examining agent's penalty determination or otherwise be documented in the applicable workpapers.\" Id. at 220.\nPBBM's contention fails. While the Second Circuit recognized this IRS practice, it did not adopt it as the Circuit's standard, nor did it conclude that this practice was the only way of fulfilling the \"in writing\" requirement. It simply used it as support for its first holding that managerial approval should occur \"prior to the issuance of a notice of deficiency.\" Id. The plain language of \u00a7 6751(b) mandates only that the approval of the penalty assessment be \"in writing\" and by a manager (either the immediate supervisor or a higher level official). Accordingly, the aforementioned managerial signature on the cover letter of a summary report on the examination of PBBM met this statutory requirement.\nC.\nFinally, we address whether the underpayments of tax at issue are \"attributable to\" a valuation misstatement. Section 6662 permits a 20 percent accuracy-related penalty on underpayments of tax \"attributable to,\" inter alia, a \"substantial valuation misstatement.\" 26 U.S.C. \u00a7 6662(a), (b)(3). If the valuation misstatement is \"gross,\" a 40 percent penalty is permitted. Id. \u00a7 6662(h)(1). A \"substantial\" valuation misstatement is defined as an overstatement of \"150 percent\" of the accurate value, and a \"gross\" valuation misstatement is defined as an overstatement of \"200 percent\" of the accurate value. Id. \u00a7 6662(e)(1)(A), (h)(2)(A)(i). A reasonable-cause exception exists for some penalties, but not for those on underpayments \"attributable to a substantial or gross valuation overstatement\" related to charitable deduction property. Id. \u00a7 6664(c)(1), (c)(3); id. \u00a7 6664(c)(1)-(2) (2007).\nThe tax court divided PBBM's underpayments into two categories. The first contained the underpayments resulting from PBBM's reporting of a deduction of $15,160,000 instead of $100,000. The second contained the underpayments that were solely due to PBBM's action of claiming a deduction instead of not doing so (i.e., those corresponding to the difference between a deduction of $100,000 and $0). The tax court concluded that the gross valuation misstatement penalty applied to underpayments in the first category and no penalty applied to those in the second category.\nThe ordinary meaning of \"attributable to\" is \"due to, caused by, or generated by.\" See Schaeffler , 889 F.3d at 243-44. Here, the underpayments corresponding to the difference between $15,160,000 and $100,000 were generated by a valuation overstatement on the part of PBBM. But for PBBM's misstatement, the tax court would not have determined that a penalty applied. It matters not that the tax court concluded that the donation of the conservation easement did not meet the requirements of 26 U.S.C. \u00a7 170(h) and therefore did not qualify for a deduction. Assuming arguendo that the tax court had allowed the deduction, it would have still determined that a penalty applied to PBBM's overstatement. Further, as the tax court concluded that no penalty applied to underpayments resulting from the difference between $100,000 and $0, its opinion may be construed to penalize only PBBM's overstatement and not its decision to claim the deduction.\nPBBM argues that a penalty cannot be levied because the underpayments were not \"attributable to\" a valuation misstatement, but rather due to the denial of the deduction for a non-valuation reason (i.e., not meeting the requirements of 26 U.S.C. \u00a7 170(h) ). It relies on Todd v. Commissioner , 862 F.2d 540 (5th Cir. 1988), and its progeny. It states that United States v. Woods , 571 U.S. 31, 134 S.Ct. 557, 187 L.Ed.2d 472 (2013), limited the effect of Todd , but contends that Woods does not apply when a conservation easement deduction is denied. It points out that, in BC Ranch (a case involving conservation easements), the Commissioner stated that Woods was not applicable.\nPBBM's contentions are unavailing. Todd stands for the proposition that denial of a deduction for a non-valuation reason (there, a rule regarding food storage units) bars a valuation misstatement penalty on the corresponding underpayments of tax, even if those underpayments are in part due to an overvaluation of property. See 862 F.2d at 541-45. But we have recognized that Todd and its progeny-on which PBBM relies-have been \"effectively overruled\" by Woods. Chemtech Royalty Assocs., L.P. v. United States , 823 F.3d 282, 286 (5th Cir. 2016), cert. denied , --- U.S. ----, 137 S.Ct. 624, 196 L.Ed.2d 516 (2017). In Woods , the taxpayers' underpayments were attributable to the artificiality of the transactions at issue (i.e., a non-valuation reason). See 571 U.S. at 47, 134 S.Ct. 557. But this, the Supreme Court declared, did not preclude those underpayments from also being attributable to the taxpayers' overstatements of their interests in those transactions (i.e., valuation misstatements). See id.\nBC Ranch does not suggest that, generally, Woods does not apply to cases involving conservation easements. In BC Ranch , the tax court imposed a gross valuation misstatement penalty solely based on the finding that the conservation easement contributions at issue were not deductible. 867 F.3d at 559-60. The tax court did not determine the values of the conservation easements, but instead assumed that the values were $0. See id. at 559-60 & n.46. The tax court relied on Woods to reach its conclusion. See id. On appeal, the appellants and Commissioner agreed that Woods did not apply in that way. Specifically, the Commissioner did not interpret Woods to hold that \"whenever a claimed deduction is disallowed[,] the value ... of the item deducted is zero.\" Id. at 559 n.46. Nevertheless, the Commissioner maintained that \"the penalty remains applicable because the easements themselves were grossly overvalued.\" Id. at 559. Consequently, this court vacated and remanded to the tax court for a determination of what the values of the easements were and what the proper penalty was, if any. See id. at 560. The situation at hand is different. Here, the tax court made a finding on the value of the easement and then determined the penalty. It did not automatically assume that the value of the easement was $0 because the deduction did not meet the requirements of 26 U.S.C. \u00a7 170(h).\nIn sum, the tax court did not err in concluding that a gross valuation misstatement penalty applied.\nV.\nPBBM is not entitled to a deduction for its donation of a conservation easement because its contribution did not comply with the extinguishment regulation. Further, the tax court did not err in its valuation of the easement or its decision that a valuation-related penalty applied. Accordingly, we AFFIRM the judgment of the tax court.\nRed Star Capital is the successor to the interests of Carolina First Bank, which was one of PBBM's creditors that was involved in the financing of the Property in the sale from RHCC to PBBM.\nNALT has filed an amicus brief in support of PBBM. Ann Taylor Schwing-an attorney and board member for the Land Trust of Napa County-has filed an amicus brief in support of the Commissioner.\nMuch of the legislative history for 26 U.S.C. \u00a7 170(h) was incorporated into 26 C.F.R. \u00a7 1.170A-14. Compare 26 C.F.R. \u00a7 1.170A-14(d), with S. Rep. No. 96-1007, at 10-14 (1980), as reprinted in 1980 U.S.C.C.A.N. 6736, 6745-49.\nSection 170(h)(4)(A) states:\n[T]he term \"conservation purpose\" means-\n(i) the preservation of land areas for outdoor recreation by, or the education of, the general public,\n(ii) the protection of a relatively natural habitat of fish, wildlife, or plants, or similar ecosystem,\n(iii) the preservation of open space (including farmland and forest land) where such preservation is-\n(I) for the scenic enjoyment of the general public, or\n(II) pursuant to a clearly delineated Federal, State, or local governmental conservation policy, and will yield a significant public benefit, or\n(iv) the preservation of an historically important land area or a certified historic structure.\n26 U.S.C. \u00a7 170(h)(4)(A).\nSeveral other regulations related to historic preservation easements also suggest that such easements should be evaluated on their written terms. See, e.g., 26 C.F.R. \u00a7 1.170A-14(d)(5)(iv)(A) (\"[T]he terms of the easement must be such that the general public is given the opportunity on a regular basis to view the characteristics and features of the property....\" (emphasis added) ); id. \u00a7 1.170A-14(d)(5)(v) (\"Example 1. ... Pursuant to the terms of the easement , the house may be opened to the public....\" (emphasis added) ); id. (\"Example 2 ... [T]he donation would meet the public access requirement if the terms of the easement permitted the donee organization to open the property to the public every other weekend....\" (emphasis added) ).\nWe note that it is the specific obligation imposed on the owner by paragraph 2.4.1-not the fact that the owner can grant licenses to members of the general public-that satisfies the public-access requirement of \u00a7 170(h)(4)(A)(i). Under South Carolina law, \"a license to be on the premises for an agreed purpose is a contractual right personal to the licensee.\" Hilton Head Air Serv., Inc. v. Beaufort County , 308 S.C. 450, 457, 418 S.E.2d 849, 853 (S.C. Ct. App. 1992). Licenses are revocable, Briarcliffe Acres v. Briarcliffe Realty Co. , 262 S.C. 599, 613-17, 206 S.E.2d 886, 894-95 (1974), and thus do not guarantee that use by the general public for recreation will be \"protected in perpetuity\" as \u00a7 170(h)(5)(A) requires the conservation purpose to be.\nThe ruling was issued in 2008 so PBBM could not have relied on it when drafting the conservation easement deed.\nPBBM also argues, in the alternative, that the extinguishment regulation is invalid because it itself is arbitrary and capricious. PBBM did not make this contention below and has forfeited it. See Celanese Corp. v. Martin K. Eby Const. Co. , 620 F.3d 529, 531 (5th Cir. 2010). Thus, we do not address it.\nThe tax court also determined that, alternatively, the subsequent approval of the penalty by an appeals officer and appeals team manager in May 2014 satisfied the \u00a7 6751(b) requirement.\nPBBM also argues that, pursuant to 26 U.S.C. \u00a7 7491(c), the Commissioner had the burden to prove the fulfillment of the \u00a7 6751(b) requirement. We need not address the burden-of-proof issue today. Because the Commissioner has produced sufficient evidence that \u00a7 6751(b) has been satisfied, an error related to the burden of proof, if any, is harmless. Cf. Brinkley v. Comm'r , 808 F.3d 657, 664 (5th Cir. 2015).",
+        "type": "majority",
+        "author": "KING, Circuit Judge:"
+      }
+    ],
+    "attorneys": [
+      "David M. Wooldridge, Gregory Philip Rhodes, Esq., Sirote & Permutt, P.C., Birmingham, AL, Michelle Abroms Levin, Attorney, Sirote & Permutt, P.C., Huntsville, AL, for Petitioners-Appellants.",
+      "Jennifer Marie Rubin, Esq., David A. Hubbert, Gilbert Steven Rothenberg, Esq., Senior Attorney, Francesca Ugolini, U.S. Department of Justice, Tax Division, Appellate Section, William M. Paul, Internal Revenue Service, Washington, DC, for Respondent-Appellee.",
+      "George Asimos, Esq., Saul Ewing, L.L.P., Harrisburg, PA, Harry Dean Shapiro, Esq., Saul Ewing Arnstein & Lehr, L.L.P., Baltimore, MD, for Amicus Curiae North American Land Trust.",
+      "Ann Taylor Schwing, Esq., Best Best & Krieger, L.L.P., Sacramento, CA, for Amicus Curiae Ann Taylor Schwing."
+    ],
+    "corrections": "",
+    "head_matter": "PBBM-ROSE HILL, LIMITED; PBBM Corporation, Tax Matters Partner, Petitioners-Appellants\nv.\nCOMMISSIONER OF INTERNAL REVENUE, Respondent-Appellee\nNo. 17-60276\nUnited States Court of Appeals, Fifth Circuit.\nFILED August 14, 2018\nDavid M. Wooldridge, Gregory Philip Rhodes, Esq., Sirote & Permutt, P.C., Birmingham, AL, Michelle Abroms Levin, Attorney, Sirote & Permutt, P.C., Huntsville, AL, for Petitioners-Appellants.\nJennifer Marie Rubin, Esq., David A. Hubbert, Gilbert Steven Rothenberg, Esq., Senior Attorney, Francesca Ugolini, U.S. Department of Justice, Tax Division, Appellate Section, William M. Paul, Internal Revenue Service, Washington, DC, for Respondent-Appellee.\nGeorge Asimos, Esq., Saul Ewing, L.L.P., Harrisburg, PA, Harry Dean Shapiro, Esq., Saul Ewing Arnstein & Lehr, L.L.P., Baltimore, MD, for Amicus Curiae North American Land Trust.\nAnn Taylor Schwing, Esq., Best Best & Krieger, L.L.P., Sacramento, CA, for Amicus Curiae Ann Taylor Schwing.\nBefore KING, SOUTHWICK, and HO, Circuit Judges.\nJudge Ho concurs in the judgment only."
+  },
+  "file_name": "0193-01",
+  "first_page_order": 193,
+  "last_page_order": 215
+}

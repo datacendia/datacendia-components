@@ -1,0 +1,59 @@
+{
+  "id": 6004221,
+  "name": "Burgess v. United States",
+  "name_abbreviation": "Burgess v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11214",
+  "first_page": "867",
+  "last_page": "867",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 867"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.633,
+    "sha256": "9977a8c9d9be220a928ec9304ed49a72e11e64758c22c5b6330c6363c3ef5ea5",
+    "simhash": "1:d429ffe8bbde1f57",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Burgess v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. D. C. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11214.\nBurgess v. United States."
+  },
+  "file_name": "0867-14",
+  "first_page_order": 889,
+  "last_page_order": 889
+}

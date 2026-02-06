@@ -1,0 +1,59 @@
+{
+  "id": 5955045,
+  "name": "Gomez v. United States",
+  "name_abbreviation": "Gomez v. United States",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8399",
+  "first_page": "1244",
+  "last_page": "1244",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1244"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.613,
+    "sha256": "6bcaf53c625c3060d8fca880a57ea27324a5e50c4f839394a4c7480522bc8b74",
+    "simhash": "1:d7dbe68b0b9dc15c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gomez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8399.\nGomez v. United States."
+  },
+  "file_name": "1244-08",
+  "first_page_order": 1266,
+  "last_page_order": 1266
+}

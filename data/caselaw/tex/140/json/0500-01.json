@@ -1,0 +1,514 @@
+{
+  "id": 2310126,
+  "name": "Anita Trevino v. American National Insurance Company",
+  "name_abbreviation": "Trevino v. American National Insurance",
+  "decision_date": "1943-02-03",
+  "docket_number": "No. 7982",
+  "first_page": "500",
+  "last_page": "506",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "140 Tex. 500"
+    },
+    {
+      "type": "parallel",
+      "cite": "168 S.W.2d 656"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "63 Texas 678",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2165491
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/63/0678-01"
+      ]
+    },
+    {
+      "cite": "105 S. W. 1163",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "13 N. E. 604",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "91 S. W. (2d) 332",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2294826,
+        10246860
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/127/0023-01",
+        "/sw2d/91/0332-01"
+      ]
+    },
+    {
+      "cite": "127 Texas 23",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2294826
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/127/0023-01"
+      ]
+    },
+    {
+      "cite": "67 S. W. (2d) 621",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10256374
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/67/0621-01"
+      ]
+    },
+    {
+      "cite": "19 S. W. 1073",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "85 Texas 176",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2208132
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/85/0176-01"
+      ]
+    },
+    {
+      "cite": "94 S. W. (2d) 1145",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10276513,
+        2294778
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/94/1145-01",
+        "/tex/127/0435-01"
+      ]
+    },
+    {
+      "cite": "127 Texas 435",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2294778
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/127/0435-01"
+      ]
+    },
+    {
+      "cite": "65 S. W. (2d) 279",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10238009
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/65/0279-01"
+      ]
+    },
+    {
+      "cite": "65 Texas 435",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2204590
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/65/0435-01"
+      ]
+    },
+    {
+      "cite": "57 S. W. (2d) 1100",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10271172
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/57/1100-01"
+      ]
+    },
+    {
+      "cite": "99 S. W. 1112",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "100 Texas 363",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2265328
+      ],
+      "pin_cites": [
+        {
+          "page": "370"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/100/0363-01"
+      ]
+    },
+    {
+      "cite": "6 L. R. A. (N.S.) 1064",
+      "category": "reporters:federal",
+      "reporter": "L.R.A.N.S.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "10 L. Ed., 1044",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "case_ids": [
+        102729
+      ],
+      "pin_cites": [
+        {
+          "page": "1050"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/41/0495-01"
+      ]
+    },
+    {
+      "cite": "10 Pet. 495",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "pin_cites": [
+        {
+          "page": "509-510"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "127 S. W. (2d) 294",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10232630,
+        2321167
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/127/0294-01",
+        "/tex/133/0146-01"
+      ]
+    },
+    {
+      "cite": "133 Texas 146",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2321167
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/133/0146-01"
+      ]
+    },
+    {
+      "cite": "92 U. S. 377",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8782
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/92/0377-01"
+      ]
+    },
+    {
+      "cite": "90 S. W. (2d) 270",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10246032
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/90/0270-01"
+      ]
+    },
+    {
+      "cite": "54 S. W. (2d) 838",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10261155
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/54/0838-01"
+      ]
+    },
+    {
+      "cite": "31 S. W. (2d) 865",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10280209
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/31/0865-01"
+      ]
+    },
+    {
+      "cite": "8 S. W. (2d) 291",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10288260
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/8/0291-01"
+      ]
+    },
+    {
+      "cite": "179 S. W. 66",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8245401
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/179/0066-01"
+      ]
+    },
+    {
+      "cite": "162 S. W. 10",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8268484
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/162/0010-01"
+      ]
+    },
+    {
+      "cite": "6 L. R. A. (N. S.) 1064",
+      "category": "reporters:federal",
+      "reporter": "L.R.A.N.S.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "1067"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "142 Fed. 398",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3902956
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/142/0398-01"
+      ]
+    },
+    {
+      "cite": "73 C. C. A. 498",
+      "category": "reporters:federal",
+      "reporter": "C.C.A.",
+      "weight": 3,
+      "opinion_index": 0
+    },
+    {
+      "cite": "31 A. L. R. 78",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "256 S. W. 438",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "148 Tenn. 439",
+      "category": "reporters:state",
+      "reporter": "Tenn.",
+      "case_ids": [
+        8534762
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tenn/148/0439-01"
+      ]
+    },
+    {
+      "cite": "280 S. W. 551",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10306209
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/280/0551-01"
+      ]
+    },
+    {
+      "cite": "3 S. W. (2d) 946",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10286775
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/3/0946-01"
+      ]
+    },
+    {
+      "cite": "22 S. W. (2d) 1063",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10284742
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/22/1063-01"
+      ]
+    },
+    {
+      "cite": "159 S. W. (2d) 202",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10210928
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/159/0202-01"
+      ]
+    },
+    {
+      "cite": "5 S. W. (2d) 767",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10287443,
+        10287452
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/5/0767-01",
+        "/sw2d/5/0767-02"
+      ]
+    },
+    {
+      "cite": "105 U. S. 45",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3494615
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/105/0045-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 615,
+    "char_count": 13043,
+    "ocr_confidence": 0.615,
+    "pagerank": {
+      "raw": 7.156163106898835e-07,
+      "percentile": 0.9671940333200894
+    },
+    "sha256": "e2819b020bedc48e1d7f424a838474cdfae1a962a0d98142c6e694b1cf4021f2",
+    "simhash": "1:b96264ef747d0457",
+    "word_count": 2300
+  },
+  "last_updated": "2024-02-27T22:16:15.949603+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Anita Trevino v. American National Insurance Company."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Presiding Judge Smedley\ndelivered the opinion of the Commission of Appeals, Section B.\nPetitioner, Anita Trevino, beneficiary in a policy insuring the life of her brother, sued respondent, American National Life Insurance Company, insurer, for the face value of the policy, for twelve per cent, thereof as damages and for reasonable attorney\u2019s fees. Upon a verdict favorable to respondent, judgment was rendered by the trial court that petitioner take nothing by her suit, which judgment was affirmed by the Court of Civil Appeals. 159 S. W. (2d) 202. The amount in controversy is less than $1,000.00 but jurisdiction was taken by this Court because the case involves the construction of a statute.\nThe policy which is dated March 21, 1938, contains the following provision: \u201cProvided, however, that no obligation is assumed by the Company prior to the date hereof nor unless on said date the Insured is alive and in sound health.\u201d The incontestable clause of the policy in compliance with Section 3, of Article 4732, Revised Civil Statutes of 1925, is: \u201cAfter a period of two years from the date borne by this Policy, it shall not be contested on any ground affecting its original validity.\u201d\nThe jury found in answer to special issues that the insured was in ill health when the policy was issued and that the insurer, its agents and representatives did not know that the insured was then in ill health. The third special issue relating to the reasonable amount of attorney\u2019s fees was not answered.\nThe insured died April 27, 1938. The suit on the policy was filed July 29, 1938. Respondent, on August 15, 1938, filed its original answer consisting of a general demurrer and a general denial. On February 15, 1941, more than two years after the date of the policy, respondent filed its first amended original answer, in which it alleged that the policy was void and unenforceable because the insured was in ill health when the policy was issued and because the insured fraudulently represented that he was not suffering from any illness or disease.\nThe controlling question is whether the insurer within two years from the date borne by the policy contested the policy \u201con any ground affecting its original validity.\u201d The Court of Civil Appeals held that the general denial filed within the two-year period constituted such contest within the meaning of the incontestable clause contained in the policy. The writ of error was granted on account of that ruling.\nThe language of the incontestable clause and of the statute (Sec. 3, Art. 4732) in the- use of the words \u201ccontested\u201d and \u201cincontestable\u201d contemplates and intends to require the institution within the specified period of a proceeding in court to cancel the policy on account of original invalidity or the filing, within that period in a suit brought on the policy, of an answer setting up a ground of original invalidity to defeat recovery. American Natl. Ins. Co. v. Welsh (Com. App.) 22 S. W. (2d) 1063, (Civ. App.) 3 S. W. (2d) 946; Southern Surety Co. v. Benton (Com. App.) 280 S. W. 551; Humpston v. State Mutual Life Insurance Co., 148 Tenn. 439; 256 S. W. 438, 31 A. L. R. 78; Mutual Reserve Fund Life Ass\u2019n. v. Austin, 73 C. C. A. 498, 142 Fed. 398, 6 L. R. A. (N. S.) 1064.\nThe general denial filed by respondent within the two-year period was not, in our opinion, a contest within the meaning of the incontestable clause. Respondent did not thereby plead ill health of the insured or fraudulent representations by him as a ground of invalidity or as a defense to recovery, on the policy. The original answer in most general terms denied the averments of the petition and contained no allegations attacking the policy on account of original invalidity. The petition alleged the execution and delivery of the policy. Upon its face the policy was valid. \u201cUntil contested by the company, it had such force as upon its face it purported to have.\u201d Mutual Reserve Fund Life Ass\u2019n. v. Austin, 73 C. C. A. 498, 142 Fed. 398, 6 L. R. A. (N. S.) 1064, 1067.\nThe plaintiff suing on the policy is not required either to plead or to prove that he was in sound health when the policy was issued or that he made no false representations as to his health. Ill health of the insured and fraudulent representations by him as to the condition of his health are extrinsic facts, matters of defense, upon which the insurer may rely in contesting the policy that evidences its liability. It has the burden of alleging and proving those facts. Southern Surety Co. v. Benton (Com. App.) 280 S. W. 551; American Natl. Ins. Co. v. Fawcett, 162 S. W. 10; American Natl. Ins. Co. v. Anderson, 179 S. W. 66; National Life & Accident Ins. Co. v. Taree, 8 S. W. (2d) 291; National Life & Accident Ins. Co. v. Doman, 31 S. W. (2d) 865; Washington Fidelity Natl. Ins. Co. v. Stewart, 54 S. W. (2d) 838; Dorsey Life Ass\u2019n. v. Davis, 90 S. W. (2d) 270; The Piedmont and Arlington Life Insurance Co. v. Ewing, 92 U. S. 377, 23 L. Ed. 610.\nIn American National Insurance Company v. Lawson, 133 Texas 146, 127 S. W. (2d) 294, it is held that the provision that no obligation is assumed by the company unless on the date of the policy the insured is in sound health \u201cshould be construed as a condition precedent to the policy\u2019s becoming effective.\u201d But the case does not hold that the insured has the burden of pleading and proving that he was in good health when the policy was issued. As to the original validity of the policy, the insured makes a case, prima facie, when he pleads and proves the execution and delivery of the policy. The insurer by pleading and proving extrinsic facts showing the breach of the condition precedent avoids the policy, which, because it has been issued and delivered and is valid on its face, is to be regarded, until so avoided, as valid and subsisting. Carpenter v. The Providence Washington Ins. Co., 10 Pet. 495, 509-510, 10 L. Ed., 1044, 1050; Mutual Reserve Fund Life Ass\u2019n. v. Austin, 73 C. C. A. 498, 142 Fed. 398, 6 L. R. A. (N.S.) 1064.\nThe general denial puts the plaintiff upon proof of every fact essential to his case. By it issue is joined upon all of the material facts asserted by the plaintiff except those which are required to be denied under oath. Rule 20 for district and county courts (old rules) ; Rule 92, Texas Rules of Civil Procedure; Stayton\u2019s Method of Practice in Texas Courts, p. 786, sec. 733, W. L. Moody & Co. v. Rowland, 100 Texas 363, 370, 99 S. W. 1112. \u201cUnder his plea of general denial, a defendant may introduce any testimony which goes to disprove the facts alleged and proved by the plaintiff, but cannot avoid the legal consequence of such facts, unless he plead the matters in avoidance upon which he relies.\u201d Good v. Chiles (Com. App.) 57 S. W. (2d) 1100; W. L. Moody v. Rowland, supra; Smothers v. Field, Thayer & Co., 65 Texas 435.\nIn this case the facts essential to petitioner\u2019s case, the material facts asserted in her petition, are the issuance and delivery by respondent of the policy insuring the life of her brother for $357.00 payable to her as beneficiary, the payment of the premiums, the death of the insured, the making of proof of death, and the demand for payment. She did not allege, and as has been said she was not required to allege, that the insured was in sound health when the policy was issued or that he made no false representations as to his health. By the general denial, therefore, issue was not joined as to the condition of the insured\u2019s health on the date of the policy or as to representations made by him; and under the general denial, respondent would not have been permitted to introduce evidence as to those matters. It follows that the general denial was not, within the meaning of the incontestable clause, a contest of the policy on the grounds relied upon by respondent to affect its original invalidity.\nThe trial petition contains the allegation that \u201cat the time of his death, all payments or premiums due upon said policy of insurance were fully paid, and said policy of insurance was in full force and effect at the time of the death of Alfonso Urrea, the insured.\u201d Respondent insists that because the petition alleged that the policy was in full force and effect, the general denial joined issue as to the health of the insured when the policy was issued and thus contested on that ground the original invalidity of the policy. We do not so construe the quoted averment. It is not an allegation of fact as to the condition of the insured\u2019s health on the date of the policy but is a conclusion of the pleader drawn from the averment as to full payment of premiums, the substance of which conclusion is that because all premiums were paid the policy was in full force and effect when the insured died.\nRespondent makes the further contention that even if its original answer was too general, it was a pleading by way of defense, was not subject to a plea of limitation and afforded a basis, under the provisions of Section 1, Chapter 115, Acts Regular Session of the 42nd Legislature (Art. 5539b, Vernon\u2019s Annotated Civil Statutes), for the amended pleading, which related back to the filing of the original answer. The statute invoked is as follows:\n\u201cWhenever any pleading is filed by any party to a suit embracing any cause of action, cross-action, counterclaim, or defense, and at the time of filing such pleading such cause of action, cross-action, counterclaim, or defense is not subject to a plea of limitation, no subsequent amendment or supplement changing any of the facts or grounds of liability or of defense shall be subject to a plea of limitation, provided such amendment or supplement is not wholly based upon and grows out of a new, distinct or different transaction and occurrence. Provided, however, when any such amendment or supplement is filed, if any new or different facts are alleged, upon application of the opposite party, the court may postpone or continue the case as justice may require.\u201d\nEven if it be assumed that a party who relies upon the incontestable clause in a policy of life insurance is in effect interposing a plea of limitation, it is our opinion that the statute quoted has no application in this case. By the terms of the statute the pleading first filed must embrace the cause of action or the defense. We have held that respondent, by filing the general denial, did not plead ill health of the insured as a defense to the suit, and that under that pleading respondent would not have been permitted to introduce evidence as to the condition of the insured\u2019s health. The pleading was not defective because of being too general. It did not embrace the defense upon which respondent relies.\nJudgment will be rendered in favor of petitioner for the face value of the policy, together with 12% thereof as damages under the provisions of Article 4736, Revised Civil Statutes of 1925, but .not for attorney\u2019s fees, the jury having failed to answer the issue as to the reasonable amount of attorney\u2019s fees. The cause will be remanded for the trial of that issue. Connecticut General Life Ins. Co. v. Bertrand, (Com. App.) 65 S. W. (2d) 279; Rule 503, Texas Rules of Civil Procedure. The reasonableness of attorney\u2019s fees, the recovery of which is authorized by the statute, is a question of fact for the jury\u2019s determination. Johnson v. Universal Life & Accident Ins. Co., 127 Texas 435, 94 S. W. (2d) 1145; Connecticut General Life Ins. Co. v. Bertrand (Com. App.) 65 S. W. (2d) 279. The testimony of an attorney that in his opinion $250.00 would be a reasonable fee was not conclusive. Gulf, C. & S. Ry. Co. v. Dunman, 85 Texas 176, 19 S. W. 1073; Guinn v. Coates, 67 S. W. (2d) 621; Simmonds v. St. Louis B. & M. Ry. Co., 127 Texas 23, 91 S. W. (2d) 332; Head v. Hargrave, 105 U. S. 45, 26 L. Ed. 1028; Southland Life Ins. Co. v. Norton (Com. App.) 5 S. W. (2d) 767.\nThe judgments of the district court and the Court of Civil Appeals are reversed, and judgment is here rendered in favor of petitioner against respondent for the sum of $399.84, together with interest thereon at the rate of 6% per annum from July 29, 1938; and the cause is remanded to the district court for trial of the issue as to reasonable \u2022 attorney\u2019s fees.\nOpinion adopted by the Supreme Court February 3, 1943.\nRehearing overruled March 3, 1943.",
+        "type": "majority",
+        "author": "Mr. Presiding Judge Smedley"
+      }
+    ],
+    "attorneys": [
+      "Walter Hein and Guy Carter, both of San Antonio, for petitioner.",
+      "Maxwell Burket, of San Antonio, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "Anita Trevino v. American National Insurance Company.\nNo. 7982.\nDecided February 3, 1943.\nRehearing overruled March 3, 1943.\n(168 S. W., 2d Series, 656.)\nWalter Hein and Guy Carter, both of San Antonio, for petitioner.\nIn a suit upon a life insurance policy containing an incontestable clause, it was error for the Court of Civil Appeals to hold that the filing by defendant of a pleading embracing a general demurrer and general denial is a contest of such policy within the meaning of the statutes and the incontestable clause of the policy. Coburn v. Travelers Ins. Co., 13 N. E. 604; San Jacinto Oil Co. v. Texas Oil Co., 105 S. W. 1163; Willis v. Hudson, 63 Texas 678.\nMaxwell Burket, of San Antonio, for respondent."
+  },
+  "file_name": "0500-01",
+  "first_page_order": 524,
+  "last_page_order": 530
+}

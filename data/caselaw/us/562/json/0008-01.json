@@ -1,0 +1,747 @@
+{
+  "id": 5924347,
+  "name": "ABBOTT v. UNITED STATES",
+  "name_abbreviation": "Abbott v. United States",
+  "decision_date": "2010-11-15",
+  "docket_number": "No. 09-479",
+  "first_page": "8",
+  "last_page": "28",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 8"
+    },
+    {
+      "type": "parallel",
+      "cite": "178 L. Ed. 2d 348"
+    },
+    {
+      "type": "parallel",
+      "cite": "131 S. Ct. 18"
+    },
+    {
+      "type": "vendor",
+      "cite": "2010 U.S. LEXIS 9008"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2010-002"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "559 U. S. 1065",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12448452,
+        12448453,
+        12448454,
+        12448455,
+        12448456,
+        12448457,
+        12448458,
+        12448459
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/l-ed-2d/176/0719-02",
+        "/l-ed-2d/176/0719-03",
+        "/l-ed-2d/176/0719-04",
+        "/l-ed-2d/176/0719-05",
+        "/l-ed-2d/176/0719-06",
+        "/l-ed-2d/176/0719-07",
+        "/l-ed-2d/176/0720-01",
+        "/l-ed-2d/176/0720-02"
+      ]
+    },
+    {
+      "cite": "524 U. S. 308",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11182365
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "316"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/524/0308-01"
+      ]
+    },
+    {
+      "cite": "513 U. S. 10",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1330519
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "17"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/513/0010-01"
+      ]
+    },
+    {
+      "cite": "447 U. S. 381",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6184860
+      ],
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "387",
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/447/0381-01"
+      ]
+    },
+    {
+      "cite": "108 Stat. 1998",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "pin_cites": [
+        {
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "104 Stat. 4829",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "pin_cites": [
+        {
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "102 Stat. 4373",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "100 Stat. 456",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "235 F. 3d 386",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11169248
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/235/0386-01"
+      ]
+    },
+    {
+      "cite": "582 F. 3d 1269",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4062124
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "1272-1273",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/582/1269-01"
+      ]
+    },
+    {
+      "cite": "598 F. 3d 238",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4223015
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "241",
+          "parenthetical": "clause applies whenever a defendant \"is subject\" to a greater mandatory minimum"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/598/0238-01"
+      ]
+    },
+    {
+      "cite": "556 U. S. 848",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3653654
+      ],
+      "weight": 2,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "856",
+          "parenthetical": "the word \"any\" in \"any other provision of law\" was \"no warrant to limit the class of provisions of law\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/556/0848-01"
+      ]
+    },
+    {
+      "cite": "18 U. S. C. \u00a7\u00a7 2422",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U. S. C. \u00a7\u00a7 1111",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "49 U. S. C. \u00a7 46502",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "240 F. 3d 415",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11137440
+      ],
+      "weight": 2,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "423"
+        },
+        {
+          "page": "423",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/240/0415-01"
+      ]
+    },
+    {
+      "cite": "112 Stat. 3470",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 3559",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(c)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "589 F. 3d 1334",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3499829
+      ],
+      "weight": 2,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "1343"
+        },
+        {
+          "page": "1343",
+          "parenthetical": "clause covers only sentences for conduct offending \u00a7 924(e)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/589/1334-01"
+      ]
+    },
+    {
+      "cite": "266 U. S. 531",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6143715
+      ],
+      "year": 1925,
+      "pin_cites": [
+        {
+          "page": "534-535"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/266/0531-01"
+      ]
+    },
+    {
+      "cite": "554 U. S. 237",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3677168
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "251",
+          "parenthetical": "\"We resist attributing to Congress an intention to render a statute so internally inconsistent.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/554/0237-01"
+      ]
+    },
+    {
+      "cite": "520 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11650897
+      ],
+      "weight": 2,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "10",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "5",
+          "parenthetical": "holding that \"any other term of imprisonment\" includes terms imposed by state courts (internal quotation marks omitted)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/520/0001-01"
+      ]
+    },
+    {
+      "cite": "446 U. S. 398",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6182970
+      ],
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "404"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/446/0398-01"
+      ]
+    },
+    {
+      "cite": "98 Stat. 2138",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "543 U. S. 220",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5925862
+      ],
+      "year": 2005,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/543/0220-01"
+      ]
+    },
+    {
+      "cite": "529 F. 3d 150",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3626409
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "155"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/529/0150-01"
+      ]
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 3553",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "553 F. 3d 519",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3717277
+      ],
+      "weight": 3,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "526",
+          "parenthetical": "per curiam"
+        },
+        {
+          "page": "526"
+        },
+        {
+          "page": "526",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/553/0519-01"
+      ]
+    },
+    {
+      "cite": "552 U. S. 23",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3675805
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "35"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/552/0023-01"
+      ]
+    },
+    {
+      "cite": "558 F. 3d 166",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3358690
+      ],
+      "weight": 2,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "171"
+        },
+        {
+          "page": "171",
+          "parenthetical": "clause covers ''minimum sentences for ... offenses arising from the same criminal transaction or operative set of facts\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/558/0166-01"
+      ]
+    },
+    {
+      "cite": "549 F. 3d 5",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5734347
+      ],
+      "weight": 2,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "11"
+        },
+        {
+          "page": "11-12",
+          "parenthetical": "clause does not cover sentences for predicate drug offenses but might cover sentences for ACCA firearm offenses"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/549/0005-01"
+      ]
+    },
+    {
+      "cite": "560 U. S. 218",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12449201,
+        3642026
+      ],
+      "weight": 4,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "233",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "232"
+        },
+        {
+          "page": "227"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/176/0979-01",
+        "/us/560/0218-01"
+      ]
+    },
+    {
+      "cite": "516 U. S. 137",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        326878
+      ],
+      "weight": 2,
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "144"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/516/0137-01"
+      ]
+    },
+    {
+      "cite": "112 Stat. 3469",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "82 Stat. 1213",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "559 U. S. 903",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "year": 2010,
+      "opinion_index": 0
+    },
+    {
+      "cite": "568 F. 3d 553",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3654052
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "564"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/568/0553-01"
+      ]
+    },
+    {
+      "cite": "329 Fed. Appx. 569",
+      "category": "reporters:federal",
+      "reporter": "Fed. Appx.",
+      "weight": 2,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "570",
+          "parenthetical": "per curiam"
+        },
+        {
+          "page": "570",
+          "parenthetical": "case below"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "574 F. 3d 203",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3675117
+      ],
+      "weight": 4,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "208"
+        },
+        {
+          "page": "209"
+        },
+        {
+          "page": "208"
+        },
+        {
+          "page": "208",
+          "parenthetical": "case below"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/574/0203-01"
+      ]
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 922",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(g)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 U. S. C. \u00a7\u00a7841",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 924",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "(e)(1)(A)"
+        },
+        {
+          "page": "(e)"
+        },
+        {
+          "page": "(c)"
+        },
+        {
+          "page": "(e)"
+        },
+        {
+          "page": "(j)(l)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1303,
+    "char_count": 34777,
+    "ocr_confidence": 0.62,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.1718988249894106
+    },
+    "sha256": "a4103ed076d4a0c506a43a6f94c2009bdcc33f3687c61b93f464c776a133a293",
+    "simhash": "1:b886bcd7d80a0d17",
+    "word_count": 5834
+  },
+  "last_updated": "2024-02-27T22:51:28.129297+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of these cases."
+    ],
+    "parties": [
+      "ABBOTT v. UNITED STATES"
+    ],
+    "opinions": [
+      {
+        "text": "Justice Ginsburg\ndelivered the opinion of the Court.\nAs one of several measures to punish gun possession by-persons engaged in crime, Congress made it a discrete offense to use, carry, or possess a deadly weapon in connection with \u201cany crime of violence or drug trafficking crime.\u201d 18 U. S. C. \u00a7 924(e)(1)(A). The minimum prison term for the offense described in \u00a7 924(c) is five years, \u00a7 924(c)(l)(A)(i), in addition to \u201cany other term of imprisonment imposed on the [offender],\u201d \u00a7 924(c)(l)(D)(ii). The two consolidated cases before us call for interpretation of \u00a7 924(c) as that provision was reformulated in 1998.\nKevin Abbott and Carlos Rashad Gould, petitioners here, defendants below, were charged with multiple drug and firearm offenses; charges on which they were convicted included violation of \u00a7 924(c). Each objected to the imposition of any additional prison time for his \u00a7 924(c) conviction. Their objections rested on the \u201cexcept\u201d clause now prefacing \u00a7 924(c)(1)(A). Under that clause, a minimum term of five years shall be imposed as a consecutive sentence \u201c[e]xcept to the extent that a greater minimum sentence is otherwise provided by [\u00a7 924(c) itself] or by any other provision of law.\u201d\nAbbott and Gould read \u00a7 924(c)\u2019s \u201cexcept\u201d clause to secure them against prison time for their \u00a7 924(c) convictions. They claim exemption from punishment under \u00a7 924(c) because they were sentenced to greater mandatory minimum prison terms for convictions on other counts charging different offenses. The \u201cexcept\u201d clause, they urge, ensures that \u00a7 924(c) offenders will serve at least five years in prison. If conviction on a different count yields a mandatory sentence exceeding five years, they maintain, the statutory requirement is satisfied and the penalty specified for the \u00a7 924(c) violation becomes inoperative.\nThe courts below, agreeing with the Government\u2019s construction of the statute, read \u00a7 924(c)(1) as independently requiring a sentence of at least five years, tacked onto any other sentence the defendant receives. The \u201cexcept\u201d clause refers to \u201ca greater minimum sentence . . . otherwise provided.\u201d \u201c[Ojtherwise provided\u201d for what, the courts below asked; their answer, for conduct offending \u00a7 924(c), i. e., possessing a firearm in connection with a crime of violence or drug-trafficking crime.\nA defendant is not spared from a separate, consecutive sentence for a \u00a7 924(c) conviction, the lower courts determined, whenever he faces a higher mandatory minimum for a different count of conviction. Instead, according to the courts below and the Government here, the \u201cexcept\u201d clause applies only when another provision \u2014 whether contained within or placed outside \u00a7 924(c) \u2014 commands a longer term for conduct violating \u00a7 924(e). For example, the mandatory minimum sentence for a \u00a7 924(c) offense is five years, but if the firearm is brandished, the minimum rises to seven years, and if the firearm is discharged, to ten years. \u00a7 924(e)(l)(A)(i), (ii), (iii). A defendant who possessed, brandished, and discharged a firearm in violation of \u00a7 924(c) would thus face a mandatory minimum term of ten years.\nWe hold, in accord with the courts below, and in line with the majority of the Courts of Appeals, that a defendant is subject to a mandatory, consecutive sentence for a \u00a7 924(c) conviction, and is not spared from that sentence by virtue of receiving a higher mandatory minimum on a different count of conviction. Under the \u201cexcept\u201d clause as we comprehend it, a \u00a7 924(c) offender is not subject to stacked sentences for violating \u00a7 924(c). If he possessed, brandished, and discharged a gun, the mandatory penalty would be 10 years, not 22. He is, however, subject to the highest mandatory minimum specified for his conduct in \u00a7 924(c), unless another provision of law directed to conduct proscribed by \u00a7 924(c) imposes an even greater mandatory minimum.\nI\nAbbott and Gould, defendants in unrelated prosecutions, were each charged with violating \u00a7 924(c)(l)(A)(i) by possessing a firearm in furtherance of a drug-trafficking crime. Abbott\u2019s case was tried to a jury in the Eastern District of Pennsylvania, which convicted him on the \u00a7 924(c) count and three others: two predicate trafficking counts, 21 U. S. C. \u00a7\u00a7841, 846, and being a felon in possession of a firearm, 18 U. S. C. \u00a7 922(g). Given Abbott\u2019s extensive criminal history, his felon-in-possession conviction triggered a 15-year mandatory minimum under the Armed Career Criminal Act (ACCA), 18 U. S. C. \u00a7 924(e). The District Court sentenced Abbott to the 15 years mandated by ACCA, and to an additional five years for the \u00a7 924(c) violation, yielding a total prison term of 20 years.\nGould\u2019s indictment listed seven separate drug and firearm charges. In return for Gould\u2019s agreement to plead guilty, the Government dropped all but two: one \u00a7 924(c) offense and one predicate drug-trafficking crime. The latter, for conspiracy to possess with intent to distribute cocaine base, carried a ten-year mandatory minimum under \u00a7 841(b)(1)(A). Firearm involvement was not an element of that offense. The United States District Court for the Northern District of Texas imposed a sentence of 11 years and five months for the trafficking offense and an additional five years for the \u00a7 924(e) violation, for a total of 16 years and five months.\nOn appeal, Abbott and Gould challenged the five-year consecutive sentence each received under \u00a7 924(c). Abbott urged that ACCA\u2019s 15-year mandatory minimum triggered \u00a7924(c)\u2019s \u201cexcept\u201d clause, because ACCA qualified as \u201c[an]other provision of law\u201d that \u201cprovided\u201d a \u201cgreater minimum sentence.\u201d Gould said the same of the ten years commanded by his predicate trafficking crime.\nThe United States Court of Appeals for the Third Circuit affirmed Abbott\u2019s sentence, concluding that the \u201cexcept\u201d clause \u201crefers only to other minimum sentences that may be imposed for violations of \u00a7 924(c).\u201d 574 F. 3d 203, 208 (2009). Gould fared no better before the Fifth Circuit. 329 Fed. Appx. 569, 570 (2009) (per curiam). That court\u2019s precedent already confined the exception to conduct offending \u00a7 924(c). United States v. London, 568 F. 3d 553, 564 (2009). To resolve the division among the Circuits on the proper construction of \u00a7924(c)\u2019s \u201cexcept\u201d clause, we granted certiorari in both cases and consolidated them for argument. 559 U. S. 903 (2010).\nII\nA\nCongress enacted 18 U. S. C. \u00a7 924(c) as part of the Gun Control Act of 1968, 82 Stat. 1213. The \u201cexcept\u201d clause, which did not appear in \u00a7 924(c) as originally composed, was introduced by statutory amendment in 1998. See An Act [t]o throttle criminal use of guns, 112 Stat. 3469. We begin by setting out \u00a7 924(c), first as it read before 1998, then as amended that year.\nThe earlier version read in relevant part:\n\u201cWhoever, during and in relation to any crime of violence or drug trafficking crime (including a crime of violence or drug trafficking crime which provides for an enhanced punishment if committed by the use of a deadly or dangerous weapon or device) . . . , uses or carries a firearm, shall, in addition to the punishment provided for such crime of violence or drug trafficking crime, be sentenced to imprisonment for five years, and if the firearm is a short-barreled rifle, short-barreled shotgun, or semiautomatic assault weapon, to imprisonment for ten years, and if the firearm is a machinegun, or a destructive device, or is equipped with a firearm silencer or firearm muffler, to imprisonment for thirty years. In the case of his second or subsequent conviction under this subsection, such person shall be sentenced to imprisonment for twenty years, and if the firearm is a machinegun, or a destructive device, or is equipped with a firearm silencer or firearm muffler, to life imprisonment without release. Notwithstanding any other provision of law,... the term of imprisonment imposed under this subsection [shall not] run concurrently with any other term of imprisonment including that imposed for the crime of violence or drug trafficking crime in which the firearm was used or carried.\u201d \u00a7 924(c)(1) (1994 ed.) (footnote omitted).\nIf this pre-1998 text governed, all agree, separate counts of conviction would have no preemptive force, and Abbott and Gould would have been correctly sentenced under \u00a7 924(c). The question we confront is whether Congress\u2019 1998 reformulation of \u00a7 924(c) rendered the sentences imposed on Abbott and Gould excessive.\nThe 1998 alteration responded primarily to our decision in Bailey v. United States, 516 U. S. 137 (1995). In proscribing \u201cuse\u201d of a firearm, Bailey held, \u00a7 924(c)(1) did not reach \u201cmere possession\u201d of the weapon. Id., at 144. Congress legislated a different result; in the 1998 revision, \u201ccolloquially known as the Bailey Fix Act,\u201d the Legislature brought possession within the statute\u2019s compass. United States v. O\u2019Brien, 560 U. S. 218, 233 (2010) (internal quotation marks omitted).\nIn addition to the change prompted by Bailey, Congress increased the severity of \u00a7 924(c) sentences in two other respects: The 1998 revision \u201cchanged what were once mandatory sentences into mandatory minimum sentences,\u201d O\u2019Brien, 560 U. S., at 232; and it elevated the sentences for brandishing and discharging a firearm and for repeat offenses. Congress also restructured the provision, \u201cdivid[ing] what was once a lengthy principal sentence into separate subparagraphs.\u201d Id., at 227. And it added the prefatory \u201cexcept\u201d clause at issue in the cases now before us. As amended, \u00a7 924(c)(1)(A) prescribes:\n\u201cExcept to the extent that a greater minimum sentence is otherwise provided by this subsection or by any other provision of law, any person who, during and in relation to any crime of violence or drug trafficking crime (including a crime of violence or drug trafficking crime that provides for an enhanced punishment if committed by the use of a deadly or dangerous weapon or device) for which the person may be prosecuted in a court of the United States, uses or carries a firearm, or who, in furtherance of any such crime, possesses a firearm, shall, in addition to the punishment provided for such crime of violence or drug trafficking crime\u2014\n\u201c(i) be sentenced to a term of imprisonment of not less than 5 years;\n\u201c(ii) if the firearm is brandished, be sentenced to a term of imprisonment of not less than 7 years; and \u201c(iii) if the firearm is discharged, be sentenced to a term of imprisonment of not less than 10 years.\u201d\nThe 1998 reformulation, furthermore, removed to separate paragraphs the provisions commanding higher penalties for especially destructive weapons and \u201csecond or subsequent\u201d offenses. See \u00a7 924(c)(1)(B), (C). While leaving the penalties for highly destructive weapons unchanged, the revision raised the base punishment for \u201csecond or subsequent\u201d offenses from 20 years to 25. Ibid. The reformulation also transferred the bar on concurrent sentences to \u00a7 924(c)(l)(D)(ii):\n\u201c[N]o term of imprisonment imposed on a person under this subsection shall run concurrently with any other term of imprisonment imposed on the person, including any term of imprisonment imposed for the crime of violence or drug trafficking crime during which the firearm was used, carried, or possessed.\u201d\nB\nThe leading portion of the \u201cexcept\u201d clause, which now prefaces \u00a7 924(c)(1)(A), refers to a \u201cgreater minimum sentence . . . otherwise provided by this subsection,\u201d i. e., by \u00a7 924(c) itself; the second segment of the clause refers to a greater minimum provided outside \u00a7 924(c) \u201cby any other provision of law.\u201d Beyond debate, the latter instruction does not re-Heve a \u00a7 924(c) offender of additional punishment \u201csimply because a higher mandatory minimum sentence exists in the United States Code.\u201d Brief for Petitioner in No. 09-479, p. 19 (hereinafter Abbott Brief). Were it otherwise, the statute\u2019s ascending series of minimums, set out in \u00a7 924(e)(l)(A)-(C), would have no work to do; the only possible \u00a7 924(c) sentence would be the Code\u2019s highest \u2014 life. The \u201cexcept\u201d clause, it is therefore undisputed, \u201chas to have some understood referent to be intelligible.\u201d United States v. Parker, 549 F. 3d 5, 11 (CA1 2008). What should that referent be? As we comprehend the clause, to determine whether a greater minimum sentence is \u201cotherwise provided ... by any other provision of law,\u201d the key question one must ask is: otherwise provided for whatl As earlier noted, see supra, at 13, most courts, in line with the courts below and the Government, have answered: for the conduct \u00a7 924(c) proscribes, i. e., possessing a firearm in connection with a predicate crime.\nAbbott and Gould disagree and offer diverse readings. Gould principally would apply the \u201cexcept\u201d clause to preclude a \u00a7 924(c) sentence whenever \u201cany of a defendant\u2019s counts of eonvictio[n] at sentencing\u201d require a greater minimum sentence. Brief for Petitioner in No. 09-7073, p. 14 (hereinafter Gould Brief).\nIn lieu of Gould\u2019s position that any greater minimum sentence on a different count of conviction will do, Abbott advances a somewhat narrower \u201ctransactional approach.\u201d Any sentence imposed on the defendant fits the bill, he urges, so long as the sentence was imposed \u201cbecause of the criminal transaction that triggered \u00a7 924(c) in the first place.\u201d Abbott Brief 10. Accord United States v. Williams, 558 F. 3d 166, 171 (CA2 2009).\nAbbott also tenders an alternative construction: The minimum sentence \u201cotherwise provided\u201d must be for a firearm offense \u2014 for example, Abbott\u2019s felon-in-possession charge\u2014 involving the same firearm that triggered \u00a7 924(c). Conceding that this reading is \u201cnot commanded by the [statute\u2019s] plain language,\u201d Tr. of Oral Arg. 24, Abbott asserts that it advances \u00a7 924(c)\u2019s goal \u2014 to discourage bearing arms in furtherance of crime \u2014 while avoiding the imposition of \u201ctwo consecutive mandatory minimum sentences for the single use of a single firearm,\u201d Abbott Brief 47 (emphasis omitted).\nThe three interpretations just described share a common premise. In adding the \u201cexcept\u201d clause in 1998, all three posit, Congress adopted a less aggressive mode of applying \u00a7 924(c), one that significantly reduced the severity of the provision\u2019s impact on defendants. Like the courts below, we regard this premise as implausible. As earlier observed, see supra, at 15-16, the pre-1998 version of \u00a7 924(c) prescribed a discrete sentence \u2014 punishment to be imposed regardless of the sentence received for the predicate crime or any separate firearm conviction. Abbott and Gould think the \u201cexcept\u201d clause installed, instead, a modest scheme designed simply to ensure that all \u00a7 924(c) offenders \u201cserve at least 5 years in prison.\u201d Gould Brief 5; see Abbott Brief 10. We doubt that Congress meant a prefatory clause, added in a bill dubbed \u201cAn Act [t]o throttle criminal use of guns,\u201d to effect a departure so great from \u00a7 924(c)\u2019s longstanding thrust, i. e., its insistence that sentencing judges impose additional punishment for \u00a7 924(c) violations.\nWere we to accept any of the readings proposed by Abbott or Gould, it bears emphasis, we would undercut that same bill\u2019s primary objective: to expand \u00a7924(c)\u2019s coverage to reach firearm possession. In 1999, more than half of those who violated \u00a7 924(c) in connection with a drug-trafficking offense received a mandatory minimum of ten years or more for that trafficking offense. Letter from Glenn R. Schmitt, United States Sentencing Commission, to Supreme Court Library (Nov. 10,2010) (available in Clerk of Court\u2019s ease file). Congress, however, imposed only a five-year minimum for firearm possession \u201cin furtherance of\u201d a drug offense. As construed by Abbott and Gould, the amendment to include firearm possession as a \u00a7 924(c) offense would spare the most serious drug offenders from any discrete punishment for the very firearm activity the amendment targeted. \u201cWe are disinclined to say that what Congress imposed with one hand . . . it withdrew with the other . . . .\u201d Logan v. United States, 552 U. S. 23, 35 (2007).\nAbbott\u2019s and Gould\u2019s proposed readings, moreover, would result in sentencing anomalies Congress surely did not intend. We note first that \u00a7 924(c), as they construe it, would often impose no penalty at all for the conduct that provision makes independently criminal. Tr. of Oral Arg. 52. For example, an individual who sold enough drugs to receive a ten-year minimum sentence under \u00a7 841(b)(1)(A) could, so far as \u00a7 924(c) is concerned, possess or even brandish a gun without incurring any additional punishment.\nStranger still, under the Abbott and Gould readings, the worst offenders would often secure the shortest sentences. Consider two defendants convicted of trafficking in cocaine. The first possesses 500 grams and is subject to a mandatory minimum of five years, \u00a7 841(b)(1)(B); the second possesses five kilograms and is subject to a mandatory minimum of ten years, \u00a7 841(b)(1)(A). Both brandish firearms, calling for a sentence of seven years under \u00a7 924(c)(l)(A)(ii). The first defendant, under all readings, will spend at least 12 years in prison. The second defendant\u2019s ten-year drug minimum, according to Abbott and Gould, triggers the \u201cexcept\u201d clause and wipes out that defendant\u2019s \u00a7 924(c) penalty; though the more culpable of the two, the second defendant\u2019s minimum term would be just ten years. Brief for United States 40. Like the Third Circuit below, \u201c[w]e are confident that Congress did not intend such a bizarre result. \u201d 574 F. 3d, at 209.\nAbbott\u2019s alternative construction, which homes in on other firearm offenses, gives rise to similar oddities. On this reading, Abbott\u2019s 15-year ACCA sentence for being a felon in possession would preempt his five-year \u00a7 924(c) sentence, and his minimum term would be 15 years, rather than 20. But if ACCA were not at issue, Abbott\u2019s minimum term would be the same 15 years: his five-year \u00a7 924(c) sentence on top of his ten-year drug sentence. Qualification as a career criminal would carry no consequence.\nNor does Abbott\u2019s second construction necessarily promote more equitable outcomes. Suppose, for example, that a career criminal sold drugs together with a first-time offender, and both brandished firearms in the process. The first-time offender, lacking a felon-in-possession conviction, would serve a seven-year \u00a7 924(c) sentence on top of a ten-year drug sentence, for a total of 17 years. But the career criminal\u2019s ACCA sentence would preempt the \u00a7 924(c) sentence; he would serve only 15 years.\nAbbott and Gould respond that sentencing judges may take account of such anomalies and order appropriate adjustments. We observe first that no correction or avoidance appears possible for the anomaly that, while \u00a7 924(c) \u201cdefines a standalone crime,\u201d a \u00a7 924(c) sentence would be wiped out by a wholly separate and independent conviction. United States v. Easter, 553 F. 3d 519, 526 (CA7 2009) (per curiam) (\u201cA determination of guilt that yields no sentence is not a judgment of conviction at all.\u201d). We do, however, agree that a judge exercising discretion under 18 U. S. C. \u00a7 3553(a) \u201cwould [not] be required to sentence\u201d a more culpable defendant to a lesser term; the judge could increase that defendant\u2019s sentence for a predicate crime to make up for \u00a7 924(c)\u2019s failure to effect any enlargement of the time served. United States v. Whitley, 529 F. 3d 150, 155 (CA2 2008). But we doubt Congress had such a cure in mind in 1998, seven years before we held, in United States v. Booker, 543 U. S. 220 (2005), that district courts have discretion to depart from the Sentencing Guidelines on the basis of \u00a7 3553(a).\nAbbott and Gould alternatively contend that Congress could have anticipated that the then-mandatory Guidelines would resolve disparities. See Abbott Brief 32-35; Gould Brief 30-32. On this view, the \u201cexcept\u201d clause ensures that a \u00a7 924(c) offender incurs a minimum sentence of considerable length; the Guidelines would then control, elevating that sentence based on firearm possession or use. See United States Sentencing Commission, Guidelines Manual \u00a7\u00a7 2D 1.1(b)(1), 2K2.1(b)(5) (Nov. 1998) (increasing offense level for defendants who use or possess firearms in course of violent crime or drug trafficking); \u00a7\u00a72D1.1(b)(1), 2K2.1(b)(6) (Nov. 2009) (same).\nWe do not gainsay that Abbott and Gould project a rational, less harsh, mode of sentencing. But we do not think it was the mode Congress ordered. Congress expressly rejected an analogous scheme in 1984, when it amended \u00a7 924(c) in the same law that created the Sentencing Commission and the Guidelines. \u00a71005, 98 Stat. 2138. Four years earlier, in Busic v. United States, 446 U. S. 398, 404 (1980), we had read \u00a7 924(c) to impose no penalty when the predicate crime itself prescribed a firearm enhancement; similarly, Abbott and Gould now read \u00a7 924(c) to impose no penalty when the Guidelines prescribe a firearm enhancement to the predicate sentence. The 1984 legislation \u201crepudiated\u201d Busic, clarifying that \u00a7 924(c) applied even when the predicate crime already \u201cprovides for an enhanced punishment if committed by the use of a deadly or dangerous weapon or device.\u201d United States v. Gonzales, 520 U. S. 1, 10 (1997) (internal quotation marks omitted).\nBetween 1984 and 1998, Congress expanded the reach or increased the severity of \u00a7 924(c) on four occasions, never suggesting that a Guidelines firearm enhancement might suffice to accomplish \u00a7 924(c)\u2019s objective. Nor is there the slightest indication that Congress was contemplating the Guidelines\u2019 relationship to \u00a7 924(c) when it added the \u201cexcept\u201d clause in the 1998 amendments.\nThe \u201cexcept\u201d clause, we note, would have been a most haphazard way to achieve a Guidelines-driven rollback of \u00a7 924(c). If Congress wanted to ensure that \u00a7 924(c) offenders \u201creceive at least five years in prison,\u201d and to rely on the Guidelines for the rest, Abbott Brief 10, there was an obvious solution: Congress could have excised all prescriptions ordering that \u00a7 924(c) sentences shall run consecutively to other sentences. Without such a requirement, all defendants would benefit from a minimum-plus-Guidelines regime \u2014 not just the most culpable offenders. Congress did not adopt that obvious solution, we think, because it did not want the Guidelines to supplant \u00a7 924(c).\nC\nThe Government\u2019s reading of the \u201cexcept\u201d clause, we are convinced, makes far more sense than the interpretations urged by Abbott and Gould. In imposing a sentence for a \u00a7 924(c) violation \u201c[ejxcept to the extent that a greater minimum sentence is otherwise provided ... by any other provision of law,\u201d Congress meant:\n\u201c[I]f another provision of the United States Code mandates a punishment for using,' carrying, or possessing a firearm in connection with a drug trafficking crime or crime of violence, and that minimum sentence is longer than the punishment applicable under Section 924(c), then the longer sentence applies.\u201d Brief for United States 17.\nThis reading gives effect to the statutory language commanding that all \u00a7 924(e) offenders shall receive additional punishment for their violation of that provision, a command reiterated three times. First, the statute states that the punishment specified in \u00a7 924(c)(1) \u201cshall\u201d be imposed \u201cin addition to\u201d the penalty for the predicate offense. \u00a7 924(e)(1)(A). Second, after Busic, \u00a7 924(c) demands a discrete punishment even if the predicate crime itself \u201cprovides for an enhanced punishment if committed by the use of a deadly or dangerous weapon or device.\u201d \u00a7 924(e)(1)(A). Third, \u00a7 924(e)(l)(D)(ii) rules out the possibility that a \u00a7 924(c) sentence might \u201crun concurrently with any other term of imprisonment.\u201d We doubt that Congress, having retained this thrice-repeated instruction, would simultaneously provide an exception severely limiting application of the instruction. Cf. Greenlaw v. United States, 554 U. S. 237, 251 (2008) (\u201cWe resist attributing to Congress an intention to render a statute so internally inconsistent.\u201d).\nInterpreting the \u201cexcept\u201d clause to train on conduct offending \u00a7 924(c) also makes sense as a matter of syntax. The \u201cexcept\u201d clause is not a standalone enactment, or even standalone sentence. Rather, it precedes and qualifies \u00a7 924(c)(l)(A)\u2019s principal clause, which punishes the possession of a firearm in connection with specified predicate crimes. The \u201cgrammatical and logical scope\u201d of a proviso, we have held, \u201cis confined to the subject-matter of the principal clause\u201d to which it is attached. United States v. Morrow, 266 U. S. 531, 534-535 (1925). As a proviso attached to \u00a7 924(c), the \u201cexcept\u201d clause is most naturally read to refer to the conduct \u00a7 924(c) proscribes. Accord United States v. Villa, 589 F. 3d 1334, 1343 (CA10 2009).\nThere is strong contextual support for our view that Congress intended the \u201cexcept\u201d clause to serve simply as a clarification of \u00a7 924(c), not as a major restraint on the statute\u2019s operation. At the same time Congress added the \u201cexcept\u201d clause, it made the rest of \u00a7 924(c) more complex. The 1998 revision divided the statute\u2019s existing sentencing prescriptions into four paragraphs in lieu of one, and added new penalties for brandishing and discharging a firearm. \u00a7 924(c)(l)(A)-(D). We know that Congress thought the restructuring might confiase sentencing judges: Warding off confusion, all agree, was the Legislature\u2019s sole objective in adding the initial part of the \u201cexcept\u201d clause, which covers greater m\u00ednimums provided \u201cby this subsection.\u201d That portion of the clause instructs judges to pick the single highest sentence stipulated for a \u00a7 924(c) violation within \u00a7 924(c) itself, and not to stack ten years for discharging a gam on top of seven for brandishing the same weapon, whenever a defendant does both.\nIn referencing greater m\u00ednimums provided by \u201cany other provision of law,\u201d we think, the second portion of the \u201cexcept\u201d clause simply furnishes the same no-stacking instruction for cases in which \u00a7 924(c) and a different statute both punish conduct offending \u00a7 924(c). Congress likely anticipated such cases when the \u201cexcept\u201d clause was framed in 1998, for the bill that reformulated the text of \u00a7 924(c) did just one thing more: It amended 18 U. S. C. \u00a7 3559(c) to command a life sentence when certain repeat felons are convicted of \u201cfirearms possession (as described in section 924(e)).\u201d \u00a7 1(b), 112 Stat. 3470.\nOur interpretation, Abbott and Gould protest, renders the second part of the \u201cexcept\u201d clause effectively meaningless. Section 8559(c) is the only existing statute, outside of \u00a7 924(c) itself, the Government places within the \u201cexcept\u201d clause. Tr. of Oral Arg. 32-35, 42-44. But \u00a7 3559(c) already imposes a life sentence. A defendant would find little comfort in knowing that no \u00a7 924(c) sentence, say five years or seven, will be tacked on to his \u00a7 3559(c) life term.\nAs Courts of Appeals have observed, however, the \u201cany other provision of law\u201d portion of the \u201cexcept\u201d clause installs a \u201csafety valve.\u201d United States v. Studifin, 240 F. 3d 415, 423 (CA4 2001). It \u201callow[s] for additional \u00a7 924(c) sentences,\u201d akin to the sentence prescribed in \u00a7 3559(e), that Congress may codify outside \u00a7924(c) \u201cin the future.\u201d 574 F. 3d, at 208. We do not regard this allowance as \u201cimplausible.\u201d See Abbott Brief 22; Gould Brief 21. As the Government points out, \u201cthere is nothing unusual about Congress prescribing mandatory minimum penalties for substantive offenses codified in other provisions.\u201d Brief for United States 22. See, e. g., \u00a7 3559(c) (prescribing penalties for violations of, inter alia, 49 U. S. C. \u00a7 46502 and 18 U. S. C. \u00a7\u00a7 1111, 2111, 2113, and 2118); \u00a7 3559(d) (prescribing penalties for violations of, inter alia, 18 U. S. C. \u00a7\u00a7 2422, 2423, and 2251); 18 U. S. C. \u00a7 924(e) (prescribing penalty for violation of \u00a7 922(g)). See also 18 U. S. C. \u00a7924(j)(l) (prescribing a nonmandatory penalty of death for individuals who commit murder with a firearm in the course of a \u00a7 924(c) offense).\nOur decisions in Gonzales and Republic of Iraq v. Beaty, 556 U. S. 848 (2009), do not warrant a different conclusion. We observed in Gonzales that \u201cthe word \u2018any\u2019 [ordinarily] has an expansive meaning.\u201d 520 U. S., at 5 (holding that \u201cany other term of imprisonment\u201d includes terms imposed by state courts (internal quotation marks omitted)). See also Beaty, 556 U. S., at 856 (the word \u201cany\u201d in \u201cany other provision of law\u201d was \u201cno warrant to limit the class of provisions of law\u201d). But our decision on the petitions of Abbott and Gould does not turn on artificial confinement of the phrase \u201cany other provision of law.\u201d We rely, instead, on the different direction Congress prescribed for the \u201cexcept\u201d clause: It applies only when \u201ca greater minimum sentence is otherwise provided.\u201d \u201cIn the contest between reading\u201d that phrase \u201cto refer to penalties for the [\u00a7 924(c)] offense in question or to penalties for any [other] offense [a defendant commits], we believe the former is the most natural.\u201d Easter, 553 F. 3d, at 526.\n* * *\nFor the reasons stated, the judgments of the Court of Appeals for the Third Circuit and the Court of Appeals for the Fifth Circuit are\nAffirmed.\nJustice Kagan took no part in the consideration or decision of these cases.\nAbbott received ten years on each drug-trafficking count. Those sentences, imposed concurrently, did not alter his total term of imprisonment and do not figure in this litigation.\nCompare United States v. Williams, 558 F. 3d 166, 171 (CA2 2009) (clause covers \u2018\u2018minimum sentences for ... offenses arising from the same criminal transaction or operative set of facts\u201d); and United States v. Almany, 598 F. 3d 238, 241 (CA6 2010) (clause applies whenever a defendant \u201cis subject\u201d to a greater mandatory minimum), with United States v. Parker, 549 F. 3d 5, 11-12 (CA1 2008) (clause does not cover sentences for predicate drug offenses but might cover sentences for ACCA firearm offenses); United States v. Villa, 589 F. 3d 1334, 1343 (CA10 2009) (clause covers only sentences for conduct offending \u00a7 924(e)); United States v. Segarra, 582 F. 3d 1269, 1272-1273 (CA11 2009) (same); 574 F. 3d, at 208 (case below) (same); United States v. Easter, 553 F. 3d 519, 526 (CA7 2009) (per curiam) (same); United States v. Studifin, 240 F. 3d 415, 423 (CA4 2001) (same); United States v. Alaniz, 235 F. 3d 386 (CA8 2000) (same); and 329 Fed. Appx., at 570 (case below) (same).\nThese provisions read:\n\u201c(B) If the firearm possessed by a person convicted of a violation of this subsection\u2014\n\u201c(i) is a short-barreled rifle, short-barreled shotgun, or semiautomatic assault weapon, the person shall be sentenced to a term of imprisonment of not less than 10 years; or\n\u201c(ii) is a machinegun or a destructive device, or is equipped with a firearm silencer or firearm muffler, the person shall be sentenced to a term of imprisonment of not less than 30 years.\n\u201c(C) In the ease of a second or subsequent conviction under this subsection, the person shall\u2014\n\u201c(i) be sentenced to a term of imprisonment of not less than 25 years; and\n\u201c(ii) if the firearm involved is a machinegun or a destructive deviee, or is equipped with a firearm silencer or firearm muffler, be sentenced to imprisonment for life.\u201d\nBecause Gould\u2019s only firearm-related offense is his \u00a7 924(c) offense, Gould\u2019s sentence would stand under Abbott\u2019s alternative construction.\nACCA sentences may run concurrently with drug sentences.\nFirearms Owners\u2019 Protection Act, 1986, \u00a7 104(a), 100 Stat. 456-457 (increasing sentences for certain firearms and adding drug trafficking as a predicate felony); Anti-Drug Abuse Act of 1988, \u00a76460, 102 Stat. 4373-4374 (increasing sentences); Crime Control Act of 1990, \u00a7 1101, 104 Stat. 4829 (same); Public Safety and Recreational Firearms Use Protection Act, 1994, Pub. L. 103-322, \u00a7 110102(e), 108 Stat. 1998 (same).\nFor those who take legislative history into account, it is as silent as is the statute\u2019s text. The sole reference to the \u201cexcept\u201d clause appears in the statement of one witness at a Senate hearing. See Hearing on S. 191 before the Senate Committee on the Judiciary, 105th Cong., 1st Sess., 38 (1997) (statement of Thomas G. Hungar) (\u201c[B]y adding an introductory clause authorizing imposition of stiffer minimum sentences if required under other provisions of law, S. 191 eliminates any potential inconsistency with other statutes.\u201d).\nWe agree with the Government that a qualifying statute need not \u201cexplicitly] reference\u201d \u00a7 924(e), Tr. of Oral Arg. 27; a statute will fit the bill if it provides a greater mandatory minimum for an offense that embodies all the elements of a \u00a7 924(e) offense.\nAbbott and Gould invoke the rule of lenity as a final reason to construe the \u201cexcept\u201d clause to bar their punishments under \u00a7 924(c); if their proposed limitations are textually possible, they maintain, we may not choose the Government\u2019s. \u201c[T]he touchstone of the rule of lenity is statutory ambiguity.\u201d Bifulco v. United States, 447 U. S. 381, 387 (1980) (internal quotation marks omitted). \u201c[A]fter consulting traditional canons of statutory construction,\u201d United States v. Shabani, 513 U. S. 10, 17 (1994), we are persuaded that none remains here: The \u201cexcept\u201d clause covers only conduct offending \u00a7 924(c). Although the clause might have been more meticulously drafted, the \u201cgrammatical possibility\u201d of a defendant\u2019s interpretation does not command a resort to the rule of lenity if the interpretation proffered by the defendant reflects \u201can implausible reading of the congressional purpose.\u201d Caron v. United States, 524 U. S. 308, 316 (1998).",
+        "type": "majority",
+        "author": "Justice Ginsburg"
+      }
+    ],
+    "attorneys": [
+      "David L. Horan, by appointment of the Court, 559 U. S. 1065, argued the cause for petitioner in No. 09-7073. With him on the briefs were David J. Schenck, Paul F. Theiss, and Gregory A. Castanias. James E. Ryan argued the cause for petitioner in No. 09-479. With him on the briefs were Mark T. Standi, Daniel R. Ortiz, George A. Rutherglen, Elizabeth K. Ainslie, David T. Goldberg, and John P. Elwood.",
+      "Acting Deputy Solicitor General McLeese argued the cause for the United States in both cases. On the brief were Acting Solicitor General Katyal, Assistant Attorney General Breuer, Deputy Solicitor General Dreeben, David A. O'Neil, and John M. Pellettieri."
+    ],
+    "corrections": "",
+    "head_matter": "ABBOTT v. UNITED STATES\nNo. 09-479.\nArgued October 4, 2010\nDecided November 15, 2010\nDavid L. Horan, by appointment of the Court, 559 U. S. 1065, argued the cause for petitioner in No. 09-7073. With him on the briefs were David J. Schenck, Paul F. Theiss, and Gregory A. Castanias. James E. Ryan argued the cause for petitioner in No. 09-479. With him on the briefs were Mark T. Standi, Daniel R. Ortiz, George A. Rutherglen, Elizabeth K. Ainslie, David T. Goldberg, and John P. Elwood.\nActing Deputy Solicitor General McLeese argued the cause for the United States in both cases. On the brief were Acting Solicitor General Katyal, Assistant Attorney General Breuer, Deputy Solicitor General Dreeben, David A. O'Neil, and John M. Pellettieri.\nTogether with No. 09-7073, Gould v. United States, on certiorari to the United States Court of Appeals for the Fifth Circuit.\nBriefs of amici curiae urging reversal in both cases were filed for the American Bar Association by Carolyn B. Lamm; for Families Against Mandatory M\u00ednimums by Mary Price, Peter Goldberger, Margaret Colgate Love, Stephanos Bibas, Stephen B. Kinnaird, and Sean D. Unger; and for the National Association of Criminal Defense Lawyers by Miguel A. Estrada, David Debold, and Joshua L. Dratel."
+  },
+  "file_name": "0008-01",
+  "first_page_order": 230,
+  "last_page_order": 250
+}

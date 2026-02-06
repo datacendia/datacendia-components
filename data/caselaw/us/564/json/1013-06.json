@@ -1,0 +1,61 @@
+{
+  "id": 5932016,
+  "name": "Acoff v. United States",
+  "name_abbreviation": "Acoff v. United States",
+  "decision_date": "2011-06-13",
+  "docket_number": "No. 10-10444",
+  "first_page": "1013",
+  "last_page": "1013",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1013"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 150,
+    "ocr_confidence": 0.566,
+    "sha256": "4e6e7c5e53d7c7d344b53f138b322a75ce078e239018c5b8a74d5b30c84ecc72",
+    "simhash": "1:19a2fa82bfa6db5a",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Acoff v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Cer-tiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10444.\nAcoff v. United States."
+  },
+  "file_name": "1013-06",
+  "first_page_order": 1007,
+  "last_page_order": 1007
+}

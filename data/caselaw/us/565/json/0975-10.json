@@ -1,0 +1,59 @@
+{
+  "id": 12230073,
+  "name": "In re Swain",
+  "name_abbreviation": "In re Swain",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. 11-6661",
+  "first_page": "975",
+  "last_page": "975",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 975"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 69,
+    "ocr_confidence": 0.674,
+    "sha256": "beb2e4edf58e952e76cc99c2809c54b2f6e621e714f5c768eab524ed84eb0d67",
+    "simhash": "1:6753935597db83cd",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Swain."
+    ],
+    "opinions": [
+      {
+        "text": "Petition for writ of habeas corpus denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6661.\nIn re Swain."
+  },
+  "file_name": "0975-10",
+  "first_page_order": 1057,
+  "last_page_order": 1057
+}

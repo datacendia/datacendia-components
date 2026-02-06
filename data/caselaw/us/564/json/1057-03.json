@@ -1,0 +1,59 @@
+{
+  "id": 5933562,
+  "name": "In re Jackson",
+  "name_abbreviation": "In re Jackson",
+  "decision_date": "2011-07-28",
+  "docket_number": "No. 11-5529 (11A129)",
+  "first_page": "1057",
+  "last_page": "1057",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1057"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 31,
+    "char_count": 219,
+    "ocr_confidence": 0.534,
+    "sha256": "b1a067bda7b82ca3a3c6adc636d17e0df37e3c5f82abc63bde495b1864856fc9",
+    "simhash": "1:444f813917110959",
+    "word_count": 37
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Jackson."
+    ],
+    "opinions": [
+      {
+        "text": "Application for stay of execution of sentence of death, presented to Justice Auto, and by him referred to the Court, denied. Petition for writ of habeas corpus denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "July 28, 2011\nNo. 11-5529 (11A129).\nIn re Jackson."
+  },
+  "file_name": "1057-03",
+  "first_page_order": 1051,
+  "last_page_order": 1051
+}

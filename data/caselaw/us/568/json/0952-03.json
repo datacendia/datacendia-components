@@ -1,0 +1,59 @@
+{
+  "id": 12418592,
+  "name": "Cherry v. Howes, Warden",
+  "name_abbreviation": "Cherry v. Howes",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 12-5868",
+  "first_page": "952",
+  "last_page": "952",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 952"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.678,
+    "sha256": "5d3d5ffb5649b2f33618227a742eeb59a034fa64c11df85e742d1f840d380ea6",
+    "simhash": "1:85afb215be1b19cc",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cherry v. Howes, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5868.\nCherry v. Howes, Warden."
+  },
+  "file_name": "0952-03",
+  "first_page_order": 1028,
+  "last_page_order": 1028
+}

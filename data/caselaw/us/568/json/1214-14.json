@@ -1,0 +1,59 @@
+{
+  "id": 12432580,
+  "name": "White v. Ohio",
+  "name_abbreviation": "White v. Ohio",
+  "decision_date": "2013-03-04",
+  "docket_number": "No. 12-7950",
+  "first_page": "1214",
+  "last_page": "1214",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1214"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 9,
+    "char_count": 62,
+    "ocr_confidence": 0.628,
+    "sha256": "ccc8e45071eeab0fc181fef1b7fbf3271f897da77b1976fba50c32db58885c93",
+    "simhash": "1:586a633e6a288d8b",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "White v. Ohio."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ohio. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7950.\nWhite v. Ohio."
+  },
+  "file_name": "1214-14",
+  "first_page_order": 1290,
+  "last_page_order": 1290
+}

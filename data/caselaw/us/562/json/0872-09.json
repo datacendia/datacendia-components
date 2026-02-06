@@ -1,0 +1,59 @@
+{
+  "id": 5945768,
+  "name": "Dean v. United States District Court for the Northern District of Georgia",
+  "name_abbreviation": "Dean v. United States District Court for the Northern District of Georgia",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11296",
+  "first_page": "872",
+  "last_page": "872",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 872"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 19,
+    "char_count": 124,
+    "ocr_confidence": 0.571,
+    "sha256": "c1ee96fd288dcfce06ac7d14ceb99c8d2629509bb86d892f87cc5638db77fcc8",
+    "simhash": "1:06185b23cceff216",
+    "word_count": 20
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dean v. United States District Court for the Northern District of Georgia."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11296.\nDean v. United States District Court for the Northern District of Georgia."
+  },
+  "file_name": "0872-09",
+  "first_page_order": 894,
+  "last_page_order": 894
+}

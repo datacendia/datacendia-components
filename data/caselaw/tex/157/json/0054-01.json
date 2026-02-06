@@ -1,0 +1,485 @@
+{
+  "id": 2253978,
+  "name": "Aluminum Company of America Et Al v. Mineral Holding Trust Et Al.",
+  "name_abbreviation": "Aluminum Company of America v. Mineral Holding Trust",
+  "decision_date": "1956-12-05",
+  "docket_number": "No. A-5854",
+  "first_page": "54",
+  "last_page": "65",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "157 Tex. 54"
+    },
+    {
+      "type": "parallel",
+      "cite": "299 S.W.2d 179"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "2 L. Ed. 2d 31",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "opinion_index": -1
+    },
+    {
+      "cite": "78 Sup. Ct. 15",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "355 U. S. 814",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6176292,
+        6176016,
+        6176146,
+        6175765,
+        6175900
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/355/0814-05",
+        "/us/355/0814-03",
+        "/us/355/0814-04",
+        "/us/355/0814-01",
+        "/us/355/0814-02"
+      ]
+    },
+    {
+      "cite": "290 S.W. 2d 499",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10175050,
+        2250907
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/290/0499-01",
+        "/tex/155/0596-01"
+      ]
+    },
+    {
+      "cite": "155 Texas 596",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2250907
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/155/0596-01"
+      ]
+    },
+    {
+      "cite": "227 S.W. 1096",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10340772
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/227/1096-01"
+      ]
+    },
+    {
+      "cite": "210 S.W. 731",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8255482
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/210/0731-01"
+      ]
+    },
+    {
+      "cite": "66 A.L.R. 916",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "8 S.W. 2d 633",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10288656,
+        2274803
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/8/0633-01",
+        "/tex/117/0474-01"
+      ]
+    },
+    {
+      "cite": "117 Texas 474",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2274803
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/117/0474-01"
+      ]
+    },
+    {
+      "cite": "31 S.W. 2d 52",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "pin_cites": [
+        {
+          "page": "803"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "88 Texas 458",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2245558
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/88/0458-01"
+      ]
+    },
+    {
+      "cite": "207 S.W. 2d 894",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        8716345,
+        10212703
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/146/0322-01",
+        "/sw2d/207/0894-01"
+      ]
+    },
+    {
+      "cite": "146 Texas 322",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        8716345
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/146/0322-01"
+      ]
+    },
+    {
+      "cite": "50 S.W. 2d 1093",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10263431
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/50/1093-01"
+      ]
+    },
+    {
+      "cite": "180 S.W. 2d 151",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2339160,
+        10198660
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/142/0572-01",
+        "/sw2d/180/0151-01"
+      ]
+    },
+    {
+      "cite": "142 Texas 572",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2339160
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/142/0572-01"
+      ]
+    },
+    {
+      "cite": "201 S.W. 2d 810",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2335024,
+        10199757
+      ],
+      "pin_cites": [
+        {
+          "page": "812"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/145/0639-01",
+        "/sw2d/201/0810-01"
+      ]
+    },
+    {
+      "cite": "145 Texas 639",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2335024
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/145/0639-01"
+      ]
+    },
+    {
+      "cite": "32 S.W. 876",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "pin_cites": [
+        {
+          "page": "877"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "88 Texas 595",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2245618
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/88/0595-01"
+      ]
+    },
+    {
+      "cite": "48 S.W. 2d 950",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10259296,
+        2305634
+      ],
+      "pin_cites": [
+        {
+          "page": "952"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/48/0950-01",
+        "/tex/121/0268-01"
+      ]
+    },
+    {
+      "cite": "121 Texas 268",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2305634
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/121/0268-01"
+      ]
+    },
+    {
+      "cite": "11 S.W. 340",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "73 Texas 340",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2188945
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/73/0340-01"
+      ]
+    },
+    {
+      "cite": "232 S.W. 490",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10316394,
+        2284725
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/232/0490-01",
+        "/tex/111/0275-01"
+      ]
+    },
+    {
+      "cite": "111 Texas 275",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2284725
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/111/0275-01"
+      ]
+    },
+    {
+      "cite": "165 S.W. 67",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8270122
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/165/0067-01"
+      ]
+    },
+    {
+      "cite": "156 S.W. 1105",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8297168
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/156/1105-01"
+      ]
+    },
+    {
+      "cite": "288 S.W. 2d 849",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10181992
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/288/0849-01"
+      ]
+    },
+    {
+      "cite": "236 S.W. 2d 234",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10197232
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/236/0234-01"
+      ]
+    },
+    {
+      "cite": "377 S.W. 1096",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "189 S.W. 1033",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8258805
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw/189/1033-01"
+      ]
+    },
+    {
+      "cite": "210 S.W. 731",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8255482
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw/210/0731-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1055,
+    "char_count": 26270,
+    "ocr_confidence": 0.59,
+    "pagerank": {
+      "raw": 5.805023098141098e-08,
+      "percentile": 0.3615587240800525
+    },
+    "sha256": "c2d4de5bd10db6b9ebccd611c3fd13cbdb16229e14285af2817ac3ee149c1a86",
+    "simhash": "1:ffb4c42d21266547",
+    "word_count": 4536
+  },
+  "last_updated": "2024-02-27T18:48:18.334778+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Aluminum Company of America Et Al v. Mineral Holding Trust Et Al."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Culver\ndelivered the opinion of the Court.\nThis action in the nature of a bill of review was brought by Mineral Holding Trust and its grantees and assignees, Green and Wherry, against Aluminum Company of America, Crown Central Petroleum Corporation, and Guy F. Stovall and F. E. Ap-pling, to set aside a sheriff\u2019s deed and the subsequently executed oil and gas lease from Stovall and Appling to petitioners based upon a tax foreclosure suit filed on October 5, 1950 and judgment for delinquent taxes on an undivided one-half mineral interest in Section 35, Theo F. Koch Subdivision in Jackson County, Texas, which section comprises 640 acres of land.\nJudgment denying the plaintiffs-respondents a recovery was on appeal reversed and rendered in their favor. (Mineral Holding Trust v. Stovall), 288 S.W. 2d 849. As noted in the Court of Civil Appeals opinion the respondents compromised and settled with Stovall and Appling so that the latter two no longer have any interest in the controversy. In our opinion the judgment of the trial court should be affirmed.\nThe Mineral Holding Trust of St. Paul, Minnesota, had owned the property described above continuously since May 20, 1922. The property was rendered for taxation for the years 1937 to 1939, inclusive, and these taxes were paid, together with those for 1940 by S. J. Cocklin, one of the trustees of the Trust. Redemption receipt issued on April 22, 1941 gave the address of Mineral Holding Trust \u201cin care of S. J. Cocklin, 1973 St. Anthony Avenue, St. Paul, Minnesota.\u201d\nCocklin, who owned ninety per cent of the outstanding shares in this concern, died in 1942. His widow continued to reside at the above address in St. Paul up until the filing of the tax suit. After Cocklin\u2019s death the management of the Trust became inactive and no one seemed to be in charge of its affairs. It had no funds and the testimony cast considerable doubt upon its ability or that of anyone on its behalf to have paid the taxes if personal notice of the tax suit had been served. No tax had been paid on this property since 1941, nor any other property in Texas or elsewhere owned by the company in a number of years. On more than one occasion Stovall, the owner of the surface of and the other one-half mineral interest in Section 35, had unsuccessfully endeavored to purchase the property in controversy. He had been in correspondence with the trustee, Cocklin, and knew his street address in St. Paul and a short time before the institution of the suit Stovall had talked to a lawyer in St. Paul who purportedly represented Mrs. Cocklin.\nAt the request of Stovall the Tax assessor figured up the amount of taxes due on the property for the years 1922 to 1949, inclusive, and Stovall induced the County Attorney to file the tax suit on the basis of that statement. The Mineral Holding Trust was cited by publication. The Court appointed an attorney to represent the defendant, a hearing was had and on January 17, 1951 judgment was rendered adjudging the amount of taxes due, foreclosing the tax lien and ordering the sale. Thereafter, the property was struck off to the defendant, Stovall, acting for himself and his co-defendant, Appling, for a consideration of $400.00. The tax judgment recited the value of the property to be $350.00. On the 1st day of February 1952, Stovall and Ap-pling gave an oil and gas lease to the petitioners on this property for a consideration of $20.00 per acre, retaining a one-sixth royalty and on the same day and for the same consideration executed a lease to the petitioners on the other one-half mineral interest in the section.\nShortly after the petitioners had drilled a producing oil well in the vicinity of Section 35, the respondents, Wherry and Green, in September of 1953, procured from Mineral Holding Trust a mineral deed to an undivided one-fourth interest and an as-. signment of an oil and gas lease covering the property in controversy.\nThe respondents assert many irregularities in the tax suit proceedings of such a nature, they say, as to render the judgment void entitling them to a cancellation of the sheriff\u2019s deed as against all persons holding thereunder. They allege illegal assessment of the property for taxes, non-compliance with the rules of civil procedure governing citation by publication, payment of a part of the taxes before suit and inadequacy of the consideration for the sheriff\u2019s deed. Respondents further charge that petitioners had actual and constructive notice of these irregularities so that they could not be innocent purchasers. Among other findings of the trial court which will be referred to later on, the Court found that at the time of the tax sale the property was worth the sum of $5,000.00.\nThe contention of the respondents is that the tax judgment is void on one or all of three grounds, namely, that the court did not have jurisdiction of the subject matter nor of the defendant, Mineral Holding Trust, nor was the court empowered to enter the judgment that it did enter.\nRespondents argue that before suit can be maintained for taxes it must appear that the taxes have been regularly assssed by the proper authorities and have become delinquent. The trial court found that the property had never been placed upon the delinquent tax rolls for any of the years for which judgment was rendered. It was not listed on any current tax rolls and no attempt had been made to assess the property for taxes prior to the time that the attorney for Stovall requested the Tax Assessor to figure up the delinquent taxes, and this for the purpose of filing a suit. As to this matter the trial court found as follows:\n\"Thereupon the Tax Assessor and Collector prepared a statement, which formed the basis for the tax suit, setting out the details found in the original petition, and furnished the same to the County Attorney. He did not extend these calculations upon his regular rolls as such until after the tax suit and sale, but later did extend them on the supplemental rolls, and the same, as included in his monthly and final reports of moneys collected, were approved by the Commissioners\u2019 Court, and the required copies thereof were furnished to the Comptroller of the State. The value placed on the minerals was the basis of the values fixed for the years 1936 to 1939, respectively.\u201d\nTherefore, they say that the court did not have jurisdiction of the subject matter in the total absence of prior and statutory levy and assessment of taxes and fixation of liens evidenced on delinquent tax rolls.\nTaxes had not been paid on this property for ten years and though the proceedings were irregular, the trial court did have jurisdiction of the subject matter, the judgment was not void on that ground and the Court of Civil Appeals correctly so held. It did, however, uphold the contention of respondents that the trial court\u2019s judgment was void for the reason that it was one that the court was not empowered to render as a matter of law.\nIn the tax suit the trial court found that the amount of taxes due amounted to $187.86 and that there were \u201cno penalties, interests and costs accruing or owing thereon.\u201d Judgment was then rendered as follows:\n\u201cThat the plaintiff, the State of Texas, do have and recover for itself and for the use and benefit of Jackson County, Texas, and the other political subdivisions, the taxes for which are collected by the tax collector of said county and state, particularly Road District No. 11, and Common School District No. 12, the sum of $187.86, being the amount of taxes due, owing and delinquent on the hereinafter described property for the years 1923 to 1949, both inclusive, exclusive of penalties, interest and costs of which there are none due.\u201d\nThe Court of Civil Appeals held in effect that, as penalties and interest accrue automatically and are necessarily as much a part of the amount owed to the taxing- authorities as the taxes themselves, the trial court was not empowered to render judgment omitting these charges that are and must become due when the taxes become delinquent. The court decided that this rendered the judgment void and if not void it was such an irregularity on the face of the judgment as to put petitioners on notice and prevent them from occupying the position of innocent purchasers.\nThis holding is premised upon the theory that a suit for delinquent taxes and for foreclosure of the tax lien is wholly statutory and unless the statutory authority is strictly followed the court is without jurisdiction. In support of this conclusion there are cited the cases of Mote v. Thompson, Texas Civ. App., 156 S.W. 1105; Hill & Jahns v. Lofton, Texas Civ. App., 165 S.W. 67. But in Brown v. Bonougli, 111 Texas 275, 232 S.W. 490, the holding in the latter case was expressly overruled, the opinion pointing out that the Court of Civil Appeals in that case had mistakenly followed the rule announced in Lufkin v. City of Galveston, 73 Texas 340, 11 S.W. 340, dealing with summary tax proceedings.\nIn State Mortgage Corporation v. Ludwig, 121 Texas 268, 48 S.W. 2d 950, 952, this court expressly holds that a tax suit does not import a special or limited jurisdiction but that judgments in such cases \u201care supported by all the presumptions which uphold judgments of domestic courts of general jurisdiction.\u201d\nArticle 7345b, Vernon\u2019s Texas Civil Statutes, is a comprehensive statute designed to facilitate the collection of delinquent taxes by suit. In Section 3 it provides \u201cthe laws governing ordinary foreclosure suits in the district courts of this state shall control the question of parties, issuance and service of process and other proceedings in tax suits, save and except as herein otherwise provided.\u201d In Section 10 the Act seeks to protect the purchasers of property sold for taxes against the claims of the taxing units for any taxes delinquent at the time of judgment that had been omitted and not sued for giving the assurance that even though the authorities sued for less than the amount of taxes due no claim could thereafter be made against the purchaser and he took the property free of all taxes and liens due to the date of the judgment.\nArticle 7336 provides for penalties and interest on delinquent taxes and certainly it was the duty of the authorities to include those in its suit but that obligation would be no more binding than it would be to sue for all instead of a part of the delinquent taxes due.\nWe think, therefore, that a suit and a judgment rendered for less than the amount actually due and owing would not render the judgment null and void or subject to collateral attack, nor serve to put the petitioners, who subsequently bought from Stovall and Appling, the purchasers at the tax sale, and who paid an adequate consideration, on notice of any such irregularities or defects that would defeat their title. The tax judgment was not rendered in disregard of express prohibitions or statutory limitations on power to award the relief granted in this case. If it was within the power of the court to award the penalties and interest its failure to do so cannot be said to make its judgment other than erroneous. Suppose that the court arbitrarily and notwithstanding all of the evidence to the contrary, entered judgment for the defendants denying recovery of all taxes, penalties and interest. That judgment would be erroneous and subject to reversal but it could not be reasonably said that the judgment was void or that without an appeal it would not be res judicata of the issues involved.\nIn Clayton v. Hurt, 88 Texas 595, 32 S.W. 876, 877, it is held that:\n\u201cWhere a court of general jurisdiction, in the exercise of its ordinary judicial functions, renders a judgment in a cause in which it has jurisdiction over the person of the defendant and the subject matter of the controversy, such judgment is never void, no matter how erroneous it may appear, from the face of the record or otherwise, to be * *\nThis court has also said:\n\u201c* * * The jurisdiction of a court must be determined, not upon the court\u2019s action in deciding the questions presented in a case, but upon the character of the case itself. Jurisdiction is the power to decide, and not merely the power to decide correctly * * Martin v. Sheppard, 145 Texas 639, 201 S.W. 2d 810, 812. See also Security Trust Co. v. Lipscomb, 142 Texas 572, 180 S.W. 2d 151.\nWhile the tax suit petition alleged that no penalties or interest were due it did conclude by praying for judgment \u201cfor the total amount of said taxes, together with all penalties, interest and court costs.\u201d It was within the power of the court to have rendered judgment for whatever penalties and interest that may have been due and owing.\nOf course judgments are void when they run counter to statutory or constitutional restrictions. For instance, the administration by the probate court on the estate of a living person is void, a divorce decree issued by a county court is likewise invalid and other examples could be given.\nIn Grant et al v. Ellis, Texas Com. App. 50 S.W. 2d 1093, judgments assessing costs, including attorney\u2019s fees, against the county in the dismissal of certain tax suits were held void because of the statutory provision that in no case should the state or county be liable for costs, including attorney\u2019s fees. Also in the following cases judgments were held to be void where rendered contrary to constitutional or statutory provisions. State v. Moak, 146 Texas 322, 207 S.W. 2d 894; Higgins v. Bordages, 88 Texas 458, 31 S.W. 2d 52, 803; Cline v. Niblo, 117 Texas 474, 8 S.W. 2d 633, 66 A.L.R. 916. In this tax case there is no statutory restriction or inhibition expressly providing that a tax judgment shall not be rendered unless all penalties and interest are included. We, therefore, hold that the tax judgment was not void on this account.\nWe do not agree that the failure of the trial court\u2019s decree to include a judgment for penalties and interest as a matter of law would place the petitioner on notice, either constructive or actual, of any irregularities or fraud.\nThe omission of the interest and penalties was not an inadvertence. The matter was discussed between the County Attorney and the Tax Collector. Inasmuch as the taxes had not theretofore been assessed it was thought by them that in fairness to the taxpayers the same ought not to be charged. If this omission then seemed to be reasonable, fair, just and legal to these two county officials charged with the filing of suits and the collection of taxes and who acted entirely in good faith and without the suggestion of any fraud, we think it ought not be said as a matter of law to cause a layman to think otherwise.\nThe Court of Civil Appeals, while not deciding the point, expressed some doubt as to the lack of jurisdiction of the trial court over the person of the defendant, Mineral Holding Trust. This decision turns on the question of whether or not the affidavit of the County Attorney sufficiently complied with the provisions of Rule 117a, Texas Rules of Civil Procedure, as a predicate for service of process by publication. The rule provides in part that where the attorney makes affidavit that the residence of the owner is unknown and cannot be ascertained after diligent inquiry, the party may be cited by publication. The affidavit executed by the County Attorney in this case reads as follows:\n\u201cThe residence of each of the defendants alleged in Plaintiff\u2019s Original Petition on file in the above entitled and numbered cause alleged as being \u2018Unknown\u2019 is in fact unknown and the parties described in said petition as the \u2018Unknown owner or owners\u2019 of the land described therein are also unknown, and that after due diligence and inquiry by the Tax Collector of Jackson County, Texas, and by me, as attorney for plaintiff, were not and cannot be determined and ascertained.\u201d\nWhile the affidavit is not as specific as might be desired from a grammatical standpoint, we think it cannot be said that it is insufficient. The affidavit, though long, is one sentence. It says stripped of non-essentials, that the residence of each of the defendants alleged to be unknown is unknown and the unknown owners are unknown and after due diligence and inquiry cannot be ascertained. The verbal phrase \u201ccannot be determined and ascertained\u201d may have two subjects as well as one and a reading of the affidavit would indicate that the affiant meant to say that the residence of the defendants and the identity of the unknown owners could not be determined and ascertained after due diligence and inquiry. We, therefore, are of the opinion that the affidavit sufficiently complies with the rule.\nIn this connection the point is made that Rule 117a in effect at the time of the filing of this suit provided further that \u201cwhere the rendition or assessment lists in the assessor\u2019s office shows the address of any record owner, the citation of such record owner may not be had by publication or posting, unless the party applying therefor shall first make affidavit that he has caused citation to issue for personal service on such defendant at the address shown on such rendition or assessment list and has attempted to procure service therefor, but has been unable to do so.\u201d But as pointed out by the Court of Civil Appeals the facts disclosing non-compliance with this provision are wholly outside of the record in the tax suit and the question must be determined within the wording of the affidavit itself.\nWhile a search of the records of the Tax Assessor-Collector for a period of ten years back would have shown the St. Paul street address and delivery of personal notice there would probably have been forwarded to one of the trustees, in truth and in fact at the time of the tax suit it could hardly be said that this was the address of the Mineral Holding Trust. Mr. Cocklin had been dead nearly ten years. The tax attorney had made an unsuccessful effort by correspondence to locate the address of Mineral Holding Trust or the names and addresses of the trustees for the purpose of personal service. The Trust had no address in the St. Paul telephone or city directories and the record does not show that the names of any living trustees or their addresses were known to even Stovall much less to anyone else in Texas.\nBut if it should be held that the failure of the County Attorney to search the records and discover this address and then to proceed as the rule directs rendered the citation by publication null and of no effect, then at best, so far as respondents are concerned, the situation would only be comparable to that in Harrison v. Sharpe, Texas Civ. App. 210 S.W. 731, wr. ref., and Rowland v. Klepper, Texas Com. App., 227 S.W. 1096, and to Ditmore Land & Cattle Co. v. Hunt, 155 Texas 596, 290 S.W. 2d 499, where the citation by publication was not effective by reason of the insufficiency of the attorney\u2019s affidavit.\nIn the Harrison case the property owner was not served with process, and, while the court held that the suit brought to set aside the tax judgment and sale was to be taken as a direct attack, the court granted the relief prayed for and set aside the sheriff\u2019s deed to the original purchaser because the property owner had no notice of the suit or of the sale, coupled with the further essential fact that the property was sold for a grossly inadequate consideration, to-wit, $110.00 for a residence valued at $3,000.00 or more. If the sale had been upheld the owner would have entirely lost her property.\nConceding that respondents would have been entitled to recover title from Stovall and Appling, that cause of action has now been rendered moot by a settlement with those parties.\nPresumably by this settlement respondents have acquired an interest in the title and in the royalty retained by Stovall and Appling and have surrendered any right to full redress from them.\nAll that is now being sought by respondents is the cancellation of the lease executed by Stovall and Appling to petitioners who paid therefor an adequate price and whose efforts in exploration for oil have made the property valuable. Petitioners are guilty of no fraud; they had no part in bringing the tax foreclosure proceedings; they expended considerable sums in exploration and development. It is difficult to see how there has been any injury to Mineral Holding Trust. It has little, if anything, to gain from setting aside the petitioners\u2019 lease. As a matter of fact that lease is more favorable to the Mineral Holding Trust than the one it gave to its corespondents, Wherry and and Green. The former reserves a l/6th royalty, the latter only a l/8th. We agree with the trial court in its finding that the petitioners are \u201cinnocent purchasers as to all parties, and certainly * * * to have equities exceeding those of Wherry and Green.\u201d\nIn Restatement of the Law of Judgments, Sec. 115, p. 560, the law is said to be that:\n\u201c* * * Where there has been a judgment which had the effect of transferring a property interest, and which, although subject to equitable relief, is valid, a person who purchases the property from the successful party is protected to the same extent as one who purchases property from another who had procured the title from the former owner by fraud. The trans\u00ederree is protected if he has paid value and if at the time he acquired the title he had no notice of the grounds for equitable relief. Likewise, where a valid judgment has been obtained under circumstances such that equitable relief would be granted against it, and thereafter property is sold by means of an execution sale, one who buys the property at the sale is protected if he had no notice of the grounds for equitable relief.\u201d\nUnder all of the circumstances we hold that the trial court in rendering the tax judgment had jurisdiction of the parties and of the subject matter and that the judgment rendered was not void. We further say that the fact of the judgment failing to include, along with the taxes, the corresponding penalties and interest, did not as a matter of law serve to put the petitioners upon inquiry of any errors or defects. If other facts asserted by respondents may be said to raise a fact issue as to the bona fides of petitioners that matter is set at rest by the findings of the trial court.\nThe judgment of the Court of Civil Appeals is reversed and that of the trial court is affirmed.\nOpinion delivered December 5, 1956.\nVernon\u2019s Texas Rules Civil Procedure, 1948 Supp.",
+        "type": "majority",
+        "author": "Mr. Justice Culver"
+      },
+      {
+        "text": "Mr. Justice Griffin joined by Justices Brewster and Smith,\ndissenting.\nI cannot agree to the disposition of this cause made by the majority. In my opinion, the suit brought by respondents, Mineral Holding Trust, C. A. Green, R. B. Wherry and Guy F. Stovall is a direct attack on the tax sale. Harriman v. Sharpe, Texas Civ. App., 210 S.W. 731, wr. ref.; Rowland v. Klepper, Texas Civ. App., 189 S.W. 1033; Id., Texas Com. App., 377 S.W. 1096; Shaffer, et al v. Schaleben, Texas Civ. App., 236 S.W. 2d 234, wr. ref.\nThe uncontradicted facts in this case show that the property sold under the tax judgment and order of sale had not appeared on the tax rolls for the years on which suit was brought for delinquent taxes. The record further shows that this property did not appear on a supplemental tax roll or a delinquent tax roll nor was it assessed for taxes prior to the filing of the suit, the judgment and sale. I do not believe the provisions of Article 7320, et seq., Vernon\u2019s Annotated Civil Statutes of Texas, are complied with so as to give jurisdiction to the District Court to entertain tax suit; therefore, the court had no jurisdiction of the subject matter.\nI further do not believe that jurisdiction was obtained over the person of Mineral Holding Trust, in this tax suit because of the failure to comply with the plain provisions of Rule 117a, Vernon\u2019s Rules of Civil Procedure, [Page 397] as it was in force at the time of the tax suit. That rule, in part, provides that \u201c* * * record owners of such property or any apparent interest therein, including, without limitation, record lien holders, shall not be included in the designation of \u2018unknown owners\u2019; * * * and [Page 404, note] provided further that where the rendition or assessment list in the assessor\u2019s office shows the address of any record owner, citation of such record owner may not be had by publication or posting unless the party applying therefor shall first make affidavit that he has caused citation to issue for personal service on such defendant at the address shown on said rendition or assessment list and has attempted to secure service thereof, but has been unable to do so.\u201d\nThe record shows without controversy that Mineral Holding Trust had been assessed and paid taxes for the years 1986, 1937, 1938, 1939 and 1940 and that the address was on the tax roll at the time suit was filed. It is shown by the uncontroverted evidence that the deed of Mineral Holding Trust to its property was of record in the office of the County Clerk of Jackson County, Texas, for many years prior to the filing of this tax suit, the judgment therein, and the sale thereunder. Further, it is shown by the undisputed evidence that this deed showed the address of Mineral Holding- Trust as St. Paul, Minnesota. Therefore, Mineral Holding Trust could not be an \u201cunknown owner\u201d by virtue of the specific terms of the rule, and could not be cited by publication. No citation for personal service on Mineral Holding Trust was ever issued nor was any citation ever sent to St. Paul, Minnesota. The affidavit made by the County Attorney does not comply with the requirements of the rules; therefore, no jurisdiction was acquired over the person.\nOpinion delivered December 5, 1956.\nRehearing overruled March 27, 1957.",
+        "type": "dissent",
+        "author": "Mr. Justice Griffin joined by Justices Brewster and Smith,"
+      }
+    ],
+    "attorneys": [
+      "Vinson, Elkins, Weems & Searls, Tarlton Morrow and Gordon Stokes, all of Houston, for petitioners.",
+      "W. J. Barnes & Knox W. Gilmore, Fountain, Cox & Gaines, of Houston, S. G. Sample, Edna, Guittard & Henderson, of Victoria for respondents."
+    ],
+    "corrections": "",
+    "head_matter": "Aluminum Company of America Et Al v. Mineral Holding Trust Et Al.\nNo. A-5854.\nDelivered December 5, 1956.\nRehearing Overruled March 27, 1957.\n(299 S.W. 2d Series 179)\nVinson, Elkins, Weems & Searls, Tarlton Morrow and Gordon Stokes, all of Houston, for petitioners.\nW. J. Barnes & Knox W. Gilmore, Fountain, Cox & Gaines, of Houston, S. G. Sample, Edna, Guittard & Henderson, of Victoria for respondents.\nCertiorari to Supreme Court of United States denied, 355 U. S. 814, 78 Sup. Ct. 15, 2 L. Ed. 2d 31."
+  },
+  "file_name": "0054-01",
+  "first_page_order": 70,
+  "last_page_order": 81
+}

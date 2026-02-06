@@ -1,0 +1,59 @@
+{
+  "id": 12428906,
+  "name": "Jackson v. United States",
+  "name_abbreviation": "Jackson v. United States",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-7475",
+  "first_page": "1111",
+  "last_page": "1111",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1111"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.689,
+    "sha256": "bcb660848771ae0f42b2a8b32b951fadaa26a94839a4e2600aa267f30a46fdbb",
+    "simhash": "1:95aaa68f6a3f9840",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jackson v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7475.\nJackson v. United States."
+  },
+  "file_name": "1111-13",
+  "first_page_order": 1187,
+  "last_page_order": 1187
+}

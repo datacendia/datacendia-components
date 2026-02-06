@@ -1,0 +1,59 @@
+{
+  "id": 12238174,
+  "name": "Brown v. Narvaiz",
+  "name_abbreviation": "Brown v. Narvaiz",
+  "decision_date": "2011-12-12",
+  "docket_number": "No. 11-6922",
+  "first_page": "1096",
+  "last_page": "1096",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1096"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 67,
+    "ocr_confidence": 0.708,
+    "sha256": "7bee62a3dfa311840852d07d42b342233ee6e0b96241ab96f5a30e2a2744e069",
+    "simhash": "1:96a435bf1da6f7a8",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Brown v. Narvaiz."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6922.\nBrown v. Narvaiz."
+  },
+  "file_name": "1096-13",
+  "first_page_order": 1178,
+  "last_page_order": 1178
+}

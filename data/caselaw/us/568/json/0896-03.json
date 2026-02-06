@@ -1,0 +1,59 @@
+{
+  "id": 12415296,
+  "name": "Young v. Pennsylvania",
+  "name_abbreviation": "Young v. Pennsylvania",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5120",
+  "first_page": "896",
+  "last_page": "896",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 896"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 71,
+    "ocr_confidence": 0.691,
+    "sha256": "08f895688ba0939cf462cdfd9bacc65267e0ffd315a5ea63a71b657855964699",
+    "simhash": "1:826823d2d82ca254",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Young v. Pennsylvania."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. Pa. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5120.\nYoung v. Pennsylvania."
+  },
+  "file_name": "0896-03",
+  "first_page_order": 972,
+  "last_page_order": 972
+}

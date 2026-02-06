@@ -1,0 +1,150 @@
+{
+  "id": 6052775,
+  "name": "HYUNDAI AMCO AMERICA, INC., Plaintiff and Respondent, v. S3H, INC., Defendant and Appellant",
+  "name_abbreviation": "Hyundai Amco America, Inc. v. S3H, Inc.",
+  "decision_date": "2014-12-17",
+  "docket_number": "No. G049204",
+  "first_page": "572",
+  "last_page": "578",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "232 Cal. App. 4th 572"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "965 P.2d 1178",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "79 Cal.Rptr.2d 308",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "19 Cal.4th 332",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1709351
+      ],
+      "pin_cites": [
+        {
+          "page": "349"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/19/0332-01"
+      ]
+    },
+    {
+      "cite": "9 U.S.C. \u00a7 1",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "49 Cal.Rptr.3d 531",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "143 Cal.App.4th 761",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3596750
+      ],
+      "pin_cites": [
+        {
+          "page": "771"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/143/0761-01"
+      ]
+    },
+    {
+      "cite": "104 Cal.Rptr.3d 824",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "181 Cal.App.4th 633",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4213407
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/181/0633-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 560,
+    "char_count": 12100,
+    "ocr_confidence": 0.907,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.17238765657766147
+    },
+    "sha256": "2ebdba3e62272376aafcfa92eab26f41bc98f62be9a0db884b2806c15d08c013",
+    "simhash": "1:4d3774f6e74815fc",
+    "word_count": 1921
+  },
+  "last_updated": "2024-02-27T16:22:52.668012+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "HYUNDAI AMCO AMERICA, INC., Plaintiff and Respondent, v. S3H, INC., Defendant and Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nFYBEL, J.\nIntroduction\nHyundai Amco America, Inc. (Hyundai Amco), and S3H, Inc. (S3H), entered into a subcontractor services agreement. Their agreement provided that disputes would be subject to arbitration. Hyundai Amco sued S3H for breaching the agreement, as well as for other related causes of action. S3H filed a motion to compel arbitration; the trial court denied the motion on the ground that S3H had failed to allege (1) it demanded arbitration and (2) Hyundai Amco refused.\nWe reverse. Under Code of Civil Procedure section 1281.2, a party requesting a court order for arbitration must prove the existence of a written agreement to arbitrate, and that the other party refuses to arbitrate their controversy. (All further statutory references are to the Code of Civil Procedure.) S3H unquestionably established the existence of the parties\u2019 written agreement containing an arbitration provision; Hyundai Amco does not dispute this fact. We hold that S3H was not required to make a formal demand for arbitration because Hyundai Amco\u2019s filing of a complaint invoked the protections and procedures of the court system, and thus was an effective refusal of arbitration. S3H met its burden under section 1281.2. We publish our opinion to clarify that the opinion of the Court of Appeal, Third Appellate District, in Mansouri v. Superior Court (2010) 181 Cal.App.4th 633 [104 Cal.Rptr.3d 824] (Mansouri) does not apply under the facts and circumstances of this case.\nStatement of Facts and Procedural History\nHyundai Amco is the general building contractor for the construction of the United States headquarters of Hyundai Motor America, Inc. In January 2013, S3H entered a subcontractor services agreement with Hyundai Amco to provide mechanical system design and construction services for the mechanical systems to be installed in the headquarters building (the agreement). The agreement included an arbitration provision, and a California choice-of-law provision. The agreement was amended in April 2013.\nOn May 3, 2013, Hyundai Amco provided S3H with a progress payment of more than $4.7 million; almost $4.5 million of that payment was earmarked to pay S3H\u2019s sub-subcontractors for services and materials provided in the month of March 2013. On May 15, 2013, S3H told Hyundai Amco it was dissolving its business and was abandoning its obligations under the agreement. S3H advised Hyundai Amco that its sub-subcontractors had been paid for their work through February 2013, but that S3H had no intention of paying them for their work in March 2013.\nOn May 21, 2013, Hyundai Amco wrote a letter to S3H, alleging S3H had breached its obligations under the agreement and demanding cure, thereby satisfying a condition of the agreement\u2019s arbitration provision. On June 28, 2013, Hyundai Amco filed a complaint in the Orange County Superior Court against S3H, S3H\u2019s officers (individually and as trustees of their family trust), and S3H\u2019s lender, Plaza Bank. The complaint alleged causes of action for breach of contract, conversion, fraud by concealment, fraud by intentional misrepresentation, fraudulent transfer, constructive trust, and equitable subrogation.\nS3H filed a motion to compel arbitration under section 1281.2. The trial court denied the motion, and S3H timely appealed. S3H filed a petition for a writ of supersedeas and request for stay in this court. In lieu of ruling on the petition, we granted a temporary stay of all judicial proceedings in the trial court.\nDiscussion\nI.\nStandard of Review\nWe review the trial court\u2019s order denying a petition or motion to compel arbitration de nova. (Gravillis v. Coldwell Banker Residential Brokerage Co. (2006) 143 Cal.App.4th 761, 771 [49 Cal.Rptr.3d 531].)\nII.\nS3H Met the Requirements of Section 1281.2; the Trial Court Erred by Denying the Motion to Compel Arbitration.\nSection 1281.2 provides procedures for enforcing arbitration agreements. As relevant to this case, the statute provides: \u201cOn petition of a party to an arbitration agreement alleging the existence of a written agreement to arbitrate a controversy and that a party thereto refuses to arbitrate such controversy, the court shall order the petitioner and the respondent to arbitrate the controversy if it determines that an agreement to arbitrate the controversy exists . . . .\u201d (\u00a7 1281.2, italics added.)\nIn Mansouri, supra, 181 Cal.App.4th 633, the Third Appellate District held that a party seeking to enforce an arbitration agreement must prove not only the existence of such an agreement, but also the existence of a demand to arbitrate that was refused. \u201cThe necessary implication of this language is that a request or demand for arbitration under the written agreement to arbitrate has been made and refused. Such demand and refusal is what requires and justifies the intervention of the court to order arbitration under the agreement. It makes no sense for this language to be read to allow a petitioner to compel arbitration on allegations and proof of a written agreement to arbitrate the controversy, but with allegations and proof that arbitration under some other statutory scheme or contract was offered and refused. The Legislature plainly intended section 1281.2 to provide a procedural device for enforcing the parties\u2019 written arbitration agreement if one or more of the parties would not agree to such arbitration. The only reasonable construction of the statutory language that conforms to such intent, is to require for a petition to compel arbitration the pleading and proof of (1) the parties\u2019 written agreement to arbitrate a controversy [citation]; (2) a request or demand by one party to the other party or parties for arbitration of such controversy pursuant to and under the terms of their written arbitration agreement, and (3) the refusal of the other party or parties to arbitrate such controversy pursuant to and under the terms of their written arbitration agreement.\u201d (Id. at p. 641, fn. omitted.)\nThe trial court in this case concluded that because S3H had failed to allege it made a demand to arbitrate that was refused by Hyundai Amco, it had failed to meet its burden of proof under Mansouri, and therefore denied the motion to compel arbitration: \u201cDefendant S3H failed to demonstrate that it made a demand for arbitration and that Plaintiff refused. Instead, Defendant S3H only asserts that Plaintiff should have initiated arbitration proceedings instead of filing its complaint. Because Defendant S3H has not presented facts to justify the intervention of the Court to order arbitration under the Agreement, the motion to compel arbitration is denied. See Mansouri v. Superior Court,[ supra,] 181 Cal.App.4th 633, 640 . . . .\u201d\nSection 1281.2 requires only that the party seeking to compel arbitration allege in the petition or motion, \u201cthe existence of a written agreement to arbitrate a controversy and that a party thereto refuses to arbitrate such controversy.\u201d The statute does not include a requirement that the petitioning party have made a demand for arbitration, only that the other party has refused to arbitrate. Arbitration can be refused without a formal demand ever having been made. Hyundai Amco\u2019s filing of a lawsuit rather than commencing arbitration proceedings as required by the agreement affirmatively establishes Hyundai Amco\u2019s refusal to arbitrate the controversy.\nWe do not disagree with the analysis of Mansouri in the factual context of that case. The facts in Mansouri are far different from those before us, however. In Mansouri, as explained ante, the petitioning party tried to compel arbitration on different terms from those set forth in the arbitration agreement and on different terms from those in its own demand letter. Quite simply, the demand for arbitration did not match the terms of the parties\u2019 arbitration agreement. In this case, we hold only that Hyundai Amco\u2019s lawsuit against S3H for a controversy clearly related to the parties\u2019 performance under the agreement sufficed to show Hyundai Amco\u2019s refusal to arbitrate the controversy. Therefore, the trial court erred in concluding the motion to compel arbitration must be denied for failure to comply with the requirements of section 1281.2.\nThe question whether the litigation should be stayed pursuant to section 1281.2, subdivision (c) was briefed and argued in, but was not ruled on by, the trial court. We remand the matter to the trial court to decide whether the litigation should be stayed and on what terms.\nIn its appellate briefs, S3H argues section 1281.2 is preempted by the Federal Arbitration Act (9 U.S.C. \u00a7 1 et seq.). Because of our conclusion, ante, we need not address this issue.\nDisposition\nThe order denying the petition to compel arbitration is reversed, and the matter is remanded to the trial court. The petition for a writ of supersedeas is discharged. The order granting a temporary stay of all judicial proceedings in the trial court is vacated. Appellant to recover costs incurred on appeal.\nO\u2019Leary, P. J., and Ikola, J., concurred.\nThe arbitration provision reads as follows: \u201cIn the event of any dispute arising under this Agreement, the injured party shall notify the injuring party in writing of its contentions by submitting a claim therefor. The injured party shall continue performing its obligations hereunder so long as the injuring party commences to cure such dispute within five (5) days of service of such notice and completes the cure of such dispute within ten (10) days after service of the notice, or such longer period as may be permitted in writing by the injured party. Compliance with the provisions of this Section shall be a condition precedent to termination of this Agreement for cause and to any arbitration proceeding or legal action, and such compliance shall not be a waiver of any party\u2019s right to take legal action in the event that the dispute is not cured. Disputes shall be subject to arbitration which, unless the parties mutually agree otherwise, shall be administered by the American Arbitration Association in accordance with its Construction Industry Arbitration Rules in effect on the date of the Agreement. A demand for arbitration shall be made in writing, delivered to the other party to the Contract, and filed with the person or entity administering the arbitration. The party filing a notice of demand for arbitration must assert in the demand all claims then known to that party on which arbitration is permitted to be demanded. A demand for arbitration shall in no event ... be made after the date when the institution of legal or equitable proceedings based on the claim would be barred by the applicable statute of limitations. For statute of limitations purposes, receipt of a written demand for arbitration by the person or entity administering the arbitration shall constitute the institution of legal or equitable proceedings based on the claim. The award rendered by the arbitrator or arbitrators shall be final, and judgment may be entered upon it in accordance with applicable law in any court having jurisdiction thereof. The foregoing agreement to arbitrate and other agreements to arbitrate with an additional person or entity duly consented to by parties to the Agreement shall be specifically enforceable under applicable law in any court having jurisdiction thereof.\u201d\nThe choice-of-law provision reads as follows: \u201cThis Agreement shall be construed and interpreted both as to validity and to performance of the parties in accordance with the laws of the State of California.\u201d\nThe denial of a motion to compel arbitration is appealable. (\u00a7 1294, subd. (a); Mercury Ins. Group v. Superior Court (1998) 19 Cal.4th 332, 349 [79 Cal.Rptr.2d 308, 965 P.2d 1178].)",
+        "type": "majority",
+        "author": "FYBEL, J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Friedman Stroffe & Gerard, James D. Stroffe, Eoin L. Kreditor and Andrew R. Nelson for Defendant and Appellant.",
+      "Gordon & Rees, William M. Rathbone, David J. Aveni and Michael P. Campbell for Plaintiff and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. G049204.\nFourth Dist., Div. Three.\nDec. 17, 2014.]\nHYUNDAI AMCO AMERICA, INC., Plaintiff and Respondent, v. S3H, INC., Defendant and Appellant.\nCounsel\nFriedman Stroffe & Gerard, James D. Stroffe, Eoin L. Kreditor and Andrew R. Nelson for Defendant and Appellant.\nGordon & Rees, William M. Rathbone, David J. Aveni and Michael P. Campbell for Plaintiff and Respondent."
+  },
+  "file_name": "0572-01",
+  "first_page_order": 484,
+  "last_page_order": 490
+}

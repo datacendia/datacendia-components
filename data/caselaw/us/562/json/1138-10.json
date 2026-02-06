@@ -1,0 +1,59 @@
+{
+  "id": 4125955,
+  "name": "Deegan et ux. v. United States",
+  "name_abbreviation": "Deegan v. United States",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-602",
+  "first_page": "1138",
+  "last_page": "1138",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1138"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 79,
+    "ocr_confidence": 0.528,
+    "sha256": "1f7195025e468857b6b9f4b2e2ac29f99486233a2faa69e672b95590a0ebafa6",
+    "simhash": "1:841b8a420eef18db",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Deegan et ux. v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. Fed. Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-602.\nDeegan et ux. v. United States."
+  },
+  "file_name": "1138-10",
+  "first_page_order": 1160,
+  "last_page_order": 1160
+}

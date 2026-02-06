@@ -1,0 +1,59 @@
+{
+  "id": 12194329,
+  "name": "Contreras v. Uribe, Warden",
+  "name_abbreviation": "Contreras v. Uribe",
+  "decision_date": "2012-03-26",
+  "docket_number": "No. 11-8424",
+  "first_page": "909",
+  "last_page": "909",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 909"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.623,
+    "sha256": "ea21a2886855f6d613360b4fa3e5ffea40f7cf9e006abfc52454e6bc48e19157",
+    "simhash": "1:16f3a6b93d9f2046",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Contreras v. Uribe, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8424.\nContreras v. Uribe, Warden."
+  },
+  "file_name": "0909-11",
+  "first_page_order": 785,
+  "last_page_order": 785
+}

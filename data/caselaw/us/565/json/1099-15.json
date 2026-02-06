@@ -1,0 +1,59 @@
+{
+  "id": 12238544,
+  "name": "Baptiste v. United States",
+  "name_abbreviation": "Baptiste v. United States",
+  "decision_date": "2011-12-12",
+  "docket_number": "No. 11-7292",
+  "first_page": "1099",
+  "last_page": "1099",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1099"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.688,
+    "sha256": "d13a2ccfc2cb4fbe295e4b00eca3e69a562f20dfecd7dfe4527d08dd61cff316",
+    "simhash": "1:14aa8fa343a9b05a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Baptiste v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7292.\nBaptiste v. United States."
+  },
+  "file_name": "1099-15",
+  "first_page_order": 1181,
+  "last_page_order": 1181
+}

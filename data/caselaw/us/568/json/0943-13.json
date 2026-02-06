@@ -1,0 +1,59 @@
+{
+  "id": 12417960,
+  "name": "Keck v. Virginia et al.",
+  "name_abbreviation": "Keck v. Virginia",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 12-200",
+  "first_page": "943",
+  "last_page": "943",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 943"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 71,
+    "ocr_confidence": 0.688,
+    "sha256": "3bca0ae30d43e34f39107afb78bfcc7c80662d05e19258bec3cedd68d4ac3a06",
+    "simhash": "1:b0a820f91989f377",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Keck v. Virginia et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-200.\nKeck v. Virginia et al."
+  },
+  "file_name": "0943-13",
+  "first_page_order": 1019,
+  "last_page_order": 1019
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5990305,
+  "name": "Donnell v. United States",
+  "name_abbreviation": "Donnell v. United States",
+  "decision_date": "2011-01-18",
+  "docket_number": "No. 10-5533",
+  "first_page": "1181",
+  "last_page": "1181",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1181"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.6,
+    "sha256": "56ad102d9b937b33efeded9789819e367997dbe9af9e0fcee31f2620a8eb3546",
+    "simhash": "1:2599c693af3d1143",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Donnell v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5533.\nDonnell v. United States."
+  },
+  "file_name": "1181-09",
+  "first_page_order": 1203,
+  "last_page_order": 1203
+}

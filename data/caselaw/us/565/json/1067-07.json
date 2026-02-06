@@ -1,0 +1,59 @@
+{
+  "id": 12235877,
+  "name": "Canha v. Washington",
+  "name_abbreviation": "Canha v. Washington",
+  "decision_date": "2011-11-28",
+  "docket_number": "No. 11-6619",
+  "first_page": "1067",
+  "last_page": "1067",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1067"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 69,
+    "ocr_confidence": 0.685,
+    "sha256": "29221b85a1d74c938751c5cec068ff8e8f7d44d80416f5c2f5e1e310a89e6d36",
+    "simhash": "1:0db128cd080ce722",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Canha v. Washington."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Wash. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6619.\nCanha v. Washington."
+  },
+  "file_name": "1067-07",
+  "first_page_order": 1149,
+  "last_page_order": 1149
+}

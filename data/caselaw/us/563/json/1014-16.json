@@ -1,0 +1,59 @@
+{
+  "id": 5950490,
+  "name": "Campos-Padilla v. United States",
+  "name_abbreviation": "Campos-Padilla v. United States",
+  "decision_date": "2011-05-23",
+  "docket_number": "No. 10-10129",
+  "first_page": "1014",
+  "last_page": "1014",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1014"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 81,
+    "ocr_confidence": 0.526,
+    "sha256": "1d41dfc61eaaf2b7018d27065645af3bde960b9a63b98735e703ed52c7e62381",
+    "simhash": "1:154b062128950478",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Campos-Padilla v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10129.\nCampos-Padilla v. United States."
+  },
+  "file_name": "1014-16",
+  "first_page_order": 1040,
+  "last_page_order": 1040
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12415422,
+  "name": "Fabian et ux. v. United States",
+  "name_abbreviation": "Fabian v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5184",
+  "first_page": "899",
+  "last_page": "899",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 899"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 79,
+    "ocr_confidence": 0.704,
+    "sha256": "20713ef6e178913aba2583b402c447a9c82b62e654a9efd0a0971899f7cdcfaf",
+    "simhash": "1:b58aee41ceee9198",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Fabian et ux. v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5184.\nFabian et ux. v. United States."
+  },
+  "file_name": "0899-07",
+  "first_page_order": 975,
+  "last_page_order": 975
+}

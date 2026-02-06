@@ -1,0 +1,59 @@
+{
+  "id": 12412918,
+  "name": "In re Discipline of Smallenberg",
+  "name_abbreviation": "In re Discipline of Smallenberg",
+  "decision_date": "2012-07-23",
+  "docket_number": "No. D-2683",
+  "first_page": "955",
+  "last_page": "955",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 955"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 39,
+    "char_count": 287,
+    "ocr_confidence": 0.648,
+    "sha256": "be5f416a1e23e12788a7d838d93b8a318ccf505c89dd2dc0923ecc119bb11298",
+    "simhash": "1:678273329ffeb7c6",
+    "word_count": 51
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of Smallenberg."
+    ],
+    "opinions": [
+      {
+        "text": "Robert H. Smallenberg, of Ashland, Va., is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2683.\nIn re Discipline of Smallenberg."
+  },
+  "file_name": "0955-04",
+  "first_page_order": 859,
+  "last_page_order": 859
+}

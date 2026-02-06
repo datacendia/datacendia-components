@@ -1,0 +1,68 @@
+{
+  "id": 12698886,
+  "name": "William SMITH, petitioner, v. Shelia WRIGHT, et vir.",
+  "name_abbreviation": "Smith v. Wright",
+  "decision_date": "2013-07-22",
+  "docket_number": "No. 12\u20131066.",
+  "first_page": "936",
+  "last_page": "936",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "570 U.S. 936"
+    },
+    {
+      "type": "parallel",
+      "cite": "186 L. Ed. 2d 937"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 24"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 23,
+    "char_count": 148,
+    "sha256": "f70edb2ac5f9cbc027648dc151daf65069de054764792b8488527ce54cefe448",
+    "simhash": "1:412614911f8ea4f6",
+    "word_count": 23
+  },
+  "last_updated": "2021-08-27T21:08:29.525195+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "William SMITH, petitioner,\nv.\nShelia WRIGHT, et vir."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for rehearing denied."
+    ],
+    "corrections": "",
+    "head_matter": "William SMITH, petitioner,\nv.\nShelia WRIGHT, et vir.\nNo. 12-1066.\nSupreme Court of the United States\nJuly 22, 2013.\nPetition for rehearing denied."
+  },
+  "file_name": "0936-17",
+  "first_page_order": 936,
+  "last_page_order": 936
+}

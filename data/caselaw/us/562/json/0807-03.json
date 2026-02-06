@@ -1,0 +1,82 @@
+{
+  "id": 5983930,
+  "name": "Albright-Lazzari et vir v. Connecticut",
+  "name_abbreviation": "Albright-Lazzari v. Connecticut",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5446",
+  "first_page": "807",
+  "last_page": "807",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 807"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "506 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11924825
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/506/0001-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 71,
+    "char_count": 551,
+    "ocr_confidence": 0.57,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.1719884055016335
+    },
+    "sha256": "b4606a7889ef9eda44bf080c4ba24be62f1c592e3515d8f984c39d1b1bb2e7e9",
+    "simhash": "1:6d2af4cc450cdc4c",
+    "word_count": 89
+  },
+  "last_updated": "2024-02-27T22:51:28.129297+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Albright-Lazzari et vir v. Connecticut."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Conn. Motion of petitioners for leave to proceed in forma pauperis denied, and certiorari dismissed. See this Court\u2019s Rule 39.8. As petitioners have repeatedly abused this Court\u2019s process, the Clerk is directed not to accept any further petitions in noncriminal matters from petitioners unless the docketing fee required by Rule 38(a) is paid and the petition is submitted in compliance with Rule 33.1. See Martin v. District of Columbia Court of Appeals, 506 U. S. 1 (1992) (per curiam).",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5446.\nAlbright-Lazzari et vir v. Connecticut."
+  },
+  "file_name": "0807-03",
+  "first_page_order": 829,
+  "last_page_order": 829
+}

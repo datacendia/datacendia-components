@@ -1,0 +1,59 @@
+{
+  "id": 5985937,
+  "name": "Agee v. Britten, Warden",
+  "name_abbreviation": "Agee v. Britten",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5048",
+  "first_page": "900",
+  "last_page": "900",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 900"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.612,
+    "sha256": "5db1a995e4e1c5421fe03ab31fadafea214e7d9b752c3d2a0c8ffc1be49f85e0",
+    "simhash": "1:a39c62affd3b12e7",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Agee v. Britten, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5048.\nAgee v. Britten, Warden."
+  },
+  "file_name": "0900-12",
+  "first_page_order": 922,
+  "last_page_order": 922
+}

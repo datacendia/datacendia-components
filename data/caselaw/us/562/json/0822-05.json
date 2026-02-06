@@ -1,0 +1,80 @@
+{
+  "id": 6034050,
+  "name": "Matthews v. United States Court of Appeals for the Ninth Circuit",
+  "name_abbreviation": "Matthews v. United States Court of Appeals for the Ninth Circuit",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-10070",
+  "first_page": "822",
+  "last_page": "822",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 822"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "560 U. S. 962",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12455023,
+        12455024,
+        12455025,
+        12455026,
+        12455027
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/177/0320-07",
+        "/l-ed-2d/177/0321-01",
+        "/l-ed-2d/177/0321-02",
+        "/l-ed-2d/177/0321-03",
+        "/l-ed-2d/177/0321-04"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 33,
+    "char_count": 212,
+    "ocr_confidence": 0.592,
+    "sha256": "d3b464eac39a4ad4c0064124f746b9d78aacf59477e405a27c1869b0b7742938",
+    "simhash": "1:67a4366b0b26d3c2",
+    "word_count": 36
+  },
+  "last_updated": "2024-02-27T22:51:28.129297+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Matthews v. United States Court of Appeals for the Ninth Circuit."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Motion of petitioner for reconsideration of order denying leave to proceed in forma pauperis [560 U. S. 962] denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10070.\nMatthews v. United States Court of Appeals for the Ninth Circuit."
+  },
+  "file_name": "0822-05",
+  "first_page_order": 844,
+  "last_page_order": 844
+}

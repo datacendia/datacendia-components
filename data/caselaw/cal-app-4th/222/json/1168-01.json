@@ -1,0 +1,914 @@
+{
+  "id": 4036779,
+  "name": "THE PEOPLE, Plaintiff and Appellant, v. JEANPIERRE CUONG NGUYEN, Defendant and Respondent",
+  "name_abbreviation": "People v. Nguyen",
+  "decision_date": "2014-01-10",
+  "docket_number": "No. G048228",
+  "first_page": "1168",
+  "last_page": "1195",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "222 Cal. App. 4th 1168"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "155 Cal.Rptr. 213",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "92 Cal.App.3d 365",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2051097
+      ],
+      "pin_cites": [
+        {
+          "page": "372"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/92/0365-01"
+      ]
+    },
+    {
+      "cite": "26 Cal.Rptr.3d 845",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1979,
+      "opinion_index": 0
+    },
+    {
+      "cite": "128 Cal.App.4th 307",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        54957
+      ],
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "316"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/128/0307-01"
+      ]
+    },
+    {
+      "cite": "863 P.2d 694",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 Cal.Rptr.2d 449",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "6 Cal.4th 707",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1995105
+      ],
+      "pin_cites": [
+        {
+          "page": "715"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/6/0707-01"
+      ]
+    },
+    {
+      "cite": "96 Cal.Rptr.3d 864",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "175 Cal.App.4th 1346",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3974153
+      ],
+      "pin_cites": [
+        {
+          "page": "1358"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/175/1346-01"
+      ]
+    },
+    {
+      "cite": "111 P.3d 954",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 Cal.Rptr.3d 685",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.4th 935",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        873215
+      ],
+      "pin_cites": [
+        {
+          "page": "960-961"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/35/0935-01"
+      ]
+    },
+    {
+      "cite": "53 Cal.Rptr.3d 203",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "146 Cal.App.4th 739",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        5566661
+      ],
+      "pin_cites": [
+        {
+          "page": "747"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/146/0739-01"
+      ]
+    },
+    {
+      "cite": "530 P.2d 605",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 2007,
+      "opinion_index": 0
+    },
+    {
+      "cite": "118 Cal.Rptr. 637",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 2007,
+      "opinion_index": 0
+    },
+    {
+      "cite": "13 Cal.3d 315",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2317633
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "330"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/13/0315-01"
+      ]
+    },
+    {
+      "cite": "981 P.2d 990",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "88 Cal.Rptr.2d 56",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 Cal.4th 585",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        884863
+      ],
+      "pin_cites": [
+        {
+          "page": "613"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/21/0585-01"
+      ]
+    },
+    {
+      "cite": "707 P.2d 840",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "219 Cal.Rptr. 467",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "40 Cal.3d 277",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        404467
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/40/0277-01"
+      ]
+    },
+    {
+      "cite": "936 P.2d 101",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "63 Cal.Rptr.2d 322",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "15 Cal.4th 521",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1005979
+      ],
+      "pin_cites": [
+        {
+          "page": "526"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/15/0521-01"
+      ]
+    },
+    {
+      "cite": "279 P.3d 1022",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "143 Cal.Rptr.3d 529",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 Cal.4th 547",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        5721210
+      ],
+      "pin_cites": [
+        {
+          "page": "582"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/54/0547-01"
+      ]
+    },
+    {
+      "cite": "49 Cal.Rptr.3d 369",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "143 Cal.App.4th 526",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3595991
+      ],
+      "pin_cites": [
+        {
+          "page": "537"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/143/0526-01"
+      ]
+    },
+    {
+      "cite": "44 P.3d 120",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "118 Cal.Rptr.2d 746",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "27 Cal.4th 853",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1103378
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/27/0853-01"
+      ]
+    },
+    {
+      "cite": "349 P.2d 974",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "3 Cal.Rptr. 158",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "53 Cal.2d 674",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4384910
+      ],
+      "pin_cites": [
+        {
+          "page": "684-685"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/53/0674-01"
+      ]
+    },
+    {
+      "cite": "274 P.3d 456",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "139 Cal.Rptr.3d. 837",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "53 Cal.4th 1261",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        5719369
+      ],
+      "pin_cites": [
+        {
+          "page": "1267"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/53/1261-01"
+      ]
+    },
+    {
+      "cite": "452 P.2d 930",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "76 Cal.Rptr. 642",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "70 Cal.2d 851",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2308191
+      ],
+      "pin_cites": [
+        {
+          "page": "862"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/70/0851-01"
+      ]
+    },
+    {
+      "cite": "844 P.2d 534",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "16 Cal.Rptr.2d 215",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "4 Cal.4th 893",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        2001485
+      ],
+      "pin_cites": [
+        {
+          "page": "904"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/4/0893-01"
+      ]
+    },
+    {
+      "cite": "90 Cal.Rptr.3d 181",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "171 Cal.App.4th 741",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        12127536
+      ],
+      "pin_cites": [
+        {
+          "page": "752"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/171/0741-01"
+      ]
+    },
+    {
+      "cite": "136 P.3d 821",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Cal.Rptr.3d 21",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 Cal.4th 1139",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3852854
+      ],
+      "pin_cites": [
+        {
+          "page": "1149"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/38/1139-01"
+      ]
+    },
+    {
+      "cite": "191 Cal.Rptr. 47",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "142 Cal.App.3d 72",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2107708
+      ],
+      "pin_cites": [
+        {
+          "page": "82"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/142/0072-01"
+      ]
+    },
+    {
+      "cite": "460 P.2d 137",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1983,
+      "opinion_index": 0
+    },
+    {
+      "cite": "81 Cal.Rptr. 465",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1983,
+      "opinion_index": 0
+    },
+    {
+      "cite": "1 Cal.3d 56",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1183317
+      ],
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "63"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/1/0056-01"
+      ]
+    },
+    {
+      "cite": "396 P.2d 809",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1969,
+      "opinion_index": 0
+    },
+    {
+      "cite": "41 Cal.Rptr. 393",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1969,
+      "opinion_index": 0
+    },
+    {
+      "cite": "62 Cal.2d 119",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2334017
+      ],
+      "year": 1969,
+      "pin_cites": [
+        {
+          "page": "128"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/62/0119-01"
+      ]
+    },
+    {
+      "cite": "300 P.3d 494",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "156 Cal.Rptr.3d 409",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "56 Cal.4th 729",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        4224992
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/56/0729-01"
+      ]
+    },
+    {
+      "cite": "98 Cal.Rptr.2d 371",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "82 Cal.App.4th 580",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1355736
+      ],
+      "pin_cites": [
+        {
+          "page": "586"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/82/0580-01"
+      ]
+    },
+    {
+      "cite": "372 P.2d 897",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "22 Cal.Rptr. 857",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "58 Cal.2d 99",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4377218
+      ],
+      "pin_cites": [
+        {
+          "page": "103-104"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/58/0099-01"
+      ]
+    },
+    {
+      "cite": "693 P.2d 261",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "209 Cal.Rptr. 682",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "37 Cal.3d 644",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1949113
+      ],
+      "pin_cites": [
+        {
+          "page": "708"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/37/0644-01"
+      ]
+    },
+    {
+      "cite": "36 Cal.Rptr.2d 886",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "31 Cal.App.4th 166",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1125829
+      ],
+      "pin_cites": [
+        {
+          "page": "182"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/31/0166-01"
+      ]
+    },
+    {
+      "cite": "494 P.2d 681",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "100 Cal.Rptr. 609",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "6 Cal.3d 805",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2274650
+      ],
+      "pin_cites": [
+        {
+          "page": "808"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/6/0805-01"
+      ]
+    },
+    {
+      "cite": "104 P.3d 813",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "23 Cal.Rptr.3d 453",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "34 Cal.4th 1239",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        633017
+      ],
+      "pin_cites": [
+        {
+          "page": "1252"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/34/1239-01"
+      ]
+    },
+    {
+      "cite": "162 P.3d 583",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "63 Cal.Rptr.3d 67",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "41 Cal.4th 1061",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3819212
+      ],
+      "pin_cites": [
+        {
+          "page": "1067"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/41/1061-01"
+      ]
+    },
+    {
+      "cite": "162 P.3d 583",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "63 Cal.Rptr.3d 67",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "41 Cal.4th 1061",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3819212
+      ],
+      "pin_cites": [
+        {
+          "page": "1067"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-4th/41/1061-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1795,
+    "char_count": 69250,
+    "ocr_confidence": 0.904,
+    "pagerank": {
+      "raw": 6.92939814461531e-08,
+      "percentile": 0.42043860472174244
+    },
+    "sha256": "1f6aa4dde1be5c014db803a42a11d810dc392785a21e7f4621126e768de93626",
+    "simhash": "1:a9fd908294a33c59",
+    "word_count": 10624
+  },
+  "last_updated": "2024-02-27T22:49:19.694121+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE, Plaintiff and Appellant, v. JEANPIERRE CUONG NGUYEN, Defendant and Respondent."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nARONSON, Acting P. J.\nThe district attorney appeals from a judgment sustaining defendant JeanPierre Cuong Nguyen\u2019s demurrer to a misdemeanor complaint that charged him with violating a local ordinance that prohibits registered sex offenders from entering city parks and recreational facilities without written permission from the city\u2019s police chief. The trial court concluded state law preempted prosecution under the local ordinance because the Legislature has enacted a comprehensive statutory scheme regulating the daily life of sex offenders to reduce the risk of an offender committing a new offense. We agree. As explained below, we conclude the state statutory scheme imposing restrictions on a sex offender\u2019s daily life fully occupies the field and therefore preempts the city\u2019s efforts to restrict sex offenders from visiting city parks and recreational facilities.\nWe also conclude state law preempts the ordinance\u2019s requirement that sex offenders obtain written permission from the city\u2019s police chief before entering a city park and recreational facility. This regulation is simply a de facto registration requirement. But state law has long occupied the area of sex offender registration to the exclusion of local regulation and the city ordinance\u2019s written permission requirement amounts to an additional registration requirement imposed on sex offenders who wish to enter city parks. We decline to sever the written permission requirement from the city ordinance. To do so would result in an outright ban on sex offenders entering city parks and recreational facilities. But taking this step would substantially alter the meaning of the city ordinance as originally enacted because nothing in the language of the ordinance or its history suggests the city intended to bar sex offenders under all circumstances from city parks and recreational facilities.\nI\nFacts and Procedural History\nNguyen is a sex offender required to register with local law enforcement under Penal Code section 290. In September 2012, he entered a public park in the City of Irvine without first obtaining written permission from the Irvine Police Chief. After learning of Nguyen\u2019s park visit, the district attorney filed a misdemeanor complaint charging him with violating section 4-14-803 of the City of Irvine Municipal Code (Irvine section 4-14-803). That section states, \u201cAny person who is required to register pursuant to California Penal Code section 290 et seq., where such registration is required by reason of an offense for which the person was convicted and in which a minor was the victim, and who enters upon or into any City park and recreational facility where children regularly gather without written permission from the Director of Public Safety/Chief of Police or his designee is guilty of a misdemeanor.\u201d (\u00a7 4-14-803.) The ordinance broadly defines \u201cCity park and recreational facility\u201d as \u201ccommunity parks, neighborhood parks, the Orange County Great Park, open space preserves, trails, including structures thereon, and all other lands and facilities under the ownership, operation or maintenance of the City that are utilized for public park or recreational purposes, whether passive or active.\u201d (Irvine Mun. Code, \u00a7 4-14-802.)\nNguyen demurred to the complaint, arguing Irvine section 4-14-803 was invalid because (1) California\u2019s comprehensive statutory scheme governing the registration and regulation of sex offenders occupied the field and therefore preempted local ordinances imposing similar requirements; (2) the ordinance was unconstitutionally vague; and (3) the ordinance infringed on Nguyen\u2019s fundamental constitutional rights to intrastate travel, free speech, and freedom of association and assembly. The trial court sustained Nguyen\u2019s demurrer, finding state law preempted section 4-14-803 and the ordinance was unconstitutionally vague and overbroad.\nThe district attorney appealed to the superior court appellate division and requested it certify the appeal for immediate transfer to this court under California Rules of Court, rule 8.1005. The appellate division granted the request, explaining it \u201chas determined that transfer is necessary to secure uniformity of decision, in that another case pertaining to the same or a closely related issue, People v. Godinez, 30-2011-530069, G47657, is currently pending before Division Three of the Fourth District Court of Appeal. Like Godinez, this matter presents the issue of whether local ordinances restricting the movements of registered sex offenders are void on grounds of State preemption.\u201d Upon receiving the appellate division\u2019s certification order, we ordered the appeal transferred to this court.\nII\nDiscussion\nA. Governing Preemption Principles\n\u201c \u2018Under article XI, section 7 of the California Constitution, \u201c[a] county or city may make and enforce within its limits all local, police, sanitary, and other ordinances and regulations not in conflict with general [state] laws.\u201d [][] \u201cIf otherwise valid local legislation conflicts with state law, it is preempted by such law and is void.\u201d [Citations.] [][] \u201cA conflict exists if the local legislation \u2018 \u201cduplicates, contradicts, or enters an area fully occupied by general law, either expressly or by legislative implication.\u201d \u2019 \u201d [Citations.]\u2019 [Citations.]\u201d (O\u2019Connell v. City of Stockton (2007) 41 Cal.4th 1061, 1067 [63 Cal.Rptr.3d 67, 162 P.3d 583] (O\u2019Connell).)\nNguyen does not argue Irvine section 4-14-803 either duplicates or contradicts state law nor does he argue state law expressly preempts section 4-14-803. Instead, Nguyen\u2019s primary challenge is that state law impliedly preempts section 4-14-803 by fully occupying the field it regulates. The state impliedly preempts a field when \u201c \u2018 \u201c(1) the subject matter has been so fully and completely covered by general law as to clearly indicate that it has become exclusively a matter of state concern; (2) the subject matter has been partially covered by general law couched in such terms as to indicate clearly that a paramount state concern will not tolerate further or additional local action; or (3) the subject matter has been partially covered by general law, and the subject is of such a nature that the adverse effect of a local ordinance on the transient citizens of the state outweighs the possible benefit to the\u201d locality [citations].\u2019 [Citation.]\u201d (American Financial Services Assn. v. City of Oakland (2005) 34 Cal.4th 1239, 1252 [23 Cal.Rptr.3d 453, 104 P.3d 813] (American Financial).)\n\u201cIf the subject matter or field of the legislation has been fully occupied by the state, there is no room for supplementary or complementary local legislation, even if the subject were otherwise one properly characterized as a \u2018municipal affair.\u2019 [Citations.]\u201d (Lancaster v. Municipal Court (1972) 6 Cal.3d 805, 808 [100 Cal.Rptr. 609,494 P.2d 681]; see American Financial, supra, 34 Cal.4th at p. 1253 [\u201c \u2018Whenever the Legislature has seen fit to adopt a general scheme for the regulation of a particular subject, the entire control over whatever phases of the subject are covered by state legislation ceases as far as local legislation is concerned.\u2019 \u201d].) The Legislature\u2019s \u201c \u2018intent with regard to occupying the field to the exclusion of all local regulation is not to be measured alone by the language used but by the whole purpose and scope of the legislative scheme.\u2019 [Citations.]\u201d (American Financial, at p. 1252.) The test for field preemption or occupation does not focus on the number of statutes involved, but on \u201cwhether the nature and extent of the coverage of a field is such that it could be said to display a patterned approach to the subject.\u201d (Baldwin v. County of Tehama (1994) 31 Cal.App.4th 166, 182 [36 Cal.Rptr.2d 886] (Baldwin); see Fisher v. City of Berkeley (1984) 37 Cal.3d 644, 708 [209 Cal.Rptr. 682, 693 P.2d 261] (Fisher).)\nFor example, in O\u2019Connell, the Supreme Court considered whether state law impliedly preempted a local ordinance requiring an offender to forfeit any vehicle used \u201c \u2018to acquire or attempt to acquire any controlled substance.\u2019 \u201d (O\u2019Connell, supra, 41 Cal.4th at p. 1066, italics omitted.) To answer the question, the O\u2019Connell court analyzed the California Uniform Controlled Substances Act (Health & Saf. Code, \u00a7 11000 et seq.; UCSA) as a whole, including its detailed provisions regulating the lawful use and distribution of controlled substances, defining criminal offenses involving the unlawful possession, distribution, and sale of controlled substances, and the penalties for those offenses. The UCSA imposed the penalty of vehicle forfeiture for the sale and distribution of large quantities of controlled substances, but unlike the local ordinance it did not impose vehicle forfeiture as a penalty for purchasing or attempting to purchase small quantities of a controlled substance. (O\u2019Connell, at pp. 1069-1071.)\nBased on its review of the entire UCSA, the O\u2019Connell court concluded state law impliedly preempted the local ordinance because the UCSA fully occupied the field of penalizing crimes involving controlled substances: \u201cThe comprehensive nature of the UCSA in defining drug crimes and specifying penalties (including forfeiture) is so thorough and detailed as to manifest the Legislature\u2019s intent to preclude local regulation.\u201d (O\u2019Connell, supra, 41 Cal.4th at p. 1071.) The Legislature\u2019s decision to omit vehicle forfeiture as a penalty for possessing drugs below a specified amount prevented local authorities from imposing the omitted penalty on those same offenses because the Legislature\u2019s comprehensive statutory scheme \u201cmanifested] a clear intent to reserve that severe penalty for very serious drug crimes involving the manufacture, sale, or possession for sale of specified amounts of certain controlled substances.\u201d (Id. at p. 1072; see In re Lane (1962) 58 Cal.2d 99, 103-104 [22 Cal.Rptr. 857, 372 P.2d 897] (Lane) [extensive state statutory scheme regulating criminal aspects of sexual activity preempted local ordinance outlawing fornication and adultery even though the state statutes did not outlaw those specific acts; \u201c[i]t is therefore clear that the Legislature has determined by implication that such conduct shall not be criminal in this. state\u201d].)\nIn finding the ordinance preempted, the O\u2019Connell court criticized an earlier appellate decision that found the UCSA did not preempt a similar ordinance requiring vehicle forfeiture. That earlier decision upheld the local ordinance because the UCSA was \u201c \u2018silent with regard to vehicles used by drug buyers\u2019 \u201d and therefore the \u201cordinance covered an area of law \u2018untouched by statewide legislation ....\u2019\u201d (O\u2019Connell, supra, 41 Cal.4th at p. 1072, italics omitted, quoting and disapproving Horton v. City of Oakland (2000) 82 Cal.App.4th 580, 586 [98 Cal.Rptr.2d 371].) The Supreme Court explained this earlier appellate decision erred by \u201cfocusing solely on the UCSA\u2019s forfeiture provisions . . . [without] considering] the UCSA\u2019s comprehensive scheme of drug crime penalties, which include forfeiture of various items of property, including vehicles, when used in specified serious drug offenses.\u201d (O\u2019Connell, at p. 1072.)\nIn American Financial, the Supreme Court likewise examined the state\u2019s entire statutory scheme regarding predatory lending practices in the home mortgage industry to determine whether state law impliedly preempted a local ordinance that imposed higher standards and covered more mortgage loans than the state scheme. (American Financial, supra, 34 Cal.4th at pp. 1246-1251.) The American Financial court found the state statutes defining what mortgages were covered, what lending acts were prohibited, who could be held liable for statutory violations, the available enforcement mechanisms, and the defenses to any purported violations were \u201c \u2018so extensive in their scope that they clearly show[ed] an intention by the Legislature to adopt a general scheme for the regulation of\u2019 predatory lending tactics in home mortgages. [Citation.]\u201d (Id. at pp. 1254-1255.) By purporting to augment the state statutes, the local ordinance \u201crevisit[edj\u201d an area fully occupied by state law and \u201cundermine[d] the considered judgments and choices of the Legislature\u201d in adopting the statutes. (Id. at p. 1257.) Accordingly, state law preempted the local ordinance, including mortgages the state\u2019s statutory scheme did not cover. (Id. at p. 1258.)\nIn contrast, the Supreme Court\u2019s recent decision in City of Riverside v. Inland Empire Patients Health & Wellness Center, Inc. (2013) 56 Cal.4th 729 [156 Cal.Rptr.3d 409, 300 P.3d 494] (City of Riverside) concluded state law did not preempt a local land use ordinance banning medical marijuana dispensaries because state law did not establish a comprehensive scheme regulating medical marijuana. The state law on the subject merely \u201cadopted limited exceptions to the sanctions of this state\u2019s criminal and nuisance laws in cases where marijuana is possessed, cultivated, distributed, and transported for medical purposes.\u201d (Id. at p. 739.) According to the Supreme Court, the state \u201cstatutory terms describe[d] no comprehensive scheme or system for authorizing, controlling, or regulating the processing and distribution of marijuana for medical purposes . . .\u201d (id. at p. 755), but rather represented \u201ccareful and limited forays into the subject of medical marijuana, aimed at striking a delicate balance in an area that remains controversial, and involves sensitivity in federal-state relations\u201d (id. at p. 762).\nThe City of Riverside court emphasized land use regulation is an area over which local government traditionally has exercised control and therefore \u201c \u2018. . . California courts will presume, absent a clear indication of preemptive intent from the Legislature, that such regulation is not preempted by state statute.\u2019 [Citations.]\u201d (City of Riverside, supra, 56 Cal.4th at p. 743.) The Supreme Court concluded the narrow and limited nature of the state medical marijuana law did not provide a clear indication the Legislature intended to preempt local land use regulation affecting medical marijuana dispensaries. Nothing in the state law required local governments to accommodate medical marijuana.\nAs these cases demonstrate, the facts and circumstances of each case determine whether the Legislature established a comprehensive statutory scheme that impliedly preempts all local regulation on the subject. (In re Hubbard (1964) 62 Cal.2d 119, 128 [41 Cal.Rptr. 393, 396 P.2d 809], overruled on another point in Bishop v. City of San Jose (1969) 1 Cal.3d 56, 63 [81 Cal.Rptr. 465, 460 P.2d 137]; Gregory v. City of San Juan Capistrano (1983) 142 Cal.App.3d 72, 82 [191 Cal.Rptr. 47] (Gregory).) \u201cThe party claiming that general state law preempts a local ordinance has the burden of demonstrating preemption.\u201d (Big Creek Lumber Co. v. County of Santa Cruz (2006) 38 Cal.4th 1139, 1149 [45 Cal.Rptr.3d 21, 136 P.3d 821] (Big Creek Lumber).) \u201c \u2018Whether state law preempts a local ordinance is a question of law that is subject to de novo review.\u2019 [Citation.]\u201d (Rental Housing Assn. of Northern Alameda County v. City of Oakland (2009) 171 Cal.App.4th 741, 752 [90 Cal.Rptr.3d 181].)\nB. The Legislature\u2019s Comprehensive and Standardized Scheme Regulating Sex Offenders Preempts Irvine\u2019s Ordinance\nNguyen contends state law impliedly preempts Irvine section 4-14-803 because the ordinance regulates an area the state has fully occupied by enacting a comprehensive statutory scheme regulating sex offenders. To evaluate this challenge we must first identify the subject section 4-14-803 regulates and the specific field Nguyen claims is occupied by state law. (Sherwin-Williams Co. v. City of Los Angeles (1993) 4 Cal.4th 893, 904 [16 Cal.Rptr.2d 215, 844 P.2d 534] (Sherwin-Williams); Gregory, supra, 142 Cal.App.3d at p. 84.) Next, we must examine the nature and scope of those state statutes to determine whether they are logically related and establish a \u201c \u2018patterned approach\u2019 \u201d to regulating an area that includes the subject matter covered by section 4-14-803. (Fisher, supra, 37 Cal.3d at p. 708; see Baldwin, supra, 31 Cal.App.4th at p. 182.) A preempted field \u201ccannot properly consist of statutes unified by a single common noun,\u201d but rather requires closely related statutes that regulate an area in a manner that reveals a legislative intent to occupy the field. (Galvan v. Superior Court (1969) 70 Cal.2d 851, 862 [76 Cal.Rptr. 642, 452 P.2d 930] (Galvan).)\n1. The Relevant State Law Field Includes All Restrictions Imposed on a Sex Offender\u2019s Daily Life\nThe parties agree Irvine section 4-14-803 regulates a sex offender\u2019s ability to visit a particular type of public place by prohibiting the offender from entering a \u201cCity park and recreational facility where children regularly gather\u201d without the police chief\u2019s written permission. (\u00a7 4-14-803.) The ordinance\u2019s stated purpose is \u201cto protect children from registered sex offenders by restricting sex offenders\u2019 access to locations where children regularly gather. It is intended to reduce the risk of harm to children by impacting the ability of sex offenders who were convicted of offenses in which a minor was the victim to be in contact with children.\u201d (Irvine Mun. Code, \u00a7 4-14-801.)\nThe district attorney contends we must define the relevant state law field based on Irvine section 4-14-803\u2019s subject matter, which regulates \u201cwhere sex offenders can go.\u201d In contrast, Nguyen contends we must define the field based on the state laws regulating sex offenders because those are the provisions that have occupied the field and therefore preempt the local ordinance. We agree we must look to state law to define the relevant field when determining whether the Legislature has fully occupied the area by enacting a comprehensive statutory scheme. (Fisher, supra, 37 Cal.3d at p. 708; Galvan, supra, 70 Cal.2d at p. 862; Baldwin, supra, 31 Cal.App.4th at p. 182.)\nThe district attorney\u2019s test for defining the state law field by looking to the local ordinance\u2019s subject matter would turn the preemption analysis on its head and allow local government to define the scope of state law. The relevant preemption inquiry is whether state law has occupied the field to the exclusion of local regulation, and therefore we look to state law to define the field it purportedly occupies. (O\u2019Connell, supra, 41 Cal.4th at p. 1072 [earlier decision erred in narrowly defining field based on subject of local ordinance without considering entire field regulated by the state\u2019s comprehensive statutory scheme].) We look to the local ordinance\u2019s subject matter to determine whether it falls within the state law field, not to define the field. (Fisher, supra, 37 Cal.3d at p. 708; Galvan, supra, 70 Cal.2d at p. 862.)\nDefining the relevant state law field as the district attorney suggests\u2014the regulation of where sex offenders can go\u2014would require us to ignore other state laws designed to achieve the same purpose as Irvine section 4-14-803: protecting children from registered sex offenders by restricting access to locations where children regularly gather. (Irvine Mun. Code, \u00a7 4-14-801.) For example, limiting the relevant field to the geographical restriction of sex offenders would preclude us from considering state laws that restrict sex offenders from living near schools and parks. (\u00a7 3003.5.) The district attorney\u2019s analysis similarly would require a reviewing court to ignore state laws that allow law enforcement officials to monitor certain sex offenders with global positioning devices. (\u00a7\u00a7 3000.07, 3004, subd. (b).) It also would eliminate from the analysis state laws that limit or in some cases prohibit registered sex offenders from accepting a job or volunteer position involving direct and unaccompanied contact with minor children. (\u00a7 290.95.) \u201c \u2018Where the Legislature has adopted statutes governing a particular subject matter, its intent with regard to occupying the field to the exclusion of all local regulation is not to be measured alone by the language used but by the whole purpose and scope of the legislative scheme.\u2019 [Citations.]\u201d (,American Financial, supra, 34 Cal.4th at p. 1252; see Lane, supra, 58 Cal.2d at pp. 102-103.) Defining the field as the district attorney suggests would require us to ignore a significant portion of the purpose and scope of the state\u2019s legislative scheme.\nAccordingly, we define the relevant field as the restrictions imposed on a sex offender\u2019s daily life to reduce the risk he or she will commit another similar offense. As explained below, the Legislature has not only adopted numerous statutes placing geographical restrictions on sex offenders, but also has adopted other regulations governing other aspects of an offender\u2019s life to protect the public from future harm. We must consider all of those statutes together to determine whether they establish a \u201c \u2018patterned approach\u2019 \u201d to regulating a sex offender\u2019s daily life and manifest a legislative intent to fully occupy the field to the exclusion of all local regulation. (Fisher, supra, 37 Cal.3d at p. 708; see Galvan, supra, 70 Cal.2d at p. 862; Baldwin, supra, 31 Cal.App.4th at p. 182.)\n2. The Legislature Enacted a Comprehensive Statutory Scheme That Fully Occupies the Field\nThe restrictions the Penal Code imposes on a sex offender\u2019s daily life include (1) a lifetime duty to register with local law enforcement for each city or county in which the offender resides and to update that registration annually or upon any relevant change (\u00a7\u00a7 290-290.024); (2) a state-maintained Web site that discloses information about the offender to the public (\u00a7\u00a7 290.4, 290.45, 290.46); (3) a sex offender\u2019s duty to submit to monitoring with a global positioning device while on parole and potentially for the remainder of the offender\u2019s life if the underlying sex offense was one of several identified felonies (\u00a7\u00a7 3000.07, 3004, subd. (b)); (4) a prohibition against the offender \u201center[ing] any park where children regularly gather without the express permission of his or her parole agent\u201d if the victim of the underlying sex offense was under 14 years of age (\u00a7 3053.8, subd. (a)); (5) a prohibition against the offender residing with another sex offender while on parole and within 2,000 feet of a school or park for the rest of the offender\u2019s life (\u00a7 3003.5); (6) a prohibition against the offender entering any school without \u201clawful business\u201d and written permission from the school (\u00a7 626.81); (7) enhanced penalties for the offender remaining at or returning to \u201cany school or public place at or near which children attend or normally congregate\u201d after a school or law enforcement official has asked the offender to leave (\u00a7 653b, italics added); (8) a prohibition against the offender entering a daycare or residential facility for elders or dependent adults without registering with the facility if the victim of the underlying sex offense was an elder or dependent adult (\u00a7 653c); (9) a duty to disclose the offender\u2019s status as a sex offender when applying for or accepting a job or volunteer position involving direct and unaccompanied contact with minor children (\u00a7 290.95, subds. (a) & (b)); (10) a prohibition against the offender working or volunteering with children if the victim of the underlying sex offense was under 16 years of age (\u00a7 290.95, subd. (c)); and (11) a prohibition against the offender receiving publicly funded prescription drugs or other therapies to treat erectile dysfunction (\u00a7 290.02).\nConsidered individually, the language in each of these statutes does not reflect a legislative intent to fully occupy the field of regulating a sex offender\u2019s daily life; each statute simply regulates a specific aspect of a sex offender\u2019s life. Considered collectively, however, a different picture emerges. The Legislature expressly declared its intent to establish a comprehensive and standardized system for regulating sex offenders when it passed the Sex Offender Punishment, Control, and Containment Act of 2006 (Stats. 2006, ch. 337, p. 2583). That act contains more than 60 sections and made numerous changes to the statutes regulating sex offenders, including adding or amending several of the foregoing statutes. (People v. Cornett (2012) 53 Cal.4th 1261, 1267 [139 Cal.Rptr.3d. 837, 274 P.3d 456].) Among its many provisions, the act created several new offenses, increased the penalties for certain existing offenses, modified the statutes governing parole and probation for sex offenders, and revised the sex offender registration requirements and the system for disseminating information regarding sex offenders to the public and law enforcement. (Ibid.)\nAs part of the 2006 act, the Legislature enacted section 290.03, which states, \u201cThe Legislature finds and declares that a comprehensive system of risk assessment, supervision, monitoring and containment for registered sex offenders residing in California communities is necessary to enhance public safety and reduce the risk of recidivism posed by these offenders. ...[][]... [f] ... In enacting the Sex Offender Punishment, Control, and Containment Act of 2006, the Legislature hereby creates a standardized, statewide system to identify, assess, monitor and contain known sex offenders for the purpose of reducing the risk of recidivism posed by these offenders, thereby protecting victims and potential victims from future harm.\u201d (\u00a7 290.03, subds. (a) & (b), italics added.) A comprehensive system is one that \u201cinclude[es] or deal[s] with all or nearly all elements or aspects of [that subject].\u201d (See Oxford Online Dict. <http://oxforddictionaries.com/definition/English/ comprehensivo [as of Jan. 10, 2014]; see also Meniam-Webster Online Dict. <http://www.merriam-webster.com/dictionary/comprehensive [as of Jan. 10, 2014] [defining \u201ccomprehensive\u201d as \u201ccovering completely or broadly\u201d].)\nConsidering the Legislature\u2019s declared intent coupled with the scope and nature of the restrictions the foregoing Penal Code sections imposed, we conclude the Legislature established a complete system for regulating a sex offender\u2019s daily life and manifested a legislative intent to fully occupy the field to the exclusion of Irvine section 4-14-803 and other local regulations. Considered as a whole, these statutes regulate much more than the geographic restrictions imposed on a sex offender. They regulate numerous aspects of a sex offender\u2019s life so that both law enforcement and the public can monitor the sex offender on a daily basis. They also restrict the places a sex offender may visit and the people with whom he or she may interact. These Penal Code sections regulate a sex offender\u2019s duty to inform law enforcement where he or she resides, law enforcement\u2019s ability to track a sex offender\u2019s movement through a global positioning device, where and with whom a sex offender may reside, what sort of jobs or volunteer positions a sex offender may accept, and, most importantly for this case, the public and private places a sex offender may visit.\nAlthough the Penal Code does not include a provision identical to the restrictions Irvine section 4-14-803 imposed on all sex offenders entering a public park where children regularly gather, it does include several sections prohibiting or limiting a sex offender\u2019s ability to visit many public and private places where children regularly gather. A sex offender on parole for an offense against a child under 14 years of age may not enter a park where children regularly gather without permission from his or her parole agent. (\u00a7 3053.8, subd. (a).) A sex offender may not enter a school without \u201clawful business\u201d and written permission from the school. (\u00a7 626.81.) A sex offender who remains at or returns to a school or any other public place where children regularly gather after a school or law enforcement official has asked the offender to leave is subject to heightened penalties. (\u00a7 653b.) A sex offender who committed an offense against a child under 16 years of age may not volunteer or work where he or she would have direct and unaccompanied contact with minor children. (\u00a7 290.95.) Finally, a sex offender may never reside within 2,000 feet of a school or park where children regularly gather. (\u00a7 3003.5, subd. (b).) These restrictions are similar to section 4-14-803\u2019s prohibition; indeed, in some aspects they go beyond that prohibition.\nPrecisely how to restrict a sex offender\u2019s access to places where children regularly gather reflects the Legislature\u2019s considered judgment on how to protect children and other members of the public from the risk of a sex offender reoffending, while also recognizing a sex offender\u2019s right to live, work, assemble, and move about the state. (See \u00a7 290.03; American Financial, supra, 34 Cal.4th at pp. 1258-1259.) The Legislature\u2019s enactment of a comprehensive statutory scheme that includes significant restrictions on a sex offender\u2019s access to places where children regularly gather, but excludes an outright ban on all sex offenders entering a park without written permission, manifests a legislative determination that such a ban is not warranted. (O\u2019Connell, supra, 41 Cal.4th at p. 1072; American Financial, at p. 1258; Lane, supra, 58 Cal.2d at pp. 103-104.) \u201cIn revisiting this area fully occupied by state law, [Irvine section 4-14-803] undermines the considered judgments and choices of the Legislature, and is therefore preempted.\u201d (American Financial, at p. 1257.)\nIndeed, we see no relevant distinction between the foregoing statutory scheme restricting a sex offender\u2019s daily life and other statutory schemes the Supreme Court has found to fully occupy a field even though the state scheme did not include a provision identical to the preempted local ordinance. (O\u2019Connell, supra, 41 Cal.4th at pp. 1071-1072 [state law defining drug offenses and penalties for those offenses fully occupied field and preempted local ordinance imposing a penalty the state scheme excluded]; American Financial, supra, 34 Cal.4th at pp. 1254\u20141255 [state law regulating predatory lending practices in home mortgage industry fully occupied field and preempted local ordinance regulating predatory lending practices for mortgages not covered by state law]; Lane, supra, 58 Cal.2d at pp. 103-104 [state law regulating criminal aspects of sexual activity fully occupied field and preempted local ordinance criminalizing specific acts state law did not prohibit]; Abbott v. City of Los Angeles (1960) 53 Cal.2d 674, 684-685 [3 Cal.Rptr. 158, 349 P.2d 974] (Abbott) [Pen. Code provisions requiring state to collect data on criminals fully occupied field and preempted local ordinance requiring criminals to register with local law enforcement].) Accordingly, we conclude state law preempts Irvine section 4-14-803 because it fully occupies the field section 4-14-803 regulates.\nThe district attorney contends state law does not preempt Irvine section 4-14-803 because the two statutes Nguyen cites as geographical restrictions on a sex offender (\u00a7\u00a7 626.81, 3053.8) are not enough to establish a comprehensive scheme that fully occupies the field. We do not find this argument persuasive. Adopting this overly narrow and constricted definition of the relevant state law field would eviscerate the implied preemption doctrine. As explained above, the proper field encompasses the restrictions imposed on a sex offender\u2019s daily life to reduce the risk he or she will commit another offense. When all state laws from the relevant field are considered, it is evident the Legislature created a multitude of regulations patterned together to restrict a sex offender\u2019s daily life. Contrary to the district attorney\u2019s argument, the Legislature\u2019s intent to fully occupy a field is determined based on the nature and scope of the statutes the Legislature adopts. What counts is not the number of statutes covering a topic, but the substantive scope of the legislative scheme. (Galvan, supra, 70 Cal.2d at pp. 861-862; Baldwin, supra, 31 Cal.App.4th at p. 182.)\nThe district attorney also argues we should not employ a \u201c \u2018preemption by volume\u2019 strategy\u201d because many of the statutes in this field only focus on sex offenders generally rather than the specific subject Irvine section 4-14-803 addresses: geographic restrictions on sex offenders. Although presented under a different guise, this argument relies on the same improper definition of the relevant field. As discussed above, implied preemption may not be based solely on the number of statutes \u201cunified by a single common noun.\u201d (Galvan, supra, 70 Cal.2d at pp. 861-862 [\u201cTo approach the issue of preemption as a quantitative problem provides no guidance in determining whether the Legislature intends that local units shall not legislate concerning a particular subject, and further confounds a meaningful solution to preemption problems by offering a superficially attractive rule of preemption that requires only a statutory nosecount.\u201d].) Rather, implied preemption exists when the state statutes are logically related and establish a \u201cpatterned approach\u201d to regulating an area that includes the local ordinance\u2019s subject matter. (Id. at p. 862; Baldwin, supra, 31 Cal.App.4th at p. 182; see Fisher, supra, 37 Cal.3d at p. 708.) Here, the Penal Code sections at issue are all closely related and establish a patterned approach for regulating a sex offender\u2019s daily life to reduce the risk the offender will commit another offense. Section 4-14-803 invokes the same purpose in imposing geographical restrictions and therefore it is preempted. This analysis is not based on a preemption by volume strategy, as the district attorney contends.\nNext, the district attorney argues the Penal Code sections discussed above do not establish a legislative intent to preempt the field because some of them include a provision stating, \u201cNothing in this section shall preclude or prohibit prosecution under any other provision of law.\u201d (\u00a7\u00a7 626.81, subd. (d); 653b, subd. (e); 653c, subd. (e).) According to the district attorney, this provision allows prosecution under local ordinances regarding the subject of these statutes (sex offenders entering schools, sex offenders loitering at schools or public places after being asked to leave, and sex offenders entering daycare or residential facilities for elders and dependent adults) and therefore shows the Legislature did not intend to preempt additional regulations of sex offenders. The district attorney is mistaken.\n\u201c \u2018 [Preemption by implication of legislative intent may not be found when the Legislature has expressed its intent to permit local regulations. Similarly, it should not be found when the statutory scheme recognizes local regulations.\u2019 [Citation.]\u201d (Big Creek Lumber, supra, 38 Cal.4th at p. 1157; see Abbott, supra, 53 Cal.2d at p. 683.) These rules apply when the state expressly authorizes or acknowledges local regulation on the subject. For example, in Big Creek Lumber, the Supreme Court found state law regarding timber harvesting did not preempt local zoning ordinances establishing the permissible location for timber operations because state law expressly authorized and deferred to local zoning authority concerning the location of timber production zones. (Big Creek Lumber, at pp. 1153, 1157.) Similarly, in Great Western Shows, Inc. v. County of Los Angeles (2002) 27 Cal.4th 853 [118 Cal.Rptr.2d 746, 44 P.3d 120], the Supreme Court found state law regulating gun shows did not impliedly preempt a local ordinance banning shows on county-owned property because the state law expressly required gun show operations to comply with all local laws and regulations. (Id. at pp. 864-866; see Sherwin-Williams, supra, 4 Cal.4th at pp. 904-905.) Here, the Penal Code sections on which the district attorney relies neither authorize nor acknowledge local regulation of sex offenders.\nThe district attorney next argues the Legislature\u2019s declaration of intent in section 290.03 does not establish an intent to preempt the field of regulating sex offenders because the Legislature did not expressly state it intended to occupy the field to the exclusion of local regulation. According to the district attorney, the Legislature knew how to state its intent to preempt the field when it intended to do so (see Gov. Code, \u00a7 53071.5, subd. (a) [\u201cBy the enactment of this section, the Legislature occupies the whole field of regulation of the manufacture, sale, or possession of imitation firearms . . . and that subdivision shall preempt and be exclusive of all regulations relating to the manufacture, sale, or possession of imitation firearms . . . .\u201d]), and the mere declaration of a state interest in a subject matter is not sufficient to fully occupy a field (see Baldwin, supra, 31 Cal.App.4th at p. 175 [\u201c[Preemption cannot be accomplished by a statute which merely declares that a field is preempted. The Legislature may not preempt the exercise of the police power negatively, merely by forbidding its exercise.\u201d]).\nThis argument, however, fails to recognize that preemption may be either express or implied. (American Financial, supra, 34 Cal.4th at p. 1261 [\u201cOf course, by definition, the Legislature\u2019s implicit full occupation of a field occurs only when there is no express intent in the state law.\u201d].) Moreover, section 290.03 does more than just express a state interest in regulating sex offenders. The Legislature in section 290.03 declared the need for \u201ca comprehensive system of risk assessment, supervision, monitoring and containment for registered sex offenders residing in California communities\u201d and therefore created \u201ca standardized, statewide system to identify, assess, monitor and contain known sex offenders.\u201d (\u00a7 290.03, subds. (a) & (b), italics added.) Contrary to the district attorney\u2019s contention, the Legislature did not declare an intent to occupy the field but then fail to enact statutes occupying the field. (See Baldwin, supra, 31 Cal.App.4th at p. 175.) As explained above, the Legislature enacted numerous statutes to occupy the field and its declared intent in section 290.03 underscores that intent.\nThe district attorney also argues the Legislature\u2019s express intent in section 290.03 to create a standardized statewide monitoring system for known sex offenders does not establish a legislative intent to fully occupy the field because the Sex Offender Punishment, Control, and Containment Act of 2006 that enacted section 290.03 only added or amended one code section placing geographical restrictions on sex offenders. According to the district attorney, we must focus on what the Legislature did\u2014not what it said\u2014and enacting one code section regulating where sex offenders may go does not establish an intent to fully occupy the field. Again, the district attorney reaches this conclusion by viewing the Legislature\u2019s statutory scheme through the narrow prism of the local regulation, thereby ignoring the scope and purpose of section 290.03. As explained above, the relevant state law field for our preemption analysis is the regulation of a sex offender\u2019s daily life. When the 2006 act is reviewed with that field in mind, the act amended or added more than just one code section. (Stats. 2006, ch. 337, \u00a7\u00a7 10, 11, 13-17, 19, 25, 27, 28, 47, pp. 2591, 2606-2610, 2611, 2631, 2632, 2633, 2657.) The district attorney\u2019s argument ignores the many other code sections regulating a sex offender\u2019s daily life that already existed in 2006 and additional regulations that have been added since that time. The 2006 act cannot be viewed in isolation when considering the Legislature\u2019s declared intent to create a comprehensive, statewide system regulating sex offenders.\nNext, the district attorney argues we should presume Irvine section 4-14-803 is valid because it falls within the scope of local government\u2019s traditional police power. The district attorney, however, fails to acknowledge when a presumption against preemption properly arises and fails to show that presumption applies in this case. California courts will presume a local regulation is not preempted by state law when the local regulation is in an \u201carea\u201d over which local government traditionally has exercised control, but the mere exercise of a local government\u2019s police power is not sufficient to invoke the presumption against preemption. (See City of Riverside, supra, 56 Cal.4th at pp. 742-743; Big Creek Lumber, supra, 38 Cal.4th at pp. 1149, 1151.) Land use regulation is the classic example of an area in which a local regulation is entitled to a presumption against preemption. (City of Riverside, at pp. 742-743; Big Creek Lumber, at pp. 1149, 1151.)\nThere is no presumption against preemption when a local ordinance regulates in an area historically dominated by state regulation. (American Financial, supra, 34 Cal.4th at p. 1255; cf. Hood v. Santa Barbara Bank & Trust (2006) 143 Cal.App.4th 526, 537 [49 Cal.Rptr.3d 369] [\u201cThere is a general presumption against preemption unless the state regulates in an area where there has been a \u2018significant federal presence.\u2019 \u201d (italics added)].) Moreover, \u201c \u2018[w]hen there is a doubt as to whether an attempted regulation relates to a municipal or to a state matter, or if it be the mixed concern of both, the doubt must be resolved in favor of the legislative authority of the state.\u2019 [Citations.]\u201d (State Building & Construction Trades Council of California v. City of Vista (2012) 54 Cal.4th 547, 582 [143 Cal.Rptr.3d 529, 279 P.3d 1022].)\nSex offender registration is an area the state has traditionally regulated. The Penal Code has included a \u201ccomprehensive scheme\u201d regarding sex offender registration since 1947, when the Legislature first enacted section 290 to require sex offenders to register with local law enforcement by providing a written statement, fingerprints, and a photograph. (Wright v. Superior Court (1997) 15 Cal.4th 521, 526 [63 Cal.Rptr.2d 322, 936 P.2d 101]; see Stats. 1947, ch. 1124, \u00a7 1, pp. 2562-2563; Abbott, supra, 53 Cal.2d at pp. 676, 684 [1960 Supreme Court decision holding state law fully occupies the field of criminal registration for all types of offenses, not just sex offenses].) Since at least 1982, the Penal Code also has included limitations on a sex offender\u2019s ability to visit certain places. (See Stats. 1982, ch. 1308, \u00a7 1, p. 4818 [prohibiting a sex offender from entering a school unless he or she is a parent of a student or has written permission].) As explained above, the Legislature also has enacted many other restrictions on a sex offender\u2019s daily life in the ensuing years. The district attorney, however, fails to cite any local efforts to regulate sex offenders other than Irvine section 4-14-803 and similar ordinances several cities and the County of Orange have adopted since late 2010. Accordingly, the presumption against state law preemption does not apply to section 4-14-803.\nFinally, the district attorney argues the regulation of parks is an area local governments traditionally have controlled and therefore we should presume state law does not preempt Irvine section 4-14-803. Section 4-14-803, however, does not regulate parks; it regulates sex offenders. Indeed, section 4-14-803\u2019s declared purpose and intent is \u201cto provide additional restrictions beyond those provided for in state law by restricting sex offenders from certain limited locations, and by allowing for criminal penalties for violations -of this chapter.\u201d (Irvine Mun. Code, \u00a7 4-14-801.) Accordingly, section 4-14-803 attempts to supplement state law regulations on sex offenders. But the district attorney fails to cite any authority showing regulation of sex offenders is an area local governments traditionally have controlled.\nC. State Law Impliedly Preempts Irvine Section 4-14-803 Based on Its Implicit Registration Requirement\nIn addition to its prohibition against a sex offender entering city parks and recreational facilities without written permission, Irvine section 4-14-803 also regulates a sex offender\u2019s duty to register with local law enforcement. Implicit in the ordinance\u2019s written permission requirement is the obligation to apply to the Irvine Police Chief if a sex offender wishes to visit a city park and recreational facility. Section 4-14-803 does not establish a procedure for a sex offender to obtain the required permission, but presumably the offender at least must provide identification and contact information to the police chief, explain why he or she wants to enter a specific city park and recreational facility, and identify the sex offense for which he or she was convicted. That is a de facto registration requirement that goes beyond the Penal Code\u2019s standardized registration requirements for sex offenders and therefore constitutes an independent ground for finding state law preempts section 4-14-803.\nAs explained above, sex offender registration is an area the state has traditionally regulated since 1947, when the Legislature placed in the Penal Code a \u201ccomprehensive scheme\u201d regarding sex offender registration. (Wright, supra, 15 Cal.4th at p. 526; see Stats. 1947, ch. 1124, \u00a7 1, pp. 2562-2563.) Other than Irvine section 4-14-803 and similar ordinances recently adopted by the County of Orange and several local cities, the district attorney fails to cite any examples of local governments legislating in the sex offender registration domain. (See American Financial, supra, 34 Cal.4th at p. 1255 [in determining whether Legislature intended to impliedly preempt field, courts must consider whether the subject matter was historically controlled by state regulation].)\nMore than 50 years ago, the California Supreme Court held state law fully occupied the field of criminal registration for all types of offenses, not just sex offenders. (Abbott, supra, 53 Cal.2d at pp. 676, 684.) In Abbott, the City of Los Angeles enacted an ordinance that made it unlawful for any person convicted of a felony or certain identified misdemeanors to remain in the city for more than five days without registering with the police chief. (Id. at p. 676 & fn. 1.) Although section 290 was the only Penal Code section that required a person convicted of specified crimes to register with local law enforcement, the Abbott court found section 290, combined with other Penal Code sections, fully occupied the entire field of criminal registration. The other Penal Code sections required the state to maintain files and identifying information about offenders who committed certain crimes, which allowed the state to monitor them in the same way as required under section 290. (Abbott, at pp. 684\u2014687.) Accordingly, the Supreme Court concluded, \u201cAn examination of the Penal Code . . . indicates that the state Legislature has preempted the very field of registration as a means of apprehension of criminals. This it has done by expressly requiring registration in some instances and by inferentially rejecting it in others. Thus, in this basic respect the state statutes and the local ordinance are in conflict [and the state statutes therefore preempt the local ordinance requiring criminal registration].\u201d (Id. at p. 685.)\nIn its current form, California\u2019s Sex Offender Registration Act (\u00a7\u00a7 290-290.024) establishes a more detailed and comprehensive statutory scheme than section 290 established when the Supreme Court decided Abbott. The current act defines a sex offender\u2019s lifetime duty to register with local law enforcement for each city or county in which he or she regularly resides (\u00a7\u00a7 290, subd. (b), 290.010); who must register as a sex offender (\u00a7\u00a7 290, subd. (c), 290.001-290.009); the information law enforcement personnel must provide to a sex offender regarding his or her duty to register (\u00a7 290.017); the information a sex offender must provide when registering (\u00a7\u00a7 290.015, 290.016); a sex offender\u2019s duty to update his or her registration annually and also within five working days of any change in his or her residence or name (\u00a7\u00a7 290.012-290.014); how and with whom a transient sex offender must register (\u00a7 290.011); and misdemeanor and felony punishment for a sex offender who fails to properly register (\u00a7 290.018). Other Penal Code sections also require a sex offender to register with campus police when he or she enrolls or works at any college or university regardless of where the sex offender resides (\u00a7 290.01) and require the state to maintain a Web site and otherwise publicly disclose certain information regarding all registered sex offenders (\u00a7\u00a7 290.4, 290.45, 290.46).\nThese provisions \u201c \u2018are so extensive in their scope that they clearly show an intention by the Legislature to adopt a general scheme for the regulation of\u2019 \u201d sex offender registration. (American Financial, supra, 34 Cal.4th at pp. 1254\u20141255; see Lane, supra, 58 Cal.2d at pp. 103-104; see also O\u2019Connell, supra, 41 Cal.4th at pp. 1071-1072; Abbott, supra, 53 Cal.2d at pp. 684-685.) Accordingly, we conclude state law impliedly preempts Irvine section 4-14-803 based on the implicit registration requirement it imposes on sex offenders who wish to enter a city park and recreational facility.\nThe district attorney contends the ordinance does not include an implicit registration requirement analogous to the Penal Code\u2019s registration requirement. According to the district attorney, the Penal Code provisions require all sex offenders to register with local law enforcement based solely on a disability suffered in the past\u2014a conviction for one or more enumerated sex offenses. In contrast, the district attorney contends section 4-14-803 is merely a prospective licensing or permit provision that allows sex offenders to obtain permission to voluntarily engage in a specific activity in which they otherwise would not be allowed to engage\u2014entering a city park and recreational facility where children regularly gather.\nThe district attorney relies on Cohen v. Board of Supervisors (1985) 40 Cal.3d 277 [219 Cal.Rptr. 467, 707 P.2d 840] (Cohen). There, a city ordinance required anyone who wanted to operate an escort service to obtain a permit by applying to the city, paying a fee, and providing certain identifying and background information. (Id. at pp. 284\u2014285.) A taxpayer challenged the ordinance on preemption grounds, arguing the ordinance \u201cimpermissibly seeks to regulate the criminal aspects of sexual conduct, an area of legislation preempted by state law through our Penal Code.\u201d (Id. at p. 290.) The Supreme Court rejected this challenge because it viewed the ordinance as merely a business regulation requiring escort services to obtain a permit before conducting business within the city, not an attempt to, regulate the criminal aspects of sexual activity. Because no state law provision regulated escort services or their licensing, the Cohen court found the ordinance was a valid exercise of the city\u2019s licensing power and was not preempted by state law. (Id. at pp. 295-296.)\nCohen is readily distinguishable. Irvine section 4-14-803 is not a licensing or permit regulation like the ordinance in Cohen; it is a sex offender regulation. The ordinance in Cohen applied to anyone who wanted to operate an escort service, but section 4-14-803 only applies to sex offenders. No one who wants to enter a city park and recreational facility is required to apply to the Irvine Police Chief for permission other than sex offenders. As explained above, section 4-14-803\u2019s declared intent is \u201cto provide additional restrictions beyond those provided for in state law by restricting sex offenders from certain limited locations.\u201d (Irvine Mun. Code, \u00a7 4-14-801.)\nMoreover, Cohen found the city\u2019s ordinance was not preempted because state law did not include a provision regulating escort services or requiring them to obtain a license or permit. Here, the Penal Code includes numerous provisions that require sex offenders to register with law enforcement in the city where they reside. Irvine section 4-14-803 effectively includes an additional registration requirement because it requires any sex offender who wants to visit a city park and recreational facility to apply to the Irvine Police Chief, provide identification and contact information, explain why he or she wants to enter a specific park, and provide information regarding the sex offense for which he or she was convicted. This requirement effectively requires sex offenders who want to enter a city park and recreational facility to register with a law enforcement agency in addition to the police department for the city in which they reside by providing much of the same information. Accordingly, we conclude the written permission requirement is a de facto or implicit registration requirement preempted by Penal Code registration requirements.\nFinally, the district attorney argues we need not invalidate Irvine section 4-14-803 in its entirety if we conclude state law preempts the written permission requirement in the ordinance. According to the district attorney, we may sever the written permission requirement and allow the remainder of section 4-14-803 to remain as an outright ban on all sex offenders entering a city park and recreational facility where children regularly gather. We decline to do so.\nWhen part of a local ordinance is preempted or otherwise invalid, local officials may enforce the remainder of the ordinance if the preempted or invalid part can be severed. (Hotel Employees & Restaurant Employees Internat. Union v. Davis (1999) 21 Cal.4th 585, 613 [88 Cal.Rptr.2d 56, 981 P.2d 990] (Hotel Employees).) A preempted or invalid part of an ordinance \u201ccan be severed if, and only if, it is \u2018grammatically, functionally and volitionally separable.\u2019 [Citation.]\u201d (Ibid.) If the ordinance \u201c \u2018is not severable, then the void part taints the remainder and the whole becomes a nullity.\u2019 \u201d (Santa Barbara Sch. Dist. v. Superior Court (1975) 13 Cal.3d 315, 330 [118 Cal.Rptr. 637, 530 P.2d 605]; see Connerly v. Schwarzenegger (2007) 146 Cal.App.4th 739, 747 [53 Cal.Rptr.3d 203].)\nThe invalid part \u201c \u2018is \u201cgrammatically\u201d separable if it is \u201cdistinct\u201d and \u201cseparate\u201d and, hence, \u201ccan be removed as a whole without affecting the wording of any\u201d of the measure\u2019s \u201cother provisions.\u201d [Citation.] . . .\u2019 [Citation.]\u201d (Jevne v. Superior Court (2005) 35 Cal.4th 935, 960-961 [28 Cal.Rptr.3d 685, 111 P.3d 954] (Jevne); Hotel Employees, supra, 21 Cal.4th at p. 613.) \u201cTo be grammatically separable, the valid and invalid parts of the statute can be separated by paragraph, sentence, clause, phrase, or even single words.\u201d (Abbott Laboratories v. Franchise Tax Bd. (2009) 175 Cal.App.4th 1346, 1358 [96 Cal.Rptr.3d 864] (Abbott Laboratories).) Here, Irvine section 4-14-803\u2019s preempted written permission requirement is grammatically separable because the clause \u201cwithout written permission from the Director of Public Safety/Chief of Police or his designee\u201d can be removed and section 4-14-803 would then be an outright ban that reads as follows: \u201cAny person who is required to register pursuant to California Penal Code section 290 et seq., where such registration is required by reason of an offense for which the person was convicted and in which a minor was the victim, and who enters upon or into any City park and recreational facility where children regularly gather ... is guilty of a misdemeanor.\u201d (\u00a7 4-14-803.)\n\u201cTo be functionally separable, the remainder after separation of the invalid part must be \u2018 \u201c \u2018complete in itself\u2019 \u201d \u2019 and \u2018capable of independent application.\u2019 [Citation.]\u201d (Abbott Laboratories, supra, 175 Cal.App.4th at p. 1358.) An invalid portion of an ordinance \u201c \u2018is \u201cfunctionally\u201d separable if it is not necessary to the measure\u2019s operation and purpose. [Citation.] . . .\u2019 [Citation.]\u201d (Jevne, supra, 35 Cal.4th at p. 961; see Hotel Employees, supra, 21 Cal.4th at p. 613.) Here, Irvine section 4-14-803 is complete in itself and capable of independent application after the written permission requirement is removed, but whether that requirement is necessary to section 4-14-803\u2019s operation and purpose is more problematic. As we explain below, nothing in section 4-14-803 suggests Irvine intended to adopt a complete ban on sex offenders entering a city park and recreational facility, but that is what section 4-14-803 would require if we sever the written permission requirement.\n\u201cTo be volitionally separable, \u2018[t]he final determination depends on whether \u201cthe remainder ... is complete in itself and would have been adopted by the legislative body had the latter foreseen the partial invalidation of the statute\u201d ... or \u201cconstitutes a completely operative expression of the legislative intent.\u201d \u2019 [Citation.]\u201d (Abbott Laboratories, supra, 175 Cal.App.4th at p. 1358.) An invalid portion of an ordinance \u201c \u2018is \u201cvolitionally\u201d separable if it was not of critical importance to the measure\u2019s enactment. [Citation.]\u2019 [Citation.]\u201d (Jevne, supra, 35 Cal.4th at p. 961; see Hotel Employees, supra, 21 Cal.4th at p. 613.)\nWe conclude Irvine section 4-14-803\u2019s written permission requirement is not volitionally separable because the district attorney fails to demonstrate, either by the ordinance\u2019s express terms or its history, Irvine intended a complete and outright ban against sex offenders entering a city park or recreational facility, no matter the circumstances. An invalid portion of an ordinance is volitionally separable if the remainder of the ordinance reflects a substantial portion of the legislative body\u2019s purpose in passing the ordinance. (Gerken v. Fair Political Practices Com. (1993) 6 Cal.4th 707, 715 [25 Cal.Rptr.2d 449, 863 P.2d 694].) Here, allowing the remainder of section 4-14-803 to stand as an outright ban on sex offenders entering a city park or recreational facility would go beyond Irvine\u2019s intent in passing section 4-14-803.\nAs adopted, Irvine section 4-14-803 allowed'sex offenders to obtain permission to enter a city park and recreational facility. For example, section 4-14-803 would allow an offender to apply for and potentially obtain permission to view sporting events or other activities of his or her child at a city park or recreational facility. Nothing in the ordinance adopting section 4-14-803 suggests Irvine intended to entirely prohibit all sex offenders from entering city parks and recreational facilities even under these innocent circumstances.\nTo the contrary, the ordinance adopting Irvine section 4-14-803 includes a purpose and intent section that reveals Irvine sought to restrict the use of city parks and recreational facilities by sex offenders, but not impose an outright ban: \u201cIt is the purpose and intent of this chapter to protect children from registered sex offenders by restricting sex offenders\u2019 access to locations where children regularly gather. It is intended to reduce the risk of harm to children by impacting the ability of sex offenders who were convicted of offenses in which a minor was the victim to be in contact with children. It is further the intent of this chapter to provide additional restrictions beyond those provided for in state law by restricting sex offenders from certain limited locations . . . .\u201d (Irvine Mun. Code, \u00a7 4-14-801, italics added.) To restrict is \u201cto confine or keep within limits, as of space, action, choice, intensity, or quantity.\u201d (Dictionary.com <http://dictionary.reference.com/ browse/restrict> [as of Jan. 10, 2014].) Restrict is not synonymous with either ban or prohibit.\nAccordingly, the express specific intent of the ordinance compels us to conclude Irvine did not intend to adopt an outright ban on sex offenders entering city parks and recreational facilities if the written permission requirement in Irvine section 4-14-803 was invalidated. \u201cThis court has no power to rewrite the [ordinance] to make it conform to a presumed intention which its terms do not express.\u201d (Abbott Laboratories, supra, 175 Cal.App.4th at p. 1360.)\nm\nDisposition\nThe judgment is affirmed.\nFybel, J., and Thompson, J., concurred.\nAll statutory references are to the Penal Code unless otherwise stated.\nOf the 11 categories of sex offender regulations identified in the previous paragraph, six categories existed before the Legislature enacted the 2006 act (\u00a7\u00a7 290, 290.02, 290.4, 290.45, 290.46, 290.95, subds. (a)-(c), 653b); the 2006 act amended or added the regulations in five categories (Stats. 2006, ch. 337, \u00a7\u00a7 10, 11, 19.5, 25, 27, 28, pp. 2591, 2617, 2631, 2632, 2633 [adding or amending \u00a7\u00a7 290, 290.46, 626.81, 653b, 653c]); a 2006 voter initiative added the regulations in two categories (Prop. 83, \u00a7\u00a7 18, 21, 22, as approved by voters, Gen. Elec. (Nov. 7, 2006), eff. Nov. 8, 2006 [adding \u00a7\u00a7 3000.07, 3003.5, subd. (b), 3004, subd. (b)]); and one category of regulations was added after the Legislature enacted the 2006 act (\u00a7 3053.8, subd. (a)).\nWe base our conclusion on the legal standards governing state law preemption of local ordinances. We do not, and indeed may not, consider whether it is more prudent from a policy perspective to allow local government to supplement state legislation regulating sex offenders. (California Ins. Guarantee Assn. v. Workers\u2019 Comp. Appeals Bd. (2005) 128 Cal.App.4th 307, 316 [26 Cal.Rptr.3d 845] [\u201c \u2018Crafting statutes to conform with policy considerations is a job for the Legislature, not the courts; our role is to interpret statutes, not to write them.\u2019 \u201d]; Cadiz v. Agricultural Labor Relations Bd. (1979) 92 Cal.App.3d 365, 372 [155 Cal.Rptr. 213] [\u201cThe court should not, of course, be concerned with considerations of legislative policy or wisdom. \u2018Courts do not sit as super-legislatures to determine the wisdom, desirability or propriety of statutes enacted by the Legislature.\u2019 \u201d].)\nContrary to the district attorney\u2019s assertion, more than just two statutes place geographical restrictions on sex offenders. (\u00a7\u00a7 626.81 [sex offenders entering schools], 653b [sex offenders loitering at schools or public places after being asked to leave], 653c [sex offenders entering daycare or residential facilities for elders and dependent adults], 3053.8 [sex offenders on parole entering parks].)\nWe note one of the foregoing Penal Code sections expressly authorizes local regulation. Specifically, section 3003.5, subdivision (c) states, \u201cNothing in this section shall prohibit municipal jurisdictions from enacting local ordinances that further restrict the residency of any person for whom registration is required pursuant to Section 290.\u201d The district attorney, however, does not argue this language establishes a legislative intent to allow local regulation on any topic other than a sex offender\u2019s residency, nor does the district attorney argue this language prevents a finding state law impliedly preempts Irvine section 4-14-803. Instead, the district attorney acknowledges this subdivision was adopted by the voters through the initiative process, and therefore reflects the voters\u2019 intent, not the Legislature\u2019s intent. (Prop. 83, \u00a7 21, as approved by voters, Gen. Elec. (Nov. 7, 2006), eff. Nov. 8, 2006.) Accordingly, we view this subdivision as a voter-created exception to the comprehensive statutory scheme regulating a sex offender\u2019s daily life that in no way undermines the Legislature\u2019s intent to fully occupy the field. If anything, the initiative implicitly recognizes the statutory scheme preempts local regulation unless the voters carve out an exception.\nSince 2010, the following 15 Orange County cities plus the County of Orange (Orange County Code, \u00a7 3-18-3) have adopted ordinances similar to Irvine section 4-14-803 and still maintain these ordinances: Anaheim (Anaheim Mun. Code, \u00a7 7.60.020); Costa Mesa (Costa Mesa Mun. Code, \u00a7 11-203); Fullerton (Fullerton Mun. Code, \u00a7 7.150.050); Huntington Beach (Huntington Beach Mun. Code, \u00a7 9.22.030); La Habra (La Habra Mun. Code, \u00a7 9.66.030); Laguna Hills (Laguna Hills Mun. Code, \u00a7 6-40.030); Los Alamitos (Los Alamitos Mun. Code, \u00a7 9.14.030); Mission Viejo (Mission Viejo Mun. Code, \u00a7 11.23.030); Orange (Orange Mun. Code, \u00a7 9.10.030); Rancho Santa Margarita (Rancho Santa Margarita Mun. Code, \u00a7 6.13.030); Santa Ana (Santa Ana Mun. Code, \u00a7 10-702); Seal Beach (Seal Beach Mun. Code, \u00a7 7.70.020); Tustin (Tustin Mun. Code, \u00a7 5953); Westminster (Westminster Mun. Code, \u00a7 9.71.030); and Yorba Linda (Yorba Linda Mun. Code, \u00a7 9.28.030).\nThe complete absence of any provisions regarding how a registered sex offender may obtain permission to enter a city park and recreational facility or what standards the Irvine Police Chief must apply in deciding whether to grant permission raise questions about the validity of the ordinance. We need not delve into this issue, however, because the parties did not raise the matter.",
+        "type": "majority",
+        "author": "ARONSON, Acting P. J."
+      },
+      {
+        "text": "FYBEL, J., Concurring.\nI agree with the majority that a local ordinance regulating the conduct of Penal Code section 290 registrants is preempted by California state law on the same subject. I write separately to emphasize that legislative declarations and findings expressly creating a \u201cstandardized', statewide system\u201d (Pen. Code, \u00a7 290.03, subd. (b), italics added) and a \u201ccomprehensive system of risk assessment, supervision, monitoring and containment for registered sex offenders residing in California communities\u201d (id., \u00a7 290.03, subd. (a)) compel the conclusion these state statutes preempt the ordinance.\nPenal Code section 290.03, subdivision (b), enacted by the state Legislature and signed by the Governor, contains this express finding and declaration: \u201cIn enacting the Sex Offender Punishment, Control, and Containment Act of 2006, the Legislature hereby creates a standardized, statewide system to identify, assess, monitor and contain known sex offenders for the purpose of reducing the risk of recidivism posed by these offenders, thereby protecting victims and potential victims from future harm.\u201d (Italics added.) Section 290.03, subdivision (a) provides that \u201c[t]he Legislature finds and declares that a comprehensive system of risk assessment, supervision, monitoring and containment for registered sex offenders residing in California communities is necessary to enhance public safety and reduce the risk of recidivism posed by these offenders.\u201d (Italics added.)\nIn view of these express legislative declarations and findings\u2014and the content of the statutes discussed in the majority opinion\u2014the requirements for preemption established by the California Constitution and the California Supreme Court have been satisfied. The key legal authorities on state preemption begin with article XI, section 7 of the California Constitution: \u201cA county or city may make and enforce within its limits all local, police, sanitary, and other ordinances and regulations not in conflict with general laws.\u201d\nWhat does \u201cin conflict with general laws\u201d mean? On this subject, the California Supreme Court has summarized the applicable principles: \u201c \u2018Under article XI, section 7 of the California Constitution, \u201c[a] county or city may make and enforce within its limits all local, police, sanitary, and other ordinances and regulations not in conflict with general [state] laws.\u201d [1] \u201cIf otherwise valid local legislation conflicts with state law, it is preempted by such law and is void.\u201d [Citations.] [f] \u201cA conflict exists if the local legislation \u2018 \u201cduplicates, contradicts, or enters an area fully occupied by general law, either expressly or by legislative implication.\u201d \u2019 \u201d [Citations.]\u2019 [Citations.]\u201d (O\u2019Connell v. City of Stockton (2007) 41 Cal.4th 1061, 1067 [63 Cal.Rptr.3d 67, 162 P.3d 583].)\nJeanPierre Cuong Nguyen argues the state law impliedly preempts the ordinance by fully occupying the field. The Supreme Court in O\u2019Connell v. City of Stockton, supra, 41 Cal.4th at page 1068, observed, \u201c 1 \u201c[w]here the Legislature has adopted statutes governing a particular subject matter, its intent with regard to occupying the field to the exclusion of all local regulation is not to be measured alone by the language used but by the whole purpose and scope of the legislative scheme.\u201d \u2019 [Citation.]\u201d In adopting Penal Code section 290.03, the Legislature expressed its intent to occupy the field of regulating registered sex offenders on a standardized, statewide basis.\nI also write to emphasize that whether the ordinance is wise, reasonable, or necessary is not an issue before us. The only issue before us is whether the state statute preempts the ordinance. Based on this analysis and the words of Penal Code section 290.03, it is clear to me the state intended to fully occupy the field of regulating registered sex offenders. The ordinance is therefore unconstitutional under article XI, section 7 of the California Constitution. If the Legislature wishes to do so, it can amend section 290.03 to permit local ordinances.\nAppellant\u2019s petition for review by the Supreme Court was denied April 23, 2014, S216533.",
+        "type": "concurrence",
+        "author": "FYBEL, J., Concurring."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Tony Rackauckas, District Attorney, and Brian F. Fitzpatrick, Deputy District Attorney, for Plaintiff and Appellant.",
+      "Frank Ospino, Public Defender, Mark S. Brown, Assistant Public Defender, and Scott Van Camp, Deputy Public Defender, for Defendant and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. G048228.\nFourth Dist., Div. Three.\nJan. 10, 2014.]\nTHE PEOPLE, Plaintiff and Appellant, v. JEANPIERRE CUONG NGUYEN, Defendant and Respondent.\nCounsel\nTony Rackauckas, District Attorney, and Brian F. Fitzpatrick, Deputy District Attorney, for Plaintiff and Appellant.\nFrank Ospino, Public Defender, Mark S. Brown, Assistant Public Defender, and Scott Van Camp, Deputy Public Defender, for Defendant and Respondent."
+  },
+  "file_name": "1168-01",
+  "first_page_order": 950,
+  "last_page_order": 977
+}

@@ -12,9 +12,9 @@ import { SpanStatusCode, trace, SpanKind } from '@opentelemetry/api';
 
 // Tracing configuration
 const TRACING_CONFIG = {
-  serviceName: process.env.OTEL_SERVICE_NAME || 'cendia-backend',
-  tempoUrl: process.env.TEMPO_URL || 'http://localhost:4318/v1/traces',
-  enabled: process.env.TRACING_ENABLED !== 'false',
+  serviceName: process.env['OTEL_SERVICE_NAME'] || 'cendia-backend',
+  tempoUrl: process.env['TEMPO_URL'] || 'http://localhost:4318/v1/traces',
+  enabled: process.env['TRACING_ENABLED'] !== 'false',
 };
 
 let sdk: NodeSDK | null = null;

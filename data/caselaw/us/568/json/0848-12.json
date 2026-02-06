@@ -1,0 +1,59 @@
+{
+  "id": 12413286,
+  "name": "Kendrick v. McLaren et al.",
+  "name_abbreviation": "Kendrick v. McLaren",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10553",
+  "first_page": "848",
+  "last_page": "848",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 848"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 75,
+    "ocr_confidence": 0.676,
+    "sha256": "f133794d23a66836a7cb0bfc69c35795118afd063402fd766a3bdb824ffe7aa9",
+    "simhash": "1:204a80a84b4e9220",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Kendrick v. McLaren et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10553.\nKendrick v. McLaren et al."
+  },
+  "file_name": "0848-12",
+  "first_page_order": 924,
+  "last_page_order": 924
+}

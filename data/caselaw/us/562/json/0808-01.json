@@ -1,0 +1,90 @@
+{
+  "id": 5989558,
+  "name": "In re Disbarment of Mitrano",
+  "name_abbreviation": "In re Disbarment of Mitrano",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. D-2468",
+  "first_page": "808",
+  "last_page": "808",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 808"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "559 U. S. 1002",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12447686,
+        12447687,
+        12447688,
+        12447689,
+        12447690,
+        12448076,
+        12448077,
+        12448078,
+        12447692,
+        12447693
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/176/0358-03",
+        "/l-ed-2d/176/0358-04",
+        "/l-ed-2d/176/0358-05",
+        "/l-ed-2d/176/0358-06",
+        "/l-ed-2d/176/0359-01",
+        "/l-ed-2d/176/0411-02",
+        "/l-ed-2d/176/0411-03",
+        "/l-ed-2d/176/0411-04",
+        "/l-ed-2d/176/0359-03",
+        "/l-ed-2d/176/0359-04"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 109,
+    "ocr_confidence": 0.632,
+    "sha256": "411dd63c126cc70e49906d5290ca9c51fb903acbd4b498fcd88811bded4a04c9",
+    "simhash": "1:9eb9d1ebcb5efadc",
+    "word_count": 18
+  },
+  "last_updated": "2024-02-27T22:51:28.129297+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Mitrano."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered. [For earlier order herein, see 559 U. S. 1002.]",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2468.\nIn re Disbarment of Mitrano."
+  },
+  "file_name": "0808-01",
+  "first_page_order": 830,
+  "last_page_order": 830
+}

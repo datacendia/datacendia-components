@@ -1,0 +1,197 @@
+{
+  "id": 12432413,
+  "name": "Calhoun v. United States",
+  "name_abbreviation": "Calhoun v. United States",
+  "decision_date": "2013-02-25",
+  "docket_number": "No. 12-6142",
+  "first_page": "1206",
+  "last_page": "1209",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1206"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "478 Fed. Appx. 193",
+      "category": "reporters:federal",
+      "reporter": "Fed. Appx.",
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "196",
+          "parenthetical": "concurring opinion"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "100 S. W. 393",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "year": 1907,
+      "opinion_index": 0
+    },
+    {
+      "cite": "50 Tex. Crim. 560",
+      "category": "reporters:state",
+      "reporter": "Tex. Crim.",
+      "case_ids": [
+        2369970
+      ],
+      "year": 1907,
+      "pin_cites": [
+        {
+          "page": "561"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex-crim/50/0560-01"
+      ]
+    },
+    {
+      "cite": "247 Ala. 53",
+      "category": "reporters:state",
+      "reporter": "Ala.",
+      "case_ids": [
+        5227814
+      ],
+      "weight": 2,
+      "year": 1945,
+      "pin_cites": [
+        {
+          "page": "520"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ala/247/0053-01"
+      ]
+    },
+    {
+      "cite": "155 F. 2d 631",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1139072
+      ],
+      "year": 1946,
+      "pin_cites": [
+        {
+          "page": "659",
+          "parenthetical": "dissenting opinion"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/155/0631-01"
+      ]
+    },
+    {
+      "cite": "481 U. S. 279",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6214785
+      ],
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "309, n. 30"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/481/0279-01"
+      ]
+    },
+    {
+      "cite": "507 U. S. 725",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6237509
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "734"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/507/0725-01"
+      ]
+    },
+    {
+      "cite": "556 U. S. 129",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3653331
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "135",
+          "parenthetical": "quoting United States v. Olano, 507 U. S. 725, 734 (1993)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/556/0129-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 573,
+    "char_count": 7678,
+    "ocr_confidence": 0.602,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25627942015152233
+    },
+    "sha256": "7a1e9a456cdaec94e5e13b57c92efeb8ac64c7f9d4f48b7dd5c9958a347d0b0d",
+    "simhash": "1:89a0f2442793a6f1",
+    "word_count": 1272
+  },
+  "last_updated": "2024-02-27T23:44:49.194693+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Statement of Justice Sotomayor, with whom Justice Breyer joins, respecting the denial of the petition for writ of certiorari."
+    ],
+    "parties": [
+      "Calhoun v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.\nStatement of Justice Sotomayor, with whom Justice Breyer joins, respecting the denial of the petition for writ of certiorari.\nI write to dispel any doubt whether the Court\u2019s denial of certio-rari should be understood to signal our tolerance of a federal prosecutor\u2019s racially charged remark. It should not.\nPetitioner Bongani Charles Calhoun stood trial in a federal court in Texas for participating in a drug conspiracy. The primary issue was whether Calhoun knew that the friend he had accompanied on a road trip, along with the friend\u2019s associates, were about to engage in a drug transaction, or whether instead Calhoun was merely present during the group\u2019s drive home, when the others attempted to purchase cocaine from undercover Drug Enforcement Administration (DEA) agents. Two alleged co-conspirators who had pleaded guilty testified to Calhoun\u2019s knowledge. Law enforcement officers also testified that they discussed the drugs with Calhoun immediately before they broke cover to arrest the group, and that Calhoun had a gun when he was arrested. In his defense, Calhoun testified that he was not part of and had no knowledge of his friend\u2019s plan to purchase drugs, that he did not understand the DEA agents when they spoke to him in Spanish only, and that he always carried a concealed firearm, as he was licensed to do. It was up to the jurors to decide whom they believed.\nThe issue of Calhoun\u2019s intent came to a head when the prosecutor cross-examined him. Calhoun related that the night before the arrest, he had detached himself from the group when his friend arrived at their hotel room with a bag of money. He stated that he \u201cdidn\u2019t know\u201d what was happening, and that it \u201cmade me think . . . [t]hat I didn\u2019t want to be there.\u201d Tr. 125-126 (Mar. 8, 2011). (Calhoun had previously testified that he rejoined the group the next morning because he thought they were finally returning home. Id., at 109.) The prosecutor pressed Calhoun repeatedly to explain why he did not want to be in the hotel room. Eventually, the District Judge told the prosecutor to move on. ' That is when the prosecutor asked, \u201cYou\u2019ve got African-Americans, you\u2019ve got Hispamos, you\u2019ve got a bag full of money. Does that tell you\u2014a light bulb doesn\u2019t go off in your head and say, This is a drug deal?\u201d Id., at 127.\nCalhoun, who is African-American, claims that the prosecutor\u2019s racially charged question violated his .constitutional rights. Inexplicably, however, Calhoun\u2019s counsel did not object to the question at trial. So Calhoun\u2019s challenge comes to us on plain-error review, under which he would ordinarily have to \u201cdemonstrate that [the error] \u2018affected the outcome of the district court proceedings.\u2019 \u201d Puckett v. United States, 556 U. S. 129, 135 (2009) (quoting United States v. Olano, 507 U. S. 725, 734 (1993)). Yet in his petition for writ of certiorari, Calhoun does not attempt to make that showing. Instead, Calhoun contends that the comment should lead to automatic reversal because it constitutes either structural error or plain error regardless of whether it prejudiced the outcome. Those arguments, however, were forfeited when Calhoun failed to press them on appeal to the Fifth Circuit. Given this posture, and the unusual way in which this case has been litigated, I do not disagree with the Court\u2019s decision to deny the petition.\nThere is no doubt, however, that the prosecutor\u2019s question never should have been posed. \u201cThe Constitution prohibits racially biased prosecutorial arguments.\u201d McCleskey v. Kemp, 481 U. S. 279, 309, n. 30 (1987). Such argumentation is an affront to the Constitution\u2019s guarantee of equal protection of the laws. And by threatening to cultivate bias in the jury, it equally offends the defendant\u2019s right to an impartial jury. Judge Frank put the point well: \u201cIf government counsel in a criminal suit is allowed to inflame the jurors by irrelevantly arousing their deepest prejudices, the jury may become in his hands a lethal weapon directed against defendants who may be innocent. He should not be permitted to summon that thirteenth juror, prejudice.\u201d United States v. Antonelli Fireworks Co., 155 F. 2d 631, 659 (CA2 1946) (dissenting opinion) (footnote omitted). Thus it is a settled professional standard that a \u201cprosecutor should not make arguments calculated to appeal to the prejudices of the jury.\u201d ABA Standards for Criminal Justice, Prosecution Function and Defense Function, Standard 3-5.8(c), p. 106 (3d ed. 1993).\nBy suggesting that race should play a role in establishing a defendant\u2019s criminal intent, the prosecutor here tapped a deep and sorry vein of racial prejudice that has run through the history of criminal justice in our Nation. There was a time when appeals to race were not uncommon, when a prosecutor might direct a jury to \u201c \u2018consider the fact that Mary Sue Rowe is a young white woman and that this defendant is a black man for the purpose and only for the purpose of determining his intent at the time he entered Mrs. Rowe\u2019s home,\u2019\u201d Holland v. State, 247 Ala. 53, 22 So. 2d 519, 520 (1945), or assure a jury that \u201c T am well enough acquainted with this class of niggers to know that they have got it in for the [white] race in their heart,\u2019\u201d Taylor v. State, 50 Tex. Crim. 560, 561, 100 S. W. 393 (1907). The prosecutor\u2019s comment here was surely less extreme. But it too was pernicious in its attempt to substitute racial stereotype for evidence, and racial prejudice for reason.\nIt is deeply disappointing to see a representative of the United States resort to this base tactic more than a decade into the 21st century. Such conduct diminishes the dignity of our criminal justice system and undermines respect for the rule of law. We expect the Government to seek justice, not to fan the \u00f1ames of fear and prejudice. In discharging the duties of his office in this case, the Assistant United States Attorney for the Western District of Texas missed the mark.\nAlso troubling are the Government\u2019s actions on appeal. Before the Fifth Circuit, the Government failed to recognize the wrongfulness of the prosecutor\u2019s question, instead calling it only \u201cimpolitic\u201d and arguing that \u201ceven assuming the question crossed the line,\u201d it did not prejudice the outcome. Brief for United States in No. 11-50605, pp. 19, 20. This prompted Judge Haynes to \u201cclear up any confusion\u2014the question crossed the line.\u201d 478 Fed. Appx. 193, 196 (CA5 2012) (concurring opinion). In this Court, the Solicitor General has more appropriately conceded that the \u201cprosecutor\u2019s racial remark was unquestionably improper.\u201d Brief in Opposition 7-8. Yet this belated acknowledgment came only after the Solicitor General waived the Government\u2019s response to the petition at first, leaving the Court to direct a response,\nI hope never to see a case like this again.\nThe prosecutor\u2019s comment was not an isolated one, but Calhoun similarly failed to challenge the reprise. During defense counsel\u2019s closing argument, counsel belatedly criticized the prosecutor\u2019s question. On rebuttal, the prosecutor responded: \u201cI got accused by [defense counsel] of, I guess, racially, ethnically profiling people when I asked the question of Mr. Calhoun, Okay, you got Airican-American[s] and Hispanics, do you think it\u2019s a drug deal? But there\u2019s one element that\u2019s missing. The money. So what are they doing in this room with a bag full of money? What does your common sense tell you that these people are doing in a hotel room with a bag full of money, cash? None of these people are Bill Gates or computer [magnates]? None of them are real estate investors.\u201d Tr. 167-168 (Mar. 8, 2011).",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6142.\nCalhoun v. United States."
+  },
+  "file_name": "1206-01",
+  "first_page_order": 1282,
+  "last_page_order": 1285
+}

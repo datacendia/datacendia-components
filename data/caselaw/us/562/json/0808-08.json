@@ -1,0 +1,59 @@
+{
+  "id": 6013474,
+  "name": "In re Discipline of Toner",
+  "name_abbreviation": "In re Discipline of Toner",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. D-2498",
+  "first_page": "808",
+  "last_page": "808",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 808"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 40,
+    "char_count": 285,
+    "ocr_confidence": 0.572,
+    "sha256": "2c768791bc164fb0baa60553e69d9c88c8972c07001da89d83bbfa43d6c04e0c",
+    "simhash": "1:748a79be37daa76e",
+    "word_count": 53
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of Toner."
+    ],
+    "opinions": [
+      {
+        "text": "Terrance N. Toner, of New Brunswick, N. J., is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2498.\nIn re Discipline of Toner."
+  },
+  "file_name": "0808-08",
+  "first_page_order": 830,
+  "last_page_order": 830
+}

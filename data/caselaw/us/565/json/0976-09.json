@@ -1,0 +1,59 @@
+{
+  "id": 12230142,
+  "name": "Mars v. United States",
+  "name_abbreviation": "Mars v. United States",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. 10-11143",
+  "first_page": "976",
+  "last_page": "976",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 976"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.71,
+    "sha256": "d9dbda3ab038a738148fa1209a0deb817d0dab25cd3838aa15cc5a8056617d43",
+    "simhash": "1:244a9b02dec11010",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mars v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-11143.\nMars v. United States."
+  },
+  "file_name": "0976-09",
+  "first_page_order": 1058,
+  "last_page_order": 1058
+}

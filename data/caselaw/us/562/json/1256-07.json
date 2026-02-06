@@ -1,0 +1,59 @@
+{
+  "id": 5987548,
+  "name": "Evanson et al. v. Reedy",
+  "name_abbreviation": "Evanson v. Reedy",
+  "decision_date": "2011-02-28",
+  "docket_number": "No. 10-701",
+  "first_page": "1256",
+  "last_page": "1256",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1256"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 71,
+    "ocr_confidence": 0.553,
+    "sha256": "4f72d42fb327cf6ba43782fe1418e64db9ba2eb15103455802491685ab421f0a",
+    "simhash": "1:03741999fac49d3c",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Evanson et al. v. Reedy."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-701.\nEvanson et al. v. Reedy."
+  },
+  "file_name": "1256-07",
+  "first_page_order": 1278,
+  "last_page_order": 1278
+}

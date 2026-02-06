@@ -1,0 +1,59 @@
+{
+  "id": 12411188,
+  "name": "Micci v. Aleman",
+  "name_abbreviation": "Micci v. Aleman",
+  "decision_date": "2012-06-25",
+  "docket_number": "No. 11-1062",
+  "first_page": "935",
+  "last_page": "935",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 935"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 64,
+    "ocr_confidence": 0.589,
+    "sha256": "87fbe5c5fb36d94f46924ad7327cff7c2653260644d26e093088e83037137f1a",
+    "simhash": "1:28c601203145a220",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Micci v. Aleman."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1062.\nMicci v. Aleman."
+  },
+  "file_name": "0935-02",
+  "first_page_order": 839,
+  "last_page_order": 839
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12430541,
+  "name": "Greenwood v. Utah",
+  "name_abbreviation": "Greenwood v. Utah",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-721",
+  "first_page": "1160",
+  "last_page": "1160",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1160"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 9,
+    "char_count": 66,
+    "ocr_confidence": 0.634,
+    "sha256": "4ffc4bbaa8685ea78ae8a1e1388ca1ba5815f108cb30a4af56813660c6adc331",
+    "simhash": "1:8a120fb013f8141a",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Greenwood v. Utah."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Utah. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-721.\nGreenwood v. Utah."
+  },
+  "file_name": "1160-03",
+  "first_page_order": 1236,
+  "last_page_order": 1236
+}

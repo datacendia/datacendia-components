@@ -1,0 +1,59 @@
+{
+  "id": 12249915,
+  "name": "Dunbar v. United States",
+  "name_abbreviation": "Dunbar v. United States",
+  "decision_date": "2012-02-27",
+  "docket_number": "No. 11-8550",
+  "first_page": "1241",
+  "last_page": "1241",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1241"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.698,
+    "sha256": "42248b4b4a4b1d69cbf27a8662c17a2a38f470590c00e7a62c989e1fc5805746",
+    "simhash": "1:550bee504e919d2e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dunbar v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8550.\nDunbar v. United States."
+  },
+  "file_name": "1241-01",
+  "first_page_order": 1323,
+  "last_page_order": 1323
+}

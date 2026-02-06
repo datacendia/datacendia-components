@@ -106,7 +106,6 @@ services:
       context: ./backend
       dockerfile: Dockerfile
       target: production
-    container_name: datacendia-api
     restart: always
     environment:
       NODE_ENV: production
@@ -139,39 +138,18 @@ services:
       interval: 30s
       timeout: 10s
       retries: 3
-    deploy:
-      replicas: 2
-      resources:
-        limits:
-          memory: 1G
-        reservations:
-          memory: 512M
-      update_config:
-        parallelism: 1
-        delay: 10s
-      rollback_config:
-        parallelism: 1
-        delay: 10s
 
   # Frontend (Nginx serving static build)
   frontend:
     build:
       context: .
       dockerfile: Dockerfile.frontend.prod
-    container_name: datacendia-frontend
     restart: always
     networks:
       - datacendia-internal
       - datacendia-external
     depends_on:
       - api
-    deploy:
-      replicas: 2
-      resources:
-        limits:
-          memory: 256M
-        reservations:
-          memory: 64M
 
   # Nginx Reverse Proxy / Load Balancer
   nginx:

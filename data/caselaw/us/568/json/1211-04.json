@@ -1,0 +1,59 @@
+{
+  "id": 12432451,
+  "name": "United States v. Kebodeaux",
+  "name_abbreviation": "United States v. Kebodeaux",
+  "decision_date": "2013-03-04",
+  "docket_number": "No. 12-418",
+  "first_page": "1211",
+  "last_page": "1211",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1211"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 26,
+    "char_count": 174,
+    "ocr_confidence": 0.607,
+    "sha256": "b13bacf39c44cce8517c0a8c2dd26ecda27024e674ecb2bbb561f0cd230d0fa9",
+    "simhash": "1:088ec14f8af17423",
+    "word_count": 27
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "United States v. Kebodeaux."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. [Certiorari granted, ante, p. 1119.] Motion of the Solicitor General to dispense with printing joint appendix granted.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-418.\nUnited States v. Kebodeaux."
+  },
+  "file_name": "1211-04",
+  "first_page_order": 1287,
+  "last_page_order": 1287
+}

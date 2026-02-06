@@ -1,0 +1,59 @@
+{
+  "id": 12427799,
+  "name": "Stacy v. Rouse",
+  "name_abbreviation": "Stacy v. Rouse",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-209",
+  "first_page": "1085",
+  "last_page": "1085",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1085"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 62,
+    "ocr_confidence": 0.692,
+    "sha256": "a2bb6c66d3609a8fb6c83a94fc86dac726eeb2f1abdcea728d5a88917ca3d0e4",
+    "simhash": "1:da0a200e4e188824",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Stacy v. Rouse."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-209.\nStacy v. Rouse."
+  },
+  "file_name": "1085-07",
+  "first_page_order": 1161,
+  "last_page_order": 1161
+}

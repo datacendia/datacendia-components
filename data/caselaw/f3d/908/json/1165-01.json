@@ -1,0 +1,736 @@
+{
+  "id": 12519115,
+  "name": "Gilbert P. HYATT; American Association for Equitable Treatment, Inc., Plaintiffs-Appellants, v. OFFICE OF MANAGEMENT AND BUDGET; Shaun Donovan, Defendants-Appellees.",
+  "name_abbreviation": "Hyatt v. Office of Mgmt. & Budget",
+  "decision_date": "2018-11-15",
+  "docket_number": "No. 17-17101",
+  "first_page": "1165",
+  "last_page": "1175",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "908 F.3d 1165"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "9th Cir.",
+    "id": 18869,
+    "name": "United States Court of Appeals for the Ninth"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "689 F.3d 1047",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3500825
+      ],
+      "pin_cites": [
+        {
+          "page": "1056"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/689/1047-01"
+      ]
+    },
+    {
+      "cite": "5 U.S.C. \u00a7 553",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)",
+          "parenthetical": "exempting certain rules from the standard notice and comment rulemaking process"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "192 F.3d 826",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11571816
+      ],
+      "pin_cites": [
+        {
+          "page": "844"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/192/0826-01"
+      ]
+    },
+    {
+      "cite": "37 C.F.R. \u00a7\u00a7 1.111",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 U.S.C. \u00a7 3502",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(3)(A)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "310 U.S. 371",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6139060
+      ],
+      "weight": 3,
+      "year": 1940,
+      "pin_cites": [
+        {
+          "page": "380"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/310/0371-01"
+      ]
+    },
+    {
+      "cite": "523 U.S. 26",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11503127
+      ],
+      "weight": 3,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "35",
+          "parenthetical": "\"[T]he mandatory 'shall' ... normally creates an obligation impervious to judicial discretion.\""
+        },
+        {
+          "parenthetical": "\"[T]he mandatory 'shall' ... normally creates an obligation impervious to judicial discretion.\""
+        },
+        {
+          "parenthetical": "\"[T]he mandatory 'shall' ... normally creates an obligation impervious to judicial discretion.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/523/0026-01"
+      ]
+    },
+    {
+      "cite": "470 U.S. 821",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11300314
+      ],
+      "weight": 3,
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "830"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/470/0821-01"
+      ]
+    },
+    {
+      "cite": "790 F.3d 977",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4274326
+      ],
+      "pin_cites": [
+        {
+          "page": "989"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/790/0977-01"
+      ]
+    },
+    {
+      "cite": "566 U.S. 120",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12188449
+      ],
+      "weight": 3,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "127"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/566/0120-01"
+      ]
+    },
+    {
+      "cite": "136 S.Ct. 1807",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12597316
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1815",
+          "parenthetical": "quoting Abbott Labs. , 387 U.S. at 153, 87 S.Ct. 1507 "
+        },
+        {
+          "parenthetical": "quoting Abbott Labs. , 387 U.S. at 153, 87 S.Ct. 1507 "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/136/1807-01"
+      ]
+    },
+    {
+      "cite": "44 U.S.C. \u00a7 3512",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(b)"
+        },
+        {
+          "page": "(a)",
+          "parenthetical": "\"[N]o person shall be subject to any penalty for failing to comply with a collection of information that is subject to this subchapter....\" (emphasis added) "
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "127 S.Ct. 2011",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        2934793
+      ],
+      "year": 2007,
+      "opinion_index": 0,
+      "case_paths": [
+        "/fed-cl/76/2011-01"
+      ]
+    },
+    {
+      "cite": "550 U.S. 501",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3556059
+      ],
+      "weight": 2,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "506"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/550/0501-01"
+      ]
+    },
+    {
+      "cite": "520 U.S. 154",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11651295
+      ],
+      "weight": 6,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "177-78",
+          "parenthetical": "internal citations omitted"
+        },
+        {
+          "parenthetical": "internal citations omitted"
+        },
+        {
+          "parenthetical": "internal citations omitted"
+        },
+        {
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/520/0154-01"
+      ]
+    },
+    {
+      "cite": "923 F.2d 754",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10544914
+      ],
+      "pin_cites": [
+        {
+          "page": "756-57"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/923/0754-01"
+      ]
+    },
+    {
+      "cite": "402 F.3d 881",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9180314
+      ],
+      "pin_cites": [
+        {
+          "page": "885"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/402/0881-01"
+      ]
+    },
+    {
+      "cite": "494 U.S. 26",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5252
+      ],
+      "weight": 3,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "parenthetical": "reviewing the OMB's disapproval of three provisions in regulations established by the Department of Labor"
+        },
+        {
+          "parenthetical": "reviewing the OMB's disapproval of three provisions in regulations established by the Department of Labor"
+        },
+        {
+          "parenthetical": "reviewing the OMB's disapproval of three provisions in regulations established by the Department of Labor"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/494/0026-01"
+      ]
+    },
+    {
+      "cite": "5 C.F.R. \u00a7 1320.11",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(i)"
+        },
+        {
+          "page": "(i)"
+        },
+        {
+          "page": "(i)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "397 U.S. 150",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12050959
+      ],
+      "weight": 3,
+      "year": 1970,
+      "pin_cites": [
+        {
+          "page": "157"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/397/0150-01"
+      ]
+    },
+    {
+      "cite": "387 U.S. 136",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11335008
+      ],
+      "weight": 6,
+      "year": 1967,
+      "pin_cites": [
+        {
+          "page": "140-41"
+        },
+        {
+          "page": "153"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/387/0136-01"
+      ]
+    },
+    {
+      "cite": "153 F.3d 1000",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11708795
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "1003"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/153/1000-01"
+      ]
+    },
+    {
+      "cite": "648 F.3d 708",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3740196
+      ],
+      "pin_cites": [
+        {
+          "page": "718"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/648/0708-01"
+      ]
+    },
+    {
+      "cite": "798 F.3d 1159",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4333452
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "1165"
+        },
+        {
+          "page": "1165"
+        },
+        {
+          "page": "1165-66",
+          "parenthetical": "discussing Hinck "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/798/1159-01"
+      ]
+    },
+    {
+      "cite": "5 U.S.C. \u00a7 701",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "(a)(1)"
+        },
+        {
+          "page": "(a)(2)"
+        },
+        {
+          "page": "(a)(1)",
+          "parenthetical": "prohibiting an APA claim where \"statutes preclude judicial review\""
+        },
+        {
+          "page": "(a)(2)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "5 U.S.C. \u00a7 702",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "467 U.S. 340",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6199614
+      ],
+      "weight": 6,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "345",
+          "parenthetical": "quoting 5 U.S.C. \u00a7 702 "
+        },
+        {
+          "parenthetical": "quoting 5 U.S.C. \u00a7 702 "
+        },
+        {
+          "parenthetical": "quoting 5 U.S.C. \u00a7 702 "
+        },
+        {
+          "page": "351"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/467/0340-01"
+      ]
+    },
+    {
+      "cite": "858 F.2d 1347",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10535960
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/858/1347-01"
+      ]
+    },
+    {
+      "cite": "807 F.2d 759",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1649872
+      ],
+      "pin_cites": [
+        {
+          "page": "765"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/807/0759-01"
+      ]
+    },
+    {
+      "cite": "8 F.3d 713",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10512481
+      ],
+      "pin_cites": [
+        {
+          "page": "716"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/8/0713-01"
+      ]
+    },
+    {
+      "cite": "504 F.3d 1151",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        2948648
+      ],
+      "pin_cites": [
+        {
+          "page": "1156"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/504/1151-01"
+      ]
+    },
+    {
+      "cite": "5 C.F.R. \u00a7 1320.3",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(h)(1)"
+        },
+        {
+          "page": "(c)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "5 U.S.C. \u00a7 704",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 4,
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 U.S.C. \u00a7 3507",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 20,
+      "pin_cites": [
+        {
+          "page": "(d)(6)"
+        },
+        {
+          "page": "(a)(3)"
+        },
+        {
+          "page": "(d)(6)"
+        },
+        {
+          "page": "(d)(6)"
+        },
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(c)"
+        },
+        {
+          "page": "(d)(6)"
+        },
+        {
+          "page": "(c)"
+        },
+        {
+          "page": "(d)(6)"
+        },
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)(3)"
+        },
+        {
+          "page": "(a)",
+          "parenthetical": "outlining steps an agency must take before it may conduct a collection of information"
+        },
+        {
+          "page": "(a)(3)"
+        },
+        {
+          "page": "(d)(1)"
+        },
+        {
+          "page": "(d)(6)",
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 U.S.C. \u00a7 3517",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 9,
+      "pin_cites": [
+        {
+          "page": "(b)"
+        },
+        {
+          "page": "(b)"
+        },
+        {
+          "page": "(b)"
+        },
+        {
+          "page": "(b)(1)",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "(b)"
+        },
+        {
+          "page": "(b)(1)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 955,
+    "char_count": 23008,
+    "pagerank": {
+      "raw": 4.3397010944706994e-08,
+      "percentile": 0.2730203575575256
+    },
+    "sha256": "54d7987e39e89a5f77ee836752e0c70fb7afa38115f0caaabf1b7e0cbae9c363",
+    "simhash": "1:e7e95c514fa9653f",
+    "word_count": 3712
+  },
+  "last_updated": "2024-02-27T16:20:33.568669+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gilbert P. HYATT; American Association for Equitable Treatment, Inc., Plaintiffs-Appellants,\nv.\nOFFICE OF MANAGEMENT AND BUDGET; Shaun Donovan, Defendants-Appellees."
+    ],
+    "opinions": [
+      {
+        "text": "N.R. Smith, Circuit Judge:\nThe Paperwork Reduction Act (\"PRA\") authorizes individuals to petition the Office of Management and Budget (\"OMB\") for a determination of whether they must provide information requested by or for a government agency. 44 U.S.C. \u00a7 3517(b). Where such a petition does not challenge an OMB decision \"to approve or not act upon a collection of information contained in an agency rule,\" see 44 U.S.C. \u00a7 3507(d)(6), the subsequent determination is subject to judicial review under the Administrative Procedure Act (\"APA\"). See 5 U.S.C. \u00a7 704. Thus, the district court has jurisdiction to review the OMB's decision to deny Gilbert Hyatt's PRA petition (\"Petition\"). We reverse and remand.\nI. BACKGROUND\nIn January 2013, the Patent and Trademark Office (\"PTO\") submitted a number of collections of information to the OMB, as required by the PRA. See 44 U.S.C. \u00a7 3507. The PTO's submission included several previously approved collections of information, which had already been issued an OMB control number pursuant to \u00a7 3507(d). The OMB renewed these collections and their corresponding OMB control number (0651-0031).\nThe submission also included purported collections of information, contained in PTO rules 111, 115, and 116 (\"PTO Rules\"), that had not previously been approved or assigned an OMB control number. The OMB did not approve or disapprove these purported collections of information. Instead, on July 31, 2013, the OMB affirmatively declared that these purported collections were \"not subject to the [PRA]\" (\"July 2013 Determination\"). As a result, the OMB did not issue a control number for the purported collections.\nOn August 1, 2013, Hyatt filed his Petition, pursuant to 44 U.S.C. \u00a7 3517(b), asking the OMB to determine that he did not need to disclose the information sought by the PTO Rules, because the PTO had not obtained an OMB control number, as required by 44 U.S.C. \u00a7 3507(a)(3). The OMB denied the Petition on September 13, 2013. The agency referenced its July 2013 Determination, explaining that the PTO Rules did not contain any collections of information, because three regulatory exceptions to the definition of \"information\" applied. See 5 C.F.R. \u00a7 1320.3(h)(1), (6), (9). Consequently, the agency concluded that the PTO Rules were not subject to the PRA.\nHyatt filed a complaint with the district court on August 16, 2016, asserting two claims under the APA. He challenged both the OMB's July 2013 Determination and the OMB's denial of his Petition, which itself was based on the July 2013 Determination. On November 11, 2016, the OMB moved to dismiss the case on the grounds that the district court lacked subject matter jurisdiction to review the OMB's actions under the APA.\nThe district court granted the motion to dismiss. It determined that it lacked subject matter jurisdiction to hear Hyatt's asserted APA claims on three independent grounds. First, 44 U.S.C. \u00a7 3507(d)(6) precluded judicial review. Second, the challenged administrative actions did not constitute final agency actions. Third, the OMB's decision (not to provide any remedial action in response to Hyatt's Petition) was discretionary. Hyatt timely appealed.\nII. STANDARD OF REVIEW\nWe review de novo \"dismissals under Rules 12(b)(1) and 12(b)(6).\" Rhoades v. Avon Prod., Inc. , 504 F.3d 1151, 1156 (9th Cir.2007). \"In the context of reviewing a decision of an administrative agency, de novo review means that we 'view the case from the same position as the district court.' \" Nev. Land Action Ass'n v. U.S. Forest Serv. , 8 F.3d 713, 716 (9th Cir.1993) (quoting Marathon Oil Co. v. United States , 807 F.2d 759, 765 (9th Cir.1986) ).\nWe give no deference to the OMB's interpretation of the PRA in this case, because \"the question of judicial review\" is \"a matter within the peculiar expertise of the courts.\" Love v. Thomas , 858 F.2d 1347, 1352 n.9 (9th Cir.1988).\nIII. DISCUSSION\n\"The APA confers a general cause of action upon persons 'adversely affected or aggrieved by agency action within the meaning of a relevant statute.' \" Block v. Cmty. Nutrition Inst. , 467 U.S. 340, 345, 104 S.Ct. 2450, 81 L.Ed.2d 270 (1984) (quoting 5 U.S.C. \u00a7 702 ). However, no cause of action under the APA exists if (1) \"statutes preclude judicial review,\" 5 U.S.C. \u00a7 701(a)(1) ; (2) the relevant agency action is not a \"final agency action for which there is no other adequate remedy in a court,\" 5 U.S.C. \u00a7 704 ; or (3) the \"agency action is committed to agency discretion by law,\" 5 U.S.C. \u00a7 701(a)(2). See City of Oakland v. Lynch , 798 F.3d 1159, 1165 (9th Cir.2015).\nA. Statutory Preclusion\nThe district court determined that Hyatt's APA claim was statutorily precluded by a provision of the PRA that declares \"[t]he decision by the [OMB] to approve or not act upon a collection of information contained in an agency rule shall not be subject to judicial review.\" 44 U.S.C. \u00a7 3507(d)(6) ; see also 5 U.S.C. \u00a7 701(a)(1) (prohibiting an APA claim where \"statutes preclude judicial review\"). Hyatt argues that judicial review of the denial of his Petition is not statutorily precluded, because the Petition did not involve a decision subject to the PRA's prohibition. We agree.\nThere is a \"strong presumption that Congress intends judicial review of administrative action.\" Pinnacle Armor, Inc. v. United States , 648 F.3d 708, 718 (9th Cir.2011) (quoting Helgeson v. Bureau of Indian Affairs , 153 F.3d 1000, 1003 (9th Cir.1998) ). Only \"a showing of 'clear and convincing evidence of a contrary legislative intent' \" will overcome that presumption. Id. (quoting Abbott Labs. v. Gardner , 387 U.S. 136, 140-41, 87 S.Ct. 1507, 18 L.Ed.2d 681 (1967) ). \"In the context of preclusion analysis, the 'clear and convincing evidence' standard is not a rigid evidentiary test,\" and \"the presumption favoring judicial review [is] overcome, whenever the congressional intent to preclude judicial review is 'fairly discernible in the statutory scheme.' \" Block , 467 U.S. at 351, 104 S.Ct. 2450 (quoting Data Processing Serv. v. Camp , 397 U.S. 150, 157, 90 S.Ct. 827, 25 L.Ed.2d 184 (1970) ). \"Whether and to what extent a particular statute precludes judicial review is determined not only from its express language, but also from the structure of the statutory scheme, its objectives, its legislative history, and the nature of the administrative action involved.\" Id. at 345, 104 S.Ct. 2450. The presumption has not been overcome in this case.\nThe PRA provides that agencies cannot \"conduct or sponsor\" a \"collection of information\" unless they comply with several procedural requirements. 44 U.S.C. \u00a7 3507(a). Those requirements include conducting a review of the proposed collection, providing notice of the proposed collection in the Federal Register, receiving and evaluating the public comments, submitting the proposed collection and relevant documents to the OMB, and obtaining an OMB control number \"to be displayed upon the collection of information.\" Id. ; id. \u00a7 3506(c). When a proposed collection of information is submitted for OMB review, the OMB may either expressly approve or disapprove the proposed collection or implicitly approve it by not acting upon it. See 44 U.S.C. \u00a7 3507(c), (d). If the collection of information is approved, whether expressly or implicitly, the OMB must assign a control number to the collection. Id. \u00a7 3507(a), (c), (d) ; 5 C.F.R. \u00a7 1320.11(i).\nWithin this context, the PRA's bar on judicial review, 44 U.S.C. \u00a7 3507(d)(6), is demonstratively narrow in scope. For example, it does not prohibit judicial review of an OMB decision to approve collections that are not contained in an agency rule. See 44 U.S.C. \u00a7 3507(c). Nor does it foreclose judicial review of an OMB decision to disapprove collections, regardless of whether those collections are contained in an agency rule. See generally Dole v. United Steelworkers of Am. , 494 U.S. 26, 110 S.Ct. 929, 108 L.Ed.2d 23 (1990) (reviewing the OMB's disapproval of three provisions in regulations established by the Department of Labor). Thus, the statute precludes judicial review only of a decision by the OMB to approve, whether through express approval or a failure to act upon, a collection within an agency rule. Any other decision remains subject to judicial review. See Silvers v. Sony Pictures Entm't, Inc. , 402 F.3d 881, 885 (9th Cir.2005) (en banc) (\"The doctrine of expressio unius est exclusio alterius 'as applied to statutory interpretation creates a presumption that when a statute designates certain persons, things, or manners of operation, all omissions should be understood as exclusions.' \" (quoting Boudette v. Barnette , 923 F.2d 754, 756-57 (9th Cir.1991) ) ).\nJudicial review of the denial of Hyatt's Petition is not barred in this case, because it does not implicate a review of a decision by the OMB to approve or not act upon a collection of information contained in an agency rule. The Petition was denied based on the OMB's July 2013 Determination, that the purported collections of information in the PTO Rules fell outside the PRA. That determination was not a decision to approve or not act upon a collection of information contained within an agency rule.\nIn a vacuum, the phrase \"decision ... to ... not act upon,\" 44 U.S.C. \u00a7 3507(d)(6), might be interpreted broadly, to incorporate the July 2013 Determination. However, the statutory scheme of the PRA demands a narrower interpretation, because the legal consequence of a decision to not act upon a collection of information under the PRA is exactly the same as that of a decision to expressly approve the collection-an OMB control number is issued that the collecting agency must display on the collection. 44 U.S.C. \u00a7 3507(a), (c), (d) ; 5 C.F.R. \u00a7 1320.11(i). In other words, where an OMB decision does not result in the issuance of an OMB control number, it cannot be construed as a decision to not act upon a collection of information.\nThat is the case here-the July 2013 Determination did not result in the issuance of a control number for the purported collections of information in the PTO Rules. See 5 C.F.R. \u00a7 1320.11(i). Indeed, in determining that the PRA did not apply to the purported collections, the OMB entirely negated any need for the PTO to obtain or display a control number for those collections. See 44 U.S.C. \u00a7 3507(a)(3). Accordingly, the denial of Hyatt's Petition lies outside the narrow scope of the PRA's judicial review bar, and his APA claim challenging the denial of the Petition is not statutorily precluded.\nB. Final Agency Action\nThe district court next determined that the OMB's denial of Hyatt's Petition was not a \"final agency action for which there is no other adequate remedy in a court,\" as required by 5 U.S.C. \u00a7 704. A \"final\" agency action is one that both determines \"rights or obligations ... from which legal consequences will flow\" and \"mark[s] the 'consummation' of the agency's decisionmaking process.\" Bennett v. Spear , 520 U.S. 154, 177-78, 117 S.Ct. 1154, 137 L.Ed.2d 281 (1997) (internal citations omitted).\nSection 3517(b), which governs Hyatt's Petition, expressly requires the OMB to determine a petitioner's obligation to provide information requested by or for a government agency. It permits \"any person\" to \"request the Director to review any collection of information conducted by or for an agency to determine , if , under this subchapter, a person shall maintain, provide, or disclose the information to or for the agency.\" Id. (emphasis added). After receiving the request, the OMB \"shall ... respond to the request within 60 days\" and \"take appropriate remedial action, if necessary.\" Id.\nAdditionally, the statute does not provide for any administrative review of the OMB's response, nor does it provide any alternative administrative recourse for petitioners if the OMB determines that they must provide the relevant information to the collecting agency. Id. Therefore, in denying Hyatt's Petition, the OMB made a determination of his rights and obligation to provide information to the PTO, and it did so in an action that consummated the OMB's decisionmaking process.\nHowever, Hyatt's APA claim would still be precluded if he has another adequate remedy in a court. 5 U.S.C. \u00a7 704. An adequate alternative remedy in a court exists where \"a legal remedy under the APA would impermissibly provide for duplicative review.\" City of Oakland , 798 F.3d at 1165. In looking for such a remedy, we ask whether the statutory scheme \"provides a forum for adjudication, a limited class of potential plaintiffs, a statute of limitations, a standard of review, and authorization for judicial relief.\" Hinck v. United States , 550 U.S. 501, 506, 127 S.Ct. 2011, 167 L.Ed.2d 888 (2007) ; see also City of Oakland , 798 F.3d at 1165-66 (discussing Hinck ).\nThe PRA does not provide a forum for adjudication, a limited class of potential plaintiffs, a statute of limitations, a standard of review, or an authorization for any manner of judicial relief. See e.g. , 44 U.S.C. \u00a7 3517. In fact, the PRA \"does not authorize a private right of action\" against the government. Sutton , 192 F.3d at 844. The district court and the OMB agree.\nInstead, the district court and the OMB suggest that Hyatt nevertheless has an adequate alternative remedy through the PRA's \"public protection provision,\" which provides that \"no person shall be subject to any penalty for failing to comply with a collection of information that is subject to [the PRA]\" if either (1) the collection \"does not display a valid OMB control number,\" or (2) the collecting agency \"fails to inform the person\" that he or she \"is not required to respond to the collection of information unless it displays a valid control number.\" 44 U.S.C. \u00a7 3512(a). However, the public protection provision functions only as a defense to an enforcement action brought by an agency, not as an independent mechanism for a person to affirmatively challenge the validity of the collection of information. 44 U.S.C. \u00a7 3512(b). That sort of alternative remedy is insufficient to defeat an APA claim, as \"parties need not await enforcement proceedings before challenging final agency action where such proceedings carry the risk of 'serious criminal and civil penalties.' \" U.S. Army Corps of Eng'rs v. Hawkes Co. , --- U.S. ----, 136 S.Ct. 1807, 1815, 195 L.Ed.2d 77 (2016) (quoting Abbott Labs. , 387 U.S. at 153, 87 S.Ct. 1507 ).\nIf Hyatt withheld information from the PTO, believing that the public protection provision would protect him in a subsequent enforcement action, he would risk the forfeiture of his patent claims if his belief proved unwarranted. Hyatt \"need not assume such risks while waiting for [the PTO] to 'drop the hammer' in order to have [his] day in court.\" Id. (quoting Sackett v. EPA , 566 U.S. 120, 127, 132 S.Ct. 1367, 182 L.Ed.2d 367 (2012) ). He is entitled instead to have the OMB determine his obligations, 44 U.S.C. \u00a7 3517(b), and to have that determination judicially reviewed before deciding whether to provide the requested information to the PTO.\nC. Non-Discretionary Action\nFinally, the district court determined that the OMB's decision not to provide any remedial action in response to Hyatt's Petition was discretionary. An APA claim is precluded where the relevant \"agency action is committed to agency discretion by law.\" 5 U.S.C. \u00a7 701(a)(2). \"An action is committed to agency discretion where there is no 'meaningful standard against which to judge the agency's exercise of discretion.' \" Bear Valley Mut. Water Co. v. Jewell , 790 F.3d 977, 989 (9th Cir.2015) (quoting Heckler v. Chaney , 470 U.S. 821, 830, 105 S.Ct. 1649, 84 L.Ed.2d 714 (1985) ).\nThe PRA directs the OMB to take two distinct actions when it receives a petition to determine whether an individual is legally obligated to respond to a collection of information. First, the OMB \"shall ... respond to the request within 60 days of receiving the request.\" 44 U.S.C. \u00a7 3517(b)(1) (emphasis added). Second, it \"shall ... take appropriate remedial action, if necessary.\" Id. \u00a7 3517(b)(2).\nThe initial determination-whether, under the PRA, the petitioner must provide or disclose information to a government agency-is not discretionary. There is an express mandate that the OMB \"shall\" make such a determination. Id. \u00a7 3517(b) ; Lexecon Inc. v. Milberg Weiss Bershad Hynes & Lerach , 523 U.S. 26, 35, 118 S.Ct. 956, 140 L.Ed.2d 62 (1998) (\"[T]he mandatory 'shall' ... normally creates an obligation impervious to judicial discretion.\"). Additionally, the standards for making such a determination are specified by the PRA. See 44 U.S.C. \u00a7 3507(a) (outlining steps an agency must take before it may conduct a collection of information). Thus, the OMB's decision to deny Hyatt's Petition is judicially reviewable under the APA.\nOn the other hand, the second determination-of what appropriate remedial action should be taken, if any-is committed to the agency's discretion. Although this determination is also mandatory, the OMB is directed to take \"appropriate\" remedial action, and only \"if necessary.\" Id. \u00a7 3517(b)(2). There is no express standard in the PRA to guide the OMB in determining whether any particular remedy is either \"appropriate\" or \"necessary.\" Accordingly, the OMB's decision regarding whether or what remedial action should be taken is beyond judicial review. See United States v. George S. Bush & Co. , 310 U.S. 371, 380, 60 S.Ct. 944, 84 L.Ed. 1259 (1940). However, if the first determination is reversed after judicial review, the OMB should revisit its second determination in light of that reversal.\nIV. CONCLUSION\nBecause the denial of Hyatt's Petition is judicially reviewable under the APA, we REVERSE the district court's decision to dismiss this case for a lack of subject matter jurisdiction and REMAND to the district court to review the denial.\n\"Collection of information\" is defined as\n[O]btaining, causing to be obtained, soliciting, or requiring the disclosure to third parties or the public, of facts or opinions by or for an agency, regardless of form or format, calling for either-\n(i) answers to identical questions posed to, or identical reporting or recordkeeping requirements imposed on, ten or more persons, other than agencies, instrumentalities, or employees of the United States; or\n(ii) answers to questions posed to agencies, instrumentalities, or employees of the United States which are to be used for general statistical purposes. ...\n44 U.S.C. \u00a7 3502(3)(A) ; see also 5 C.F.R. \u00a7 1320.3(c), (h) (further defining \"collection of information\" and \"information\").\nBefore conducting or sponsoring a collection of information, the collecting agency must \"obtain[ ] from the [OMB] a control number to be displayed upon the collection of information.\" 44 U.S.C. \u00a7 3507(a)(3).\nThe PTO Rules, among other things, describe the information a patent applicant might provide when filing amendments for a patent application and when challenging adverse PTO actions. 37 C.F.R. \u00a7\u00a7 1.111, 1.115, 1.116.\nThe American Association for Equitable Treatment, Inc. joined Hyatt in filing the complaint.\nTo the extent Hyatt challenges the July 2013 Determination under the PRA, his challenge is foreclosed. We have long recognized that the PRA \"does not authorize a private right of action\" against the government. Sutton v. Providence St. Joseph Med. Ctr. , 192 F.3d 826, 844 (9th Cir.1999). Instead, affirmative challenges to the OMB's decisions are authorized only through the petition process laid out by 44 U.S.C. \u00a7 3517(b). Thus, we do not further analyze the viability of that challenge.\nWe reject Hyatt's assertion that the PRA's judicial review prohibition applies only to OMB decisions regarding collections of information contained in proposed agency rules currently undergoing the notice and comment process. Unlike 44 U.S.C. \u00a7 3507(d)(1), which specifically refers to \"proposed\" agency rules, subsection (d)(6) is not so limited: \"[t]he decision by the Director to approve or not act upon a collection of information contained in an agency rule shall not be subject to judicial review,\" 44 U.S.C. \u00a7 3507(d)(6) (emphasis added). Congress understood the difference between proposed agency rules and agency rules in general, and determined not to limit the bar on judicial review to proposed rules.\nIn that light, \u00a7 3507(d)(5)'s declaration that \"[t]his subsection shall apply only when an agency publishes a notice of proposed rulemaking and requests public comments\" is best read not as limiting the application of the PRA's bar of judicial review, which is found in the same subsection, but merely as indicating that rules that are exempt from the standard notice and comment rulemaking process need not comply with \u00a7 3507(d)'s supplementary notice and comment requirements. See, e.g. , 5 U.S.C. \u00a7 553(a) (exempting certain rules from the standard notice and comment rulemaking process).\nThe OMB can extend this period \"to a specified date\" if \"the person making the request is given notice of such extension.\" 44 U.S.C. \u00a7 3517(b)(1).\nThe OMB argues that when it determines that the relevant information request is not a collection of information, it is not required to respond to a \u00a7 3517 petition, which asks the OMB to review \"any collection of information.\" Such an interpretation would allow the OMB to abdicate its duties under the PRA-without judicial review-by simply declaring that no information requests constitute collections of information. Nothing in the statutory scheme suggests Congress intended to provide the OMB with such extreme power. See Anchorage Sch. Dist. v. M.P. , 689 F.3d 1047, 1056 (9th Cir.2012) (noting that an agency \"cannot abdicate its affirmative duties\" assigned by Congress). The OMB's interpretation would also eliminate any legal protection for persons who believe that the agency's decision was faulty. See 44 U.S.C. \u00a7 3512(a) (\"[N]o person shall be subject to any penalty for failing to comply with a collection of information that is subject to this subchapter....\" (emphasis added) ).",
+        "type": "majority",
+        "author": "N.R. Smith, Circuit Judge:"
+      }
+    ],
+    "attorneys": [
+      "Andrew M. Grossman (argued) and Mark W. DeLaquil, BakerHostetler LLP, Washington, D.C., for Plaintiffs-Appellants.",
+      "Jennifer L. Utrecht (argued) and Mark R. Freeman, Appellate Staff; Chad A. Readler, Acting Assistant Attorney General; Civil Division, United States Department of Justice, Washington, D.C.; Mark R. Paoletta, General Counsel, Office of Management and Budget, Washington, D.C.; for Defendants-Appellees."
+    ],
+    "corrections": "",
+    "head_matter": "Gilbert P. HYATT; American Association for Equitable Treatment, Inc., Plaintiffs-Appellants,\nv.\nOFFICE OF MANAGEMENT AND BUDGET; Shaun Donovan, Defendants-Appellees.\nNo. 17-17101\nUnited States Court of Appeals, Ninth Circuit.\nArgued and Submitted October 12, 2018 Seattle, Washington\nFiled November 15, 2018\nAndrew M. Grossman (argued) and Mark W. DeLaquil, BakerHostetler LLP, Washington, D.C., for Plaintiffs-Appellants.\nJennifer L. Utrecht (argued) and Mark R. Freeman, Appellate Staff; Chad A. Readler, Acting Assistant Attorney General; Civil Division, United States Department of Justice, Washington, D.C.; Mark R. Paoletta, General Counsel, Office of Management and Budget, Washington, D.C.; for Defendants-Appellees.\nBefore: N. Randy Smith and Morgan Christen, Circuit Judges, and Robert E. Payne, District Judge.\nThe Honorable Robert E. Payne, Senior United States District Judge for the Eastern District of Virginia, sitting by designation."
+  },
+  "file_name": "1165-01",
+  "first_page_order": 1165,
+  "last_page_order": 1175
+}

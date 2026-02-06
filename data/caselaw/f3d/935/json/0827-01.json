@@ -1,0 +1,1041 @@
+{
+  "id": 12522570,
+  "name": "UNITED STATES of America, Plaintiff-Appellee, v. Lonnie Eugene LILLARD, Defendant-Appellant.",
+  "name_abbreviation": "United States v. Lillard",
+  "decision_date": "2019-08-28",
+  "docket_number": "No. 16-30194",
+  "first_page": "827",
+  "last_page": "838",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "935 F.3d 827"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "9th Cir.",
+    "id": 18869,
+    "name": "United States Court of Appeals for the Ninth"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "404 U.S. 336",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6173129
+      ],
+      "weight": 3,
+      "year": 1971,
+      "pin_cites": [
+        {
+          "page": "348"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/404/0336-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7\u00a7 3614",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "543 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3442217
+      ],
+      "weight": 3,
+      "year": 2004,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/543/0001-01"
+      ]
+    },
+    {
+      "cite": "112 S.Ct. 2102",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        3382554,
+        11729782
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "parenthetical": "plurality opinion"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cl-ct/26/2102-01",
+        "/us/504/0505-01"
+      ]
+    },
+    {
+      "cite": "504 U.S. 505",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11729782
+      ],
+      "weight": 2,
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "517-518",
+          "parenthetical": "plurality opinion"
+        },
+        {
+          "parenthetical": "plurality opinion"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/504/0505-01"
+      ]
+    },
+    {
+      "cite": "495 U.S. 411",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        633998
+      ],
+      "weight": 3,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "422",
+          "parenthetical": "citation omitted"
+        },
+        {
+          "parenthetical": "citation omitted"
+        },
+        {
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/495/0411-01"
+      ]
+    },
+    {
+      "cite": "498 U.S. 103",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6219942
+      ],
+      "weight": 3,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "108",
+          "parenthetical": "internal citations omitted"
+        },
+        {
+          "parenthetical": "internal citations omitted"
+        },
+        {
+          "parenthetical": "internal citations omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/498/0103-01"
+      ]
+    },
+    {
+      "cite": "991 F.2d 1509",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10518064
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "1510"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/991/1509-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 3624",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(e)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "204 L.Ed.2d 94",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "year": 2019,
+      "pin_cites": [
+        {
+          "parenthetical": "considering both \"text and statutory context\" when interpreting the term \"imprisonment\" in 18 U.S.C. \u00a7 3624(e) "
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "139 S. Ct. 1826",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12620138
+      ],
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "1829",
+          "parenthetical": "considering both \"text and statutory context\" when interpreting the term \"imprisonment\" in 18 U.S.C. \u00a7 3624(e) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/139/1826-01"
+      ]
+    },
+    {
+      "cite": "531 U.S. 457",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9505769
+      ],
+      "weight": 3,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "466"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/531/0457-01"
+      ]
+    },
+    {
+      "cite": "566 U.S. 449",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12189485
+      ],
+      "weight": 3,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "454",
+          "parenthetical": "\"[W]ords that can have more than one meaning are given content ... by their surroundings.\""
+        },
+        {
+          "parenthetical": "\"[W]ords that can have more than one meaning are given content ... by their surroundings.\""
+        },
+        {
+          "parenthetical": "\"[W]ords that can have more than one meaning are given content ... by their surroundings.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/566/0449-01"
+      ]
+    },
+    {
+      "cite": "5 U.S.C. \u00a7 8148",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(b)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "219 F.3d 930",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11198839
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "939"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/219/0930-01"
+      ]
+    },
+    {
+      "cite": "722 F.3d 1177",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4063293
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "1181",
+          "parenthetical": "quoting DeGeorge v. U.S. Dist. Ct. for Cent. Dist. of Cal ., 219 F.3d 930, 939 (9th Cir. 2000) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/722/1177-01"
+      ]
+    },
+    {
+      "cite": "560 U.S. 474",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3641522,
+        12454860
+      ],
+      "weight": 3,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "488"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/560/0474-01",
+        "/l-ed-2d/177/0001-01"
+      ]
+    },
+    {
+      "cite": "789 F.3d 1111",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4233683
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1118"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/789/1111-01"
+      ]
+    },
+    {
+      "cite": "878 F.3d 703",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12265686,
+        12265671
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "706",
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/878/0703-02",
+        "/f3d/878/0703-01"
+      ]
+    },
+    {
+      "cite": "188 F.3d 1090",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11578499
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "1096"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/188/1090-01"
+      ]
+    },
+    {
+      "cite": "729 F.3d 910",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3700354
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "914"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/729/0910-01"
+      ]
+    },
+    {
+      "cite": "578 F.3d 1103",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4048456
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "1106",
+          "parenthetical": "internal quotations and citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/578/1103-01"
+      ]
+    },
+    {
+      "cite": "503 U.S. 519",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6234399
+      ],
+      "weight": 3,
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "534",
+          "parenthetical": "string cite omitted"
+        },
+        {
+          "parenthetical": "string cite omitted"
+        },
+        {
+          "parenthetical": "string cite omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/503/0519-01"
+      ]
+    },
+    {
+      "cite": "359 F.3d 1088",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9286894
+      ],
+      "weight": 2,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "1095",
+          "parenthetical": "emphasis and alteration in original"
+        },
+        {
+          "page": "1095"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/359/1088-01"
+      ]
+    },
+    {
+      "cite": "838 F.3d 1007",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12174426,
+        12174446
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1010"
+        },
+        {
+          "page": "1011"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/838/1007-01",
+        "/f3d/838/1007-02"
+      ]
+    },
+    {
+      "cite": "914 F.3d 947",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12519976
+      ],
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "951"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/914/0947-01"
+      ]
+    },
+    {
+      "cite": "823 F.3d 966",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5921656,
+        4322106
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "968-69",
+          "parenthetical": "\"The test for mootness of an appeal is whether the appellate court can give the appellant any effective relief in the event that it decides the matter on the merits in his favor.\" (citation omitted)"
+        },
+        {
+          "page": "968"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/823/0966-01",
+        "/br/553/0966-01"
+      ]
+    },
+    {
+      "cite": "445 U.S. 388",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1777409
+      ],
+      "weight": 3,
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "396"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/445/0388-01"
+      ]
+    },
+    {
+      "cite": "623 F.3d 1011",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3792052
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "1020",
+          "parenthetical": "quoting U.S. Parole Comm'n v. Geraghty , 445 U.S. 388, 396, 100 S.Ct. 1202, 63 L.Ed.2d 479 (1980) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/623/1011-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1291",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "678 F.3d 1042",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3873811
+      ],
+      "year": 2012,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/678/1042-01"
+      ]
+    },
+    {
+      "cite": "138 S. Ct. 1684",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12612007
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1687-88",
+          "parenthetical": "detailing the crimes and victim losses covered by the MVRA"
+        },
+        {
+          "parenthetical": "detailing the crimes and victim losses covered by the MVRA"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/1684-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 3664",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 16,
+      "pin_cites": [
+        {
+          "page": "(n)",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(d)(2)(A)(i)"
+        },
+        {
+          "page": "(d)(3)"
+        },
+        {
+          "page": "(f)(2)"
+        },
+        {
+          "page": "(f)(3)(B)"
+        },
+        {
+          "page": "(k)"
+        },
+        {
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "(n)"
+        },
+        {
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "(n)"
+        },
+        {
+          "page": "(n)"
+        },
+        {
+          "page": "(n)"
+        },
+        {
+          "page": "(n)",
+          "parenthetical": "emphases added"
+        },
+        {
+          "page": "(m)(1)(A)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "450 U.S. 333",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6185443
+      ],
+      "weight": 3,
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "343"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/450/0333-01"
+      ]
+    },
+    {
+      "cite": "573 F.3d 679",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3672994
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "693",
+          "parenthetical": "\"Where there is no statutory ambiguity at the outset, 'the rule of lenity simply has no application.' \" (quoting Albernaz v. United States , 450 U.S. 333, 343, 101 S.Ct. 1137, 67 L.Ed.2d 275 (1981) )"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/573/0679-01"
+      ]
+    },
+    {
+      "cite": "308 U.S. 79",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6137256
+      ],
+      "weight": 3,
+      "year": 1939,
+      "pin_cites": [
+        {
+          "page": "83"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/308/0079-01"
+      ]
+    },
+    {
+      "cite": "135 S. Ct. 2480",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12590981
+      ],
+      "weight": 2,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "2495-96",
+          "parenthetical": "quoting Palmer v. Massachusetts , 308 U.S. 79, 83, 60 S.Ct. 34, 84 L.Ed. 93 (1939) "
+        },
+        {
+          "parenthetical": "quoting Palmer v. Massachusetts , 308 U.S. 79, 83, 60 S.Ct. 34, 84 L.Ed. 93 (1939) "
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/s-ct/135/2480-01"
+      ]
+    },
+    {
+      "cite": "859 F.3d 1168",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12276606
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1175",
+          "parenthetical": "\"[I]t is not our role to choose what we think is the best policy outcome and to override the plain meaning of a statute[.]\""
+        },
+        {
+          "page": "1174"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/859/1168-01"
+      ]
+    },
+    {
+      "cite": "818 F.3d 549",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12173048,
+        4250575
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "557",
+          "parenthetical": "\"[A] word or phrase is not ambiguous just because it has a broad general meaning under the [general words are to be understood in a general sense] canon of statutory construction.\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/am-tribal-law/13/0549-01",
+        "/f3d/818/0549-01"
+      ]
+    },
+    {
+      "cite": "560 U.S. 605",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3641976,
+        12454866
+      ],
+      "weight": 3,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "612"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/560/0605-01",
+        "/l-ed-2d/177/0108-01"
+      ]
+    },
+    {
+      "cite": "562 U.S. 397",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5934745,
+        12457261
+      ],
+      "weight": 3,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "403"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/562/0397-01",
+        "/l-ed-2d/179/0132-01"
+      ]
+    },
+    {
+      "cite": "120 S.Ct. 1942",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        11508611,
+        9413069
+      ],
+      "year": 2000,
+      "opinion_index": 1,
+      "case_paths": [
+        "/br/249/1942-01",
+        "/us/530/0001-01"
+      ]
+    },
+    {
+      "cite": "530 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9413069
+      ],
+      "weight": 2,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "6"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/530/0001-01"
+      ]
+    },
+    {
+      "cite": "124 S.Ct. 1023",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        8897517,
+        9068198
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "parenthetical": "quoting Hartford Underwriters Ins. Co. v. Union Planters Bank, N.A. , 530 U.S. 1, 6, 120 S.Ct. 1942, 147 L.Ed.2d 1 (2000) "
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/540/0526-01",
+        "/br/303/1023-01"
+      ]
+    },
+    {
+      "cite": "540 U.S. 526",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8897517
+      ],
+      "weight": 2,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "534",
+          "parenthetical": "quoting Hartford Underwriters Ins. Co. v. Union Planters Bank, N.A. , 530 U.S. 1, 6, 120 S.Ct. 1942, 147 L.Ed.2d 1 (2000) "
+        },
+        {
+          "parenthetical": "quoting Hartford Underwriters Ins. Co. v. Union Planters Bank, N.A. , 530 U.S. 1, 6, 120 S.Ct. 1942, 147 L.Ed.2d 1 (2000) "
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/540/0526-01"
+      ]
+    },
+    {
+      "cite": "541 U.S. 176",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5905166
+      ],
+      "weight": 3,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "183",
+          "parenthetical": "internal brackets, quotation marks, and citation omitted"
+        },
+        {
+          "parenthetical": "internal brackets, quotation marks, and citation omitted"
+        },
+        {
+          "parenthetical": "internal brackets, quotation marks, and citation omitted"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/541/0176-01"
+      ]
+    },
+    {
+      "cite": "204 L.Ed.2d 94",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "year": 2019,
+      "opinion_index": 1
+    },
+    {
+      "cite": "139 S. Ct. 1826",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12620138
+      ],
+      "year": 2019,
+      "opinion_index": 1,
+      "case_paths": [
+        "/s-ct/139/1826-01"
+      ]
+    },
+    {
+      "cite": "5 U.S.C. \u00a7 8148",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(b)(1)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 3664",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(n)"
+        },
+        {
+          "page": "(n)",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "(n)"
+        }
+      ],
+      "opinion_index": 1
+    }
+  ],
+  "analysis": {
+    "cardinality": 1260,
+    "char_count": 31623,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2595525839537363
+    },
+    "sha256": "e6bf5e764a3ff43d14b92e34851d145a4a9f1037c826c08a26f1703669cf0e67",
+    "simhash": "1:dec8e7e6a39c277b",
+    "word_count": 5056
+  },
+  "last_updated": "2024-02-27T18:47:13.464613+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "UNITED STATES of America, Plaintiff-Appellee,\nv.\nLonnie Eugene LILLARD, Defendant-Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "W. FLETCHER, Circuit Judge:\nLonnie Lillard received $ 6,671.81 in his inmate trust account while in pretrial detention awaiting trial on federal bank fraud charges. When the United States Attorney's Office learned of his receipt of the $ 6,671.81, it sought to apply the funds toward Lillard's outstanding restitution debt from an unrelated 1998 conviction. The United States moved to seize Lillard's funds pursuant to \u00a7 3664(n) of the Mandatory Victims Restitution Act (\"MVRA\"), codified in relevant part at 18 U.S.C. \u00a7\u00a7 3613A, 3663A, 3664. Section 3664(n) of the MVRA provides that if a person \"receives substantial resources ... during a period of incarceration , such person shall be required to apply the value of such resources to any restitution or fine still owed.\" 18 U.S.C. \u00a7 3664(n) (emphasis added). The United States argued that \u00a7 3664(n) applies to pretrial detainees because they are in \"federal custody.\" Over Lillard's pro se objection, the district court ordered the seizure of the $ 6,671.81 pursuant to \u00a7 3664(n). On appeal, the Federal Defender, as amicus counsel for Lillard, argues that the phrase \"period of incarceration\" in \u00a7 3664(n) does not include pretrial detention. We agree and reverse.\nI. Background\nA. The Mandatory Victims Restitution Act\nThe MVRA requires the district court to order full restitution for certain crimes in which an \"identifiable victim\" has suffered \"physical injury or pecuniary loss.\" 18 U.S.C. \u00a7\u00a7 3663A(c)(1)(A), (B) ; see Lagos v. United States , --- U.S. ----, 138 S. Ct. 1684, 1687-88, 201 L.Ed.2d 1 (2018) (detailing the crimes and victim losses covered by the MVRA).\nSection 3664 of the MVRA is entitled \"Procedure for issuance and enforcement of order of restitution.\" 18 U.S.C. \u00a7 3664. It establishes procedures for the probation office, defendant, identified victims, and district court to follow in determining the amount of restitution the district court should impose during a defendant's sentencing. The probation office, for example, is required to include in its presentence report \"information sufficient for the court to exercise its discretion in fashioning a restitution order,\" including information on \"the losses to each victim\" and \"the economic circumstances of each defendant.\" 18 U.S.C. \u00a7 3664(a). The probation office must also notify all identified victims of the \"offenses of which the defendant was convicted,\" in order to allow the victims an opportunity to \"submit information\" concerning their losses. 18 U.S.C. \u00a7 3664(d)(2)(A)(i), (iii). The defendant must file \"an affidavit\" describing his financial resources, needs, and earning capacity. 18 U.S.C. \u00a7 3664(d)(3).\nWhen a district court orders restitution it must \"specify in the restitution order the manner in which, and the schedule according to which, the restitution is to be paid ....\" 18 U.S.C. \u00a7 3664(f)(2). If a defendant cannot pay full restitution \"under any reasonable schedule of payments,\" the district court may order \"nominal periodic payments\" in perpetuity. 18 U.S.C. \u00a7 3664(f)(3)(B).\nOnce a restitution order is in place, the defendant must notify the court \"of any material change in the defendant's economic circumstances that might affect the defendant's ability to pay restitution.\" 18 U.S.C. \u00a7 3664(k). Ordinarily, the district court addresses changed economic circumstances under \u00a7 3664(k) of the MVRA. Under \u00a7 3664(k), a district court \"may ... adjust the [defendant's] payment schedule, or require immediate payment in full, as the interests of justice require.\" Id. (emphasis added). In one narrow circumstance, however, the MVRA \"require[s]\" that newly received funds be applied toward restitution. 18 U.S.C. \u00a7 3664(n). Section 3664(n) provides:\nIf a person obligated to provide restitution, or pay a fine, receives substantial resources from any source, including inheritance, settlement, or other judgment, during a period of incarceration , such person shall be required to apply the value of such resources to any restitution or fine still owed.\nId. (emphasis added). This appeal requires us to interpret the phrase \"period of incarceration\" in \u00a7 3664(n).\nB. Factual and Procedural Background\nIn 1998, Lonnie Lillard pleaded guilty to Possession of Counterfeited Securities and a related count of Conspiracy. The district court sentenced Lillard to 34 months imprisonment and ordered him to pay $ 79,130.55 in restitution. The district court did not specify a minimum payment schedule for the restitution order. Instead, the court ordered the restitution amount due \"in full immediately,\" despite finding that \"Mr. Lillard has no income or assets or the likelihood of either in the immediate future.\" Lillard made almost no restitution payments during the following years and the government made no discernible effort to collect any from him.\nIn January 2016, the United States charged Lillard with Conspiracy to Commit Bank Fraud. Pending trial, Lillard was held in pretrial detention at the Federal Detention Center, SeaTac, near Seattle, Washington. While in pretrial detention, Lillard received $ 6,671.81 in his inmate trust account. The source of the funds is unclear. Lillard had planned to use some of the funds to pay for legal assistance in his pending case. He also claims to have planned to use some of the money to communicate with friends and family, to \"periodically help[ ] out his parents who are 91 and 80 years old,\" and to purchase items from the inmate commissary.\nWhen the U.S. Attorney's Office learned of the $ 6,671.81, it took steps to seize the full sum and apply it toward Lillard's 1998 restitution obligation. At the request of the U.S. Attorney's Office, the Bureau of Prisons encumbered Lillard's account to prevent him from accessing the funds. An Assistant United States Attorney then filed with the district court a Motion to Require Payment from Inmate Trust Account. The motion sought a court order allowing the government to seize the $ 6,671.81 pursuant to \u00a7 3664(n) of the MVRA, which applies only to funds received during a \"period of incarceration.\" 18 U.S.C. \u00a7 3664(n). The government argued that \u00a7 3664(n) applied \"squarely\" to Lillard because he was in \"federal custody\" while in pretrial detention.\nLillard responded pro se to the government's motion. He argued that any modification of his restitution obligation should be made under \u00a7 3664(k), the MVRA provision governing restitution order modifications, rather than under \u00a7 3664(n). He also argued, citing Ward v. Chavez , 678 F.3d 1042 (9th Cir. 2012), that his 1998 restitution order is \"unlawful\" because the district court had not set a minimum payment schedule despite finding that Lillard was unable to pay in full immediately. Lillard requested an evidentiary hearing and that counsel be appointed to represent him.\nThe district court appointed counsel and granted a continuance to allow counsel time to prepare a response. Counsel did not file a response, however, until after the deadline had passed, and then filed only an informal memorandum and a request for another continuance to allow for \"further research and investigation.\" The district court denied both counsel's request for a continuance and Lillard's request for an evidentiary hearing.\nOn August 3, 2016, more than three months before Lillard's scheduled trial date on his criminal charge, the district court issued a two-page order granting the government's motion. The order directed the Bureau of Prisons to pay $ 6,671.81 from Lillard's inmate trust account to the Clerk of the U.S. District Court for the Western District of Washington, to be applied toward Lillard's 1998 restitution obligation.\nLillard appealed pro se the district court's order. We appointed the Federal Defender for the Western District of Washington (\"Amicus\") as amicus counsel. We directed Amicus to address, along with other issues, whether 18 U.S.C. \u00a7 3664(n) applies to (1) pretrial detention, and (2) detention or incarceration unrelated to the judgment imposing the restitution order. As to issue (1), we agree with Amicus that \u00a7 3664(n) does not apply during periods of pretrial detention. We therefore reverse the district court's August 3, 2016 order. We do not reach issue (2).\nWe have jurisdiction under 28 U.S.C. \u00a7 1291.\nII. Discussion\nThis appeal presents the issue whether the phrase \"period of incarceration\" in 18 U.S.C. \u00a7 3664(n) includes a period of pretrial detention. Amicus argues that \u00a7 3664(n) \"appl[ies] only when a defendant is 'incarcerated' following 'conviction of an offense,' and should not apply when the presumptively-innocent defendant is detained before trial.\" The government makes three arguments in response: First, that Lillard's claim is moot because he has since been incarcerated following a conviction for Conspiracy to Commit Bank Fraud; second, that we may review the district court's interpretation of \"period of incarceration\" only for plain error because Lillard waived this argument below; and third, that even under de novo review, the district court did not err in interpreting \u00a7 3664(n). We hold that Lillard's action is not moot, that de novo review is appropriate, and that \u00a7 3664(n) does not apply during periods of pretrial detention.\nA. Lillard's Action is Not Moot\nDuring the pendency of this appeal, Lillard pleaded guilty to Conspiracy to Commit Bank Fraud, was sentenced to 196 months imprisonment, and was ordered to pay over five million dollars in restitution. The government argues that the change in Lillard's custodial status renders his case moot.\n\"A case is moot when the 'parties lack a legally cognizable interest in the outcome.' \" Johnson v. Rancho Santiago Cmty. Coll. Dist. , 623 F.3d 1011, 1020 (9th Cir. 2010) (quoting U.S. Parole Comm'n v. Geraghty , 445 U.S. 388, 396, 100 S.Ct. 1202, 63 L.Ed.2d 479 (1980) ). Lillard's interest in this appeal is apparent. If we vacate the district court's order, the government must return the $ 6,671.81 it has seized.\nThe government argues that this outcome would not provide Lillard \"effective relief\" because his funds can be re-seized under \u00a7 3664(n), given the change in his custodial status. See In re Castaic Partners II, LLC , 823 F.3d 966, 968-69 (9th Cir. 2016) (\"The test for mootness of an appeal is whether the appellate court can give the appellant any effective relief in the event that it decides the matter on the merits in his favor.\" (citation omitted)). The government assumes that because Lillard is currently subject to incarceration following a conviction, \u00a7 3664(n) \"undisputedly\" applies to him. The assumption is mistaken. Section 3664(n) applies only if a defendant \"receives substantial resources ... during a period of incarceration.\" 18 U.S.C. \u00a7 3664(n) (emphases added). Though we take no position on the matter, it is debatable (\"disputable\") whether the return of funds improperly seized during pretrial detention to a defendant now in post-conviction incarceration qualifies as receipt of substantial resources \"during a period of incarceration\" within the meaning of \u00a7 3664(n). Id . It is also debatable whether the $ 6,671.81 sum constitutes \"substantial resources.\" Since the district court issued its order, at least one court has held that \"substantial resources\" under \u00a7 3664(n) refers narrowly to \"windfalls or sudden financial injections.\" United States v. Hughes , 914 F.3d 947, 951 (5th Cir. 2019).\nFinally, Lillard's action is not moot even though the government may attempt, in the alternative, to re-seize his funds pursuant to \u00a7 3664(k). As noted above, \u00a7 3664(k) grants the district court discretion in addressing a defendant's changed economic circumstances, allowing for potential \"effective relief\" on remand. Castaic Partners II , 823 F.3d at 968. Lillard's appeal is therefore not moot.\nB. Plain Error Review Does Not Apply\n\"The ordinary rule in criminal cases-established by Federal Rule of Criminal Procedure 52(b) and by Supreme Court precedent-is that 'plain error' review applies to arguments raised for the first time on appeal.\" United States v. Yijun Zhou , 838 F.3d 1007, 1010 (9th Cir. 2016). The government argues that we should review the district court's interpretation of \u00a7 3664(n) for plain error because Lillard did not argue below that \u00a7 3664(n) applies only to periods of incarceration following a conviction. We hold that de novo, rather than plain error, review is appropriate for three reasons.\nFirst, \"plain error review typically applies where an issue raised on appeal was not 'brought to the [district] court's attention.' \" United States v. Pallares-Galan , 359 F.3d 1088, 1095 (9th Cir. 2004) (emphasis and alteration in original) (quoting Fed. R. Crim. Proc. 52(b) ). The government argued before the district court that \u00a7 3664(n) applied to Lillard because, as a pretrial detainee, he was in \"federal custody.\" The issue of whether \u00a7 3664(n) applies to periods of pretrial detention was thus brought to the district court's attention.\nSecond, \"[o]nce a ... claim is properly presented, a party can make any argument in support of that claim ....\" Yee v. Escondido , 503 U.S. 519, 534, 112 S.Ct. 1522, 118 L.Ed.2d 153 (1992) (string cite omitted). \"[I]t is claims that are deemed waived or forfeited, not arguments.\" Pallares-Galan , 359 F.3d at 1095. Lillard claimed below that \u00a7 3664(k), rather than \u00a7 3664(n), was the proper provision under which to address his changed economic circumstances. Amicus's argument that \u00a7 3664(n) does not apply to pretrial detainees is a further argument in support of that claim.\nThird, when this court is \"presented with a question that is purely one of law and where the opposing party will suffer no prejudice as a result of the failure to raise the issue in the trial court,\" this court is not limited to plain error review. United States v. Saavedra-Velazquez , 578 F.3d 1103, 1106 (9th Cir. 2009) (internal quotations and citation omitted); see also Yijun Zhou , 838 F.3d at 1011. Whether \u00a7 3664(n) applies to pretrial detention is a pure question of law, and the United States, which has had an adequate opportunity to defend its interpretation below and on appeal, suffers no prejudice.\nC. Interpretation of \u00a7 3664(n)\n\"The interpretation of a statutory provision must begin with the plain meaning of its language.\" United States v. Flores , 729 F.3d 910, 914 (9th Cir. 2013). To determine plain meaning, \"we examine not only the specific provision at issue, but also the structure of the statute as a whole, including its object and policy.\" Children's Hosp. & Health Center v. Belshe , 188 F.3d 1090, 1096 (9th Cir. 1999). \"If the language has a plain meaning or is unambiguous, the statutory interpretation inquiry ends there.\" CVS Health Corp. v. Vividus, LLC , 878 F.3d 703, 706 (9th Cir. 2017) (citation omitted). If the statutory language lacks a plain meaning, we may \"employ other tools, such as legislative history, to construe the meaning of ambiguous terms.\" Benko v. Quality Loan Service Corp ., 789 F.3d 1111, 1118 (9th Cir. 2015). If a criminal statute remains ambiguous even \"after considering text, structure, history, and purpose,\" the rule of lenity obliges the court to select the least-harsh interpretation consistent with the statutory language. Barber v. Thomas , 560 U.S. 474, 488, 130 S.Ct. 2499, 177 L.Ed.2d 1 (2010).\nWe hold that the language and statutory context of \u00a7 3664(n) favor Amicus's view that \u00a7 3664(n) does not apply to periods of pretrial detention, and that the rule of lenity resolves any remaining ambiguity in Lillard's favor.\n1. Language and Statutory Context of \u00a7 3664(n)\nThe phrase \"period of incarceration,\" in isolation, \"gives rise to more than one reasonable interpretation.\" Woods v. Carey , 722 F.3d 1177, 1181 (9th Cir. 2013) (quoting DeGeorge v. U.S. Dist. Ct. for Cent. Dist. of Cal ., 219 F.3d 930, 939 (9th Cir. 2000) ). Leading dictionaries define \"incarceration\" broadly as \"[t]he act or process of confining someone; IMPRISONMENT,\" and \"a confining or state of being confined: IMPRISONMENT.\" Black's Law Dictionary (8th ed. 2004), Webster's Third New Int'l Dictionary (2002). So defined, \"incarceration\" encompasses not only imprisonment following conviction, but other forms of confinement, including administrative detention, immigration detention, and pretrial detention. However, not all forms of confinement are relevant to each statutory context. Depending on a statute's object and purpose, \"incarceration\" may have a narrower meaning. See, e.g. , 5 U.S.C. \u00a7 8148(b)(1)-(2) (making clear that \"period of incarceration\" refers to incarceration \"pursuant to ... conviction of an offense\").\nThus, if a statute does not define \"incarceration,\" courts must look to the statute as a whole to determine that term's meaning. See Mohamad v. Palestinian Auth ., 566 U.S. 449, 454, 132 S.Ct. 1702, 182 L.Ed.2d 720 (2012) (\"[W]ords that can have more than one meaning are given content ... by their surroundings.\") (quoting Whitman v. Am. Trucking Ass'ns Inc. , 531 U.S. 457, 466, 121 S.Ct. 903, 149 L.Ed.2d 1 (2001) ); see also Mont v. United States , --- U.S. ----, 139 S. Ct. 1826, 1829, 204 L.Ed.2d 94 (2019) (considering both \"text and statutory context\" when interpreting the term \"imprisonment\" in 18 U.S.C. \u00a7 3624(e) ). In United States v. Latimer , for example, we had to decide \"whether confinement in a community treatment center constitutes incarceration under the meaning of \u00a7 4A1.2(e)(1) of the Sentencing Guidelines.\" 991 F.2d 1509, 1510 (9th Cir. 1993). Because \"the Guidelines do not define incarceration,\" we chose the interpretation that \"best fits the Guidelines' general structure and purpose,\" and held that \"confinement in a community treatment center does not constitute incarceration under the meaning of \u00a7 4A1.2(e)(1).\" Id . at 1511, 1514.\nThe \"general structure and purpose\" of the MVRA support the conclusion that \u00a7 3664(n) refers only to incarceration after a conviction. Id . at 1511. As noted above, \u00a7 3664, which is entitled \"Procedure for issuance and enforcement of order of restitution,\" establishes procedures for determining the amount of restitution that the district court should impose at sentencing after a defendant's conviction. Section 3664 is structured around the stages of a sentencing hearing. It establishes pre-hearing procedures, \u00a7\u00a7 3664(a) - (d), procedures governing the hearing and imposition of the restitution order, \u00a7\u00a7 3664(e) - (j), and procedures concerning post-hearing alteration and enforcement of the order, \u00a7\u00a7 3664(k) - (n). All three stages occur after a defendant has been convicted of a crime. Given \u00a7 3664's focus on the period after conviction, it is most natural to interpret \"period of incarceration\" in \u00a7 3664(n) as referring to incarceration after a conviction.\nSection 3664(n)'s purpose supports this interpretation. Both Amicus and the United States agree that \u00a7 3664(n) creates a narrow exception for substantial resources received \"during a period of incarceration\" because, during such a period, defendants can rely on the Bureau of Prisons to provide for their subsistence needs. This rationale does not apply during periods of pretrial detention, which are often brief or contingent. Resources that defendants receive during pretrial detention, especially if that detention is for a short or indeterminate amount of time, may be necessary for their subsistence upon release.\nIn sum, both the statutory context and purpose of \u00a7 3664(n) support the conclusion that the phrase \"period of incarceration\" in \u00a7 3664(n) does not encompass pretrial detention. These considerations are not so weighty, however, that they render the government's competing interpretation clearly unreasonable. Nor does the legislative history of the MVRA settle the matter. Where \"a reasonable doubt persists about a statute's intended scope even after resort to 'the language and structure, legislative history, and motivating policies' of the statute[,]\" courts may apply the rule of lenity. Moskal v. United States , 498 U.S. 103, 108, 111 S.Ct. 461, 112 L.Ed.2d 449 (1990) (internal citations omitted).\n2. The Rule of Lenity\nThe rule of lenity \"demand[s] resolution of ambiguities in criminal statutes in favor of the defendant ....\" Hughey v. United States , 495 U.S. 411, 422, 110 S.Ct. 1979, 109 L.Ed.2d 408 (1990) (citation omitted). The rule extends to statutes that set criminal punishments as well as statutes that carry criminal penalties if violated. See id . (applying the rule of lenity to a restitution provision of the Victim and Witness Protection Act); United States v. Thompson/Center Arms Co ., 504 U.S. 505, 517-518, 518 n.10, 112 S.Ct. 2102, 119 L.Ed.2d 308 (1992) (plurality opinion) (employing the rule of lenity to interpret \"a tax statute ... in a civil setting\" because the statute \"has criminal applications\"); Leocal v. Ashcroft , 543 U.S. 1, 11 n.8, 125 S.Ct. 377, 160 L.Ed.2d 271 (2004).\nThe rule of lenity applies to \u00a7 3664(n) of the MVRA for two reasons. First, restitution is part of a defendant's punishment under the MVRA. See S. REP. 104-179, 20 (1996) (\"The committee believes that restitution must be considered a part of the criminal sentence, and that justice cannot be considered served until full restitution is made.\"). Section 3664(n) implements the restitution \"part of the sentence\" in a harsher manner than \u00a7 3664(k) by requiring the immediate discouragement of the full value of newly-received substantial resources. Second, the MVRA provides that failure to pay restitution carries criminal penalties. 18 U.S.C. \u00a7 3664(m)(1)(A). A defendant who is \"required\" to turn over \"substantial resources\" received \"during a period of incarceration,\" but fails to do so may be subject to resentencing, a criminal fine, or a new prosecution. See 18 U.S.C. \u00a7\u00a7 3614, 3613A, 3615. To ensure \"fair warning\" of \u00a7 3664(n)'s scope, we must resolve ambiguities in \u00a7 3664(n) \"in favor of the defendant.\" United States v. Bass , 404 U.S. 336, 348, 92 S.Ct. 515, 30 L.Ed.2d 488 (1971).\nApplying the rule of lenity, we resolve any lingering ambiguity in the phrase \"period of incarceration\" in Lillard's favor.\nSection 3664(n) does not apply to periods of pretrial detention. We therefore reverse the district court's August 3rd, 2016, order directing the seizure of Lillard's $ 6,671.81.\nREVERSED.\nAppellant's Motion to Take Judicial Notice [Dkt no. 17], filed December 19, 2017, is GRANTED .",
+        "type": "majority",
+        "author": "W. FLETCHER, Circuit Judge:"
+      },
+      {
+        "text": "BENNETT, Circuit Judge, dissenting:\nPretrial detention qualifies as \"a period of incarceration\" under 18 U.S.C. \u00a7 3664(n), and because the statutory language is unambiguous, the rule of lenity does not apply. Thus, I would affirm the district court's order directing that the funds at issue be used to pay Lonnie Lillard's outstanding restitution obligations.\nI.\nThe issue before us is one of statutory interpretation-whether pretrial detention qualifies as \"a period of incarceration\" under \u00a7 3664(n).\nBecause \"[t]he preeminent canon of statutory interpretation requires us to presume that the legislature says in a statute what it means and means in a statute what it says there[,] ... our inquiry begins with the statutory text, and ends there as well if the text is unambiguous.\" BedRoc Ltd., LLC v. United States , 541 U.S. 176, 183, 124 S.Ct. 1587, 158 L.Ed.2d 338 (2004) (internal brackets, quotation marks, and citation omitted). \"It is well established that 'when the statute's language is plain, the sole function of the courts-at least where the disposition required by the text is not absurd-is to enforce it according to its terms.' \" Lamie v. U.S. Tr. , 540 U.S. 526, 534, 124 S.Ct. 1023, 157 L.Ed.2d 1024 (2004) (quoting Hartford Underwriters Ins. Co. v. Union Planters Bank, N.A. , 530 U.S. 1, 6, 120 S.Ct. 1942, 147 L.Ed.2d 1 (2000) ). And we typically give terms their ordinary meanings if they are not defined in the statute. See FCC v. AT & T Inc. , 562 U.S. 397, 403, 131 S.Ct. 1177, 179 L.Ed.2d 132 (2011).\nHere, the statute does not define \"a period of incarceration.\" But since 1996 when \u00a7 3664(n) was enacted as part of the Mandatory Victims Restitution Act (MVRA), \"incarcerate\" has meant: \"To shut up in prison; to put in confinement; to imprison.\" 7 Oxford English Dictionary 783 (2d ed. 1989); see also Black's Law Dictionary 878 (10th ed. 2014) (defining \"incarceration\" as \"[t]he act or process of confining someone; imprisonment\"). These broad definitions encompass pretrial detention.\nA recent Supreme Court decision supports that \"incarceration\" includes pretrial detention. In Mont v. United States , --- U.S. ----, 139 S. Ct. 1826, 204 L.Ed.2d 94 (2019), the Court found that the broad definitions of \"imprison,\" one of which was \"to incarcerate,\" encompass pretrial detention. Id. at 1832. Thus, it follows that incarceration, being synonymous with imprisonment, also includes pretrial detention. The Court in Mont also observed that \"[i]f Congress intended a narrower interpretation, it could have easily used narrower language,\" and that the Court \"cannot override Congress' choice to employ [a] more capacious phrase.\" Id. at 1832-33. The same is true here. If Congress intended for \u00a7 3664(n) to apply only to post-conviction periods of detention, it could have easily done so by, for example, adding the phrase \"after a conviction\" or \"following a conviction\" immediately after the phrase \"during a period of incarceration.\" But Congress chose not to do so.\nThe context in which \"incarceration\" is used also shows that Congress intended \u00a7 3664(n) to be construed broadly. The subsection reads: \"If a person obligated to provide restitution ... receives substantial resources from any source ... during a period of incarceration, such person shall be required to apply the value of such resources to any restitution ... still owed.\" 18 U.S.C. \u00a7 3664(n) (emphasis added). The broad language used throughout the subsection reinforces that Congress intended this subsection to apply broadly, and no language in the statute suggests that Congress intended to limit it in the way that the majority believes it should be limited.\nFinally, giving the term \"incarceration\" its ordinary meaning does not lead to absurd results. A person in pretrial detention does not need financial resources to support his subsistence needs. Thus, when that person \"receives substantial resources ... during a period of incarceration,\" \u00a7 3664(n), those excess resources should be applied toward his existing restitution obligations. This is reasonable and consistent with the purpose of the MVRA, \"to ensure that victims of crime receive full restitution.\" Dolan v. United States , 560 U.S. 605, 612, 130 S.Ct. 2533, 177 L.Ed.2d 108 (2010).\nBecause \u00a7 3664(n)'s plain language encompasses periods of pretrial detention, and such an interpretation does not remotely lead to absurdity, I would enforce the statute as Congress wrote it and hold that it applies to periods of pretrial detention.\nII.\nThe majority errs by failing to give \"incarceration\" its full and fair meaning. See Scalia & Garner, Reading Law: The Interpretation of Legal Texts , 101 (2012) (\"Without some indication to the contrary, general words ... are to be accorded their full and fair scope. They are not to be arbitrarily limited.\"). Instead, the majority holds that the statute is ambiguous because the term \"incarceration\" could be construed more narrowly. But were that reasoning valid, then a statute would always be ambiguous whenever Congress used a broad term. That a statute contains a broad term cannot automatically create ambiguity. See Arizona v. Tohono O'odham Nation , 818 F.3d 549, 557 (9th Cir. 2016) (\"[A] word or phrase is not ambiguous just because it has a broad general meaning under the [general words are to be understood in a general sense] canon of statutory construction.\").\nThe majority also does not identify any absurdity that would result from giving \"incarceration\" its full and fair meaning. The majority suggests that applying \u00a7 3664(n) to periods of pretrial detention might be unfair in some cases. But Congress made that policy decision, and the fact that the statute's application might lead to seemingly unfair results cannot override the statute's plain meaning-the policy choice is for the legislative branch of government, not the judicial. See Guido v. Mount Lemmon Fire Dist. , 859 F.3d 1168, 1175 (9th Cir. 2017) (\"[I]t is not our role to choose what we think is the best policy outcome and to override the plain meaning of a statute[.]\").\nIgnoring the plain language of the statute, the majority holds that the structure of \u00a7 3664 shows that \"incarceration\" does not encompass pretrial detention. But the majority's analysis is unconvincing because, logically, any statute governing enforcing a restitution order necessarily applies only after a conviction. What the statute's structure does not tell us is whether Congress intended \u00a7 3664(n) to apply to persons in pretrial detention with existing restitution orders (though, as noted, the statute's unambiguous text does tell us). Thus, I do not believe that the statute's structure sheds any light on whether Congress intended \"incarceration\" to be limited in the way that the majority limits it (again, a limitation that Congress could have chosen to actually incorporate in the statute's text).\nAnd I believe it is simply wrong to rely on the structure of a statute, while ignoring its express language. \"Reliance on context and structure in statutory interpretation is a 'subtle business, calling for great wariness lest what professes to be mere rendering becomes creation and attempted interpretation of legislation becomes legislation itself.' \" King v. Burwell , --- U.S. ----, 135 S. Ct. 2480, 2495-96, 192 L.Ed.2d 483 (2015) (quoting Palmer v. Massachusetts , 308 U.S. 79, 83, 60 S.Ct. 34, 84 L.Ed. 93 (1939) ). Thus, \"[c]ourts should rarely depart from a statute's clear meaning because it risks creating a perception that they are inserting their own policy preferences into a law.\" Guido , 859 F.3d at 1174.\nBecause \u00a7 3664(n) is not ambiguous, the rule of lenity does not apply. See United States v. Overton , 573 F.3d 679, 693 (9th Cir. 2009) (\"Where there is no statutory ambiguity at the outset, 'the rule of lenity simply has no application.' \" (quoting Albernaz v. United States , 450 U.S. 333, 343, 101 S.Ct. 1137, 67 L.Ed.2d 275 (1981) )).\nIII.\nAdhering to the canons of statutory interpretation, I would hold that pretrial detention qualifies as \"a period of incarceration\" under \u00a7 3664(n). The majority reaches the opposite result by erroneously creating an ambiguity that does not exist. Thus, I respectfully dissent.\nI agree with the majority that this case is not moot and that de novo review applies.\nThe majority cites 5 U.S.C. \u00a7 8148(b)(1)-(2) to support its argument. There, Congress used explicit language to limit the term \"period of incarceration\" to post-conviction confinement. Thus, \u00a7 8148(b)(1)-(2) supports my view that if Congress wanted to limit \u00a7 3664(n) to periods of post-conviction confinement, it knew just how to do so.\nI note that the language in \u00a7 3664(n) does not require a person to apply all of his resources toward his restitution obligations. It requires only that a person apply \"substantial resources\" received \"during a period of incarceration.\" 18 U.S.C. \u00a7 3664(n).\nI do not find Lillard's remaining arguments challenging the district court's order persuasive.",
+        "type": "dissent",
+        "author": "BENNETT, Circuit Judge, dissenting:"
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff-Appellee,\nv.\nLonnie Eugene LILLARD, Defendant-Appellant.\nNo. 16-30194\nUnited States Court of Appeals, Ninth Circuit.\nArgued and Submitted May 14, 2019 Seattle, Washington\nFiled August 28, 2019"
+  },
+  "file_name": "0827-01",
+  "first_page_order": 827,
+  "last_page_order": 838
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5993581,
+  "name": "Thomas v. United States",
+  "name_abbreviation": "Thomas v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-163",
+  "first_page": "896",
+  "last_page": "896",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 896"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.566,
+    "sha256": "e812c833136caefa80f362a14a919a706c1d64f80875ba303e51672357d5f88e",
+    "simhash": "1:8f8bde414eb5547a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Thomas v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. Fed. Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-163.\nThomas v. United States."
+  },
+  "file_name": "0896-05",
+  "first_page_order": 918,
+  "last_page_order": 918
+}

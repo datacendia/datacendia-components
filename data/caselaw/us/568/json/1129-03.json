@@ -1,0 +1,59 @@
+{
+  "id": 12429446,
+  "name": "Garrett v. Texas",
+  "name_abbreviation": "Garrett v. Texas",
+  "decision_date": "2013-01-14",
+  "docket_number": "No. 12-7213",
+  "first_page": "1129",
+  "last_page": "1129",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1129"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.678,
+    "sha256": "6f3c1057d25796789ef64bd92ff95fa9ff4a26c9e4f83221dc5f99ec838edff6",
+    "simhash": "1:5919d39b6ed1a696",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Garrett v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Tex., 6th Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7213.\nGarrett v. Texas."
+  },
+  "file_name": "1129-03",
+  "first_page_order": 1205,
+  "last_page_order": 1205
+}

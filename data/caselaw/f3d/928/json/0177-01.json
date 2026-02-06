@@ -1,0 +1,728 @@
+{
+  "id": 12521635,
+  "name": "Oswaldo CABAS, Petitioner, v. William P. BARR, Attorney General, Respondent.",
+  "name_abbreviation": "Cabas v. Barr",
+  "decision_date": "2019-07-01",
+  "docket_number": "No. 18-1630",
+  "first_page": "177",
+  "last_page": "186",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "928 F.3d 177"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "1st Cir.",
+    "id": 8809,
+    "name": "United States Court of Appeals for the First Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "280 F. App'x 104",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        4122084
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "106"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/280/0104-01"
+      ]
+    },
+    {
+      "cite": "8 U.S.C. \u00a7 1252",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(b)(4)(A)",
+          "parenthetical": "\"[T]he court of appeals shall decide the petition only on the administrative record on which the order of removal is based ....\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "138 F.3d 14",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        256914
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "21",
+          "parenthetical": "Selya, J., concurring"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/138/0014-01"
+      ]
+    },
+    {
+      "cite": "333 F.3d 13",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9108735
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "19"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/333/0013-01"
+      ]
+    },
+    {
+      "cite": "358 F. App'x 705",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        3850323
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "707",
+          "parenthetical": "\"Lack of compliance with \u00a7 1287.6 is not a valid basis for immigration courts to disregard relevant evidence unless there are additional reasons to doubt its authenticity.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/358/0705-01"
+      ]
+    },
+    {
+      "cite": "467 F.3d 33",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3804249
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "37",
+          "parenthetical": "\"Given the government reports about widespread fabrication and fraud in documents originating from Gao's region of China, it was reasonable for the IJ to require some form of authentication for such documents ....\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/467/0033-01"
+      ]
+    },
+    {
+      "cite": "505 F. App'x 4",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        4139254
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "8",
+          "parenthetical": "\"[T]he BIA's decision did not solely rest on the limited weight ascribed to an unauthenticated document, but also relied upon consideration of an IJ's prior adverse credibility finding against the petitioner.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/505/0004-01"
+      ]
+    },
+    {
+      "cite": "825 F.3d 83",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4324901
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "87",
+          "parenthetical": "\"[S]pecial respect is due to the BIA's refusal to credit an attempt at authentication by a witness whom the IJ earlier found incredible.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/825/0083-01"
+      ]
+    },
+    {
+      "cite": "564 F.3d 892",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4237651
+      ],
+      "weight": 2,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "897"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/564/0892-01"
+      ]
+    },
+    {
+      "cite": "355 F.3d 27",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9057569
+      ],
+      "weight": 3,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "30-31"
+        },
+        {
+          "page": "31",
+          "parenthetical": "deeming records authenticated through testimony as to their provenance and appearance"
+        },
+        {
+          "parenthetical": "explaining that formal hearsay rules do not apply in immigration proceedings for purposes of authentication"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/355/0027-01"
+      ]
+    },
+    {
+      "cite": "380 F. App'x 748",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        3917858
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "751-52",
+          "parenthetical": "listing alternative means of authentication"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/380/0748-01"
+      ]
+    },
+    {
+      "cite": "474 F.3d 25",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5713222
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "29"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/474/0025-01"
+      ]
+    },
+    {
+      "cite": "372 F.3d 529",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9233472
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "532"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/372/0529-01"
+      ]
+    },
+    {
+      "cite": "8 C.F.R. \u00a7 1287.6",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "pin_cites": [
+        {
+          "page": "(c)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "675 F.3d 100",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3752304
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "107"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/675/0100-01"
+      ]
+    },
+    {
+      "cite": "105 F.3d 374",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7631785
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "379"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/105/0374-01"
+      ]
+    },
+    {
+      "cite": "833 F.3d 40",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4351562
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "44",
+          "parenthetical": "\"Though Congress has not clearly defined persecution, 'we view persecution as encompassing not only death and imprisonment, but [also] \"the well-founded fear of non-life[-]threatening violence and physical abuse.\" ' \" (quoting Marquez v. INS, 105 F.3d 374, 379 (7th Cir. 1997) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/833/0040-01"
+      ]
+    },
+    {
+      "cite": "8 C.F.R. \u00a7 208.13",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "pin_cites": [
+        {
+          "page": "(b)(2)(i)(B)",
+          "parenthetical": "explaining that an asylum applicant alleging a well-founded fear of persecution must show \"a reasonable possibility of suffering ... persecution\" upon his return"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "502 F. App'x 13",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        3768267
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "17"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/502/0013-01"
+      ]
+    },
+    {
+      "cite": "602 F.3d 21",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3919996
+      ],
+      "weight": 4,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "25"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/602/0021-01"
+      ]
+    },
+    {
+      "cite": "723 F.3d 105",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4064821
+      ],
+      "weight": 2,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "111",
+          "parenthetical": "quoting Mendez-Barrera v. Holder, 602 F.3d 21, 25 (1st Cir. 2010) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/723/0105-01"
+      ]
+    },
+    {
+      "cite": "473 F. App'x 9",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        5773301
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "12",
+          "parenthetical": "\"The standard for granting reopening is the same for both asylum and withholding of removal.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/473/0009-01"
+      ]
+    },
+    {
+      "cite": "562 F.3d 71",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5898084
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "78"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/562/0071-01"
+      ]
+    },
+    {
+      "cite": "627 F.3d 427",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4073555
+      ],
+      "weight": 4,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "437",
+          "parenthetical": "quoting Larngar v. Holder, 562 F.3d 71, 78 (1st Cir. 2009) "
+        },
+        {
+          "page": "438"
+        },
+        {
+          "page": "437"
+        },
+        {
+          "page": "439",
+          "parenthetical": "\"[P]rima facie scrutiny of [the] motion to reopen must ... include an evaluation of all of the currently available evidence.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/627/0427-01"
+      ]
+    },
+    {
+      "cite": "386 F.3d 556",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9153221
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "564"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/386/0556-01"
+      ]
+    },
+    {
+      "cite": "524 F.3d 302",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3823504
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "310"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/524/0302-01"
+      ]
+    },
+    {
+      "cite": "865 F.3d 43",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12275470
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "45"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/865/0043-01"
+      ]
+    },
+    {
+      "cite": "900 F.3d 46",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12518209
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "50",
+          "parenthetical": "quoting Sanchez-Romero v. Sessions, 865 F.3d 43, 45 (1st Cir. 2017) "
+        },
+        {
+          "page": "51",
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/900/0046-01"
+      ]
+    },
+    {
+      "cite": "24 I. & N. Dec. 247",
+      "category": "reporters:federal",
+      "reporter": "I. & N. Dec.",
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "253"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "727 F.3d 53",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4076690
+      ],
+      "weight": 2,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "57",
+          "parenthetical": "quoting In re S-Y-G-, 24 I. & N. Dec. 247, 253 (B.I.A. 2007) "
+        },
+        {
+          "page": "57"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/727/0053-01"
+      ]
+    },
+    {
+      "cite": "484 F.3d 125",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5732965
+      ],
+      "weight": 2,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "127"
+        },
+        {
+          "page": "129"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/484/0125-01"
+      ]
+    },
+    {
+      "cite": "750 F.3d 87",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4067438
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "89",
+          "parenthetical": "quoting Raza v. Gonzales, 484 F.3d 125, 127 (1st Cir. 2007) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/750/0087-01"
+      ]
+    },
+    {
+      "cite": "802 F.3d 69",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4342067
+      ],
+      "weight": 2,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "74"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/802/0069-01"
+      ]
+    },
+    {
+      "cite": "913 F.3d 215",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12519767
+      ],
+      "weight": 2,
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "218"
+        },
+        {
+          "page": "218"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/913/0215-01"
+      ]
+    },
+    {
+      "cite": "695 F.3d 169",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3528525
+      ],
+      "weight": 2,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "172"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/695/0169-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1213,
+    "char_count": 25468,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2593830760017283
+    },
+    "sha256": "f093fd7b09cff7cb9d3d3b21c46463cd9415d56e1ad894670c75d127971a311f",
+    "simhash": "1:24a616b4f34c7366",
+    "word_count": 4035
+  },
+  "last_updated": "2024-02-27T18:46:54.782589+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Torruella, Thompson, and Kayatta, Circuit Judges."
+    ],
+    "parties": [
+      "Oswaldo CABAS, Petitioner,\nv.\nWilliam P. BARR, Attorney General, Respondent."
+    ],
+    "opinions": [
+      {
+        "text": "KAYATTA, Circuit Judge.\nOswaldo Cabas, a Venezuelan native and citizen, left Venezuela and legally entered the United States in April 2002. After he overstayed his visa, U.S. Immigration and Customs Enforcement commenced removal proceedings against him in December 2007. At his hearing, the immigration judge (IJ) found him ineligible for asylum, withholding of removal, and protection under the Convention Against Torture (CAT). The Board of Immigration Appeals (BIA) and this court affirmed that decision. Seven years and one Venezuelan regime change later, Cabas -- armed with a purported warrant for his arrest for treason and other evidence documenting changed conditions in Venezuela -- submitted a motion to reopen his removal proceedings. The BIA denied that motion, reasoning that Cabas had failed to establish a material change in country conditions and rejecting Cabas's evidence of a well-founded fear of future persecution. We now reverse and remand.\nI.\nCabas was born in Maracaibo, Venezuela in 1974. After completing high school, he became involved in national politics and joined a political group called \"Acci\u00f3n Democr\u00e1tica.\" As a member of that group, he arranged meetings and distributed flyers. In 1999, after Hugo Ch\u00e1vez rose to power, Cabas joined a new political group, \"Un Nuevo Tiempo,\" which opposed the Ch\u00e1vez regime. He walked house-to-house warning those who would listen that Ch\u00e1vez was a threat to democratic rule in Venezuela. He also hosted a weekly political radio segment in which he railed against Ch\u00e1vez and the ruling socialist party.\nCabas's troubles began later that year. While at a party, he heard gunshots ring out followed by voices calling his name. Fearing for his life, he fled to a nearby house and escaped unharmed. Subsequently, in March 2000, individuals from the C\u00edrculos Bolivarianos -- a network of ex-guerrilla, government-sponsored militias -- attacked Cabas and kidnapped him at gunpoint. Cabas's kidnappers demanded that he cease his political activities, beat him, and left him bloodied and unconscious in the street.\nSeveral months thereafter, Cabas resumed his political work. In retaliation, Ch\u00e1vez supporters kidnapped and attacked his father \"in the same way that was done to [Cabas].\" Fearing further harm, Cabas sought refuge in the United States in April 2002 and ceased his political activity. He returned to Venezuela in October, hoping that the political climate might be less turbulent. That calculation proved wrong. Later that month, two men came to his parents' house looking for him. They attacked his brothers and attempted to get them to reveal Cabas's whereabouts. Recognizing that his presence in Venezuela threatened not only his own safety but that of his family, Cabas returned to the United States in November 2002.\nThe Department of Homeland Security initiated removal proceedings against Cabas five years later, in December 2007. At his removal hearing in 2010, the IJ denied Cabas's asylum application as untimely and rejected his petitions for withholding of removal and CAT protection because the experience Cabas related did not rise to the level of actual persecution and because he otherwise failed to demonstrate that it was more likely than not that he would suffer future persecution or torture. The BIA affirmed those rulings, as did a panel of this court. See Cabas v. Holder (Cabas I ), 695 F.3d 169 (1st Cir. 2012).\nIn January 2018, Cabas moved to reopen his removal proceedings, arguing that conditions have materially worsened for political dissidents in Venezuela since the denial of his applications in 2010 and claiming prima facie eligibility for asylum and withholding-of-removal relief. The BIA denied his motion, and this appeal followed.\nII.\nTo prevail on his otherwise untimely motion to reopen, Cabas needed to make two showings. First, he had to \"adduce material evidence, previously unavailable, showing changed country conditions\" in Venezuela. Garcia-Aguilar v. Whitaker, 913 F.3d 215, 218 (1st Cir. 2019) ; see also 8 U.S.C. \u00a7 1229a(c)(7)(C)(ii). Second, he had to \"make out a prima facie case of eligibility\" for asylum. Garcia-Aguilar, 913 F.3d at 218.\nThe BIA found that Cabas made neither showing. We review the BIA's findings \"under a deferential abuse of discretion standard.\" Xin Qiang Liu v. Lynch, 802 F.3d 69, 74 (1st Cir. 2015). This deferential standard of review means that in order to secure appellate relief from this court, Cabas need now demonstrate not just that the BIA was wrong, but that it \"committed an error of law or exercised its judgment in an arbitrary, capricious, or irrational way.\" Xue Su Wang v. Holder, 750 F.3d 87, 89 (1st Cir. 2014) (quoting Raza v. Gonzales, 484 F.3d 125, 127 (1st Cir. 2007) ).\nWith these standards in mind, we turn to the merits of Cabas's case.\nA.\nTo determine if country conditions have changed, the BIA compares the evidence submitted with the petitioner's motion to reopen with the evidence presented at his merits hearing. See Haizem Liu v. Holder, 727 F.3d 53, 57 (1st Cir. 2013) (quoting In re S-Y-G-, 24 I. & N. Dec. 247, 253 (B.I.A. 2007) ). Cabas needed to show the BIA that conditions \" 'intensified or deteriorated' in some material way\" between the time of his merits hearing and his motion to reopen. Sihotang v. Sessions, 900 F.3d 46, 50 (1st Cir. 2018) (quoting S\u00e1nchez-Romero v. Sessions, 865 F.3d 43, 45 (1st Cir. 2017) ).\nCabas's primary evidence of changed country conditions is the 2016 U.S. Department of State Human Rights Report for Venezuela. The BIA compared this document with the State Department's 2009 Human Rights Report for Venezuela, which accompanied Cabas's original asylum application. While noting the Venezuelan government's continued targeting of \"opposition political activists for arbitrary detentions\" and \"reports of government harassment and intimidation of opposition political parties,\" the BIA concluded that Cabas's new evidence was \"insufficient to show a material change in conditions or circumstances in Venezuela with respect to the treatment of members of opposition political parties since the respondent's removal proceedings in 2010.\"\nStanding alone, a side-by-side comparison of the comprehensive information presented in the State Department's 2009 and 2016 Venezuela Country Reports -- which are \"authoritative\" for purposes of this proceeding, Pulisir v. Mukasey, 524 F.3d 302, 310 (1st Cir. 2008) -- reveals a material shift in Venezuela's political landscape and a significant escalation in the dangers that opposition political activists face in that country. Such a comparison is a crucial exercise in determining whether country conditions have in fact changed. See Haizem Liu, 727 F.3d at 57.\nFor one, the country reports document a substantial increase in the rate of arbitrary detentions in Venezuela since 2009, particularly for political activists. While the 2009 report observes that \"[p]ersons were sometimes apprehended without warrants from judicial authorities,\" the 2016 report recounts that \"[p]olice often detained individuals without a warrant\" and documents \"at least 2,000 open cases of arbitrary detentions\" that year and 5,853 arbitrary detentions from February 2014 to June 2016. The 2016 report provides numerous specific accounts of Venezuelan authorities targeting political dissidents for such treatment. And though Venezuelan law \"allows detainees access to counsel and family members,\" mandates that prisoners \"be informed promptly of the charges against them,\" and requires that they appear before a judge \"to determine the legality of the detention,\" the 2016 report observes that these requirements were not honored for political prisoners. By contrast, the 2009 report makes no mention of this nonfeasance.\nThe number of political prisoners in Venezuela also materially increased from 2009 to 2016. In 2009, the State Department reported \"between 11 and 57 political prisoners\" in Venezuela. By 2016, that number had risen to more than 100, and -- more significantly -- \"[a]n additional 1,998 individuals were subject[ed] to either restricted movement or precautionary measures\" due to their political activism.\nThe record also demonstrates a surge in the number of extrajudicial killings by security forces since 2009. While the 2009 report documents \"205 deaths due to security force actions\" in a one-year period, the 2016 report details 1,296 such killings and describes \"large-scale raids conducted by hundreds of government security agents in neighborhoods allegedly harboring criminals,\" which \"often resulted in the deaths of suspected criminals.\"\nAnd though it's true that both reports portray serious impingements on individuals' political speech and the press, the 2016 report reveals important new restrictions on the freedoms of assembly and association under the Nicol\u00e1s Maduro regime. These include \"the increasing activities of progovernment gangs,\" the detention of protesters, and the limiting of access to opposition rallies. Further, the report notes that, in some parts of the country, the regime has suspended the constitutional rights to meet publicly or privately without prior government permission and to peacefully demonstrate. More generally, a comparison of the two reports shows a dramatic shift from a government characterized by \"generally free and fair\" elections to an increasingly authoritarian regime with elections marred by \"government interference, electoral irregularities, and manipulation of voters.\"\nIt is inescapably apparent that country conditions have worsened in a manner that is material to Cabas's asylum and withholding claims. Cabas hinges his claims on establishing a well-founded fear of future persecution based on political affiliation. The Venezuelan government's increasingly aggressive, increasingly violent repression of political dissent and its shift toward authoritarian rule certainly made it more likely that a political dissident would face persecution upon returning to Venezuela when Cabas moved to reopen his immigration proceedings in January 2018. The BIA's conclusion to the contrary lacks record support and is, for that reason, arbitrary.\nB.\nWe turn now to the BIA's conclusion that Cabas failed to make out even a prima facie case for asylum or withholding of removal. To demonstrate a prime facie case before the BIA on a motion to reopen, Cabas need not establish that he will or is even likely to prevail if given another hearing before an IJ on the merits of his asylum and withholding claims. Rather, he need only show now that there exists a \"realistic chance\" that he can \"at a later time establish that asylum should be granted.\" Guo v. Ashcroft, 386 F.3d 556, 564 (3d Cir. 2004). In practical terms, this means that he \" 'need only produce objective evidence showing a \"reasonable likelihood\" ' that he will face future persecution based on a statutory ground.\" Smith v. Holder, 627 F.3d 427, 437 (1st Cir. 2010) (quoting Larngar v. Holder, 562 F.3d 71, 78 (1st Cir. 2009) ); see also Perez v. Holder, 473 F. App'x 9, 12 (1st Cir. 2012) (\"The standard for granting reopening is the same for both asylum and withholding of removal.\").\nThe \"[p]ersecution\" an asylum applicant must show is more than \"mere discomfiture, unpleasantness, harassment, or unfair treatment.\" Jutus v. Holder, 723 F.3d 105, 111 (1st Cir. 2013) (quoting Mendez-Barrera v. Holder, 602 F.3d 21, 25 (1st Cir. 2010) ). Instead, the petitioner need show \"serious harm.\" Id. (quoting Mendez-Barrera, 602 F.3d at 25 ). Moreover, \"the alleged persecution must involve 'some connection to government action or inaction.' \" Id. (quoting Raza v. Gonzales, 484 F.3d 125, 129 (1st Cir. 2007) ). In considering whether a petitioner has established a prima facie case, this court looks to both \"the evidence that accompanies the motion as well as relevant evidence that may exist in the record of the prior hearing.\" Smith, 627 F.3d at 438.\nAccompanying his motion to reopen, Cabas included an affidavit. That affidavit provides that Cabas \"still support[s] [Un Nuevo Tiempo], and make[s] monetary contributions of about $ 50-100 every two or three months.\" It further states that two of his friends -- also members of Un Nuevo Tiempo -- were arrested during a political protest in February 2017 and were \"subsequently tortured and killed.\" Finally, it recounts that Cabas's mother called and informed Cabas that she had been served with a warrant for his arrest, charging him for treason, in July 2017. According to the affidavit, the treason charge makes him \"an immediate target to be killed\" upon his return to Venezuela.\nCabas included a copy of the purported warrant for his arrest with his motion. The warrant is dated June 27, 2017 and includes what appear to be the signature of a Venezuelan judge and the stamped seal of the Bolivarian Republic of Venezuela. The warrant charges Cabas with providing logistical and economic support to opposition demonstrators, public instigation, and treason. Other than the affidavit and arrest warrant, Cabas provided the U.S. Department of State's 2016 Human Rights Report for Venezuela, a 2016 Human Rights Watch Report, and a news article on Venezuela's \"Law of Hate.\"\nThe BIA concluded that Cabas's evidence could not establish even prima facie eligibility for asylum and withholding of removal. It gave \"limited weight\" to Cabas's arrest warrant, reasoning that \"[i]t ha[d] not been meaningfully authenticated in any manner\" and Cabas had provided no \"plausible explanation [for] why authorities would seek to arrest him\" given his lengthy absence from Venezuela. As to Cabas's affidavit, the BIA noted that Cabas had offered no independent evidence that he continued to support Un Nuevo Tiempo; that his friends were arrested, tortured, and killed; or that the warrant was delivered to his family's home. The BIA provided no further explanation for its conclusion, nor did it make mention of Cabas's other evidence or the record from his original removal proceedings.\nOn appeal, the government does not dispute that the warrant, if real, would provide compelling evidence of likely persecution should Cabas return to Venezuela. The document demonstrates that the Venezuelan government both views him as an opposition figure and aims to try him for treason and related offenses. While \"brief periods of detention, without accompanying physical abuse,\" do not amount to persecution, Xiu Xia Zheng v. Holder, 502 F. App'x 13, 17 (1st Cir. 2013), the 2016 Human Rights Report indicates that individuals recently charged with engaging in opposition activities in Venezuela have faced severe sanctions of up to twenty-five years in prison. And many political prisoners are tortured while in custody. Clearly, a credible threat of such conduct, if proven at a subsequent proceeding, would support a finding that Cabas has a well-founded fear of future persecution. See 8 C.F.R. \u00a7 208.13(b)(2)(i)(B) (explaining that an asylum applicant alleging a well-founded fear of persecution must show \"a reasonable possibility of suffering ... persecution\" upon his return); see also Chen Qin v. Lynch, 833 F.3d 40, 44 (1st Cir. 2016) (\"Though Congress has not clearly defined persecution, 'we view persecution as encompassing not only death and imprisonment, but [also] \"the well-founded fear of non-life[-]threatening violence and physical abuse.\" ' \" (quoting Marquez v. INS, 105 F.3d 374, 379 (7th Cir. 1997) )). So, the key issue on this appeal is whether the BIA abused its discretion in giving the arrest warrant \"limited weight,\" which, in this context, equates to no material weight at all.\n\"The BIA has discretion to deem a document's lack of authentication a telling factor weighing against its evidentiary value.\" Hang Chen v. Holder, 675 F.3d 100, 107 (1st Cir. 2012). Department of Justice regulations generally provide that public documents may be authenticated by \"official publication\" or certification by an authorized foreign officer. See 8 C.F.R. \u00a7 1287.6(c). But because \"asylum applicants [cannot] always reasonably be expected to have an authenticated document from an alleged persecutor,\" Gui Cun Liu v. Ashcroft, 372 F.3d 529, 532 (3d Cir. 2004), these regulations \"offer[ ] only a method -- not the exclusive method -- for authenticating a record in an asylum case,\" Jiang v. Gonzales, 474 F.3d 25, 29 (1st Cir. 2007) ; see also Nak Chen v. Holder, 380 F. App'x 748, 751-52 (10th Cir. 2010) (listing alternative means of authentication). Accordingly, we have held that \"authentication requires nothing more than proof that a document or thing is what it purports to be\" and \"can be prove[n] in any way that makes sense in the circumstances.\" Yongo v. INS, 355 F.3d 27, 30-31 (1st Cir. 2004). Moreover, \"in immigration proceedings -- where the rules of evidence do not apply -- evidentiary standards are generally more lax.\" Castilho de Oliveira v. Holder, 564 F.3d 892, 897 (7th Cir. 2009).\nAs proof that the warrant is authentic, Cabas points to the face of the document -- which bears the imprimatur of the Venezuelan government and the signature of the issuing judge -- and to his supporting affidavit. While not meeting the formal requirements of a self-authenticating foreign public document, see Fed. R. Evid. 902(3), the face of the arrest warrant reveals no cause to doubt its genuineness.\nCabas's affidavit further evidences the arrest warrant's authenticity. In that affidavit, Cabas states that \"[o]n or around July of 2017 [his] mother called and informed [him] that she had received a warrant for [his] arrest,\" charging him with treason, \"at [their] residence in Venezuela.\" The affidavit provides some corroboration as to the validity of the arrest warrant by establishing the manner, location, and time that Cabas's family came to possess it. See Yongo, 355 F.3d at 31 (deeming records authenticated through testimony as to their provenance and appearance); see also id. (explaining that formal hearsay rules do not apply in immigration proceedings for purposes of authentication). Moreover, contrary to the BIA's assertion that no plausible explanation exists as to why authorities would now seek to arrest Cabas, Cabas's affidavit and supporting documents explain that he has continued to support Un Nuevo Tiempo while living in the United States and that the Maduro government has engaged in a systematic, heightened crackdown on political dissent within Venezuela. If credited, this evidence provides a cogent explanation for why members of the Maduro government would now seek Cabas's arrest for treason.\nWe accord the BIA wide berth to reject a petitioner's attempt to authenticate a document when the petitioner was deemed not credible at his merits hearing. See, e.g., Xiao He Chen v. Lynch, 825 F.3d 83, 87 (1st Cir. 2016) (\"[S]pecial respect is due to the BIA's refusal to credit an attempt at authentication by a witness whom the IJ earlier found incredible.\"); Gi Kuan Tsai v. Holder, 505 F. App'x 4, 8 (1st Cir. 2013) (\"[T]he BIA's decision did not solely rest on the limited weight ascribed to an unauthenticated document, but also relied upon consideration of an IJ's prior adverse credibility finding against the petitioner.\"). Here, though, we have the converse: The IJ who observed Cabas testify at his merits hearing deemed Cabas to be generally credible. So, we have an arrest warrant that looks, but may not be, authentic, supported by an affidavit signed by a person previously accepted as credible by the IJ and the BIA. The issuance of such a warrant fits the established narrative put forth in the motion to reopen. It hardly seems out of character for the regime described in the U.S. Department of State's 2016 Human Rights Report. Cabas swears to continuing activity that would likely engender the displeasure of the regime described in that report. And the BIA points to no reports indicating that documents of this ilk from Venezuela are frequently doctored or fraudulently created. Cf. Gao v. Gonzales, 467 F.3d 33, 37 (1st Cir. 2006) (\"Given the government reports about widespread fabrication and fraud in documents originating from Gao's region of China, it was reasonable for the IJ to require some form of authentication for such documents ....\").\nWere this a reopened proceeding, Cabas would presumably be questioned about the warrant and his other evidence. An IJ would certainly have broad discretion to gauge the credibility of that testimony. For now and on this record, though, it strikes us as entirely arbitrary to deem Cabas's proffered testimony to be incredible. It therefore also strikes us as equally arbitrary to treat the warrant as a fraud. In short, \"[a]bsent evidence of forgery, alteration, or some other reason to doubt [its] authenticity,\" we do not think the BIA was entitled to treat the warrant as so obviously fraudulent as to render it insufficient to prove even a prima facie case of likely persecution. Castilho de Oliveira, 564 F.3d at 897 ; see also Hua Chen v. Holder, 358 F. App'x 705, 707 (7th Cir. 2009) (\"Lack of compliance with \u00a7 1287.6 is not a valid basis for immigration courts to disregard relevant evidence unless there are additional reasons to doubt its authenticity.\").\nWe are also troubled by the BIA's sweeping disregard of Cabas's affidavit for lack of independent corroboration. If credited, that affidavit provides evidence of his continued political involvement with Un Nuevo Tiempo, the targeting of other members of this political organization for persecution, and the Maduro government's intention to prosecute Cabas for treason -- evidence that is clearly material to Cabas's claim of future persecution. In Smith v. Holder, we observed that \"[t]o make a showing of either past persecution or a likelihood of future persecution, 'an applicant's testimony, if credible, may be sufficient.' \" 627 F.3d at 437 (quoting Fesseha v. Ashcroft, 333 F.3d 13, 19 (1st Cir. 2003) ); see also Jutus, 723 F.3d at 112 n.3 (\"We have considered -- and in some cases upheld -- numerous asylum applications and motions to reopen that relied exclusively on an applicant's affidavit and documentary evidence.\"). Here, where the IJ deemed Cabas a credible witness in the underlying proceeding, and the BIA points to no other reason to doubt Cabas's testimony, it was an abuse of discretion to reject the affidavit and disregard its contents.\nFinally, the BIA made no mention at all of the evidence Cabas proffered in his original asylum case. This, too, was error. See Smith, 627 F.3d at 439 (\"[P]rima facie scrutiny of [the] motion to reopen must ... include an evaluation of all of the currently available evidence.\"). Though we previously held that Cabas did not suffer past persecution while living in Venezuela, his evidence of real harassment from government-sponsored gangs due to his political activism certainly warrants some weight in deciding whether he will suffer persecution upon his return to Venezuela in the worsened conditions that now exist.\n\"While it remains true that the BIA need not 'dissect in minute detail every contention that a complaining party advances,' it cannot turn a blind eye to salient facts.\" Sihotang, 900 F.3d at 51 (citation omitted) (quoting Xiao He Chen, 825 F.3d at 88 ). We cannot say that the BIA fulfilled that mandate here. Moreover, we think the record before us compels the conclusion that Cabas has shown at least a reasonable chance that he will face future persecution based on his political opinion. Accordingly, reversal is warranted. See Xin Qiang Liu, 802 F.3d at 74 ; Fergiste v. INS, 138 F.3d 14, 21 (1st Cir. 1998) (Selya, J., concurring) (\"[I]n some cases the record may be so pellucid that remand would be an empty exercise.\").\nIII.\nFor the foregoing reasons, we reverse the BIA's denial of Cabas's motion to reopen his removal proceedings, and we remand to the BIA with instructions to order a new hearing before an IJ to reconsider Cabas's petitions for asylum and withholding of removal in light of Cabas's new evidence.\nBecause our review of the BIA's denial of Cabas's motion to reopen is limited to the administrative record before the BIA, see 8 U.S.C. \u00a7 1252(b)(4)(A) (\"[T]he court of appeals shall decide the petition only on the administrative record on which the order of removal is based ....\"); Yan Yun Zheng v. Mukasey, 280 F. App'x 104, 106 (2d Cir. 2008), we do not consider the additional materials addressing changes in Venezuela since January 25, 2018 (the date Cabas submitted his motion to reopen) that Cabas included with his opening appellate brief.\nAs we explained in Cabas I, the IJ found Cabas to be generally credible but discounted one incident recounted in his testimony because he did not also mention it in his supporting affidavit. See Cabas I, 695 F.3d at 172.",
+        "type": "majority",
+        "author": "KAYATTA, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Daniel Welch, with whom Kevin P. MacMurray and MacMurray & Associates were on brief, for petitioner.",
+      "Nelle M. Seymour, Trial Attorney, Office of Immigration Litigation, Civil Division, U.S. Department of Justice, with whom Joseph H. Hunt, Assistant Attorney General, Civil Division, U.S. Department of Justice, and Claire L. Workman, Senior Litigation Counsel, Office of Immigration Litigation, U.S. Department of Justice, were on brief, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "Oswaldo CABAS, Petitioner,\nv.\nWilliam P. BARR, Attorney General, Respondent.\nNo. 18-1630\nUnited States Court of Appeals, First Circuit.\nJuly 1, 2019\nDaniel Welch, with whom Kevin P. MacMurray and MacMurray & Associates were on brief, for petitioner.\nNelle M. Seymour, Trial Attorney, Office of Immigration Litigation, Civil Division, U.S. Department of Justice, with whom Joseph H. Hunt, Assistant Attorney General, Civil Division, U.S. Department of Justice, and Claire L. Workman, Senior Litigation Counsel, Office of Immigration Litigation, U.S. Department of Justice, were on brief, for respondent.\nBefore Torruella, Thompson, and Kayatta, Circuit Judges."
+  },
+  "file_name": "0177-01",
+  "first_page_order": 177,
+  "last_page_order": 186
+}

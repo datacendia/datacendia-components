@@ -1,0 +1,59 @@
+{
+  "id": 12428464,
+  "name": "Knox v. Walker, Warden",
+  "name_abbreviation": "Knox v. Walker",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-6963",
+  "first_page": "1102",
+  "last_page": "1102",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1102"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.607,
+    "sha256": "4a7ce53b043627ffcac7b71a08ffdc6f37798dda16efb36f3922a72267447682",
+    "simhash": "1:9cd73581e9f93076",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Knox v. Walker, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6963.\nKnox v. Walker, Warden."
+  },
+  "file_name": "1102-03",
+  "first_page_order": 1178,
+  "last_page_order": 1178
+}

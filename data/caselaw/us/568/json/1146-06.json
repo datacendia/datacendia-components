@@ -1,0 +1,59 @@
+{
+  "id": 12430091,
+  "name": "Patterson v. Arizona",
+  "name_abbreviation": "Patterson v. Arizona",
+  "decision_date": "2013-01-22",
+  "docket_number": "No. 12-7361",
+  "first_page": "1146",
+  "last_page": "1146",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1146"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 70,
+    "ocr_confidence": 0.685,
+    "sha256": "c5f3a7d2f598c6fae37ed35edaf6632543520255487e2a43d65f2016f33946f7",
+    "simhash": "1:001d34768d01a4c8",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Patterson v. Arizona."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ariz. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7361.\nPatterson v. Arizona."
+  },
+  "file_name": "1146-06",
+  "first_page_order": 1222,
+  "last_page_order": 1222
+}

@@ -1,0 +1,59 @@
+{
+  "id": 6012708,
+  "name": "Insua v. McDonald, Warden",
+  "name_abbreviation": "Insua v. McDonald",
+  "decision_date": "2010-10-12",
+  "docket_number": "No. 10-5784",
+  "first_page": "967",
+  "last_page": "967",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 967"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.574,
+    "sha256": "e37a96e610f9b4ff36e6e582726397a1b9c2e69712fdb3bdc6fe65841112d13b",
+    "simhash": "1:f795249013973172",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Insua v. McDonald, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5784.\nInsua v. McDonald, Warden."
+  },
+  "file_name": "0967-05",
+  "first_page_order": 989,
+  "last_page_order": 989
+}

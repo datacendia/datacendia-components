@@ -1,0 +1,59 @@
+{
+  "id": 5924765,
+  "name": "City of Cincinnati, Ohio, et al. v. Miller et al.",
+  "name_abbreviation": "City of Cincinnati v. Miller",
+  "decision_date": "2011-05-02",
+  "docket_number": "No. 10-1054",
+  "first_page": "974",
+  "last_page": "974",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 974"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 97,
+    "ocr_confidence": 0.575,
+    "sha256": "81d9a15d1fdac40c6a099feea69a6b20b6bb4427e517f22d22fe929d63d51983",
+    "simhash": "1:d9ea22afc87e983e",
+    "word_count": 18
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "City of Cincinnati, Ohio, et al. v. Miller et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1054.\nCity of Cincinnati, Ohio, et al. v. Miller et al."
+  },
+  "file_name": "0974-11",
+  "first_page_order": 1000,
+  "last_page_order": 1000
+}

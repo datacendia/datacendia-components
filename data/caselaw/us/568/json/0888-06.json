@@ -1,0 +1,59 @@
+{
+  "id": 12415119,
+  "name": "Bader v. United States",
+  "name_abbreviation": "Bader v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-141",
+  "first_page": "888",
+  "last_page": "888",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 888"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.604,
+    "sha256": "14879b4272c52b379b158000103cca516db6bf1d2d7b39fd75851fe263228909",
+    "simhash": "1:87881a139af4920a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bader v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-141.\nBader v. United States."
+  },
+  "file_name": "0888-06",
+  "first_page_order": 964,
+  "last_page_order": 964
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5933795,
+  "name": "Rogers v. New York",
+  "name_abbreviation": "Rogers v. New York",
+  "decision_date": "2010-10-12",
+  "docket_number": "No. 10-5954",
+  "first_page": "969",
+  "last_page": "969",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 969"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 93,
+    "ocr_confidence": 0.527,
+    "sha256": "d8f4fefacb3f503da760cd1c27f90b733ac871876a9072b7541854245bb59919",
+    "simhash": "1:6ff0c02ce1b5f332",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rogers v. New York."
+    ],
+    "opinions": [
+      {
+        "text": "App. Div., Sup. Ct. N. Y, 4th Jud. Dept. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5954.\nRogers v. New York."
+  },
+  "file_name": "0969-10",
+  "first_page_order": 991,
+  "last_page_order": 991
+}

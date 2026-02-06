@@ -1,0 +1,59 @@
+{
+  "id": 12246962,
+  "name": "Marlin v. Roberts, Warden",
+  "name_abbreviation": "Marlin v. Roberts",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-7807",
+  "first_page": "1211",
+  "last_page": "1211",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1211"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.639,
+    "sha256": "582b8ffba31a61454716d5a825d7ba95936c3d58ee08040202133c3c5d3a06cf",
+    "simhash": "1:bc7f5a32a6cfb2d7",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Marlin v. Roberts, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7807.\nMarlin v. Roberts, Warden."
+  },
+  "file_name": "1211-01",
+  "first_page_order": 1293,
+  "last_page_order": 1293
+}

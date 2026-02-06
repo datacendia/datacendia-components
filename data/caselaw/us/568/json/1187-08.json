@@ -1,0 +1,61 @@
+{
+  "id": 12431741,
+  "name": "Williams v. United States",
+  "name_abbreviation": "Williams v. United States",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-7942",
+  "first_page": "1187",
+  "last_page": "1187",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1187"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 152,
+    "ocr_confidence": 0.662,
+    "sha256": "40c9d23fc2cb623db3c25f9f0ed5d2cc493b64b088f58afd6837532acb0c434a",
+    "simhash": "1:8d82fb024e8cb8ca",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Williams v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7942.\nWilliams v. United States."
+  },
+  "file_name": "1187-08",
+  "first_page_order": 1263,
+  "last_page_order": 1263
+}

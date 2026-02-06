@@ -1,0 +1,59 @@
+{
+  "id": 5929460,
+  "name": "Wade v. Georgia",
+  "name_abbreviation": "Wade v. Georgia",
+  "decision_date": "2011-06-27",
+  "docket_number": "No. 10-10112",
+  "first_page": "1041",
+  "last_page": "1041",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1041"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 63,
+    "ocr_confidence": 0.58,
+    "sha256": "993d7a990b7eca140f559045a019fc86e7c7c8ea0c1840cc3e23071558f7c48c",
+    "simhash": "1:d8347494f152e023",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wade v. Georgia."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Ga. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10112.\nWade v. Georgia."
+  },
+  "file_name": "1041-06",
+  "first_page_order": 1035,
+  "last_page_order": 1035
+}

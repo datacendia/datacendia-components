@@ -1,0 +1,61 @@
+{
+  "id": 12228845,
+  "name": "Reynolds v. United States",
+  "name_abbreviation": "Reynolds v. United States",
+  "decision_date": "2011-10-11",
+  "docket_number": "No. 11-5086",
+  "first_page": "960",
+  "last_page": "960",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 960"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 153,
+    "ocr_confidence": 0.644,
+    "sha256": "64d07dc4a3008343956a8ea4e76bac3f48a3574a76ba967180267b82fd8f227f",
+    "simhash": "1:9d33db02050e984a",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Reynolds v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5086.\nReynolds v. United States."
+  },
+  "file_name": "0960-01",
+  "first_page_order": 1042,
+  "last_page_order": 1042
+}

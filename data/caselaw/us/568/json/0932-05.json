@@ -1,0 +1,61 @@
+{
+  "id": 12417305,
+  "name": "Surgent v. United States",
+  "name_abbreviation": "Surgent v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5054",
+  "first_page": "932",
+  "last_page": "932",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 932"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 150,
+    "ocr_confidence": 0.662,
+    "sha256": "bfe511a119abf509097ba614100124d9467004a320e296585db64277d733f697",
+    "simhash": "1:dd13ea8241069c4a",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Surgent v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5054.\nSurgent v. United States."
+  },
+  "file_name": "0932-05",
+  "first_page_order": 1008,
+  "last_page_order": 1008
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5925475,
+  "name": "Haycock v. Epstein et al.",
+  "name_abbreviation": "Haycock v. Epstein",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-1392",
+  "first_page": "832",
+  "last_page": "832",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 832"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 73,
+    "ocr_confidence": 0.665,
+    "sha256": "64e6af18f837c8693624490de1cc700ba801985fb6ddec7b80434d9ccbaf49a3",
+    "simhash": "1:11a844a00d8c9066",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Haycock v. Epstein et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-1392.\nHaycock v. Epstein et al."
+  },
+  "file_name": "0832-03",
+  "first_page_order": 854,
+  "last_page_order": 854
+}

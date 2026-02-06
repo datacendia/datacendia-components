@@ -1,0 +1,59 @@
+{
+  "id": 6001229,
+  "name": "Scott v. Illinois",
+  "name_abbreviation": "Scott v. Illinois",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11380",
+  "first_page": "877",
+  "last_page": "877",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 877"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.65,
+    "sha256": "ebd59221534b9384404feaa2683baf79591e9133dc797f1080d4d0077eaad892",
+    "simhash": "1:514802497434b23d",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Scott v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Ill., 3d Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11380.\nScott v. Illinois."
+  },
+  "file_name": "0877-02",
+  "first_page_order": 899,
+  "last_page_order": 899
+}

@@ -1,0 +1,103 @@
+{
+  "id": 12245310,
+  "name": "American Tradition Partnership, Inc., fka Western Tradition Partnership, Inc., et al. v. Bullock, Attorney General of Montana, et al.",
+  "name_abbreviation": "American Tradition Partnership, Inc. v. Bullock",
+  "decision_date": "2012-02-17",
+  "docket_number": "No. 11A762",
+  "first_page": "1187",
+  "last_page": "1188",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1187"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "490 U. S. 477",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        605341
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "484"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/490/0477-01"
+      ]
+    },
+    {
+      "cite": "558 U. S. 310",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3639027
+      ],
+      "weight": 2,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "357"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/558/0310-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 145,
+    "char_count": 1510,
+    "ocr_confidence": 0.646,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.24765594441992564
+    },
+    "sha256": "12bbcf4839b1c1e1f1cf337c02a6f7717f66290516cc1dae1c5044659f1a5f82",
+    "simhash": "1:385a329fdb816b7c",
+    "word_count": 237
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "with whom Justice Breyer joins,"
+    ],
+    "parties": [
+      "American Tradition Partnership, Inc., fka Western Tradition Partnership, Inc., et al. v. Bullock, Attorney General of Montana, et al."
+    ],
+    "opinions": [
+      {
+        "text": "Application for stay, presented to Justice Kennedy, and by him referred to the Court, granted, and the Montana Supreme Court\u2019s December 30, 2011, decision in case No. DA 11-0081 is stayed pending the timely filing and disposition of a petition for writ of certiorari. Should the petition for writ of certiorari be denied, this stay shall terminate automatically. In the event the petition for writ of certio-rari is granted, the stay shall terminate upon the issuance of the mandate of this Court.\nStatement of\nJustice Ginsburg,\nwith whom Justice Breyer joins,\nrespecting the grant of the application for stay.\nMontana\u2019s experience, and experience elsewhere since this Court\u2019s decision in Citizens United v. Federal Election Comm\u2019n, 558 U. S. 310 (2010), make it exceedingly difficult to maintain that independent expenditures by corporations \u201cdo not give rise to corruption or the appearance of corruption.\u201d Id., at 357. A petition for certiorari will give the Court an opportunity to consider whether, in light of the huge sums currently deployed to buy candidates\u2019 allegiance, Citizens United should continue to hold sway. Because lower courts are bound to follow this Court\u2019s decisions until they are withdrawn or modified, however, Rodriguez de Quijas v. Shearson/American Express, Inc., 490 U. S. 477, 484 (1989), I vote to grant the stay.",
+        "type": "majority",
+        "author": "Justice Ginsburg,"
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "February 17, 2012\nNo. 11A762.\nAmerican Tradition Partnership, Inc., fka Western Tradition Partnership, Inc., et al. v. Bullock, Attorney General of Montana, et al."
+  },
+  "file_name": "1187-06",
+  "first_page_order": 1269,
+  "last_page_order": 1270
+}

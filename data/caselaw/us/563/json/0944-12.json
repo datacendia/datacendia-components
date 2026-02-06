@@ -1,0 +1,59 @@
+{
+  "id": 5929997,
+  "name": "Study v. United States",
+  "name_abbreviation": "Study v. United States",
+  "decision_date": "2011-04-18",
+  "docket_number": "No. 10-9043",
+  "first_page": "944",
+  "last_page": "944",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 944"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.57,
+    "sha256": "abea4e82a885f7ebd076f151b8a9939e4504a6b441d1c471960d8f58f6d715cb",
+    "simhash": "1:064a9fa9e2075c84",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Study v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9043.\nStudy v. United States."
+  },
+  "file_name": "0944-12",
+  "first_page_order": 970,
+  "last_page_order": 970
+}

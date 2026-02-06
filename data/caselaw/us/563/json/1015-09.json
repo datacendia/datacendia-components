@@ -1,0 +1,59 @@
+{
+  "id": 5942831,
+  "name": "Leyva-Martinez v. United States",
+  "name_abbreviation": "Leyva-Martinez v. United States",
+  "decision_date": "2011-05-23",
+  "docket_number": "No. 10-10149",
+  "first_page": "1015",
+  "last_page": "1015",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1015"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 81,
+    "ocr_confidence": 0.556,
+    "sha256": "273506efdc1b87421123e81b25bad4b40817c1d7f5c361fe8179602c8e38f30a",
+    "simhash": "1:1583c68109bb4452",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Leyva-Martinez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10149.\nLeyva-Martinez v. United States."
+  },
+  "file_name": "1015-09",
+  "first_page_order": 1041,
+  "last_page_order": 1041
+}

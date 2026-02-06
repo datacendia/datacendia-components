@@ -1,0 +1,59 @@
+{
+  "id": 12415759,
+  "name": "Garner v. Jones et al.",
+  "name_abbreviation": "Garner v. Jones",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5358",
+  "first_page": "908",
+  "last_page": "908",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 908"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 71,
+    "ocr_confidence": 0.699,
+    "sha256": "efe935977a9f533ec5ac785ff0b7b19089d7e8109c45c7195db23b303d53953b",
+    "simhash": "1:9c8308e95e5ff5bd",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Garner v. Jones et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5358.\nGarner v. Jones et al."
+  },
+  "file_name": "0908-12",
+  "first_page_order": 984,
+  "last_page_order": 984
+}

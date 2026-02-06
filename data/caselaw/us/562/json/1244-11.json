@@ -1,0 +1,59 @@
+{
+  "id": 6015977,
+  "name": "West v. United States",
+  "name_abbreviation": "West v. United States",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8407",
+  "first_page": "1244",
+  "last_page": "1244",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1244"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.668,
+    "sha256": "6cbee828a1ea51fed52797f4e109e7979528ab4ddf7c59485eb39c83bd0b08a6",
+    "simhash": "1:8d28cb330e8f903a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "West v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8407.\nWest v. United States."
+  },
+  "file_name": "1244-11",
+  "first_page_order": 1266,
+  "last_page_order": 1266
+}

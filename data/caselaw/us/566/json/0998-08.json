@@ -1,0 +1,59 @@
+{
+  "id": 12217979,
+  "name": "Taylor v. McKee, Warden",
+  "name_abbreviation": "Taylor v. McKee",
+  "decision_date": "2012-05-14",
+  "docket_number": "No. 11-9405",
+  "first_page": "998",
+  "last_page": "998",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 998"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.564,
+    "sha256": "e43aafcd063d13d270650114ec72a185ae2cd9b0f0d6e41050d52c87adbcbaff",
+    "simhash": "1:c2a022227a1f10e6",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Taylor v. McKee, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9405.\nTaylor v. McKee, Warden."
+  },
+  "file_name": "0998-08",
+  "first_page_order": 874,
+  "last_page_order": 874
+}

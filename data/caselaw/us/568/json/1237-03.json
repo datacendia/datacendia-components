@@ -1,0 +1,59 @@
+{
+  "id": 12433402,
+  "name": "Pierre v. Rogers, Warden",
+  "name_abbreviation": "Pierre v. Rogers",
+  "decision_date": "2013-03-18",
+  "docket_number": "No. 12-8212",
+  "first_page": "1237",
+  "last_page": "1237",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1237"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.664,
+    "sha256": "c385fa234c9a8c1c4fedf8c21d17f9838617ed7d4afc9e7b79837fb6c7b1b674",
+    "simhash": "1:a4addf829d4abcf7",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Pierre v. Rogers, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8212.\nPierre v. Rogers, Warden."
+  },
+  "file_name": "1237-03",
+  "first_page_order": 1313,
+  "last_page_order": 1313
+}

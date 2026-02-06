@@ -1,0 +1,59 @@
+{
+  "id": 5969248,
+  "name": "Sanders v. United States",
+  "name_abbreviation": "Sanders v. United States",
+  "decision_date": "2011-01-18",
+  "docket_number": "No. 10-8011",
+  "first_page": "1193",
+  "last_page": "1193",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1193"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.598,
+    "sha256": "2e161fc2e3c6a5e13c8e809219f49cebe8ba47190a98503d6eda660d76a09951",
+    "simhash": "1:86c3c6030a8f962c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sanders v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8011.\nSanders v. United States."
+  },
+  "file_name": "1193-09",
+  "first_page_order": 1215,
+  "last_page_order": 1215
+}

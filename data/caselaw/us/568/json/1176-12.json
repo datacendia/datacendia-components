@@ -1,0 +1,59 @@
+{
+  "id": 12431247,
+  "name": "Avalos-Martinez v. United States",
+  "name_abbreviation": "Avalos-Martinez v. United States",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-7902",
+  "first_page": "1176",
+  "last_page": "1176",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1176"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 81,
+    "ocr_confidence": 0.632,
+    "sha256": "08caac7fd062bc667a3913238312a4bc470b9bc6af987634fc6c12d46751172e",
+    "simhash": "1:15aad302090d981c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Avalos-Martinez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7902.\nAvalos-Martinez v. United States."
+  },
+  "file_name": "1176-12",
+  "first_page_order": 1252,
+  "last_page_order": 1252
+}

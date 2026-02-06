@@ -1,0 +1,59 @@
+{
+  "id": 12208308,
+  "name": "Kodsy v. Florida",
+  "name_abbreviation": "Kodsy v. Florida",
+  "decision_date": "2012-04-16",
+  "docket_number": "No. 11-9286",
+  "first_page": "954",
+  "last_page": "954",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 954"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 81,
+    "ocr_confidence": 0.562,
+    "sha256": "44df169e3889ae0b632b94b0df4a4b0c788cf59dd0cd9d2810d26ecf839b218d",
+    "simhash": "1:a100551a2643eb02",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Kodsy v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 4th Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9286.\nKodsy v. Florida."
+  },
+  "file_name": "0954-01",
+  "first_page_order": 830,
+  "last_page_order": 830
+}

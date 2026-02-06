@@ -1,0 +1,59 @@
+{
+  "id": 12209193,
+  "name": "Lawrence v. United States",
+  "name_abbreviation": "Lawrence v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-11011",
+  "first_page": "862",
+  "last_page": "862",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 862"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.626,
+    "sha256": "a69ad31d31279257b8fd1a17a8b0c27eabfe445edf9ed773438e42dc0c56b5cb",
+    "simhash": "1:15bbe2012bafe90f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lawrence v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-11011.\nLawrence v. United States."
+  },
+  "file_name": "0862-06",
+  "first_page_order": 944,
+  "last_page_order": 944
+}

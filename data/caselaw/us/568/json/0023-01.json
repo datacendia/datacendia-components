@@ -1,0 +1,763 @@
+{
+  "id": 12407034,
+  "name": "ARKANSAS GAME AND FISH COMMISSION v. UNITED STATES",
+  "name_abbreviation": "Arkansas Game & Fish Commission v. United States",
+  "decision_date": "2012-12-04",
+  "docket_number": "No. 11-597",
+  "first_page": "23",
+  "last_page": "40",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 23"
+    },
+    {
+      "type": "parallel",
+      "cite": "133 S. Ct. 511"
+    },
+    {
+      "type": "parallel",
+      "cite": "184 L. Ed. 2d 417"
+    },
+    {
+      "type": "vendor",
+      "cite": "2012 U.S. LEXIS 9409"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2012-001"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "260 U. S. 327",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11925964
+      ],
+      "year": 1922,
+      "pin_cites": [
+        {
+          "page": "329-330",
+          "parenthetical": "\"[WJhile a single act may not be enough, a continuance of them in sufficient number and for a sufficient time may prove [a taking]. Every successive trespass adds to the force of the evidence.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/260/0327-01"
+      ]
+    },
+    {
+      "cite": "533 U. S. 606",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9313494
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "618"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/533/0606-01"
+      ]
+    },
+    {
+      "cite": "799 F. 2d 317",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1605818
+      ],
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "325-326"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/799/0317-01"
+      ]
+    },
+    {
+      "cite": "346 F. 3d 1346",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9096209
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "1355-1356"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/346/1346-01"
+      ]
+    },
+    {
+      "cite": "257 U. S. 138",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3678802
+      ],
+      "year": 1921,
+      "pin_cites": [
+        {
+          "page": "146",
+          "parenthetical": "no takings liability when damage caused by government action could not have been foreseen"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/257/0138-01"
+      ]
+    },
+    {
+      "cite": "395 U. S. 85",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1771869
+      ],
+      "year": 1969,
+      "pin_cites": [
+        {
+          "page": "93",
+          "parenthetical": "\"temporary, unplanned occupation\" of building by troops under exigent circumstances is not a taking"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/395/0085-01"
+      ]
+    },
+    {
+      "cite": "531 U. S. 198",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9505480
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "205"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/531/0198-01"
+      ]
+    },
+    {
+      "cite": "524 U. S. 156",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11181825
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "164"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/524/0156-01"
+      ]
+    },
+    {
+      "cite": "544 U. S. 709",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5868782
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "718, n. 7"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/544/0709-01"
+      ]
+    },
+    {
+      "cite": "260 U.S. 393",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11926101
+      ],
+      "year": 1922,
+      "pin_cites": [
+        {
+          "page": "416"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/260/0393-01"
+      ]
+    },
+    {
+      "cite": "357 U. S. 155",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6161602
+      ],
+      "year": 1958,
+      "pin_cites": [
+        {
+          "page": "168",
+          "parenthetical": "citing Pennsylvania Coal Co. v. Mahon, 260 U.S. 393, 416 (1922)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/357/0155-01"
+      ]
+    },
+    {
+      "cite": "6 Wheat. 264",
+      "category": "reporters:scotus_early",
+      "reporter": "Wheat.",
+      "case_ids": [
+        11730243
+      ],
+      "year": 1821,
+      "pin_cites": [
+        {
+          "page": "399"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/19/0264-01"
+      ]
+    },
+    {
+      "cite": "188 U. S. 445",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11727460
+      ],
+      "year": 1903,
+      "pin_cites": [
+        {
+          "page": "469"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/188/0445-01"
+      ]
+    },
+    {
+      "cite": "331 U. S. 745",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6158817
+      ],
+      "weight": 2,
+      "year": 1947,
+      "pin_cites": [
+        {
+          "page": "751",
+          "parenthetical": "flooding of claimant's land was a taking even though claimant successfully \"reclaimed most of his land which the Government originally took by flooding\""
+        },
+        {
+          "page": "751"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/331/0745-01"
+      ]
+    },
+    {
+      "cite": "328 U. S. 256",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        377275
+      ],
+      "weight": 2,
+      "year": 1946,
+      "pin_cites": [
+        {
+          "page": "266",
+          "parenthetical": "frequent overflights from a nearby airport resulted in a taking, for the flights deprived the property owner of the customary use of his property as a chicken farm"
+        },
+        {
+          "page": "275",
+          "parenthetical": "Black, J., dissenting"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/328/0256-01"
+      ]
+    },
+    {
+      "cite": "323 U. S. 373",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1230090
+      ],
+      "year": 1945,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/323/0373-01"
+      ]
+    },
+    {
+      "cite": "338 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3942832
+      ],
+      "year": 1949,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/338/0001-01"
+      ]
+    },
+    {
+      "cite": "339 U. S. 261",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        362709
+      ],
+      "year": 1950,
+      "pin_cites": [
+        {
+          "page": "267"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/339/0261-01"
+      ]
+    },
+    {
+      "cite": "13 Wall. 166",
+      "category": "reporters:scotus_early",
+      "reporter": "Wall.",
+      "case_ids": [
+        1134186
+      ],
+      "weight": 3,
+      "year": 1872,
+      "pin_cites": [
+        {
+          "page": "177"
+        },
+        {
+          "page": "181"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/80/0166-01"
+      ]
+    },
+    {
+      "cite": "505 U. S. 1003",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1481136
+      ],
+      "weight": 2,
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "1019"
+        },
+        {
+          "page": "1027-1029"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/505/1003-01"
+      ]
+    },
+    {
+      "cite": "458 U. S. 419",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        636616
+      ],
+      "weight": 5,
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "426"
+        },
+        {
+          "page": "428",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "435, n. 12"
+        },
+        {
+          "page": "455",
+          "parenthetical": "Blackmun, J., dissenting"
+        },
+        {
+          "page": "435, n. 12",
+          "parenthetical": "temporary physical invasions should be assessed by case-specific factual inquiry"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/458/0419-01"
+      ]
+    },
+    {
+      "cite": "341 U. S. 114",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1148101
+      ],
+      "weight": 2,
+      "year": 1951,
+      "pin_cites": [
+        {
+          "page": "115"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/341/0114-01"
+      ]
+    },
+    {
+      "cite": "535 U. S. 302",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        353603
+      ],
+      "weight": 3,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "322",
+          "parenthetical": "citing United States v. Pewee Coal Co., 341 U. S. 114, 115 (1951)"
+        },
+        {
+          "page": "337",
+          "parenthetical": "\"[W]e do not hold that the temporary nature of a land-use restriction precludes finding that it effects a taking; we simply recognize that it should not be given exclusive significance one way or the other.\""
+        },
+        {
+          "page": "342",
+          "parenthetical": "duration of regulatory restriction is a factor for court to consider"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/535/0302-01"
+      ]
+    },
+    {
+      "cite": "438 U. S. 104",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1769262
+      ],
+      "weight": 4,
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "123-125"
+        },
+        {
+          "page": "124"
+        },
+        {
+          "page": "124"
+        },
+        {
+          "page": "130-131"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/438/0104-01"
+      ]
+    },
+    {
+      "cite": "482 U. S. 304",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6212935
+      ],
+      "weight": 2,
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "318-319"
+        },
+        {
+          "page": "321"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/482/0304-01"
+      ]
+    },
+    {
+      "cite": "364 U. S. 40",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6164087
+      ],
+      "year": 1960,
+      "pin_cites": [
+        {
+          "page": "49"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/364/0040-01"
+      ]
+    },
+    {
+      "cite": "566 U. S. 920",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12199687,
+        12199784,
+        12199760,
+        12199665,
+        12199739,
+        12199646,
+        12199711
+      ],
+      "year": 2012,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/566/0920-03",
+        "/us/566/0920-07",
+        "/us/566/0920-06",
+        "/us/566/0920-02",
+        "/us/566/0920-05",
+        "/us/566/0920-01",
+        "/us/566/0920-04"
+      ]
+    },
+    {
+      "cite": "243 U. S. 316",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3692579
+      ],
+      "weight": 5,
+      "year": 1917,
+      "pin_cites": [
+        {
+          "page": "328"
+        },
+        {
+          "page": "328"
+        },
+        {
+          "page": "328-329"
+        },
+        {
+          "page": "328"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/243/0316-01"
+      ]
+    },
+    {
+      "cite": "264 U. S. 146",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6138473
+      ],
+      "weight": 7,
+      "year": 1924,
+      "pin_cites": [
+        {
+          "page": "150"
+        },
+        {
+          "page": "147"
+        },
+        {
+          "page": "148"
+        },
+        {
+          "page": "149",
+          "parenthetical": "characterizing the causal relationship asserted by the landowner as \"purely conjectural\""
+        },
+        {
+          "page": "149"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/264/0146-01"
+      ]
+    },
+    {
+      "cite": "87 Fed. Cl. 594",
+      "category": "reporters:specialty",
+      "reporter": "Fed. Cl.",
+      "case_ids": [
+        4263047
+      ],
+      "weight": 10,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "631"
+        },
+        {
+          "page": "604"
+        },
+        {
+          "page": "607-608"
+        },
+        {
+          "page": "608"
+        },
+        {
+          "page": "627"
+        },
+        {
+          "page": "632"
+        },
+        {
+          "page": "638-640"
+        },
+        {
+          "page": "643"
+        },
+        {
+          "page": "610",
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/fed-cl/87/0594-01"
+      ]
+    },
+    {
+      "cite": "637 F. 3d 1366",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5897828,
+        4197942
+      ],
+      "weight": 3,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "1378"
+        },
+        {
+          "page": "1374"
+        },
+        {
+          "page": "1378"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/fed-cl/98/1366-01",
+        "/f3d/637/1366-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1430,
+    "char_count": 29507,
+    "ocr_confidence": 0.625,
+    "pagerank": {
+      "raw": 4.6436066939303647e-07,
+      "percentile": 0.9271422774069067
+    },
+    "sha256": "a2dcc8f243d6734e6ebd0e4494a7a018d521aba548c554f5716bd644f1701799",
+    "simhash": "1:bc88604063043ea9",
+    "word_count": 4735
+  },
+  "last_updated": "2024-02-27T23:44:49.194693+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Ginsburg, J., delivered the opinion of the Court, in which all other Members joined, except Kagan, J., who took no part in the consideration or decision of the ease."
+    ],
+    "parties": [
+      "ARKANSAS GAME AND FISH COMMISSION v. UNITED STATES"
+    ],
+    "opinions": [
+      {
+        "text": "Justice Ginsburg\ndelivered the opinion of the Court.\nPeriodically from 1993 until 2000, the U. S. Army Corps of Engineers (Corps) authorized flooding that extended into the peak growing season for timber on forest land owned and managed by petitioner, Arkansas Game and Fish Commission (Commission). Cumulative in effect, the repeated flooding damaged or destroyed more than 18 million board feet of timber and disrupted the ordinary use and enjoyment of the Commission\u2019s property. The Commission sought compensation from the United States pursuant to the Fifth Amendment\u2019s instruction: \u201c[N]or shall private property be taken for public use, without just compensation.\u201d The question presented is whether a taking may occur, within the meaning of the Takings Clause, when government-induced flood invasions, although repetitive, are temporary.\nOrdinarily, this Court\u2019s decisions confirm, if government action would qualify as a taking when permanently continued, temporary actions of the same character may also qualify as a taking. In the instant case, the parties and the courts below divided on the appropriate classification of temporary flooding. Reversing the judgment of the Court of Federal Claims, which awarded compensation to the Commission, the Federal Circuit held, 2 to 1, that compensation may be sought only when flooding is \u201ca permanent or inevitably recurring condition, rather than an inherently temporary situation.\u201d 637 F. 3d 1366, 1378 (2011). We disagree and conclude that recurrent floodings, even if of finite duration, are not categorically exempt from Takings Clause liability.\nI\nA\nThe Commission owns the Dave Donaldson Black River Wildlife Management Area (Management Area or Area), which comprises 23,000 acres along both banks of the Black River in northeast Arkansas. The Management Area is forested with multiple hardwood timber species that support a variety of wildlife habitats. The Commission operates the Management Area as a wildlife and hunting preserve, and also uses it as a timber resource, conducting regular harvests of timber as part of its forest-management efforts. Three types of hardwood oak species\u2014nuttall, overcup, and willow\u2014account for 80 percent of the trees in the Management Area. The presence of these hardwood oaks is essential to the Area\u2019s character as a habitat for migratory birds and as a venue for recreation and hunting.\nThe Clearwater Dam (Dam) is located 115 miles upstream from the Management Area. The Corps constructed the Dam in 1948, and shortly thereafter adopted a plan known as the Water Control Manual (Manual) to determine the rates at which water would be released from the Dam. The Manual sets seasonally varying release rates, but permits planned deviations from the prescribed rates for agricultural, recreational, and other purposes.\nIn 1993, the Corps approved a planned deviation in response to requests from farmers. From September to December 1993, the Corps released water from the Dam at a slower rate than usual, providing downstream farmers with a longer harvest time. As a result, more water than usual accumulated in Clearwater Lake behind the Dam. To reduce the accumulation, the Corps extended the period in which a high amount of water would be released. The Commission maintained this extension yielded downstream flooding in the Management Area, above historical norms, during the tree-growing season, which runs from April to October. If the Corps had released the water more rapidly in the fall of 1993, in accordance with the Manual and with past practice, there would have been short-term waves of flooding which would have receded quickly. The lower rate of release in the fall, however, extended the period of flooding well into the following spring and summer. While the deviation benefited farmers, it interfered with the Management Area\u2019s tree-growing season.\nThe Corps adopted similar deviations each year from 1994 through 2000. The record indicates that the decision to deviate from the Manual was made independently in each year and that the amount of deviation varied over the span of years. Nevertheless, the result was an unbroken string of annual deviations from the Manual. Each deviation lowered the rate at which water was released during the fall, which necessitated extension of the release period into the following spring and summer. During this span of years the Corps proposed Manual revisions that would have made its temporary deviations part of the permanent water-release plan. On multiple occasions between 1993 and 2000, the Commission objected to the temporary deviations and opposed any permanent revision to the Manual, on the ground that the departures from the traditional water-release plan adversely impacted the Management Area. Ultimately, the Corps tested the effect of the deviations on the Management Area. It thereupon abandoned the proposal to permanently revise the Manual and, in 2001, ceased its temporary deviations.\nB\nIn 2005, the Commission filed the instant lawsuit against the United States, claiming that the temporary deviations from the Manual constituted a taking of property that entitled the Commission to compensation. The Commission maintained that the deviations caused sustained flooding of its land during the tree-growing season. The cumulative impact of this flooding over a six-year period between 1993 and 1999, the Commission alleged, resulted in the destruction of timber in the Management Area and a substantial change in the character of the terrain, which necessitated costly reclamation measures. Following a trial, the Court of Federal Claims ruled in favor of the Commission and issued an opinion and order containing detailed findings of fact. 87 Fed. Cl. 594 (2009).\nThe Court of Federal Claims found that the forests in the Management Area were healthy and flourishing before the flooding that occurred in the 1990\u215b, and that the forests had been sustainably managed for decades under the water-release plan contained in the Manual. Id., at 631. It further found that the Commission repeatedly objected to the deviations from the Manual and alerted the Corps to the detrimental effect the longer period of flooding would have on the hardwood timber in the Management Area. Id., at 604.\nAs found by the Court of Federal Claims, the flooding caused by the deviations contrasted markedly with historical flooding patterns. Between 1949 and 1992, the river level near the Management Area reached six feet an average of 64.7 days per year during the growing season; the number of such days had been even lower on average before the Clearwater Dam was built. Between 1993 and 1999, however, the river reached the same level an average of 91.14 days per year, an increase of more than 40 percent over the historic average. Although the Management Area lies in a flood plain, in no previously recorded timespan did comparable flooding patterns occur. Id., at 607-608. Evidence at trial indicated that half of the nuttall oaks in the Management Area were saturated with water when the river level was at six feet, id., at 608; the evidence further indicated that the saturation of the soil around the trees\u2019 root systems could persist for weeks even after the flooding had receded, id., at 627.\nThe court concluded that the Corps\u2019 deviations caused six consecutive years of substantially increased flooding, which constituted an appropriation of the Commission\u2019s property, albeit a temporary rather than a permanent one. Important to this conclusion, the court emphasized the deviations\u2019 cumulative effect. The trees were subject to prolonged periods of flooding year after year, which reduced the oxygen level in the soil and considerably weakened the trees\u2019 root systems. The repeated annual flooding for six years altered the character of the property to a much greater extent than would have been shown if the harm caused by one year of flooding were simply multiplied by six. When a moderate drought occurred in 1999 and 2000, the trees did not have the root systems necessary to sustain themselves; the result, in the court\u2019s words, was \u201ccatastrophic mortality.\u201d Id., at 632. More than 18 million board feet of timber were destroyed or degraded. Id., at 638-640.\nThis damage altered the character of the Management Area. The destruction of the trees led to the invasion of undesirable plant species, making natural regeneration of the forests improbable in the absence of reclamation efforts. Id., at 643. To determine the measure of just compensation, the Court of Federal Claims calculated the value of the lost timber and the projected cost of the reclamation and awarded the Commission $5.7 million.\nThe Federal Circuit reversed. It acknowledged that in general, temporary government action may give rise to a takings claim if permanent action of the same character would constitute a taking. But it held that \u201ccases involving flooding and [flowage] easements are different.\u201d 637 F. 3d, at 1374. Government-induced flooding can give rise to a takings claim, the Federal Circuit concluded, only if the flooding is \u201cpermanent or inevitably recurring.\u201d Id., at 1378. The Court of Appeals understood this conclusion to be dictated by this Court\u2019s decisions in Sanguinetti v. United States, 264 U. S. 146, 150 (1924), and United States v. Cress, 243 U. S. 316, 328 (1917). We granted certiorari to resolve the question whether government actions that cause repeated floodings must be permanent or inevitably recurring to constitute a taking of property. 566 U. S. 920 (2012).\nI\u2014t H-i\nThe Takings Clause is \u201cdesigned to bar Government from forcing some people alone to bear public burdens which, in all fairness and justice, should be borne by the public as a whole.\u201d Armstrong v. United States, 364 U. S. 40, 49 (1960). See also First English Evangelical Lutheran Church of Glendale v. County of Los Angeles, 482 U. S. 304, 318-319 (1987); Penn Central Transp. Co. v. New York City, 438 U. S. 104, 123-125 (1978). And \u201c[w]hen the government physically takes possession of an interest in property for some public purpose, it has a categorical duty to compensate the former owner.\u201d Tahoe-Sierra Preservation Council, Inc. v. Tahoe Regional Planning Agency, 535 U. S. 302, 322 (2002) (citing United States v. Pewee Coal Co., 341 U. S. 114, 115 (1951)). These guides are fundamental in our Takings Clause jurisprudence. We have recognized, however, that no magic formula enables a court to judge, in every case, whether a given government interference with property is a taking. In view of the nearly infinite variety of ways in which government actions or regulations can affect property interests, the Court has recognized few invariable rules in this area.\nTrue, we have drawn some bright lines, notably, the rule that a permanent physical occupation of property authorized by government is a taking. Loretto v. Teleprompter Man hattan CATV Corp., 458 U. S. 419, 426 (1982). So, too, is a regulation that permanently requires a property owner to sacrifice all economically beneficial uses of his or her land. Lucas v. South Carolina Coastal Council, 505 U. S. 1003, 1019 (1992). But aside from the cases attended by rules of this order, most takings claims turn on situation-specific factual inquiries. See Penn Central, 438 U. S., at 124. With this in mind, we turn to the question presented here\u2014whether temporary flooding can ever give rise to a takings claim.\nThe Court first ruled that government-induced flooding can constitute a taking in Pumpelly v. Green Bay Co., 13 Wall. 166 (1872). The Wisconsin Legislature had authorized the defendant to build a dam which led to the creation of a lake, permanently submerging the plaintiff\u2019s land. The defendant argued that the land had not been taken because the government did not exercise the right of eminent domain to acquire title to the affected property. Moreover, the defendant urged, the damage was merely \u201ca consequential result\u201d of the dam\u2019s construction near the plaintiff\u2019s property. Id., at 177. Rejecting that crabbed reading of the Takings Clause, the Court held that \u201cwhere real estate is actually invaded by superinduced additions of water, earth, sand, or other material ... so as to effectually destroy or impair its usefulness, it is a taking, within the meaning of the Constitution.\u201d Id., at 181.\nFollowing Pumpelly, the Court recognized that seasonally recurring flooding could constitute a taking. United States v. Cress, 243 U. S. 316 (1917), involved the Government\u2019s construction of a lock and dam, which subjected the plaintiff\u2019s land to \u201cintermittent but inevitably recurring overflows.\u201d Id., at 328. The Court held that the regularly recurring flooding gave rise to a takings claim no less valid than the claim of an owner whose land was continuously kept under water. Id., at 328-329.\nFurthermore, our decisions confirm that takings temporary in duration can be compensable. This principle was solidly established in the World War II era, when \u201c[cjondem-nation for indefinite periods of occupancy [took hold as] a practical response to the uncertainties of the Government\u2019s needs in wartime.\u201d United States v. Westinghouse Elec. & Mfg. Co., 339 U. S. 261, 267 (1950). In support of the war effort, the Government took temporary possession of many properties. These exercises of government authority, the Court recognized, qualified as compensable temporary takings. See Pewee Coal Co., 341 U. S. 114; Kimball Laundry Co. v. United States, 338 U. S. 1 (1949); United States v. General Motors Corp., 323 U. S. 373 (1945). Notably in relation to the question before us, the takings claims approved in these cases were not confined to instances in which the Government took outright physical possession of the property involved. A temporary takings claim could be maintained as well when government action occurring outside the property gave rise to \u201ca direct and immediate interference with the enjoyment and use of the land.\u201d United States v. Causby, 328 U. S. 256, 266 (1946) (frequent overflights from a nearby airport resulted in a taking, for the flights deprived the property owner of the customary use of his property as a chicken farm); cf. United States v. Dickinson, 331 U. S. 745, 751 (1947) (flooding of claimant\u2019s land was a taking even though claimant successfully \u201creclaimed most of his land which the Government originally took by flooding\u201d).\nEver since, we have rejected the argument that government action must be permanent to qualify as a taking. Once the government\u2019s actions have worked a taking of property, \u201cno subsequent action by the government can relieve it of the duty to provide compensation for the period during which the taking was effective.\u201d First English, 482 U. S., at 321. See also Tahoe-Sierra, 535 U. S., at 337 (\u201c[W]e do not hold that the temporary nature of a land-use restriction precludes finding that it effects a taking; we simply recognize that it should not be given exclusive significance one way or the other.\u201d).\nBecause government-induced flooding can constitute a taking of property, and because a taking need not be permanent to be compensable, our precedent indicates that government-induced flooding of limited duration may be compensable. No decision of this Court authorizes a blanket temporary-flooding exception to our Takings Clause jurisprudence, and we decline to create such an exception in this case.\nHH \u00ed\u2014I\nIn advocating a temporary-flooding exception, the Government relies primarily on Sanguinetti, 264 U. S. 146. That case involved a canal constructed by the Government connecting a slough and a river. The claimant\u2019s land was positioned between the slough and the river above the canal. The year after the canal\u2019s construction, a \u201cflood of unprecedented severity\u201d caused the canal to overflow onto the claimant\u2019s land; less severe flooding and overflow occurred in later years. Id., at 147.\nThe Court held there was no taking on these facts. This outcome rested on settled principles of foreseeability and causation. The Court emphasized that the Government did not intend to flood the land or have \u201cany reason to expect that such [a] result would follow\u201d from construction of the canal. Id., at 148. Moreover, the property was subject to seasonal flooding prior to the construction of the canal, and the landowner failed to show a causal connection between the canal and the increased flooding, which may well have been occasioned by changes in weather patterns. See id., at 149 (characterizing the causal relationship asserted by the landowner as \u201cpurely conjectural\u201d). These case-specific features were more than sufficient to dispose of the property owner\u2019s claim.\nIn the course of the Sanguinetti decision, however, the Court summarized prior flooding cases as standing for the proposition that \u201cin order to create an enforceable liability against the Government, it is, at least, necessary that the overflow be the direct result of the structure, and constitute an actual, permanent invasion of the land.\u201d Ibid. The Government would have us extract from this statement a definitive rule that there can be no temporary taking caused by floods.\nWe do not read so much into the word \u201cpermanent\u201d as it appears in a nondispositive sentence in Sanguinetti. That case, we note, was decided in 1924, well before the World War II-era cases and First English, in which the Court first homed in on the matter of compensation for temporary takings. That time factor, we think, renders understandable the Court\u2019s passing reference to permanence. If the Court indeed meant to express a general limitation on the Takings Clause, that limitation has been superseded by subsequent developments in our jurisprudence.\nThere is certainly no suggestion in Sanguinetti that flooding cases should be set apart from the mine run of takings claims. The sentence in question was composed to summarize the flooding cases the Court had encountered up to that point, which had unexceptionally involved permanent, rather than temporary, government-induced flooding. 264 U. S., at 149. See Cress, 243 U. S., at 328; United States v. Lynah, 188 U. S. 445, 469 (1903). But as just explained, no distinction between permanent and temporary flooding was material to the result in Sanguinetti. We resist reading a single sentence unnecessary to the decision as having done so much work. In this regard, we recall Chief Justice Marshall\u2019s sage observation that \u201cgeneral expressions, in every opinion, are to be taken in connection with the case in which those expressions are used. If they go beyond the case, they may be respected, but ought not to control the judgment in a subsequent suit when the very point is presented for decision.\u201d Cohens v. Virginia, 6 Wheat. 264, 399 (1821).\nThe Government also asserts that the Court in Loretto interpreted Sanguinetti the same way the Federal Circuit did in this case. That assertion bears careful inspection. A section of the Court\u2019s opinion in Loretto discussing permanent physical occupations parenthetically quotes Sanguinetti\u2019s statement that flooding is a taking if it constitutes an \u201cactual, permanent invasion of the land.\u201d 458 U. S., at 428 (internal quotation marks omitted). But the first rule of case law as well as statutory interpretation is: Read on. Later in the Loretto opinion, the Court clarified that it scarcely intended to adopt a \u201cflooding-is-different\u201d rule by the obscure means of quoting parenthetically a fragment from a 1924 opinion. The Court distinguished permanent physical occupations from temporary invasions of property, expressly including flooding cases, and said that \u201ctemporary limitations are subject to a more complex balancing process to determine whether they are a taking.\u201d Id., at 435, n. 12.\nThere is thus no solid grounding in precedent for setting flooding apart from all other government intrusions on property. And the Government has presented no other persuasive reason to do so. Its primary argument is of the in for a penny, in for a pound genre: reversing the decision below, the Government worries, risks disruption of public works dedicated to flood control. \u201c[E]very passing flood attributable to the government\u2019s operation of a flood-control project, no matter how brief,\u201d the Government hypothesizes, might qualify as a compensable taking. Brief for United States 29. To reject a categorical bar to temporary-flooding takings claims, however, is scarcely to credit all, or even many, such claims. It is of course incumbent on courts to weigh carefully the relevant factors and circumstances in each case, as instructed by our decisions. See infra, at 39.\nThe slippery slope argument, we note, is hardly novel or unique to flooding cases. Time and again in Takings Clause cases, the Court has heard the prophecy that recognizing a just compensation claim would unduly impede the government\u2019s ability to act in the public interest. Causby, 328 U. S., at 275 (Black, J., dissenting); Loretto, 458 U. S., at 455 (Blackmun, J., dissenting). We have rejected this argument when deployed to urge blanket exemptions from the Fifth Amendment\u2019s instruction. While we recognize the importance of the public interests the Government advances in this case, we do not see them \u00e1s categorically different from the interests at stake in myriad other Takings Clause cases. The sky did not fall after Causby, and today\u2019s modest decision augurs no deluge of takings liability.\nTellingly, the Government qualifies its defense of the Federal Circuit\u2019s exclusion of flood invasions from temporary t\u00e1kings analysis. It sensibly acknowledges that a taking might be found where there is a \u201csufficiently prolonged series of nominally temporary but substantively identical deviations.\u201d Brief for United States 21. This concession is in some tension with the categorical rule adopted by the Court of Appeals. Indeed, once it is recognized that at least some repeated nonpermanent flooding can amount to a taking of property, the question presented to us has been essentially answered. Flooding cases, like other takings cases, should be assessed with reference to the \u201cparticular circumstances of each case,\u201d and not by resorting to blanket exclusionary rules. United States v. Central Eureka Mining Co., 357 U. S. 155, 168 (1958) (citing Pennsylvania Coal Co. v. Mahon, 260 U.S. 393, 416 (1922)). See Penn Central, 438 U. S., at 124.\nAt oral argument, the Government tendered a different justification for the Federal Circuit\u2019s judgment, one not aired in the courts below, and barely hinted at in the brief the Government filed in this Court: Whether the damage is permanent or temporary, damage to downstream property, however foreseeable, is collateral or incidental; it is not aimed at any particular landowner and therefore does not qualify as an occupation compensable under the Takings Clause. Tr. of Oral Arg. 30-39; Brief for United States 26-27. \u201c[M]indful that we are a court of review, not of first view,\u201d Cutter v. Wilkinson, 544 U. S. 709, 718, n. 7 (2005), we express no opinion on the proposed upstream/downstream distinction and confine our opinion to the issue explored and decided by the Federal Circuit.\nFor the same reason, we are not equipped to address the . bearing, if any, of Arkansas water-rights law on this case. The determination whether a taking has occurred includes consideration of the property owner\u2019s distinct investment-backed expectations, a matter often informed by the law in force in the State in which the property is located. Lucas, 505 U. S., at 1027-1029; Phillips v. Washington Legal Foundation, 524 U. S. 156, 164 (1998). But Arkansas law was not examined by the Federal Circuit, and therefore is not properly pursued in this Court. Whether arguments for an upstream/downstream distinction and on the relevance of Arkansas law have been preserved and, if so, whether they have merit, are questions appropriately addressed to the Court of Appeals on remand. See Glover v. United States, 531 U. S. 198, 205 (2001).\nIV\nWe rule today, simply and only, that government-induced flooding temporary in duration gains no automatic exemption from Takings Clause inspection. When regulation or temporary physical invasion by government interferes with private property, our decisions recognize, time is indeed a factor in determining the existence vel non of a compensable taking. See Loretto, 458 U. S., at 435, n. 12 (temporary physical invasions should be assessed by case-specific factual inquiry); Tahoe-Sierra, 535 U. S., at 342 (duration of regulatory restriction is a factor for court to consider); National Bd. of YMCA v. United States, 395 U. S. 85, 93 (1969) (\u201ctemporary, unplanned occupation\u201d of building by troops under exigent circumstances is not a taking).\nAlso relevant to the takings inquiry is the degree to which the invasion is intended or is the foreseeable result of authorized government action. See supra, at 34; John Horstmann Co. v. United States, 257 U. S. 138, 146 (1921) (no takings liability when damage caused by government action could not have been foreseen). See also Ridge Line, Inc. v. United States, 346 F. 3d 1346, 1355-1356 (CA Fed. 2003); In re Chicago, Milwaukee, St. Paul & Pacific R. Co., 799 F. 2d 317, 325-326 (CA7 1986). So, too, are the character of the land at issue and the owner\u2019s \u201creasonable investment-backed expectations\u201d regarding the land\u2019s use. Palazzolo v. Rhode Island, 533 U. S. 606, 618 (2001). For example, the Management Area lies in a flood plain below a dam, and had experienced flooding in the past. But the trial court found the Area had not been exposed to flooding comparable to the 1990\u2019s accumulations in any other timespan either prior to or after the construction of the Dam. See supra, at 29-30. Severity of the interference figures in the calculus as well. See Penn Central, 438 U. S., at 130-131; Portsmouth Harbor Land & Hotel Co. v. United States, 260 U. S. 327, 329-330 (1922) (\u201c[WJhile a single act may not be enough, a continuance of them in sufficient number and for a sufficient time may prove [a taking]. Every successive trespass adds to the force of the evidence.\u201d).\nThe Court of Federal Claims found that the flooding the Commission assails was foreseeable. In this regard, the court noted the Commission\u2019s repeated complaints to the Corps about the destructive impact of the successive planned deviations from the Manual. Further, the court determined that the interference with the Commission\u2019s property was severe: The Commission had been deprived of the customary use of the Management Area as a forest and wildlife preserve, as the bottomland hardwood forest turned, over time, into a \u201cheadwater swamp.\u201d 87 Fed. Cl., at 610 (internal quotation marks omitted); see swpra, at 30.\nThe Government, however, challenged several of the trial court\u2019s factfindings, including those relating to causation, foreseeability, substantiality, and the amount of damages. Because the Federal Circuit rested its decision entirely on the temporary duration of the flooding, it did not address those challenges. As earlier noted, see supra, at 38, preserved issues remain open for consideration on remand.\n* \u215c \u215c\nFor the reasons stated, the judgment of the Court of Appeals for the Federal Circuit is reversed, and the case is remanded for further proceedings consistent with this opinion.\nIt is so ordered.\nJustice Kagan took no part in the consideration or decision of this case.\nArkansas water law is barely discussed in the parties\u2019 briefs, see Brief for United States 43, but has been urged at length in a friend-of-the-Court brief. See Professors of Law Teaching in the Property Law and Water Rights Fields as Amicus Curiae.\nThe Commission is endeavoring to reclaim the land through a restoration program. The prospect of reclamation, however, does not disqualify a landowner from receipt of just compensation for a taking. United States v. Dickinson, 331 U. S. 745, 751 (1947).",
+        "type": "majority",
+        "author": "Justice Ginsburg"
+      }
+    ],
+    "attorneys": [
+      "James F. Goodhart argued the cause for petitioner. With him on the briefs were Julie DeWoody Greathouse, Matthew N. Miller, Kimberly D. Logue, and John P. Marks.",
+      "Deputy Solicitor General Kneedler argued the cause for the United States. With him on the brief were Solicitor General Verrilli, Assistant Attorney General Moreno, Ben jamin J. Horwich, William, B. Lazarus, Katherine J. Barton, Robert J. Lundman, and Earl H. Stockdale, Jr."
+    ],
+    "corrections": "",
+    "head_matter": "ARKANSAS GAME AND FISH COMMISSION v. UNITED STATES\nNo. 11-597.\nArgued October 3, 2012\nDecided December 4, 2012\nGinsburg, J., delivered the opinion of the Court, in which all other Members joined, except Kagan, J., who took no part in the consideration or decision of the ease.\nJames F. Goodhart argued the cause for petitioner. With him on the briefs were Julie DeWoody Greathouse, Matthew N. Miller, Kimberly D. Logue, and John P. Marks.\nDeputy Solicitor General Kneedler argued the cause for the United States. With him on the brief were Solicitor General Verrilli, Assistant Attorney General Moreno, Ben jamin J. Horwich, William, B. Lazarus, Katherine J. Barton, Robert J. Lundman, and Earl H. Stockdale, Jr.\nBriefs of amici curiae urging reversal were filed for the National Federation of Independent Business Small Business Legal Center et al. by Karen R. Harned, Christopher M. Whitcomb, Thomas J. Ward, Amy C. Chai, Ellen Steen, Scott Horngren, John C. Eastman, and Anthony T. Caso; for the Owners\u2019 Counsel of America by Robert H. Thomas; for the Pacific Legal Foundation et al. by R. S. Radford, Brian T Hodges, Ilya Shapiro, and Martin S. Kaufman; for the Washington Legal Foundation et al. by Richard A. Samp; and for the Wolfsen Land and Cattle Co. et al. by Nancie G. Marzulla and Roger Marzulla.\nBriefs of amici curiae urging affirmance were filed for the International Municipal Lawyers Association et al. by John D. Echeverr\u00eda; and for Professors of Law Teaching in the Property Law and Water Rights Fields by Robert H. Abrams, pro se."
+  },
+  "file_name": "0023-01",
+  "first_page_order": 241,
+  "last_page_order": 258
+}

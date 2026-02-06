@@ -1,0 +1,59 @@
+{
+  "id": 12428467,
+  "name": "Jones v. Missouri",
+  "name_abbreviation": "Jones v. Missouri",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-6964",
+  "first_page": "1102",
+  "last_page": "1102",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1102"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 64,
+    "ocr_confidence": 0.697,
+    "sha256": "bcd5be4e5e6f6a4066fee84f79cc11d5739250e0e5e8373174a4cb4501a55a0f",
+    "simhash": "1:64f0c30a468764c6",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jones v. Missouri."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Mo. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6964.\nJones v. Missouri."
+  },
+  "file_name": "1102-04",
+  "first_page_order": 1178,
+  "last_page_order": 1178
+}

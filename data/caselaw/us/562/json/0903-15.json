@@ -1,0 +1,59 @@
+{
+  "id": 5952004,
+  "name": "Bortolon v. Brown, Attorney General of California",
+  "name_abbreviation": "Bortolon v. Brown",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5099",
+  "first_page": "903",
+  "last_page": "903",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 903"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 98,
+    "ocr_confidence": 0.555,
+    "sha256": "6b001fdb559a36120fbbb052940dc33f78eb0c7a20318d3af77617ee02a95803",
+    "simhash": "1:12b763234907a04a",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bortolon v. Brown, Attorney General of California."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5099.\nBortolon v. Brown, Attorney General of California."
+  },
+  "file_name": "0903-15",
+  "first_page_order": 925,
+  "last_page_order": 925
+}

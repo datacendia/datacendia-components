@@ -1,0 +1,969 @@
+{
+  "id": 12658084,
+  "name": "Kerry GITTENS, Appellant v. The STATE of Texas, Appellee",
+  "name_abbreviation": "Gittens v. State",
+  "decision_date": "2018-07-31",
+  "docket_number": "No. 04-17-00230-CR",
+  "first_page": "725",
+  "last_page": "739",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "560 S.W.3d 725"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex. App. Ct.",
+    "id": 30120,
+    "name": "Court of Appeals of Texas, San Antonio"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "343 S.W.3d 137",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7318461
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "142"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/343/0137-01"
+      ]
+    },
+    {
+      "cite": "892 S.W.2d 186",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9997602
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "192"
+        },
+        {
+          "page": "192"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/892/0186-01"
+      ]
+    },
+    {
+      "cite": "495 S.W.3d 398",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6775673
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "418"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/495/0398-01"
+      ]
+    },
+    {
+      "cite": "363 S.W.3d 591",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7316448
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "592"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/363/0591-01"
+      ]
+    },
+    {
+      "cite": "395 S.W.3d 152",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7093722
+      ],
+      "weight": 2,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "157-58"
+        },
+        {
+          "page": "157"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/395/0152-01"
+      ]
+    },
+    {
+      "cite": "466 U.S. 668",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6204802
+      ],
+      "weight": 9,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "687, 694"
+        },
+        {
+          "page": "687-88"
+        },
+        {
+          "page": "694"
+        },
+        {
+          "page": "687"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/466/0668-01"
+      ]
+    },
+    {
+      "cite": "2016 WL 310093",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "pin_cites": [
+        {
+          "page": "*5"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "695 S.W.2d 793",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9982283
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "794"
+        },
+        {
+          "page": "795"
+        },
+        {
+          "page": "794",
+          "parenthetical": "concluding lack of evidence that absence was involuntary, appellate courts \"engage in the presumption that the trial court finding regarding the voluntariness of appellant's absence is correct\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/695/0793-01"
+      ]
+    },
+    {
+      "cite": "443 S.W.3d 131",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6906814
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "137",
+          "parenthetical": "holding trial court entitled to rely on defense counsel's representation that he was unaware of appellant's whereabouts"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/443/0131-01"
+      ]
+    },
+    {
+      "cite": "586 S.W.2d 553",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9943039
+      ],
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "556"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/586/0553-01"
+      ]
+    },
+    {
+      "cite": "401 S.W.3d 305",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7092809
+      ],
+      "pin_cites": [
+        {
+          "page": "314"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/401/0305-01"
+      ]
+    },
+    {
+      "cite": "128 S.W.3d 367",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9258894
+      ],
+      "pin_cites": [
+        {
+          "page": "375-76"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/128/0367-01"
+      ]
+    },
+    {
+      "cite": "670 S.W.2d 259",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9934896
+      ],
+      "weight": 5,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "261"
+        },
+        {
+          "page": "261"
+        },
+        {
+          "page": "261"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/670/0259-01"
+      ]
+    },
+    {
+      "cite": "199 S.W.3d 447",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8467607
+      ],
+      "pin_cites": [
+        {
+          "page": "453"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/199/0447-01"
+      ]
+    },
+    {
+      "cite": "183 S.W.3d 522",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8989891
+      ],
+      "pin_cites": [
+        {
+          "page": "526-27"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/183/0522-01"
+      ]
+    },
+    {
+      "cite": "283 S.W.3d 854",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7303964
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "862",
+          "parenthetical": "concluding assaultive conduct was evidence of intent to commit robbery"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/283/0854-01"
+      ]
+    },
+    {
+      "cite": "429 S.W.3d 54",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6957304
+      ],
+      "pin_cites": [
+        {
+          "page": "68"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/429/0054-01"
+      ]
+    },
+    {
+      "cite": "333 S.W.3d 771",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7321526
+      ],
+      "pin_cites": [
+        {
+          "page": "781"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/333/0771-01"
+      ]
+    },
+    {
+      "cite": "335 S.W.3d 412",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7320203
+      ],
+      "pin_cites": [
+        {
+          "page": "415"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/335/0412-01"
+      ]
+    },
+    {
+      "cite": "515 S.W.3d 47",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12374176
+      ],
+      "pin_cites": [
+        {
+          "page": "53"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/515/0047-01"
+      ]
+    },
+    {
+      "cite": "270 S.W.3d 676",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8168593
+      ],
+      "pin_cites": [
+        {
+          "page": "682"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/270/0676-01"
+      ]
+    },
+    {
+      "cite": "152 S.W.3d 45",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9040007
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "50",
+          "parenthetical": "relying on circumstantial evidence"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/152/0045-01"
+      ]
+    },
+    {
+      "cite": "333 S.W.3d 187",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7320330
+      ],
+      "pin_cites": [
+        {
+          "page": "201"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/333/0187-01"
+      ]
+    },
+    {
+      "cite": "358 S.W.3d 790",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7317970
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "801"
+        },
+        {
+          "page": "801"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/358/0790-01"
+      ]
+    },
+    {
+      "cite": "29 S.W.3d 556",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        11183436
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "562"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/29/0556-01"
+      ]
+    },
+    {
+      "cite": "871 S.W.2d 183",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10002487
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "186"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/871/0183-01"
+      ]
+    },
+    {
+      "cite": "443 U.S. 307",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6182418
+      ],
+      "weight": 4,
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "319"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/443/0307-01"
+      ]
+    },
+    {
+      "cite": "214 S.W.3d 9",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8329935
+      ],
+      "weight": 3,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "13",
+          "parenthetical": "quoting Jackson v. Virginia , 443 U.S. 307, 319, 99 S.Ct. 2781, 61 L.Ed.2d 560 (1979) "
+        },
+        {
+          "page": "13"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/214/0009-01"
+      ]
+    },
+    {
+      "cite": "340 S.W.3d 743",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7320501
+      ],
+      "weight": 2,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "746"
+        },
+        {
+          "page": "746"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/340/0743-01"
+      ]
+    },
+    {
+      "cite": "353 S.W.3d 854",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7319166
+      ],
+      "weight": 4,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "860"
+        },
+        {
+          "page": "860"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/353/0854-01"
+      ]
+    },
+    {
+      "cite": "494 S.W.3d 806",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6785373
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "817"
+        },
+        {
+          "page": "817"
+        },
+        {
+          "page": "817"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/494/0806-01"
+      ]
+    },
+    {
+      "cite": "447 S.W.3d 401",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6904535
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "405"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/447/0401-01"
+      ]
+    },
+    {
+      "cite": "215 S.W.3d 870",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8334234
+      ],
+      "weight": 4,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "879"
+        },
+        {
+          "page": "880"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/215/0870-01"
+      ]
+    },
+    {
+      "cite": "29 S.W.3d 596",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        11183693
+      ],
+      "pin_cites": [
+        {
+          "page": "601"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/29/0596-01"
+      ]
+    },
+    {
+      "cite": "810 S.W.2d 372",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9977661
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "388"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/810/0372-01"
+      ]
+    },
+    {
+      "cite": "296 S.W.3d 555",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7299768
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "568"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/296/0555-01"
+      ]
+    },
+    {
+      "cite": "483 S.W.3d 205",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6809994
+      ],
+      "pin_cites": [
+        {
+          "page": "217"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/483/0205-01"
+      ]
+    },
+    {
+      "cite": "958 S.W.2d 186",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        11883852
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "196"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/958/0186-01"
+      ]
+    },
+    {
+      "cite": "85 S.W.3d 809",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        11362083
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "815"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/85/0809-01"
+      ]
+    },
+    {
+      "cite": "155 S.W.3d 491",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9024688
+      ],
+      "pin_cites": [
+        {
+          "page": "497"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/155/0491-01"
+      ]
+    },
+    {
+      "cite": "173 S.W.3d 463",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8907487
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "467"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/173/0463-01"
+      ]
+    },
+    {
+      "cite": "792 S.W.2d 106",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9993302
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "107"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/792/0106-01"
+      ]
+    },
+    {
+      "cite": "154 S.W.3d 127",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9035503
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "129"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/154/0127-01"
+      ]
+    },
+    {
+      "cite": "354 S.W.3d 457",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7317202
+      ],
+      "weight": 5,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "469",
+          "parenthetical": "concluding that discretion is not abused if the decision falls within the zone of reasonable disagreement"
+        },
+        {
+          "page": "469"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/354/0457-01"
+      ]
+    },
+    {
+      "cite": "939 S.W.2d 155",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10016350
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "169"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/939/0155-01"
+      ]
+    },
+    {
+      "cite": "175 S.W.3d 724",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8905604
+      ],
+      "weight": 7,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "731"
+        },
+        {
+          "page": "731"
+        },
+        {
+          "page": "731",
+          "parenthetical": "quoting TEX. R. EVID. 404(b) "
+        },
+        {
+          "page": "731"
+        },
+        {
+          "page": "731"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/175/0724-01"
+      ]
+    },
+    {
+      "cite": "301 S.W.3d 675",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7299927
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "687"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/301/0675-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1391,
+    "char_count": 35857,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2649050195590554
+    },
+    "sha256": "edf90dfbbfb06a6934c5e5b286d64feb70e33904fe4115166a8bf65b7e7c4ffb",
+    "simhash": "1:3fe9d69476ad17de",
+    "word_count": 5812
+  },
+  "last_updated": "2024-02-27T16:53:27.912671+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Kerry GITTENS, Appellant\nv.\nThe STATE of Texas, Appellee"
+    ],
+    "opinions": [
+      {
+        "text": "Opinion by: Patricia O. Alvarez, Justice\nAppellant Kerry Gittens was charged by indictment with the murder of Antwan Jones. On August 26, 2016, after several days of trial, the State rested its case-in-chief and defense counsel announced the defense was prepared to rest. When Gittens did not appear after a court recess, the trial court found Gittens voluntarily and knowingly absented himself and proceeded to charge the jury in his absence. The jury found Gittens guilty of the charged offense.\nOn September 28, 2016, the trial court sentenced Gittens, in absentia, to fifty-years' confinement in the Institutional Division of the Texas Department of Criminal Justice. On March 10, 2017, Gittens appeared before the trial court and the trial court pronounced sentence in accordance with the sentence handed down on September 28, 2016.\nGittens raises four issues on appeal: (1) the trial court erred in admitting extraneous offense evidence; (2) the evidence was insufficient to support the jury's verdict; (3) the trial court erred in proceeding in absentia; and (4) he received ineffective assistance of counsel. We affirm the trial court's judgment.\nFACTUAL AND PROCEDURAL BACKGROUND\nA. November 15, 2014: Antwan's Death\nOn November 15, 2014, at approximately 8:30 p.m., David O'Neal, his brother Antwan Jones, their cousin Denzel Ross, and Antwan's three-year-old daughter were at their aunt's house, Lula McFadden. Lula's son, Odell McFadden was also at the house. Antwan, Denzel, Odell, Lula, and Antwan's daughter were in the living room watching television and freestyling, or rapping, when the front doorbell rang.\nDavid came from the back room and answered the door. Tyree Byrd, known as \"Ace\" or \"Flocka,\" and Gittens, known as \"Slim,\" followed David to the back room where the three men were playing video games. David testified, \"I turned my back. And then I turned around, and both of them had guns.\" David remembered Byrd saying something akin to, \"You know what it is. Give it up.\" When asked by the prosecutor, David explained that he understood that to mean, \"I'm trying to rob you, like, you know what's going on, like, don't play stupid. You know what it is. Don't play stupid.' That's what it means.\"\nDavid testified that Gittens was pointing a gun at him and both men started asking for money. Byrd attempted to restrain David with zip ties, while Gittens held a gun to David's face. When David resisted, David testified that Gittens hit him in the eye with the gun, \"hard enough to cut the skin.\" That was when Byrd left the room and started down the hallway.\nDenzel testified that Antwan suddenly told them to be quiet and Denzel heard glass break. Antwan stood up and walked to the hallway door and the next thing Denzel knew, \"I heard a shot.... [W]hen I had looked up at Antwan, he was on the floor.\" He saw Byrd run out the front door and Gittens come running from the back.\nDavid testified that he was in the bathroom checking his eye when he heard two gunshots. He ran toward the front of the house. Gittens was in the hallway holding a gun to David's head when David saw his brother Antwan slide down the wall and blood smearing along the wall. David testified that was when he realized that Antwan had been shot.\nLula testified that she was in the kitchen when she heard the shot. She grabbed Antwan's daughter and hid behind a trash can in the kitchen. Lula saw the \"one that shot Antwan\" leave through the front door, and \"then here comes the other one [Gittens] from the back of the house with two guns up in-swinging them around and everything. And-and we was behind the trash can, and they left the door open.\" Lula testified she knew Gittens; he had been in her home before and played dominoes with David.\nWhen David ran outside, he saw both men in a white truck with Gittens in the driver's seat. David testified that he tried to follow them, but he could not find them. He went to Gittens's house, but the white truck was not there.\nB. Cell Phone Records\nThe State presented the AT&T business records for Gittens's cellphone. The corporate security manager testified the cellphone records provide which side of the cellphone tower was communicating with the cellphone, the location of the tower, and the date and time of the call. Federal Bureau of Investigations Agent Mark Sedwick testified that he conducted cellular analysis on Gittens's cellphone records.\nAgent Sedwick testified that between 8:27 p.m. and 8:41 p.m., on November 15, 2014, Gittens was in \"a coverage area that includes the homicide location of 329 Vine Street.\" The murder was estimated to have occurred at 8:35 p.m. Agent Sedwick continued that at \"8:52 p.m. and 8:57 p.m., there were two more calls, and the phone has now moved northeast from the homicide location.\" The agent explained the cellphone records proved that Gittens's cellphone was moving toward the McFadden residence before the murder and away from the McFadden residence after the murder. Agent McFadden further testified Gittens's cellphone remained in the San Antonio area until November 19, 2014. On November 19, 2014, at approximately 12:16 a.m., the cellphone was in the Austin area. The cellphone eventually traveled to Houston and then to New Orleans.\nC. August 20, 2015: Gittens's Arrest\nOn August 20, 2015, more than nine months after Antwan's death, Sergeant Lennie Wayne Rasberry, with the Gulf Coast Violent Offenders Task Force, received information that Gittens was staying at a motel near Katy, Texas on Interstate Highway 10. Sergeant Rasberry initiated a traffic stop of Gittens and observed narcotics in the console of Gittens's vehicle. Gittens was arrested and taken back to the parking lot of the motel where he was interviewed.\nGittens denied additional narcotics were in the vehicle, but acknowledged there were narcotics in his motel room. Gittens consented to Sergeant Rasberry's request to sign a consent to search. The officers entered the motel room and observed narcotics in plain view and several safes. Sergeant Rasberry obtained a search warrant to open the safes. The officers recovered two semiautomatic handguns, ammunition, narcotics, and cash.\nD. Trial\nGittens was indicted by a Bexar County grand jury for Antwan Jones's murder. Prior to trial, Gittens filed a motion to suppress evidence seized as a result of Gittens' arrest at the Houston motel. In the motion to suppress, Gittens sought to suppress \"any items seized from him at the time of his arrest, including but not limited to any firearm, any ammunition, any identification cards in other persons names, any alleged marijuana, and any other alleged drug or controlled substance, any amount of United States currency, any safes, and any testimony regarding any of the foregoing items.\" The trial court denied the motion to suppress.\nThe case was called to trial on August 23, 2016. After several days of testimony, the State rested. During the break, defense counsel announced the defense was also prepared to rest and the court prepared the court's jury charge. When the matter was recalled, the defendant was not present. Defense counsel was unable to contact Gittens and his pretrial supervision officer reported his ankle monitor had been cut off. The trial court issued a warrant, made an affirmative finding that Gittens voluntarily and knowingly absented himself from the proceedings, and continued the trial in his absence. The trial court read the court's jury charge and the attorneys presented closing arguments. On August 26, 2016, the jury returned a guilty verdict in Gittens's absence. The matter was reset for sentencing before the trial court.\nOn September 28, 2016, Gittens was sentenced, in absentia, to fifty-years' confinement in the Institutional Division of the Texas Department of Criminal Justice. Almost six months later, after Gittens was arrested and remanded to Bexar County, the trial court pronounced judgment in accordance with the sentence announced on September 28, 2016.\nWe turn to Gittens's first issue, the testimony surrounding his arrest and the evidence seized by the officers.\nEXTRANEOUS OFFENSE EVIDENCE\nA. Arguments of the Parties\nIn his first issue on appeal, Gittens contends the trial court erred in allowing Sergeant Lennie Rasberry to testify to inadmissible extraneous evidence-that in the course of arresting Gittens, the officers received consent to search his motel room and seized three safes containing among other things drugs, marijuana, money, two firearms, and ammunition. See TEX. R. EVID. 404(b).\nThe State counters the evidence was probative of Gittens's motive to commit the robbery and integral in the State's efforts to prove that Gittens was the individual identified by the witnesses.\nB. Standard of Review\nAn appellate court reviews a trial court's decision to admit or exclude evidence under an abuse of discretion standard. Williams v. State , 301 S.W.3d 675, 687 (Tex. Crim. App. 2009) ; Prible v. State , 175 S.W.3d 724, 731 (Tex. Crim. App. 2005). \"As long as the trial court's ruling was within the 'zone of reasonable disagreement,' there is no abuse of discretion, and the trial court's ruling will be upheld.\" Prible , 175 S.W.3d at 731 (quoting Santellan v. State , 939 S.W.2d 155, 169 (Tex. Crim. App. 1997) ); accord Devoe v. State , 354 S.W.3d 457, 469 (Tex. Crim. App. 2011) (concluding that discretion is not abused if the decision falls within the zone of reasonable disagreement). \"[I]f the trial court's evidentiary ruling is correct on any theory of law applicable to that ruling, it will not be disturbed\" regardless of the reason for the trial court's ruling. Devoe , 354 S.W.3d at 469 ; accord Brito Carrasco v. State , 154 S.W.3d 127, 129 (Tex. Crim. App. 2005).\nC. Admissibility of Extraneous Offenses\nAn accused may not be tried for being a criminal generally. Couret v. State , 792 S.W.2d 106, 107 (Tex. Crim. App. 1990). \"Evidence of extraneous offenses is not admissible at the guilt phase of a trial to prove that a defendant committed the charged offense in conformity with a bad character.\" Devoe , 354 S.W.3d at 469 (citing TEX. R. EVID. 404(b) ). To be admissible, extraneous offense evidence must pass the two-prong test imposed by Texas Rules of Evidence 404(b) and 403 : (1) \"the extraneous offense evidence [must be] relevant to a fact of consequence in the case apart from its tendency to prove conduct in conformity with character; and [ (2) ] the probative value of the evidence [must not be] substantially outweighed by unfair prejudice.\" Martin v. State , 173 S.W.3d 463, 467 (Tex. Crim. App. 2005) ; see TEX. R. EVID. 403, 404(b).\n\" Rule 403 carries with it a presumption that relevant evidence will be more probative than prejudicial.\" Martinez v. State , 155 S.W.3d 491, 497 (Tex. App.-San Antonio 2004, no pet.) (citing Hayes v. State , 85 S.W.3d 809, 815 (Tex. Crim. App. 2002) ); Williams v. State , 958 S.W.2d 186, 196 (Tex. Crim. App. 1997). \"The rule envisions exclusion of evidence only when there is a clear disparity between the degree of prejudice of the offered evidence and its probative value.\" Robisheaux v. State , 483 S.W.3d 205, 217 (Tex. App.-Austin 2016, pet. ref'd) (quoting Hammer v. State , 296 S.W.3d 555, 568 (Tex. Crim. App. 2009) ).\nRule 404(b) provides that \"evidence of other crimes, wrongs, or acts is not admissible 'to prove the character of a person in order to show action in conformity therewith.' \" Prible , 175 S.W.3d at 731 (quoting TEX. R. EVID. 404(b) ). \"The list of exceptions under Rule 404(b) is 'neither mutually exclusive nor collectively exhaustive.' \" Id. (quoting Montgomery v. State , 810 S.W.2d 372, 388 (Tex. Crim. App. 1990) ). Such extraneous offense evidence may be admissible, however, \"when it has relevance apart from character conformity.\" Devoe , 354 S.W.3d at 469. This may include evidence offered to \"show proof of motive, opportunity, intent, preparation, plan, knowledge, identity, or absence of mistake or accident.\" Id. (citing TEX. R. EVID. 404(b) ). Additionally, extraneous evidence may be relevant and admissible to rebut a defensive theory. Roberts v. State , 29 S.W.3d 596, 601 (Tex. App.-Houston [1st Dist.] 2000, pet. ref'd).\n\"The term 'probative value' refers to the inherent probative force of an item of evidence-that is, how strongly it serves to make more or less probable the existence of a fact of consequence to the litigation-coupled with the proponent's need for that item of evidence.\" Casey v. State , 215 S.W.3d 870, 879 (Tex. Crim. App. 2007). \" 'Unfair prejudice' refers to a tendency to suggest decision on an improper basis, commonly, though not necessarily, an emotional one.\" Id. \"Evidence might be unfairly prejudicial if, for example, it arouses the jury's hostility or sympathy for one side without regard to the logical probative force of the evidence.\" Id. at 880.\nD. Motion to Suppress\nThe motion to suppress was carried with the trial. Prior to Sergeant Rasberry testifying, and outside the jury's presence, Gittens reurged his motion to suppress based on the evidence presented during the trial. The facts surrounding Gittens's arrest and the subsequent search were not in dispute.\nGittens was arrested in Houston, Texas following a traffic stop. He provided law enforcement officers a signed, voluntary consent to search his motel room. Once inside, the officers observed a SentrySafe. The officers requested and obtained a search warrant for the safe and recovered two firearms, ammunition, and narcotics.\nThe State argued the two firearms supported Gittens's identity and the State's theory of the case. The State compared the two firearms located in the safe and the two firearms being carried by the man identified as Gittens at the scene to an eyewitness describing someone with a distinctive \"red cap.\" The evidence was not being offered for propensity, but for the identity of the second man who appeared in the hallway-an exception under Texas Evidentiary Rule 404(b). See TEX. R. EVID. 404(b). During cross-examination, the defense accused David O'Neal of unadjudicated drug offenses. The State argued that intimidation by both Gittens and Byrd for drug sales, possession, and robbery was central to the State's theory of the case. The evidence was therefore admissible as \"proof of motive, opportunity, intent, preparation, [and] plan.\" See id. Finally, the State argued any confusion or risk of injecting extraneous, prejudicial matters could be addressed by including an extraneous offense instruction in the trial court's charge. See Beam v. State , 447 S.W.3d 401, 405 (Tex. App.-Houston [14th Dist.] 2014, no pet.) (\"[P]otential that the jury may be unfairly prejudiced by the defendant's character conformity ... can be minimized through a limiting instruction.\"); see also Sifuentes v. State , 494 S.W.3d 806, 817 (Tex. App.-Houston [14th Dist.] 2016, no pet.) (\"We generally presume a jury followed a trial court's instruction regarding consideration of evidence.\").\nThe defense countered that the probable cause affidavit to search the safe was procured to search for a murder weapon and neither of the weapons located in the safe were the murder weapon. The defense also argued that the State was attempting to inject extraneous matters before the jury-possession of a firearm, possession of ammunition, and possession of narcotics-to demonstrate that Gittens was acting in conformity with other extraneous offenses. See TEX. R. EVID. 404(b) ; Prible , 175 S.W.3d at 731.\nThe trial court held that the probative value of the evidence-the weapons and the other contraband-outweighed the prejudicial effect the evidence might have and the evidence was therefore admissible.\nE. Analysis\nThe State's theory throughout the trial was that Gittens and Byrd conspired to intimidate and rob David. The evidence presented at trial was that both men threatened David with a firearm, attempted to restrain David with zip ties, and told David to \"give it up.\" The officers also found evidence of drugs in the room where David, Gittens, and Byrd first started arguing. The trial court could have reasonably concluded that the probative value of the evidence was high-it had a tendency to show that Gittens was the second person coming down the hallway carrying two handguns. See TEX. R. EVID. 404(b).\nAt the same time, the trial court could have reasonably concluded that the extraneous offense evidence-possession of a firearm, possession of ammunition, and possession of narcotics-was not so inflammatory that there was a \"clear disparity\" between the degree of prejudice of the offered evidence and its probative value. See id. Additionally, the trial court provided a limiting instruction in the jury charge prohibiting the jury from considering the evidence for an improper purpose. See Beam , 447 S.W.3d at 405 ; Sifuentes , 494 S.W.3d at 817. There is no indication in the record that the jury disregarded that instruction. See Sifuentes , 494 S.W.3d at 817.\nBecause the trial court's determination that the probative value of the evidence seized outweighed the prejudicial effect was not outside the zone of disagreement, we conclude the trial court did not abuse its discretion in denying Gittens's motion to suppress. Prible , 175 S.W.3d at 731. We overrule Gittens's first issue.\nWe next turn to Gittens's contention the evidence is insufficient to support his conviction for murder under the law of parties.\nSUFFICIENCY OF THE EVIDENCE\nA. Standard of Review\nIn reviewing the sufficiency of the evidence, \"we view all of the evidence in the light most favorable to the verdict to determine whether any rational trier of fact could have found the essential elements of the crime beyond a reasonable doubt.\" Adames v. State , 353 S.W.3d 854, 860 (Tex. Crim. App. 2011) ; accord Gear v. State , 340 S.W.3d 743, 746 (Tex. Crim. App. 2011). \"This standard recognizes the trier of fact's role as the sole judge of the weight and credibility of the evidence....\" Adames , 353 S.W.3d at 860 ; accord Gear , 340 S.W.3d at 746. The reviewing court must also give deference to the jury's ability \"to draw reasonable inferences from basic facts to ultimate facts.\" Hooper v. State , 214 S.W.3d 9, 13 (Tex. Crim. App. 2007) (quoting Jackson v. Virginia , 443 U.S. 307, 319, 99 S.Ct. 2781, 61 L.Ed.2d 560 (1979) ). \"Each fact need not point directly and independently to the guilt of the appellant, as long as the cumulative force of all the incriminating circumstances is sufficient to support the conviction.\" Id. (citing Johnson v. State , 871 S.W.2d 183, 186 (Tex. Crim. App. 1993) ).\nWe may not substitute our judgment for that of the jury by reevaluating the weight and credibility of the evidence. King v. State , 29 S.W.3d 556, 562 (Tex. Crim. App. 2000). We defer to the jury's responsibility to fairly resolve any conflicts in the evidence, weigh the evidence, and draw reasonable inferences. See Hooper , 214 S.W.3d at 13. The jury alone decides whether to believe eyewitness testimony, and it resolves any conflicts in the evidence. See Hooper , 214 S.W.3d at 13 ; Young v. State , 358 S.W.3d 790, 801 (Tex. App.-Houston [14th Dist.] 2012, pet. ref'd). In conducting a sufficiency review, \"[w]e do not engage in a second evaluation of the weight and credibility of the evidence, but only ensure that the jury reached a rational decision.\" Young , 358 S.W.3d at 801.\nB. Arguments of the Parties\nGittens was charged with the murder of Antwan Jones. He contends the evidence all supports that Byrd was the shooter, not Gittens, and because there is no evidence to suggest there was a conspiracy or that Gittens was an accomplice as a matter of law, the evidence is insufficient to support the jury's guilty verdict.\nThe State counters the evidence supports Gittens conspired with Byrd to rob David and was assisting Byrd-they both threatened David with handguns, attempted to restrain him, and attempted to coerce money from him. The evidence also supports that Gittens was more than simply present at the scene; he had an integral role in the robbery resulting in the death of Antwan Jones.\nC. Murder as an Accomplice or Pursuant to a Conspiracy\nGittens does not contest the State's evidence that Byrd murdered Antwan or that Gittens was present at the time of the murder. See TEX. PENAL CODE ANN. \u00a7 19.02(b)(1), (2) (West 2011). Gittens argues the State failed to prove he was guilty as an accomplice or as a conspirator. See id. \u00a7 7.02(a)(2), (b).\nTexas Penal Code section 7.02 states when \"[a] person is criminally responsible for an offense committed by the conduct of another.\" See id. 7.02(a). Under section 7.02(a)(2), Gittens is criminally responsible for Antwan's murder if he \"act[ed] with intent to promote or assist the commission of the offense, he solicit[ed], encourage[d], direct[ed], aid[ed], or attempt[ed] to aid [Byrd] to commit the offense.\" See id.\nUnder section 7.02(b), Gittens is criminally responsible for Antwan's murder if Gittens and Byrd were carrying out a conspiracy to commit aggravated robbery, and Byrd killed Antwan; Gittens is \"guilty of [murder], though having no intent to commit it, if the [murder] was committed in furtherance of the [robbery] and was one that should have been anticipated as a result of the carrying out of the conspiracy.\" See TEX. PENAL CODE ANN. \u00a7 7.02(b). To prove conspiracy, the State must prove Gittens agreed with one or more persons to \"engage in conduct that would constitute a [felony] offense\" and that Gittens \"perform[ed] an overt act in pursuance of the agreement.\" See TEX. PENAL CODE ANN. \u00a7 15.02(a) (West 2011).\n\"Since an agreement between parties to act together in common design can seldom be proven by words, the State often must rely on the actions of the parties, shown by direct or circumstantial evidence, to establish an understanding or a common design to commit the offense.\" Ervin v. State , 333 S.W.3d 187, 201 (Tex. App.-Houston [1st Dist.] 2010, pet. ref'd). A defendant's intent may be inferred from his words, acts, and conduct. Guevara v. State , 152 S.W.3d 45, 50 (Tex. Crim. App. 2004) (relying on circumstantial evidence); Arredondo v. State , 270 S.W.3d 676, 682 (Tex. App.-Eastland 2008, no pet.). If a deadly weapon is used in a deadly manner, \"the inference of intent to kill is almost conclusive.\" Fields v. State , 515 S.W.3d 47, 53 (Tex. App.-San Antonio 2016, no pet.) (considering use of a firearm); see also Draper v. State , 335 S.W.3d 412, 415 (Tex. App.-Houston [14th Dist.] 2011, pet. ref'd) ; Watkins v. State , 333 S.W.3d 771, 781 (Tex. App.-Waco 2010, pet. ref'd).\nD. Analysis\nDavid testified that both Byrd and Gittens held handguns to his head. While Byrd tried to restrain David with zip ties, Gittens continued to hold the gun to David's face. When David resisted being restrained, Gittens struck David with the gun already in Gittens's hand, \"hard enough to cut the skin.\" During cross-examination, defense counsel contended David was a drug dealer and that is why officers found drugs and money in the back room of the house. See Canfield v. State , 429 S.W.3d 54, 68 (Tex. App.-Houston [1st Dist.] 2014, pet. ref'd).\nBoth Denzel and David testified that when David ran down the hallway, Gittens continued to wave a gun at him or in the air. Lula testified seeing Gittens run down the hallway waving two handguns in the air and then run out the front door. David further testified Gittens was driving the vehicle when Gittens and Byrd left the property.\nBy Gittens's actions before, during, and after the murder, including his holding a gun to David's face and hitting David in the eye with the gun, the jury could have reasonably determined Gittens was a willing participant in the robbery. See Young v. State , 283 S.W.3d 854, 862 (Tex. Crim. App. 2009) (concluding assaultive conduct was evidence of intent to commit robbery). The jury could have also reasonably determined Gittens should have anticipated that by using firearms during the commission of the robbery, someone at the residence could be killed. See Whitmire v. State , 183 S.W.3d 522, 526-27 (Tex. App.-Houston [14th Dist.] 2006, pet. ref'd) (concluding murder during aggravated robbery was foreseeable); Love v. State , 199 S.W.3d 447, 453 (Tex. App.-Houston [1st Dist.] 2006, pet. ref'd) (\"Evidence that a defendant knew his co-conspirators might use guns in the course of the robbery can be sufficient to demonstrate that the defendant should have anticipated the possibility of murder occurring during the course of the robbery.\"). Gittens's actions in waving two firearms in the air as he ran down the hall, and then driving the \"getaway car,\" is also further evidence of their agreement or Gittens's actions to promote or assist in the robbery.\nViewing all of the evidence presented in the light most favorable to the jury's verdict, see Adames , 353 S.W.3d at 860, we conclude a rational jury could have found the essential elements to conclude that Gittens acted with intent to promote or assist in the robbery and that he solicited, encouraged, directed, aided, or attempted to aid Byrd in causing the death of Antwan. See TEX. PENAL CODE ANN. \u00a7 7.02(a)(2). We further conclude the jury could have reasonably found the essential elements to conclude that Gittens entered into a conspiracy to commit the offense of robbery and in attempting to carry out the agreement, Byrd intentionally caused Antwan's death and that Gittens could have reasonably anticipated the offense as a result of carrying out the conspiracy to commit the robbery. See TEX. PENAL CODE ANN. \u00a7 7.02(b). We overrule Gittens's second issue.\nGittens's final issues relate to the trial court proceeding with the trial in Gittens's absence.\nPROCEEDING IN ABSENTIA\nOn August 26, 2016, shortly before noon, the State rested its case-in-chief, the jury was excused, and Gittens's motion for directed verdict was denied by the trial court. Defense counsel announced the defense intended to rest, and an informal charge conference was held off the record. The parties were excused for the trial court to prepare the court's charge. When the matter was recalled, Gittens was not present. After attempts to locate him were unsuccessful, the trial court proceeded with closing arguments.\nA. Arguments of the Parties\nGittens contends the trial court erred in continuing the trial without evidence that Gittens voluntarily absented himself in violation of Texas Code of Criminal Procedure article 33.03. See TEX. CODE CRIM. PROC. ANN. art. 33.03 (West 2006) (providing that when defendant voluntarily absents himself after the jury has been selected, the trial may proceed to its conclusion). Gittens also argues he received ineffective assistance of counsel because his defense counsel (1) failed to object to the continuation of the trial in Gittens's absence without sworn testimony that Gittens voluntarily absented himself and (2) defense counsel failed to file a motion for new trial on grounds that Gittens was tried and sentenced in absentia.\nThe State counters that the trial court met the requirements of article 33.03 and therefore did not violate Gittens's Sixth Amendment rights. See id. Additionally, Gittens failed to show both prongs required by Strickland to prove ineffective assistance of counsel-deficient performance and that \"but for\" counsel's actions, the result would have been different.\nB. Trial Court's Decision to Proceed in Gittens's Absence\n1. Standard of Review\nWe review a trial court's ruling that the defendant has voluntarily absented himself from trial under an abuse of discretion standard. See Moore v. State , 670 S.W.2d 259, 261 (Tex. Crim. App. 1984). The validity of a trial court's decision that the defendant's absence was voluntary will generally have to be determined in hindsight. Id. \"Absent any evidence from the defendant to refute the trial court's determination that his absence was voluntary, we will not disturb the trial court's finding.\" Id. ; accord Hudson v. State , 128 S.W.3d 367, 375-76 (Tex. App.-Texarkana 2004, no pet.).\n2. Sixth Amendment Right of Confrontation\n\"[W]ithin the scope of the right of confrontation is the absolute requirement that a criminal defendant who is threatened with loss of liberty be physically present at all phases of proceedings against him, absent a waiver of that right through defendant's own conduct.\" Fulmer v. State , 401 S.W.3d 305, 314 (Tex. App.-San Antonio 2013, pet. ref'd) (citing Baltierra v. State , 586 S.W.2d 553, 556 (Tex. Crim. App. 1979) ); see also U.S. CONST. amend. VI ; TEX. CONST. art. I, \u00a7 10 ; TEX. CODE CRIM. PROC. ANN. art. 33.03. When there is evidence before the trial court to support a conclusion that the defendant's absence from the trial after a jury has been selected is voluntary, the trial court may permissibly continue the trial in the defendant's absence. See Moore , 670 S.W.2d at 261 (holding that trial court reasonably could have inferred that defendant's absence was voluntary when defendant, who had been released on bond, was present in court afternoon before, had been advised by court and counsel when and where to appear, and neither court nor counsel received communication from defendant explaining his absence).\n3. Analysis\nOn August 26, 2016, Gittens was advised to appear after the court took a break for lunch. The record substantiates that defense counsel affirmatively told Gittens when to appear back in court and attempted to locate Gittens when he did not appear.\nJudge, as an officer of the Court, I would like to inform you that I have sent him some text messages. Let me give you the exact time. At 2:18 [p.m.], I sent him the following message, \"[Gittens], get back to court.\" His response was, \"Okay. Coming.\"\nSince then, I have sent him other messages to which I have received no response. I attempted to contact him by calling the number, and his phone appears to be turned off.\nDefense counsel offered no further information regarding Gittens's whereabouts. See Odelugo v. State , 443 S.W.3d 131, 137 (Tex. Crim. App. 2014) (holding trial court entitled to rely on defense counsel's representation that he was unaware of appellant's whereabouts); Aguirre v. State , 695 S.W.2d 793, 794 (Tex. App.-San Antonio 1985, no pet.) (trial court was correct in proceeding with trial where \"appellant never communicated with the court or otherwise advised regarding the reasons for his absence\"); see also Davis v. State , No. 05-14-01374-CR, 2016 WL 310093, at *5 (Tex. App.-Dallas Jan. 26, 2016, no pet.) (mem. op., not designated for publication) (considering appellant did not return during jury deliberations even when defense counsel contacted him by telephone and advised him he was \"needed\" in the courtroom).\nGittens's pretrial supervision officer attempted to locate Gittens, and the record suggests Gittens's ankle monitor may have been removed. The trial court issued a warrant for Gittens's arrest, and explained as follows:\nI'm satisfied the defendant has absented himself voluntarily, by his own volition, and we have got to proceed to trial. He was here during the entire trial. It was only after the State rested that he decided he was going to not-not come.\nContrary to Gittens's contention, the trial court need not conduct a full-blown evidentiary hearing on the issue of voluntariness. See Aguirre , 695 S.W.2d at 795.\nThe record further supports that Gittens did not appear for the September 28, 2016 sentencing hearing. More than five months later, on March 10, 2017, Gittens was brought before the trial court and sentenced in accordance with the sentence announced on September 28, 2016. Gittens never introduced any evidence to suggest his absence was anything other than voluntary. See id. at 794 (concluding lack of evidence that absence was involuntary, appellate courts \"engage in the presumption that the trial court finding regarding the voluntariness of appellant's absence is correct\").\nThe trial court made the appropriate inquiries as to Gittens's whereabouts to sufficiently conclude the voluntariness of Gittens's absence. We conclude the trial court did not abuse its discretion in proceeding with the trial pursuant to article 33.03 despite Gittens's absence. See TEX. CODE CRIM. PROC. ANN. art. 33.03 ; Moore , 670 S.W.2d at 261.\nC. Ineffective Assistance of Counsel\n1. Standard of Review\nTo determine whether defense counsel's representation was ineffective, the United States Supreme Court set out a two-prong test: (1) \"[t]he defendant must show that counsel's performance was deficient\" and (2) \"a reasonable probability that, but for counsel's unprofessional errors, the result of the proceeding would have been different.\" Strickland v. Washington , 466 U.S. 668, 687, 694, 104 S.Ct. 2052, 80 L.Ed.2d 674 (1984) ; accord Ex parte Moore , 395 S.W.3d 152, 157-58 (Tex. Crim. App. 2013) ; Menefield v. State , 363 S.W.3d 591, 592 (Tex. Crim. App. 2012). To establish the first prong, deficient performance, Gittens must prove that defense counsel's performance \" 'fell below an objective standard of reasonableness' under prevailing professional norms and according to the necessity of the case.\" Ex parte Moore , 395 S.W.3d at 157 (quoting Strickland , 466 U.S. at 687-88, 104 S.Ct. 2052 ). To establish harm, Gittens \"must demonstrate that he was prejudiced by his attorney's performance or that 'there is a reasonable probability that, but for counsel's unprofessional errors, the result of the proceeding would have been different.' \" Id. at 158 (footnoted omitted) (quoting Strickland , 466 U.S. at 694, 104 S.Ct. 2052 ).\n2. Alleged Defense Counsel Errors\nGittens failed to bring forward any evidence to show his counsel's performance was deficient or that any such deficiency prejudiced Gittens. Having already determined the trial court did not abuse its discretion in continuing the trial in Gittens's absence, defense counsel was not ineffective for failing to object to defense counsel's failure to object to the continuation of the trial. See Jackson v. State , 495 S.W.3d 398, 418 (Tex. App.-Houston [14th Dist.] 2016, pet. ref'd) (concluding defense \"counsel is not required to file futile motions\");\nVarughese v. State , 892 S.W.2d 186, 192 (Tex. App.-Fort Worth 1994, pet. ref'd) (holding counsel is not ineffective for not objecting to State's proper argument). Similarly, defense counsel was not ineffective for failing to file a motion for new trial on the same grounds. Jackson , 495 S.W.3d at 418 ; Varughese , 892 S.W.2d at 192.\n3. Cumulative Effect\nNothing in the record before us on direct appeal rebuts the strong presumption that Gittens's defense counsel's conduct was within the range of reasonable professional assistance. See Lopez v. State , 343 S.W.3d 137, 142 (Tex. Crim. App. 2011). Even assuming Gittens met Strickland 's first prong on one of his complaints regarding defense counsel's conduct, Gittens failed to show how \"but for\" these alleged deficiencies, there is a reasonable probability the result of the trial would have been different. See Strickland , 466 U.S. at 687, 104 S.Ct. 2052. Because Gittens failed to prove both prongs set forth under Strickland , we overrule his complaints pertaining to ineffective assistance of counsel.\nCONCLUSION\nHaving overruled each of Gittens's issues on appeal, we affirm the trial court's judgment.",
+        "type": "majority",
+        "author": "Opinion by: Patricia O. Alvarez, Justice"
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "Kerry GITTENS, Appellant\nv.\nThe STATE of Texas, Appellee\nNo. 04-17-00230-CR\nCourt of Appeals of Texas, San Antonio.\nDelivered and Filed: July 31, 2018\nAPPELLANT ATTORNEY: William T. Reece, Law Offices of William T. Reece Jr., 3030 Nacogdoches Rd., Suite 220, San Antonio, TX 78217.\nAPPELLEE ATTORNEY: Mary Beth Welsh, Assistant Criminal District Attorney, Paul Elizondo Tower, 101 W. Nueva, 7th Floor, San Antonio, TX 78205.\nSitting: Patricia O. Alvarez, Justice, Luz Elena D. Chapa, Justice, Irene Rios, Justice OPINION"
+  },
+  "file_name": "0725-01",
+  "first_page_order": 725,
+  "last_page_order": 739
+}

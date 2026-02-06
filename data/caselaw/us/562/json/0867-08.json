@@ -1,0 +1,59 @@
+{
+  "id": 6007820,
+  "name": "Scott v. United States",
+  "name_abbreviation": "Scott v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11203",
+  "first_page": "867",
+  "last_page": "867",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 867"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.597,
+    "sha256": "3b19572f5b552b064694de2dba1c830fe05a06ab35ed6e533c2074f7e0e70053",
+    "simhash": "1:2019f6272afb1f94",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Scott v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. D. C. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11203.\nScott v. United States."
+  },
+  "file_name": "0867-08",
+  "first_page_order": 889,
+  "last_page_order": 889
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5964444,
+  "name": "Wilson v. Goldstein",
+  "name_abbreviation": "Wilson v. Goldstein",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7321",
+  "first_page": "1151",
+  "last_page": "1151",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1151"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 69,
+    "ocr_confidence": 0.532,
+    "sha256": "600181ee9f2357564809bbb013762c6a890e7243e8d2662b12ce2aa175711345",
+    "simhash": "1:8805093c3d92c6a3",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wilson v. Goldstein."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7321.\nWilson v. Goldstein."
+  },
+  "file_name": "1151-03",
+  "first_page_order": 1173,
+  "last_page_order": 1173
+}

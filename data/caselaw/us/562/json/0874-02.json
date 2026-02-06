@@ -1,0 +1,59 @@
+{
+  "id": 6028015,
+  "name": "Simmons v. California",
+  "name_abbreviation": "Simmons v. California",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11322",
+  "first_page": "874",
+  "last_page": "874",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 874"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 70,
+    "ocr_confidence": 0.679,
+    "sha256": "f92dd5fdbcca5ffaaea3190300ae2a76d16cd26111c86a9025ad04cd35980a5f",
+    "simhash": "1:8e6b12378b3a095c",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Simmons v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Cal. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11322.\nSimmons v. California."
+  },
+  "file_name": "0874-02",
+  "first_page_order": 896,
+  "last_page_order": 896
+}

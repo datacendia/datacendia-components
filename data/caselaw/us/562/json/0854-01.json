@@ -1,0 +1,59 @@
+{
+  "id": 5939069,
+  "name": "Stinson v. United States",
+  "name_abbreviation": "Stinson v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-10848",
+  "first_page": "854",
+  "last_page": "854",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 854"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.639,
+    "sha256": "65ec141fcde86ad68ad2f69f9f95f45133fce89687f2da1bab196137e0234b3b",
+    "simhash": "1:0608cf8242bea52c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Stinson v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10848.\nStinson v. United States."
+  },
+  "file_name": "0854-01",
+  "first_page_order": 876,
+  "last_page_order": 876
+}

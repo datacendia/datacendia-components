@@ -1,0 +1,59 @@
+{
+  "id": 12418208,
+  "name": "Durr v. Illinois",
+  "name_abbreviation": "Durr v. Illinois",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 12-5583",
+  "first_page": "947",
+  "last_page": "947",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 947"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.592,
+    "sha256": "d6b2a3fd580bf425f5193ebc904fceb312e26a06088bf492ccd4f17aafb4e827",
+    "simhash": "1:21aa92451025d42e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Durr v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Ill., 1st Dist. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5583.\nDurr v. Illinois."
+  },
+  "file_name": "0947-03",
+  "first_page_order": 1023,
+  "last_page_order": 1023
+}

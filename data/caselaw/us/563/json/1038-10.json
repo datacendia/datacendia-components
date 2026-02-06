@@ -1,0 +1,59 @@
+{
+  "id": 5938450,
+  "name": "Smith v. Clarke, Director, Virginia Department of Corrections",
+  "name_abbreviation": "Smith v. Clarke",
+  "decision_date": "2011-06-06",
+  "docket_number": "No. 10-10120",
+  "first_page": "1038",
+  "last_page": "1038",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1038"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 111,
+    "ocr_confidence": 0.598,
+    "sha256": "95037e644ae17580aef45adaf8ae911f0be4943ca92482410dd2a61eaa13fcb7",
+    "simhash": "1:37e200c1961eb261",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Smith v. Clarke, Director, Virginia Department of Corrections."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10120.\nSmith v. Clarke, Director, Virginia Department of Corrections."
+  },
+  "file_name": "1038-10",
+  "first_page_order": 1064,
+  "last_page_order": 1064
+}

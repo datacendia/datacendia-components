@@ -1,0 +1,59 @@
+{
+  "id": 12242827,
+  "name": "Cotto v. Kelly, Attorney General of Pennsylvania, et al.",
+  "name_abbreviation": "Cotto v. Kelly",
+  "decision_date": "2012-01-17",
+  "docket_number": "No. 11-7213",
+  "first_page": "1161",
+  "last_page": "1161",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1161"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 103,
+    "ocr_confidence": 0.586,
+    "sha256": "160b90f08f873555b3a1f52ee4e4c91a11a24fa82d02f28a37a43ed5f0e1351d",
+    "simhash": "1:024c20a148bfb62f",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cotto v. Kelly, Attorney General of Pennsylvania, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7213.\nCotto v. Kelly, Attorney General of Pennsylvania, et al."
+  },
+  "file_name": "1161-03",
+  "first_page_order": 1243,
+  "last_page_order": 1243
+}

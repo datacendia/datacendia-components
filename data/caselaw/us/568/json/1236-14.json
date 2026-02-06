@@ -1,0 +1,59 @@
+{
+  "id": 12433390,
+  "name": "Jackson v. Georgia",
+  "name_abbreviation": "Jackson v. Georgia",
+  "decision_date": "2013-03-18",
+  "docket_number": "No. 12-8193",
+  "first_page": "1236",
+  "last_page": "1236",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1236"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 65,
+    "ocr_confidence": 0.686,
+    "sha256": "5fb7cc5a9f669be5f8d3d5061708d8880c305772b0aaa0a03d2cfc60b345f4e9",
+    "simhash": "1:901278dad41ce03d",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jackson v. Georgia."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Ga. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8193.\nJackson v. Georgia."
+  },
+  "file_name": "1236-14",
+  "first_page_order": 1312,
+  "last_page_order": 1312
+}

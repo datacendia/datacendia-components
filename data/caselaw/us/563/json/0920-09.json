@@ -1,0 +1,59 @@
+{
+  "id": 5963351,
+  "name": "Steiner v. Florida",
+  "name_abbreviation": "Steiner v. Florida",
+  "decision_date": "2011-04-04",
+  "docket_number": "No. 10-8759",
+  "first_page": "920",
+  "last_page": "920",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 920"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 83,
+    "ocr_confidence": 0.552,
+    "sha256": "825cc5fb47df34d7cb034f749ad1eeddfe0fce10a074b2ddcc1051ceddfa3200",
+    "simhash": "1:112a50038c604b92",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Steiner v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 5th Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8759.\nSteiner v. Florida."
+  },
+  "file_name": "0920-09",
+  "first_page_order": 946,
+  "last_page_order": 946
+}

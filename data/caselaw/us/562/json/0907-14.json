@@ -1,0 +1,59 @@
+{
+  "id": 6012691,
+  "name": "Forde v. California et al.",
+  "name_abbreviation": "Forde v. California",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5177",
+  "first_page": "907",
+  "last_page": "907",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 907"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 74,
+    "ocr_confidence": 0.584,
+    "sha256": "68e9cfe1ee65158e047c18ed3891a28e10bcba1799d31c1fed2b3986524dd269",
+    "simhash": "1:108820a87bc52454",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Forde v. California et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5177.\nForde v. California et al."
+  },
+  "file_name": "0907-14",
+  "first_page_order": 929,
+  "last_page_order": 929
+}

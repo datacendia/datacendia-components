@@ -1,0 +1,59 @@
+{
+  "id": 5949087,
+  "name": "Jarvis v. Montgomery County, Maryland",
+  "name_abbreviation": "Jarvis v. Montgomery County",
+  "decision_date": "2011-01-24",
+  "docket_number": "No. 10-7663",
+  "first_page": "1203",
+  "last_page": "1203",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1203"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 86,
+    "ocr_confidence": 0.599,
+    "sha256": "a31b12a9170fe9c951b3158ea701724839689d6b1d896c57b03a276a592fa9f7",
+    "simhash": "1:30c302b9e6253225",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jarvis v. Montgomery County, Maryland."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7663.\nJarvis v. Montgomery County, Maryland."
+  },
+  "file_name": "1203-13",
+  "first_page_order": 1225,
+  "last_page_order": 1225
+}

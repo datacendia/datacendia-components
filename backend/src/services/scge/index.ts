@@ -1,0 +1,15 @@
+/**
+ * SCGE - Synthetic Civic Governance Environment
+ * 
+ * Index file for all SCGE exports
+ */
+
+// Core types
+export * from './types.js';
+
+// Services
+export { SyntheticPopulationService, syntheticPopulationService } from './SyntheticPopulationService.js';
+export { PolicyInjectionService, policyInjectionService, DEFAULT_POLICY_TEMPLATES } from './PolicyInjectionService.js';
+export { EventInjectionService, eventInjectionService, DEFAULT_EVENT_SCENARIOS } from './EventInjectionService.js';
+export { StressorLibraryService, stressorLibraryService, STRESSOR_SCENARIO_PRESETS } from './StressorLibraryService.js';
+export { SCGEOrchestrator, scgeOrchestrator } from './SCGEOrchestrator.js';

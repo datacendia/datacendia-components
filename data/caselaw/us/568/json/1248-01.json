@@ -1,0 +1,59 @@
+{
+  "id": 12433802,
+  "name": "Krug v. Roberts, Chief Justice, Supreme Court of the United States, et al.",
+  "name_abbreviation": "Krug v. Roberts",
+  "decision_date": "2013-03-25",
+  "docket_number": "No. 12-8660",
+  "first_page": "1248",
+  "last_page": "1248",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1248"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 37,
+    "char_count": 227,
+    "ocr_confidence": 0.565,
+    "sha256": "8eee3c12ffb4bc5dadadc152bab9432476d331d8c4c845803a599abfcdf9f6bc",
+    "simhash": "1:d3a049404240a054",
+    "word_count": 39
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Krug v. Roberts, Chief Justice, Supreme Court of the United States, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. D. C. Cir. Motion of petitioner for leave to proceed in forma pauperis denied, and certiorari dismissed. See this Court\u2019s Rule 89.8.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8660.\nKrug v. Roberts, Chief Justice, Supreme Court of the United States, et al."
+  },
+  "file_name": "1248-01",
+  "first_page_order": 1324,
+  "last_page_order": 1324
+}

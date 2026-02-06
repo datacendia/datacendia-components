@@ -1,0 +1,1365 @@
+{
+  "id": 12522003,
+  "name": "VIRNETX INC., Appellant v. APPLE INC., Cisco Systems, Inc., Appellees",
+  "name_abbreviation": "Virnetx Inc. v. Apple Inc.",
+  "decision_date": "2019-08-01",
+  "docket_number": "2017-1591, 2017-1592, 2017-1593",
+  "first_page": "1363",
+  "last_page": "1386",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "931 F.3d 1363"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Fed. Cir.",
+    "id": 8955,
+    "name": "United States Court of Appeals for the Federal Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "541 U.S. 1019",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5904388,
+        5874573,
+        5882100,
+        5915671,
+        5911414,
+        5932310
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "1023",
+          "parenthetical": "Scalia, J., dissenting from denial of certiorari"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/541/1019-02",
+        "/us/541/1019-03",
+        "/us/541/1019-05",
+        "/us/541/1019-04",
+        "/us/541/1019-01",
+        "/us/541/1019-06"
+      ]
+    },
+    {
+      "cite": "37 C.F.R. \u00a7 1.979",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(b)",
+          "parenthetical": "providing that an \"appeal [to this Court] is considered terminated when the mandate is issued by the Court\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "37 C.F.R. \u00a7 1.197",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "pin_cites": [
+        {
+          "parenthetical": "\"An appeal to the U.S. Court of Appeals for the Federal Circuit, whether from a decision of the Board or a judgment in a civil action, is terminated when the mandate is issued by the Court.\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "856 F.3d 883",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12276905
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "parenthetical": "analyzing stages of PTO decision-making process as related to reviewability"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/856/0883-01"
+      ]
+    },
+    {
+      "cite": "135 S. Ct. 1765",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12589266
+      ],
+      "weight": 2,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1774",
+          "parenthetical": "\"Because certiorari jurisdiction exists to clarify the law, its exercise 'is not a matter of right, but of judicial discretion.' \" (quoting Supreme Court Rule 10)"
+        },
+        {
+          "parenthetical": "\"Because certiorari jurisdiction exists to clarify the law, its exercise 'is not a matter of right, but of judicial discretion.' \" (quoting Supreme Court Rule 10)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/135/1765-01"
+      ]
+    },
+    {
+      "cite": "U.S. Patent No. 6,557,037",
+      "category": "laws:admin_filing",
+      "reporter": "U.S. Patent",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "parenthetical": "\"Provino\""
+        },
+        {
+          "page": "1322-23"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "141 U.S. 661",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3555705
+      ],
+      "weight": 3,
+      "year": 1891,
+      "pin_cites": [
+        {
+          "page": "665"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/141/0661-01"
+      ]
+    },
+    {
+      "cite": "166 U.S. 110",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3592723
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/166/0110-01"
+      ]
+    },
+    {
+      "cite": "100 L.Ed. 1297",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "year": 1956,
+      "pin_cites": [
+        {
+          "parenthetical": "noting the courts' longstanding \"hostility toward piecemeal appeals\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "351 U.S. 427",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1105215
+      ],
+      "weight": 2,
+      "year": 1956,
+      "pin_cites": [
+        {
+          "page": "439",
+          "parenthetical": "noting the courts' longstanding \"hostility toward piecemeal appeals\""
+        },
+        {
+          "parenthetical": "noting the courts' longstanding \"hostility toward piecemeal appeals\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/351/0427-01"
+      ]
+    },
+    {
+      "cite": "463 U.S. 545",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6197434
+      ],
+      "weight": 3,
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "570"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/463/0545-01"
+      ]
+    },
+    {
+      "cite": "96 S.Ct. 579",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        6176824,
+        6176716
+      ],
+      "year": 1976,
+      "pin_cites": [
+        {
+          "parenthetical": "noting the distinction that \"appeals are a matter of right while decisions on certiorari petitions are wholly discretionary,\" but explaining that \"Congress, however, has given a right to petition for certiorari\" (emphasis added)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/423/0326-01",
+        "/us/423/0325-01"
+      ]
+    },
+    {
+      "cite": "423 U.S. 325",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6176716
+      ],
+      "weight": 2,
+      "year": 1976,
+      "pin_cites": [
+        {
+          "parenthetical": "noting the distinction that \"appeals are a matter of right while decisions on certiorari petitions are wholly discretionary,\" but explaining that \"Congress, however, has given a right to petition for certiorari\" (emphasis added)"
+        },
+        {
+          "parenthetical": "noting the distinction that \"appeals are a matter of right while decisions on certiorari petitions are wholly discretionary,\" but explaining that \"Congress, however, has given a right to petition for certiorari\" (emphasis added)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/423/0325-01"
+      ]
+    },
+    {
+      "cite": "401 U.S. 481",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11713016
+      ],
+      "weight": 3,
+      "year": 1971,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/401/0481-01"
+      ]
+    },
+    {
+      "cite": "166 U.S. 280",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3593174
+      ],
+      "weight": 5,
+      "year": 1897,
+      "pin_cites": [
+        {
+          "page": "283-284"
+        },
+        {
+          "page": "284"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/166/0280-01"
+      ]
+    },
+    {
+      "cite": "93 L.Ed. 1282",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "weight": 2,
+      "year": 1949,
+      "opinion_index": 0
+    },
+    {
+      "cite": "337 U.S. 163",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        572616
+      ],
+      "weight": 2,
+      "year": 1949,
+      "pin_cites": [
+        {
+          "page": "172-73"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/337/0163-01"
+      ]
+    },
+    {
+      "cite": "389 U.S. 327",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11338449
+      ],
+      "weight": 3,
+      "year": 1967,
+      "pin_cites": [
+        {
+          "page": "328",
+          "parenthetical": "\"[B]ecause the Court of Appeals remanded the case, it is not yet ripe for review by this Court.\""
+        },
+        {
+          "parenthetical": "\"[B]ecause the Court of Appeals remanded the case, it is not yet ripe for review by this Court.\""
+        },
+        {
+          "parenthetical": "\"[B]ecause the Court of Appeals remanded the case, it is not yet ripe for review by this Court.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/389/0327-01"
+      ]
+    },
+    {
+      "cite": "320 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6136509
+      ],
+      "weight": 4,
+      "year": 1943,
+      "pin_cites": [
+        {
+          "page": "47-48"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/320/0001-01"
+      ]
+    },
+    {
+      "cite": "258 U.S. 82",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1479243
+      ],
+      "weight": 6,
+      "year": 1922,
+      "pin_cites": [
+        {
+          "page": "84-91"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/258/0082-01"
+      ]
+    },
+    {
+      "cite": "748 F. App'x 332",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "weight": 2,
+      "year": 2019,
+      "opinion_index": 0
+    },
+    {
+      "cite": "324 F. Supp. 3d 836",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "case_ids": [
+        12526667
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "844"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-3d/324/0836-01"
+      ]
+    },
+    {
+      "cite": "158 L.Ed.2d 636",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "year": 2004,
+      "pin_cites": [
+        {
+          "parenthetical": "Scalia, J., dissenting from denial of certiorari"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "124 S.Ct. 1750",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "year": 2004,
+      "pin_cites": [
+        {
+          "parenthetical": "Scalia, J., dissenting from denial of certiorari"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "555 U.S. 223",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3679212
+      ],
+      "weight": 3,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "240"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/555/0223-01"
+      ]
+    },
+    {
+      "cite": "215 F.3d 90",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11207468,
+        3674471
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "parenthetical": "cited in Pearson v. Callahan , 555 U.S. 223, 240, 129 S.Ct. 808, 172 L.Ed.2d 565 (2009) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/215/0090-01",
+        "/us-app-dc/342/0090-01"
+      ]
+    },
+    {
+      "cite": "843 F.3d 1315",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12174489
+      ],
+      "weight": 3,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1342-45"
+        },
+        {
+          "page": "1345"
+        },
+        {
+          "page": "1345",
+          "parenthetical": "remanding only with respect to patents that were not at issue in the reexamination request on appeal in Fairchild "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/843/1315-01"
+      ]
+    },
+    {
+      "cite": "138 S. Ct. 1365",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12611244
+      ],
+      "weight": 3,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1379"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/1365-01"
+      ]
+    },
+    {
+      "cite": "723 F.3d 1322",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4065300
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "1327",
+          "parenthetical": "modifications in original"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/723/1322-01"
+      ]
+    },
+    {
+      "cite": "661 F.3d 1316",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6050592
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "1320"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/661/1316-01"
+      ]
+    },
+    {
+      "cite": "818 F.3d 694",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4250496
+      ],
+      "weight": 2,
+      "year": 2016,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/818/0694-01"
+      ]
+    },
+    {
+      "cite": "637 F.3d 1356",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4197431
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "1365-66"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/637/1356-01"
+      ]
+    },
+    {
+      "cite": "849 F.2d 1422",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        12042835
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "1427"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/849/1422-01"
+      ]
+    },
+    {
+      "cite": "731 F.3d 1248",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6048922
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "1255",
+          "parenthetical": "quoting Ethicon, Inc. v. Quigg , 849 F.2d 1422, 1427 (Fed. Cir. 1988) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/731/1248-01"
+      ]
+    },
+    {
+      "cite": "299 F.3d 1313",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11454008
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "1325"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/299/1313-01"
+      ]
+    },
+    {
+      "cite": "566 F.3d 1321",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3647096
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "1335",
+          "parenthetical": "quoting Teleflex, Inc. v. Ficosa N. Am. Corp. , 299 F.3d 1313, 1325 (Fed. Cir. 2002) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/566/1321-01"
+      ]
+    },
+    {
+      "cite": "323 U.S. 134",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1229682
+      ],
+      "weight": 3,
+      "year": 1944,
+      "pin_cites": [
+        {
+          "page": "140"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/323/0134-01"
+      ]
+    },
+    {
+      "cite": "533 U.S. 218",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9313070
+      ],
+      "weight": 3,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "228",
+          "parenthetical": "quoting Skidmore v. Swift & Co. , 323 U.S. 134, 140, 65 S.Ct. 161, 89 L.Ed. 124 (1944) "
+        },
+        {
+          "parenthetical": "quoting Skidmore v. Swift & Co. , 323 U.S. 134, 140, 65 S.Ct. 161, 89 L.Ed. 124 (1944) "
+        },
+        {
+          "parenthetical": "quoting Skidmore v. Swift & Co. , 323 U.S. 134, 140, 65 S.Ct. 161, 89 L.Ed. 124 (1944) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/533/0218-01"
+      ]
+    },
+    {
+      "cite": "467 U.S. 837",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6209106
+      ],
+      "weight": 3,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "842"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/467/0837-01"
+      ]
+    },
+    {
+      "cite": "26 F.3d 1573",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10516833
+      ],
+      "weight": 3,
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "1580"
+        },
+        {
+          "page": "1576-77"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/26/1573-01"
+      ]
+    },
+    {
+      "cite": "678 F.3d 1357",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3874438
+      ],
+      "year": 2012,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/678/1357-01"
+      ]
+    },
+    {
+      "cite": "721 F.3d 1330",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5755538
+      ],
+      "weight": 7,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "1340"
+        },
+        {
+          "page": "1341"
+        },
+        {
+          "page": "1343"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/721/1330-01"
+      ]
+    },
+    {
+      "cite": "35 U.S.C. \u00a7 315",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 7,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "(c)"
+        },
+        {
+          "page": "636"
+        },
+        {
+          "page": "642-43"
+        },
+        {
+          "page": "643"
+        },
+        {
+          "page": "646",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "1365-66"
+        },
+        {
+          "page": "(c)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "508 F. App'x 953",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        4144530
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "955-56",
+          "parenthetical": "\"This provision existed to prevent duplicative, harassing actions against a patentee. If a defendant brought an invalidity challenge in a district court litigation and was unsuccessful, it is not permitted to bring the same challenge in an inter partes reexamination.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/508/0953-01"
+      ]
+    },
+    {
+      "cite": "100 L.Ed. 77",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "weight": 2,
+      "year": 1955,
+      "pin_cites": [
+        {
+          "parenthetical": "citing Urie v. Thompson , 337 U.S. 163, 172-73, 69 S.Ct. 1018, 93 L.Ed. 1282 (1949) "
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "350 U.S. 85",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12031432
+      ],
+      "weight": 4,
+      "year": 1955,
+      "pin_cites": [
+        {
+          "page": "87"
+        },
+        {
+          "page": "87",
+          "parenthetical": "citing Urie v. Thompson , 337 U.S. 163, 172-73, 69 S.Ct. 1018, 93 L.Ed. 1282 (1949) "
+        },
+        {
+          "parenthetical": "citing Urie v. Thompson , 337 U.S. 163, 172-73, 69 S.Ct. 1018, 93 L.Ed. 1282 (1949) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/350/0085-01"
+      ]
+    },
+    {
+      "cite": "486 U.S. 800",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6224266
+      ],
+      "weight": 7,
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "817"
+        },
+        {
+          "page": "817",
+          "parenthetical": "citing Panama R. Co. v. Napier Shipping Co. , 166 U.S. 280, 283-284, 17 S.Ct. 572, 41 L.Ed. 1004 (1897) "
+        },
+        {
+          "parenthetical": "citing Panama R. Co. v. Napier Shipping Co. , 166 U.S. 280, 283-284, 17 S.Ct. 572, 41 L.Ed. 1004 (1897) "
+        },
+        {
+          "parenthetical": "citing Panama R. Co. v. Napier Shipping Co. , 166 U.S. 280, 283-284, 17 S.Ct. 572, 41 L.Ed. 1004 (1897) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/486/0800-01"
+      ]
+    },
+    {
+      "cite": "612 F.3d 1365",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3700305
+      ],
+      "weight": 4,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "1375",
+          "parenthetical": "\"[T]his court's affirmance of the district court's non-infringement findings as to the '306 patent does not moot Cisco's invalidity counterclaim on cross-appeal.\""
+        },
+        {
+          "page": "1382-83"
+        },
+        {
+          "page": "1382"
+        },
+        {
+          "page": "1385"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/612/1365-01"
+      ]
+    },
+    {
+      "cite": "549 U.S. 118",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3553591
+      ],
+      "weight": 3,
+      "year": 2007,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/549/0118-01"
+      ]
+    },
+    {
+      "cite": "508 U.S. 83",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12174
+      ],
+      "weight": 3,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "96"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/508/0083-01"
+      ]
+    },
+    {
+      "cite": "2011 WL 3443449",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 2,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "parenthetical": "Dkt. No. 409"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "320 F.3d 1354",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9332155
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "1364",
+          "parenthetical": "\"Supreme Court precedent and our cases make clear that patent infringement and patent validity are treated as separate issues.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/320/1354-01"
+      ]
+    },
+    {
+      "cite": "854 F.3d 1364",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12277528
+      ],
+      "weight": 15,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1366"
+        },
+        {
+          "page": "1365"
+        },
+        {
+          "page": "1365"
+        },
+        {
+          "page": "1382"
+        },
+        {
+          "page": "1366"
+        },
+        {
+          "page": "1366"
+        },
+        {
+          "page": "1365-66"
+        },
+        {
+          "page": "1365"
+        },
+        {
+          "page": "1366"
+        },
+        {
+          "page": "1365"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/854/1364-01"
+      ]
+    },
+    {
+      "cite": "532 U.S. 504",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9301516
+      ],
+      "weight": 6,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        },
+        {
+          "parenthetical": "per curiam"
+        },
+        {
+          "parenthetical": "per curiam"
+        },
+        {
+          "parenthetical": "per curiam"
+        },
+        {
+          "parenthetical": "per curiam"
+        },
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/532/0504-01"
+      ]
+    },
+    {
+      "cite": "240 U.S. 251",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3689897
+      ],
+      "weight": 6,
+      "year": 1916,
+      "pin_cites": [
+        {
+          "page": "257"
+        },
+        {
+          "page": "257"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/240/0251-01"
+      ]
+    },
+    {
+      "cite": "377 U.S. 152",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6166082
+      ],
+      "weight": 6,
+      "year": 1964,
+      "pin_cites": [
+        {
+          "page": "153-54",
+          "parenthetical": "per curiam"
+        },
+        {
+          "parenthetical": "per curiam"
+        },
+        {
+          "parenthetical": "per curiam"
+        },
+        {
+          "page": "153-54",
+          "parenthetical": "per curiam"
+        },
+        {
+          "parenthetical": "per curiam"
+        },
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/377/0284-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1338",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "841 F.3d 1376",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12176625
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1379"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/841/1376-01"
+      ]
+    },
+    {
+      "cite": "661 F.3d 629",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6050524
+      ],
+      "weight": 6,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "639, 642-48"
+        },
+        {
+          "page": "646"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/661/0629-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1295",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(4)(A)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "767 F.3d 1308",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4203704
+      ],
+      "weight": 10,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "1323-24",
+          "parenthetical": "\" VirnetX I \""
+        },
+        {
+          "page": "1320-22"
+        },
+        {
+          "page": "1317-19, 1319, 1323-24, 1325-34"
+        },
+        {
+          "page": "1334"
+        },
+        {
+          "page": "1323"
+        },
+        {
+          "page": "1323-24"
+        },
+        {
+          "page": "1323-24",
+          "parenthetical": "\" VirnetX I \""
+        },
+        {
+          "page": "1317-19, 1323-34"
+        },
+        {
+          "page": "1314"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/767/1308-01"
+      ]
+    },
+    {
+      "cite": "925 F. Supp. 2d 816",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        4328667
+      ],
+      "weight": 2,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "824-25"
+        },
+        {
+          "page": "825"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/925/0816-01"
+      ]
+    },
+    {
+      "cite": "665 F. App'x 880",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        12148829
+      ],
+      "weight": 3,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "882"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/665/0880-01"
+      ]
+    },
+    {
+      "cite": "35 U.S.C. \u00a7 317",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 12,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "(b)"
+        },
+        {
+          "page": "(b)"
+        },
+        {
+          "page": "(b)"
+        },
+        {
+          "page": "(b)"
+        },
+        {
+          "page": "(b)"
+        },
+        {
+          "page": "(b)"
+        },
+        {
+          "page": "(b)"
+        },
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 2005,
+    "char_count": 70772,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2594469793412666
+    },
+    "sha256": "7dd691bfd1bce0702262b1a38b5212eaeff3fa8701b2fbb94499f30de9bcabc6",
+    "simhash": "1:b46d7709890a1d30",
+    "word_count": 11395
+  },
+  "last_updated": "2024-02-27T18:47:21.356099+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Prost, Chief Judge, Moore and Reyna, Circuit Judges.",
+      "Opinion concurring in part and dissenting in part filed by Circuit Judge Reyna."
+    ],
+    "parties": [
+      "VIRNETX INC., Appellant\nv.\nAPPLE INC., Cisco Systems, Inc., Appellees"
+    ],
+    "opinions": [
+      {
+        "text": "Prost, Chief Judge.\nAppellant VirnetX Inc. (\"VirnetX\") appeals from decisions of the Patent Trial and Appeal Board (\"Board\") related to three inter partes reexaminations maintained by Apple Inc. (\"Apple\") and Cisco Systems, Inc. (\"Cisco\"). The United States Patent and Trademark Office (\"PTO\") concluded that Apple was not barred from maintaining its reexams by the estoppel provision of the pre-America Invents Act (\"AIA\") version of 35 U.S.C. \u00a7 317(b) (2006). The Board affirmed the Examiner's determination that the claims of U.S. Patent Nos. 7,418,504 (\"the '504 patent\") and 7,921,211 (\"the '211 patent\") are unpatentable as anticipated or obvious over the prior art of record. For the reasons below, we affirm-in-part, vacate-in-part, and remand.\nBACKGROUND\nI\nThe '504 and '211 patents describe systems and methods for \"establishing a secure communication link between a first computer and a second computer over a computer network, such as the Internet.\" '211 patent col. 6 ll. 36-39. These systems and methods are \"built on top of the existing Internet protocol (IP).\" Id. at col. 6 ll. 17-20.\nThe Internet uses addressing systems for sending data. In such systems, physical computers can be identified by a unique IP address (e.g., 123.345.6.7). VirnetX Inc. v. Apple Inc. , 665 F. App'x 880, 882 (Fed. Cir. 2016).\nEach IP address corresponds to a domain name (e.g., www.Yahoo.com). See '211 patent col. 38 ll. 58-61, col. 39 ll. 13-14. A user on one computer can enter a domain name in a web browser to communicate with another computer or server. When the user does so, the computer sends a domain name service (\"DNS\") request to the domain name server for the IP address corresponding to a given domain name. Id. at col. 38 l. 58-col. 39 l. 3. The domain name server then looks up the IP address of the requested domain name and returns it to the requesting computer. Id. at col. 39 ll. 3-7.\nBoth VirnetX patents claim systems, methods, and media for creating secure communication links via DNS systems. For example, claim 1 of the '211 patent recites:\n1. A system for providing a domain name service for establishing a secure communication link, the system comprising:\na domain name service system configured and arranged to\n[1] be connected to a communication network,\n[2] store a plurality of domain names and corresponding network addresses,\n[3] receive a query for a network address, and\n[4] indicate in response to the query whether the domain name service system supports establishing a secure communication link.\nIndependent claims 36 and 60 of the '211 patent are directed to a \"machine-readable medium\" and a \"method,\" respectively. Otherwise, they mirror the requirements of claim 1. Independent claims 1, 36, and 60 of the '504 patent are similar to the corresponding independent claims of the '211 patent.\nII\nIn 2010, VirnetX sued Apple in district court. VirnetX alleged infringement of four patents, including the '504 and '211 patents. VirnetX asserted claims 1, 2, 5, 16, 21, and 27 of the '504 patent and claims 36, 37, 47, and 51 of the '211 patent. VirnetX Inc. v. Apple Inc. , 925 F. Supp. 2d 816, 824-25 (E.D. Tex. 2013).\nIn October 2011, Apple filed requests for inter partes reexamination of the '504 and '211 patents with the PTO. In Apple's Reexam Nos. 95/001,788 (\"788 case\") and 95/001,789 (\"789 case\") (collectively, \"Apple reexams\"), Apple challenged all claims as anticipated by the Provino reference or rendered obvious by Provino in view of other prior art.\nThe district court action proceeded to trial in late 2012. A jury found the asserted claims infringed and not invalid. The jury awarded VirnetX $368 million in damages. VirnetX , 925 F. Supp. 2d at 825. The district court denied Apple's motion for judgment as a matter of law (\"JMOL\") or a new trial on these issues. Apple appealed.\nOn appeal, we affirmed the jury's finding of no invalidity for all four patents. VirnetX, Inc. v. Cisco Sys., Inc. , 767 F.3d 1308, 1323-24 (Fed. Cir. 2014) (\" VirnetX I \"). We also affirmed the jury's finding of infringement for many of the claims of the two patents not related to the present appeal ( '135 and '151 patents ). Id. at 1320-22. We reversed the district court's construction of the \"secure communication link\" claim term, vacated the related infringement finding for the two patents in this appeal ( '504 and '211 patents ), and vacated the damages award. Id. at 1317-19, 1319, 1323-24, 1325-34. We then remanded for further proceedings. Id. at 1334.\nApple did not file a request for rehearing on the invalidity or infringement issues affirmed in VirnetX I . Our mandate issued on December 23, 2014. Apple did not seek Supreme Court review. The 90-day period to file a petition for a writ of certiorari expired.\nMeanwhile, in the parallel PTO reexamination proceedings, the Examiner had found all claims of the '504 and '211 patents unpatentable. The Examiner issued Right of Appeal Notices (\"RANs\") in May 2014. VirnetX appealed the Examiner's decisions to the Board.\nVirnetX also petitioned the PTO to terminate the Apple reexams based on the estoppel provision of \u00a7 317(b). The PTO denied VirnetX's petition in June 2015. J.A. 1659-67, 3138-48.\nIn September 2016, the Board affirmed the Examiner's findings that all claims of the '504 and '211 patents were unpatentable. The Board denied VirnetX's requests for rehearing.\nAfter appealing the Board's decisions in the Apple reexams to this court, VirnetX moved to remand. It argued that this court's 2014 opinion was a \"final decision\" on Apple's attempt to prove invalidity under \u00a7 317(b). ECF No. 27. In June 2017, a motions panel denied the motion and directed the parties to address the issue in their merits briefing. ECF No. 36.\nIII\nIn December 2011, Cisco also filed a request for inter partes reexamination with the PTO. Cisco's Reexam No. 95/001,856 (\"856 case\" or \"Cisco reexam\") challenged claims 1-60 of the '211 patent based on multiple grounds of invalidity. Cisco based several of its arguments on the Lendenmann reference.\nAfter extensive proceedings, the Examiner issued a RAN in January 2015. The RAN rejected claims 36-60 of the '211 patent as either anticipated or obvious. VirnetX appealed to the Board. In September 2017, the Board affirmed the Examiner, finding claims 36-54 and 57-60 anticipated by Lendenmann and claims 55 and 56 obvious over Lendenmann and another reference. J.A. 88. VirnetX moved for rehearing, which was denied. VirnetX then appealed.\nWe have jurisdiction under 28 U.S.C. \u00a7 1295(a)(4)(A).\nDISCUSSION\nI\nVirnetX's appeal proceeds in two parts. First, VirnetX argues as a threshold matter that Apple was estopped from maintaining its reexams under the pre-AIA version of 35 U.S.C. \u00a7 317(b) (2006). Second, VirnetX challenges the merits of the Board's conclusions in both the Apple and Cisco reexams that the '504 and '211 patents are invalid. We address each in turn.\nII\nVirnetX contends that Apple's reexams were barred by \u00a7 317(b). The PTO refused to terminate Apple's reexams based on the conclusion that the provision did not apply. In VirnetX's view, the PTO's decision was inconsistent with controlling case law, the statutory text, and Congress's intent. We agree.\nThe applicability of \u00a7 317(b) is a question of statutory interpretation. See Bettcher Indus., Inc. v. Bunzl USA, Inc. , 661 F.3d 629, 639, 642-48 (Fed. Cir. 2011). Statutory interpretation is an issue of law we review de novo. Unwired Planet, LLC v. Google Inc. , 841 F.3d 1376, 1379 (Fed. Cir. 2016).\nThe Patent Act requires that the PTO terminate a reexamination once there has been a final decision on the patent challenger's invalidity case in federal court. 35 U.S.C. \u00a7 317(b) (2006). Specifically, pre-AIA \u00a7 317(b) provides:\nOnce a final decision has been entered against a party in a civil action arising in whole or in part under section 1338 of title 28, that the party has not sustained its burden of proving the invalidity of any patent claim in suit ... then neither that party nor its privies may thereafter request an inter partes reexamination of any such patent claim on the basis of issues which that party or its privies raised or could have raised in such civil action or inter partes reexamination proceeding, and an inter partes reexamination requested by that party or its privies on the basis of such issues may not thereafter be maintained by the Office, notwithstanding any other provision of this chapter.\nThe issue here is very narrow. Apple does not dispute the underlying procedural facts relevant to \u00a7 317(b), which highlight the advanced stage of these proceedings.\nIn 2010, Apple was sued for patent infringement. There is no dispute that in that \"civil action arising ... under\" 28 U.S.C. \u00a7 1338, App le raised an affirmative defense of invalidity on multiple grounds. 35 U.S.C. \u00a7 317(b). Thus, Apple had the \"burden of proving the invalidity\" of the asserted claims of both the '504 and '211 patents. Id.\nIn 2012, Apple presented its invalidity defenses to a jury. After a week-long trial, the jury concluded Apple failed to sustain its burden of proving the invalidity of any asserted claim of the '504 or '211 patent.\nIn 2013, the district court determined that in light of the record at trial, substantial evidence supported the jury's finding. The district court entered final judgment.\nIn 2014, Apple pursued an appeal of that decision here. Specifically, Apple argued that \"the asserted claims are anticipated by the Kiuchi reference.\" VirnetX I , 767 F.3d at 1323. After considering Apple's challenges, we affirmed the district court's decision on the issue of invalidity. Id. at 1323-24. Apple did not file a request for rehearing. Apple elected not to seek Supreme Court review. The 90-day period to file a petition for certiorari expired.\nIn 2015, VirnetX petitioned the PTO to terminate Apple's pending reexaminations based on the estoppel provision of \u00a7 317(b). The PTO refused, accepting Apple's argument that there was not yet a final decision on validity. J.A. 1661-63.\nOn appeal, the sole issue is whether there has been a \"final decision\" entered against Apple that it \"has not sustained its burden of proving\" invalidity, triggering estoppel of its parallel PTO reexam proceedings.\nApple does not dispute that since it first raised the issue in 2010, it has now lost on invalidity before the jury, the district court, and this court. Nor does it dispute that it allowed the time to petition for certiorari of the validity issues in the first appeal to lapse. Instead, Apple takes the position that there was no final decision due to a hypothetical future appeal.\nApple's argument proceeds as follows. In VirnetX I , we vacated and remanded other issues unrelated to invalidity, including infringement and damages. In Apple's view, after those issues are decided on remand and reviewed in a second appeal, it may choose to file a petition for certiorari of those non-validity issues. In so doing, it may also ask the Supreme Court to look at any issues from the first appeal-including the validity determination.\nThus, the Court might elect to examine the validity issues at some point in the future. The Court has the ability to consider not only those issues \" 'before the court of appeals upon the second appeal,' \" but also the \"questions raised on the first appeal.\" Mercer v. Theriot , 377 U.S. 152, 153-54, 84 S.Ct. 1157, 12 L.Ed.2d 206 (1964) (per curiam) (quoting Hamilton-Brown Shoe Co. v. Wolf Bros. & Co. , 240 U.S. 251, 257, 36 S.Ct. 269, 60 L.Ed. 629 (1916) ); see also Major League Baseball Players Ass'n v. Garvey , 532 U.S. 504, 508 n.1, 121 S.Ct. 1724, 149 L.Ed.2d 740 (2001) (per curiam) (noting Supreme Court has \"authority to consider questions determined in earlier stages of the litigation where certiorari is sought from the most recent of the judgments of the Court of Appeals\"). According to Apple, the decision is only final when there is no potential that the Supreme Court might some day examine the invalidity issue during a second appeal.\nIn response, VirnetX contends there is a \"final decision\" on a party's attempt to prove invalidity after the party fails to petition for certiorari within the 90-day period.\nTwo reasons compel the conclusion that there has been a final decision on validity in this case. First, our decision in Fairchild (Taiwan) Corp. v. Power Integrations, Inc. , 854 F.3d 1364 (Fed. Cir. 2017), controls and holds that there is a \"final decision\" under \u00a7 317(b) once the time to file a certiorari petition has passed. Second, even if Fairchild did not foreclose Apple's argument, the plain language of the statute and its purpose advise against Apple's definition of a \"final decision\" on the issue of invalidity.\nA\nSince the PTO's decision in 2016, we have ruled on this very issue. Fairchild directly addressed a situation in which validity was affirmed but other issues in the case were remanded. Fairchild holds that if a finding of no invalidity has been affirmed on appeal and remand of other issues will not \"have any affect\" on validity, the decision is \"final\" once the 90-day deadline for a certiorari petition on the validity determination has passed. Id. at 1366. Fairchild announced this holding despite the fact that there is always some \"potential\" for future Supreme Court review if the entire case is taken up. Accordingly, Fairchild requires we reject Apple's position.\nIn Fairchild , we began our analysis by restating our earlier holding in Bettcher that estoppel \"applies when 'all appeals have terminated.' \" Id. at 1365 (quoting Bettcher , 661 F.3d at 646 ). We then concluded that is \"precisely the situation here.\" Id. Namely, the district court \"entered judgment against Power Integrations, holding that it failed to prove claims 6, 7, 18, and 19 were obvious over [the cited prior art]. This court affirmed the holding, and the time to petition for a writ of certiorari has passed.\" Id. at 1365-66 (emphasis added).\nAs in Fairchild , the district court here entered judgment against Apple on the issue of invalidity, we affirmed the no-invalidity finding on appeal in VirnetX I , and the time to file a petition for certiorari on the issue has long since passed. Under Fairchild , that constitutes \"a final decision\" under \u00a7 317(b) with respect to Apple's failure to prove invalidity.\nResisting this conclusion, Apple argues that if any non-invalidity issues remain in the district court case related to the patent, then the validity decision cannot be final under \u00a7 317(b). Since VirnetX I vacated and remanded other issues (i.e., infringement and damages) on both patents at issue, Apple contends that it waited until all the issues with this patent case are decided before bundling it up in a petition for certiorari. Consequently, Apple's position requires resolution of the entire case -or at least all issues on each patent, including infringement, invalidity, and damages-before a validity decision is considered \"final.\"\nFairchild rejected such arguments under almost identical circumstances. There, we had also vacated and remanded other parts of the case for additional proceedings. Id. at 1365 (explaining prior appeal upheld obviousness but reversed jury's findings on infringement, and \"remanded for further proceedings unrelated to the '972 patent claims\"). In turn, we rejected the argument that this renders the decision not \"final\" under \u00a7 317(b). Id. at 1366. We reasoned:\nWhile it is true that in [the prior appeal] this court vacated and remanded for additional proceedings, we cannot agree with Power Integrations that this renders the decision not \"final\" for \u00a7 317(b) purposes. Critically, those proceedings are unrelated to the '972 patent. By its terms, \u00a7 317(b) is concerned with a final decision 'that the party has not sustained its burden of proving the invalidity of any patent claim.' And here, Power Integrations does not suggest, nor is there any reason to believe, that any unresolved issue on remand would have any effect on the now-final '972 patent validity determinations.\nId. (emphasis added) (quoting 35 U.S.C. \u00a7 317(b) ).\nLikewise, here, Apple does not point to any issue in the VirnetX I remand that substantively bears on the finding of no invalidity. Nor could it. Indeed, the only difference here is that VirnetX I remanded some infringement and damages issues related to the '504 and '211 patents. But Apple fails to explain how any of these unresolved issues would \"have any effect on the now-final ... validity determinations\" involving those patents. Id. Accordingly, Fairchild 's reasoning leaves no doubt that \u00a7 317(b) estoppel applies.\nFinally, Apple contends Fairchild cannot control because no party in that case expressly argued that the Supreme Court might still take up the invalidity issue on a future appeal under Mercer . But Fairchild 's reasoning implicitly forecloses such an argument. Fairchild concluded that \"all appeals\" had terminated, 854 F.3d at 1365, despite the fact that other issues in that case remained pending for potential appeal and petition for certiorari. Apple can disagree with that conclusion, but that is not a basis for ignoring binding authority. We are bound to follow the decision of a prior panel, and its reasoning does not leave the question open.\nIn sum, \u00a7 317(b) applies here despite the fact that issues unrelated to invalidity were remanded.\nThe dissent takes the view that Fairchild is inapplicable. But it relies on reasons that were not material to the outcome in Fairchild . In addition, the dissent's attempt to distinguish Fairchild suffers from several additional infirmities.\nAccording to the dissent, in Fairchild \"Power Integrations did not appeal the court's favorable ruling on infringement because it prevailed on that issue.\" Opinion concurring in part and dissenting in part (\"dissent\") at 1382 (emphasis added). In turn, the dissent leaps to the conclusion that Power Integrations could not have realistically pursued certiorari review of the '972 patent's validity because it \"prevailed\" on infringement. Id. In the dissent's view, \"once Power Integrations prevailed on infringement, the case against it was concluded\" and the potential for any further Supreme Court review was eliminated. Id. at 1382. There is no support for these statements.\nFundamentally, infringement and invalidity are separate \"issues.\" Pandrol USA, LP v. Airboss Ry. Prod., Inc. , 320 F.3d 1354, 1364 (Fed. Cir. 2003) (\"Supreme Court precedent and our cases make clear that patent infringement and patent validity are treated as separate issues.\"). Fairchild never held that resolving infringement resolves invalidity. Indeed, Fairchild was interpreting an estoppel statute triggered by a decision on invalidity , not infringement.\nMoreover, the dissent's position unravels in light of the procedural posture in Fairchild . Power Integrations did not simply argue that it did not infringe the '972 patent. Nor did it merely raise invalidity as an affirmative defense to liability. Rather, Power Integrations advanced a separate counterclaim for declaratory judgment that the '972 patent was invalid. See Plaintiff's Fourth Amended Answer and Counterclaims at 23, Power Integrations, Inc. v. Fairchild Semiconductor Int'l, Inc. et al , No. 1:08-cv-00309-LPS, 2011 WL 3443449 (D. Del. July 7, 2011) (Dkt. No. 409). Therefore, to say it \"prevailed\" and its case \"concluded\" on that issue due to a non-infringement ruling is not correct.\nIt is black letter law that non-infringement does not moot a counterclaim regarding invalidity. \"A party seeking a declaratory judgment of invalidity presents a claim independent of the patentee's charge of infringement.\" Cardinal Chem. Co. v. Morton Int'l , 508 U.S. 83, 96, 113 S.Ct. 1967, 124 L.Ed.2d 1 (1993). Thus, \"appellate affirmance of a judgment of noninfringement, eliminating any apprehension of suit, does not moot a declaratory judgment counterclaim of patent invalidity.\" MedImmune, Inc. v. Genentech, Inc. , 549 U.S. 118, 132 n.11, 127 S.Ct. 764, 166 L.Ed.2d 604 (2007) ; see also Telcordia Techs., Inc. v. Cisco Sys., Inc. , 612 F.3d 1365, 1375 (Fed. Cir. 2010) (\"[T]his court's affirmance of the district court's non-infringement findings as to the '306 patent does not moot Cisco's invalidity counterclaim on cross-appeal.\").\nIn addition, the dissent speculates as to why the litigant chose not to seek further review. The dissent appears to assume that if a party is found not liable for certain accused products infringing a patent, as in Fairchild , that party no longer has the incentive to challenge the underlying property right's validity. Dissent at 1382-83. This assumption fails for several reasons. First, inferring the subjective intent of the litigants-either on remand or in petitioning for certiorari-is inappropriate. Fairchild never made such fact findings. Fairchild never relied on such inferences either. Put simply, Fairchild did not base its decision on speculation as to whether remand would impact a party's subjective \"decision\" to pursue certiorari review or whether its decisions regarding petitioning were \"reasonable,\" id. at 1382-83. Second, such speculation is irrelevant. The controlling inquiry is mandated by statute, which makes no mention of a party's motives for petitioning for certiorari review. Third, it is inaccurate. Regardless of a finding of no liability on the presently accused products, an accused infringer may well have reasons for trying to invalidate the patent (e.g., to guarantee its freedom to operate).\nBut the dissent suffers from a more fundamental flaw. The dissent appears to suggest that in Fairchild , \"potential future review\" by the Supreme Court was not an option. Id. at 1382. In light of Mercer , there is no basis for that position. Indeed, it runs headlong into the dissent's own insistence that the Supreme Court's discretion to take up certiorari review of earlier issues in a case is broad. On the one hand, the dissent acknowledges that a \"petition for writ of certiorari can expose the entire case to review,\" id. at 1385 (quoting Christianson v. Colt Indus. Operating Corp. , 486 U.S. 800, 817, 108 S.Ct. 2166, 100 L.Ed.2d 811 (1988) ), and the Supreme Court has \"jurisdiction to consider all of the substantial federal questions determined in the earlier stages of the litigation,\" id. (quoting Reece v. Georgia , 350 U.S. 85, 87, 76 S.Ct. 167, 100 L.Ed. 77 (1955) ). On the other hand, the dissent contends that the litigant's decision in Fairchild \"all but foreclosed the possibility that the invalidity issue could be subject to potential future review by the Supreme Court.\" Id. at 1382. A plain reading of Fairchild , however, confirms it never presumed to curtail the Supreme Court's discretion under Mercer to review issues raised earlier in a case.\nFinally, the dissent is concerned that the majority opinion somehow \"intrudes on the Supreme Court's constitutional prerogative whether to take up the invalidity issue.\" Id. at 1385. It does not. Like Fairchild , our decision concerns estoppel of duplicative administrative proceedings before the PTO . It has no bearing on the Supreme Court's discretion to accept or reject a petition for certiorari on any issue-nor could it.\nIn sum, we disagree with the dissent's efforts to rewrite Fairchild . Fairchild speaks for itself. The controlling statute is trained on a \"final decision\" that the party has not sustained its \"burden of proving the invalidity\" of the patent claim. Fairchild , 854 F.3d at 1366. As the dissent acknowledges, the reasoning at the heart of the Fairchild decision is that estoppel applied to the duplicative PTO reexam because there was \"no suggestion,\" dissent at 1383, that \"any unresolved issue on remand would have any effect on the now-final patent validity determinations\" from the district court, Fairchild , 854 F.3d at 1366. That is, the remand would have no substantive effect on the validity determination. The record is clear that is the same situation here.\nB\nEven if Fairchild did not control, the statutory text and purpose of \u00a7 317(b) compels us to reject Apple's theory that the entire case must be resolved. Apple essentially asks us to rewrite the statute, triggering estoppel only when there is a \"final judgment\" on all issues in a case.\nBut the statute's text is clear. The statute only requires \"a final decision\" on a precise issue-whether the party has \"sustained its burden of proving the invalidity of any patent claim in suit.\" 35 U.S.C. \u00a7 317(b). The statute makes no mention of resolving the entire case. Nor does it require resolution of all other issues related to a patent (e.g., infringement or damages). Instead, the plain language of the statute demands a party cease duplicative invalidity challenges via reexams in the PTO once \"a final decision\" has been reached on an invalidity challenge in a civil action.\nThis reading of the plain text is further reinforced by the statute's purpose. The statute is intended to protect patent holders against \"harassment\" from duplicative litigation on the issue of invalidity. See 145 Cong. Rec. 29,276 (Nov. 9, 1999) (Conference Report on H.R. 1554) (\"Subtitle F creates a new section 317 which sets forth certain conditions by which inter partes reexamination is prohibited to guard against harassment of a patent holder.\"); see also Function Media, L.L.C. v. Kappos , 508 F. App'x 953, 955-56 (Fed. Cir. 2013) (\"This provision existed to prevent duplicative, harassing actions against a patentee. If a defendant brought an invalidity challenge in a district court litigation and was unsuccessful, it is not permitted to bring the same challenge in an inter partes reexamination.\").\nApple concedes that \u00a7 317(b) was intended to prevent duplicative litigation. Apple's Br. 40-41. Yet Apple's position increases the likelihood duplicative litigation will occur. If no decision on invalidity is \"final\" until any \"prospect of future Supreme Court review\" is eliminated, Apple's Br. 36, estoppel will rarely apply. In light of the legislative intent, it is doubtful Congress created an estoppel provision that would allow a PTO proceeding to press forward even after all appellate deadlines have elapsed merely because there is a potential that the Supreme Court may one day reconsider the invalidity issue-in many cases, years later-while examining the rest of the case.\nAccordingly, the statutory purpose confirms that \"a final decision\" triggers estoppel when the invalidity challenge is decided on appeal and the time for petitioning for certiorari has passed-regardless of the fact review of the entire case could occur at some point in the future under Mercer .\nC\nApple's remaining arguments against the application of \u00a7 317(b) here are unpersuasive. Apple first suggests that Fairchild is inconsistent with Bettcher . Apple's Br. 32-33, 37. In Apple's view, Bettcher held that \u00a7 317(b) is not satisfied until the Supreme Court can no longer review a case.\nBettcher never reached such a holding. Bettcher concerned a different estoppel provision, pre-AIA 35 U.S.C. \u00a7 315(c) (2006). The question was whether \u00a7 315(c) estoppel attaches at a far earlier stage (before any appeal is pursued). In Bettcher , the district court concluded that estoppel barred further civil litigation \"as soon as the examiner finished the reexamination and the Right of Appeal Notice was sent to the patentee\"-i.e., before there is even an appeal to the Board, let alone an appeal to the Federal Circuit. Id. at 636. On appeal, we rejected that conclusion. We held that \"the estoppel provision of \u00a7 315 is triggered not when examination is completed but only after all appeal rights have been exhausted.\" Id. at 642-43.\nThe panel then rejected the argument that \u00a7 317(b) somehow showed that \u00a7 315(c) estoppel must apply as soon as the examiner finishes the reexam. See id. at 643. The panel observed that like \u00a7 315(c), estoppel under \u00a7 317(b) applies \"when reexamination and all appeals have terminated.\" Id. at 646 (emphasis added).\nBettcher addressed appeal rights to the Board and the Federal Circuit. It did not analyze how petitions for certiorari impact \u00a7 317(b). Moreover, Bettcher did not address the critical inquiry here as to whether a \"final decision\" regarding the issue of invalidity under \u00a7 317(b) is affected by remand of issues unrelated to invalidity.\nBy contrast, Fairchild did reach these issues. Fairchild held that estoppel \"applies when 'all appeals' have terminated,\" meaning after the district court's judgment of no-invalidity was affirmed on appeal and \"the time to petition for a writ of certiorari has passed.\" Id. at 1365-66 (quoting Bettcher , 661 F.3d at 646 ). The panel reached this conclusion despite the fact that issues unrelated to patent validity were remanded for further proceedings. Properly understood, Fairchild is an extension of Bettcher to Supreme Court certiorari review. Apple's attempt to manufacture an inconsistency between these two cases has no merit.\nApple's reliance on Fresenius fares no better. Fresenius USA, Inc. v. Baxter Int'l, Inc. , 721 F.3d 1330 (Fed. Cir. 2013). Apple concedes that Fresenius \"did not construe \u00a7 317(b).\" Apple's Br. 39. As such, Apple admits Fresenius has no direct bearing on our interpretation of this statutory estoppel provision.\nIn addition, Fresenius concerned an entirely different issue involving res judicata from a \"final judgment.\" Even within the distinct realm of res judicata, Fresenius took great care to \"distinguish between different concepts of finality.\" Id. at 1340. In Fresenius , we specifically addressed whether a judgment in an infringement case is \"sufficiently final\" so that it is \"immune to the effect of the final judgment in the PTO proceedings, as affirmed by this court in In re Baxter .\" Id. at 1341 (discussing In re Baxter Int'l, Inc. , 678 F.3d 1357 (Fed. Cir. 2012) ).\nThe issue in Fresenius arose due to the fact that while the appeal of an infringement action was pending, we affirmed the PTO reexamination finding the patent claims invalid in In re Baxter . As a result, the PTO canceled the claims. Id. at 1335. Despite the intervening cancellation, the patent owner argued that the district court's judgment was \"final\" for purposes of res judicata such that the liability finding and past damages award in the pending litigation could not be disturbed. Id. at 1340. We disagreed.\nWhile the district court in 2007 had entered \"a judgment final for purposes of appeal,\" we concluded that it was \"not sufficiently final to preclude application of the intervening final judgment in In re Baxter .\" Id. at 1341. Moreover, the district court's original judgment had since been set aside and the remand was not sufficiently final for res judicata purposes. Id. \"To rise to that level, the litigation must be entirely concluded so that [the] cause of action [against the infringer] was merged into a final judgment ... one that 'ends the litigation on the merits and leaves nothing for the court to do but execute the judgment.' \" Id. (quoting Mendenhall v. Barber-Greene Co. , 26 F.3d 1573, 1580 (1994) ). We concluded that the remand did not end the controversy, leaving only the execution of the judgment, given that several aspects of the litigation (e.g., royalty damages, injunctive relief) remained unresolved. Id .\nFresenius 's analysis of a \"final judgment\" for purposes of res judicata does not instruct our understanding of a \"final decision\" for purposes of \u00a7 317(b) estoppel. Indeed, it only underscores why we must follow Fairchild . Fairchild found estoppel absent a final judgment. Indeed, after multiple other issues in the litigation, including infringement and damages for certain patents, were remanded, Fairchild concluded nonetheless that there was a \"final decision\" on the narrow issue of invalidity-which is all that the statute requires to trigger estoppel. The reasoning in Fairchild , not Fresenius , governs our application of \u00a7 317(b).\nApple also briefly argues that this interpretation of the statute generates duplicative proceedings for the patent challenger. Apple's Br. 41. In Apple's view, it must seek \"interlocutory\" review rather than waiting for the case to be entirely resolved. Id. Apple's argument misses the mark. Section 317(b) is concerned with preventing duplicative litigation against the patent owner. Of course, we recognize the challenging nature of these proceedings for both parties. The present actions involve multiple patents and various issues, which create certain complexities for pursuing appeals before this court and seeking certiorari before the Supreme Court. Some of those complexities might be ameliorated by requiring final judgment of an entire case. But that does not empower us to rewrite a statute that requires only a final decision on the issue of invalidity. Furthermore, such interlocutory and piecemeal concerns were also present in Fairchild . Nonetheless, estoppel applied.\nFinally, Apple's arguments based on the PTO's interpretations carry no force. They fail for several reasons.\nFirst, Apple fails to explain why the PTO's interpretations of \u00a7 317(b) is entitled to Chevron deference. As discussed above, the statutory text and purpose leave no ambiguity. Where \"the intent of Congress is clear, that is the end of the matter.\" Chevron U.S.A. Inc. v. NRDC, Inc. , 467 U.S. 837, 842, 104 S.Ct. 2778, 81 L.Ed.2d 694 (1984). Therefore, Chevron deference does not apply.\nSecond, Skidmore deference is not appropriate either. Under Skidmore , the weight given to a particular agency interpretation \"will depend upon the thoroughness evident in its consideration, the validity of its reasoning, its consistency with earlier and later pronouncements, and all those factors which give it power to persuade, if lacking power to control.\" United States v. Mead Corp. , 533 U.S. 218, 228, 121 S.Ct. 2164, 150 L.Ed.2d 292 (2001) (quoting Skidmore v. Swift & Co. , 323 U.S. 134, 140, 65 S.Ct. 161, 89 L.Ed. 124 (1944) ). None of the considerations favoring deference are present here. For example, contrary to Apple's position, the PTO has never established a \"consistent\" construction of \u00a7 317(b). Indeed, aside from the decision below, Apple cites no other decision in which the PTO has interpreted \u00a7 317(b) to extend passed the deadline for certiorari review of the invalidity issue to hypothetical petitions arising from appeals of non-invalidity issues on remand. Thus, deference is unwarranted.\nThird, regardless of whether deference applies, none of Apple's citations resolve the specific issue at hand. For instance, no PTO regulation or MPEP section states that a decision is not \"final\" for purposes of \u00a7 317(b) if non-invalidity issues are remanded. Nor do any of these provisions state that a final judgment is required, or that as long as the potential for Supreme Court review from a later petition exists, \u00a7 317(b) estoppel does not attach. Indeed, none of these provisions even mention Supreme Court certiorari review.\nFor the reasons above, \u00a7 317(b) estoppel applies to the Apple reexams. Accordingly, we vacate and remand with instructions to terminate the Apple reexams with respect to claims 1-35 of the '504 patent and claims 36-59 of the '211 patent.\nIII\nWe now turn to VirnetX's challenge to the merits of the Apple and Cisco reexams that pertain to the claims not subject to estoppel. The Board affirmed the Examiner's rejection of all claims of the '504 and '211 patents. On appeal, VirnetX takes a kitchen sink approach, arguing that the Board decisions incorrectly construe certain claims, shift the burden to the patent owner to prove patentability, and lack substantial evidence. VirnetX's arguments are unpersuasive. Therefore, we affirm the Board's decision on all remaining claims of both patents in the Apple reexam not subject to \u00a7 317(b) estoppel and fully affirm the Board's decision regarding the claims of the '211 patent in the Cisco reexam.\nVirnetX contends that the Board improperly construed the term \"indication\" by ignoring its disclaimer argument. VirnetX argued before the Board that the patent disclaimed \"conventional\" DNS functions-e.g., looking up and returning an IP address or a public key for the requested webpage. In VirnetX's view, such conventional functions therefore do not qualify as \"indications\" that the system \"supports establishing a secure communication link.\" J.A. 1348, 2892, 4334-41. But the Board expressly acknowledged VirnetX's assertion that the patents \"disparaged and disclaimed\" systems that use no more than \"conventional\" DNS functions. J.A. 26-30, 49-54, 77-80. It then rejected this argument in a systematic and well-reasoned fashion. \"Disavowal requires 'expressions of manifest exclusion or restriction, representing a clear disavowal of claim scope.' \" Epistar Corp. v. ITC , 566 F.3d 1321, 1335 (Fed. Cir. 2009) (quoting Teleflex, Inc. v. Ficosa N. Am. Corp. , 299 F.3d 1313, 1325 (Fed. Cir. 2002) ). We agree with the Board that the specification fails to evidence such a clear disavowal here. The Board's construction is therefore consistent with the broadest reasonable interpretation of \"indication.\"\nTurning to VirnetX's next challenge, VirnetX contends that the Board failed to make adequate findings and impermissibly shifted the burden to VirnetX with respect to three claim limitations of the '504 and '211 patents in the Apple reexams. The limitations are \"indicating,\" \"connectable,\" and \"authenticate.\" Contrary to VirnetX's arguments, the Board's conclusions are well supported by the underlying factual findings made by the Examiner. The Examiner found that Apple had carried its burden of proving unpatentability by \"a preponderance of the evidence.\" See Rambus Inc. v. Rea , 731 F.3d 1248, 1255 (Fed. Cir. 2013) (quoting Ethicon, Inc. v. Quigg , 849 F.2d 1422, 1427 (Fed. Cir. 1988) ). Sitting as an appellate body, the Board then reviewed those findings and considered whether VirnetX had raised any issue on appeal that required setting aside the Examiner's decisions. Although \"the examiner retains the burden to show invalidity,\" on appeal \"the applicant must identify to the Board what the examiner did wrong.\" In re Jung , 637 F.3d 1356, 1365-66 (Fed. Cir. 2011). The Board considered VirnetX's arguments challenging the Examiner's rejections and properly explained why each lacked merit. VirnetX \"failed to offer any convincing reason to find otherwise.\" In re Cree, Inc ., 818 F.3d 694, 702 n.3 (Fed. Cir. 2016). This \"is not burden-shifting.\" Id.\nVirnetX further argues that the Board's findings in the Cisco reexam regarding the \"indicating\" limitations introduced improper new arguments. We disagree. According to VirnetX, the Board relied on a new ground for concluding that Lendenmann's disclosure of \"returning a network address\" and \"access control lists\" (\"ACLs\") meet the claim limitation. The Board's findings constitute a new ground of rejection supporting reopening of prosecution if the Board \"finds facts not found by the examiner regarding the differences between the prior art and the claimed invention, and these facts are the principal evidence upon which the Board's rejection was based.\" In re Leithem , 661 F.3d 1316, 1320 (Fed. Cir. 2011). \"[T]he ultimate criterion of whether a rejection is considered 'new' in a decision by the [B]oard is whether [applicants] have had fair opportunity to react to the thrust of the rejection.\" In re Adler , 723 F.3d 1322, 1327 (Fed. Cir. 2013) (modifications in original). In light of the proceedings below, we conclude that VirnetX had a fair opportunity to react to the evidence.\nVirnetX also contends that the Board's findings that Lendenmann teaches the \"indicating\" element lack substantial evidence. However, the Board found Lendenmann's disclosure of \"returning a network address,\" \"ACLs,\" and certain domain names teach the limitation. Based on the record here, there is substantial evidence to support the Board's conclusion that this limitation is taught.\nAs for the \"authenticating\" limitation, VirnetX contests the Board's determination that Provino discloses a DNS system configured \"to authenticate the query,\" as recited in dependent claims 5, 23, and 47. VirnetX's arguments do not unsettle the Board's conclusions that Provino's system-including its \"query\" and \"firewall 30\"-teach this limitation. Furthermore, contrary to VirnetX's view, no material aspect of the Board's analysis of the relationship between authorization and \"authentication\" was new or improper. Based on the record developed before the Examiner and reviewed by the Board, substantial evidence supports the Board's conclusions regarding the \"authenticating\" limitation.\nNext, VirnetX argues that the Board failed to address arguments it made in the Cisco reexam as to why dependent claim 47 of the '211 patent is patentable over Lendenmann. There is little indication that VirnetX properly argued claim 47's patentability separately from independent claims 36 and 60. The Board was therefore justified in concluding \"Patent Owner does not provide additional arguments in support of\" claim 47. J.A. 88. Regardless, the record confirms that based on the Examiner's findings, the Board properly concluded claim 47 was unpatentable.\nFinally, VirnetX also argues that the reexams here are unconstitutional. VirnetX took the position that its challenge would be resolved by the Supreme Court's decision regarding the constitutionality of inter partes review (\"IPR\") in Oil States Energy Services, LLC v. Greene's Energy Group, LLC , --- U.S. ----, 138 S. Ct. 1365, 200 L.Ed.2d 671 (2018). See VirnetX's Br. 66-67 (citing arguments in Oil States petition for certiorari that IPRs are unconstitutional under the Seventh Amendment and Article III). While reexams and IPRs arise under different statutes, VirnetX's argument treats them as interchangeable. The Supreme Court has rejected the grounds advanced in Oil States . 138 S. Ct. at 1379. VirnetX's challenge is therefore moot.\nWe have considered VirnetX's remaining arguments and find them unpersuasive.\nCONCLUSION\nFor the foregoing reasons, we vacate the Board's decisions in the Apple reexams with respect to claims 1-35 of the '504 patent and claims 36-59 of the '211 patent and remand with instructions to terminate. However, we affirm the Board's decisions in the Apple reexams that claims 36-60 of the '504 patent and claims 1-35 and 60 of the '211 patent are unpatentable. We further affirm the Board's decision in the Cisco reexam that claims 36-60 of the '211 patent are unpatentable.\nAFFIRMED-IN-PART, VACATED-IN-PART, AND REMANDED\nCOSTS\nThe parties shall bear their own costs.\nReyna, Circuit Judge, concurring-in-part and dissenting-in-part.\nThis appeal involves the Supreme Court's authority to take appeals involving U.S. patents under Article III of the U.S. Constitution.\nThe majority holds that Apple's petitions for inter partes reexaminations are barred under 35 U.S.C. \u00a7 317(b) (2006). Although I agree with the majority's disposition of this case in all other respects, I do not agree that reexamination is precluded. Because Apple may still appeal this court's affirmance of no invalidity, there is no \"final decision\" that triggers a bar under \u00a7 317(b). Accordingly, I concur-in-part and dissent-in-part.\nI.\nThis dispute has reached this court once before. In 2010, VirnetX Inc. (\"VirnetX\") sued Apple Inc. (\"Apple\") in district court, alleging infringement of four patents, including the two at issue in this appeal, U.S. Patent Nos. 7,418,504 (\"the '504 patent\") and 7,921,211 (\"the '211 patent\"). Apple defended on grounds that the patents were invalid. After trial, the jury entered verdicts against Apple that the patents were infringed and not invalid. Apple appealed. We affirmed the jury's finding of no invalidity. VirnetX, Inc. v. Cisco Sys., Inc. , 767 F.3d 1308, 1323-24 (Fed. Cir. 2014) (\" VirnetX I \"). We reversed the district court's decision on claim construction, vacated the jury's infringement finding and damages award, and remanded for a new trial on those issues. Id. at 1317-19, 1323-34. At that time, Apple did not petition for a writ of certiorari on the issue of invalidity.\nDuring the initial district court litigation, Apple filed requests for inter partes reexamination of the '504 and '211 patents. After several years of reexamination proceedings, the Examiner found all claims of the '504 and '211 patents invalid, and the Patent Trial and Appeal Board (\"Board\") affirmed. VirnetX now appeals from the Board's final written decisions on the basis that reexamination of the '504 and the '211 patents was barred under \u00a7 317(b).\nSection 317(b) provides in relevant part:\nOnce a final decision has been entered against a party in a civil action arising in whole or in part under section 1338 of title 28, that the party has not sustained its burden of proving the invalidity of any patent claim in suit ..., an inter partes reexamination requested by that party or its privies on the basis of [issues which that party or its privies raised or could have raised in such civil action] may not thereafter be maintained by the Office ....\"\n35 U.S.C. \u00a7 317(b) (2006).\nIn this appeal, we are required to determine whether our prior decision that affirmed the jury's finding of no invalidity is a \"final decision\" under \u00a7 317(b), such that reexamination of the two patents is barred.\nII.\nThe majority relies on this court's decision in Fairchild (Taiwan) Corp. v. Power Integrations, Inc. to hold that \" 'a final decision' triggers estoppel when the invalidity challenge is decided on appeal and the time for petitioning for certiorari has passed.\" Maj. Op. 1375; see also id. at 1370-71 (citing 854 F.3d 1364, 1365-66 (Fed. Cir. 2017) ). I agree with this formulation of the law, but disagree that Apple's time for petitioning for certiorari on the issue of invalidity has passed.\nThe majority interprets Fairchild to mean that the appellate process terminates once this court issues a decision on any issue and an appeal is not immediately taken. That is not what we held in Fairchild . Rather, we held that \u00a7 317(b) 's \"restriction applies when 'all appeals have terminated.' \" Fairchild , 854 F.3d at 1365 (quoting Bettcher Indus., Inc. v. Bunzl USA, Inc. , 661 F.3d 629, 646 (Fed. Cir. 2011) ). We did not hold \"terminate\" to mean upon the issuance of our opinion. Nor did we hold that a party is immediately obligated to petition for certiorari once this court resolves an issue of invalidity where other issues involving the same patent remain undecided. We did not consider in Fairchild the finality issue that is before the court in this case.\nFairchild involved a second appeal in a long-running dispute between Power Integrations and Fairchild. In the first appeal of that litigation, we affirmed the jury's finding of no invalidity and found in favor of Power Integrations on infringement. Power Integrations, Inc. v. Fairchild Semiconductor Int'l, Inc. , 843 F.3d 1315, 1342-45 (Fed. Cir. 2016). We remanded only a cross-appeal by Fairchild that related to a wholly different patent. Id. at 1345. Power Integrations did not appeal the court's favorable ruling on infringement because it prevailed on that issue. See Kalka v. Hawk , 215 F.3d 90, 96 n.9 (D.C. Cir. 2000) (cited in Pearson v. Callahan , 555 U.S. 223, 240, 129 S.Ct. 808, 172 L.Ed.2d 565 (2009) ) (explaining that \"[n]ormally, a party may not appeal from a favorable judgment\" and that the Supreme Court \"has apparently never granted the certiorari petition of a party who prevailed in the appellate court\"); see also Bunting v. Mellen , 541 U.S. 1019, 1023, 124 S.Ct. 1750, 158 L.Ed.2d 636 (2004) (Scalia, J., dissenting from denial of certiorari) (\"[O]ur practice reflects a 'settled refusal' to entertain an appeal by a party on an issue as to which he prevailed.\").\nPower Integrations' decision not to petition for certiorari all but foreclosed the possibility that the invalidity issue could be subject to potential future review by the Supreme Court. Stated differently, once Power Integrations prevailed on infringement, the case against it was concluded because the only issues remaining pertained to a cross-appeal involving a different patent. Hence, all of its appeals terminated at that point. That is not the case here.\nIn VirnetX I , this court vacated the jury's finding of infringement and remanded for a new trial on damages and infringement under the correct claim construction. VirnetX I , 767 F.3d at 1314. There is no dispute that at that point, Apple clearly could have petitioned for a writ of certiorari on invalidity. That Apple chose not to appeal is reasonable given the potential for the outcome on remand to drive its decision whether to petition to the Supreme Court at all. This is because, had Apple won on infringement on remand, there would then have been no reason for Apple to appeal that decision or the decision on invalidity.\nApple, however, lost on infringement on remand. VirnetX Inc. v. Apple Inc. , 324 F. Supp. 3d 836, 844 (E.D. Tex. 2017). We affirmed the jury on appeal. VirnetX II , 748 F. App'x 332 (Fed. Cir. 2019). Now, as the majority recognizes, Apple has a basis on which to petition for certiorari to the Supreme Court on both infringement and invalidity. Thus, unlike in Fairchild , where there was no suggestion that \"any unresolved issue on remand would have any effect on the now-final patent validity determinations,\" 854 F.3d at 1366, the outcome on remand from VirnetX I directly affects Apple's decision whether to appeal the invalidity issue.\nIndeed, in this case the issues on remand (infringement and damages) involved the same patent the jury found, and we affirmed, to be not invalid. But in Fairchild, the remand concerned a counterclaim unrelated to the patent claims challenged in the reexamination proceeding, a fact this court found to be \"critical[ ]\" to its conclusion that the invalidity decision in Power Integrations was final. Fairchild , 854 F.3d at 1365 ; see also Power Integrations , 843 F.3d at 1345 (remanding only with respect to patents that were not at issue in the reexamination request on appeal in Fairchild ). By contrast, this court's remand in VirnetX I specifically concerned the same claims we affirmed as not invalid and that were at issue in Apple's reexamination proceedings, a fact that the majority recognizes. VirnetX I , 767 F.3d at 1313-14 ; Maj. Op. 1371-72. This means that Fairchild does not apply here as the majority asserts because the circumstances underlying the Fairchild decision on finality are not the same as the circumstances in this case.\nApple's decision to delay its petition for certiorari to the Supreme Court until resolution of the new trial on infringement was reasonable because Apple can now appeal the issues of infringement and invalidity together. Whether Apple's decision was based on litigation strategy or a desire to conserve resources is not at issue. This court should not dictate to Apple when or whether it should appeal. A party should be free to develop its litigation strategy within the bounds of the law without this court's interference, and nothing in Fairchild suggests otherwise. To the extent that Apple decided to delay its appeal until the outcome of its trial on remand, that decision was both reasonable and consistent with the law and principles of judicial economy.\nIII.\nThe majority's interpretation of Fairchild is at odds with this court's decisions in Bettcher Industries, Inc. v. Bunzl USA, Inc. , 661 F.3d 629 (Fed. Cir. 2011) and Fresenius USA, Inc. v. Baxter International, Inc. , 721 F.3d 1330 (Fed. Cir. 2013).\nIn Bettcher , we stated that \u00a7 317(b) \"prevents further reexamination proceedings once parallel federal court proceedings have reached their resolution.\" Bettcher , 661 F.3d at 646. In other words, \u00a7 317(b) \"attaches only after there has been a final resolution [of the invalidity issue] ... in federal court,\" and is not triggered \"if there remains any time for an appeal.\" Id. (second portion quoting Manual of Patent Examining Procedure \u00a7 2686.04 ). The court further explained in Bettcher that the legislative history \"confirm[s] that \u00a7 317(b) applies [only] 'after any appeals.' \" Id. (quoting 145 Cong. Rec. 29,276 (Nov. 9, 1999); 145 Cong. Rec. 29,973 (Nov. 17, 1999)). The majority's decision that Apple's reexaminations are barred by \u00a7 317(b) is inconsistent with Bettcher because time remains for Apple to file a petition for a writ of certiorari.\nThe majority's interpretation of Fairchild is also inconsistent with Fresenius . This court stated in Fresenius that a decision is not final if it \"leaves open the question of damages or other remedies.\" Fresenius , 721 F.3d at 1341-42 (citing 18A Charles A. Wright, Arthur R. Miller, & Edward H. Cooper, Federal Practice and Procedure \u00a7 4432 (2d ed. 2002) ); see also id. at 1343 (\"[A] decision finding a patent not invalid but remanding for further damages proceedings is not a final judgment.\" (citing Mendenhall v. Barber-Greene Co. , 26 F.3d 1573, 1576-77 (Fed. Cir. 1994), as corrected on reh'g (Sept. 14, 1994))). This court determined that there was no finality because the case was remanded to reconsider royalties and injunctive relief. Id. at 1333.\nIn deciding Fresenius , this court relied on the Supreme Court's decision in Simmons Co. v. Grier Brothers Co. , 258 U.S. 82, 42 S.Ct. 196, 66 L.Ed. 475 (1922). We explained that in Simmons , the Supreme Court concluded that there was no finality with respect to the issue of infringement because \"even though there had been an appellate decision entirely resolving the patent infringement claims, ... there had not yet been a final judgment on the unfair competition claims [and an accounting of damages],\" and therefore \"the Supreme Court's intervening decision [in a separate case] was binding as to the infringement claims\" because \"the appellate mandate had not ended the case.\" Fresenius , 721 F.3d at 1342-43 (citing Simmons , 258 U.S. at 84-91, 42 S.Ct. 196 ) (emphasis added); see also id. (\"Although the interlocutory decision of [the trial court] on the question of validity and infringement was appealable, ... the decision was not final until the conclusion of the accounting. Hence the court did not lack power at any time prior to entry of its final judgment at the close of the accounting to reconsider any portion of its decision and reopen any part of the case.\" (quoting Marconi Wireless Tel. Co. v. United States , 320 U.S. 1, 47-48, 63 S.Ct. 1393, 87 L.Ed. 1731 (1943) )). As in Simmons and Marconi , even though this court affirmed the jury's finding of no invalidity in VirnetX I , that decision is not final because the case was remanded for a new trial on infringement and damages.\nIV.\nOther Supreme Court precedent supports the conclusion that Apple has not exhausted its appellate rights. Although Apple did not petition for certiorari on the issue of invalidity after its first appeal, Supreme Court precedent establishes that it can do so now. See Major League Baseball Players Ass'n v. Garvey , 532 U.S. 504, 508 n.1, 121 S.Ct. 1724, 149 L.Ed.2d 740 (2001) (per curiam) (\"[W]e have authority to consider questions determined in earlier stages of the litigation where certiorari is sought from the most recent of the judgments of the Court of Appeals.\");\nBhd. of Locomotive Firemen & Enginemen v. Bangor & Aroostook R.R. Co. , 389 U.S. 327, 328, 88 S.Ct. 437, 19 L.Ed.2d 560 (1967) (\"[B]ecause the Court of Appeals remanded the case, it is not yet ripe for review by this Court.\"); Mercer v. Theriot , 377 U.S. 152, 153-54, 84 S.Ct. 1157, 12 L.Ed.2d 206 (1964) (per curiam) (\"[I]t is settled that we may consider questions raised on the first appeal, as well as 'those that were before the court of appeals upon the second appeal.' \" (quoting Hamilton-Brown Shoe Co. v. Wolf Bros. & Co. , 240 U.S. 251, 257, 36 S.Ct. 269, 60 L.Ed. 629 (1916) )). In Reece v. Georgia , the Supreme Court explained that it has \"jurisdiction to consider all of the substantial federal questions determined in the earlier stages of the litigation.\" 350 U.S. 85, 87, 76 S.Ct. 167, 100 L.Ed. 77 (1955) (citing Urie v. Thompson , 337 U.S. 163, 172-73, 69 S.Ct. 1018, 93 L.Ed. 1282 (1949) ). This is true even if certiorari was not sought until after a second appeal. Id. The law-of-the-case doctrine does not bar Supreme Court review because \"[a] petition for writ of certiorari can expose the entire case to review.\" Christianson v. Colt Indus. Operating Corp. , 486 U.S. 800, 817, 108 S.Ct. 2166, 100 L.Ed.2d 811 (1988) (citing Panama R. Co. v. Napier Shipping Co. , 166 U.S. 280, 283-284, 17 S.Ct. 572, 41 L.Ed. 1004 (1897) ).\nThe majority asserts that \u00a7 317(b) concerns only \"the finality of a particular issue, rather than finality of the entire case.\" Maj. Op. 1375 n.8; see also id. at 20-21, 63 S.Ct. 1393. Yet, the majority recognizes that \"the Supreme Court may one day reconsider the invalidity issue\" decided in VirnetX I . Maj. Op. 1375. Thus, even under the majority's reading of the statute, finality is lacking with respect to the invalidity issue in this case.\nThe majority also suggests that Supreme Court review does not qualify as an \"appeal\" for purposes of \u00a7 317(b) 's estoppel provision because there is no right to Supreme Court review. Maj. Op. 1375 n.10. This suggestion is inconsistent with Article III of the U.S. Constitution, which states that, aside from cases implicating the Supreme Court's original jurisdiction, the Supreme Court \"shall have appellate Jurisdiction, both as to Law and Fact.\" U.S. Const. art. III. In any case, Apple has a right to petition for a writ of certiorari. See Durham v. United States , 401 U.S. 481, 483 n.*, 91 S.Ct. 858, 28 L.Ed.2d 200 (1971), overruled on other grounds by Dove v. United States , 423 U.S. 325, 96 S.Ct. 579, 46 L.Ed.2d 531 (1976) (noting the distinction that \"appeals are a matter of right while decisions on certiorari petitions are wholly discretionary,\" but explaining that \"Congress, however, has given a right to petition for certiorari\" (emphasis added)). In my view, by determining that this court's affirmance of no invalidity in VirnetX I terminated Apple's right to seek certiorari, the majority's conclusion intrudes on the Supreme Court's constitutional prerogative whether to take up the invalidity issue.\nV.\nThe majority's decision also intrudes on long established principles of judicial economy because it fosters piecemeal litigation. Under the majority's approach, once this court decides an issue of invalidity on appeal, a party is required to immediately petition for certiorari to the Supreme Court-regardless of the status of the other issues in the case. This approach stands in stark contrast to \"the general judicial bias against piecemeal litigation.\"\nArizona v. San Carlos Apache Tribe of Arizona , 463 U.S. 545, 570, 103 S.Ct. 3201, 77 L.Ed.2d 837 (1983) ; see also Sears, Roebuck & Co. v. Mackey , 351 U.S. 427, 439, 76 S.Ct. 895, 100 L.Ed. 1297 (1956) (noting the courts' longstanding \"hostility toward piecemeal appeals\"); Panama , 166 U.S. at 284, 17 S.Ct. 572 (\"[A]s was recently said in the case of The Conqueror , 166 U.S. 110, 17 Sup. Ct. 510, 41 L.Ed. 937, [the writ of certiorari] is and generally should be issued only after a final decree.\").\nIn McLish v. Roff , the Supreme Court explained that \"[f]rom the very foundation of our judicial system the object and policy ... have been to save the expense and delays of repeated appeals in the same suit, and to have the whole case and every matter in controversy in it decided in a single appeal.\" 141 U.S. 661, 665, 12 S.Ct. 118, 35 L.Ed. 893 (1891).\nThe majority contends that to hold that \u00a7 317(b) does not apply in this case will itself lead to duplicative litigation because waiting \"until any prospect of future Supreme Court review is eliminated\" will cause \u00a7 317(b) \"estoppel [to] rarely apply.\" Maj. Op. 1374 (internal citation and quotation marks omitted). But not every appeal that reaches this court results in a remand, and even if that were the case, estoppel would still apply once all appeals are terminated. It is not rare that the Supreme Court denies a party's last petition for certiorari and litigation concludes. But that step is for the Supreme Court to take-not this court.\nVirnetX also alleged that Apple infringed certain claims of U.S. Patent Nos. 6,502,135 (\"the '135 patent\") and 7,490,151 (\"the '151 patent\").\nU.S. Patent No. 6,557,037 (\"Provino\").\nWe reversed the district court's conclusion related to the doctrine of equivalents for one claim of the '151 patent. See id. at 1322-23.\nOn remand in 2016, a jury found that Apple infringed claims 1, 2, 5, and 27 of the '504 patent and claims 36, 47, and 51 of the '211 patent, and awarded damages. VirnetX Inc. v. Apple Inc. , 324 F. Supp. 3d 836 (E.D. Tex. 2017). We recently affirmed. See VirnetX Inc. v. Cisco Sys., Inc. , 748 F. App'x 332 (Fed. Cir. 2019).\nIn 2010, VirnetX also sued Cisco in district court, alleging inter alia infringement of claim 1 of the '211 patent.\nRolf Lendenmann, Understanding OSF DCE 1.1 for AIX and OS/2, IBM International Technical Support Organization , pp. 1-45 (Oct. 1995) (\"Lendenmann\").\nAt oral argument, Apple could not point to a single example illustrating how an aspect of the infringement remand might meaningfully affect or implicate the invalidity ruling this court affirmed in 2014 in VirnetX I . Instead, Apple offered only speculation. Its argument boiled down to the general conjecture that the district court \"could\" have a motion to set aside a validity determination even after the mandate issues based on arguments made about infringement. Oral Argument at 29:20-51, No. 2017-1591, http://www.cafc.uscourts.gov/oral-argument-recordings.\nMoreover, there is no indication that Congress considered the type of review contemplated in Mercer as part of the definition of a regular appeals process for reaching a \"final decision\" on invalidity. This is of no surprise given the statute is trained on the finality of a particular issue, rather than finality of the entire case.\nSection 315(c) concerns estoppel in the opposite direction: when the PTO's determination in a reexam estops a party from asserting invalidity in a civil action. Id. at 643.\nBettcher concluded that the estoppel provision of \u00a7 315 attaches when all appeal rights are exhausted. As the panel observed, the opening sections of the statute list those appeal \"rights\" for both the patent owner and the third-party requestor, \u00a7 315(a) -(b), which consist of appeals from (1) the examiner to the Board, and (2) the Board to this court. Id. at 644 (\"The estoppel provision of subsection (c) thus falls immediately following the establishment of both parties' rights of appeal, including appeal to this court.\"). Bettcher did not address whether petitions for certiorari are considered \"appeals,\" or whether certiorari review by the Supreme Court is a \"right.\" In VirnetX's view, an appeal as of right is a different procedural mechanism than a writ of certiorari. VirnetX Reply Br. 12-13; see also City & Cty. of San Francisco, Calif. v. Sheehan , --- U.S. ----, 135 S. Ct. 1765, 1774, 191 L.Ed.2d 856 (2015) (\"Because certiorari jurisdiction exists to clarify the law, its exercise 'is not a matter of right, but of judicial discretion.' \" (quoting Supreme Court Rule 10)). Though we need not reach such questions, they underscore the fact that Bettcher simply did not reach the issue of certiorari review now governed by Fairchild .\nApple also suggests that Bettcher requires deference. Not so. Bettcher concluded the statute was unambiguous. Bettcher , 661 F.3d at 646 (\"[W]e believe that \u00a7 317(b) is clear ....\"). Nonetheless, Apple points to Bettcher 's subsequent discussion of the deference it \"would\" give the MPEP had it reached the issue. Id. Apple's reliance on a single line of dicta from Bettcher is unavailing. Even if it were not dicta, Bettcher 's statement concerned deference to the Manual of Patent Examining Procedure (\"MPEP\") \u00a7 2686.04. Id. As explained later, that section of the MPEP does not resolve the issue at hand.\nApple also suggests the underlying PTO denial of the petition to terminate here is entitled to Chevron deference. In support of this position, Apple cites only to In re Affinity Labs of Texas, LLC , 856 F.3d 883, 894 n.5 (Fed. Cir. 2017). The cited footnote from Affinity Labs did not concern deference. Rather, it concerned whether PTO rulings on petitions to terminate are reviewable on appeal. Id. (analyzing stages of PTO decision-making process as related to reviewability).\nOther PTO regulations suggest appeals terminate when our mandate issues. See, e.g. , 37 C.F.R. \u00a7 1.197 (\"An appeal to the U.S. Court of Appeals for the Federal Circuit, whether from a decision of the Board or a judgment in a civil action, is terminated when the mandate is issued by the Court.\"). Notably, 37 C.F.R. \u00a7 1.979, which is the regulation interpreting pre-AIA \u00a7 316(a) permitting the PTO to issue a certificate of cancellation \"only after all appeals have terminated,\" Bettcher , 661 F.3d at 644-45, applies the same interpretation. See 37 C.F.R. \u00a7 1.979(b) (providing that an \"appeal [to this Court] is considered terminated when the mandate is issued by the Court\").\nApple appears not to dispute that estoppel extends to the dependent claims here. Section 317(b) bars maintaining a reexam based on issues which that party \"raised\" or \"could have raised\" in the civil action. The PTO found that Apple \"was aware of all prior art raised prior to October 31, 2012 in the present reexamination proceeding with respect to claims 1-35 [of the '504 patent ], and could have raised issues with respect to that prior art in the litigation.\" J.A. 1666, 3147 (same regarding claims 36-59 of the '211 patent ). No new prior art was added after October 31, 2012, when trial began in the litigation. Indeed, Apple never amended or supplemented its original October 18, 2011 reexamination requests to add new prior art.\nThe parties filed supplemental briefing regarding the relationship between this case and other recently decided matters. ECF Nos. 95, 96, 105. Apple primarily argues that collateral estoppel renders various claims of the '504 and '211 patents invalid. As an initial matter, Apple's arguments are mooted in part by our holding in the present matter affirming the Board's decision that certain claims of the '504 and '211 patent are unpatentable. Otherwise, Apple's arguments are unpersuasive. Apple has failed to show why collateral estoppel is appropriate under these circumstances.\nIn a companion case, Apple also appealed from the judgment of the district court in the trial on remand, in which a jury once again found that Apple infringed the '504 and '201 patents. See VirnetX Inc. v. Cisco Sys., Inc. , No. 2018-1197 (Fed. Cir.) (\"VirnetX II \").\nThe Power Integrations case is still proceeding at the district court on remand. See Power Integrations, Inc. v. Fairchild Semiconductor Int'l, Inc. , No. 1:08-cv-00309-LPS (D. Del.). Yet the theoretical possibility that Power Integrations would appeal its unfavorable invalidity ruling was not even argued to this court in Fairchild . See Power Integrations' Opposition to Fairchild's Motion to Remand at 2-3, Fairchild , 854 F.3d 1364 (No. 17-1002); see also Fairchild (Taiwan) Corporation's Reply in Support of its Motion to Remand at 2, Fairchild , 854 F.3d 1364 (arguing only that a petition for certiorari is not an \"appeal\" for purposes of \u00a7 317(b) ).\nThe majority asserts that the case against Power Integrations did not conclude at this point because the invalidity issue was separate from the infringement issue, and arose as a counterclaim by Power Integrations for declaratory judgment against Fairchild. Maj. Op. 1372-73. This is incorrect. Power Integrations raised invalidity of the relevant patent as both an affirmative defense to infringement and as a counterclaim. See Plaintiff's Fourth Amended Answer and Counterclaims at 10, 23, Power Integrations , No. 1:08-cv-00309, 2011 WL 3443449 (D. Del. July 7, 2011), ECF No. 409. Regardless of the procedural posture of the invalidity issue, the majority does not dispute that the remand in Power Integrations concerned only issues not related to the patent at issue in Fairchild . Power Integrations had no incentive to pursue an appeal on invalidity, because it no longer faced the risk of being found to infringe. The majority correctly acknowledges the impropriety of inferring the subjective intent of litigants in petitioning for certiorari. Maj. Op. 1373. That litigation decision should not be dictated by this court, as we have done in this case.\nThe majority distinguishes Bettcher on the grounds that it dealt with estoppel under pre-AIA 35 U.S.C. \u00a7 315(c) and only addressed appellate review by the Board and this court-not the Supreme Court. Maj. Op. 1375-76 & n.10. But Bettcher expressly construed the meaning of \"final decision\" as used in \u00a7 317(b) in the context of all federal courts, and that construction was part of Bettcher 's holding. See Fairchild , 854 F.3d at 1365. Although Bettcher did not specifically mention the Supreme Court, it held that \u00a7 317(b) \"applies only when ... all appeals have terminated.\" Bettcher , 661 F.3d at 646 (emphasis added). Nothing in Bettcher suggests that its holding was limited solely to appeals to the Board and this court.\nIn responding to the above line of Supreme Court cases, the majority again confirms that the Court can still review the invalidity issue in VirnetX I , thus further undercutting its insistence that the issue was finally decided in that case. See Maj. Op. 1373-74.",
+        "type": "majority",
+        "author": "Prost, Chief Judge."
+      }
+    ],
+    "attorneys": [
+      "Stephen Blake Kinnaird, Paul Hastings LLP, Washington, DC, argued for appellant. Also represented by Naveen Modi, Joseph Palys, Igor Victor Timofeyev, Michael Wolfe, Daniel Zeilberger.",
+      "William F. Lee, Wilmer Cutler Pickering Hale and Dorr LLP, Boston, MA, argued for appellee Apple Inc. Also represented by Rebecca A. Bact, Mark Christopher Fleming, Lauren B. Fletcher, Dominic E. Massa ; Brittany Blueitt Amadi, Washington, DC; Scott Border, Jeffrey Paul Kushan, Sidley Austin LLP, Washington, DC.",
+      "Theodore M. Foster, Haynes & Boone, LLP, Dallas, TX, argued for appellee Cisco Systems, Inc. Also represented by David L. McCombs, Andrew S. Ehmke, Debra Janece McComas."
+    ],
+    "corrections": "",
+    "head_matter": "VIRNETX INC., Appellant\nv.\nAPPLE INC., Cisco Systems, Inc., Appellees\n2017-1591, 2017-1592, 2017-1593\nUnited States Court of Appeals, Federal Circuit.\nDecided: August 1, 2019\nStephen Blake Kinnaird, Paul Hastings LLP, Washington, DC, argued for appellant. Also represented by Naveen Modi, Joseph Palys, Igor Victor Timofeyev, Michael Wolfe, Daniel Zeilberger.\nWilliam F. Lee, Wilmer Cutler Pickering Hale and Dorr LLP, Boston, MA, argued for appellee Apple Inc. Also represented by Rebecca A. Bact, Mark Christopher Fleming, Lauren B. Fletcher, Dominic E. Massa ; Brittany Blueitt Amadi, Washington, DC; Scott Border, Jeffrey Paul Kushan, Sidley Austin LLP, Washington, DC.\nTheodore M. Foster, Haynes & Boone, LLP, Dallas, TX, argued for appellee Cisco Systems, Inc. Also represented by David L. McCombs, Andrew S. Ehmke, Debra Janece McComas.\nBefore Prost, Chief Judge, Moore and Reyna, Circuit Judges.\nOpinion concurring in part and dissenting in part filed by Circuit Judge Reyna."
+  },
+  "file_name": "1363-01",
+  "first_page_order": 1363,
+  "last_page_order": 1386
+}

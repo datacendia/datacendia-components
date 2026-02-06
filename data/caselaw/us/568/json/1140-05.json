@@ -1,0 +1,59 @@
+{
+  "id": 12429894,
+  "name": "Metrish, Warden v. Lancaster",
+  "name_abbreviation": "Metrish v. Lancaster",
+  "decision_date": "2013-01-18",
+  "docket_number": "No. 12-547",
+  "first_page": "1140",
+  "last_page": "1140",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1140"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.569,
+    "sha256": "d124adc0d728cd84cff6a0249c45bcdead8d0bb902cf4dc28c2627cb3cb0c42f",
+    "simhash": "1:c908a2ceee394820",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Metrish, Warden v. Lancaster."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari granted.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-547.\nMetrish, Warden v. Lancaster."
+  },
+  "file_name": "1140-05",
+  "first_page_order": 1216,
+  "last_page_order": 1216
+}

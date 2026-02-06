@@ -1,0 +1,59 @@
+{
+  "id": 12428135,
+  "name": "Ellerbee v. Florida",
+  "name_abbreviation": "Ellerbee v. Florida",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-6570",
+  "first_page": "1093",
+  "last_page": "1093",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1093"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 68,
+    "ocr_confidence": 0.581,
+    "sha256": "8b4d6119c3885ac412d28062b983472daed175f9ab80d8a467d5bfadbb85086f",
+    "simhash": "1:a75c9302744265b6",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ellerbee v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Fla. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6570.\nEllerbee v. Florida."
+  },
+  "file_name": "1093-12",
+  "first_page_order": 1169,
+  "last_page_order": 1169
+}

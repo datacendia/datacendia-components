@@ -1,0 +1,61 @@
+{
+  "id": 12249074,
+  "name": "Sow v. Holder, Attorney General",
+  "name_abbreviation": "Sow v. Holder",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-7925",
+  "first_page": "1229",
+  "last_page": "1229",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1229"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 25,
+    "char_count": 158,
+    "ocr_confidence": 0.604,
+    "sha256": "ebde3da13ef17764a44890513957f30c95b50755fb49eef6411269687e052ae5",
+    "simhash": "1:db93fa98ed2df8c6",
+    "word_count": 26
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Sow v. Holder, Attorney General."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7925.\nSow v. Holder, Attorney General."
+  },
+  "file_name": "1229-05",
+  "first_page_order": 1311,
+  "last_page_order": 1311
+}

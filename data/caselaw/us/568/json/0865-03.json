@@ -1,0 +1,59 @@
+{
+  "id": 12414334,
+  "name": "Wyre v. United States",
+  "name_abbreviation": "Wyre v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10841",
+  "first_page": "865",
+  "last_page": "865",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 865"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.642,
+    "sha256": "d818cf2fa8cc23ceba19ffdff03bdf4db870b012ea76680798fb7118c701f830",
+    "simhash": "1:0188dc0ad685d418",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wyre v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10841.\nWyre v. United States."
+  },
+  "file_name": "0865-03",
+  "first_page_order": 941,
+  "last_page_order": 941
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12204041,
+  "name": "Nix v. New York",
+  "name_abbreviation": "Nix v. New York",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10672",
+  "first_page": "843",
+  "last_page": "843",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 843"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 92,
+    "ocr_confidence": 0.705,
+    "sha256": "d640529621467617eabc19837998595289b28d0e361d9c6c08d34538a4586de4",
+    "simhash": "1:6fe0ea54e1b59372",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Nix v. New York."
+    ],
+    "opinions": [
+      {
+        "text": "App. Div., Sup. Ct. N. Y., 4th Jud. Dept. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10672.\nNix v. New York."
+  },
+  "file_name": "0843-08",
+  "first_page_order": 925,
+  "last_page_order": 925
+}

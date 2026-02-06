@@ -1,0 +1,59 @@
+{
+  "id": 12431475,
+  "name": "Moncivais v. United States",
+  "name_abbreviation": "Moncivais v. United States",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-8062",
+  "first_page": "1181",
+  "last_page": "1181",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1181"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.622,
+    "sha256": "fa90bad929802f11f7cb21e9905da838a51e2cbf9f4ebee8431f648f9841fc56",
+    "simhash": "1:c79af283ca1f1c7c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Moncivais v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8062.\nMoncivais v. United States."
+  },
+  "file_name": "1181-11",
+  "first_page_order": 1257,
+  "last_page_order": 1257
+}

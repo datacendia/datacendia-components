@@ -1,0 +1,59 @@
+{
+  "id": 5934248,
+  "name": "Baez v. United States",
+  "name_abbreviation": "Baez v. United States",
+  "decision_date": "2011-04-18",
+  "docket_number": "No. 10-9456",
+  "first_page": "950",
+  "last_page": "950",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 950"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.66,
+    "sha256": "21da206d8e7234f3a7b39f0ac094d446554f7c7fa3723633a87a087451d700e9",
+    "simhash": "1:051afe02e6dd122e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Baez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9456.\nBaez v. United States."
+  },
+  "file_name": "0950-03",
+  "first_page_order": 976,
+  "last_page_order": 976
+}

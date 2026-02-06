@@ -1,0 +1,66 @@
+{
+  "id": 12418075,
+  "name": "Harris v. Caruso et al.",
+  "name_abbreviation": "Harris v. Caruso",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 12-5498",
+  "first_page": "945",
+  "last_page": "945",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 945"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "465 Fed. Appx. 481",
+      "category": "reporters:federal",
+      "reporter": "Fed. Appx.",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 19,
+    "char_count": 108,
+    "ocr_confidence": 0.672,
+    "sha256": "37bea0f7216ccdcade2478ce76174c7d1f5ae8fc73f97a4a782bb25dd5e83fd8",
+    "simhash": "1:a4ce2828fe27da70",
+    "word_count": 19
+  },
+  "last_updated": "2024-02-27T23:44:49.194693+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Harris v. Caruso et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Cer-tiorari denied. Reported below: 465 Fed. Appx. 481.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5498.\nHarris v. Caruso et al."
+  },
+  "file_name": "0945-04",
+  "first_page_order": 1021,
+  "last_page_order": 1021
+}

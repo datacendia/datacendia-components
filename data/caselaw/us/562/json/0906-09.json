@@ -1,0 +1,59 @@
+{
+  "id": 6025702,
+  "name": "Kelly-Palmer v. United States",
+  "name_abbreviation": "Kelly-Palmer v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5150",
+  "first_page": "906",
+  "last_page": "906",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 906"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 78,
+    "ocr_confidence": 0.605,
+    "sha256": "c450c199d2c7c95fc1afc61ec1a7a3d5f3623cb70483aac6d6055d0dab0c8d1a",
+    "simhash": "1:153ac2014b9dc00a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Kelly-Palmer v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5150.\nKelly-Palmer v. United States."
+  },
+  "file_name": "0906-09",
+  "first_page_order": 928,
+  "last_page_order": 928
+}

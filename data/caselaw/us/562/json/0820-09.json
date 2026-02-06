@@ -1,0 +1,98 @@
+{
+  "id": 5999419,
+  "name": "Costco Wholesale Corp. v. Omega, S. A.",
+  "name_abbreviation": "Costco Wholesale Corp. v. Omega, S. A.",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 08-1423",
+  "first_page": "820",
+  "last_page": "821",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 820"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "559 U. S. 1066",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12448460,
+        12448461,
+        12448462,
+        12448463,
+        12448464,
+        12448465,
+        12448466,
+        12448467,
+        12448758,
+        12448759,
+        12448760,
+        12448761,
+        12448762
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/176/0720-03",
+        "/l-ed-2d/176/0720-04",
+        "/l-ed-2d/176/0720-05",
+        "/l-ed-2d/176/0720-06",
+        "/l-ed-2d/176/0720-07",
+        "/l-ed-2d/176/0720-08",
+        "/l-ed-2d/176/0721-01",
+        "/l-ed-2d/176/0721-02",
+        "/l-ed-2d/176/0758-01",
+        "/l-ed-2d/176/0758-02",
+        "/l-ed-2d/176/0758-03",
+        "/l-ed-2d/176/0758-04",
+        "/l-ed-2d/176/0758-05"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 44,
+    "char_count": 306,
+    "ocr_confidence": 0.575,
+    "sha256": "9f1fe9006e5a750ef612344c0b9bc53c5c9b623a5647a1f04e9141292bfe334a",
+    "simhash": "1:d2164223c3e76edc",
+    "word_count": 52
+  },
+  "last_updated": "2024-02-27T22:51:28.129297+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice KAGAN took no part in the consideration or decision of this motion."
+    ],
+    "parties": [
+      "Costco Wholesale Corp. v. Omega, S. A."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. [Certiorari granted, 559 U. S. 1066.] Motion of the Solicitor General for leave to participate in oral argument as amicus curiae and for divided argument granted.\nJustice KAGAN took no part in the consideration or decision of this motion.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 08-1423.\nCostco Wholesale Corp. v. Omega, S. A."
+  },
+  "file_name": "0820-09",
+  "first_page_order": 842,
+  "last_page_order": 843
+}

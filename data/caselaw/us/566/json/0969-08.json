@@ -1,0 +1,59 @@
+{
+  "id": 12211773,
+  "name": "Santos-Santos v. United States",
+  "name_abbreviation": "Santos-Santos v. United States",
+  "decision_date": "2012-04-23",
+  "docket_number": "No. 11-9530",
+  "first_page": "969",
+  "last_page": "969",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 969"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 80,
+    "ocr_confidence": 0.601,
+    "sha256": "266269b54891f75505f870b438eb0862f8c8a2a4676ce1844d9ebb9382d08efb",
+    "simhash": "1:0210c22353a6933c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Santos-Santos v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9530.\nSantos-Santos v. United States."
+  },
+  "file_name": "0969-08",
+  "first_page_order": 845,
+  "last_page_order": 845
+}

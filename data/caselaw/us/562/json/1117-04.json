@@ -1,0 +1,59 @@
+{
+  "id": 5939265,
+  "name": "Rosa-Carino v. United States",
+  "name_abbreviation": "Rosa-Carino v. United States",
+  "decision_date": "2010-12-13",
+  "docket_number": "No. 10-7472",
+  "first_page": "1117",
+  "last_page": "1117",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1117"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.548,
+    "sha256": "880bdf9135c4de3c92f725e89c5f8e3dd17c6754312e2fbdc39aee6fb2a977b2",
+    "simhash": "1:55428e8144969d0c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rosa-Carino v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7472.\nRosa-Carino v. United States."
+  },
+  "file_name": "1117-04",
+  "first_page_order": 1139,
+  "last_page_order": 1139
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5998242,
+  "name": "Cao et al. v. Federal Election Commission",
+  "name_abbreviation": "Cao v. Federal Election Commission",
+  "decision_date": "2011-03-21",
+  "docket_number": "No. 10-776",
+  "first_page": "1286",
+  "last_page": "1286",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1286"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 89,
+    "ocr_confidence": 0.636,
+    "sha256": "c2c00a0faf0e2b74f52eee89ca8ca143da38bcf957cbeff809e8b7328d6f9073",
+    "simhash": "1:201813830a0af6ae",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cao et al. v. Federal Election Commission."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-776.\nCao et al. v. Federal Election Commission."
+  },
+  "file_name": "1286-08",
+  "first_page_order": 1308,
+  "last_page_order": 1308
+}

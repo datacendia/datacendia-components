@@ -1,0 +1,319 @@
+{
+  "id": 8715879,
+  "name": "Western Union Telegraph Company v. Floyd Coker",
+  "name_abbreviation": "Western Union Telegraph Co. v. Coker",
+  "decision_date": "1947-10-15",
+  "docket_number": "No. A-1269",
+  "first_page": "190",
+  "last_page": "196",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "146 Tex. 190"
+    },
+    {
+      "type": "parallel",
+      "cite": "204 S.W.2d 977"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "171 S. W. (2d) 324",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10207556,
+        2308398
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/171/0324-01",
+        "/tex/141/0235-01"
+      ]
+    },
+    {
+      "cite": "141 Texas 235",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2308398
+      ],
+      "pin_cites": [
+        {
+          "page": "242"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/141/0235-01"
+      ]
+    },
+    {
+      "cite": "114 S. W. (2d) 533",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10257817,
+        2324475
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/114/0533-01",
+        "/tex/131/0212-01"
+      ]
+    },
+    {
+      "cite": "113 S. W. (2d) 162",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2324475,
+        10244493
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/131/0212-01",
+        "/sw2d/113/0162-01"
+      ]
+    },
+    {
+      "cite": "131 Texas 212",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2324475
+      ],
+      "pin_cites": [
+        {
+          "page": "216"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/131/0212-01"
+      ]
+    },
+    {
+      "cite": "40 S. W. (2d) 1",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10245714,
+        2307426
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/40/0001-01",
+        "/tex/120/0605-01"
+      ]
+    },
+    {
+      "cite": "120 Texas 605",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2307426
+      ],
+      "pin_cites": [
+        {
+          "page": "618"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/120/0605-01"
+      ]
+    },
+    {
+      "cite": "140 S. W. 434",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8280758
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/140/0434-01"
+      ]
+    },
+    {
+      "cite": "104 Texas 482",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2256882
+      ],
+      "pin_cites": [
+        {
+          "page": "492"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/104/0482-01"
+      ]
+    },
+    {
+      "cite": "160 S. W. (2d) 232",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10210161
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/160/0232-01"
+      ]
+    },
+    {
+      "cite": "175 S. W. (2d) 249",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2340584,
+        10204229
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/142/0001-01",
+        "/sw2d/175/0249-01"
+      ]
+    },
+    {
+      "cite": "142 Texas 1",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2340584
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/142/0001-01"
+      ]
+    },
+    {
+      "cite": "254 S. W. 510",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10309693
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/254/0510-01"
+      ]
+    },
+    {
+      "cite": "230 S. W. 1066",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10340320
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/230/1066-01"
+      ]
+    },
+    {
+      "cite": "140 S. E. 602",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "194 N. C. 687",
+      "category": "reporters:state",
+      "reporter": "N.C.",
+      "case_ids": [
+        8616280
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/nc/194/0687-01"
+      ]
+    },
+    {
+      "cite": "181 S. W. 238",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8246170
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/181/0238-01"
+      ]
+    },
+    {
+      "cite": "82 S. W. 808",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "202 S. W. (2d) 710",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10205114
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/202/0710-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 649,
+    "char_count": 10771,
+    "ocr_confidence": 0.588,
+    "pagerank": {
+      "raw": 8.771709236820928e-07,
+      "percentile": 0.9777608655948667
+    },
+    "sha256": "e4344c471654ef558b2e9a6ecc3a07f0deb6343d2d94d4228316d9c102666e52",
+    "simhash": "1:fcf0aeaef50ed31c",
+    "word_count": 1903
+  },
+  "last_updated": "2024-02-27T22:18:41.353680+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Western Union Telegraph Company v. Floyd Coker."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Judge S medley\ndelivered the opinion of the Court.\nRespondent Coker brought this action for damages on account of personal injuries suffered by him as an employee' of petitioner, Western Union 'Telegraph Company. As is shown by-the pleadings and the briefs, the case was tried on the theory that petitioner had three or more employees, but was, not a subscriber under the Workmen\u2019s Compensation Law. Petitioner therefore is, by the terms of that law, deprived in this action of the defenses of contributory negligence, assumed risk, and negligence of' a fellow employee, but it is necessary to a recovery by respondent that he prove negligence on the part of petitioner, or on the part of petitioner\u2019s agent or servant acting in the general scope of his employment, that was a proximate cause of the injury. Article 8306, Section 1, Revised Civil Statutes of 1925.\nOnly one ground of negligence was submitted to the jury. In answer to special issues, the jury found that the safety of respondent in performing the work in which he was engaged when he was injured reasonably required the services of at least two men; that petitioner failed to exercise ordinary care to furnish another person to work with respondent; and that this failure was a proximate cause of resepondent\u2019s injuries. Judgment was first rendered for $2,000.00, the amount fixed by the jury, but on motion for new trial the court required a remittitur of $750.00. The Court of Civil Appeals affirmed the trial court\u2019s judgment, one of the justices dissenting. 202 S. W. (2d) 710.\nRespondent is an experienced carpenter. He had worked for petitioner \u201coff and on\u201d for about four years. In 1943 he installed the fixtures in the building where he was injured on June 28, 1944, and he worked part of each of those two years for petitioner. His hours of work were from eight to twelve and from twelve-thirty to four-thirty.\nAt the time when he was injured respondent was taking down a partition wall at the back of a small vestibule about five feet wide and extending about six feet from the front door. On one side of the vestibule was a shop for repairing telegraph equipment, of which O\u2019Neal was foreman; on the other side of the vestibule was the office of McWorth, the city foreman, by whom respondent was employed and paid. The wall that respondent was tearing down was about eight feet high- and did not reach the ceiling by about eighteen inches. Across the top of the wall was a cap or plate about five feet long made of two two by fours nailed together and fastened by sixteen penny nails. Respondent first removed the sheet rock and the framing of the partition, and then, standing on the s\u00e9cond or third step of a stepladder, undertook to take down the four by four plate. Using in his right hand an iron bar weighing from five to seven pounds and holding the plate with his left hand, he pried the plate from the top of the partition. It came loose suddenly, \u201cjiggled to one side, got away from\u201d him, fell and struck his ankle, breaking the skin and making a hole and a bruise where one of the nails entered.\nRespondent testified that he should have had a man helping him when he was on the ladder removing the plate. Two witnesses who were not present when the accident occurred, testifying for respondent, expressed their opinions that for the safety of respondent and those who may have been nearby, another man should have been present to help respondent remove the plate.\nThe law imposes upon the employer the duty to exercise reasonable care in providing for an employee adequate help in the performance of work required of him. The duty is non-delegable and continuous, the rule being in principle the same as that requiring the employer to furnish his employee with safe instrumentalities and a safe place to work. Bonn v. Galveston, H. & S. A. Ry. Co., 82 S. W. 808; Galveston, H. & S. A. Co. v. Brown, 181 S. W. 238; Jarvis v. Erwin Cotton Mills Co., 194 N. C. 687, 140 S. E. 602; 39 C. J. pp.523-525, Secs. 627-630; 35 American Jurisprudence, pp. 626-627, Sec. 197; La-batt\u2019s Master and Servant (2d Ed.) Yol. 3, pp. 2912-2915, Sec. 1107.\nThe text last cited, in addition to the statement of the general rule, contains on page 2914 the following: \u201cSo far as the movements of servants may depend upon their own volition, and are not in any way affected by the control of a superior, it is clear that there can be no recovery on the theory that the number of servants was temporarily inadequate at the time and place where the injury was received, unless it is shown that such inadequacy was known, actually or constructively, to the master or his representative.\u201d See also 35 Am. Jur., p. 626, Sec. 197.\nThe employer is not liable when he has provided help and injury results from the act of the employee in voluntarily proceeding to do the work without assistance. The same is true when sufficient help is nearby and available and the employee does the work alone without seeking or asking for assistance. Hines v. Ross, 230 S. W. 1066; Melton v. Texas & N. O. Ry. Co., 254 S. W. 510; Jarvis v. Erwin Cotton Mills Co., 194 N. C. 687, 140 S. E. 602; 39 C. J. p. 525, Sec. 630.\nIn Great Atlantic & Pacific Tea Co. v. Evans, 142 Texas 1, 175 S. W. (2d) 249, the employee was injured by carrying \u25a0sacks of potatoes weighing one hundred pounds a distance of about seventy-five or eighty feet. Recovery was sought on the ground that the employer was negligent in requiring the employee to carry the potatoes without someone to assist him. It was held that the employer was not negligent and not liable, because under the facts he could not reasonably have foreseen that the employee, in doing the work without assistance, would suffer the resultant injury or injury similar in character.\nOne of the grounds for petitioner\u2019s motion for peremptory instruction is that there is no evidence tending to prove that petitioner failed to use. ordinary care to provide an assistant or helper to respondent while he was dismantling the partition. No witness except respondent testified to the occurrence of the accident in which he was injured and, according to respondent\u2019s testimony, no other person saw the accident unless it was O\u2019Neal, the foreman of the shop, who had no connection with and no authority concerning the work that was being done.\nTestifying as to the accident and what preceded it, respondent said: McWorth, the foreman\u2019, told him what to do and went away. In removing the partition, he first knocked off the sheet rock and took down the studding. This was a job that one man could do easily. He \u201chad had help but they put them on something else.\u201d Bob Thompson, who had helped him, was not there at the time when he pried the plate loose. He did not testify how long he had help, what the helper did, who took him away, how long the helper had been away, or where the helper was when the accident occurred. After he was struck by the falling plate, respondent got off the ladder and asked O\u2019Neal whether he had anything to put on his injured leg. O\u2019Neal put mercurochrome on the wound and it was then \u201cright at 4:30, quitting time.\u201d Asked whether he had any help at the time when he was prying the plate loose, respondent said that he looked around and nobody was there, that the foreman was gone and Bob Thompson, who had helped him, was not there at the time. In answer to the question whether he asked for a man to help him when he was on the ladder prying the plate loose, he answered that his foreman was not there; and in answer to the question \u201cWhy didn\u2019t you wait until he got back?\u201d he answered merely \u201cI worked for the money.\u201d\nWe find no evidence of negligent failure on the part of petitioner to provide help for respondent. A helper had been provided. There is no evidence of how long he helped respondent, or how long he had been away at the time of the accident, or where he was. He may have been temporarily absent. He may have been nearby and subject to call. Respondent\u2019s testimony shows that he made no effort to find the helper. He merely looked around and, seeing that neither the foreman nor the helper was there, voluntarily proceeded with the work, the removal of the plate, that he believed it was dangerous for him to do without help. Before he removed the plate- respondent had been knocking off the sheet rock and taking down the studding, which he said was a job that one man could easily do. During that time a helper was not needed. There is nothing in the record to show that the employer or the employer\u2019s foreman knew or should have anticipated that respondent, immediately before the end of his day\u2019s work, would undertake alone a task that he could not safely perform without help, or that he would do so without seeking or asking for help. In our opinion there is no foundation in the evidence for a finding of negligence on the part of petitioner.\nPetitioner contends that certain statements made by respondent in his testimony amount to judicial admissions conclusive against him on one or more of the important questions in the case. It is our opinion, after reading all of respondent\u2019s testimony, that the statements are not so clear, definite and unequivocal as to be given that effect. Westbrook v. Landa, 160 S. W. (2d) 232; McCormick and Ray\u2019s Texas Law of Evidence, pp. 632-636, Secs. 494-496 ; 20 American Jurisprudence, pp. 1032-1033, Sec. 1181. We agree also with the conclusion of the Court \u00f3f Civil Appeals that contradictions in respondent\u2019s testimony and conflicts between his testimony in another case and his testimony in this case raised questions of weight and credibility for the jury\u2019s determination.\nSince we have reached the conclusion that petitioner\u2019s motion for peremptory instruction should have been granted, judgment might be rendered here that respondent take nothing. We are inclined to believe, however, that the case has not been fully developed and that the justice of the case demands another trial. Paris & G. N. R. R. Co. v. Robinson, 104 Texas 482, 492, 140 S. W. 434; Waggoner v. Heerring-Showers Lumber Co., 120 Texas 605, 618, 40 S. W. (2d) 1; Sheney v. Coffey, 131 Texas 212, 216, 113 S. W. (2d) 162, 114 S. W. (2d) 533; Hall v. Rawls, 141 Texas 235, 242, 171 S. W. (2d) 324; Rule 505.\nThe judgments of the Court of Civil Appeals and the district court are reversed, and the cause is remanded to the district court for new trial.\nOpinion delivered October 15, 1947.",
+        "type": "majority",
+        "author": "Mr. Judge S medley"
+      }
+    ],
+    "attorneys": [
+      "William H. Flippen and John W. Miller, both of Dallas, and Francis R. Stark, of New York City, for petitioner.",
+      "Carclen & Hemphill and W. R. Hemphill, of Dallas, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "Western Union Telegraph Company v. Floyd Coker.\nNo. A-1269.\nDecided October 15, 1947.\nRehearing overruled November 12, 1947.\n(204 S. W., 2d Series, 977.)\nWilliam H. Flippen and John W. Miller, both of Dallas, and Francis R. Stark, of New York City, for petitioner.\nCarclen & Hemphill and W. R. Hemphill, of Dallas, for respondent."
+  },
+  "file_name": "0190-01",
+  "first_page_order": 210,
+  "last_page_order": 216
+}

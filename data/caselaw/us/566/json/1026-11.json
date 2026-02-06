@@ -1,0 +1,59 @@
+{
+  "id": 12223225,
+  "name": "Bravo v. Lopez, Warden",
+  "name_abbreviation": "Bravo v. Lopez",
+  "decision_date": "2012-05-29",
+  "docket_number": "No. 11-9712",
+  "first_page": "1026",
+  "last_page": "1026",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 1026"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.583,
+    "sha256": "9e7954898e3e6c6814f7e79930d74c26b27d4948ec8f0950b5597fb2290ffd85",
+    "simhash": "1:10600fc968bf1049",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bravo v. Lopez, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9712.\nBravo v. Lopez, Warden."
+  },
+  "file_name": "1026-11",
+  "first_page_order": 902,
+  "last_page_order": 902
+}

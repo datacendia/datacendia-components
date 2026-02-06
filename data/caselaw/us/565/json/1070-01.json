@@ -1,0 +1,59 @@
+{
+  "id": 12236163,
+  "name": "Hernandez v. United States",
+  "name_abbreviation": "Hernandez v. United States",
+  "decision_date": "2011-11-28",
+  "docket_number": "No. 11-6980",
+  "first_page": "1070",
+  "last_page": "1070",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1070"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.719,
+    "sha256": "c2cef55d9eff5bc5270e078e36f1e6b44ea2e9180333c7048176fa4e3bb6a477",
+    "simhash": "1:27abaa61cf8cb13a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hernandez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6980.\nHernandez v. United States."
+  },
+  "file_name": "1070-01",
+  "first_page_order": 1152,
+  "last_page_order": 1152
+}

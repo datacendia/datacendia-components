@@ -1,0 +1,59 @@
+{
+  "id": 12247283,
+  "name": "Burke v. Vermont",
+  "name_abbreviation": "Burke v. Vermont",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-7911",
+  "first_page": "1213",
+  "last_page": "1213",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1213"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 63,
+    "ocr_confidence": 0.597,
+    "sha256": "9d7fd5c1c2fd8abf20312e72e3d57d5458c4ff2347b1ad593c75fefbffc024a3",
+    "simhash": "1:af8b6d33db0d3376",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Burke v. Vermont."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Vt. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7911.\nBurke v. Vermont."
+  },
+  "file_name": "1213-14",
+  "first_page_order": 1295,
+  "last_page_order": 1295
+}

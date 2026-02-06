@@ -1,0 +1,59 @@
+{
+  "id": 5962377,
+  "name": "City of Reno, Nevada, et al. v. Conn et al.",
+  "name_abbreviation": "City of Reno v. Conn",
+  "decision_date": "2011-04-04",
+  "docket_number": "No. 09-1361",
+  "first_page": "915",
+  "last_page": "915",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 915"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 31,
+    "char_count": 200,
+    "ocr_confidence": 0.573,
+    "sha256": "bb16da4eaa76861a1736de23fd1957db66706ef083c642d89da3f430d43225ae",
+    "simhash": "1:8a6260c229c3849b",
+    "word_count": 35
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "City of Reno, Nevada, et al. v. Conn et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari granted, judgment vacated, and case remanded for further consideration in light of Connick v. Thompson, ante, p. 51.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-1361.\nCity of Reno, Nevada, et al. v. Conn et al."
+  },
+  "file_name": "0915-01",
+  "first_page_order": 941,
+  "last_page_order": 941
+}

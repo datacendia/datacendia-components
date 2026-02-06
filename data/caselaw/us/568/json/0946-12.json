@@ -1,0 +1,59 @@
+{
+  "id": 12418183,
+  "name": "Washington v. North Carolina",
+  "name_abbreviation": "Washington v. North Carolina",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 12-5577",
+  "first_page": "946",
+  "last_page": "946",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 946"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.691,
+    "sha256": "54a970d549be2712bd926e477be3a934ab76c337a2abcd04d72177d1572d261d",
+    "simhash": "1:f2d2aab8de0d3023",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Washington v. North Carolina."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5577.\nWashington v. North Carolina."
+  },
+  "file_name": "0946-12",
+  "first_page_order": 1022,
+  "last_page_order": 1022
+}

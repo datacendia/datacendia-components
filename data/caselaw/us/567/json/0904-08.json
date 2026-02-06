@@ -1,0 +1,59 @@
+{
+  "id": 12407829,
+  "name": "In re Helton",
+  "name_abbreviation": "In re Helton",
+  "decision_date": "2012-06-11",
+  "docket_number": "No. 11-10417",
+  "first_page": "904",
+  "last_page": "904",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 904"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 26,
+    "char_count": 174,
+    "ocr_confidence": 0.652,
+    "sha256": "f470057b0813bfebe140914b319c8c486c955e2fe2ee10d4f73deac34cc47a81",
+    "simhash": "1:6a8b7eccc751851c",
+    "word_count": 29
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Helton."
+    ],
+    "opinions": [
+      {
+        "text": "Motion of petitioner for leave to proceed in forma pauperis denied, and petition for writ of habeas corpus dismissed. See this Court\u2019s Rule 39.8.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10417.\nIn re Helton."
+  },
+  "file_name": "0904-08",
+  "first_page_order": 808,
+  "last_page_order": 808
+}

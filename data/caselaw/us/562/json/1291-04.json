@@ -1,0 +1,59 @@
+{
+  "id": 6018323,
+  "name": "Robinson v. Diggs, Warden",
+  "name_abbreviation": "Robinson v. Diggs",
+  "decision_date": "2011-03-21",
+  "docket_number": "No. 10-8306",
+  "first_page": "1291",
+  "last_page": "1291",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1291"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.569,
+    "sha256": "e367972343d4f731eced9228ff80a5cb8c8fdf5f0824c244b13eae15e83e9a63",
+    "simhash": "1:b1ca0ef35c2bb897",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Robinson v. Diggs, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8306.\nRobinson v. Diggs, Warden."
+  },
+  "file_name": "1291-04",
+  "first_page_order": 1313,
+  "last_page_order": 1313
+}

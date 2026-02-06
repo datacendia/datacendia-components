@@ -1,0 +1,59 @@
+{
+  "id": 12224132,
+  "name": "Stamps v. United States",
+  "name_abbreviation": "Stamps v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5784",
+  "first_page": "921",
+  "last_page": "921",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 921"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.651,
+    "sha256": "f8d4a4c3cf6129e6c3f7855e1e469235bbf056a7f952cb1f66fdd9c407f355e1",
+    "simhash": "1:838a920ace140958",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Stamps v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5784.\nStamps v. United States."
+  },
+  "file_name": "0921-11",
+  "first_page_order": 1003,
+  "last_page_order": 1003
+}

@@ -1,0 +1,83 @@
+{
+  "id": 2330578,
+  "name": "Morgan Farms et al v. Honorable W. O. Murray, Chief Justice et al.",
+  "name_abbreviation": "Morgan Farms v. Murray",
+  "decision_date": "1950-10-11",
+  "docket_number": "No. A-2822",
+  "first_page": "319",
+  "last_page": "319",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "149 Tex. 319"
+    },
+    {
+      "type": "parallel",
+      "cite": "233 S.W.2d 123"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "231 S. W. 2d 790",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10208753
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/231/0790-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 75,
+    "char_count": 622,
+    "ocr_confidence": 0.644,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.07967703908606255
+    },
+    "sha256": "0ecece2db2ab09966c7cbfa28af02f20df2f1a01a9a17f0cf9e8cd393e53b3c9",
+    "simhash": "1:02089ca476acf053",
+    "word_count": 107
+  },
+  "last_updated": "2024-02-27T22:27:48.324010+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Morgan Farms et al v. Honorable W. O. Murray, Chief Justice et al."
+    ],
+    "opinions": [
+      {
+        "text": "Per Curiam.\nThe motion for leave to file the petition for mandamus is overruled because the Court approves the holding of the Court of Civil Appeals. Morgan Farms et al v. Brown, 231 S. W. 2d 790. Rule 475, as amended by Rule effective March 1, 1950.\nOpinion delivered October 11, 1950.",
+        "type": "majority",
+        "author": "Per Curiam."
+      }
+    ],
+    "attorneys": [
+      "Pickinson, Davis & Hale; McCampbell, Wood & Kirkhan, Norman L. Utter and L. Dewitt Hale, all of Corpus Christi, for petitioner.",
+      "Jackson & Jackson and H. S. Groesbeeck, of Crystal City, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "Morgan Farms et al v. Honorable W. O. Murray, Chief Justice et al.\nNo. A-2822.\nDecided October 11, 1950.\n(233 S. W., 2d Series, 123.)\nPickinson, Davis & Hale; McCampbell, Wood & Kirkhan, Norman L. Utter and L. Dewitt Hale, all of Corpus Christi, for petitioner.\nJackson & Jackson and H. S. Groesbeeck, of Crystal City, for respondent."
+  },
+  "file_name": "0319-01",
+  "first_page_order": 335,
+  "last_page_order": 335
+}

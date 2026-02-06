@@ -1,0 +1,59 @@
+{
+  "id": 12206937,
+  "name": "Yates v. Baldwin et al.",
+  "name_abbreviation": "Yates v. Baldwin",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10867",
+  "first_page": "854",
+  "last_page": "854",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 854"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 73,
+    "ocr_confidence": 0.645,
+    "sha256": "6c71ddb0544829ac8579af84060d4bc61548d35efd560a280c7e3af893f46a03",
+    "simhash": "1:a0f830f9f925daba",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Yates v. Baldwin et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10867.\nYates v. Baldwin et al."
+  },
+  "file_name": "0854-04",
+  "first_page_order": 936,
+  "last_page_order": 936
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12431593,
+  "name": "Cruz v. United States",
+  "name_abbreviation": "Cruz v. United States",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-8166",
+  "first_page": "1184",
+  "last_page": "1184",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1184"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.613,
+    "sha256": "ffd12050491d62bbd1cb3c0aa8351dcdfbf40e3e1c1dd9c872ff60fcf418b822",
+    "simhash": "1:0428a38b069d5018",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cruz v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8166.\nCruz v. United States."
+  },
+  "file_name": "1184-03",
+  "first_page_order": 1260,
+  "last_page_order": 1260
+}

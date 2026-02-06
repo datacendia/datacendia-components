@@ -1,0 +1,59 @@
+{
+  "id": 5989414,
+  "name": "Alvanez v. United States",
+  "name_abbreviation": "Alvanez v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5739",
+  "first_page": "936",
+  "last_page": "936",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 936"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.606,
+    "sha256": "52ef101d89d0b8f0dc7b47caf3aad44bb15b0f8441187e4a694398ca13adb85e",
+    "simhash": "1:27aaee130a8db85d",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Alvanez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5739.\nAlvanez v. United States."
+  },
+  "file_name": "0936-09",
+  "first_page_order": 958,
+  "last_page_order": 958
+}

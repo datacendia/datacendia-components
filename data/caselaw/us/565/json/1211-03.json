@@ -1,0 +1,59 @@
+{
+  "id": 12246983,
+  "name": "Jones v. Davis, Warden",
+  "name_abbreviation": "Jones v. Davis",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-7816",
+  "first_page": "1211",
+  "last_page": "1211",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1211"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.664,
+    "sha256": "b6f3a6670e4e5ea167907085be22562faaaa6e9a845a4f0b2c052b20f7750a83",
+    "simhash": "1:a08a109ae8c79890",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jones v. Davis, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7816.\nJones v. Davis, Warden."
+  },
+  "file_name": "1211-03",
+  "first_page_order": 1293,
+  "last_page_order": 1293
+}

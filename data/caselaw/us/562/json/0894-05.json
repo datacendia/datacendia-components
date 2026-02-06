@@ -1,0 +1,59 @@
+{
+  "id": 5899178,
+  "name": "Vadde v. Bank of America",
+  "name_abbreviation": "Vadde v. Bank of America",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-112",
+  "first_page": "894",
+  "last_page": "894",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 894"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.599,
+    "sha256": "7d7baa707c33f3d7691d7fc5b89236a5d56dfed6b5eb65118076db2a8a28ef74",
+    "simhash": "1:741638b6b4f8c6d5",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Vadde v. Bank of America."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Ga. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-112.\nVadde v. Bank of America."
+  },
+  "file_name": "0894-05",
+  "first_page_order": 916,
+  "last_page_order": 916
+}

@@ -1,0 +1,645 @@
+{
+  "id": 12451424,
+  "name": "ASHLEY GLENNEN, Plaintiff and Appellant, v. ALLERGAN, INC., Defendant and Respondent",
+  "name_abbreviation": "Glennen v. Allergan, Inc.",
+  "decision_date": "2016-04-29",
+  "docket_number": "No. A145367",
+  "first_page": "1",
+  "last_page": "22",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "247 Cal. App. 4th 1"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "62 F.Supp.3d 1144",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "case_ids": [
+        4167974
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-3d/62/1144-01"
+      ]
+    },
+    {
+      "cite": "40 F.Supp.3d 1202",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "case_ids": [
+        4342475
+      ],
+      "year": 2014,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-3d/40/1202-01"
+      ]
+    },
+    {
+      "cite": "2012 WL 1752546",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "opinion_index": 0
+    },
+    {
+      "cite": "807 F.2d 464",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1649749
+      ],
+      "pin_cites": [
+        {
+          "page": "468"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/807/0464-01"
+      ]
+    },
+    {
+      "cite": "915 F.Supp.2d 776",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        4301371
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/915/0776-01"
+      ]
+    },
+    {
+      "cite": "123 F.Supp.3d 733",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "case_ids": [
+        4028486
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-3d/123/0733-01"
+      ]
+    },
+    {
+      "cite": "180 Cal.Rptr.3d 479",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "231 Cal.App.4th 763",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6052479
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/231/0763-01"
+      ]
+    },
+    {
+      "cite": "2013 WL 3791612",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "opinion_index": 0
+    },
+    {
+      "cite": "442 F.3d 919",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1063995
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/442/0919-01"
+      ]
+    },
+    {
+      "cite": "21 C.F.R. \u00a7 820.3",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "(f)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "754 F.3d 31",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6056116
+      ],
+      "pin_cites": [
+        {
+          "page": "35"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/754/0031-01"
+      ]
+    },
+    {
+      "cite": "677 F.Supp.2d 582",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        3872365
+      ],
+      "pin_cites": [
+        {
+          "page": "588"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/677/0582-01"
+      ]
+    },
+    {
+      "cite": "21 C.F.R. \u00a7\u00a7 820.1-820.250",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "year": 2016,
+      "opinion_index": 0
+    },
+    {
+      "cite": "2013 WL 1707956",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "opinion_index": 0
+    },
+    {
+      "cite": "12 C 8347",
+      "category": "reporters:state",
+      "reporter": "Cow.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 C.F.R. \u00a7 820",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "et seq."
+        },
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 U.S.C. \u00a7 396",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "55 Food & Drug L.J. 245",
+      "category": "journals:journal",
+      "reporter": "Food & Drug L.J.",
+      "pin_cites": [
+        {
+          "page": "251-252"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "669 F.3d 501",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3722622
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "510"
+        },
+        {
+          "page": "511-512"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/669/0501-01"
+      ]
+    },
+    {
+      "cite": "631 F.3d 762",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4085490
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/631/0762-01"
+      ]
+    },
+    {
+      "cite": "630 F.3d 546",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6052562
+      ],
+      "weight": 6,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/630/0546-01"
+      ]
+    },
+    {
+      "cite": "61 F.Supp.3d 403",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "case_ids": [
+        4165359
+      ],
+      "pin_cites": [
+        {
+          "page": "411"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-3d/61/0403-01"
+      ]
+    },
+    {
+      "cite": "15 F.Supp.3d 1021",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "case_ids": [
+        4223709
+      ],
+      "pin_cites": [
+        {
+          "page": "1032"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-3d/15/1021-01"
+      ]
+    },
+    {
+      "cite": "531 U.S. 341",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9505666
+      ],
+      "weight": 6,
+      "pin_cites": [
+        {
+          "page": "343"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/531/0341-01"
+      ]
+    },
+    {
+      "cite": "421 F.3d 482",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8931359
+      ],
+      "pin_cites": [
+        {
+          "page": "489"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/421/0482-01"
+      ]
+    },
+    {
+      "cite": "634 F.3d 1296",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4094066
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/634/1296-01"
+      ]
+    },
+    {
+      "cite": "704 F.3d 1224",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3655701
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "1228"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/704/1224-01"
+      ]
+    },
+    {
+      "cite": "711 F.3d 1109",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3802669
+      ],
+      "pin_cites": [
+        {
+          "page": "1117"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/711/1109-01"
+      ]
+    },
+    {
+      "cite": "496 U.S. 72",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12121785
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "78"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/496/0072-01"
+      ]
+    },
+    {
+      "cite": "451 U.S. 725",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6192088
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "746"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/451/0725-01"
+      ]
+    },
+    {
+      "cite": "555 U.S. 70",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3679526
+      ],
+      "weight": 3,
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "76"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/555/0070-01"
+      ]
+    },
+    {
+      "cite": "21 C.F.R. \u00a7\u00a7 814.84",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "pin_cites": [
+        {
+          "page": "(b)(2)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 C.F.R. \u00a7 814.82",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "(a)(9)"
+        },
+        {
+          "page": "(a)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 C.F.R. \u00a7 861.1",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "(b)(3)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 C.F.R. \u00a7 820.1",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 4,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)(2)"
+        },
+        {
+          "page": "(a)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "670 F.3d 569",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5710874
+      ],
+      "pin_cites": [
+        {
+          "page": "572"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/670/0569-01"
+      ]
+    },
+    {
+      "cite": "518 U.S. 470",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1730146
+      ],
+      "weight": 7,
+      "pin_cites": [
+        {
+          "page": "476"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/518/0470-01"
+      ]
+    },
+    {
+      "cite": "552 U.S. 312",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3675984
+      ],
+      "weight": 12,
+      "pin_cites": [
+        {
+          "page": "316"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/552/0312-01"
+      ]
+    },
+    {
+      "cite": "167 Cal.Rptr.3d 300",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "223 Cal.App.4th 413",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        5758468
+      ],
+      "pin_cites": [
+        {
+          "page": "421-22"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/223/0413-01"
+      ]
+    },
+    {
+      "cite": "21 U.S.C. \u00a7 301",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "52 Stat. 1040",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1738,
+    "char_count": 50761,
+    "ocr_confidence": 0.932,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2571883534522669
+    },
+    "sha256": "11688b655305e276eb32ff2d0696b6f8acf00f65ce207d7641835514401b1b75",
+    "simhash": "1:f8e9d51e670d34ba",
+    "word_count": 7934
+  },
+  "last_updated": "2024-02-27T21:43:19.580264+00:00",
+  "provenance": {
+    "date_added": "2019-05-21",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Humes, P. J., and Banke, J., concurred."
+    ],
+    "parties": [
+      "ASHLEY GLENNEN, Plaintiff and Appellant, v. ALLERGAN, INC., Defendant and Respondent."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nDONDERO, J.\nPlaintiff Ashley Glennen sued defendant Allergan, Inc. (Allergan), alleging she suffered complications after Allergan\u2019s LAP-BAND Adjustable Gastric Banding System (Lap-Band) was surgically implanted in her body. She appeals from the judgment rendered after the trial court sustained Allergan\u2019s demurrer to her second amended complaint (SAC) without leave to amend. She contends the court erred in concluding her claim that Allergan failed to adequately train physicians in the use of the Lap-Band is preempted by federal law. We affirm.\nFACTUAL BACKGROUND AND PROCEDURAL HISTORY\nWe take the factual material from plaintiffs SAC and from matters subject to judicial notice. BioEnterics was a subsidiary of Inamed Corporation, a company that merged with Allergan in 2006. In March 2000, BioEnterics applied for Food and Drug Administration (FDA) premarket approval to manufacture and market the Lap-Band. The Lap-Band \u201cis designed to induce weight loss in severely obese patients by limiting food consumption. The band\u2019s slip-through buckle design eases laparoscopic placement around the stomach, allowing the formation of a small gastric pouch and stoma.\u201d BioEnterics\u2019 application was based on the Lap-Band\u2019s designation as a class III device under the medical device amendments to the Federal Food, Drug, and Cosmetic Act (FDCA). (52 Stat. 1040, as amended, 21 U.S.C. \u00a7 301 et seq.)\nBioEnterics received premarket approval for the Lap-Band on June 5, 2001. In the letter notifying BioEnterics of this approval, the FDA indicated that the Lap-Band\u2019s labeling must \u201cspecify the requirements that apply to the training of practitioners who may use the device as approved in this order . ...\u201d A brochure prepared by BioEnterics provides that surgeons planning laparoscopic placement must, among other things, \u201c[hjave extensive advanced laparoscopic experience ...[;] [\u00b6] [hjave previous experience in treating obese patients and have the staff and commitment to comply with the long-term follow-up requirements of obesity procedures^] [\u00b6] [pjarticipate in a training program for the LAP-BAND System authorized by BioEnterics Corporation or an authorized BioEnterics distributor (this is a requirement for use).\u201d The brochure also states that surgeons were required to be observed by \u201cqualified personnel\u201d during their first band placements, to have the equipment and experience necessary to complete the procedure via laparotomy if required, and to report on their personal experiences using the device. Furthermore, the FDA approval letter obligated the manufacturer to \u201cinclude annual progress reports on the postapproval study that you agreed to conduct to gather long-term safety and effectiveness data on the subject device. You agreed to continue follow-up on subjects enrolled under protocol A and protocol B of your investigative study. These post-approval subjects must be followed for a total of 5 years from the time of implantation.\u201d (Italics added.)\nIn January 2003, plaintiff underwent a surgical procedure to implant a Lap-Band. The Lap-Band eventually eroded into both her stomach and her liver. The erosion into the stomach caused a portion of her stomach to die. Additionally, the tubing attached to the Lap-Band became entangled with her small intestine, resulting in the death of a portion of her small intestine. The erosion into the liver caused the Lap-Band to become firmly adhered to her liver. During surgery to remove the Lap-Band she suffered a massive hemorrhaging from her liver, causing her to experience profound hypotension and systemic shock. As a result, plaintiff suffered brain damage.\nIn September 2012, more than nine years after the procedure, plaintiff filed a complaint alleging several causes of action against Allergan and other defendants.\nIn December 2012, plaintiff filed a first amended complaint.\nOn April 12, 2013, plaintiff filed her SAC, alleging a single cause of action against Allergan for negligence.\nOn July 9, 2013, the trial court granted Allergan\u2019s demurrer to the SAC without leave to amend.\nOn April 14, 2015, judgment after demurrer was entered in favor of Allergan. Notice of entry of judgment was served on May 19, 2015. Plaintiff thereafter filed a timely appeal.\nDISCUSSION\nI. Standard of Review\n\u201c \u2018We apply a de novo standard of review because this case was resolved on demurrer [citation] and because federal preemption presents a pure question of law [citation].\u2019 [Citation.] \u2018In ruling on a demurrer, the \u201callegations [of the complaint] must be liberally construed, with a view to substantial justice between the parties.\u201d \u2019 \u201d (Coleman v. Medtronic, Inc. (2014) 223 Cal.App.4th 413, 421-22 [167 Cal.Rptr.3d 300] (Coleman).)\nII. Federal Regulation of Class III Medical Devices\nA. The Medical Device Amendments of 1976\nThis case, asserting injuries allegedly stemming from an FDA-approved medical device, arises within a complex and highly regulated area of federal law pursuant to which the contours of permissible private enforcement suits are carefully circumscribed. The starting point is the federal Medical Device Amendments of 1976 (MDA), title 21 United States Code section 360c et seq., which imposed a \u201cregime of detailed federal oversight\u201d over the market for medical devices. (Riegel v. Medtronic, Inc. (2008) 552 U.S. 312, 316 [169 L.Ed.2d 892, 128 S.Ct. 999] (Riegel).) Regulation of medical devices, an expansive field encapsulating everything from \u201c \u2018bedpans to brainscans\u2019 \u201d (Medtronic, Inc. v. Lohr (1996) 518 U.S. 470, 476 [135 L.Ed.2d 700, 116 S.Ct. 2240] (Lohr)), had traditionally been left largely to state supervision. However, rapid technological change and highly publicized instances of medical device failure led many to doubt the ability of the \u201ccommon-law tort system to manage the risks associated with dangerous devices.\u201d (Riegel, at p. 315.) In response to this \u201cmounting consumer and regulatory concern\u201d (Lohr, at p. 476), Congress entered the field and enacted the MDA, which \u201cintentionally \u2018swept back some state obligations\u2019 in favor of uniform federal regulation.\u201d (Walker v. Medtronic, Inc. (4th Cir. 2012) 670 F.3d 569, 572, quoting Riegel, at p. 316.)\nThe MDA utilized a two-pronged approach to achieve its purpose. On the one hand, it imposed an intricate regulatory scheme to increase oversight and promote uniformity at the federal level. Correspondingly, as will be discussed below, it eliminated the potential for state enforcement interference by enacting an express preemption clause. (See \u00a7 360k.)\nB. Classification System for Medical Devices\nA key feature of the federal scheme is a graduated classification system designed to tailor the level of FDA oversight to the safety risks posed by a given medical device; the higher the safety risk, the more regulatory requirements apply. (See \u00a7 360c(a)(1).) Class I devices present the lowest safety risk and accordingly are subject only to \u201c \u2018general controls,\u2019 \u201d such as labeling requirements, imposed by the FDCA and the regulations promulgated pursuant to its authority. (Riegel, supra, 552 U.S. at p. 316.) Such devices need not adhere to device-specific regulations because general quality controls, applicable to \u201call finished devices intended for human use\u201d (21 C.F.R. \u00a7 820.1(a) (2016)) are \u201csufficient to provide reasonable assurance of the safety and effectiveness of the device.\u201d (\u00a7 360c(a)(1)(A)(i).)\nThe safety and effectiveness of class II devices cannot be guaranteed by these generally applicable controls, and so these devices require further oversight, including device-specific \u201cspecial controls,\u201d such as the promulgation of performance standards, postmarket surveillance, patient registries, and the dissemination of guidelines. (\u00a7 360c(a)(1)(B).) Where not even such special controls can ensure the device\u2019s safety, and where the device is either useful in supporting or sustaining human life, substantially important in preventing the impairment of human health, or presents an unreasonable risk of illness or injury, the device is given a class III classification. (\u00a7 360c(a)(1)(C).) Because of the risks associated with them, new class III devices are required to go through a premarket approval (PMA) process \u201cto provide reasonable assurance of [their] safety and effectiveness.\u201d {Ibid.)\nC. PMA Process\nPMA is a \u201c \u2018rigorous\u2019 process\u201d (Riegel, supra, 552 U.S. at p. 317), designed to fully vet and secure safety and effectiveness before a new class III device may be introduced to the market. (Lohr, supra, 518 U.S. at p. 477.) The PMA process for new devices is governed by section 360e, as well as regulations promulgated under its authority. Where PMA is required, the device\u2019s proponent must file with the FDA an application providing a wide variety of information: reports of all investigations into the safety and effectiveness of the device, a statement of its components, a full description of the methods used to manufacture and produce the device, device samples, and specimens of proposed labeling. (\u00a7 360e(c)(1).) This application process typically requires a \u201cmultivolume application.\u201d (Riegel, at p. 317.) The FDA review of each submission generally entails an average of 1,200 hours of study before possible approval. (Lohr, at p. 477.) Within 180 days of receipt of such application, the FDA is required to make a decision regarding approval. The FDA will grant PMA only if it finds that there is \u201creasonable assurance\u201d of the device\u2019s safety and effectiveness. (\u00a7 360e(d)(1)(A)(ii); see Riegel, at p. 318.)\nThe FDA has broad authority to condition its approval in a number of ways, including requiring that the device meet formal performance standards (21 C.F.R. \u00a7 861.1(b)(3) (2016)), or any other postapproval requirement \u201cnecessary to provide reasonable assurance, or continued reasonable assurance, of the safety and effectiveness of the device.\u201d (21 C.F.R. \u00a7 814.82(a)(9) (2016).) These postapproval requirements can include restrictions on the sale, distribution, or use of the device, continuing reporting and recordkeeping requirements, and requirements related to labeling and advertising of the restricted device. (21 C.F.R. \u00a7 814.82(a)(1)\u2014(3) (2016).)\nMoreover, the FDCA and its accompanying regulations impose continuing requirements on medical devices and their manufacturers after they receive PMA. These include a general obligation to inform the FDA about the known adverse consequences of the device. The rigorous oversight regime following approval also generally subjects approved medical devices to continuing recording and reporting requirements, including the obligation to inform the FDA of new clinical investigations or scientific studies concerning the device of which the manufacturer knows or reasonably should know, and the obligation to report incidents in which the device may have caused or contributed to death or serious injury, or malfunctioned in a manner that would likely cause or contribute to death or serious injury were it to recur. (\u00a7 360i; 21 C.F.R. \u00a7\u00a7 814.84(b)(2), 803.50(a) (2016); Riegel, 552 U.S. at p. 319.)\nIII. Federal Preemption\nThe supremacy clause provides that the laws of the United States \u201cshall be the supreme Law of the Land; . . . any Thing in the Constitution or Laws of any State to the Contrary notwithstanding.\u201d (U.S. Const., art. VI, cl. 2.) \u201cConsistent with that [clause\u2019s] command, . . . state laws that conflict with federal law are \u2018without effect\u2019 \u201d\u2014they are preempted. (Altria Group, Inc. v. Good (2008) 555 U.S. 70, 76 [172 L.Ed.2d 398, 129 S.Ct. 538], quoting Maryland v. Louisiana (1981) 451 U.S. 725, 746 [68 L.Ed.2d 576, 101 S.Ct. 2114].) Preemption can occur either expressly or impliedly. Express preemption occurs when Congress \u201cdefine[s] explicitly the extent to which its enactments pre-empt state law.\u201d (English v. General Electric Co. (1990) 496 U.S. 72, 78 [110 L.Ed.2d 65, 110 S.Ct. 2270].) Implied preemption occurs (1) when state law \u201cregulates conduct in a field that Congress intended the Federal Government to occupy exclusively,\u201d or (2) when state law \u201cactually conflicts with federal law,\u201d which exists \u201cwhere it is impossible for a private party to comply with both state and federal requirements, [citation], or where state law \u2018stands as an obstacle to the accomplishment and execution of the full purposes and objectives of Congress.\u2019 \u201d (Id. at p. 79.)\nA. Express Preemption\nThe MDA contains an express preemption provision for medical devices, which provides that \u201cno State or political subdivision of a State may establish or continue in effect with respect to a device intended for human use any requirement . . . [\u00b6] (1) which is different from, or in addition to, any requirement applicable under this [Act] to the device, and [\u00b6] (2) which relates to the safety or effectiveness of the device or to any other matter included in a requirement applicable to the device under this [Act].\u201d (\u00a7 360k(a).) Thus, \u201cthe MDA expressly pre-empts only state requirements \u2018different from, or in addition to, any requirement applicable ... to the device\u2019 under federal law.\u201d (Riegel, supra, 552 U.S. at p. 321.)\nIn Riegel, the Supreme Court examined whether the MDA preempted state law claims regarding an allegedly defective medical device. In doing so, the court set forth a two-part test to determine whether the state law claim was preempted. Specifically, the court held that preemption under section 360k(a) applies if (1) the federal government established requirements applicable to the medical device in question, and (2) the state law claims concerning the device are based on requirements that are \u201c \u2018different from, or in addition to\u2019 \u201d the federal requirements, and relate to the safety and effectiveness of the device. (Riegel, supra, 552 U.S. at pp. 321-322.) The first prong is automatically satisfied if the FDA authorizes commercial distribution of a class III medical device following the PMA process. (Id. at pp. 322-323.)\nThe Riegel court also affirmed that court\u2019s earlier holding in Lohr, supra, 518 U.S. 470, that section 360k(a) \u201cdoes not prevent a State from providing a damages remedy for claims premised on a violation of FDA regulations\u201d because \u201cthe state duties in such a case \u2018parallel,\u2019 rather than add to, federal requirements.\u201d (Riegel, supra, 552 U.S. at p. 330.) The Ninth Circuit Court of Appeals has confirmed that \u201c \u2018the MDA does not preempt a state-law claim for violating a state law duty that parallels a federal-law duty under the MDA.\u2019 \u201d (Perez v. Nidek Co. (9th Cir. 2013) 711 F.3d 1109, 1117 (Perez), quoting Stengel v. Medtronic Inc. (9th Cir. 2013) 704 F.3d 1224, 1228 (en banc) (Stengel).) In Wolicki-Gables v. Arrow Internat., Inc. (11th Cir. 2011) 634 F.3d 1296, the Eleventh Circuit explained: \u201c \u2018In order for a state requirement to be parallel to a federal requirement, and thus not expressly preempted under section 360k(a), the plaintiff must show that the requirements are \u201cgenuinely equivalent.\u201d State and federal requirements are not genuinely equivalent if a manufacturer could be held liable under the state law without having violated the federal law.\u2019 \u201d (Id. at p. 1300, quoting McMullen v. Medtronic, Inc. (7th Cir. 2005) 421 F.3d 482, 489.) If state law liability could be found notwithstanding compliance with the federal requirements, those state law duties are not parallel to the federal requirements and will be preempted. (See Riegel, 552 U.S. at p. 328.)\nB. Implied Preemption\nEven if a plaintiff\u2019s claim is not expressly preempted, it will be deemed impliedly preempted if it conflicts with the FDCA\u2019s enforcement scheme. Implied preemption under the MDA bars claims seeking to enforce an exclusively federal requirement that is not grounded in traditional state tort law. Claims not tied to state law tort duties are essentially private actions to enforce the FDCA and are barred by 21 United States Code section 337(a), a provision authorizing the federal government to enforce the MDA. \u201cThe FDA is responsible for investigating potential violations of the FDCA, and the Act provides the agency with a range of enforcement mechanisms, such as injunction proceedings, civil and criminal penalties, and seizure. [Citation.] Although citizens may petition the FDA to take administrative action, [citation], private enforcement of the statute is barred: \u2018all such proceedings for the enforcement, or to restrain violations, of [the Act] shall be by and in the name of the United States.\u2019 \u201d (Perez, supra, 711 F.3d at p. 1119.)\nIn Buckman Co. v. Plaintiffs\u2019 Legal Comm. (2001) 531 U.S. 341, 343 [148 L.Ed.2d 854, 121 S.Ct. 1012] (Buckman), individuals who claimed to have been injured by the implantation of orthopedic bone screws brought state tort claims alleging that the manufacturer\u2019s consultant had made fraudulent representations to the FDA while seeking approval to market the screws. The court concluded claims that a device manufacturer had made fraudulent representations to the FDA were \u201cinherently federal in character\u201d because the relationship between the manufacturer and the FDA \u201coriginates from, is governed by, and terminates according to federal law.\u201d (Buckman, at p. 347.) The court held such \u201cfraud-on-the-FDA\u201d claims were impliedly preempted (id. at p. 348) because they \u201cexist solely by virtue of the FDCA disclosure requirements\u201d (id. at p. 353). Although common law claims for fraud are a traditional feature of state common law, the case at issue did not implicate \u201c \u2018federalism concerns and the historic primacy of state regulation of matters of health and safety.\u2019 \u201d (Id. at p. 348, quoting Lohr, supra, 518 U.S. at p. 485.) The court observed that the consulting company\u2019s \u201cdealings with the FDA were prompted by the MDA, and the very subject matter of [the company\u2019s] statements were dictated by that statute\u2019s provisions.\u201d (Buckman, at pp. 347-348.)\nIV. Application\nA. The Narrow Gap\n\u201cTogether, express preemption and implied preemption identify a \u2018 \u201cnarrow gap\u201d through which a state-law claim must fit to escape preemption.\u2019 [Citation.] \u2018The plaintiff must be suing for conduct that violates the FDCA (or else his claim is expressly preempted by \u00a7 360k(a)), but the plaintiff must not be suing because the conduct violates the FDCA (such a claim would be impliedly preempted under Buckman).\u2019 [Citation.] Thus, to avoid preemption, a plaintiff must assert a state-law claim that is premised on a violation of law, but that is not based solely on such violation.\u201d (Beavers-Gabriel v. Medtronic, Inc. (D.Hawaii 2014) 15 F.Supp.3d 1021, 1032.) Stated another way, \u201c \u2018[i]n order to survive preemption, such claims \u2018\u201cmust be premised on conduct that both (1) violates the FDCA and (2) would give rise to a recovery under state law even in the absence of the FDCA.\u201d \u2019 \u201d (Scanlon v. Medtronic Sofamor Danek USA Inc. (D.Del. 2014) 61 F.Supp.3d 403, 411.)\nB. Whether Plaintiff Has Alleged a Violation of the FDCA\n1. Cases Finding State Law Claims That Parallel Federal Regulations\nApplying this framework, we first consider whether plaintiff\u2019s negligence claim is expressly preempted under the test outlined in Riegel, supra, 552 U.S. 312. Plaintiff asserts her negligence action parallels FDA regulations and is not preempted because it is not \u2018\u201cdifferent from or in addition to\u201d federal requirements. The cases she relies on, however, are readily distinguishable on their facts.\nPlaintiff first cites to Bausch v. Stryker (7th Cir. 2010) 630 F.3d 546 (Bausch). In that case, a plaintiff sued claiming she was injured by a hip replacement manufactured in violation of federal law. (Id. at p. 549.) The court concluded her state law claim for defective manufacture was not expressly preempted by section 360k(a). The court reasoned that section 360k(a) provides immunity for manufacturers of class III medical devices to the extent that these manufacturers comply with federal law, but it does not protect them if they have violated federal law. Thus, if a plaintiff can prove his or her harm was caused by a violation of federal law, the state law claim would not impose on manufacturers any requirement \u201c \u2018different from, or in addition to, any requirement\u2019 \u201d imposed by federal law. (Bausch, at p. 553.) Accordingly, the plaintiff\u2019s manufacturing defect claim in Bausch was not preempted. (Ibid.) In the present case, however, plaintiff does not allege that the Lap-Band contained any manufacturing defects. Instead, she asserts Allergan provided inadequate training to the surgeon who installed her Lap-Band. Thus, Bausch is not on point.\nPlaintiff next cites to Hughes v. Boston Scientific Corp. (5th Cir. 2011) 631 F.3d 762 (Hughes). There, the plaintiff sued after she was injured by a medical device designed to treat excess uterine bleeding. (Id. at pp. 764-765.) The court found her state law claim for failure to warn was not preempted \u2018\u201cto the extent she asserts that [the defendant] violated the state duty to warn by failing to accurately report serious injuries and malfunctions of the [medical] device as required by the FDA\u2019s [medical device reporting] regulations.\u201d (Id. at p. 770.) Specifically, \u2018\u201c[a] factfinder could infer that a manufacturer\u2019s failure to provide this information as required by FDA regulations is a parallel violation of the state duty to provide reasonable and adequate information about a device\u2019s risks.\u201d (Id. at pp. 770-771.) The court concluded such a claim \u201cdoes not impose additional or different requirements to the federal regulations, but is parallel to the federal requirements.\u201d (Hughes, at p. 771.) In the present case, plaintiff is not asserting a state law failure to warn claim arising out of a failure to report serious injuries or malfunctions as required by FDA regulations. Thus, Hughes is distinguishable.\nPlaintiff also cites to Bass v. Stryker Corp. (5th Cir. 2012) 669 F.3d 501, 510 (Bass), another case in which the plaintiff, as in Bausch, alleged a state law manufacturing defect claim regarding a hip replacement that malfunctioned and caused injury. (Id. at p. 505.) The appellate court in Bass concluded the operative complaint sufficiently pleaded parallel claims to the extent that the claims were based upon manufacturing defects resulting from violations of federal regulations. (Id. at p. 510.) Again, no such claim is at issue here.\nFinally, plaintiff relies on Stengel, supra, 704 F.3d 1224. Like Hughes, supra, 631 F.3d 762, Stengel is a failure to warn case. The device at issue in Stengel was a surgically implanted spine pain pump. The manufacturer was allegedly aware of certain risks at that time, but failed to report these risks to the FDA as was required by the MDA. (Stengel, at p. 1227.) Citing Hughes and Bausch, supra, 630 F.3d 546, the court in Stengel concluded the plaintiff\u2019s failure to warn claim rested \u201con a state-law duty that parallels a federal-law duty under the MDA, as in Lohr[, supra, 518 U.S. 470].\u201d (Stengel, at p. 1233.) As such, the claim was not preempted. Again, plaintiff\u2019s complaint regarding the Lap-Band does not allege a failure to warn. Moreover, plaintiff does not cite to any case in which a plaintiff has successfully maintained a state law negligence claim based on a manufacturer\u2019s alleged failure to adequately train physicians in the use of any medical device, let alone a class III device that has undergone the PMA review process.\nPlaintiff does not articulate any facts in the SAC tying Allergan\u2019s alleged negligence to her surgeon\u2019s implantation of the Lap-Band device. Rather than discuss specific features of the Allergan brochure and/or training protocols that were approved in the extensive PMA review by the FDA, the SAC contains a narrative of what her surgeon did incorrectly. However, physician error is not enough to support a claim against a manufacturer for improper training or marketing of an approved class III device. As was noted by one court: \u201cThe only decision that has considered a failure-to-train claim in this context held that claim survived preemption only to the extent the manufacturer failed to provide the training required by the premarket approval process.\u201d (De La Paz v. Bayer HealthCare LLC (N.D.Cal., Feb. 2, 2016, No. C 15-03995 WHA) 2016 U.S.Dist. Lexis 13058, p. *23.) The SAC here does not identify where the training provided by Allergan deviated from what the FDA required.\nIn this regard we are concerned about the realities of the manufacturer/physician distinction. We review below the several cases that have indicated the specific procedures used in the practice of medicine by a professional are not part of the manufacturer regulation process. (See post, pp. 20-21.) The PMA process does not obligate Allergan and like manufacturers to follow their products into the surgery room. As one commentator has observed in this regard: \u201cThe practice of medicine doctrine traces its roots to the concept of federalism, the division of powers between the federal government and the states. Historically, medical practice has been a local matter, largely regulated through state licensure of healthcare professionals. Courts have concluded that Congress recognized and supported this concept in its enactment of the FDCA. ... [\u00b6] ... [\u00b6] The practice of medicine doctrine was articulated explicitly in [the] FDAMA, the most recent amendments to the FDCA. . . . [\u00b6] \u2018Nothing in this Chapter shall be construed to limit or interfere with the authority of a health care practitioner to prescribe or administer any legally marketed device to a patient for any condition or disease within a legitimate health care practitioner-patient relationship.\u2019 \u201d (Smith, Physician Modification of Legally Marketed Medical Devices: Regulatory Implications Under the Federal Food, Drug, and Cosmetic Act (2000) 55 Food & Drug L.J. 245, 251-252, italics added & fns. omitted, quoting 21 U.S.C. \u00a7 396.)\n2. Plaintiff's Claim Does Not Parallel Any Federal Regulation\nIn an apparent effort to align her claim with a violation of federal law, plaintiff\u2019s SAC alleges violations of several federal provisions contained in the FDA\u2019s \u201cQuality System Regulation.\u201d (21 C.F.R. \u00a7 820 et seq. (2016)) Because none of the regulations on which she relies references any requirement to train physicians in the use of a medical device, her allegations fail to state a parallel claim.\nC. Current Good Manufacturing Practice Requirements\nMedical devices in general, including class III devices, are subject to the FDA\u2019s current good manufacturing practice (CGMP) requirements. (\u00a7 360j(f); 21 C.F.R. \u00a7 820 et seq. (2016)). These CGMP requirements, promulgated under the authority of several MDA provisions, are located within the Quality System Regulation, which applies to all medical devices. (See 21 C.F.R. \u00a7 820.1 (2016).) The requirements are applicable to \u201cany finished device as defined in this part, intended for human use.\u201d (21 C.F.R. \u00a7 820.1(a)(2) (2016).) Though not sufficient to ensure the safety and effectiveness of class III devices, CGMP requirements are nonetheless applicable to such devices. (Bausch, supra, 630 F.3d at p. 554.) This remains true, \u201c[ejven after PMA is granted\u201d (Elmore v. Smith & Nephew, Inc. (N.D.Ill., Apr. 19, 2013, No. 12 C 8347) 2013 WL 1707956, p. *1).\nThe stated purpose of the CGMP requirements is to \u201cgovern the methods used in, and the facilities and controls used for, the design, manufacture, packaging, labeling, storage, installation, and servicing of all finished devices intended for human use.\u201d (21 C.F.R. \u00a7 820.1(a)(1) (2016).) To comply with CGMP requirements, a device manufacturer must adopt a variety of procedures and controls relating to areas such as (1) design control, (2) quality assurance, (3) manufacturing and processing, (4) process validation, (5) device inspection, and (6) corrective and preventive action. (21 C.F.R. \u00a7\u00a7 820.1-820.250 (2016).)\nCourts \u201care not in complete agreement as to what constitutes a sufficient pleading with regard to a CGMP.\u201d (Bass, supra, 669 F.3d 501, 511-512, and cases cited.) Some cases hold that CGMPs cannot be used as a basis for state law parallel claims: \u201cIt has been recognized that these standards \u2018are intended to serve only as \u201can umbrella quality system\u201d providing \u201cgeneral objectives\u201d medical device manufacturers must seek to achieve.\u2019 [Citations.] These regulations are purposefully broad so as to apply to a broad range of medical devices. The regulations are to be tailored by each manufacturer of a device to apply to their particular safety and efficacy needs. [Citation.] The intentionally vague and open-ended nature of the regulations relied upon is the precise reason why they cannot serve as the basis for a parallel claim. Since these regulations are open to a particular manufacturer\u2019s interpretation, allowing them to serve as a basis for a claim would lead to differing safety requirements that might emanate from various lawsuits. This would necessarily result in the imposition of standards that are \u2018different from, or in addition to\u2019 those imposed by the MDA\u2014precisely the result that the MDA preemption provision seeks to prevent. [Citations.] Accordingly, where, as here, a plaintiff relies on nothing more than CGMP\u2019s in support of a parallel cause of action, preemption bars the claim.\u201d (Ilarraza v. Medtronic, Inc. (E.D.N.Y. 2009) 677 F.Supp.2d 582, 588.)\nOther courts appear to agree that CGMPs constitute generally applicable federal \u2018\u201crequirements.\u201d For example, the court in Bausch, supra, 630 F.3d 546 stated: \u2018\u201cSection 360k makes preemption a defense if a state seeks to impose on a manufacturer \u2018any requirement\u2014(1) which is different from, or in addition to, any requirement applicable under this chapter to the device, and (2) which relates to the safety or effectiveness of the device or to any other matter included in a requirement applicable to the device under this chapter.\u2019 [Quoting \u00a7 360k(a).] We emphasize the phrase \u2018any requirement.\u2019 And federal law is clear: for manufacturers of Class III medical devices, the Quality System Regulations and Current Good Manufacturing Practices adopted by the FDA under its delegated regulatory authority are legally binding requirements \u2018under this chapter.\u2019 [Citation.] \u2018The failure to comply with any applicable provision in this part [of the regulations] renders a device adulterated .... Such a device, as well as any person responsible for the failure to comply, is subject to regulatory action.\u2019 \u201d (Bausch, at p. 555.)\nD. CGMPs Do Not Apply to Physician Training Programs\nAssuming CGMPs can form the basis of a \u2018\u201cparallel\u201d claim, we note that while 21 Code of Federal Regulations part 820.1(a)(1) (2016) indicates that CGMPs have broad application, the regulations themselves operate in the context of product manufacturing: \u2018\u201cCurrent good manufacturing practice . . . requirements are set forth in this quality system regulation. The requirements in this part govern the methods used in, and the facilities and controls used for, the design, manufacture, packaging, labeling, storage, installation,[] and servicing of all finished devices intended for human use. The requirements in this part are intended to ensure that finished devices will be safe and effective and otherwise in compliance with the [FDCA].\u201d (Italics added; see also Deka Internat. S.A. v. Genzyme Corp. (1st Cir. 2014) 754 F.3d 31, 35 [\u2018\u201cThe FDA routinely conducts inspections to determine if facilities are complying with Current Good Manufacturing Practices . . . standards for biologies manufacturers.\u201d (italics added)].)\nIn her SAC, plaintiff alleges Allergan \u2018\u201cfailed to adopt and implement current good manufacturing practices,\u201d including failing \u2018\u201cto adopt and implement a quality policy as required by 21 C.F.R. [part] 820.20(a) and a quality system as required by 21 C.F.R. [part] 820.5 that were adequate and appropriate for the training of surgeons in implanting Lap-Bands in compliance with the conditions imposed by the FDA in granting pre-market approval for the Lap-Band.\u201d She also asserts Allergan violated 21 Code of Federal Regulations part 820.20(b)(2) (2016) by failing \u201cto devote adequate resources to its Lap-Band surgeon training program to ensure that surgeons who completed the program were skilled in the implantation of Lap-Bands.\u201d She further claims Allergan violated 21 Code of Federal Regulations part 820.22 (2016) by failing to conduct adequate and appropriate quality audits \u201cto assure that its quality system for its Lap-Band training program was in compliance with its established quality system requirements and to determine the effectiveness of its quality system.\u201d While these regulations could potentially support a negligence claim based on a design or manufacturing defect, we see nothing in the language of these four provisions to suggest that they are intended to address the quality of a manufacturer\u2019s physician training program.\nTitle 21 Code of Federal Regulations part 820.5 (2016) provides: \u201cEach manufacturer shall establish and maintain a quality system that is appropriate for the specific medical device(s) designed or manufactured, and that meets the requirements of this part.\u201d (Italics added.) Title 21 Code of Federal Regulations part 820.20 (2016), by its terms, pertains to \u201c[m]anagement responsibility.\u201d Part 820.20(a) states: \u201cManagement with executive responsibility shall establish its policy and objectives for, and commitment to, quality.[] Management with executive responsibility shall ensure that the quality policy is understood, implemented, and maintained at all levels of the organization.\u201d Part 820.20(b)(2) (2016) does contain a reference to training; however, it pertains to the training of a manufacturer\u2019s own personnel. It states that manufacturers \u201cshall provide adequate resources, including the assignment of trained personnel, for management, performance of work, and assessment activities, including internal quality audits, to meet the requirements of this part.\u201d (Italics added.)\nFinally, 21 Code of Federal Regulations part 820.22 (2016) provides, in part: \u201cEach manufacturer shall establish procedures for quality audits and conduct such audits to assure that the quality system is in compliance with the established quality system requirements and to determine the effectiveness of the quality system.\u201d \u2018\u201cQuality audit\u201d is defined as: \u2018\u201ca systematic, independent examination of a manufacturer\u2019s quality system that is performed at defined intervals and at sufficient frequency to determine whether both quality system activities and the results of such activities comply with quality system procedures, that these procedures are implemented effectively, and that these procedures are suitable to achieve quality system objectives.\u201d (21 C.F.R. \u00a7 820.3(f) (2016).) Whatever else this regulatory language may mean, nothing suggests that it pertains to training programs for surgeons who implant medical devices.\nCase law supports our conclusion that CGMPs apply to the manufacturing process only. In Bass, the Fifth Circuit held the plaintiff could state a claim based on violation of the CGMPs. In that case, part of a hip replacement had allegedly failed to attach correctly due to impurities in the manufacturing process. The plaintiff asserted the defendant manufacturer had violated the manufacturing or sterilization procedures that it had adopted to fulfill the CGMPs. In that case, the court noted the FDA itself had found the defendant in violation of the CGMPs, suggesting that the federal regulations \u2018\u201care not so vague that they \u2018[do] not spell out standards that the court could enforce.\u2019 \u201d (Bass, supra, 669 F.3d at p. 513.) The court held the plaintiff\u2019s reliance, in part, on the CGMPs did \u2018\u201cnot preclude him from having effectively alleged a parallel claim.\u201d (Ibid.) Again, the present case does not concern a defect occurring during the manufacturing process of the Lap-Band. Plaintiff\u2019s reliance on the CGMPs is therefore inapposite.\nThat the language of the CGMPs does not suggest the existence of any physician training protocols is not surprising. As the court in Buckman observed, \u2018\u201cthe FDCA expressly disclaims any intent to directly regulate the practice of medicine . . . .\u201d (Buckman, supra, 531 U.S. at pp. 350-351, italics added.) We also observe imposing performance standards on the training of physicians in the use of a class III device would tend to increase the burden facing potential applicants. Plaintiff effectively seeks to write in a new provision to the FDCA, namely, that medical device companies who are required to provide training to physicians as a condition of PMA must ensure such training is designed to satisfy the standard of care applicable to medical malpractice actions. We do not pass judgment on whether this would be a wise rule for the FDA to adopt. It is sufficient for our inquiry that it has not done so. Just as significant, the alleged inadequate training \u201crelates to the safety or effectiveness\u201d of the Lap-Band. (\u00a7 360k(a)(2).) In Riegel, the court explained that PMA \u201cis federal safety review.\u201d (Riegel, supra, 552 U.S. at p. 323.) It would therefore appear that in granting PMA for the Lap-Band, the FDA concluded Allergan had the ability to provide training such as to render the Lap-Band safe and effective without the need for any further federal oversight of that training.\nStated differently, if Allergan\u2019s training is inadequate, the matter is best addressed under the FDA\u2019s jurisdiction. We find support for this observation in Gomez v. St. Jude Medical Daig Division Inc. (5th Cir. 2006) 442 F.3d 919 (Gomez). In Gomez, the Fifth Circuit Court of Appeals observed: \u201cThe FDA approved [the defendant\u2019s] warnings and instructions for physicians contained in the Instructions for Use . . . through the PMA process. That process required the FDA to approve clinical studies and evaluate the results, to specify the labeling requirements, and approve the label that issued. . . . [The defendant\u2019s] training requirements were also subjected to, and approved in, the PMA process. To permit a jury to decide [the plaintiff\u2019s] claims that the information, warnings, and training material the FDA required and approved through the PMA process were inadequate under state law would displace the FDA\u2019s exclusive role and expertise in this area and risk imposing inconsistent obligations on [the defendant]. The district judge correctly found that [the plaintiff\u2019s] state-law claims that [the defendant\u2019s] labeling, warning, information, and training were inadequate or incomplete are preempted.\u201d (Id. at p. 931.) In sum, we conclude plaintiff\u2019s claim that Allergan failed to provide adequate training to physicians with respect to the implantation of Lap-Bands is expressly preempted under the FDCA because the claim does not parallel federal requirements.\nE. Implied Preemption\nEven if plaintiff\u2019s allegations reflect actual violations of federal law, we conclude her claim is subject to implied preemption. Plaintiff seeks to distinguish Buckman, supra, 531 U.S. 341, arguing that this case does not apply because she has not made any allegations of fraud on the FDA. We do not read Buckman as being strictly limited to its facts. (See, e.g., Gavin v. Medtronic, Inc. (E.D.La., July 19, 2013, No. 12-0851) 2013 WL 3791612, p. *17 [applying Buckman to a claim that the manufacturer promoted off-label use].) The rationale of Buckman is based on well-settled conflict preemption principles: \u201cIn sum, were plaintiffs to maintain their fraud-on-the-agency claims here, they would not be relying on traditional state tort law which had predated the federal enactments in question. On the contrary, the existence of these federal enactments is a critical element in their case. For the reasons stated above, we think this sort of litigation would exert an extraneous pull on the scheme established by Congress, and it is therefore pre-empted by that scheme.\u201d (Buckman, at p. 353.)\nSignificantly, at least one California court has observed there is no state law duty that requires a medical device manufacturer to offer a physician training program. In Scott v. C. R. Bard, Inc. (2014) 231 Cal.App.4th 763 [180 Cal.Rptr.3d 479] (Scott), the defendant was the manufacturer of polypropylene mesh kits used to treat women with pelvic organ prolapse. Unlike the present case, the FDA did not require the defendant to offer training and the device was not subject to premarket review. However, as part of its marketing program, the defendant voluntarily offered training to physicians using the device. (Id. at pp. 768-769.) The plaintiff\u2019s surgeon received this training before operating on the plaintiff. The plaintiff sued the defendant for negligence when she suffered serious complications after the device was surgically implanted in her. The jury was instructed on the theory of negligent undertaking, and found the defendant liable for negligence. (Id. at pp. 774-776, 777.) Within its opinion, the appellate court found the following jury instruction was a correct statement of law: \u201c \u2018The manufacturer of a prescription medical device has no duty to train a physician in using its medical device. However, if a manufacturer undertakes to train physicians and fails to exercise reasonable care in that undertaking, it may be held liable for harm caused to third parties as a result of its negligent undertaking.\u2019 \u201d (Scott, at p. 774, italics added.)\nIn the present case, it is undisputed that Allergan did not voluntarily undertake to train physicians in the use of the Lap-Band. Instead, the FDA mandated this physician training as a condition of its approval for the Lap-Band. Thus, the training program at issue arose solely out of requirements imposed by the FDA. Under this set of facts, plaintiff cannot allege a state law claim for negligent undertaking. To the contrary, plaintiff\u2019s claim for failure to adequately train physicians \u201dexist[s] solely by virtue of the FDCA . . . requirements\u201d (Buckman, supra, 531 U.S. at p. 353) as set forth in the Lap-Band\u2019s PMA. Thus, the claim does not exist independently of the FDCA, and, like the claims in Buckman, is impliedly preempted.\nWe find further support for our conclusion in a federal district court case applying Maryland law. Like the Lap-Band, the device at issue in Williams v. Smith & Nephew, Inc. (D.Md. 2015) 123 F.Supp.3d 733 (\u2018\u201ca \u2018metal-on-metal hip resurfacing prosthesis\u2019 \u201d) received PMA approval conditioned on, among other things, the provision of \u201ca training program for doctors using the BHR System.\u201d (Id. at p. 737.) The district court found the plaintiffs\u2019 negligence claim for failure to implement an adequate training program was impliedly preempted: \u2018\u201c[Plaintiffs] do not suggest that Maryland law . . . independently provides a remedy for the failure to \u2018conduct a study on the learning curve and training program of doctors in the United States Without a freestanding basis in state law, such claims are impliedly preempted.\u201d (Williams v. Smith & Nephew, Inc., at p. 747.)\nMore broadly, cases have held that medical device manufacturers are not responsible for the practice of medicine. In Sons v. Medtronic Inc. (W.D.La. 2013) 915 F.Supp.2d 776 (Sons), the plaintiff alleged that the defendant \u201c \u2018fail[ed] to properly train, supervise, and/or equip the doctors and/or surgical techs responsible for emplacement of their product,\u2019 \u2018fail[ed] to ensure that the pacemaker was properly installed,\u2019 \u2018fail[ed] to provide a representative of [the defendant] at Plaintiff\u2019s surgery,\u2019 and \u2018fail[ed] to provide a representative of [the defendant] to educate the physician implanting the [defendant\u2019s device].\u2019 \u201d (Id. at p. 783.) The district court noted that even if the claim was not expressly preempted under Riegel, supra, 552 U.S. 312, the plaintiff had failed to state a cognizable claim: \u2018\u201cIt is well established that a medical device manufacturer is not responsible for the practice of medicine.\u201d (Sons, at p. 783.) The district court relied on Swayze v. McNeil Laboratories, Inc. (5th Cir. 1987) 807 F.2d 464, 468, a case in which the appellate court had refused \u2018\u201cto impose on a manufacturer a \u2018duty to intrude into the hospital operation as well as the doctor-patient relationship.\u2019 \u201d (Sons, at p. 783.) The Sons court further explained: \u2018\u201cIn affirming the trial court\u2019s grant of directed verdict in favor of a drug manufacturer on plaintiff\u2019s negligence claims, the [Swayze] court stated, \u2018[i]t is both impractical and unrealistic to expect drug manufacturers to police individual operating rooms to determine which doctors adequately supervise their surgical teams . . . \u2019 \u201d (Ibid., citing Hall v. Horn Medical, LLC (E.D.La., May 16, 2012, No. 11-1032) 2012 WL 1752546, p. *3 [finding it \u2018patently unreasonable\u2019 \u201d for a \u201c \u2018seasoned neurosurgeon ... to rely on a sales representative\u2019s opinion about the type of procedure that should be employed in operating on a patient\u2019s spine\u2019 \u201d].)\nThe record here does not reflect whether the FDA evaluated the adequacy of Allergan\u2019s Lap-Band training program during the PMA process. To the extent it did not, this was a decision the FDA made at the time it approved the Lap-Band for use. Plaintiff\u2019s allegations that the training (which was concededly provided in this case) was inadequate, goes beyond whatever the FDA did do, or chose not to do, in approving the product. Because her allegations would \u2018\u201cdisplace the FDA\u2019s exclusive role and expertise in this area\u201d (Gomez, supra, 442 F.3d at p. 931), her claim is impliedly preempted.\nIn sum, but for the FDA\u2019s requirement in the Lap-Band\u2019s PMA that Allergan provide training to physicians implanting the device, plaintiff would have no basis on which to allege the facts underlying her present cause of action for negligence. Thus, her claim is impliedly preempted under Buckman, supra, 531 U.S. 341.\nDISPOSITION\nThe judgment is affirmed.\nHumes, P. J., and Banke, J., concurred.\nPlaintiff also sued two doctors and a surgical center. These defendants have since been dismissed and are no longer parties to this lawsuit.\nThe complete brochure drafted by the manufacturer and referenced by the FDA in its approval letter is included in this record.\nThe SAC does not indicate when this surgery occurred.\nUndesignated section 360 et seq. numbers hereinafter refer to sections of title 21 of the United States Code.\nIn Stengel, the court \u201cclarified preemption law under the MDA.\u201d (Stengel, supra. 704 F.3d at p. 1233.) There, the plaintiffs\u2019 proposed negligence claim for failure to warn the FDA about certain risks associated with a device was found not to be preempted \u201cinsofar as the state-law duty parallels a federal-law duty under the MDA.\u201d (Ibid.) In a concurring opinion joined by six other judges. Judge Watford explained that had the plaintiffs predicated their' claim on a failure to warn doctors directly\u2014an action not required by FDA regulations\u2014that claim would have been preempted because it would have been an addition to the federal requirement. (Stengel, at p. 1234 (cone. opn. of Watford, J.).)\nTitle 21 United States Code section 337(a) provides, in part: \u201c[A]ll such proceedings for the enforcement, or to restrain violations, of this [Act] [21 USCS \u00a7\u00a7 301 et seq.] shall be by and in the name of the United States. . .\nThe appellate court also found the plaintiff s failure to warn claim was not impliedly preempted under Buckman, supra, 531 U.S. 341, because it was not analogous to the \u201c \u2018fraud-on-the-FDA\u2019 theory that was at issue in Buckman. (Hughes, supra, 631 F.3d at pp. 775-776.)\nPlaintiff also relies on two federal district court cases, and on Coleman. Eidson v. Medtronic. Inc. (N.D.Cal. 2014) 40 F.Supp.3d 1202, 1223 concerned allegations of fraud, negligent misrepresentation, strict liability failure to warn, negligent failure to warn and loss of consortium. Hawkins v. Medtronic. Inc. (E.D.Cal. 2014) 62 F.Supp.3d 1144, 1147 concerned claims for fraud, failure to warn, misrepresentation, and negligence. Coleman involved claims for failure to warn, negligence, and manufacturing defect. (Coleman, supra, 223 Cal.App.4th at p. 421.) None of these cases involved a failure to adequately train physicians in the use of the allegedly faulty device.\nPlaintiff does not contend \u201cinstallation\u201d equates with the surgical implantation of a device in a human body.\nTitle 21 Code of Federal Regulations paid 820.3(v) (2016) defines \u201cquality system\u201d as \u201cthe organizational structure, responsibilities, procedures, processes, and resources for implementing quality management.\u201d\nTitle 21 Code of Federal Regulations paid 820.3(s) (2016) defines \u201cquality\u201d as \u201cthe totality of features and characteristics that bear on the ability of a device to satisfy fitness-for-use, including safety and performance.\u201d (Italics added.)\nTitle 21 Code of Federal Regulations part 820.3(u) (2016) defines \u201cquality policy\u201d as \u201cthe overall intentions and direction of an organization with respect to quality, as established by management with executive responsibility.\u201d\nIn the SAC, plaintiff also alleges the Lap-Band implanted in her violated section 502(q) of the MDA, title 21 United States Code section 352(q), which governs the FDA\u2019s authority to regulate restricted device advertising. Under section 502(q), a restricted device is misbranded if its advertising is false or misleading in any particular. She does not cite to any case allowing a private cause of action under this section and our research has not located any such case.\nIn her reply brief, plaintiff cites section 360j(e)(1), which provides, in paid, that the FDA \u201cmay restrict the use of a device to persons with specific training or experience in its use . . . unless the Secretary determines that such a restriction is required for the safe and effective use of the device.\u201d She asserts this statute operates to apply the quality system regulation to physician training requirements. We disagree. The section merely allows the FDA to impose device-specific restrictions by regulation. (See Riegel, supra, 552 U.S. at p. 319.) It does not reference any standards for the \u201cspecific training\u201d that persons using a restricted device must possess.\nThe com! stated the principle as follows: \u201cIn general, there is no duty to take affirmative action to assist or protect another.\u201d (Scott, supra, 231 Cal.App.4th at p. 775.)",
+        "type": "majority",
+        "author": "DONDERO, J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Casey, Gerry, Schenk, Francavilla, Blah & Penfield, Jeremy Robinson, Wendy M. Behan; Law Office of Mitchel J. Olson and Mitchel J. Olson for Plaintiff and Appellant.",
+      "King and Spalding, Ethan P. Davis, Jeffrey S. Bucholtz; Norton Rose Fulbright US, Lesley Swanson and Jan Dodd for Defendant and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. A145367.\nFirst Dist., Div. One.\nApr. 29, 2016.]\nASHLEY GLENNEN, Plaintiff and Appellant, v. ALLERGAN, INC., Defendant and Respondent.\nCounsel\nCasey, Gerry, Schenk, Francavilla, Blah & Penfield, Jeremy Robinson, Wendy M. Behan; Law Office of Mitchel J. Olson and Mitchel J. Olson for Plaintiff and Appellant.\nKing and Spalding, Ethan P. Davis, Jeffrey S. Bucholtz; Norton Rose Fulbright US, Lesley Swanson and Jan Dodd for Defendant and Respondent."
+  },
+  "file_name": "0001-01",
+  "first_page_order": 22,
+  "last_page_order": 43
+}

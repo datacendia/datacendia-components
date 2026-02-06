@@ -1,0 +1,61 @@
+{
+  "id": 12427640,
+  "name": "Horne v. United States",
+  "name_abbreviation": "Horne v. United States",
+  "decision_date": "2012-12-10",
+  "docket_number": "No. 12-7068",
+  "first_page": "1076",
+  "last_page": "1076",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1076"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 150,
+    "ocr_confidence": 0.705,
+    "sha256": "6cea18299e3dabe053d432baa6250730467f31c26b50fb21a4b4399ddf9d838f",
+    "simhash": "1:8be3da8ac7a4dbd8",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Horne v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Cer-tiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7068.\nHorne v. United States."
+  },
+  "file_name": "1076-08",
+  "first_page_order": 1152,
+  "last_page_order": 1152
+}

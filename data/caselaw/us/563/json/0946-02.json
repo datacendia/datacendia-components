@@ -1,0 +1,59 @@
+{
+  "id": 4223232,
+  "name": "Perez v. Holder, Attorney General",
+  "name_abbreviation": "Perez v. Holder",
+  "decision_date": "2011-04-18",
+  "docket_number": "No. 10-9134",
+  "first_page": "946",
+  "last_page": "946",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 946"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 81,
+    "ocr_confidence": 0.571,
+    "sha256": "1528a0308d294db90f380d6796d8c6b1f30ddc66e7d8de889c5ea4b0a9f70d2b",
+    "simhash": "1:42086eb8c835b42e",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Perez v. Holder, Attorney General."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9134.\nPerez v. Holder, Attorney General."
+  },
+  "file_name": "0946-02",
+  "first_page_order": 972,
+  "last_page_order": 972
+}

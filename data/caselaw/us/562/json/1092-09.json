@@ -1,0 +1,59 @@
+{
+  "id": 5908732,
+  "name": "Barrington v. United States",
+  "name_abbreviation": "Barrington v. United States",
+  "decision_date": "2010-12-06",
+  "docket_number": "No. 10-5482",
+  "first_page": "1092",
+  "last_page": "1092",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1092"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.609,
+    "sha256": "41f290160908c148e1cc9fac507f09d2089bc5802ac458082344cca1a18225c5",
+    "simhash": "1:35cacad16e8d315c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Barrington v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5482.\nBarrington v. United States."
+  },
+  "file_name": "1092-09",
+  "first_page_order": 1114,
+  "last_page_order": 1114
+}

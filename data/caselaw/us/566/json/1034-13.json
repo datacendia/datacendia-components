@@ -1,0 +1,59 @@
+{
+  "id": 12224763,
+  "name": "Flint v. Simpson, Judge, United States District Court for the Western District of Kentucky",
+  "name_abbreviation": "Flint v. Simpson",
+  "decision_date": "2012-06-04",
+  "docket_number": "No. 11-1222",
+  "first_page": "1034",
+  "last_page": "1034",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 1034"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 21,
+    "char_count": 139,
+    "ocr_confidence": 0.499,
+    "sha256": "a68820764bb52b5d9f843080652c9fb9a6385fb575c54c65b23189463121239d",
+    "simhash": "1:d43832e0aee3d032",
+    "word_count": 22
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Flint v. Simpson, Judge, United States District Court for the Western District of Kentucky."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1222.\nFlint v. Simpson, Judge, United States District Court for the Western District of Kentucky."
+  },
+  "file_name": "1034-13",
+  "first_page_order": 910,
+  "last_page_order": 910
+}

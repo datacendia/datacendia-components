@@ -1,0 +1,65 @@
+{
+  "id": 6011272,
+  "name": "Tibbetts v. Dittes et al.",
+  "name_abbreviation": "Tibbetts v. Dittes",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-565",
+  "first_page": "1254",
+  "last_page": "1254",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1254"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 25,
+    "char_count": 167,
+    "ocr_confidence": 0.62,
+    "pagerank": {
+      "raw": 5.661099505190075e-07,
+      "percentile": 0.9461707292192043
+    },
+    "sha256": "6944c0f8e59ac86d2670583d46009e66b9108e9ad908f3539eb116fbaf60df14",
+    "simhash": "1:1d3028c0714af24a",
+    "word_count": 27
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Sotomayor took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Tibbetts v. Dittes et al.,"
+    ],
+    "opinions": [
+      {
+        "text": "ante, p. 1124. Petition for rehearing denied.\nJustice Sotomayor took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-565.\nTibbetts v. Dittes et al.,"
+  },
+  "file_name": "1254-01",
+  "first_page_order": 1276,
+  "last_page_order": 1276
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12421366,
+  "name": "Boskovic v. United States",
+  "name_abbreviation": "Boskovic v. United States",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 12-6445",
+  "first_page": "992",
+  "last_page": "992",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 992"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.673,
+    "sha256": "ff86d67fa1414aa4e095b16e03e3407bcec8d445da3e05b06bb84ab828ea686c",
+    "simhash": "1:55a3862b0f85615e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Boskovic v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6445.\nBoskovic v. United States."
+  },
+  "file_name": "0992-15",
+  "first_page_order": 1068,
+  "last_page_order": 1068
+}

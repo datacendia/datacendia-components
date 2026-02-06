@@ -1,0 +1,59 @@
+{
+  "id": 12429007,
+  "name": "Cosmo v. United States",
+  "name_abbreviation": "Cosmo v. United States",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-7567",
+  "first_page": "1113",
+  "last_page": "1113",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1113"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.577,
+    "sha256": "a8dcf6f3d6a64e7b5a2b963d689521d2f7c70ca0d8b72258eac291fd959869fb",
+    "simhash": "1:214a138b1a1d1e00",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cosmo v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7567.\nCosmo v. United States."
+  },
+  "file_name": "1113-15",
+  "first_page_order": 1189,
+  "last_page_order": 1189
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5953424,
+  "name": "Tapia v. United States",
+  "name_abbreviation": "Tapia v. United States",
+  "decision_date": "2010-12-10",
+  "docket_number": "No. 10-5400",
+  "first_page": "1104",
+  "last_page": "1104",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1104"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 21,
+    "char_count": 140,
+    "ocr_confidence": 0.578,
+    "sha256": "c8aac18991c3e265ac6ecabf39169692c31bc29f7e00ad0cbc4241b0cbf4fda1",
+    "simhash": "1:65a5f50745952f5c",
+    "word_count": 22
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Tapia v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Motion of petitioner for leave to proceed informa pauperis granted. Certiorari granted.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5400.\nTapia v. United States."
+  },
+  "file_name": "1104-07",
+  "first_page_order": 1126,
+  "last_page_order": 1126
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12231011,
+  "name": "Junier v. Conrad et al.",
+  "name_abbreviation": "Junier v. Conrad",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. 11-6109",
+  "first_page": "984",
+  "last_page": "984",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 984"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.68,
+    "sha256": "fdb603bc110a865a73a49cc27e05c4fd3ce1af09a086471a31538d81063f6acf",
+    "simhash": "1:802a36ccec684146",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Junier v. Conrad et al."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Mass. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6109.\nJunier v. Conrad et al."
+  },
+  "file_name": "0984-13",
+  "first_page_order": 1066,
+  "last_page_order": 1066
+}

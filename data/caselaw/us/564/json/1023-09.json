@@ -1,0 +1,59 @@
+{
+  "id": 4332675,
+  "name": "Isom v. Arkansas (two judgments)",
+  "name_abbreviation": "Isom v. Arkansas",
+  "decision_date": "2011-06-20",
+  "docket_number": "No. 10-10018",
+  "first_page": "1023",
+  "last_page": "1023",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1023"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 81,
+    "ocr_confidence": 0.604,
+    "sha256": "08fb39247d55b962932225dea5dafedd2dfa3a7b6713cf4f606679b8a49edaa8",
+    "simhash": "1:ff901eee24200e5e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Isom v. Arkansas (two judgments)."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ark. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10018.\nIsom v. Arkansas (two judgments)."
+  },
+  "file_name": "1023-09",
+  "first_page_order": 1017,
+  "last_page_order": 1017
+}

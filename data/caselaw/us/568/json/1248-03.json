@@ -1,0 +1,59 @@
+{
+  "id": 12433808,
+  "name": "Fifth Third Bancorp. et al. v. Dudenhoeffer et al.",
+  "name_abbreviation": "Fifth Third Bancorp. v. Dudenhoeffer",
+  "decision_date": "2013-03-25",
+  "docket_number": "No. 12-751",
+  "first_page": "1248",
+  "last_page": "1248",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1248"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 29,
+    "char_count": 183,
+    "ocr_confidence": 0.617,
+    "sha256": "f5961bb6e77c3b4cf0c7624ff392b4775220b694cf1db64bce3a85766235e3fd",
+    "simhash": "1:3a581eec6b7ea570",
+    "word_count": 34
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Fifth Third Bancorp. et al. v. Dudenhoeffer et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. The Solicitor General is invited to file a brief in this case expressing the views of the United States.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-751.\nFifth Third Bancorp. et al. v. Dudenhoeffer et al."
+  },
+  "file_name": "1248-03",
+  "first_page_order": 1324,
+  "last_page_order": 1324
+}

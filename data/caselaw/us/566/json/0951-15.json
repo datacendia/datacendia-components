@@ -1,0 +1,59 @@
+{
+  "id": 12207678,
+  "name": "Francis v. United States",
+  "name_abbreviation": "Francis v. United States",
+  "decision_date": "2012-04-16",
+  "docket_number": "No. 11-9207",
+  "first_page": "951",
+  "last_page": "951",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 951"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.588,
+    "sha256": "4250f37b078c3cc1164ba00284ed939c70a07e6eb2abbb84f2240bf44c23a2f7",
+    "simhash": "1:a7bbc7b705351c4c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Francis v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9207.\nFrancis v. United States."
+  },
+  "file_name": "0951-15",
+  "first_page_order": 827,
+  "last_page_order": 827
+}

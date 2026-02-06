@@ -1,0 +1,59 @@
+{
+  "id": 12410296,
+  "name": "Koufos v. United States",
+  "name_abbreviation": "Koufos v. United States",
+  "decision_date": "2012-06-18",
+  "docket_number": "No. 11-10387",
+  "first_page": "922",
+  "last_page": "922",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 922"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.712,
+    "sha256": "8b4a00ca6251dcdebb63c54802e355fc00a79e2657837660e6c7dd1c82ed7e88",
+    "simhash": "1:8689d329efa7133c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Koufos v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10387.\nKoufos v. United States."
+  },
+  "file_name": "0922-15",
+  "first_page_order": 826,
+  "last_page_order": 826
+}

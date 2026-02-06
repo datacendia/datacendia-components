@@ -1,0 +1,59 @@
+{
+  "id": 12415545,
+  "name": "Abel v. California",
+  "name_abbreviation": "Abel v. California",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5232",
+  "first_page": "902",
+  "last_page": "902",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 902"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 66,
+    "ocr_confidence": 0.626,
+    "sha256": "4a167a38d4ca5701e42dcdcac280603b4940012cf8d7dfcc50ad87a55174ac6a",
+    "simhash": "1:cc4b19b68f7a454e",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Abel v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Cal. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5232.\nAbel v. California."
+  },
+  "file_name": "0902-04",
+  "first_page_order": 978,
+  "last_page_order": 978
+}

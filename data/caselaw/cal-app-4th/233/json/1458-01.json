@@ -1,0 +1,772 @@
+{
+  "id": 4219804,
+  "name": "THE PEOPLE, Plaintiff and Respondent, v. ROMIER SIMMONS et al., Defendants and Appellants",
+  "name_abbreviation": "People v. Simmons",
+  "decision_date": "2015-02-05",
+  "docket_number": "No. A135668",
+  "first_page": "1458",
+  "last_page": "1479",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "233 Cal. App. 4th 1458"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "140 P.3d 866",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.Rptr.3d 575",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "39 Cal.4th 1141",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3582768
+      ],
+      "pin_cites": [
+        {
+          "page": "1153"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/39/1141-01"
+      ]
+    },
+    {
+      "cite": "125 P.3d 290",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "37 Cal.Rptr.3d 354",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "37 Cal.4th 759",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3772043
+      ],
+      "pin_cites": [
+        {
+          "page": "767"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/37/0759-01"
+      ]
+    },
+    {
+      "cite": "952 P.2d 673",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "72 Cal.Rptr.2d 656",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "17 Cal.4th 800",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1550671
+      ],
+      "pin_cites": [
+        {
+          "page": "847"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/17/0800-01"
+      ]
+    },
+    {
+      "cite": "83 P.3d 480",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "9 Cal.Rptr.3d 76",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "32 Cal.4th 236",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        801065
+      ],
+      "pin_cites": [
+        {
+          "page": "239, 259"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/32/0236-01"
+      ]
+    },
+    {
+      "cite": "64 Cal.Rptr.3d 605",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "154 Cal.App.4th 368",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3615199
+      ],
+      "pin_cites": [
+        {
+          "page": "371"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/154/0368-01"
+      ]
+    },
+    {
+      "cite": "92 Cal.Rptr. 907",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "15 Cal.App.3d 66",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4416854
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/15/0066-01"
+      ]
+    },
+    {
+      "cite": "25 Cal.Rptr.3d 459",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "127 Cal.App.4th 290",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        18420
+      ],
+      "pin_cites": [
+        {
+          "page": "299"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/127/0290-01"
+      ]
+    },
+    {
+      "cite": "522 P.2d 1058",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 2005,
+      "opinion_index": 0
+    },
+    {
+      "cite": "114 Cal.Rptr. 250",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 2005,
+      "opinion_index": 0
+    },
+    {
+      "cite": "11 Cal.3d 588",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2302305
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "598"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/11/0588-01"
+      ]
+    },
+    {
+      "cite": "507 P.2d 74",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "106 Cal.Rptr. 770",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "9 Cal.3d 463",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2297488
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/9/0463-01"
+      ]
+    },
+    {
+      "cite": "459 P.2d 225",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "80 Cal.Rptr. 897",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "71 Cal.2d 1119",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        8712050
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/71/1119-01"
+      ]
+    },
+    {
+      "cite": "126 Cal.Rptr.2d 855",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "103 Cal.App.4th 599",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        747511
+      ],
+      "pin_cites": [
+        {
+          "page": "602"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/103/0599-01"
+      ]
+    },
+    {
+      "cite": "997 P.2d 493",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "95 Cal.Rptr.2d 178",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "22 Cal.4th 872",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        158053
+      ],
+      "pin_cites": [
+        {
+          "page": "885-886"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/22/0872-01"
+      ]
+    },
+    {
+      "cite": "251 P.3d 943",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "124 Cal.Rptr.3d 830",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "51 Cal.4th 830",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3915519
+      ],
+      "pin_cites": [
+        {
+          "page": "870"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/51/0830-01"
+      ]
+    },
+    {
+      "cite": "146 Cal.Rptr.3d 66",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "208 Cal.App.4th 965",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4257453
+      ],
+      "pin_cites": [
+        {
+          "page": "978, 982"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/208/0965-01"
+      ]
+    },
+    {
+      "cite": "55 Cal.Rptr.3d 767",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "148 Cal.App.4th 446",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6046049
+      ],
+      "pin_cites": [
+        {
+          "page": "452-453"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/148/0446-01"
+      ]
+    },
+    {
+      "cite": "43 Cal.Rptr.3d 911",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "140 Cal.App.4th 111",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        5754101
+      ],
+      "pin_cites": [
+        {
+          "page": "124-125"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/140/0111-01"
+      ]
+    },
+    {
+      "cite": "824 P.2d 1315",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "5 Cal.Rptr.2d 268",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "1 Cal.4th 1132",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1201306
+      ],
+      "pin_cites": [
+        {
+          "page": "1175-1178"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/1/1132-01"
+      ]
+    },
+    {
+      "cite": "666 P.2d 980",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1992,
+      "opinion_index": 0
+    },
+    {
+      "cite": "193 Cal.Rptr. 538",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1992,
+      "opinion_index": 0
+    },
+    {
+      "cite": "34 Cal.3d 277",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4554319
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "287"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/34/0277-01"
+      ]
+    },
+    {
+      "cite": "62 Cal.Rptr.2d 220",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "53 Cal.App.4th 1333",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "pin_cites": [
+        {
+          "page": "1338"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "230 Cal.Rptr. 755",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "186 Cal.App.3d 401",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2197080
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/186/0401-01"
+      ]
+    },
+    {
+      "cite": "906 P.2d 531",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.Rptr.2d 569",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "12 Cal.4th 186",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1957548
+      ],
+      "pin_cites": [
+        {
+          "page": "200-201"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/12/0186-01"
+      ]
+    },
+    {
+      "cite": "650 P.2d 311",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1995,
+      "opinion_index": 0
+    },
+    {
+      "cite": "185 Cal.Rptr. 436",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1995,
+      "opinion_index": 0
+    },
+    {
+      "cite": "32 Cal.3d 307",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1950694
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "330"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/32/0307-01"
+      ]
+    },
+    {
+      "cite": "809 P.2d 865",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "281 Cal.Rptr. 90",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "53 Cal.3d 771",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2358449
+      ],
+      "pin_cites": [
+        {
+          "page": "827"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/53/0771-01"
+      ]
+    },
+    {
+      "cite": "239 Cal.Rptr. 413",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "194 Cal.App.3d 337",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2216063
+      ],
+      "pin_cites": [
+        {
+          "page": "344"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/194/0337-01"
+      ]
+    },
+    {
+      "cite": "219 Cal.Rptr. 731",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1987,
+      "opinion_index": 0
+    },
+    {
+      "cite": "174 Cal.App.3d 95",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2180069
+      ],
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "103-104"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/174/0095-01"
+      ]
+    },
+    {
+      "cite": "947 P.2d 1321",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "69 Cal.Rptr.2d 784",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "16 Cal.4th 1223",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1217892
+      ],
+      "pin_cites": [
+        {
+          "page": "1254"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/16/1223-01"
+      ]
+    },
+    {
+      "cite": "526 P.2d 250",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "116 Cal.Rptr. 242",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "12 Cal.3d 562",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2315562
+      ],
+      "pin_cites": [
+        {
+          "page": "566"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/12/0562-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1749,
+    "char_count": 50214,
+    "ocr_confidence": 0.908,
+    "pagerank": {
+      "raw": 6.392147806818433e-08,
+      "percentile": 0.39607270539711004
+    },
+    "sha256": "d92ec597c5e226f7c466c8c15ec52be54e2f6cf2e4eba399fd251da0d4de62a3",
+    "simhash": "1:b1aae3ae7d074ed4",
+    "word_count": 8282
+  },
+  "last_updated": "2024-02-27T16:06:26.432486+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE, Plaintiff and Respondent, v. ROMIER SIMMONS et al., Defendants and Appellants."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nHUMES, P. J.\n\u2014 Appellants Romier Simmons and Christopher Malbrough were convicted of numerous crimes in connection with a series of home robberies, and the trial court sentenced them both to life in prison. On appeal, they contend we must (1) reinstate a package plea agreement that the trial court withdrew after Malbrough asked for it to be withdrawn and (2) reverse their convictions for aggravated kidnapping based on insufficient evidence and instructional error. We reject these contentions, but we accept the parties\u2019 agreement that the matter should be remanded to the trial court to strike certain fines. We also direct the trial court to hold a court trial on the prior strike allegations against Malbrough. The judgments otherwise are affirmed.\nI.\nFactual and Procedural Background\nMalbrough and Simmons were arrested and charged in connection with 12 Oakland home invasion robberies that took place between August 2 and November 24, 2010. The men would enter homes with guns drawn and rob the occupants of their money, jewelry, cell phones and other electronics.\nMalbrough and Simmons initially agreed to plead no contest to various charges under a package plea agreement. The trial court, however, withdrew the agreement after Malbrough said he felt pressured into accepting the deal. A subsequent jury trial was held, and the jury convicted Malbrough and Simmons of dozens of felonies. The convictions Malbrough and Simmons challenge on appeal involve kidnapping for the purpose of robbery under section 209, subdivision (b)(1) (aggravated kidnapping). Malbrough was sentenced to an indeterminate term of 19 years to life, plus a determinate term of 102 years. Simmons was sentenced to an indeterminate term of 14 years to life, plus a determinate term of 114 years.\nII.\nDiscussion\nA. The Trial Court Did Not Err in Granting Malbrough\u2019s Motion to Withdraw from a Package Plea Agreement.\nMalbrough and Simmons first argue that the trial court improperly withdrew a package plea agreement after Malbrough specifically asked the trial court for that relief. We are not persuaded.\n1. Background\nIn August 2011, Malbrough and Simmons both pleaded no contest to 19 felony counts (one for each victimized family) in exchange for 26 years in state prison as part of a package plea agreement. The plea agreement was the result of settlement discussions among the parties and the trial judge that took place on \u201ca number of dates.\u201d Simmons expressed some misgivings before entering his plea, stating it was a \u201cvery hard decision\u201d and that, although he agreed to the plea deal freely and voluntarily, he was \u201cbattling within [himjself.\u201d After he remarked to the trial court he \u201c[cjould have had a little bit more time\u201d to discuss the agreement with his attorney, the trial court called a recess so that Simmons could do so. After a recess of about an hour and 40 minutes, Simmons confirmed he had had enough time to talk with his attorney. Both Simmons and Malbrough were questioned about whether they had any further questions about the plea agreement and whether they understood all the rights they were giving up in exchange for the agreed-upon sentence, and they both confirmed they understood the terms of the plea agreement before they entered their pleas. The judge found that both Simmons and Malbrough knew what they were doing and understood the consequences of their actions. After accepting both defendants\u2019 pleas, the trial court referred the matter to the probation department to prepare presentence reports.\nAt the beginning of the sentencing hearing, which was held about a month later, Simmons\u2019s attorney informed the trial court that Simmons wanted to withdraw his plea because there was \u201cnewly discovered evidence\u201d other people were involved in the crimes and because a codefendant pressured Simmons to enter a plea. The court scheduled another hearing for a few weeks later so Simmons\u2019s attorney could look into the possible withdrawal.\nWhen the parties reconvened in late October, Simmons\u2019s attorney reported that Simmons no longer wanted to withdraw his plea. The trial court then had a lengthy discussion with Simmons to confirm that he was not pressured to enter into the plea agreement and that he wanted to proceed with sentencing. Malbrough then asked to address the court about his own desire to withdraw his plea, stating, \u201cI just been thinking, your Honor, and I was thinking in my cell, and I was like 26 years? I know it sounds like a good deal for the Court, because they don\u2019t have to do it. But just it\u2019s a long time.\u201d He also stated that he had been accepted to a program at Delancey Street and was \u201casking for a chance at that program to get my life together while I\u2019m young, try to do a change.\u201d Malbrough\u2019s attorney told the court he had informed his client it would be \u201ca mistake\u201d to withdraw his plea, and there was no basis for the withdrawal other than \u201ca general buyer\u2019s remorse.\u201d The trial court told Malbrough, \u201cI just really wonder what you [(Malbrough)] are thinking,\u201d considering that \u201c[you are facing] 314 years . . . give or take.\u201d The court also pointed out that section 1018 permits a defendant to withdraw a plea only upon a showing of good cause. Both Malbrough\u2019s and Simmons\u2019s attorneys agreed there was no basis to withdraw Malbrough\u2019s plea. But when asked if he had anything to add, Malbrough stated, \u201cI feel like I was pressured into taking the deal, to be honest.\u201d The following exchange then took place;\n\u201cTHE COURT: Really? Tell me about that.\n\u201cDEFENDANT MALBROUGH: By the Court, period. Just that if I didn\u2019t we would be going to trial.\n\u201cTHE COURT: That\u2019s exactly what\u2019s going to happen if you withdraw the plea, you are going to trial. That\u2019s right. That\u2019s what you want?\n\u201cDEFENDANT MALBROUGH: That\u2019s what I\u2019m prepared to do.\n\u201cTHE COURT: Fair enough. Motion to withdraw the plea is granted, we\u2019re ready to try the case.\u201d\nSimmons\u2019s attorney objected that Malbrough\u2019s statements did not meet the standards for withdrawing a plea, and the trial court agreed but stated: \u201cMr. Malbrough [in] what is clearly an 11th hour 59th minute expression that he\u2019s articulated here today, which clearly I believe it appears to me that he is borrowing from words that just came out of my mouth about 15 minutes ago, but I\u2019m at a point where there is so much sketchy behavior from all three defendants[] in this case about this agreement that I\u2019ve reached a point where I\u2019m no longer comfortable with it, and I think it might be the best thing to do is simply proceed to trial, [\u00b6] So I\u2019ve reached the point where based on all things that Mr. Simmons has said over time and now Mr. Malbrough\u2019s disappointment about me not letting him go to Delancey Street for 2 years instead of state prison for 26, Ms. Bayl[e]ss\u2019s desire to truncate her sentence, just all of it, it\u2019s like standing on shifting sand and moving parts, and I\u2019ve just reached a point where I\u2019m uncomfortable about whatever the plea negotiations were that anyone \u2014 any of the defendants have accepted this in good faith and with the kinds of thoughts in mind that the cases and the statute call for. [j[] So I recognize no one wants to do a bunch of time in prison. I get that. But it may be sometimes we just need to try the case, and I\u2019ve been thinking about this for some time. And with the various steps we\u2019ve gone through, I think it\u2019s maybe wiser at this point to go forward with trial instead of pushing the plea to be completed. That\u2019s my sense of it.\u201d\nThe prosecutor noted that if Malbrough\u2019s motion was granted, \u201call offers to all defendants w[ould] be withdrawn\u201d because \u201cas everyone is aware this is a package deal.\u201d The court agreed that was \u201cwhat\u2019s been on the table the whole way.\u201d The court concluded, \u201cIt just has struck me that as we have been unable to complete the sentencing here it\u2019s been one thing after another from the three of them. The aggregate effect is I\u2019ve reached a level of discomfort about sort of the voluntariness of the deal, I suppose, is what I\u2019m really wondering about out loud.\u201d After further discussion, the court confirmed there would be a trial and scheduled a pretrial hearing date of November 10.\nAll three defendants (Malbrough, Simmons, and Bayless) were present at the hearing on November 10 to discuss the upcoming trial. When the trial court granted a motion by Bayless to sever her case, the prosecutor stated, \u201cSo just [s]o we\u2019re all clear, that deal that was previously entered into is withdrawn. We had discussed potential offers for her [Bayless], but it would have to be a renegotiation.\u201d The court responded, \u201cI\u2019m rejecting the agreement pursuant to [section] 1190.5 [n'c \u2014 apparently, a reference to \u00a7 1192.5]. That would be the technically correct way I think to say that. And then whatever discussions will be had [about a possible new plea agreement] will be had at a later point.\u201d\n2. Analysis\nThe two sections of the Penal Code discussed during proceedings in the trial court are relevant to our discussion. Section 1018 allows the trial court to grant a defendant\u2019s request to withdraw a guilty plea any time before judgment when there is good cause for the withdrawal. And section 1192.5 provides that a trial court, even after approving a plea agreement, \u201cmay, at the time set for the hearing on the . . . pronouncement of judgment, withdraw its approval in the light of further consideration of the matter.\u201d We discuss each of these sections.\nUnder section 1018, \u201c[m]istake, ignorance or any other factor overcoming the exercise of free judgment is good cause for withdrawal of a guilty plea. [Citations.] But good cause must be shown by clear and convincing evidence.\u201d (People v. Cruz (1974) 12 Cal.3d 562, 566 [116 Cal.Rptr. 242, 526 P.2d 250].) Challenges to rulings under section 1018 usually arise where a defendant pleads guilty, later unsuccessfully tries to withdraw the plea, and then appeals the trial court\u2019s denial of the motion to withdraw. (E.g., People v. Fairbank (1997) 16 Cal.4th 1223, 1254 [69 Cal.Rptr.2d 784, 947 P.2d 1321].) In these situations, the appeal will fail unless the defendant can show that the motion to withdraw the plea was supported by clear and convincing evidence of good cause. And it is settled that good cause does not include mere \u201cbuyer\u2019s remorse\u201d regarding a plea deal, as Malbrough\u2019s attorney acknowledged below when stating he had advised his client not to withdraw his plea. (E.g., Cruz, supra, at pp. 566-567 [defendant failed to specify nature of \u201cconfusion\u201d when he entered plea]; People v. Hunt (1985) 174 Cal.App.3d 95, 103-104 [219 Cal.Rptr. 731] [postplea apprehension about anticipated sentence insufficient ground to compel trial court to permit withdrawal of guilty plea]; People v. Knight (1987) 194 Cal.App.3d 337, 344 [239 Cal.Rptr. 413] [same; \u201cbuyer\u2019s remorse\u201d is insufficient to establish good cause to set aside a plea].)\nMalbrough and Simmons rely on these principles in arguing that the trial court abused its discretion when it granted Malbrough\u2019s request to withdraw his plea. This reliance is misplaced. Rather than denying a motion to withdraw, the trial court here granted the precise relief Malbrough requested. We agree with respondent that Malbrough cannot complain on appeal that \u201cthe court did exactly what he insisted upon.\u201d (People v. Cooper (1991) 53 Cal.3d 771, 827 [281 Cal.Rptr. 90, 809 P.2d 865] [defendant barred from asserting that jury instruction on lesser offense should have been given where he insisted the instruction not be given].) \u201cThe doctrine of invited error is designed to prevent an accused from gaining a reversal on appeal because of an error made by the trial court at his behest.\u201d (People v. Wickersham (1982) 32 Cal.3d 307, 330 [185 Cal.Rptr. 436, 650 P.2d 311], italics added, disapproved on another ground in People v. Barton (1995) 12 Cal.4th 186, 200-201 [47 Cal.Rptr.2d 569, 906 P.2d 531].)\nPeople v. Webb (1986) 186 Cal.App.3d 401 [230 Cal.Rptr. 755] is instructive. In Webb, a defendant pleaded guilty to various sex offenses as part of a plea bargain where he agreed to a prison term of 60 years and the prosecutor agreed in exchange to drop other charges against him and not to pursue kidnapping and rape charges against him in another case. (id. at pp. 405-406.) The Court of Appeal affirmed the conviction but remanded for resentencing. (Id. at p. 406.) On remand, the defendant was sentenced to 59 years in prison, and he again appealed. (Ibid.) In his second appeal, he argued for the first time that his conviction should be set aside because the trial court lacked authority to accept the original plea under section 1192.7, subdivision (a), which limits plea bargaining in certain situations where a defendant is charged with sex crimes. (Webb, at pp. 409-410.) The appellate court rejected this argument on multiple grounds, including estoppel. (Id. at pp. 410-411.) The court concluded that under the circumstances, the defendant should be estopped from using section 1192.7 \u201cas a shield after consenting to the acceptance of a plea bargain.\u201d (Webb, at p. 412.) Although here Malbrough and Simmons challenge the granting of a motion to withdraw a plea bargain and not the underlying plea bargain itself, the same principles of estoppel apply. Malbrough and Simmons cannot use section 1018\u2019s \u201cgood cause\u201d requirement as a shield after Malbrough told the trial court, in effect, that good cause existed to withdraw the plea agreement.\nFurthermore, and regardless of section 1018, the trial court acted within its legitimate authority under section 1192.5, the separate statute authorizing it to withdraw its approval of plea agreements under circumstances that were present here. The written plea agreements informed Malbrough and Simmons, as required by section 1192.5, that the terms of the plea agreement were not binding on the trial court, and the court could reject the agreement before sentencing defendants under it. The statute provides that a trial court \u201cmay, at the time set for the hearing on the . . . pronouncement of judgment, withdraw its approval [of a plea] in the light of further consideration of the matter.\u201d (\u00a7 1192.5.) \u201c \u2018[I]mplicit in the language of section 1192.5 is the premise that the court, upon sentencing, has broad discretion to withdraw its prior approval of a negotiated plea.\u2019 [Citation.] Such withdrawal is permitted, for example, in those instances where the court becomes more fully informed about the case [citation], or where, after further consideration, the court concludes that the bargain is not in the best interests of society.\u201d (People v. Superior Court (Gifford) (1997) 53 Cal.App.4th 1333, 1338 [62 Cal.Rptr.2d 220].)\nAlthough the trial court did not mention section 1192.5 when it granted Malbrough\u2019s motion to withdraw his plea, it later explained that allowing Malbrough to reenter a plea of not guilty was done under this statute, and on yet another occasion the prosecutor also stated (without objection) that the trial court had withdrawn its approval under the statute. Malbrough and Simmons argue that the trial court\u2019s reference to section 1192.5 amounted to \u201crevisionist history,\u201d because nothing in the record supports the notion that the court withdrew its approval of the plea agreement. To the contrary, the trial court explained at length its concerns that even after they pleaded under the agreement, all three defendants continued to express doubts about their pleas and the sentences they would receive under them. The court was at that point \u201cuncomfortable\u201d that \u201cany of the defendants have accepted this in good faith\u201d and felt the agreement was \u201clike standing on shifting sand and moving parts.\u201d The court also questioned \u201cthe voluntariness of the deal\u201d in light of defendants\u2019 statements.\nAnd the trial court was right to be concerned. \u201cIt has long been established that guilty pleas obtained through \u2018coercion, terror, inducements, subtle or blatant threats\u2019 are involuntary and violative of due process.\u201d (In re Ibarra (1983) 34 Cal.3d 277, 287 [193 Cal.Rptr. 538, 666 P.2d 980], disapproved on another ground in People v. Howard (1992) 1 Cal.4th 1132, 1175-1178 [5 Cal.Rptr.2d 268, 824 P.2d 1315].) \u201cSuch coercion is a particular danger in the package-deal plea bargain context.\u201d (People v. Sandoval (2006) 140 Cal.App.4th 111, 124-125 [43 Cal.Rptr.3d 911], italics added.) \u201cExtraneous factors not related to the case or the prosecutor\u2019s business may be brought into play [in package deal plea agreements]. For example, ... a defendant may fear . . . that his codefendant will attack him if he does not plead guilty. Because such considerations do not bear any direct relation to whether the defendant himself is guilty, special scrutiny must be employed to ensure a voluntary plea. \u2018[P]lea bargaining of adverse or lenient treatment for some person other than the accused . . . might post a greater danger of inducing a false guilty plea ....\u2019\u201d (Ibarra, at p. 287, original italics.) \u201c[A] trial court should carefully scrutinize pleas in which the defendant shares a special relationship with a person who has been promised a benefit contingent on the defendant pleading guilty . . . .\u201d (Sandoval, at p. 125.) The trial court here did just that when it stated its concerns with the plea deal and concluded that defendants\u2019 \u201csketchy behavior\u201d left the court \u201cno longer comfortable\u201d with it. It did not abuse its broad discretion in withdrawing its approval of the plea agreement. (People v. Superior Court (Gifford), supra, 53 Cal.App.4th at p. 1338.) We therefore need not address defendants\u2019 arguments over the proper remedy.\nB. Malbrough and Simmons Were Properly Convicted of Aggravated Kidnapping.\nMalbrough and Simmons were each convicted of two counts of aggravated kidnapping in connection with a home robbery that occurred on September 2, 2010. Simmons was convicted of an additional count of aggravated kidnapping in connection with a home robbery that occurred on November 12, 2010. On appeal, defendants argue that these convictions cannot be sustained because they are supported by insufficient evidence, and the jury was improperly instructed. We disagree.\n1. Substantial evidence supports the aggravated kidnapping convictions.\nWe begin by discussing the evidence presented about the two home robberies.\na. The September 2, 2010 home robbery.\nOn the night of September 2, 2010, T.T. was playing games with his friend T.N. and other friends and family members at T.T.\u2019s two-story home in Oakland. T.T. and T.N. went outside around 11:45 p.m. to retrieve an item from T.N.\u2019s car. They both walked down the stairs of the house to the driveway where the car was parked, retrieved the item from the trunk, then walked back to the house. When they were about halfway up the stairs, they turned around and saw Simmons holding a gun pointed at them and walking toward them. Simmons told them to be quiet and to come back down the stairs. T.T. and T.N. walked down the stairs, and Simmons patted them down and demanded money. Malbrough, who also was carrying a gun, joined them around this time, and he and Simmons began discussing how they would go inside the house and get money. T.T. and T.N. at first had their hands up, but after a few cars drove by they were told to put them down, which made T.T. feel scared and vulnerable because people driving by would not realize they were \u201cin trouble\u201d and would instead think the four of them were \u201cout there just hanging out.\u201d\nMalbrough and Simmons eventually directed the two victims back up the stairs to the front door of the house, where the four of them stayed \u201cfor quite a bit.\u201d Malbrough looked in the windows and told Simmons that he saw small dogs, and Simmons asked how many people were inside the house. T.T. told him \u201cyou don\u2019t want to go in there, there\u2019s a lot of people, there\u2019s a lot of girls that will scream, you do not want to go in there. If you guys wanted to leave now we are not going to call the cops. We don\u2019t got anything for you.\u201d Simmons told T.T. it was \u201cup to [him] to keep [his] family safe\u201d and shoved his gun deeper into his spine, at which point T.T. felt he \u201chad no choice\u201d but to enter the house.\nT.T. opened the door, and all four men walked inside, with Simmons\u2019s gun still in T.T.\u2019s back. T.T. heard one of the guns being cocked. T.T. told his family to \u201ccalm down, these guys [(referring to Malbrough and Simmons)] just want the money, just give it to them and they\u2019ll leave.\u201d T.T.\u2019s cousin at first thought T.T. was joking, but then Malbrough walked toward T.T.\u2019s sister and showed people in the room his gun. The occupants got down on the ground after they were ordered to do so, except that T.T. at one point was allowed to get up to put the dogs in a bathroom after one of the defendants threatened to shoot the dogs if they did not calm down. T.T. then returned to the ground. One of the robbers (T.T. could not remember which one) told T.T. and T.N. to remove their clothing so that they would not chase after them, and one robber stayed with them at all times while the other walked around the house looking for valuables.\nMalbrough and Simmons ultimately left with two rings, a diamond necklace, phones, wallets, money, purses, and a backpack.\nb. The November 12, 2010 home robbery.\nOn the evening of November 12, 2010, M.B., a man in his early 30\u2019s, returned from a fishing trip with his two daughters to his home in Oakland. After M.B. pulled into his driveway and got out of his car, Simmons approached him from behind with a gun and told M.B. to turn around and not say anything or he (Simmons) would kill M.B.\u2019s family. Simmons held a gun to the back of M.B.\u2019s head, took M.B.\u2019s wallet out of his pocket, and ordered M.B.\u2019s 11-year-old daughter out of the car. Simmons then told the two of them to go inside their house while M.B.\u2019s seven-year-old daughter remained in the back of the car where she was asleep.\nM.B. and the older daughter walked toward their house, which required walking behind a tree that made it more difficult to view them. M.B. saw his brother-in-law come out of the house, and around this time a second man joined Simmons and held a gun to the brother-in-law\u2019s chest. When M.B. arrived at the door, he tried to prevent the men from entering his home by blocking the door so that his wife could see him, but Simmons shoved him inside. The man who had joined Simmons turned off the outside porch light, which further prevented M.B.\u2019s wife from seeing them before they entered. Once all four men were inside, M.B. and other family members in the home were ordered into the kitchen at gunpoint. Simmons and the other man then told everyone to hand over their jewelry, and they took M.B.\u2019s wedding band, a necklace, watches, and another ring. Simmons then ordered M.B. into a bedroom and told him to lie on a bed while Simmons continued to go through cabinets and drawers. M.B. stayed on the bed until police arrived.\nc. Analysis\nMalbrough and Simmons argue the evidence from these two home robberies is insufficient to support their convictions for aggravated kidnapping because any movement of their victims was incidental to the robberies and did not increase the victims\u2019 risk of harm. We disagree.\nSection 209, subdivision (b)(1) provides that \u201c[a]ny person who kidnaps or carries away any individual to commit robbery . . . shall be punished by imprisonment in the state prison for life with the possibility of parole.\u201d \u201cA defendant may be convicted of kidnapping for robbery when the kidnapping and the intended robbery pertain to different victims.\u201d (People v. James (2007) 148 Cal.App.4th 446, 452-453 [55 Cal.Rptr.3d 767].) But aggravated kidnapping is committed only \u201cif the movement of the victim is beyond that merely incidental to the commission of, and increases the risk of harm to the victim over and above that necessarily present in, the intended underlying offense.\u201d (\u00a7 209, subd. (b)(2).) The statute previously required that the movement substantially increase the risk of harm to a victim, but it was amended in 1997 to require only that the movement increase the risk of harm, but not that the increase be substantial. (People v. Robertson (2012) 208 Cal.App.4th 965, 978, 982 [146 Cal.Rptr.3d 66].)\nThe jury considers both whether the movement was more than merely incidental to a crime and whether there was an increased risk of harm to the victim. As to whether the movement was more than merely incidental to the commission of the crime, \u201cthe jury considers the \u2018scope and nature\u2019 of the movement, which includes the actual distance a victim is moved. [Citations.] There is, however, no minimum distance a defendant must move a victim to satisfy . . .\u201d this element. (People v. Vines (2011) 51 Cal.4th 830, 870 [124 Cal.Rptr.3d 830, 251 P.3d 943].) As to whether the movement increased a victim\u2019s risk of harm, the jury considers \u201c \u2018 \u201csuch factors as the decreased likelihood of detection, the danger inherent in a victim\u2019s foreseeable attempts to escape, and the attacker\u2019s enhanced opportunity to commit additional crimes. [Citations.] The fact that these dangers do not in fact materialize does not, of course, mean that the risk of harm was not increased.\u201d \u2019 \u201d (Ibid.; see People v. Nguyen (2000) 22 Cal.4th 872, 885-886 [95 Cal.Rptr.2d 178, 997 P.2d 493] [increased risk of harm may be physical or psychological in nature].) \u201cThere is no rigid \u2018indoor-outdoor\u2019 rule by which moving a victim inside the premises in which he is found is never sufficient asportation for kidnapping for robbery while moving a victim from inside to outside (or the reverse) is always sufficient. [Citation.] Nonetheless, it has often been held that defendants who have moved their victims within the premises in which they were found did not increase the risk to the victims [citations].\u201d (People v. James, supra, 148 Cal.App.4th at p. 456, original italics.) Simply stated, \u201cthe movement must be more than incidental and must increase the inherent risk of harm.\u201d (People v. Hoard (2002) 103 Cal.App.4th 599, 602 [126 Cal.Rptr.2d 855], italics added.) Application of the foregoing factors in a particular case \u201cwill necessarily depend on the particular facts and context of the case.\u201d (People v. Dominguez, supra, 39 Cal.4th at p. 1153.)\nHere, ample evidence supports the jury\u2019s determination that the victims were moved more than incidentally and that the movement increased the victims\u2019 risk of harm. During the September 2, 2010 home robbery, Malbrough and Simmons moved their two victims a significant distance up the front stairs and into T.T.\u2019s home. This movement decreased the likelihood the defendants would be detected and increased the victims\u2019 risk of harm. It allowed the defendants to engage in additional and more dangerous crimes by hiding their victims from public view and providing access to additional victims, and it increased the possibility of something going awry and somebody getting hurt. (People v. Vines, supra, 51 Cal.4th at p. 870.) The movement not only increased the risk of harm to the victims, but it also caused additional harm in fact. T.T. testified about his understandably heightened fears when Simmons pushed a gun into his spine before they entered his home and when, once inside, he had to bear witness to threats to his family and friends. (People v. Nguyen, supra, 22 Cal.4th at pp. 885-886 [increased risk of harm may be based on psychological harm].)\nSimilarly, the victim\u2019s movement during the November 12, 2010 home robbery was more than incidental and increased the risk of harm to the victim. The victim was moved from his driveway, up his front stairs, and into his home. Once again, this movement provided Simmons with new opportunities to engage in additional and more dangerous crimes out of public view, and it increased the possibility of something going awry. And, as with the movement of T.T. and T.N. on September 2, this movement not only increased the risk of harm, but it also caused additional actual harm (particularly psychological harm) to the victim because he was forced to leave his young daughter asleep and alone in his car at night and, once inside, faced new threats to his family.\nThe cases upon which Malbrough and Simmons rely are distinguishable. In People v. Daniels (1969) 71 Cal.2d 1119 [80 Cal.Rptr. 897, 459 P.2d 225], the victims were moved within their homes {id. at pp. 1123-1125), characterized by the court as \u201cbrief movements\u201d that were \u201csolely to facilitate\u201d the defendants\u2019 crimes {id. at pp. 1130-1131). The court concluded that \u201cwhen in the course of a robbery a defendant does no more than move his victim around inside the premises in which he finds him \u2014 whether it be a residence, as here, or a place of business or other enclosure \u2014 his conduct generally will not be deemed to constitute\u201d aggravated kidnapping. (Id. at p. 1140.) Here, by contrast, the victims were moved from outdoors to inside under circumstances that increased harm and their risk of additional harm.\nMalbrough and Simmons correctly note that simply removing someone from public view does not necessarily satisfy the requirement that the risk of harm to a victim is increased. They rely on In re Crumpton (1973) 9 Cal.3d 463 [106 Cal.Rptr. 770, 507 P.2d 74], where the court concluded that the risk of harm to a service station attendant who was being robbed was not meaningfully increased by being forced to lie down behind a truck parked on the station\u2019s premises. (Id. at pp. 466-467.) The circumstances here are not the same. By moving the victims indoors into homes filled with the victims\u2019 friends and family members, Malbrough and Simmons substantially increased the victims\u2019 harm and risk of being further harmed. The other cases upon which Malbrough and Simmons rely also are inapposite because they involved less movement or movement within the premises of a robbery. (People v. Stanworth (1974) 11 Cal.3d 588, 598 [114 Cal.Rptr. 250, 522 P.2d 1058] [no evidence that \u201crelatively brief movement\u201d of victim removed her from public view]; People v. Washington (2005) 127 Cal.App.4th 290, 299 [25 Cal.Rptr.3d 459] [movement of bank tellers was \u201centirely within the premises of the bank\u201d]; People v. Hoard, supra, 103 Cal.App.4th at p. 607 [movement of victims to back of jewelry store was merely incidental to robbery and may have put them at reduced risk of harm because they were not at front of store where robber had gun].)\nThis case is akin to People v. Ellis (1971) 15 Cal.App.3d 66 [92 Cal.Rptr. 907], decided by this division more than 40 years ago. The defendant in that case was accused of several robberies where he confronted women outside their homes, forced them inside, and then took their money and other property. (Id. at pp. 72-73.) Purporting to follow People v. Daniels, supra, 71 Cal.2d 1119, the trial court set aside the indictment against the defendant under section 995. (Ellis, at pp. 67-68.) This court reversed, noting the asportation of the victims \u201cfrom the street to their upstairs apartments was essential to the accomplishment of the criminal purpose,\u201d played \u201ca \u2018significant role in the crimes of robbery\u2019 and certainly did \u2018facilitate the commission of a felony.\u2019 \u201d (Id. at p. 73, original italics.) The movement increased the risk of harm to the victims because \u201c[o]n the street violence must necessarily be kept to a minimum because of the obvious risk of discovery and apprehension. But in the [victims\u2019] closed apartments the men would need have little fear of being hindered in their criminal plans . . . .\u201d (Ibid.) As in Ellis, the movement of the victims here was essential to the commission of robberies inside the homes, and it increased the harm and the risk of additional harm to the victims. (See People v. James, supra, 148 Cal.App.4th at pp. 456-458 [under totality of circumstances, forcing employee at gunpoint from outside business to inside in order to commit robbery satisfied asportation element of aggravated kidnapping].)\nSubstantial evidence supports defendants\u2019 convictions for aggravated kidnapping.\n2. The jury was properly instructed on aggravated kidnapping.\nWe next turn to defendants\u2019 argument that the jury was improperly instructed. Before they began deliberating, jurors were instructed under CALCRIM No. 1203 that to prove aggravated kidnapping the People were required to establish the following:\n\u201c1. The defendant intended to commit robbery;\n\u201c2. Acting with that intent, the defendant took, held, or detained another person by using force or by instilling a reasonable fear;\n\u201c3. Using that force or fear, the defendant moved the other person or made the other person move a substantial distance;\n\u201c4. The other person was moved or made to move a distance beyond that merely incidental to the commission of a robbery;\n\u201c5. When that movement began, the defendant already intended to commit robbery;\n\u201cAND\n\u201c6. The other person did not consent to the movement.\n\u201cAs used here, substantial distance means more than a slight or trivial distance. The movement must have substantially increased the risk of physical or psychological harm to the person beyond that necessarily present in the robbery. In deciding whether the movement was sufficient, consider all the circumstances relating to the movement.\u201d (Italics added.)\nThe italicized word \u201csubstantially\u201d is omitted from the current version of CALCRIM No. 1203 because, as we mentioned, section 209, subdivision (b)(2) was amended in 1997 to eliminate the requirement that the movement substantially increase the risk of harm. It is unclear why the word was included in the instmction.\nIn any event, during jury deliberations, jurors sent a three-paragraph note asking for clarification about CALCRIM No. 1203. The part of the note that Malbrough and Simmons focus on is a question about element four of the instruction \u2014 the requirement that the victim \u201cwas moved or made to move a distance beyond that merely incidental to the commission of a robbery.\u201d (CALCRIM No. 1023.) The jury stated: \u201cWe are looking for a definition for \u2018merely incidental.\u2019 \u201d\nThe trial court proposed providing the jury with the CALJIC instructions related to kidnapping to commit robbery (Nos. 9.50.1 and 9.54). Both defense attorneys asked that the trial court simply reread a passage of CALCRIM No. 200 stating that \u201c[sjome words or phrases used during this trial have legal meanings that are different from their meanings in everyday use. These words and phrases will be specifically defined in these instructions. Please be sure to listen carefully and follow the definitions that I give you. Words and phrases not specifically defined in these instructions are to be applied using their ordinary[,] everyday meaning.\u201d The court agreed to repeat this passage, but stated it was inclined to also provide the CALJIC instructions, an approach the prosecutor supported. After further discussion, the trial court decided to give both CALJIC instructions.\nThe court first read CALJIC No. 9.54 (kidnapping to commit robbery). It then read CALJIC No. 9.50.1, which, in addressing whether movement of a victim is substantial, states as follows: \u201c[T]he determination by you of whether a particular distance moved was substantial and increased the risk of harm to the alleged victim depends upon a consideration of the totality of the circumstances involved in the case. Whether the alleged victim[\u2019]s forced movement was merely incidental to the robbery is necessarily connected to whether it substantially increased the risk of harm to the alleged victim. Distance moved is simply one factor. No minimum distance is required so long as the movement is substantial. [|] Other factors you should consider are the scope and nature of the movement as well as the context of the movement including but not limited to whether or not the movement decreased the likelihood of detection, increased the danger inherent in an alleged victim\u2019s foreseeable attempts to escape, or enhanced the attacker[\u2019]s opportunity to commit other crimes.\u201d Finally, the trial court repeated portions of CALCRIM No. 200, that words or phrases not specifically defined in the instructions are to be applied using their ordinary everyday meanings, and that some instructions may not apply depending on the jury\u2019s findings about the facts of the case.\nMalbrough and Simmons contend the trial court erred in providing CALJIC Nos. 9.54 and 9.50.1 to the jury because, according to them, the instructions insufficiently defined the concept of \u201cmerely incidental\u201d movement. Although they stop short of claiming the CALJIC instructions are inaccurate, they argue that the instructions somehow confused the jury and did not \u201ccapture the essence\u201d of the applicable case law. But the Supreme Court has stressed that whether movement of a victim is merely incidental to a crime \u201cis difficult to capture in a simple verbal formulation that would apply to all cases.\u201d (People v. Dominguez, supra, 39 Cal.4th at p. 1151, italics added.) Although a jury must consider the scope and nature of the movement as well as the environment in which the movement occurred, this \u201cstandard suggests a multifaceted, qualitative evaluation rather than a simple quantitative assessment\u201d (id. at p. 1152), and \u201ceach case must be considered in the context of the totality of its circumstances\u201d (ibid.).\nWe conclude that the instructions here sufficiently described what the People were required to demonstrate to prove that the victims\u2019 movement was not merely incidental to the robberies. Jurors were instructed that whether the movement was merely incidental to the robbery was necessarily connected to whether it increased the victim\u2019s risk of harm, and they were instructed to consider such factors as the distance moved, \u201cthe scope and nature of the movement as well as the context of the movement including but not limited to whether or not the movement decreased the likelihood of detection, increased the danger inherent in an alleged victim\u2019s foreseeable attempts to escape, or enhanced the attacker[\u2019]s opportunity to commit other crimes.\u201d (CALJIC No. 9.50.1.)\nWe disagree with defendants\u2019 arguments that the CALJIC instructions were somehow confusing, inconsistent with case law, or were signs that the trial court failed in its duty under section 1138 to adequately respond to jurors\u2019 request for clarification of an instruction. And given that the jury was correctly instructed on the elements of the crime, we reject Malbrough\u2019s argument that his constitutional rights were violated by a supposed failure to instruct on all elements.\nWe recognize that the CALCRIM instructions approved by the Judicial Council of California are \u201cthe official instructions for use in the state,\u201d and their use is \u201cstrongly encouraged\u201d (Cal. Rules of Court, rule 2.1050(a) & (e)). We also recognize that the user\u2019s guide preceding the instructions provides: \u201cThe CALJIC and CALCRIM instructions should never be used together. While the legal principles are obviously the same, the organization of concepts is approached differently. Mixing the two sets of instructions into a unified whole cannot be done and may result in omissions or confusion that could severely compromise clarity and accuracy. Nevertheless, for convenient reference this publication includes tables of related CALJIC instructions.\u201d (1 Judicial Council of Cal., Crim. Jury Instas. (Fall 2014 ed.) p. xxiv.) These guidelines undoubtedly provide sound advice to parties and courts when assembling a cohesive set of initial jury instructions. But it does not follow that providing a CALJIC instruction in response to a question about a CALCRIM instruction is necessarily confusing, and we reject Malbrough\u2019s suggestion that \u201cmix[ing]\u201d instructions in these circumstances amounted to per se error.\nWe find it worth mentioning that both the CALCRIM and CALJIC instructions given were inconsistent with current law, but the technical mistakes actually benefited defendants. Jurors were originally instructed they were required to find that movement of their victims substantially increased harm to them, and the response given to them to their question contained in the CALJIC instruction also informed them they had to find that the movement substantially increased the risk of harm. In fact, the jury was only required to find that the movement increased the risk of harm. Far from undermining the verdicts, the jury instructions reveal the jurors necessarily concluded there was a substantial increased risk of harm to the victims, which was more than what was necessary to support the aggravated kidnapping convictions.\nNothing in the way jurors were instructed warrants reversal.\nC. Multiple Theft Fines Must Be Stricken.\nWithout objection, the trial court imposed multiple theft fines under section 1202.5, subdivision (a) against both Malbrough and Simmons. Defendants argue, and respondent concedes, that this was error because the statute permits the imposition of a single $10 fine in a given case no matter how many robbery-related convictions a defendant may receive in that case. (People v. Crittle (2007) 154 Cal.App.4th 368, 371 [64 Cal.Rptr.3d 605] [because multiple fines under \u00a7 1202.5, subd. (a) unauthorized under the statute, issue not forfeited by failure to object].) We accept respondent\u2019s concession and order the trial court on remand to strike all but one fine under the statute for each defendant.\nD. The Trial Court Must Adjudicate Malbrough\u2019s Prior Conviction Allegations.\nWe also remand to the trial court for a court trial on Malbrough\u2019s prior conviction allegations. Before trial, Malbrough pleaded no contest to being a felon in possession of a firearm, which included an admission that he had been convicted of robbery in 2007 (thus making him a felon). Also before trial, Malbrough waived his right to a jury trial on sentencing-enhancement allegations he was convicted of that same robbery in 2007 and served a prison term in the case. The prosecutor informed the court she had submitted evidence Malbrough had served a prison term, and the court responded, \u201cI\u2019m not going to review that now, it\u2019s not necessary. If we get to a point where I need to look at that for purposes of a court trial on those allegations I will deal with it then.\u201d But no court trial was ever held. The trial court nonetheless imposed the sentencing enhancements that were based on the prior conviction allegations. (\u00a7\u00a7 667, subds. (a)(1) & (e)(1), 667.5, subd. (b), 1170.12, subd. (c)(1).)\nThere is virtually no doubt the allegations are true, as Malbrough\u2019s 2007 conviction was the basis for his status as a felon as part of his no contest plea to the firearm count. But the trial court never adjudicated whether Malbrough served a prison term for the conviction after having told Malbrough he would receive such a trial. We therefore remand to the trial court for a court trial on the matter. (People v. Barragan (2004) 32 Cal.4th 236, 239, 259 [9 Cal.Rptr.3d 76, 83 P.3d 480] [retrial of strike allegation permissible where insufficient evidence in appellate record to support true finding].)\nE. No \u201cCumulative Error\u201d Justifies Reversal of the Judgment.\nFinally, we reject the argument that a cumulative assessment of the alleged errors identified on appeal compels reversal of the judgment. (People v. Hill (1998) 17 Cal.4th 800, 847 [72 Cal.Rptr.2d 656, 952 P.2d 673].) Although we remand to the trial court on two limited issues, we otherwise find no error that warrants reversal, either separately or considered cumulatively.\nIII.\nDisposition\nThe trial court is directed to amend Simmons\u2019s abstract of judgment to reflect a single $10 fine under section 1202.5, subdivision (a). As modified, Simmons\u2019s judgment is affirmed.\nThe judgment against Malbrough is reversed in part, and we remand for a court trial on Malbrough\u2019s prior conviction allegations. If the allegations are found to be true, the judgment shall be reinstated. Whatever the outcome of the court trial, the trial court is directed to amend Malbrough\u2019s abstract of judgment to reflect a single $10 fine under section 1202.5, subdivision (a).\nThe trial court shall send certified copies of the amended abstracts to the Department of Corrections and Rehabilitation.\nMargulies, J., and Dondero, I., concurred.\nOn February 19, 2015, the opinion was modified to read as printed above. Appellants\u2019 petitions for review by the Supreme Court were denied June 10, 2015, S225113.\nMalbrough was found guilty of the following crimes: 32 counts of first degree residential robbery while personally using a firearm (Pen. Code, \u00a7\u00a7211, 12022.5, subd. (a), 12022.53, subd. (b) \u2014 counts 1, 5-10, 18, 19, 29, 30-34, 36, 37, 39, 40, 43-45, 52, 53-55, 58, 60-62, 64, 65) (all further statutory references are to the Penal Code), four counts of home invasion robbery in concert while personally using a firearm (\u00a7\u00a7 211, 213, 12022.5, subd. (a), 12022.53, subd. (b) \u2014 counts 11, 14-16), three counts of first degree residential robbery while personally armed with a firearm (\u00a7\u00a7 211, 12022, subd. (a)(1) \u2014 counts 20-22), two counts of first degree residential robbery without firearm allegations (\u00a7 211 \u2014 counts 59, 63), three counts of attempted first degree residential robbery while personally using a firearm (\u00a7\u00a7 211, 664, 12022.5, subd (a), 12022.53, subd. (b) \u2014 counts 23, 27, 35), and two counts of kidnapping to commit robbery (\u00a7 209, subd. (b)(1) \u2014 counts 24, 28). Following no contest pleas, Malbrough also was convicted of four counts of being a felon in possession of a firearm. (Former \u00a7 12021, subd. (a)(1) \u2014 counts 4, 13, 26, 42.)\nSimmons was found guilty of the following crimes: 37 counts of first degree residential robbery while personally using a firearm (\u00a7\u00a7211, 12022.5, subd. (a), 12022.53, subd. (b)\u2014 counts 1, 5-10, 18-22, 29-34, 36, 37, 39, 40, 43-46, 49-55, 58, 60-62, 64, 65), three counts of home invasion robbery in concert while personally using a firearm (\u00a7\u00a7 211, 213, 12022.5, subd. (a), 12022.53, subd. (b) \u2014 counts 11, 14, 15), three counts of attempted first degree residential robbery while personally using a firearm (\u00a7\u00a7 211, 664, 12022.5, subd. (a), 12022.53, subd. (b) \u2014 counts 23, 27, 35), two counts of first degree residential robbery without firearm allegations (\u00a7 211 \u2014 counts 59, 63), three counts of kidnapping to commit robbery (\u00a7 209, subd. (b)(1) \u2014 counts 24, 28, 47), and one count of assault with a firearm while personally using a firearm (\u00a7\u00a7 245, subd. (a)(2), 12022.5, subd. (a), 12022.53, subd. (b) \u2014 count 57). Following a no contest plea, Simmons also was convicted of two counts of being a felon in possession of a firearm. (Former \u00a7 12021, subd. (a)(1) \u2014 counts 41, 48.)\nA third defendant, Kyra Bayless, was charged in connection with one of the home invasion robberies and was a party to the original plea agreement. Her case later was severed from Malbrough\u2019s and Simmons\u2019s, and she is not a party to this appeal.\nBecause Simmons was a party to the plea agreement (People v. Shelton (2006) 37 Cal.4th 759, 767 [37 Cal.Rptr.3d 354, 125 P.3d 290]), we conclude he has standing to challenge the granting of Malbrough\u2019s motion. But a consequence of being party to a package plea agreement is being bound by the consequences of a codefendant\u2019s withdrawal.\nAs a reviewing court, we \u201c \u2018 \u201cmust view the evidence in a light most favorable to respondent and presume in support of the judgment the existence of every fact the trier could reasonably deduce from the evidence.\u201d [Citations.] The court does not, however, limit its review to the evidence favorable to the respondent.\u2019 \u201d (People v. Dominguez (2006) 39 Cal.4th 1141, 1153 [47 Cal.Rptr.3d 575, 140 P.3d 866].)\nThe instruction was given to the jury as follows: \u201cEvery person who with the specific intent to commit robbery kidnaps any individual is guilty of the. crime of kidnapping to commit robbery, a violation of Penal Code Section 209(b)(1). The specific intent to commit robbery must be present when the kidnapping commences. H] The taking of personal property and the possession of another against the will from a person or immediate presence of that person accomplished by means of force or fear and with the specific intent to permanently deprive the person of his or her property. Kidnapping is the unlawful movement by physical force of a person without that person\u2019s consent for a substantial distance where the movement is not merely incidental to the commission of the robbery and where the movement substantially increases the risk of harm to the person moved over and above that necessarily present in the crime of robbery itself, [\u00b6] . . . H] Brief movements to facilitate the crimes of robbery are incidental to the commission of the robbery. On the other hand, movements to facilitate the robbery that are for a substantial distance rather than brief are not incidental to the commission of the robbery. [][] In order to prove this crime each of the following elements must be proved. One, a person was moved by the use of force or was compelled to move because of a reasonable apprehension of harm. Two, the movement of that person was caused with the specific intent to commit robbery and the person causing the movement had the required specific intent when the movement commenced. Three, the movement of the person was without that person\u2019s consent. Four, the movement of the person was for a substantial distance. That is a distance more than slight, brief or trivial. And five, the movement substantially increased the risk of harm to the person moved over and above that necessarily present in the crime of robbery itself.\u201d (Italics added.)",
+        "type": "majority",
+        "author": "HUMES, P. J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Jeffrey A. Click, under appointment by the Court of Appeal, for Defendant and Appellant Romier Simmons.",
+      "Linda M. Leavitt, under appointment by the Court of Appeal, for Defendant and Appellant Christopher Malbrough.",
+      "Kamala D. Harris, Attorney General, Dane R. Gillette, Chief Assistant Attorney General, Gerald A. Engler, Assistant Attorney General, Eric D. Share and Catherine A. Rivlin, Deputy Attorneys General, for Plaintiff and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. A135668.\nFirst Dist., Div. One.\nFeb. 5, 2015.]\nTHE PEOPLE, Plaintiff and Respondent, v. ROMIER SIMMONS et al., Defendants and Appellants.\nCounsel\nJeffrey A. Click, under appointment by the Court of Appeal, for Defendant and Appellant Romier Simmons.\nLinda M. Leavitt, under appointment by the Court of Appeal, for Defendant and Appellant Christopher Malbrough.\nKamala D. Harris, Attorney General, Dane R. Gillette, Chief Assistant Attorney General, Gerald A. Engler, Assistant Attorney General, Eric D. Share and Catherine A. Rivlin, Deputy Attorneys General, for Plaintiff and Respondent."
+  },
+  "file_name": "1458-01",
+  "first_page_order": 1298,
+  "last_page_order": 1319
+}

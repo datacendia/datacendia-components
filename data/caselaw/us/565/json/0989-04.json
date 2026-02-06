@@ -1,0 +1,59 @@
+{
+  "id": 12231465,
+  "name": "Harper v. United States",
+  "name_abbreviation": "Harper v. United States",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. 11-6398",
+  "first_page": "989",
+  "last_page": "989",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 989"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.662,
+    "sha256": "03c01e8bd90f703c149030c545a8c2f32ea097a715b61893e72ac8f60dc4bdd3",
+    "simhash": "1:8328db828a0a1e6a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Harper v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6398.\nHarper v. United States."
+  },
+  "file_name": "0989-04",
+  "first_page_order": 1071,
+  "last_page_order": 1071
+}

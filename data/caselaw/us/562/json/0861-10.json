@@ -1,0 +1,59 @@
+{
+  "id": 6030929,
+  "name": "Tolen v. Missouri",
+  "name_abbreviation": "Tolen v. Missouri",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11082",
+  "first_page": "861",
+  "last_page": "861",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 861"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 80,
+    "ocr_confidence": 0.629,
+    "sha256": "aee019866b2a169550a1c5226812f670b214c6e193eb6ee4a17d86430e091feb",
+    "simhash": "1:3543a3c646557bf3",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Tolen v. Missouri."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Mo., Eastern Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11082.\nTolen v. Missouri."
+  },
+  "file_name": "0861-10",
+  "first_page_order": 883,
+  "last_page_order": 883
+}

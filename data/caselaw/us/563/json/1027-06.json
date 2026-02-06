@@ -1,0 +1,59 @@
+{
+  "id": 5939852,
+  "name": "Butler v. United States",
+  "name_abbreviation": "Butler v. United States",
+  "decision_date": "2011-05-31",
+  "docket_number": "No. 10-10239",
+  "first_page": "1027",
+  "last_page": "1027",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1027"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.639,
+    "sha256": "eeb660bdd39dcbe67f7df93965352a468f3847203a3d3b1e653dd314c64c3252",
+    "simhash": "1:b60a62820ebf984c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Butler v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10239.\nButler v. United States."
+  },
+  "file_name": "1027-06",
+  "first_page_order": 1053,
+  "last_page_order": 1053
+}

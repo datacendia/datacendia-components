@@ -1,0 +1,221 @@
+{
+  "id": 12519421,
+  "name": "UNITED STATES of America, Plaintiff-Appellee, v. Edward BISHOP, Defendant-Appellant.",
+  "name_abbreviation": "United States v. Edward Bishop",
+  "decision_date": "2018-12-07",
+  "docket_number": "No. 18-2019",
+  "first_page": "335",
+  "last_page": "338",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "910 F.3d 335"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "7th Cir.",
+    "id": 9010,
+    "name": "United States Court of Appeals for the Seventh Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "825 F.2d 1104",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10550443
+      ],
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "1110"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/825/1104-01"
+      ]
+    },
+    {
+      "cite": "144 F.3d 476",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1306727
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "482"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/144/0476-01"
+      ]
+    },
+    {
+      "cite": "142 F.3d 988",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        219443
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "996-97"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/142/0988-01"
+      ]
+    },
+    {
+      "cite": "870 F.3d 603",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12275291
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "616"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/870/0603-01"
+      ]
+    },
+    {
+      "cite": "134 S.Ct. 2473",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12581677
+      ],
+      "weight": 2,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "2489"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/134/2473-01"
+      ]
+    },
+    {
+      "cite": "427 U.S. 463",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6179008
+      ],
+      "weight": 6,
+      "year": 1976,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/427/0463-01"
+      ]
+    },
+    {
+      "cite": "267 U.S. 498",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6143129
+      ],
+      "weight": 3,
+      "year": 1925,
+      "pin_cites": [
+        {
+          "page": "503"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/267/0498-01"
+      ]
+    },
+    {
+      "cite": "456 U.S. 798",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6191830
+      ],
+      "weight": 3,
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "820-21"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/456/0798-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 924",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(c)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 498,
+    "char_count": 6434,
+    "pagerank": {
+      "raw": 4.5046715916883656e-08,
+      "percentile": 0.28262728830908673
+    },
+    "sha256": "864ba0d31a17f128e758ccaf964118e31dbed9a579b782b2e3665bbe566f0f6b",
+    "simhash": "1:21f934d1224ea142",
+    "word_count": 1020
+  },
+  "last_updated": "2024-02-27T18:46:13.639075+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Easterbrook, Sykes, and Scudder, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff-Appellee,\nv.\nEdward BISHOP, Defendant-Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Easterbrook, Circuit Judge.\nA drug deal went wrong. After receiving a dose of pepper spray from his customer, Edward Bishop shot her in the arm. A jury convicted him of discharging a firearm during a drug transaction, 18 U.S.C. \u00a7 924(c), and the judge sentenced him to 120 months' imprisonment. He presents one contention on appeal: that the warrant authorizing a search of his cell phone-a search that turned up incriminating evidence-violated the Fourth Amendment's requirement that every warrant \"particularly describ[e] the place to be searched, and the persons or things to be seized.\"\nThis warrant described the \"place to be searched\" as the cell phone Bishop carried during the attempted sale, and it described the things to be seized as:\nany evidence (including all photos, videos, and/or any other digital files, including removable memory cards) of suspect identity, motive, scheme/plan along with DNA evidence of the crime of Criminal Recklessness with a deadly weapon which is hidden or secreted [in the cellphone or] related to the offense of Dealing illegal drugs.\nThat is too general, Bishop asserts, because it authorized the police to rummage through every application and file on the phone and left to the officers' judgment the decision which files met the description. The district court found the warrant valid, however, and denied the motion to suppress.\nBishop is right about the facts. This warrant does permit the police to look at every file on his phone and decide which files satisfy the description. But he is wrong to think that this makes a warrant too general. Criminals don't advertise where they keep evidence. A warrant authorizing a search of a house for drugs permits the police to search everywhere in the house, because \"everywhere\" is where the contraband may be hidden. United States v. Ross , 456 U.S. 798, 820-21, 102 S.Ct. 2157, 72 L.Ed.2d 572 (1982) ; Steele v. United States , 267 U.S. 498, 503, 45 S.Ct. 414, 69 L.Ed. 757 (1925). And a warrant authorizing a search for documents that will prove a crime may authorize a search of every document the suspect has, because any of them might supply evidence. To see this, it isn't necessary to look beyond Andresen v. Maryland , 427 U.S. 463, 96 S.Ct. 2737, 49 L.Ed.2d 627 (1976), in which the Court considered a warrant that permitted a search of every document in a lawyer's files. Agents were authorized to search for:\ntitle notes, title abstracts, title rundowns; contracts of sale and/or assignments from Raffaele Antonelli and Rocco Caniglia to Mount Vernon Development Corporation and/or others; lien payoff correspondence and lien pay-off memoranda to and from lienholders and noteholders; correspondence and memoranda to and from trustees of deeds of trust; lenders instructions for a construction loan or construction and permanent loan; disbursement sheets and disbursement memoranda; checks, check stubs and ledger sheets indicating disbursement upon settlement; correspondence and memoranda concerning disbursements upon settlement; settlement statements and settlement memoranda; fully or partially prepared deed of trust releases, whether or not executed and whether or not recorded; books, records, documents, papers, memoranda and correspondence, showing or tending to show a fraudulent intent, and/or knowledge as elements of the crime of false pretenses, in violation of Article 27, Section 140, of the Annotated Code of Maryland, 1957 Edition, as amended and revised, together with other fruits, instrumentalities and evidence of crime at this [time] unknown .\n427 U.S. at 480-81 n.10, 96 S.Ct. 2737 (emphasis added). Andresen accepted the propriety of looking at every document in his possession but maintained that the italicized phrase entitled the agents to seize anything they wanted. The Justices concluded, however, that, when read in context, the contested language did no more than permit the seizure of any other evidence pertaining to real-estate fraud, the subject of the warrant. Id . at 479-82, 96 S.Ct. 2737.\nJust so with this warrant. It permits the search of every document on the cell phone, which (like a computer) serves the same function as the filing cabinets in Andresen's office. See Riley v. California , --- U.S. ----, 134 S.Ct. 2473, 2489, 189 L.Ed.2d 430 (2014). And as with filing cabinets, the incriminating evidence may be in any file or folder. That's why courts routinely conclude that warrants with wording similar to the one at issue here are valid. See, e.g., Archer v. Chisholm , 870 F.3d 603, 616 (7th Cir. 2017) ; United States v. Hall , 142 F.3d 988, 996-97 (7th Cir. 1998) ; Wayne R. LaFave, 2 Search & Seizure \u00a7 4.6(d) (5th ed. 2012 & Supp. 2018) (citing many other cases). It is enough, these decisions hold, if the warrant cabins the things being looked for by stating what crime is under investigation.\nAndresen and its successors show that specificity is a relative matter. A warrant may be thought \"too general\" only if some more-specific alternative would have done better at protecting privacy while still permitting legitimate investigation. See United States v. Vitek Supply Corp ., 144 F.3d 476, 482 (7th Cir. 1998) ; United States v. Bentley , 825 F.2d 1104, 1110 (7th Cir. 1987). So if the police had known that Andresen kept all of his files about the real-estate deal in a particular cabinet, failure to identify that cabinet in the warrant would have violated the constitutional particularity requirement. But a warrant need not be more specific than knowledge allows. In Andresen the police did not know how the target organized his files, so the best they could do was the broad language the warrant used. Likewise here: the police did not know where on his phone Bishop kept his drug ledgers and gun videos-and, if he had told them, they would have been fools to believe him, for criminals often try to throw investigators off the trail. This warrant was as specific as circumstances allowed. The Constitution does not require more.\nAFFIRMED",
+        "type": "majority",
+        "author": "Easterbrook, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "William J. Stevens, Attorney, Bridgman, MI, for Defendant-Appellant."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff-Appellee,\nv.\nEdward BISHOP, Defendant-Appellant.\nNo. 18-2019\nUnited States Court of Appeals, Seventh Circuit.\nArgued November 14, 2018\nDecided December 7, 2018\nNathaniel Whalen, Attorney, OFFICE OF THE UNITED STATES ATTORNEY, Hammond, IN, Plaintiff-Appellee.\nWilliam J. Stevens, Attorney, Bridgman, MI, for Defendant-Appellant.\nBefore Easterbrook, Sykes, and Scudder, Circuit Judges."
+  },
+  "file_name": "0335-01",
+  "first_page_order": 335,
+  "last_page_order": 338
+}

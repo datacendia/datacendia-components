@@ -1,0 +1,59 @@
+{
+  "id": 4226018,
+  "name": "Staton v. United States",
+  "name_abbreviation": "Staton v. United States",
+  "decision_date": "2011-05-31",
+  "docket_number": "No. 10-10202",
+  "first_page": "1026",
+  "last_page": "1026",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1026"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.648,
+    "sha256": "0111f396f071ce83037628b54872c850f3a4909aac456bd70619d65c3edbd3aa",
+    "simhash": "1:0583c241023f914d",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Staton v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. D. C. Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10202.\nStaton v. United States."
+  },
+  "file_name": "1026-12",
+  "first_page_order": 1052,
+  "last_page_order": 1052
+}

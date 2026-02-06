@@ -1,0 +1,59 @@
+{
+  "id": 5966197,
+  "name": "Bozic v. Pennsylvania",
+  "name_abbreviation": "Bozic v. Pennsylvania",
+  "decision_date": "2011-05-31",
+  "docket_number": "No. 10-9893",
+  "first_page": "1025",
+  "last_page": "1025",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1025"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 70,
+    "ocr_confidence": 0.679,
+    "sha256": "e667570d2118e2811147eb8987fa9bacd0805117fa9bcf4f839d86484da29e56",
+    "simhash": "1:2774ceb8b16ab9d4",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bozic v. Pennsylvania."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. Pa. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9893.\nBozic v. Pennsylvania."
+  },
+  "file_name": "1025-07",
+  "first_page_order": 1051,
+  "last_page_order": 1051
+}

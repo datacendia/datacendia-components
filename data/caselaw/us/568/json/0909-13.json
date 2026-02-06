@@ -1,0 +1,59 @@
+{
+  "id": 12415789,
+  "name": "Tierney v. United States Court of Appeals for the Ninth Circuit",
+  "name_abbreviation": "Tierney v. United States Court of Appeals for the Ninth Circuit",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5382",
+  "first_page": "909",
+  "last_page": "909",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 909"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 19,
+    "char_count": 112,
+    "ocr_confidence": 0.64,
+    "sha256": "f20744ea62d3767e2b29748faf5ba284641bd3a98c3051f5b38d94fcbb2a3172",
+    "simhash": "1:11b576292da8106a",
+    "word_count": 19
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Tierney v. United States Court of Appeals for the Ninth Circuit."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5382.\nTierney v. United States Court of Appeals for the Ninth Circuit."
+  },
+  "file_name": "0909-13",
+  "first_page_order": 985,
+  "last_page_order": 985
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5979079,
+  "name": "Sanchez v. United States",
+  "name_abbreviation": "Sanchez v. United States",
+  "decision_date": "2010-11-15",
+  "docket_number": "No. 10-7064",
+  "first_page": "1052",
+  "last_page": "1052",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1052"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.622,
+    "sha256": "f93a234b3863f93b52a7e41d736b199123e1f22762d691d10df07e9b896bf0f6",
+    "simhash": "1:c52aeae16795ba6c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sanchez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7064.\nSanchez v. United States."
+  },
+  "file_name": "1052-14",
+  "first_page_order": 1074,
+  "last_page_order": 1074
+}

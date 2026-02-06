@@ -1,0 +1,59 @@
+{
+  "id": 5921267,
+  "name": "Miranda v. Chandler, Warden",
+  "name_abbreviation": "Miranda v. Chandler",
+  "decision_date": "2011-05-23",
+  "docket_number": "No. 10-9965",
+  "first_page": "1013",
+  "last_page": "1013",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1013"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.592,
+    "sha256": "3526f23a4ef2646d7de9329096f2e2a5442b99bdee6ac9b2ce5b7c2dc4e30bee",
+    "simhash": "1:a2cf97a9ef5d22a2",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Miranda v. Chandler, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9965.\nMiranda v. Chandler, Warden."
+  },
+  "file_name": "1013-05",
+  "first_page_order": 1039,
+  "last_page_order": 1039
+}

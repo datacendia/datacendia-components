@@ -1,0 +1,59 @@
+{
+  "id": 12432491,
+  "name": "Crawley v. Minnesota",
+  "name_abbreviation": "Crawley v. Minnesota",
+  "decision_date": "2013-03-04",
+  "docket_number": "No. 12-698",
+  "first_page": "1212",
+  "last_page": "1212",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1212"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 69,
+    "ocr_confidence": 0.657,
+    "sha256": "2acc166f165342acc1f565dc74361d8cae100e174e97df6da371c2222a6d0a56",
+    "simhash": "1:66b22686fa419356",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Crawley v. Minnesota."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Minn. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-698.\nCrawley v. Minnesota."
+  },
+  "file_name": "1212-10",
+  "first_page_order": 1288,
+  "last_page_order": 1288
+}

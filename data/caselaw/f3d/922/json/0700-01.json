@@ -1,0 +1,525 @@
+{
+  "id": 12520965,
+  "name": "UNITED STATES of America, Plaintiff-Appellee v. Carlos VASQUEZ-PUENTE, Defendant-Appellant",
+  "name_abbreviation": "U.S. v. Vasquez-Puente",
+  "decision_date": "2019-05-01",
+  "docket_number": "No. 17-41099",
+  "first_page": "700",
+  "last_page": "706",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "922 F.3d 700"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "5th Cir.",
+    "id": 8820,
+    "name": "United States Court of Appeals for the Fifth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "54 F.3d 234",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7409370
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "237-39"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/54/0234-01"
+      ]
+    },
+    {
+      "cite": "78 F. App'x 989",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        227439
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "991",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/78/0989-01"
+      ]
+    },
+    {
+      "cite": "444 F.3d 391",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5323171
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "parenthetical": "recognizing unpublished opinions issued after January 1, 1996 are \"not controlling precedent, but may be persuasive authority\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/444/0391-01"
+      ]
+    },
+    {
+      "cite": "456 F. App'x 463",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        4213820
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "464",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/456/0463-01"
+      ]
+    },
+    {
+      "cite": "457 F. App'x 390",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        4214080
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "391",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/457/0390-01"
+      ]
+    },
+    {
+      "cite": "458 F. App'x 342",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        4215976
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "342-43",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/458/0342-01"
+      ]
+    },
+    {
+      "cite": "761 F. App'x. 363",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "365-66",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2019 WL 919809",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "*2"
+        },
+        {
+          "page": "*2",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "214 F.3d 594",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9965275
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "601"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/214/0594-01"
+      ]
+    },
+    {
+      "cite": "283 F.3d 293",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9509418
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "299-300"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/283/0293-01"
+      ]
+    },
+    {
+      "cite": "322 F.3d 823",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9371400
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "828"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/322/0823-01"
+      ]
+    },
+    {
+      "cite": "736 F. App'x 489",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "490-91",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 3583",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(d)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "702 F. App'x 241",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        12404828
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "242",
+          "parenthetical": "per curiam"
+        },
+        {
+          "page": "243"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/702/0241-01"
+      ]
+    },
+    {
+      "cite": "332 F.3d 849",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9115332
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "852-53"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/332/0849-01"
+      ]
+    },
+    {
+      "cite": "471 F.3d 551",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5252190
+      ],
+      "weight": 6,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "558"
+        },
+        {
+          "page": "558",
+          "parenthetical": "explaining \"[t]he key determination is whether the discrepancy between the oral pronouncement and the written judgment is a conflict or merely an ambiguity that can be resolved by reviewing the rest of the record\""
+        },
+        {
+          "page": "558"
+        },
+        {
+          "page": "559"
+        },
+        {
+          "page": "558"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/471/0551-01"
+      ]
+    },
+    {
+      "cite": "685 F.3d 473",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3900786
+      ],
+      "weight": 2,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "480",
+          "parenthetical": "quoting United States v. Mireles , 471 F.3d 551, 558 (5th Cir. 2006) "
+        },
+        {
+          "page": "480"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/685/0473-01"
+      ]
+    },
+    {
+      "cite": "291 F.3d 363",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9430591
+      ],
+      "weight": 4,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "365"
+        },
+        {
+          "page": "365"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/291/0363-01"
+      ]
+    },
+    {
+      "cite": "250 F.3d 941",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11101862
+      ],
+      "weight": 3,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "942",
+          "parenthetical": "per curiam"
+        },
+        {
+          "page": "942"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/250/0941-01"
+      ]
+    },
+    {
+      "cite": "352 F.3d 934",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9298565
+      ],
+      "weight": 7,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "935",
+          "parenthetical": "per curiam"
+        },
+        {
+          "page": "935-36"
+        },
+        {
+          "page": "938"
+        },
+        {
+          "page": "936"
+        },
+        {
+          "page": "935"
+        },
+        {
+          "page": "935-36",
+          "parenthetical": "explaining an ambiguity between oral and written sentences \"can be clarified by viewing the written record\""
+        },
+        {
+          "page": "938"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/352/0934-01"
+      ]
+    },
+    {
+      "cite": "462 F.3d 378",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3464921
+      ],
+      "weight": 2,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "381"
+        },
+        {
+          "page": "381",
+          "parenthetical": "distinguishing \"ambiguity\" in sentences from \"conflicting\" oral and written sentences"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/462/0378-01"
+      ]
+    },
+    {
+      "cite": "906 F.3d 346",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12518894
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "349"
+        },
+        {
+          "page": "351",
+          "parenthetical": "observing \"not all unpronounced conditions create conflicts\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/906/0346-01"
+      ]
+    },
+    {
+      "cite": "8 U.S.C. \u00a7 1326",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a) and (b)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 615,
+    "char_count": 14824,
+    "pagerank": {
+      "raw": 6.380125665320789e-08,
+      "percentile": 0.3953354037243098
+    },
+    "sha256": "6e1bf2f2b4cf78111c13a08af6e26df344581652cf3ca1752952af4d1888ea3c",
+    "simhash": "1:aacb7064e1014309",
+    "word_count": 2252
+  },
+  "last_updated": "2024-02-27T18:46:53.504629+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before CLEMENT, DUNCAN, and OLDHAM, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff-Appellee\nv.\nCarlos VASQUEZ-PUENTE, Defendant-Appellant"
+    ],
+    "opinions": [
+      {
+        "text": "STUART KYLE DUNCAN, Circuit Judge:\nCarlos Vasquez-Puente appeals two special conditions of supervised release in his written judgment, arguing they conflict with the sentence orally pronounced by the district court. Finding no abuse of discretion, we affirm.\nI.\nVasquez-Puente pleaded guilty to being unlawfully found in the United States after a previous deportation in violation of 8 U.S.C. \u00a7 1326(a) and (b). Based on his presentence report (\"PSR\"), he faced a guidelines range of 51-63 months. In objections to the PSR, he admitted he \"obviously knew that it was illegal to return [to the United States], because he has been prosecuted for this same offense twice before.\" At sentencing, Vasquez-Puente's attorney stated he had warned his client \"more than once ... that he should not be coming back here because these sentences are just going to get higher and higher[,]\" adding that Vasquez-Puente \"has indicated that he has no plans to return here, [and] that he's going to stay in Mexico.\" For his part, Vasquez-Puente stated, \"I want to apologize for having entered the country illegally.\" He explained he had come to the United States \"to give a better life for my children but [now] I see I cannot be here,\" and so he promised, \"I'm not coming back.\"\nThe district court gave Vasquez-Puente a low-end prison sentence of 51 months. The court also imposed \"a 3-year term of supervised release,\" explaining this was needed \"because ... in the PSR it indicates how that after that last removal, you remained in Mexico for only about one month.\" The court explicitly warned Vasquez-Puente that he had been previously deported and that therefore he \"should understand certainly just from that that you can't be [in the United States].\" The court also admonished him that, \"[i]f you are deported, it will be without active supervision[,] but if you are in the country, you're to comply with all the standard conditions adopted by the Court.\"\nThe court's subsequent written judgment imposed on Vasquez-Puente the following \"special conditions\" of supervision (formatted for ease of reading):\n[1] You must surrender to U.S. Immigration and Customs Enforcement and follow all [its] instructions and reporting requirements until any deportation proceedings are completed.\n[2] If you are ordered deported from the United States, you must remain outside the United States unless legally authorized to reenter.\n[3] If you reenter the United States, you must report to the nearest probation office within 72 hours after you return.\nThese specific conditions, however, did not appear in Vasquez-Puente's PSR. Nor did the district court expressly enumerate them when orally pronouncing sentence.\nVasquez-Puente appealed, arguing that the first and second special conditions in the written judgment conflict with the oral sentence and therefore must be excised.\nII.\nWe review imposition of special conditions for abuse of discretion when the district court does not \"orally enumerate each special condition\" and the defendant therefore \"has no meaningful opportunity to object.\" United States v. Rivas-Estrada , 906 F.3d 346, 349 (5th Cir. 2018) ; see also, e.g., United States v. Bigelow , 462 F.3d 378, 381 (5th Cir. 2006).\nIII.\nGiven a defendant's constitutional right to be present at sentencing, \"when there is a conflict between a written sentence and an oral pronouncement, the oral pronouncement controls.\" United States v. Torres-Aguilar , 352 F.3d 934, 935 (5th Cir. 2003) (per curiam) (quoting United States v. Martinez , 250 F.3d 941, 942 (5th Cir. 2001) (per curiam)). If, however, there is \"merely an ambiguity\" between oral and written sentences, \"then 'we must look to the intent of the sentencing court, as evidenced in the record' to determine the defendant's sentence.\" Id. (quoting United States v. Warden , 291 F.3d 363, 365 (5th Cir. 2002) ); see also Bigelow , 462 F.3d at 381 (distinguishing \"ambiguity\" in sentences from \"conflicting\" oral and written sentences).\nIn general, a conflict exists \"[i]f the written judgment broadens the restrictions or requirements of supervised release from an oral pronouncement.\" United States v. Mudd , 685 F.3d 473, 480 (5th Cir. 2012) (quoting United States v. Mireles , 471 F.3d 551, 558 (5th Cir. 2006) ). A conflict may arise because a sentencing court omits certain conditions from its oral pronouncement but includes them in its written judgment. Torres-Aguilar , 352 F.3d at 935-36. Omitted conditions that are \"mandatory, standard, or recommended by the Sentencing Guidelines\" do not create a conflict with the oral pronouncement. Id. at 938. \"On the other hand, ... 'if the district court fails to mention a special condition at sentencing, its subsequent inclusion in the written judgment creates a conflict that requires amendment of the written judgment to conform with the oral pronouncement.' \" Id. at 936 (quoting United States v. Vega , 332 F.3d 849, 852-53 (5th Cir. 2003) ).\nVasquez-Puente contends there is a conflict between the district court's oral pronouncement and its written judgment. Specifically, he points to the first two special conditions in the written judgment: (1) that he surrender to immigration authorities until deported (the \"surrender condition\"), and (2) that he remain outside the United States until authorized to reenter (the \"no-reentry condition\"). Vasquez-Puente argues these conditions were not pronounced orally at sentencing and therefore must be excised from the written judgment.\nA.\nWe first address the surrender condition-namely, that Vasquez-Puente \"surrender to U.S. Immigration and Customs Enforcement and follow all [its] instructions and reporting requirements until any deportation proceedings are completed.\" Vasquez-Puente contends, and the government concedes, that this is not a standard or mandatory condition, but rather a special condition included in the Southern District of Texas' standing General Order 2017-01. See In re Conditions of Prob. and Supervised Release , Gen. Order No. 2017-01 (S.D. Tex. Jan. 6, 2017); see also United States v. Vasquez-Ruiz , 702 F. App'x 241, 242 (5th Cir. 2017) (per curiam) (\"report or surrender\"\nrequirement is not standard, mandatory, or guidelines-recommended, but is instead a \"permissive special condition set forth in 18 U.S.C. \u00a7 3583(d) and in the Southern District of Texas's General Order 2014-01\"). Because the district court did not orally enumerate the surrender condition, Vasquez-Puente argues that there is necessarily a conflict between the oral and written sentences and that the written sentence must therefore be reformed. We disagree.\nWe have recognized in numerous unpublished opinions that the district court's failure to orally enumerate a surrender condition (like the one at issue here) may create a conflict with the written judgment, requiring excision of the surrender condition from the written judgment. See, e.g., United States v. Cepeda-Olguin , 736 F. App'x 489, 490-91 (5th Cir. 2018) (per curiam) (\"We have previously concluded that the addition [to the written judgment] of a condition to surrender to immigration officials after release from prison conflicts with oral pronouncements stating no such requirement where the district court had not adopted it as a standard condition.\"). A conflict in these circumstances is not inevitable, however. See, e.g., Rivas-Estrada , 906 F.3d at 351 (observing \"not all unpronounced conditions create conflicts\"). In another unpublished opinion, Vasquez-Ruiz , we held that-despite the district court's failure to orally pronounce a similar surrender condition-there was no conflict with the written judgment when the surrender requirement was \"clearly consistent with the district court's intent that [the defendant] would be deported upon his release from prison.\" 702 F. App'x at 243. In reaching that conclusion, we cited our decision in Warden , which explained that \"ambiguity\" between oral and written sentences requires us to \"look to the intent of the sentencing court, as evidenced in the record.\" 291 F.3d at 365 ; see also, e.g., Mireles , 471 F.3d at 558 (explaining \"[t]he key determination is whether the discrepancy between the oral pronouncement and the written judgment is a conflict or merely an ambiguity that can be resolved by reviewing the rest of the record\").\nFollowing those principles, we find ambiguity-rather than conflict-between Vasquez-Puente's oral and written sentences. The special condition that Vasquez-Puente surrender to immigration officials does not obviously \"conflict\" with the district court's oral pronouncement. Cf., e.g., Mireles , 471 F.3d at 558 (giving as examples of \"conflicts\" between oral and written sentences a five-hour discrepancy in community service requirements and a two-year discrepancy in supervised release terms (citing United States v. Wheeler , 322 F.3d 823, 828 (5th Cir. 2003) ); United States v. Moreci , 283 F.3d 293, 299-300 (5th Cir. 2002) ). We must therefore determine the propriety of the surrender condition by \"look[ing] to the intent of the sentencing court, as evidenced in the record,\" Torres-Aguilar , 352 F.3d at 935 (quoting Warden , 291 F.3d at 365 ), seeking to determine whether \"the oral and written pronouncements are ... reconcilable in this respect,\" Mireles , 471 F.3d at 559. See also, e.g., Martinez , 250 F.3d at 942 (unlike a conflict, \"[i]f ... there is merely an ambiguity between the two sentences, the entire record must be examined to determine the district court's true intent\" (citing United States v. De La Pena-Juarez , 214 F.3d 594, 601 (5th Cir. 2000) )).\nOur review of the record convinces us that the surrender condition is consistent with the district court's intent that Vasquez-Puente be deported after serving his prison term. At the sentencing hearing, the district court repeatedly warned Vasquez-Puente that, because he had been deported before, he could not legally be present in the United States. Indeed, the court imposed three years of supervised release specifically because, when Vasquez-Puente was last deported, he remained outside the country \"for only about one month.\" Moreover, Vasquez-Puente's attorney explained that he had talked with his client on several occasions about not returning to the United States because the \"sentences are just going to get higher and higher.\" And Vasquez-Puente himself apologized to the court for illegally entering the country and promised, \"I'm not coming back.\"\nThe record thus clarifies that the district court intended Vasquez-Puente to be deported following his prison term. See, e.g., Torres-Aguilar , 352 F.3d at 935-36 (explaining an ambiguity between oral and written sentences \"can be clarified by viewing the written record\"). We therefore cannot say that the condition that Vasquez-Puente surrender to immigration officials \"broadens the restrictions or requirements of supervised release from [the] oral pronouncement.\" Mudd , 685 F.3d at 480 (quoting Mireles , 471 F.3d at 558 ). To the contrary, the oral and written sentences are \"reconcilable in this respect.\" Mireles , 471 F.3d at 558. To be sure, it would have been better had the district court expressly enumerated the surrender condition at Vasquez-Puente's sentencing hearing. Based on this record, however, we cannot find that the court abused its discretion by including the surrender condition in Vasquez-Puente's written judgment.\nB.\nWe turn to the no-reentry condition-namely that, following deportation, Vasquez-Puente \"must remain outside the United States unless legally authorized to reenter.\" We disagree with Vasquez-Puente that inclusion of this special condition in the written judgment creates a conflict with the district court's oral pronouncement. The no-reentry condition merely restated the mandatory condition that Vasquez-Puente \"must not commit another federal ... crime.\" We have held that \"the [written] judgment's inclusion of conditions that are mandatory, standard, or recommended by the Sentencing Guidelines does not create a conflict with the oral pronouncement.\" Torres-Aguilar , 352 F.3d at 938. The district court therefore did not abuse its discretion by including a special condition duplicating the mandatory condition that Vasquez-Puente \"not break the law by entering the country illegally.\" Cepeda-Olguin , 736 F. App'x at 491 ; see also Alvarez , 761 F. App'x. at 365-66, 2019 WL 919809, at *2 (no-reentry condition does not conflict with oral sentence \"because it is duplicative of the mandatory condition that [defendant] is prohibited from violating the law if and when he reenters the United States\" (citations omitted)).\nAFFIRMED\nVasquez-Puente does not challenge the third special condition that, upon reentering the United States, he must report to the nearest probation office within 72 hours.\nSee also, e.g., United States v. Alvarez , No. 17-40900, 761 F. App'x. 363, 365-66, 2019 WL 919809, at *2 (5th Cir. Feb. 22, 2019) (per curiam); United States v. Zepeda-Zalaberry , 458 F. App'x 342, 342-43 (5th Cir. 2012) (per curiam); United States v. Vasquez-Parrales , 457 F. App'x 390, 391 (5th Cir. 2012) (per curiam); United States v. Chinchilla-Comelly , 456 F. App'x 463, 464 (5th Cir. 2012) (per curiam); see also Ballard v. Burton , 444 F.3d 391, 401 & n.7 (5th Cir. 2006) (recognizing unpublished opinions issued after January 1, 1996 are \"not controlling precedent, but may be persuasive authority\").\nOur conclusion is not changed by the district court's statement that \"[i]f [Vasquez-Puente is] deported, it will be without active supervision.\" That comment \"creates, if anything, an ambiguity\" which we resolve by examining the overall record to find \"the intent of the sentencing court.\" Warden , 291 F.3d at 365. As explained, the record shows the court plainly told Vasquez-Puente he could not legally remain in, or return to, the country after serving his sentence. See also, e.g. , United States v. Nunez , 78 F. App'x 989, 991 (5th Cir. 2003) (per curiam) (explaining that this phrase means that \"active supervision is suspended upon [defendant's] deportation and the actual term of supervised release will continue to run\" (citing United States v. Brown , 54 F.3d 234, 237-39 (5th Cir. 1995) )).",
+        "type": "majority",
+        "author": "STUART KYLE DUNCAN, Circuit Judge:"
+      }
+    ],
+    "attorneys": [
+      "Paula Camille Offenhauser, Carmen Castillo Mitchell, Assistant U.S. Attorneys, U.S. Attorney's Office, Southern District of Texas, Houston, TX, for Plaintiff-Appellee.",
+      "Marjorie A. Meyers, Federal Public Defender, Michael Lance Herman, Assistant Federal Public Defender, Federal Public Defender's Office, Southern District of Texas, Houston, TX, for Defendant-Appellant."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff-Appellee\nv.\nCarlos VASQUEZ-PUENTE, Defendant-Appellant\nNo. 17-41099\nUnited States Court of Appeals, Fifth Circuit.\nFILED May 1, 2019\nPaula Camille Offenhauser, Carmen Castillo Mitchell, Assistant U.S. Attorneys, U.S. Attorney's Office, Southern District of Texas, Houston, TX, for Plaintiff-Appellee.\nMarjorie A. Meyers, Federal Public Defender, Michael Lance Herman, Assistant Federal Public Defender, Federal Public Defender's Office, Southern District of Texas, Houston, TX, for Defendant-Appellant.\nBefore CLEMENT, DUNCAN, and OLDHAM, Circuit Judges."
+  },
+  "file_name": "0700-01",
+  "first_page_order": 700,
+  "last_page_order": 706
+}

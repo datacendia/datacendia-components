@@ -1,0 +1,59 @@
+{
+  "id": 12414599,
+  "name": "Sidener v. United States",
+  "name_abbreviation": "Sidener v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10952",
+  "first_page": "871",
+  "last_page": "871",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 871"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.691,
+    "sha256": "a293f89bbc3f2e8f5af9cbc42529ff238103bb88173d5a1737f99560661ed0dd",
+    "simhash": "1:5fabe60367d7d410",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sidener v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10952.\nSidener v. United States."
+  },
+  "file_name": "0871-03",
+  "first_page_order": 947,
+  "last_page_order": 947
+}

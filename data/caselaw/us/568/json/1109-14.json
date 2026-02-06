@@ -1,0 +1,59 @@
+{
+  "id": 12428813,
+  "name": "Archibald v. United States",
+  "name_abbreviation": "Archibald v. United States",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-7384",
+  "first_page": "1109",
+  "last_page": "1109",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1109"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.648,
+    "sha256": "2d86b74cc68796a1e7b37aa9d85cd7ae53329fec7a0357026a5d4b3c97e08106",
+    "simhash": "1:c5abb6036a9f890c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Archibald v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7384.\nArchibald v. United States."
+  },
+  "file_name": "1109-14",
+  "first_page_order": 1185,
+  "last_page_order": 1185
+}

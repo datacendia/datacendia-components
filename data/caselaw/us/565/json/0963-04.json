@@ -1,0 +1,59 @@
+{
+  "id": 12229017,
+  "name": "Gentry v. United States",
+  "name_abbreviation": "Gentry v. United States",
+  "decision_date": "2011-10-17",
+  "docket_number": "No. 11-58",
+  "first_page": "963",
+  "last_page": "963",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 963"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.627,
+    "sha256": "80a28f755fa0cce83720396e3f353fc8ae1dd3acfac385ea41d3738a7246f176",
+    "simhash": "1:0028a28b6c951058",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gentry v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-58.\nGentry v. United States."
+  },
+  "file_name": "0963-04",
+  "first_page_order": 1045,
+  "last_page_order": 1045
+}

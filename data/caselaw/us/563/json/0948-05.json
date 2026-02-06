@@ -1,0 +1,59 @@
+{
+  "id": 5951584,
+  "name": "Killion v. Dawson",
+  "name_abbreviation": "Killion v. Dawson",
+  "decision_date": "2011-04-18",
+  "docket_number": "No. 10-9371",
+  "first_page": "948",
+  "last_page": "948",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 948"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 66,
+    "ocr_confidence": 0.602,
+    "sha256": "0100b4dec5bd0bc15a1953141d1f6d39b398116771607fd9a2c4eb115fd757fc",
+    "simhash": "1:2280c2014342c8a0",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Killion v. Dawson."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9371.\nKillion v. Dawson."
+  },
+  "file_name": "0948-05",
+  "first_page_order": 974,
+  "last_page_order": 974
+}

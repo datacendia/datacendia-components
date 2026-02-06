@@ -1,0 +1,59 @@
+{
+  "id": 5907015,
+  "name": "Smith v. Department of Homeland Security",
+  "name_abbreviation": "Smith v. Department of Homeland Security",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-6065",
+  "first_page": "944",
+  "last_page": "944",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 944"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 91,
+    "ocr_confidence": 0.61,
+    "sha256": "1b7346b8e3419d4ab76fd967c699aefd78471c9d03fc0ce4e6e0f0057616065c",
+    "simhash": "1:c153c4213066b148",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Smith v. Department of Homeland Security."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. D. C. Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6065.\nSmith v. Department of Homeland Security."
+  },
+  "file_name": "0944-05",
+  "first_page_order": 966,
+  "last_page_order": 966
+}

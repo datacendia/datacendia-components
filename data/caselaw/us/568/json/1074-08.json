@@ -1,0 +1,59 @@
+{
+  "id": 12427544,
+  "name": "Blanks v. United States",
+  "name_abbreviation": "Blanks v. United States",
+  "decision_date": "2012-12-10",
+  "docket_number": "No. 12-7114",
+  "first_page": "1074",
+  "last_page": "1074",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1074"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.626,
+    "sha256": "1b039e8c0ef1145a7e3eda87c7772f18c89380653e7431c46f5a0966738faa00",
+    "simhash": "1:a18a8a0ece949908",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Blanks v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7114.\nBlanks v. United States."
+  },
+  "file_name": "1074-08",
+  "first_page_order": 1150,
+  "last_page_order": 1150
+}

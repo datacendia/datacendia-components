@@ -1,0 +1,59 @@
+{
+  "id": 6019257,
+  "name": "Foy v. United States",
+  "name_abbreviation": "Foy v. United States",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8126",
+  "first_page": "1236",
+  "last_page": "1236",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1236"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 69,
+    "ocr_confidence": 0.63,
+    "sha256": "4d7e4a905435bde8ca2473354ac7e740eb3a1124c79afb9b6a0bc8855b615e71",
+    "simhash": "1:972be72b0e3d156a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Foy v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8126.\nFoy v. United States."
+  },
+  "file_name": "1236-07",
+  "first_page_order": 1258,
+  "last_page_order": 1258
+}

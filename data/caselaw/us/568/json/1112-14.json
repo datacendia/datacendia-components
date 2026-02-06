@@ -1,0 +1,59 @@
+{
+  "id": 12428957,
+  "name": "Christie v. United States",
+  "name_abbreviation": "Christie v. United States",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-7528",
+  "first_page": "1112",
+  "last_page": "1112",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1112"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.586,
+    "sha256": "210fe6f558aa781a01884f72e618f96dc470870420982bf2c14837fb1b6dbb99",
+    "simhash": "1:bd8b8b9b191bbc58",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Christie v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7528.\nChristie v. United States."
+  },
+  "file_name": "1112-14",
+  "first_page_order": 1188,
+  "last_page_order": 1188
+}

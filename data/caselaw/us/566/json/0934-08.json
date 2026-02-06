@@ -1,0 +1,59 @@
+{
+  "id": 12203388,
+  "name": "In re Discipline of Douglas",
+  "name_abbreviation": "In re Discipline of Douglas",
+  "decision_date": "2012-04-16",
+  "docket_number": "No. D-2659",
+  "first_page": "934",
+  "last_page": "935",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 934"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 40,
+    "char_count": 284,
+    "ocr_confidence": 0.547,
+    "sha256": "95f1e12adf4c1d4885df987dce1cb6a4139afeedb44fa57cb8ffafbe5340faac",
+    "simhash": "1:748271363ec6376e",
+    "word_count": 52
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of Douglas."
+    ],
+    "opinions": [
+      {
+        "text": "James B. Douglas, Jr., of Auburn, Ala.,' is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2659.\nIn re Discipline of Douglas."
+  },
+  "file_name": "0934-08",
+  "first_page_order": 810,
+  "last_page_order": 811
+}

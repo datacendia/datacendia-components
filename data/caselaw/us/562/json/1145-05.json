@@ -1,0 +1,59 @@
+{
+  "id": 6030178,
+  "name": "Batiste v. Cain, Warden",
+  "name_abbreviation": "Batiste v. Cain",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7095",
+  "first_page": "1145",
+  "last_page": "1145",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1145"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.626,
+    "sha256": "6a81ac44202a5f99830955cbc217fa76b07ef3beac31385f2aca8ecfd8a5d6cb",
+    "simhash": "1:393adb823b6ab06e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Batiste v. Cain, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7095.\nBatiste v. Cain, Warden."
+  },
+  "file_name": "1145-05",
+  "first_page_order": 1167,
+  "last_page_order": 1167
+}

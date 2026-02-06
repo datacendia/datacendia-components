@@ -1,0 +1,59 @@
+{
+  "id": 5915901,
+  "name": "Richardson v. Dodds",
+  "name_abbreviation": "Richardson v. Dodds",
+  "decision_date": "2011-04-25",
+  "docket_number": "No. 10-741",
+  "first_page": "960",
+  "last_page": "960",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 960"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 68,
+    "ocr_confidence": 0.642,
+    "sha256": "fe121df9b256d0ec629f3d27191ff0fde2a4bc9f5762ca2eea80dc8d9646eb7f",
+    "simhash": "1:17bb1184d5e7bab0",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Richardson v. Dodds."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-741.\nRichardson v. Dodds."
+  },
+  "file_name": "0960-03",
+  "first_page_order": 986,
+  "last_page_order": 986
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5940144,
+  "name": "Anthony v. United States",
+  "name_abbreviation": "Anthony v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5050",
+  "first_page": "900",
+  "last_page": "900",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 900"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.527,
+    "sha256": "6d96f3810668923cda979deba561fe02b8b0f25130ae538c1ed5d0eeba8b2574",
+    "simhash": "1:06abcf0126915c08",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Anthony v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5050.\nAnthony v. United States."
+  },
+  "file_name": "0900-14",
+  "first_page_order": 922,
+  "last_page_order": 922
+}

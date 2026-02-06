@@ -117,7 +117,7 @@ export interface ApotheosisConfig {
 // =============================================================================
 
 class ApotheosisService {
-  private baseUrl = '/api/v1/apotheosis';
+  private baseUrl = '/apotheosis';
 
   /**
    * Get the current Apotheosis Score

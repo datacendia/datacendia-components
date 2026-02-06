@@ -1,0 +1,59 @@
+{
+  "id": 12246392,
+  "name": "Saunders-el v. Virginia",
+  "name_abbreviation": "Saunders-el v. Virginia",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-7560",
+  "first_page": "1205",
+  "last_page": "1205",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1205"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 71,
+    "ocr_confidence": 0.677,
+    "sha256": "7f51f56b7864fe87604bc5f125f730e35f58d759666ed1de9693556352471104",
+    "simhash": "1:a542e98a668ce448",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Saunders-el v. Virginia."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Va. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7560.\nSaunders-el v. Virginia."
+  },
+  "file_name": "1205-07",
+  "first_page_order": 1287,
+  "last_page_order": 1287
+}

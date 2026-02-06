@@ -1,0 +1,59 @@
+{
+  "id": 12414617,
+  "name": "Torres v. Nebraska",
+  "name_abbreviation": "Torres v. Nebraska",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10968",
+  "first_page": "871",
+  "last_page": "871",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 871"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 68,
+    "ocr_confidence": 0.702,
+    "sha256": "98ebb8a2de19bb6e273994b538c637c0b2309daaef929df822d13c700ba93033",
+    "simhash": "1:a52145c21009f3c0",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Torres v. Nebraska."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Neb. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10968.\nTorres v. Nebraska."
+  },
+  "file_name": "0871-15",
+  "first_page_order": 947,
+  "last_page_order": 947
+}

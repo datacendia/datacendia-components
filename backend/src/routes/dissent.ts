@@ -19,7 +19,7 @@ router.get('/status', async (req: Request, res: Response) => {
 
 router.get('/list', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req as any).organizationId || 'demo-org';
+    const organizationId = req.organizationId!;
     const dissents = await dissentService.getDissents(organizationId, {});
     res.json({ success: true, data: dissents });
   } catch (error) {
@@ -29,7 +29,7 @@ router.get('/list', async (req: Request, res: Response) => {
 
 router.post('/file', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req as any).organizationId || 'demo-org';
+    const organizationId = req.organizationId!;
     const dissent = await dissentService.fileDissent(organizationId, req.body);
     res.json({ success: true, data: dissent });
   } catch (error) {
@@ -51,7 +51,7 @@ router.get('/analytics', async (req: Request, res: Response) => {
  */
 router.post('/', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req as any).organizationId || 'demo-org';
+    const organizationId = req.organizationId!;
     const dissent = await dissentService.fileDissent(organizationId, req.body);
     res.status(201).json(dissent);
   } catch (error) {
@@ -66,7 +66,7 @@ router.post('/', async (req: Request, res: Response) => {
  */
 router.get('/', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req as any).organizationId || 'demo-org';
+    const organizationId = req.organizationId!;
     const { status, userId, decisionId, limit } = req.query;
     
     const dissents = await dissentService.getDissents(organizationId, {
@@ -89,7 +89,7 @@ router.get('/', async (req: Request, res: Response) => {
  */
 router.get('/active', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req as any).organizationId || 'demo-org';
+    const organizationId = req.organizationId!;
     const dissents = await dissentService.getActiveDissents(organizationId);
     res.json(dissents);
   } catch (error) {
@@ -143,7 +143,7 @@ router.post('/:id/respond', async (req: Request, res: Response) => {
  */
 router.get('/profile/:userId', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req as any).organizationId || 'demo-org';
+    const organizationId = req.organizationId!;
     const { userId } = req.params;
     const profile = await dissentService.getDissenterProfile(userId, organizationId);
     res.json(profile);
@@ -163,7 +163,7 @@ router.get('/profile/:userId', async (req: Request, res: Response) => {
  */
 router.get('/metrics/organization', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req as any).organizationId || 'demo-org';
+    const organizationId = req.organizationId!;
     const metrics = await dissentService.getOrganizationMetrics(organizationId);
     res.json(metrics);
   } catch (error) {
@@ -182,7 +182,7 @@ router.get('/metrics/organization', async (req: Request, res: Response) => {
  */
 router.get('/retaliation-flags', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req as any).organizationId || 'demo-org';
+    const organizationId = req.organizationId!;
     const flags = await dissentService.getRetaliationFlags(organizationId);
     res.json(flags);
   } catch (error) {
@@ -237,7 +237,7 @@ router.post('/:id/verify-outcome', async (req: Request, res: Response) => {
  */
 router.get('/check-block/:decisionId', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req as any).organizationId || 'demo-org';
+    const organizationId = req.organizationId!;
     const { decisionId } = req.params;
     const result = await dissentService.checkDissentBlock(organizationId, decisionId);
     res.json(result);
@@ -257,7 +257,7 @@ router.get('/check-block/:decisionId', async (req: Request, res: Response) => {
  */
 router.get('/config', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req as any).organizationId || 'demo-org';
+    const organizationId = req.organizationId!;
     const config = await dissentService.getConfig(organizationId);
     res.json(config);
   } catch (error) {
@@ -272,7 +272,7 @@ router.get('/config', async (req: Request, res: Response) => {
  */
 router.put('/config', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req as any).organizationId || 'demo-org';
+    const organizationId = req.organizationId!;
     const config = await dissentService.updateConfig(organizationId, req.body);
     res.json(config);
   } catch (error) {
@@ -291,7 +291,7 @@ router.put('/config', async (req: Request, res: Response) => {
  */
 router.post('/init-demo', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req as any).organizationId || 'demo-org';
+    const organizationId = req.organizationId!;
     await dissentService.initializeDemoData(organizationId);
     res.json({ success: true, message: 'Demo data initialized' });
   } catch (error) {

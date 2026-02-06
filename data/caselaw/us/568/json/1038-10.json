@@ -1,0 +1,59 @@
+{
+  "id": 12425571,
+  "name": "Barahona v. United States",
+  "name_abbreviation": "Barahona v. United States",
+  "decision_date": "2012-11-26",
+  "docket_number": "No. 12-6909",
+  "first_page": "1038",
+  "last_page": "1038",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1038"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.732,
+    "sha256": "085354e2c5877942a39481e3368e97154eef21bc31ed8cb9e9cf1c820accbd8b",
+    "simhash": "1:170adab3029f941a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Barahona v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6909.\nBarahona v. United States."
+  },
+  "file_name": "1038-10",
+  "first_page_order": 1114,
+  "last_page_order": 1114
+}

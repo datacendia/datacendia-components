@@ -1,0 +1,59 @@
+{
+  "id": 12251956,
+  "name": "Johnson v. United States District Court for the Eastern District of Virginia",
+  "name_abbreviation": "Johnson v. United States District Court for the Eastern District of Virginia",
+  "decision_date": "2012-03-19",
+  "docket_number": "No. 11-8246",
+  "first_page": "1265",
+  "last_page": "1265",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1265"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 19,
+    "char_count": 126,
+    "ocr_confidence": 0.651,
+    "sha256": "7478f7ef45d6b65037480ae4b0fe681abc2bc168a14181fcf20433981b610274",
+    "simhash": "1:21aadbcbda6ce038",
+    "word_count": 20
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Johnson v. United States District Court for the Eastern District of Virginia."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8246.\nJohnson v. United States District Court for the Eastern District of Virginia."
+  },
+  "file_name": "1265-11",
+  "first_page_order": 1347,
+  "last_page_order": 1347
+}

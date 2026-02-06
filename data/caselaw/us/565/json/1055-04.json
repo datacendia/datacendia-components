@@ -1,0 +1,59 @@
+{
+  "id": 12234800,
+  "name": "Williams v. Moore",
+  "name_abbreviation": "Williams v. Moore",
+  "decision_date": "2011-11-28",
+  "docket_number": "No. 10-10941",
+  "first_page": "1055",
+  "last_page": "1055",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1055"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 26,
+    "char_count": 164,
+    "ocr_confidence": 0.657,
+    "sha256": "6f44b6cbd8053e0777dcdda852843666ffa330aa4bcc27e168dda2e9321886ae",
+    "simhash": "1:a2a830680904b79b",
+    "word_count": 27
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Williams v. Moore."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Motion of petitioner for reconsideration of order denying leave to proceed in forma pauperis [ante, p. 804] denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10941.\nWilliams v. Moore."
+  },
+  "file_name": "1055-04",
+  "first_page_order": 1137,
+  "last_page_order": 1137
+}

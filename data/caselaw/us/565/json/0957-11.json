@@ -1,0 +1,59 @@
+{
+  "id": 12228578,
+  "name": "Weatherall v. United States",
+  "name_abbreviation": "Weatherall v. United States",
+  "decision_date": "2011-10-11",
+  "docket_number": "No. 11-6254",
+  "first_page": "957",
+  "last_page": "957",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 957"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.675,
+    "sha256": "ecc0bd97c3e6871e6a8569f7f476a86b4cb784b5e47c37c6c2508203b1cf1b53",
+    "simhash": "1:879ad7824d3f9c6d",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Weatherall v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6254.\nWeatherall v. United States."
+  },
+  "file_name": "0957-11",
+  "first_page_order": 1039,
+  "last_page_order": 1039
+}

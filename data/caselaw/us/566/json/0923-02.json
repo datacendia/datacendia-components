@@ -1,0 +1,59 @@
+{
+  "id": 12200508,
+  "name": "Janda v. Washington",
+  "name_abbreviation": "Janda v. Washington",
+  "decision_date": "2012-04-02",
+  "docket_number": "No. 11-1041",
+  "first_page": "923",
+  "last_page": "923",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 923"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 69,
+    "ocr_confidence": 0.625,
+    "sha256": "6b5b4c304475aaeb4471b62c26fd418de5cd5c7cf4b798476b106c21a69c8dc4",
+    "simhash": "1:902b49ca818fe5a8",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Janda v. Washington."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Wash. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1041.\nJanda v. Washington."
+  },
+  "file_name": "0923-02",
+  "first_page_order": 799,
+  "last_page_order": 799
+}

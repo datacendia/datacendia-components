@@ -1,0 +1,63 @@
+{
+  "id": 5902882,
+  "name": "Thomas v. Louisiana",
+  "name_abbreviation": "Thomas v. Louisiana",
+  "decision_date": "2010-11-03",
+  "docket_number": "No. 10-6833",
+  "first_page": "1027",
+  "last_page": "1027",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1027"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 20,
+    "char_count": 123,
+    "ocr_confidence": 0.602,
+    "pagerank": {
+      "raw": 1.3342168581885638e-07,
+      "percentile": 0.6201210834839936
+    },
+    "sha256": "c0b97d894d9bbd9d80e77edbe5a9c25161f012965d32d62e85572538b96917ee",
+    "simhash": "1:31013ec8c44c7c61",
+    "word_count": 20
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Thomas v. Louisiana."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. La., 4th Cir. Certiorari dismissed under this Court\u2019s Rule 46.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "November 3, 2010\nNo. 10-6833.\nThomas v. Louisiana."
+  },
+  "file_name": "1027-01",
+  "first_page_order": 1049,
+  "last_page_order": 1049
+}

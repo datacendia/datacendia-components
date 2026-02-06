@@ -853,4 +853,55 @@ class CendiaDissentService {
 // =============================================================================
 
 export const dissentService = new CendiaDissentService();
+
+// Add enforceDeadlines as a standalone function for scheduler
+export async function enforceDissentDeadlines(organizationId: string): Promise<{
+  checked: number;
+  escalated: number;
+  autoAcknowledged: number;
+}> {
+  logger.info(`[Dissent] Enforcing deadlines for org: ${organizationId}`);
+  
+  const now = new Date();
+  let checked = 0;
+  let escalated = 0;
+  let autoAcknowledged = 0;
+  
+  // Check pending dissents in database
+  try {
+    const pendingDissents = await prisma.dissents.findMany({
+      where: {
+        organization_id: organizationId,
+        status: 'pending',
+        response_deadline: { lt: now },
+      },
+    });
+    
+    for (const dissent of pendingDissents) {
+      checked++;
+      
+      // Auto-acknowledge
+      await prisma.dissents.update({
+        where: { id: dissent.id },
+        data: {
+          status: dissent.severity === 'blocking' ? 'escalated' : 'acknowledged',
+          updated_at: now,
+        },
+      });
+      
+      if (dissent.severity === 'blocking') {
+        escalated++;
+      } else {
+        autoAcknowledged++;
+      }
+    }
+  } catch (error) {
+    logger.warn(`[Dissent] Database enforcement failed, using cache: ${error}`);
+  }
+  
+  logger.info(`[Dissent] Deadline enforcement: checked=${checked}, escalated=${escalated}, autoAcknowledged=${autoAcknowledged}`);
+  
+  return { checked, escalated, autoAcknowledged };
+}
+
 export default dissentService;

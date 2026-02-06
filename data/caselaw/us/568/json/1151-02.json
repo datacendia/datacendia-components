@@ -1,0 +1,61 @@
+{
+  "id": 12430283,
+  "name": "DeGlace v. Jarvis, Warden",
+  "name_abbreviation": "DeGlace v. Jarvis",
+  "decision_date": "2013-01-22",
+  "docket_number": "No. 12-6894",
+  "first_page": "1151",
+  "last_page": "1151",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1151"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 164,
+    "ocr_confidence": 0.61,
+    "sha256": "e8573df2784ed0f15c257434ebda9acb8bb7e9d850b137bb6e78f9b21f682ff5",
+    "simhash": "1:9d03aa8a6f8eface",
+    "word_count": 26
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "DeGlace v. Jarvis, Warden,"
+    ],
+    "opinions": [
+      {
+        "text": "ante, p. 1042. Petition for rehearing denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6894.\nDeGlace v. Jarvis, Warden,"
+  },
+  "file_name": "1151-02",
+  "first_page_order": 1227,
+  "last_page_order": 1227
+}

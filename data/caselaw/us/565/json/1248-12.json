@@ -1,0 +1,59 @@
+{
+  "id": 12250408,
+  "name": "Dixon v. Mississippi",
+  "name_abbreviation": "Dixon v. Mississippi",
+  "decision_date": "2012-03-05",
+  "docket_number": "No. 11-8137",
+  "first_page": "1248",
+  "last_page": "1248",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1248"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 70,
+    "ocr_confidence": 0.674,
+    "sha256": "0f9ffe8bb47087574b101aba2c802296dbf289a7f326c7d792c242e4fdc0dcff",
+    "simhash": "1:0831011c286d8184",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dixon v. Mississippi."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Miss. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8137.\nDixon v. Mississippi."
+  },
+  "file_name": "1248-12",
+  "first_page_order": 1330,
+  "last_page_order": 1330
+}

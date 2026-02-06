@@ -1,0 +1,59 @@
+{
+  "id": 12204248,
+  "name": "Lamkin v. Texas",
+  "name_abbreviation": "Lamkin v. Texas",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10688",
+  "first_page": "844",
+  "last_page": "844",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 844"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.684,
+    "sha256": "314d35f8474ad556db07e15e8cac17f827eb7d6fc6d9acecad4dd9b2bdd3014d",
+    "simhash": "1:caf54b432e9cce1b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lamkin v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Tex., 11th Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10688.\nLamkin v. Texas."
+  },
+  "file_name": "0844-05",
+  "first_page_order": 926,
+  "last_page_order": 926
+}

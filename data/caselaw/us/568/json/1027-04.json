@@ -1,0 +1,59 @@
+{
+  "id": 12424064,
+  "name": "Lallier v. Supreme Judicial Court of Massachusetts et al.",
+  "name_abbreviation": "Lallier v. Supreme Judicial Court of Massachusetts",
+  "decision_date": "2012-11-26",
+  "docket_number": "No. 12-310",
+  "first_page": "1027",
+  "last_page": "1027",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1027"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 109,
+    "ocr_confidence": 0.651,
+    "sha256": "51f645127ece62ba2e0fcbba65395e56b2fac37f87de40d5e31caea3642a0462",
+    "simhash": "1:5078c10681915810",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lallier v. Supreme Judicial Court of Massachusetts et al."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Jud. Ct. Mass. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-310.\nLallier v. Supreme Judicial Court of Massachusetts et al."
+  },
+  "file_name": "1027-04",
+  "first_page_order": 1103,
+  "last_page_order": 1103
+}

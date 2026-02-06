@@ -1,0 +1,61 @@
+{
+  "id": 12214544,
+  "name": "Baca, Los Angeles County Sheriff v. Starr",
+  "name_abbreviation": "Baca v. Starr",
+  "decision_date": "2012-04-30",
+  "docket_number": "No. 11-834",
+  "first_page": "982",
+  "last_page": "982",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 982"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 27,
+    "char_count": 168,
+    "ocr_confidence": 0.489,
+    "sha256": "3d5cfeab496ac90b5894252545d9be421d09d8165147645b2a00a294a3b8fa62",
+    "simhash": "1:8db362adf58e60da",
+    "word_count": 28
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Breyer took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Baca, Los Angeles County Sheriff v. Starr."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.\nJustice Breyer took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-834.\nBaca, Los Angeles County Sheriff v. Starr."
+  },
+  "file_name": "0982-02",
+  "first_page_order": 858,
+  "last_page_order": 858
+}

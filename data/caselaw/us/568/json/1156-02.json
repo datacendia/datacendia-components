@@ -1,0 +1,61 @@
+{
+  "id": 12430401,
+  "name": "In re Staples",
+  "name_abbreviation": "In re Staples",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-8091",
+  "first_page": "1156",
+  "last_page": "1156",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1156"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 21,
+    "char_count": 149,
+    "ocr_confidence": 0.562,
+    "sha256": "cc3677b22895914eb33898b57c6fed8249fb8bcd05b9b812169e8a14f6c02d3d",
+    "simhash": "1:5c778202154edb4a",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "In re Staples."
+    ],
+    "opinions": [
+      {
+        "text": "Petition for writ of habeas corpus denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8091.\nIn re Staples."
+  },
+  "file_name": "1156-02",
+  "first_page_order": 1232,
+  "last_page_order": 1232
+}

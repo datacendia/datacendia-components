@@ -1,0 +1,59 @@
+{
+  "id": 12415796,
+  "name": "Botha v. United States",
+  "name_abbreviation": "Botha v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5386",
+  "first_page": "910",
+  "last_page": "910",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 910"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.641,
+    "sha256": "c971d4da548f3e60e00e02093b86da647dfe804c74a7bc91f5171e905e5ed128",
+    "simhash": "1:1409b04b9c954858",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Botha v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5386.\nBotha v. United States."
+  },
+  "file_name": "0910-03",
+  "first_page_order": 986,
+  "last_page_order": 986
+}

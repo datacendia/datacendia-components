@@ -1,0 +1,59 @@
+{
+  "id": 5974305,
+  "name": "Chambers v. Justice of the Peace Court, Precinct One",
+  "name_abbreviation": "Chambers v. Justice of the Peace Court, Precinct One",
+  "decision_date": "2011-02-28",
+  "docket_number": "No. 10-8333",
+  "first_page": "1260",
+  "last_page": "1260",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1260"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 100,
+    "ocr_confidence": 0.553,
+    "sha256": "5e7163ab03d4ec6566aefa9baf4a1853feae9ba5272da00bda78eb667bc60a7d",
+    "simhash": "1:1bddd2b3ff37c84b",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Chambers v. Justice of the Peace Court, Precinct One."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Tex. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8333.\nChambers v. Justice of the Peace Court, Precinct One."
+  },
+  "file_name": "1260-02",
+  "first_page_order": 1282,
+  "last_page_order": 1282
+}

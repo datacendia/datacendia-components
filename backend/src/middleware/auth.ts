@@ -211,7 +211,8 @@ export const devAuth = async (
         req.organizationId = adminUser.organization_id;
         return next();
       }
-    } catch {
+    } catch (dbError) {
+      logger.warn('Dev auth: DB lookup failed, falling back to hardcoded dev user', { error: dbError instanceof Error ? dbError.message : String(dbError) });
     }
 
     req.user = {

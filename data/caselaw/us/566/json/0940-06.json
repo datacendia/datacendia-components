@@ -1,0 +1,59 @@
+{
+  "id": 12204357,
+  "name": "Evans v. United States",
+  "name_abbreviation": "Evans v. United States",
+  "decision_date": "2012-04-16",
+  "docket_number": "No. 11-7682",
+  "first_page": "940",
+  "last_page": "940",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 940"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.589,
+    "sha256": "bb979279a73e263732f733f96eb6922a34d96a5d3296e97fa332d037d8c40324",
+    "simhash": "1:80e1a20bc8b55518",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Evans v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7682.\nEvans v. United States."
+  },
+  "file_name": "0940-06",
+  "first_page_order": 816,
+  "last_page_order": 816
+}

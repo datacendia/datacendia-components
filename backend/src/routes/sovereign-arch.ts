@@ -5,7 +5,6 @@
 
 import { Router, Request, Response, NextFunction } from 'express';
 import { devAuth } from '../middleware/auth.js';
-import { logger } from '../utils/logger.js';
 
 // Import sovereign services
 import { dataDiodeService } from '../services/sovereign/DataDiodeService.js';
@@ -27,23 +26,69 @@ router.use(devAuth);
 // SOVEREIGN SERVICES STATUS
 // =============================================================================
 
-router.get('/status', async (req: Request, res: Response) => {
+router.get('/status', async (_req: Request, res: Response) => {
+  const diodeStats = dataDiodeService.getStatistics();
+  const meshNode = federatedMeshService.getThisNode();
+  const tpmKey = tpmAttestationService.getAttestationKey();
+  
   res.json({
     success: true,
     data: {
       version: '1.0.0',
       services: {
-        dataDiode: { enabled: true, description: 'Unidirectional data ingest' },
-        localRLHF: { enabled: true, description: 'Zero-cloud learning' },
-        decisionDNA: { enabled: true, description: 'Audit artifact export' },
-        shadowCouncil: { enabled: true, description: 'Sandbox deliberation' },
-        deterministicReplay: { enabled: true, description: 'Bit-perfect reproducibility' },
-        qrAirGapBridge: { enabled: true, description: 'Zero-media transfer' },
-        canaryTripwires: { enabled: true, description: 'Exfiltration detection' },
-        tpmAttestation: { enabled: true, description: 'Hardware-signed decisions' },
-        timeLock: { enabled: true, description: 'Cryptographic embargo' },
-        federatedMesh: { enabled: true, description: 'Multi-site learning' },
-        portableInstance: { enabled: true, description: 'USB deployment' },
+        dataDiode: { 
+          enabled: true, 
+          sourcesCount: dataDiodeService.getSources().length,
+          totalIngested: diodeStats.totalIngested,
+          totalRejected: diodeStats.totalRejected,
+        },
+        localRLHF: { 
+          enabled: true, 
+          feedbackCount: localRLHFService.getFeedbackRecords('', 1000).length,
+          datasetsCount: localRLHFService.getDatasets('').length,
+        },
+        decisionDNA: { 
+          enabled: true,
+        },
+        shadowCouncil: { 
+          enabled: true, 
+          activeSessions: shadowCouncilService.listSessions('').filter((s: { status: string }) => s.status === 'active').length,
+          totalSessions: shadowCouncilService.listSessions('').length,
+        },
+        deterministicReplay: { 
+          enabled: true, 
+          capturedStates: deterministicReplayService.listStates('').length,
+        },
+        qrAirGapBridge: { 
+          enabled: true,
+        },
+        canaryTripwires: { 
+          enabled: true, 
+          deployedCanaries: canaryTripwireService.listCanaries('').filter((c: { status: string }) => c.status === 'active').length,
+          triggeredAlerts: canaryTripwireService.listAlerts('').length,
+        },
+        tpmAttestation: { 
+          enabled: true, 
+          initialized: tpmKey !== null,
+          keyType: tpmKey?.type || null,
+        },
+        timeLock: { 
+          enabled: true, 
+          activeVaults: timeLockService.listVaults('').filter((v: { status: string }) => v.status === 'locked').length,
+          totalVaults: timeLockService.listVaults('').length,
+        },
+        federatedMesh: { 
+          enabled: true, 
+          initialized: meshNode !== null,
+          nodeId: meshNode?.id || null,
+          knownNodes: federatedMeshService.listNodes().length,
+          pendingDeltas: federatedMeshService.listDeltas({ applied: false }).length,
+        },
+        portableInstance: { 
+          enabled: true, 
+          configsCount: portableInstanceService.listConfigs('').length,
+          imagesCount: portableInstanceService.listImages('').length,
+        },
       },
     },
   });
@@ -62,16 +107,16 @@ router.post('/diode/sources', async (req: Request, res: Response, next: NextFunc
   }
 });
 
-router.get('/diode/sources', async (req: Request, res: Response) => {
+router.get('/diode/sources', async (_req: Request, res: Response) => {
   res.json({ success: true, data: dataDiodeService.getSources() });
 });
 
-router.get('/diode/events', async (req: Request, res: Response) => {
-  const limit = parseInt(req.query.limit as string) || 100;
+router.get('/diode/events', async (_req: Request, res: Response) => {
+  const limit = 100;  // Fixed limit for simplicity
   res.json({ success: true, data: dataDiodeService.getRecentEvents(limit) });
 });
 
-router.get('/diode/statistics', async (req: Request, res: Response) => {
+router.get('/diode/statistics', async (_req: Request, res: Response) => {
   res.json({ success: true, data: dataDiodeService.getStatistics() });
 });
 
@@ -83,7 +128,7 @@ router.post('/rlhf/feedback', async (req: Request, res: Response, next: NextFunc
   try {
     const record = await localRLHFService.recordFeedback({
       ...req.body,
-      organizationId: req.organizationId || 'demo',
+      organizationId: req.organizationId!,
       userId: req.user?.id || 'anonymous',
     });
     res.status(201).json({ success: true, data: record });
@@ -93,14 +138,14 @@ router.post('/rlhf/feedback', async (req: Request, res: Response, next: NextFunc
 });
 
 router.get('/rlhf/stats', async (req: Request, res: Response) => {
-  const orgId = req.organizationId || 'demo';
+  const orgId = req.organizationId!;
   res.json({ success: true, data: localRLHFService.getFeedbackStats(orgId) });
 });
 
 router.post('/rlhf/datasets', async (req: Request, res: Response, next: NextFunction) => {
   try {
     const dataset = await localRLHFService.generateDataset({
-      organizationId: req.organizationId || 'demo',
+      organizationId: req.organizationId!,
       ...req.body,
     });
     res.status(201).json({ success: true, data: dataset });
@@ -110,14 +155,14 @@ router.post('/rlhf/datasets', async (req: Request, res: Response, next: NextFunc
 });
 
 router.get('/rlhf/datasets', async (req: Request, res: Response) => {
-  const orgId = req.organizationId || 'demo';
+  const orgId = req.organizationId!;
   res.json({ success: true, data: localRLHFService.getDatasets(orgId) });
 });
 
 router.post('/rlhf/lora', async (req: Request, res: Response, next: NextFunction) => {
   try {
     const config = await localRLHFService.createLoraConfig({
-      organizationId: req.organizationId || 'demo',
+      organizationId: req.organizationId!,
       ...req.body,
     });
     res.status(201).json({ success: true, data: config });
@@ -128,10 +173,12 @@ router.post('/rlhf/lora', async (req: Request, res: Response, next: NextFunction
 
 router.get('/rlhf/lora/:id/script', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const scriptPath = await localRLHFService.generateTrainingScript(req.params.id);
-    res.json({ success: true, data: { scriptPath } });
+    const id = req.params['id'];
+    if (!id) return res.status(400).json({ success: false, error: 'Missing id parameter' });
+    const scriptPath = await localRLHFService.generateTrainingScript(id);
+    return res.json({ success: true, data: { scriptPath } });
   } catch (error) {
-    next(error);
+    return next(error);
   }
 });
 
@@ -141,20 +188,24 @@ router.get('/rlhf/lora/:id/script', async (req: Request, res: Response, next: Ne
 
 router.post('/dna/generate/:deliberationId', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const dna = await decisionDNAService.generateDNA(req.params.deliberationId, req.body);
-    res.json({ success: true, data: dna });
+    const deliberationId = req.params['deliberationId'];
+    if (!deliberationId) return res.status(400).json({ success: false, error: 'Missing deliberationId' });
+    const dna = await decisionDNAService.generateDNA(deliberationId, req.body);
+    return res.json({ success: true, data: dna });
   } catch (error) {
-    next(error);
+    return next(error);
   }
 });
 
 router.post('/dna/export/:deliberationId', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const dna = await decisionDNAService.generateDNA(req.params.deliberationId, req.body);
+    const deliberationId = req.params['deliberationId'];
+    if (!deliberationId) return res.status(400).json({ success: false, error: 'Missing deliberationId' });
+    const dna = await decisionDNAService.generateDNA(deliberationId, req.body);
     const bundlePath = await decisionDNAService.exportAsBundle(dna);
-    res.json({ success: true, data: { dna, bundlePath } });
+    return res.json({ success: true, data: { dna, bundlePath } });
   } catch (error) {
-    next(error);
+    return next(error);
   }
 });
 
@@ -170,7 +221,7 @@ router.post('/dna/verify', async (req: Request, res: Response) => {
 router.post('/shadow/sessions', async (req: Request, res: Response, next: NextFunction) => {
   try {
     const session = await shadowCouncilService.createSession({
-      organizationId: req.organizationId || 'demo',
+      organizationId: req.organizationId!,
       createdBy: req.user?.id || 'anonymous',
       ...req.body,
     });
@@ -181,36 +232,42 @@ router.post('/shadow/sessions', async (req: Request, res: Response, next: NextFu
 });
 
 router.get('/shadow/sessions', async (req: Request, res: Response) => {
-  const orgId = req.organizationId || 'demo';
+  const orgId = req.organizationId!;
   res.json({ success: true, data: shadowCouncilService.listSessions(orgId, req.user?.id) });
 });
 
 router.get('/shadow/sessions/:id', async (req: Request, res: Response) => {
-  const session = shadowCouncilService.getSession(req.params.id);
+  const id = req.params['id'];
+  if (!id) return res.status(400).json({ success: false, error: 'Missing id parameter' });
+  const session = shadowCouncilService.getSession(id);
   if (!session) {
     return res.status(404).json({ success: false, error: 'Session not found' });
   }
-  res.json({ success: true, data: session });
+  return res.json({ success: true, data: session });
 });
 
 router.post('/shadow/sessions/:id/deliberate', async (req: Request, res: Response, next: NextFunction) => {
   try {
+    const sessionId = req.params['id'];
+    if (!sessionId) return res.status(400).json({ success: false, error: 'Missing id parameter' });
     const deliberation = await shadowCouncilService.startDeliberation({
-      sessionId: req.params.id,
+      sessionId,
       ...req.body,
     });
-    res.status(201).json({ success: true, data: deliberation });
+    return res.status(201).json({ success: true, data: deliberation });
   } catch (error) {
-    next(error);
+    return next(error);
   }
 });
 
 router.post('/shadow/sessions/:id/close', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    await shadowCouncilService.closeSession(req.params.id);
-    res.json({ success: true });
+    const id = req.params['id'];
+    if (!id) return res.status(400).json({ success: false, error: 'Missing id parameter' });
+    await shadowCouncilService.closeSession(id);
+    return res.json({ success: true });
   } catch (error) {
-    next(error);
+    return next(error);
   }
 });
 
@@ -231,7 +288,7 @@ router.post('/shadow/compare', async (req: Request, res: Response, next: NextFun
 router.post('/replay/capture/start', async (req: Request, res: Response, next: NextFunction) => {
   try {
     const stateId = await deterministicReplayService.beginCapture({
-      organizationId: req.organizationId || 'demo',
+      organizationId: req.organizationId!,
       ...req.body,
     });
     res.status(201).json({ success: true, data: { stateId } });
@@ -242,33 +299,39 @@ router.post('/replay/capture/start', async (req: Request, res: Response, next: N
 
 router.post('/replay/capture/:stateId/complete', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const state = await deterministicReplayService.completeCapture(req.params.stateId);
-    res.json({ success: true, data: state });
+    const stateId = req.params['stateId'];
+    if (!stateId) return res.status(400).json({ success: false, error: 'Missing stateId' });
+    const state = await deterministicReplayService.completeCapture(stateId);
+    return res.json({ success: true, data: state });
   } catch (error) {
-    next(error);
+    return next(error);
   }
 });
 
 router.post('/replay/:stateId', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const result = await deterministicReplayService.replay(req.params.stateId);
-    res.json({ success: true, data: result });
+    const stateId = req.params['stateId'];
+    if (!stateId) return res.status(400).json({ success: false, error: 'Missing stateId' });
+    const result = await deterministicReplayService.replay(stateId);
+    return res.json({ success: true, data: result });
   } catch (error) {
-    next(error);
+    return next(error);
   }
 });
 
 router.get('/replay/:stateId/verify', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const result = await deterministicReplayService.verifyState(req.params.stateId);
-    res.json({ success: true, data: result });
+    const stateId = req.params['stateId'];
+    if (!stateId) return res.status(400).json({ success: false, error: 'Missing stateId' });
+    const result = await deterministicReplayService.verifyState(stateId);
+    return res.json({ success: true, data: result });
   } catch (error) {
-    next(error);
+    return next(error);
   }
 });
 
 router.get('/replay/states', async (req: Request, res: Response) => {
-  const orgId = req.query.organizationId as string;
+  const orgId = req.query['organizationId'] as string || '';
   res.json({ success: true, data: deterministicReplayService.listStates(orgId) });
 });
 
@@ -287,10 +350,12 @@ router.post('/qr/payload', async (req: Request, res: Response, next: NextFunctio
 
 router.post('/qr/sequence/:payloadId', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const sequence = await qrAirGapBridgeService.generateSequence(req.params.payloadId);
-    res.json({ success: true, data: sequence });
+    const payloadId = req.params['payloadId'];
+    if (!payloadId) return res.status(400).json({ success: false, error: 'Missing payloadId' });
+    const sequence = await qrAirGapBridgeService.generateSequence(payloadId);
+    return res.json({ success: true, data: sequence });
   } catch (error) {
-    next(error);
+    return next(error);
   }
 });
 
@@ -309,16 +374,20 @@ router.post('/qr/capture/start', async (req: Request, res: Response) => {
 });
 
 router.post('/qr/capture/:sessionId/scan', async (req: Request, res: Response) => {
-  const result = qrAirGapBridgeService.processCapturedQR(req.params.sessionId, req.body.qrData);
-  res.json({ success: true, data: result });
+  const sessionId = req.params['sessionId'];
+  if (!sessionId) return res.status(400).json({ success: false, error: 'Missing sessionId' });
+  const result = qrAirGapBridgeService.processCapturedQR(sessionId, req.body.qrData);
+  return res.json({ success: true, data: result });
 });
 
 router.get('/qr/capture/:sessionId/decode', async (req: Request, res: Response) => {
+  const sessionId = req.params['sessionId'];
+  if (!sessionId) return res.status(400).json({ success: false, error: 'Missing sessionId' });
   const result = qrAirGapBridgeService.decodeCapturedData(
-    req.params.sessionId, 
-    req.query.decryptionKey as string
+    sessionId, 
+    req.query['decryptionKey'] as string
   );
-  res.json({ success: true, data: result });
+  return res.json({ success: true, data: result });
 });
 
 // =============================================================================
@@ -328,7 +397,7 @@ router.get('/qr/capture/:sessionId/decode', async (req: Request, res: Response) 
 router.post('/canary/deploy', async (req: Request, res: Response, next: NextFunction) => {
   try {
     const canary = await canaryTripwireService.deployCanary({
-      organizationId: req.organizationId || 'demo',
+      organizationId: req.organizationId!,
       ...req.body,
     });
     res.status(201).json({ success: true, data: canary });
@@ -340,7 +409,7 @@ router.post('/canary/deploy', async (req: Request, res: Response, next: NextFunc
 router.post('/canary/deploy-network', async (req: Request, res: Response, next: NextFunction) => {
   try {
     const canaries = await canaryTripwireService.deployCanaryNetwork({
-      organizationId: req.organizationId || 'demo',
+      organizationId: req.organizationId!,
       ...req.body,
     });
     res.status(201).json({ success: true, data: canaries });
@@ -350,17 +419,17 @@ router.post('/canary/deploy-network', async (req: Request, res: Response, next: 
 });
 
 router.get('/canary/list', async (req: Request, res: Response) => {
-  const orgId = req.organizationId || 'demo';
+  const orgId = req.organizationId!;
   res.json({ success: true, data: canaryTripwireService.listCanaries(orgId) });
 });
 
 router.get('/canary/alerts', async (req: Request, res: Response) => {
-  const orgId = req.organizationId || 'demo';
+  const orgId = req.organizationId!;
   res.json({ success: true, data: canaryTripwireService.listAlerts(orgId) });
 });
 
 router.get('/canary/status', async (req: Request, res: Response) => {
-  const orgId = req.organizationId || 'demo';
+  const orgId = req.organizationId!;
   res.json({ success: true, data: canaryTripwireService.getDeploymentStatus(orgId) });
 });
 
@@ -377,7 +446,7 @@ router.post('/canary/trigger', async (req: Request, res: Response, next: NextFun
 // TPM ATTESTATION - Hardware Signing
 // =============================================================================
 
-router.post('/tpm/initialize', async (req: Request, res: Response, next: NextFunction) => {
+router.post('/tpm/initialize', async (_req: Request, res: Response, next: NextFunction) => {
   try {
     const key = await tpmAttestationService.initialize();
     res.json({ success: true, data: key });
@@ -386,7 +455,7 @@ router.post('/tpm/initialize', async (req: Request, res: Response, next: NextFun
   }
 });
 
-router.get('/tpm/key', async (req: Request, res: Response) => {
+router.get('/tpm/key', async (_req: Request, res: Response) => {
   const key = tpmAttestationService.getAttestationKey();
   res.json({ success: true, data: key });
 });
@@ -394,7 +463,7 @@ router.get('/tpm/key', async (req: Request, res: Response) => {
 router.post('/tpm/sign', async (req: Request, res: Response, next: NextFunction) => {
   try {
     const signed = await tpmAttestationService.signDecision({
-      organizationId: req.organizationId || 'demo',
+      organizationId: req.organizationId!,
       ...req.body,
     });
     res.json({ success: true, data: signed });
@@ -405,24 +474,28 @@ router.post('/tpm/sign', async (req: Request, res: Response, next: NextFunction)
 
 router.get('/tpm/verify/:signedId', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const result = await tpmAttestationService.verifySignature(req.params.signedId);
-    res.json({ success: true, data: result });
+    const signedId = req.params['signedId'];
+    if (!signedId) return res.status(400).json({ success: false, error: 'Missing signedId' });
+    const result = await tpmAttestationService.verifySignature(signedId);
+    return res.json({ success: true, data: result });
   } catch (error) {
-    next(error);
+    return next(error);
   }
 });
 
 router.get('/tpm/signatures', async (req: Request, res: Response) => {
-  const orgId = req.organizationId || 'demo';
+  const orgId = req.organizationId!;
   res.json({ success: true, data: tpmAttestationService.listSignedDecisions(orgId) });
 });
 
 router.get('/tpm/export/:signedId', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const bundle = await tpmAttestationService.exportVerificationBundle(req.params.signedId);
-    res.json({ success: true, data: bundle });
+    const signedId = req.params['signedId'];
+    if (!signedId) return res.status(400).json({ success: false, error: 'Missing signedId' });
+    const bundle = await tpmAttestationService.exportVerificationBundle(signedId);
+    return res.json({ success: true, data: bundle });
   } catch (error) {
-    next(error);
+    return next(error);
   }
 });
 
@@ -433,7 +506,7 @@ router.get('/tpm/export/:signedId', async (req: Request, res: Response, next: Ne
 router.post('/timelock/vaults', async (req: Request, res: Response, next: NextFunction) => {
   try {
     const vault = await timeLockService.createVault({
-      organizationId: req.organizationId || 'demo',
+      organizationId: req.organizationId!,
       createdBy: req.user?.id || 'anonymous',
       ...req.body,
     });
@@ -444,47 +517,57 @@ router.post('/timelock/vaults', async (req: Request, res: Response, next: NextFu
 });
 
 router.get('/timelock/vaults', async (req: Request, res: Response) => {
-  const orgId = req.organizationId || 'demo';
+  const orgId = req.organizationId!;
   res.json({ success: true, data: timeLockService.listVaults(orgId) });
 });
 
 router.get('/timelock/vaults/:id', async (req: Request, res: Response) => {
-  const vault = timeLockService.getVault(req.params.id);
+  const id = req.params['id'];
+  if (!id) return res.status(400).json({ success: false, error: 'Missing id' });
+  const vault = timeLockService.getVault(id);
   if (!vault) {
     return res.status(404).json({ success: false, error: 'Vault not found' });
   }
-  res.json({ success: true, data: vault });
+  return res.json({ success: true, data: vault });
 });
 
 router.post('/timelock/vaults/:id/unlock', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const progress = await timeLockService.startUnlock(req.params.id);
-    res.json({ success: true, data: progress });
+    const id = req.params['id'];
+    if (!id) return res.status(400).json({ success: false, error: 'Missing id' });
+    const progress = await timeLockService.startUnlock(id);
+    return res.json({ success: true, data: progress });
   } catch (error) {
-    next(error);
+    return next(error);
   }
 });
 
 router.get('/timelock/vaults/:id/progress', async (req: Request, res: Response) => {
-  const progress = timeLockService.getUnlockProgress(req.params.id);
-  res.json({ success: true, data: progress });
+  const id = req.params['id'];
+  if (!id) return res.status(400).json({ success: false, error: 'Missing id' });
+  const progress = timeLockService.getUnlockProgress(id);
+  return res.json({ success: true, data: progress });
 });
 
 router.get('/timelock/vaults/:id/content', async (req: Request, res: Response) => {
+  const id = req.params['id'];
+  if (!id) return res.status(400).json({ success: false, error: 'Missing id' });
   const userId = req.user?.id || 'anonymous';
-  const content = timeLockService.getVaultContent(req.params.id, userId);
+  const content = timeLockService.getVaultContent(id, userId);
   if (content === null) {
     return res.status(403).json({ success: false, error: 'Vault not accessible' });
   }
-  res.json({ success: true, data: { content } });
+  return res.json({ success: true, data: { content } });
 });
 
 router.post('/timelock/vaults/:id/revoke', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    await timeLockService.revokeVault(req.params.id, req.user?.id || 'anonymous');
-    res.json({ success: true });
+    const id = req.params['id'];
+    if (!id) return res.status(400).json({ success: false, error: 'Missing id' });
+    await timeLockService.revokeVault(id, req.user?.id || 'anonymous');
+    return res.json({ success: true });
   } catch (error) {
-    next(error);
+    return next(error);
   }
 });
 
@@ -495,7 +578,7 @@ router.post('/timelock/vaults/:id/revoke', async (req: Request, res: Response, n
 router.post('/mesh/initialize', async (req: Request, res: Response, next: NextFunction) => {
   try {
     const node = await federatedMeshService.initializeNode({
-      organizationId: req.organizationId || 'demo',
+      organizationId: req.organizationId!,
       ...req.body,
     });
     res.json({ success: true, data: node });
@@ -504,11 +587,11 @@ router.post('/mesh/initialize', async (req: Request, res: Response, next: NextFu
   }
 });
 
-router.get('/mesh/node', async (req: Request, res: Response) => {
+router.get('/mesh/node', async (_req: Request, res: Response) => {
   res.json({ success: true, data: federatedMeshService.getThisNode() });
 });
 
-router.get('/mesh/nodes', async (req: Request, res: Response) => {
+router.get('/mesh/nodes', async (_req: Request, res: Response) => {
   res.json({ success: true, data: federatedMeshService.listNodes() });
 });
 
@@ -534,11 +617,13 @@ router.post('/mesh/deltas', async (req: Request, res: Response, next: NextFuncti
 });
 
 router.get('/mesh/deltas', async (req: Request, res: Response) => {
-  const filters = {
-    deltaType: req.query.deltaType as any,
-    applied: req.query.applied === 'true' ? true : req.query.applied === 'false' ? false : undefined,
-    baseModel: req.query.baseModel as string,
-  };
+  const appliedParam = req.query['applied'];
+  // Build filters object conditionally to satisfy exactOptionalPropertyTypes
+  const filters: { deltaType?: any; applied?: boolean; baseModel?: string } = {};
+  if (req.query['deltaType']) filters.deltaType = req.query['deltaType'] as any;
+  if (appliedParam === 'true') filters.applied = true;
+  else if (appliedParam === 'false') filters.applied = false;
+  if (req.query['baseModel']) filters.baseModel = req.query['baseModel'] as string;
   res.json({ success: true, data: federatedMeshService.listDeltas(filters) });
 });
 
@@ -562,14 +647,16 @@ router.post('/mesh/import', async (req: Request, res: Response, next: NextFuncti
 
 router.post('/mesh/deltas/:id/apply', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const result = await federatedMeshService.applyDelta(req.params.id, req.body.targetModel);
-    res.json({ success: true, data: result });
+    const id = req.params['id'];
+    if (!id) return res.status(400).json({ success: false, error: 'Missing id' });
+    const result = await federatedMeshService.applyDelta(id, req.body.targetModel);
+    return res.json({ success: true, data: result });
   } catch (error) {
-    next(error);
+    return next(error);
   }
 });
 
-router.get('/mesh/statistics', async (req: Request, res: Response) => {
+router.get('/mesh/statistics', async (_req: Request, res: Response) => {
   res.json({ success: true, data: federatedMeshService.getStatistics() });
 });
 
@@ -580,7 +667,7 @@ router.get('/mesh/statistics', async (req: Request, res: Response) => {
 router.post('/portable/configs', async (req: Request, res: Response, next: NextFunction) => {
   try {
     const config = await portableInstanceService.createConfig({
-      organizationId: req.organizationId || 'demo',
+      organizationId: req.organizationId!,
       createdBy: req.user?.id || 'anonymous',
       ...req.body,
     });
@@ -591,51 +678,61 @@ router.post('/portable/configs', async (req: Request, res: Response, next: NextF
 });
 
 router.get('/portable/configs', async (req: Request, res: Response) => {
-  const orgId = req.query.organizationId as string;
+  const orgId = req.query['organizationId'] as string || '';
   res.json({ success: true, data: portableInstanceService.listConfigs(orgId) });
 });
 
 router.get('/portable/configs/:id', async (req: Request, res: Response) => {
-  const config = portableInstanceService.getConfig(req.params.id);
+  const id = req.params['id'];
+  if (!id) return res.status(400).json({ success: false, error: 'Missing id' });
+  const config = portableInstanceService.getConfig(id);
   if (!config) {
     return res.status(404).json({ success: false, error: 'Config not found' });
   }
-  res.json({ success: true, data: config });
+  return res.json({ success: true, data: config });
 });
 
 router.post('/portable/build/:configId', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const image = await portableInstanceService.buildImage(req.params.configId);
-    res.status(201).json({ success: true, data: image });
+    const configId = req.params['configId'];
+    if (!configId) return res.status(400).json({ success: false, error: 'Missing configId' });
+    const image = await portableInstanceService.buildImage(configId);
+    return res.status(201).json({ success: true, data: image });
   } catch (error) {
-    next(error);
+    return next(error);
   }
 });
 
 router.get('/portable/images', async (req: Request, res: Response) => {
-  const configId = req.query.configId as string;
+  const configId = req.query['configId'] as string || '';
   res.json({ success: true, data: portableInstanceService.listImages(configId) });
 });
 
 router.get('/portable/images/:id', async (req: Request, res: Response) => {
-  const image = portableInstanceService.getImage(req.params.id);
+  const id = req.params['id'];
+  if (!id) return res.status(400).json({ success: false, error: 'Missing id' });
+  const image = portableInstanceService.getImage(id);
   if (!image) {
     return res.status(404).json({ success: false, error: 'Image not found' });
   }
-  res.json({ success: true, data: image });
+  return res.json({ success: true, data: image });
 });
 
 router.get('/portable/images/:id/progress', async (req: Request, res: Response) => {
-  const progress = portableInstanceService.getBuildProgress(req.params.id);
-  res.json({ success: true, data: progress });
+  const id = req.params['id'];
+  if (!id) return res.status(400).json({ success: false, error: 'Missing id' });
+  const progress = portableInstanceService.getBuildProgress(id);
+  return res.json({ success: true, data: progress });
 });
 
 router.get('/portable/images/:id/download', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const result = await portableInstanceService.downloadImage(req.params.id);
-    res.json({ success: true, data: result });
+    const id = req.params['id'];
+    if (!id) return res.status(400).json({ success: false, error: 'Missing id' });
+    const result = await portableInstanceService.downloadImage(id);
+    return res.json({ success: true, data: result });
   } catch (error) {
-    next(error);
+    return next(error);
   }
 });
 

@@ -1,0 +1,59 @@
+{
+  "id": 12423096,
+  "name": "Villa-Madrigal v. United States",
+  "name_abbreviation": "Villa-Madrigal v. United States",
+  "decision_date": "2012-11-13",
+  "docket_number": "No. 12-6659",
+  "first_page": "1016",
+  "last_page": "1016",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1016"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 80,
+    "ocr_confidence": 0.603,
+    "sha256": "9e01fef7a24dc1bf74797ba8da96e561ea1eed2108a0852c5daa34e28a014047",
+    "simhash": "1:840bc793052d146b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Villa-Madrigal v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6659.\nVilla-Madrigal v. United States."
+  },
+  "file_name": "1016-08",
+  "first_page_order": 1092,
+  "last_page_order": 1092
+}

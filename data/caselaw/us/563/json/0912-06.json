@@ -1,0 +1,59 @@
+{
+  "id": 5936344,
+  "name": "Pearce v. United States",
+  "name_abbreviation": "Pearce v. United States",
+  "decision_date": "2011-03-28",
+  "docket_number": "No. 10-9184",
+  "first_page": "912",
+  "last_page": "912",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 912"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.671,
+    "sha256": "71c9b87525bd09e3c2bca18598041175791a881c69a002ebbd970164750d39b0",
+    "simhash": "1:d69b32476a3f9c06",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Pearce v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9184.\nPearce v. United States."
+  },
+  "file_name": "0912-06",
+  "first_page_order": 938,
+  "last_page_order": 938
+}

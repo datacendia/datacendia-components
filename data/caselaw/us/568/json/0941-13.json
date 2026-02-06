@@ -1,0 +1,59 @@
+{
+  "id": 12417796,
+  "name": "Trudeau v. Federal Trade Commission",
+  "name_abbreviation": "Trudeau v. Federal Trade Commission",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 12-6",
+  "first_page": "941",
+  "last_page": "941",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 941"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 81,
+    "ocr_confidence": 0.647,
+    "sha256": "7a4945a334805dab59317652a9b0457fd51944c0580cc6ac18b7237183fa9c9f",
+    "simhash": "1:4b62023961df32aa",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Trudeau v. Federal Trade Commission."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6.\nTrudeau v. Federal Trade Commission."
+  },
+  "file_name": "0941-13",
+  "first_page_order": 1017,
+  "last_page_order": 1017
+}

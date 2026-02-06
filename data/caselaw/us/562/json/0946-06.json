@@ -1,0 +1,61 @@
+{
+  "id": 5952296,
+  "name": "Bain v. United States",
+  "name_abbreviation": "Bain v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-1242",
+  "first_page": "946",
+  "last_page": "946",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 946"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 148,
+    "ocr_confidence": 0.569,
+    "sha256": "afc9192b26496846f29486822e50028dfb77870b154a53cf2802bfd219af0a14",
+    "simhash": "1:9932fa8229041a40",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Bain v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-1242.\nBain v. United States."
+  },
+  "file_name": "0946-06",
+  "first_page_order": 968,
+  "last_page_order": 968
+}

@@ -1,0 +1,155 @@
+{
+  "id": 12520135,
+  "name": "Dwain BAGWELL, Plaintiff-Appellant v. COMMISSIONER, SOCIAL SECURITY ADMINISTRATION, Defendant-Appellee",
+  "name_abbreviation": "Bagwell v. Comm'r, Soc. Sec. Admin.",
+  "decision_date": "2019-02-28",
+  "docket_number": "No. 18-2514",
+  "first_page": "1117",
+  "last_page": "1120",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "916 F.3d 1117"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "8th Cir.",
+    "id": 8821,
+    "name": "United States Court of Appeals for the Eighth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "28 U.S.C. \u00a7 636",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(c)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "652 F.3d 860",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3759400
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "863",
+          "parenthetical": "\"There is no error when an ALJ fails to explain why an impairment does not equal one of the listed impairments as long as the overall conclusion is supported by the record.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/652/0860-01"
+      ]
+    },
+    {
+      "cite": "228 F.3d 860",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11229183
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "863"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/228/0860-01"
+      ]
+    },
+    {
+      "cite": "590 F.3d 607",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3503951
+      ],
+      "weight": 2,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "610"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/590/0607-01"
+      ]
+    },
+    {
+      "cite": "812 F.3d 686",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4086356
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "689",
+          "parenthetical": "quoting McNamara v. Astrue , 590 F.3d 607, 610 (8th Cir. 2010) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/812/0686-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 492,
+    "char_count": 8058,
+    "pagerank": {
+      "raw": 5.12982294956584e-08,
+      "percentile": 0.32408665524515134
+    },
+    "sha256": "6b9be2dfd6e59fc97abe8d24c73ed25733f4141d084e152209f772a44e44a2d4",
+    "simhash": "1:f1d9d12f23cc3507",
+    "word_count": 1214
+  },
+  "last_updated": "2024-02-27T16:21:04.146489+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before LOKEN, GRASZ, and STRAS, Circuit Judges."
+    ],
+    "parties": [
+      "Dwain BAGWELL, Plaintiff-Appellant\nv.\nCOMMISSIONER, SOCIAL SECURITY ADMINISTRATION, Defendant-Appellee"
+    ],
+    "opinions": [
+      {
+        "text": "GRASZ, Circuit Judge.\nDwain Bagwell appeals the district court's judgment that the Social Security Administration (\"SSA\") Commissioner's decision to deny him disability benefits was supported by substantial evidence. We affirm.\nI. Background\nIn December 2014, Dwain Bagwell applied for disability benefits from the SSA, alleging mild intellectual disability, low education, slow learning abilities, and memory problems. After the SSA denied his claim initially and on reconsideration, he requested a hearing before an administrative law judge (\"ALJ\"). The ALJ found Bagwell had three severe impairments: arthropathies, obesity, and depressive disorder. The ALJ also found that neither those impairments individually nor the combination of them were severe enough to satisfy the criteria for disability benefits under SSA regulations. Then, the ALJ concluded Bagwell's residual functional capacity allowed him to perform light, unskilled work with some further restrictions. Because testimony from a vocational expert indicated such jobs are available in the United States economy, the ALJ found Bagwell was not under a disability as defined by the Social Security Act.\nThe ALJ's decision was based, in relevant part, on reviewing reports from several witnesses. Two of these key witnesses were mental health experts. Dr. Vickie Caspall performed a psychological examination of Bagwell at the request of the SSA. She opined that he was moderately depressed but was not functioning in the intellectual disability range. At Bagwell's request, he was also evaluated by Dr. Herman Clements of Hometown Behavioral Health. Dr. Clements diagnosed Bagwell with bipolar disorder and opined that Bagwell had marked mental impairments.\nThe Social Security Appeals Council denied Bagwell's petition for review, making the ALJ's decision the Commissioner's final administrative decision. Bagwell filed a complaint in the Eastern District of Arkansas seeking review. The district court affirmed the Commissioner's decision, and Bagwell timely appealed.\nII. Standard of Review\nWe review de novo the district court's decision affirming the denial of social security benefits and will affirm \"if the Commissioner's decision is supported by ... substantial evidence on the record as a whole.\" Ash v. Colvin , 812 F.3d 686, 689 (8th Cir. 2016) (quoting McNamara v. Astrue , 590 F.3d 607, 610 (8th Cir. 2010) ). \"Substantial evidence is less than a preponderance, but is enough that a reasonable mind would find it adequate to support the Commissioner's conclusion.\" Id. (quoting McKinney v. Apfel , 228 F.3d 860, 863 (8th Cir. 2000) ). If the record supports two inconsistent conclusions, this court must affirm the Commissioner's choice among those two conclusions. Id. at 689-90.\nIII. Analysis\nThe ALJ's assessment that Bagwell is only moderately intellectually limited, rather than intellectually disabled, is supported by substantial evidence in the record. Dr. Caspall specifically opined that Bagwell's only mental limitation was a mild form of major depressive disorder. She did not find that Bagwell was intellectually disabled. While Dr. Clements found significant mental disabilities, the ALJ rejected his opinion because he appeared to take Bagwell's complaints at face value without testing for malingering or otherwise complying with SSA standards for ascertaining disability. The ALJ also noted that Bagwell's mental conditions appeared controllable with medicine, which weighs against a finding of disability. Under the applicable standard of review, we cannot see how crediting Dr. Caspall's opinion over Dr. Clements's opinion would make the ALJ's decision unsupported by substantial evidence. Even if Bagwell's arguments against crediting Dr. Caspall's opinion have merit, failures in Dr. Caspall's opinion do not mean that the ALJ was required to agree with Dr. Clements's opinion. At best, Bagwell has shown that the ALJ picked between two potentially flawed expert opinions in a limited record, which does not satisfy his burden of proof here. Thus, we agree with the district court that the ALJ's judgment was supported by substantial evidence.\nBecause the ALJ's decision was supported by substantial evidence, Bagwell's other argument about the ALJ's failure to consider whether he met the criteria for intellectual disability in Listing 12.05C has no merit. In order to satisfy Listing 12.05C, as it existed at the time of his application, Bagwell needed to show (1) a \"significantly subaverage general intellectual functioning with deficits in adaptive functioning manifested ... before age 22,\" (2) \"[a] valid verbal, performance, or full scale IQ of 60 through 70,\" and (3) \"a physical or other mental impairment imposing an additional and significant work related limitation of function.\" 20 C.F.R. Pt. 404, Subpt. P, App. 1 \u00a7 12.05 (2016). Even if Bagwell had a valid IQ score in the record (which the parties dispute), he cannot meet the other criteria for deficits in adaptive functioning or significant work related limitations in light of the ALJ's findings about his intellectual capacity. The ALJ could not have erred by failing to address listings that were unsupported by the record. Boettcher v. Astrue , 652 F.3d 860, 863 (8th Cir. 2011) (\"There is no error when an ALJ fails to explain why an impairment does not equal one of the listed impairments as long as the overall conclusion is supported by the record.\").\nIV. Conclusion\nWe affirm the judgment of the district court that the Commissioner's decision to deny disability benefits was supported by substantial evidence.\nThe Honorable Beth Deere, United States Magistrate Judge for the Eastern District of Arkansas, to whom the case was referred for final disposition by consent of the parties pursuant to 28 U.S.C. \u00a7 636(c).\nIn addition to reviewing those witnesses' opinions, the ALJ also saw Dr. Kay Cogbill's review of Bagwell's previous psychological assessments. Her report was part of the SSA's two reviews and denials of Bagwell's petition prior to the ALJ hearing. Dr. Cogbill's review included records from Bagwell's previous application for disability benefits, but those prior records were not in the ALJ's record in this case.\nWhile Bagwell argues that the ALJ failed to address opinions from Dr. Hope Gilchrist and Dr. George DeRoeck, this argument misses the mark because those opinions were in the prior application records reviewed by Dr. Cogbill, not in the ALJ's record in this case.\nThe ALJ admitted Bagwell had expressed financial difficulties in obtaining the medicine, but the ALJ noted that clinics existed where Bagwell could obtain the necessary medication for free. The ALJ also noted that the medicine prescribed by Dr. Clements was only a 30-day supply with no refills, implying that it was unclear how permanently Bagwell needed such medicine.\nThe ALJ discredited testimony from Bagwell's brother because he appeared to uncritically accept Bagwell's claims. The ALJ also discredited testimony from Dr. Rodger Troxel because Dr. Troxel was not qualified to testify about mental health.\nListing 12.05 is the name for the intellectual disability category in the list of impairments in SSA's regulations. See 20 C.F.R. Pt. 404, Subpt. P, App. 1 \u00a7 12.05 (2016). Subpart C describes a particular set of criteria for demonstrating intellectual disability. See id.",
+        "type": "majority",
+        "author": "GRASZ, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Eugene Gregory Wallace, Campbell University School of Law, Raleigh, NC, Stephanie Bartels Wallace, Bartels Law Firm, Jonesboro, AR, for Plaintiff-Appellant.",
+      "Traci B. Davis, Una McGeehan, Assistant Regional Counsel, Social Security Administration, Office of General Counsel Region VI, Dallas, TX, Stacey E. McCord, Assistant U.S. Attorney, U.S. Attorney's Office, Eastern District of Arkansas, Little Rock, AR, for Defendant-Appellee."
+    ],
+    "corrections": "",
+    "head_matter": "Dwain BAGWELL, Plaintiff-Appellant\nv.\nCOMMISSIONER, SOCIAL SECURITY ADMINISTRATION, Defendant-Appellee\nNo. 18-2514\nUnited States Court of Appeals, Eighth Circuit.\nSubmitted: January 17, 2019\nFiled: February 28, 2019\nEugene Gregory Wallace, Campbell University School of Law, Raleigh, NC, Stephanie Bartels Wallace, Bartels Law Firm, Jonesboro, AR, for Plaintiff-Appellant.\nTraci B. Davis, Una McGeehan, Assistant Regional Counsel, Social Security Administration, Office of General Counsel Region VI, Dallas, TX, Stacey E. McCord, Assistant U.S. Attorney, U.S. Attorney's Office, Eastern District of Arkansas, Little Rock, AR, for Defendant-Appellee.\nBefore LOKEN, GRASZ, and STRAS, Circuit Judges."
+  },
+  "file_name": "1117-01",
+  "first_page_order": 1117,
+  "last_page_order": 1120
+}

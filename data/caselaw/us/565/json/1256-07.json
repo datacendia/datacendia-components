@@ -1,0 +1,59 @@
+{
+  "id": 12251160,
+  "name": "In re Disbarment of Thompson",
+  "name_abbreviation": "In re Disbarment of Thompson",
+  "decision_date": "2012-03-19",
+  "docket_number": "No. D-2607",
+  "first_page": "1256",
+  "last_page": "1256",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1256"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 109,
+    "ocr_confidence": 0.629,
+    "sha256": "6332c968374b97a998fa3b9ce01bd570801db63b3f5a64a171b4408cc22424aa",
+    "simhash": "1:3878f882eb02d266",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Thompson."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered. [For earlier order herein, see ante, p. 1052.]",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2607.\nIn re Disbarment of Thompson."
+  },
+  "file_name": "1256-07",
+  "first_page_order": 1338,
+  "last_page_order": 1338
+}

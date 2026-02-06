@@ -1,0 +1,59 @@
+{
+  "id": 12429965,
+  "name": "Maye v. Haynes, Warden",
+  "name_abbreviation": "Maye v. Haynes",
+  "decision_date": "2013-01-22",
+  "docket_number": "No. 12-270",
+  "first_page": "1143",
+  "last_page": "1143",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1143"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.633,
+    "sha256": "ebe181ca786f7925032fae62b8d58c81bd0e059d6b15a5d9230ccced71deb9a3",
+    "simhash": "1:b5c1cf33a7ebb24c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Maye v. Haynes, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-270.\nMaye v. Haynes, Warden."
+  },
+  "file_name": "1143-05",
+  "first_page_order": 1219,
+  "last_page_order": 1219
+}

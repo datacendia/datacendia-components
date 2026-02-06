@@ -1,0 +1,59 @@
+{
+  "id": 12413926,
+  "name": "Neal v. Florida",
+  "name_abbreviation": "Neal v. Florida",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10727",
+  "first_page": "858",
+  "last_page": "858",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 858"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 81,
+    "ocr_confidence": 0.65,
+    "sha256": "f9b0702389da481d8bd11e0911128bf4f958451675723f15ec55061a36ac0a1d",
+    "simhash": "1:0119809247c16898",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Neal v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 1st Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10727.\nNeal v. Florida."
+  },
+  "file_name": "0858-13",
+  "first_page_order": 934,
+  "last_page_order": 934
+}

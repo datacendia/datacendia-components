@@ -1,0 +1,59 @@
+{
+  "id": 5993096,
+  "name": "Smith v. McClure",
+  "name_abbreviation": "Smith v. McClure",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-7941",
+  "first_page": "1230",
+  "last_page": "1230",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1230"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 65,
+    "ocr_confidence": 0.665,
+    "sha256": "f5c47045246c13449e4eb32ba29031c675ff8be6166f17ceaff0cf551e267c3e",
+    "simhash": "1:32c680d9d6839104",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Smith v. McClure."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7941.\nSmith v. McClure."
+  },
+  "file_name": "1230-02",
+  "first_page_order": 1252,
+  "last_page_order": 1252
+}

@@ -1,0 +1,913 @@
+{
+  "id": 6052731,
+  "name": "GREEN VALLEY LANDOWNERS ASSOCIATION, Plaintiff and Appellant, v. CITY OF VALLEJO, Defendant and Respondent",
+  "name_abbreviation": "Green Valley Landowners Ass'n v. City of Vallejo",
+  "decision_date": "2015-10-16",
+  "docket_number": "No. A142808",
+  "first_page": "425",
+  "last_page": "443",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "241 Cal. App. 4th 425"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "131 Cal.Rptr. 830",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "60 Cal.App.3d 757",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4518413
+      ],
+      "pin_cites": [
+        {
+          "page": "761"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/60/0757-01"
+      ]
+    },
+    {
+      "cite": "71 Cal.Rptr.3d 361",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "158 Cal.App.4th 1582",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3835781
+      ],
+      "pin_cites": [
+        {
+          "page": "1599"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/158/1582-01"
+      ]
+    },
+    {
+      "cite": "163 Cal.Rptr.3d 754",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "220 Cal.App.4th 1450",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3800723
+      ],
+      "pin_cites": [
+        {
+          "page": "1469-1470"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/220/1450-01"
+      ]
+    },
+    {
+      "cite": "261 Cal.Rptr. 805",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "213 Cal.App.3d 648",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4440704
+      ],
+      "pin_cites": [
+        {
+          "page": "660-661"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/213/0648-01"
+      ]
+    },
+    {
+      "cite": "729 P.2d 186",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "233 Cal.Rptr. 22",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 Cal.3d 1172",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4464655
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "1189-1190"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/42/1172-01"
+      ]
+    },
+    {
+      "cite": "163 Cal.Rptr.3d 243",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "220 Cal.App.4th 586",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3801545
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/220/0586-01"
+      ]
+    },
+    {
+      "cite": "131 Cal.Rptr.3d 373",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "198 Cal.App.4th 926",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4238436
+      ],
+      "pin_cites": [
+        {
+          "page": "931"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/198/0926-01"
+      ]
+    },
+    {
+      "cite": "162 Cal.Rptr.3d 769",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "220 Cal.App.4th 107",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3801370
+      ],
+      "pin_cites": [
+        {
+          "page": "128"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/220/0107-01"
+      ]
+    },
+    {
+      "cite": "201 Cal.Rptr. 15",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 2009,
+      "opinion_index": 0
+    },
+    {
+      "cite": "156 Cal.App.3d 200",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2146777
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "204-205"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/156/0200-01"
+      ]
+    },
+    {
+      "cite": "80 Cal.Rptr.2d 549",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1984,
+      "opinion_index": 0
+    },
+    {
+      "cite": "68 Cal.App.4th 824",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        783208
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "830"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/68/0824-01"
+      ]
+    },
+    {
+      "cite": "65 Cal.Rptr.3d 762",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "155 Cal.App.4th 104",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3652247
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/155/0104-01"
+      ]
+    },
+    {
+      "cite": "82 P.2d 434",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "12 Cal.2d 140",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2202104
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/12/0140-01"
+      ]
+    },
+    {
+      "cite": "196 P. 118",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "51 Cal.App. 82",
+      "category": "reporters:state",
+      "reporter": "Cal. App.",
+      "case_ids": [
+        2094548
+      ],
+      "pin_cites": [
+        {
+          "page": "86"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app/51/0082-01"
+      ]
+    },
+    {
+      "cite": "6 Cal.Rptr. 750",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1921,
+      "opinion_index": 0
+    },
+    {
+      "cite": "183 Cal.App.2d 137",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        4372591
+      ],
+      "pin_cites": [
+        {
+          "page": "138-139"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/183/0137-01"
+      ]
+    },
+    {
+      "cite": "166 P. 351",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "year": 1960,
+      "opinion_index": 0
+    },
+    {
+      "cite": "175 Cal. 441",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        2071112
+      ],
+      "year": 1960,
+      "pin_cites": [
+        {
+          "page": "445"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal/175/0441-01"
+      ]
+    },
+    {
+      "cite": "94 Cal.Rptr. 58",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "14 Cal.App.3d 23",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4418824
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "29-30"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/14/0023-01"
+      ]
+    },
+    {
+      "cite": "152 P. 293",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "171 Cal. 150",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        2065909
+      ],
+      "pin_cites": [
+        {
+          "page": "153-154"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal/171/0150-01"
+      ]
+    },
+    {
+      "cite": "76 Cal.Rptr.2d 626",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "65 Cal.App.4th 650",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        527253
+      ],
+      "pin_cites": [
+        {
+          "page": "661"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/65/0650-01"
+      ]
+    },
+    {
+      "cite": "159 P. 600",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "year": 1998,
+      "opinion_index": 0
+    },
+    {
+      "cite": "173 Cal. 228",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        2038957
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "232"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal/173/0228-01"
+      ]
+    },
+    {
+      "cite": "126 Cal.Rptr.2d 405",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "103 Cal.App.4th 45",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        747569
+      ],
+      "pin_cites": [
+        {
+          "page": "52"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/103/0045-01"
+      ]
+    },
+    {
+      "cite": "93 Cal.Rptr.2d 292",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "78 Cal.App.4th 1087",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        196770
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/78/1087-01"
+      ]
+    },
+    {
+      "cite": "510 P.2d 1032",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "108 Cal.Rptr. 480",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "9 Cal.3d 566",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2297519
+      ],
+      "pin_cites": [
+        {
+          "page": "576"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/9/0566-01"
+      ]
+    },
+    {
+      "cite": "765 P.2d 373",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1973,
+      "opinion_index": 0
+    },
+    {
+      "cite": "254 Cal.Rptr. 211",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1973,
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.3d 654",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1971377
+      ],
+      "year": 1973,
+      "pin_cites": [
+        {
+          "page": "683-684, 690"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/47/0654-01"
+      ]
+    },
+    {
+      "cite": "96 Cal.Rptr.3d 813",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "175 Cal.App.4th 1306",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3973890
+      ],
+      "pin_cites": [
+        {
+          "page": "1332"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/175/1306-01"
+      ]
+    },
+    {
+      "cite": "442 P.2d 377",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 2009,
+      "opinion_index": 0
+    },
+    {
+      "cite": "69 Cal.Rptr. 321",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 2009,
+      "opinion_index": 0
+    },
+    {
+      "cite": "68 Cal.2d 822",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2306184
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "830"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/68/0822-01"
+      ]
+    },
+    {
+      "cite": "266 P.3d 287",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "134 Cal.Rptr.3d 779",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "52 Cal.4th 1171",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3919195
+      ],
+      "pin_cites": [
+        {
+          "page": "1178"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/52/1171-01"
+      ]
+    },
+    {
+      "cite": "96 Cal.Rptr.2d 354",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "81 Cal.App.4th 39",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1113210
+      ],
+      "pin_cites": [
+        {
+          "page": "43-14"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/81/0039-01"
+      ]
+    },
+    {
+      "cite": "162 Cal.Rptr.3d 525",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2000,
+      "opinion_index": 0
+    },
+    {
+      "cite": "219 Cal.App.4th 1481",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6050663
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "1491"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/219/1481-01"
+      ]
+    },
+    {
+      "cite": "112 Cal.Rptr.2d 677",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "93 Cal.App.4th 37",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        974656
+      ],
+      "pin_cites": [
+        {
+          "page": "43-44"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/93/0037-01"
+      ]
+    },
+    {
+      "cite": "129 P.3d 394",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "40 Cal.Rptr.3d 205",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 Cal.4th 1",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3852954
+      ],
+      "pin_cites": [
+        {
+          "page": "6"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/38/0001-01"
+      ]
+    },
+    {
+      "cite": "64 Cal.Rptr.3d 488",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "154 Cal.App.4th 154",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3614714
+      ],
+      "pin_cites": [
+        {
+          "page": "162"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/154/0154-01"
+      ]
+    },
+    {
+      "cite": "117 Cal.Rptr.3d 747",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2007,
+      "opinion_index": 0
+    },
+    {
+      "cite": "189 Cal.App.4th 1354",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4226228
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "1360, fn. 2"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/189/1354-01"
+      ]
+    },
+    {
+      "cite": "179 Cal.Rptr.3d 807",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "231 Cal.App.4th 93",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4138026
+      ],
+      "pin_cites": [
+        {
+          "page": "96, fn. 1"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/231/0093-01"
+      ]
+    },
+    {
+      "cite": "167 Cal.Rptr.3d 832",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "223 Cal.App.4th 1105",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6052456
+      ],
+      "pin_cites": [
+        {
+          "page": "1136-1137"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/223/1105-01"
+      ]
+    },
+    {
+      "cite": "93 P. 490",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "152 Cal. 579",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        1980159
+      ],
+      "pin_cites": [
+        {
+          "page": "594"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal/152/0579-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1630,
+    "char_count": 41469,
+    "ocr_confidence": 0.881,
+    "pagerank": {
+      "raw": 7.925936262161002e-08,
+      "percentile": 0.46176919967148666
+    },
+    "sha256": "0e96d7399ca5c0961fdb1385a03e2ce18a544511167be2e42290a9cdfaae9f9a",
+    "simhash": "1:3aafd50ad7dee3f1",
+    "word_count": 6586
+  },
+  "last_updated": "2024-02-27T23:24:54.318392+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Margulies, Acting P. J., and Banke, J., concurred."
+    ],
+    "parties": [
+      "GREEN VALLEY LANDOWNERS ASSOCIATION, Plaintiff and Appellant, v. CITY OF VALLEJO, Defendant and Respondent."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nDONDERO, J.\nIn this class action comprised of nonresident water customers, plaintiff Green Valley Landowners Association filed a complaint seeking to preserve its alleged right to continue receiving water at reasonable rates from a historical water delivery system owned and operated by defendant City of Vallejo (City). The trial court sustained the City\u2019s demurrer as to all 12 causes of action contained in the complaint without leave to amend. Plaintiff contends the court\u2019s rulings are legally erroneous. We affirm.\nFACTUAL BACKGROUND AND PROCEDURAL HISTORY\nI. Factual Background\nThe Lakes Water System (LWS) was created in the late 1800\u2019s through the early 1900\u2019s to provide the City with potable water. The City first constructed a diversion dam coupled with a 14-inch transmission pipeline, which brought water from Solano County\u2019s Green Valley to the City (the Green Line). After completing the dam, the City created two reservoirs, Lake Frey (completed in 1894) and Lake Madigan (completed in 1908). The LWS was one of the first municipal water projects in California.\nLake Frey and Lake Madigan were soon insufficient to meet the demands of the City\u2019s rapidly growing population. The City then applied for a permit to store 37,000 acre-feet of water in the hills above Napa County\u2019s Gordon Valley. Subsequently, the City constructed a dam and reservoir in Napa County known as Lake Curry (completed in 1925), along with a 24-inch transmission line to transport water from Lake Curry to the City (the Gordon Line). Upon completion, the LWS consisted of three large reservoirs, two dams, thousands of acres of land and watershed, and dozens of miles of municipal-sized pipes, which conveyed needed water to the City.\nIn order to transport the water from the three reservoirs, the City acquired easements from some of the property owners along the Green Line, the Gordon Line, and elsewhere within the LWS service area. In exchange for these easements, the City agreed in writing to provide a certain quantity of \u201cfree water\u201d to the owners of the servient estates. In addition, the City agreed in writing to provide certain quantities of \u201cfree water\u201d to other nonresident customers in exchange for riparian water rights. Over the decades, the City agreed to provide potable water to other nonresident customers. These connections were made without a master plan.\nFrom 1893 through the 1950\u2019s, the City\u2019s municipal water needs were met exclusively by the LWS. In the 1950\u2019s, the City obtained water rights from the Sacramento River Delta and contracted for water from the Solano Project.\nIn 1992, water quality from Lake Curry ceased to meet water treatment standards adopted by the State Department of Health Services. The City elected to stop using Lake Curry as a water source, closed a valve on the Gordon Line and stopped the flow of LWS water to the City. The City then passed an ordinance (the 1992 Ordinance) shifting 100 percent of the cost of operating the LWS to its approximately 809 nonresident customers. Prior to 1991, these nonresidents had shared the cost of the LWS with approximately 30,000 metered connections within the City. As a result of the 1992 Ordinance, water rates for the nonresident customers increased by over 230 percent.\nThe City passed additional water rate increases by ordinances enacted in 1995 (the 1995 Ordinance) and 2009 (the 2009 Ordinance). In addition to increasing water consumption charges, the ordinances increased the fixed service charges to the nonresident customers of the LWS. Plaintiff alleges in its complaint that current water rates within the LWS are among the highest in the state.\nOn June 9, 2009, plaintiff, on behalf of the purported class of nonresident LWS customers (the Class), entered into a tolling agreement with the City (Tolling Agreement). The Tolling Agreement tolls \u201cany applicable statutes of limitations regarding a potential challenge to the rate increase [which occurred in 2009].\u201d The Tolling Agreement has been extended 10 times, and expired on December 31, 2013.\nAccording to plaintiff, the City has grossly mismanaged and neglected the LWS, placing the burden on the Class to fund a deteriorating, inefficient, and costly water system that is spread over an \u201cincoherent service area.\u201d In addition to water treatment plant improvements made between 1997 and 2005 that cost almost $8 million, replacement cost for a 10-mile section of the Gordon Line and a six-mile section of the Green Line are expected to be over $12 million. All of these costs have been, or will be, passed on to the LWS\u2019s nonresident customers. Plaintiff did not become aware of these unfunded liabilities until June 2013. Previously, the City had represented that the LWS was free of liabilities and debt, even though it performed \u201cvirtually no capital improvements to or replacements of the infrastructure\u201d between 1894 and 1992.\nPlaintiff also alleges that the City had engaged in negotiations with a private investor-owned utility to purchase the LWS. Reportedly, the City will only consider selling the LWS to plaintiff (or to a water district or service district created by plaintiff) for a sum that is almost $3 million over its \u201calready flawed appraised value of the LWS.\u201d The extra sum reportedly represents a loan or subsidy that the City claims it extended to LWS customers prior to 2009. Additionally, plaintiff complains that certain fees paid by Class members have not been earmarked for LWS improvements as required by City ordinances, but instead have been improperly used by the City for other unrelated purposes.\nII. Procedural History\nOn December 3, 2013, plaintiff filed and served a claim pursuant to Government Code section 910 on behalf of itself and the Class.\nOn January 23, 2013, plaintiff filed the operative complaint against the City. The class action complaint states 12 causes of action, comprised of claims for breach of implied contract, breach of implied covenant of good faith and fair dealing, breach of contract (third party beneficiary), breach of duty to charge reasonable water rates, breach of fiduciary duty, specific performance, declaratory relief, and accounting, along with four separate claims for injunctive relief.\nOn February 24, 2014, the City filed a general demurrer to the complaint.\nOn June 11, 2014, the trial court issued a tentative ruling sustaining the City\u2019s demurrer without leave to amend.\nOn August 21, 2014, plaintiff filed its notice of appeal.\nOn August 22, 2014, the trial court filed its order affirming its tentative ruling, granting the demurrer without leave to amend.\nOn October 1, 2014, the trial court filed its order dismissing the lawsuit and entered final judgment for the City.\nDISCUSSION\nI. Standard of Review\n\u201cBecause this case comes to us on a demurrer for failure to state a cause of action, we accept as true the well-pleaded allegations in plaintiff[\u2019s] . . . complaint. \u2018 \u201cWe treat the demurrer as admitting all material facts properly pleaded, but not contentions, deductions or conclusions of fact or law. [Citation.] We also consider matters which may be judicially noticed.\u201d [Citation.] Further, we give the complaint a reasonable interpretation, reading it as a whole and its parts in their context.\u2019 \u201d (Evans v. City of Berkeley (2006) 38 Cal.4th 1, 6 [40 Cal.Rptr.3d 205, 129 P.3d 394].)\n\u201cWhile the decision to sustain or overrule a demurrer is a legal ruling subject to de novo review on appeal, the granting of leave to amend involves an exercise of the trial court\u2019s discretion. [Citations.] When the trial court sustains a demurrer without leave to amend, we must also consider whether the complaint might state a cause of action if a defect could reasonably be cured by amendment. If the defect can be cured, then the judgment of dismissal must be reversed to allow the plaintiff an opportunity to do so. The plaintiff bears the burden of demonstrating a reasonable possibility to cure any defect by amendment. [Citations.] A trial court abuses its discretion if it sustains a demurrer without leave to amend when the plaintiff shows a reasonable possibility to cure any defect by amendment. [Citations.] If the plaintiff cannot show an abuse of discretion, the trial court\u2019s order sustaining the demurrer without leave to amend must be affirmed.\u201d (Traders Sports, Inc. v. City of San Leandro (2001) 93 Cal.App.4th 37, 43-44 [112 Cal.Rptr.2d 677].)\nThe plaintiff\u2019s \u201cburden of demonstrating a reasonable possibility to cure any defect\u201d (Traders Sports, Inc. v. City of San Leandro, supra, 93 Cal.App.4th at p. 43) is not pro forma. \u201c \u2018To satisfy that burden on appeal, a plaintiff \u201cmust show in what manner he can amend his complaint and how that amendment will change the legal effect of his pleading.\u201d [Citation.] . . . The plaintiff must clearly and specifically set forth . . . factual allegations that sufficiently state all required elements of that cause of action. [Citations.] Allegations must be factual and specific, not vague or conclusionary.\u2019 \u201d (Rossberg v. Bank of America, N.A. (2013) 219 Cal.App.4th 1481, 1491 [162 Cal.Rptr.3d 525], quoting Rakestraw v. California Physicians\u2019 Service (2000) 81 Cal.App.4th 39, 43-14 [96 Cal.Rptr.2d 354].)\nII. The Demurrer Was Properly Sustained as to the Implied Contract Claims\nA. Causes of Action\nPlaintiff represents that its implied contract claims, which it identifies as the first (breach of implied contract), second (breach of implied covenant of good faith and fair dealing) and 10th (specific performance) causes of action, are based on its theory that the City is contractually obligated to share in the cost of the LWS pursuant to what plaintiff refers to as the \u201cHistoric[al] Cost Sharing Ratio.\u201d The gist of these claims is that the City made an implied promise that it would \u201cindefinitely share in the cost of operating, maintaining and improving the LWS and that the costs would be shared according to the Historic[al] Cost Sharing Ratio,\u201d a promise that it allegedly breached when it passed the 1992, 1995, and 2009 Ordinances.\nAs the City notes, plaintiff\u2019s third cause of action is also based on an implied contract theory. The City also correctly observes that the complaint\u2019s 10th claim, which is for specific performance of the alleged implied agreement, actually constitutes a remedy and is not itself a cause of action.\nB. Implied Contracts\n\u201cThe terms of an express contract are stated in words. [Citation.] The existence and terms of an implied contract are manifested by conduct. [Citation.] The distinction reflects no difference in legal effect but merely in the mode of manifesting assent.\u201d (Retired Employees Assn. of Orange County, Inc. v. County of Orange (2011) 52 Cal.4th 1171, 1178 [134 Cal.Rptr.3d 779, 266 P.3d 287].) The essential elements of a claim of breach of contract, whether express or implied, are the contract, the plaintiff\u2019s performance or excuse for nonperformance, the defendant\u2019s breach, and the resulting damages to the plaintiff. (Reichert v. General Ins. Co. (1968) 68 Cal.2d 822, 830 [69 Cal.Rptr. 321, 442 P.2d 377]; Habitat Trust for Wildlife, Inc. v. City of Rancho Cucamonga (2009) 175 Cal.App.4th 1306, 1332 [96 Cal.Rptr.3d 813].) The prerequisite for any action for breach of the implied covenant of good faith and fair dealing is the existence of a contractual relationship between the parties, since the covenant is an implied term in the contract. (See Foley v. Interactive Data Corp. (1988) 47 Cal.3d 654, 683-684, 690 [254 Cal.Rptr. 211, 765 P.2d 373]; Gruenberg v. Aetna Ins. Co. (1973) 9 Cal.3d 566, 576 [108 Cal.Rptr. 480, 510 P.2d 1032] [since noninsurer defendants in bad faith case were not parties to the insurance contracts, they were not subject to an implied duty of good faith and fair dealing].)\nThe trial court found the City could not be subjected to liability under an implied contract theory, first noting the City\u2019s charter does not contain any provisions specifically addressing contract formation. As the charter is silent, the court concluded the City\u2019s contracting procedures are governed by the general law provision found in section 40602. That section applies to the manner of contract formation and provides, in part, \u201c[t]he mayor shall sign . . \u2022 [\u00b6] \u2022 \u2022 \u2022 [\u00b6] \u2022 \u2022 \u2022 [a]ll written contracts and conveyances made or entered into by the city.\u201d (Ibid., italics added.)\nThe trial court also cited to G. L. Mezzetta, Inc. v. City of American Canyon (2000) 78 Cal.App.4th 1087 [93 Cal.Rptr.2d 292] (Mezzetta). In Mezzetta, the appellate court concluded that certain municipal code provisions together with section 40602 precluded the general law city of American Canyon from entering into an oral agreement. The agreement had allegedly obligated the city to provide the plaintiff with wastewater discharge services. The court reasoned: \u201c[IJmplicit in the relevant statutes, when read together, is the requirement that contracts with the City be in writing, approved by the city council, approved as to form by the city attorney, and signed by either the mayor or the city manager. [Citations.]\u201d (Mezzetta, at p. 1093, italics added.) The court held that the alleged oral agreement was void because it failed to comply with this requirement: \u201c[B]ecause the statutes in question specifically set forth the ways in which the City may enter into contracts, any other methods of contract formation \u2014 even though not explicitly prohibited by the statutes \u2014 are invalid. [Citations.] To conclude otherwise would undermine the City\u2019s clear intent to \u2018 \u201censure that expensive decisions are not hastily made.\u201d \u2019 \u201d (Id. at pp. 1093-1094, fn. omitted.)\nPlaintiff does not dispute that the City\u2019s charter is silent with respect to the manner of contracting. It also concedes the \u201cimplied agreement to share in the cost of the LWS was never memorialized in writing.\u201d It contends section 40602 does not apply because charter cities \u201care independent of the general laws of the State on all matters of municipal affairs.\u201d This is true, according to plaintiff, even as to matters on which the charter is silent. In so arguing, plaintiff construes cases that favor charter city ordinances over conflicting general law provisions as standing for the proposition that general laws have no application to charter cities in the absence of ordinances or charter provisions that expressly invoke those general laws. This construction is not supported by case law.\nC. General Law and Charter Cities\n\u201c \u2018The Government Code classifies cities as either \u201cgeneral law cities\u201d (cities organized under the general law of California) or \u201cchartered cities\u201d (cities organized under a charter).\u2019 \u201d (City of Orange v. San Diego County Employees Retirement Assn. (2002) 103 Cal.App.4th 45, 52 [126 Cal.Rptr.2d 405].) It is well settled that the method by which a city has power to enter into a contract may be controlled by its charter. (Loop Lumber Co. v. Van Loben Sels (1916) 173 Cal. 228, 232 [159 P. 600]; First Street Plaza Partners v. City of Los Angeles (1998) 65 Cal.App.4th 650, 661 [76 Cal.Rptr.2d 626] (First Street).) Further, unless the city charter authorizes such, no implied contract rights can arise. (Reams v. Cooley (1915) 171 Cal. 150, 153-154 [152 P. 293]; First Street, at p. 667.)\nSection 201 of the City\u2019s charter states: \u201cThe City shall have the power to act pursuant to procedure established by any law of the State unless a different procedure is required by this Chapter.\u201d The court below correctly noted that the manner in which a city may form a contract is a municipal affair, and that the City\u2019s charter, which could have validly included contract formation provisions, \u201cdoes not specifically prescribe how its contracts must be executed.\u201d The court concluded the City could thus rely on section 40602 for guidance. Plaintiff contends charter cities are never subject to general laws, including section 40602, even if their charters are silent on the subject matter. We are not persuaded.\nCharter cities are specifically authorized by our state Constitution to govern themselves, free of state legislative intrusion, as to those matters deemed municipal affairs. Article XI, section 5, subdivision (a) of the California Constitution provides: \u201cIt shall be competent in any city charter to provide that the city governed thereunder may make and enforce all ordinances and regulations in respect to municipal affairs, subject only to restrictions and limitations provided in their several charters and in respect to other matters they shall be subject to general laws. City charters adopted pursuant to this Constitution shall supersede any existing charter, and with respect to municipal affairs shall supersede all laws inconsistent therewith.\u201d (Italics added.) As the italicized provisions indicate, chartered cities are permitted, but not required, to make and enforce laws governing municipal affairs. If a city\u2019s charter is silent as to a particular matter, even one concerning a municipal affair, courts have opined that the matter will be subject to the general laws of this state. (See, e.g., McLeod v. Board of Pension Commissioners (1970) 14 Cal.App.3d 23, 29-30 [94 Cal.Rptr. 58] (McLeod) [\u201cA city, such as Los Angeles, which operates under a freeholders\u2019 charter[,] is exempt from the operation of general laws with respect to all \u2018municipal affairs\u2019 covered by the charter. [Citation.] . . . However, where the charter contains no special procedure concerning a municipal subject, the general laws govern.\u201d (italics added, fn. omitted)].)\nAs noted in section 201 of the Vallejo Charter, the City is permitted to follow the laws of California regarding contract formation, i.e., section 40602, unless \u201ca different procedure is required by this Chapter.\u201d (Italics added.) And section 200 of the Vallejo Charter expressly permits the City to \u201cexercise any and all rights [and powers] . . . established, granted or prescribed by the general laws of the State.\u201d Thus, as the trial court below concluded, the Vallejo Charter has effectively adopted the procedures set forth in section 40602 over any other municipal-based approach to government contracts. Simply stated, the City has not opted to create a different contracting procedure under its charter.\nWe concur with the holding of McLeod, supra, 14 Cal.App.3d 23. That decision follows established principles in addressing charter cities and the effect of state statutes on such municipalities when their charters do not provide specific guidance on a matter of municipal concern. We disagree with plaintiff\u2019s characterization of McLeod as an isolated decision. (See Civic Center Assn. v. Railroad Comm. (1917) 175 Cal. 441, 445 [166 P. 351] [\u201cWith respect to matters not municipal, or municipal affairs upon which the charter [is] silent, the provisions of any general law [i.e., state statute] pertaining thereto would control the subject.\u201d]; Armas v. City of Oakland (1960) 183 Cal.App.2d 137, 138-139 [6 Cal.Rptr. 750] [\u201cAlthough Oakland is a charter city, plaintiffs concede that its charter and ordinances prescribe no procedure for street closing and that thus the procedural provisions of state law must be followed, even if the function be municipal in character . . . .\u201d]; Hyde v. Wilde (1921) 51 Cal.App. 82, 86 [196 P. 118] [\u201cWhere no particular provisions are made covering a matter falling within the classification of a \u2018municipal affair,\u2019 the state law controls.\u201d].)\nIn arguing otherwise, plaintiff relies on Butterworth v. Boyd (1938) 12 Cal.2d 140 [82 P.2d 434] (Butterworth) for the proposition that charter cities are not bound by the general laws of this state with respect to municipal affairs, even as to matters that the charter does not address. In Butterworth, a proposed charter amendment to the charter of the City and County of San Francisco was approved by the electorate, and became effective by concurrent resolution of the Legislature. The amendment called for a \u201c \u2018health [care] system\u2019 \u201d for municipal employees. (12 Cal.2d at p. 143.)\nIn deciding whether the establishment of a health care system qualified as a \u201c \u2018municipal affair,\u2019 \u201d the Supreme Court observed, \u201cIn the early stages of municipal home rule in California, the charter prevailed only where it expressly covered the particular power exercised. Under the liberalizing constitutional amendment of 1914, the charter is not a grant of power but a restriction only, and the municipality is supreme in the field of municipal affairs even as to matters on which the charter is silent.\u201d (Butterworth, supra, 12 Cal.2d at p. 146, italics added.) As is apparent, the language plaintiff relies on from Butterworth simply states the well-established principle that chartered cities may act independent of general law with respect to matters deemed \u201cmunicipal affairs,\u201d regardless of whether their charters address the specific municipal affair that is at issue. It does not stand for the proposition that general laws never apply to chartered cities, particularly in the absence of conflicting municipal ordinances or regulations.\nAs the Butterworth court stated: \u201cThe purpose of the constitutional provisions was to make municipalities self-governing and free from legislative interference with respect to matters of local or internal concern. \u2018It was to enable municipalities to conduct their own business and control their own affairs, to the fullest possible extent in their own way. It was enacted upon the principle that the municipality itself knew better what it wanted and needed than the state at large, and to give that municipality the exclusive privilege and right to enact direct legislation which would carry out and satisfy its wants and needs.\u2019 \u201d (Butterworth, supra, 12 Cal.2d at p. 147, italics added.) Thus, Butterworth merely stands for the proposition that a chartered city has the power to enact regulations regarding contract formation that differ from those contained in section 40602, something the City has evidently chosen not to do. Simply stated, in Butterworth, the court held the general law (state law) could not preempt a charter amendment passed by the voters of San Francisco specifically addressing the topic of city employee health insurance practices.\nD. Cities Cannot Be Sued Under an Implied Contract Theory\nEven if plaintiff is correct that section 40602 does not apply to this case, as explained by the Court of Appeal in Katsura v. City of San Buenaventura (2007) 155 Cal.App.4th 104 [65 Cal.Rptr.3d 762] (Katsura), \u201c[i]t is settled that \u2018a private party cannot sue a public entity on an implied-in-law or quasi-contract theory, because such a theory is based on quantum meruit or restitution considerations which are outweighed by the need to protect and limit a public entity\u2019s contractual obligations.\u2019 [Citations.] [\u00b6] . . . The reason is simple: \u2018 \u201cThe law never implies an agreement against its own restrictions and prohibitions, or [expressed differently], \u2018the law never implies an obligation to do that which it forbids the party to agree to do.\u2019 \u201d \u2019 [Citation.] In other words, contracts that disregard applicable code provisions are beyond the power of the city to make.\u201d (Id. at pp. 109-110.)\nThe principle set forth in Katsura, supra, 155 Cal.App.4th 104, is well established (see, e.g., Janis v. California State Lottery Com. (1998) 68 Cal.App.4th 824, 830 [80 Cal.Rptr.2d 549]; see also Seymour v. State of California (1984) 156 Cal.App.3d 200, 204-205 [201 Cal.Rptr. 15].) Limitations on a municipality\u2019s power to contract should be strictly construed because such restrictions are designed to protect the public, not those who contract with the municipality. (10 McQuillin, The Law of Municipal Corporations (3d rev. ed. 2009) \u00a7 29:6, p. 336.)\nPlaintiff seeks to distinguish Katsura, supra, 155 Cal.App.4th 104, because the operative charter in that case expressly required all city contracts to be in writing. Plaintiff asserts that if the City had \u201cwanted the benefit of the Katsura rule, it could have adopted similar charter language.\u201d However, the holding in Katsura was that all implied contracts against public entities are barred because, by definition, they have not formally been approved by the entity. The court in that case did not limit its holding to cities with charters that expressly require all contracts to be in writing.\nIn sum, we agree with the City that the demurrer as to the first, second, third and 10th causes of action was properly sustained.\nIII. Proposition 218\nThe trial court sustained the City\u2019s demurrer to the fourth, fifth, and 11th causes of action, finding them barred under Proposition 218. \u201cAdopted by California voters in November 1996, Proposition 218 added articles XIII C and XIII D to the California Constitution. Proposition 218 generally prohibits local governments from imposing taxes without voter approval.\u201d (Owens v. County of Los Angeles (2013) 220 Cal.App.4th 107, 128 [162 Cal.Rptr.3d 769].) \u201c \u2018Article XIII C concerns voter approval for local government general taxes and special taxes. Article XIII D sets forth procedures, requirements and voter approval mechanisms for local government assessments, fees and charges.\u2019 \u201d (City of Palmdale v. Palmdale Water Dist. (2011) 198 Cal.App.4th 926, 931 [131 Cal.Rptr.3d 373].)\nPlaintiff\u2019s fourth cause of action is for \u201cBreach of Duty to Charge a Reasonable Water Rate.\u201d In its claim, it asserts the City \u201cbreached its obligation to provide water at a reasonable rate\u201d when it passed the 1992, 1995, and 2009 Ordinances in contravention of the Historical Cost Sharing Ratio, causing Class members to pay rates almost five times higher than rates paid by City residents. It claims the Class has suffered damages in excess of $11 million, equal to the difference between what the Class paid under the 2009 Ordinance and what it would have paid had the City \u201chonored the contractual Historical] Cost Sharing Ratio.\u201d Similarly, the fifth cause of action for breach of fiduciary duty claims that the City owes the Class a duty to treat residents and nonresidents equally with respect to the LWS. The 11th cause of action for declaratory relief alleges that the City presently intends to sell the LWS to a private utility and claims the July 2014 rates \u201cwill continue to violate the Historical Cost Sharing Ratio by forcing the non-resident customers of the LWS to pay 100% of the cost of operating, maintaining and improving the LWS.\u201d\nThe trial court found what it referred to as the \u201c \u2018pooled-rate\u2019 structure\u201d proposed by plaintiff in these claims to be prohibited by article XIIID, section 6, subdivision (b) of the California Constitution, which provides that \u201c[a] fee or charge shall not be extended, imposed, or increased by any agency unless it meets all of the following requirements: [\u00b6] (1) Revenues derived from the fee or charge shall not exceed the funds required to provide the property-related service. [\u00b6] (2) Revenues derived from the fee or charge shall not be used for any purpose other than that for which the fee or charge was imposed. [\u00b6] (3) The amount of a fee or charge imposed upon any parcel or person as an incident of property ownership shall not exceed the proportional cost of the service attributable to the parcel.\u201d (Italics added.) The court cited to Griffith v. Pajaro Valley Water Management Agency (2013) 220 Cal.App.4th 586 [163 Cal.Rptr.3d 243] (Griffith) in support of its ruling, concluding that Proposition 218 \u201cprohibits a rate structure as alleged in Plaintiff\u2019s complaint that requires one group of customers to essentially subsidize another . . . .\u201d\nIn Griffith, the objectors appealed from judgments in favor of a water management agency challenging an ordinance enacted by the agency that increased groundwater augmentation charges for the operation of wells within the agency\u2019s jurisdiction. The Court of Appeal held that the augmentation charges were expressly exempt from Proposition 218\u2019s fee/charge voting requirement. \u201cGiven that Proposition 218 prescribes no particular method for apportioning a fee or charge other than that the amount shall not exceed the proportional cost of the service attributable to the parcel, defendant\u2019s method of grouping similar users together for the same augmentation rate and charging the users according to usage is a reasonable way to apportion the cost of service.\u201d (Griffith, supra, 220 Cal.App.4th at p. 601.)\nPlaintiff asserts Proposition 218 is irrelevant to this dispute because the complaint does not specify how the City is to satisfy its obligation to pay monetary damages equal to the difference between a \u201creasonable rate\u201d and the rates the City actually charged members of the putative class. However, the Historical Cost Sharing Ratio theory is not viable in light of Proposition 218. Manifestly, an apportionment that would place 98 percent of the burden of LWS on City residents while giving them zero services in return is unreasonable. Plaintiff also briefly asserts it should be granted leave to amend to allege a federal equal protection cause of action. However, the case that it relies on \u2014 Hansen v. City of San Buenaventura (1986) 42 Cal.3d 1172, 1189-1190 [233 Cal.Rptr. 22, 729 P.2d 186] (Hansen) \u2014 does not assist plaintiff, as it was decided before the passage of Proposition 218.\nIV. Injunctive Relief Against Sale\nPlaintiff\u2019s sixth and seventh causes of action are for injunctive relief against the alleged proposed sale of the LWS. The sixth cause of action is against the sale of the system, and the seventh is against the sale of the system without land. The complaint alleges that the City intends to sell the LWS to a private investor-owned utility that would thereafter \u201cbe allowed to pass the full cost of operating, maintaining and improving the LWS onto the Class.\u201d In the seventh cause of action, plaintiff asserts the city intends to sell the physical structure of the LWS, while retaining the excess real property for the benefit of its general municipal fund without investing any of the proceeds into the LWS.\nThe trial court concluded that it could not legally prevent the execution of a public sale, noting that both the California Constitution and Public Utilities Code section 10051 grant the City the power to operate and to sell its public utility assets. (See Leach v. City of San Marcos (1989) 213 Cal.App.3d 648, 660-661 [261 Cal.Rptr. 805] [\u201cUnder Code of Civil Procedure section 526 . . . and Civil Code section 3423 an injunction cannot be granted to prevent execution of a public statute. Nonetheless an injunction may issue where the statute or ordinance is invalid and a showing is made of irreparable injury to property or business.\u201d].) Here, plaintiff offers nothing persuasive to show that Public Utilities Code section 10051 is invalid. Accordingly, the two claims for injunctive relief fail.\nV. Injunctive Relief Against Surcharge Fee and Future Rate Structures\nPlaintiff\u2019s eighth cause of action asked for an injunction to stop the City from continuing a surcharge fee enacted as a part of the 1995 Ordinance after September 30, 2015, when it is set to expire. In the ninth cause of action it seeks to stop the City from imposing future rate structures that do not require it to share in the cost of operating and maintaining the LWS pursuant to the Historical Cost Sharing Ratio.\nAs the trial court correctly found, the speculative allegation that the City may violate the provision that discontinues the surcharge fee after September 30, 2015, was premature. Additionally, the court noted that under Water Replenishment Dist. of Southern California v. City of Cerritos (2013) 220 Cal.App.4th 1450, 1469-1470 [163 Cal.Rptr.3d 754], water assessments are subject to the \u201c \u2018pay first, litigate later\u2019 \u201d rule. Plaintiff challenges this ruling. Regardless, the injunction claims are based on the same implied contract theory that we have already found lacking in merit.\nVI. Breach of Fiduciary Duty and Accounting\nPlaintiff\u2019s fifth cause of action is for breach of fiduciary duty. The 12th cause of action is for accounting. The trial court agreed with the City that the two claims fail because there is no common law tort liability for public entities in California. Instead, liability must be based on statute per section 815, subdivision (a). We agree.\n\u201cThe elements of a cause of action for breach of fiduciary duty are the existence of a fiduciary relationship, its breach, and damage proximately caused by that breach. [Citation.] Whether a fiduciary duty exists is generally a question of law. [Citation.] Whether the defendant breached that duty towards the plaintiff is a question of fact.\u201d (Amtower v. Photon Dynamics, Inc. (2008) 158 Cal.App.4th 1582, 1599 [71 Cal.Rptr.3d 361].)\nIt is a well-settled rule that \u201c[t]here is no common law governmental tort liability in California; and except as otherwise provided by statute, there is no liability on the part of a public entity for any act or omission of itself, a public employee, or any other person.\u201d (Cowing v. City of Torrance (1976) 60 Cal.App.3d 757, 761 [131 Cal.Rptr. 830].) Section 815, subdivision (a) states: \u201cExcept as otherwise provided by statute: [\u00b6] (a) A public entity is not liable for an injury, whether such injury arises out of an act or omission of the public entity or a public employee or any other person.\u201d A legislative committee comment about section 815 states: \u201cThis section abolishes all common law or judicially declared forms of liability for public entities, except for such liability as may be required by the state or federal constitution . . . .\u201d (Legis. Com. com., Deering\u2019s Ann. Gov. Code, \u00a7 815 (2010) p. 128, italics added.)\nPlaintiff relies on South Pasadena v. Pasadena Land etc. Co. (1908) 152 Cal. 579, 594 [93 P. 490] (South Pasadena) and other cases stating that a city holding title to a water system outside of its boundaries acts \u201cas a mere trustee, bound to apply it to the use of those beneficially interested.\u201d These cases are not controlling, however. For example, in Hansen, supra, 42 Cal.3d 1172, the Supreme Court reversed the Court of Appeal and upheld the lower court\u2019s ruling that a 70 percent surcharge on nonresident water customers was reasonable. (Id. at p. 1176.) That case is distinguishable because it, like South Pasadena, at pages 587-588, is founded on the following principle: \u201cA city which acquires the water system of another community incurs an obligation to deal fairly with its customers in that community and to provide them with service at reasonable rates.\u201d (Hansen, at p. 1180, italics added.) Here, the City did not acquire the LWS from plaintiff or plaintiff\u2019s predecessors. Again, Hansen is also distinguishable because it was decided prior to the passage of Proposition 218. Additionally, none of the cases cited by plaintiff in this regard discuss section 815, subdivision (a).\nFinally, the accounting cause of action seeks an accounting of the surcharge and connection fees levied by the City upon the LWS customers based on the allegation that the fees were not placed in dedicated accounts and were not used exclusively for constructing capital improvements to the LWS, as required by City regulations.\n\u201cAn accounting is an equitable proceeding which is proper where there is an unliquidated and unascertained amount owing that cannot be determined without an examination of the debits and credits on the books to determine what is due and owing. [Citations.] Equitable principles govern, and the plaintiff must show the legal remedy is inadequate. . . . Generally, an underlying fiduciary relationship, such as a partnership, will support an accounting, but the action does not lie merely because the books and records are complex. [Citations.] Some underlying misconduct on the part of the defendant must be shown to invoke the right to this equitable remedy.\u201d (Prakashpalan v. Engstrom, Lipscomb & Lack (2014) 223 Cal.App.4th 1105, 1136-1137 [167 Cal.Rptr.3d 832].) As we have already concluded plaintiff cannot state any viable claims alleging misconduct on the part of the City, the cause of action for an accounting fails.\nVII. Trial Court Did Not Abuse Its Discretion in Denying Leave to Amend\nPlaintiff fails to set forth in sufficient detail how it would amend its complaint to correct the multiple defects noted above. We conclude the trial court did not abuse its discretion in denying plaintiff leave to amend.\nDISPOSITION\nThe judgment is affirmed.\nMargulies, Acting P. J., and Banke, J., concurred.\nAppellant\u2019s petition for review by the Supreme Court was denied January 13, 2016, S230810.\nWe take the facts from the allegations in the complaint.\nIn other instances, the City condemned by eminent domain the property needed for the easements.\nAccording to plaintiff\u2019s opening brief, the average bimonthly water bill for residential members of the Class is now over $400, or approximately 400 percent more than the average City customer water bill.\nAll further statutory references are to the Government Code except as otherwise indicated.\nAlthough plaintiff\u2019s appeal was premature because it was taken from the nonappealable order sustaining the demurrer without leave to amend, we treat it as being from the subsequently entered final judgment of dismissal. (See, e.g., Maxwell v. Dolezal (2014) 231 Cal.App.4th 93, 96, fn. 1 [179 Cal.Rptr.3d 807] [\u201cWe deem appellant\u2019s premature appeal, filed after the nonappealable order sustaining the demurrer without leave to amend and before the judgment of dismissal was entered, to be an appeal from the subsequent judgment of dismissal.\u201d].)\nIn the complaint, the \u201cHistorical] Cost Sharing Ratio\u201d is identified as the percentage of LWS costs paid by City residents (at least 98 percent), as compared to nonresident LWS customers (less than 2 percent) up until 1992.\nThe third cause of action for breach of contract (third party beneficiary) focuses on the LWS\u2019s easements and asserts the City \u201cbreached its obligation to the Class when it divested itself of any obligation to pay for the LWS and forced the members of the Class to pay for and subsidize the provision of flee water to the servient property owners. In essence, [the City] transferred its contractual obligation to provide and pay for the free water and has improperly shifted that obligation to the class.\u201d\nThere are no separate causes of action for specific performance or injunctive relief, which are instead remedies. (See, e.g., Wong v. Jing (2010) 189 Cal.App.4th 1354, 1360, fn. 2 [117 Cal.Rptr.3d 747] [specific performance and injunctive relief are equitable remedies and not causes of action for injuries]; Marlin v. Aimco Venezia, LLC (2007) 154 Cal.App.4th 154, 162 [64 Cal.Rptr.3d 488] [injunctive relief].)\nThe City adopted its charter in 1970.\nThe Vallejo Charter contains express language dealing with contracting that is compatible with section 40602. These charter provisions ensure City taxpayers are protected from implied obligations. Charter section 716 prohibits any City expenditures without the approval of the city council. Also, section 717 allows the city manager to make contracts only with the approval of the council and an appropriation. The Mj^iicipal Code of Vallejo has similar express restrictions. Section 3.20.045 allows particular officials of the City to make contracts in stated dollar amounts. Written bids and proposals in contracting are required under section 3.20.222. Additionally, section 3.22.010 mandates chapter 3.22 of the Vallejo Municipal Code applies to all government contracts. These charter provisions and municipal ordinances facilitate the operation of section 40602 and its requirements for express contracts.\nOur research has not uncovered any reported cases in any jurisdiction in the United States identifying this claim as a cause of action.\nCalifornia Constitution article XI, section 9, subdivision (a) provides: \u201cA municipal corporation may establish, purchase, and operate public works to furnish its inhabitants with light, water, power, heat, transportation, or means of communication. It may furnish those services outside its boundaries, except within another municipal corporation which furnishes the same service and does not consent.\u201d\nPublic Utilities Code section 10051 provides: \u201cAny municipal corporation incorporated under the laws of this State may as provided in this article sell and dispose of any public utility that it owns.\u201d\nPlaintiff claims that the sale would violate Public Utilities Code sections 10061 (prohibiting the acquiring entity from unreasonably discriminating against existing customers) and 789.1 (proceeds from sale of public utility land by a \u201cwater corporation\u201d must be invested in \u201cnecessary or useful\u201d water infrastructure). The claims are premature, as there are no allegations in the complaint that the City has approved a sale to an identified buyer on known terms.\nIn light of our above conclusions, we need not address the parties\u2019 remaining arguments.",
+        "type": "majority",
+        "author": "DONDERO, J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Law Offices of Stephen M. Flynn and Stephen M. Flynn for Plaintiff and Appellant.",
+      "Claudia M. Quintana, City Attorney, Donna R. Mooney, Chief Assistant City Attorney; Colantuono, Highsmith & Whatley, Michael G. Colantuono, Amy C. Sparrow, Leonard P. Aslanian and Jennifer L. Pancake for Defendant and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. A142808.\nFirst Dist., Div. One.\nOct. 16, 2015.]\nGREEN VALLEY LANDOWNERS ASSOCIATION, Plaintiff and Appellant, v. CITY OF VALLEJO, Defendant and Respondent.\nCounsel\nLaw Offices of Stephen M. Flynn and Stephen M. Flynn for Plaintiff and Appellant.\nClaudia M. Quintana, City Attorney, Donna R. Mooney, Chief Assistant City Attorney; Colantuono, Highsmith & Whatley, Michael G. Colantuono, Amy C. Sparrow, Leonard P. Aslanian and Jennifer L. Pancake for Defendant and Respondent."
+  },
+  "file_name": "0425-01",
+  "first_page_order": 347,
+  "last_page_order": 365
+}

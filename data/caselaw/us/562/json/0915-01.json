@@ -1,0 +1,59 @@
+{
+  "id": 6019924,
+  "name": "Roberts v. Florida",
+  "name_abbreviation": "Roberts v. Florida",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5314",
+  "first_page": "915",
+  "last_page": "915",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 915"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 82,
+    "ocr_confidence": 0.614,
+    "sha256": "d61abd441e4ae31e8f27dc7a2e9d9e57976ba02c9c808e649d69f38284f5b9eb",
+    "simhash": "1:f9490522d7654e1c",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Roberts v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 2d Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5314.\nRoberts v. Florida."
+  },
+  "file_name": "0915-01",
+  "first_page_order": 937,
+  "last_page_order": 937
+}

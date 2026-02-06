@@ -1,0 +1,82 @@
+{
+  "id": 5923781,
+  "name": "Stanko v. Obama, President of the United States, et al.",
+  "name_abbreviation": "Stanko v. Obama",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7548",
+  "first_page": "1131",
+  "last_page": "1131",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1131"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "506 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11924825
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/506/0001-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 74,
+    "char_count": 561,
+    "ocr_confidence": 0.567,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.17189052334711405
+    },
+    "sha256": "99f9a4c9d6432000afa101517f4215088f59c65e37152f9f6ca3101c60f46029",
+    "simhash": "1:7d261dcc256cd7ce",
+    "word_count": 94
+  },
+  "last_updated": "2024-02-27T22:51:28.129297+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Stanko v. Obama, President of the United States, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Motion of petitioner for leave to proceed informa pauperis denied, and certiorari dismissed. See this Court\u2019s Rule 39.8. As petitioner has repeatedly abused this Court\u2019s process, the Clerk is directed not to accept any further petitions in noncriminal matters from petitioner unless the docketing fee required by Rule 38(a) is paid and the petition is submitted in compliance with Rule 33.1. See Martin v. District of Columbia Court of Appeals, 506 U. S. 1 (1992) (per curiam).",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7548.\nStanko v. Obama, President of the United States, et al."
+  },
+  "file_name": "1131-01",
+  "first_page_order": 1153,
+  "last_page_order": 1153
+}

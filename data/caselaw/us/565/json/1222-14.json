@@ -1,0 +1,59 @@
+{
+  "id": 12248290,
+  "name": "Thomas v. Illinois",
+  "name_abbreviation": "Thomas v. Illinois",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-8223",
+  "first_page": "1222",
+  "last_page": "1222",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1222"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.643,
+    "sha256": "dabb5c547d5ebdf4d907c11a204499ea9e322724da1b72988c1629bab9143ba0",
+    "simhash": "1:5191c04b4cb4ff8d",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Thomas v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Ill., 5th Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8223.\nThomas v. Illinois."
+  },
+  "file_name": "1222-14",
+  "first_page_order": 1304,
+  "last_page_order": 1304
+}

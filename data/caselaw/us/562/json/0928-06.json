@@ -1,0 +1,59 @@
+{
+  "id": 5961467,
+  "name": "Scaggs v. United States",
+  "name_abbreviation": "Scaggs v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5546",
+  "first_page": "928",
+  "last_page": "928",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 928"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.652,
+    "sha256": "31d0a643a16948c564081e5b4b6ad758a6284425c77012a2a822964751f84f89",
+    "simhash": "1:d7b3e6272db6244c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Scaggs v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5546.\nScaggs v. United States."
+  },
+  "file_name": "0928-06",
+  "first_page_order": 950,
+  "last_page_order": 950
+}

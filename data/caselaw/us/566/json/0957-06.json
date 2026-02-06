@@ -1,0 +1,61 @@
+{
+  "id": 12209228,
+  "name": "Ross v. United States",
+  "name_abbreviation": "Ross v. United States",
+  "decision_date": "2012-04-16",
+  "docket_number": "No. 11-9157",
+  "first_page": "957",
+  "last_page": "957",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 957"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 149,
+    "ocr_confidence": 0.544,
+    "sha256": "5c464456d4e2f48e41c1a246533709a125d7b45a1b8fc132f33d254f3fcc33a7",
+    "simhash": "1:993bd98239a6df0a",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Ross v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certio-rari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9157.\nRoss v. United States."
+  },
+  "file_name": "0957-06",
+  "first_page_order": 833,
+  "last_page_order": 833
+}

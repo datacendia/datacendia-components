@@ -1,0 +1,84 @@
+{
+  "id": 12417614,
+  "name": "Kirtsaeng, dba Bluechristine99 v. John Wiley & Sons, Inc.",
+  "name_abbreviation": "Kirtsaeng v. John Wiley & Sons, Inc.",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 11-697",
+  "first_page": "939",
+  "last_page": "939",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 939"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "566 U. S. 936",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12203498,
+        12203472,
+        12203538,
+        12203478,
+        12203513,
+        12203486,
+        12203519
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/566/0936-04",
+        "/us/566/0936-01",
+        "/us/566/0936-07",
+        "/us/566/0936-02",
+        "/us/566/0936-05",
+        "/us/566/0936-03",
+        "/us/566/0936-06"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 37,
+    "char_count": 246,
+    "ocr_confidence": 0.686,
+    "sha256": "f17d9ca49caf668f3add58ea84ff69e7729e20e6b152850ed49adf94b0fc5a9b",
+    "simhash": "1:d240b1b08be7ce38",
+    "word_count": 40
+  },
+  "last_updated": "2024-02-27T23:44:49.194693+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Kirtsaeng, dba Bluechristine99 v. John Wiley & Sons, Inc."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. [Certiorari granted, 566 U. S. 936.] Motion of the Solicitor General for leave to participate in oral argument as amicus curiae and for divided argument granted.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-697.\nKirtsaeng, dba Bluechristine99 v. John Wiley & Sons, Inc."
+  },
+  "file_name": "0939-05",
+  "first_page_order": 1015,
+  "last_page_order": 1015
+}

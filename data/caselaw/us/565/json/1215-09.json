@@ -1,0 +1,59 @@
+{
+  "id": 12247464,
+  "name": "Lopez Ramirez v. Florida",
+  "name_abbreviation": "Lopez Ramirez v. Florida",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-7959",
+  "first_page": "1215",
+  "last_page": "1215",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1215"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 89,
+    "ocr_confidence": 0.644,
+    "sha256": "dc2e0ae37e1cd79de6441b3ff595f2aa0e57b615facfdabd56a2f1de2d4def03",
+    "simhash": "1:b109550e06c1df36",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lopez Ramirez v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 4th Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7959.\nLopez Ramirez v. Florida."
+  },
+  "file_name": "1215-09",
+  "first_page_order": 1297,
+  "last_page_order": 1297
+}

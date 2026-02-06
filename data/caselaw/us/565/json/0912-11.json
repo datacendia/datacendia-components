@@ -1,0 +1,59 @@
+{
+  "id": 12221858,
+  "name": "Williams v. Louisiana et al.",
+  "name_abbreviation": "Williams v. Louisiana",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5524",
+  "first_page": "912",
+  "last_page": "912",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 912"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 76,
+    "ocr_confidence": 0.658,
+    "sha256": "bd4b97c9d0e6d3a415ab865af89fa4dcc0d1e6cc15a11368912df007ebbeb33b",
+    "simhash": "1:102cd180990c946e",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Williams v. Louisiana et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5524.\nWilliams v. Louisiana et al."
+  },
+  "file_name": "0912-11",
+  "first_page_order": 994,
+  "last_page_order": 994
+}

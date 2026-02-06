@@ -1,0 +1,59 @@
+{
+  "id": 12200964,
+  "name": "Spalding v. United States",
+  "name_abbreviation": "Spalding v. United States",
+  "decision_date": "2012-04-02",
+  "docket_number": "No. 11-8042",
+  "first_page": "924",
+  "last_page": "924",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 924"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.568,
+    "sha256": "2cfd955a1d22c3c1fb9c9f25eed9a53ef99cec717edbd2c8153656af4a3200aa",
+    "simhash": "1:b59a22036e3f593c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Spalding v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8042.\nSpalding v. United States."
+  },
+  "file_name": "0924-08",
+  "first_page_order": 800,
+  "last_page_order": 800
+}

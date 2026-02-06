@@ -1,0 +1,612 @@
+{
+  "id": 5758610,
+  "name": "J.J., a Minor, etc., et al., Plaintiffs and Appellants, v. COUNTY OF SAN DIEGO, Defendant and Respondent",
+  "name_abbreviation": "J.J. v. County of San Diego",
+  "decision_date": "2014-02-14",
+  "docket_number": "No. D062594",
+  "first_page": "1214",
+  "last_page": "1230",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "223 Cal. App. 4th 1214"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "195 P.2d 898",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "86 Cal.App.2d 721",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2268430
+      ],
+      "pin_cites": [
+        {
+          "page": "723"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/86/0721-01"
+      ]
+    },
+    {
+      "cite": "223 P.2d 655",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1948,
+      "opinion_index": 0
+    },
+    {
+      "cite": "100 Cal.App.2d 344",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2285458
+      ],
+      "year": 1948,
+      "pin_cites": [
+        {
+          "page": "348"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/100/0344-01"
+      ]
+    },
+    {
+      "cite": "110 P.3d 914",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "27 Cal.Rptr.3d 661",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.4th 797",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        873186
+      ],
+      "pin_cites": [
+        {
+          "page": "808"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/35/0797-01"
+      ]
+    },
+    {
+      "cite": "267 Cal.Rptr. 457",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "218 Cal.App.3d 1058",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4425313
+      ],
+      "pin_cites": [
+        {
+          "page": "1090"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/218/1058-01"
+      ]
+    },
+    {
+      "cite": "239 Cal.Rptr. 774",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "194 Cal.App.3d 684",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2216145
+      ],
+      "pin_cites": [
+        {
+          "page": "687"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/194/0684-01"
+      ]
+    },
+    {
+      "cite": "728 P.2d 1154",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "232 Cal.Rptr. 519",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 Cal.3d 1020",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4464574
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/42/1020-01"
+      ]
+    },
+    {
+      "cite": "64 Cal.Rptr.3d 9",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "153 Cal.App.4th 1308",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        5699647
+      ],
+      "pin_cites": [
+        {
+          "page": "1318"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/153/1308-01"
+      ]
+    },
+    {
+      "cite": "163 Cal.Rptr. 711",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "104 Cal.App.3d 398",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        1976885
+      ],
+      "pin_cites": [
+        {
+          "page": "406"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/104/0398-01"
+      ]
+    },
+    {
+      "cite": "43 Cal.Rptr.3d 103",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "139 Cal.App.4th 499",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4006227
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/139/0499-01"
+      ]
+    },
+    {
+      "cite": "21 Cal.Rptr.3d 208",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "123 Cal.App.4th 1405",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        585418
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/123/1405-01"
+      ]
+    },
+    {
+      "cite": "109 Cal.Rptr.3d 270",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "184 Cal.App.4th 712",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4219927
+      ],
+      "pin_cites": [
+        {
+          "page": "717"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/184/0712-01"
+      ]
+    },
+    {
+      "cite": "39 Cal.Rptr.3d 79",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "136 Cal.App.4th 556",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3727767
+      ],
+      "pin_cites": [
+        {
+          "page": "567, fn. 2"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/136/0556-01"
+      ]
+    },
+    {
+      "cite": "231 Cal.Rptr. 702",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "187 Cal.App.3d 480",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2200906
+      ],
+      "pin_cites": [
+        {
+          "page": "488"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/187/0480-01"
+      ]
+    },
+    {
+      "cite": "269 Cal.Rptr. 605",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "423 P.2d 818",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "56 Cal.Rptr. 666",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "66 Cal.2d 24",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2331131
+      ],
+      "pin_cites": [
+        {
+          "page": "29"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/66/0024-01"
+      ]
+    },
+    {
+      "cite": "238 Cal.Rptr. 613",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "721 P.2d 71",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1987,
+      "opinion_index": 0
+    },
+    {
+      "cite": "228 Cal.Rptr. 190",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1987,
+      "opinion_index": 0
+    },
+    {
+      "cite": "673 P.2d 271",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "197 Cal.Rptr. 601",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.3d 427",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4471570
+      ],
+      "pin_cites": [
+        {
+          "page": "435"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/35/0427-01"
+      ]
+    },
+    {
+      "cite": "769 P.2d 948",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "256 Cal.Rptr. 766",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "48 Cal.3d 438",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4614718
+      ],
+      "pin_cites": [
+        {
+          "page": "444, fn. 3"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/48/0438-01"
+      ]
+    },
+    {
+      "cite": "39 Cal.Rptr.2d 860",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "33 Cal.App.4th 1767",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6045425
+      ],
+      "pin_cites": [
+        {
+          "page": "1777"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/33/1767-01"
+      ]
+    },
+    {
+      "cite": "126 Cal.Rptr.3d 160",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "195 Cal.App.4th 1581",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4233903
+      ],
+      "pin_cites": [
+        {
+          "page": "1591"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/195/1581-01"
+      ]
+    },
+    {
+      "cite": "525 P.2d 701",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "115 Cal.Rptr. 797",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "12 Cal.3d 447",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2315549
+      ],
+      "pin_cites": [
+        {
+          "page": "454"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/12/0447-01"
+      ]
+    },
+    {
+      "cite": "164 P.3d 630",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "64 Cal.Rptr.3d 210",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 Cal.4th 201",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3673325
+      ],
+      "pin_cites": [
+        {
+          "page": "209"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/42/0201-01"
+      ]
+    },
+    {
+      "cite": "90 P.3d 116",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "13 Cal.Rptr.3d 534",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "32 Cal.4th 1234",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        801082
+      ],
+      "pin_cites": [
+        {
+          "page": "1237"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/32/1234-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1327,
+    "char_count": 37023,
+    "ocr_confidence": 0.91,
+    "pagerank": {
+      "raw": 8.021147979749158e-08,
+      "percentile": 0.4647425390437821
+    },
+    "sha256": "1df09f1170c9d7ad7720fe5a0e307f0a52905055b2d2cffb8ba6b51bd54510cb",
+    "simhash": "1:be23d26b7070e76a",
+    "word_count": 6201
+  },
+  "last_updated": "2024-02-27T17:28:17.516481+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "J.J., a Minor, etc., et al., Plaintiffs and Appellants, v. COUNTY OF SAN DIEGO, Defendant and Respondent."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nBENKE, Acting P. J.\nPlaintiff and appellant J.J., appearing through her guardian ad litem, Ja.J., appeals from an order denying her petition brought under Government Code section 946.6 (petition) for relief from the requirement in section 945.4 that she timely file a written claim against the County of San Diego (County) before she can maintain an action against the County for money or damages.\nJ.J. contends the court erred in denying her petition because her cause of action against the County accrued in March 2012, after her legal counsel obtained a San Diego Police Department \u201cInvestigator\u2019s Follow-up Report\u201d dated January 14, 2011 (January 2011 report). J.J. contends this report for the first time showed the County\u2019s negligence was the cause of her personal injury after her foster father, R.L., sexually molested her while she was living in foster care in the family home of R.L. between July 17, 2009, and September 18, 2009. Because she filed her claim with the County in May 2012, J.J. contends it was timely presented. J.J. alternatively contends that the County is estopped from asserting the alleged untimeliness of her claim and that her alleged late'filing of the claim was the result of excusable neglect.\nThe County contends that J.J.\u2019s personal injury cause of action accrued when she was molested by R.L. in 2009 because she knew then it was wrong or, at the latest, in early March 2011 when J.J.\u2019s parents (after reunification) attended and spoke at R.L.\u2019s sentencing. J.J. in December 2010 had disclosed the molestation to her parents and County social workers, which led to a police investigation and ultimately to R.L. pleading guilty to one count of committing a lewd and lascivious act on a minor under the age of 14, in violation of Penal Code section 288, subdivision (a). Because J.J. neither filed her claim within six months from the accrual of her cause of action nor filed her petition to seek relief from her late claim within one year from the accrual of her cause of action, the County contends the court properly denied the petition. The County also contends neither estoppel nor excusable neglect applies in this case.\nAs we explain, because J.J.\u2019s cause of action accrued at the latest in March 2011 and because J.J. did not submit a claim to the County until May 2012\u2014more than a year later\u2014we are constrained to conclude the court properly denied her petition, inasmuch as we also conclude her claim was not timely as a result of the principle of estoppel or excusable neglect. Affirmed.\nDISCUSSION\nA. Guiding Principles\n\u201cThe Government Claims Act (\u00a7 810 et seq.) \u2018establishes certain conditions precedent to the filing of a lawsuit against a public entity. As relevant here, a plaintiff must timely file a claim for money or damages with the public entity. (\u00a7 911.2.) The failure to do so bars the plaintiff from bringing suit against that entity. (\u00a7 945.4.)\u2019 (State of California v. Superior Court (2004) 32 Cal.4th 1234, 1237 [13 Cal.Rptr.3d 534, 90 P.3d 116].) \u2018[T]he claims presentation requirement applies to all forms of monetary demands, regardless of the theory of the action. . . .\u2019 [Citation.] \u2018The policy underlying the claims presentation requirements is to afford prompt notice to public entities. This permits early investigation and evaluation of the claim and informed fiscal planning in light of prospective liabilities.\u2019 {Ibid.)\n\u201cClaims for personal injury must be presented not later than six months after the accrual of the cause of action . . . . (\u00a7911.2, subd. (a).) Timely claim presentation is not merely a procedural requirement, but is a condition precedent to the claimant\u2019s ability to maintain an action against the public entity. (Shirk v. Vista Unified School Dist. (2007) 42 Cal.4th 201, 209 [64 Cal.Rptr.3d 210, 164 P.3d 630].) \u2018Only after the public entity\u2019s board has acted upon or is deemed to have rejected the claim may the injured person bring a lawsuit alleging a cause of action in tort against the public entity.\u2019 {Ibid.)\n\u201cThe failure to timely present a claim to the public entity bars the claimant from filing a lawsuit against that public entity. (City of San Jose v. Superior Court (1974) 12 Cal.3d 447, 454 [115 Cal.Rptr. 797, 525 P.2d 701].) Moreover, because the purpose of the claims is not \u2018to prevent surprise [but rather] is to provide the public entity sufficient information to enable it to adequately investigate claims and to settle them, if appropriate, without the expense of litigation . . . [citations] [,] . . . [i]t is well-settled that claims statutes must be satisfied even in face of the public entity\u2019s actual knowledge of the circumstances surrounding the claim. Such knowledge\u2014standing alone\u2014constitutes neither substantial compliance nor basis for estoppel.\u2019 {Id. at p. 455.)\u201d (California Restaurant Management Systems v. City of San Diego (2011) 195 Cal.App.4th 1581, 1591 [126 Cal.Rptr.3d 160].)\nAccordingly, a claim for personal injuries\u2014such as in the instant case\u2014 must be filed with the public entity (i.e., County) no later than six months after the accrual of the cause of action. (\u00a7 911.2, subd. (a).) However, \u201cif the injured party fails to file a timely claim, a written application may be made to the public entity for leave to present such claim. (Gov. Code, \u00a7 911.4, subd. (a).) If the public entity denies the application, Government Code section 946.6 authorizes the injured party to petition the court for relief from the claim requirements.\u201d (Munoz v. State of California (1995) 33 Cal.App.4th 1767, 1777 [39 Cal.Rptr.2d 860], fn. omitted {Munoz).) \u2022\nSubdivision (a) of section 946.6 states in relevant part that \u201c[i]f an application for leave to present a claim is denied or deemed to be denied pursuant to Section 911.6, a petition may be made to the court for an order relieving the petitioner from Section 945.4 [(i.e., necessity of written claim)]. The proper court for filing the petition is a superior court that would be a proper court for the. trial of an action on the cause of action to which the claim relates. If the petition is filed in a court which is not a proper court for the determination of the matter, the court, on motion of any party, shall transfer the proceeding to a proper court.\u201d Subdivision (b)(1) of section 946.6 requires the petitioner to show among other things that the \u201capplication was made to the board under Section 911.4 and was denied or deemed denied.\u201d Under subdivision (c) of section 946.6, a court \u201cshall relieve the petitioner from . . . Section 945.4 if the court finds that the application to the board under Section 911.4 was made within a reasonable time not to exceed that specified in subdivision (b) of Section 911.4,\u201d among other requirements.\nSubdivision (a) of section 911.4 provides that when a claim required by section 911.2 is not presented within six months after the accrual of the cause of action, a party may make a \u201cwritten application\u201d to the public entity for leave to present that claim. Subdivision (b) of section 911.4 provides that such application shall be presented to the public entity \u201cwithin a reasonable time not to exceed one year after the accrual of the cause of action . . . .\u201d (Italics added.) Subdivision (c)(1) of that -statute provides that in computing the one-year period, the \u201ctime during which the person who sustained the alleged injury, damage, or loss as a minor shall be counted, but the time during which he or she is mentally incapacitated and does not have a guardian or conservator of his or her person shall not be counted.\u201d (Italics added; see John R. v. Oakland Unified School Dist. (1989) 48 Cal.3d 438, 444, fn. 3 [256 Cal.Rptr. 766, 769 P.2d 948] (John R.) [noting that while a statute of limitations generally \u201cdoes not run during the time a potential plaintiff is a minor, and such a party accordingly has up to a year after attaining the age of majority to bring suit on a cause of action for personal injury,\u201d \u201c[t]his respite does not apply to a claim against a public entity . . . ,\u201d as expressly stated in \u00a7 911.4, subd. (b)].)\n\u201cThe determination of the trial court in granting or denying a petition for relief under Government Code section 946.6 will not be disturbed on appeal except for an abuse of discretion. Abuse of discretion is shown where uncontradicted evidence or affidavits of the plaintiff establish adequate cause for relief. (Ebersol v. Cowan (1983) 35 Cal.3d 427, 435 [197 Cal.Rptr. 601, 673 P.2d 271].)\n\u201cGovernment Code section 946.6 is a remedial statute intended to provide relief from technical rules which otherwise provide a trap for the unwary. The remedial policy underlying the statute is that wherever possible cases should be heard on their merits. Thus, a denial of such relief by the trial court is examined more rigorously than where relief is granted and any doubts which may exist should be resolved in favor of the application. (Bettencourt v. Los Rios Community College Dist. [(1986)] 42 Cal.3d [270,] 275-276 [228 Cal.Rptr. 190, 721 P.2d 71]; Drummond v. County of Fresno [(1987)] 193 Cal.App.3d [1406,] 1410-1411 [238 Cal.Rptr. 613].)\n\u201cRelief from the six-month limit is granted under the same showing as is required for relief under Code of Civil Procedure section 473. (Viles v. State of California (1967) 66 Cal.2d 24, 29 [56 Cal.Rptr. 666, 423 P.2d 818] [construing predecessor statutes].) It is the well-recognized policy of the law to liberally construe remedial statutes designed to protect persons within their purview, and the modem trend of judicial decisions favors granting relief unless absolutely forbidden by statute.\u201d (Munoz, supra, 33 Cal.App.4th at p. 1778.)\nHowever, \u201c[fjiling a late-claim application within one year after the accmal of a cause of action is a jurisdictional prerequisite to a claim-relief petition. (Santee v. Santa Clara County Office of Education [(1990)] 220 Cal.App.3d [702,] 713 [269 Cal.Rptr. 605].) When the underlying application to file a late claim is filed more than one year after the accmal of the cause of action, the court is without jurisdiction to grant relief under Government Code section 946.6. (Greyhound Lines, Inc. v. County of Santa Clara (1986) 187 Cal.App.3d 480, 488 [231 Cal.Rptr. 702].)\u201d (Munoz, supra, 33 Cal.App.4th at p. 1779; see \u00a7 911.4, subd. (b).)\nThe primary issue on appeal is when J.J.\u2019s cause of action accmed. Although JJ. filed the petition seeking relief from the requirement in section 945.4 that she timely file a written claim against the County, she nonetheless maintains that her personal injury cause of action did not accme until March 2012 when she first obtained the January 2011 report. As such, there would have been no reason for JJ. to file the petition because, if correct, her claim would have been presented to the County \u201cnot later than six months\u201d after its accmal for purposes of section 911.2, inasmuch as she filed her claim with the County in May 2012.\nIf, however, her cause of action accrued in March 2011 at the latest, when her parents both appeared and spoke at the sentencing of R.L. after he pled guilty to molesting J.J., then her claim against the County would have been untimely for purposes of both sections 911.2 and 946.6 because, as noted, the latter statute requires that a petition be filed with the public entity (i.e., the County) not more than one year after it accrued. We thus turn to the overarching issue in this appeal regarding when J.J.\u2019s cause of action against the County accrued.\nB. Accrual of Personal Injury Cause of Action\nJJ.\u2019s May 2012 claim filed with the County states the County is potentially liable in negligence for the placement, lack of supervision, and/or failure to investigate/prevent sexual abuse in the foster home of R.L.\n\u201cFor the purpose of computing the time limits prescribed by Sections 911.2, 911.4, 945.6, and 946.6, the date of the accrual of a cause of action to which a claim relates is the date upon which the cause of action would be deemed to have accrued within the meaning of the statute of limitations which would be applicable thereto if there were no requirement that a claim be presented to and be acted upon by the public entity before an action could be commenced thereon.\u201d (\u00a7 901; see John R., supra, 48 Cal.3d at p. 444, fn. 3.)\n\u201cA civil cause of action for child molestation generally accrues at the time of the molestation.\u201d (.Doe v. Bakersfield City School Dist. (2006) 136 Cal.App.4th 556, 567, fn. 2 [39 Cal.Rptr.3d 79].) \u201cThat date may be postponed under the delayed discovery doctrine. [Citation.] Under this doctrine, a cause of action does not accrue until the plaintiff discovers, or has reason to discover, the cause of action. [Citation.] A plaintiff has reason to discover a cause of action when he or she has reason to at least suspect a factual basis for its elements. Suspicion of one or more of the elements, coupled with knowledge of any remaining elements, will generally trigger the applicable limitations period. [Citation.] This refers to the \u2018generic\u2019 elements of wrongdoing, causation, and harm and does not require a hypertechnical approach. Instead, \u2018we look to whether the plaintiffs have reason to at least suspect that a type of wrongdoing has injured them.\u2019 [Citation.]\u201d (S.M. v. Los Angeles Unified School Dist. (2010) 184 Cal.App.4th 712, 717 [109 Cal.Rptr.3d 270] (S.M.).)\nS.M. provides guidance on this issue. There, the minor plaintiff sued a public entity (i.e., the district) for negligent supervision of a teacher after the plaintiff was repeatedly fondled by her fourth grade teacher during the school year. The plaintiff testified that she knew what her teacher had done was \u201cwrong\u201d and that his actions made her \u201cscared and nervous.\u201d (S.M., supra, 184 Cal.App.4th at p. 715.) As a result of this testimony, the district contended the plaintiff\u2019s negligence cause of action accrued at the latest on the last day of school in June 2003 because the plaintiff had no further contact with the teacher from that day forward. As a result, the district contended the plaintiff\u2019s claim was barred because she did not file a claim with the district until nearly two years later. (Id. at p. 717.)\nThe plaintiff contended her cause of action did not accrue until the day the teacher was arrested (i.e., in mid-October 2004), when the plaintiff\u2019s mother that same day spoke to her and learned for the first time about the sexual abuse by the teacher. The trial court disagreed and entered judgment for the district. (S.M., supra, 184 Cal.App.4th at p. 716.) The Court of Appeal affirmed.\nIn so doing, the court in S.M. distinguished the facts of Curtis T. v. County of Los Angeles (2004) 123 Cal.App.4th 1405 [21 Cal.Rptr.3d 208] (Curtis T.) from its case. Briefly, in Curtis T., the minor plaintiff was placed in foster care at the age of five where he lived for about three years until October 1999, when he was returned to his mother. In March 2003, when the plaintiff was 12, he filed a claim with the defendant county alleging that he was sexually molested by another child while living in the foster home. When the defendant denied the claim as untimely, the plaintiff sued, alleging that his foster parent knew about the molestation but did not stop it and that his mother did not learn about the molestation until September 2002. The trial court in Curtis T. sustained the defendant\u2019s demurrer without leave to amend. (Id. at p. 1409.)\nIn reversing, the Curtis T. court held the plaintiff should have been given leave to amend his complaint in that \u201cgiven his youth, ignorance, and inexperience, as well as his foster parent\u2019s alleged complicity in the abuse\u2014 ... he lacked a real awareness, until his mother\u2019s discovery of the alleged molestation, that what happened to him between the ages of five and eight was wrong.\u201d (Curtis T, supra, 123 Cal.App.4th at pp. 1422-1423.)\nThe S.M. court concluded that Curtis T. \u201cdid not hold that a minor\u2019s cause of action for sex abuse accrues only when a parent learns what happened. Instead, it adopted a circumstance-heavy approach, pegged to the unique facts of each case, and held that, given the right circumstances, a minor suing for sexual abuse is entitled to show that the cause of action did not accrue until a parent learned what happened or some other date after the abuse occurred.\u201d (S.M., supra, 184 Cal.App.4th at pp. 719-720.)\nThe court in S.M. also discussed the case of V.C. v. Los Angeles Unified School Dist. (2006) 139 Cal.App.4th 499 [43 Cal.Rptr.3d 103] (V.C.), which had applied Curtis T. to sustain without leave to amend the district\u2019s demurrer to the minor\u2019s complaint. There, the plaintiff, while between the ages of 11 and 13, was allegedly molested by her teacher. Although the record included a psychological assessment that cast doubt on whether the minor plaintiff truly appreciated what the teacher had done to her, \u201cit also showed that the plaintiff\u2019s mother had long harbored suspicions that the teacher was molesting her daughter. As a result, the plaintiff could not plead facts supporting a delayed discovery theory.\u201d (S.M., supra, 184 Cal.App.4th at p. 720, citing V.C., at pp. 504, 515-516.)\nBased on Curtis T. and V.C., the court in S.M. concluded that the plaintiff had not proffered any evidence to support the application of the delayed discovery rule in her case and the \u201cfactors that might have prevented [the minor plaintiff] from becoming aware she had been wronged, or about her mother\u2019s discovery of what had happened.\u201d (S.M., supra, 184 Cal.App.4th at p. 720.) Because the minor knew the \u201cgeneric elements of her claim\u2014that she had been injured by [her teacher\u2019s] wrongdoing\u201d and because she relied \u201csolely on the mistaken belief that, as a matter of law, it was her mother\u2019s knowledge that counted, not hers,\u201d the court affirmed the grant of summary judgment in favor of the district. (Ibid.)\nHere, J.J. concedes that she was aware of the fact that she had been sexually molested by her foster father in 2009. Moreover, the record shows that in December 2010, JJ. disclosed the details of the molestation both to her parents and to County social workers. As a result of that disclosure, an investigation was launched and J.J. was interviewed at a children\u2019s hospital in early January 2011; R.L. ended up pleading guilty to one count of committing a lewd and lascivious act on a minor under the age of 14 in violation of Penal Code section 288, subdivision (a). In addition, the record shows that both of J.J.\u2019s parents attended and spoke at RJL.\u2019s sentencing in early March 2011.\nEven if we assume there was evidence in the record showing J.J. at the time of the molestations (i.e., between July and Sept. 2009) lacked a real awareness that RJL.\u2019s sexual abuse was \u201cwrong\u201d (Curtis I, supra, 123 Cal.App.4th at p. 1423) and thus that she had been \u201cinjured\u201d (Leaf v. City of San Mateo (1980) 104 Cal.App.3d 398, 406 [163 Cal.Rptr. 711] (Leaf) [applying delayed discovery rule]), and even if we conclude the delayed discovery rule applies to her situation, we nonetheless are constrained to conclude that J.J.\u2019s cause of action for personal injuries accrued at the latest in early March 2011, when her parents appeared and spoke at the sentencing hearing of R.L. (See Curtis T, supra, 123 Cal.App.4th at pp. 1422-1423.) At that point in time, J.J.\u2019s parents clearly were aware of the \u201c \u2018generic\u2019 elements of wrongdoing, causation, and harm\u201d (S.M., supra, 184 Cal.App.4th at p. 717) resulting from R.L.\u2019s molestation of their daughter while in foster care. Because J.J. filed her claim in May 2012, which was more than six months (see \u00a7 911.2) and more than a year (see \u00a7\u00a7911.4, subd. (b), 946.6, subd. (c)) after her claim accrued, it was untimely and thus barred. (See Munoz, supra, 33 Cal.App.4th at p. 1779.)\nIn reaching our decision, we note the important policy implications of requiring a claimant to give a public entity \u201c \u2018prompt notice\u2019 \u201d of a claim (see California Restaurant Management Systems v. City of San Diego, supra, 195 Cal.App.4th at p. 1591), particularly in a case such as the one before us involving allegations of sexual abuse against a dependent child under the custody, control and supervision of one or more public entities (i.e., the County). Requiring a claimant in such circumstances to give prompt notice will permit \u201c \u2018early investigation and evaluation of the claim\u2019 \u201d (see ibid.) by the public entity or entities, which could potentially prevent or limit any additional sexual abuse to the claimant and/or others similarly situated. (See, e.g., Welf. & Inst. Code, \u00a7 300.2 [noting the purpose of the law \u201crelating to dependent children is to provide maximum safety and protection for children\u201d].)\nMoreover, we disagree with J.J.\u2019s contention that cases such as Leaf apply here and protect a plaintiff who \u201c \u2018despite diligent investigation ... is blamelessly ignorant of the cause of his [or her] injuries.\u2019 \u201d (E-Fab, Inc. v. Accountants, Inc. Services (2007) 153 Cal.App.4th 1308, 1318 [64 Cal.Rptr.3d 9].) Leaf involved the 10-year statute of limitations in Code of Civil Procedure section 337.15, which protects developers of real estate from unlimited claims for property damage cause by latent construction defects. (Leaf, supra, 104 Cal.App.3d at p. 402.)\nIn Leaf, the court reversed summary judgment in favor of the city because a triable issue of fact existed whether the plaintiff homeowners had exercised reasonable diligence in discovering that a cave-in on their property was caused by the city\u2019s failure to compact properly the storm and sewer trenches on and near the plaintiffs\u2019 property, as opposed to the failure of the developer/builder of the property to install a subsurface drainage system at the time of development. (Leaf supra, 104 Cal.App.3d at pp. 403-404.) Clearly, Leaf is factually and legally distinguishable from the instant case, inasmuch as there is no issue here involving a latent defect to real property causing damage from multiple possible sources.\nAlthough we conclude J.J.\u2019s personal injury cause of action accrued, at the latest, in March 2011, we nonetheless independently reviewed the January 2011 report (that she obtained in Mar. 2012), which J.J. contends was the basis of her knowledge of wrongdoing by the County. J.J. highlights five facts from that report:\n(1) R.L., J.J.\u2019s foster father, molested J.J. while she was in his care sometime between July 17 and September 18, 2009.\n(2) Police in December 2010 received a referral from County social workers reporting that J.J. disclosed she had been molested by R.L. in 2009.\n(3) R.L.\u2019s wife, the foster mother, worked for \u201cthe Department of Health and Human Services.\u201d\n(4) J.J. ran away from her foster home on September 17, 2009, the day of her birthday. A neighbor called police. After police determined J.J. had no injuries, they contacted social services and then returned J.J. to her foster home. The next day, September 18, J.J. was removed from the family home of R.L. and taken to the Polinsky Children\u2019s Center.\n(5) R.L. disclosed during a January 13, 2011 police interview that J.J. had been drawing pictures of a \u201cface with an angry person with a mustache and a beard\u201d while living in the family home and that those pictures had been turned over to a social worker.\nJ.J. in her opening brief does not specifically address how these additional facts from the January 2011 report support her contention that she was not aware, or could not reasonably have become aware (before she obtained a copy of that report in Mar. 2012), that the County was potentially liable for placing her, supervising her, and/or preventing sexual abuse in the foster home of R.L. and his family. In any event, our independent review of the January 2011 report, including these facts, does not change our conclusion that J.J.\u2019s negligence cause of action against the County, as set forth in her May 2012 claim, accrued, at the latest, in March 2011 when her parents spoke at the sentencing hearing of R.L.\nBut that does not end our analysis. JJ. alternatively advances the theories of estoppel and excusable neglect to support her contention that her claim against the County is timely.\nC. Estoppel\n\u201cA public entity may be estopped from asserting the limitations of the tort claims statutes where its agents or employees have prevented or deterred the filing of a timely claim by some affirmative act. The required elements for an equitable estoppel are: (1) the party to be estopped must be apprised of the facts; (2) the party to be estopped must intend his or her conduct shall be acted upon, or must so act that the party asserting the estoppel had a right to believe it was so intended; (3) the other party must be ignorant of the true state of facts; and (4) the other party must rely upon the conduct to his or her injury. [Citation.]\u201d {Munoz, supra, 33 Cal.App.4th at p. 1785.)\nJ.J. contends the County should be estopped from asserting the claims requirement because (1) she was frightened R.L. would kill her and she did not want to be taken away from her parents again; (2) she was unaware the County was negligent in placing her in the foster home of the family of R.L. until she received the January 2011 report; and (3) she had not received the records from the Polinsky Children\u2019s Center when she filed her petition (see fh. 4, ante) and, thus, she did not want to file a \u201cfrivolous and unmeritorious lawsuit\u201d against the County.\nWith respect to R.L., he is not an employee or agent of the County and, thus, his alleged threats of intimidation against J.J. cannot be attributed to the County. In addition, J.J. was in fact removed from the family home of R.L. on September 18, 2009, and disclosed the molestation in December 2010. Given that R.L.\u2019s alleged threat to J.J. did not prevent her from disclosing the sexual abuse to her parents and County social workers, we conclude in any event his threats could not have deterred her from timely presenting a claim which, as we noted, accrued at the latest in March 2011, after R.L. was sentenced for his crime. (See V.C., supra, 139 Cal.App.4th at p. 517 [refusing to apply equitable estoppel doctrine because threats made by teacher against minor student did not prevent student from disclosing the sexual abuse to authorities and filing a timely claim and, thus, concluding it could not \u201cfind that a \u2018reasonable\u2019 time for [the minor] to present her claim [was] anything other than statutory six-month and one-year time limits specified in Government Code sections 911.2 and 911.4\u201d].)\nRegarding the January 2011 report, we conclude it provides no basis for estoppel against the County as a result of when J.J. (through counsel) obtained this report, inasmuch as we already have concluded the report does not have a material bearing on the accrual issue and, in any event, the record shows J.J. first moved to obtain this report\u2014which was always available to her and her guardian ad litem (see Fox v. Ethicon Endo-Surgery, Inc., supra, 35 Cal.4th at p. 808)\u2014more than six months after her cause of action accrued. (See \u00a7 911.2, subd. (a).)\nFinally, with regard to the Polinsky Children\u2019s Center records and J.J.\u2019s point that she needed these records to determine whether her lawsuit was meritorious, as noted in footnote 4, we decline to admit this \u201cnew\u201d evidence that was at all times available to her on an issue that was thoroughly briefed and considered by the trial court. That said, it appears that J.J. fails to distinguish between when her cause of action accrued and the filing of a claim and preserving her rights against a public entity, on the one hand, and determining whether her lawsuit against that public entity, after timely filing a claim, is viable, on the other hand.\nThis distinction is apparent in section 910, which governs the content of a claim. It provides; \u201cA claim shall be presented by the claimant or by a person acting on his or her behalf and shall show all of the following: [][] (a) The name and post office address of the claimant, [f] (b) The post office address to which the person presenting the claim desires notices to be sent. [][] (c) The date, place and other circumstances of the occurrence or transaction which gave rise to the claim asserted, [f] (d) A general description of the indebtedness, obligation, injury, damage or loss incurred so far as it may be known at the time of presentation of the claim. [][] (e) The name or names of the public employee or employees causing the injury, damage, or loss, if known, [J] (f) The amount claimed if it totals less than ten thousand dollars ($10,000) as of the date of presentation of the claim, including the estimated amount of any prospective injury, damage, or loss, insofar as it may be known at the time of the presentation of the claim, together with the basis of computation of the amount claimed. If the amount claimed exceeds ten thousand dollars ($10,000), no dollar amount shall be included in the claim. However, it shall indicate whether the claim would be a limited civil case.\u201d (Italics added.)\nThus, whether JJ. had all the information she contends she needed to determine whether any potential lawsuit against the County was viable is wholly separate and apart from the issue of when her cause of action accrued and thus when she was required to notify the County of her claim under section 911.2 (or, as in this case, under \u00a7 946.6) and provide the information regarding that claim as then known to her.\nFor these reasons, we decline to apply the principles of equitable estoppel to prevent the County from asserting J.J.\u2019s noncompliance with the various claims statutes.\nD. Excusable Neglect and Minority Status\nJ J. first contends her status as a minor precludes her claim with the County from being untimely, citing Hernandez v. County of Los Angeles (1986) 42 Cal.3d 1020 [232 Cal.Rptr. 519, 728 P.2d 1154] {Hernandez). She alternatively contends her claim should be deemed timely based on excusable neglect. We disagree with both contentions.\nFirst, as noted ante, subdivision (c)(1) of section 911.4 expressly provides that in computing the one-year period when, as in the instant case, a claim is not filed within six months of accrual as set forth in subdivision (a) of section 911.2, the \u201ctime during which the person who sustained the alleged injury, damage, or loss as a minor shall be counted . . . ,\u201d absent an exception not applicable here. (Italics added; see Code Civ. Proc., \u00a7 352, subd. (b).)\nSecond, Hernandez is inapposite here. In focusing on the various policy considerations made by our Legislature in attempting to \u201creach a reasonable accommodation between the interests of minors who are generally unable to protect themselves and the interests of the affected governmental entity,\u201d the Hernandez court concluded: \u201cSection 911.4 requires a late-claim application to be filed on behalf of a minor no more than one year after the accrual of the minor\u2019s cause of action, thereby protecting a governmental entity from having to respond to a claim many years after the accrual of the action. At the same time, sections 911.6 [(the grant or denial of an application)] and 946.6 ensure a minor that when a late-claim application is filed within a year of the accrual of his [or her] cause of action, his [or her] claim will not be barred because of a delay within that year for which the minor himself [or herself] is not responsible.\u201d (Hernandez, supra, 42 Cal.3d at p. 1030, italics added.)\nIn the instant case, because JJ. did not file her claim with the County within one year of the accrual of her cause of action, neither section 911.4 nor section 946.6 nor Hernandez nor other \u201cexcusable neglect\u201d cases on which she relies apply to her situation. (See, e.g., Ebersol v. Cowan, supra, 35 Cal.3d at p. 439 [late claim filed within one year of accrual of cause of action subject to excusable neglect determination]; Ramariz v. County of Merced (1987) 194 Cal.App.3d 684, 687 [239 Cal.Rptr. 774] [late claim filed within one year of accrual of cause of action].) We thus conclude J.J. cannot show her claim was timely based on excusable neglect.\nDISPOSITION\nThe order of the trial court denying J.J.\u2019s section 946.6 petition is affirmed. Each party to bear its own costs on appeal.\nMcIntyre, J., and Mon, J., concurred.\nA petition for a rehearing was denied March 7, 2014, and the opinion was modified to read as printed above.\nUnless otherwise noted, all statutory references are to the Government Code.\nJ.J. in her opening brief states police responded to two separate incidents in September 2009 regarding J.J. However, it appears there was only one incident, which occurred on September 17, 2009. The \u201csecond\u201d alleged incident referred to by J.J. on September 21, 2009, appears to be the investigating detective\u2019s description of the incident in the January 2011 report, in which he refers to an emergency response referral dated September 21, 2009, regarding the September 17 incident.\nIn connection with this incident, R.L.\u2019s wife stated during a police interview that the night J.J. ran away, J.J. told her she had left the family house because she was disappointed her foster family was \u201cnot black.\u201d According to R.L.\u2019s wife, when she asked J.J. that night if she wanted to find another family to live with, J.J. said \u201cshe was fine to stay with us.\u201d Nonetheless, the following day R.L.\u2019s wife spoke to a County social worker and suggested that J.J. find another place to live because R.L.\u2019s wife \u201cdidn\u2019t want [J.J.] to run off again.\u201d\nJ.J.\u2019s opposed motion for admission of new evidence, made pursuant to Code of Civil Procedure section 909, is denied. Although this statute permits an appellate court to receive new evidence, the \u201ccircumstances under which an appellate court can receive new evidence after judgment, or order the trial court to do so, are very rare. For this court to take new evidence pursuant to statute (Code Civ. Proc., \u00a7 909) . . . , the evidence normally must enable the Court of Appeal to affirm the judgment [or in this case, order], not lead to a reversal. [Citations.] The power to take evidence in the Court of Appeal is never used where there is conflicting evidence in the record and substantial evidence supports the trial court\u2019s findings. [Citations.]\u201d (Philippine Export & Foreign Loan Guarantee Corp. v. Chuidian (1990) 218 Cal.App.3d 1058, 1090 [267 Cal.Rptr. 457].) Here, the \u201cnew\u201d evidence is a psychiatric/medication evaluation report dated September 29, 2009, done at the Polinsky Children\u2019s Center in which J.J. said that \u201csomeone touch[ed] her in her private parts.\u201d Although J.J. contends she only obtained this \u201cnew\u201d evidence in late August 2012, after the trial court denied her petition, it is clear this evidence has been available to her since the date of the report and clearly was available in December 2010, when she disclosed the molestation to her parents and County social workers, and in March 2011, when her parents appeared and spoke at R.L.\u2019s sentencing. We thus conclude J.J. has failed to show exceptional circumstances to warrant our acting as fact finder on evidence that was at all times available to her if she had conducted a reasonable investigation on an issue that was, in any event, thoroughly briefed and considered by the trial court. (See generally Fox v. Ethicon Endo-Surgery, Inc. (2005) 35 Cal.4th 797, 808 [27 Cal.Rptr.3d 661, 110 P.3d 914] [recognizing the general rule that \u201cplaintiffs are required to conduct a reasonable investigation after becoming aware of an injury, and are charged with knowledge of the information that would have been revealed by such an investigation\u201d].) In addition, even if we considered this evidence, we would conclude it does not warrant a reversal of the finding that she did not timely file her claim with the County for placing her, supervising her, and/or preventing sexual abuse in the foster home of R.L. (See \u00a7\u00a7 911.2, 946.6.)\nIn her petition for a rehearing, J.J., appearing through her guardian ad litem, Ja.J., for the first time contends that Government Code section 905 applies to her case. We express no opinion on this issue, however; as a court of review, we will not \u201c \u2018submit to piecemeal argument and will not consider on petition for rehearing questions not previously raised\u2019 \u201d absent extraordinary circumstances, which are not present in the instant case. (Epperson v. Rosemond (1950) 100 Cal.App.2d 344, 348 [223 P.2d 655]; see Sanders v. Howard Park Co. (1948) 86 Cal.App.2d 721, 723 [195 P.2d 898] [noting an \u201cargument based upon a point not mentioned in the original brief of the petitioner will be of no avail on [petitioner\u2019s] demand for a rehearing\u201d].)",
+        "type": "majority",
+        "author": "BENKE, Acting P. J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Elaine L. Heine for Plaintiffs and Appellants.",
+      "Thomas E. Montgomery, County Counsel, and David G. Axtmann, Deputy County Counsel, for Defendant and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. D062594.\nFourth Dist., Div. One.\nFeb. 14, 2014.]\nJ.J., a Minor, etc., et al., Plaintiffs and Appellants, v. COUNTY OF SAN DIEGO, Defendant and Respondent.\nCounsel\nElaine L. Heine for Plaintiffs and Appellants.\nThomas E. Montgomery, County Counsel, and David G. Axtmann, Deputy County Counsel, for Defendant and Respondent."
+  },
+  "file_name": "1214-01",
+  "first_page_order": 1118,
+  "last_page_order": 1134
+}

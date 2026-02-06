@@ -1,0 +1,59 @@
+{
+  "id": 12415541,
+  "name": "Wogenstahl v. Robinson, Warden",
+  "name_abbreviation": "Wogenstahl v. Robinson",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5231",
+  "first_page": "902",
+  "last_page": "902",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 902"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 79,
+    "ocr_confidence": 0.687,
+    "sha256": "925f9e29434d23817cf848c93444b0f2606c3f48eabf676568ed01b684193d8f",
+    "simhash": "1:37ba429fce3b10c4",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wogenstahl v. Robinson, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5231.\nWogenstahl v. Robinson, Warden."
+  },
+  "file_name": "0902-03",
+  "first_page_order": 978,
+  "last_page_order": 978
+}

@@ -1,0 +1,79 @@
+{
+  "id": 12518940,
+  "name": "Jay F. VERMILLION, Plaintiff-Appellant, v. CORIZON HEALTH, INC., Paul Talbot, and Ruby Beeny, Defendants-Appellees.",
+  "name_abbreviation": "Vermillion v. Corizon Health, Inc.",
+  "decision_date": "2018-10-24",
+  "docket_number": "No. 18-1517",
+  "first_page": "696",
+  "last_page": "697",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "906 F.3d 696"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "7th Cir.",
+    "id": 9010,
+    "name": "United States Court of Appeals for the Seventh Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "185 F.3d 815",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11585933
+      ],
+      "year": 1999,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/185/0815-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 346,
+    "char_count": 5108,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2590905879068625
+    },
+    "sha256": "87ef1b0144f6714b20e667fe37d88e993a1b442d2528a6b9864a58bd8b9da003",
+    "simhash": "1:450fb851ba5994a0",
+    "word_count": 822
+  },
+  "last_updated": "2024-02-27T18:46:07.237745+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jay F. VERMILLION, Plaintiff-Appellant,\nv.\nCORIZON HEALTH, INC., Paul Talbot, and Ruby Beeny, Defendants-Appellees."
+    ],
+    "opinions": [
+      {
+        "text": "Easterbrook, Circuit Judge, in chambers.\nThis case came to my attention, as motions judge, when the appellees sought permission to file a brief containing more words than the 14,000 permitted by Fed. R. App. P. 32(a)(7) and Circuit Rule 32(c). Jay Vermillion, the appellant, represented that his brief contains fewer than 14,000 words, after excluding the portions not counted by Rule 32(f). But appellees reported that their count of his brief came to 16,850 words. They sought parity and then some: 17,258 countable words for their brief.\nThis court's staff checked and found 16,522 countable words in Vermillion's brief. Instead of adding words to appellees' brief, I struck Vermillion's, ordered him to file a new brief with fewer than 14,000 words, and directed him to explain why he should not be penalized for falsely representing that his original brief complied with the word limits.\nVermillion's response asks me to reinstate his brief. He says that he started with a word count of 15,315, reported by the \"Properties\" panel in Microsoft Word, and subtracted the words in the cover, table of authorities, and other portions that do not count against the total. Finding that the count remained over 14,000, \"Vermillion then discovered that Rule 32(f) does not specifically include the [brief's] references to the Record and Appendix toward the word-count\" (Response at 6). He estimated that about 2,000 words in his brief cited the record and appendix. With these excluded, the count is well under 14,000 words. So, he insists, his brief complies with the rules and must be accepted.\nTwo problems dog this line of argument.\nFirst, the \"Properties\" panel in Microsoft Word is not designed to count all words in a document. The program's \"Word Count\" panel includes footnotes, which the \"Properties\" panel omits. Footnotes count toward the word limit, see DeSilva v. DiLeonardi , 185 F.3d 815 (7th Cir. 1999), and Vermillion's brief contains about 1,000 words in footnotes. There may be other differences between the \"Properties\" panel and the \"Word Count\" panel, but this one big difference shows why the count must start with the \"Word Count\" panel.\nSecond, the fact that Rule 32 does not \"specifically include\" any category of words does not imply that they don't count toward the limit. Rule 32(f) does not mention citations to the record or appendix, but neither does it mention citations to judicial decisions and law reviews. Rule 32(a)(7) sets a limit on the entire brief-statements of fact, summaries of the district court's or agency's opinions, substantive legal arguments, citations, quotations, footnotes, and everything else-with the exception of the items excluded by Rule 32(f), which reads:\nIn computing any length limit, headings, footnotes, and quotations count toward the limit but the following items do not:\n\u2022 the cover page;\n\u2022 a corporate disclosure statement;\n\u2022 a table of contents;\n\u2022 a table of citations;\n\u2022 a statement regarding oral argument;\n\u2022 an addendum containing statutes, rules, or regulations;\n\u2022 certificates of counsel;\n\u2022 the signature block;\n\u2022 the proof of service; and\n\u2022 any item specifically excluded by these rules or by local rule.\nSo the fact that Rule 32(f) does not mention citations hardly justifies their exclusion from the word count. Only those matters that are mentioned in Rule 32(f) 's list are excluded. Everything else counts. (Neither the Rules of Appellate Procedure nor the Circuit Rules \"specifically\" excludes citations of any kind.)\nBecause Vermillion's brief did not comply with the rules, my order striking it stands. He must file a new brief with fewer than 14,000 countable words. The count must start with the software's \"Word Count\" panel and include footnotes. Only those items listed in Rule 32(f) may be excluded.\nOnce Vermillion has filed a complying brief, appellees too will be subject to the 14,000 word limit. I will not allow them any more words than Vermillion receives. Circuit Rule 32(c), which affords everyone 1,000 more words than the cap in Rule 32(a)(7), reflects a view that 14,000 suffices for all but the rare cases with lengthy trials, complex administrative records, or multiple complex issues. This appeal is not in any of those categories.\nVermillion is litigating without the aid of counsel, and his response to my order shows that he tried to comply in good faith, although he misunderstood both Rule 32(f) and the right place to start in Microsoft Word. No sanction-beyond the work needed to prepare and file a compliant brief-is appropriate. The order to show cause is discharged.\nBy separate order, the court will reset the dates for both sides' briefs.",
+        "type": "majority",
+        "author": "Easterbrook, Circuit Judge, in chambers."
+      }
+    ],
+    "attorneys": [
+      "Jay F. Vermillion, Pro Se, Pendleton Correctional Facility, Pendleton, IN, for Plaintiff-Appellant.",
+      "Adriana Katzen, Attorney, Jeb A. Crandall, Attorney, Bleeke Dillon Crandall, PC, Indianapolis, IN, for Defendants-Appellees."
+    ],
+    "corrections": "",
+    "head_matter": "Jay F. VERMILLION, Plaintiff-Appellant,\nv.\nCORIZON HEALTH, INC., Paul Talbot, and Ruby Beeny, Defendants-Appellees.\nNo. 18-1517\nUnited States Court of Appeals, Seventh Circuit.\nSubmitted October 19, 2018\nDecided October 24, 2018\nJay F. Vermillion, Pro Se, Pendleton Correctional Facility, Pendleton, IN, for Plaintiff-Appellant.\nAdriana Katzen, Attorney, Jeb A. Crandall, Attorney, Bleeke Dillon Crandall, PC, Indianapolis, IN, for Defendants-Appellees."
+  },
+  "file_name": "0696-01",
+  "first_page_order": 696,
+  "last_page_order": 697
+}

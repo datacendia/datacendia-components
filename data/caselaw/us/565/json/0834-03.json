@@ -1,0 +1,59 @@
+{
+  "id": 12201332,
+  "name": "Thomas v. California",
+  "name_abbreviation": "Thomas v. California",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10333",
+  "first_page": "834",
+  "last_page": "834",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 834"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 69,
+    "ocr_confidence": 0.676,
+    "sha256": "a328a7b7b8b1048d07b7bf5ee511f5ba3d8a0faa50484f0e5c88f58c7a6a25e3",
+    "simhash": "1:0e2e95f78af8004d",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Thomas v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Cal. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10333.\nThomas v. California."
+  },
+  "file_name": "0834-03",
+  "first_page_order": 916,
+  "last_page_order": 916
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12214933,
+  "name": "In re Doyle",
+  "name_abbreviation": "In re Doyle",
+  "decision_date": "2012-05-14",
+  "docket_number": "No. 11-9281",
+  "first_page": "986",
+  "last_page": "986",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 986"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 25,
+    "char_count": 167,
+    "ocr_confidence": 0.536,
+    "sha256": "1830eb68e1bb40c99588e2a0475e6ac7bbe6dc9c3a8104fa3c5a519345d53aa1",
+    "simhash": "1:4d815edc6355b558",
+    "word_count": 28
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Doyle."
+    ],
+    "opinions": [
+      {
+        "text": "Motion of petitioner for leave to proceed in forma pauperis denied, and petition for writ of mandamus dismissed.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9281.\nIn re Doyle.\nSee this Court\u2019s Rule 39.8."
+  },
+  "file_name": "0986-01",
+  "first_page_order": 862,
+  "last_page_order": 862
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12431969,
+  "name": "San Nicolas v. Dexter, Warden",
+  "name_abbreviation": "San Nicolas v. Dexter",
+  "decision_date": "2013-02-25",
+  "docket_number": "No. 12-5691",
+  "first_page": "1195",
+  "last_page": "1195",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1195"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 78,
+    "ocr_confidence": 0.581,
+    "sha256": "cb964a486568bf67e81c816a17a20cb4fd4bed3e9bef7de4f62e4fbf314fdeaf",
+    "simhash": "1:0073268125b920f2",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "San Nicolas v. Dexter, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5691.\nSan Nicolas v. Dexter, Warden."
+  },
+  "file_name": "1195-12",
+  "first_page_order": 1271,
+  "last_page_order": 1271
+}

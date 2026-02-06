@@ -1,0 +1,61 @@
+{
+  "id": 12427637,
+  "name": "Henry v. United States",
+  "name_abbreviation": "Henry v. United States",
+  "decision_date": "2012-12-10",
+  "docket_number": "No. 12-7065",
+  "first_page": "1076",
+  "last_page": "1076",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1076"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 153,
+    "ocr_confidence": 0.616,
+    "sha256": "f357fa8eb7d930d9ef18d4fea5861cf8cbed55ea28a7a99ddb5851f260ee4e08",
+    "simhash": "1:9db3ba8ad29eff4a",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Sotomayor took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Henry v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Cer-tiorari denied.\nJustice Sotomayor took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7065.\nHenry v. United States."
+  },
+  "file_name": "1076-07",
+  "first_page_order": 1152,
+  "last_page_order": 1152
+}

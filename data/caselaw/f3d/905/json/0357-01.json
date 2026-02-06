@@ -1,0 +1,94 @@
+{
+  "id": 12518782,
+  "name": "UNITED STATES of America, Plaintiff-Appellee v. Daniel MOSS, Defendant-Appellant",
+  "name_abbreviation": "United States v. Moss",
+  "decision_date": "2018-10-08",
+  "docket_number": "No. 18-10215",
+  "first_page": "357",
+  "last_page": "357",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "905 F.3d 357"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "5th Cir.",
+    "id": 8820,
+    "name": "United States Court of Appeals for the Fifth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "632 F.3d 229",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4088763
+      ],
+      "year": 2011,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/632/0229-01"
+      ]
+    },
+    {
+      "cite": "386 U.S. 738",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6182629
+      ],
+      "weight": 3,
+      "year": 1967,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/386/0738-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 108,
+    "char_count": 1036,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2590780389126934
+    },
+    "sha256": "553162d0719f936cc3d02f9a219053d7ac5a4ae3fda280b52fc2c247fa9401df",
+    "simhash": "1:e846c3480484be82",
+    "word_count": 158
+  },
+  "last_updated": "2024-02-27T18:46:01.347439+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before HIGGINSON, COSTA, and HO, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff-Appellee\nv.\nDaniel MOSS, Defendant-Appellant"
+    ],
+    "opinions": [
+      {
+        "text": "PER CURIAM:\nThe attorney appointed to represent Daniel Moss has moved for leave to withdraw and has filed a brief in accordance with Anders v. California , 386 U.S. 738, 87 S.Ct. 1396, 18 L.Ed.2d 493 (1967), and United States v. Flores , 632 F.3d 229 (5th Cir. 2011). Moss has not filed a response. We have reviewed counsel's brief and the relevant portions of the record reflected therein. We concur with counsel's assessment that the appeal presents no nonfrivolous issue for appellate review. Accordingly, counsel's motion for leave to withdraw is GRANTED, counsel is excused from further responsibilities herein, and the APPEAL IS DISMISSED. See 5TH CIR. R. 42.2.",
+        "type": "majority",
+        "author": "PER CURIAM:"
+      }
+    ],
+    "attorneys": [
+      "James Wesley Hendrix, Assistant U.S. Attorney, U.S. Attorney's Office, Northern District of Texas, Dallas, TX, for Plaintiff-Appellee."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff-Appellee\nv.\nDaniel MOSS, Defendant-Appellant\nNo. 18-10215\nUnited States Court of Appeals, Fifth Circuit.\nFILED October 8, 2018\nJames Wesley Hendrix, Assistant U.S. Attorney, U.S. Attorney's Office, Northern District of Texas, Dallas, TX, for Plaintiff-Appellee.\nDaniel Moss, Pro Se.\nBefore HIGGINSON, COSTA, and HO, Circuit Judges."
+  },
+  "file_name": "0357-01",
+  "first_page_order": 357,
+  "last_page_order": 357
+}

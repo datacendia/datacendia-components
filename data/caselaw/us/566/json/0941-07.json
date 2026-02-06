@@ -1,0 +1,59 @@
+{
+  "id": 12204648,
+  "name": "Hagans v. Georgia",
+  "name_abbreviation": "Hagans v. Georgia",
+  "decision_date": "2012-04-16",
+  "docket_number": "No. 11-8288",
+  "first_page": "941",
+  "last_page": "941",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 941"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 64,
+    "ocr_confidence": 0.61,
+    "sha256": "341e72ab252bfedbd88e68a4f46323e210cdc0ce5c37c99fdb53555334a1d9fb",
+    "simhash": "1:0256e09df25dd027",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hagans v. Georgia."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Ga. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8288.\nHagans v. Georgia."
+  },
+  "file_name": "0941-07",
+  "first_page_order": 817,
+  "last_page_order": 817
+}

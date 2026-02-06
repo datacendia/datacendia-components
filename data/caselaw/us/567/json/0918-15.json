@@ -1,0 +1,59 @@
+{
+  "id": 12409715,
+  "name": "Smith v. Missouri",
+  "name_abbreviation": "Smith v. Missouri",
+  "decision_date": "2012-06-18",
+  "docket_number": "No. 11-9357",
+  "first_page": "918",
+  "last_page": "918",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 918"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 79,
+    "ocr_confidence": 0.678,
+    "sha256": "cff25d5fb3ca861278b5fa9b43ac0025db9c60af29da78b45d311f6cbf53ca14",
+    "simhash": "1:1d41d2ea84c1aa60",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Smith v. Missouri."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Mo., Eastern Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9357.\nSmith v. Missouri."
+  },
+  "file_name": "0918-15",
+  "first_page_order": 822,
+  "last_page_order": 822
+}

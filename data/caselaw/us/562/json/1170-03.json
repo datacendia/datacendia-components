@@ -1,0 +1,61 @@
+{
+  "id": 5937355,
+  "name": "Bhatia v. United States",
+  "name_abbreviation": "Bhatia v. United States",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7613",
+  "first_page": "1170",
+  "last_page": "1170",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1170"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 151,
+    "ocr_confidence": 0.569,
+    "sha256": "c808b427d0863a7f4cdb609bf71799b7ddffb4254e9ec6ef30977c7de7004856",
+    "simhash": "1:0923fa0ae7aed95a",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Bhatia v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Cer-tiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7613.\nBhatia v. United States."
+  },
+  "file_name": "1170-03",
+  "first_page_order": 1192,
+  "last_page_order": 1192
+}

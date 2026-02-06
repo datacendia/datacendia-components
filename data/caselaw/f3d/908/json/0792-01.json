@@ -1,0 +1,873 @@
+{
+  "id": 12519202,
+  "name": "ARISTA NETWORKS, INC., Appellant v. CISCO SYSTEMS, INC., Cross-Appellant",
+  "name_abbreviation": "Arista Networks, Inc. v. CISCO Sys., Inc.",
+  "decision_date": "2018-11-09",
+  "docket_number": "2017-1525, 2017-1577",
+  "first_page": "792",
+  "last_page": "804",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "908 F.3d 792"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Fed. Cir.",
+    "id": 8955,
+    "name": "United States Court of Appeals for the Federal Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "467 U.S. 837",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6209106
+      ],
+      "weight": 3,
+      "year": 1984,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/467/0837-01"
+      ]
+    },
+    {
+      "cite": "83 Fed. Reg. 51,340",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "51,340",
+          "parenthetical": "to be codified at 37 C.F.R. pt. 42"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "899 F.3d 1321",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12518058
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1350",
+          "parenthetical": "Taranto, J., concurring"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/899/1321-01"
+      ]
+    },
+    {
+      "cite": "324 U.S. 806",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6156909
+      ],
+      "weight": 3,
+      "year": 1945,
+      "pin_cites": [
+        {
+          "page": "816"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/324/0806-01"
+      ]
+    },
+    {
+      "cite": "15 U.S.C. \u00a7 1069",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "parenthetical": "providing in the Lanham Act context that \"[i]n all inter partes proceedings equitable principles of laches, estoppel, and acquiescence, where applicable may be considered and applied\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "19 U.S.C. \u00a7 1337",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(c)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "560 U.S. 242",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12449202,
+        3641916
+      ],
+      "weight": 3,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "251"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/176/0998-01",
+        "/us/560/0242-01"
+      ]
+    },
+    {
+      "cite": "135 S.Ct. 2480",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12590981
+      ],
+      "weight": 2,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "2489"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/135/2480-01"
+      ]
+    },
+    {
+      "cite": "535 U.S. 274",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        354232
+      ],
+      "weight": 3,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "288",
+          "parenthetical": "\"The common-law rule was not so well established ... that we must assume that Congress considered the impact of its enactment on the question now before us.\""
+        },
+        {
+          "parenthetical": "\"The common-law rule was not so well established ... that we must assume that Congress considered the impact of its enactment on the question now before us.\""
+        },
+        {
+          "parenthetical": "\"The common-law rule was not so well established ... that we must assume that Congress considered the impact of its enactment on the question now before us.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/535/0274-01"
+      ]
+    },
+    {
+      "cite": "137 S.Ct. 1523",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12604319
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1536"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/137/1523-01"
+      ]
+    },
+    {
+      "cite": "96 L.Ed. 1294",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "year": 1952,
+      "opinion_index": 0
+    },
+    {
+      "cite": "343 U.S. 779",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11341644
+      ],
+      "weight": 4,
+      "year": 1952,
+      "pin_cites": [
+        {
+          "page": "783"
+        },
+        {
+          "page": "783"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/343/0779-01"
+      ]
+    },
+    {
+      "cite": "501 U.S. 104",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1108159
+      ],
+      "weight": 6,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "108"
+        },
+        {
+          "page": "108"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/501/0104-01"
+      ]
+    },
+    {
+      "cite": "395 U.S. 653",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1771578
+      ],
+      "weight": 3,
+      "year": 1969,
+      "pin_cites": [
+        {
+          "page": "664-66"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/395/0653-01"
+      ]
+    },
+    {
+      "cite": "326 U.S. 249",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6156722
+      ],
+      "weight": 3,
+      "year": 1945,
+      "pin_cites": [
+        {
+          "page": "260",
+          "parenthetical": "Frankfurter, J., dissenting"
+        },
+        {
+          "parenthetical": "Frankfurter, J., dissenting"
+        },
+        {
+          "parenthetical": "Frankfurter, J., dissenting"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/326/0249-01"
+      ]
+    },
+    {
+      "cite": "848 F.2d 1220",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1783416
+      ],
+      "weight": 4,
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "1222"
+        },
+        {
+          "page": "1224",
+          "parenthetical": "\"The estoppel also operates to bar other parties in privity with the assignor, such as a corporation founded by the assignor.\""
+        },
+        {
+          "parenthetical": "\"Although Lear involved the licensing, rather than the assignment, of a patent, the opinion reviewed the history of 'patent estoppel' in general, and indicated that the Court's previous decisions had sapped much of the vitality, if not the logic, from the assignment estoppel doctrine as well.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/848/1220-01"
+      ]
+    },
+    {
+      "cite": "903 F.2d 789",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10538458
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "790"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/903/0789-01"
+      ]
+    },
+    {
+      "cite": "266 U.S. 342",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6141794
+      ],
+      "weight": 7,
+      "year": 1924,
+      "pin_cites": [
+        {
+          "page": "349",
+          "parenthetical": "\"[A]n assignor of a patent right is estopped to attack the utility, novelty or validity of a patented invention which he has assigned or granted as against any one claiming the right under his assignment or grant.\""
+        },
+        {
+          "parenthetical": "\"[A]n assignor of a patent right is estopped to attack the utility, novelty or validity of a patented invention which he has assigned or granted as against any one claiming the right under his assignment or grant.\""
+        },
+        {
+          "parenthetical": "\"[A]n assignor of a patent right is estopped to attack the utility, novelty or validity of a patented invention which he has assigned or granted as against any one claiming the right under his assignment or grant.\""
+        },
+        {
+          "page": "345-46"
+        },
+        {
+          "page": "349"
+        },
+        {
+          "parenthetical": "Frankfurter, J., dissenting"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/266/0342-01"
+      ]
+    },
+    {
+      "cite": "150 F.3d 1374",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1540702
+      ],
+      "weight": 2,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "1377"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/150/1374-01"
+      ]
+    },
+    {
+      "cite": "200 L.Ed.2d 695",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12611230
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "parenthetical": "\" Cuozzo concluded that \u00a7 314(d) precludes judicial review only of the Director's 'initial determination' under \u00a7 314(a"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/1348-01"
+      ]
+    },
+    {
+      "cite": "138 S.Ct. 1348",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12611230,
+        12611231
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1359",
+          "parenthetical": "\" Cuozzo concluded that \u00a7 314(d) precludes judicial review only of the Director's 'initial determination' under \u00a7 314(a"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/1348-01",
+        "/s-ct/138/1348-02"
+      ]
+    },
+    {
+      "cite": "35 U.S.C. \u00a7 311",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "1246",
+          "parenthetical": "emphasis in original"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "838 F.3d 1236",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12174932
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1241"
+        },
+        {
+          "page": "1245"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/838/1236-01"
+      ]
+    },
+    {
+      "cite": "878 F.3d 1364",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12267278
+      ],
+      "weight": 11,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "parenthetical": "en banc"
+        },
+        {
+          "page": "1372-75"
+        },
+        {
+          "page": "1373",
+          "parenthetical": "emphasis in Wi-Fi One "
+        },
+        {
+          "page": "1373"
+        },
+        {
+          "page": "1373-74"
+        },
+        {
+          "page": "1373"
+        },
+        {
+          "page": "1373-74"
+        },
+        {
+          "page": "1374"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/878/1364-01"
+      ]
+    },
+    {
+      "cite": "35 U.S.C. \u00a7 314",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(d)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "873 F.3d 1354",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12267269
+      ],
+      "weight": 3,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1364"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/873/1354-01"
+      ]
+    },
+    {
+      "cite": "750 F.3d 1304",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4066341
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "1311",
+          "parenthetical": "\"We normally do not construe claims in a manner that would exclude the preferred embodiment, especially where it is the only disclosed embodiment.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/750/1304-01"
+      ]
+    },
+    {
+      "cite": "201 L.Ed.2d 1004",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12613390,
+        12613391,
+        12613362,
+        12613364,
+        12613366,
+        12613401,
+        12613402,
+        12613403
+      ],
+      "weight": 2,
+      "year": 2018,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/2606-05",
+        "/s-ct/138/2606-06",
+        "/s-ct/138/2602-03",
+        "/s-ct/138/2602-05",
+        "/s-ct/138/2603-01",
+        "/s-ct/138/2608-04",
+        "/s-ct/138/2608-05",
+        "/s-ct/138/2608-06"
+      ]
+    },
+    {
+      "cite": "138 S.Ct. 2602",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12613360,
+        12613361,
+        12613362,
+        12613363,
+        12613364,
+        12613365
+      ],
+      "year": 2018,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/2602-01",
+        "/s-ct/138/2602-02",
+        "/s-ct/138/2602-03",
+        "/s-ct/138/2602-04",
+        "/s-ct/138/2602-05",
+        "/s-ct/138/2602-06"
+      ]
+    },
+    {
+      "cite": "262 F.3d 1258",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9487186,
+        9487139
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "1271"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/262/1258-02",
+        "/f3d/262/1258-01"
+      ]
+    },
+    {
+      "cite": "865 F.3d 1372",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12275864
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1377"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/865/1372-01"
+      ]
+    },
+    {
+      "cite": "383 F.3d 1295",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9214028
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "1300"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/383/1295-01"
+      ]
+    },
+    {
+      "cite": "696 F.3d 1142",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5863963
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "1150",
+          "parenthetical": "quoting Irdeto Access, Inc. v. Echostar Satellite Corp. , 383 F.3d 1295, 1300 (Fed. Cir. 2004) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/696/1142-01"
+      ]
+    },
+    {
+      "cite": "812 F.3d 1056",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4085614
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1062"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/812/1056-01"
+      ]
+    },
+    {
+      "cite": "136 S.Ct. 2131",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12597964
+      ],
+      "weight": 15,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "2146"
+        },
+        {
+          "page": "2138-39"
+        },
+        {
+          "page": "2142",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "2141",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "2140",
+          "parenthetical": "noting the \" 'strong presumption' in favor of judicial review that we apply when we interpret statutes, including statutes that may limit or preclude review\""
+        },
+        {
+          "page": "2144"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/136/2131-01"
+      ]
+    },
+    {
+      "cite": "37 C.F.R. \u00a7 42.100",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "135 S.Ct. 831",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12594237
+      ],
+      "weight": 2,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "841"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/135/0831-01"
+      ]
+    },
+    {
+      "cite": "890 F.3d 1024",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516897
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1031"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/890/1024-01"
+      ]
+    },
+    {
+      "cite": "820 F.3d 419",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4254781
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "425"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/820/0419-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1295",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(4)(A)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "U.S. Patent No. 7,340,597",
+      "category": "laws:admin_filing",
+      "reporter": "U.S. Patent",
+      "weight": 8,
+      "pin_cites": [
+        {
+          "parenthetical": "\"the '597 patent\""
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1558,
+    "char_count": 41331,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2591127899734695
+    },
+    "sha256": "e7c698e65d8f0c76765ed04c17af7f964b3b1f9f3ff8d6da1707e02bb62e927c",
+    "simhash": "1:f86dc775a7b6176c",
+    "word_count": 6570
+  },
+  "last_updated": "2024-02-27T16:20:33.568669+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Prost, Chief Judge, Schall and Chen, Circuit Judges."
+    ],
+    "parties": [
+      "ARISTA NETWORKS, INC., Appellant\nv.\nCISCO SYSTEMS, INC., Cross-Appellant"
+    ],
+    "opinions": [
+      {
+        "text": "Prost, Chief Judge.\nArista Networks, Inc. (\"Arista\") petitioned for an inter partes review (\"IPR\") of certain claims of U.S. Patent No. 7,340,597 (\"the '597 patent\"), which is owned by Cisco Systems, Inc. (\"Cisco\"). After instituting an IPR, the Patent Trial and Appeal Board (\"Board\") upheld some of those challenged claims as patentable but invalidated others. Both Arista and Cisco appeal various aspects of the Board's decision. Having considered the parties' arguments, we reverse and remand as to Arista's appeal, and we affirm Cisco's cross-appeal.\nI\nComputer networks are made up of various network devices (e.g., computers, servers, routers, and switches) that are connected to each other. Within a network, devices can easily access information and services provided by other devices in the network. This convenience of access has drawbacks, however, as it increases the risk of an external attack on one or more network devices. For example, if an external attacker compromises one network device, the security of all connected network devices is threatened. As explained below, the patent at issue in this case relates to securing network devices from such attacks by using a logging module to communicate any configuration changes to a device.\nA\nThe '597 patent, titled \"Method and Apparatus for Securing a Communications Device using a Logging Module,\" relates generally to ensuring network device security by using a logging module with restricted configurability to detect and communicate changes to a network device's configuration. '597 patent col. 2 ll. 35-37, 45-47, col. 3 ll. 43-49.\nThe '597 patent includes four independent claims. Claim 1 and dependent claim 29 are illustrative. Claim 1 states:\n1. An apparatus comprising:\na communications device comprising:\na subsystem; and\na logging module, coupled to said subsystem, and configured to detect a change to a configuration of said subsystem of said communications device, and communicate information regarding said change to said configuration of said subsystem of said communications device.\nId. at claim 1. Claim 29 states:\n29. The communications device of claim 1, wherein the logging module is configured to communicate the change to the configuration of the subsystem by broadcasting the change to the configuration of the subsystem.\nId. at claim 29.\nIn one embodiment, a network communications device includes a \"logging module\" that monitors and reports configuration changes. Id. at col. 3 ll. 43-48, col. 6 ll. 7-10. When the logging module detects a configuration change, it can indicate that change in various ways, for example, by way of \"an indicator lamp, a message to a display, a message to another network device, broadcast message to specially-configured security devices, or other such mechanisms.\" Id. at col. 7 ll. 25-30.\nIn some embodiments, the logging module communicates a configuration change by \"broadcast[ing] the change in the configuration of communications interface ... to one or more security monitors on the network.\"Id. at col. 7 ll. 39-41; see also id. at col. 8 ll. 52-54. Such broadcasting occurs by way of a multicast address. Id. at col. 11 ll. 45-50. To monitor these broadcasts, in some embodiments, a given security monitor must \"subscribe to this multicast address.\" Id. at col. 11 ll. 50-51, col. 13 ll. 57-67 (describing the process of configuring a security monitor, including \"subscribing to a logging module's multicast address in order to receive broadcasts from the logging module\").\nB\nThe named inventor of the '597 patent is Dr. David Cheriton, who at the time of the invention was employed by Cisco as a technical advisor and chief product architect. Dr. Cheriton assigned \"the entire right, title and interest throughout the world in [his] invention\" to Cisco, requesting that the U.S. Patent and Trademark Office (\"PTO\") \"issue all patents granted for said invention\" to Cisco. J.A. 598; see also '597 patent (listing Cisco as the assignee). In the same assignment document, Dr. Cheriton agreed \"generally to do everything possible to aid said assignee, their successors, assigns and nominees, at their request and expense, in obtaining and enforcing patents for said invention in all countries.\" J.A. 598. Cisco compensated Dr. Cheriton for his employment and, according to Cisco, provided additional compensation for the assignment of inventions he developed during his tenure at Cisco.\nShortly thereafter, Dr. Cheriton and at least thirteen other Cisco employees left Cisco to found Arista. Dr. Cheriton served as Arista's Chief Scientist for several years. He also served as a director of Arista and was one of its largest shareholders. He resigned from Arista in March 2014.\nC\nIn response to Arista's IPR petition, which Arista filed on April 1, 2015, the Board instituted review of certain claims of the '597 patent. In its Final Written Decision, the Board upheld claims 29, 63, 64, 73, and 86 as patentable, but invalidated claims 1, 14, 39-42, 71, 72, 84, and 85 as anticipated or obvious. Arista Networks, Inc. v. Cisco Sys., Inc. , IPR2015-00978, Paper 32 at 26 (P.T.A.B. Sept. 28, 2016) (\"Final Written Decision \"). In doing so, the Board declined to apply the doctrine of assignor estoppel, which in Cisco's view should have prevented Arista from challenging the patent's validity.\nArista timely appealed with respect to the claims upheld by the Board, and Cisco timely cross-appealed regarding the invalidated claims. We have jurisdiction pursuant to 28 U.S.C. \u00a7 1295(a)(4)(A).\nII\nIn its appeal, Arista contends that the Board erred in construing the term \"broadcast,\" and that this error caused the Board to improperly reject Arista's obviousness challenge to claims 29, 63, 64, 73, and 86 of the '597 patent. Meanwhile, Cisco's cross-appeal requires us to address the reviewability of the Board's refusal to apply the doctrine of assignor estoppel and, if reviewable, whether the Board should have analyzed the merits of Cisco's arguments regarding assignor estoppel. We address each issue in turn.\nA\nOn appeal, Arista argues that the Board erred in its construction of the term \"broadcast\" as used in the '597 patent. The parties dispute the construction of \"broadcast\" as used the '597 patent 's claims. The Board construed the term as requiring a broadcast transmission to be delivered to all network devices. Both parties argue that the Board's construction was incorrect.\nThe ultimate construction of a claim is a question of law reviewed de novo.\nSimpleAir, Inc. v. Sony Ericsson Mobile Commc'ns AB , 820 F.3d 419, 425 (Fed. Cir. 2016). Where the Board looks beyond the intrinsic evidence and consults extrinsic evidence, we review the Board's subsidiary factual findings concerning such extrinsic evidence for substantial evidence. Praxair Distribution, Inc. v. Mallinckrodt Hosp. Prods. IP Ltd. , 890 F.3d 1024, 1031 (Fed. Cir. 2018) ; cf. Teva Pharm. USA, Inc. v. Sandoz, Inc. , --- U.S. ----, 135 S.Ct. 831, 841, --- L.Ed.2d ---- (2015).\nBefore the Board, Arista argued that \"broadcast\" should be construed as \"a transmission to one or more devices.\" J.A. 65 (IPR Pet.). Meanwhile, Cisco proposed construing the term to mean \"transmitting data to one or more devices without specifying what device(s) will ultimately receive the data.\" J.A. 531 (Cisco's Prelim. Resp.).\nThe Board, in its Institution Decision, \"decline[d] to adopt either party's proposed construction.\" Arista Networks, Inc. v. Cisco Sys, Inc. , IPR2015-00978, Paper 7 at 6 (P.T.A.B. Oct. 6, 2015) (\"Institution Decision \"). Instead, the Board construed \"broadcast\" according to what it concluded was the \"ordinary and customary meaning to one of skill in the art\"-namely, \"a transmission of a message simultaneously to all destinations in a network.\" Id.\nAfter receiving the construction provided in the Institution Decision, Cisco argued that the Board's construction would exclude the multicast address embodiment of broadcasting described in the patent. J.A. 1231-32 (Cisco's Resp.). Cisco reiterated this concern during the oral hearing. J.A. 4083 l. 23-4084 l. 3, 4084 ll. 10-12 (Hr'g Tr.). For its part, Arista's counsel stated during the oral hearing that Arista would \"accept\" the Board's construction and \"not continue to maintain [Arista's] construction\" if the Board's construction \"includes the only disclosure of broadcasting in the '597 patent, which is using a multicast address.\" J.A. 4052 ll. 2-9 (Hr'g Tr.). Despite the concern raised by both parties regarding excluding the multicast address embodiment, the Board's Final Written Decision maintained the Board's same construction. Final Written Decision at 7-8.\nIn an IPR, \"[a] claim in an unexpired patent that will not expire before a final written decision is issued shall be given its broadest reasonable construction in light of the specification of the patent in which it appears.\" 37 C.F.R. \u00a7 42.100(b) (2017) ; Cuozzo Speed Techs., LLC v. Lee , --- U.S. ----, 136 S.Ct. 2131, 2146, 195 L.Ed.2d 423 (2016). Under this standard, \"words of the claim must be given their plain meaning, unless such meaning is inconsistent with the specification and prosecution history.\" Trivascular, Inc. v. Samuels , 812 F.3d 1056, 1062 (Fed. Cir. 2016). Moreover, we have held that \"[e]ven when guidance is not provided in explicit definitional format, the specification may define claim terms by implication such that the meaning may be found in or ascertained by a reading of the patent documents.\" In re Abbott Diabetes Care Inc. , 696 F.3d 1142, 1150 (Fed. Cir. 2012) (quoting Irdeto Access, Inc. v. Echostar Satellite Corp. , 383 F.3d 1295, 1300 (Fed. Cir. 2004) ); see also Homeland Housewares, LLC v. Whirlpool Corp. , 865 F.3d 1372, 1377 (Fed. Cir. 2017) (\"[W]hen a patentee uses a claim term throughout the entire patent specification, in a manner consistent with only a single meaning, he has defined that term 'by implication.' \" (quoting Bell Atl. Network Servs., Inc. v. Covad Commc'ns Grp., Inc. , 262 F.3d 1258, 1271 (Fed. Cir. 2001) ) ), cert. denied , --- U.S. ----, 138 S.Ct. 2602, 201 L.Ed.2d 1004 (2018).\nIn this case, both parties agree that: (1) the patent includes multicasting via a multicast address as a type of broadcasting; (2) this is the only disclosed example of broadcasting in the '597 patent ; (3) this does not necessarily transmit a message to all destinations on a network; and (4) the Board's construction, which requires a transmission to all network destinations, therefore excludes this embodiment.\nThe specification supports the parties' understanding of the term \"broadcast\" as used here. First, the specification points to multicasting using a multicast address as the only example of broadcasting. It explains that \"[t]he multicast address is used by the logging module to broadcast security information (such as changes in the configuration of the network device) to the one or more security monitors on the network.\" '597 patent col. 11 ll. 46-50 (emphasis added). The specification also makes clear that this does not necessarily require transmitting a message to all network devices, given that \"[a] security monitor must subscribe to this multicast address in order to monitor the logging module's broadcasts.\" Id. at col. 11 ll. 50-51 (emphasis added); see also J.A. 1306 \u00b6 64 (Decl. of Cisco's expert, Dr. Stephen Wicker) (\"Multicasting differs from network broadcasting in that a multicast message is not necessarily sent to all hosts on a network, and instead can be sent to a group of hosts.\"). We therefore agree with the parties that the Board's construction cannot stand. Not only does it ignore the patentee's use of \"broadcast,\" it excludes the only disclosed embodiment of broadcasting (i.e., multicasting by way of a multicast address), which allows for transmission to fewer than all devices. See GE Lighting Sols., LLC v. AgiLight, Inc. , 750 F.3d 1304, 1311 (Fed. Cir. 2014) (\"We normally do not construe claims in a manner that would exclude the preferred embodiment, especially where it is the only disclosed embodiment.\").\nWith this in mind, we are nonetheless faced with competing proposed constructions on appeal. Arista contends that \"broadcast\" should be construed to mean \"a transmission to one or more devices.\" Meanwhile, Cisco proposes: \"transmitting data to one or more devices without specifying which devices will ultimately receive the data .\" Cross-Appellant's Br. 77 (emphasis added). We address each construction in turn.\nArista argues that its proposed construction-\"a transmission to one or more devices\"-tracks the language of the specification. Appellant's Br. 34 (citing, e.g., '597 patent col. 11 ll. 45-50 (\"The multicast address is used by the logging module to broadcast security information ... to the one or more security monitors on the network.\" (emphasis in Arista's brief) ) ). While this is true, Arista's construction is still too broad. As the Board noted, this construction could encompass many types of network transmissions, such as simply sending an email. See Institution Decision at 6. We therefore reject Arista's construction as being overly broad, even under the broadest reasonable interpretation standard.\nCisco's proposed construction fares only slightly better. Cisco contends that its construction reflects the key difference between a broadcast and other network communications-namely, that in a broadcast, the sender does not know who ultimately receives the sender's transmission. Specifically, Cisco explains that because intermediate network devices maintain the lists of devices subscribed to a particular group address, the device that initially sends a broadcast to that group address will not know which devices ultimately receive the broadcast. But we are not convinced that the additional limitation Cisco proposes should be incorporated into the construction. Cisco's argument relies heavily on its expert's testimony, but that testimony is not based on the '597 patent 's specification. In short, nothing in the specification suggests that Cisco's proposed negative limitation is a required part of the contemplated \"broadcast.\" We therefore see no reason to limit the term as Cisco proposes.\nWith this in mind, we reject Cisco's proposed limitation and instead construe the term based on the specification's consistent focus on broadcasting via a multicast address. See '597 patent col. 11 ll. 45-51, col. 14 ll. 15-17, col. 15 l. 66-col. 16 l. 1. We therefore construe the terms \"broadcast\" and \"broadcasting\" to mean, respectively, \"a transmission to one or more devices using a multicast address\" and \"transmitting to one or more devices using a multicast address.\"\nGiven that the Board conducted its patentability analysis under an incorrect claim construction, we find it appropriate to remand this case for the Board to consider, in the first instance, the patentability of the claims raised in Arista's appeal, in light of the construction provided herein.\nB\nIn its cross-appeal, Cisco argues that the Board's decision to invalidate some claims should be reversed based on assignor estoppel. In Cisco's view, the facts presented here represent a textbook case of assignor estoppel. Indeed, in the related ITC investigation, the ITC held that assignor estoppel barred Arista's challenge to the '597 patent 's validity. See In re Certain Network Devices, Related Software and Components Thereof (I) , Inv. No. 337-TA-944, USITC Pub. 575521 at 132 (Feb. 2, 2016) (Initial Determination), available at Fed. Cir. Appeal No. 16-2563, ECF No. 133 (App. 888.143-888.149), aff'd , 873 F.3d 1354 (Fed. Cir. 2017).\n1\nBefore reaching the question of whether assignor estoppel should apply in the IPR context, we must first ensure that this issue is reviewable in light of the Supreme Court's analysis of 35 U.S.C. \u00a7 314(d) in Cuozzo Speed Technologies v. Lee , --- U.S. ----, 136 S.Ct. 2131, 195 L.Ed.2d 423 (2016), and this court's recent en banc application of Cuozzo in Wi-Fi One, LLC v. Broadcom Corp. , 878 F.3d 1364 (Fed. Cir. 2018) (en banc).\nUnder \u00a7 314(d), \"[t]he determination by the Director whether to institute an inter partes review under this section shall be final and nonappealable.\" In Cuozzo , the Supreme Court analyzed this \"no appeal\" provision in the context of a challenge to the Board's decision to institute review of two claims based on a certain prior art combination, where the challenger raised that combination with respect to a third, dependent claim. Cuozzo , 136 S.Ct. at 2138-39. There, the patent owner argued that by instituting review on grounds not cited for those claims, but instead based on a conclusion that the petitioner had implicitly challenged the claims on that ground, the Board violated the requirement that an IPR petition \"may be considered only if ... the petition identifies, in writing and with particularity, each claim challenged, the grounds on which the challenge to each claim is based, and the evidence that supports the grounds for the challenge to each claim.\" \u00a7 312(a)(3).\nIn finding the Board's institution decision unreviewable, the Court explained that \"where a patent holder merely challenges the Patent Office's 'determin[ation] that the information presented in the petition ... shows that there is a reasonable likelihood' of success 'with respect to at least 1 of the claims challenged,' \u00a7 314(a), or where a patent holder grounds its claim in a statute closely related to that decision to institute inter partes review, \u00a7 314(d) bars judicial review.\" Cuozzo , 136 S.Ct. at 2142 (emphasis added). The Court reasoned that the challenge in that case-that the petition was not pleaded \"with particularity\" under \u00a7 312-was \"little more than a challenge to the Patent Office's conclusion, under \u00a7 314(a), that the 'information presented in the petition' warranted review.\" Id. The Court also noted, however, that it was not deciding \"the precise effect of \u00a7 314(d) on appeals that implicate constitutional questions, that depend on other less closely related statutes , or that present other questions of interpretation that reach, in terms of scope and impact, well beyond 'this section.' \" Id. at 2141 (emphasis added).\nJust three months after Cuozzo , a panel of this court in Husky applied the decision to the question of whether assignor estoppel could bar a party from filing an IPR petition. Husky Injection Molding Sys. Ltd. v. AthenaAutomation Ltd. , 838 F.3d 1236, 1241 (Fed. Cir. 2016). The panel concluded that \"the question whether assignor estoppel applies in full force at the [PTO] does not fall into any of the three categories the Supreme Court specifically mentioned as reviewable,\" including that the question does not \"depend on other less closely related statutes.\" Id. at 1245. In doing so, the panel explained that this question \"necessarily requires an interpretation of 35 U.S.C. \u00a7 311(a),\" and that an interpretation of \u00a7 311\"to either include or foreclose assignor estoppel is very 'closely related' to any decision to initiate inter partes review.\" Id. at 1246 (emphasis in original).\nSince Husky , however, this court, sitting en banc, addressed the reviewability standard articulated in Cuozzo . Wi-Fi One , 878 F.3d at 1372-75. In Wi-Fi One , we explained that Cuozzo held that the bar on judicial review in \u00a7 314(d) applies where a patent owner challenges the Board's determination under \u00a7 314(a) that there is a \"reasonable likelihood\" of success with respect to at least one claim, as well as where a patent owner challenges the Board's determination based on a statute \"closely related to that decision to institute inter partes review.\" Id. at 1373 (emphasis in Wi-Fi One ) (quoting Cuozzo , 136 S.Ct. at 2142 ); see id. at 1370 (noting that Cuozzo \"tied the 'closely related' language to the specific 'reasonable likelihood' determination made under \u00a7 314(a)\"); see also SAS Inst., Inc. v. Iancu , --- U.S. ----, 138 S.Ct. 1348, 1359, 200 L.Ed.2d 695 (2018) (\" Cuozzo concluded that \u00a7 314(d) precludes judicial review only of the Director's 'initial determination' under \u00a7 314(a) that 'there is a \"reasonable likelihood\" that the claims are unpatentable on the grounds asserted' and review is therefore justified.\" (quoting Cuozzo , 136 S.Ct. at 2140 ) ). In short, we are to \"examine the statutory scheme in terms of what is 'closely related' to the \u00a7 314(a) determination.\" Wi-Fi One , 878 F.3d at 1373. Looking to \u00a7 314(a), we then explained that \u00a7 314(a)\"does only two things: it identifies a threshold requirement for institution, and ... it grants the Director discretion not to institute even when the threshold is met.\" Id. at 1372 (citing Cuozzo , 136 S.Ct. at 2140 ). This \"threshold\" requirement \"focuse[s] on the patentability merits of particular claims.\" Id. We thus concluded that Cuozzo \"strongly points toward unreviewability being limited to the Director's determinations closely related to the preliminary patentability determination or the exercise of discretion not to institute.\" Id. at 1373 ; see also Cuozzo , 136 S.Ct. at 2140 (noting the \" 'strong presumption' in favor of judicial review that we apply when we interpret statutes, including statutes that may limit or preclude review\").\nHusky 's application of Cuozzo 's \"less closely related statutes\" exception cannot be reconciled with the reasoning of this court's subsequent decision in Wi-Fi One . We therefore must rely on the reasoning of the en banc court in Wi-Fi One to analyze whether the issue presented in this cross-appeal is reviewable.\nApplying the now-governing reasoning in Wi-Fi One , it is clear that we may review the Board's decision as to whether \u00a7 311(a) contemplates application of assignor estoppel. The question of whether assignor estoppel applies in IPRs stands in stark contrast to the statutory provision before the Court in Cuozzo , \u00a7 312(a)(3), which deals with pleading an IPR petition with particularity. Further, unlike the statutory provision at issue in Cuozzo , assignor estoppel does not relate to the patentability merits of an IPR petition. See Wi-Fi One , 878 F.3d at 1373-74 (distinguishing the statute in Cuozzo from \u00a7 315(b) by noting that the \u00a7 315(b) time-bar does not go to the merits of a petition). And, like the \u00a7 315(b) time-bar, assignor estoppel \"is not focused on particular claims, whereas \u00a7 314(a) 's threshold determination is.\" See id. at 1373 (discussing \u00a7 315(b) ). Instead, assignor estoppel, like the \u00a7 315(b) time-bar, \"is unrelated to the Director's preliminary patentability assessment or the Director's discretion not to initiate an IPR even if the threshold 'reasonable likelihood' is present.\" See id. (discussing \u00a7 315(b) ). In short, whether \u00a7 311(a) contemplates application of assignor estoppel is not \"closely related to the preliminary patentability determination or the exercise of discretion not to institute.\" Id. We therefore conclude that, like the time-bar in \u00a7 315(b), the issue of whether \u00a7 311(a) contemplates application of assignor estoppel is reviewable.\n2\nWe next turn to the merits of Cisco's argument that assignor estoppel should apply in the IPR context. \"Assignor estoppel prevents a party who assigns a patent to another from later challenging the validity of the assigned patent.\" Mentor Graphics Corp. v. Quickturn Design Sys., Inc. , 150 F.3d 1374, 1377 (Fed. Cir. 1998) ; see also Westinghouse Elec. & Mfg. Co. v. Formica Insulation Co. , 266 U.S. 342, 349, 45 S.Ct. 117, 69 L.Ed. 316 (1924) (\"[A]n assignor of a patent right is estopped to attack the utility, novelty or validity of a patented invention which he has assigned or granted as against any one claiming the right under his assignment or grant.\"). The doctrine often arises in factual scenarios similar to the facts of this case, where an employee invents something during his or her tenure with a company, assigns the rights to that invention to his or her employer, then leaves the company to join or found a competing company. See, e.g. , Westinghouse , 266 U.S. at 345-46, 45 S.Ct. 117 ; Shamrock Techs., Inc. v. Med. Sterilization, Inc. , 903 F.2d 789, 790 (Fed. Cir. 1990) ; Diamond Sci. Co. v. Ambico, Inc. , 848 F.2d 1220, 1222 (Fed. Cir. 1988). In such situations, the employee's new company may be estopped because \"[a]ssignor estoppel also prevents parties in privity with an estopped assignor from challenging the validity of the patent.\" Mentor Graphics , 150 F.3d at 1379 ; see also Diamond Sci. , 848 F.2d at 1224 (\"The estoppel also operates to bar other parties in privity with the assignor, such as a corporation founded by the assignor.\").\nAs discussed above, Dr. Cheriton invented the subject matter of the '597 patent while employed by Cisco, and he assigned his rights to that invention to Cisco. He then left Cisco to co-found Arista, a competitor to Cisco.\nDespite the factual similarities between this case and our other assignor estoppel cases, the Board declined to apply the doctrine in this case, suggesting that the doctrine is unavailable in the IPR context. Institution Decision at 7-8; Final Written Decision at 10-11. The Board provided two rationales for declining to apply assignor estoppel. First, it quoted a now-precedential Board decision, which held that \u00a7 311(a)\"presents a clear expression of Congress's broad grant of the ability to challenge the patentability of patents through inter partes review.\" Institution Decision at 7 (quoting Athena Automation Ltd. v. Husky Injection Molding Sys. Ltd. , IPR2013-00290, Paper 18 at 12-13 (P.T.A.B. Oct. 25, 2013) ). Second, the Board reasoned that Congress has not expressly provided for assignor estoppel in the IPR context, where it has in other contexts. Institution Decision at 8 (citing Redline Detection, LLC v. Star Envirotech, Inc. , IPR2013-00106, Paper 40 at 4 (P.T.A.B. Oct. 1, 2013) ).\n3\nThe question before us, as is often the case, is one of congressional intent: did Congress intend for assignor estoppel to apply in IPR proceedings?\nCisco's primary argument in favor of applying assignor estoppel is that assignor estoppel is a well-established common-law doctrine that should be presumed to apply absent a statutory indication to the contrary. With this principle in mind, Cisco particularly takes issue with the Board's reasoning that Congress would have expressly provided for application of equitable defenses if it so desired.\nThere is some merit to Cisco's argument. In Westinghouse , the Court characterized assignor estoppel as \"a rule well settled by 45 years of judicial consideration and conclusion\" in the district and circuit courts, reaching back as early as 1880. Westinghouse , 266 U.S. at 349, 45 S.Ct. 117 ; see also Scott Paper Co. v. Marcalus Mfg. Co. , 326 U.S. 249, 260, 66 S.Ct. 101, 90 L.Ed. 47 (1945) (Frankfurter, J., dissenting) (\"The principle of fair dealing as between assignor and assignee of a patent whereby the assignor will not be allowed to say that what he sold as a patent was not a patent had been part of the fabric of our law throughout the life of this nation.\"). But, in Lear, Inc. v. Adkins , the Supreme Court appeared to cast some doubt on the doctrine's continued viability. 395 U.S. 653, 664-66, 89 S.Ct. 1902, 23 L.Ed.2d 610 (1969). And although this court has held that the doctrine survived Lear , we did so recognizing that court decisions post- Lear \"reveal[ed] some uncertainty about the continued vitality of the doctrine.\" Diamond Sci. , 848 F.2d at 1223 ; see also id. (\"Although Lear involved the licensing, rather than the assignment, of a patent, the opinion reviewed the history of 'patent estoppel' in general, and indicated that the Court's previous decisions had sapped much of the vitality, if not the logic, from the assignment estoppel doctrine as well.\").\nWith this history in mind, we recognize that \"Congress is understood to legislate against a background of common-law adjudicatory principles.\" Astoria Fed. Sav. & Loan Ass'n v. Solimino , 501 U.S. 104, 108, 111 S.Ct. 2166, 115 L.Ed.2d 96 (1991). \"Thus, where a common-law principle is well established, ... the courts may take it as given that Congress has legislated with an expectation that the principle will apply except 'when a statutory purpose to the contrary is evident.' \" Id. (quoting Isbrandtsen Co. v. Johnson, 343 U.S. 779, 783, 72 S.Ct. 1011, 96 L.Ed. 1294 (1952) ); see also Impression Prods., Inc. v. Lexmark Int'l, Inc. , --- U.S. ----, 137 S.Ct. 1523, 1536, 198 L.Ed.2d 1 (2017). But see United States v. Craft , 535 U.S. 274, 288, 122 S.Ct. 1414, 152 L.Ed.2d 437 (2002) (\"The common-law rule was not so well established ... that we must assume that Congress considered the impact of its enactment on the question now before us.\").\nBut even assuming that assignor estoppel could be considered such a well-established common law principle, we nonetheless conclude that, here, \"a statutory purpose to the contrary is evident.\" Astoria , 501 U.S. at 108, 111 S.Ct. 2166 (quoting Isbrandtsen , 343 U.S. at 783, 72 S.Ct. 1011 ). In particular, we view \u00a7 311(a) as governing the question of whether Congress intended assignor estoppel to apply in the IPR context.\nSection 311(a) states, in relevant part: \"(a) In General.-Subject to the provisions of this chapter, a person who is not the owner of a patent may file with the Office a petition to institute an inter partes review of the patent. ...\" \u00a7 311(a) (emphasis added).\nArista contends that \u00a7 311(a) unambiguously leaves no room for assignor estoppel in the IPR context, given that the statute allows any person \"who is not the owner of a patent\" to file an IPR. We agree. Where \"the statutory language is plain, we must enforce it according to its terms.\" King v. Burwell , --- U.S. ----, 135 S.Ct. 2480, 2489, 192 L.Ed.2d 483 (2015) ; see also Hardt v. Reliance Standard Life Ins. Co. , 560 U.S. 242, 251, 130 S.Ct. 2149, 176 L.Ed.2d 998 (2010). In our view, the plain language of this statutory provision is unambiguous.\nCisco contends that this statute does not directly speak to the question of assignor estoppel in IPRs. Instead, Cisco views \u00a7 311(a) as reflecting two principles: first, that an IPR must begin as an adversarial proceeding, rather than as a means for a patent owner to confirm the patentability of certain claims; and second, that there is no Article III-like standing requirement for filing an IPR. In our view, however, the statute, by its terms, does more-it delineates who may file an IPR petition. The plain language of \u00a7 311(a) demonstrates that an assignor, who is no longer the owner of a patent, may file an IPR petition as to that patent.\nThis conclusion is consistent with Congress's express incorporation of equitable doctrines in other related contexts. For example, a statute governing International Trade Commission investigations states that \"[a]ll legal and equitable defenses may be presented in all cases.\" 19 U.S.C. \u00a7 1337(c) ; cf. 15 U.S.C. \u00a7 1069 (providing in the Lanham Act context that \"[i]n all inter partes proceedings equitable principles of laches, estoppel, and acquiescence, where applicable may be considered and applied\"). And although such express inclusion of equitable defenses in other contexts is not dispositive of the issue presented in this case, it is further evidence of congressional intent.\nFinally, Cisco contends that allowing assignor estoppel in other forums, such as in the ITC and in district court, while not allowing it in the IPR context creates an inconsistency that invites forum shopping. We, however, do not view this as an inconsistency, but rather as an intentional congressional choice. Such a discrepancy between forums-one that follows from the language of the respective statutes-is consistent with the overarching goals of the IPR process that extend beyond the particular parties in a given patent dispute. See Cuozzo , 136 S.Ct. at 2144 (\"[I]nter partes review helps protect the public's 'paramount interest in seeing that patent monopolies ... are kept within their legitimate scope.' \" (quoting Precision Instrument Mfg. Co. v. Auto. Maint. Mach. Co., 324 U.S. 806, 816, 65 S.Ct. 993, 89 L.Ed. 1381 (1945) ) ). Moreover, any policy choices regarding forum shopping are better left to Congress than to this court. Cf. SAS Inst. , 138 S.Ct. at 1358 (\"Policy arguments are properly addressed to Congress, not this Court.\"); Click-to-Call Techs., LP v. Ingenio, Inc. , 899 F.3d 1321, 1350 (Fed. Cir. 2018) (Taranto, J., concurring) (\"If there turns out to be a problem in the statute's application according to its plain meaning, it is up to Congress to address the problem.\").\nIn sum, we conclude that \u00a7 311(a), by allowing \"a person who is not the owner of a patent\" to file an IPR, unambiguously dictates that assignor estoppel has no place in IPR proceedings.\n4\nSeparately, Cisco contends that the Board's decision not to apply assignor estoppel in the IPR context is arbitrary and capricious, given that the Board applies other equitable and non-statutory doctrines (such as collateral estoppel, prosecution laches, and obviousness-type double patenting) in the IPR context. In light of our holding that \u00a7 311(a) expresses Congress's clear intent that assignor estoppel should not apply in the IPR context, however, this argument is unavailing. The Board's practice is consistent with the unambiguous language of the statute.\nIII\nFor the foregoing reasons, with respect to Cisco's cross-appeal, we affirm the Board's holding that assignor estoppel does not bar Arista from challenging the validity of the '597 patent in this IPR. With regard to Arista's appeal, we reverse the Board's construction of the term \"broadcast\" and remand to the Board for further proceedings consistent with the construction provided above.\nAFFIRMED-IN-PART, REVERSED-IN-PART, AND REMANDED\nCOSTS\nThe parties shall bear their own costs.\nCisco argues that we need not decide the claim construction issue presented on appeal because Arista allegedly waived its argument that European Patent Application No. 1,033,844 A2, published Sept. 6, 2000 (\"Iwayama\"), discloses \"broadcasting\" under the construction Arista proposes on appeal. Specifically, Cisco contends that Arista's IPR petition argued that Iwayama discloses \"broadcasting\" only in the context of the claim construction the Board subsequently adopted (i.e., a transmission to all devices), but did not present Iwayama in the context of Arista's proposed construction (a transmission to one or more devices). But Arista's petition explained that Iwayama describes \"a variety of broadcasting scenarios,\" including \"a mailing list system that distributes mail in a broadcasting manner to a predetermined group of email addresses,\" as well as \"transmitting a notification to all other members of the group in a broadcasting manner.\" J.A. 70 (IPR Pet.) (emphasis added); see also J.A. 97. We decline to find waiver in these circumstances.\nAlthough Cisco did not appeal the claim construction, Cisco proposes an alternative construction in response to Arista's appeal challenging the claim construction. Cross-Appellant's Br. 77-85.\nCisco also argued that the Board's construction was inconsistent with the plain and ordinary meaning of \"broadcasting\" because a fundamental aspect of broadcasting is not specifying the ultimate destination of a message. J.A. 1228-29 (Cisco's Resp.); see also J.A. 1324 \u00b6 103 (Decl. of Cisco's expert, Dr. Stephen Wicker).\nAlthough the Board stated that \"[a]t oral hearing, [Arista] indicated its lack of objection to our construction in the Decision to Institute,\" Final Written Decision at 7, Arista's statement cannot be viewed as agreeing with the Board's construction, as the Board's construction required a message to be transmitted to all destinations in a network. Arista specifically stated during the hearing that the construction should include \"the only disclosure of broadcasting in the '597 patent, which is using a multicast address.\" J.A. 4052 ll. 4-5.\nWe note that the PTO recently changed the claim construction standard used in IPR proceedings. See Changes to the Claim Construction Standard for Interpreting Claims in Trial Proceedings Before the Patent Trial and Appeal Board, 83 Fed. Reg. 51,340, 51,340 (Oct. 11, 2018) (to be codified at 37 C.F.R. pt. 42). As stated in the Federal Register notice, however, the new rule applies only to petitions filed on or after November 13, 2018, and therefore does not impact this case. Id.\nAlthough the '597 patent was the subject of a related appeal from the International Trade Commission (\"ITC\"), this court's opinion in that case did not address the construction of the term \"broadcast.\" See Cisco Sys., Inc. v. ITC , 873 F.3d 1354 (Fed. Cir. 2017).\nThis court's affirmance in Cisco Systems, Inc. v. ITC did not address assignor estoppel. 873 F.3d at 1364.\nSection 311(a) states, in relevant part:\n(a) In General.-Subject to the provisions of this chapter, a person who is not the owner of a patent may file with the Office a petition to institute an inter partes review of the patent. ...\nFor reference, the full text of \u00a7 314(a) reads:\n(a) Threshold.-The Director may not authorize an inter partes review to be instituted unless the Director determines that the information presented in the petition filed under section 311 and any response filed under section 313 shows that there is a reasonable likelihood that the petitioner would prevail with respect to at least 1 of the claims challenged in the petition.\nAs explained in the next section of this opinion, we view \u00a7 311(a) as dispositive of the question whether assignor estoppel should apply in the IPR context.\nAlthough Wi-Fi One stated in passing that \u00a7\u00a7 311-13 relate more closely to the Director's institution decision, we do not view this broad characterization as dispositive of the question here. See Wi-Fi One , 878 F.3d at 1373-74. Instead, it is clear that when referring to \u00a7\u00a7 311-13, the court was referring to the aspects of those sections that \"relate to the Director's ability to make an informed preliminary patentability determination pursuant to \u00a7 314(a).\" Id. at 1374 (\"The time-bar provision contrasts with many of the preliminary procedural requirements stated in \u00a7\u00a7 311-13, which relate to the Director's ability to make an informed preliminary patentability determination pursuant to \u00a7 314(a).\"). As we have explained above, determining whether a particular petitioner may petition for inter partes review does not relate to the Board's patentability analysis.\nAlthough Cisco contends that this was the Board's only basis for declining to apply assignor estoppel in the IPR context, this is not so. As noted above, the Board also pointed to earlier Board decisions that explained that \u00a7 311(a) allows any person who is not the patent owner to file an IPR petition.\nCisco briefly attempts to draw a distinction between filing an IPR petition under \u00a7 311(a) and obtaining relief on the merits under \u00a7 316(e), arguing that \"[a]ssignor estoppel does not prevent Arista from filing a petition under \u00a7 311(a), just as it would not prevent Arista from filing an invalidity counterclaim in district-court litigation. Instead, assignor estoppel simply forecloses relief on the merits , preventing Arista from meeting its burden under \u00a7 316(e) ....\" Cross-Appellant's Br. 48. We are unconvinced. Section 316(e) states, in full: \"(e) Evidentiary Standards.-In an inter partes review instituted under this chapter, the petitioner shall have the burden of proving a proposition of unpatentability by a preponderance of the evidence.\" \u00a7 316(e). This section merely sets forth the IPR petitioner's burden to prove the merits of its unpatentability arguments, such as its arguments based on anticipation or obviousness. Whether a particular party should be estopped from challenging a patent's validity altogether is a separate question from the substantive patentability analysis that is the focus of \u00a7 316(e).\nAlternatively, Arista contends that even if \u00a7 311(a) is ambiguous as to the application of assignor estoppel, we should defer to the Board's reasonable interpretation of the statute under Chevron, U.S.A., Inc. v. Natural Resources Defense Council, Inc., 467 U.S. 837, 104 S.Ct. 2778, 81 L.Ed.2d 694 (1984). Cisco, for its part, argues that Chevron deference should not apply to the Board's decision in this case. We need not address whether and to what extent Chevron deference may apply here, given our holding that the statute is unambiguous.",
+        "type": "majority",
+        "author": "Prost, Chief Judge."
+      }
+    ],
+    "attorneys": [
+      "Lauren Ann Degnan, Fish & Richardson, PC, Washington, DC, and Matthew D. Powers, Tensegrity Law Group LLP, Redwood Shores, CA, argued for appellant. Also represented by Michael J. Mckeon, Adam Shartzer, Linhong Zhang, Fish & Richardson, PC, Washington, DC; Robert Lewis Gerrity, William P. Nelson, Tensegrity Law Group LLP, Redwood Shores, CA.",
+      "John C. O'Quinn, Kirkland & Ellis LLP, Washington, DC, argued for cross-appellant. Also represented by Calvin Alexander Shank, Jason M. Wilcox, William H. Burgess ; Jon Wright, Daniel S. Block, Lori A. Gordon, Sterne Kessler Goldstein & Fox, PLLC, Washington, DC."
+    ],
+    "corrections": "",
+    "head_matter": "ARISTA NETWORKS, INC., Appellant\nv.\nCISCO SYSTEMS, INC., Cross-Appellant\n2017-1525, 2017-1577\nUnited States Court of Appeals, Federal Circuit.\nDecided: November 9, 2018\nLauren Ann Degnan, Fish & Richardson, PC, Washington, DC, and Matthew D. Powers, Tensegrity Law Group LLP, Redwood Shores, CA, argued for appellant. Also represented by Michael J. Mckeon, Adam Shartzer, Linhong Zhang, Fish & Richardson, PC, Washington, DC; Robert Lewis Gerrity, William P. Nelson, Tensegrity Law Group LLP, Redwood Shores, CA.\nJohn C. O'Quinn, Kirkland & Ellis LLP, Washington, DC, argued for cross-appellant. Also represented by Calvin Alexander Shank, Jason M. Wilcox, William H. Burgess ; Jon Wright, Daniel S. Block, Lori A. Gordon, Sterne Kessler Goldstein & Fox, PLLC, Washington, DC.\nBefore Prost, Chief Judge, Schall and Chen, Circuit Judges."
+  },
+  "file_name": "0792-01",
+  "first_page_order": 792,
+  "last_page_order": 804
+}

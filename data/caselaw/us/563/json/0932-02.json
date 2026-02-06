@@ -1,0 +1,98 @@
+{
+  "id": 5934940,
+  "name": "Sorrell, Attorney General of Vermont, et al. v. IMS Health Inc. et al.",
+  "name_abbreviation": "Sorrell v. IMS Health Inc.",
+  "decision_date": "2011-04-15",
+  "docket_number": "No. 10-779",
+  "first_page": "932",
+  "last_page": "932",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 932"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "562 U. S. 1127",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12439776,
+        12439777,
+        12439778,
+        12439779,
+        12439780,
+        6025062,
+        5991558,
+        5915112,
+        12439784,
+        12439782,
+        5992299,
+        6011180,
+        5904817,
+        5965685
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/178/0621-04",
+        "/l-ed-2d/178/0621-05",
+        "/l-ed-2d/178/0622-01",
+        "/l-ed-2d/178/0622-02",
+        "/l-ed-2d/178/0622-03",
+        "/us/562/1127-01",
+        "/us/562/1127-06",
+        "/us/562/1127-04",
+        "/l-ed-2d/178/0623-01",
+        "/l-ed-2d/178/0622-05",
+        "/us/562/1127-05",
+        "/us/562/1127-02",
+        "/us/562/1127-07",
+        "/us/562/1127-03"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 39,
+    "char_count": 267,
+    "ocr_confidence": 0.58,
+    "sha256": "449ee046b08d2cd10c8af9df78a8e16637217c03c054b8630e51d103ee9cc2d1",
+    "simhash": "1:f1c420b309c69c1d",
+    "word_count": 46
+  },
+  "last_updated": "2024-02-27T23:44:09.189648+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sorrell, Attorney General of Vermont, et al. v. IMS Health Inc. et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. [Certiorari granted, 562 U. S. 1127.] Motion of the Acting Solicitor General for leave to participate in oral argument as amicus curiae and for divided argument granted.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-779.\nSorrell, Attorney General of Vermont, et al. v. IMS Health Inc. et al."
+  },
+  "file_name": "0932-02",
+  "first_page_order": 958,
+  "last_page_order": 958
+}

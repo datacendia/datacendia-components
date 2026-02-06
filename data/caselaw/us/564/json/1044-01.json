@@ -1,0 +1,59 @@
+{
+  "id": 4337162,
+  "name": "Sawyer v. Steward, Warden",
+  "name_abbreviation": "Sawyer v. Steward",
+  "decision_date": "2011-06-27",
+  "docket_number": "No. 10-10567",
+  "first_page": "1044",
+  "last_page": "1044",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1044"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.578,
+    "sha256": "b53ad82491962b67dbee8e3dd18b40d482cde4d40cc77b3e508b894b797ebc86",
+    "simhash": "1:e00c32abca5f9866",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sawyer v. Steward, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10567.\nSawyer v. Steward, Warden."
+  },
+  "file_name": "1044-01",
+  "first_page_order": 1038,
+  "last_page_order": 1038
+}

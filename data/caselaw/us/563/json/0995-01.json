@@ -1,0 +1,59 @@
+{
+  "id": 5930096,
+  "name": "Cooper v. Johnson, Director, Virginia Department of Corrections",
+  "name_abbreviation": "Cooper v. Johnson",
+  "decision_date": "2011-05-16",
+  "docket_number": "No. 10-9469",
+  "first_page": "995",
+  "last_page": "995",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 995"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 110,
+    "ocr_confidence": 0.61,
+    "sha256": "fe700bf3217d6b9f26aa7c3d0e38c2aa5ea325c2ee377a4c127a3d3299a7bd3d",
+    "simhash": "1:e96704e016b43838",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cooper v. Johnson, Director, Virginia Department of Corrections."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Va. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9469.\nCooper v. Johnson, Director, Virginia Department of Corrections."
+  },
+  "file_name": "0995-01",
+  "first_page_order": 1021,
+  "last_page_order": 1021
+}

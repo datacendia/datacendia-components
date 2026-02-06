@@ -1,0 +1,59 @@
+{
+  "id": 5977827,
+  "name": "Propst v. United States",
+  "name_abbreviation": "Propst v. United States",
+  "decision_date": "2010-11-29",
+  "docket_number": "No. 10-5130",
+  "first_page": "1065",
+  "last_page": "1065",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1065"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.506,
+    "sha256": "01f9608e8396f72f7818636e940ad652bafce8abc3b3f3f9d874d9bef7cb145d",
+    "simhash": "1:1709ca2307ad907a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Propst v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5130.\nPropst v. United States."
+  },
+  "file_name": "1065-13",
+  "first_page_order": 1087,
+  "last_page_order": 1087
+}

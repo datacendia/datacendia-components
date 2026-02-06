@@ -1,0 +1,59 @@
+{
+  "id": 12220280,
+  "name": "Lane v. Doe et al.",
+  "name_abbreviation": "Lane v. Doe",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5405",
+  "first_page": "905",
+  "last_page": "905",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 905"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 66,
+    "ocr_confidence": 0.719,
+    "sha256": "b79d5aa963fabdcced2ec46bee2166aaf1187c7411ba10cfb10c9056b3f24f0d",
+    "simhash": "1:9c48c088d94ebcbb",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lane v. Doe et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5405.\nLane v. Doe et al."
+  },
+  "file_name": "0905-11",
+  "first_page_order": 987,
+  "last_page_order": 987
+}

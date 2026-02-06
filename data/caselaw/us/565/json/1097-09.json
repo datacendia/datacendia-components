@@ -1,0 +1,59 @@
+{
+  "id": 12238241,
+  "name": "John-Charles v. California",
+  "name_abbreviation": "John-Charles v. California",
+  "decision_date": "2011-12-12",
+  "docket_number": "No. 11-6995",
+  "first_page": "1097",
+  "last_page": "1097",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1097"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 75,
+    "ocr_confidence": 0.611,
+    "sha256": "2e9aed05fb83f9ed47d359db5c05b766c524c6c012203dc2557f33abf67c1db7",
+    "simhash": "1:5793c6a5fdb3a948",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "John-Charles v. California."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6995.\nJohn-Charles v. California."
+  },
+  "file_name": "1097-09",
+  "first_page_order": 1179,
+  "last_page_order": 1179
+}

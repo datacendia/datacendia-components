@@ -1,0 +1,59 @@
+{
+  "id": 6000855,
+  "name": "Egu v. United States",
+  "name_abbreviation": "Egu v. United States",
+  "decision_date": "2010-10-12",
+  "docket_number": "No. 10-6260",
+  "first_page": "973",
+  "last_page": "973",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 973"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 69,
+    "ocr_confidence": 0.65,
+    "sha256": "8aab415e22d2bbbd47e81d602bc3a5aada1fee5ee6bc52b4541f3ee6d2be908e",
+    "simhash": "1:973bc3a369b5015e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Egu v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6260.\nEgu v. United States."
+  },
+  "file_name": "0973-05",
+  "first_page_order": 995,
+  "last_page_order": 995
+}

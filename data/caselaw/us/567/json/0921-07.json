@@ -1,0 +1,59 @@
+{
+  "id": 12410084,
+  "name": "Bush v. City of Philadelphia, Pennsylvania, et al.",
+  "name_abbreviation": "Bush v. City of Philadelphia",
+  "decision_date": "2012-06-18",
+  "docket_number": "No. 11-10224",
+  "first_page": "921",
+  "last_page": "921",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 921"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 98,
+    "ocr_confidence": 0.655,
+    "sha256": "461463623e1b51ff8621b6ae6884f94668f1203685019fd0d03d689f41018f4b",
+    "simhash": "1:f9dd60084b2e962d",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bush v. City of Philadelphia, Pennsylvania, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10224.\nBush v. City of Philadelphia, Pennsylvania, et al."
+  },
+  "file_name": "0921-07",
+  "first_page_order": 825,
+  "last_page_order": 825
+}

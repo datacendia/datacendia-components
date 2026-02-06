@@ -1,0 +1,59 @@
+{
+  "id": 12433085,
+  "name": "Bouchard Transportation v. Messier",
+  "name_abbreviation": "Bouchard Transportation v. Messier",
+  "decision_date": "2013-03-18",
+  "docket_number": "No. 12-808",
+  "first_page": "1229",
+  "last_page": "1229",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1229"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 81,
+    "ocr_confidence": 0.617,
+    "sha256": "a9f94595bd0feb66b42d885bbbd0fd20c1233b18a5795245a2fb359a6352ccd0",
+    "simhash": "1:3dd46091851bb46b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bouchard Transportation v. Messier."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-808.\nBouchard Transportation v. Messier."
+  },
+  "file_name": "1229-12",
+  "first_page_order": 1305,
+  "last_page_order": 1305
+}

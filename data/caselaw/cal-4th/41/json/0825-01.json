@@ -1,0 +1,906 @@
+{
+  "id": 3818842,
+  "name": "THE PEOPLE, Plaintiff and Respondent, v. AIDA SANDOVAL, Defendant and Appellant",
+  "name_abbreviation": "People v. Sandoval",
+  "decision_date": "2007-07-19",
+  "docket_number": "No. S148917",
+  "first_page": "825",
+  "last_page": "858",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "41 Cal. 4th 825"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal.",
+    "id": 9021,
+    "name": "Supreme Court of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "366 U.S. 213",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1285816
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "247"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/366/0213-01"
+      ]
+    },
+    {
+      "cite": "722 P.2d 905",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "229 Cal.Rptr. 131",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 Cal.3d 437",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4464605
+      ],
+      "pin_cites": [
+        {
+          "page": "450"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/42/0437-01"
+      ]
+    },
+    {
+      "cite": "369 P.2d 937",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "20 Cal.Rptr. 321",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "57 Cal.2d 450",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4375244
+      ],
+      "pin_cites": [
+        {
+          "page": "455"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/57/0450-01"
+      ]
+    },
+    {
+      "cite": "851 P.2d 802",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "19 Cal.Rptr.2d 520",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "5 Cal.4th 228",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1998560
+      ],
+      "pin_cites": [
+        {
+          "page": "237-238"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/5/0228-01"
+      ]
+    },
+    {
+      "cite": "789 P.2d 887",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "268 Cal.Rptr. 706",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "50 Cal.3d 668",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4460968
+      ],
+      "pin_cites": [
+        {
+          "page": "703"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/50/0668-01"
+      ]
+    },
+    {
+      "cite": "411 F.3d 572",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8952494
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/411/0572-01"
+      ]
+    },
+    {
+      "cite": "415 F.3d 107",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8944827
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/415/0107-01"
+      ]
+    },
+    {
+      "cite": "416 F.3d 538",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8939914
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/416/0538-01"
+      ]
+    },
+    {
+      "cite": "419 F.3d 916",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8938015
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/419/0916-01"
+      ]
+    },
+    {
+      "cite": "430 F.3d 518",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1594186
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/430/0518-01"
+      ]
+    },
+    {
+      "cite": "532 U.S. 451",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9301453
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "456"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/532/0451-01"
+      ]
+    },
+    {
+      "cite": "430 U.S. 188",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12122537
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "191"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/430/0188-01"
+      ]
+    },
+    {
+      "cite": "514 U.S. 499",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1339457
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "509"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/514/0499-01"
+      ]
+    },
+    {
+      "cite": "432 U.S. 282",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6178615
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "293"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/432/0282-01"
+      ]
+    },
+    {
+      "cite": "482 U.S. 423",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6214908
+      ],
+      "weight": 8,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/482/0423-01"
+      ]
+    },
+    {
+      "cite": "563 P.2d 849",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "138 Cal.Rptr. 293",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "19 Cal.3d 395",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2291121
+      ],
+      "pin_cites": [
+        {
+          "page": "407"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/19/0395-01"
+      ]
+    },
+    {
+      "cite": "498 P.2d 433",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "102 Cal.Rptr. 593",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "7 Cal.3d 530",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2277325
+      ],
+      "pin_cites": [
+        {
+          "page": "535"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/7/0530-01"
+      ]
+    },
+    {
+      "cite": "760 P.2d 423",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1972,
+      "opinion_index": 0
+    },
+    {
+      "cite": "251 Cal.Rptr. 227",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1972,
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.3d 833",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1968825
+      ],
+      "year": 1972,
+      "pin_cites": [
+        {
+          "page": "861"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/46/0833-01"
+      ]
+    },
+    {
+      "cite": "252 Cal.Rptr. 302",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "205 Cal.App.3d 755",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        6038617
+      ],
+      "pin_cites": [
+        {
+          "page": "758"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/205/0755-01"
+      ]
+    },
+    {
+      "cite": "178 Cal.Rptr. 430",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1988,
+      "opinion_index": 0
+    },
+    {
+      "cite": "125 Cal.App.3d 860",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2076408
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "863"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/125/0860-01"
+      ]
+    },
+    {
+      "cite": "443 P.2d 794",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "70 Cal.Rptr. 210",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "69 Cal.2d 187",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2304320
+      ],
+      "pin_cites": [
+        {
+          "page": "195"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/69/0187-01"
+      ]
+    },
+    {
+      "cite": "928 P.2d 1171",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "60 Cal.Rptr.2d 93",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "14 Cal.4th 968",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        341412
+      ],
+      "pin_cites": [
+        {
+          "page": "976-977"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/14/0968-01"
+      ]
+    },
+    {
+      "cite": "536 U.S. 304",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1255406
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/536/0304-01"
+      ]
+    },
+    {
+      "cite": "885 P.2d 83",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "36 Cal.Rptr.2d 333",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "9 Cal.4th 69",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1989374
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/9/0069-01"
+      ]
+    },
+    {
+      "cite": "105 P.3d 552",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1994,
+      "opinion_index": 0
+    },
+    {
+      "cite": "24 Cal.Rptr.3d 189",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1994,
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.4th 40",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        873216
+      ],
+      "weight": 2,
+      "year": 1994,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/35/0040-01"
+      ]
+    },
+    {
+      "cite": "807 P.2d 434",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "279 Cal.Rptr. 592",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "53 Cal.3d 282",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2358519
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "287"
+        },
+        {
+          "page": "p. 289"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/53/0282-01"
+      ]
+    },
+    {
+      "cite": "658 P.2d 1302",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "189 Cal.Rptr. 501",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "33 Cal.3d 491",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4636710
+      ],
+      "pin_cites": [
+        {
+          "page": "499-502"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/33/0491-01"
+      ]
+    },
+    {
+      "cite": "905 P.2d 1248",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.Rptr.2d 108",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "11 Cal.4th 607",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1960685
+      ],
+      "pin_cites": [
+        {
+          "page": "626-662"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/11/0607-01"
+      ]
+    },
+    {
+      "cite": "543 U.S. 220",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5925862
+      ],
+      "weight": 6,
+      "pin_cites": [
+        {
+          "page": "233"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/543/0220-01"
+      ]
+    },
+    {
+      "cite": "151 Cal.Rptr. 483",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "87 Cal.App.3d 1014",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        1994262
+      ],
+      "pin_cites": [
+        {
+          "page": "1023, 1024"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/87/1014-01"
+      ]
+    },
+    {
+      "cite": "168 L.Ed.2d 203",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        3573000
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "215"
+        },
+        {
+          "page": "2466"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/551/0338-01"
+      ]
+    },
+    {
+      "cite": "41 Cal.4th 799",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3818824
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/41/0799-01"
+      ]
+    },
+    {
+      "cite": "548 U.S. 212",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3500415
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/548/0212-01"
+      ]
+    },
+    {
+      "cite": "527 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1248184
+      ],
+      "weight": 5,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/527/0001-01"
+      ]
+    },
+    {
+      "cite": "386 U.S. 18",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6168882
+      ],
+      "weight": 4,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/386/0018-01"
+      ]
+    },
+    {
+      "cite": "523 U.S. 224",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11503479
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "239-244"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/523/0224-01"
+      ]
+    },
+    {
+      "cite": "542 U.S. 296",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5868041
+      ],
+      "weight": 5,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/542/0296-01"
+      ]
+    },
+    {
+      "cite": "530 U.S. 466",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9413911
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "490"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/530/0466-01"
+      ]
+    },
+    {
+      "cite": "113 P.3d 534",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 Cal.Rptr.3d 740",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.4th 1238",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        873206
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/35/1238-01"
+      ]
+    },
+    {
+      "cite": "549 U.S. 270",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3553669
+      ],
+      "weight": 15,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/549/0270-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 2143,
+    "char_count": 79441,
+    "ocr_confidence": 0.921,
+    "pagerank": {
+      "raw": 6.096679218036157e-07,
+      "percentile": 0.9555781051327703
+    },
+    "sha256": "c3af3aa2771859be6c597fa0d08aaf0aea322888add3fb05c4c5561d0a7dce50",
+    "simhash": "1:92eae23e672a87ca",
+    "word_count": 12869
+  },
+  "last_updated": "2024-02-27T18:15:50.888651+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE, Plaintiff and Respondent, v. AIDA SANDOVAL, Defendant and Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nGEORGE, C. J.\nWe granted review to determine whether defendant\u2019s Sixth Amendment rights as defined in Cunningham v. California (2007) 549 U.S. 270 [166 L.Ed.2d 856, 127 S.Ct. 856] (Cunningham) were violated by the imposition of an upper term sentence and, if so, the remedy to which she is entitled. In Cunningham, the United States Supreme Court disagreed with this court\u2019s decision in People v. Black (2005) 35 Cal.4th 1238 [29 Cal.Rptr.3d 740, 113 P.3d 534] (Black I) and held that California\u2019s determinate sentencing law (DSL) violates a defendant\u2019s federal constitutional right to a jury trial under the Sixth and Fourteenth Amendments to the United States Constitution by assigning to the trial judge, rather than to the jury, the authority to find the facts that render a defendant eligible for an upper term sentence. We conclude that defendant\u2019s Sixth Amendment right to a jury trial was violated and, although harmless error analysis applies to such violations, the error in the present case was not harmless beyond a reasonable doubt and the case must be remanded for resentencing. For the reasons explained below, we also conclude that upon remand, the trial court may exercise its discretion to impose any of the three terms available for defendant\u2019s offense.\nI.\nDefendant was charged with the premeditated murders of Belen Dircio and Rolando Rojas (Pen. Code, \u00a7 187, subd. (a)) and with the attempted premeditated murder of Salvador Ramirez (\u00a7\u00a7 664, 187, subd. (a)). The information alleged that the murders were committed by lying in wait, a special circumstance. (\u00a7 190.2, subd. (a)(15).) The information also alleged that a principal was armed with a firearm in the commission of all three offenses. A jury convicted defendant of the lesser included offenses of two counts of voluntary manslaughter and one count of attempted voluntary manslaughter. It returned \u201cnot true\u201d findings on the allegations that a principal was armed with a firearm in the commission of each offense. The trial court sentenced defendant to the upper term of 11 years on count one (involving the victim Dircio), a consecutive term of two years on count two (involving the victim Rojas), and a consecutive term of 18 months on count three (involving the victim Ramirez), for a total sentence of 14 years six months.\nOn appeal defendant argued, among other points, that the trial court\u2019s imposition of the upper term sentence on count one violated her federal constitutional right to a jury trial. The Court of Appeal rejected that claim in an unpublished decision, relying upon this court\u2019s decision in Black I, supra, 35 Cal.4th 1238. Concluding that the trial court incorrectly calculated the term on count three, the appellate court modified the judgment to reflect a sentence of one year on that count, in other respects affirming the judgment. While defendant\u2019s petition for review was pending in this court, the United States Supreme Court rendered its decision in Cunningham, supra, 549 U.S. 270 [127 S.Ct. 856].\nII.\nEarly in the morning of Tuesday, February 4, 2003, defendant Aida Sandoval and codefendant Yessenia Romero (who is not a party to this appeal) were employed at the El Dorado bar in Los Angeles and became involved in an altercation with two other women. Witness Ericka Arellano, who resided nearby, heard screaming and proceeded to the parking lot adjoining the El Dorado, where a crowd had formed. There she observed her uncle, Rolando Rojas, attempt to stop defendant and Romero from fighting with the other women. Defendant was injured in the fight, suffering bruises and cuts to her face. According to Arellano, after the altercation ended defendant blamed Rojas and declared she would summon a gang to kill him.\nThe next evening, on Wednesday, February 5, 2003, defendant and Romero drove to the El Dorado bar in a van, accompanied by several individuals, including Juan Negrete, Miguel Del Rio, and Romero\u2019s friend, Mary Gonzales.\nThat same evening, the victims Rolando Rojas, Salvador Ramirez, and Belen Dircio also were at the bar. All three were wearing hats. From the window of her apartment, Arellano observed defendant and Romero, together with a man, standing near a pay phone outside the front of the El Dorado. About the same time, Los Angeles Police Officer Cesar Guitron was on motorcycle patrol near the El Dorado. Driving past the bar, he noticed defendant and Romero near the front door with some men, including Rojas. While defendant was speaking with Rojas, Negrete approached the group, raised a gun, and fired several shots at Rojas, killing him. Defendant, Romero, and Negrete fled toward the van, which was parked down the street.\nWhen Ramirez and Dircio heard the gunshots outside the bar, they left through the back door. As the two walked through an alley behind the bar, Del Rio shot Dircio and then Ramirez with a rifle. Arellano, who had gone to a pay phone near the El Dorado to call 911, observed this shooting. Dircio died of two gunshot wounds to the head, and Ramirez was hospitalized and treated for his injuries. Investigating officers later found a .22-caliber handgun placed atop the tire of a car parked near the van, and a rifle inside the van.\nDefendant and Romero were arrested near the scene of the crime while attempting to enter a taxi. They were interviewed by investigating officers, and the ensuing recorded conversations were played to the jury. In their statements both defendant and Romero admitted that they wanted to have Rojas beaten up. On Wednesday, they had discussed with a gang member their intention to return to the bar. That individual and several of his associates volunteered to join them. Romero told the police that defendant had asked one young man, who was a relative of defendant\u2019s, to obtain a gun from defendant\u2019s house. Both defendant and Romero stated they did not intend that firearms be used unless necessary for defensive purposes; both believed that at least one of the regular patrons of the bar was armed with a gun. The men initially stayed in the van while defendant, Romero, and Mary entered the bar. Romero admitted in the interview that after observing Rojas in the bar, she sent Mary outside to inform the others that Rojas was the individual who was wearing a hat. Both defendant and Romero told the police that defendant confronted Rojas concerning his role in the altercation that had occurred the previous night. As defendant and Romero were speaking to Rojas in the doorway of the bar, Negrete suddenly appeared with a gun. Defendant shouted \u201cno\u201d just before Negrete shot Rojas, and the two women ran off. As they were running, they heard additional gunshots.\nAt the trial, it was stipulated that Negrete and Del Rio had been convicted of the murders of Rojas and Dircio and the attempted murder of Ramirez. Defendant did not testify, but Romero testified on her own behalf, providing the following account of the events. She and defendant were employed at the El Dorado, where they were paid to speak to customers, dance with them, and encourage them to buy drinks. According to Romero, the initial altercation on Tuesday began when a woman pulled defendant out of the bar by her hair. While that woman was fighting with defendant on the ground, Romero observed Rojas standing over defendant. Based on his movements and on a wound she subsequently observed on defendant\u2019s face, Romero believed that Rojas had struck defendant with a screwdriver. Romero helped defendant to stand up, and Arellano then joined the fight. When they left, defendant\u2019s face was swollen and blood was dripping from her neck. The following morning, defendant and Romero decided to return to the El Dorado to recover money that the owner owed Romero and\u2014in the event they encountered the women involved in the altercation with defendant\u2014to fight with them.\nRomero testified that as she was attempting to locate the father of her son to accompany her and defendant, she encountered an individual she knew. When he was told about the earlier fight and defendant and Romero\u2019s plan to return to the bar, he and several of his associates volunteered to accompany the two women. Romero did not know all of these individuals, and although she was aware there were guns in the vehicle, she and defendant made it clear that no one was to use a gun. According to Romero, she hoped she could recover the money owed to her and leave the El Dorado without any trouble, but if she and defendant encountered the women involved in the previous altercation the two of them were prepared to fight the others. Romero also denied that defendant ever had mentioned anything about \u201cjumping\u201d Rojas.\nRomero further testified that when she and defendant arrived at the El Dorado, the owner declined to pay them the money owed to her and defendant, and attempted to persuade them to remain at the bar and work. She denied telling Mary to inform the others that Rojas was the man wearing a hat; instead she simply identified Rojas to Mary. Subsequently, defendant and Rojas spoke outside the front door of the El Dorado while Romero stood nearby. Negrete then approached Rojas and told him not to move. When Rojas reached for his pocket, Negrete shot him. Romero denied that she or defendant intended or expected that anyone would be killed.\nAs noted above, at the conclusion of the trial the jury rejected the prosecution\u2019s theory that defendant was guilty of first degree murder and attempted murder, and convicted defendant of two counts of voluntary manslaughter and one count of attempted voluntary manslaughter. As is relevant to the sentencing issue raised in this case, on the count of voluntary manslaughter involving the victim Dircio, the trial court imposed an upper term of 11 years.\nHI.\nIn Cunningham, the United States Supreme Court, applying principles established in its earlier decisions in Apprendi v. New Jersey (2000) 530 U.S. 466, 490 [147 L.Ed.2d 435, 120 S.Ct. 2348] (Apprendi) and Blakely v. Washington (2004) 542 U.S. 296 [159 L.Ed.2d 403, 124 S.Ct. 2531] (Blakely), concluded that California\u2019s DSL does not comply with a defendant\u2019s right to a jury trial. \u201c[U]nder the Sixth Amendment, any fact that exposes a defendant to a greater potential sentence must be found by a jury, not a judge, and established beyond a reasonable doubt, not merely by a preponderance of the evidence.\u201d (Cunningham, supra, 549 U.S. at pp. - [127 S.Ct. at pp. 863-864].) In its prior decision in Apprendi, the high court held unconstitutional a law that provided for an enhanced sentence, above the maximum term specified by statute for the underlying offense, where the sentencing judge determined that the offense was a hate crime. Apprendi stated, \u201cOther than the fact of a prior conviction, any fact that increases the penalty for a crime beyond the prescribed statutory maximum must be submitted to a jury, and proved beyond a reasonable doubt.\u201d (Apprendi, supra, 530 U.S. at p. 490, italics added.)\nIn Blakely, the high court extended the rule established in Apprendi to the State of Washington\u2019s determinate sentencing law, under which a sentence within the \u201c \u2018standard range\u2019 \u2019\u2019 must be imposed unless the trial court finds aggravating factors that justify an \u201c \u2018exceptional sentence.\u2019 \u201d (Blakely, supra, 542 U.S. at p. 299.) Although an exceptional sentence, under Washington law, still was within the maximum term specified by statute for the offense, the high court concluded that \u201cthe \u2018statutory maximum\u2019 for Apprendi purposes is the maximum sentence a judge may impose solely on the basis of the facts reflected in the jury verdict or admitted by the defendant.\u201d (Id. at p. 303.) Because Washington law permitted imposition of an exceptional term only if an aggravating factor had been found, the high court held in Blakely that the top of the standard range was the \u201c \u2018statutory maximum\u2019 \u201d sentence that could be imposed in the absence of a jury finding of an aggravating factor. (Id. at pp. 303-304.)\nUnder California\u2019s DSL, three terms of imprisonment are specified by statute for most offenses. At the time of defendant\u2019s offense, the DSL specified that \u201cthe court shall order imposition of the middle term, unless there are circumstances in aggravation or mitigation of the crime.\u201d (Former \u00a7 1170, subd. (b).) The facts relevant to this sentencing choice are to be determined by the court and need be proved only by a preponderance of the evidence. (\u00a7 1170, subd. (b); Cal. Rules of Court, rule 4.420(b).) \u201cThe court shall set forth on the record the facts and reasons for imposing the upper or lower term.\u201d (\u00a7 1170, subd. (b).) As summarized in Cunningham, supra, 549 U.S. at page_[127 S.Ct. at p. 862], \u201cCalifornia\u2019s DSL, and the rules governing its application, direct the sentencing court to start with the middle term, and to move from that term only when the court itself finds and places on the record facts\u2014whether related to the offense or the offender\u2014 beyond the elements of the charged offense.\u201d The high court concluded in Cunningham that for Sixth Amendment purposes, the middle term under the DSL is the maximum term that may be imposed on the basis of the jury\u2019s verdict alone. (549 U.S. at p._[127 S.Ct. at p. 868].)\nThe United States Supreme Court has recognized two exceptions to a defendant\u2019s Sixth Amendment right to a jury trial on an aggravating fact that renders him or her eligible for a sentence above the statutory maximum. First, a fact admitted by the defendant may be used to increase his or her sentence beyond the maximum authorized by the jury\u2019s verdict. (Blakely, supra, 542 U.S. at p. 303.) Second, the right to jury trial and the requirement of proof beyond a reasonable doubt do not apply to the aggravating fact of a prior conviction. (Id. at p. 301; see Apprendi, supra, 530 U.S. at p. 490; Almendarez-Torres v. United States (1998) 523 U.S. 224, 239-244 [140 L.Ed.2d 350, 118 S.Ct. 1219].)\nIn the present case, we address the question whether the trial court\u2019s imposition of the upper term sentence violated defendant\u2019s Sixth Amendment rights as established in Cunningham The trial court gave the following reasons for its decision to impose an upper term: \u201cIt is a crime involving a great amount of violence. This was also incredibly callous behavior. Miss Sandoval had no concern about the consequences of her action. The victims were particularly vulnerable in that they were unarmed, each of them, and as to the Dircio brothers, that they were taken by surprise by ambush from behind. They were inebriated, unable to defend themselves. Clearly Miss Sandoval also was the motivating force behind these actions. Her actions showed planning, premeditation . . . specifically how the bar was approached, where the car was parked.\u201d\nNone of the aggravating circumstances cited by the trial court come within the exceptions set forth in Blakely. Defendant had no prior criminal convictions. All of the aggravating circumstances cited by the trial court were based upon the facts underlying the crime; none were admitted by defendant or established by the jury\u2019s verdict. We conclude, accordingly, that defendant\u2019s Sixth Amendment rights were violated by the imposition of an upper term sentence.\nIV.\nThe denial of the right to a jury trial on aggravating circumstances is reviewed under the harmless error standard set forth in Chapman v. California (1967) 386 U.S. 18 [17 L.Ed.2d 705, 87 S.Ct. 824] (Chapman), as applied in Neder v. United States (1999) 527 U.S. 1 [144 L.Ed.2d 35, 119 S.Ct. 1827]. In Neder, the United States Supreme Court held an erroneous jury instruction that omits an element of the offense is subject to harmless error analysis. (Id. at pp. 8-15.) The court stated that such an omission \u201cdoes not necessarily render a criminal trial fundamentally unfair or . . . unreliable.\u201d (Id. at p. 9.) Such an error is reviewed to determine whether it appears \u201cbeyond a reasonable doubt that the error complained of did not contribute to the verdict obtained.\u201d (Chapman, supra, 386 U.S. at p. 24; see Neder, supra, 527 U.S. at p. 15.) The reviewing court must \u201cask[] whether the record contains evidence that could rationally lead to a contrary finding with respect to the omitted element.\u201d (Neder, supra, 527 U.S. at p. 19.) In Neder, the court concluded that the trial court\u2019s failure to submit to the jury an element of the offense was harmless, because the evidence supporting the element was \u201cuncontested.\u201d (Id. at p. 17.)\nIn Washington v. Recuenco (2006) 548 U.S. 212 [165 L.Ed.2d 466, 126 S.Ct. 2546], the high court held that a similar harmless error analysis applies to the failure to submit a sentencing factor to a jury, finding no distinction, for purposes of harmless error analysis of Sixth Amendment violations, between a sentencing factor that must be submitted to a jury and an element of a crime.\nIn the context of the present case, the question is not whether the error \u201ccontribute^] to the verdict obtained\u201d (Chapman, supra, 386 U.S. at p. 24), because the jury\u2019s verdict on the charged offense is not at issue. Rather, we must determine whether, if the question of the existence of an aggravating circumstance or circumstances had been submitted to the jury, the jury\u2019s verdict would have authorized the upper term sentence. In Black II, supra, 41 Cal.4th 799, we hold that there is no Sixth Amendment error in a case in which one or more aggravating circumstances have been established in accordance with Sixth Amendment requirements. As we explain in Black II, \u201cthe constitutional requirement of a jury trial and proof beyond a reasonable doubt applies only to a fact that is \u2018legally essential to the punishment\u2019 (Blakely, supra, 542 U.S. at p. 313), that is, to \u2018any fact that exposes a defendant to a greater potential sentence\u2019 than is authorized by the jury\u2019s verdict alone (Cunningham, supra, 549 U.S. at p._ [127 S.Ct. at p. 863]).\u201d (Black II, supra, 41 Cal.4th at p. 812; see Rita v. United States (2007) 551 U.S._,_[168 L.Ed.2d 203, 215, 127 S.Ct. 2456, 2466].) \u201cAccordingly, so long as a defendant is eligible for the upper term by virtue of facts that have been established consistently with Sixth Amendment principles, the federal Constitution permits the trial court to rely upon any number of aggravating circumstances in exercising its discretion to select the appropriate term by balancing aggravating and mitigating circumstances, regardless of whether the facts underlying those circumstances have been found to be true by a jury.\u201d {Black II, at p. 813.) By the same reasoning, if a reviewing court concludes, beyond a reasonable doubt, that the jury, applying the beyond-a-reasonable-doubt standard, unquestionably would have found true at least a single aggravating circumstance had it been submitted to the jury, the Sixth Amendment error properly may be found harmless.\nIn applying harmless error analysis in this context, we must take into account the differences between the nature of the errors at issue in the present case and in a case in which the trial court fails to instruct the jury on an element of the crime but where the parties were aware during trial that the element was at issue. In a case such as the present one, the reviewing court cannot necessarily assume that the record reflects all of the evidence that would have been presented had aggravating circumstances been submitted to the jury. Although the aggravating circumstances found by the trial court were based upon the evidence presented at trial, they were not part of the charge and were not directly at issue in the trial. Aggravating circumstances are based upon facts that are not elements of the crime. (Cal. Rules of Court, rule 4.420(d).) Defendant thus did not necessarily have reason\u2014or the opportunity\u2014during trial to challenge the evidence supporting these aggravating circumstances unless such a challenge also would have tended to undermine proof of an element of an alleged offense.\nFurthermore, although defendant did have an incentive and opportunity at the sentencing hearing to contest any aggravating circumstances mentioned in the probation report or in the prosecutor\u2019s statement in aggravation, that incentive and opportunity were not necessarily the same as they would have been had the aggravating circumstances been tried to a jury. First, the standard of proof at the sentencing hearing was lower; the trial court was required to make a finding of one or more aggravating circumstances only by a preponderance of the evidence. (Cal. Rules of Court, rule 4.420(b).) Second, because the trial court had broad discretion in imposing sentence, a finding by the court concerning whether or not any particular aggravating circumstance existed reasonably might have been viewed by defense counsel as less significant than the court\u2019s overall assessment of defendant\u2019s history and conduct. Counsel\u2019s strategy might have been different had the aggravating circumstances been tried under a beyond-a-reasonable-doubt standard of proof to a trier of fact that was responsible only for determining whether such circumstances were proved (and not for making the ultimate sentencing decision). Accordingly, a reviewing court cannot always be confident that the factual record would have been the same had aggravating circumstances been charged and tried to the jury.\nAdditionally, to the extent a potential aggravating circumstance at issue in a particular case rests on a somewhat vague or subjective standard, it may be difficult for a reviewing court to conclude with confidence that, had the issue been submitted to the jury, the jury would have assessed the facts in the same manner as did the trial court. The sentencing rules that set forth aggravating circumstances were not drafted with a jury in mind. Rather, they were intended to \u201cprovid[e] criteria for the consideration of the trial judge.\u201d (\u00a7 1170.3, subd. (a).) It has been recognized that, because the rules provide criteria intended to be applied to a broad spectrum of offenses, they are \u201cframed more broadly than\u201d criminal statutes and necessarily \u201cpartake of a certain amount of vagueness which would be impermissible if those standards were attempting to define specific criminal offenses.\u201d (People v. Thomas (1979) 87 Cal.App.3d 1014, 1023, 1024 [151 Cal.Rptr. 483].) Many of the aggravating circumstances described in the rules require an imprecise quantitative or comparative evaluation of the facts. For example, aggravating circumstances set forth in the sentencing rules call for a determination as to whether \u201c[t]he victim was \u201cparticularly vulnerable,\u201d whether the crime \u201cinvolved a[] . . . taking or damage of great monetary value,\u201d or whether the \u201cquantity of contraband\u201d involved was \u201clarge\u201d (Cal. Rules of Court, rule 4.421(a)(3), (9), (10), italics added). In addition, the trial court may consider aggravating circumstances not set forth in rules or statutes. Such aggravating circumstances need only be \u201creasonably related to the decision being made.\u201d (Id., rule 4.408(a).) Aggravating circumstances considered by the trial court that are not set out in the rules are not subject to clear standards, and often entail a subjective assessment of the circumstances rather than a straightforward finding of facts.\nWith these considerations in mind, we address the Attorney General\u2019s contention that we should conclude, beyond a reasonable doubt, that each of the aggravating circumstances cited by the trial court in imposing the upper term sentence in the present case would have been found true by the jury beyond a reasonable doubt because each was supported by \u201clargely uncontested or overwhelming evidence.\u201d As noted earlier, the trial court cited the following circumstances as aggravating factors: (1) the crime involved a great amount of violence; (2) defendant engaged in callous behavior; (3) defendant lacked any concern regarding the consequences of her actions; (4) the victims were particularly vulnerable because they were unarmed, inebriated, and ambushed from behind; (5) defendant was the \u201cmotivating force\u201d behind the crimes; and (6) defendant\u2019s actions reflected planning and premeditation.\nThe trial court\u2019s conclusions regarding items (2), (3), and (6)\u2014that defendant was \u201ccallous,\u201d that defendant had no concern regarding the consequences of her actions, and that the offense involved \u201cplanning and premeditation\u201d\u2014 entail findings relating to defendant\u2019s state of mind. Although the basic facts underlying the killings were not in dispute, defendant\u2019s state of mind was hotly contested at trial. The prosecution attempted to establish that defendant recruited several individuals, including Negrete and Del Rio, with the premeditated intent of ambushing and killing victim Rojas. One prosecution witness who observed the initial fight at the bar testified that defendant threatened to return and kill Rojas. The prosecution\u2019s alternative theory was that even if defendant recruited these individuals only to assault Rojas, the use of guns in that situation was a natural and probable consequence of the planned assault, making her liable for first degree murder.\nCodefendant Romero testified, on the other hand, that she and defendant returned to the bar to collect money owed to them, that defendant intended to fight with two women who had been involved in the previous altercation, but that Romero and defendant did not intend to attack Rojas unless it became necessary as a matter of self-defense. Romero also testified she believed some of the patrons at the bar were armed. According to Romero, both she and defendant were aware there were guns in the van but defendant made it clear to the others she did not want the guns to be used. The intent behind defendant\u2019s actions, including whether she intended that guns be used or appreciated the possibility they might be used, clearly was a matter in dispute.\nEvidently, the jury rejected the prosecution\u2019s view of the evidence, finding defendant guilty with reference to the count in question only of the lesser included offense of voluntary manslaughter. In view of the verdict and the state of the evidence, we cannot conclude with any degree of confidence, much less beyond a reasonable doubt, that the jury would have found that defendant demonstrated callous behavior and a lack of concern for the consequences of her actions, or that the offense was planned and premeditated.\nIn imposing the upper term sentence, the trial court also concluded the victims were particularly vulnerable in that they were unarmed and taken by surprise. The record, however, does not reflect such a clear-cut instance of victim vulnerability that we confidently can conclude the jury would have made the same findings, as might be the case if, for example, the victims had been elderly, very young, or disabled, or otherwise obviously and indisputably vulnerable. The evidence was contested as to whether defendant\u2014who had been injured two days earlier at the bar\u2014planned to take the victims by surprise, or instead had brought Negrete and Del Rio along for the purpose of self-defense and herself was surprised when they initiated an attack. In addition, both defendant and Romero told the officers, during their interviews, that they believed some of the patrons at the bar were armed, and Romero testified to that effect at trial. Accordingly, the evidence that the victims were particularly vulnerable cannot be characterized as overwhelming or uncontested.\nThe trial court\u2019s findings that the offense involved a great amount of violence and that defendant was the \u201cmotivating force\u201d behind the crime present closer questions. Nevertheless, the record does not support the conclusion, beyond a reasonable doubt, that the jury would have found these aggravating circumstances to be true had the issues been submitted to that body.\nThere is no doubt the crimes here at issue involved great violence. The immediate facts of the shooting themselves were not in dispute. The jury learned that the shooters, Negrete and Del Rio, had been convicted of first degree murder and attempted murder for these crimes. Victim Rojas died after being shot once in the head as he spoke with defendant and four more times after he fell. Victim Dircio died after suffering three gunshot wounds, one in the back and two more to the head, one at close range. Victim Ramirez was shot once and was hospitalized for two weeks.\nWe may assume the court intended to refer to the following aggravating circumstance described in California Rules of Court, rule 4.421(a)(1): \u201cThe crime involved great violence, great bodily harm, threat of great bodily harm, or other acts disclosing a high degree of cruelty, viciousness, or callousness.\u201d This assumption is based upon the language employed by the court, as well as the circumstance that this aggravating circumstance was listed in the probation report as one of two that were applicable to defendant\u2019s case. Had this circumstance been submitted to the jury, it would have been instructed to determine whether \u201c[t]he crime involved great violence ... or other acts disclosing a high degree of cruelty, viciousness, or callousness.\u201d (Rule 4.421(a)(1).) The jury reasonably could have concluded that this factor did not apply to defendant because, although the crime involved great violence on the part of others, that violence did not evidence a \u201chigh degree of cruelty, viciousness, or callousness\u201d (ibid.) on defendant\u2019s part. Defendant\u2019s level of personal culpability for the violent acts of Negrete and Del Rio was, as discussed above, an issue disputed at trial. That the jury found defendant guilty only of manslaughter, rather than murder, demonstrates that the jury found her to be less culpable than the shooters. We are not convinced, beyond a reasonable doubt, that had the jury been instructed on this point it would have found this aggravating circumstance to be true.\nAs to the trial court\u2019s finding that defendant was the \u201cmotivating force\u201d behind the crimes, \u201cmotivating force\u201d is not a factor listed in the sentencing rules and it is not clear how this aggravating circumstance would have been defined for the jury had it been submitted to them. There was ample evidence that defendant set in motion a chain of events that culminated in the shootings, but the issue of the motivations of the actual killers was not fully litigated at trial. In view of these uncertainties, it is impossible for this court to conclude beyond a reasonable doubt that the jury would have found defendant to be the motivating force behind the shootings.\nWe do not find the Sixth Amendment error in this case to be harmless. Accordingly, the imposition of the upper term sentence on count one must be reversed and the case remanded to the trial court for resentencing in a manner consistent with the Sixth Amendment as interpreted in Cunningham.\nV.\nA.\nThe remaining question is how the resentencing of defendant should proceed on remand. Defendant contends the trial court\u2019s options should be limited to imposition of the middle or lower term, because the DSL does not authorize a jury trial on aggravating factors.\nThe Attorney General has urged this court to reform section 1170 to afford the trial court \u201cbroad discretion\u201d in selecting among the three terms specified by statute for the offense, subject to the requirements that the court consider the aggravating and mitigating circumstances as set out in statutes and rules and that reasons be stated for the choice of sentence. Under the Attorney General\u2019s proposed reformation, an upper term sentence would be authorized by the jury\u2019s verdict without any requirement of additional factfinding by the judge.\nThis reformation of the DSL would cure the constitutional defect in the statute, because the United States Supreme Court repeatedly has made clear in the line of decisions culminating in Cunningham that it \u201cha[s] never doubted the authority of a judge to exercise broad discretion in imposing a sentence within a statutory range. [Citations.] . . . For when a trial judge exercises his discretion to select a specific sentence within a defined range, the defendant has no right to a jury determination of the facts that the judge deems relevant.\u201d (United States v. Booker (2005) 543 U.S. 220, 233 [160 L.Ed.2d 621, 125 S.Ct. 738]; see Cunningham, supra, 549 U.S. at p._ [127 S.Ct. at p. 871] [noting that California has the option of complying with Sixth Amendment requirements by allowing sentencing courts \u201c \u2018to exercise broad discretion . . . within a statutory range\u2019 \u201d].)* 1234* The Attorney General contends that this reformed version of the DSL may be applied to all future sentencing hearings, including those conducted on remand in any case in which error under the holding of Cunningham has been found to be prejudicial.\nOur decisions in Kopp v. Fair Pol. Practices Com. (1995) 11 Cal.4th 607, 626-662 [47 Cal.Rptr.2d 108, 905 P.2d 1248] (Kopp), and People v. Roder (1983) 33 Cal.3d 491, 499-502 [189 Cal.Rptr. 501, 658 P.2d 1302] (Roder), make clear that we have the authority to revise the DSL in a manner that avoids constitutional problems, if we conclude that the Legislature\u2019s intent clearly would be furthered by application of the revised version rather than by the alternative of invalidation.\nIn the present case, however, it is unnecessary for us to decide whether the statute should be judicially reformed to render it constitutional because, while this case was pending, the California Legislature amended the DSL in substantially the same manner proposed by the Attorney General. (Stats. 2007, ch. 3.) Accordingly, we need determine only what type of resentencing proceedings must be conducted in those cases, like the present case, in which a Sixth Amendment error requires reversal of an upper term sentence and a remand for resentencing.\nIt is unclear whether the Legislature intended the recent amendments of the DSL to apply to resentencing hearings in cases like the present one. Criminal statutes presumptively apply only prospectively. (See Tapia v. Superior Court (1991) 53 Cal.3d 282, 287 [279 Cal.Rptr. 592, 807 P.2d 434]; \u00a7 3 [\u201cNo part of [the Penal Code] is retroactive, unless expressly so declared.\u201d].) The bill that amended the DSL does not contain any language regarding retroactivity. (Stats. 2007, ch. 3, enacting Sen. Bill No. 40 (2007-2008 Reg. Sess.).) A change in substantive criminal law is retroactive if applied to cases in which the crime occurred before its enactment, but a change in procedural law is not retroactive when applied to proceedings that take place after its enactment. (Tapia v. Superior Court, supra, 53 Cal.3d 282 at p. 289 [\u201ca law governing the conduct of trials is being applied \u2018prospectively\u2019 when it is applied to a trial occurring after the law\u2019s effective date, regardless of when the underlying crime was committed\u201d].) It is arguable that the amendments to the DSL should be viewed as coming within the latter category and that they are, therefore, applicable to any sentencing proceedings conducted after the effective date of those amendments.\nWe need not decide that issue, however, because even if we assume that the recently enacted legislation does not, by its own terms, apply to cases that are remanded for resentencing, this court would have the responsibility and authority to fashion a constitutional procedure for resentencing in cases in which Cunningham requires a reversal of an upper term sentence. For the reasons explained below, we conclude that it is appropriate for resentencing in such cases to proceed under the procedure proposed by the Attorney General and adopted independently by the Legislature. (See, e.g., In re Hawthorne (2005) 35 Cal.4th 40 [24 Cal.Rptr.3d 189, 105 P.3d 552] [establishing postconviction procedures to implement constitutional prohibition of execution of mentally retarded persons]; People v. Calderon (1994) 9 Cal.4th 69 [36 Cal.Rptr.2d 333, 885 P.2d 83] [permitting bifurcation of trial of enhancement allegations from trial of underlying crime in order to preserve defendant\u2019s right to a fair trial, even though no statute authorized such a procedure].)\nIf we assume that the new legislation does not apply directly to cases pending on appeal that are remanded for resentencing, our task in deciding the appropriate sentencing procedure to be applied by a trial court on remand is somewhat analogous to what we faced in In re Hawthorne, supra, 35 Cal.4th 40. There, the Legislature enacted a statute intended to implement the United States Supreme Court\u2019s decision in Atkins v. Virginia (2002) 536 U.S. 304 [153 L.Ed.2d 335, 122 S.Ct. 2242], which held that the federal Constitution prohibits execution of the mentally retarded. (See In re Hawthorne, supra, 35 Cal.4th at p. 44.) The legislation, however, did not provide for cases in which the death penalty already had been imposed. (In re Hawthorne, supra, 35 Cal.4th at p. 45.) In such a situation, \u201c[t]he task thus falls to this court to formulate appropriate procedures for resolving postconviction claims.\u201d {Ibid.)\nIn Hawthorne, we adopted procedures for postconviction claims that tracked the statute \u201cas closely as logic and practicality permit,\u201d in order \u201cto maintain consistency with our own [state\u2019s] legislation . . . and to avoid due process and equal protection implications.\u201d (In re Hawthorne, supra, 35 Cal.4th at p. 47.) Likewise, in the present case, we direct that sentencing proceedings to be held in cases that are remanded because the sentence imposed was determined to be erroneous under Cunningham, supra, 549 U.S. 270 [127 S.Ct. 856], are to be conducted in a manner consistent with the amendments to the DSL adopted by the Legislature.\nThe Judicial Council already has amended the sentencing rules to conform to the current version of the DSL, and these same rules will provide guidance for trial courts in proceedings conducted on remand. (See former \u00a7 1170.3, as amended by Stats. 2004, ch. 747, \u00a7 1; and see \u00a7 1170.3, as amended by Stats. 2007, ch. 3, \u00a7 4.) The trial court will be required to specify reasons for its sentencing decision, but will not be required to cite \u201cfacts\u201d that support its decision or to weigh aggravating and mitigating circumstances. (See \u00a7 1170,. subd. (c), as amended by Stats. 2007, ch. 3, \u00a7 2; \u00a7 1170.3 as amended by Stats. 2007, ch. 3, \u00a7 4; compare former Cal. Rules of Court, rule 4.420 with rule 4.420 as amended May 23, 2007.)\nUnder the former scheme, the trial court was required to state reasons for imposing the upper or lower term, but not the middle term. (Cal. Rules of Court, rule 4.406(b)(4).) Under the amended scheme, a statement of reasons is required even if the middle term is imposed. (See \u00a7 1170, subd. (b), as amended by Stats. 2007, ch. 3, \u00a7 2.) The reasons, however, no longer must \u201cinclude a concise statement of the ultimate facts that the court deemed to constitute circumstances in aggravation or mitigation.\u201d (Compare former Cal. Rules of Court, rule 4.420(e) with current rule 4.420(e) as amended May 23, 2007; compare \u00a7 1170, subd. (b), as amended by Stats. 2007, ch. 3, \u00a7 2 [\u201c[t]he court shall set forth on the record the reasons for imposing the term selected\u201d] with former \u00a7 1170, subd. (b), as amended by Stats. 2004, ch. 747, \u00a7 1 [\u201c[t]he court shall set forth on the record the facts and reasons for imposing the upper or lower term\u201d].)\nEven with the broad discretion afforded a trial court under the amended sentencing scheme, its sentencing decision will be subject to review for abuse of discretion. (See People v. Superior Court (Alvarez) (1997) 14 Cal.4th 968, 976-977 [60 Cal.Rptr.2d 93, 928 P.2d 1171] [trial court\u2019s decision whether to reduce a \u201cwobbler\u201d offense to a misdemeanor under \u00a7 17, subd. (b) is reviewable for abuse of discretion]; People v. Russel (1968) 69 Cal.2d 187, 195 [70 Cal.Rptr. 210, 443 P.2d 794] [\u201call exercises of legal discretion must be grounded in reasoned judgment and guided by legal principles and policies appropriate to the particular matter at issue\u201d].) The trial court\u2019s sentencing discretion must be exercised in a manner that is not arbitrary and capricious, that is consistent with the letter and spirit of the law, and that is based upon an \u201cindividualized consideration of the offense, the offender, and the public interest.\u201d (Alvarez, supra, 14 Cal.4th at p. 978.) As under the former scheme, a trial court will abuse its discretion under the amended scheme if it relies upon circumstances that are not relevant to the decision or that otherwise constitute an improper basis for decision. (See, e.g., People v. Colds (1981) 125 Cal.App.3d 860, 863 [178 Cal.Rptr. 430] [it is improper to consider a waiver of jury trial in mitigation, or an exercise of the right to jury trial as aggravation]; People v. Johnson (1988) 205 Cal.App.3d 755, 758 [252 Cal.Rptr. 302] [\u201cdefendant\u2019s alienage is not a proper factor when considering the length of his term\u201d].) A failure to exercise discretion also may constitute an abuse of discretion. (See, e.g., People v. Crandell (1988) 46 Cal.3d 833, 861 [251 Cal.Rptr. 227, 760 P.2d 423]; People v. Bern (1972) 7 Cal.3d 530, 535 [102 Cal.Rptr. 593, 498 P.2d 433].)\nResentencing under such a discretionary scheme is preferable to the alternative of maintaining the requirement that the middle term be imposed in the absence of aggravating or mitigating factors but permitting a jury trial on aggravating circumstances. Although such a process would comply with the constitutional requirements of Cunningham, engrafting a jury trial onto the sentencing process established in the former DSL would significantly complicate and distort the sentencing scheme. Neither the DSL nor the Judicial Council\u2019s sentencing rules were drafted in contemplation of a jury trial on aggravating circumstances. It is unclear how prosecutors might determine which aggravating circumstances should be charged and tried to a jury, because no comprehensive list of aggravating circumstances exists. Under the DSL, a trial court is free to base an upper term sentence upon any aggravating circumstance that the court deems significant, subject to specific prohibitions. (See, e.g., Cal. Rules of Court, rule 4.420(c) [fact underlying an enhancement may not be used to impose the upper term unless the court strikes the enhancement]; id., rule 4.420(d) [fact that is an element of the crime may not be used to impose the upper term].) The court\u2019s discretion to identify aggravating circumstances is otherwise limited only by the requirement that they be \u201creasonably related to the decision being made.\u201d (Cal. Rules of Court, rule 4.408(a).)\nThe Legislature authorized the trial court\u2014not the prosecutor\u2014to make the determination \u201cwhether there are circumstances that justify imposition of the upper or lower term,\u201d and to do so by considering the record of the trial, the probation officer\u2019s report, and statements submitted by the defendant, the prosecutor, and the victim or victim\u2019s family. (\u00a7 1170, subd. (b).) If the prosecutor were to decide which circumstances of the offense justify an upper term and thereby charge the defendant accordingly, the prosecutor would be exercising a form of discretion that the Legislature intended to be exercised by the court. To avoid that problem, a prosecutor might be limited to charging aggravating factors specified in rules or statutes, but that approach would distort the process in a different way\u2014the scope of potentially aggravating circumstances would be severely limited.\nMoreover, as noted above (ante, at pp. 839-840), the aggravating circumstances listed in the rules were drafted for the purpose of guiding judicial discretion and not for the purpose of requiring factual findings by a jury beyond a reasonable doubt. Many of those circumstances are not readily adaptable to the latter purpose, because they include imprecise terms that implicitly require comparison of the particular crime at issue to other violations of the same statute, a task a jury is not well suited to perform. For example, without some basis for comparing the instant offense to others, it would be difficult for a jury to determine whether \u201c[t]he victim was particularly vulnerable,\u201d or whether the crime \u201cinvolved . . . taking or damage of great monetary value\u201d or \u201ca large quantity of contraband.\u201d (Cal. Rules of Court, rule 4.421(a)(3), (9), (10), italics added.) Some aggravating factors may not be identifiable until after the trial, such as whether the defendant \u201cunlawfully prevented or dissuaded witnesses from testifying ... or in any other way illegally interfered with the judicial process.\u201d (Cal. Rules of Court, rule 4.421(a)(6).) In that situation, such circumstances would have to be tried separately, after the jury returns its verdict on the charged offenses.\nThe Legislature\u2019s action in amending the DSL makes it unnecessary for us to decide whether to take the \u201ccomparatively drastic alternative\u201d of judicially reforming the statute with regard to its application for all future cases. (Arp v. Workers\u2019 Comp. Appeals Bd. (1977) 19 Cal.3d 395, 407 [138 Cal.Rptr. 293, 563 P.2d 849].) To the extent, however, that our holding might be characterized as a limited reformation of the statute with regard to its application in resentencing proceedings, such a reformation is appropriate. When considering whether a statute should be judicially reformed to preserve its constitutionality, \u201c[t]he guiding principle is consistency with the Legislature\u2019s . . . intent.\u201d (Kopp, supra, 11 Cal.4th at p. 615.) The power to rewrite a statute to \u201cremedy a constitutional defect\u201d should be exercised \u201conly when the result achieved by such a course is more consistent with legislative intent than [the] result that would attend outright invalidation. [Citations.]\u201d (Arp, supra, at pp. 407-408.) \u201c[A] court may reform a statute ... if it can conclude with confidence that (i) it is possible to [do so] in a manner that closely effectuates policy judgments clearly articulated by the enacting body, and (ii) the enacting body would have preferred such a reformed version of the statute to invalidation of the statute.\u201d (Kopp, supra, 11 Cal.4th at p. 615.) Applying this test in Kopp, we declined to reform statutes that regulated individual contributions to political candidates, because \u201cit would be impossible to determine with confidence that the electorate would have preferred the reformation proposed . . . over invalidation.\u201d (Id. at p. 670.)\nWith respect to the first portion of the test set out in Kopp, we believe that the Attorney General\u2019s proposed procedure would \u201cclosely effectuate[] policy judgments\u201d articulated in the DSL. (Kopp, supra, 11 Cal.4th at p. 615.) When it adopted the DSL, the Legislature explicitly found that its goal of punishment \u201cis best served by terms proportionate to the seriousness of the offense with provision for uniformity in the sentences of offenders committing the same offense under similar circumstances. ... [T]he elimination of disparity and the provision of uniformity of sentences can best be achieved by determinate sentences fixed by statute in proportion to the seriousness of the offense as determined by the Legislature to be imposed by the court with specified discretion.\u201d (\u00a7 1170, subd. (a)(1).)\nEliminating the explicit requirement that the middle term be imposed in the absence of any aggravating or mitigating circumstances may afford the trial court somewhat greater discretion to select the upper or lower term than it had under the former scheme, but we do not believe such discretion in any way would undermine the legislative goals of establishing proportionate sentences and reducing disparity. As we recognized in Black I, \u201csection 1170, subdivision (b)\u2019s requirement that the middle term be imposed unless an aggravating factor is found preserves the traditional broad range of judicial sentencing discretion. Although subdivision (b) is worded in mandatory language, the requirement that an aggravating factor exist is merely a requirement that the decision to impose the upper term be reasonable.\u201d (Black I, supra, 35 Cal.4th at p. 1255, fn. omitted.) The United States Supreme Court subsequently concluded in Cunningham that the statutory requirement that the middle term be imposed unless an aggravating circumstance is found signifies that the DSL cannot be categorized as a discretionary scheme for purposes of applying the high court\u2019s \u201cbright-line rule.\u201d (Cunningham, supra, 549 U.S. at p._[127 S.Ct. at p. 868].) Nevertheless, we believe it is both accurate and realistic to recognize that, in practical terms, the difference between the pre-Cunningham provision of the DSL enacted by the Legislature and a statutory scheme in which the trial court has broad discretion to select among the three available terms is not substantial. It seems likely that in all but the rarest of cases the level of discretion afforded the trial court under the Attorney General\u2019s proposal would lead to the same sentence as that which would have been imposed under the DSL as initially enacted.\nEven prior to its recent amendment, the DSL permitted the trial court a comparable level of broad discretion regarding other sentencing choices that affect the length of the term of imprisonment. The prior requirement that an aggravating or mitigating circumstance be found applied only to the decision to impose the upper or lower term. (\u00a7 1170, subd. (b).) The trial judge had (and continues to have) discretion to make numerous other sentencing choices, such as whether to grant or deny probation, impose consecutive sentences, or strike the punishment for an enhancement. (See Cal. Rules of Court, rule 4.406(b).) In making such sentencing choices, the trial court need only \u201cstate [its] reasons\u201d (\u00a7 1170, subd. (c)); it is not required to identify aggravating and mitigating factors, apply a preponderance of the evidence standard, or specify the \u201cultimate facts\u201d that \u201cjustify [] the term selected.\u201d (Compare Cal. Rules of Court, rule 4.420(e) with rule 4.406(a).) Rather, the court must \u201cstate in simple language the primary factor or factors that support the exercise of discretion.\u201d (Cal. Rules of Court, rule 4.406(a).) The Legislature apparently did not believe that affording the trial court broad discretion on such matters\u2014which in some instances may have an impact on the length of the sentence imposed greater than the decision to select the upper term\u2014would substantially interfere with its goal of reducing disparity in sentencing.\nFurthermore, the Legislature\u2019s basic goal of reducing sentencing disparity will be attained under such a discretionary sentencing scheme, to no small degree, by the provisions of the DSL that remain fully applicable upon remand. First and foremost, the range in which the trial court can exercise sentencing discretion is limited. The Legislature\u2019s specification of an upper, middle, or lower term for each offense in itself serves to reduce the disparities in the time that was served for similar crimes under the prior indeterminate system. In exercising its discretion, the trial court will continue to be guided by the criteria set out in the Rules of Court, including those that specify the general policy objectives in sentencing (Cal. Rules of Court, rule 4.410) as well as those that specify aggravating and mitigating circumstances (Cal. Rules of Court, rules 4.421, 4.423.) Accordingly, we conclude that directing trial courts to apply the proposed procedure on remand would not undermine the policy judgments of the Legislature that originally enacted the DSL.\nWith respect to the second portion of the test set out in Kopp, it is apparent to us that the Legislature \u201cwould have preferred such a reformed version of the statute to invalidation of the statute\u201d\u2014a result that would render the upper term unavailable and make the middle term the maximum that may be imposed in any case. (Kopp, supra, 11 Cal.4th at p. 615.) Such a result seriously would impede the Legislature\u2019s goal that sentences be imposed \u201cproportionate to the seriousness of the offense.\u201d (\u00a7 1170, subd. (a)(1).) Furthermore, we believe that the Legislature that originally enacted the DSL would have preferred a fully discretionary sentencing scheme to the alternative of requiring a jury trial on aggravating circumstances, which, as discussed above {ante, at pp. 847-848), would complicate and distort the sentencing scheme adopted by the Legislature.\nThe circumstance that the United States Supreme Court adopted a remedy similar to the one we adopt here after the high court held that application of the federal sentencing statutes, as written, violated the Sixth Amendment, provides persuasive authority for our decision. The high court concluded that if a jury trial requirement were to be engrafted onto the federal sentencing system, \u201cthe requirement would so transform the scheme that Congress created that Congress likely would not have intended the Act as so modified to stand.\u201d (United States v. Booker, supra, 543 U.S. at p. 249.) Accordingly, the court chose to make the federal sentencing guidelines advisory rather than mandatory. Although much of the reasoning in Booker is based upon the intent of Congress in adopting the federal sentencing laws, and is not directly applicable to the question of the California Legislature\u2019s intent in adopting the DSL, a significant factor in the high court\u2019s decision was its conclusion that \u201cthe sentencing statutes, read to include the Court\u2019s Sixth Amendment requirement, would create a system far more complex than Congress could have intended.\u201d (543 U.S. at p. 254.)\nSimilarly, we conclude that attempting to engraft a jury trial on the issue of aggravating circumstances onto the California sentencing scheme would create a sentencing system far different from\u2014and far more complex than\u2014 the one intended by the California Legislature. In contrast, affording the trial court discretion to select among the three available terms, without requiring a finding of aggravating and mitigating circumstances, would change the sentencing system in a manner that would eliminate the constitutional defect identified in Cunningham, supra, 549 U.S. 270 [127 S.Ct. 856], but that as a practical matter would not substantially alter the DSL as initially adopted by the Legislature.\nB.\nDefendant argues that resentencing her under a scheme in which the trial court has discretion to impose any of the three terms would deny her due process of law and violate the prohibition against ex post facto laws. Defendant relies upon Miller v. Florida (1987) 482 U.S. 423 [96 L.Ed.2d 351, 107 S.Ct. 2446] {Miller), in which the United States Supreme Court held that a change to Florida\u2019s sentencing guidelines that raised the presumptive sentence range for the defendant\u2019s offense could not be applied to the defendant because his offense was committed prior to the effective date of the new guidelines. Under the Florida sentencing scheme, a score was calculated based upon the offense of which the defendant was convicted, the defendant\u2019s prior record and legal status at the time of the offense, and the injury inflicted on the victim. (Miller, supra, 484 U.S. at pp. 425-426.) A presumptive sentencing range was established for each score. If the trial court imposed a sentence within the presumptive range, the court was not required to provide reasons for its decision, which was not reviewable. (Id. at p. 426.) The trial court could deviate from the presumptive range, but only if clear and convincing evidence warranted such a departure. {Ibid.) A sentence outside the presumptive range required a statement of reasons and was reviewable on appeal. {Ibid.)\nIn the Miller case, at the time of the defendant\u2019s offense, the presumptive range for an offender with his score was between three and a half and four and a half years\u2019 imprisonment. (Miller, supra, 482 U.S. at p. 424.) At the time of his sentencing hearing, the presumptive range for an offender with his score was between five and a half and seven years\u2019 imprisonment. {Ibid.) The trial court applied the guideline in effect at the time of sentencing and imposed a sentence of seven years. {Ibid.)\nThe high court reversed, concluding that retroactive application of the revised sentencing guidelines to the defendant\u2019s case violated the ex post facto clause of the federal Constitution. (Miller, supra, 482 U.S. at pp. 435-436.) That provision states that \u201cNo state shall . . . pass any ... ex post facto law ....\u201d (U.S. Const., art. I, \u00a7 10, cl. 1.) A law violates the ex post facto clause only if it is retroactive\u2014that is, if it applies to events occurring before its enactment\u2014and if its application disadvantages the offender. (Miller, supra, 482 U.S. at p. 430.) A retroactive law does not violate the ex post facto clause if it \u201cdoes not alter \u2018substantial personal rights,\u2019 but merely changes \u2018modes of procedure which do not affect matters of substance.\u2019 \u201d (Ibid., quoting Dobbert v. Florida (1977) 432 U.S. 282, 293 [53 L.Ed.2d 344, 97 S.Ct. 2290].) The high court concluded the change in the presumptive sentencing range at issue in Miller was not merely procedural. {Miller, supra, 482 U.S. at p. 433.) Furthermore, the change in law \u201c \u2018substantially disadvantaged\u2019 \u201d the defendant because, under the prior law, the judge could not have sentenced him to a seven-year term without providing reasons for his decision and the defendant would have had the opportunity to challenge the sentence on appeal. (Id. at p. 432.) Under the new guidelines, the defendant could not challenge a seven-year term on appeal.\nDefendant argues that the revision of the DSL\u2019s sentencing process that we would have the trial court apply upon remand is analogous to the change in the law at issue in Miller. Defendant contends she is disadvantaged by application of the revised scheme, because she will lose the benefit of section 1170\u2019s requirement that the middle term be imposed in the absence of any aggravating or mitigating circumstances, just as the defendant in Miller would have lost the benefit of a lower presumptive range.\nThe United States Supreme Court has emphasized that the question of whether a change in the law that might have some effect on a defendant\u2019s term of imprisonment violates the ex post facto clause is a \u201cmatter of \u2018degree.\u2019 \u201d (California Dept. of Corrections v. Morales (1995) 514 U.S. 499, 509 [131 L.Ed.2d 588, 115 S.Ct. 1597].) In Morales, the high court considered an ex post facto challenge to legislation that changed the law to permit the California Board of Prison Terms, after denying parole, to delay the subsequent parole suitability hearing under specified circumstances for up to three years, rather than one. The court rejected the argument that \u201cany legislative change that has any conceivable risk of affecting a prisoner\u2019s punishment\u201d violates the ex post facto clause. (Id. at p. 508.) It concluded that the amendment at issue \u201ccreates only the most speculative and attenuated possibility of producing the prohibited effect of increasing the measure of punishment for covered crimes, and such conjectural effects are insufficient under any threshold we might establish under the Ex Post Facto Clause.\u201d (Id. at p. 509.)\nBecause the question of whether a change in the sentencing process violates the ex post facto clause depends on the significance of its impact, this case is distinguishable from Miller. Under the Florida sentencing scheme at issue in Miller, the presumptive range of punishment for certain sex offenders, from which a sentencing judge could not depart absent findings supported by clear and convincing evidence, was revised upward. The court made clear in the Miller opinion that unlike previous cases in which the \u201c \u2018totality of the procedural changes wrought by the new statute . . . did not work an onerous application of an ex post facto change,\u2019 \u201d in that case the state\u2019s attorney \u201cha[d] not been able to identify any feature of the revised guidelines law that could be considered ameliorative.\u201d (Miller, supra, 482 U.S. at pp. 431-432.) The court further concluded that \u201cthe sole reason for the increase [in the presumptive range of punishment] was to punish sex offenders more heavily: the amendment was intended to, and did increase the \u2018quantum of punishment\u2019 for [sex offender] crimes.\u201d (Id. at pp. 433-434.)\nIn the present case, the removal of the provision calling for imposition of the middle term in the absence of any aggravating or mitigating circumstance is not intended to\u2014and would not be expected to\u2014have the effect of increasing the sentence for any particular crime. Indeed, as applied to cases such as this one, in which defendant already has been sentenced to the upper term under the version of the DSL in place at the time she committed the offense, application of the revised sentencing scheme never could result in a harsher sentence and affords the defendant the opportunity to attempt to convince the trial court to exercise its discretion to impose a lower sentence. To the extent the removal of the requirement that the middle term be imposed in the absence of aggravating or mitigating circumstances may be viewed as granting the trial court greater discretion to impose the upper term, the revision would afford the court an equally increased discretion to impose the lower term. Moreover, as noted above, the difference in the amount of discretion exercised by the trial court in selecting the upper term under the former DSL, as compared to the scheme we adopt for resentencing proceedings, is not substantial. In contrast, a sentencing judge\u2019s discretion to depart downward from the presumptive sentencing range under the Florida scheme considered in Miller was substantially limited.\nFurthermore, Miller does not control the present case, because the prohibition on ex post facto laws applies only to statutory enactments, not to judicial decisions. By its terms, the ex post facto clause \u201cis a limitation upon the powers of the Legislature [citation] and does not of its own force apply to the Judicial Branch of government.\u201d (Marks v. United States (1977) 430 U.S. 188, 191 [51 L.Ed.2d 260, 97 S.Ct. 990].) Although \u201climitations on ex post facto judicial decisionmaking are inherent in the notion of due process,\u201d the due process clause does not require the application of strict ex post facto principles in the context of judicial decisionmaking. (Rogers v. Tennessee (2001) 532 U.S. 451, 456 [149 L.Ed.2d 697, 121 S.Ct. 1693] (Rogers).) Rather, judicial decisions are reviewed under \u201ccore due process concepts of notice, foreseeability, and, in particular, the right to fair warning.\u201d (Id. at p. 459.)\nRogers explains the difference between a challenge made to a statute directly under the ex post facto clause and an ex post facto challenge made under the due process clause to a change in the law that is accomplished by judicial decision. In Rogers, the defendant was convicted of second degree murder. (Rogers, supra, 532 U.S. at p. 454.) He had stabbed the victim, who went into a coma and died from a kidney infection 15 months later. (Ibid.) On appeal, the defendant argued that his conviction violated the Tennessee common law rule that a defendant can be found guilty of murder only if the victim dies within a year and a day after the fatal wound was inflicted. (Ibid.) The Tennessee Supreme Court affirmed his conviction, abolishing the common law rule because the court concluded there no longer was justification for the rule\u2019s existence. (Id. at pp. 454-455.)\nIn the United States Supreme Court, the defendant asserted that his conviction violated due process principles. He argued that retroactive application of the state court\u2019s decision to abolish the common law rule in his case should be evaluated under the same standards that would apply under the ex post facto clause had the Legislature abolished the rule. The high court rejected that argument, - explaining that to hold otherwise would circumvent the clear text of the ex post facto clause, which \u201cdoes not apply to courts.\u201d (Rogers, supra, 532 U.S. at p. 460.) In addition, particularly in the context of common law doctrines such, as the rule at issue in Rogers, \u201cthere often arises a need to clarify or even to reevaluate prior opinions as new circumstances and fact patterns present themselves. Such judicial acts, whether they be characterized as \u2018making\u2019 or \u2018finding\u2019 the law, are a necessary part of the judicial business in States in which the criminal law retains some of its common law elements. Strict application of ex post facto principles in that context would unduly impair the incremental and reasoned development of precedent that is the foundation of the common law system. The common law, in short, presupposes a measure of evolution that is incompatible with stringent application of ex post facto principles.\u201d (Rogers, supra, 532 U.S. at p. 461.) Also concluding that the state court\u2019s abolition of the year-and-a-day rule did not violate due process principles, the high court explained that, because at the time of the defendant\u2019s crime the \u201crule had only the most tenuous foothold as part of the criminal law of the [sjtate\u201d (Rogers, supra, 532 U.S. at p. 464), its abolition was not \u201c \u2018unexpected and indefensible.\u2019 \u201d (Id. at p. 466.)\nRelying upon the principles established in Rogers, every federal court that has considered the issue has rejected the argument that application of the United States Supreme Court\u2019s \u201cremedial interpretation\u201d of the federal sentencing statutes in United States Booker, supra, 543 U.S. at page 268, to cases pending on appeal would deny due process of law. (See U.S. v. Vaughn (2d Cir. 2005) 430 F.3d 518 (Vaughn); U.S. v. Dupas (9th Cir. 2005) 419 F.3d 916 (Dupas); U.S. v. Jamison (7th Cir. 2005) 416 F.3d 538 (Jamison); U.S. v. Lata (1st Cir. 2005) 415 F.3d 107 (Lata); U.S. v. Scroggins (5th Cir. 2005) 411 F.3d 572 (Scroggins).) In Booker, the high court did not address the question whether retroactive application of its decision would violate due process principles, but it did state that its \u201cremedial interpretation\u201d of the federal sentencing laws must be applied to all cases on direct review. (Booker, supra, 543 U.S. at p. 268.)\nThe appellate court in Lata, supra, 415 F.3d at pages 110-112, addressed the defendant\u2019s argument that his eight-year sentence for bank robbery violated due process principles. The maximum sentence provided by statute for that offense was 20 years, but under the guidelines the range for his offense was 70 to 87 months. (Id. at p. 109.) The trial court, foreseeing the high court\u2019s later decision in Booker, deemed the mandatory guidelines unconstitutional and treated them as discretionary, sentencing the defendant to a term of 96 months. {Ibid.) Applying the test established in Rogers, the appellate court upheld the sentence, explaining that \u201c[a]n after-the-offense enlargement of the contours of the crime or maximum sentence by judicial construction can raise due process objections based on lack of fair warning but only where the alteration is \u2018unexpected and indefensible\u2019 by reference to the case law that had been expressed prior to the offense.\u201d (Lata, supra, 415 F.3d at pp. 110-111, italics added.) The appellate court in Lata concluded that the appropriate question was not whether the decision in Booker was \u201c \u2018unexpected,\u2019 \u201d but whether the particular sentence imposed on the defendant \u201cso far disappoints reasonable expectations as to raise due process concerns.\u201d (Lata, at p. 111.) The court concluded that the provision in the statute specifying a maximum sentence afforded the defendant sufficient warning, for due process purposes, that he could be sentenced to a term of up to 20 years. (Id. at p. 112; accord, Vaughn, supra, 430 F.3d at pp. 524-525; Dupas, supra, 419 F.3d at pp. 919-921; Jamison, supra, 416 F3d at p. 539; Scroggins, supra, 411 F.3d at p. 576.)\nWe similarly conclude that the federal Constitution does not prohibit the application of the revised sentencing process explained above to defendants whose crimes were committed prior to the date of our decision in the present case. Defendant was put on notice by section 193 that she could receive the upper term for her offense: the statute specifies that \u201c[vjoluntary manslaughter is punishable by imprisonment in the state prison for 3, 6, or 11 years.\u201d (\u00a7 193, subd. (a).) That notice satisfies the requirements of due process.\nVI.\nFor the reasons stated above, we reverse the decision of the Court of Appeal insofar as it affirmed the upper term sentence imposed on count one and remand to the Court of Appeal with directions to remand the case to the trial court for resentencing in accordance with this opinion.\nKennard, J., Baxter, J., Werdegar, J., Chin, J., Moreno, J., and Corrigan, J., concurred.\nAll further statutory references are to the Penal Code unless otherwise indicated.\nIn response to Cunningham, the California Legislature recently amended the DSL by urgency legislation effective March 30, 2007. (Stats. 2007, ch. 3.) Unless otherwise noted, our references to section 1170 are to the statute as it read prior to those amendments.\nIn response to the Legislature\u2019s amendment of the DSL, the Judicial Council amended the sentencing rules effective May 23, 2007. Unless otherwise noted, all references to the California Rules of Court are to the rules as they read prior to those amendments.\nThe Attorney General contends that defendant forfeited her Sixth Amendment claim because she failed in the trial court to object to the sentencing proceedings. In People v. Black (2007) 41 Cal.4th 799 (Black II) we hold that in a case in which the trial and sentencing occurred prior to the high court\u2019s decision in Blakely, the defendant\u2019s Sixth Amendment claim is not forfeited on appeal even though he or she did not raise an objection in the trial court. (Black II, supra, 41 Cal.4th at pp. 810-812.) That conclusion is based upon the rule that, although challenges to evidence or procedures normally are forfeited unless timely raised in the trial court, the decision in Blakely changed the law \u201cso unforeseeably that it is unreasonable to expect trial counsel to have anticipated the change.\u201d (People v. Turner (1990) 50 Cal.3d 668, 703 [268 Cal.Rptr. 706, 789 P.2d 887].)\nThe present case, however, is in a different posture. Here, the trial and the sentencing proceedings took place after the high court\u2019s decision in Blakely and after this court\u2019s decision in Black I. The Attorney General contends counsel in many other cases understood, even after Black I and before the high court granted certiorari in Cunningham, that the constitutionality of California\u2019s DSL remained an unsettled question and, accordingly, those counsel raised this issue in the trial court.\nNonetheless, we agree with the Court of Appeal\u2019s conclusion that the claim was not forfeited. An objection in the trial court is not required if it would have been futile. (See People v. Welch (1993) 5 Cal.4th 228, 237-238 [19 Cal.Rptr.2d 520, 851 P.2d 802].) As the Attorney General concedes, our decision in Black I was binding on the lower courts until it was overruled by the high court. (Auto Equity Sales, Inc. v. Superior Court (1962) 57 Cal.2d 450, 455 [20 Cal.Rptr. 321, 369 P.2d 937].) Had defendant requested a jury trial on aggravating circumstances, that request clearly would have been futile, because the trial court would have been required to follow our decision in Black I and deny the request.\nThe second circumstance listed in the probation report was that the crime involved multiple victims, a circumstance that has been deleted from the rule to avoid the suggestion that the existence of \u201cmultiple victims\u201d is an appropriate aggravating circumstance in cases, such as this one, in which each count involves a single victim. (See Advisory Com. com., Cal. Rules of Court, rule 4.421.)\nThe Attorney General urges that the following changes would render the DSL constitutional:\n(1) The language in section 1170, subdivision (b), providing that when a statute specifies three possible terms, \u201cthe court shall order imposition of the middle term, unless there are circumstances in aggravation or mitigation of the crime,\u201d should be changed to \u201cthe trial court has discretion to impose any of the three terms.\u201d\n(2) In the portion of section 1170, subdivision (b) that specifies the material the judge is to consider, the phrase, \u201cIn determining whether there are circumstances that justify imposition of the upper or lower term . . . .\u201d should be replaced with \u201cIn determining the appropriate term . . . .\u201d\n(3) The requirement in section 1170, subdivision (b) that the trial court \u201cset forth on the record the facts and reasons for imposing the upper or lower term,\u201d should be revised to require that the court \u201cset forth on the record the reasons for imposing the term selected.\u201d\n(4) Former section 1170.3, subdivision (a)(2), which authorizes the Judicial Council to adopt rules providing criteria relating to the judge\u2019s decision to \u201c[ijmpose the lower or upper prison term\u201d should be revised to refer to the decision to \u201cimpose the lower, middle, or upper term.\u201d\nIn Roder, we held that section 496 created an unconstitutional presumption that relieved the prosecution of its burden of proving every element of the offense beyond a reasonable doubt. (Roder, supra, 33 Cal.3d at p. 504.) We accepted the Attorney General\u2019s argument that, for the purposes of future prosecutions, section 496 should be interpreted to create only a permissive inference rather than a mandatory presumption. (Roder, at pp. 505-506.) Although we recognized that this interpretation \u201crequire[d] some creative statutory construction,\u201d we concluded that \u201cit appears more in keeping with the overall legislative intent for courts to pare down existing statutory presumptions to constitutionally permissible limits, rather than to abrogate them altogether.\u201d {Ibid.)\nAs we subsequently explained in Kopp, \u201ca reviewing court may, in appropriate circumstances, and consistently with the separation of powers doctrine, reform a statute to conform it to constitutional requirements in lieu of simply declaring it unconstitutional and unenforceable.\u201d (Kopp, supra, 11 Cal.4th at p. 615.) In Kopp, reviewing prior cases in which such power had been exercised, we rejected any distinction between cases in which the court \u201csimply placed a saving \u2018construction\u2019 on the statutory language, thereby constricting the reach of the statute,\u201d and a case in which the court found it necessary \u201cto disregard language and to substitute reformed language.\u201d (Id. at p. 646.) This \u201cdistinction . . . suggests a difference of degree, not kind. ... In practical effect, in all of these cases, we \u2018rewrote\u2019 each statute in order to preserve its constitutionality.\u201d {Ibid., fh. omitted.)\nSee California Rules of Court, rules 4.405 through 4.452, as amended May 23, 2007.\nA requirement that reasons be stated to support a sentencing decision facilitates appellate review and \u201cimposes an intellectual discipline that may lead to better reasoned decisions.\u201d (People v. Martin (1986) 42 Cal.3d 437, 450 [229 Cal.Rptr. 131, 722 P.2d 905].)\nThe Advisory Committee Comment to California Rules of Court, rule 4.408 notes: \u201cThe variety of circumstances presented in felony cases is so great that no listing of criteria could claim to be all-inclusive. [Citation.] [f] The relative significance of various criteria will vary from case to case. This, like the question of applicability of various criteria, will be decided by the sentencing judge.\u201d\nThe legislative history brought to our attention on this point does not appear dispositive. The Attorney General contends the Legislature has expressed a preference for a sentencing scheme that does not involve a formal trial on aggravating and mitigating factors. The first version of the DSL permitted the trial court to impose the upper or lower term only after an evidentiary hearing. (See Stats. 1976, ch. 1139, \u00a7 273, pp. 5140-5141, adding \u00a7 1170, subd. (b).) After this original version of the DSL was enacted, the Legislature amended it on an urgency basis, before it went into effect. (Stats. 1977, ch. 165, pp. 639-680.) Among other changes, the procedure by which aggravating and mitigating factors were to be established was simplified and made less formal, permitting the trial court to base its decision upon the probation report and other relevant materials, rather than upon evidence formally introduced at a hearing. (\u00a7 1170, subd. (b), as amended by Stats. 1977, ch. 165, \u00a7 15, pp. 647-648.)\nDefendant contends, on the other hand, that the Legislature considered and rejected the version of the DSL now proposed by the Attorney General. As originally introduced, the bill that enacted the DSL permitted trial courts to sentence a defendant to any of the three terms. (Sen. Bill No. 42 (1975-1976 Reg. Sess.) \u00a7 273.) It was amended in the Assembly to add subdivision (b) to section 1170, providing that the middle term must be imposed absent additional findings with regard to aggravating or mitigating circumstances. (Assem. Amend, to Sen. Bill No. 42 (1975-1976 Reg. Sess.) Aug. 7, 1975, pp. 111-113.)\nThe history discussed above establishes no more than that the Legislature preferred an informal sentencing hearing over a formal one, and that it preferred to specify that the middle term sentence be imposed in the absence of any aggravating or mitigating circumstances. This history does not provide a clear indication of the kind of adjustments to the sentencing law the Legislature would have preferred in the event its statutory formulation were to be found inconsistent with the requirements of the Sixth Amendment.\nJustice Harlan, in his concurring and dissenting opinion in James v. United States (1961) 366 U.S. 213, 247 [6 L.Ed.2d 246, 81 S.Ct. 1052], explained that \u201cthe decisions of a court interpreting the acts of a legislature have never been subject to the same limitations which are imposed on legislatures themselves.\u201d The policy behind the ex post facto clause was a concern that the legislature \u201cmay be acting with a purpose not to prevent dangerous conduct generally but to impose by legislation a penalty against specific persons or classes of persons. That this policy is inapplicable to decisions of the courts seems obvious: their opportunity for discrimination is more limited than the legislature\u2019s, in that they can only act in construing existing law in actual litigation.\u201d (Id. at p. 247, fit. 3 (cone. & dis. opn. of Harlan, J.).)",
+        "type": "majority",
+        "author": "GEORGE, C. J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Donna L. Harris, under appointment by the Supreme Court, for Defendant and Appellant.",
+      "Bill Lockyer and Edmund G. Brown, Jr., Attorneys General, Robert R. Anderson and Dane R. Gillette, Chief Assistant Attorneys General, Pamela C. Hamanaka, Assistant Attorney General, Kyle S. Brodie, Kristofer Jorstad, Steven D. Matthews, Lance E. Winters, Lawrence M. Daniels, David E. Madeo and Chung L. Mar, Deputy Attorneys General, for Plaintiff and Respondent.",
+      "Albert C. Locher, Assistant Chief Deputy District Attorney (Sacramento), for California District Attorneys Association as Amicus Curiae on behalf of Plaintiff and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. S148917.\nJuly 19, 2007.]\nTHE PEOPLE, Plaintiff and Respondent, v. AIDA SANDOVAL, Defendant and Appellant.\nCounsel\nDonna L. Harris, under appointment by the Supreme Court, for Defendant and Appellant.\nBill Lockyer and Edmund G. Brown, Jr., Attorneys General, Robert R. Anderson and Dane R. Gillette, Chief Assistant Attorneys General, Pamela C. Hamanaka, Assistant Attorney General, Kyle S. Brodie, Kristofer Jorstad, Steven D. Matthews, Lance E. Winters, Lawrence M. Daniels, David E. Madeo and Chung L. Mar, Deputy Attorneys General, for Plaintiff and Respondent.\nAlbert C. Locher, Assistant Chief Deputy District Attorney (Sacramento), for California District Attorneys Association as Amicus Curiae on behalf of Plaintiff and Respondent."
+  },
+  "file_name": "0825-01",
+  "first_page_order": 861,
+  "last_page_order": 894
+}

@@ -1,0 +1,61 @@
+{
+  "id": 12417188,
+  "name": "Strother v. United States",
+  "name_abbreviation": "Strother v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10371",
+  "first_page": "929",
+  "last_page": "929",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 929"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 153,
+    "ocr_confidence": 0.623,
+    "sha256": "20b1ff486dfe05b72506c8940038b7ad17015d73254c19e9983d291dc72aa3a6",
+    "simhash": "1:8db3eb82470c1446",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Strother v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10371.\nStrother v. United States."
+  },
+  "file_name": "0929-08",
+  "first_page_order": 1005,
+  "last_page_order": 1005
+}

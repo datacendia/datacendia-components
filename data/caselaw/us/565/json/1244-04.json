@@ -1,0 +1,59 @@
+{
+  "id": 12250096,
+  "name": "Muhammad v. United States",
+  "name_abbreviation": "Muhammad v. United States",
+  "decision_date": "2012-03-05",
+  "docket_number": "No. 10-10476",
+  "first_page": "1244",
+  "last_page": "1244",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1244"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 27,
+    "char_count": 172,
+    "ocr_confidence": 0.63,
+    "sha256": "d5aceea684079c912b0e846fdd06663223d41d002fca933902663f593482b23b",
+    "simhash": "1:e6a0be7a4a949e18",
+    "word_count": 28
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Muhammad v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Motion of petitioner for reconsideration of order denying leave to proceed in forma pauperis [ante, p. 803] denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10476.\nMuhammad v. United States."
+  },
+  "file_name": "1244-04",
+  "first_page_order": 1326,
+  "last_page_order": 1326
+}

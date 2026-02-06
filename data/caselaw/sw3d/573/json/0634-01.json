@@ -1,0 +1,951 @@
+{
+  "id": 12659659,
+  "name": "Jereme ROESING, Appellant, v. DIRECTOR OF REVENUE, Respondent.",
+  "name_abbreviation": "Roesing v. Dir. Revenue",
+  "decision_date": "2019-04-30",
+  "docket_number": "No. SC 97165",
+  "first_page": "634",
+  "last_page": "645",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "573 S.W.3d 634"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Mo.",
+    "id": 9434,
+    "name": "Supreme Court of Missouri"
+  },
+  "jurisdiction": {
+    "id": 37,
+    "name_long": "Missouri",
+    "name": "Mo."
+  },
+  "cites_to": [
+    {
+      "cite": "Alaska Stat. \u00a7 12.25.150",
+      "category": "laws:leg_statute",
+      "reporter": "Alaska Stat.",
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "N.D. Cent. Code \u00a7 29-05-20",
+      "category": "laws:leg_statute",
+      "reporter": "N.D. Cent. Code",
+      "year": 1987,
+      "opinion_index": 0
+    },
+    {
+      "cite": "405 N.W.2d 285",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "case_ids": [
+        11947677
+      ],
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "287",
+          "parenthetical": "citing N.D. Cent. Code \u00a7 29-05-20 (1987)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nw2d/405/0285-01"
+      ]
+    },
+    {
+      "cite": "37 S.W.3d 405",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        11136787
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "parenthetical": "finding \u00a7 577.041.1 was violated when a driver was only given 18 minutes to attempt to contact an attorney and the director did not establish the driver abandoned further efforts to contact an attorney"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/37/0405-01"
+      ]
+    },
+    {
+      "cite": "86 S.W.3d 177",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9309234,
+        9309283
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "180",
+          "parenthetical": "finding section 577.041.1 was violated when a driver was given only nine minutes to attempt to contact an attorney and the director did not establish the driver abandoned further attempts to contact an attorney"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/86/0177-01",
+        "/sw3d/86/0177-02"
+      ]
+    },
+    {
+      "cite": "99 S.W.3d 497",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9355660
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "501",
+          "parenthetical": "finding section 577.041.1 was violated when the Director did not establish a driver was given a full 20 minutes to attempt to contact an attorney"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/99/0497-01"
+      ]
+    },
+    {
+      "cite": "196 S.W.3d 648",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8409065,
+        8409084
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "653",
+          "parenthetical": "finding section 577.041.1 was violated when driver requested an attorney after receiving Miranda warning, but before being read the implied consent law, and then was not given 20 minutes to attempt to contact an attorney after being read the implied consent law"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/196/0648-01",
+        "/sw3d/196/0648-02"
+      ]
+    },
+    {
+      "cite": "2018 WL 1276969",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2018,
+      "opinion_index": 0
+    },
+    {
+      "cite": "528 S.W.2d 759",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10139147
+      ],
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "764"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/528/0759-01"
+      ]
+    },
+    {
+      "cite": "551 S.W.3d 468",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12657002
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "parenthetical": "reading \u00a7 374.730 and \u00a7 374.750 in pari materia because they were both related to bond agent licensing requirements"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/551/0468-01"
+      ]
+    },
+    {
+      "cite": "81 Mo. 574",
+      "category": "reporters:state",
+      "reporter": "Mo.",
+      "case_ids": [
+        425377
+      ],
+      "year": 1884,
+      "pin_cites": [
+        {
+          "page": "585"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mo/81/0574-01"
+      ]
+    },
+    {
+      "cite": "775 S.W.2d 251",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9996900
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "253",
+          "parenthetical": "quoting State v. Hayes , 81 Mo. 574, 585 (1884) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/775/0251-01"
+      ]
+    },
+    {
+      "cite": "372 U.S. 335",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1765333
+      ],
+      "weight": 3,
+      "year": 1963,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/372/0335-01"
+      ]
+    },
+    {
+      "cite": "147 Ariz. 453",
+      "category": "reporters:state",
+      "reporter": "Ariz.",
+      "case_ids": [
+        1470001
+      ],
+      "weight": 4,
+      "year": 1985,
+      "pin_cites": [
+        {
+          "parenthetical": "citing Gideon v. Wainright , 372 U.S. 335, 83 S.Ct. 792, 9 L.Ed.2d 799 (1963) "
+        },
+        {
+          "page": "595",
+          "parenthetical": "citing Gideon v. Wainright , 372 U.S. 335, 83 S.Ct. 792, 9 L.Ed.2d 799 (1963) "
+        },
+        {
+          "page": "594"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ariz/147/0453-01"
+      ]
+    },
+    {
+      "cite": "509 S.W.3d 84",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12370955
+      ],
+      "weight": 5,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "97"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/509/0084-01"
+      ]
+    },
+    {
+      "cite": "517 N.W.2d 640",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "case_ids": [
+        10596633
+      ],
+      "year": 1994,
+      "opinion_index": 0,
+      "case_paths": [
+        "/nw2d/517/0640-01"
+      ]
+    },
+    {
+      "cite": "896 S.W.2d 53",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9995753
+      ],
+      "weight": 11,
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "54"
+        },
+        {
+          "page": "55"
+        },
+        {
+          "page": "56"
+        },
+        {
+          "page": "55-56"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/896/0053-01"
+      ]
+    },
+    {
+      "cite": "19 S.W.3d 678",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9133889
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "682"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/19/0678-01"
+      ]
+    },
+    {
+      "cite": "128 S.W.3d 171",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9257511
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "175",
+          "parenthetical": "holding the only right \u00a7 577.041.1 conveys is the statutory right \"that twenty minutes be granted to attempt to contact an attorney\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/128/0171-01"
+      ]
+    },
+    {
+      "cite": "2 S.W.3d 875",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        11561429
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "881"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/2/0875-01"
+      ]
+    },
+    {
+      "cite": "71 S.W.3d 186",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9438668
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "189",
+          "parenthetical": "citing Habjan v. Earnest , 2 S.W.3d 875, 881 (Mo. App. 1999) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/71/0186-01"
+      ]
+    },
+    {
+      "cite": "361 S.W.3d 364",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7315926
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "378"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/361/0364-01"
+      ]
+    },
+    {
+      "cite": "833 S.W.2d 40",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9962830
+      ],
+      "weight": 2,
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "41",
+          "parenthetical": "explaining \"Missouri courts have held that an arrested person has no constitutional right to speak with an attorney prior to deciding whether or not to submit to a breathalyzer test\""
+        },
+        {
+          "page": "41"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/833/0040-01"
+      ]
+    },
+    {
+      "cite": "254 S.W.3d 871",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8229506
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "873",
+          "parenthetical": "\"When the statute's language is unambiguous, a court must give effect to the legislature's chosen language.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/254/0871-01"
+      ]
+    },
+    {
+      "cite": "918 S.W.2d 773",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10021662
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "777",
+          "parenthetical": "\"Where there is no ambiguity, we cannot look to any other rule of construction.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/918/0773-01"
+      ]
+    },
+    {
+      "cite": "311 S.W.3d 732",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7325862
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "735"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/311/0732-01"
+      ]
+    },
+    {
+      "cite": "366 S.W.3d 534",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7316048
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "540"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/366/0534-01"
+      ]
+    },
+    {
+      "cite": "391 S.W.3d 441",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7094852
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "446",
+          "parenthetical": "quoting State ex rel. Valentine v. Orr , 366 S.W.3d 534, 540 (Mo. banc 2012) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/391/0441-01"
+      ]
+    },
+    {
+      "cite": "278 S.W.3d 670",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8160967
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "672-73"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/278/0670-01"
+      ]
+    },
+    {
+      "cite": "566 S.W.3d 600",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12658770
+      ],
+      "weight": 3,
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "605-06",
+          "parenthetical": "citing Parktown Imps., Inc. v. Audi of Am., Inc. , 278 S.W.3d 670, 672-73 (Mo. banc 2009) "
+        },
+        {
+          "page": "608"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/566/0600-01"
+      ]
+    },
+    {
+      "cite": "269 S.W.3d 422",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8192015
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "430",
+          "parenthetical": "Wolff, J., concurring"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/269/0422-01"
+      ]
+    },
+    {
+      "cite": "318 S.W.3d 660",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7324233
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "667"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/318/0660-01"
+      ]
+    },
+    {
+      "cite": "545 S.W.3d 348",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12656305
+      ],
+      "weight": 2,
+      "year": 2018,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/545/0348-01"
+      ]
+    },
+    {
+      "cite": "386 S.W.3d 750",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7095919
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "754"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/386/0750-01"
+      ]
+    },
+    {
+      "cite": "452 S.W.3d 624",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6890065
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "626"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/452/0624-01"
+      ]
+    },
+    {
+      "cite": "477 S.W.3d 611",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6767773
+      ],
+      "weight": 3,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "615"
+        },
+        {
+          "page": "615"
+        },
+        {
+          "page": "639-40"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/477/0611-01"
+      ]
+    },
+    {
+      "cite": "184 S.W.3d 137",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8986432,
+        8986351
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "144",
+          "parenthetical": "\"When a driver has been arrested for driving while intoxicated, the completion in a timely fashion of a chemical test to determine the driver's blood alcohol content is imperative.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/184/0137-02",
+        "/sw3d/184/0137-01"
+      ]
+    },
+    {
+      "cite": "50 Misc.3d 803",
+      "category": "reporters:state",
+      "reporter": "Misc. 3d",
+      "case_ids": [
+        4067849
+      ],
+      "weight": 4,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "parenthetical": "\"Once afforded, if the right to counsel is to have any meaning, the communication between lawyer and client must be private.\""
+        },
+        {
+          "page": "719",
+          "parenthetical": "\"Once afforded, if the right to counsel is to have any meaning, the communication between lawyer and client must be private.\""
+        },
+        {
+          "page": "719"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/misc3d/50/0803-01"
+      ]
+    },
+    {
+      "cite": "682 P.2d 1128",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "case_ids": [
+        10426963
+      ],
+      "weight": 2,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "1130",
+          "parenthetical": "\"[T]he statutory right to contact and consult counsel requires reasonable efforts to assure that confidential communications will not be overheard....\""
+        },
+        {
+          "page": "1130"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/p2d/682/1128-01"
+      ]
+    },
+    {
+      "cite": "423 N.W.2d 146",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "case_ids": [
+        10661919
+      ],
+      "weight": 2,
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "146",
+          "parenthetical": "\"When an arrestee consults with counsel, he must be allowed to do so in a meaningful way. A consultation would be meaningless if relevant information could not be communicated without being overheard. There is a right to privacy inherent in the right to consult with counsel.\""
+        },
+        {
+          "page": "147"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nw2d/423/0146-01"
+      ]
+    },
+    {
+      "cite": "169 S.W.3d 921",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8938309
+      ],
+      "weight": 2,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "925"
+        },
+        {
+          "page": "926-27",
+          "parenthetical": "finding section 577.041.1 was violated when a law enforcement officer chose to try to call an attorney for a driver rather than allowing the driver himself 20 minutes to attempt to contact an attorney"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/169/0921-01"
+      ]
+    },
+    {
+      "cite": "255 S.W.3d 571",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8221228
+      ],
+      "weight": 6,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "580"
+        },
+        {
+          "page": "580"
+        },
+        {
+          "page": "578",
+          "parenthetical": "explaining \"section 577.041.1 does provide a limited statutory right to attempt to confer with an attorney\" before deciding whether to submit to a chemical breath test"
+        },
+        {
+          "page": "578",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "580"
+        },
+        {
+          "page": "579-80",
+          "parenthetical": "finding section 577.041.1 was violated when a driver requested an attorney and was not given \"the full twenty minutes\" to contact an attorney"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/255/0571-01"
+      ]
+    },
+    {
+      "cite": "193 S.W.3d 325",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8415271
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "329"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/193/0325-01"
+      ]
+    },
+    {
+      "cite": "378 S.W.3d 432",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7123905
+      ],
+      "weight": 2,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "438",
+          "parenthetical": "\"[T]he driver is entitled to only twenty minutes to attempt to contact and speak to a lawyer.\" (Emphasis added) (quoting Akers v. Dir. of Revenue , 193 S.W.3d 325, 329 (Mo. App. 2006) )"
+        },
+        {
+          "page": "441",
+          "parenthetical": "\"Failing to comply with those statutory safeguards brings into question the 'unequivocal voluntariness' of the driver's decision to refuse or consent to a blood test, thereby constituting prejudice to the driver.\" (footnote omitted)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/378/0432-01"
+      ]
+    },
+    {
+      "cite": "304 S.W.3d 724",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7301404
+      ],
+      "weight": 8,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "726"
+        },
+        {
+          "page": "725"
+        },
+        {
+          "page": "726-27"
+        },
+        {
+          "page": "726"
+        },
+        {
+          "page": "726"
+        },
+        {
+          "page": "727",
+          "parenthetical": "finding section 577.041.1 was violated when a driver requested an attorney and was not given 20 minutes to attempt to contact an attorney after being informed of the implied consent law"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/304/0724-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1196,
+    "char_count": 35830,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2651027144825818
+    },
+    "sha256": "8bdf3fd64ab01fadc64405c2ca9370c1587b337c59eb4673f392359d8ce3ccdc",
+    "simhash": "1:0fac3e1774bd179e",
+    "word_count": 5812
+  },
+  "last_updated": "2024-02-27T16:12:26.815586+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jereme ROESING, Appellant,\nv.\nDIRECTOR OF REVENUE, Respondent."
+    ],
+    "opinions": [
+      {
+        "text": "Mary R. Russell, Judge\nFollowing Jereme Roesing's refusal to submit to a chemical test, the director of revenue revoked his driving privileges for one year pursuant to section 577.041.1. Roesing filed a petition for review of his driver's license revocation with the circuit court, which entered a judgment sustaining the revocation. He appealed, arguing that his refusal to consent to a chemical test was not voluntary and unequivocal under section 577.041.1 because law enforcement deprived him of his statutory right to counsel by listening to and making audio and video recordings of his end of the conversation with his attorney. Because law enforcement deprived Roesing of his right to confer privately with his attorney, and the director failed to show that Roesing was not prejudiced, his refusal to consent to the chemical test was not voluntary and unequivocal under section 577.041. The circuit court erred in sustaining the revocation of Roesing's driving privileges. The judgment is reversed, and the case is remanded.\nBackground\nRoesing was arrested for driving while intoxicated and transported to the police department, where an officer read him the implied consent law. Roesing requested to call an attorney and was successful in contacting one. Approximately one minute into the call, Roesing handed the telephone to the officer, and the attorney told the officer he wished to speak with Roesing in private. The officer replied that it might be possible to arrange for the conversation to occur in another room, but it would be audio and video recorded. The officer returned the telephone to Roesing. Roesing's conversation with the attorney continued in the officer's presence and was audio and video recorded. The officer stood approximately three feet from Roesing and could hear Roesing's end of the conversation. After 20 minutes had passed and the conversation had ended, the officer again read Roesing the implied consent law, and Roesing refused to submit to a chemical test.\nThe director revoked Roesing's driving privileges for one year pursuant to section 577.041.1. Roesing filed a petition with the circuit court for review of his driver's license revocation pursuant to section 577.041.4. Following an evidentiary hearing, the circuit court entered judgment sustaining the revocation of Roesing's driving privileges. Roesing appealed.\nAnalysis\nThis case presents the question whether the right to attempt to contact an attorney pursuant to section 577.041.1 includes the right to speak to the attorney privately, should the attorney be contacted successfully.\nSection 577.041.1 provides, in pertinent part:\nIf a person when requested to submit to any test allowed ... requests to speak to an attorney, the person shall be granted twenty minutes in which to attempt to contact an attorney. If upon the completion of the twenty-minute period the person continues to refuse to submit to any test, it shall be deemed a refusal. In this event, the officer shall, on behalf of the director of revenue, serve the notice of license revocation personally upon the person and shall take possession of any license to operate a motor vehicle.\n(Emphasis added). Section 577.041.1 provides a driver who wishes to speak with an attorney with the right, upon request, to attempt to contact a lawyer during a 20-minute period. Norris v. Dir. of Revenue , 304 S.W.3d 724, 726 (Mo. banc 2010) ; see also Riley v. Dir. of Revenue , 378 S.W.3d 432, 438 (Mo. App. 2012) (\"[T]he driver is entitled to only twenty minutes to attempt to contact and speak to a lawyer.\" (Emphasis added) (quoting Akers v. Dir. of Revenue , 193 S.W.3d 325, 329 (Mo. App. 2006) )).\nWhether section 577.041.1's right \"to attempt to contact an attorney\" is violated when the driver successfully contacts an attorney, but is then denied the right to speak with the attorney privately , is an issue of first impression for this Court. Legal questions of statutory interpretation are reviewed de novo. Norris , 304 S.W.3d at 725.\nSection 577.041.1's purpose is \"to provide the driver with a reasonable opportunity to contact an attorney to make an informed decision as to whether to submit to a chemical test.\" Id. at 726-27. Any refusal to take the test must be \"voluntary and unequivocal.\" White v. Dir. of Revenue , 255 S.W.3d 571, 580 (Mo. App. 2008). When a driver conditions a refusal on consulting with an attorney, but is not given a reasonable opportunity to do so , the driver is not deemed to have refused to submit to a chemical test for purposes of license revocation. Kotar v. Dir. of Revenue , 169 S.W.3d 921, 925 (Mo. App. 2005).\nRoesing argues he was not given a reasonable opportunity to consult with counsel to make an informed decision whether to submit to a chemical test because law enforcement listened to and recorded his conversation with his attorney. Roesing asserts he had a statutory right to speak with his attorney privately pursuant to section 577.041.1. In response, the director argues section 577.041.1 contains only the right to attempt to contact an attorney and does not guarantee an opportunity to speak with an attorney, much less the right to a private consultation. According to the director, section 577.041.1's purpose is satisfied so long as the driver is provided with 20 minutes to attempt to contact an attorney.\nBut the director's interpretation contradicts section 577.041.1's purpose by hampering the driver's ability to have meaningful contact with an attorney for advice in making an informed decision of whether to submit to a chemical test. A driver who successfully contacts an attorney is afforded a reasonable opportunity to contact an attorney to make an informed decision only if the driver is able to candidly disclose all necessary information to receive appropriate advice from the attorney. A driver is not free to speak candidly with his attorney regarding potentially incriminating evidence when there is a possibility that anything said can be shared with the prosecuting attorney who will decide whether to bring criminal charges. The legislature could not have logically intended that section 577.041.1 requires nothing more than allowing a driver 20 minutes to attempt to contact an attorney. For a driver to have meaningful contact with an attorney, the conversation must be private.\nThis interpretation is further supported by the courts of other states, which have emphasized that privacy is inherent in a driver's right to consult with counsel to make an informed decision regarding whether to submit to a chemical test. See Bickler v. N.D. State Highway Comm'r , 423 N.W.2d 146, 146 (N.D. 1988) (\"When an arrestee consults with counsel, he must be allowed to do so in a meaningful way. A consultation would be meaningless if relevant information could not be communicated without being overheard. There is a right to privacy inherent in the right to consult with counsel.\"); Holland , 711 P.2d at 594 (Ariz. 1985) (\"[I]t is universally accepted that effective representation is not possible without the right of a defendant to confer in private with his counsel.\"); Farrell v. Municipality of Anchorage , 682 P.2d 1128, 1130 (Alaska Ct. App. 1984) (\"[T]he statutory right to contact and consult counsel requires reasonable efforts to assure that confidential communications will not be overheard....\"); People v. Moffitt , 50 Misc.3d 803, 19 N.Y.S.3d 713, 719 (N.Y. Crim. Ct. 2015) (\"Once afforded, if the right to counsel is to have any meaning, the communication between lawyer and client must be private.\").\nPrivacy is inherent in a driver's statutory right to counsel. To interpret section 577.041.1 otherwise would contradict section 577.041.1's purpose of providing drivers with a reasonable opportunity to have a meaningful contact with an attorney in order to decide whether to submit to a chemical test and, accordingly, would create absurd results.\nIn addition, section 577.041.1's right to speak privately with an attorney does not interfere with the State's important goal of obtaining a timely, accurate, and valid chemical test. See Rogers v. Dir. of Revenue , 184 S.W.3d 137, 144 (Mo. App. 2006) (\"When a driver has been arrested for driving while intoxicated, the completion in a timely fashion of a chemical test to determine the driver's blood alcohol content is imperative.\"). A driver's right to privacy in speaking with his attorney is consistent with the Code of State Regulations' required 15-minute observation period prior to the administration of chemical testing. During the 15-minute observation period \"the operator shall remain close enough to a subject to reasonably ensure, using the senses of sight, hearing, or smell , that a test subject does not smoke, vomit, or have any oral intake.... Direct observation is not necessary to ensure the validity or accuracy of the test result.\" 19 CSR 25-30.011(2)(H) (emphasis added).\nAccordingly, an officer need not stand close enough to hear a driver's conversation to ensure the validity or accuracy of test results. Because 19 CSR 25-30.011(2)(H) requires only a 15-minute observation period, it was not necessary for the officer to be near Roesing during the first five minutes of the 20-minute time period after Roesing was read the implied consent law. After the first five minutes passed, the officer should have positioned himself in a way that allowed him to visually observe Roesing to ensure the validity of Roesing's test results in accordance with 19 CSR 25-30.011(2)(H) while also ensuring Roesing's conversation remained private in accordance with section 577.041.1.\nSection 600.048.3 further compels the conclusion that privacy is inherent in section 577.041.1. In interpreting the meaning of section 577.041.1, the primary rule of statutory interpretation is to give effect to legislative intent in the plain language of the statute. Stiers v. Dir. of Revenue , 477 S.W.3d 611, 615 (Mo. banc 2016). But if the plain language of a statute leads to an illogical or absurd result that defeats the purpose of the legislation, rules of statutory construction are employed. Ben Hur Steel Worx, LLC v. Dir. of Revenue , 452 S.W.3d 624, 626 (Mo. banc 2015). Because section 577.041.1's purpose would be defeated if privacy were not inherent in the statute's right to contact counsel, this Court employs the rules of statutory interpretation to further ascertain the legislature's intent. Under the doctrine of in pari materia , statutes relating to the same subject matter should be construed to achieve a harmonious interpretation. Williams v. State , 386 S.W.3d 750, 754 (Mo. banc 2012). Section 600.048.3 requires law enforcement to have a private room available for a person held under a charge \"to talk privately with his or her lawyer.\" State ex rel. Healea v. Tucker , 545 S.W.3d 348, 352 n.2 (Mo. banc 2018).\nThe facts of this case are also within the ambit of section 600.048.3, as Roesing spoke with his attorney while being held at the police station after being arrested for driving while intoxicated. Section 600.048.3 was effective in 1982, nine years before the legislature amended section 577.041.1 to include the right to attempt to contact an attorney. \"It is presumed that the General Assembly legislates with knowledge of existing laws.\" Turner v. Sch. Dist. of Clayton , 318 S.W.3d 660, 667 (Mo. banc 2010). Consequently, the legislature's decision not to eliminate the right to privacy when it amended section 577.041 to include the right to attempt to contact and speak with an attorney further indicates the right is inherent in that statute.\nBy listening to and recording Roesing's end of the conversation, law enforcement obstructed his opportunity to speak privately with his attorney to make an informed decision as to whether to refuse the chemical test pursuant to section 577.041.1. Because Roesing's section 577.041.1 right to counsel was violated, his refusal of the chemical test was not voluntary and unequivocal.\nTo warrant relief, Roesing must have been prejudiced as a result of the officer's failure to comply with section 577.041.1. Norris , 304 S.W.3d at 726 ; White , 255 S.W.3d at 580. The burden is on the director to prove the driver was not prejudiced. Norris , 304 S.W.3d at 726. The officer stood approximately three feet from Roesing and testified he was able to hear Roesing's end of the conversation. The conversation was also audio and video recorded, despite Roesing's attorney specifically requesting privacy. The audio and video recordings were distributed to the prosecuting attorney's office for use in Roesing's criminal case. Roesing was deprived of a meaningful consultation with his attorney and was discouraged to speak candidly. Under these circumstances, the director failed to show Roesing was not prejudiced by being denied his statutory right to a reasonable opportunity to contact an attorney. See Norris , 304 S.W.3d at 727 ; Riley , 378 S.W.3d at 441 (\"Failing to comply with those statutory safeguards brings into question the 'unequivocal voluntariness' of the driver's decision to refuse or consent to a blood test, thereby constituting prejudice to the driver.\" (footnote omitted)).\nConclusion\nBecause law enforcement deprived Roesing of his right to confer privately with his attorney, and the director failed to show that Roesing was not prejudiced, Roesing's refusal to consent to the chemical test was not voluntary and unequivocal under section 577.041. The circuit court erred in sustaining the revocation of Roesing's driving privileges. The judgment is reversed, and the case is remanded.\nBreckenridge, Draper, and Stith, JJ., concur; Powell, J., dissents in separate opinion; Fischer, C.J., and Wilson, J., concur in opinion of Powell, J.\nDISSENTING OPINION\nW. Brent Powell, Judge\nI respectfully dissent. Section 577.041 confers no right to privately consult with an attorney before deciding whether to refuse a chemical breath test. Because the plain language of \u00a7 577.041.1 confers only the right to \"twenty minutes in which to attempt to contact an attorney,\" and Roesing received the benefit of that right, I would affirm the circuit court's judgment sustaining the revocation of Roesing's driving privileges.\nThis Court's role is to declare the law, not to make it. See State v. Freeman , 269 S.W.3d 422, 430 (Mo. banc 2008) (Wolff, J., concurring). The principal opinion encroaches on the general assembly's legislative authority by reading a right to private consultation into \u00a7 577.041.1 that the plain text of the statute does not confer. As the principal opinion notes, \"the primary rule of statutory interpretation is to give effect to legislative intent in the plain language of the statute.\" O p. at 639 (citing Stiers v. Dir. of Revenue , 477 S.W.3d 611, 615 (Mo. banc 2016) ). But after articulating this fundamental principle, the principal opinion proceeds to employ canons of statutory construction to reach a conclusion beyond the plain language of \u00a7 577.041.1. Id. at 639-40.\n\"[I]f applied 'haphazardly or indiscriminately,' the canons of statutory interpretation can lead to a problematic 'result-oriented jurisprudence.' \" State ex rel. Hillman v. Beger , 566 S.W.3d 600, 605-06 (Mo. banc 2019) (citing Parktown Imps., Inc. v. Audi of Am., Inc. , 278 S.W.3d 670, 672-73 (Mo. banc 2009) ). When this Court can ascertain the meaning of a statute from its plain text, there is no need to resort to canons of statutory construction because, \" '[w]hen the words are clear, there is nothing to construe beyond applying the plain meaning of the law.' \" Bateman v. Rinehart , 391 S.W.3d 441, 446 (Mo. banc 2013) (quoting State ex rel. Valentine v. Orr , 366 S.W.3d 534, 540 (Mo. banc 2012) ). Indeed, this Court must \"refrain from applying rules of construction unless there is some ambiguity\" in the statute. Ross v. Dir. of Revenue , 311 S.W.3d 732, 735 (Mo. banc 2010) ; Bosworth v. Sewell , 918 S.W.2d 773, 777 (Mo. banc 1996) (\"Where there is no ambiguity, we cannot look to any other rule of construction.\").\nSection 577.041 is a civil statute governing chemical breath tests administered to drivers suspected of impaired driving. The statute states, in pertinent part, \"If a person when requested to submit to any test allowed pursuant to section 577.020 requests to speak to an attorney, the person shall be granted twenty minutes in which to attempt to contact an attorney .\" \u00a7 577.041.1 (emphasis added). It is clear from the plain language of this provision that \u00a7 577.041.1 confers no right to private consultation with an attorney. Indeed, as it clearly states, the statute provides nothing more than the right to \"twenty minutes in which to attempt to contact an attorney.\" \u00a7 577.041.1; see also State ex rel. Young v. Wood , 254 S.W.3d 871, 873 (Mo. banc 2008) (\"When the statute's language is unambiguous, a court must give effect to the legislature's chosen language.\").\nSignificantly, this Court has never recognized a constitutional right to counsel in license revocation cases. See Albrecht v. Dir. of Revenue , 833 S.W.2d 40, 41 (Mo. App. 1992) (explaining \"Missouri courts have held that an arrested person has no constitutional right to speak with an attorney prior to deciding whether or not to submit to a breathalyzer test\"). Nor has the legislature created a statutory right to counsel. Rather, the legislature created, and Missouri precedent recognizes, only the statutory right to \"twenty minutes in which to attempt to contact an attorney\" pursuant to \u00a7 577.041.1. White v. Dir. of Revenue , 255 S.W.3d 571, 578 (Mo. App. 2008) (explaining \"section 577.041.1 does provide a limited statutory right to attempt to confer with an attorney\" before deciding whether to submit to a chemical breath test).\nAs to the extent of the statutory right conveyed by \u00a7 577.041.1, the general assembly has nearly unfettered \"power to define the right it has created.\" Estate of Overby v. Chad Franklin Nat'l Auto Sales N., LLC , 361 S.W.3d 364, 378 (Mo. banc 2012). When courts can clearly discern the legislature's intent \"by giving the language employed in the statute its plain and ordinary meaning,\" courts have no authority to read a contrary intent into the statute. Pavlica v. Dir. of Revenue , 71 S.W.3d 186, 189 (Mo. App. 2002) (citing Habjan v. Earnest , 2 S.W.3d 875, 881 (Mo. App. 1999) ). \"The purpose of [\u00a7 577.041.1] is to provide a person with a reasonable opportunity to contact an attorney to make an informed decision as to whether to submit to a chemical test.\" White , 255 S.W.3d at 578 (emphasis added); see also Christensen v. Dir. of Revenue , 128 S.W.3d 171, 175 (Mo. App. 2004) (holding the only right \u00a7 577.041.1 conveys is the statutory right \"that twenty minutes be granted to attempt to contact an attorney\"). Because the legislature's intent is clear from the plain language of \u00a7 577.041.1, this statute should not be read to provide any more than the right to \"twenty minutes in which to attempt to contact an attorney.\" \u00a7 577.041.1.\nIn enacting \u00a7 577.041.1, the general assembly elected to stop short of creating a statutory right to counsel. Instead, it balanced important policy considerations and created a limited statutory right to attempt to contact an attorney before deciding whether to submit to a chemical breath test. This Court must defer to the general assembly's determinations of public policy. Budding v. SSM Healthcare Sys. , 19 S.W.3d 678, 682 (Mo. banc 2000). Because Roesing had 20 minutes to attempt to contact an attorney, all of Roesing's statutory rights as provided by \u00a7 577.041.1 were satisfied, and the director's revocation of his driving privileges was valid.\nThis result is consistent with Missouri precedent. In Clardy v. Director of Revenue, 896 S.W.2d 53, 54 (Mo. App. 1995), a person arrested on suspicion of impaired driving was read the informed consent law and requested the opportunity to contact an attorney. The driver \"requested privacy, [and] that the officers move away from him so that they could not hear his conversation,\" as they \"were within arm[']s reach.\" Id. The driver's request for privacy was denied. Id. The driver thereafter refused to submit to a chemical test, and his license was revoked. Id. On appeal, the driver argued he \"was effectively denied his right to counsel under Missouri law.\" Id. Noting \"[t]here was no Missouri case on point,\" the court of appeals considered \" City of Mandan v. Jewett , 517 N.W.2d 640 (N.D. 1994) as being instructive.\" Clardy , 896 S.W.2d at 55. \"In Jewett , the officers were in the same room as the accused and testified they heard his end of the conversation.\" Id. Still, this alone was insufficient to hold Jewett's limited statutory right to attempt to contact counsel had been violated. Id. Clardy reached the same conclusion as Jewett and found, although the officers could have given Clardy more space while he was on the phone with his attorney, not doing so, all things considered, did not deprive him of the limited right conferred by \u00a7 577.041.1. Id. at 56.\nAn analogous result was reached in J.P.B. v. Greene County Juvenile Office , 509 S.W.3d 84 (Mo. banc 2017). In J.P.B. , this Court observed that a natural parent in a termination of parental rights proceeding has \"no constitutional right to counsel in this context but, pursuant to \u00a7 211.462.2, a natural parent has a statutory right to counsel in a termination of parental rights proceeding and, therefore, an implied right to effective assistance of counsel.\" Id. at 97. J.P.B.'s father argued his statutory right to counsel (and, therefore, the implied right to effective assistance of counsel) was denied because \"he was unable to have private conversations with his counsel during trial due to the presence of Department of Corrections personnel while Father communicated via videoconference.\" Id. This Court concluded \"a parent does not have to be able to communicate at all with counsel during trial, let alone confidentially, for counsel to be effective.\" Id. If private communications were not required to afford a natural parent all of his statutory rights in a termination of parental rights proceeding, where there is a right to counsel, see id. , there is no basis to conclude private communications are required to afford a driver the limited statutory right to attempt to contact counsel for the purpose of determining whether to submit to chemical breath testing.\nThe principal opinion relies on cases from other jurisdictions to support its conclusion that \u00a7 577.041.1 confers a right to private consultation, but those cases are distinguishable from the instant case. None of those cases come from states that have a statute providing the limited right to attempt to contact counsel before deciding whether to submit to a breath test. Rather, those cases found a right to private consultation either (1) because the statutes at issue textually conferred the right to communicate with counsel, see Bickler v. N.D. State Highway Comm'r , 423 N.W.2d 146, 147 (N.D. 1988), and Farrell v. Municipality of Anchorage , 682 P.2d 1128, 1130 (Alaska Ct. App. 1984), or (2) because the case was criminal, and the court's conclusion stemmed from the right to counsel attendant in criminal cases. See State v. Holland , 147 Ariz. 453, 711 P.2d 592, 595 (1985) (citing Gideon v. Wainright , 372 U.S. 335, 83 S.Ct. 792, 9 L.Ed.2d 799 (1963) ); People v. Moffitt , 50 Misc.3d 803, 19 N.Y.S.3d 713, 719 (N.Y. Crim. Ct. 2015).\nFinally, Roesing and the principal opinion contend reading a right to private consultation into \u00a7 577.041.1 is necessary to avoid an absurd result because \u00a7 600.048.3 \"requires law enforcement to have a private room available for a person held under a charge 'to talk privately with his or her lawyer.' \" O p. at 639 (citing State ex rel. Healea v. Tucker , 545 S.W.3d 348, 352 n.2 (Mo. banc 2018) ). But this is not the case. \"An absurdity is a result which is contrary to reason or which 'could not be attributed to a man in his right senses.' \" Tumlinson v. Norfolk & W. Ry. Co. , 775 S.W.2d 251, 253 (Mo. App. 1989) (quoting State v. Hayes , 81 Mo. 574, 585 (1884) ). Thus, the absurdity bar is a high one, to which this case does not rise. In Hillman , this Court found enforcing two facially unambiguous probation statutes together created an absurd result because doing so led to an impossible situation. 566 S.W.3d at 608. This Court explained:\nIt would be an absurd result if the legislature intended to require a probationer to pay full restitution as a mandatory condition of her probation under section 559.105.2 prior to the running of the original term of probation, while simultaneously mandating the probationer be discharged from probation as soon as she accrued sufficient ECCs, even though she had failed to pay her restitution obligation in full.\nId. Only because it was impossible to effectuate both statutes together did this Court find doing so led to an absurd result.\nBy contrast, it is not necessary in this case to simultaneously effectuate both \u00a7 577.041.1 and \u00a7 600.048.4. Pursuant to \u00a7 577.041.1, Roesing was provided 20 minutes to attempt to contact his attorney, he succeeded in contacting his attorney, and he discussed with his attorney whether he should refuse to submit to the breath test. The principal opinion contends \u00a7 577.041.1 must be read in pari materia with \u00a7 600.048.3. O p. at 639. Section 600.048.3, however, does not apply to this case because it requires private rooms be made available only for consultations with suspects \"held in custody under a charge or suspicion of a crime,\" or, in other words, when suspects have a recognized constitutional right to consult with counsel. \u00a7 600.048.3.\nHere, the right to consult with counsel has not attached, as \"Missouri courts have held that an arrested person has no constitutional right to speak with an attorney prior to deciding whether or not to submit to a breathalyzer test,\" and \u00a7 577.041.1 confers only the limited statutory right \"to attempt to contact an attorney\" before deciding whether to submit to the test. Albrecht , 833 S.W.2d at 41. As such, there is no constitutional or statutory right to consult with counsel attendant to this situation. Section 600.048.3, therefore, imposes no obligation to provide a private room for a person to confer with his or her attorney when deciding whether to submit to chemical breath testing. Accordingly, \u00a7 577.041.1 and \u00a7 600.048.3 are unrelated and need not be read in pari materia to avoid an absurd result. See State ex rel. Robinson v. Lindley-Meyers , 551 S.W.3d 468, 474 n.4 (Mo. banc 2018) (reading \u00a7 374.730 and \u00a7 374.750 in pari materia because they were both related to bond agent licensing requirements).\nFor these reasons, this Court should reject the temptation to expand the meaning of the statutory phrase \"twenty minutes in which to attempt to contact an attorney,\" which, before today's decision, was consistent with the plain language of \u00a7 577.041.1. Until today, Missouri courts have declined to read a right of private consultation into \u00a7 577.041.1, and the facts of this case do not justify departing from this precedent. Nor should this Court engage in judicial policymaking. The Court instead should constrain the rights conveyed by statute to the plain language enacted by the legislature. Roesing received the benefit of all statutory rights conferred to him by \u00a7 577.041.1 when law enforcement gave him 20 minutes to attempt to contact his attorney. Roesing's refusal to submit to chemical testing, therefore, was valid. Because Roesing refused to submit to chemical testing after having a reasonable opportunity to attempt to contact his attorney, the director lawfully suspended his driver's license pursuant to \u00a7 577.041.1. For these reasons, I respectfully dissent.\nAll statutory references are to RSMo Supp. 2013, unless otherwise specified.\nPursuant to section 577.020.1, any person who operates a vehicle in the state \"shall be deemed to have given consent to ... a chemical test or tests of the person's breath, blood, saliva, or urine for the purpose of determining the alcohol or drug content of the person's blood.\"\nSection 577.041.4 provides: \"If a person's license has been revoked because of the person's refusal to submit to a chemical test, such person may petition for a hearing.\" At the hearing, the circuit court shall determine \"[w]hether or not the person refused to submit to the test.\" Section 577.041.4(3). If the court determines this issue \"not to be in the affirmative, the court shall order the director to reinstate the license or permit to drive.\" Section 577.041.5.\nAfter an opinion by the court of appeals, this Court granted transfer. Mo. Const. art. V, sec. 10.\nRoesing does not make a constitutional argument. A driver does not have a constitutional right to consult with an attorney prior to deciding whether to submit to a chemical test. Spradling v. Deimeke , 528 S.W.2d 759, 764 (Mo. 1975).\nThe director's reliance on White is unhelpful. The issue in White was whether section 577.041.1 was violated when a driver requested to contact an attorney and was provided only seven minutes to do so. 255 S.W.3d at 580. Importantly, White did not discuss the issue in the instant case - whether section 577.041.1 is violated when a driver makes contact with an attorney yet is denied the opportunity to speak privately with that attorney.\nThe Arizona Supreme Court considered a number of topics the driver and attorney would be hesitant to discuss if they knew the conversation was not private, including: the amount the driver had to drink, the type of alcohol, the size of the drink, the amount of time that had passed since the driver last had a drink, what and when the driver last ate, whether the driver believed he was under the influence of alcohol either while driving or currently, and whether the driver believed the alcohol had affected his ability to drive. State v. Holland , 147 Ariz. 453, 711 P.2d 592, 594 (1985).\nThe 20-minute clock provided in section 577.041.1 begins to run after the driver is read the informed consent law. Norris , 304 S.W.3d at 726.\nIn Clardy v. Director of Revenue , the court of appeals, relying on the regulation, held that the driver's statutory right to counsel was not violated when the officer remained in the room during the driver's conversation with an attorney but did not hear the conversation. 896 S.W.2d 53, 55-56 (Mo. App. 1995). Clardy is distinguishable from the instant case because there was no evidence in Clardy that the driver's conversation with his attorney was overheard and, accordingly, no violation of his right to counsel. Id. Here, the officer was able to hear Roesing's end of the conversation, which hindered Roesing's ability to speak candidly with his attorney and could have tainted the advice his attorney provided him, resulting in Roesing's inability to make an informed decision regarding whether to submit to a chemical test.\nSection 600.048.3 provides:\nIt shall be the duty of every person in charge of a jail, police station, constable's or sheriff's office, or detention facility to make a room or place available therein where any person held in custody under a charge or suspicion of a crime will be able to talk privately with his or her lawyer , lawyer's representative, or any authorized person responding to a request for an interview concerning his or her right to counsel.\n(Emphasis added).\nThe dissenting opinion asserts that section 600.048.3 does not apply to this case. Section 600.048.3, however, pertains to \"any person held in custody under a charge or suspicion of a crime.\" (Emphasis added). Accordingly, section 600.048.3 is a statutory right that applies to drivers, like Roesing, who are held at a police station under suspicion of driving while intoxicated. Contrary to the dissenting opinion's assertion, section 600.048.3 is not limited to those situations in which a constitutional right to counsel attaches.\nAll statutory references are to RSMo Supp. 2013.\nThe principal opinion issued by the court of appeals in this case affirmed the circuit court's judgment with a thoughtful and comprehensive legal analysis. See Roesing v. Dir. of Revenue , WD80585, 2018 WL 1276969 (Mo. App. Mar. 13, 2018). Because the legal reasoning is sound, this separate opinion will borrow substantially from the court of appeals' principal opinion without further attribution.\nThe only Missouri cases that have found a violation of \u00a7 577.041.1 are consistent with this construction of the statute. See, e.g., Norris , 304 S.W.3d at 727 (finding section 577.041.1 was violated when a driver requested an attorney and was not given 20 minutes to attempt to contact an attorney after being informed of the implied consent law); White , 255 S.W.3d at 579-80 (finding section 577.041.1 was violated when a driver requested an attorney and was not given \"the full twenty minutes\" to contact an attorney); Schussler v. Fischer , 196 S.W.3d 648, 653 (Mo. App. 2006) (finding section 577.041.1 was violated when driver requested an attorney after receiving Miranda warning, but before being read the implied consent law, and then was not given 20 minutes to attempt to contact an attorney after being read the implied consent law); Kotar v. Dir. of Revenue , 169 S.W.3d 921, 926-27 (Mo. App. 2005) (finding section 577.041.1 was violated when a law enforcement officer chose to try to call an attorney for a driver rather than allowing the driver himself 20 minutes to attempt to contact an attorney); Bacandreas v. Dir. of Revenue , 99 S.W.3d 497, 501 (Mo. App. 2003) (finding section 577.041.1 was violated when the Director did not establish a driver was given a full 20 minutes to attempt to contact an attorney); Keim v. Dir. of Revenue , 86 S.W.3d 177, 180 (Mo. App. 2002) (finding section 577.041.1 was violated when a driver was given only nine minutes to attempt to contact an attorney and the director did not establish the driver abandoned further attempts to contact an attorney); Glastetter v. Dir. of Revenue , 37 S.W.3d 405, 407 - 408 (Mo. App. 2001) (finding \u00a7 577.041.1 was violated when a driver was only given 18 minutes to attempt to contact an attorney and the director did not establish the driver abandoned further efforts to contact an attorney).\nThe principal opinion attempts to distinguish Clardy by focusing on the fact there was no evidence in Clardy that any law enforcement officer overhead the driver's conversation with his attorney whereas, in this case, there was evidence that a law enforcement officer overheard Roesing's phone call with his attorney. O p. at 639 n.9. But, under the plain language of the statute, whether any officers overheard Roesing's conversation with his attorney is immaterial. The principal opinion's distinction, therefore, is one without a difference. Roesing's refusal to submit to chemical testing was valid so long as he received the statutory 20 minute period in which to attempt to contact an attorney.\nThe statute the North Dakota court found conferred a right to private consultation stated, in pertinent part, \"The accused in all cases must be taken before a magistrate without unnecessary delay, and any attorney at law entitled to practice in the courts of record of this state, at his request, may visit such person after his arrest.\" Kuntz v. State Highway Comm'r , 405 N.W.2d 285, 287 (N.D. 1987) (citing N.D. Cent. Code \u00a7 29-05-20 (1987)).\nThe relevant Alaska statute stated in pertinent part, \"Immediately after an arrest, a prisoner shall have the right to telephone or otherwise communicate with his attorney.\" Alaska Stat. \u00a7 12.25.150(b) (1984).",
+        "type": "majority",
+        "author": "Mary R. Russell, Judge"
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "Jereme ROESING, Appellant,\nv.\nDIRECTOR OF REVENUE, Respondent.\nNo. SC 97165\nSupreme Court of Missouri, en banc.\nOpinion issued April 30, 2019"
+  },
+  "file_name": "0634-01",
+  "first_page_order": 634,
+  "last_page_order": 645
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12215593,
+  "name": "Pope v. Bernard et al.",
+  "name_abbreviation": "Pope v. Bernard",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5032",
+  "first_page": "886",
+  "last_page": "886",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 886"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 71,
+    "ocr_confidence": 0.551,
+    "sha256": "d80dee86d6a69e17f038166b752fadbf1aefb892e5192d7b2ac6004e5ccd5fa7",
+    "simhash": "1:804825e15f04f736",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Pope v. Bernard et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5032.\nPope v. Bernard et al."
+  },
+  "file_name": "0886-10",
+  "first_page_order": 968,
+  "last_page_order": 968
+}

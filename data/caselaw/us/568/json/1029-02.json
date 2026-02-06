@@ -1,0 +1,59 @@
+{
+  "id": 12424276,
+  "name": "Gilbert v. Bangs",
+  "name_abbreviation": "Gilbert v. Bangs",
+  "decision_date": "2012-11-26",
+  "docket_number": "No. 12-392",
+  "first_page": "1029",
+  "last_page": "1029",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1029"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 64,
+    "ocr_confidence": 0.743,
+    "sha256": "983d87fa289b12ec1c5995ef27ed6ff08a98b70f8d6f84c4b1dc56a055db9e54",
+    "simhash": "1:b7800278ca01b100",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gilbert v. Bangs."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-392.\nGilbert v. Bangs."
+  },
+  "file_name": "1029-02",
+  "first_page_order": 1105,
+  "last_page_order": 1105
+}

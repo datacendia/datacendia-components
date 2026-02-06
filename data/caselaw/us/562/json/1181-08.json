@@ -1,0 +1,59 @@
+{
+  "id": 5997118,
+  "name": "Dozal-Vargas v. United States",
+  "name_abbreviation": "Dozal-Vargas v. United States",
+  "decision_date": "2011-01-18",
+  "docket_number": "No. 10-5438",
+  "first_page": "1181",
+  "last_page": "1181",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1181"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 78,
+    "ocr_confidence": 0.597,
+    "sha256": "93d47c8ded7c5c9428b9e2a16c3cb714c8622a80ba917ba37714016a095a700a",
+    "simhash": "1:860893020884bc4b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dozal-Vargas v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5438.\nDozal-Vargas v. United States."
+  },
+  "file_name": "1181-08",
+  "first_page_order": 1203,
+  "last_page_order": 1203
+}

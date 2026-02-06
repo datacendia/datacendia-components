@@ -1,0 +1,59 @@
+{
+  "id": 12411246,
+  "name": "Rhodes v. Judiscak",
+  "name_abbreviation": "Rhodes v. Judiscak",
+  "decision_date": "2012-06-25",
+  "docket_number": "No. 11-1177",
+  "first_page": "935",
+  "last_page": "935",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 935"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 69,
+    "ocr_confidence": 0.679,
+    "sha256": "5a7d87d12962650ad31257c8102d25cbb667a04166b6626208ccac57b93fb79d",
+    "simhash": "1:93b509fb9df6f4ba",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rhodes v. Judiscak."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1177.\nRhodes v. Judiscak."
+  },
+  "file_name": "0935-07",
+  "first_page_order": 839,
+  "last_page_order": 839
+}

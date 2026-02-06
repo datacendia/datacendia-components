@@ -1,0 +1,59 @@
+{
+  "id": 5929265,
+  "name": "In re Ismail; and In re Harmon",
+  "name_abbreviation": "In re Ismail",
+  "decision_date": "2011-06-27",
+  "docket_number": "No. 10-10822; No. 10-10843",
+  "first_page": "1035",
+  "last_page": "1035",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1035"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 105,
+    "ocr_confidence": 0.519,
+    "sha256": "2c37b6db29bb6c5ed30ca3b588dcdb5a17ef5ddb5192fe57b10483100706fd07",
+    "simhash": "1:4498b093142dcc04",
+    "word_count": 18
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Ismail; and In re Harmon."
+    ],
+    "opinions": [
+      {
+        "text": "Petitions for writs of habeas corpus denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10822.\nNo. 10-10843.\nIn re Ismail; and In re Harmon."
+  },
+  "file_name": "1035-04",
+  "first_page_order": 1029,
+  "last_page_order": 1029
+}

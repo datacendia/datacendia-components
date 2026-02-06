@@ -1,0 +1,59 @@
+{
+  "id": 5940763,
+  "name": "Cowan v. California",
+  "name_abbreviation": "Cowan v. California",
+  "decision_date": "2011-03-28",
+  "docket_number": "No. 10-7975",
+  "first_page": "905",
+  "last_page": "905",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 905"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 67,
+    "ocr_confidence": 0.595,
+    "sha256": "5371de8bc616a5b3e9acbc6a71c7f34942a0ca708366e2c1c2f1896d076b2eaf",
+    "simhash": "1:9e6b91768e5e196b",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cowan v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Cal. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7975.\nCowan v. California."
+  },
+  "file_name": "0905-09",
+  "first_page_order": 931,
+  "last_page_order": 931
+}

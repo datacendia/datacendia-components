@@ -1,0 +1,638 @@
+{
+  "id": 12521133,
+  "name": "SUNPREME INC., Plaintiff-Appellant v. UNITED STATES, SolarWorld Americas, Inc., Defendants-Cross-Appellants",
+  "name_abbreviation": "Sunpreme Inc. v. United States",
+  "decision_date": "2019-05-16",
+  "docket_number": "2018-1116; 2018-1117; 2018-1118",
+  "first_page": "1198",
+  "last_page": "1220",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "924 F.3d 1198"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Fed. Cir.",
+    "id": 8955,
+    "name": "United States Court of Appeals for the Federal Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "19 U.S.C. \u00a7 1677",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(9)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "19 C.F.R. \u00a7 159.1",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "19 C.F.R. \u00a7 165.16",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "pin_cites": [
+        {
+          "parenthetical": "in the context of investigating claims of evasion of antidumping and countervailing duties, requiring referrals to Commerce in certain circumstances"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "19 U.S.C. \u00a7 1500",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "(c)"
+        },
+        {
+          "page": "(c)"
+        },
+        {
+          "page": "(c)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "669 F.2d 692",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        6091368,
+        1161571
+      ],
+      "year": 1982,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ccpa/69/0061-01",
+        "/f2d/669/0692-01"
+      ]
+    },
+    {
+      "cite": "507 F. Supp. 1007",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        6097003,
+        5555126
+      ],
+      "year": 1980,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ct-intl-trade/1/0080-01",
+        "/f-supp/507/1007-01"
+      ]
+    },
+    {
+      "cite": "44 F.3d 973",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7415547
+      ],
+      "weight": 4,
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "977"
+        },
+        {
+          "page": "977"
+        },
+        {
+          "page": "977"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/44/0973-01"
+      ]
+    },
+    {
+      "cite": "284 F.3d 1261",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9509933
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "1269"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/284/1261-01"
+      ]
+    },
+    {
+      "cite": "296 F.3d 1087",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9406448
+      ],
+      "weight": 5,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "1097"
+        },
+        {
+          "page": "1089"
+        },
+        {
+          "page": "1095"
+        },
+        {
+          "page": "1095, 1098"
+        },
+        {
+          "page": "1089"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/296/1087-01"
+      ]
+    },
+    {
+      "cite": "725 F.3d 1295",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4071377
+      ],
+      "weight": 5,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "1302"
+        },
+        {
+          "page": "1301",
+          "parenthetical": "emphasis omitted"
+        },
+        {
+          "page": "1300"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/725/1295-01"
+      ]
+    },
+    {
+      "cite": "305 U.S. 197",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6139848
+      ],
+      "weight": 4,
+      "year": 1938,
+      "pin_cites": [
+        {
+          "page": "217"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/305/0197-01"
+      ]
+    },
+    {
+      "cite": "164 F.3d 596",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1381217
+      ],
+      "weight": 6,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "600"
+        },
+        {
+          "page": "600",
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/164/0596-01"
+      ]
+    },
+    {
+      "cite": "674 F.3d 1343",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6049389
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "1348",
+          "parenthetical": "quoting Sandvik Steel Co. v. United States , 164 F.3d 596, 600 (Fed. Cir. 1998) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/674/1343-01"
+      ]
+    },
+    {
+      "cite": "744 F.2d 1556",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        598831
+      ],
+      "year": 1984,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/744/1556-01"
+      ]
+    },
+    {
+      "cite": "802 F.3d 1339",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4341667
+      ],
+      "weight": 4,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1348"
+        },
+        {
+          "page": "1348"
+        },
+        {
+          "page": "1348"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/802/1339-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1295",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(5)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "256 F. Supp. 3d 1265",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "case_ids": [
+        12273888
+      ],
+      "weight": 5,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1278, 1292, 1294"
+        },
+        {
+          "page": "1278-91"
+        },
+        {
+          "page": "1291-94"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-3d/256/1265-01"
+      ]
+    },
+    {
+      "cite": "776 F.3d 1351",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6892970
+      ],
+      "weight": 3,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1354"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/776/1351-01"
+      ]
+    },
+    {
+      "cite": "19 C.F.R. \u00a7 351.225",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 14,
+      "pin_cites": [
+        {
+          "page": "(k)"
+        },
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(k)(1)"
+        },
+        {
+          "page": "(k)(2)"
+        },
+        {
+          "page": "(l)(3)"
+        },
+        {
+          "page": "(b)"
+        },
+        {
+          "page": "(l)(1)"
+        },
+        {
+          "page": "(l)(1)"
+        },
+        {
+          "page": "(l)(3)"
+        },
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "467 F.3d 1324",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3805098
+      ],
+      "weight": 2,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "1327"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/467/1324-01"
+      ]
+    },
+    {
+      "cite": "892 F.3d 1186",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12517187
+      ],
+      "weight": 6,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1192-94",
+          "parenthetical": "\" Section 1581(i"
+        },
+        {
+          "page": "1192",
+          "parenthetical": "stating that the parties dispute the scope and application of the Orders"
+        },
+        {
+          "page": "1192"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/892/1186-01"
+      ]
+    },
+    {
+      "cite": "289 F.3d 792",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9435676
+      ],
+      "weight": 15,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "794"
+        },
+        {
+          "page": "794"
+        },
+        {
+          "page": "795"
+        },
+        {
+          "page": "795"
+        },
+        {
+          "page": "794"
+        },
+        {
+          "page": "794",
+          "parenthetical": "\"When merchandise may be subject to an antidumping duty order, Customs makes factual findings to ascertain what the merchandise is, and whether it is described in an order.\""
+        },
+        {
+          "page": "795"
+        },
+        {
+          "page": "793-95"
+        },
+        {
+          "page": "795"
+        },
+        {
+          "page": "794"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/289/0792-01"
+      ]
+    },
+    {
+      "cite": "737 F.3d 1338",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3732459
+      ],
+      "weight": 7,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "1340-41"
+        },
+        {
+          "page": "1344"
+        },
+        {
+          "page": "1344",
+          "parenthetical": "\"Importers cannot circumvent antidumping orders by contending that their products are outside the scope of existing orders when such orders are clear as to their scope. Our precedent evinces this understanding.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/737/1338-01"
+      ]
+    },
+    {
+      "cite": "145 F. Supp. 3d 1271",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "case_ids": [
+        4263512
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1282",
+          "parenthetical": "opinion granting preliminary injunction"
+        },
+        {
+          "page": "1283-92"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-3d/145/1271-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1581",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(i)"
+        },
+        {
+          "page": "(i)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "190 F. Supp. 3d 1185",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "case_ids": [
+        12140170
+      ],
+      "weight": 5,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1191-92, 1199"
+        },
+        {
+          "page": "1191, 1195-96"
+        },
+        {
+          "page": "1190, 1195, 1200"
+        },
+        {
+          "page": "1203"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-3d/190/1185-01"
+      ]
+    },
+    {
+      "cite": "77 Fed. Reg. 73,018",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "weight": 2,
+      "year": 2012,
+      "opinion_index": 0
+    },
+    {
+      "cite": "77 Fed. Reg. 73,017",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "year": 2012,
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1698,
+    "char_count": 71386,
+    "pagerank": {
+      "raw": 7.935490221578448e-08,
+      "percentile": 0.4620149668957534
+    },
+    "sha256": "6beb50c2a95e593954f6ae8ebc5b2631f432aecde86ea04c7245337c2ce99542",
+    "simhash": "1:b3aeb3cee7999ed7",
+    "word_count": 11207
+  },
+  "last_updated": "2024-02-27T18:46:58.656971+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Prost, Chief Judge, Lourie and Clevenger, Circuit Judges."
+    ],
+    "parties": [
+      "SUNPREME INC., Plaintiff-Appellant\nv.\nUNITED STATES, SolarWorld Americas, Inc., Defendants-Cross-Appellants"
+    ],
+    "opinions": [
+      {
+        "text": "Opinion dissenting-in-part filed by Chief Judge Prost.\nClevenger, Circuit Judge.\nSunpreme Inc. appeals from the final decision of the United States Court of International Trade in favor of the United States and SolarWorld Americas, Inc., concluding that Sunpreme's solar modules are covered by the scope of antidumping and countervailing duty orders on U.S. imports of certain solar cells from the People's Republic of China. The United States and SolarWorld cross-appeal from the same decision, which also concluded that Commerce could not instruct United States Customs and Border Protection to continue suspending liquidation of Sunpreme's solar modules entered or withdrawn from warehouse for consumption before the scope inquiry was initiated. Because we agree with the Court of International Trade that Commerce's final scope ruling is supported by substantial evidence and that Commerce cannot continue a suspension of liquidation that Customs lacked authority to implement in the first place, we affirm.\nBACKGROUND\nI\nSolar modules convert sunlight into electricity. Many solar modules are composed of crystalline silicon photovoltaic (\"CSPV\") cells. Those modules contain crystalline silicon wafers that are processed in the presence of other chemicals so that one portion of the wafer has a negative charge (i.e. , an n-type layer with excess electrons) and another portion has a positive charge (i.e. , a p-type layer with excess electron holes). The existence of the positive and negative layers in a single wafer creates what is known in the industry as a \"p/n junction.\" J.A. 325, 466, 546, 2719. A built-in electric field is created at and around the site of the p/n junction due to the electric charge differential. When sunlight strikes a CSPV cell, the light energy is absorbed, free electrons in the n-type layer attempt to unite with holes in the p-type layer at and around the p/n junction, and the resulting energy generated by the mobilized electrons is translated into usable electricity.\nOther solar modules are composed of thin films. Those modules contain very slim layers of semiconductor material, such as amorphous silicon, deposited on a substrate of some sort, such as glass, stainless steel, or plastic. Some of the layers are doped with chemicals that create an excess of electron-donating impurities (i.e. , n-type layers), while other layers are doped with chemicals that create an excess of hole-donating impurities (i.e. , p-type layers). When the n-type and p-type layers are put in contact, they form a p/n junction, and a built-in electric field is created. The imposition of an additional semiconductor substrate (i.e. , intrinsic layer) between the doped thin film layers forms what is known as a \"p/i/n junction.\" J.A. 531, 546. With respect to p/i/n junctions, the electric field extends across the entire intrinsic region.\nIn 2011, SolarWorld filed a petition with the United States Department of Commerce (\"Commerce\") and the United States International Trade Commission (\"ITC\") seeking the imposition of antidumping and countervailing duties on CSPV cells imported from the People's Republic of China, pursuant to \u00a7\u00a7 701 and 731 of the Tariff Act of 1930. In 2012, following an investigation, Commerce issued antidumping and countervailing duty orders covering those imports. Crystalline Silicon Photovoltaic Cells, Whether or Not Assembled Into Modules, From the People's Republic of China: Countervailing Duty Order (\"CVD Order\"), 77 Fed. Reg. 73,017 (Dec. 7, 2012) ; Crystalline Silicon Photovoltaic Cells, Whether or Not Assembled Into Modules, From the People's Republic of China: Amended Final Determination of Sales at Less Than Fair Value, and Anti-dumping Duty Order (\"AD Order\"), 77 Fed. Reg. 73,018 (Dec. 7, 2012). Both orders recite the same scope, which reads in relevant part as follows:\nThe merchandise covered by this order is crystalline silicon photovoltaic cells, and modules, laminates, and panels, consisting of crystalline silicon photovoltaic cells, whether or not partially or fully assembled into other products, including, but not limited to, modules, laminates, panels and building integrated materials.\nThis order covers crystalline silicon photovoltaic cells of thickness equal to or greater than 20 micrometers, having a p/n junction formed by any means, whether or not the cell has undergone other processing, including, but not limited to, cleaning, etching, coating, and/or addition of materials (including, but not limited to, metallization and conductor patterns) to collect and forward the electricity that is generated by the cell.\n....\nExcluded from the scope of this order are thin film photovoltaic products produced from amorphous silicon (a-Si), cadmium telluride (CdTe), or copper indium gallium selenide (CIGS).\nCVD Order, 77 Fed. Reg. at 73,017 ; AD Order, 77 Fed. Reg. at 73,018 -19. Commerce notified United States Customs and Border Protection (\"Customs\") of the AD and CVD Orders (\"the Orders\") and required cash deposits or posting of a bond equal to the appropriate rate in effect at the time of entry for covered imports.\nSunpreme manufactures solar modules in China. Those modules contain bifacial solar cells that are composed of thin films, which are several layers of amorphous silicon less than one micron thick, deposited on both sides of a crystalline silicon wafer. Following publication of the Orders on December 2, 2012, Sunpreme entered its merchandise as entry type \"01,\" meaning not subject to the Orders, and continued to do so without question from Customs until early 2015, when, for unknown reasons, Customs began to question whether Sunpreme's entries were covered by the Orders. Initially unsure whether the Orders covered Sunpreme's entries, Customs sought advice from one of its laboratories. On April 20, 2015, Customs notified Sunpreme that it had decided that Sunpreme's entries are covered by the Orders, thus resulting in the suspension of liquidation of Sunpreme's entries and the requirement that Sunpreme pay cash deposits in order for its shipments to be released from the port's warehouse. Although it objected to Customs' determination, Sunpreme complied.\nMeanwhile, Customs continued to question whether Sunpreme's solar modules unambiguously fell within the scope of the Orders. On June 3, 2015, Customs contacted Commerce seeking guidance on whether Sunpreme's products were covered by the Orders. Commerce answered that\na determination as to whether this product is covered by antidumping duty order A-570-979 and countervailing duty order C-570-980 [i.e. , the Orders] would need to be made by the Department of Commerce in a scope ruling which can be requested by the importer or exporter.\nSunpreme Inc. v. United States (\"Sunpreme I CIT\" ), 190 F. Supp. 3d 1185, 1191-92, 1199 (Ct. Int'l Trade 2016).\nIn a separate proceeding, Sunpreme filed a complaint with the United States Court of International Trade (\"CIT\") under 28 U.S.C. \u00a7 1581(i), directly challenging Customs' determination that Sunpreme's solar modules are subject to the Orders. Sunpreme Inc. v. United States (\"Sunpreme I PI \"), 145 F. Supp. 3d 1271, 1282 (Ct. Int'l Trade 2016) (opinion granting preliminary injunction). In its final decision, the CIT found it undisputed that Sunpreme's solar modules contain layers of thin film, but that Customs' laboratory tests confirmed those modules also contain crystalline silicon. Sunpreme I CIT , 190 F. Supp. 3d at 1191, 1195-96. The CIT noted that, although the Orders expressly include \"crystalline silicon photovoltaic cells\" within their scope and expressly exclude \"thin film photovoltaic products\" from their scope, the Orders do not define the term thin film products. Id. at 1190, 1195, 1200. That led the CIT to characterize the scope language in the Orders as ambiguous with respect to Sunpreme's solar modules. Id. at 1203. The CIT concluded, based on our decisions in AMS Associates, Inc. v. United States , 737 F.3d 1338 (Fed. Cir. 2013), and Xerox Corp. v. United States , 289 F.3d 792 (Fed. Cir. 2002), that Customs lacked authority to interpret the scope of Commerce's ambiguous Orders, and thus Customs could not determine that Sunpreme's solar modules are subject to those duty orders. Sunpreme I CIT , 190 F. Supp. 3d at 1202-04 ; accord Sunpreme I PI , 145 F. Supp. 3d at 1283-92. We reversed on appeal because, under the circumstances presented, the CIT lacked jurisdiction under 28 U.S.C. \u00a7 1581(i) to entertain direct challenges to Customs' decision given that an alternative administrative remedy was available. See Sunpreme, Inc. v. United States (\"Sunpreme I \"), 892 F.3d 1186, 1192-94 (Fed. Cir. 2018) (\" Section 1581(i) 'may not be invoked when jurisdiction under another subsection of \u00a7 1581 is or could have been available, unless the remedy provided under that other subsection would be manifestly inadequate.' \" (quoting Int'l Custom Prods., Inc. v. United States , 467 F.3d 1324, 1327 (Fed. Cir. 2006) )). That remedy was a scope ruling from Commerce interpreting the scope of the duty orders. Id.\nII\nA\nOn November 16, 2015, Sunpreme petitioned Commerce for a scope ruling to determine whether its solar modules are subject to the Orders. Sunpreme contended that the Orders do not cover its solar modules because they do not contain CSPV cells, they do not have a p/n junction, and they otherwise qualify for the Orders' exclusion because they are thin film products. On December 30, 2015, Commerce initiated a formal scope inquiry.\nB\nAfter the scope inquiry was initiated, but before a final ruling was made, Commerce issued a scope ruling in a separate proceeding deciding that Silveo, Inc.'s Triex photovoltaic cells are subject to the Orders. Like Sunpreme's solar modules, the Triex cells also contain a crystalline silicon substrate sandwiched between layers of amorphous silicon thin films.\nCommerce's regulations at 19 C.F.R. \u00a7 351.225(k) establish its analytical path for deciding whether certain imports are covered by the scope of an antidumping or countervailing duty order. See Shenyang Yuanda Aluminum Indus. Eng'g Co. v. United States , 776 F.3d 1351, 1354 (Fed. Cir. 2015). Commerce first examines the sources listed under \u00a7 351.225(k)(1), which include \"the scope language contained in the order itself, the descriptions contained in the petition, and how the scope was defined in the investigation and in the determinations issued by Commerce and the ITC.\" Id. Those are known as the (k)(1) sources. If those sources are not sufficient to decide the matter, then Commerce turns to examining the sources listed under \u00a7 351.225(k)(2), which include the product's physical characteristics, ultimate purchasers' expectations, the ultimate use of the product, trade channels in which the product is sold, and the manner in which the product is advertised and displayed. Id. Those are known as the (k)(2) sources.\nCommerce determined that the (k)(1) sources were not dispositive as to whether the Triex cells fell within the scope of the Orders. It said the language of the Orders was ambiguous and the other sources did not resolve whether p/i/n junctions qualify as p/n junctions or whether products containing both thin films and crystalline silicon components qualify for the thin film exclusion. Commerce correctly concluded that the hybrid Triex cells \"are neither dispositively covered nor clearly excluded from the scope of the Orders.\" J.A. 884.\nCommerce then concluded that, based on (k)(2) sources, the Triex cells are covered by the Orders. It said the Triex cells contain a p/n junction formed by any means because \"a p/i/n junction is simply a type of p/n junction\" in which the electric field is extended over a wider region of the cell. J.A. 870-71 (internal quotation marks omitted). It concluded the presence of an intrinsic layer does not change the function of the p/n junction. Moreover, Commerce explained that conventional thin film cells were designed to avoid the use of crystalline silicon, and thus allowing products using crystalline silicon as an active, energy-producing component to qualify for the thin film exclusion \"would result in a physical description that would easily permit circumvention of the scope of the Orders.\" J.A. 871-72.\nCommerce placed the Triex scope ruling on the record in the Sunpreme proceeding so that interested parties could comment on any relevant distinctions between Sunpreme's solar modules and the Triex product.\nC\nIn July 2016, Commerce issued its final scope ruling with respect to Sunpreme's solar modules. Like the Triex hybrid cells, Commerce understood that Sunpreme's solar modules were neither covered nor clearly excluded by the descriptions contained in the Orders. Based solely on (k)(1) sources, it concluded that Sunpreme's hybrid bifacial thin film cells are subject to the Orders. It concluded that Sunpreme's solar modules contain CSPV cells because they actively rely on crystalline silicon wafers to generate electricity and absorb sunlight, just like the crystalline silicon component in the Triex product. It also determined that the CSPV cells, which include all the active, energy-generating components such as the thin films and crystalline silicon wafers, are at least twenty micrometers thick. Furthermore, Commerce decided that Sunpreme's solar modules contain a p/n junction because, as it said in the Triex scope ruling, a p/i/n junction is just a form of p/n junction that does not change the function or nature of the p/n junction in the CSPV cell. Finally, it concluded that Sunpreme's solar modules do not qualify for the thin film exclusion because, as it said in the Triex scope ruling, the mere presence of some thin film layers does not override the significance of the crystalline silicon wafer and thus cannot thereby circumvent the Orders.\nCommerce then issued instructions to Customs ordering it to continue suspending liquidation of Sunpreme's solar modules imported pre-scope inquiry and to begin suspending liquidation and collecting cash deposits at the applicable rate for any relevant products Sunpreme entered or withdrew from warehouse for consumption on or after December 30, 2015. That date is when Commerce initiated the scope proceedings.\nD\nSunpreme filed a complaint in the CIT challenging Commerce's final scope ruling and its instructions to Customs. It argued that Commerce's final scope ruling is unsupported by substantial evidence and that its instructions to Customs should not have applied retroactively to solar modules entered before the scope inquiry was initiated. The CIT upheld Commerce's final scope ruling as in accordance with law and supported by substantial evidence, but it invalidated as contrary to law that part of Commerce's instructions to Customs ordering continued suspension of liquidation for entries pre-dating the initiation of the scope inquiry. Sunpreme Inc. v. United States , 256 F. Supp. 3d 1265, 1278, 1292, 1294 (Ct. Int'l Trade 2017).\nWith respect to the final scope ruling, the CIT explained that substantial evidence supports each of Commerce's four main determinations: that Sunpreme's solar modules contain CSPV cells, are at least twenty micrometers thick, have a p/n junction, and do not qualify for the thin film exclusion. Id. at 1278-91. It agreed that the Orders, the petition, the initial investigation, and the Triex scope ruling provided evidentiary support for Commerce's decision. Id.\nWith respect to Commerce's instructions to Customs, however, it held that it was unlawful for Commerce to order continued suspension of liquidation and collection of cash deposits for entries made before the scope inquiry was initiated. Id. at 1291-94. The CIT held that Customs' suspension of liquidation was ultra vires because Customs made its decision before the Sunpreme scope inquiry was completed, at which time Customs lacked authority to interpret the Orders to determine whether Sunpreme's solar modules fell within the scope of those Orders. Id. The CIT again relied on AMS Associates , 737 F.3d 1338, and Xerox , 289 F.3d 792, to support its judgment that Customs lacked authority to interpret the Orders for suspension of liquidation purposes. Id. at 1292. The CIT therefore concluded that \"Commerce could not extend the suspension of liquidation on entries that were not appropriately administratively suspended.\" Id. at 1293. It held that Commerce only has authority to \"continue\" a lawful suspension of liquidation. Id.\nSunpreme now appeals the CIT's decision upholding Commerce's scope ruling. The United States and SolarWorld cross-appeal the CIT's partial invalidation of Commerce's instruction to Customs to the extent that it directed suspension of liquidation pre-dating the initiation of the scope inquiry. We have jurisdiction to decide the appeals under 28 U.S.C. \u00a7 1295(a)(5).\nDISCUSSION\nWe review CIT decisions de novo and apply anew the same standard it used. Ad Hoc Shrimp Trade Action Comm. v. United States , 802 F.3d 1339, 1348 (Fed. Cir. 2015) ; Atl. Sugar, Ltd. v. U.S. , 744 F.2d 1556, 1559 n.10 (Fed. Cir. 1984). Under that standard, we \"must uphold Commerce's determinations unless they are 'unsupported by substantial evidence on the record, or otherwise not in accordance with law.' \" Ad Hoc Shrimp , 802 F.3d at 1348 (quoting 19 U.S.C. \u00a7 1516a(b)(1)(B)(i) ). While our review repeats much of the work of the CIT, we do not ignore the CIT's informed judgment. Id. Moreover, we give substantial deference to Commerce's interpretation of its own duty orders \"because the meaning and scope of [those] orders are issues 'particularly within the expertise' and 'special competence' of Commerce.\" King Supply Co. v. United States , 674 F.3d 1343, 1348 (Fed. Cir. 2012) (quoting Sandvik Steel Co. v. United States , 164 F.3d 596, 600 (Fed. Cir. 1998) ).\nA decision is supported by substantial evidence if the evidence amounts to \"more than a mere scintilla\" and \"a 'reasonable mind might accept [it] as adequate to support a conclusion.' \" Ad Hoc Shrimp , 802 F.3d at 1348 (quoting Consol. Edison Co. of N.Y. v. NLRB , 305 U.S. 197, 217, 59 S.Ct. 206, 83 L.Ed. 126 (1938) ). Commerce's findings \"may still be supported by substantial evidence even if two inconsistent conclusions can be drawn from the evidence.\" Id.\nTwo main issues are presented for our review. First, Sunpreme argues that Commerce's determination that its solar modules are covered by the scope of the Orders is not supported by substantial evidence. Second, the United States and SolarWorld contend that Commerce's instructions to Customs were not unlawful and should have been upheld in all respects. We address those issues in turn below.\nI\nSunpreme's only challenge on appeal is that the CIT incorrectly concluded that Commerce's decision that Sunpreme's solar modules are covered by the Orders is supported by substantial evidence. The United States and SolarWorld disagree.\nCommerce issues scope rulings to clarify the scope of its antidumping and countervailing duty orders. 19 C.F.R. \u00a7 351.225(a). As noted above, the analysis for Commerce's scope rulings is governed by its regulations at 19 C.F.R. \u00a7 351.225. \"Commerce must first examine the language of the final order.\" Mid Continent Nail Corp. v. United States , 725 F.3d 1295, 1302 (Fed. Cir. 2013). If the language is unclear, then Commerce must turn to available (k)(1) sources, including the petition, the initial investigation, and any earlier determinations by Commerce and the ITC. Id. ; 19 C.F.R. \u00a7 351.225(k)(1). If the matter remains unresolved, Commerce must turn to available (k)(2) sources, including the product's physical characteristics, ultimate purchasers' expectations, the product's ultimate use, the channels of trade in which the product is sold, and the way the product is marketed. Mid Continent , 725 F.3d at 1302 ; 19 C.F.R. \u00a7 351.225(k)(2).\nWhile \"review of the petition and the investigation may provide valuable guidance as to the interpretation of the final order,\" those sources \"cannot substitute for language in the order itself.\" Duferco Steel, Inc. v. United States , 296 F.3d 1087, 1097 (Fed. Cir. 2002). The scope of an order can encompass certain \"merchandise only if [the order] contain[s] language that specifically includes the subject merchandise or may be reasonably interpreted to include it.\" Id. at 1089. Similarly, \"merchandise facially covered by an order may not be excluded from the scope of the order unless the order can reasonably be interpreted so as to exclude it.\" Mid Continent , 725 F.3d at 1301 (emphasis omitted). At bottom, while Commerce has \"substantial freedom to interpret and clarify its antidumping [and countervailing duty] orders,\" it may not do so in a way that changes them. Id. at 1300 (quoting Novosteel SA v. United States , 284 F.3d 1261, 1269 (Fed. Cir. 2002) ).\nSunpreme attacks all four parts of Commerce's scope determination. First, it argues its solar modules are not CSPV cells. Second, it contends they are far less than twenty micrometers thick. Third, it asserts they do not contain a p/n junction. Last, it argues they qualify for the Orders' thin film exclusion. Because none of Sunpreme's arguments is persuasive, we conclude, as the CIT did, that Commerce's final scope ruling is supported by substantial evidence.\nA\nSunpreme argues that substantial evidence does not support Commerce's conclusion that its solar modules contain CSPV cells. It argues that Commerce's decision to treat any product relying on crystalline silicon to generate electricity as a CSPV cell is contrary to law because it introduces criteria into the scope of the Orders that are not covered by their plain language or any (k)(1) sources. Moreover, it contends that Commerce was wrong when it stated that the crystalline silicon wafers in Sunpreme's solar modules play a primary role in the modules' generation of electricity. Finally, Sunpreme asserts that its crystalline silicon wafers are not doped and thus can produce no more electricity than a sliver of river rock.\nThe United States and SolarWorld respond that Commerce correctly concluded that Sunpreme's solar modules contain CSPV cells. They identify record evidence they allege shows that Sunpreme's solar modules contain a doped crystalline silicon substrate that serves a primary role in absorbing sunlight, which according to the Triex scope ruling is enough to conclude that those modules contain CSPV cells. They argue Sunpreme simply wishes for us to reweigh the evidence and reach a different conclusion.\nWe agree with the United States and SolarWorld that substantial evidence supports Commerce's conclusion that Sunpreme's solar modules contain CSPV cells. Commerce determined that a CSPV cell is a solar product that relies on crystalline silicon to generate electricity. That is a reasonable interpretation of the Orders based on their plain language and (k)(1) sources. The Orders expressly cover \"crystalline silicon photovoltaic cells\" without much relevant further limitation. CVD Order, 77 Fed. Reg. at 73,017 ; AD Order, 77 Fed. Reg. at 73,018. The petition states that \"CSPV cells ... are made from crystalline silicon\" and \"convert the energy of sunlight directly into electricity, by the photovoltaic effect.\" J.A. 237. And Commerce determined in the Triex scope ruling that the basic purpose of solar cells as opposed to blank crystalline silicon wafers is electricity generation, and thus a crystalline silicon substrate that contributes to energy generation when the device is struck by sunlight constitutes a CSPV cell.\nThe record supports Commerce's decision that Sunpreme's solar modules rely on crystalline silicon in the electricity generation process. In the Triex scope ruling, Commerce explained that traditional CSPV cells contain a \"semi-conduction and photon collection region ... between the positively and negatively doped layers of the wafer itself,\" and that the crystalline silicon wafer in the Triex cells serves the same purpose because \"the wafer is part of the 'circuit' between the p/n layers of thin film, creating a region of semi-conduction and photon collection between the thin film layers.\" J.A. 871. In both instances, the wafer contributes to \"electricity generation between the positively and negatively doped regions of the cell.\" J.A. 871. It is active because it is slightly doped and plays a critical role in the energy-generating function of the cells.\nThe same is true for Sunpreme's solar modules. Sunpreme said that \"the role of the wafer substrate [in its solar modules] is primarily to provide a light absorbing material and a stable mechanical/thermal interface for the amorphous silicon cells.\" J.A. 4575. It also admitted that its crystalline silicon wafers are naturally slightly doped, meaning they have a slight inherent p-type or n-type orientation. J.A. 4574, 4773. And Sunpreme has not identified any evidence that, given those characteristics, the crystalline silicon wafers in its solar modules do not operate just like the wafers in the Triex cells, which formed part of the energy-generating circuit by \"creating a region of semi-conduction and photon collection between the thin film layers.\" It was thus reasonable for Commerce to conclude that Sunpreme's solar modules contain CSPV cells because the active crystalline silicon wafers in those products absorb sunlight, are slightly doped, and largely serve the same function as the crystalline silicon in traditional CSPV cells.\nWe are not persuaded by Sunpreme's arguments to the contrary. Commerce's determination that CSPV cells are those that rely on crystalline silicon to generate electricity does not add a new criterion to the scope of the Orders because the scope language can reasonably bear, and the (k)(1) sources reasonably support, Commerce's interpretation. Whether the crystalline silicon wafer is doped or acts as a primary solar absorber are not new criteria, but instead serve as exemplary guideposts for identifying the purpose and function of the wafer, which is to contribute to the generation of energy in the modules. Additionally, even if the crystalline silicon wafers in Sunpreme's solar modules are not the primary solar absorbers in the cells, Commerce could have reasonably concluded that it is enough that the wafers provide for and are primarily used for absorbing sunlight. Finally, while Sunpreme would have everyone believe that its crystalline silicon wafers are inert, useless slivers of river rock that play no role in the energy-production process, the wafers are naturally slightly doped and, when used in conjunction with the rest of the solar module's components, play a critical role in the generation of energy. J.A. 245-55, 304-06, 325-27, 871. We therefore agree with the CIT that substantial evidence supports Commerce's conclusion that Sunpreme's solar modules contain CSPV cells.\nB\nSunpreme argues that its solar modules do not contain cells that are at least twenty micrometers thick. It argues the thin film layers are far less than twenty micrometers thick and the much thicker crystalline silicon substrate must be excluded from the calculation given that it is not an active part of the devices. Because we uphold Commerce's conclusion that the crystalline silicon wafer in Sunpreme's solar modules are indeed an active part of those devices, Sunpreme's thickness argument necessarily fails. We agree with the CIT that Commerce's ruling that Sunpreme's solar modules have cells that are at least twenty micrometers thick is supported by substantial evidence.\nC\nSunpreme also argues that substantial evidence does not support Commerce's conclusion that its solar modules have a p/n junction. It contends that the term \"p/n junction\" as used in the Orders does not require interpretation because it unambiguously refers to p-type layers directly adjacent to or abutting n-type layers formed within the crystalline silicon wafer itself. It asserts that its solar modules do not have a p/n junction because the thin films form p/i and i/n junctions outside the wafer substrate and a p/i/n junction is not a p/n junction.\nThe United States and SolarWorld counter that Commerce correctly concluded that Sunpreme's solar modules contain a p/n junction. They argue that the Triex scope ruling is a (k)(1) source that supports treating p/i/n junctions as a subset of p/n junctions, and that the form of junction should not be elevated over its function. They also contend that neither the plain language of the Orders nor any (k)(1) sources limits the location of the p/n junction to inside the crystalline silicon component.\nWe agree with the United States and SolarWorld that substantial evidence supports Commerce's conclusion that Sunpreme's solar modules contain a p/n junction. The language of the Orders, as well as several (k)(1) sources, support Commerce's determination that a p/i/n junction is a type of p/n junction because the function and nature of the junction, which is the formation of an electric field, is unchanged by introducing an intrinsic crystalline silicon layer between positive and negative thin films. The Orders provide that covered merchandise must contain \"a p/n junction formed by any means ....\" CVD Order, 77 Fed. Reg. at 73,017 ; AD Order, 77 Fed. Reg. 73,018. Their express language in no way limits the location, form, or method of production of the p/n junction.\nThe original petition describes the p/n junction as \"an interface of a p-type semiconductor and an n-type semiconductor that is usually formed by dopant additions to create an intrinsic or extrinsic charge state.\" J.A. 237-38. It states the junction could be heterogenous with various sections of the substrate responding differently to sunlight, homogenous, or patterned. J.A. 238. It also notes that the p/n junction could be formed by several means and recites a non-exhaustive list that includes dopant diffusion, ion implantation, epitaxial growth, and bonding of dissimilar materials. J.A. 238 n.14. SolarWorld later revised its petition to state that the duty orders cover cells \"having a p/n junction formed by any means,\" without reference to a specific list of possible formation methods. J.A. 816. SolarWorld explained that its change was meant to clarify that the p/n junction could be formed in any number of ways and at any one of numerous points in the manufacturing process of the cells. Again, like the language of the Orders, the petition does not limit the location, form, or method of production of the p/n junction.\nThe Triex scope ruling states that a p/i/n junction simply is a type of p/n junction because it is one of many possible means of forming the necessary electric field. That is, the intrinsic crystalline silicon substrate connects the p-type and n-type thin film layers so that the cell functions in the same way as p/n junctions formed by other means. The intrinsic layer just \" 'extends the electric field over a wider region of the cell' (i.e. , the crystalline silicon wafer region ...).\" J.A. 871 (citation omitted). Additionally, in the Triex scope ruling, Commerce soundly and logically rejected the argument that the crystalline wafer is inert and thus plays no role in the electricity generation process because, if that were true, the substrate could be replaced with less expensive material than crystalline silicon that would clearly fall outside the scope of the Orders. Therefore, the language of the Orders and the (k)(1) sources support Commerce's interpretation.\nHere, Sunpreme's solar modules contain a p/i/n junction formed by p-type and n-type thin films sandwiched atop both sides of an intrinsic crystalline silicon wafer. Substantial evidence therefore supports Commerce's conclusion that Sunpreme's solar modules contain a p/n junction, which encompasses p/i/n junctions.\nSunpreme's arguments to the contrary do not convince us otherwise. First, the term \"p/n junction\" is not unambiguously defined in the Orders. The petition's use of the word \"interface\" to describe the boundary between the p-type and n-type layers that creates the p/n junction does not necessarily mean that the layers must be in direct contact without the presence of an intervening intrinsic layer. CVD Order, 77 Fed. Reg. at 73,017 ; AD Order, 77 Fed. Reg. at 73,018. Additionally, the fact that glossaries define both p/n and p/i/n junctions does not mean that the two are mutually exclusive, for the same reason that a dictionary's separate definitions for flower and tulip do not connote absolute distinctiveness.\nSecond, Sunpreme is incorrect in its insistence that the p/n junction must be located within the crystalline silicon wafer itself. Neither the language of the Orders nor any (k)(1) source limits the location of the p/n junction, and Commerce expressly rejected the same argument in its earlier Triex scope ruling. The fact that the petition originally included a list of means that was later removed is unhelpful to Sunpreme's argument because the removal broadens the methods of formation that previously were delineated in a non-exhaustive list. Furthermore, a SolarWorld representative's statement during the ITC conference that the p/n junction is created within the silicon base material does not conflict with a junction formed by p-type thin films, n-type thin films, and an intrinsic substrate relating the two. The p/n junction is in all those components, including the base material itself, and cannot be seen.\nThird, we are not persuaded by Sunpreme's attempt to distinguish the Triex scope ruling based on perceived differences in the cells. Both Sunpreme's solar modules and the Triex cells have p/i/n junctions formed by thin films laid atop a crystalline silicon substrate, wherein the crystalline silicon substrate facilitates the creation of an electric field between the thin film layers. Any other differences between the cells, including the location of the junction or the method of formation, do not bear on our analysis for the reasons stated above.\nFinally, Sunpreme's effort to analogize the facts of this case to the facts in Duferco is fruitless. In Duferco , Commerce interpreted a floor plate product with patterns in nonrectangular cross-sections achieved from a rolling process to be within the scope of an order covering flat-rolled products of nonrectangular cross-section where the cross-section was achieved only after rather than during the rolling process. 296 F.3d at 1095. We held that Commerce's interpretation was unlawful because it was completely untethered from the language of the order. Id. at 1095, 1098. We reasoned that merchandise may only be included within an order's scope if that order contains language specifically targeting the subject merchandise or capable of being reasonably interpreted to include such merchandise. Id. at 1089. The same facts do not exist here. Unlike the duty order in Duferco , which did not include any language that could act as a hook for the subject merchandise, the Orders expressly contemplate products having a p/n junction formed by any means, which for the reasons stated above can be reasonably interpreted to include p/i/n junctions.\nWe therefore agree with the CIT that substantial evidence supports Commerce's conclusion that Sunpreme's solar modules contain a p/n junction.\nD\nSunpreme argues that Commerce's ruling that Sunpreme's solar modules do not qualify for the thin film exclusion in the Orders is not supported by substantial evidence. It argues that Commerce rewrote the scope of the exclusion by interpreting it as not covering solar products containing active crystalline silicon wafers because the language of the exclusion and (k)(1) sources do not suggest discriminating among products based on the thin film substrate. It contends that its solar modules are thin films based on their industry certification, their size, and the way in which they are produced. Finally, Sunpreme asserts that SolarWorld's statements during the ITC conference demonstrate the scope of the exclusion is broader than Commerce's interpretation because there is no overlap between thin films and crystalline silicon cells, and the only competitive injury contemplated by the industry was with respect to crystalline silicon products rather than thin films.\nThe United States and SolarWorld respond that Commerce correctly interpreted the thin film exclusion as not extending to Sunpreme's solar modules. They argue that the language of the exclusion in the Orders is capable of bearing a narrow interpretation and (k)(1) sources support that understanding. Additionally, they encourage us to discount the value of the industry certifications Sunpreme identifies with respect to its solar modules because those modules are certified as both crystalline silicon and thin film products. Finally, SolarWorld argues that Sunpreme misconstrues its representative's statements at the ITC conference.\nSubstantial evidence supports Commerce's conclusion that Sunpreme's solar modules do not qualify for the thin film exclusion. It was a reasonable interpretation of the Orders, based on their plain language and (k)(1) sources, for Commerce to determine that the thin film exclusion does not protect those products that have both thin films and an active crystalline silicon wafer. The Orders provide that the covered merchandise \"is crystalline silicon photovoltaic cells\" and the excluded merchandise includes \"thin film photovoltaic products produced from amorphous silicon (a-Si), cadmium telluride (CdTe), or copper indium gallium selenide (CIGS).\" CVD Order, 77 Fed. Reg. at 73,017 ; AD Order, 77 Fed. Reg. at 73,018. The petition clearly states that thin film products \"do not use crystalline silicon ....\" J.A. 551. And the ITC asserted in its investigation that \"CSPV products and thin film products have different chemical compositions and physical characteristics that affect the inherent properties of each and may limit their interchangeability,\" making particular note that traditional CSPV cells are made from crystalline silicon and are more efficient while thin films are typically made of amorphous silicon or non-silicon materials. J.A. 309, 326-27. The ITC also determined in its investigation that thin film products tend to use glass substrates or a flexible substrate such as stainless steel or plastic. Those sources strongly suggest that thin films do not incorporate crystalline silicon.\nMoreover, in the Triex scope ruling, Commerce distinguished CSPV cells from thin film products for purposes of the Orders. Relying on the petition and the ITC's initial investigation, Commerce said conventional thin films were designed to avoid the use of crystalline silicon and instead use a-Si, CdTe, or CIGS on a non-functional substrate like glass. It determined that the Triex cells do not qualify for the thin film exclusion because they \"contain a crystalline silicon component that contributes to their photovoltaic function.\" J.A. 871.\nBecause there is no dispute that Sunpreme's solar modules contain crystalline silicon, and the evidence demonstrates that the crystalline silicon plays an active role in the cells energy generation processes as stated above, Sunpreme's solar modules do not qualify for the thin film exclusion. We agree with the CIT's decision to uphold Commerce's interpretation of the Orders because allowing any product that contains any thin film layer to qualify for the thin film exclusion \"would result in a physical description that would easily permit circumvention of the scope of the Orders.\" J.A. 872.\nSunpreme's arguments trying to chip away at Commerce's reasonable conclusion are unpersuasive. First, Commerce's interpretation does not rewrite the scope of the thin film exclusion by defining it based on the substrate used, but instead its interpretation reasonably construes the exclusion to prevent it from covering products that are drawn to the central focus of the Orders: active crystalline silicon. Second, although SolarWorld's representative stated at the ITC conference that it was not concerned with certain hybrid solar cell products that used both crystalline silicon wafers and amorphous silicon thin film layers, he noted that his lack of concern was merely because those hybrid products were limited in availability and production. Earlier in the conference, SolarWorld stressed that thin film technologies are \"completely separate\" from crystalline silicon products and the two do not overlap in their application. J.A. 370. Last, even if Sunpreme's solar modules are certified by the International Electrotechnical Commission as thin film products, we are not persuaded that the scope of the Orders is dictated by or otherwise tethered to such industry certifications. We therefore conclude that substantial evidence supports Commerce's determination that Sunpreme's solar modules are not excluded thin films.\nIn sum, we agree with the CIT that substantial evidence supports Commerce's final scope ruling. Sunpreme's solar modules are covered by the Orders.\nII\nWe now turn to the cross-appeal filed by the United States and SolarWorld. After April 20, 2015, Sunpreme was required to make cash deposits with Customs to free its solar modules for entry into the stream of U.S. commerce. That requirement was triggered by Customs' interpretation of the Orders to cover Sunpreme's solar modules, resulting in the suspension of liquidation for those imported products. All of Sunpreme's subject solar modules imported after April 20, 2015, and until the publication of Commerce's scope decision were subject to suspension of liquidation.\nUnder the clear and unambiguous terms of the relevant regulation, 19 C.F.R. \u00a7 351.225(l)(3), when Commerce issues a final scope ruling \"to the effect that the product in question is included within the scope of the order, any suspension of liquidation under paragraph (l)(1) or (l)(2) will continue.\" Subsection (l)(1) provides that when Commerce conducts a scope inquiry as it did in this case \"and the product in question is already subject to suspension of liquidation, that suspension of liquidation will be continued\" pending the final scope ruling, as it did in this case. If the final scope ruling is that the product in question was not within the scope of the order, subsection (l)(3) provides that Commerce will order any previous suspension of liquidation ended and instruct Customs to refund cash deposits already made or release any bonds relating to the product. If there has been no previous suspension of liquidation, and the final scope ruling is that the product is covered by the order, then Commerce is commanded by subsection (l)(3) to instruct Customs to suspend liquidation and collect the requisite cash deposit \"for each unliquidated entry of the product entered, or withdrawn from warehouse, for consumption on or after the date of initiation of the scope inquiry.\"\nIf, as the CIT held, the suspensions of liquidation in this case beginning in April of 2015 were ultra vires acts by Customs, and therefore of no legal effect, then it is clear that no suspensions of liquidation existed to be \"continued\" during the scope inquiry in this case under subsection (l)(1). It is equally clear that with no legally effective on-going suspensions of liquidation during the scope inquiry, at the end of the inquiry, Commerce faced, under subsection (l)(3), the situation \"where there has been no suspension of liquidation.\" In that instance, Commerce's command to Customs to begin suspension of liquidation is limited to products \"entered on or after the date of initiation of the scope inquiry.\" In this case, the scope inquiry was initiated on December 30, 2015, and Sunpreme seeks the refund of the cash deposits it was required to make before that date. So the question before us is whether the CIT, relying on our precedent, correctly determined that Customs acted beyond its authority when it interpreted the Orders to cover Sunpreme's hybrid solar modules.\nA\nWhen Commerce decides, after an initial investigation, to issue an antidumping or countervailing duty order, it issues an order to Customs, giving Customs authority to suspend liquidation on entries of the product covered by the antidumping or countervailing duty order. Customs is thereafter expected to inspect imported products to determine if they are covered by the duty order. As we explained in Xerox , \"Customs makes factual findings to ascertain what the merchandise is, and whether it is described in an order.\" 289 F.3d at 794. When, based on examination of the product in question and the plain meaning of the words in an antidumping or countervailing duty order, there is no question that the product is either within or not within the scope of the order, Customs either suspends liquidation and collects cash deposits, or passes the entry without suspending liquidation and collecting cash deposits. In either instance, Customs performs what we have described as its assigned and lawful ministerial duties. Mitsubishi Elecs. Am., Inc. v. United States , 44 F.3d 973, 977 (Fed. Cir. 1994) ; see also Xerox , 289 F.3d at 794. In either instance, Customs lawfully performs its ministerial duties because the duty order in question is not ambiguous as to whether it applies to the particular imported products. Xerox , 289 F.3d at 795.\nIn other circumstances, when it is unclear from application of facial language of an antidumping or countervailing duty order to factual inspection of imported product that the product is within or without the scope of the relevant order, Commerce provides the mechanism to resolve the question. That mechanism is the scope inquiry procedure provided by 19 C.F.R. \u00a7 351.225. Our precedent makes clear that when it is unclear whether products are within the scope of a duty order, \"Commerce 'should in the first instance decide whether an antidumping order covers particular products,' because 'the order's meaning and scope are issues particularly within the expertise of that agency.' \" Xerox , 289 F.3d at 795 (quoting Sandvik Steel , 164 F.3d at 600 ). And to protect Commerce's administrative authority, Customs cannot make such determinations. Id. We also recognized the superior institutional competence of Commerce over Customs for antidumping and countervailing duty matters in Mitsubishi Electronics , noting Customs' merely ministerial duties, and holding that \"Customs cannot 'modify ... [Commerce's] determinations, their underlying facts, or their enforcement.' \" 44 F.3d at 977 (quoting Royal Bus. Machs., Inc. v. United States , 507 F. Supp. 1007, 1014 n.8 (Ct. Int'l Trade 1980), aff'd , 669 F.2d 692 (C.C.P.A. 1982) ).\nAlthough Commerce, unlike Customs, can interpret the scope of unclear or ambiguous duty orders, our case law is clear that even Commerce cannot order suspension of liquidation of merchandise covered by such orders before the scope inquiry was initiated. In AMS Associates , Commerce instructed Customs to suspend liquidation of an importer's laminated woven sacks from China, regardless of the fabric's country of origin, that were entered or withdrawn from warehouse for consumption starting on a date that preceded Commerce's initiation of its scope inquiry. 737 F.3d at 1340-41. We held that Commerce cannot order suspension of liquidation and collection of cash deposits retroactively (i.e. , pre-scope inquiry) in instances where it clarifies the unclear or ambiguous scope of an existing duty order. Id. at 1344. We reasoned that, under \u00a7 351.225(l), Commerce can only act prospectively when the scope of an order is unclear or ambiguous, and thus retroactive authorization of suspension of liquidation is prohibited. Id.\nBased on our existing case law, we can see no reason why Customs, which we have recognized plays a ministerial role in the liquidation process and lacks the authority in the first instance to interpret the scope of unclear or ambiguous duty orders, should have more power than its charging agency-Commerce-to order suspension of liquidation.\nCustoms cannot clarify or interpret duty orders in the first instance. Customs can determine if merchandise is covered by a clear or unambiguous duty order and suspend liquidation before a scope inquiry because such actions do not require clarification or interpretation of the duty order. Commerce can continue that suspension of liquidation following its own assessment. But Commerce cannot order suspension of liquidation pre-scope inquiry for merchandise possibly subject to an unclear or ambiguous duty order. We now hold that neither can Customs because allowing it to do so would permit Customs in the first instance to clarify or interpret the ambiguity in the duty order so as to place merchandise within its scope. Because Customs lacks authority to suspend liquidation under those narrow circumstances, certainly Commerce cannot continue an ultra vires suspension of that kind.\nB\nAmbiguity is the line that separates lawful ministerial acts from unlawful ultra vires acts by Customs. This is not a close case. The Orders in this case cover certain solar modules and expressly exclude others, without providing a definition of the class expressly excluded. Sunpreme's solar modules are hybrid products, mixing characteristics of the included and excluded solar cells. Sunpreme imported its products for a considerable time as non-dutiable products, without question from SolarWorld, the competing company that triggered the anti-dumping investigation in the first place, or Customs, which presumably was diligently performing its responsibility to test Sunpreme's products against the plain language of the Orders. Early in 2015, Customs had cause to rethink its ministerial decisions that permitted the products to enter duty free. But it needed interpretative help to change its mind and begin suspension of liquidation. And even after its change of mind, it asked Commerce for help in deciding whether Sunpreme's solar modules fell within the Orders, and Commerce responded that only a scope inquiry could answer Customs' question. Then when Commerce dug into the scope inquiry, it agreed that the Orders are ambiguous as to whether they reach Sunpreme's products. Only after Commerce clarified the scope of the Orders did Sunpreme have a rationale as to why the Orders covered its solar modules.\nC\nAs a matter of policy, the United States and SolarWorld severely counsel us that \"it is important not to over-look the adverse consequences\" that may flow from concluding Commerce cannot continue a suspension of liquidation irrespective of Customs' authority ab initio to institute the suspension. U.S. Cross-Appellant Br. (\"U.S. Red Br.\") 49-50; accord SolarWorld Cross-Appellant Br. (\"SW Red Br.\") 21-22. They argue that our decision will encourage importers to delay or avoid requesting scope rulings from Commerce to evade antidumping and countervailing duties and to \"simply use any perceived ambiguity in scope language as a shield against suspension.\" SW Red Br. 21-22; accord U.S. Red Br. 49-50. SolarWorld adds that domestic interested parties are not in a good position to police such undesirable activity because they rarely know whether an importer is entering products with or without paying potentially applicable duties. The facts of this case do not warrant these fears.\nAs for a solution to their policy concerns, the United States and SolarWorld urge us to bless unlawful action by Customs by elevating the roles of Customs from ministerial to substantive while collecting duties. The United States and SolarWorld have no sound counter to the demands of our precedent, which bars Customs from asserting interpretive power over antidumping and countervailing duty orders. The scope inquiry in this case, answered by Commerce's interpretation of the duty order, proves beyond cavil that the duty order here is ambiguous. Only at the conclusion of the scope inquiry could it be said that Sunpreme's solar modules fall within the scope of an ambiguous duty order. The law recognizes this fact, but the United States and SolarWorld insist that we vest Customs with the authority to perform Commerce's job. This panel cannot change the law to suit the policy concerns noted by the United States and SolarWorld.\nAs Sunpreme points out, the holding in this case applies only in a narrow set of circumstances because, when the duty order is clear and unambiguous, Customs can suspend liquidation of subject merchandise pre-scope inquiry and Commerce is free to continue that suspension. See AMS Assocs. , 737 F.3d at 1344 (\"Importers cannot circumvent antidumping orders by contending that their products are outside the scope of existing orders when such orders are clear as to their scope. Our precedent evinces this understanding.\"). But even when the order is ambiguous, there are other options available to the Government that would prevent importers from evading potentially applicable duties. When confronted with a scope question, nothing prevents Customs from picking up the phone and calling Commerce, or sending Commerce an instant message, encouraging it to self-initiate a scope inquiry. 19 C.F.R. \u00a7 351.225(b). Indeed, that is precisely what Customs did in this case, but Commerce did not timely respond by self-initiating a scope inquiry.\nD\nIn this case, after Commerce issued its final scope ruling concluding that Sunpreme's solar modules are subject to the Orders, it instructed Customs to suspend liquidation of the modules entered or withdrawn from warehouse on or after the date of initiation of the scope inquiry and to continue suspending liquidation of the modules entered or withdrawn from warehouse before that time. We agree with the CIT that the latter part of Commerce's instructions to Customs is invalid.\nFrom the start and throughout this appeal, the parties have disputed the scope of the Orders. Furthermore, it cannot be seriously disputed that, at the time Customs suspended liquidation and the scope inquiry was later initiated, the scope of the Orders was ambiguous with respect to Sunpreme's solar modules. Cf. Sunpreme I , 892 F.3d at 1192 (stating that the parties dispute the scope and application of the Orders).\nCONCLUSION\nFor the reasons stated above, we affirm the CIT's conclusion that Commerce's final scope ruling placing Sunpreme's solar products within the ambit of the Orders is supported by substantial evidence. We also affirm the CIT's determination that Commerce's instructions to Customs are invalid to the extent that they command continuation of suspension of liquidation and collection of cash deposits on Sunpreme's solar modules entered or withdrawn from warehouse for consumption before Commerce initiated its scope inquiry on December 30, 2015.\nAFFIRMED\nCOSTS\nNo costs.\nProst, Chief Judge, dissenting-in-part.\nI agree with the Majority's well-reasoned analysis of the appeal in this case. I respectfully dissent, however, from the Majority's affirmance of the cross-appeal. For the reasons explained below, I would reverse and hold that Commerce's instruction to continue suspension of liquidation was proper.\nThe practical difference between the Majority's holding and my view is this: for the period between April 20, 2015 (the approximate date Customs began collecting cash deposits from Sunpreme) and December 30, 2015 (the date the scope inquiry was initiated), I believe Sunpreme should be required to pay antidumping duties because, as the Majority holds today, the products Sunpreme imported during that period were subject to antidumping and countervailing duty orders. But under the Majority's holding as to the cross-appeal, instead of paying the duties owed for that time period, Sunpreme will instead receive a refund for the cash deposits it paid. Sunpreme is therefore rewarded for its delay in filing a request for a scope inquiry. This cannot be correct.\nI\nCommerce issued the antidumping and countervailing duty orders (\"AD/CVD orders\") at issue in this case in December 2012. Despite the existence of those orders, Sunpreme had been entering its products as type 01 entries, meaning that the entries were not subject to antidumping and countervailing duties. In 2015, Customs began to question Sunpreme's identification of its products as type 01 entries. Customs determined that the products were indeed covered by the AD/CVD orders in this case and directed Sunpreme to enter its products as type 03 entries, which require payment of antidumping and countervailing duty cash deposits. Only after Customs forced Sunpreme's hand in this way did Sunpreme eventually file a request for a scope inquiry to determine whether its products were within the scope of the AD/CVD orders.\nAfter Commerce issued its final ruling in the scope inquiry, which confirmed that Sunpreme's products were within the scope of the AD/CVD orders (i.e., that Customs was correct), Commerce instructed Customs to (a) continue suspension of liquidation and collection of cash deposits as to entries that were already suspended; and (b) begin suspension of liquidation (and collection of cash deposits) for entries that were not already suspended, beginning on the date the scope inquiry was initiated. J.A. 4692, 4697.\nThese two instructions were in accordance with the relevant Commerce regulation. As relevant here, when Commerce conducts a scope inquiry \"and the product in question is already subject to suspension of liquidation, that suspension of liquidation will be continued, pending a preliminary or a final scope ruling , at the cash deposit rate that would apply if the product were ruled to be included within the scope of the order.\" 19 C.F.R. \u00a7 351.225(l)(1). Once Commerce issues a final scope ruling, \"any suspension of liquidation under paragraph (l)(1) or (l)(2) of this section will continue.\" Id. \u00a7 351.225(l)(3).\nThe Majority does not hold that Commerce violated \u00a7 351.225(l) or any other regulation. Indeed, it could not, as Commerce followed those procedures to the letter. Instead, the Majority goes a step further, holding that Commerce could not \"continue\" suspension of liquidation because the original act of suspending liquidation and collecting cash deposits was, in the Majority's view, an ultra vires act by Customs. Majority Op. at 1212, 1212.\nThis court has not directly addressed the contours of Customs' authority regarding the application and enforcement of AD/CVD orders. Most of our commentary on Customs' role has been in the context of analyzing various jurisdictional issues. See Sunpreme Inc. v. United States , 892 F.3d 1186 (Fed. Cir. 2018) ; Xerox Corp. v. United States , 289 F.3d 792 (Fed. Cir. 2002) ; Sandvik Steel Co. v. U.S. , 164 F.3d 596 (Fed. Cir. 1998) ; Mitsubishi Elecs. Am., Inc. v. United States , 44 F.3d 973 (Fed. Cir. 1994). In one of those cases, we explained that once Commerce issues an antidumping or countervailing duty order, \"Customs is charged with the ministerial function of fixing 'the amount of duty to be paid' on subject merchandise.\" Xerox , 289 F.3d at 794 (quoting 19 U.S.C. \u00a7 1500(c) ). As the Majority recognizes, see Majority Op. at 1212, Customs is expected to examine imported products to determine if they are covered by an AD/CVD order. Xerox , 289 F.3d at 794 (\"When merchandise may be subject to an antidumping duty order, Customs makes factual findings to ascertain what the merchandise is, and whether it is described in an order.\").\nUnder the Majority's reasoning, Customs may perform its function-fixing the amount of duty to be paid- only if there can be no doubt that a product is either within or not within the scope of an AD/CVD order. See Majority Op. at 1212, 1213. The Majority cites Xerox for this proposition. But Xerox merely addressed an issue related to the Court of International Trade's jurisdiction-namely, whether the unique factual scenario at issue in that case was protestable to Customs, or whether a scope inquiry from Commerce was necessary. We explained that if it were \"unclear whether the goods at issue were within the scope of antidumping duty orders,\" a scope inquiry would be necessary, rather than a protest. Xerox , 289 F.3d at 795. But, we held that a scope inquiry was not necessary in Xerox because \"the scope of the order [was] not in question\" given that the products at issue were \"facially outside the scope of the antidumping duty order.\" Id. Indeed, on appeal, the parties in that case agreed that the goods were not subject to the AD/CVD order. See Appellant's Reply Br. at 1, Xerox Corp. v. United States , No. 01-1124 (Fed. Cir. May 29, 2001), Dkt. No. 8 (\"It is uncontested in this appeal that Customs assessed antidumping duties against entries made by Xerox of merchandise that is outside the scope of the relevant antidumping order.\"). The circumstances in Xerox thus involved a \"ministerial, factual error of Customs\"-i.e., the AD/CVD order required the products to be used for power transmission and to contain certain materials, and the products at issue were not used for power transmission and did not contain such materials. 289 F.3d at 793-95. We thus held that such a ministerial error was protestable to Customs. Id. at 795.\nThe Majority's reasoning appears to create a strict dichotomy between \"ministerial\" actions by Customs and improper \"interpretation\" of scope language by Customs. In my view, this is a false dichotomy. The cases the Majority cites regarding whether an act by Customs was \"ministerial\" pertained to whether that act was the type that was protestable such that the CIT would have jurisdiction under \u00a7 1581(a). See Sunpreme I , 892 F.3d at 1192 ; Xerox , 289 F.3d at 795 ; Mitsubishi , 44 F.3d at 977. Certainly, Sunpreme I suggests that the alleged error there was more than the \"undisputed\" and \"ministerial\" issue in Xerox (otherwise the CIT would have had jurisdiction under \u00a7 1581(a) ). See Sunpreme I , 892 F.3d at 1192. But Sunpreme I did not speak to whether a lack of jurisdiction under \u00a7 1581(a) necessarily meant that Customs was improperly \"interpreting\" an AD/CVD order.\nTo be sure, our case law indicates that if it is not clear whether products fall within the scope of an AD/CVD order, it is Commerce's role to decide whether those products fall within the scope of the order. This, however, does not mean that Customs' hands are completely tied.\nCustoms is responsible for fixing the amount of duty owed. See 19 U.S.C. \u00a7 1500(c). That necessarily requires a decision from Customs as to whether the goods fall within an AD/CVD order. But the Majority holds today that Customs may apply and enforce AD/CVD orders to set the amount of duty owed only if merchandise is clearly and unambiguously covered by an AD/CVD order. See Majority Op. at 1213. Meanwhile, if there is any question as to whether merchandise is subject to an AD/CVD order, the Majority holds that any action from Customs applying that AD/CVD order would be an improper \"interpretation\" of the AD/CVD order. Id.\nTo be sure, I agree with the Majority that only Commerce can interpret the scope of an AD/CVD order. I disagree, however, that Customs' routine application of such orders constitutes an improper and ultra vires \"interpretation\" of those orders. Whether merchandise is subject to an AD/CVD order is a yes or no question that Customs must answer to fix the amount of duty owed. But under the Majority's reasoning, unless the AD/CVD order is crystal clear, any decision by Customs-whether yes or no -would be an \"interpretation\" of the scope of that AD/CVD order. In my view, by giving a yes or no answer, Customs is merely performing its \"ministerial function of fixing 'the amount of duty to be paid' on subject merchandise.\" Xerox , 289 F.3d at 794 (quoting 19 U.S.C. \u00a7 1500(c) ). It is not improperly \"interpreting\" the scope of an AD/CVD order.\nTo support its conclusion regarding Customs' actions being ultra vires , the Majority concludes that \"even Commerce cannot order suspension of liquidation of merchandise covered by such orders before the scope inquiry was initiated.\" Majority Op. at 1213. Respectfully, this extends our holding in AMS Associates, Inc. v. United States , 737 F.3d 1338 (Fed. Cir. 2013), too far. First, Commerce's regulation contemplates continuing the suspension of liquidation upon initiation of a scope inquiry, which demonstrates that in at least some circumstances, suspension of liquidation before a scope inquiry is initiated is appropriate. 19 C.F.R. \u00a7 351.225(l)(1). Too broad a reading of AMS would nullify that provision. Moreover, to the extent the Majority's statement is limited to situations in which Commerce clarifies an unclear or ambiguous AD/CVD order, this still takes AMS too far. In AMS , Customs had not suspended liquidation. Despite this, Commerce ordered suspension of liquidation retroactive to the period prior to the initiation of the scope inquiry. We held that where Commerce seeks to clarify an unclear AD/CVD order, Commerce cannot order suspension of liquidation where such instructions would result in merchandise that had previously entered not subject to the AD/CVD order being retroactively brought within the scope. Unlike in AMS , Commerce's instruction in our case is not truly retroactive because Customs had already suspended liquidation for the pre-scope inquiry period.\nII\nThe practical import of the Majority's conclusion that Customs acted ultra vires is that importers will have no incentive to request a scope inquiry from Commerce. As the government and SolarWorld argue, if Customs cannot suspend liquidation and collect cash deposits where it is unclear if merchandise falls within an AD/CVD order, importers will be incentivized to delay or avoid requesting scope rulings from Commerce. As the result in this case shows, the longer an importer delays, the less it will ultimately pay in antidumping or countervailing duties.\nThe Majority's proposed solution for this problem is to have Customs pick up the phone, call Commerce, and suggest to Commerce that Commerce self-initiate a scope inquiry. Majority Op. at 1215. But there is no statutory or regulatory framework to support such a solution. Indeed, the presence of such a referral procedure elsewhere in the regulatory framework suggests that such a procedure is not contemplated here. See 19 C.F.R. \u00a7 165.16 (in the context of investigating claims of evasion of antidumping and countervailing duties, requiring referrals to Commerce in certain circumstances). Without some statutory or regulatory basis for these two agencies to coordinate in such circumstances, I am not comfortable assuming this is a workable solution.\nFinally, I note that there appears to be no harm in Customs' suspending liquidation and requiring importers to pay cash deposits during the period prior to the initiation of a scope inquiry, even where it is unclear whether the merchandise falls within an AD/CVD order. If as a result of the scope inquiry Commerce rules that a product is not within the scope of an AD/CVD order, Commerce will instruct Customs to refund the AD/CVD cash deposits to the importer. 19 C.F.R. \u00a7 351.225(l)(3) ; see also Majority Op. at 1212. And if instead Commerce rules that the product is within the scope of the AD/CVD order-i.e., that Customs was correct to suspend liquidation-there is no reason why the importer should not have been paying cash deposits for the period prior to the initiation of the scope inquiry.\nIn sum, the Majority's holding significantly limits Customs' ability to perform its role in applying and enforcing Commerce's AD/CVD orders as Customs fixes the amount of duty owed. This holding also encourages importers to delay filing requests for scope inquiries so that they too might receive the windfall that Sunpreme is receiving in this case. Because I cannot agree with this outcome, I respectfully dissent.\nAs recognized in Sunpreme I , when Customs acts within its ministerial powers and suspends liquidation without exercising Commerce's authority to interpret antidumping and countervailing duty orders, its actions are lawful and continue during a scope inquiry. 892 F.3d at 1194 n.1.\nThat we, as legislators or administrators, might prefer to make the importer pay up front even where an antidumping or countervailing duty order is ambiguous is not for us to say. The question is what the law demands. We think the law is clear that Customs lacks interpretive authority, where, as here, the Orders are ambiguous. The rule suggested by the dissent, namely that Customs' behavior is defined one way when the appealed issue is jurisdiction (in which case Customs lacks interpretative authority), but another when the appealed issue is a question of scope (Customs has interpretative authority), is unavailing. Customs takes an action, which we review on the merits or in a jurisdictional challenge. The nature of Customs' action does not change depending on the challenge.\n\"Liquidation means the final computation or ascertainment of duties on entries for consumption or drawback entries.\" 19 C.F.R. \u00a7 159.1.\nIn Sandvik Steel Co. v. United States , we stated that \"[s]ound administration of the antidumping laws counsels that Commerce, which administers those laws, should in the first instance decide whether an antidumping order covers particular products.\" 164 F.3d 596, 600 (Fed. Cir. 1998) (emphasis added). But that case did not address the issue here. We made that statement-\"in the first instance\"-as part of our analysis of whether administrative remedies had been fully exhausted. See id. In that case, after Customs had suspended liquidation and begun collecting cash deposits, the importer failed to timely file a request for a scope inquiry from Commerce. Then, after Customs liquidated the entries, the importer protested Customs' application of the antidumping duty to those entries. We held that the Court of International Trade lacked jurisdiction to review the denial of the protest because the importer had failed to exhaust its administrative remedies by failing to request a scope inquiry.\nA scope inquiry may be self-initiated by Commerce, see 19 C.F.R. \u00a7 351.225(b), or in response to a request filed by an interested party, see id. \u00a7 351.225(c). Customs cannot initiate a scope inquiry because it is not an \"interested party.\" See 19 U.S.C. \u00a7 1677(9).",
+        "type": "majority",
+        "author": "Opinion dissenting-in-part filed by Chief Judge Prost."
+      }
+    ],
+    "attorneys": [
+      "Diana Dimitriuc Quaia, Arent Fox, LLP, Washington, DC, argued for plaintiff-appellant. Also represented by John M. Gurley, Nancy Noonan.",
+      "Justin Reinhart Miller, International Trade Field Office, Commercial Litigation Branch, Civil Division, United States Department of Justice, New York, NY, argued for defendant-cross-appellant United States. Also represented by Reginald Thomas Blades, Jr., Jeanne Davidson, Joseph H. Hunt, Washington, DC; Mercedes Morno, United States Department of Commerce, Washington, DC.",
+      "Timothy C. Brightbill, Wiley Rein, LLP, Washington, DC, argued for defendant-cross-appellant SolarWorld Americas, Inc. Also represented by Tessa V. Capeloto, Laura El-Sabaawi, Usha Neelakantan, Maureen E. Thorson."
+    ],
+    "corrections": "",
+    "head_matter": "SUNPREME INC., Plaintiff-Appellant\nv.\nUNITED STATES, SolarWorld Americas, Inc., Defendants-Cross-Appellants\n2018-1116\n2018-1117\n2018-1118\nUnited States Court of Appeals, Federal Circuit.\nDecided: May 16, 2019\nDiana Dimitriuc Quaia, Arent Fox, LLP, Washington, DC, argued for plaintiff-appellant. Also represented by John M. Gurley, Nancy Noonan.\nJustin Reinhart Miller, International Trade Field Office, Commercial Litigation Branch, Civil Division, United States Department of Justice, New York, NY, argued for defendant-cross-appellant United States. Also represented by Reginald Thomas Blades, Jr., Jeanne Davidson, Joseph H. Hunt, Washington, DC; Mercedes Morno, United States Department of Commerce, Washington, DC.\nTimothy C. Brightbill, Wiley Rein, LLP, Washington, DC, argued for defendant-cross-appellant SolarWorld Americas, Inc. Also represented by Tessa V. Capeloto, Laura El-Sabaawi, Usha Neelakantan, Maureen E. Thorson.\nBefore Prost, Chief Judge, Lourie and Clevenger, Circuit Judges."
+  },
+  "file_name": "1198-01",
+  "first_page_order": 1198,
+  "last_page_order": 1220
+}

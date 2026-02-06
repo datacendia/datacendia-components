@@ -1,0 +1,59 @@
+{
+  "id": 12251602,
+  "name": "Poulsen v. United States",
+  "name_abbreviation": "Poulsen v. United States",
+  "decision_date": "2012-03-19",
+  "docket_number": "No. 11-1005",
+  "first_page": "1262",
+  "last_page": "1262",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1262"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.716,
+    "sha256": "96fbacaec498f1789eef709dad12119cbb0da341217ac4456cfc1e736b34e477",
+    "simhash": "1:962b52830abf180a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Poulsen v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1005.\nPoulsen v. United States."
+  },
+  "file_name": "1262-09",
+  "first_page_order": 1344,
+  "last_page_order": 1344
+}

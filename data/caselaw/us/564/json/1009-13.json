@@ -1,0 +1,59 @@
+{
+  "id": 4335872,
+  "name": "Oral H. v. Connecticut",
+  "name_abbreviation": "Oral H. v. Connecticut",
+  "decision_date": "2011-06-13",
+  "docket_number": "No. 10-10302",
+  "first_page": "1009",
+  "last_page": "1009",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1009"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 72,
+    "ocr_confidence": 0.55,
+    "sha256": "caa1b167cfb4ca1178d071c4091766c14e9994800966b894621dc7ad62617ec1",
+    "simhash": "1:0a3b6014a1900a3d",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Oral H. v. Connecticut."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Conn. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10302.\nOral H. v. Connecticut."
+  },
+  "file_name": "1009-13",
+  "first_page_order": 1003,
+  "last_page_order": 1003
+}

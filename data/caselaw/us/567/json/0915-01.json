@@ -1,0 +1,94 @@
+{
+  "id": 12409298,
+  "name": "Williams v. Hobbs, Director, Arkansas Department of Correction",
+  "name_abbreviation": "Williams v. Hobbs",
+  "decision_date": "2012-06-11",
+  "docket_number": "No. 09-10382",
+  "first_page": "915",
+  "last_page": "915",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 915"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "562 U. S. 1097",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12439488,
+        5936641,
+        12439489,
+        12439490,
+        12439492,
+        12439491,
+        5938895,
+        5957809,
+        5989785,
+        6019546,
+        5972606,
+        12439487
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/178/0541-06",
+        "/us/562/1097-05",
+        "/l-ed-2d/178/0541-07",
+        "/l-ed-2d/178/0541-08",
+        "/l-ed-2d/178/0542-02",
+        "/l-ed-2d/178/0542-01",
+        "/us/562/1097-06",
+        "/us/562/1097-04",
+        "/us/562/1097-01",
+        "/us/562/1097-02",
+        "/us/562/1097-03",
+        "/l-ed-2d/178/0541-05"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 22,
+    "char_count": 150,
+    "ocr_confidence": 0.734,
+    "sha256": "5e35fda922dac664da768436d89507dd12cd30447ebf44da95431ad8b87ee41d",
+    "simhash": "1:43764d20dbee201d",
+    "word_count": 23
+  },
+  "last_updated": "2024-02-27T23:46:21.325002+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Williams v. Hobbs, Director, Arkansas Department of Correction,"
+    ],
+    "opinions": [
+      {
+        "text": "562 U. S. 1097. Motion for leave to file petition for rehearing denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10382.\nWilliams v. Hobbs, Director, Arkansas Department of Correction,"
+  },
+  "file_name": "0915-01",
+  "first_page_order": 819,
+  "last_page_order": 819
+}

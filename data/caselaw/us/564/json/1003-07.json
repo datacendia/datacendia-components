@@ -1,0 +1,61 @@
+{
+  "id": 5921645,
+  "name": "In re Schotz",
+  "name_abbreviation": "In re Schotz",
+  "decision_date": "2011-06-13",
+  "docket_number": "No. 10-10568",
+  "first_page": "1003",
+  "last_page": "1003",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1003"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 21,
+    "char_count": 149,
+    "ocr_confidence": 0.514,
+    "sha256": "7786d26a9c23a72e6076619515bed54f51b93a16ad151be0fa9a9fc401b6d1b5",
+    "simhash": "1:4c172a0e356fca4a",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "In re Schotz."
+    ],
+    "opinions": [
+      {
+        "text": "Petition for writ of habeas corpus denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10568.\nIn re Schotz."
+  },
+  "file_name": "1003-07",
+  "first_page_order": 997,
+  "last_page_order": 997
+}

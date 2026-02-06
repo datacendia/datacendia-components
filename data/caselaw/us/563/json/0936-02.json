@@ -1,0 +1,59 @@
+{
+  "id": 5960476,
+  "name": "Hinkson v. United States",
+  "name_abbreviation": "Hinkson v. United States",
+  "decision_date": "2011-04-18",
+  "docket_number": "No. 10-869",
+  "first_page": "936",
+  "last_page": "936",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 936"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.582,
+    "sha256": "b3dfd69e4c50ca79daeef80894f0254d6e4899f6b29bfa9b83d3ce22ab75962f",
+    "simhash": "1:848b63212b9d0d52",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hinkson v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-869.\nHinkson v. United States."
+  },
+  "file_name": "0936-02",
+  "first_page_order": 962,
+  "last_page_order": 962
+}

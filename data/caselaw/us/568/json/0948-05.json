@@ -1,0 +1,59 @@
+{
+  "id": 12418289,
+  "name": "Williams v. Felker et al.",
+  "name_abbreviation": "Williams v. Felker",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 12-5622",
+  "first_page": "948",
+  "last_page": "948",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 948"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 73,
+    "ocr_confidence": 0.665,
+    "sha256": "add0d65a3f5cbe54dccce17cf6d64123cb79fbca9815a181e9abbdc1356d5ec6",
+    "simhash": "1:d51820a141258437",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Williams v. Felker et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5622.\nWilliams v. Felker et al."
+  },
+  "file_name": "0948-05",
+  "first_page_order": 1024,
+  "last_page_order": 1024
+}

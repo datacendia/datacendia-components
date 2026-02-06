@@ -1,0 +1,59 @@
+{
+  "id": 12216165,
+  "name": "Kemppainen v. Texas",
+  "name_abbreviation": "Kemppainen v. Texas",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5074",
+  "first_page": "888",
+  "last_page": "888",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 888"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 73,
+    "ocr_confidence": 0.654,
+    "sha256": "a142b7e4398dc24dc066798cd27809e549ddb2a634cccbafc2aa7d98fe4410c6",
+    "simhash": "1:010238f676b76635",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Kemppainen v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Tex. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5074.\nKemppainen v. Texas."
+  },
+  "file_name": "0888-09",
+  "first_page_order": 970,
+  "last_page_order": 970
+}

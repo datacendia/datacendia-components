@@ -1,0 +1,59 @@
+{
+  "id": 12429262,
+  "name": "Keenan v. First California Bank",
+  "name_abbreviation": "Keenan v. First California Bank",
+  "decision_date": "2013-01-14",
+  "docket_number": "No. 12-608",
+  "first_page": "1124",
+  "last_page": "1124",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1124"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 79,
+    "ocr_confidence": 0.598,
+    "sha256": "0d85f25959ddd9a38bd294e728c93b3efe3976c0015959d3c31dc2cdc60ddefa",
+    "simhash": "1:15936461002c8822",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Keenan v. First California Bank."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-608.\nKeenan v. First California Bank."
+  },
+  "file_name": "1124-14",
+  "first_page_order": 1200,
+  "last_page_order": 1200
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12433205,
+  "name": "Stroud v. United States",
+  "name_abbreviation": "Stroud v. United States",
+  "decision_date": "2013-03-18",
+  "docket_number": "No. 12-6877",
+  "first_page": "1232",
+  "last_page": "1232",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1232"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.658,
+    "sha256": "7a235df9ea8fe50b32467238199d87ec60c06e3200604fdee7af9bad80365964",
+    "simhash": "1:20ba97834d30110a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Stroud v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6877.\nStroud v. United States."
+  },
+  "file_name": "1232-10",
+  "first_page_order": 1308,
+  "last_page_order": 1308
+}

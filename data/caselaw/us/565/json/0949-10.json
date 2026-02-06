@@ -1,0 +1,59 @@
+{
+  "id": 12227635,
+  "name": "Wilson v. Whitmore",
+  "name_abbreviation": "Wilson v. Whitmore",
+  "decision_date": "2011-10-11",
+  "docket_number": "No. 11-5715",
+  "first_page": "949",
+  "last_page": "949",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 949"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 84,
+    "ocr_confidence": 0.689,
+    "sha256": "939286e212316d2f849dc17f6c845fd8d71c6dc290165588ffbfe1aea74f7867",
+    "simhash": "1:6dd2a7e4006ef0d0",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wilson v. Whitmore."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Ohio, Cuyahoga County. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5715.\nWilson v. Whitmore."
+  },
+  "file_name": "0949-10",
+  "first_page_order": 1031,
+  "last_page_order": 1031
+}

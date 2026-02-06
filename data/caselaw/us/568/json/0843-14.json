@@ -1,0 +1,59 @@
+{
+  "id": 12412935,
+  "name": "Olausen v. Nevada",
+  "name_abbreviation": "Olausen v. Nevada",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10432",
+  "first_page": "843",
+  "last_page": "843",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 843"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 67,
+    "ocr_confidence": 0.719,
+    "sha256": "0f03cebbe63818dbcf084c08f40b4112733e1284a6b8b8e1b6956b60d45b42bb",
+    "simhash": "1:98468f88890acf83",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Olausen v. Nevada."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Nev. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10432.\nOlausen v. Nevada."
+  },
+  "file_name": "0843-14",
+  "first_page_order": 919,
+  "last_page_order": 919
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12431666,
+  "name": "Meza-Rojas v. United States",
+  "name_abbreviation": "Meza-Rojas v. United States",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-8247",
+  "first_page": "1185",
+  "last_page": "1185",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1185"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.684,
+    "sha256": "00b87ec674204cc32cc812fa2966b66ba31482ce20b600727dce63f11d33e7c3",
+    "simhash": "1:861a97030908140e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Meza-Rojas v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8247.\nMeza-Rojas v. United States."
+  },
+  "file_name": "1185-11",
+  "first_page_order": 1261,
+  "last_page_order": 1261
+}

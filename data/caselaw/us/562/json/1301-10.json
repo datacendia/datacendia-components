@@ -1,0 +1,59 @@
+{
+  "id": 5975045,
+  "name": "Luckey v. United States",
+  "name_abbreviation": "Luckey v. United States",
+  "decision_date": "2011-03-21",
+  "docket_number": "No. 10-9081",
+  "first_page": "1301",
+  "last_page": "1301",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1301"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.619,
+    "sha256": "a9e7ebe76955bee7876b9e05910b3f2d9e3d2644f68087158796249668f13b84",
+    "simhash": "1:879adb03490f906f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Luckey v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9081.\nLuckey v. United States."
+  },
+  "file_name": "1301-10",
+  "first_page_order": 1323,
+  "last_page_order": 1323
+}

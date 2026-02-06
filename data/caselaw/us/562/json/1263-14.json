@@ -1,0 +1,59 @@
+{
+  "id": 5963768,
+  "name": "Abeita v. United States",
+  "name_abbreviation": "Abeita v. United States",
+  "decision_date": "2011-02-28",
+  "docket_number": "No. 10-8739",
+  "first_page": "1263",
+  "last_page": "1263",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1263"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.658,
+    "sha256": "5c44f06a132234de5a9ffe18dafc558c25f69e4c45c8d7b6eae6073684189af5",
+    "simhash": "1:0188988b4fd5500a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Abeita v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8739.\nAbeita v. United States."
+  },
+  "file_name": "1263-14",
+  "first_page_order": 1285,
+  "last_page_order": 1285
+}

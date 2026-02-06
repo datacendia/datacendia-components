@@ -1,0 +1,547 @@
+{
+  "id": 2339912,
+  "name": "S. E. White v. M. M. White et al.",
+  "name_abbreviation": "White v. White",
+  "decision_date": "1944-04-05",
+  "docket_number": "No. A-49",
+  "first_page": "499",
+  "last_page": "506",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "142 Tex. 499"
+    },
+    {
+      "type": "parallel",
+      "cite": "179 S.W.2d 503"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "88 Texas 552",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2245544
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/88/0552-01"
+      ]
+    },
+    {
+      "cite": "98 Texas 176",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2269597
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/98/0176-01"
+      ]
+    },
+    {
+      "cite": "98 Texas 16",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2269541
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/98/0016-01"
+      ]
+    },
+    {
+      "cite": "64 Texas 216",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "48 S. W. (2d) 397",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10238774
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/48/0397-01"
+      ]
+    },
+    {
+      "cite": "40 S. W. (2d) 884",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10275583
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/40/0884-01"
+      ]
+    },
+    {
+      "cite": "11 S. W. 150",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 S. W. 1072",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 Am. St. Rep. 639",
+      "category": "reporters:state",
+      "reporter": "Am. St. Rep.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 S. W. 566",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "83 Texas 231",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2211529
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/83/0231-01"
+      ]
+    },
+    {
+      "cite": "220 S. W. 66",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        2286408,
+        10297861
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/110/0309-01",
+        "/sw/220/0066-01"
+      ]
+    },
+    {
+      "cite": "110 Texas 309",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2286408
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/110/0309-01"
+      ]
+    },
+    {
+      "cite": "3 S. W. 550",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "67 Texas 368",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2201049
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/67/0368-01"
+      ]
+    },
+    {
+      "cite": "33 S. W. 329",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "89 Texas 47",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2243196
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/89/0047-01"
+      ]
+    },
+    {
+      "cite": "106 S. W. 877",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "101 Texas 293",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2263362
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/101/0293-01"
+      ]
+    },
+    {
+      "cite": "54 Texas 30",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2182814
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/54/0030-01"
+      ]
+    },
+    {
+      "cite": "56 Texas 468",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2179585
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/56/0468-01"
+      ]
+    },
+    {
+      "cite": "23 Texas 539",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2114421
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/23/0539-01"
+      ]
+    },
+    {
+      "cite": "91 Am. Dec. 336",
+      "category": "reporters:federal",
+      "reporter": "Am. Dec.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 Texas 732",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2102790
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/28/0732-01"
+      ]
+    },
+    {
+      "cite": "67 S. W. 1015",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "95 Texas 442",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2231319
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/95/0442-01"
+      ]
+    },
+    {
+      "cite": "32 S. W. (2d) 937",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10283248
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/32/0937-01"
+      ]
+    },
+    {
+      "cite": "26 S. W. (2d) 191",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10275330
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/26/0191-01"
+      ]
+    },
+    {
+      "cite": "23 S. W. 640",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "86 Texas 93",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2206284
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/86/0093-01"
+      ]
+    },
+    {
+      "cite": "19 S. W. 690",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "84 Texas 515",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2210022
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/84/0515-01"
+      ]
+    },
+    {
+      "cite": "4 Texas 200",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        6770624
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/4/0200-01"
+      ]
+    },
+    {
+      "cite": "13 S. W. 560",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "76 Texas 639",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2225380
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/76/0639-01"
+      ]
+    },
+    {
+      "cite": "17 Texas 676",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2042322
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/17/0676-01"
+      ]
+    },
+    {
+      "cite": "7 Texas 184",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        6767977
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/7/0092-01"
+      ]
+    },
+    {
+      "cite": "1 S. W. 339",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "66 Texas 314",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2202684
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/66/0314-01"
+      ]
+    },
+    {
+      "cite": "61 Texas 60",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2169071
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/61/0060-01"
+      ]
+    },
+    {
+      "cite": "155 S. W. 945",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8294702
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/155/0945-01"
+      ]
+    },
+    {
+      "cite": "248 S. W. 472",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10315808
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/248/0472-01"
+      ]
+    },
+    {
+      "cite": "19 S. W. 775",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "84 Texas 554",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2210119
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/84/0554-01"
+      ]
+    },
+    {
+      "cite": "59 Texas 460",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2173065
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/59/0460-01"
+      ]
+    },
+    {
+      "cite": "149 S. W. (2d) 1031",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10227708
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/149/1031-01"
+      ]
+    },
+    {
+      "cite": "176 S. W. (2d) 987",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10224878
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/176/0987-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 701,
+    "char_count": 14018,
+    "ocr_confidence": 0.665,
+    "pagerank": {
+      "raw": 6.05875719230238e-07,
+      "percentile": 0.955053171053602
+    },
+    "sha256": "9e84294abddde3d7387418f64584248f0aee8950277c3adaabe0fc8d1d833b5c",
+    "simhash": "1:00ed9c30b6af9ca6",
+    "word_count": 2435
+  },
+  "last_updated": "2024-02-27T17:54:29.127269+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "S. E. White v. M. M. White et al."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Judge Folley,\nof the Commission of Appeals, delivered the opinion for the Court.\nThe respondent, M. M. White, and one of his brothers and five sisters, three of them suing as feme soles and the other two being joined by their husbands, brought this suit against the petitioner, S. E. White, another brother, all being the children and surviving heirs of J. M. White and Rachel E. White, both deceased. The suit was for the purpose of partitioning 169 acres of land in Navarro County in equal shares between the eight children. The petitioner interposed as res ad judicata and estoppal by judgment a decree in a former partition suit between the same parties in which petitioner was awarded 9/l6th interest in the land and each of the other seven heirs a l/16th interest. The trial court overruled the defensive pleas of petitioner and rendered judgment decreeing a 1/8 interest in each of the eight children. Such judgment was affirmed by the Court of Civil Appeals. 176 S. W. (2d) 987.\nJ. M. White died intestate in 1917. His wife, Rachel E. White, died October 8, 1936, leaving an instrument purporting to be her will in which she named petitioner her sole beneficiary and independent executor without bond. On June 2, 1937, respondents filed a .partition suit in Cause No. 19656 in the District Court of Navarro County seeking partition of the land in equal shares between the eight children. To distinguish that action from the present partition suit we shall designate it as the first partition suit. On June 11, 1937, petitioner filed in the probate court of Navarro County an application to probate the instrument alleged to be the last will and testament of Rachel E. White. The same was duly admitted to probate on June 28, 1937. The order probating this will was not appealed from. On August 4, 1937, petitioner filed an answer in the first partition suit in the district court alleging that the 169 acres of land was the separate property of his deceased mother and claimed full title to it under the will of his mother theretofore duly probated. By amended and supplemental pleadings filed in the first partition suit respondents attacked the purported will of their deceased mother as being void because of her lack of testamentary capacity and because of undue influence. They also asserted that the land constituted the community property of their deceased parents, rather than the separate property of their deceased mother. Petitioner excepted to the respondents\u2019 pleadings attacking the validity of the will, asserting that the same was collateral attack upon a will duly probated, which order had not been vacated and from which there had been no appeal. These exceptions were sustained by the trial court. The first partition suit proceeded to trial and judgment was rendered on June 27, 1938. The trial court decreed that the land was the community property of J. M. White and his wife, Rachel E. White, and further decreed that a 9/16th interest in the land should vest in petitioner and a l/16th interest in each of the other seven children, and that the same should be partitioned between them. The land was found to be incapable of division and a receiver was appointed to sell the same and to partition the proceeds according to the respective interests decreed in the parties. The receiver qualified and on December 6, 1938, filed his report in such cause showing that he had sold the land to M. M. White for $3,600.00 cash. This report was confirmed by the court on December 15, \u00cd938, and the receiver directed to execute and deliver a deed to the purchaser upon his compliance with the terms of the sale. The receiver died, however, before the sale was consummated and no further action was had in that cause. There was no appeal from such judgment.\nOn September 28, 1938, in accordance with the provisions of Article 5534, Vernon\u2019s Ann. Civ. St., respondents filed in the probate court of Navarro County a contest of the will of their deceased mother theretofore admitted to probate. The attack consisted of the same allegations substantially as they had theretofore attempted to set up in the first partition suit. The judgment was against them in the probate court, but upon appeal to the district court they were successful in obtaining a decree on December 16, 1939, invalidating the will, and the former order of the probate court admitting the same to probate was set aside. Such judgment was affirmed by the Court of Civil Appeals. 149 S. W. (2d) 1031.\nOn November 12, 1942, the present suit was filed by respondents against petitioner in the District Court of Navarro County seeking to partition the same land theretofore involved in the first partition suit. In this suit respondents alleged that by reason of the setting aside of the will they had acquired a new and additional interest since the rendition of the first partition judgment, which interest, they asserted, was in nowise affected or adjudicated in the former suit. In the instant suit respondents made no attack on the former partition judgment. They neither asserted it was invalid nor sought to set it aside. This suit is, therefore, not in the nature of a bill of review and respondents do not so contend.\nThe petitioner filed a plea in abatement in which the former partition decree was interposed as res ad judicata and estoppel by judgment of the present suit. The petition alleged that this suit was purely a collateral proceeding seeking to vacate the former judgment which had become final. His plea in abatement was overruled by the trial court. In his answer, conditioned on his plea in abatement, petitioner reasserted such defensive pleas, which exceptions were also overruled.\nIn a trial before the court without a jury this cause was consolidated with Cause No. 19656, the first partition suit. In connection with the judgment the court found that since the former decree had been entered the will had been invalidated and that such action, left a 1/2 interest in the land to be partitioned in this suit The court further found that the former judgment remained in full force and effect as to the other 1/2 interest in the land and that the present judgment was to partition the new interest created by invalidating the will. In such judgment it was ordered and decreed that petitioner and respondents should each recover an undivided l/8th interest in the land. It was further decreed that the land was incapable of equitable division and that the same be sold by a new receiver appointed by the court and that the proceeds be divided equally among the eight children. There was no order expressly setting aside or modifying the former partition judgment.\nThe Court of Civil Appeals affirmed the judgment upon the same principle upon which respondents proceeded successfully in the trial court, which was that the former partition suit would not afford the basis for res ad judicata or estoppel because the interest of the testatrix was subsequently vested in her heirs when the will was invalidated. In our opinion that both courts below were in error in this conclusion.\nUnder the law of this State when a person dies leaving a lawful will, unless it is otherwise directed therein, all of his estate devised or bequeathed by such will vests immediately in his devisees and legatees subject to the payment of his debts. All of his estate not devised or bequeathed vests immediately in his heirs. If he dies intestate all of his estate vests immediately in his heirs subject to the payment of his debts. Article 3314, Vernon\u2019s Ann. Civ. St.\nAlthough a will may not be used as evidence of title until it has been probated, after it is admitted to probate it becomes a muniment of title until set aside in some lawful manner. Ochoa v. Miller, 59 Texas 460; Moursund v. Priess, 84 Texas 554, 19 S. W. 775; Smith v. Lancaster, 248 S. W. 472; Long v. Shelton, 155 S. W. 945. Ortiz v. De Benavides, 61 Texas 60; Hickman v. Gillum, 66 Texas 314, 1 S. W. 339.\nAt the time of the trial in the first partition suit no lawful attack had been made upon the will and thus no sufficient reason existed to abate the suit. Respondents permitted the cause to proceed to judgment without filing a contest of the will in the probate court or a plea in abatement in the district court. The title to the land was therefore put in issue in the first partition suit and the interests of the parties determined in the judgment. Unless that judgment is void it is not subject to this collateral attack. Assuming that such judgment was not void, it was a final adjudication of the interests of the parties in the land. It distinctly ascertained and determined these interests. After it was entered nothing remained to be done except to carry it into effect by the receiver executing the decree of the court. The merits of the case were determined and the rights of the parties were concluded. Such judgment not having been set aside in any manner provided by law, it is conclusive of the questions determined by it and as to such issues it constitutes a final judgment that may not be disturbed in the manner attempted in this suit. Cannon v. Hemphill, 7 Texas 184; McFarland v. Hall\u2019s Heirs, 17 Texas 676; Petrucio v. Seardon, 76 Texas 639, 13 S. W. 560; Merle v. Andrews, 4 Texas 200; Pearce v. Jackson, 84 Texas 515, 19 S. W. 690.\nThe respondents assert that the district court was without jurisdiction of the subject matter in the first partition suit and therefore the judgment therein is void. They contend that the estate of the deceased was then in the process of administration and therefore the probate court had exclusive jurisdiction.\nIt is the general rule that during the period allowed for administration, before heirs as such may maintain a suit to recover propery which they claim has descended to them, they must show that no administration is pending and none is necessary. Richardson v. Vaughan, 86 Texas 93, 23 S. W. 640; Youngs v. Youngs, 26 S. W. (2d) 191; Cyphers v. Birdwell, 32 S. W. (2d) 937; Laas v. Seidele, 95 Texas 442, 67 S. W. 1015; Giddings v. Steele, 28 Texas 732, 91 Am. Dec. 336; Green v. Rugely, 23 Texas 539; Webster v. Willis, 56 Texas 468; Rogers v. Kennard, 54 Texas 30. The record in the first partition suit does not affirmatively show these necessary jurisdictional facts. Under such circumstances we must concede that such judgment was voidable or erroneous and subject to annulment upon a direct attack. However, mere silence of the record on this subject does not render the judgment void so as to subject its to a collateral attack. In order for a collateral attack to be successful the record must affirmatively reveal the jurisdictional defect. Moore v. Hanscom, 101 Texas 293, 106 S. W. 877. It seems to be the settled rule that if the record in the cause does not negative the existence of facts authorizing the court to render the judgment, the law conclusively presumes that such facts were established before the court when such judgment was rendered, and evidence dehors the record to the contrary will not be received. Templeton v. Ferguson, 89 Texas 47, 33 S. W. 329.\nWhere a court of record, having general jurisdiction, assumes to exercise its jurisdiction in a given case, all presumptions are in favor of the validity of its proceedings; and if the record shows that the steps necessary to clothe it with power to act were taken, or if the record be silent on this subject, then its judgment must be held conclusive in any other court of the same sovereignty when collaterally called into question. Martin v. Robinson, 67 Texas 368, 3 S. W. 550. The question here concerns only the court\u2019s power to render the judgment and not whether, having the power, it rendered an erroneous judgment. Only an entire want of power would render the judgment void. Simmons v. Arnim, 110 Texas 309, 220 S. W. 66. No such jurisdictional defects are here affirmatively shown. This necessarily impels the conclusion that the judgment was not shown to be void and is therefore not subject to this collateral attack. Alston v. Emmerson, 83 Texas 231, 18 S. W. 566, 29 Am. St. Rep. 639; Croon v. Winston, 18 Texas Civ. App. 1, 43 S. W. 1072; Zwernerman v. Rosenberg, 11 S. W. 150; Kay v. Thompson, 40 S. W. (2d) 884; Johnson v. Coit, 48 S. W. (2d) 397.\nSince the judgment in the first partition suit stands unimpeached in this proceeding, it follows that prior to the time the will was declared void the estate of the deceased passed to others under the judgment in question, and no new estate came into being when the will was thereafter invalidated. Such prior judgment is res ad judicata of the interests of the parties in the land and precludes the present demands of respondents inconsistent therewith. Therefore, nothing remains for the trial court to do except to have the land sold and the proceeds of the sale divided among the parties in accordance with the terms of the first partition judgment.\nThe judgments of both courts below are reversed and judgment is rendered in accordance with this opinion.\nOpinion adopted by the Supreme Court April 5, 1944.\nRehearing overruled May 3, 1944.",
+        "type": "majority",
+        "author": "Mr. Judge Folley,"
+      }
+    ],
+    "attorneys": [
+      "Taylor & McWilliams and J. S. Simkins, all of Corcisana, for partitioner.",
+      "Richard & A. P. Mays, of Corsicana, for respondents."
+    ],
+    "corrections": "",
+    "head_matter": "S. E. White v. M. M. White et al.\nNo. A-49.\nDecided April 5, 1944.\nRehearing overruled May 3, 1944.\n(179 S. W., 2d Series, 503.)\nTaylor & McWilliams and J. S. Simkins, all of Corcisana, for partitioner.\nThe Court of Civil Appeals erred in not declaring the former judgment as res ad judicata of this suit and in not holding that respondents were estopped from seeking to modify or change its provisions. DeLaVega v. League, 64 Texas 216; Freeman on Cotenancy and partition, 651; 25 Tex. Jur., 520.\nRichard & A. P. Mays, of Corsicana, for respondents.\nThe trial court was without jurisdiction to deal' with the . half of the tract of land claimed by appellant, S. E. White, by his mother\u2019s will, and the trial court committed no error in overruling his plea in abatement. Moore v. Snowball, 98 Texas 16; Norris v. Belcher Land Mort. Co., 98 Texas 176; Chace v. Gregg, 88 Texas 552."
+  },
+  "file_name": "0499-01",
+  "first_page_order": 517,
+  "last_page_order": 524
+}

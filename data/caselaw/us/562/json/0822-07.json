@@ -1,0 +1,88 @@
+{
+  "id": 5989032,
+  "name": "Mitrano v. District of Columbia Bar",
+  "name_abbreviation": "Mitrano v. District of Columbia Bar",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-10203",
+  "first_page": "822",
+  "last_page": "822",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 822"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "560 U. S. 964",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12455248,
+        12455249,
+        12455250,
+        12455034,
+        12455035,
+        12455036,
+        12455037,
+        12455038,
+        12455039
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/177/0350-05",
+        "/l-ed-2d/177/0350-06",
+        "/l-ed-2d/177/0350-07",
+        "/l-ed-2d/177/0322-05",
+        "/l-ed-2d/177/0322-06",
+        "/l-ed-2d/177/0323-01",
+        "/l-ed-2d/177/0323-02",
+        "/l-ed-2d/177/0323-03",
+        "/l-ed-2d/177/0323-04"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 29,
+    "char_count": 185,
+    "ocr_confidence": 0.488,
+    "sha256": "5fac2c237756cd2a79165397e464a50b22e5336ff8ddf2f92c42cfb3f04c9ba1",
+    "simhash": "1:63b056e2411aca08",
+    "word_count": 32
+  },
+  "last_updated": "2024-02-27T22:51:28.129297+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mitrano v. District of Columbia Bar."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. D. C. Cir. Motion of petitioner for reconsideration of order denying leave to proceed in forma pauperis [560 U. S. 964] denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10203.\nMitrano v. District of Columbia Bar."
+  },
+  "file_name": "0822-07",
+  "first_page_order": 844,
+  "last_page_order": 844
+}

@@ -2,6 +2,27 @@
 
 > **Air-gapped, self-hosted enterprise infrastructure. Zero cloud dependencies.**
 
+**Last Updated:** January 28, 2026
+
+## ⚠️ Important: Use Unified Compose for Development
+
+For local development, use the **unified docker-compose** in the project root:
+
+```bash
+# From project root (not this directory)
+cd ..
+docker-compose -f docker-compose.unified.yml --profile core up -d
+```
+
+The `docker-compose.sovereign.yml` in this directory is for **production sovereign deployments only**. Using it alongside the root `docker-compose.yml` will cause:
+- Port conflicts (Redis, PostgreSQL)
+- Network isolation (services can't communicate)
+- Missing databases (Keycloak/Unleash need DBs created)
+
+See [../docs/DOCKER.md](../docs/DOCKER.md) for complete documentation.
+
+---
+
 This directory contains Docker Compose configurations and setup scripts for the complete Datacendia Sovereign Stack.
 
 ## 🏗️ Architecture Overview
@@ -53,33 +74,51 @@ This directory contains Docker Compose configurations and setup scripts for the 
 - 500GB+ SSD storage
 - Intel i7/i9 or AMD Ryzen 7/9 processor
 
-### 1. Start the Stack
+### For Development (Recommended)
+
+```bash
+# Use unified compose from project root
+cd /path/to/datacendia-components
+
+# Core services only (8GB RAM)
+docker-compose -f docker-compose.unified.yml --profile core up -d
+
+# With sovereign services (32GB RAM)
+docker-compose -f docker-compose.unified.yml --profile core --profile sovereign up -d
+
+# Full stack with observability (64GB RAM)
+docker-compose -f docker-compose.unified.yml up -d
+```
+
+### For Production Sovereign Deployment
 
 ```bash
 cd infrastructure
 
-# Start all services
-docker-compose -f docker-compose.sovereign.yml up -d
+# Ensure no conflicting containers are running
+docker-compose -f ../docker-compose.yml down 2>/dev/null || true
 
-# Or start specific profiles
-docker-compose -f docker-compose.sovereign.yml --profile observability up -d
-docker-compose -f docker-compose.sovereign.yml --profile security up -d
+# Start sovereign stack
+docker-compose -f docker-compose.sovereign.yml up -d
 ```
 
 ### 2. Verify Services
 
-| Service | URL | Default Credentials |
-|---------|-----|---------------------|
-| Grafana | http://localhost:3001 | admin / cendia_sovereign_2025 |
-| Prometheus | http://localhost:9090 | - |
-| MinIO Console | http://localhost:9001 | cendia_admin / cendia_sovereign_2025 |
-| Druid Console | http://localhost:8888 | - |
-| n8n | http://localhost:5678 | admin / cendia_sovereign_2025 |
-| Keycloak | http://localhost:8080 | admin / cendia_sovereign_2025 |
-| Infisical | http://localhost:8090 | (setup required) |
-| Meilisearch | http://localhost:7700 | cendia_sovereign_2025 |
-| Unleash | http://localhost:4242 | (API token) |
-| Airbyte | http://localhost:8000 | - |
+| Service | URL (Unified) | URL (Sovereign) | Default Credentials |
+|---------|---------------|-----------------|---------------------|
+| Frontend | http://localhost:5173 | - | stuart@datacendia.com / DatacendiaOwner2024! |
+| Backend API | http://localhost:3001 | - | - |
+| Grafana | http://localhost:3002 | http://localhost:3001 | admin / datacendia_secure_2024 |
+| Prometheus | http://localhost:9090 | http://localhost:9090 | - |
+| MinIO Console | http://localhost:9001 | http://localhost:9001 | datacendia_admin / datacendia_secure_2024 |
+| Druid Console | http://localhost:8888 | http://localhost:8888 | - |
+| n8n | http://localhost:5678 | http://localhost:5678 | admin / datacendia_secure_2024 |
+| Keycloak | http://localhost:8180 | http://localhost:8080 | admin / datacendia_secure_2024 |
+| Infisical | http://localhost:8090 | http://localhost:8090 | (setup required) |
+| Meilisearch | http://localhost:7700 | http://localhost:7700 | datacendia_secure_2024 |
+| Unleash | http://localhost:4242 | http://localhost:4242 | (API token) |
+| Neo4j Browser | http://localhost:7474 | - | neo4j / datacendia_graph_2024 |
+| Vaultwarden | http://localhost:8005 | http://localhost:8005 | (setup required) |
 
 ### 3. Configure Environment
 

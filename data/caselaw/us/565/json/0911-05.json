@@ -1,0 +1,59 @@
+{
+  "id": 12221561,
+  "name": "Stebbins v. Wal-Mart Stores, Inc.",
+  "name_abbreviation": "Stebbins v. Wal-Mart Stores, Inc.",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5500",
+  "first_page": "911",
+  "last_page": "911",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 911"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 81,
+    "ocr_confidence": 0.688,
+    "sha256": "73be6908cf731000d4391199945cd48d0f131743a28ca3da0c80c888a252b047",
+    "simhash": "1:9bfbb6272d3c3603",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Stebbins v. Wal-Mart Stores, Inc."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5500.\nStebbins v. Wal-Mart Stores, Inc."
+  },
+  "file_name": "0911-05",
+  "first_page_order": 993,
+  "last_page_order": 993
+}

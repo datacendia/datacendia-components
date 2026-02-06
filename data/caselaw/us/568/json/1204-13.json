@@ -1,0 +1,59 @@
+{
+  "id": 12432362,
+  "name": "Bird v. United States",
+  "name_abbreviation": "Bird v. United States",
+  "decision_date": "2013-02-25",
+  "docket_number": "No. 12-8426",
+  "first_page": "1204",
+  "last_page": "1204",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1204"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.629,
+    "sha256": "3a45495d479c1650b8c247c66cadb24daf715f9cc82727c1ef76e6433ea34d92",
+    "simhash": "1:14210d031ba1454e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bird v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8426.\nBird v. United States."
+  },
+  "file_name": "1204-13",
+  "first_page_order": 1280,
+  "last_page_order": 1280
+}

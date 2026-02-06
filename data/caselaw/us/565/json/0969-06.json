@@ -1,0 +1,59 @@
+{
+  "id": 12229657,
+  "name": "Gonzalez v. United States",
+  "name_abbreviation": "Gonzalez v. United States",
+  "decision_date": "2011-10-17",
+  "docket_number": "No. 11-6369",
+  "first_page": "969",
+  "last_page": "969",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 969"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.719,
+    "sha256": "8c9e83dab6b6b63e7304fd79fb9e10b7d03382431346a5f1122cfff28a817035",
+    "simhash": "1:1d7aca13caaf945a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gonzalez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6369.\nGonzalez v. United States."
+  },
+  "file_name": "0969-06",
+  "first_page_order": 1051,
+  "last_page_order": 1051
+}

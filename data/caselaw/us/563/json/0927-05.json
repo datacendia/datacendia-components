@@ -1,0 +1,59 @@
+{
+  "id": 4224373,
+  "name": "Hoffman v. United States",
+  "name_abbreviation": "Hoffman v. United States",
+  "decision_date": "2011-04-04",
+  "docket_number": "No. 10-9316",
+  "first_page": "927",
+  "last_page": "927",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 927"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.552,
+    "sha256": "0037fc0ca3e1271356e5419f8c6bb281081043ca9c9342a95a6e49d16c2c4f8e",
+    "simhash": "1:cc8aef014ebcb106",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hoffman v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9316.\nHoffman v. United States."
+  },
+  "file_name": "0927-05",
+  "first_page_order": 953,
+  "last_page_order": 953
+}

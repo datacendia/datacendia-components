@@ -1,0 +1,59 @@
+{
+  "id": 6030131,
+  "name": "Blodgett v. United States",
+  "name_abbreviation": "Blodgett v. United States",
+  "decision_date": "2011-01-18",
+  "docket_number": "No. 10-7856",
+  "first_page": "1190",
+  "last_page": "1190",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1190"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.647,
+    "sha256": "097949f6395c4ed5f61622af85f4dc2c55b5d52104c045fd5b9be076587b9039",
+    "simhash": "1:87bba7090b9d255e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Blodgett v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7856.\nBlodgett v. United States."
+  },
+  "file_name": "1190-01",
+  "first_page_order": 1212,
+  "last_page_order": 1212
+}

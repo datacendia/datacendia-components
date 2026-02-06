@@ -1,0 +1,61 @@
+{
+  "id": 12431726,
+  "name": "Rutledge v. McDonald, Warden",
+  "name_abbreviation": "Rutledge v. McDonald",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-7435",
+  "first_page": "1187",
+  "last_page": "1187",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1187"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 156,
+    "ocr_confidence": 0.588,
+    "sha256": "b085ed3a03ea9e439449892719c17dcd7eecbe1fbb2104b5c3ecf9233b61b46e",
+    "simhash": "1:8c335a80b72fa462",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Breyer took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Rutledge v. McDonald, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.\nJustice Breyer took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7435.\nRutledge v. McDonald, Warden."
+  },
+  "file_name": "1187-03",
+  "first_page_order": 1263,
+  "last_page_order": 1263
+}

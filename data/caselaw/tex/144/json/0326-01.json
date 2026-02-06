@@ -1,0 +1,636 @@
+{
+  "id": 2336614,
+  "name": "Lower Colorado River Authority v. Chemical Bank. & Trust Company, Trustee et al.",
+  "name_abbreviation": "Lower Colorado River Authority v. Chemical Bank & Trust Co.",
+  "decision_date": "1945-10-31",
+  "docket_number": "No. A-505",
+  "first_page": "326",
+  "last_page": "342",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "144 Tex. 326"
+    },
+    {
+      "type": "parallel",
+      "cite": "190 S.W.2d 48"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "179 S. W. (2d) 987",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10223241
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/179/0987-01"
+      ]
+    },
+    {
+      "cite": "143 Texas 348",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2338539
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/143/0348-01"
+      ]
+    },
+    {
+      "cite": "63 Texas 14",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2165426
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/63/0014-01"
+      ]
+    },
+    {
+      "cite": "83 S. W. (2d) 610",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10248269
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/83/0610-01"
+      ]
+    },
+    {
+      "cite": "125 Texas 512",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2298363
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/125/0512-01"
+      ]
+    },
+    {
+      "cite": "120 S. W. (2d) 861",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10251494
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/120/0861-01"
+      ]
+    },
+    {
+      "cite": "21 S. W. (2d) 747",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10281473
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/21/0747-01"
+      ]
+    },
+    {
+      "cite": "83 S. W. (2d) 629",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10248538,
+        2298303
+      ],
+      "pin_cites": [
+        {
+          "page": "632"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/83/0629-01",
+        "/tex/125/0268-01"
+      ]
+    },
+    {
+      "cite": "125 Texas 268",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2298303
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/125/0268-01"
+      ]
+    },
+    {
+      "cite": "9 S. W., 99",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "30 A. L. R. 407",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "219 Pac., 790",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 N. M. 148",
+      "category": "reporters:state",
+      "reporter": "N.M.",
+      "case_ids": [
+        8841470
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nm/29/0148-01"
+      ]
+    },
+    {
+      "cite": "91 S. W. (2d) 665",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10261064,
+        2296229
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/91/0665-01",
+        "/tex/126/0506-01"
+      ]
+    },
+    {
+      "cite": "229 S. W. 845",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        2284656,
+        10333549,
+        8277184
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/111/0108-01",
+        "/sw/229/0845-01",
+        "/sw/234/1119-03"
+      ]
+    },
+    {
+      "cite": "185 S. W. (2d) 461",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10207488
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/185/0461-01"
+      ]
+    },
+    {
+      "cite": "63 Texas 14",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2165426
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/63/0014-01"
+      ]
+    },
+    {
+      "cite": "21 S. W. (2d) 747",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10281473
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/21/0747-01"
+      ]
+    },
+    {
+      "cite": "28 S. W. (2d) 937",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10285648
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/28/0937-01"
+      ]
+    },
+    {
+      "cite": "261 S. W. 1077",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10335906
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw/261/1077-01"
+      ]
+    },
+    {
+      "cite": "251 S. W. 1107",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10338488,
+        10338600
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw/251/1107-01",
+        "/sw/251/1107-02"
+      ]
+    },
+    {
+      "cite": "111 Texas 108",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2284656
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/111/0108-01"
+      ]
+    },
+    {
+      "cite": "137 S. W. 1120",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8289608
+      ],
+      "pin_cites": [
+        {
+          "page": "1123"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw/137/1120-01"
+      ]
+    },
+    {
+      "cite": "104 Texas 320",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2256891
+      ],
+      "pin_cites": [
+        {
+          "page": "326"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/104/0320-01"
+      ]
+    },
+    {
+      "cite": "75 S. W. 488",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "97 Tex. 1",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2227201
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/97/0001-01"
+      ]
+    },
+    {
+      "cite": "280 S. W. 161",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        2278387,
+        10293487
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/115/0201-01",
+        "/sw/280/0161-01"
+      ]
+    },
+    {
+      "cite": "115 Texas 201",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2278387
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/115/0201-01"
+      ]
+    },
+    {
+      "cite": "79 A. L. R. 983",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "45 S. W. (2d) 130",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2305624,
+        10231770
+      ],
+      "pin_cites": [
+        {
+          "page": "137"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/121/0094-01",
+        "/sw2d/45/0130-01"
+      ]
+    },
+    {
+      "cite": "121 Texas 94",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2305624
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/121/0094-01"
+      ]
+    },
+    {
+      "cite": "274 S. W. 265",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10299263
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw/274/0265-01"
+      ]
+    },
+    {
+      "cite": "280 S. W. 567",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10306722
+      ],
+      "year": 1925,
+      "pin_cites": [
+        {
+          "page": "568"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw/280/0567-01"
+      ]
+    },
+    {
+      "cite": "25 S. W. (2d) 259",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10276463
+      ],
+      "pin_cites": [
+        {
+          "page": "262"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/25/0259-01"
+      ]
+    },
+    {
+      "cite": "286 S. W. 261",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10296339
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw/286/0261-01"
+      ]
+    },
+    {
+      "cite": "10 S. W. (2d) 984",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10303460
+      ],
+      "year": 1926,
+      "pin_cites": [
+        {
+          "page": "986"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/10/0984-01"
+      ]
+    },
+    {
+      "cite": "126 S. W. (2d) 627",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10239021,
+        2322527
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "634"
+        },
+        {
+          "page": "634"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/126/0627-01",
+        "/tex/132/0613-01"
+      ]
+    },
+    {
+      "cite": "132 Texas 613",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2322527
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "624"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/132/0613-01"
+      ]
+    },
+    {
+      "cite": "184 S. W. (2d) 914",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2338539,
+        10221965
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/143/0348-01",
+        "/sw2d/184/0914-01"
+      ]
+    },
+    {
+      "cite": "229 S. W. 845",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        2284656,
+        10333549,
+        8277184
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/111/0108-01",
+        "/sw/229/0845-01",
+        "/sw/234/1119-03"
+      ]
+    },
+    {
+      "cite": "185 S. W. (2d) 461",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10207488
+      ],
+      "pin_cites": [
+        {
+          "page": "467"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/185/0461-01"
+      ]
+    },
+    {
+      "cite": "63 Texas 14",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2165426
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "18"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/63/0014-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1228,
+    "char_count": 37718,
+    "ocr_confidence": 0.594,
+    "pagerank": {
+      "raw": 3.985756982404243e-07,
+      "percentile": 0.9052079870293597
+    },
+    "sha256": "20c15e64626d58be76a2a09df6aa8f2c6a8ba236bebeccb74ecec3f38c42da30",
+    "simhash": "1:3c87c8777562a446",
+    "word_count": 6305
+  },
+  "last_updated": "2024-02-27T23:17:38.113242+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lower Colorado River Authority v. Chemical Bank. & Trust Company, Trustee et al."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Brewster\ndelivered the opinion of the Court.\nOn July 18, 1945, this court rendered an opinion reversing, in part, the judgments of the courts below. The majority of the court as now constituted are convinced that that action was erroneous. Accordingly, the original opinion is withdrawn and the following is substituted therefor.\nThis is a suit by Lower Colorado River Authority, herein designated as LCRA, against Chemical Bank & Trust Company, herein called Trustee, The American National Bank of Austin, herein referred to as Co-Trustee, and the Attorney General of , Texas, seeking a declaratory judgment to determine the validity of Art. 7150, Sec. 4a, Vernon\u2019s Annotated Civil Statutes (Acts 48th Leg., Reg. Ses., Chap. 316, p. 472), and \u201cthe rights, status and other legal relations of the parties\u201d under portions of a trust indenture executed between LCRA and Trustee and Co-Trustee to secure $21,635,000 in revenue bonds issued and sold by LCRA.\nThe trial court\u2019s judgment, unsatisfactory, in part, to LCRA as well as to Trustee and Co-Trustee, was affirmed by the Court of Civil Appeals. 185 S. W. (2d) 461. Consequently, LCRA, Trustee, and Co-Trustee are petitioners here.\nThe sole question presented in the application of LCRA is the validity of Sec. 4a, Art. 7150, supra.\nArt. 7150 lists property which is exempt from taxation. Section 4 deals with public property. Then comes section 4a listing as exempt \u201call property real or personal belonging exclusively to Districts and Authorities created directly by Acts of the Legislature pursuant to Article XVI, Section 59 of the Constitution, as agencies of the State of Texas, and all property real or personal belonging exclusively to Districts and Authorities created or incorporated under laws enacted pursuant to Section 59, Article XVI of the Constitution.\u201d That exemption is then limited, however, by the following proviso, which is the particular portion of the statute under attack:\n\u201cProvided that if any such District or Authority has heretofore acquired or does hereafter acquire property which at the time of such acquisition is or was then subject to taxation, and is at the time of its acquisition being used for generating, transmitting, and distributing electric energy or power, such District or Authority shall at the times prescribed by law for the payment of ad valorem taxes make a payment in lieu of taxes to the State of Texas and to the county, city, and such taxing districts within which such property is situated; such payment in lieu of- taxes to be in the amount which would be realized by levying an ad valorem tax at the current rate for the then current tax year based on the assessed value of such property for the last current year before being acquired by such District or Authority; * *\nAlthough called payments \u201cin lieu of taxes,\u201d the payments are mandatory and must be made when ad valorem taxes are due; they equal what the ad valorem tax would yield by levy at the current rate; they are based on the assessed values fixed for the last year before the property was acquired by the district or authority; and they are secured by a lien on the property. Clearly, therefore, they are taxes, and we so hold; hence the question is whether the property of LCRA is exempt from taxation as public property under Art. XI, section 9, of the Constitution of this state, which reads:\n\u201cThe property of counties, cities and towns, owned and held only for public purposes, such as public buildings and the sites therefor, fire engines and the furniture thereof, and all property used, or intended for extinguishing fires, public grounds and all other property devoted exclusively to the use and benefit of the public shall be exempt from forced sale and from taxation * (Italics ours.)\nThat provision has been construed by this court in such cases as Galveston Wharf Co. v. City of Galveston, 63 Texas, 14, and Corporation of San Felipe de Austin v. State, 111 Texas, 108, 229 S. W. 845. In the Galveston Wharf Co. case, supra, it was held that wharf property owned by the City of Galveston and open to use by all persons and vessels was public property, notwithstanding the fact that compensation was charged for its use, when the money so received, after payment of expenses, was expended for the benefit of the people of the city. In Corporation of San Felipe de Austin v. State, supra, it was decided that land granted by the Mexican Government to the town of San Felipe de Austin for use by its inhabitants as timber and grazing land was not subject to taxation because it was devoted exclusively to a public use.\nSec. 59, Art. XVI, was adopted in 1917 as an amendment to ' the Texas Constitution. Declaring that the control, storing, preservation and distribution of flood waters and the waters of Texas rivers and the development of hydro-electric power are public rights and duties, it authorizes the legislature to divide the state into a proper number of conservation and reclamation districts to accomplish those purposes, \u201cwhich districts shall be governmental agencies and bodies politic and corporate with such powers of government and with the authority to exercise such rights, privileges and functions concerning- the subject matter of this amendment as may be conferred by law.\u201d\nPursuant to that amendment the Legislature in 1934, by Acts 43rd Leg., 4th C. S.,ch. 7, p. 19, created LCRA, stating that it \u201cshall be and is hereby declared to be a governmental agency and body politic and corporate, with the powers of government\u201d and that its creation \u201cis hereby determined to be es- \" sential to the accomplishment of the purposes of Section 59 of Article 16 of the Constitution of the State of Texas, including (to the extent hereinafter authorized) the control, storing, preservation and distribution of the waters of the Colorado River and its tributaries for irrigation, power and other useful purposes, the reclamation and irrigation of arid, semi-arid and other lands needing irrigation, and the conservation and development of the forests, water and hydro-electric power of the State of Texas.\u201d It authorizes LCRA to fix and collect reasonable rates for water, power, electric energy and other services sufficient to pay expenses of operation and maintenance as well as interest and matured principal on payments agreed to be made as to such bonds and to fulfill the terms of any agreements made with its bondholders. The Act exempts all property of LCRA from forced sale. It guarantees free use by the public of LCRA lands for recreation, hunting and fishing, except where such use would interfere with LCRA\u2019s business, grants free public passage to and from all its lakes and provides that the public shall not be charged for the right to hunt, fish, boat or swim in its lakes. Finally, the Act declares that the Legislature\u2019s intention is that rates made and collected by LCRA \u201cshall not be in excess of what may be necessary to fulfill the obligations imposed upon it by this Act;\u201d and it is conceded that no individual will or can ever enjoy any dividends or other income from LCRA\u2019s operation.\nThe vital public purpose served by districts organized under Art. XVI, Sec. 59, supra, is admirably stated in Bexar-Medina-Atascosa Counties Water Improvement Dist. v. State (Civ. App.), 21 S. W. (2d) 747 (er. ref.), and Brazos R. Con. & Rec. Dist. v. McCraw, 126 Texas, 506, 91 S. W. (2d) 665. In the former case it is said that any doubt as to the taxability of their properties should be resolved in favor of reclamation and preservation of the state\u2019s waters rather than taxation.\nIt thus appears from the provisions of our Constitution and legislative enactments thereunder, as they have been construed by our courts, that LCRA is a governmental agency serving a public purpose in controlling and storing the flood waters of the Colorado River and that all benefits derived from its efforts are public benefits. Hence, its property is public property devoted exclusively to public use and is exempt from taxation under Art. XI, Sec. 9, of the Constitution; and the proviso contained in Sec. 4a, Art. 7150, supra, requiring payments \u201cin lieu of taxes,\u201d is void because contrary to the Constitution.\nThat the property in question is revenue-producing because used to generate electricity to be sold to the public does not mean that it is not held only for public purposes nor that it is any the less devoted exclusively to the use and benefit of the public. That precise question was foreclosed in Galveston Wharf Co. v. City of Galveston, supra, in an opinion by Justice Stayton. There, as here, the right of user was open to everybody but no one could actually use the wharf without paying for the privilege, yet this court, through Justice Stayton, said that that fact \u201cdoes not withdraw from it its public character\u201d; that \u201cit is property held only for purposes essentil'ly public, and may be said to be devoted exclusively to the use and benefit of the public.\u201d On that declaration we are content to rest.\nNor can the force of Art. XI, Sec. 9, of the Constitution of this state, be destroyed in this case by any application of the doctrine of ejusdem generis. It is contended that under that doctrine the fact that the words \u201call other property devoted exclusively to the use and benefit of the public\u201d follow the language \u201cpublic buildings and the sites therefor, fire engines and the furniture thereof, and all property used, or intended for ex-tinuishing fires, public grounds\u201d limits the application of the exemption to public buildings and grounds and anything used to fight fires. We do not believe the framers of the Constitution ever intended that the exemption should be so narrowly applied, otherwise the purpose of the exemption would be largely defeated. To apply the doctrine of ejusdem generis in its strict sense would mean that government in Texas could engage in the senseless process of taxing itself, the net result of which would be put to take its own money out of one pocket for the purpose of putting it into another \u2014 less the cost of assessing and collecting the tax. Obviously that procedure could never accomplish anything but an idle expenditure of public funds. See State of New Mexico v. Locke, 29 N. M. 148, 219 Pac., 790, 30 A. L. R. 407.\nTo illustrate, parking meters are now maintained in nearly every city of any importance to assist in providing funds with which the cities may purchase and operate fire fighting machinery, own public grounds, erect public buildings and otherwise perform their functions. To the extent of the revenues they yield, the meters relieve the cities of the necessity of raising those funds by general direct taxation. Therefore, to tax them would mean that what is taken by taxation, plus the cost incident to the process, would have to be made up in some other form of taxation. Again, road machinery owned and used exclusively by a county in constructing and maintaining public roads, trucks owned by the state and used exclusively by it in transporting food and other essential supplies to its eleemosynary institutions and literally hundreds of other items of personal property owned by the public and used exclusively for public purposes would be liable to taxation at the will of the legislature, merely because they cannot be classified as public buildings, public grounds or instrumentalities for extinguishing fires.\nIt is apparent, therefore, that Justice Stayton wrote with his habitual deliberation and accuracy when he rejected the narrow ejusdem generis doctrine contended for in this case, in these words: \u201cThe enumeration of certain things in the section of the Constitution quoted (Art. 11, Sec. 9), as exempt from taxation, was not intended to operate as a' declaration that things not enumerated were subject; but simply to indicate the character of things, and the uses to which they must be appropriated, in order to be entitled to the exemption.\u201d (Italics ours.) Galveston Wharf Co. v. City of Galveston, supra.\nYears later Chief Justice Phillips added his rejection of it when he said in Corporation of San Felipe de Austin v. State, supra, \u201cThe test is not whether the property is used for governmental purposes. That is not the language of the Constitution. This court has never adopted that narrow limitation and the weight of authority is opposed to it. Much public property of municipalities exempt from taxation has, and can have, no governmental use. The test is whether it is devoted exclusively to a public use.\u201d (Italics ours.) Then, citing Galveston Wharf Co. v. City of Galveston, supra, with approval, he added that it would be difficult to find anything \u201cgovernmental\u201d in the public use of a wharf.\nNor are we under any obligation, under the facts of this case, to harmonize Art. XI, Sec. 9, supra, with Art. VIII, Sec. 2, of the Constitution of Texas, which declares that the legislature \u201cmay, by general laws, exempt from taxation public property used for public purposes.\u201d That duty likewise was performed for us a long time ago by Chief Justice Stayton when he said, in Daugherty v. Thompson, 71 Texas, 192, 9 S. W., 99, \u201cAs before said, section 2, article 8, of the Constitution, gave to the Legislature power to exempt property held in private ownership but used for purposes which give to it a public character. (Italics ours.) Section 9 of article XI, however, exempts from taxation \u2018property of counties, cities and towns owned and held only for public purposes, such as public buildings and sites therefor, fire engines and the furniture thereof and all property used or intended for extinguishing fires, public grounds, and all other property devoted exclusively to the use and benefit of the public.\u2019 What the Constitution exempts from taxation the Legislature has no power to require to be taxed.\nThus this court early and unequivocally denied the doctrine that the Legislature has the power to tax all public property except courthouse, jails, fire fighting apparatus, school buildings, playgrounds, libraries, public parks, and the like. It announced in unmistakable language that the Legislature is without power to tax any property publicly owned and held only for public purposes and devoted exclusively to the use and benefit of the public. Yet the Constitution has never been amended either to modify or overrule those clear declarations; nor, in so far as we are advised, has any attempt ever been made so to amend it. So it is not for us now to question them. We hold, therefore, that Sec. 4a, of Art. 7150, R. S., supra, is void.\n-We have concluded that the Court of Civil Appeals reached the correct conclusion on all other questions presented and that no good purpose would be served by writing further on them.\nAccordingly, the judgment heretofore rendered in this cause is set aside and the judgment of the Court of Civil Appeals affirming that of the trial court is affirmed.\nOpinion delivered October 31, 1945.\nRehearing overruled November 28, 1945.",
+        "type": "majority",
+        "author": "Mr. Justice Brewster"
+      },
+      {
+        "text": "Mr. Chief Justice Alexander,\ndissenting.\nI respectfully disagree with that part of the majority opinion wherein it is held that Section 4a, which was added to Revised Statutes, Article 7150, by Acts 1943, 48 Legislature, page 472, chapter 316, is unconstitutional.\nThe statute in question in effect provides that if conservation and reclamation districts, such as the Lower Colorado River Authority, acquire property which, at the time of its acquisition, was subject to taxation, and the property is being used by the District for generating, transmitting, and distributing- electric energy and power, such District shall pay to the county, city, or other taxing unit where the property is situated, in lieu of taxes, an amount equal to what the taxes would have been on such property had it not been acquired by the District.\nI shall assume that the payment required to be made to the county, city,- or other taxing unit, in lieu of taxes, is in fact a tax, as held in the majority opinion. I do not agree with the holding that the Legislature is without power to authorize the District to pay taxes to the local school district or other taxing units on such property.\nThere are two provisions in our State Constitution relating to the exemption from taxation of public property used for public purposes. They are as follows:\n\u201cArticle XI, Sec. 9. The property of counties, cities and towns, owned and held only for public purposes, such as public buildings and the sites therefor. Fire engines and the furniture thereof, and all property used, or intended for extinguishing fires, public grounds and all other property devoted exclusively to the use and benefit of the public shall be exempt from forced sale and from taxation, * * *.\u201d\n\u201cArticle VIII, Sec. 2. All occupation taxes shall be equal and uniform upon the same class of subjects within the limits of the authority levying the tax; but the Legislature may, by general laws, exempt from taxation public property used for public purposes; * * *.\u201d (Emphasis mine.)\nThe above provisions were incorporated in the Constitution for the first time in 1876. It will be noted that one of the provisions automatically exempts from taxation the property of counties, cities and towns \u201cowned and held only for public purposes\u201d and \u201call other property devoted exclusively to the use and benefit of the public\u201d; whereas the other authorizes the Legislature to exempt from taxation \u201cpublic property used for purposes.\u201d Since Article VIII, Section 2, authorizes the Legislature to exempt public property used for public purposes from taxation, it necessarily follows that if such property is not so exempted, it may be taxed by the Legislature. Now, if Article XI, Section 9, automatically exempts all public property used for public purposes from taxation, there was no necessity for inserting in Article VIII, Section 2, the provision authorizing the Legislature to exempt such property from taxation. Obviously, the people in adopting these two constitutional provisions must have intended that some public property used for public purposes should be exempt from taxation automaticallly, while other public property used for public purposes might be exempted or taxed according to the will of the Legislature. Otherwise there was no earthly reason for inserting in the Constitution the provision that the Legislature could exempt from taxation public property used for public purposes. Any other construction would render one of the provisions meaningless. In other words, if the property was automatically exempted from taxation by other provisions, why should the framers of the Constitution provide that the Legislature may exempt it from taxation? A. and M. Consolidated Independent School District v. City of Bryan, 143, Texas 348, 184 S. W. (2d) 914, par. 1.\nIt is the duty of the Court to construe the Constitution, as a whole and to harmonize its provisions, and, if possible, give effect to each and every provision thereof. Texas National Guard Armory Board v. McCraw, 132 Texas 613, 126 S. W. (2d) 627, 634. We should avoid, if possible, any construction that would render any provision thereof meaningless, for we should not assume that the people inserted in the Constitution an entirely meaningless provision. State v. Gillette\u2019s Estate, 10 S. W. (2d) 984, 986, reversing judgment (Civ. App. 1926) Gillette\u2019s Estate v. State, 286 S. W. 261; Eucaline Medicine Co. v. Standard Investment Co., 25 S. W. (2d) 259, 262 (writ refused) ; Brown v. Fidelity Investment Co., 280 S. W. 567, 568, reversing judgment Fidelity Investment Co. v. Brown (Civ. App. 1925), 274 S. W. 265; Jones v. Williams, 121 Texas 94, 45 S. W. (2d) 130, 137, 79 A. L. R. 983; Texas Bank & Trust Co. v. Austin, 115 Texas 201, 280 S. W. 161.\nMoreover, any reasonable doubt as to the constitutionality of a statute should be resolved in favor of the validity of the statute. This Court in the case of Texas National Guard Armory Board v. McCraw, 132 Texas 613, 624, 126 S. W. (2d) 627, 634, said:\n\u201cIf doubt should be raised as to the validity of a statute, such statute should be held valid unless it clearly violates some provision of the Constitution. This Court speaking through Mr. Justice Brown, in the case of Brown v. City of Galveston, 97 Tex. 1, 75 S. W. 488, said: \u2018If there be doubt as to the validity of the law it is due to the co-ordinate branch of the government that its action should be upheld and its decision accepted by the judicial department. In his work on Constitutional Limitations, page 218, Mr. Cooley says: \u201cThe question whether a law be void for its repugnancy to the Constitution is at all times a question of much delicacy, which ought seldom, if ever, to be decided in the affirmative in a doubtful case. The court, when impelled by duty to render such a judgment, would be unworthy of its station could it be unmindful of the solemn obligation which that station imposes; but it is not on slight implication and vague conjecture that the Legislature is to be pronounced to have transcended its powers, and its acts to be considered void. The opposition between the Constitution and the law should be such that the judge feels a clear and strong conviction of their incompatibility with each other.\u201d \u2019 \u201d\nI think it is possible to harmonize and give effect to both of the above-quoted provisions of the Constitution without doing violence to either of them. It will be noted from the provisions of Article XI, Section 9, that the framers of the Constitution in providing that the property of counties, cities and towns \u201cowned and held only for public purposes\u201d should be exempt from taxation, undertook to illustrate by example what was meant by property \u201cowned and held only for public purposes.\u201d The example given were \u201csuch as public buildings and the sites therefor fire engines and the furniture thereof, and all property used, or intended for extinguishing fires, public grounds, etc. (Emphasis mine.) Each example was of property which, by its nature, is available for use by the general public. Not a single example was given in which the property was used for commercial purposes. The examples given comprehend such property as courthouses, jails, fire fighting apparatus, school buildings, playgrounds, libraries, public parks, and the like. They do not embrace property used for commercial purposes, such as generators and distributing lines used in manufacturing and distributing a commodity for sale to the public.\nIt is true that after giving the examples of property which should be automatically exempt from taxation, the further provision was added \u201cand all other property devoted exclusively to the use and benefit of the public.\u201d But in my opinion this did not materially enlarge the scope of this section of the Constitution. There is no material difference between the language \u201cowned and held only for public purposes,\u201d as used in the first part of this section, and the language \u201cand all other property devoted exclusively to the use and benefit of the public,\u201d as used in the latter part thereof. This latter provision meant nothing more than \u201call other property owned and held only for public purposes.\u201d The added provision enlarged the scope only so as to include other property of the same general classification as that previously dealt with and illustrated by examples given, and nothing more. This is so because under the doctrine of ejusdem generis, which is followed in this State, it is a well-established principle of construction that where words particularly designating specific things or classes of things are followed by general words, such as \u201cand others\u201d or \u201cany other,\u201d or \u201call others,\u201d the general words are to be construed as meaning and comprehending only others of the same class or character. This Court recognized the rule of ejusdem generis as a prime rule of construction in this State in the case of Farmers\u2019 & Mechanics\u2019 National Bank v. Hanks, 104 Texas 320, 326, 137 S. W. 1120, 1123, Ann. Cas. 1914B, 368. It was there said:\n\u201cIt is a prime rule of construction that where, in a statute, general words follow a designation of particular subjects or classes of persons the meaning of the general words will be restricted by the particular designation in such statute. This is known as the rule of ejusdem generis and is a rule of almost universal application. Among other statements of this doctrine the following from Lewis\u2019 Sutherland on Statutory Construction has been approved by the courts of this State:\n\u201c \u2018When General Words Follow Particular \u2014 Doctrine of Ejusdem Generis. \u2014 When there are g\u00e9neral words following particular and specific words, the former must be confined to things of the same kind. This is known as the rule or doctrine of ejusdem generis. Some judicial statements of this doctrine are here given. \u201cWhen general words follow an enumeration of particular things, such words must be held to include only such things or objects as are of the same kind as those specifically enumerated.\u201d \u201cThe rule is, that where words of a particular description in a statute are followed by general words that are not so specific and limited, unless there be a clear manifestation of a contrary purpose, the general words are to be construed as applicable to persons or things or cases of like kind to those designated by the particular words.\u201d \u201cIt is a principle of statutory construction everywhere recognized and acted upon, not only with respect to penal statutes but to those affecting only civil rights and duties, that where words particularly designating specific acts or things are followed by and associated with words of general import, comprehensively designating acts or things, the latter are generally to be regarded as comprehending only matters of the same kind or class as those particularly stated. They are to be deemed to have been used, not.in the broad sense which they might bear if standing alone, but as related to the words of more definite and particular meaning with which they are associated.\u201d The general rule is supported by numerous cases.\u2019 (Lewis\u2019 Sutherland on Statutory Construction, section 422.) The same general doctrine, perhaps more particularly applicable to the case in hand, is thus stated in Endlich on Interpretation of Statutes, page 568: \u2018But the general word which follows particular and specific words of the same nature as itself takes its meaning from them, and is presumed to be restricted to the same genus as those words; or, in other words, as comprehending only things of the same kind as those designated by them; unless, of course, there be something to show that a wider sense was included.\u2019 \u201d\nThe doctrine of ejusdem generis, above referred to, is applicable in the construction of the Constitution. 12 C. J. 707.\n\u2022 If we apply such doctrine in this instance it will be seen that by the provisions of Article XI, Section 9, \u201cand all other property devoted- exclusively to the use and benefit of the public,\u201d \u25a0 the framers of the Constitution meant all other property of the classes previously mentioned, such as public buildings, public grounds, fire engines, and the like. If Article XI, Section 9, is given the construction above indicated there will be no conflict between its provisions and the provisions of Article VIII, Section 2. On the other hand, if it is given the construction applied in the majority opinion it. will be in direct conflict with the provision of Article VIII, Section 2, above set out. The construction applied in the majority opinion has the effect of reading out of the Constitution and rendering entirely meaningless the provision which authorizes the Legislature to exempt from taxation public property used for public purposes.\nThis statute imposes a tax only on property of the District used for generating, transmitting, and distributing electric energy and power. The property here involved is revenue producing property. It is used for commercial purposes. It is owned, held, and used only by LCRA. While LCRA is a governmental agency, it is, nevertheless, in fact an industrial enterprise. It operates large generating plants by means of hydraulic power for manufacturing electric power. It transmits and distributes this power over thousands of miles of power lines throughout a large portion of the State. The electric energy generated and transmitted by it is sold to the public. As said by the Court of Civil Appeals in this case: \u201cWhile designated and classified as a governmental agency and body politic and corporate, the Authority\u2019s functions and activities partake in large measure the nature and characteristics, within legislative restrictions, of a large industrial enterprise, rather than of a strictly govermental function. 185 S. W. (2d) 461, 467. There is a vast difference between public buildings and grounds and fire fighting apparatus, which are customarily available for free use by the public, and generators and other appliances that are used in manufacturing a commodity for sale to such of the public as can buy it. The property here attempted to be taxed does not come within the classification of either public buildings, fire fighting apparatus, public grounds, or the like, such as are customarily \u201cdevoted exclusively to the use and benefit of the public\u201d in the sense indicated by the example given in Article XI, Section 9, of the Constitution. The framers of the Constitution had no intention of exempting industrial enterprises, such as LCRA, at the time they framed the language of Article XI, Section 9, of the Constitution.\nThe majority opinion cites only two cases in support of its holding. In one of these, San Felipe de Austin v. State, 111 Texas 108, 229 S. W. 845, the property there involved and sought to be taxed was \u201cpublic grounds\u201d granted to the City of San Felipe de Austin by the Mexican Government for the free use by its inhabitants as timber and grazing lands. Article XI, Section 9, of the Constitution expressly provides that \u201cpublic grounds\u201d shall be exempt from taxation. \u201cPublic grounds\u201d is used as one of the examples of the class of property that is exempt. Consequently the question here involved was not before the Court in that case. The statute here involved does not undertake to impose any tax on any public grounds belonging to the District. In fact, it expressly provides that such property shall not be subject to the obligations imposed by the statute.\nThe other case cited in the majority opinion is the case of Galveston Wharf Co. v. City of Galveston, 63 Texas 14. The property there involved was revenue producing property, and, admittedly, the Court used language indicating that the exemption was allowed by virtue of Article XI, Section 9, of the Constitution. However, the Court did not have before it the question now before this Court. The Court did not have before it the validity of a statute imposing a tax on such property. In fact, there was at that time a statute which expressly exempted all public property from taxation. The property was therefore exempt from taxation under the statute, regardless of the use of which it was put. The Court did not have before it the question of the right of the Legislature to enact a statute authorizing school districts and other taxing units to collect such a tax on revenue producing property, such as is here under consideration. Moreover, in that case the City was attempting to foreclose a tax lien on its own property. It had acquired the property under conditions which compelled it to hold the property \u201cin-under conditions which compelled it to hold the property \u201cin trust for the present and future inhabitants of the city of Galveston, and all and every part thereof shall be inalienable, and not subject to< conveyance, assignment, transfer, pledge, mortgage, or any liability for debt whatever, in any other manner than by the vote of four-fifths of all the qualified voters of said city in favor of some clear and specific proposition therefor.\u201d \u2022 Galveston Wharf Co. v. City of Galveston, 63 Texas 14, 18. Yet the City was attempting to sell the property through the circuitous route of a tax foreclosure in violation of the express terms of the trust agreement under which it had acquired the property. These circumstances were all pointed out by the Court in that case as reasons for denying the right to foreclose the lien. Such circumstances were alone sufficient to justify the Court in holding that the foreclosure proceedings in that case were invalid.\nThere are good reasons why the Legislature should be permitted to tax the properties of all concerns such as we have under consideration in this case. In recent years many such large conservation districts have, by purchase or otherwise, acquired millions of dollars worth of property heretofore owned by privately owned concerns and subject to taxation by school districts and other taxing units. The acquisition of such property by these conservation districts has withdrawn it from taxation. This has left many school districts and other taxing units without sufficient funds to meet their local needs. The Legislature recognized the necessity of adjusting these inequalities and enacted the law here under consideration to effectuate that purpose. These reasons which prompted the Legislature to enact this legislation are clearly set forth in the emergency clause to the Act in question, which reads in part as follows:\n\u201c* * * the fact that there are large conservation districts which have been created by the State of Texas with the right to operate the business of generating, manufacturing, selling, and distributing electricity, and that such districts have acquired millions of dollars worth of heretofore privately owned property from individuals and utility companies, and that by such acquisition all of such properties have been withdrawn from the tax rolls of the cities, school districts, and counties, and that the State has lost all of its tax revenues from such properties, and is allowing these districts to be operated at a great loss to the State and its political subdivisions; and the fact that such loss in revenue is handicapping school districts, cities, counties, and the General Fund of the State of Texas, creates a great emergency * *\nIn this connection it should be noted that LCRA is not contesting the validity of the law in question. It is here contending that the law is valid and that it should be permitted to pay the tax. It is the American National Bank of Austin, as Co-Trustee for the bondholders, that is here contending that the Legislature is without power to authorize the District to use funds that would otherwise be available for the payment of the bonds for the purpose of paying the taxes to the local taxing units. It is sufficient to say that the constitutional authority to levy the tax was in existence at the time the bonds were sold. At that time Article VIII, Section 17, of the Constitution provided as follows:\n\u201cSec. 17. The specification of the objects and subjects of taxation shall not deprive the Legislature of the power to require other subjects or objects to be taxed in such manner as may be, consistent with the principles of taxation fixed in this Constitution.\u201d\nThose who bought the bonds were charged with notice that the State had the right to tax the property in question, and that it might exercise that right at any time. It is a generally accepted rule in this State that all property rights acquired and held, and all contracts made, are subject to the right of the State to levy its taxes and collect its revenues for the support of the government. State for Use of Delta County Levee Imp. Dist. No. 1 v. Bank of Mineral Wells (Tex. Civ. App.), 251 S. W. 1107 (writ refused) ; Preston v. Anderson County Levee Imp. Dist. No. 2 (Tex. Civ. App.), 261 S. W. 1077 (writ refused) ; 9 Tex. Jur., pp. 549, 550, Sec. 114; 61 C. J., pp. 368-9; City of Dallas v. State (Tex. Civ. App.), 28 S. W. (2d) 937 (writ refused) .\nFor the above reasons I am of the opinion that the statute in question was fully authorized by the Constitution of this State.\nOpinion delivered October 31, 1945.\nAssociate Justices Sharp and Simpson concured in this dissenting opinion.",
+        "type": "dissent",
+        "author": "Mr. Chief Justice Alexander,"
+      }
+    ],
+    "attorneys": [
+      "Powell, Wirtz, Rauhut & Gideon and W. S. Gideon, all of Austin, for petitioners, Lower Colorado River Authority.",
+      "Hart & Brown and James P. Hart, for Chemical Bank & Trust Company of New York City, Trustees, Goldsmith & Bagby and Arthur P. Bagby, for the American National Bank of Austro, co-trustees, all of Austin, for respondents."
+    ],
+    "corrections": "",
+    "head_matter": "Lower Colorado River Authority v. Chemical Bank. & Trust Company, Trustee et al.\nNo. A-505.\nDecided October 31, 1945.\nRehearing overruled November 28, 1945.\n(190 S. W., 2d Series, 48.)\nPowell, Wirtz, Rauhut & Gideon and W. S. Gideon, all of Austin, for petitioners, Lower Colorado River Authority.\nThe trial court erred in holding and the Court of Civil Appeals erred in sustaining such holding, that section 4a of Article 7150 requires payments in lieu of taxes to be made by the said authority to be invalid, void and unconstitutional. Lower Colorado River Authority v. McCraw, 125 Texas 268, 83 S. W. (2d) 629, 632; Bexar-Medina-Atascosa Counties Water Dist. v. State, 21 S. W. (2d) 747; San Antonio Ind. Sch. Dist. v. Water Works Board of Trustees, 120 S. W. (2d) 861.\nHart & Brown and James P. Hart, for Chemical Bank & Trust Company of New York City, Trustees, Goldsmith & Bagby and Arthur P. Bagby, for the American National Bank of Austro, co-trustees, all of Austin, for respondents.\nInsofar as Article 7150 section 4a requires payments in lieu of taxes to be made by districts or authorities, created by the Legislature, to the state, city, county or taxing district in which the property is situated, is unconstitutional and void. City of Fort Worth v. Gulf Refining Co., 125 Texas 512, 83 S. W. (2d) 610; Galveston Wharf Co. v. City of Galveston, 63 Texas 14; City of Bryan v. A. & M. Consolidated Ind. Sch. Dist., 143 Texas 348, 179 S. W. (2d) 987."
+  },
+  "file_name": "0326-01",
+  "first_page_order": 352,
+  "last_page_order": 368
+}

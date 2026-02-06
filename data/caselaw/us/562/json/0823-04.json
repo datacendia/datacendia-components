@@ -1,0 +1,92 @@
+{
+  "id": 5997056,
+  "name": "Shahin v. Delaware Department of Finance",
+  "name_abbreviation": "Shahin v. Delaware Department of Finance",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-10505",
+  "first_page": "823",
+  "last_page": "823",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 823"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "561 U. S. 1004",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12455559,
+        12455560,
+        12455561,
+        12455318,
+        12455319,
+        12455320,
+        12455321,
+        12455322,
+        12455323,
+        12455324,
+        12455325
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/177/1084-04",
+        "/l-ed-2d/177/1084-05",
+        "/l-ed-2d/177/1084-06",
+        "/l-ed-2d/177/1053-02",
+        "/l-ed-2d/177/1053-03",
+        "/l-ed-2d/177/1053-04",
+        "/l-ed-2d/177/1053-05",
+        "/l-ed-2d/177/1053-06",
+        "/l-ed-2d/177/1054-01",
+        "/l-ed-2d/177/1054-02",
+        "/l-ed-2d/177/1054-03"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 29,
+    "char_count": 188,
+    "ocr_confidence": 0.589,
+    "sha256": "5e15f16cc7d4b2cef8287c1e533a9b0a3b0beb91897ba7452b79fe2195b48690",
+    "simhash": "1:66a42cf04208a7b9",
+    "word_count": 31
+  },
+  "last_updated": "2024-02-27T22:51:28.129297+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Shahin v. Delaware Department of Finance."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Motion of petitioner for reconsideration of order denying leave to proceed in forma pauperis [561 U. S. 1004] denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10505.\nShahin v. Delaware Department of Finance."
+  },
+  "file_name": "0823-04",
+  "first_page_order": 845,
+  "last_page_order": 845
+}

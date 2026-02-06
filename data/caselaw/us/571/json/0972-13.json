@@ -1,0 +1,68 @@
+{
+  "id": 12704451,
+  "name": "In re Hershel FRANKS, petitioner.",
+  "name_abbreviation": "In re Franks",
+  "decision_date": "2013-10-21",
+  "docket_number": "No. 13\u20136637.",
+  "first_page": "972",
+  "last_page": "972",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 972"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 337"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 498"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 22,
+    "char_count": 141,
+    "sha256": "9740682d553887d2dc070cd96bab0c9e9b284e8cfefd6aab1b36b46850f2144b",
+    "simhash": "1:481ec014f3998541",
+    "word_count": 23
+  },
+  "last_updated": "2021-08-27T20:47:23.363448+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Hershel FRANKS, petitioner."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of habeas corpus denied."
+    ],
+    "corrections": "",
+    "head_matter": "In re Hershel FRANKS, petitioner.\nNo. 13-6637.\nSupreme Court of the United States\nOct. 21, 2013.\nPetition for writ of habeas corpus denied."
+  },
+  "file_name": "0972-13",
+  "first_page_order": 972,
+  "last_page_order": 972
+}

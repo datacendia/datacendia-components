@@ -1,0 +1,59 @@
+{
+  "id": 12415170,
+  "name": "Salas v. Illinois",
+  "name_abbreviation": "Salas v. Illinois",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5008",
+  "first_page": "890",
+  "last_page": "890",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 890"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 79,
+    "ocr_confidence": 0.695,
+    "sha256": "6ea0c2d0913fcbe330962da7af9afad6ada4de07d6024906f9e2e9f112a61b6c",
+    "simhash": "1:0081b24d1405d526",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Salas v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Ill., 1st Dist. ' Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5008.\nSalas v. Illinois."
+  },
+  "file_name": "0890-04",
+  "first_page_order": 966,
+  "last_page_order": 966
+}

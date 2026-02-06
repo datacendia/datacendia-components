@@ -1,0 +1,59 @@
+{
+  "id": 12227500,
+  "name": "Maxwell v. White, Warden",
+  "name_abbreviation": "Maxwell v. White",
+  "decision_date": "2011-10-11",
+  "docket_number": "No. 11-5648",
+  "first_page": "948",
+  "last_page": "948",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 948"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.728,
+    "sha256": "159e2e656443b26545cc5a2a3027b6f40ef5d4c8a5bd97cb0d55a32fd14835fa",
+    "simhash": "1:349b62d28c3d32ee",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Maxwell v. White, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5648.\nMaxwell v. White, Warden."
+  },
+  "file_name": "0948-02",
+  "first_page_order": 1030,
+  "last_page_order": 1030
+}

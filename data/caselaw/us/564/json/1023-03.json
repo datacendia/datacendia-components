@@ -1,0 +1,59 @@
+{
+  "id": 5925835,
+  "name": "Pettus v. United States et al.",
+  "name_abbreviation": "Pettus v. United States",
+  "decision_date": "2011-06-20",
+  "docket_number": "No. 10-9516",
+  "first_page": "1023",
+  "last_page": "1023",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1023"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 79,
+    "ocr_confidence": 0.554,
+    "sha256": "a25f67b3beb18a6ec7ef3ccd67ee99acdc92748408ddbab5692a9784eb53a357",
+    "simhash": "1:97c834691367923c",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Pettus v. United States et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9516.\nPettus v. United States et al."
+  },
+  "file_name": "1023-03",
+  "first_page_order": 1017,
+  "last_page_order": 1017
+}

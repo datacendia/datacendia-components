@@ -1,0 +1,59 @@
+{
+  "id": 12429598,
+  "name": "German v. Horel, Warden",
+  "name_abbreviation": "German v. Horel",
+  "decision_date": "2013-01-14",
+  "docket_number": "No. 12-7423",
+  "first_page": "1132",
+  "last_page": "1132",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1132"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.608,
+    "sha256": "e0fff6ed5c21a5c91d6f8d5f328e38ece25f5f1f1de0e4ce0f884a2eef5f6e9b",
+    "simhash": "1:94b664e13d9fc0e6",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "German v. Horel, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7423.\nGerman v. Horel, Warden."
+  },
+  "file_name": "1132-12",
+  "first_page_order": 1208,
+  "last_page_order": 1208
+}

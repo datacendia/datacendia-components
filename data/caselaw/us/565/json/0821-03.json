@@ -1,0 +1,59 @@
+{
+  "id": 12195458,
+  "name": "Trull v. Smolka et al.",
+  "name_abbreviation": "Trull v. Smolka",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-1430",
+  "first_page": "821",
+  "last_page": "821",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 821"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 70,
+    "ocr_confidence": 0.72,
+    "sha256": "ccfc28175bbdab37875c90d81b28d381e1b4e80ce10e4539271235d65f6e2627",
+    "simhash": "1:00884008d84db161",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Trull v. Smolka et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1430.\nTrull v. Smolka et al."
+  },
+  "file_name": "0821-03",
+  "first_page_order": 903,
+  "last_page_order": 903
+}

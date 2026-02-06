@@ -1,0 +1,61 @@
+{
+  "id": 12253181,
+  "name": "Brown v. United States District Court for the Northern District of Georgia",
+  "name_abbreviation": "Brown v. United States District Court for the Northern District of Georgia",
+  "decision_date": "2012-03-19",
+  "docket_number": "No. 11-8856",
+  "first_page": "1276",
+  "last_page": "1276",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1276"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 29,
+    "char_count": 203,
+    "ocr_confidence": 0.617,
+    "sha256": "05da1a1489f1f38ed50cc73bea13b8491047bb711489a2c70759c81f0eefcb32",
+    "simhash": "1:5f39da021d67ff96",
+    "word_count": 33
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Brown v. United States District Court for the Northern District of Georgia."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certio-rari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8856.\nBrown v. United States District Court for the Northern District of Georgia."
+  },
+  "file_name": "1276-07",
+  "first_page_order": 1358,
+  "last_page_order": 1358
+}

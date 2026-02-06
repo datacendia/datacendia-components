@@ -1,0 +1,59 @@
+{
+  "id": 12197581,
+  "name": "Pruitt v. United States",
+  "name_abbreviation": "Pruitt v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-1484",
+  "first_page": "824",
+  "last_page": "824",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 824"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.569,
+    "sha256": "9ef4f075d175725d312a6276a1a6f75ae778a13d9ab9136800462dfd8448e235",
+    "simhash": "1:01489a1b30c19018",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Pruitt v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1484.\nPruitt v. United States."
+  },
+  "file_name": "0824-04",
+  "first_page_order": 906,
+  "last_page_order": 906
+}

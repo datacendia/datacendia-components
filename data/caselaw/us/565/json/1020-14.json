@@ -1,0 +1,59 @@
+{
+  "id": 12233042,
+  "name": "Sanchez-Jaimes v. United States",
+  "name_abbreviation": "Sanchez-Jaimes v. United States",
+  "decision_date": "2011-11-07",
+  "docket_number": "No. 11-6790",
+  "first_page": "1020",
+  "last_page": "1020",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1020"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 80,
+    "ocr_confidence": 0.683,
+    "sha256": "a89e7141b6f31fd16762f6ac9daae116349c7cdd38059f7cfe3759abc9f45d96",
+    "simhash": "1:040a9382090ed970",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sanchez-Jaimes v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6790.\nSanchez-Jaimes v. United States."
+  },
+  "file_name": "1020-14",
+  "first_page_order": 1102,
+  "last_page_order": 1102
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5958323,
+  "name": "Having v. United States",
+  "name_abbreviation": "Having v. United States",
+  "decision_date": "2010-12-13",
+  "docket_number": "No. 10-7500",
+  "first_page": "1117",
+  "last_page": "1117",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1117"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.593,
+    "sha256": "602993ebfd9816db9d8656f859c31f1bfc7143af6a959167ffdefc4973c5adfe",
+    "simhash": "1:970b8b4323879018",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Having v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7500.\nHaving v. United States."
+  },
+  "file_name": "1117-15",
+  "first_page_order": 1139,
+  "last_page_order": 1139
+}

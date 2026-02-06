@@ -1,0 +1,59 @@
+{
+  "id": 5994370,
+  "name": "Spitsyn v. United States",
+  "name_abbreviation": "Spitsyn v. United States",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8595",
+  "first_page": "1248",
+  "last_page": "1248",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1248"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.611,
+    "sha256": "a8d9ab562d1fa2acc6350ad9a57e452b6a5cc9dc538bbd328f9b1ab64bfbbad4",
+    "simhash": "1:c180239bca95df18",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Spitsyn v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8595.\nSpitsyn v. United States."
+  },
+  "file_name": "1248-12",
+  "first_page_order": 1270,
+  "last_page_order": 1270
+}

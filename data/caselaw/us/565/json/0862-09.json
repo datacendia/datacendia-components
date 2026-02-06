@@ -1,0 +1,59 @@
+{
+  "id": 12209237,
+  "name": "Martinez v. Holder, Attorney General",
+  "name_abbreviation": "Martinez v. Holder",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-11015",
+  "first_page": "862",
+  "last_page": "862",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 862"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 86,
+    "ocr_confidence": 0.682,
+    "sha256": "b3a722bc3fa2202a3e40a78fcdf8533a274957508e1f1caad7174f985db3dc39",
+    "simhash": "1:410162a809bd7047",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Martinez v. Holder, Attorney General."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-11015.\nMartinez v. Holder, Attorney General."
+  },
+  "file_name": "0862-09",
+  "first_page_order": 944,
+  "last_page_order": 944
+}

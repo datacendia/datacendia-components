@@ -1,0 +1,59 @@
+{
+  "id": 12413258,
+  "name": "Ware v. United States",
+  "name_abbreviation": "Ware v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10545",
+  "first_page": "848",
+  "last_page": "848",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 848"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.67,
+    "sha256": "df2b13093ed37b7e7e01eb161e6bce942cf6d768e931c825ba0918f39f195898",
+    "simhash": "1:820b390cced09918",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ware v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10545.\nWare v. United States."
+  },
+  "file_name": "0848-04",
+  "first_page_order": 924,
+  "last_page_order": 924
+}

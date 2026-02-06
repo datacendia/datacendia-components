@@ -1,0 +1,59 @@
+{
+  "id": 5910195,
+  "name": "Kelly v. Maryland",
+  "name_abbreviation": "Kelly v. Maryland",
+  "decision_date": "2011-04-18",
+  "docket_number": "No. 10-9346",
+  "first_page": "947",
+  "last_page": "947",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 947"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 68,
+    "ocr_confidence": 0.555,
+    "sha256": "57836206fcc576cbaa2f9f12b6205dc0a5141aa976196085de51434cbe33aa5d",
+    "simhash": "1:4590514dd010d0f5",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Kelly v. Maryland."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Sp. App. Md. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9346.\nKelly v. Maryland."
+  },
+  "file_name": "0947-15",
+  "first_page_order": 973,
+  "last_page_order": 973
+}

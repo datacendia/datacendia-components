@@ -1,0 +1,59 @@
+{
+  "id": 5981765,
+  "name": "McNeill v. United States",
+  "name_abbreviation": "McNeill v. United States",
+  "decision_date": "2011-03-21",
+  "docket_number": "No. 10-5258",
+  "first_page": "1285",
+  "last_page": "1285",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1285"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 29,
+    "char_count": 182,
+    "ocr_confidence": 0.612,
+    "sha256": "d62b557d3566e48b2bad3c1b31fda511c303cc959b8ae3bd74f75272b81f8c6a",
+    "simhash": "1:6880c95bc251ad1d",
+    "word_count": 31
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McNeill v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. [Certiorari granted, ante, p. 1128.] Motion of petitioner for leave to file volume II of the joint appendix under seal granted.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5258.\nMcNeill v. United States."
+  },
+  "file_name": "1285-03",
+  "first_page_order": 1307,
+  "last_page_order": 1307
+}

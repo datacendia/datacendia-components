@@ -1,0 +1,59 @@
+{
+  "id": 12414968,
+  "name": "Doe v. White Plains Hospital Medical Center et al.",
+  "name_abbreviation": "Doe v. White Plains Hospital Medical Center",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-31",
+  "first_page": "884",
+  "last_page": "884",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 884"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 95,
+    "ocr_confidence": 0.673,
+    "sha256": "8a7d7e8f2ebba5ba06744aef5e0aa1b86ff4b568ba0786c97d9549e76bbb4049",
+    "simhash": "1:d1ca20d313118544",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Doe v. White Plains Hospital Medical Center et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-31.\nDoe v. White Plains Hospital Medical Center et al."
+  },
+  "file_name": "0884-01",
+  "first_page_order": 960,
+  "last_page_order": 960
+}

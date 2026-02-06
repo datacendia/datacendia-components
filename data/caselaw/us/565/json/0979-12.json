@@ -1,0 +1,59 @@
+{
+  "id": 12230473,
+  "name": "United States ex rel. Ubl v. IIF Data Solutions, Inc., et al.",
+  "name_abbreviation": "United States ex rel. Ubl v. IIF Data Solutions, Inc.",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. 11-353",
+  "first_page": "979",
+  "last_page": "979",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 979"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 20,
+    "char_count": 108,
+    "ocr_confidence": 0.673,
+    "sha256": "2985679fb250af33c3c14c9da5056ff1e2a7eeb9d9eac1265bc1cefeed9bdbb9",
+    "simhash": "1:32810ce0d10791b7",
+    "word_count": 20
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "United States ex rel. Ubl v. IIF Data Solutions, Inc., et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-353.\nUnited States ex rel. Ubl v. IIF Data Solutions, Inc., et al."
+  },
+  "file_name": "0979-12",
+  "first_page_order": 1061,
+  "last_page_order": 1061
+}

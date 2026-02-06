@@ -1,0 +1,66 @@
+{
+  "id": 12706499,
+  "name": "Vincent COX, petitioner, v. NORTH CAROLINA.",
+  "name_abbreviation": "Cox v. North Carolina",
+  "decision_date": "2014-05-19",
+  "docket_number": "No. 13\u20139398.",
+  "first_page": "1124",
+  "last_page": "1124",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "572 U.S. 1124"
+    },
+    {
+      "type": "parallel",
+      "cite": "189 L. Ed. 2d 190"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 2310"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 26,
+    "char_count": 203,
+    "sha256": "81ea20a4643fca79de7129c84ab9a1c14b545f6d72033ca643c6d2df3d3f6377",
+    "simhash": "1:797fd2d0a88f658f",
+    "word_count": 32
+  },
+  "last_updated": "2021-09-08T21:16:17.237805+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Vincent COX, petitioner,\nv.\nNORTH CAROLINA."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "Vincent COX, petitioner,\nv.\nNORTH CAROLINA.\nNo. 13-9398.\nSupreme Court of the United States\nMay 19, 2014.\nPetition for writ of certiorari to the Superior Court of North Carolina, Lenoir County, denied."
+  },
+  "file_name": "1124-08",
+  "first_page_order": 1124,
+  "last_page_order": 1124
+}

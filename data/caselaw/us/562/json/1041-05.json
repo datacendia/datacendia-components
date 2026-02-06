@@ -1,0 +1,90 @@
+{
+  "id": 5923738,
+  "name": "Thompson v. North American Stainless, LP",
+  "name_abbreviation": "Thompson v. North American Stainless, LP",
+  "decision_date": "2010-11-15",
+  "docket_number": "No. 09-291",
+  "first_page": "1041",
+  "last_page": "1041",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1041"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "561 U. S. 1041",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12455817,
+        12455822,
+        12455823,
+        12455824,
+        12455825,
+        12455826,
+        12455827,
+        12455828,
+        12455829
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/177/1119-04",
+        "/l-ed-2d/177/1120-03",
+        "/l-ed-2d/177/1120-04",
+        "/l-ed-2d/177/1120-05",
+        "/l-ed-2d/177/1121-01",
+        "/l-ed-2d/177/1121-02",
+        "/l-ed-2d/177/1121-03",
+        "/l-ed-2d/177/1121-04",
+        "/l-ed-2d/177/1121-05"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 44,
+    "char_count": 315,
+    "ocr_confidence": 0.6,
+    "sha256": "9aee62bfa5497fe9752e0daf7865c7613fffadbef14d93de9136bbd73e13f9cf",
+    "simhash": "1:abb6a2228227ec1e",
+    "word_count": 52
+  },
+  "last_updated": "2024-02-27T22:51:28.129297+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this motion."
+    ],
+    "parties": [
+      "Thompson v. North American Stainless, LP."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. [Certiorari granted, 561 U. S. 1041.] Motion of the Acting Solicitor General for leave to participate in oral argument as amicus curiae and for divided argument granted.\nJustice Kagan took no part in the consideration or decision of this motion.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-291.\nThompson v. North American Stainless, LP."
+  },
+  "file_name": "1041-05",
+  "first_page_order": 1063,
+  "last_page_order": 1063
+}

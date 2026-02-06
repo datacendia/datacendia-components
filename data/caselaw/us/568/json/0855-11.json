@@ -1,0 +1,59 @@
+{
+  "id": 12413756,
+  "name": "Hill v. United States",
+  "name_abbreviation": "Hill v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10676",
+  "first_page": "855",
+  "last_page": "855",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 855"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.676,
+    "sha256": "f09a114a286c0d644fb77cc9b47bc0425dff0f4e4c833406d73d42660b1b1a82",
+    "simhash": "1:210a921bca851168",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hill v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10676.\nHill v. United States."
+  },
+  "file_name": "0855-11",
+  "first_page_order": 931,
+  "last_page_order": 931
+}

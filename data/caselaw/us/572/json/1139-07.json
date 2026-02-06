@@ -1,0 +1,68 @@
+{
+  "id": 12706703,
+  "name": "Levar BROWN, petitioner, v. Leroy BACA, Sheriff, Los Angeles County, California.",
+  "name_abbreviation": "Brown v. Baca",
+  "decision_date": "2014-05-27",
+  "docket_number": "No. 13\u20139272.",
+  "first_page": "1139",
+  "last_page": "1139",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "572 U.S. 1139"
+    },
+    {
+      "type": "parallel",
+      "cite": "189 L. Ed. 2d 216"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 2669"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 31,
+    "char_count": 244,
+    "sha256": "7a205bb9ae040402f3a754c512bf18bc1be9ed56e17a19fc2e34fec7804bcb1a",
+    "simhash": "1:71ee72d0298603e3",
+    "word_count": 39
+  },
+  "last_updated": "2021-08-27T20:44:00.426858+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Levar BROWN, petitioner,\nv.\nLeroy BACA, Sheriff, Los Angeles County, California."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of certiorari to the United States Court of Appeals for the Ninth Circuit denied."
+    ],
+    "corrections": "",
+    "head_matter": "Levar BROWN, petitioner,\nv.\nLeroy BACA, Sheriff, Los Angeles County, California.\nNo. 13-9272.\nSupreme Court of the United States\nMay 27, 2014.\nPetition for writ of certiorari to the United States Court of Appeals for the Ninth Circuit denied."
+  },
+  "file_name": "1139-07",
+  "first_page_order": 1139,
+  "last_page_order": 1139
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12245100,
+  "name": "Sarr v. United States",
+  "name_abbreviation": "Sarr v. United States",
+  "decision_date": "2012-01-23",
+  "docket_number": "No. 11-7973",
+  "first_page": "1184",
+  "last_page": "1184",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1184"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.663,
+    "sha256": "1dc6776ff77c913dd7fb724aa3eae0b3063d476214d5a8077deaf1d15c4756fe",
+    "simhash": "1:800a88510aa9f11b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sarr v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7973.\nSarr v. United States."
+  },
+  "file_name": "1184-03",
+  "first_page_order": 1266,
+  "last_page_order": 1266
+}

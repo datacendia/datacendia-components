@@ -1,0 +1,59 @@
+{
+  "id": 5957132,
+  "name": "Clay v. United States",
+  "name_abbreviation": "Clay v. United States",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8285",
+  "first_page": "1241",
+  "last_page": "1241",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1241"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.642,
+    "sha256": "59e2f469225cb74240ca7b77a04d7b4273e5b820bf3711273815b56e31ed1907",
+    "simhash": "1:27aaca19cd8d181d",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Clay v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8285.\nClay v. United States."
+  },
+  "file_name": "1241-05",
+  "first_page_order": 1263,
+  "last_page_order": 1263
+}

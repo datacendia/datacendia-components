@@ -1,0 +1,59 @@
+{
+  "id": 5938366,
+  "name": "Field v. New Jersey",
+  "name_abbreviation": "Field v. New Jersey",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-10920",
+  "first_page": "855",
+  "last_page": "855",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 855"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 82,
+    "ocr_confidence": 0.644,
+    "sha256": "eb4f038f4ff49c79bcee6d921f3081454edb2c9105a3e982379d2e5b6c82d21f",
+    "simhash": "1:2ecdbe500a6f9371",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Field v. New Jersey."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. N. J., App. Div. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10920.\nField v. New Jersey."
+  },
+  "file_name": "0855-12",
+  "first_page_order": 877,
+  "last_page_order": 877
+}

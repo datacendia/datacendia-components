@@ -1,0 +1,59 @@
+{
+  "id": 12203945,
+  "name": "Lagas v. New York",
+  "name_abbreviation": "Lagas v. New York",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10656",
+  "first_page": "843",
+  "last_page": "843",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 843"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 93,
+    "ocr_confidence": 0.673,
+    "sha256": "db3942e732dc710e6b85178a7985e1e229be9709650facfdc9c4b12795f5b315",
+    "simhash": "1:607049462590d152",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lagas v. New York."
+    ],
+    "opinions": [
+      {
+        "text": "App. Div., Sup. Ct. N. Y., 3d Jud. Dept. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10656.\nLagas v. New York."
+  },
+  "file_name": "0843-02",
+  "first_page_order": 925,
+  "last_page_order": 925
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12238919,
+  "name": "U. S. Vision, Inc., et al. v. Johnson",
+  "name_abbreviation": "U. S. Vision, Inc. v. Johnson",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-35",
+  "first_page": "1110",
+  "last_page": "1110",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1110"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 84,
+    "ocr_confidence": 0.734,
+    "sha256": "9e9d9e4421fb1a1b14b740b1014b6c8bf6434195a8ec875a47e8e52f1fce778a",
+    "simhash": "1:129502212bb624fd",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "U. S. Vision, Inc., et al. v. Johnson."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-35.\nU. S. Vision, Inc., et al. v. Johnson."
+  },
+  "file_name": "1110-09",
+  "first_page_order": 1192,
+  "last_page_order": 1192
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5929743,
+  "name": "Arrington v. Georgia",
+  "name_abbreviation": "Arrington v. Georgia",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-10823",
+  "first_page": "853",
+  "last_page": "853",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 853"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 68,
+    "ocr_confidence": 0.574,
+    "sha256": "291bfbf624b26923460115d2e24be166f46f0d8b4dbe3a845ae990229bf68c4e",
+    "simhash": "1:012f8b9187d03c05",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Arrington v. Georgia."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ga. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10823.\nArrington v. Georgia."
+  },
+  "file_name": "0853-05",
+  "first_page_order": 875,
+  "last_page_order": 875
+}

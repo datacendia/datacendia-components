@@ -1,0 +1,59 @@
+{
+  "id": 6029917,
+  "name": "Frankenberry v. Court of Common Pleas of Pennsylvania, Fayette County, et al.",
+  "name_abbreviation": "Frankenberry v. Court of Common Pleas of Pennsylvania",
+  "decision_date": "2011-01-18",
+  "docket_number": "No. 10-7568",
+  "first_page": "1187",
+  "last_page": "1187",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1187"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 19,
+    "char_count": 124,
+    "ocr_confidence": 0.547,
+    "sha256": "210ec0dd4876a90417f2cbce4e290dae8c96970e91c2769fe2bdfdd3de72a6a1",
+    "simhash": "1:d0026ea9c5ccb12c",
+    "word_count": 20
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Frankenberry v. Court of Common Pleas of Pennsylvania, Fayette County, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7568.\nFrankenberry v. Court of Common Pleas of Pennsylvania, Fayette County, et al."
+  },
+  "file_name": "1187-04",
+  "first_page_order": 1209,
+  "last_page_order": 1209
+}

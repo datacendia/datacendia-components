@@ -1,0 +1,59 @@
+{
+  "id": 6019290,
+  "name": "Soliman v. United States",
+  "name_abbreviation": "Soliman v. United States",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8543",
+  "first_page": "1247",
+  "last_page": "1247",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1247"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.637,
+    "sha256": "7290eacd3a1a6c6f021c1eb4a58dec60d7b75caca215027c7d106da4a7df8b94",
+    "simhash": "1:378af899ce85940f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Soliman v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8543.\nSoliman v. United States."
+  },
+  "file_name": "1247-10",
+  "first_page_order": 1269,
+  "last_page_order": 1269
+}

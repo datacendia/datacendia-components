@@ -1,0 +1,59 @@
+{
+  "id": 12248170,
+  "name": "Murphy v. King, Warden, et al.",
+  "name_abbreviation": "Murphy v. King",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-8188",
+  "first_page": "1221",
+  "last_page": "1221",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1221"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 78,
+    "ocr_confidence": 0.63,
+    "sha256": "fcfd51c8f8b20338fb03b4edce5c104134efd30dbbc25879998d12d76c31aa4c",
+    "simhash": "1:18e8e4ad893f96c3",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Murphy v. King, Warden, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8188.\nMurphy v. King, Warden, et al."
+  },
+  "file_name": "1221-14",
+  "first_page_order": 1303,
+  "last_page_order": 1303
+}

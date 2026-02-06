@@ -1,0 +1,59 @@
+{
+  "id": 5902534,
+  "name": "Capener v. United States",
+  "name_abbreviation": "Capener v. United States",
+  "decision_date": "2011-01-18",
+  "docket_number": "No. 10-327",
+  "first_page": "1178",
+  "last_page": "1178",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1178"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.591,
+    "sha256": "5c8984e6cfe0fa10582ca193e1a3b4e39d277c4bb56bfd2015c2f8a72b1b0af7",
+    "simhash": "1:c51b81836bb5197a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Capener v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-327.\nCapener v. United States."
+  },
+  "file_name": "1178-05",
+  "first_page_order": 1200,
+  "last_page_order": 1200
+}

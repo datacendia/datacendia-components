@@ -1,0 +1,59 @@
+{
+  "id": 12429988,
+  "name": "Kim v. Ritter et al.",
+  "name_abbreviation": "Kim v. Ritter",
+  "decision_date": "2013-01-22",
+  "docket_number": "No. 12-605",
+  "first_page": "1143",
+  "last_page": "1143",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1143"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 67,
+    "ocr_confidence": 0.622,
+    "sha256": "dd1a9ad8f1e07243d80f1a58248fb99462c3f6f90fbca2d2551e3429b0906058",
+    "simhash": "1:3a4a4c20490fc0a0",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Kim v. Ritter et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-605.\nKim v. Ritter et al."
+  },
+  "file_name": "1143-13",
+  "first_page_order": 1219,
+  "last_page_order": 1219
+}

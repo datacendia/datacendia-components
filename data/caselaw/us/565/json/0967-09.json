@@ -1,0 +1,59 @@
+{
+  "id": 12229453,
+  "name": "DeBerry v. Davis et al.",
+  "name_abbreviation": "DeBerry v. Davis",
+  "decision_date": "2011-10-17",
+  "docket_number": "No. 11-6040",
+  "first_page": "967",
+  "last_page": "967",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 967"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 72,
+    "ocr_confidence": 0.65,
+    "sha256": "a173a46ac6fc88dbdcd8be2d2d45df06276f26ffec0b85ccb57c81093d15b991",
+    "simhash": "1:b1c83aebdae09335",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "DeBerry v. Davis et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6040.\nDeBerry v. Davis et al."
+  },
+  "file_name": "0967-09",
+  "first_page_order": 1049,
+  "last_page_order": 1049
+}

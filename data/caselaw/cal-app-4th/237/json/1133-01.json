@@ -1,0 +1,980 @@
+{
+  "id": 6055763,
+  "name": "MICHAEL SHERMAN et al., Plaintiffs and Appellants, v. HENNESSY INDUSTRIES, INC., Defendant and Respondent",
+  "name_abbreviation": "Sherman v. Hennessy Industries, Inc.",
+  "decision_date": "2015-06-18",
+  "docket_number": "No. B252566",
+  "first_page": "1133",
+  "last_page": "1153",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "237 Cal. App. 4th 1133"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "941 P.2d 1203",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "67 Cal.Rptr.2d 16",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "16 Cal.4th 953",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1217891
+      ],
+      "pin_cites": [
+        {
+          "page": "982"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/16/0953-01"
+      ]
+    },
+    {
+      "cite": "275 Cal.Rptr. 715",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "225 Cal.App.3d 849",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4392748
+      ],
+      "pin_cites": [
+        {
+          "page": "862-864"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/225/0849-01"
+      ]
+    },
+    {
+      "cite": "882 P.2d 298",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1990,
+      "opinion_index": 0
+    },
+    {
+      "cite": "34 Cal.Rptr.2d 607",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1990,
+      "opinion_index": 0
+    },
+    {
+      "cite": "8 Cal.4th 548",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1985976
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "572-573"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/8/0548-01"
+      ]
+    },
+    {
+      "cite": "179 Cal.Rptr. 923",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "127 Cal.App.3d 862",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2072354
+      ],
+      "pin_cites": [
+        {
+          "page": "865-869"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/127/0862-01"
+      ]
+    },
+    {
+      "cite": "899 P.2d 905",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 Cal.Rptr.2d 836",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "10 Cal.4th 1185",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1992335
+      ],
+      "pin_cites": [
+        {
+          "page": "1188"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/10/1185-01"
+      ]
+    },
+    {
+      "cite": "23 Cal.Rptr.3d 1",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1995,
+      "opinion_index": 0
+    },
+    {
+      "cite": "125 Cal.App.4th 513",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1237762
+      ],
+      "pin_cites": [
+        {
+          "page": "523-524"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/125/0513-01"
+      ]
+    },
+    {
+      "cite": "86 Cal.Rptr.3d 767",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2004,
+      "opinion_index": 0
+    },
+    {
+      "cite": "169 Cal.App.4th 424",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3957518
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "426-435"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/169/0424-01"
+      ]
+    },
+    {
+      "cite": "102 Cal.Rptr. 699",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "26 Cal.App.3d 209",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4421541
+      ],
+      "pin_cites": [
+        {
+          "page": "216"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/26/0209-01"
+      ]
+    },
+    {
+      "cite": "110 Cal.Rptr. 481",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1972,
+      "opinion_index": 0
+    },
+    {
+      "cite": "34 Cal.App.3d 885",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4452676
+      ],
+      "year": 1972,
+      "pin_cites": [
+        {
+          "page": "888-891"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/34/0885-01"
+      ]
+    },
+    {
+      "cite": "148 Cal.Rptr. 843",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1973,
+      "opinion_index": 0
+    },
+    {
+      "cite": "84 Cal.App.3d 868",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2044413
+      ],
+      "year": 1973,
+      "pin_cites": [
+        {
+          "page": "872-880"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/84/0868-01"
+      ]
+    },
+    {
+      "cite": "157 Cal.Rptr. 248",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1978,
+      "opinion_index": 0
+    },
+    {
+      "cite": "95 Cal.App.3d 621",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2004919
+      ],
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "627-629"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/95/0621-01"
+      ]
+    },
+    {
+      "cite": "173 Cal.Rptr. 20",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1979,
+      "opinion_index": 0
+    },
+    {
+      "cite": "117 Cal.App.3d 634",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2052951
+      ],
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "637-638"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/117/0634-01"
+      ]
+    },
+    {
+      "cite": "203 Cal.Rptr. 706",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1981,
+      "opinion_index": 0
+    },
+    {
+      "cite": "157 Cal.App.3d 372",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2149822
+      ],
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "377-378"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/157/0372-01"
+      ]
+    },
+    {
+      "cite": "135 Cal.Rptr.2d 796",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "109 Cal.App.4th 1134",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        597779
+      ],
+      "pin_cites": [
+        {
+          "page": "1147"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/109/1134-01"
+      ]
+    },
+    {
+      "cite": "63 Cal.Rptr.2d 422",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 Cal.App.4th 1218",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        215786
+      ],
+      "pin_cites": [
+        {
+          "page": "1222"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/54/1218-01"
+      ]
+    },
+    {
+      "cite": "195 Cal.Rptr. 867",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "148 Cal.App.3d 336",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2118929
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/148/0336-01"
+      ]
+    },
+    {
+      "cite": "235 P.3d 988",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "113 Cal.Rptr.3d 327",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "50 Cal.4th 512",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6050766
+      ],
+      "pin_cites": [
+        {
+          "page": "534"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/50/0512-01"
+      ]
+    },
+    {
+      "cite": "176 Cal.Rptr. 239",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "122 Cal.App.3d 834",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2066016
+      ],
+      "pin_cites": [
+        {
+          "page": "850"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/122/0834-01"
+      ]
+    },
+    {
+      "cite": "31 Cal.Rptr.2d 525",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "26 Cal.App.4th 217",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6042791
+      ],
+      "pin_cites": [
+        {
+          "page": "222, fn. 3"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/26/0217-01"
+      ]
+    },
+    {
+      "cite": "158 Cal.Rptr.3d 907",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "217 Cal.App.4th 948",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4266759
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/217/0948-01"
+      ]
+    },
+    {
+      "cite": "119 Cal.Rptr. 135",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Cal.App.3d 74",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        6038803
+      ],
+      "pin_cites": [
+        {
+          "page": "78-79"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/45/0074-01"
+      ]
+    },
+    {
+      "cite": "141 Cal.Rptr.3d 167",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "205 Cal.App.4th 1103",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6054052
+      ],
+      "pin_cites": [
+        {
+          "page": "1106-1110"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/205/1103-01"
+      ]
+    },
+    {
+      "cite": "140 Cal.Rptr.3d 268",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "205 Cal.App.4th 782",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4251539
+      ],
+      "pin_cites": [
+        {
+          "page": "784"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/205/0782-01"
+      ]
+    },
+    {
+      "cite": "28 Cal.Rptr.3d 744",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "129 Cal.App.4th 577",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        2482541
+      ],
+      "pin_cites": [
+        {
+          "page": "579-581"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/129/0577-01"
+      ]
+    },
+    {
+      "cite": "90 Cal.Rptr.3d 414",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "171 Cal.App.4th 564",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        12126752
+      ],
+      "pin_cites": [
+        {
+          "page": "571-572"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/171/0564-01"
+      ]
+    },
+    {
+      "cite": "551 P.2d 398",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "131 Cal.Rptr. 78",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "17 Cal.3d 359",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2292860
+      ],
+      "pin_cites": [
+        {
+          "page": "366"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/17/0359-01"
+      ]
+    },
+    {
+      "cite": "501 P.2d 1153",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "104 Cal.Rptr. 433",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "8 Cal.3d 121",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2321916
+      ],
+      "pin_cites": [
+        {
+          "page": "126"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/8/0121-01"
+      ]
+    },
+    {
+      "cite": "377 P.2d 897",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "27 Cal.Rptr. 697",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "59 Cal.2d 57",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4392123
+      ],
+      "pin_cites": [
+        {
+          "page": "59-60"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/59/0057-01"
+      ]
+    },
+    {
+      "cite": "212 Cal.Rptr. 395",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "166 Cal.App.3d 357",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2169635
+      ],
+      "pin_cites": [
+        {
+          "page": "363-364"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/166/0357-01"
+      ]
+    },
+    {
+      "cite": "810 P.2d 549",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1985,
+      "opinion_index": 0
+    },
+    {
+      "cite": "281 Cal.Rptr. 528",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1985,
+      "opinion_index": 0
+    },
+    {
+      "cite": "53 Cal.3d 987",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2358707
+      ],
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "995"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/53/0987-01"
+      ]
+    },
+    {
+      "cite": "28 P.3d 116",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "110 Cal.Rptr.2d 370",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "26 Cal.4th 465",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        456727
+      ],
+      "pin_cites": [
+        {
+          "page": "478"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/26/0465-01"
+      ]
+    },
+    {
+      "cite": "8 P.3d 1089",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "100 Cal.Rptr.2d 352",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "24 Cal.4th 317",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1180120
+      ],
+      "pin_cites": [
+        {
+          "page": "334"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/24/0317-01"
+      ]
+    },
+    {
+      "cite": "42 Cal.Rptr.2d 669",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.App.4th 1654",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4870180
+      ],
+      "pin_cites": [
+        {
+          "page": "1662"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/35/1654-01"
+      ]
+    },
+    {
+      "cite": "24 P.3d 493",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "107 Cal.Rptr.2d 841",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 Cal.4th 826",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        265450
+      ],
+      "pin_cites": [
+        {
+          "page": "850"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/25/0826-01"
+      ]
+    },
+    {
+      "cite": "762 P.2d 46",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "252 Cal.Rptr. 122",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.3d 1092",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1968800
+      ],
+      "pin_cites": [
+        {
+          "page": "1107"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/46/1092-01"
+      ]
+    },
+    {
+      "cite": "266 P.3d 987",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "135 Cal.Rptr.3d 288",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "53 Cal.4th 335",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6050788
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/53/0335-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1596,
+    "char_count": 49170,
+    "ocr_confidence": 0.867,
+    "pagerank": {
+      "raw": 1.1918575976516538e-07,
+      "percentile": 0.5915883512899787
+    },
+    "sha256": "6508045a54222e6402f6fc0269d1b4daa7cf83f82f24189609bb2f328ccd596d",
+    "simhash": "1:fc77e7b3be7c16d8",
+    "word_count": 7461
+  },
+  "last_updated": "2024-02-27T23:21:32.868525+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Epstein, P. J., and Willhite, J., concurred."
+    ],
+    "parties": [
+      "MICHAEL SHERMAN et al., Plaintiffs and Appellants, v. HENNESSY INDUSTRIES, INC., Defendant and Respondent."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nMANELLA, J. \u2014\nAppellant Michael Sherman, individually and as successor in interest to Debra Jean Sherman, together with appellants Richard Sherman and Vicki Marlow, asserted claims for negligence, strict liability, and loss of consortium against respondent Hennessy Industries, Inc. (Hennessy), alleging that a brake lining arcing machine made by its predecessor in interest released asbestos dust that caused Debra Jean Sherman\u2019s mesothelioma. The trial court granted summary judgment in Hennessy\u2019s favor on appellants\u2019 claims, concluding that Hennessy was not liable for injury caused by asbestos dust from brake linings its predecessor in interest neither manufactured nor distributed. We reverse.\nRELEVANT FACTUAL AND PROCEDURAL BACKGROUND\nIn March 2012, appellants initiated the underlying action. Their first amended complaint, filed March 22, 2012, contains claims against Hennessy for negligence, strict liability, false representation, failure to warn, and loss of consortium. The claims rely on allegations that Hennessy\u2019s predecessor in interest, the Automotive Maintenance Machinery Company (AMMCO), designed and sold an arcing machine whose \u201csole function\u201d was to abrade asbestos-containing brake linings by means of sandpaper moving at high speeds, and that the machine released asbestos dust when applied to the linings. Appellants further alleged that from 1962 to 1977, Michael Sherman used the AMMCO machine while working as a mechanic, and that his wife, Debra Jean Sherman, who is deceased, developed mesothelioma as the result of exposure to asbestos dust he carried home from work.\nRelying on O\u2019Neil v. Crane Co. (2012) 53 Cal.4th 335 [135 Cal.Rptr.3d 288, 266 P.3d 987] (O\u2019Neil), Hennessy sought summary adjudication or summary judgment on appellants\u2019 claims, contending that the AMMCO machine itself contained no asbestos and that appellants could not establish the circumstances necessary for the imposition of strict liability on a manufacturer for injury from products it neither made nor distributed. Hennessy maintained that under O\u2019Neil, no such liability arose unless the AMMCO machine\u2019s sole intended purpose was to abrade asbestos-containing brake linings. That condition, Hennessy argued, could not be demonstrated because the AMMCO machine had the capacity to abrade asbestos-free brake linings, which were available in the 1960\u2019s and 1970\u2019s. In opposing summary adjudication and summary judgment, appellants submitted evidence that the machine was designed to grind brake linings only of a certain type, and that during the pertinent period, those linings \u201calmost universally\u201d incorporated asbestos.\nThe trial court granted summary judgment, concluding that the AMMCO machine \u201cdid not contain asbestos, was not designed to be operated exclusively with asbestos-containing brakes, and could be operated with asbestos-free brakes.\u201d On September 6, 2013, judgment was entered in favor of Hennessy and against appellants. This appeal followed.\nDISCUSSION\nAppellants challenge the grant of summary judgment, contending there are triable issues regarding Hennessy\u2019s potential liability for their injuries. For the reasons discussed below, we agree.\nA. Standard of Review\n\u201cA defendant is entitled to summary judgment if the record establishes as a matter of law that none of the plaintiff\u2019s asserted causes of action can prevail. [Citation.]\u201d (Molko v. Holy Spirit Assn. (1988) 46 Cal.3d 1092, 1107 [252 Cal.Rptr. 122, 762 P.2d 46].) Generally, \u201cthe party moving for summary judgment bears an initial burden of production to make a prima facie showing of the nonexistence of any triable issue of material fact; if he carries his burden of production, he causes a shift, and the opposing party is then subjected to a burden of production of his own to make a prima facie showing of the existence of a triable issue of material fact.\u201d (Aguilar v. Atlantic Richfield Co. (2001) 25 Cal.4th 826, 850 [107 Cal.Rptr.2d 841, 24 P.3d 493].) In moving for summary judgment, \u201call that the defendant need do is to show that the plaintiff cannot establish at least one element of the cause of action \u2014 for example, that the plaintiff cannot prove element X.\u201d (Id. at p. 853.)\n\u201c \u2018Review of a summary judgment motion by an appellate court involves application of the same three-step process required of the trial court. [Citation.]\u2019 \u201d (Bostrom v. County of San Bernardino (1995) 35 Cal.App.4th 1654, 1662 [42 Cal.Rptr.2d 669].) The three steps are (1) identifying the issues framed by the complaint, (2) determining whether the moving party has made an adequate showing that negates the opponent\u2019s claim, and (3) determining whether the opposing party has raised a triable issue of fact. (Ibid.) Following a grant of summary judgment, we review the record de novo for the existence of triable issues, and consider the evidence submitted in connection with the motion, with the exception of evidence to which objections were made and sustained. (Guz v. Bechtel National, Inc. (2000) 24 Cal.4th 317, 334 [100 Cal.Rptr.2d 352, 8 P.3d 1089].)\nB. Governing Principles\nIn view of the trial court\u2019s ruling, the key issue is whether under O\u2019Neil, Hennessy can be liable for injuries arising from the application of the AMMCO machine to asbestos-containing brake linings.\n1. Products Liability\nA plaintiff may seek recovery in a \u201cproducts liability\u201d case either on a theory of strict liability or on a theory of negligence. (Merrill v. Navegar, Inc. (2001) 26 Cal.4th 465, 478 [110 Cal.Rptr.2d 370, 28 P.3d 116].) Under either theory, the plaintiff must prove that a defect in the product caused injury. (Ibid.) In addition, to establish a negligence theory, a plaintiff must prove that the defect in the product was due to the defendant\u2019s negligence. (Ibid.) Generally, recovery is permitted for three kinds of defects: manufacturing defects, design defects, and warning defects, that is, inadequate warnings or failures to warn. (Anderson v. Owens-Corning Fiberglas Corp. (1991) 53 Cal.3d 987, 995 [281 Cal.Rptr. 528, 810 P.2d 549]; Merrill v. Navegar, Inc., supra, 26 Cal.4th at p. 479; Powell v. Standard Brands Paint Co. (1985) 166 Cal.App.3d 357, 363-364 [212 Cal.Rptr. 395].)\nHere, Hennessy sought summary adjudication or summary judgment on appellants\u2019 products liability claims, which sound in strict liability and negligence, and their related claims. The claims are founded on allegations that Hennessy failed to give adequate warnings that the AMMCO machine released asbestos dust, and that the machine was defectively designed due to that result of its operation.\nOur focus is on strict liability, as O\u2019Neil places special emphasis on that type of products liability. The doctrine of strict products liability is traceable to Greenman v. Yuba Power Products, Inc. (1963) 59 Cal.2d 57, 59-60 [27 Cal.Rptr. 697, 377 P.2d 897], in which the plaintiff asserted claims against a power tool manufacturer based on injuries he suffered as a result of using the tool. In imposing strict liability for the injuries on the manufacturer, our Supreme Court held that \u201cit was sufficient that plaintiff proved that he was injured while using the [tool] in a way it was intended to be used as a result of a defect in design and manufacture of which plaintiff was not aware that made the [tool] unsafe for its intended use.\u201d (Id. at p. 64.) \u201cThe purpose of such liability,\u201d the court explained, \u201cis to insure that the costs of injuries resulting from defective products are borne by the manufacturers that put such products on the market[,] rather than by the injured persons who are powerless to protect themselves.\u201d (Id. at p. 63.)\nIn later decisions, the Supreme Court established that under the doctrine, courts ordinarily must look beyond the product\u2019s \u201c \u2018normal\u2019 \u201d or intended use to its reasonably foreseeable uses. (Cronin v. J.B.E. Olson Corp. (1972) 8 Cal.3d 121, 126 [104 Cal.Rptr. 433, 501 P.2d 1153] (Cronin); see Horn v. General Motors Corp. (1976) 17 Cal.3d 359, 366 [131 Cal.Rptr. 78, 551 P.2d 398].) \u201cGenerally, foreseeability is relevant in a strict liability analysis to determine whether injury is likely to result from a potential use or misuse of a product.\u201d (O\u2019Neil, supra, 53 Cal.4th at p. 362.) That determination is appropriate because \u201c[t]he design and manufacture of products should not be carried out in an industrial vacuum[,] but with recognition of the realities of their everyday use.\u201d (Cronin, supra, 8 Cal.3d at p. 126; accord, Horn v. General Motors Corp., supra, 17 Cal.3d at p. 366.)\n2. O\u2019Neil\nIn O\u2019Neil, our Supreme Court examined the extent to which a manufacturer may be liable for injuries arising from \u201cadjacent\u201d products, that is, products made and sold by others, but used in conjunction with the manufacturer\u2019s own product. (O\u2019Neil, supra, 53 Cal.4th at p. 342.) There, the family of a deceased United States Navy seaman asserted claims for negligence and strict liability against manufacturers of pumps and valves used on warships, alleging that the serviceman\u2019s exposure to asbestos dust from asbestos-containing materials used in connection with the pumps and valves caused his fatal mesothelioma. (Id. at pp. 342-347.) The court rejected the claims, concluding that \u201ca product manufacturer may not be held liable in strict liability or negligence for harm caused by another manufacturer\u2019s product unless the defendant\u2019s own product contributed substantially to the harm, or the defendant participated substantially in creating a harmful combined use of the products.\u201d (Id. at p. 342.)\nIn assessing the scope of a manufacturer\u2019s liability for injuries arising from \u201cadjacent\u201d products, the court\u2019s attention centered on the strict liability doctrine. (O\u2019Neil, supra, 53 Cal.4th at pp. 342, 348.) The court observed that from the outset, that doctrine had been premised on deficiencies in the defendant\u2019s own product, and that courts had generally rejected strict liability claims \u2014 including \u201cdesign defects\u201d and \u201cduty to warn\u201d claims \u2014 predicated on injuries from \u201centirely distinct\u201d products neither made nor supplied by the defendant. (Id. at pp. 335-353.) The court took special note of Taylor v. Elliott Turbomachinery Co., Inc. (2009) 171 Cal.App.4th 564, 571-572 [90 Cal.Rptr.3d 414], in which the widow of a United States Navy seaman sued several valve and pump manufacturers, alleging that they were responsible for her husband\u2019s asbestos-related injuries. (O\u2019Neil, supra, at pp. 351-352.) In affirming summary judgment in favor of the defendants on the plaintiff\u2019s \u201cduty to warn\u201d strict liability claims, the appellate court in Taylor relied in part on the so-called \u201ccomponent parts doctrine,\u201d which shields the manufacturer of a component part from liability for injuries arising from a finished product into which the component has been integrated, unless the component was defective when it left the manufacturer, or the manufacturer substantially participated in the integration of the component into the finished product. (Taylor, supra, 171 Cal.App.4th at pp. 570-571, 584-586.)\nThe O\u2019Neil court distinguished three decisions in which liability had been imposed on a manufacturer, one of which is pertinent here, namely, Tellez-Cordova v. Campbell-Hausfeld/Scott Fetzger Co. (2004) 129 Cal.App.4th 577, 579-581 [28 Cal.Rptr.3d 744] (Tellez-Cordova) There, the plaintiff asserted strict liability claims based on defective warnings and design defects against manufacturers of grinding, sanding, and cutting tools the plaintiff had used. The plaintiff\u2019s complaint alleged that the defendants\u2019 tools released toxic dust from other manufacturers\u2019 products, and that the dust caused his injuries. (129 Cal.App.4th at pp. 579-581.) The defendants successfully demurred to the complaint on the basis of the component parts doctrine. (Id. at p. 581.) In reversing, the appellate court concluded that the component parts doctrine was inapplicable: \u201cThe facts before us are not that respondents manufactured component parts to be used in a variety of finished products, outside their control, but instead that respondents manufactured tools which were specifically designed to be used with the abrasive wheels or discs they were used with, for the intended purpose of grinding and sanding metals, that the tools necessarily operated with those wheels or discs, that the wheels and discs were harmless without the power supplied by the tools, and that when the tools were used for the purpose intended by respondents, harmful respirable metallic dust was released into the air.\u201d (Id. at p. 582.)\nThe O\u2019Neil court concluded that Tellez-Cordova marked an exception to the general rule barring imposition of strict liability on a manufacturer for harm caused by another manufacturer\u2019s product. (O\u2019Neil, supra, 53 Cal.4th at p. 362.) That exception is applicable when \u201cthe defendant\u2019s own product contributed substantially to the harm . . . .\u201d (Ibid.) In expounding the exception, the court rejected the notion that imposition of strict liability on manufacturers is appropriate when it is merely foreseeable that their products will be used in conjunction with products made or sold by others. (Id. at pp. 361-362.) The O\u2019Neil court further explained: \u201cRecognizing a duty to warn was appropriate in Tellez-Cordova because there the defendant\u2019s product was intended to be used with another product for the very activity that created a hazardous situation. Where the intended use of a product inevitably creates a hazardous situation, it is reasonable to expect the manufacturer to give warnings. Conversely, where the hazard arises entirely from another product, and the defendant\u2019s product does not create or contribute to that hazard, liability is not appropriate. We have not required manufacturers to warn about all foreseeable harms that might occur in the vicinity of their products.\u201d (Ibid.)\nThe O\u2019Neil court further concluded that the facts in Tellez-Cordova differed from the situation before it in two key respects. (O\u2019Neil, supra, 53 Cal.4th at p. 361.) As the \u201csole purpose\u201d of the power tools in Tellez-Cordova was to grind metals, they could only be used in a potentially injury-producing manner, unlike the defendant manufacturers\u2019 pumps and valves, whose \u201cnormal operation . . . did not inevitably cause the release of asbestos dust.\u201d (Ibid.) Moreover, unlike the pumps and valves, \u201cit was the action of the power tools . . . that caused the release of harmful dust, even though the dust itself emanated from another substance.\u201d (Ibid.., italics omitted.) In view of those differences, the pumps and valves did not satisfy two requirements identified by the underlying appellate court for the imposition of strict liability under Tellez-Cordova, namely, that the manufacturer\u2019s product \u201c \u2018is necessarily used in conjunction with another product,\u2019 \u201d and that \u201c \u2018the danger results from the use of the two products together.\u2019 \u201d (Ibid.) The O\u2019Neil court determined that \u201c[the] pumps and valves were not \u2018necessarily\u2019 used with asbestos components, and danger did not result from the use of [the] products \u2018together.\u2019 \u201d (Ibid.)\nAfter determining that the plaintiffs asserted no tenable strict liability claim, the O\u2019Neil court turned to their negligence claims. (O\u2019Neil, supra, 53 Cal.4th at p. 365.) The court declined to impose a duty of care, stating that \u201c[t]he same policy considerations that militate against imposing strict liability in this situation apply with equal force in the context of negligence.\u201d (Id. at p. 366.)\n3. Relevant Posi-O\u2019Neil Decisions\nFollowing O\u2019Neil, two appellate courts have applied the Tellez-Cordova exception to products liability claims resembling those presented here. In Shields v. Hennessy Industries, Inc. (2012) 205 Cal.App.4th 782, 784 [140 Cal.Rptr.3d 268] (Shields), the plaintiffs\u2019 complaints asserted products liability claims predicated on allegations that they suffered injury due to exposure to asbestos dust released by the application of the AMMCO machine to asbestos-containing brake linings. The appellate court reversed judgments on the pleadings in favor of Hennessy, concluding that the plaintiffs\u2019 allegations satisfied the Tellez-Cordova exception to the rule confining strict liability to a manufacturer\u2019s own products, as described in O\u2019Neil. (Id. at pp. 797-798.) The court stated: \u201cTaken as true, the causes of action contend that Hennessy distributed a machine directly to consumers designed only to grind asbestos-containing brake linings, a machine that was defective because its intended operation necessarily released asbestos fibers into the air and was not a machine manufactured for use as a component in another finished product.....[T]he alleged sole and intended use of the brake arcing machine resulted in the release of contained asbestos particles.\u201d (Id. at p. 798.)\nIn Bettencourt v. Hennessy Industries, Inc. (2012) 205 Cal.App.4th 1103, 1106-1110 [141 Cal.Rptr.3d 167] (Bettencourt), which also involved products liability claims based on the AMMCO machine, the appellate court reached a similar conclusion. After Hennessy obtained judgments on the pleadings without leave to amend, the appellate court reversed, concluding that the plaintiffs\u2019 proposed amendments stated facts satisfying the Tellez-Cordova exception. (Id. at pp. 1110-1120.) According to the proposed allegations, \u201cthe sole and intended purpose\u201d of the AMMCO machine \u201cwas to grind asbestos-containing brake linings. At the time in question, all brakeshoe linings used on automobiles and trucks in the United States contained asbestos, and it was not only foreseeable that [the] machines would be used to grind such linings, this was their inevitable use. The asbestos fiber bundles were physically bound in a matrix in the nonfriable linings, and only when subjected to the action of [the] machines were the fibers released into the air where they posed a danger to those exposed. Thus, when used as designed and intended, [the] machines caused the release of the toxic agent that injured plaintiffs, although that agent did not emanate from [the] machines.\u201d (Id. at p. 1117.)\nC. The Parties\u2019 Showings\nWe next examine the parties\u2019 showings, with special attention to the evidence bearing on the Tellez-Cordova exception.\n1. Hennessy\u2019s Evidence\nTo establish that the Tellez-Cordova exception was inapplicable to the AMMCO machine, Hennessy relied primarily on declarations from Dennis Bridge, an expert on industrial safety, and Craig Mountz, a Hennessy engineer. According to Bridge, asbestos-free brake linings have been available in the United States since 1936. In the 1930\u2019s and 1940\u2019s, some domestic corporations obtained patents for such linings, and certain German-made cars used asbestos-free metallic linings. In the 1950\u2019s, asbestos-free linings were sold for use with trucks and the Chevrolet Corvette. In the 1960\u2019s and 1970\u2019s, asbestos-free metallic brake linings were available for the increasingly popular \u201cmuscle\u201d cars and some passenger cars. Since 1961, \u201cVelvetouch\u201d and \u201cVelvetouch Metalik\u201d asbestos-free linings were \u201cwell known in the performance and muscle car industry, but were not . . . limited to such use.\u201d Other brands of asbestos-free linings were also available.\nMountz stated that AMMCO machines were designed to reshape a brake lining by mechanical abrasion, regardless of whether the lining contained asbestos. The machines themselves incorporated no asbestos-containing parts, and AMMCO had otherwise never manufactured, designed, or marketed the brake linings to which the machine had been applied. After AMMCO began making the machine, it manufactured abrasives and other components intended \u201cto better tailor\u201d the machine to certain metallic and high performance linings. In the 1960\u2019s, due to the increasing presence of metallic and high performance linings, AMMCO created a special abrasive belt for high volume use of the machine with such linings.\nHennessy thus maintained that from 1962 to 1974, when Michael Sherman allegedly worked with and around AMMCO machines, asbestos-free brake linings were commercially available in the United States for use on automobiles and light trucks. As Hennessy noted, Sherman acknowledged that he had encountered Velvetouch linings at Pitzer\u2019s Garage, where he worked for three months in or about 1962 and seven years commencing in the late 1960\u2019s.\n2. Appellants\u2019 Evidence\nAppellants contended their claims fell within the Tellez-Cordova exception, offering evidence (1) that the AMMCO machine was designed to abrade only a certain type of lining, namely, drum brake linings for passenger cars and light trucks and (2) that from the late 1960\u2019s to the mid-1970\u2019s, when Michael Sherman suffered his principal exposure to asbestos dust, brake linings of that type \u201calmost universally\u201d contained asbestos. Appellants relied on deposition testimony from Mountz, who stated that AMMCO manufactured the machine from 1949 to the 1980\u2019s. Although AMMCO offered different models during that period, they were \u201cbasically all the same machine.\u201d All were designed to abrade only drum brake linings for passenger cars and light trucks. From the outset, AMMCO knew that the machine generated dust by sanding and abrading the linings. Thus, every machine was equipped and sold with a dust collection system.\nAppellants also submitted a declaration from industrial safety expert Mark Levin, who stated: \u201c[Commercially available drum brake linings for passenger cars and light trucks in the United States in the 1960[\u2019]s and 1970[\u2019]s contained asbestos. . . . Although other friction materials were available at the time to a very limited extent, [those] materials were not appropriate for brakes on passenger cars and light trucks designed in the United States. . . . [M]etallic brake drum linings, while used for heavy[] duty applications or for applications involving severe usage conditions, such as in race cars, were too sensitive to prior usage, temperature and moisture for use in passenger cars and light trucks. .. . Semi-metallic formulations were [also] not commercially acceptable .... Manufacturers experimented with various non-asbestos formulations for drum brake linings beginning in the 1980\u2019s, but did not eliminate the use of asbestos brake linings until 2000. ... As late as 1986, asbestos brake linings still accounted for 90 to 95 percent of the original equipment market and virtually 100 percent of the aftermarket.\u201d\nLevin further stated that \u201c[t]he rare exception to the near universal use of asbestos-containing drum brake linings in the 1950[\u2019]s, 1960[\u2019]s and 1970[\u2019]s was the limited availability of metallic drum brake linings as an option for certain high-performance cars. Cerametallic drum brake linings could be purchased as an option for the 1958 Corvette, but this application was for racing only, not for road use.\u201d According to Levin, unconventional metallic brake pads were offered for use on a later Corvette model, but the AMMCO machine was not designed for use on such pads, which required no grinding.\nAppellants also submitted evidence regarding AMMCO\u2019s efforts to mitigate the hazard created by the machine\u2019s generation of asbestos dust. According to that showing, from 1940 to 1973, the machine\u2019s dust collection system relied on a fabric bag. In January 1973, a study conducted for AMMCO by the National Loss Control Service Corporation (NLCSC) disclosed that use of the machine with the then existing dust collection system resulted in exposure to asbestos fibers under OSHA limits. At some point in 1973, AMMCO began offering a system that it advertised as a \u201chighly efficient means of collecting . . . dangerous asbestos dust.\u201d (Italics omitted.) Affixed to the system was a label stating \u201cBRAKE LINING MATERIALS CONTAIN ASBESTOS.\u201d\nIn January 1978, at AMMCO\u2019s request, the NLCSC conducted a study of the asbestos dust collection system. The study showed that although the system potentially reduced exposure to asbestos fibers below OSHA limits, the machine generated measurable levels of fiber when the system was attached, and \u201cexcessive\u201d levels when removed. Later, in July 1978, the NLCSC conducted a study of the machines for AMMCO. The NLCSC noted that \u201c[t]he major product liability\u201d associated with the machines was the potential exposure of workers to asbestos fibers, and advised AMMCO to provide adequate instructional materials regarding the operation of the asbestos dust collection system.\nIn October 1986, the NLCSC conducted another study of the machines for AMMCO. The NLCSC reported that the machines, when used to grind brake linings, generated concentrations of asbestos fibers in excess of then permissible OSHA limits.\nD. Analysis\nOur focus is on the Tellez-Cordova exception, even though that exception directly attaches to the rule shielding a product manufacturer from strict liability for injuries from \u201cadjacent\u201d products, as the grant of summary judgment relied solely on a determination that the exception is inapplicable. We therefore limit our inquiry to whether the AMMCO machine \u201ccontributed substantially to the harm\u201d (O\u2019Neil, supra, 53 Cal.4th at p. 362). For the reasons discussed below, we conclude that summary judgment was improperly granted.\nThe application of the Tellez-Cordova exception, as expounded in O\u2019Neil, requires a special relationship between the manufacturer\u2019s product and the alleged harm. O\u2019Neil provided no definition of that relationship, but identified factors relevant to its existence. (O\u2019Neil, supra, 53 Cal.4th at pp. 361-362.) Although the O\u2019Neil court rejected the underlying appellate court\u2019s imposition of strict liability on the defendant manufacturers, the O \u2019Neil court appears to have agreed that at least two factors proposed by the underlying court are required for the relationship, namely, that the manufacturer\u2019s product \u201c \u2018is necessarily used in conjunction with another product,\u2019 \u201d and that \u201c \u2018danger results from the use of the two products together.\u2019 \u201d (O\u2019Neil, supra, 53 Cal.4th at p. 361.) However, the O\u2019Neil court explained the requisite relationship in more stringent terms, stating that a duty to warn was properly imposed in Tellez-Cordova because \u201cthe defendant\u2019s product was intended to be used with another product for the very activity that created a hazardous situation.\u201d (Ibid.) Thus, such a duty is imposed when \u201cthe intended use of a product inevitably creates a hazardous situation . . . ,\u201d but not when that situation is merely foreseeable and is due solely to another product. (Id. at pp. 361-362, italics added.)\nAppellants\u2019 showing, if credited, establishes that the relationship between the AMMCO machine and the related harm closely resembles the product-harm relationship in Tellez-Cordova. For purposes of the strict liability doctrine, evidence regarding a product manufacturer\u2019s target market and \u201c \u2018marketing scheme\u2019 \u201d is relevant to show the product\u2019s intended and foreseeable uses. (Dosier v. Wilcox-Crittendon Co. (1975) 45 Cal.App.3d 74, 78-79 [119 Cal.Rptr. 135].) According to appellants\u2019 evidence, AMMCO designed the machine to abrade drum brake linings for passenger cars and light trucks, the vast majority of which contained asbestos from the 1960\u2019s to the mid-1970\u2019s. Although the machine could be used with all available drum brake linings for passenger cars and light trucks, AMMCO gave special attention to machine users who applied it to asbestos-containing linings, as AMMCO began to market an asbestos dust collection system for the machine in 1973. That attention was unsurprising, as asbestos-containing drum brake linings were \u201cnear universal.\u201d Because the machine necessarily created dust in its intended use, its application to the linings then available made it virtually inevitable that the average user would be exposed to hazardous asbestos dust.\nIn our view, the product-harm relationship involving the AMMCO machine satisfies the factors identified in O\u2019Neil for application of the Tellez-Cordova exception. Appellants\u2019 evidence shows that the AMMCO machine was necessarily used with drum brake linings, and that asbestos dust resulted from that joint use. Furthermore, the machine was intended to be used with drum brake linings \u201cfor the very activity\u201d that generated the asbestos dust, the creation of which was \u201cinevitable]\u201d \u2014 rather than merely foreseeable \u2014 due to the overwhelming prevalence of asbestos-containing linings. (Italics omitted.)\nHennessy contends that the Tellez-Cordova exception is inapplicable because the machine was designed to abrade all available drum brake linings for passenger cars and light trucks, regardless of the composition of the linings. Pointing to Tellez-Cordova, as well as O\u2019Neil, Shields, and Bettencourt, Hennessy argues that a product falls outside the exception unless it can be used only in an injury-producing manner. We disagree.\nBecause those decisions do not expressly impose Hennessy\u2019s proposed condition, to determine the scope of the Tellez-Cordova exception, we may properly examine the policies underlying the rule shielding a product manufacturer from strict liability for injuries due to an \u201cadjacent\u201d product. (O\u2019Neil, supra, 53 Cal.4th at p. 362.) As explained in O\u2019Neil, strict liability for such injuries is ordinarily imposed only on the manufacturer of the \u201cadjacent\u201d product, as product manufacturers generally lack continuing business relationships, and thus cannot exert pressure on one another to ensure that all make safe products. (Id. at p. 363.) Moreover, it is unfair to impose strict liability on manufacturers that derive no economic benefit from the sale of the injurious product. (Ibid.)\nAlthough O\u2019Neil does not discuss the policy rationale underlying the Tellez-Cordova exception, the key consideration relevant to it appears to be derived economic benefit, as nothing in Tellez-Cordova suggests that the tool manufacturer there had continuing business relationships with the manufacturers of the other relevant products. Because the manufacturer\u2019s tool was useable only with certain other products, it indirectly derived economic benefit from their sale. Accordingly, as the combined use of the tool with those products inevitably created a hazardous condition, it was fair to require the tool manufacturer to share liability for the resulting injuries.\nHere, AMMCO derived a similar economic benefit from the sale of drum brake linings for passenger vehicles and light trucks as the tool manufacturer in Tellez-Cordova reaped from the sale of the products on which its grinders, sanders and saws operated. And, as in Tellez-Cordova, owing to the near-universal use of asbestos-containing drum brake linings during the pertinent period, Sherman\u2019s use of the machine \u201cfor the very activity that created a hazardous situation\u201d was not merely possible, but inevitable (O\u2019Neil, supra, 53 Cal.4th at p. 361, italics omitted). We find the relevant question not whether asbestos-containing brake linings were necessary to the operation of AMMCO\u2019s machine, as Hennessy maintains, but whether someone using the grinder as intended during the period in question would invariably have been subjected to asbestos dust. On this record, the answer is \u201cyes.\u201d\nHennessy\u2019s reliance on this court\u2019s decision in Sanchez v. Hitachi Koki, Co., Ltd. (2013) 217 Cal.App.4th 948 [158 Cal.Rptr.3d 907] is misplaced. There, a worker, disregarding express warnings to the contrary, inserted a saw blade into a power grinder, and suffered injury from the saw blade while using the grinder. (Sanchez v. Hitachi Koki, Co., Ltd., supra, 217 Cal.App.4th at pp. 950-951.) He asserted products liability claims against the grinder\u2019s manufacturer, which sought summary judgment under O\u2019Neil on the ground that it neither made nor sold the blade, and that the grinder was never intended to be used with a saw blade. (Id. at p. 952.) In affirming the grant of summary judgment, this court concluded that O\u2019Neil barred imposition of liability on the manufacturer for the worker\u2019s conceded misuse of its product. (Id. at pp. 954-959.) Distinguishing Tellez-Cordova, we noted that \u201c[Plaintiffs\u2019] own expert opined that the grinder was not intended to be used with a saw blade, and the manual warned that use of a saw blade was \u2018dangerous and may cause personal injury or property damage.\u2019 \u201d (Id. at p. 957.) In contrast, appellants\u2019 claims are predicated on the intended use of the AMMCO machine, and thus fall within the Tellez-Cordova exception.* ****\nHennessy also contends that appellants cannot demonstrate another fact crucial to the Tellez-Cordova exception, namely, that the relevant brake linings were safe absent the use of the AMMCO machine. In seeking summary judgment, \u201ca defendant may rely on the complaint\u2019s factual allegations, which constitute judicial admissions. [Citations.] Such admissions are conclusive concessions of the truth of a matter and effectively remove it from the issues.\u201d (Foxborough v. Van Atta (1994) 26 Cal.App.4th 217, 222, fn. 3 [31 Cal.Rptr.2d 525].) The crux of Hennessy\u2019s argument is that the allegations in the first amended complaint foreclose appellants\u2019 ability to show the pertinent fact. For the reasons discussed below, we disagree.\nOur focus is on whether appellants can show that the brake linings did not release asbestos fibers in their ordinary baseline state, absent the operation of the AMMCO machine. As Hennessy notes, in Tellez-Cordova, Shields, and Bettencourt, the allegations identified as sufficient to state a products liability claim included an allegation that the products to which the pertinent tool or machine was applied released no hazardous dust when the tool or machine was not operating. (Tellez-Cordova, supra, 129 Cal.App.4th at p. 585; Shields, supra, 205 Cal.App.4th at p. 797; Bettencourt, supra, 205 Cal.App.4th at p. 1117.) Hennessy argues that appellants cannot establish that fact because their first amended complaint alleges that the \u201csawing, chipping, hammering, scraping, sanding, breaking, removal, \u2018rip-out\u2019, and other manipulation\u201d of asbestos-containing products \u201cresults] in the release of airborne asbestos fibers . . . .\u201d However, although the complaint alleges that asbestos fibers generally may be released from products in many ways, it contains no specific allegations regarding how or when the pertinent asbestos-containing linings did so. Thus, the complaint\u2019s general allegations cannot reasonably be regarded as a binding admission that the linings released asbestos fibers regardless of whether they were being abraded by the machine. Accordingly, Hennessy has failed to carry its initial burden on summary judgment regarding whether the brake linings were safe when not acted upon by the AMMCO machine.\nMoreover, an allegation that is not dispositive regarding a matter does not preclude the plaintiff from offering additional evidence. (Electronic Equipment Express, Inc. v. Donald H. Seiler & Co. (1981) 122 Cal.App.3d 834, 850 [176 Cal.Rptr. 239].) Here, appellants submitted evidence that when linings were placed on the machine while it was not operating, the linings emitted no measurable amounts of fibers. The July 1978 NLCSC report regarding the asbestos dust collection system stated when the machines were prepared for testing, no \u201ccountable\u201d asbestos fibers were detected near the machines prior to \u201cactivity\u201d and that measureable concentrations of fibers arose during grinding operations. In addition, the October 1986 NLCSC report stated that no detectable asbestos fibers were found during certain maintenance operations on drum brake linings not involving the machine. Those reports are sufficient to raise triable issues whether the linings emitted fibers in the absence of grinding activity upon them. We therefore conclude that summary judgment was improperly granted.\nDISPOSITION\nThe judgment is reversed, and the matter is remanded to the trial court with directions to vacate the grant of summary judgment, and enter an order denying Hennessy\u2019s motion for summary judgment or summary adjudication. Appellants are awarded their costs on appeal.\nEpstein, P. J., and Willhite, J., concurred.\nA petition for a rehearing was denied July 8, 2015, and the opinion was modified to read as printed above. Respondent\u2019s petition for review by the Supreme Court was denied September 30, 2015, S228087.\nHere, our review encompasses all the evidence submitted by the parties, even though they raised numerous written evidentiary objections to the showing proffered by their adversary. Because the trial court did not expressly rule on the objections, we presume them to have been overruled. (Reid v. Google, Inc. (2010) 50 Cal.4th 512, 534 [113 Cal.Rptr.3d 327, 235 P.3d 988].) As no objection has been reasserted on appeal, all have been forfeited.\nThe other two decisions were DeLeon v. Commercial Manufacturing & Supply Co. (1983) 148 Cal.App.3d 336 [195 Cal.Rptr. 867] (DeLeon) and Wright v. Stang Manufacturing Co. (1997) 54 Cal.App.4th 1218, 1222 [63 Cal.Rptr.2d 422] (Wright). In DeLeon, the plaintiff, a worker in a fruit processing plant, was injured when her arm was caught in a rotating power shaft located three feet above a fruit bin she had been cleaning. (148 Cal.App.3d at pp. 340-341.) She sued the bin\u2019s manufacturer, which obtained summary judgment on her strict liability claims. (Id. at pp. 340-342.) The appellate court reversed, concluding there were triable issues regarding the application of the component parts doctrine, as there was evidence the manufacturer had participated in the design of the production line that incorporated the bin. (Id. at p. 345.) In distinguishing DeLeon, the O\u2019Neil court noted that there was no evidence the valve and pump manufacturers played such a role regarding the use of their products on warships. (O\u2019Neil, supra, 53 Cal.4th at p. 359.)\nIn Wright, the defendant manufactured a water cannon that had been mounted on a fire engine. (Wright, supra, 54 Cal.App.4th at p. 1222.) When the plaintiff, a firefighter, used the water cannon, it broke loose, threw him to the ground, and fell on him. {Ibid.) The defendant obtained summary judgment on the plaintiff\u2019s strict liability claim on the theory that the cannon\u2019s mount, rather than the cannon itself, was defective. (Id. at pp. 1222-1223.) In reversing the grant of summary judgment, the appellate court concluded there were triable issues whether the cannon suffered from a design defect because it was incompatible with a sufficiently strong mounting system; in addition, the court determined there were triable issues whether the defendant had failed to warn about a potential mismatch between the cannon\u2019s water pressure and the strength of its mount. (Id. at p. 1236.) The O\u2019Neil court concluded that Wright was distinguishable because the firefighter\u2019s injuries arose from a failure of the entire water cannon assembly, rather than from the failure of a component part not made by the defendant. (O\u2019Neil, supra, 53 Cal.4th at pp. 359-360.)\nAlthough we may affirm the summary judgment on a ground not relied upon by the trial court if the parties have had an adequate opportunity to address that ground (Byars v. SCME Mortgage Bankers, Inc. (2003) 109 Cal.App.4th 1134, 1147 [135 Cal.Rptr.2d 796]; Code Civ. Proc., \u00a7 437c, subd. (m)(2)), Hennessy has identified no ground on appeal unrelated to the Tellez-Cordova exception.\nThe AMMCO machine is thus distinguishable from matches and saws, which O 'Neil states are outside the scope of the Tellez-Cordova exception. In explaining why the exception is inapplicable when it is merely foreseeable that a product will be used in conjunction with another hazardous product, the O\u2019Neil court stated that such a view \u201cwould require match manufacturers to warn about the dangers of igniting dynamite . . . . [\u00b6] . . . California law does not impose a duty to warn about dangers arising entirely from another manufacturer\u2019s product, even if it is foreseeable that the products will be used together. Were it otherwise, manufacturers of the saws used to cut [asbestos-containing] insulation would become the next targets of asbestos lawsuits.\u201d (O\u2019Neil, supra, 53 Cal.4th at p. 361.) Unlike matches and saws, which are used with a wide array of different products, the AMMCO machine\u2019s role in the creation of the relevant hazardous condition was not merely foreseeable, but intended and contributed substantially to the condition itself. Similarly, unlike the pumps and valves in O\u2019Neil, which did not cause the release of asbestos fibers, here, it was the grinding action of AMMCO\u2019s machine that generated the release of harmful asbestos dust.\nNone of the cited decisions required satisfaction of the proposed condition. In Tellez-Cordova, which addressed the legal adequacy of products liability claims in the context of a demurrer, the appellate court found that the complaint\u2019s allegation that the pertinent tools \u201chad no function without the abrasives which disintegrated into toxic dust\u201d sufficed to state strict liability claims. (Tellez-Cordova, supra, 129 Cal.App.4th at p. 585.) In O\u2019Neil, the court distinguished Tellez-Cordova from the factual situation presented to it by reference to that allegation, but did not expressly confine the Tellez-Cordova exception to products possessing a sole or unique harm-producing purpose or function. (O\u2019Neil, supra, 53 Cal.4th at pp. 361-362.) Shields and Bettencourt, which also addressed the legal adequacy of products liability claims in the context of a demurrer, concluded only that such an allegation sufficed for the imposition of liability. (Shields, supra, 205 Cal.App.4th at p. 798; Bettencourt, supra, 205 Cal.App.4th at p. 1107.)\nThe other decisions upon which Hennessy relies also are distinguishable. Most exemplify the component parts doctrine, which is inapplicable here because the AMMCO machine cannot reasonably be regarded as a component of a finished product over which AMMCO lacked control. (Powell v. Standard Brands Paint Co., supra, 166 Cal.App.3d at pp. 360-367 [manufacturer of paint thinner used in construction project was not liable for injuries arising from use of similar thinner made by another manufacturer]; Blackwell v. Phelps Dodge Corp. (1984) 157 Cal.App.3d 372, 377-378 [203 Cal.Rptr. 706] [acid manufacturer had no duty to warn about dangers of pressure formation from acid when manufacturer lacked control over shipping arrangements and placed the acid as ordered in defective tank cars provided by other parties]; Garman v. Magic Chef, Inc. (1981) 117 Cal.App.3d 634, 637-638 [173 Cal.Rptr. 20] [propane stove manufacturer had no duty to warn regarding hazards associated with pipe connecting stove to propane tank when it did not supply or install pipe]; Wiler v. Firestone Tire & Rubber Co. (1979) 95 Cal.App.3d 621, 627-629 [157 Cal.Rptr. 248] [supplier of tires lacking valves was not liable for injuries arising from defective valve, as intermediate manufacturer attached valve to tire before providing it to injured party]; Garcia v. Joseph Vince Co. (1978) 84 Cal.App.3d 868, 872-880 [148 Cal.Rptr. 843] [manufacturer of fencing mask was not liable for injuries arising from use of defective fencing sabre made by another manufacturer]; McGoldrick v. Porter-Cable Tools (1973) 34 Cal.App.3d 885, 888-891 [110 Cal.Rptr. 481] [manufacturer of saw stand was not liable for injuries arising from defective saw made by another manufacturer]; Zambrana v. Standard Oil Co. (1972) 26 Cal.App.3d 209, 216 [102 Cal.Rptr. 699] [tire manufacturer was not liable for injuries due to tire valve extension made by another manufacturer].)\nAll but one of the remaining cases stand for the general proposition that absent special circumstances, a defendant that neither makes nor distributes a defective product is not liable for injuries arising from that product. (Ontiveros v. 24 Hour Fitness USA, Inc. (2008) 169 Cal.App.4th 424, 426-435 [86 Cal.Rptr.3d 767] [fitness club was not liable for injuries arising from defective exercise machine]; Cadlo v. Owens-Illinois, Inc. (2004) 125 Cal.App.4th 513, 523-524 [23 Cal.Rptr.3d 1] [former supplier of asbestos insulation to Navy was not strictly liable for seaman\u2019s injuries from exposure to asbestos insulation, absent evidence that former supplier had role in design and marketing of asbestos insulation to which seaman was actually exposed]; Peterson v. Superior Court (1995) 10 Cal.4th 1185, 1188 [43 Cal.Rptr.2d 836, 899 P.2d 905] [hotel was not liable for injuries arising from defective bathtub in hotel room].) As explained above, appellants\u2019 showing, if credited, is sufficient to establish the Tellez-Cordova exception to that general proposition.\nThe remaining decision stands for the proposition that a product manufacturer is not liable for injuries due to modifications of the product by a sophisticated purchaser aware of the potential dangers arising from the modifications. (Fierro v. International Harvester Co. (1982) 127 Cal.App.3d 862, 865-869 [179 Cal.Rptr. 923] [manufacturer of skeletal truck chassis had no duty to warn packing company that modifying the chassis\u2019s battery system could create a fire hazard].) Nothing before us suggests that appellants constitute such sophisticated purchasers.\nWe observe that Hennessy\u2019s contention is directed at the propriety of the imposition of strict liability, not appellants\u2019 ability to prove causation of their injuries. Generally, to establish a strict products liability claim, the plaintiff must prove that \u201cthere was a defect in the manufacture or design of the product and that such defect was a proximate cause of the injuries.\u201d (Cronin, supra, 8 Cal.3d at p. 133, italics added.) Although the evidence regarding those elements may overlap, they are distinct requirements. (See Soule v. General Motors Corp. (1994) 8 Cal.4th 548, 572-573 [34 Cal.Rptr.2d 607, 882 P.2d 298]; Doupnik v. General Motors Corp. (1990) 225 Cal.App.3d 849, 862-864 [275 Cal.Rptr. 715].) Beyond showing an \u201cabstract \u2018defect\u2019 \u201d in the product, the plaintiff must demonstrate that the defect was appropriately causally related to the alleged injuries. (Soule, supra, 8 Cal.4th at pp. 572-573.) Specifically, in an action based on injuries attributed to asbestos from potentially more than one source, to establish proximate causation regarding a manufacturer\u2019s product, the plaintiff must show a threshold exposure to asbestos from the product, and a reasonable medical probability that a particular exposure or series of exposures was a substantial factor in bringing about the risk of the alleged injuries. (Rutherford v. Owens-Illinois, Inc. (1997) 16 Cal.4th 953, 982 [67 Cal.Rptr.2d 16, 941 P.2d 1203].) As Hennessy\u2019s contention concerns the Tellez-Cordova exception, it targets appellants\u2019 ability to demonstrate an essential predicate for an \u201cabstract\u201d defect in the AMMCO machine itself, namely, that it was capable of generating exposures to asbestos fibers satisfying the requirement for proximate causation.\nTo the extent Hennessy contends that under the Tellez-Cordova exception, appellants must establish that the brake linings released asbestos fibers only when abraded by the AMMCO machine, we disagree. In Tellez-Cordova, the products liability claims involved multiple metal working machines that performed different operations on metal parts, including grinding, sanding, and cutting. (Tellez-Cordova, supra, 129 Cal.App.4th at p. 579.) The appellate court held that liability was properly imposed on the machines\u2019 manufacturers for injuries due to each type of machine, although they created toxic dust through distinct operations. Thus, the Tellez-Cordova exception is applicable to a machine that releases asbestos fibers from brake linings, even though other operations on the brake linings may also release asbestos fibers, provided that the linings are safe in their baseline state.\nIn a related contention, Hennessy suggests that the Tellez-Cordova exception is inapplicable because during the pertinent period, most of the brake jobs at one of Michael Sherman\u2019s workplaces involved asbestos-free brake linings. Hennessy points to a declaration from Lee Statler, who stated that in the 1960\u2019s he worked at Pitzer\u2019s Garage for four years and that during that period approximately 70 percent of the brake jobs involved metallic Velvetouch linings. In opposing summary judgment, appellants too submitted a declaration from Statler, stating that he worked at Pitzer\u2019s Garage from 1959 to 1963, prior to Michael Sherman\u2019s principal period of exposure to asbestos. In our view, although Statler declarations may challenge appellants\u2019 ability to show that the AMMCO machine was, in fact, a proximate cause of the alleged injuries, they do not nullify the existence of triable issues regarding application of the Tellez-Cordova exception.",
+        "type": "majority",
+        "author": "MANELLA, J. \u2014"
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Waters Kraus & Paul, Paul C. Cook, Michael B. Gurien and Jonathan George for Plaintiffs and Appellants.",
+      "Gordon & Rees, Don Willenburg and Mitchell B. Malachowski for Defendant and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. B252566.\nSecond Dist., Div. Four.\nJune 18, 2015.]\nMICHAEL SHERMAN et al., Plaintiffs and Appellants, v. HENNESSY INDUSTRIES, INC., Defendant and Respondent.\nCounsel\nWaters Kraus & Paul, Paul C. Cook, Michael B. Gurien and Jonathan George for Plaintiffs and Appellants.\nGordon & Rees, Don Willenburg and Mitchell B. Malachowski for Defendant and Respondent."
+  },
+  "file_name": "1133-01",
+  "first_page_order": 983,
+  "last_page_order": 1003
+}

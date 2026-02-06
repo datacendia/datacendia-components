@@ -1,0 +1,59 @@
+{
+  "id": 12222381,
+  "name": "Galloway v. West Virginia",
+  "name_abbreviation": "Galloway v. West Virginia",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5573",
+  "first_page": "914",
+  "last_page": "914",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 914"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 80,
+    "ocr_confidence": 0.688,
+    "sha256": "18dcf81f5ee905703d84e3cb7b413bd603dfdf4b249f20223bf0cfcfc29763bd",
+    "simhash": "1:2a15300b8e2c20fd",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Galloway v. West Virginia."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. App. W. Va. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5573.\nGalloway v. West Virginia."
+  },
+  "file_name": "0914-14",
+  "first_page_order": 996,
+  "last_page_order": 996
+}

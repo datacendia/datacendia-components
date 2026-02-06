@@ -1,0 +1,59 @@
+{
+  "id": 12414652,
+  "name": "Crutcher v. United States",
+  "name_abbreviation": "Crutcher v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-11011",
+  "first_page": "874",
+  "last_page": "874",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 874"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.667,
+    "sha256": "98dd8f3364e08b04b7e824c938e2b8742e3bb0da394b9f54d12b9c35b95bbd6c",
+    "simhash": "1:87ab76054e7f0c2c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Crutcher v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-11011.\nCrutcher v. United States."
+  },
+  "file_name": "0874-04",
+  "first_page_order": 950,
+  "last_page_order": 950
+}

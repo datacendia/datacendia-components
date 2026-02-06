@@ -1,0 +1,706 @@
+{
+  "id": 2261910,
+  "name": "C. E. Fulton Et Al v. Honorable Delos Finch, District Judge Et Al",
+  "name_abbreviation": "Fulton v. Finch",
+  "decision_date": "1961-05-24",
+  "docket_number": "No. A-8134",
+  "first_page": "351",
+  "last_page": "360",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "162 Tex. 351"
+    },
+    {
+      "type": "parallel",
+      "cite": "346 S.W.2d 823"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "311 S.W. 2d 648",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2255839,
+        10176647
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/158/0362-01",
+        "/sw2d/311/0648-01"
+      ]
+    },
+    {
+      "cite": "190 S.W. 2d 805",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2336648,
+        10207986
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/144/0378-01",
+        "/sw2d/190/0805-01"
+      ]
+    },
+    {
+      "cite": "144 Tex. 378",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2336648
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/144/0378-01"
+      ]
+    },
+    {
+      "cite": "190 S.W. 2d 709",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2336685,
+        10205070
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/144/0360-01",
+        "/sw2d/190/0709-01"
+      ]
+    },
+    {
+      "cite": "144 Tex. 360",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2336685
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/144/0360-01"
+      ]
+    },
+    {
+      "cite": "163 S.W. 2d 183",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2311434,
+        10205598
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/139/0368-01",
+        "/sw2d/163/0183-01"
+      ]
+    },
+    {
+      "cite": "139 Tex. 368",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2311434
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/139/0368-01"
+      ]
+    },
+    {
+      "cite": "143 S.W. 2d 1028",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10228352,
+        2317746
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/143/1028-01",
+        "/tex/135/0319-01"
+      ]
+    },
+    {
+      "cite": "135 Tex. 319",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2317746
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/135/0319-01"
+      ]
+    },
+    {
+      "cite": "126 S.W. 2d 627",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10239021,
+        2322527
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/126/0627-01",
+        "/tex/132/0613-01"
+      ]
+    },
+    {
+      "cite": "132 Tex. 613",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2322527
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/132/0613-01"
+      ]
+    },
+    {
+      "cite": "109 S.W. 2d 158",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10244840,
+        2290129
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/109/0158-01",
+        "/tex/130/0346-01"
+      ]
+    },
+    {
+      "cite": "130 Tex. 346",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2290129
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/130/0346-01"
+      ]
+    },
+    {
+      "cite": "45 S.W. 2d 957",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2305636,
+        10262551
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/121/0128-01",
+        "/sw2d/45/0957-01"
+      ]
+    },
+    {
+      "cite": "121 Tex. 128",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2305636
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/121/0128-01"
+      ]
+    },
+    {
+      "cite": "37 S.W. 2d 725",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10269705,
+        2307420
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/37/0725-01",
+        "/tex/120/0243-01"
+      ]
+    },
+    {
+      "cite": "120 Tex. 243",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2307420
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/120/0243-01"
+      ]
+    },
+    {
+      "cite": "287 S.W. 1093",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10331286,
+        2276519
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/287/1093-01",
+        "/tex/116/0172-01"
+      ]
+    },
+    {
+      "cite": "116 Tex. 172",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2276519
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/116/0172-01"
+      ]
+    },
+    {
+      "cite": "263 S.W. 900",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        2279768,
+        10321390
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/114/0160-01",
+        "/sw/263/0900-01"
+      ]
+    },
+    {
+      "cite": "114 Tex. 160",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2279768
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/114/0160-01"
+      ]
+    },
+    {
+      "cite": "28 S.W. 939",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "87 Tex. 401",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2247786
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/87/0401-01"
+      ]
+    },
+    {
+      "cite": "24 S.W. 393",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "86 Tex. 226",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2206288
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/86/0226-01"
+      ]
+    },
+    {
+      "cite": "63 Tex. 482",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2165516
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/63/0482-01"
+      ]
+    },
+    {
+      "cite": "285 S.W. 1063",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        2276545,
+        10325095
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/116/0001-01",
+        "/sw/285/1063-01"
+      ]
+    },
+    {
+      "cite": "116 Tex. 1",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2276545
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/116/0001-01"
+      ]
+    },
+    {
+      "cite": "4 A.L.R. 613",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "207 S.W. 897",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8274272
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/207/0897-01"
+      ]
+    },
+    {
+      "cite": "109 Tex. 352",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2288342
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/109/0352-01"
+      ]
+    },
+    {
+      "cite": "115 S.W. 2d 1183",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10277938
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/115/1183-01"
+      ]
+    },
+    {
+      "cite": "115 Tex. 188",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "281 S.W. 843",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10315654
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/281/0843-01"
+      ]
+    },
+    {
+      "cite": "268 S.W. 715",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10314757
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/268/0715-01"
+      ]
+    },
+    {
+      "cite": "115 Tex. 175",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2278384
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/115/0175-01"
+      ]
+    },
+    {
+      "cite": "36 S.W. 292",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 S.W. 516",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "pin_cites": [
+        {
+          "page": "825"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "13 Tex. Civ. App. 580",
+      "category": "reporters:state",
+      "reporter": "Tex. Civ. App.",
+      "case_ids": [
+        270515
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex-civ-app/13/0580-01"
+      ]
+    },
+    {
+      "cite": "16 S.W. 2d 403",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10293523
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/16/0403-01"
+      ]
+    },
+    {
+      "cite": "9 S.W. 2d 442",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10289645
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/9/0442-01"
+      ]
+    },
+    {
+      "cite": "46 S.W. 84",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 S.W. 2d 820",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10283572
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/25/0820-01"
+      ]
+    },
+    {
+      "cite": "18 Tex. 395",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "5 Tex. 528",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        6769961
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/5/0264-01"
+      ]
+    },
+    {
+      "cite": "50 S.W. 491",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "pin_cites": [
+        {
+          "page": "498"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "108 S.W. 155",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "pin_cites": [
+        {
+          "page": "157"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "101 Tex. 382",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2263312
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/101/0382-01"
+      ]
+    },
+    {
+      "cite": "49 S.W. 2d 723",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10246885
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/49/0723-01"
+      ]
+    },
+    {
+      "cite": "304 S.W. 2d 265",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10162538,
+        2254027
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/304/0265-01",
+        "/tex/157/0475-01"
+      ]
+    },
+    {
+      "cite": "157 Tex. 475",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2254027
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/157/0475-01"
+      ]
+    },
+    {
+      "cite": "246 S.W. 2d 853",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10217760,
+        2244776
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/246/0853-01",
+        "/tex/151/0090-01"
+      ]
+    },
+    {
+      "cite": "151 Tex. 90",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2244776
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/151/0090-01"
+      ]
+    },
+    {
+      "cite": "338 S.W. 2d 478",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10158331
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/338/0478-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 939,
+    "char_count": 22659,
+    "ocr_confidence": 0.614,
+    "pagerank": {
+      "raw": 2.012614107767843e-06,
+      "percentile": 0.9950327219849497
+    },
+    "sha256": "e6eda907535702dae9f22064dfbdc632f5f17713a28297e86d294023fea73266",
+    "simhash": "1:8c6fa4f8600fb559",
+    "word_count": 4012
+  },
+  "last_updated": "2024-02-27T23:04:29.645629+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "C. E. Fulton Et Al v. Honorable Delos Finch, District Judge Et Al"
+    ],
+    "opinions": [
+      {
+        "text": "MR. JUSTICE NORVELL\ndelivered the opinion of the Court.\nC. E. Fulton, individually and as next friend for his minor son, Robert Fulton, and Arthur L. Knutson, individually and as next friend of his minor son, Charles Knutson, as relators, have applied for an original writ of mandamus to require the Honorable Delos Finch, Judge of the 73rd Judicial District Court of Bexar County, sitting in the 57th District Court of said County, to proceed to trial in a certain cause numbered F-121,917, styled C. E. Fulton et al v. Margaret Joan Biasiolli which is said to be pending on the docket of the 57th District Court. The presiding judge of the Bexar County district courts is also made a party to this action, as well as the defendant in the district court action, Margaret Joan Biasiolli. It appears that since the institution of the suit in the district court, Margaret Joan Biosiolli has married John W. Burns and he is a .party respondent in the present cause. The statutory authority relied upon as supporting the requested action by this Court is Article 1734, Vernon\u2019s Ann. Tex. Stats. which is similar in wording to Article 1824 relating to the Courts of Civil Appeals.\nThe District Judge, as a defense to the requested writ, asserts that the cause in the district court has been terminated by the rendition of a final judgment. This view was accepted by the Court of Civil Appeals upon its consideration of an application for writ of mandamus based upon Article 1824. See, Fulton v. Finch, District Judge, Tex. Civ. App., 338 S.W. 2d 478.\nWe regard the order relied upon by the District Judge as being void upon its face and wholly ineffective. It should hence be disregarded, and it follows that the cause now stands upon the docket of the District Court as a pending case which the District Judge should proceed to try. Involved in our decision is an evaluation of the various steps taken in the District Court in the light of the requirements of the Texas Rules of Civil Procedure, notably Rules 5 and 329-b. The disputed order or judgment sets forth the history of the various actions taken in regard to motions made after the rendition of the original judgment in the District Court and for that reason the pertinent parts thereof are set forth in the margin.\nThe following dates (all of which took place in 1960) are of importance in considering the authority of the District Judge to render the disputed order:\nApril 4, \u2014 Final judgment unfavorable to Fulton and Knutson, (plaintiffs in the trial court and relators here) was rendered by Honorable C. K. Quin, Judge of the 57th District Court.\nApril 13, \u2014 Motion for new trial filed by Fulton and Knutson. This action was taken within the 10-day period prescribed by Rule 329-b.\nApril 28, \u2014 Fulton and Knutson filed an amended motion for new trial. This action was taken within the 20-day period prescribed by Rule 329-b.\nJune 9, \u2014 Honorable Delos Finch acting as Judge of the 57th District Court because of the illness of Judge Quin, granted a new trial. This action was taken within the 45-day period prescribed by Rule 329-b.\nJune 10, \u2014 Defendant Margaret Joan Biasiolli filed a motion to set aside the order granting a new trial.\nJune 12, \u2014 the 45-day period from the date of the filing of the amended motion for new trial expired.\nJune 16, \u2014 Judge Finch entered an order which purported to set aside the order granting a new trial and reinstated the original judgment of April 4, 1960.\nJune 20, \u2014 Fulton and Knutson filed a motion in the nature of a motion for new trial asserting that the order of June 16 was null and void.\nJune 27, \u2014 Judge Finch overruled the above motion.\nWe are unable to agree with the construction of Rule 329-b which was adopted by the Court of Civil Appeals. Section 3 of such rule provides that all original and amended motions must be determined within forty-five days. The last judicial action taken during the forty-five day period which began on April 28 (the date of the filing of the amended motion) was the granting of a new trial. No further action was taken during such forty-five day period so that at the end thereof \u2014 on June 12, \u2014 the case stood upon the docket for trial. The order of June 16 does not purport to be a judgment entered after another trial. It attempts to set aside the motion granting a new trial, and reinstate the judgment of April 4, an action tantamount to overruling plaintiffs\u2019 amended motion for new trial some 49 days after it was filed. Under the circumstances of this case, the trial court\u2019s action in granting a new trial and then setting 'it aside violates the provisions of Rule 5 which expressly says that a court \u201cmay not enlarge the period for taking any action under the rules relating to new trials or motions for rehearing except as stated in the rules relating thereto * * *.\u201d\nRule 329-b is the rule relating to new trials and the action of the trial court in attempting to set aside the order granting a new trial was not taken in conformity therewith. The trial court\u2019s original judgment, dated April 4, was against plaintiffs Fulton and Knutson. The trial judge by his order of June 16 sought to reinstate that judgment. In A. F. Jones & Sons v. Republic Supply Co., 151 Tex. 90, 246 S.W. 2d 853, this Court said, \u201cThe trial court certainly could not, on its own initiative, make any effective order affirming its former judgment and thereby extend the period for perfecting an appeal.\u201d\nThe purpose of the 1941 Rules of Procedure was to provide judges and practicing attorneys with simply stated directions relating to court procedures. Insofar as new trials are concerned, definite periods of time are prescribed in which certain actions are to be taken. All district courts now have continuous terms, Article 1919, Vernon\u2019s Ann. Tex. Stats. Many of our district courts, including those in Bexar County, have two terms per year, each being for a period of six months. See, Apportionment statute, Article 199, Vernon\u2019s Ann. Tex. Stats. The time within which actions are to be taken and powers are to be exercised are now largely controlled by specific rules. It would be difficult to select plainer wording than that contained in Rule 329-b, \u00a7 3, \u201cAll motions must be determined within not exceeding forty-five (45) days after the original or amended motion is filed, * * *.\u201d Here, the amended motion was determined within 45 days. It cannot be ^determined after the 45-day period without destroying the rule. While there is a thirty-day provision contained in Rule 329-b, \u00a7 5 relating to judgments and orders overruling motions for new trial, there is no provision which can be construed as extending a trial judge\u2019s authority over a motion granting a new trial for an additional thirty-day period. An order granting a motion for new trial must be set aside, if at all, within the 45-day period set out in Rule 329-b, \u00a7 3. It was not the intention of the rule that an order granting a motion for new trial should remain open to countermand until a term of court which might be of six month\u2019s duration should finally expire.\nThe respondents by counterpoint urge that even though the order of June 16 be ineffective and void, mandamus will not lie because the relators have, or at one time had, an adequate remedy by way of appeal to the Court of Civil Appeals and thence to this Court by writ of error. A judgment which discloses its invalidity upon its face is a nullity and may be disregarded anywhere at any time. The present order having been rendered after the expiration of a period of time prescribed by the Rules of Civil Procedure is similar to an order entered out of term time. It has no efficacy and could have been ignored by the District Judge as it constituted no impediment to his proceeding with a re-trial of the case. While it is wholly unnecessary to appeal from a void judgment, it is nevertheless settled that an appeal may be taken and the appellate court in such proceeding may declare the judgment void. There is some similarity in this respect between a void order and an interlocutory order from which there is no statutory right of appeal.\nIn McCauley v. Consolidated Underwriters, 157 Tex. 475, 304 S.W. 2d 265, this Court held as a matter of fundamental error that the Court of Civil Appeals and this Court were without power to review an interlocutory order of a trial court m the absence of appropriate statutory provision. We held, however, that this Court was authorized to declare the interlocutory nature of the order and dismiss the appeal.\nSimilarily, in Jones v. Bass, Tex. Com. App., 49 S.W. 2d 723, which related to a void order, it was held that:\n\u201cThe Court of Civil Appeals erred in its conclusion that it was without jurisdiction to set aside the void order of December 14, 1929. \u2018It is true,\u2019 says Judge Brown, in Williams v. Steele, 101 Tex. 382, 108 S.W. 155, 157, \u2018that, when the court in which a judgment has been rendered has not jurisdiction, the appellate court has not power to do that which the trial court could not do; but it has authority and jurisdiction over the void proceedings to declare their invalidity and set them aside\u2019 \u2014 citing Roy v. Whitaker (Tex. Civ. App.) 50 S.W. 491, 498; Gray v. Maddox, 5 Tex. 528; Aycock v. Williams, 18 Tex. 395. To the same effect is the decision in Leslie v. Griffin (Tex. Com. App.) 25 S.W. 2d 820.\u201d\nThere seemingly is no case holding that because a void judgment may be so declared on appeal the statutory remedy of mandamus provided for by Articles 1734 and 1824, Vernon\u2019s Ann. Tex. Stats, is unavailable. Undoubtedly the remedy set forth in the articles mentioned was intended to be plenary. The ultimate relief sought is the disposal of a lawsuit in the trial court. The belief of a trial judge that a void order is valid or that an interlocutory decree is final may constitute but one reason for a trial judge\u2019s refusal to proceed to trial. A successful appeal having for its purpose the declaration of the voidness of a judgment does not carry with it a directive that the trial judge proceed to trial. It is this latter relief that is provided for by Articles 1734 and 1824, A litigant is not required to accept less. The Legislature provided for a remedy in cases where a judge without legal excuse refused to proceed to trial. It would be highly confusing to partially emasculate these statutes by holding that the availability of the statutory remedy depended upon the nature of the reason or belief the trial judge held for not proceeding with the trial of a case. Some black and white directions relating to procedure are desirable. If a judge\u2019s reasons for not going to trial are good, no mandamus should issue. On the other hand, if the judge\u2019s reasons be untenable, such as a reliance upon a void order, the statutory mandamus should issue.\nThe existence of the limited appellate jurisdiction to declare the true nature of an interlocutory order does not make the statutory mandamus unavailable. In the early case of Levy v. Gill, District Judge (1898) Tex. Civ. App., 46 S.W. 84, the trial court granted a new trial as to some parties but took the position that the judgment was final as to others. No appeal was required to demonstrate the interlocutory nature of the judgment. The Court of Civil Appeals acting under what is now Article 1824 issued an original writ of mandamus. The Court said:\n\u201cWe are of the opinion that the relators herein are entitled to relief, and that the granting of a new trial as to some of the parties operated as to all, there is no valid final judgment therein, and the whole case stands on the docket for trial. And respondent, W. H. Gill, district judge, is here instructed to dispose of said case as though no trial thereof had heretofore been had.\u201d\nIn Bracewell v. Been, Tex. Civ. App., 9 S.W. 2d 442, the Court held on authority of Levy v. Gill, supra, that:\n\u201cThere seems to be no controversy respecting the availability of the remedy of mandamus. Revised statutes, art. 1824, very plainly provides that Courts of Civil Appeals have jurisdiction to issue a writ of mandamus to compel a judge of the district court to proceed to trial and judgment in a cause. Unquestionably an occasion arises for employing the writ of mandamus if a judgment of the district court is rendered not final by an order vacating the judgment as to some of the parties or issues involved.\u201d\nThe rule is similar as to orders which are void because of some noncompliance with a statutory or rule provision. In Rouff v. Boyd, District Judge, Tex. Civ. App., 16 S.W. 2d 403, the relators sought a mandamus requiring the District Judge to proceed to trial despite the fact that he had entered \u00e1 judgment which the relators claimed was void. The ground for asserting the voidness of the judgment was that the judge had taken the case under advisement and rendered judgment long after the term and the succeeding term had expired. The Court held the judgment void, stating that \u201cWe do not think the rendition of the judgment in this case on December 18, 1928, during the third term of the court after the term at which the case was heard and submitted, was authorized by any statute or court rule.\u201d\nThe Court further said:\n\u2018\u201cThe question of the authority of this court to issue a writ of mandamus to compel the trial court to set aside the judgment which was rendered at a term of court subsequent to that at which it was submitted and to proceed to again hear and determine the case, is by no means free from doubt. We have concluded, however, upon the authority of the cases of Schintz v. Morris, 13 Tex. Civ. App. 580, 35 S.W. 516, 825, 36 S.W. 292, and Yett v. Cook, 115 Tex. 175, 268 S.W. 715, 281 S.W. 843, to solve the doubt in favor of petition-0j\u00bbg 4\u00bb *$\u2022\n\u201cIt is also held in the Schintz Case that where the statute gives the right to a mandamus in express and unqualified terms, such remedy may be pursued by a litigant, regardless of the fact that he may have another adequate legal remedy, the expression of the court on this subject was as follows: \u2018If the judge refuses to try, the statute authorizes this court to compel him to try; and we need look no further for a remedy, or consider whether another may exist because, by the express letter of the law, the legislature, in the exercise of its authority, has selected and provided a remedy for just such an emergency. And, whatever may be the general rule that denies a resort to this remedy if another exists that is applicable to a different state of affairs in other instances, it ought not to govern in a case like this, especially in view of the law that expressly authorizes this remedy.\u2019\n\u201cThis holding in the Schintz Case is referred to and approved by our Supreme Court in the case of Yett v. Cook, 115 Tex. 188, 268 S.W. 715, 281 S.W. 843, in which the court makes this announcement of the law: \u2018It is no sound objection to the award of the mandamus that the defendant might finally secure a review of an adverse judgment following a retrial, by means of appeal to the Court of Civil Appeals and writ of error to the Supreme Court. For, it has been the law of Texas since Bradley v. McCrabb, Dallam, 507, that the writ of mandamus \u201cwill not only issue in cases where the party having a specific legal right has no other legal operative remedy, but when the other modes of redress are inadequate or tedious the writ will be awarded.\u201d \u2019\n\u201cWe are of the opinion that the writ of mandamus prayed for should issue, and it had been so ordered.\u201d\nIn Citizens State Bank of Frost v. Miller, 115 S.W. 2d 1183, the Court of Civil Appeals, acting under Article 1824, held that when a judge relies upon a void order (rendered after the prescribed time for rendition of judgment had expired) as a reason for refusing to proceed to trial, he can be compelled to act.\nThe Court said:\n\u201cRespondent Miller, the honorable judge of said court, erred in ordering the dismissal of said cause at a purported extension of a term of said court which had theretofore expired, and such order was void. The writ of mandamus as prayed for by relator will issue, commanding respondent Miller, as judge of said court, to recognize said cause as pending on the civil docket thereof and to proceed to trial and judgment therein according to established rules of procedure.\u201d\nThe validity of the holdings in Rouff v. Boyd and Citizens State Bank v. Miller, have seemingly never been questioned. For us to now give a different interpretation to Article 1734 than that given by the Courts of Civil Appeals to Article 1824 would only operate to introduce confusion into the mandamus practice before the Courts of Civil Appeals and the Supreme Court.\nWe are not unmindful of the general rules that mandamus being an extraordinary remedy will not lie when ordinary remedies are adequate, and that usually the ordinary remedy by appeal is adequate. Respondent cites a number of cases supporting these general rules. However, when considering the question of the adequacy of an appeal, it is necessary to examine the particular situation somewhat more closely. A specific remedial statute, Article 1734, is involved and we have here a case in which a trial judge has refused to proceed with the trial of a cause which stands undisposed of upon the docket of the 57th District Court. An order which proclaims its voidness upon its face needs no appellate action to proclaim its invalidity. It is one thing to say that a void order may be appealed from but it is another thing to say that it must be appealed from for it would be anomalous to say that an order void upon its face must be appealed from before it can be treated as a nullity and disregarded. An order which must be appealed from before it is ignored can hardly be characterized as \u201cvoid\u201d and binding on no one.\nHere, the relators have applied for a writ of mandamus in accordance with a statute which is plain in wording and should be certain in application. Respondents\u2019 authorities do not bear upon the specific situation before us. The authorities herein cited, particularly the opinions of the Courts of Civil Appeals which have considered analogous problems, are almost directly in point. These authorities should not now be discredited. They are furthermore supported in principle by the following decisions of this Court: Gulf, Colorado & Santa Fe Ry. Co. v. Muse, 109 Tex. 352, 207 S.W. 897, 4 A.L.R. 613; Yett v. Cook, 115 Tex. 175, 268 S.W. 715, 281 S.W. 843 and Cleveland v. Ward, 116 Tex. 1, 285 S.W. 1063. See also, Lowe and Archer, \u201cTexas Practice, Injunctions and other Extraordinary Proceedings\u201d pp. 441 et seq., Mandamus \u00a7 472, l.c. p. 451, notes 9 and 10.\nIn the present case, we have no reason to suppose that the District Judge upon receipt of this Court\u2019s final opinion will refuse to proceed to trial in said Cause No. F-121, 917. For this reason, a peremptory writ of mandamus will issue only in the event that the trial judge should not proceed to trial as anticipated.\nThe writ of mandamus is conditionally granted.\n. Art. 1734. \u201cSaid [Supreme] Court or any judge thereof in vacation may issue the writ of mandamus to compel a judge of the district court to proceed to trial and judgment in a cause agreeably to the principles and usages of law, returnable to the Supreme Court on or before the first day of the term, or during the session of the same, or before any judge of the said Court as the nature of the case may require.\u201d\n. Art. 1824. \u201cSaid Courts [of Civil Appeals] or any Judge thereof, in vacation, may issue the writ of Mandamus to compel a Judge of the District or County Court to proceed to trial and judgment in a cause, returnable as the nature of the case may require.\u201d\n. \u201cOn this, the 16th day of June, 1960, came on to be heard the Motion of Defendant, Margaret Joan Biasiolli, to Reinstate Original Judgment and Set Aside Order Granting New Trial in the above entitled and numbered cause, wherein plaintiff filed an original Motion for New Trail on April 13, 1960, and filed an Amended Motion for New Trial on April 28, 1960, after judgment for defendant was rendered in the above entitled and numbered cause on April 4, 1960, wherein such Amended Motion for New Trial having been presented to the Court for hearing, such Amended Motion for New Trial having been by the Court granted on June 9, 1960, and a new trial ordered on such date, and wherein on June 10, 1960, Defendant did file her Motion to Reinstate Original Judgment and Set Aside Order Granting New Trial, and such Motion having been presented to the Court for hearing on this the 16th day of June, 1960, and it appearing to the Court that such Motion to Reinstate the Original Judgment and Set Aside the previous Order of this Court granting a new trial should in all things be granted.\n\u201cIt is accordingly, ORDERED, ADJUDGED AND DECREED that Defendant\u2019s Motion to Reinstate the Original Judgment and Set Aside Order Granting New Trial be in all things sustained and the original judgment in this entitled and numbered cause is hereby reinstated, and the Order Granting New Trial is hereby set aside.\u201d\n. \u201c5. Judgments in the district court shall become final after the expiration of thirty (30) days after the date of rendition of judgment or order overruling an original or amended motion for new trial. After the expiration of thirty (30) days from the date the judgment is rendered or motion for new trial is overruled, the judgment cannot be set aside except by bill of review for sufficient cause, filed within the time allowed by law. * *\n. Illustrative of the cases cited by respondents are: Ewing v. Cohen, 63 Tex. 482; State ex rel Johnson v. Morris, 86 Tex. 226, 24 S.W. 393; Steele v. Goodrich, 87 Tex. 401, 28 S.W. 939; Glenn v. Milam, 114 Tex. 160, 263 S.W. 900; Glidden Stores v. Boyd, 116 Tex. 172, 287 S.W. 1093; Aldridge v. Conner, 120 Tex. 243, 37 S.W. 2d 725; Ben C. Jones & Company v. Wheeler, 121 Tex. 128, 45 S.W. 2d 957; Palmer Publishing Co. v. Smith, 130 Tex. 346, 109 S.W. 2d 158; Texas National Guard Armory Board v. McCraw, 132 Tex. 613, 126 S.W. 2d 627; City of Galveston v. Mann, 135 Tex. 319, 143 S.W. 2d 1028; Brazos River Conservation and Reclamation District v. Belcher, 139 Tex. 368, 163 S.W. 2d 183; Cobb v. Harrington, 144 Tex. 360, 190 S.W. 2d 709; Industrial Accident Board v. Glenn, 144 Tex. 378, 190 S.W. 2d 805 and Iley v. Hughes, Tex. 311 S.W. 2d 648.",
+        "type": "majority",
+        "author": "MR. JUSTICE NORVELL"
+      }
+    ],
+    "attorneys": [
+      "James R. Warncke, of San Antonio, for relators.",
+      "Beckman, Stanard, Wood & Vance and Richard Keene, of San Antonio, for respondents."
+    ],
+    "corrections": "",
+    "head_matter": "C. E. Fulton Et Al v. Honorable Delos Finch, District Judge Et Al\nNo. A-8134.\nDecided May 24, 1961\nRehearing overruled June 21, 1961\n(346 S. W. 2d Series 823)\nJames R. Warncke, of San Antonio, for relators.\nBeckman, Stanard, Wood & Vance and Richard Keene, of San Antonio, for respondents."
+  },
+  "file_name": "0351-01",
+  "first_page_order": 359,
+  "last_page_order": 368
+}

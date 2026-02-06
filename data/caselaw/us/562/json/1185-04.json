@@ -1,0 +1,59 @@
+{
+  "id": 6030495,
+  "name": "Simpson v. Oklahoma",
+  "name_abbreviation": "Simpson v. Oklahoma",
+  "decision_date": "2011-01-18",
+  "docket_number": "No. 10-7485",
+  "first_page": "1185",
+  "last_page": "1185",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1185"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 74,
+    "ocr_confidence": 0.624,
+    "sha256": "da82d1d67f517d0a6ba7808a6f5e981c90330df94dc7165feadd20d582201ad9",
+    "simhash": "1:0076610a936bec09",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Simpson v. Oklahoma."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Okla. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7485.\nSimpson v. Oklahoma."
+  },
+  "file_name": "1185-04",
+  "first_page_order": 1207,
+  "last_page_order": 1207
+}

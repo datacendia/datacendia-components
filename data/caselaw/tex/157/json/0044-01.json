@@ -1,0 +1,467 @@
+{
+  "id": 2254001,
+  "name": "George Cowden Et Al v. W. H. Bell",
+  "name_abbreviation": "Cowden v. Bell",
+  "decision_date": "1957-03-20",
+  "docket_number": "No. A-6039",
+  "first_page": "44",
+  "last_page": "53",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "157 Tex. 44"
+    },
+    {
+      "type": "parallel",
+      "cite": "300 S.W.2d 286"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "212 S.W. 972",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8268056,
+        8268032
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/212/0972-02",
+        "/sw/212/0972-01"
+      ]
+    },
+    {
+      "cite": "167 S.W. 2d 614",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10217185
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/167/0614-01"
+      ]
+    },
+    {
+      "cite": "280 S.W. 158",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        2278518,
+        10293439
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/115/0193-01",
+        "/sw/280/0158-01"
+      ]
+    },
+    {
+      "cite": "115 Texas 193",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2278518
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/115/0193-01"
+      ]
+    },
+    {
+      "cite": "54 A.L.R. 1397",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "296 S.W. 273",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        2274817,
+        10291711
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/117/0016-01",
+        "/sw/296/0273-01"
+      ]
+    },
+    {
+      "cite": "117 Texas 16",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2274817
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/117/0016-01"
+      ]
+    },
+    {
+      "cite": "251 S.W. 1028",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10334764,
+        2281751
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/251/1028-01",
+        "/tex/113/0083-01"
+      ]
+    },
+    {
+      "cite": "113 Texas 83",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2281751
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/113/0083-01"
+      ]
+    },
+    {
+      "cite": "17 S.W. 538",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "82 Texas 255",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2213890
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/82/0255-01"
+      ]
+    },
+    {
+      "cite": "141 A.L.R. 808",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "162 S.W. 2d 959",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10224415
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/162/0959-01"
+      ]
+    },
+    {
+      "cite": "139 Texas 395",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2311415
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/139/0395-01"
+      ]
+    },
+    {
+      "cite": "118 A.L.R. 1505",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "115 S.W. 2d 624",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10256515,
+        2324519
+      ],
+      "pin_cites": [
+        {
+          "page": "628"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/115/0624-01",
+        "/tex/131/0325-01"
+      ]
+    },
+    {
+      "cite": "131 Texas 325",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2324519
+      ],
+      "pin_cites": [
+        {
+          "page": "332"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/131/0325-01"
+      ]
+    },
+    {
+      "cite": "72 Pac. 681",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "71 Pac. 906",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "case_ids": [
+        1545988,
+        1545975
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ariz/8/0256-01",
+        "/ariz/8/0238-01"
+      ]
+    },
+    {
+      "cite": "8 Ariz. 238",
+      "category": "reporters:state",
+      "reporter": "Ariz.",
+      "case_ids": [
+        1545975
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ariz/8/0238-01"
+      ]
+    },
+    {
+      "cite": "6 N.H. 521",
+      "category": "reporters:state",
+      "reporter": "N.H.",
+      "case_ids": [
+        6757097
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nh/6/0521-01"
+      ]
+    },
+    {
+      "cite": "4 N.H. 191",
+      "category": "reporters:state",
+      "reporter": "N.H.",
+      "case_ids": [
+        6755787
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nh/4/0191-01"
+      ]
+    },
+    {
+      "cite": "6 A.L.R. 2d 1945",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "213 S.W. 2d 530",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2333770,
+        10194740
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/147/0106-01",
+        "/sw2d/213/0530-01"
+      ]
+    },
+    {
+      "cite": "147 Texas 106",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2333770
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/147/0106-01"
+      ]
+    },
+    {
+      "cite": "106 S.W. 2d 257",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10249115,
+        2291501
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/106/0257-01",
+        "/tex/129/0579-01"
+      ]
+    },
+    {
+      "cite": "129 Texas 579",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2291501
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/129/0579-01"
+      ]
+    },
+    {
+      "cite": "15 A.L.R. 216",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "229 S.W. 1114",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10341378,
+        2284671
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/229/1114-01",
+        "/tex/111/0122-01"
+      ]
+    },
+    {
+      "cite": "111 Texas 122",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2284671
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/111/0122-01"
+      ]
+    },
+    {
+      "cite": "23 S.W. 2d 675",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10277337
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/23/0675-01"
+      ]
+    },
+    {
+      "cite": "44 N.H., 431",
+      "category": "reporters:state",
+      "reporter": "N.H.",
+      "case_ids": [
+        4561872
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/nh/44/0431-01"
+      ]
+    },
+    {
+      "cite": "235 S.W. 564",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8257891
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/235/0564-01"
+      ]
+    },
+    {
+      "cite": "293 S.W. 2d 611",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10174543
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/293/0611-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 943,
+    "char_count": 22000,
+    "ocr_confidence": 0.624,
+    "pagerank": {
+      "raw": 8.40679719429301e-07,
+      "percentile": 0.9759005254746512
+    },
+    "sha256": "5e6a023a484db59395f17188ffc2e6eacc26b16d1e2c8995adc07f2df23dc773",
+    "simhash": "1:1121cbb845ce751e",
+    "word_count": 3646
+  },
+  "last_updated": "2024-02-27T18:48:18.334778+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "George Cowden Et Al v. W. H. Bell"
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Garwood\ndelivered the opinion of the Court.\nThe issue in this title suit, brought by our respondent, W. H. Bell, for a one-twelfth undivided mineral interest in a tract in Frio County, is the effect of a parol reconveyance of that interest allegedly made by him to one of our petitioners (defendants) George Cowden, a few weeks after an admittedly valid original conveyance of the same interest by deed from Cowden to Bell. The Court of Civil Appeals has affirmed a summary judgment in favor of the respondent-plaintiff Bell and against the petitioner-defendant (George Cowden and his donee-grantees) on the ground that, taking as true what Cowden swears he can prove to be the facts concerning said alleged reconveyance, there is yet no proper basis for recognizing ownership in the petitioners-defendant. 293 S.W. 2d 611. We agree with this conclusion.\nThe controversy originated with a joint purchase of a one-fourth mineral interest in the tract in question from the common source of title, R. R. Osborn, by Cowden, Bell and Arthur Dawson, who is now deceased. Cowden and Bell are cattlemen, and Dawson was a lawyer and district clerk. They each put up in cash some $275.00, or a third of the purchase price, and, according to their previous agreement, Osborn on September 20th, 1938, conveyed the entire one-fourth interest to Cowden, who on the same day conveyed a one-twelfth interest (1/3 of the 1/4) each to Dawson and Bell. The deed to Bell, however, was not delivered to the latter in person, but to Dawson on his behalf, although, as stated, there is no question about the effectiveness of this conveyance, and Bell, in any event, had the equitable title to his fraction, since it had been purchased with his money and on his behalf. This deed to the respondent-plaintiff Bell remained in the office of Dawson for some sixteen years thereafter, not being recorded until Novmber 29th, 1954, after Dawson\u2019s death and some three years after oil was discovered on the tract in question, although the corresponding deed to Dawson was recorded on September 4, 1939, or slightly less than a year after both deeds were delivered.\nMeanwhile, according to the affidavit and deposition of the petitioner-defendant George Cowden (which we assume to be true in testing the summary judgment against him and his co-defendants, although actually the affidavit and deposition of the respondent-plaintiff is quite to the contrary) Cowden and Bell, a few weeks after the 1938 delivery of the Cowden-to-Bell and Cowden-to-Dawson deeds, had a verbal transaction wherein Bell expressed a desire to get back what he had paid for his one-twelfth interest and was accordingly then paid that amount in currency by Cowden, with the agreement that Bell\u2019s interest thereupon belong to Cowden and that the previously delivered but unrecorded deed to Bell from Cowden should accordingly stand as cancelled and not be taken from Dawson\u2019s custody by Bell nor recorded. (While, as stated, that deed remained unrecorded some sixteen years thereafter, Cowden does not claim that he ever sought to repossess it during all that time; and it was not, of course, destroyed nor ever \u201ccancelled\u201d in the sense of being mutilated or defaced.)\nThe petitioners-defendant show themselves able to adduce proof of additional facts, as follows: that on June 15th, 1948, Cowden and the other record owners of the minerals under the tract in question leased them for oil and gas to Shell Oil Company, Inc.; that on October 1st, 1948, Cowden conveyed to one S. P. Bell (not the respondent-plaintiff) an interest, which alr though the instrument is not in the record, apparently included all the royalty under the Shell lease corresponding to a one-twelfth mineral estate; that Shell proceeded to drill the property in question under the foregoing lease, discovering oil in 1951 and paying to the petitioners-defendant thereafter some $10,000 royalties on account of a one-twelfth record ownership, being the one-twelfth interest in dispute; that during the year 1951, suit was brought by a third party for title to the minerals of the tract in question, naming as defendant the record owners, including the petitioners-defendant, but not naming the respondent-plaintiff Bell, who, of course, had no record claim to the property; that the suit was successfully defended by the petitioners-defendant at a cost of about $550.00; that for the years 1952 and 1953, the petitioners-defendant paid taxes aggregating about $50.00 assessed upon their record ownership and rendered the latter for taxation for the year 1954 (the same year in which the Cowden-to-Bell deed was evidently taken by Bell from the office of the deceased Dawson and recorded) ; that the respondent plaintiff knew, or by the exercise of reasonable diligence would have known, all of the foregoing facts as they occurred, but took no action with respect thereto, such as helping to defend the mentioned title suit, rendering, or paying taxes on, the one-twelfth interest in suit, or otherwise; that Bell, after the alleged 1938 agreement and prior to recording the Cowden-to-Bell deed in 1954, never advised Cowden in any manner that he claimed an interest in the property.\nBell having never made any deed of reconveyance, he admittedly still has the legal title thereto, and admittedly still has also the equitable ownership for purposes of the summary judgment rendered and affirmed in his favor, unless the above recited facts are such as, if established on a trial, would constitute in effect an equitable transfer from him to the petitioners-defendant Cowden. As the latter say, such a result may, indeed, come to pass, in a proper case, despite the statutes of frauds and conveyances (Arts. 3995 and 1288, Vernon\u2019s Texas Civ. Stats.) ; but to hold that it does so in the instant case would, in our opinion, unduly extend established doctrine.\nThe line of authority apparently most relied on by the petitioners-defendant is that evidenced in this state by Cooper v. Hinman, Texas Comm. App., 235 S.W. 564. It was there held that an equitable title accrued to the repurchaser in a parol transaction, which was essentially the same as that at bar, except that the original deed from the alleged repurchaser to the alleged revendor was actually redelivered by the latter to the former. The texts and out of state cases cited by the court, and such other authority as we have consulted, state the rule as if it were restricted to situations in which the unrecorded deed of original purchase has been redelivered, destroyed or cancelled. 8 R.C.L., Sec. 79, p. 1023; 1 Devlin on Deeds (Third Ed.), Sec. 303, p. 528; Bank of Newbury v. Eastman, 44 N.H., 431. While accordingly, we find no necessary conflict between Cooper v. Hinman and the reasoning in the later and somewhat similar case of George v. Williamson, Texas Comm. App., 23 S.W. 2d 675, in which it does not appear that the deed in question was either unrecorded or returned to the grantor therein, we regard the absence of an actual redelivery as distinguishing the instant case also from Cooper v. Hinman.\nThe theory of some of the authorities quoted in Cooper v. Hinman, and therein relied on to greater or less degree, is one of estoppel against the party corresponding to Bell in the instant case \u2014 an estoppel to assert a title under a deed of which the grantee has voluntarily disabled himself from producing the best evidence by returning, destroying or cancelling it. Bank of Newbury v. Eastman, supra; see Brown on Statute of Frauds, Sec. 61, p. 69. A literal acceptance of this theory would be considerably more unfavorable than favorable to the petitioners-defendant, since the respondent-plaintiff has obviously not disabled himself from producing the deed.\nHowever, the petitioners-defendant would apparently have us take Cooper v. Hinman less literally and, with aid of an idea they call \u201cconstructive redelivery,\u201d extend the decision so as to reach the same result in the instant case.\nWhile the broader implications of Cooper v. Hinman are discussed at the end of this opinion, we, too, prefer to explain it on grounds other than the somewhat technical concept of estoppel of a grantee for having voluntarily removed the best evidence of his deed. A more practical explanation of the result would be that referred to in Hooks v. Bridgewater, 111 Texas 122, 229 S.W. 1114, 15 A.L.R. 216, as \u201ca further strong reason\u201d for the requirement of transfer of possession in cases of alleged parol sales of land, to wit, \u201cthat without it the existence of the contract rests altogether in parol evidence, * * *. If, however, the purchaser be let into possession, there is furnished by an affirmative act of the owner himself at least a corroborative fact that the contract was actually made.\u201d The act of an owner in returning, destroying or defacing his unrecorded deed \u2014 like the fact of transfer of possession \u2014 is \u201ca corroborative fact\u201d indicating that the resale, resting otherwise on merely oral proof, actually occurred. The \u201ccorroborative fact\u201d idea appears to be quite similar to what we find in some of our decisions, which decline to avoid the statute on the ground of \u201cperformance\u201d consisting of facts which the court describes as not \u201creferable to\u201d the alleged parol contract. Francis v. Thomas, 129 Texas 579, 106 S.W. 2d 257; Chevalier v. Lane\u2019s, Inc., 147 Texas 106, 213 S.W. 2d 530, 6 A.L.R. 2d 1945.\nIf we indulge the suggestion of \u201cconstructive\u201d return or redelivery of the deed (and necessarily also, in a proper case, \u201cconstructive\u201d destruction or cancellation thereof) we destroy the value of the \u201ccorroborative fact.\u201d The question, of course, is altogether different from that of whether there has been a constructive delivery of a deed by the grantor to the grantee therein named so as to comply with the delivery requirement of Art. 1288, supra. In the redelivery case, there is no possibility whatever of complying with the statute, since there is no deed in existence from the alleged revendor to the alleged revendee, and the question is whether the circumstances require equity to pass title in the teeth of the statute. Where the grantee named in a deed actually returns the deed to the grantor, such return is itself a significant circumstance, which would ordinarily not occur but for an agreement of resale and does not rest altogether on oral evidence. But, in the instant case, the mere continuance of the Cowden-to-Bell deed in Dawson\u2019s custody does not corroborate the alleged verbal resale by Bell to George Cow-den nor even indicate a purpose to return the Cowden-to-Bell deed to Cowden. The only significance it could attain in these respects would have to come from Cowden\u2019s oral evidence of the alleged resale contract. If we have to take the oral contract as established in order to establish the fact of redelivery, the latter obviously does not corroborate the former. Actually the idea of \u201cconstructive\u201d redelivery amounts to no more than an oral contract to reconvey and redeliver, which has been held ineffective to create any title in the other party to the agreement. Van Hook v. Simmons, 25 Texas Supplement 323; Farrar v. Farrar, 4 N.H. 191; Morse v. Child, 6 N.H. 521; Goodwin v. Tyrrell, 8 Ariz. 238, 71 Pac. 906, 72 Pac. 681. Dawson having originally received the Cowden-to-Bell deed on Bell\u2019s behalf, the actual situation is essentially the same as if Bell, having the deed in his own hands, agreed to redeliver it by way of reconveyance and did not carry out the agreement.\nBut the petitioners-defendant argue that, aside from the circumstance of \u201cconstructive\u201d return of the deed, other facts we must assume as true make a case for equitable relief against the statutes on the theory of estoppel against the respondent-plaintiff, or, what is substantially the same thing, the theory that enforcement of the statutes would operate as a fraud on George Cowden and his co-defendants. They say that, while the exacting requirement of Hooks v. Bridgewater, supra, for avoiding the statute of frauds are not always applied, and that decision is not necessarily controlling here, even those requirements have actually been met, so as to establish an enforceable contract of Bell to convey (reconvey) to Cowden. Those familiar requirements are (a) payment of the consideration; (b) transfer of possession; and (e) making of valuable and permanent improvements by the vendee with consent of the vendor. The argument is that the 1948 mineral lease and subsequent development by the lessee, the defense by the Cowdens of the third party title suit in 1951, payment by them of two years\u2019 taxes thereafter and the corresponding failure of the respondent-plaintiff to assert ownership in connection with these matters were together tantamount to meeting requirements (b) and (c), there being no dispute that the testimony of George Cowden is sufficient to meet requirement (a). The contention, while not unimpressive, is, in our opinion, untenable.\nHooks v. Bridgewater did, of course, recognize the question before it to be one of equitable estoppel and proceeded on the theory that such an estoppel is generally applicable to prevent the statute being used to effect a fraud. The \u201crequirements\u201d above mentioned are by way of practical \u2014 and, to a degree, arbitrary \u2014 definition of \u201cfraud\u201d for the particular purpose, including, as before indicated, the element of corroboration of the parol agreement by facts not themselves resting entirely on oral testimony.\nWe will assume that the above stated facts are the equivalent of a taking of possession by the petitioners-defendant, and that requirement (b) of Hooks v. Bridgewater is accordingly satisfied. Unless the only way to take possession of a mineral interest is for the would-be possessor himself to drill, this might well be the case; and the fact that the change of possession occurred over ten years after the alleged agreement would not necessarily make it otherwise.\nBut requirement (c) is another matter. If we assume it may be satisfied by some \u201cequivalent\u201d of valuable and permanent improvements, we must yet look to the underlying, purpose of the requirement in order to evaluate the particular \u201cequivalent\u201d suggested. The significance of the requirement is in part that of a \u201ccorroborative fact,\u201d but also, and more importantly, that of a serious change of position in reliance upon the oral contract over and above the payment of the consideration. In the latter connection, there is no sufficient \u201cfraud\u201d involved unless the parol vendee will suffer an additional and substantial out-of-pocket loss should the vendor be allowed to avoid the contract by invoking the statute. This is apparent from our positive statements in Hooks v. Bridgewater and other decisions that the \u201cfraud\u201d in question is something quite different from a mere wrong upon the party against whom the statute is invoked. See Robertson v. Melton, 131 Texas 325, 332, 115 S.W. 2d 624, 628, 118 A.L.R. 1505. Correspondingly we held in Francis v. Thomas, supra, that where the change of position of the vendee in reliance on the contract involved a profit to him, although not as great a one as he would have enjoyed had the vendor carried out his contract, equity will not circumvent the statute. The mere failure to get the benefit of a good bargain is not enough. Robertson v. Melton, supra.\nIf, in the instant case, the wells had been drilled by the petitioners-defendant themselves, possibly we would say that the \u201cimprovements\u201d requirement had been fulfilled; but drilling by the lessee at its own expense, still less payments made by it to the petitioners-defendant, involve no adverse change of position by the latter. Taber v. Pettus Oil & Ref. Co., 139 Texas 395, 162 S.W. 2d 959, 141 A.L.R. 808. The rights of the lessee are not here involved. If the statute be enforced against the petitioners-defendant they will be conceivably wronged but no worse off than they were before the alleged reconveyance to George Cow-den was made in 1938, unless by reason of having spent some $50.00 in taxes in 1952 and 1953 and some $550.00 in defending the 1951 title suit. Conceding that these latter expenditures might be deemed the equivalent of permanent and valuable improvements in some respects, they were not so either in respect of being a true loss (if the statute be enforced) or of being referable to (corroborative of) the alleged contract of resale. Whatever bonuses and rentals were paid by the lessee inured to their benefit. They also had the use of the $10,000 or more of royalties paid them. Their actual loss, if any, would thus be within the range of de minimis. As to \u201creferability\u201d of their defense of the 1951 title suit to the reconveyance, it is true that George Cowden\u2019s before-mentioned 1948 conveyance of a royalty corresponding to a one-twelfth mineral interest left the petitioners-defendant very little to defend in 1951 except the other one-twelfth standing in their names, which is the one now in suit. However, the 1948 royalty conveyance could itself account for their defense of the suit as an effort to avoid liability on Cow-den\u2019s warranty. Moreover, the failure of the respondent-plaintiff Bell to assert his ownership in connection with these matters or events, while it is perhaps unusual, is yet not unambigously significant. As to the title suit, he was evidently not even named as a defendant. In this and the other matters, his conduct might be explained on the theory that he thought no action on his part was urgently required. Owners of relatively small undivided interests, who have not signed a lease, do not always come for-forward promptly, even when oil is discovered. If the only proof of the existence of the alleged agreement of reconveyance were Bell\u2019s conduct \u2014 or, indeed, that of both the Cowdens and Bell\u2014 following its alleged date, we would probably regard such proof as no more than the suggestion of a possibility that such an agreement was made.\nAs against the foregoing views, the petitioners-defendant cite various decisions, which they appear to argue as qualifying, or even as being in conflict with, Hooks v. Bridgewater, supra, and others such as Robertson v. Melton, supra, which follow it. It is true that Hooks v. Bridgewater itself contains the rather general language, \u201c* * * or, without such improvements, the presence of such facts as would make the transaction a fraud upon the purchaser if it were not enforced.\u201d However, we do not regard this language as an abandonment of the principles declared in the same opinion \u2014 that the \u201cfraud\u201d must include an actual loss to the party seeking to avoid the statute and that the proof must include circumstances tending to corroborate the testimony as to actual existence of the contract. Most of the decisions cited, such as Morris v. Gaines, 82 Texas 255, 17 S.W. 538; Ward v. Etier, 113 Texas 83, 251 S.W. 1028; Texas Company v. Burkett, 117 Texas 16, 296 S.W. 273, 54 A.L.R. 1397; Johnson v. Smith, 115 Texas 193, 280 S.W. 158; and Burgin v. Godwin, Texas Civ. App., 167 S.W. 2d 614, wr. of er. refused want merit, appear to have involved an adverse change of position or loss to the party against whom the statute would otherwise have been enforced. Morris v. Gaines, supra, includes the language, \u201cand thereby his position has been so changed for the worse that he would be defrauded by a failure to carry out the contract\u201d (emphasis supplied) ; and the decision is cited in Burgin v. Godwin, supra, in connection with similar language.\nThe Commission of Appeals decision in Cooper v. Hinman, which we have discussed earlier, is, indeed, somewhat different. It was a title suit between two grantees of one Wagoner, the latter, before conveying to the second grantee (Cooper), having made a parol repurchase from his first grantee (Hinman) evidenced by a return to Wagoner by Hinman of the still unrecorded deed and a return by Wagoner to Hinman of most of the consideration, including an unpaid vendor\u2019s lien note. From the opinion of the Court of Civil Appeals in that case (212 S.W. 972) it is clear that the second, and successful, grantee (Cooper) was not a bona fide purchaser, and that, notwithstanding the parol reconveyance to the grantor (Wagoner) by the earlier grantee (Hinman), the latter continued to occupy the land thereafter and until judgment went against him. Doubtless there was no adverse change of position by either Wagoner or Cooper on the faith of the parol reconveyance except the return of the consideration by Wagoner to Hinman and the payment of consideration by Cooper to Wagoner.\nWhile, as before stated, we regard the decision as distinguishable from the instant case in that there was an actual return by Hinman to Wagoner of the Wagoner-to-Hinman deed, it still appears to be at odds with the basic doctrine of Hooks v. Bridge-water in that an equitable title was held to pass by the parol reconveyance without even a transfer of possession, still less the making of improvements by the revendee or any conspicuous equivalent of the latter. Obviously, however, Cooper v. Hinman is not to be taken as overruling the Hooks v. Bridgewater doctrine, and, since it coincides with the latter to the extent that the actual return of the deed affords substantial corroboration of the agreement of reconveyance, we conclude that it may properly stand as an exception. On the other hand, we are not disposed to extend such an exception to cover the instant case. To do so would confuse, or further confuse, an otherwise long recognized and generally desirable rule.\nThe judgment of the Court of Civil Appeals is affirmed.\nAssociate Justice Norvell not sitting.\nOpinion delivered March 20, 1957.",
+        "type": "majority",
+        "author": "Mr. Justice Garwood"
+      }
+    ],
+    "attorneys": [
+      "Fritz Sorrell, and Lincoln Clark, both of Pearsall, and F. L. Kuykendall, of Austin, for petitioners.",
+      "Mismark Pope, of Laredo, and Marcus F. Smith, of McAllen, for respondents."
+    ],
+    "corrections": "",
+    "head_matter": "George Cowden Et Al v. W. H. Bell\nNo. A-6039.\nDecided March 20 , 1957.\n(300 S.W. 2d Series 286)\nFritz Sorrell, and Lincoln Clark, both of Pearsall, and F. L. Kuykendall, of Austin, for petitioners.\nMismark Pope, of Laredo, and Marcus F. Smith, of McAllen, for respondents."
+  },
+  "file_name": "0044-01",
+  "first_page_order": 60,
+  "last_page_order": 69
+}

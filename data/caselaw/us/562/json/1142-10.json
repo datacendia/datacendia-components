@@ -1,0 +1,72 @@
+{
+  "id": 5972400,
+  "name": "Wideman v. Colorado; and Wideman v. Garcia",
+  "name_abbreviation": "Wideman v. Colorado",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-6701",
+  "first_page": "1142",
+  "last_page": "1142",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1142"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "382 Fed. Appx. 741",
+      "category": "reporters:federal",
+      "reporter": "Fed. Appx.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "382 Fed. Appx. 743",
+      "category": "reporters:federal",
+      "reporter": "Fed. Appx.",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 20,
+    "char_count": 150,
+    "ocr_confidence": 0.61,
+    "sha256": "c0002500f46a155e47474199dd5e91b681c94b099a09b1c0a4b5a787b6c154fb",
+    "simhash": "1:534903235506fabb",
+    "word_count": 25
+  },
+  "last_updated": "2024-02-27T22:51:28.129297+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wideman v. Colorado and Wideman v. Garcia"
+    ],
+    "opinions": [
+      {
+        "text": "(Reported below: 382 Fed. Appx. 743);\n(382 Fed. Appx. 741). C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6701.\nWideman v. Colorado and Wideman v. Garcia"
+  },
+  "file_name": "1142-10",
+  "first_page_order": 1164,
+  "last_page_order": 1164
+}

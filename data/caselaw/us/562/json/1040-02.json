@@ -1,0 +1,59 @@
+{
+  "id": 5957998,
+  "name": "In re Discipline of Hunt",
+  "name_abbreviation": "In re Discipline of Hunt",
+  "decision_date": "2010-11-15",
+  "docket_number": "No. D-2580",
+  "first_page": "1040",
+  "last_page": "1040",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1040"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 40,
+    "char_count": 283,
+    "ocr_confidence": 0.607,
+    "sha256": "bce1919fef64a33a77a52e53f0ca5333e14cea44a91137dbcc83fdd9945172da",
+    "simhash": "1:658a31a6bffab76e",
+    "word_count": 52
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of Hunt."
+    ],
+    "opinions": [
+      {
+        "text": "Craig Monard Hunt, of San Francisco, Cal., is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2580.\nIn re Discipline of Hunt."
+  },
+  "file_name": "1040-02",
+  "first_page_order": 1062,
+  "last_page_order": 1062
+}

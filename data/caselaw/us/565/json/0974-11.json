@@ -1,0 +1,110 @@
+{
+  "id": 12230017,
+  "name": "In re Disbarment of Pleshaw",
+  "name_abbreviation": "In re Disbarment of Pleshaw",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. D-2596",
+  "first_page": "974",
+  "last_page": "974",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 974"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "564 U. S. 1017",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12450688,
+        12450689,
+        12450690,
+        5932675,
+        12450691,
+        4333449,
+        5922200,
+        4333087,
+        4333858,
+        4331686,
+        4333492,
+        12450873,
+        12450874,
+        12450875,
+        4331578,
+        4335042,
+        12450898,
+        12450899,
+        4337371,
+        12450687
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/l-ed-2d/180/0842-06",
+        "/l-ed-2d/180/0843-01",
+        "/l-ed-2d/180/0843-02",
+        "/us/564/1017-02",
+        "/l-ed-2d/180/0843-03",
+        "/us/564/1017-08",
+        "/us/564/1017-03",
+        "/us/564/1017-07",
+        "/us/564/1017-09",
+        "/us/564/1017-06",
+        "/us/564/1017-04",
+        "/l-ed-2d/180/0866-05",
+        "/l-ed-2d/180/0866-06",
+        "/l-ed-2d/180/0866-07",
+        "/us/564/1017-10",
+        "/us/564/1017-05",
+        "/l-ed-2d/180/0870-01",
+        "/l-ed-2d/180/0870-02",
+        "/us/564/1017-01",
+        "/l-ed-2d/180/0842-05"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 109,
+    "ocr_confidence": 0.69,
+    "sha256": "e21e4a11afaaae88c063288c73078d36ec8a97f7fe8e9b2462b81e4bb11f84f6",
+    "simhash": "1:f8354b8eea56f26f",
+    "word_count": 18
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Pleshaw."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2596.\nIn re Disbarment of Pleshaw.\n[For earlier order herein, see 564 U. S. 1017.]"
+  },
+  "file_name": "0974-11",
+  "first_page_order": 1056,
+  "last_page_order": 1056
+}

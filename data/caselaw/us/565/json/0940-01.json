@@ -1,0 +1,61 @@
+{
+  "id": 12226836,
+  "name": "Vega-Cosme v. United States",
+  "name_abbreviation": "Vega-Cosme v. United States",
+  "decision_date": "2011-10-11",
+  "docket_number": "No. 11M35",
+  "first_page": "940",
+  "last_page": "940",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 940"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 29,
+    "char_count": 203,
+    "ocr_confidence": 0.629,
+    "sha256": "7bf35dbe8a17ca1a4c37b671c0d52aaeeaa3fe9dd8d65ac42b79817161bed2e8",
+    "simhash": "1:4b97b20687c1b2aa",
+    "word_count": 35
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this motion."
+    ],
+    "parties": [
+      "Vega-Cosme v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "Motion to direct the Clerk to file petition for writ of certiorari out of time denied.\nJustice Kagan took no part in the consideration or decision of this motion.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11M35.\nVega-Cosme v. United States."
+  },
+  "file_name": "0940-01",
+  "first_page_order": 1022,
+  "last_page_order": 1022
+}

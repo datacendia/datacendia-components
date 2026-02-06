@@ -1,0 +1,59 @@
+{
+  "id": 12240231,
+  "name": "Pugh v. Texas",
+  "name_abbreviation": "Pugh v. Texas",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-7072",
+  "first_page": "1122",
+  "last_page": "1122",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1122"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.623,
+    "sha256": "6338320e0426b8a00ab36868111fd5184a00dacb9f4de30b6305c7c9566d7141",
+    "simhash": "1:888a9bb066088432",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Pugh v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Tex., 14th Dist. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7072.\nPugh v. Texas."
+  },
+  "file_name": "1122-14",
+  "first_page_order": 1204,
+  "last_page_order": 1204
+}

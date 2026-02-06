@@ -1,0 +1,59 @@
+{
+  "id": 12433115,
+  "name": "Schiaffino v. Pennsylvania",
+  "name_abbreviation": "Schiaffino v. Pennsylvania",
+  "decision_date": "2013-03-18",
+  "docket_number": "No. 12-850",
+  "first_page": "1230",
+  "last_page": "1230",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1230"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 74,
+    "ocr_confidence": 0.611,
+    "sha256": "ecd900ce56e106cc8a3e20e295a3a66fb1ddff33e9bf917ca0431f4dc4fa7d00",
+    "simhash": "1:737606d0b4eadaf0",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Schiaffino v. Pennsylvania."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. Pa. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-850.\nSchiaffino v. Pennsylvania."
+  },
+  "file_name": "1230-08",
+  "first_page_order": 1306,
+  "last_page_order": 1306
+}

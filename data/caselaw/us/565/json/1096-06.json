@@ -1,0 +1,59 @@
+{
+  "id": 12238118,
+  "name": "Arceo et al. v. California",
+  "name_abbreviation": "Arceo v. California",
+  "decision_date": "2011-12-12",
+  "docket_number": "No. 11-6823",
+  "first_page": "1096",
+  "last_page": "1096",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1096"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 89,
+    "ocr_confidence": 0.676,
+    "sha256": "806f6342427a0e01207f1450635265cfcb0f5cf98216cc2195d6c6d3d85b35cc",
+    "simhash": "1:eb4d318139523a43",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Arceo et al. v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 2d App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6823.\nArceo et al. v. California."
+  },
+  "file_name": "1096-06",
+  "first_page_order": 1178,
+  "last_page_order": 1178
+}

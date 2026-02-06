@@ -1,0 +1,734 @@
+{
+  "id": 12518275,
+  "name": "UNITED STATES of America, Plaintiff-Appellee, v. Wayne SCOTT, Defendant-Appellant.",
+  "name_abbreviation": "United States v. Scott",
+  "decision_date": "2018-08-21",
+  "docket_number": "No. 17-2784",
+  "first_page": "972",
+  "last_page": "982",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "900 F.3d 972"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "7th Cir.",
+    "id": 9010,
+    "name": "United States Court of Appeals for the Seventh Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "831 F.3d 811",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6055490
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "814"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/831/0811-01"
+      ]
+    },
+    {
+      "cite": "795 F.3d 682",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4289364
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "685",
+          "parenthetical": "\"[T]he full panoply of rights that the Constitution guarantees to criminal defendants does not extend to them\" in revocation hearings"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/795/0682-01"
+      ]
+    },
+    {
+      "cite": "406 F.3d 845",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1095741
+      ],
+      "weight": 2,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "848"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/406/0845-01"
+      ]
+    },
+    {
+      "cite": "804 F.3d 859",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4357514
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "865",
+          "parenthetical": "quoting Brodie , 507 F.3d at 530 "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/804/0859-01"
+      ]
+    },
+    {
+      "cite": "462 F.3d 783",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3463782
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "793"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/462/0783-01"
+      ]
+    },
+    {
+      "cite": "507 F.3d 527",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6047425
+      ],
+      "weight": 4,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "530"
+        },
+        {
+          "page": "530"
+        },
+        {
+          "page": "531"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/507/0527-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 1341",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "175 F.3d 511",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1720117
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "515"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/175/0511-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 3583",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(h)",
+          "parenthetical": "combined term of imprisonment and supervised released imposed after revocation cannot exceed term of supervised release authorized for the underlying conviction"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "760 F.3d 920",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4148936
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "925"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/760/0920-01"
+      ]
+    },
+    {
+      "cite": "495 F.3d 443",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3563343
+      ],
+      "weight": 3,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "449"
+        },
+        {
+          "page": "448-49",
+          "parenthetical": "allocution is meant to occur before the district court settles on a sentence"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/495/0443-01"
+      ]
+    },
+    {
+      "cite": "365 U.S. 301",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6165875
+      ],
+      "weight": 5,
+      "year": 1961,
+      "pin_cites": [
+        {
+          "page": "305",
+          "parenthetical": "plurality"
+        },
+        {
+          "parenthetical": "plurality"
+        },
+        {
+          "parenthetical": "plurality"
+        },
+        {
+          "page": "304"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/365/0301-01"
+      ]
+    },
+    {
+      "cite": "376 F. App'x 612",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        4155207
+      ],
+      "weight": 2,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "614"
+        },
+        {
+          "page": "614",
+          "parenthetical": "the court \"technically\" failed to address the defendant personally but the defendant understood the invitation and took the opportunity to address the court"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f-appx/376/0612-01"
+      ]
+    },
+    {
+      "cite": "138 S.Ct. 1897",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12612311
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1908"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/s-ct/138/1897-01"
+      ]
+    },
+    {
+      "cite": "136 S.Ct. 1338",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12595701
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1345"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/s-ct/136/1338-01"
+      ]
+    },
+    {
+      "cite": "578 F.3d 694",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4048410
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "695"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/578/0694-01"
+      ]
+    },
+    {
+      "cite": "635 F.3d 956",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4030644
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "959"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/635/0956-01"
+      ]
+    },
+    {
+      "cite": "784 F.3d 1180",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4181158
+      ],
+      "weight": 2,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1181"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/784/1180-01"
+      ]
+    },
+    {
+      "cite": "556 U.S. 129",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3653331
+      ],
+      "weight": 3,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "135",
+          "parenthetical": "quoting Olano , 507 U.S. at 736, 113 S.Ct. 1770 "
+        },
+        {
+          "parenthetical": "quoting Olano , 507 U.S. at 736, 113 S.Ct. 1770 "
+        },
+        {
+          "parenthetical": "quoting Olano , 507 U.S. at 736, 113 S.Ct. 1770 "
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/556/0129-01"
+      ]
+    },
+    {
+      "cite": "62 F.3d 909",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7416620
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "917"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/62/0909-01"
+      ]
+    },
+    {
+      "cite": "48 F.3d 1020",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7411676
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "1025",
+          "parenthetical": "addressing Rule 32"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/48/1020-01"
+      ]
+    },
+    {
+      "cite": "505 F.3d 633",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5862477
+      ],
+      "weight": 4,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "635-36"
+        },
+        {
+          "page": "635-36",
+          "parenthetical": "asking, \"Anybody else?\" inadequate on revocation of supervised release"
+        },
+        {
+          "page": "636"
+        },
+        {
+          "page": "636"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/505/0633-01"
+      ]
+    },
+    {
+      "cite": "581 F.3d 490",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5756201
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "502",
+          "parenthetical": "applying Rule 32"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/581/0490-01"
+      ]
+    },
+    {
+      "cite": "504 F.3d 657",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        2950404
+      ],
+      "weight": 7,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "662"
+        },
+        {
+          "page": "662",
+          "parenthetical": "same for two closed-ended questions"
+        },
+        {
+          "page": "663"
+        },
+        {
+          "page": "661-62",
+          "parenthetical": "describing Rule as \"granting criminal defendants a personal right to allocution and as imposing on trial judges a duty personally to invite defendants to speak before sentencing\""
+        },
+        {
+          "page": "662"
+        },
+        {
+          "page": "663",
+          "parenthetical": "error did not affect fairness because the failure to invite a statement involved mechanically enforcing the terms of a prior informed \"bargain\" with the district court"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/504/0657-01"
+      ]
+    },
+    {
+      "cite": "883 F.3d 955",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516117
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "957"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/883/0955-01"
+      ]
+    },
+    {
+      "cite": "813 F.3d 1038",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4087898
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1045"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/813/1038-01"
+      ]
+    },
+    {
+      "cite": "873 F.3d 601",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12265371
+      ],
+      "weight": 3,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "607",
+          "parenthetical": "quoting United States v. Seals , 813 F.3d 1038, 1045 (7th Cir. 2016) "
+        },
+        {
+          "page": "607"
+        },
+        {
+          "page": "610"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/873/0601-01"
+      ]
+    },
+    {
+      "cite": "604 F.3d 997",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4228101
+      ],
+      "weight": 2,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "1001"
+        },
+        {
+          "page": "1001-02",
+          "parenthetical": "alteration in original"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/604/0997-01"
+      ]
+    },
+    {
+      "cite": "304 U.S. 458",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        10805
+      ],
+      "weight": 3,
+      "year": 1938,
+      "pin_cites": [
+        {
+          "page": "464"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/304/0458-01"
+      ]
+    },
+    {
+      "cite": "507 U.S. 725",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6237509
+      ],
+      "weight": 5,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "733",
+          "parenthetical": "quoting Johnson v. Zerbst , 304 U.S. 458, 464, 58 S.Ct. 1019, 82 L.Ed. 1461 (1938) "
+        },
+        {
+          "parenthetical": "quoting Johnson v. Zerbst , 304 U.S. 458, 464, 58 S.Ct. 1019, 82 L.Ed. 1461 (1938) "
+        },
+        {
+          "parenthetical": "quoting Johnson v. Zerbst , 304 U.S. 458, 464, 58 S.Ct. 1019, 82 L.Ed. 1461 (1938) "
+        },
+        {
+          "page": "736"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/507/0725-01"
+      ]
+    },
+    {
+      "cite": "831 F.3d 811",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6055490
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "814"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/831/0811-01"
+      ]
+    },
+    {
+      "cite": "795 F.3d 682",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4289364
+      ],
+      "weight": 4,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "685",
+          "parenthetical": "applying plain error review to forfeited claims arising from a revocation hearing"
+        },
+        {
+          "page": "685"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/795/0682-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1248,
+    "char_count": 33324,
+    "pagerank": {
+      "raw": 5.676830387708631e-08,
+      "percentile": 0.3573928441387896
+    },
+    "sha256": "10e0a6b7eec2c5bba11adca8db17d2877b1b315c74f77602c6bb7d745e1b37a4",
+    "simhash": "1:1be677e46b31556f",
+    "word_count": 5394
+  },
+  "last_updated": "2024-02-27T18:45:52.975388+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Wood, Chief Judge, and Bauer and Sykes, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff-Appellee,\nv.\nWayne SCOTT, Defendant-Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Bauer, Circuit Judge.\nIn 2010, Wayne Scott was sentenced to 63 months of imprisonment and 36 months of supervised release after entering into a written plea agreement for engaging in two schemes to defraud investors and potential investors. After his release, Scott violated his supervised release conditions several times. At the revocation hearing for one of these violations, the district court found Scott violated one of his probation conditions and sentenced him to an additional 36 months of supervised release. Scott argues on appeal that the district court committed procedural errors at the revocation hearing in failing to calculate or discuss the advisory Sentencing Guidelines range and in failing to afford him an opportunity to allocute.\nI. BACKGROUND\nIn 2009, Scott was charged with and pleaded guilty to engaging in two schemes to defraud investors and potential investors, in violation of 18 U.S.C. \u00a7 1341. One of the supervised release conditions the district court imposed at sentencing was that he could not incur new credit charges or open additional lines of credit without the approval of the probation officer. On January 17, 2017, the government filed a motion alleging that Scott had violated this condition.\nOn July 6, 2017, the district court held a revocation hearing and determined that Scott violated this probation condition. When asked for its sentencing recommendation, the government referenced a special report on a prior violation during the same probation period that recommended five months in custody and a new term of 36 months' supervised release. The district court declined to impose further custody due to Scott's regular restitution payments. The government then requested that the court extend the term of supervised release. Defense counsel answered, \"we have no objection to extending the period of mandatory supervised release.\" Thus, the district court agreed to the 36 months of supervised release.\nAt the end of the hearing, the district court reiterated to Scott that he needed to continue making his restitution payments in order to avoid future appearances in court. Scott replied, \"Your Honor, I just want to add for the record,\" and defense counsel interjected stating, \"No, you're going to talk to me first.\" Scott agreed, and the two conferred. Defense counsel then returned and said, \"Pardon me, Judge. Thank you for the opportunity to talk. I don't believe he has anything else he wants to tell the Court.\" The district court accepted this statement and the hearing ended.\nBefore the next status hearing on July 19, 2017, Scott retained new counsel. At this hearing, the district court addressed the issue that the extension of Scott's supervised release for three years required the imposition of a period of custody. The district court proposed a sentence of one day of custody, considered time served, followed by three years of supervised release. The district court asked if there were any objections. Defense counsel did not explicitly object, and stated, \"I'm not looking to reopen Mr. Scott's sentencing hearing.\" Defense counsel then advocated for a shorter supervised release period, but made no inquiry or argument concerning the applicable advisory Sentencing Guidelines calculation or Scott's lack of allocution at the original revocation hearing.\nOn August 1, 2017, Scott filed a motion to reconsider, challenging the district court's finding of a violation of supervised release and reiterating the sentencing arguments made on July 19. Additionally, he asserted for the first time that he did not agree with his prior counsel's decision not to object to the new sentence of supervised release, that there was no mention of a specific Sentencing Guidelines calculation at his revocation hearing, that the potential penalties were not made clear to him, and that he was unable to present mitigation at the revocation hearing.\nThe district court entered judgment on August 16, 2017. On August 27, Scott filed an amended motion for reconsideration and noticed this motion for hearing two days later. On that same day, the district court denied the motion for reconsideration. Scott timely appealed.\nII. ANALYSIS\nOn appeal, Scott argues the district court erred in failing to calculate and consider the Sentencing Guidelines range for his violation of the conditions of supervised release and that the district court failed to comply with Federal Rule of Criminal Procedure 32.1(c)(1), which affords defendants the right to allocute. We find that Scott waived both issues.\n\"Waiver occurs when a criminal defendant intentionally relinquishes a known right.\" United States v. Brodie , 507 F.3d 527, 530 (7th Cir. 2007) ; United States v. Haddad , 462 F.3d 783, 793 (7th Cir. 2006). Waiver effectively \"extinguishes any error and precludes appellate review.\" United States v. Armour , 804 F.3d 859, 865 (7th Cir. 2015) (quoting Brodie , 507 F.3d at 530 ). Conversely, \"[f]orfeiture occurs when a defendant negligently fails to assert a right in a timely fashion,\" which triggers plain error review. Brodie , 507 F.3d at 530.\n\"The touchstone of waiver is a knowing and intentional decision.\" United States v. Jaimes-Jaimes , 406 F.3d 845, 848 (7th Cir. 2005). A defendant's decision to present one argument and not another is a matter of strategy, and the arguments he decides not to present are waived. Id. Similarly, \"[a] defendant who does not object to his sentence when asked whether he has any objections may communicate an intention to relinquish any arguments related to his\" sentencing conditions. Brodie , 507 F.3d at 531.\nAs a preliminary matter, it is important to note that revocation hearings are more summary proceedings subject to lesser standards than sentencing hearings. United States v. Lee , 795 F.3d 682, 685 (7th Cir. 2015) (\"[T]he full panoply of rights that the Constitution guarantees to criminal defendants does not extend to them\" in revocation hearings) (citations and quotation marks omitted).\nAt the revocation hearing on July 6, 2017, the district court discussed with the parties a sentence for Scott's violation. After the district court rejected additional incarceration, the government recommended 36 months of supervised release. Defense counsel responded saying, \"we have no objection to extending the period of mandatory supervised release.\"\nAt the end of this hearing, the district court allowed Scott to speak for the record. However, his attorney cut him off and requested a moment to speak with Scott privately. After speaking privately, counsel confirmed with the court that Scott had nothing further to say, effectively relinquishing his right to allocute. It is not the court's job to interfere with an attorney-client relationship. Rather, the district court must be able to rely on the representations given by counsel. Furthermore, Scott previously had a sentencing hearing where the district court afforded him the opportunity to allocute. This allows us to conclude that he was familiar with his right to allocute.\nScott had a new attorney at the resentencing hearing on July 19, 2017. At this hearing, defense counsel specifically stated, \"I'm not looking to reopen Mr. Scott's sentencing hearing.\" As defense counsel conceded at oral argument, he declined review of the 36 months of supervised release as well as the asserted failure to allow allocution. Instead, he focused this time before the court on advocating for a shorter probation period. This would have been the appropriate time for counsel to assert any objections to either of these issues. However, by failing to raise these objections, he affirmatively waived the right to challenge either of these issues. See United States v. Gabriel , 831 F.3d 811, 814 (7th Cir. 2016). Therefore, our review is precluded.\nIII. CONCLUSION\nFor the foregoing reasons, we AFFIRM the district court's findings.",
+        "type": "majority",
+        "author": "Bauer, Circuit Judge."
+      },
+      {
+        "text": "Wood, Chief Judge, dissenting.\nThis case began as a routine proceeding to revoke defendant Wayne Scott's supervised release because he bought a car without permission. But the process went of the rails during his revocation hearing. The district court never calculated a guidelines term for the underlying violation. To add procedural insult to injury, his lawyer gratuitously told the court that \"we\" have no objection to extending the term of his supervision, Scott tried to speak up and was silenced by the lawyer, and then the lawyer-not Scott-told the court that Scott had nothing to say, and the court made no further inquiries. With new counsel, Scott tried to undo the harm that had been done, but the district court decided that he was too late. On appeal, Scott again seeks a fresh revocation proceeding at which his right to allocute is respected and at which he can raise issues about the guidelines calculations for revocation. My colleagues have concluded that Scott waived these issues. I cannot agree. I can find no place in this record where Scott intentionally relinquished his right to either procedural guarantee, and so I would remand Scott's case to the district court for a fresh consideration of his sentence on revocation.\nI\nSome additional detail is useful in order to understand how Scott wound up where he is. Upon his conviction on charges of conducting two investment-fraud schemes, Scott was sentenced to 63 months' imprisonment and 36 months of supervised release. He completed his time in prison and on January 30, 2014, he began his term of supervised release. A year and a half later, the Probation Office filed a written request asking the district court to hold a revocation hearing. It listed five conditions that Scott allegedly had violated: state charges of domestic battery; failure to notify Probation about the state arrest; failure to make some restitution payments; failure to notify Probation about a change of address; and failure to notify Probation that he was questioned by police. It also calculated the advisory revocation sentences for each violation, using Chapter 7 of the guidelines. In July 2015, Probation filed a supplemental report, charging two new violations (a conviction for misdemeanor domestic violence and an arrest for assault). In the end, however, the district court never considered these charges.\nAnother year and a half later, on January 17, 2017, the government filed another document, which it called a \"Supplemental Motion,\" again asking to revoke Scott's supervised release. This time, it relied on an entirely new violation: that Scott had violated the condition that forbade him from incurring new credit charges or opening additional lines of credit without Probation's permission. It based this accusation on Scott's alleged 2014 purchase of a 2009 Jaguar through a nominee. Neither the Supplemental Motion nor anything else ever provided any guidelines calculation for the credit violation.\nAfter hearing testimony concerning the alleged car purchase, the district court determined that Scott violated the terms of his supervised release by taking out the loan. It held a revocation hearing on July 6, 2017. (By that time, Scott's term of supervised release would otherwise have elapsed.) During that hearing, the court asked the prosecutor for her recommended sentence. She responded as follows:\nYour Honor, this case originally began with [sic ] supervised release request ... in connection with the defendant's arrest and then re-arrest in connection with a domestic battery situation. And the request at that time was that his supervised release be revoked, he be sentenced to a term of custody of five months, and then a new term of supervised release of 36 months should be imposed.\nThat would be the government's continuing recommendation. This is a separate violation from the one originally reported, but I think the Court has a sense from what has been described that-well, with respect to the violation, the defendant violated the term of supervised release.\nThe court then asked a series of questions about Scott such as whether he was single, whether he had a son, and how old his son was. Although they were directed to his attorney, Scott himself offered brief responses to these questions. The court never asked Scott if he wished to provide additional information that he thought pertinent to his sentence.\nAt that point, the district court indicated that it was amenable to extending Scott's term of supervised release. Its comment set of an exchange with the prosecutor, Karina Salovaara; the probation officer;\nand Scott's attorney, Raymond Wigell, which proceeded as follows:\nMs. Salovaara : ... [W]e would ask at the very least that the period of supervised release be extended.\nThe Court : I think, yes, you should do that because I want him to continue making restitution payments.\nMr. Wigell : And we have no objection to extending the period of mandatory supervised release, Judge.\nThe Court : When does it end?\nMs. Salovaara : Well, again, technically it ended earlier-\nThe Probation Officer : It actually ended in January, your Honor.\nThe Court : All right. So then we'll extend it now, what would you suggest; a year?\nThe Probation Officer : The initial probation officer requested that his supervised release be extended 36 months.\nMs. Salovaara : Three years.\nThe Probation Officer : Three years.\nMs. Salovaara : And that the five months of custody-\nThe Court : 36 months?\nMs. Salovaara : Yes\nThe Court : All right. Let's make it 36 months then. ...\nAs the transcript shows, Wigell never agreed on Scott's behalf to a supervised release term of 36 months; in fact, he did not condone any particular period. He merely stated that, as a general matter, he did not object to extending Scott's supervised release. The government recommended a 36-month term only after Scott's counsel had agreed to some extension.\nThat was not the end of the July 6 proceedings, however. A few minutes later, Scott interjected \"Your Honor, I just want to add for the record-....\" But before he could finish talking, Wigell interrupted him and said, \"No, you're going to talk to me first.\" They conferred, after which Wigell said, \"Pardon me, Judge. Thank you for the opportunity to talk. I don't believe [Scott] has anything else he wants to tell the Court.\" The judge did not confirm this with Scott. Instead, he said only \"All right. That's fine.\"\nBefore judgment was entered, the court scheduled one more status hearing. Before it took place, Scott obtained new counsel. The second hearing took place on July 19, 2017, with new counsel. There was some discussion about the need for at least a minimal period of incarceration and restitution. Importantly for present purposes, Scott's new lawyer told the court that while he was \"not looking to reopen Mr. Scott's sentencing hearing,\" he was asking for a shorter term of supervised release for Scott. The court rejected that request. Once again, Scott did not have the opportunity to speak.\nScott tried one more time in the district court to make his own arguments: before judgment was entered, he filed a motion to reconsider on August 1, 2017, in which he raised the arguments he is trying to press here. He asserted that he did not agree with Wigell's decision not to object to the new term of supervised release, and he complained that the court had failed to consult the advisory guidelines before deciding on the revocation sentence. The court did not respond to this motion; it entered judgment on August 16, giving Scott one day's incarceration and 36 months of supervised release. After another motion to reconsider, which the court denied on August 29, this appeal followed.\nII\nMy colleagues find waiver in the course of events I have recounted here, but with respect, I cannot agree with them. As the majority acknowledges, waiver occurs only as the result of an \"intentional relinquishment or abandonment of a known right.\"\nUnited States v. Olano , 507 U.S. 725, 733, 113 S.Ct. 1770, 123 L.Ed.2d 508 (1993) (quoting Johnson v. Zerbst , 304 U.S. 458, 464, 58 S.Ct. 1019, 82 L.Ed. 1461 (1938) ). \"[W]aiver requires a calculated choice to stay silent on a particular matter.\" United States v. Anderson , 604 F.3d 997, 1001 (7th Cir. 2010). In contrast, forfeiture occurs if \"a defendant merely 'fails to raise an argument due to accident or neglect.' \" United States v. Oliver , 873 F.3d 601, 607 (7th Cir. 2017) (quoting United States v. Seals , 813 F.3d 1038, 1045 (7th Cir. 2016) ). In demarcating the line between the two, we construe the boundary in favor of the defendant. United States v. Barnes , 883 F.3d 955, 957 (7th Cir. 2018). \"Where the government cannot proffer any strategic justification for a [defendant's] decision, we can assume forfeiture.\" Oliver , 873 F.3d at 607 (quoting Anderson , 604 F.3d at 1001-02 (alteration in original) ).\nThe majority finds waiver at four separate points in the proceedings: (1) when Wigell announced on July 6 that he did not object to extending Scott's supervised release; (2) when Scott tried to speak up and was silenced by his attorney; (3) when new counsel said on July 19 that he was not trying to reopen the \"sentencing hearing\"; and (4) when Scott was silent about his objections at the July 19 hearing. The first three of these instances do not support a finding of either waiver or forfeiture; the fourth comes closer to forfeiture but fails because Scott raised his objections in the motion to reconsider, which was filed before judgment was entered, while the district court was still fully empowered to act.\nWigell's comment that he was not objecting in general to an extension of supervised release said nothing at all about the term of that release. It could have been one extra month; it could have been 36 extra months. Wigell cannot have waived the right on Scott's behalf to object to a length unknown to him at the time. True, Scott is now objecting to the statement as a whole, but that does not mean that he is foreclosed from arguing that the extension was much too long.\nScott did nothing to waive his right to allocute either. Federal Rule of Criminal Procedure 32.1(c)(1) specifically confers such a right on a defendant who is facing the modification of the term of his supervised release. It states that \"[b]efore modifying the conditions of probation or supervised release, the court must hold a hearing, at which the person has the right to counsel and an opportunity to make a statement and present any information in mitigation.\" (Emphasis added.) As the exchange reproduced above demonstrates, Scott may have been attempting to exercise this right, but his lawyer prevented him from speaking and the court never gave him another opportunity.\nWe have interpreted Rule 32.1 as imposing obligations on a district court conducting a hearing on the revocation of supervised release that are comparable to those imposed by Rule 32 at the time of initial sentencing. United States v. Pitre , 504 F.3d 657, 662 (7th Cir. 2007). Among these obligations is a requirement that the district court advise the defendant personally of his right to address the court before it imposes a sentence of supervised release. Id. ; United States v. Noel , 581 F.3d 490, 502 (7th Cir. 2009) (applying Rule 32); United States v. O'Hallaren , 505 F.3d 633, 635-36 (7th Cir. 2007). The invitation to speak must be meaningful, and \"compliance by a judge in form only\" is insufficient. United States v. Clemmons , 48 F.3d 1020, 1025 (7th Cir. 1995) (addressing Rule 32), overruled on other grounds by United States v. Allender , 62 F.3d 909, 917 (1995) ; see also O'Hallaren , 505 F.3d at 635-36 (asking, \"Anybody else?\" inadequate on revocation of supervised release);\nPitre , 504 F.3d at 662 (same for two closed-ended questions).\nThe duty to afford an opportunity to allocute rests on the judge, not on the defendant. The fact that Scott did not override his attorney on July 6 can therefore not be held against him. And in fact, he asked to be heard personally through the motion that he filed on August 1, just a few weeks after the revocation hearing and before the court entered judgment. His case is therefore not a good candidate for a finding of forfeiture, much less waiver.\nTurning to the third source of waiver on which the majority relies-the comments of Scott's new lawyer on July 19 to the effect that he (the lawyer) was not seeking to reopen the sentencing-that too in context is far from waiver. The lawyer immediately presented arguments for a shorter term of supervised release, stressing Scott's disappointment with the three-year term and his desire to regain \"the freedom to live his life again without being encumbered.\" The only way to make any sense of this is as a statement from the second lawyer (whether or not authorized by Scott) to the effect that the only question that remained was how long the new term of supervision would be.\nThe final argument for waiver appears to arise out of the July 19 hearing. That, the majority suggests, \"would have been the appropriate time for counsel to assert any objections,\" and, \"by failing to raise these objections, [Scott] affirmatively waived the right to challenge\" them. Ante at 975 (citing United States v. Gabriel , 831 F.3d 811, 814 (7th Cir. 2016) ). But this is the language of forfeiture. A total failure to raise a point, when there could have been no strategic reason for Scott (or his lawyer) to drop it, is a forfeiture. So viewed, we would analyze Scott's claims under the plain-error standard; we would not refuse to reach them.\nIII\nIf these errors could not have affected the outcome, then perhaps the majority's decision should stand. But, as I briefly explain, they did. Although Scott may in reality have preserved some or all of his points for ordinary review, I will assume for the sake of argument that plain error applies here. United States v. Lee , 795 F.3d 682, 685 (7th Cir. 2015) (applying plain error review to forfeited claims arising from a revocation hearing). To prevail, Scott needed to show that (a) the district court erred, (b) that error was \"clear or obvious,\" (c) the error \"affected [his] substantial rights,\" and (d) the \"error 'seriously affect[s] the fairness, integrity or public reputation of judicial proceedings.' \" Puckett v. United States , 556 U.S. 129, 135, 129 S.Ct. 1423, 173 L.Ed.2d 266 (2009) (quoting Olano , 507 U.S. at 736, 113 S.Ct. 1770 ) (alteration in original).\nA\nI address first Scott's complaint that the district court failed properly to consult the guidelines when it settled on the post-revocation sentence. The district court must begin the process of revoking supervised release by calculating and considering the recommended guidelines range under the Chapter 7 Policy Statements. United States v. Downs , 784 F.3d 1180, 1181 (7th Cir. 2015) ; United States v. Snyder , 635 F.3d 956, 959 (7th Cir. 2011). At initial sentencing, a court sometimes may \"expressly reference[ ] the PSR\" and \"adopt[ ] the PSR's Guidelines calculations,\" rather than engage in the analysis anew. Oliver , 873 F.3d at 610. There is no reason to take a more rigid approach for revocation proceedings, and so we can assume that the same rule applies to them. In any case, there must be some indication that the district court actually considered the appropriate guidelines range. Id . ;\nUnited States v. Gibbs , 578 F.3d 694, 695 (7th Cir. 2009).\nHere, the court did not follow that rule. It never calculated a guidelines term nor, despite the government's assertions, did it adopt any calculation from the Probation Office. The reason is simple: no such calculation existed. This revocation was about the car. The reports from 2015, which analyzed entirely unrelated violations of supervised release, contained limited guidelines calculations, but those violations were not acted upon. In 2017, a new violation-the car purchase-led to the revocation of supervised release. The Probation Office did not prepare a report for that violation, nor did the government's \"Supplemental Motion\" make any recommendation based on the guidelines.\nAt the sentencing hearing, the only references to the 2015 report were made by the government and the probation officer-not the district court or Scott. Even then, the government never mentioned the range calculated in the 2015 reports, nor did it opine (much less justify the position) that the previously calculated range would apply to Scott's 2017 violation. The government merely alluded to its earlier request, despite acknowledging that it was for a \"separate violation.\" It never clearly linked its new revocation request to a guideline calculation for the underlying violation. The probation officer also noted that his predecessor had requested three years of supervised release, again without any mention of the guidelines.\nThat error requires reversal. The guidelines play a central role in sentencing and exert a powerful anchoring effect; therefore, we must presume that failure to calculate Scott's guidelines affected his sentence. Downs , 784 F.3d at 1181-82 ; see also Molina-Martinez v. United States , --- U.S. ----, 136 S.Ct. 1338, 1345, 194 L.Ed.2d 444 (2016). Because the district court is itself responsible for guidelines calculations and its errors are easily corrected on remand, the Supreme Court recently noted that a guidelines miscalculation creates a \"risk of unnecessary deprivation of liberty [that] particularly undermines the fairness, integrity, or public reputation of judicial proceedings.\" Rosales-Mireles v. United States , --- U.S. ----, 138 S.Ct. 1897, 1908, --- L.Ed.2d ---- (2018). Thus, except in the extraordinary case, miscalculation requires reversal under plain error review. Id . at 1911. The lack of any reference point gave an ad hoc tone to Scott's proceedings. The district judge initially seemed inclined to impose one year of supervised release. But after the probation officer responded that his predecessor had requested 36 months (without specifying that this had been for different violations), and the prosecutor agreed, the court responded, \"All right. Let's make it 36 months then.\" Sentencing should not be an off-the-cuff affair, and it was plain error to treat it that way.\nB\nSecond, I take a brief look at the court's failure to allow Scott to speak at his revocation hearing. FED. R. CRIM. P. 32.1(b)(2)(E). We consistently have held that failure to offer the defendant a chance to speak violates Rule 32.1 and requires reversal. (As the government acknowledged, the only identifiable cases in which we appear to have ruled otherwise are United States v. DeBerry , 376 F. App'x 612, 614 (7th Cir. 2010), and Pitre , 504 F.3d at 663.) Strictly requiring the district court to issue a separate warning at the revocation hearing makes sense (and is required by the rule) because a defendant might not otherwise know of his rights-especially at a revocation hearing where, as the majority points out, an offender has fewer rights.\nContrary to the majority's suggestion, nothing in the attorney-client relationship gets in the way of compliance with Rule 32.1. Ante at 975. To the contrary, the rule simply prescribes a particular kind of communication the judge must personally have with the defendant. Rule 32.1 safeguards a defendant's \"personal right.\" Green v. United States , 365 U.S. 301, 305, 81 S.Ct. 653, 5 L.Ed.2d 670 (1961) (plurality); United States v. Luepke , 495 F.3d 443, 449 (7th Cir. 2007) ; Pitre , 504 F.3d at 661-62 (describing Rule as \"granting criminal defendants a personal right to allocution and as imposing on trial judges a duty personally to invite defendants to speak before sentencing\"). It represents one of the few times in a proceeding when the defendant has a personal right to make a decision; to safeguard that right, the court must speak to the client directly. It allows the court to hear from the client, unfiltered by his attorney. Green , 365 U.S. at 304, 81 S.Ct. 653 (\"The most persuasive counsel may not be able to speak for a defendant as the defendant might, with halting eloquence, speak for himself.\").\nIt is not even clear that the exchange we are talking about is best read as bearing on the right to allocute. Scott stated, \"I just want to add for the record.\" His attorney interrupted and then said that Scott no longer wished to speak. All this occurred after the court had settled on the 36-month term of supervised release. None of us knows what Scott had planned to add. And the court, having already settled on its sentence, might not have taken anything he said into account. Luepke , 495 F.3d at 448-49 (allocution is meant to occur before the district court settles on a sentence).\nOn the merits, it is once again plain that the district court erred. It never invited Scott to explain why he deserved more lenient treatment. Prior to settling on three years of supervised release, the only meaningful inquiries directed to Scott consisted of a series of closed-ended questions regarding his family and employment situation. While the district court may have gleaned some relevant information from the exchange, it never invited Scott to share information that Scott thought pertinent to the revocation of supervised release. A judge-controlled Q and A is not a meaningful invitation to share what the defendant thinks important as required by Rule 32.1. Pitre , 504 F.3d at 662.\nScott's aborted attempt to speak at the end of the July 6 hearing did not save the day. The judge never invited him to offer a statement in mitigation. Maybe Scott was starting to offer one on his own initiative. Or perhaps he was planning to talk about something else; who knows? As I already have noted, the timing was wrong in any event, because by then the sentence had been set.\nThe district court's violation of Rule 32.1 requires reversal under the plain-error standard. Failure to invite allocution prior to revocation constitutes a clear violation of the requirements imposed by Rule 32.1. Id . at 661-62 ; see also United States v. Daniels , 760 F.3d 920, 925 (9th Cir. 2014). Such an error is prejudicial, for plain-error purposes. We \"presume[s] prejudice when there is any possibility that the defendant would have received a lesser sentence had the district court allowed him to speak before imposing a sentence,\" and we \"cannot speculate as to the persuasive ability of anything [the defendant] may have said in his statement.\" O'Hallaren , 505 F.3d at 636. Here, three additional years of supervised release was the maximum extension allowed by law-perhaps even a day too long, given the judge's decision to impose one day's incarceration and 36 months' supervised release. See 18 U.S.C. \u00a7 3583(h) (combined term of imprisonment and supervised released imposed after revocation cannot exceed term of supervised release authorized for the underlying conviction); Id . \u00a7 3583(b)(2) (authorizing three years of supervised release for a class C felony); Id . \u00a7\u00a7 1341, 3559(a)(3) (designating Scott's underlying conviction a class C felony); Id . \u00a7 3583(i) (requiring terms of supervised release to run concurrently).\nFinally, failure to afford a defendant his allocution rights casts the integrity and fairness of sentencing into disrepute and requires resentencing \"[a]bsent some rare indication from the face of the record that the denial of this right did not implicate these core values.\" O'Hallaren , 505 F.3d at 636 (quoting Luepke , 495 F.3d at 452 ); Pitre , 504 F.3d at 663 (error did not affect fairness because the failure to invite a statement involved mechanically enforcing the terms of a prior informed \"bargain\" with the district court); DeBerry, 376 F. App'x at 614 (the court \"technically\" failed to address the defendant personally but the defendant understood the invitation and took the opportunity to address the court). Despite his efforts, ultimately Scott had no opportunity to convince the judge to show compassion.\nMy colleagues point out that offenders are not afforded the same rights at revocation hearings as in their initial criminal proceedings. Ante at 975 (citing Lee, 795 F.3d at 685 ). But \"reduced rights are not the same as no rights at all,\" Lee , 795 F.3d at 685, and my argument rests exclusively on the rule governing revocation hearings, not initial sentences. Federal Rule of Criminal Procedure 32.1 largely codifies the rights the Supreme Court deems necessary to a fair revocation proceeding. Id. at 686 (citing United States v. LeBlanc , 175 F.3d 511, 515 (7th Cir. 1999) ).\nIV\nThe district court violated Scott's rights at his revocation hearing. At worst, Scott forfeited the arguments he now wishes to present. If so, I would find that those errors were plain; if he is entitled to broader review, I would find legal error in the court's failure to follow Rule 32.1. I would thus remand this case for resentencing, and I therefore respectfully dissent.",
+        "type": "dissent",
+        "author": "Wood, Chief Judge, dissenting."
+      }
+    ],
+    "attorneys": [
+      "Kaarina Salovaara, Attorney, Office of the United States Attorney, Chicago, IL, for Plaintiff-Appellee.",
+      "Matthew J. McQuaid, Attorney, Law Office of Matthew McQuaid, Chicago, IL, for Defendant-Appellant."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff-Appellee,\nv.\nWayne SCOTT, Defendant-Appellant.\nNo. 17-2784\nUnited States Court of Appeals, Seventh Circuit.\nArgued April 4, 2018\nDecided August 21, 2018\nKaarina Salovaara, Attorney, Office of the United States Attorney, Chicago, IL, for Plaintiff-Appellee.\nMatthew J. McQuaid, Attorney, Law Office of Matthew McQuaid, Chicago, IL, for Defendant-Appellant.\nBefore Wood, Chief Judge, and Bauer and Sykes, Circuit Judges."
+  },
+  "file_name": "0972-01",
+  "first_page_order": 972,
+  "last_page_order": 982
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5996434,
+  "name": "Brown v. Roberts, Warden, et al.",
+  "name_abbreviation": "Brown v. Roberts",
+  "decision_date": "2011-03-07",
+  "docket_number": "No. 10-8283",
+  "first_page": "1276",
+  "last_page": "1276",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1276"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 81,
+    "ocr_confidence": 0.599,
+    "sha256": "ced810a2240dee0d8a9a26f938052b7cdaea7cc61aef143cb61f947b1889bd6b",
+    "simhash": "1:d2d878693f06d23e",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Brown v. Roberts, Warden, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8283.\nBrown v. Roberts, Warden, et al."
+  },
+  "file_name": "1276-03",
+  "first_page_order": 1298,
+  "last_page_order": 1298
+}

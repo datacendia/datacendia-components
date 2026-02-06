@@ -1,0 +1,59 @@
+{
+  "id": 5995156,
+  "name": "Romero v. Wyoming",
+  "name_abbreviation": "Romero v. Wyoming",
+  "decision_date": "2010-11-29",
+  "docket_number": "No. 10-7065",
+  "first_page": "1073",
+  "last_page": "1073",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1073"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 66,
+    "ocr_confidence": 0.602,
+    "sha256": "048b31fd3e00bbe65468b82004daaaf2dca8fa17134a27633c3d589db785fa14",
+    "simhash": "1:02c8ae536f486282",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Romero v. Wyoming."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Wyo. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7065.\nRomero v. Wyoming."
+  },
+  "file_name": "1073-09",
+  "first_page_order": 1095,
+  "last_page_order": 1095
+}

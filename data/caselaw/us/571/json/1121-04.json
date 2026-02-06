@@ -1,0 +1,68 @@
+{
+  "id": 12700265,
+  "name": "J. DOE, petitioner, v. CLC, et al.",
+  "name_abbreviation": "J. Doe v. CLC",
+  "decision_date": "2014-01-13",
+  "docket_number": "No. 13M66.",
+  "first_page": "1121",
+  "last_page": "1121",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 1121"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 770"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 980"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 35,
+    "char_count": 218,
+    "sha256": "573cc87b30b3644a5c402669dd998783a09de3f683884993896285b92a715387",
+    "simhash": "1:7ae7581603c815d9",
+    "word_count": 39
+  },
+  "last_updated": "2021-09-08T21:16:17.237805+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "J. DOE, petitioner,\nv.\nCLC, et al."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Motion for leave to file a petition for writ of certiorari under seal with redacted copies for the public record denied."
+    ],
+    "corrections": "",
+    "head_matter": "J. DOE, petitioner,\nv.\nCLC, et al.\nNo. 13M66.\nSupreme Court of the United States\nJan. 13, 2014.\nMotion for leave to file a petition for writ of certiorari under seal with redacted copies for the public record denied."
+  },
+  "file_name": "1121-04",
+  "first_page_order": 1121,
+  "last_page_order": 1121
+}

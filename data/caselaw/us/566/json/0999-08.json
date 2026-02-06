@@ -1,0 +1,59 @@
+{
+  "id": 12218204,
+  "name": "Moon v. California",
+  "name_abbreviation": "Moon v. California",
+  "decision_date": "2012-05-14",
+  "docket_number": "No. 11-9509",
+  "first_page": "999",
+  "last_page": "999",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 999"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 81,
+    "ocr_confidence": 0.639,
+    "sha256": "e7910556b66712f452be52aec28d3ecd9e03635cabd6fefd5e1541a85e89272d",
+    "simhash": "1:602d96a001432a01",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Moon v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 2d App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9509.\nMoon v. California."
+  },
+  "file_name": "0999-08",
+  "first_page_order": 875,
+  "last_page_order": 875
+}

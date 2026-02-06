@@ -1,0 +1,59 @@
+{
+  "id": 5939154,
+  "name": "Tuetken v. Tuetken",
+  "name_abbreviation": "Tuetken v. Tuetken",
+  "decision_date": "2011-05-16",
+  "docket_number": "No. 10-1123",
+  "first_page": "988",
+  "last_page": "988",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 988"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 9,
+    "char_count": 67,
+    "ocr_confidence": 0.618,
+    "sha256": "de8991f6c1a3984b5380a97f0d19deb9fcb5bf0eee39e7893e6da3a5eaba79d3",
+    "simhash": "1:19e8e0fc4b206d06",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Tuetken v. Tuetken."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Tenn. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1123.\nTuetken v. Tuetken."
+  },
+  "file_name": "0988-08",
+  "first_page_order": 1014,
+  "last_page_order": 1014
+}

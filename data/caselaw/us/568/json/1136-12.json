@@ -1,0 +1,59 @@
+{
+  "id": 12429778,
+  "name": "Pruitt v. United States",
+  "name_abbreviation": "Pruitt v. United States",
+  "decision_date": "2013-01-14",
+  "docket_number": "No. 12-7713",
+  "first_page": "1136",
+  "last_page": "1136",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1136"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.589,
+    "sha256": "1d3d93f74c6283905cfbf04a181f34df1a7126ea25ae93f691c9a5238943e5b5",
+    "simhash": "1:974ad723472db298",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Pruitt v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7713.\nPruitt v. United States."
+  },
+  "file_name": "1136-12",
+  "first_page_order": 1212,
+  "last_page_order": 1212
+}

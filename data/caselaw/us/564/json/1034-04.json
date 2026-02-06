@@ -1,0 +1,59 @@
+{
+  "id": 4335659,
+  "name": "In re Discipline of Droz",
+  "name_abbreviation": "In re Discipline of Droz",
+  "decision_date": "2011-06-27",
+  "docket_number": "No. D-2602",
+  "first_page": "1034",
+  "last_page": "1034",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1034"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 39,
+    "char_count": 273,
+    "ocr_confidence": 0.528,
+    "sha256": "c41b5a879e6ec37069bf1ca2897930c7f5f7de53ea6cc9d363a2b0dbeef61bf1",
+    "simhash": "1:358273b61efa2767",
+    "word_count": 51
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of Droz."
+    ],
+    "opinions": [
+      {
+        "text": "Paul C. Droz, of Mesquite, Nev., is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2602.\nIn re Discipline of Droz."
+  },
+  "file_name": "1034-04",
+  "first_page_order": 1028,
+  "last_page_order": 1028
+}

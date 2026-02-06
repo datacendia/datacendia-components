@@ -1,0 +1,59 @@
+{
+  "id": 12220645,
+  "name": "Clark v. Subia, Warden",
+  "name_abbreviation": "Clark v. Subia",
+  "decision_date": "2012-05-21",
+  "docket_number": "No. 11-9356",
+  "first_page": "1013",
+  "last_page": "1013",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 1013"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.622,
+    "sha256": "a302f7cd7b49b7ae9acbdcf80691b7c997c12438afd76809add88ee3ecd6b8b5",
+    "simhash": "1:44e529eb35aa5010",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Clark v. Subia, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9356.\nClark v. Subia, Warden."
+  },
+  "file_name": "1013-01",
+  "first_page_order": 889,
+  "last_page_order": 889
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12417948,
+  "name": "Brown v. Bank of America Corp. et al.",
+  "name_abbreviation": "Brown v. Bank of America Corp.",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 12-178",
+  "first_page": "943",
+  "last_page": "943",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 943"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 84,
+    "ocr_confidence": 0.633,
+    "sha256": "1c811f302c61c6cf7729d735b288a662f1883a24797cdc3930217c97cfac5988",
+    "simhash": "1:7d133460ffdc9067",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Brown v. Bank of America Corp. et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-178.\nBrown v. Bank of America Corp. et al."
+  },
+  "file_name": "0943-11",
+  "first_page_order": 1019,
+  "last_page_order": 1019
+}

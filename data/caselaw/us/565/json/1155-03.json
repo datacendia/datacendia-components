@@ -1,0 +1,59 @@
+{
+  "id": 12242321,
+  "name": "In re Helton; and In re Ayala",
+  "name_abbreviation": "In re Helton",
+  "decision_date": "2012-01-17",
+  "docket_number": "No. 11-7890; No. 11-8003",
+  "first_page": "1155",
+  "last_page": "1155",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1155"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 102,
+    "ocr_confidence": 0.683,
+    "sha256": "4ba57123653c650469a35bd25ac303d33436bdc7389720b94fb84ff6e12c0745",
+    "simhash": "1:796b5415904a4a05",
+    "word_count": 18
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Helton; and In re Ayala."
+    ],
+    "opinions": [
+      {
+        "text": "Petitions for writs of habeas corpus denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7890.\nNo. 11-8003.\nIn re Helton; and In re Ayala."
+  },
+  "file_name": "1155-03",
+  "first_page_order": 1237,
+  "last_page_order": 1237
+}

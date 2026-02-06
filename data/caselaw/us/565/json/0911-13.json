@@ -1,0 +1,59 @@
+{
+  "id": 12221681,
+  "name": "Castillo-Corpus v. United States",
+  "name_abbreviation": "Castillo-Corpus v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5510",
+  "first_page": "911",
+  "last_page": "911",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 911"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 81,
+    "ocr_confidence": 0.724,
+    "sha256": "74ae27a138e26286395de55e0d83f016b84dd76c1c63d99b2ebab513dca2431f",
+    "simhash": "1:85a8db020b09147b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Castillo-Corpus v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5510.\nCastillo-Corpus v. United States."
+  },
+  "file_name": "0911-13",
+  "first_page_order": 993,
+  "last_page_order": 993
+}

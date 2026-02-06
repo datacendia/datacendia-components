@@ -1,0 +1,59 @@
+{
+  "id": 12202098,
+  "name": "Soha v. United States",
+  "name_abbreviation": "Soha v. United States",
+  "decision_date": "2012-04-02",
+  "docket_number": "No. 11-8987",
+  "first_page": "928",
+  "last_page": "928",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 928"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 69,
+    "ocr_confidence": 0.584,
+    "sha256": "607e3ac27828ab1f0a43ec614895dcf99b0870ee7d02cf88e6beec173d4c15d1",
+    "simhash": "1:8d5bc2b30f971448",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Soha v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8987.\nSoha v. United States."
+  },
+  "file_name": "0928-06",
+  "first_page_order": 804,
+  "last_page_order": 804
+}

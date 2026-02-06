@@ -1,0 +1,59 @@
+{
+  "id": 12430592,
+  "name": "Hyman v. Cornell University et al.",
+  "name_abbreviation": "Hyman v. Cornell University",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-752",
+  "first_page": "1161",
+  "last_page": "1161",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1161"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 80,
+    "ocr_confidence": 0.651,
+    "sha256": "da58b9a89187b72e5e4744696303743bf09e738953a3264ffa2c32aa087cbb35",
+    "simhash": "1:b9d728aa1b1de45a",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hyman v. Cornell University et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-752.\nHyman v. Cornell University et al."
+  },
+  "file_name": "1161-07",
+  "first_page_order": 1237,
+  "last_page_order": 1237
+}

@@ -1,0 +1,95 @@
+{
+  "id": 12659102,
+  "name": "K.O., Appellant v. STATE of Arkansas, Appellee",
+  "name_abbreviation": "K.O. v. State",
+  "decision_date": "2019-01-16",
+  "docket_number": "No. CR-18-595",
+  "first_page": "344",
+  "last_page": "346",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "569 S.W.3d 344"
+    },
+    {
+      "type": "parallel",
+      "cite": "2019 Ark. App. 5"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Ark. App. Ct.",
+    "id": 30086,
+    "name": "Court of Appeals of Arkansas, DIVISION IV"
+  },
+  "jurisdiction": {
+    "id": 34,
+    "name_long": "Arkansas",
+    "name": "Ark."
+  },
+  "cites_to": [
+    {
+      "cite": "365 Ark. 379",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        3286304
+      ],
+      "weight": 2,
+      "year": 2006,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/365/0379-01"
+      ]
+    },
+    {
+      "cite": "Ark. Code Ann. \u00a7 5-71-208",
+      "category": "laws:leg_statute",
+      "reporter": "Ark. Code Ann.",
+      "pin_cites": [
+        {
+          "page": "(a)(1)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 392,
+    "char_count": 6011,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2650266482717718
+    },
+    "sha256": "22e5a86b72b28335834051819ccb913fde8be1157ff624958918a16e4c0a92d9",
+    "simhash": "1:ccf11e0456074351",
+    "word_count": 1001
+  },
+  "last_updated": "2024-02-27T16:12:16.727939+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "K.O., Appellant\nv.\nSTATE of Arkansas, Appellee"
+    ],
+    "opinions": [
+      {
+        "text": "BART F. VIRDEN, Judge\nThe Craighead County Circuit Court adjudicated appellant K.O. a juvenile delinquent for committing the offense of harassment, a Class A misdemeanor. The trial court placed K.O. on probation for twelve months subject to various terms and conditions. He was also ordered to pay a fine, as well as costs and fees; perform eighty hours of public service; cooperate with and follow the recommendations of a counseling agency; obey a curfew; submit to random drug tests; and be committed to the Craighead County Juvenile Detention Center for ninety days, with credit for one day served and with eighty-nine days deferred. K.O. argues on appeal that the trial court erred in its adjudication because the State failed to prove an element of the offense. Because K.O.'s challenge to the sufficiency of the evidence supporting his adjudication is not preserved for review, we affirm without reaching the merits.\nI. Background\nOn April 3, 2018, the State filed a petition in the juvenile division of circuit court alleging the following:\nThat on or about 2-25-18, in Craighead County, Arkansas, [K.O.] did violate Arkansas Code Annotated \u00a7 5-71-208 , with the purpose to harass, annoy, or alarm another person, without good cause, he, in a public place, repeatedly insults, taunts, or challenges another in a manner to provoke a violent response, namely by, grabbing the head of an eleven (11) year old female and forcing her face in his crotch, while telling her he wanted \"some head,\" which is slang for oral sex, thereby committing the offense of HARASSMENT (A-M) against the peace and dignity of the State of Arkansas.\nA bench trial was held on April 4, 2018. Following the presentation of testimony regarding the factual basis for the State's petition, defense counsel moved for a directed verdict, arguing the following:\nYour Honor, at this time I make a motion for a directed verdict based on 5[-]71-208. The definition of harassment says that there has to be proof by a prepon-beyond a reasonable doubt in this new charge, that without good cause that this person either subjected a person to offensive physical contact or attempted to threaten to do so, or in a public place directed obscene language or in an order to-or in a manner to provoke a violent or disorderly response. Your Honor, out of those two possible scenarios, the State has not proven beyond a reasonable doubt that my client did either one of those two things.\nThe trial court denied K.O.'s motion for dismissal, and K.O. took the stand and testified on his own behalf. When defense counsel renewed her motion, she did so \"with the same specificity.\" The trial court again denied K.O.'s motion and found the allegations in the State's petition to be true.\nII. Discussion\nThere are several ways to commit harassment. Relevant here, a person commits the offense of harassment if, with purpose to harass, annoy, or alarm another person, without good cause, he or she:\n(1) strikes, shoves, kicks, or otherwise touches a person, subjects that person to offensive physical contact or attempts or threatens to do so;\n(2) in a public place, directs obscene language or makes an obscene gesture to or at another person in a manner likely to provoke a violent or disorderly response;\n...\n(4) in a public place repeatedly insults, taunts, or challenges another person in a manner likely to provoke a violent or disorderly response.\nArk. Code Ann. \u00a7 5-71-208(a)(1), (2) & (4) (Supp. 2017).\nThe State's petition tracked the language from subsection (a)(4). In her dismissal motion, defense counsel argued with respect to subsections (a)(1) and (a)(2). On appeal, K.O. specifically cites section 5-71-208(a)(2) and wrongly asserts that it was the only subdivision referenced in the State's petition. In his argument on appeal, K.O. contends that the State failed to prove that his conduct was likely to provoke a violent or disorderly response. While this element in subsection (a)(2) is common to subsection (a)(4), we hold that the dismissal motion was not sufficient to preserve K.O.'s argument for review.\nArkansas Rule of Criminal Procedure 33.1(c) provides that a motion for dismissal based on insufficiency of the evidence must specify the respect in which the evidence is deficient and that a motion merely stating that the evidence is insufficient does not preserve for appeal issues relating to a specific deficiency such as insufficient proof on the elements of the offense. The reason underlying the requirement that specific grounds be stated and that the absent proof be pinpointed is that it allows the trial court the option of either granting the motion or, if justice requires, allowing the State to reopen its case and supply the missing proof. Carey v. State , 365 Ark. 379, 230 S.W.3d 553 (2006).\nIn moving to dismiss the charge, defense counsel simply read \"the definition\" of two subsections with which K.O. was not charged and said that K.O. did not do \"either one of those two things.\" In other words, defense counsel argued below that K.O. did not commit harassment pursuant to subsections (a)(1) or (a)(2), but she did not argue any deficiency with respect to the elements of either of those subsections, much less subsection (a)(4), which K.O. was charged with violating. Accordingly, we hold that K.O.'s challenge to the sufficiency of the evidence supporting his adjudication is not preserved for review; therefore, we affirm.\nAffirmed.\nGladwin and Whiteaker, JJ., agree.\nBecause this was a nonjury trial, defense counsel's \"directed-verdict motion\" was actually a motion for dismissal. Ark. R. Crim. P. 33.1(b).\nWe express no opinion with respect to the State's decision to charge K.O. with harassment under this particular subsection of the statute.",
+        "type": "majority",
+        "author": "BART F. VIRDEN, Judge"
+      }
+    ],
+    "attorneys": [
+      "Terry Goodwin Jones, for appellant.",
+      "Leslie Rutledge, Att'y Gen., by: Brad Newman, Ass't Att'y Gen., for appellee."
+    ],
+    "corrections": "",
+    "head_matter": "K.O., Appellant\nv.\nSTATE of Arkansas, Appellee\nNo. CR-18-595\nCourt of Appeals of Arkansas, DIVISION IV.\nOpinion Delivered: January 16, 2019\nTerry Goodwin Jones, for appellant.\nLeslie Rutledge, Att'y Gen., by: Brad Newman, Ass't Att'y Gen., for appellee."
+  },
+  "file_name": "0344-01",
+  "first_page_order": 344,
+  "last_page_order": 346
+}

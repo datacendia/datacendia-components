@@ -1,0 +1,95 @@
+{
+  "id": 12521026,
+  "name": "UNITED STATES of America, Plaintiff-Appellee, v. Joseph Anthony RANSOM, Defendant-Appellant.",
+  "name_abbreviation": "United States v. Ransom",
+  "decision_date": "2019-05-20",
+  "docket_number": "No. 18-3165",
+  "first_page": "1258",
+  "last_page": "1259",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "923 F.3d 1258"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "10th Cir.",
+    "id": 8771,
+    "name": "United States Court of Appeals for the Tenth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "529 U.S. 473",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9508758
+      ],
+      "weight": 3,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "484"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/529/0473-01"
+      ]
+    },
+    {
+      "cite": "691 Fed.Appx. 504",
+      "category": "reporters:federal",
+      "reporter": "Fed. Appx.",
+      "year": 2017,
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 2255",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 247,
+    "char_count": 3298,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2592938816124029
+    },
+    "sha256": "37a71edc262ace7a112d4282b846212ae0260d000143445316911096938bf6be",
+    "simhash": "1:377fd51fd5d99c9b",
+    "word_count": 527
+  },
+  "last_updated": "2024-02-27T18:46:40.961150+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "UNITED STATES of America, Plaintiff-Appellee,\nv.\nJoseph Anthony RANSOM, Defendant-Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Monroe G. McKay, Circuit Judge.\nAppellant Joseph Ransom seeks a certificate of appealability to appeal the district court's denial of his 28 U.S.C. \u00a7 2255 habeas motion.\nAppellant was convicted by a jury of multiple drug and firearm offenses, and we affirmed his conviction and sentence on direct appeal. See United States v. Ransom, 691 Fed.Appx. 504 (10th Cir. 2017). In February 2018, Appellant filed a motion under \u00a7 2255 in which he argued that his conviction and sentence should be vacated based on the ineffective assistance of counsel and a Sixth Amendment violation relating to his right to self-representation. In July 2018, Appellant filed a second \u00a7 2255 motion that raised additional claims for relief. This motion was soon followed by a written request for the court to treat his second \u00a7 2255 motion as an addendum to and/or replacement for the original motion. Together, the two motions raised four grounds for habeas relief: (1) Appellant received ineffective assistance both at trial and on appeal; (2) the trial court erred in instructing the jury on the elements of possession of a firearm in furtherance of a drug-trafficking offense; (3) the facts of this case fail to establish that Appellant possessed a firearm in furtherance of a drug-trafficking offense; and (4) his Sixth Amendment rights were violated both when the court initially permitted him to represent himself pro se and when the court later revoked his ability to represent himself. The district court considered each of these claims in a twenty-five page order, ultimately concluding that Appellant had not established a valid claim for relief under \u00a7 2255. The court accordingly denied both the original \u00a7 2255 motion and the supplemental motion on the merits.\nTo receive a certificate of appealability, a habeas petitioner \"must demonstrate that reasonable jurists would find the district court's assessment of the constitutional claims debatable or wrong.\" Slack v. McDaniel, 529 U.S. 473, 484, 120 S.Ct. 1595, 146 L.Ed.2d 542 (2000). Appellant has not satisfied this standard. As an initial matter, Appellant argues that the district court erred in denying his \u00a7 2255 motion without granting him leave to file his amended motion; however, the court in fact considered all of the claims from both his original motion and his supplemental motion, and thus Appellant has shown no error relating to the proposed amendment. Moreover, having reviewed Appellant's brief, the record on appeal, and the pertinent cases, we see no error in the district court's thorough and persuasive analysis of the merits of each of Appellant's claims.\nAccordingly, for substantially the same reasons as the district court, we DENY Appellant's request for a certificate of appealability and DISMISS the appeal. His motion for leave to proceed in forma pauperis on appeal is GRANTED.",
+        "type": "majority",
+        "author": "Monroe G. McKay, Circuit Judge."
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff-Appellee,\nv.\nJoseph Anthony RANSOM, Defendant-Appellant.\nNo. 18-3165\nUnited States Court of Appeals, Tenth Circuit.\nFiled May 20, 2019\nORDER DENYING CERTIFICATE OF APPEALABILITY\nThis order is not binding precedent except under the doctrines of law of the case, res judicata, and collateral estoppel. It may be cited, however, for its persuasive value consistent with Fed. R. App. P. 32.1 and 10th Cir. R. 32.1."
+  },
+  "file_name": "1258-01",
+  "first_page_order": 1258,
+  "last_page_order": 1259
+}

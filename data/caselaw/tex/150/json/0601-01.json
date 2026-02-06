@@ -1,0 +1,83 @@
+{
+  "id": 2328371,
+  "name": "M. C. Fantham, et al v. R. H. Goodrich, et al.",
+  "name_abbreviation": "Fantham v. Goodrich",
+  "decision_date": "1951-11-28",
+  "docket_number": "No. A-3209",
+  "first_page": "601",
+  "last_page": "602",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "150 Tex. 601"
+    },
+    {
+      "type": "parallel",
+      "cite": "244 S.W.2d 510"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "238 S.W. 2d 572",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10203818
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/238/0572-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 168,
+    "char_count": 1878,
+    "ocr_confidence": 0.604,
+    "pagerank": {
+      "raw": 5.250590825519443e-08,
+      "percentile": 0.3302574783317483
+    },
+    "sha256": "d8408834fc725c5c637309161e050ec3ceff1961f1b3fd0c4ed337a6afab8572",
+    "simhash": "1:8d74ba456a7d658d",
+    "word_count": 323
+  },
+  "last_updated": "2024-02-27T19:20:07.878787+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "M. C. Fantham, et al v. R. H. Goodrich, et al."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Griffin\ndelivered the opinion of the Court.\nThe facts of this case and the prior disposition thereof are fully set out by the Court of Civil Appeals in its opinion found in 238 S.W. 2d 572.\nFrom an examination of the record herein it is apparent to us that the trial court disposed of this cause upon the theory that the deeds in question were not ambiguous, and that he did not consider the evidence introduced on the trial as to the facts and circumstances surrounding the parties at the time of the execution of the deeds and showing the actions and conduct of the parties. In our opinion, the deeds on their faces are ambiguous and parol evidence is properly admitted to show the facts and circumstances surrounding the parties and the execution of the deeds.\nThe evidence which was introduced and on which the trial court made no findings, and which the trial court refused to consider in rendering his judgment was conflicting and raised controverted issues of fact. This court cannot resolve such conflicts and they must be resolved by a jury or by the trial court. We are not holding all of the evidence heard by the trial court was admissible, and he can rule on admissibility of that offered on another trial in accordance with law governing admission of testimony to explain ambiguous instruments.\nTherefore, it becomes necessary to reverse the judgments of both courts below and remand this cause to the proper district court of Harris County for a trial consistent with our view as herein expressed.\nOpinion delivered November 28, 1951.\nRehearing overruled January 9, 1952.",
+        "type": "majority",
+        "author": "Mr. Justice Griffin"
+      }
+    ],
+    "attorneys": [
+      "Butler, Binion, Rice & Cook, of Houston, for petitioners.",
+      "Carl and Lee, Bell, Dyehe and Bell, all of Houston, for respondents."
+    ],
+    "corrections": "",
+    "head_matter": "M. C. Fantham, et al v. R. H. Goodrich, et al.\nNo. A-3209.\nDecided November 28, 1951.\nRehearing overruled January 9, 1952.\n(244 S. W., 2d Series, 510.)\nButler, Binion, Rice & Cook, of Houston, for petitioners.\nCarl and Lee, Bell, Dyehe and Bell, all of Houston, for respondents."
+  },
+  "file_name": "0601-01",
+  "first_page_order": 617,
+  "last_page_order": 618
+}

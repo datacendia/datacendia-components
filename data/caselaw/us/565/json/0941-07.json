@@ -1,0 +1,59 @@
+{
+  "id": 12226884,
+  "name": "Henry et ux. v. Jefferson County Commission et al.",
+  "name_abbreviation": "Henry v. Jefferson County Commission",
+  "decision_date": "2011-10-11",
+  "docket_number": "No. 10-1478",
+  "first_page": "941",
+  "last_page": "941",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 941"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 98,
+    "ocr_confidence": 0.619,
+    "sha256": "6a122350a1db6e08d5c28cac4cacb4afb4d90e3029bd37e59dee38b402e38582",
+    "simhash": "1:bcd02868decd9134",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Henry et ux. v. Jefferson County Commission et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1478.\nHenry et ux. v. Jefferson County Commission et al."
+  },
+  "file_name": "0941-07",
+  "first_page_order": 1023,
+  "last_page_order": 1023
+}

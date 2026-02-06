@@ -1,0 +1,683 @@
+{
+  "id": 3884100,
+  "name": "STEVEN YOUNT, Plaintiff and Appellant, v. CITY OF SACRAMENTO et al., Defendants and Respondents",
+  "name_abbreviation": "Yount v. City of Sacramento",
+  "decision_date": "2008-05-19",
+  "docket_number": "No. S139762",
+  "first_page": "885",
+  "last_page": "904",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "43 Cal. 4th 885"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal.",
+    "id": 9021,
+    "name": "Supreme Court of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "25 P.3d 670",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "108 Cal.Rptr.2d 471",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 Cal.4th 1194",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        265443
+      ],
+      "pin_cites": [
+        {
+          "page": "1197"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/25/1194-01"
+      ]
+    },
+    {
+      "cite": "74 Cal.Rptr.2d 614",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "63 Cal.App.4th 1269",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "pin_cites": [
+        {
+          "page": "1273-1274"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "512 F.3d 899",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4070003
+      ],
+      "pin_cites": [
+        {
+          "page": "901-902"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/512/0899-01"
+      ]
+    },
+    {
+      "cite": "390 F.Supp.2d 172",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        8904459
+      ],
+      "pin_cites": [
+        {
+          "page": "178"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/390/0172-01"
+      ]
+    },
+    {
+      "cite": "197 F.Supp.2d 991",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        9437963
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "1005, fn. 9"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/197/0991-01"
+      ]
+    },
+    {
+      "cite": "184 F.3d 1123",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11548691
+      ],
+      "pin_cites": [
+        {
+          "page": "1127"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/184/1123-01"
+      ]
+    },
+    {
+      "cite": "226 F.Supp.2d 943",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        11427228
+      ],
+      "pin_cites": [
+        {
+          "page": "952"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/226/0943-01"
+      ]
+    },
+    {
+      "cite": "540 U.S. 749",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8898132
+      ],
+      "weight": 3,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "751"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/540/0749-01"
+      ]
+    },
+    {
+      "cite": "138 Cal.Rptr. 26",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "69 Cal.App.3d 325",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        1985719
+      ],
+      "pin_cites": [
+        {
+          "page": "333"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/69/0325-01"
+      ]
+    },
+    {
+      "cite": "471 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6195205
+      ],
+      "weight": 3,
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "11-12"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/471/0001-01"
+      ]
+    },
+    {
+      "cite": "58 F.Supp.2d 1127",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        11585795
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "1134"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/58/1127-01"
+      ]
+    },
+    {
+      "cite": "466 F.3d 619",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3774296
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "621"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/466/0619-01"
+      ]
+    },
+    {
+      "cite": "463 F.3d 489",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3723580
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "494-495"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/463/0489-01"
+      ]
+    },
+    {
+      "cite": "466 F.3d 173",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3773900
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "180"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/466/0173-01"
+      ]
+    },
+    {
+      "cite": "450 P.2d 33",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "74 Cal.Rptr. 713",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "70 Cal.2d 347",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2308196
+      ],
+      "pin_cites": [
+        {
+          "page": "356-357"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/70/0347-01"
+      ]
+    },
+    {
+      "cite": "822 P.2d 308",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "pin_cites": [
+        {
+          "page": "313"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "63 Wn.App. 841",
+      "category": "reporters:state",
+      "reporter": "Wash. App.",
+      "case_ids": [
+        1732934
+      ],
+      "pin_cites": [
+        {
+          "page": "851"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/wash-app/63/0841-01"
+      ]
+    },
+    {
+      "cite": "29 Cal.Rptr.3d 450",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "129 Cal.App.4th 1423",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        2481742
+      ],
+      "pin_cites": [
+        {
+          "page": "1426"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/129/1423-01"
+      ]
+    },
+    {
+      "cite": "324 F.3d 488",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        2160840
+      ],
+      "pin_cites": [
+        {
+          "page": "490"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/324/0488-01"
+      ]
+    },
+    {
+      "cite": "79 F.3d 951",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9051919
+      ],
+      "pin_cites": [
+        {
+          "page": "952"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/79/0951-01"
+      ]
+    },
+    {
+      "cite": "258 F.3d 1117",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11085142
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "1119"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/258/1117-01"
+      ]
+    },
+    {
+      "cite": "659 P.2d 1137",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "189 Cal.Rptr. 848",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "33 Cal.3d 561",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4637557
+      ],
+      "pin_cites": [
+        {
+          "page": "567-568"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/33/0561-01"
+      ]
+    },
+    {
+      "cite": "116 Cal.Rptr.2d 21",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "95 Cal.App.4th 1325",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1021162
+      ],
+      "pin_cites": [
+        {
+          "page": "1329"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/95/1325-01"
+      ]
+    },
+    {
+      "cite": "435 F.3d 689",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        936083
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "691"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/435/0689-01"
+      ]
+    },
+    {
+      "cite": "394 F.3d 689",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9169332
+      ],
+      "weight": 7,
+      "pin_cites": [
+        {
+          "page": "695-696"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/394/0689-01"
+      ]
+    },
+    {
+      "cite": "800 P.2d 1159",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 2005,
+      "opinion_index": 0
+    },
+    {
+      "cite": "275 Cal.Rptr. 729",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 2005,
+      "opinion_index": 0
+    },
+    {
+      "cite": "51 Cal.3d 1179",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4457889
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "1217"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/51/1179-01"
+      ]
+    },
+    {
+      "cite": "520 U.S. 641",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11652635
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "643"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/520/0641-01"
+      ]
+    },
+    {
+      "cite": "42 U.S.C. \u00a7 1983",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "115 Cal.Rptr.2d 269",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "94 Cal.App.4th 1401",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        171329
+      ],
+      "pin_cites": [
+        {
+          "page": "1410-1413"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/94/1401-01"
+      ]
+    },
+    {
+      "cite": "512 U.S. 477",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        39868
+      ],
+      "weight": 15,
+      "pin_cites": [
+        {
+          "page": "p. 483"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/512/0477-01"
+      ]
+    },
+    {
+      "cite": "394 F.3d 689",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9169332
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/394/0689-01"
+      ]
+    },
+    {
+      "cite": "512 U.S. 477",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        39868
+      ],
+      "weight": 5,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/512/0477-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1615,
+    "char_count": 47416,
+    "ocr_confidence": 0.914,
+    "pagerank": {
+      "raw": 3.706811803782208e-07,
+      "percentile": 0.8931864367382036
+    },
+    "sha256": "b7123032504fe2d7b2367ecb2fee1549c2f818d857bc6f375172689322d620ce",
+    "simhash": "1:7b69e698664be679",
+    "word_count": 7792
+  },
+  "last_updated": "2024-02-27T22:20:00.784373+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "STEVEN YOUNT, Plaintiff and Appellant, v. CITY OF SACRAMENTO et al., Defendants and Respondents."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nBAXTER, J.\nPlaintiff Steven Yount suffered injuries when Sacramento Police Officer Thomas Shram shot him in the left buttock as Shram and three other officers were trying to transport him to jail following his arrest for driving under the influence of alcohol (DUI). Just prior to the shooting, Yount, despite being in handcuffs and leg restraints, was straggling and threatening the officers. Officer Shram, intending to draw and fire his Taser gun in order to subdue Yount, mistakenly pulled out and discharged his pistol instead.\nAs a result of this incident, Yount pleaded no contest to violating Penal Code section 148, subdivision (a)(1) (resisting, delaying, or obstructing an officer in the performance of the officer\u2019s duties). He then brought this action against the City of Sacramento and Officer Shram for damages arising from the violation of his civil rights under title 42 United States Code section 1983 (section 1983) and asserted a common law claim of battery as well.\nDefendants argued that the section 1983 claim must be dismissed as an improper collateral attack on Yount\u2019s criminal conviction under Heck v. Humphrey (1994) 512 U.S. 477 [129 L.Ed.2d 383, 114 S.Ct. 2364] (Heck), which bars a plaintiff from prosecuting a section 1983 action that necessarily implies the invalidity of his or her criminal conviction or sentence until that conviction or sentence has first been invalidated, and that the battery claim must be dismissed under analogous state authority (see Susag v. City of Lake Forest (2002) 94 Cal.App.4th 1401, 1410-1413 [115 Cal.Rptr.2d 269]). By stipulation of the parties, a bifurcated court hearing was had on the issue of whether Yount\u2019s civil claims were barred under Heck and Susag by his criminal conviction. The trial court, after hearing from seven eyewitnesses, ruled that the claims were barred and entered judgment for defendants. The Court of Appeal reversed, finding the possibility that Officer Shram\u2019s alleged use of excessive force may have been temporally distinct from the acts that formed the basis of Yount\u2019s no contest plea to resisting the officers sufficient to avoid the Heck bar. In so doing, the Court of Appeal disagreed with Susag, which had, on somewhat similar facts, viewed the plaintiff\u2019s criminal conviction as encompassing all of the acts of resistance supported by the evidence.\nWe granted review to resolve the conflict. For the reasons set forth below, we find that Yount\u2019s claims are barred to the extent they allege that Officer Shram was not entitled to use force at all in this incident. Yount\u2019s resistance justified the officers\u2019 use of reasonable force in response. (Pen. Code, \u00a7 835a.) However, as defendants concede, the use of deadly force was not reasonable in this instance. Yount\u2019s conviction for violating Penal Code section 148, subdivision (a)(1) did not in itself justify the use of deadly force, either. Accordingly, Yount\u2019s civil claims are not barred to the extent they challenge Officer Shram\u2019s use of deadly force. We therefore affirm in part and reverse in part the judgment of the Court of Appeal.\nBackground\nWhen plaintiff Steven Yount left his home in the early morning hours of March 10, 2001, he was very drunk. He had consumed more than a six-pack of beer and an unknown amount of ram. He drove out in search of more beer, but had no recollection of arriving at the 7-Eleven store on La Riviera Drive in East Sacramento, no recollection of being told that he could not purchase beer after 2:00 a.m., no recollection of staggering and swaying out of the store and getting back into his car, and no recollection of his straggle with the police attempting to effect his arrest that resulted in his being shot, accidentally, in the left buttock.\nDaniel Powell, a private security guard, saw Yount in the parking lot of the 7-Eleven prior to the shooting. Yount was visibly drank and heading towards his car, so Powell placed a call to the police. Around that same time, Officer Samuel Davis of the Sacramento Police Department drove into the parking lot. Powell directed Officer Davis to Yount\u2019s car, which was starting to back out, and warned him that Yount was drank. Officer Davis pulled his patrol vehicle behind Yount\u2019s car to block its exit and got out of his car to talk to Yount.\nYount\u2019s eyes were glassy and red. When asked whether he had ever been arrested before for driving under the influence, Yount responded, \u201cWhich date?\u201d Officer Davis asked Yount to step out of the car. Yount did so but lost his balance and \u201ckind of fell into\u201d the officer. Yount came willingly part of the way to the patrol vehicle, but then became apprehensive and refused to get inside. Officer Davis was eventually able to maneuver him into the backseat. As Officer Davis continued his investigation, Yount yelled, \u201c[Y]ou can\u2019t do anything with me. You are not going to take me to jail, nigger,\u201d and shouted other obscenities and racial slurs. Yount also banged his head and kicked against the side and window of the patrol vehicle. Concerned that Yount was going to injure himself, Officer Davis asked him to stop. Yount replied, \u201cFuck you.\u201d\nWith the assistance of two private security guards at the scene, Officer Davis managed to pull Yount out of the patrol vehicle and handcuff him. The three of them then placed Yount, whose resistance was undiminished, back in the patrol vehicle. As Officer Davis tried again to resume his investigation, Yount continued to bang his head and feet against the doors and to make as much noise as he could, further indicating that he was at risk of hurting himself.\nWhen Officer Debra Hatfield of the California State University Police Department, Sacramento, and Officers Daniel Swafford and Thomas Shram of the Sacramento Police Department arrived to assist minutes later, Officer Davis explained that he needed their help in completing the written DUI report, as he was supposed to be taking over as acting sergeant for the entire downtown area. As part of that assistance, Officer Shram opened the door to ask Yount for identification, but Yount \u201cjust popped out\u201d of the vehicle and tried to \u201cmove right in [Shram\u2019s] face\u201d and continued yelling and cursing. Officer Shram retrieved Yount\u2019s wallet himself and had to force Yount back into the patrol vehicle.\nUnfortunately, once back in the patrol vehicle, Yount resumed banging and shaking it, as well as yelling and cursing. Officers Hatfield, Swafford, and Shram attempted to calm him down, to no avail. They warned him they would use a Taser if he did not cooperate, but Yount taunted them, \u201cShoot me, shoot me, shoot me\u201d and kicked his legs at Officer Shram. Officer Swafford went to the other side of the vehicle and Tasered Yount in the back, which caused him to interrupt his resistance for a few minutes, but Yount then became more violent. He called Officer Davis a \u201cnigger\u201d and Officer Hatfield a \u201cwhore\u201d and expressed his hope that they all would die that night. He also started kicking at the car window with both feet. Officer Shram saw the window start to flex and, as Officer Davis started walking towards it, \u201cthe thing just explode[d] in his face.\u201d\nBecause of Yount\u2019s resistance, Officer Davis decided that Yount\u2019s legs needed to be immobilized before they could transfer him to another patrol vehicle. Yount, however, continued to be uncooperative and fought to stay in the car. The officers eventually succeeded in pulling Yount out of the damaged vehicle, but the effort caused Officer Davis to stumble backwards and hit his elbow on the ground. Yount fell on top of Officer Davis, kicked Officer Davis close to his groin, and spat on him. Officer Davis then got on top of Yount, who continued to straggle and shout, and placed his knee on Yount\u2019s upper back to keep him on the ground. Officer Hatfield grabbed Yount\u2019s left leg; Officer Shram grabbed his right. The officers succeeded in securing Yount\u2019s ankles together, but they were not able to connect the ankle restraint to his wrists.\nDespite the restraints on his wrists and ankles, Yount still continued to resist. He tried to bite and spit at the officers near his head. He tucked his body in to kick more forcefully at the officers near his feet. Officer Shram was having trouble holding onto Yount\u2019s knees and, believing Yount posed a risk of injury to himself and the other officers, decided to use his Taser. Officer Shram pulled out what he thought was his Taser and fired it at the back of Yount\u2019s upper thigh. It was only then that he looked down at the weapon in his hand and saw he had mistakenly grabbed his pistol. Once the officers ascertained that Yount had indeed suffered a gunshot wound, they called for medical assistance.\nTwo independent eyewitnesses, Daniel Powell and Robert Corke, confirmed that Yount had been resisting the officers up until the time he was shot: There is no evidence in the record that Yount committed any act of resistance after he was shot.\nYount\u2019s blood-alcohol level following his arrest was determined to be 0.296 percent.\nCriminal Proceedings\nAn amended criminal complaint charged Yount with violently resisting all four officers in the performance of their duties (Pen. Code, \u00a7 69; count 1) as well as battery on a peace officer {id., \u00a7 243, subd. (c)(2); count 2) and two counts of driving under the influence (Veh. Code, \u00a7 23152, subds. (a), (b); counts 3 & 4). On June 19, 2001, after Yount waived his right to a preliminary hearing, he pleaded no contest to DUI with three prior DUI convictions (Veh. Code, \u00a7\u00a7 23550, 23626) and to the related misdemeanor offense of violating Penal Code section 148, subdivision (a)(1) (resisting an officer). The remaining counts were dismissed. Yount stipulated to the facts in count 1, and the court found a factual basis for the plea as to each count. Yount was placed on probation for five years and ordered to serve 270 days in county jail and pay specified fines.\nCivil Proceedings\nOn October 28, 2002, Yount filed a first amended complaint against Officer Shram and the City of Sacramento for damages, alleging assault and battery and intentional infliction of emotional distress. The complaint also alleged violation of his rights under the Unrah Civil Rights Act (Civ. Code, \u00a7 51 et seq.) and violation of his federal civil rights (42 U.S.C. \u00a7 1983) against Officer Shram alone.\nThe complaint asserted that Officer Shram without probable cause wrongfully, negligently, intentionally, and with deliberate indifference to Yount\u2019s constitutional rights assaulted and battered Yount by shooting him in the buttock without any justification; that Yount had been arrested, handcuffed, and hobbled at the time and was not then attempting to interfere with the officers; that Yount at no time posed any reasonable threat of violence to Officer Shram or did anything to justify the force used against him; and that the force used against him was excessive, unnecessary, and unlawful. The cause of action under section 1983 alleged in particular that Yount was handcuffed and restrained and posed no threat of violence to any person at the time he was shot, that he likewise was not attempting to interfere with any officer, and that he did nothing that provided any legal justification or excuse for Officer Shram\u2019s conduct.\nDefendants\u2019 answer included an allegation that success in the civil action would necessarily imply the invalidity of Yount\u2019s criminal conviction for violating Penal Code section 148, subdivision (a)(1). (See Heck, supra, 512 U.S. 477.) The parties agreed to bifurcate the Heck issue and try it before the court, without a jury. By that point, Yount had elected to proceed on only two causes of action: his civil rights claim under section 1983 and his claim for common law battery.\nDuring the Heck hearing, the trial court heard from seven eyewitnesses and took judicial notice of the file of the criminal proceeding. Following the hearing, the court concluded that a finding of excessive force would be a collateral attack on Yount\u2019s misdemeanor conviction for resisting the officers, since the conviction itself established that Officer Shram had acted appropriately. The trial court found that Yount\u2019s own actions, which formed the basis of his criminal conviction, led to Officer Shram\u2019s use of force; that Yount\u2019s conviction encompassed resistance to all four officers; and that, despite brief pauses in Yount\u2019s resistance, the entire episode was one continuous transaction. For those reasons, the trial court held that Yount\u2019s civil claims were barred by Heck.\nThe Court of Appeal reversed in a published opinion. The Court of Appeal reasoned that, in general, \u201cif the evidence discloses at least one violation of [Penal Code] section 148 independent of and discrete from the officer\u2019s alleged misconduct, Heck does not apply,\u201d inasmuch as that remaining act could be used to sustain the conviction. The court concluded that Yount\u2019s claims for damages did not impugn his conviction for resisting the officers because, even if Yount prevailed in his civil suit, his criminal conviction could be sustained by any one of Yount\u2019s other acts of resistance that was unrelated to the shooting.\nDiscussion\nSection 1983, as relevant here, provides that \u201c[e]very person who, under color of any statute, ordinance, regulation, custom, or usage, of any State . . . subjects, or causes to be subjected, any citizen of the United States or other person within the jurisdiction thereof to the deprivation of any rights, privileges, or immunities secured by the Constitution and laws, shall be liable to the party injured in an action at law, suit in equity, or other proper proceeding for redress . . .\nThe legal proposition at issue here is easily stated but somewhat less easy to apply. It is this: \u201ca state prisoner\u2019s claim for damages is not cognizable under 42 U.S.C. \u00a7 1983 if \u2018a judgment in favor of the plaintiff would necessarily imply the invalidity of his conviction or sentence,\u2019 unless the prisoner can demonstrate that the conviction or sentence has previously been invalidated.\u201d (Edwards v. Balisok (1997) 520 U.S. 641, 643 [137 L.Ed.2d 906, 117 S.Ct. 1584], quoting Heck, supra, 512 U.S. at p. 487.) The parties agree that Yount\u2019s conviction for resisting the officer in violation of Penal Code section 148, subdivision (a)(1) remains intact. We must therefore decide whether success on Yount\u2019s section 1983 claim would necessarily imply the invalidity of that criminal conviction.\nA\nOur discussion begins with Heck, supra, 512 U.S. 477, which first established that a section 1983 claim calling into question the lawfulness of a plaintiff\u2019s conviction or confinement is not cognizable until the conviction or confinement has been invalidated. (Heck, supra, at p. 483.) Heck analogized a section 1983 claim in such circumstances to the common law cause of action for malicious prosecution, which similarly includes the termination of the prior criminal proceeding in favor of the accused as an element of the cause of action. \u201cThis requirement \u2018avoids parallel litigation over the issues of probable cause and guilt . . . and it precludes the possibility of the claimant [yzc] succeeding in the tort action after having been convicted in the underlying criminal prosecution, in contravention of a strong judicial policy against the creation of two conflicting resolutions arising out of the same or identical transaction.\u2019 [Citation.] Furthermore, \u2018to permit a convicted criminal defendant to proceed with a malicious prosecution claim would permit a collateral attack on the conviction through the vehicle of a civil suit.\u2019 [Citation.] This Court has long expressed similar concerns for finality and consistency and has generally declined to expand opportunities for collateral attack [citations]. We think the hoary principle that civil tort actions are not appropriate vehicles for challenging the validity of outstanding criminal judgments applies to \u00a7 1983 damages actions that necessarily require the plaintiff to prove the unlawfulness of his conviction or confinement, just as it has always applied to actions for malicious prosecution.\u201d (Heck, supra, 512 U.S. at pp. 484-486, fhs. omitted.) Thus, \u201cin order to recover damages for allegedly unconstitutional conviction or imprisonment, or for other harm caused by actions whose unlawfulness would render a conviction or sentence invalid, a \u00a7 1983 plaintiff must prove that the conviction or sentence has been reversed on direct appeal, expunged by executive order, declared invalid by a state tribunal authorized to make such determination, or called into question by a federal court\u2019s issuance of a writ of habeas corpus [citation].\u201d (Id. at pp. 486-487, fn. omitted.)\nOne example provided by the high court is especially pertinent to the circumstances here: \u201cA state defendant is convicted of and sentenced for the crime of resisting arrest, defined as intentionally preventing a peace officer from effecting a lawful arrest. ... He then brings a \u00a7 1983 action against the arresting officer, seeking damages for violation of his Fourth Amendment right to be free from unreasonable seizures. In order to prevail in this \u00a7 1983 action, he would have to negate an element of the offense of which he has been convicted.\u201d (Heck, supra, 512 U.S. at pp. 486-487, fn. 6, citations omitted.) Although (as the Court of Appeal correctly pointed out) Penal Code section 148, subdivision (a)(1) is unlike the law of many states in that it is not limited to a defendant\u2019s conduct in resisting arrest but extends to a defendant\u2019s resistance of an officer in the discharge or attempted discharge of any duty of his or her office, it similarly requires that the officer be lawfully engaged in the performance of his or her duties. (People v. Gonzalez (1990) 51 Cal.3d 1179, 1217 [275 Cal.Rptr. 729, 800 P.2d 1159]; but see Smith v. City of Hemet (9th Cir. 2005) 394 F.3d 689, 695-696 (en banc) [mistakenly limiting \u00a7 148, subd. (a)(1) to resistance in the course of an arrest].)\nTo determine \u201cwhether a judgment in favor of the plaintiff would necessarily imply the invalidity of his conviction\u201d (Heck, supra, 512 U.S. at p. 487), the Court of Appeal proposed a three-part analysis: \u201cFirst, the court must determine, using the substantial evidence test, what acts or omissions may have formed the factual basis for the plaintiff\u2019s obstruction conviction. Second, the court must ascertain what alleged misconduct by the officer forms the factual basis for the civil rights claim (e.g., excessive force). The final step is to consider the relationship between the plaintiff\u2019s acts of obstruction and the officer\u2019s alleged misconduct.\u201d We find this framework useful (see VanGilder v. Baker (7th Cir. 2006) 435 F.3d 689, 691), although we do not agree fully with the Court of Appeal\u2019s application of it in this case.\nYount pleaded no contest to a single count of violating Penal Code section 148, subdivision (a)(1), a misdemeanor. The legal elements of that crime are as follows: \u201c \u2018(1) the defendant willfully resisted, delayed, or obstructed a peace officer, (2) when the officer was engaged in the performance of his or her duties, and (3) the defendant knew or reasonably should have known that the other person was a peace officer engaged in the performance of his or her duties.\u2019 \u201d (In re Muhammed C. (2002) 95 Cal.App.4th 1325, 1329 [116 Cal.Rptr.2d 21].) Yount made a deliberate decision to waive a preliminary hearing and stipulated to a factual basis for the plea without any explicit recitation of what those facts were. (Cf. In re Gross (1983) 33 Cal.3d 561, 567-568 [189 Cal.Rptr. 848, 659 P.2d 1137] [finding no statutory or constitutional requirement that a trial court satisfy itself of the existence of a factual basis for a plea to a misdemeanor].)\nYount\u2019s section 1983 claim, in turn, alleges that his Fourth Amendment rights were violated during this same incident because Officer Shram lacked probable cause to arrest him and because Officer Shram used excessive force. The section 1983 claim alleges in particular that Officer Shram assaulted and battered Yount by shooting him in the buttock \u201cwithout any justification,\u201d that Yount was not attempting to interfere with any duties of any police officer at the time he was shot, that Yount at no time posed any reasonable threat of violence to Officer Shram or did anything else to justify the force used against him, and that the force used was unnecessary, unlawful, grossly excessive, and deadly.\nIn analyzing the relationship between Yount\u2019s criminal conviction and his section 1983 claim, the Court of Appeal focused in particular on the fact that Yount not only interfered with the performance of the officers\u2019 duties at the time he was shot, but he also \u201ccommitted several independently identifiable prior acts of resistance and obstruction during the encounter,\u201d \u201cany one of which could have formed the factual basis for his plea.\u201d \u201cHad the only act that could have formed the basis for Yount\u2019s [Penal Code] section 148 conviction been his resistance to the officers at the time he was shot,\u201d the Court of Appeal continued, \u201chis claim would be barred by Heck. The uncontradicted evidence shows, however, that Yount violated the statute a number of times before Officer Shram pulled out his firearm. The criminal court record recites only that Yount admitted there was a \u2018factual basis\u2019 for his plea. That record is silent as to which act or acts formed the factual basis for Yount\u2019s admission. Thus, Yount\u2019s civil rights claim based on excessive force would not necessarily impugn his criminal plea, and Heck is no bar.\u201d\nTo the extent the Court of Appeal believed that Heck was inapplicable here merely because Yount had entered a no contest plea without a preliminary hearing and without explicit identification of which of the multiple acts of resistance formed the factual basis for his conviction, it was mistaken. In this case, the trial court did not rely solely on the bare record of the criminal proceeding in analyzing the scope of Yount\u2019s criminal conviction, but considered also the testimony of the seven eyewitnesses who testified at the bifurcated Heck hearing. (Cf. Smith v. City of Hemet, supra, 394 F.3d at p. 698 [\u201cNeither party . . . was able to identify the facts underlying the plea . . . .\u201d]; Sanford v. Motts (9th Cir. 2001) 258 F.3d 1117, 1119 [\u201cNothing in the record informs us what the factual basis was for Sanford\u2019s plea . . . .\u201d].) The trial court\u2019s implied finding that Yount\u2019s conviction included his resistance to the officers up until the time he was shot was amply supported by substantial evidence.\nYount then contends that, whatever the scope of his criminal conviction, Heck nonetheless \u201cdoes not apply where the evidence discloses at least one violation of [Penal Code, section] 148 independent of and discrete from an officer\u2019s alleged misconduct.\u201d In Yount\u2019s view (and in the view of the Court of Appeal), Heck does not apply even if success on the section 1983 claim would be inconsistent with a fact established by his conviction for resisting the officers, so long as there remains, undisturbed by the civil rights action, at least one criminal act sufficient to sustain the criminal conviction. Or, put another way, so long as one act of resistance remains undisturbed to support the criminal conviction, it is immaterial that success on the section 1983 claim might be inconsistent with other facts that supported the criminal conviction. In Yount\u2019s view (and in the view of the Court of Appeal), the fact that the conviction could be sustained on this narrower basis means that a judgment for the plaintiff on the section 1983 claim would not necessarily imply the invalidity of the plaintiff\u2019s conviction.\nWe find no support in Heck for the notion that the bar preventing collateral attacks on a criminal conviction is inapplicable when the plaintiff seeks to undermine only a part of his or her criminal conviction. (Cf. Heck, supra, 512 U.S. at p. 487 [\u00a7 1983 action should be allowed to proceed only when \u201cthe plaintiff\u2019s action, even if successful, will not demonstrate the invalidity of any outstanding criminal judgment against the plaintiff\u2019 (second italics added)].) As the trial court found, Yount\u2019s conviction established his culpability during the entire episode with the four officers, and any civil rights claim that is inconsistent with even a portion of that conviction is barred because it would necessarily imply the invalidity of that part of the conviction. (See Smithart v. Towery (9th Cir. 1996) 79 F.3d 951, 952 [\u00a7 1983 action must be dismissed when a criminal conviction \u201carising out of the same facts stands and is fundamentally inconsistent with the unlawful behavior for which section 1983 damages are sought\u201d].) Otherwise, a section 1983 plaintiff could routinely circumvent the Heck bar through artful pleading\u2014e.g., by filing suit against fewer than all of the potential defendants or by defining the civil cause of action to encompass fewer than all of the criminal acts of resistance (and the police response thereto) involved in the incident. To permit a plaintiff to plead no contest and be found guilty to resisting the officers in the performance of their duties and then to challenge the officers\u2019 conduct encompassed by the plea (just as long as the challenge encompassed only a portion of the plaintiff\u2019s criminal conduct) would promote \u201c \u2018parallel litigation over the issues of probable cause and guilt,\u2019 \u201d increase \u201c \u2018the possibility of the claimant [sic] succeeding in the tort action after having been convicted in the underlying criminal prosecution,\u2019 \u201d and authorize \u201c \u2018a collateral attack on the conviction through the vehicle of a civil suit\u2019 \u201d\u2014all \u201c \u2018in contravention of a strong judicial policy against the creation of two conflicting resolutions arising out of the same or identical transaction.\u2019 \u201d (Heck, supra, 512 U.S. at p. 484; accord, Okoro v. Callaghan (7th Cir. 2003) 324 F.3d 488, 490 [plaintiff may not avoid the Heck bar merely by asserting a \u201ctheoretical possibility\u201d that the criminal conviction and the civil action could coexist].)\nThe rule proposed by the Court of Appeal and embraced by Yount would also have the perverse effect of rewarding those (like Yount) who engage in multiple acts of resistance with the right to pursue a civil action against the officers, since only those who commit a single act of resistance will find their civil action barred by Heck. Under such a scheme, as defendants observe, \u201cthe more egregious and more numerous the violations of Penal Code section 148 perpetrated by a criminal defendant, the better that defendant\u2019s chances of pursuing a Section 1983 action and avoiding the Heck bar.\u201d Granting such offenders the right to pursue a civil suit arising out of the same transaction on which their criminal plea is based merely by the expedient of ensuring that the civil action excludes at least one act of resistance (or at least one officer being resisted) is inconsistent with the high court\u2019s general reluctance \u201cto expand opportunities for collateral attack.\u201d (Heck, supra, 512 U.S. at p. 485.) Had Yount wanted to maximize his ability to challenge the officers\u2019 conduct in a subsequent civil action, he could have sought to identify and limit the basis for his plea to violating Penal Code section 148, subdivision (a)(1). (See Truong v. Orange County Sheriff\u2019s Dept. (2005) 129 Cal.App.4th 1423, 1426 [29 Cal.Rptr.3d 450].) There was, however, no duty on the part of the court or the prosecution in the criminal proceeding to identify or limit the factual basis for Yount\u2019s plea to violating Penal Code section 148, subdivision (a)(1), a misdemeanor. (In re Gross, supra, 33 Cal.3d at p. 567.)\nIndeed, Yount obtained substantial benefit from his general plea. By declining to limit the scope of his no contest plea, Yount is protected against a new prosecution for resisting these officers by the double jeopardy clause. (U.S. Const., 5th Amend.; see State v. Newman (1992) 63 Wn.App. 841, 851 [822 P.2d 308, 313].) It would be anomalous to construe Yount\u2019s criminal conviction broadly for criminal law purposes so as to shield him from a new prosecution arising from these events but then, once he had obtained the benefits of his no contest plea, to turn around and construe the criminal conviction narrowly so as to permit him to prosecute a section 1983 claim arising out of the same transaction.\nWe thus conclude that Yount\u2019s criminal conviction encompasses his admission that he was resisting the officers up until the time he was shot. The Court of Appeal believed that Yount\u2019s civil claim would be barred under such a scenario, but the Court of Appeal was again mistaken, in part.\nAs stated above, our task is to analyze the relationship between Yount\u2019s resistance, as evidenced by his criminal conviction, and Officer Shrum\u2019s alleged misconduct, as set forth in the first amended complaint. The record of the Heck hearing indicates that Yount was kicking, spitting, and refusing to cooperate with the officers just prior to the shooting. Under those circumstances, Officer Shrum was justified in responding with reasonable force. (Pen. Code, \u00a7 835a; People v. Curtis (1969) 70 Cal.2d 347, 356-357 [74 Cal.Rptr. 713, 450 P.2d 33].) Hence, to the extent that Yount\u2019s section 1983 claim alleges that he offered no resistance, that he posed no reasonable threat of obstruction to the officers, and that the officers had no justification to employ any force against him at the time he was shot, the claim is inconsistent with his conviction for resisting the officers and is barred under Heck. (Thore v. Howe (1st Cir. 2006) 466 F.3d 173, 180 [claim that the plaintiff had not committed an assault, and thus that the officer\u2019s use of force in response was excessive, was barred by plaintiff\u2019s assault conviction]; Swiecicki v. Delgado (6th Cir. 2006) 463 F.3d 489, 494-495; see generally McCann v. Neilsen (7th Cir. 2006) 466 F.3d 619, 621 [\u201ca plaintiff\u2019s claim is Heck-barred despite its theoretical compatibility with his underlying conviction if specific factual allegations in the complaint are necessarily inconsistent with the validity of the conviction . . .\u201d].)\nThe record of the Heck hearing also demonstrates that Yount was attempting to drive while intoxicated. Hence, to the extent that Yount\u2019s section 1983 claim alleges that Officer Shrum \u201cviolated YOUNT\u2019S rights to be free from arrest and detention absent probable cause,\u201d the claim is similarly inconsistent with his conviction for resisting the officers in the lawful performance of their duties and is barred under Heck. (Nuno v. County of San Bernardino (C.D.Cal. 1999) 58 F.Supp.2d 1127, 1134.)\nHowever, to the extent Yount\u2019s section 1983 claim alleges simply that Officer Shrum\u2019s use of deadly force was an unjustified and excessive response to Yount\u2019s resistance, the claim is not barred. As defendants have conceded, the record at the Heck hearing did not support the use of deadly force against Yount, nor did the criminal conviction in itself establish a justification for the use of deadly force. (See Tennessee v. Garner (1985) 471 U.S. 1, 11-12 [85 L.Ed.2d 1, 105 S.Ct. 1694]; accord, Kortum v. Alkire (1977) 69 Cal.App.3d 325, 333 [138 Cal.Rptr. 26].) A claim alleging that Officer Shram\u2019s use of deadly force was not a reasonable response to Yount\u2019s criminal acts of resistance does not \u201cimplicitly question the validity of [his] conviction\u201d for resisting the officers in this instance (Muhammad v. Close (2004) 540 U.S. 749, 751 [158 L.Ed.2d 32, 124 S.Ct. 1303]) and thus is not barred by Heck. (McCann v. Neilsen, supra, 466 F.3d at pp. 622-623; Gregory v. Oliver (N.D.Ill. 2002) 226 F.Supp.2d 943, 952 [\u201cin some instances a Section 1983 claim does not contradict the events that resulted in a plaintiff\u2019s convictions\u2014two obvious examples would be an officer\u2019s unjustified imposition of excessive force in an overreaction to an arrestee\u2019s assault, or the imposition of excessive force after the event that led to a resisting-arrest conviction . . .\u201d (fn. omitted)]; accord, Sanford v. Motts, supra, 258 F.3d at p. 1120 [\u201cif Motts used excessive force subsequent to the time Sanford interfered with his duty, success in her section 1983 claim will not invalidate her conviction\u201d]; Martinez v. City of Albuquerque (10th Cir. 1999) 184 F.3d 1123, 1127 [plaintiff\u2019s criminal resistance \u201cmight justify the officers\u2019 use of reasonable force to effectuate [his] arrest, but would not authorize the officers to employ excessive or unreasonable force\u201d].)\nDefendants contend that the Heck bar should nonetheless apply because the shooting was part of a continuous transaction arising from Yount\u2019s resistance as well as \u201ca consequence flowing directly from Yount\u2019s criminal conduct.\u201d But our analysis does take account of the fact that Yount\u2019s resistance caused the officers to respond with force of their own. As explained above, we find that Yount\u2019s section 1983 claim is barred to the extent it alleges that Officer Shram lacked justification to arrest him or to respond with reasonable force to his resistance. The use of deadly force in this situation, though, requires a separate analysis. \u201cFor example, a defendant might resist a lawful arrest, to which the arresting officers might respond with excessive force to subdue him. The subsequent use of excessive force would not negate the lawfulness of the initial arrest attempt, or negate the unlawfulness of the criminal defendant\u2019s attempt to resist it. Though occurring in one continuous chain of events, two isolated factual contexts would exist, the first giving rise to criminal liability on the part of the criminal defendant, and the second giving rise to civil liability on the part of the arresting officer.\u201d (Jones v. Marcum (S.D. Ohio 2002) 197 F.Supp.2d 991, 1005, fn. 9; accord, Powell v. Scanlon (D.Conn. 2005) 390 F.Supp.2d 172, 178 [\u201calthough inmate\u2019s conviction for resisting arrest was a factor in determining the acceptable level of force, \u2018it does not constitute a per se determination that any amount of force that plaintiff could prove is acceptable\u2019 \u201d]; cf. Susag v. City of Lake Forest, supra, 94 Cal.App.4th at p. 1410 [applying the Heck bar where the plaintiff \u201calleged no claims of excessive force that took place after he was finally subdued and placed in the patrol car\u201d].)\nDefendants\u2019 broad invocation of the Heck bar to eliminate Yount\u2019s claims in their entirety would also severely diminish the protections available to those subject to arrest. \u201c[I]t would imply that once a person resists law enforcement, he has invited the police to inflict any reaction or retribution they choose, while forfeiting the right to sue for damages. Put another way, police subduing a suspect could use as much force as they wanted\u2014and be shielded from accountability under civil law\u2014as long as the prosecutor could get the plaintiff convicted on a charge of resisting.\u201d (VanGilder v. Baker, supra, 435 F.3d at p. 692.) To the extent Yount does not deny that he resisted the officers (or that the officers had the right to respond with reasonable force), he poses no challenge to his conviction, and, to that extent, his section 1983 claim for damages arising from Officer Shram\u2019s accidental use of deadly force is not barred by Heck. (Gilbert v. Cook (7th Cir. 2008) 512 F.3d 899, 901-902.)\nB\nYount relies heavily on Smith v. City of Hemet, supra, 394 F.3d 689, an en banc decision of the Ninth Circuit that discussed the effect of Smith\u2019s conviction for resisting an officer in violation of Penal Code section 148, subdivision (a)(1) on his section 1983 claim that the officers used excessive force when they employed pepper spray and a police canine to effect his arrest. (Smith, supra, at p. 694.) The summary judgment record there revealed that Smith had resisted the officers when they arrived at his house to investigate a domestic disturbance and continued to resist them while they attempted to place him under arrest. In response, the officers sprayed him in the face with pepper spray and directed the police canine to attack him. The dog bit Smith on his left and right shoulder, neck, and buttocks, and the officers sprayed him with pepper spray at least four additional times. (Id. at pp. 693-694.)\nIn reversing the trial court\u2019s determination that Smith\u2019s section 1983 claim was barred under Heck, the Ninth Circuit reasoned that \u201cif Smith pled guilty to \u00a7 148(a)(1) based on his behavior after the officers came onto the porch, during the course of the arrest, his suit would be barred by Heck. [Citation.] In such case, a successful \u00a7 1983 action by Smith would necessarily mean that the officers had used excessive force to subdue him and were therefore acting unlawfully at the time his arrest was effected. In that circumstance, Smith\u2019s conviction under \u00a7 148(a)(1) would have been wrongful and a successful \u00a7 1983 suit by him would demonstrate its invalidity. [Citation.] [f] Under Heck, Smith would be allowed to bring a \u00a7 1983 action, however, if the use of excessive force occurred subsequent to the conduct on which his conviction was based. Specifically, Smith would be entitled to proceed below if his conviction were based on unlawful behavior that took place while he stood alone and untouched on his porch\u2014that is, if his unlawful conduct occurred while the officers were attempting to investigate his wife\u2019s complaint. In such case, a judgment in Smith\u2019s favor would not necessarily conflict with his conviction because his acts of resistance, delay, or obstruction would have occurred while the officers were engaged in the lawful performance of their investigative duties, not while they were engaged in effecting an arrest by the use of excessive force.\u201d (Smith v. City of Hemet, supra, 394 F.3d at pp. 697-698.)\nThe possibility that this latter scenario was the basis for Smith\u2019s guilty plea is what led the Ninth Circuit to reverse the judgment in favor of the defendants\u2014and it is worthwhile to revisit the Ninth Circuit\u2019s reasoning so as to demonstrate that Yount\u2019s reliance on the case is misplaced. The Ninth Circuit correctly observed that a defendant entering a plea of guilty or no contest in California \u201cis free to admit having committed a specific act or acts of resistance, delay, or obstruction, to identify the particular acts of unlawfulness to which he is willing to plead, and to deny that he engaged in other . . . acts.\u201d (Smith v. City of Hemet, supra, 394 F.3d at p. 700, fn. 5.) In concluding that Smith\u2019s claim was not barred by Heck, the Ninth Circuit assumed that Smith had limited his plea to those acts that obstructed the officers\u2019 investigation (as opposed to the acts that obstructed the arrest) based merely on the fact that it was \u201cpossible\u201d Smith had so limited his plea (ibid.) and on the parties\u2019 failure to offer a transcript of the plea hearing or otherwise to use \u201cwhat transpired at the time Smith entered his plea\u201d to rebut this possibility (id. at p. 698). Because of this possibility, the Ninth Circuit concluded that Smith\u2019s lawsuit \u201cdoes not necessarily imply the invalidity of his conviction and is therefore not barred by Heck.\u201d (Id. at p. 699.)\nWe need not consider here whether Smith was correctly decided because here, unlike in Smith, the trial court took judicial notice of the file of the criminal proceeding, including the transcript of the plea hearing. That transcript refutes any claim that Yount, at the time of his plea, admitted \u201chaving committed [only] a specific act or acts of resistance, delay, or obstruction\u201d; that he identified \u201cthe particular acts of unlawfulness to which he [was] willing to plead\u201d; or that he denied \u201cthat he engaged in other specific acts.\u201d (Smith v. City of Hemet, supra, 394 F.3d at p. 700, fn. 5.) Moreover, here, unlike in Smith, Yount\u2019s acts of resistance were part of one continuous transaction involving the officers\u2019 efforts to effect his arrest and cannot be segregated into an investigative phase and an independent arrest phase. (Cf. id. at p. 698.) We therefore conclude that Smith does not aid Yount here.\nC\nThe parties do not separately address the effect of Yount\u2019s criminal conviction on his state law claim for battery. Heck, of course, is a rule of federal law that applies only to federal causes of action that challenge the validity of a state conviction. (Nuno v. County of San Bernardino, supra, 58 F.Supp.2d at p. 1130, fn. 3.) But we cannot think of a reason to distinguish between section 1983 and a state tort claim arising from the same alleged misconduct and, as stated above, the parties offer none. Section 1983 \u201c \u2018creates a species of tort liability\u2019 \u201d (Heck, supra, 512 U.S. at p. 483) and has been described as \u201c \u2018the federal counterpart of state battery or wrongful death actions.\u2019 \u201d (Susag v. City of Lake Forest, supra, 94 Cal.App.4th at p. 1413.) Indeed, Yount\u2019s common law battery cause of action, like his section 1983 claim, requires proof that Officer Shrum used unreasonable force. (Edson v. City of Anaheim (1998) 63 Cal.App.4th 1269, 1273-1274 [74 Cal.Rptr.2d 614].)\nMoreover, this court has recently reiterated its concern about the use of civil suits to collaterally attack criminal judgments in the context of a convicted criminal defendant\u2019s civil action against his or her attorney for legal malpractice. (See Coscia v. McKenna & Cuneo (2001) 25 Cal.4th 1194, 1197 [108 Cal.Rptr.2d 471, 25 P.3d 670].) In holding that a criminal defendant must obtain exoneration by postconviction relief as a prerequisite to obtaining relief for the legal malpractice that led to that conviction, we recognized that our ruling would preclude recovery \u201ceven when ordinary collateral estoppel principles otherwise are not controlling, for example because a conviction was based upon a plea of guilty that would not be conclusive in a subsequent civil action involving the same issues.\u201d (Id. at p. 1204.) Our justification for a bar of that scope included the promotion of judicial economy and the \u201c \u2018 \u201cstrong judicial policy\u201d \u2019 \u201d recognized in Heck itself \u201c \u2018 \u201cagainst the creation of two conflicting resolutions arising out of the same or identical transaction.\u201d \u2019 \u201d (Coscia, supra, 25 Cal.4th at p. 1204, quoting Heck, supra, 512 U.S. at p. 484.)\nIn light of the fact that Heck and California law express similar concerns about judicial economy and the avoidance of conflicting resolutions, we conclude that the analysis in the preceding sections applies equally to Yount\u2019s common law claim for battery. That is, to the extent Yount does not deny that he resisted the officers (or that the officers had the right to respond with reasonable force), he poses no challenge to his conviction, and, to that extent, his cause of action for battery arising from Officer Shrum\u2019s use of deadly force is not barred.\nDisposition\nWe affirm in part and reverse in part the judgment of the Court of Appeal and remand for further proceedings consistent with this opinion.\nGeorge, C. J., Kennard, J., Chin, J., Moreno, J., and Corrigan, J., concurred.\nBecause the officer in this case used deadly force, we need consider only whether Yount may proceed with his civil claims to the extent they challenge the officer\u2019s use of deadly force.\nAlthough we hold that this portion of Yount\u2019s section 1983 claim is not .Heck-barred, we have not been asked to decide (and do not decide here) whether Yount may recover damages under section 1983 for Officer Shrum\u2019s accidental use of deadly force.",
+        "type": "majority",
+        "author": "BAXTER, J."
+      },
+      {
+        "text": "WERDEGAR, J., Concurring.\nI concur in the judgment.\nI agree with the majority that plaintiff Steven Yount may sue defendants under 42 United States Code section 1983 (section 1983) and for battery based on the claim that a police officer shot him while he was handcuffed and restrained. On this point the majority reasons: \u201c[T]o the extent Yount\u2019s section 1983 claim alleges simply that Officer Shrum\u2019s use of deadly force was an unjustified and excessive response to Yount\u2019s resistance, the claim is not barred. As defendants have conceded, the record at the Heck hearing [see Heck v. Humphrey (1994) 512 U.S. 477 [129 L.Ed.2d 383, 114 S.Ct. 2364]] did not support the use of deadly force against Yount, nor did the criminal conviction in itself establish a justification for the use of deadly force. [Citations.] A claim alleging that Officer Shrum\u2019s use of deadly force was not a reasonable response to Yount\u2019s criminal acts of resistance does not \u2018implicitly question the validity of [his] conviction\u2019 for resisting the officers in this instance [citation] and thus is not barred by Heck.\u201d (Maj. opn., ante, at pp. 898-899, fn. omitted; see also id. at p. 902 [applying the same reasoning to plaintiff\u2019s claim for battery].)\nThis reasoning suffices. The remainder of the majority\u2019s opinion is unnecessary to the decision and thus constitutes, in my view, obiter dictum of no precedential value. The majority attempts to justify its dictum by purporting to decide \u201cthat [plaintiff\u2019s] claims are barred to the extent they allege that Officer Shram was not entitled to use force at all in this incident.\u201d (Maj. opn., ante, at p. 889.) But no such claim is before us. At the time of trial, plaintiff had elected to proceed on two theories only: section 1983 and battery. Both claims, as alleged in the first amended complaint, are based exclusively on the shooting. Plaintiff names only Officer Shram as a defendant in his claim under section 1983, and he bases the claim on the allegation that Officer Shram, \u201cwhile acting under color of law with the Sacramento Police Department, shot and seriously and permanently injured\u201d him. Plaintiff names both Officer Shram and his employer, the City of Sacramento, as defendants in his claim for battery. But the only battery alleged is that plaintiff \u201cwas shot and seriously and permanently injured by defendant Officer Shram . . . .\u201d\nI wish particularly to note that the case offers no proper occasion for the majority\u2019s elaborate effort to distinguish and criticize the Ninth Circuit\u2019s decision in Smith v. City of Hemet (9th Cir. 2005) 394 F.3d 689 (en banc) (maj. opn., ante, at pp. 900-901) or for the majority\u2019s implicit suggestion that Smith may not have been \u201ccorrectly decided\u201d (maj. opn., ante, at p. 901). This dictum, if followed, could have the unfortunate effect of causing California state courts to apply Heck, supra, 512 U.S. 477, a decision of the United States Supreme Court on a point of federal law, differently than the federal courts of the Ninth Circuit, and thus may encourage forum shopping and create conflicts that only the high court can finally resolve.\nRespondents\u2019 petition for a rehearing was denied July 16, 2008.",
+        "type": "concurrence",
+        "author": "WERDEGAR, J., Concurring."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "The Cochran Firm and Brian T. Dunn for Plaintiff and Appellant.",
+      "Samuel L. Jackson and Eileen M. Teichert, City Attorneys, and Matthew D. Ruyak, Deputy City Attorney, for Defendants and Respondents.",
+      "Mastagni, Holstedt, Amick, Miller, Johnsen & Uhrhammer and Christopher W. Miller for The Peace Officers Research Association of California Legal Defense Fund as Amicus Curiae on behalf of Defendants and Respondents.",
+      "Meyers, Nave, Riback, Silver & Wilson and Alan M. Cohen for League of California Cities as Amicus Curiae on behalf of Defendants and Respondents."
+    ],
+    "corrections": "",
+    "head_matter": "[No. S139762.\nMay 19, 2008.]\nSTEVEN YOUNT, Plaintiff and Appellant, v. CITY OF SACRAMENTO et al., Defendants and Respondents.\nCounsel\nThe Cochran Firm and Brian T. Dunn for Plaintiff and Appellant.\nSamuel L. Jackson and Eileen M. Teichert, City Attorneys, and Matthew D. Ruyak, Deputy City Attorney, for Defendants and Respondents.\nMastagni, Holstedt, Amick, Miller, Johnsen & Uhrhammer and Christopher W. Miller for The Peace Officers Research Association of California Legal Defense Fund as Amicus Curiae on behalf of Defendants and Respondents.\nMeyers, Nave, Riback, Silver & Wilson and Alan M. Cohen for League of California Cities as Amicus Curiae on behalf of Defendants and Respondents."
+  },
+  "file_name": "0885-01",
+  "first_page_order": 923,
+  "last_page_order": 942
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12226921,
+  "name": "Fletcher v. United States",
+  "name_abbreviation": "Fletcher v. United States",
+  "decision_date": "2011-10-11",
+  "docket_number": "No. 10-10562",
+  "first_page": "942",
+  "last_page": "942",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 942"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.634,
+    "sha256": "b35640e4584d7bc098d3a51385fdeca4909775e2c4de352ae6d8a9dd11165533",
+    "simhash": "1:024bf6ab454d8f38",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Fletcher v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10562.\nFletcher v. United States."
+  },
+  "file_name": "0942-03",
+  "first_page_order": 1024,
+  "last_page_order": 1024
+}

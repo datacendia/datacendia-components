@@ -1,0 +1,59 @@
+{
+  "id": 12418797,
+  "name": "Nwaehiri v. United States",
+  "name_abbreviation": "Nwaehiri v. United States",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 12-6037",
+  "first_page": "954",
+  "last_page": "954",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 954"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.669,
+    "sha256": "b15362822956587dae38a4d17e7dcdabf6540e7c4dd576c1d08e223478bbeccb",
+    "simhash": "1:b38bea3bcd879937",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Nwaehiri v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6037.\nNwaehiri v. United States."
+  },
+  "file_name": "0954-11",
+  "first_page_order": 1030,
+  "last_page_order": 1030
+}

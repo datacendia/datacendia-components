@@ -1,0 +1,77 @@
+{
+  "id": 12519844,
+  "name": "Elisio Atenia LORENZO, Petitioner, v. Matthew G. WHITAKER, Acting Attorney General, Respondent.",
+  "name_abbreviation": "Lorenzo v. Whitaker",
+  "decision_date": "2019-01-17",
+  "docket_number": "No. 15-70814",
+  "first_page": "930",
+  "last_page": "930",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "913 F.3d 930"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "9th Cir.",
+    "id": 18869,
+    "name": "United States Court of Appeals for the Ninth"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "902 F.3d 930",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12518496
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/902/0930-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 66,
+    "char_count": 583,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.259166267994775
+    },
+    "sha256": "06052efd3d839472be447a2aef6f0ee457cb18d54f00a2028731c8c03413f9d9",
+    "simhash": "1:212d93b138679380",
+    "word_count": 88
+  },
+  "last_updated": "2024-02-27T18:46:17.308091+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "No further petitions for rehearing en banc may be filed."
+    ],
+    "parties": [
+      "Elisio Atenia LORENZO, Petitioner,\nv.\nMatthew G. WHITAKER, Acting Attorney General, Respondent."
+    ],
+    "opinions": [
+      {
+        "text": "The opinion filed August 29, 2018, and reported at 902 F.3d 930, is WITHDRAWN . A substitute memorandum disposition is filed concurrently with this order.\nThe government's petition for panel rehearing, filed November 14, 2018 (Dkt. 83), is DENIED .\nThe government's motion for judicial notice, filed November 14, 2018 (Dkt. 84), is DENIED .\nNo further petitions for rehearing en banc may be filed.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "Elisio Atenia LORENZO, Petitioner,\nv.\nMatthew G. WHITAKER, Acting Attorney General, Respondent.\nNo. 15-70814\nUnited States Court of Appeals, Ninth Circuit.\nFiled January 17, 2019\nORDER"
+  },
+  "file_name": "0930-01",
+  "first_page_order": 930,
+  "last_page_order": 930
+}

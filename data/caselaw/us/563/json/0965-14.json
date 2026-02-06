@@ -1,0 +1,59 @@
+{
+  "id": 5963827,
+  "name": "Dyer v. Nebraska",
+  "name_abbreviation": "Dyer v. Nebraska",
+  "decision_date": "2011-04-25",
+  "docket_number": "No. 10-9520",
+  "first_page": "965",
+  "last_page": "965",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 965"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 64,
+    "ocr_confidence": 0.605,
+    "sha256": "44ad94bc8fe254242e3344c641d7c1692d78cb681f5077776db63b2b0769b5f8",
+    "simhash": "1:aee36e50413993f6",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dyer v. Nebraska."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Neb. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9520.\nDyer v. Nebraska."
+  },
+  "file_name": "0965-14",
+  "first_page_order": 991,
+  "last_page_order": 991
+}

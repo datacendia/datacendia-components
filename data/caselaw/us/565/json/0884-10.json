@@ -1,0 +1,59 @@
+{
+  "id": 12215021,
+  "name": "Melendez Camilo v. United States",
+  "name_abbreviation": "Camilo v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-214",
+  "first_page": "884",
+  "last_page": "884",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 884"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 81,
+    "ocr_confidence": 0.731,
+    "sha256": "2c28cd25c2ff642813eddd317824cd1863ffe4056b02ee3b8744f1714006e7e3",
+    "simhash": "1:a58a96804aa7004a",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Melendez Camilo v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. Fed. Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-214.\nMelendez Camilo v. United States."
+  },
+  "file_name": "0884-10",
+  "first_page_order": 966,
+  "last_page_order": 966
+}

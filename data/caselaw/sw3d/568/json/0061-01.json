@@ -1,0 +1,96 @@
+{
+  "id": 12659014,
+  "name": "Paul E. SMITH, Appellant, v. STATE of Missouri, Respondent.",
+  "name_abbreviation": "Smith v. State",
+  "decision_date": "2019-02-13",
+  "docket_number": "No. ED 106670",
+  "first_page": "61",
+  "last_page": "61",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 S.W.3d 61"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Mo. App. Ct.",
+    "id": 30189,
+    "name": "Missouri Court of Appeals, Eastern District, DIVISION TWO"
+  },
+  "jurisdiction": {
+    "id": 37,
+    "name_long": "Missouri",
+    "name": "Mo."
+  },
+  "cites_to": [
+    {
+      "cite": "530 S.W.3d 500",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12386985
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "503"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/530/0500-01"
+      ]
+    },
+    {
+      "cite": "497 S.W.3d 263",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12182019
+      ],
+      "year": 2016,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/497/0263-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 158,
+    "char_count": 1319,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.26501429233905144
+    },
+    "sha256": "0c31441e5d4d5ef8fdeeed7a07335bab303fcdd17ba90b10317c2e0e684be262",
+    "simhash": "1:490e43e9f635c75f",
+    "word_count": 211
+  },
+  "last_updated": "2024-02-27T17:23:49.487546+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Philip M. Hess, P.J. and Robert G. Dowd, Jr. and Mary K. Hoff, JJ."
+    ],
+    "parties": [
+      "Paul E. SMITH, Appellant,\nv.\nSTATE of Missouri, Respondent."
+    ],
+    "opinions": [
+      {
+        "text": "PER CURIAM\nPaul Smith (\"Movant\") appeals from the judgment denying his Rule 24.035 motion. Movant claims his three-year sentence of imprisonment for stealing over $500 was unauthorized by law according to State v. Bazell , 497 S.W.3d 263 (Mo. banc 2016), which held that offense was not a felony, but was actually a misdemeanor. But Bazell was handed down after Movant's sentence was imposed, and as the State correctly pointed out to the motion court, Bazell cannot be applied retroactively, only prospectively, expect to cases pending on direct appeal, as determined in State ex rel. Windeknecht v. Mesmer , 530 S.W.3d 500, 503 (Mo. banc 2017). The motion court did not err by dismissing Movant's case on this ground. An opinion would have no precedential value nor serve any jurisprudential purpose. We affirm under Rule 84.16(b).",
+        "type": "majority",
+        "author": "PER CURIAM"
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "Paul E. SMITH, Appellant,\nv.\nSTATE of Missouri, Respondent.\nNo. ED 106670\nMissouri Court of Appeals, Eastern District, DIVISION TWO.\nFiled: February 13, 2019\nATTORNEYS FOR APPELLANT: Kristina S. Olson, 1010 Market Street, Suite 1100, St. Louis, MO 63101.\nATTORNEYS FOR RESPONDENT: Eric Schmitt, Attorney General, Shaun J. Mackelprang, Asst. Attorney General, P. O. Box 899, Jefferson City, MO 65102-0899.\nBefore Philip M. Hess, P.J. and Robert G. Dowd, Jr. and Mary K. Hoff, JJ.\nORDER"
+  },
+  "file_name": "0061-01",
+  "first_page_order": 61,
+  "last_page_order": 61
+}

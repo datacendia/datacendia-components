@@ -1,0 +1,59 @@
+{
+  "id": 12199623,
+  "name": "Lang v. Gundy, Warden",
+  "name_abbreviation": "Lang v. Gundy",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-9509",
+  "first_page": "829",
+  "last_page": "829",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 829"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.701,
+    "sha256": "54155702f11aaff819274477cc9eeff2c660cba107bfd3ef538344a83f5d22c8",
+    "simhash": "1:b4815632fa5f1c42",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lang v. Gundy, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9509.\nLang v. Gundy, Warden."
+  },
+  "file_name": "0829-01",
+  "first_page_order": 911,
+  "last_page_order": 911
+}

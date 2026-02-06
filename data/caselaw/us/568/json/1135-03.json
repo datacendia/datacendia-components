@@ -1,0 +1,59 @@
+{
+  "id": 12429710,
+  "name": "Abdelbary v. United States",
+  "name_abbreviation": "Abdelbary v. United States",
+  "decision_date": "2013-01-14",
+  "docket_number": "No. 12-7653",
+  "first_page": "1135",
+  "last_page": "1135",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1135"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.593,
+    "sha256": "6bf9a884ffe671fcd7c08c6e7b5336df888c71eff6fad4b5914c9fa235b6bdc7",
+    "simhash": "1:928ace592f8db50f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Abdelbary v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7653.\nAbdelbary v. United States."
+  },
+  "file_name": "1135-03",
+  "first_page_order": 1211,
+  "last_page_order": 1211
+}

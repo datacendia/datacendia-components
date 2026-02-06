@@ -1,0 +1,59 @@
+{
+  "id": 5985629,
+  "name": "Kellner v. California",
+  "name_abbreviation": "Kellner v. California",
+  "decision_date": "2010-11-29",
+  "docket_number": "No. 10-6871",
+  "first_page": "1072",
+  "last_page": "1072",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1072"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 85,
+    "ocr_confidence": 0.606,
+    "sha256": "d6796f9c71a6717a5e572dff987d32b47b739b8a293fb5712b9b5abc4ba9a857",
+    "simhash": "1:2825834105901045",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Kellner v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 6th App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6871.\nKellner v. California."
+  },
+  "file_name": "1072-02",
+  "first_page_order": 1094,
+  "last_page_order": 1094
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12240519,
+  "name": "Mancuso v. United States",
+  "name_abbreviation": "Mancuso v. United States",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-7179",
+  "first_page": "1125",
+  "last_page": "1125",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1125"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.65,
+    "sha256": "0db6272bc175d3d4cb0c60d83cc1cd91e2e681de55aafbc3c4c3f2382ba2f49f",
+    "simhash": "1:954bca930313266c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mancuso v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7179.\nMancuso v. United States."
+  },
+  "file_name": "1125-10",
+  "first_page_order": 1207,
+  "last_page_order": 1207
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12433965,
+  "name": "Nivens v. Maryland",
+  "name_abbreviation": "Nivens v. Maryland",
+  "decision_date": "2013-03-25",
+  "docket_number": "No. 12-8282",
+  "first_page": "1252",
+  "last_page": "1252",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1252"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 70,
+    "ocr_confidence": 0.609,
+    "sha256": "57e5dd957eb75bde558d27cdab55e29b11758219cd6b7a4bcb2ac5e40a09e8b6",
+    "simhash": "1:5d8a614ad0d0f5da",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Nivens v. Maryland."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Sp. App. Md. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8282.\nNivens v. Maryland."
+  },
+  "file_name": "1252-11",
+  "first_page_order": 1328,
+  "last_page_order": 1328
+}

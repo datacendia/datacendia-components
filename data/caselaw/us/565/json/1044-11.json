@@ -1,0 +1,59 @@
+{
+  "id": 12234425,
+  "name": "Torres v. United States",
+  "name_abbreviation": "Torres v. United States",
+  "decision_date": "2011-11-14",
+  "docket_number": "No. 11-6915",
+  "first_page": "1044",
+  "last_page": "1044",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1044"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.685,
+    "sha256": "7a0520a91c8193da14e0004a37d1f43f63846115127e68fdf62a52730a2b8953",
+    "simhash": "1:25ca9bdbc6951178",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Torres v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6915.\nTorres v. United States."
+  },
+  "file_name": "1044-11",
+  "first_page_order": 1126,
+  "last_page_order": 1126
+}

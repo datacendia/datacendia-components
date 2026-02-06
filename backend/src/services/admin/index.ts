@@ -63,8 +63,8 @@ export interface PlatformDashboard {
 }
 
 export async function getPlatformDashboard(): Promise<PlatformDashboard> {
-  const tenantMetrics = tenantService.getMetrics();
-  const licenseMetrics = licenseService.getMetrics();
+  const tenantMetrics = await tenantService.getMetrics();
+  const licenseMetrics = await licenseService.getMetrics();
   const healthDashboard = await systemHealthService.getDashboard();
 
   return {

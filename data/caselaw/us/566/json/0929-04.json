@@ -1,0 +1,59 @@
+{
+  "id": 12202437,
+  "name": "Curry v. Carlton, Warden",
+  "name_abbreviation": "Curry v. Carlton",
+  "decision_date": "2012-04-02",
+  "docket_number": "No. 11-9092",
+  "first_page": "929",
+  "last_page": "929",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 929"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 80,
+    "ocr_confidence": 0.545,
+    "sha256": "aa38164359e108a3ee260b23c6b4a0932952c0b83deb6d8a96e09f7e6c411e01",
+    "simhash": "1:9139c5b9ede3e8a3",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Curry v. Carlton, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crina. App. Tenn. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9092.\nCurry v. Carlton, Warden."
+  },
+  "file_name": "0929-04",
+  "first_page_order": 805,
+  "last_page_order": 805
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12200101,
+  "name": "Moore et al. v. Perkins et al.",
+  "name_abbreviation": "Moore v. Perkins",
+  "decision_date": "2012-04-02",
+  "docket_number": "No. 11-928",
+  "first_page": "921",
+  "last_page": "921",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 921"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 77,
+    "ocr_confidence": 0.553,
+    "sha256": "f4b55dcb30717398294edbbbc3efe5a1255835e6477492aa841a91d5192bf34f",
+    "simhash": "1:aa4858800906b425",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Moore et al. v. Perkins et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-928.\nMoore et al. v. Perkins et al."
+  },
+  "file_name": "0921-12",
+  "first_page_order": 797,
+  "last_page_order": 797
+}

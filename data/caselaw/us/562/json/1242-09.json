@@ -1,0 +1,59 @@
+{
+  "id": 5974958,
+  "name": "Pickard et al. v. United States",
+  "name_abbreviation": "Pickard v. United States",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8322",
+  "first_page": "1242",
+  "last_page": "1242",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1242"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 81,
+    "ocr_confidence": 0.617,
+    "sha256": "4282e88b4fa7f322ff1a50fe9f8e45032b52e252d4283f9b173b553b4951265c",
+    "simhash": "1:8718f6070fa7182c",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Pickard et al. v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8322.\nPickard et al. v. United States."
+  },
+  "file_name": "1242-09",
+  "first_page_order": 1264,
+  "last_page_order": 1264
+}

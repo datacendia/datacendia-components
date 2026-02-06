@@ -1,0 +1,59 @@
+{
+  "id": 5917508,
+  "name": "Mueller v. United States",
+  "name_abbreviation": "Mueller v. United States",
+  "decision_date": "2011-05-23",
+  "docket_number": "No. 10-10179",
+  "first_page": "1016",
+  "last_page": "1016",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1016"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.612,
+    "sha256": "ba66f11abb4e88a33525cd9e0ac3182e77fac865a1f3ad9533ade1103c22a962",
+    "simhash": "1:cc1abf3bce96a50e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mueller v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10179.\nMueller v. United States."
+  },
+  "file_name": "1016-02",
+  "first_page_order": 1042,
+  "last_page_order": 1042
+}

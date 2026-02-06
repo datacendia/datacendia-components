@@ -1,0 +1,59 @@
+{
+  "id": 4336825,
+  "name": "Chan v. Lund et al.",
+  "name_abbreviation": "Chan v. Lund",
+  "decision_date": "2011-06-20",
+  "docket_number": "No. 10-1256",
+  "first_page": "1019",
+  "last_page": "1019",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1019"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 82,
+    "ocr_confidence": 0.569,
+    "sha256": "e3ae4588722e179e09042db6302f14a3180ac544081a896acf28eb309f14a4fd",
+    "simhash": "1:c8c5b0058290420f",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Chan v. Lund et al."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 6th App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1256.\nChan v. Lund et al."
+  },
+  "file_name": "1019-09",
+  "first_page_order": 1013,
+  "last_page_order": 1013
+}

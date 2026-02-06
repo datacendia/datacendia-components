@@ -1,0 +1,59 @@
+{
+  "id": 6014524,
+  "name": "Ruddle v. United States",
+  "name_abbreviation": "Ruddle v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5105",
+  "first_page": "904",
+  "last_page": "904",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 904"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.587,
+    "sha256": "4173fd5054de99b1cf759dfab51545c7a9635bf0c6142ce8ad31f8c59a0606a8",
+    "simhash": "1:1523c6034e9dc15e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ruddle v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5105.\nRuddle v. United States."
+  },
+  "file_name": "0904-05",
+  "first_page_order": 926,
+  "last_page_order": 926
+}

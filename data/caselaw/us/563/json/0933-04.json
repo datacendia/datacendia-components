@@ -1,0 +1,61 @@
+{
+  "id": 5942264,
+  "name": "Saldana v. United States",
+  "name_abbreviation": "Saldana v. United States",
+  "decision_date": "2011-04-18",
+  "docket_number": "No. 10-9528",
+  "first_page": "933",
+  "last_page": "933",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 933"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 38,
+    "char_count": 271,
+    "ocr_confidence": 0.599,
+    "sha256": "a6194218b35de225e859a07e3c77a317fac83a6617916a810a80f7f513b02251",
+    "simhash": "1:7ebbfbc647449d96",
+    "word_count": 45
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this motion and this petition."
+    ],
+    "parties": [
+      "Saldana v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Motion of petitioner for leave to proceed in forma pauperis denied, and certiorari dismissed. See this Court\u2019s Rule 39.8.\nJustice Kagan took no part in the consideration or decision of this motion and this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9528.\nSaldana v. United States."
+  },
+  "file_name": "0933-04",
+  "first_page_order": 959,
+  "last_page_order": 959
+}

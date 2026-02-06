@@ -1,0 +1,182 @@
+{
+  "id": 12520159,
+  "name": "Kevin SHARPE, Petitioner v. DEPARTMENT OF JUSTICE, Respondent",
+  "name_abbreviation": "Sharpe v. Dep't of Justice",
+  "decision_date": "2019-03-01",
+  "docket_number": "2017-2356",
+  "first_page": "1376",
+  "last_page": "1381",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "916 F.3d 1376"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Fed. Cir.",
+    "id": 8955,
+    "name": "United States Court of Appeals for the Federal Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "812 F.3d 1364",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4086420
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1372"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/812/1364-01"
+      ]
+    },
+    {
+      "cite": "680 F.3d 1353",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3880797
+      ],
+      "weight": 2,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "1368-69"
+        },
+        {
+          "page": "1370",
+          "parenthetical": "finding \"harmful error\" and a \"substantial effect on the outcome of the case\" where the MSPB excluded relevant evidence on an issue for which the appellant bore the burden of proof"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/680/1353-01"
+      ]
+    },
+    {
+      "cite": "846 F.2d 1373",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1788277
+      ],
+      "weight": 2,
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "1379"
+        },
+        {
+          "page": "1378-79"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/846/1373-01"
+      ]
+    },
+    {
+      "cite": "240 F.3d 1009",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11140041
+      ],
+      "weight": 6,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "1013"
+        },
+        {
+          "page": "1014"
+        },
+        {
+          "page": "1014"
+        },
+        {
+          "page": "1013"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/240/1009-01"
+      ]
+    },
+    {
+      "cite": "38 U.S.C. \u00a7 4311",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1295",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(9)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 573,
+    "char_count": 12535,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25919638558078095
+    },
+    "sha256": "01a82c5fe8da677b1b22eda2863f75a08512c8674ac403df47856ddd76ecd47e",
+    "simhash": "1:ec0ada185e47e69c",
+    "word_count": 2001
+  },
+  "last_updated": "2024-02-27T16:21:04.146489+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Moore, Taranto, and Chen, Circuit Judges."
+    ],
+    "parties": [
+      "Kevin SHARPE, Petitioner\nv.\nDEPARTMENT OF JUSTICE, Respondent"
+    ],
+    "opinions": [
+      {
+        "text": "Moore, Circuit Judge.\nKevin Sharpe appeals a decision of the Merit Systems Protection Board (\"MSPB\") denying his request for corrective action under the Uniformed Services Employment and Reemployment Rights Act (\"USERRA\"). Because we hold that the MSPB abused its discretion in excluding evidence, we vacate the MSPB's decision and remand for further proceedings.\nBACKGROUND\nMr. Sharpe has been employed as an agent at the Drug Enforcement Agency (\"DEA\") since 1995. Until 2008, he also served as a reservist in the United States Navy. While at the DEA, Mr. Sharpe was deployed three times as a reservist: for three weeks in 1998, for six months in 2003, and again for six months in 2006.\nMr. Sharpe was transferred from the Los Angeles Field Division to the San Diego Field Division (\"SDFD\") in 2007. Aside from a temporary promotion to a GS-14 position in 2012, he has served in a GS-13 position since 2001. As of 2015, Mr. Sharpe has applied for fourteen GS-14 positions since 2012, but he has never been selected for promotion.\nSince 2009, Mr. Sharpe has been supervised by William Sherman, who served first as an Assistant Special Agent in Charge (\"ASAIC\") and later as Special Agent in Charge (\"SAIC\") of the SDFD. As SAIC, Sherman was and is responsible for recommending agents for promotion to GS-14 positions. For each GS-14 position, SAIC Sherman selects and ranks three agents from a Best Qualified List (\"BQL\") composed of agents with qualifying scores on the Special Agent Promotion Program (\"SAPP\") examination. Because he scored 91 out of 100 on his SAPP examination, Mr. Sharpe was on the BQL for every GS-14 position for which he applied, but he was only selected by SAIC Sherman three times and was never SAIC Sherman's first-ranked agent. Based on SAIC Sherman's recommendation, a Career Board selects an agent for promotion. The Career Board often selects SAIC Sherman's first-ranked agent, absent an agent requiring a lateral transfer from abroad or for hardship.\nIn 2015, Mr. Sharpe requested corrective action under USERRA, asserting his non-selection for the fourteen GS-14 positions was motivated by his military status as a reservist. He alleged that the Career Board had discriminated against him through its reliance on the recommendations of SAIC Sherman, whom Mr. Sharpe alleged was hostile towards reservists.\nAt that time, six other current and former reservists working as agents in the SDFD had also filed USERRA claims. Three of these claims named SAIC Sherman, including that filed by reservist Andrew Sorrells. Mr. Sorrells, like Mr. Sharpe, worked under SAIC Sherman. Sorrells , No. SF-4324-15-0584-I-2, at *44.\nBefore the MSPB, Mr. Sharpe sought to introduce as evidence of SAIC Sherman's hostility towards reservists an email sent to Mr. Sorrells by ASAIC Stephen Tomaski shortly after Mr. Sorrells' USERRA claim was filed. ASAIC Tomaski reported directly to SAIC Sherman and was two levels above Mr. Sorrells in the SDFD, though not in Mr. Sorrells' direct supervisory chain. In making recommendations regarding promotions to the Career Board, SAIC Sherman allowed ASAICs, including ASAIC Tomaski, to \"weigh in.\" J.A. 1449. The email had the subject line \"You are a coward...\" and stated, in full, \"I do not know how to phrase it any other way.. [sic] Do NOT ever contact me again.\" J.A. 1793. ASAIC Tomaski copied SAIC Sherman on the email.\nBefore Mr. Sharpe's hearing, the government objected to the Tomaski email based on relevance, and the MSPB excluded it, determining \"it is not relevant in [Mr. Sharpe's] case.\" At the hearing, Mr. Sharpe sought to question SAIC Sherman about any hostility he had towards Mr. Sharpe's reservist status or the reservist status of others in the SDFD. Only general questioning was permitted, for example, whether SAIC Sherman's decision not to recommend Mr. Sharpe for certain GS-14 positions \"ha[d] anything to do with his former military reservist status\" and whether SAIC Sherman \"consider[ed] [Mr. Sharpe's] military background\" in making recommendations. J.A. 239, 258. And he was permitted to ask SAIC Sherman his \"opinion of reservists.\" J.A. 2455. But when Mr. Sharpe sought to question SAIC Sherman-ASAIC Tomaski's direct supervisor and a recipient of the Tomaski email-about the email, the MSPB sustained the government's objection to the questioning, stating it \"[did not] see any relevance\" to the testimony.\nUltimately, the MSPB denied Mr. Sharpe's request for corrective action, and Mr. Sharpe appealed. We have jurisdiction under 28 U.S.C. \u00a7 1295(a)(9).\nDISCUSSION\n\"A person who is a member of ... a uniformed service shall not be denied ... promotion ... on the basis of that membership.\" 38 U.S.C. \u00a7 4311(a). An employer shall be considered to have violated \u00a7 4311(a)\"if the person's membership ... in the uniformed services is a motivating factor in the employer's action, unless the employer can prove that the action would have been taken in the absence of such membership.\" Id. \u00a7 4311(c). An employee making a USERRA claim \"bear[s] the initial burden of showing by a preponderance of the evidence that the employee's military service was 'a substantial or motivating factor' in the adverse employment action.\" Sheehan v. Dep't of the Navy , 240 F.3d 1009, 1013 (Fed. Cir. 2001). If this burden is met, \"the employer then has the opportunity to come forward with evidence to show, by a preponderance of the evidence, that the employer would have taken the adverse action anyway, for a valid reason.\" Id. \"Discriminatory motivation under the USERRA may be reasonably inferred from a variety of factors, including ... an employer's expressed hostility towards members protected by the statute together with knowledge of the employee's military activity.\" Id.\nThe MSPB found that Mr. Sharpe failed to show his reservist status was a substantial or motivating factor in his non-selection for the GS-14 positions. It \"consider[ed] whether there was any hostility by [SAIC] Sherman towards [Mr. Sharpe's] or others' military or USERRA activity,\" but found Mr. Sharpe had not shown any such hostility. On appeal, Mr. Sharpe argues that the MSPB's findings were tainted by its exclusion of the Tomaski email and SAIC Sherman's testimony. We agree with Mr. Sharpe that SAIC Sherman's response to the Tomaski email was relevant, and that SAIC Sherman should have been allowed to discuss the Tomaski email in order to lay foundation for that relevant testimony.\nWe review the MSPB's evidentiary rulings for abuse of discretion. Curtin v. Office of Pers. Mgmt. , 846 F.2d 1373, 1379 (Fed. Cir. 1988). It can be an abuse of discretion to exclude relevant evidence on an issue for which a party bears the burden of proof. Whitmore v. Dep't of Labor , 680 F.3d 1353, 1368-69 (Fed. Cir. 2012). Here, the MSPB abused its discretion by excluding the Tomaski email and preventing Mr. Sharpe from questioning SAIC Sherman about it because this evidence is relevant to Mr. Sharpe's burden under Sheehan .\nMr. Sharpe alleges that his non-selection for promotion to a GS-14 position resulted from SAIC Sherman's hostility towards reservists. He argues that because SAIC Sherman was hostile towards reservists, he never recommended Mr. Sharpe as his first-ranked agent; and because Mr. Sharpe was never first ranked, he was never selected by the Career Board for promotion. The Tomaski email and SAIC Sherman's testimony are relevant to this allegation.\nASAIC Tomaski sent the Tomaski email to Mr. Sorrells, copying SAIC Sherman, within days of Mr. Sorrells' USERRA complaint. It had the subject line \"You are a coward...\" and stated, in full, \"I do not know how to phrase it any other way.. Do NOT ever contact me again.\" J.A. 1793. Mr. Sorrells, like Mr. Sharpe, was a reservist working in the SDFD under SAIC Sherman. ASAIC Tomaski reported directly to SAIC Sherman.\nHad the Tomaski email been admitted, and had Mr. Sharpe been permitted to question SAIC Sherman about it, Mr. Sharpe could have explored whether SAIC Sherman is hostile towards reservists. He could have asked SAIC Sherman, for example, whether he understood the email to refer to Mr. Sorrells' USERRA claim, what his reaction was to the sentiments expressed by ASAIC Tomaski, what action (if any) he took in response, or whether ASAIC Tomaski had ever copied SAIC Sherman on similar emails. Through the Tomaski email and SAIC Sherman's testimony, Mr. Sharpe could have explored whether SAIC Sherman is hostile towards reservists. By excluding this evidence, the MSPB cut off that exploration.\nWe recognize, as the MSPB observed, that the Tomaski email \"didn't even reference Mr. Sharpe.\" J.A. 131. But it does reference Mr. Sorrells, an agent who, like Mr. Sharpe, worked in the SDFD under SAIC Sherman; like Mr. Sharpe, was a reservist; and, like Mr. Sharpe, filed a USERRA claim naming SAIC Sherman. Sorrells , SF-4324-15-0584-I-2, at *2-3, 44. The MSPB \"consider[ed] whether there was hostility by Sherman towards ... others' military or USERRA activity .\" J.A. 32 (emphasis added). Evidence of the Tomaski email and of Mr. Sherman's response to it is relevant to SAIC Sherman's potential hostility towards others' military or USERRA activity.\n\"[D]iscrimination is seldom open or notorious,\" Sheehan , 240 F.3d at 1014, and \"employers rarely concede an improper motivation for their employment actions,\" McMillan v. Dep't of Justice , 812 F.3d 1364, 1372 (Fed. Cir. 2016). Rather, discrimination tends to be \"inferred\" from evidence of \"hostility\" or \"disparate treatment of certain employees compared to other employees with similar work records or offenses.\" Sheehan , 240 F.3d at 1014. Because Mr. Sharpe sought to introduce the Tomaski email and question SAIC Sherman about it to support an inference that his non-selections resulted from SAIC Sherman's hostility towards reservists, the MSPB abused its discretion in excluding it as irrelevant.\nWhile we will not disturb the MSPB's evidentiary ruling unless its abuse of discretion \"is clear and is harmful,\" meaning it \"could have affected the outcome of the case,\" Curtin , 846 F.2d at 1378-79, we determine the MSPB's exclusion of the Tomaski email and SAIC Sherman's testimony was. Sheehan requires Mr. Sharpe \"bear the initial burden of showing by a preponderance of the evidence that [his] military service was 'a substantial or motivating factor' in the adverse employment action.\" 240 F.3d at 1013. It is clear Mr. Sharpe proffered the Tomaski email and sought SAIC Sherman's testimony in an effort to meet this burden, and by excluding the Tomaski email and SAIC Sherman's testimony the MSPB harmed Mr. Sharpe's attempt to do so. Because the Tomaski email and SAIC Sherman's testimony thus \"could have affected the outcome of the case,\" they should have been admitted. Whitmore , 680 F.3d at 1370 (finding \"harmful error\" and a \"substantial effect on the outcome of the case\" where the MSPB excluded relevant evidence on an issue for which the appellant bore the burden of proof).\nCONCLUSION\nBecause we hold that the MSPB abused its discretion by excluding the Tomaski email and SAIC Sherman's testimony, we vacate the MSPB's decision and remand for further proceedings. In light of the remand, we need not reach Mr. Sharpe's other evidentiary arguments on this appeal; the MSPB should consider all the evidence in reevaluating the USERRA claim once it conducts appropriate proceedings in light of our ruling today.\nVACATED AND REMANDED\nCOSTS\nCosts to Mr. Sharpe.\nThe MSPB took judicial notice of the initial decisions in these USERRA claims. J.A. 27. SAIC Sherman was named in Kitlinski v. Dep't of Justice , No. SF-4324-14-0687-I-2 (M.S.P.B. Nov. 13, 2015) (Initial Decision); Maki v. Dep't of Justice , No. SF-4324-15-0591-I-1 (M.S.P.B. Oct. 13, 2015) (Initial Decision); Sorrells v. Dep't of Justice , No. SF-4324-15-0584-I-2 (M.S.P.B. Sept. 28, 2016) (Initial Decision).\nIn Mr. Sorrells' case, SAIC Sherman testified that he believed the Tomaski email was related to Mr. Sorrells' USERRA claim. Sorrells , SF-4324-15-0584-I-2, at *45.",
+        "type": "majority",
+        "author": "Moore, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Kevin Edward Byrnes, FH+H, PLLC, Tysons, VA, argued for petitioner.",
+      "Jana Moses, Commercial Litigation Branch, Civil Division, United States Department of Justice, Washington, DC, argued for respondent. Also represented by Robert Edward Kirschman, Jr., Patricia M. McCarthy, Joseph H. Hunt."
+    ],
+    "corrections": "",
+    "head_matter": "Kevin SHARPE, Petitioner\nv.\nDEPARTMENT OF JUSTICE, Respondent\n2017-2356\nUnited States Court of Appeals, Federal Circuit.\nDecided: March 1, 2019\nKevin Edward Byrnes, FH+H, PLLC, Tysons, VA, argued for petitioner.\nJana Moses, Commercial Litigation Branch, Civil Division, United States Department of Justice, Washington, DC, argued for respondent. Also represented by Robert Edward Kirschman, Jr., Patricia M. McCarthy, Joseph H. Hunt.\nBefore Moore, Taranto, and Chen, Circuit Judges."
+  },
+  "file_name": "1376-01",
+  "first_page_order": 1376,
+  "last_page_order": 1381
+}

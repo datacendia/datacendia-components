@@ -1,0 +1,59 @@
+{
+  "id": 5975381,
+  "name": "Harvey v. United States",
+  "name_abbreviation": "Harvey v. United States",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7796",
+  "first_page": "1161",
+  "last_page": "1161",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1161"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.574,
+    "sha256": "b299dc58f569d1e65703540c641b6c2e9bc0dd852764b8c9227b416341f11b79",
+    "simhash": "1:d7bbe6ab2c8d510e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Harvey v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7796.\nHarvey v. United States."
+  },
+  "file_name": "1161-13",
+  "first_page_order": 1183,
+  "last_page_order": 1183
+}

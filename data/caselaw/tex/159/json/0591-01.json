@@ -1,0 +1,109 @@
+{
+  "id": 2257117,
+  "name": "Sam B. Gillett, Jr., v. John F. Achterberg, an. Individual D/B/A The Jno. F. Achterberg Company",
+  "name_abbreviation": "Gillett v. Achterberg",
+  "decision_date": "1959-06-17",
+  "docket_number": "No. A-7323",
+  "first_page": "591",
+  "last_page": "592",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "159 Tex. 591"
+    },
+    {
+      "type": "parallel",
+      "cite": "325 S.W.2d 384"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "275 S.W. 2d 77",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2249257,
+        10181629
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/154/0174-01",
+        "/sw2d/275/0077-01"
+      ]
+    },
+    {
+      "cite": "154 Texas 174",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2249257
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/154/0174-01"
+      ]
+    },
+    {
+      "cite": "322 S.W. 2d 306",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10163268
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/322/0306-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 163,
+    "char_count": 1866,
+    "ocr_confidence": 0.6,
+    "pagerank": {
+      "raw": 1.3523782327733177e-07,
+      "percentile": 0.6338133999318107
+    },
+    "sha256": "c3928178f4fe1af8776dc0dd6aec7bf2743d42fa6cd24e1790c22bb22ddfd8f4",
+    "simhash": "1:4079f6a32a868398",
+    "word_count": 327
+  },
+  "last_updated": "2024-02-27T19:26:07.846026+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sam B. Gillett, Jr., v. John F. Achterberg, an. Individual D/B/A The Jno. F. Achterberg Company."
+    ],
+    "opinions": [
+      {
+        "text": "Per Curiam.\nThe trial court granted petitioner\u2019s motion for summary judgment, but the Court of Civil Appeals reversed and remanded the cause for a trial on the merits. 322 S.W. 2d 306. As we read the opinion of the Court of Civil Appeals, it held: (1) that whether or not petitioner acted in good faith in disposing of the business is a material question of fact which was placed in issue by the pleadings and affidavits, and (2) that a question of fact was also raised as to the sense in which the expression \u201cnon-cancellable\u201d was used by the parties in the contract. The decision thus rests upon two separate and independent grounds, either of which, if correctly decided or immune to review, will support the judgment of reversal and remand. The application for writ of error does not question the first of these holdings. No contention is made that good faith is not a material issue, or that such issue was not raised by the pleadings and affidavits in this case. We are not entirely satisfied that an issue of good faith is shown by the pleadings and affidavits or that there is any ambiguity in the contract which might affect the rights of the parties in this suit. Since the first question is not raised in the application for writ of error, however, we would be required to affirm the judgment of the Court of Civil Appeals even if the application were granted and every point of error therein sustained. City of Deer Park v. State, 154 Texas 174, 275 S.W. 2d 77. The application for writ of error is accordingly Refused. No Reversible Error.\nOpinion delivered June 17, 1959.",
+        "type": "majority",
+        "author": "Per Curiam."
+      }
+    ],
+    "attorneys": [
+      "Andress, Lipscomb, Peticolas & Fisk, of El Paso, for petitioner.",
+      "Edwards, Belk, Hunter & Kerr, of El Paso, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "Sam B. Gillett, Jr., v. John F. Achterberg, an. Individual D/B/A The Jno. F. Achterberg Company.\nNo. A-7323.\nDecided June 17, 1959.\n(325 S.W. 2d Series 384)\nAndress, Lipscomb, Peticolas & Fisk, of El Paso, for petitioner.\nEdwards, Belk, Hunter & Kerr, of El Paso, for respondent."
+  },
+  "file_name": "0591-01",
+  "first_page_order": 605,
+  "last_page_order": 606
+}

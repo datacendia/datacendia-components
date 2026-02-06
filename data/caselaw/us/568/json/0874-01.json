@@ -1,0 +1,59 @@
+{
+  "id": 12414647,
+  "name": "Davila v. United States",
+  "name_abbreviation": "Davila v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-11007",
+  "first_page": "874",
+  "last_page": "874",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 874"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.696,
+    "sha256": "55e8b4c6eb89b8b41ded318b22907971c02238059584ff7a063dfd6da80f42e8",
+    "simhash": "1:166b8e03838d905a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Davila v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-11007.\nDavila v. United States."
+  },
+  "file_name": "0874-01",
+  "first_page_order": 950,
+  "last_page_order": 950
+}

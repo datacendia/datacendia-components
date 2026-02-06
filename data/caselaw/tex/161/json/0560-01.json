@@ -1,0 +1,97 @@
+{
+  "id": 2260327,
+  "name": "Roland H. Guay v. Schneider, Bernet & Hickman, Inc.",
+  "name_abbreviation": "Guay v. Schneider, Bernet & Hickman, Inc.",
+  "decision_date": "1961-02-22",
+  "docket_number": "No. A-8198",
+  "first_page": "560",
+  "last_page": "561",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "161 Tex. 560"
+    },
+    {
+      "type": "parallel",
+      "cite": "344 S.W.2d 429"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "316 S.W. 2d 75",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2257088,
+        10156123
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/159/0079-01",
+        "/sw2d/316/0075-01"
+      ]
+    },
+    {
+      "cite": "341 S.W. 2d 461",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10157591
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/341/0461-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 104,
+    "char_count": 1101,
+    "ocr_confidence": 0.598,
+    "pagerank": {
+      "raw": 2.5885024408016966e-07,
+      "percentile": 0.8178675667963653
+    },
+    "sha256": "842235330f3ed06ee07cd0e97fa94210d34f7f939e6b4762f78bf8068253affe",
+    "simhash": "1:5f49b2e4ecbd280d",
+    "word_count": 186
+  },
+  "last_updated": "2024-02-27T18:05:23.850581+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Roland H. Guay v. Schneider, Bernet & Hickman, Inc."
+    ],
+    "opinions": [
+      {
+        "text": "PER CURIAM\nWhile the opinion of the Court of Civil Appeals, (341 S.W. 2d 461) on the construction of Article 2226, Vernon\u2019s Ann. Civ. Stats., relating to the allowance of attorney\u2019s fees, is strictly in accordance with our holding in Meaders v. Biskamp, 159 Texas 79\u201e 316 S.W. 2d 75, and although we approve of the other holdings made by the Court of Civil Appeals in its opinion, we may not refuse the application for writ of error because the matter of the construction of Article 2226 was not raised in this court by application for writ of error. The respondent, while unsuccessful upon the attorney\u2019s fees point in the Court of Civil Appeals, filed no application for writ of error in this court. As a consequence, our authority to decide the issue has not been invoked. Accordingly the application for writ of error is refused, no reversible error.\nOpinion delivered February 22,1961.",
+        "type": "majority",
+        "author": "PER CURIAM"
+      }
+    ],
+    "attorneys": [
+      "Dunnam, & Dunnam, of Waco, for petitioner.",
+      "Richey, Sheehy & Teeling, of Waco, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "Roland H. Guay v. Schneider, Bernet & Hickman, Inc.\nNo. A-8198.\nDecided February 22, 1961.\n(344 S.W. 2d Series 429)\nDunnam, & Dunnam, of Waco, for petitioner.\nRichey, Sheehy & Teeling, of Waco, for respondent."
+  },
+  "file_name": "0560-01",
+  "first_page_order": 574,
+  "last_page_order": 575
+}

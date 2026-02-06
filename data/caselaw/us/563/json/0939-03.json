@@ -1,0 +1,59 @@
+{
+  "id": 5930385,
+  "name": "Benitez v. Maryland",
+  "name_abbreviation": "Benitez v. Maryland",
+  "decision_date": "2011-04-18",
+  "docket_number": "No. 10-8045",
+  "first_page": "939",
+  "last_page": "939",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 939"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 70,
+    "ocr_confidence": 0.617,
+    "sha256": "3b60b69c2c24af34a18efe17fdb02ffb399b9c4ae4dd8f906ca402a64e3f30e4",
+    "simhash": "1:44924009501074f5",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Benitez v. Maryland."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Sp. App. Md. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8045.\nBenitez v. Maryland."
+  },
+  "file_name": "0939-03",
+  "first_page_order": 965,
+  "last_page_order": 965
+}

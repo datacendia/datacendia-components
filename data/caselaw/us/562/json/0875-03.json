@@ -1,0 +1,59 @@
+{
+  "id": 6026915,
+  "name": "Martinez v. Scribner, Warden",
+  "name_abbreviation": "Martinez v. Scribner",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11343",
+  "first_page": "875",
+  "last_page": "875",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 875"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 78,
+    "ocr_confidence": 0.573,
+    "sha256": "026b03b79a0f8b8167efada1f96a6b1aea5c58245d9ec75482dc341ceec5fc99",
+    "simhash": "1:151102b8f9fba077",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Martinez v. Scribner, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11343.\nMartinez v. Scribner, Warden."
+  },
+  "file_name": "0875-03",
+  "first_page_order": 897,
+  "last_page_order": 897
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5960569,
+  "name": "Abidaoud v. Holder, Attorney General",
+  "name_abbreviation": "Abidaoud v. Holder",
+  "decision_date": "2011-05-23",
+  "docket_number": "No. 10-9802",
+  "first_page": "1012",
+  "last_page": "1012",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1012"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 85,
+    "ocr_confidence": 0.598,
+    "sha256": "430cf632dbbd559ff6fbec2de462302fdcc283729efbd1c512acb0787472374e",
+    "simhash": "1:450b54f8cd653424",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Abidaoud v. Holder, Attorney General."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9802.\nAbidaoud v. Holder, Attorney General."
+  },
+  "file_name": "1012-06",
+  "first_page_order": 1038,
+  "last_page_order": 1038
+}

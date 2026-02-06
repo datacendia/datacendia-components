@@ -1,0 +1,59 @@
+{
+  "id": 5908913,
+  "name": "Hartz v. Farrugia et al.",
+  "name_abbreviation": "Hartz v. Farrugia",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-1390",
+  "first_page": "832",
+  "last_page": "832",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 832"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 72,
+    "ocr_confidence": 0.576,
+    "sha256": "169d1bd7c4bc11e138ff2fa91cfcbdb88a9d81cdcf7d155df70f88ee978c049a",
+    "simhash": "1:92f81982dd089662",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hartz v. Farrugia et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-1390.\nHartz v. Farrugia et al."
+  },
+  "file_name": "0832-01",
+  "first_page_order": 854,
+  "last_page_order": 854
+}

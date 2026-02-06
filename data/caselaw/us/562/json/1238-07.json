@@ -1,0 +1,59 @@
+{
+  "id": 5985425,
+  "name": "Jackson v. United States",
+  "name_abbreviation": "Jackson v. United States",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8192",
+  "first_page": "1238",
+  "last_page": "1238",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1238"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.678,
+    "sha256": "d04c2c8b3e25230be6183ea802145ea70058d7154155c58a2515ac707add4b0a",
+    "simhash": "1:8c0acea36aa5bc1c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jackson v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8192.\nJackson v. United States."
+  },
+  "file_name": "1238-07",
+  "first_page_order": 1260,
+  "last_page_order": 1260
+}

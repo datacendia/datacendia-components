@@ -1,0 +1,100 @@
+{
+  "id": 12234657,
+  "name": "Federal Communications Commission et al. v. Fox Television Stations, Inc., et al.; and Federal Communications Commission et al. v. ABC, Inc., et al.",
+  "name_abbreviation": "Federal Communications Commission v. Fox Television Stations, Inc.",
+  "decision_date": "2011-11-22",
+  "docket_number": "No. 10-1293",
+  "first_page": "1050",
+  "last_page": "1050",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1050"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "564 U. S. 1036",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5924648,
+        5927720,
+        5919946,
+        12450924,
+        5924238,
+        12450929,
+        12450930,
+        12450931,
+        12450932,
+        12450933,
+        4336086,
+        5925751,
+        12450934,
+        5930009
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/564/1036-07",
+        "/us/564/1036-04",
+        "/us/564/1036-02",
+        "/l-ed-2d/180/0884-01",
+        "/us/564/1036-03",
+        "/l-ed-2d/180/0884-06",
+        "/l-ed-2d/180/0885-01",
+        "/l-ed-2d/180/0885-02",
+        "/l-ed-2d/180/0885-03",
+        "/l-ed-2d/180/0885-04",
+        "/us/564/1036-01",
+        "/us/564/1036-06",
+        "/l-ed-2d/180/0885-05",
+        "/us/564/1036-05"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 40,
+    "char_count": 346,
+    "ocr_confidence": 0.682,
+    "sha256": "9f779bcfed30d101294be45fbba9cbc2c8cd8a2f960739bfc85ad1babad27cf2",
+    "simhash": "1:ab1032dabb467fcc",
+    "word_count": 55
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Sotomayor took no part in the consideration or decision of this motion."
+    ],
+    "parties": [
+      "Federal Communications Commission et al. v. Fox Television Stations, Inc., et al.; and Federal Communications Commission et al. v. ABC, Inc., et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. [Certiorari granted, 564 U. S. 1036.] Motion of respondents for divided argument granted.\nJustice Sotomayor took no part in the consideration or decision of this motion.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1293.\nFederal Communications Commission et al. v. Fox Television Stations, Inc., et al.; and Federal Communications Commission et al. v. ABC, Inc., et al."
+  },
+  "file_name": "1050-03",
+  "first_page_order": 1132,
+  "last_page_order": 1132
+}

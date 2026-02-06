@@ -1,0 +1,59 @@
+{
+  "id": 5917472,
+  "name": "Davis v. Bondi, Attorney General of Florida, et al.",
+  "name_abbreviation": "Davis v. Bondi",
+  "decision_date": "2011-05-16",
+  "docket_number": "No. 10-9692",
+  "first_page": "997",
+  "last_page": "997",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 997"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 100,
+    "ocr_confidence": 0.603,
+    "sha256": "3bf0d5c5cf6a349c3dbc15a73b63b4281af8995735d2aa56b459125aa5008e02",
+    "simhash": "1:9368283a912f9416",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Davis v. Bondi, Attorney General of Florida, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9692.\nDavis v. Bondi, Attorney General of Florida, et al."
+  },
+  "file_name": "0997-01",
+  "first_page_order": 1023,
+  "last_page_order": 1023
+}

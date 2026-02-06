@@ -1,0 +1,59 @@
+{
+  "id": 6006060,
+  "name": "Almonte-Palmers v. United States",
+  "name_abbreviation": "Almonte-Palmers v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11147",
+  "first_page": "864",
+  "last_page": "864",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 864"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 82,
+    "ocr_confidence": 0.626,
+    "sha256": "1cfd304c7eddfdac7ee04b3d547bed9a33660b77d457692a6d18bdffab625253",
+    "simhash": "1:450ad6c0c4111818",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Almonte-Palmers v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11147.\nAlmonte-Palmers v. United States."
+  },
+  "file_name": "0864-03",
+  "first_page_order": 886,
+  "last_page_order": 886
+}

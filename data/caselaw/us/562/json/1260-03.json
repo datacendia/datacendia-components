@@ -1,0 +1,59 @@
+{
+  "id": 5936066,
+  "name": "Moore v. Anglin, Warden",
+  "name_abbreviation": "Moore v. Anglin",
+  "decision_date": "2011-02-28",
+  "docket_number": "No. 10-8386",
+  "first_page": "1260",
+  "last_page": "1260",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1260"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.598,
+    "sha256": "b16ca7fd4244797b28a313aa1a90672b4e44c2fe911fe21ea6ae87ca0f548d0f",
+    "simhash": "1:024764a96efd12a6",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Moore v. Anglin, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8386.\nMoore v. Anglin, Warden."
+  },
+  "file_name": "1260-03",
+  "first_page_order": 1282,
+  "last_page_order": 1282
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12212671,
+  "name": "Cooper v. United States",
+  "name_abbreviation": "Cooper v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-11253",
+  "first_page": "875",
+  "last_page": "875",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 875"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.741,
+    "sha256": "de901b298e24f9d28a81d2101770db37e7fe542fc777ec54c5fa30091ed993f2",
+    "simhash": "1:963ad7028e2ab46e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cooper v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-11253.\nCooper v. United States."
+  },
+  "file_name": "0875-07",
+  "first_page_order": 957,
+  "last_page_order": 957
+}

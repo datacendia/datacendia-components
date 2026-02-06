@@ -1,0 +1,59 @@
+{
+  "id": 5955728,
+  "name": "Fletcher v. Gaetz, Warden",
+  "name_abbreviation": "Fletcher v. Gaetz",
+  "decision_date": "2011-04-04",
+  "docket_number": "No. 10-9004",
+  "first_page": "923",
+  "last_page": "923",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 923"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 73,
+    "ocr_confidence": 0.641,
+    "sha256": "78c1c3c5a59b8d24f629acd7e4be71938f2195fb3f38bc6b21ececd4e9406cf0",
+    "simhash": "1:2002499884981741",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Fletcher v. Gaetz, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ill. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9004.\nFletcher v. Gaetz, Warden."
+  },
+  "file_name": "0923-02",
+  "first_page_order": 949,
+  "last_page_order": 949
+}

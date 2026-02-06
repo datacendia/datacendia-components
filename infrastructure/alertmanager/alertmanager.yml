@@ -1,0 +1,91 @@
+# Alertmanager Configuration for Datacendia
+
+global:
+  resolve_timeout: 5m
+
+# Route configuration
+route:
+  group_by: ['alertname', 'severity']
+  group_wait: 30s
+  group_interval: 5m
+  repeat_interval: 4h
+  receiver: 'default'
+  routes:
+    # Critical alerts go to PagerDuty/immediate notification
+    - match:
+        severity: critical
+      receiver: 'critical'
+      group_wait: 10s
+      repeat_interval: 1h
+
+    # Warning alerts go to Slack
+    - match:
+        severity: warning
+      receiver: 'warning'
+      group_wait: 1m
+      repeat_interval: 4h
+
+    # Info alerts just get logged
+    - match:
+        severity: info
+      receiver: 'info'
+      group_wait: 5m
+      repeat_interval: 24h
+
+# Receivers
+receivers:
+  - name: 'default'
+    webhook_configs:
+      - url: 'http://localhost:9999/webhook'
+        send_resolved: true
+
+  - name: 'critical'
+    # Uncomment and configure for production:
+    # pagerduty_configs:
+    #   - service_key: '<YOUR_PAGERDUTY_KEY>'
+    #     severity: critical
+    # slack_configs:
+    #   - api_url: '<YOUR_SLACK_WEBHOOK>'
+    #     channel: '#datacendia-alerts-critical'
+    #     send_resolved: true
+    #     title: '🚨 CRITICAL: {{ .GroupLabels.alertname }}'
+    #     text: '{{ range .Alerts }}{{ .Annotations.description }}{{ end }}'
+    webhook_configs:
+      - url: 'http://localhost:9999/webhook/critical'
+        send_resolved: true
+
+  - name: 'warning'
+    # slack_configs:
+    #   - api_url: '<YOUR_SLACK_WEBHOOK>'
+    #     channel: '#datacendia-alerts'
+    #     send_resolved: true
+    #     title: '⚠️ Warning: {{ .GroupLabels.alertname }}'
+    #     text: '{{ range .Alerts }}{{ .Annotations.description }}{{ end }}'
+    webhook_configs:
+      - url: 'http://localhost:9999/webhook/warning'
+        send_resolved: true
+
+  - name: 'info'
+    webhook_configs:
+      - url: 'http://localhost:9999/webhook/info'
+        send_resolved: true
+
+# Inhibition rules
+inhibit_rules:
+  # If API is down, suppress database alerts (they're likely cascading)
+  - source_match:
+      alertname: 'APIDown'
+    target_match:
+      severity: 'warning'
+    equal: ['instance']
+
+  # If database is down, suppress related alerts
+  - source_match:
+      alertname: 'DatabaseDisconnected'
+    target_match_re:
+      alertname: '(HighErrorRate|HighLatency)'
+    equal: ['instance']
+
+# Templates
+templates:
+  - '/etc/alertmanager/templates/*.tmpl'

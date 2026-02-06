@@ -1,0 +1,59 @@
+{
+  "id": 5988905,
+  "name": "Medley v. United States",
+  "name_abbreviation": "Medley v. United States",
+  "decision_date": "2010-11-29",
+  "docket_number": "No. 10-7199",
+  "first_page": "1075",
+  "last_page": "1075",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1075"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.694,
+    "sha256": "a1f932dc80c12770dfed55569eaceeecc0227fc1ba95d2b2b68c57f8336e1ee2",
+    "simhash": "1:a58abb9a9cd51600",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Medley v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7199.\nMedley v. United States."
+  },
+  "file_name": "1075-10",
+  "first_page_order": 1097,
+  "last_page_order": 1097
+}

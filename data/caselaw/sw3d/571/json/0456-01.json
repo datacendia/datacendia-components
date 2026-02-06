@@ -1,0 +1,976 @@
+{
+  "id": 12659388,
+  "name": "Mauricio Alejandro TORRES, Appellant v. STATE of Arkansas, Appellee",
+  "name_abbreviation": "Torres v. State",
+  "decision_date": "2019-04-18",
+  "docket_number": "No. CR-17-89",
+  "first_page": "456",
+  "last_page": "469",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 S.W.3d 456"
+    },
+    {
+      "type": "parallel",
+      "cite": "2019 Ark. 101"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Ark.",
+    "id": 8808,
+    "name": "Arkansas Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 34,
+    "name_long": "Arkansas",
+    "name": "Ark."
+  },
+  "cites_to": [
+    {
+      "cite": "330 Ark. 645",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        298539
+      ],
+      "weight": 2,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "649"
+        },
+        {
+          "page": "176"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/330/0645-01"
+      ]
+    },
+    {
+      "cite": "824 S.W.2d 345",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        1904305,
+        1904369
+      ],
+      "year": 1992,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/308/0453-01",
+        "/ark/308/0084-01"
+      ]
+    },
+    {
+      "cite": "308 Ark. 453",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1904305
+      ],
+      "year": 1992,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/308/0453-01"
+      ]
+    },
+    {
+      "cite": "308 Ark. 84",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1904369
+      ],
+      "year": 1992,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/308/0084-01"
+      ]
+    },
+    {
+      "cite": "2017 Ark. 300",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        12386782
+      ],
+      "weight": 2,
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "7"
+        },
+        {
+          "page": "632"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/529/0628-01"
+      ]
+    },
+    {
+      "cite": "381 S.W.3d 781",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7130442
+      ],
+      "year": 2007,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/381/0781-01"
+      ]
+    },
+    {
+      "cite": "2011 Ark. 194",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "year": 2007,
+      "opinion_index": 0
+    },
+    {
+      "cite": "2017 Ark. 154",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        12379920
+      ],
+      "weight": 2,
+      "year": 2007,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/518/0064-01"
+      ]
+    },
+    {
+      "cite": "397 U.S. 112",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12050514
+      ],
+      "weight": 3,
+      "year": 1970,
+      "pin_cites": [
+        {
+          "page": "114"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/397/0112-01"
+      ]
+    },
+    {
+      "cite": "Ark. Code Ann. \u00a7 5-4-604",
+      "category": "laws:leg_statute",
+      "reporter": "Ark. Code Ann.",
+      "pin_cites": [
+        {
+          "page": "(3)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "65 Am. Dec. 452",
+      "category": "reporters:federal",
+      "reporter": "Am. Dec.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "502-03"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "17 Ark. 561",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        8726764
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/17/0561-01"
+      ]
+    },
+    {
+      "cite": "202 Ark. 500",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1450003
+      ],
+      "weight": 5,
+      "year": 1941,
+      "pin_cites": [
+        {
+          "page": "503"
+        },
+        {
+          "page": "660"
+        },
+        {
+          "page": "660"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/202/0500-01"
+      ]
+    },
+    {
+      "cite": "307 Ark. 53",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1902405
+      ],
+      "weight": 4,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "59-60"
+        },
+        {
+          "page": "246"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/307/0053-01"
+      ]
+    },
+    {
+      "cite": "338 Ark. 772",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        243394
+      ],
+      "weight": 2,
+      "year": 1999,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/338/0772-01"
+      ]
+    },
+    {
+      "cite": "2009 Ark. 594",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        7318443
+      ],
+      "weight": 2,
+      "year": 1999,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/357/0891-01"
+      ]
+    },
+    {
+      "cite": "364 Ark. 203",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        3032996
+      ],
+      "weight": 3,
+      "year": 2005,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/364/0203-01"
+      ]
+    },
+    {
+      "cite": "371 Ark. 200",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        3489490
+      ],
+      "weight": 4,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "209"
+        },
+        {
+          "page": "481"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/371/0200-01"
+      ]
+    },
+    {
+      "cite": "337 Ark. 161",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1241019
+      ],
+      "weight": 2,
+      "year": 1999,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/337/0161-01"
+      ]
+    },
+    {
+      "cite": "2011 Ark. 112",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        7119456
+      ],
+      "weight": 2,
+      "year": 1999,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/380/0395-01"
+      ]
+    },
+    {
+      "cite": "368 Ark. 273",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        3799526
+      ],
+      "weight": 2,
+      "year": 2006,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/368/0273-01"
+      ]
+    },
+    {
+      "cite": "Ark. Code Ann. \u00a7 5-14-103",
+      "category": "laws:leg_statute",
+      "reporter": "Ark. Code Ann.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "347 Ark. 728",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        683234
+      ],
+      "weight": 2,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "744"
+        },
+        {
+          "page": "557"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/347/0728-01"
+      ]
+    },
+    {
+      "cite": "346 Ark. 225",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1111351
+      ],
+      "weight": 2,
+      "year": 2001,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/346/0225-01"
+      ]
+    },
+    {
+      "cite": "391 U.S. 145",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1767723
+      ],
+      "weight": 3,
+      "year": 1968,
+      "pin_cites": [
+        {
+          "page": "157"
+        },
+        {
+          "page": "1451"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/391/0145-01"
+      ]
+    },
+    {
+      "cite": "443 U.S. 307",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6182418
+      ],
+      "weight": 3,
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "319"
+        },
+        {
+          "page": "2789"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/443/0307-01"
+      ]
+    },
+    {
+      "cite": "396 U.S. 398",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11334917
+      ],
+      "weight": 3,
+      "year": 1970,
+      "pin_cites": [
+        {
+          "page": "420"
+        },
+        {
+          "page": "654"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/396/0398-01"
+      ]
+    },
+    {
+      "cite": "502 U.S. 46",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6217781
+      ],
+      "weight": 5,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "58-59"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/502/0046-01"
+      ]
+    },
+    {
+      "cite": "325 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6155685
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "935, n. 45"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/325/0001-01"
+      ]
+    },
+    {
+      "cite": "317 U.S. 287",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        303872
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "291-292"
+        },
+        {
+          "page": "209-210"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/317/0287-01"
+      ]
+    },
+    {
+      "cite": "437 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6176664
+      ],
+      "weight": 3,
+      "year": 1978,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/437/0001-01"
+      ]
+    },
+    {
+      "cite": "354 U.S. 298",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6159871
+      ],
+      "weight": 3,
+      "year": 1957,
+      "pin_cites": [
+        {
+          "page": "312"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/354/0298-01"
+      ]
+    },
+    {
+      "cite": "283 U.S. 359",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        434002
+      ],
+      "weight": 6,
+      "year": 1931,
+      "pin_cites": [
+        {
+          "page": "367-68"
+        },
+        {
+          "page": "367-368"
+        },
+        {
+          "page": "535"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/283/0359-01"
+      ]
+    },
+    {
+      "cite": "316 Ark. 601",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1907756
+      ],
+      "weight": 2,
+      "year": 1994,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/316/0601-01"
+      ]
+    },
+    {
+      "cite": "366 Ark. 217",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        3656503
+      ],
+      "weight": 3,
+      "year": 2006,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/366/0217-01"
+      ]
+    },
+    {
+      "cite": "365 Ark. 580",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        3286804
+      ],
+      "weight": 2,
+      "year": 2006,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/365/0580-01"
+      ]
+    },
+    {
+      "cite": "360 Ark. 424",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        5460811
+      ],
+      "weight": 2,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "435"
+        },
+        {
+          "page": "70"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/360/0424-01"
+      ]
+    },
+    {
+      "cite": "315 Ark. 580",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1910539
+      ],
+      "weight": 2,
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "581"
+        },
+        {
+          "page": "497"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/315/0580-01"
+      ]
+    },
+    {
+      "cite": "351 Ark. 603",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1158914
+      ],
+      "weight": 6,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "616"
+        },
+        {
+          "page": "731"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/351/0603-01"
+      ]
+    },
+    {
+      "cite": "Ark. Code Ann. \u00a7 5-1-104",
+      "category": "laws:leg_statute",
+      "reporter": "Ark. Code Ann.",
+      "weight": 5,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "(a)(1)"
+        },
+        {
+          "page": "(a)(6)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "Ark. Code Ann. \u00a7 5-10-101",
+      "category": "laws:leg_statute",
+      "reporter": "Ark. Code Ann.",
+      "weight": 2,
+      "year": 2017,
+      "opinion_index": 0
+    },
+    {
+      "cite": "808 N.E.2d 1169",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "1173"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "283 Ill.Dec. 881",
+      "category": "reporters:state",
+      "reporter": "Ill. Dec.",
+      "year": 2004,
+      "opinion_index": 1
+    },
+    {
+      "cite": "348 Ill.App.3d 360",
+      "category": "reporters:state",
+      "reporter": "Ill. App. 3d",
+      "case_ids": [
+        4023344
+      ],
+      "year": 2004,
+      "opinion_index": 1,
+      "case_paths": [
+        "/ill-app-3d/348/0360-01"
+      ]
+    },
+    {
+      "cite": "440 N.E.2d 102",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "weight": 2,
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "104-105"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "64 Ill.Dec. 550",
+      "category": "reporters:state",
+      "reporter": "Ill. Dec.",
+      "year": 1982,
+      "opinion_index": 1
+    },
+    {
+      "cite": "91 Ill.2d 480",
+      "category": "reporters:state",
+      "reporter": "Ill. 2d",
+      "case_ids": [
+        3092410
+      ],
+      "year": 1982,
+      "opinion_index": 1,
+      "case_paths": [
+        "/ill-2d/91/0480-01"
+      ]
+    },
+    {
+      "cite": "118 A.D.3d 564",
+      "category": "reporters:state",
+      "reporter": "A.D.3d",
+      "case_ids": [
+        4069701
+      ],
+      "weight": 2,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "567",
+          "parenthetical": "upholding felony murder conviction where state was without jurisdiction to prosecute underlying felony"
+        },
+        {
+          "parenthetical": "upholding felony murder conviction where state was without jurisdiction to prosecute underlying felony"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ad3d/118/0564-01"
+      ]
+    },
+    {
+      "cite": "88 N.Y.2d 618",
+      "category": "reporters:state",
+      "reporter": "N.Y.2d",
+      "case_ids": [
+        4437431
+      ],
+      "weight": 7,
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "1263-64"
+        },
+        {
+          "parenthetical": "internal citation omitted"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ny-2d/88/0618-01"
+      ]
+    },
+    {
+      "cite": "371 Ark. 170",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        3490275
+      ],
+      "weight": 2,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "177"
+        },
+        {
+          "page": "503"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ark/371/0170-01"
+      ]
+    },
+    {
+      "cite": "342 Ark. 45",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1342437
+      ],
+      "weight": 2,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "49"
+        },
+        {
+          "page": "425"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ark/342/0045-01"
+      ]
+    },
+    {
+      "cite": "263 Ark. 739",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1672601
+      ],
+      "weight": 2,
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "748"
+        },
+        {
+          "page": "78"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ark/263/0739-01"
+      ]
+    },
+    {
+      "cite": "50 U. Chi. L. Rev. 1431",
+      "category": "journals:journal",
+      "reporter": "U. Chi. L. Rev.",
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "1433"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "Ark. Code Ann. \u00a7 5-1-104",
+      "category": "laws:leg_statute",
+      "reporter": "Ark. Code Ann.",
+      "weight": 4,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "(a)(1)"
+        },
+        {
+          "page": "(b)"
+        },
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "Ark. Code Ann. \u00a7 5-10-101",
+      "category": "laws:leg_statute",
+      "reporter": "Ark. Code Ann.",
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 1
+    }
+  ],
+  "analysis": {
+    "cardinality": 1580,
+    "char_count": 38705,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.265062171578343
+    },
+    "sha256": "44830a2b5873283b7699005bce6770f1a076c26e10eb72a311339677a7d208b9",
+    "simhash": "1:6329d43614d537c4",
+    "word_count": 6349
+  },
+  "last_updated": "2024-02-27T16:04:57.576429+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mauricio Alejandro TORRES, Appellant\nv.\nSTATE of Arkansas, Appellee"
+    ],
+    "opinions": [
+      {
+        "text": "KAREN R. BAKER, Associate Justice\nOn November 15, 2016, a Benton County Circuit Court jury convicted appellant, Mauricio Alejandro Torres, of capital murder and first-degree battery in the death of his six-year-old son Maurice \"Isaiah\" Torres. The jury was presented with two alternative theories of capital murder: (1) felony murder with the underlying felony of rape (rape felony murder); or (2) child-abuse murder. Torres was sentenced to death for the murder and to twenty years' imprisonment and a $ 15,000 fine for the battery. Torres raises nine points on appeal: (1) the circuit court should have directed a verdict on the rape felony murder formulation because of failure of proof of the predicate felony; (2) Torres was entitled to separate verdict forms in order for the jury to specify which formulation or formulations of capital murder the jury had convicted him of; (3) the circuit court erred in refusing to correct the prosecutor's erroneous comments about jury unanimity; (4) the formulation \"under the circumstances manifesting extreme indifference to the value of human life\" is unconstitutionally vague because of shifting and conflicting interpretations; (5) the circuit court erred in denying jury instructions for the affirmative defense to felony murder that appropriately allocate the burden of proof; (6) the circuit court should have suppressed Torres's statements, and if not, the circuit court should have required admission of another Torres statement under authority of Arkansas Rule of Evidence 106 ; (7) the circuit court erred in permitting aggravating circumstances for which Torres was never convicted and for which the statute of limitations had expired; (8) the circuit court erred in refusing a jury instruction correctly stating Arkansas law as to the grant of mercy; and (9) the circuit court must reverse the death sentence because of the improper double counting.\nI. Points on Appeal\nA. Rape Felony Murder\n1. Standard of review\nThe State charged Torres with capital murder under alternate theories pursuant to Ark. Code Ann. \u00a7 5-10-101 (Supp. 2017), rape felony murder and child-abuse murder. For his first point on appeal, Torres contends that the circuit court should have directed a verdict on the rape-felony-murder formulation because of failure to prove the underlying felony. Torres contends that the rape conviction is legally insufficient, and because a general verdict form was used, it is unclear which theory the jury convicted upon; and therefore, we must reverse and remand this case for a new trial. In addressing Torres's argument, we first review the applicable standards of review.\na. Jurisdictional sufficiency\nFirst, territorial jurisdiction over a criminal defendant is controlled by statute. Arkansas courts have jurisdiction to convict a person under this state's laws when a crime is committed by a person if \"[e]ither the conduct or a result that is an element of the offense occurs within the state.\" Ark. Code Ann. \u00a7 5-1-104(a)(1) (Repl. 2013); see also Kirwan v. State , 351 Ark. 603, 616, 96 S.W.3d 724, 731 (2003). \"We have stated that 'when reviewing the evidence on a jurisdictional question, [we] need only determine whether there is substantial evidence to support the finding of jurisdiction.' [ Kirwan , 351 Ark. 603, 96 S.W.3d 724 ]; Dunham v. State , 315 Ark. 580, 581, 868 S.W.2d 496, 497 (1994).\" Ridling v. State , 360 Ark. 424, 435, 203 S.W.3d 63, 70 (2005).\nb. Factual sufficiency\nSecond, we treat a motion for a directed verdict as a challenge to the sufficiency of the evidence. Whitt v. State , 365 Ark. 580, 232 S.W.3d 459 (2006). When reviewing a challenge to the sufficiency of the evidence, this court assesses the evidence in the light most favorable to the State and considers only the evidence that supports the verdict. Gillard v. State , 366 Ark. 217, 234 S.W.3d 310 (2006). We will affirm a judgment of conviction if substantial evidence exists to support it. Id. Substantial evidence is evidence which is of sufficient force and character that it will, with reasonable certainty, compel a conclusion one way or the other, without resorting to speculation or conjecture. Ricks v. State , 316 Ark. 601, 873 S.W.2d 808 (1994).\nc. Legal sufficiency\nThird, we must review the legal sufficiency of Torres's conviction. In Stromberg v. California , 283 U.S. 359, 367-68, 51 S.Ct. 532, 75 L.Ed. 1117 (1931), the Supreme Court addressed the use of a general verdict form when the statute at issue could be violated under three distinct theories. In Stromberg , one of the possible bases of conviction was unconstitutional. In reversing the conviction, the Court explained: \"The verdict against the appellant was a general one. It did not specify the ground upon which it rested. As there were three purposes set forth in the statute, and the jury was instructed that their verdict might be given with respect to any one of them, independently considered, it is impossible to say under which clause of the statute the conviction was obtained. If any one of these clauses, which the state court has held to be separable, was invalid, it cannot be determined upon this record that the appellant was not convicted under that clause.\"\nNext, in Yates v. United States , 354 U.S. 298, 312, 77 S.Ct. 1064, 1 L.Ed.2d 1356 (1957), overruled on other grounds by Burks v. United States , 437 U.S. 1, 98 S.Ct. 2141, 57 L.Ed.2d 1 (1978). The Supreme Court extended the Stromberg rule to cases in which one possible basis for conviction was illegal due to a statutory time-bar. In that case, Yates appealed from a conviction of (1) conspiring to organize the Communist Party of the United States with the intent of causing the overthrow of the government and (2) conspiring to advocate the violent overthrow of the government. The two charges were submitted together to the jury, but it could not be determined on which charge the defendants had been convicted. The Supreme Court was then presented with the issue of two different legal theories to support Yates's conviction. The Supreme Court held that the charge of conspiring to organize the Communist Party of the United States with the intent of causing the overthrow of the government was barred by the statute of limitations. Because that charge was submitted to the jury, along with the charge of conspiring to advocate the violent overthrow of the government, the Supreme Court held that the convictions could not be supported on the basis of the conspiring-to-advocate charge as it could not be determined on which charge the jury had convicted the defendants. The Supreme Court explained:\nIn these circumstances we think the proper rule to be applied is that which requires a verdict to be set aside in cases where the verdict is supportable on one ground, but not on another, and it is impossible to tell which ground the jury selected. Stromberg v. California , 283 U.S. 359, 367-368, [51 S.Ct. 532, 535, 75 L.Ed. 1117] ; Williams v. North Carolina , 317 U.S. 287, 291-292, [63 S.Ct. 207, 209-210, 87 L.Ed. 279] ; Cramer v. United States , 325 U.S.1, 36, n. 45 [325 U.S. 1, 65 S.Ct. 918, 935, n. 45, 89 L.Ed. 1441].\nId.\nIn Griffin v. United States , 502 U.S. 46, 112 S.Ct. 466, 116 L.Ed.2d 371 (1991), the Supreme Court limited the application of Yates to circumstances in which one of the alternatives was legally insufficient-not simply factually insufficient. In explaining the distinction between factually and legally insufficient, the Court stated:\nFinally, petitioner asserts that the distinction between legal error ( Yates ) and insufficiency of proof ( Turner [v. United States , 396 U.S. 398, 420, 90 S.Ct. 642, 654, 24 L.Ed.2d 610 (1970) ] ) is illusory, since judgments that are not supported by the requisite minimum of proof are invalid as a matter of law-and indeed, in the criminal law field at least, are constitutionally required to be set aside. See Jackson v. Virginia , 443 U.S. 307, 319, 99 S.Ct. 2781, 2789, 61 L.Ed.2d 560 (1979). Insufficiency of proof, in other words, is legal error. This represents a purely semantical dispute. In one sense \"legal error\" includes inadequacy of evidence-namely, when the phrase is used as a term of art to designate those mistakes that it is the business of judges (in jury cases) and of appellate courts to identify and correct. In this sense \"legal error\" occurs when a jury, properly instructed as to the law, convicts on the basis of evidence that no reasonable person could regard as sufficient. But in another sense-a more natural and less artful sense-the term \"legal error\" means a mistake about the law, as opposed to a mistake concerning the weight or the factual import of the evidence. The answer to petitioner's objection is simply that we are using \"legal error\" in the latter sense.\nThat surely establishes a clear line that will separate Turner from Yates , and it happens to be a line that makes good sense. Jurors are not generally equipped to determine whether a particular theory of conviction submitted to them is contrary to law-whether, for example, the action in question is protected by the Constitution, is time barred, or fails to come within the statutory definition of the crime. When, therefore, jurors have been left the option of relying upon a legally inadequate theory, there is no reason to think that their own intelligence and expertise will save them from that error. Quite the opposite is true, however, when they have been left the option of relying upon a factually inadequate theory, since jurors are well equipped to analyze the evidence, see Duncan v. Louisiana , 391 U.S. 145, 157, 88 S.Ct. 1444, 1451, 20 L.Ed.2d 491 (1968).\nGriffin , 502 U.S. at 58-59, 112 S.Ct. 466.\nAccordingly, the Supreme Court has identified a distinction between legally insufficient alternatives and alternatives that may not be supported by sufficient evidence. The former cannot be upheld in a general verdict, but the latter can, provided at least one charged alternative is supported by sufficient evidence.\nd. Capital-felony-murder standard\nFourth, in reviewing our standards, we note that the parties agree that because the State charged Torres with capital murder pursuant to capital felony murder, the State must prove the underlying felony as it becomes an element of the murder charge. \"Under capital-felony murder, the State must first prove the felony, so the felony becomes an element of the murder charge. Ross v. State , 346 Ark. 225, 57 S.W.3d 152 (2001). Proof of each felony was presented separately, and each felony may be examined separately.\" Williams v. State , 347 Ark. 728, 744, 67 S.W.3d 548, 557 (2002). Accordingly, to sustain Torres's capital-murder conviction, the State must prove either the rape felony murder or the child-abuse-murder.\nB. Law and Analysis\n1. Felony murder: Ark. Code Ann. \u00a7\u00a7 5-10-101 & 5-14-103\nWith these standards in mind, we now turn to Torres's argument. The State charged Torres with capital murder under two alternate theories pursuant to Arkansas Code Annotated \u00a7 5-10-101(a)(1)(A)(ii), the rape-felony-murder provision, and \u00a7 5-10-101(a)(9), the child-abuse-murder provision. The statute provides in pertinent part:\n(a) A person commits capital murder if:\n(1) Acting alone or with one (1) or more other persons:\n(A) The person commits or attempts to commit:\n...\n(ii) Rape, \u00a7 5-14-103 ; ... and\n...\n(B) In the course of and in furtherance of the felony or in immediate flight from the felony, the person or an accomplice causes the death of a person under circumstances manifesting extreme indifference to the value of human life;\n...\n(9)(A) Under circumstances manifesting extreme indifference to the value of human life, the person knowingly causes the death of a person fourteen (14) years of age or younger at the time the murder was committed if the defendant was eighteen (18) years of age or older at the time the murder was committed.\n(B) It is an affirmative defense to any prosecution under this subdivision (a)(9) arising from the failure of the parent, guardian, or person standing in loco parentis to provide specified medical or surgical treatment, that the parent, guardian, or person standing in loco parentis relied solely on spiritual treatment through prayer in accordance with the tenets and practices of an established church or religious denomination of which he or she is a member.\nThe Arkansas rape statute, Ark. Code Ann. \u00a7 5-14-103, provides in pertinent part that \"[a] person commits rape if he or she engages in sexual intercourse or deviate sexual activity with another person ... who is less than fourteen (14) years of age; who is a minor and the actor is the victim's ... guardian.\"\n2. Ark. Code Ann. section 5-1-104\"Extraterritorial Jurisdiction\"\nTurning to the merits of Torres's first basis for reversal, Torres asserts that the circuit court erred in denying his motion for directed verdict on rape felony murder for two reasons. First, the circuit court erred because the alleged acts did not meet the elements of rape as rape was defined in Missouri when the alleged offense occurred. Second, the alleged acts did not occur in Arkansas; therefore, Arkansas law could not have applied. We will focus on Torres's second argument. The crux of his argument is that the State did not have jurisdiction over the alleged rape. Accordingly, Torres contends that because the rape felony murder is legally insufficient, and we are unable to discern whether the jury convicted Torres of rape or child abuse, or both, we must reverse and remand the case for a new trial.\nThe State responds that the circuit court correctly denied Torres's motion for directed verdict and contends that there is a statutory presumption that the state in which the charges are filed has jurisdiction and that there is substantial evidence to support the circuit court's territorial jurisdiction pursuant to Ark. Code Ann. \u00a7 5-1-104. The State further responds that the death was the result of the rape, which establishes a sufficient connection for the State to establish jurisdiction.\na. Statutory interpretation\nTorres's argument on appeal requires us to interpret the statute at issue. This court reviews issues involving statutory construction de novo, as it is for this court to decide the meaning of a statute. State v. Britt , 368 Ark. 273, 244 S.W.3d 665 (2006). We also adhere to the basic rule of statutory construction, which is to give effect to the intent of the legislature. Newman v. State , 2011 Ark. 112, 380 S.W.3d 395 ; State v. Havens , 337 Ark. 161, 987 S.W.2d 686 (1999). \"[T]he first rule in considering the meaning and effect of a statute is to construe it just as it reads, giving the words their ordinary and usually accepted meaning in common language.\" Potter v. City of Tontitown , 371 Ark. 200, 209, 264 S.W.3d 473, 481 (2007). Further, penal statutes are to be strictly construed, and all doubts are to be resolved in favor of the defendant. Williams v. State , 364 Ark. 203, 217 S.W.3d 817 (2005). However, even a penal statute must not be construed so strictly as to defeat the obvious intent of the legislature. Id. Additionally, in construing any statute, we place it beside other statutes relevant to the subject matter in question and ascribe meaning and effect to be derived from the whole. Singleton v. State , 2009 Ark. 594, 357 S.W.3d 891 ; Bush v. State , 338 Ark. 772, 2 S.W.3d 761 (1999).\nWe now apply these principles to the statute under review. Arkansas Code Annotated section 5-1-104, \"Extraterritorial Jurisdiction,\" states in its entirety:\n(a) A person may be convicted under a law of this state of an offense committed by his or her own or another person's conduct for which he or she is legally accountable if:\n(1) Either the conduct or a result that is an element of the offense occurs within this state;\n(2) Conduct occurring outside this state constitutes an attempt to commit an offense within this state;\n(3) Conduct occurring outside this state constitutes a conspiracy to commit an offense within this state and an overt act in furtherance of the conspiracy occurs within this state;\n(4) Conduct occurring within this state establishes complicity in the commission of, or an attempt, solicitation, or conspiracy to commit, an offense in another jurisdiction that is also an offense under the law of this state;\n(5) The offense consists of the omission to perform a legal duty imposed by a law of this state based on domicile, residence, or a relationship to a person, thing, or transaction in the state; or\n(6) The offense is defined by a statute of this state that expressly prohibits conduct outside the state and the conduct bears a reasonable relation to a legitimate interest of this state and the person knows or should know that his or her conduct is likely to affect that legitimate interest of this state.\n(b) When the offense is homicide, either the death of the victim or the physical contact causing death constitutes a \"result\" within the meaning of subdivision (a)(1) of this section.\nTorres concedes that the State had jurisdiction to try him for murder pursuant to subsection (b) because the death occurred in Arkansas. However, Torres contends that the statute is void of language that would authorize a rape prosecution. The plain language of subsection (a)(1) provides that a person may be convicted under Arkansas law of an offense committed by his own conduct for which he is legally accountable if either the conduct or a result that is an element of the offense occurs within this state. In other words, based on the plain language of the statute, to establish jurisdiction over the predicate felony of rape, there are two options:\nOption One: Either the conduct-the alleged rape-occurs within Arkansas, or\nOption Two: A result that is an element of the offense-the alleged rape-occurs within Arkansas.\nHere, it is undisputed that the \"conduct\" alleged to have supported rape occurred entirely in Missouri; thus, the first option fails. The second option is if \"a result\" that is an element of the offense-the alleged rape-occurs within this state. The \"result\" here was death, and death is not an element of rape. Accordingly, based on the plain language, the extraterritorial-jurisdiction statute does not extend to the alleged rape.\nHowever, the State urges us to affirm the circuit court and contends that territorial jurisdiction as defined in Ark. Code Ann. \u00a7 5-1-104 does not restrict jurisdiction to those crimes committed entirely within the territory of the state and argues that there is a sufficient connection between Arkansas and the death to support the circuit court's jurisdiction over the rape. Relying on Kirwan v. State , 351 Ark. 603, 96 S.W.3d 724 (2003), and Findley v. State , 307 Ark. 53, 818 S.W.2d 242 (1991), the State contends that our case law supports its interpretation of section 5-1-104. In Kirwan , the defendant, a Texas resident, sent to Arkansas sexually explicit pictures depicting children. We held that the conduct and the result of the conduct occurred in Arkansas and we therefore had jurisdiction. In Findley , a robbery was planned in Arkansas, but it led to a murder in Tennessee. There, we said that \"it is generally accepted that if the requisite elements of the crime are committed in different jurisdictions, any state in which an essential part of the crime is committed may take jurisdiction.\" Findley , 307 Ark. at 59-60, 818 S.W.2d at 246. Thus, in Findley , the robbery scheme that was initiated in Arkansas was an element of the capital murder that occurred in Tennessee. Accordingly, neither Kirwan nor Findley supports the State's position.\nFinally, in oral argument, the State contended that Cousins v. State , 202 Ark. 500, 151 S.W.2d 658 (1941), supports the jury's verdict. In Cousins , C.H. Cousins was alleged to have knowingly written checks from a Missouri bank account that had insufficient funds to cover the checks and then deposited them in a bank in Arkansas. The Logan County Circuit Court convicted Cousins of issuing an insufficient-funds check. We reversed and dismissed Cousins's convictions, explaining that \"our statute is violated when an overdraft is drawn on a bank in this state. To construe it otherwise is to give it extraterritorial effect.\" Id. at 503, 151 S.W.2d at 660. We went on to explain that\n[a] case illustrative of this principle, and one frequently cited, is that of State v. Chapin , 17 Ark. 561, 65 Am. Dec. 452, in which Chief Justice English said: \"For example, if a man standing beyond our boundary line, in Texas, were, by firing a gun, or propelling any other implement of death, to kill a person in Arkansas, he would be guilty of murder here, and answerable to our laws, because the crime is regarded as being committed where the shot, or other implement propelled, takes effect.\"\nAt \u00a7 134 of the chapter on Criminal Law, 22 C.J.S., page 219, it is said: \"If a crime covers only the conscious act of the wrongdoer, regardless of its consequences, the crime takes place and is punishable only where he acts; but, if a crime is defined so as to include some of the consequences of an act, as well as the act itself, the crime is generally regarded as having been committed where the consequences occur, regardless of where the act took place, and under a statute so providing a person who commits an act outside the state which affects persons or property within the state, and which, if committed within the state, would be a crime, is punishable as if the act were committed within the state.\"\nThis, we think, is a sound statement of the law, and is the law of this state[.]\nId. at 502-03, 151 S.W.2d at 660.\nTherefore, Cousins does not support the State's position, but it does support our interpretation of Ark. Code Ann. \u00a7 5-1-104 -our extraterritorial jurisdiction does not encompass the alleged rape that occurred entirely outside this state. If rape was defined to include death as a consequence, Cousins would support Arkansas' jurisdiction. As discussed above, it does not. In sum, the State's reliance on these cases and its interpretation of the statute are misplaced. Further, the State conceded in oral argument that it could not have charged Torres with rape in Arkansas. If Torres could not have been charged in this state, that necessarily means that the elements of rape could not have been met in this state. If the elements of rape cannot be met, rape cannot serve as an element of capital murder.\nBased on our discussion above, we are unpersuaded by the State's position. Simply put, based on the plain language of the statute, extraterritorial jurisdiction does not extend to the alleged rape that occurred in Missouri. Here, the death is the consequence or result of the rape, but death is not an element of the rape offense. The flaw in the State's argument is that regardless of whether Torres was charged with rape, pursuant to our law regarding felony-murder, the State must prove that an element of the underlying felony occurred in this state. The State cannot establish that Arkansas had jurisdiction to reach the conduct alleged to have been rape. Because of this, the rape felony murder is insufficient, which in turn taints the entire verdict because the jury completed a general verdict form. Stated differently, as in Griffin , because of the general-verdict-form formulation, we are unable to determine which formula-rape felony murder or child-abuse-murder-the jury based its conviction on.\nBecause we find merit in Torres's first point and reverse and remand for a new trial, we do not reach Torres's remaining points on appeal.\nReversed and remanded for a new trial.\nHart, J., concurs.\nKemp, C.J., and Wood and Womack, JJ., dissent.\nJosephine Linker Hart, Justice, concurring.\nI agree with the conclusions reached in the majority opinion. However, that opinion addresses only three of the nine issues Appellant raises on appeal. At least some of Appellant's six remaining issues are both potentially meritorious and likely to reoccur on remand. Even so, I write expansively to address just one of them: the use of uncharged alleged crimes, for which the statute of limitations would have since expired, as the basis for an aggravating factor at sentencing in a death penalty case. The allegations at issue here are condemnable, but the ugliness of a given allegation cannot supersede the most basic due process principles guaranteed to all citizens by our constitution.\nDuring the penalty phase of the trial, the State called as witnesses five of Appellant's grown biological children and stepchildren who testified that Appellant had committed offenses against them in the 1990s and early 2000s that would fit within the aggravating factors set forth in Ark. Code Ann. \u00a7 5-4-604(3) :\n(3) The person previously committed another felony, an element of which was the use or threat of violence to another person or the creation of a substantial risk of death or serious physical injury to another person;\nAppellant objected to the use of this evidence on the ground that he was never charged with, or convicted of, any of these allegations and that the statute of limitations for each allegation had since expired. Moreover, Appellant argued that these allegations were reported to the authorities at the time they would have occurred, but the prosecution elected not to file charges.\nAppellant also entered into the record investigative reports concerning these allegations; these reports were generated by the Crimes Against Children Division of the Arkansas State Police (CACD). As they relate to these allegations, at least some of the reports reflect favorably on Appellant. For example, regarding B.M.'s allegations, the report summarized the CACD investigation as follows:\nThe Crimes against Children Division recommends an unsubstantiated finding of Oral Sex and Sexual Penetration as there was not a preponderance of evidence that sexual abuse occurred to [B.M.] by her stepfather, Maurice Torres. [B.M.] did not disclose any sexual abuse to Investigator after 2 separate interviews. [B.M.] was examined at Arkansas Children's Hospital for any evidence of sexual abuse, but no evidence was found. Maurice denied all allegations.\n[End of excerpt.]\nAt trial and on appeal, Appellant argues that the use of these allegations to supply an aggravating factor at sentencing violates due process. For this court to allow such a practice would be to disregard the very purpose of the statute of limitations, which is \"to protect individuals from having to defend themselves against charges when the basic facts may have become obscured by the passage of time and to minimize the danger of official punishment because of acts in the far-distant past.\" Toussie v. United States , 397 U.S. 112, 114, 90 S.Ct. 858, 25 L.Ed.2d 156 (1970). Citing the excerpt above from Toussie , Appellant asserts:\nThat is precisely what happened here. Torres was investigated. Reports were made to the prosecuting attorney. No charge was filed. His ability to defend himself on the allegations dissipated over the years. Then these accusations were used to sentence him to death.\nAppellant is correct. The use of uncharged crimes--for which the applicable statute of limitations would have since expired--to supply a basis for an aggravating factor at sentencing in a death-penalty case violates due process.\nI concur.\n\"We have repeatedly held that we will not read into a statute language that was not included by the legislature. E.g. , [Keep our Dollars in Independence Cty. v. ] Mitchell , [2017 Ark. 154, 518 S.W.3d 64 ]; Scoggins v. Medlock , 2011 Ark. 194, 381 S.W.3d 781 ; Potter v. City of Tontitown , 371 Ark. 200, 264 S.W.3d 473 (2007).\" Ark. Dep't of Corr. v. Shults , 2017 Ark. 300, at 7, 529 S.W.3d 628, 632. \"We must also presume that the General Assembly did not intend to pass an act without purpose. See Clark v. State , 308 Ark. 84, 308 Ark. 453 [motion to stay mandate], 824 S.W.2d 345 (1992).\" Reed v. State , 330 Ark. 645, 649, 957 S.W.2d 174, 176 (1997). We also note that Ark. Code Ann. \u00a7 5-1-104(a)(6) provides the General Assembly with the authority to enact legislation to address conduct outside the State: \"The offense is defined by a statute of this state that expressly prohibits conduct outside the state and the conduct bears a reasonable relation to a legitimate interest of this state and the person knows or should know that his or her conduct is likely to affect that legitimate interest of this state.\" We further note that in reviewing the entire Code, the General Assembly has enacted laws-such as our habitual-offender statute, Arkansas Code Annotated 5-4-501, which specifically allows consideration of crimes committed in another jurisdiction, but the felony-murder statute does not contain this provision.",
+        "type": "majority",
+        "author": "KAREN R. BAKER, Associate Justice"
+      },
+      {
+        "text": "Shawn A. Womack, Justice, dissenting.\nThe majority's decision today holds that the State of Arkansas cannot bring a prosecution for felony murder for a death occurring within the state simply because the predicate felony occurred elsewhere. Because I believe this decision is based on a misunderstanding of our extraterritorial jurisdiction statute, I must respectfully dissent.\nI.\nThis case involves brutal circumstances of the crime for which a Benton County jury sentenced Mauricio Torres to death for the murder of his six-year-old son Isaiah. The events giving rise to this murder are not in dispute. Indeed, Torres provided many of the details during his confession to police. Curiously, a recitation of the facts is absent from the majority's opinion, so I begin there.\nOn the morning of March 29, 2015, Mauricio and Cathy Torres were camping in Missouri with their two daughters and Isaiah. They woke to discover Isaiah had eaten cake for breakfast. For the offense of eating cake without permission, Isaiah was punished by inserting a stick into his rectum and forcing him to do squats. Torres described Isaiah's punishment to police: \"I'm not gonna spank him. It doesn't ever work .... I just put the stick in his bottom again, you know. Like you said, that power. And I said, in the corner, you know, up and down.\" When Cathy saw what was happening, she became angry with Isaiah for not squatting fast enough and pushed him down. This drove the stick deeper inside of Isaiah's body and pierced his rectum.\nIsaiah's health steadily deteriorated throughout the day. When the family returned to their home in Bella Vista, Arkansas, that night, he was unresponsive. Torres did not seek medical care for Isaiah until nearly midnight. When emergency responders arrived, Isaiah was in cardiac arrest. He was transported to a hospital in Benton County, Arkansas, but soon died.\nThe official cause of Isaiah's death was acute fecal purulent peritonitis-a bacterial infection in the abdominal cavity due to blunt force anorectal trauma. In other words, Isaiah died from the feces and pus that filled his abdomen through his punctured rectum. But a significant contributing factor to his death were the extensive injuries covering his entire body. The forensic pathologist who examined Isaiah's body described his condition as \"a textbook case of chronic child abuse.\"\nThe injuries were in various stages of healing and were too numerous to count. Thick scar tissue lined the interior of Isaiah's skull cap from repeated, significant, and traumatic head injuries. Isaiah's nose had been broken, flattened, and deformed. His teeth had been forcibly removed. The injuries on his back included severe bruising, chemical burns, and multiple lacerations resembling whip marks. His hands and arms were covered in defensive wounds. And, shortly before his death, Isaiah sustained substantial and traumatic blows to his head and a blunt force injury encompassing his chest, back, and abdomen.\nThe apparent causes of these injuries were revealed at trial. According to his sister's testimony, Isaiah was regularly beaten with a cable and the stick that caused his death. He had been hospitalized the year before his death for chemical burns after being forced to bathe with bleach. Torres had removed Isaiah's teeth with pliers as punishment for speaking ill of him. He had forced Isaiah to consume his feces and urine. Moreover, Isaiah's blood was found spattered throughout the Bella Vista home and the Missouri camper.\nThe State of Arkansas charged Torres with capital murder premised on two alternate theories. The first theory was capital felony murder predicated on rape and the second theory was premised on child abuse. He was also charged with first-degree battery. The jury unanimously convicted Torres of first-degree battery and capital murder by a general verdict form. Torres was subsequently sentenced to death.\nII.\nCriminal jurisdiction at common law permitted a state to prosecute only those crimes committed within its territorial borders. See Comment, Jurisdiction Over Interstate Felony Murder , 50 U. Chi. L. Rev. 1431, 1433 (1984). Like most states however, Arkansas has broadened the territorial scope of its jurisdiction to permit prosecution of crimes committed in different jurisdictions if the alleged conduct or some consequence of it occurs within its borders. See 1 Wayne R. LaFave, Substantive Criminal Law \u00a7 4.4(b) (3d ed. 2018). These laws are generally \"premised on the belief that a state should have jurisdiction over those whose conduct affects persons in the state or an interest of the state, provided that it is not unjust under the circumstances to subject the defendant to the laws of the state.\" Model Penal Code \u00a7 1.03 cmt. 1, p. 35 (1962).\nThe jurisdictional bases within Arkansas's extraterritorial jurisdiction statute were adopted from the Model Penal Code. See Ark. Code Ann. \u00a7 5-1-104 ; Model Penal Code \u00a7 1.03 (1962). These bases incorporate a more expansive interpretation of territorial jurisdiction than existed at common law, yet still require a direct link to Arkansas. As relevant here, \"[a] person may be convicted under a law of this state ... if [e]ither the conduct or a result that is an element of the offense occurs within this state.\" Ark. Code Ann. \u00a7 5-1-104(a)(1) (Repl. 2013). \"When the offense is homicide, either the death of the victim or the physical contact causing death constitutes a 'result[.]' \" Ark. Code Ann. \u00a7 5-1-104(b).\nThe \"offense\" at issue here is capital felony murder. Capital felony murder occurs when a person, acting alone or with others, commits or attempts to commit one of eleven enumerated felonies (including rape) and \"[i]n the course of and in furtherance of the felony or in immediate flight from the felony, the person or an accomplice causes the death of a person under circumstances manifesting extreme indifference to the value of human life.\" Ark. Code Ann. \u00a7 5-10-101(a) (Repl. 2013). In other words, the elements of capital felony murder include (1) the attempt or commission of an underlying felony, and (2) the resulting death of a person.\nThe plain language of these provisions clearly establishes Arkansas's jurisdiction to convict Torres of felony murder. Isaiah's death is a requisite element of the felony murder statute. Likewise, his in-state death is a \"result\" for purposes of jurisdiction. See Ark. Code Ann. \u00a7 5-1-104(b). Moreover, this Court has long held that \"if the requisite elements of the crime are committed in different jurisdictions, any state in which an essential part of the crime is committed may take jurisdiction.\" Gardner v. State , 263 Ark. 739, 748, 569 S.W.2d 74, 78 (1978). An essential part of the crime, Isaiah's death, has clearly occurred in Arkansas. Under both our precedent and the controlling statute, jurisdiction clearly lies in this state.\nThe majority's analysis turns on its flawed assertion that the \"offense\" at issue is rape. But Torres was not convicted of rape. Rather, he was convicted of capital felony murder predicated on rape. To be sure, the prosecution must prove the underlying felony to sustain a felony murder conviction. See Flowers v. State , 342 Ark. 45, 49, 25 S.W.3d 422, 425 (2000). Proof of the underlying felony is an essential element because it functions as the mens rea for the murder. See Perry v. State , 371 Ark. 170, 177, 264 S.W.3d 498, 503 (2007). In order to establish jurisdiction, the underlying felony is significant for that reason alone.\nThe State of New York, analyzing similar felony murder and jurisdiction statutes, held it could prosecute for felony murder of an in-state death resulting from a felony committed in Connecticut. People v. Stokes , 88 N.Y.2d 618, 648 N.Y.S.2d 863, 671 N.E.2d 1260 (1996). It held that because death is an element of felony murder, the in-state death provided a basis for jurisdiction. Id. , 648 N.Y.S.2d 863, 671 N.E.2d at 1263-64. \"For purposes of jurisdiction, the [felony] is significant only in the context of the felony murder charged, not as a separate crime .... The underlying felony is not so much an element of the crime but instead functions as a replacement for the mens rea. \" Id. (internal citation omitted); see also People v. Polk , 118 A.D.3d 564, 567, 988 N.Y.S.2d 172 (N.Y. Ct. App. 2014) (upholding felony murder conviction where state was without jurisdiction to prosecute underlying felony).\nSimilarly, the Illinois Supreme Court determined that a conviction on the underlying felony is not an element of felony murder. See People v. Holt , 91 Ill.2d 480, 64 Ill.Dec. 550, 440 N.E.2d 102, 104-105 (1982). That court held that \"the felony in felony murder is essential in the sense that if there were no felony the defendant could not do anything in the course of it, but the felony is only a precondition, not an element of independent significance. The real element of felony murder is not so much the felony itself as the special status a felon has from moment to moment while committing the felony.\" Id. ; see also People v. Wilson , 348 Ill.App.3d 360, 283 Ill.Dec. 881, 808 N.E.2d 1169, 1173 (2004).\nThe plain language of our extraterritorial jurisdiction statute makes clear that Arkansas has jurisdiction to convict Torres of felony murder for the Arkansas death of his son, Isaiah, predicated on the Missouri rape. We should affirm the conviction.\nFor the foregoing reasons, I respectfully dissent.\nKemp, C.J., and Wood, J., join.",
+        "type": "dissent",
+        "author": "Shawn A. Womack, Justice, dissenting."
+      }
+    ],
+    "attorneys": [
+      "Jeff Rosenzweig ; William O. James Jr. ; and George (Birc) Morledge, Little Rock, for appellant.",
+      "Leslie Rutledge, Att'y Gen., by: Rebecca Kane, Ass't Att'y Gen.; and Michael A. Hylden, Ass't Att'y Gen., for appellee."
+    ],
+    "corrections": "",
+    "head_matter": "Mauricio Alejandro TORRES, Appellant\nv.\nSTATE of Arkansas, Appellee\nNo. CR-17-89\nSupreme Court of Arkansas.\nOpinion Delivered: April 18, 2019\nRehearing Denied May 30, 2019\nJeff Rosenzweig ; William O. James Jr. ; and George (Birc) Morledge, Little Rock, for appellant.\nLeslie Rutledge, Att'y Gen., by: Rebecca Kane, Ass't Att'y Gen.; and Michael A. Hylden, Ass't Att'y Gen., for appellee."
+  },
+  "file_name": "0456-01",
+  "first_page_order": 456,
+  "last_page_order": 469
+}

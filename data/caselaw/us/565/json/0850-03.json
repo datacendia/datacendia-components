@@ -1,0 +1,59 @@
+{
+  "id": 12205831,
+  "name": "Taylor v. Hoke, Warden",
+  "name_abbreviation": "Taylor v. Hoke",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10794",
+  "first_page": "850",
+  "last_page": "850",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 850"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.662,
+    "sha256": "c0534bc42aaaf830b6cdbf8ca2f8385b42a8b6ce8d9ccb0e90eaf758a1959fbb",
+    "simhash": "1:b0ee0251cfeeb127",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Taylor v. Hoke, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10794.\nTaylor v. Hoke, Warden."
+  },
+  "file_name": "0850-03",
+  "first_page_order": 932,
+  "last_page_order": 932
+}

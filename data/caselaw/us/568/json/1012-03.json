@@ -1,0 +1,59 @@
+{
+  "id": 12422652,
+  "name": "Clements v. Alabama State Bar",
+  "name_abbreviation": "Clements v. Alabama State Bar",
+  "decision_date": "2012-11-13",
+  "docket_number": "No. 12-5341",
+  "first_page": "1012",
+  "last_page": "1012",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1012"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.574,
+    "sha256": "b481680d7a59dab061e3d913a13b50261ba9e93616c33624cb5e221486706d51",
+    "simhash": "1:2d7046c45a4ad1ae",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Clements v. Alabama State Bar."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ala. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5341.\nClements v. Alabama State Bar."
+  },
+  "file_name": "1012-03",
+  "first_page_order": 1088,
+  "last_page_order": 1088
+}

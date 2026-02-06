@@ -1,0 +1,59 @@
+{
+  "id": 6000307,
+  "name": "Simpson v. United States",
+  "name_abbreviation": "Simpson v. United States",
+  "decision_date": "2010-10-12",
+  "docket_number": "No. 10-6224",
+  "first_page": "972",
+  "last_page": "972",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 972"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.602,
+    "sha256": "fdd1c45b7c5d98f2697a6a18a7a95e75f1ea0c423f37c975473d7d17b9a9ce68",
+    "simhash": "1:954bce514e97b940",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Simpson v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6224.\nSimpson v. United States."
+  },
+  "file_name": "0972-04",
+  "first_page_order": 994,
+  "last_page_order": 994
+}

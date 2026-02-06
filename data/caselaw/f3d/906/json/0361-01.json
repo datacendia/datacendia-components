@@ -1,0 +1,189 @@
+{
+  "id": 12518896,
+  "name": "STATE BANK & TRUST COMPANY, Plaintiff-Appellee v. C & G LIFTBOATS, L.L.C.; AMC Liftboats, Incorporated, also known as A.M.C. Liftboats, Incorporated; Polly D. Cheramie, in personam; Adam A. Cheramie, in personam; Lil Al M/V, in rem; Mr. Alan M/V, in rem; Whitney M/V L/B, in rem, Defendants-Appellants",
+  "name_abbreviation": "State Bank & Trust Co. v. C & G Liftboats, L.L.C.",
+  "decision_date": "2018-10-16",
+  "docket_number": "No. 17-30792",
+  "first_page": "361",
+  "last_page": "363",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "906 F.3d 361"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "5th Cir.",
+    "id": 8820,
+    "name": "United States Court of Appeals for the Fifth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "19 F.3d 1008",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10512615
+      ],
+      "weight": 2,
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "1012-13"
+        },
+        {
+          "page": "1013"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/19/1008-01"
+      ]
+    },
+    {
+      "cite": "293 F.3d 830",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9417702
+      ],
+      "weight": 2,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "831-32"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/293/0830-01"
+      ]
+    },
+    {
+      "cite": "798 F.2d 147",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1610035
+      ],
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "150"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/798/0147-01"
+      ]
+    },
+    {
+      "cite": "760 F.3d 477",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4149611
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "480",
+          "parenthetical": "quoting Francis v. Forest Oil Corp. , 798 F.2d 147, 150 (5th Cir. 1986) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/760/0477-01"
+      ]
+    },
+    {
+      "cite": "640 F.2d 560",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1369847
+      ],
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "564"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/640/0560-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1292",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(a)(3)"
+        },
+        {
+          "page": "(a)(3)"
+        },
+        {
+          "page": "(a)(3)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 U.S.C. \u00a7\u00a7 31321",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 363,
+    "char_count": 6175,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25908614749354114
+    },
+    "sha256": "8352a75c27f5a9655f9ff75e19a6bb72cd5aa238715fe26786cc894c3eaa2f13",
+    "simhash": "1:93666123afda972f",
+    "word_count": 977
+  },
+  "last_updated": "2024-02-27T18:46:07.237745+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before KING, SOUTHWICK, and HO, Circuit Judges."
+    ],
+    "parties": [
+      "STATE BANK & TRUST COMPANY, Plaintiff-Appellee\nv.\nC & G LIFTBOATS, L.L.C.; AMC Liftboats, Incorporated, also known as A.M.C. Liftboats, Incorporated; Polly D. Cheramie, in personam; Adam A. Cheramie, in personam; Lil Al M/V, in rem; Mr. Alan M/V, in rem; Whitney M/V L/B, in rem, Defendants-Appellants"
+    ],
+    "opinions": [
+      {
+        "text": "LESLIE H. SOUTHWICK, Circuit Judge:\nThe district court granted summary judgment to the plaintiff, holding that the plaintiff had a preferred ship mortgage under the Ship Mortgage Act. The defendants appealed. The district court's order, though, did not finally determine the rights or obligations of the parties in this dispute, which leaves us without jurisdiction.\nThe appeal is DISMISSED.\nFACTUAL AND PROCEDURAL BACKGROUND\nThe plaintiff State Bank & Trust Company sought to foreclose on four ship mortgages and seize three vessels owned by defendants C&G Liftboats, LLC and AMC Liftboats, Inc. The defendants argued in the district court that there was no subject matter jurisdiction to hear the plaintiff's claim in admiralty because the underlying mortgages used to secure the vessels were invalid under Louisiana law, and therefore could not be valid preferred ship mortgages under the Ship Mortgage Act. The district court denied the defendants' motion to dismiss and granted in part the plaintiff's motion for summary judgment, holding that a collateral chattel mortgage, even if invalid under Louisiana law, meets the requirements of the Ship Mortgage Act. See 46 U.S.C. \u00a7\u00a7 31321, 31322.\nThe limit of the district court's order was to recognize that the plaintiff had a preferred ship mortgage under the Ship Mortgage Act on the vessel \"Lil Al,\" allowing the plaintiff to proceed in its foreclosure action in federal court. The district court did not grant judgment on the plaintiff's claim that the defendants defaulted nor hold that the relevant mortgage was enforceable. The defendants appealed the district court's order. Jurisdiction was claimed under 28 U.S.C. \u00a7 1292(a)(3). The district court stayed further proceedings pending our resolution of the appeal.\nDISCUSSION\nUnder 28 U.S.C. \u00a7 1292(a)(3), \"the courts of appeals ... have jurisdiction of appeals from ... interlocutory decrees of ... district courts ... determining the rights and liabilities of the parties to admiralty cases in which appeals from final decrees are allowed.\" Section 1292(a)(3) is construed narrowly; it does not \"permit interlocutory appeals in admiralty except where the order ... had the effect of ultimately determining the rights and obligations of the parties.\" Treasure Salvors, Inc. v. Unidentified Wrecked and Abandoned Sailing Vessel , 640 F.2d 560, 564 (5th Cir. 1981). \"Orders which do not determine parties' substantive rights or liabilities ... are not appealable under section 1292(a)(3), even if those orders have important procedural consequences.\" Celtic Marine Corp. v. James C. Justice Companies, Inc. , 760 F.3d 477, 480 (5th Cir. 2014) (quoting Francis v. Forest Oil Corp. , 798 F.2d 147, 150 (5th Cir. 1986) ). An order which merely permits a party to proceed in an action is not sufficiently final to grant jurisdiction under Section 1292(a)(3). Id. at 480-81.\nIn Celtic Marine , we held there to be no jurisdiction to hear an appeal of a district court order re-opening a case under Federal Rule of Civil Procedure 60(b). Id . The motion sought to re-open the case in order to enforce a settlement agreement. Id. at 480. The order granting the motion made a procedural ruling but was not a grant of final relief. Id. at 480-81.\nHere, the district court's order finally determined that the plaintiff has a preferred ship mortgage on \"Lil Al,\" but deferred all other requests for relief. For example, the district court's order did not find that the defendants defaulted on the collateral mortgages. The defendants deny the allegation in the plaintiff's complaint that they were in default.\nThe district court's order holding that the plaintiff had a valid preferred ship mortgage on Lil Al merely allows the plaintiff to proceed on its foreclosure action in federal court. The district court did not finally determine the parties' rights as to Lil Al, and we therefore lack appellate jurisdiction under Section 1292(a)(3).\nThe defendants refer us to decisions in which we found jurisdiction under Section 1292(a)(3). In one case, we reviewed an order in which the district court held that one creditor's claim had priority over another against a vessel, the proceeds of which would satisfy only one of the debts. Bank One, Louisiana N.A. v. Mr. Dean MV , 293 F.3d 830, 831-32 (5th Cir. 2002). We had jurisdiction because the summary judgment order disposed of the appealing party's rights in the vessel, as the question of priority was the final issue to be decided. Id. In the other case cited by the defendants, we held that interlocutory sale orders are appealable under Section 1292(a)(3). Silver Star Enters., Inc. v. M/V Saramacca , 19 F.3d 1008, 1012-13 (5th Cir. 1994). Jurisdiction exists in that circumstance because an interlocutory sale order extinguishes the owners' rights in a vessel, thus satisfying the finality requirement of Section 1292(a)(3). Id. at 1013.\nIn the present case, the district court's order permitted the plaintiff to continue in its foreclosure action and explicitly deferred all the plaintiff's other requests for relief. Therefore, the district court's order did not ultimately determine the \"rights and liabilities of the parties.\" 28 U.S.C. \u00a7 1292(a)(3).\nDISMISSED.",
+        "type": "majority",
+        "author": "LESLIE H. SOUTHWICK, Circuit Judge:"
+      }
+    ],
+    "attorneys": [
+      "William Cothbert Baldwin, Mark Alan Mintz, Jones Walker, L.L.P., New Orleans, LA, for Plaintiff-Appellee.",
+      "Christopher Todd Caplinger, Emmitt L. DuBose, III, Stewart F. Peck, David Boies Sharpe, Lugenbuhl, Wheaton, Peck, Rankin & Hubbard, New Orleans, LA, for Defendants-Appellants C & G Liftboats, L.L.C., AMC Liftboats, Incorporated, Lil Al M/V, Mr. Alan M/V and Whitney M/V L/B.",
+      "Alan Harry Goodman, Breazeale, Sachse & Wilson, L.L.P., New Orleans, LA, for Defendants-Appellants Polly D. Cheramie and Adam A. Cheramie."
+    ],
+    "corrections": "",
+    "head_matter": "STATE BANK & TRUST COMPANY, Plaintiff-Appellee\nv.\nC & G LIFTBOATS, L.L.C.; AMC Liftboats, Incorporated, also known as A.M.C. Liftboats, Incorporated; Polly D. Cheramie, in personam; Adam A. Cheramie, in personam; Lil Al M/V, in rem; Mr. Alan M/V, in rem; Whitney M/V L/B, in rem, Defendants-Appellants\nNo. 17-30792\nUnited States Court of Appeals, Fifth Circuit.\nFILED October 16, 2018\nWilliam Cothbert Baldwin, Mark Alan Mintz, Jones Walker, L.L.P., New Orleans, LA, for Plaintiff-Appellee.\nChristopher Todd Caplinger, Emmitt L. DuBose, III, Stewart F. Peck, David Boies Sharpe, Lugenbuhl, Wheaton, Peck, Rankin & Hubbard, New Orleans, LA, for Defendants-Appellants C & G Liftboats, L.L.C., AMC Liftboats, Incorporated, Lil Al M/V, Mr. Alan M/V and Whitney M/V L/B.\nAlan Harry Goodman, Breazeale, Sachse & Wilson, L.L.P., New Orleans, LA, for Defendants-Appellants Polly D. Cheramie and Adam A. Cheramie.\nBefore KING, SOUTHWICK, and HO, Circuit Judges."
+  },
+  "file_name": "0361-01",
+  "first_page_order": 361,
+  "last_page_order": 363
+}

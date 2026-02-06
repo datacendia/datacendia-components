@@ -1,0 +1,59 @@
+{
+  "id": 12415683,
+  "name": "Olivella v. United States",
+  "name_abbreviation": "Olivella v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5304",
+  "first_page": "906",
+  "last_page": "906",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 906"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.601,
+    "sha256": "7b539e9d821b42f2b7163724218fc2f0e857bea3180c5de94d7f9505c28af048",
+    "simhash": "1:07cb920b46859c4a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Olivella v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5304.\nOlivella v. United States."
+  },
+  "file_name": "0906-01",
+  "first_page_order": 982,
+  "last_page_order": 982
+}

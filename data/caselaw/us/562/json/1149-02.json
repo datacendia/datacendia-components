@@ -1,0 +1,59 @@
+{
+  "id": 6002047,
+  "name": "Davis v. Michigan",
+  "name_abbreviation": "Davis v. Michigan",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7253",
+  "first_page": "1149",
+  "last_page": "1149",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1149"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 67,
+    "ocr_confidence": 0.579,
+    "sha256": "5362f8ca2cfdfd7637d2e12d7df117b0effd2a5e74995b59f5e432299531e12a",
+    "simhash": "1:170f0159e481d183",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Davis v. Michigan."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Mich. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7253.\nDavis v. Michigan."
+  },
+  "file_name": "1149-02",
+  "first_page_order": 1171,
+  "last_page_order": 1171
+}

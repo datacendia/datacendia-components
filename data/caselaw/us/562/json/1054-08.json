@@ -1,0 +1,61 @@
+{
+  "id": 5940255,
+  "name": "Henderson-El v. United States",
+  "name_abbreviation": "Henderson-El v. United States",
+  "decision_date": "2010-11-15",
+  "docket_number": "No. 10-6954",
+  "first_page": "1054",
+  "last_page": "1054",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1054"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 156,
+    "ocr_confidence": 0.62,
+    "sha256": "3f5994e137f385aee85856a5ecd33cc2c78e05e20094ed3b7c8b0876125425fa",
+    "simhash": "1:0b23fa822986c842",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Henderson-El v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6954.\nHenderson-El v. United States."
+  },
+  "file_name": "1054-08",
+  "first_page_order": 1076,
+  "last_page_order": 1076
+}

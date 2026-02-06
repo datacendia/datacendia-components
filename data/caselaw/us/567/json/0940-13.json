@@ -1,0 +1,59 @@
+{
+  "id": 12412084,
+  "name": "Lizotte v. LeBlanc et al.",
+  "name_abbreviation": "Lizotte v. LeBlanc",
+  "decision_date": "2012-06-25",
+  "docket_number": "No. 11-10132",
+  "first_page": "940",
+  "last_page": "940",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 940"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 74,
+    "ocr_confidence": 0.627,
+    "sha256": "ecd92c04d9e54ad31e2114f9f757b737f2710aba5e2d37ce9f093aae1ee99823",
+    "simhash": "1:10c49188492e1076",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lizotte v. LeBlanc et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10132.\nLizotte v. LeBlanc et al."
+  },
+  "file_name": "0940-13",
+  "first_page_order": 844,
+  "last_page_order": 844
+}

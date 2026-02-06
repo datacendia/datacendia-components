@@ -1,0 +1,59 @@
+{
+  "id": 5981709,
+  "name": "Curry v. United States",
+  "name_abbreviation": "Curry v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-29",
+  "first_page": "890",
+  "last_page": "890",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 890"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 68,
+    "ocr_confidence": 0.548,
+    "sha256": "b47672f25047788f1aebed688fd699adfeb373c198c7d050f474c5f7f68eee36",
+    "simhash": "1:841aff026eb59c2e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Curry v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-29.\nCurry v. United States."
+  },
+  "file_name": "0890-08",
+  "first_page_order": 912,
+  "last_page_order": 912
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12224465,
+  "name": "In re Disbarment of Viloski",
+  "name_abbreviation": "In re Disbarment of Viloski",
+  "decision_date": "2012-06-04",
+  "docket_number": "No. D-2663",
+  "first_page": "1033",
+  "last_page": "1033",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 1033"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 107,
+    "ocr_confidence": 0.578,
+    "sha256": "0aa3670e960506fb310d5b4302c95d06fa3bf08c450dfb719d16bafcd947b98d",
+    "simhash": "1:483ab8a3b55ad266",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Viloski."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2663.\nIn re Disbarment of Viloski.\n[For earlier order herein, see ante, p. 959.]"
+  },
+  "file_name": "1033-01",
+  "first_page_order": 909,
+  "last_page_order": 909
+}

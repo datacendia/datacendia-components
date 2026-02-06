@@ -1,0 +1,61 @@
+{
+  "id": 12419240,
+  "name": "Fernandez Martinez v. United States",
+  "name_abbreviation": "Fernandez Martinez v. United States",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 12-5999",
+  "first_page": "960",
+  "last_page": "960",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 960"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 25,
+    "char_count": 163,
+    "ocr_confidence": 0.607,
+    "sha256": "dc46915a3d25ff4aaedd7d5bec48ac32da74b49e0a09752ca9b760d0dff12867",
+    "simhash": "1:9fb3db8205cdf8da",
+    "word_count": 26
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Fernandez Martinez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5999.\nFernandez Martinez v. United States."
+  },
+  "file_name": "0960-01",
+  "first_page_order": 1036,
+  "last_page_order": 1036
+}

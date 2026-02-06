@@ -1,0 +1,59 @@
+{
+  "id": 12230673,
+  "name": "Williams v. Virginia et al.",
+  "name_abbreviation": "Williams v. Virginia",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. 11-5971",
+  "first_page": "981",
+  "last_page": "981",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 981"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.607,
+    "sha256": "e596814283ece78f03233de0670dace739075e605ce347d11e68f96c67ba2511",
+    "simhash": "1:a6f7e4d417a95ad8",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Williams v. Virginia et al."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Va. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5971.\nWilliams v. Virginia et al."
+  },
+  "file_name": "0981-11",
+  "first_page_order": 1063,
+  "last_page_order": 1063
+}

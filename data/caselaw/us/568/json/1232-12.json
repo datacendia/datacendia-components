@@ -1,0 +1,59 @@
+{
+  "id": 12433211,
+  "name": "Baltimore v. United States",
+  "name_abbreviation": "Baltimore v. United States",
+  "decision_date": "2013-03-18",
+  "docket_number": "No. 12-7203",
+  "first_page": "1232",
+  "last_page": "1232",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1232"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.616,
+    "sha256": "c804c3ca1ba996f2c370677d33b953d93712235a52cc7941fcbd2d70aa7301c5",
+    "simhash": "1:978b96024f7f111c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Baltimore v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7203.\nBaltimore v. United States."
+  },
+  "file_name": "1232-12",
+  "first_page_order": 1308,
+  "last_page_order": 1308
+}

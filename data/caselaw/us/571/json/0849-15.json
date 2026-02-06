@@ -1,0 +1,68 @@
+{
+  "id": 12702679,
+  "name": "Charles R. GARRIS, petitioner, v. MISSOURI.",
+  "name_abbreviation": "Garris v. Mo.",
+  "decision_date": "2013-10-07",
+  "docket_number": "No. 12\u201310440.",
+  "first_page": "849",
+  "last_page": "849",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 849"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 83"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 113"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 23,
+    "char_count": 181,
+    "sha256": "04eed7f6fb4fbfdbcb432d05b04a83452ef22a14460dc8c51b297c9adedd04a5",
+    "simhash": "1:40ac444cf8d1a4b4",
+    "word_count": 29
+  },
+  "last_updated": "2021-09-08T21:16:17.237805+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Charles R. GARRIS, petitioner,\nv.\nMISSOURI."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of certiorari to the Supreme Court of Missouri denied."
+    ],
+    "corrections": "",
+    "head_matter": "Charles R. GARRIS, petitioner,\nv.\nMISSOURI.\nNo. 12-10440.\nSupreme Court of the United States\nOct. 7, 2013.\nPetition for writ of certiorari to the Supreme Court of Missouri denied."
+  },
+  "file_name": "0849-15",
+  "first_page_order": 849,
+  "last_page_order": 849
+}

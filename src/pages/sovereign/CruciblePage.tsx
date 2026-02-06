@@ -44,6 +44,19 @@ import {
   ClipboardList,
 } from 'lucide-react';
 import apiClient from '../../lib/api/client';
+import {
+  CRUCIBLE_MODES,
+  INDUSTRY_FAILURE_BENCHMARKS,
+  CORE_CRUCIBLE_MODES,
+  calculateStressScore,
+  getIndustryBenchmarkInsight,
+} from '../../data/crucibleModes';
+import {
+  ModeSelector,
+  IndustrySelector,
+  ModeInfoBanner,
+  IndustryInsight,
+} from '../../components/modes';
 
 // Types
 interface SimulationTemplate {
@@ -757,6 +770,19 @@ export const CruciblePage: React.FC = () => {
   });
   const [showHistorySidebar, setShowHistorySidebar] = useState(false);
   const [scheduleNightly, setScheduleNightly] = useState(false);
+  
+  // Mode and industry state
+  const [selectedModeId, setSelectedModeId] = useState<string>('chaos-engineering');
+  const [selectedIndustryId, setSelectedIndustryId] = useState<string>('general');
+  
+  const currentMode = CRUCIBLE_MODES[selectedModeId];
+  const currentIndustry = INDUSTRY_FAILURE_BENCHMARKS[selectedIndustryId];
+  const stressScore = currentMode && currentIndustry 
+    ? calculateStressScore(currentMode, currentIndustry) 
+    : null;
+  const industryInsight = currentMode && currentIndustry
+    ? getIndustryBenchmarkInsight(currentMode, currentIndustry)
+    : '';
 
   // Risk appetite labels
   const riskAppetiteLabels = ['Conservative', 'Moderate', 'Aggressive'];
@@ -1079,8 +1105,69 @@ export const CruciblePage: React.FC = () => {
         </div>
       </div>
 
-      {/* Risk Appetite & Assumptions Bar */}
+      {/* Mode Selection & Risk Appetite Bar */}
       <div className="max-w-7xl mx-auto px-6 pt-6">
+        {/* Mode Info Banner */}
+        {currentMode && (
+          <ModeInfoBanner 
+            mode={currentMode} 
+            primeDirective={currentMode.primeDirective} 
+          />
+        )}
+        
+        {/* Industry Insight */}
+        {industryInsight && <IndustryInsight insight={industryInsight} />}
+        
+        {/* Stress Score Summary */}
+        {stressScore && (
+          <div className="mt-4 mb-4 p-4 bg-gray-800/50 border border-gray-700 rounded-lg">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-4">
+                <div className="text-center">
+                  <div className="text-2xl font-bold" style={{ color: currentMode?.color }}>
+                    {stressScore.score}
+                  </div>
+                  <div className="text-xs text-gray-500">Stress Score</div>
+                </div>
+                <div className="h-8 w-px bg-gray-700" />
+                <div>
+                  <div className="text-sm text-gray-300">
+                    Risk Level: <span className={`font-medium ${
+                      stressScore.riskLevel === 'Low' ? 'text-green-400' :
+                      stressScore.riskLevel === 'Medium' ? 'text-yellow-400' :
+                      stressScore.riskLevel === 'High' ? 'text-orange-400' : 'text-red-400'
+                    }`}>{stressScore.riskLevel}</span>
+                  </div>
+                  <div className="flex flex-wrap gap-1 mt-1">
+                    {stressScore.recommendations.slice(0, 2).map((rec, i) => (
+                      <span key={i} className="px-2 py-0.5 bg-purple-500/20 text-purple-400 text-xs rounded">
+                        {rec}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+              <div className="flex items-center gap-2">
+                <ModeSelector
+                  label=""
+                  modes={CRUCIBLE_MODES}
+                  selectedModeId={selectedModeId}
+                  onModeChange={setSelectedModeId}
+                  coreModeIds={[...CORE_CRUCIBLE_MODES]}
+                  className="w-56"
+                />
+                <IndustrySelector
+                  label=""
+                  industries={INDUSTRY_FAILURE_BENCHMARKS}
+                  selectedIndustryId={selectedIndustryId}
+                  onIndustryChange={setSelectedIndustryId}
+                  className="w-48"
+                />
+              </div>
+            </div>
+          </div>
+        )}
+
         <div className="bg-slate-900/80 border border-purple-500/30 rounded-xl p-4 mb-6">
           <div className="flex items-center justify-between flex-wrap gap-4">
             {/* Risk Appetite Slider */}

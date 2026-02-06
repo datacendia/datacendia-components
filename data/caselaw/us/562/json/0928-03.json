@@ -1,0 +1,59 @@
+{
+  "id": 5951179,
+  "name": "Bernazal v. United States",
+  "name_abbreviation": "Bernazal v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5543",
+  "first_page": "928",
+  "last_page": "928",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 928"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.554,
+    "sha256": "21e802404fdbdb56a0299198a04bf7c05170dcd0858a2d6ef4a10790e513ba2f",
+    "simhash": "1:15f88a132b8f985a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bernazal v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5543.\nBernazal v. United States."
+  },
+  "file_name": "0928-03",
+  "first_page_order": 950,
+  "last_page_order": 950
+}

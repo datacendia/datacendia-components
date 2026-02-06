@@ -1,0 +1,59 @@
+{
+  "id": 6024378,
+  "name": "Durrett v. United States",
+  "name_abbreviation": "Durrett v. United States",
+  "decision_date": "2011-03-07",
+  "docket_number": "No. 10-8882",
+  "first_page": "1279",
+  "last_page": "1279",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1279"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.659,
+    "sha256": "def592d87d10cc0841924bee15274b146ce7763cae9954b761caa27293295a3d",
+    "simhash": "1:87b8d38a8d4e1e4e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Durrett v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8882.\nDurrett v. United States."
+  },
+  "file_name": "1279-09",
+  "first_page_order": 1301,
+  "last_page_order": 1301
+}

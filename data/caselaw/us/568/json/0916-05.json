@@ -1,0 +1,59 @@
+{
+  "id": 12416163,
+  "name": "King v. United States",
+  "name_abbreviation": "King v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5521",
+  "first_page": "916",
+  "last_page": "916",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 916"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.632,
+    "sha256": "f8e95362d445e7067bc7705fd261db3e7edaf26dc7361bd6d48a78eba1fd8ad6",
+    "simhash": "1:80aa06070e0d0938",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "King v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5521.\nKing v. United States."
+  },
+  "file_name": "0916-05",
+  "first_page_order": 992,
+  "last_page_order": 992
+}

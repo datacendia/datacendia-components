@@ -1,0 +1,59 @@
+{
+  "id": 12217719,
+  "name": "Johnson v. Ryan, Warden",
+  "name_abbreviation": "Johnson v. Ryan",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5181",
+  "first_page": "894",
+  "last_page": "894",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 894"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.733,
+    "sha256": "e1ee04e65222fd875d9f63868f787cd10f82d5f4815bb12aaceba4fa8ab3b6bf",
+    "simhash": "1:3060b8e8b09f2018",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Johnson v. Ryan, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5181.\nJohnson v. Ryan, Warden."
+  },
+  "file_name": "0894-01",
+  "first_page_order": 976,
+  "last_page_order": 976
+}

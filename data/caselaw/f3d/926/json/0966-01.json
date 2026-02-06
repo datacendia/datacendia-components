@@ -1,0 +1,595 @@
+{
+  "id": 12521472,
+  "name": "UNITED STATES of America, Plaintiff - Appellee v. Trudale Raymond WILLIAMS, Defendant - Appellant United States of America, Plaintiff - Appellee v. Demario Jaqun Jefferson, Defendant - Appellant",
+  "name_abbreviation": "United States v. Williams",
+  "decision_date": "2019-06-13",
+  "docket_number": "No. 18-1273; No. 18-1274",
+  "first_page": "966",
+  "last_page": "971",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "926 F.3d 966"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "8th Cir.",
+    "id": 8821,
+    "name": "United States Court of Appeals for the Eighth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "551 U.S. 338",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3573000
+      ],
+      "weight": 3,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "347"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/551/0338-01"
+      ]
+    },
+    {
+      "cite": "480 F.3d 1175",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3895901
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "1177"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/480/1175-01"
+      ]
+    },
+    {
+      "cite": "698 F.3d 667",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3628140
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "670",
+          "parenthetical": "quoting United States v. Watson, 480 F.3d 1175, 1177 (8th Cir. 2007) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/698/0667-01"
+      ]
+    },
+    {
+      "cite": "828 F.3d 654",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4335699
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "657"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/828/0654-01"
+      ]
+    },
+    {
+      "cite": "65 F.3d 691",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7412733
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "694",
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/65/0691-01"
+      ]
+    },
+    {
+      "cite": "993 F.2d 171",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10511264
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "172",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/993/0171-01"
+      ]
+    },
+    {
+      "cite": "134 S.Ct. 1240",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12707001,
+        12578373
+      ],
+      "weight": 2,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "parenthetical": "noting that a \u00a7 924(c) conviction requires the prosecutor to \"prove the commission of a predicate (violent or drug trafficking) offense\""
+        },
+        {
+          "parenthetical": "noting that a \u00a7 924(c) conviction requires the prosecutor to \"prove the commission of a predicate (violent or drug trafficking) offense\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/572/0065-01",
+        "/s-ct/134/1240-01"
+      ]
+    },
+    {
+      "cite": "572 U.S. 65",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12707001
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "71",
+          "parenthetical": "noting that a \u00a7 924(c) conviction requires the prosecutor to \"prove the commission of a predicate (violent or drug trafficking) offense\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/572/0065-01"
+      ]
+    },
+    {
+      "cite": "873 F.3d 1035",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12266632
+      ],
+      "weight": 3,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1041"
+        },
+        {
+          "page": "1041",
+          "parenthetical": "cleaned up"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/873/1035-01"
+      ]
+    },
+    {
+      "cite": "832 F.3d 844",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4350550
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "847"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/832/0844-01"
+      ]
+    },
+    {
+      "cite": "863 F.3d 1053",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12276075
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1056",
+          "parenthetical": "quoting United States v. Headbird, 832 F.3d 844, 847 (8th Cir. 2016) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/863/1053-01"
+      ]
+    },
+    {
+      "cite": "136 S. Ct. 2243",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12598042
+      ],
+      "weight": 8,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "2249"
+        },
+        {
+          "page": "2250"
+        },
+        {
+          "page": "2256"
+        },
+        {
+          "page": "2257"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/136/2243-01"
+      ]
+    },
+    {
+      "cite": "639 F.3d 489",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4202801
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "495"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/639/0489-01"
+      ]
+    },
+    {
+      "cite": "2019 WL 2078123",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 2,
+      "year": 2019,
+      "opinion_index": 0
+    },
+    {
+      "cite": "204 L.Ed.2d 219",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "year": 2019,
+      "opinion_index": 0
+    },
+    {
+      "cite": "139 S.Ct. 2010",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12620264,
+        12620265,
+        12620266,
+        12620267,
+        12620268,
+        12620269
+      ],
+      "year": 2019,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/139/2010-01",
+        "/s-ct/139/2010-02",
+        "/s-ct/139/2010-03",
+        "/s-ct/139/2010-04",
+        "/s-ct/139/2010-05",
+        "/s-ct/139/2010-06"
+      ]
+    },
+    {
+      "cite": "744 F. App'x 319",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "322",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2019 WL 2414458",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2019,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "203 L.Ed.2d 274",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12618007,
+        12618008,
+        12618009,
+        12618010,
+        12618012,
+        12618013,
+        12618014,
+        12618015
+      ],
+      "year": 2019,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/139/1253-04",
+        "/s-ct/139/1253-05",
+        "/s-ct/139/1253-06",
+        "/s-ct/139/1254-01",
+        "/s-ct/139/1254-03",
+        "/s-ct/139/1254-04",
+        "/s-ct/139/1254-05",
+        "/s-ct/139/1254-06"
+      ]
+    },
+    {
+      "cite": "139 S. Ct. 1254",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12618010,
+        12618011,
+        12618012,
+        12618013,
+        12618014,
+        12618015
+      ],
+      "year": 2019,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/139/1254-01",
+        "/s-ct/139/1254-02",
+        "/s-ct/139/1254-03",
+        "/s-ct/139/1254-04",
+        "/s-ct/139/1254-05",
+        "/s-ct/139/1254-06"
+      ]
+    },
+    {
+      "cite": "877 F.3d 800",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12266072
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "806"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/877/0800-01"
+      ]
+    },
+    {
+      "cite": "203 L.Ed.2d 281",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12618031,
+        12618033,
+        12618034,
+        12618035,
+        12618195,
+        12618037,
+        12618038,
+        12618196
+      ],
+      "year": 2019,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/139/1257-04",
+        "/s-ct/139/1258-01",
+        "/s-ct/139/1258-02",
+        "/s-ct/139/1258-03",
+        "/s-ct/139/1282-06",
+        "/s-ct/139/1258-05",
+        "/s-ct/139/1258-06",
+        "/s-ct/139/1283-01"
+      ]
+    },
+    {
+      "cite": "139 S. Ct. 1258",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12618033,
+        12618034,
+        12618035,
+        12618036,
+        12618037,
+        12618038
+      ],
+      "year": 2019,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/139/1258-01",
+        "/s-ct/139/1258-02",
+        "/s-ct/139/1258-03",
+        "/s-ct/139/1258-04",
+        "/s-ct/139/1258-05",
+        "/s-ct/139/1258-06"
+      ]
+    },
+    {
+      "cite": "888 F.3d 962",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516750
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "964-66"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/888/0962-01"
+      ]
+    },
+    {
+      "cite": "474 F.3d 538",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5713661
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "540"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/474/0538-01"
+      ]
+    },
+    {
+      "cite": "659 F.3d 716",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3840050
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "717",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/659/0716-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 924",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(c)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "Minn. Stat. \u00a7 609.24",
+      "category": "laws:leg_statute",
+      "reporter": "Minn. Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 922",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(g)(1)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 599,
+    "char_count": 11959,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25935778495194123
+    },
+    "sha256": "cfe312b32688df9ced8c1b4b44a11a54738f3aa55fe1651cb811cde3121ba5a3",
+    "simhash": "1:8f9def3cbc0bb18e",
+    "word_count": 1904
+  },
+  "last_updated": "2024-02-27T18:46:44.951673+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before LOKEN, COLLOTON, and KELLY, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff - Appellee\nv.\nTrudale Raymond WILLIAMS, Defendant - Appellant"
+    ],
+    "opinions": [
+      {
+        "text": "KELLY, Circuit Judge.\nTrudale Williams and Demario Jefferson appeal the sentences imposed by the district court after they each pleaded guilty to possessing a firearm after being convicted of a felony, in violation of 18 U.S.C. \u00a7 922(g)(1). We address Williams's arguments first, then Jefferson's, and we affirm both sentences.\nI\nSection 2K2.1 of the U.S. Sentencing Guidelines establishes the base offense level for offenses committed under \u00a7 922(g)(1). The applicable base offense level is 24 \"if the defendant committed any part of the instant offense subsequent to sustaining at least two felony convictions of either a crime of violence or a controlled substance offense.\" USSG \u00a7 2K2.1(a)(2). At the time of sentencing, Williams had two prior felony convictions: a 2009 conviction for simple robbery, in violation of Minn. Stat. \u00a7 609.24, and a 2012 conviction for possession of a firearm in furtherance of a drug trafficking crime, in violation of 18 U.S.C. \u00a7 924(c)(1). In calculating his base offense level, the district court characterized the robbery conviction as a \"crime of violence\" and the \u00a7 924(c)(1) conviction as a \"controlled substance offense.\" Williams objected to both characterizations, but the court overruled his objections and sentenced him to 100 months of imprisonment, the bottom of the Guidelines range. On appeal, we review de novo whether a prior conviction qualifies as a crime of violence or controlled substance offense under the Guidelines. United States v. Tessmer, 659 F.3d 716, 717 (8th Cir. 2011) (per curiam); United States v. Robertson, 474 F.3d 538, 540 (8th Cir. 2007).\nA\nAs Williams acknowledges, his argument that Minnesota robbery does not qualify as a crime of violence under the Guidelines is foreclosed by precedent. We have previously held that Minnesota simple robbery meets the Armed Career Criminal Act's (ACCA) definition of \"violent felony\" under the force clause. See United States v. Pettis, 888 F.3d 962, 964-66 (8th Cir. 2018), cert. denied, --- U.S. ----, 139 S. Ct. 1258, 203 L.Ed.2d 281 (2019). Because the ACCA's force clause is nearly identical to the force clause contained in the Guidelines' definition of crime of violence, we construe the clauses interchangeably. United States v. Hall, 877 F.3d 800, 806 (8th Cir. 2017), cert. denied, --- U.S. ----, 139 S. Ct. 1254, 203 L.Ed.2d 274 (2019). Thus, Williams's 2009 robbery conviction is a crime of violence. See United States v. Robinson, No. 18-1420, slip op. at 3, 2019 WL 2414458 (8th Cir. June 10, 2019) (per curiam); United States v. Bjerke, 744 F. App'x 319, 322 (8th Cir. 2018) (per curiam), cert. denied, No. 18-6993, --- U.S. ----, 139 S.Ct. 2010, 204 L.Ed.2d 219, 2019 WL 2078123 (U.S. May 13, 2019).\nB\nThe more complex issue is whether Williams's 2012 conviction under \u00a7 924(c)(1) qualifies as a controlled substance offense under the Guidelines. A controlled substance offense is \"an offense under federal or state law, punishable by imprisonment for a term exceeding one year, that prohibits the manufacture, import, export, distribution, or dispensing of a controlled substance (or a counterfeit substance) or the possession of a controlled substance (or a counterfeit substance) with intent to manufacture, import, export, distribute, or dispense.\" USSG \u00a7 4B1.2(b) ; see id. \u00a7 2K2.1 cmt. n.1 (incorporating this definition). To determine whether a prior conviction meets this definition, we apply the \"categorical approach,\" under which we look to the elements of the crime of conviction rather than how a particular defendant might have committed the offense. United States v. Robinson, 639 F.3d 489, 495 (8th Cir. 2011). Where a statute is \"divisible,\" that is, lists multiple elements in the alternative and \"thereby define[s] multiple crimes,\" we apply the \"modified categorical approach,\" examining a limited class of documents-including the indictment, jury instructions, plea agreement, and plea colloquy-to determine which crime the defendant was convicted of.\nMathis v. United States, --- U.S. ----, 136 S. Ct. 2243, 2249, 195 L.Ed.2d 604 (2016). We can then compare the elements of that crime to the Guidelines' definition.\nTo determine whether a statute is divisible, \"we ascertain 'which words or phrases in the statute are elements of the crime,' as opposed to the means, or specific facts, of satisfying these elements.\" United States v. McMillan, 863 F.3d 1053, 1056 (8th Cir. 2017) (quoting United States v. Headbird, 832 F.3d 844, 847 (8th Cir. 2016) ). \"The elements of a crime 'are what the jury must find beyond a reasonable doubt to convict the defendant; and at a plea hearing, they are what the defendant necessarily admits when he pleads guilty.' \" Id. (quoting Mathis, 136 S. Ct. at 2248 ). \"When analyzing which words or phrases of a statute form the elements of a crime, courts may look to the statute of prior conviction, ... court decisions, and, as a last resort, 'the record of a prior conviction itself.' \" Id. at 1057 (quoting Mathis, 136 S. Ct. at 2256 ).\nSection 924(c)(1) applies to \"any person who, during and in relation to any crime of violence or drug trafficking crime ... for which the person may be prosecuted in a court of the United States, uses or carries a firearm, or who, in furtherance of any such crime, possesses a firearm.\" Thus, to violate \u00a7 924(c)(1), the defendant must have committed either a \"crime of violence\" or a \"drug trafficking crime.\" We have previously concluded that these terms are alternative elements of \u00a7 924(c)(1), rather than means. United States v. Boman, 873 F.3d 1035, 1041 (8th Cir. 2017). In Williams's case, this means that he \"necessarily admitted\" that he committed a drug trafficking crime when he pleaded guilty to violating \u00a7 924(c)(1). Id. (quoting Mathis, 136 S. Ct. at 2255 ). The term \"drug trafficking crime\" means \"any felony punishable under the Controlled Substances Act ( 21 U.S.C. 801 et seq. ), the Controlled Substances Import and Export Act ( 21 U.S.C. 951 et seq. ), or chapter 705 of title 46.\" \u00a7 924(c)(2). This definition is quite broad, and even the government acknowledges that some felonies within it may not meet the Guidelines' definition of a controlled substance offense. Williams argues that these underlying felonies are merely alternative means of committing a drug trafficking crime and that he did not admit to committing any particular underlying felony when he pleaded guilty to violating \u00a7 924(c)(1).\nWe disagree. Our case law indicates that the underlying felony is an element of-not merely a means of committing-the \u00a7 924(c)(1) offense. To prove a violation of \u00a7 924(c)(1), \"the jury ... must find that the defendant committed all the acts necessary to be subject to punishment for the underlying offense.\" Boman, 873 F.3d at 1041 (cleaned up); see Rosemond v. United States, 572 U.S. 65, 71, 134 S.Ct. 1240, 188 L.Ed.2d 248 (2014) (noting that a \u00a7 924(c) conviction requires the prosecutor to \"prove the commission of a predicate (violent or drug trafficking) offense\"). Even if the underlying felony is not separately charged, there must be proof beyond a reasonable doubt of all of the elements of that offense to sustain the \u00a7 924(c)(1) conviction. See Myers v. United States, 993 F.2d 171, 172 (8th Cir. 1993) (per curiam). This makes the specific underlying felony an element of the \u00a7 924(c)(1) offense. See Mathis, 136 S. Ct. at 2250.\nWilliams's record of conviction confirms that the underlying felony is an element of the \u00a7 924(c)(1) offense. See Mathis, 136 S. Ct. at 2256. Williams's indictment alleged that he \"did knowingly use and carry a firearm during and in relation to [a] drug trafficking crime ... namely, conspiracy to distribute controlled substances.\" Thus, when Williams pleaded guilty, he did not admit to committing just any drug trafficking crime; he conceded guilt as to a particular underlying felony. This reaffirms our conclusion that the felony is an element of \u00a7 924(c)(1). See Mathis, 136 S. Ct. at 2257. Accordingly, the modified categorical approach applies.\nApplying the modified categorical approach, we conclude that Williams's conviction meets the definition of a controlled substance offense. Williams's underlying felony was conspiracy to distribute controlled substances, which is a controlled substance offense. See United States v. Mendoza-Figueroa, 65 F.3d 691, 694 (8th Cir. 1995) (en banc). Because his underlying felony qualifies as a controlled substance offense, his conviction under \u00a7 924(c)(1) does too. USSG \u00a7 4B1.2(b) cmt. n.1. The district court accordingly committed no procedural error in calculating Williams's base offense level.\nII\nJefferson did not object to his Guidelines range of 70 to 87 months of imprisonment, followed by a term of supervised release of one to three years, but asked for a downward variance to 60 months. The district court imposed a 70-month sentence and a three-year term of supervised release. He appeals his sentence as substantively unreasonable and argues that his period of supervised release is unconstitutional. We review for an abuse of discretion. United States v. Clayton, 828 F.3d 654, 657 (8th Cir. 2016). \"A sentencing court abuses its discretion if it fails to consider a relevant factor that should have received significant weight, gives significant weight to an improper or irrelevant factor, or considers only the appropriate factors but commits a clear error of judgment in weighing those factors.\" United States v. Cook, 698 F.3d 667, 670 (8th Cir. 2012) (quoting United States v. Watson, 480 F.3d 1175, 1177 (8th Cir. 2007) ). Because Jefferson's sentence was within the Guidelines range, it is entitled to a \"presumption of reasonableness.\" Rita v. United States, 551 U.S. 338, 347, 127 S.Ct. 2456, 168 L.Ed.2d 203 (2007).\nJefferson argues that the district court failed to properly weigh his mitigating personal history. At sentencing, the district court acknowledged Jefferson's mitigating circumstances. The court concluded, however, that these were counterbalanced by several aggravating factors, including Jefferson's participation in \"a very dangerous, violent gang\" and his \"pretty lengthy criminal history.\" Under these circumstances, the court did not abuse its discretion by sentencing Jefferson to a period of incarceration at the bottom of the Guidelines range. And it was neither unconstitutional nor an abuse of discretion to impose a three-year term of supervised release.\nIII\nFor the reasons stated above, we affirm both sentences.\nThe Honorable Susan Richard Nelson, United States District Judge for the District of Minnesota.\nThe Guidelines Commentary accompanying the definition of controlled substance offense is consistent with this approach. It clarifies that a \u00a7 924(c) offense qualifies as a controlled substance offense if the underlying felony meets the definition of a controlled substance offense. USSG \u00a7 4B1.2 cmt. n.1. That instruction necessarily requires a reviewing court to examine the record of conviction to determine the nature of the underlying felony using the modified categorical approach.",
+        "type": "majority",
+        "author": "KELLY, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Andrew Dunne, Nathan Hoye Nelson, Assistant U.S. Attorneys, U.S. ATTORNEY'S OFFICE, District of Minnesota, Minneapolis, MN, for Plaintiff - Appellee.",
+      "Manvir Kaur Atwal, Assistant Federal Public Defender, FEDERAL PUBLIC DEFENDER'S OFFICE, Minneapolis, MN, for Defendant - Appellant Trudale Raymond Williams.",
+      "Michael John Millios, LAW OFFICES OF MICHAEL J. MILLIOS, Minneapolis, MN, for Defendant - Appellant Demario Jaqun Jefferson."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff - Appellee\nv.\nTrudale Raymond WILLIAMS, Defendant - Appellant\nUnited States of America, Plaintiff - Appellee\nv.\nDemario Jaqun Jefferson, Defendant - Appellant\nNo. 18-1273\nNo. 18-1274\nUnited States Court of Appeals, Eighth Circuit.\nSubmitted: February 11, 2019\nFiled: June 13, 2019\nAndrew Dunne, Nathan Hoye Nelson, Assistant U.S. Attorneys, U.S. ATTORNEY'S OFFICE, District of Minnesota, Minneapolis, MN, for Plaintiff - Appellee.\nManvir Kaur Atwal, Assistant Federal Public Defender, FEDERAL PUBLIC DEFENDER'S OFFICE, Minneapolis, MN, for Defendant - Appellant Trudale Raymond Williams.\nTrudale Raymond Williams, Pro Se.\nDemario Jaqun Jefferson, Pro Se.\nMichael John Millios, LAW OFFICES OF MICHAEL J. MILLIOS, Minneapolis, MN, for Defendant - Appellant Demario Jaqun Jefferson.\nBefore LOKEN, COLLOTON, and KELLY, Circuit Judges."
+  },
+  "file_name": "0966-01",
+  "first_page_order": 966,
+  "last_page_order": 971
+}

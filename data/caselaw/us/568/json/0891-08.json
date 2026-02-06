@@ -1,0 +1,59 @@
+{
+  "id": 12415198,
+  "name": "Jackson v. Kansas",
+  "name_abbreviation": "Jackson v. Kansas",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5037",
+  "first_page": "891",
+  "last_page": "891",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 891"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 65,
+    "ocr_confidence": 0.688,
+    "sha256": "94598774d69711a5b6b5f6ed30d8e9b84ce44c56eaabb6c8cb0c58cc1b8ed03c",
+    "simhash": "1:9bab70495d4169c0",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jackson v. Kansas."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Kan. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5037.\nJackson v. Kansas."
+  },
+  "file_name": "0891-08",
+  "first_page_order": 967,
+  "last_page_order": 967
+}

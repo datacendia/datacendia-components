@@ -1,0 +1,59 @@
+{
+  "id": 12413512,
+  "name": "Burgard v. United States",
+  "name_abbreviation": "Burgard v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10613",
+  "first_page": "852",
+  "last_page": "852",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 852"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.594,
+    "sha256": "9a77b95d8b66ed4913f1069f75adfc91340d20826e75f405b489d9697af29286",
+    "simhash": "1:a2cbfe09cf1d5c38",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Burgard v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10613.\nBurgard v. United States."
+  },
+  "file_name": "0852-01",
+  "first_page_order": 928,
+  "last_page_order": 928
+}

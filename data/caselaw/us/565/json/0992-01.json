@@ -1,0 +1,59 @@
+{
+  "id": 12231820,
+  "name": "Abebe v. United States",
+  "name_abbreviation": "Abebe v. United States",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. 11-6561",
+  "first_page": "992",
+  "last_page": "992",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 992"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.671,
+    "sha256": "8cfd932c8a9ce952f1c51e30301f353ece309dd73e40aed7a4400a11d426ea1a",
+    "simhash": "1:85888ac3caa5d119",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Abebe v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6561.\nAbebe v. United States."
+  },
+  "file_name": "0992-01",
+  "first_page_order": 1074,
+  "last_page_order": 1074
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12427797,
+  "name": "Andersen v. Rochester City School District",
+  "name_abbreviation": "Andersen v. Rochester City School District",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-190",
+  "first_page": "1085",
+  "last_page": "1085",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1085"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 89,
+    "ocr_confidence": 0.708,
+    "sha256": "b0ea67aeee802a82e1141dc27bce426b6d50d1cca439a0cdaf0f9d2f7da157d1",
+    "simhash": "1:39d381d14916360c",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Andersen v. Rochester City School District."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-190.\nAndersen v. Rochester City School District."
+  },
+  "file_name": "1085-06",
+  "first_page_order": 1161,
+  "last_page_order": 1161
+}

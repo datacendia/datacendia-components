@@ -1,0 +1,59 @@
+{
+  "id": 12410736,
+  "name": "Spurlin v. United States",
+  "name_abbreviation": "Spurlin v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-9389",
+  "first_page": "828",
+  "last_page": "828",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 828"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.669,
+    "sha256": "dfeaa60a11cfdee2277abe92cd9a2692bc5359a053063b37eeb175aa13a688e0",
+    "simhash": "1:8798d382480c0d4e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Spurlin v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9389.\nSpurlin v. United States."
+  },
+  "file_name": "0828-04",
+  "first_page_order": 904,
+  "last_page_order": 904
+}

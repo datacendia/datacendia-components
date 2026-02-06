@@ -1,0 +1,59 @@
+{
+  "id": 5920711,
+  "name": "Stevens v. California",
+  "name_abbreviation": "Stevens v. California",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-9705",
+  "first_page": "842",
+  "last_page": "842",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 842"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 69,
+    "ocr_confidence": 0.627,
+    "sha256": "60c038f0af4270856d29021531aa29567846ad32984084000b2747f3721ae054",
+    "simhash": "1:962e97f58f578b5d",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Stevens v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Cal. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-9705.\nStevens v. California."
+  },
+  "file_name": "0842-08",
+  "first_page_order": 864,
+  "last_page_order": 864
+}

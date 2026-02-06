@@ -1,0 +1,59 @@
+{
+  "id": 12252042,
+  "name": "Ernandez v. Merrill Lynch",
+  "name_abbreviation": "Ernandez v. Merrill Lynch",
+  "decision_date": "2012-03-19",
+  "docket_number": "No. 11-8293",
+  "first_page": "1266",
+  "last_page": "1266",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1266"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.659,
+    "sha256": "77f77cf2647b87e1448f04b5bba40b88a04bd279849085ec079a032c8084dbb8",
+    "simhash": "1:6803cc370a3cb4fc",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ernandez v. Merrill Lynch."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8293.\nErnandez v. Merrill Lynch."
+  },
+  "file_name": "1266-10",
+  "first_page_order": 1348,
+  "last_page_order": 1348
+}

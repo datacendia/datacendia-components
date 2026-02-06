@@ -1,0 +1,59 @@
+{
+  "id": 12214919,
+  "name": "Moore v. USC University Hospital, Inc., et al.",
+  "name_abbreviation": "Moore v. USC University Hospital, Inc.",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-150",
+  "first_page": "884",
+  "last_page": "884",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 884"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 93,
+    "ocr_confidence": 0.694,
+    "sha256": "51aebcbcc2fecff1c64d1ff5c9d82b0e0ae75b2b7942572f7853157952c8ec9f",
+    "simhash": "1:939920ab6987a174",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Moore v. USC University Hospital, Inc., et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-150.\nMoore v. USC University Hospital, Inc., et al."
+  },
+  "file_name": "0884-01",
+  "first_page_order": 966,
+  "last_page_order": 966
+}

@@ -1,0 +1,61 @@
+{
+  "id": 5940076,
+  "name": "Daniels v. United States",
+  "name_abbreviation": "Daniels v. United States",
+  "decision_date": "2011-05-31",
+  "docket_number": "No. 10-9454",
+  "first_page": "1029",
+  "last_page": "1029",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1029"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 161,
+    "ocr_confidence": 0.633,
+    "sha256": "0cbd3c8b2f7bf87a315e2d23ed5095d2e00042473f997861ab21a4a209a6a1a9",
+    "simhash": "1:1ff1a8c02feeda8f",
+    "word_count": 26
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Daniels v. United States"
+    ],
+    "opinions": [
+      {
+        "text": "ante, p. 956. Petition for rehearing denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9454.\nDaniels v. United States"
+  },
+  "file_name": "1029-07",
+  "first_page_order": 1055,
+  "last_page_order": 1055
+}

@@ -1,0 +1,1082 @@
+{
+  "id": 12188982,
+  "name": "VARTELAS v. HOLDER, ATTORNEY GENERAL",
+  "name_abbreviation": "Vartelas v. Holder",
+  "decision_date": "2012-03-28",
+  "docket_number": "No. 10-1211",
+  "first_page": "257",
+  "last_page": "283",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 257"
+    },
+    {
+      "type": "parallel",
+      "cite": "182 L. Ed. 2d 473"
+    },
+    {
+      "type": "parallel",
+      "cite": "132 S. Ct. 1479"
+    },
+    {
+      "type": "vendor",
+      "cite": "2012 U.S. LEXIS 2540"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2011-042"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "20 U. S. C. \u00a7 1091",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(r)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "378 U. S. 500",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6166812
+      ],
+      "year": 1964,
+      "pin_cites": [
+        {
+          "page": "519-520",
+          "parenthetical": "Douglas, J., concurring"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/378/0500-01"
+      ]
+    },
+    {
+      "cite": "357 U. S. 116",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6161402
+      ],
+      "year": 1958,
+      "pin_cites": [
+        {
+          "page": "126",
+          "parenthetical": "\"Freedom of movement across frontiers . . . may be as close to the heart of the individual as the choice of what he eats, or wears, or reads.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/357/0116-01"
+      ]
+    },
+    {
+      "cite": "373 F. 3d 480",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9232602
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "491"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/373/0480-01"
+      ]
+    },
+    {
+      "cite": "334 U. S. 728",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6159137
+      ],
+      "year": 1948,
+      "pin_cites": [
+        {
+          "page": "732"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/334/0728-01"
+      ]
+    },
+    {
+      "cite": "515 U. S. 389",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1563793
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "400",
+          "parenthetical": "quoting Gryger v. Burke, 334 U. S. 728, 732 (1948)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/515/0389-01"
+      ]
+    },
+    {
+      "cite": "82 Stat. 236",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "pin_cites": [
+        {
+          "parenthetical": "noting hazards involved when felons possess firearms"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "554 U. S. 570",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3677081
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "626"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/554/0570-01"
+      ]
+    },
+    {
+      "cite": "258 F. 3d 587",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11082264
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "594"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/258/0587-01"
+      ]
+    },
+    {
+      "cite": "371 F. 3d 430",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9228431
+      ],
+      "weight": 2,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "436"
+        },
+        {
+          "page": "436",
+          "parenthetical": "hazardous conduct that statute targets \"occurred after enactment of the statute\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/371/0430-01"
+      ]
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 922",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(g)"
+        },
+        {
+          "page": "(g)(4)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "8 U. S. C. \u00a7 1231",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(5)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "548 U. S. 30",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3500303
+      ],
+      "weight": 3,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "44",
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/548/0030-01"
+      ]
+    },
+    {
+      "cite": "518 F. 2d 352",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1121999
+      ],
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "364-365",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/518/0352-01"
+      ]
+    },
+    {
+      "cite": "555 F. 2d 407",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        961710
+      ],
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "416-417"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/555/0407-01"
+      ]
+    },
+    {
+      "cite": "112 U. S. 536",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3508162
+      ],
+      "weight": 2,
+      "year": 1884,
+      "pin_cites": [
+        {
+          "page": "559"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/112/0536-01"
+      ]
+    },
+    {
+      "cite": "559 U. S. 356",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3581896,
+        12447673
+      ],
+      "weight": 2,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "365-366, 373-374"
+        },
+        {
+          "page": "366-369",
+          "parenthetical": "holding that counsel has a duty under the Sixth Amendment to inform a noncitizen defendant that his plea would make him eligible for deportation"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/559/0356-01",
+        "/l-ed-2d/176/0284-01"
+      ]
+    },
+    {
+      "cite": "520 U. S. 939",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11653538
+      ],
+      "weight": 5,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "947"
+        },
+        {
+          "page": "946-950"
+        },
+        {
+          "page": "941-942"
+        },
+        {
+          "page": "947"
+        },
+        {
+          "page": "948"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/520/0939-01"
+      ]
+    },
+    {
+      "cite": "533 U. S. 289",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9313153
+      ],
+      "weight": 9,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "321",
+          "parenthetical": "invoking Story's formulation"
+        },
+        {
+          "page": "317-320"
+        },
+        {
+          "page": "319-320"
+        },
+        {
+          "page": "321-323"
+        },
+        {
+          "page": "321",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "325"
+        },
+        {
+          "page": "317-320"
+        },
+        {
+          "page": "322"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/533/0289-01"
+      ]
+    },
+    {
+      "cite": "22 F. Cas. 756",
+      "category": "reporters:federal",
+      "reporter": "F. Cas.",
+      "case_ids": [
+        6627259
+      ],
+      "pin_cites": [
+        {
+          "page": "767"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-cas/22/0756-01"
+      ]
+    },
+    {
+      "cite": "511 U. S. 244",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1147362
+      ],
+      "weight": 12,
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "263"
+        },
+        {
+          "page": "265"
+        },
+        {
+          "page": "266"
+        },
+        {
+          "page": "283"
+        },
+        {
+          "page": "280"
+        },
+        {
+          "page": "280"
+        },
+        {
+          "page": "280"
+        },
+        {
+          "page": "280-286"
+        },
+        {
+          "page": "282, n. 35"
+        },
+        {
+          "page": "283, n. 35"
+        },
+        {
+          "page": "269-270"
+        },
+        {
+          "page": "270",
+          "parenthetical": "presumption reflects \"familiar considerations of fair notice, reasonable reliance, and settled expectations\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/511/0244-01"
+      ]
+    },
+    {
+      "cite": "564 U. S. 1066",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12451296,
+        12451297,
+        5923234,
+        5930275,
+        4332740,
+        12451301,
+        12451300,
+        12451302,
+        5925928,
+        12451303,
+        5930730,
+        12451299,
+        4335311,
+        12451298,
+        5924029,
+        5929503
+      ],
+      "year": 2011,
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/180/0939-01",
+        "/l-ed-2d/180/0939-02",
+        "/us/564/1066-06",
+        "/us/564/1066-07",
+        "/us/564/1066-08",
+        "/l-ed-2d/180/0939-06",
+        "/l-ed-2d/180/0939-05",
+        "/l-ed-2d/180/0939-07",
+        "/us/564/1066-01",
+        "/l-ed-2d/180/0940-01",
+        "/us/564/1066-02",
+        "/l-ed-2d/180/0939-04",
+        "/us/564/1066-03",
+        "/l-ed-2d/180/0939-03",
+        "/us/564/1066-05",
+        "/us/564/1066-04"
+      ]
+    },
+    {
+      "cite": "500 F. 3d 872",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3699789
+      ],
+      "year": 2007,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/500/0872-01"
+      ]
+    },
+    {
+      "cite": "387 F. 3d 383",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9153402
+      ],
+      "weight": 3,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "389-395"
+        },
+        {
+          "page": "393",
+          "parenthetical": "discussing St. Cyr"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/387/0383-01"
+      ]
+    },
+    {
+      "cite": "620 F. 3d 108",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3782911
+      ],
+      "weight": 3,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "118-120"
+        },
+        {
+          "page": "119-121"
+        },
+        {
+          "page": "120"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/620/0108-01"
+      ]
+    },
+    {
+      "cite": "8 U. S. C. \u00a7 1182",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(c)",
+          "parenthetical": "1994 ed."
+        },
+        {
+          "page": "(a)(2)",
+          "parenthetical": "listing excludable crimes"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "289 U. S. 422",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3917345
+      ],
+      "year": 1933,
+      "pin_cites": [
+        {
+          "page": "423",
+          "parenthetical": "counterfeiting ranks as a crime of moral turpitude"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/289/0422-01"
+      ]
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 871",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 I. & N. Dec. 1061",
+      "category": "reporters:federal",
+      "reporter": "I. & N. Dec.",
+      "weight": 2,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "1065-1066",
+          "parenthetical": "en banc"
+        },
+        {
+          "page": "1066"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "565 U. S. 42",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12185803,
+        12444735
+      ],
+      "weight": 2,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "46"
+        },
+        {
+          "page": "46"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/565/0042-01",
+        "/l-ed-2d/181/0449-01"
+      ]
+    },
+    {
+      "cite": "8 U. S. C. \u00a7\u00a7 1229",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "459 U. S. 21",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6190607
+      ],
+      "weight": 2,
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "25"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/459/0021-01"
+      ]
+    },
+    {
+      "cite": "110 Stat. 3009",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "374 U. S. 449",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8665
+      ],
+      "weight": 5,
+      "year": 1963,
+      "pin_cites": [
+        {
+          "page": "461-462"
+        },
+        {
+          "page": "462"
+        },
+        {
+          "page": "462"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/374/0449-01"
+      ]
+    },
+    {
+      "cite": "8 U. S. C. \u00a7 1101",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 6,
+      "pin_cites": [
+        {
+          "page": "(a)(13)"
+        },
+        {
+          "page": "(a)(13)(C)(v)"
+        },
+        {
+          "page": "(a)(13)"
+        },
+        {
+          "page": "(a)(13)"
+        },
+        {
+          "page": "(a)(13)(C)(ii)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "543 U. S. 371",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3442797
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "380-381"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/543/0371-01"
+      ]
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 1961",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(5)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "431 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1636
+      ],
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "29"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/431/0001-01"
+      ]
+    },
+    {
+      "cite": "545 U. S. 469",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8209431
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "477-483"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/545/0469-01"
+      ]
+    },
+    {
+      "cite": "348 U. S. 483",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6931894
+      ],
+      "year": 1955,
+      "pin_cites": [
+        {
+          "page": "487"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/348/0483-01"
+      ]
+    },
+    {
+      "cite": "538 U. S. 84",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9030411
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "92"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/538/0084-01"
+      ]
+    },
+    {
+      "cite": "527 U. S. 343",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1248619
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "362-363",
+          "parenthetical": "Scalia, J., concurring in part and concurring in judgment"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/527/0343-01"
+      ]
+    },
+    {
+      "cite": "20 U. S. C. \u00a7 1091",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(r)(1)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 922",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(g)(4)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "548 U. S. 30",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3500303
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "45, n. 11, 46",
+          "parenthetical": "no retroactive effect where the statute in question did \"not operate on a completed preenactment act\" and instead turned on \"a failure to take timely action that would have avoided application of the new law altogether\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/548/0030-01"
+      ]
+    },
+    {
+      "cite": "518 F. 2d 352",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1121999
+      ],
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "364-365",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/518/0352-01"
+      ]
+    },
+    {
+      "cite": "555 F. 2d 407",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        961710
+      ],
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "416-417"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/555/0407-01"
+      ]
+    },
+    {
+      "cite": "511 U. S. 244",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1147362
+      ],
+      "weight": 2,
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "280"
+        },
+        {
+          "page": "291",
+          "parenthetical": "Scalia, J., concurring in judgments"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/511/0244-01"
+      ]
+    },
+    {
+      "cite": "620 F. 3d 108",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3782911
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "111"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/620/0108-01"
+      ]
+    },
+    {
+      "cite": "8 U. S. C. \u00a7 1182",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(c)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "110 Stat. 3009",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "374 U. S. 449",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8665
+      ],
+      "year": 1963,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/374/0449-01"
+      ]
+    },
+    {
+      "cite": "8 U. S. C. \u00a7 1101",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(13)(C)(v)"
+        }
+      ],
+      "opinion_index": 1
+    }
+  ],
+  "analysis": {
+    "cardinality": 1884,
+    "char_count": 49587,
+    "ocr_confidence": 0.615,
+    "pagerank": {
+      "raw": 1.7021620385664822e-06,
+      "percentile": 0.9933859078270586
+    },
+    "sha256": "b2661c3c30da44690271d9f6744bf33aec92d559d10a5bfbc561310ba155b9b1",
+    "simhash": "1:f05d34442dc3f69a",
+    "word_count": 7967
+  },
+  "last_updated": "2024-02-27T23:45:15.365324+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Ginsburg, J., delivered the opinion of the Court, in which Roberts, G. J., and Kennedy, Breyer, Sotomayor, and Kagan, JJ., joined. Scalia, J., filed a dissenting opinion, in which Thomas and Alito, JJ., joined, post, p. 276."
+    ],
+    "parties": [
+      "VARTELAS v. HOLDER, ATTORNEY GENERAL"
+    ],
+    "opinions": [
+      {
+        "text": "Justice Ginsburg\ndelivered the opinion of the Court.\nPanagis Vartelas, a native of Greece, became a lawful permanent resident of the United States in 1989. He pleaded guilty to a felony (conspiring to make a counterfeit security) in 1994, and served a prison sentence of four months for that offense. Vartelas traveled to Greece in 2003 to visit his parents. On his return to the United States a week later, he was treated as an inadmissible alien and placed in removal proceedings. Under the law governing at the time of Var-telas\u2019 plea, an alien in his situation could travel abroad for brief periods without jeopardizing his resident alien status. See 8 U. S. C. \u00a7 1101(a)(13) (1988 ed.), as construed in Rosenberg v. Fleuti, 374 U. S. 449 (1963).\nIn 1996, Congress enacted the Illegal Immigration Reform and Immigrant Responsibility Act (IIRIRA), 110 Stat. 3009-546. That Act effectively precluded foreign travel by lawful permanent residents who had a conviction like Vartelas\u2019. Under IIRIRA, such aliens, on return from a sojourn abroad, however brief, may be permanently removed from the United States. See 8 U. S. C. \u00a7 1101(a)(13)(C)(v); \u00a7 1182(a)(2).\nThis case presents a question of retroactivity not addressed by Congress: As to a lawful permanent resident convicted of a crime before the effective date of IIRIRA, which regime governs, the one in force at the time of the conviction, or IIRIRA? If the former, Vartelas\u2019 brief trip abroad would not disturb his lawful permanent resident status. If the latter, he may be denied reentry. We conclude that the relevant provision of IIRIRA, \u00a7 1101(a)(13)(C)(v), attached a new disability (denial of reentry) in respect to past events (Vartelas\u2019 pre-IIRIRA offense, plea, and conviction). Guided by the deeply rooted presumption against retroactive legislation, we hold that \u00a7 1101(a)(13)(C)(v) does not apply to Vartelas\u2019 conviction. The impact of Vartelas\u2019 brief travel abroad on his permanent resident status is therefore determined not by IIRIRA, but by the legal regime in force at the time of his conviction.\nI\nA\nBefore IIRIRA\u2019s passage, United States immigration law established \u201ctwo types of proceedings in which aliens can be denied the hospitality of the United States: deportation hearings and exclusion hearings.\u201d Landon v. Plasencia, 459 U. S. 21, 25 (1982). Exclusion hearings were held for certain aliens seeking entry to the United States, and deportation hearings were held for certain aliens who had already entered this country. See ibid.\nUnder this regime, \u201centry\u201d into the United States was defined as \u201cany coming of an alien into the United States, from a foreign port or place.\u201d 8 U. S. C. \u00a71101(a)(13) (1988 ed.). The statute, however, provided an exception for lawful permanent residents; aliens lawfully residing here were not regarded as making an \u201centry\u201d if their \u201cdeparture to a foreign port or place . . . was not intended or reasonably to be expected by [them] or [their] presence in a foreign port or place . . . was not voluntary.\u201d Ibid. Interpreting this cryptic provision, we held in Fleuti, 374 U. S., at 461-462, that Congress did not intend to exclude aliens long resident in the United States upon their return from \u201cinnocent, casual, and brief exeursion[s] . < . outside this country\u2019s borders.\u201d Instead, the Court determined, Congress meant to rank a once-permanent resident as a new entrant only when the foreign excursion \u201cmeaningfully interrupted] . . . the alien\u2019s [U. SJ residence.\u201d Id., at 462. Absent such \u201cdisruption]\u201d of the alien\u2019s residency, the alien would not be \u201csubject ... to the consequences of an \u2018entry\u2019 into the country on his return.\u201d Ibid.\nIn IIRIRA, Congress abolished the distinction between exclusion and deportation procedures and created a uniform proceeding known as \u201cremoval.\u201d See 8 U. S. C. \u00a7\u00a7 1229, 1229a; Judulang v. Holder, 565 U. S. 42, 46 (2011). Congress made \u201cadmission\u201d the key word, and defined admission to mean \u201cthe lawful entry of the alien into the United States after inspection and authorization by an immigration officer.\u201d \u00a7 1101(a)(13)(A). This alteration, the Board of Immigration Appeals (BIA) determined, superseded Fleuti. See In re Collado-Munoz, 21 I. & N. Dec. 1061, 1065-1066 (1998) (en banc). Thus, lawful permanent residents returning post-IIRIRA, like Vartelas, may be required to \u201c \u2018see[k] an admission\u2019 into the United States, without regard to whether the alien\u2019s departure from the United States might previously have been regarded as \u2018brief, casual, and innocent\u2019 under the Fleuti doctrine.\u201d Id., at 1066.\nAn alien seeking \u201cadmission\u201d to the United States is subject to various requirements, see, e. g., \u00a7 1181(a), and cannot gain entry if she is deemed \u201cinadmissible\u201d on any of the numerous grounds set out in the immigration statutes, see \u00a7 1182. Under IIRIRA, lawful permanent residents are regarded as seeking admission into the United States if they fall into any of six enumerated categories. \u00a7 1101(a)(13)(C). Relevant here, the fifth of these categories covers aliens who \u201cha[ve] committed an offense identified in section 1182(a)(2) of this title.\u201d \u00a7 1101(a)(13)(C)(v). Offenses in this category include \u201ca crime involving moral turpitude (other than a purely political offense) or an attempt or conspiracy to commit such a crime.\u201d \u00a7 1182(a)(2)(A)(i).\nIn sum, before IIRIRA, lawful permanent residents who had committed a crime of moral turpitude could, under the Fleuti doctrine, return from brief trips abroad without applying for admission to the United States. Under IIRIRA, such residents are subject to admission procedures, and, potentially, to removal from the United States on grounds of inadmissibility.\nB\nPanagis Vartelas, born and raised in Greece, has resided in the United States for over 30 years. Originally admitted on a student visa issued in 1979, Vartelas became a lawful permanent resident in 1989' He currently lives in the New York area and works as a sales manager for a roofing company.\nIn 1992, Vartelas opened an auto body shop in Queens, New York. One of his business partners used the shop\u2019s photocopier to make counterfeit travelers\u2019 checks. Vartelas helped his partner perforate the sheets into individual checks, but Vartelas did not sell the checks or receive any money from the venture. In 1994, he pleaded guilty to conspiracy to make or possess counterfeit securities, in violation of 18 U. S. C. \u00a7 871. He was sentenced to four months\u2019 incarceration, followed by two years\u2019 supervised release.\nVartelas regularly traveled to Greece to visit his aging parents in the years after his 1994 conviction; even after the passage of IIRIRA in 1996, his return to the United States from these visits remained uneventful. In January 2003, however, when Vartelas returned from a week-long trip to Greece, an immigration officer classified him as an alien seeking \u201cadmission.\u201d The officer based this classification on Vartelas\u2019 1994 conviction. See United States ex rel. Volpe v. Smith, 289 U. S. 422, 423 (1933) (counterfeiting ranks as a crime of moral turpitude).\nAt Vartelas\u2019 removal proceedings, his initial attorney conceded removability, and requested discretionary relief from removal under the former \u00a7 212(c) of the Immigration and Nationality Act. See 8 U. S. C. \u00a7 1182(c) (1994 ed.) (repealed 1996). This attorney twice failed to appear for hearings and once failed to submit a requested brief. Vartelas engaged a new attorney, who continued to concede removability and to request discretionary relief. The Immigration Judge denied the request for relief, and ordered Vartelas removed to Greece. The BIA affirmed the Immigration Judge\u2019s decision.\nIn July 2008, Vartelas filed with the BIA a timely motion to reopen the removal proceedings, alleging that his previous attorneys were ineffective for, among other lapses, conceding his removability. He sought to withdraw the concession of removability on the ground that IIRIRA\u2019s new \u201cadmission\u201d provision, codified at \u00a7 1101.(a)(13), did not reach back to deprive him of lawful resident status based on his pre-IIRIRA conviction. The BIA denied the motion, declaring that Var-\u00edelas had not been prejudiced by his lawyers\u2019 performance, for no legal authority prevented the application of IIRIRA to Var\u00edelas\u2019 pre-IIRIRA conduct.\nThe U. S. Court of Appeals for the Second Circuit affirmed the BIA\u2019s decision, agreeing that Var\u00edelas had failed to show he was prejudiced by his attorneys\u2019 allegedly ineffective performance. Rejecting Var\u00edelas\u2019 argument that IIRIRA operated prospectively and therefore did not govern his case, the Second Circuit reasoned that he had not relied on the prior legal regime at the time he committed the disqualifying crime. See 620 F. 3d 108, 118-120 (2010).\nIn so ruling, the Second Circuit created a split with two other Circuits. The Fourth and Ninth Circuits have held that the new \u00a7 1101(a)(13) may not be applied to lawful permanent residents who committed crimes listed in \u00a71182 (among them, crimes of moral turpitude) prior to IIRIRA\u2019s enactment. See Olatunji v. Ashcroft, 387 F. 3d 383 (CA4 2004); Camins v. Gonzales, 500 F. 3d 872 (CA9 2007). We granted certiorari, 564 U. S. 1066 (2011), to resolve the conflict among the Circuits.\nII\nAs earlier explained, see supra, at 261-263, pre-IIRIRA, a resident alien who once committed a crime of moral turpitude could travel abroad for short durations without jeopardizing his status as a lawful permanent resident. Under IIRIRA, on return from foreign travel, such an alien is treated as a new arrival to our shores, and may be removed from the United States. Var\u00edelas does not question Congress\u2019 authority to restrict reentry in this manner. Nor does he contend that Congress could not do so retroactively. Instead, he invokes the principle against retroactive legislation, under which courts read laws as prospective in application unless Congress has unambiguously instructed retroactivity. See Landgraf v. USI Film Products, 511 U. S. 244, 263 (1994).\nThe presumption against retroactive legislation, the Court recalled in Landgraf, \u201cembodies a legal doctrine centuries older than our Republic.\u201d Id., at 265. Several provisions, of the Constitution, the Court noted, embrace the doctrine, among them, the Ex Post Facto Clause, the Contract Clause, and the Fifth Amendment\u2019s Due Process Clause. Id., at 266. Numerous decisions of this Court repeat the classic formulation Justice Story penned for determining when retrospective application of a law would collide with the doctrine. It would do so, Story stated, when such application would \u201ctak[e] away or impai[r] vested rights acquired under existing laws, or creatfe] a new obligation, imposte] a new duty, or attac[h] a new disability, in respect to transactions or considerations already past.\u201d Society for Propagation of Gospel v. Wheeler, 22 F. Cas. 756, 767 (No. 13,156) (CC NH 1814). See, e. g., INS v. St. Cyr, 533 U. S. 289, 321 (2001) (invoking Story\u2019s formulation); Hughes Aircraft Co. v. United States ex rel. Schumer, 520 U. S. 939, 947 (1997); Landgraf, 511 U. S., at 283.\nVartelas urges that applying IIRIRA to him, rather than the law that existed at the time of his conviction, would attach a \u201cnew disability,\u201d effectively a ban on travel outside the United States, \u201cin respect to [events] . . . already past,\u201d i. e., his offense, guilty plea, conviction, and punishment, all occurring prior to the passage of IIRIRA. In evaluating Vartelas\u2019 argument, we note first a matter not disputed by the Government: Congress did not expressly prescribe the temporal reach of the IIRIRA provision in question, 8 U. S. C. \u00a7 1101(a)(13). See Landgraf, 511 U. S., at 280 (Court asks first \u201cwhether Congress has expressly prescribed [new \u00a7 1101(a)(13)\u2019s] proper reach\u201d); Brief for Respondent 11 (Court\u2019s holding in INS v. St. Cyr, 533 U. S., at 317-320, \u201ccompels the conclusion that Congress has not \u2018expressly prescribed the statute\u2019s proper reach\u2019 \u201d (quoting Landgraf, 511 U. S., at 280)). Several other provisions of IIRIRA, in contrast to \u00a7 1101(a)(13), expressly direct retroactive application, e. g., \u00a7 1101(a)(43) (IIRIRA\u2019s amendment of the \u201caggravated felony\u201d definition applies expressly to \u201cconviction[s]... entered before, on, or after\u201d the statute\u2019s enactment date (internal quotation marks omitted)). See St. Cyr, 533 U. S., at 319-320, and n. 43 (setting out further examples). Accordingly, we proceed to the dispositive question whether, as Vartelas maintains, application of IIRIRA\u2019s travel restraint to him \u201cwould have retroactive effect\u201d Congress did not authorize. See Landgraf, 511 U. S., at 280.\nVartelas presents a firm ease for application of the antiret-roactivity principle. Neither his sentence, nor the immigration law in effect when he was convicted and sentenced, blocked him from occasional visits to his parents in Greece. Current \u00a7 1101(a)(13)(C)(v), if applied to him, would thus attach \u201ca new disability\u201d to conduct over and done well before the provision\u2019s enactment.\nBeyond genuine doubt, we note, the restraint \u00a7 1101(a) (13)(C)(v) places on lawful permanent residents like Vartelas ranks as a \u201cnew disability.\u201d Once able to journey abroad to fulfill religious obligations, attend funerals and weddings of family members, tend to vital financial interests, or respond to family emergencies, permanent residents situated as Var-telas is now face potential banishment. We have several times recognized the severity of that sanction. See, e.g., Padilla v. Kentucky, 559 U. S. 356, 365-366, 373-374 (2010).\nIt is no answer to say, as the Government suggests, that Vartelas could have avoided any adverse consequences if he simply stayed at home in the United States, his residence for 24 years prior to his 2003 visit'to his parents in Greece. See Brief in Opposition 13 (Vartelas \u201ccould have avoided the application of the statute . . . [by] refraining] from departing from the United States (or from returning to the United States).\u201d); post, at 278. Loss of the ability to travel abroad is itself a harsh penalty, made all the more devastating if it means enduring separation from close family members living abroad. See Brief for Asian American Justice Center et al. as Amici Curiae 16-23 (describing illustrative cases). We have rejected arguments for retroactivity in similar cases, and in cases in which the loss at stake was less momentous.\nIn Chew Heong v. United States, 112 U. S. 536 (1884), a pathmarking decision, the Court confronted the \u201cChinese Restriction Act,\u201d which barred Chinese laborers from reentering the United States without a certificate issued on their departure. The Court held the reentry bar inapplicable to aliens who had left the country prior to the Act\u2019s passage and tried to return afterward without a certificate. The Act\u2019s text, the Court observed, was not \u201cso clear and positive as to leave no room to doubt [retroactive application] was the intention of the legislature.\u201d Id., at 559.\nIn Landgraf, the question was whether an amendment to Title VII\u2019s ban on employment discrimination authorizing compensatory and punitive damages applied to preenactment conduct. The Court held it did not. No doubt the complaint against the employer charged discrimination that violated the Act at the time it occurred. But compensatory and punitive damages were not then available remedies. The later provision for such damages, the Court determined, operated prospectively only, and did not apply to employers whose discriminatory conduct occurred prior to the amendment. See 511 U. S., at 280-286. And in Hughes Aircraft, the Court held that a provision removing an affirmative defense to qui tam suits did not apply to preenactment fraud. As in Landgraf, the provision attached \u201ca new disability\u201d to past wrongful conduct and therefore could not apply retrospectively unless Congress clearly manifested such an intention. Hughes Aircraft, 520 U. S., at 946-950.\nMost recently, in St. Cyr, the Court took up the case of an alien who had entered a plea to a deportable offense. At the time of the plea, the alien was eligible for discretionary relief from deportation. IIRIRA, enacted after entry of the plea, removed that eligibility. The Court held that the IIRIRA provision in point could not be applied to the alien, for it attached a \u201cnew disability\u201d to the guilty plea and Congress had not instructed such a result. 533 U. S., at 321-323.\nHH 1 \u2014 I \u215c \u2014 l\nThe Government, echoed in part by the dissent, argues that no retroactive effect is involved in this case, for the Legislature has not attached any disability to past conduct. Rather, it has made the relevant event the alien\u2019s post-IIRIRA act of returning to the United States. See Brief for Respondent 19-20; post, at 278. We find this argument disingenuous. Vartelas\u2019 return to the United States occasioned his treatment as a new entrant, but the reason for the \u201cnew disability\u201d imposed on him was not his lawful foreign travel. It was, indeed, his conviction, pre-IIRIRA, of an offense qualifying as one of moral turpitude. That past misconduct, in other words, not present travel, is the wrongful activity Congress targeted in \u00a7 1101(a)(13)(C)(v).\nThe Government observes that lower courts have upheld Racketeer Influenced and Corrupt Organizations Act prosecutions that encompassed preenactment conduct. See Brief for Respondent 18 (citing United States v. Brown, 555 F. 2d 407, 416-417 (CA5 1977), and United States v. Campanale, 518 F. 2d 352, 364-365 (CA9 1975) (per curiam)). But those prosecutions depended on criminal activity, i. e., an act of racketeering occurring after the provision\u2019s effective date. Section 1101(a)(13)(C)(v), in contrast, does not require any showing of criminal conduct postdating IIRIRA\u2019s enactment.\nFernandez-Vargas v. Gonzales, 548 U. S. 30 (2006), featured by the Government and the dissent, Brief for Respondent 17, 36 \u2014 37; post, at 278, is similarly inapposite. That case involved 8 U. S. C. \u00a7 1231(a)(5), an IIRIRA addition, which provides that an alien who reenters the United States after having been removed can be removed again under the same removal order. We held that the provision could be applied to an alien who reentered illegally before IIRIRA\u2019s enactment. Explaining the Court\u2019s decision, we said: \u201c[T]he conduct of remaining in the country ... is the predicate action; the statute applies to stop an indefinitely continuing violation .... It is therefore the alien\u2019s choice to continue his illegal presence . . . after the effective date of the new la[w] that subjects him to the new ... legal regime, not a past act that he is helpless to undo.\u201d 548 U. S., at 44 (emphasis added). Vartelas, we have several times stressed, engaged in no criminal activity after IIRIRA\u2019s passage. He simply took a brief trip to Greece, anticipating a return without incident as in past visits to his parents. No \u201cindefinitely continuing\u201d crime occurred; instead, Vartelas was apprehended because of a pre-IIRIRA crime he was \u201chelpless to undo.\u201d Ibid.\nThe Government further refers to lower court decisions in cases involving 18 U. S. C. \u00a7 922(g), which prohibits the possession of firearms by convicted felons. Brief for Respondent 18-19 (citing United States v. Pfeifer, 371 F. 3d 430, 436 (CA8 2004), and United States v. Hemmings, 258 F. 3d 587, 594 (CA7 2001)). \u201c[longstanding prohibitions on the possession of firearms by felons,\u201d District of Columbia v. Heller, 554 U. S. 570, 626 (2008), however, target a present danger, i. e., the danger posed by felons who bear arms. See, e. g., Pfeifer, 371 F. 3d, at 436 (hazardous conduct that statute targets \u201coccurred after enactment of the statute\u201d); Omnibus Crime Control and Safe Streets Act of 1968, \u00a7 1201, 82 Stat. 236 (noting hazards involved when felons possess firearms).\nNor do recidivism sentencing enhancements support the Government\u2019s position. Enhanced punishment imposed for the later offense \u201c \u2018is not to be viewed as . . . [an] additional penalty for the earlier crimes,\u2019 but instead, as a \u2018stiffened penalty for the latest crime, which is considered to be an aggravated offense because [it is] a repetitive one.\u2019\u201d Witte v. United States, 515 U. S. 389, 400 (1995) (quoting Gryger v. Burke, 334 U. S. 728, 732 (1948)). In Vartelas\u2019 case, however, there is no \u201caggravated ... repetitive\u201d offense. There is, in contrast, no post-IIRIRA criminal offense at all. Var-telas\u2019 travel abroad and return are \u201cinnocent\u201d acts, see Fleuti, 374 U. S., at 462, burdened only because of his pre-IIRIRA offense.\nIn sum, Vartelas\u2019 brief trip abroad post-IIRIRA involved no criminal infraction. IIRIRA disabled him from leaving the United States and returning as a lawful permanent resident. That new disability rested not on any continuing criminal activity, but on a single crime committed years before IIRIRA\u2019s enactment. The antiretroactivity principle instructs against application of the new proscription to render Vartelas a first-time arrival at the country\u2019s gateway.\nIV\nThe Second Circuit homed in on the words \u201ccommitted an offense\u201d in \u00a7 1101(a)(13)(C)(v) in determining that the change IIRIRA wrought had no retroactive effect. 620 F. 3d, at 119-121. It matters not that Vartelas may have relied on the prospect of continuing visits to Greece in deciding to plead guilty, the court reasoned. \u201c[I]t would border on the absurd,\u201d the court observed, \u201cto suggest that Vartelas committed his counterfeiting crime in reliance on the immigration laws.\u201d Id., at 120. This reasoning is doubly flawed.\nAs the Government acknowledges, \u201cth[is] Court has not required a party challenging the application of a statute to show [he relied on prior law] in structuring his conduct.\u201d Brief for Respondent 25-26. In Landgraf, for example, the issue was the retroactivity of compensatory and punitive damages as remedies for employment discrimination. \u201c[C]oncerns of . . . upsetting expectations are attenuated in the case of intentional employment discrimination,\u201d the Court noted, for such discrimination \u201chas been unlawful for more than a generation.\u201d 511 U. S., at 282, n. 35. But \u201c[e]ven when the conduct in question is morally reprehensible or illegal,\u201d the Court added, \u201ca degree of unfairness is inherent whenever the law imposes additional burdens based On conduct that occurred in the past.\u201d Id., at 283, n. 35. And in Hughes Aircraft, the Court found that Congress\u2019 1986 removal of a defense to a qui tam action did not apply to pre-1986 conduct in light of the presumption against retroac-tivity. 520 U. S., at 941-942. As in Landgraf, the relevant conduct (submitting a false claim) had been unlawful for decades. See 520 U. S., at 947.\nThe operative presumption, after all, is that Congress intends its laws to govern prospectively only. See supra, at 265-266. \u201cIt is a strange \u2018presumption,\u2019 \u201d the Third Circuit commented, \u201cthat arises only on ... a showing [of] actual reliance.\u201d Ponnapula v. Ashcroft, 373 F. 3d 480, 491 (2004). The essential inquiry, as stated in Landgraf, 511 U. S., at 269-270, is \u201cwhether the new provision attaches new legal consequences to events completed before its enactment.\u201d That is just what occurred here.\nIn any event, Vartelas likely relied on then-existing immigration law. While the presumption against retroactive application of statutes does not require a showing of detrimental reliance, see Olatunji, 387 F. 3d, at 389-395, reasonable reliance has been noted among the \u201cfamiliar considerations\u201d animating the presumption, see Landgraf, 511 U. S., at 270 (presumption reflects \u201cfamiliar considerations of fair notice, reasonable reliance, and settled expectations\u201d). Although not a necessary predicate for invoking the antiretroactivity principle, the likelihood of reliance on prior .law strengthens the case for reading a newly enacted law prospectively. See Olatunji, 387 F. 3d, at 393 (discussing St. Cyr).\nSt. Cyr is illustrative. That case involved a lawful permanent resident who pleaded guilty to a criminal charge that made him deportable. Under the immigration law in effect when he was convicted, he would have been eligible to apply for a waiver of deportation. But his removal proceeding was commenced after Congress, in IIRIRA, withdrew that dispensation. Disallowance of discretionary waivers, the Court recognized, \u201cattache[d] a new disability, in respect to transactions or considerations already past.\u201d 533 U. S., at 321 (internal quotation marks omitted). Aliens like St. Cyr, the Court observed, \u201calmost certainly relied upon th[e] likelihood [of receiving discretionary relief] in deciding [to plead guilty, thereby] forgo[ing] their right to a trial.\u201d Id., at 325. Hence, applying the IIRIRA withdrawal to St. Cyr would have an \u201cobvious and severe retroactive effect.\u201d Ibid. Because Congress made no such intention plain, ibid., n. 55, we held that the prior law, permitting relief from deportation, governed St. Cyr\u2019s ease.\nAs to retroactivity, one might think Vartelas\u2019 case even easier than St. Cyr\u2019s. St. Cyr could seek the Attorney General\u2019s discretionary dispensation. Vartelas, under Fleuti, was free, without seeking an official\u2019s permission, to make trips of short duration to see and assist his parents in Greece. The Second Circuit thought otherwise, compounding its initial misperception (treating reliance as essential to application of the antiretroactivity principle). The deportation provision involved in St Cyr, 8 U. S. C. \u00a7 1229b(a)(3), referred to the alien\u2019s \u201cconvict[ion]\u201d of a crime, while the statutory words sub judice in Vartelas\u2019 case were \u201ccommitted an offense,\u201d \u00a7 1101(a)(13)(C)(v); see supra, at 272. The practical difference, so far as retroactivity is concerned, escapes from our grasp. Ordinarily, to determine whether there is clear and convincing evidence that an alien has committed a qualifying crime, the immigration officer at the border would check the alien\u2019s records for a conviction. He would not call into session a piepowder court to entertain a plea or conduct a trial.\nSatisfied that Vartelas\u2019 case is at least as clear as St. Cyr\u2019s for declining to apply a new law retroactively, we hold that Fleuti continues to govern Vartelas\u2019 short-term travel.\n* * *\nFor the reasons stated, the judgment of the Court of Appeals for the Second Circuit is reversed, and the case is remanded for further proceedings consistent with this opinion.\nIt is so ordered.\nThe dissent appears driven, in no small measure, by its dim view of the Court\u2019s opinion in Fleuti. See post, at 280 (\u201csame instinct\u201d operative in Fleuti and this ease).\nThe BIA determined that the Fleuti doctrine no longer held sway because it was rooted in the \u201cno longer existent definition of \u2018entry\u2019 in the [Immigration and Nationality] Act.\u201d 211. & N. Dec., at 1065. The Board also noted that \u201cCongress . . . amended the law to expressly preserve some, but not all, of the Fleuti doctrine\u201d when it provided that a lawful permanent resident absent from the United States for less than 180 days would not be regarded- as seeking an admission except in certain enumerated circumstances, among them, prior commission of a crime of moral turpitude. See ibid, (citing 8 U. S. C. \u00a7 1101(a)(13)(C)(ii)).\nVartelas does not challenge the ruling in Collado-Munoz. We therefore assume, but do not decide, that IIRIRA\u2019s amendments to \u00a7 1101(a)(13)(A) abrogated Fleuti.\nAlthough IIRIRA created a uniform removal procedure for both ex-cludable and deportable aliens, the list of criminal offenses that subject aliens to exclusion remains separate from the list of offenses that render an alien deportable. These lists are \u201csometimes overlapping and sometimes divergent.\u201d Judulang v. Holder, 565 U. S. 42, 46 (2011). Pertinent here, although a single crime involving moral turpitude may render an alien inadmissible, it would not render her deportable. See 8 U. S. C. \u00a7 1182(a)(2) (listing excludable crimes); \u00a7 1227(a)(2) (listing deportable crimes).\nThe dissent asserts that Justice Story\u2019s opinion \u201cbearfe] no relation to the presumption against retroactivity.\u201d Post, at 281. That is a bold statement in view of this Court\u2019s many references to Justice Story\u2019s formulation in cases involving the presumption that statutes operate only prospectively in the absence of a clear congressional statement to the contrary.\nIn St. Cyr, 533 U. S., at 317-320, we rejected the Government\u2019s contention that Congress directed retroactive application of IIRIRA in its entirety.\nSee Kent v. Dulles, 357 U. S. 116, 126 (1958) (\u201cFreedom of movement across frontiers . . . may be as close to the heart of the individual as the choice of what he eats, or wears, or reads.\u201d); Aptheker v. Secretary of State, 378 U. S. 500, 519-520 (1964) (Douglas, J., concurring) (right to travel, \u201cat home and abroad, is important for . . . business[,] .. . cultural, political, and social activities\u2014for all the commingling which gregarious man enjoys\u201d).\nThe dissent, see post, at 281, notes two statutes of the same genre: laws prohibiting persons convicted of a sex crime against a victim under 16 years of age from working in jobs involving frequent contact with minors, and laws prohibiting a person \u201cwho has been adjudicated as a mental defective or who has been committed to a mental institution\u201d from possessing guns, 18 U. S. C. \u00a7 922(g)(4). The dissent is correct that these statutes do not operate retroactively. Rather, they address dangers that arise postenactment: sex offenders with a history of child molestation working in close proximity to children, and mentally unstable persons pur-\u2018 chasing guns. The act of flying to Greece, in contrast, does not render a lawful permanent resident like Var\u00edelas hazardous. Nor is it plausible that Congress\u2019 solution to the problem of dangerous lawful permanent residents would be to pass a law\u2019that would deter such persons from ever leaving the United States.\nAs for student loans, it is unlikely that the provision noted by the dissent, 20 U. S. C. \u00a7 1091(r), would raise retroactivity questions in the first place. The statute has a prospective thrust. It concerns \u201c[sjuspension of eligibility\u201d when a student receiving a college loan commits a drug crime. The suspension runs \u201cfrom the date of th[e] conviction\u201d for specified periods, e. g., two years for a second offense of possession. Moreover, eligibility may be restored before the period of ineligibility ends if the student establishes, under prescribed criteria, his rehabilitation.\nThe deleted defense permitted qui tam defendants to escape liability if the information on which a private plaintiff (relator) relied was already in the Government\u2019s possession. Detrimental reliance was hardly apparent, for the Government, both before and after the statutory change, could bring suit with that information, and \u201cthe monetary liability faced by [a False Claims Act] defendant is the same whether the action is brought by the Government or by a qui tam relator.\u201d 520 U. S., at 948.\n\u201cThere can be little doubt,\u201d the Court noted in St Cyr, \u201cthat, as a general matter, alien defendants considering whether to enter into a plea agreement are acutely aware of the immigration consequences of their convictions.\u201d 533 U. S., at 322. Indeed, \u201c[p]reserving [their] right to remain in the United States may be more important to [them] than any potential jail sentence.\u201d Ibid, (internal quotation marks omitted). See Padilla v. Kentucky, 559 U. S. 356, 366-369 (2010) (holding that counsel has a duty under the Sixth Amendment to inform a noncitizen defendant that his plea would make him eligible for deportation).\nArmed with knowledge that a guilty plea would preclude travel abroad, aliens like Vartelas might endeavor to negotiate a plea to a nonex-' dudable offense \u2014 in Vartelas\u2019 case, e. g., possession of counterfeit securities \u2014 or exercise a right to trial.\nAfter the words \u201ccommitted an offense,\u201d \u00a7 1101(a)(13)(C)(v)\u2019s next words are \u201cidentified in section 1182(a)(2).\u201d That section refers to \u201cany alien convicted of, or who admits having committed,\u201d inter alia, \u201ca crime involving moral turpitude.\u201d \u00a7 1182(a)(2)(A)(i)(I) (emphasis added). The entire \u00a7 1101(a)(13)(C)(v) phrase \u201ccommitted an offense identified in section 1182(a)(2),\u201d on straightforward reading, appears to advert to a lawful permanent resident who has been convicted of an offense under \u00a7 1182(a)(2) (or admits to one).\nPiepowder (\u201cdusty feet\u201d) courts were temporary mercantile courts held at trade fairs in Medieval Europe; local merchants and guild members would assemble to hear commercial disputes. These courts provided fast and informal resolution of trade conflicts, settling eases \u201cwhile the merchants\u2019 feet were still dusty.\u201d Callahan, Medieval Church Norms and Fiduciary Duties in Partnership, 26 Cardozo L. Rev! 215,235, and n. 99 (2004) (quoting H. Berman, Law and Revolution: The Formation of the Western Legal Tradition 347 (1983); internal quotation marks omitted).",
+        "type": "majority",
+        "author": "Justice Ginsburg"
+      },
+      {
+        "text": "Justice Scalia,\nwith whom Justice Thomas and Justice Alito join, dissenting.\nAs part of the Illegal Immigration Reform and Immigrant Responsibility Act of 1996 (IIRIRA), Congress required that lawful permanent residents who have committed certain crimes seek formal \u201cadmission\u201d when they return to the United States from abroad. 8 U. S. C. \u00a7 1101(a)(13)(C)(v). This case presents a straightforward question of statutory interpretation: Does that statute apply to lawful permanent residents who, like Vartelas, committed one of the specified offenses before 1996, but traveled abroad after 1996? Under the proper approach to determining a statute\u2019s temporal application, the answer is yes.\n>-H\nThe text of \u00a71101(a)(13)(C)(v) does not contain a clear statement answering the question presented here. So the Court is correct that this case is governed by our longstanding interpretive principle that, in the absence of a contrary indication, a statute will not be construed to have retroactive application. See, e. g., Landgraf v. USI Film Products, 511 U. S. 244, 280 (1994). The operative provision of this text\u2014 the provision that specifies the act that it prohibits or prescribes \u2014 says that lawful permanent residents convicted of offenses similar to Vartelas\u2019s must seek formal \u201cadmission\u201d before they return to the United States from abroad. Since Vartelas returned to the United States after the statute\u2019s effective date, the application of that text to his reentry does not give the statute a retroactive effect.\nIn determining whether a statute applies retroactively, we should concern ourselves with the statute\u2019s actual operation on regulated parties, not with retroactivity as an abstract concept or as a substitute for fairness concerns. It is impossible to decide whether a statute\u2019s application is retrospective or prospective without first identifying a reference point \u2014 a moment in time to which the statute\u2019s effective date is either subsequent or antecedent. (Otherwise, the obvious question \u2014 retroactive in reference to what? \u2014 remains unanswered.) In my view, the identity of that reference point turns on the activity a statute is intended to regulate. For any given regulated party, the reference point (or \u201cretroac-tivity event\u201d) is the moment at which the party does what the statute forbids or fails to do what it requires. See Martin v. Hadix, 527 U. S. 343, 362-363 (1999) (Scalia, J., concurring in part and concurring in judgment); Landgraf, supra, at 291 (Scalia, J., concurring in judgments). With an identified reference point, the retroactivity analysis is simple. If a person has engaged in the primary regulated activity before the statute\u2019s effective date, then the statute\u2019s application would be retroactive. But if a person engages in the primary regulated activity after the statute\u2019s effective date, then the statute\u2019s application is prospective only. In the latter case, the interpretive presumption against retroac-tivity does not bar the statute\u2019s application.\nUnder that commonsense approach, this is a relatively easy case. Although the class of aliens affected by \u00a7 1101(a)(13)(C)(v) is defined with respect to past crimes, the regulated activity is reentry into the United States. By its terms, the statute is all about controlling admission at the border. It specifies six criteria to identify lawful permanent residents who are subject to formal \u201cadmission\u201d procedures, most of which relate to the circumstances of departure, the trip itself, or reentry. The titles of the statutory sections containing \u00a7 1101(a)(13)(C)(v) confirm its focus on admission, rather than crime: The provision is located within Title III of IIRIRA (\u201cInspection, Apprehension, Detention, Adjudication, and Removal of Inadmissible and Deportable Aliens\u201d), under Subtitle A (\u201cRevision of Procedures for Removal of Aliens\u201d), and \u00a7 301 (\u201cTreating Persons Present in the United States Without Authorization as Not Admitted\u201d). 110 Stat. 3009-575. And the specific subsection of IIRIRA at issue (\u00a7 301(a), entitled \u201c Admission\u2019 Defined\u201d) is an amendment to the definition of \u201centry\u201d in the general \u201cDefinitions\u201d section of the Immigration and Nationality Act (INA). See ante, at 261-262. The original provision told border officials how to regulate admission \u2014 not how to punish crime \u2014 and the amendment does as well.\nSection 1101(a)(13)(C)(v) thus has no retroactive effect on Vartelas because the reference point here \u2014 Vartelas\u2019s readmission to the United States after a trip abroad \u2014 occurred years after the statute\u2019s effective date. Although Vartelas cannot change the fact of his prior conviction, he could have avoided entirely the consequences of \u00a7 1101(a)(13)(C)(v) by simply remaining in the United States or, having left, remaining in Greece. That \u00a7 1101(a)(13)(C)(v) had no effect on Vartelas until he performed a postenactment activity is a clear indication that the statute\u2019s application is purely prospective. See Fernandez-Vargas v. Gonzales, 548 U. S. 30, 45, n. 11, 46 (2006) (no retroactive effect where the statute in question did \u201cnot operate on a completed preenactment act\u201d and instead turned on \u201ca failure to take timely action that would have avoided application of the new law altogether\u201d).\nII\nThe Court avoids this conclusion by insisting that \u201cpast misconduct, . . . not present travel, is the wrongful activity Congress targeted\u201d in \u00a7 1101(a)(13)(C)(v). Ante, at 269-270. That assertion does not, however, have any basis in the statute\u2019s text or structure, and the Court does not pretend otherwise. Instead, the Court simply asserts that Vartelas\u2019s \u201clawful foreign travel\u201d surely could not be the \u201creason for the \u2018new disability\u2019 imposed on him.\u201d Ante, at 269. But the reason for a prohibition has nothing to do with whether the prohibition is being applied to a past rather than a future act. It may be relevant to other legal inquiries \u2014 for example, to whether a legislative act violates one of the Ex Post Facto Clauses in Article I, see, e. g., Smith v. Doe, 538 U. S. 84, 92 (2003), or one of the Due Process Clauses in the Fifth and Fourteenth Amendments, see, e. g., Williamson v. Lee Optical of Okla., Inc., 348 U. S. 483, 487 (1955), or the Takings Clause in the Fifth Amendment, see, e. g., Kelo v. New London, 545 U. S. 469, 477-483 (2005), or the Obligation of Contracts Clause in Article I, see, e. g., United States Trust Co. of N. Y. v. New Jersey, 431 U. S. 1, 29 (1977). But it has no direct bearing upon whether the statute is retroactive.\nThe Court\u2019s failure to differentiate between the statutory-interpretation question (whether giving certain effect ,to a provision would make it retroactive and hence presumptively unintended) and the validity question (whether giving certain effect to a provision is unlawful) is on full display in its attempts to distinguish \u00a7 1101(a)(13)(C)(v) from similar statutes. Take, for example, the Court\u2019s discussion of the Racketeer Influenced and Corrupt Organizations Act (RICO). That Act, which targets \u201cpatterns of racketeering,\u201d expressly defines those \u201cpatterns\u201d to include some preenactment conduct. See 18 U. S. C. \u00a7 1961(5). Courts interpreting RICO therefore need not consider the presumption against retroactivity; instead, the cases cited by the majority consider whether RICO violates the Ex Post Facto Clause. See United States v. Brown, 555 F. 2d 407, 416-417 (CA5 1977); United States v. Campanale, 518 F. 2d 352, 364-365 (CA9 1975) (per curiam). The Government recognized this distinction and cited RICO to make a point about the Ex Post Facto Clause rather than the presumption against ret-roactivity, Brief for Respondent 17-18; the Court evidently does not.\nThe Court\u2019s confident assertion that Congress surely would not have meant this statute to apply to Vartelas, whose foreign travel and subsequent return to the United States were innocent events, ante, at 269-270, 272, simply begs the question presented in this case. Ignorance, of course, is no excuse (ignorantia legis neminem excusat); and his return was entirely lawful only if the statute before us did not render it unlawful. Since IIRIRA\u2019s effective date in 1996, lawful permanent residents who have committed crimes of moral turpitude are forbidden to leave the United States and return without formally seeking \u201cadmission.\u201d See \u00a7 1101(a)(13)(C)(v). As a result, Vartelas\u2019s numerous trips abroad and \u201cuneventful\u201d reentries into the United States after the passage of IIRIRA, see ante, at 264, were lawful only if \u00a7 1101(a)(13)(C)(v) does not apply to him\u2014 which is, of course, precisely the matter in dispute here.\nThe Court\u2019s circular reasoning betrays its underlying concern: Because the Court believes that reentry after a brief trip abroad should be lawful, it will decline to apply a statute that clearly provides otherwise for certain criminal aliens. (The same instinct likely produced the Court\u2019s questionable statutory interpretation in Rosenberg v. Fleuti, 374 U. S. 449 (1963).) The Court\u2019s test for retroactivity \u2014 asking whether the statute creates a \u201cnew disability\u201d in \u201crespect to past events\u201d \u2014 invites this focus on fairness. Understandably so, since it is derived from a Justice Story opinion interpreting a provision of the New Hampshire Constitution that forbade retroactive laws \u2014 a provision comparable to the Federal Constitution\u2019s ex post facto prohibition and bearing no relation to the presumption against retroactivity. What is unfair or irrational (and hence should be forbidden) has nothing to do with whether applying a statute to a particular act is prospective (and thus presumptively intended) or retroactive (and thus presumptively unintended). On the latter question, the \u201cnew disability in respect to past events\u201d test provides no meaningful guidance.\nI can imagine countless laws that, like \u00a7 1101(a)(18)(C)(v), impose \u201cnew disabilities\u201d related to \u201cpast events\u201d and' yet do not operate retroactively. For example, a statute making persons convicted of drug crimes ineligible for student loans. See, e. g., 20 U. S. C. \u00a7 1091(r)(1). Or laws prohibiting those convicted of sex crimes from working in certain jobs that involve repeated contact with minors. See, e. g., Cal. Penal Code Ann. \u00a7 290.95(c) (West Supp. 2012). . Or laws prohibiting those previously committed for mental instability from purchasing guns. See, e. g., 18 U. S. C. \u00a7 922(g)(4). The Court concedes that it would not consider the last two laws inapplicable to preenactment convictions or commitments. Ante, at 271, n. 7. The Court does not deny that these statutes impose a \u201cnew disability in respect to past events,\u201d but it distinguishes them based on the reason for their enactment: These statutes \u201caddress dangers that arise postenactment.\u201d Ibid. So much for the new-disability-in-respect-to-past-events test; it has now become a new-disability-not-designed-to-guard-against-future-danger test. But why is guarding against future danger the only reason Congress may wish to regulate future action in light of past events? It obviously is not. So the Court must invent yet another doctrine to address my first example, the law making persons convicted of drug crimes ineligible for student loans. According to the Court, that statute differs. from \u00a7 1101(a)(13)(C)(v) because it \u201chas a prospective thrust.\u201d Ante, at 271, n. 7. I cannot imagine what that means, other than that the statute regulates postenactment conduct. But, of course, so does \u00a7 1101(a)(13)(C)(v). Rather than reconciling any of these distinctions with Justice Story\u2019s formulation of retroactivity, the Court leaves to lower courts the unenviable task of identifying new-disabilities-not-designed-to-guard-against-future-danger-and-also-laeking-a-prospeetive-thrust.\nAnd anyway, is there any doubt that \u00a7 1101(a)(13)(C)(v) is intended to guard against the \u201cdangers that arise postenactment\u201d from having aliens in our midst who have shown themselves to have proclivity for crime? Must that be rejected as its purpose simply because Congress has not sought to achieve it by all possible means \u2014 by ferreting out such dangerous aliens and going through the expensive and lengthy process of deporting them? At least some of the postenactment danger can readily be eliminated by forcing lawful permanent residents who have committed certain crimes to undergo formal \u201cadmission\u201d procedures at our borders. Indeed, by limiting criminal aliens\u2019 opportunities to travel and then return to the United States, \u00a7 1101(a)(13)(C)(v) may encourage self-deportation. But all this is irrelevant. The positing of legislative \u201cpurpose\u201d is always a slippery enterprise compared to the simple determination whether a statute regulates a future event \u2014 and it is that, rather than the Court\u2019s pronouncement of some forward-looking reason, which governs whether a statute has retroactive effect.\nFinally, I cannot avoid observing that even if the Court\u2019s concern about the fairness or rationality of applying \u00a7 1101(a)(13)(C)(v) to Vartelas were relevant to the statutory-interpretation question, that concern is greatly exaggerated. In disregard of a federal statute, convicted criminal Vartelas repeatedly traveled to and from Greece without ever seeking formal admission at this country\u2019s borders. When he was finally unlucky enough to be apprehended, and sought discretionary relief from removal under former \u00a7 212(c) of the INA, 8 U. S. C. \u00a7 1182(c) (1994 ed.), the Immigration Judge denying his application found that Vartelas had made frequent trips to Greece and had remained there for long periods of time, that he was \u201ca serious tax evader,\u201d that he had offered testimony that was \u201cclose to incredible,\u201d and that he had not shown hardship to himself or his estranged wife and children should he be removed.. See 620 F. 3d 108, 111 (CA2 2010); Brief for Respondent 5 (internal quotation marks omitted). In decrying the \u201charsh penalty\u201d imposed by this statute on Vartelas, the Court ignores those inconvenient facts. Ante, at 268. But never mind. Under any sensible approach to the presumption against retroactivity, these factual subtleties should be irrelevant to the temporal application of \u00a71101(a)(13)(C)(v).\n* * *\nThis case raises a plain-vanilla question of statutory interpretation, not broader questions about frustrated expectations or fairness. Our approach to answering that question should be similarly straightforward: We should determine what relevant activity the statute regulates (here, reentry); absent a clear statement otherwise, only such relevant activity which occurs after the statute\u2019s effective date should be covered (here, post-1996 reentries). If, as so construed,' the statute is unfair or irrational enough to violate the Constitution, that is another matter entirely, and one not presented here. Our interpretive presumption against retroactivity, however, is just that \u2014 a took to ascertain what the statute means, not a license to rewrite the statute in a way the Court considers more desirable.\nI respectfully dissent.\n1 say no direct bearing because if the prospective application of a statute would raise constitutional doubts because of its effect on pre-enactment conduct, that would be a reason to presume a legislative intent not to apply it unless the conduct in question is postenactment \u2014 that is, to consider it retroactive when the conduct in question is preenactment. See Clark v. Martinez, 543 U. S. 371, 380-381 (2005). That is not an issue here. If the statute had expressly made the new \u201cadmission\u201d rule applicable to those aliens with prior convictions, its constitutionality would not be in doubt.",
+        "type": "dissent",
+        "author": "Justice Scalia,"
+      }
+    ],
+    "attorneys": [
+      "Stephanos Bibas argued the cause for petitioner. With him on the briefs were James A. Feldman, Nancy Breg-stein Gordon, Amy Wax, Andrew K. Chow, and Stephen B. Kinnaird.",
+      "Eric D. Miller argued the cause for respondent. With him on the brief were Solicitor General Verrilli, Assistant Attorney General West, Deputy Solicitor General Kneedler, Donald E. Keener, and John W. Blakeley."
+    ],
+    "corrections": "",
+    "head_matter": "VARTELAS v. HOLDER, ATTORNEY GENERAL\nNo. 10-1211.\nArgued January 18, 2012\nDecided March 28, 2012\nGinsburg, J., delivered the opinion of the Court, in which Roberts, G. J., and Kennedy, Breyer, Sotomayor, and Kagan, JJ., joined. Scalia, J., filed a dissenting opinion, in which Thomas and Alito, JJ., joined, post, p. 276.\nStephanos Bibas argued the cause for petitioner. With him on the briefs were James A. Feldman, Nancy Breg-stein Gordon, Amy Wax, Andrew K. Chow, and Stephen B. Kinnaird.\nEric D. Miller argued the cause for respondent. With him on the brief were Solicitor General Verrilli, Assistant Attorney General West, Deputy Solicitor General Kneedler, Donald E. Keener, and John W. Blakeley.\nBriefs of amici curiae urging reversal were filed for the Asian American Justice Center et al. by Nancy Morawetz; for the National Association of Criminal Defense Lawyers et al. by David Debold and Jim Walden; and for the National Immigrant Justice Center by Brian J. Murray and Charles Roth.\nIra J. Kurzban filed a brief for the American Immigration Lawyers Association as amicus curiae."
+  },
+  "file_name": "0257-01",
+  "first_page_order": 337,
+  "last_page_order": 363
+}

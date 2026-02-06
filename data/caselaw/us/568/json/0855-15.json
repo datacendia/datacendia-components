@@ -1,0 +1,59 @@
+{
+  "id": 12413773,
+  "name": "Humphrey v. Florida Department of Corrections",
+  "name_abbreviation": "Humphrey v. Florida Department of Corrections",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10680",
+  "first_page": "855",
+  "last_page": "855",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 855"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 96,
+    "ocr_confidence": 0.712,
+    "sha256": "62eb79e7d99b91955942e8435241fd9e2afd92f98f5bf7f158c653eda48a4608",
+    "simhash": "1:1fb35a3301ca9079",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Humphrey v. Florida Department of Corrections."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10680.\nHumphrey v. Florida Department of Corrections."
+  },
+  "file_name": "0855-15",
+  "first_page_order": 931,
+  "last_page_order": 931
+}

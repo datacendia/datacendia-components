@@ -1,0 +1,59 @@
+{
+  "id": 5995335,
+  "name": "Starnes v. South Carolina",
+  "name_abbreviation": "Starnes v. South Carolina",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8058",
+  "first_page": "1233",
+  "last_page": "1233",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1233"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.612,
+    "sha256": "dfdf9397b04cc1317b230d7f7873061b66a2d2eda5733852331dc80dda9a334e",
+    "simhash": "1:905fc8f8bf744ff0",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Starnes v. South Carolina."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. S. C. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8058.\nStarnes v. South Carolina."
+  },
+  "file_name": "1233-09",
+  "first_page_order": 1255,
+  "last_page_order": 1255
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5971940,
+  "name": "Reed v. United States",
+  "name_abbreviation": "Reed v. United States",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-883",
+  "first_page": "1222",
+  "last_page": "1222",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1222"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.628,
+    "sha256": "c8f5d08be78c07feaccfbceddfd7481cf30ab82613863c191991b52c7d98766c",
+    "simhash": "1:060bae0caa82d90d",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Reed v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. D. C. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-883.\nReed v. United States."
+  },
+  "file_name": "1222-01",
+  "first_page_order": 1244,
+  "last_page_order": 1244
+}

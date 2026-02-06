@@ -1,0 +1,59 @@
+{
+  "id": 12214855,
+  "name": "Dunson v. McKinney et al.",
+  "name_abbreviation": "Dunson v. McKinney",
+  "decision_date": "2012-05-14",
+  "docket_number": "No. 11M107",
+  "first_page": "985",
+  "last_page": "985",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 985"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 26,
+    "char_count": 154,
+    "ocr_confidence": 0.546,
+    "sha256": "bb3b300d3de3758d9758af060b7c0bb89997cf97b8a82e76cd28cd2a4b5189cb",
+    "simhash": "1:02ce4606c3c9363a",
+    "word_count": 28
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dunson v. McKinney et al."
+    ],
+    "opinions": [
+      {
+        "text": "Motion to direct the Clerk to file petition for writ of certiorari out of time under this Court\u2019s Rule 14.5 denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11M107.\nDunson v. McKinney et al."
+  },
+  "file_name": "0985-04",
+  "first_page_order": 861,
+  "last_page_order": 861
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12228186,
+  "name": "Donelson v. United States",
+  "name_abbreviation": "Donelson v. United States",
+  "decision_date": "2011-10-11",
+  "docket_number": "No. 11-6113",
+  "first_page": "954",
+  "last_page": "954",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 954"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.693,
+    "sha256": "8da875e131a1a7c5d9d3e948621d81698d00a9ee7d7b1bb93555b707be55a87d",
+    "simhash": "1:071bc38b69bdbd5c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Donelson v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6113.\nDonelson v. United States."
+  },
+  "file_name": "0954-11",
+  "first_page_order": 1036,
+  "last_page_order": 1036
+}

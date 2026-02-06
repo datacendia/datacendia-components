@@ -1,0 +1,59 @@
+{
+  "id": 5941968,
+  "name": "Olson v. Estate of Gaignat, Deceased",
+  "name_abbreviation": "Olson v. Estate of Gaignat",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-7842",
+  "first_page": "1228",
+  "last_page": "1228",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1228"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 84,
+    "ocr_confidence": 0.635,
+    "sha256": "cdca186c7e2048b41a28d4136e33f68c6baec45401cbe1a64c55205cb39741f2",
+    "simhash": "1:4c80250479e5f64c",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Olson v. Estate of Gaignat, Deceased."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Kan. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7842.\nOlson v. Estate of Gaignat, Deceased."
+  },
+  "file_name": "1228-01",
+  "first_page_order": 1250,
+  "last_page_order": 1250
+}

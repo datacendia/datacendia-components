@@ -1,0 +1,59 @@
+{
+  "id": 12418693,
+  "name": "Alston v. United States",
+  "name_abbreviation": "Alston v. United States",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 12-6004",
+  "first_page": "953",
+  "last_page": "953",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 953"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.679,
+    "sha256": "17bd9d09f524898ec4e00f029d6bba718f83b7c44215d9a83d2f173f7c805b51",
+    "simhash": "1:a7ea9a0bcaa59118",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Alston v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6004.\nAlston v. United States."
+  },
+  "file_name": "0953-08",
+  "first_page_order": 1029,
+  "last_page_order": 1029
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12421243,
+  "name": "Taylor et al. v. United States",
+  "name_abbreviation": "Taylor v. United States",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 12-6397",
+  "first_page": "991",
+  "last_page": "991",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 991"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 79,
+    "ocr_confidence": 0.637,
+    "sha256": "4f26b47a5cc7c87e635ba924acd906032650e80b22d1ed728f2d91303de2740f",
+    "simhash": "1:c70a76010ebc982c",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Taylor et al. v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6397.\nTaylor et al. v. United States."
+  },
+  "file_name": "0991-12",
+  "first_page_order": 1067,
+  "last_page_order": 1067
+}

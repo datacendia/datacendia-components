@@ -1,0 +1,59 @@
+{
+  "id": 6031061,
+  "name": "Hudgins v. United States",
+  "name_abbreviation": "Hudgins v. United States",
+  "decision_date": "2010-11-08",
+  "docket_number": "No. 10-5247",
+  "first_page": "1030",
+  "last_page": "1030",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1030"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.615,
+    "sha256": "8dcf0d286faac1ec2ef18ccb25af5e88589eb594004940f1ab2a50920abb04f7",
+    "simhash": "1:8e1ef3034abe911e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hudgins v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5247.\nHudgins v. United States."
+  },
+  "file_name": "1030-13",
+  "first_page_order": 1052,
+  "last_page_order": 1052
+}

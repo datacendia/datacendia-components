@@ -1,0 +1,115 @@
+{
+  "id": 12518711,
+  "name": "UNITED STATES of America, Plaintiff-Appellant, v. Marco HERNANDEZ-LARA, Defendant-Appellee.",
+  "name_abbreviation": "United States v. Hernandez-Lara",
+  "decision_date": "2018-09-20",
+  "docket_number": "No. 13-10637",
+  "first_page": "866",
+  "last_page": "866",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "904 F.3d 866"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "9th Cir.",
+    "id": 18869,
+    "name": "United States Court of Appeals for the Ninth"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "137 S.Ct. 886",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12609931
+      ],
+      "weight": 2,
+      "year": 2017,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/137/0886-01"
+      ]
+    },
+    {
+      "cite": "201 L.Ed.2d 237",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12612371,
+        12612372,
+        12612374,
+        12612366
+      ],
+      "year": 2018,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/1976-01",
+        "/s-ct/138/1976-02",
+        "/s-ct/138/1976-04",
+        "/s-ct/138/1975-02"
+      ]
+    },
+    {
+      "cite": "138 S.Ct. 1976",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12612371,
+        12612372,
+        12612373,
+        12612374
+      ],
+      "year": 2018,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/1976-01",
+        "/s-ct/138/1976-02",
+        "/s-ct/138/1976-03",
+        "/s-ct/138/1976-04"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 61,
+    "char_count": 636,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2590724401306794
+    },
+    "sha256": "4dd0accb5e19d474bc529e90d2830d416971dee67637c54a471d4199b8bb19df",
+    "simhash": "1:f005a2132e499e84",
+    "word_count": 92
+  },
+  "last_updated": "2024-02-27T18:45:53.632327+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "UNITED STATES of America, Plaintiff-Appellant,\nv.\nMarco HERNANDEZ-LARA, Defendant-Appellee."
+    ],
+    "opinions": [
+      {
+        "text": "This case is remanded for further proceedings in the district court in light of the Supreme Court's decision in United States v. Hernandez-Lara , --- U.S. ----, 138 S.Ct. 1976, 201 L.Ed.2d 237 (2018), and to consider whether events have rendered further proceedings moot or otherwise barred. In Hernandez , the Supreme Court remanded for further consideration in light of Beckles v. United States , 580 U.S. ----, 137 S.Ct. 886, 197 L.Ed.2d 145 (2017).",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff-Appellant,\nv.\nMarco HERNANDEZ-LARA, Defendant-Appellee.\nNo. 13-10637\nUnited States Court of Appeals, Ninth Circuit.\nFiled September 20, 2018\nORDER"
+  },
+  "file_name": "0866-02",
+  "first_page_order": 866,
+  "last_page_order": 866
+}

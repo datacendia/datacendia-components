@@ -1,0 +1,61 @@
+{
+  "id": 6030779,
+  "name": "Strickland v. United States",
+  "name_abbreviation": "Strickland v. United States",
+  "decision_date": "2010-11-01",
+  "docket_number": "No. 10-5541",
+  "first_page": "1026",
+  "last_page": "1026",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1026"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 154,
+    "ocr_confidence": 0.616,
+    "sha256": "7c7e48dbf4a8b2a9a2ab83649ba8d3a84dc06eef50373ce856d5fedf9b15ca9e",
+    "simhash": "1:8933fb824b8ea84c",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Strickland v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5541.\nStrickland v. United States."
+  },
+  "file_name": "1026-04",
+  "first_page_order": 1048,
+  "last_page_order": 1048
+}

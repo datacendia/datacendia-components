@@ -1,0 +1,59 @@
+{
+  "id": 12429490,
+  "name": "Mycoff v. Florida et al.",
+  "name_abbreviation": "Mycoff v. Florida",
+  "decision_date": "2013-01-14",
+  "docket_number": "No. 12-7261",
+  "first_page": "1130",
+  "last_page": "1130",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1130"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 73,
+    "ocr_confidence": 0.658,
+    "sha256": "ebebff2216b53748e3d5eb6a057e8c92706ad6779c971c435706879a158554ca",
+    "simhash": "1:185808a041239032",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mycoff v. Florida et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7261.\nMycoff v. Florida et al."
+  },
+  "file_name": "1130-04",
+  "first_page_order": 1206,
+  "last_page_order": 1206
+}

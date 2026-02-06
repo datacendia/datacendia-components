@@ -1,0 +1,59 @@
+{
+  "id": 12216002,
+  "name": "Avila v. United States",
+  "name_abbreviation": "Avila v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5060",
+  "first_page": "887",
+  "last_page": "887",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 887"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.641,
+    "sha256": "01249b50a711f0f0a49be47758f75c6cccb6cff5ea1e25bfa45e8145c3d5fb63",
+    "simhash": "1:00c89a49c2901408",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Avila v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5060.\nAvila v. United States."
+  },
+  "file_name": "0887-15",
+  "first_page_order": 969,
+  "last_page_order": 969
+}

@@ -1,0 +1,82 @@
+{
+  "id": 12187712,
+  "name": "Simmons v. Lamarque, Warden, et al.",
+  "name_abbreviation": "Simmons v. Lamarque",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10321",
+  "first_page": "802",
+  "last_page": "803",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 802"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "506 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11924825
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/506/0001-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 72,
+    "char_count": 545,
+    "ocr_confidence": 0.65,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.24753817693618432
+    },
+    "sha256": "22dc3494f0e9d2fc5b290a959efc4b5602333c963b2bd9a18e7576994aa75344",
+    "simhash": "1:6d22348d0725dcfe",
+    "word_count": 91
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Simmons v. Lamarque, Warden, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Motion of petitioner for leave to proceed in forma pau-peris denied, and certiorari dismissed. See this Court\u2019s Rule 39.8. As petitioner has repeatedly abused this Court\u2019s process, the Clerk is directed not to accept any further petitions in noncriminal matters from petitioner unless the docketing fee required by Rule 38(a) is paid and the petition is submitted in compliance with Rule 33.1. See Martin v. District of Columbia Court of Appeals, 506 U. S. 1 (1992) (per curiam).",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10321.\nSimmons v. Lamarque, Warden, et al."
+  },
+  "file_name": "0802-06",
+  "first_page_order": 884,
+  "last_page_order": 885
+}

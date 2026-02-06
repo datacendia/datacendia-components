@@ -1,0 +1,59 @@
+{
+  "id": 12230919,
+  "name": "Morris v. Curtin, Warden",
+  "name_abbreviation": "Morris v. Curtin",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. 11-6077",
+  "first_page": "983",
+  "last_page": "983",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 983"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.632,
+    "sha256": "56d4187c0c5fcd39b62a52dfd5255e55c2041ba9d741e7193969d3006dcec25d",
+    "simhash": "1:b1aa12d0de4f1066",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Morris v. Curtin, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6077.\nMorris v. Curtin, Warden."
+  },
+  "file_name": "0983-14",
+  "first_page_order": 1065,
+  "last_page_order": 1065
+}

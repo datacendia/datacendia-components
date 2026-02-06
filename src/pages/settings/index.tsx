@@ -15,6 +15,7 @@ import {
   type ApiKey,
   type BillingInfo,
 } from '../../services/SettingsService';
+import { useVerticalConfig } from '../../contexts/VerticalConfigContext';
 
 // =============================================================================
 // SETTINGS LAYOUT
@@ -74,8 +75,35 @@ export const SettingsLayout: React.FC = () => {
 // ORGANIZATION SETTINGS
 // =============================================================================
 
+// Map settings industry values to vertical IDs
+const INDUSTRY_TO_VERTICAL: Record<string, string> = {
+  'technology': 'technology',
+  'finance': 'financial',
+  'healthcare': 'healthcare',
+  'sports': 'sports',
+  'aviation': 'aerospace',
+  'manufacturing': 'manufacturing',
+  'government': 'government',
+  'retail': 'retail',
+  'energy': 'energy',
+  'logistics': 'logistics',
+  'insurance': 'insurance',
+  'legal': 'legal',
+  'education': 'education',
+  'hospitality': 'hospitality',
+  'agriculture': 'agriculture',
+  'real-estate': 'real-estate',
+  'telecom': 'telecom',
+  'media': 'media',
+  'nonprofit': 'nonprofit',
+  'construction': 'construction',
+  'automotive': 'automotive',
+  'pharmaceutical': 'pharmaceutical',
+};
+
 export const OrganizationSettingsPage: React.FC = () => {
   const { addToast } = useToast();
+  const { selectVertical, currentVertical } = useVerticalConfig();
   const [isSaving, setIsSaving] = useState(false);
   const [isExporting, setIsExporting] = useState(false);
   const [showDeleteModal, setShowDeleteModal] = useState(false);
@@ -94,6 +122,24 @@ export const OrganizationSettingsPage: React.FC = () => {
     currency: 'USD',
     numberFormat: 'en-US',
   });
+
+  // Sync industry with vertical config on change
+  const handleIndustryChange = async (newIndustry: string) => {
+    setOrgData({ ...orgData, industry: newIndustry });
+    
+    // Map to vertical ID and update vertical config
+    const verticalId = INDUSTRY_TO_VERTICAL[newIndustry] || 'technology';
+    try {
+      await selectVertical(verticalId);
+      addToast({
+        status: 'success',
+        title: 'Industry Updated',
+        description: `Dashboard and services updated for ${newIndustry.replace('-', ' ')} vertical`,
+      });
+    } catch (err) {
+      console.error('Failed to update vertical:', err);
+    }
+  };
 
   return (
     <div className="max-w-3xl">
@@ -134,15 +180,37 @@ export const OrganizationSettingsPage: React.FC = () => {
               <label className="block text-sm font-medium text-neutral-700 mb-1">Industry</label>
               <select
                 value={orgData.industry}
-                onChange={(e) => setOrgData({ ...orgData, industry: e.target.value })}
+                onChange={(e) => handleIndustryChange(e.target.value)}
                 className="w-full h-10 px-3 border border-neutral-300 rounded-lg focus:ring-2 focus:ring-primary-500"
               >
                 <option value="technology">Technology</option>
                 <option value="finance">Financial Services</option>
                 <option value="healthcare">Healthcare</option>
+                <option value="sports">Sports & Entertainment</option>
+                <option value="aviation">Aviation & Aerospace</option>
                 <option value="manufacturing">Manufacturing</option>
+                <option value="government">Government</option>
                 <option value="retail">Retail</option>
+                <option value="energy">Energy & Utilities</option>
+                <option value="logistics">Transportation & Logistics</option>
+                <option value="insurance">Insurance</option>
+                <option value="legal">Legal & Professional Services</option>
+                <option value="education">Education</option>
+                <option value="hospitality">Hospitality & Travel</option>
+                <option value="agriculture">Agriculture</option>
+                <option value="real-estate">Real Estate</option>
+                <option value="telecom">Telecommunications</option>
+                <option value="media">Media & Entertainment</option>
+                <option value="nonprofit">Non-Profit</option>
+                <option value="construction">Construction</option>
+                <option value="automotive">Automotive</option>
+                <option value="pharmaceutical">Pharmaceutical</option>
               </select>
+              {currentVertical && (
+                <p className="text-xs text-neutral-500 mt-1">
+                  Dashboard configured for: <span className="font-medium text-primary-600">{currentVertical.name}</span>
+                </p>
+              )}
             </div>
             <div>
               <label className="block text-sm font-medium text-neutral-700 mb-1">

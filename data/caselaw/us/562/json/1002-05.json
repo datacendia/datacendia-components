@@ -1,0 +1,59 @@
+{
+  "id": 5937546,
+  "name": "Mendiola v. Holder, Attorney General",
+  "name_abbreviation": "Mendiola v. Holder",
+  "decision_date": "2010-11-01",
+  "docket_number": "No. 09-1378",
+  "first_page": "1002",
+  "last_page": "1002",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1002"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 86,
+    "ocr_confidence": 0.532,
+    "sha256": "0acbc8a50f23b09ca8f7784248555b73fd3cd93d76b227820f6b9cbbd0789e30",
+    "simhash": "1:4309709889256324",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mendiola v. Holder, Attorney General."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-1378.\nMendiola v. Holder, Attorney General."
+  },
+  "file_name": "1002-05",
+  "first_page_order": 1024,
+  "last_page_order": 1024
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12408572,
+  "name": "McCune v. Ludwick, Warden",
+  "name_abbreviation": "McCune v. Ludwick",
+  "decision_date": "2012-06-11",
+  "docket_number": "No. 11-9858",
+  "first_page": "909",
+  "last_page": "909",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 909"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.652,
+    "sha256": "ca5dd983c3de9d6efe1bdc428baa634a150bed64dc5cfc45cca27c086fd56a89",
+    "simhash": "1:941a328afe7f91e7",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McCune v. Ludwick, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9858.\nMcCune v. Ludwick, Warden."
+  },
+  "file_name": "0909-14",
+  "first_page_order": 813,
+  "last_page_order": 813
+}

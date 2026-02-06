@@ -1,0 +1,59 @@
+{
+  "id": 5948733,
+  "name": "Redman v. West Virginia",
+  "name_abbreviation": "Redman v. West Virginia",
+  "decision_date": "2011-04-25",
+  "docket_number": "No. 10-9143",
+  "first_page": "963",
+  "last_page": "963",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 963"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 90,
+    "ocr_confidence": 0.615,
+    "sha256": "705f3c8ea7536db4cc3da1081c4f8a6697339914580e7e820ee54cd9b3b85d9d",
+    "simhash": "1:ab3ea457cf685817",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Redman v. West Virginia."
+    ],
+    "opinions": [
+      {
+        "text": "Cir. Ct. Berkeley County, W. Va. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9143.\nRedman v. West Virginia."
+  },
+  "file_name": "0963-12",
+  "first_page_order": 989,
+  "last_page_order": 989
+}

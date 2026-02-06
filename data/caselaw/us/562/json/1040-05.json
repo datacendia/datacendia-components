@@ -1,0 +1,59 @@
+{
+  "id": 5915594,
+  "name": "In re Discipline of Reich",
+  "name_abbreviation": "In re Discipline of Reich",
+  "decision_date": "2010-11-15",
+  "docket_number": "No. D-2583",
+  "first_page": "1040",
+  "last_page": "1040",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1040"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 41,
+    "char_count": 284,
+    "ocr_confidence": 0.589,
+    "sha256": "5c34830a0f03fa5b2baad2ef92fe11738f72ebd91ad7ef91a12835b33d2ae5bd",
+    "simhash": "1:6d8a63b63ebe27ee",
+    "word_count": 53
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of Reich."
+    ],
+    "opinions": [
+      {
+        "text": "Perry S. Reich, of Oakland Gardens, N. Y., is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2583.\nIn re Discipline of Reich."
+  },
+  "file_name": "1040-05",
+  "first_page_order": 1062,
+  "last_page_order": 1062
+}

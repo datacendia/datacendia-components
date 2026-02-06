@@ -1,0 +1,59 @@
+{
+  "id": 12423330,
+  "name": "Kirby v. United States",
+  "name_abbreviation": "Kirby v. United States",
+  "decision_date": "2012-11-13",
+  "docket_number": "No. 12-6748",
+  "first_page": "1018",
+  "last_page": "1018",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1018"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.641,
+    "sha256": "88935cd01d4242108ef93cdf93a3c66568a13ae5e0c98e92f08124f8a02d68b2",
+    "simhash": "1:06889b1b9a36990a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Kirby v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6748.\nKirby v. United States."
+  },
+  "file_name": "1018-08",
+  "first_page_order": 1094,
+  "last_page_order": 1094
+}

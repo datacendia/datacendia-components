@@ -1,0 +1,59 @@
+{
+  "id": 5932876,
+  "name": "Stokes v. Moorman",
+  "name_abbreviation": "Stokes v. Moorman",
+  "decision_date": "2011-06-13",
+  "docket_number": "No. 10-9924",
+  "first_page": "1006",
+  "last_page": "1006",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1006"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 66,
+    "ocr_confidence": 0.607,
+    "sha256": "617b9dc8b9b31203146798ae5089c03a5a16faa3f46f577d01b671cee887ac35",
+    "simhash": "1:17c04e308e6db171",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Stokes v. Moorman."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9924.\nStokes v. Moorman."
+  },
+  "file_name": "1006-13",
+  "first_page_order": 1000,
+  "last_page_order": 1000
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12432395,
+  "name": "Gehringer v. United States",
+  "name_abbreviation": "Gehringer v. United States",
+  "decision_date": "2013-02-25",
+  "docket_number": "No. 12-8474",
+  "first_page": "1205",
+  "last_page": "1205",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1205"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.632,
+    "sha256": "7d2c9873e8a72bb2c5f2c65fad008b542207ee08a6d51a3b2ede9cd8d4a8e3b3",
+    "simhash": "1:079bd307ab37132a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gehringer v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8474.\nGehringer v. United States."
+  },
+  "file_name": "1205-08",
+  "first_page_order": 1281,
+  "last_page_order": 1281
+}

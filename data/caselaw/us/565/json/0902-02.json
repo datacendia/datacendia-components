@@ -1,0 +1,59 @@
+{
+  "id": 12219581,
+  "name": "Norvell v. California",
+  "name_abbreviation": "Norvell v. California",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5332",
+  "first_page": "902",
+  "last_page": "902",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 902"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 85,
+    "ocr_confidence": 0.617,
+    "sha256": "7797eb3d2c48798970a7fe2a05457a6b3a226c0b465d51d578acf178e244d733",
+    "simhash": "1:0ca5028013c15263",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Norvell v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 6th App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5332.\nNorvell v. California."
+  },
+  "file_name": "0902-02",
+  "first_page_order": 984,
+  "last_page_order": 984
+}

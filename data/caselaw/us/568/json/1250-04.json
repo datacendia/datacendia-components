@@ -1,0 +1,59 @@
+{
+  "id": 12433864,
+  "name": "Schafler v. Field et al.",
+  "name_abbreviation": "Schafler v. Field",
+  "decision_date": "2013-03-25",
+  "docket_number": "No. 12-891",
+  "first_page": "1250",
+  "last_page": "1250",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1250"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 72,
+    "ocr_confidence": 0.674,
+    "sha256": "52e49e091c3cd365e03bca6c140ae53fc10d8244ec3e391dba841ac64686822c",
+    "simhash": "1:23cab8f9de85d1dc",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Schafler v. Field et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-891.\nSchafler v. Field et al."
+  },
+  "file_name": "1250-04",
+  "first_page_order": 1326,
+  "last_page_order": 1326
+}

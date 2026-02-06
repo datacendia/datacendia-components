@@ -1,0 +1,59 @@
+{
+  "id": 12430868,
+  "name": "Arias v. Grounds, Warden",
+  "name_abbreviation": "Arias v. Grounds",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-7549",
+  "first_page": "1167",
+  "last_page": "1167",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1167"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.499,
+    "sha256": "c65acd587e6e871ba28f90ed995b15c0d296ac710f29809814e33545a017e9d6",
+    "simhash": "1:c21346e02bbf6165",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Arias v. Grounds, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7549.\nArias v. Grounds, Warden."
+  },
+  "file_name": "1167-14",
+  "first_page_order": 1243,
+  "last_page_order": 1243
+}

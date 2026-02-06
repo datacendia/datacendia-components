@@ -1,0 +1,59 @@
+{
+  "id": 12234776,
+  "name": "In re Discipline of Ford",
+  "name_abbreviation": "In re Discipline of Ford",
+  "decision_date": "2011-11-28",
+  "docket_number": "No. D-2721",
+  "first_page": "1054",
+  "last_page": "1054",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1054"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 40,
+    "char_count": 275,
+    "ocr_confidence": 0.667,
+    "sha256": "1069543487888a3dbab7a69efaf30074d91df882f7cd75fea913e0c20792ddbd",
+    "simhash": "1:6f8b75b21bfa6760",
+    "word_count": 52
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of Ford."
+    ],
+    "opinions": [
+      {
+        "text": "Tonya L. Ford, of Raleigh, N. C., is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring her to show cause why she should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2721.\nIn re Discipline of Ford."
+  },
+  "file_name": "1054-07",
+  "first_page_order": 1136,
+  "last_page_order": 1136
+}

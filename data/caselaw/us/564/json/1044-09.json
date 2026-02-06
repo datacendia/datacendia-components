@@ -1,0 +1,59 @@
+{
+  "id": 5928353,
+  "name": "Daniels v. United States",
+  "name_abbreviation": "Daniels v. United States",
+  "decision_date": "2011-06-27",
+  "docket_number": "No. 10-10657",
+  "first_page": "1044",
+  "last_page": "1044",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1044"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.607,
+    "sha256": "962153faa31bed2c7a97bcbba5776ed8b439fcd60d5647b7aa5ae269fd63cc6b",
+    "simhash": "1:b7caca234f8fb109",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Daniels v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10657.\nDaniels v. United States."
+  },
+  "file_name": "1044-09",
+  "first_page_order": 1038,
+  "last_page_order": 1038
+}

@@ -1,0 +1,68 @@
+{
+  "id": 12697444,
+  "name": "Joe DOE, petitioner, v. CITY OF NEW YORK, NEW YORK, et al.",
+  "name_abbreviation": "Doe v. City of N.Y.",
+  "decision_date": "2013-04-15",
+  "docket_number": "No. 12\u20138634.",
+  "first_page": "929",
+  "last_page": "929",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "569 U.S. 929"
+    },
+    {
+      "type": "parallel",
+      "cite": "185 L. Ed. 2d 832"
+    },
+    {
+      "type": "parallel",
+      "cite": "133 S. Ct. 1818"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 29,
+    "char_count": 225,
+    "sha256": "c3572e216ca155e89c829463e579059534efdba0f2cef85208f7cef08acf1a52",
+    "simhash": "1:f925664c3f81052f",
+    "word_count": 40
+  },
+  "last_updated": "2021-08-27T21:08:28.003473+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Joe DOE, petitioner,\nv.\nCITY OF NEW YORK, NEW YORK, et al."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of certiorari to the United States Court of Appeals for the Second Circuit denied."
+    ],
+    "corrections": "",
+    "head_matter": "Joe DOE, petitioner,\nv.\nCITY OF NEW YORK, NEW YORK, et al.\nNo. 12-8634.\nSupreme Court of the United States\nApril 15, 2013.\nPetition for writ of certiorari to the United States Court of Appeals for the Second Circuit denied."
+  },
+  "file_name": "0929-01",
+  "first_page_order": 929,
+  "last_page_order": 929
+}

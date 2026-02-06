@@ -1,0 +1,59 @@
+{
+  "id": 12411097,
+  "name": "Hill v. Muwwakkil",
+  "name_abbreviation": "Hill v. Muwwakkil",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10012",
+  "first_page": "830",
+  "last_page": "830",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 830"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 68,
+    "ocr_confidence": 0.652,
+    "sha256": "7837dad4a778338927b31d6d55cfd81d8ddbf82fd53203753c515a066e8f6272",
+    "simhash": "1:f0a328f14821f1bb",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hill v. Muwwakkil."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10012.\nHill v. Muwwakkil."
+  },
+  "file_name": "0830-10",
+  "first_page_order": 906,
+  "last_page_order": 906
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5940387,
+  "name": "Snyder v. United States",
+  "name_abbreviation": "Snyder v. United States",
+  "decision_date": "2010-11-15",
+  "docket_number": "No. 10-5022",
+  "first_page": "1045",
+  "last_page": "1045",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1045"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.602,
+    "sha256": "bf7d04c64116c6576c70faca1e10fe032935f3d5bbe0a708e45bb555c93aee06",
+    "simhash": "1:37aaca6b4ebd911b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Snyder v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5022.\nSnyder v. United States."
+  },
+  "file_name": "1045-09",
+  "first_page_order": 1067,
+  "last_page_order": 1067
+}

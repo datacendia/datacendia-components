@@ -21,6 +21,9 @@ import { Logo, LogoSimple } from '../components/brand/Logo';
 import { SimpleTooltip } from '../components/ui';
 import { ThemeToggle } from '../components/ui/ThemeToggle';
 import { useAuth } from '../contexts';
+import { NavigationLoader, Breadcrumbs, HealthIndicator, ConnectionBanner } from '../components/navigation';
+import { DemoModeToggle, DemoIndicatorBadge } from '../components/demo';
+import { NotificationBell } from '../components/notifications/NotificationBell';
 
 // Icons (using inline SVGs for simplicity - replace with icon library)
 const Icons = {
@@ -173,7 +176,11 @@ const Icons = {
   ),
 };
 
-// Navigation items configuration - 5 Spaces (use translation keys)
+// =============================================================================
+// NAVIGATION STRUCTURE - CONSOLIDATED MASTER LIST
+// =============================================================================
+
+// Main Navigation - Core visible items
 const navigationItems = [
   {
     id: 'dashboard',
@@ -183,102 +190,19 @@ const navigationItems = [
     tooltip: 'Your command center - overview of all metrics, alerts, and recent activity',
   },
   {
-    id: 'graph',
-    labelKey: 'sidebar.the_graph',
-    icon: Icons.Graph,
-    path: '/cortex/graph',
-    tooltip: 'Knowledge Graph Explorer - visualize entities, relationships, and data lineage',
-  },
-  {
     id: 'council',
     labelKey: 'sidebar.the_council',
     icon: Icons.Council,
     path: '/cortex/council',
-    tooltip:
-      'AI Council - multi-agent deliberation for complex decisions with explainable reasoning',
-  },
-  {
-    id: 'pulse',
-    labelKey: 'sidebar.the_pulse',
-    icon: Icons.Pulse,
-    path: '/cortex/pulse',
-    tooltip: 'Real-time organizational health monitoring with anomaly detection',
-  },
-  {
-    id: 'lens',
-    labelKey: 'sidebar.the_lens',
-    icon: Icons.Lens,
-    path: '/cortex/lens',
-    tooltip: 'Predictive analytics and scenario simulation for strategic planning',
-  },
-  {
-    id: 'bridge',
-    labelKey: 'sidebar.the_bridge',
-    icon: Icons.Bridge,
-    path: '/cortex/bridge',
-    tooltip: 'Integration hub - connect external systems, APIs, and data sources',
+    tooltip: 'The Council™ - Multi-agent deliberation with worker representation (Union) and protected whistleblower channels (Dissent)',
   },
 ];
 
-// 8 Pillars (Foundational Data Layers)
-const pillarItems = [
-  {
-    id: 'helm',
-    labelKey: 'sidebar.the_helm',
-    emoji: '🎯',
-    path: '/cortex/pillars/helm',
-    tooltip: 'Metrics Dashboard - KPIs, targets, and performance tracking across your organization',
-  },
-  {
-    id: 'lineage',
-    labelKey: 'sidebar.the_lineage',
-    emoji: '🔗',
-    path: '/cortex/pillars/lineage',
-    tooltip: 'Data Lineage - trace data flow from source to consumption with full provenance',
-  },
-  {
-    id: 'predict',
-    labelKey: 'sidebar.the_predict',
-    emoji: '🔮',
-    path: '/cortex/pillars/predict',
-    tooltip: 'Forecasting Engine - AI-powered predictions with confidence intervals',
-  },
-  {
-    id: 'flow',
-    labelKey: 'sidebar.the_flow',
-    emoji: '🌊',
-    path: '/cortex/pillars/flow',
-    tooltip: 'Workflow Automation - design, execute, and monitor business processes',
-  },
-  {
-    id: 'health',
-    labelKey: 'sidebar.the_health',
-    emoji: '💓',
-    path: '/cortex/pillars/health',
-    tooltip: 'Organization Health - data quality, system status, and operational metrics',
-  },
-  {
-    id: 'guard',
-    labelKey: 'sidebar.the_guard',
-    emoji: '🛡️',
-    path: '/cortex/pillars/guard',
-    tooltip: 'Security & Alerts - threat monitoring, anomaly detection, and incident response',
-  },
-  {
-    id: 'ethics',
-    labelKey: 'sidebar.the_ethics',
-    emoji: '⚖️',
-    path: '/cortex/pillars/ethics',
-    tooltip: 'Stakeholder Voice - ethical AI governance and stakeholder impact assessment',
-  },
-  {
-    id: 'agents',
-    labelKey: 'sidebar.the_agents',
-    emoji: '🤖',
-    path: '/cortex/pillars/agents',
-    tooltip: 'AI Agents - autonomous assistants for research, analysis, and task automation',
-  },
-];
+// HIDDEN: Graph, Pulse, Lens, Bridge - These are features, not products
+// Mention "Real-time Monitoring" (Pulse) and "300+ Integrations" (Bridge) as bullet points
+
+// HIDDEN: 8 Pillars - Helm, Lineage, Predict, Flow, Health, Guard, Ethics, Agents
+const pillarItems: { id: string; labelKey: string; emoji: string; path: string; tooltip: string }[] = []; // Empty - hidden from navigation
 
 // System navigation
 const systemItems = [
@@ -313,141 +237,352 @@ const getCurrentPage = (
   return null;
 };
 
-// Premium Features (Decision Intelligence Suite)
-const premiumFeatures = [
+// =============================================================================
+// 1. THE CORE SUITE (The "Brain") - User-facing, solves immediate business problems
+// =============================================================================
+const coreSuiteFeatures = [
   {
     id: 'chronos',
     label: 'CendiaChronos™',
     icon: '⏱️',
     path: '/cortex/intelligence/chronos',
-    description: 'Enterprise Time Machine',
+    description: 'Enterprise Time Machine - Replay past decisions, simulate future crisis scenarios',
     featured: true,
-  },
-  {
-    id: 'decision-dna',
-    label: 'Decision DNA',
-    icon: '🧬',
-    path: '/cortex/intelligence/decision-dna',
-    description: 'Full lifecycle tracking & replay',
-  },
-  {
-    id: 'pre-mortem',
-    label: 'Pre-Mortem Analysis',
-    icon: '💀',
-    path: '/cortex/intelligence/pre-mortem',
-    description: 'Analyze failure modes before deciding',
+    merged: ['Horizon', 'Cascade', 'Crisis', 'Lens'],
   },
   {
     id: 'ghost-board',
-    label: 'Ghost Board',
+    label: 'Ghost Board™',
     icon: '👻',
     path: '/cortex/intelligence/ghost-board',
-    description: 'Rehearse board meetings with AI',
+    description: 'Rehearse high-stakes board meetings against AI avatars',
+  },
+  {
+    id: 'pre-mortem',
+    label: 'Pre-Mortem Engine',
+    icon: '💀',
+    path: '/cortex/intelligence/pre-mortem',
+    description: 'AI analyzes why your decision will fail before you execute it',
   },
   {
     id: 'decision-debt',
-    label: 'Decision Debt',
+    label: 'Decision Debt™',
     icon: '📊',
     path: '/cortex/intelligence/decision-debt',
-    description: 'Track stuck decisions & costs',
+    description: 'Real-time dashboard of stuck decisions and the financial cost of delay',
   },
   {
-    id: 'live-demo',
-    label: 'Live Demo Mode',
-    icon: '⚡',
-    path: '/cortex/intelligence/live-demo',
-    description: 'Connect to real data instantly',
+    id: 'live-visualization',
+    label: 'Live Deliberation',
+    icon: '👁️‍🗨️',
+    path: '/cortex/council/visualization',
+    description: 'Watch AI agents deliberate in real-time with animated avatars',
   },
   {
-    id: 'regulatory',
-    label: 'Regulatory Absorb',
+    id: 'replay-theater',
+    label: 'Replay Theater',
+    icon: '🎬',
+    path: '/cortex/council/replay-theater',
+    description: 'Watch past deliberations unfold like a movie',
+  },
+];
+
+// =============================================================================
+// 2. THE TRUST LAYER (The "Shield") - Compliance & Proof
+// =============================================================================
+const trustLayerFeatures = [
+  {
+    id: 'oversight',
+    label: 'CendiaOversight™',
+    icon: '👁️',
+    path: '/cortex/sovereign/panopticon',
+    description: 'Real-time Regulatory Radar - FDA, GDPR, DORA frameworks with policy gates',
+    merged: ['Govern', 'Audit', 'Veto', 'Regulatory Absorb', 'Panopticon'],
+  },
+  {
+    id: 'notary',
+    label: 'CendiaNotary™',
+    icon: '✍️',
+    path: '/cortex/sovereign/notary',
+    description: 'Cryptographic Signing Authority - Signs and authenticates all decisions with customer-owned keys',
+    merged: ['Key Management', 'Digital Signatures', 'Non-Repudiation'],
+  },
+  {
+    id: 'vault',
+    label: 'CendiaVault™',
+    icon: '🏛️',
+    path: '/cortex/sovereign/vault',
+    description: 'Unified Evidence Storage - Decision packets, audit ledger, evidence bundles, signed reports',
+    merged: ['Decision Packets', 'Audit Ledger', 'Evidence Bundles', 'Signed Reports'],
+  },
+  {
+    id: 'decision-dna',
+    label: 'Decision DNA™',
+    icon: '🧬',
+    path: '/cortex/intelligence/decision-dna',
+    description: 'Immutable Lineage - Cryptographically signed audit packets on local ledger',
+    merged: ['Ledger', 'Evidence Vault'],
+  },
+  {
+    id: 'crucible',
+    label: 'CendiaCrucible™',
+    icon: '🔥',
+    path: '/cortex/sovereign/crucible',
+    description: 'Adversarial Stress Testing - Attack decisions with simulated threats',
+    merged: ['RedTeam', 'Echo', 'Apotheosis'],
+  },
+  {
+    id: 'adversarial-redteam',
+    label: '100 Ways to Fail',
+    icon: '🎯',
+    path: '/cortex/enterprise/adversarial-redteam',
+    description: 'Adversarial Red Team - Every agent becomes a devil\'s advocate',
+  },
+  {
+    id: 'regulators-receipt',
+    label: "Regulator's Receipt",
     icon: '📜',
-    path: '/cortex/intelligence/regulatory',
-    description: 'Instant compliance learning',
+    path: '/cortex/compliance/regulators-receipt',
+    description: 'Audit-Safe Proof - One-click court-admissible decision documentation',
+    merged: ['Ledger Export', 'Evidence Bundle', 'Chronos Replay', 'Policy Mapping'],
   },
   {
-    id: 'walkthroughs',
-    label: 'Workflow Walkthroughs',
-    icon: '📖',
-    path: '/cortex/walkthroughs',
-    description: 'Step-by-step workflow guides',
-  },
-];
-
-// Apex Products (Premium Standalone)
-const apexProducts = [
-  {
-    id: 'forecast',
-    label: 'CendiaForecast™',
-    icon: '📈',
-    path: '/apex/forecast',
-    description: 'AI-Powered Financial Forecasting',
+    id: 'sgas',
+    label: 'SGAS™',
+    icon: '🏛️',
+    path: '/cortex/sovereign/sgas',
+    description: 'Synthetic Governance Agent System - 5 agent classes for institutional decision verification at societal scale',
+    merged: ['Decision Agents', 'Institutional Agents', 'Adversarial Agents', 'Observer Agents', 'Meta-Governance'],
   },
   {
-    id: 'sentry',
-    label: 'CendiaSentry™',
-    icon: '🔔',
-    path: '/apex/sentry',
-    description: 'Intelligent Alert & Monitoring System',
-  },
-];
-
-// Enterprise Suite (High-Value Features)
-const enterpriseFeatures = [
-  {
-    id: 'sovereign',
-    label: 'CendiaSovereign™',
-    icon: '🏰',
-    path: '/cortex/enterprise/sovereign',
-    description: 'Fully Local LLM Cluster Orchestrator',
-    impact: 'Critical',
-    tier: 'Apex',
-  },
-  {
-    id: 'persona-forge',
-    label: 'CendiaPersonaForge™',
-    icon: '🧠',
-    path: '/cortex/enterprise/persona-forge',
-    description: 'Enterprise-Trained Digital Twins',
-    impact: 'Critical',
-    tier: 'Apex',
-  },
-  {
-    id: 'mesh',
-    label: 'CendiaMesh™',
-    icon: '🕸️',
-    path: '/cortex/enterprise/mesh',
-    description: 'Cross-Company Decision Network',
-    impact: 'Critical',
-    tier: 'Apex',
-  },
-  {
-    id: 'govern',
-    label: 'CendiaGovern™',
+    id: 'constitutional-court',
+    label: 'AI Constitutional Court',
     icon: '⚖️',
-    path: '/cortex/enterprise/govern',
-    description: 'Legal-Grade Policy & Audit Mapping',
-    impact: 'Critical',
-    tier: 'Apex',
+    path: '/cortex/governance/constitutional-court',
+    description: 'Formal AI dispute resolution with precedent tracking and binding opinions',
+    merged: ['Dispute Filing', 'Precedent Database', 'Constitutional Principles'],
   },
   {
-    id: 'voice',
-    label: 'CendiaVoice™',
-    icon: '🎙️',
-    path: '/cortex/enterprise/voice',
-    description: 'AI C-Suite Real-Time Conversation',
-    impact: 'High',
-    tier: 'Enterprise',
+    id: 'regulatory-sandbox',
+    label: 'Regulatory Sandbox',
+    icon: '🧪',
+    path: '/cortex/compliance/regulatory-sandbox',
+    description: 'Test against proposed regulations before they become law',
+    merged: ['EU AI Act', 'Colorado AI Act', 'Gap Analysis', 'Remediation Roadmap'],
   },
   {
-    id: 'autopilot',
-    label: 'CendiaAutopilot™',
-    icon: '🚀',
-    path: '/cortex/enterprise/autopilot',
-    description: 'Self-Driving Enterprise Mode',
-    impact: 'Critical',
-    tier: 'Apex',
+    id: 'zkp',
+    label: 'Zero-Knowledge Proofs',
+    icon: '🔐',
+    path: '/cortex/security/zkp',
+    description: 'Prove compliance without revealing proprietary logic or data',
+    merged: ['Compliance Proofs', 'Fairness Proofs', 'Certificates'],
   },
+  {
+    id: 'ai-insurance',
+    label: 'AI Insurance',
+    icon: '🛡️',
+    path: '/cortex/enterprise/ai-insurance',
+    description: 'Direct liability coverage per AI decision with real-time risk scoring',
+    merged: ['Policy Management', 'Decision Coverage', 'Claims'],
+  },
+];
+
+// =============================================================================
+// 3. VERTICAL PACKS (The "Specialist") - Show based on audience
+// =============================================================================
+const verticalPacks = [
+  // Hub - All Verticals
+  {
+    id: 'hub',
+    label: '🏭 All Verticals',
+    icon: '🏭',
+    path: '/verticals',
+    description: 'Browse all 24 industry verticals',
+    industry: 'All',
+  },
+  // Priority Tier
+  {
+    id: 'legal',
+    label: 'Legal / Law Firms',
+    icon: '⚖️',
+    path: '/verticals/legal',
+    description: '49 council modes, 14 AI agents',
+    industry: 'Legal',
+  },
+  {
+    id: 'healthcare',
+    label: 'Healthcare',
+    icon: '🏥',
+    path: '/verticals/healthcare',
+    description: 'HIPAA-compliant clinical intelligence',
+    industry: 'Healthcare',
+  },
+  {
+    id: 'financial',
+    label: 'Financial Services',
+    icon: '💰',
+    path: '/verticals/financial-services',
+    description: 'Fraud detection & regulatory intel',
+    industry: 'Finance',
+  },
+  {
+    id: 'government',
+    label: 'Government',
+    icon: '🏛️',
+    path: '/verticals/government-legal',
+    description: 'Sovereign AI for public sector',
+    industry: 'Government',
+  },
+  {
+    id: 'insurance',
+    label: 'Insurance',
+    icon: '🛡️',
+    path: '/verticals/insurance',
+    description: 'Underwriting & claims intelligence',
+    industry: 'Insurance',
+  },
+  {
+    id: 'pharmaceutical',
+    label: 'Pharmaceutical',
+    icon: '💊',
+    path: '/verticals/pharmaceutical',
+    description: 'Pipeline & regulatory acceleration',
+    industry: 'Pharma',
+  },
+  // Growth Tier
+  {
+    id: 'manufacturing',
+    label: 'Manufacturing',
+    icon: '🏭',
+    path: '/verticals/manufacturing',
+    description: 'Supply chain & operations',
+    industry: 'Manufacturing',
+  },
+  {
+    id: 'energy',
+    label: 'Energy & Utilities',
+    icon: '⚡',
+    path: '/verticals/energy-utilities',
+    description: 'Grid intelligence & compliance',
+    industry: 'Energy',
+  },
+  {
+    id: 'technology',
+    label: 'Technology / SaaS',
+    icon: '💻',
+    path: '/verticals/technology',
+    description: 'Product velocity & AI governance',
+    industry: 'Tech',
+  },
+  {
+    id: 'retail',
+    label: 'Retail & Hospitality',
+    icon: '🛒',
+    path: '/verticals/retail-hospitality',
+    description: 'Pricing & revenue optimization',
+    industry: 'Retail',
+  },
+  {
+    id: 'real-estate',
+    label: 'Real Estate',
+    icon: '🏗️',
+    path: '/verticals/real-estate',
+    description: 'Development & property analytics',
+    industry: 'Real Estate',
+  },
+  {
+    id: 'transportation',
+    label: 'Transportation',
+    icon: '🚚',
+    path: '/verticals/transportation',
+    description: 'Fleet & logistics optimization',
+    industry: 'Logistics',
+  },
+  {
+    id: 'media',
+    label: 'Media & Entertainment',
+    icon: '🎬',
+    path: '/verticals/media-entertainment',
+    description: 'Content & audience intelligence',
+    industry: 'Media',
+  },
+  {
+    id: 'professional-services',
+    label: 'Professional Services',
+    icon: '💼',
+    path: '/verticals/professional-services',
+    description: 'Consulting & advisory firms',
+    industry: 'Services',
+  },
+  {
+    id: 'education',
+    label: 'Higher Education',
+    icon: '🎓',
+    path: '/verticals/higher-education',
+    description: 'Academic & research institutions',
+    industry: 'Education',
+  },
+  {
+    id: 'sports',
+    label: 'Sports / Athletics',
+    icon: '🏆',
+    path: '/verticals/sports',
+    description: '24 agents for sports orgs',
+    industry: 'Sports',
+  },
+  // Smart City / Municipal
+  {
+    id: 'smart-city',
+    label: 'Smart City / Municipal',
+    icon: '🏛️',
+    path: '/verticals/smart-city',
+    description: '17 agents, 28 council modes, 3 guardians',
+    industry: 'Government',
+  },
+];
+
+// =============================================================================
+// ADDITIONAL CORE SERVICES
+// =============================================================================
+const additionalServices = [
+  {
+    id: 'omni-translate',
+    label: 'CendiaOmniTranslate™',
+    icon: '🌍',
+    path: '/cortex/enterprise/omni-translate',
+    description: '100-Language Enterprise Translator',
+  },
+  {
+    id: 'dissent',
+    label: 'CendiaDissent™',
+    icon: '✊',
+    path: '/cortex/enterprise/dissent',
+    description: 'Protected Dissent & Whistleblower Channel (Council extension)',
+  },
+  {
+    id: 'responsibility',
+    label: 'CendiaResponsibility™',
+    icon: '👤',
+    path: '/cortex/enterprise/responsibility',
+    description: 'Human Accountability Layer - TPM-signed liability transfer',
+  },
+];
+
+// REMOVED: CendiaForecast, CendiaSentry (Apex Products)
+// MOVED TO SETTINGS: Walkthroughs, Training, Gnosis
+// MOVED TO PRICING: Sovereign (deployment tier)
+// MOVED TO VISION ROADMAP: PersonaForge, Mesh, Aegis
+
+// Legacy arrays for backwards compatibility (empty or minimal)
+const premiumFeatures = [...coreSuiteFeatures];
+const apexProducts: typeof coreSuiteFeatures = []; // Removed
+
+// =============================================================================
+// ENTERPRISE FEATURES - Consolidated (many merged into Core Suite / Trust Layer)
+// =============================================================================
+const enterpriseFeatures = [
+  // Vertical Packs (Specialist - show based on audience)
   {
     id: 'genomics',
     label: 'CendiaGenomics™',
@@ -455,17 +590,27 @@ const enterpriseFeatures = [
     path: '/cortex/enterprise/genomics',
     description: 'Healthcare & Life Sciences Pack',
     impact: 'Critical',
-    tier: 'Industry',
+    tier: 'Specialist',
   },
   {
     id: 'defense-stack',
-    label: 'CendiaDefenseStack™',
+    label: 'CendiaDefense™',
     icon: '🛡️',
     path: '/cortex/enterprise/defense-stack',
     description: 'Government/Defense Edition',
     impact: 'Critical',
-    tier: 'Industry',
+    tier: 'Specialist',
   },
+  {
+    id: 'defense-vertical',
+    label: 'Defense Vertical',
+    icon: '🎖️',
+    path: '/cortex/sovereign/defense',
+    description: 'DIU-Ready Defense & National Security - 24 agents, 35 council modes',
+    impact: 'Critical',
+    tier: 'Sovereign',
+  },
+  // Core Services (kept)
   {
     id: 'omni-translate',
     label: 'CendiaOmniTranslate™',
@@ -473,167 +618,61 @@ const enterpriseFeatures = [
     path: '/cortex/enterprise/omni-translate',
     description: '100-Language Enterprise Translator',
     impact: 'High',
-    tier: 'Enterprise',
-  },
-  {
-    id: 'veto',
-    label: 'CendiaVeto™',
-    icon: '🚫',
-    path: '/cortex/enterprise/veto',
-    description: 'Adversarial Governance Engine',
-    impact: 'High',
-    tier: 'Enterprise',
-  },
-  {
-    id: 'union',
-    label: 'CendiaUnion™',
-    icon: '🤝',
-    path: '/cortex/enterprise/union',
-    description: 'Employee Rights & Wellness Engine',
-    impact: 'High',
-    tier: 'Enterprise',
-  },
-  {
-    id: 'ledger',
-    label: 'CendiaLedger™',
-    icon: '📒',
-    path: '/cortex/enterprise/ledger',
-    description: 'Immutable Decision Blockchain',
-    impact: 'Critical',
-    tier: 'Apex',
-  },
-  {
-    id: 'evidence-vault',
-    label: 'Evidence Vault',
-    icon: '🗄️',
-    path: '/cortex/enterprise/evidence-vault',
-    description: 'Global Decision Packet Access',
-    impact: 'High',
-    tier: 'Enterprise',
-  },
-  {
-    id: 'apotheosis',
-    label: 'CendiaApotheosis™',
-    icon: '🦋',
-    path: '/cortex/enterprise/apotheosis',
-    description: 'Self-Improving AI with Red-Team Testing',
-    impact: 'Critical',
-    tier: 'Apex',
+    tier: 'Core',
   },
   {
     id: 'dissent',
     label: 'CendiaDissent™',
     icon: '✊',
     path: '/cortex/enterprise/dissent',
-    description: 'Protected Dissent & Whistleblower Channel',
+    description: 'Protected Dissent & Whistleblower Channel (Council extension)',
+    impact: 'High',
+    tier: 'Core',
+  },
+  {
+    id: 'responsibility',
+    label: 'CendiaResponsibility™',
+    icon: '👤',
+    path: '/cortex/enterprise/responsibility',
+    description: 'Human Accountability Layer - TPM-signed liability transfer',
     impact: 'High',
     tier: 'Enterprise',
   },
-  {
-    id: 'cascade',
-    label: 'CendiaCascade™',
-    icon: '🦋',
-    path: '/cortex/enterprise/cascade',
-    description: 'Butterfly Effect Consequence Engine',
-    impact: 'Critical',
-    tier: 'Apex',
-  },
-  {
-    id: 'crisis',
-    label: 'CendiaCrisis™',
-    icon: '🚨',
-    path: '/cortex/enterprise/crisis',
-    description: 'Crisis Management & Response',
-    impact: 'Critical',
-    tier: 'Enterprise',
-  },
-  {
-    id: 'audit-workflow',
-    label: 'CendiaAudit™',
-    icon: '📋',
-    path: '/cortex/enterprise/audit-workflow',
-    description: 'Audit Workflow & Compliance',
-    impact: 'High',
-    tier: 'Enterprise',
-  },
-  {
-    id: 'training',
-    label: 'CendiaTraining™',
-    icon: '🎓',
-    path: '/cortex/enterprise/training',
-    description: 'AI-Powered Enterprise Training',
-    impact: 'High',
-    tier: 'Enterprise',
-  },
-  // Admin & Configuration
+  // Admin (moved from Enterprise to Admin section)
   {
     id: 'vertical-config',
     label: 'Vertical Config',
     icon: '⚙️',
     path: '/cortex/admin/vertical-config',
     description: 'Industry Vertical & Service Toggles',
-    impact: 'High',
+    impact: 'Admin',
     tier: 'Admin',
-  },
-  // Strategic Intelligence Services
-  {
-    id: 'echo',
-    label: 'CendiaEcho™',
-    icon: '📊',
-    path: '/cortex/crown/echo',
-    description: 'Decision Outcome Engine - Measure ROI',
-    impact: 'High',
-    tier: 'Core',
-  },
-  {
-    id: 'redteam',
-    label: 'CendiaRedTeam™',
-    icon: '💀',
-    path: '/cortex/crown/redteam',
-    description: 'Adversarial Security Testing',
-    impact: 'High',
-    tier: 'Core',
-  },
-  {
-    id: 'gnosis',
-    label: 'CendiaGnosis™',
-    icon: '🎓',
-    path: '/cortex/crown/gnosis',
-    description: 'AI-Powered Learning Paths',
-    impact: 'Strategic',
-    tier: 'Core',
   },
 ];
 
-// Sovereign Tier (Premium Enterprise - Regulation, Defense, Long-Horizon)
+// =============================================================================
+// HIDDEN/MERGED SERVICES (kept for route compatibility but not shown in nav)
+// =============================================================================
+// MERGED INTO COUNCIL: Autopilot, Voice, Union, Veto
+// MERGED INTO CHRONOS: Horizon, Cascade, Crisis, Lens
+// MERGED INTO OVERSIGHT: Govern, Audit, Panopticon, Regulatory Absorb
+// MERGED INTO DECISION DNA: Ledger, Evidence Vault
+// MERGED INTO CRUCIBLE: RedTeam, Echo, Apotheosis
+// MOVED TO SETTINGS: Training, Walkthroughs, Gnosis
+// MOVED TO VISION ROADMAP: PersonaForge, Mesh, Aegis
+// MOVED TO PRICING: Sovereign (deployment tier, not software module)
+
+// =============================================================================
+// SOVEREIGN TIER - Now part of Trust Layer (shown in Trust Layer dropdown)
+// =============================================================================
+// Most sovereign features are now merged into Trust Layer:
+// - Crucible (merged with RedTeam, Echo, Apotheosis)
+// - Panopticon → renamed to Oversight (merged with Govern, Audit, Veto)
+// - Horizon → merged into Chronos
+// - Vox → merged into Council
+// 
+// Remaining sovereign features (kept for specialized use):
 const sovereignFeatures = [
-  {
-    id: 'crucible',
-    label: 'CendiaCrucible™',
-    icon: '🔥',
-    path: '/cortex/sovereign/crucible',
-    description: 'Strategic Decision Forge',
-    impact: 'Critical',
-    tier: 'Sovereign',
-  },
-  {
-    id: 'panopticon',
-    label: 'CendiaPanopticon™',
-    icon: '👁️',
-    path: '/cortex/sovereign/panopticon',
-    description: 'Global Regulation Engine - 25+ Frameworks',
-    impact: 'Critical',
-    tier: 'Sovereign',
-  },
-  {
-    id: 'aegis',
-    label: 'CendiaAegis™',
-    icon: '🛡️',
-    path: '/cortex/sovereign/aegis',
-    description: 'Strategic Defense Intelligence',
-    impact: 'Critical',
-    tier: 'Sovereign',
-  },
   {
     id: 'eternal',
     label: 'CendiaEternal™',
@@ -653,24 +692,38 @@ const sovereignFeatures = [
     tier: 'Sovereign',
   },
   {
-    id: 'vox',
-    label: 'CendiaVox™',
-    icon: '🗣️',
-    path: '/cortex/sovereign/vox',
-    description: 'Stakeholder Voice Assembly',
-    impact: 'High',
+    id: 'shadow-ops',
+    label: 'CendiaShadowOps™',
+    icon: '🕵️',
+    path: '/cortex/sovereign/shadow-ops',
+    description: 'Competitive Intelligence & Counter-Intelligence - Monitor competitor moves, detect when you\'re being analyzed',
+    impact: 'Critical',
     tier: 'Sovereign',
   },
   {
-    id: 'horizon',
-    label: 'CendiaHorizon™',
-    icon: '🔮',
-    path: '/cortex/sovereign/horizon',
-    description: 'Predictive Decision Intelligence - What If Time Machine',
+    id: 'succession',
+    label: 'CendiaSuccession™',
+    icon: '👔',
+    path: '/cortex/sovereign/succession',
+    description: 'Leadership Continuity - AI-powered succession planning & tacit knowledge capture from departing executives',
+    impact: 'Strategic',
+    tier: 'Sovereign',
+  },
+  {
+    id: 'sanctuary',
+    label: 'CendiaSanctuary™',
+    icon: '🏰',
+    path: '/cortex/sovereign/sanctuary',
+    description: 'Crisis Bunker - Air-gapped decision-making during cyber attacks with offline deliberation',
     impact: 'Critical',
     tier: 'Sovereign',
   },
 ];
+
+// MOVED TO VISION ROADMAP: Aegis (Strategic Defense Intelligence)
+// MERGED INTO CHRONOS: Horizon
+// MERGED INTO COUNCIL: Vox
+// RENAMED: Panopticon → Oversight (in Trust Layer)
 
 // Inner layout component that can use translations
 const CortexLayoutInner: React.FC = () => {
@@ -688,70 +741,25 @@ const CortexLayoutInner: React.FC = () => {
 
   // Check if user is owner/admin (bypass all service filtering)
   const isOwnerOrAdmin = useMemo(() => {
-    return user?.role === 'OWNER' || user?.role === 'SUPER_ADMIN' || user?.role === 'ADMIN';
+    const role = user?.role?.toUpperCase();
+    const result = role === 'OWNER' || role === 'SUPER_ADMIN' || role === 'ADMIN';
+    console.log('[CortexLayout] User role:', user?.role, 'isOwnerOrAdmin:', result);
+    return result;
   }, [user?.role]);
 
   // Filter enterprise features based on enabled services
   const filteredEnterpriseFeatures = useMemo(() => {
-    // Owners and admins see ALL services
-    if (isOwnerOrAdmin) return enterpriseFeatures;
-    if (!isInitialized) return enterpriseFeatures;
-    
-    // Map nav item IDs to service IDs
-    const serviceIdMap: Record<string, string> = {
-      'govern': 'govern',
-      'autopilot': 'autopilot',
-      'voice': 'voice',
-      'mesh': 'mesh',
-      'sovereign': 'sovereign',
-      'genomics': 'genomics',
-      'defense-stack': 'defense-stack',
-      'omni-translate': 'omni-translate',
-      'veto': 'veto',
-      'union': 'union',
-      'ledger': 'ledger',
-      'evidence-vault': 'evidence-vault',
-      'apotheosis': 'apotheosis',
-      'dissent': 'dissent',
-      'cascade': 'cascade',
-      'crisis': 'crisis-management',
-      'audit-workflow': 'audit-workflow',
-      'training': 'training',
-      'vertical-config': 'vertical-config', // Admin always visible
-      'echo': 'echo',
-      'redteam': 'red-team',
-      'gnosis': 'gnosis',
-    };
+    // ALWAYS show ALL enterprise features - filtering disabled for now
+    console.log('[CortexLayout] Enterprise: isOwnerOrAdmin=', isOwnerOrAdmin, 'returning all', enterpriseFeatures.length, 'features');
+    return enterpriseFeatures;
+  }, [isOwnerOrAdmin]);
 
-    return enterpriseFeatures.filter(feature => {
-      const serviceId = serviceIdMap[feature.id];
-      // Always show admin items and items without service mapping
-      if (!serviceId || feature.id === 'vertical-config') return true;
-      return isServiceEnabled(serviceId);
-    });
-  }, [isInitialized, isServiceEnabled, isOwnerOrAdmin]);
-
-  // Filter sovereign features based on enabled services
+  // Filter sovereign features - show ALL for owner
   const filteredSovereignFeatures = useMemo(() => {
-    // Owners and admins see ALL services
-    if (isOwnerOrAdmin) return sovereignFeatures;
-    if (!isInitialized) return sovereignFeatures;
-    
-    const serviceIdMap: Record<string, string> = {
-      'crucible': 'sovereign',
-      'panopticon': 'panopticon',
-      'aegis': 'defense-stack',
-      'eternal': 'time-lock',
-      'symbiont': 'local-rlhf',
-      'vox': 'voice',
-    };
-
-    return sovereignFeatures.filter(feature => {
-      const serviceId = serviceIdMap[feature.id];
-      if (!serviceId) return true;
-      return isServiceEnabled(serviceId);
-    });
-  }, [isInitialized, isServiceEnabled, isOwnerOrAdmin]);
+    // ALWAYS show ALL sovereign features - filtering disabled for now
+    console.log('[CortexLayout] Sovereign: isOwnerOrAdmin=', isOwnerOrAdmin, 'returning all', sovereignFeatures.length, 'features');
+    return sovereignFeatures;
+  }, [isOwnerOrAdmin]);
 
   const isActive = (path: string) => {
     if (path === '/cortex/dashboard') {
@@ -775,6 +783,12 @@ const CortexLayoutInner: React.FC = () => {
     <DataSourceProvider>
       {/* SEO - Dynamic page titles and meta tags */}
       <SEO />
+
+      {/* Navigation loading indicator */}
+      <NavigationLoader />
+
+      {/* Connection status banner */}
+      <ConnectionBanner />
 
       {/* Command Palette - Global search and actions (Cmd+K) */}
       <CommandPalette />
@@ -997,7 +1011,10 @@ const CortexLayoutInner: React.FC = () => {
 
             {/* Right side */}
             <div className="flex items-center gap-3">
-              {/* Decision Intelligence Dropdown */}
+              {/* API Health Status */}
+              <HealthIndicator className="hidden sm:flex" />
+
+              {/* Core Suite Dropdown (The "Brain") */}
               <div className="relative">
                 <button
                   onClick={() => setIsPremiumDropdownOpen(!isPremiumDropdownOpen)}
@@ -1008,7 +1025,7 @@ const CortexLayoutInner: React.FC = () => {
                   )}
                 >
                   <span>🧠</span>
-                  <span className="hidden md:inline">Decision Intelligence</span>
+                  <span className="hidden md:inline">Core Suite</span>
                   <svg
                     className={cn(
                       'w-4 h-4 transition-transform',
@@ -1033,13 +1050,14 @@ const CortexLayoutInner: React.FC = () => {
                       className="fixed inset-0 z-40"
                       onClick={() => setIsPremiumDropdownOpen(false)}
                     />
-                    <div className="absolute top-full right-0 mt-2 w-80 bg-sovereign-card rounded-xl shadow-2xl border border-sovereign-border z-50">
-                      <div className="p-3 bg-sovereign-elevated border-b border-sovereign-border-subtle rounded-t-xl">
-                        <h3 className="font-semibold text-white">Decision Intelligence Suite</h3>
-                        <p className="text-xs text-gray-500">Premium executive decision tools</p>
+                    <div className="absolute top-full right-0 mt-2 w-96 bg-sovereign-card rounded-xl shadow-2xl border border-sovereign-border z-50">
+                      {/* Core Suite Section */}
+                      <div className="p-3 bg-gradient-to-r from-cyan-900/30 to-blue-900/30 border-b border-sovereign-border-subtle rounded-t-xl">
+                        <h3 className="font-semibold text-white">🧠 The Core Suite</h3>
+                        <p className="text-xs text-cyan-400">User-facing decision tools</p>
                       </div>
-                      <div className="py-2 max-h-80 overflow-y-auto">
-                        {premiumFeatures.map((feature) => (
+                      <div className="py-2">
+                        {coreSuiteFeatures.map((feature) => (
                           <button
                             key={feature.id}
                             onClick={() => {
@@ -1053,59 +1071,84 @@ const CortexLayoutInner: React.FC = () => {
                             )}
                           >
                             <span className="text-xl">{feature.icon}</span>
-                            <div className="text-left">
+                            <div className="text-left flex-1">
                               <p className="font-medium text-white text-sm">{feature.label}</p>
                               <p className="text-xs text-gray-500">{feature.description}</p>
                             </div>
                           </button>
                         ))}
                       </div>
-                      <div className="p-2 border-t border-sovereign-border-subtle">
-                        <p className="px-2 text-xs font-semibold text-gray-600 uppercase mb-1">
-                          Apex Products
-                        </p>
-                        {apexProducts.map((product) => (
+                      
+                      {/* Trust Layer Section */}
+                      <div className="p-3 bg-gradient-to-r from-amber-900/30 to-orange-900/30 border-t border-sovereign-border-subtle">
+                        <h3 className="font-semibold text-white">🛡️ The Trust Layer</h3>
+                        <p className="text-xs text-amber-400">Compliance & Proof</p>
+                      </div>
+                      <div className="py-2">
+                        {trustLayerFeatures.map((feature) => (
                           <button
-                            key={product.id}
+                            key={feature.id}
                             onClick={() => {
-                              navigate(product.path);
+                              navigate(feature.path);
                               setIsPremiumDropdownOpen(false);
                             }}
                             className={cn(
-                              'w-full flex items-start gap-3 px-4 py-2 hover:bg-sovereign-hover transition-colors rounded-lg',
-                              location.pathname === product.path && 'bg-sovereign-active'
+                              'w-full flex items-start gap-3 px-4 py-3 hover:bg-sovereign-hover transition-colors',
+                              location.pathname === feature.path &&
+                                'bg-sovereign-active border-l-2 border-amber-500'
                             )}
                           >
-                            <span className="text-lg">{product.icon}</span>
-                            <div className="text-left">
-                              <p className="font-medium text-white text-sm">{product.label}</p>
-                              <p className="text-xs text-gray-500">{product.description}</p>
+                            <span className="text-xl">{feature.icon}</span>
+                            <div className="text-left flex-1">
+                              <p className="font-medium text-white text-sm">{feature.label}</p>
+                              <p className="text-xs text-gray-500">{feature.description}</p>
                             </div>
                           </button>
                         ))}
                       </div>
-                      <div className="p-3 bg-sovereign-elevated border-t border-sovereign-border-subtle">
-                        <p className="text-xs text-gray-500 text-center">
-                          Enterprise tier features
+
+                      {/* Additional Services */}
+                      <div className="p-2 border-t border-sovereign-border-subtle">
+                        <p className="px-2 text-xs font-semibold text-gray-600 uppercase mb-1">
+                          Additional Services
                         </p>
+                        {additionalServices.map((service) => (
+                          <button
+                            key={service.id}
+                            onClick={() => {
+                              navigate(service.path);
+                              setIsPremiumDropdownOpen(false);
+                            }}
+                            className={cn(
+                              'w-full flex items-start gap-3 px-4 py-2 hover:bg-sovereign-hover transition-colors rounded-lg',
+                              location.pathname === service.path && 'bg-sovereign-active'
+                            )}
+                          >
+                            <span className="text-lg">{service.icon}</span>
+                            <div className="text-left">
+                              <p className="font-medium text-white text-sm">{service.label}</p>
+                              <p className="text-xs text-gray-500">{service.description}</p>
+                            </div>
+                          </button>
+                        ))}
                       </div>
                     </div>
                   </>
                 )}
               </div>
 
-              {/* Enterprise Suite Dropdown */}
+              {/* Vertical Packs Dropdown (The "Specialist") */}
               <div className="relative">
                 <button
                   onClick={() => setIsEnterpriseDropdownOpen(!isEnterpriseDropdownOpen)}
                   className={cn(
                     'flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium',
                     'bg-sovereign-card border border-sovereign-border text-gray-300',
-                    'hover:bg-sovereign-hover hover:text-white hover:border-cyan-500/50 transition-all'
+                    'hover:bg-sovereign-hover hover:text-white hover:border-purple-500/50 transition-all'
                   )}
                 >
-                  <span>🏢</span>
-                  <span className="hidden md:inline">Enterprise</span>
+                  <span>🏭</span>
+                  <span className="hidden md:inline">Verticals</span>
                   <svg
                     className={cn(
                       'w-4 h-4 transition-transform',
@@ -1130,64 +1173,68 @@ const CortexLayoutInner: React.FC = () => {
                       className="fixed inset-0 z-40"
                       onClick={() => setIsEnterpriseDropdownOpen(false)}
                     />
-                    <div className="absolute top-full right-0 mt-2 w-96 bg-sovereign-card rounded-xl shadow-2xl border border-sovereign-border z-50">
-                      <div className="p-3 bg-sovereign-elevated border-b border-sovereign-border-subtle rounded-t-xl">
-                        <h3 className="font-semibold text-white">Enterprise Suite</h3>
-                        <p className="text-xs text-gray-500">
-                          High-impact features for maximum valuation
+                    <div className="absolute top-full right-0 mt-2 w-80 bg-sovereign-card rounded-xl shadow-2xl border border-sovereign-border z-50 max-h-[70vh] flex flex-col">
+                      <div className="p-3 bg-gradient-to-r from-purple-900/30 to-violet-900/30 border-b border-sovereign-border-subtle rounded-t-xl flex-shrink-0">
+                        <h3 className="font-semibold text-white">🏭 Industry Verticals</h3>
+                        <p className="text-xs text-purple-400">
+                          17 verticals • 400+ council modes • 200+ AI agents
                         </p>
                       </div>
-                      <div className="py-2 max-h-80 overflow-y-auto">
-                        {filteredEnterpriseFeatures.map((feature) => (
+                      <div className="py-2 overflow-y-auto flex-1">
+                        {verticalPacks.map((pack) => (
                           <button
-                            key={feature.id}
+                            key={pack.id}
                             onClick={() => {
-                              navigate(feature.path);
+                              navigate(pack.path);
                               setIsEnterpriseDropdownOpen(false);
                             }}
                             className={cn(
-                              'w-full flex items-start gap-3 px-4 py-3 hover:bg-sovereign-hover transition-colors',
-                              location.pathname === feature.path &&
-                                'bg-sovereign-active border-l-2 border-cyan-500'
+                              'w-full flex items-start gap-3 px-4 py-2 hover:bg-sovereign-hover transition-colors',
+                              location.pathname === pack.path &&
+                                'bg-sovereign-active border-l-2 border-purple-500'
                             )}
                           >
-                            <span className="text-xl">{feature.icon}</span>
+                            <span className="text-lg">{pack.icon}</span>
                             <div className="text-left flex-1">
                               <div className="flex items-center justify-between">
-                                <p className="font-medium text-white text-sm">{feature.label}</p>
-                                <span
-                                  className={`text-xs px-2 py-0.5 rounded-full ${feature.impact === 'Critical' ? 'bg-red-900/30 text-red-400' : feature.impact === 'High' ? 'bg-amber-900/30 text-amber-400' : 'bg-cyan-900/30 text-cyan-400'}`}
-                                >
-                                  {feature.impact}
+                                <p className="font-medium text-white text-sm">{pack.label}</p>
+                                <span className="text-xs px-1.5 py-0.5 rounded-full bg-purple-900/30 text-purple-400">
+                                  {pack.industry}
                                 </span>
                               </div>
-                              <p className="text-xs text-gray-500">{feature.description}</p>
+                              <p className="text-xs text-gray-500">{pack.description}</p>
                             </div>
                           </button>
                         ))}
                       </div>
-                      <div className="p-3 bg-sovereign-elevated border-t border-sovereign-border-subtle">
-                        <p className="text-xs text-crimson-400 text-center font-medium">
-                          🚀 Enterprise Suite • Multi-billion impact potential
-                        </p>
+                      <div className="p-2 bg-sovereign-elevated border-t border-sovereign-border-subtle rounded-b-xl flex-shrink-0">
+                        <button
+                          onClick={() => {
+                            navigate('/cortex/admin/vertical-config');
+                            setIsEnterpriseDropdownOpen(false);
+                          }}
+                          className="w-full text-xs text-purple-400 hover:text-purple-300 text-center"
+                        >
+                          ⚙️ Configure Vertical Services
+                        </button>
                       </div>
                     </div>
                   </>
                 )}
               </div>
 
-              {/* Sovereign Tier Dropdown - Special crimson accent */}
+              {/* Admin Dropdown (hidden for non-admins in production) */}
               <div className="relative">
                 <button
                   onClick={() => setIsSovereignDropdownOpen(!isSovereignDropdownOpen)}
                   className={cn(
                     'flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium',
-                    'bg-crimson-900/30 border border-crimson-800/50 text-crimson-400',
-                    'hover:bg-crimson-900/50 hover:text-crimson-300 hover:border-crimson-700 transition-all'
+                    'bg-sovereign-card border border-sovereign-border text-gray-300',
+                    'hover:bg-sovereign-hover hover:text-white hover:border-gray-500/50 transition-all'
                   )}
                 >
-                  <span>👑</span>
-                  <span className="hidden md:inline">Sovereign</span>
+                  <span>⚙️</span>
+                  <span className="hidden md:inline">Admin</span>
                   <svg
                     className={cn(
                       'w-4 h-4 transition-transform',
@@ -1212,14 +1259,33 @@ const CortexLayoutInner: React.FC = () => {
                       className="fixed inset-0 z-40"
                       onClick={() => setIsSovereignDropdownOpen(false)}
                     />
-                    <div className="absolute top-full right-0 mt-2 w-96 bg-sovereign-card rounded-xl shadow-2xl border border-crimson-900/50 z-50">
-                      <div className="p-3 bg-crimson-950/50 border-b border-crimson-900/30 rounded-t-xl">
-                        <h3 className="font-semibold text-crimson-400">Sovereign Tier</h3>
+                    <div className="absolute top-full right-0 mt-2 w-80 bg-sovereign-card rounded-xl shadow-2xl border border-sovereign-border z-50">
+                      <div className="p-3 bg-sovereign-elevated border-b border-sovereign-border-subtle rounded-t-xl">
+                        <h3 className="font-semibold text-white">⚙️ Administration</h3>
                         <p className="text-xs text-gray-500">
-                          Regulation, Defense & Long-Horizon Strategy
+                          System configuration & management
                         </p>
                       </div>
-                      <div className="py-2 max-h-80 overflow-y-auto">
+                      <div className="py-2">
+                        {/* Vertical Config */}
+                        <button
+                          onClick={() => {
+                            navigate('/cortex/admin/vertical-config');
+                            setIsSovereignDropdownOpen(false);
+                          }}
+                          className={cn(
+                            'w-full flex items-start gap-3 px-4 py-3 hover:bg-sovereign-hover transition-colors',
+                            location.pathname === '/cortex/admin/vertical-config' &&
+                              'bg-sovereign-active border-l-2 border-cyan-500'
+                          )}
+                        >
+                          <span className="text-xl">⚙️</span>
+                          <div className="text-left">
+                            <p className="font-medium text-white text-sm">Vertical Config</p>
+                            <p className="text-xs text-gray-500">Industry & service toggles</p>
+                          </div>
+                        </button>
+                        {/* Long-horizon features */}
                         {filteredSovereignFeatures.map((feature) => (
                           <button
                             key={feature.id}
@@ -1230,27 +1296,20 @@ const CortexLayoutInner: React.FC = () => {
                             className={cn(
                               'w-full flex items-start gap-3 px-4 py-3 hover:bg-sovereign-hover transition-colors',
                               location.pathname === feature.path &&
-                                'bg-crimson-900/20 border-l-2 border-crimson-700'
+                                'bg-sovereign-active border-l-2 border-cyan-500'
                             )}
                           >
                             <span className="text-xl">{feature.icon}</span>
-                            <div className="text-left flex-1">
-                              <div className="flex items-center justify-between">
-                                <p className="font-medium text-white text-sm">{feature.label}</p>
-                                <span
-                                  className={`text-xs px-2 py-0.5 rounded-full ${feature.impact === 'Critical' ? 'bg-red-900/30 text-red-400' : feature.impact === 'High' ? 'bg-amber-900/30 text-amber-400' : 'bg-cyan-900/30 text-cyan-400'}`}
-                                >
-                                  {feature.impact}
-                                </span>
-                              </div>
+                            <div className="text-left">
+                              <p className="font-medium text-white text-sm">{feature.label}</p>
                               <p className="text-xs text-gray-500">{feature.description}</p>
                             </div>
                           </button>
                         ))}
                       </div>
-                      <div className="p-3 bg-crimson-950/50 border-t border-crimson-900/30">
-                        <p className="text-xs text-crimson-400 text-center font-medium">
-                          👑 Sovereign Tier • Critical enterprise capabilities
+                      <div className="p-3 bg-sovereign-elevated border-t border-sovereign-border-subtle">
+                        <p className="text-xs text-gray-500 text-center">
+                          Owner/Admin access only
                         </p>
                       </div>
                     </div>
@@ -1269,6 +1328,12 @@ const CortexLayoutInner: React.FC = () => {
                   aria-hidden="true"
                 />
               </button>
+
+              {/* Demo Mode Toggle */}
+              <DemoModeToggle />
+
+              {/* Notifications */}
+              <NotificationBell />
 
               {/* Theme Toggle */}
               <ThemeToggle />
@@ -1330,6 +1395,10 @@ const CortexLayoutInner: React.FC = () => {
 
           {/* Page Content */}
           <main className="flex-1 overflow-y-auto overflow-x-hidden bg-sovereign-base">
+            {/* Breadcrumbs for deep navigation */}
+            <div className="px-4 lg:px-6 py-2 border-b border-sovereign-border-subtle bg-sovereign-elevated/50">
+              <Breadcrumbs className="text-slate-400" />
+            </div>
             <Outlet />
           </main>
 

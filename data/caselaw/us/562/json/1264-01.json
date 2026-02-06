@@ -1,0 +1,59 @@
+{
+  "id": 5954897,
+  "name": "Lewis et al. v. United States",
+  "name_abbreviation": "Lewis v. United States",
+  "decision_date": "2011-02-28",
+  "docket_number": "No. 10-8748",
+  "first_page": "1264",
+  "last_page": "1264",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1264"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 78,
+    "ocr_confidence": 0.587,
+    "sha256": "841de56d32a065967ca1cb507d6beafefe52c83bc905cfbbc772445edd272edc",
+    "simhash": "1:4533860b2fad345e",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lewis et al. v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8748.\nLewis et al. v. United States."
+  },
+  "file_name": "1264-01",
+  "first_page_order": 1286,
+  "last_page_order": 1286
+}

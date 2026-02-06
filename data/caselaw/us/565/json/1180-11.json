@@ -1,0 +1,59 @@
+{
+  "id": 12244679,
+  "name": "Beauchamp v. Texas",
+  "name_abbreviation": "Beauchamp v. Texas",
+  "decision_date": "2012-01-23",
+  "docket_number": "No. 11-7503",
+  "first_page": "1180",
+  "last_page": "1180",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1180"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 72,
+    "ocr_confidence": 0.663,
+    "sha256": "6f3480a5bbd8871d9a63447de7b100a8e44e048c3dc46c34f7b29c8dabc1be86",
+    "simhash": "1:3d3459965f9d7454",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Beauchamp v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Tex. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7503.\nBeauchamp v. Texas."
+  },
+  "file_name": "1180-11",
+  "first_page_order": 1262,
+  "last_page_order": 1262
+}

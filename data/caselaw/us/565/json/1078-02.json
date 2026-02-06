@@ -1,0 +1,59 @@
+{
+  "id": 12236645,
+  "name": "In re Jackson",
+  "name_abbreviation": "In re Jackson",
+  "decision_date": "2011-12-05",
+  "docket_number": "No. 11-5810",
+  "first_page": "1078",
+  "last_page": "1078",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1078"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 21,
+    "char_count": 144,
+    "ocr_confidence": 0.65,
+    "sha256": "3c80fb8ebae76f059446bef3d08600f328c8739dce67cfaf2f9852b987102986",
+    "simhash": "1:e6c119e241aee618",
+    "word_count": 23
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Jackson."
+    ],
+    "opinions": [
+      {
+        "text": "Motion of petitioner for reconsideration of order denying leave to proceed in forma pauperis [ante, p. 941] denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5810.\nIn re Jackson."
+  },
+  "file_name": "1078-02",
+  "first_page_order": 1160,
+  "last_page_order": 1160
+}

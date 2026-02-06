@@ -1,0 +1,59 @@
+{
+  "id": 12423027,
+  "name": "Hernandez v. Colorado",
+  "name_abbreviation": "Hernandez v. Colorado",
+  "decision_date": "2012-11-13",
+  "docket_number": "No. 12-6363",
+  "first_page": "1015",
+  "last_page": "1015",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1015"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 71,
+    "ocr_confidence": 0.676,
+    "sha256": "1652377dd48fc4b3296e45a865fb7b50ca8cc500f88c1aa2e44bef909c87b310",
+    "simhash": "1:34a04219dc4bc151",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hernandez v. Colorado."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Colo. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6363.\nHernandez v. Colorado."
+  },
+  "file_name": "1015-14",
+  "first_page_order": 1091,
+  "last_page_order": 1091
+}

@@ -1,0 +1,59 @@
+{
+  "id": 6017005,
+  "name": "Myles v. Michigan",
+  "name_abbreviation": "Myles v. Michigan",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-10567",
+  "first_page": "846",
+  "last_page": "846",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 846"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 83,
+    "ocr_confidence": 0.618,
+    "sha256": "6e16489eaedff47b741ce8e9ed92e1d86a7dfa930e537cd1e7ba200c5cc5c17c",
+    "simhash": "1:5e988a8ebef794f5",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Myles v. Michigan."
+    ],
+    "opinions": [
+      {
+        "text": "Cir. Ct. Saginaw County, Mich. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10567.\nMyles v. Michigan."
+  },
+  "file_name": "0846-13",
+  "first_page_order": 868,
+  "last_page_order": 868
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5969354,
+  "name": "Bomer v. Capello, Warden",
+  "name_abbreviation": "Bomer v. Capello",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8088",
+  "first_page": "1234",
+  "last_page": "1234",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1234"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.587,
+    "sha256": "6a07db458c2451c9a46e19d7766e79571e82741f5472a0d000cc4f8e6056cb1a",
+    "simhash": "1:969f66832e3f9866",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bomer v. Capello, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8088.\nBomer v. Capello, Warden."
+  },
+  "file_name": "1234-10",
+  "first_page_order": 1256,
+  "last_page_order": 1256
+}

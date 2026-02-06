@@ -1,0 +1,84 @@
+{
+  "id": 12407629,
+  "name": "In re Disbarment of White",
+  "name_abbreviation": "In re Disbarment of White",
+  "decision_date": "2012-06-11",
+  "docket_number": "No. D-2647",
+  "first_page": "903",
+  "last_page": "903",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 903"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "566 U. S. 933",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12203111,
+        12203209,
+        12203189,
+        12203093,
+        12203223,
+        12203160,
+        12203135
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/566/0933-02",
+        "/us/566/0933-06",
+        "/us/566/0933-05",
+        "/us/566/0933-01",
+        "/us/566/0933-07",
+        "/us/566/0933-04",
+        "/us/566/0933-03"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 106,
+    "ocr_confidence": 0.723,
+    "sha256": "7d4225f7a5a7b48545089029bf69dae30628e0cfdba514a462fa46a26ed3d74d",
+    "simhash": "1:3a7dd58aebc072c7",
+    "word_count": 18
+  },
+  "last_updated": "2024-02-27T23:46:21.325002+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of White."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered. [For earlier order herein, see 566 U. S. 933.]",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2647.\nIn re Disbarment of White."
+  },
+  "file_name": "0903-01",
+  "first_page_order": 807,
+  "last_page_order": 807
+}

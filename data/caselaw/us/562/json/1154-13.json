@@ -1,0 +1,59 @@
+{
+  "id": 5972118,
+  "name": "Grant v. Barnhart, Warden",
+  "name_abbreviation": "Grant v. Barnhart",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7540",
+  "first_page": "1154",
+  "last_page": "1154",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1154"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.63,
+    "sha256": "73e51e49dad995ce3fdeda7491e438cb09e19bc9e1768891f0be6190c00de194",
+    "simhash": "1:059334e05d1a9eab",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Grant v. Barnhart, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7540.\nGrant v. Barnhart, Warden."
+  },
+  "file_name": "1154-13",
+  "first_page_order": 1176,
+  "last_page_order": 1176
+}

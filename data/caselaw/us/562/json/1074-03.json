@@ -1,0 +1,59 @@
+{
+  "id": 5980164,
+  "name": "Ramirez v. United States",
+  "name_abbreviation": "Ramirez v. United States",
+  "decision_date": "2010-11-29",
+  "docket_number": "No. 10-7115",
+  "first_page": "1074",
+  "last_page": "1074",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1074"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.632,
+    "sha256": "7936ccc715fc92642788a0dd401f0362f7b6be70bfda005d691bfd99962ac55d",
+    "simhash": "1:159bd247f3b75338",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ramirez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7115.\nRamirez v. United States."
+  },
+  "file_name": "1074-03",
+  "first_page_order": 1096,
+  "last_page_order": 1096
+}

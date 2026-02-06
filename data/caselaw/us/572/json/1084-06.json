@@ -1,0 +1,85 @@
+{
+  "id": 12705968,
+  "name": "John E. WETZEL, Secretary, Pennsylvania Department of Corrections, et al., petitioners, v. James WASHINGTON.",
+  "name_abbreviation": "Wetzel v. Washington",
+  "decision_date": "2014-04-28",
+  "docket_number": "No. 13\u2013699.",
+  "first_page": "1084",
+  "last_page": "1084",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "572 U.S. 1084"
+    },
+    {
+      "type": "parallel",
+      "cite": "188 L. Ed. 2d 957"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 1935"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "134 S.Ct. 1697",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12706994,
+        12579839
+      ],
+      "weight": 2,
+      "year": 2014,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/572/0415-01",
+        "/s-ct/134/1697-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 59,
+    "char_count": 585,
+    "sha256": "bac4676aae1c1c4a6cea7fcd0bd476664e841d932f9f6d7eb859a3f4d86e8a49",
+    "simhash": "1:772c62ce2500060d",
+    "word_count": 93
+  },
+  "last_updated": "2024-02-27T18:41:28.401677+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "John E. WETZEL, Secretary, Pennsylvania Department of Corrections, et al., petitioners,\nv.\nJames WASHINGTON."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "On petition for writ of certiorari to the United States Court of Appeals for the Third Circuit. Motion of respondent for leave to proceed in forma pauperis granted. Petition for writ of certiorari granted. Judgment vacated, and case remanded to the United States Court of Appeals for the Third Circuit for further consideration in light of White v. Woodall, 572 U.S. ----, 134 S.Ct. 1697, 188 L.E.2d 698 (2014)."
+    ],
+    "corrections": "",
+    "head_matter": "John E. WETZEL, Secretary, Pennsylvania Department of Corrections, et al., petitioners,\nv.\nJames WASHINGTON.\nNo. 13-699.\nSupreme Court of the United States\nApril 28, 2014.\nOn petition for writ of certiorari to the United States Court of Appeals for the Third Circuit. Motion of respondent for leave to proceed in forma pauperis granted. Petition for writ of certiorari granted. Judgment vacated, and case remanded to the United States Court of Appeals for the Third Circuit for further consideration in light of White v. Woodall, 572 U.S. ----, 134 S.Ct. 1697, 188 L.E.2d 698 (2014)."
+  },
+  "file_name": "1084-06",
+  "first_page_order": 1084,
+  "last_page_order": 1084
+}

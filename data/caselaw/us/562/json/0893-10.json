@@ -1,0 +1,59 @@
+{
+  "id": 5988325,
+  "name": "Bergbauer et ux. v. United States",
+  "name_abbreviation": "Bergbauer v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-100",
+  "first_page": "893",
+  "last_page": "893",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 893"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 81,
+    "ocr_confidence": 0.561,
+    "sha256": "061cbd4b636ba4b0959767c1f8b6da8037da129886fe069f3db0ac0c75356be7",
+    "simhash": "1:948abe53862f9159",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bergbauer et ux. v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-100.\nBergbauer et ux. v. United States."
+  },
+  "file_name": "0893-10",
+  "first_page_order": 915,
+  "last_page_order": 915
+}

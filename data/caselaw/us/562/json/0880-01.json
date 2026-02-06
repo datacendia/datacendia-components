@@ -1,0 +1,59 @@
+{
+  "id": 6001257,
+  "name": "Hawkins v. Dexter, Warden",
+  "name_abbreviation": "Hawkins v. Dexter",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11426",
+  "first_page": "880",
+  "last_page": "880",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 880"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.626,
+    "sha256": "7ee0e1dcbbfb5bb75585ec63d03d331655661c62543003dbe228bc17c2cdc8d8",
+    "simhash": "1:93e326e96dfd40f7",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hawkins v. Dexter, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11426.\nHawkins v. Dexter, Warden."
+  },
+  "file_name": "0880-01",
+  "first_page_order": 902,
+  "last_page_order": 902
+}

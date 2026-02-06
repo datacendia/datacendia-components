@@ -1,0 +1,59 @@
+{
+  "id": 12420277,
+  "name": "Campbell v. Robinson, Warden",
+  "name_abbreviation": "Campbell v. Robinson",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 12-5374",
+  "first_page": "981",
+  "last_page": "981",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 981"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.646,
+    "sha256": "8d1c5782a4a2771985b6198c03f09a93c8a27872068f08722d1f9662fa8941d1",
+    "simhash": "1:b61c420b9e7f1064",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Campbell v. Robinson, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5374.\nCampbell v. Robinson, Warden."
+  },
+  "file_name": "0981-11",
+  "first_page_order": 1057,
+  "last_page_order": 1057
+}

@@ -1,0 +1,59 @@
+{
+  "id": 6034093,
+  "name": "Wells v. Illinois",
+  "name_abbreviation": "Wells v. Illinois",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8065",
+  "first_page": "1233",
+  "last_page": "1233",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1233"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.588,
+    "sha256": "3c3ad287e51691c8cc7fd7266bd573f411e9e81c3cf0c0e0962f2791e91f927a",
+    "simhash": "1:e1e4d65e7130fd7d",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wells v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Ill., 4th Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8065.\nWells v. Illinois."
+  },
+  "file_name": "1233-11",
+  "first_page_order": 1255,
+  "last_page_order": 1255
+}

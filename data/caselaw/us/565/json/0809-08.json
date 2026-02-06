@@ -1,0 +1,102 @@
+{
+  "id": 12190259,
+  "name": "Smith v. Florida",
+  "name_abbreviation": "Smith v. Florida",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 09-10755",
+  "first_page": "809",
+  "last_page": "809",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 809"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "564 U. S. 1052",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        4335840,
+        12451107,
+        4331812,
+        12451109,
+        12451110,
+        5926887,
+        12451112,
+        5928009,
+        4334666,
+        12451113,
+        12451111,
+        12451114,
+        4335632,
+        4336920,
+        12451108,
+        4337599
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/564/1052-02",
+        "/l-ed-2d/180/0911-04",
+        "/us/564/1052-03",
+        "/l-ed-2d/180/0912-01",
+        "/l-ed-2d/180/0912-02",
+        "/us/564/1052-07",
+        "/l-ed-2d/180/0912-04",
+        "/us/564/1052-08",
+        "/us/564/1052-01",
+        "/l-ed-2d/180/0912-05",
+        "/l-ed-2d/180/0912-03",
+        "/l-ed-2d/180/0912-06",
+        "/us/564/1052-04",
+        "/us/564/1052-06",
+        "/l-ed-2d/180/0911-05",
+        "/us/564/1052-05"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 23,
+    "char_count": 137,
+    "ocr_confidence": 0.629,
+    "sha256": "dcb5fcd76cd08343e20ade0c9eab72855c807d02a2dfe3eb2d6180c9c3231e90",
+    "simhash": "1:7ca3ef2f1a77761c",
+    "word_count": 24
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Smith v. Florida,"
+    ],
+    "opinions": [
+      {
+        "text": "564 U. S. 1052. Respondent is requested to file a response to the petition for rehearing within 30 days.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10755.\nSmith v. Florida,"
+  },
+  "file_name": "0809-08",
+  "first_page_order": 891,
+  "last_page_order": 891
+}

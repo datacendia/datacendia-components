@@ -1,0 +1,59 @@
+{
+  "id": 12213311,
+  "name": "Parrish v. Nevada",
+  "name_abbreviation": "Parrish v. Nevada",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-11292",
+  "first_page": "877",
+  "last_page": "877",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 877"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 66,
+    "ocr_confidence": 0.691,
+    "sha256": "f7cdefbc04426e6c9fa552156dfe1c39cacd1766bfedcfab6c90febdaf2205d3",
+    "simhash": "1:08f6ac2b288acfd1",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Parrish v. Nevada."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Nev. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-11292.\nParrish v. Nevada."
+  },
+  "file_name": "0877-07",
+  "first_page_order": 959,
+  "last_page_order": 959
+}

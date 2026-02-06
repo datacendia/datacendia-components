@@ -1,0 +1,59 @@
+{
+  "id": 5993355,
+  "name": "Bunchan v. United States",
+  "name_abbreviation": "Bunchan v. United States",
+  "decision_date": "2011-02-28",
+  "docket_number": "No. 10-8537",
+  "first_page": "1260",
+  "last_page": "1260",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1260"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.583,
+    "sha256": "12e25c0072f789a74279834697aeb4ba5616d0b66cce379612959d6e1ed3bbd5",
+    "simhash": "1:454bc6e247b7be28",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bunchan v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8537.\nBunchan v. United States."
+  },
+  "file_name": "1260-15",
+  "first_page_order": 1282,
+  "last_page_order": 1282
+}

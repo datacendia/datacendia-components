@@ -1,0 +1,59 @@
+{
+  "id": 6008015,
+  "name": "Texeira v. United States",
+  "name_abbreviation": "Texeira v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5798",
+  "first_page": "938",
+  "last_page": "938",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 938"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.599,
+    "sha256": "9e9b730b6968764c03b4d427dc2ffe97bd70c0447ccaafa2a40c08bdd1238f8e",
+    "simhash": "1:051acf4346f93c3e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Texeira v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5798.\nTexeira v. United States."
+  },
+  "file_name": "0938-03",
+  "first_page_order": 960,
+  "last_page_order": 960
+}

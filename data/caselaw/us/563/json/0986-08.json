@@ -1,0 +1,59 @@
+{
+  "id": 5945706,
+  "name": "In re Ford; In re Miles; and In re McGhee",
+  "name_abbreviation": "In re Ford",
+  "decision_date": "2011-05-16",
+  "docket_number": "No. 10-1284; No. 10-10047; No. 10-10126",
+  "first_page": "986",
+  "last_page": "986",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 986"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 129,
+    "ocr_confidence": 0.564,
+    "sha256": "786e44e1f036feb48facc554c5e304d93b4031ad248079362a2bf4ae308709b7",
+    "simhash": "1:5a54d303910b0909",
+    "word_count": 23
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Ford; In re Miles; and In re McGhee."
+    ],
+    "opinions": [
+      {
+        "text": "Petitions for writs of habeas corpus denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1284.\nNo. 10-10047.\nNo. 10-10126.\nIn re Ford; In re Miles; and In re McGhee."
+  },
+  "file_name": "0986-08",
+  "first_page_order": 1012,
+  "last_page_order": 1012
+}

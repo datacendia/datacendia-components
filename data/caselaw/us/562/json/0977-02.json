@@ -1,0 +1,61 @@
+{
+  "id": 5996687,
+  "name": "Dada et al. v. Holder, Attorney General",
+  "name_abbreviation": "Dada v. Holder",
+  "decision_date": "2010-10-12",
+  "docket_number": "No. 10-242",
+  "first_page": "977",
+  "last_page": "977",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 977"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 27,
+    "char_count": 168,
+    "ocr_confidence": 0.558,
+    "sha256": "15fe06a58af62ed2ba70c7a535dadfcb5f089495a81e4e2779ab3113e2af2155",
+    "simhash": "1:09737890796cf64c",
+    "word_count": 28
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Sotomayor took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Dada et al. v. Holder, Attorney General."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.\nJustice Sotomayor took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-242.\nDada et al. v. Holder, Attorney General."
+  },
+  "file_name": "0977-02",
+  "first_page_order": 999,
+  "last_page_order": 999
+}

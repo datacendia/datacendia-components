@@ -1,0 +1,68 @@
+{
+  "id": 12699155,
+  "name": "In re Thomas H. CLAY, petitioner.",
+  "name_abbreviation": "In re Clay",
+  "decision_date": "2013-11-12",
+  "docket_number": "No. 13\u20136238.",
+  "first_page": "1010",
+  "last_page": "1010",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 1010"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 412"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 622"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 155,
+    "sha256": "36dcbf5de6eaab224d67d35a660e66b3e169139c034078c72cf3205359986653",
+    "simhash": "1:e8af64fd3dd4225a",
+    "word_count": 25
+  },
+  "last_updated": "2021-08-27T20:47:23.363448+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Thomas H. CLAY, petitioner."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of mandamus and/or prohibition denied."
+    ],
+    "corrections": "",
+    "head_matter": "In re Thomas H. CLAY, petitioner.\nNo. 13-6238.\nSupreme Court of the United States\nNov. 12, 2013.\nPetition for writ of mandamus and/or prohibition denied."
+  },
+  "file_name": "1010-01",
+  "first_page_order": 1010,
+  "last_page_order": 1010
+}

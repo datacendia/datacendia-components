@@ -1,0 +1,61 @@
+{
+  "id": 6024504,
+  "name": "Castello v. United States",
+  "name_abbreviation": "Castello v. United States",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8357",
+  "first_page": "1251",
+  "last_page": "1251",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1251"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 26,
+    "char_count": 173,
+    "ocr_confidence": 0.587,
+    "sha256": "afcbcebb28fb37d657cc892fbd62e85e694a85d3e57ca88029d604133b9e3c39",
+    "simhash": "1:9d33fb027f7c74ca",
+    "word_count": 28
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Sotomayor and Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Castello v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.\nJustice Sotomayor and Justice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8357.\nCastello v. United States."
+  },
+  "file_name": "1251-05",
+  "first_page_order": 1273,
+  "last_page_order": 1273
+}

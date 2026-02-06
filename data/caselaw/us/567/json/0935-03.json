@@ -1,0 +1,59 @@
+{
+  "id": 12411197,
+  "name": "DeFeo v. California",
+  "name_abbreviation": "DeFeo v. California",
+  "decision_date": "2012-06-25",
+  "docket_number": "No. 11-1089",
+  "first_page": "935",
+  "last_page": "935",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 935"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 82,
+    "ocr_confidence": 0.681,
+    "sha256": "e37edf8de21f81505fc91d24feaa6c64eff2a226525d5db86b7beb6d3de17ef7",
+    "simhash": "1:6c0c728075c32a41",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "DeFeo v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 2d App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1089.\nDeFeo v. California."
+  },
+  "file_name": "0935-03",
+  "first_page_order": 839,
+  "last_page_order": 839
+}

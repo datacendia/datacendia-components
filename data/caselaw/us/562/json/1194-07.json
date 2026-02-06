@@ -1,0 +1,61 @@
+{
+  "id": 5996877,
+  "name": "Davis v. Department of Justice",
+  "name_abbreviation": "Davis v. Department of Justice",
+  "decision_date": "2011-01-18",
+  "docket_number": "No. 10-661",
+  "first_page": "1194",
+  "last_page": "1194",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1194"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 23,
+    "char_count": 163,
+    "ocr_confidence": 0.568,
+    "sha256": "dafa719951fddf648b25d65a184e9e5b4d2e5c99acd1d9ab29ade51e2162792d",
+    "simhash": "1:8df2064b766ec348",
+    "word_count": 28
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "The Chief Justice took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Davis v. Department of Justice."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. D. C. Cir. Certiorari deified.\nThe Chief Justice took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-661.\nDavis v. Department of Justice."
+  },
+  "file_name": "1194-07",
+  "first_page_order": 1216,
+  "last_page_order": 1216
+}

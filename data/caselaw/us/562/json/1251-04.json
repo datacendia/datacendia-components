@@ -1,0 +1,61 @@
+{
+  "id": 5921852,
+  "name": "Negron v. United States",
+  "name_abbreviation": "Negron v. United States",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8340",
+  "first_page": "1251",
+  "last_page": "1251",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1251"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 154,
+    "ocr_confidence": 0.586,
+    "sha256": "2b520f584841eaf8540d48946aeb4766821bcd91ca9f17443f76085a935603a3",
+    "simhash": "1:b9a2ba8a54eeff48",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Sotomayor took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Negron v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Cer-tiorari denied.\nJustice Sotomayor took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8340.\nNegron v. United States."
+  },
+  "file_name": "1251-04",
+  "first_page_order": 1273,
+  "last_page_order": 1273
+}

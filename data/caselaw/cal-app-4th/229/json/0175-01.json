@@ -1,0 +1,832 @@
+{
+  "id": 4341521,
+  "name": "THE PEOPLE, Plaintiff and Respondent, v. RICARDO LUJANO, Defendant and Appellant",
+  "name_abbreviation": "People v. Lujano",
+  "decision_date": "2014-08-26",
+  "docket_number": "No. E057671",
+  "first_page": "175",
+  "last_page": "191",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "229 Cal. App. 4th 175"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "278 P.3d 821",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "142 Cal.Rptr.3d 561",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 Cal.4th 350",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        5721298
+      ],
+      "pin_cites": [
+        {
+          "page": "358"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/54/0350-01"
+      ]
+    },
+    {
+      "cite": "83 Cal.Rptr. 119",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 2012,
+      "opinion_index": 0
+    },
+    {
+      "cite": "2 Cal.App.3d 979",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        6037225
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "985-986"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/2/0979-01"
+      ]
+    },
+    {
+      "cite": "109 Cal.Rptr.2d 643",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "90 Cal.App.4th 1308",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        373056
+      ],
+      "pin_cites": [
+        {
+          "page": "1312"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/90/1308-01"
+      ]
+    },
+    {
+      "cite": "92 Cal.Rptr.3d 399",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "172 Cal.App.4th 1522",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3964372
+      ],
+      "pin_cites": [
+        {
+          "page": "1529"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/172/1522-01"
+      ]
+    },
+    {
+      "cite": "166 Cal.Rptr.3d 285",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "222 Cal.App.4th 937",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4036806
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/222/0937-01"
+      ]
+    },
+    {
+      "cite": "49 Cal.Rptr.3d 831",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "143 Cal.App.4th 1183",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3596595
+      ],
+      "pin_cites": [
+        {
+          "page": "1200"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/143/1183-01"
+      ]
+    },
+    {
+      "cite": "195 P.3d 1074",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "85 Cal.Rptr.3d 496",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Cal.4th 262",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3892901
+      ],
+      "pin_cites": [
+        {
+          "page": "268-269"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/45/0262-01"
+      ]
+    },
+    {
+      "cite": "548 P.2d 1105",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "129 Cal.Rptr. 433",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "16 Cal.3d 869",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2295061
+      ],
+      "pin_cites": [
+        {
+          "page": "877"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/16/0869-01"
+      ]
+    },
+    {
+      "cite": "160 Cal.Rptr. 650",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "99 Cal.App.3d 975",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2002518
+      ],
+      "pin_cites": [
+        {
+          "page": "979-980"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/99/0975-01"
+      ]
+    },
+    {
+      "cite": "582 P.2d 957",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "148 Cal.Rptr. 366",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 Cal.3d 888",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2284123
+      ],
+      "pin_cites": [
+        {
+          "page": "895"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/21/0888-01"
+      ]
+    },
+    {
+      "cite": "626 F.2d 753",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        651459
+      ],
+      "pin_cites": [
+        {
+          "page": "757"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/626/0753-01"
+      ]
+    },
+    {
+      "cite": "204 F.3d 947",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11475381
+      ],
+      "pin_cites": [
+        {
+          "page": "957"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/204/0947-01"
+      ]
+    },
+    {
+      "cite": "54 F.3d 1437",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7413715
+      ],
+      "pin_cites": [
+        {
+          "page": "1441"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/54/1437-01"
+      ]
+    },
+    {
+      "cite": "672 P.2d 436",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "196 Cal.Rptr. 846",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.3d 117",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4471217
+      ],
+      "pin_cites": [
+        {
+          "page": "125"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/35/0117-01"
+      ]
+    },
+    {
+      "cite": "278 P.3d 259",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "142 Cal.Rptr.3d 268",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 Cal.4th 270",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        5721197
+      ],
+      "pin_cites": [
+        {
+          "page": "273"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/54/0270-01"
+      ]
+    },
+    {
+      "cite": "88 Cal.Rptr. 834",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "10 Cal.App.3d 110",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4401720
+      ],
+      "pin_cites": [
+        {
+          "page": "119"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/10/0110-01"
+      ]
+    },
+    {
+      "cite": "270 Cal.Rptr. 863",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "221 Cal.App.3d 923",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        6036631
+      ],
+      "pin_cites": [
+        {
+          "page": "943"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/221/0923-01"
+      ]
+    },
+    {
+      "cite": "680 F.3d 1179",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3881002
+      ],
+      "pin_cites": [
+        {
+          "page": "1188"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/680/1179-01"
+      ]
+    },
+    {
+      "cite": "547 U.S. 398",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3275413
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "404"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/547/0398-01"
+      ]
+    },
+    {
+      "cite": "93 P.3d 1027",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "16 Cal.Rptr.3d 85",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "33 Cal.4th 667",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        493350
+      ],
+      "pin_cites": [
+        {
+          "page": "673"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/33/0667-01"
+      ]
+    },
+    {
+      "cite": "720 P.2d 2",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "227 Cal.Rptr. 654",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 Cal.3d 91",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4464954
+      ],
+      "pin_cites": [
+        {
+          "page": "97-98"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/42/0091-01"
+      ]
+    },
+    {
+      "cite": "427 U.S. 38",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6174406
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "42"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/427/0038-01"
+      ]
+    },
+    {
+      "cite": "603 F.3d 731",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4227843
+      ],
+      "weight": 8,
+      "pin_cites": [
+        {
+          "page": "738"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/603/0731-01"
+      ]
+    },
+    {
+      "cite": "392 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6167798
+      ],
+      "weight": 3,
+      "year": 2010,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/392/0001-01"
+      ]
+    },
+    {
+      "cite": "278 P.3d 860",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1968,
+      "opinion_index": 0
+    },
+    {
+      "cite": "142 Cal.Rptr.3d 607",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1968,
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 Cal.4th 480",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        5720994
+      ],
+      "year": 1968,
+      "pin_cites": [
+        {
+          "page": "499"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/54/0480-01"
+      ]
+    },
+    {
+      "cite": "155 Cal.Rptr. 414",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 2012,
+      "opinion_index": 0
+    },
+    {
+      "cite": "93 Cal.App.3d 40",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2025596
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "57"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/93/0040-01"
+      ]
+    },
+    {
+      "cite": "545 P.2d 1333",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "127 Cal.Rptr. 629",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "16 Cal.3d 263",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2295095
+      ],
+      "pin_cites": [
+        {
+          "page": "276"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/16/0263-01"
+      ]
+    },
+    {
+      "cite": "12 Cal.Rptr.3d 483",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1976,
+      "opinion_index": 0
+    },
+    {
+      "cite": "117 Cal.App.4th 1124",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        448894
+      ],
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "1132"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/117/1124-01"
+      ]
+    },
+    {
+      "cite": "3 P.3d 878",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "98 Cal.Rptr.2d 232",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "23 Cal.4th 824",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        277040
+      ],
+      "pin_cites": [
+        {
+          "page": "831"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/23/0824-01"
+      ]
+    },
+    {
+      "cite": "55 Cal.Rptr.2d 450",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.App.4th 1569",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4790199
+      ],
+      "pin_cites": [
+        {
+          "page": "1580"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/47/1569-01"
+      ]
+    },
+    {
+      "cite": "68 Cal.Rptr.2d 432",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "58 Cal.App.4th 1069",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        78129
+      ],
+      "pin_cites": [
+        {
+          "page": "1073-1074"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/58/1069-01"
+      ]
+    },
+    {
+      "cite": "46 P.3d 898",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "120 Cal.Rptr.2d 105",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 Cal.4th 22",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        947597
+      ],
+      "pin_cites": [
+        {
+          "page": "29"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/28/0022-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1425,
+    "char_count": 35578,
+    "ocr_confidence": 0.916,
+    "pagerank": {
+      "raw": 6.6948720086966e-08,
+      "percentile": 0.4068874285720905
+    },
+    "sha256": "39d506a39ea92bf476835a78a5dc19a88618e2c6d75c5c7a0c84c585d451e77c",
+    "simhash": "1:b0ed712ff3561aea",
+    "word_count": 5741
+  },
+  "last_updated": "2024-02-27T22:35:03.020141+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE, Plaintiff and Respondent, v. RICARDO LUJANO, Defendant and Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nHOLLENHORST, Acting P. J.\nThis case raises important questions about how police should react when they encounter someone in front of a house engaged in suspicious activity. Here, police officers contacted and detained not only an individual in the driveway in front of a house, whom they observed stripping copper wire from an air conditioner, but also the occupant of the house, suspecting that \u201cmaybe possibly\u201d a burglary was in progress. The officers were aware of no facts particular to the occupant of the house suggesting that he was a burglar, rather than a resident. And they made no reasonable attempt to ascertain such facts until after he was detained. It was later determined he was in fact a resident.\nThe Fourth Amendment does not countenance warrantless intrusion by police into a private home and detention of a resident under the circumstances of this case. The police had no probable cause with respect to the resident of the house\u2014who is the defendant in this case\u2014so suspected exigent circumstances do not justify the officers\u2019 actions. As such, the detention was unlawful, and defendant\u2019s motion to suppress the fruits of that unlawful detention should have been granted.\nI. INTRODUCTION\nDefendant Ricardo Lujano pleaded guilty to charges of possession of methamphetamine (Health & Saf. Code, \u00a7 11377, subd. (a); count 3), receiving stolen property (Pen. Code, \u00a7 496, subd. (a); count 4), and possession of a firearm by a felon (former \u00a7 12021, subd. (a)(1); count 5). A jury found him guilty of robbery (\u00a7211; count 1), and found true an enhancement for personally using a firearm during the commission of the robbery (\u00a7\u00a7 12022.53, subd. (b), 1192.7, subd. (c)(8)). The trial court sentenced defendant to 14 years four months in prison, as follows: a three-year term on count 1, plus a consecutive 10-year term for the firearm enhancement; eight-month consecutive terms on counts 3 and 4; and a concurrent two-year term on count 5.\nOn appeal, defendant contends the trial court erred by (1) denying his motion to suppress evidence obtained in an allegedly illegal search and seizure, (2) denying his motion to sever the robbery charge from other charges, (3) denying his motion in limine to allow him to present evidence and argument that third parties were responsible for the robbery, and (4) failing to stay punishment on count 5, pursuant to section 654.\nThe People concede, and we agree, punishment on count 5 should have been stayed. Additionally, we reverse the trial court\u2019s denial of defendant\u2019s suppression motion, and vacate the judgment of conviction with respect to count 1 and the firearm enhancement. We affirm the judgment in all other respects.\nH. FACTUAL AND PROCEDURAL BACKGROUND\nOn the night of December 19, 2010, a liquor store in Riverside was robbed by two men wearing black hooded sweatshirts, gloves, and masks, one of whom was brandishing a handgun. The store was equipped with multiple surveillance cameras, which captured the robbery from various angles. One of the men\u2014the one brandishing the firearm\u2014appeared to be about six feet tall and to weigh about 300 pounds, while the second man was shorter (five feet eight inches, or five feet nine inches tall) and thinner. From the surveillance video, police officers later identified the gun used in the robbery, which was never recovered, as a .38-caliber or .357 hammerless revolver. During the robbery, the two victims of the robbery\u2014-the store manager, and a friend who was at the store\u2014were both sprayed in the face with pepper spray. Neither victim was able to identify either of the robbers.\nOn the afternoon of December 28, 2010, two Riverside police officers on patrol, Henry Park and Bryan Galbreath, observed a man in the driveway in front of a house stripping copper wire from an air conditioning unit that may have come from the residence. The officers approached and spoke with the man, Albert Vargas, who said he was there visiting a friend named \u201cRick.\u201d Though Vargas did not know his last name, \u201cRick\u201d was eventually identified as defendant. Vargas also admitted to being on probation \u201cfor narcotics.\u201d He explained he was stripping copper wire from the air conditioner because it no longer worked.\nA side door that led from the driveway into the house was ajar\u2014partially open, but not enough to walk through. Officer Galbreath approached the door and leaned inside, identifying himself as a police officer and commanding anyone in the house to come to the door. Defendant responded, coming out from the bedroom area of the house into Officer Galbreath\u2019s view, and then following Officer Galbreath\u2019s instructions to turn around and walk backwards out of the door, onto a concrete step. At that point, Officer Galbreath did not handcuff defendant, but took physical control of him (\u201chad hands on him\u201d) and required defendant to keep his hands clasped behind his back. Officer Galbreath asked defendant for consent to search his person; defendant gave his consent. The search revealed a plastic bag of methamphetamine in defendant\u2019s pants pocket, at which point he was arrested.\nThereafter, defendant consented to a search of the residence, as did the owner of the home\u2014who was, indeed, Vargas\u2019s mother\u2014who was called to the location by police. The search of the residence revealed a nine-millimeter semiautomatic handgun (not the weapon used in the robbery), as well as a speed loader for a .38-caliber revolver. Police also recovered, as relevant here, a pair of shoes, three pairs of work gloves, two black hooded sweatshirts\u2014one sized 2XL, the other 3XL\u2014and two cans of pepper spray, one empty and one full. All of these items, with the exception of the smaller of the two sweatshirts, were found in defendant\u2019s bedroom.\nOne of the police officers involved in the search of defendant\u2019s home, Officer Jeffrey Adcox, had also participated in the investigation of the December 19th robbery, and had reviewed the surveillance video. Officer Adcox noted that defendant appeared to be about the same height and weight as the larger armed robber on the surveillance video. The officer also opined, based on further review of the surveillance video, that the shoes recovered in the search matched those worn by one of the robbery suspects, as did the gloves, pepper spray bottle, and black hooded sweatshirt. At the suggestion of Officer Adcox, Officer Park also reviewed the surveillance video, and reached similar conclusions regarding matches between items recovered and items viewed in the surveillance video, as well as noting the similarity in height, build, and facial hair between defendant and the larger of the two robbers.\nDefendant moved to suppress all items recovered by police on December 28, 2010. After a June 27, 2012, hearing, the trial court denied the motion. Prior to trial, on October 23, 2012, defendant pleaded guilty to counts 3 through 5. The jury returned its verdicts with respect to count 1 and the firearm enhancement on October 26, 2012. The trial court imposed sentence on November 30, 2012.\nIII. DISCUSSION\nA. The Trial Court Erred by Denying Defendant\u2019s Motion to Suppress, Requiring Reversal of the Judgment with Respect to Count One and Its Enhancement.\nThe trial court denied defendant\u2019s motion to suppress all items recovered during the search of his residence, rejecting defendant\u2019s arguments that they were the product of an unlawful search and seizure. Defendant contends the trial court erred by denying the motion to suppress, and that the error requires reversal of the judgment of guilt as to all counts, including those to which he pleaded guilty. We find the motion to suppress should have been granted, but this finding requires reversal only of defendant\u2019s conviction for robbery and the firearm enhancement, because he waived his right to appeal the remaining charges as part of his plea bargain, and he failed to obtain a certificate of probable cause.\n1. Standard of Review and Background Fourth Amendment Standards.\n\u201cFederal constitutional standards generally govern our review of claims that evidence is inadmissible because it was obtained during an unlawful search.\u201d (People v. Willis (2002) 28 Cal.4th 22, 29 [120 Cal.Rptr.2d 105, 46 P.3d 898].) \u201cWe defer to the trial court\u2019s factual findings where supported by substantial evidence, but we must exercise our independent judgment to determine whether, on the facts found, the search and seizure was reasonable under the Fourth Amendment standards of reasonableness.\u201d (People v. Avila (1997) 58 Cal.App.4th 1069, 1073-1074 [68 Cal.Rptr.2d 432].) \u201cOn appeal, a correct decision must be affirmed even if the trial court based its ruling on ah erroneous reason.\u201d (People v. Avalos (1996) 47 Cal.App.4th 1569, 1580 [55 Cal.Rptr.2d 450].)\n\u201c \u2018[T]he \u201cphysical entry of the home is the chief evil against which the wording of the Fourth Amendment is directed.\u201d \u2019 \u201d (People v. Camacho (2000) 23 Cal.4th 824, 831 [98 Cal.Rptr.2d 232, 3 P.3d 878].) \u201c[W]arrentless arrests within the home are proscribed unless exigent circumstances exist.\u201d (In re Rudy F. (2004) 117 Cal.App.4th 1124, 1132 [12 Cal.Rptr.3d 483], citing People v. Ramey (1976) 16 Cal.3d 263, 276 [127 Cal.Rptr. 629, 545 P.2d 1333].) The same proscription limiting warrantless arrests in the home has been extended to detentions that fall short of formal arrests. (People v. Williams (1979) 93 Cal.App.3d 40, 57 [155 Cal.Rptr. 414], disapproved on other grounds in Coito v. Superior Court (2012) 54 Cal.4th 480, 499 [142 Cal.Rptr.3d 607, 278 P.3d 860].) Thus, the exception to the warrant requirement for investigative detentions for the purpose of investigating possible criminal activity, approved in Terry v. Ohio (1968) 392 U.S. 1 [20 L.Ed.2d 889, 88 S.Ct. 1868], \u201cdoes not apply to in-home searches and seizures.\u201d (U.S. v. Struckman (9th Cir. 2010) 603 F.3d 731, 738 (Struckman).)\nA warrantless arrest in a public place does not violate the Fourth Amendment so long as the police have probable cause. (United States v. Santana (1976) 427 U.S. 38, 42 [49 L.Ed.2d 300, 96 S.Ct. 2406].) But to fall within the exigent circumstances exception to the warrant requirement, an arrest or detention within a home or dwelling must be supported by both probable cause and the existence of exigent circumstances. (Struckman, supra, 603 F.3d at p. 739.) A burglary in progress may constitute an \u201cexigent circumstance,\u201d as that phrase is used in Fourth Amendment jurisprudence. (See People v. Duncan (1986) 42 Cal.3d 91, 97-98 [227 Cal.Rptr. 654, 720 P.2d 2] (Duncan).) \u201cProbable cause exists when the facts known to the arresting officer would persuade someone of \u2018reasonable caution\u2019 that the person to be arrested has committed a crime. [Citation.] \u2018[Pjrobable cause is a fluid concept\u2014turning on the assessment of probabilities in particular factual contexts . . . .\u2019 [Citation.] It is incapable of precise definition. [Citation.] \u2018 \u201cThe substance of all the definitions of probable cause is a reasonable ground for belief of guilt,\u201d \u2019 and that belief must be \u2018particularized with respect to the person to be . . . seized.\u2019 \u201d (People v. Cells (2004) 33 Cal.4th 667, 673 [16 Cal.Rptr.3d 85, 93 P.3d 1027] (Cells).)\n\u201c \u2018[I]n determining whether the officer acted reasonably, due weight must be given not to his unparticularized suspicions or \u201chunches,\u201d but to the reasonable inferences which he is entitled to draw from the facts in the light of his experience; in other words, he must be able to point to specific and articulable facts from which he concluded that his action was necessary.\u2019 \u201d (Duncan, supra, 42 Cal.3d at p. 98.) The standard to be applied is an objective one: \u201cAn action is \u2018reasonable\u2019 under the Fourth Amendment, regardless of the individual officer\u2019s state of mind, \u2018as long as the circumstances, viewed objectively, justify [the] action.\u2019 \u201d (Brigham City v. Stuart (2006) 547 U.S. 398, 404 [164 L.Ed.2d 650, 126 S.Ct. 1943], italics omitted.)\n2. Initial Contact in Driveway with Vargas Did Not Violate the Fourth Amendment.\nDefendant\u2019s arguments to the contrary notwithstanding, we find nothing unreasonable in the conduct of Officers Park and Galbreath during their initial contact with Vargas. Defendant\u2019s residence, including the driveway leading up to the front of the house, is surrounded by a low chain-link fence. He argues that the driveway constitutes \u201ccurtilage\u201d subject to Fourth Amendment protections. Even assuming this to be so, however, the officers were entitled to enter onto the driveway without a warrant to attempt to initiate a consensual conversation with Vargas, in addition to approaching the house to speak with any occupants. (See U.S. v. Perea-Rey (9th Cir. 2012) 680 F.3d 1179, 1188 [constitutionality of police incursion into curtilage depends on \u201cwhether the officer\u2019s actions are consistent with an attempt to initiate consensual contact with the occupants of the home\u201d].) To make contact with Vargas, the officers entered the driveway, passing through two gates that were either open or unlocked. In doing so, the officers exercised no more than \u201c \u2018the same license to intrude as a reasonably respectful citizen\u2019 \u201d\u2014any door-to-door salesman would reasonably have taken the same approach to the house. (People v. Thompson (1990) 221 Cal.App.3d 923, 943 [270 Cal.Rptr. 863].) Moreover, \u201c[i]f in the course of his proper duties as a police officer, that officer is required to make an investigation at a private home, it would seem an unreasonable deterrent to the public\u2019s interest in that investigation, that it can be precluded by the mere existence of an unlocked gate.\u201d (Vickery v. Superior Court (1970) 10 Cal.App.3d 110, 119 [88 Cal.Rptr. 834].)\nAdditionally, the officers were aware of sufficient particularized facts to reasonably believe Vargas was engaged in criminal activity. Officers Park and Galbreath observed from their patrol car that someone (later determined to be Vargas) was in the driveway, apparently stripping copper wire from an air conditioner. To be sure, an individual stripping copper wire from an air conditioner in front of a residence is not necessarily engaged in criminal activity. But it is hardly an unreasonable inference that such a person might well be, and in light of their experience, it is an inference the officers were entitled to make pending further investigation. Officers Park and Galbreath were justified in entering the driveway of defendant\u2019s home\u2014even assuming it constitutes \u201ccurtilage\u201d\u2014to speak to Vargas and confirm or dispel their reasonable suspicion Vargas may have been engaged in criminal activity.\nIt should be noted, however, that nothing in our record indicates police ever had probable cause to believe Vargas was engaged in burglary, as Officer Galbreath testified he suspected. The elements of burglary include entry into a building, along with the intent to commit a felony or theft. (Magness v. Superior Court (2012) 54 Cal.4th 270, 273 [142 Cal.Rptr.3d 268, 278 P.3d 259]; \u00a7 459.) Nothing in our record establishes that police had cause to believe Vargas ever entered the house. Even assuming the air conditioner was stolen from the house\u2014an assumption for which there is no evidence in our record\u2014it may or may not have required entry into the building to remove the air conditioner to the driveway, where Vargas was discovered stripping it of copper wire. Nevertheless, with respect to Vargas, the officers\u2014particularly once they determined he did not live at the residence\u2014had probable cause to believe Vargas may have been engaged in some sort of illegal activity, including theft and trespassing.\nIn short, the officers did not violate the Fourth Amendment when they entered defendant\u2019s driveway to contact Vargas. Defendant\u2019s contentions in that regard are without merit.\n3. Warrantless Detention of Defendant Inside His Home, Absent Probable Cause, Violated the Fourth Amendment.\nOfficer Galbreath\u2019s detention of defendant is more problematic than the officers\u2019 initial contact with Vargas. As discussed above, the officers were aware of specific, articulable facts about Vargas that led them reasonably to believe he might be engaged in theft and trespassing. In contrast, when police first contacted defendant, Officer Galbreath was aware of no specific, articulable facts particular to defendant suggesting that he might be involved in criminal activity. To the contrary, Officer Galbreath had reason to believe from his conversation with Vargas that a resident of the house named \u201cRick\u201d might be inside\u2014that is, someone who belonged in the house, and who, if anything, could well be a victim of theft by Vargas, rather than a fellow thief. Officer Galbreath never observed defendant doing anything suspicious, say, rifling through drawers. There is no evidence defendant acted aggressively or menacingly toward Officer Galbreath, or tried to flee. Rather, defendant made his presence known when commanded to do so, and obeyed all police instructions after that point.\nNeither did the officers\u2019 observations outside the house prior to making contact with defendant yield any facts from which they could have reasonably concluded a burglar was likely inside. As noted, when the officers talked with Vargas, he explained he was visiting a resident named Rick. The officers may not have believed him, but \u201cthe explanation was not patently inconsistent, false, or inherently implausible. As such, it did not furnish a reasonable basis for suspecting criminal activity\u201d with respect to Vargas, let alone defendant. (People v. Loewen (1983) 35 Cal.3d 117, 125 [196 Cal.Rptr. 846, 672 P.2d 436].) The officers observed a door was ajar, but there were no signs, for example, of forced entry. (Cf. Duncan, supra, 42 Cal.3d at p. 98 [presence of a television and other property beneath an open window reasonably suggested burglars might still be in the house, \u201c \u2018collecting more loot\u2019 \u201d].) A partially open door by itself is not probable cause justifying a warrantless search or seizure in a residence, and nothing in our record suggests Officer Galbreath was aware of any additional facts tending to suggest either a burglary in progress, or the presence of the victim of a burglary in need of emergency care. (See Murdock v. Stout (9th Cir. 1995) 54 F.3d 1437, 1441 [officers did not have probable cause to enter a house based merely on neighbor\u2019s report of suspicious activity and an open door, but did have probable cause based on other signs a resident should have been home, but might have been in danger or injured], abrogated on other grounds as recognized in LaLonde v. County of Riverside (9th Cir. 2000) 204 F.3d 947, 957.)\nThe Ninth Circuit\u2019s opinion in Struckman, supra, 603 F.3d 731, is instructive. In that case, police received a call from a neighbor that owners of a house were at work and a White male wearing a black jacket had thrown a red backpack over the fence and climbed into the backyard. (Id. at p. 736.) Police arrived, looked over a fence into the backyard, and observed someone fitting the description. (Ibid.) Officers \u201cstraightaway\u201d drew weapons, ordered the man to his knees, and burst into the backyard, with one officer climbing the fence and another kicking open a padlocked gate, suspecting the man to be a burglar. (Ibid.) Police ignored his protestations that he lived at the house, he was detained, and he and his backpack were searched, revealing a gun, several unloaded handgun magazines, methamphetamine, and a \u201c \u2018digital gram scale.\u2019 \u201d (Id. at pp. 737, 740, fn. 7.) Only later, after the warrantless search and seizure at gunpoint, did police ask the man his name, at which point police were readily able to verify that the man was indeed in his own backyard. (Id. at p. 737.) He was later charged and found guilty of being a felon in possession of a firearm. (Ibid.)\nThe Ninth Circuit panel in Struckman doubted, but was willing to assume for purposes of argument, that the police were aware of just enough specific facts to amount to probable cause to believe the defendant was trespassing (though no probable cause to believe he was a burglar). (Struckman, supra, 603 F.3d at pp. 741, 746.) It found, however, that the probable cause \u201ccould easily have been dissipated by minimal inquiry at the outset, before the officers entered the backyard and searched and questioned [the defendant].\u201d (Id. at p. 746.) On that basis, the warrantless seizure of the defendant in his own backyard was found to violate the Fourth Amendment, the denial of his suppression motion was reversed, and the judgment of the conviction was vacated. (Struckman, supra, at p. 747.)\nHere, as in Struckman, the police could have asked defendant \u201ca few simple questions, such as \u2018What\u2019s your name?\u2019 \u2018Do you live here?\u2019 \u201d (Struckman, supra, 603 F.3d at p. 742.) They did not. Put another way: Nothing in the record suggests that it was reasonably necessary for Officer Galbreath to do what he did\u2014immediately detain everyone on the premises, and sort things out later\u2014rather than engaging in even the most minimal inquiry as to defendant\u2019s identity, or verifying Vargas\u2019s story, before intruding into the house and detaining defendant. (See Duncan, supra, 42 Cal.3d at pp. 97-98.)\nMoreover, perhaps unlike in Struckman, the facts here do not establish that Officer Galbreath had probable cause to believe defendant was committing any crime. There is nothing in the record establishing that Officer Galbreath, at the time he detained defendant, was aware of facts particular to defendant sufficient to \u201cpersuade someone of \u2018reasonable caution\u2019 \u201d that defendant had \u201ccommitted a crime\u201d\u2014nothing to support the belief defendant even was trespassing, let alone committing burglary. (Celis, supra, 33 Cal.4th at p. 673.) Officer Galbreath did not have a report from a neighbor identifying a man fitting a certain description was his suspect. (Cf. Struckman, supra, 603 F.3d at p. 736.) To the contrary, the only information Officer Galbreath had was that, according to Vargas, a person named \u201cRick\u201d lived at the residence. But he failed to check whether defendant fit that minimal description before detaining him. We conclude that defendant\u2019s warrantless detention inside his residence lacked probable cause, and therefore violated the Fourth Amendment.\nThe People\u2019s attempt to justify Officer Galbreath\u2019s actions turns on the notion that defendant was detained outside the home, arguing that Officer Galbreath \u201cat most. . . briefly leaned in through the open doorway in order to call out for anyone inside to come out.\u201d This approach is apparently intended to avoid the limitations, discussed above, on warrantless arrests or detentions within a private home or its curtilage. But it is not an approach that is consistent with the law, as applied to the evidence in our record. \u201c[I]t is the location of the arrested person, and not the arresting agents, that determines whether an arrest occurs within a home.\u201d (U.S. v. Johnson (9th Cir. 1980) 626 F.2d 753, 757.) At least as soon as Officer Galbreath ordered defendant to turn around and walk backwards towards him, suspecting defendant might be a burglar, defendant was detained. (See In re Tony C. (1978) 21 Cal.3d 888, 895 [148 Cal.Rptr. 366, 582 P.2d 957] [\u201cIf [an] individual is stopped or detained because the officer suspects he may be personally involved in some criminal activity, his Fourth Amendment rights are implicated . . . .\u201d].) The record is unambiguous: Defendant was inside his house when he was detained, and therefore entitled to the full panoply of Fourth Amendment rights accorded to an individual in his or her residence or its curtilage. (See Struckman, supra, 603 F.3d at p. 738.) The trial court found that the searches of defendant\u2019s person and of the house were consensual, colorfully commenting \u201cThey\u2019ve got consent up the ying-yang here.\u201d This reasoning, however, focuses exclusively on the searches that followed defendant\u2019s detention, not on the detention itself. If Officer Galbreath had invited defendant to step outside of his home to talk, and defendant did so voluntarily, then any detention would be treated as if it occurred outside the home, and our analysis would be quite different. (See People v. Tillery (1979) 99 Cal.App.3d 975, 979-980 [160 Cal.Rptr. 650] [where defendant voluntarily stepped outside of home to talk at invitation of police officer, subsequent warrantless arrest in driveway outside the home not treated as in-home arrest].) But that is not what happened. Officer Galbreath did not knock and politely invite any occupant of the house to engage in a consensual conversation; he ordered anyone inside to come out, and then commanded defendant to back his way out of the house. Defendant did not consent to this warrantless intrusion into his home.\nIn short, we do not doubt that the responding officers had a good faith suspicion defendant was engaged in criminal activity. That suspicion, however, was not supported by objective facts rising to the level of probable cause, as required to justify the warrantless detention of the resident inside a dwelling. As such, defendant\u2019s detention was in violation of his Fourth Amendment rights.\n4. Defendant\u2019s Motion to Suppress Should Have Been Granted.\nIf consent is induced by an illegal arrest or detention, the illegality vitiates the consent and may require suppression of seized evidence unless attenuating circumstances dissipate the taint. (People v. Leib (1976) 16 Cal.3d 869, 877 [129 Cal.Rptr. 433, 548 P.2d 1105].) \u201c[T]he general framework for analyzing a claim of attenuation under the Fourth Amendment is well settled. [Citation.] \u2018[T]he question before the court is whether the chain of causation proceeding from the unlawful conduct has become so attenuated or has been interrupted by some intervening circumstance so as to remove the \u201ctaint\u201d imposed upon that evidence by the original illegality.\u2019 [Citation.] \u2018Relevant factors in this \u201cattenuation\u201d analysis include the temporal proximity of the Fourth Amendment violation to the procurement of the challenged evidence, the presence of intervening circumstances, and the flagrancy of the official misconduct.\u2019 \u201d (People v. Brendlin (2008) 45 Cal.4th 262, 268-269 [85 Cal.Rptr.3d 496, 195 P.3d 1074].)\nHere, however, the Attorney General has made no claim of attenuation, asserting no argument that, even if the detention was unlawful, the chain of causation from the unlawful conduct was somehow broken. Neither does our review of the record reveal evidence of any sufficient attenuating factors to remove the taint of defendant\u2019s unlawful detention from the evidence recovered by the police from his person and his residence. Defendant\u2019s consents to search were obtained immediately after the unlawful conduct, with no sufficient intervening events. Even if the police misconduct here was arguably not particularly flagrant, so far as unlawful warrantless seizures go\u2014at least it was apparently motivated by good faith intent to interrupt illegal activity, though those suspicions were not supported by probable cause\u2014neither was the misconduct de minimis.\nThe circumstance that the owner of the home, Vargas\u2019s mother, consented to a search of the house also does not cure the taint of defendant\u2019s unlawful detention or otherwise justify the search of the premises. \u201c[T]he owners of property may consent to a police search thereof as long as no other persons are legitimately occupying that property. [Citation.] ...[][] But a landlord may not give valid third party consent to a police search of a house rented to another.\u201d (People v. Superior Court (Walker) (2006) 143 Cal.App.4th 1183, 1200 [49 Cal.Rptr.3d 831].) Virtually all of the evidence recovered by police was found in the portion of the house rented by defendant. As such, Vargas\u2019s mother could not give valid consent for the search that revealed the evidence at issue.\nWe conclude that all the evidence seized by police from defendant\u2019s person and from his home was the fruit of an unlawful detention, and the taint of the violation of defendant\u2019s Fourth Amendment rights was not dissipated by any attenuating circumstances. The motion to suppress should have been granted.\n5. Defendant Waived His Right to Appeal with Respect to Counts 3 Through 5, and Failed to Obtain a Certificate of Probable Cause.\nThere is no doubt the evidence obtained as a result of defendant\u2019s warrantless actions was critical to his conviction at trial on the robbery charge (count 1) and the firearm enhancement. The Attorney General has not contended that any error in denying defendant\u2019s motion to suppress was harmless. The judgment of conviction with respect to those charges, therefore, must be vacated.\nDefendant contends that the judgment should also be vacated with respect to counts 3 through 5, to which he pleaded guilty. He notes that section 1538.5, subdivision (m), provides that \u201c[a] defendant may seek further review of the validity of a search or seizure on appeal from a conviction in a criminal case notwithstanding the fact that the judgment of conviction is predicated upon a plea of guilty.\u201d\nDefendant\u2019s argument is foreclosed, however, by the circumstance that his plea agreement included a waiver of his right to appeal, and he failed to obtain a certificate of probable cause. People v. Mashburn (2013) 222 Cal.App.4th 937 [166 Cal.Rptr.3d 285] (Mashburn) held that a defendant whose plea agreement includes a waiver of the right to appeal must obtain a certificate of probable cause to appeal a trial court\u2019s denial of a motion to suppress, notwithstanding section 1538.5, subdivision (m). (Mashburn, supra, at p. 940.) Defendant contends that Mashburn was wrongly decided, and urges us not to follow it. \u201cWe, of course, are not bound by the decision of a sister Court of Appeal. [Citation.] But \u2018[w]e respect stare decisis, however, which serves the important goals of stability in the law and predictability of decision. Thus, we ordinarily follow the decisions of other districts without good reason to disagree.\u2019 \u201d (The MEGA Life & Health Ins. Co. v. Superior Court (2009) 172 Cal.App.4th 1522, 1529 [92 Cal.Rptr.3d 399] [Fourth Dist., Div. Two].) In this case, we find no sufficient reason to depart from the holding in Mashburn, which considered and rejected virtually the same arguments as defendant makes here\u2014to the contrary, we agree with the Mashburn court\u2019s reasoning and conclusions.\nB. The Sentence on Count 5 Should Be Stayed Under Section 654.\nThe stolen property that defendant admitted to receiving by pleading guilty to count 4 is the handgun, recovered in the search of defendant\u2019s residence, that also serves as the basis for count 5, possession of a firearm by a felon. Defendant argues that the court should have stayed the sentence on count 5 pursuant to section 654, because both counts 4 and 5 are based on \u201cthe same physical act of possessing the same firearm.\u201d The People concede, and we agree, the court should have stayed the sentence on count 5.\nSection 654 provides in pertinent part: \u201cAn act or omission that is punishable in different ways by different provisions of law shall be punished under the provision that provides for the longest potential term of imprisonment, but in no case shall the act or omission be punished under more than one provision.\u201d (\u00a7 654, subd. (a).) \u201cThe purpose of this statute is to prevent multiple punishment for a single act or omission, even though that act or omission violates more than one statute and thus constitutes more than one crime.\u201d (People v. Hutchins (2001) 90 Cal.App.4th 1308, 1312 [109 Cal.Rptr.2d 643].)\nThere is some authority for the proposition that section 654 does not necessarily preclude punishment for both receiving a firearm as stolen property and unlawfully possessing that firearm, on the theory that as to each offense the defendant may have had a \u201cseparate and distinguishable mens reaP (People v. Taylor (1969) 2 Cal.App.3d 979, 985-986 [83 Cal.Rptr. 119].) But defendant argues such reasoning is incompatible with the Supreme Court\u2019s decision in People v. Jones (2012) 54 Cal.4th 350, 358 [142 Cal.Rptr.3d 561, 278 P.3d 821] {Jones), holding that \u201c[s]ection 654 prohibits multiple punishment for a single physical act that violates different provisions of law.\u201d\nWe need not decide whether Taylor and similar cases have any continuing vitality after Jones. The trial court stated when taking defendant\u2019s plea that it was inclined to apply section 654, because the counts involved the same firearm, and acknowledged during sentencing that counts 4 and 5 related to \u201cessentially . . . one [and] the same act.\u201d We agree with the People that the trial court implicitly found defendant harbored only a single intent, so the reasoning of Taylor could not apply. The sentence on count 5, therefore, should have been stayed, rather than imposed as a concurrent sentence. (Jones, supra, 54 Cal.4th at p. 353.)\nIV. DISPOSITION\nThe trial court\u2019s denial of defendant\u2019s motion to suppress is reversed, and the judgment vacated with respect to count 1 and the firearm enhancement of count 1. Additionally, the judgment is modified such that the sentence on count 5 shall be stayed pursuant to section 654. The judgment is affirmed in all other respects.\nMcKinster, J., and Codrington, J., concurred.\nAll further statutory references are to the Penal Code unless otherwise indicated.\nA second robbery count, count 2, was dismissed prior to trial.\nWe therefore need not and do not address defendant\u2019s appeal of the denial of his motion to sever or the trial court\u2019s ruling on his motion in limine regarding evidence of third party culpability.\nOfficer Galbreath testified the air-conditioning unit \u201cappeared to have been taken from the residence,\u201d but nothing in our record suggests this testimony was based on any specific facts observed, rather than just the officer\u2019s suspicions as to what Vargas might have been doing. The court did not find that the air conditioner did in fact come from the house, but only that it \u201cmay be from the house.\u201d\nOn cross-examination, Officer Park testified that Officer Galbreath went inside the house. This description of events is in some tension with Officer Galbreath\u2019s own testimony, that he remained on the threshold, \u201cpartially out, partially in,\u201d as he called for anyone inside to come out. This conflict in the evidence, however, is not dispositive of any issue in this appeal.\nAdditional facts are provided below as necessary to address defendant\u2019s claims of error.\nThe People contend otherwise, asserting that the driveway area was not sufficiently private to be part of the home\u2019s curtilage.\nPolice later discovered that defendant\u2019s identification showed an old address, and therefore did not establish he lived at the address where he was arrested. This fact might have established probable cause to believe defendant was not authorized to be in the house, had police known of it prior to detaining him\u2014at least until he could furnish some other proof of residency, for example, by calling the landlord (Vargas\u2019s mother) as police later did in seeking her consent to search the residence.",
+        "type": "majority",
+        "author": "HOLLENHORST, Acting P. J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Jill M. Klein, under appointment by the Court of Appeal, for Defendant and Appellant.",
+      "Kamala D. Harris, Attorney General, Dane R. Gillette, Chief Assistant Attorney General, Julie L. Garland, Assistant Attorney General, Scott C. Taylor and Kathryn Kirschbaum, Deputy Attorneys General, for Plaintiff and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. E057671.\nFourth Dist., Div. Two.\nAug. 26, 2014.]\nTHE PEOPLE, Plaintiff and Respondent, v. RICARDO LUJANO, Defendant and Appellant.\nCounsel\nJill M. Klein, under appointment by the Court of Appeal, for Defendant and Appellant.\nKamala D. Harris, Attorney General, Dane R. Gillette, Chief Assistant Attorney General, Julie L. Garland, Assistant Attorney General, Scott C. Taylor and Kathryn Kirschbaum, Deputy Attorneys General, for Plaintiff and Respondent."
+  },
+  "file_name": "0175-01",
+  "first_page_order": 183,
+  "last_page_order": 199
+}

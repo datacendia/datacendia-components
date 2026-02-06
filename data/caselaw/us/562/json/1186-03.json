@@ -1,0 +1,59 @@
+{
+  "id": 6024268,
+  "name": "White v. Adams, Warden",
+  "name_abbreviation": "White v. Adams",
+  "decision_date": "2011-01-18",
+  "docket_number": "No. 10-7531",
+  "first_page": "1186",
+  "last_page": "1186",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1186"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.612,
+    "sha256": "6fce7700062c5a049084f662ed030407cd9091f6ad8570b599eeb40eb61d3db4",
+    "simhash": "1:54f003a17fafb0f6",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "White v. Adams, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7531.\nWhite v. Adams, Warden."
+  },
+  "file_name": "1186-03",
+  "first_page_order": 1208,
+  "last_page_order": 1208
+}

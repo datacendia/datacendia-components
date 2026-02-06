@@ -1,0 +1,61 @@
+{
+  "id": 12209396,
+  "name": "Alexander v. United States",
+  "name_abbreviation": "Alexander v. United States",
+  "decision_date": "2012-04-23",
+  "docket_number": "No. 11-9505",
+  "first_page": "959",
+  "last_page": "959",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 959"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 41,
+    "char_count": 287,
+    "ocr_confidence": 0.53,
+    "sha256": "a3ba324b7b3aecd448d9fdbb84b628aae0d692ded82145888deceaffbb19bc98",
+    "simhash": "1:9dabfdc2cf44bf86",
+    "word_count": 48
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this motion and this petition."
+    ],
+    "parties": [
+      "Alexander v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Motion of petitioner for leave to proceed in forma pauperis denied, and certiorari dismissed. See this Court's Rule 39.8.\nJustice Kagan took no part in the consideration or decision of this motion and this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "April 23, 2012\nNo. 11-9505.\nAlexander v. United States."
+  },
+  "file_name": "0959-01",
+  "first_page_order": 835,
+  "last_page_order": 835
+}

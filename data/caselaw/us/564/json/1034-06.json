@@ -1,0 +1,59 @@
+{
+  "id": 4332128,
+  "name": "In re Discipline of Chambers",
+  "name_abbreviation": "In re Discipline of Chambers",
+  "decision_date": "2011-06-27",
+  "docket_number": "No. D-2604",
+  "first_page": "1034",
+  "last_page": "1034",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1034"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 39,
+    "char_count": 287,
+    "ocr_confidence": 0.555,
+    "sha256": "ca03bd56d7775c9bd04981b5634a98fc90ec97e2d3e4cd2e777e0bfc77d9166c",
+    "simhash": "1:668a61b63ffe2762",
+    "word_count": 51
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of Chambers."
+    ],
+    "opinions": [
+      {
+        "text": "William R. Chambers, of Scottsdale, Ariz., is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2604.\nIn re Discipline of Chambers."
+  },
+  "file_name": "1034-06",
+  "first_page_order": 1028,
+  "last_page_order": 1028
+}

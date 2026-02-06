@@ -1,0 +1,59 @@
+{
+  "id": 12414505,
+  "name": "Marten v. Pennsylvania",
+  "name_abbreviation": "Marten v. Pennsylvania",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10902",
+  "first_page": "868",
+  "last_page": "868",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 868"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 71,
+    "ocr_confidence": 0.669,
+    "sha256": "8add1c549b3ca7dcf512d7d5e711b5805813cf34b5ccdc9a2a8f72aa686a40a6",
+    "simhash": "1:af792babe8597050",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Marten v. Pennsylvania."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Pa. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10902.\nMarten v. Pennsylvania."
+  },
+  "file_name": "0868-05",
+  "first_page_order": 944,
+  "last_page_order": 944
+}

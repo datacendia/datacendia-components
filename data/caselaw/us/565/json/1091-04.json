@@ -1,0 +1,59 @@
+{
+  "id": 12237698,
+  "name": "Cannon v. California",
+  "name_abbreviation": "Cannon v. California",
+  "decision_date": "2011-12-12",
+  "docket_number": "No. 10-10591",
+  "first_page": "1091",
+  "last_page": "1091",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1091"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 25,
+    "char_count": 166,
+    "ocr_confidence": 0.666,
+    "sha256": "73152a9d42b2f9fc6946b09b5210a9cbc2bd4a17d640f2eee062188dc36f9d7c",
+    "simhash": "1:66cc386a4806e71a",
+    "word_count": 26
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cannon v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Cal. Motion of petitioner for reconsideration of order denying leave to proceed in forma pauperis [ante, p. 803] denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10591.\nCannon v. California."
+  },
+  "file_name": "1091-04",
+  "first_page_order": 1173,
+  "last_page_order": 1173
+}

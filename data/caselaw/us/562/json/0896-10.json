@@ -1,0 +1,59 @@
+{
+  "id": 6003429,
+  "name": "Larsen v. Illinois",
+  "name_abbreviation": "Larsen v. Illinois",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-182",
+  "first_page": "896",
+  "last_page": "896",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 896"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.681,
+    "sha256": "77af648c893788b3fd2f12fd1af26bbc43f1297cdc3fd05013996f0638f7077d",
+    "simhash": "1:e1b9dad715a5ed2f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Larsen v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Ill., 1st Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-182.\nLarsen v. Illinois."
+  },
+  "file_name": "0896-10",
+  "first_page_order": 918,
+  "last_page_order": 918
+}

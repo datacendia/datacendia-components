@@ -1,0 +1,59 @@
+{
+  "id": 12430750,
+  "name": "James v. Texas",
+  "name_abbreviation": "James v. Texas",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-7397",
+  "first_page": "1165",
+  "last_page": "1165",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1165"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 62,
+    "ocr_confidence": 0.645,
+    "sha256": "34dbd16e0179b21b6b18caf330f17be1aaa0d8e000d6388dd14ea2578ce8d6d3",
+    "simhash": "1:f429c2366fa3ae0d",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "James v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Tex. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7397.\nJames v. Texas."
+  },
+  "file_name": "1165-04",
+  "first_page_order": 1241,
+  "last_page_order": 1241
+}

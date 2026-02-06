@@ -1,0 +1,203 @@
+{
+  "id": 12657039,
+  "name": "STATE of Missouri, Respondent, v. Jacky D. BAKER, Appellant.",
+  "name_abbreviation": "State v. Baker",
+  "decision_date": "2018-05-29",
+  "docket_number": "WD 81283",
+  "first_page": "68",
+  "last_page": "70",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "551 S.W.3d 68"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Mo. App. Ct.",
+    "id": 30098,
+    "name": "Missouri Court of Appeals, Western District"
+  },
+  "jurisdiction": {
+    "id": 37,
+    "name_long": "Missouri",
+    "name": "Mo."
+  },
+  "cites_to": [
+    {
+      "cite": "712 S.W.2d 50",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9960111
+      ],
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "52"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/712/0050-01"
+      ]
+    },
+    {
+      "cite": "301 S.W.3d 510",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7299172
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "516-17"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/301/0510-01"
+      ]
+    },
+    {
+      "cite": "275 S.W.3d 249",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8208536
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "253-54"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/275/0249-01"
+      ]
+    },
+    {
+      "cite": "477 S.W.3d 2",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6764906
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "6",
+          "parenthetical": "\"A guilty plea waives[ ] all constitutional and statutory claims except jurisdictional defects and claims that the guilty plea was not made knowingly, voluntarily, and intelligently.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/477/0002-01"
+      ]
+    },
+    {
+      "cite": "836 S.W.2d 459",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9974016
+      ],
+      "weight": 2,
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "461"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/836/0459-01"
+      ]
+    },
+    {
+      "cite": "453 S.W.3d 234",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6887394
+      ],
+      "weight": 2,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "239",
+          "parenthetical": "quoting Hagan v. State , 836 S.W.2d 459, 461 (Mo. banc 1992) "
+        },
+        {
+          "page": "239"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/453/0234-01"
+      ]
+    },
+    {
+      "cite": "307 S.W.3d 640",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7327202
+      ],
+      "weight": 3,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "642"
+        },
+        {
+          "page": "642"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/307/0640-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 362,
+    "char_count": 5702,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.26479787045499564
+    },
+    "sha256": "8ab182acb161a132051932b62a47d46d680ca8eec6b74c6e5711c5b22a31c3a1",
+    "simhash": "1:bfe1d02dca60d7f6",
+    "word_count": 940
+  },
+  "last_updated": "2024-02-27T17:25:58.254963+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "STATE of Missouri, Respondent,\nv.\nJacky D. BAKER, Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "EDWARD R. ARDINI, JR., JUDGE\nJacky D. Baker (\"Baker\") appeals the sentence imposed by the Circuit Court of Clinton County, Missouri, (\"trial court\") following a plea of guilty to the class A misdemeanor of endangering the welfare of a child. He argues that the trial court exceeded its statutory authority in sentencing him to 180 days of detention or \"shock time\" as a condition of his probation. We reverse and remand for re-sentencing with regard to the length of detention imposed as a condition of probation.\nFactual and Procedural background\nOn November 17, 2017, Baker was charged by complaint with the Class B felony of child molestation in the first degree under section 566.067. The State thereafter filed a substitute information charging Baker with the Class A misdemeanor of endangering the welfare of a child under section 568.050. On November 28, 2017, Baker entered a guilty plea to the amended charge. The trial court sentenced Baker to 12 months in jail, suspended execution of that sentence, and placed him on probation for two years. As a condition of probation, the trial court imposed 180 days of detention as shock time. Baker now appeals.\nAnalysis\nBaker's sole point on appeal contends that the trial court erred in imposing 180 days of detention or \"shock time\" as a condition of his probation because, he argues, such a sentence exceeds the statutory maximum. Before we address the merits of Baker's claim, we must first determine whether his claim has been preserved for review. The record is bereft of any attempt by Baker to preserve the error he now claims or otherwise bring the matter to the attention of the trial court prior to the filing of this appeal. Consequently, the issue has not been preserved. \"Any issue that was not preserved can only be reviewed for plain error, which requires a finding that manifest injustice or a miscarriage of justice has resulted from the trial court error.\" State v. Severe , 307 S.W.3d 640, 642 (Mo. banc 2010). \"Rule 30.20 provides that the appellate courts can conduct plain error review of sentences.\" Id. We will exercise our discretion to review Baker's claim for plain error.\nWe must next address whether Baker has waived the error he now alleges. \"The general rule in Missouri is that a plea of guilty voluntarily and understandably made waives all non-jurisdictional defects and defenses.\" Wright v. State , 453 S.W.3d 234, 239 (Mo. App. W.D. 2014) (quoting Hagan v. State , 836 S.W.2d 459, 461 (Mo. banc 1992) ); see also Johnson v. State , 477 S.W.3d 2, 6 (Mo. App. E.D. 2015) (\"A guilty plea waives[ ] all constitutional and statutory claims except jurisdictional defects and claims that the guilty plea was not made knowingly, voluntarily, and intelligently.\"). Although entry of a criminal sentence in excess of that authorized by law is no longer properly characterized as a \"jurisdictional defect\" following J.C.W. ex rel. Webb v. Wyciskalla, 275 S.W.3d 249, 253-54 (Mo. banc 2009), cases involving unauthorized sentences were traditionally viewed as raising \"jurisdictional\" issues. See State ex rel. Zinna v. Steele , 301 S.W.3d 510, 516-17 (Mo. banc 2010). Thus, caselaw holds that no waiver occurs in cases \"where it can be determined on the face of the record that the court had no power to enter the conviction or impose the sentence.\" Wright , 453 S.W.3d at 239. (quoting Hagan , 836 S.W.2d at 461 ). Given that Baker is claiming that a component of the sentence imposed by the trial court exceeded the maximum allowed by the law, his claim was not waived by the entry of his guilty plea and we may consider his argument on the merits.\nSection 557.011.2(5) authorizes the trial court to, in combination with any of the other available dispositions, \"[i]mpose a period of detention as a condition of probation, as authorized by section 559.026.\" Section 559.026(1) provides that \"[i]n misdemeanor cases, the period of detention under this section shall not exceed the shorter of thirty days or the maximum term of imprisonment authorized for the misdemeanor by chapter 558.\" (emphasis added). Baker pleaded guilty to a Class A misdemeanor, for which the maximum term of imprisonment is established in section 558.011 at one year. As such, Baker was eligible for the maximum term of detention or \"shock time\" authorized by section 559.026, which is thirty days. The trial court, in ordering Baker to serve 180 days of shock time, exceeded the statutory limit established in section 559.026(1). \"Being sentenced to a punishment greater than the maximum sentence for an offense constitutes plain error resulting in manifest injustice.\" Severe , 307 S.W.3d at 642.\nConclusion\nThe sentence of the trial court is reversed with regard to the length of detention imposed as a condition of probation (or \"shock time\") and the case is remanded for the trial court to impose a period of detention as a condition of probation not to exceed the maximum authorized under section 559.026.\nAll concur.\nAll statutory citations are to the Revised Statutes of Missouri, 2017.\nThe State declined to file a brief in response to Baker's appeal.\n\"Section 559.026 is the so called 'shock probation' statute, the basic purpose of which is to permit the shock of relatively short term imprisonment during long term probation periods.\" Davis v. State , 712 S.W.2d 50, 52 (Mo. App. E.D. 1986).",
+        "type": "majority",
+        "author": "EDWARD R. ARDINI, JR., JUDGE"
+      }
+    ],
+    "attorneys": [
+      "Joseph A. Gagnon, Kansas City, for Respondent.",
+      "Michael S. Shipley, Liberty, for Appellant."
+    ],
+    "corrections": "",
+    "head_matter": "STATE of Missouri, Respondent,\nv.\nJacky D. BAKER, Appellant.\nWD 81283\nMissouri Court of Appeals, Western District.\nOpinion filed: May 29, 2018\nJoseph A. Gagnon, Kansas City, for Respondent.\nMichael S. Shipley, Liberty, for Appellant.\nBefore Division Two: Karen King Mitchell, Presiding Judge, Alok Ahuja, Judge and Edward R. Ardini, Jr., Judge"
+  },
+  "file_name": "0068-01",
+  "first_page_order": 68,
+  "last_page_order": 70
+}

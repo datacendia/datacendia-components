@@ -1,0 +1,116 @@
+{
+  "id": 2263653,
+  "name": "E. J. Lund, Petitioner v. State of Texas, Respondent",
+  "name_abbreviation": "Lund v. State",
+  "decision_date": "1962-01-03",
+  "docket_number": "No. A-8607",
+  "first_page": "102",
+  "last_page": "103",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "163 Tex. 102"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "246 S.W. 2d 853",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10217760,
+        2244776
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/246/0853-01",
+        "/tex/151/0090-01"
+      ]
+    },
+    {
+      "cite": "151 Texas 90",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2244776
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/151/0090-01"
+      ]
+    },
+    {
+      "cite": "136 Texas 538",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "pin_cites": [
+        {
+          "page": "1941"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "348 S.W. 2d 247",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10155914
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/348/0247-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 150,
+    "char_count": 1676,
+    "ocr_confidence": 0.59,
+    "pagerank": {
+      "raw": 1.4707963265251086e-07,
+      "percentile": 0.659242488654744
+    },
+    "sha256": "d11084cae556282e8a0bacba4b3039b985c488f2c219c38d2a65b33eff50200e",
+    "simhash": "1:04598632600d7d0f",
+    "word_count": 297
+  },
+  "last_updated": "2024-02-27T22:19:56.646811+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "E. J. Lund, Petitioner v. State of Texas, Respondent"
+    ],
+    "opinions": [
+      {
+        "text": "PER CURIAM.\nPetitioner was appellant in the Court of Civil Appeals. His appeal was dismissed by that court because of his failure timely to file a motion for new trial. 348 S.W. 2d 247. In his petition for writ of error he asserts that the judgment of the trial court is void and that the entry of a void judgment is fundamental error which may be raised on appeal without the necessity of complying with the applicable Rules of Civil Procedure for the filing of a motion for new trial. We do not agree.\nThis case was tried to a jury and no exception to the necessity for the timely filing of a motion for new trial is applicable. When a number of the provisions contained in Rule 71a of the pre-1941 rules relating to practice in the district and county courts were written into Rule 324 of the Texas Rules of Procedure, the reference to fundamental error as an exceptional situation not requiring a motion for new trial was eliminated. See 126 Texas vii-1936; 136 Texas 538, 1941, Vernon\u2019s Annotated Texas Rules, Part 2, p. 450, wherein the provisions of Rule 71a (now superseded) are set out.\nBecause of the failure to file a timely motion for new trial, the appeal failed and the Court of Civil Appeals was without jurisdiction to determine whether or not the trial court\u2019s judgment is void. Rules 5 and 324. A. F. Jones and Sons v. Republic Supply Company, 151 Texas 90, 246 S.W. 2d 853.\nThe motion for rehearing of Application for Writ of Error is overruled.",
+        "type": "majority",
+        "author": "PER CURIAM."
+      }
+    ],
+    "attorneys": [
+      "Alfred M. Scott, Austin, for petitioner.",
+      "Will Wilson, Attorney General, Austin, Robert L. Burns, Houston, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "E. J. Lund, Petitioner v. State of Texas, Respondent\nNo. A-8607.\nDecided January 3, 1962\nAlfred M. Scott, Austin, for petitioner.\nWill Wilson, Attorney General, Austin, Robert L. Burns, Houston, for respondent."
+  },
+  "file_name": "0102-01",
+  "first_page_order": 130,
+  "last_page_order": 131
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12204574,
+  "name": "Wallace v. Pennsylvania",
+  "name_abbreviation": "Wallace v. Pennsylvania",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10710",
+  "first_page": "845",
+  "last_page": "845",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 845"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 73,
+    "ocr_confidence": 0.679,
+    "sha256": "bb83555726940e8322e87302c0221fb6dbdee98b0c0125a4b8aeb30f509bc0d8",
+    "simhash": "1:6ae60ed8996afdd4",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wallace v. Pennsylvania."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. Pa. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10710.\nWallace v. Pennsylvania."
+  },
+  "file_name": "0845-09",
+  "first_page_order": 927,
+  "last_page_order": 927
+}

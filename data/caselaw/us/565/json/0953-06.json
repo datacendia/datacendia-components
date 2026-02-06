@@ -1,0 +1,59 @@
+{
+  "id": 12228055,
+  "name": "Encinas v. Arizona",
+  "name_abbreviation": "Encinas v. Arizona",
+  "decision_date": "2011-10-11",
+  "docket_number": "No. 11-6010",
+  "first_page": "953",
+  "last_page": "953",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 953"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 68,
+    "ocr_confidence": 0.67,
+    "sha256": "2ca1430e6d7681a3a1e0f5b9df1c3812892ad379be802c97da6e6ac88eda5302",
+    "simhash": "1:8489c5720995c502",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Encinas v. Arizona."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Ariz. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6010.\nEncinas v. Arizona."
+  },
+  "file_name": "0953-06",
+  "first_page_order": 1035,
+  "last_page_order": 1035
+}

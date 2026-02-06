@@ -1,0 +1,59 @@
+{
+  "id": 12229105,
+  "name": "Speed v. Hall, Warden",
+  "name_abbreviation": "Speed v. Hall",
+  "decision_date": "2011-10-17",
+  "docket_number": "No. 11-271",
+  "first_page": "964",
+  "last_page": "964",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 964"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 68,
+    "ocr_confidence": 0.639,
+    "sha256": "79d2c4b856e11d4c380ec2fb257acb9dba03ac2b5fdf07e6ca7ef77460824bab",
+    "simhash": "1:af1009f74ddeb015",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Speed v. Hall, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ga. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-271.\nSpeed v. Hall, Warden."
+  },
+  "file_name": "0964-03",
+  "first_page_order": 1046,
+  "last_page_order": 1046
+}

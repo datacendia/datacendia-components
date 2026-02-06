@@ -1,0 +1,59 @@
+{
+  "id": 12240076,
+  "name": "Martinez v. United States District Court for the District of New Mexico (two judgments)",
+  "name_abbreviation": "Martinez v. United States District Court for the District of New Mexico",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-7027",
+  "first_page": "1121",
+  "last_page": "1121",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1121"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 21,
+    "char_count": 137,
+    "ocr_confidence": 0.646,
+    "sha256": "c48527003048f31fc7b020838f7c8fdd821f48cb13a08a3813cbfe1aefafde2b",
+    "simhash": "1:17a87127db62f13e",
+    "word_count": 22
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Martinez v. United States District Court for the District of New Mexico (two judgments)."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7027.\nMartinez v. United States District Court for the District of New Mexico (two judgments)."
+  },
+  "file_name": "1121-09",
+  "first_page_order": 1203,
+  "last_page_order": 1203
+}

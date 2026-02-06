@@ -1,0 +1,905 @@
+{
+  "id": 12520524,
+  "name": "Johnnie Teresa MARCHISIO, Adrian Marchisio, Plaintiffs-Appellants-Cross Appellees, v. CARRINGTON MORTGAGE SERVICES, LLC, Defendant-Appellee-Cross Appellant.",
+  "name_abbreviation": "Marchisio v. Carrington Mortg. Servs., LLC",
+  "decision_date": "2019-03-25",
+  "docket_number": "No. 17-10584",
+  "first_page": "1288",
+  "last_page": "1320",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "919 F.3d 1288"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "11th Cir.",
+    "id": 9031,
+    "name": "United States Court of Appeals for the Eleventh Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "901 F.3d 1282",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12518308
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1287"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/901/1282-01"
+      ]
+    },
+    {
+      "cite": "505 F.3d 1173",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5862592
+      ],
+      "year": 2007,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/505/1173-01"
+      ]
+    },
+    {
+      "cite": "53 F.3d 1228",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        573043
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "1235",
+          "parenthetical": "explaining the doctrine of lex loci contractus "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/53/1228-01"
+      ]
+    },
+    {
+      "cite": "387 F.3d 1244",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9155932
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "1259",
+          "parenthetical": "en banc "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/387/1244-01"
+      ]
+    },
+    {
+      "cite": "774 F.3d 1329",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4340167
+      ],
+      "weight": 2,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "1342",
+          "parenthetical": "quotation omitted"
+        },
+        {
+          "page": "1342"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/774/1329-01"
+      ]
+    },
+    {
+      "cite": "933 So.2d 699",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        8412406
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "703"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/933/0699-01"
+      ]
+    },
+    {
+      "cite": "538 So.2d 1322",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        7568350
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "1325",
+          "parenthetical": "quotations omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/538/1322-01"
+      ]
+    },
+    {
+      "cite": "370 So.2d 802",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9605488
+      ],
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "805"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/370/0802-01"
+      ]
+    },
+    {
+      "cite": "45 So.2d 188",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "year": 1950,
+      "pin_cites": [
+        {
+          "page": "189"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "849 So.2d 470",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9107786
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "471"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/849/0470-01"
+      ]
+    },
+    {
+      "cite": "564 F.3d 1256",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4238763
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "1272",
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/564/1256-01"
+      ]
+    },
+    {
+      "cite": "391 So.2d 308",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9543998
+      ],
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "309",
+          "parenthetical": "\"It is axiomatic that knowledge of the agent constitutes knowledge of the principal as long as the agent received such knowledge while acting within the scope of his authority.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/391/0308-01"
+      ]
+    },
+    {
+      "cite": "409 So.2d 172",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9536903
+      ],
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "173"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/409/0172-01"
+      ]
+    },
+    {
+      "cite": "156 Fla. 388",
+      "category": "reporters:state",
+      "reporter": "Fla.",
+      "case_ids": [
+        1960259
+      ],
+      "weight": 2,
+      "year": 1945,
+      "pin_cites": [
+        {
+          "page": "49"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/fla/156/0388-01"
+      ]
+    },
+    {
+      "cite": "Fla. Stat. \u00a7 626.342",
+      "category": "laws:leg_statute",
+      "reporter": "Fla. Stat.",
+      "pin_cites": [
+        {
+          "page": "(2)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "716 So.2d 774",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        11704419
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "783",
+          "parenthetical": "holding under Fla. Stat. \u00a7 626.342(2) that \"civil liability may be imposed upon insurers who cloak unaffiliated insurance agents with sufficient indicia of agency to induce a reasonable person to conclude that there is an actual agency relationship\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/716/0774-01"
+      ]
+    },
+    {
+      "cite": "828 F.2d 686",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1747857
+      ],
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "691",
+          "parenthetical": "quotations omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/828/0686-01"
+      ]
+    },
+    {
+      "cite": "648 So.2d 119",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        7443164
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "121"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/648/0119-01"
+      ]
+    },
+    {
+      "cite": "100 So.3d 19",
+      "category": "reporters:state_regional",
+      "reporter": "So. 3d",
+      "case_ids": [
+        7002893
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "31"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so3d/100/0019-01"
+      ]
+    },
+    {
+      "cite": "571 So.2d 422",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        7507532
+      ],
+      "year": 1990,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/571/0422-01"
+      ]
+    },
+    {
+      "cite": "118 So.3d 251",
+      "category": "reporters:state_regional",
+      "reporter": "So. 3d",
+      "case_ids": [
+        6998610
+      ],
+      "weight": 2,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "255"
+        },
+        {
+          "page": "255"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so3d/118/0251-01"
+      ]
+    },
+    {
+      "cite": "5 So.3d 804",
+      "category": "reporters:state_regional",
+      "reporter": "So. 3d",
+      "case_ids": [
+        8178988
+      ],
+      "weight": 3,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "806"
+        },
+        {
+          "page": "806"
+        },
+        {
+          "page": "806-07"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so3d/5/0804-01"
+      ]
+    },
+    {
+      "cite": "859 F.3d 1306",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12276657
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1316"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/859/1306-01"
+      ]
+    },
+    {
+      "cite": "176 L.Ed.2d 519",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        3582239,
+        12448255
+      ],
+      "weight": 2,
+      "year": 2010,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/559/0573-01",
+        "/l-ed-2d/176/0519-01"
+      ]
+    },
+    {
+      "cite": "559 U.S. 573",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12448255,
+        3582239
+      ],
+      "weight": 2,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "587"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/176/0519-01",
+        "/us/559/0573-01"
+      ]
+    },
+    {
+      "cite": "443 F.3d 723",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        2656615
+      ],
+      "weight": 3,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "729",
+          "parenthetical": "\"the bona fide prong and the procedures prong will often merge\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/443/0723-01"
+      ]
+    },
+    {
+      "cite": "584 F.3d 1350",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4066378
+      ],
+      "weight": 2,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "1352-53",
+          "parenthetical": "discussing 15 U.S.C. \u00a7 1692k(c) "
+        },
+        {
+          "page": "1352-53",
+          "parenthetical": "quotations omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/584/1350-01"
+      ]
+    },
+    {
+      "cite": "145 So.3d 906",
+      "category": "reporters:state_regional",
+      "reporter": "So. 3d",
+      "case_ids": [
+        6927327
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "908"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so3d/145/0906-01"
+      ]
+    },
+    {
+      "cite": "Fla. Stat. \u00a7 559.77",
+      "category": "laws:leg_statute",
+      "reporter": "Fla. Stat.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(3)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "692 F.3d 1151",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3513366
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "1154",
+          "parenthetical": "\"Credibility determinations, the weighing of the evidence, and the drawing of legitimate inferences from the facts are jury functions, not those of a judge ....\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/692/1151-01"
+      ]
+    },
+    {
+      "cite": "881 F.3d 853",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12275300
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "858-59",
+          "parenthetical": "en banc "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/881/0853-01"
+      ]
+    },
+    {
+      "cite": "Fla. Stat. \u00a7 559.72",
+      "category": "laws:leg_statute",
+      "reporter": "Fla. Stat.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(9)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "601 F.3d 1185",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4225498
+      ],
+      "weight": 2,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "1190"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/601/1185-01"
+      ]
+    },
+    {
+      "cite": "246 F.3d 359",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11108183
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "374"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/246/0359-01"
+      ]
+    },
+    {
+      "cite": "936 F.2d 1151",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10532639
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "1160"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/936/1151-01"
+      ]
+    },
+    {
+      "cite": "297 F.3d 1305",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11453741
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "1307",
+          "parenthetical": "citing Cahlin v. General Motors Acceptance Corp. , 936 F.2d 1151, 1160 (11th Cir. 1991) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/297/1305-01"
+      ]
+    },
+    {
+      "cite": "711 F.3d 1173",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3804025
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "1185"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/711/1173-01"
+      ]
+    },
+    {
+      "cite": "564 F.3d 1301",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4238096
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "1310",
+          "parenthetical": "\"A violation is 'willful' for the purposes of the FCRA if the defendant violates the terms of the Act with knowledge or reckless disregard for the law.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/564/1301-01"
+      ]
+    },
+    {
+      "cite": "551 U.S. 47",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3573430
+      ],
+      "weight": 8,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "71"
+        },
+        {
+          "page": "68"
+        },
+        {
+          "page": "68"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/551/0047-01"
+      ]
+    },
+    {
+      "cite": "781 F.3d 1270",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4075946
+      ],
+      "year": 2015,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/781/1270-01"
+      ]
+    },
+    {
+      "cite": "775 F.3d 1330",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4341106
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1336"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/775/1330-01"
+      ]
+    },
+    {
+      "cite": "893 F.3d 1305",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12517335
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1312",
+          "parenthetical": "quoting Hinkle , 827 F.3d at 1301-02 "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/893/1305-01"
+      ]
+    },
+    {
+      "cite": "827 F.3d 1295",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4334539
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1301"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/827/1295-01"
+      ]
+    },
+    {
+      "cite": "477 U.S. 242",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6206897
+      ],
+      "weight": 3,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "248"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/477/0242-01"
+      ]
+    },
+    {
+      "cite": "629 F.3d 1263",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4078959
+      ],
+      "weight": 7,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "1270"
+        },
+        {
+          "page": "1270"
+        },
+        {
+          "page": "1273-74"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/629/1263-01"
+      ]
+    },
+    {
+      "cite": "Fla. Stat. \u00a7 559.55",
+      "category": "laws:leg_statute",
+      "reporter": "Fla. Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "15 U.S.C. \u00a7 1681",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 2186,
+    "char_count": 89770,
+    "pagerank": {
+      "raw": 6.380125665320789e-08,
+      "percentile": 0.39533501760141226
+    },
+    "sha256": "b85c233ccc6e87d6c82a266f45386e03ac4d42f96ae4b7025bb2ad800e2184cc",
+    "simhash": "1:bb6a5e378e915388",
+    "word_count": 13819
+  },
+  "last_updated": "2024-02-27T18:46:33.646602+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before ROSENBAUM, HULL and JULIE CARNES, Circuit Judges."
+    ],
+    "parties": [
+      "Johnnie Teresa MARCHISIO, Adrian Marchisio, Plaintiffs-Appellants-Cross Appellees,\nv.\nCARRINGTON MORTGAGE SERVICES, LLC, Defendant-Appellee-Cross Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "JULIE CARNES, Circuit Judge:\nThis is the second federal action filed by Plaintiffs Johnnie Teresa Marchisio and Adrian Marchisio against Defendant Carrington Mortgage Services, LLC. Defendant's repeated failures to accurately report the status of Plaintiffs' mortgage loans prompted both actions. Specifically, as part of the parties' settlement in 2009 of a foreclosure suit brought by Defendant, Plaintiffs turned over their property to Defendant, which action mooted the foreclosure action and extinguished Plaintiffs' debt on the two pending loans. But Defendant failed to report correctly the status of the loans, and it continued trying to collect on the nonexistent debt, prompting Plaintiffs to file their first federal action alleging violations of the Fair Credit Reporting Act, 15 U.S.C. \u00a7 1681, et seq. , among other things.\nThe parties eventually settled this first federal lawsuit (\"First Action\"), entering into a settlement agreement that required Defendant to timely correct its reporting of the second loan and to pay Plaintiffs $125,000. Defendant paid the agreed-upon settlement amount, but failed to report the second loan as having a zero balance within the deadline specified in the settlement agreement, instead issuing three reports that continued to inaccurately report the existence of a delinquent debt. Even with its eventual and tardy report of a zero balance, however, Defendant incorrectly reported that Plaintiffs still owed a $34,985 balloon payment on this second loan due in March 2021.\nPlaintiffs disputed with credit reporting agencies Defendant's reporting of a balloon payment due on the second loan. Advised of Plaintiffs' disagreement with the report, Defendant purportedly investigated the dispute. Yet, notwithstanding their extensive litigation history with Plaintiffs, including two previous settlement agreements acknowledging that Plaintiffs owed nothing on the second loan, Defendant incorrectly confirmed to the reporting agencies that Plaintiffs had a balloon payment pending. If that wasn't bad enough, Defendant then began charging Plaintiffs for lender-placed insurance on the property that Plaintiffs had turned over to Defendant years earlier and no longer owned.\nAs a result, Plaintiffs filed this second federal action (\"Second Action\") alleging three claims: violation of the federal Fair Credit Reporting Act (\"FCRA\"), violation of the Florida Consumer Collection Practices Act, Fla. Stat. \u00a7 559.55, et seq . (the \"Florida Collections Act\"), and breach of contract. Defendant filed a motion for summary judgment as to all claims; Plaintiffs filed a motion for partial summary judgment. The district court granted Plaintiffs' motion for summary judgment on the FCRA claim, concluding that Defendant had willfully violated the FCRA and awarding statutory damages of $3,000, as well as attorney's fees and costs, all totaling $115,860.12. The district court, however, denied Plaintiffs' request for emotional distress and punitive damages, finding as a matter of law that Plaintiffs had shown no entitlement to those damages. The district court granted summary judgment to Defendant on Plaintiffs' Florida Collections Act claim for various reasons. Finally, although it concluded that Plaintiffs had proved that Defendant breached its settlement agreement, the district court granted summary judgment to Defendant on Plaintiffs' breach of contract claim, holding that Plaintiffs had failed to prove any recoverable damages.\nThe parties filed cross-appeals contesting the district court's adverse rulings on the above claims, as well as its award of fees, which Plaintiffs viewed as inadequate and Defendant viewed as excessive. After careful review and with the benefit of oral argument, we: (1) affirm the district court's finding of a willful FCRA violation, but reverse the court's denial of emotional distress and punitive damages; (2) reverse the grant of summary judgment for Defendant on the Florida Collections Act claim; (3) reverse the grant of summary judgment for Defendant on the breach of contract claim; (4) vacate the award of attorney's fees to Plaintiffs so that the district court can recalculate those fees at the conclusion of the litigation; and (5) remand for proceedings consistent with this opinion.\nI. BACKGROUND\nA. The Foreclosure Action\nDefendant serviced two mortgage loans extended to Plaintiffs for the purchase of a house. In August 2008, Plaintiffs defaulted on both loans. Through its trustee, Defendant filed a foreclosure action on Plaintiffs'\nproperty in state court. The parties resolved the foreclosure through a settlement agreement on December 9, 2009. The settlement agreement obligated Plaintiffs to convey the deed to the property to Defendant. In exchange, Defendant agreed to report to the credit reporting agencies (Equifax, TransUnion, and Experian) that the mortgage was discharged with a zero balance owed. Plaintiffs filed the deed in lieu of foreclosure on December 11, 2009, and vacated the property.\nIn April 2011, Plaintiffs obtained a dismissal of the foreclosure suit with prejudice, the court confirming that Plaintiffs had transferred full ownership of the property to Defendant. For more than a year, however, Defendant failed to meet its obligations under the settlement agreement. Specifically, Defendant resumed its debt collection efforts and reported Plaintiffs' debt as delinquent, even though Plaintiffs owed Defendant no money.\nB. The First Federal Action\n1. Partial Correction by Defendant\nIn response, in July 2012, Plaintiffs filed an action in the United States District Court for the Southern District of Florida, Case No. 12-cv-14264-DLG, alleging, among other things, that Defendant violated the FCRA and the Florida Collections Act. In this First Action, Plaintiffs complained that, despite the state court order, Defendant continued to seek payment on the discharged mortgage and falsely reported to credit reporting agencies that the debt was delinquent.\nDuring this First Action, Defendant corrected its misreporting of the first loan by sending an automated universal dataform (\"AUD\") to the credit reporting agencies, requesting that they update the first loan to reflect that it had a zero balance effective December 31, 2009. But Defendant continued to misreport that Plaintiffs owed money under the second loan.\n2. The Release and Settlement Agreement\nThe parties resolved the First Action, entering into a \"Release and Settlement Agreement\" on January 23, 2013. It is this settlement agreement that Plaintiffs now contend Defendant breached. In exchange for dismissal of the district court action, Defendant agreed to (1) pay Plaintiffs $125,000 and (2) \"report the Second Loan as having a zero balance as of December 9, 2009 to the same agencies and in the same fashion as it reported the First Loan, which reporting shall be done as soon as reasonably possible, but in any case within 90 days.\" The parties agreed that \"[i]n the event of a material breach hereunder, the prevailing party in any action commenced to enforce [the] Agreement shall be awarded its reasonable attorneys fees, expenses, and costs.\" The parties acknowledged that \"time is of the essence in the performance of the obligations of this Agreement.\"\n3. Post-Settlement Activity\nDespite a settlement agreement that should have resolved all outstanding issues, Plaintiffs continued to be plagued by Defendant's failure to accurately report extinguishment of the second loan. Given Defendant's intransigence, Plaintiffs were forced to file a second lawsuit to prompt Defendant to cease falsely reporting Plaintiffs' debt.\na. Defendant's Failure to Update Plaintiffs' Credit Report\nRather than correct its reporting of Plaintiffs' second loan, Defendant continued to send automated monthly reports to the credit reporting agencies with inaccurate information about the second loan. Defendant sent inaccurate reports in February, March, and April 2013. The negative reports caused Plaintiffs' credit history to show the second loan as an open account with: (1) a balance of $61,356; (2) a past due amount totaling $14,264; and (3) being late over 120 days. None of this information was correct.\nThe settlement agreement required Defendant to report to the credit reporting agencies, as soon as reasonably possible, but no later than 90 days, that Plaintiffs' second loan had a zero balance. Defendant missed this deadline. It was only after Plaintiffs complained that Defendant, on April 25, 2013-two days after the 90-day deadline-submitted an AUD to the credit reporting agencies requesting that they update the second loan to show a zero balance, effective December 29, 2009. Yet, even though it corrected the balance-due entry, Defendant incorrectly reported the second loan as having a balloon payment of $34,985, due on March 1, 2021.\nb. Plaintiffs Finance Vehicle Purchases\nOn February 23, 2013-a month after settling the First Action, and while Defendant was still falsely reporting that Plaintiffs owed it money on this second loan and were behind on their payments-Plaintiffs financed the purchase of two used vehicles. AutoNation Cadillac of West Palm Beach required Mr. Marchisio to pay $5,000.00 down and finance the $8,211.71 balance at 17.99% interest. Grieco Nissan required Mrs. Marchisio to pay $10,300.00 down and finance the $6,070.73 balance at 24.49% interest. Plaintiffs allege that, because Defendant had affirmatively misstated that Plaintiffs owed it money-and thereby had failed to correct its reporting of the second loan-Plaintiffs had to make larger down payments and pay higher interest rates on these automobile loans.\nc. Mrs. Marchisio Receives Automated Calls from Defendant\nMrs. Marchisio testified that several months later, in the fall of 2013, Defendant called her cell phone several times using an autodialing system. On one call that she answered, Defendant informed her that Plaintiffs' home would be foreclosed and that they owed a balloon balance. Call records that would have shown Defendant's outgoing calls were no longer available when requested by Plaintiffs. However, Mr. Marchisio corroborated his wife's testimony, testifying that she contemporaneously reported Defendant's calls to him.\nd. Defendant Erroneously Verifies Inaccurate Reporting of Second Loan\nChagrined at Defendant's continuing false reports that Plaintiffs owed them money, in August 2013, Plaintiffs filed a motion in the First Action to enforce the settlement agreement. The district court, however, dismissed the action, declining to exercise jurisdiction over the settlement agreement.\nAccordingly, on November 7, 2013, Plaintiffs informed the credit reporting agencies that they disputed the information reported regarding the second loan. In their dispute letters, Plaintiffs described the litigation history and the foreclosure court order relieving them of their debt obligation. Plaintiffs also explained that Defendant had agreed in the settlement of the First Action that Plaintiffs did not owe any money under the mortgages.\nPlaintiffs' dispute letters triggered a process typically followed by credit reporting agencies and furnishers of credit information to investigate disputed credit reports. The credit reporting agencies create an automated credit dispute verification form (\"ACDV\") that summarizes what the credit reporting agencies are reporting and the information the consumer is disputing. The credit reporting agencies then forward the ACDV electronically to the credit furnisher, which in this case was Defendant. The furnisher determines whether the disputed information should be verified, modified, or deleted. The furnisher then sends the completed ACDV to the credit reporting agencies providing the results of its investigation.\nDanh Nguyen, a member of Defendant's research department, investigated and processed the ACDVs generated by Plaintiffs' dispute letters the day he received them. Following standard procedure, Nguyen consulted Defendant's FISERV database to check the accuracy of Plaintiffs' credit reports. Defendant characterizes FISERV as \"a universal database that houses all relevant information regarding its borrowers' loans.\" But, for disputed reasons, the FISERV database did not have information regarding the January 2013 settlement agreement. Unaware of this latest settlement or the previous litigation history, Nguyen sent an ACDV to the credit reporting agencies verifying as accurate the report that Plaintiffs owed a balloon payment on the second loan. Consequently, Plaintiffs' November 21, 2013 credit report continued to erroneously reflect a $34,985 balloon payment, due March 2021, for the second loan. As noted above, the January 23, 2013 settlement agreement had required Defendant to report a zero balance on this second loan as soon as reasonably possible, but no later than 90 days after the date of the agreement: that is, by April 23, 2013. Defendant's issuance of this November credit report incorrectly indicating the existence of a balloon note meant that seven months after the deadline for issuing a report showing a zero balance, Defendant had still failed to do so.\ne. Defendant's Insurer Charges Plaintiffs for Insurance Coverage on Property Owned by Defendant\nDefendant's failure to update its databases to reflect settlement of the second loan had other consequences. In addition to its other systems, Defendant stored Plaintiffs' loan information in an insurance tracking software system called Co-Trak. Defendant's insurance vendor, Southwest Business Corporation (\"Southwest\"), used Co-Trak to administer property insurance for Defendant's loans.\nOn November 30, 2013, Southwest deleted Plaintiffs' first loan from Co-Trak. Although Defendant has a policy of not requiring insurance for second loans, deletion of the first loan triggered the loading of the second loan into the system. The record for the second loan indicated a balance due and expired insurance. That caused Southwest to send automated lender-placed insurance coverage letters to Plaintiffs on November 30, 2013 and December 31, 2013. Those letters bore Defendant's letterhead and were signed \"Fire Insurance Processing Center, Carrington Mortgage Services, L.L.C.\" The letters informed Plaintiffs that their loan agreement required them to keep fire insurance on the property and that insurance would be purchased and charged to Plaintiffs if Plaintiffs did not provide proof of insurance.\nShortly thereafter, on January 17, 2014, another lender-placed insurance letter entitled \"Notice of Lender Placed Fire Coverage\"-also on Defendant's letterhead and bearing the same signature as the previous insurance letters-informed Plaintiffs that insurance had been purchased for the property previously owned by Plaintiffs and that Plaintiffs' escrow account would be charged $2,659 in monthly installments. Plaintiffs also received a nearly identical \"Notice of Lender Placed Fire Coverage\" dated January 22, 2014. All of the insurance letters informed Plaintiffs that \"this communication is from a debt collector and it is for the purpose of collecting a debt.\"\nC. The Second Federal Action\nAs a result of Defendant's continuing wrongful insistence that Plaintiffs still owed it money, Plaintiffs' November 2013 effort to dispute the reporting of the balloon payment for the second loan failed. Left with little other option to obtain relief, Plaintiffs filed this second federal action against Defendant on January 8, 2014, alleging breach of the settlement agreement entered in the First Action and violations of the FCRA and the Florida Collections Act.\n1. Defendant Corrects Its Errors Shortly After Plaintiffs' Filing of this Action\nAlthough Plaintiffs' previous efforts to end their ongoing nightmare had failed, their filing of a second federal action apparently caught Defendant's attention. On January 28, 2014, shortly after Plaintiffs filed this Second Action, Defendant finally saw fit to issue an AUD requesting that the credit reporting agencies delete from Plaintiffs' credit reports any reference to a balloon-payment obligation. Defendant also cancelled the lender-placed insurance, effective January 28, 2014, and issued Plaintiffs a refund. Thus, by the end of January 2014, more than four years after settlement of the foreclosure action and prompted only by two subsequent lawsuits, Defendant finally managed to update its databases, correct its previous errors, and accurately report the status of Plaintiffs' second loan.\n2. Procedural History of this Action\nOn November 13, 2015, Plaintiffs filed an Amended Complaint, alleging: Count I, Violation of FCRA; Count II, Violation of Florida Collections Act; Count III, Breach of Contract (i.e., Breach of the Second Settlement); Count IV, Preliminary Injunctive Relief; and Count V, Permanent Injunctive Relief. The parties filed cross-motions for summary judgment in July 2016.\nDefendant filed a motion for summary judgment on all claims. Plaintiffs filed a verified Declaration in opposition to Defendant's motion for summary judgment. Plaintiffs also filed a motion for partial summary judgment on some aspects of its claims and of Defendant's defenses. As discussed below, the district court granted summary judgment for Defendant on some things and for Plaintiffs on others.\nII. STANDARD OF REVIEW\nWe review de novo the district court's rulings on the parties' cross motions for summary judgment. Owen v. I.C. Sys., Inc. , 629 F.3d 1263, 1270 (11th Cir. 2011). Summary judgment is appropriate when \"there is no genuine dispute as to any material fact\" and the moving party is entitled to judgment as a matter of law. Fed. R. Civ. P. 56(a). A genuine issue of material fact exists when \"the evidence is such that a reasonable jury could return a verdict for the nonmoving party.\" Anderson v. Liberty Lobby, Inc., 477 U.S. 242, 248, 106 S.Ct. 2505, 91 L.Ed.2d 202 (1986). The Court reviews the evidence and draws all reasonable inferences in the light most favorable to the nonmoving party. Owen , 629 F.3d at 1270.\nIII. DISCUSSION\nA. Plaintiffs' FCRA Claim (Count I)\n1. The District Court's Ruling\nConsistent with the settlement agreement of the First Action, in which Defendant agreed to correct its false reporting that a balance was due on the second loan, in April 2013 Defendant finally disseminated revised reports to indicate that Plaintiffs had a zero balance on this loan. Yet, in making this correction, Defendant introduced a new false entry into the report: the existence of a balloon payment of almost $35,000 due in 2021 on this (non-existent) second loan.\nDefendant was put on notice of this newest problem through an attempt by Plaintiffs in August 2013 to enforce the earlier settlement agreement: an attempt that was rebuffed by the district court on jurisdictional grounds. Plaintiffs then filed the dispute letter with credit reporting agencies that led to the filing of the present FCRA claim. Plaintiffs disputed the existence of a balloon loan, which communication prompted the agencies to contact Defendant for the latter to investigate and inform the agencies whether the disputed information was accurate. As set out more fully in the factual discussion, the databases available to Defendant's investigative employee continued to show that a balloon payment was due. None of them included information regarding the settlement agreement. Had they included this information, the employee would have been aware that, in its settlement of Plaintiffs' earlier claims, Defendant had agreed that Plaintiffs owed nothing on this particular loan. But unaware of the settlement, the employee incorrectly confirmed to the credit reporting agencies that Plaintiffs did have a balloon payment due in the future.\nPlaintiffs' present claim alleges that Defendant failed to conduct a reasonable investigation of the disputed entry, as required by the FCRA. The district court agreed that Defendant had failed to conduct a reasonable investigation. It further concluded that, given all the litigation concerning the question whether Plaintiffs owed anything more on the second loan, Defendant's conduct was willful, and it granted summary judgment on that element. Defendant appeals these decisions. As to damages, the court awarded statutory damages of $3,000, which Defendant does not oppose, assuming the existence of a violation. The court, however, ruled that Plaintiffs were not entitled to any damages for emotional distress or as punitive damages. Plaintiffs appeal the district court's grant of summary judgment to Defendant as to these damages.\n2. Reasonableness and Willfulness of Defendant's Conduct\nIt is obvious that Defendant failed to conduct a reasonable investigation of Plaintiffs' challenge of Defendant's report that Plaintiffs owed a balloon payment on the second loan, and we therefore affirm the district court's grant of summary judgment on this issue. The FCRA requires that credit reporting agencies and those entities that furnish information to them (\"furnishers\") investigate any disputed information. Thus, when a consumer disputes information with a credit reporting agency, the agency must \"conduct a reasonable reinvestigation to determine whether the disputed information is inaccurate.\" 15 U.S.C. \u00a7 1681i(a)(1)(A). As part of this investigation, the agency is required to notify the furnisher of the information that it has been disputed. Id. \u00a7 1681i(a)(2). Upon receipt of this notice, the furnisher of information must: (1) \"conduct an investigation with respect to the disputed information\"; (2) \"review all relevant information provided by the consumer reporting agency\" in connection with the dispute; and (3) \"report the results of the investigation to the credit reporting agency.\" Id. \u00a7 1681s-2(b)(1)(A)-(C). Should the investigation determine that the disputed information is \"inaccurate or incomplete or cannot be verified,\" the furnisher must \"as appropriate, based on the results of the reinvestigation promptly ... modify[,] ... delete [or] permanently block the reporting\" of that information to consumer reporting agencies. Id. \u00a7 1681s-2(b)(1)(E). See generally Hinkle v. Midland Credit Mgmt., Inc. , 827 F.3d 1295, 1301 (11th Cir. 2016).\n\"The 'appropriate touchstone' for evaluating a furnisher's investigation under \u00a7 1681s-2(b) is 'reasonableness.' \" Felts v. Wells Fargo Bank, N.A. , 893 F.3d 1305, 1312 (11th Cir. 2018) (quoting Hinkle , 827 F.3d at 1301-02 ). \"[W]hat constitutes a 'reasonable investigation' will vary depending on the circumstances of the case.\" Id .\"When a furnisher ends its investigation by reporting that the disputed information has been verified as accurate, the question of whether the furnisher behaved reasonably will turn on whether the furnisher acquired sufficient evidence to support the conclusion that the information was true.\" Id .\nWe agree with the district court that, as a matter of law, Defendant's investigative efforts were not reasonable. Defendant argues that the erroneous verification of a balloon payment by Nguyen, the investigative employee, constituted a mere isolated human error that was promptly corrected. This argument is unpersuasive. First, Nguyen didn't make an error: he accurately reported what he found in the databases provided by his employer. The error can be laid at the feet of Defendant, which had failed to create a reliable system for inputting information regarding the settlement of litigation that might impact the data found on the relevant databases. Aware that whatever system it had to accomplish this was unreliable and aware that incorrect information concerning Plaintiffs' loan balance was still being reported, it was incumbent on Defendant to take steps to ensure that news of the terms of the settlement agreement be communicated to those who generate reports to reporting agencies. Given Defendant's decision not to take those steps, it was quite foreseeable that any investigation of the disputed information here would yield an incorrect conclusion by the employee-investigator.\nDefendant's position is that, on an ad hoc basis, it would log into databases pertinent information concerning relevant litigation. Yet, as the district court noted, there was a large \"disconnect\" between Defendant's system for debt verification and its ad hoc handling of settlement-related changes to debt obligations. That disconnect manifested itself on multiple occasions over several years through Defendant's: (1) failure to sufficiently log the settlement of the foreclosure suit and subsequent resumption of foreclosure litigation; (2) failure to sufficiently log the dismissal of the resumed foreclosure litigation with prejudice and subsequent debt collection efforts; (3) failure to sufficiently log settlement of the first district court action and subsequent breach of the settlement agreement; and (4) failure to provide sufficient notification and access to settlement terms to its verifiers, causing the subsequent verification of erroneous credit reports despite detailed dispute letters documenting the relevant litigation history.\nIn short, Defendant failed to conduct a reasonable investigation. The above egregious facts also support the district court's conclusion that Defendant's conduct was willful. Under 15 U.S.C. \u00a7 1681n(a), any person who willfully fails to comply with any requirement imposed under this subchapter is liable to the affected consumer for actual, statutory, or punitive damages. Collins v. Experian Info. Sols., Inc. , 775 F.3d 1330, 1336 (11th Cir. 2015), on reh'g sub nom. Collins v. Equable Ascent Fin., LLC , 781 F.3d 1270 (11th Cir. 2015). The Supreme Court has held that \"reckless disregard of a requirement of FCRA would qualify as a willful violation within the meaning of \u00a7 1681n(a).\" Safeco Ins. Co. of Am. v. Burr , 551 U.S. 47, 71, 127 S.Ct. 2201, 167 L.Ed.2d 1045 (2007) ; see also Harris v. Mexican Specialty Foods, Inc., 564 F.3d 1301, 1310 (11th Cir. 2009) (\"A violation is 'willful' for the purposes of the FCRA if the defendant violates the terms of the Act with knowledge or reckless disregard for the law.\"). Recklessness means \"conduct violating an objective standard: action entailing an unjustifiably high risk of harm that is either known or so obvious that it should be known.\" Safeco , 551 U.S. at 68, 127 S.Ct. 2201 (quotations omitted).\nAssuming arguendo that Defendant's continued reporting of false information regarding Plaintiffs' debt was not intentionally done, the question then is whether Defendant acted in reckless disregard of its obligations under the FCRA, as the district court concluded. On the record before us, it clearly did so. Defendant's actions-during an exceedingly long period of time in which Plaintiffs sought to have Defendant cease its false reporting of a debt that Defendant well knew Plaintiffs did not owe-entailed \"an unjustifiably high risk of harm that is either known or so obvious that it should be known.\" Id.\nNo other conclusion can be drawn given the number of times that Defendant was put on notice of the false information being reported, yet, each time failed to take steps to insure that its records accurately reflected the absence of any debt by Plaintiffs. Defendant failed to take appropriate measures after entering into a settlement agreement with Plaintiffs in 2009 during the foreclosure action, in which Defendant agreed that Plaintiffs' prior two loans were extinguished and that Plaintiffs owed Defendant nothing, but after which Defendant continued to report that Plaintiffs had a balance due. Following the 2013 settlement of Plaintiffs' resulting federal litigation, which demanded that Defendant correct its false report, Defendant belatedly corrected the false information found in earlier reports, but then Defendant began falsely reporting that Plaintiffs had a balloon payment due on the second loan. Yet, Defendant failed to take any corrective action when Plaintiffs sought to have the federal district court enforce the settlement agreement by requiring Defendant to live up to its agreement and stop reporting that a balloon payment was due. That event alone clearly disclosed to Defendant and its counsel that Defendant was continuing to report false information concerning Plaintiffs' non-existent debt. Yet again, Defendant made no correction nor any effort to insure that the pertinent databases revealed the existence of the settlement and the fact that no debt was owed by Plaintiffs. Meaning that when Plaintiffs took the predictable next step of disputing this debt with the credit reporting agencies, the outcome of the investigation by Defendant's employee was also quite predictable: the employee would incorrectly verify the existence of a continuing debt.\nAlso obvious is that this is not a case like Llewellyn v. Allstate Home Loans, Inc. , 711 F.3d 1173, 1185 (10th Cir. 2013), and the numerous other cases cited by Defendant, where courts found no willful violation based on a single human error that was promptly corrected. None of those cases involved a pattern of conduct exposing a knowingly flawed system for documenting changes to debt obligations, much less a four-year litigation history concerning the debt at issue. That history here included multiple orders and agreements acknowledging discharge of the debt that went undocumented in the lender's debt verification system and thus unchecked, despite being specifically identified in the dispute letters being investigated and in litigation filed a few months before the inquiry. In short, no reasonable jury could find that Defendant's erroneous verification of the inaccurate credit report in November 2013 was not reckless.\n3. Emotional Distress Damages\nAlthough it found, as a matter of law, that Defendant had acted unreasonably and even recklessly in its investigation of Plaintiffs' dispute-and awarded statutory damages of $3,000-the district court granted Defendant summary judgment as to Plaintiffs' claim for emotional distress damages, finding that Plaintiffs had failed to show that Defendant's violation of the FCRA had caused Plaintiffs any emotional distress. Specifically, the district court concluded that any emotional distress suffered as a result of Defendant's actions had begun before Defendant's FCRA violation in November 2013.\nThe district court was correct in stating there must be a causal connection between the violation and the emotional harm. \"[F]ailure to produce evidence of damage resulting from a FCRA violation mandates summary judgment.\" Nagle v. Experian Info. Sols., Inc. , 297 F.3d 1305, 1307 (11th Cir. 2002) (citing Cahlin v. General Motors Acceptance Corp. , 936 F.2d 1151, 1160 (11th Cir. 1991) ).\nFor sure, Plaintiffs had already experienced substantial stress as a result of Defendant's actions taken prior to the erroneous re-verification of the non-existent debt. Mr. Marchisio stated that, following Defendant's breach of the settlement agreement in late April 2013, he \"felt flushed and shaky, nervous, [and] tense.\" He further described having arguments with his wife and experiencing anxiety and rapid heartbeats. He stated that \"[t]he increasing stress from dealing with [Defendant] made my health worse. On May 9, 2013, I was hospitalized and treated for congestive heart failure, anxiety and exacerbated hypertension caused by anxiety.\"\nYet, Plaintiffs correctly note that the district court did not evaluate whether Defendant's subsequent FCRA violation \"exacerbated again\" their emotional distress. Mr. Marchisio maintained that, after taking medication, exercising, and refraining from discussing issues with Defendant, his health had improved by early August 2013. Yet, Defendant's erroneous verification of the accuracy of Plaintiffs' credit reports in November 2013, and its subsequent initiation of lender-placed insurance on property no longer owned and for which no debt was owed, triggered additional anxiety, rapid heartbeats, and marital distress. As to the latter, Mr. Marchisio noted that because of the marital discord caused by Defendant, he and his wife no longer sleep in the same bed and their marriage is \"not the same.\" Both Plaintiffs state that \"[h]ad [Defendant] made the corrections, it would have reduced our stress and the problems with the Settlement that we were dealing with.\" In short, Plaintiffs indicate that the \"added stress\" of the erroneous verification of the balloon payment in November 2013 \"made things much worse.\"\nPlaintiffs' testimony raises genuine issues of material fact concerning emotional distress. A fact finder might well conclude that Defendant's FCRA violation caused Plaintiffs' additional emotional distress, given Plaintiffs' testimony that this new violation \"added stress\" and \"made things much worse\" and Mr. Marchisio's health improvements before Defendant's November 2013 violation. We therefore reverse the district court's grant of summary judgment to Defendant on the claim of emotional distress damages.\n4. Punitive Damages\nThe district court sua sponte denied an award of punitive damages, noting that \"[t]he finding of willfulness is not based on any intentional or purposeful misdeed by the Defendant that would support the award of punitive damages.\" Plaintiffs argue that the court is \"not entitle[d] to take the question from the jury and decide it as a matter of law.\"\nThe court's punitive damages decision presents two problems. First, Plaintiffs were not required to raise punitive damages on summary judgment and the court summarily disposed of the issue without hearing from either party. Second, 15 U.S.C. \u00a7 1681n(a)(2) provides for \"such amount of punitive damages as the court may allow\" for \"willful\" FCRA violations. And \"willful\" violations include reckless conduct. Safeco , 551 U.S. at 68, 127 S.Ct. 2201. Thus, the \"intentional or purposeful\" standard used by the district court does not comport with the Supreme Court's definition of willfulness.\nMoreover, neither the court nor Defendant cited any controlling authority for the proposition that punitive damages should only be awarded for intentional misconduct. Defendant cites Cousin v. Trans Union Corporation , 246 F.3d 359, 374 (5th Cir. 2001) for the proposition that punitive damages are inappropriate where defendant's \"system [was] not perfect\" but defendant \"never attempted to mislead [plaintiff] with respect to his consumer report or his rights.\" But Cousin , issued before Safeco , employed a stricter standard for willfulness and overturned a willfulness liability verdict. It had nothing to do with denying punitive damages despite a willfulness finding.\nTo be clear, we make no ruling here concerning whether there may be any limits on a plaintiff's ability to receive punitive damages under the FCRA where the willful conduct at issue involves only reckless, not intentional conduct. We simply reverse the sua sponte grant of summary judgment to Defendant to allow factual development of this issue at trial.\nB. Florida Collections Act Claim (Count II)\nThe Florida Collections Act regulates the activities of consumer collection agencies within Florida. LeBlanc v. Unifund CCR Partners , 601 F.3d 1185, 1190 (11th Cir. 2010). The Florida Collections Act also defines and protects an individual's right to privacy with regards to consumer collections practices in the state. Id . In particular, Florida Statute Section 559.72 provides:\nIn collecting consumer debts, no person shall:\n****\n(9) Claim, attempt, or threaten to enforce a debt when such person knows that the debt is not legitimate, or assert the existence of some other legal right when such person knows that the right does not exist.\n****\n(18) Communicate with a debtor if the person knows that the debtor is represented by an attorney with respect to such debt and has knowledge of, or can readily ascertain, such attorney's name and address ....\nFla. Stat. \u00a7 559.72.\nPlaintiffs allege that, in violation of \u00a7 559.72(9), Defendant attempted to collect a debt that Defendant knew was not legitimate when Defendant (1) placed auto-dialed calls to Plaintiffs in the fall of 2013, attempting to collect money from Plaintiffs on the non-existent debt and (2) sent letters between November 2013 and January 2014 requiring Plaintiffs to provide proof of fire insurance on property they had deeded to Defendant years before and charging Plaintiffs for lender-placed insurance on that property. Two of these letters were sent after Defendant became aware that Plaintiffs had retained counsel. Accordingly, Plaintiffs argue that in sending these two particular letters, Defendant also violated that part of the Florida statute prohibiting communication with a debtor whom one knows to be represented by an attorney: \u00a7 559.72(11).\nThe district court granted summary judgment for Defendant on each of these claims. We address each in turn.\n1. The Automated Calls\nThe district court rejected Plaintiffs' Florida Collections Act claim based on the automated calls Mrs. Marchisio received in the fall of 2013 because Plaintiffs offered \"no evidentiary confirmation\" to corroborate their own testimony that such calls had even occurred. The district court noted that telephone-call records for this time period were no longer available when sought by Plaintiffs. The court questioned the veracity of Plaintiffs' statements because \"[b]y that point both the State Foreclosure Case and the First District Court Case had been concluded\" and \"[t]he surrounding events and circumstances therefore leave unclear why the Defendant would have caused these calls to be placed-that is, if the calls in fact had been made.\" The court thus deemed the evidence insufficient to survive summary judgment.\nConstruing the evidence in the light most favorable to Plaintiffs, we find Mrs. Marchisio's testimony that she had received debt collection calls from Defendant in the fall of 2013 sufficient to create a disputed issue of fact as to whether the calls had occurred. See United States v. Stein , 881 F.3d 853, 858-59 (11th Cir. 2018) (en banc ) (\"A non-conclusory affidavit which complies with Rule 56 can create a genuine dispute concerning an issue of material fact, even if it is self-serving and/or uncorroborated.\"). Mrs. Marchisio testified that in the fall of 2013, Defendant called her several times informing her that Plaintiffs' home would be foreclosed and that they owed a balloon balance. Mr. Marchisio corroborated his wife's testimony, testifying that she contemporaneously reported the nature of Defendant's calls to him. Because we do not make credibility determinations on appeal of a summary judgment ruling, we must assume Plaintiffs' testimony to be true. Strickland v. Norfolk S. Ry. Co. , 692 F.3d 1151, 1154 (11th Cir. 2012) (\"Credibility determinations, the weighing of the evidence, and the drawing of legitimate inferences from the facts are jury functions, not those of a judge ....\") (quotation omitted).\nAs to the district court's observation that it is \"unclear why the Defendant would have caused these calls to be placed,\" the lack of clarity as to Defendant's motivation does not, on these facts, necessarily undermine Plaintiffs' testimony. Over the years, Defendant engaged in repeated conduct to collect a debt no longer owed by Plaintiffs. It is not clear why Defendant persisted in these efforts despite prior settlements and court orders. Indeed, the alleged calls came at a time when Defendant had filed a re-foreclosure for no apparent reason. Ultimately, a jury will have an opportunity to assess Plaintiffs' credibility in order to determine whether Defendant made the automated calls at issue.\n2. Lender-Placed Insurance Letters\na. District Court's Ruling Applying Bona Fide Error Defense\nAs to the claims relating to the insurance-billing letters sent to Plaintiffs, the district court granted summary judgment to Defendant, concluding that Defendant was protected by the bona fide error defense. As set out in the background section of this opinion, the failure of Defendant to update its databases and to make sure the appropriate people within the company were informed of its settlement agreement with Plaintiffs had consequences beyond the misreporting of a nonexistent debt to credit reporting agencies. The erroneous retention, as a pending debt, of Plaintiffs' second loan in Defendant's databases caused the insurance tracking software system used by Defendant's insurance vendor, Southwest, to purchase and bill Plaintiffs for fire insurance for property they no longer owned, based on a debt they no longer owed.\nIn analyzing Defendant's potential liability under \u00a7 559.72(9), the district court assumed that \"the 'debt,' whether it be the underlying Second Loan, the need for hazard insurance, or the bill for the 'forced place' insurance, was not legitimate and that the Defendant knew or should have known that it was not legitimate.\" The court further assumed that Defendant could be held liable for Southwest's actions as its agent. Ultimately, however, the court concluded that Defendant was entitled to the Florida Collections Act's bona fide error defense, for two principal reasons: (1) the insurance letter error occurred \"in the context of corrective action\" (that is, Defendant's attempt to correct its database in November 2013, which triggered the sending of the letters by Southwest) and (2) Defendant responded promptly to the issue after it first learned of the problem when Plaintiffs filed suit in January 2014.\nOur review of the district court's decision granting summary judgment to Defendant on this claim therefore focuses on whether Defendant established a bona fide error defense, as a matter of law, when the evidence is viewed in the light most favorable to Plaintiffs or whether, as Plaintiffs argue, there is a disputed issue of fact on this point.\nb. Bona Fide Error Defense-Generally\nFlorida law provides for a bona fide error defense to civil actions alleging violations of the Florida Collections Act:\nA person may not be held liable in any action brought under this section if the person shows by a preponderance of the evidence that the violation was not intentional and resulted from a bona fide error, notwithstanding the maintenance of procedures reasonably adapted to avoid such error.\nFla. Stat. \u00a7 559.77(3). \"In applying and construing this section, due consideration and great weight shall be given to the interpretations of the Federal Trade Commission and the federal courts relating to the federal Fair Debt Collection Practices Act [\"FDCPA\"].\" Id. \u00a7 559.77(5) ; Gann v. BAC Home Loans Servicing LP , 145 So.3d 906, 908 (Fla. 2d Dist. Ct. App. 2014).\nAs we held in a FDCPA case, \"[a] debt collector asserting the bona fide error defense must show by a preponderance of the evidence that its violation of the Act: (1) was not intentional; (2) was a bona fide error; and (3) occurred despite the maintenance of procedures reasonably adapted to avoid any such error.\" Edwards v. Niagara Credit Sols., Inc. , 584 F.3d 1350, 1352-53 (11th Cir. 2009) (discussing 15 U.S.C. \u00a7 1692k(c) ).\nFocusing their challenge on the second and third prongs of the above standard, Plaintiffs emphasize the faulty procedures employed by Defendant for tracking loan settlement terms. Defendant counters that the true cause of Southwest sending the erroneous letters was Southwest's failure to follow Defendant's stated policy of not tracking insurance for loans that are second liens.\nc. Whether Defendant's Sending of the Lender-Placed Insurance Letters Constituted a Bona Fide Error\n\"As used in the [FDCPA] 'bona fide' means that the error resulting in a violation was made in good faith; a genuine mistake, as opposed to a contrived mistake.\" Id. at 1352-53 (quotations omitted). \"To be considered a bona fide error, the debt collector's mistake must be objectively reasonable.\" Id .\nGiven our conclusion below concerning Defendant's policies and procedures, we will assume that Defendant's mistake in sending out the lender-places insurance letters was a bona fide error, as set out in the second prong of the test. Defendant had a policy that insurance not be tracked for second loans. Nevertheless, deletion of the first loan from the Co-Trak system caused the insurance letters to automatically be mailed to Plaintiffs. This error occurred despite Defendant's policy that insurance not be tracked for second loans, which the district court inferred to mean that the mailing of the insurance letters was a genuine, not a contrived mistake. Viewed objectively, we will assume that the automatic issuance of lender-placed insurance letters following the deletion of the first loan from the Co-Trak database constitutes a genuine mistake, as opposed to a contrived error.\nPlaintiffs focus on Defendant's lack of procedures to disseminate loan settlement terms, which failure Plaintiffs say caused the Co-Trak database to contain faulty information regarding the status of Plaintiffs' second loan. We understand Plaintiffs' point, but this contention is best considered in connection with the third prong of the test: the requirement that Defendant maintained procedures reasonably adapted to avoid the error. See Johnson v. Riddle , 443 F.3d 723, 729 (10th Cir. 2006) (\"the bona fide prong and the procedures prong will often merge\"). We turn to that question now.\nd. Genuine Issues of Fact Exist Regarding Whether Defendant Maintained Procedures Reasonably Adapted to Avoid the Violation\nAs we have stated, \"the procedures component of the bona fide error defense involves a two-step inquiry.\" Owen , 629 F.3d at 1273-74 (citing Johnson , 443 F.3d at 729 ). \"The first step is whether the debt collector 'maintained'-i.e. , actually employed or implemented-procedures to avoid errors.\" Id . (quotations omitted). The second step is \"whether the procedures were 'reasonably adapted' to avoid the specific error at issue.\" Id. This is a \"fact-intensive inquiry\" analyzed \"on a case-by-case basis.\" Id .\nDefendant defines the issue narrowly, urging us to consider only whether it had policies and procedures that reasonably precluded issuance of the lender-placed insurance letters to Plaintiffs based on their second loan. Defendant asserts that the facts demonstrate that Southwest should not have mailed those letters because it was a second lien which Southwest should not have been tracking under the policies and procedures in place. Thus, Defendant asserts that \"the specific error here had nothing to do with [Defendant's] general practices concerning borrowers who have had loans discharged through settlement.\"\nPlaintiffs, in turn, focus on Defendant's practices concerning recording and dissemination of settlement terms. Plaintiffs highlight four deficiencies in Defendant's system for tracking settlements as the cause for the Co-Trak database to contain erroneous information that triggered sending of the insurance letters. Plaintiffs maintain that: (1) Defendant does not store settlement agreements on the Nautilus system, the system that contains images of loan applications, mortgages, and promissory notes; (2) Defendant does not notate settlement terms on the FISERVE database; (3) despite the probability that the status of a loan will be affected by litigation, Defendant has no policy to place flags on accounts subject to litigation; (4) settlement terms are disclosed to Defendant's business departments only if Defendant's legal department determines such disclosure is proper. Moreover, Plaintiffs assert that Defendant cannot show that it has any procedures in place to make sure that the terms of the settlement are conveyed to the proper parties that need to be involved.\nAs framed by the parties, the issue turns on the second step of Owen ; that is, \"whether the procedures were 'reasonably adapted' to avoid the specific error at issue.\" Owen , 629 F.3d at 1273-74. Owen obligates us to first determine \"the specific error at issue.\" Id . Defendant frames the error as sending lender-placed insurance letters in contravention of its policy not to require insurance for second loans. Plaintiffs frame the error as failing to input settlement terms in the Co-Trak system. As Owen makes clear, however, the specific error at issue is the statutory violation alleged. In this case, the specific error is the sending of lender-placed insurance letters erroneously asserting that Plaintiffs were obligated to insure property they no longer owned.\nDefendant identifies only its policy not to insure second loans as a policy that is reasonably adapted to avoid issuance of illegitimate lender-placed insurance letters. The policy cited is an internal policy and Defendant fails to explain whether and how this policy is communicated to Southwest or Defendant's employees. Yet, although Defendant characterizes this practice as a \"policy and procedure,\" we are hard pressed to discern from this record what procedures Defendant or Southwest implemented to enforce its policy of not insuring second loans. The Supreme Court has interpreted the provision of the FDCPA requiring the debt collector to maintain \"procedures reasonably adapted to avoid any such error.\" Jerman v. Carlisle, McNellie, Rini, Kramer & Ulrich LPA , 559 U.S. 573, 587, 130 S.Ct. 1605, 176 L.Ed.2d 519 (2010). The Court noted that \"[t]he dictionary defines 'procedure' as 'a series of steps followed in a regular orderly definite way.' \" Id. (citing Webster's Third New International Dictionary 1807 (1976)). The Court concluded that \"the statutory phrase is more naturally read to apply to processes that have mechanical or other such 'regular orderly' steps to avoid mistakes-for instance, the kind of internal controls a debt collector might adopt to ensure its employees do not communicate with consumers at the wrong time of day, \u00a7 1692c(a)(1), or make false representations as to the amount of a debt, \u00a7 1692e(2).\" Id . Here, Defendant has not documented a regular and orderly process for enforcing its stated policy not to insure second loans.\nEven the policy itself appears irregular. Rather than absolute, Defendant's policy of not insuring second loans appears to apply only so long as the first loan is in place. The automated tasks performed by the Co-Trak system define at least part of Defendant's procedures regarding insurance on second loans. The record reflects that Defendant's system requires insurance on second loans when the first loan is discharged and deleted from the system and the second loan is open and showing a balance due. In effect, the second loan becomes a primary loan requiring insurance. Given that apparent practice dictated by Defendant's software, the question becomes what procedures Defendant implemented to insure that the Co-Trak systems acts on accurate information when evaluating the need for insurance. And that depends on the procedures Defendant follows to input account status and balance information in the Co-Trak system. Were those procedures reasonable? Construing all facts in Plaintiffs' favor, as we must on summary judgment, we agree with Plaintiffs that one cannot state, as a matter of law, that Defendant's procedures to guard against the dissemination of insurance-billing letters for properties secured by second loans were reasonably adapted for that purpose. Accordingly, we reverse the district court's grant of summary judgment to Defendant on its bona fide error defense to allow the trier of fact to make that determination.\ne. Disputed Issues of Fact Exist Concerning Whether Southwest Was Defendant's Agent\nBecause it granted Defendant summary judgment on its bona fide error defense, the district court did not reach the question whether Southwest was Defendant's agent for purpose of generating and disseminating to Plaintiffs the lender-placed insurance letters demanding payment of fire insurance on property that Defendant well knew Plaintiffs owed no debt. Defendant argues, however, that even if the bona fide error defense does not succeed, it should still prevail because Southwest was not its agent. Even though the district court did not reach these issues, we are empowered to affirm summary judgment on the present claim, were we to agree with Defendant, because we \"may affirm the district court's ruling on any basis the record supports.\" Fla. Wildlife Fed'n Inc. v. United States Army Corps of Engineers , 859 F.3d 1306, 1316 (11th Cir. 2017). Once again, we decline to grant Defendant summary judgment on this argument, finding factual questions that must be resolved by a finder of fact.\n(1) Actual Agency\nDefendant contends that \"although [it] retained [Southwest] as its vendor to ensure that insurance policies were paid when due, no principal-agent relationship existed concerning mailing the letters.\" \"Generally, the existence of an agency relationship is a question of fact; however, when the moving party fails to produce any supportive evidence or when the evidence presented is so unequivocal that reasonable persons could reach but one conclusion, that question of fact becomes a question of law to be determined by the court.\" Hickman v. Barclay's Int'l Realty, Inc. , 5 So.3d 804, 806 (Fla. 4th Dist. Ct. App. 2009). \"[A]n agency relationship may be express or implied from apparent authority, and the burden of proving the agency belongs to the party asserting it.\" Regions Bank v. Maroone Chevrolet, L.L.C. , 118 So.3d 251, 255 (Fla. 3d Dist. Ct. App. 2013).\n\"Essential to the existence of an actual agency relationship is (1) acknowledgment by the principal that the agent will act for him, (2) the agent's acceptance of the undertaking, and (3) control by the principal over the actions of the agent.\" Goldschmidt v. Holman , 571 So.2d 422, 424 n.5 (Fla. 1990). \"The key element in establishing actual agency is the control by the principal over the actions of the agent.\" Hickman , 5 So.3d at 806. \"And it is the right of control, not actual control or descriptive labels employed by the parties, that determines an agency relationship.\" Id .\nGiven the nature of the Insurance Administration Agreement between Defendant and Southwest, we will assume that a jury could properly determine, as Defendant contends, that Southwest is a typical service provider contracted to perform a task and that no agency relationship existed here. But the evidence is not so unequivocal that we can rule as a matter of law that no agency relationship existed. Id. at 806-07.\nConstrued in a light most favorable to Plaintiffs, the evidence shows that Defendant controlled issuance of Plaintiffs' insurance letters. Defendant consented to have Southwest act on its behalf in sending lender-placed insurance collection letters to its borrowers. The Insurance Administration Agreement provided that \"the form and content of [lender-placed insurance] notices shall have been previously reviewed and approved by [Defendant].\" As reviewed and approved by Defendant, the lender-placed insurance letters in this case were sent on Defendant's letterhead and were signed \"Fire Insurance Processing Center, Carrington Mortgage Services, L.L.C.\" The Insurance Administration Agreement also established Defendant's authority to obtain and review periodic reports on Southwest's activities.\nHighlighting Defendant's control as established in the Insurance Administration Agreement, the evidence reflects, as the district court found, \"[Southwest's] dependence on the Defendant both for accurate data and for instructions to take corrective action.\" The court further noted that \"[Southwest] did not feel it could take corrective action until January 29, 2014 when the Defendant expressly and specifically instructed it to stop.\" The facts presented on summary judgment support the district court's observations. Under these circumstances, where Southwest depended on Defendant for accurate loan information and Defendant exercised power to intervene in Southwest's administration of Plaintiffs' insurance, a jury could reasonably find that Southwest acted as Defendant's agent in sending the lender-placed insurance letters to Plaintiffs.\n(2) Apparent Agency\nConstrued in a light most favorable to Plaintiffs, sufficient evidence of apparent agency also exists to preclude summary judgment for Defendant. \"[A]pparent authority is a form of estoppel [which arises] from 'the authority a principal knowingly tolerates or allows an agent to assume, or which the principal by his actions or words holds the agent out as possessing.' \" Regions Bank , 118 So.3d at 255 (quoting Jackson Hewitt, Inc. v. Kaman, 100 So.3d 19, 31 (Fla. 2d Dist. Ct. App. 2011) ). Apparent agency exists only where the principal creates the appearance of authority. Id . Plaintiffs must prove three elements to establish an apparent agency: (1) a representation by the purported principal; (2) a reliance on that representation by a third party; and (3) a change in position by the third party in reliance on the representation. Mobil Oil Corp. v. Bransford , 648 So.2d 119, 121 (Fla. 1995). \"It is well settled under Florida law that, [t]he existence of an agency relationship, the nature and extent of the agent's authority, and the inclusion within the scope of that authority of a particular act are ordinarily questions to be determined by the jury or by the trier of facts in accordance with the evidence adduced in the particular case.\" Citibank, N.A. v. Data Lease Fin. Corp. , 828 F.2d 686, 691 (11th Cir. 1987) (quotations omitted).\nHere, the Insurance Agreement granted Defendant control over the content of the lender-placed insurance letters. Defendant dictated, or at least allowed, Southwest to issue those letters, not just under Defendant's letterhead, but as signed by \"Fire Insurance Processing Center, Carrington Mortgage Services, L.L.C.\" A jury could reasonably conclude that Southwest acted with apparent authority on behalf of Defendant and that Plaintiffs relied on the representations Defendant authorized Southwest to make when they dealt with Defendant. See Almerico v. RLI Ins. Co. , 716 So.2d 774, 783 (Fla. 1998) (holding under Fla. Stat. \u00a7 626.342(2) that \"civil liability may be imposed upon insurers who cloak unaffiliated insurance agents with sufficient indicia of agency to induce a reasonable person to conclude that there is an actual agency relationship\").\nIn short, contrary to Defendant's urging, we cannot conclude as a matter of law that no agency relationship existed between Defendant and Southwest. Again, this will be a decision for the finder of fact.\nf. Defendant's Alleged Lack of Actual Knowledge of a Violation\nAs a final alternative ground for affirmance, Defendant argues that it lacked actual knowledge of the lender-placed insurance letter violations. We have stated that \"[i]n contrast to the FDCPA, Section 559.72(9) of the [Florida Collections Act] requires a plaintiff to demonstrate that the debt collector defendant possessed actual knowledge that the threatened means of enforcing the debt was unavailable.\" LeBlanc , 601 F.3d at 1192 n.12. Defendant construes those cases as requiring that Plaintiffs prove that Defendant had actual knowledge that Southwest sent the lender-placed insurance letters to Plaintiffs and maintains that no such evidence exists. We disagree.\nThe statute provides that:\nIn collecting consumer debts, no person shall:\n****\n(9) Claim, attempt, or threaten to enforce a debt when such person knows that the debt is not legitimate, or assert the existence of some other legal right when such person knows that the right does not exist.\nFla. Stat. \u00a7 559.72(9). The statute merely requires that Defendant know the debt is not legitimate or the asserted legal right does not exist. The statute does not preclude a principal from being held liable for the debt-collection efforts of its agent when the principal knows that the debt is illegitimate. None of the cases cited by Defendant addresses a principal's liability for the illegitimate collection efforts of its agent.\nHere, Defendant indisputably knew at the time its alleged agent, Southwest, sent the insurance letters that Plaintiffs no longer owned the property and had no outstanding debt. And Defendant as the \"principal is bound by the acts of his agent.\" Thomkin Corp. v. Miller , 156 Fla. 388, 24 So.2d 48, 49 (1945). \"Even where an agent's act is unauthorized, the principal is liable if the agent had the apparent authority to do the act and that apparent authority was reasonably relied upon by the third party dealing with the agent.\" Benson v. Seestrom , 409 So.2d 172, 173 (Fla. 2d Dist. Ct. App. 1982).\nPlaintiffs also submitted evidence that Defendant knew each time Southwest sent a letter to Plaintiffs on its behalf because the system notated it in Defendant's FISERVE database. At any rate, Southwest's knowledge that it sent the letters may be imputed to Defendant if Plaintiffs establish a principal/agent relationship. Ruotal Corp., N. W., Inc. v. Ottati , 391 So.2d 308, 309 (Fla. 4th Dist. Ct. App. 1980) (\"It is axiomatic that knowledge of the agent constitutes knowledge of the principal as long as the agent received such knowledge while acting within the scope of his authority.\").\nAgain, the record evidence is insufficient to justify summary judgment for Defendant based on its alleged lack of actual knowledge of a Florida Collections Act violation.\nC. Plaintiffs' Breach of Contract Claim (Count III)\n1. Defendant's Breach of the Reporting Provision (\u00b6 3(b))\na. Basis for District Court's Grant of Summary Judgment to Defendant\n\"For a breach of contract claim, Florida law requires the plaintiff to plead and establish: (1) the existence of a contract; (2) a material breach of that contract; and (3) damages resulting from the breach.\" Vega v. T-Mobile USA, Inc. , 564 F.3d 1256, 1272 (11th Cir. 2009) (emphasis added). \"To constitute a vital or material breach, a defendant's non-performance must be such as to go to the essence of the contract.\" Sublime, Inc. v. Boardman's Inc. , 849 So.2d 470, 471 (Fla. 4th Dist. Ct. App. 2003).\nTo reprise the sequence of events necessary to understand Plaintiffs' breach of contract claim, in 2009, Plaintiffs and Defendant settled the foreclosure action filed by Defendant against Plaintiffs' property. The terms of the settlement required Plaintiffs to vacate the premises and convey the deed for the property to Defendant. In return, Defendant agreed to report to credit reporting agencies that the mortgage was discharged with a zero balance. Failing to live up to this agreement, however, Defendant instead reported to agencies that Plaintiffs were in default on their debt, and it continued to seek repayment on the non-existent debt.\nThe breach of this first settlement agreement is not a part of Plaintiffs' present claim. Instead that breach underlay Plaintiffs' claims in the First Action, filed in 2012. During the litigation of the First Action, Defendant actually corrected its misreporting of Plaintiffs' first loan by sending corrected automated reports to credit reporting agencies, indicating that the first loan had a zero balance. For reasons unclear, however, Defendant failed to correct reports showing that Plaintiffs' second loan likewise had a zero balance. Accordingly, in the second settlement agreement between the parties, Defendant agreed to report to agencies that likewise no money was owed on this second loan.\nAlthough Defendant eventually transmitted to credit reporting agencies the existence of a zero balance on the second loan, Plaintiffs contend in the present action that Defendant's compliance was tardy under the terms of the settlement agreement, and that therefore Defendant breached \u00b6 3(b) of the contract. Paragraph 3(b) required Defendant to:\nreport the Second Loan as having a zero balance as of December 9, 2009 to the same agencies and in the same fashion as it reported the First Loan, which reporting shall be done as soon as reasonably possible, but in any case within 90 days.\n(emphasis added).\nDefendant, however, neglected to send corrected reports to credit reporting agencies regarding this second loan until April 25, 2013, which was two days after expiration of the maximum 90-day time period set out in \u00b6 3(b). The district court concluded that Defendant had breached its settlement agreement through its tardiness, but it did not reach the question whether the breach was material because it concluded that Plaintiffs had made \"an insufficient argument for damages.\" Because damages are an essential element of a breach-of-contract claim, the district court granted summary judgment to Defendant on this claim.\nIn reaching this conclusion, however, the court addressed only Plaintiffs' claim for damages arising from the emotional distress that their ordeal with Defendant had caused them and for damages arising from the issuance of a false 1099 tax form as a result of the inaccurate information recorded by Defendant concerning the second loan. The court failed to address the damages alleged by Plaintiffs to have resulted from the higher deposits and loan interest rates that Plaintiffs were required to pay in financing the purchase of two automobiles.\nb. Damages\nWe address first the question whether Plaintiffs have alleged viable damages as a result of any breach of the settlement agreement by Defendant because, without such damages, Plaintiffs' breach-of-contract claim cannot succeed.\n(1) Emotional Distress Damages\nExamining first Plaintiffs' claim that they were entitled to pursue damages based on emotional distress caused by Defendant's breach of the settlement agreement, we agree with the district court that these damages are not available for a breach of contract claim under Florida law. Defendant cites Florida caselaw in support of its argument that such damages are unavailable. Specifically, it notes that the Florida Supreme Court \"is committed to the rule ... that there can be no recovery for mental pain and anguish unconnected with physical injury in an action arising out of the negligent breach of a contract whereby simple negligence is involved.\" Kirksey v. Jernigan , 45 So.2d 188, 189 (Fla. 1950). Further, as a general rule, damages for mental distress caused by a breach of contract are not allowed under Florida law unless the breach amounts to an independent, willful tort. Gellert v. E. Air Lines, Inc. , 370 So.2d 802, 805 (Fla. 3d Dist. Ct. App. 1979). Indeed, \"where the gravamen of the proceeding is breach of contract, even if such breach be willful and flagrant, there can be no recovery for mental pain and anguish resulting from such breach.\" Floyd v. Video Barn, Inc., 538 So.2d 1322, 1325 (Fla. 1st Dist. Ct. App. 1989) (quotations omitted) (affirming no damages for mental and emotional suffering available for breach of contract where videographer failed to record a wedding).\nPlaintiffs have not alleged, much less established, a willful tort independent of the contract arising from Defendant's breach of the settlement agreement. Significantly, Plaintiffs cite no Florida authority in support of their argument that they can properly seek emotional distress damages based on Defendant's breach of the settlement agreement. Instead, Plaintiffs rely on two non-Florida cases that are inapt for purposes of this issue.\nPlaintiffs also argue that \"[s]ince emotional distress damages are recoverable for FCRA, FDCPA, and [Florida Collections Act] violations, it cannot reasonably be denied that emotional distress is a foreseeable consequence of the breach of a contract specifically intended to resolve prior violations of those same statutes .\" (emphasis in original). We find this argument unpersuasive. That Plaintiffs might have another vehicle for pursuing emotional distress damages based on a particular act by Defendant does not mean that we are empowered to ignore controlling Florida law that precludes those damages for this particular cause of action.\nNevertheless, Plaintiffs contend that \"it would be contrary to public policy to allow a violator of the FCRA, the Florida Collections Act, and the FDCPA-who would otherwise be liable for emotional distress damages-to avoid those damages simply by entering into a settlement agreement with which it fails to comply.\" This argument ignores the fact that, through the settlement agreement reached to resolve the First Action, Defendant compensated Plaintiffs $125,000 for its past violations of the FCRA, FDCPA, and Florida Collections Act: a negotiated figure that presumably included compensation for any emotional distress suffered. As to any additional emotional distress that Plaintiffs may have suffered as a result of Defendant's post-settlement violations of the FCRA and the Florida Collections Act, Plaintiffs have sought damages for that distress in the present action and will be able to pursue those damages at trial.\n(2) Damages Based on Increased Financing Costs in Connection with Purchase of Automobiles\nWhile we agree with the district court that emotional distress damages are not cognizable as to the breach of contract claim, there was another item of damages for this claim that the district court overlooked. Specifically, Plaintiffs allege that Defendant's failure to timely correct its erroneous reports indicating the existence of a continuing debt on the second loan, as the settlement agreement required it to do, caused Plaintiffs to suffer from adverse financing terms when purchasing two vehicles subsequent to the agreement. Plaintiffs submitted declarations and financing documents showing that each obtained car loans on February 23, 2013, with interest rates of 17.99% and 24.49% and a larger down payment than would otherwise be required absent the false information in the credit reports issued by Defendant.\nThis evidence, viewed in the light most favorable to Plaintiffs, raises a triable issue of damages so long as Plaintiffs can establish a triable issue as to whether the agreement required Defendant to issue its correction prior to the date that Plaintiffs financed their newly-purchased cars: February 23, 2013. We turn to that question next.\nc. Whether Defendant's Failure to Correct Its Records Prior to February 23, 2013 Constituted A Breach of \u00b6 3(b) of the Settlement Agreement\nAs noted, \u00b6 3(b) of the January 23, 2013 settlement agreement required Defendant to \"report the Second Loan as having a zero balance ... as soon as reasonably possible, but in any case within 90 days.\" That Defendant did not correct its reporting of the second loan until April 25, 2013, two days after the maximum time allotted by \u00b6 3(b), is undisputed. Thus, Defendant breached the requirement that it correct its reports to credit agencies concerning the absence of any debt by Plaintiffs to Defendant no later than 90 days following the settlement agreement.\nThat breach, however, does not help Plaintiffs in their efforts to prove damages related to the financing terms of their newly-purchased automobiles because this financing occurred on February 23, 2013, which was before the 90-day April 23 deadline. Defendant argues that the timing of Plaintiffs' automobile financing purchase ends any contention that its breach harmed Plaintiffs because Defendant had carte blanche to wait until the 90th day to issue its corrections, and the fact that it missed that deadline by two days caused Plaintiffs no harm in connection with their earlier February financing of the automobiles.\nDefendant is dead wrong in its insistence that it had no obligation to correct the erroneous reports before expiration of the 90-day period. Rather, the agreement clearly states that the corrected reporting shall be done \"as soon as reasonably possible.\" The 90-day provision means only that the correction had to be issued by that deadline, no matter what arguments Defendant might later make as to how long it reasonably took to issue the corrected report. It did not exempt Defendant from a duty to report, \"as soon as reasonably possible,\" the correct information \"to the same agencies and in the same fashion as it reported the First Loan.\" Moreover, the agreement also reflected the parties' acknowledgement that \"time is of the essence in the performance of the obligations of this Agreement.\"\nIndeed, it seems quite unlikely that Defendant reported \"as soon as reasonably possible\" the correct information inasmuch as it sent automated reports on February 11, March 11, and April 10, 2013 that repeated the same incorrect information about Plaintiffs' debt. How much time would it reasonably have taken to correct the entries on these automated monthly reports? One can reasonably assume that by the March and April reports, Defendant could surely have gotten its act together. But for our purposes here, the question is whether it was reasonably possible for Defendant to have issued a corrected report by the time that Plaintiffs financed their automobiles, on February 23. The financing occurred a month after the settlement agreement. If it was reasonably possible to have issued a corrected report by February 23, Defendant breached \u00b6 3(b) by failing to do so, and Plaintiffs will have stated a viable claim for damages as a result of that breach.\nThe district court's observations certainly suggest that a month was plenty of time for Defendant to have issued a corrected report to credit reporting agencies. The court noted that Defendant's insistence on waiting until the end of the 90-day period to issue accurate reports was not \"in the spirit of the deadline\" and that \"[t]he overall record shows than when prompted, the Defendant is able to issue AUD's to the [credit reporting agencies] quickly and expeditiously.\" The latter observation appears accurate. Yet, focused as it was on the emotional distress damages, and not on the potential automobile-financing-charge damages, the district court did not draw any formal conclusion concerning whether Defendant could have issued a corrected report by February 23. Accordingly, we conclude that this question will require factual development at trial. We therefore reverse the district court's grant of summary judgment on the breach of contract claim based on Defendant's alleged breach of \u00b6 3(b)'s \"as soon as reasonably possible\" provision, and remand for proceedings consistent with the above discussion.\n2. Defendant's Alleged Breach of the Non-Disparagement Provision (\u00b6 7)\nAs explained in the preceding section, \u00b6 3(b) of the January 23, 2013 settlement agreement required Defendant to report as soon as reasonably possible to credit reporting agencies that the second loan had a zero balance. It took Defendant 92 days-until April 25-to do so (and even then Defendant added a false report that Plaintiffs had a balloon note due in 2021). During that 92-day period, Defendant continued to issue their regular, monthly automated reports-on February 11, March 11, and April 10-which reports incorrectly showed the existence of a second loan on which Plaintiffs were delinquent. Because Plaintiffs' only viable damages arise from the financing of newly-purchased automobiles on February 23, on remand the jury's resolution of the breach of contract claim under \u00b6 3(b) will turn on its determination whether it was reasonably possible for Defendant to have issued a corrected report prior to February 23.\nPlaintiffs argue that even if it were not reasonably possible for Defendant to have issued a corrected report by February 23, Defendant should still be found to have breached the settlement agreement based on \u00b6 7's non-disparagement provision, which states that \"[t]he parties agree that they will not make any statements disparaging, deprecating, or denigrating each other from the date of this Agreement forward, with respect to any or all of the matters alleged in the Litigation.\" Plaintiffs contend that because the automated monthly report issued on February 11, 2013 erroneously indicated that Plaintiffs were delinquent on a loan with a past-due balance of almost $15,000, Defendant disparaged them. Moreover, because \u00b6 7 contains no language requiring Defendant to communicate the correct information to credit reporting agencies as soon as reasonably possible, Plaintiffs argue that it does not matter whether it was reasonably possible for Defendant to disseminate a corrected report by February 11.\nThe disparagement clause is broadly-worded and includes any type of conduct or communications that might \"deprecate\" or \"denigrate\" Plaintiffs. We agree with Plaintiffs that the issuance of a report falsely indicating that Plaintiffs are behind in their payments on a loan is one type of communication that would constitute disparagement. But we disagree that we can ignore the language in the specific provision governing Defendant's duty to issue a corrected report that gives Defendant a reasonable period of time to do so. \"[I]t is a general principle of contract interpretation that a specific provision dealing with a particular subject will control over a different provision dealing only generally with that same subject.\" Kel Homes, LLC v. Burris , 933 So.2d 699, 703 (Fla. 2d Dist. Ct. App. 2006). Here, there is a specific provision that spells out the time requirement for Defendant to correct its previous inaccurate reports to credit reporting agencies. Once again, that provision requires Defendant to \"report the Second Loan as having a zero balance as of December 9, 2009 to the same agencies and in the same fashion as it reported the First Loan, which reporting shall be done as soon as reasonably possible.\"\nWere we to deprive Defendant of the brief window of time that \u00b6 3(b) allows for it to issue a corrected report, we would be essentially expunging language from the contract that the parties had agreed on. Nothing in the settlement agreement suggests the parties intended the non-disparagement provision to entirely eviscerate \u00b6 3(b)'s provision concerning the time permitted Defendant to issue a corrected report. If, for example, a scheduled, automated monthly report containing incorrect information about the second loan was due to be, and was actually, disseminated on January 24-the day after the parties had entered into the settlement agreement and with no ability by Defendant to stop its issuance-surely Plaintiffs would not argue that \u00b6 7's anti-disparagement provision deprived Defendant of the reasonable period of time to correct that was allowed by \u00b6 3(b), which was the key section of the settlement agreement and the provision that specifically governed the time period within which Defendant was required to act.\nAgain, given our own knowledge of this record, we are very doubtful that the evidence at trial will show that Defendant could not have issued a correct report prior to February 11, when the disparaging, incorrect report was issued. Or to put it another way, we are doubtful that it was not reasonably possible for Defendant to insure that the information included in its regular, monthly February 11 report was accurate and in compliance with the directives of the settlement agreement. Nevertheless, it is up to the jury to decide this question and if the jury concludes that it was reasonably possible for Defendant to have issued a correct report by February 11, the date on which it disparaged Plaintiffs, then Plaintiffs will have presumably established a breach of contract based on both the disparagement and the duty-to-correct-report provisions of the settlement agreement. If the jury concludes only that it was reasonably possible for Defendant to have issued a correct report prior to the securing of financing by Plaintiffs on February 23, then Plaintiffs will have established liability as to the duty-to-correct-report claim under \u00b6 3(b).\nIn short, we reverse the district court's grant of summary judgment to Defendant on Plaintiffs' breach of contract claim and remand for proceedings consistent with the guidance set out above.\nD. Attorney's Fees\nDefendant has appealed the district court's award of attorney's fees to Plaintiffs as being too high; Plaintiffs appeal, asserting that the award was too low. We review an award of attorney's fees \"for abuse of discretion; nevertheless, that standard of review still allows us to closely scrutinize questions of law decided by the district court in reaching a fee award.\" Perez v. Wells Fargo N.A. , 774 F.3d 1329, 1342 (11th Cir. 2014) (quotation omitted). An abuse of discretion review requires us to \"affirm unless we find that the district court has made a clear error of judgment, or has applied the wrong legal standard.\" United States v. Frazier, 387 F.3d 1244, 1259 (11th Cir. 2004) (en banc ).\nBecause we have reversed in large part those portions of the district court's order granting summary judgment to Defendant and because the district court based its award of attorney's fees, in part, on the number of claims on which Plaintiffs prevailed, we remand the attorney's fees issue for further proceedings consistent with this opinion. Perez , 774 F.3d at 1342.\nThat said, based on the record it was reviewing, we see nothing in the district court's analysis and fee award that constitutes an abuse of discretion as to either party. Nevertheless, as the district court reduced Plaintiffs' request, in part, based on Plaintiffs' failure to prevail on all claims-an approach suggested by Defendant-and should Plaintiffs prevail on any additional claims on remand, we assume that the present award of $94,000 will act as a floor when the district court determines the appropriate attorney's fees for Plaintiffs.\nIV. CONCLUSION\nFor the reasons explained above, we AFFIRM in part, REVERSE in part, and REMAND for further proceedings in accordance with this opinion, as follows.\nCount I-Fair Credit Reporting Act\nWe affirm the district court's grant of summary judgment to Plaintiffs on the question of whether Defendant willfully violated this Act. But we conclude that genuine issues of material fact exist concerning Plaintiffs' claimed emotional distress damages and that punitive damages are not precluded as a matter of law, and thus we reverse the district court's grant of summary judgment to Defendant on those claimed damages. We remand for a jury trial Plaintiffs' claims for emotional distress damages and punitive damages under this statute.\nCount II-Florida Consumer Collections Practices Act\nWe reverse the district court's grant of summary judgment to Defendant on this claim. Specifically, we conclude that (1) genuine issues of material fact exist regarding whether Defendant made debt collection calls to Plaintiffs in the fall of 2013; (2) genuine issues of material fact exist regarding whether Defendant maintained procedures reasonably adapted to avoid violations of the Florida Consumer Collections Practices Act that would entitle Defendant to the bona fide error defense; and (3) genuine issues of material fact exist regarding whether Defendant's vendor, Southwest, was acting as Defendant's agent when it sent lender-placed insurance letters to Plaintiffs. We remand this claim for a jury trial.\nCount III-Breach of Contract\nWe affirm the district court's grant of summary judgment to Defendant on Plaintiffs' claim for emotional distress damages based on Defendant's breach of the parties' contract. We nevertheless reverse the district court's grant of summary judgment to Defendant on the breach-of-contract claim, concluding that a genuine issue of material fact exists as to (1) whether Defendant breached \u00b6 3(b) or \u00b6 7 of the settlement agreement and (2) whether Plaintiffs have proved damages caused by any such breach.\nAttorney's Fees\nWith respect to attorney's fees, we vacate and remand the award of attorney's fees to permit the district court to determine the appropriate fee award upon the conclusion of this litigation.\nThe district court calculated the amount of attorney's fees due Plaintiffs based, in part, on the fact that the latter had prevailed on only one claim. As this opinion has now reversed the grant of summary judgment to Defendant on two additional claims, Plaintiffs may well prevail on those claims at trial, meaning that we presume the district court's original grant of attorney's fees in the amount of $94,000 to represent a floor when the district court recalculates attorney's fees at the conclusion of this litigation.\nThe effective date should have been December 9, 2009, but this error is not at issue here.\nShortly thereafter, Defendant re-foreclosed on the property and obtained yet another judgment in state court that they held title to the property through the deed-in-lieu of foreclosure.\nDefendant's repeated assertion that willfulness requires \"intent to consciously thwart Plaintiffs' right to remove inaccuracies from their credit report\" relies on case law that predates the recklessness standard of Safeco .\nDefendant does not challenge the district court's assumption that each of these activities satisfies the threshold requirement that the act occurred in the collection of consumer debt. For purposes of this opinion, we will adopt that assumption and confine our analysis to the issues raised in the briefing.\n15 U.S.C. \u00a7 1692k(c) of the Fair Debt Collection Practices Act includes a bona fide error defense nearly identical to the Florida Collections Act: \"[a] debt collector may not be held liable in any action brought under this subchapter if the debt collector shows by a preponderance of evidence that the violation was not intentional and resulted from a bona fide error notwithstanding the maintenance of procedures reasonably adapted to avoid any such error.\"\nDefendant's \"Insurance Policy\" provides: \"Outsourced Insurance Tracking ... Responsibilities ... The Insurance Vendor is responsible for determining the acceptability of insurance policies and ensuring that approved insurance coverage remains in force on all properties for the life of all loans being serviced. The exceptions to this are condominiums and 2nd liens, which are not tracked.\"\nFor similar reasons, we conclude that Defendant is not entitled to summary judgment based on the bona fide error defense on the claim that two of its lender-placed insurance letters were sent to Plaintiffs after Defendant became aware that Plaintiffs were represented by counsel. Defendant again maintains that it has a policy against such a violation. This policy requires that \"once it is learned that an attorney represents the borrower, all contact may be made only with the attorney, unless the attorney either failed to respond within a reasonable amount of time, or consents to our direct contact with the borrower.\" But, once again, Defendant does not explain how that policy is communicated or implemented, leaving for the jury to decide whether Defendant has procedures reasonably adapted to enforce that policy.\nThe system put in place by Defendant and Southwest generated the insurance letters automatically. We reach no conclusion whether such computerized records of automated activities provide \"actual knowledge\" of what transpired to a system administrator.\nThe settlement agreement does not contain a choice of law provision, but both parties apply Florida law in briefing the contract dispute. See Fioretti v. Massachusetts Gen. Life Ins. Co. , 53 F.3d 1228, 1235 (11th Cir. 1995) (explaining the doctrine of lex loci contractus ).\nPlaintiffs do not challenge on appeal the grant of summary judgment as to that part of the claim involving issuance of the 1099 form.\nIn arguing that emotional distress damages are permitted if they were the foreseeable result of a breach of the settlement agreement, Plaintiffs cite Sheely v. MRI Radiology Network, P.A. , 505 F.3d 1173 (11th Cir. 2007). In Sheely , however, the plaintiff had sought emotional distress damages based on an intentional violation of the federal Rehabilitation Act provision prohibiting discrimination against the disabled by recipients of federal funds. Neither the facts nor the legal analysis there apply to this case, which involves a contract dispute under Florida law.\nPlaintiffs also rely on language found in McGinnis v. American Home Mortgage Servicing, Inc ., 901 F.3d 1282 (11th Cir. 2018), which addressed the question whether the amount of a jury's punitive damages award violated due process in a case where the defendant mortgage holder was found liable under Georgia law for conversion, wrongful foreclosure, interference with property rights, and intentional inflection of emotional distress. Id. at 1287. Again, neither the legal issues nor the facts of that case jibe with this case.\nAgain, we focus on the February 11 report because Plaintiffs have not established a viable claim for breach-of-contract damages arising after the disparaging March 11 and April 10 reports.",
+        "type": "majority",
+        "author": "JULIE CARNES, Circuit Judge:"
+      }
+    ],
+    "attorneys": [
+      "Donna Greenspan Solomon, Solomon Appeals, Mediation & Arbitration, Ft Lauderdale, FL, Jay Kim, Kim Vaughan Lerner, LLP, Fort Lauderdale, FL, Paul K. Kim, Shapiro & Kim LLP, Fort Lauderdale, FL, for Plaintiffs-Appellants-Cross Appellees."
+    ],
+    "corrections": "",
+    "head_matter": "Johnnie Teresa MARCHISIO, Adrian Marchisio, Plaintiffs-Appellants-Cross Appellees,\nv.\nCARRINGTON MORTGAGE SERVICES, LLC, Defendant-Appellee-Cross Appellant.\nNo. 17-10584\nUnited States Court of Appeals, Eleventh Circuit.\nMarch 25, 2019\nDonna Greenspan Solomon, Solomon Appeals, Mediation & Arbitration, Ft Lauderdale, FL, Jay Kim, Kim Vaughan Lerner, LLP, Fort Lauderdale, FL, Paul K. Kim, Shapiro & Kim LLP, Fort Lauderdale, FL, for Plaintiffs-Appellants-Cross Appellees.\nChristopher Patrick Hahn, Jennifer Ross Schlusser, Maurice Wutscher, LLP, Fort Lauderdale, FL, Seric James Fallon, Groelle & Salmon, PA, Miami, FL, Kevin Hudspeth, Law Offices of Kevin M. Hudspeth, LLC, Maineville, OH, Hector Enrique Lora, Law Office of Hector E. Lora, Miami, FL, Shannon Miller, Maurice Wutscher, LLP, Wayne, PA, Ernest P. Wagner, McGinnis Wutscher, LLP, Chicago, IL, Defendant-Appellee-Cross Appellant.\nBefore ROSENBAUM, HULL and JULIE CARNES, Circuit Judges."
+  },
+  "file_name": "1288-01",
+  "first_page_order": 1288,
+  "last_page_order": 1320
+}

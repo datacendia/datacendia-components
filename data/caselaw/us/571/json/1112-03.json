@@ -1,0 +1,68 @@
+{
+  "id": 12700160,
+  "name": "Jerry BROWN, petitioner, v. ILLINOIS DEPARTMENT OF NATURAL RESOURCES.",
+  "name_abbreviation": "Brown v. Ill. Dep't of Natural Res.",
+  "decision_date": "2013-12-16",
+  "docket_number": "No. 13\u20136860.",
+  "first_page": "1112",
+  "last_page": "1112",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 1112"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 690"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 829"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 28,
+    "char_count": 236,
+    "sha256": "fed3fb64261ecc8a391821103d689197a5d20894496a85bb5a21d9d8c9d9d2b8",
+    "simhash": "1:65af54cc638c6600",
+    "word_count": 37
+  },
+  "last_updated": "2021-08-27T20:47:23.363448+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jerry BROWN, petitioner,\nv.\nILLINOIS DEPARTMENT OF NATURAL RESOURCES."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of certiorari to the United States Court of Appeals for the Seventh Circuit denied."
+    ],
+    "corrections": "",
+    "head_matter": "Jerry BROWN, petitioner,\nv.\nILLINOIS DEPARTMENT OF NATURAL RESOURCES.\nNo. 13-6860.\nSupreme Court of the United States\nDec. 16, 2013.\nPetition for writ of certiorari to the United States Court of Appeals for the Seventh Circuit denied."
+  },
+  "file_name": "1112-03",
+  "first_page_order": 1112,
+  "last_page_order": 1112
+}

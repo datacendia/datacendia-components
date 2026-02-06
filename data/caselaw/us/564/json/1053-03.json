@@ -1,0 +1,59 @@
+{
+  "id": 5927573,
+  "name": "Aguilar v. Virginia",
+  "name_abbreviation": "Aguilar v. Virginia",
+  "decision_date": "2011-06-28",
+  "docket_number": "No. 10-6865",
+  "first_page": "1053",
+  "last_page": "1053",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1053"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 66,
+    "ocr_confidence": 0.629,
+    "sha256": "0b30d3be879e0d2cea3ce9e0984c7e8b4544b06d97e03edd1132111a00440cda",
+    "simhash": "1:e8d352e56ec8e64a",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Aguilar v. Virginia."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Va. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6865.\nAguilar v. Virginia."
+  },
+  "file_name": "1053-03",
+  "first_page_order": 1047,
+  "last_page_order": 1047
+}

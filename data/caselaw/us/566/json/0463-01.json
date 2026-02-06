@@ -1,0 +1,560 @@
+{
+  "id": 12189545,
+  "name": "WOOD v. MILYARD, WARDEN, et al.",
+  "name_abbreviation": "Wood v. Milyard",
+  "decision_date": "2012-04-24",
+  "docket_number": "No. 10-9995",
+  "first_page": "463",
+  "last_page": "477",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 463"
+    },
+    {
+      "type": "parallel",
+      "cite": "182 L. Ed. 2d 733"
+    },
+    {
+      "type": "parallel",
+      "cite": "132 S. Ct. 1826"
+    },
+    {
+      "type": "vendor",
+      "cite": "2012 U.S. LEXIS 3273"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2011-051"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "560 U. S. 631",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3641601,
+        12454867
+      ],
+      "year": 2010,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/560/0631-01",
+        "/l-ed-2d/177/0130-01"
+      ]
+    },
+    {
+      "cite": "553 F. 3d 1121",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3718619
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "1128",
+          "parenthetical": "\"The discretion to consider the statute of limitations defense sua sponte does not extend to the appellate level.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/553/1121-01"
+      ]
+    },
+    {
+      "cite": "507 U. S. 725",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6237509
+      ],
+      "weight": 2,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "733"
+        },
+        {
+          "page": "733"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/507/0725-01"
+      ]
+    },
+    {
+      "cite": "540 U. S. 443",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8897340
+      ],
+      "weight": 2,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "458, n. 13",
+          "parenthetical": "quoting United States v. Olano, 507 U. S. 725, 733 (1993)"
+        },
+        {
+          "page": "458, n. 13"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/540/0443-01"
+      ]
+    },
+    {
+      "cite": "554 U. S. 237",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3677168
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "243-244"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/554/0237-01"
+      ]
+    },
+    {
+      "cite": "221 F. 3d 117",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11243910
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "123"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/221/0117-01"
+      ]
+    },
+    {
+      "cite": "950 F. 2d 13",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10520789
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "22",
+          "parenthetical": "\"It is hornbook law that theories not raised squarely in the district court cannot be surfaced for the first time on appeal.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/950/0013-01"
+      ]
+    },
+    {
+      "cite": "422 U. S. 749",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9671
+      ],
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "764"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/422/0749-01"
+      ]
+    },
+    {
+      "cite": "383 F. 3d 1181",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9213365
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "1183"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/383/1181-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 2244",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(d)(1)(A)"
+        },
+        {
+          "page": "(d)(2)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "110 Stat. 1214",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "564 U. S. 1066",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12451296,
+        12451297,
+        5923234,
+        5930275,
+        4332740,
+        12451301,
+        12451300,
+        12451298,
+        5925928,
+        12451302,
+        5930730,
+        12451303,
+        12451299,
+        4335311,
+        5924029,
+        5929503
+      ],
+      "year": 2011,
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/180/0939-01",
+        "/l-ed-2d/180/0939-02",
+        "/us/564/1066-06",
+        "/us/564/1066-07",
+        "/us/564/1066-08",
+        "/l-ed-2d/180/0939-06",
+        "/l-ed-2d/180/0939-05",
+        "/l-ed-2d/180/0939-03",
+        "/us/564/1066-01",
+        "/l-ed-2d/180/0939-07",
+        "/us/564/1066-02",
+        "/l-ed-2d/180/0940-01",
+        "/l-ed-2d/180/0939-04",
+        "/us/564/1066-03",
+        "/us/564/1066-05",
+        "/us/564/1066-04"
+      ]
+    },
+    {
+      "cite": "403 Fed. Appx. 335",
+      "category": "reporters:federal",
+      "reporter": "Fed. Appx.",
+      "weight": 4,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "337, n. 2"
+        },
+        {
+          "page": "337, n. 2",
+          "parenthetical": "ease below"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "547 U. S. 198",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3275706
+      ],
+      "weight": 23,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "202",
+          "parenthetical": "statute of limitations defense"
+        },
+        {
+          "page": "202, 210, n. 11"
+        },
+        {
+          "page": "201"
+        },
+        {
+          "page": "217",
+          "parenthetical": "Scalia, J., dissenting"
+        },
+        {
+          "page": "201"
+        },
+        {
+          "page": "203"
+        },
+        {
+          "page": "204"
+        },
+        {
+          "page": "209"
+        },
+        {
+          "page": "205"
+        },
+        {
+          "page": "205-206"
+        },
+        {
+          "page": "210-211"
+        },
+        {
+          "page": "202"
+        },
+        {
+          "page": "211"
+        },
+        {
+          "page": "211"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/547/0198-01"
+      ]
+    },
+    {
+      "cite": "481 U. S. 129",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6211090
+      ],
+      "weight": 11,
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "134",
+          "parenthetical": "exhaustion defense"
+        },
+        {
+          "page": "134"
+        },
+        {
+          "page": "180"
+        },
+        {
+          "page": "130"
+        },
+        {
+          "page": "132"
+        },
+        {
+          "page": "133"
+        },
+        {
+          "page": "133-135"
+        },
+        {
+          "page": "132, 134"
+        },
+        {
+          "page": "136"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/481/0129-01"
+      ]
+    },
+    {
+      "cite": "538 U. S. 202",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9030584
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "208"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/538/0202-01"
+      ]
+    },
+    {
+      "cite": "545 U. S. 524",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8209485
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "529-530"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/545/0524-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 2244",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(d)(1)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "547 U. S. 198",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3275706
+      ],
+      "weight": 13,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "212-219",
+          "parenthetical": "Scalia, J., joined by Thomas and Breyer, JJ., dissenting"
+        },
+        {
+          "page": "212-213",
+          "parenthetical": "quoting Rule 5(b) (emphasis deleted)"
+        },
+        {
+          "page": "212"
+        },
+        {
+          "page": "214"
+        },
+        {
+          "page": "214"
+        },
+        {
+          "page": "214-215"
+        },
+        {
+          "page": "215-216"
+        },
+        {
+          "page": "209",
+          "parenthetical": "majority opinion"
+        },
+        {
+          "page": "218, n. 3",
+          "parenthetical": "explaining that, if \" ' \"values beyond the concerns of the parties\" ' \" justify sua sponte consideration of forfeited defenses, such values equally support sua sponte consideration of waived defenses"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/547/0198-01"
+      ]
+    },
+    {
+      "cite": "481 U. S. 129",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6211090
+      ],
+      "weight": 2,
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "133",
+          "parenthetical": "holding that appellate courts may consider a habeas petitioner's failure to exhaust state remedies despite a State's forfeiture of the defense"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/481/0129-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1091,
+    "char_count": 25805,
+    "ocr_confidence": 0.588,
+    "pagerank": {
+      "raw": 1.8793387680873835e-06,
+      "percentile": 0.994424964544265
+    },
+    "sha256": "8e73d6ec22822e48d9a5dd7277e9399e635af1c7c677f21b05c74097b0d8d565",
+    "simhash": "1:bdc86da127074669",
+    "word_count": 4213
+  },
+  "last_updated": "2024-02-27T23:45:15.365324+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Ginsburg, J., delivered the opinion of the Court, in which Roberts, C. J., and Kennedy, Breyer, Alito, Sotomayor, and Kagan, JJ., joined. Thomas, J., filed an opinion concurring in the judgment, in which Scalia, J., joined, post, p. 475."
+    ],
+    "parties": [
+      "WOOD v. MILYARD, WARDEN, et al."
+    ],
+    "opinions": [
+      {
+        "text": "Justice Ginsburg\ndelivered the opinion of the Court.\nThis case concerns the authority of a federal court to raise, on its own motion, a statute of limitations defense to a ha-beas corpus petition. After state prisoner Patrick Wood filed a federal habeas corpus petition, the State twice informed the U. S. District Court that it \u201c[would] not challenge, but [is] not conceding, the timeliness of Wood\u2019s habeas petition.\u201d App. 70a; see id., at 87a. Thereafter, the District Court rejected Wood\u2019s claims on the merits. On appeal, the Tenth Circuit directed the parties to brief the question whether Wood\u2019s federal petition was timely. Post-briefing, the Court of Appeals affirmed the denial of Wood\u2019s petition, but solely on the ground that it was untimely.\nOur precedent establishes that a court may consider a statute of limitations or other threshold bar the State failed to raise in answering a habeas petition. Granberry v. Greer, 481 U. S. 129, 134 (1987) (exhaustion defense); Day v. McDonough, 547 U. S. 198, 202 (2006) (statute of limitations defense). Does court discretion to take up timeliness hold when a State is aware of a limitations defense, and intelligently chooses not to rely on it in the court of first instance? The answer Day instructs is \u201cno\u201d: A court is not at liberty, we have cautioned, to bypass, override, or excuse a State\u2019s deliberate waiver of a limitations defense. Id., at 202, 210, n. 11. The Tenth Circuit, we accordingly hold, abused its discretion by resurrecting the limitations issue instead of reviewing the District Court\u2019s disposition on the merits of Wood\u2019s claims.\nI\nIn the course of a 1986 robbery at a pizza shop in a Colorado town, the shop\u2019s assistant manager was shot and killed. Petitioner Patrick Wood was identified as the perpetrator. At a bench trial in January 1987, Wood was convicted of murder, robbery, and menacing, and sentenced to life imprisonment. The Colorado Court of Appeals affirmed Wood\u2019s convictions and sentence on direct appeal in May 1989, and the Colorado Supreme Court denied Wood\u2019s petition for cer-tiorari five months later. Wood did not ask this Court to review his conviction in the 90 days he had to do so.\nWood then pursued posteonviction relief, asserting constitutional infirmities in his trial, conviction, and sentence. Prior to the federal petition at issue here, which was filed in 2008, Wood, proceeding pro se, twice sought relief in state court. First, in 1995, he filed a motion to vacate his conviction and sentence pursuant to Colorado Rule of Criminal Procedure 35(c) (1984). He also asked the Colorado trial court to appoint counsel to aid him in pursuit of the motion. When some months passed with no responsive action, Wood filed a request for a ruling on his motion and accompanying request for counsel. The state court then granted Wood\u2019s plea for the appointment, of counsel, but the record is completely blank on any further action regarding the 1995 motion. Second, Wood filed a new pro se motion for post-conviction relief in Colorado court in 2004. On the first page of his second motion, he indicated that \u201c[n]o other postconviction proceedings [had been] filed.\u201d Record in No. 08-cv-00247 (D Colo.), Doc. 15-5 (Exh. E), p. 1. The state court denied Wood\u2019s motion four days after receiving it.\nWood filed a federal habeas petition in 2008, which the District Court initially dismissed as untimely. App. 41a-46a. On reconsideration, the District Court vacated the dismissal and instructed the State to file a preanswer response \u201climited to addressing the affirmative defenses of timeliness . . . and/or exhaustion of state court remedies.\u201d Id., at 64a-65a. On timeliness, the State represented in its preanswer response: \u201cRespondents will not challenge, but are not conceding, the timeliness of Wood\u2019s [federal] habeas petition.\u201d Id., at 70a. Consistently, in its full answer to Wood\u2019s federal petition, the State repeated: \u201cRespondents are not challenging, but do not concede, the timeliness of the petition.\u201d Id., at 87a.\nDisposing of Wood\u2019s petition, the District Court dismissed certain claims for failure to exhaust state remedies, and denied on the merits Wood\u2019s two remaining claims \u2014 one alleging a double jeopardy violation and one challenging the validity of Wood\u2019s waiver of his Sixth Amendment right to a jury trial. Id., at 96a-111a. On appeal, the Tenth Circuit ordered the parties to brief, along with the merits of Wood\u2019s double jeopardy and Sixth Amendment claims, \u201cthe timeliness of Wood\u2019s application for [federal habeas relief].\u201d Id., at 129a. After briefing, the Court of Appeals affirmed the denial of Wood\u2019s petition without addressing the merits; instead, the Tenth Circuit held the petition time barred. 403 Fed. Appx. 335 (2010). In so ruling, the Court of Appeals concluded it had authority to raise timeliness on its own motion. Id., at 337, n. 2. It further ruled that the State had not taken that issue off the table by declining to interpose a statute of limitations defense in the District Court. Ibid.\nWe granted review, 564 U. S. 1066 (2011), to resolve two issues: first, whether a court of appeals has the authority to address the timeliness of a habeas petition on the court\u2019s own initiative; second, assuming a court of appeals has such authority, whether the State\u2019s representations to the District Court in this case nonetheless precluded the Tenth Circuit from considering the timeliness of Wood\u2019s petition.\n> \u2014 i ) \u2014 I\nA\nUnder the Antiterrorism and Effective Death Penalty Act of 1996 (AEDPA), 110 Stat. 1214, a state prisoner has one year to file a federal petition for habeas corpus relief, starting from \u201cthe date on which the judgment became final by the conclusion of direct review or the expiration of the time for seeking such review.\u201d 28 U. S. C. \u00a7 2244(d)(1)(A). For a prisoner whose judgment became final before AEDPA was enacted, the one-year limitations period runs from AEDPA\u2019s effective date: April 24,1996. See Serrano v. Williams, 383 F. 3d 1181, 1183 (CA10 2004). \u201cThe one-year clock is stopped, however, during the time the petitioner\u2019s \u2018properly filed\u2019 application for state postconviction relief \u2018is pending.\u2019 \u201d Day, 547 U. S., at 201 (quoting 28 U. S. C. \u00a7 2244(d)(2)).\nThe state judgment against Wood became final on direct review in early 1990. See supra, at 466. Wood\u2019s time for filing a federal petition therefore began to run on the date of AEDPA\u2019s enactment, April 24,1996, and expired on April 24, 1997, unless Wood had a \u201cproperly filed\u201d application for state postconvietion relief \u201cpending\u201d in Colorado state court during that period. Wood maintains he had such an application pending on April 24, 1996: the Rule 35(c) motion he filed in 1995. That motion, Wood asserts, remained pending (thus continuing to suspend the one-year clock) until at least August 2004, when he filed his second motion for postconviction relief in state court. The 2004 motion, the State does not contest, was \u201cproperly filed.\u201d Wood argues that this second motion further tolled the limitations period until February 5, 2007, exactly one year before he filed the federal petition at issue here. If Wood is correct that his 1995 motion remained \u201cpending\u201d in state court from April 1996 until August 2004, his federal petition would be timely.\nIn its preanswer response to Wood\u2019s petition, the State set forth its comprehension of the statute of limitations issue. It noted that Wood\u2019s \u201ctime for filing a [habeas] petition began to run on April 24, 1996, when the AEDPA became effective,\u201d and that Wood \u201chad until April 24,1997, plus any tolling periods, to timely file his habeas petition.\u201d App. 69a-70a. The State next identified the crucial question: Did Wood\u2019s 1995 state petition arrest the one-year statute of limitations period from 1996 until 2004? Id., at 70a. \u201c[I]t is certainly arguable,\u201d the State then asserted, \u201cthat the 1995 postconviction motion was abandoned before 1997 and thus did not toll the AEDPA statute of limitations at all.\u201d Ibid. But rather than inviting a decision on the statute of limitations question, the State informed the District Court it would \u201cnot challenge\u201d Wood\u2019s petition on timeliness grounds; instead, the State simply defended against Wood\u2019s double jeopardy and Sixth Amendment claims on the merits.\nB\n\u201cOrdinarily in civil litigation, a statutory time limitation is forfeited if not raised in a defendant\u2019s answer or in an amendment thereto.\u201d Day, 547 U. S., at 202 (citing Fed. Rules Civ. Proc. 8(c), 12(b), and 15(a)). See also Habeas Corpus Rule 5(b) (requiring the State to plead a statute of limitations defense in its answer). An affirmative defense, once forfeited, is \u201cexclu[ded] from the case,\u201d 5 C. Wright & A. Miller, Federal Practice and Procedure \u00a7 1278, pp. 644-645 (3d ed. 2004), and, as a rule, cannot be asserted on appeal. See Day, 547 U. S., at 217 (Scalia, J., dissenting); Weinberger v. Salfi, 422 U. S. 749, 764 (1975); McCoy v. Massachusetts Inst. of Technology, 950 F. 2d 13, 22 (CA1 1991) (\u201cIt is hornbook law that theories not raised squarely in the district court cannot be surfaced for the first time on appeal.\u201d).\nIn Granberry v. Greer, we recognized a modest exception to the rule that a federal court will not consider a forfeited affirmative defense. 481 U. S., at 134. The District Court in Granberry denied a-federal habeas petition on the merits. Id., at 180. On appeal, the State argued for the first time that the petition should be dismissed because the petitioner had failed to exhaust relief available in state court. Ibid. See Habeas Corpus Rule 5(b) (listing \u201cfailure to exhaust state remedies\u201d as a threshold bar to federal habeas relief). Despite the State\u2019s failure to raise the nonexhaustion argument in the District Court, the Seventh Circuit accepted the argument and ruled for the State on that ground. We granted certiorari to decide whether a court of appeals has discretion to address a nonexhaustion defense that the State failed to raise in the district court. Id., at 130.\nAlthough \u201cexpressing] our reluctance to adopt rules that allow a party to withhold raising a defense until after the \u2018main event\u2019 ... is over,\u201d id., at 132, we nonetheless concluded that the bar to court of appeals\u2019 consideration of a forfeited habeas defense is not absolute, id., at 133. The exhaustion doctrine, we noted, is founded on concerns broader than those of the parties; in particular, the doctrine fosters respectful, harmonious relations between the state and federal judiciaries. Id., at 133-135. With that comity interest in mind, we held that federal appellate courts have discretion, in \u201cexceptional cases,\u201d to consider a nonexhaustion argument \u201cinadverten[tly]\u201d overlooked by the State in the District Court. Id., at 132, 134.\nIn Day, we affirmed a federal district court\u2019s authority to consider a forfeited habeas defense when extraordinary circumstances so warrant. 547 U. S., at 201. There, the State miscalculated a timespan, specifically, the number of days running between the finality of Day\u2019s state-court conviction and the filing of his federal habeas petition. Id., at 203. As a result, the State erroneously informed the District Court that Day\u2019s petition was timely. Ibid. A Magistrate Judge caught the State\u2019s computation error and recommended that the petition be dismissed as untimely, notwithstanding the State\u2019s timeliness concession. Id., at 204. The District Court adopted the recommendation, and the Court of Appeals upheld the trial court\u2019s sua sponte dismissal of the petition as untimely. Ibid.\nConcluding that it would make \u201cscant sense\u201d to treat AEDPA\u2019s statute of limitations differently from other threshold constraints on federal habeas petitioners, we held \u201cthat district courts are permitted, but not obliged, to consider, sua sponte, the timeliness of a state prisoner\u2019s habeas petition.\u201d Id., at 209; ibid, (noting that Habeas Corpus Rule 5(b) places \u201c \u2018a statute of limitations\u2019 defense on a par with \u2018failure to exhaust state remedies, a procedural bar, [and] non-retroactivity\u2019\u201d). Affording federal courts leeway to consider a forfeited timeliness defense was appropriate, we again reasoned, because AEDPA\u2019s statute of limitations, like the exhaustion doctrine, \u201cimplicates] values beyond the concerns of the parties.\u201d Day, 547 U. S., at 205 (quoting Acosta v. Artuz, 221 F. 3d 117, 123 (CA2 2000)); 547 U. S., at 205-206 (\u201cThe AEDPA statute of limitation promotes judicial efficiency and conservation of judicial resources, safeguards the accuracy of state court judgments by requiring resolution of constitutional questions while the record is fresh, and lends finality to state court judgments within a reasonable time.\u201d (internal quotation marks omitted)).\nWe clarified, however, that a federal court does not have carte blanche to depart from the principle of party presentation basic to our adversary system. See Greenlaw v. United States, 554 U. S. 237, 243-244 (2008). Only where the State does not \u201cstrategically withh[o]ld the [limitations] defense or cho[o]se to relinquish it,\u201d and where the petitioner is accorded a fair opportunity to present his position, may a district court consider the defense on its own initiative and \u201c \u2018determine whether the interests of justice would be better served\u2019 by addressing the merits or by dismissing the petition as time barred.\u201d Day, 547 U. S., at 210-211 (quoting Granberry, 481 U. S., at 136; internal quotation marks omitted). It would be \u201can abuse of discretion,\u201d we observed, for a court \u201cto override a State\u2019s deliberate waiver of a limitations defense.\u201d 547 U. S., at 202. In Day\u2019s case itself, we emphasized, the State\u2019s concession of timeliness resulted from \u201cinadvertent error,\u201d id., at 211, not from any deliberate decision to proceed straightaway to the merits.\nConsistent with Granberry and Day, we decline to adopt an absolute rule barring a court of appeals from raising, on its own motion, a forfeited timeliness defense. The institutional interests served by AEDPA\u2019s statute of limitations are also present when a habeas case moves to the court of appeals, a point Granberry recognized with respect to a nonex-haustion defense. We accordingly hold, in response to the first question presented, see supra, at 468, that courts of appeals, like district courts, have the authority \u2014 though not the obligation \u2014 to raise a forfeited timeliness defense on their own initiative.\nC\nWe turn now to the second, case-specific, inquiry. See ibid. Although a court of appeals has discretion to address, sua sponte, the timeliness of a habeas petition, appellate courts should reserve that authority for use in exceptional cases. For good reason, appellate courts ordinarily abstain from entertaining issues that have not been raised and preserved in the court of first instance. See supra, at 470. That restraint is all the more appropriate when the appellate court itself spots an issue the parties did not air below, and therefore would not have anticipated in developing their arguments on appeal.\nDue regard for the trial court\u2019s processes and time investment is also a consideration appellate courts should not overlook. It typically takes a district court more time to decide a habeas case on the merits than it does to resolve a petition on threshold procedural grounds. See Dept, of Justice, Bureau of Justice Statistics, R. Hanson & H. Daley, Federal Habeas Corpus Review: Challenging State Court Criminal Convictions 23 (NCJ-155504, 1995) (district courts spent an average of 477 days to decide a habeas petition on the merits, and 268 days to resolve a petition on procedural grounds). When a court of appeals raises a procedural impediment to disposition on the merits, and disposes of the case on that ground, the district court\u2019s labor is discounted and the appellate court acts not as a court of review but as one of first view.\nIn light of the foregoing discussion of the relevant considerations, we hold that the Tenth Circuit abused its discretion when it dismissed Wood\u2019s petition as untimely. In the District Court, the State was well aware of the statute of limitations defense available to it and of the arguments that could be made in support of the defense. See supra, at 467. Yet the State twice informed the District Court that it \u201cwill not challenge, but [is] not conceding\u201d the timeliness of Wood\u2019s petition. Ibid. Essentially, the District Court asked the State: Will you oppose the petition on statute of limitations grounds? The State answered: Such a challenge would be supportable, but we won\u2019t make the challenge here.\n\u201c[W]aiver is the \u2018intentional relinquishment or abandonment of a known right.\u2019\u201d Kontrick v. Ryan, 540 U. S. 443, 458, n. 13 (2004) (quoting United States v. Olano, 507 U. S. 725, 733 (1993)). The State\u2019s conduct in this case fits that description. Its decision not to contest the timeliness of Wood\u2019s petition did not stem from an \u201cinadvertent error,\u201d as did the State\u2019s concession in Day. See 547 U. S., at 211. Rather, the State, after expressing its clear and accurate understanding of the timeliness issue, see supra, at 469-470, deliberately steered the District Court away from the question and toward the merits of Wood\u2019s petition. In short, the State knew it had an \u201carguable\u201d statute of limitations defense, see Ibid., yet it chose, in no uncertain terms, to refrain from interposing a timeliness \u201cchallenge\u201d to Wood\u2019s petition. The District Court therefore reached and decided the merits of the petition. The Tenth Circuit should have done so as well.\n* * *\nFor the reasons stated, the judgment of the Court of Appeals for the Tenth Circuit is reversed, and the case is remanded for further proceedings consistent with this opinion.\nIt is so ordered.\nColorado Rule of Criminal Procedure 35(c) (1984) provides, in relevant part: \u201c[E]very person convicted of a crime is entitled as a matter of right to make application for postconviction review upon the groun[d]... [t]hat the conviction was obtained or sentence imposed in violation of the Constitution or laws of the United States or the constitution or laws of this state.\u201d\nThe Tenth Circuit\u2019s conclusion that it had authority to raise an AEDPA statute of limitations defense sua sponte conflicts with the view of the Eighth Circuit. Compare 403 Fed. Appx. 335, 337, n. 2 (CA10 2010) (ease below), with Sasser v. Norris, 553 F. 3d 1121, 1128 (CA8 2009) (\u201cThe discretion to consider the statute of limitations defense sua sponte does not extend to the appellate level.\u201d).\nThe one-year clock may also be stopped- \u2014 or \u201ctolled\u201d \u2014 for equitable reasons, notably when an \u201cextraordinary circumstance\u201d prevents a prisoner from filing his federal petition on time. See Holland v. Florida, 560 U. S. 631 (2010). Wood does not contend that the equitable tolling doctrine applies to his case. App. 144a, n. 5.\nWe note here the distinction between defenses that are \u201cwaived\u201d and those that are \u201cforfeited.\u201d A waived claim or defense is one that a party has knowingly and intelligently relinquished; a forfeited plea is one that a party has merely failed to preserve. Kontrick v. Ryan, 540 U. S. 443, 458, n. 13 (2004); United States v. Olano, 507 U. S. 725, 733 (1993). That distinction is key to our decision in Wood\u2019s ease.\nAlthough our decision in Granberry v. Greer, 481 U. S. 129 (1987), did not expressly distinguish between forfeited and waived defenses, we made clear in Day v. McDonough, 547 U. S. 198 (2006), that a federal court has the authority to resurrect only forfeited defenses. See infra, at 472-473.",
+        "type": "majority",
+        "author": "Justice Ginsburg"
+      },
+      {
+        "text": "Justice Thomas,\nwith whom Justice Scalia joins, concurring in the judgment.\nIn Day v. McDonough, 547 U. S. 198 (2006), the Court held that a federal district court may raise sua sponte a forfeited statute of limitations defense to a habeas corpus petition. Relying on Day and Granberry v. Greer, 481 U. S. 129 (1987), the Court now holds that a court of appeals may do the same. Because I continue to think that Day was wrongly decided and that Granberry is inapposite, I cannot join the Court\u2019s opinion. See Day, 547 U. S., at 212-219 (Scalia, J., joined by Thomas and Breyer, JJ., dissenting).\nAs the dissent in Day explained, the Federal Rules of Civil Procedure apply in habeas corpus cases to the extent that they are consistent with the Habeas Corpus Rules, the ha-beas corpus statute, and the historical practice of habeas proceedings. Id., at 212 (citing Gonzalez v. Crosby, 545 U. S. 524, 529-530 (2005), and Woodford v. Garceau, 538 U. S. 202, 208 (2003)). As relevant here, the Rules of Civil Procedure provide that a defendant forfeits his statute of limitations defense if he fails to raise it in his answer or in an amendment thereto. 547 U. S., at 212 (citing Rules 8(c), 12(b), 15(a)). That forfeiture rule is fully consistent with habeas corpus procedure. As an initial matter, the rule comports with the Habeas Rules\u2019 instruction that a State \u201cmust\u201d plead any limitations defense in its answer. Id., at 212-213 (quoting Rule 5(b) (emphasis deleted)). Moreover, the rule does not conflict with the habeas statute, which imposes a 1-year period of limitations without any indication that typical forfeiture rules do not apply. Id., at 213 (citing 28 U. S. C. \u00a7 2244(d)(1)). Finally, the rule does not interfere with historical practice. Prior to the enactment of a habeas statute of limitations in the Antiterrorism and Effective Death Penalty Act of 1996 (AEDPA), habeas practice included no limitations period at all, much less one immune to forfeiture. 547 U. S., at 212.\nAs the dissent in Day further explained, id., at 214, AEDPA\u2019s statute of limitations is distinguishable from the equitable defenses that we have traditionally permitted federal habeas courts to raise sua sponte. See, e. g., Granberry, supra, at 133 (holding that appellate courts may consider a habeas petitioner\u2019s failure to exhaust state remedies despite a State\u2019s forfeiture of the defense). Those judicially created defenses were rooted in concerns of comity and finality that arise when federal courts collaterally review state criminal convictions. Day, 547 U. S., at 214. But those same concerns did not lead this Court to recognize any equitable time bar against habeas petitions. Id., at 214-215. Thus, nothing in this Court\u2019s pre-existing doctrine of equitable defenses supported the Day Court\u2019s \u201cdecision to beef up the presumptively forfeitable \u2018limitations period\u2019 of \u00a7 2244(d) by making it the subject of sua sponte dismissal.\u201d Id., at 215-216.\nFor these reasons, I believe that the Day Court was wrong to hold that district courts may raise sua sponte forfeited statute of limitations defenses in habeas cases. I therefore would not extend Day\u2019s, reasoning to proceedings in the courts of appeals. Appellate courts, moreover, are particularly ill suited to consider issues forfeited below. Unlike district courts, courts of appeals cannot permit a State to amend its answer to add a defense, nor can they develop the facts that are often necessary to resolve questions of timeliness. Cf. id., at 209 (majority opinion) (finding no difference between a district court\u2019s ability to raise a forfeited limitations defense sua sponte and its ability to notice the State\u2019s forfeiture and permit an amended pleading under Rule of Civil Procedure 15).\nIn light of these considerations, I cannot join the Court\u2019s holding that a court of appeals has discretion to consider sua sponte a forfeited limitations defense. Nor can I join the Court\u2019s separate holding that the Court of Appeals abused its discretion by raising a defense that had been deliberately waived by the State. As the dissent in Day noted, there is no principled reason to distinguish between forfeited and waived limitations defenses when determining whether courts may raise such defenses sua sponte. See 547 U. S., at 218, n. 3 (explaining that, if \u201c \u2018 \u201cvalues beyond the concerns of the parties\u201d \u2019 \u201d justify sua sponte consideration of forfeited defenses, such values equally support sua sponte consideration of waived defenses). Therefore, I concur only in the judgment.",
+        "type": "concurrence",
+        "author": "Justice Thomas,"
+      }
+    ],
+    "attorneys": [
+      "Kathleen A. Lord argued the cause and filed briefs for petitioner.",
+      "Daniel D. Domenico, Solicitor General of Colorado, argued the cause for respondents. With him on the brief were John W. Suthers, Attorney General, John D. Seidel and John J. Fuerst III, Senior Assistant Attorneys General, William S. Consovoy, and Thomas fi. McCarthy.",
+      "Melissa Arbus Sherry argued the cause for the United States as amicus curiae supporting affirmance. With her on the brief were Solicitor General Verrilli, Assistant Attorney General Breuer, and Deputy Solicitor General Dreeben."
+    ],
+    "corrections": "",
+    "head_matter": "WOOD v. MILYARD, WARDEN, et al.\nNo. 10-9995.\nArgued February 27, 2012\nDecided April 24, 2012\nGinsburg, J., delivered the opinion of the Court, in which Roberts, C. J., and Kennedy, Breyer, Alito, Sotomayor, and Kagan, JJ., joined. Thomas, J., filed an opinion concurring in the judgment, in which Scalia, J., joined, post, p. 475.\nKathleen A. Lord argued the cause and filed briefs for petitioner.\nDaniel D. Domenico, Solicitor General of Colorado, argued the cause for respondents. With him on the brief were John W. Suthers, Attorney General, John D. Seidel and John J. Fuerst III, Senior Assistant Attorneys General, William S. Consovoy, and Thomas fi. McCarthy.\nMelissa Arbus Sherry argued the cause for the United States as amicus curiae supporting affirmance. With her on the brief were Solicitor General Verrilli, Assistant Attorney General Breuer, and Deputy Solicitor General Dreeben.\nA brief of amici curiae urging affirmance was filed for the State of Texas et al. by Greg Abbott, Attorney General of Texas, Daniel T. Hodge, First Assistant Attorney General, Don Clemmer, Deputy Attorney General, Jonathan F. Mitchell, Solicitor General, and James P. Sullivan, Assistant Solicitor General, and by the Attorneys General for their respective jurisdictions as follows: Luther Strange of Alabama, Tom Horne of Arizona, Pamela Jo Bondi of Florida, Leonardo M. Rapadas of Guam, Lisa Madigan of Illinois, Derek Schmidt of Kansas, Steve Bullock of Montana, Jon Bruning of Nebraska, Jeffrey S. Chiesa of New Jersey, Wayne Stenehjem of North Dakota, Alan Wilson of South Carolina, Marty J. Jackley of South Dakota, Mark L. Shurtleff of Utah, Robert M. McKenna of Washington, and Gregory A. Phillips of Wyoming."
+  },
+  "file_name": "0463-01",
+  "first_page_order": 543,
+  "last_page_order": 557
+}

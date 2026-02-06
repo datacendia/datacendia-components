@@ -1,0 +1,59 @@
+{
+  "id": 5951244,
+  "name": "Smith v. Friedman et al.",
+  "name_abbreviation": "Smith v. Friedman",
+  "decision_date": "2011-04-04",
+  "docket_number": "No. 10-973",
+  "first_page": "918",
+  "last_page": "918",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 918"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 73,
+    "ocr_confidence": 0.52,
+    "sha256": "32283b32353255bc95c6416ce48815865354a5c91d79d5342e9dca4bf5e17708",
+    "simhash": "1:4415501a10059215",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Smith v. Friedman et al."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Sp. App. Md. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-973.\nSmith v. Friedman et al."
+  },
+  "file_name": "0918-02",
+  "first_page_order": 944,
+  "last_page_order": 944
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12409726,
+  "name": "Nunnery v. Nevada",
+  "name_abbreviation": "Nunnery v. Nevada",
+  "decision_date": "2012-06-18",
+  "docket_number": "No. 11-9433",
+  "first_page": "919",
+  "last_page": "919",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 919"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 65,
+    "ocr_confidence": 0.721,
+    "sha256": "c60c019b85f9dd14e06b39c750992c6722fcdb3920e25a8707175e14a2365900",
+    "simhash": "1:0afc85272cafbbdf",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Nunnery v. Nevada."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Nev. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9433.\nNunnery v. Nevada."
+  },
+  "file_name": "0919-01",
+  "first_page_order": 823,
+  "last_page_order": 823
+}

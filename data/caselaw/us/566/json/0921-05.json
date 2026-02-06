@@ -1,0 +1,59 @@
+{
+  "id": 12199910,
+  "name": "Washington v. United States",
+  "name_abbreviation": "Washington v. United States",
+  "decision_date": "2012-04-02",
+  "docket_number": "No. 10-10630",
+  "first_page": "921",
+  "last_page": "921",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 921"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.606,
+    "sha256": "bfdf10ddb9017fa52923f25522257b239e6d31b4e0de1ce0566a6cff28f2eebb",
+    "simhash": "1:95acc3038b089d7e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Washington v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10630.\nWashington v. United States."
+  },
+  "file_name": "0921-05",
+  "first_page_order": 797,
+  "last_page_order": 797
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12231514,
+  "name": "Amr v. Moore et al.",
+  "name_abbreviation": "Amr v. Moore",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. 11-6465",
+  "first_page": "989",
+  "last_page": "989",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 989"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 67,
+    "ocr_confidence": 0.609,
+    "sha256": "49ff20a8537f7f2163abbcee2030e866445bd8e1cd97d21494cf3d0dd5dba904",
+    "simhash": "1:b2c030f9530cd061",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Amr v. Moore et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6465.\nAmr v. Moore et al."
+  },
+  "file_name": "0989-11",
+  "first_page_order": 1071,
+  "last_page_order": 1071
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12220500,
+  "name": "Cox v. Tucker, Secretary, Florida Department of Corrections, et al.",
+  "name_abbreviation": "Cox v. Tucker",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5424",
+  "first_page": "906",
+  "last_page": "906",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 906"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 18,
+    "char_count": 116,
+    "ocr_confidence": 0.591,
+    "sha256": "b32c6c5a6a3a5ed0e958e051f8a401c4f59a720cc0b3b9992d38617cd1d1b3a6",
+    "simhash": "1:1d796ceac3cf9071",
+    "word_count": 18
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cox v. Tucker, Secretary, Florida Department of Corrections, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5424.\nCox v. Tucker, Secretary, Florida Department of Corrections, et al."
+  },
+  "file_name": "0906-11",
+  "first_page_order": 988,
+  "last_page_order": 988
+}

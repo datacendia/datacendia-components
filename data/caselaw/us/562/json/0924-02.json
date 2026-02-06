@@ -1,0 +1,59 @@
+{
+  "id": 5910048,
+  "name": "Sanders v. United States",
+  "name_abbreviation": "Sanders v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5475",
+  "first_page": "924",
+  "last_page": "924",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 924"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.59,
+    "sha256": "1d1742f92c9131b1f5a56a87d1a359cf02e19a6cd04c997c25596586845a42ec",
+    "simhash": "1:679bde536fb1973c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sanders v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5475.\nSanders v. United States."
+  },
+  "file_name": "0924-02",
+  "first_page_order": 946,
+  "last_page_order": 946
+}

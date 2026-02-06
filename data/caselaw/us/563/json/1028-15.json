@@ -1,0 +1,61 @@
+{
+  "id": 5937831,
+  "name": "Black et al. v. United States",
+  "name_abbreviation": "Black v. United States",
+  "decision_date": "2011-05-31",
+  "docket_number": "No. 10-1038",
+  "first_page": "1028",
+  "last_page": "1028",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1028"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 26,
+    "char_count": 156,
+    "ocr_confidence": 0.512,
+    "sha256": "720b370a0b6e60b594945b1a3d2031c3c14435ae4bb62f4dad410083fa573636",
+    "simhash": "1:8962fa8223869808",
+    "word_count": 27
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Black et al. v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1038.\nBlack et al. v. United States."
+  },
+  "file_name": "1028-15",
+  "first_page_order": 1054,
+  "last_page_order": 1054
+}

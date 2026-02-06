@@ -1,0 +1,996 @@
+{
+  "id": 3893143,
+  "name": "JOHN McDONALD et al., Plaintiffs and Appellants, v. ANTELOPE VALLEY COMMUNITY COLLEGE DISTRICT, Defendant and Respondent",
+  "name_abbreviation": "McDonald v. Antelope Valley Community College District",
+  "decision_date": "2008-10-27",
+  "docket_number": "No. S153964",
+  "first_page": "88",
+  "last_page": "115",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "45 Cal. 4th 88"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal.",
+    "id": 9021,
+    "name": "Supreme Court of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "715 F.2d 971",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1882396
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/715/0971-01"
+      ]
+    },
+    {
+      "cite": "193 Cal.Rptr. 755",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "145 Cal.App.3d 826",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2101446
+      ],
+      "pin_cites": [
+        {
+          "page": "832-833"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/145/0826-01"
+      ]
+    },
+    {
+      "cite": "84 Cal.Rptr.2d 658",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "72 Cal.App.4th 84",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        872706
+      ],
+      "pin_cites": [
+        {
+          "page": "92-93"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/72/0084-01"
+      ]
+    },
+    {
+      "cite": "77 U.S. 218",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3436190
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "222-223"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/77/0218-01"
+      ]
+    },
+    {
+      "cite": "71 Cal.Rptr.3d 556",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "159 Cal.App.4th 449",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3850539
+      ],
+      "pin_cites": [
+        {
+          "page": "461"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/159/0449-01"
+      ]
+    },
+    {
+      "cite": "651 P.2d 321",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "186 Cal.Rptr. 77",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "32 Cal.3d 468",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1950688
+      ],
+      "pin_cites": [
+        {
+          "page": "479-480"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/32/0468-01"
+      ]
+    },
+    {
+      "cite": "126 P.3d 1040",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1982,
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 Cal.Rptr.3d 220",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1982,
+      "opinion_index": 0
+    },
+    {
+      "cite": "37 Cal.4th 921",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3771812
+      ],
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "944"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/37/0921-01"
+      ]
+    },
+    {
+      "cite": "5 P.3d 874",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "99 Cal.Rptr.2d 316",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "24 Cal.4th 61",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1180109
+      ],
+      "pin_cites": [
+        {
+          "page": "69-72"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/24/0061-01"
+      ]
+    },
+    {
+      "cite": "20 Cal.Rptr.3d 598",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "123 Cal.App.4th 1135",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        585426
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/123/1135-01"
+      ]
+    },
+    {
+      "cite": "44 Cal.Rptr.2d 305",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "37 Cal.App.4th 1318",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4910413
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/37/1318-01"
+      ]
+    },
+    {
+      "cite": "46 Cal.Rptr.2d 161",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "39 Cal.App.4th 1116",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4739111
+      ],
+      "pin_cites": [
+        {
+          "page": "1120-1122"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/39/1116-01"
+      ]
+    },
+    {
+      "cite": "823 F.2d 1322",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1736278
+      ],
+      "pin_cites": [
+        {
+          "page": "1326"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/823/1322-01"
+      ]
+    },
+    {
+      "cite": "116 P.3d 1123",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "32 Cal.Rptr.3d 436",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "36 Cal.4th 1028",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3121992
+      ],
+      "pin_cites": [
+        {
+          "page": "1057"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/36/1028-01"
+      ]
+    },
+    {
+      "cite": "75 Cal.Rptr.2d 548",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "64 Cal.App.4th 842",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        505153
+      ],
+      "pin_cites": [
+        {
+          "page": "847"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/64/0842-01"
+      ]
+    },
+    {
+      "cite": "828 P.2d 691",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1998,
+      "opinion_index": 0
+    },
+    {
+      "cite": "7 Cal.Rptr.2d 550",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1998,
+      "opinion_index": 0
+    },
+    {
+      "cite": "2 Cal.4th 606",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        2005401
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "618"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/2/0606-01"
+      ]
+    },
+    {
+      "cite": "926 P.2d 1114",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "59 Cal.Rptr.2d 20",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "14 Cal.4th 479",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        341423
+      ],
+      "pin_cites": [
+        {
+          "page": "492"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/14/0479-01"
+      ]
+    },
+    {
+      "cite": "801 P.2d 373",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "276 Cal.Rptr. 130",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "52 Cal.3d 65",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2375874
+      ],
+      "pin_cites": [
+        {
+          "page": "72-73"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/52/0065-01"
+      ]
+    },
+    {
+      "cite": "167 P.3d 666",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "66 Cal.Rptr.3d 52",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 Cal.4th 503",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3673066
+      ],
+      "pin_cites": [
+        {
+          "page": "509-511"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/42/0503-01"
+      ]
+    },
+    {
+      "cite": "148 Cal.Rptr. 459",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "83 Cal.App.3d 956",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        1990050
+      ],
+      "pin_cites": [
+        {
+          "page": "963"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/83/0956-01"
+      ]
+    },
+    {
+      "cite": "65 Cal.Rptr.3d 903",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1978,
+      "opinion_index": 0
+    },
+    {
+      "cite": "155 Cal.App.4th 397",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3651912
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "407-409"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/155/0397-01"
+      ]
+    },
+    {
+      "cite": "29 U.S.C. \u00a7 201",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "611 P.2d 441",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "165 Cal.Rptr. 100",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "27 Cal.3d 99",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2261805
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "107-109"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/27/0099-01"
+      ]
+    },
+    {
+      "cite": "798 P.2d 1230",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1980,
+      "opinion_index": 0
+    },
+    {
+      "cite": "274 Cal.Rptr. 387",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1980,
+      "opinion_index": 0
+    },
+    {
+      "cite": "51 Cal.3d 674",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4457468
+      ],
+      "weight": 2,
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "690-691"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/51/0674-01"
+      ]
+    },
+    {
+      "cite": "68 Cal.Rptr.2d 590",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "58 Cal.App.4th 1093",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        78172
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "1100"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/58/1093-01"
+      ]
+    },
+    {
+      "cite": "509 P.2d 689",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "107 Cal.Rptr. 777",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "9 Cal.3d 482",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2297512
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/9/0482-01"
+      ]
+    },
+    {
+      "cite": "29 P.3d 175",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "111 Cal.Rptr.2d 87",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "26 Cal.4th 798",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        456865
+      ],
+      "pin_cites": [
+        {
+          "page": "820-821"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/26/0798-01"
+      ]
+    },
+    {
+      "cite": "79 P.3d 569",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2001,
+      "opinion_index": 0
+    },
+    {
+      "cite": "6 Cal.Rptr.3d 457",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2001,
+      "opinion_index": 0
+    },
+    {
+      "cite": "31 Cal.4th 1074",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        18298
+      ],
+      "weight": 2,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "1091"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/31/1074-01"
+      ]
+    },
+    {
+      "cite": "113 Cal.Rptr. 664",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 Cal.App.3d 958",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4468602
+      ],
+      "pin_cites": [
+        {
+          "page": "965"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/38/0958-01"
+      ]
+    },
+    {
+      "cite": "191 Cal.Rptr. 681",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "142 Cal.App.3d 917",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2108000
+      ],
+      "pin_cites": [
+        {
+          "page": "923"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/142/0917-01"
+      ]
+    },
+    {
+      "cite": "86 Cal.Rptr. 198",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "6 Cal.App.3d 626",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4384351
+      ],
+      "pin_cites": [
+        {
+          "page": "634"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/6/0626-01"
+      ]
+    },
+    {
+      "cite": "154 P.2d 399",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 Cal.2d 399",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2231228
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "410"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/25/0399-01"
+      ]
+    },
+    {
+      "cite": "578 P.2d 941",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "146 Cal.Rptr. 224",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 Cal.3d 313",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2284103
+      ],
+      "weight": 6,
+      "pin_cites": [
+        {
+          "page": "318-319"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/21/0313-01"
+      ]
+    },
+    {
+      "cite": "73 P.3d 517",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "2 Cal.Rptr.3d 655",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "31 Cal.4th 363",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        18115
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "370"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/31/0363-01"
+      ]
+    },
+    {
+      "cite": "262 Cal.Rptr. 716",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "214 Cal.App.3d 1",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        6035766
+      ],
+      "pin_cites": [
+        {
+          "page": "38"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/214/0001-01"
+      ]
+    },
+    {
+      "cite": "134 Cal.Rptr.2d 273",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "108 Cal.App.4th 625",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        282428
+      ],
+      "pin_cites": [
+        {
+          "page": "650"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/108/0625-01"
+      ]
+    },
+    {
+      "cite": "525 P.2d 81",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 2003,
+      "opinion_index": 0
+    },
+    {
+      "cite": "115 Cal.Rptr. 641",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 2003,
+      "opinion_index": 0
+    },
+    {
+      "cite": "12 Cal.3d 410",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2315581
+      ],
+      "weight": 3,
+      "year": 2003,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/12/0410-01"
+      ]
+    },
+    {
+      "cite": "88 P.3d 517",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "12 Cal.Rptr.3d 615",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "32 Cal.4th 1138",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        801093
+      ],
+      "pin_cites": [
+        {
+          "page": "1142"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/32/1138-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1899,
+    "char_count": 55615,
+    "ocr_confidence": 0.915,
+    "pagerank": {
+      "raw": 5.798988171067662e-07,
+      "percentile": 0.9512388560105242
+    },
+    "sha256": "a8040d4a214ba387d84a9582f0f7cd6933bebbb9b3f901cc22b0a477e7571b7e",
+    "simhash": "1:baf8e939b9c54efa",
+    "word_count": 8571
+  },
+  "last_updated": "2024-02-27T22:20:01.435318+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "JOHN McDONALD et al., Plaintiffs and Appellants, v. ANTELOPE VALLEY COMMUNITY COLLEGE DISTRICT, Defendant and Respondent."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nWERDEGAR, J.\nWhen an employee voluntarily pursues an internal administrative remedy prior to filing a complaint under the California Fair Employment and Housing Act (Gov. Code, \u00a7 12900 et seq.) (FEHA), is the statute of limitations on her FEHA claim subject to equitable tolling? We conclude it is. Accordingly, we affirm the Court of Appeal, which reversed a defense summary judgment entered solely on the ground that plaintiff Sylvia Brown\u2019s FEHA claim was untimely.\nFactual and Procedural Background\nPlaintiffs John McDonald, Sylvia Brown, and Sallie Stryker filed suit against defendant Antelope Valley Community College District (the District) alleging racial harassment, racial discrimination, and retaliation. The trial court entered judgment for the District on all claims on the ground the claims were time-barred. The Court of Appeal reversed as to McDonald and Brown and affirmed as to Stryker.\nWe granted the District\u2019s petition for review, limited to a single issue pertinent only to the analysis of Brown\u2019s claims: May equitable tolling apply to the voluntary pursuit of internal administrative procedures prior to filing a FEHA claim? Accordingly, we detail the factual and procedural history principally as it relates to Brown. Because the case is before us following entry of a defense summary judgment, we \u201cview the evidence in the light most favorable to plaintiffs as the losing parties\u201d and \u201cliberally construe plaintiffs\u2019 evidentiary submissions and strictly scrutinize defendant\u2019s] own evidence, in order to resolve any evidentiary doubts or ambiguities in plaintiffs\u2019 favor.\u201d (Wiener v. Southcoast Childcare Centers, Inc. (2004) 32 Cal.4th 1138, 1142 [12 Cal.Rptr.3d 615, 88 P.3d 517].)\nAccording to plaintiffs\u2019 second amended complaint and declarations submitted to the trial court, Brown, an African-American, was hired by the District in 1998 as a library technician\u2019s assistant. She remains in that position. In October 1999, the District listed an opening for a database administrator. Under the governing collective bargaining agreement, in-house applicants who met the minimum qualifications were to be interviewed. Brown applied for the database administrator position and satisfied the position\u2019s qualifications but was not interviewed. The District refused to interview Brown because of her race and instead selected a non-African-American to fill the position. Brown filed a complaint with the federal Equal Employment Opportunity Commission (EEOC).\nIn approximately June 2000, the database administrator the District hired was asked to resign because of poor performance. Brown applied again, but the District again declined to interview her. It relented only after Brown protested; however, the January 2001 interview was a sham because it was conducted well after the other applicants for the position had already been interviewed and after a decision had already been made about the position. The District again chose a non-African-American for the position. Brown alleged the District\u2019s refusal to interview her was motivated by her race and was in retaliation for having previously complained to the EEOC.\nIn October 2001, Brown complained of discrimination in a letter to the Vice Chancellor of Human Resources at the California Community Colleges Chancellor\u2019s Office (Chancellor\u2019s Office; Chancellor). She followed up by filing a formal discrimination complaint with the Chancellor\u2019s Office in early November 2001. The Chancellor\u2019s Office forwarded her complaint to the District for it to investigate and \u201curge[d] [Brown] to work with the [District to resolve this matter.\u201d The Chancellor\u2019s Office further advised Brown the District would have until January 31, 2002, to resolve the complaint, and Brown thereafter would have a right to appeal to the local board of trustees and, in some cases, to the Chancellor\u2019s Office. Finally, the Chancellor\u2019s Office advised Brown she could file a FEHA complaint with the Department of Fair Employment and Housing (DFEH) at any time.\nThe District hired a private firm to investigate Brown\u2019s and the other plaintiffs\u2019 allegations. On or about January 30, 2002, the District received a copy of the firm\u2019s investigative report concluding plaintiffs\u2019 discrimination allegations were unsubstantiated, and the District so informed plaintiffs. On February 14, 2002, plaintiffs appealed these findings to the District\u2019s board of trustees. The board of trustees affirmed the findings. In approximately November 2002, plaintiffs appealed to the Chancellor\u2019s Office. In May 2003, after a further investigation, the Chancellor\u2019s Office concluded plaintiffs\u2019 discrimination allegations were unsubstantiated.\nWhile these internal proceedings were pending, Brown filed an administrative complaint with the DFEH on October 11, 2002, alleging both race and sex discrimination. She received a right-to-sue letter dated October 24, 2002. She filed suit in the superior court on October 24, 2003, and subsequently filed two amended complaints. The second amended complaint alleges the District violated the FEHA by engaging in racial harassment and discrimination, by retaliating against plaintiffs for their assertion of their rights, and by failing to take all reasonable steps necessary to prevent discrimination and retaliation. It alleges numerous systemic, long-standing discriminatory practices. The merits of these allegations are not before us, and we express no opinion on them.\nThe District filed motions for summary judgment or adjudication against each plaintiff, arguing both that their claims failed on the merits and that they were untimely. Thereafter, the parties stipulated the trial court should decide only the statute of limitations issue: whether plaintiffs\u2019 administrative complaints were timely filed with the DFEH within one year of the alleged unlawful acts, as required by Government Code section 12960, subdivision (d).\nWith respect to Brown, the District argued (1) the last act complained of occurred in January 2001; (2) her DFEH complaint was filed in October 2002, more than one year later; and (3) although Brown filed a discrimination complaint with the Chancellor\u2019s Office in November 2001, equitable tolling should not apply to the period during which she was pursuing that remedy. The District emphasized a November 7, 2001, letter sent to each plaintiff that provided in part: \u201c[T]he Chancellor\u2019s Office does not have primary jurisdiction over employment related cases and in order to obtain a final determination, you must file your complaint with the Department of Fair Employment and Housing .... You may file a complaint with DFEH at any[]time before or after the [Djistrict issues its report and you may do so whether or not you also submit objections to the Chancellor\u2019s Office.\u201d\nIn response, Brown argued her DFEH complaint was timely both because she had demonstrated continuing violations through and including December 2002 and because she was entitled to equitable tolling. With respect to tolling, she submitted evidence of her 2001 written complaints to the Chancellor\u2019s Office. This internal proceeding was initiated within one year of the January 2001 failure to hire her, tolled the statute of limitations beginning in October or November 2001, and was still ongoing when she filed her DFEH complaint. Accordingly, she argued, her October 2002 complaint was timely.\nThe trial court concluded that because the Chancellor\u2019s Office had advised plaintiffs they could file a complaint with the DFEH simultaneously with the Chancellor\u2019s Office internal proceedings, plaintiffs were not entitled to equitable tolling. After soliciting supplemental briefing, it further found all three plaintiffs had failed to show a continuing violation. Accordingly, the trial court granted summary judgment, holding plaintiffs\u2019 administrative FEHA complaints untimely under Government Code section 12960, subdivision (d).\nThe Court of Appeal affirmed as to Stryker but reversed as to McDonald and Brown. In reversing the judgment against Brown, the Court of Appeal held traditional equitable tolling principles may apply to extend the statute of limitations for filing a FEHA administrative complaint. It further concluded there was a triable issue of fact as to whether application of equitable tolling principles rendered Brown\u2019s October 2002 administrative complaint timely.\nWe confined our grant of review to a single issue: whether equitable tolling may apply to the pursuit of internal administrative remedies prior to filing a FEHA claim.\nDiscussion\nI. Equitable Tolling During the Voluntary Pursuit of Administrative Remedies\nA. The Doctrine of Equitable Tolling\nThe equitable tolling of statutes of limitations is a judicially created, nonstatutory doctrine. (See Elkins v. Derby (1974) 12 Cal.3d 410, 420 & fn. 9 [115 Cal.Rptr. 641, 525 P.2d 81]; Mills v. Forestex Co. (2003) 108 Cal.App.4th 625, 650 [134 Cal.Rptr.2d 273].) It is \u201cdesigned to prevent unjust and technical forfeitures of the right to a trial on the merits when the purpose of the statute of limitations\u2014timely notice to the defendant of the plaintiff\u2019s claims\u2014has been satisfied.\u201d (Appalachian Ins. Co. v. McDonnell Douglas Corp. (1989) 214 Cal.App.3d 1, 38 [262 Cal.Rptr. 716].) Where applicable, the doctrine will \u201csuspend or extend a statute of limitations as necessary to ensure fundamental practicality and fairness.\u201d (Lantzy v. Centex Homes (2003) 31 Cal.4th 363, 370 [2 Cal.Rptr.3d 655, 73 P.3d 517].)\nThough the doctrine operates independently of the language of the Code of Civil Procedure and other codified sources of statutes of limitations (Addison v. State of California (1978) 21 Cal.3d 313, 318-319 [146 Cal.Rptr. 224, 578 P.2d 941]; Mills v. Forestex Co., supra, 108 Cal.App.4th at p. 650), its legitimacy is unquestioned. We have described it as a creature of the judiciary\u2019s inherent power \u201c \u2018to formulate rules of procedure where justice demands it.\u2019 \u201d (Elkins v. Derby, supra, 12 Cal.3d at p. 420, fn. 9, quoting Bollinger v. National Fire Ins. Co. (1944) 25 Cal.2d 399, 410 [154 P.2d 399].)\nBroadly speaking, the doctrine applies \u201c \u2018[w]hen an injured person has several legal remedies and, reasonably and in good faith, pursues one.\u2019 \u201d (Elkins v. Derby, supra, 12 Cal.3d at p. 414, quoting Myers v. County of Orange (1970) 6 Cal.App.3d 626, 634 [86 Cal.Rptr. 198].) Thus, it may apply where one action stands to lessen the harm that is the subject of a potential second action; where administrative remedies must be exhausted before a second action can proceed; or where a first action, embarked upon in good faith, is found to be defective for some reason. (See Collier v. City of Pasadena (1983) 142 Cal.App.3d 917, 923 [191 Cal.Rptr. 681].)\nIts application in such circumstances serves \u201cthe need for harmony and the avoidance of chaos in the administration of justice.\u201d (Olson v. County of Sacramento (1974) 38 Cal.App.3d 958, 965 [113 Cal.Rptr. 664].) Tolling eases the pressure on parties \u201cconcurrently to seek redress in two separate forums with the attendant danger of conflicting decisions on the same issue.\u201d (Ibid.; see also Elkins v. Derby, supra, 12 Cal.3d at pp. 419-420; Collier v. City of Pasadena, supra, 142 Cal.App.3d at p. 926.) By alleviating the fear of claim forfeiture, it affords grievants the opportunity to pursue informal remedies, a process we have repeatedly encouraged. (E.g., Schifando v. City of Los Angeles (2003) 31 Cal.4th 1074, 1091 [6 Cal.Rptr.3d 457, 79 P.3d 569]; Richards v. CH2M Hill, Inc. (2001) 26 Cal.4th 798, 820-821 [111 Cal.Rptr.2d 87, 29 P.3d 175].) The tolling doctrine does so without compromising defendants\u2019 significant \u201cinterest in being promptly apprised of claims against them in order that they may gather and preserve evidence\u201d because that notice interest is satisfied by the filing of the first proceeding that gives rise to tolling. (Elkins, at pp. 417-418; see also Collier, at pp. 925-926.) Lastly, tolling benefits the court system by reducing the costs associated with a duplicative filing requirement, in many instances rendering later court proceedings either easier and cheaper to resolve or wholly unnecessary. (See Elkins, at p. 420; Collier, at p. 926.)\nB. Equitable Tolling and Administrative Remedies\nWe deal here with the strand of equitable tolling arising from pursuit of an alternate administrative remedy. Where exhaustion of an administrative remedy is mandatory prior to filing suit, equitable tolling is automatic: \u201cIt has long been settled in this and other jurisdictions that whenever the exhaustion of administrative remedies is a prerequisite to the initiation of a civil action, the running of the limitations period is tolled during the time consumed by the administrative proceeding.\u201d (Elkins v. Derby, supra, 12 Cal.3d at p. 414; cf. Code Civ. Proc., \u00a7 356 [tolling applies whenever commencement of an action is statutorily prohibited].) This rule prevents administrative exhaustion requirements from rendering illusory nonadministrative remedies contingent on exhaustion.\nThat tolling principle is not dispositive here. Recently, in Schifando v. City of Los Angeles, supra, 31 Cal.4th at page 1092, we held exhaustion of internal administrative remedies prior to filing a FEHA claim is not mandatory. Based on that holding, the District argues equitable tolling should not apply in this case.\nHowever, we also settled more than 30 years ago the further principle that equitable tolling may extend even to the voluntary pursuit of alternate remedies. In Campbell v. Graham-Armstrong (1973) 9 Cal.3d 482 [107 Cal.Rptr. 777, 509 P.2d 689], we noted that \u201c[t]he exhaustion of administrative remedies will suspend the statute of limitations even though no statute makes it a condition of the right to sue.\u201d (Id. at p. 490 (lead opn. of McComb, J.), italics added.) We declined to toll the limitations period on the plaintiffs\u2019 wage claims for the period during which they were pursuing voluntary internal administrative remedies only because the plaintiffs had failed to make an adequate record in the trial court. (Ibid.)\nThe next year, in Elkins v. Derby, supra, 12 Cal.3d 410, we elaborated on the principle in the context of a statute of limitations defense to a worker\u2019s personal injury suit. The worker had initially filed a workers\u2019 compensation claim; after it was determined in administrative proceedings that the worker did not qualify as an employee, he promptly filed a tort action. The defendants raised the statute of limitations, arguing that the worker could have started with the tort action or filed tort and workers\u2019 compensation claims simultaneously. (Id. at p. 414.)\nWe rejected the assertion that equitable tolling should be limited to cases in which a plaintiff was required to pursue a particular alternate remedy before initiating suit, and instead espoused \u201cthe principle that regardless of whether the exhaustion of one remedy is a prerequisite to the pursuit of another, if the defendant is not prejudiced thereby, the running of the limitations period is tolled.\u201d (Elkins v. Derby, supra, 12 Cal.3d at p. 414.) After canvassing the various precedents that supported this conclusion, we articulated the sound policy reasons that justified it. The filing of an administrative claim, whether mandated or not, affords a defendant notice of the claims against it so that it may gather and preserve evidence, and thereby satisfies the principal policy behind the statute of limitations. (Id. at pp. 417-418.) Both courts and legislatures have, and should, \u201cliberally appl[y] tolling rules or their functional equivalents to situations in which the plaintiff has satisfied the notification purpose of a limitations statute.\u201d (Id. at p. 418.) Failing to afford plaintiffs equitable tolling in these circumstances would both create procedural traps for the unwary (id. at p. 419) and encourage duplicative filings, with attendant burdens on plaintiffs, defendants, and the court system (id. at p. 420).\nCompleting this trilogy, in Addison v. State of California, supra, 21 Cal.3d 313, we confirmed that equitable tolling applies equally to the voluntary pursuit of alternate remedies against public defendants. We reiterated that this court \u201c \u2018is not powerless to formulate rules of procedure where justice demands it. Indeed, it has shown itself ready to adapt rules of procedure to serve the ends of justice where technical forfeitures would unjustifiably prevent a trial on the merits.\u2019 \u201d (Id. at pp. 318-319, quoting Bollinger v. National Fire Ins. Co., supra, 25 Cal.2d at p. 410.) Thus, we could announce \u201cgeneral equitable [rules] which operateQ independently of the literal wording of the Code of Civil Procedure.\u201d (Addison, at p. 318.) Concerning our judicially created equitable tolling rule, we clarified that it required a showing of three elements: \u201ctimely notice, and lack of prejudice, to the defendant, and reasonable and good faith conduct on the part of the plaintiff.\u201d (Id. at p. 319; accord, Downs v. Department of Water & Power (1997) 58 Cal.App.4th 1093, 1100 [68 Cal.Rptr.2d 590]; Collier v. City of Pasadena, supra, 142 Cal.App.3d at pp. 924-926.)\nThe defendants in Addison nevertheless argued equitable tolling should not apply to actions against public entities. We found no basis for any such global exception and rejected the assertion. We acknowledged that \u201c[a]s with other general equitable principles, application of the equitable tolling doctrine requires a balancing of the injustice to the plaintiff occasioned by the bar of his claim against the effect upon the important public interest or policy expressed by the [operative] limitations statute.\u201d (Addison v. State of California, supra, 21 Cal.3d at p. 321.) But given the clear notice the defendants had received of the plaintiffs\u2019 claims and the minimal prejudice occasioned by any delay, we struck that balance in favor of allowing the plaintiffs to proceed. (Ibid.)\nHaving thus firmly established these principles, we have only rarely had need to revisit them. (See Prudential-LMI Com. Insurance v. Superior Court (1990) 51 Cal.3d 674, 690-691 [274 Cal.Rptr. 387, 798 P.2d 1230] [concluding equitable tolling should apply to the one-year Ins. Code, \u00a7 2071 limitations period while insured is awaiting insurer\u2019s approval or denial of a claim]; Jones v. Tracy School Dist. (1980) 27 Cal.3d 99, 107-109 [165 Cal.Rptr. 100, 611 P.2d 441] [holding equitable tolling applies to the two-year limitations period for Lab. Code, \u00a7 1197.5 wage discrimination claim while plaintiff pursues related federal Fair Labor Standards Act of 1938 (29 U.S.C. \u00a7 201 et seq.) claim].) However, numerous Courts of Appeal have extended the principles\u2019 application to a range of scenarios in which parties pursued nonmandatory alternate procedures. (See, e.g., Marcario v. County of Orange (2007) 155 Cal.App.4th 397, 407-409 [65 Cal.Rptr.3d 903] [equitable tolling applies during pursuit of internal labor grievance procedure]; Downs v. Department of Water & Power, supra, 58 Cal.App.4th at pp. 1101-1102 [equitable tolling applies during pursuit of title VII complaint with the EEOC]; Nichols v. Canoga Industries (1978) 83 Cal.App.3d 956, 963 [148 Cal.Rptr. 459] [equitable tolling applies during pursuit of breach of warranty action in federal court].)\nContrary to the District\u2019s argument, our decision in Schifando v. City of Los Angeles, supra, 31 Cal.4th 1074, casts no doubt on the established availability of equitable tolling during pursuit of voluntary alternate remedies. There, we concluded internal administrative remedies such as those the City of Los Angeles provided for resolving employment grievances are optional and need not be exhausted before filing a FEHA action. If an aggrieved party, however, voluntarily elects to pursue such an administrative remedy, it does not follow from this that the voluntariness of that election renders equitable tolling unavailable. Indeed, in Schifando itself we \u201crecognize[d] the existence of potential procedural issues that might arise in the situation where an employee chooses to pursue both avenues of redress\u201d (Schifando, at p. 1092), but acknowledged \u201cthose issues [were] not before us\u201d (ibid.). Schifando thus has nothing to say on the question of equitable tolling\u2019s applicability, which is instead resolved by reference to our precedents expressly establishing its availability even when exhaustion of a particular remedy is not required.\nC. The California Community Colleges\u2019 Internal Grievance Procedures\nThe internal remedy Brown pursued here offers precisely the sorts of benefits equitable tolling is designed to preserve and accordingly may support equitable tolling in an appropriate case.\nThe procedures provided for by California Code of Regulations, title 5, section 59300 et seq. were intended to ensure community college compliance with state and federal prohibitions against unlawful discrimination. (Cal. Code Regs., tit. 5, \u00a7\u00a7 59300, 59304.) They require investigation of any formal written complaint filed with the Chancellor\u2019s Office or the designated officer for the affected community college district. (Id., \u00a7 59328.) When the Chancellor\u2019s Office receives an employment discrimination complaint, it must forward that complaint to the community college district for investigation and advise the complainant of his or her right to also pursue a FEHA complaint with the DFEH. (Id., \u00a7 59329.) In turn, the community college district must conduct an \u201cimpartial fact-finding investigation\u201d and prepare a written report summarizing its investigation and findings. (Id., \u00a7 59334.) Within 90 days of receipt of a complaint, it must provide that report to the Chancellor\u2019s Office and advise both the Chancellor and the complainant of its findings, the proposed resolution, the steps taken (if any) to prevent future reoccurrence of similar problems, and the complainant\u2019s appeal rights. (Id., \u00a7 59336.) Dissatisfied complainants may appeal to the community college district governing board and thereafter (in non-employment-discrimination cases) to the Chancellor\u2019s Office. (Id., \u00a7\u00a7 59338, 59339.)\nIn all cases, whether or not a complainant has appealed to the Chancellor\u2019s Office, the Chancellor ultimately must review the community college district\u2019s report and decision and determine whether there is reasonable cause to believe the district has committed a violation. (Cal. Code Regs., tit. 5, \u00a7 59350.) If so, the Chancellor must conduct an investigation. (Id., \u00a7 59352.) That investigation may lead to either an informal resolution (id., \u00a7 59354) or a formal resolution, including, if necessary, a full evidentiary hearing pursuant to the Administrative Procedure Act (Gov. Code, \u00a7\u00a7 11500-11529) and subsequent judicial review (Cal. Code Regs., tit. 5, \u00a7\u00a7 59356, 59358). In the event the Chancellor determines the community college district has committed a violation, he or she has authority to remedy the violation by any lawful means, including but not limited to withholding funds, imposing conditions on receipt of future funding, or seeking a court order. (Id., \u00a7 59360.)\nThese procedures thus afford a complainant and the community college district a Ml opportunity to formally or informally resolve a dispute in a way that will, in many cases, minimize or eliminate entirely the need for further judicial proceedings. Equitable tolling during pursuit of this internal remedy affords all the benefits that we have generally recognized justify tolling; conversely, nothing about the voluntary nature of the procedures diminishes the benefits of tolling here. Accordingly, following the long line of settled authority approving equitable tolling during the voluntary pursuit of alternate remedies, we reject the District\u2019s argument that the voluntary character of the internal proceedings here bars tolling.\nII. The Interplay Between the FEHA and Equitable Tolling\nA. Statutes of Limitations and Equitable Tolling\nThough the doctrine of equitable tolling is judicially created and operates independently of the literal wording of most statutes of limitations, it is not immune to the operation of such statutes. In Lantzy v. Centex Homes, supra, 31 Cal.4th 363, we discussed at length the circumstances in which a court should conclude equitable tolling does not apply to a particular staMe of limitations.\nFirst, the Legislature may, if it so chooses, expressly negate application of equitable tolling to a limitations period by specifying that the list of tolling bases a statute of limitations contains is exhaustive. We gave as examples in Lantzy Code of Civil Procedure sections 340.6 and 366.2, each of which contains such a provision. (See Lantzy v. Centex Homes, supra, 31 Cal.4th at p. 371.)\nSecond, even in the absence of an explicit prohibition, a court may conclude that either the text of a statute or a manifest legislative policy underlying it cannot be reconciled with permitting equitable tolling. (See Lantzy v. Centex Homes, supra, 31 Cal.4th at p. 371.) In Lantzy, for example, we concluded the \u201cstructure and tone\u201d of the text of Code of Civil Procedure section 337.15 suggested equitable tolling should not apply. (Lantzy, at p. 373.) The sheer length of the limitations period in question\u201410 years\u2014 likewise suggested a legislative intent to preclude equitable tolling. (Id. at p. 379.) Perhaps of greatest significance, however, the legislative history reflected a clear intent to adopt a statute of limitations that would curtail the \u201cindefinite Tong tail\u2019 defect liability\u201d that made it difficult for participants in the construction industry to obtain affordable insurance. (Id. at pp. 374\u2014376; see also Beal Bank, SSB v. Arter & Hadden, LLP (2007) 42 Cal.4th 503, 509-511 [66 Cal.Rptr.3d 52, 167 P.3d 666] [where limitations period was intended to curtail specific insurance problems in an industry arising from open-ended liability, statute should be interpreted in favor of limited tolling].) Application of equitable tolling to periods during which a defendant was making repairs would, we concluded, fundamentally compromise that legislative intent, a consideration that outweighed any corresponding harm to the plaintiffs arising from foreclosure of their claims. (Lantzy, at pp. 378-379.)\nThe further question, then, is whether anything in the FEHA itself stands as a bar to application of the usual rule that limitations periods are tolled while a party pursues an alternate remedy. As we shall discuss, we conclude there is neither an express limit on grounds for tolling, nor, as in Lantzy, a textual or legislative-intent-based rationale that would compel us to decline to extend the usual rule to FEHA claims. Accordingly, FEHA claims may be equitably tolled during the voluntary pursuit of alternate remedies.\nB. The FEHA and Equitable Tolling\nThe FEHA affords California employees broad protection against discrimination, harassment, and retaliation on any of a wide range of impermissible bases. (\u00a7\u00a7 12920, 12921, 12940; Rojo v. Kliger (1990) 52 Cal.3d 65, 72-73 [276 Cal.Rptr. 130, 801 P.2d 373].) Employees who believe they have been discriminated against generally have one year in which to file an administrative complaint with the DFEH, the agency charged with administering the FEHA. (\u00a7 12960, subd. (d); Romano v. Rockwell Internat., Inc. (1996) 14 Cal.4th 479, 492 [59 Cal.Rptr.2d 20, 926 P.2d 1114].) The DFEH is obligated to investigate each complaint and decide whether to file an accusation. (\u00a7\u00a7 12963, 12965, subd. (a).) If it has not filed an accusation within 150 days, it must offer the employee a right-to-sue letter on request; if it has not filed an accusation within one year, it must issue the employee a right-to-sue letter as a matter of right. (\u00a7 12965, subd. (b).) Exhaustion of these procedures is mandatory; an employee may not proceed in court with a FEHA claim without first obtaining a right-to-sue letter. (Romano, at p. 492.)\nSection 12960, subdivision (d), the governing statute of limitations for this administrative process, provides in part: \u201cNo [DFEH] complaint may be filed after the expiration of one year from the date upon which the alleged unlawful practice or refusal to cooperate occurred . . . .\u201d It then identifies four exceptions: (1) a 90-day extension in instances of delayed discovery of the unlawful practice; (2) a one-year extension in certain instances of delayed discovery of the identity of the actual employer; (3) a one-to-three-year extension for Ralph Hate Crimes Act (Civ. Code, \u00a7 51.7) violations in cases of delayed discovery of the perpetrator\u2019s identity; and (4) an extension to one year after an aggrieved party achieves the age of majority if the misconduct occurred while the party was a minor (\u00a7 12960, subd. (d)(l)-(4)). We discern in this provision no basis for limiting the application of equitable tolling.\nFirst, the statute does not include an express limit on the bases for tolling. While section 12960, subdivision (d) lists some bases for extending the statute of limitations, it does not indicate the list is exhaustive. The statute is thus unlike those statutes that contain exclusivity language and that courts have interpreted as confining tolling to specific listed bases. (See, e.g., Laird v. Blacker (1992) 2 Cal.4th 606, 618 [7 Cal.Rptr.2d 550, 828 P.2d 691] [holding Code Civ. Proc., \u00a7 340.6, which \u201cstates that \u2018in no event\u2019 shall the prescriptive period be tolled except under those circumstances specified in the statute,\u201d disallows tolling otherwise]; Battuello v. Battuello (1998) 64 Cal.App.4th 842, 847 [75 Cal.Rptr.2d 548] [recognizing Code Civ. Proc., \u00a7 366.2, which bars tolling \u201cfor any reason except as provided\u201d therein, may not otherwise be tolled].) We have never previously concluded that the legislative codification of particular tolling bases, alone, establishes a legislative intent to preclude tolling on any other basis. To the contrary, we have implicitly assumed that the Legislature\u2019s authority to declare tolling bases (see, e.g., Code Civ. Proc., \u00a7\u00a7 351-356) and the courts\u2019 ability to do likewise may coexist in the absence of an explicit legislative directive that they may not (see Elkins v. Derby, supra, 12 Cal.3d at p. 420, fn. 9).\nSecond, nothing in the text of the FEHA suggests an implicit legislative intent to preclude equitable tolling. Unlike Code of Civil Procedure section 337.15, the 10-year limitations period at issue in Lantzy v. Centex Homes, supra, 31 Cal.4th 363, the limitations period here (one year) is quite brief. It is thus typical of the short limitations periods to which we and the Courts of Appeal have consistently extended equitable tolling principles.\nThird, we discern no fundamental policy underlying the FEHA that would dictate we categorically foreclose equitable tolling in all FEHA cases. To the contrary, we have explained that the express provisions of the FEHA evince a legislative intent that it and its statute of limitations must be liberally interpreted in favor of both allowing attempts at reconciliation and ultimately resolving claims on the merits. Section 12993, subdivision (a) requires that \u201c[t]he provisions of [the FEHA] shall be construed liberally for the accomplishment of [its] purposes . . . .\u201d \u201cThis liberal construction extends to interpretations of the FEHA\u2019s statute of limitations: \u2018In order to carry out the purpose of the FEHA to safeguard the employee\u2019s right to hold employment without experiencing discrimination, the limitations period set out in the FEHA should be interpreted so as to promote the resolution of potentially meritorious claims on the merits.\u2019 \u201d (Richards v. CH2M Hill, Inc., supra, 26 Cal.4th at p. 819, quoting Romano v. Rockwell Internal, Inc., supra, 14 Cal.4th at pp. 493-494; see also Yanowitz v. L\u2019Oreal USA, Inc. (2005) 36 Cal.4th 1028, 1057 [32 Cal.Rptr.3d 436, 116 P.3d 1123].)\nIn Romano, we concluded this rule of liberal interpretation favored selecting as the trigger date for the FEHA\u2019s statute of limitations the one that would maximize the likelihood of informal employer-employee reconciliation and minimize the need for premature litigation. (Romano v. Rockwell Internal, Inc., supra, 14 Cal.4th at pp. 494-495.) In Richards, we concluded this rule favored adoption of a continuing violation rule that would permit employees to seek informal accommodation of their disabilities without risking forfeiture of their right to seek legal recourse in the event accommodations were not forthcoming. (Richards v. CH2M Hill, Inc., supra, 26 Cal.4th at pp. 820-821.) And in Yanowitz, we concluded the rule of liberal interpretation supported extending the continuing violation doctrine to retaliation cases in order to (again) promote informal resolutions and reduce unnecessary, premature litigation. (Yanowitz v. L\u2019Oreal USA, Inc., supra, 36 Cal.4th at pp. 1057-1059.)\nHere, the same legislative policy favoring liberal constmction of the statute of limitations supports an interpretation of the FEHA under which the limitations period is equitably tolled while the employee and employer pursue resolution of any grievance through an internal administrative procedure. Tolling promotes resort to such procedures; if at least some percentage of grievances is thereby resolved, the number of complaints under the FEHA is reduced; and for those that are pursued under the FEHA, tolling increases the likelihood that those \u201c \u2018potentially meritorious claims\u2019 \u201d will in fact be resolved \u201c \u2018on the merits,\u2019 \u201d as Richards and Romano urge. (Richards v. CH2M Hill, Inc., supra, 26 Cal.4th at p. 819; see Romano v. Rockwell Internal, Inc., supra, 14 Cal.4th at pp. 493-494.)\nIn discerning whether equitable tolling is consistent with the Legislature\u2019s goals under the FEHA, we find telling two additional pieces of history. First, on the one previous occasion that a state court in a published decision applied equitable tolling to a FEHA plaintiff\u2019s pursuit of an alternate remedy, the Legislature expressly embraced that holding. In 1997, a Court of Appeal concluded equitable tolling should apply during the period in which an employee\u2019s discrimination charge was being handled by the EEOC. (Downs v. Department of Water & Power, supra, 58 Cal.App.4th 1093.) The plaintiff had filed a charge of discrimination under title VII of the Civil Rights Act of 1964 (42 U.S.C. \u00a7 2000e et seq.); pursuant to a work-sharing agreement under which the EEOC and the DFEH shared investigation of discrimination charges, the EEOC automatically forwarded a copy of the charge to the DFEH, and the DFEH automatically (and immediately) issued a right-to-sue-letter. The EEOC conducted an investigation and issued its own right-to-sue letter; less than three months later (but more than one year after receiving the DFEH\u2019s right-to-sue letter), the plaintiff filed suit under the FEHA. (Downs, at pp. 1097-1098.)\nThe Court of Appeal reversed a defense judgment entered on statute of limitations grounds. It reviewed at length both the requirements for equitable tolling and the policies underlying the doctrine and concluded it should apply under these circumstances to the plaintiff\u2019s FEHA claim. (Downs v. Department of Water & Power, supra, 58 Cal.App.4th at pp. 1100-1102.) Tolling would avoid duplicative actions and avoid the need for a state action that might be rendered redundant or moot depending on the EEOC\u2019s resolution of the charge, at no additional burden to a defendant who, by virtue of the EEOC\u2019s investigation, would have notice of the charges. (Id. at p. 1102.) Accordingly, the Downs court held the timely filing of a charge with the EEOC would result in tolling the statute of limitations during the pendency of the EEOC\u2019s investigation. (Ibid.-, see also Salgado v. Atlantic Richfield Co. (9th Cir. 1987) 823 F.2d 1322, 1326 [applying California law and reaching the same conclusion], disapproved on other grounds in Rojo v. Kliger, supra, 52 Cal.3d at p. 82.)\nThe Legislature took note. Far from repudiating Downs, it embraced it, amending section 12965 to expressly adopt the Downs equitable tolling rule. (\u00a7 12965, subds. (d), (e), added by Stats. 2002, ch. 294, \u00a7 1; see \u00a7 12965, subd. (d)(3) [\u201cThis subdivision is intended to codify the holding in Downs v. Department of Water and Power of City of Los Angeles (1997) 58 Cal.App.4th 1093 [68 Cal.Rptr.2d 590].\u201d]; Assem. Com. on Judiciary, 3d reading analysis of Assem. Bill No. 1146 (2001-2002 Reg. Sess.) as amended Jan. 14, 2002, p. 3 [citing with approval courts\u2019 reasoning that equitable tolling of FEHA filing deadlines \u201cadvances administrative efficiency and does not disadvantage the defendant; because tolling continues only so long as the federal administrative process continues, defendants are not confronted with stale claims or deprived of the opportunity to preserve appropriate evidence\u201d].)\nSecond, when a different Court of Appeal rejected application of equitable tolling as a basis for extending the time in which a minor plaintiff could file a complaint with the DFEH, the Legislature had precisely the opposite reaction: it amended the FEHA to repudiate the Court of Appeal\u2019s decision. In Balloon v. Superior Court (1995) 39 Cal.App.4th 1116, 1120-1122 [46 Cal.Rptr.2d 161], the Court of Appeal concluded section 12960 was not tolled during the plaintiff\u2019s minority. The Legislature thereafter amended section 12960 to expressly add minority as a basis for tolling. (\u00a7 12960, subd. (d)(4), added by Stats. 2005, ch. 642, \u00a7 1; see Sen. Rules Com., Off. of Sen. Floor Analyses, 3d reading analysis of Assem. Bill No. 1669 (2005-2006 Reg. Sess.) as amended Apr. 13, 2005, pp. 2-3 [indicating intent to change the state of the law as then set out in Balloon].)\nFrom these disparate responses, we infer that the Legislature accepts equitable tolling under the FEHA, including during the period when an aggrieved party\u2019s claims are being addressed in an alternate forum, and did not intend section 12960 to foreclose judicial acknowledgement and application of equitable tolling principles.\nThe District contends the FEHA\u2019s preemption provisions (\u00a7 12993, subds. (a)-(c)) require us to interpret section 12960 as foreclosing judicial equitable tolling. In particular, the District relies on section 12993, subdivision (c), which provides in relevant part: \u201c[I]t is the intention of the Legislature to occupy the field of regulation of discrimination in employment and housing encompassed by the provisions of this part, exclusive of all other laws banning discrimination in employment and housing by any city, city and county, county, or other political subdivision of the state . . . .\u201d\nWe are not persuaded. As we have previously explained, section 12993, subdivision (c) speaks only to state-local relations and preempts only local laws. (Rojo v. Kliger, supra, 52 Cal.3d at p. 78.) As we further held in Rojo, the FEHA does not displace other state laws; in particular, it does not globally preempt preexisting, judicially recognized, common law rules and remedies. \u201cThe general rule is that statutes do not supplant the common law unless it appears that the Legislature intended to cover the entire subject.\u201d (Rojo, at p. 80.) Taken as a whole, the preemption provisions of the FEHA evince no such intent; to the contrary, they express quite the opposite intent. (Rojo, at p. 75 [\u201cBy expressly disclaiming a purpose to repeal other applicable state laws (\u00a7 12993, subd. (a)), we believe the Legislature has manifested an intent to amplify, not abrogate, an employee\u2019s common law remedies for injuries relating to employment discrimination.\u201d]; see \u00a7 12993, subd. (a) [savings clause disavowing intent to repeal \u201claws of this state\u201d].)\nAccordingly, we hold the FEHA does not preclude equitable tolling during the voluntary pursuit of internal administrative remedies.\nIII. Voluntary Abandonment and Equitable Tolling\nAs a final argument, the District contends tolling should be categorically unavailable because Brown \u201cvoluntarily abandoned\u201d her pursuit of her internal grievance. This argument is supported by neither the law nor the record.\nNeither we nor the Courts of Appeal have ever made equitable tolling contingent on a plaintiff\u2019s waiting for resolution of an alternate proceeding, not otherwise subject to mandatory exhaustion, prior to institution of further proceedings. To the contrary, both we and the Courts of Appeal have extended equitable tolling even in circumstances where the plaintiff voluntarily terminated the alternate proceeding.\nRejecting the very argument the District makes here, the Court of Appeal in Appalachian Ins. Co. v. McDonnell Douglas Corp., supra, 214 Cal.App.3d at pages 40-41, explained: \u201cInitially, we note none of the cases applying the equitable tolling doctrine have depended on whether there was a voluntary or involuntary dismissal [of the first proceeding]. Second, the cases cited by the respondents do not, either when read singly or together, establish a general rule that voluntary dismissal precludes application of the equitable tolling doctrine. Rather, these cases turn on the failure to meet the Bollinger [v. National Fire Ins. Co., supra, 25 Cal.2d 399] criteria relating to timely notice, lack of prejudice to the defendant and reasonable and good faith conduct on the part of the plaintiff.\u201d In other words, voluntary abandonment does not categorically bar application of equitable tolling, but it may be relevant to whether a plaintiff can satisfy the three criteria for equitable tolling.\nThus, in Appalachian Ins. Co., the plaintiff filed a timely action, voluntarily dismissed that action when a defendant removed the case to federal court, and then refiled an action outside the statute of limitations. The Court of Appeal reviewed the requirements for equitable tolling (notice, no prejudice, good faith), concluded they were met, and applied tolling, rejecting the argument that the plaintiff\u2019s voluntary dismissal of the first action barred tolling. (Appalachian Ins. Co. v. McDonnell Douglas Corp., supra, 214 Cal.App.3d at pp. 40-42.)\nIn a similar vein, in San Francisco Unified School Dist. v. W.R. Grace & Co. (1995) 37 Cal.App.4th 1318 [44 Cal.Rptr.2d 305], the plaintiff was part of a federal class action but voluntarily opted out and filed its own state action. (Id. at pp. 1323-1324.) Notwithstanding this voluntary withdrawal, the Court of Appeal concluded the usual tolling factors were met and tolled the limitations period for the time during which the plaintiff was a class member in the federal proceeding. (Id. at pp. 1340-1341.)\nOur own decision in Addison v. State of California, supra, 21 Cal.3d 313, is particularly apropos here. In Addison, the plaintiffs filed an action in federal court that included state law claims under the federal court\u2019s pendent jurisdiction. Thereafter, facing a motion to dismiss and apparently fearing imminent dismissal\u2014but with the federal action still pending\u2014the plaintiffs filed a second action in state court alleging the same state claims. (Id. at p. 317.) Notwithstanding the plaintiffs\u2019 failure to wait out resolution of the first proceeding, we reviewed whether the plaintiffs had satisfied the criteria for tolling and, because they had, reversed the trial court\u2019s dismissal on timeliness grounds. (Id. at pp. 319-321.)\nHere, the summary judgment record shows a similar sequence of events. Brown filed one proceeding with the Chancellor\u2019s Office, then filed a second proceeding with the DFEH while her internal grievance was still pending. This cannot fairly be characterized as a voluntary \u201cabandonment\u201d of the first proceeding; Brown neither withdrew her original complaint nor otherwise elected to forgo relief in the first proceeding, and ultimately the Chancellor ruled on her internal grievance. As in Addison v. State of California, supra, 21 Cal.3d 313, we conclude filing a second complaint before the first is finally resolved does not categorically preclude tolling, provided the criteria for tolling we set out there are otherwise satisfied.\nThere are sound reasons for declining to draw any categorical distinction between internal procedures that have been completed and those that have not. On the one hand, to require categorically that only completed procedures may support equitable tolling would encourage potential defendants with control over such procedures to drag their feet as a way of forestalling a potential DFEH complaint. On the other hand, any fear potential defendants may have about grievants injecting delay into the process by initiating internal procedures with no intention of finishing them is already met by our requirement that, in order to obtain the benefit of equitable tolling, plaintiffs must demonstrate, inter alia, that their pursuit of an internal remedy was in good faith and that defendants would not be prejudiced.\nWithout addressing our or the Courts of Appeal\u2019s contrary precedents, the District nevertheless contends equitable tolling should extend only to cases where a plaintiff exhausts whatever alternate proceeding he or she initiates. In making this quasi-exhaustion argument, the District relies principally on Page v. Los Angeles County Probation Dept. (2004) 123 Cal.App.4th 1135 [20 Cal.Rptr.3d 598]. This reliance is misplaced.\nOur exhaustion doctrine comes in two forms: administrative and judicial. Administrative exhaustion refers to the requirement that a party initiate, and complete, a particular administrative proceeding before being permitted to proceed in court. The FEHA\u2019s administrative complaint procedure provides a clear example of one such administrative exhaustion requirement. In contrast, however, we have held that initiation and completion of internal administrative proceedings like the one here is not a condition precedent to the filing of a FEHA claim. (Schifando v. City of Los Angeles, supra, 31 Cal.4th at p. 1092.)\nJudicial exhaustion is slightly different. It may arise when a party initiates and takes to decision an administrative process\u2014whether or not the party was required, as a matter of administrative exhaustion, to even begin the administrative process in the first place. Once a decision has been issued, provided that decision is of a sufficiently judicial character to support collateral estoppel, respect for the administrative decisionmaking process requires that the prospective plaintiff continue that process to completion, including exhausting any available judicial avenues for reversal of adverse findings. (Johnson v. City of Loma Linda (2000) 24 Cal.4th 61, 69-72 [99 Cal.Rptr.2d 316, 5 P.3d 874].) Failure to do so will result in any quasi-judicial administrative findings achieving binding, preclusive effect and may bar further relief on the same claims. (Id. at p. 76.)\nPage v. Los Angeles County Probation Dept., supra, 123 Cal.App.4th 1135, is a judicial exhaustion case. There, the plaintiff elected to pursue her discrimination claim before a civil service commission, which held numerous hearings and ultimately entered an adverse ruling. Rather than challenge the ruling through available judicial avenues, the plaintiff filed a complaint with the DFEH. The Court of Appeal held that the plaintiff had failed to exhaust her judicial remedies by not seeking mandamus, the civil service commission\u2019s findings were binding until set aside, and those findings barred her FEHA complaint from going forward. (Page, at pp. 1143-1144.)\nNo similar judicial exhaustion argument applies here. The administrative proceedings in this case lacked the judicial characteristics we have held essential to according administrative findings collateral estoppel effect, including but not limited to testimony under oath, the opportunity to call witnesses and introduce evidence, and a formal record of the hearing. (See Pacific Lumber Co. v. State Water Resources Control Bd. (2006) 37 Cal.4th 921, 944 [38 Cal.Rptr.3d 220, 126 P.3d 1040]; People v. Sims (1982) 32 Cal.3d 468, 479-480 [186 Cal.Rptr. 77, 651 P.2d 321]; Cal. Code Regs., tit. 5, \u00a7\u00a7 59328-59350.) There was no evidentiary hearing. In the absence of quasi-judicial proceedings, Brown was not required to seek judicial relief to set aside any findings or bear the consequences of their binding effect. (See Ahmadi-Kashani v. Regents of University of California (2008) 159 Cal.App.4th 449, 461 [71 Cal.Rptr.3d 556] [holding FEHA claim not barred under judicial exhaustion where internal grievance proceeding lacked sufficient judicial character to support collateral estoppel]; cf. Johnson v. City of Loma Linda, supra, 24 Cal.4th at p. 71 & fn. 3 [applying judicial exhaustion where the plaintiff conceded he was afforded \u201ca full and fair opportunity to litigate\u201d his claim at an evidentiary hearing]; Johnson, at pp. 78-81 (cone, opn. of Werdegar, J.) [explaining judicial exhaustion as an offshoot of the collateral estoppel consequences of quasi-judicial administrative findings].)\nMoreover, as Page itself recognized, issues of judicial (or administrative) exhaustion and equitable tolling are distinct. (See Page v. Los Angeles County Probation Dept., supra, 123 Cal.App.4th at p. 1143.) A complaint may be timely on grounds of equitable tolling but fail for reasons of judicial exhaustion, or a complainant may exhaust available judicial review procedures only to find a subsequent complaint time-barred. One inquiry has little bearing on the other. Page and principles of judicial exhaustion give us no occasion to reconsider our rule that, at least with respect to a defense of untimeliness, incomplete alternate proceedings may suffice to support equitable tolling and avoid a time bar.\nConclusion\nThe trial court rejected equitable tolling on the apparent ground that tolling was unavailable where, as here, the plaintiff was advised the alternate administrative procedure he or she was pursuing was voluntary and need not be exhausted. In reversing summary judgment, the Court of Appeal implicitly concluded equitable tolling is in fact available in such circumstances and explicitly concluded equitable tolling is not foreclosed as a matter of law under the FEHA. The Court of Appeal was correct on each count.\nReviewing the summary judgment record de novo, the Court of Appeal identified evidence in the record providing a basis for equitable tolling from October 2001 to May 2003 and accordingly concluded the District had failed to establish its entitlement to judgment as a matter of law on statute of limitations grounds. The District did not seek, and we did not grant, review of this latter conclusion concerning application of equitable tolling principles to the specific factual record in this case.\nAccordingly, because the Court of Appeal correctly determined equitable tolling was not barred as a matter of law, we affirm the Court of Appeal\u2019s judgment and remand for further proceedings consistent with this opinion.\nGeorge, C. J., Kennard, J., Baxter, J., Chin, J., Moreno, J., and Corrigan, J., concurred.\nThat power is as old as the republic. In 1870, the United States Supreme Court, announcing it \u201cto be established, that the running of a Statute of Limitation may be suspended by causes not mentioned in the statute itself,\u201d traced the history of courts\u2019 declaring nonstatutory exceptions to statutes of limitations back to the Revolutionary War. (Braun v. Sauerwein (1870) 77 U.S. 218, 222-223 [19 L.Ed. 895].)\nThe Courts of Appeal in Downs and Collier have accurately described these requirements in more detail: \u201c \u2018The timely notice requirement essentially means that the first claim must have been filed within the statutory period. Furthermore^] the filing of the first claim must alert the defendant in the second claim of the need to begin investigating the facts which form the basis for the second claim. Generally this means that the defendant in the first claim is the same one being sued in the second.\u2019 (Collier v. City of Pasadena, supra, 142 Cal.App.3d at p. 924.) \u2018The second prerequisite essentially translates to a requirement that the facts of the two claims be identical or at least so similar that the defendant\u2019s investigation of the first claim will put him in a position to fairly defend the second.\u2019 (Id. at p. 925.) \u2018The third prerequisite of good faith and reasonable conduct on the part of the plaintiff is less clearly defined in the cases. But in Addison v. State of California, supra, 21 Cal.3d 313[,] the Supreme Court did stress that the plaintiff filed his second claim a short time after tolling ended.\u2019 (Id. at p. 926.)\u201d (Downs v. Department of Water & Power, supra, 58 Cal.App.4th at p. 1100.)\nAll further unlabeled statutory references are to the Government Code.\nNor is this a situation where the Legislature has spoken to a particular basis for tolling but elected to limit the extent of tolling available. (See, e.g., Williams v. City of Belvedere (1999) 72 Cal.App.4th 84, 92-93 [84 Cal.Rptr.2d 658] [because \u00a7 12960 limits tolling for delayed discovery to 90 days, courts may not substitute a longer period].) Section 12960 is silent on the subject of equitable tolling during the pendency of related administrative proceedings.\nSee, e.g., Prudential-LMI Com. Insurance v. Superior Court, supra, 51 Cal.3d 674 (one-year insurance claim limitations period); Jones v. Tracy School Dist., supra, 27 Cal.3d 99 (two-year back wages limitations period); Addison v. State of California, supra, 21 Cal.3d 313 (six-month Tort Claims Act limitations period); Elkins v. Derby, supra, 12 Cal.3d 410 (one-year personal injury limitations period); Marcario v. County of Orange, supra, 155 Cal.App.4th 397 (two-year intentional infliction of emotional distress limitations period); Barth v. Board of Pension Commissioners (1983) 145 Cal.App.3d 826, 832-833 [193 Cal.Rptr. 755] (one-year disability pension application limitations period).\nNotably, we recognized that the continuing violation doctrine we were adopting had its roots in principles of equitable tolling. (See Richards v. CH2M Hill, Inc., supra, 26 Cal.4th at p. 823 [describing the modified Berry v. Board of Sup\u2019rs ofLS.U. (5th Cir. 1983) 715 F.2d 971 test we adopted]; Richards, at pp. 813-814 [explaining the roots of Berry and other continuing violation tests in equitable tolling principles].)\nWe have no occasion to determine whether judicial exhaustion could ever stand as a bar following proceedings under California Code of Regulations, title 5, section 59328 et seq. We conclude only that the proceedings here were insufficient to support such an argument.\nAs noted above, however, voluntary abandonment of a proceeding can be considered by a court in evaluating whether a complainant\u2019s pursuit of an alternate remedy has been, as it must be, reasonable and in good faith. (See Addison v. State of California, supra, 21 Cal.3d at p. 319.)",
+        "type": "majority",
+        "author": "WERDEGAR, J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Christopher Brizzolara; Goldberg & Gage, Bradley C. Gage; Law Offices of Gregory W. Smith, Gregory W. Smith; Benedon & Serlin, Douglas G. Benedon and Gerald M. Serlin for Plaintiffs and Appellants.",
+      "Carpenter, Rothans & Dumont, Steven J. Rothans, Jill W. Babington and Justin Reade Samo for Defendant and Respondent.",
+      "Latham & Watkins and Joel E. Krischer for Employers Group as Amicus Curiae on behalf of Defendant and Respondent.",
+      "Sidley Austin, James M. Harris, Jennifer Altfeld Landau and David R. Carpenter for League of California Cities as Amicus Curiae on behalf of Defendant and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. S153964.\nOct. 27, 2008.]\nJOHN McDONALD et al., Plaintiffs and Appellants, v. ANTELOPE VALLEY COMMUNITY COLLEGE DISTRICT, Defendant and Respondent.\nCounsel\nChristopher Brizzolara; Goldberg & Gage, Bradley C. Gage; Law Offices of Gregory W. Smith, Gregory W. Smith; Benedon & Serlin, Douglas G. Benedon and Gerald M. Serlin for Plaintiffs and Appellants.\nCarpenter, Rothans & Dumont, Steven J. Rothans, Jill W. Babington and Justin Reade Samo for Defendant and Respondent.\nLatham & Watkins and Joel E. Krischer for Employers Group as Amicus Curiae on behalf of Defendant and Respondent.\nSidley Austin, James M. Harris, Jennifer Altfeld Landau and David R. Carpenter for League of California Cities as Amicus Curiae on behalf of Defendant and Respondent."
+  },
+  "file_name": "0088-01",
+  "first_page_order": 128,
+  "last_page_order": 155
+}

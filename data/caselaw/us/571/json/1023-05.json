@@ -1,0 +1,68 @@
+{
+  "id": 12699276,
+  "name": "In re James J. McCORMACK, petitioner.",
+  "name_abbreviation": "In re McCormack",
+  "decision_date": "2013-11-18",
+  "docket_number": "No. 13\u20137049.",
+  "first_page": "1023",
+  "last_page": "1023",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 1023"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 462"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 669"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 23,
+    "char_count": 145,
+    "sha256": "d624a31276d24c5328db87217ef9cbe22e9d964616de5a30ec661264d46dd193",
+    "simhash": "1:4a2f0006b3d84315",
+    "word_count": 24
+  },
+  "last_updated": "2021-08-27T20:47:23.363448+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re James J. McCORMACK, petitioner."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of habeas corpus denied."
+    ],
+    "corrections": "",
+    "head_matter": "In re James J. McCORMACK, petitioner.\nNo. 13-7049.\nSupreme Court of the United States\nNov. 18, 2013.\nPetition for writ of habeas corpus denied."
+  },
+  "file_name": "1023-05",
+  "first_page_order": 1023,
+  "last_page_order": 1023
+}

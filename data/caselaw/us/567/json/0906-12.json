@@ -1,0 +1,59 @@
+{
+  "id": 12408124,
+  "name": "Hendrickson v. United States",
+  "name_abbreviation": "Hendrickson v. United States",
+  "decision_date": "2012-06-11",
+  "docket_number": "No. 11-1345",
+  "first_page": "906",
+  "last_page": "906",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 906"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.696,
+    "sha256": "4a80c52198ca3e9c471ec8d93aa1e56e3dff6400e0ecd93a833d780531310870",
+    "simhash": "1:c5aa3206ce3f182a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hendrickson v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1345.\nHendrickson v. United States."
+  },
+  "file_name": "0906-12",
+  "first_page_order": 810,
+  "last_page_order": 810
+}

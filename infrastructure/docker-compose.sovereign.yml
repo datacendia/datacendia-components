@@ -50,8 +50,8 @@ services:
     container_name: cendia-postgres
     restart: unless-stopped
     environment:
-      POSTGRES_USER: ${POSTGRES_USER:-cendia}
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-cendia_sovereign_2025}
+      POSTGRES_USER: ${POSTGRES_USER:-datacendia}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-datacendia_secure_2024}
       POSTGRES_DB: ${POSTGRES_DB:-datacendia}
     volumes:
       - postgres_data:/var/lib/postgresql/data
@@ -231,9 +231,9 @@ services:
     container_name: cendia-clickhouse
     restart: unless-stopped
     environment:
-      CLICKHOUSE_DB: cendia
-      CLICKHOUSE_USER: cendia
-      CLICKHOUSE_PASSWORD: cendia_sovereign_2025
+      CLICKHOUSE_DB: datacendia
+      CLICKHOUSE_USER: datacendia
+      CLICKHOUSE_PASSWORD: datacendia_secure_2024
       CLICKHOUSE_DEFAULT_ACCESS_MANAGEMENT: 1
     volumes:
       - clickhouse_data:/var/lib/clickhouse
@@ -265,8 +265,8 @@ services:
     restart: unless-stopped
     command: server /data --console-address ":9001"
     environment:
-      MINIO_ROOT_USER: ${MINIO_ROOT_USER:-cendia_admin}
-      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD:-cendia_sovereign_2025}
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER:-datacendia_admin}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD:-datacendia_secure_2024}
     volumes:
       - minio_data:/data
     ports:
@@ -321,7 +321,7 @@ services:
     restart: unless-stopped
     environment:
       GF_SECURITY_ADMIN_USER: ${GRAFANA_USER:-admin}
-      GF_SECURITY_ADMIN_PASSWORD: ${GRAFANA_PASSWORD:-cendia_sovereign_2025}
+      GF_SECURITY_ADMIN_PASSWORD: ${GRAFANA_PASSWORD:-datacendia_secure_2024}
       GF_USERS_ALLOW_SIGN_UP: "false"
       GF_SERVER_ROOT_URL: "http://localhost:3000/grafana"
     volumes:
@@ -348,7 +348,7 @@ services:
     environment:
       - N8N_BASIC_AUTH_ACTIVE=true
       - N8N_BASIC_AUTH_USER=${N8N_USER:-admin}
-      - N8N_BASIC_AUTH_PASSWORD=${N8N_PASSWORD:-cendia_sovereign_2025}
+      - N8N_BASIC_AUTH_PASSWORD=${N8N_PASSWORD:-datacendia_secure_2024}
       - N8N_HOST=localhost
       - N8N_PORT=5678
       - N8N_PROTOCOL=http
@@ -373,13 +373,13 @@ services:
     command: start-dev
     environment:
       KEYCLOAK_ADMIN: ${KEYCLOAK_ADMIN:-admin}
-      KEYCLOAK_ADMIN_PASSWORD: ${KEYCLOAK_ADMIN_PASSWORD:-cendia_sovereign_2025}
+      KEYCLOAK_ADMIN_PASSWORD: ${KEYCLOAK_ADMIN_PASSWORD:-datacendia_secure_2024}
       KC_DB: postgres
       KC_DB_URL: jdbc:postgresql://postgres:5432/keycloak
-      KC_DB_USERNAME: ${POSTGRES_USER:-cendia}
-      KC_DB_PASSWORD: ${POSTGRES_PASSWORD:-cendia_sovereign_2025}
+      KC_DB_USERNAME: ${POSTGRES_USER:-datacendia}
+      KC_DB_PASSWORD: ${POSTGRES_PASSWORD:-datacendia_secure_2024}
     ports:
-      - "8080:8080"
+      - "8180:8080"   # Using 8180 externally since 8080 is often in use
     depends_on:
       - postgres
     networks:
@@ -397,7 +397,7 @@ services:
     environment:
       - ENCRYPTION_KEY=a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6
       - AUTH_SECRET=${INFISICAL_AUTH_SECRET:-cendia_auth_secret_sovereign}
-      - DB_CONNECTION_URI=postgres://cendia:cendia_sovereign_2025@postgres:5432/infisical
+      - DB_CONNECTION_URI=postgres://datacendia:datacendia_secure_2024@postgres:5432/infisical
       - REDIS_URL=redis://redis:6379
       - SITE_URL=http://localhost:8090
       - SMTP_HOST=
@@ -600,7 +600,7 @@ services:
     container_name: cendia-meilisearch
     restart: unless-stopped
     environment:
-      MEILI_MASTER_KEY: ${MEILI_MASTER_KEY:-cendia_sovereign_2025}
+      MEILI_MASTER_KEY: ${MEILI_MASTER_KEY:-datacendia_secure_2024}
       MEILI_ENV: production
     volumes:
       - ./data/meilisearch:/meili_data
@@ -619,7 +619,7 @@ services:
     container_name: cendia-unleash
     restart: unless-stopped
     environment:
-      DATABASE_URL: "postgres://cendia:cendia_sovereign_2025@postgres:5432/unleash"
+      DATABASE_URL: "postgres://datacendia:datacendia_secure_2024@postgres:5432/unleash"
       DATABASE_SSL: "false"
       INIT_ADMIN_API_TOKENS: "*:*.cendia-admin-token"
     ports:

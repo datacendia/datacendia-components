@@ -1,0 +1,59 @@
+{
+  "id": 12413235,
+  "name": "MacWilliams v. United States",
+  "name_abbreviation": "MacWilliams v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10539",
+  "first_page": "847",
+  "last_page": "847",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 847"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 78,
+    "ocr_confidence": 0.661,
+    "sha256": "ad974acc0c942de815081d6bfef69fa0283446488600e3bdb9e71661250eb7a8",
+    "simhash": "1:b7eaa6195f8e351d",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "MacWilliams v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10539.\nMacWilliams v. United States."
+  },
+  "file_name": "0847-14",
+  "first_page_order": 923,
+  "last_page_order": 923
+}

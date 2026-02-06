@@ -1,0 +1,59 @@
+{
+  "id": 12239398,
+  "name": "Kashamu v. United States",
+  "name_abbreviation": "Kashamu v. United States",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-645",
+  "first_page": "1115",
+  "last_page": "1115",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1115"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.63,
+    "sha256": "d290cb6bb47664e410b835e896345f33374d8dd1e5a14bed61a141aede6a35d5",
+    "simhash": "1:424beaab460dce00",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Kashamu v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-645.\nKashamu v. United States."
+  },
+  "file_name": "1115-06",
+  "first_page_order": 1197,
+  "last_page_order": 1197
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12240384,
+  "name": "Varnum v. Lewis, Acting Warden",
+  "name_abbreviation": "Varnum v. Lewis",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-7123",
+  "first_page": "1124",
+  "last_page": "1124",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1124"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 79,
+    "ocr_confidence": 0.698,
+    "sha256": "b76d01ed6d32dc4190cc6168972e6b0f9745ae23f73e0efecb79842f8638c43f",
+    "simhash": "1:1061a29123bb0047",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Varnum v. Lewis, Acting Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7123.\nVarnum v. Lewis, Acting Warden."
+  },
+  "file_name": "1124-08",
+  "first_page_order": 1206,
+  "last_page_order": 1206
+}

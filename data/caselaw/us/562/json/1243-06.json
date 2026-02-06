@@ -1,0 +1,59 @@
+{
+  "id": 5982105,
+  "name": "Soucy v. Barnhart, Warden",
+  "name_abbreviation": "Soucy v. Barnhart",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8352",
+  "first_page": "1243",
+  "last_page": "1243",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1243"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.662,
+    "sha256": "81c310d368bfede7e54face6c3944521a07ec5967310ab5bc610dbabbebef39d",
+    "simhash": "1:551ff6407cf99c22",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Soucy v. Barnhart, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8352.\nSoucy v. Barnhart, Warden."
+  },
+  "file_name": "1243-06",
+  "first_page_order": 1265,
+  "last_page_order": 1265
+}

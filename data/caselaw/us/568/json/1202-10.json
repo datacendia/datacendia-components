@@ -1,0 +1,59 @@
+{
+  "id": 12432258,
+  "name": "Trinidad-Cotto v. United States",
+  "name_abbreviation": "Trinidad-Cotto v. United States",
+  "decision_date": "2013-02-25",
+  "docket_number": "No. 12-8331",
+  "first_page": "1202",
+  "last_page": "1202",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1202"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 80,
+    "ocr_confidence": 0.606,
+    "sha256": "98bc6f41b4048d14a72c65229196ac145adad5334ed3d0225539bdb4567f0862",
+    "simhash": "1:451a3ec046d1962c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Trinidad-Cotto v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8331.\nTrinidad-Cotto v. United States."
+  },
+  "file_name": "1202-10",
+  "first_page_order": 1278,
+  "last_page_order": 1278
+}

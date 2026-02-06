@@ -1,0 +1,719 @@
+{
+  "id": 12518519,
+  "name": "UNITED STATES of America, Appellee v. Jeffrey Henry WILLIAMSON, Also Known as Jeff Williamson, Appellant",
+  "name_abbreviation": "United States v. Williamson",
+  "decision_date": "2018-08-10",
+  "docket_number": "No. 15-3018",
+  "first_page": "124",
+  "last_page": "138",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "903 F.3d 124"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "D.C. Cir.",
+    "id": 11448,
+    "name": "Court of Appeals of the District of Columbia"
+  },
+  "jurisdiction": {
+    "id": 56,
+    "name_long": "District of Columbia",
+    "name": "D.C."
+  },
+  "cites_to": [
+    {
+      "cite": "465 U.S. 168",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11335001
+      ],
+      "weight": 4,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "178"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/465/0168-01"
+      ]
+    },
+    {
+      "cite": "422 U.S. 806",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9431
+      ],
+      "weight": 3,
+      "year": 1975,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/422/0806-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 144",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "492"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "392 F.3d 486",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3436554,
+        9188803
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "493",
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/364/0116-01",
+        "/f3d/392/0486-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 455",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "809 F.3d 672",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12310384,
+        4060098
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "676",
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/420/0426-01",
+        "/f3d/809/0672-01"
+      ]
+    },
+    {
+      "cite": "545 F.3d 1089",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3857824,
+        3573718
+      ],
+      "weight": 2,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "1093"
+        },
+        {
+          "page": "1095"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/545/1089-01",
+        "/us-app-dc/383/0278-01"
+      ]
+    },
+    {
+      "cite": "503 U.S. 159",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6223309
+      ],
+      "weight": 3,
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "165"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/503/0159-01"
+      ]
+    },
+    {
+      "cite": "552 U.S. 38",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3675664
+      ],
+      "weight": 6,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "51"
+        },
+        {
+          "page": "51"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/552/0038-01"
+      ]
+    },
+    {
+      "cite": "662 F.3d 551",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3850952,
+        3767723
+      ],
+      "weight": 2,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "556"
+        },
+        {
+          "page": "556"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/662/0551-01",
+        "/us-app-dc/398/0244-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 3553",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 7,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)(2)(A)"
+        },
+        {
+          "page": "(a)(2)(A)"
+        },
+        {
+          "page": "(a)(2)(A)"
+        },
+        {
+          "page": "403"
+        },
+        {
+          "page": "404"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "420 U.S. 28",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11642535
+      ],
+      "weight": 4,
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "30",
+          "parenthetical": "per curiam"
+        },
+        {
+          "parenthetical": "per curiam"
+        },
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/420/0028-01"
+      ]
+    },
+    {
+      "cite": "2014 WL 12695537",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 2,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "*3-4"
+        },
+        {
+          "page": "*4"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "745 F.3d 1226",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4154444,
+        4237701
+      ],
+      "weight": 3,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "1229"
+        },
+        {
+          "page": "1229"
+        },
+        {
+          "page": "1229"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/409/0058-01",
+        "/f3d/745/1226-01"
+      ]
+    },
+    {
+      "cite": "591 F.2d 903",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        521696,
+        3778982
+      ],
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "913"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/591/0903-01",
+        "/us-app-dc/192/0294-01"
+      ]
+    },
+    {
+      "cite": "88 F.3d 1243",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3695192,
+        9050155
+      ],
+      "weight": 2,
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "1249",
+          "parenthetical": "quoting United States v. Burkley , 591 F.2d 903, 913 (D.C. Cir. 1978) "
+        },
+        {
+          "page": "1249"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/319/0180-01",
+        "/f3d/88/1243-01"
+      ]
+    },
+    {
+      "cite": "748 F.2d 691",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        638601,
+        3806325
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "698"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/748/0691-01",
+        "/us-app-dc/242/0001-01"
+      ]
+    },
+    {
+      "cite": "287 U.S. 435",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        369577
+      ],
+      "weight": 5,
+      "year": 1932,
+      "pin_cites": [
+        {
+          "page": "442"
+        },
+        {
+          "page": "442"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/287/0435-01"
+      ]
+    },
+    {
+      "cite": "70 F.3d 1307",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3689390,
+        11933862
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "1311-12",
+          "parenthetical": "brackets removed"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/315/0095-01",
+        "/f3d/70/1307-01"
+      ]
+    },
+    {
+      "cite": "153 F.3d 749",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11707298,
+        2338907
+      ],
+      "weight": 5,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "752"
+        },
+        {
+          "page": "754"
+        },
+        {
+          "page": "754"
+        },
+        {
+          "page": "754"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/153/0749-01",
+        "/us-app-dc/332/0074-01"
+      ]
+    },
+    {
+      "cite": "2 U.S.C. \u00a7 192",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "369 U.S. 749",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6172124
+      ],
+      "weight": 12,
+      "year": 1962,
+      "pin_cites": [
+        {
+          "page": "752"
+        },
+        {
+          "page": "752"
+        },
+        {
+          "page": "764"
+        },
+        {
+          "page": "764"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/369/0749-01"
+      ]
+    },
+    {
+      "cite": "8 U.S.C. \u00a7 1326",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)(2)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "418 U.S. 87",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6171974
+      ],
+      "weight": 3,
+      "year": 1974,
+      "pin_cites": [
+        {
+          "page": "117",
+          "parenthetical": "citation and internal quotation marks omitted"
+        },
+        {
+          "parenthetical": "citation and internal quotation marks omitted"
+        },
+        {
+          "parenthetical": "citation and internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/418/0087-01"
+      ]
+    },
+    {
+      "cite": "549 U.S. 102",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3553887
+      ],
+      "weight": 15,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "108"
+        },
+        {
+          "page": "105"
+        },
+        {
+          "page": "108"
+        },
+        {
+          "page": "109"
+        },
+        {
+          "page": "109"
+        },
+        {
+          "page": "107, 110"
+        },
+        {
+          "page": "109"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/549/0102-01"
+      ]
+    },
+    {
+      "cite": "762 F.3d 1",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4180089,
+        4109909
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "13"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/762/0001-01",
+        "/us-app-dc/412/0001-01"
+      ]
+    },
+    {
+      "cite": "485 U.S. 58",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        13492
+      ],
+      "weight": 5,
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "62"
+        },
+        {
+          "page": "62"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/485/0058-01"
+      ]
+    },
+    {
+      "cite": "83 F.Supp.3d 394",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "case_ids": [
+        4289495
+      ],
+      "weight": 7,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "399"
+        },
+        {
+          "page": "395"
+        },
+        {
+          "page": "400"
+        },
+        {
+          "page": "400",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "401, 404"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-3d/83/0394-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 115",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 10,
+      "pin_cites": [
+        {
+          "page": "(a)(1)(B)"
+        },
+        {
+          "page": "(a)(1)(B)"
+        },
+        {
+          "page": "(a)(1)(B)"
+        },
+        {
+          "page": "(a)(1)(B)"
+        },
+        {
+          "page": "(a)(1)(B)"
+        },
+        {
+          "page": "(a)(1)(B)"
+        },
+        {
+          "page": "(a)(1)(B)"
+        },
+        {
+          "page": "(a)(1)"
+        },
+        {
+          "page": "(a)(1)(B)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1867",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1265,
+    "char_count": 34404,
+    "pagerank": {
+      "raw": 5.207966869300525e-08,
+      "percentile": 0.3291274896721778
+    },
+    "sha256": "478f494f1136d513c63ef4a034a7718ef8370fd4bc72aa95428c9ea28c04e411",
+    "simhash": "1:9b4efa716a3e155d",
+    "word_count": 5491
+  },
+  "last_updated": "2024-02-27T18:45:28.627343+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before: Garland, Chief Judge, and Rogers and Srinivasan, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Appellee\nv.\nJeffrey Henry WILLIAMSON, Also Known as Jeff Williamson, Appellant"
+    ],
+    "opinions": [
+      {
+        "text": "Opinion for the Court filed by Circuit Judge Srinivasan.\nSrinivasan, Circuit Judge:\nJeff Henry Williamson was convicted of threatening to murder a federal law enforcement officer. Williamson raises several challenges to his conviction and sentence in this appeal. We reject most of his challenges, except that we remand the case to the district court to give Williamson access to jury-commission records as required by 28 U.S.C. \u00a7 1867.\nI.\nThis case arises out of a 911 phone call Williamson made on June 19, 2014. In the call, Williamson threatened to murder a special agent of the Federal Bureau of Investigation named Brian Schmitt. Soon after, Williamson was charged with making a threat against a federal law enforcement officer \"with intent to retaliate against such ... officer on account of the performance of official duties.\" 18 U.S.C. \u00a7 115(a)(1)(B).\nWilliamson chose to represent himself, and the case proceeded to trial. At trial, the government sought to show that the threatening 911 phone call was the culmination of Williamson's longstanding obsession with Agent Schmitt, which dated back to a 2005 interaction between Schmitt and Williamson in Denver. In that interaction, Schmitt was involved in issuing Williamson a misdemeanor ticket for making harassing phone calls to the local FBI field office. Over the next three months, Schmitt was involved in issuing Williamson two additional tickets for making similar calls.\nAt trial, the government introduced evidence that, before the June 19, 2014, call at issue in this case, Williamson made a number of phone calls in which he had mentioned Schmitt. For example, on June 2, 2014, Williamson left fourteen messages for an Assistant U.S. Attorney in the District of Columbia. In his messages, Williamson complained about being harassed by FBI agents while he was in Washington, D.C., mentioning Schmitt by name several times. Williamson also referenced the tickets Schmitt had been involved in issuing him in Denver in 2005 and 2006. The series of messages became increasingly angry and threatening. In the last message, Williamson said that he would \"smash the f- out of\" the FBI agents he believed were harassing him, and \"plead not guilty by reason of entrapment.\" Suppl. App. 414.\nOne week later, on June 9, Williamson called the office of FBI Agent Steven Olson, the agent who supervised Schmitt in Denver. Williamson told Olson's assistant to \"tell Brian Schmitt and Steve Olson that I am going to hunt them down and kill them.\" Suppl. App. 86. Williamson then said something to the effect that he was going to \"pop them in the heads and blow them away.\" Id.\nTen days later, on June 19, Williamson issued the threat giving rise to his charge and conviction in this case. In a call to a 911 line, Williamson left a message in which he repeatedly stated that he would shoot FBI Agent Brian Schmitt \"in his f-in head.\" United States v. Williamson , 83 F.Supp.3d 394, 399 (D.D.C. 2015).\nAt trial, Williamson admitted that he \"did make the threat.\" App. 318. But he argued that he lacked the requisite intent to commit the crime because he had not issued the threat in retaliation against Schmitt for \"the performance of official duties.\" 18 U.S.C. \u00a7 115(a)(1)(B). Rather, Williamson alleged, Schmitt and other FBI agents had been harassing him over a period of years for his political activism and that the harassment continued until Williamson made the 911 call. Williamson argued that he made the threat merely to stop the harassment. As a result, Williamson contended, he had not violated 18 U.S.C. \u00a7 115(a)(1)(B).\nWilliamson also sought to argue that he had been entrapped into making the threat. He suggested that Schmitt's purpose for harassing him was to induce him to commit a crime. The district court denied discovery on entrapment and declined to issue an entrapment instruction, concluding that Williamson \"failed to 'proffer sufficient evidence from which a reasonable jury could find entrapment.' \" App. 159 (quoting Mathews v. United States , 485 U.S. 58, 62, 108 S.Ct. 883, 99 L.Ed.2d 54 (1988) ).\nThe jury convicted Williamson of making a threat in violation of 18 U.S.C. \u00a7 115(a)(1)(B). The district court sentenced him to 96 months of imprisonment. See Williamson , 83 F.Supp.3d at 395.\nOn appeal, Williamson's appointed counsel has submitted briefs challenging Williamson's conviction and sentence. This court granted Williamson leave to file supplemental pro se briefs, in which he has advanced the same arguments pressed by his appointed counsel and also offered several additional ones.\nII.\nThere are four arguments Williamson advances both through his appointed counsel and in his pro se briefs. First, he contends that the indictment was legally insufficient because it did not fairly inform him of the charged offense. Second, he argues that the district court erred in declining to instruct the jury on his proposed entrapment defense. Third, he submits that the district court improperly denied him access to jury-commission records. Fourth, he contends that the district court abused its discretion in several ways in sentencing him to 96 months of imprisonment.\nWe agree that Williamson was entitled to inspect jury-commission records under 28 U.S.C. \u00a7 1867, and therefore remand the case on that ground. We reject the three remaining arguments.\nA.\nTo be sufficient under the Constitution, an indictment \"need only inform the defendant of the precise offense of which he is accused so that he may prepare his defense and plead double jeopardy in any further prosecution for the same offense.\" United States v. Verrusio , 762 F.3d 1, 13 (D.C. Cir. 2014) ; see United States v. Resendiz-Ponce , 549 U.S. 102, 108, 127 S.Ct. 782, 166 L.Ed.2d 591 (2007). Federal Rule of Criminal Procedure 7(c) effectuates that understanding, requiring an indictment to contain \"a plain, concise, and definite written statement of the essential facts constituting the offense charged.\" To meet those requirements, \"[i]t is generally sufficient that an indictment set forth the offense in the words of the statute itself, as long as those words of themselves fully, directly, and expressly, without any uncertainty or ambiguity, set forth all the elements necessary to constitute the offence intended to be punished.\" Hamling v. United States , 418 U.S. 87, 117, 94 S.Ct. 2887, 41 L.Ed.2d 590 (1974) (citation and internal quotation marks omitted).\nThe Supreme Court's decision in Resendiz-Ponce is illustrative. There, the government indicted the defendant for attempted reentry into the United States in violation of 8 U.S.C. \u00a7 1326(a). The statute bars certain \"alien[s]\" from \"attempt[ing] to enter ... the United States.\" 8 U.S.C. \u00a7 1326(a)(2). The indictment echoed the statutory language, while adding a time and place of the charged offense, stating: \"On or about June 1, 2003,\" the defendant \"attempted to enter the United States of America at or near San Luis in the District of Arizona.\" 549 U.S. at 105, 127 S.Ct. 782. The Court explained that, by using the statutory language and specifying the time and place of the offense, the indictment gave the defendant fair notice of the charge against which he would need to defend himself, and also enabled him to protect himself against future prosecution for the same offense. Id. at 108, 127 S.Ct. 782. In short, the case exemplified the understanding that \"an indictment parroting the language of a federal criminal statute is often sufficient.\" Id. at 109, 127 S.Ct. 782.\nThe indictment in this case is much like the one upheld in Resendiz-Ponce . Here, the statute makes it a crime to \"threaten[ ] to assault ... or murder\" a \"Federal law enforcement officer ... with intent to retaliate against\" the \"officer on account of the performance of official duties.\" 18 U.S.C. \u00a7 115(a)(1)(B). As in Resendiz-Ponce , the indictment echoes the operative statutory text while also specifying the time and place of the offense (as well as the identity of the threatened officer): \"On or about June 19, 2014, within the District of Columbia, defendant ... did threaten to assault and murder a Federal law enforcement officer, that is, Brian Schmitt, a Special Agent with the Federal Bureau of Investigation, with intent to retaliate against such ... officer on account of the performance of his official duties.\" App. 47. And just as in Resendiz-Ponce , by parroting the statutory language and specifying the time and place of the offense and the identity of the threatened officer, the indictment adequately informed Williamson about the charge against him so that he could prepare his defense and protect his double-jeopardy rights.\nWilliamson contends that the indictment was insufficient because it did not identify particular \"official duties\" performed by Schmitt that motivated Williamson's threat. The Court in Resendiz-Ponce rejected a similar argument. The defendant there, observing that the elements of the attempted-reentry offense include the commission of an overt act, contended that the indictment was deficient because it failed to allege any specific overt act he had performed. 549 U.S. at 109, 127 S.Ct. 782. The Court, though, thought it was enough for the indictment to allege the performance of an overt act in general (which the indictment had implicitly done by alleging an attempt to enter the United States), and that there was no need to specify a particular overt act. Id. at 107, 110, 127 S.Ct. 782. Here, it was likewise enough for the indictment to allege-in concert with the statutory language-that a threat was made \"on account of the performance of official duties\" in general, 18 U.S.C. \u00a7 115(a)(1)(B), without any need to specify a particular official duty.\nIt is true that, while parroting the statutory language is \"often sufficient,\" that is not invariably so. Resendiz-Ponce , 549 U.S. at 109, 127 S.Ct. 782. Williamson relies, for instance, on Russell v. United States , in which the government had indicted the defendants for refusing to answer questions before a congressional subcommittee. 369 U.S. 749, 752, 82 S.Ct. 1038, 8 L.Ed.2d 240 (1962). That statute barred individuals from refusing \"to answer any question pertinent to the subject under inquiry\" before a congressional committee. 2 U.S.C. \u00a7 192. The indictment contained no information identifying the particular matter \"under inquiry\" before the subcommittee, instead using the generic terms of the statute. Russell , 369 U.S. at 752, 82 S.Ct. 1038. The Court held that the indictment was insufficient. Id. at 764, 82 S.Ct. 1038. Because \"the very core of criminality\" under the statute is \"pertinency to the question under inquiry,\" the matter under inquiry is \"central to every prosecution under the statute.\" Id. The Court thus held that the defendants could not be fairly informed of the charges against them unless the indictment identified the subject of the subcommittee's inquiry. Id.\nThat is untrue of any particular \"official duties\" performed by a threatened federal officer for purposes of a prosecution under 18 U.S.C. \u00a7 115(a)(1)(B). Specifying a particular official duty (or duties) that may occasion a threat against an officer is not at all \"central to every prosecution under the statute.\" Russell , 369 U.S. at 764, 82 S.Ct. 1038. Nor is it \"the very core of criminality\" under the statute. Id. The statute speaks in terms of a threat made \"on account of the performance of official duties,\" not to draw attention to a particular official duty, but instead to assure that the threat generally relates to the officer's performance of official duties rather than to a personal dispute having nothing to do with the officer's job functions. For instance, the statute would not reach a threat arising from a personal dispute with a neighbor who happens be a law enforcement officer, where the subject of the disagreement is entirely unconnected to the officer's performance of his job.\nHere, the indictment, by restating the statutory language, fairly informed Williamson that he was being charged with threatening Schmitt in retaliation for Schmitt's \"performance of official duties,\" 18 U.S.C. \u00a7 115(a)(1), as opposed to threatening Schmitt for reasons unrelated to his law enforcement responsibilities.\nThere was no need for the indictment to go beyond the statute's terms on that score. And more generally, the indictment fairly informed Williamson of the charge against him so as to satisfy the Constitution and Rule 7(c).\nB.\nWilliamson argues next that the district court erred in declining to instruct the jury on his proposed entrapment defense. Reviewing the matter de novo and assuming that Williamson's version of the facts is true, see United States v. Glover , 153 F.3d 749, 752 (D.C. Cir. 1998), we conclude that the district court properly rejected Williamson's entrapment defense as a matter of law.\nThe entrapment defense protects defendants who would have refrained from committing an offense absent government inducement. The central question in an entrapment case is \"whether government agents 'implanted in the mind of an innocent person the disposition to commit the alleged offense and induced its commission in order that they may prosecute.' \" United States v. McKinley , 70 F.3d 1307, 1311-12 (D.C. Cir. 1995) (brackets removed) (quoting Sorrells v. United States , 287 U.S. 435, 442, 53 S.Ct. 210, 77 L.Ed. 413 (1932) ). We consider entrapment under a two-step framework.\nFirst, the defendant must introduce evidence that the government induced her to commit the crime. Id. at 1312. \"The government's behavior amounts to inducement when it was 'such that a law-abiding citizen's will to obey the law could have been overborne.' \" Glover , 153 F.3d at 754 (quoting United States v. Kelly , 748 F.2d 691, 698 (D.C. Cir. 1984) ). A range of government conduct could qualify as inducement under that standard, including \"persuasion, fraudulent representations, threats, coercive tactics, harassment, promises of reward, or pleas based on need, sympathy or friendship.\" United States v. Sanchez , 88 F.3d 1243, 1249 (D.C. Cir. 1996) (quoting United States v. Burkley , 591 F.2d 903, 913 (D.C. Cir. 1978) ). But inducement generally \"requires a showing that the government agent actually solicited or suggested the criminal conduct.\" United States v. Solofa , 745 F.3d 1226, 1229 (D.C. Cir. 2014).\nSecond, if the defendant introduces sufficient evidence of government inducement, the burden shifts to the government to prove beyond a reasonable doubt that the defendant was predisposed to commit the crime. Glover , 153 F.3d at 754. If the government fails to meet its burden of proving predisposition, the defendant will be entitled to acquittal on entrapment grounds. See id.\nA defendant is only \"entitled to an entrapment instruction when there is sufficient evidence from which a reasonable jury could find entrapment.\" Mathews , 485 U.S. at 62, 108 S.Ct. 883. Here, the district court determined that Williamson failed at the first step because he did not introduce evidence of government inducement. See United States v. Williamson , 2014 WL 12695537, at *3-4 (D.D.C. Oct. 20, 2014).\nWilliamson sought to argue that Agent Schmitt and other FBI agents had engaged in a pattern of harassment over several years with the specific aim of causing Williamson to commit a threatening or violent act for which he could be imprisoned. Williamson alleged he had complained about the harassment to various authorities, to no avail. According to Williamson's account, the agents' harassing conduct, coupled with the government's failure to respond to his complaints, provoked him to issue the threat because that was his only means of stopping the harassment.\nThe district court correctly concluded that Williamson failed to proffer sufficient evidence of inducement for a reasonable jury to conclude that he was entrapped. It is undisputed that Williamson made no \"showing that the government agent[s] actually solicited or suggested\" that he make a violent threat against a law enforcement officer. Solofa , 745 F.3d at 1229.\nWilliamson notes the language in our decision in Sanchez indicating that \"harassment\" could also amount to inducement. See 88 F.3d at 1249. Insofar as government agents' harassment could constitute inducement, it could qualify as inducement under our decisions only if it amounted to a solicitation or suggestion that he threaten a law enforcement officer, Solofa , 745 F.3d at 1229, and if it sufficed to overcome \"a law-abiding citizen's will to obey the law,\" Glover , 153 F.3d at 754. As to the former, Williamson offered no evidence that the harassment was so aimed. As to the latter, as the district court explained, the government harassment, though significant assuming the truth of the allegations, would not lead a law-abiding citizen to threaten to murder a federal law enforcement officer. See Williamson , 2014 WL 12695537, at *4.\nA contrary conclusion, moreover, would risk giving the entrapment defense an unduly broad sweep. If the alleged harassment in this case could be seen as adequate inducement to cause an individual to threaten to assault or murder a federal law enforcement officer as a means of stopping the harassment, it might also be seen as adequate inducement to cause him to commit the assault or murder for the same reason. Beyond the anomalous results of such an understanding, recognizing entrapment under such circumstances would take the defense well beyond its purpose: to prevent law enforcement officers from \"implant[ing] in the mind of an innocent person the disposition to commit the alleged offense\" so that they \"may prosecute\" her. Sorrells , 287 U.S. at 442, 53 S.Ct. 210.\nFor the reasons stated, Williamson failed to introduce evidence that the government induced him into threatening to murder Agent Schmitt. The district court thus did not err in declining to instruct the jury on Williamson's proposed entrapment defense.\nC.\nWilliamson argues next that the district court incorrectly denied him access to jury-commission records he was entitled to inspect under 28 U.S.C. \u00a7 1867. The government concedes that the district court erred in denying Williamson access to those records. Both sides are correct.\nSection 1867(f) allows a defendant to \"inspect, reproduce, and copy\" jury records when preparing a motion to challenge the composition of the jury on the ground that it failed to reflect a fair cross section of the community. 28 U.S.C. \u00a7 1867(a), (f). The district court denied Williamson access to jury records because he did not submit a sworn statement accompanying his request for the records and because he did not plausibly allege a violation of his right to a jury that represents a fair cross section of the community. But to access jury records under section 1867(f), a defendant need not submit a sworn statement containing such allegations: \"a litigant has essentially an unqualified right to inspect jury lists.\" Test v. United States , 420 U.S. 28, 30, 95 S.Ct. 749, 42 L.Ed.2d 786 (1975) (per curiam). As Williamson points out, a sworn statement of that kind is required when ultimately submitting a motion to challenge the composition of a jury under section 1867(d), but not when seeking to inspect jury records as the initial step in deciding whether to file such a motion. See id.\nWe therefore remand the case for the district court to allow Williamson access to jury-commission records pursuant to section 1867(f).\nD.\nWe now take up Williamson's arguments challenging his sentence.\n1.\nAfter the jury found Williamson guilty of threatening to murder Agent Schmitt, the district court held a hearing to determine the sentence. Before the hearing, the court notified Williamson that it was considering an upward departure from the sentencing guidelines range in light of a guidelines comment providing that an upward departure might be warranted if a defendant engages in \"a prolonged period of making harassing communications to the same victim.\" Williamson , 83 F.Supp.3d at 400 (quoting U.S.S.G. \u00a7 2A6.1 cmt. 4(B) ).\nAt the sentencing hearing, the court first determined that Williamson's criminal history and offense level yielded a sentencing guidelines range of 15 to 21 months of imprisonment. The court then concluded, as it had suggested in its pre-hearing notice, that it would depart upwards and issue an above-guidelines sentence based \"in part, not entirely, but in part\" on Comment 4(B) of Guidelines Section 2A6.1. Suppl. App. 348. The court explained that Williamson had engaged in a series of threatening communications over a period of years related to Schmitt and the FBI.\nThe court then went on to consider the factors set out in 18 U.S.C. \u00a7 3553(a). It explained that the same considerations underlying its departure based on Comment 4(B) also demonstrated that \"the seriousness of the offense is quite grave\" for purposes of section 3553(a)(2)(A). Suppl. App. 352. The court additionally explained that it sought to fix a sentence that appropriately took into account the importance of incapacitation, respect for law, and deterrence. See 18 U.S.C. \u00a7 3553(a)(2)(A)-(C). Based on those considerations, the court decided to impose a sentence of 96 months of imprisonment followed by 36 months of supervised release. The court later issued a written order elaborating on the reasons for its sentence. See Williamson , 83 F.Supp.3d 394.\n2.\nWe review sentencing challenges using a two-step analysis. First, we consider whether the district court committed a \"significant procedural error\" in arriving at the sentence. United States v. Lawrence , 662 F.3d 551, 556 (D.C. Cir. 2011) ; see Gall v. United States , 552 U.S. 38, 51, 128 S.Ct. 586, 169 L.Ed.2d 445 (2007). Second, if the district court's sentencing decision was procedurally sound, we consider whether the sentence is \"substantively reasonable.\" Lawrence , 662 F.3d at 556. In that regard, we examine \"the totality of the circumstances, including the extent of any variance from the guidelines range.\" Gall , 552 U.S. at 51, 128 S.Ct. 586. Our review of both the procedural soundness and substantive reasonableness of a sentence is for abuse of discretion. Id.\nWilliamson challenges his sentence on three grounds. First, he argues that the district court erred in relying on Comment 4(B) as a basis for departing from the guidelines range. Second, he contends that the district court unlawfully increased his sentence based on conduct protected by the First Amendment. Third, he submits that the length of his term of imprisonment is substantively unreasonable. Each of those arguments lacks merit.\na.\nWilliamson first argues that the district court erred in departing upwards from the guidelines range based on Comment 4(B). That comment provides that an upward departure \"may be warranted\" if there is \"a prolonged period of making harassing communications to the same victim.\" U.S.S.G. \u00a7 2A6.1 cmt. 4(B). Williamson contends that the district court could not rely on the comment because, in his view, it applies only if harassing communications are made directly to the victim rather than to some third party. We conclude that the district court did not abuse its discretion when it decided to impose an above-guidelines sentence of 96 months of imprisonment based in part on Comment 4(B) and the concerns underlying it.\nThe district court's decision to sentence Williamson above the guidelines range did not stand or fall on a determination that the precise terms of Comment 4(B) squarely apply to the circumstances of this case. To be sure, the court believed that the comment applies to the facts of the case and relied on the comment in explaining its decision to sentence Williamson above the guidelines. But the court made apparent that, regardless of whether Comment 4(B) directly applies by its terms, the court's above-guidelines sentence was warranted in any event based on the factors set out in section 3553(a) and on the general concerns animating the comment.\nFor instance, in considering the need for the sentence \"to reflect the seriousness of the offense,\" 18 U.S.C. \u00a7 3553(a)(2)(A), the court explained that, \"with or without the commentary as to [the ] prolonged period of making threats ,\" \"the duration of these threats, the repetition of these threats, [and] the increased nature of violence or threatened violence\" all led the court \"to find that [the offense is] very serious.\" Suppl. App. 352 (emphasis added). When rejecting Williamson's narrower interpretation of the terms of Comment 4(B), the court explained that \"the spirit behind Comment n.4(B) amply applies,\" and also noted that Williamson \"fail[ed] to recognize that the Sentencing Guidelines are no longer mandatory.\" Williamson , 83 F.Supp.3d at 402 & n.6 (emphasis added). Similarly, when the court gave notice to Williamson that it was considering an upward departure in light of his prolonged period of threats, it reasoned that \"an upward departure may be warranted\" pursuant to \"comment n.4(B) and common sense .\" Id. at 400 (emphasis added).\nAdditionally, the court explained that other factors in section 3553(a) justified its above-guidelines sentence. In considering the need for the sentence \"to promote respect for the law,\" \"afford adequate deterrence,\" and \"protect the public from further crimes of the defendant,\" 18 U.S.C. \u00a7 3553(a)(2)(A)-(C), the court recounted Williamson's criminal history and record of renewing criminal conduct after release from imprisonment. In light of his nearly immediate resumption of threatening conduct towards Agent Schmitt upon release from prison in the past, the court had \"no confidence that Mr. Williamson ... will be law-abiding in the future.\" Id. at 403. The court found \"[m]ost troubling\" that Williamson \"already has served an above-Guidelines sentence in Texas of 42 months for threatening to blow up FBI headquarters and that sentence failed to deter him from committing further crimes.\" Id. A sentence of 96 months of imprisonment, the court determined, was necessary to address those considerations. Id. at 404.\nThe court's analysis makes evident that its decision to impose that sentence would have been the same regardless of whether the terms of Comment 4(B) directly apply to the circumstances of the case. And we cannot say that the district court, relying in part on the section 3553(a) factors and on the \"spirit\" animating Comment 4(B), abused its discretion in concluding that an above-guidelines sentence of 96 months is appropriate in the circumstances.\nb.\nWilliamson next contends that the district court unlawfully enhanced his sentence based on First Amendment-protected activity: namely, his various phone calls and letters petitioning the government for relief from alleged government harassment. We conclude that the district court properly considered the history of Williamson's communications with government officials in crafting an appropriate sentence.\nIn Dawson v. Delaware , the Supreme Court held that the Constitution does not prevent a sentencing court from considering an individual's First Amendment-protected \"beliefs and associations\" in fixing a sentence, when those beliefs and associations are relevant to determining an appropriate sentence. 503 U.S. 159, 165, 112 S.Ct. 1093, 117 L.Ed.2d 309 (1992). Here, all of the ostensibly First Amendment-protected activity considered by the district court was relevant to the sentencing decision. Under Dawson , the court therefore could take into account that activity in determining a suitable sentence. The court found that Williamson's communications established a pattern of disturbing conduct that worsened over time, bearing on both the seriousness of his offense and on the need to protect the public generally (and Agent Schmitt specifically) from harm. The court did not violate the First Amendment in doing so.\nc.\nWilliamson last argues that his sentence is substantively unreasonable. We again disagree.\nIn considering a defendant's challenge to the substantive reasonableness of a sentence, we ask the following question: \"In light of the facts and circumstances of the offense and offender, is the sentence so unreasonably high or unreasonably low as to constitute an abuse of discretion by the district court?\" United States v. Gardellini , 545 F.3d 1089, 1093 (D.C. Cir. 2008). \"It will be the unusual case when an appeals court can plausibly say that a sentence\" is substantively unreasonable in light of all the circumstances. In re Sealed Case , 809 F.3d 672, 676 (D.C. Cir. 2016) (citation omitted).\nWilliamson was sentenced to 96 months of imprisonment based on a guidelines range of 15-21 months. Williamson , 83 F.Supp.3d at 401, 404. According to Williamson, no other person convicted under 18 U.S.C. \u00a7 115(a)(1)(B) with the same criminal history has received a term of imprisonment so lengthy as Williamson. See App. 405. We conclude that, while Williamson's sentence represents a significant increase above the upper end of the guidelines range, the district court did not abuse its discretion in imposing that sentence.\nAs explained, the district court offered a thorough explanation for its above-guidelines sentence, based on its experience with-and assessment of-the facts and circumstances of the case. The court concluded that Williamson's offense was significantly more serious than the statute captured, that a guidelines sentence would not adequately deter Williamson in light of his repeated history of similar misconduct and the failure of a previous above-guidelines sentence to cause him to correct his ways, and that he presented a substantial danger to the public and to Agent Schmitt. The district court thus made \"the kind of defendant-specific determinations that are within the special competence of sentencing courts.\" Gardellini , 545 F.3d at 1095. We cannot conclude that the district court's sentence was substantively unreasonable.\nIII.\nWilliamson makes a number of additional arguments in his pro se briefing. We have given those arguments thorough consideration and have concluded that they lack merit. We specifically address two of them here: first, Williamson argues that the district judge should have recused herself; and second, Williamson argues that his Sixth Amendment right to self-representation was violated during pre-trial proceedings.\nA.\nRecusal is required under 28 U.S.C. \u00a7 455 if \"a reasonable and informed observer would question the judge's impartiality.\" SEC v. Loving Spirit Found. Inc. , 392 F.3d 486, 493 (D.C. Cir. 2004) (citation omitted). Recusal is required under 28 U.S.C. \u00a7 144 if a judge \"has a personal bias or prejudice\" either against or in favor of a party. We review the denial of a motion to recuse under section 455 for abuse of discretion. Id. We have not decided the appropriate standard of review with respect to recusal motions filed under section 144. See id. at 492. Some circuits apply a de novo standard, while others use abuse of discretion. Id. We need not resolve the issue here because Williamson's argument for recusal fails even under de novo review.\nThe majority of Williamson's arguments in favor of recusal are rooted in legal disagreements with the district judge's rulings against him, which do not afford grounds for a recusal. See id at 493. Williamson also contends that the district judge dealt with him unduly harshly during pretrial and trial proceedings. Our review of the proceedings confirms, however, that the district judge treated Williamson even-handedly and afforded him significant latitude to make extended arguments on the issues he wanted to discuss. See App. 1-41 (documenting numerous motions that Williamson filed); Suppl. App. 130-208 (defendant's questioning of Agent Schmitt at trial); Suppl. App. 311-47 (defendant's sentencing arguments). The district court therefore did not err in declining to grant Williamson's motion for recusal.\nB.\nWilliamson argues that the district court allowed standby counsel to take over his defense, infringing his Sixth Amendment right to represent himself at trial. See Faretta v. California , 422 U.S. 806, 95 S.Ct. 2525, 45 L.Ed.2d 562 (1975). The Supreme Court has generally upheld the appointment of standby counsel when a defendant exercises the right of self-representation, subject to two conditions. \"First, the pro se defendant is entitled to preserve actual control over the case he chooses to present to the jury.\" McKaskle v. Wiggins , 465 U.S. 168, 178, 104 S.Ct. 944, 79 L.Ed.2d 122 (1984). \"Second, participation by standby counsel without the defendant's consent should not be allowed to destroy the jury's perception that the defendant is representing himself.\" Id.\nHere, Williamson's argument is grounded in a complaint that standby counsel did not give him sufficient notice of a pre-trial hearing at which he was asked to justify his request for access to certain government officials whom he hoped to call as defense witnesses. The result, Williamson submits, is that standby counsel effectively blocked him from calling certain witnesses. Williamson's contention lacks merit. Williamson had sufficient time to explain why the witnesses were necessary to his case and failed to do so. Any actions by standby counsel in asking for the hearing did not vitiate Williamson's control over the case he wanted to present to the jury, and could not have affected the jury's perception of Williamson's control over the case because the events occurred before the jury was empaneled.\n* * * * *\nFor the foregoing reasons, we affirm Williamson's conviction and sentence except that we remand the case to the district court so that it can give Williamson access to jury-commission records consistent with 28 U.S.C. \u00a7 1867.\nSo ordered .",
+        "type": "majority",
+        "author": "Opinion for the Court filed by Circuit Judge Srinivasan."
+      }
+    ],
+    "attorneys": [
+      "Richard K. Gilbert, appointed by the court, argued the cause and filed briefs for appellant.",
+      "Jeffrey H. Williamson, pro se, filed briefs for appellant.",
+      "Daniel J. Lenerz, Assistant U.S. Attorney, argued the cause for appellee. With him on the brief were Elizabeth Trosman and Frederick W. Yette, Assistant U.S. Attorneys."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Appellee\nv.\nJeffrey Henry WILLIAMSON, Also Known as Jeff Williamson, Appellant\nNo. 15-3018\nUnited States Court of Appeals, District of Columbia Circuit.\nArgued December 8, 2017\nDecided August 10, 2018\nRichard K. Gilbert, appointed by the court, argued the cause and filed briefs for appellant.\nJeffrey H. Williamson, pro se, filed briefs for appellant.\nDaniel J. Lenerz, Assistant U.S. Attorney, argued the cause for appellee. With him on the brief were Elizabeth Trosman and Frederick W. Yette, Assistant U.S. Attorneys.\nBefore: Garland, Chief Judge, and Rogers and Srinivasan, Circuit Judges."
+  },
+  "file_name": "0124-01",
+  "first_page_order": 124,
+  "last_page_order": 138
+}

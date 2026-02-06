@@ -1,0 +1,59 @@
+{
+  "id": 12416439,
+  "name": "Castro-Davis v. United States",
+  "name_abbreviation": "Castro-Davis v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5644",
+  "first_page": "920",
+  "last_page": "920",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 920"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 78,
+    "ocr_confidence": 0.701,
+    "sha256": "cbe4aa91912333f7c927306a6c7e3e01a84a429795747f89c0373240540114a0",
+    "simhash": "1:850bc742ce00186a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Castro-Davis v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5644.\nCastro-Davis v. United States."
+  },
+  "file_name": "0920-03",
+  "first_page_order": 996,
+  "last_page_order": 996
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5959596,
+  "name": "King v. Farris et al.",
+  "name_abbreviation": "King v. Farris",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-567",
+  "first_page": "1137",
+  "last_page": "1137",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1137"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 69,
+    "ocr_confidence": 0.634,
+    "sha256": "614f47cdc9caf7c99437398b765f1f45c71a3d31b12baa898819af694ec3d3f7",
+    "simhash": "1:0a4800b96b8e9037",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "King v. Farris et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-567.\nKing v. Farris et al."
+  },
+  "file_name": "1137-08",
+  "first_page_order": 1159,
+  "last_page_order": 1159
+}

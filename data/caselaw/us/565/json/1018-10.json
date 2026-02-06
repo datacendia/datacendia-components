@@ -1,0 +1,59 @@
+{
+  "id": 12232740,
+  "name": "Arellano v. United States",
+  "name_abbreviation": "Arellano v. United States",
+  "decision_date": "2011-11-07",
+  "docket_number": "No. 11-6655",
+  "first_page": "1018",
+  "last_page": "1018",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1018"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.617,
+    "sha256": "1e1d38c4a9d4715b4227f982a163c6972c8ad65ecb211e3f6438a75801f19316",
+    "simhash": "1:928bce714fafb15b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Arellano v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6655.\nArellano v. United States."
+  },
+  "file_name": "1018-10",
+  "first_page_order": 1100,
+  "last_page_order": 1100
+}

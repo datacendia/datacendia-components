@@ -1,0 +1,61 @@
+{
+  "id": 5939931,
+  "name": "McSwain v. United States",
+  "name_abbreviation": "McSwain v. United States",
+  "decision_date": "2010-11-29",
+  "docket_number": "No. 08-9560",
+  "first_page": "1077",
+  "last_page": "1077",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1077"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 151,
+    "ocr_confidence": 0.559,
+    "sha256": "bf0add83cb38885c5f1e07ee04d63010d75905af7df22edb06d9f5d679bb3634",
+    "simhash": "1:8933eb02658c5882",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "McSwain v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 08-9560.\nMcSwain v. United States."
+  },
+  "file_name": "1077-15",
+  "first_page_order": 1099,
+  "last_page_order": 1099
+}

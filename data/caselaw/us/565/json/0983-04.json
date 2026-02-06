@@ -1,0 +1,59 @@
+{
+  "id": 12230834,
+  "name": "Roberson v. Mississippi",
+  "name_abbreviation": "Roberson v. Mississippi",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. 11-6055",
+  "first_page": "983",
+  "last_page": "983",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 983"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 73,
+    "ocr_confidence": 0.628,
+    "sha256": "ddd7857f69df6fad8b774a03311d54afa071403bc7951af63651b6ccb6d5b79e",
+    "simhash": "1:6391e16e42591444",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Roberson v. Mississippi."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Miss. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6055.\nRoberson v. Mississippi."
+  },
+  "file_name": "0983-04",
+  "first_page_order": 1065,
+  "last_page_order": 1065
+}

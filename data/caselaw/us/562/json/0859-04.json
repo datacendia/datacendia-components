@@ -1,0 +1,59 @@
+{
+  "id": 5911658,
+  "name": "McDaniel v. McKee, Warden",
+  "name_abbreviation": "McDaniel v. McKee",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11018",
+  "first_page": "859",
+  "last_page": "859",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 859"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.473,
+    "sha256": "1b9eed30b87ffdf65b96532da06782e1009cd5b4d6dff8fea8d8e777c543262e",
+    "simhash": "1:e6aa0210aa1f0a36",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McDaniel v. McKee, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11018.\nMcDaniel v. McKee, Warden."
+  },
+  "file_name": "0859-04",
+  "first_page_order": 881,
+  "last_page_order": 881
+}

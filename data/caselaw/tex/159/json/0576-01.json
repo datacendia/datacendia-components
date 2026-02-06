@@ -1,0 +1,109 @@
+{
+  "id": 2257087,
+  "name": "F. A. Hubacek v. Ennis State Bank",
+  "name_abbreviation": "Hubacek v. Ennis State Bank",
+  "decision_date": "1959-05-27",
+  "docket_number": "No. A-7311",
+  "first_page": "576",
+  "last_page": "577",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "159 Tex. 576"
+    },
+    {
+      "type": "parallel",
+      "cite": "325 S.W.2d 124"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "322 S.W. 2d 409",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10165829
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/322/0409-01"
+      ]
+    },
+    {
+      "cite": "317 S.W. 2d 30",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2257113,
+        10155487
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/159/0166-01",
+        "/sw2d/317/0030-01"
+      ]
+    },
+    {
+      "cite": "308 S.W. 2d 60",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10159631
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/308/0060-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 214,
+    "char_count": 3266,
+    "ocr_confidence": 0.598,
+    "pagerank": {
+      "raw": 2.0087575585750692e-07,
+      "percentile": 0.7439839156645812
+    },
+    "sha256": "67ffab646ce62006f99a7f6d09f4cf79aaf856d11fcfe4a0c03a1a58691acaab",
+    "simhash": "1:38ec28b026070789",
+    "word_count": 571
+  },
+  "last_updated": "2024-02-27T19:26:07.846026+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "F. A. Hubacek v. Ennis State Bank."
+    ],
+    "opinions": [
+      {
+        "text": "PER CURIAM:\nThe trial court judgment in this case awarded Ennis State Bank a recovery of $1,562.84 against Hubacek as the amount due the bank on certain notes, but offset against that recovery the sum of $912.43 found to be due Hubacek under the terms of an oral contract between the parties. Holding that the parol evidence rule precluded proof of the oral contract and that there was therefore no evidence to support the judgment in so far as it allowed the offset, the Court of Civil Appeals reversed the trial court\u2019s judgment and rendered judgment for the bank for $1,562.84. 308 S.W. 2d 60. This Court disagreed with the holding of the Court of Civil Appeals mentioned above and held that there was evidence of probative force to support the decreed offset, but remanded the cause to the Court of Civil Appeals to consider and determine the bank\u2019s point of error that the jury\u2019s finding that the oral contract was made contrary to to the great weight and preponderance of the evidence. This volume 166, 317 S.W. 2d 30. The Court of Civil Appeals has now considered and sustained that point of error and has reversed the judgment of the trial court and remanded the cause to that court for retrial. 322 S.W. 2d 409.\nThe judgment of the Court of Civil Appeals is concurred in by all three of the Justices. One of the Associate Justices wrote at some length. The Chief Justice and the other Associate Justice jointly filed a short concurring opinion as follows:\n\u201cWe are of the view that the verdict of the jury in the court below is against the great weight and preponderance of the evidence, and therefore concur in the judgment reversing and remanding this cause.\u201d\nThe judgment of the Court of Civil Appeals is attacked by application for writ of error in this Court on the ground that the opinion of the third Justice discloses that the conclusion reached to sustain the point of error was reached on the basis of evidence improperly before the court, by the application of erroneous rules of law and on a theory different from that on which the case was tried.\nThe concurring opinion quoted above does not disclose that it is subject to any of the criticism outlined. We must assume that the concurring Justices reached the conclusion they did only after weighing the evidence properly before them and with proper rules of law as their guide. A judgment of a Court of Civil Appeals reversing a judgment of a trial court and remanding the cause for retrial on the ground that a verdict of a jury is contrary to the great weight and preponderance of the evidence, when reached under proper rules of law and after weighing only the evidence which is properly before it, is final and binding on this Court and we have no jurisdiction to review it. Article 5, sec. 6, Vernon\u2019s Annotated Constitution of Texas. Accordingly, we have no jurisdiction to review the alleged errors \u2022in the opinion of the third Justice and the application is dismissed for want of jurisdiction. Rule 483, Texas Rule of Civil Procedure.\nOpinion delivered May 27, 1959.",
+        "type": "majority",
+        "author": "PER CURIAM:"
+      }
+    ],
+    "attorneys": [
+      "Griffith & Lumpkins, of Waxahachie, for petitioner.",
+      "Goe P. Hines, of Ennis, and Ralph E. Hartman, of Dallas, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "F. A. Hubacek v. Ennis State Bank.\nNo. A-7311.\nDecided May 27, 1959.\n(325 S.W. 2d Series 124)\nGriffith & Lumpkins, of Waxahachie, for petitioner.\nGoe P. Hines, of Ennis, and Ralph E. Hartman, of Dallas, for respondent."
+  },
+  "file_name": "0576-01",
+  "first_page_order": 590,
+  "last_page_order": 591
+}

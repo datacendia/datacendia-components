@@ -1,0 +1,738 @@
+{
+  "id": 12657129,
+  "name": "Eugene Brooks LILLY, et al., Appellants, v. POLSINELLI, PC, et al., Respondents.",
+  "name_abbreviation": "Lilly v. Polsinelli, PC",
+  "decision_date": "2018-04-10",
+  "docket_number": "WD 80698",
+  "first_page": "562",
+  "last_page": "571",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "552 S.W.3d 562"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Mo. App. Ct.",
+    "id": 30098,
+    "name": "Missouri Court of Appeals, Western District"
+  },
+  "jurisdiction": {
+    "id": 37,
+    "name_long": "Missouri",
+    "name": "Mo."
+  },
+  "cites_to": [
+    {
+      "cite": "174 S.W.3d 53",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8900112,
+        8900020
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "56"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/174/0053-02",
+        "/sw3d/174/0053-01"
+      ]
+    },
+    {
+      "cite": "423 S.W.3d 920",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6950994
+      ],
+      "weight": 3,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "922"
+        },
+        {
+          "page": "927"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/423/0920-01"
+      ]
+    },
+    {
+      "cite": "509 S.W.3d 840",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12373542
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/509/0840-01"
+      ]
+    },
+    {
+      "cite": "404 S.W.3d 914",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7093508
+      ],
+      "weight": 2,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "917"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/404/0914-01"
+      ]
+    },
+    {
+      "cite": "913 S.W.2d 352",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10009713
+      ],
+      "year": 1996,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/913/0352-01"
+      ]
+    },
+    {
+      "cite": "491 S.W.2d 3",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10117887
+      ],
+      "year": 1973,
+      "pin_cites": [
+        {
+          "page": "5"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/491/0003-01"
+      ]
+    },
+    {
+      "cite": "110 S.W.3d 839",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9105671
+      ],
+      "weight": 2,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "840"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/110/0839-01"
+      ]
+    },
+    {
+      "cite": "298 S.W.3d 8",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7297012
+      ],
+      "year": 2009,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/298/0008-01"
+      ]
+    },
+    {
+      "cite": "456 S.W.3d 829",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6880956
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "839",
+          "parenthetical": "internal citation and quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/456/0829-01"
+      ]
+    },
+    {
+      "cite": "516 S.W.3d 867",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12377899
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "869-70"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/516/0867-01"
+      ]
+    },
+    {
+      "cite": "785 S.W.2d 70",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9992135
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "75",
+          "parenthetical": "\"Persons are conclusively presumed to know the law.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/785/0070-01"
+      ]
+    },
+    {
+      "cite": "282 Kan. 651",
+      "category": "reporters:state",
+      "reporter": "Kan.",
+      "case_ids": [
+        4251624
+      ],
+      "weight": 2,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "664"
+        },
+        {
+          "page": "868"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/kan/282/0651-01"
+      ]
+    },
+    {
+      "cite": "480 S.W.3d 330",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6822506
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "333"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/480/0330-01"
+      ]
+    },
+    {
+      "cite": "468 S.W.3d 435",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6844859
+      ],
+      "year": 2015,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/468/0435-01"
+      ]
+    },
+    {
+      "cite": "483 S.W.3d 390",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6811290
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "401"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/483/0390-01"
+      ]
+    },
+    {
+      "cite": "443 S.W.3d 627",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6910102
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "658"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/443/0627-01"
+      ]
+    },
+    {
+      "cite": "337 S.W.3d 757",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7320236
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "758"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/337/0757-01"
+      ]
+    },
+    {
+      "cite": "492 S.W.3d 159",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6782819
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "162",
+          "parenthetical": "internal quotation marks and citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/492/0159-01"
+      ]
+    },
+    {
+      "cite": "508 S.W.3d 189",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12370756
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "192",
+          "parenthetical": "internal citation and quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/508/0189-01"
+      ]
+    },
+    {
+      "cite": "361 S.W.3d 400",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7316028
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "403"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw3d/361/0400-01"
+      ]
+    },
+    {
+      "cite": "262 S.W.3d 216",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8359411
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "220",
+          "parenthetical": "citations and internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw3d/262/0216-01"
+      ]
+    },
+    {
+      "cite": "261 A.2d 273",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "weight": 2,
+      "year": 1970,
+      "pin_cites": [
+        {
+          "page": "276"
+        },
+        {
+          "page": "276"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "110 N.H. 101",
+      "category": "reporters:state",
+      "reporter": "N.H.",
+      "case_ids": [
+        2359556
+      ],
+      "year": 1970,
+      "opinion_index": 1,
+      "case_paths": [
+        "/nh/110/0101-01"
+      ]
+    },
+    {
+      "cite": "82 S.W. 187",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "year": 1904,
+      "pin_cites": [
+        {
+          "page": "189"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "184 Mo. 1",
+      "category": "reporters:state",
+      "reporter": "Mo.",
+      "case_ids": [
+        1364471
+      ],
+      "year": 1904,
+      "opinion_index": 1,
+      "case_paths": [
+        "/mo/184/0001-01"
+      ]
+    },
+    {
+      "cite": "122 S.W.2d 76",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "year": 1938,
+      "pin_cites": [
+        {
+          "page": "80"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "45 Mo. 294",
+      "category": "reporters:state",
+      "reporter": "Mo.",
+      "case_ids": [
+        11743003
+      ],
+      "year": 1870,
+      "pin_cites": [
+        {
+          "page": "297-98",
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/mo/45/0294-01"
+      ]
+    },
+    {
+      "cite": "391 S.W.3d 453",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7094868
+      ],
+      "weight": 2,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "parenthetical": "citations and internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw3d/391/0453-01"
+      ]
+    },
+    {
+      "cite": "423 S.W.3d 238",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6947194
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "242"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw3d/423/0238-01"
+      ]
+    },
+    {
+      "cite": "955 S.W.2d 1",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        11890197
+      ],
+      "weight": 3,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "3"
+        },
+        {
+          "page": "4"
+        },
+        {
+          "page": "3"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/955/0001-01"
+      ]
+    },
+    {
+      "cite": "371 F.2d 761",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        2046360
+      ],
+      "year": 1967,
+      "pin_cites": [
+        {
+          "page": "763",
+          "parenthetical": "\"[T]he saving statute can never apply when a timely action is pending\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/371/0761-01"
+      ]
+    },
+    {
+      "cite": "759 F.2d 800",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        388276
+      ],
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "802",
+          "parenthetical": "\"[S]ince the plaintiff commenced her second action before the Iowa suit was dismissed ... she could not utilize the extension in time offered by the [Colorado savings] statute\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/759/0800-01"
+      ]
+    },
+    {
+      "cite": "423 S.W.3d 920",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6950994
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "927",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw3d/423/0920-01"
+      ]
+    },
+    {
+      "cite": "509 S.W.3d 840",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12373542
+      ],
+      "pin_cites": [
+        {
+          "parenthetical": "appellate jurisdiction exists where dismissal without prejudice has the effect of terminating the litigation in the plaintiff's chosen forum"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw3d/509/0840-01"
+      ]
+    },
+    {
+      "cite": "110 S.W.3d 839",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9105671
+      ],
+      "year": 2003,
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw3d/110/0839-01"
+      ]
+    },
+    {
+      "cite": "516 S.W.3d 867",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12377899
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "869-70",
+          "parenthetical": "citations and internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw3d/516/0867-01"
+      ]
+    },
+    {
+      "cite": "282 Kan. 651",
+      "category": "reporters:state",
+      "reporter": "Kan.",
+      "case_ids": [
+        4251624
+      ],
+      "weight": 4,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "664"
+        },
+        {
+          "page": "868"
+        },
+        {
+          "page": "664"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/kan/282/0651-01"
+      ]
+    },
+    {
+      "cite": "468 S.W.3d 435",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6844859
+      ],
+      "weight": 3,
+      "year": 2015,
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw3d/468/0435-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1064,
+    "char_count": 30460,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2648077165888822
+    },
+    "sha256": "0d359d34ee77bd65abff1a2e0c3cc1d9434ea59b7441ecaa9af18a8c6387e363",
+    "simhash": "1:0fe84521d48272b8",
+    "word_count": 4962
+  },
+  "last_updated": "2024-02-27T19:40:58.261848+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Eugene Brooks LILLY, et al., Appellants,\nv.\nPOLSINELLI, PC, et al., Respondents."
+    ],
+    "opinions": [
+      {
+        "text": "Anthony Rex Gabbert, Judge\nEugene Brooks Lilly, et al. (the Lillys) appeal the circuit court's judgment dismissing on abatement grounds a suit the Lillys brought against Polsinelli, PC, et al. (Owen and Polsinelli), which the Lillys concede to be identical to a suit already pending before the same court. The Lillys contend on appeal that the court erred in dismissing the second suit on abatement grounds because both suits were pending before the same judge in the same court, there was a legitimate justification for filing the second case, and an exception to the abatement doctrine applies. Owen and Polsinelli contend that we have no jurisdiction to reach the merits of the Lillys' claims, as the Lillys' second case was dismissed without prejudice. We agree with Owen and Polsinelli and dismiss this appeal for lack of jurisdiction.\nThe Judgment from which the Lillys appeal shows that the Lillys' second suit was dismissed without prejudice on abatement grounds. \"The general rule is that a dismissal without prejudice is not a final judgment and, therefore, is not appealable.\" City of Kansas City v. Ross , 508 S.W.3d 189, 192 (Mo. App. 2017) (internal citation and quotation marks omitted). \"Nonetheless, an appeal from a dismissal without prejudice can be taken where the dismissal has the practical effect of terminating the litigation in the form cast or in the plaintiff's chosen forum.\" Avery Contracting, LLC v. Niehaus , 492 S.W.3d 159, 162 (Mo. banc 2016) (internal quotation marks and citation omitted).\nThe Lillys make no contention that the dismissal had the practical effect of terminating the litigation; the Lillys' initial suit is still pending. The Lillys' only claim with regard to Owen and Polsinelli's jurisdictional challenges is that this court has reviewed other cases wherein the trial court's dismissal was based on abatement. Yet, the Lillys fail to explain how any of the cases cited by the Lillys compel review of their case. As noted, there are exceptions to the general rule of non-review, but the Lillys do not argue the existence of an exception.\nThe dissent, however, argues an exception for the Lillys. It is improper for us to speculate on facts and arguments that were not made by the parties. City of Lee's Summit v. Cook , 337 S.W.3d 757, 758 (Mo. App. 2011). \"Our role as a neutral reviewing court forbids us from acting as an advocate.\" Mansfield v. Horner , 443 S.W.3d 627, 658 (Mo. App. 2014). Although we believe that the dissent's claims should not be entertained, we find them meritless nonetheless.\nThe Lillys first filed their action against Owen and Polsinelli in the Johnson County District Court of Kansas (\"Polsinelli Kansas \"). The Lillys then filed the same action in the Jackson County Circuit Court of Missouri (\"Polsinelli Missouri I \"). Over Owen and Polsinelli's objection, the Lillys moved to dismiss Polsinelli Kansas and it was dismissed without prejudice. Owen's pending counterclaim was unaffected by the dismissal. The Lillys then filed a duplicate action in the Jackson County Circuit Court (Polsinelli Missouri II ). On Owen and Polsinelli's motion, the circuit court dismissed Polsinelli Missouri II , without prejudice, on abatement grounds.\nThe dissent argues that the Lillys' appeal of that dismissal is reviewable because the Lillys cannot cure the dismissal by filing another suit, as it would again be dismissed on abatement grounds, and because the dismissal has the practical effect of terminating the litigation \"in the form cast\" by the Lillys. We disagree.\nFirst, for a case to be dismissed on abatement grounds, the same cause of action must, at the very least, pend simultaneously in separately filed cases. U.S. Bank, N.A. v. Coverdell , 483 S.W.3d 390, 401 (Mo. App. 2015). Here, Polsinelli Missouri I will at some point be resolved. When it is, the Lillys may refile Polsinelli Missouri II. Although Polsinelli Missouri II may then be subject to dismissal on other grounds, such as res judicata or a time limitation, abatement will not be grounds for dismissal.\nSecond, we disagree with the dissent's contention that Polsinelli Missouri II's filing date is part of \"the form cast.\" The law cited by the dissent does not support such a broad interpretation of \"the form cast\"; it merely states that, where a petition is dismissed for failing to state a claim and the plaintiff chooses not to plead further, then a dismissal without prejudice is appealable because the form of the petition itself was found deficient. McGaw v. McGaw , 468 S.W.3d 435, 439 n.5 (Mo. App. 2015). Obviously, a claimant cannot refile that same petition without it again being dismissed on the same grounds. Here, the form in which Polsinelli Missouri II is cast is the exact same form in which Polsinelli Missouri I is cast. The contents of the petitions are identical and Polsinelli Missouri I remains pending. Polsinelli Missouri II's dismissal does not deprive the Lillys of proceeding on their claims in \"the form cast.\"\nThe dissent inflates \"the form\" of the petition to include filing dates as an equitable remedy to prevent the Lillys' claims from being time-barred. Yet, statutes of limitation are procedural in nature. Ferdinand v. State , 480 S.W.3d 330, 333 (Mo. App. 2016). They may be relevant and applicable, but they are external to the \"form\" of a case; they are peripheral to the substantive elements of a particular legal claim which form the basis of a sustainable petition that, if cast properly, will avoid defeat for failure to state a claim. Here, if the Lillys' claims are time-barred, the dismissal of Polsinelli Missouri II is not the root cause; the root cause emanates from purposeful and strategic choices made by the Lillys.\nThe Kansas law cited by the dissent that potentially time-bars Polsinelli Missouri I dates to 2006. Smith v. Graham , 282 Kan. 651, 664, 147 P.3d 859, 868 (2006). Polsinelli Missouri I was filed in 2015. We must presume the Lillys were fully aware of the potential ramifications of filing Polsinelli Missouri I at the time they chose to file. Missouri Highway and Transp. Com'n v. Myers , 785 S.W.2d 70, 75 (Mo. banc 1990) (\"Persons are conclusively presumed to know the law.\") We must also presume that the Lillys were fully aware that, when duplicate cases are filed, the law allows for dismissal of the later-filed case. Rule 55.27(a)(9) and Section 509.290(8), RSMo 2000.\nIf Missouri was the Lillys' forum of choice, it was their obligation to properly secure that forum. They concede that they may have failed to do so. Nonetheless, contrary to the dissent's assertion, Polsinelli Missouri II was not the only means the Lillys had \"to ensure that they preserved every possible response to the statute of limitations defense which Owen and Polsinelli have asserted.\" Significantly, the Lillys could have refiled their claims in Kansas. As the abatement doctrine does not apply to cases pending concurrently by the same parties in the courts of different states, refiling in Kansas would have accomplished the Lillys' stated objective without risk of dismissal. They chose not to refile.\nIn addressing the dissent's position on the merits of the Lillys' appeal, we note that the law is clear that the pendency of a prior action is \"only grounds to stay or abate the later action.\" Sherman v. Missouri Professionals Mut.-Physicians Prof'l Indem. Ass'n , 516 S.W.3d 867, 869-70 (Mo. App. 2017). The Lillys never asked that Polsinelli Missouri II be stayed; they only requested consolidation of the cases. In now advocating that Polsinelli Missouri II should have been stayed, the dissent requests a remedy that was not before the trial court. \"Appellate courts are merely courts of review for trial errors, and there can be no review of a matter which has not been presented to or expressly decided by the trial court.\" Barkley v. McKeever Enterprises, Inc. , 456 S.W.3d 829, 839 (Mo. banc 2015) (internal citation and quotation marks omitted). To find that the court should have consolidated the cases in lieu of abatement, we would necessarily have to conclude that the court erred in applying established precedent. We cannot.\nThe dissent argues that Owen and Polsinelli will suffer no prejudice if Polsinelli Missouri II is left pending. We disagree. We find inherent prejudice where a party has spent time and resources successfully defending a claim only to have a \"neutral arbiter\" mitigate the consequences of choices made by an opponent such that the time and resources expended were all for naught. Further, we cannot ignore that the Lillys had the option to refile in Kansas and chose not to refile. When Polsinelli Kansas was dismissed, it was dismissed without prejudice, pursuant to the condition that, \"upon refiling the matter will commence where it last finished\" and \"if Plaintiffs refile in Johnson County District Court, the Court reserve(s) the right to award attorney fees in the event that there is a duplication of process or duplication of any work in any Court in either Kansas or Missouri[.]\" Under the Kansas court's dismissal order, Owen and Polsinelli might have been entitled to attorney fees had the Lillys refiled there. Owen's counterclaim in Polsinelli Kansas remains pending and is set for jury trial January 18, 2019. On the record before us, we cannot agree that Owen and Polsinelli will suffer no prejudice if forced to litigate Polsinelli Missouri II under the Lillys' chosen terms.\nHaving no jurisdiction to review the Lillys' claims, we dismiss their appeal.\nWelsh, Presiding Judge, joins in the majority opinion Ahuja, Judge, dissents in separate opinion\nDISSENTING OPINION\nPlanned Parenthood of Kansas v. Donnelly , 298 S.W.3d 8 (Mo. App. 2009), was an appeal from summary judgment; Shelter Mutual Ins. Co. v. Marquis , 110 S.W.3d 839, 840 (Mo. App. 2003), was an appeal from a judgment dismissing a case without prejudice, without providing explanation for the dismissal. Although the Eastern District presumed the case was dismissed because the issues presented in the Missouri case were identical to the issues presented in an Illinois case, appellate court review involved interpretation of Section 509.290(8), RSMo 2000. Id. ; Nicholls v. Lowther , 491 S.W.2d 3, 5 (Mo. App. 1973), involved a court's dismissal of a case based on motions alleging eight grounds for dismissal. The court's opinion addressed more than just the issue of abatement; similarly, Estate of Holtmeyer v. Piontek , 913 S.W.2d 352 [ (Mo. App. 1996) ], was an appeal from a judgment on the pleadings. The motion for judgment on the pleadings alleged several grounds and the court did not state on what ground(s) the court based its dismissal; Allen v. Titan Propane, LLC, 404 S.W.3d 914, 917 (Mo. App. 2013), involved an appeal of dismissal of a case, with prejudice, based on res judicata and/or collateral estoppel grounds. Our Southern District concluded that the trial court erred in dismissing on the grounds of res judicata and/or collateral estoppel, but found that the case should have been dismissed without prejudice on abatement grounds. Id.\nGiven that the Lillys did not appear for oral argument, we do not know that the Lillys would even support the particular arguments made by the dissent on their behalf.\nTaken to its logical extreme, the dissent's argument suggests that any case dismissed on abatement grounds is appealable because of the futility of refiling while the first-filed duplicate case is pending. This, simply, is not the law.\nThe law cited by the dissent regarding the appealability of a dismissal that deprives a claimant of a chosen forum is equally inapplicable. In Burgett v. Thomas , 509 S.W.3d 840, 843 n.3, we reviewed a father's appeal of a court's dismissal of his custody suit because the court had dismissed for lack of jurisdiction after determining that the Uniform Child Custody Jurisdiction and Enforcement Act endowed Kansas with jurisdiction. Had the court erred in this conclusion, father would have been deprived of his right to proceed in Missouri. We, therefore, found it proper to review whether the court erred in concluding that it had no jurisdiction. Similarly, Roberts Holdings, Inc. v. Becca's Barkery, Inc. , 423 S.W.3d 920 (Mo. App. 2014), involved review of a dismissal for an inability to join indispensable parties \"without prejudice to the refiling of [Appellant's] claims in the Superior Court of Spokane County, Washington\" after the court determined that a forum selection clause granted the state of Washington exclusive jurisdiction over the dispute. Id. at 922. Our Southern District found the dismissal reviewable because the court's judgment prevented the appellant's case from proceeding in the appellant's chosen forum of Missouri. Id. at 927. Here, Polsinelli Missouri I is still pending in the Lillys' chosen forum.\nThe Lillys filed Polsinelli Missouri II on February 24, 2016. Owen and Polsinelli filed their motion for summary judgment in Polsinelli Missouri I citing the statute of limitations defense over a year and a half later on October 15, 2017. Given that Polsinelli Missouri II was filed prior to Owen and Polsinelli raising the statute of limitations issue, we cannot conclude, as the dissent does, that Polsinelli Missouri II was filed in response to that motion.\nSee Welch v. Contreras , 174 S.W.3d 53, 56 (Mo. App. 2005). For this reason, Owen and Polsinelli could not prevent dismissal of Polsinelli Kansas on abatement grounds when the Lillys moved to dismiss Polsinelli Kansas over their objection after filing Polsinelli Missouri I.",
+        "type": "majority",
+        "author": "Anthony Rex Gabbert, Judge"
+      },
+      {
+        "text": "Alok Ahuja, Judge, dissenting.\nI respectfully dissent.\nAppellants Eugene Brooks Lilly and Shannon Lilly filed two lawsuits in the Circuit Court of Jackson County, making identical claims against Respondents Daniel D. Owen and Polsinelli PC. The Lillys filed the second action because they believed it would not be subject to a limitations defense which Owen and Polsinelli have asserted against the Lillys' first-filed Missouri action. The circuit court dismissed the second-filed suit under the abatement doctrine, based on the pendency of the prior case. I believe we have appellate jurisdiction to review the dismissal ruling, even though it is denominated as \"without prejudice.\" On the merits, I believe the circuit court erred in dismissing the second suit, when it was filed to avoid a limitations defense to which the Lillys' first-filed action was potentially subject. The second action was not the sort of oppressive or vexatious lawsuit the abatement doctrine is intended to address, particularly since any burden the second action imposed on Owen and Polsinelli could be avoided by consolidating it with the first suit, or staying the second suit until the first was resolved.\nI.\nAppellants Eugene Brooks Lilly and his daughter Shannon Lilly are former clients of attorney Daniel D. Owen and the law firm at which he practices, Polsinelli PC. The Lillys have asserted claims of professional negligence, breach of fiduciary duty, and fraud against Owen and Polsinelli. The Lillys initially asserted these claims against Owen and Polsinelli in a lawsuit filed in the Johnson County (Kansas) District Court on May 29, 2014. They later filed an action raising similar claims in the Circuit Court of Jackson County (Missouri) on June 25, 2015 (\"Polsinelli I \"). Following the filing of their Jackson County action, the Lillys moved to dismiss their Kansas action on July 14, 2015. The Johnson County District Court granted the motion, and dismissed the Lillys' Kansas petition without prejudice on October 8, 2015.\nOwen and Polsinelli have filed a motion for summary judgment in Polsinelli I , in which they allege that the Lillys' claims are time-barred. Owen and Polsinelli argue that the Lillys' claims are subject to the two-year statute of limitations found in K.S.A. \u00a7 60-513 ; that their causes of action \"accrued in August or October 2012\"; and that the filing of Polsinelli I on June 25, 2015 accordingly came too late.\nImportantly, under the arguments made by Owen and Polsinelli, it appears that the Lillys' original Kansas action would be considered timely, since it was filed within two years of when Owen and Polsinelli contend that the claims accrued. Kansas has a \"savings statute,\" K.S.A. \u00a7 60-518, which allows a plaintiff to file what would otherwise be a time-barred action, if it is filed \"within six (6) months after\" the dismissal of an earlier, timely action. In the suggestions in support of their summary judgment motion, Owen and Polsinelli argue that Polsinelli I cannot be saved by \u00a7 60-518, because it was filed before the Kansas action was dismissed. According to Owen and Polsinelli:\nIf a plaintiff files a second petition as a new action while the plaintiff's first petition is pending-like the Plaintiffs did here-the plaintiff's second petition cannot be saved by the Kansas savings statute. [citing Smith v. Graham , 282 Kan. 651, 664, 147 P.3d 859, 868 (2006).] The Kansas Supreme Court is the final arbiter on interpreting the Kansas saving statute and has held that \"[Plaintiff] filed her second petition as a new action while the first petition was pending. Therefore, her second petition cannot be saved by K.S.A. 60-518.\" Smith , 282 Kan. at 664, 147 P.3d 859. Other courts interpreting savings statutes with similar language have reached the same conclusion. See , e.g. Cook v. G.D. Searle & Co. , 759 F.2d 800, 802 (10th Cir. 1985) (\"[S]ince the plaintiff commenced her second action before the Iowa suit was dismissed ... she could not utilize the extension in time offered by the [Colorado savings] statute\"); Graziano v. Pennell , 371 F.2d 761, 763 (2d Cir. 1967) (\"[T]he saving statute can never apply when a timely action is pending\").\nThe Lillys filed their second Missouri action, Polsinelli II , in the Circuit Court of Jackson County on February 24, 2016-which happens to be \"within six (6) months after \" the dismissal of their earlier Kansas action. K.S.A. \u00a7 60-518 (emphasis added). Thus, Polsinelli II would appear not to be subject to the limitations arguments which Owen and Polsinelli have directed against Polsinelli I. The substantive claims asserted in Polsinelli I and Polsinelli II are identical.\nPolsinelli I and Polsinelli II were pending in the same division of the circuit court. The Lillys moved to consolidate the two actions. In their Motion to Consolidate, the Lillys explained that they had filed Polsinelli II \"out of an abundance of caution,\" to guard against the statute of limitations defense Owen and Polsinelli had asserted in Polsinelli I. The Lillys argued that, because the allegations made in Polsinelli I and Polsinelli II are identical,\nIt is a waste of judicial resources for the two actions to not be consolidated. A single scheduling conference, a single scheduling order, a single shot at discovery, a single trial, etc., is all that is necessary and warranted.\nOwen and Polsinelli moved to dismiss Polsinelli II based on the abatement doctrine. The circuit court granted that motion and dismissed Polsinelli II without prejudice; it denied the Lillys' motion to consolidate the two cases as moot.\nII.\nThe majority holds that this Court lacks appellate jurisdiction over the Lillys' appeal, because the circuit court's dismissal of Polsinelli II was denominated as a dismissal \"without prejudice.\" I disagree.\nAccording to Chromalloy Am. Corp. v. Elyria Foundry Co. , 955 S.W.2d 1, 3 (Mo. banc 1997), the \"general rule\" is that dismissals without prejudice are not appealable, because the judgment is not final. The Supreme Court has more recently expressed skepticism as to whether this \"general rule\" ever existed; it also recognized that the \"general rule\" is subject to significant exceptions.\nIt is unclear to what extent, if any, this \"general rule\" ever was followed. Over time, however, exceptions seemed to have swallowed all or nearly all of whatever rule once might have existed.\nNaylor Senior Citizens Hous., LP v. Side Const. Co. , 423 S.W.3d 238, 242 (Mo. banc 2014).\nThe \"general rule\" prohibiting appeals from dismissals without prejudice is justified with the observation that, \"[i]n a case of a dismissal without prejudice, a plaintiff typically can cure the dismissal by filing another suit in the same court.\" New England Carpenters Pension Fund v. Haffner , 391 S.W.3d 453, 459 n.6 (Mo. App. S.D. 2012) (citations and internal quotation marks omitted). Thus, Chromalloy explains that \"a dismissal without prejudice that a plaintiff may cure by filing another suit in the same court is not a final judgment from which an appeal may be taken.\" 955 S.W.2d at 4. On the other hand, we have held that a dismissal without prejudice is appealable if \"it would be futile for [the plaintiff] to attempt to refile her petition in its original form.\" McGaw v. McGaw , 468 S.W.3d 435, 439 n.5 (Mo. App. W.D. 2015).\nIn this case, the Lillys cannot \"cure the dismissal by filing another suit in the same court.\" Haffner , 391 S.W.3d at 459 n.6. On the contrary, \"it would be futile for [them] to attempt to refile [their] petition in its original form,\" McGaw , 468 S.W.3d at 439 n.5, because the circuit court would dismiss any new petition for precisely the same reasons that the court dismissed Polsinelli II : that it was subject to abatement due to the pendency of another identical action. Given that the Lillys cannot simply refile their petition in Polsinelli II , the dismissal of that petition is immediately appealable, even though denominated \"without prejudice.\" I am unaware of any case holding that we lack appellate jurisdiction over a dismissal without prejudice based on the abatement doctrine, and the majority cites none.\nThe dismissal without prejudice is appealable for an additional, separate reason. Missouri caselaw holds that a dismissal without prejudice is appealable if \"the dismissal has the practical effect of terminating the litigation in the form cast.\" Chromalloy , 955 S.W.2d at 3. Prior cases have held that a plaintiff has been denied his ability to prosecute an action \"in the form cast\" where the plaintiff's only option is to sue in another forum, and where the dismissal \" 'was based on a plaintiff's lack of standing or failure of the petition to state a claim where the plaintiff chose not to plead further.' \" McGaw , 468 S.W.3d at 439 n.5.\nHere, the Lillys filed Polsinelli II within the six months following the dismissal without prejudice of their Kansas lawsuit, to take advantage of the savings provision found in K.S.A. \u00a7 60-518. The Lillys have \"cast\" Polsinelli II as an action filed within a particular six-month window, for a specific legal reason. The circuit court's dismissal has denied them an opportunity to pursue an action filed within that critical window of time. The Lillys are entitled to appeal the circuit court's denial of their ability to pursue their suit in the form in which they chose to cast it.\nIII.\nOn the merits, I believe the circuit court erred in dismissing Polsinelli II , when the Lillys were pursuing the action to respond to a potential defect in Polsinelli I , and Owen and Polsinelli would not suffer any prejudice which could not be addressed by consolidation of the cases, or a stay of proceedings in Polsinelli II.\nAbatement, also known as the \"pending action doctrine,\" holds that where a claim involves the same subject matter and parties as a previously filed action so that the same facts and issues are presented, resolution should occur through the prior action and the second suit should be dismissed. The pendency of a prior action is not ground for dismissal with prejudice, but ground only to stay or abate the later action.\nSherman v. Missouri Professionals Mut.-Physicians Prof'l Indem. Ass'n , 516 S.W.3d 867, 869-70 (Mo. App. W.D. 2017) (citations and internal quotation marks omitted).\nAlmost 150 years ago, the Missouri Supreme Court emphasized that the abatement doctrine is intended to shield defendants from \"vexatious and oppressive\" litigation, and that-if the second suit is not in fact \"vexatious and oppressive\"-then the abatement doctrine should not apply.\nThe ground on which courts proceed in the abatement of subsequent suits is that they are unnecessary, and are therefore deemed vexatious and oppressive. But the modern practice is not to infer, as matter of law, that the subsequent suit is vexatious and unnecessary, from the mere fact of the pendency of a prior suit between the same parties, founded on the same cause of action, but to proceed, upon inquiry, into the actual circumstances of the two cases, and then determine, as a matter of fact, whether the subsequent suit is unnecessary and vexatious. The inquiry, then, is, whether this proceeding is in fact vexatious and unnecessary. Is the [plaintiff]'s remedy full and effectual by the first process?\nState ex rel. Craig v. Dougherty , 45 Mo. 294, 297-98 (1870) (emphasis added) (quoted in Dillard v. Owens , 122 S.W.2d 76, 80 (Mo. App. 1938) ).\nPolsinelli II is not a \"vexatious and unnecessary\" successive suit; by filing it, the Lillys have \"not sought needlessly to harass [Owen and Polsinelli] with a second suit.\" Rodney v. Gibbs , 184 Mo. 1, 82 S.W. 187, 189 (Mo. 1904). Instead, the Lillys filed Polsinelli II in \"an abundance of caution,\" to ensure that they preserved every possible response to the statute of limitations defense which Owen and Polsinelli have asserted. Indeed, Owen and Polsinelli are currently arguing that Polsinelli I is subject to a time bar, and therefore subject to dismissal, for a reason which does not apply to Polsinelli II -namely, that Polsinelli I was filed before the dismissal of the Kansas action, and therefore is not entitled to the benefit of the Kansas savings statute. I see no reason to deny the Lillys the ability to defend themselves as they choose against the limitations arguments their opponents are asserting.\nAs a general rule, if for any reason a prior pending action is so defective that there can be no recovery therein or no such effectual recovery or relief as is sought and obtainable in a second action, the prior action is not a ground for abating the subsequent one.\n1 C.J.S., Abatement and Revival \u00a7 65, at 86 (2005). The New Hampshire Supreme Court relied on the potential defects in an earlier suit to reverse the dismissal of a later suit on abatement grounds in Adams v. Sullivan , 110 N.H. 101, 261 A.2d 273, 276 (N.H. 1970). The Court explained:\nWhere it is doubtful whether plaintiff can secure his rights in the original suit, justice does not necessarily require abatement of the second suit for the same cause of action and by consolidation of suits or some other convenient procedure the rights of both parties may be protected and afford them an opportunity to litigate the merits of the controversy.\nId. at 276.\nPolsinelli I is subject to a potentially fatal defect, from which Polsinelli II does not suffer. In addition, I have trouble conceiving of any prejudice which Owen and Polsinelli would suffer if Polsinelli II were left pending, particularly since mechanisms like consolidation, or stay of the second action, would be available. It is no response to say that the Lillys could have re-filed their action in Kansas, since they obviously desire to litigate their case in Missouri, and generally \"a plaintiff's choice of forum is not to be disturbed except for 'weighty reasons.' \" State ex rel. Wyeth v. Grady , 262 S.W.3d 216, 220 (Mo. banc 2008) (citations and internal quotation marks omitted). Abatement should not apply.\nGiven that Lilly identified a good-faith basis for prosecution of Polsinelli II , and explained how Polsinelli II was differently situated from Polsinelli I , I would hold that the circuit court abused its discretion in dismissing Polsinelli II without prejudice, particularly where it could avoid any burden on the defendant by staying Polsinelli II , or consolidating it with the first case.\nThe judgment of the circuit court should be reversed.\nIn at least one prior case, this Court reviewed a dismissal without prejudice based on abatement, without any suggestion that the Court lacked jurisdiction to do so. See Shelter Mut. Ins. Co. v. Marquis , 110 S.W.3d 839 (Mo. App. E.D. 2003).\nSee , e.g. , Burgett v. Thomas , 509 S.W.3d 840, 843 n.3 (Mo. App. W.D. 2017) (appellate jurisdiction exists where dismissal without prejudice has the effect of terminating the litigation in the plaintiff's chosen forum); Roberts Holdings, Inc. v. Becca's Barkery, Inc. , 423 S.W.3d 920, 927 (Mo. App. S.D. 2014) (same).\nThe majority contends that I am improperly raising new jurisdictional arguments on the Lillys' behalf. The jurisdictional issue was raised by Owen and Polsinelli, not by the Lillys; we would have the obligation to address the issue on our own motion anyway. See , e.g. , Fannie Mae v. Truong , 361 S.W.3d 400, 403 (Mo. banc 2012). I believe it is our duty to decide the jurisdictional issue correctly , whatever arguments the Lillys may-or may not-have made in response.\nThe majority suggests that Owen and Polsinelli face \"inherent prejudice\" if Polsinelli II remains pending, because they face the prospect that \"the time and resources [they] expended\" litigating the case will \"all [be] for naught.\" Even if the dismissal of Polsinelli II is reversed, however, Owen and Polsinelli will only be required to litigate the merits of the controversy once. Either that litigation will occur in a consolidated case (with two docket numbers), or it will occur in Polsinelli I while Polsinelli II is stayed (in which case the result in Polsinelli I would be preclusive in Polsinelli II ). I do not perceive any \"inherent prejudice.\"",
+        "type": "dissent",
+        "author": "Alok Ahuja, Judge, dissenting."
+      }
+    ],
+    "attorneys": [
+      "OPINION FILED: APRIL 10, 2018\nMotion to Transfer to Supreme Court Denied May 29, 2018\nApplication for Transfer to Supreme Court Denied August 21, 2018",
+      "Eugene B Lilly, Shannon M. Lilly, Appellants Acting Pro Se, Counsel for Appellants.",
+      "Timothy J Sear, Overland Park, KS, Counsel for Respondents."
+    ],
+    "corrections": "",
+    "head_matter": "Eugene Brooks LILLY, et al., Appellants,\nv.\nPOLSINELLI, PC, et al., Respondents.\nWD 80698\nMissouri Court of Appeals, Western District.\nOPINION FILED: APRIL 10, 2018\nMotion to Transfer to Supreme Court Denied May 29, 2018\nApplication for Transfer to Supreme Court Denied August 21, 2018\nEugene B Lilly, Shannon M. Lilly, Appellants Acting Pro Se, Counsel for Appellants.\nTimothy J Sear, Overland Park, KS, Counsel for Respondents.\nBefore Division Two: James Edward Welsh, Presiding Judge, Senior Judge , Alok Ahuja, Judge, Anthony Rex Gabbert, Judge\nJudge Welsh retired as an active member of the court on April 1, 2018, after oral argument in this case. He has been assigned by the Chief Justice to participate in this decision as Senior Judge."
+  },
+  "file_name": "0562-01",
+  "first_page_order": 562,
+  "last_page_order": 571
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12211987,
+  "name": "Dugmore v. Lattimore, Warden",
+  "name_abbreviation": "Dugmore v. Lattimore",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-11192",
+  "first_page": "872",
+  "last_page": "872",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 872"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 78,
+    "ocr_confidence": 0.792,
+    "sha256": "7294c5919c3951b42e96bac7cac513118fd338dfbfe4a09671f09702636279a3",
+    "simhash": "1:dc822ff12de30157",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dugmore v. Lattimore, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-11192.\nDugmore v. Lattimore, Warden."
+  },
+  "file_name": "0872-05",
+  "first_page_order": 954,
+  "last_page_order": 954
+}

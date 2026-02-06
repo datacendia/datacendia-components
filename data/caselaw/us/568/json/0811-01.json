@@ -1,0 +1,90 @@
+{
+  "id": 12408474,
+  "name": "Scarborough v. Chase Home Finance, LLC",
+  "name_abbreviation": "Scarborough v. Chase Home Finance, LLC",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-9394",
+  "first_page": "811",
+  "last_page": "811",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 811"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "566 U. S. 1008",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12219808,
+        12219906,
+        12219816,
+        12219852,
+        12219886,
+        12219826,
+        12219928,
+        12219868,
+        12219838
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/566/1008-01",
+        "/us/566/1008-08",
+        "/us/566/1008-02",
+        "/us/566/1008-05",
+        "/us/566/1008-07",
+        "/us/566/1008-03",
+        "/us/566/1008-09",
+        "/us/566/1008-06",
+        "/us/566/1008-04"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 38,
+    "char_count": 262,
+    "ocr_confidence": 0.66,
+    "sha256": "2e76bdb4f979e112b8390a0f7b8fed16c943b3ff66295d2fc3059c70f00b0a3e",
+    "simhash": "1:66f19edce76ee30a",
+    "word_count": 43
+  },
+  "last_updated": "2024-02-27T23:44:49.194693+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Alito took no part in the consideration or decision of this motion."
+    ],
+    "parties": [
+      "Scarborough v. Chase Home Finance, LLC."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. Pa. Motion of petitioner for reconsideration of order denying leave to proceed in forma pauperis [566 U. S. 1008] denied.\nJustice Alito took no part in the consideration or decision of this motion.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9394.\nScarborough v. Chase Home Finance, LLC."
+  },
+  "file_name": "0811-01",
+  "first_page_order": 887,
+  "last_page_order": 887
+}

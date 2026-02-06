@@ -1,0 +1,123 @@
+{
+  "id": 2246305,
+  "name": "Texas Employers' Insurance Association v. Joe Hunter",
+  "name_abbreviation": "Texas Employers' Insurance v. Hunter",
+  "decision_date": "1953-06-24",
+  "docket_number": "No. A-4137",
+  "first_page": "438",
+  "last_page": "439",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "152 Tex. 438"
+    },
+    {
+      "type": "parallel",
+      "cite": "260 S.W.2d 884"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "256 S. W. 2d 569",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10214502,
+        2246279
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/256/0569-01",
+        "/tex/152/0227-01"
+      ]
+    },
+    {
+      "cite": "152 Texas 227",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2246279
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/152/0227-01"
+      ]
+    },
+    {
+      "cite": "255 S. W. 2d 848",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2246291,
+        10217927
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/152/0199-01",
+        "/sw2d/255/0848-01"
+      ]
+    },
+    {
+      "cite": "152 Texas 199",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2246291
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/152/0199-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 76,
+    "char_count": 741,
+    "ocr_confidence": 0.575,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.07802617063774761
+    },
+    "sha256": "3d6cf99d48668b0720eaab2c59d7c027be87f62bc35ea1d687c5880bfb8f998e",
+    "simhash": "1:07795c67622dab90",
+    "word_count": 125
+  },
+  "last_updated": "2024-02-27T22:50:49.138434+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Texas Employers\u2019 Insurance Association v. Joe Hunter."
+    ],
+    "opinions": [
+      {
+        "text": "Per Curiam:\nThe decision of the Court of Civil Appeals being in conflict with Texas Employers\u2019 Insurance Association v. Hatton, 152 Texas 199, 255 S. W. 2d 848, and Texas Employers\u2019 Insurance Association v. Lee, 152 Texas 227, 256 S. W. 2d 569, the judgments of the Court of Civil Appeals and the District Court are reversed, and the cause is remanded to the District Court without granting the writ and hearing the case. Rule 483.\nDelivered June 24, 1953.",
+        "type": "majority",
+        "author": "Per Curiam:"
+      }
+    ],
+    "attorneys": [
+      "Burford, Byburn, Hincks & Ford, Logan Ford and Clarence A. Guittard, all of Dallas, for petitioner.",
+      "White <6 Yarborough and W. E. Johnson, all of Dallas, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "Texas Employers\u2019 Insurance Association v. Joe Hunter.\nNo. A-4137.\nDecided June 24,1953.\n(260 S. W. 2d Series 884)\nBurford, Byburn, Hincks & Ford, Logan Ford and Clarence A. Guittard, all of Dallas, for petitioner.\nWhite <6 Yarborough and W. E. Johnson, all of Dallas, for respondent."
+  },
+  "file_name": "0438-01",
+  "first_page_order": 454,
+  "last_page_order": 455
+}

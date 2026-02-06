@@ -1,0 +1,818 @@
+{
+  "id": 12521884,
+  "name": "Ashley Amaris OVERBEY; Baltimore Brew, Plaintiffs - Appellants, v. The MAYOR and City Council OF BALTIMORE; Baltimore City Police Department, Defendants - Appellees. American Society of News Editors; Associated Press Media Editors ; Association of Alternative Newsmedia; BuzzFeed; Gannett Company, Incorporated; Howard University School of Law Civil Rights Clinic; International Documentary Association; Investigative Reporting Program at UC Berkeley; Investigative Reporting Workshop at American University; Tawanda Jones; MPA- The Association of Magazine Media; Maryland D.C. Delaware Broadcasters Association; Maryland-Delaware-District of Columbia Press Association ; National Press Photographers Association ; National Women's Law Center; Online News Association; Public Justice; Public Justice Center; Reporters Committee for Freedom of the Press; Society of Professional Journalists; The Baltimore Sun; The Center for Investigative Reporting; The E.W. Scripps Company; The Washington Post; Tully Center for Free Speech; Washington Lawyers' Committee for Civil Rights and Urban Affairs, Amici Supporting Appellant.",
+  "name_abbreviation": "Overbey v. Mayor of Baltimore",
+  "decision_date": "2019-07-11",
+  "docket_number": "No. 17-2444",
+  "first_page": "215",
+  "last_page": "234",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "930 F.3d 215"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "4th Cir.",
+    "id": 8954,
+    "name": "United States Court of Appeals for the Fourth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "501 U.S. 663",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1107879
+      ],
+      "weight": 4,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "665"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/501/0663-01"
+      ]
+    },
+    {
+      "cite": "422 U.S. 490",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9528
+      ],
+      "weight": 3,
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "500"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/422/0490-01"
+      ]
+    },
+    {
+      "cite": "437 F.3d 410",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        969524
+      ],
+      "weight": 2,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "419"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/437/0410-01"
+      ]
+    },
+    {
+      "cite": "444 U.S. 507",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11307123
+      ],
+      "weight": 5,
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "510"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/444/0507-01"
+      ]
+    },
+    {
+      "cite": "575 F.3d 419",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4034732
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "424"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/575/0419-01"
+      ]
+    },
+    {
+      "cite": "900 F.3d 160",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12518183
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "176"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/900/0160-01"
+      ]
+    },
+    {
+      "cite": "885 F.3d 280",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516308
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "287",
+          "parenthetical": "emphasis supplied"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/885/0280-01"
+      ]
+    },
+    {
+      "cite": "528 U.S. 167",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9476232
+      ],
+      "weight": 3,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "185"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/528/0167-01"
+      ]
+    },
+    {
+      "cite": "760 F.3d 352",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4148058
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "370"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/760/0352-01"
+      ]
+    },
+    {
+      "cite": "635 F.3d 129",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4029378
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "136",
+          "parenthetical": "alterations in source"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/635/0129-01"
+      ]
+    },
+    {
+      "cite": "484 F.3d 194",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5733325
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "203"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/484/0194-01"
+      ]
+    },
+    {
+      "cite": "673 F.3d 245",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3742223
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "255",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/673/0245-01"
+      ]
+    },
+    {
+      "cite": "394 U.S. 557",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6176248
+      ],
+      "weight": 3,
+      "year": 1969,
+      "pin_cites": [
+        {
+          "page": "564"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/394/0557-01"
+      ]
+    },
+    {
+      "cite": "524 F.3d 485",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3823149
+      ],
+      "weight": 2,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "491",
+          "parenthetical": "quoting Stanley v. Georgia , 394 U.S. 557, 564, 89 S.Ct. 1243, 22 L.Ed.2d 542 (1969) "
+        },
+        {
+          "page": "492",
+          "parenthetical": "acknowledging that a \"willing speaker\" exists, for purposes of a plaintiff's constitutional standing, when one party to a settlement agreement with the government would be willing to speak to the plaintiff if not for a prohibition in the settlement agreement"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/524/0485-01"
+      ]
+    },
+    {
+      "cite": "978 F.2d 850",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "855",
+          "parenthetical": "Wilkinson, J., concurring"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "194 F.3d 505",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11557739
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "520",
+          "parenthetical": "\"There are First Amendment interests in newsgathering.\" (quoting In re Shain , 978 F.2d 850, 855 (4th Cir. 1992) (Wilkinson, J., concurring))"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/194/0505-01"
+      ]
+    },
+    {
+      "cite": "408 U.S. 665",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1782792
+      ],
+      "weight": 3,
+      "year": 1972,
+      "pin_cites": [
+        {
+          "page": "728"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/408/0665-01"
+      ]
+    },
+    {
+      "cite": "136 S. Ct. 1540",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12596653
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1548"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/136/1540-01"
+      ]
+    },
+    {
+      "cite": "504 U.S. 555",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11730070
+      ],
+      "weight": 5,
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "561"
+        },
+        {
+          "page": "561"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/504/0555-01"
+      ]
+    },
+    {
+      "cite": "857 F.3d 193",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12276507
+      ],
+      "weight": 3,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "207"
+        },
+        {
+          "page": "208"
+        },
+        {
+          "page": "207-08"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/857/0193-01"
+      ]
+    },
+    {
+      "cite": "558 U.S. 310",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3639027
+      ],
+      "weight": 8,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "339",
+          "parenthetical": "\"The right of citizens to inquire, to hear, to speak, and to use information to reach consensus is a precondition to enlightened self-government and a necessary means to protect it.\""
+        },
+        {
+          "parenthetical": "\"The right of citizens to inquire, to hear, to speak, and to use information to reach consensus is a precondition to enlightened self-government and a necessary means to protect it.\""
+        },
+        {
+          "parenthetical": "\"The right of citizens to inquire, to hear, to speak, and to use information to reach consensus is a precondition to enlightened self-government and a necessary means to protect it.\""
+        },
+        {
+          "page": "340"
+        },
+        {
+          "page": "339"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/558/0310-01"
+      ]
+    },
+    {
+      "cite": "376 U.S. 254",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        379234
+      ],
+      "weight": 8,
+      "year": 1964,
+      "pin_cites": [
+        {
+          "page": "270"
+        },
+        {
+          "page": "265"
+        },
+        {
+          "page": "270"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/376/0254-01"
+      ]
+    },
+    {
+      "cite": "930 F.2d 1390",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10547612
+      ],
+      "weight": 2,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "1397",
+          "parenthetical": "holding that when it seeks to enforce a contractual waiver of a constitutional right, the government bears the burden of \"demonstrat[ing] that the public interest is better served by enforcement ... than by non-enforcement\""
+        },
+        {
+          "page": "1398"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/930/1390-01"
+      ]
+    },
+    {
+      "cite": "509 F.3d 204",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3329986
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "212"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/509/0204-01"
+      ]
+    },
+    {
+      "cite": "149 F.3d 277",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1362762
+      ],
+      "weight": 3,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "280"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/149/0277-01"
+      ]
+    },
+    {
+      "cite": "319 U.S. 624",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        366560
+      ],
+      "weight": 5,
+      "year": 1943,
+      "pin_cites": [
+        {
+          "page": "637"
+        },
+        {
+          "page": "637"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/319/0624-01"
+      ]
+    },
+    {
+      "cite": "487 U.S. 781",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1775217
+      ],
+      "weight": 3,
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "795"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/487/0781-01"
+      ]
+    },
+    {
+      "cite": "430 U.S. 705",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12127286
+      ],
+      "weight": 8,
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "714"
+        },
+        {
+          "page": "714"
+        },
+        {
+          "page": "714"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/430/0705-01"
+      ]
+    },
+    {
+      "cite": "138 S. Ct. 2448",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12613066
+      ],
+      "weight": 3,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "2463",
+          "parenthetical": "quoting Wooley v. Maynard , 430 U.S. 705, 714, 97 S.Ct. 1428, 51 L.Ed.2d 752 (1977) "
+        },
+        {
+          "parenthetical": "quoting Wooley v. Maynard , 430 U.S. 705, 714, 97 S.Ct. 1428, 51 L.Ed.2d 752 (1977) "
+        },
+        {
+          "page": "2463"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/2448-01"
+      ]
+    },
+    {
+      "cite": "915 F.3d 308",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12520040
+      ],
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "313"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/915/0308-01"
+      ]
+    },
+    {
+      "cite": "2017 WL 5885657",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "*5"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "851 F.2d 348",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        11344357
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "350",
+          "parenthetical": "holding \"there is a compelling public interest and policy in upholding and enforcing settlement agreements voluntarily entered into.\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/851/0348-01"
+      ]
+    },
+    {
+      "cite": "12 F.3d 885",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10530580
+      ],
+      "weight": 2,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "891",
+          "parenthetical": "recognizing the public's interest in the finality of collective bargaining agreements as one of the public policies favoring enforcement of the constitutional waiver not to speak"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/12/0885-01"
+      ]
+    },
+    {
+      "cite": "480 U.S. 386",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1131337
+      ],
+      "weight": 5,
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "392"
+        },
+        {
+          "page": "392-94"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/480/0386-01"
+      ]
+    },
+    {
+      "cite": "509 F.3d 204",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3329986
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "213"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/509/0204-01"
+      ]
+    },
+    {
+      "cite": "149 F.3d 277",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1362762
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "280"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/149/0277-01"
+      ]
+    },
+    {
+      "cite": "430 U.S. 705",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12127286
+      ],
+      "weight": 3,
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "714",
+          "parenthetical": "holding that \"the right of freedom of thought protected by the First Amendment against state action includes both the right to speak freely and the right to refrain from speaking at all.\""
+        },
+        {
+          "parenthetical": "holding that \"the right of freedom of thought protected by the First Amendment against state action includes both the right to speak freely and the right to refrain from speaking at all.\""
+        },
+        {
+          "parenthetical": "holding that \"the right of freedom of thought protected by the First Amendment against state action includes both the right to speak freely and the right to refrain from speaking at all.\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/430/0705-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1912,
+    "char_count": 57339,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25942651482769846
+    },
+    "sha256": "86cc9f3a4e2239354a9256a121f276b6a686d275924866084672210221ca444c",
+    "simhash": "1:2aba12f22e631e63",
+    "word_count": 9089
+  },
+  "last_updated": "2024-02-27T18:47:03.658527+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before FLOYD, THACKER, and QUATTLEBAUM, Circuit Judges."
+    ],
+    "parties": [
+      "Ashley Amaris OVERBEY; Baltimore Brew, Plaintiffs - Appellants,\nv.\nThe MAYOR and City Council OF BALTIMORE; Baltimore City Police Department, Defendants - Appellees."
+    ],
+    "opinions": [
+      {
+        "text": "FLOYD, Circuit Judge:\nWhen the city of Baltimore has settled civil-rights lawsuits alleging police misconduct, it has typically required settling claimants to agree to a \"non-disparagement clause,\" under which they promise not to speak to the media about either their underlying allegations or the settlement process itself. Claimants who breach the non-disparagement clause are, by the terms of the clause, liable to Baltimore for damages equaling half of their settlement funds. Ashley Overbey, a police-misconduct claimant who settled her case but then spoke about it publicly, claims that Baltimore violated her First Amendment rights when it enforced the non-disparagement clause against her. Separately, a local news website, the Baltimore Brew (the Brew), claims that Baltimore's alleged practice of including non-disparagement clauses in virtually all settlement agreements with police-misconduct claimants violates the First Amendment on its face. The district court granted summary judgment to the City on both claims. For the reasons that follow, we reverse.\nI.\nAshley Overbey sued three officers of the Baltimore Police Department (BPD), alleging that the officers had beaten, tased, verbally abused, and needlessly arrested her in her own home after she called 911 to report a burglary. She brought various claims against the defendants under both state and federal law. Her case ground through the system for about two years, during which she and her children became homeless-partly because Overbey's arrest record made it difficult for her to find work.\nEventually, following her attorney's advice, Overbey agreed to settle her suit for $63,000. The parties to the settlement agreement included both the officers named in Overbey's complaint and the City itself. The City was a party to the agreement because, pursuant to Maryland law, it represents the BPD's interests in settling claims against BPD officers.\nAs in 95% of settlement agreements between the City and persons alleging police misconduct, Overbey's settlement agreement included what we will call a \"non-disparagement clause.\" This clause required Overbey to \"limit [her] public comments\" regarding her lawsuit \"to the fact that a satisfactory settlement occurred involving the Parties.\" J.A. 96. It prohibited her from \"discussing [with the news media] any opinions, facts or allegations in any way connected to\" her case, her underlying allegations, or the settlement process. Id. And it provided that if Overbey were to ever make a prohibited comment regarding her lawsuit, the City would be entitled to a refund of half of her settlement. The clause placed no restriction on the City's freedom to speak about the case.\nAfter Overbey signed the settlement agreement, the agreement went before the City's Board of Estimates for approval. While approval was pending, a local newspaper, the Baltimore Sun , published Overbey's name, her photograph, her address, and the amount of her proposed settlement in a report on payouts planned for police-misconduct claimants. The Sun 's report quoted a statement made by the then-City Solicitor to the Board of Estimates in which the Solicitor characterized Overbey as \"hostile\" during her encounter with police-insinuating that Overbey, not the officers, had been at fault. J.A. 28.\nThe Sun 's story accumulated several anonymous, race-inflected comments implying that Overbey had initiated a confrontation with the police in hopes of getting a payout from the City. Overbey posted responses to several such comments, insisting that the police had been in the wrong and describing some of the injuries she had suffered.\nThe City determined that Overbey's online comments on the Sun article violated the non-disparagement clause of the settlement agreement. Consequently, once Overbey's settlement was approved, the City remitted only half of the agreed payment-$31,500-to Overbey's attorney. It retained the other half as \"liquidated damages.\" See Appellees' Br. at 3.\nOverbey, having obtained new representation, filed another lawsuit in which she named the City and the BPD as defendants. In this second suit, she sought to compel the City to pay her the other half of her settlement sum. She brought a variety of claims under federal and state law, only one of which is relevant to us now: that the City violated her First Amendment rights when it withheld half of her settlement because of her speech about her case.\nOverbey was joined in her second suit by the Brew, a local news website that, among other things, investigates and reports on how the City and its police department handle allegations of police misconduct. The Brew claimed that the City's policy of including non-disparagement clauses in its settlements with police-misconduct claimants violated the Brew's First Amendment interest in newsgathering. The Brew sought both declaratory and injunctive relief.\nThe BPD moved to dismiss, arguing that neither Overbey nor the Brew had stated a claim against it. The district court granted the BPD's motion.\nThe City moved to dismiss or, in the alternative, for summary judgment. It attached to its motion a number of exhibits pertaining to Overbey's settlement agreement and the online comments that had led the City to withhold half of her settlement funds. Overbey and the Brew filed a response; they attached to their response a declaration from Overbey in which she averred that she had not understood the scope of the non-disparagement clause when she signed the settlement agreement.\nAfter a hearing on the motions, the district court decided that because it had \"relied upon supplemental affidavits and documents filed outside of the pleadings,\" it would treat the City's motion as one for summary judgment pursuant to Federal Rule of Civil Procedure 12(d), even though the parties had not yet conducted discovery. J.A. 352-53. The district court then granted summary judgment to the City on Overbey's First Amendment claim, reasoning (1) that by signing the settlement agreement, Overbey had knowingly, voluntarily, and intelligently waived her First Amendment right to speak about her police-misconduct suit; and (2) that enforcement of the waiver was not contrary to public policy. The district court also granted summary judgment to the City on the Brew's First Amendment claim, concluding that the Brew lacked standing to challenge the City's practice of using non-disparagement clauses in virtually all settlement agreements with police-misconduct claimants. Overbey and the Brew now appeal.\nII.\nWe review de novo the district court's order granting summary judgment to the City. Wood v. Arnold , 915 F.3d 308, 313 (4th Cir. 2019).\nIII.\nA.\nWe begin with Overbey's First Amendment claim. Overbey does not dispute that the non-disparagement clause, on its face, permitted the City to withhold half of her settlement funds as liquidated damages. But she argues that the non-disparagement clause was, and is, void, because it amounts to an unenforceable waiver of her First Amendment rights. According to Overbey, since the clause is void, the City violated the First Amendment when it preemptively clawed back half of her settlement funds based on her speech about her case.\nThe City, for its part, argues that the non-disparagement clause did not require Overbey to \"waive\" anything; rather, in agreeing to be bound by the non-disparagement clause, Overbey merely exercised her right not to speak in exchange for payment from the government. Alternatively, the City argues that even if the non-disparagement clause amounts to a waiver of Overbey's First Amendment rights, there is no reason for us to hold that the waiver is void; thus, the City's enforcement of the waiver cannot have violated the First Amendment.\nWe hold that the non-disparagement clause in Overbey's settlement agreement amounts to a waiver of her First Amendment rights and that strong public interests rooted in the First Amendment make it unenforceable and void.\n1.\nAccording to the City, there is no need for us to subject the non-disparagement clause to First Amendment scrutiny, because Overbey's promise not to speak about her case was not a waiver of anything. It was, rather, a reasoned decision to exercise her right not to speak in return for payment. The City points out that it did nothing to stop Overbey from speaking, and that it has paid her every cent that she was due under the terms of the settlement agreement-i.e., half the settlement sum. As the City would have it, Overbey agreed to exercise her rights in a particular way in return for money; she then exercised her rights in a different way, leaving her entitled to less money. Thus, in the City's view, Overbey's First Amendment rights were neither waived nor infringed.\nWe disagree. It is true that the right not to speak is protected by the First Amendment, for the Supreme Court has \"held time and again that freedom of speech 'includes both the right to speak freely and the right to refrain from speaking at all.' \" Janus v. Am. Fed'n of State, Cty., & Mun. Employees, Council 31 , --- U.S. ----, 138 S. Ct. 2448, 2463, 201 L.Ed.2d 924 (2018) (quoting Wooley v. Maynard , 430 U.S. 705, 714, 97 S.Ct. 1428, 51 L.Ed.2d 752 (1977) ). But the City errs in equating \"the right to refrain from speaking,\" id. , with mere abstention from voluntary speech.\nAt its heart, the right to refrain from speaking is concerned with preventing the government from \"[c]ompelling individuals to mouth support for views they find objectionable,\" Janus , 138 S. Ct. at 2463, or \"[m]andating speech that a speaker would not otherwise make,\" Riley v. Nat'l Fed'n of the Blind of N. Carolina, Inc. , 487 U.S. 781, 795, 108 S.Ct. 2667, 101 L.Ed.2d 669 (1988). In other words, the right to refrain from speaking limits the government's ability to sanction or override a private individual's preference for not making certain speech. The First Amendment's protection of this right advances our bedrock societal interest in \"individual freedom of mind.\" Wooley , 430 U.S. at 714, 97 S.Ct. 1428 (quoting W. Virginia State Bd. of Educ. v. Barnette , 319 U.S. 624, 637, 63 S.Ct. 1178, 87 L.Ed. 1628 (1943) ).\nOverbey's promise not to speak about her case cannot be fairly characterized as an exercise of her right to refrain from speaking, because none of the interests protected by the right to refrain from speaking were ever at stake in this case. No one tried to compel Overbey to make speech she did not want to make; no one tried to punish Overbey for refusing to say something she did not want to say. Instead, Overbey agreed, on pain of contractual liability to the City, to curb her voluntary speech to meet the City's specifications. In doing so, she waived the First Amendment protections that would have otherwise shielded her speech from government sanction.\n2.\nOur determination that the non-disparagement clause operates as a waiver of Overbey's First Amendment rights is only the first step of our analysis. The next step is to determine whether the City is entitled to summary judgment on the waiver's enforceability. It is well-settled that a person may choose to waive certain constitutional rights pursuant to a contract with the government. Lake James Cmty. Volunteer Fire Dep't, Inc. v. Burke Cty., N.C. , 149 F.3d 277, 280 (4th Cir. 1998). Yet we do not presume that the waiver of a constitutional right-even one that appears in an otherwise valid contract with the government-is enforceable. Id. On the contrary, such a waiver is enforceable only if it meets two conditions: First, it was made knowingly and voluntarily. Id. Second, under the circumstances, the interest in enforcing the waiver is not outweighed by a relevant public policy that would be harmed by enforcement. Pee Dee Health Care, P.A. v. Sanford , 509 F.3d 204, 212 (4th Cir. 2007) ; see also Davies v. Grossmont Union High Sch. Dist. , 930 F.2d 1390, 1397 (9th Cir. 1991) (holding that when it seeks to enforce a contractual waiver of a constitutional right, the government bears the burden of \"demonstrat[ing] that the public interest is better served by enforcement ... than by non-enforcement\").\nToday, we restrict our analysis to the second prong of this test, because the second prong is decisive as a matter of law. Under the circumstances, the City's asserted interests in enforcing Overbey's waiver of her First Amendment rights are outweighed by strong policy interests that are rooted in the First Amendment and counsel against the waiver's enforcement.\nWe begin by laying out the public interests favoring non-enforcement. Famously, one of the interests at the heart of the First Amendment is \"a profound national commitment to the principle that debate on public issues should be uninhibited, robust, and wide-open ....\" N.Y. Times Co. v. Sullivan , 376 U.S. 254, 270, 84 S.Ct. 710, 11 L.Ed.2d 686 (1964). Claims of police misconduct, as well as the circumstances in which the City litigates and settles such claims, assuredly fall into the \"public issues\" category. Thus, enforcing the non-disparagement clause, which subjected Overbey to contractual liability for speaking about the allegations giving rise to her complaint and the circumstances under which she settled with the City, was contrary to the public's well-established First Amendment interest in \"uninhibited, robust, and wide-open\" debate on \"public issues.\" Id. ; see also Citizens United v. Fed. Election Comm'n , 558 U.S. 310, 339, 130 S.Ct. 876, 175 L.Ed.2d 753 (2010) (\"The right of citizens to inquire, to hear, to speak, and to use information to reach consensus is a precondition to enlightened self-government and a necessary means to protect it.\").\nStanding shoulder to shoulder with the citizenry's interest in uninhibited, robust debate on public issues is this nation's cautious \"mistrust of governmental power.\" Citizens United , 558 U.S. at 340, 130 S.Ct. 876. This mistrust is one of the \"premise[s]\" of the First Amendment, id. , and we think it well-warranted here, because the non-disparagement clause is a government-defined and government-enforced restriction on government-critical speech. Indeed, when the government (1) makes a police-misconduct claimant's silence about her claims a condition of settlement; (2) obtains the claimant's promise of silence; (3) retains for itself the unilateral ability to determine whether the claimant has broken her promise; and (4) enforces the claimant's promise by, in essence, holding her civilly liable to itself, there can be no serious doubt that the government has used its power in an effort to curb speech that is not to its liking. The First Amendment is meant to serve as a bulwark against such exercises of government power. See N.Y. Times , 376 U.S. at 265, 84 S.Ct. 710 (\"The test is not the form in which state power has been applied but, whatever the form, whether such power has in fact been exercised.\"); cf. Daniel J. Solove & Neil M. Richards, Rethinking Free Speech and Civil Liability , 109 COLUM. L. REV. 1650, 1668 (2009) (\"[I]t is important to note that sometimes the state can censor just as effectively through legal forms that are private as it can through ones that are public.\"). Accordingly, we conclude that enforcement of the non-disparagement clause at issue here was contrary to the citizenry's First Amendment interest in limiting the government's ability to target and remove speech critical of the government from the public discourse.\nWe now consider the City's asserted interests in enforcing the non-disparagement clause. Under the circumstances, none of those interests are strong enough for the City to prevail.\nInitially, the City points out that it has an interest in using settlement agreements to reduce the time and money that it devotes to litigation, and that this interest favors enforcement of the non-disparagement clause. But as the Ninth Circuit has aptly explained, when a settlement agreement contains a waiver of a constitutional right, the government's general interest in using settlement agreements to expedite litigation is not enough to make the waiver enforceable-otherwise, no balance-of-interests test would be required. Davies , 930 F.2d at 1398. The City cannot succeed merely by invoking its general interest in settling lawsuits. It must point to additional interests that, under the circumstances, justify enforcing Overbey's waiver of her First Amendment rights.\nTo that end, the City falls back on its argument that one of the private interests protected by the First Amendment is the right not to speak. According to the City, the \"individual autonomy\" embodied by the right not to speak would be undermined if plaintiffs like Overbey could not use their right to silence as a bargaining chip during settlement negotiations. Appellees' Br. at 36. Thus, in the City's view, enforcement of the non-disparagement clause is consonant with, and essential to, individual First Amendment interests. We think not. As noted above, the right to refrain from speaking has generally been construed as preventing the government from requiring private persons to speak in support of policies, causes, or ideas that they find objectionable. It is simply not implicated here: a limitation on the government's ability to purchase citizens' silence does not meaningfully compromise the \"individual freedom of mind\" protected by the right not to speak. Wooley , 430 U.S. at 714, 97 S.Ct. 1428 (quoting W. Virginia State Bd. of Educ. , 319 U.S. at 637, 63 S.Ct. 1178 ).\nThe City goes on to invoke the interests of the three police officers who were named as defendants in Overbey's first lawsuit, asserting that the officers have a personal interest \"in clearing their names.\" Appellees' Br. at 34. We are not unsympathetic to this interest, but it does little to help the City's cause. The settlement agreement neither admits wrongdoing nor vindicates any of the parties involved. That is, neither the settlement agreement as a whole nor the non-disparagement clause in particular has the effect of proving that the officers did not act as Overbey alleges. Thus, to the extent that the officers have an interest in clearing their names, enforcing the non-disparagement clause will not help them. We conclude that the officers' interest in clearing their names does not weigh in favor of enforcement.\nAdditionally, the City urges that both it and the officers involved have an interest in avoiding \"harmful publicity.\" Appellees' Br. at 34. It is well-established that \"vehement, caustic, and sometimes unpleasantly sharp attacks on government and public officials\" can play a valuable role in civic life and therefore enjoy the protections of the First Amendment. N.Y. Times , 376 U.S. at 270, 84 S.Ct. 710. Enforcing a waiver of First Amendment rights for the very purpose of insulating public officials from unpleasant attacks would plainly undermine that core First Amendment principle. Thus, the City's asserted interest in enforcing the non-disparagement clause to avoid harmful publicity stumbles out of the gate, and we find it unpersuasive.\nFinally, the City appeals to \"fairness.\" Appellees' Br. at 40. As the City would have it, Overbey \"sold her [speech] rights, with an option to buy them back, which she exercised, and now she has [her rights] again.\" Id. at 39. Essentially, the City argues that half of Overbey's settlement sum was earmarked for her silence, and that it would be unfair for Overbey to collect that half of her money when she was not, in fact, silent. When the second half of Overbey's settlement sum is viewed in this light, it is difficult to see what distinguishes it from hush money. Needless to say, this does not work in the City's favor. We have never ratified the government's purchase of a potential critic's silence merely because it would be unfair to deprive the government of the full value of its hush money. We are not eager to get into that business now.\nUnder the circumstances, the enforcement of Overbey's waiver of her First Amendment rights-i.e., enforcement of the non-disparagement clause-cuts against strong public interests that are highly relevant to the very right that Overbey waived. The City has not identified a comparably compelling public good or other legitimate governmental aim that was, or could be, furthered by enforcement of the non-disparagement clause (other than a general interest in using settlements to resolve lawsuits). Consequently, the City is not entitled to summary judgment on Overbey's First Amendment claim.\nB.\nWe now move to the Brew's First Amendment claim. As noted above, the district court granted the City's motion for summary judgment because it determined that the Brew lacked standing. We disagree. The district court relied on the allegations in the Amended Complaint in granting summary judgment on the Brew's claim, but those allegations, on their face, suffice to establish the Brew's standing. Accordingly, we reverse.\nTo establish standing under Article III of the Constitution, a plaintiff must show: \"(1) an injury in fact; (2) a sufficient causal connection between the injury and the conduct complained of; and (3) a likelihood that the injury will be redressed by a favorable decision.\" Wikimedia Found. v. Nat'l Sec. Agency , 857 F.3d 193, 207 (4th Cir. 2017). Each of these elements \"must be supported in the same way as any other matter on which the plaintiff bears the burden of proof, i.e. , with the manner and degree of evidence required at the successive stages of the litigation.\" Id. at 208 (quoting Lujan v. Defs. of Wildlife , 504 U.S. 555, 561, 112 S.Ct. 2130, 119 L.Ed.2d 351 (1992) ). Thus, when a defendant challenges a plaintiff's standing, we analyze the challenge differently depending on the stage of litigation at which the challenge is brought and the substance of the defendant's arguments.\nThat general rule is complicated here. Recall that in the proceedings below, the City filed a pre-discovery motion to dismiss or, in the alternative, for summary judgment. As part of their briefing on the motion, both parties submitted evidence outside the pleadings. The district court granted a hearing on the motion, after which it decided to treat the motion as one for summary judgment. Having come to that decision, the district court concluded that \"the City [would] be granted summary judgment on Baltimore Brew's claims.\" J.A. 360.\nYet neither the hearing on the City's motion nor the district court's analysis of the Brew's standing indicates that the lower court considered the Brew's standing, specifically, through the summary-judgment lens. Although the parties submitted exhibits and affidavits related to Overbey's claims, it appears that neither party produced any evidence related to the Brew's claims. Indeed, in attacking the Brew's standing, the City focused entirely on what the Brew had or had not alleged; at the hearing on the City's motion, neither the parties nor the district court made any significant reference to the record or to disputes of fact material to the Brew's standing; and in its order dismissing the Brew's claims, the district court's reasoning turned on whether the Brew's allegations were sufficient to confer standing as a matter of law. Thus, in every meaningful way, the parties and the district court limited their analysis of the Brew's standing to the allegations in the Amended Complaint. We take that perspective as the starting point of our analysis. In other words, we begin by asking whether the Brew's plausible allegations in the Amended Complaint, taken as true, are enough to give the Brew constitutional standing. See Wikimedia , 857 F.3d at 207-08.\nThe crux of this issue is whether the Brew has alleged an injury in fact. An injury in fact is \"an invasion of a legally protected interest that is concrete and particularized and actual or imminent, not conjectural or hypothetical.\" Spokeo, Inc. v. Robins , --- U.S. ----, 136 S. Ct. 1540, 1548, 194 L.Ed.2d 635 (2016), as revised (May 24, 2016) (internal quotation marks and citation omitted).\nThe legally protected interest at stake here is the Brew's right to gather news, which derives from the First Amendment. Branzburg v. Hayes , 408 U.S. 665, 728, 92 S.Ct. 2646, 33 L.Ed.2d 626 (1972) ; Food Lion, Inc. v. Capital Cities/ABC, Inc. , 194 F.3d 505, 520 (4th Cir. 1999) (\"There are First Amendment interests in newsgathering.\" (quoting In re Shain , 978 F.2d 850, 855 (4th Cir. 1992) (Wilkinson, J., concurring))). Indeed, it is \" 'well established that the Constitution protects the right to receive information and ideas' from a willing speaker.\" Stephens v. Cty. Of Albemarle , 524 F.3d 485, 491 (4th Cir. 2008) (quoting Stanley v. Georgia , 394 U.S. 557, 564, 89 S.Ct. 1243, 22 L.Ed.2d 542 (1969) ). That interest has been invaded, the Brew tells us, insofar as the City's alleged policy of making silence a condition of settlement with police brutality claimants has prevented the Brew from interviewing at least some of those claimants about (a) their cases or (b) their experiences with the settlement process.\nThe City takes issue with this contention in multiple ways. First, according to the City, the Brew has no special right of access to non-public information; consequently, the only way the Brew can show an invasion of its interest in newsgathering is by showing that the City prevented it from gathering newsworthy information from willing speakers. Yet in the City's view, the Brew has not alleged that any willing speakers exist. The Brew alleges that some police brutality claimants have refused to discuss their cases with the Brew so as to avoid violating their settlement agreements, but the City believes that those claimants do not qualify, given that they were not ordered to refrain from discussing their cases or settlements with the news media. Rather, they agreed not to discuss their cases or settlements with the news media. If they are not willing to break their agreements, says the City, they cannot reasonably be considered willing speakers.\nThe City's definition of \"willing speaker\" misses the mark. For the purposes of constitutional standing, a person qualifies as a willing speaker if she would be willing to provide information on a matter of public significance to the news media but chooses not to because she does not want to violate a settlement agreement with the government. See Stephens , 524 F.3d at 492 (acknowledging that a \"willing speaker\" exists, for purposes of a plaintiff's constitutional standing, when one party to a settlement agreement with the government would be willing to speak to the plaintiff if not for a prohibition in the settlement agreement); see also American Civil Liberties Union v. Holder , 673 F.3d 245, 255 (4th Cir. 2011) (same). Cf. United States v. Wecht , 484 F.3d 194, 203 (3d Cir. 2007), as amended (July 2, 2007) (\"[W]e hold that the consent of the parties to an order limiting speech is irrelevant to third-party standing analysis as long as the [plaintiff] can demonstrate that an individual subject to the order would speak more freely if the order is lifted or modified.\"). We therefore reject the City's argument that claimants who have settled police brutality suits and who subsequently refuse to discuss their suits because they believe themselves bound by non-disparagement clauses are categorically not willing speakers. They can be. And the Brew alleges that that \"[o]n multiple occasions, plaintiffs who have settled civil rights lawsuits against BPD have refused to talk to Baltimore Brew specifically because of the gag order in their respective settlement agreements.\" J.A. 34. Thus, the Brew has sufficiently alleged that the City's pervasive use non-disparagement clauses in settlement agreements with police brutality claimants has interfered with its right to receive newsworthy information from willing speakers.\nIn addition, the City argues that based on the Brew's own allegations, it is clear that the Brew has suffered nothing more than a mild inconvenience in its reporting. The Brew can, and does, use public records to obtain information on \"police brutality\" lawsuits settled by the City. Presumably, such records were available to the Brew even on those occasions when, according to the Amended Complaint, it tried and failed to get firsthand interviews with certain claimants. Since complaints and other litigation documents related to lawsuits against the police department are generally matters of public record, the City asserts that interviewing claimants \"is not 'a necessary prerequisite to any form of the expressive activity the [Baltimore Brew] wishe[s] to undertake.' \" Appellees' Br. at 45 (quoting Benham v. City of Charlotte, N.C. , 635 F.3d 129, 136 (4th Cir. 2011) (alterations in source)).\nAgain, we are not persuaded. The Brew has alleged that legal documents in the public record do not exhaust the newsworthy aspects of police brutality suits, and that claimants who bring such suits are uniquely positioned to provide the public with newsworthy information related to their claims. Additionally, the Brew has pointed out that claimants' firsthand experience of the process of settling with the City is not a matter of public record and can only be obtained by communicating with settling claimants directly. Thus, contrary to the City's assertion, the mere fact that a significant amount of information about most claimants' lawsuits is available in the public record does not mean that some claimants' refusal to talk to the Brew could not have a significant and deleterious effect on the Brew's reporting.\nThe Brew has plausibly alleged that its legally protected interest in newsgathering has, at some point, been invaded by the City's use of non-disparagement clauses in settlement agreements with police brutality claimants. Yet there remains a potential problem with the Brew's theory of standing-a problem that neither the district court nor the parties have addressed. Although Overbey sought monetary damages as to Count One, the Brew seeks only declaratory and injunctive relief as to Count Two of the Amended Complaint. \"The standing requirement applies to each claim that a plaintiff seeks to press,\" Bostic v. Schaefer , 760 F.3d 352, 370 (4th Cir. 2014), and \"a plaintiff must demonstrate standing separately for each form of relief sought,\" Friends of the Earth, Inc. v. Laidlaw Envtl. Servs. (TOC), Inc. , 528 U.S. 167, 185, 120 S.Ct. 693, 145 L.Ed.2d 610 (2000).\nBecause the Brew seeks \"declaratory and injunctive relief,\" it \"must establish an ongoing or future injury in fact.\" Kenny v. Wilson , 885 F.3d 280, 287 (4th Cir. 2018) (emphasis supplied). This means that the Brew's standing to sue for declaratory and injunctive relief \"may not rely on prior harms.\" Abbott v. Pastides , 900 F.3d 160, 176 (4th Cir. 2018). \"[T]he party invoking the jurisdiction of the court must include the necessary factual allegations in the pleading, or else the case must be dismissed for lack of standing.\" Bishop v. Bartlett , 575 F.3d 419, 424 (4th Cir. 2009).\nThe only one of the Brew's allegations that could reasonably be construed as describing an ongoing or imminent harm is its allegation that the City's pervasive use of non-disparagement clauses in settlements with police brutality claimants \"impedes the ability of the press generally, and Baltimore Brew specifically, to fully carry out the important role the press plays in informing the public about government actions.\" J.A. 35. This allegation is general, but it is plausible on its face. And when we evaluate standing based on the pleadings, as the district court did, \"we presume that general allegations embrace those specific facts that are necessary to support the claim.\" Lujan , 504 U.S. at 561, 112 S.Ct. 2130 (internal citation and alteration omitted).\nWith that forgiving presumption in place, we conclude that the Brew has sufficiently pleaded an ongoing or imminent injury in fact that is both traceable to the City's challenged conduct and redressable by the court. As discussed above, neither the parties' arguments below nor the district court's disposition went meaningfully beyond the pleadings in evaluating the Brew's standing. We therefore decline to do so ourselves-even though the order under review is nominally a grant of summary judgment to the City. Instead, we remand to give the parties and the district court an opportunity to develop the evidentiary record relevant to the Brew's claims.\nIV.\nFor the foregoing reasons, we reverse the judgment of district court and remand for further proceedings consistent with this opinion.\nREVERSED AND REMANDED\nBecause the district court disposed of the relevant claims on the City's motion for summary judgment, we recount the facts in the light most favorable to the non-movants.\nThis figure derives from a statement made by Baltimore's former City Solicitor and reported by the Wall Street Journal. See J.A. 54.\nIncidentally, from the $31,500 disbursed by the City, Overbey's attorney took a cut of approximately $20,500-one-third of the $63,000 that Overbey would have received if the City had not determined that she had violated the non-disparagement clause. Once her attorney took his cut, Overbey was left with about $11,000 in settlement funds.\nAppellants' notice of appeal encompasses the dismissal of their claims against the BPD. But Appellants address the dismissal of the police department in nothing more than a footnote, and they do not assert, much less argue, that the dismissal of the department was legally erroneous. Therefore, we see no reason to disturb that portion of the district court's order, and we do not analyze it further.\nAt one point below, Overbey argued that as a matter of contractual interpretation, the non-disparagement clause did not give the City the right to withhold any portion of her settlement funds; rather, it merely gave the City the right to seek a refund of half her settlement funds. The district court held that that contract-based claim was untimely, and the question is no longer before us.\nOverbey also argues that the enforcement of the non-disparagement clause was unconstitutional because it was illegal for the City to include the clause in the first place; according to Overbey, the First Amendment prevents the City from introducing and negotiating for non-disparagement clauses in settlement agreements with police-misconduct claimants. The district court did not address that argument, and we decline to do so now, because it is not necessary for us to resolve the central question of Overbey's appeal: whether the district court correctly granted summary judgment to the City on her First Amendment claim. We note, however, that Overbey has not abandoned the argument.\nAs the City puts it, \"The facts alleged in the amended complaint show that the City did not restrict [Overbey's] speech, instead, she agreed to exercise her right not to speak in exchange for a payment of money in settlement of her lawsuit.\" Appellees' Br. at 16.\nThe City contends that Overbey's silence about her case could not have appreciably inhibited debate on the relevant public issues, since her complaint and related filings are part of the public record. We are not convinced. We agree with the City that Overbey's silence would not entirely foreclose debate on her experiences with law enforcement or the manner in which the City handled her claims; nevertheless, when someone with personal experience of how the City litigates and settles claims of police misconduct remains silent on those topics to avoid contractual liability to the City, the relevant public discourse cannot be considered \"uninhibited\" or \"wide-open.\" Citizens United , 558 U.S. at 339, 130 S.Ct. 876. This is especially true when it comes to Overbey's experience of the settlement process itself.\nWe note that this is not a case in which the government seeks to hold a private speaker liable for the unauthorized disclosure of confidential or sensitive information that was held by the government and to which the speaker would not have had access but for a promise of confidentiality or other fiduciary obligation to the government. Cf. Snepp v. United States , 444 U.S. 507, 510, 100 S.Ct. 763, 62 L.Ed.2d 704 (1980).\nTo bolster its argument, the City asserts that if Overbey were to prevail in the instant case, the City would \"almost certainly\" offer less money to similar police-misconduct claimants in the future, since such claimants would have less value to offer in return for settlement; that is, claimants would be unable to sell their own silence as part of a settlement agreement, making their agreement to settle less valuable. Appellees' Br. at 35. This, according to the City, would \"reduce the number and mutual value of settlements.\" Id. We are troubled by the underlying logic of this assertion: police-misconduct claimants get money to keep quiet, the City gets silence and a speedy end to litigation, and everybody wins-except, presumably, members of the public who are interested in transparency surrounding police-misconduct suits.\nAside from that concern, there are two factors that make the City's assertion unconvincing. First, the assertion is overly simple: the outcome of settlement negotiations in a police-misconduct suit is likely to be driven by a complex interaction of case-specific factors, such as the defendants' risk of exposure to high damages awards following a jury trial, the claimant's financial resources, and each side's appetite for litigation. Accordingly, we will not assume that the financial terms of all future settlements will be appreciably affected by the enforceability of the non-disparagement clause in this settlement. Second, during oral argument, the City represented that it had already stopped using non-disparagement clauses like Overbey's in settlement agreements with police-misconduct claimants. Thus, we are left with no reason to think that the enforceability of the non-disparagement clause in Overbey's settlement agreement has anything other than a conjectural and attenuated relationship to \"the number and mutual value of [future, hypothetical] settlements.\" Id.\nFor this reason, we see no merit in the City's argument that the Brew lacks prudential standing because it \"seeks to assert the free speech rights of third parties ....\" Appellees' Br. at 46.\nWe use the term \"police brutality\" herein because that is the term the Brew uses in its allegations, along with \"excessive force.\" We express no opinion on the precise meaning of those terms or the types of allegations that fall under their umbrella.\nSince parties to a settlement agreement like the one at issue here may be willing speakers, and the Brew alleged as much, this case does not require us to decide whether the news media's interest in newsgathering can be invaded when no willing speaker exists.\nIn the same vein, City adverts to our decision in Baltimore Sun Company v. Ehrlich , 437 F.3d 410, 419 (4th Cir. 2006). But that case has little to tell us about the Brew's standing. In Ehrlich , the relevant question was whether a plaintiff newspaper had suffered an adverse action for purposes of its First Amendment retaliation claim \"when a government official denie[d] [a] reporter access to discretionary information or refuse[d] to answer the reporter's questions because the official disagree[d] with the substance or manner of the reporter's previous\" publications. Id. We said no. Here, in contrast, we are not asked to decide whether the Brew has stated a claim for retaliation in violation of the First Amendment. And even if this case involved a retaliation claim, Ehrlich 's relevance would be limited to the legality of the City's alleged conduct, whereas \"standing in no way depends on the merits of the plaintiff's contention that particular conduct is illegal.\" Warth v. Seldin , 422 U.S. 490, 500, 95 S.Ct. 2197, 45 L.Ed.2d 343 (1975). Therefore, Ehrlich does not guide us.\nSimilarly, Cohen v. Cowles Media Co. , 501 U.S. 663, 665, 111 S.Ct. 2513, 115 L.Ed.2d 586 (1991), is not relevant to the Brew's standing. In that case, the question was \"whether the First Amendment prohibits a plaintiff from recovering damages, under state promissory estoppel law, for a newspaper's breach of a promise of confidentiality given to the plaintiff in exchange for information.\" Id. The Supreme Court did not discuss the newspaper's standing. Even if it had, Cohen still would not control, because the state action challenged in that case-the enforcement of a generally applicable law governing an agreement between two private parties-is fundamentally different from the state action challenged here.",
+        "type": "majority",
+        "author": "FLOYD, Circuit Judge:"
+      },
+      {
+        "text": "QUATTLEBAUM, Circuit Judge, dissenting:\nOne of the bedrock principles of our country is the freedom of parties, public and private, to enter into agreements without fear that courts will re-write them if one side has a change of heart. Under this principle, parties have a right to rely on the certainty of contracts entered into knowingly and voluntarily. In my view, the majority opinion undermines those important principles. While I join my colleagues in affirming the importance of the First Amendment and the public's interest in exposing police misconduct, such affirmation does not require us to find unenforceable the non-disparagement provision in the settlement agreement between Overbey and the defendants. Overby entered into the settlement agreement knowingly and voluntarily, and the interests in enforcing it outweigh any countervailing interests. Accordingly, I respectfully dissent.\nI.\nIn 2013, Overbey filed a lawsuit alleging egregious police misconduct. She had every right to a public trial on the allegations. She also had the freedom to speak about the case before, during and after the suit. Defendants in the suit denied the allegations of misconduct. They likewise had the right to defend themselves in a public trial and to comment on the case.\nHowever, as happens in the vast majority of cases, the parties gave up those rights. Rather than resolve their dispute publicly in a court of law, they decided to resolve the dispute privately through a negotiated settlement. With both sides represented by counsel, the parties entered into a written settlement agreement. As part of that agreement, the defendants agreed to pay Overbey $63,000. In return, Overbey agreed to dismiss her claims and, pursuant to the non-disparagement provision, not to comment about the allegations in her suit or the settlement process. She further agreed that if she violated the non-disparagement provision, the City was entitled to the return of $31,500.\nLater, the Baltimore Sun published an article about the settlement. It included a comment made by the City Solicitor about Overbey during the settlement approval hearing. On the Sun 's website, members of the public made several comments critical of Overbey. She responded on the website with several posts about her case. At the time of her posts, the City had not yet paid the settlement amounts. The City sent Overbey a check for only $31,500. The City-believing Overbey's comments to the Sun violated the non-disparagement provision-refused to send the additional $31,500. Overbey does not dispute that her public comments violated the agreement. Instead, she seeks to excuse her admitted breach by claiming that the non-disparagement provision in the agreement is unenforceable. As a result, she seeks to compel the City to pay the full $63,000 to her. Since she has already received $31,500, she seeks the $31,500 she previously agreed to give up if she spoke about the case.\nII.\nPrior to entering into the settlement agreement, Overbey had a constitutional right to speak about the allegations in the lawsuit. The question for us is whether Overbey waived that right by agreeing to the non-disparagement provision, and, if so, whether her waiver is enforceable. In explaining this issue, we have stated that \"a contract will be enforced unless the interest promoted by its enforcement is outweighed by the public policy harms resulting from enforcement.\" Lake James Cmty. Volunteer Fire Dep't, Inc. v. Burke Cty. , N.C. , 149 F.3d 277, 280 (4th Cir. 1998) ; (citing Town of Newton v. Rumery , 480 U.S. 386, 392, 107 S.Ct. 1187, 94 L.Ed.2d 405 (1987) and Restatement (Second) Contracts \u00a7 178(1) (1981) ). While the law does not presume the waiver of constitutional rights, it also does not render the contract per se unenforceable \"simply because a contract includes the waiver of a constitutional right.\" Id . Thus, \"[w]here a party knowingly and willingly enters into an agreement that waives a constitutional right, the agreement is enforceable so long as it does not undermine the public's interest in protecting the right.\"\nPee Dee Health Care, P.A. v. Sanford , 509 F.3d 204, 213 (4th Cir. 2007). Here, the non-disparagement provision does not.\nA.\nTo examine whether there are any public policy harms implicated by enforcement of the non-disparagement provision, it is critical to look to the specific circumstances and the harm caused by enforcing this settlement's non-disparagement provision. See Rumery , 480 U.S. at 392-94, 107 S.Ct. 1187 (using a fact specific, case-by-case approach to determine whether a defendant's waiver of his statutory right to sue was enforceable). Overbey broadly asserts that the non-disparagement provision harms the public policy favoring debate about public issues and the need to cautiously mistrust government power. No one would deny the importance of those issues. But it is not enough to simply posit general constitutional principles. If that were enough, no confidentiality agreement or non-disparagement provision could ever stand. See Leonard v. Clark , 12 F.3d 885, 892 n.12 (9th Cir. 1993). Instead, the proper inquiry is how much those public policy interests are impaired, if at all, based on the applicable record. Looking at the circumstances of this case, Overbey overstates the impairment of any potential public policy interests.\nFirst, it is important to note the narrow scope of the waiver. Under the non-disparagement provision, Overbey agreed not to speak about the facts of her specific case. The waiver did not restrict her from speaking about the Baltimore Police Department or police misconduct generally. Nor did it restrict her from speaking on a myriad of other public issues. It simply limited her ability to speak publicly about her case.\nSecond, the limitations in the non-disparagement clause did not actually bar Overbey from speaking about her case. There were just financial consequences-to which she agreed-of her choosing to speak. Under the agreement, she had a choice. She could abide by her promise not to talk about the case. If she did that, she would receive the full $63,000. Or she could do what she did-talk about the case. The consequence was that, since Overbey made that latter choice, the City was entitled to keep $31,500 of the $63,000 settlement amount.\nThird, even without her public comments, the detailed allegations in Overbey's complaint and in the Department of Justice's 2016 report on police misconduct in Baltimore contain extensive information on this important issue. Critically, all of that information remains public. Likewise, the terms of the settlement agreement were made and remain public. The non-disparagement provision does not remove any of that information about police misconduct in Baltimore from the review and scrutiny of the public. It remains in the public square for discourse and debate. Thus, even if Overbey decided not to speak because of the non-disparagement provision, the public's interests would only have been minimally harmed.\nLast, any impairment of the public's interests must be considered in relation to Overbey's other rights. Part and parcel with Overbey's right to speak is her right not to speak. Plainly, even without the non-disparagement provision, Overbey had the right not to speak. If she had done that, the public's interest would have been equally impaired. The public's interests cannot legitimately be harmed by Overbey doing by written agreement what was her right in the first place.\nB.\nOn the other hand, the defendants have significant and legitimate interests in the enforcement of the non-disparagement clause. First, they have an interest in the finality of the litigation. See Leonard , 12 F.3d at 891 (recognizing the public's interest in the finality of collective bargaining agreements as one of the public policies favoring enforcement of the constitutional waiver not to speak). Litigation serves a vital role in our legal system, but, for those in the midst of it, it is often unpleasant, expensive and distracting. For those and many other reasons, litigants at times decide that the best course for them is to compromise on a settlement rather than forging forward to trial. The defendants did just that in this case. They agreed to put the dispute behind them by entering into an agreement with terms that furthered their interest in finality. The non-disparagement provision was one of the terms.\nSecond, by agreeing to the settlement, the defendants gave up their opportunity for vindication by a judge or jury. Of course, there is no guarantee how the case would have turned out had it continued. That uncertainty is one of the reasons parties often agree to a settlement. But having given up the opportunity to be exonerated, the defendants have an interest in Overbey's accusations, which they denied, ending. The non-disparagement clause furthered this legitimate interest as well.\nThird, the defendants have an interest in the certainty of their contract. As alluded to above, parties have a right to expect that plain and unambiguous terms of the contracts to which they enter, like the ones here, will be enforced. See Hemstreet v. Spiegel , Inc. , 851 F.2d 348, 350 (Fed. Cir. 1988) (holding \"there is a compelling public interest and policy in upholding and enforcing settlement agreements voluntarily entered into.\"). During the pendency of the case, when it was uncertain whether she would be awarded any money, Overbey decided it was a good idea to limit her public comments in return for additional settlement payments from the defendants. After the settlement, Overbey, with some money in hand, decided she no longer wanted to limit her comments. Despite that, she now seeks to not only keep the money she received, but also compel the City to pay the rest. Overbey seeks through the courts to re-write the agreement so that she will receive all the benefits of the agreement, but not all of the burdens. This is not the proper role for courts.\nIn conclusion, the interests of the defendants in enforcing the agreement is substantial. In agreeing with both district court orders below granting summary judgment, I believe the interests of the defendants in enforcing the non-disparagement provision outweigh the public's interests in voiding it. Therefore, I part ways with my good colleagues in the majority. I would affirm the district court's dismissal of the case.\nThe conduct by the Baltimore Police Department as alleged by Overbey is abhorrent. I express no opinion on which party was likely to prevail below or minimize in any way the injuries allegedly suffered by Overbey.\nThe majority does not address Overbey's claim that she did not knowingly and voluntarily enter into the non-disparagement provision. But Overbey's argument that she did not understand that the waiver would apply to her specific conduct is without merit. The non-disparagement clause prohibits discussion of opinions, facts or allegations about the case. Further, Overbey was represented by legal counsel throughout the litigation and settlement process. Last, a provision in the settlement agreement, labeled \"Knowingly and Voluntary Act,\" stated that both parties represented they entered into the agreement voluntarily, with the advice of legal counsel and had adequate opportunity to investigate the subject matter of the agreement.\nThe majority opinion acknowledges that Overbey's silence would not entirely foreclose debate on her experiences with law enforcement, but stresses that even so, the relevant public discourse cannot be considered \"uninhibited\" or \"wide-open.\" Maj. Op. at 224 n.8. But that is not the issue. If it were, any limitation would fail. The issue is whether the public policy in promoting that discourse has been appreciably harmed.\nI find no Supreme Court or Fourth Circuit authority to support the majority's suggestion that Overbey had no recognizable right not to comment on this case. The majority is certainly correct that the First Amendment prevents the government from compelling individuals to express support for views to which they object. But citizens who have information on important issues are entitled to remain silent, or as the majority puts it, to abstain from speech. See Wooley v. Maynard , 430 U.S. 705, 714, 97 S.Ct. 1428, 51 L.Ed.2d 752 (1977) (holding that \"the right of freedom of thought protected by the First Amendment against state action includes both the right to speak freely and the right to refrain from speaking at all.\"). The scarcity of cases when the government is not seeking to compel speech is likely due to the case and controversy requirement. Without government action, there is no case and controversy. But citizens have the freedom not to speak if they so choose. As Terence Mann said in initially rebuffing Ray Kinsella's request to come to Iowa in the well-known film Field of Dreams , \"I don't give interviews, and I'm no longer a public figure. I just want to be left alone ....\" To suggest this freedom does not exist would be unprecedented and take us into a land well beyond what even Orwell envisioned.\nSurprisingly, my good colleagues in the majority characterize this position as endorsing \"hush money.\" Maj. Op. at 226. Harsh words for the principle that it is unfair for parties who enter agreements freely to later change their mind and seek to avoid the very terms to which they agreed. Perhaps a better description would be that Overbey cannot have her cake and eat it too.\nThe majority also reverses the district court's order which concluded that Baltimore Brew had no standing to pursue its claims. For the reasons set forth by the district court, I dissent on this issue as well. See Overbey v. Mayor & City Council of Baltimore , No. CV MJG-17-1793, 2017 WL 5885657, at *5 (D. Md. Nov. 29, 2017).",
+        "type": "dissent",
+        "author": "QUATTLEBAUM, Circuit Judge, dissenting:"
+      }
+    ],
+    "attorneys": [
+      "ARGUED: Daniel William Wolff, CROWELL & MORING LLP, Washington, D.C., for Appellants. Andre M. Davis, BALTIMORE CITY LAW DEPARTMENT, Baltimore, Maryland, for Appellees. ON BRIEF: Deborah Jeon, Nicholas Steiner, AMERICAN CIVIL LIBERTIES UNION OF MARYLAND, Baltimore, Maryland; Charles D. Austin, Nkechi Kanu, Tyler O'Connor, CROWELL & MORING LLP, Washington, D.C., for Appellants. Suzanne Sangree, Senior Counsel, Lydie E. Glynn, Assistant Solicitor, Colin P. Glynn, Assistant Solicitor, Jason R. Foltin, Assistant Solicitor, Frederic Smalkin, Jr., Assistant Solicitor, BALTIMORE CITY DEPARTMENT OF LAW, Baltimore, Maryland, for Appellees. Jennifer D. Bennett, PUBLIC JUSTICE, Oakland, California; Ajmel Quereshi, Civil Rights Clinic, HOWARD UNIVERSITY SCHOOL OF LAW, Washington, D.C., for Amici Howard University School of Law Civil Rights Clinic and Public Justice. K'Shaani Smith, PUBLIC JUSTICE CENTER, Baltimore, Maryland, for Amici Public Justice Center, Washington Lawyers' Committee for Civil Rights and Urban Affairs, National Women's Law Center, and Tawanda Jones. Bruce D. Brown, Katie Townsend, Caitlin Vogus, REPORTER COMMITTEE FOR FREEDOM OF THE PRESS, Washington, D.C.; Lisa B. Zycherman, DAVIS WRIGHT TREMAINE LLP, Washington, D.C., for Amici Reporters Committee for Freedom of the Press and 19 Media Organizations."
+    ],
+    "corrections": "",
+    "head_matter": "Ashley Amaris OVERBEY; Baltimore Brew, Plaintiffs - Appellants,\nv.\nThe MAYOR and City Council OF BALTIMORE; Baltimore City Police Department, Defendants - Appellees.\nAmerican Society of News Editors; Associated Press Media Editors ; Association of Alternative Newsmedia; BuzzFeed; Gannett Company, Incorporated; Howard University School of Law Civil Rights Clinic; International Documentary Association; Investigative Reporting Program at UC Berkeley; Investigative Reporting Workshop at American University; Tawanda Jones; MPA- The Association of Magazine Media; Maryland D.C. Delaware Broadcasters Association; Maryland-Delaware-District of Columbia Press Association ; National Press Photographers Association ; National Women's Law Center; Online News Association; Public Justice; Public Justice Center; Reporters Committee for Freedom of the Press; Society of Professional Journalists; The Baltimore Sun; The Center for Investigative Reporting; The E.W. Scripps Company; The Washington Post; Tully Center for Free Speech; Washington Lawyers' Committee for Civil Rights and Urban Affairs, Amici Supporting Appellant.\nNo. 17-2444\nUnited States Court of Appeals, Fourth Circuit.\nArgued: January 30, 2019\nDecided: July 11, 2019\nARGUED: Daniel William Wolff, CROWELL & MORING LLP, Washington, D.C., for Appellants. Andre M. Davis, BALTIMORE CITY LAW DEPARTMENT, Baltimore, Maryland, for Appellees. ON BRIEF: Deborah Jeon, Nicholas Steiner, AMERICAN CIVIL LIBERTIES UNION OF MARYLAND, Baltimore, Maryland; Charles D. Austin, Nkechi Kanu, Tyler O'Connor, CROWELL & MORING LLP, Washington, D.C., for Appellants. Suzanne Sangree, Senior Counsel, Lydie E. Glynn, Assistant Solicitor, Colin P. Glynn, Assistant Solicitor, Jason R. Foltin, Assistant Solicitor, Frederic Smalkin, Jr., Assistant Solicitor, BALTIMORE CITY DEPARTMENT OF LAW, Baltimore, Maryland, for Appellees. Jennifer D. Bennett, PUBLIC JUSTICE, Oakland, California; Ajmel Quereshi, Civil Rights Clinic, HOWARD UNIVERSITY SCHOOL OF LAW, Washington, D.C., for Amici Howard University School of Law Civil Rights Clinic and Public Justice. K'Shaani Smith, PUBLIC JUSTICE CENTER, Baltimore, Maryland, for Amici Public Justice Center, Washington Lawyers' Committee for Civil Rights and Urban Affairs, National Women's Law Center, and Tawanda Jones. Bruce D. Brown, Katie Townsend, Caitlin Vogus, REPORTER COMMITTEE FOR FREEDOM OF THE PRESS, Washington, D.C.; Lisa B. Zycherman, DAVIS WRIGHT TREMAINE LLP, Washington, D.C., for Amici Reporters Committee for Freedom of the Press and 19 Media Organizations.\nBefore FLOYD, THACKER, and QUATTLEBAUM, Circuit Judges.\nReversed and remanded by published opinion. Judge Floyd wrote the opinion, in which Judge Thacker joined. Judge Quattlebaum wrote a dissenting opinion."
+  },
+  "file_name": "0215-01",
+  "first_page_order": 215,
+  "last_page_order": 234
+}

@@ -1,0 +1,76 @@
+{
+  "id": 12424006,
+  "name": "Baranwal v. United States; Chebssi v. United States; LaCour v. United States; and Tobin v. United States",
+  "name_abbreviation": "Baranwal v. United States",
+  "decision_date": "2012-11-26",
+  "docket_number": "No. 12-166; No. 12-428; No. 12-5261; No. 12-6353",
+  "first_page": "1026",
+  "last_page": "1026",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1026"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "676 F. 3d 1264",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3756152
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/676/1264-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 25,
+    "char_count": 224,
+    "ocr_confidence": 0.659,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2562659058501094
+    },
+    "sha256": "06ecee558a8565e05dee430b09200e1cec1000512e28f81f92bc1f516f4b3aa8",
+    "simhash": "1:ed2b2f116e9d1012",
+    "word_count": 37
+  },
+  "last_updated": "2024-02-27T23:44:49.194693+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Baranwal v. United States; Chebssi v. United States; LaCour v. United States; and Tobin v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Cer-tiorari denied. Reported below: 676 F. 3d 1264.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-166.\nNo. 12-428.\nNo. 12-5261.\nNo. 12-6353.\nBaranwal v. United States; Chebssi v. United States; LaCour v. United States; and Tobin v. United States."
+  },
+  "file_name": "1026-11",
+  "first_page_order": 1102,
+  "last_page_order": 1102
+}

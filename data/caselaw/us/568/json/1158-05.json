@@ -1,0 +1,59 @@
+{
+  "id": 12430466,
+  "name": "Reed v. Grounds, Warden",
+  "name_abbreviation": "Reed v. Grounds",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-649",
+  "first_page": "1158",
+  "last_page": "1158",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1158"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.679,
+    "sha256": "9b56d7fe03fb8014503ede6bfc47462112cc436a4b50993b37939e06b7f2d6a5",
+    "simhash": "1:90b7c6b229bff177",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Reed v. Grounds, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-649.\nReed v. Grounds, Warden."
+  },
+  "file_name": "1158-05",
+  "first_page_order": 1234,
+  "last_page_order": 1234
+}

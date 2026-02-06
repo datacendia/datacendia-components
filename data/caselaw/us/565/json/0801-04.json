@@ -1,0 +1,81 @@
+{
+  "id": 12187441,
+  "name": "Chinese Daily News, Inc. v. Wang et al.",
+  "name_abbreviation": "Chinese Daily News, Inc. v. Wang",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-1202",
+  "first_page": "801",
+  "last_page": "802",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 801"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "564 U. S. 338",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5930529,
+        12450492
+      ],
+      "year": 2011,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/564/0338-01",
+        "/l-ed-2d/180/0374-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 44,
+    "char_count": 295,
+    "ocr_confidence": 0.674,
+    "pagerank": {
+      "raw": 4.688403287882615e-08,
+      "percentile": 0.25227762012087984
+    },
+    "sha256": "6ee31780fce51a7932b6c015fd8ee9380c3ee369352ed2cdcb0bc4ae4cbcc481",
+    "simhash": "1:99d2208aad4e86d7",
+    "word_count": 50
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Breyer took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Chinese Daily News, Inc. v. Wang et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari granted, judgment vacated, and case remanded for further consideration in light of Wal-Mart Stores, Inc. v. Dukes, 564 U. S. 338 (2011).\nJustice Breyer took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1202.\nChinese Daily News, Inc. v. Wang et al."
+  },
+  "file_name": "0801-04",
+  "first_page_order": 883,
+  "last_page_order": 884
+}

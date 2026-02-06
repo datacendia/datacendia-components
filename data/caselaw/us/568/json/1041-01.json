@@ -1,0 +1,61 @@
+{
+  "id": 12425660,
+  "name": "Garey v. United States",
+  "name_abbreviation": "Garey v. United States",
+  "decision_date": "2012-11-26",
+  "docket_number": "No. 11-11102",
+  "first_page": "1041",
+  "last_page": "1041",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1041"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 151,
+    "ocr_confidence": 0.592,
+    "sha256": "cac337268779880a050963c9c9d5ac73aad06f8feb4815f53090b25fd04a5b60",
+    "simhash": "1:0f23ab8223c6d042",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Garey v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-11102.\nGarey v. United States."
+  },
+  "file_name": "1041-01",
+  "first_page_order": 1117,
+  "last_page_order": 1117
+}

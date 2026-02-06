@@ -1,0 +1,143 @@
+{
+  "id": 2332196,
+  "name": "A. D. Ferguson et al v. Commissioners' Court of Sabine County, Texas",
+  "name_abbreviation": "Ferguson v. Commissioners' Court",
+  "decision_date": "1950-03-22",
+  "docket_number": "No. A-2596",
+  "first_page": "604",
+  "last_page": "605",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "148 Tex. 604"
+    },
+    {
+      "type": "parallel",
+      "cite": "227 S.W.2d 1022"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "58 S. W. (2d) 41",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10232032,
+        2304253,
+        10232103
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/58/0041-01",
+        "/tex/122/0313-01",
+        "/sw2d/58/0041-02"
+      ]
+    },
+    {
+      "cite": "122 Texas 313",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2304253
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/122/0313-01"
+      ]
+    },
+    {
+      "cite": "298 S. W. 891",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        2274832,
+        10308461
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/117/0149-01",
+        "/sw/298/0891-01"
+      ]
+    },
+    {
+      "cite": "117 Texas 149",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2274832
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/117/0149-01"
+      ]
+    },
+    {
+      "cite": "124 S. W. 616",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "103 Texas 144",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2259194
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/103/0144-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 85,
+    "char_count": 692,
+    "ocr_confidence": 0.649,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.07969731053818195
+    },
+    "sha256": "f70aafbe3813951a818eeea29a485f36dca6b1890c0820c161140b09c8588842",
+    "simhash": "1:4e4c009c73a43c0f",
+    "word_count": 119
+  },
+  "last_updated": "2024-02-27T18:26:46.107850+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "A. D. Ferguson et al v. Commissioners\u2019 Court of Sabine County, Texas."
+    ],
+    "opinions": [
+      {
+        "text": "PER CURIAM:\nIt appearing that the certificate from the Honorable Court of Civil Appeals submits the whole case to this court for decision, it is ordered that the certificate be dismissed. Falfurrias Immigration Co. v. Spielhagen, 103 Texas 144, 124 S. W. 616; Taylor v. Higgins Oil & Fuel Co., 117 Texas 149, 298 S. W. 891; Hedrick v. Ratcliff, 122 Texas 313, 58 S. W. (2d) 41.\nOpinion delivered March 22, 1950.",
+        "type": "majority",
+        "author": "PER CURIAM:"
+      }
+    ],
+    "attorneys": [
+      "Fisher & Tonakill and Joe J. Fisher, all of Jasper, for appellant.",
+      "L. E. King, County Attorney, and Minton & Minton, of Hemphill, for appellees."
+    ],
+    "corrections": "",
+    "head_matter": "A. D. Ferguson et al v. Commissioners\u2019 Court of Sabine County, Texas.\nNo. A-2596\nDecided March 22, 1950.\n(227 S. W., 2d Series, 1022.)\nFisher & Tonakill and Joe J. Fisher, all of Jasper, for appellant.\nL. E. King, County Attorney, and Minton & Minton, of Hemphill, for appellees."
+  },
+  "file_name": "0604-02",
+  "first_page_order": 620,
+  "last_page_order": 621
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12434044,
+  "name": "Barrett v. Ludwick, Warden",
+  "name_abbreviation": "Barrett v. Ludwick",
+  "decision_date": "2013-03-25",
+  "docket_number": "No. 12-8381",
+  "first_page": "1254",
+  "last_page": "1254",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1254"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.6,
+    "sha256": "abb013ab6a5f9b0dccb560060541085dbc7e3d81e622cc2006ccf05d1b6f3749",
+    "simhash": "1:043ac2b72f3d12e7",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Barrett v. Ludwick, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8381.\nBarrett v. Ludwick, Warden."
+  },
+  "file_name": "1254-07",
+  "first_page_order": 1330,
+  "last_page_order": 1330
+}

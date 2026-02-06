@@ -1,0 +1,59 @@
+{
+  "id": 5926550,
+  "name": "Bailey v. Virginia",
+  "name_abbreviation": "Bailey v. Virginia",
+  "decision_date": "2011-05-16",
+  "docket_number": "No. 10-7906",
+  "first_page": "990",
+  "last_page": "990",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 990"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 65,
+    "ocr_confidence": 0.645,
+    "sha256": "d70a7d3cc84df11a4ad13f0e35d4b8783942a0326db243031a1731264c360f36",
+    "simhash": "1:e07b82842eb87e4b",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bailey v. Virginia."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Va. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7906.\nBailey v. Virginia."
+  },
+  "file_name": "0990-15",
+  "first_page_order": 1016,
+  "last_page_order": 1016
+}

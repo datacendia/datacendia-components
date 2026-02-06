@@ -1,0 +1,817 @@
+{
+  "id": 12522178,
+  "name": "Anna CHRONIS, Plaintiff-Appellant, v. UNITED STATES of America, Defendant-Appellee.",
+  "name_abbreviation": "Chronis v. United States",
+  "decision_date": "2019-07-29",
+  "docket_number": "No. 17-3093",
+  "first_page": "544",
+  "last_page": "555",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "932 F.3d 544"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "7th Cir.",
+    "id": 9010,
+    "name": "United States Court of Appeals for the Seventh Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "28 U.S.C. \u00a7 2679",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(d)(5)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "495 F. App'x 422",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        5753206
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "424"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/495/0422-01"
+      ]
+    },
+    {
+      "cite": "73 F.3d 1448",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7414905
+      ],
+      "weight": 3,
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "1452"
+        },
+        {
+          "page": "1452",
+          "parenthetical": "noting that Form 95 requires \"a detailed statement of facts\" and is \"in this respect more demanding, more 'formal' if you will, than the civil rules-a throwback, perhaps, to the era of 'fact pleading' that preceded the adoption of those rules.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/73/1448-01"
+      ]
+    },
+    {
+      "cite": "200 F.3d 744",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4233290
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "745",
+          "parenthetical": "\"The Act essentially makes the U.S. government the medical malpractice insurer for qualifying [ ] health centers, their officers, employees, and contractors, allowing these 'deemed' health centers to forgo obtaining private malpractice insurance.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/200/0744-01"
+      ]
+    },
+    {
+      "cite": "42 C.F.R. \u00a7 6.3",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "711 F.3d 828",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3805114
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "833-35",
+          "parenthetical": "considering whether to equitably toll the statute of limitations when the plaintiff's lawyer failed to discover that the defendant health center was \"deemed federal\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/711/0828-01"
+      ]
+    },
+    {
+      "cite": "135 S. Ct. 1625",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12588801
+      ],
+      "weight": 2,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1633",
+          "parenthetical": "holding that a court can equitably toll the the Federal Tort Claims Act's statute of limitations"
+        },
+        {
+          "parenthetical": "holding that a court can equitably toll the the Federal Tort Claims Act's statute of limitations"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/135/1625-01"
+      ]
+    },
+    {
+      "cite": "484 F.3d 889",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5733371
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "892"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/484/0889-01"
+      ]
+    },
+    {
+      "cite": "723 F.3d 144",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4065118
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "148",
+          "parenthetical": "plaintiff's lawyer failed to satisfy the exhaustion requirement because he failed to discover that the defendant clinic was a \"deemed federal employee\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/723/0144-01"
+      ]
+    },
+    {
+      "cite": "880 F.3d 913",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12266172
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "925",
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/880/0913-01"
+      ]
+    },
+    {
+      "cite": "223 F.3d 275",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11239313
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "278",
+          "parenthetical": "holding that a district court lacks jurisdiction over an FTCA suit if the \"administrative claim [did] not indicate a specific amount of money.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/223/0275-01"
+      ]
+    },
+    {
+      "cite": "592 F.3d 453",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5687977
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "457"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/592/0453-01"
+      ]
+    },
+    {
+      "cite": "349 F.3d 418",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9067828
+      ],
+      "weight": 4,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "426",
+          "parenthetical": "explaining that a claimant must provide \"sufficient notice to enable the agency to investigate the claim\" (citation omitted)"
+        },
+        {
+          "page": "426"
+        },
+        {
+          "page": "426"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/349/0418-01"
+      ]
+    },
+    {
+      "cite": "808 F.3d 1169",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4366718
+      ],
+      "weight": 2,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1172",
+          "parenthetical": "explaining that a precise sum of money is not always required because its absence typically won't \"derail the settlement process\""
+        },
+        {
+          "page": "1173",
+          "parenthetical": "concluding that the claimant failed to make a demand because he \"was seeking something other than money-such as an apology for the misconduct of the arresting marshals, or punishment of them, or better training of marshals\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/808/1169-01"
+      ]
+    },
+    {
+      "cite": "761 F.3d 779",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4151401
+      ],
+      "weight": 5,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "787"
+        },
+        {
+          "page": "788",
+          "parenthetical": "asserting that \"without being presented with an actual claim for money damages, the [government is] ill-equipped to make a fully informed assessment\" concerning a plaintiff's claim"
+        },
+        {
+          "page": "787",
+          "parenthetical": "\"Unfortunately for Smoke Shop, we have never held that a request for the return of property-unaccompanied by a statement that the claimant would seek money damages if the property was not returned-satisfies the [money-damages element].\""
+        },
+        {
+          "page": "788"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/761/0779-01"
+      ]
+    },
+    {
+      "cite": "927 F.2d 1009",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1797240
+      ],
+      "weight": 2,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "1012",
+          "parenthetical": "explaining that claims that \"may be gleaned\" from a sixty-three-page appendix to an administrative filing have not been asserted for purposes of exhaustion"
+        },
+        {
+          "page": "1012"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/927/1009-01"
+      ]
+    },
+    {
+      "cite": "746 F.3d 753",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4240438
+      ],
+      "weight": 3,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "760"
+        },
+        {
+          "page": "760"
+        },
+        {
+          "page": "758-59",
+          "parenthetical": "pro se claim filed using Form 95"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/746/0753-01"
+      ]
+    },
+    {
+      "cite": "28 C.F.R. \u00a7 14.2",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "654 F.3d 794",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5875868
+      ],
+      "weight": 2,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "801",
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/654/0794-01"
+      ]
+    },
+    {
+      "cite": "118 F.3d 527",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        509230
+      ],
+      "weight": 5,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "528"
+        },
+        {
+          "page": "528"
+        },
+        {
+          "page": "528"
+        },
+        {
+          "page": "531"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/118/0527-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7\u00a7 2401",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1346",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 U.S.C. \u00a7 233",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(l)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "337 F.3d 767",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9107579
+      ],
+      "weight": 2,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "770",
+          "parenthetical": "a court's job is to suspend credibility determinations when looking at threshold matters"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/337/0767-01"
+      ]
+    },
+    {
+      "cite": "811 F.3d 953",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4083338
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "962"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/811/0953-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C.A. \u00a7 2679",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "241 F.3d 544",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11137663
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "545"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/241/0544-01"
+      ]
+    },
+    {
+      "cite": "551 U.S. 89",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3573451
+      ],
+      "weight": 3,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "94"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/551/0089-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 2675",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "427 F.3d 1048",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1241150
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "1050"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/427/1048-01"
+      ]
+    },
+    {
+      "cite": "73 F.3d 1448",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7414905
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "1452-53"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/73/1448-01"
+      ]
+    },
+    {
+      "cite": "880 F.3d 913",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12266172
+      ],
+      "weight": 8,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "924"
+        },
+        {
+          "page": "925"
+        },
+        {
+          "page": "925"
+        },
+        {
+          "page": "924",
+          "parenthetical": "stringent application of a statute's \"exhaustion requirement can effectively prevent all but the savviest [plaintiffs] from receiving a hearing on the merits.\""
+        },
+        {
+          "page": "925"
+        },
+        {
+          "page": "925"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/880/0913-01"
+      ]
+    },
+    {
+      "cite": "349 F.3d 418",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9067828
+      ],
+      "weight": 4,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "426",
+          "parenthetical": "\"All that is required is sufficient notice to enable the agency to investigate the claim.\""
+        },
+        {
+          "page": "426"
+        },
+        {
+          "page": "426",
+          "parenthetical": "noting that the plaintiff \"attached to his Form 95 the letter from his attorney, and in so doing made that letter a part of his Form.\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/349/0418-01"
+      ]
+    },
+    {
+      "cite": "808 F.3d 1169",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4366718
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1172-73"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/808/1169-01"
+      ]
+    },
+    {
+      "cite": "761 F.3d 779",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4151401
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "787"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/761/0779-01"
+      ]
+    },
+    {
+      "cite": "927 F.2d 1009",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1797240
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "1012"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/927/1009-01"
+      ]
+    },
+    {
+      "cite": "746 F.3d 753",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4240438
+      ],
+      "weight": 2,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "760",
+          "parenthetical": "elucidating the liberal standard for claims under the Federal Tort Claims Act"
+        },
+        {
+          "page": "761"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/746/0753-01"
+      ]
+    },
+    {
+      "cite": "28 C.F.R. \u00a7 14.2",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "1172"
+        },
+        {
+          "page": "43"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "118 F.3d 527",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        509230
+      ],
+      "weight": 7,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "530"
+        },
+        {
+          "page": "531"
+        },
+        {
+          "page": "530-31"
+        },
+        {
+          "page": "530-31"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/118/0527-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1484,
+    "char_count": 40881,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2594797997875552
+    },
+    "sha256": "efd4b708de6e353d2612ef45343e19805b02bf2d36ad3daecfae0afadcabd86b",
+    "simhash": "1:809bbd0ee4d8745d",
+    "word_count": 6780
+  },
+  "last_updated": "2024-02-27T18:47:21.734938+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Ripple, Rovner, and Barrett, Circuit Judges."
+    ],
+    "parties": [
+      "Anna CHRONIS, Plaintiff-Appellant,\nv.\nUNITED STATES of America, Defendant-Appellee."
+    ],
+    "opinions": [
+      {
+        "text": "Barrett, Circuit Judge.\nBefore bringing a tort claim against the United States, a plaintiff must first exhaust her administrative remedies by presenting her claim to the appropriate federal agency. This means, among other things, that the plaintiff must demand a sum certain from the agency. Anna Chronis did not make such a demand before she sued, so the district court properly dismissed her complaint.\nI.\nIn June 2015, Anna Chronis visited the University of Illinois Mile Square Health Center for her annual physical examination. The examination included a pap smear-a procedure used to detect cervical cancer-that Chronis alleges caused her pain and bruising. She claims that she tried to follow up on the examination with the physician, Dr. Tamika Alexander, but was unable to get in touch with her. She also says that the Health Center did not return her calls or allow her to make a follow-up appointment. Chronis filed a written complaint with the Health Center's grievance committee, requesting $332 for the expenses that she incurred because of the injury. But after reviewing her complaint, the Health Center rejected her request.\nAfter her request was denied, Chronis sent a letter to the Centers for Medicare and Medicaid Services (CMS), an agency within the U.S. Department of Health and Human Services. In her letter, she requested \"assistance in resolving a frustrating process of delay, unfulfilled promises, and documented willful ignorance of policy and procedures.\" Though her letter mentioned the injuries that she allegedly sustained during her examination, it devoted most of its attention to the Health Center's lack of responsiveness to her complaints. It also included a general statement that she wanted assistance in \"receiving the restitution.\" The conclusion of her letter summarized what she was asking for: \"I have enclosed all relevant, previous correspondence between UIC Health, and myself, and look forward to your guidance on how to proceed.\" Chronis also attached roughly sixty pages of documents relating primarily to the correspondence between Chronis and the Health Center. One of the pages included the fact that Chronis had previously sought $332 from the Health Center.\nBelieving that Chronis was seeking advice about how to make an administrative complaint against the doctor and Health Center, CMS replied by directing her to contact the Illinois Department of Financial and Professional Regulation so that she could file a formal complaint. CMS also invited Chronis to follow up if she needed any additional assistance.\nMore than six months later, Chronis filed a pro se complaint in state court, alleging malpractice against Alexander and the Health Center. Because the Health Center receives federal funds from the Public Health Service and Alexander is a Health Center employee, the United States substituted itself as the sole defendant and removed the case to federal court to proceed under the Federal Tort Claims Act. See 42 U.S.C. \u00a7 233 ; 28 U.S.C. \u00a7 1346. The government then moved to dismiss, arguing that Chronis had not exhausted her administrative remedies because she had failed to first present her claim to the appropriate federal agency. It argued that her letter to CMS did not meet this requirement.\nThe district court granted the government's motion and dismissed the complaint. It explained that Chronis's letter to CMS notified the agency only that she was pursuing \"professional regulation allegations,\" as opposed to making an administrative demand-and thus failed to present a claim.\nChronis timely appealed pro se, and we appointed amicus curiae to assist in her appeal. Amicus argues that Chronis exhausted her administrative remedies when she sent the letter to CMS. We disagree.\nII.\nUnder the Federal Tort Claims Act, a plaintiff may bring a medical malpractice claim against the United States only after exhausting administrative remedies. 28 U.S.C. \u00a7\u00a7 2401(b), 2675. To exhaust administrative remedies, the plaintiff must \"have first presented the claim to the appropriate Federal agency,\" id. \u00a7 2675, so that the agency has an opportunity to meaningfully consider and address the claim prior to suit, see Kanar v. United States , 118 F.3d 527, 528 (7th Cir. 1997) ; Mader v. United States , 654 F.3d 794, 801 (8th Cir. 2011) (en banc) (explaining that the agency must have \"a fair opportunity to meaningfully consider, ascertain, adjust, determine, compromise, deny, or settle FTCA claims prior to suit\"). A claim has been presented to a federal agency once the plaintiff submits \"an executed Standard Form 95 or other written notification of an incident, accompanied by a claim for money damages in a sum certain.\" 28 C.F.R. \u00a7 14.2(a) ; see also Kanar , 118 F.3d at 528. We have held that this presentment requirement has four elements: (1) notification of the incident; (2) demand for a sum certain; (3) title or capacity of the person signing; and (4) evidence of the person's authority to represent the claimant. Kanar , 118 F.3d at 528. Chronis's letter fails to satisfy the second element of the presentment requirement.\nEven liberally construed and read through the eyes of a \"legally sophisticated reader,\" Chronis's letter does not contain a demand for money damages in a sum certain. See Buechel v. United States , 746 F.3d 753, 760 (7th Cir. 2014). The closest that the letter comes to requesting any money at all is a vague request for help in \"receiving restitution.\" Perhaps recognizing that this vague reference falls short of the mark, amicus argues that Chronis implicitly demanded a sum certain because one of the letter's many attachments revealed that she once sought $332 from the Health Center. But she simply attached this, along with what amicus acknowledged were as many as sixty pages of attachments, as background information. And in any event, although the dissent makes much of these attachments, we have said before that we will not force agencies to search for claims buried within pages and pages of attachments. See Deloria v. Veterans Admin. , 927 F.2d 1009, 1012 (7th Cir. 1991) (explaining that claims that \"may be gleaned\" from a sixty-three-page appendix to an administrative filing have not been asserted for purposes of exhaustion).\nTo be sure, failing to put a number on the amount demanded is not necessarily fatal. See Smoke Shop, L.L.C. v. United States , 761 F.3d 779, 787 (7th Cir. 2014). It is \"only fatal if it can be said to have 'hindered' or 'thwarted' the settlement process 'that Congress created as a prelude to litigation.' \" Id. (quoting Kanar , 118 F.3d at 531 ); see also Khan v. United States , 808 F.3d 1169, 1172 (7th Cir. 2015) (explaining that a precise sum of money is not always required because its absence typically won't \"derail the settlement process\"). But a claimant who neither makes it clear that she is demanding money from the agency nor says how much she is demanding thwarts the settlement process envisioned by the FTCA. See Smoke Shop , 761 F.3d at 788 (asserting that \"without being presented with an actual claim for money damages, the [government is] ill-equipped to make a fully informed assessment\" concerning a plaintiff's claim). How can an agency assess whether to make a settlement offer if it isn't aware that a demand is being made, let alone how much is at stake?\nTake the facts here: believing that Chronis's letter was simply requesting advice about how to file an administrative complaint against the Health Center, the agency responded by providing information about how to file a formal complaint with the Illinois Department of Financial and Professional Regulation. The agency didn't have a chance to begin the settlement process because nothing in the letter put it on notice that Chronis was asserting a claim against it. Chronis's failure to make a clear demand of CMS \"frustrate[d] the process of conciliation and settlement that the administrative demand is supposed to initiate.\" See Kanar , 118 F.3d at 531.\nIndeed, the letter shows that Chronis wanted something other than money from CMS. The conclusion of her letter said it best: she wanted \"guidance on how to proceed.\" Requesting guidance is different than requesting money. And we have emphasized that a letter requesting \"something other than money\" fails to constitute an administrative demand for money. See Khan , 808 F.3d at 1173 (concluding that the claimant failed to make a demand because he \"was seeking something other than money-such as an apology for the misconduct of the arresting marshals, or punishment of them, or better training of marshals\"); Smoke Shop , 761 F.3d at 787 (\"Unfortunately for Smoke Shop, we have never held that a request for the return of property-unaccompanied by a statement that the claimant would seek money damages if the property was not returned-satisfies the [money-damages element].\").\nIn a final effort to show that Chronis actually made a demand for monetary damages, amicus points to a single phrase in her letter stating that she had to \"pay out of pocket for follow up that resulted from [Dr. Alexander's] malpractice and gross negligence.\" But this wasn't a demand. It was just background information, explaining Chronis's frustration with her care. Especially in light of the rest of the letter, which made clear that Chronis was seeking advice, this alone could not have put the agency on notice that Chronis intended to file an administrative demand. See Palay v. United States , 349 F.3d 418, 426 (7th Cir. 2003) (explaining that a claimant must provide \"sufficient notice to enable the agency to investigate the claim\" (citation omitted)).\nWe stress that our precedent does not make it difficult for pro se plaintiffs to sue the federal government. In almost any other circuit, Chronis's claim would have failed for not including a sum certain. See, e.g. , White-Squire v. U.S. Postal Serv. , 592 F.3d 453, 457 (3d. Cir. 2010) (\"Providing a sum certain claim for damages is central to [the] policy of requiring presentment of claims to the appropriate federal agency because it enables the agency head to determine whether the claim can legally be settled by the agency and, if so, from where the payment should come ... [and] it goes without saying that an agency cannot consider settling a claim if it cannot ascertain the claim's value.\"); Kokotis v. U.S. Postal Serv. , 223 F.3d 275, 278 (4th Cir. 2000) (holding that a district court lacks jurisdiction over an FTCA suit if the \"administrative claim [did] not indicate a specific amount of money.\"). And as we noted earlier, we insist that pro se administrative complaints receive a liberal construction. See Buechel , 746 F.3d at 760. But there is a difference between generously construing a pro se complaint and effectively excusing a pro se plaintiff from the statutorily mandated exhaustion requirement. Characterizing Chronis's request for guidance as a demand for money would pull us into the latter territory.\nIn short, Chronis \"simply did not tell the government that [she] intended to bring a tort suit against it.\" See Smoke Shop , 761 F.3d at 788. She did not have to use lawyerly language to communicate that message. But she had to make it \"clear to a legally sophisticated reader\" that she was demanding payment from CMS. See Delgado v. Merit Sys. Prot. Bd. , 880 F.3d 913, 925 (7th Cir. 2018) (emphasis added). Her failure to make a clear demand meant that CMS lacked \"a fair opportunity to meaningfully consider, ascertain, adjust, determine, compromise, deny, or settle FTCA claims prior to suit.\" Mader , 654 F.3d at 801 ; see also Palay , 349 F.3d at 426.\nWe conclude with a final observation. This case has been litigated as if it is about Chronis's frustrated effort to put the Department of Health and Human Services (through its sub-agency, CMS) on notice that she was demanding money from it. The real problem, however, is that Chronis had no idea that the Department might owe her money. It is unsurprising that Chronis, a pro se plaintiff, didn't know that the Health Center and Alexander would be treated as Public Health Service employees covered by the Federal Tort Claims Act. That is a mistake that even an experienced medical malpractice lawyer can make. See , e.g. , Phillips v. Generations Family Health Ctr. , 723 F.3d 144, 148 (2d Cir. 2013) (plaintiff's lawyer failed to satisfy the exhaustion requirement because he failed to discover that the defendant clinic was a \"deemed federal employee\"). But the way to fix it is not for the court to read the presentment requirement out of the Federal Tort Claims Act. It is for the plaintiff to exhaust her administrative remedy once the error is discovered. If a plaintiff is within the statute of limitations, she can do that easily by asserting an administrative claim and returning to federal court if the claim does not settle. See , e.g. , Alexander v. Mount Sinai Hosp. Med. Ctr. , 484 F.3d 889, 892 (7th Cir. 2007). If the statute of limitations has expired, it is still possible, though it is more difficult, to remedy the mistake: the plaintiff can assert an administrative claim, and if the agency denies it, she can sue again and ask the court to equitably toll the statutory clock. See United States v. Kwai Fun Wong , --- U.S. ----, 135 S. Ct. 1625, 1633, 191 L.Ed.2d 533 (2015) (holding that a court can equitably toll the the Federal Tort Claims Act's statute of limitations); Arteaga v. United States , 711 F.3d 828, 833-35 (7th Cir. 2013) (considering whether to equitably toll the statute of limitations when the plaintiff's lawyer failed to discover that the defendant health center was \"deemed federal\"); Phillips v. Generations Family Health Ctr. , 657 Fed. App'x 56 (2d Cir. 2016) (same). No one has discussed the statute of limitations in this case, so it is unclear which situation Chronis is in. We raise the issue simply to note that this problem can be fixed, but not in the way that Chronis is seeking to do it.\nBecause the district court correctly held that Chronis failed to satisfy the exhaustion requirement, its judgment is AFFIRMED.\nThe Federally Supported Health Centers Assistance Act permits the Secretary of Health and Human Services to deem certain federally funded community health centers, along with certain individuals affiliated with them, to be employees of the federal Public Health Service for purposes of the Federal Tort Claims Act. See 42 U.S.C. \u00a7\u00a7 254b & 233(g) ; see also 42 C.F.R. \u00a7 6.3 -6.6. This designation enables centers caring for underserved populations to spend their money on patient care rather than malpractice premiums. See Dedrick v. Youngblood , 200 F.3d 744, 745 (11th Cir. 2000) (\"The Act essentially makes the U.S. government the medical malpractice insurer for qualifying [ ] health centers, their officers, employees, and contractors, allowing these 'deemed' health centers to forgo obtaining private malpractice insurance.\"). Within 15 days of receiving notice that a covered entity or individual has been sued, the Attorney General \"shall make an appearance ... and advise the court\" whether the defendant \"is deemed to be an employee of the Public Health Service for purposes of this section with respect to the actions or omissions that are the subject of such civil action or proceeding.\" 42 U.S.C. \u00a7 233(l)(1). If the Attorney General certifies the defendant as a Public Health Service employee, the Attorney General must remove the proceeding to federal district court. Id. \u00a7 233(c). In this suit, the Attorney General's designee made this certification for both the University of Illinois Mile Square Health Center and Alexander.\nThe court expresses its thanks to Travis S. Andrews for accepting the appointment of amicus curiae and submitting an excellent brief and argument.\nThe dissent argues that we are wrong to rely on Deloria rather than Palay v. United States , 349 F.3d 418, 426 (7th Cir. 2003). But Palay addresses a different issue than Deloria . Neither Palay nor the case that it relies on, Murrey v. United States , 73 F.3d 1448, 1452 (7th Cir. 1996), consider whether the claim itself can be buried in the attachments. In those cases, there was no question that the plaintiffs had filed claims; on the contrary, both had submitted a Form 95. The only question was whether the plaintiffs had included sufficient factual detail to support their respective claims. See Palay , 349 F.3d at 425-26 ; Murrey , 73 F.3d at 1452-53 ; see also id. at 1452 (noting that Form 95 requires \"a detailed statement of facts\" and is \"in this respect more demanding, more 'formal' if you will, than the civil rules-a throwback, perhaps, to the era of 'fact pleading' that preceded the adoption of those rules.\"). Deloria , however, dealt with whether a claim itself could be asserted if it was buried in the attachments, not whether supporting facts had been alleged. 927 F.2d at 1012. Deloria 's issue is the one that we face here.\nThere are tools available to help a pro se plaintiff meet the exhaustion requirement. For example, she can fill out Form 95, which spells out the required information and is easily accessible on the Department of Justice website. See, e.g. , Buechel v. United States , 746 F.3d 753, 758-59 (7th Cir. 2014) (pro se claim filed using Form 95); see also https://www.justice.gov/civil/documents-and-forms-0.\nA plaintiff's ability to pursue this course is enhanced by the Westfall Act, which stops the clock when a plaintiff's suit is dismissed for violating the Federal Tort Claims Act's exhaustion requirement. See Dupree v. United States , 495 F. App'x 422, 424 (5th Cir. 2012) (\"If a claim is removed from state court and then dismissed for failure to exhaust administrative remedies, the claim is deemed to be timely presented and the plaintiff may recommence her suit if she presents the claim to the appropriate federal agency within 60 days of dismissal, and if 'the claim would have been timely had it been filed on the date the underlying civil action was commenced.' \" (quoting 28 U.S.C. \u00a7 2679(d)(5) ). At oral argument, the government stated that Chronis filed an administrative claim against the Department of Health and Human Services around the time that the district court dismissed the suit. It might be, then, that she can still file a timely suit under the Federal Tort Claims Act if the agency denies her claim.",
+        "type": "majority",
+        "author": "Barrett, Circuit Judge."
+      },
+      {
+        "text": "Rovner, Circuit Judge, dissenting.\nOur circuit applies a flexible standard to the exhaustion requirements for plaintiffs making claims under the Federal Tort Claims Act, excusing technical deficiencies so as not to preclude all but the savviest of plaintiffs from receiving a hearing on the merits. See Delgado v. Merit Sys. Prot. Bd. , 880 F.3d 913, 924 (7th Cir. 2018), as amended on denial of reh'g and reh'g en banc (June 19, 2018). The majority's decision demands far more of Chronis than our precedent requires.\nChronis, a pro se plaintiff, knew little about the complicated legal world of suing the federal government. She was simply looking for a solution to her problem. She alleged that she had been harmed during a medical appointment at a health center that receives federal funds. She looked for a solution by repeatedly telephoning the doctor whom she alleged harmed her, but that doctor did not help, and indeed did not return any of her numerous calls. (R. 10 at 24, 45, 57). She made calls to employees at the health center that employed the doctor, but they would not help. Id. She made several written complaints to the health center's grievance committee, but it would not help. (R. 10 at 22, 45-47, 53-55, 56-59). She filed an appeal with the Illinois Department of Healthcare and Family Services, but it did not help. (R. 10 at 27-28). She mailed a submission to the Centers for Medicare and Medicaid Services (CMS), a federal administrator of the Medicaid Program, but it simply referred her to the Illinois Department of Financial and Professional Regulation. (R. 10 at 6). She filed a professional regulation complaint with the Illinois Department of Financial and Professional Regulation, but there is no record of any response. (R. 10 at 26). She filed a malpractice claim in state court, but the United States told her that was the wrong place too, and removed the case to federal court. And then, finally, the federal court told Chronis that, after all those calls, steps, letters, claims, and complaints, she had not given the government notice in the proper manner and it too would not help.\nChronis' odyssey is reminiscent of the famous children's book by P.D. Eastman. In that book, a baby bird, having fallen out of the nest, is looking for a solution to its problem. Having just hatched, the baby bird knows little about the world, and thus asks for help in all the wrong places-asking a kitten, a hen, a dog, a cow, a boat, and an airplane, \"Are you my mother?\" Each answers indignantly that the baby bird has come to the wrong place for a solution. The last place the baby bird looks for a solution is with the powerful steam shovel. The steam shovel, knowing the rules and how to get things done, gently places the baby bird back into the nest. Unfortunately for Chronis, the steam shovel in her case just kept rolling along.\nThe Federal Tort Claims Act requires a plaintiff to exhaust her administrative remedies and give notice to the government of her claim so that the agency can have a chance to settle \"meritorious claims more quickly and without litigation.\" Warrum v. United States , 427 F.3d 1048, 1050 (7th Cir. 2005) ; 28 U.S.C. \u00a7 2675(a). But we have long applied a flexible standard and have made clear that technical deficiencies in an administrative claim are not fatal, provided the \"proper agency had the opportunity to settle the claim for money damages before the point of suit.\" Smoke Shop, LLC v. United States , 761 F.3d 779, 787 (7th Cir. 2014). Our flexible standard means that courts must construe pro se administrative complaints generously and deem exhausted any claim fairly implicit in the facts that would be clear to a legally sophisticated reader. Delgado , 880 F.3d at 925. Accordingly, a plaintiff may \"litigate under the FTCA following an administrative demand\" even if that initial administrative demand \"does not comply with every jot and tittle of the rules defining a 'claim.' \" Kanar v. United States , 118 F.3d 527, 530 (7th Cir. 1997). \"Why,\" we asked, \"should courts stand on punctilious adherence to unimportant elements of the regulatory definition of a 'claim' under the FTCA?\" Id. at 531. Instead, we look to see whether the noncompliance has \"hinder[ed] the settlement process that a claim is supposed to initiate;\" if it has not, then there is no reason to foreclose litigation. Id .\nAnd yet the majority appears to be requiring the \"punctilious adherence\" that our precedent rejects. Our cases make clear that a potential plaintiff's claim needs to meet two requirements: she must specify the facts behind the claim, and make a demand for money. That is it. Khan v. United States , 808 F.3d 1169, 1172-73 (7th Cir. 2015). The administrative regulation states that the claim must be one for \"money damages in a sum certain.\" 28 C.F.R. \u00a7 14.2(a). But our court has held that the \"sum certain\" requirement is more bark than bite. We have declared unquestionably that \"[f]ailure to specify a 'sum certain' is not fatal.\" Id. at 1172. , In other words, the target is large and if the federal agency (which we presume to be legally sophisticated), sees the dart land anywhere on it, it has the chance to engage in the settlement process, and it has received a claim.\nNo one disputes that Chronis notified the agency of the incident, and with good reason. In her November 7, 2015 submission to CMS, she described her \"horrible\" visit to the gynecologist, Dr. Alexander, that resulted in an alleged injury \"that resulted from [Dr. Alexander's] malpractice and gross negligence.\" R. 10 at 41. She also enclosed her correspondence with the health center in which she detailed her injuries and her intent to pursue a claim.\nThe majority's decision hangs on its conclusion that Chronis did not make a proper claim for money damages to CMS. Chronis' letter to CMS, however, on the very first page asks for four things in a numbered list set out in its own paragraph, one of which (number 3) is \"receiving restitution.\" R. 10 at 41. The word \"restitution\" is common parlance for recompense for injury or loss. The OED defines it as \"making reparation to a person for loss or injury previously inflicted.\" Chronis' request for restitution was coupled with other money-demanding language. She stated that she was injured and had to \"pay out of pocket\" due to the doctor's \"malpractice and gross negligence\"-legal terms one uses when a person believes she has a claim against a tortfeasor. Id. The letter is speckled with all manner of references to money damages: The malpractice \"is costing me money,\" she wrote to CMS. Id. She later wrote of Dr. Alexander's liability for malpractice. Id. at 43. To state that a request for restitution along with talk of out-of-pocket loss, malpractice, and liability is not a money demand defies credulity, and resembles the \"punctilious adherence\" that this court has rejected. See Kanar , 118 F.3d at 530-31.\nIt is true that what Chronis stated in her letter to CMS was \"I request your assistance in ... receiving restitution,\" rather than stating \"I want restitution from you, CMS.\" See R. 10 at 41. The latter would have been more clear, for certain, but there is no legally relevant difference, particularly in a legal posture in which we are required to \"deem exhausted any claim fairly implicit in the facts that would be clear to a legally sophisticated reader.\" Delgado , 880 F.3d at 925. Chronis wanted restitution. She wanted CMS to help her get it. As far as she was concerned, CMS could do so either by pulling it out of its own pockets, if it was the responsible party, or helping her find the proper pocket, if it was not. The fact that Chronis was having trouble figuring out who the correct responsible party was, is not surprising. As the majority points out, \"even an experienced medical malpractice lawyer\" might not always be aware that a particular health center and its doctors \"would be treated as Public Health Service employees covered by the Federal Tort Claims Act.\" Majority Op. at 549. CMS, however, is the legally sophisticated, powerful steam shovel in this scenario. It knows that the federal government is the party responsible when someone files a malpractice claim against a federally funded community health center. In fact, based on this knowledge, after Chronis sued the health center in state court, the United States came forward and identified itself as the responsible party, substituted itself as the sole defendant, and removed the case to federal court. Chronis, on the other hand, is unfamiliar with the world of federal tort litigation. She had no way of knowing from where exactly the restitution should come, but she knew that she wanted the responsible party to provide it. This is why our case law is so solicitous of pro se plaintiffs facing sophisticated federal agencies. All that is required is enough to clue in the agency that the claimant has been injured and wants recompense. See Palay v. United States , 349 F.3d 418, 426 (7th Cir. 2003) (\"All that is required is sufficient notice to enable the agency to investigate the claim.\"); see also Buechel v. United States , 746 F.3d 753, 760 (7th Cir. 2014) (elucidating the liberal standard for claims under the Federal Tort Claims Act). We expect federal agencies to be legally sophisticated and take the minimal information provided to them and investigate. Palay , 349 F.3d at 426.\nThe request for money damages should have been clear from the language of the letter itself-the request for restitution coupled with claims of malpractice and notice about out-of-pocket expenses. But that is not all Chronis did. She also notified CMS that she had \"enclosed all relevant, previous correspondence between UIC Health, and myself.\" R. 10 at 43. Attachments to her Federal Tort Claims Act claim become part of that claim. See, e.g., Palay , 349 F.3d at 426 (noting that the plaintiff \"attached to his Form 95 the letter from his attorney, and in so doing made that letter a part of his Form.\") The correspondence Chronis attached included her August 25 complaint to the health center's grievance committee in which she requested reimbursement of $332 for out-of-pocket costs, and referenced her right to \"retain an attorney.\" R. 10 at 57, 59. In the letter she spoke of being out of pocket for medical fees, gas money, parking fees, and records fees \"which I would like reimbursed.\" Id. at 57. She also made requests for money damages in other attachments. For example, in another letter attached to the submission to CMS-this one to the health center dated November 2, 2015-she stated that because she \"paid out of pocket [ ] for physical damage and medical care caused by your malpracticing physician, you owe me [ ] the reimbursement, as the doctor has already been paid.\" R. 10 at 45. She also stated, \"your doctor's willful negligent [sic] and malpractice ... makes you liable for reimbursement to me, personally for the out of pocket costs that I have incurred from your employee's actions.\" Id. at 46. Even if the letter to CMS itself did not make a complete money demand (and I believe it did), the letter put CMS on notice that Chronis was seeking money and explicitly pointed to the attached documents for the details, including the sum certain.\nThe majority asserts that we must not force agencies to search for claims buried within lengthy attachments. For this proposition, it cites Deloria v. Veterans Admin. , 927 F.2d 1009, 1012 (7th Cir. 1991). We must reconcile this precedent, however, with a more recent one in which we explicitly stated that attachments to a Federal Tort Claims Act claim become part of that claim. Palay , 349 F.3d at 426 (citing Murrey v. United States , 73 F.3d 1448, 1452-53 (1996) ). The facts in Deloria , however, are so far removed from the present case to make that precedent of no use here. In Deloria , the plaintiff's claim form asserted that Veterans Administration employees conspired to alter his medical records to deny him benefits, but later he filed suit in district court alleging malpractice and negligence by VA doctors. We rejected the malpractice and negligence claims as not properly presented to the agency. Deloria claimed that the sixty-three page attachment to his administrative claim for conspiracy to deprive him of benefits, if read closely, \"foreshadowed\" his current malpractice and negligence allegations. Id. at 1012. We decided, however, that any \"faint intimations of Deloria's additional claims\" that might be gleaned from his sixty-three page appendix did not constitute \"the type of fair notice that Congress envisioned when it fashioned the presentment requirement.\" Id. Deloria's claims, if they were made at all (and the court thought they were only barely hinted at in the attachments), were buried deep within his attachments and not made at all on the face of his claim. Chronis, in contrast, is not asking the court to tease out a buried glint of a foreshadowed claim from her attachments; far from that. She squarely asserted a claim for \"restitution\" on the face of the claim itself, and pointed to the attachments only to reveal an actual dollar amount of damages-the absence of which, we have held, would not have been fatal to her claim in any event. This makes her case more similar to Palay's who asserted a claim on the face of the submitted documents and pointed to the attachments for details.\nThe majority concedes that Chronis made a demand for a sum certain to the health center, but denies that she made such a demand to CMS. But of course the federal agency knew that any claim made against a federally supported health center is a claim against the federal government. See Majority Op. at 545, n.1. That is why the federal government moved to substitute itself in the litigation against the health center and remove the matter to federal court. The fact that the federal government was on the hook for malpractice claims alleged against the health center was information that was in the hands of the agency-an agency that had a duty to investigate Chronis' claim. \"After the claimant provides enough information to put a legally sophisticated reader on notice, it is up to the agency 'to fill in the gaps, to the extent possible.' \" Delgado , 880 F.3d at 925 (citing Buechel , 746 F.3d at 761.)\nThe majority states that \"Chronis wanted something other than money from CMS ... she wanted 'guidance on how to proceed.' \" Majority Op. at 548. It would be more accurate to say that she wanted something more than just money from CMS. We do not disagree that she wanted guidance, but she wanted guidance about how to proceed in order to receive the restitution that was listed as one of four enumerated solutions she requested on the front page of her letter. See R. 10 at 41. Guidance alone would not make her whole or pay the medical bills. The guidance was needed in order to recover for her loss. And when a person wants payment for medical malpractice from a designated federally-funded health center, the legally sophisticated reader (which we assume the agency to be) knows that payment must come from the federal government's coffers.\nThere is a reason we construe legal pleadings by pro se plaintiffs liberally. See Erickson v. Pardus , 551 U.S. 89, 94, 127 S.Ct. 2197, 167 L.Ed.2d 1081 (2007). Our court has long been \"cognizant of the unique challenges facing pro se litigants.\" Anderson v. Hardman , 241 F.3d 544, 545 (7th Cir. 2001). Chronis claimed damages of $332. The fact that she needed reimbursement for the $332 medical and miscellaneous fees suggests that she could not afford to hire a lawyer to recover the sum. Clearly the $332 was a significant sum to Chronis, but few, if any lawyers would take a civil action to recover $332. Chronis had no choice but to seek a remedy on her own. And she is not alone. Few people can afford to pay an attorney for the amount of time it would take to recover such a small sum of money. And, as this case demonstrates all too well, modern litigation contains so many traps and barriers that it is near to impossible for non-lawyers to successfully navigate it. Despite Chronis' valiant and persistent efforts, the majority finds that she failed to say the magic words in the correct format and in the correct place, and therefore the sophisticated steam shovel rolled right over her, as it will other injured pro se plaintiffs who cannot afford to hire lawyers to recover small sums.\nThe majority says that all is not lost for Chronis, as there remains some possibility that she could squeeze her claim down another path-re-asserting her claim and relying on the Westfall Act to save any statute of limitations problems or by hoping for equitable tolling. Majority Op. at 549. The Westfall Act tolling provision applies only in very narrow conditions: it applies only if \"the claim would have been timely had it been filed on the date the underlying civil action was commenced, and [ ] the claim is presented to the appropriate Federal agency within 60 days after dismissal of the civil action.\" 28 U.S.C.A. \u00a7 2679. And, of course, equitable tolling is reserved only for the rarest of instances in which a plaintiff can demonstrate some \"extraordinary circumstances\" beyond her control. Blanche v. United States , 811 F.3d 953, 962 (7th Cir. 2016).\nWe must remind ourselves that a key point of this case is that Chronis is a pro se plaintiff. Therefore the ordinary lenience we give Federal Tort Claim Act claims is magnified all the more. Chronis was unrepresented throughout the administrative process, through removal from state to federal district court, and in this court as well. (We requested and received the capable and helpful assistance of amicus curiae, Travis S. Andrews, for which we are extremely grateful. Chronis, however, still does not have retained counsel and is unlikely to find it for her $332 claim). Chronis struggled to file a simple valid Federal Tort Claims Act claim. The odds of her successfully navigating these more complex alternative pathways that the majority suggests are slim, at best.\nChronis wrote, called, filled out complaint forms, and wrote again. She attached exhibits, correspondence, forms, and e-mail. According to the government, and now the majority opinion, however, this was not enough: Chronis did not ask in the proper way. She did not state that she sought \"money damages\" in a sum certain. Instead, she said \"I request your assistance ... in receiving the restitution.\" And the amount of that restitution that she sought was not in the letter itself, but in an attachment to the letter. The majority is requiring stricter adherence to the requirements than our law requires and we must be careful not to block access to relief for pro se plaintiffs. See Kanar , 118 F.3d at 530-31. But if Chronis cannot jump through the proper hoops with her multi-page, well-documented, persistent, and multiple requests to myriad agencies, what pro se plaintiff would ever succeed? See, e.g., Delgado , 880 F.3d at 924 (stringent application of a statute's \"exhaustion requirement can effectively prevent all but the savviest [plaintiffs] from receiving a hearing on the merits.\").\nThe majority's decision has altered the requirements for plaintiffs making a claim pursuant to the Federal Tort Claims Act. No longer will we apply a flexible standard and overlook technical deficiencies; no longer will we construe pro se administrative complaints generously and \"deem exhausted any claim fairly implicit in the facts that would be clear to a legally sophisticated reader.\" Delgado , 880 F.3d at 925. We now require \"punctilious adherence\" to every \"jot and tittle\" of the rules defining a claim. I respectfully dissent.\nWe have also noted that a potential plaintiff must include a title or capacity of the person signing and evidence of the person's authority to represent the claimant (Kanar , 118 F.3d at 528 ), but these more administrative elements are not at issue in this case.\nAs we have noted, our cases law requires that we construe pro se administrative complaints generously and deem exhausted any claim fairly implicit in the facts that would be clear to a legally sophisticated reader. Delgado , 880 F.3d at 925. At least five other circuits are more generous than this circuit in how they interpret the minimal notice requirements for a claim. See Kanar , 118 F.3d at 529 (citing cases). We have also noted that requiring a \"sum certain\" is an oddity of this administrative scheme as \"it is not part of a claim for relief in judicial practice.\" Id. (citing Fed. R. Civ. P. 8 ).\nThe government asserts that our case law concluding that the lack of a sum certain is not fatal to a claim is incorrect. That is a matter it may take up with the Supreme Court. For now, our case law, with which the majority agrees, stands.\nThis is a good place to stop and address the elephant in the room. Chronis' allegations might, at times, appear unreasonable to judges who are used to the more staid, logic-driven arguments of lawyers, as opposed to the emotional and personal claims of pro se plaintiffs. Just as in summary judgment, however, we are at a threshold moment where the only question is whether Chronis may proceed with her claim. Cf. Payne v. Pauley , 337 F.3d 767, 770 (7th Cir. 2003) (a court's job is to suspend credibility determinations when looking at threshold matters). Whether her claim leads to a ruling in her favor is for another day. Id. Instead, we must suspend judgment of the veracity of the claims and decide only whether Chronis gave the government the minimal notice required by the Federal Tort Claims Act.\nOED Online, Oxford University Press, June 2019, www.oed.com/view/Entry/163966. Accessed 2 July 2019.\nAccording to the majority it was both too little and too much, as the claim was \"buried within, as many as sixty pages of attachments.\" Majority Op. at 546. In other words, Chronis failed to make a claim because she provided too much information to CMS.",
+        "type": "dissent",
+        "author": "Rovner, Circuit Judge, dissenting."
+      }
+    ],
+    "attorneys": [
+      "Anna Chronis, Chicago, IL, pro se.",
+      "Scott D. Heffron, Attorney, OFFICE OF THE UNITED STATES ATTORNEY, Chicago, IL, for Defendant-Appellee.",
+      "Travis S. Andrews, Amir C. Tayrani, Attorneys, GIBSON, DUNN & CRUTCHER LLP, Washington, DC, for Amicus Curiae TRAVIS S. ANDREWS."
+    ],
+    "corrections": "",
+    "head_matter": "Anna CHRONIS, Plaintiff-Appellant,\nv.\nUNITED STATES of America, Defendant-Appellee.\nNo. 17-3093\nUnited States Court of Appeals, Seventh Circuit.\nArgued May 29, 2019\nDecided July 29, 2019\nAnna Chronis, Chicago, IL, pro se.\nScott D. Heffron, Attorney, OFFICE OF THE UNITED STATES ATTORNEY, Chicago, IL, for Defendant-Appellee.\nTravis S. Andrews, Amir C. Tayrani, Attorneys, GIBSON, DUNN & CRUTCHER LLP, Washington, DC, for Amicus Curiae TRAVIS S. ANDREWS.\nBefore Ripple, Rovner, and Barrett, Circuit Judges."
+  },
+  "file_name": "0544-01",
+  "first_page_order": 544,
+  "last_page_order": 555
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12429787,
+  "name": "Butler v. United States",
+  "name_abbreviation": "Butler v. United States",
+  "decision_date": "2013-01-14",
+  "docket_number": "No. 12-7721",
+  "first_page": "1136",
+  "last_page": "1136",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1136"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.67,
+    "sha256": "98b6972d3c89be15b51ef4dd9b022f1c2f3acd7ba9ac7fa7dd368deee5c313bb",
+    "simhash": "1:00089f1beab19496",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Butler v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7721.\nButler v. United States."
+  },
+  "file_name": "1136-15",
+  "first_page_order": 1212,
+  "last_page_order": 1212
+}

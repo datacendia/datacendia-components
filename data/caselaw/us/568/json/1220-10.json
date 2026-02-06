@@ -1,0 +1,59 @@
+{
+  "id": 12432841,
+  "name": "Pettigrew v. United States",
+  "name_abbreviation": "Pettigrew v. United States",
+  "decision_date": "2013-03-04",
+  "docket_number": "No. 12-8558",
+  "first_page": "1220",
+  "last_page": "1220",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1220"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.627,
+    "sha256": "df338a9649e2d64eac45df30729dab51ab03c050e60bad8529ebf26f72507ede",
+    "simhash": "1:85aae6e1afb51651",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Pettigrew v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8558.\nPettigrew v. United States."
+  },
+  "file_name": "1220-10",
+  "first_page_order": 1296,
+  "last_page_order": 1296
+}

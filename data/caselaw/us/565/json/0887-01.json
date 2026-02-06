@@ -1,0 +1,59 @@
+{
+  "id": 12215718,
+  "name": "Watkins v. Haynes, Warden",
+  "name_abbreviation": "Watkins v. Haynes",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5039",
+  "first_page": "887",
+  "last_page": "887",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 887"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.658,
+    "sha256": "73ed02ae4a12a461d7048f4d430dd197c08eef7a741e238ef17ba8e21bf215d0",
+    "simhash": "1:55c1cb33e54bb27d",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Watkins v. Haynes, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5039.\nWatkins v. Haynes, Warden."
+  },
+  "file_name": "0887-01",
+  "first_page_order": 969,
+  "last_page_order": 969
+}

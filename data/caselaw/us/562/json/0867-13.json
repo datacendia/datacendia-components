@@ -1,0 +1,59 @@
+{
+  "id": 6025341,
+  "name": "Simpson v. California",
+  "name_abbreviation": "Simpson v. California",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11211",
+  "first_page": "867",
+  "last_page": "867",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 867"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 95,
+    "ocr_confidence": 0.639,
+    "sha256": "331873ca1c40e29c69c3befdfae42471300e60d1156c38ca8a7673fb8d8c2502",
+    "simhash": "1:25011a840c188825",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Simpson v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 4th App. Dist., Div. 1. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11211.\nSimpson v. California."
+  },
+  "file_name": "0867-13",
+  "first_page_order": 889,
+  "last_page_order": 889
+}

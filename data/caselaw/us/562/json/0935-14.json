@@ -1,0 +1,59 @@
+{
+  "id": 5953801,
+  "name": "Totaro v. United States",
+  "name_abbreviation": "Totaro v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5723",
+  "first_page": "935",
+  "last_page": "935",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 935"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.671,
+    "sha256": "936caec42f2c98f9b065891aa5abd75cd4a5f8bf6c7e56d4a5372ffdb42cc444",
+    "simhash": "1:853be607af351201",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Totaro v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5723.\nTotaro v. United States."
+  },
+  "file_name": "0935-14",
+  "first_page_order": 957,
+  "last_page_order": 957
+}

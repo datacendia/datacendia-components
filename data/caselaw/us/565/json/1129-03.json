@@ -1,0 +1,59 @@
+{
+  "id": 12240934,
+  "name": "Ghent v. Florida",
+  "name_abbreviation": "Ghent v. Florida",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-7359",
+  "first_page": "1129",
+  "last_page": "1129",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1129"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 81,
+    "ocr_confidence": 0.652,
+    "sha256": "8aca814b663a319487016d90f83ade6a542058566d33f4c9f10a06fbe722fbcd",
+    "simhash": "1:9918c51264c1e82a",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ghent v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 4th Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7359.\nGhent v. Florida."
+  },
+  "file_name": "1129-03",
+  "first_page_order": 1211,
+  "last_page_order": 1211
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5926563,
+  "name": "Hodge v. Ohio",
+  "name_abbreviation": "Hodge v. Ohio",
+  "decision_date": "2011-06-27",
+  "docket_number": "No. 10-9727",
+  "first_page": "1040",
+  "last_page": "1040",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1040"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 9,
+    "char_count": 62,
+    "ocr_confidence": 0.65,
+    "sha256": "8603799ecb98b40c1fb3ceb4f76f7925fb2c5f992930d1c41511a8fdca9351f1",
+    "simhash": "1:5866661eece08caf",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hodge v. Ohio."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ohio. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9727.\nHodge v. Ohio."
+  },
+  "file_name": "1040-09",
+  "first_page_order": 1034,
+  "last_page_order": 1034
+}

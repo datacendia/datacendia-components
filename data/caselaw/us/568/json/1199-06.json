@@ -1,0 +1,59 @@
+{
+  "id": 12432120,
+  "name": "Pingel v. Arizona et al.",
+  "name_abbreviation": "Pingel v. Arizona",
+  "decision_date": "2013-02-25",
+  "docket_number": "No. 12-7972",
+  "first_page": "1199",
+  "last_page": "1199",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1199"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 73,
+    "ocr_confidence": 0.619,
+    "sha256": "abd0d812a8d58c7bc614b492d2bb71cc4c5ffa81574f8559ff41f9944be363d3",
+    "simhash": "1:487920e9fdf770b0",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Pingel v. Arizona et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7972.\nPingel v. Arizona et al."
+  },
+  "file_name": "1199-06",
+  "first_page_order": 1275,
+  "last_page_order": 1275
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12218645,
+  "name": "Mikell v. Pennsylvania",
+  "name_abbreviation": "Mikell v. Pennsylvania",
+  "decision_date": "2012-05-14",
+  "docket_number": "No. 11-9702",
+  "first_page": "1001",
+  "last_page": "1001",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 1001"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 70,
+    "ocr_confidence": 0.577,
+    "sha256": "05ca06d56170af62f7c4674f238ca2c520d9feecf283f16404dc2e2d66e5d5e5",
+    "simhash": "1:a74921ce70582018",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mikell v. Pennsylvania."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Pa. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9702.\nMikell v. Pennsylvania."
+  },
+  "file_name": "1001-07",
+  "first_page_order": 877,
+  "last_page_order": 877
+}

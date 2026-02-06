@@ -1,0 +1,59 @@
+{
+  "id": 5961569,
+  "name": "Maricopa County Sheriff's Department et al. v. Byrd",
+  "name_abbreviation": "Maricopa County Sheriff's Department v. Byrd",
+  "decision_date": "2011-06-06",
+  "docket_number": "No. 10-1201",
+  "first_page": "1033",
+  "last_page": "1033",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1033"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 100,
+    "ocr_confidence": 0.566,
+    "sha256": "645e3fb68e622ba732b259950d04363ac833185cc571954bb61c2bd55eea1d21",
+    "simhash": "1:03f16481292f2048",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Maricopa County Sheriff\u2019s Department et al. v. Byrd."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1201.\nMaricopa County Sheriff\u2019s Department et al. v. Byrd."
+  },
+  "file_name": "1033-02",
+  "first_page_order": 1059,
+  "last_page_order": 1059
+}

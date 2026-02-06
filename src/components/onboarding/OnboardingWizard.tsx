@@ -324,8 +324,8 @@ const AGENT_PRESETS = [
   {
     id: 'all',
     name: 'Full Council',
-    description: 'All 8 agents - Maximum perspectives',
-    agents: ['chief', 'cfo', 'coo', 'ciso', 'cmo', 'cro', 'cdo', 'risk'],
+    description: 'All 17 core agents - Maximum perspectives',
+    agents: ['chief', 'cfo', 'coo', 'ciso', 'cmo', 'cro', 'cdo', 'risk', 'clo', 'cpo', 'caio', 'cso', 'cio', 'cco', 'actuary', 'partnerships', 'devils-advocate'],
   },
 ];
 

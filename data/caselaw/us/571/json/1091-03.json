@@ -1,0 +1,66 @@
+{
+  "id": 12699870,
+  "name": "In the Matter of DISCIPLINE OF Matthew B. MURRAY.",
+  "name_abbreviation": "In re Murray",
+  "decision_date": "2013-12-09",
+  "docket_number": "No. D\u20132752.",
+  "first_page": "1091",
+  "last_page": "1091",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 1091"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 621"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 820"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 45,
+    "char_count": 362,
+    "sha256": "9f8b744b829cb7a8b5c7f6423d021ae79c15d8b9bbf029159302528592642f9d",
+    "simhash": "1:3b276db6bfe6376f",
+    "word_count": 64
+  },
+  "last_updated": "2021-08-27T20:47:23.363448+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In the Matter of DISCIPLINE OF Matthew B. MURRAY."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "In the Matter of DISCIPLINE OF Matthew B. MURRAY.\nNo. D-2752.\nSupreme Court of the United States\nDec. 9, 2013.\nMatthew B. Murray, of Charlottesville, Virginia, is suspended from the practice of law in this Court and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court."
+  },
+  "file_name": "1091-03",
+  "first_page_order": 1091,
+  "last_page_order": 1091
+}

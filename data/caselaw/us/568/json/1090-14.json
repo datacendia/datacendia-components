@@ -1,0 +1,59 @@
+{
+  "id": 12428019,
+  "name": "Weatherby v. Federal Express Corp.",
+  "name_abbreviation": "Weatherby v. Federal Express Corp.",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-637",
+  "first_page": "1090",
+  "last_page": "1090",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1090"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 81,
+    "ocr_confidence": 0.646,
+    "sha256": "fd030ca0e7939befde52dc70e43c40c88b0bb5a4cfabdc750d98a426f7646986",
+    "simhash": "1:877a6276a73aa804",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Weatherby v. Federal Express Corp."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-637.\nWeatherby v. Federal Express Corp."
+  },
+  "file_name": "1090-14",
+  "first_page_order": 1166,
+  "last_page_order": 1166
+}

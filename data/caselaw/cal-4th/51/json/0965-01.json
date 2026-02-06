@@ -1,0 +1,801 @@
+{
+  "id": 3915372,
+  "name": "THE PEOPLE, Plaintiff and Respondent, v. JOMO ZAMBIA, Defendant and Appellant",
+  "name_abbreviation": "People v. Zambia",
+  "decision_date": "2011-06-02",
+  "docket_number": "No. S173490",
+  "first_page": "965",
+  "last_page": "988",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "51 Cal. 4th 965"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal.",
+    "id": 9021,
+    "name": "Supreme Court of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "38 P.3d 1",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2000,
+      "opinion_index": 0
+    },
+    {
+      "cite": "115 Cal.Rptr.2d 403",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 2000,
+      "opinion_index": 0
+    },
+    {
+      "cite": "27 Cal.4th 49",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1103377
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "58"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/27/0049-01"
+      ]
+    },
+    {
+      "cite": "219 Cal.Rptr. 693",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "173 Cal.App.3d 1251",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2156566
+      ],
+      "pin_cites": [
+        {
+          "page": "1256"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/173/1251-01"
+      ]
+    },
+    {
+      "cite": "743 P.2d 1323",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "241 Cal.Rptr. 67",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 Cal.3d 1379",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4627098
+      ],
+      "pin_cites": [
+        {
+          "page": "1387"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/43/1379-01"
+      ]
+    },
+    {
+      "cite": "87 Cal.Rptr.3d 881",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "170 Cal.App.4th 499",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        5733124
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/170/0499-01"
+      ]
+    },
+    {
+      "cite": "179 P.3d 882",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "74 Cal.Rptr.3d 81",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 Cal.4th 1142",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3673607
+      ],
+      "pin_cites": [
+        {
+          "page": "1156"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/42/1142-01"
+      ]
+    },
+    {
+      "cite": "807 P.2d 1076",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "279 Cal.Rptr. 847",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "53 Cal.3d 467",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2358791
+      ],
+      "pin_cites": [
+        {
+          "page": "475"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/53/0467-01"
+      ]
+    },
+    {
+      "cite": "540 P.2d 44",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "15 Cal.3d 286",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2272257
+      ],
+      "pin_cites": [
+        {
+          "page": "301, fn. 11"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/15/0286-01"
+      ]
+    },
+    {
+      "cite": "117 P.2d 437",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1975,
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.App.2d 1",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        6038017
+      ],
+      "weight": 2,
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "24"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/47/0001-01"
+      ]
+    },
+    {
+      "cite": "254 Cal.Rptr. 831",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "207 Cal.App.3d 323",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        6038856
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "333"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/207/0323-01"
+      ]
+    },
+    {
+      "cite": "133 Cal.Rptr. 533",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "63 Cal.App.3d 211",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        6040822
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "218"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/63/0211-01"
+      ]
+    },
+    {
+      "cite": "126 Cal.Rptr. 848",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 Cal.App.3d 862",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        6041369
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "865-866"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/54/0862-01"
+      ]
+    },
+    {
+      "cite": "107 Cal.Rptr. 256",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "31 Cal.App.3d 421",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        104868
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/31/0421-01"
+      ]
+    },
+    {
+      "cite": "863 P.2d 179",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 Cal.Rptr.2d 109",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "6 Cal.4th 644",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1995114
+      ],
+      "pin_cites": [
+        {
+          "page": "659"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/6/0644-01"
+      ]
+    },
+    {
+      "cite": "138 P.3d 713",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.Rptr.3d 380",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "39 Cal.4th 374",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3583186
+      ],
+      "pin_cites": [
+        {
+          "page": "379"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/39/0374-01"
+      ]
+    },
+    {
+      "cite": "194 Cal.Rptr. 722",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "147 Cal.App.3d 11",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        99609
+      ],
+      "pin_cites": [
+        {
+          "page": "18"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/147/0011-01"
+      ]
+    },
+    {
+      "cite": "280 Cal.Rptr. 368",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1983,
+      "opinion_index": 0
+    },
+    {
+      "cite": "229 Cal.App.3d 847",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4398059
+      ],
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "858"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/229/0847-01"
+      ]
+    },
+    {
+      "cite": "95 R3d 906",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "17 Cal.Rptr.3d 645",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "34 Cal.4th 254",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        633024
+      ],
+      "pin_cites": [
+        {
+          "page": "277"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-4th/34/0254-01"
+      ]
+    },
+    {
+      "cite": "83 Cal.Rptr,2d 493",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "70 Cal.App.4th 1535",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        732185
+      ],
+      "pin_cites": [
+        {
+          "page": "1558-1559"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-app-4th/70/1535-01"
+      ]
+    },
+    {
+      "cite": "470 P.2d 617",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "87 Cal.Rptr. 481",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "2 Cal.3d 619",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2310806
+      ],
+      "pin_cites": [
+        {
+          "page": "632"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-3d/2/0619-01"
+      ]
+    },
+    {
+      "cite": "210 P.3d 361",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "96 Cal.Rptr.3d 191",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "46 Cal.4th 1053",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3896621
+      ],
+      "pin_cites": [
+        {
+          "page": "1119"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-4th/46/1053-01"
+      ]
+    },
+    {
+      "cite": "39 Cal.Rptr. 49",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "228 Cal.App.2d 33",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2144419
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-app-2d/228/0033-01"
+      ]
+    },
+    {
+      "cite": "219 Cal.Rptr. 693",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "173 Cal.App.3d 1251",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2156566
+      ],
+      "pin_cites": [
+        {
+          "page": "1256"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-app-3d/173/1251-01"
+      ]
+    },
+    {
+      "cite": "87 Cal.Rptr.3d 881",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "170 Cal.App.4th 499",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        5733124
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-app-4th/170/0499-01"
+      ]
+    },
+    {
+      "cite": "133 Cal.Rptr. 533",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "63 Cal.App.3d 211",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        6040822
+      ],
+      "pin_cites": [
+        {
+          "page": "216-218"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-app-3d/63/0211-01"
+      ]
+    },
+    {
+      "cite": "126 Cal.Rptr. 848",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "54 Cal.App.3d 862",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        6041369
+      ],
+      "pin_cites": [
+        {
+          "page": "866"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-app-3d/54/0862-01"
+      ]
+    },
+    {
+      "cite": "107 Cal.Rptr. 256",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "31 Cal.App.3d 421",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        104868
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-app-3d/31/0421-01"
+      ]
+    },
+    {
+      "cite": "188 P.3d 629",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 2
+    },
+    {
+      "cite": "80 Cal.Rptr.3d 690",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 2
+    },
+    {
+      "cite": "44 Cal.4th 876",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3887984
+      ],
+      "pin_cites": [
+        {
+          "page": "905"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/cal-4th/44/0876-01"
+      ]
+    },
+    {
+      "cite": "44 Cal.Rptr.3d 116",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 2
+    },
+    {
+      "cite": "139 Cal.App.4th 1336",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4006354
+      ],
+      "pin_cites": [
+        {
+          "page": "1346, fn. 9"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/cal-app-4th/139/1336-01"
+      ]
+    },
+    {
+      "cite": "219 Cal.Rptr. 693",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "87 Cal.Rptr.3d 881",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 2
+    },
+    {
+      "cite": "170 Cal.App.4th 499",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        5733124
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "510"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/cal-app-4th/170/0499-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1692,
+    "char_count": 54560,
+    "ocr_confidence": 0.905,
+    "pagerank": {
+      "raw": 4.969293786830354e-07,
+      "percentile": 0.935343913872971
+    },
+    "sha256": "548ad820b5d681645e539d0bfc4c96f5b38bbdd4e65d55e506412475c9badd6d",
+    "simhash": "1:b12b40f42982c8d4",
+    "word_count": 8774
+  },
+  "last_updated": "2024-02-27T18:27:19.698038+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE, Plaintiff and Respondent, v. JOMO ZAMBIA, Defendant and Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nCORRIGAN, J.\nDefendant Jomo Zambia was convicted of pandering in violation of Penal Code section 266i, subdivision (a)(2), which defines pandering as encouraging \u201canother person to become\u201d a prostitute. Here, the target of defendant\u2019s encouragement was an undercover police officer. He contends that section 266i, subdivision (a)(2) does not apply when the target is already a prostitute or an undercover police officer acting as one. The trial and appellate court rejected this argument. We affirm.\nFACTUAL AND PROCEDURAL BACKGROUND\nOn June 8, 2007, Officer Erika Cruz was working undercover as a street prostitute in Los Angeles. Defendant drove past her, looked in her direction, made a U-turn, and stopped about 15 feet across the street from her. Defendant lowered his window and told Cruz to get into his truck. When Cruz asked why, defendant said he was a pimp. The officer told him to back up so they could talk. As he did so, Cruz called Officer Paschal, her \u201csecurity officer\u201d to report that she was possibly \u201cworking a pimp.\u201d\nStanding by defendant\u2019s open passenger side window, Officer Cruz saw cell phones on the truck\u2019s center console. Defendant again told her to get in the truck, repeating that he was a pimp. Cruz asked what defendant meant. He said that he would \u201ctake care of [her]\u201d and asked how much money she had in her possession. Hearing that she had $400, defendant said if she gave the money to him, he would provide her with housing and clothing.\nOfficer Cruz hesitated, telling defendant she was not comfortable. Defendant told her he was a legitimate businessman, showed her a business card, and said he would not \u201cstrong-arm\u201d her, which Cruz understood to mean to take her money by force. Cruz testified that defendant used an aggressive tone of voice and demeanor. She characterized him as acting like a \u201cgorilla pimp,\u201d or one who uses \u201cverbal threats and violence to get their way and to scare prostitutes into working for them.\u201d Cruz asked defendant if she could continue to work the same neighborhood. Defendant told her she could and that he would \u201cjust take care of [her].\u201d\nAt this point, Officer Cruz alerted her backup unit. Defendant was arrested and charged with one count of pandering. (\u00a7 266i, subd. (a)(2).) In addition to Officer Cruz\u2019s testimony summarized above, Officer Paschal testified that pimps commonly provide condoms to their prostitutes, and use multiple cell phones to contact them. When she arrested defendant, Paschal found cell phones, condoms, and a business card on the truck\u2019s console. Paschal testified that pimps often give their prostitutes a business card with a phone number to facilitate contact. Paschal also explained that pimps often have prostitutes work on the street to solicit sex acts for money. The prostitutes turn their money over to the pimp, who provides food, clothing, and other services.\nDefendant did not testify. His mother testified that he lived at her home and worked in her family-owned janitorial business. Defendant would usually work between 6:00 p.m. and 12:30 a.m. He carried one working mobile phone, but also had a broken one in his car, along with a third that he had borrowed from a friend. She explained that defendant was clumsy and often broke his phones. She recognized two of the three phones found in defendant\u2019s vehicle as well as defendant\u2019s business card from the family business.\nDefendant\u2019s fianc\u00e9e testified that his work hours varied, but that he would often return to his jobsite to pick up equipment in the early morning. She recognized the three cell phones found in defendant\u2019s truck, and had no reason to believe defendant was a pimp.\nDefendant was convicted by jury and sentenced to four years in prison. The Court of Appeal affirmed.\nDISCUSSION\nAt issue here is the proper construction of section 266i, subdivision (a)(2), which provides in pertinent part that any person who \u201c[b]y promises, threats, violence, or by any device or scheme, causes, induces, persuades, or encourages another person to become a prostitute\u201d is guilty of pandering.\n\u201cIn construing any statute, we first look to its language. [Citation.] \u2018Words used in a statute . . . should be given the meaning they bear in ordinary use. [Citations.] If the language is clear and unambiguous there is no need for construction, nor is it necessary to resort to indicia of the intent of the Legislature . . . .\u2019 [Citation.] \u2018If the language permits more than one reasonable interpretation, however, the court looks \u201cto a variety of extrinsic aids, including the ostensible objects to be achieved, the evils to be remedied, the legislative history, public policy, contemporaneous administrative construction, and the statutory scheme of which the statute is a part.\u201d [Citation.]\u2019 [Citation.]\u201d (S. B. Beach Properties v. Berti (2006) 39 Cal.4th 374, 379 [46 Cal.Rptr.3d 380, 138 P.3d 713].) A statute \u201c \u2018must be given a reasonable and common sense interpretation consistent with the apparent purpose and intention of the lawmakers, practical rather than technical in nature, which upon application will result in wise policy rather than mischief or absurdity.\u2019 \u201d (City of Poway v. City of San Diego (1991) 229 Cal.App.3d 847, 858 [280 Cal.Rptr. 368], quoting DeYoung v. City of San Diego (1983) 147 Cal.App.3d 11, 18 [194 Cal.Rptr. 722].) \u201c \u2018The meaning of a statute may not be determined from a single word or sentence; the words must be construed in context, and provisions relating to the same subject matter must be harmonized to the extent possible.\u2019 \u201d (Lakin v. Watkins Associated Industries (1993) 6 Cal.4th 644, 659 [25 Cal.Rptr.2d 109, 863 P.2d 179].)\nDefendant argues that section 266i, subdivision (a)(2)\u2019s phrase \u201cto become a prostitute\u201d does not include encouraging a person who is already a prostitute, or is posing as one. The People argue that the better view is that \u201cto become a prostitute\u201d means to \u201cengage in any future acts of prostitution,\u201d regardless of the victim\u2019s status at the time of a defendant\u2019s encouragement.\nWith a single exception, an unbroken line of cases, beginning with People v. Bradshaw (1973) 31 Cal.App.3d 421 [107 Cal.Rptr. 256] (Bradshaw), has rejected defendant\u2019s argument. In Bradshaw, the defendant tried to persuade an undercover police officer to work in a house of prostitution under his supervision. The defendant was charged under section 266i with \u201c \u2018procuring, causing, inducing, persuading and encouraging\u2019 \u201d the victim to become a prostitute. (Bradshaw, at p. 423.) At trial, the prosecution contended that while the defendant did not successfully cause the officer \u201cto become a prostitute,\u201d he encouraged her to do so and thus violated former subdivision (b) (now subd. (a)(2)) of section 266i. (Bradshaw, at p. 423.) The court held that former subdivision (b) includes \u201ccases where a defendant has solicited one whom he believes to be a former prostitute to re-enter the profession and a defendant who solicits one whom he believes presently to be a prostitute to change her business relations.\u201d (Bradshaw, at p. 426.) Accordingly, Bradshaw stands for the proposition that a defendant can be convicted of pandering even if the target is already a prostitute, or a person posing as one, if the defendant encourages the target to change \u201cbusiness relations.\u201d (Ibid.)\nOur courts have repeatedly followed Bradshaw and have concluded that the phrase \u201cto become a prostitute\u201d includes both recruiting someone to enter the prostitution trade for the first time and encouraging an existing prostitute, or an undercover officer, to work for him or someone else under some type of new business relationship. (See People v. Hashimoto (1976) 54 Cal.App.3d 862, 865-866 [126 Cal.Rptr. 848] (Hashimoto); People v. Patton (1976) 63 Cal.App.3d 211, 218 [133 Cal.Rptr. 533] (Patton); People v. DeLoach (1989) 207 Cal.App.3d 323, 333 [254 Cal.Rptr. 831] (DeLoach).)\nCourts have noted the purpose of the pandering statute in reaching this outcome. In Hashimoto, supra, 54 Cal.App.3d 862, the defendant ran a travel agency catering to foreign tourists. An undercover officer spoke with the defendant saying she had \u201cbeen informed that he was hiring girls to work for him.\u201d (Id. at p. 865.) The defendant said he would refer to the officer those clients of his who were seeking the services of a prostitute. Told that the officer charged $75 per client, the defendant negotiated a reduced rate of $50 for his referrals, urging that the volume of customers he supplied would offset the discounted price. (Ibid.) In affirming the defendant\u2019s pandering conviction, the court noted, \u201cThe purpose of the anti-pandering statute [citation] is to \u2018cover all the various ramifications of the social evil of pandering and include them all in the definition of the crime, with a view of effectively combating the evil sought to be condemned.\u2019 [Citations.]\u201d (Id. at p. 866.) It concluded that the Legislature not only wanted to stop the launching of a new prostitute\u2019s career but also to prevent prostitution \u201cby discouraging persons other than the prostitute from augmenting and expanding a prostitute\u2019s operation, or increasing the supply of available prostitutes. [Citations.]\u201d (Id. at p. 867; see also People v. Montgomery (1941) 47 Cal.App.2d 1, 24 [117 P.2d 437], disapproved on other grounds in Murgia v. Municipal Court (1975) 15 Cal.3d 286, 301, fn. 11 [124 CaLRptr. 204, 540 P.2d 44].) This analysis recognizes that when a pimp offers protection and support to a prostitute in return for some or all of her income, the offer increases the likelihood that the prostitute will be able to maintain or expand her activities, an outcome squarely at odds with the statutory goal.\nIn Patton, supra, 63 Cal.App.3d 211, the defendant encouraged a teenage runaway, who had been working as a prostitute, to come work for him. He offered her housing, bail money when needed, and other inducements. Convicted of pandering, the defendant raised the very question involved here, arguing: \u201c[A] woman cannot become a prostitute if she already is one . . . .\u201d (Id. at p. 215.) While he acknowledged that Bradshaw and Hashimoto stood against him, the defendant relied on out-of-state cases and \u201csound considerations of public policy.\u201d (Patton, at p. 217.) He urged solicitation of a \u201cvirtuous woman\u201d was more blameworthy than the encouragement of an established prostitute who would \u201cgenerally have been coarsened by previous acts of prostitution.\u201d (Id. at pp. 217-218.)\nThe Patton court rejected the defendant\u2019s claim, noting, \u201cThe fallacy involved in this reasoning is the assumption that the Legislature was concerned only with actual, rather than potential, harm.\u201d (Patton, supra, 63 Cal.App.3d at p. 218.) Thus, the focus is not on the character of a defendant\u2019s target, but on the social harm inherent in the defendant\u2019s conduct. The Patton court agreed with Bradshaw and Hashimoto, noting, \u201cA substantial potential for social harm is revealed even by the act of encouraging an established prostitute to alter her business relations. Such conduct indicates a present willingness to actively promote the social evil of prostitution.\u201d (Patton, at p. 218.)\nDeLoach, supra, 207 Cal.App.3d 323, shows how defendant\u2019s theory here could be used to subvert the goal of the statute, and insulate predatory behavior from punishment. Barbara DeLoach had been repeatedly incarcerated for various felonies, including armed robbery. Paroled from her most recent imprisonment, she returned to live with her two daughters, ages 10 and 14, supplementing her welfare income by prostitution. To avoid police suspicion, she often took her older child, S., with her while she plied her trade. One night, a potential customer asked for an interlude with S., rather than with DeLoach. DeLoach urged her daughter to accept the solicitation, but S. refused. A few days later, they encountered the same man and DeLoach threatened to beat S. if she did not go with him. The man engaged in multiple sex acts with S. and gave her $70, which DeLoach demanded when S. was returned by the customer. Several weeks later, DeLoach turned S. over to the same man, who again paid her for a sexual encounter. (Id. at pp. 331-332.) DeLoach was charged with multiple crimes, including two counts of pandering. She was convicted on both counts. On appeal, she conceded guilt of the first offense. Challenging the other count, however, she argued that she could not be convicted of pandering on the second occasion because she had already made S. a prostitute. Thus, because S. was already a prostitute, DeLoach argued she could not be convicted of causing her to become one during the second incident. (Ibid.)\nThe Court of Appeal correctly rejected DeLoach\u2019s argument that, because she had coerced S. to act as a prostitute the first time, she was insulated from punishment for pandering the second time. The court stated, \u201c[DeLoach] did not transform S. into a prostitute for all time the first time she forced her daughter to go with [the customer]. The interpretation of Penal Code section 266i urged by appellant would require us to stigmatize the victim in this case as with a new form of Scarlet Letter. We decline to do so.\u201d (DeLoach, supra, 207 Cal.App.3d at p. 334.)\nThe interpretation urged by defendant could also lead to mischievous and potentially absurd results. (See City of Poway v. City of San Diego, supra, 229 Cal.App.3d at p. 858.) Trial court and appellate inquiry might be required to tease out just who might qualify as an \u201cactive prostitute.\u201d Would the defense be available only if the pimp\u2019s overture was made while his target was actually engaged in soliciting? Would people qualify as active prostitutes only if that was their sole occupation, or would occasional resort to prostitution be sufficient? Would it make a difference if the prostitute also had legitimate employment? Would a hiatus of weeks or months transform an \u201cactive prostitute\u201d into a former or inactive one? There is nothing in the legislative history or decades of case law that even remotely suggests an intent to raise these esoteric inquiries.\nThe language of the pandering statute describes current conduct on the part of the defendant: inducing and encouraging. That current conduct is aimed at producing subsequent conduct by the target: that the target thereafter engage in acts of prostitution following a defendant\u2019s inducement or encouragement. To encourage an established prostitute to change her business relationship necessarily implies that a defendant intends a victim \u201cto become a prostitute\u201d in the future regardless of her current status. We also think it safe to say that someone who encourages another to become a prostitute is seldom giving disinterested advice about a possible career path. The phrase \u201cencourages another person to become a prostitute\u201d can readily be understood to encompass the goal that the target \u201cbecome a prostitute\u201d in the future for the benefit of the encourager or some other pimp. (\u00a7 266i, subd. (a)(2).) This interpretation of the pandering statute is consistent with long-standing case law and the Legislature\u2019s intent to combat pandering and prostitution.\nIt is also significant that section 266i has been amended six times since Bradshaw was decided in 1973, without any attempt by the Legislature to alter the interpretation set out above. \u201cWhen a statute has been construed by the courts, and the Legislature thereafter reenacts that statute without changing the interpretation put on that statute by the courts, the Legislature is presumed to have been aware of, and acquiesced in, the courts\u2019 construction of that statute.\u201d (People v. Bouzas (1991) 53 Cal.3d 467, 475 [279 Cal.Rptr. 847, 807 P.2d 1076].) In Bouzas, the statutes at issue were amended 10 times over 73 years without any attempt to alter the courts\u2019 consistent interpretation of them. We concluded that \u201cthe Legislature acquiesced in and ratified , the judicial interpretation of the . . . [statutes], and intended that the present version . . . receive a like interpretation.\u201d (Ibid.) Here, we have a similar pattern of legislative inaction signaling acquiescence, as there exists \u201cboth a well-developed body of law interpreting a statutory provision and numerous amendments to a statute without altering the interpreted provision . . . .\u201d (Olson v. Automobile Club of Southern California (2008) 42 Cal.4th 1142, 1156 [74 Cal.Rptr.3d 81, 179 P.3d 882].)\nPeople v. Wagner (2009) 170 Cal.App.4th 499 [87 Cal.Rptr.3d 881], is the lone exception to the Bradshaw line of cases. There, the defendant was convicted under section 266i, subdivision (a)(2) after he unsuccessfully tried to pressure an active prostitute to come work for him. (Wagner, at p. 502.) He argued that the trial court erred by giving a modified jury instruction specifying that pandering occurs when \u201cthe defendant encourages or solicits one who is already a prostitute to \u2018change her business relationship.\u2019 \u201d (Ibid.) The Court of Appeal reversed the defendant\u2019s conviction and criticized the established case law set out above as \u201cutterly unconvincing.\u201d (Id. at p. 506.) The Wagner court concluded that the settled interpretation in place for decades was wrong because it is impossible to solicit a woman who was \u201ccurrently\u201d a prostitute to become one. (Id. at pp. 509-511.) It stated, \u201cWe feel this statute is clear. The language defining the crime as occurring when a defendant induces or encourages someone else to \u2018become a prostitute\u2019 seems fairly clear in its exclusion of efforts to importune someone currently engaged in that profession to change management. If the Legislature had wanted a more broadly applicable provision, it could have easily replaced the phrase \u2018become a prostitute\u2019 with the phrase \u2018engage in prostitution.\u2019 We cannot simply assume it meant the latter when it said the former.\u201d (Id. at p. 509.)\nThe Attorney General argues that Wagner rests on the misplaced notion that the Legislature intended to narrowly define and restrict the acts that constitute pandering. We agree. Wagner literally and narrowly reads the phrase \u201cto become a prostitute\u201d found in section 266i, subdivision (a)(2), in isolation from the remaining words and provisions of the pandering statute. Such an approach is contrary to established principles of statutory construction. Our obligation in this case is to construe section 266i to ascertain the intent of the Legislature and give effect to the intended purpose of the statute. \u201cThe words of the statute must be construed in context, keeping in mind the statutory purpose, and statutes or statutory sections relating to the same subject must be harmonized, both internally and with each other, to the extent possible. [Citations.] Where uncertainty exists consideration should be given to the consequences that will flow from a particular interpretation. [Citation.] Both the legislative history of the statute and the wider historical circumstances of its enactment may be considered in ascertaining the legislative intent.\u201d (Dyna-Med, Inc. v. Fair Employment & Housing Com. (1987) 43 Cal.3d 1379, 1387 [241 Cal.Rptr. 67, 743 P.2d 1323].)\nConsidering subdivision (a)(2) in the context of the other provisions of the statute reveals that the intent and purpose behind section 266i, subdivision (a)(2) is to prohibit a person from encouraging a prostitute to work under his aegis or that of someone else, regardless whether the target being solicited is already a working prostitute.\nSubdivision (a) contains six subparts. As noted, subdivision (a)(2) proscribes conduct that \u201c[b]y promises, threats, violence, or by any device or scheme, causes, induces, persuades, or encourages another person to become a prostitute.\u201d (\u00a7 266i, subd. (a)(2).)\nSubdivision (a)(1) criminalizes the \u201c[p]rocur[ing of] another person for the purpose of prostitution.\u201d (\u00a7 266i, subd. (a)(1), italics added.) Whether taken literally or figuratively, there is no reason to conclude the term \u201canother person\u201d as used in subdivision (a)(1) would not encompass both prostitutes and nonprostitutes, as either can plainly be \u201cprocured\u201d for the purpose of prostitution.\nSubdivision (a)(3) criminalizes \u201c[p]rocur[ing] for another person a place as an inmate in a house of prostitution or as. an inmate of any place in which prostitution is encouraged or allowed within this state.\u201d (\u00a7 266i, subd. (a)(3), italics added.) Here again, the term \u201canother person\u201d encompasses all persons, regardless of their current employment pursuits.\nSubdivision (a)(4) criminalizes conduct that \u201c[b]y promises, threats, violence, or by any device or scheme, causes, induces, persuades, or encourages an inmate of a house of prostitution, or any other place in which prostitution is encouraged or allowed, to remain therein as an inmate.\u201d (\u00a7 266i, subd. (a)(4), italics added.) Subdivision (a)(4) does not use the term \u201canother person.\u201d But it specifically proscribes targeting those who are already in \u201ca house of prostitution.\u201d In short, subdivision (a)(4) applies to active prostitutes.\nSubdivision (a)(5) criminalizes conduct that \u201c[b]y fraud or artifice, or by duress of person or goods, or by abuse of any position of confidence or authority, procures another person for the purpose of prostitution, or to enter any place in which prostitution is encouraged or allowed within this state, or to come into this state or leave this state for the purpose of prostitution.\u201d (\u00a7 266i, subd. (a)(5), italics added.) Once again, the term \u201canother person,\u201d as used in subdivision (a)(5), applies to any solicited target, active prostitute or otherwise.\nFinally, subdivision (a)(6) authorizes the prosecution of anyone who \u201c[Receives or gives, or agrees to receive or give, any money or thing of value for procuring, or attempting to procure, another person for the purpose of prostitution, or to come into this state or leave this state for the purpose of prostitution.\u201d (\u00a7 266i, subd. (a)(6), italics added.) The term \u201canother person\u201d as used in this subdivision also applies to any victim, regardless whether that victim is already acting as a prostitute.\nIn conducting our statutory analysis, we reiterate that \u201c[t]he words of [a] statute must be construed in context, keeping in mind the statutory purpose, and statutes or statutory sections relating to the same subject must be harmonized, both internally and with each other, to the extent possible.\u201d (Dyna-Med, Inc. v. Fair Employment & Housing Com., supra, 43 Cal.3d at p. 1387.) Subdivision (a)(1), and (a)(3) through (a)(6), of section 266i, when harmonized and read together in context, plainly envision that any solicited \u201cperson,\u201d whether an active prostitute or not, may be the target of unlawful pandering. The plain intent and purpose behind all the provisions of section 266i, taken together, is to deter pimps or others from establishing new working relationships in the unlawful prostitution trade. Our appellate courts have long recognized that California\u2019s pandering statute \u201c \u2018cover[s] all the various ramifications of the social evil of pandering and include[s] them all in the definition of the crime, with a view of effectively combating the evil sought to be condemned.\u2019 \u201d (Hashimoto, supra, 54 Cal.App.3d at p. 866.)\nIt would be unreasonable and inconsistent to give the term \u201canother person\u201d a different meaning in subdivision (a)(2) from the meaning that term has when used in other subdivisions of the same statute. (\u00a7 266i, subd. (a)(2).) Long-standing authority explains how the phrase \u201cto become a prostitute\u201d can and should be construed in harmony with the intent and purpose of the statute as a whole. Because Wagner brought to light ambiguity in the statutory language, we also look beyond the words of the provision to the Legislature\u2019s intent in enacting it. (S. B. Beach Properties v. Berti, supra, 39 Cal.4th at p. 379.)\nDefendant\u2019s reasoning rests on the flawed \u201cassumption that the Legislature was concerned only with actual, rather than potential, harm.\u201d (Patton, supra, 63 Cal.App.3d at p. 218.) \u201c[T]he relevant social policy question is the potential for harm which defendant\u2019s conduct reveals. A substantial potential for social harm is revealed even by the act of encouraging an established prostitute to alter her business relations. Such conduct indicates a present willingness to actively promote the social evil of prostitution.\u201d {Ibid.) As noted, the Legislature intended section 266i to \u201c \u2018cover all the various ramifications of the social evil of pandering and include them all in the definition of the crime, with a view of effectively combating the evil sought to be condemned.\u2019 \u201d (Hashimoto, supra, 54 Cal.App.3d at p. 866, quoting People v. Montgomery, supra, 47 Cal.App.2d at p. 24.)\nConsideration of the intent required to violate section 266i, subdivision (a)(2) also reveals additional problems with the narrow interpretation of that subdivision proffered by defendant and the Wagner court. We note that there is a split in authority regarding the intent required to commit an act of pandering. (See Judicial Council of Cal., Crim. Jury Instns. (2011) Bench Notes to CALCRIM No. 1151, pp. 999-1000.) In People v. Montgomery, supra, 47 Cal.App.2d at page 16, the court held that pandering does not require specific intent. The Montgomery court stated, \u201cThe crime of pandering does not necessarily involve the question of specific intent. . . . [A]ll that is required ... is the commission of any one of the acts set forth [in the pandering statute], and the only intent required is that the act be voluntarily done or performed by the person charged, with full knowledge of its nature. . . . Anyone who knowingly takes a part in the evil practice condemned is guilty of a violation of the law regardless of the state of his mind with relation to the act in question.\u201d (Ibid.)\nBut in People v. Mathis (1985) 173 Cal.App.3d 1251, 1256 [219 Cal.Rptr. 693], the court concluded that pandering requires \u201ca specific intent to influence a person to become a prostitute.\u201d The Mathis court explained: \u201cIt requires the defendant to cause, induce, persuade or encourage another person to become a prostitute; and the causing, inducing, encouraging or persuading must be accomplished by promises, threats, violence or any device or scheme. Implicit in the necessity of both of these elements of the crime is the inference of a specific intent to influence a person to become a prostitute. While evidence of such a mental state is likely to be circumstantial and, in a given case, the intent to influence may well be inferred from acts of assistance, \u2018we cannot extrapolate therefrom, as a matter of law, that the inference must be drawn. Intent [to influence] is what must be proved ....\u2019\u201d (Id. at p. 1256, fn. omitted.)\nWe clarify here that pandering is a specific intent crime. Its commission requires that a defendant intend to persuade or otherwise influence the target \u201cto become a prostitute\u201d as that phrase has been interpreted here. This construction of section 266i, subdivision (a)(2) effectuates the purpose and intent of the pandering statute, which is to criminalize the knowing and purposeful conduct of any person seeking to encourage \u201canother person\u201d to work with the panderer or another pimp in plying the prostitution trade. The long-standing and broader construction of the phrase \u201cencourages another person to become a prostitute\u201d places the focus on the defendant\u2019s unlawful actions and intent, rather than making the targeted victim\u2019s character or occupation the determinative factors for conviction.\nDefendant also argues that section 266i as a whole reflects a legislative intent to limit pandering to those who target nonprostitutes except in the case of prostitutes working in houses of prostitution.\nDefendant relies on section 266i, subdivision (a)(4), which punishes as a panderer one who \u201c[b]y promises, threats, violence, or by any device or scheme, causes, induces, persuades, or encourages an inmate of a house of prostitution, or any other place in which prostitution is encouraged or allowed, to remain therein as an inmate.\u201d (Italics added.) Defendant argues that if encouraging someone to continue to be a prostitute is pandering under subdivision (a)(2), then subdivision (a)(4)\u2019s phrase \u201cto remain\u201d is redundant. Defendant\u2019s analysis is flawed.\nBoth subdivision (a)(3) and (4) of section 266i address the specific issue of brothels. Subdivision (a)(3) prohibits placing a person in a brothel, and subdivision (a)(4) prohibits compelling or encouraging a brothel inmate to remain there. Neither subdivision (a)(3) nor (4) uses the phrase \u201cto become a prostitute.\u201d The People point out that the Legislature intended subdivision (a)(3) and (4) to address the inherently coercive atmosphere in brothels, recognizing that delivering victims to a brothel, or acting to keep them there, are sufficiently evil acts whether or not the actor encourages or pressures the victim \u201cto become\u201d a prostitute once there. Neither subdivision (a)(2)\u2019s use of the phrase \u201cto become\u201d nor subdivision (a)(4)\u2019s use of \u201cto remain\u201d refers to the activities of the victim, but instead focuses on the panderer\u2019s conduct. Accordingly, our interpretation of subdivision (a)(2)\u2019s use of the phrase \u201cto become\u201d a prostitute does not render subdivision (a)(4)\u2019s \u201cto remain\u201d language redundant. The interpretation affirmed here harmonizes the various subdivisions of section 266i in a reasonable manner. It carries out the Legislature\u2019s intent to combat the social evils inherent in recruitment for acts of prostitution, the perpetuation of the trade by the management and support offered by pimps, and the particularly coercive and socially dysfunctional activities associated with brothels.\nAccordingly we conclude that the proscribed activity of encouraging someone \u201cto become a prostitute,\u201d as set forth in section 266i, subdivision (a)(2), includes encouragement of someone who is already an active prostitute, or undercover police officer. People v. Wagner, supra, 170 Cal.App.4th 499, and People v. Montgomery, supra, 47 Cal.App.2d 1, are disapproved to the extent they are inconsistent with this opinion.\nWe also reject defendant\u2019s contention that there was insufficient evidence that he encouraged anyone to become a prostitute. Officer Cruz testified that defendant offered his services as a pimp by telling her he would provide her with protection, housing, and clothing if she turned her earnings over to him. Defendant twice identified himself as a pimp, assured Officer Cruz that she could continue to work in the same area, and promised that he would \u201ctake care of [her].\u201d The evidence was sufficient and supports the judgment.\nDISPOSITION\nThe Court of Appeal\u2019s judgment is affirmed.\nCantil-Sakauye, C. J., Baxter, J., Chin, J., and Bamattre-Manoukian, J., concurred.\nAll further statutory references are to the Penal Code.\nThe full text of section 2661 follows:\n\u201c(a) Except as provided in subdivision (b), any person who does any of the following is guilty of pandering, a felony, and shall be punishable by imprisonment in the state prison for three, four, or six years:\n\u201c(1) Procures another person for the purpose of prostitution.\n\u201c(2) By promises, threats, violence, or by any device or scheme, causes, induces, persuades, or encourages another person to become a prostitute.\n\u201c(3) Procures for another person a place as an inmate in a house of prostitution or as an inmate of any place in which prostitution is encouraged or allowed within this state.\n\u201c(4) By promises, threats, violence, or by any device or scheme, causes, induces, persuades, or encourages an inmate of a house of prostitution, or any other place in which prostitution is encouraged or allowed, to remain therein as an inmate.\n\u201c(5) By fraud or artifice, or by duress of person or goods, or by abuse of any position of confidence or authority, procures another person for the purpose of prostitution, or to enter any place in which prostitution is encouraged or allowed within this state, or to come into this state or leave this state for the purpose of prostitution.\n\u201c(6) Receives or gives, or agrees to receive or give, any money or thing of value for procuring, or attempting to procure, another person for the purpose of prostitution, or to come into this state or leave this state for the purpose of prostitution.\n\u201c(b) Any person who does any of the acts described in subdivision (a) with another person who is a minor is guilty of pandering, a felony, and shall be punishable as follows:\n\u201c(1) If the other person is a minor 16 years of age or older, the offense is punishable by imprisonment in the state prison for three, four, or six years.\n\u201c(2) If the other person is under 16 years of age, the offense is punishable by imprisonment in the state prison for three, six, or eight years.\u201d\nSergeant Alan Kreitzman, who was in charge of the investigation, testified that pimps carry business cards and show them to prospective prostitutes to give the appearance of legitimacy.\nThe court specifically noted that the defendant was not charged under the pandering statutes as they applied to houses of prostitution. (Bradshaw; supra, 31 Cal.App.3d at p. 423, fn. 3.)\nBradshaw also argued that \u201cencourage\u201d implied success and that \u201cto become\u201d necessarily means that the victim could not have been a prostitute before defendant\u2019s persuasive activities. (Bradshaw, supra, 31 Cal.App.3d at p. 424.) The court held that \u201csuccess is not a necessary element of the offense proscribed by the word \u2018encourage\u2019 as used in subdivision (b) of section 266i.\u201d (Id. at p. 425.)\nLegislative intent in support of a broad interpretation of the phrase \u201cencourages another person to become a prostitute\u201d is exemplified by the Legislature\u2019s 1969 enactment of Assembly Bill No. 818 (1969 Reg. Sess.) section 2, amending section 266i. The amendment expanded the definition of pandering \u201cby providing that pandering consists of procuring any prostitute\u2014 male or female\u2014for prostitution. The act need not relate to a house of prostitution.\" (Assem. Com. on Criminal Procedure, Digest of Assem. Bill No. 818 (1969 Reg. Sess.) May 5, 1969.)\nThe Legislature understood that then existing law recognized pandering as procuring only women for houses of prostitution. Assemblyman Robert Beverly, author of Assembly Bill No. 818, summed up the situation: \u201cThe intent of this measure is to plug existing loopholes in laws dealing with prostitution and related offenses . . . . [1] We have had thrust upon us the male prostitute, and the female pimp, both of which have complicated the efforts of enforcement against commercialized prostitution activities. [][] The existing Pimping and Pandering Statutes refer to female prostitutes, male pimps, and houses of prostitution, [f] By this legislation, any person, rather than males only, may commit the crime of pimping when they derive support from the earnings of any prostitute, rather than female prostitutes only. [1] In addition, the legislation provides that the crime of pandering is complete when a person procures any other person for the purpose of prostitution, rather than the procuring of a female person to become an inmate of a house of prostitution.\u201d (Assemblyman Robert G. Beverly, letter to June R. McKinnon on Assem. Bill No. 818 (1969 Reg. Sess.) Aug. 11, 1969, italics added.)\nDefendant claims that if we affirm the Court of Appeal, pandering would either become a lesser included offense of pimping or merge with it. This contention lacks merit. By the express requirements of the respective statutes, a conviction of pimping does not necessarily constitute a conviction of pandering. (Compare \u00a7 266h with \u00a7 266i; see 2 Witkin & Epstein, Cal. Criminal Law (3d ed. 2000) Sex Offenses and Crimes Against Decency, \u00a7 70, p. 382 [\u201c[T]he crime of pandering, as defined by P.C. 266i, is distinct from that of pimping [citation].\u201d].) It is possible to commit one offense without committing the other.\nWe also reject defendant\u2019s contention that the rule of lenity is applicable. (See People v. Avery (2002) 27 Cal.4th 49, 58 [115 Cal.Rptr.2d 403, 38 P.3d 1]; 1 Witkin & Epstein, Cal. Criminal Law (3d ed. 2000) Introduction to Crimes, \u00a7 24, p. 53 [\u201cThe rule applies only if the court can do no more than guess what the legislative body intended; there must be an egregious ambiguity and uncertainty to justify invoking the rule.\u201d].)\nTo the extent that defendant argues that he could not be convicted of anything more than attempted pandering because there was no possibility that Officer Cruz would become a prostitute, the contention fails. The statute is clear that the crime of pandering is complete when the defendant \u201cencourages another person to become a prostitute\u201d by \u201cpromises, threats, violence, or by any device or scheme . . . .\u201d (\u00a7 266i, subd. (a)(2).) There is no requirement that defendant succeed. (Bradshaw, supra, 31 Cal.App.3d at p. 425.) Nor is there a requirement that, in selecting his targets, the panderer choose only those who present a high probability of success. Again, the focus is on the actions and intent of the panderer, not the target.\nAssociate Justice of the Court of Appeal, Sixth Appellate District, assigned by the Chief Justice pursuant to article VI, section 6 of the California Constitution.",
+        "type": "majority",
+        "author": "CORRIGAN, J."
+      },
+      {
+        "text": "KENNARD, J., Dissenting.\nEncouraging another person \u201cto become a prostitute\u201d is a felony. (Pen. Code, \u00a7 266i, subd. (a)(2); all further statutory references are to the Penal Code.) Falling within that statutory language, the majority holds, is \u201cencouragement of someone who is already an active prostitute\u201d to become a prostitute. (Maj. opn., ante, at p. 981.) I disagree. I cannot fathom how one can \u201cbecome\u201d what one already is. And a defendant who, as here, solicits an undercover police officer in the mistaken belief that the officer already is a prostitute lacks the specific intent of encouraging another person \u201cto become\u201d a prostitute.\nI\nIn June 2007, Los Angeles Police Officer Erika Cruz, working undercover, posed as a prostitute on Sepulveda Boulevard in Van Nuys. Defendant Jomo Zambia drove past her, made a U-tum, stopped his truck across the street from her, and told her to get into his truck. When she asked him why, defendant said he was a pimp, adding he would take care of her by providing her with food and clothing. Defendant was then arrested.\nDefendant was convicted of pandering. (\u00a7 266i, subd. (a)(2).) The Court of Appeal upheld the conviction, as does the majority today.\nII\nThe law prohibits encouraging another \u201cto become a prostitute.\u201d (\u00a7 266i, subd. (a)(2).) The language is plain and unambiguous. The word \u201cbecome\u201d means \u201c[t]o pass from one state to another; to enter into some state or condition by a change from another state, or by assuming or receiving new properties or qualities, additional matter, or a new character.\u201d (Webster\u2019s 2d New Internat. Dict. (1941) p. 242, italics added; see also Webster\u2019s 9th New Collegiate Dict. (1988) p. 139.) Or, as defined in the leading law dictionary, the word \u201cbecome\u201d denotes a change from one condition to another. (Black\u2019s Law Dictionary (4th rev. ed. 1968) p. 195.) For example, a person who already is a police officer or a physician cannot be encouraged \u201cto become\u201d a police officer or a physician, because in either situation the person is not acquiring a new status. Similarly, one who already is a prostitute cannot be encouraged \u201cto become\u201d a prostitute. (\u00a7 266i, subd. (a)(2).)\nIn holding to the contrary, the majority goes beyond the pandering statute\u2019s plain language. Nor do prior appellate decisions relied on by the majority support its holding.\nin\nThe majority notes that, with a single exception (People v. Wagner (2009) 170 Cal.App.4th 499 [87 Cal.Rptr.3d 881] (Wagner)), previous Court of Appeal decisions have held that a person who is already a prostitute can be encouraged \u201cto become a prostitute\u201d (\u00a7 266i, subd. (a)(2)). But, as Wagner has pointed out, those cases lack a sound legal basis for their holdings. The majority rejects that criticism.\nThe first of the decisions relied on by the majority is People v. Bradshaw (1973) 31 Cal.App.3d 421 [107 Cal.Rptr. 256] (Bradshaw). That decision candidly acknowledged that People v. Frey (1964) 228 Cal.App.2d 33 [39 Cal.Rptr. 49], on which Bradshaw based its holding, did not actually address the issue of what \u201cto become\u201d means in the context of the pandering statute (Bradshaw, at p. 426). As Justice Bedsworth, the author of Wagner, succinctly put it: Bradshaw \u201cwas groping for a solution without any precedential illumination.\u201d (Wagner, supra, 170 Cal.App.4th at p. 507.)\nNevertheless, the Bradshaw holding that the pandering statute can be violated by encouraging one who is already a prostitute to become a prostitute was then followed in People v. Hashimoto (1976) 54 Cal.App.3d 862, 866 [126 Cal.Rptr. 848] and People v. Patton (1976) 63 Cal.App.3d 211, 216-218 [133 Cal.Rptr. 533]. Neither determined whether the Bradshaw holding went beyond the scope of the statutory language (as in my view it did). Instead, both Hashimoto and Patton looked to the social evil of pandering as justification for their holdings. (Hashimoto, supra, 54 Cal.App.3d at p. 866; Patton, supra, 63 Cal.App.3d at p. 218.) Today, the majority, citing Hashimoto and Patton, does the same. (Maj. opn., ante, at pp. 973-974.) To hold otherwise, the majority asserts, would insulate predatory behavior from punishment. (Id. at p. 974.)\nIt may well be that encouraging a prostitute to work for a pimp is \u201cpredatory behavior\u201d that warrants social sanction. But, as I pointed out earlier at pages 982-983, ante, the majority\u2019s holding goes beyond the Legislature\u2019s plain language in the pandering statute. By reading into the statute words that are not there and by ascribing to the statutory phrase \u201cto become a prostitute\u201d a meaning that the words do not support, the majority has improperly expanded the statute\u2019s prohibited conduct. Decreeing what conduct is punishable is exclusively the domain of the Legislature. (People v. Farley (2009) 46 Cal.4th 1053, 1119 [96 Cal.Rptr.3d 191, 210 P.3d 361].)\n\u201cAlthough the Penal Code commands us to construe its provisions \u2018according to the fair import of their terms, with a view to effect its objects and to promote justice\u2019 (Pen. Code, \u00a7 4), it is clear the courts cannot go so far as to create an offense by enlarging a statute, by inserting or deleting words, or by giving the terms used false or unusual meanings. [Citation.] Penal statutes will not be made to reach beyond their plain intent; they include only those offenses coming clearly within the import of their language. [Citation.]\u201d (Keeler v. Superior Court (1970) 2 Cal.3d 619, 632 [87 Cal.Rptr. 481, 470 P.2d 617].)\nThose well-established principles of statutory construction have been aptly restated: \u201cWhen the government requires its citizens to do something under threat of penal consequence, its pronouncement must be clear. A citizen is not obligated to guess what conduct is required or suffer a criminal penalty if he divines wrongly. He is required to do what the law says, but no more. ... If the Legislature wants to clarify its requirement, it is certainly free to do so. We are not empowered to criminalize conduct by judicial ukase, or to punish that which the Legislature has not brought within its penal reach. To attempt to do so is a violation of the separation of powers provision of the California Constitution.\u201d (People v. Kroncke (1999) 70 Cal.App.4th 1535, 1558-1559 [83 Cal.Rptr,2d 493] (cone. & dis. opn. of Corrigan, Acting P. J.).)\nThe majority considers it significant that since Bradshaw, supra, 31 Cal.App.3d 421 was decided, the Legislature has amended the pandering statute six times, without abrogating the Bradshaw holding. This inaction by the Legislature, the majority asserts, indicates legislative acquiescence in this holding. (Maj. opn., ante, at pp. 975-976.) But, as noted recently, this court is reluctant \u201c \u2018to draw conclusions concerning legislative intent from legislative silence or inaction.\u2019 \u201d (People v. Farley, supra, 46 Cal.4th at p. 1120.) A court\u2019s decision that, like Bradshaw, is not grounded on sound legal principles (see p. 983, ante) cannot acquire legal soundness simply through the Legislature\u2019s lack of action to abrogate the decision.\nThe majority tries to justify its holding by relying on a rule of statutory construction that words of a statute are to be construed in context. The statutory provision at issue prohibits encouraging \u201canother person to become a prostitute.\u201d The majority notes that the statute\u2019s other subdivisions also use the term \u201canother person.\u201d The majority states:\n\u201cConsidering subdivision (a)(2) in the context of the other provisions of the statute reveals that the intent and purpose behind section 266i, subdivision (a)(2) is to prohibit a person from encouraging a prostitute to work under his aegis or that of someone else, regardless whether the target being solicited is already a working prostitute.\n\u201cSubdivision (a) contains six subparts. As noted, subdivision (a)(2), proscribes conduct that \u2018[b]y promises, threats, violence, or by any device or scheme, causes, induces, persuades, or encourages another person to become a prostitute.\u2019 (\u00a7 266i, subd. (a)(2).)\n\u201cSubdivision (a)(1) criminalizes the \u2018[p]rocur[ing of] another person for the purpose of prostitution.\u2019 (\u00a7 266i, subd. (a)(1), italics added.) Whether taken literally or figuratively, there is no reason to conclude the term \u2018another person\u2019 as used in subdivision (a)(1) would not encompass both prostitutes and nonprostitutes, as either can plainly be \u2018procured\u2019 for the purpose of prostitution.\n\u201cSubdivision (a)(3) criminalizes \u2018[p]rocur[ing] for another person a place as an inmate in a house of prostitution or as an inmate of any place in which prostitution is encouraged or allowed within this state.\u2019 (\u00a7 266i, subd. (a)(3), italics added.) Here again, the term \u2018another person\u2019 encompasses all persons, regardless of their current employment pursuits.\n\u201cSubdivision (a)(4) criminalizes conduct that \u2018[b]y promises, threats, violence, or by any device or scheme, causes, induces, persuades, or encourages an inmate of a house of prostitution, or any other place in which prostitution is encouraged or allowed, to remain therein as an inmate.\u2019 (\u00a7 266i, subd. (a)(4), italics added.) Subdivision (a)(4) does not use the term \u2018another person.\u2019 But it specifically proscribes targeting those who are already in \u2018a house of prostitution.\u2019 In short, subdivision (a)(4) applies to active prostitutes.\n\u201cSubdivision (a)(5) criminalizes conduct that \u2018[b]y fraud or artifice, or by duress of person or goods, or by abuse of any position of confidence or authority, procures another person for the purpose of prostitution, or to enter any place in which prostitution is encouraged or allowed within this state, or to come into this state or leave this state for the purpose of prostitution.\u2019 (\u00a7 266i, subd. (a)(5), italics added.) Once again, the term \u2018another person,\u2019 as used in subdivision (a)(5), applies to any solicited target, active prostitute or otherwise.\n\u201cFinally, subdivision (a)(6) authorizes the prosecution of anyone who \u2018[Receives or gives, or agrees to receive or give, any money or thing of value for procuring, or attempting to procure, another person for the purpose of prostitution, or to come into this state or leave this state for the purpose of prostitution.\u2019 (\u00a7 266i, subd. (a)(6), italics added.) The term \u2018another person\u2019 as used in this subdivision also applies to any victim, regardless whether that victim is already acting as a prostitute.\u201d (Maj. opn., ante, at pp. 977-978.)\nI disagree with the majority that its construction of section 266i\u2019s subdivision (a)(2) finds support in the statute\u2019s other subdivisions. Reading subdivision (a)(2) in context with the statute\u2019s other subdivisions readily shows that those other subdivisions, which pertain generally to procuring \u201canother person for the purpose of prostitution,\u201d have no bearing on subdivision (a)(2)\u2019s language prohibiting encouragement of \u201canother person to become a prostitute.\u201d (Italics added.)\nThe Court of Appeal held that because, unlike the person solicited in Wagner, supra, 170 Cal.App.4th 499, here the person solicited by defendant (Officer Cruz, working undercover) was not a prostitute, it need not assess the merits of the holding in Wagner that section 266i\u2019s subdivision (a)(2) is inapplicable when the person solicited is already a prostitute. In affirming defendant\u2019s conviction, however, the Court of Appeal overlooked the requisite intent for violating the statute. As explained below, defendant lacked that intent.\nIV\nDefendant mistakenly thought that Officer Cruz, working undercover, was a prostitute. A mistake of fact that disproves the required intent for a crime is a defense to criminal liability. (\u00a7 26, class Three; In re Jennings (2004) 34 Cal.4th 254, 277 [17 Cal.Rptr.3d 645, 95 R3d 906].) As the majority acknowledges, pandering is a specific intent crime. (Maj. opn., ante, at p. 980.) Accordingly, a violation of the pandering statute (\u00a7 266i, subd. (a)(2)) requires a defendant to have the \u201c \u2018specific intent to influence a person to become a prostitute\u2019 \u201d (maj. opn., ante, at p. 980, quoting People v. Mathis (1985) 173 Cal.App.3d 1251, 1256 [219 Cal.Rptr. 693]). Under the majority\u2019s view that the statutorily prohibited conduct of encouraging another \u201cto become a prostitute\u201d also applies to encouraging a person who is already a prostitute \u201cto become\u201d a prostitute, defendant\u2019s mistaken belief that Officer Cruz was in fact a prostitute has no bearing on the issue of specific intent. In my view, however, a defendant who, as here, solicits an undercover police officer in the mistaken belief that the officer is a prostitute lacks the specific intent to violate section 266i, subdivision (a)(2), which prohibits encouraging another person \u201cto become a prostitute.\u201d Because the undisputed evidence shows that defendant must have mistakenly believed that Officer Cruz was a prostitute, defendant lacked the specific intent to support the conviction under section 266i, subdivision (a)(2). By nonetheless affirming his conviction, the Court of Appeal erred.\nUnlike the majority, I would reverse the judgment of the Court of Appeal, which affirmed the trial court\u2019s judgment of conviction.",
+        "type": "dissent",
+        "author": "KENNARD, J., Dissenting."
+      },
+      {
+        "text": "WERDEGAR, J., Dissenting.\nI respectfully dissent. The unambiguous language of Penal Code section 266i, subdivision (a)(2) precludes the application of that particular subdivision to those, like the undercover police officer here, whom the defendant believes already to be a prostitute. One simply cannot \u201cbecome\u201d what one already is, and if, as the majority holds, the statute requires the specific intent \u201cto persuade or otherwise influence the target \u2018to become a prostitute\u2019 \u201d (maj. opn., ante, at p. 980), defendant cannot be convicted under this subdivision for attempting to recruit into his service a woman the evidence showed he believed already to be engaged in the business of prostitution.\nThis is not to say the majority is necessarily wrong about the legislative intent behind the statute. As the majority observes (maj. opn., ante, at pp. 977-978), the antipandering provisions of Penal Code section 266i, subdivision (a) cover a broad range of conduct, including much that ordinarily would involve persons already working as prostitutes. (See id., subd. (a)(1) [procuring a person for prostitution], (4) [persuading a person to remain an inmate of a house of prostitution], (5) [procuring a person for prostitution or inducing a person to travel for that purpose, by fraud or duress], (6) [giving or taking payment for procuring].) Reading the statute as a whole, the legislative concern clearly extends to the promotion of the prostitution business generally and is not limited to schemes that induce new people to join that business.\nIn subdivision (a)(2) of Penal Code section 266i, however, the Legislature used clear and unambiguous language that does not extend as far as its evident intent in the pandering statute as a whole, but rather is restricted to those who are not, and are not believed by the defendant to be, already regularly engaged in prostitution. \u201cBut when, as here, the statutory language is clear and unambiguous, to [construe the language according to an intent it does not express] is to assert, in effect, that the language can be\" corrected on the ground it resulted from a drafting error. Courts should use this power to rewrite statutes \u2018with great restraint,\u2019 only where \u2018the error is clear and correction will best cany out the intent of the Legislature.\u2019 (Bonner v. County of San Diego (2006) 139 Cal.App.4th 1336, 1346, fn. 9 [44 Cal.Rptr.3d 116].) In the present case, I cannot be sure the language of [Penal Code section 266i, subdivision (a)(2)] resulted from a drafting error. While the language is [arguably] contrary to the overall purposes of the [pandering statute], its inclusion may have been the product of conceptual confusion or failure to fully consider the problem rather than an error in the drafting process itself.\u201d (Miklosy v. Regents of University of California (2008) 44 Cal.4th 876, 905 [80 Cal.Rptr.3d 690, 188 P.3d 629] (conc. opn. of Werdegar, J.).) In construing criminal statutes, especially, we should be cautious about crossing the line between interpretation and revision. Whether to broaden criminal prohibitions beyond their existing statutory limits \u201cis a legislative call, not a judicial one.\u201d (People v. Wagner (2009) 170 Cal.App.4th 499, 510 [87 Cal.Rptr.3d 881].)\nI agree with the unanimous court in People v. Wagner, supra, 170 Cal.App.4th 499, that the unambiguous language of Penal Code section 266i, subdivision (a)(2) restricts its application to targets who are not already working as prostitutes. I would leave it to the Legislature to correct what may well have been an unintentional limitation on the scope of a criminal prohibition.",
+        "type": "dissent",
+        "author": "WERDEGAR, J., Dissenting."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Vanessa Place, under appointment by the Supreme Court, for Defendant and Appellant.",
+      "Edmund G. Brown, Jr., and Kamala D. Harris, Attorneys General, Dane R. Gillette, Chief Assistant Attorney General, Pamela C. Hamanaka, Assistant Attorney General, Paul M. Roadarmel, Jr., Scott A. Taryle, Lawrence M. Daniels and Rama R. Maline, Deputy Attorneys General, for Plaintiff and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. S173490.\nJune 2, 2011.]\nTHE PEOPLE, Plaintiff and Respondent, v. JOMO ZAMBIA, Defendant and Appellant.\nCounsel\nVanessa Place, under appointment by the Supreme Court, for Defendant and Appellant.\nEdmund G. Brown, Jr., and Kamala D. Harris, Attorneys General, Dane R. Gillette, Chief Assistant Attorney General, Pamela C. Hamanaka, Assistant Attorney General, Paul M. Roadarmel, Jr., Scott A. Taryle, Lawrence M. Daniels and Rama R. Maline, Deputy Attorneys General, for Plaintiff and Respondent."
+  },
+  "file_name": "0965-01",
+  "first_page_order": 1003,
+  "last_page_order": 1026
+}

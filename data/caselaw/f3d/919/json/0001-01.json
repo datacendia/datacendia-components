@@ -1,0 +1,990 @@
+{
+  "id": 12520493,
+  "name": "UNITED STATES of America, Appellee, v. Brad SMITH, Defendant, Appellant.",
+  "name_abbreviation": "U.S. v. Smith",
+  "decision_date": "2019-03-15",
+  "docket_number": "No. 18-1109",
+  "first_page": "1",
+  "last_page": "17",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "919 F.3d 1"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "1st Cir.",
+    "id": 8809,
+    "name": "United States Court of Appeals for the First Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "829 F.3d 47",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4340710
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "51",
+          "parenthetical": "stating that \"the defendant carries the burden of making a threshold showing that he has a reasonable expectation of privacy in the area searched and in relation to the items seized.\" (internal quotation marks and citations omitted) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/829/0047-01"
+      ]
+    },
+    {
+      "cite": "818 F.3d 988",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4250684
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "994-95"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/818/0988-01"
+      ]
+    },
+    {
+      "cite": "874 F.3d 1",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12263317
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "12-13",
+          "parenthetical": "quotation marks, alteration, and citation omitted"
+        },
+        {
+          "page": "13",
+          "parenthetical": "discussing generally who may contest governmental property invasions and noting that an \"overnight guest\" can contest a search of the home"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/874/0001-01"
+      ]
+    },
+    {
+      "cite": "850 F.3d 1274",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12277904
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1284"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/850/1274-01"
+      ]
+    },
+    {
+      "cite": "2009 WL 4730180",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2009,
+      "opinion_index": 0
+    },
+    {
+      "cite": "99 L.Ed. 905",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "year": 1955,
+      "opinion_index": 0
+    },
+    {
+      "cite": "349 U.S. 81",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11333568
+      ],
+      "weight": 2,
+      "year": 1955,
+      "pin_cites": [
+        {
+          "page": "84"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/349/0081-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 922",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(g)(1)"
+        },
+        {
+          "page": "298"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "196 F.3d 294",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11554481
+      ],
+      "year": 1999,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/196/0294-01"
+      ]
+    },
+    {
+      "cite": "144 F. App'x 610",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        680511
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "614-15",
+          "parenthetical": "unpublished"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/144/0610-01"
+      ]
+    },
+    {
+      "cite": "832 F.2d 531",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10546290
+      ],
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "542"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/832/0531-01"
+      ]
+    },
+    {
+      "cite": "432 U.S. 137",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6177531
+      ],
+      "weight": 4,
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "155",
+          "parenthetical": "plurality opinion"
+        },
+        {
+          "parenthetical": "plurality opinion"
+        },
+        {
+          "parenthetical": "plurality opinion"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/432/0137-01"
+      ]
+    },
+    {
+      "cite": "678 F.3d 96",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3872827
+      ],
+      "weight": 2,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "100-01"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/678/0096-01"
+      ]
+    },
+    {
+      "cite": "875 F.3d 26",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12263382
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "32",
+          "parenthetical": "citations omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/875/0026-01"
+      ]
+    },
+    {
+      "cite": "684 F.3d 265",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5879762
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "272"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/684/0265-01"
+      ]
+    },
+    {
+      "cite": "806 F.3d 671",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4356668
+      ],
+      "weight": 2,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "675"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/806/0671-01"
+      ]
+    },
+    {
+      "cite": "547 U.S. 586",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3276422
+      ],
+      "weight": 3,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "592"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/547/0586-01"
+      ]
+    },
+    {
+      "cite": "131 S.Ct. 1849",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        5911971,
+        12458997
+      ],
+      "weight": 6,
+      "pin_cites": [
+        {
+          "page": "469"
+        },
+        {
+          "page": "469-70"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/563/0452-01",
+        "/l-ed-2d/179/0865-01"
+      ]
+    },
+    {
+      "cite": "724 F.3d 15",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4067543
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "22",
+          "parenthetical": "\"[T]he law is ... clear that consent to a search is not invalid merely because it is secured by an officer's accurate assurance that there will soon be a lawful search anyway.\" (citations omitted) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/724/0015-01"
+      ]
+    },
+    {
+      "cite": "378 F. App'x 972",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        3905349
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "974",
+          "parenthetical": "unpublished"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/378/0972-01"
+      ]
+    },
+    {
+      "cite": "488 F. App'x 99",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        5743180
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "103",
+          "parenthetical": "unpublished"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/488/0099-01"
+      ]
+    },
+    {
+      "cite": "857 F.3d 27",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12276437
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "33"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/857/0027-01"
+      ]
+    },
+    {
+      "cite": "640 F.3d 428",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4204567
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "439",
+          "parenthetical": "\"[S]ome degree of deception [by law enforcement] during the questioning of a suspect is permissible.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/640/0428-01"
+      ]
+    },
+    {
+      "cite": "316 F.3d 40",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9375175
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "49"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/316/0040-01"
+      ]
+    },
+    {
+      "cite": "430 F.3d 274",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1594277
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "277"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/430/0274-01"
+      ]
+    },
+    {
+      "cite": "467 F.3d 1260",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3803222
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "1264-65"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/467/1260-01"
+      ]
+    },
+    {
+      "cite": "239 F.3d 716",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11076349
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "720"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/239/0716-01"
+      ]
+    },
+    {
+      "cite": "989 F.2d 546",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10514008
+      ],
+      "weight": 3,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "554-55"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/989/0546-01"
+      ]
+    },
+    {
+      "cite": "181 F.3d 1",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11658397
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "5",
+          "parenthetical": "quoting United States v. Barnett, 989 F.2d 546, 554-55 (1st Cir. 1993) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/181/0001-01"
+      ]
+    },
+    {
+      "cite": "480 U.S. 294",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1131408
+      ],
+      "weight": 5,
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "301"
+        },
+        {
+          "page": "302"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/480/0294-01"
+      ]
+    },
+    {
+      "cite": "466 U.S. 170",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6195904
+      ],
+      "weight": 3,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "179-82"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/466/0170-01"
+      ]
+    },
+    {
+      "cite": "569 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12696458
+      ],
+      "weight": 9,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "5",
+          "parenthetical": "quoting U.S. Const. amend. IV "
+        },
+        {
+          "parenthetical": "quoting U.S. Const. amend. IV "
+        },
+        {
+          "parenthetical": "quoting U.S. Const. amend. IV "
+        },
+        {
+          "page": "6"
+        },
+        {
+          "page": "6"
+        },
+        {
+          "page": "7"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/569/0001-01"
+      ]
+    },
+    {
+      "cite": "371 U.S. 471",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        450611
+      ],
+      "weight": 8,
+      "year": 1963,
+      "pin_cites": [
+        {
+          "page": "473-74"
+        },
+        {
+          "page": "488"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/371/0471-01"
+      ]
+    },
+    {
+      "cite": "349 F.3d 457",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9068164
+      ],
+      "weight": 2,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "464-65"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/349/0457-01"
+      ]
+    },
+    {
+      "cite": "499 F.3d 72",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3654510
+      ],
+      "weight": 2,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "77",
+          "parenthetical": "finding that defendant's third confession at new time and location constituted an intervening event"
+        },
+        {
+          "page": "77"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/499/0072-01"
+      ]
+    },
+    {
+      "cite": "335 F. App'x 936",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        4105212
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "939",
+          "parenthetical": "unpublished per curiam opinion"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/335/0936-01"
+      ]
+    },
+    {
+      "cite": "765 F.3d 938",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4185660
+      ],
+      "weight": 3,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "942",
+          "parenthetical": "\"[F]ifteen minutes is sufficient to demonstrate an attenuation of the illegality.\""
+        },
+        {
+          "page": "942",
+          "parenthetical": "internal quotation marks and citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/765/0938-01"
+      ]
+    },
+    {
+      "cite": "502 F.3d 1297",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5525180
+      ],
+      "weight": 5,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "1310",
+          "parenthetical": "internal citations omitted"
+        },
+        {
+          "page": "1311"
+        },
+        {
+          "page": "1311-12"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/502/1297-01"
+      ]
+    },
+    {
+      "cite": "786 F.3d 64",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4190678
+      ],
+      "weight": 3,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "76",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "76"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/786/0064-01"
+      ]
+    },
+    {
+      "cite": "422 U.S. 590",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9639
+      ],
+      "weight": 15,
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "603-04"
+        },
+        {
+          "page": "611"
+        },
+        {
+          "page": "603-04"
+        },
+        {
+          "page": "605"
+        },
+        {
+          "page": "593"
+        },
+        {
+          "page": "605"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/422/0590-01"
+      ]
+    },
+    {
+      "cite": "867 F.3d 244",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12275245
+      ],
+      "weight": 3,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "256",
+          "parenthetical": "quotation marks and citation omitted"
+        },
+        {
+          "page": "257"
+        },
+        {
+          "page": "257"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/867/0244-01"
+      ]
+    },
+    {
+      "cite": "497 U.S. 177",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6214176
+      ],
+      "weight": 3,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "181",
+          "parenthetical": "stating that the Fourth Amendment's prohibition on warrantless searches is inapplicable where voluntary consent has been obtained"
+        },
+        {
+          "parenthetical": "stating that the Fourth Amendment's prohibition on warrantless searches is inapplicable where voluntary consent has been obtained"
+        },
+        {
+          "parenthetical": "stating that the Fourth Amendment's prohibition on warrantless searches is inapplicable where voluntary consent has been obtained"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/497/0177-01"
+      ]
+    },
+    {
+      "cite": "612 F.3d 1",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3700633
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "4"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/612/0001-01"
+      ]
+    },
+    {
+      "cite": "909 F.3d 9",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12519337
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "16",
+          "parenthetical": "quoting United States v. Sanchez, 612 F.3d 1, 4 (1st Cir. 2010) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/909/0009-01"
+      ]
+    },
+    {
+      "cite": "551 F.3d 103",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5752419
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "106",
+          "parenthetical": "internal quotation marks and citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/551/0103-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 2251",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "(a)",
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1681,
+    "char_count": 45083,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25923094358010834
+    },
+    "sha256": "8cbcfb263084da3e98e854a6f18f7b95ce79aad750e5fec2d2dc8cfaa3f51653",
+    "simhash": "1:b863b5d2aaf52e21",
+    "word_count": 7322
+  },
+  "last_updated": "2024-02-27T18:46:33.646602+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Lynch, Stahl, and Barron, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Appellee,\nv.\nBrad SMITH, Defendant, Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "STAHL, Circuit Judge.\nThis appeal arises out of Defendant-Appellant Brad Smith's conviction for producing six videos depicting him sexually assaulting a three-year-old child. Smith challenges the district court's denial of his motion to suppress evidence recovered from his residence on a Louisiana pecan farm, including a laptop computer and two hard drives that contained the videos in question, as well as statements he made to law enforcement at the farm and during a later interrogation. He argued that law enforcement agents had violated his Fourth Amendment rights, and that he was coerced into consenting to the search of the residence. The district court disagreed, holding that there was no Fourth Amendment violation and that Smith knowingly and voluntarily consented to the search.\nAfter a short jury trial, Smith was convicted of six counts of violating 18 U.S.C. \u00a7 2251(a), the federal child pornography production statute. At sentencing, Smith argued that because the videos were taken during one continuous sexual assault, the charges were multiplicitous. The district court disagreed and ultimately sentenced Smith to a term of imprisonment of fifty years.\nOn appeal, Smith challenges both the district court's denial of his motion to suppress and his sentence. However, even assuming arguendo that the agents committed a Fourth Amendment violation at some point before encountering Smith on the pecan farm, we find that any prior illegality did not significantly influence or even play an important role in his subsequent consent to the search of his computer and hard drives. He voluntarily consented to the seizure of his computer and hard drives and his consent was not obtained by exploitation of any Fourth Amendment violation. In addition, we hold on the facts here that the proper unit of prosecution under Section 2251(a) is each video depicting the victim. Accordingly, and for the following reasons, we affirm.\nI. Factual Background\nWe recount the facts in two parts. First, we describe events occurring before the law enforcement agents' entry onto the pecan farm, which for purposes of this appeal are uncontested. Second, we recount the facts relevant to the motion to suppress, including the agents' entry onto the farm and subsequent seizure of Smith's computer and hard drives, \"as the trial court found them, consistent with record support.\" United States v. Andrade, 551 F.3d 103, 106 (1st Cir. 2008) (internal quotation marks and citation omitted). We describe further facts relevant to sentencing issues in that section.\nA. Events Leading Up to the Agents' Entry\nBeginning in 2010, Smith was employed at a concrete plant in New Hampshire by the victim's father. Over the next few years, Smith befriended the father and his family, and he occasionally performed repairs at their home. Smith also regularly came to the victim's home for holidays.\nSometime in early 2015, the father learned that Smith had misused company funds. The company's counsel and distribution manager recommended that Smith be terminated. However, the father instead decided to transfer Smith to work on a pecan farm in Breaux Bridge, Louisiana, that the victim's family owned.\nIn May 2015, before moving to Louisiana, Smith was working at the father's home. On May 25, during one of his visits, Smith used a pair of Google glasses to record six videos of him sexually assaulting the victim, who was then three years old. The videos depicted various sexual acts that occurred between roughly 12:43 p.m. and 1:49 p.m. In the immediate term, Smith remained on friendly terms with the father, who was unaware of either the assault on his child or the video recordings. In August 2015, Smith relocated to Louisiana to begin working on the pecan farm.\nMeanwhile, in September 2014, agents with the Department of Homeland Security's Immigration and Customs Enforcement Division (\"HSI\") obtained a search warrant in the Eastern District of Michigan to search the e-mail account pornloveporn@yahoo.com. HSI agents discovered that, in October 2013, that account had received an e-mail from the address smittyb172@yahoo.com (the \"Yahoo Account\") containing child pornography. In November 2015, Yahoo! provided law enforcement information pertaining to the Yahoo Account in response to an administrative subpoena and search warrant. From Yahoo!'s response, HSI agents discovered that the Yahoo Account was registered to Smith, and that he was residing in Louisiana at the pecan farm. HSI Special Agent Lance Lopez (\"Lopez\") led the investigation into Smith and worked with fellow HSI Special Agent Erol Catalan (\"Catalan\") and Louisiana State Police Investigator Georgiana Kibodeaux (\"Kibodeaux\").\nB. The Agents' Entry onto the Pecan Farm and Subsequent Events\nThe pecan farm abuts a state highway just outside the city limits of Breaux Bridge, Louisiana. The farm itself has a see-through perimeter fence that runs parallel to the highway. A driveway leads from the highway to the residential areas of the farm, and the entrance to that driveway is gated at the highway. The gate runs wider than the driveway and consists of two metal sections that meet in the center. To open the gate, a person would have to enter a code on a keypad located on a nearby pole outside the fence. The code was not posted, although at all relevant times, there was a sign near the gate carrying a phone number with a New Hampshire area code to call for \"deliveries.\" There were no other signs on or around the front gate.\nThe gate controls access to a driveway that runs through adjacent pecan fields for 300 to 500 feet. The farm's primary residence and an adjacent smaller secondary residence lie to the right of the driveway just before it terminates in a wider paved area. A paved footpath travels from the driveway to the front porch of the main residence. A solid six-foot tall wooden privacy fence extends from both sides of the primary residence. Viewing the primary residence from the driveway, the privacy fencing extended a short distance from the left side of the primary residence to a nearby carport. From the right side of the primary residence, the privacy fencing extends farther and encloses a larger area behind the home, including the secondary residence. The carport consists of a large, roofed structure with partially enclosed sides, and covers a portion of the paved area at the end of the driveway. The carport was located next to the primary residence and nearby a workshop. Smith resided in the secondary residence.\nIn early January 2016, Lopez surveilled the pecan farm. Following one of his reconnaissance visits, Lopez called the phone number posted near the gate for deliveries, pretending to be a schoolteacher interested in a tour of the farm. A male identifying himself as Smith answered the phone, but responded that the owner of the property was not currently giving tours.\nOn January 12, 2016, Lopez and a local Assistant United States Attorney discussed the possibility of obtaining a search warrant for the pecan farm and residences. However, they concluded that the evidence from the Yahoo Account was too stale for a warrant. Therefore, Lopez decided to instead attempt a \"knock and talk\" entry onto the property.\nIn the early afternoon of January 14, 2016, Lopez, Catalan, and Kibodeaux approached the gate in a truck. They initially called the \"deliveries\" number several times, but nobody answered. Lopez and Kibodeaux, on foot, then \"stepped through the gate.\" This required Kibodeaux and Lopez to \"duck[ ] down\" and pass between the top and middle bars forming the gate. Lopez testified that this crossing was \"like ... [going] through a barbed wire fence.\" When the district court asked Lopez about what appeared to be a gap \"meant for people to pass through\" -- a short length between the two sections of the gate that lacked a top bar -- Lopez clarified that the gap was not wide enough for either agent. After crossing through, Kibodeaux and Lopez realized that, when pushed, the two gate sections could be separated far enough for Kibodeaux to fit through. Catalan stayed behind and waited by the gate in his truck.\nLopez and Kibodeaux walked down the driveway and knocked on the door to the primary residence (but not the secondary residence, where Smith resided), but nobody answered. As the agents walked back to the driveway, they heard machinery operating behind the carport. The agents then walked to the carport and saw two individuals: a male (later identified as Smith) and a female working in a pecan field behind the carport. Lopez waved his arms to draw their attention and flagged Smith over.\nNeither the record nor the district court's decision indicate precisely where exactly Smith and the agents first met. It appears, however, that Lopez walked a few feet off the carport's concrete padding towards Smith, while Smith simultaneously walked towards Lopez. Smith, Lopez, and Kibodeaux then moved to the driveway.\nAt that point, Lopez identified himself as an HSI agent, and Kibodeaux as a Louisiana State Police investigator. Lopez (falsely) told Smith that they were there to investigate potential illegal immigrants working at the farm. Lopez also requested that Smith provide the gate code so that Catalan could drive the truck up the driveway and join them. Smith provided Lopez the code, which Catalan used to open the gate. Catalan then drove the truck onto the driveway and parked near the carport.\nSoon afterwards, Lopez asked Smith for his driver's license and e-mail address. Smith provided his license and the e-mail address \"smittyb172@gmail.com,\" which had the same username as the account linked to the child pornography investigation, but had a different webmail provider. Lopez then asked if Smith had an alternate e-mail address, and Smith provided the Yahoo Account address. At that point, Lopez asked Smith if they could go into his residence to discuss additional matters, and Smith agreed. The woman who had been standing with Smith when the agents first saw him did not join them.\nOnce inside the secondary residence, Lopez asked Smith whether he looked at pornography, to which Smith responded yes. Lopez then asked whether Smith had come across and downloaded child pornography, and Smith replied that he had accidentally downloaded it on several occasions. Lopez then asked if the computer on which Smith downloaded the pornography was inside the residence. Smith admitted it was, and stated that it was his practice to download the pornography and then move it into another folder to delete it. He further admitted that the computer still had child pornography files on it. Kibodeaux recalled that while Smith was \"embarrassed\" during this conversation, \"[h]e was not resistant.\"\nAfter Smith admitted to possessing child pornography, Lopez asked Smith if he would consent to a search of his computer. Lopez also read aloud a consent to search form. Smith demurred, asking what would happen if he refused to grant consent. Kibodeaux replied that it was his right to refuse consent, but that the agents could detain the computer based on his admission that he had downloaded child pornography on it, and that they would apply for a warrant. Although Smith did not sign the form at this time, he then verbally consented to the search.\nWhen Kibodeaux went to retrieve the computer from the residence's second floor, she found two additional hard drives near the computer. Kibodeaux brought both the laptop and hard drives downstairs. At that point, Smith asked whether he should stop speaking with law enforcement, and the agents replied that he could stop the conversation at any time. Smith then verbally consented to the search of the hard drives as well. Kibodeaux recalled that Smith's \"demeanor was the same throughout the entire interview[, both] outside and inside [his residence]. He was cordial and ... cooperative [when] speaking with [the agents].\"\nAfter seizing the computer and hard drives, Lopez filled out a property receipt for Smith. Smith also signed the consent to search form that Lopez had read aloud earlier. Lopez further asked whether Smith would come with the agents to the local HSI office, but Smith declined. Before departing, however, Catalan and Kibodeaux noticed a picture of two young children on Smith's refrigerator. When the officers asked Smith about the children in the picture, Smith gave the officers their names and said that he was close with their family. The events at the pecan farm took approximately forty-five minutes to unfold.\nUpon returning to the local HSI office, Catalan attempted to access one of Smith's hard drives. However, the hard drive was password-protected, so Lopez called Smith to obtain the password, which Smith voluntarily provided. From that hard drive, Catalan retrieved several nude images of a young girl, later identified as the victim. In addition, Catalan recovered six videos depicting Smith sexually assaulting the victim. Catalan realized that the victim was one of the two children depicted in the picture on Smith's refrigerator.\nAfter finding the child pornography, Lopez and Kibodeaux developed a plan to have Smith come into the local state police station. Lopez called Smith and told him that there was nothing found on his devices and that he could pick up the computer and hard drives at the station. Once Smith arrived, however, Kibodeaux and three other officers detained him and told him that he was not free to leave. Kibodeaux brought Smith into an interview room and read him his Miranda rights. Smith waived those rights only after asking several questions about them and having those questions answered by Kibodeaux.\nKibodeaux presented Smith with a still-shot photo from one of the videos. She further asked about the sexual assault depicted in the videos. Smith thereafter admitted to raping the victim and videotaping the assault on May 26, 2015. On the basis of this admission, law enforcement agents obtained a search warrant for Smith's residence. Agents further obtained an arrest warrant based on the videos.\nII. Procedural Background\nOn June 15, 2016, the government filed an indictment in the District of New Hampshire charging Smith with six counts of producing child pornography in violation of 18 U.S.C. \u00a7 2251(a). Each count corresponded to one of the videos Smith had produced on May 26, 2015.\nOn August 25, 2016, Smith filed a motion to suppress the bulk of the prosecution's evidence, including the videos of the assault and inculpatory statements made to Kibodeaux. He argued that law enforcement agents had violated his Fourth Amendment rights by entering the curtilage of his residence without a warrant, and that their unlawful entry and \"show of force\" coerced him into consenting to the seizure of his laptop and hard drives. He further insisted that statements made at his residence should be suppressed because he was not administered a Miranda warning beforehand and, additionally, that the information obtained was fruit of the poisonous tree -- namely, the agents' entry onto the curtilage.\nThe district court conducted an evidentiary hearing in two parts on February 3 and 22, 2017. After the hearing concluded, the district court orally denied the motion to suppress. As relevant here, the district court (1) found that the agents' entry onto the pecan farm was not unlawful because the place where they first encountered Smith and obtained his consent to enter his residence was not curtilage; (2) credited the testimony of Lopez, Kibodeaux, and Catalan regarding the sequence of events inside the residence; and (3) found that Smith had knowingly and voluntarily waived his Miranda rights when he confessed to the sexual assault.\nA three-day trial was held in early April 2017. The jury, after a relatively short deliberation, returned a guilty verdict on all counts. In competing sentencing memoranda, the parties disputed Smith's maximum possible sentence. Specifically, Smith argued that because the six charges stemmed from one continuous assault, the prosecution used the wrong unit of prosecution and the \"offenses charged ... merge for sentencing[.]\" Therefore, he reasoned, the statutory maximum penalty should be thirty years -- the maximum penalty for a first-time offender convicted of a single offense under Section 2251(a) -- rather than 180 years, or thirty years per conviction.\nThe district court disagreed, noting that the videos had depicted at least two distinct sexual assaults. Accordingly, it found that the maximum sentence that would not implicate the Double Jeopardy Clause was at least sixty years. It expressly declined to address Smith's argument concerning the proper unit of prosecution under Section 2251(a), but stated that it found opinions from other circuits holding that the proper unit was each visual depiction of the minor to be persuasive. It ultimately sentenced Smith to a term of imprisonment of thirty years on counts one through five, to be served concurrently. In addition, the court sentenced Smith to a term of imprisonment of thirty years on count six, which corresponded to a video depicting vaginal penetration. As to that count, ten years was to be served concurrently with counts one through five, and the remaining twenty years was to be served consecutively. Thus, the total sentence imposed was fifty years. This timely appeal followed.\nIII. Suppression Motion Analysis\n\"In reviewing the denial of a motion to suppress, [this] court accepts the district court's 'factual findings to the extent they are not clearly erroneous,' and 'review[s] its legal conclusions de novo.' \" United States v. Davis, 909 F.3d 9, 16 (1st Cir. 2018) (quoting United States v. Sanchez, 612 F.3d 1, 4 (1st Cir. 2010) ) (second alteration in original).\nIn his brief, Smith makes two primary arguments concerning the motion to suppress. First, he contends that law enforcement agents violated his Fourth Amendment rights when they entered the curtilage of his home to locate him. Specifically, he argues that the locked gate and the driveway through which the agents entered the farm were part of the curtilage of his residence, and that the locked gate at the entrance to the farm revoked any implied license of entry. Second, he contends that the constitutional violation, coupled with the agents' misrepresentations, were sufficiently coercive as to taint his consent to the search. We need not resolve the legality of the agents' entrance onto the pecan farm, their knocking on the door of the primary residence, or their presence on the part of the farm where they first encountered Smith because, even assuming that there was a constitutional violation, Smith's subsequent consent was voluntary and not tainted. See Illinois v. Rodriguez, 497 U.S. 177, 181, 110 S.Ct. 2793, 111 L.Ed.2d 148 (1990) (stating that the Fourth Amendment's prohibition on warrantless searches is inapplicable where voluntary consent has been obtained).\nA. Whether the Consent Was Tainted\nA defendant's consent to a search may be invalidated if it \"bear[s] a sufficiently close relationship to the underlying illegality.\" United States v. Delgado-P\u00e9rez, 867 F.3d 244, 256 (1st Cir. 2017) (quotation marks and citation omitted). To determine whether there was a sufficient nexus between the illegal act and the defendant's consent, this court considers the factors enumerated by the Supreme Court in Brown v. Illinois, 422 U.S. 590, 95 S.Ct. 2254, 45 L.Ed.2d 416 (1975). Delgado-P\u00e9rez, 867 F.3d at 257. Those factors are: (1) \"temporal proximity\" between the illegal act and the consent, (2) \"the presence of intervening circumstances,\" and (3) \"the purpose and flagrancy of the official misconduct.\" Brown, 422 U.S. at 603-04, 95 S.Ct. 2254. \"And, where, as here, an earlier unlawful search is alleged to have tainted consent that is given later, we have 'emphasized the importance of determining whether the prior illegality significantly influenced or played a significant role in the subsequent consent.' \" Delgado-P\u00e9rez, 867 F.3d at 257 (quoting United States v. Cordero-Rosario, 786 F.3d 64, 76 (1st Cir. 2015) (internal quotation marks omitted) ).\n1. Temporal Proximity\n\"There is no bright-line rule defining the temporal factor. But, if the period of time is extremely short, this factor weighs in favor of exclusion. By contrast, a longer interval obviously weighs in favor of admissibility.\" United States v. Delancy, 502 F.3d 1297, 1310 (11th Cir. 2007) (internal citations omitted). Smith contends that he consented to the search of his computer and hard drives within approximately twenty minutes of the agents' arrival. On that basis alone, he argues that \"the temporal proximity factor weighs heavily in favor of finding no attenuation.\"\nIt is unclear from the record exactly when Smith consented to the search of his computer and hard drives. In the intervening time from when law enforcement first approached Smith and when consent was given, the agents and Smith talked briefly outside the carport, walked to the secondary residence, and had a conversation inside that residence in which Smith admitted to possessing child pornography. Presumably, this sequence of events took, at minimum, several minutes to unfold. At least two circuits have suggested that this length of time can constitute sufficient attenuation. See United States v. Whisenton, 765 F.3d 938, 942 (8th Cir. 2014) (\"[F]ifteen minutes is sufficient to demonstrate an attenuation of the illegality.\"); United States v. Myers, 335 F. App'x 936, 939 (11th Cir. 2009) (unpublished per curiam opinion) (finding ten minutes sufficient attenuation where, as here, the defendant was not handcuffed or detained and law enforcement agents were polite and non-threatening). Because the district court never made a finding concerning the amount of time that had elapsed, we are limited in our ability to analyze this factor. However, we need not definitively resolve this issue because \"[o]n these facts ... timing is not the most important factor.\" Delancy, 502 F.3d at 1311.\n2. Intervening Circumstances\nWe turn then to intervening circumstances, \"or events that interrupt the causal connection between the illegal act and the possibly tainted consent or confession.\" Id. (citing Brown, 422 U.S. at 611, 95 S.Ct. 2254 (Powell, J., concurring in part) ). \"The presence of intervening circumstances that provide the defendant an opportunity to pause and reflect, to decline consent, or to revoke consent help demonstrate that the illegality was attenuated.\" Whisenton, 765 F.3d at 942 (internal quotation marks and citation omitted).\nHere, there was an important intervening circumstance -- namely Agent Lopez's recitation of the consent to search form.\nAfter the recitation, Smith did not immediately grant consent to search his computer and hard drives; instead, he asked about the consequences of refusing consent. Kibodeaux accurately replied that while Smith could refuse consent, the agents could detain the computer based on his admission that it contained child pornography while they applied for a warrant. This clearly shows that Smith was given \"an opportunity to pause and reflect\" and that he was cognizant of the importance of consent. Whisenton, 765 F.3d at 942 ; (internal quotation marks and citation omitted) cf. also United States v. Stark, 499 F.3d 72, 77 (1st Cir. 2007) (finding that defendant's third confession at new time and location constituted an intervening event). Although Smith did not sign the consent to search form until after the officers had seized his computer and hard drives and the search was completed, that does not alter our conclusion that he was, or should have been, fully aware of his constitutional rights at the time of his granting consent. See Delancy, 502 F.3d at 1311-12. Accordingly, this factor weighs in the government's favor. See id.\n3. Purpose and Flagrancy of the Misconduct\nFinally, we consider the third factor: \"the purpose and flagrancy of the official misconduct in question.\" Cordero-Rosario, 786 F.3d at 76 (citing Brown, 422 U.S. at 603-04, 95 S.Ct. 2254 ). We have stated that this factor \"is the most important part of the analysis 'because it is tied directly to the rationale underlying the exclusionary rule, deterrence of police misconduct.' \" Stark, 499 F.3d at 77 (quoting United States v. Reed, 349 F.3d 457, 464-65 (7th Cir. 2003) ). \"In analyzing this factor, courts look to see whether: (a) the police used threatening or abusive tactics; (b) the 'impropriety of the [initial misconduct] was obvious'; and (c) the initial search was a mere evidence expedition calculated to elicit a confession.\" Id. (quoting Brown, 422 U.S. at 605, 95 S.Ct. 2254 ).\nHere, there is no evidence that law enforcement used threatening or abusive tactics to obtain Smith's consent to search the computer and hard drives. The agents' conduct is a far cry from the extreme tactics the Supreme Court deemed coercive in Brown and Wong Sun v. United States, 371 U.S. 471, 83 S.Ct. 407, 9 L.Ed.2d 441 (1963). In Brown, two officers broke into and searched the defendant's apartment without probable cause. 422 U.S. at 593, 95 S.Ct. 2254. When the defendant returned, the officers held him at gunpoint and arrested him merely for \"questioning\" or \"investigation.\" Id. at 605, 95 S.Ct. 2254. Similarly, in Wong Sun, six or seven officers broke into a defendant's residence and arrested him without probable cause. 371 U.S. at 473-74, 83 S.Ct. 407. In addition, one officer had pointed a pistol at him. See id. By contrast, the record in this case shows that the agents were professional and polite throughout their interactions with Smith. The agents did not enter Smith's home or the area immediately surrounding it within the privacy fence until Smith expressly granted consent to do so, and Smith was not arrested until he later confessed at the local police station to filming and committing the sexual assault. In a similar vein, there is no evidence that the agents' entry onto the farm was a mere fishing expedition to elicit a confession.\nMore importantly, however, the alleged illegality of the agents' entry onto the farm was far from obvious. \"The Fourth Amendment provides in relevant part that the 'right of the people to be secure in their persons, houses, papers, and effects, against unreasonable searches and seizures, shall not be violated.' \"\nFlorida v. Jardines, 569 U.S. 1, 5, 133 S.Ct. 1409, 185 L.Ed.2d 495 (2013) (quoting U.S. Const. amend. IV ). However, the Fourth Amendment does not \"prevent all investigations conducted on private property.\" Id. at 6, 133 S.Ct. 1409. Rather, at its \"very core\" it protects the home and its curtilage, or the area \"immediately surrounding and associated with the home.\" Id. at 6, 133 S.Ct. 1409. By contrast, as a general matter, the Fourth Amendment does not prohibit government intrusion into activities occurring in \"open fields.\" Oliver v. United States, 466 U.S. 170, 179-82, 104 S.Ct. 1735, 80 L.Ed.2d 214 (1984).\nThe Supreme Court has provided a four-part test to determine whether an area is part of the curtilage. Those factors are: (1) \"the proximity of the area claimed to be curtilage to the home\"; (2) \"whether the area is included within an enclosure surrounding the home\"; (3) \"the nature of the uses to which the area is put\"; and (4) \"the steps taken by the resident to protect the area from observation by people passing by.\" United States v. Dunn, 480 U.S. 294, 301, 107 S.Ct. 1134, 94 L.Ed.2d 326 (1987).\nAs discussed earlier, the site of the agents' initial encounter with Smith was somewhere on or near the driveway behind the carport in an area adjacent to a pecan field. It appears from the record that this location was, at minimum, some distance away from Smith's home. It was not enclosed by the solid wood privacy fence surrounding the residences. And, given that Smith was working in a pecan field when the agents first encountered him, the area was \"not being used for intimate activities of the home.\" Id. at 302, 107 S.Ct. 1134. We need not, and do not purport to, decide whether that area, or the part of the driveway where the agents first entered the farm, was part of the curtilage. However, given these considerations, even assuming that this location was part of the curtilage to Smith's residence, it was not clearly so. Accordingly, the agents' entry cannot be characterized as a purposeful and flagrant violation of Smith's Fourth Amendment rights. See Cordero-Rosario, 786 F.3d at 76.\nWeighing the three Brown factors as a whole, even if one were to assume that the agents' initial entry onto the pecan farm or their knocking on the door of the primary residence on the farm was unlawful, we find that it did not taint Smith's later consent to the search of his computer and hard drives.\nB. Voluntariness\nIn his brief, Smith separately attacks the district court's determination that his consent and statements made to law enforcement agents in the residence were voluntarily given. \"The determination of voluntariness 'turns on an assessment of the totality of the circumstances.' \" United States v. Forbes, 181 F.3d 1, 5 (1st Cir. 1999) (quoting United States v. Barnett, 989 F.2d 546, 554-55 (1st Cir. 1993) ). \"We review [the district court's] determination that consent was voluntary for clear error.\" Id. (citing Barnett, 989 F.2d at 556 ).\nSmith first claims that the \"most prominent coercive tactic in this case was the agents' surprise unlawful entry to the property.\" Specifically, he faults the agents for failing to contact him by phone on the day of the search and not exploring less intrusive means of obtaining consent to enter the farm or search his computer and hard drives. However, that argument is belied by the record. The agents did in fact call the \"deliveries\" number several times, but nobody answered. There is no evidence to suggest that their subsequent entry was anything but a faithful attempt to conduct a \"knock and talk,\" which multiple federal appellate courts have found to be a \"reasonable investigative tool.\" United States v. Jones, 239 F.3d 716, 720 (5th Cir. 2001) ; see also United States v. Cruz-Mendez, 467 F.3d 1260, 1264-65 (10th Cir. 2006) ; United States v. Thomas, 430 F.3d 274, 277 (6th Cir. 2005). And, as explained earlier, even assuming arguendo that the gate revoked the implied license of entry and that the entry onto the front steps of the primary residence was problematic, any resulting Fourth Amendment violation did not affect Smith's subsequent grant of consent to enter his home or search his computer and hard drives.\nSmith also complains that the agents used a ruse -- Agent Lopez's admittedly false statement that he was investigating possible illegal immigrants -- when first approaching him. However, this court has stated that law enforcement is permitted to engage in basic \"manipulative behavior,\" such as \"insincere friendliness which successfully induces a criminal suspect to willingly answer questions and/or consent to a search,\" so long as it does not impact the defendant's voluntary relinquishment of a right. United States v. Hornbecker, 316 F.3d 40, 49 (1st Cir. 2003) ; cf. also United States v. Hughes, 640 F.3d 428, 439 (1st Cir. 2011) (\"[S]ome degree of deception [by law enforcement] during the questioning of a suspect is permissible.\"). Here, Agent Lopez's minor deception at most helped facilitate a conversation with Smith. After Smith had invited the agents into his home, Lopez dispensed with the facade. By the time Smith was asked to consent to the search of the computer and hard drives, he was aware of the true reason for the agents' visit and their reasons for seeking to search his computer. Therefore, we agree with the district court that the \"immigrant worker ruse\" is not constitutionally offensive.\nIn his brief, Smith also takes issue with Kibodeaux's statement that the agents could seize the computer regardless of whether he consented. As noted above, Kibodeaux represented that law enforcement could detain the computer based on Smith's admission that it contained child pornography. It is well established that the threat of destruction of evidence is an exigent circumstance that permits law enforcement to conduct a warrantless seizure of property. See United States v. Almonte-Baez, 857 F.3d 27, 33 (1st Cir. 2017). Given the possibility that Smith would seek to wipe the child pornography from his computer and hard drives in the agents' absence, Kibodeaux's statement was correct. See id.; accord United States v. Bradley, 488 F. App'x 99, 103 (6th Cir. 2012) (unpublished); United States v. Vallimont, 378 F. App'x 972, 974 (11th Cir. 2010) (unpublished). Therefore, the statement does not invalidate the voluntariness of Smith's consent. See United States v. Vazquez, 724 F.3d 15, 22 (1st Cir. 2013) (\"[T]he law is ... clear that consent to a search is not invalid merely because it is secured by an officer's accurate assurance that there will soon be a lawful search anyway.\" (citations omitted) ).\nTo get around this, Smith notes that the Supreme Court has stated that law enforcement cannot \"create the exigency by engaging or threatening to engage in conduct that violates the Fourth Amendment.\" King, 563 U.S. at 462, 131 S.Ct. 1849. He argues that the only reason he would have sought to delete the pornography was because of the agents' illegal entry onto the property. From this, he reasons that \"all evidence obtained as a result of [his] purported consent, including the videos and his subsequent [confession], should have been suppressed.\" However, \"exclusion may not be premised on the mere fact that a constitutional violation was a 'but-for' cause of obtaining evidence.\" Hudson v. Michigan, 547 U.S. 586, 592, 126 S.Ct. 2159, 165 L.Ed.2d 56 (2006) ; see also Garcia-Aguilar v. Lynch, 806 F.3d 671, 675 (1st Cir. 2015). Rather, \"there also must be some indication that government actors took advantage of the initial illegality to obtain the challenged evidence.\" Garcia-Aguilar, 806 F.3d at 675 (citing Wong Sun, 371 U.S. at 488, 83 S.Ct. 407 ). For largely the same reasons given in the previous section, we find that the agents did not take advantage of the alleged constitutional violation to obtain his consent to search the computer and hard drives.\nAccordingly, we find no error with the district court's determination that Smith's consent to enter his home and search his computer and hard drives was voluntary.\nIV. Sentencing Claim Analysis\nWe now turn to Smith's challenge to his fifty-year sentence. On appeal, Smith contends that his maximum sentence should have been thirty years, the maximum penalty for a single violation of Section 2251, because all six convictions stemmed from a \"single episode, at the same place within a short period of time with the same perpetrator and victim.\" In other words, he argues that the government used the wrong unit of prosecution such that his convictions were multiplicitous.\nA prosecution is multiplicitous when it charges a defendant more than once \"for what is essentially a single crime.\" United States v. Chiaradio, 684 F.3d 265, 272 (1st Cir. 2012). \"The prohibition against multiplicitous prosecution derives from the Double Jeopardy Clause,\" which bars multiple punishments for the same offense. United States v. Gordon, 875 F.3d 26, 32 (1st Cir. 2017) (citations omitted). When a defendant levies a claim of multiplicity, a court \"must determine whether there is a sufficient factual basis to treat each count as separate.\" Id. (quoting United States v. Stefanidakis, 678 F.3d 96, 100-01 (1st Cir. 2012) ) (internal quotation marks omitted). Such a determination \"depends on whether Congress intended to punish separately each of the alleged violations.\" Id. (citing Jeffers v. United States, 432 U.S. 137, 155, 97 S.Ct. 2207, 53 L.Ed.2d 168 (1977) (plurality opinion) ). Because this issue turns on a question of statutory interpretation, our review is de novo. Id.\nIn support, Smith notes that the federal child pornography statute states as follows:\nAny person who employs, uses, persuades, induces, entices, or coerces any minor to engage in ... any sexually explicit conduct for the purpose of producing any visual depiction of such conduct or for the purpose of transmitting a live visual depiction of such conduct, shall be punished as provided under subsection (e).\n18 U.S.C. \u00a7 2251(a) (emphasis added). He reasons that the videos depicted one continuous \"use\" of the victim, such that all six convictions should have merged for sentencing purposes.\nThe district court rejected this argument at sentencing, noting that multiple federal appellate courts have held that the proper unit of prosecution of Section 2251 was each image or video depicting the child, not each \"use\" of the child. The district court also found that there were at least two discrete acts depicted in the videos. The court further noted that while the videos, each of which was approximately one minute long, were produced in a single session, their production took place over one hour and were interspersed. Therefore, the court concluded that a sentence of fifty years was constitutionally permissible.\nWe agree with the reasoning of the district court. Here, Smith produced six separate videos over the course of an hour, each made at a different time and depicting a discrete sexual act. Section 2251 criminalizes the use of a \"minor to engage in, any sexually explicit conduct for the purpose of producing any visual depiction of such conduct.\" 18 U.S.C. \u00a7 2251(a) (emphasis added). \"The fact that multiple [videos] may have been sequentially produced during a single ... session is irrelevant. Each [video] depended upon a separate and distinct use of the children.\" United States v. Esch, 832 F.2d 531, 542 (10th Cir. 1987) ; see also United States v. Tashbook, 144 F. App'x 610, 614-15 (9th Cir. 2005) (unpublished). Thus, on the facts presented here, the six separate counts were not multiplicitous.\nIn his brief, Smith also argues that Section 2251 is unconstitutionally ambiguous. He relies on United States v. Verrecchia, 196 F.3d 294 (1st Cir. 1999), in which this court held that the simultaneous possession of multiple firearms by a felon constituted a single violation of the felon-in-possession statute, 18 U.S.C. \u00a7 922(g)(1). Id. at 298. In doing so, it stated that where the punishment for a federal offense is ambiguous, the doubt is \"resolved against turning a single transaction into multiple offenses.\" Id. (citing Bell v. United States, 349 U.S. 81, 84, 75 S.Ct. 620, 99 L.Ed. 905 (1955) ). Smith argues that the word \"any\" renders Section 2251(a) similarly ambiguous because it \"could be found to mean either a single instance of producing multiple images, or the many different images themselves.\"\nHowever, we see no ambiguity in Section 2251, nor does the sole case that Smith cites for the proposition that an ambiguity exists support his claim. In United States v. Coutentos, No. 09-cr-60-LRR, 2009 WL 4730180 (N.D. Iowa Dec. 3, 2009), the defendant had produced a single pornographic video depicting two children. The government brought two counts under Section 2251(a), and the defendant moved to strike one of the two counts. Id. at *1. The district court granted the motion, explaining that the indictment was multiplicitous because there was \"a single production of a single video.\" Id. at *2. Because Section 2251 is ambiguous as to whether \"each minor can serve as a unit of prosecution,\" the court applied the rule of lenity in favor of the defendant. Id. By contrast, here, Smith was charged with producing six separate videos. Accordingly, Coutentos, whether rightly or wrongly decided, does nothing to undermine our holding today.\nV. Conclusion\nFor the foregoing reasons, the district court's denial of the motion to suppress and the sentence that it imposed are AFFIRMED.\nIn a written memorandum explaining the denial of the motion to suppress, the district court stated that the driveway ran 300 to 500 yards. However, the district court's use of \"yards\" appears to have been in error, as none of the testimony supports the conclusion that the driveway traversed that distance.\n\"[T]he knock and talk rule permits the police to enter onto private land and knock on a citizen's door for legitimate police purposes, such as gathering information in an investigation,\" without a warrant. Young v. Borders, 850 F.3d 1274, 1284 (11th Cir. 2017).\nThe consent to search form is as follows:\nI, [name of person], have been asked to give my consent to the search of my computer/electronic equipment. I have also been informed of my right to refuse to consent to such a search.\nI herbey [sic] authorize [law enforcement] to conduct at any time a complete search of all computer/electronic equipment located at [my address]. These officers/agents are authorized by me to take from the above location, any computer(s), including internal hard drive(s), floppy diskettes, CD's, DVD's, any other electronic storage devices, including but not limited to, personal digital assistants, cellular telephones, pagers.\nI hereby consent to the search of the aforementioned items for any data or material which is contraband or evidence of a crime. I understand that this contraband or evidence may be used against me in a court of law.\nThis written permission is given by me voluntarily. I have not been threatened, placed under duress or promised anything in exchange for my consent. I have read this form, it has been read to me and I understand it. I understand the [English] language and have been able to communicate with the agents/officers.\nI understand that I may withdraw my consent at any time for any reason. I may also ask for a receipt for all items taken.\nThe record is unclear as to how Smith consented to the search. Kibodeaux and Lopez both simply testified that Smith had consented. However, because it is undisputed that Smith did not sign the consent to search form until a later point in time, we infer that Smith initially verbally consented.\nThe district court later issued a written memorandum and order expounding on its reasoning on October 18, 2017.\nAll persons, whether law enforcement agents or private citizens, have an implied license to enter property and knock on a homeowner's door. See Kentucky v. King, 563 U.S. 452, 469, 131 S.Ct. 1849, 179 L.Ed.2d 865 (2011). \"However, the scope of [the] license ... is limited not only to a particular area but also to a specific purpose.\" United States v. Bain, 874 F.3d 1, 12-13 (1st Cir. 2017) (quotation marks, alteration, and citation omitted). Moreover, the occupant \"has no obligation to open the door or to speak.\" King, 563 U.S. at 469-70, 131 S.Ct. 1849. While this court and the Supreme Court have never specified that a homeowner may revoke the implied license of entry in the context of the Fourth Amendment, several other circuit courts have held so where the homeowner takes steps such that a reasonable member of the public would conclude that he was not welcome on the property. See, e.g., United States v. Carloss, 818 F.3d 988, 994-95 (10th Cir. 2016). Although we are skeptical that the implied license of entry could be irrevocable, we do not resolve this question today, as we assume arguendo that the locked gate revoked the implied license of entry.\nThe only area the agents approached that was clearly curtilage was the front door to the primary residence. See, e.g., Jardines, 569 U.S. at 7, 133 S.Ct. 1409 (\"The front porch is the classic exemplar of an area adjacent to the home and to which the activity of home life extends.\" (internal quotation marks and citation omitted) ). We note, however, that Smith did not live in that residence and does not claim to have conducted any activities there. Thus, from this record it appears that the front porch was not curtilage as to Smith and that he may not contest the agents' entry there. Cf. United States v. Stokes, 829 F.3d 47, 51 (1st Cir. 2016) (stating that \"the defendant carries the burden of making a threshold showing that he has a reasonable expectation of privacy in the area searched and in relation to the items seized.\" (internal quotation marks and citations omitted) ); Bain, 874 F.3d at 13 (discussing generally who may contest governmental property invasions and noting that an \"overnight guest\" can contest a search of the home). Again, however, we need not reach that issue.\nAgain, the court imposed a thirty-year sentence on counts one through five, to be served concurrently, and a separate thirty-year sentence on count six, with twenty years to be served consecutively.",
+        "type": "majority",
+        "author": "STAHL, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Richard Guerriero, with whom Lothstein Guerriero, PLLC was on brief, for appellant.",
+      "Seth R. Aframe, Assistant United States Attorney, with whom Scott W. Murray, United States Attorney, was on brief for appellee."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Appellee,\nv.\nBrad SMITH, Defendant, Appellant.\nNo. 18-1109\nUnited States Court of Appeals, First Circuit.\nMarch 15, 2019\nRichard Guerriero, with whom Lothstein Guerriero, PLLC was on brief, for appellant.\nSeth R. Aframe, Assistant United States Attorney, with whom Scott W. Murray, United States Attorney, was on brief for appellee.\nBefore Lynch, Stahl, and Barron, Circuit Judges."
+  },
+  "file_name": "0001-01",
+  "first_page_order": 1,
+  "last_page_order": 17
+}

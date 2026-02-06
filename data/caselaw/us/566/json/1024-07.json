@@ -1,0 +1,59 @@
+{
+  "id": 12222684,
+  "name": "Henry v. Hobbs, Director, Arkansas Department of Correction",
+  "name_abbreviation": "Henry v. Hobbs",
+  "decision_date": "2012-05-29",
+  "docket_number": "No. 11-9482",
+  "first_page": "1024",
+  "last_page": "1024",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 1024"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 108,
+    "ocr_confidence": 0.544,
+    "sha256": "a76cbc292d5fe963559764962b322284ebcbd5ac044544b44d934806849e27d7",
+    "simhash": "1:039ae7a0ed2d74e7",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Henry v. Hobbs, Director, Arkansas Department of Correction."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9482.\nHenry v. Hobbs, Director, Arkansas Department of Correction."
+  },
+  "file_name": "1024-07",
+  "first_page_order": 900,
+  "last_page_order": 900
+}

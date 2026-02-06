@@ -1,0 +1,59 @@
+{
+  "id": 6000028,
+  "name": "Fielding v. Grant, Superintendent, Bay State Correctional Center",
+  "name_abbreviation": "Fielding v. Grant",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5725",
+  "first_page": "935",
+  "last_page": "935",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 935"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 113,
+    "ocr_confidence": 0.567,
+    "sha256": "6fe0cbbe493de7a3dbe0a537e214935f2099f8e94fc464001f0814b03d0ad715",
+    "simhash": "1:241b46707d5bb029",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Fielding v. Grant, Superintendent, Bay State Correctional Center."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5725.\nFielding v. Grant, Superintendent, Bay State Correctional Center."
+  },
+  "file_name": "0935-16",
+  "first_page_order": 957,
+  "last_page_order": 957
+}

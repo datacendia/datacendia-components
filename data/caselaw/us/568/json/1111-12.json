@@ -1,0 +1,59 @@
+{
+  "id": 12428903,
+  "name": "Alvarez v. United States",
+  "name_abbreviation": "Alvarez v. United States",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-7474",
+  "first_page": "1111",
+  "last_page": "1111",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1111"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.579,
+    "sha256": "3eba8711796a3fb82641c277d2ca172ea7ab56f4d687f192072d0ccbe0b3d3f6",
+    "simhash": "1:17ca1e496ebdb903",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Alvarez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7474.\nAlvarez v. United States."
+  },
+  "file_name": "1111-12",
+  "first_page_order": 1187,
+  "last_page_order": 1187
+}

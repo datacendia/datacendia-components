@@ -1,0 +1,59 @@
+{
+  "id": 12237493,
+  "name": "Tirado v. United States",
+  "name_abbreviation": "Tirado v. United States",
+  "decision_date": "2011-12-05",
+  "docket_number": "No. 11-7170",
+  "first_page": "1086",
+  "last_page": "1086",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1086"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.584,
+    "sha256": "e2a14ea3458238ce50260a87b79699038ab90eff438e598cfbd5e94ba5ba12df",
+    "simhash": "1:063bc32343afb238",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Tirado v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7170.\nTirado v. United States."
+  },
+  "file_name": "1086-08",
+  "first_page_order": 1168,
+  "last_page_order": 1168
+}

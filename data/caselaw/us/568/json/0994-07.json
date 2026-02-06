@@ -1,0 +1,59 @@
+{
+  "id": 12421490,
+  "name": "Valdivia v. United States",
+  "name_abbreviation": "Valdivia v. United States",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 12-6526",
+  "first_page": "994",
+  "last_page": "994",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 994"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.587,
+    "sha256": "5c8487369deb6847a1bb9be51bd1a15c7c1071bbceed0069efd743ab58b9cd75",
+    "simhash": "1:451acac26f969a2c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Valdivia v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6526.\nValdivia v. United States."
+  },
+  "file_name": "0994-07",
+  "first_page_order": 1070,
+  "last_page_order": 1070
+}

@@ -1,0 +1,68 @@
+{
+  "id": 12701602,
+  "name": "Lionel RUBALCAVA, petitioner, v. Tom FELKER, Warden.",
+  "name_abbreviation": "Rubalcava v. Felker",
+  "decision_date": "2014-02-24",
+  "docket_number": "No. 13\u20137989.",
+  "first_page": "1218",
+  "last_page": "1218",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 1218"
+    },
+    {
+      "type": "parallel",
+      "cite": "188 L. Ed. 2d 335"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 1322"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 27,
+    "char_count": 217,
+    "sha256": "eff28553e06243fe7ce45d045662fda2fe4062931d41a54e8b3a3c71b1450bbd",
+    "simhash": "1:e3ad54c83e44172c",
+    "word_count": 35
+  },
+  "last_updated": "2021-08-27T20:47:23.363448+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lionel RUBALCAVA, petitioner,\nv.\nTom FELKER, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of certiorari to the United States Court of Appeals for the Ninth Circuit denied."
+    ],
+    "corrections": "",
+    "head_matter": "Lionel RUBALCAVA, petitioner,\nv.\nTom FELKER, Warden.\nNo. 13-7989.\nSupreme Court of the United States\nFeb. 24, 2014.\nPetition for writ of certiorari to the United States Court of Appeals for the Ninth Circuit denied."
+  },
+  "file_name": "1218-11",
+  "first_page_order": 1218,
+  "last_page_order": 1218
+}

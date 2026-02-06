@@ -1,0 +1,59 @@
+{
+  "id": 5931423,
+  "name": "Welch v. United States",
+  "name_abbreviation": "Welch v. United States",
+  "decision_date": "2011-06-20",
+  "docket_number": "No. 10-314",
+  "first_page": "1018",
+  "last_page": "1018",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1018"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.56,
+    "sha256": "fbd0a8820c7976e026e776bfd59269095b1a97f0c9384b8f6f154494395301d9",
+    "simhash": "1:0282928bde915018",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Welch v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-314.\nWelch v. United States."
+  },
+  "file_name": "1018-08",
+  "first_page_order": 1012,
+  "last_page_order": 1012
+}

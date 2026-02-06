@@ -1,0 +1,59 @@
+{
+  "id": 12250528,
+  "name": "Brown v. Warren, Administrator, New Jersey State Prison, et al.",
+  "name_abbreviation": "Brown v. Warren",
+  "decision_date": "2012-03-05",
+  "docket_number": "No. 11-8241",
+  "first_page": "1249",
+  "last_page": "1249",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1249"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 18,
+    "char_count": 110,
+    "ocr_confidence": 0.624,
+    "sha256": "cd95cb0b4ed8b4c9b0c326ca9893c088b2bba825cbe1e3c8a2425cdae56fc5ad",
+    "simhash": "1:98123c8a6e5cb9fc",
+    "word_count": 18
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Brown v. Warren, Administrator, New Jersey State Prison, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8241.\nBrown v. Warren, Administrator, New Jersey State Prison, et al."
+  },
+  "file_name": "1249-12",
+  "first_page_order": 1331,
+  "last_page_order": 1331
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12232006,
+  "name": "Valadez v. United States",
+  "name_abbreviation": "Valadez v. United States",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. 11-6650",
+  "first_page": "993",
+  "last_page": "993",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 993"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.696,
+    "sha256": "e229156c50d9199a0c26deb95bb90fbae7c04da65ba14236ff3a7e05e85e45d1",
+    "simhash": "1:b3ebce2bc38f9920",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Valadez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6650.\nValadez v. United States."
+  },
+  "file_name": "0993-12",
+  "first_page_order": 1075,
+  "last_page_order": 1075
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12252947,
+  "name": "Leon v. United States",
+  "name_abbreviation": "Leon v. United States",
+  "decision_date": "2012-03-19",
+  "docket_number": "No. 11-8890",
+  "first_page": "1274",
+  "last_page": "1274",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1274"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.674,
+    "sha256": "bc5ea9fd017e6a068817f2f20d0ab8211fd58f80fdfdbef25183e77cf7210f99",
+    "simhash": "1:84830f130c83d528",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Leon v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8890.\nLeon v. United States."
+  },
+  "file_name": "1274-04",
+  "first_page_order": 1356,
+  "last_page_order": 1356
+}

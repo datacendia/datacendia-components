@@ -1,0 +1,68 @@
+{
+  "id": 12698042,
+  "name": "In re Johnny TRAYLOR, petitioner.",
+  "name_abbreviation": "In re Traylor",
+  "decision_date": "2013-05-13",
+  "docket_number": "No. 12M117.",
+  "first_page": "970",
+  "last_page": "970",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "569 U.S. 970"
+    },
+    {
+      "type": "parallel",
+      "cite": "185 L. Ed. 2d 1061"
+    },
+    {
+      "type": "parallel",
+      "cite": "133 S. Ct. 2380"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 25,
+    "char_count": 145,
+    "sha256": "d440937de9cfe0bbdef8d8e369a4f1761923a81edfe871db16170a63cea2ab04",
+    "simhash": "1:f5efd6b1e1ec35dc",
+    "word_count": 25
+  },
+  "last_updated": "2021-08-27T21:08:28.003473+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Johnny TRAYLOR, petitioner."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Motion for leave to proceed as a veteran denied."
+    ],
+    "corrections": "",
+    "head_matter": "In re Johnny TRAYLOR, petitioner.\nNo. 12M117.\nSupreme Court of the United States\nMay 13, 2013.\nMotion for leave to proceed as a veteran denied."
+  },
+  "file_name": "0970-08",
+  "first_page_order": 970,
+  "last_page_order": 970
+}

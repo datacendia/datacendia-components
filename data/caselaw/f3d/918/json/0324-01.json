@@ -1,0 +1,889 @@
+{
+  "id": 12520418,
+  "name": "SANITARY BOARD OF the CITY OF CHARLESTON, WEST VIRGINIA, Plaintiff - Appellant, v. Andrew WHEELER, Acting Administrator of the United States Environmental Protection Agency; United States Environmental Protection Agency, Defendants - Appellees.",
+  "name_abbreviation": "Sanitary Bd. of Charleston v. Wheeler",
+  "decision_date": "2019-03-12",
+  "docket_number": "No. 18-1592",
+  "first_page": "324",
+  "last_page": "338",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "918 F.3d 324"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "4th Cir.",
+    "id": 8954,
+    "name": "United States Court of Appeals for the Fourth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "466 U.S. 435",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6201747
+      ],
+      "weight": 3,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "442"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/466/0435-01"
+      ]
+    },
+    {
+      "cite": "715 F.3d 535",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3566376
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "540",
+          "parenthetical": "quoting Ellis v. Ry. Clerks , 466 U.S. 435, 442, 104 S.Ct. 1883, 80 L.Ed.2d 428 (1984) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/715/0535-01"
+      ]
+    },
+    {
+      "cite": "219 U.S. 498",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3652743
+      ],
+      "weight": 3,
+      "year": 1911,
+      "pin_cites": [
+        {
+          "page": "515"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/219/0498-01"
+      ]
+    },
+    {
+      "cite": "664 F.3d 940",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3768072,
+        3861204
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "944",
+          "parenthetical": "holding that FDA warning letters are not reviewable \"final agency action\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/398/0378-01",
+        "/f3d/664/0940-01"
+      ]
+    },
+    {
+      "cite": "40 C.F.R. \u00a7 131.21",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(a)(2)"
+        },
+        {
+          "page": "2"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "510 U.S. 43",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        230623
+      ],
+      "weight": 3,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "63"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/510/0043-01"
+      ]
+    },
+    {
+      "cite": "269 F.3d 424",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9467979
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "431",
+          "parenthetical": "\"It is well-settled that, where such a consequence is not specified, the federal courts will not in the ordinary course impose their own coercive sanction.\" (quoting United States v. James Daniel Good Real Prop. , 510 U.S. 43, 63, 114 S.Ct. 492, 126 L.Ed.2d 490 (1993) ) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/269/0424-01"
+      ]
+    },
+    {
+      "cite": "476 U.S. 253",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12622
+      ],
+      "weight": 3,
+      "year": 1986,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/476/0253-01"
+      ]
+    },
+    {
+      "cite": "422 F.3d 174",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8928598
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "198-99"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/422/0174-01"
+      ]
+    },
+    {
+      "cite": "914 F.3d 213",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12519906
+      ],
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "226-27"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/914/0213-01"
+      ]
+    },
+    {
+      "cite": "411 U.S. 138",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9821
+      ],
+      "weight": 3,
+      "year": 1973,
+      "pin_cites": [
+        {
+          "page": "142"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/411/0138-01"
+      ]
+    },
+    {
+      "cite": "876 F.2d 976",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10537981,
+        3469078
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "991",
+          "parenthetical": "listing \"a number of exceptions countenancing use of extra-record evidence\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/876/0976-01",
+        "/us-app-dc/278/0098-01"
+      ]
+    },
+    {
+      "cite": "470 U.S. 729",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11300062
+      ],
+      "weight": 3,
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "744"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/470/0729-01"
+      ]
+    },
+    {
+      "cite": "80 F.3d 869",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7640841
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "875-76"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/80/0869-01"
+      ]
+    },
+    {
+      "cite": "401 U.S. 402",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11712629
+      ],
+      "weight": 3,
+      "year": 1971,
+      "pin_cites": [
+        {
+          "page": "419-20"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/401/0402-01"
+      ]
+    },
+    {
+      "cite": "463 U.S. 29",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6190630
+      ],
+      "weight": 4,
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "43"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/463/0029-01"
+      ]
+    },
+    {
+      "cite": "8 F.3d 73",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10505971
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "77"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/8/0073-01"
+      ]
+    },
+    {
+      "cite": "565 U.S. 42",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12185803,
+        12444735
+      ],
+      "weight": 3,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "45"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/565/0042-01",
+        "/l-ed-2d/181/0449-01"
+      ]
+    },
+    {
+      "cite": "419 U.S. 281",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6174525
+      ],
+      "weight": 3,
+      "year": 1974,
+      "pin_cites": [
+        {
+          "page": "286"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/419/0281-01"
+      ]
+    },
+    {
+      "cite": "541 F.2d 1",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        3520848,
+        1034907
+      ],
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "36"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/176/0373-01",
+        "/f2d/541/0001-01"
+      ]
+    },
+    {
+      "cite": "556 F.3d 177",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3329193
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "192"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/556/0177-01"
+      ]
+    },
+    {
+      "cite": "5 U.S.C. \u00a7 704",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "parenthetical": "\"Agency action made reviewable by statute and final agency action for which there is no other adequate remedy in a court are subject to judicial review.\" (emphasis added) "
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "174 F.3d 1178",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11628003
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "1190"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/174/1178-01"
+      ]
+    },
+    {
+      "cite": "87 F.3d 1242",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        551
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "1249-50",
+          "parenthetical": "\"By statute, the Administrator is authorized rather than mandated to overrule the Corps. Because this power is discretionary, the citizen suit provision of the Clean Water Act does not apply.\" (citations omitted) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/87/1242-01"
+      ]
+    },
+    {
+      "cite": "839 F.Supp.2d 366",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        4149973
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "372"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/839/0366-01"
+      ]
+    },
+    {
+      "cite": "40 C.F.R. \u00a7 131.11",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(a)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "40 C.F.R. \u00a7 131.10",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "542 F.3d 1235",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3840321
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "1243",
+          "parenthetical": "\"Indeed, the fact that Plaintiffs do not challenge the substance of any existing regulation is precisely why [the citizen suit provision is applicable].\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/542/1235-01"
+      ]
+    },
+    {
+      "cite": "470 U.S. 821",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11300314
+      ],
+      "weight": 3,
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "838"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/470/0821-01"
+      ]
+    },
+    {
+      "cite": "268 F.3d 898",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1949950
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "902-03",
+          "parenthetical": "citing Heckler v. Chaney , 470 U.S. 821, 838, 105 S.Ct. 1649, 84 L.Ed.2d 714 (1985) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/268/0898-01"
+      ]
+    },
+    {
+      "cite": "105 F.3d 599",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7635289
+      ],
+      "weight": 2,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "602"
+        },
+        {
+          "page": "602"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/105/0599-01"
+      ]
+    },
+    {
+      "cite": "542 U.S. 55",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5858295
+      ],
+      "weight": 3,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "64"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/542/0055-01"
+      ]
+    },
+    {
+      "cite": "2018 WL 1582730",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "*4"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "870 F.2d 892",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        11646019
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "900"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/870/0892-01"
+      ]
+    },
+    {
+      "cite": "2017 WL 2624213",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "*4"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "5 U.S.C. \u00a7 706",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "(2)"
+        },
+        {
+          "page": "(a)(1)"
+        },
+        {
+          "page": "(2)(a)"
+        },
+        {
+          "parenthetical": "\"[T]he court shall review the whole record. ...\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "33 U.S.C. \u00a7 1365",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(a)(2)"
+        },
+        {
+          "page": "(a)(2)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "33 U.S.C. \u00a7 1313",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 6,
+      "pin_cites": [
+        {
+          "page": "(c)(2)(A)"
+        },
+        {
+          "page": "(c)(3)"
+        },
+        {
+          "page": "(c)(3)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "16 F.3d 1395",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10536467
+      ],
+      "weight": 2,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "1400"
+        },
+        {
+          "page": "1399"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/16/1395-01"
+      ]
+    },
+    {
+      "cite": "33 U.S.C. \u00a7 1312",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "845 F.3d 133",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12175652
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "136"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/845/0133-01"
+      ]
+    },
+    {
+      "cite": "33 U.S.C. \u00a7 1342",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "551 U.S. 644",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3573372
+      ],
+      "weight": 7,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "650-51",
+          "parenthetical": "citing 33 U.S.C. \u00a7 1342(b) "
+        },
+        {
+          "parenthetical": "citing 33 U.S.C. \u00a7 1342(b) "
+        },
+        {
+          "parenthetical": "citing 33 U.S.C. \u00a7 1342(b) "
+        },
+        {
+          "page": "658"
+        },
+        {
+          "page": "658-59"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/551/0644-01"
+      ]
+    },
+    {
+      "cite": "268 F.3d 255",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1949933
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "260"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/268/0255-01"
+      ]
+    },
+    {
+      "cite": "33 U.S.C. \u00a7 1362",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(14)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "541 U.S. 95",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5880009
+      ],
+      "weight": 3,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "102",
+          "parenthetical": "quoting 33 U.S.C. \u00a7 1362(14) "
+        },
+        {
+          "parenthetical": "quoting 33 U.S.C. \u00a7 1362(14) "
+        },
+        {
+          "parenthetical": "quoting 33 U.S.C. \u00a7 1362(14) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/541/0095-01"
+      ]
+    },
+    {
+      "cite": "33 U.S.C. \u00a7 1251",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "year": 2012,
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1701,
+    "char_count": 41873,
+    "pagerank": {
+      "raw": 4.288273044730779e-08,
+      "percentile": 0.2706767846310731
+    },
+    "sha256": "925aa82d953a4e772d373dccca8519fd389e53aa8d16973708f5a6621dcefa43",
+    "simhash": "1:9b92e3b3d91d75c4",
+    "word_count": 6804
+  },
+  "last_updated": "2024-02-27T18:46:20.843221+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before WILKINSON, DIAZ, and FLOYD, Circuit Judges."
+    ],
+    "parties": [
+      "SANITARY BOARD OF the CITY OF CHARLESTON, WEST VIRGINIA, Plaintiff - Appellant,\nv.\nAndrew WHEELER, Acting Administrator of the United States Environmental Protection Agency; United States Environmental Protection Agency, Defendants - Appellees."
+    ],
+    "opinions": [
+      {
+        "text": "WILKINSON, Circuit Judge:\nThe Clean Water Act vests the Administrator of the Environmental Protection Agency (EPA) with the authority to review the water quality standards proposed by a state. In 2015, West Virginia submitted a revised standard for the receiving waters of the Charleston Sanitary Board's wastewater treatment facility along the Kanawha River. The EPA disapproved the standard. The Sanitary Board challenged this decision on two grounds. First, the Board alleged that the EPA had no discretion to disapprove the standards. The district court rejected this argument on the merits, a decision that we now affirm. Second, the Board claimed that, even if the EPA had discretion, its decision violated the Administrative Procedures Act (APA). The district court dismissed the APA claims as moot following the issuance of a new permit to the Sanitary Board. On appeal, we affirm the judgment for the EPA on the merits, finding that the agency did not violate the APA. Agency decisions like this one do not invariably garner applause. While popular opinion of course remains free to reject unpleasant scientific conclusions and prognoses, the relevant statutes envision a marriage between law and science as the surest path for environmental restoration.\nI.\nA.\nThe Clean Water Act (CWA) created a comprehensive scheme to \"restore and maintain the chemical, physical, and biological integrity of the Nation's waters.\" 33 U.S.C. \u00a7 1251 (2012). A critical part of the CWA's overall program is aimed at pollutants that are discharged into waterways through \" 'any discernable, confined and discrete conveyance,' such as a pipe, ditch, channel, or tunnel.\" S. Fla. Water Mgmt. Dist. v. Miccosukee Tribe of Indians , 541 U.S. 95, 102, 124 S.Ct. 1537, 158 L.Ed.2d 264 (2004) (quoting 33 U.S.C. \u00a7 1362(14) ). These conveyances are known as \"point sources.\" The Charleston Sanitary Board operates a wastewater treatment facility along the Kanawha River that is designated as a point source.\nThe CWA contemplates that federal regulators, state governments, and private citizens will all play a role in addressing point source pollution. The National Pollutant Discharge Elimination System (NPDES) is the foundation of this regulatory effort. See Piney Run Pres. Ass'n v. Cty. Comm'rs of Carroll Cty. , 268 F.3d 255, 260 (4th Cir. 2001). Under the NPDES, point source operators are required to obtain permits for their facilities at least once every five years. The permits are tailored to each individual facility and contain discharge limits for various pollutants, including copper. The EPA was initially responsible for issuing the permits to individual facilities, but states were able to take on that responsibility if they could demonstrate the capacity to administer an effective permitting program. See Nat'l Ass'n of Home Builders v. Defs. of Wildlife , 551 U.S. 644, 650-51, 127 S.Ct. 2518, 168 L.Ed.2d 467 (2007) (citing 33 U.S.C. \u00a7 1342(b) ). Most states have chosen to do so. West Virginia has issued permits to point sources since 1982. See Ohio Valley Envtl. Coal. v. Fola Coal Co., LLC , 845 F.3d 133, 136 (4th Cir. 2017).\nIndividual NPDES permits are based in part upon the state's overall water quality standards. See 33 U.S.C. \u00a7 1312. These standards set the water quality requirements for each body of water within a state. Nat. Res. Def. Council v. EPA , 16 F.3d 1395, 1400 (4th Cir. 1993). A standard might apply to an entire river or may be specific to one area, or even one particular facility. See, e.g. , J.A. 148 (defining a standard for the \"stretch between the mouth of Little Scary Creek and the Little Scary impoundment\"). The states are responsible for developing standards in the first instance, defining acceptable levels of pollution for each location based on the \"designated uses\" of the waters at that location. 33 U.S.C. \u00a7 1313(c)(2)(A). Once the state has adopted new or revised standards, they are submitted to EPA for approval. Standards do not become effective until the EPA approves them. Apart from its oversight and approval role, the EPA also develops guidance on acceptable water quality levels and measurement techniques, which states in turn rely on in evaluating and updating their standards. Relevant to this case, the EPA has issued many guidance documents regarding appropriate copper standards over the years.\nTaken together, point source regulation depends on a division of governmental authority. States develop their standards, informed by EPA's scientific guidance. The EPA then reviews the proposals, bringing its own expertise to bear. If the standards receive EPA approval, they then \"serve as a guideline for setting applicable limitations in the [NPDES] permit[s].\" Nat. Res. Def. Council , 16 F.3d at 1399. Private citizens, for their part, are able to enforce the law in some circumstances through the CWA's citizen suit provision.\nB.\nThe dispute here involves West Virginia's attempt to revise its standards with respect to the portion of the Kanawha River that receives discharges from the Charleston Sanitary Board's wastewater treatment facility. In 2013, the Sanitary Board met with the West Virginia Department of Environmental Protection to explore the possibility of a less stringent copper standard for these waters. Under its then-existing permit, the Board was subject to a copper limit that it believed was lower than necessary to protect aquatic life. The Board's expectation was that a new, more lenient standard for the site would lead to a more lenient permit. The Board financed a study and state regulators agreed that the copper limit for the Board's facility should be raised. Staff at the EPA signaled that West Virginia's proposed standard was consistent with applicable guidance, but made clear that this preliminary assessment would not tie the agency's hands down the road. J.A. 81.\nIn June 2015, West Virginia approved the new standard and sent it along to EPA for final review. See 33 U.S.C. \u00a7 1313. Under the CWA, the EPA is given sixty days to reach a decision, and in the event of a denial, thirty additional days to provide feedback to the state on any changes that would need to be made to obtain the agency's approval. Id. \u00a7 1313(c)(3). EPA missed the deadline for reviewing West Virginia's proposed standards, and this case began.\nThe Sanitary Board initially brought two claims against the EPA under the CWA's citizen suit provision. That provision allows a private party, like the Sanitary Board, to sue the EPA Administrator for his failure \"to perform a non-discretionary duty\" required by the law. See 33 U.S.C. \u00a7 1365(a)(2). The Board's first claim argued that the Administrator had a non-discretionary duty to reach a decision, either for or against the West Virginia proposal, within the deadlines set forth in the statute. The second claim was bolder, alleging that the Administrator had a non-discretionary duty to approve the proposed standard because the EPA had already determined it was consistent with the statute. Before reaching the merits of these claims, the district court granted the EPA a forty-five day extension to reach a final decision on the revised standards.\nThe EPA then disapproved West Virginia's proposal. See Letter from Shawn M. Garvin, Regional Administrator, Envtl. Protection Agency, to Randy C. Huffman, Secretary, W. Va. Dep't of Envtl. Protection 1 (July 19, 2016) [hereinafter Final Disapproval Letter]; J.A. 66. Although the state standards were developed using a familiar methodology, the EPA found that the proposed copper limit for the Sanitary Board's facility was so high as to warrant additional scrutiny. Applying the most recent scientific methods, the EPA \"determined that, based on the available information, the site specific criteria\" proposed for the Sanitary Board \"would not be protective of ... fish and other aquatic life ... in the Kanawha River.\" Id. The EPA's disapproval letter included a detailed enclosure, which \"provide[d] the data and analysis that EPA conducted to evaluate the protectiveness\" of the revised standard for the Sanitary Board. Final Disapproval Letter 2; J.A. 67.\nThe agency informed West Virginia of its decision within the forty-five day extension period set by the district court. Following this decision, the Board amended its complaint to bring new claims against the EPA under the Administrative Procedures Act. These claims allege that the EPA's disapproval decision was reached in a manner that was arbitrary and capricious, contrary to law, and without observation of procedures required by law, respectively. See 5 U.S.C. \u00a7 706(2).\nAll parties agreed that the EPA's decision to disapprove the state standards mooted the Board's first claim under the CWA. That claim had simply asked for a decision one way or the other, which had now been reached. The EPA then moved to dismiss the Board's other CWA claim, which argued that the EPA had a duty to approve the standards, and the motion was granted. According to the district court, the notion that EPA's approval was a non-discretionary act required by law was \"untenable\" and contrary to the \"plain language\" of the CWA. Sanitary Bd. of Charleston v. Pruitt , 2017 WL 2624213, at *4 (S.D. W. Va. June 16, 2017). As the district judge explained, the \"technical questions\" embedded within the EPA's review of state water quality standards \"require the sort of scientific judgment that is the hallmark of agency discretion.\" Id. (citing Envtl. Def. Fund , 870 F.2d 892, 900 (2d Cir. 1989) ). Following the dismissal of the CWA claims, all of the APA claims were still pending.\nIn the summer of 2017, the Board's five-year NPDES permit expired and it was issued a new one. The new permit-which was based on the existing West Virginia state standards, not the proposed new ones-did not include a copper discharge limit. The EPA then moved to have the entire case dismissed as moot because, under the new permit, the Board was no longer at risk of violating the CWA's copper limitations. As such, EPA alleged that the Board no longer had a concrete injury that could sustain its suit for a more lenient copper standard. The district court agreed, finding that, \"by the Sanitary Board's own account, the alleged harm-that it is one elevated copper sample away from the modification of the 2017 permit or the imposition of an effluent limitation upon the issuance of the next permit-is either hypothetical or lacks imminence.\" Sanitary Bd. of Charleston v. Pruitt , 2018 WL 1582730, at *4 (S.D. W. Va. March 29, 2018).\nOn appeal, we are faced with two questions regarding the merits of the EPA's decision to reject the West Virginia standards. First, we must decide whether the agency had discretion to disapprove the standards. And second, if the EPA did have discretion, we ask whether the agency exercised it in a manner that is violative of the APA. We take up each issue in turn.\nII.\nThe private enforcement mechanism of the Clean Water Act is implemented by its citizen suit provision, which allows a private party to sue for violations of the law. Under the Act, citizens may sue the EPA Administrator for an alleged \"failure of the Administrator to perform any\" non-discretionary \"act or duty\" required by the statute. 33 U.S.C. \u00a7 1365(a)(2). This mechanism is a crucial part of the CWA's overall enforcement scheme, preventing federal regulators from thwarting the statute by failing to meet the law's demands.\nIt is also a limited one. Like other provisions of federal law that authorize courts to compel agency action, see, e.g. , 5 U.S.C. \u00a7 706(a)(1), the citizen suit provision here reaches only non-discretionary acts; in other words, acts that the agency \"is required to take.\" Norton v. S. Utah Wilderness All. , 542 U.S. 55, 64, 124 S.Ct. 2373, 159 L.Ed.2d 137 (2004). Therefore, when a private litigant brings a suit against the Administrator, \"[a] clearly mandated, nondiscretionary duty imposed on the Administrator is a prerequisite for federal jurisdiction. ...\" Miccosukee Tribe of Indians of Fla. v. EPA , 105 F.3d 599, 602 (11th Cir. 1997).\nThe requirement that a plaintiff identify a non-discretionary act imposes vital limits on the scope of private enforcement. The citizen suit provision does not allow a private party to set enforcement priorities for the EPA, see Sierra Club v. Whitman , 268 F.3d 898, 902-03 (9th Cir. 2001) (citing Heckler v. Chaney , 470 U.S. 821, 838, 105 S.Ct. 1649, 84 L.Ed.2d 714 (1985) ), nor does it allow a court to exercise judgment that is properly vested in the executive branch. See Natural Res. Def. Council v. EPA , 542 F.3d 1235, 1243 (9th Cir. 2008) (\"Indeed, the fact that Plaintiffs do not challenge the substance of any existing regulation is precisely why [the citizen suit provision is applicable].\") Put simply, citizens can compel the agency to take some action, but cannot dictate the substance of the resulting decision if it involves the agency's judgment.\nThat distinction is all that is needed to deny the Sanitary Board's CWA claims here. The EPA had discretion to reach its own conclusion on West Virginia's proposed standards. While the Board may disagree with the agency's decision, that disagreement alone does not convert the matter into a non-discretionary act.\nThe EPA has supervisory responsibility over the CWA, which includes the authority to review a state's proposed water quality standard. See 33 U.S.C. \u00a7 1313(c)(3). This review includes both discretionary and non-discretionary components. By statute, the EPA must determine if the state standards \"meet[ ] the requirements\" of the CWA within sixty days. Relevant for our purposes, this provision also states that:\nIf the Administrator determines that any [a state's] revised or new standard is not consistent with the applicable requirements of [the CWA], he shall not later than the ninetieth day after the date of submission of such standard notify the State and specify the changes to meet such requirements.\nId. The law therefore imposes strict requirements of the Administrator related to the timing and notification procedures of a denial decision. These requirements, however, only follow once the Administrator has \"determined\" that the proposed standard \"is not consistent with the requirements\" of the law.\nThat determination itself requires the exercise of judgment. \"Each state must specify appropriate water uses to be achieved,\" such as the \"protection and propagation of fish, shellfish, and wildlife,\" or \"recreation in and on the water.\" 40 C.F.R. \u00a7 131.10. In evaluating a state's revised standards, the Administrator \"must determine whether those standards are scientifically defensible and protective of [the] designated uses.\" Miccosukee Tribe of Indians of Fla. , 105 F.3d at 602. The CWA provides no fixed criterion that clearly delineates when approval is required. Instead, the EPA's determination necessarily involves an independent judgment as to whether the state's proposed standards are \"based on sound scientific rationale\" and are actually capable of meeting the environmental ends that have been identified for each body of water. 40 C.F.R. \u00a7 131.11(a)(1). As part of its review, the EPA engages in its own calculations and brings its own understanding of the most recent science to bear. This sort of inquiry is a paradigmatic example of agency discretion. See Friends of Merrymeeting Bay v. Olsen , 839 F.Supp.2d 366, 372 (D. Me. 2012) ; see also Preserve Endangered Areas of Cobb's History v. U.S. Army Corps of Eng'rs , 87 F.3d 1242, 1249-50 (11th Cir. 1996) (\"By statute, the Administrator is authorized rather than mandated to overrule the Corps. Because this power is discretionary, the citizen suit provision of the Clean Water Act does not apply.\" (citations omitted) ).\nThe procedure for EPA review of state standards contemplated by the CWA thus uses a familiar and entirely sensible structure, whereby the agency has latitude to exercise its judgment, but must do so within a fixed time period. The judgment is discretionary; the timing is not. When combined with the citizen suit provision, the result is that a citizen can prod the agency to take some action once it has missed a deadline. Timelines like the one imposed by Congress in the Clean Water Act ensure regulatory order, and affected citizens are authorized to initiate a suit to create that order. In fact, when the agency is dragging its feet beyond the time limit set by Congress, a private suit may be the most effective way of getting a final decision. See, e.g. , Forest Guardians v. Babbitt , 174 F.3d 1178, 1190 (10th Cir. 1999). At the same time, the substance of the decision is left to the expertise of the agency and it can exercise its judgment as it sees fit, so long as it does not refuse to exercise it altogether.\nThis very case illustrates how the scheme can operate to bring about a final agency decision. The EPA failed to act on West Virginia's proposed standards within the statutory deadlines, and the Board filed suit to compel a decision. After the lawsuit began, the EPA reached a conclusion and rejected the standards. The Board's lawsuit may well have prodded the EPA to act. In any event, once the decision was reached, the Board's first CWA claim, which simply sought an answer one way or the other, became moot.\nThe second claim, which we must resolve on appeal, is different. It attempts to dictate the substance of EPA's decision and require approval of the proposed standards. In asserting this claim, the Sanitary Board asks this court to \"determine\" for itself whether a state standard is \"consistent with the requirements\" of federal law. 33 U.S.C. \u00a7 1313(c)(3). Regardless of who makes this decision, whether it be an agency or a court, it will inevitably require the exercise of independent judgment and discretion. And for that reason, this decision is outside the scope of the CWA's private enforcement scheme. By its plain language, the citizen suit provision was not intended to disrupt the EPA's discretionary duties, nor is it an invitation for us to decide for ourselves whether the proposed standard is adequate in the first instance. The EPA possesses the expertise with which to make a scientific judgment-a degree of expertise that courts, even episodically armed with expert testimony, cannot aspire to replicate. Accordingly, the Board's remaining CWA claim, which would erode the discretion inherent in the agency's authority, was properly denied.\nMuch of the Sanitary Board's assertions in defense of its CWA claim ultimately go to the wisdom of the EPA's disapproval decision. These arguments simply have no bearing on our conclusion that the EPA's authority to approve or disapprove state standards involves discretion in the first place. To the extent that the EPA considered factors that the Board finds objectionable, or looked to a record that was improper, the district court rightly noted that those concerns are best addressed through the Board's separate APA claims, to which we now turn.\nIII.\nUnfortunately for the Board, its APA claims fare no better. The APA instructs courts to \"set aside agency action\" that is \"arbitrary, capricious, an abuse of discretion, or otherwise not in accordance with law.\" 5 U.S.C. \u00a7 706(2)(a). This provision offers aggrieved litigants an avenue to challenge the discretionary decisions of federal regulators-like the EPA's decision to disapprove a state water standard-once a final decision has been reached. See 5 U.S.C. \u00a7 704 (\"Agency action made reviewable by statute and final agency action for which there is no other adequate remedy in a court are subject to judicial review.\" (emphasis added) ).\nThe APA does not invite us to substitute our judgment for that of an expert agency. Our role is narrower. When we review agency action that is alleged to be arbitrary, capricious, or contrary to law, our standard is \"highly deferential, with a presumption in favor of finding the agency action valid.\" Ohio Valley Envtl. Coal. v. Aracoma Coal Co. , 556 F.3d 177, 192 (4th Cir. 2009). We do not scrutinize the agency's decision-making process to determine for ourselves the proper regulatory course. We instead review the record to \"understand enough about the problem confronting the agency\" to assess its decision fairly. See Ethyl Corp. v. EPA , 541 F.2d 1, 36 (D.C. Cir. 1976). As a result, federal courts should \"uphold a decision of less than ideal clarity if the agency's path may reasonably be discerned.\" Nat'l Ass'n of Home Builders , 551 U.S. at 658, 127 S.Ct. 2518 (quoting Bowman Transp. Inc. v. Arkansas-Best Freight Sys. , 419 U.S. 281, 286, 95 S.Ct. 438, 42 L.Ed.2d 447 (1974) ).\nWhile the standard is deferential, it is more than a formality. \"When an administrative agency sets policy, it must provide a reasoned explanation for its action. This is not a high bar, but it is an unwavering one.\" Judulang v. Holder , 565 U.S. 42, 45, 132 S.Ct. 476, 181 L.Ed.2d 449 (2011). Agencies can, and often do, overreach. They can and do engage in decisional processes so inscrutable as to require setting aside the final outcome and sending the agency back to the drawing board. These errors arise from \"a myriad of possible faults.\" P.R. Sun Oil Co. v. EPA , 8 F.3d 73, 77 (1st Cir. 1993). An agency may, for instance, consider impermissible factors, fail to evaluate obvious alternative courses of action, or arrive at a final result \"so implausible that it could not be ascribed to a difference in view or the product of agency expertise.\" Motor Vehicle Mfrs. Ass'n v. State Farm Mut. Auto. Ins. Co. , 463 U.S. 29, 43, 103 S.Ct. 2856, 77 L.Ed.2d 443 (1983). Whatever the alleged defect, our review is generally focused on the journey, not the destination.\nIn this case, EPA reviewed the proposed standard for the Sanitary Board \"to determine if it met the CWA requirements as set forth in EPA's implementing water quality standards regulations.\" Final Disapproval Letter 1; J.A. 66. After applying its scientific judgment, the agency ultimately concluded that the standard would not \"protect the designated use\" of the Kanawha River, specifically \"the propagation and maintenance of fish and other aquatic life/warm water fishery streams.\" Id. (citing 40 C.F.R. \u00a7 131.11 ). The EPA then denied the standards in a letter sent to the West Virginia Department of Environmental Protection, which set forth the reasons for its decision.\nThe Sanitary Board has accused the EPA of various missteps here. As an initial matter, many of its assertions are simply challenges to EPA's authority to exercise discretion in the first place. For the reasons set forth above, supra Part II, there was nothing wrong with the EPA applying its own independent judgment to West Virginia's proposed standards. In fact, the law requires it to do exactly that. Beyond that, the Sanitary Board has offered two arguments for why the agency's action was arbitrary and capricious. The first is that the EPA's decision was not supported by the record as it stood at the time that the statutory deadline for reviewing the state standard had expired. On this view, the record for purposes of judicial review would not include the final letter sent to the state after this litigation began. The Board's second argument is that the EPA impermissibly rested its decision on a new scientific process that departed from its earlier guidance. We proceed to address these claims seriatim.\nA.\nReview of agency action typically depends on an administrative record. See Citizens to Preserve Overton Park v. Volpe , 401 U.S. 402, 419-20, 91 S.Ct. 814, 28 L.Ed.2d 136 (1971) ; Virginia v. Browner , 80 F.3d 869, 875-76 (4th Cir. 1996). See also 5 U.S.C. \u00a7 706 (\"[T]he court shall review the whole record. ...\"). There is a presumption that the record compiled by the agency is the record on which it rested its decision. See Fla. Light & Power Co. v. Lorion , 470 U.S. 729, 744, 105 S.Ct. 1598, 84 L.Ed.2d 643 (1985). Accordingly, courts will ordinarily assume that the administrative record is complete and exclusive for purposes of judicial review. A party challenging an agency bears a special burden of demonstrating that the court should reach beyond the record, either to examine information that should have been before the agency but was not, or to introduce extra-record evidence that the agency actually relied on that was omitted from the administrative record. See, e.g. , Esch v. Yeutter , 876 F.2d 976, 991 (D.C. Cir. 1989) (listing \"a number of exceptions countenancing use of extra-record evidence\"). The reason for this presumption is that the record before the agency typically contains the information it should have considered and reflects the decisional process that it followed. If a court is to avoid de novo review, it needs some basis on which to rest its more deferential analysis. The Supreme Court has long understood the connection between the record and the standard of review, noting that \"the focal point for judicial review should be the administrative record already in existence, not some new record made initially in the reviewing court.\"\nCamp v. Pitts , 411 U.S. 138, 142, 93 S.Ct. 1241, 36 L.Ed.2d 106 (1973).\nThe Sanitary Board asks that we cut off the record in this case, ignoring the reasons put forward by the agency in its final letter. See Final Disapproval Letter 1-2. According to the Board, we must discard any part of the agency record, no matter how vital it may be to the agency's actual decisionmaking, if it was developed after the CWA's sixty-day deadline had expired. While litigants typically challenge a record for being insufficient, see Save Our Sound OBX v. N.C. Dep't of Transp. , 914 F.3d 213, 226-27 (4th Cir. 2019) ; Nat'l Audubon Soc'y v. Dep't of the Navy , 422 F.3d 174, 198-99 (4th Cir. 2005), the Board here seeks exactly the opposite, asking this court to ignore information that all parties agree may have been relevant to the agency's ultimate decision.\nThis position is directly at odds with the decades of precedent expounding on the connection between a full and accurate administrative record and meaningful judicial review. There is simply no basis for pulling from the CWA's statutory time deadlines a hard full-stop limit on compiling the information needed to make a correct and well-reasoned decision. In requiring the EPA to issue its decisions within a specified time period, Congress intended for the agency to conduct its analysis promptly. It included a citizen suit provision to effectuate that intent. Congress did not intend, however, to convert an agency's untimely decision into an irrational one. Denying an agency the use of the full record on judicial review would only ensure that the court is left reviewing an incomplete record and that the agency is forced to develop ex post rationales for its final decision. Such a rule serves no one.\nTo the Board, this erosion of meaningful judicial review is appropriate as some sort of punishment or sanction for the EPA's tardiness. Administrative remedies, however, ought to be tied to administrative wrongs, and every misstep does not call for a drastic departure from sound practices. Agency failures to meet a prescribed deadline are no exception, see Brock v. Pierce Cty. , 476 U.S. 253, 106 S.Ct. 1834, 90 L.Ed.2d 248 (1986), especially when Congress has provided a mechanism, in the form of the citizen suit provision, for holding the EPA to its deadlines, see Holland v. Pardee Coal Co. , 269 F.3d 424, 431 (4th Cir. 2001) (\"It is well-settled that, where such a consequence is not specified, the federal courts will not in the ordinary course impose their own coercive sanction.\" (quoting United States v. James Daniel Good Real Prop. , 510 U.S. 43, 63, 114 S.Ct. 492, 126 L.Ed.2d 490 (1993) ) ). There was therefore nothing wrong with the EPA defending its final decision on the full record here and not an artificial truncation of it. This record necessarily includes the letter sent by the EPA detailing its reasons for disapproving West Virginia's revised standards.\nB.\nOn the complete administrative record in this case, the EPA's disapproval of West Virginia's revised standards was neither arbitrary nor capricious. We expect that an expert agency, acting in an area of substantial uncertainty and technical complexity, will develop new methods to understand risks and measure outcomes. We might also expect that an agency will take its responsibility to the regulated community seriously, providing affected parties with appropriate guidance and periodic updates along the way. Finally, we might hope that an agency, when confronted with new methods of analysis, will not just cling dogmatically to a prior position. Judged by these criteria, the EPA acted reasonably here. Its decisional process was clearly presented and well supported, and within the bounds of appropriate action under the APA.\nThe EPA's denial was grounded in its conclusion that West Virginia's proposed standard \"would not be protective of ... fish and other aquatic life ... in the Kanawha River.\" Final Disapproval Letter 1; J.A. 66 (citing 40 C.F.R. \u00a7 131.21(a)(2) ). The agency's judgment in this regard was based on the application of recent scientific methods to the specific waters found at the Sanitary Board's site. At bottom, the dispute in this case revolves around the different methods that can be used to determine appropriate copper discharge levels. Some brief discussion of two of these methods is therefore appropriate.\nOne method for arriving at a permissible copper limit is known as the Water Effect Ratio (WER). The environmental risk that copper poses to a river is dependent on the specific characteristics of the water in the river. The basic idea behind the WER is to compare a water sample from the specific site to the laboratory water that is used to set the nationwide levels, generating a ratio that compares the two. See U.S. Envtl. Protection Agency, Aquatic Life Ambient Freshwater Quality Criteria-Copper 2007 Revision 4 (Feb. 2007) (\"The WER is a biological method to compare bioavailability and toxicity in receiving waters versus laboratory test waters.\"). If the water characteristics at the sample site suggest that the CWA's environmental goals can be achieved even when greater amounts of copper are discharged, a WER-based site-specific standard would be more lenient. The EPA has issued guidance on the WER method since the early 1980s. Id.\nThe WER methodology is not perfect. \"[A] WER accounts only for interactions of water quality parameters and their effects ... at a specific location and at a specific time. There is also significant cost to generate a single WER.\"Id. at 4-5. In 2007, the EPA recommended the use of a new method for measuring the environmental harms of copper, known as the Biotic Ligand Model (BLM). Compared to the WER, which relies on expensive sampling, the BLM draws from a large set of available data to assess a wider range of water characteristics. Final Disapproval Letter 2; J.A. 67. According to the EPA, the BLM method is the more cost-effective method, which allows for more frequent tests. The EPA is also of the view that the BLM model more accurately \"account[s] for the effect of individual water quality parameters\" at a given site. Final Disapproval Letter 7; J.A. 72.\nBoth the WER and BLM models continue to play a role in the EPA's scientific judgments regarding appropriate copper standards. The EPA, however, states that the BLM methodology is \"better able to address a broad range of environmental variables across a given site over the course of time,\" Final Disapproval Letter 9; and is therefore \"ultimately intended to replace the WER toxicity test procedures for copper.\" Id. at 2. In the meantime, the EPA uses the BLM methodology to assess site-specific WER results that depart considerably from pre-existing limits. West Virginia's proposed site-specific standard for the Sanitary Board was developed using the WER methodology.\nThe crux of the Sanitary Board's APA claim is that it was improper for the EPA to deny a standard based on a WER methodology because the agency had previously recommended the use of that methodology for developing site-specific standards and had not disavowed that guidance.\nThe EPA's guidance, however, does not at all signal that any standard based on the WER method will receive per se approval from the agency. In fact, the agency's 1994 guidance, which is relied on by West Virginia, expressly states that a \"WER [measurement] larger than 5 ... should be investigated.\" J.A. 139; See U.S. Envtl. Protection Agency, Interim Guidance on Determination and Use of Water-Effect Ratios for Metals 61 (Feb. 1994). The ratio in the state's proposed standard for the Sanitary Board's facility was 5.62. J.A. 148. As the EPA explained in its final decision denying this standard, it scrutinized this figure under the BLM method because, consistent with decades of guidance, \"WER ratios greater than 5 should be subjected to further investigation because they could represent anomalies.\" Final Disapproval Letter 9. There is simply no basis in the EPA's prior guidance for finding that the Sanitary Board was entitled to approval because it used a method that the EPA had expressed reservations about and never suggested was dispositive.\nMoreover, there was nothing arbitrary about the EPA's decision to employ the BLM method to scrutinize the state's submission. The EPA has long cited to the BLM methodology approvingly, suggesting it is a superior means of measuring copper toxicity. See U.S. Envtl. Protection Agency, Aquatic Life Ambient Freshwater Quality Criteria-Copper 2007 Revision 1 (Feb. 2007). When the Board first met with the West Virginia regulators, \"it discussed options, including the potential use of the EPA approved BLM method,\" but ultimately \"decided to move forward with the WER approach.\" J.A. 162 (emphasis added). There is nothing in this record to suggest that the EPA used the BLM method in a cursory or pretextual fashion. To the contrary, the EPA's BLM study was based on the available data most favorable to the West Virginia standards. Final Disapproval Letter 11 (explaining that EPA selected data \"[i]n order to produce the highest possible criteria values and thus represent the least conservative comparison\" to the WER measurement). Even when the EPA was as lenient as possible, however, it still found that West Virginia's revised standard \"would not be protective\" of aquatic life, as it thoroughly explained in its letter to the state. Final Disapproval Letter 1; J.A. 66.\nIn sum, the EPA published guidance on the best methods for measuring copper toxicity, which expressly stated that it preferred one methodology to another. The Sanitary Board considered both options, but ultimately chose to conduct a study using the older methodology. West Virginia's proposed standard was at a level high enough to warrant additional scrutiny from the agency under its longstanding guidance. The EPA examined the standards using the most innovative technology at its disposal and in a manner most favorable to the Board. It then rejected the proposed standard, stated its reasons clearly in its subsequent letter to the state regulator, and offered further steps that the state should take in preparing a new revision to its standards.\nOn the full record before us, it is evident that the EPA reached a justified conclusion. All that might be said against the agency is that it was too slow. Luckily, the CWA provides a mechanism to compel action in that situation. On the merits of the judgment that was actually reached, we find nothing here to suggest the decision was arbitrary, capricious, or contrary to law. In fact, the agency employed the scientific expertise and grounded judgment that the Clean Water Act contemplates.\nC.\nOne final comment must be made about the Sanitary Board's assertion that it was somehow unlawful for the EPA to issue a final determination that departed from the position adopted in its earlier staff letter. It ought to go without saying that when a letter clearly states that the comments contained therein \"do not constitute approval or disapproval decisions,\" they do not, in fact, reflect the agency's final position. J.A. 81. There is a reason letters like this, issued thousands of times by federal agencies every year, travel under the monikers \"advisory,\" \"pre-decisional,\" or \"staff.\" Agencies need the ability to designate the import of the information they disseminate, and this includes the ability to clearly communicate when a decision is final. See, e.g. , Holistic Candlers & Consumers Ass'n v. FDA , 664 F.3d 940, 944 (D.C. Cir. 2012) (holding that FDA warning letters are not reviewable \"final agency action\"). If they could not do this, it is likely that many voluntary and helpful comments from agency staff would be withheld altogether.\nIt may well be that a failure to explain a shift from an earlier position to a final decision could run afoul of the APA, but we do not have that case here. The EPA's final letter to the West Virginia Department of Environmental Protection included a lengthy decision document outlining the reasons for its disapproval. The Sanitary Board may feel that the change in position reflects a change of policies, but that by itself is not impermissible. See Home Builders , 551 U.S. at 658-59, 127 S.Ct. 2518 (\"[T]he only 'inconsistency' respondents can point to is the fact that the agencies changed their minds-something that, as long as the proper procedures were followed, they were fully entitled to do.\"). Judicial review of agency action requires that we not conflate every change of policy with an error of law. The agency explained its reason for getting from one position to another, and that is what the APA requires.\nIV.\nThe Clean Water Act authorizes the EPA to oversee the intergovernmental efforts to protect our nation's navigable waters. In that role, the EPA is not simply a fact-finder or special master for a reviewing court, providing us with the data we need to reach our own judgment. It is instead required to bring its own discretion and expertise to bear on those scientific and technical matters for which it is well-suited. This discretion extends to its review of state water quality standards. Because the EPA had discretion to deny the proposed standard and followed a reasoned and well-documented path to reach its final decision, we must afford its judgment the deference that the law requires.\nThis is not to say the agency's final judgment will please everyone. Public debate on environmental issues often rejects and disowns the relevant science when it proves convenient to do so. The law, however, reflects a different posture. Through standards of review and court/agency interactions, this case and many others underscore that law and science must work in tandem on environmental issues, not at loggerheads. Indeed, it is that partnership between law and science, as illustrated here, that offers the best hope of avoiding environmental disruptions that may one day visit serious adverse consequences upon us all.\nFor the foregoing reasons, the judgment of the district court is\nAFFIRMED .\nThe district court did not reach the merits of the Board's APA claims, finding that they were mooted by the new NPDES permit issued to the Board, which removed a limit for copper effluent. The Board asserts a number of theories as to why its claims still present a live and justiciable controversy, all of which are contested by EPA. Specifically, the Board alleges that because of the EPA's decision to deny the West Virginia standards they face both ongoing monitoring costs and likely future copper limits based on the old, more stringent standards. They also argue that this case is still justiciable because the conduct at issue is \"capable of repetition, yet evading review.\" See S. Pac. Terminal Co. v. ICC , 219 U.S. 498, 515, 31 S.Ct. 279, 55 L.Ed. 310 (1911).\n\"[A]s long as the parties have a concrete interest, however small, in the outcome of the litigation, the case is not moot.\" United States v. Springer , 715 F.3d 535, 540 (4th Cir. 2013) (quoting Ellis v. Ry. Clerks , 466 U.S. 435, 442, 104 S.Ct. 1883, 80 L.Ed.2d 428 (1984) ). While this may not be an open and shut case, we find that the case is not moot because the Sanitary Board is required to secure permits in the future which will surely be shaped by the contours of today's decision. On these precise facts, which involve certain future regulation and disputed standards that are specific to the plaintiff, we find an ongoing justiciable controversy between the parties.",
+        "type": "majority",
+        "author": "WILKINSON, Circuit Judge:"
+      }
+    ],
+    "attorneys": [
+      "ARGUED: Frank Paul Calamita, III, AQUALAW PLC, Richmond, Virginia, for Appellant. Jeffrey Steven Beelaert, UNITED STATES DEPARTMENT OF JUSTICE, Washington, D.C., for Appellees. ON BRIEF: Justin W. Curtis, Paul T. Nyffeler, AQUALAW PLC, Richmond, Virginia, for Appellant. Jeffrey H. Wood, Acting Assistant Attorney General, Eric Grant, Deputy Assistant Attorney General, Sarah A. Buckley, Chloe H. Kolman, Michael Gray, Environment and Natural Resources Division, UNITED STATES DEPARTMENT OF JUSTICE, Washington, D.C.; Thomas Glazer, Nina Rivera, Office of General Counsel, UNITED STATES ENVIRONMENTAL PROTECTION AGENCY, Washington, D.C., for Appellees."
+    ],
+    "corrections": "",
+    "head_matter": "SANITARY BOARD OF the CITY OF CHARLESTON, WEST VIRGINIA, Plaintiff - Appellant,\nv.\nAndrew WHEELER, Acting Administrator of the United States Environmental Protection Agency; United States Environmental Protection Agency, Defendants - Appellees.\nNo. 18-1592\nUnited States Court of Appeals, Fourth Circuit.\nArgued: January 29, 2019\nDecided: March 12, 2019\nARGUED: Frank Paul Calamita, III, AQUALAW PLC, Richmond, Virginia, for Appellant. Jeffrey Steven Beelaert, UNITED STATES DEPARTMENT OF JUSTICE, Washington, D.C., for Appellees. ON BRIEF: Justin W. Curtis, Paul T. Nyffeler, AQUALAW PLC, Richmond, Virginia, for Appellant. Jeffrey H. Wood, Acting Assistant Attorney General, Eric Grant, Deputy Assistant Attorney General, Sarah A. Buckley, Chloe H. Kolman, Michael Gray, Environment and Natural Resources Division, UNITED STATES DEPARTMENT OF JUSTICE, Washington, D.C.; Thomas Glazer, Nina Rivera, Office of General Counsel, UNITED STATES ENVIRONMENTAL PROTECTION AGENCY, Washington, D.C., for Appellees.\nBefore WILKINSON, DIAZ, and FLOYD, Circuit Judges.\nAffirmed by published opinion. Judge Wilkinson wrote the opinion, in which Judge Diaz and Judge Floyd joined."
+  },
+  "file_name": "0324-01",
+  "first_page_order": 324,
+  "last_page_order": 338
+}

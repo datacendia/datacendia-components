@@ -1,0 +1,59 @@
+{
+  "id": 6001708,
+  "name": "Boyd v. United States",
+  "name_abbreviation": "Boyd v. United States",
+  "decision_date": "2010-11-29",
+  "docket_number": "No. 10-6244",
+  "first_page": "1067",
+  "last_page": "1067",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1067"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.558,
+    "sha256": "555df91b6777dd44d382102a0e8693590e1b0e95ca9afd0a5c399ae8ff09e36d",
+    "simhash": "1:0688998f4694d818",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Boyd v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6244.\nBoyd v. United States."
+  },
+  "file_name": "1067-03",
+  "first_page_order": 1089,
+  "last_page_order": 1089
+}

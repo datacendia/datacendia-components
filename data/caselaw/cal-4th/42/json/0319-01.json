@@ -1,0 +1,1955 @@
+{
+  "id": 3673671,
+  "name": "INTERNATIONAL FEDERATION OF PROFESSIONAL AND TECHNICAL ENGINEERS, LOCAL 21, AFL-CIO et al., Petitioners, v. THE SUPERIOR COURT OF ALAMEDA COUNTY, Respondent; CONTRA COSTA NEWSPAPERS, INC., et al., Real Parties in Interest",
+  "name_abbreviation": "International Federation of Professional & Technical Engineers, Local 21 v. Superior Court",
+  "decision_date": "2007-08-27",
+  "docket_number": "No. S134253",
+  "first_page": "319",
+  "last_page": "357",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "42 Cal. 4th 319"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal.",
+    "id": 9021,
+    "name": "Supreme Court of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "541 U.S. 157",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5929642
+      ],
+      "weight": 4,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/541/0157-01"
+      ]
+    },
+    {
+      "cite": "100 A.L.R.3d 699",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R. 3d",
+      "pin_cites": [
+        {
+          "page": "705-706, \u00a7 3"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 Wis.2d 637",
+      "category": "reporters:state",
+      "reporter": "Wis. 2d",
+      "case_ids": [
+        8671920
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/wis-2d/42/0637-01"
+      ]
+    },
+    {
+      "cite": "994 P.2d 857",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "100 Wn.App. 7",
+      "category": "reporters:state",
+      "reporter": "Wash. App.",
+      "case_ids": [
+        1363029
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/wash-app/100/0007-01"
+      ]
+    },
+    {
+      "cite": "951 P.2d 357",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "90 Wn.App. 205",
+      "category": "reporters:state",
+      "reporter": "Wash. App.",
+      "case_ids": [
+        428607
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/wash-app/90/0205-01"
+      ]
+    },
+    {
+      "cite": "638 P.2d 503",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "case_ids": [
+        10435788
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/p2d/638/0503-01"
+      ]
+    },
+    {
+      "cite": "606 P.2d 1193",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "case_ids": [
+        10454373
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/p2d/606/1193-01"
+      ]
+    },
+    {
+      "cite": "621 S.W.2d 763",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9982534
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/621/0763-01"
+      ]
+    },
+    {
+      "cite": "336 A.2d 920",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 Pa.Commw. 599",
+      "category": "reporters:state",
+      "reporter": "Pa. Commw.",
+      "case_ids": [
+        1865693
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/pa-commw/18/0599-01"
+      ]
+    },
+    {
+      "cite": "550 N.E.2d 214",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "49 OhioApp.3d 59",
+      "category": "reporters:state",
+      "reporter": "Ohio App. 3d",
+      "case_ids": [
+        6713001
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ohio-app-3d/49/0059-01"
+      ]
+    },
+    {
+      "cite": "338 N.Y.S.2d 654",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "72 Misc.2d 280",
+      "category": "reporters:state",
+      "reporter": "Misc. 2d",
+      "case_ids": [
+        1255555
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/misc2d/72/0280-01"
+      ]
+    },
+    {
+      "cite": "290 A.2d 866",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "112 N.H. 160",
+      "category": "reporters:state",
+      "reporter": "N.H.",
+      "case_ids": [
+        4437794
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nh/112/0160-01"
+      ]
+    },
+    {
+      "cite": "927 S.W.2d 477",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10011397
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/927/0477-01"
+      ]
+    },
+    {
+      "cite": "740 So.2d 925",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        11578975
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/740/0925-01"
+      ]
+    },
+    {
+      "cite": "287 N.W.2d 304",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "93 Mich.App. 650",
+      "category": "reporters:state",
+      "reporter": "Mich. App.",
+      "case_ids": [
+        2173536
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich-app/93/0650-01"
+      ]
+    },
+    {
+      "cite": "375 N.E.2d 299",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "374 Mass. 812",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        3872318
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/374/0812-01"
+      ]
+    },
+    {
+      "cite": "345 A.2d 855",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "276 Md. 211",
+      "category": "reporters:state",
+      "reporter": "Md.",
+      "case_ids": [
+        1881322
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/md/276/0211-01"
+      ]
+    },
+    {
+      "cite": "323 So.2d 217",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9657710
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/323/0217-01"
+      ]
+    },
+    {
+      "cite": "249 Kan. 163",
+      "category": "reporters:state",
+      "reporter": "Kan.",
+      "case_ids": [
+        1505257
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/kan/249/0163-01"
+      ]
+    },
+    {
+      "cite": "601 N.W.2d 42",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "case_ids": [
+        11563295
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nw2d/601/0042-01"
+      ]
+    },
+    {
+      "cite": "376 N.E.2d 22",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "17 Ill.Dec. 129",
+      "category": "reporters:state",
+      "reporter": "Ill. Dec.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "59 Ill.App.3d 143",
+      "category": "reporters:state",
+      "reporter": "Ill. App. 3d",
+      "case_ids": [
+        3359447
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ill-app-3d/59/0143-01"
+      ]
+    },
+    {
+      "cite": "138 Idaho 143",
+      "category": "reporters:state",
+      "reporter": "Idaho",
+      "case_ids": [
+        335670
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/idaho/138/0143-01"
+      ]
+    },
+    {
+      "cite": "311 S.E.2d 806",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "252 Ga. 19",
+      "category": "reporters:state",
+      "reporter": "Ga.",
+      "case_ids": [
+        1199354
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ga/252/0019-01"
+      ]
+    },
+    {
+      "cite": "973 P.2d 1132",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "case_ids": [
+        11768307
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/p2d/973/1132-01"
+      ]
+    },
+    {
+      "cite": "539 F.2d 58",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1040066
+      ],
+      "pin_cites": [
+        {
+          "page": "62"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/539/0058-01"
+      ]
+    },
+    {
+      "cite": "135 F.3d 891",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11872678,
+        11872774
+      ],
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "903"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/135/0891-01",
+        "/f3d/135/0891-02"
+      ]
+    },
+    {
+      "cite": "929 F.2d 81",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10541732
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "87-88"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/929/0081-01"
+      ]
+    },
+    {
+      "cite": "936 F.2d 1300",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        5681242,
+        10534348
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "1303"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/290/0243-01",
+        "/f2d/936/1300-01"
+      ]
+    },
+    {
+      "cite": "26 F.3d 1479",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10516485
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "1483-1484"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/26/1479-01"
+      ]
+    },
+    {
+      "cite": "5 U.S.C. \u00a7 552",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(b)(7)(C)"
+        },
+        {
+          "page": "(b)(6)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "1 Cal.4th 1",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1201322
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/1/0001-01"
+      ]
+    },
+    {
+      "cite": "42 Cal.4th 278",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3673339
+      ],
+      "pin_cites": [
+        {
+          "page": "300"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/42/0278-01"
+      ]
+    },
+    {
+      "cite": "75 Cal.Rptr.2d 27",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "63 Cal.App.4th 1108",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "pin_cites": [
+        {
+          "page": "fn. 5"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "580 P.2d 657",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "147 Cal.Rptr. 157",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 Cal.3d 527",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2284125
+      ],
+      "pin_cites": [
+        {
+          "page": "539, fn. 10"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/21/0527-01"
+      ]
+    },
+    {
+      "cite": "969 P.2d 160",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1978,
+      "opinion_index": 0
+    },
+    {
+      "cite": "81 Cal.Rptr.2d 315",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1978,
+      "opinion_index": 0
+    },
+    {
+      "cite": "19 Cal.4th 1074",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1709339
+      ],
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "1079"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/19/1074-01"
+      ]
+    },
+    {
+      "cite": "107 P.3d 860",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 Cal.Rptr.3d 761",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.4th 577",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        873226
+      ],
+      "pin_cites": [
+        {
+          "page": "588"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/35/0577-01"
+      ]
+    },
+    {
+      "cite": "107 Cal.Rptr.2d 642",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "89 Cal.App.4th 430",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        703648
+      ],
+      "pin_cites": [
+        {
+          "page": "434"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/89/0430-01"
+      ]
+    },
+    {
+      "cite": "599 P.2d 676",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "158 Cal.Rptr. 370",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 Cal.3d 317",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2270561
+      ],
+      "pin_cites": [
+        {
+          "page": "330-331"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/25/0317-01"
+      ]
+    },
+    {
+      "cite": "801 P.2d 357",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "276 Cal.Rptr. 114",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "52 Cal.3d 40",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2376217
+      ],
+      "pin_cites": [
+        {
+          "page": "46"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/52/0040-01"
+      ]
+    },
+    {
+      "cite": "999 P.2d 718",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1990,
+      "opinion_index": 0
+    },
+    {
+      "cite": "96 Cal.Rptr.2d 485",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1990,
+      "opinion_index": 0
+    },
+    {
+      "cite": "23 Cal.4th 116",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        277035
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "141"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/23/0116-01"
+      ]
+    },
+    {
+      "cite": "805 P.2d 873",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "278 Cal.Rptr. 614",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "52 Cal.3d 1142",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2375995
+      ],
+      "pin_cites": [
+        {
+          "page": "1160, fn. 7"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/52/1142-01"
+      ]
+    },
+    {
+      "cite": "141 P.3d 288",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "48 Cal.Rptr.3d 183",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "39 Cal.4th 1272",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3582830
+      ],
+      "pin_cites": [
+        {
+          "page": "1284-1286"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/39/1272-01"
+      ]
+    },
+    {
+      "cite": "489 U.S. 749",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12033433
+      ],
+      "weight": 4,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/489/0749-01"
+      ]
+    },
+    {
+      "cite": "161 Cal.Rptr. 19",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1989,
+      "opinion_index": 0
+    },
+    {
+      "cite": "100 Cal.App.3d 69",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2007112
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "76-77"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/100/0069-01"
+      ]
+    },
+    {
+      "cite": "32 Cal.Rptr.2d 382",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "27 Cal.App.4th 157",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4581596
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/27/0157-01"
+      ]
+    },
+    {
+      "cite": "510 U.S. 487",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        230545
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/510/0487-01"
+      ]
+    },
+    {
+      "cite": "88 Cal.Rptr.2d 552",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1994,
+      "opinion_index": 0
+    },
+    {
+      "cite": "74 Cal.App.4th 1008",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        245445
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "1021"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/74/1008-01"
+      ]
+    },
+    {
+      "cite": "651 P.2d 822",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "186 Cal.Rptr. 235",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "32 Cal.3d 440",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1950677
+      ],
+      "pin_cites": [
+        {
+          "page": "453, fn. 13"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/32/0440-01"
+      ]
+    },
+    {
+      "cite": "196 Cal.Rptr. 45",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "146 Cal.App.3d 947",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2099105
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/146/0947-01"
+      ]
+    },
+    {
+      "cite": "136 Cal.Rptr. 821",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "67 Cal.App.3d 777",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2029289
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/67/0777-01"
+      ]
+    },
+    {
+      "cite": "980 P.2d 337",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1977,
+      "opinion_index": 0
+    },
+    {
+      "cite": "86 Cal.Rptr.2d 778",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1977,
+      "opinion_index": 0
+    },
+    {
+      "cite": "20 Cal.4th 1178",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        829714
+      ],
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "1211, fn. 28"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/20/1178-01"
+      ]
+    },
+    {
+      "cite": "5 C.F.R. \u00a7 293.311",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "year": 2007,
+      "opinion_index": 0
+    },
+    {
+      "cite": "522 P.2d 1345",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "114 Cal.Rptr. 345",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "11 Cal.3d 662",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2302355
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/11/0662-01"
+      ]
+    },
+    {
+      "cite": "466 P.2d 225",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "85 Cal.Rptr. 1",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "2 Cal.3d 259",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2310767
+      ],
+      "pin_cites": [
+        {
+          "page": "268"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/2/0259-01"
+      ]
+    },
+    {
+      "cite": "865 P.2d 633",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "26 Cal.Rptr.2d 834",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "7 Cal.4th 1",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1981852
+      ],
+      "pin_cites": [
+        {
+          "page": "35"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/7/0001-01"
+      ]
+    },
+    {
+      "cite": "725 P.2d 470",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "230 Cal.Rptr. 362",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 Cal.3d 646",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4464720
+      ],
+      "pin_cites": [
+        {
+          "page": "651"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/42/0646-01"
+      ]
+    },
+    {
+      "cite": "3 Cal.Rptr.3d 915",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "111 Cal.App.4th 883",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1229307
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/111/0883-01"
+      ]
+    },
+    {
+      "cite": "5 Cal.Rptr.3d 847",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "112 Cal.App.4th 1500",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        40939
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/112/1500-01"
+      ]
+    },
+    {
+      "cite": "165 P.3d 462",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "64 Cal.Rptr.3d 661",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "42 Cal.4th 278",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3673339
+      ],
+      "pin_cites": [
+        {
+          "page": "294"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-4th/42/0278-01"
+      ]
+    },
+    {
+      "cite": "165 P.3d 462",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 2
+    },
+    {
+      "cite": "64 Cal.Rptr.3d 661",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 2
+    },
+    {
+      "cite": "42 Cal.4th 278",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3673339
+      ],
+      "pin_cites": [
+        {
+          "page": "306"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/cal-4th/42/0278-01"
+      ]
+    },
+    {
+      "cite": "417 F.Supp. 651",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        3877401
+      ],
+      "pin_cites": [
+        {
+          "page": "655"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/f-supp/417/0651-01"
+      ]
+    },
+    {
+      "cite": "997 F.2d 1489",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1878827,
+        3816293
+      ],
+      "pin_cites": [
+        {
+          "page": "1494"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/f2d/997/1489-01",
+        "/us-app-dc/302/0287-01"
+      ]
+    },
+    {
+      "cite": "892 So.2d 666",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9030399
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "670"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/so2d/892/0666-01"
+      ]
+    },
+    {
+      "cite": "105 Cal.Rptr.2d 476",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 3
+    },
+    {
+      "cite": "87 Cal.App.4th 1083",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        107051
+      ],
+      "pin_cites": [
+        {
+          "page": "1097"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/cal-app-4th/87/1083-01"
+      ]
+    },
+    {
+      "cite": "26 Cal.Rptr.3d 92",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2003,
+      "opinion_index": 3
+    },
+    {
+      "cite": "127 Cal.App.4th 805",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        18803
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "821"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/cal-app-4th/127/0805-01"
+      ]
+    },
+    {
+      "cite": "49 Cal.Rptr.3d 519",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 3
+    },
+    {
+      "cite": "143 Cal.App.4th 742",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3596359
+      ],
+      "pin_cites": [
+        {
+          "page": "756"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/cal-app-4th/143/0742-01"
+      ]
+    },
+    {
+      "cite": "36 P.3d 21",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 3
+    },
+    {
+      "cite": "114 Cal.Rptr.2d 482",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 3
+    },
+    {
+      "cite": "26 Cal.4th 1216",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        456803
+      ],
+      "pin_cites": [
+        {
+          "page": "1220"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/cal-4th/26/1216-01"
+      ]
+    },
+    {
+      "cite": "63 F.3d 994",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7416053
+      ],
+      "pin_cites": [
+        {
+          "page": "998"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/f3d/63/0994-01"
+      ]
+    },
+    {
+      "cite": "895 P.2d 56",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 3
+    },
+    {
+      "cite": "41 Cal.Rptr.2d 220",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 3
+    },
+    {
+      "cite": "10 Cal.4th 257",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1992339
+      ],
+      "pin_cites": [
+        {
+          "page": "274"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/cal-4th/10/0257-01"
+      ]
+    },
+    {
+      "cite": "154 P.3d 1003",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 3
+    },
+    {
+      "cite": "56 Cal.Rptr.3d 477",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 3
+    },
+    {
+      "cite": "40 Cal.4th 948",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3158910
+      ],
+      "pin_cites": [
+        {
+          "page": "961"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/cal-4th/40/0948-01"
+      ]
+    },
+    {
+      "cite": "74 Cal.Rptr.2d 69",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 3
+    },
+    {
+      "cite": "63 Cal.App.4th 367",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "pin_cites": [
+        {
+          "page": "376"
+        }
+      ],
+      "opinion_index": 3
+    },
+    {
+      "cite": "719 P.2d 660",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 3
+    },
+    {
+      "cite": "227 Cal.Rptr. 90",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 3
+    },
+    {
+      "cite": "41 Cal.3d 937",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4543860
+      ],
+      "pin_cites": [
+        {
+          "page": "951-952"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/cal-3d/41/0937-01"
+      ]
+    },
+    {
+      "cite": "425 U.S. 352",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6176867
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "381"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/425/0352-01"
+      ]
+    },
+    {
+      "cite": "822 F.2d 182",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1723414
+      ],
+      "pin_cites": [
+        {
+          "page": "186"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/f2d/822/0182-01"
+      ]
+    },
+    {
+      "cite": "879 F.2d 873",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        3472141,
+        10537717
+      ],
+      "pin_cites": [
+        {
+          "page": "878"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us-app-dc/279/0027-01",
+        "/f2d/879/0873-01"
+      ]
+    },
+    {
+      "cite": "187 Cal.Rptr. 4",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 3
+    },
+    {
+      "cite": "137 Cal.App.3d 313",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2097401
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/cal-app-3d/137/0313-01"
+      ]
+    },
+    {
+      "cite": "502 U.S. 164",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6221063
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "175"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/502/0164-01"
+      ]
+    },
+    {
+      "cite": "456 U.S. 595",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6188847
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "602"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/456/0595-01"
+      ]
+    },
+    {
+      "cite": "813 P.2d 240",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 3
+    },
+    {
+      "cite": "283 Cal.Rptr. 893",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 3
+    },
+    {
+      "cite": "53 Cal.3d 1325",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2358590
+      ],
+      "pin_cites": [
+        {
+          "page": "1350"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/cal-3d/53/1325-01"
+      ]
+    },
+    {
+      "cite": "165 P.3d 462",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "weight": 2,
+      "opinion_index": 3
+    },
+    {
+      "cite": "64 Cal.Rptr.3d 661",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "weight": 2,
+      "opinion_index": 3
+    },
+    {
+      "cite": "541 U.S. 157",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5929642
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "160"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/541/0157-01"
+      ]
+    },
+    {
+      "cite": "539 F.2d 58",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1040066
+      ],
+      "pin_cites": [
+        {
+          "page": "62"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/f2d/539/0058-01"
+      ]
+    },
+    {
+      "cite": "26 F.3d 1479",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10516485
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "1483"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/f3d/26/1479-01"
+      ]
+    },
+    {
+      "cite": "5 U.S.C. \u00a7 552",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "(b)(6)"
+        },
+        {
+          "page": "(b)(7)(C)"
+        }
+      ],
+      "opinion_index": 3
+    },
+    {
+      "cite": "42 Cal.4th 278",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3673339
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "306"
+        },
+        {
+          "page": "306"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/cal-4th/42/0278-01"
+      ]
+    },
+    {
+      "cite": "141 P.3d 288",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 3
+    },
+    {
+      "cite": "48 Cal.Rptr.3d 183",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 3
+    },
+    {
+      "cite": "39 Cal.4th 1272",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3582830
+      ],
+      "pin_cites": [
+        {
+          "page": "1283"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/cal-4th/39/1272-01"
+      ]
+    },
+    {
+      "cite": "489 U.S. 749",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12033433
+      ],
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "762, fn. 13"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/489/0749-01"
+      ]
+    },
+    {
+      "cite": "510 U.S. 487",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        230545
+      ],
+      "weight": 6,
+      "pin_cites": [
+        {
+          "page": "501"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/510/0487-01"
+      ]
+    },
+    {
+      "cite": "466 P.2d 225",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 3
+    },
+    {
+      "cite": "85 Cal.Rptr. 1",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 3
+    },
+    {
+      "cite": "2 Cal.3d 259",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2310767
+      ],
+      "pin_cites": [
+        {
+          "page": "268"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/cal-3d/2/0259-01"
+      ]
+    },
+    {
+      "cite": "865 P.2d 633",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 3
+    },
+    {
+      "cite": "26 Cal.Rptr.2d 834",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 3
+    },
+    {
+      "cite": "7 Cal.4th 1",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1981852
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/cal-4th/7/0001-01"
+      ]
+    },
+    {
+      "cite": "3 Cal.Rptr.3d 915",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 3
+    },
+    {
+      "cite": "111 Cal.App.4th 883",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1229307
+      ],
+      "pin_cites": [
+        {
+          "page": "892"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/cal-app-4th/111/0883-01"
+      ]
+    },
+    {
+      "cite": "5 Cal.Rptr.3d 847",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 3
+    },
+    {
+      "cite": "112 Cal.App.4th 1500",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        40939
+      ],
+      "pin_cites": [
+        {
+          "page": "1516"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/cal-app-4th/112/1500-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 2524,
+    "char_count": 97300,
+    "ocr_confidence": 0.923,
+    "pagerank": {
+      "raw": 3.7518564782477747e-07,
+      "percentile": 0.8952659016027575
+    },
+    "sha256": "aab97ebd55b532eb829fd8bb220847f8ae4dd6c31d537e195c9affbe799063f0",
+    "simhash": "1:b7eace91579b5750",
+    "word_count": 15010
+  },
+  "last_updated": "2024-02-27T16:39:29.802540+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "INTERNATIONAL FEDERATION OF PROFESSIONAL AND TECHNICAL ENGINEERS, LOCAL 21, AFL-CIO et al., Petitioners, v. THE SUPERIOR COURT OF ALAMEDA COUNTY, Respondent; CONTRA COSTA NEWSPAPERS, INC., et al., Real Parties in Interest."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nGEORGE, C. J.\nThis case presents the question whether the names and salaries of public employees earning $100,000 or more per year, including peace officers, are exempt from public disclosure under the California Public Records Act (Gov. Code, \u00a7 6250 et seq.). The Court of Appeal concluded they are not, because \u201cwell-established norms of California public policy and American public employment exclude public employee names and salaries from the zone of financial privacy protection.\u201d For the reasons explained below, we affirm the judgment of the Court of Appeal.\nI.\nReporters employed by Contra Costa Newspapers, Inc. (the Newspapers), requested under the California Public Records Act (the Act) that the City of Oakland (the City) provide them with the names, job titles, and gross salaries of all city employees who earned $100,000 or more in fiscal year 2003-2004, including those individuals whose base salaries equaled or exceeded that amount and those who earned a lower base salary but were paid $100,000 or more because of overtime work. The City agreed to disclose salary and overtime information for each job classification, but refused to provide salary information linked to individual employees, claiming that individually identified salary information is exempt from disclosure. The Newspapers sought a writ of mandate in the superior court to compel the City to disclose the requested salary records.\nThe City\u2019s refusal was a departure from its past practice. At least during the years 1996 through 2003, the City\u2019s personnel director disclosed the names, job titles, and salaries of all city employees, and this information was published in a local newspaper. The City changed its policy in May 2004, citing as factors supporting this decision (1) two appellate court decisions that recognized a privacy right in public-employee salary information (Teamsters Local 856 v. Priceless, LLC (2003) 112 Cal.App.4th 1500 [5 Cal.Rptr.3d 847] (Priceless) and City of Los Angeles v. Superior Court (2003) 111 Cal.App.4th 883 [3 Cal.Rptr.3d 915] (City of Los Angeles)); (2) increased concerns regarding financial privacy; and (3) strong opposition to its prior policy from two unions that represented city employees. In addition, because the City has a merit-based compensation system, it concluded that disclosing the salaries of public employees by name each year would permit members of the public to construct a performance evaluation of each employee by calculating the percentage increase in his or her salary from year to year, which would invade the employee\u2019s privacy.\nThe superior court granted leave to intervene to two employee unions, the International Federation of Professional and Technical Engineers, Local 21, AFL-CIO (Local 21), and the Oakland Police Officers Association (the Police Officers Association). The superior court granted the Newspapers\u2019 petition and ordered the City to disclose the requested salary information. The court concluded that the City and the intervening unions had failed to establish that city employees who earn $100,000 or more have any protected privacy interest in information related to their salary, and found that such salary information consistently had been disclosed in the past, both by the City and by federal, state, and other local governments. Although the City and some other cities recently had refused to disclose individually identified salary information, the court concluded that these refusals appeared to reflect \u201cuncertainty about the proper interpretation of the [Act] in light of recent court decisions.\u201d\nThe superior court also concluded that, even assuming a privacy interest existed, that interest is outweighed by the public interest in disclosure. The court found \u201cextremely speculative\u201d the fears expressed by two declarants that identity fraud and unwanted solicitations would ensue in the event information disclosing their salaries were to be released. Furthermore, the superior court found, the evidence presented by the Newspapers supports their contention that disclosure of the names of employees in connection with their individual salaries is \u201cin many cases necessary to disclose inefficiency, favoritism, nepotism, and fraud with respect to the government\u2019s use of public funds for employee salaries.\u201d The court also rejected the Police Officers Association\u2019s contention that a different result is required under Penal Code sections 832.7 and 832.8 with regard to its members because those statutes render peace officer personnel records confidential, the court concluding that salary information is not included within the definition of \u201cpersonnel records\u201d under the latter statute.\nThe City chose not to appeal from the judgment rendered by the superior court. Local 21 and the Police Officers Association (collectively, the Unions) filed a petition for writ of mandate in the Court of Appeal. After issuing an order to show cause, that court denied the Unions\u2019 petitions. The Unions then successfully sought review in this court.\nII.\nA.\nOpenness in government is essential to the functioning of a democracy. \u201cImplicit in the democratic process is the notion that government should be accountable for its actions. In order to verify accountability, individuals must have access to government files. Such access permits checks against the arbitrary exercise of official power and secrecy in the political process.\u201d (CBS, Inc. v. Block (1986) 42 Cal.3d 646, 651 [230 Cal.Rptr. 362, 725 P.2d 470], fn. omitted.) In adopting the Act, the Legislature declared that \u201caccess to information concerning the conduct of the people\u2019s business is a fundamental and necessary right of every person in this state.\u201d (\u00a7 6250.) As the result of an initiative adopted by the voters in 2004, this principle is now enshrined in the state Constitution: \u201cThe people have the right of access to information concerning the conduct of the people\u2019s business, and therefore, ... the writings of public officials and agencies shall be open to public scrutiny.\u201d (Cal. Const., art. I, \u00a7 3, subd. (b)(1).)\nThe Legislature has been \u201cmindful of the right of individuals to privacy.\u201d (\u00a7 6250.) Set forth in the Act are numerous exceptions to the requirement of public disclosure, many of which are designed to protect individual privacy. (See \u00a7 6254.) In addition, a catchall exception applies if \u201con the facts of the particular case the public interest served by not disclosing the record clearly outweighs the public interest served by disclosure of the record.\u201d (\u00a7 6255, subd. (a).) Unless one of the exceptions stated in the Act applies, the public is entitled to access to \u201cany writing containing information relating to the conduct of the public\u2019s business prepared, owned, used, or retained by any state or local agency.\u201d (\u00a7 6252, subd. (e); see \u00a7 6253, subd. (a).)\nThe parties agree that the records at issue meet the definition of public records contained in the Act. (\u00a7 6252, subd. (d); \u00a7 6253, subd. (a).) The records therefore must be disclosed unless one of the statutory exceptions applies. The party seeking to withhold public records bears the burden of demonstrating that an exception applies. (See \u00a7 6255.) At issue here is the exemption for \u201c[personnel, medical, or similar files, the disclosure of which would constitute an unwarranted invasion of personal privacy.\u201d (\u00a7 6254, subd. (c).) The Unions contend that the salaries of named public employees are \u201cpersonnel ... or similar files\u201d and that their disclosure constitutes an \u201cunwarranted invasion of personal privacy\u201d under this exception.\nWe need not decide whether the records of a public entity\u2019s payroll expenditures constitute \u201cpersonnel... or similar files\u201d because, assuming for purposes of discussion that they do, the exemption does not apply; the disclosure here does not constitute an \u201cunwarranted invasion of personal privacy.\u201d (\u00a7 6254, subd. (c).) This exemption requires us to balance two competing interests, both of which the Act seeks to protect\u2014the public\u2019s interest in disclosure and the individual\u2019s interest in personal privacy. Balancing these interests, we conclude that disclosure of the salary information at issue in the present case would not constitute an unwarranted invasion of personal privacy.\n\u201cA particular class of information is private when well-established social norms recognize the need to maximize individual control over its dissemination and use to prevent unjustified embarrassment or indignity.\u201d (Hill v. National Collegiate Athletic Assn. (1994) 7 Cal.4th 1, 35 [26 Cal.Rptr.2d 834, 865 P.2d 633] (Hill).) The parties agree that individuals have a legally recognized privacy interest in their personal financial information. Even before the explicit incorporation of the right of privacy into our state Constitution, we recognized that \u201cthe protection of one\u2019s personal financial affairs and those of his (or her) spouse and children against compulsory public disclosure is an aspect of the zone of privacy which is protected by the Fourth Amendment and which also falls within that penumbra of constitutional rights into which the government may not intrude absent a showing of compelling need and that the intrusion is not overly broad.\u201d (City of Carmel-by-the-Sea v. Young (1970) 2 Cal.3d 259, 268 [85 Cal.Rptr. 1, 466 P.2d 225] (City of Carmel).) The financial disclosure statute at issue in City of Carmel required every public officer and every candidate for state or local office to disclose the nature and extent of his or her investments in excess of $10,000 as well as those of his or her spouse and their minor children. We held that the law was an overbroad intrusion into the right of privacy and thereby invalidly restricted the right to seek or hold public office or employment. \u201c[T]he right of privacy concerns one\u2019s feelings and one\u2019s own peace of mind [citation], and certainly one\u2019s personal financial affairs are an essential element of such peace of mind.\u201d (Ibid.) In City of Carmel, we balanced the government\u2019s need to minimize conflicts of interest against the individual\u2019s right to maintain privacy in his or her personal financial affairs, concluding that the financial disclosure statute at issue was unconstitutional because it made no attempt to link the disclosure requirements to the dealings or assets that might be expected to give rise to a conflict. (Id. at p. 269; but see County of Nevada v. MacMillen (1974) 11 Cal.3d 662 [114 Cal.Rptr. 345, 522 P.2d 1345] [upholding later enacted, more narrowly drawn financial disclosure law].)\nThe statute at issue in City of Carmel required disclosure of personal financial matters unrelated to the individual\u2019s public employment. The present case, in contrast, involves disclosure of financial matters directly related to the individual\u2019s public employment. Of course, we recognize that many individuals, including public employees, may be uncomfortable with the prospect of others knowing their salary and that many of these individuals would share that information only on a selective basis, even within the workplace. Nor do we question that public disclosure of an individual\u2019s salary may cause discomfort or embarrassment. Nonetheless, in light of the strong public policy supporting transparency in government, an individual\u2019s expectation of privacy in a salary earned in public employment is significantly less than the privacy expectation regarding income earned in the private sector.\nTo the extent some public employees may expect their salaries to remain a private matter, that expectation is not a reasonable one and is, accordingly, entitled to diminished weight in the balancing test we apply under section 6254, subdivision (c). The \u201ccustoms, practices, and physical settings surrounding particular activities may create or inhibit reasonable expectations of privacy.\u201d (Hill, supra, 7 Cal.4th at p. 36.) \u201cA \u2018reasonable\u2019 expectation of privacy is an objective entitlement founded on broadly based and widely accepted community norms.\u201d (Id. at p. 37.) The \u201cbroadly based and widely accepted community norm[]\u201d applicable to government employee salary information is public disclosure.\nWell before the Act was adopted, the Attorney General stated that \u201cthe name of every public officer and employee, as well as the amount of his salary, is a matter of public record.\u201d (State Employees\u2019 Retirement Act, 25 Ops.Cal.Atty.Gen. 90, 91 (1955) [concluding that state-paid retirement benefits are public records].) Following adoption of the Act, the Attorney General consistently has maintained that same position. (See County Payroll Records as Public Records, 60 Ops.Cal.Atty.Gen. 110 (1977) [county payroll records of names and amounts received by retirees are public records]; Records for Performance Awards, 68 Ops.Cal.Atty.Gen. 73 (1985) [records of the amounts and reasons for performance awards granted to executive managers of a city are subject to disclosure under the Act].)\nThe Attorney General\u2019s long-standing position that government payroll information is public is consistent with the widespread practice of federal, state, and local governments. Evidence submitted to the superior court by the Newspapers demonstrates that disclosure of salary information has been the practice of both the state and of local governments, including not only the City of Oakland itself but also the nearby City of Berkeley, the City and County of San Francisco, as well as Contra Costa County. The Newspapers\u2019 evidence also establishes that it is a policy of the State Controller to consider the name and salary of every public employee a matter of public record and to disclose this information to any member of the public upon request. Additionally, federal regulations require that the salary rates, including special performance awards and bonuses, of most of its employees be made public. (5 C.F.R. \u00a7 293.311 (2007).) The Court of Appeal in the present case, undertaking a review of case law from other jurisdictions, observed that \u201cdisclosure of public employee names and salaries is overwhelmingly the norm.\u201d\nCounterbalancing any cognizable interest that public employees may have in avoiding disclosure of their salaries is the strong public interest in knowing how the government spends its money. As we have observed in the context of the public\u2019s right of access to court proceedings and documents, public access makes it possible for members of the public \u201c \u2018to expose corruption, incompetence, inefficiency, prejudice, and favoritism.\u2019 \u201d (NBC Subsidiary (KNBC-TV), Inc. v. Superior Court (1999) 20 Cal.4th 1178, 1211, fn. 28 [86 Cal.Rptr.2d 778, 980 P.2d 337], quoting Estate of Hearst (1977) 67 Cal.App.3d 777 [136 Cal.Rptr. 821].)\nIn the analogous context of open meeting laws, a distinction has been drawn between personnel matters, which may be discussed in sessions closed to the public, and salaries, which must be discussed in open session. (San Diego Union v. City Council (1983) 146 Cal.App.3d 947 [196 Cal.Rptr. 45].) California\u2019s open meetings law, the Ralph M. Brown Act (Brown Act) (\u00a7 54950 et seq.), requires that the meetings of local legislative bodies be open to the public, except as otherwise provided. (\u00a7 54953.) The Brown Act permits a closed session for the consideration of \u201cthe appointment, employment, evaluation of performance, discipline, or dismissal of a public employee . . . .\u201d (\u00a7 54957, subd. (b)(1).) Accordingly, the San Diego Union case held that the Brown Act permitted a city council to discuss, in closed session, the performance of various city management employees, but that any discussion or decision about salary increases for those employees must take place in open session. The court rejected the argument that salary fell within the exception for discussions of \u201cemployment\u201d or \u201cevaluation of performance\u201d because an employee\u2019s salary was a term and condition of the employee\u2019s continued employment and closely related to performance. \u201cSalaries and other terms of compensation constitute municipal budgetary matters of substantial public interest warranting open discussion and eventual electoral . . . ratification. Public visibility breeds public awareness which in turn fosters public activism[,] politically and subtly encouraging the governmental entity to permit public participation in the discussion process. It is difficult to imagine a more critical time for public scrutiny of its governmental decision-making process than when the latter is determining how it shall spend public funds.\u201d (San Diego Union, supra, 146 Cal.App.3d at p. 955.)\nThese same considerations support the conclusion that salary information should not be exempt from disclosure under the Act. The Newspapers submitted to the trial court numerous examples of articles published throughout the state that used information concerning public employee salaries to illustrate claimed nepotism, favoritism, or financial mismanagement in state and local government. For instance, one article disclosed that a city department manager\u2019s wife was earning $80,000 as an information technology specialist assigned to that department while the department was suffering a budget shortfall requiring layoffs. Another article exposed the circumstance that a city assessor hired a number of individuals who had contributed to (or worked on) her election campaign. Other articles revealed numerous additional instances of questionable use of public funds. Changes in a school district pension system resulted in large pension increases to some of the district\u2019s top administrators. Legislation reclassified an increasing number of state employees as safety workers eligible for pensions higher than those received by other state workers. A University of California executive received a substantial pay raise at the same time the university was laying off other employees and raising student tuition. A city firefighter, a police officer, and a transit supervisor were the city\u2019s highest grossing employees due to overtime pay. These examples, even when they reveal no impropriety, amply illustrate that disclosure of government salary information serves a significant public interest.\nIn upholding the trial court\u2019s order requiring disclosure, the Court of Appeal expressly declined to follow Priceless, supra, 112 Cal.App.4th 1500, a case that, as noted above, contributed to the City of Oakland\u2019s decision to discontinue its historical practice of disclosing the salaries of its employees. Like the Court of Appeal, we find Priceless to be unpersuasive.\nIn that case, a newspaper requested, from a number of cities, disclosure of the names and salaries of city employees. The appellate court upheld a trial court order granting a preliminary injunction, sought by a number of employee unions, requiring the cities to withhold such records pending resolution of the case. In that procedural posture and limited context, the appellate court concluded that the unions were likely to prevail on their claim that the records were exempt from disclosure under section 6254, subdivision (c).\nThe Court of Appeal in Priceless rejected the newspaper\u2019s argument that public employees had no right to control the dissemination of their individually identified salary information. The appellate court reasoned that the Act recognizes a right of privacy in one\u2019s personnel files. (\u00a7 6254, subd. (c); Priceless, supra, 112 Cal.App.4th at pp. 1514\u20141515.) Because the parties had stipulated that the details of the city employees\u2019 salaries were maintained in confidential personnel files, the Court of Appeal found support for \u201cthe trial court\u2019s recognition that a privacy interest was at stake and that the expectation of privacy was reasonable under the circumstances.\u201d (Priceless, supra, 112 Cal.App.4th at p. 1516, fn. omitted.) Weighing the individual\u2019s privacy interests against the public\u2019s right to disclosure, the appellate court found no evidence in the trial record to support the newspaper\u2019s contention that \u201crevealing the individuals\u2019 names would shed light on government conduct.\u201d (Id. at p. 1522.) The reviewing court concluded that on the record before it, the public interest in knowing how public money is spent and in being informed of the earnings of government employees at various levels was met by the bare disclosure of the staff positions and of the compensation set for each position, without the need to disclose the names of the employees occupying those positions. The court characterized as \u201cspeculative\u201d the newspaper\u2019s contention that revealing the names of employees might disclose improprieties, but also noted that both sides would have the \u201copportunity to present additional evidence\u201d on the issue. (Id. at pp. 1522-1523.) Ultimately, the appellate court upheld the preliminary injunction \u201cin light of the limited evidence before the trial court.\u201d (Id. at p. 1523.)\nBecause of the procedural posture of the case, the precedential value of Priceless is slight. In contrast to the limited record available to the court in Priceless, the present case was decided after a full hearing. As noted above, the Newspapers presented substantial evidence demonstrating that disclosure of the names and salaries of public employees would serve the public interest sought to be protected by the Act. The Newspapers also presented evidence concerning the historic practices of other governmental entities, which supported the conclusion that any expectation of privacy that public employees may have that their salaries will be confidential is not reasonable.\nTo the extent the decision in Priceless may be read to stand for the proposition that the practice of particular governmental entities in refusing to disclose salary information can create a privacy interest in those records that must be recognized under the Act, we disagree. The appellate court in Priceless concluded that because the cities that, were parties in that case kept salary information confidential, the employees\u2019 expectation of privacy in their salary information was reasonable. The court\u2019s decision focused narrowly on the practice of the particular cities whose;, records were being sought in that case, apparently because those practices were the only ones in evidence. The practice of a few cities does not, however, demonstrate a \u201cbroadly based and widely accepted community norm[].;\u201d. (Hill, supra, 7 Cal.4th at p. 37.) The Act should apply in the same way to comparable records maintained by comparable governmental entities. Whether br not \u00e1 particular type of record is exempt should not depend upon the.peculiar practice of the government entity at issue\u2014otherwise, an agency , could transform public records into private ones simply by refusing to disclose them over a period of time.\nLocal 21 also contends that before individually identified salary information may be disclosed, section 6254, subdivision (c) must be applied on a case7by-case basis, taking into account the . privacy interest peculiar to the individual employee as well as the particular, public interest in being informed of the salary of that employee. The approach proposed by Local 21 would reverse the presumption of openness contained in the Act. The records at issue are presumptively open because they contain \u201cinformation relating to the conduct of the public\u2019s business.\u201d. (\u00a7 6252, subd. (e).) The burden is on the agency maintaining the records to demonstrate that the record in question is exempt. (\u00a7 6255.) The City and the Unions failed to present any evidence establishing that the City\u2019s consistent past practice of disclosing its employees\u2019 salaries created \u00e1ny safety or privacy problems for those employees that would outweigh the public interest in disclosure.\nClaims for exemption based upon facts and circumstances peculiar to an individual and his or her duties could, of course, be considered either under section 6254, subdivision (c) or under the catchall exemption, which applies when \u201con the facts of the particular case the public interest served by not disclosing the record clearly, outweighs the public interest served by disclosure of the record.\u201d (\u00a7 6255, subd. (a).) For example, the Police Officers Association contends that officers, who are working undercover often receive large amounts of overtime pay,' and that disclosure of their names and salaries could reveal their identities and endanger their safety. If an officer\u2019s anonymity is essential to his or her safety, the need to protect the officer would outweigh the public interest in disclosure and would justify withholding the officer\u2019s name. (Commission on Peace Officer Standards, supra, 42 Cal.4th at p. 301.) \u201cThe public has a strong interest in maintaining the safety and efficacy of its law enforcement, agencies, But \u2018[t]he prospect that somehow this information in the hands, of the press will increase the danger to some . . . cannot alone support a finding in favor of nondisclosure as to all.\u2019 (CBS, Inc. v. Block[, supra,] 42 Cal.3d. [at p.] 652 ; . . .) The means for protecting such officers is to segregate the information relating to them from the records that are disclosed.\u201d (Commission oh Peace Officer Standards, supra, 42 Cal.4th at p. 301; see also Gov. Code, \u00a7 6257; American Civil Liberties Union Foundation v. Deukmejian (1982) 32 Cal.3d 440, 453, fn. 13 [186 Cal.Rptr. 235, 651 P.2d 822].) Neither the City nor the Unions offered any evidence in the superior court that salary information pertaining to particular individuals should be exempted under sections 6254, subdivision (c) or 6255, subdivision (a).\nB.\nLocal 21 argues that even if the salaries of government employees are a matter of public record, \u201climitations on the method of disclosure of that information ... are appropriate to prevent intrusions upon constitutionally protected privacy rights.\u201d Local 21 contends that the mass, indiscriminate disclosure of salary information related to all City of Oakland employees earning $100,000 or more constitutes an invasion of their right of privacy under article I, section 1 of the California Constitution, because providing the information in that form could contribute to the accumulation of information concerning these individuals that might be exploited by commercial interests. For example, Local 21 asserts that \u201c[a] database of government employees who make $100,000 a year or more would obviously be of great commercial interest to marketers of certain kinds of investments and insurance policies,\u201d who could supplement this information with addresses, phone numbers, or e-mail addresses obtainable on the Internet and contact employees to solicit their business. Therefore, Local 21 argues, the issue whether the salaries of government employees must be disclosed should be decided on a case-by-case basis, taking into account the particular privacy interest of the individual involved and the asserted public interest in the disclosure of that individual\u2019s salary.\nThe party claiming a violation of the constitutional right of privacy established in article I, section 1 of the California Constitution must establish (1) a legally protected privacy interest, (2) a reasonable expectation of privacy under the circumstances, and (3) a serious invasion of the privacy interest. (Hill, supra, 7 Cal.4th at pp. 39-40.) As discussed above, we conclude that public employees do not have a reasonable expectation of privacy in the amount of their salaries. Furthermore, Local 21 offered no evidence in the superior court supporting its assertion that the information at issue was likely to be exploited by commercial interests in a manner that would invade the privacy of employees. As the superior court observed, Local 21 has not introduced any evidence of adverse consequences resulting from the disclosure of this information in the past, although the information regularly was published in a local newspaper.\nEven were we to assume that Local 21 is correct in asserting that the information at issue might be exploited by commercial enterprises, that circumstance alone would not render disclosure of the information here at issue a violation of the constitutional right of privacy. In order to determine whether an alleged invasion of privacy is sufficiently serious to constitute a violation of that constitutional right, the competing privacy and nonprivacy interests must be balanced. (Hill, supra, 7 Cal.4th at p. 37.) \u201cInvasion of a privacy interest is not a violation of the state constitutional right to privacy if the invasion is justified by a competing interest.\u201d (Id. at p. 38.)\nAs discussed above, the public has a strong, well-established interest in the amount of salary paid to public employees. Indeed, Local 21 does not dispute that the job classifications of individual employees and the range of pay associated with those classifications should be available to the public. The interest of employees in avoiding unwanted solicitations or marketing efforts is, on the other hand, comparatively weak. The City has not been asked to disclose any contact information for these employees, such as home addresses or telephone numbers. (Cf. San Jose v. Superior Court (1999) 74 Cal.App.4th 1008, 1021 [88 Cal.Rptr.2d 552] [city not required to disclose names, addresses, and telephone numbers of persons who made complaints about airport noise, because invasion of privacy not outweighed by public interest in disclosure under \u00a7 6255]; see also Department of Defense v. FLRA (1994) 510 U.S. 487 [127 L.Ed.2d 325, 114 S.Ct. 1006] [FOIA does not require federal agencies to disclose employees\u2019 home addresses to union].)\nLocal 21 cites Westbrook v. County of Los Angeles (1994) 27 Cal.App.4th 157 [32 Cal.Rptr.2d 382] (Westbrook) and provisions of the California Rules of Court as demonstrating a constitutionally cognizable privacy interest in preventing commercial enterprises from employing government records to compile and exploit personal information. (See Cal. Rules of Court, rule 2.500 et seq.) Neither Westbrook nor the California Rules of Court support such an expansive view of the constitutional right of privacy. In Westbrook, a person in the business of selling criminal offender background information brought an action to compel a municipal court to sell him computer tapes containing copies of the court\u2019s information system. The system contained a plethora of information obtained from criminal case files, including not only information concerning the charges and their disposition but also personal identifying information such as the date of birth, race, sex, personal description, and Social Security number of each defendant. (Westbrook, supra, 27 Cal.App.4th at p. 161.) The Court of Appeal concluded that the distribution of such information would violate Pend Code section 13300, which generdly prohibits a locd crimind justice agency, including a court, from distributing information that relates a person\u2019s criminal history. The court reasoned that although the public was entitled to access individud court files, providing electronic access in the form of the court\u2019s information system would permit the compilation and distribution of criminal histories, in violation of the statute. (Westbrook, supra, at pp. 163-165.)\nThe court in Westbrook also concluded that the \u201cstate constitutional right of privacy extends to protect defendants from unauthorized disclosure of criminal history records.\u201d (Westbrook, supra, 27 Cal.App.4th at pp. 165-166, citing Craig v. Municipal Court (1979) 100 Cal.App.3d 69, 76-77 [161 Cal.Rptr. 19].) In support of this conclusion, Westbrook cited U. S. Dept. of Justice v. Reporters Committee (1989) 489 U.S. 749 [103 L.Ed.2d 774, 109 S.Ct. 1468], which held that the FOIA did not require the disclosure of an individual citizen\u2019s rap sheet compiled by the Department of Justice. The high court in that case concluded that such disclosure \u201ccan reasonably be expected to invade that citizen\u2019s privacy, and that when the request seeks no \u2018official information\u2019 about a Government agency, but merely records that the Government happens to be storing, the invasion of privacy is \u2018unwarranted.\u2019 \u201d (Id. at p. 780.) The decisions in Westbrook and Reporters Committee protect sensitive information contained in governmental records that does not, when separated from those records and compiled, contribute to the public\u2019s understanding of government operations.\nThe California Rules of Court cited by the Police Officers Association similarly serve to prevent the compilation of private information contained in court records. The rules limit Internet access to (and bulk distribution of) electronic court records, except for the calendar, register of actions, and index. (Cal. Rules of Court, rule 2.503, subds. (b), (f) & (g); but see id., rule 2.503, subd. (f) [exception to prohibition on internet access to criminal case files in which public interest is extraordinary].) These limitations are designed to prevent courts from distributing their records in a manner that permits the compilation of \u201cpersonal information culled from any document, paper, or exhibit filed in a lawsuit.\u201d (Advisory Com. com., Cal. Rules of Court, rule 2.503, subds. (f), (g).) Otherwise, \u201c[t]his type of aggregate information may be exploited for commercial or other purposes unrelated to the operations of the courts, at the expense of privacy rights of individuals.\u201d (Ibid.)\nThe salary information sought by the Newspapers in the present case, in contrast to the type of information addressed in Westbrook, Reporters Committee, and the California Rules of Court, is not private information that happens to be collected in the records of a public entity. Rather, it is information regarding an aspect of government operations, the disclosure of which contributes to the public\u2019s understanding and oversight of those operations by allowing interested parties to monitor the expenditure of public funds. The disclosure of such information under the Act does not violate the right of privacy protected by the California Constitution.\nC.\nAs to employees who are peace officers, the Police Officers Association contends that Penal Code section 832.7 bars disclosure of the amount of an officer\u2019s salary. The Act exempts from disclosure any records \u201cthe disclosure of which is exempted or prohibited pursuant to federal or state law.\u201d (Gov. Code \u00a7 6254, subd. (k).) Penal Code section 832.7 provides that \u201c[p]eace officer . . . personnel records . . . , or information obtained from these records, are confidential . . . .\u201d Because peace officer personnel records and information obtained from such records are made confidential by Penal Code section 832.7, they are exempt from disclosure under Government Code section 6254, subdivision (k). (Commission on Peace Officer Standards, supra, 42 Cal.4th at p. 286; Copley Press, Inc. v. Superior Court (2006) 39 Cal.4th 1272, 1284-1286 [48 Cal.Rptr.3d 183, 141 P.3d 288]; \u00a7 6276.34.)\nThe phrase \u201cpersonnel records\u201d is defined in Penal Code section 832.8 to include \u201cany file maintained under that individual\u2019s name by his or her employing agency and containing records relating to any of the following: [][] (a) Personal data, including marital status, family members, educational and employment history, home addresses, or similar information. [][] (b) Medical history. []Q (c) Election of employee benefits, [f] (d) Employee advancement, appraisal, or discipline. [][] (e) Complaints, or investigations of complaints, concerning an event or transaction in which he or she participated, or which he or she perceived, and pertaining to the manner in which he or she performed his or her duties, [f] (f) Any other information the disclosure of which would constitute an unwarranted invasion of personal privacy.\u201d The Police Officers Association contends that salary information constitutes \u201cpersonal data\u201d under Penal Code section 832.8, subdivision (a). It argues that salary is \u201cpersonal\u201d because it relates to the individual and because most persons view their salary as a private matter. We disagree.\nWe begin with the ordinary meaning of the word in question. \u201c \u2018Personal\u2019 generally is defined to mean \u2018of or relating to a particular person.\u2019 (Webster\u2019s 3d New Internat. Dict. (2002) p. 1686; American Heritage Dict. (4th ed. 2000) p. 1311.) The word \u2018personal,\u2019 however, also carries a connotation of \u2018private,\u2019 meaning \u2018peculiar or proper to private concerns,\u2019 \u2018not public or general\u2019 (Webster\u2019s 3d New Internat. Dict., supra, at p. 1686), or \u2018[concerning a particular person and his or her private business, interests, or activities; intimate\u2019 (American Heritage Dict., supra, at p. 1311).\u201d (Commission on Peace Officer Standards, supra, 42 Cal.4th at p. 296 [names of peace officers are not personal information within the meaning of Pen. Code, \u00a7 832.8, subd. (a)].) A public employee\u2019s salary relates to a particular person, but, as discussed above, it is a matter of public interest and not primarily a matter of the individual\u2019s private business.\nFurthermore, considering the language of Penal Code section 832.8, subdivision (a) as a whole, we conclude that the Legislature did not intend the words \u201cpersonal data\u201d to carry their broadest possible meaning, encompassing any and all information related to a particular officer. Because subdivision (a) includes a general term\u2014\u201cpersonal data\u201d\u2014followed by a nonexhaustive list of specific examples\u2014\u201cmarital status, family members, educational and employment history, home addresses\u201d\u2014the principle of ejusdem generis provides guidance in discerning the Legislature\u2019s intent. \u201cEjusdem generis applies whether specific words follow general words in a statute or vice versa. In either event, the general term or category is \u2018restricted to those things that are similar to those which are enumerated specifically.\u2019 \u201d (Harris v. Capital Growth Investors XIV (1991) 52 Cal.3d 1142, 1160, fn. 7 [278 Cal.Rptr. 614, 805 P.2d 873].) \u201cThe canon presumes that if the Legislature intends a general word to be used in its unrestricted sense, it does not also offer as examples peculiar things or classes of things since those descriptions then would be surplusage.\u201d (Kraus v. Trinity Management Services, Inc. (2000) 23 Cal.4th 116, 141 [96 Cal.Rptr.2d 485, 999 P.2d 718]; see also Civ. Code, \u00a7 3534 [\u201cParticular expressions qualify those which are general\u201d]; Peralta Community College Dist. v. Fair Employment & Housing Com. (1990) 52 Cal.3d 40, 46 [276 Cal.Rptr. 114, 801 P.2d 357] [statute authorizing commission to take \u201csuch action\u201d as it believes will effectuate the purposes of the California Fair Employment and Housing Act (\u00a7 12900 et seq.), \u201cincluding, but not limited to, hiring, reinstatement or upgrading of employees, with or without back pay, and restoration to membership in any respondent labor organization,\u201d does not authorize commission to award compensatory damages]; Sears, Roebuck & Co. v. San Diego County Dist. Council of Carpenters (1979) 25 Cal.3d 317, 330-331 [158 Cal.Rptr. 370, 599 P.2d 676] [statute\u2019s reference to \u201c \u2018conduct that is unlawful including breach of the peace, disorderly conduct, the unlawful blocking of access or egress to premises where a labor dispute exists, or other similar unlawful activity\u2019 \u201d does not apply to peaceful picketing, which, unlike the listed examples, \u201cdoes not involve violence or substantially impair the rights of others\u201d].)\nThe examples of \u201cpersonal data\u201d listed in Penal Code section 832.8, subdivision (a) do not include information, such as salary, arising from the officer\u2019s employment with the agency that maintains his or her personnel file. \u201cRather, they are the types of personal information that commonly are supplied by an employee to his or her employer, either during the application process or upon employment.\u201d (Commission on Peace Officer Standards, supra, 42 Cal.4th at p. 294, fn. omitted; cf. Garden Grove Police Department v. Superior Court of Orange County (2001) 89 Cal.App.4th 430, 434 [107 Cal.Rptr.2d 642] [birth date of peace officer is \u201cpersonal data\u201d under Pen. Code, \u00a7 832.8, subd. (a)].) In contrast, categories of information that arise out of the employment relationship\u2014employee advancement, appraisal, or discipline, and complaints\u2014are listed separately, in subdivisions (d) and (e) of Penal Code section 832.8. Had the Legislature intended the word \u201cpersonal\u201d to be employed in its broadest sense, the listing of examples in subdivision (a) would have been unnecessary; indeed, there would have been no need to include items (b) through (e), each of which relates to the individual officer.\nIn view of the foregoing history and widespread practice of disclosure of public salary information, had the Legislature intended Penal Code section 832.7 to change the law in that respect we would expect to see specific language to that effect in the statute. The Legislature easily could have added \u201csalary\u201d to the list of personnel records set forth in Penal Code section 832.8. Indeed, the Legislature\u2019s inclusion of one form of compensation\u2014\u201celection of employee benefits\u201d\u2014is a strong indication that the omission of \u201csalary\u201d was deliberate. Ordinarily, the enumeration of one item in a statute implies that the Legislature intended to exclude others. (People v. Guzman (2005) 35 Cal.4th 577, 588 [25 Cal.Rptr.3d 761, 107 P.3d 860].) Although this principle is not applied if the result would be contrary to legislative intent or when no manifest reason appears for excluding one matter and including another (see People v. Anzalone (1999) 19 Cal.4th 1074, 1079 [81 Cal.Rptr.2d 315, 969 P.2d 160]; Estate of Banerjee (1978) 21 Cal.3d 527, 539, fn. 10 [147 Cal.Rptr. 157, 580 P.2d 657]), in the present context there is an obvious rationale for the Legislature\u2019s decision to include election of benefits but not salary as part of a peace officer\u2019s confidential personnel record. Absent unusual circumstances, an employee\u2019s selection of benefits\u2014 such as the type of medical insurance, the number of family members covered, and the choice whether to obtain life or disability insurance\u2014reveals information concerning the individual\u2019s personal life and financial decisions but little, if anything, about the operations of the government agency that would not be revealed by making public the types of benefits offered generally by the agency to its employees. The amount of salary paid to a particular individual, on the other hand, does provide information concerning the governmental agency in which the public has a legitimate and traditionally recognized interest.\nThe Police Officers Association alternatively contends that peace officers\u2019 salary information is \u201cobtained from\u201d information in personnel records. In support, the Police Officers Association observes that (1) the City of Oakland employs a merit-based compensation system, and the amount of salary paid is based on an appraisal of the officer\u2019s performance; (2) education, training, and special abilities such as bilingualism also can result in an increase in compensation; and (3) the payment of overtime wages is based on timesheets, which assertedly also are protected personnel records (see Guthrey v. State of California (1998) 63 Cal.App.4th 1108, fn. 5 [75 Cal.Rptr.2d 27]). Because information in a personnel file is used to establish a peace officer\u2019s rate of earnings and, thereby, to calculate his or her salary rate, the Police Officers Association contends that salary information is \u201cobtained from\u201d the personnel file.\nThe Police Officers Association\u2019s proposed interpretation of the phrase \u201cobtained from\u201d is strained. In its ordinary sense, to obtain information means to come into possession of it. (See Webster\u2019s 3d New Internat. Dict., supra, at p. 1589.) The phrase \u201cinformation obtained from personnel files\u201d is most reasonably read to encompass information that was acquired from a personnel file maintained by the employer. Thus, Penal Code sections 832.7 and 832.8 do not mandate that city payroll records reflecting peace officer salary information be excluded from disclosure merely because some of the facts relied upon in determining the amount of salary may be recorded in the agency\u2019s personnel files.\nAmicus curiae Operating Engineers Local Union No. 3 argues that peace officers\u2019 salary information falls under subdivision (f) of Penal Code section 832.8, which includes \u201c[a]ny other information the disclosure of which would constitute an unwarranted invasion of personal privacy.\u201d We reject the argument for the same reasons that led us to conclude above that the disclosure of public-employee salary information does not constitute an \u201cunwarranted invasion of personal privacy\u201d under the Act. (\u00a7 6254, subd. (c).) In this context, we reject the notion that peace officers in general have a greater privacy interest in the amount of their salaries than that possessed by other public employees, and we observe that the public interest in disclosure is equally strong as between peace officers and other public employees. As noted above, individual peace officers, such as those working undercover, may have a legitimate interest in maintaining their anonymity, and that interest would warrant exempting their names from disclosure under the Act. This circumstance, however, does not support the conclusion that peace officers as a general category have a privacy interest in their identity sufficient to render salary records confidential under Penal Code section 832.8, subdivision (f) whenever those records include individually identified officers. (See Commission on Peace Officer Standards, supra, 42 Cal.4th at p. 301.)\nWe disagree with the contrary conclusion reached in City of Los Angeles, supra, 111 Cal.App.4th 883. In that case, a peace officer\u2019s wife subpoenaed her husband\u2019s payroll records in a marital dissolution proceeding, requesting information concerning all sums paid to him for any reason, records of his interest in a retirement plan, savings plan, or stock plan, any interest in any insurance plan or program, and any sums held in a savings plan, credit union, deferred compensation plan, or elsewhere. (Id. at p. 886.) The husband challenged the subpoena, claiming the records were confidential peace officer personnel records pursuant to Penal Code sections 832.7 and 832.8 and therefore could be disclosed only upon a showing of good cause pursuant to the procedures established in Evidence Code sections 1043 and 1045. The Court of Appeal in City of Los Angeles agreed that a peace officer\u2019s payroll records are \u201cpersonnel records\u201d as defined in Penal Code section 832.8, but held that the spouse of a peace officer is not required, in a marital dissolution proceeding, to comply with those Evidence Code sections in order to obtain such information, because \u201cpeace officers owe their spouses the same fiduciary duty to reveal financial information as any other citizen of this state.\u201d (City of Los Angeles, at p. 885.)\nThe appellate court in City of Los Angeles concluded that the records at issue came within the definition of peace officer personnel records, because they constituted \u201cinformation the disclosure of which would constitute an unwarranted invasion of personal privacy.\u201d (Pen. Code, \u00a7 832.8, subd. (f).) The court stated: \u201cPayroll information is personal. Ask any ordinary reasonable person if he or she would want their payroll information routinely disclosed to parties involved in litigation and one would hear a resounding, \u2018No.\u2019 [Citation.] Even though the pay scale of public employees is generally a matter of public record, it is quite a different thing to know with precision another person\u2019s salary, selection of benefits, and potential retirement income. Few records are deemed more personal. Of all records kept by employers, it is the disclosure of payroll records that would constitute one of the greatest \u2018unwarranted invasions of personal privacy.\u2019 \u201d (City of Los Angeles, supra, 111 Cal.App.4th at p. 892.)\nBecause City of Los Angeles ultimately upheld the subpoena of the officer\u2019s financial records, the foregoing comments in that opinion are dicta. In addition, the records at issue in that case encompassed far more than the peace officer\u2019s salary; they included information concerning his selection of benefits, insurance plans, and investments. Because such records reveal information related to the individual\u2019s personal financial decisions but little, if anything, about the operations of the employing entity, the appellate court reasonably could conclude that their disclosure would constitute an unwarranted invasion of personal privacy. The same cannot be said regarding the amount of a public employee\u2019s salary. The appellate court in City of Los Angeles did not consider the long-standing and widespread practice of disclosing government salary expenditures and did not address the question of whether any invasion of privacy resulting from the disclosure of such information might be warranted in light of the public interest in knowing the salary expenditures of government entities. Accordingly, we do not consider City of Los Angeles v. Superior Court, supra, 111 Cal.App.4th 883 persuasive and, to the extent it is inconsistent with this opinion, it is disapproved.\nThe Police Officers Association urges us to conclude that even if salary is not included within any of the categories of information enumerated in Penal Code section 832.8, that statute nevertheless renders confidential not only the types of information specified, but also any information \u201crelated to\u201d the types of information enumerated in section 832.8. The Police Officers Association relies upon language in the statute defining \u201cpersonnel records\u201d to include \u201cany file maintained under that individual\u2019s name by his or her employing agency and containing records relating to\u201d the enumerated items. Specifically, the Police Officers Association argues, salary information is confidential because it is related to matters listed in the statute such as benefits (Pen. Code, \u00a7 832.8, subd. (c)) and employee performance (id., subd. (d)).\nWe agree with the Court of Appeal below that \u201cthis reading of the statute is demonstrably overbroad. It would make confidential not only the kinds of information specified by the Legislature, but also any information from any file containing any item \u2018relating to\u2019 confidential information. We do not believe the Legislature intended to paint with so broad a brush. The term \u2018records relating\u2019 to the kinds of information specified in Penal Code section 832.8 is more reasonably understood as a reference to records that actually reflect the enumerated items.\u201d Records of salary expenditures do not reflect any of the items enumerated in the statute. Thus, Penal Code sections 832.7 and 832.8 do not mandate that peace officer salary information be excluded from disclosure under the Act.\nIII.\nFor the reasons stated above, the judgment of the Court of Appeal is affirmed.\nWerdegar, J., Moreno, J., and Kriegler, J., concurred.\nAll further statutory references are to the Government Code unless otherwise noted.\nThe 2004 initiative that amended the state Constitution to include a right of access to public records explicitly preserves such statutory exceptions. (Cal. Const., art. I, \u00a7 3, subd. (b)(5).)\nAs we stated in Commission on Peace Officer Standards and Training v. Superior Court (2007) 42 Cal.4th 278, 300, footnote 11 (Commission on Peace Officer Standards): \u201cOur decision in Hill, supra, 1 Cal.4th 1, defined the elements that must be proved in order to establish a claim for invasion of the state constitutional right of privacy. Although we find the definition of privacy used in Hill to be useful in the present context, we do not intend to suggest that an intrusion upon a privacy interest must rise to the level of an invasion of the constitutional right of privacy in order to be recognized under . . . section 6254, subdivision (c).\u201d\nLocal 21 cites a line of federal cases, decided under analogous provisions of the federal Freedom of Information Act (FOIA) (5 U.S.C. \u00a7 552), that have recognized a privacy interest in the salaries of employees of private companies who are paid with public funds. (See, e.g., Painting Industry of Hawaii v. Dept. of Air Force (9th Cir. 1994) 26 F.3d 1479, 1483-1484; Painting and Drywall Work Preservation Fund v. HUD (D.C. Cir. 1991) 936 F.2d 1300, 1303; Hopkins v. U.S. Dept. of Housing & Urban Dev. (2d Cir. 1991) 929 F.2d 81, 87-88; Sheet Metal Workers v. Dept. of Veterans Affairs (3d Cir. 1998) 135 F.3d 891, 903; see also Campbell v. United States Civil Service Commission (10th Cir. 1976) 539 F.2d 58, 62.) These cases are distinguishable from the present one because they do not involve public employees.\nThe Court of Appeal cited the following cases: Local 1264 v. Municipality of Anchorage (Alaska 1999) 973 P.2d 1132 (disclosure of municipal employees\u2019 names and salaries does not violate their constitutional right of privacy or municipal code provision exempting personnel records from disclosure); Richmond County &c. v. Southeastern &c. Corp. (1984) 252 Ga. 19 [311 S.E.2d 806] (county hospital authority required to disclose names and salaries of employees earning $28,000 or more per year); Magic Valley Newspapers v. Medical Center (2002) 138 Idaho 143 [59 P.3d 314] (names and salaries of employees earning more than $50,000 per year not exempt from disclosure under public records law); People ex rel. Recktenwald v. Janura (1978) 59 Ill.App.3d 143 [17 Ill.Dec. 129, 376 N.E.2d 22] (county forest preserve district required to disclose names and salaries of employees); Clymer v. City of Cedar Rapids (Iowa 1999) 601 N.W.2d 42 (compensation of city employees, including amount of sick leave used, subject to disclosure under open records act); State Dept, of SRS v. Public Employee Relations Board (1991) 249 Kan. 163 [815 P.2d 66] (statute exempted personnel records but required disclosure of employee names, salaries, and length of employment); Caple v. Brown (La.Ct.App. 1975) 323 So.2d 217 (sheriff required to disclose records of salary fund); Moberly v. Herboldsheimer (1975) 276 Md. 211 [345 A.2d 855] (hospital required to disclose salary of director); Hastings & Sons Publishing Co. v. City Treasurer of Lynn (1978) 374 Mass. 812 [375 N.E.2d 299] (city required to disclose payroll records, including payroll records of police department); Penokie v. MTU (1980) 93 Mich.App. 650 [287 N.W.2d 304] (public university required to disclose salaries and wages of university employees); MS. Dept. of Wildlife v. Wildlife Enf. Off. (Miss. 1999) 740 So.2d 925 (state agency required to disclose amount of compensation time accrued by each of its employees); Pulitzer Pub. v. MOSERS (Mo.Ct.App. 1996) 927 S.W.2d 477 (statute requiring disclosure of public employees\u2019 salaries also required disclosure of retirees\u2019 pensions); Mans v. Lebanon School Bd. (1972) 112 N.H. 160 [290 A.2d 866] (school board required to disclose teachers\u2019 salaries); Matter of Winston v. Mangan (Sup.Ct. 1972) 72 Misc.2d 280 [338 N.Y.S.2d 654] (list of park district employees and their salaries subject to disclosure); State ex rel. Petty v. Wurst (1989) 49 OhioApp.3d 59 [550 N.E.2d 214] (county required to provide names and salary rates or total compensation of its employees); Moak, et al, Aplnt. v. Phila. News., et al. (1975) 18 Pa.Commw. 599 [336 A.2d 920] (city finance department required to disclose police department payroll records); Cleveland Newspapers, Inc. v. Bradley, etc. (Tenn.Ct.App. 1981) 621 S.W.2d 763 (hospital required to disclose payroll records); Redding v. Brady (Utah 1980) 606 P.2d 1193 (state college required to disclose names and gross salaries of employees); but cf. Redding v. Jacobsen (Utah 1981) 638 P.2d 503 (statute prohibiting disclosure of salary information for employees of institutions of higher education is not unconstitutional); Tacoma Public Library v. Woessner (1998) 90 Wn.App. 205 [951 P.2d 357] (records of employee names, salaries, benefits, and vacation and sick leave pay not exempt from disclosure); but see Smith v. Okanogan County (2000) 100 Wn.App. 7 [994 P.2d 857] (list of persons employed by county prosecutor\u2019s office, including titles and rates of compensation, not within scope of public records act); Board of Sch. Directors of Milwaukee v. WERC (1969) 42 Wis.2d 637 [168 N.W.2d 92] (names, addresses, and salaries of public school teachers are public record).\nNeither Local 21 nor the Police Officers Association challenges the Court of Appeal\u2019s conclusions regarding the prevailing norm in other states. We note that an American Law Reports Annotation on the subject identified only two cases in which records disclosing the salaries of current government employees were held to be exempt from disclosure under state public records laws: Priceless, supra, 112 Cal.App.4th 1500, and Smith v. Okanogan County, supra, 994 P.2d 857. (Annot., Payroll Records of Individual Government Employees as Subject to Disclosure to Public (1980) 100 A.L.R.3d 699, 705-706, \u00a7 3[b], and later cases (2006 supp.) p. 80, \u00a7 3[b].)\nThe Brown Act serves the same democratic purposes as the California Public Records Act (\u00a7 6250 et seq.): \u201cThe people of this State do not yield their sovereignty to the agencies which serve them. The people, in delegating authority, do not give their public servants the right to decide what is good for the people to know and what is not good for them to know. The people insist on remaining informed so that they may retain control over the instruments they have created.\u201d (\u00a7 54950.)\nThe only portion of the Act that addresses public employee compensation directly is section 6254.8, which provides that \u201c[e]very employment contract between a state or local agency and any public official or public employee is a public record which is not subject to\" the exemptions specified in sections 6254 and 6255, Although the Newspapers do not contend that Oakland\u2019s employees come within the terms of section 6254.8, this statute indicates that the Legislature viewed the amount of compensation paid to public employees in the context of employment contracts as a matter of public interest so substantial that it could not be outweighed by any claim of privacy (under \u00a7 6254, subd. (c)) or other public interests (under \u00a7 6255, subd. (a)).\nIn support of this argument, Local 21 relies upon (tie decision of the United States Supreme Court in National Archives and Records Admin, v. Favish (2004) 541 U.S. 157 [158 L.Ed.2d 319, 124 S.Ct. 1570] (Favish); interpreting the EOIA. As explained below, because the provision of the FOIA interpreted in Favish is dissimilar to section 6254, subdivision (c), that case is inapposite. .\nFavish denied relief to an individual seeking .to. compel the production of death-scene photographs of the body of the President\u2019s deputy counsel, whose death resulted from an apparent suicide. The high court considered the FOIA\u2019s exemption for \u2018.\u2018records or information compiled for law enforcement purposes\u201d when, their production \u201ccould reasonably be expected to constitute an unwarranted invasion of personal privacy.\u201d (5 U.S.C. \u00a7 552(b)(7)(C), italics added.) In recognizing that the deceased\u2019s surviving family members had a privacy interest in the photographs of his body, the high court took an expansive view of the concept of personal privacy. It specifically relied upon the circumstance that the language used in the law enforcement records exemption\u2014\u201c \u2018could reasonably be expected to constitute an unwarranted invasion of personal privacy\u2019 \u201d\u2014was \u201cin marked contrast to\u201d the language used in the exemption for personnel records, which applies only when the disclosure \u201c \u2018would constitute a clearly unwarranted.invasion of personal privacy.\u2019 \u201d (Favish, supra, 541 U.S. at p. 165, quoting 5 U.S.C. \u00a7 552(b)(6), (7).)\nThe high court held that \u201c[w]here the privacy concerns addressed by [the law enforcement records exemption] are present, the exemption requires the person requesting the information to establish a sufficient reason for the disclosure. First, the citizen must show that the public interest sought to be advanced is a significant one, an interest more specific than having the information for its own sake. Second, the citizen must show the information is likely to advance that interest. Otherwise, the invasion of privacy is unwarranted.\u201d (Favish, supra, 541 U.S. at p. 172.) The court in' Favish stated that the exemption in 5 United States Code section 552(b)(7)(C) \u201crequires us.to protect, in the proper degree, the personal privacy of citizens against the uncontrolled release of information compiled through the power of the State.\u201d (Favish, at p. 172.) When; .as- in Favish, the requesting party seeks the disclosure in order to show that the responsible government officials acted improperly, \u201cthe requester must establish more than a bare suspicion in order to obtain disclosure.\u201d (Id. at p. 174.)\nThe law enforcement records \u2022 exemption at issue in Favish is not comparable to the personnel records exemption of the Act, and shifting the burden of proof to the party seeking disclosure under the Act would be unwarranted. Furthermore, the payroll records here at issue, unlike information collected and maintained- solely for law enforcement purposes, plainly are relevant to the business of the government.\nAssociate Justice, Court of Appeal, Second Appellate District, Division Five, assigned by the Chief Justice pursuant to article VI, section 6 of the California Constitution.",
+        "type": "majority",
+        "author": "GEORGE, C. J."
+      },
+      {
+        "text": "KENNARD, J., Concurring and Dissenting.\nThe majority holds that the names and salaries of public employees are records that are subject to disclosure under the California Public Records Act. (Gov. Code, \u00a7 6250 et seq.) I agree. And I agree with the majority that public employees serving as peace officers have no statutory right to prevent disclosure of their names and salaries; but unlike the majority I would simply rely on the plain language of Penal Code sections 832.7 and 832.8 in reaching that conclusion.\nI\nThe scope of confidentiality accorded a peace officer\u2019s personal information is properly determined by construing two statutory schemes as well as certain provisions of our state Constitution. I briefly discuss the pertinent law below.\nIn 1968, the Legislature enacted the California Public Records Act (Gov. Code, \u00a7 6250 et seq.), a statutory scheme affirming every Californian\u2019s fundamental right of \u201caccess to information concerning the conduct of the people\u2019s business.\u201d (Gov. Code, \u00a7 6250, added by Stats. 1968, ch. 1473, \u00a7 39, pp. 2945, 2946.) But public access is not unlimited. The act does not require disclosure of records that are \u201cexempted or prohibited pursuant to . . . state law.\u201d (Gov. Code, \u00a7 6254, subd. (k), added by Stats. 1968, ch. 1473, \u00a7 39, pp. 2945, 2947; see also \u00a7 6254, subd. (c) [exempting from disclosure \u201c[personnel ... or similar files, the disclosure of which would constitute an unwarranted invasion of personal privacy\u201d], added by Stats. 1968, ch. 1473, \u00a7 39, pp. 2945, 2946.)\nA decade later, in 1978, the Legislature enacted Penal Code sections 832.7 and 832.8, as part of a statutory scheme mandating confidentiality of peace officer personnel records. (Added by Stats. 1978, ch. 630, \u00a7\u00a7 5, 6, p. 2083.) Peace officer \u201cpersonnel records\u201d made confidential by subdivision (a) of Penal Code section 832.7 are defined in a companion statute, section 832.8. (Pen. Code, \u00a7 832.8, subds. (a)-(e), added by Stats. 1978, ch. 630, \u00a7 6, p. 2083, amended by Stats. 1990, ch. 264, \u00a7 1, p. 1535.) Subdivision (a) of Penal Code section 832.8 defines a personnel record as any file kept by the employing agency under the name of the officer and containing records relating to \u201c[p]ersonal data, including marital status, family members, educational and employment history, home addresses, or other similar information.\u201d\nThereafter, in November 2004, the voters, through the power of initiative, passed Proposition 59, which amended the California Constitution to affirm the \u201cright of access to information concerning the conduct of the people\u2019s business.\u201d (Cal. Const., art. I, \u00a7 3, subd. (b)(1).) Added to the state Constitution was this provision: \u201cNothing in this subdivision . . . affects the construction of any statute ... to the extent that it protects [the state Constitution\u2019s] right to privacy, including any statutory procedures governing discovery or disclosure of information concerning the official performance or professional qualifications of a peace officer.\u201d (Cal. Const., art. I, \u00a7 3, subd. (b)(3).) The initiative also directed: \u201cA statute, . . . including those in effect on the effective date of this subdivision, shall be broadly construed if it furthers the people\u2019s right of access, and narrowly construed if it limits the right of access.\u201d (Cal. Const., art. I, \u00a7 3, subd. (b)(2).)\nn\nAs I stated at the outset, I have no quarrel with the majority\u2019s reasoning and its conclusion that the California Public Records Act does not shield from disclosure the salaries paid to named public employees. I also agree with the majority that such disclosure applies to peace officers as well. But unlike the majority I would reach the latter conclusion based on the plain language of Penal Code sections 832.7 and 832.8, which govern the confidentiality of peace officer personnel records.\nThe majority reasons that disclosing the salaries of named public employees is permissible because public employees have no reasonable expectation of privacy as to their salaries in light of article I, section 1 of the California Constitution. (Maj. opn., ante, at p. 338.) In contrast, the majority observes, peace officers do have privacy protections created by statute.\nPenal Code section 832.7, subdivision (a), makes confidential the \u201cpersonnel records\u201d of peace officers. Subdivision (a) of Penal Code section 832.8 states that files containing \u201c[pjersonal data, including marital status, family members, educational and employment history, home addresses, or similar information\u201d are personnel records. Responding to a claim that peace officer salaries fall within that provision\u2019s definition of \u201cpersonal data,\u201d the majority concludes that the definition pertains to employees as they come to the job. (Maj. opn., ante, at p. 342.) That is, salary does not fall within \u201cthe types of personal information that commonly are supplied by an employee to his or her employer, either during the application process or upon employment.\u201d (Commission on Peace Officer Standards and Training v. Superior Court (2007) 42 Cal.4th 278, 294 [64 Cal.Rptr.3d 661, 165 P.3d 462], fn. omitted.) In contrast, the majority observes, the salary being paid to a peace officer relates to current rather than prior employment. (Maj. opn., ante, at pp. 342-343.) My analysis differs.\nI would simply follow the mandate of the initiative the voters passed in 2004 amending the California Constitution to, among other things, direct courts to construe narrowly any statute limiting the people\u2019s right of access to public records. (Cal. Const., art. I, \u00a7 3, subd. (b)(2).) Penal Code sections 832.7 and 832.8 do limit public access to peace officer personnel records. But they are silent on the question of peace officer salaries, and they do not make officer names confidential. Therefore, an officer\u2019s salary is not exempt from disclosure under the California Public Records Act. (Gov. Code, \u00a7\u00a7 6253, subd. (b), 6254, subd. (k).) And the public interest in disclosure of a named officer\u2019s salary is not clearly outweighed by any public interest in withholding disclosure. (Gov. Code, \u00a7 6255, subd. (a).) Accordingly, the annual pay of peace officers is subject to public disclosure.\nWith respect to disclosure of peace officer names, I find nothing in Penal Code section 832.8 that would bring that information within the category of \u201cpersonal data\u201d deemed confidential under that section; nor do I find any statutory provision exempting such information from public disclosure. Nondisclosure of peace officer names is permissible only when the public interest in withholding disclosure \u201cclearly\u201d outweighs the public interest in disclosure. (Gov. Code, \u00a7 6255, subd. (a).) I agree with the majority that the public interest exception to disclosure may apply to certain undercover officers, but that, as a general rule, peace officers do not have a privacy interest in the confidentiality of their names that outweighs the public interest in disclosing the names. (Maj. opn., ante, at p. 344.)",
+        "type": "concurring-in-part-and-dissenting-in-part",
+        "author": "KENNARD, J., Concurring and Dissenting."
+      },
+      {
+        "text": "BAXTER, J., Concurring and Dissenting.\nExcept as to peace officers, I agree with the majority that the names and salaries of public employees earning $100,000 or more per year are not exempt from public disclosure under the California Public Records Act (CPRA) (Gov. Code, \u00a7 6250 et seq.).\nWith regard to peace officers, I also agree with the majority\u2019s conclusion that the salaries of peace officers earning $100,000 or more per year, as a general matter, are not exempt from public disclosure under the CPRA. However, I have joined Justice Chin\u2019s dissenting opinion in Commission on Peace Officer Standards and Training v. Superior Court (2007) 42 Cal.4th 278, 306 [64 Cal.Rptr.3d 661, 165 P.3d 462] (dis. opn. of Chin, J.), which, contrary to the majority view in that case, recognizes that peace officers\u2019 names themselves fall into the category of confidential \u201c[p]ersonal data,\u201d within the meaning of Penal Code section 832.8, subdivision (a), when the names are recorded in peace officer personnel records. Accordingly, I agree with Justice Chin here that where a request is made for disclosure of peace officers\u2019 names in connection with a request for disclosure of peace officer salary information, \u201cnames may not be disclosed to the extent the source of that information is a \u2018file maintained under [the peace officer\u2019s] name by his or her employing agency.\u2019 (Pen. Code, \u00a7 832.8.)\u201d (Conc. & dis. opn. of Chin, J., post, at p. 350.)\nPenal Code sections 832.7 and 832.8 are part of the statutory scheme mandating confidentiality of peace officer personnel records. (Stats. 1978, ch. 630, \u00a7\u00a7 5, 6, p. 2083.) Peace officer \u201cpersonnel records\u201d made confidential by subdivision (a) of Penal Code section 832.7 are defined in subdivision (a) of section 832.8, the companion statute, as any file kept by the employing agency under the name of the officer and containing records relating to \u201c[p]ersonal data, including marital starns, family members, educational and employment history, home addresses, or other similar information.\"\nAll further unlabeled statutory references are to the Government Code.",
+        "type": "concurring-in-part-and-dissenting-in-part",
+        "author": "BAXTER, J., Concurring and Dissenting."
+      },
+      {
+        "text": "CHIN, J., Concurring and Dissenting.\nExcept as to peace officers, I agree with the majority\u2019s conclusion that names and salaries of public employees earning $100,000 or more per year are not exempt from public disclosure under the California Public Records Act (CPRA) (Gov. Code, \u00a7 6250 et seq.). As explained below, however, my analysis of this question is somewhat different from the majority\u2019s and I do not endorse all of the majority\u2019s reasoning. Regarding peace officers, I agree with the majority\u2019s conclusion that salary information is not exempt from disclosure. However, as explained in my dissenting opinion in Commission on Peace Officer Standards and Training v. Superior Court (2007) 42 Cal.4th 278, 306 [64 Cal.Rptr.3d 661, 165 P.3d 462] (dis. opn. of Chin, J.), I believe that peace officers\u2019 names are \u201c[p]ersonal data\u201d within the meaning of Penal Code section 832.8, subdivision (a). Thus, I would hold that where, as here, a request is made for disclosure of names linked to salary, officers\u2019 names may not be disclosed to the extent the source of that information is a \u201cfile maintained under [the peace officer\u2019s] name by his or her employing agency.\u201d (Pen. Code, \u00a7 832.8.) I dissent to the extent the majority holds otherwise.\nI. The Names and Salaries of Public Employees Other Than Peace Officers Are Not Exempt From Disclosure.\nThe CPRA makes all \u201c[p]ublic records . . . open to [public] inspection . . . except as\u201d expressly provided by statute. (\u00a7 6253, subd. (a).) Because, as the parties agree, the records in question are \u201cpublic records\u201d within the meaning of the CPRA (\u00a7 6254, subd. (d)), they are subject to inspection unless some statutory exception applies. As the majority explains (maj. opn., ante, at p. 329), the exception principally at issue here is found in section 6254, subdivision (c), which provides that nothing in the CPRA requires disclosure of \u201c[personnel, medical, or similar files, the disclosure of which would constitute an unwarranted invasion of personal privacy.\u201d\nIn the 40 years since the Legislature enacted this CPRA disclosure exception, we have said little about it. However, that fact does not leave us without significant guidance. The federal Freedom of Information Act (FOIA) (5 U.S.C. \u00a7 552) contains an almost identical disclosure exception. Known as exemption 6, the FOIA exception provides for nondisclosure of \u201cpersonnel and medical files and similar files the disclosure of which would constitute a clearly unwarranted invasion of personal privacy.\u201d (5 U.S.C. \u00a7 552(b)(6).) \u201cBecause the FOIA provided a model for the [CPRA], and because they have a common purpose,\u201d they \u201c \u2018should receive a parallel construction.\u2019 [Citation.] Therefore, federal decisions under the FOIA may be used to construe the [CPRA]. [Citations.]\u201d (Times Mirror Co. v. Superior Court (1991) 53 Cal.3d 1325, 1350 [283 Cal.Rptr. 893, 813 P.2d 240].)\n\u2022 Giving the CPRA a construction parallel to the FOIA\u2019s, I first conclude that the records at issue constitute \u201c[personnel ... or similar files\u201d under section 6254, subdivision (c). Based on evidence of congressional intent, the high court has broadly interpreted the scope of the term \u201cpersonnel and medical files and similar files\u201d in exemption 6 (5 U.S.C. \u00a7 552, subd. (b)(6)) to \u201c \u2018cover [all] detailed Government records on an individual [that] can be identified as applying to that individual.\u2019 [Citation.]\u201d (Department of State v. Washington Post Co. (1982) 456 U.S. 595, 602 [72 L.Ed.2d 358, 102 S.Ct. 1957] (Washington Post).) The records sought here\u2014the name of each employee of the City of Oakland (the City) who earned at least $100,000 in fiscal year 2003-2004 linked to the employee\u2019s gross salary\u2014clearly qualify under that definition. I see no basis for reaching a different conclusion in applying section 6254, subdivision (c). Indeed, in seeking disclosure, Contra Costa Newspapers, Inc. (the Newspapers), has never argued that the requested records are not \u201c[personnel ... or similar files\u201d under section 6254, subdivision (c); on the contrary, the Newspapers\u2019 assertion in its brief that the trial court \u201cemployed the proper \u2018statutory balancing analysis\u2019 \u201d implicitly concedes that the requested records are \u201c[personnel ... or similar files\u201d to which the balancing test applies. (\u00a7 6254, subd. (c).) For the reasons stated above, I agree with this view, and thus will now proceed to the balancing the statute requires.\nLike the high court in applying exemption 6,1 begin the balancing inquiry under section 6254, subdivision (c), by considering \u201cthe privacy interest at stake.\u201d (Department of State v. Ray (1991) 502 U.S. 164, 175 [116 L.Ed.2d 526, 112 S.Ct. 541] (Ray).) As the majority correctly notes (maj. opn., ante, at p. 330), almost 40 years ago, we held that \u201cthe protection of one\u2019s personal financial affairs . . . against compulsory public disclosure is an aspect of the [protected] zone of privacy . . . .\u201d (City of Carmel-by-the-Sea v. Young (1970) 2 Cal.3d 259, 268 [85 Cal.Rptr. 1, 466 P.2d 225].) A person\u2019s salary generally falls within this protected category of information. (See Moskowitz v. Superior Court (1982) 137 Cal.App.3d 313 [187 Cal.Rptr. 4].) As we have explained, \u201cthe newspaper publication of a [person\u2019s] assets . . . can be expected to bring unwanted solicitation from a variety of [salespeople] and others, could well encourage harassment lawsuits or demands of like nature, and could expose the [person] ... to various criminal elements in our society.\u201d (City of Carmel, supra, 2 Cal.3d at p. 270.) The high court, in applying exemption 6, has similarly recognized \u201cthe individual privacy interest\u201d at stake when disclosed information makes a person an inviting target of \u201ccommercial advertisers and solicitors.\u201d (Department of Defense v. FLRA (1994) 510 U.S. 487, 501 [127 L.Ed.2d 325, 114 S.Ct. 1006] (FLRA); see also Painting Industry of Hawaii v. Dept. of Air Force (9th Cir. 1994) 26 F.3d 1479, 1483 [\u201cinvasion of privacy . . . can result from release of a list of names and addresses coupled with a characteristic susceptible to commercial exploitation\u201d]; National Ass\u2019n of Retired Federal Emp. v. Horner (D.C. Cir. 1989) 879 F.2d 873, 878 [\u201cthere is a substantial probability that the disclosure will lead to the threatened invasion: one need only assume that business people will not overlook an opportunity to get cheaply from the Government what otherwise comes dearly, a list of qualified prospects for all the special goods, services, and causes likely to appeal to financially secure retirees\u201d]; Aronson v. U.S. Dept. of Housing & Urban Dev. (1st Cir. 1987) 822 F.2d 182, 186 [\u201c[w]hen it becomes a matter of public knowledge that someone is owed a substantial sum of money, that individual may become a target for those who would like to secure a share of that sum by means scrupulous or otherwise\u201d].)\nI find the majority\u2019s analysis of the privacy interest at stake unpersuasive in several respects. To begin with, for the most part, the majority asks not whether there are privacy interests at stake, but whether a public employee\u2019s \u201cexpectation of privacy\u201d is \u201creasonable.\u201d (Maj. opn., ante, at p. 331.) The two questions are not the same; notably, the high court, in applying both exemption 6 and another FOIA exemption that looks to whether disclosure \u201ccould reasonably be expected to constitute an unwarranted invasion of personal privacy\u201d (5 U.S.C. \u00a7 552(b)(7)(C)), has consistently considered only the nature of the privacy interest at stake, and has never considered whether a reasonable expectation of privacy exists. (National Archives and Records Admin. v. Favish (2004) 541 U.S. 157, 160 [158 L.Ed.2d 319, 124 S.Ct. 1570] [public interest must be balanced against any \u201cpersonal privacy interest recognized by the statute\u201d]; FLRA, supra, 510 U.S. at p. 497 [analysis requires court to \u201cweigh the privacy interest\u201d]; Ray, supra, 502 U.S. at p. 175 [proper to begin analysis \u201cby considering the significance of the privacy interest at stake\u201d]; Washington Post, supra, 456 U.S. at pp. 602-603 [remanding for lower court \u201cto consider the effect of disclosure upon . . . privacy interests\u201d]; Reporters Committee, supra, 489 U.S. at p. 762 [court must \u201cbalance the privacy interest . . . against the public interest in\u201d disclosure]; Dept. of Air Force v. Rose (1976) 425 U.S. 352, 381 [48 L.Ed.2d 11, 96 S.Ct. 1592] [discussing \u201cthe risk to . . . privacy interests\u201d].)\nI also question the majority\u2019s conclusion that public employees have no reasonable expectation of privacy in their salary information. (Maj. opn., ante, at p. 331.) Nongovernmental employees most certainly have a reasonable expectation of privacy regarding this information and, as we have stated, \u201c[t]he mere status of being employed by the government should not compel a citizen to forfeit his or her fundamental right of privacy. Public employees are not second-class citizens within the ken of the Constitution, [f] . . . [L]egal distinctions between public and private sector employees that operate to abridge basic rights cannot withstand judicial scrutiny unless justified by a compelling governmental interest. [Citation.] However much public service constitutes a benefit and imposes a duty to uphold the public interest, a public sector employee, like any other citizen, is bom with a constitutional right of privacy. ... A citizen cannot be said to have waived that right in return for the \u2018privilege\u2019 of public employment, or any other public benefit, unless the government demonstrates a compelling need. [Citation.]\u201d (Long Beach City Employees Assn. v. City of Long Beach (1986) 41 Cal.3d 937, 951-952 [227 Cal.Rptr. 90, 719 P.2d 660].) Moreover, although the majority cites evidence and authorities supporting the view that disclosure of the salaries of public employees is widespread (maj. opn., ante, at pp. 331-332), there is published authority in California and elsewhere recognizing that public employees have at least some reasonable expectation of privacy in their personnel records, including salary information. Notably, in a decision involving exemption 6, the high court held that the \u201cprivacy interest\u201d of federal employees in nondisclosure of their home addresses \u201coutweigh[ed] the relevant public interest\u201d in disclosure, even though that information was \u201cpublicly available through sources such as telephone directories and voter registration lists (FLRA, supra, 510 U.S. at p. 500.)\nUltimately, I need not resolve this question because I agree with the majority that \u201cany cognizable [privacy] interest . . . public employees may have\u201d is insufficient to justify nondisclosure. (Maj. opn., ante, at p. 333.) Section 6254, subdivision (c), does not preclude all \u201cinvasion[s] of personal privacy,\u201d only \u201cunwarranted\u201d ones. Borrowing again from the high court\u2019s discussion of exemption 6, whether an invasion of privacy would be \u201cunwarranted\u201d within the meaning of section 6254, subdivision (c), depends on \u201cthe extent to which disclosure of the information sought would \u2018shed light on an agency\u2019s performance of its statutory duties\u2019 or otherwise let citizens know \u2018what their government is up to.\u2019 [Citation.]\u201d (FLRA, supra, 510 U.S. at p. 497.) \u201c[T]he public has a legitimate interest in knowing how public funds are spent\u201d (Copley Press, Inc. v. Superior Court (1998) 63 Cal.App.4th 367, 376 [74 Cal.Rptr.2d 69]), and the names and compensation paid to public employees directly relate to that issue. Disclosure of this information would directly reflect on the City\u2019s management of public funds and its employees\u2019 performance of public duties. I therefore conclude that any invasion of privacy from disclosure of this information would not be \u201cunwarranted\u201d within the meaning of section 6254, subdivision (c), and that the information therefore is not exempt from disclosure under that provision.\nLike the majority, but for a different reason, I reject the view that balancing under section 6254, subdivision (c), must be done on a case-by-case basis, taking into account the particular privacy interests of each public employee. (Maj. opn., ante, at pp. 336-338.) As the high court has explained in construing the FOIA, \u201ccategorical decisions\u201d regarding disclosure of records \u201cmay be appropriate and individual circumstances disregarded when a case fits into a genus in which the balance characteristically tips in one direction.\u201d (Reporters Committee, supra, 489 U.S. at p. 776.) Regarding salary information of public employees, for the reasons stated above, the balance characteristically tips in the direction of disclosure. Thus, as to this information, case-by-case balancing under section 6254, subdivision (c), is unnecessary.\nThe claim that disclosure of public employees\u2019 names linked to their salaries violates the state constitutional right to privacy (Cal. Const., art. I, \u00a7 1) fails for similar reasons. The state constitutional right to privacy is not absolute; \u201cit is subject to a balancing of interests.\u201d \u201c \u2018Invasion of a privacy interest is not a violation of the state constitutional right to privacy if the invasion is justified by a competing interest.\u2019 [Citation.].\u201d (Jacob B. v. County of Shasta (2007) 40 Cal.4th 948, 961 [56 Cal.Rptr.3d 477, 154 P.3d 1003].) For the reasons discussed above, I conclude that any invasion of a public employee\u2019s privacy interest that would result from disclosure of the requested information would be justified by the public\u2019s competing interest in knowing what the government is up to and how the government is spending public funds. Thus, as to public employees other than peace officers, I agree with the majority\u2019s holding that the names and salaries of public employees earning $100,000 or more per year are not exempt from disclosure under the CPRA.\nII. The Names and Salaries of Peace Officers.\nThe Oakland Police Officers Association (Police Officers Association), which intervened in this action, does not object to disclosure of the actual salary paid to each peace officer, so long as the officers are identified only by job title. It does, however, object to disclosures that link the actual salary paid to the officer\u2019s name. It asserts that the latter disclosure would violate Penal Code section 832.7, subdivision (a), which provides in relevant part that \u201c[pjeace officer . . . personnel records ... or information obtained from these records, are confidential and shall not be disclosed\u201d except as otherwise provided by statute. According to the Police Officers Association, individually identifiable salary information constitutes either a confidential \u201cpersonnel record[]\u201d or \u201cinformation obtained from\u201d personnel records within the meaning of Penal Code section 832.7, subdivision (a), by virtue of Penal Code section 832.8. The latter defines the term \u201cpersonnel records\u201d in Penal Code section 832.7, subdivision (a), as \u201cany file maintained under [a peace officer\u2019s] name by his or her employing agency and containing records relating to any of the following: [][] (a) Personal data, including marital status, family members, educational and employment history, home addresses, or similar information. [][] (b) Medical history. [][] (c) Election of employee benefits, [f] (d) Employee advancement, appraisal, or discipline, [f] (e) Complaints, or investigations of complaints, concerning an event or transaction in which he or she participated, or which he or she perceived, and pertaining to the manner in which he or she performed his or her duties, [f] (f) Any other information the disclosure of which would constitute an unwarranted invasion of personal privacy.\u201d (Pen. Code, \u00a7 832.8.)\nIn making its argument, the Police Officers Association first emphasizes that an officer\u2019s actual pay is based on the following information that is expressly included within the term \u201cpersonnel records\u201d in Penal Code section 832.7: \u201ceducational and employment history\u201d (id., \u00a7 832.8, subd. (a)), and \u201c[e]mployee advancement\u201d and \u201cappraisal\u201d (id., \u00a7 832.8, subd. (d)). Because of this fact, the Police Officers Association asserts, an officer\u2019s actual pay constitutes \u201cinformation obtained\u201d from personnel records within the meaning of Penal Code section 832.7. It also qualifies independently as a confidential personnel record under Penal Code section 832.7, subdivision (a), because it is, in the words of Penal Code section 832.8, \u201crelat[ed] to\u201d the information specified elsewhere in the section. I agree with the majority\u2019s analysis and rejection of these arguments. (Maj. opn., ante, at pp. 343-344, 345-346.)\nThe Police Officers Association also argues that individualized salary information qualifies for protection because it \u201cconstitutes \u2018[p]ersonal data\u2019 or \u2018other similar information\u2019 under Penal Code section 832.8[, subdivision] (a).\u201d It asserts that anything \u201cunique to the person . . . qualifies]\u201d as \u201c[p]ersonal data\u201d under Penal Code section 832.8, subdivision (a), and that a particular officer\u2019s salary is unique because it depends on the officer\u2019s years of service, performance, education and specialties.\nLike the majority, I reject this argument. As the majority explains, because all of the information specified in subdivisions (b) through (e) of Penal Code section 832.8 also is unique to the individual officer, those subdivisions would be unnecessary were we to construe the term \u201c[p]ersonal data\u201d in subdivision (a) to include everything that is unique to the person. (Maj. opn., ante, at p. 342.) Well-established canons of statutory construction preclude us from interpreting statutory language so as to render other parts of the statute unnecessary. (Manufacturers Life Ins. Co. v. Superior Court (1995) 10 Cal.4th 257, 274 [41 Cal.Rptr.2d 220, 895 P.2d 56].) As the majority also explains, that the Legislature expressly specified another form of compensation\u2014 \u201c[ejection of employee benefits\u201d\u2014in a separate subdivision of the statute (Pen. Code, \u00a7 832.8, subd. (c)) counsels against adopting an interpretation of the term \u201c[p]ersonal data\u201d in subdivision (a) that includes an officer\u2019s salary. (Maj. opn., ante, at pp. 342-343.) For these reasons, I agree that salary information does not constitute \u201c[p]ersonal data\u201d within the meaning of section 832.8, subdivision (a).\nAmicus curiae Operating Engineers Local Union No. 3 argues that individualized salary information regarding peace officers qualifies for protection under subdivision (f) of Penal Code section 832.8, because disclosure of this information \u201cwould constitute an unwarranted invasion of personal privacy.\u201d I reject this argument because, as explained above in connection with Government Code section 6254, subdivision (c), I do not believe that any invasion of privacy from disclosure of the requested salary information would be unwarranted.\nRegarding the names of peace officers, as explained in my dissenting opinion in Commission on Peace Officer Standards and Training v. Superior Court (2007) 42 Cal.4th 278, 306 [64 Cal.Rptr.3d 661, 165 P.3d 462] (dis. opn. of Chin, 1), I believe that peace officers\u2019 names are \u201c[p]ersonal data\u201d within the meaning of Penal Code section 832.8, subdivision (a). Thus, I would hold that where, as here, a request is made for disclosure of names linked to salary, officers\u2019 names may not be disclosed to the extent the source of that information is a \u201cfile maintained under [the peace officer\u2019s] name by his or her employing agency.\u201d (Pen. Code, \u00a7 832.8.) Where, however, the request identifies officers by name and asks for disclosure of their salaries, Penal Code section 832.7 does not preclude disclosure.\nThe majority merely assumes, without deciding, that the records are \u201c[personnel ... or similar files\u201d under section 6254, subdivision (c). (Maj. opn., ante, at p. 329.)\nThe majority acknowledges the \u201cinterest\u201d of public employees \u201cin avoiding unwanted solicitations or marketing efforts,\u201d but finds that interest \u201ccomparatively weak\u201d absent disclosure of other contact information, such as home address or telephone number. (Maj. opn., ante, at p. 339.) Given that publicly available databases on the Internet make it easy to link a name to an address or telephone number, I find the absence of disclosure of contact information to be of little, if any, significance. (See Sheet Metal Workers Local No. 9 v. U.S. Air Force (10th Cir. 1995) 63 F.3d 994, 998 [\u201credaction of addresses alone, leaving names on the payroll records and thereby directly linking detailed financial information about workers ... to those workers, does not materially lessen the substantial privacy interest involved\u201d].)\nThe majority\u2019s \u201creasonable expectation of privacy\u201d inquiry derives from the test we announced in Hill v. National Collegiate Athletic Assn. (1994) 7 Cal.4th 1 [26 Cal.Rptr.2d 834, 865 P.2d 633] for determining whether a person\u2019s constitutional right of privacy has been violated. (See maj. opn., ante, at pp. 330, fn. 3, 331, 338-339.) However, the issue under section 6254, subdivision (c), is not whether disclosure would violate the constitutional right of privacy, but whether it would be \u201can unwarranted invasion of personal privacy\u201d under section 6254, subdivision (c). (Cf. U. S. Dept. of Justice v. Reporters Committee (1989) 489 U.S. 749, 762, fn. 13 [103 L.Ed.2d 774, 109 S.Ct. 1468] (Reporters Committee) [\u201c[t]he question of the statutory meaning of privacy under the FOIA is . . . not the same as . . . the question whether an individual\u2019s interest in privacy is protected by the Constitution\u201d].)\nPeople v. Mooc (2001) 26 Cal.4th 1216, 1220 [114 Cal.Rptr.2d 482, 36 P.3d 21] (statutory scheme recognizes a peace officer\u2019s \u201clegitimate expectation of privacy in his or her personnel records\u201d); BRV, Inc. v. Superior Court (2006) 143 Cal.App.4th 742, 756 [49 Cal.Rptr.3d 519] (\u201c[p]ublic employees have a legally protected interest in their personnel files\u201d); Versaci v. Superior Court (2005) 127 Cal.App.4th 805, 821 [26 Cal.Rptr.3d 92]; Teamsters Local 856 v. Priceless, LLC (2003) 112 Cal.App.4th 1500, 1516 [5 Cal.Rptr.3d 847] (public employees have \u201ca legally protected privacy interest\u201d in their personnel files, including \u201csalary details\u201d); City of Los Angeles v. Superior Court (2003) 111 Cal.App.4th 883, 892 [3 Cal.Rptr.3d 915] (disclosure of peace officer\u2019s payroll records, including his salary, \u201cwould constitute one of the greatest \u2018unwarranted invasions of personal privacy\u2019 \u201d); San Diego Trolley, Inc. v. Superior Court (2001) 87 Cal.App.4th 1083, 1097 [105 Cal.Rptr.2d 476] (\u201cpersonnel records ... are within the scope of the protection provided by the state and federal Constitutions\u201d); East Bank Cons. Spec. Serv. Fire v. Crossen (La.Ct.App. 2004) 892 So.2d 666, 670; Beck v. Department of Justice (D.C. Cir. 1993) 997 F.2d 1489, 1494 (\u201cA government employee has at least some privacy interest in his own employment records . . .\u201d); Campbell v. United States Civil Service Commission (10th Cir. 1976) 539 F.2d 58, 62 (disclosure of federal employees\u2019 salary \u201cwould be a serious invasion of privacy\u201d); Columbia Packing Co., Inc. v. U. S. Dept. of Agri. (D.C. Mass. 1976) 417 F.Supp. 651, 655 (recognizing \u201cprivacy interest in nondisclosure\" of federal employees\u2019 \u201cearnings statements reflecting\u201d their \u201cremuneration\u201d).\nIn light of this conclusion, I need not decide whether public employees have a reasonable expectation of privacy regarding their specific salaries.\nPenal Code sections 832.7 and 832.8 establish a disclosure exception under the CPRA by virtue of Government Code sections 6254, subdivision (k), and 6276.34. (See Copley Press, Inc. v. Superior Court (2006) 39 Cal.4th 1272, 1283 [48 Cal.Rptr.3d 183, 141 P.3d 288].)\nExcept as expressly noted above, I do not join the majority\u2019s analysis of this issue.",
+        "type": "concurring-in-part-and-dissenting-in-part",
+        "author": "CHIN, J., Concurring and Dissenting."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Davis & Reno and Duane W. Reno for Petitioners.",
+      "Carroll, Burdick & McDonough, Ronald Yank, David M. Rice and Troy M. Yoshino for CDF Firefighters as Amicus Curiae on behalf of Petitioners and Real Party in Interest Oakland Police Officers\u2019 Association.",
+      "Weinberg, Roger & Rosenfeld, Antonio Ruiz and M. Suzanne Murphy for Operating Engineers Local Union No. 3 as Amicus Curiae on behalf of Petitioners and Real Party in Interest Oakland Police Officers\u2019 Association.",
+      "Mastagni, Holstedt, Amick, Miller, Johnsen & Uhrhammer, David E. Mastagni, Will M. Yamada and Stesha R. Hodges for California Correctional Peace Officers Association, Legal Defense Fund of the Peace Officers\u2019 Research Association of California, CAUSE-Statewide Law Enforcement Association, Deputy Sheriffs\u2019 Association of Alameda County, Placer County Deputy Sheriffs\u2019 Association, Sacramento County Deputy Sheriffs\u2019 Association, Sacramento Police Officers\u2019 Association, Stockton Police Officers\u2019 Association, San Mateo County Deputy Sheriffs\u2019 Association and San Francisco Deputy Sheriffs\u2019 Association as Amici Curiae on behalf of Petitioners and Real Party in Interest Oakland Police Officers\u2019 Association.",
+      "No appearance for Respondent.",
+      "Levy, Ram & Olson, Karl Olson and Erica L. Craven for Real Party in Interest Contra Costa Newspapers, Inc.",
+      "Rains, Lucia & Wilkinson and Allison Berry Wilkinson for Real Party in Interest Oakland Police Officers\u2019 Association.",
+      "Davis Wright Tremaine and Thomas R. Burke for Coalition of University Employees as Amicus Curiae on behalf of Real Party in Interest Contra Costa Newspapers, Inc.",
+      "Trevor A. Grimm, Jonathan M. Coupal and Timothy A. Bittle for Howard Jarvis Taxpayers Association as Amicus Curiae on behalf of Real Party in Interest Contra Costa Newspapers, Inc.",
+      "Law Office of Judy Alexander and Judy Alexander for ANG Newspapers, Bakersfield Californian, California Newspaper Publishers Association, The Copley Press, Inc., Embarcadero Publishing Company, Gannett, Hearst Corporation, Los Angeles Times Communications LLC, McClatchy Company, Metro Newspapers, New York Times, Orange County Register, The Press Enterprise Company and San Jose Mercury News as Amici Curiae on behalf of Real Party in Interest Contra Costa Newspapers, Inc.",
+      "Alan L. Schlosser, Mark Schlosberg; Peter Eliasberg; Law Offices of Amitai Schwartz, Amitai Schwartz, Lisa Sitkin; and Jordan C. Budd for ACLU of Northern California, ACLU Foundation of Southern California and ACLU Foundation of San Diego & Imperial Counties as Amici Curiae on behalf of Real Party in Interest Contra Costa Newspapers, Inc."
+    ],
+    "corrections": "",
+    "head_matter": "[No. S134253.\nAug. 27, 2007.]\nINTERNATIONAL FEDERATION OF PROFESSIONAL AND TECHNICAL ENGINEERS, LOCAL 21, AFL-CIO et al., Petitioners, v. THE SUPERIOR COURT OF ALAMEDA COUNTY, Respondent; CONTRA COSTA NEWSPAPERS, INC., et al., Real Parties in Interest.\nCounsel\nDavis & Reno and Duane W. Reno for Petitioners.\nCarroll, Burdick & McDonough, Ronald Yank, David M. Rice and Troy M. Yoshino for CDF Firefighters as Amicus Curiae on behalf of Petitioners and Real Party in Interest Oakland Police Officers\u2019 Association.\nWeinberg, Roger & Rosenfeld, Antonio Ruiz and M. Suzanne Murphy for Operating Engineers Local Union No. 3 as Amicus Curiae on behalf of Petitioners and Real Party in Interest Oakland Police Officers\u2019 Association.\nMastagni, Holstedt, Amick, Miller, Johnsen & Uhrhammer, David E. Mastagni, Will M. Yamada and Stesha R. Hodges for California Correctional Peace Officers Association, Legal Defense Fund of the Peace Officers\u2019 Research Association of California, CAUSE-Statewide Law Enforcement Association, Deputy Sheriffs\u2019 Association of Alameda County, Placer County Deputy Sheriffs\u2019 Association, Sacramento County Deputy Sheriffs\u2019 Association, Sacramento Police Officers\u2019 Association, Stockton Police Officers\u2019 Association, San Mateo County Deputy Sheriffs\u2019 Association and San Francisco Deputy Sheriffs\u2019 Association as Amici Curiae on behalf of Petitioners and Real Party in Interest Oakland Police Officers\u2019 Association.\nNo appearance for Respondent.\nLevy, Ram & Olson, Karl Olson and Erica L. Craven for Real Party in Interest Contra Costa Newspapers, Inc.\nRains, Lucia & Wilkinson and Allison Berry Wilkinson for Real Party in Interest Oakland Police Officers\u2019 Association.\nDavis Wright Tremaine and Thomas R. Burke for Coalition of University Employees as Amicus Curiae on behalf of Real Party in Interest Contra Costa Newspapers, Inc.\nTrevor A. Grimm, Jonathan M. Coupal and Timothy A. Bittle for Howard Jarvis Taxpayers Association as Amicus Curiae on behalf of Real Party in Interest Contra Costa Newspapers, Inc.\nLaw Office of Judy Alexander and Judy Alexander for ANG Newspapers, Bakersfield Californian, California Newspaper Publishers Association, The Copley Press, Inc., Embarcadero Publishing Company, Gannett, Hearst Corporation, Los Angeles Times Communications LLC, McClatchy Company, Metro Newspapers, New York Times, Orange County Register, The Press Enterprise Company and San Jose Mercury News as Amici Curiae on behalf of Real Party in Interest Contra Costa Newspapers, Inc.\nAlan L. Schlosser, Mark Schlosberg; Peter Eliasberg; Law Offices of Amitai Schwartz, Amitai Schwartz, Lisa Sitkin; and Jordan C. Budd for ACLU of Northern California, ACLU Foundation of Southern California and ACLU Foundation of San Diego & Imperial Counties as Amici Curiae on behalf of Real Party in Interest Contra Costa Newspapers, Inc."
+  },
+  "file_name": "0319-01",
+  "first_page_order": 359,
+  "last_page_order": 397
+}

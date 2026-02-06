@@ -1,0 +1,59 @@
+{
+  "id": 12225786,
+  "name": "Ocampo v. United States",
+  "name_abbreviation": "Ocampo v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-6093",
+  "first_page": "928",
+  "last_page": "928",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 928"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.685,
+    "sha256": "a8fba4078a39cd6433ce111cae82f8d063b8b978e978b9e62c690e8942efdbde",
+    "simhash": "1:860a920acad51918",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ocampo v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6093.\nOcampo v. United States."
+  },
+  "file_name": "0928-08",
+  "first_page_order": 1010,
+  "last_page_order": 1010
+}

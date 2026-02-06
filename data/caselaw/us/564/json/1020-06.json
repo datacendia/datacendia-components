@@ -1,0 +1,59 @@
+{
+  "id": 4336478,
+  "name": "Flint v. King, Judge, District Court of Kentucky, Jefferson County",
+  "name_abbreviation": "Flint v. King",
+  "decision_date": "2011-06-20",
+  "docket_number": "No. 10-1279",
+  "first_page": "1020",
+  "last_page": "1020",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1020"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 18,
+    "char_count": 115,
+    "ocr_confidence": 0.547,
+    "sha256": "c018635caed1917245b2914eff742a9613c9abeed6d20cb5f7d7cca364391176",
+    "simhash": "1:27dfba066e2b54a3",
+    "word_count": 18
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Flint v. King, Judge, District Court of Kentucky, Jefferson County."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1279.\nFlint v. King, Judge, District Court of Kentucky, Jefferson County."
+  },
+  "file_name": "1020-06",
+  "first_page_order": 1014,
+  "last_page_order": 1014
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12412225,
+  "name": "Boston v. Nevada",
+  "name_abbreviation": "Boston v. Nevada",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10257",
+  "first_page": "837",
+  "last_page": "837",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 837"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 65,
+    "ocr_confidence": 0.698,
+    "sha256": "a3d239a3212a7b03407ab7c207eb156337d1363c6923c2b5c5320accb2873d26",
+    "simhash": "1:0af6a6a728ae7d4d",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Boston v. Nevada."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Nev. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10257.\nBoston v. Nevada."
+  },
+  "file_name": "0837-13",
+  "first_page_order": 913,
+  "last_page_order": 913
+}

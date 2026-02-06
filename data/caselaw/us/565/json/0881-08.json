@@ -1,0 +1,59 @@
+{
+  "id": 12214355,
+  "name": "Siler v. United States",
+  "name_abbreviation": "Siler v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-73",
+  "first_page": "881",
+  "last_page": "881",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 881"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.725,
+    "sha256": "2f29aee46bb7c91546ece1463fac1f3beb625cf609c07d31fa84a02616b64657",
+    "simhash": "1:8409c0425ca1d58a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Siler v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. Fed. Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-73.\nSiler v. United States."
+  },
+  "file_name": "0881-08",
+  "first_page_order": 963,
+  "last_page_order": 963
+}

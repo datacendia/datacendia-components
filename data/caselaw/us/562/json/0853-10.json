@@ -1,0 +1,59 @@
+{
+  "id": 6000264,
+  "name": "Witherow v. Salling et al.",
+  "name_abbreviation": "Witherow v. Salling",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-10834",
+  "first_page": "853",
+  "last_page": "853",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 853"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 75,
+    "ocr_confidence": 0.571,
+    "sha256": "e280d36788778553c3f41fac998399ec01ccc71cf67abc559c3ceef7821a812f",
+    "simhash": "1:d1f060881b85d0a6",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Witherow v. Salling et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10834.\nWitherow v. Salling et al."
+  },
+  "file_name": "0853-10",
+  "first_page_order": 875,
+  "last_page_order": 875
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12223696,
+  "name": "Angelos v. United States",
+  "name_abbreviation": "Angelos v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5712",
+  "first_page": "919",
+  "last_page": "919",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 919"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.645,
+    "sha256": "f0a227946248dc3c50cb4ce14bf4467094093c665d06881a76eb75527d3a3489",
+    "simhash": "1:9799db238b271128",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Angelos v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5712.\nAngelos v. United States."
+  },
+  "file_name": "0919-15",
+  "first_page_order": 1001,
+  "last_page_order": 1001
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5930639,
+  "name": "Smith v. Virginia",
+  "name_abbreviation": "Smith v. Virginia",
+  "decision_date": "2011-05-31",
+  "docket_number": "No. 10-9664",
+  "first_page": "1023",
+  "last_page": "1023",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1023"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 64,
+    "ocr_confidence": 0.632,
+    "sha256": "f8d29e5f3981064edceb136f6e370c97dda41621295a9d9e0eeba25abaf3edd7",
+    "simhash": "1:88f306ad3ebc6e8b",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Smith v. Virginia."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Va. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9664.\nSmith v. Virginia."
+  },
+  "file_name": "1023-07",
+  "first_page_order": 1049,
+  "last_page_order": 1049
+}

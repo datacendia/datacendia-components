@@ -1,0 +1,59 @@
+{
+  "id": 5917738,
+  "name": "Medina Vasquez v. United States",
+  "name_abbreviation": "Medina Vasquez v. United States",
+  "decision_date": "2011-03-21",
+  "docket_number": "No. 10-9042",
+  "first_page": "1300",
+  "last_page": "1300",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1300"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 80,
+    "ocr_confidence": 0.625,
+    "sha256": "ac6d431431a6c84c4d05dc9ef8f4209947e7510e99e94de7d822b75669abf8cb",
+    "simhash": "1:0488d382081a9060",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Medina Vasquez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9042.\nMedina Vasquez v. United States."
+  },
+  "file_name": "1300-12",
+  "first_page_order": 1322,
+  "last_page_order": 1322
+}

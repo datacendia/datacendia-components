@@ -1,0 +1,59 @@
+{
+  "id": 12432064,
+  "name": "Brown v. Louisiana",
+  "name_abbreviation": "Brown v. Louisiana",
+  "decision_date": "2013-02-25",
+  "docket_number": "No. 12-7863",
+  "first_page": "1198",
+  "last_page": "1198",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1198"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.685,
+    "sha256": "45d0397b3571393ecd4b310ab4e07ee23e508d07a3efee8ceeea242225a1065a",
+    "simhash": "1:b17f5215d76c7633",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Brown v. Louisiana."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. La., 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7863.\nBrown v. Louisiana."
+  },
+  "file_name": "1198-01",
+  "first_page_order": 1274,
+  "last_page_order": 1274
+}

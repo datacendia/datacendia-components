@@ -1,0 +1,59 @@
+{
+  "id": 5944671,
+  "name": "Daniel v. Kansas",
+  "name_abbreviation": "Daniel v. Kansas",
+  "decision_date": "2011-04-18",
+  "docket_number": "No. 10-9122",
+  "first_page": "945",
+  "last_page": "945",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 945"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 64,
+    "ocr_confidence": 0.595,
+    "sha256": "5f996180ecd5d9fb0d618b7af623d4a3e8b5bac89573d574a00abb3c7d1a47da",
+    "simhash": "1:eae9d0590b55aac8",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Daniel v. Kansas."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Kan. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9122.\nDaniel v. Kansas."
+  },
+  "file_name": "0945-14",
+  "first_page_order": 971,
+  "last_page_order": 971
+}

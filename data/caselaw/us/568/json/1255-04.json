@@ -1,0 +1,59 @@
+{
+  "id": 12434077,
+  "name": "Ward v. Lafler, Warden",
+  "name_abbreviation": "Ward v. Lafler",
+  "decision_date": "2013-03-25",
+  "docket_number": "No. 12-8571",
+  "first_page": "1255",
+  "last_page": "1255",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1255"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.596,
+    "sha256": "3387f17fec5ee630993e21756a3fb6b1f004191eee9dbeb4999a861d9c444e81",
+    "simhash": "1:a6be36e34a1d40a6",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ward v. Lafler, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8571.\nWard v. Lafler, Warden."
+  },
+  "file_name": "1255-04",
+  "first_page_order": 1331,
+  "last_page_order": 1331
+}

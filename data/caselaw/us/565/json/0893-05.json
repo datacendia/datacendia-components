@@ -1,0 +1,59 @@
+{
+  "id": 12217507,
+  "name": "Chinsammy v. United States",
+  "name_abbreviation": "Chinsammy v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5166",
+  "first_page": "893",
+  "last_page": "893",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 893"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.712,
+    "sha256": "997d195545c160c03b8d2acb1d2a6fc407b9e7511f827470f75363def4198e14",
+    "simhash": "1:a58bd6430ee77052",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Chinsammy v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. Fed. Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5166.\nChinsammy v. United States."
+  },
+  "file_name": "0893-05",
+  "first_page_order": 975,
+  "last_page_order": 975
+}

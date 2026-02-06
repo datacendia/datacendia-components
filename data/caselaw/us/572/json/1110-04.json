@@ -1,0 +1,106 @@
+{
+  "id": 12706305,
+  "name": "Jeffrey BEARD, Secretary, California Department of Corrections and Rehabilitation, Petitioner v. Gilbert R. AGUILAR.",
+  "name_abbreviation": "Beard v. Aguilar",
+  "decision_date": "2014-05-05",
+  "docket_number": "No. 13\u2013677.",
+  "first_page": "1110",
+  "last_page": "1110",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "572 U.S. 1110"
+    },
+    {
+      "type": "parallel",
+      "cite": "188 L. Ed. 2d 1142"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 1869"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "2014 WL 1757856",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "*7",
+          "parenthetical": "ALITO, J., concurring in the judgment"
+        }
+      ],
+      "opinion_index": -1
+    },
+    {
+      "cite": "134 S.Ct. 1861",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12707002,
+        12580258
+      ],
+      "weight": 2,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "parenthetical": "ALITO, J., concurring in the judgment"
+        },
+        {
+          "parenthetical": "ALITO, J., concurring in the judgment"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/572/0650-01",
+        "/s-ct/134/1861-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 65,
+    "char_count": 527,
+    "sha256": "7d55dd6c44eaf187c9ea8ce340b75975651d04be0353c12043247b54f86c9567",
+    "simhash": "1:ddf9d1475606248a",
+    "word_count": 80
+  },
+  "last_updated": "2024-02-27T18:41:28.401677+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jeffrey BEARD, Secretary, California Department of Corrections and Rehabilitation, Petitioner\nv.\nGilbert R. AGUILAR."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "The petition for a writ of certiorari is denied."
+    ],
+    "corrections": "",
+    "head_matter": "Jeffrey BEARD, Secretary, California Department of Corrections and Rehabilitation, Petitioner\nv.\nGilbert R. AGUILAR.\nNo. 13-677.\nSupreme Court of the United States\nMay 5, 2014.\nThe petition for a writ of certiorari is denied.\nJustice ALITO, with whom Justice SCALIA joins, dissenting from the denial of certiorari.\nI dissent from the Court's decision to deny certiorari. See Tolan v. Cotton, --- U.S. ----, ----, 134 S.Ct. 1861, 1868 - 1869, 188 L.Ed.2d 895, 2014 WL 1757856 *7 (2014) (ALITO, J., concurring in the judgment)."
+  },
+  "file_name": "1110-04",
+  "first_page_order": 1110,
+  "last_page_order": 1110
+}

@@ -1,0 +1,77 @@
+{
+  "id": 12407833,
+  "name": "Campbell v. United States",
+  "name_abbreviation": "Campbell v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-1458",
+  "first_page": "802",
+  "last_page": "802",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 802"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "567 U. S. 260",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12407151
+      ],
+      "year": 2012,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/567/0260-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 29,
+    "char_count": 196,
+    "ocr_confidence": 0.619,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2554816902452614
+    },
+    "sha256": "7d063a974f4711b6b4fec9d1f505cbd8415912aa778d47d85cff0b94a160e353",
+    "simhash": "1:820cfa848d439288",
+    "word_count": 32
+  },
+  "last_updated": "2024-02-27T23:44:49.194693+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Campbell v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari granted, judgment vacated, and case remanded for further consideration in light of Dorsey v. United States, 567 U. S. 260 (2012).",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1458.\nCampbell v. United States."
+  },
+  "file_name": "0802-01",
+  "first_page_order": 878,
+  "last_page_order": 878
+}

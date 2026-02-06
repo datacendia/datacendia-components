@@ -1,0 +1,59 @@
+{
+  "id": 12196683,
+  "name": "Weston v. Cain, Warden",
+  "name_abbreviation": "Weston v. Cain",
+  "decision_date": "2012-03-26",
+  "docket_number": "No. 11-8585",
+  "first_page": "912",
+  "last_page": "912",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 912"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.613,
+    "sha256": "adfa451952d25841d78a6ed9078f5e963494bed314c93a36cc146a605d0a98eb",
+    "simhash": "1:01c89f929920906a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Weston v. Cain, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8585.\nWeston v. Cain, Warden."
+  },
+  "file_name": "0912-12",
+  "first_page_order": 788,
+  "last_page_order": 788
+}

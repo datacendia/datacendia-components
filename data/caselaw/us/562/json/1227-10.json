@@ -1,0 +1,59 @@
+{
+  "id": 6022230,
+  "name": "Mercado v. New York",
+  "name_abbreviation": "Mercado v. New York",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-7812",
+  "first_page": "1227",
+  "last_page": "1227",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1227"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 94,
+    "ocr_confidence": 0.653,
+    "sha256": "7bdb918333f13e324796e51987496cf86dbcc799ca072391b7c87cbc87417803",
+    "simhash": "1:2ca2c8462104d110",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mercado v. New York."
+    ],
+    "opinions": [
+      {
+        "text": "App. Div., Sup. Ct. N. Y., 2d Jud. Dept. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7812.\nMercado v. New York."
+  },
+  "file_name": "1227-10",
+  "first_page_order": 1249,
+  "last_page_order": 1249
+}

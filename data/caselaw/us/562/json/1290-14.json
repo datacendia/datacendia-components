@@ -1,0 +1,59 @@
+{
+  "id": 5987046,
+  "name": "Davis v. Kuykendall et al.",
+  "name_abbreviation": "Davis v. Kuykendall",
+  "decision_date": "2011-03-21",
+  "docket_number": "No. 10-8290",
+  "first_page": "1290",
+  "last_page": "1290",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1290"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 74,
+    "ocr_confidence": 0.637,
+    "sha256": "e1817e11d56c1056e2a23c80e583d55314d59c9ad01aeb7d404b5b3aa3efbb28",
+    "simhash": "1:800050a8dd0c84e6",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Davis v. Kuykendall et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8290.\nDavis v. Kuykendall et al."
+  },
+  "file_name": "1290-14",
+  "first_page_order": 1312,
+  "last_page_order": 1312
+}

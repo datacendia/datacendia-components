@@ -1,0 +1,59 @@
+{
+  "id": 12421512,
+  "name": "Albertelli v. United States",
+  "name_abbreviation": "Albertelli v. United States",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 12-6542",
+  "first_page": "994",
+  "last_page": "994",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 994"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.615,
+    "sha256": "99daf0a520ba4f8c1432ad71a0214161f61af12bf88d1de9a37187ff7199fb28",
+    "simhash": "1:e55bdf424cbc102c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Albertelli v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6542.\nAlbertelli v. United States."
+  },
+  "file_name": "0994-11",
+  "first_page_order": 1070,
+  "last_page_order": 1070
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5921588,
+  "name": "Garcia-Bahena v. United States",
+  "name_abbreviation": "Garcia-Bahena v. United States",
+  "decision_date": "2011-04-04",
+  "docket_number": "No. 10-9262",
+  "first_page": "926",
+  "last_page": "926",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 926"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 79,
+    "ocr_confidence": 0.633,
+    "sha256": "c981f587b074cac087de1e4d112900f3de45ca9e15e0cb520d92c0788fdc4eaa",
+    "simhash": "1:27aadb83881c9a2e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Garcia-Bahena v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9262.\nGarcia-Bahena v. United States."
+  },
+  "file_name": "0926-02",
+  "first_page_order": 952,
+  "last_page_order": 952
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12217442,
+  "name": "Buchanan v. Texas",
+  "name_abbreviation": "Buchanan v. Texas",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5160",
+  "first_page": "892",
+  "last_page": "892",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 892"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.693,
+    "sha256": "8d53287659d976f8cb8d438b225348cac3e4cc29ae364b7f6dacd4d67b63bada",
+    "simhash": "1:ddb1da9176c9e412",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Buchanan v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Tex., 4th Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5160.\nBuchanan v. Texas."
+  },
+  "file_name": "0892-14",
+  "first_page_order": 974,
+  "last_page_order": 974
+}

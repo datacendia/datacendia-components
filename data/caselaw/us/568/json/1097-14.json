@@ -1,0 +1,59 @@
+{
+  "id": 12428318,
+  "name": "Scott v. Illinois",
+  "name_abbreviation": "Scott v. Illinois",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-6815",
+  "first_page": "1097",
+  "last_page": "1097",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1097"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.646,
+    "sha256": "8e835957bd8681b2956c21cea7bda31fed898d736011891b956574fdfb6a7669",
+    "simhash": "1:40ba905d10649536",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Scott v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Ill., 1st Dist. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6815.\nScott v. Illinois."
+  },
+  "file_name": "1097-14",
+  "first_page_order": 1173,
+  "last_page_order": 1173
+}

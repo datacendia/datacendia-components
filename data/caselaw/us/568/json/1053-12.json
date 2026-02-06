@@ -1,0 +1,59 @@
+{
+  "id": 12426990,
+  "name": "Cowan v. Florida",
+  "name_abbreviation": "Cowan v. Florida",
+  "decision_date": "2012-12-03",
+  "docket_number": "No. 12-6923",
+  "first_page": "1053",
+  "last_page": "1053",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1053"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 64,
+    "ocr_confidence": 0.7,
+    "sha256": "b2847d2a772b973ffda5d0ba68f3115d6f1587a3c04482dfb1ac3a3eed4cb1ca",
+    "simhash": "1:e7dfba037068bb27",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cowan v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Fla. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6923.\nCowan v. Florida."
+  },
+  "file_name": "1053-12",
+  "first_page_order": 1129,
+  "last_page_order": 1129
+}

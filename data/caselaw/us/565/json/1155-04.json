@@ -1,0 +1,59 @@
+{
+  "id": 12242323,
+  "name": "In re Rivera; In re Bush; and In re Butler",
+  "name_abbreviation": "In re Rivera",
+  "decision_date": "2012-01-17",
+  "docket_number": "No. 11-608; No. 11-7400; No. 11-7419",
+  "first_page": "1155",
+  "last_page": "1155",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1155"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 122,
+    "ocr_confidence": 0.651,
+    "sha256": "15912c3fed40d72fff7c284a18cb6461fea093569f55dc74607855e2ff1beb57",
+    "simhash": "1:d2081a31723d434d",
+    "word_count": 22
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Rivera; In re Bush; and In re Butler."
+    ],
+    "opinions": [
+      {
+        "text": "Petitions for writs of mandamus denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-608.\nNo. 11-7400.\nNo. 11-7419.\nIn re Rivera; In re Bush; and In re Butler."
+  },
+  "file_name": "1155-04",
+  "first_page_order": 1237,
+  "last_page_order": 1237
+}

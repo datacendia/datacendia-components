@@ -1,0 +1,59 @@
+{
+  "id": 4223288,
+  "name": "Vieau v. Metrish, Warden",
+  "name_abbreviation": "Vieau v. Metrish",
+  "decision_date": "2011-04-18",
+  "docket_number": "No. 10-9335",
+  "first_page": "947",
+  "last_page": "947",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 947"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.551,
+    "sha256": "a579e653f601d9543079941afde4faa27126b469c1236289793d1a35842aaf7c",
+    "simhash": "1:b58a16816c3b1066",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Vieau v. Metrish, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9335.\nVieau v. Metrish, Warden."
+  },
+  "file_name": "0947-13",
+  "first_page_order": 973,
+  "last_page_order": 973
+}
